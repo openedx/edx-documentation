@@ -1,0 +1,430 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>LTI Component &mdash; edX Open Learning XML Guide - Alpha Version  documentation</title>
+  
+
+  
+  
+
+  
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  
+  
+
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:'../',
+        VERSION:'',
+        COLLAPSE_INDEX:false,
+        FILE_SUFFIX:'.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+    <link rel="top" title="edX Open Learning XML Guide - Alpha Version  documentation" href="../index.html"/>
+        <link rel="up" title="Course Components (XBlocks)" href="index.html"/>
+        <link rel="next" title="Open Response Assessment Problems" href="open_response_assessment.html"/>
+        <link rel="prev" title="IFrame Tool" href="iframe.html"/> 
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-nav-search">
+        <a href="../index.html" class="icon icon-home"> edX Open Learning XML Guide - Alpha Version</a>
+        <form class="wy-form" action="../search.html" method="get">
+  <input type="text" name="q" placeholder="Search docs" />
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix">
+        
+        
+            <ul>
+<li class="toctree-l1"><a class="reference internal" href="../read_me.html">Read Me</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../preface.html">Preface</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../preface.html#system-status">System Status</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../preface.html#resources-for-course-teams">Resources for Course Teams</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../preface.html#resources-for-researchers">Resources for Researchers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../preface.html#resources-for-developers">Resources for Developers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../preface.html#resources-for-students">Resources for Students</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../change_log.html">Change Log</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../change_log.html#october-2014">October, 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../change_log.html#september-2014">September, 2014</a></li>
+</ul>
+</li>
+</ul>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../what-is-olx.html">What is Open Learning XML?</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../what-is-olx.html#xml-resources">XML Resources</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../tasks/index.html">Open Learning XML Uses</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../tasks/olx-studio.html">Use OLX with edX Studio</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tasks/deploy-lms.html">Build a Course in OLX and Deploy to the edX LMS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tasks/convert-to-olx.html">Convert Content in Other Formats to OLX</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../getting-started.html">Getting Started with OLX</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../directory-structure.html">OLX Course Structure</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../directory-structure.html#olx-and-directory-file-structures">OLX and Directory File Structures</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../directory-structure.html#top-level-directory">Top-level Directory</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../directory-structure.html#xblock-directories">XBlock Directories</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../directory-structure.html#edx-platform-directories">edX Platform Directories</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../policies/index.html">Policies</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../policies/course.html">Course Policies</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../policies/content-experiments.html">Group Configuration for Content Experiments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../policies/grading.html">Grading Policy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../policies/assets-policy.html">Course Asset Policy</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../assets/assets.html">Course Assets</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../about/index.html">The Course About Pages</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../about/overview.html">Course Overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../about/short-description.html">Short Description</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../pages/pages.html">Course Tabs</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../pages/pages.html#create-the-tab-file">Create the Tab File</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../organizing-course/index.html">Organizing Courseware</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../organizing-course/course-structure-overview.html">OLX Course Building Blocks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../organizing-course/course-xml-file.html">The Courseware Structure</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Course Components (XBlocks)</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="html-components.html">HTML Components</a></li>
+<li class="toctree-l2"><a class="reference internal" href="discussion-components.html">Discussion Components</a></li>
+<li class="toctree-l2"><a class="reference internal" href="video-components.html">Video Components</a></li>
+<li class="toctree-l2"><a class="reference internal" href="annotation.html">Annotation Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="conditional_module.html">Conditional Module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="full_screen_image.html">Full Screen Image Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="google_hangout.html">Google Instant Hangout Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="graphical_slider_tool.html">Graphical Slider Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="iframe.html">IFrame Tool</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="">LTI Component</a></li>
+<li class="toctree-l2"><a class="reference internal" href="open_response_assessment.html">Open Response Assessment Problems</a></li>
+<li class="toctree-l2"><a class="reference internal" href="periodic_table.html">Periodic Table Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="poll.html">Poll Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="word_cloud.html">Word Cloud Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="zooming_image.html">Zooming Image Tool</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../problem-xml/index.html">Problems</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../problem-xml/checkbox.html">Checkbox Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../problem-xml/chemical_equation.html">Chemical Equation Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../problem-xml/circuit_schematic_builder.html">Circuit Schematic Builder Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../problem-xml/custom_javascript.html">Custom JavaScript Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../problem-xml/custom_python.html">Write-Your-Own-Grader Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../problem-xml/drag_and_drop.html">Drag and Drop Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../problem-xml/dropdown.html">Dropdown Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../problem-xml/gene_explorer.html">Gene Explorer Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../problem-xml/image_mapped_input.html">Image Mapped Input Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../problem-xml/math_expression_input.html">Math Expression Input Problems</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../problem-xml/mathjax.html">A Brief Introduction to MathJax in Studio</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../problem-xml/molecule_editor.html">Molecule Editor Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../problem-xml/mult_choice_num_input.html">Multiple Choice and Numerical Input Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../problem-xml/multiple_choice.html">Multiple Choice Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../problem-xml/numerical_input.html">Numerical Input</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../problem-xml/problem_in_latex.html">Problem Written in LaTeX</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../problem-xml/problem_with_hint.html">Problem with Adaptive Hint</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../problem-xml/protein_builder.html">Protex Protein Builder Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../problem-xml/symbolic_response.html">Symbolic Response</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../problem-xml/text_input.html">Text Input Problem</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../example-course/index.html">Example of an OLX Course</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../example-course/insider-structure.html">The Structure of edX-Insider</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../example-course/insider-course-xml.html">The edX-Insider <tt class="docutils literal"><span class="pre">course.xml</span></tt> File</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../drafts/index.html">Draft Course Content</a><ul class="simple">
+</ul>
+</li>
+</ul>
+
+        
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top">
+        <i data-toggle="wy-nav-top" class="icon icon-reorder"></i>
+        <a href="/">edX Open Learning XML Guide - Alpha Version</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <ul class="wy-breadcrumbs">
+  <li><a href="../index.html">Docs</a> &raquo;</li>
+  <li><a href="">LTI Component</a></li>
+  
+</ul>
+<hr/>
+
+          
+  <div class="section" id="lti-component">
+<span id="id1"></span><h1>LTI Component<a class="headerlink" href="#lti-component" title="Permalink to this headline">¶</a></h1>
+<p>You may have discovered or developed an external learning application
+that you want to add to your online course. Or, you may have a digital
+copy of your textbook that uses a format other than PDF. You can add
+external learning applications or textbooks to Studio by using a
+Learning Tools Interoperability (LTI) component. The LTI component is
+based on the <a class="reference external" href="http://www.imsglobal.org/LTI/v1p1p1/ltiIMGv1p1p1.html">IMS Global Learning Tools
+Interoperability</a>
+version 1.1.1 specifications.</p>
+<p>You can use an LTI component in several ways.</p>
+<ul class="simple">
+<li>You can add external LTI content that is displayed only, such as textbook
+content that doesn’t require a student response.</li>
+<li>You can add external LTI content that requires a student response. An external
+provider will grade student responses.</li>
+<li>You can use the component as a placeholder for syncing with an external
+grading system.</li>
+</ul>
+<p>For example, the following LTI component incorporates a Cerego tool that students interact with.</p>
+<img alt="Cerego LTI component example" src="../_images/LTIExample.png" />
+<div class="section" id="obtain-lti-information">
+<span id="lti-information"></span><h2>Obtain LTI Information<a class="headerlink" href="#obtain-lti-information" title="Permalink to this headline">¶</a></h2>
+<p>Before you create an LTI component from an external LTI provider in a
+unit, you need the following information.</p>
+<ul>
+<li><p class="first">The <strong>launch URL</strong> (if the LTI component requires a student response
+that will be graded). You obtain the launch URL from the LTI
+provider. The launch URL is the URL that Studio sends to the external
+LTI provider so that the provider can send back students’ grades.</p>
+</li>
+<li><p class="first">The <strong>LTI Passports</strong> policy key. This policy key has three parts: an LTI ID,
+a client key, and a client secret.</p>
+<ul>
+<li><p class="first">The <strong>LTI ID</strong>. This is a value that you create to refer to the external LTI
+provider. You should create an LTI ID that you can remember easily.</p>
+<p>The LTI ID can contain uppercase and lowercase alphanumeric
+characters, as well as underscore characters (_). It can be any length. For example, you may create an LTI ID that is
+as simple as <strong>test_lti_id</strong>, or your LTI ID may be a string of
+numbers and letters such as  <strong>id_21441</strong> or
+<strong>book_lti_provider_from_new_york</strong>.</p>
+</li>
+<li><p class="first">The <strong>client key</strong>. This value is a sequence of characters that you
+obtain from the LTI provider. The client key is used for
+authentication and can contain any number of characters. For example,
+your client key may be <strong>b289378-f88d-2929-ctools.school.edu</strong>.</p>
+</li>
+<li><p class="first">The <strong>client secret</strong>. This value is a sequence of characters that
+you obtain from the LTI provider. The client secret is used for
+authentication and can contain any number of characters. For example,
+your client secret can be something as simple as <strong>secret</strong>, or it
+may be a string of numbers and letters such as <strong>23746387264</strong> or
+<strong>yt4984yr8</strong>.</p>
+</li>
+</ul>
+<p>To create the <strong>LTI Passports</strong> policy key, combine the LTI ID, client key, and client secret in the following format (make sure to include the colons):</p>
+<p><tt class="docutils literal"><span class="pre">lti_id:client_key:client_secret</span></tt></p>
+<p>For example, an <strong>LTI Passports</strong> policy key may resemble any of the following:</p>
+<p><tt class="docutils literal"><span class="pre">test_lti_id:b289378-f88d-2929-ctools.school.edu:secret</span></tt></p>
+<p><tt class="docutils literal"><span class="pre">id_21441:b289378-f88d-2929-ctools.school.edu:23746387264</span></tt></p>
+<p><tt class="docutils literal"><span class="pre">book_lti_provider_from_new_york:b289378-f88d-2929-ctools.company.com:yt4984yr8</span></tt></p>
+</li>
+</ul>
+</div>
+<div class="section" id="create-an-lti-component">
+<h2>Create an LTI Component<a class="headerlink" href="#create-an-lti-component" title="Permalink to this headline">¶</a></h2>
+<p>Creating an LTI component in your course has three steps.</p>
+<ol class="arabic simple">
+<li>Add LTI to the <strong>Advanced Module List</strong>  policy key.</li>
+<li>Register the LTI provider.</li>
+<li>Create the LTI component in an individual unit.</li>
+</ol>
+<div class="section" id="step-1-add-lti-to-the-advanced-module-list-policy-key">
+<h3>Step 1. Add LTI to the Advanced Module List Policy Key<a class="headerlink" href="#step-1-add-lti-to-the-advanced-module-list-policy-key" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic">
+<li><p class="first">On the <strong>Settings</strong> menu, click <strong>Advanced Settings</strong>.</p>
+</li>
+<li><p class="first">In the field for the <strong>Advanced Module List</strong> policy key, place your cursor
+between the brackets.</p>
+</li>
+<li><p class="first">Enter <tt class="docutils literal"><span class="pre">“lti”</span></tt>. Make sure to include the quotation marks, but not the
+period.</p>
+<a class="reference internal image-reference" href="../_images/LTIPolicyKey.png"><img alt="Image of the advanced_modules key in the Advanced Settings page, with the LTI value added" src="../_images/LTIPolicyKey.png" style="width: 500px;" /></a>
+</li>
+</ol>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">If the <strong>Advanced Module List</strong> field already contains text, place your cursor directly
+after the closing quotation mark for the final item, and then enter a comma
+followed by <tt class="docutils literal"><span class="pre">“lti”</span></tt> (make sure that you include the quotation marks).</p>
+</div>
+<ol class="arabic simple" start="4">
+<li>At the bottom of the page, click <strong>Save Changes</strong>.</li>
+</ol>
+<p>The page refreshes automatically. At the top of the page,
+you see a notification that your changes have been saved.</p>
+</div>
+<div class="section" id="step-2-register-the-external-lti-provider">
+<h3>Step 2. Register the External LTI Provider<a class="headerlink" href="#step-2-register-the-external-lti-provider" title="Permalink to this headline">¶</a></h3>
+<p>To register the external LTI provider, you’ll add the <strong>LTI Passports</strong> policy
+key to the course's advanced settings.</p>
+<ol class="arabic">
+<li><p class="first">On the <strong>Advanced Settings</strong> page, locate the <strong>LTI Passports</strong>
+policy key.</p>
+</li>
+<li><p class="first">Place your cursor between the brackets.</p>
+</li>
+<li><p class="first">Enter the <strong>LTI Passports</strong> policy key surrounded by quotation marks.</p>
+<p>For example, the text in the <strong>LTI Passports</strong> field may resemble the following.</p>
+<p><tt class="docutils literal"><span class="pre">&quot;test_lti_id:b289378-f88d-2929-ctools.umich.edu:secret&quot;</span></tt></p>
+<p>If you have multiple LTI providers, separate the values for each <strong>LTI
+Passports</strong> policy key with a comma. Make sure to surround each entry with
+quotation marks.</p>
+<div class="highlight-xml"><div class="highlight"><pre>&quot;test_lti_id:b289378-f88d-2929-ctools.umich.edu:secret&quot;,
+&quot;id_21441:b289378-f88d-2929-ctools.school.edu:23746387264&quot;,
+&quot;book_lti_provider_from_new_york:b289378-f88d-2929-ctools.company.com:yt4984yr8&quot;
+</pre></div>
+</div>
+</li>
+</ol>
+<ol class="arabic simple" start="4">
+<li>At the bottom of the page, click <strong>Save Changes</strong>.</li>
+</ol>
+<p>The page refreshes automatically. At the top of the page, you see a
+notification that your changes have been saved, and you can see your entries
+for the <strong>LTI Passports</strong> policy key.</p>
+</div>
+<div class="section" id="step-3-add-the-lti-component-to-a-unit">
+<h3>Step 3. Add the LTI Component to a Unit<a class="headerlink" href="#step-3-add-the-lti-component-to-a-unit" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li>In the unit where you want to create the problem, click <strong>Advanced</strong>
+under <strong>Add New Component</strong>, and then click <strong>LTI</strong>.</li>
+<li>In the component that appears, click <strong>Edit</strong>.</li>
+<li>In the component editor, specify the settings that you want. See <a class="reference internal" href="#lti-component-settings"><em>LTI Component Settings</em></a> for a description of each setting.</li>
+<li>Click <strong>Save</strong>.</li>
+</ol>
+</div>
+</div>
+<div class="section" id="lti-component-settings">
+<span id="id2"></span><h2>LTI Component Settings<a class="headerlink" href="#lti-component-settings" title="Permalink to this headline">¶</a></h2>
+<table border="1" class="docutils">
+<colgroup>
+<col width="11%" />
+<col width="89%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Setting</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Custom Parameters</td>
+<td><p class="first">Enables you to add one or more custom parameters. For example, if you've added an e-book, you can set a custom parameter that opens the e-book to a specific page. You could also use a custom parameter to set the background color of the LTI component.</p>
+<p>Every custom parameter has a key and a value. You must add the key and value in the following format.</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="n">key</span><span class="o">=</span><span class="n">value</span>
+</pre></div>
+</div>
+<p>For example, a custom parameter may resemble the following.</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="n">bgcolor</span><span class="o">=</span><span class="n">red</span>
+
+<span class="n">page</span><span class="o">=</span><span class="mi">144</span>
+</pre></div>
+</div>
+<p class="last">To add a custom parameter, click <strong>Add</strong>.</p>
+</td>
+</tr>
+<tr class="row-odd"><td>Display Name</td>
+<td>Specifies the name of the problem. This name appears above the problem and in the course ribbon at the top of the page in the courseware. Analytics reports may also use the display name to identify this component.</td>
+</tr>
+<tr class="row-even"><td>Hide External Tool</td>
+<td>Indicates whether you want to launch an external tool or to use this component as a placeholder for syncing with an external grading system. If you set the value to <strong>True</strong>, Studio hides the <strong>Launch</strong> button and any IFrames for this component. By default, this value is set to <strong>False</strong>.</td>
+</tr>
+<tr class="row-odd"><td>LTI ID</td>
+<td>Specifies the LTI ID for the external LTI provider. This value must be the same LTI ID that you entered on the <strong>Advanced Settings</strong> page.</td>
+</tr>
+<tr class="row-even"><td>LTI URL</td>
+<td>Specifies the URL of the external tool that this component launches. This setting is applicable when <strong>Hide External Tool</strong> is set to False.</td>
+</tr>
+<tr class="row-odd"><td>Open in New Page</td>
+<td>Indicates whether the problem opens in a new page. If you set this value to <strong>True</strong>,          the student clicks a link that opens the LTI content in a new window. If you set this value to <strong>False</strong>, the LTI content opens in an IFrame in the current page. This setting is applicable when <strong>Hide External Tool</strong> is set to False.</td>
+</tr>
+<tr class="row-even"><td>Scored</td>
+<td>Indicates whether the LTI component receives a numerical score from the external LTI system. By default, this value is set to <strong>False</strong>.</td>
+</tr>
+<tr class="row-odd"><td>Weight</td>
+<td><p class="first">Specifies the number of points possible for the problem. By default, if an external LTI provider grades the problem, the problem is worth 1 point, and a student’s score can be any value between 0 and 1. This setting is applicable when <strong>Scored</strong> is set to <strong>True</strong>.</p>
+<p class="last">For more information about problem weights and computing point scores, see <em class="xref std std-ref">Problem Weight</em>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+
+          <footer>
+  
+    <div class="rst-footer-buttons">
+      
+        <a href="open_response_assessment.html" class="btn btn-neutral float-right" title="Open Response Assessment Problems"/>Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="iframe.html" class="btn btn-neutral" title="IFrame Tool"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <p>
+      &copy; Copyright 2014, edX.
+  </p>
+
+  <a href="https://www.github.com/snide/sphinx_rtd_theme">Sphinx theme</a> provided by <a href="http://readthedocs.org">Read the Docs</a>
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+</body>
+</html>

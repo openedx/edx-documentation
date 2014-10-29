@@ -1,0 +1,344 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>OLX Course Structure &mdash; edX Open Learning XML Guide - Alpha Version  documentation</title>
+  
+
+  
+  
+
+  
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  
+  
+
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:'./',
+        VERSION:'',
+        COLLAPSE_INDEX:false,
+        FILE_SUFFIX:'.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+    <link rel="top" title="edX Open Learning XML Guide - Alpha Version  documentation" href="index.html"/>
+        <link rel="next" title="Policies" href="policies/index.html"/>
+        <link rel="prev" title="Getting Started with OLX" href="getting-started.html"/> 
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-nav-search">
+        <a href="index.html" class="icon icon-home"> edX Open Learning XML Guide - Alpha Version</a>
+        <form class="wy-form" action="search.html" method="get">
+  <input type="text" name="q" placeholder="Search docs" />
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix">
+        
+        
+            <ul>
+<li class="toctree-l1"><a class="reference internal" href="read_me.html">Read Me</a></li>
+<li class="toctree-l1"><a class="reference internal" href="preface.html">Preface</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="preface.html#system-status">System Status</a></li>
+<li class="toctree-l2"><a class="reference internal" href="preface.html#resources-for-course-teams">Resources for Course Teams</a></li>
+<li class="toctree-l2"><a class="reference internal" href="preface.html#resources-for-researchers">Resources for Researchers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="preface.html#resources-for-developers">Resources for Developers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="preface.html#resources-for-students">Resources for Students</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="change_log.html">Change Log</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="change_log.html#october-2014">October, 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="change_log.html#september-2014">September, 2014</a></li>
+</ul>
+</li>
+</ul>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="what-is-olx.html">What is Open Learning XML?</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="what-is-olx.html#xml-resources">XML Resources</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="tasks/index.html">Open Learning XML Uses</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="tasks/olx-studio.html">Use OLX with edX Studio</a></li>
+<li class="toctree-l2"><a class="reference internal" href="tasks/deploy-lms.html">Build a Course in OLX and Deploy to the edX LMS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="tasks/convert-to-olx.html">Convert Content in Other Formats to OLX</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="getting-started.html">Getting Started with OLX</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="">OLX Course Structure</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#olx-and-directory-file-structures">OLX and Directory File Structures</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#top-level-directory">Top-level Directory</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#xblock-directories">XBlock Directories</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#edx-platform-directories">edX Platform Directories</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="policies/index.html">Policies</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="policies/course.html">Course Policies</a></li>
+<li class="toctree-l2"><a class="reference internal" href="policies/content-experiments.html">Group Configuration for Content Experiments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="policies/grading.html">Grading Policy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="policies/assets-policy.html">Course Asset Policy</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="assets/assets.html">Course Assets</a></li>
+<li class="toctree-l1"><a class="reference internal" href="about/index.html">The Course About Pages</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="about/overview.html">Course Overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="about/short-description.html">Short Description</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="pages/pages.html">Course Tabs</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="pages/pages.html#create-the-tab-file">Create the Tab File</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="organizing-course/index.html">Organizing Courseware</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="organizing-course/course-structure-overview.html">OLX Course Building Blocks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="organizing-course/course-xml-file.html">The Courseware Structure</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="components/index.html">Course Components (XBlocks)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="components/html-components.html">HTML Components</a></li>
+<li class="toctree-l2"><a class="reference internal" href="components/discussion-components.html">Discussion Components</a></li>
+<li class="toctree-l2"><a class="reference internal" href="components/video-components.html">Video Components</a></li>
+<li class="toctree-l2"><a class="reference internal" href="components/annotation.html">Annotation Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="components/conditional_module.html">Conditional Module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="components/full_screen_image.html">Full Screen Image Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="components/google_hangout.html">Google Instant Hangout Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="components/graphical_slider_tool.html">Graphical Slider Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="components/iframe.html">IFrame Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="components/lti_component.html">LTI Component</a></li>
+<li class="toctree-l2"><a class="reference internal" href="components/open_response_assessment.html">Open Response Assessment Problems</a></li>
+<li class="toctree-l2"><a class="reference internal" href="components/periodic_table.html">Periodic Table Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="components/poll.html">Poll Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="components/word_cloud.html">Word Cloud Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="components/zooming_image.html">Zooming Image Tool</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="problem-xml/index.html">Problems</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="problem-xml/checkbox.html">Checkbox Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="problem-xml/chemical_equation.html">Chemical Equation Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="problem-xml/circuit_schematic_builder.html">Circuit Schematic Builder Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="problem-xml/custom_javascript.html">Custom JavaScript Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="problem-xml/custom_python.html">Write-Your-Own-Grader Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="problem-xml/drag_and_drop.html">Drag and Drop Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="problem-xml/dropdown.html">Dropdown Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="problem-xml/gene_explorer.html">Gene Explorer Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="problem-xml/image_mapped_input.html">Image Mapped Input Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="problem-xml/math_expression_input.html">Math Expression Input Problems</a></li>
+<li class="toctree-l2"><a class="reference internal" href="problem-xml/mathjax.html">A Brief Introduction to MathJax in Studio</a></li>
+<li class="toctree-l2"><a class="reference internal" href="problem-xml/molecule_editor.html">Molecule Editor Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="problem-xml/mult_choice_num_input.html">Multiple Choice and Numerical Input Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="problem-xml/multiple_choice.html">Multiple Choice Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="problem-xml/numerical_input.html">Numerical Input</a></li>
+<li class="toctree-l2"><a class="reference internal" href="problem-xml/problem_in_latex.html">Problem Written in LaTeX</a></li>
+<li class="toctree-l2"><a class="reference internal" href="problem-xml/problem_with_hint.html">Problem with Adaptive Hint</a></li>
+<li class="toctree-l2"><a class="reference internal" href="problem-xml/protein_builder.html">Protex Protein Builder Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="problem-xml/symbolic_response.html">Symbolic Response</a></li>
+<li class="toctree-l2"><a class="reference internal" href="problem-xml/text_input.html">Text Input Problem</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="example-course/index.html">Example of an OLX Course</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="example-course/insider-structure.html">The Structure of edX-Insider</a></li>
+<li class="toctree-l2"><a class="reference internal" href="example-course/insider-course-xml.html">The edX-Insider <tt class="docutils literal"><span class="pre">course.xml</span></tt> File</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="drafts/index.html">Draft Course Content</a><ul class="simple">
+</ul>
+</li>
+</ul>
+
+        
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top">
+        <i data-toggle="wy-nav-top" class="icon icon-reorder"></i>
+        <a href="/">edX Open Learning XML Guide - Alpha Version</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <ul class="wy-breadcrumbs">
+  <li><a href="index.html">Docs</a> &raquo;</li>
+  <li><a href="">OLX Course Structure</a></li>
+  
+</ul>
+<hr/>
+
+          
+  <div class="section" id="olx-course-structure">
+<span id="odl-directory-structure"></span><h1>OLX Course Structure<a class="headerlink" href="#olx-course-structure" title="Permalink to this headline">¶</a></h1>
+<p>This chapter describes the structure of a generic OLX course. See:</p>
+<ul class="simple">
+<li><a class="reference internal" href="#olx-and-directory-file-structures">OLX and Directory File Structures</a></li>
+<li><a class="reference internal" href="#top-level-directory">Top-level Directory</a></li>
+<li><a class="reference internal" href="#xblock-directories">XBlock directories</a></li>
+<li><a class="reference internal" href="#edx-platform-directories">edX Platform Directories</a></li>
+</ul>
+<p>See <a class="reference internal" href="example-course/insider-structure.html#the-structure-of-edx-insider"><em>The Structure of edX-Insider</em></a> for information on how a specific OLX course is structured.</p>
+<div class="section" id="olx-and-directory-file-structures">
+<h2>OLX and Directory File Structures<a class="headerlink" href="#olx-and-directory-file-structures" title="Permalink to this headline">¶</a></h2>
+<p>All files and sub-directories that comprise your OLX course are stored within
+a single directory.</p>
+<p>OLX provides for some flexibility in the directory and file structure
+you use to build your course.</p>
+</div>
+<div class="section" id="top-level-directory">
+<h2>Top-level Directory<a class="headerlink" href="#top-level-directory" title="Permalink to this headline">¶</a></h2>
+<p>Starting out, it is easiest to create your courseware structure in a
+single file, the <tt class="docutils literal"><span class="pre">course.xml</span> <span class="pre">file</span></tt>.</p>
+<p>This file can contain your entire course, but in most cases, it is convenient
+to split out large chunks of content into individual files. This is typically
+done either at the level of large components, such as problems or homework
+assignments.</p>
+<p>Currently, when Studio exports a course, it places each component in its own
+file.</p>
+<p>For example, the edX Platform contains a directory called
+<a class="reference external" href="https://github.com/edx/edx-platform/tree/master/common/test/data/manual-testing-complete">manual-testing-complete</a> that contains a course with all component
+types for testing purposes.</p>
+<p>Following are descriptions of directories needed for a typical course. You
+should set up these directories in preparation for developing your course
+content.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">If you are using custom XBlocks, you can have
+additional directories that store the XML for XBlocks of that type.</p>
+</div>
+</div>
+<div class="section" id="xblock-directories">
+<h2>XBlock Directories<a class="headerlink" href="#xblock-directories" title="Permalink to this headline">¶</a></h2>
+<p>edX course components can be broken out of the main <tt class="docutils literal"><span class="pre">course.xml</span></tt> file
+into individual files. Those files go into directories of the name of
+the component type (XML tag). For example, components of type <tt class="docutils literal"><span class="pre">html</span></tt>
+can be placed as individual files in the <tt class="docutils literal"><span class="pre">html</span></tt> directory. If your
+course does not contain html files, or if they are all embedded in
+their top-level components, you do not need to create an <tt class="docutils literal"><span class="pre">html</span></tt>
+directory.</p>
+<p>For information about several examples of these directories, see:</p>
+<p>See <a class="reference internal" href="components/html-components.html#html-components"><em>HTML Components</em></a> for more information.
+See <em class="xref std std-ref">Problems and Tools</em> for more information.
+See <a class="reference internal" href="components/video-components.html#video-components"><em>Video Components</em></a> for more information.</p>
+<p>As the set of XBlocks grows, so does the set of associated XML tags
+and directories.</p>
+</div>
+<div class="section" id="edx-platform-directories">
+<h2>edX Platform Directories<a class="headerlink" href="#edx-platform-directories" title="Permalink to this headline">¶</a></h2>
+<p>In addition to the course hierarchy, which is designed to be generic
+and cross-platform, OLX courses contain a set of JSON and HTML
+files that specify course policies and non-courseare content.</p>
+<div class="section" id="about-directory">
+<h3><tt class="docutils literal"><span class="pre">about</span></tt> Directory<a class="headerlink" href="#about-directory" title="Permalink to this headline">¶</a></h3>
+<p>The <tt class="docutils literal"><span class="pre">about</span></tt> directory contains:</p>
+<ul class="simple">
+<li><tt class="docutils literal"><span class="pre">overview.html</span></tt>, which contains the content for the course overview page
+that students see in the the Learning Management System (LMS).</li>
+<li><tt class="docutils literal"><span class="pre">short_description.html</span></tt>, which contains the content for the course in the
+course list.</li>
+</ul>
+<p>See <a class="reference internal" href="about/index.html#the-course-about-pages"><em>The Course About Pages</em></a> for more information.</p>
+</div>
+<div class="section" id="info-directory">
+<h3><tt class="docutils literal"><span class="pre">info</span></tt> Directory<a class="headerlink" href="#info-directory" title="Permalink to this headline">¶</a></h3>
+<p>The <tt class="docutils literal"><span class="pre">info</span></tt> directory contains:</p>
+<ul class="simple">
+<li><tt class="docutils literal"><span class="pre">handouts.html</span></tt>, which contains the content for the <strong>Course Handouts</strong>
+page in the course.</li>
+<li><tt class="docutils literal"><span class="pre">updates.html</span></tt>, which contains the course updates students see when opening
+a course.</li>
+</ul>
+</div>
+<div class="section" id="policies-directory">
+<h3><tt class="docutils literal"><span class="pre">policies</span></tt> Directory<a class="headerlink" href="#policies-directory" title="Permalink to this headline">¶</a></h3>
+<p>The <tt class="docutils literal"><span class="pre">policies</span></tt> directory contains:</p>
+<ul class="simple">
+<li><tt class="docutils literal"><span class="pre">grading_policy.json</span></tt>, which defines how student work is graded in the
+course.</li>
+<li><tt class="docutils literal"><span class="pre">policy.json</span></tt>, which defines various settings in the course.</li>
+<li><tt class="docutils literal"><span class="pre">assets.json</span></tt>, which defines all files used in the course, such as images.</li>
+</ul>
+<p>See <a class="reference internal" href="policies/course.html#course-policies"><em>Course Policies</em></a> for more information.</p>
+</div>
+<div class="section" id="static-directory">
+<h3><tt class="docutils literal"><span class="pre">static</span></tt> Directory<a class="headerlink" href="#static-directory" title="Permalink to this headline">¶</a></h3>
+<p>The <tt class="docutils literal"><span class="pre">static</span></tt> directory contains the files used in your course, such as images
+or PDFs.</p>
+<p>See <a class="reference internal" href="assets/assets.html#course-assets"><em>Course Assets</em></a> for more information.</p>
+</div>
+<div class="section" id="tabs-directory">
+<h3><tt class="docutils literal"><span class="pre">tabs</span></tt> Directory<a class="headerlink" href="#tabs-directory" title="Permalink to this headline">¶</a></h3>
+<p>The <tt class="docutils literal"><span class="pre">tabs</span></tt> directory contains an HTML file for each page you add to your
+course.</p>
+<p>See <a class="reference internal" href="pages/pages.html#course-tabs"><em>Course Tabs</em></a> for more information.</p>
+<blockquote>
+<div></div></blockquote>
+</div>
+</div>
+</div>
+
+
+          <footer>
+  
+    <div class="rst-footer-buttons">
+      
+        <a href="policies/index.html" class="btn btn-neutral float-right" title="Policies"/>Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="getting-started.html" class="btn btn-neutral" title="Getting Started with OLX"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <p>
+      &copy; Copyright 2014, edX.
+  </p>
+
+  <a href="https://www.github.com/snide/sphinx_rtd_theme">Sphinx theme</a> provided by <a href="http://readthedocs.org">Read the Docs</a>
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+</body>
+</html>

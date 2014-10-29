@@ -1,0 +1,481 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>8.1. Creating Exercises and Tools &mdash; Building and Running an edX Course  documentation</title>
+  
+
+  
+  
+
+  
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  
+  
+
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:'../',
+        VERSION:'',
+        COLLAPSE_INDEX:false,
+        FILE_SUFFIX:'.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+    <link rel="top" title="Building and Running an edX Course  documentation" href="../index.html"/>
+        <link rel="up" title="8. Creating Exercises and Tools" href="index.html"/>
+        <link rel="next" title="8.2. Annotation Problem" href="annotation.html"/>
+        <link rel="prev" title="8. Creating Exercises and Tools" href="index.html"/> 
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-nav-search">
+        <a href="../index.html" class="icon icon-home"> Building and Running an edX Course</a>
+        <form class="wy-form" action="../search.html" method="get">
+  <input type="text" name="q" placeholder="Search docs" />
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix">
+        
+        
+            <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../read_me.html">1. Read Me</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../preface.html">2. Preface</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../preface.html#system-status">2.1. System Status</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../preface.html#resources-for-course-teams">2.2. Resources for Course Teams</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../preface.html#resources-for-researchers">2.3. Resources for Researchers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../preface.html#resources-for-developers">2.4. Resources for Developers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../preface.html#resources-for-students">2.5. Resources for Students</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../change_log.html">3. Change Log</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../change_log.html#october-2014">3.1. October, 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../change_log.html#september-2014">3.2. September, 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../change_log.html#august-2014">3.3. August, 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../change_log.html#july-2014">3.4. July, 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../change_log.html#june-2014">3.5. June, 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../change_log.html#may-2014">3.6. May, 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../change_log.html#april-2014">3.7. April, 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../change_log.html#march-2014">3.8. March, 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../change_log.html#february-2014">3.9. February, 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../change_log.html#january-2014">3.10. January, 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../change_log.html#december-2013">3.11. December, 2013</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../getting_started/index.html">4. Getting Started</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../getting_started/browsers.html">4.1. edX Browser Support</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../getting_started/accounts.html">4.2. Getting Started with edX</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../getting_started/get_started.html">4.3. Getting Started with Studio</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../getting_started/accessibility.html">4.4. Guidelines for Creating Accessible Content</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../getting_started/glossary.html">4.5. Glossary</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../building_course/index.html">5. Setting up Your Course</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../building_course/creating_new_course.html">5.1. Creating a New Course</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../building_course/export_import_course.html">5.2. Exporting and Importing a Course</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../building_course/course_files.html">5.3. Adding Files to a Course</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../building_course/handouts_updates.html">5.4. Adding Course Updates and Handouts</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../building_course/pages.html">5.5. Adding Pages to a Course</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../building_course/textbooks.html">5.6. Adding Textbooks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../building_course/establish_grading_policy.html">5.7. Establishing a Grading Policy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../building_course/setting_up_student_view.html">5.8. Setting up the Student View</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../developing_course/index.html">6. Developing Your Course</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../developing_course/workflow.html">6.1. Getting Started with Course Content Development</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../developing_course/course_outline.html">6.2. Developing Your Course Outline</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../developing_course/course_sections.html">6.3. Developing Course Sections</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../developing_course/course_subsections.html">6.4. Developing Course Subsections</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../developing_course/course_units.html">6.5. Developing Course Units</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../developing_course/course_components.html">6.6. Developing Course Components</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../developing_course/controlling_content_visibility.html">6.7. Controlling Content Visibility</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../developing_course/testing_courseware.html">6.8. Testing Your Course Content</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../creating_content/index.html">7. Creating Course Content</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../creating_content/create_html_component.html">7.1. Working with HTML Components</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../creating_content/create_video.html">7.2. Working with Video Components</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../creating_content/create_discussion.html">7.3. Working with Discussion Components</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../creating_content/create_problem.html">7.4. Working with Problem Components</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">8. Creating Exercises and Tools</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="">8.1. Creating Exercises and Tools</a></li>
+<li class="toctree-l2"><a class="reference internal" href="annotation.html">8.2. Annotation Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="checkbox.html">8.3. Checkbox Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chemical_equation.html">8.4. Chemical Equation Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="circuit_schematic_builder.html">8.5. Circuit Schematic Builder Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="conditional_module.html">8.6. Conditional Module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="custom_javascript.html">8.7. Custom JavaScript Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="drag_and_drop.html">8.8. Drag and Drop Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dropdown.html">8.9. Dropdown Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="external_graders.html">8.10. External Grader</a></li>
+<li class="toctree-l2"><a class="reference internal" href="full_screen_image.html">8.11. Full Screen Image Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gene_explorer.html">8.12. Gene Explorer Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="google_hangouts.html">8.13. Google Instant Hangout Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="iframe.html">8.14. IFrame Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="image_mapped_input.html">8.15. Image Mapped Input Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="lti_component.html">8.16. LTI Component</a></li>
+<li class="toctree-l2"><a class="reference internal" href="math_expression_input.html">8.17. Math Expression Input Problems</a></li>
+<li class="toctree-l2"><a class="reference internal" href="molecule_editor.html">8.18. Molecule Editor Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="molecule_viewer.html">8.19. Molecule Viewer Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="multiple_choice.html">8.20. Multiple Choice Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mult_choice_num_input.html">8.21. Multiple Choice and Numerical Input Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="numerical_input.html">8.22. Numerical Input</a></li>
+<li class="toctree-l2"><a class="reference internal" href="open_response_assessment.html">8.23. Open Response Assessment Problems</a></li>
+<li class="toctree-l2"><a class="reference internal" href="periodic_table.html">8.24. Periodic Table Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="poll.html">8.25. Poll Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="problem_with_hint.html">8.26. Problem with Adaptive Hint</a></li>
+<li class="toctree-l2"><a class="reference internal" href="problem_in_latex.html">8.27. Problem Written in LaTeX</a></li>
+<li class="toctree-l2"><a class="reference internal" href="protein_builder.html">8.28. Protex Protein Builder Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="text_input.html">8.29. Text Input Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="word_cloud.html">8.30. Word Cloud Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="custom_python.html">8.31. Write-Your-Own-Grader Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="zooming_image.html">8.32. Zooming Image Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mathjax.html">8.33. A Brief Introduction to MathJax in Studio</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../content_experiments/index.html">9. Creating Content Experiments</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../content_experiments/content_experiments_overview.html">9.1. Overview of Content Experiments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../content_experiments/content_experiments_configure.html">9.2. Configure Your Course for Content Experiments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../content_experiments/content_experiments_add.html">9.3. Add Content Experiments to Your Course</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../content_experiments/content_experiments_view.html">9.4. Test Content Experiments</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../cohorts/index.html">10. Including Student Cohorts</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../cohorts/cohorts_overview.html">10.1. Using Cohorts to Build Course Communities</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../cohorts/cohort_config.html">10.2. Enabling and Configuring the Cohort Feature</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../cohorts/cohorts_discussions.html">10.3. Managing Discussions in a Course with Student Cohorts</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../releasing_course/index.html">11. Releasing Your Course</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../releasing_course/beta_testing.html">11.1. Beta Testing a Course</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasing_course/course_launching.html">11.2. Course Launching Activities</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasing_course/staff_debug_info.html">11.3. Staff Debug Info</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../running_course/index.html">12. Running Your Course</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../running_course/course_staffing.html">12.1. Staffing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../running_course/course_enrollment.html">12.2. Enrollment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../running_course/discussions.html">12.3. Managing Course Discussions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../running_course/discussions_students.html">12.4. Participating in Course Discussions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../running_course/discussion_guidance_moderators.html">12.5. Guidance for Discussion Moderators</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../running_course/course_data.html">12.6. Course Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../running_course/course_student.html">12.7. Student Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../running_course/course_answers.html">12.8. Answer Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../running_course/course_grades.html">12.9. Student Grades and Grading</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../running_course/checking_student_progress.html">12.10. Assign Final Grades and Issue Certificates</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../students/index.html">13. Information for Your Students</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../students/login_guide.html">13.1. Sample Student Login Guide</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../students/math_students.html">13.2. Math Response Formatting for Students</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../students/ora_students.html">13.3. Open Response Assessments for Students</a></li>
+</ul>
+</li>
+</ul>
+
+        
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top">
+        <i data-toggle="wy-nav-top" class="icon icon-reorder"></i>
+        <a href="/">Building and Running an edX Course</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <ul class="wy-breadcrumbs">
+  <li><a href="../index.html">Docs</a> &raquo;</li>
+  <li><a href="">8.1. Creating Exercises and Tools</a></li>
+  
+</ul>
+<hr/>
+
+          
+  <div class="section" id="creating-exercises-and-tools">
+<span id="create-exercises"></span><h1>8.1. Creating Exercises and Tools<a class="headerlink" href="#creating-exercises-and-tools" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="introduction-to-exercises-and-tools">
+<h2>8.1.1. Introduction to  Exercises and Tools<a class="headerlink" href="#introduction-to-exercises-and-tools" title="Permalink to this headline">¶</a></h2>
+<p>Studio allows you to create a wide variety of exercises and tools for your course. Many of these exercises and tools have templates in Studio so that you can create them easily. In addition, individual course teams frequently create exercises that don&#8217;t have templates in Studio. We&#8217;re striving to make these tools available to all our course teams as well, and we have instructions for creating some of them in this section.</p>
+<p>Depending on the exercise or tool, you&#8217;ll use an HTML, Problem, or Advanced component. The page for each individual exercise or tool contains an example of each exercise or tool, together with all the files, code, and step-by-step instructions that you need to create the exercise or tool.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Problems must include labels for accessibility. The label generally includes the text of the main question in your problem. Instructions for adding labels appear in the page for each individual problem.</p>
+</div>
+</div>
+<div class="section" id="general-exercises-and-tools">
+<h2>8.1.2. General Exercises and Tools<a class="headerlink" href="#general-exercises-and-tools" title="Permalink to this headline">¶</a></h2>
+<table border="1" class="docutils">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="50%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><a class="first last reference internal image-reference" href="../_images/AnnotationExample1.png"><img alt="Example annotation problem" src="../_images/AnnotationExample1.png" style="width: 100px;" /></a>
+</td>
+<td><a class="reference internal" href="annotation.html#annotation"><em>Annotation Problem</em></a></td>
+<td>Annotation problems ask students to respond to questions about a specific block of text. The question appears above the text when the student hovers the mouse over the highlighted text so that students can think about the question as they read.</td>
+</tr>
+<tr class="row-even"><td><a class="first last reference internal image-reference" href="../_images/PollExample.png"><img alt="Example poll" src="../_images/PollExample.png" style="width: 100px;" /></a>
+</td>
+<td><a class="reference internal" href="conditional_module.html#conditional-module"><em>Conditional Module</em></a></td>
+<td>You can create a conditional module to control versions of content that groups of students see. For example, students who answer &#8220;Yes&#8221; to a poll question then see a different block of text from the students who answer &#8220;No&#8221; to that question.</td>
+</tr>
+<tr class="row-odd"><td><a class="first last reference internal image-reference" href="../_images/JavaScriptInputExample.png"><img alt="Example JavaScript problem" src="../_images/JavaScriptInputExample.png" style="width: 100px;" /></a>
+</td>
+<td><a class="reference internal" href="custom_javascript.html#custom-javascript"><em>Custom JavaScript Problem</em></a></td>
+<td>Custom JavaScript display and grading problems (also called <em>custom JavaScript problems</em> or <em>JS Input problems</em>) allow you to create a custom problem or tool that uses JavaScript and then add the problem or tool directly into Studio.</td>
+</tr>
+<tr class="row-even"><td><a class="first last reference internal image-reference" href="../_images/external-grader-correct.png"><img alt="Example external grader" src="../_images/external-grader-correct.png" style="width: 100px;" /></a>
+</td>
+<td><a class="reference internal" href="external_graders.html#external-grader"><em>External Grader</em></a></td>
+<td>An external grader is a service that receives student responses to a problem, processes those responses, and returns feedback and a problem grade to the edX platform. You build and deploy an external grader separately from the edX platform. An external grader is particularly useful for software programming courses where students are asked to submit complex code.</td>
+</tr>
+<tr class="row-odd"><td><a class="first last reference internal image-reference" href="../_images/GoogleHangout_WithPeople.png"><img alt="Google Hangout" src="../_images/GoogleHangout_WithPeople.png" style="width: 100px;" /></a>
+</td>
+<td><a class="reference internal" href="google_hangouts.html#google-instant-hangout"><em>Google Instant Hangout Tool</em></a></td>
+<td>You can add the ability for students to participate in instant hangouts directly from your course. With instant hangouts, students can interact through live video and voice, share screens and watch videos together, and collaborate on documents.</td>
+</tr>
+<tr class="row-even"><td><a class="first last reference internal image-reference" href="../_images/IFrame_1.png"><img alt="Example IFrame tool" src="../_images/IFrame_1.png" style="width: 100px;" /></a>
+</td>
+<td><a class="reference internal" href="iframe.html#iframe"><em>IFrame Tool</em></a></td>
+<td>IFrames allow you to integrate ungraded exercises and tools from any Internet site into an HTML component in your course.</td>
+</tr>
+<tr class="row-odd"><td><a class="first last reference internal image-reference" href="../_images/LTIExample.png"><img alt="Example LTI component" src="../_images/LTIExample.png" style="width: 100px;" /></a>
+</td>
+<td><a class="reference internal" href="lti_component.html#lti-component"><em>LTI Component</em></a></td>
+<td>LTI components allow you to add an external learning application or non-PDF textbook to Studio.</td>
+</tr>
+<tr class="row-even"><td><a class="first last reference internal image-reference" href="../_images/CITL_AssmtTypes.png"><img alt="Example open response assessment" src="../_images/CITL_AssmtTypes.png" style="width: 100px;" /></a>
+</td>
+<td><a class="reference internal" href="open_response_assessment.html#open-response-assessment"><em>Open Response Assessment Problems</em></a></td>
+<td>In open response assessments, students receive feedback on written responses of varying lengths as well as files, such as computer code or images, that the students upload. Open response assessments include self assessment and peer assessment.</td>
+</tr>
+<tr class="row-odd"><td><a class="first last reference internal image-reference" href="../_images/PollExample.png"><img alt="Example poll" src="../_images/PollExample.png" style="width: 100px;" /></a>
+</td>
+<td><a class="reference internal" href="poll.html#poll"><em>Poll Tool</em></a></td>
+<td>You can run polls in your course so that your students can share opinions on different questions.</td>
+</tr>
+<tr class="row-even"><td><a class="first last reference internal image-reference" href="../_images/ProblemWithAdaptiveHintExample.png"><img alt="Example problem with adaptive hint" src="../_images/ProblemWithAdaptiveHintExample.png" style="width: 100px;" /></a>
+</td>
+<td><a class="reference internal" href="problem_with_hint.html#problem-with-adaptive-hint"><em>Problem with Adaptive Hint</em></a></td>
+<td>A problem with an adaptive hint evaluates a student&#8217;s response, then gives the student feedback or a hint based on that response so that the student is more likely to answer correctly on the next attempt. These problems can be text input or multiple choice problems.</td>
+</tr>
+<tr class="row-odd"><td><a class="first last reference internal image-reference" href="../_images/ProblemWrittenInLaTeX.png"><img alt="Example problem written in LaTeX" src="../_images/ProblemWrittenInLaTeX.png" style="width: 100px;" /></a>
+</td>
+<td><a class="reference internal" href="problem_in_latex.html#problem-written-in-latex"><em>Problem Written in LaTeX</em></a></td>
+<td>If you have an problem that is already written in LaTeX, you can use this problem type to easily convert your code into XML.</td>
+</tr>
+<tr class="row-even"><td><a class="first last reference internal image-reference" href="../_images/TextInputExample.png"><img alt="Example text input problem" src="../_images/TextInputExample.png" style="width: 100px;" /></a>
+</td>
+<td><a class="reference internal" href="text_input.html#text-input"><em>Text Input Problem</em></a></td>
+<td>In text input problems, students enter text into a response field. The response can include numbers, letters, and special characters such as punctuation marks.</td>
+</tr>
+<tr class="row-odd"><td><a class="first last reference internal image-reference" href="../_images/WordCloudExample.png"><img alt="Example word cloud" src="../_images/WordCloudExample.png" style="width: 100px;" /></a>
+</td>
+<td><a class="reference internal" href="word_cloud.html#word-cloud"><em>Word Cloud Tool</em></a></td>
+<td>Word clouds arrange text that students enter - for example, in response to a question - into a colorful graphic that students can see.</td>
+</tr>
+<tr class="row-even"><td><a class="first last reference internal image-reference" href="../_images/CustomPythonExample.png"><img alt="Example write-your-own-grader problem" src="../_images/CustomPythonExample.png" style="width: 100px;" /></a>
+</td>
+<td><a class="reference internal" href="custom_python.html#write-your-own-grader"><em>Write-Your-Own-Grader Problem</em></a></td>
+<td>In custom Python-evaluated input (also called &#8220;write-your-own-grader&#8221;) problems, the grader uses a Python script that you create and embed in the problem to evaluates a student&#8217;s response or provide hints. These problems can be any type.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="image-based-exercises-and-tools">
+<h2>8.1.3. Image-Based Exercises and Tools<a class="headerlink" href="#image-based-exercises-and-tools" title="Permalink to this headline">¶</a></h2>
+<table border="1" class="docutils">
+<colgroup>
+<col width="22%" />
+<col width="19%" />
+<col width="59%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><a class="first last reference internal image-reference" href="../_images/DragAndDropProblem.png"><img alt="Example drag and drop problem" src="../_images/DragAndDropProblem.png" style="width: 100px;" /></a>
+</td>
+<td><a class="reference internal" href="drag_and_drop.html#drag-and-drop"><em>Drag and Drop Problem</em></a></td>
+<td>In drag and drop problems, students respond to a question by dragging text or objects to a specific location on an image.</td>
+</tr>
+<tr class="row-even"><td><a class="first last reference internal image-reference" href="../_images/image-modal.png"><img alt="Example full screen image tool" src="../_images/image-modal.png" style="width: 100px;" /></a>
+</td>
+<td><a class="reference internal" href="full_screen_image.html#full-screen-image"><em>Full Screen Image Tool</em></a></td>
+<td>The Full Screen Image tool allows a student to enlarge an image in the whole browser window. This is useful when the image contains a large amount of detail and text that is easier to view in context when enlarged.</td>
+</tr>
+<tr class="row-odd"><td><a class="first last reference internal image-reference" href="../_images/ImageMappedInputExample.png"><img alt="Example image mapped input problem" src="../_images/ImageMappedInputExample.png" style="width: 100px;" /></a>
+</td>
+<td><a class="reference internal" href="image_mapped_input.html#image-mapped-input"><em>Image Mapped Input Problem</em></a></td>
+<td>In an image mapped input problem, students click inside a defined area in an image. You define this area by including coordinates in the body of the problem.</td>
+</tr>
+<tr class="row-even"><td><a class="first last reference internal image-reference" href="../_images/Zooming_Image.png"><img alt="Example zooming image tool" src="../_images/Zooming_Image.png" style="width: 100px;" /></a>
+</td>
+<td><a class="reference internal" href="zooming_image.html#zooming-image"><em>Zooming Image Tool</em></a></td>
+<td>Zooming images allow you to enlarge sections of an image so that students can see the section in detail.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="multiple-choice-exercises-and-tools">
+<h2>8.1.4. Multiple Choice Exercises and Tools<a class="headerlink" href="#multiple-choice-exercises-and-tools" title="Permalink to this headline">¶</a></h2>
+<table border="1" class="docutils">
+<colgroup>
+<col width="22%" />
+<col width="19%" />
+<col width="59%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><a class="first last reference internal image-reference" href="../_images/CheckboxExample.png"><img alt="Example checkbox problem" src="../_images/CheckboxExample.png" style="width: 100px;" /></a>
+</td>
+<td><a class="reference internal" href="checkbox.html#checkbox"><em>Checkbox Problem</em></a></td>
+<td>In checkbox problems, the student selects one or more options from a list of possible answers. The student must select all the options that apply to answer the problem correctly.</td>
+</tr>
+<tr class="row-even"><td><a class="first last reference internal image-reference" href="../_images/DropdownExample.png"><img alt="Example dropdown problem" src="../_images/DropdownExample.png" style="width: 100px;" /></a>
+</td>
+<td><a class="reference internal" href="dropdown.html#dropdown"><em>Dropdown Problem</em></a></td>
+<td>Dropdown problems allow the student to choose from a collection of answer options, presented as a dropdown list. Unlike multiple choice problems, whose answers are always visible directly below the question, dropdown problems don&#8217;t show answer choices until the student clicks the dropdown arrow.</td>
+</tr>
+<tr class="row-odd"><td><a class="first last reference internal image-reference" href="../_images/MultipleChoiceExample.png"><img alt="Example multiple choice problem" src="../_images/MultipleChoiceExample.png" style="width: 100px;" /></a>
+</td>
+<td><a class="reference internal" href="multiple_choice.html#multiple-choice"><em>Multiple Choice Problem</em></a></td>
+<td>In multiple choice problems, students select one option from a list of answer options. Unlike with dropdown problems, whose answer choices don&#8217;t appear until the student clicks the drop-down arrow, answer choices for multiple choice problems are always visible directly below the question.</td>
+</tr>
+<tr class="row-even"><td><a class="first last reference internal image-reference" href="../_images/MultipleChoice_NumericalInput.png"><img alt="Example multiple choice and numerical input problem" src="../_images/MultipleChoice_NumericalInput.png" style="width: 100px;" /></a>
+</td>
+<td><a class="reference internal" href="mult_choice_num_input.html#multiple-choice-and-numerical-input"><em>Multiple Choice and Numerical Input Problem</em></a></td>
+<td>You can create a problem that combines a multiple choice and numerical input problems. Students not only select a response from options that you provide, but also provide more specific information, if necessary.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="stem-exercises-and-tools">
+<h2>8.1.5. STEM Exercises and Tools<a class="headerlink" href="#stem-exercises-and-tools" title="Permalink to this headline">¶</a></h2>
+<table border="1" class="docutils">
+<colgroup>
+<col width="22%" />
+<col width="19%" />
+<col width="59%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><a class="first last reference internal image-reference" href="../_images/ChemicalEquationExample.png"><img alt="Example chemical equation problem" src="../_images/ChemicalEquationExample.png" style="width: 100px;" /></a>
+</td>
+<td><a class="reference internal" href="chemical_equation.html#chemical-equation"><em>Chemical Equation Problem</em></a></td>
+<td>Chemical equation problems allow the student to enter text that represents a chemical equation into a text box. The grader evaluates the student&#8217;s response by using a Python script that you create and embed in the problem.</td>
+</tr>
+<tr class="row-even"><td><a class="first last reference internal image-reference" href="../_images/CircuitSchematicExample_short.png"><img alt="Example circuit schematic builder problem" src="../_images/CircuitSchematicExample_short.png" style="width: 100px;" /></a>
+</td>
+<td><a class="reference internal" href="circuit_schematic_builder.html#circuit-schematic-builder"><em>Circuit Schematic Builder Problem</em></a></td>
+<td>In circuit schematic builder problems, students can arrange circuit elements such as voltage sources, capacitors, resistors, and MOSFETs on an interactive grid. They then submit a DC, AC, or transient analysis of their circuit to the system for grading.</td>
+</tr>
+<tr class="row-odd"><td><a class="first last reference internal image-reference" href="../_images/GeneExplorer.png"><img alt="Example gene explorer problem" src="../_images/GeneExplorer.png" style="width: 100px;" /></a>
+</td>
+<td><a class="reference internal" href="gene_explorer.html#gene-explorer"><em>Gene Explorer Tool</em></a></td>
+<td>The Gene Explorer (GeneX) simulates the transcription, splicing, processing, and translation of a small hypothetical eukaryotic gene. GeneX allows students to make specific mutations in a gene sequence, and it then calculates and displays the effects of the mutations on the mRNA and protein.</td>
+</tr>
+<tr class="row-even"><td><a class="first last reference internal image-reference" href="../_images/MathExpressionInputExample.png"><img alt="Example math expression input problem" src="../_images/MathExpressionInputExample.png" style="width: 100px;" /></a>
+</td>
+<td><a class="reference internal" href="math_expression_input.html#math-expression-input"><em>Math Expression Input Problems</em></a></td>
+<td>The more complex of Studio&#8217;s two types of math problems. In math expression input problems, students enter mathematical expressions to answer a question. These problems can include unknown variables and more complex symbolic expressions. You can specify a correct answer either explicitly or by using a Python script.</td>
+</tr>
+<tr class="row-odd"><td><a class="first last reference internal image-reference" href="../_images/Molecule_Editor.png"><img alt="Example molecule editor problem" src="../_images/Molecule_Editor.png" style="width: 100px;" /></a>
+</td>
+<td><a class="reference internal" href="molecule_editor.html#molecule-editor"><em>Molecule Editor Tool</em></a></td>
+<td>The molecule editor allows students to draw molecules that follow the rules for covalent bond formation and formal charge, even if the molecules are chemically impossible, are unstable, or do not exist in living systems.</td>
+</tr>
+<tr class="row-even"><td><a class="first last reference internal image-reference" href="Images/Molecule_Viewer.png"><img alt="Example molecule viewer tool" src="Images/Molecule_Viewer.png" style="width: 100px;" /></a>
+</td>
+<td><a class="reference internal" href="molecule_viewer.html#molecule-viewer"><em>Molecule Viewer Tool</em></a></td>
+<td>The molecule viewer allows you to create three-dimensional representations of molecules for students to view.</td>
+</tr>
+<tr class="row-odd"><td><a class="first last reference internal image-reference" href="../_images/image292.png"><img alt="Example numerical input problem" src="../_images/image292.png" style="width: 100px;" /></a>
+</td>
+<td><a class="reference internal" href="numerical_input.html#numerical-input"><em>Numerical Input</em></a></td>
+<td>The simpler of Studio&#8217;s two types of math problems. In numerical input problems, students enter numbers or specific and relatively simple mathematical expressions to answer a question. These problems only allow integers and a few select constants. You can specify a margin of error, and you can specify a correct answer either explicitly or by using a Python script.</td>
+</tr>
+<tr class="row-even"><td><a class="first last reference internal image-reference" href="../_images/Periodic_Table.png"><img alt="Example periodic table problem" src="../_images/Periodic_Table.png" style="width: 100px;" /></a>
+</td>
+<td><a class="reference internal" href="periodic_table.html#periodic-table"><em>Periodic Table Tool</em></a></td>
+<td>An interactive periodic table of the elements shows detailed information about each element as the student moves the mouse over the element.</td>
+</tr>
+<tr class="row-odd"><td><a class="first last reference internal image-reference" href="../_images/ProteinBuilder.png"><img alt="Example protein builder problem" src="../_images/ProteinBuilder.png" style="width: 100px;" /></a>
+</td>
+<td><a class="reference internal" href="protein_builder.html#protein-builder"><em>Protex Protein Builder Tool</em></a></td>
+<td>The Protex protein builder asks students to create specified protein shapes by stringing together amino acids.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+
+          <footer>
+  
+    <div class="rst-footer-buttons">
+      
+        <a href="annotation.html" class="btn btn-neutral float-right" title="8.2. Annotation Problem"/>Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="index.html" class="btn btn-neutral" title="8. Creating Exercises and Tools"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <p>
+      &copy; Copyright 2014, edX.
+  </p>
+
+  <a href="https://www.github.com/snide/sphinx_rtd_theme">Sphinx theme</a> provided by <a href="http://readthedocs.org">Read the Docs</a>
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+</body>
+</html>

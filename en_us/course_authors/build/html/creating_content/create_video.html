@@ -1,0 +1,656 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>7.2. Working with Video Components &mdash; Building and Running an edX Course  documentation</title>
+  
+
+  
+  
+
+  
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  
+  
+
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:'../',
+        VERSION:'',
+        COLLAPSE_INDEX:false,
+        FILE_SUFFIX:'.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+    <link rel="top" title="Building and Running an edX Course  documentation" href="../index.html"/>
+        <link rel="up" title="7. Creating Course Content" href="index.html"/>
+        <link rel="next" title="7.3. Working with Discussion Components" href="create_discussion.html"/>
+        <link rel="prev" title="7.1. Working with HTML Components" href="create_html_component.html"/> 
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-nav-search">
+        <a href="../index.html" class="icon icon-home"> Building and Running an edX Course</a>
+        <form class="wy-form" action="../search.html" method="get">
+  <input type="text" name="q" placeholder="Search docs" />
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix">
+        
+        
+            <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../read_me.html">1. Read Me</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../preface.html">2. Preface</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../preface.html#system-status">2.1. System Status</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../preface.html#resources-for-course-teams">2.2. Resources for Course Teams</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../preface.html#resources-for-researchers">2.3. Resources for Researchers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../preface.html#resources-for-developers">2.4. Resources for Developers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../preface.html#resources-for-students">2.5. Resources for Students</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../change_log.html">3. Change Log</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../change_log.html#october-2014">3.1. October, 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../change_log.html#september-2014">3.2. September, 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../change_log.html#august-2014">3.3. August, 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../change_log.html#july-2014">3.4. July, 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../change_log.html#june-2014">3.5. June, 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../change_log.html#may-2014">3.6. May, 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../change_log.html#april-2014">3.7. April, 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../change_log.html#march-2014">3.8. March, 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../change_log.html#february-2014">3.9. February, 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../change_log.html#january-2014">3.10. January, 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../change_log.html#december-2013">3.11. December, 2013</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../getting_started/index.html">4. Getting Started</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../getting_started/browsers.html">4.1. edX Browser Support</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../getting_started/accounts.html">4.2. Getting Started with edX</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../getting_started/get_started.html">4.3. Getting Started with Studio</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../getting_started/accessibility.html">4.4. Guidelines for Creating Accessible Content</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../getting_started/glossary.html">4.5. Glossary</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../building_course/index.html">5. Setting up Your Course</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../building_course/creating_new_course.html">5.1. Creating a New Course</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../building_course/export_import_course.html">5.2. Exporting and Importing a Course</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../building_course/course_files.html">5.3. Adding Files to a Course</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../building_course/handouts_updates.html">5.4. Adding Course Updates and Handouts</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../building_course/pages.html">5.5. Adding Pages to a Course</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../building_course/textbooks.html">5.6. Adding Textbooks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../building_course/establish_grading_policy.html">5.7. Establishing a Grading Policy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../building_course/setting_up_student_view.html">5.8. Setting up the Student View</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../developing_course/index.html">6. Developing Your Course</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../developing_course/workflow.html">6.1. Getting Started with Course Content Development</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../developing_course/course_outline.html">6.2. Developing Your Course Outline</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../developing_course/course_sections.html">6.3. Developing Course Sections</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../developing_course/course_subsections.html">6.4. Developing Course Subsections</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../developing_course/course_units.html">6.5. Developing Course Units</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../developing_course/course_components.html">6.6. Developing Course Components</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../developing_course/controlling_content_visibility.html">6.7. Controlling Content Visibility</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../developing_course/testing_courseware.html">6.8. Testing Your Course Content</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">7. Creating Course Content</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="create_html_component.html">7.1. Working with HTML Components</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="">7.2. Working with Video Components</a></li>
+<li class="toctree-l2"><a class="reference internal" href="create_discussion.html">7.3. Working with Discussion Components</a></li>
+<li class="toctree-l2"><a class="reference internal" href="create_problem.html">7.4. Working with Problem Components</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../exercises_tools/index.html">8. Creating Exercises and Tools</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/create_exercises_and_tools.html">8.1. Creating Exercises and Tools</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/annotation.html">8.2. Annotation Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/checkbox.html">8.3. Checkbox Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/chemical_equation.html">8.4. Chemical Equation Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/circuit_schematic_builder.html">8.5. Circuit Schematic Builder Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/conditional_module.html">8.6. Conditional Module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/custom_javascript.html">8.7. Custom JavaScript Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/drag_and_drop.html">8.8. Drag and Drop Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/dropdown.html">8.9. Dropdown Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/external_graders.html">8.10. External Grader</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/full_screen_image.html">8.11. Full Screen Image Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/gene_explorer.html">8.12. Gene Explorer Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/google_hangouts.html">8.13. Google Instant Hangout Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/iframe.html">8.14. IFrame Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/image_mapped_input.html">8.15. Image Mapped Input Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/lti_component.html">8.16. LTI Component</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/math_expression_input.html">8.17. Math Expression Input Problems</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/molecule_editor.html">8.18. Molecule Editor Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/molecule_viewer.html">8.19. Molecule Viewer Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/multiple_choice.html">8.20. Multiple Choice Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/mult_choice_num_input.html">8.21. Multiple Choice and Numerical Input Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/numerical_input.html">8.22. Numerical Input</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/open_response_assessment.html">8.23. Open Response Assessment Problems</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/periodic_table.html">8.24. Periodic Table Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/poll.html">8.25. Poll Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/problem_with_hint.html">8.26. Problem with Adaptive Hint</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/problem_in_latex.html">8.27. Problem Written in LaTeX</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/protein_builder.html">8.28. Protex Protein Builder Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/text_input.html">8.29. Text Input Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/word_cloud.html">8.30. Word Cloud Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/custom_python.html">8.31. Write-Your-Own-Grader Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/zooming_image.html">8.32. Zooming Image Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/mathjax.html">8.33. A Brief Introduction to MathJax in Studio</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../content_experiments/index.html">9. Creating Content Experiments</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../content_experiments/content_experiments_overview.html">9.1. Overview of Content Experiments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../content_experiments/content_experiments_configure.html">9.2. Configure Your Course for Content Experiments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../content_experiments/content_experiments_add.html">9.3. Add Content Experiments to Your Course</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../content_experiments/content_experiments_view.html">9.4. Test Content Experiments</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../cohorts/index.html">10. Including Student Cohorts</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../cohorts/cohorts_overview.html">10.1. Using Cohorts to Build Course Communities</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../cohorts/cohort_config.html">10.2. Enabling and Configuring the Cohort Feature</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../cohorts/cohorts_discussions.html">10.3. Managing Discussions in a Course with Student Cohorts</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../releasing_course/index.html">11. Releasing Your Course</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../releasing_course/beta_testing.html">11.1. Beta Testing a Course</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasing_course/course_launching.html">11.2. Course Launching Activities</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasing_course/staff_debug_info.html">11.3. Staff Debug Info</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../running_course/index.html">12. Running Your Course</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../running_course/course_staffing.html">12.1. Staffing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../running_course/course_enrollment.html">12.2. Enrollment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../running_course/discussions.html">12.3. Managing Course Discussions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../running_course/discussions_students.html">12.4. Participating in Course Discussions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../running_course/discussion_guidance_moderators.html">12.5. Guidance for Discussion Moderators</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../running_course/course_data.html">12.6. Course Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../running_course/course_student.html">12.7. Student Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../running_course/course_answers.html">12.8. Answer Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../running_course/course_grades.html">12.9. Student Grades and Grading</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../running_course/checking_student_progress.html">12.10. Assign Final Grades and Issue Certificates</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../students/index.html">13. Information for Your Students</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../students/login_guide.html">13.1. Sample Student Login Guide</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../students/math_students.html">13.2. Math Response Formatting for Students</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../students/ora_students.html">13.3. Open Response Assessments for Students</a></li>
+</ul>
+</li>
+</ul>
+
+        
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top">
+        <i data-toggle="wy-nav-top" class="icon icon-reorder"></i>
+        <a href="/">Building and Running an edX Course</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <ul class="wy-breadcrumbs">
+  <li><a href="../index.html">Docs</a> &raquo;</li>
+  <li><a href="">7.2. Working with Video Components</a></li>
+  
+</ul>
+<hr/>
+
+          
+  <div class="section" id="working-with-video-components">
+<span id="id1"></span><h1>7.2. Working with Video Components<a class="headerlink" href="#working-with-video-components" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="introduction-to-videos">
+<h2>7.2.1. Introduction to Videos<a class="headerlink" href="#introduction-to-videos" title="Permalink to this headline">¶</a></h2>
+<p>You can create a video of your lecture and add it to your course with other
+components—such as discussions and problems—to promote active learning. Adding a video to your course has several steps.</p>
+<ol class="arabic simple">
+<li><a class="reference internal" href="#create-the-video"><em>Step 1. Create the Video</em></a>.</li>
+<li><a class="reference internal" href="#create-transcript"><em>Step 2. Create or Obtain a Video Transcript</em></a>.</li>
+<li><a class="reference internal" href="#post-the-video-online"><em>Step 3. Post the Video Online</em></a>.</li>
+<li><a class="reference internal" href="#create-a-video-component"><em>Step 4. Create a Video Component</em></a>.</li>
+</ol>
+<p>Also see:</p>
+<ul class="simple">
+<li><a class="reference internal" href="#video-toc"><em>Video Table of Contents</em></a></li>
+<li><a class="reference internal" href="#additional-transcripts"><em>Additional Transcripts</em></a></li>
+<li><a class="reference internal" href="#steps-for-sjson-files"><em>Steps for .sjson Files</em></a></li>
+</ul>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Review <a class="reference internal" href="../getting_started/accessibility.html#best-practices-for-accessible-media"><em>Best Practices for Accessible Media</em></a> before adding videos
+to your course.</p>
+</div>
+<p>note:: To help course teams protect video assets, the edX video player hides video URLs from students by default. This functionality is in effect for all video files, including YouTube videos and videos that you have posted in other locations. Students can still download videos if you select the <strong>Video Download Allowed</strong> option for your Video components. For more information about posting non-YouTube videos online, see <a class="reference internal" href="#post-the-video-online"><em>Step 3. Post the Video Online</em></a>. For more information about options that you can set when you create a video component, see <a class="reference internal" href="#video-advanced-options"><em>Advanced Options</em></a> under <a class="reference internal" href="#create-a-video-component"><em>Step 4. Create a Video Component</em></a>.</p>
+</div>
+<div class="section" id="step-1-create-the-video">
+<span id="create-the-video"></span><h2>7.2.2. Step 1. Create the Video<a class="headerlink" href="#step-1-create-the-video" title="Permalink to this headline">¶</a></h2>
+<p>Your video can contain whatever content you want. The <a class="reference external" href="https://edge.edx.org/courses/edX/edX101/How_to_Create_an_edX_Course/courseware/93451eee15ed47b0a310c19020e8dc64/a1b0835e986b4283b0f8871d97babb9a/">Producing Videos</a> section of our
+<a class="reference external" href="https://edge.edx.org/courses/edX/edX101/How_to_Create_an_edX_Course/about">edX101</a>
+course has some helpful pointers for creating good video content.</p>
+<div class="section" id="compression-specifications">
+<span id="id2"></span><h3>7.2.2.1. Compression Specifications<a class="headerlink" href="#compression-specifications" title="Permalink to this headline">¶</a></h3>
+<p>When you create your video, edX recommends the following compression specs.
+(Note that these are recommended but not required.)</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="14%" />
+<col width="29%" />
+<col width="29%" />
+<col width="29%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><th class="stub">Output</th>
+<td>Edited Files</td>
+<td>Publish to YouTube</td>
+<td>Publish downloadable file to AWS S3</td>
+</tr>
+<tr class="row-even"><th class="stub">Codec</th>
+<td>H.264 .mp4</td>
+<td>H.264 &#8220;main concept&#8221; .mp4</td>
+<td>H.264 &#8220;x264&#8221; .mp4</td>
+</tr>
+<tr class="row-odd"><th class="stub">Resolution and Frame Rate</th>
+<td>1920x1080, progressive, 29.97 fps</td>
+<td>1920x1080, progressive, 29.97 fps</td>
+<td>1280x720, progressive, 29.97 fps</td>
+</tr>
+<tr class="row-even"><th class="stub">Aspect</th>
+<td>1.0</td>
+<td>1.0</td>
+<td>1.0</td>
+</tr>
+<tr class="row-odd"><th class="stub">Bit Rate</th>
+<td>VBR, 2 pass</td>
+<td>VBR, 2 pass</td>
+<td>VBR, 2 pass</td>
+</tr>
+<tr class="row-even"><th class="stub">Target VBR</th>
+<td>32 mbps</td>
+<td>5 mbps</td>
+<td>1 mbps</td>
+</tr>
+<tr class="row-odd"><th class="stub">Max VBR</th>
+<td>40 mbps</td>
+<td>7.5 mbps</td>
+<td>1.5 mbps</td>
+</tr>
+<tr class="row-even"><th class="stub">Audio</th>
+<td>Linear AAC 48kHz / 256 kbps</td>
+<td>AAC 44.1 / 192 kbps</td>
+<td>AAC 44.1 / 192 kbps</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="video-formats">
+<span id="id3"></span><h3>7.2.2.2. Video Formats<a class="headerlink" href="#video-formats" title="Permalink to this headline">¶</a></h3>
+<p>The edX video player supports videos in .mp4, .webm, .mpeg, and .ogg format. <strong>However, to help make sure all standard browsers can play your video, we strongly recommend that you use the .mp4 or .webm format.</strong></p>
+</div>
+</div>
+<div class="section" id="step-2-create-or-obtain-a-video-transcript">
+<span id="create-transcript"></span><h2>7.2.3. Step 2. Create or Obtain a Video Transcript<a class="headerlink" href="#step-2-create-or-obtain-a-video-transcript" title="Permalink to this headline">¶</a></h2>
+<p>We strongly recommend that you associate a timed transcript with your video.
+Transcripts can be helpful for students whose first language isn&#8217;t English, who
+can&#8217;t watch the video, or who want to review the video&#8217;s content. The transcript
+scrolls automatically while your video plays. When a student clicks a word in
+the transcript, the video opens to that word. You can also allow your students
+to download the transcript so that they can read it offline. You&#8217;ll associate
+the transcript with the video when you create the Video component.</p>
+<p><strong>To play automatically with the video, your transcript file must be an .srt
+file.</strong> To create or obtain a transcript in .srt format, you can work with a
+company that provides captioning services. EdX works with <a class="reference external" href="http://www.3playmedia.com">3Play Media</a>. <a class="reference external" href="http://www.youtube.com/">YouTube</a> also
+provides captioning services.</p>
+<p>When you upload an .srt file, a .txt file is created automatically. You can allow students to download either the .srt file or the .txt file. You can also provide transcripts in different formats, such as .pdf, and you can provide transcripts in different languages. For more information, see <a class="reference internal" href="#additional-transcripts"><em>Additional Transcripts</em></a>.</p>
+<p>If you allow your students to download transcripts, a <strong>Download transcript</strong>
+button appears under the video. Students can then select either <strong>SubRip (.srt)
+file</strong> or <strong>Text (.txt) file</strong> to download the .srt or .txt transcript.</p>
+<a class="reference internal image-reference" href="../_images/Video_DownTrans_srt-txt.png"><img alt="Video status bar showing srt and txt transcript download options" src="../_images/Video_DownTrans_srt-txt.png" style="width: 500px;" /></a>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Some past courses have used .sjson files for video transcripts. If
+transcripts in your course uses this format, see <a class="reference internal" href="#steps-for-sjson-files"><em>Steps for .sjson Files</em></a>. We don&#8217;t recommend that you use .sjson files.</p>
+</div>
+</div>
+<div class="section" id="step-3-post-the-video-online">
+<span id="post-the-video-online"></span><h2>7.2.4. Step 3. Post the Video Online<a class="headerlink" href="#step-3-post-the-video-online" title="Permalink to this headline">¶</a></h2>
+<p>All course videos should be posted to YouTube. By default, the edX video player
+accesses your YouTube videos.</p>
+<p>Because YouTube is not available in all locations, however, we recommend that
+you also post copies of your videos on a third-party site such as <a class="reference external" href="http://aws.amazon.com/s3/">Amazon S3</a>. When a student views  a video in your course, if
+YouTube is not available in that student’s location or if the YouTube video
+doesn’t play, the video on the backup site starts playing automatically. You can also allow the
+student to download the video from the backup site.</p>
+<p>After you post your video online, make sure you have the URL for the video. If
+you host copies of your video in more than one place, make sure you have the URL
+for each video location.</p>
+<div class="section" id="id4">
+<h3>7.2.4.1. YouTube<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
+<p>After you&#8217;ve created your video, upload the video to <a class="reference external" href="http://www.youtube.com/">YouTube</a>.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">YouTube only hosts videos of up to 15 minutes. If you create a
+0.75-speed option, you must make sure that your 1.0-speed video segments are
+only 11.25 minutes long so that YouTube can host all speeds. YouTube offers
+paid accounts that relax this restriction.</p>
+</div>
+</div>
+<div class="section" id="other-sites">
+<h3>7.2.4.2. Other Sites<a class="headerlink" href="#other-sites" title="Permalink to this headline">¶</a></h3>
+<p>You can use any video backup site that you want. However, keep in mind that the
+site where you post the videos may have to handle a lot of traffic.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">The URL for the video that you post on a third-party site must end in
+.mp4, .webm, .mpeg, or .ogg. (To help make sure all standard browsers can play your video, we <strong>strongly</strong> recommend that you use .mp4 or .webm format.) EdX can&#8217;t support videos that you post on sites
+such as Vimeo.</p>
+</div>
+</div>
+</div>
+<div class="section" id="step-4-create-a-video-component">
+<span id="create-a-video-component"></span><h2>7.2.5. Step 4. Create a Video Component<a class="headerlink" href="#step-4-create-a-video-component" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic">
+<li><p class="first">Under <strong>Add New Component</strong>, click <strong>Video</strong>.</p>
+</li>
+<li><p class="first">When the new video component appears, click <strong>Edit</strong>. The video editor opens
+to the <strong>Basic</strong> tab.</p>
+<a class="reference internal image-reference" href="../_images/VideoComponentEditor.png"><img alt="Image of the video component editor" src="../_images/VideoComponentEditor.png" style="width: 500px;" /></a>
+<p>You&#8217;ll replace the default values with your own.</p>
+</li>
+<li><p class="first">In the <strong>Component Display Name</strong> field, enter the name you want students to see when
+they hover the mouse over the unit in the course ribbon. This text also
+appears as a header for the video.</p>
+</li>
+<li><p class="first">In the <strong>Default Video URL</strong> field, enter the URL of the video. For example, the URL
+may resemble one of the following.</p>
+<div class="highlight-python"><pre>http://youtu.be/OEoXaMPEzfM
+http://www.youtube.com/watch?v=OEoXaMPEzfM
+https://s3.amazonaws.com/edx-course-videos/edx-edx101/EDXSPCPJSP13-G030300.mp4
+https://s3.amazonaws.com/edx-videos/edx101/video4.webm</pre>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">To be sure all students can access the video, we recommend providing both an .mp4 and a .webm version of your video. To do this, you can post additional versions of your videos on the Internet, then add the URLs for these versions below the default video URL. <strong>These URLs cannot be YouTube URLs</strong>. To add a URL for another version, click <strong>Add URLs for additional versions</strong>. The first listed video that&#8217;s compatible with the student&#8217;s computer will play.</p>
+</div>
+</li>
+<li><p class="first">Next to <strong>Default Timed Transcript</strong>, select an option.</p>
+<ul>
+<li><p class="first">If edX already has a transcript for your video&#8211;for example, if you&#8217;re
+using a video from an existing course&#8211;Studio automatically finds the
+transcript and associates the transcript with the video.</p>
+<p>If you want to modify the transcript, click <strong>Download Transcript for Editing</strong>. You can then make your changes and upload the new file by clicking <strong>Upload New Transcript</strong>.</p>
+</li>
+<li><p class="first">If edX doesn&#8217;t have a transcript for the video, but YouTube has a transcript, Studio automatically finds the YouTube
+transcript and asks if you want to import it. To use this YouTube
+transcript, click <strong>Import YouTube Transcript</strong>. (If you want to modify the
+YouTube transcript, import the YouTube transcript into Studio, and then click <strong>Download Transcript for Editing</strong>. You can then make your changes and upload the new file by
+clicking <strong>Upload New Transcript</strong>.)</p>
+</li>
+<li><p class="first">If both edX and YouTube have a transcript for your video, but the edX transcript is out of date, you&#8217;ll receive a message asking if you want to replace the edX transcript with the YouTube transcript. To use the YouTube transcript, click <strong>Yes, replace the edX transcript with the YouTube transcript</strong>.</p>
+</li>
+<li><p class="first">If neither edX nor YouTube has a transcript for your video, and your
+transcript uses the .srt format, click <strong>Upload New Transcript</strong> to
+upload the transcript file from your computer.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<ul class="last simple">
+<li>If your transcript uses the .sjson format, do not use this setting.
+For more information, see <a class="reference internal" href="#steps-for-sjson-files"><em>Steps for .sjson Files</em></a>.</li>
+<li>If you want to provide a transcript in a format such as .pdf,
+do not use this setting to upload the transcript. For more
+information, see <a class="reference internal" href="#additional-transcripts"><em>Additional Transcripts</em></a>.</li>
+</ul>
+</div>
+</li>
+</ul>
+</li>
+<li><p class="first">Optionally, click <strong>Advanced</strong> to set more options for the video. For a
+description of each option, see <a class="reference internal" href="#video-advanced-options"><em>Advanced Options</em></a>.</p>
+</li>
+<li><p class="first">Click <strong>Save.</strong></p>
+</li>
+</ol>
+<div class="section" id="advanced-options">
+<span id="video-advanced-options"></span><h3>7.2.5.1. Advanced Options<a class="headerlink" href="#advanced-options" title="Permalink to this headline">¶</a></h3>
+<p>The following options appear on the <strong>Advanced</strong> tab in the Video component.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="30%" />
+<col width="70%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><strong>Component Display Name</strong></td>
+<td>The name that you want your students to see. This is the same as the <strong>Display Name</strong> field on the <strong>Basic</strong> tab.</td>
+</tr>
+<tr class="row-even"><td><strong>Default Timed Transcript</strong></td>
+<td>The name of the transcript file that&#8217;s used in the <strong>Default Timed Transcript</strong> field on the <strong>Basic</strong> tab. This field is auto-populated. You don&#8217;t have to change this setting.</td>
+</tr>
+<tr class="row-odd"><td><strong>Download Transcript Allowed</strong></td>
+<td><p class="first">Specifies whether you want to allow students to download the timed transcript. If you set this value to <strong>True</strong>, a link to download the file appears below the video.</p>
+<p class="last">By default, Studio creates a .txt transcript when you upload an .srt transcript. Students can download the .srt or .txt versions of the transcript when you set <strong>Download Transcript Allowed</strong> to <strong>True</strong>. If you want to provide the transcript for download in a different format as well, such as .pdf, upload a file to Studio by using the <strong>Upload Handout</strong> field.</p>
+</td>
+</tr>
+<tr class="row-even"><td><strong>Downloadable Transcript URL</strong></td>
+<td><p class="first">The URL for a non-.srt version of the transcript file posted on the <strong>Files &amp; Uploads</strong> page or on the Internet. Students see a link to download the non-.srt transcript below the video.</p>
+<div class="last admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">When you add a transcript to this field, only the transcript that you add is available for download. The .srt and .txt transcripts become unavailable. If you want to provide a downloadable transcript in a format other than .srt, we recommend that you upload a handout for students by using the <strong>Upload Handout</strong> field. For more information, see <a class="reference internal" href="#additional-transcripts"><em>Additional Transcripts</em></a>.</p>
+</div>
+</td>
+</tr>
+<tr class="row-odd"><td><strong>Show Transcript</strong></td>
+<td>Specifies whether the transcript plays along with the video by default.</td>
+</tr>
+<tr class="row-even"><td><strong>Transcript Languages</strong></td>
+<td>The transcript files for any additional languages. For more information, see <a class="reference internal" href="#transcripts-in-additional-languages"><em>Transcripts in Additional Languages</em></a>.</td>
+</tr>
+<tr class="row-odd"><td><strong>Upload Handout</strong></td>
+<td>Allows you to upload a handout to accompany this video. Your handout can be in any format. Students can download the handout by clicking <strong>Download Handout</strong> under the video.</td>
+</tr>
+<tr class="row-even"><td><strong>Video Download Allowed</strong></td>
+<td>Specifies whether students can download versions of this video in different formats if they cannot use the edX video player or do not have access to YouTube. If you set this value to <strong>True</strong>, you must add at least one non-YouTube URL in the <strong>Video File URLs</strong> field.</td>
+</tr>
+<tr class="row-odd"><td><strong>Video File URLs</strong></td>
+<td><p class="first">The URL or URLs where you&#8217;ve posted non-YouTube versions of the video. Every URL should end in .mpeg, .webm, .mp4, or .ogg and cannot be a YouTube URL. Each student will be able to view the first listed video that&#8217;s compatible with the student&#8217;s computer. To allow students to download these videos, you must set <strong>Video Download Allowed</strong> to <strong>True</strong>.</p>
+<div class="last admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">To help make sure all standard browsers can play your video, we <strong>strongly</strong> recommend that you use the .mp4 or .webm format.</p>
+</div>
+</td>
+</tr>
+<tr class="row-even"><td><strong>Video Start Time</strong></td>
+<td>The time you want the video to start if you don&#8217;t want the entire video to play. Formatted as HH:MM:SS. The maximum value is 23:59:59.</td>
+</tr>
+<tr class="row-odd"><td><strong>Video Stop Time</strong></td>
+<td>The time you want the video to stop if you don&#8217;t want the entire video to play. Formatted as HH:MM:SS. The maximum value is 23:59:59.</td>
+</tr>
+<tr class="row-even"><td><strong>YouTube ID, YouTube ID for .75x speed, YouTube ID for 1.25x speed, YouTube ID for 1.5x speed</strong></td>
+<td>If you have uploaded separate videos to YouTube for different speeds of your video, enter the YouTube IDs for these videos in these fields. These settings are optional, for older browsers.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="section" id="video-table-of-contents">
+<span id="video-toc"></span><h2>7.2.6. Video Table of Contents<a class="headerlink" href="#video-table-of-contents" title="Permalink to this headline">¶</a></h2>
+<p>You can add a table of contents for your video by adding an .srt transcript file that contains clickable links to different parts of the video. When your students view the video, they can click the <strong>CC</strong> button at the bottom of the video player to switch between the main transcript for the video and the table of contents.</p>
+<p>To add a table of contents, you&#8217;ll work with a third-party service to create the .srt transcript file. Then, you&#8217;ll use the <strong>Transcript Languages</strong> setting in the Video component to associate the .srt file with the video.</p>
+<a class="reference internal image-reference" href="../_images/VideoTOC.png"><img alt="Image of a video with a transcript that has links to different parts of the video" src="../_images/VideoTOC.png" style="width: 500px;" /></a>
+<ol class="arabic">
+<li><p class="first">After you&#8217;ve obtained the .srt transcript file that will function as the table of contents, open the Video component for the video.</p>
+</li>
+<li><p class="first">On the <strong>Advanced</strong> tab, scroll down to <strong>Transcript Languages</strong>, and then
+click <strong>Add</strong>.</p>
+</li>
+<li><p class="first">In the drop-down list that appears, select <strong>Table of Contents</strong>.</p>
+<p>An <strong>Upload</strong> button appears.</p>
+</li>
+<li><p class="first">Click <strong>Upload</strong>, browse to the .srt file for the transcript, and then click <strong>Open</strong>.</p>
+</li>
+<li><p class="first">In the <strong>Upload translation</strong> dialog box, click <strong>Upload</strong>.</p>
+</li>
+</ol>
+</div>
+<div class="section" id="additional-transcripts">
+<span id="id6"></span><h2>7.2.7. Additional Transcripts<a class="headerlink" href="#additional-transcripts" title="Permalink to this headline">¶</a></h2>
+<p>By default, a .txt file is created when you upload an .srt file, and students can download an .srt or .txt transcript when you set <strong>Download Transcript Allowed</strong> to <strong>True</strong>. The <strong>Download Transcript</strong> button appears below the video, and students see the .srt and .txt options when they hover over the button.</p>
+<a class="reference internal image-reference" href="../_images/Video_DownTrans_srt-txt.png"><img alt="Video status bar showing srt and txt transcript download options" src="../_images/Video_DownTrans_srt-txt.png" style="width: 500px;" /></a>
+<p>If you want to provide a downloadable transcript in a format such as .pdf along with the .srt and .txt transcripts, we recommend that you use the <strong>Upload Handout</strong> field. When you do this, a <strong>Download Handout</strong> button appears to the right of the <strong>Download Transcript</strong> button, and students can download the .srt, .txt, or handout version of the transcript.</p>
+<a class="reference internal image-reference" href="../_images/Video_DownTrans_srt-handout.png"><img alt="Video status bar showing srt, txt, and handout transcript download options" src="../_images/Video_DownTrans_srt-handout.png" style="width: 500px;" /></a>
+<p>To add a downloadable transcript by using the <strong>Upload Handout</strong> field:</p>
+<ol class="arabic simple">
+<li>Create or obtain your transcript as a .pdf or in another format.</li>
+<li>In the Video component, click the <strong>Advanced</strong> tab.</li>
+<li>Locate <strong>Upload Handout</strong>, and then click <strong>Upload</strong>.</li>
+<li>In the <strong>Upload File</strong> dialog box, click <strong>Choose File</strong>.</li>
+<li>In the dialog box, select the file on your computer, and then click <strong>Open</strong>.</li>
+<li>In the <strong>Upload File</strong> dialog box, click <strong>Upload</strong>.</li>
+</ol>
+<p>Before Studio added the <strong>Upload Handout</strong> feature, some courses posted transcript files on the <strong>Files &amp; Uploads</strong> page or on the Internet, and then added a link to those files in the Video component. <strong>We no longer recommend this method.</strong>  When you use this method, the <strong>Download Transcript</strong> button appears, but only the transcript that you add is available for download. The .srt and .txt transcripts become unavailable.</p>
+<a class="reference internal image-reference" href="../_images/Video_DownTrans_other.png"><img alt="Video status bar showing Download Transcript button without srt and txt options" src="../_images/Video_DownTrans_other.png" style="width: 500px;" /></a>
+<p>If you want to use this method, you can post your transcript online, and then add the URL to the transcript in the <strong>Downloadable Transcript URL</strong> field. However, bear in mind that students will not be able to download .srt or .txt transcripts.</p>
+<div class="section" id="transcripts-in-additional-languages">
+<span id="id7"></span><h3>7.2.7.1. Transcripts in Additional Languages<a class="headerlink" href="#transcripts-in-additional-languages" title="Permalink to this headline">¶</a></h3>
+<p>You can provide transcripts for your video in other languages. To do this,
+you&#8217;ll work with a third-party service to obtain an .srt transcript file for
+each language, and then associate the .srt file with the video in Studio.</p>
+<ol class="arabic">
+<li><p class="first">After you&#8217;ve obtained the .srt files for additional languages, open the Video component for the video.</p>
+</li>
+<li><p class="first">On the <strong>Advanced</strong> tab, scroll down to <strong>Transcript Languages</strong>, and then
+click <strong>Add</strong>.</p>
+</li>
+<li><p class="first">In the drop-down list that appears, select the language for the transcript that you want to add.</p>
+<p>An <strong>Upload</strong> button appears below the language.</p>
+</li>
+<li><p class="first">Click <strong>Upload</strong>, browse to the .srt file for the language that you want, and then click <strong>Open</strong>.</p>
+</li>
+<li><p class="first">In the <strong>Upload translation</strong> dialog box, click <strong>Upload</strong>.</p>
+</li>
+<li><p class="first">Repeat steps 2 - 5 for any additional languages.</p>
+</li>
+</ol>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p>Make sure that all your transcript file names are unique to each video
+and language. If you use the same transcript name in more than one Video
+component, the same transcript will play for each video. To avoid this
+problem, you could name your foreign language transcript files according to
+the video&#8217;s file name and the transcript language.</p>
+<p class="last">For example, you have two videos, named video1.mp4 and video2.mp4. Each video has a Russian transcript and a Spanish transcript. You can name the transcripts for the first video video1_RU.srt and video1_ES.srt, and name the transcripts for the second video video2_RU.srt and video2_ES.srt.</p>
+</div>
+<p>When your students view the video, they can click the <strong>CC</strong> button at the bottom of the video player to select a language.</p>
+<img alt="Video playing with language options visible" src="../_images/Video_LanguageTranscripts_LMS.png" />
+</div>
+</div>
+<div class="section" id="steps-for-sjson-files">
+<span id="id8"></span><h2>7.2.8. Steps for .sjson Files<a class="headerlink" href="#steps-for-sjson-files" title="Permalink to this headline">¶</a></h2>
+<p>If your course uses .sjson files, you&#8217;ll upload the .sjson file for the video to
+the <strong>Files &amp; Uploads</strong> page, and then specify the name of the .sjson file in
+the Video component.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Only older courses that have used .sjson files in the past should use
+.sjson files. All new courses should use .srt files.</p>
+</div>
+<ol class="arabic">
+<li><p class="first">Obtain the .sjson file from a media company such as 3Play.</p>
+</li>
+<li><p class="first">Change the name of the .sjson file to use the following format:</p>
+<p><tt class="docutils literal"><span class="pre">subs_FILENAME.srt.sjson</span></tt></p>
+<p>For example, if the name of your video is <strong>Lecture1a</strong>, the name of your
+.sjson file must be <strong>subs_Lecture1a.srt.sjson</strong>.</p>
+</li>
+<li><p class="first">Upload the .sjson file for your video to the <strong>Files &amp; Uploads</strong> page.</p>
+</li>
+<li><p class="first">Create a new video component.</p>
+</li>
+<li><p class="first">On the <strong>Basic</strong> tab, enter the name that you want students to see in the
+<strong>Component Display Name</strong> field.</p>
+</li>
+<li><p class="first">In the <strong>Video URL</strong> field, enter the URL of the video. For example, the URL
+may resemble one of the following.</p>
+<div class="highlight-python"><pre>http://youtu.be/OEoXaMPEzfM
+http://www.youtube.com/watch?v=OEoXaMPEzfM
+https://s3.amazonaws.com/edx-course-videos/edx-edx101/EDXSPCPJSP13-G030300.mp4</pre>
+</div>
+</li>
+<li><p class="first">Click the <strong>Advanced</strong> tab.</p>
+</li>
+<li><p class="first">In the <strong>Default Timed Transcript</strong> field, enter the file name of your video. Do
+not include <cite>subs_</cite> or <cite>.sjson</cite>. For the example in step 2, you would only
+enter <strong>Lecture1a</strong>.</p>
+</li>
+<li><p class="first">Set the other options that you want.</p>
+</li>
+<li><p class="first">Click <strong>Save</strong>.</p>
+</li>
+</ol>
+</div>
+</div>
+
+
+          <footer>
+  
+    <div class="rst-footer-buttons">
+      
+        <a href="create_discussion.html" class="btn btn-neutral float-right" title="7.3. Working with Discussion Components"/>Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="create_html_component.html" class="btn btn-neutral" title="7.1. Working with HTML Components"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <p>
+      &copy; Copyright 2014, edX.
+  </p>
+
+  <a href="https://www.github.com/snide/sphinx_rtd_theme">Sphinx theme</a> provided by <a href="http://readthedocs.org">Read the Docs</a>
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+</body>
+</html>

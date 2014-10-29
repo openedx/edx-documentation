@@ -1,0 +1,330 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Protex Protein Builder Tool &mdash; edX Open Learning XML Guide - Alpha Version  documentation</title>
+  
+
+  
+  
+
+  
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  
+  
+
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:'../',
+        VERSION:'',
+        COLLAPSE_INDEX:false,
+        FILE_SUFFIX:'.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+    <link rel="top" title="edX Open Learning XML Guide - Alpha Version  documentation" href="../index.html"/>
+        <link rel="up" title="Problems" href="index.html"/>
+        <link rel="next" title="Symbolic Response" href="symbolic_response.html"/>
+        <link rel="prev" title="Problem with Adaptive Hint" href="problem_with_hint.html"/> 
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-nav-search">
+        <a href="../index.html" class="icon icon-home"> edX Open Learning XML Guide - Alpha Version</a>
+        <form class="wy-form" action="../search.html" method="get">
+  <input type="text" name="q" placeholder="Search docs" />
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix">
+        
+        
+            <ul>
+<li class="toctree-l1"><a class="reference internal" href="../read_me.html">Read Me</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../preface.html">Preface</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../preface.html#system-status">System Status</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../preface.html#resources-for-course-teams">Resources for Course Teams</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../preface.html#resources-for-researchers">Resources for Researchers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../preface.html#resources-for-developers">Resources for Developers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../preface.html#resources-for-students">Resources for Students</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../change_log.html">Change Log</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../change_log.html#october-2014">October, 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../change_log.html#september-2014">September, 2014</a></li>
+</ul>
+</li>
+</ul>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../what-is-olx.html">What is Open Learning XML?</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../what-is-olx.html#xml-resources">XML Resources</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../tasks/index.html">Open Learning XML Uses</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../tasks/olx-studio.html">Use OLX with edX Studio</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tasks/deploy-lms.html">Build a Course in OLX and Deploy to the edX LMS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tasks/convert-to-olx.html">Convert Content in Other Formats to OLX</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../getting-started.html">Getting Started with OLX</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../directory-structure.html">OLX Course Structure</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../directory-structure.html#olx-and-directory-file-structures">OLX and Directory File Structures</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../directory-structure.html#top-level-directory">Top-level Directory</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../directory-structure.html#xblock-directories">XBlock Directories</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../directory-structure.html#edx-platform-directories">edX Platform Directories</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../policies/index.html">Policies</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../policies/course.html">Course Policies</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../policies/content-experiments.html">Group Configuration for Content Experiments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../policies/grading.html">Grading Policy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../policies/assets-policy.html">Course Asset Policy</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../assets/assets.html">Course Assets</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../about/index.html">The Course About Pages</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../about/overview.html">Course Overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../about/short-description.html">Short Description</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../pages/pages.html">Course Tabs</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../pages/pages.html#create-the-tab-file">Create the Tab File</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../organizing-course/index.html">Organizing Courseware</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../organizing-course/course-structure-overview.html">OLX Course Building Blocks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../organizing-course/course-xml-file.html">The Courseware Structure</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../components/index.html">Course Components (XBlocks)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../components/html-components.html">HTML Components</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../components/discussion-components.html">Discussion Components</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../components/video-components.html">Video Components</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../components/annotation.html">Annotation Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../components/conditional_module.html">Conditional Module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../components/full_screen_image.html">Full Screen Image Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../components/google_hangout.html">Google Instant Hangout Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../components/graphical_slider_tool.html">Graphical Slider Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../components/iframe.html">IFrame Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../components/lti_component.html">LTI Component</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../components/open_response_assessment.html">Open Response Assessment Problems</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../components/periodic_table.html">Periodic Table Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../components/poll.html">Poll Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../components/word_cloud.html">Word Cloud Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../components/zooming_image.html">Zooming Image Tool</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Problems</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="checkbox.html">Checkbox Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chemical_equation.html">Chemical Equation Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="circuit_schematic_builder.html">Circuit Schematic Builder Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="custom_javascript.html">Custom JavaScript Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="custom_python.html">Write-Your-Own-Grader Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="drag_and_drop.html">Drag and Drop Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dropdown.html">Dropdown Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gene_explorer.html">Gene Explorer Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="image_mapped_input.html">Image Mapped Input Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="math_expression_input.html">Math Expression Input Problems</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mathjax.html">A Brief Introduction to MathJax in Studio</a></li>
+<li class="toctree-l2"><a class="reference internal" href="molecule_editor.html">Molecule Editor Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mult_choice_num_input.html">Multiple Choice and Numerical Input Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="multiple_choice.html">Multiple Choice Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="numerical_input.html">Numerical Input</a></li>
+<li class="toctree-l2"><a class="reference internal" href="problem_in_latex.html">Problem Written in LaTeX</a></li>
+<li class="toctree-l2"><a class="reference internal" href="problem_with_hint.html">Problem with Adaptive Hint</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="">Protex Protein Builder Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="symbolic_response.html">Symbolic Response</a></li>
+<li class="toctree-l2"><a class="reference internal" href="text_input.html">Text Input Problem</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../example-course/index.html">Example of an OLX Course</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../example-course/insider-structure.html">The Structure of edX-Insider</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../example-course/insider-course-xml.html">The edX-Insider <tt class="docutils literal"><span class="pre">course.xml</span></tt> File</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../drafts/index.html">Draft Course Content</a><ul class="simple">
+</ul>
+</li>
+</ul>
+
+        
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top">
+        <i data-toggle="wy-nav-top" class="icon icon-reorder"></i>
+        <a href="/">edX Open Learning XML Guide - Alpha Version</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <ul class="wy-breadcrumbs">
+  <li><a href="../index.html">Docs</a> &raquo;</li>
+  <li><a href="">Protex Protein Builder Tool</a></li>
+  
+</ul>
+<hr/>
+
+          
+  <div class="section" id="protex-protein-builder-tool">
+<span id="protein-builder"></span><h1>Protex Protein Builder Tool<a class="headerlink" href="#protex-protein-builder-tool" title="Permalink to this headline">¶</a></h1>
+<p>The Protex protein builder asks students to create specified protein shapes by stringing together amino acids. In the example below, the goal protein shape is a simple line.</p>
+<img alt="Image of the protein builder" src="../_images/ProteinBuilder.png" />
+<div class="section" id="create-the-protein-builder-tool">
+<span id="create-the-protein-builder"></span><h2>Create the Protein Builder Tool<a class="headerlink" href="#create-the-protein-builder-tool" title="Permalink to this headline">¶</a></h2>
+<p>To create the protein builder:</p>
+<ol class="arabic simple">
+<li>Under <strong>Add New Component</strong>, click <strong>Problem</strong>, and then click <strong>Blank Advanced Problem</strong>.</li>
+<li>In the component that appears, click <strong>Edit</strong>.</li>
+<li>In the component editor, paste the Problem component code from below.</li>
+<li>Make any changes that you want, and then click <strong>Save</strong>.</li>
+</ol>
+</div>
+<div class="section" id="protein-builder-tool-code">
+<span id="protein-builder-code"></span><h2>Protein Builder Tool Code<a class="headerlink" href="#protein-builder-tool-code" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-xml"><div class="highlight"><pre><span class="nt">&lt;problem&gt;</span>
+    <span class="nt">&lt;p&gt;</span>The protein builder allows you string together the building blocks of proteins, amino acids, and see how that string will form into a structure. You are presented with a goal protein shape, and your task is to try to re-create it. In the example below, the shape that you are asked to form is a simple line.<span class="nt">&lt;/p&gt;</span>
+   <span class="nt">&lt;p&gt;</span>Be sure to click &quot;Fold&quot; to fold your protein before you click &quot;Check&quot;.<span class="nt">&lt;/p&gt;</span>
+
+<span class="nt">&lt;script</span> <span class="na">type=</span><span class="s">&quot;loncapa/python&quot;</span><span class="nt">&gt;</span>
+
+def protex_grader(expect,ans):
+  import json
+  ans=json.loads(ans)
+  if &quot;ERROR&quot; in ans[&quot;protex_answer&quot;]:
+    raise ValueError(&quot;Protex did not understand your answer. Try folding the protein.&quot;)
+  return ans[&quot;protex_answer&quot;]==&quot;CORRECT&quot;
+
+<span class="nt">&lt;/script&gt;</span>
+
+  <span class="nt">&lt;text&gt;</span>
+    <span class="nt">&lt;customresponse</span> <span class="na">cfn=</span><span class="s">&quot;protex_grader&quot;</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;designprotein2dinput</span> <span class="na">width=</span><span class="s">&quot;855&quot;</span> <span class="na">height=</span><span class="s">&quot;500&quot;</span> <span class="na">target_shape=</span><span class="s">&quot;W;W;W;W;W;W;W&quot;</span><span class="nt">/&gt;</span>
+    <span class="nt">&lt;/customresponse&gt;</span>
+  <span class="nt">&lt;/text&gt;</span>
+  <span class="nt">&lt;solution&gt;</span>
+    <span class="nt">&lt;p&gt;</span>
+      Many protein sequences, such as the following example, fold to a straight line.You can play around with the protein builder if you&#39;re curious.
+    <span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;ul&gt;</span>
+      <span class="nt">&lt;li&gt;</span>
+          Stick: RRRRRRR
+      <span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;/ul&gt;</span>
+  <span class="nt">&lt;/solution&gt;</span>
+<span class="nt">&lt;/problem&gt;</span>
+</pre></div>
+</div>
+<p>In this code:</p>
+<ul>
+<li><p class="first"><strong>width</strong> and <strong>height</strong> specify the dimensions of the application, in pixels.</p>
+</li>
+<li><p class="first"><strong>target_shape</strong> lists the amino acids that, combined in the order specified, create the shape you've asked students to create. The list can only include the following letters, which correspond to the one-letter code for each amino acid. (This list appears in the upper-left corner of the protein builder.)</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>A</td>
+<td>R</td>
+<td>N</td>
+<td>D</td>
+</tr>
+<tr class="row-even"><td>C</td>
+<td>Q</td>
+<td>E</td>
+<td>G</td>
+</tr>
+<tr class="row-odd"><td>H</td>
+<td>I</td>
+<td>L</td>
+<td>K</td>
+</tr>
+<tr class="row-even"><td>M</td>
+<td>F</td>
+<td>P</td>
+<td>S</td>
+</tr>
+<tr class="row-odd"><td>T</td>
+<td>W</td>
+<td>Y</td>
+<td>V</td>
+</tr>
+</tbody>
+</table>
+</li>
+</ul>
+</div>
+</div>
+
+
+          <footer>
+  
+    <div class="rst-footer-buttons">
+      
+        <a href="symbolic_response.html" class="btn btn-neutral float-right" title="Symbolic Response"/>Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="problem_with_hint.html" class="btn btn-neutral" title="Problem with Adaptive Hint"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <p>
+      &copy; Copyright 2014, edX.
+  </p>
+
+  <a href="https://www.github.com/snide/sphinx_rtd_theme">Sphinx theme</a> provided by <a href="http://readthedocs.org">Read the Docs</a>
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+</body>
+</html>

@@ -1,0 +1,549 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Write-Your-Own-Grader Problem &mdash; edX Open Learning XML Guide - Alpha Version  documentation</title>
+  
+
+  
+  
+
+  
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  
+  
+
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:'../',
+        VERSION:'',
+        COLLAPSE_INDEX:false,
+        FILE_SUFFIX:'.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+    <link rel="top" title="edX Open Learning XML Guide - Alpha Version  documentation" href="../index.html"/>
+        <link rel="up" title="Problems" href="index.html"/>
+        <link rel="next" title="Drag and Drop Problem" href="drag_and_drop.html"/>
+        <link rel="prev" title="Custom JavaScript Problem" href="custom_javascript.html"/> 
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-nav-search">
+        <a href="../index.html" class="icon icon-home"> edX Open Learning XML Guide - Alpha Version</a>
+        <form class="wy-form" action="../search.html" method="get">
+  <input type="text" name="q" placeholder="Search docs" />
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix">
+        
+        
+            <ul>
+<li class="toctree-l1"><a class="reference internal" href="../read_me.html">Read Me</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../preface.html">Preface</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../preface.html#system-status">System Status</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../preface.html#resources-for-course-teams">Resources for Course Teams</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../preface.html#resources-for-researchers">Resources for Researchers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../preface.html#resources-for-developers">Resources for Developers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../preface.html#resources-for-students">Resources for Students</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../change_log.html">Change Log</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../change_log.html#october-2014">October, 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../change_log.html#september-2014">September, 2014</a></li>
+</ul>
+</li>
+</ul>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../what-is-olx.html">What is Open Learning XML?</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../what-is-olx.html#xml-resources">XML Resources</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../tasks/index.html">Open Learning XML Uses</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../tasks/olx-studio.html">Use OLX with edX Studio</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tasks/deploy-lms.html">Build a Course in OLX and Deploy to the edX LMS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tasks/convert-to-olx.html">Convert Content in Other Formats to OLX</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../getting-started.html">Getting Started with OLX</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../directory-structure.html">OLX Course Structure</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../directory-structure.html#olx-and-directory-file-structures">OLX and Directory File Structures</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../directory-structure.html#top-level-directory">Top-level Directory</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../directory-structure.html#xblock-directories">XBlock Directories</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../directory-structure.html#edx-platform-directories">edX Platform Directories</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../policies/index.html">Policies</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../policies/course.html">Course Policies</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../policies/content-experiments.html">Group Configuration for Content Experiments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../policies/grading.html">Grading Policy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../policies/assets-policy.html">Course Asset Policy</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../assets/assets.html">Course Assets</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../about/index.html">The Course About Pages</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../about/overview.html">Course Overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../about/short-description.html">Short Description</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../pages/pages.html">Course Tabs</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../pages/pages.html#create-the-tab-file">Create the Tab File</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../organizing-course/index.html">Organizing Courseware</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../organizing-course/course-structure-overview.html">OLX Course Building Blocks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../organizing-course/course-xml-file.html">The Courseware Structure</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../components/index.html">Course Components (XBlocks)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../components/html-components.html">HTML Components</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../components/discussion-components.html">Discussion Components</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../components/video-components.html">Video Components</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../components/annotation.html">Annotation Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../components/conditional_module.html">Conditional Module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../components/full_screen_image.html">Full Screen Image Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../components/google_hangout.html">Google Instant Hangout Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../components/graphical_slider_tool.html">Graphical Slider Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../components/iframe.html">IFrame Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../components/lti_component.html">LTI Component</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../components/open_response_assessment.html">Open Response Assessment Problems</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../components/periodic_table.html">Periodic Table Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../components/poll.html">Poll Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../components/word_cloud.html">Word Cloud Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../components/zooming_image.html">Zooming Image Tool</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Problems</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="checkbox.html">Checkbox Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chemical_equation.html">Chemical Equation Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="circuit_schematic_builder.html">Circuit Schematic Builder Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="custom_javascript.html">Custom JavaScript Problem</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="">Write-Your-Own-Grader Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="drag_and_drop.html">Drag and Drop Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dropdown.html">Dropdown Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gene_explorer.html">Gene Explorer Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="image_mapped_input.html">Image Mapped Input Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="math_expression_input.html">Math Expression Input Problems</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mathjax.html">A Brief Introduction to MathJax in Studio</a></li>
+<li class="toctree-l2"><a class="reference internal" href="molecule_editor.html">Molecule Editor Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mult_choice_num_input.html">Multiple Choice and Numerical Input Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="multiple_choice.html">Multiple Choice Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="numerical_input.html">Numerical Input</a></li>
+<li class="toctree-l2"><a class="reference internal" href="problem_in_latex.html">Problem Written in LaTeX</a></li>
+<li class="toctree-l2"><a class="reference internal" href="problem_with_hint.html">Problem with Adaptive Hint</a></li>
+<li class="toctree-l2"><a class="reference internal" href="protein_builder.html">Protex Protein Builder Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="symbolic_response.html">Symbolic Response</a></li>
+<li class="toctree-l2"><a class="reference internal" href="text_input.html">Text Input Problem</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../example-course/index.html">Example of an OLX Course</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../example-course/insider-structure.html">The Structure of edX-Insider</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../example-course/insider-course-xml.html">The edX-Insider <tt class="docutils literal"><span class="pre">course.xml</span></tt> File</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../drafts/index.html">Draft Course Content</a><ul class="simple">
+</ul>
+</li>
+</ul>
+
+        
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top">
+        <i data-toggle="wy-nav-top" class="icon icon-reorder"></i>
+        <a href="/">edX Open Learning XML Guide - Alpha Version</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <ul class="wy-breadcrumbs">
+  <li><a href="../index.html">Docs</a> &raquo;</li>
+  <li><a href="">Write-Your-Own-Grader Problem</a></li>
+  
+</ul>
+<hr/>
+
+          
+  <div class="section" id="write-your-own-grader-problem">
+<span id="write-your-own-grader"></span><h1>Write-Your-Own-Grader Problem<a class="headerlink" href="#write-your-own-grader-problem" title="Permalink to this headline">¶</a></h1>
+<p>In custom Python-evaluated input (also called &quot;write-your-own-grader&quot; problems), the grader uses a Python script that you create and embed in the problem to evaluates a student's response or provide hints. These problems can be any type. Numerical input and text input problems are the most popular write-your-own-grader problems.</p>
+<img alt="Image of a write your own grader problem" src="../_images/CustomPythonExample.png" />
+<p>Custom Python-evaluated input problems can include the following:</p>
+<ul class="simple">
+<li><a class="reference internal" href="chemical_equation.html#chemical-equation"><em>Chemical Equation Problem</em></a></li>
+<li><a class="reference internal" href="custom_javascript.html#custom-javascript"><em>Custom JavaScript Problem</em></a></li>
+<li><a class="reference internal" href="gene_explorer.html#gene-explorer"><em>Gene Explorer Tool</em></a></li>
+<li><a class="reference internal" href="molecule_editor.html#molecule-editor"><em>Molecule Editor Tool</em></a></li>
+<li><a class="reference internal" href="protein_builder.html#protein-builder"><em>Protex Protein Builder Tool</em></a></li>
+</ul>
+<table border="1" class="docutils">
+<colgroup>
+<col width="20%" />
+<col width="80%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><tt class="docutils literal"><span class="pre">&lt;script</span> <span class="pre">type=&quot;loncapa/python&quot;&gt;</span></tt></td>
+<td>Indicates that the problem contains a Python script.</td>
+</tr>
+<tr class="row-even"><td><tt class="docutils literal"><span class="pre">&lt;customresponse</span> <span class="pre">cfn=&quot;test_add_to_ten&quot;&gt;</span></tt></td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td><tt class="docutils literal"><span class="pre">&lt;customresponse</span> <span class="pre">cfn=&quot;test_add&quot;</span> <span class="pre">expect=&quot;20&quot;&gt;</span></tt></td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>&lt;textline size=&quot;10&quot; correct_answer=&quot;3&quot;/&gt;</td>
+<td>This tag includes the <tt class="docutils literal"><span class="pre">size</span></tt>, <tt class="docutils literal"><span class="pre">correct_answer</span></tt>, and <tt class="docutils literal"><span class="pre">label</span></tt> attributes. The <tt class="docutils literal"><span class="pre">correct_answer</span></tt> attribute is optional.</td>
+</tr>
+</tbody>
+</table>
+<p>You can create one of these problems in <a class="reference internal" href="#answer-tag-format"><em>Answer Tag Format</em></a> or <a class="reference internal" href="#script-tag-format"><em>Script Tag Format</em></a>.</p>
+<div class="section" id="answer-tag-format">
+<span id="id1"></span><h2>Answer Tag Format<a class="headerlink" href="#answer-tag-format" title="Permalink to this headline">¶</a></h2>
+<p>The answer tag format encloses the Python script in an <tt class="docutils literal"><span class="pre">&lt;answer&gt;</span></tt> tag:</p>
+<div class="highlight-xml"><div class="highlight"><pre><span class="nt">&lt;answer&gt;</span>
+if answers[0] == expect:
+    correct[0] = &#39;correct&#39;
+    overall_message = &#39;Good job!&#39;
+else:
+    correct[0] = &#39;incorrect&#39;
+    messages[0] = &#39;This answer is incorrect&#39;
+    overall_message = &#39;Please try again&#39;
+<span class="nt">&lt;/answer&gt;</span>
+</pre></div>
+</div>
+<div class="admonition important">
+<p class="first admonition-title">Important</p>
+<p class="last">Python honors indentation. Within the <tt class="docutils literal"><span class="pre">&lt;answer&gt;</span></tt> tag, you must begin your script with no indentation.</p>
+</div>
+<p>The Python script interacts with these variables in the global context:</p>
+<ul class="simple">
+<li><tt class="docutils literal"><span class="pre">answers</span></tt>: An ordered list of answers the student provided. For example, if the student answered <tt class="docutils literal"><span class="pre">6</span></tt>, <tt class="docutils literal"><span class="pre">answers[0]</span></tt> would equal <tt class="docutils literal"><span class="pre">6</span></tt>.</li>
+<li><tt class="docutils literal"><span class="pre">expect</span></tt>: The value of the <tt class="docutils literal"><span class="pre">expect</span></tt> attribute of <tt class="docutils literal"><span class="pre">&lt;customresponse&gt;</span></tt> (if provided).</li>
+<li><tt class="docutils literal"><span class="pre">correct</span></tt>: An ordered list of strings indicating whether the student answered the question correctly.  Valid values are <tt class="docutils literal"><span class="pre">&quot;correct&quot;</span></tt>, <tt class="docutils literal"><span class="pre">&quot;incorrect&quot;</span></tt>, and <tt class="docutils literal"><span class="pre">&quot;unknown&quot;</span></tt>.  You can set these values in the script.</li>
+<li><tt class="docutils literal"><span class="pre">messages</span></tt>: An ordered list of messages that appear under each response field in the problem. You can use this to provide hints to users. For example, if you include <tt class="docutils literal"><span class="pre">messages[0]</span> <span class="pre">=</span> <span class="pre">&quot;The</span> <span class="pre">capital</span> <span class="pre">of</span> <span class="pre">California</span> <span class="pre">is</span> <span class="pre">Sacramento&quot;</span></tt>, that message appears under the first response field in the problem.</li>
+<li><tt class="docutils literal"><span class="pre">overall_message</span></tt>: A message that appears beneath the entire problem. You can use this to provide a hint that applies to the entire problem rather than a particular response field.</li>
+</ul>
+<div class="section" id="create-a-custom-python-evaluated-input-problem-in-answer-tag-format">
+<h3>Create a Custom Python-Evaluated Input Problem in Answer Tag Format<a class="headerlink" href="#create-a-custom-python-evaluated-input-problem-in-answer-tag-format" title="Permalink to this headline">¶</a></h3>
+<p>To create a custom Python-evaluated input problem using an <tt class="docutils literal"><span class="pre">&lt;answer&gt;</span></tt> tag:</p>
+<ol class="arabic simple">
+<li>In the unit where you want to create the problem, click <strong>Problem</strong>
+under <strong>Add New Component</strong>, and then click the <strong>Advanced</strong> tab.</li>
+<li>Click <strong>Custom Python-Evaluated Input</strong>.</li>
+<li>In the component that appears, click <strong>Edit</strong>.</li>
+<li>In the component editor, replace the example code with the following code.</li>
+<li>Click <strong>Save</strong>.</li>
+</ol>
+<div class="highlight-xml"><div class="highlight"><pre><span class="nt">&lt;problem&gt;</span>
+    <span class="nt">&lt;p&gt;</span>What is the sum of 2 and 3?<span class="nt">&lt;/p&gt;</span>
+
+    <span class="nt">&lt;customresponse</span> <span class="na">expect=</span><span class="s">&quot;5&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;textline</span> <span class="na">math=</span><span class="s">&quot;1&quot;</span> <span class="nt">/&gt;</span>
+    <span class="nt">&lt;/customresponse&gt;</span>
+
+    <span class="nt">&lt;answer&gt;</span>
+if answers[0] == expect:
+    correct[0] = &#39;correct&#39;
+    overall_message = &#39;Good job!&#39;
+else:
+    correct[0] = &#39;incorrect&#39;
+    messages[0] = &#39;This answer is incorrect&#39;
+    overall_message = &#39;Please try again&#39;
+    <span class="nt">&lt;/answer&gt;</span>
+<span class="nt">&lt;/problem&gt;</span>
+</pre></div>
+</div>
+<div class="admonition important">
+<p class="first admonition-title">Important</p>
+<p class="last">Python honors indentation. Within the <tt class="docutils literal"><span class="pre">&lt;answer&gt;</span></tt> tag, you must begin your script with no indentation.</p>
+</div>
+</div>
+</div>
+<div class="section" id="script-tag-format">
+<span id="id2"></span><h2>Script Tag Format<a class="headerlink" href="#script-tag-format" title="Permalink to this headline">¶</a></h2>
+<p>The script tag format encloses a Python script that contains a &quot;check function&quot; in a <tt class="docutils literal"><span class="pre">&lt;script&gt;</span></tt> tag, and adds the <tt class="docutils literal"><span class="pre">cfn</span></tt> attribute of the <tt class="docutils literal"><span class="pre">&lt;customresponse&gt;</span></tt> tag to reference that function:</p>
+<div class="highlight-xml"><div class="highlight"><pre><span class="nt">&lt;problem&gt;</span>
+
+<span class="nt">&lt;script</span> <span class="na">type=</span><span class="s">&quot;loncapa/python&quot;</span><span class="nt">&gt;</span>
+
+def test_add(expect, ans):
+    try:
+        a1=int(ans[0])
+        a2=int(ans[1])
+        return (a1+a2) == int(expect)
+    except ValueError:
+        return False
+
+def test_add_to_ten(expect, ans):
+    return test_add(10, ans)
+
+<span class="nt">&lt;/script&gt;</span>
+
+<span class="nt">&lt;p&gt;</span>Enter two integers that sum to 10. <span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;customresponse</span> <span class="na">cfn=</span><span class="s">&quot;test_add_to_ten&quot;</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;textline</span> <span class="na">size=</span><span class="s">&quot;10&quot;</span><span class="nt">/&gt;&lt;br/&gt;</span>
+        <span class="nt">&lt;textline</span> <span class="na">size=</span><span class="s">&quot;10&quot;</span><span class="nt">/&gt;</span>
+<span class="nt">&lt;/customresponse&gt;</span>
+
+<span class="nt">&lt;/problem&gt;</span>
+</pre></div>
+</div>
+<p><strong>Important</strong>: Python honors indentation. Within the <tt class="docutils literal"><span class="pre">&lt;script&gt;</span></tt> tag, the <tt class="docutils literal"><span class="pre">def</span> <span class="pre">check_func(expect,</span> <span class="pre">ans):</span></tt> line must have no indentation.</p>
+<p>The <strong>check</strong> function accepts two arguments:</p>
+<ul>
+<li><p class="first"><tt class="docutils literal"><span class="pre">expect</span></tt> is the value of the <tt class="docutils literal"><span class="pre">expect</span></tt> attribute of <tt class="docutils literal"><span class="pre">&lt;customresponse&gt;</span></tt> (if provided)</p>
+</li>
+<li><p class="first"><tt class="docutils literal"><span class="pre">answer</span></tt> is either:</p>
+<blockquote>
+<div><ul class="simple">
+<li>The value of the answer the student provided, if the problem only has one response field.</li>
+<li>An ordered list of answers the student provided, if the problem has multiple response fields.</li>
+</ul>
+</div></blockquote>
+</li>
+</ul>
+<p>The <strong>check</strong> function can return any of the following to indicate whether the student's answer is correct:</p>
+<ul class="simple">
+<li><tt class="docutils literal"><span class="pre">True</span></tt>: Indicates that the student answered correctly for all response fields.</li>
+<li><tt class="docutils literal"><span class="pre">False</span></tt>: Indicates that the student answered incorrectly. All response fields are marked as incorrect.</li>
+<li>A dictionary of the form: <tt class="docutils literal"><span class="pre">{</span> <span class="pre">'ok':</span> <span class="pre">True,</span> <span class="pre">'msg':</span> <span class="pre">'Message'</span> <span class="pre">}</span></tt>
+If the dictionary's value for <tt class="docutils literal"><span class="pre">ok</span></tt> is set to <tt class="docutils literal"><span class="pre">True</span></tt>, all response fields are marked correct; if it is set to <tt class="docutils literal"><span class="pre">False</span></tt>, all response fields are marked incorrect. The <tt class="docutils literal"><span class="pre">msg</span></tt> is displayed beneath all response fields, and it may contain XHTML markup.</li>
+<li>A dictionary of the form</li>
+</ul>
+<div class="highlight-xml"><div class="highlight"><pre>{ &#39;overall_message&#39;: &#39;Overall message&#39;,
+    &#39;input_list&#39;: [
+        { &#39;ok&#39;: True, &#39;msg&#39;: &#39;Feedback for input 1&#39;},
+        { &#39;ok&#39;: False, &#39;msg&#39;: &#39;Feedback for input 2&#39;},
+        ... ] }
+</pre></div>
+</div>
+<p>The last form is useful for responses that contain multiple response fields. It allows you to provide feedback for each response field individually, as well as a message that applies to the entire response.</p>
+<p>Example of a checking function:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="k">def</span> <span class="nf">check_func</span><span class="p">(</span><span class="n">expect</span><span class="p">,</span> <span class="n">answer_given</span><span class="p">):</span>
+    <span class="n">check1</span> <span class="o">=</span> <span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="n">answer_given</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span> <span class="o">==</span> <span class="mi">1</span><span class="p">)</span>
+    <span class="n">check2</span> <span class="o">=</span> <span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="n">answer_given</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span> <span class="o">==</span> <span class="mi">2</span><span class="p">)</span>
+    <span class="n">check3</span> <span class="o">=</span> <span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="n">answer_given</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span> <span class="o">==</span> <span class="mi">3</span><span class="p">)</span>
+    <span class="k">return</span> <span class="p">{</span><span class="s">&#39;overall_message&#39;</span><span class="p">:</span> <span class="s">&#39;Overall message&#39;</span><span class="p">,</span>
+                <span class="s">&#39;input_list&#39;</span><span class="p">:</span> <span class="p">[</span>
+                    <span class="p">{</span> <span class="s">&#39;ok&#39;</span><span class="p">:</span> <span class="n">check1</span><span class="p">,</span> <span class="s">&#39;msg&#39;</span><span class="p">:</span> <span class="s">&#39;Feedback 1&#39;</span><span class="p">},</span>
+                    <span class="p">{</span> <span class="s">&#39;ok&#39;</span><span class="p">:</span> <span class="n">check2</span><span class="p">,</span> <span class="s">&#39;msg&#39;</span><span class="p">:</span> <span class="s">&#39;Feedback 2&#39;</span><span class="p">},</span>
+                    <span class="p">{</span> <span class="s">&#39;ok&#39;</span><span class="p">:</span> <span class="n">check3</span><span class="p">,</span> <span class="s">&#39;msg&#39;</span><span class="p">:</span> <span class="s">&#39;Feedback 3&#39;</span><span class="p">}</span> <span class="p">]</span> <span class="p">}</span>
+</pre></div>
+</div>
+<p>The function checks that the user entered <tt class="docutils literal"><span class="pre">1</span></tt> for the first input, <tt class="docutils literal"><span class="pre">2</span></tt> for the  second input, and <tt class="docutils literal"><span class="pre">3</span></tt> for the third input. It provides feedback messages for each individual input, as well as a message displayed beneath the entire problem.</p>
+<div class="section" id="create-a-custom-python-evaluated-input-problem-in-script-tag-format">
+<h3>Create a Custom Python-Evaluated Input Problem in Script Tag Format<a class="headerlink" href="#create-a-custom-python-evaluated-input-problem-in-script-tag-format" title="Permalink to this headline">¶</a></h3>
+<p>To create a custom Python-evaluated input problem using a <tt class="docutils literal"><span class="pre">&lt;script&gt;</span></tt> tag:</p>
+<ol class="arabic simple">
+<li>In the unit where you want to create the problem, click <strong>Problem</strong>
+under <strong>Add New Component</strong>, and then click the <strong>Advanced</strong> tab.</li>
+<li>Click <strong>Custom Python-Evaluated Input</strong>.</li>
+<li>In the component that appears, click <strong>Edit</strong>.</li>
+<li>In the component editor, replace the example code with the following code.</li>
+<li>Click <strong>Save</strong>.</li>
+</ol>
+<p><strong>Problem Code</strong>:</p>
+<div class="highlight-xml"><div class="highlight"><pre><span class="nt">&lt;problem&gt;</span>
+<span class="nt">&lt;p&gt;</span>This question has two parts.<span class="nt">&lt;/p&gt;</span>
+
+<span class="nt">&lt;script</span> <span class="na">type=</span><span class="s">&quot;loncapa/python&quot;</span><span class="nt">&gt;</span>
+
+def test_add(expect, ans):
+    try:
+        a1=int(ans[0])
+        a2=int(ans[1])
+        return (a1+a2) == int(expect)
+    except ValueError:
+        return False
+
+def test_add_to_ten(expect, ans):
+    return test_add(10, ans)
+
+<span class="nt">&lt;/script&gt;</span>
+
+<span class="nt">&lt;p&gt;</span>Part 1: Enter two integers that sum to 10. <span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;customresponse</span> <span class="na">cfn=</span><span class="s">&quot;test_add_to_ten&quot;</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;textline</span> <span class="na">size=</span><span class="s">&quot;10&quot;</span> <span class="na">correct_answer=</span><span class="s">&quot;3&quot;</span> <span class="na">label=</span><span class="s">&quot;Integer #1&quot;</span><span class="nt">/&gt;&lt;br/&gt;</span>
+        <span class="nt">&lt;textline</span> <span class="na">size=</span><span class="s">&quot;10&quot;</span> <span class="na">correct_answer=</span><span class="s">&quot;7&quot;</span> <span class="na">label=</span><span class="s">&quot;Integer #2&quot;</span><span class="nt">/&gt;</span>
+<span class="nt">&lt;/customresponse&gt;</span>
+
+<span class="nt">&lt;p&gt;</span>Part 2: Enter two integers that sum to 20. <span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;customresponse</span> <span class="na">cfn=</span><span class="s">&quot;test_add&quot;</span> <span class="na">expect=</span><span class="s">&quot;20&quot;</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;textline</span> <span class="na">size=</span><span class="s">&quot;10&quot;</span> <span class="na">label=</span><span class="s">&quot;Integer #1&quot;</span><span class="nt">/&gt;&lt;br/&gt;</span>
+        <span class="nt">&lt;textline</span> <span class="na">size=</span><span class="s">&quot;10&quot;</span> <span class="na">label=</span><span class="s">&quot;Integer #2&quot;</span><span class="nt">/&gt;</span>
+<span class="nt">&lt;/customresponse&gt;</span>
+
+<span class="nt">&lt;solution&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;detailed-solution&quot;</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;p&gt;</span>Explanation<span class="nt">&lt;/p&gt;</span>
+        <span class="nt">&lt;p&gt;</span>For part 1, any two numbers of the form <span class="nt">&lt;i&gt;</span>n<span class="nt">&lt;/i&gt;</span> and <span class="nt">&lt;i&gt;</span>10-n<span class="nt">&lt;/i&gt;</span>, where <span class="nt">&lt;i&gt;</span>n<span class="nt">&lt;/i&gt;</span> is any integer, will work. One possible answer would be the pair 0 and 10.<span class="nt">&lt;/p&gt;</span>
+        <span class="nt">&lt;p&gt;</span>For part 2, any pair <span class="nt">&lt;i&gt;</span>x<span class="nt">&lt;/i&gt;</span> and <span class="nt">&lt;i&gt;</span>20-x<span class="nt">&lt;/i&gt;</span> will work, where <span class="nt">&lt;i&gt;</span>x<span class="nt">&lt;/i&gt;</span> is any real number with a finite decimal representation. Both inputs have to be entered either in standard decimal notation or in scientific exponential notation. One possible answer would be the pair 0.5 and 19.5. Another way to write this would be 5e-1 and 1.95e1.<span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/solution&gt;</span>
+<span class="nt">&lt;/problem&gt;</span>
+</pre></div>
+</div>
+<p><strong>Templates</strong></p>
+<p>The following template includes answers that appear when the student clicks <strong>Show Answer</strong>.</p>
+<div class="highlight-xml"><div class="highlight"><pre><span class="nt">&lt;problem&gt;</span>
+
+<span class="nt">&lt;script</span> <span class="na">type=</span><span class="s">&quot;loncapa/python&quot;</span><span class="nt">&gt;</span>
+def test_add(expect,ans):
+  a1=float(ans[0])
+  a2=float(ans[1])
+  return (a1+a2)== float(expect)
+<span class="nt">&lt;/script&gt;</span>
+
+<span class="nt">&lt;p&gt;</span>Problem text<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;customresponse</span> <span class="na">cfn=</span><span class="s">&quot;test_add&quot;</span> <span class="na">expect=</span><span class="s">&quot;20&quot;</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;textline</span> <span class="na">size=</span><span class="s">&quot;10&quot;</span> <span class="na">correct_answer=</span><span class="s">&quot;11&quot;</span> <span class="na">label=</span><span class="s">&quot;Integer #1&quot;</span><span class="nt">/&gt;&lt;br/&gt;</span>
+        <span class="nt">&lt;textline</span> <span class="na">size=</span><span class="s">&quot;10&quot;</span> <span class="na">correct_answer=</span><span class="s">&quot;9&quot;</span> <span class="na">label=</span><span class="s">&quot;Integer #2&quot;</span><span class="nt">/&gt;</span>
+<span class="nt">&lt;/customresponse&gt;</span>
+
+    <span class="nt">&lt;solution&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;detailed-solution&quot;</span><span class="nt">&gt;</span>
+          <span class="nt">&lt;p&gt;</span>Solution or Explanation Heading<span class="nt">&lt;/p&gt;</span>
+          <span class="nt">&lt;p&gt;</span>Solution or explanation text<span class="nt">&lt;/p&gt;</span>
+        <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/solution&gt;</span>
+<span class="nt">&lt;/problem&gt;</span>
+</pre></div>
+</div>
+<p>The following template does not return answers when the student clicks <strong>Show Answer</strong>. If your problem doesn't include answers for the student to see, make sure to set <strong>Show Answer</strong> to <strong>Never</strong> in the problem component.</p>
+<div class="highlight-xml"><div class="highlight"><pre><span class="nt">&lt;problem&gt;</span>
+
+<span class="nt">&lt;script</span> <span class="na">type=</span><span class="s">&quot;loncapa/python&quot;</span><span class="nt">&gt;</span>
+def test_add(expect,ans):
+  a1=float(ans[0])
+  a2=float(ans[1])
+  return (a1+a2)== float(expect)
+<span class="nt">&lt;/script&gt;</span>
+
+<span class="nt">&lt;p&gt;</span>Enter two real numbers that sum to 20: <span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;customresponse</span> <span class="na">cfn=</span><span class="s">&quot;test_add&quot;</span> <span class="na">expect=</span><span class="s">&quot;20&quot;</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;textline</span> <span class="na">size=</span><span class="s">&quot;10&quot;</span>  <span class="na">label=</span><span class="s">&quot;Integer #1&quot;</span><span class="nt">/&gt;&lt;br/&gt;</span>
+        <span class="nt">&lt;textline</span> <span class="na">size=</span><span class="s">&quot;10&quot;</span>  <span class="na">label=</span><span class="s">&quot;Integer #2&quot;</span><span class="nt">/&gt;</span>
+<span class="nt">&lt;/customresponse&gt;</span>
+
+    <span class="nt">&lt;solution&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;detailed-solution&quot;</span><span class="nt">&gt;</span>
+          <span class="nt">&lt;p&gt;</span>Solution or Explanation Heading<span class="nt">&lt;/p&gt;</span>
+          <span class="nt">&lt;p&gt;</span>Solution or explanation text<span class="nt">&lt;/p&gt;</span>
+        <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/solution&gt;</span>
+<span class="nt">&lt;/problem&gt;</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="create-a-randomized-custom-python-evaluated-input-problem">
+<span id="id3"></span><h2>Create a Randomized Custom Python-Evaluated Input Problem<a class="headerlink" href="#create-a-randomized-custom-python-evaluated-input-problem" title="Permalink to this headline">¶</a></h2>
+<p>You can create a custom Python-evaluated input problem that randomizes
+variables in the Python code.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">In the problem settings, you must set the <strong>Randomization</strong> value to
+something other than <strong>Never</strong> to have Python variables randomized. See
+<em class="xref std std-ref">Randomization</em> for more information.</p>
+</div>
+<p>The following example demonstrates using randomization with a Python-evaluated
+input problem.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">This example uses the method <tt class="docutils literal"><span class="pre">random.randint</span></tt> to generate random numbers.  You can use any standard Python library for this purpose.</p>
+</div>
+<div class="highlight-xml"><div class="highlight"><pre><span class="nt">&lt;problem&gt;</span>
+  <span class="nt">&lt;p&gt;</span>Some problems in the course will utilize randomized parameters.
+     For such problems, after you check your answer you will have the option
+     of resetting the question, which reconstructs the problem with a new
+     set of parameters.<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;script</span> <span class="na">type=</span><span class="s">&quot;loncapa/python&quot;</span><span class="nt">&gt;</span>
+x1 = random.randint(0, 100)
+x2 = random.randint(0, 100)
+y = x1+x2
+<span class="nt">&lt;/script&gt;</span>
+<span class="nt">&lt;p&gt;</span>Let (x_1 = $x1) and (x_2 = $x2). What is the value of (x_1+x_2)?<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;numericalresponse</span> <span class="na">answer=</span><span class="s">&quot;$y&quot;</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;responseparam</span> <span class="na">type=</span><span class="s">&quot;tolerance&quot;</span> <span class="na">default=</span><span class="s">&quot;0.01%&quot;</span> <span class="na">name=</span><span class="s">&quot;tol&quot;</span>
+    <span class="na">description=</span><span class="s">&quot;Numerical Tolerance&quot;</span><span class="nt">/&gt;</span>
+  <span class="nt">&lt;textline</span> <span class="na">size=</span><span class="s">&quot;10&quot;</span><span class="nt">/&gt;</span>
+<span class="nt">&lt;/numericalresponse&gt;</span>
+<span class="nt">&lt;solution&gt;</span>
+  <span class="nt">&lt;p&gt;&lt;b&gt;</span>Explanation:<span class="nt">&lt;/b&gt;&lt;/p&gt;</span>
+<span class="nt">&lt;/solution&gt;</span>
+<span class="nt">&lt;/problem&gt;</span>
+</pre></div>
+</div>
+</div>
+</div>
+
+
+          <footer>
+  
+    <div class="rst-footer-buttons">
+      
+        <a href="drag_and_drop.html" class="btn btn-neutral float-right" title="Drag and Drop Problem"/>Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="custom_javascript.html" class="btn btn-neutral" title="Custom JavaScript Problem"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <p>
+      &copy; Copyright 2014, edX.
+  </p>
+
+  <a href="https://www.github.com/snide/sphinx_rtd_theme">Sphinx theme</a> provided by <a href="http://readthedocs.org">Read the Docs</a>
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+</body>
+</html>

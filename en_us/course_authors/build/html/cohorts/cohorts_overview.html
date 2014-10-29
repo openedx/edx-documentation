@@ -1,0 +1,465 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>10.1. Using Cohorts to Build Course Communities &mdash; Building and Running an edX Course  documentation</title>
+  
+
+  
+  
+
+  
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  
+  
+
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:'../',
+        VERSION:'',
+        COLLAPSE_INDEX:false,
+        FILE_SUFFIX:'.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+    <link rel="top" title="Building and Running an edX Course  documentation" href="../index.html"/>
+        <link rel="up" title="10. Including Student Cohorts" href="index.html"/>
+        <link rel="next" title="10.2. Enabling and Configuring the Cohort Feature" href="cohort_config.html"/>
+        <link rel="prev" title="10. Including Student Cohorts" href="index.html"/> 
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-nav-search">
+        <a href="../index.html" class="icon icon-home"> Building and Running an edX Course</a>
+        <form class="wy-form" action="../search.html" method="get">
+  <input type="text" name="q" placeholder="Search docs" />
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix">
+        
+        
+            <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../read_me.html">1. Read Me</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../preface.html">2. Preface</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../preface.html#system-status">2.1. System Status</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../preface.html#resources-for-course-teams">2.2. Resources for Course Teams</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../preface.html#resources-for-researchers">2.3. Resources for Researchers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../preface.html#resources-for-developers">2.4. Resources for Developers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../preface.html#resources-for-students">2.5. Resources for Students</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../change_log.html">3. Change Log</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../change_log.html#october-2014">3.1. October, 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../change_log.html#september-2014">3.2. September, 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../change_log.html#august-2014">3.3. August, 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../change_log.html#july-2014">3.4. July, 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../change_log.html#june-2014">3.5. June, 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../change_log.html#may-2014">3.6. May, 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../change_log.html#april-2014">3.7. April, 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../change_log.html#march-2014">3.8. March, 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../change_log.html#february-2014">3.9. February, 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../change_log.html#january-2014">3.10. January, 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../change_log.html#december-2013">3.11. December, 2013</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../getting_started/index.html">4. Getting Started</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../getting_started/browsers.html">4.1. edX Browser Support</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../getting_started/accounts.html">4.2. Getting Started with edX</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../getting_started/get_started.html">4.3. Getting Started with Studio</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../getting_started/accessibility.html">4.4. Guidelines for Creating Accessible Content</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../getting_started/glossary.html">4.5. Glossary</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../building_course/index.html">5. Setting up Your Course</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../building_course/creating_new_course.html">5.1. Creating a New Course</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../building_course/export_import_course.html">5.2. Exporting and Importing a Course</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../building_course/course_files.html">5.3. Adding Files to a Course</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../building_course/handouts_updates.html">5.4. Adding Course Updates and Handouts</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../building_course/pages.html">5.5. Adding Pages to a Course</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../building_course/textbooks.html">5.6. Adding Textbooks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../building_course/establish_grading_policy.html">5.7. Establishing a Grading Policy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../building_course/setting_up_student_view.html">5.8. Setting up the Student View</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../developing_course/index.html">6. Developing Your Course</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../developing_course/workflow.html">6.1. Getting Started with Course Content Development</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../developing_course/course_outline.html">6.2. Developing Your Course Outline</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../developing_course/course_sections.html">6.3. Developing Course Sections</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../developing_course/course_subsections.html">6.4. Developing Course Subsections</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../developing_course/course_units.html">6.5. Developing Course Units</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../developing_course/course_components.html">6.6. Developing Course Components</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../developing_course/controlling_content_visibility.html">6.7. Controlling Content Visibility</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../developing_course/testing_courseware.html">6.8. Testing Your Course Content</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../creating_content/index.html">7. Creating Course Content</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../creating_content/create_html_component.html">7.1. Working with HTML Components</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../creating_content/create_video.html">7.2. Working with Video Components</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../creating_content/create_discussion.html">7.3. Working with Discussion Components</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../creating_content/create_problem.html">7.4. Working with Problem Components</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../exercises_tools/index.html">8. Creating Exercises and Tools</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/create_exercises_and_tools.html">8.1. Creating Exercises and Tools</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/annotation.html">8.2. Annotation Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/checkbox.html">8.3. Checkbox Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/chemical_equation.html">8.4. Chemical Equation Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/circuit_schematic_builder.html">8.5. Circuit Schematic Builder Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/conditional_module.html">8.6. Conditional Module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/custom_javascript.html">8.7. Custom JavaScript Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/drag_and_drop.html">8.8. Drag and Drop Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/dropdown.html">8.9. Dropdown Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/external_graders.html">8.10. External Grader</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/full_screen_image.html">8.11. Full Screen Image Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/gene_explorer.html">8.12. Gene Explorer Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/google_hangouts.html">8.13. Google Instant Hangout Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/iframe.html">8.14. IFrame Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/image_mapped_input.html">8.15. Image Mapped Input Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/lti_component.html">8.16. LTI Component</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/math_expression_input.html">8.17. Math Expression Input Problems</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/molecule_editor.html">8.18. Molecule Editor Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/molecule_viewer.html">8.19. Molecule Viewer Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/multiple_choice.html">8.20. Multiple Choice Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/mult_choice_num_input.html">8.21. Multiple Choice and Numerical Input Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/numerical_input.html">8.22. Numerical Input</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/open_response_assessment.html">8.23. Open Response Assessment Problems</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/periodic_table.html">8.24. Periodic Table Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/poll.html">8.25. Poll Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/problem_with_hint.html">8.26. Problem with Adaptive Hint</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/problem_in_latex.html">8.27. Problem Written in LaTeX</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/protein_builder.html">8.28. Protex Protein Builder Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/text_input.html">8.29. Text Input Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/word_cloud.html">8.30. Word Cloud Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/custom_python.html">8.31. Write-Your-Own-Grader Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/zooming_image.html">8.32. Zooming Image Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/mathjax.html">8.33. A Brief Introduction to MathJax in Studio</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../content_experiments/index.html">9. Creating Content Experiments</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../content_experiments/content_experiments_overview.html">9.1. Overview of Content Experiments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../content_experiments/content_experiments_configure.html">9.2. Configure Your Course for Content Experiments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../content_experiments/content_experiments_add.html">9.3. Add Content Experiments to Your Course</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../content_experiments/content_experiments_view.html">9.4. Test Content Experiments</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">10. Including Student Cohorts</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="">10.1. Using Cohorts to Build Course Communities</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cohort_config.html">10.2. Enabling and Configuring the Cohort Feature</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cohorts_discussions.html">10.3. Managing Discussions in a Course with Student Cohorts</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../releasing_course/index.html">11. Releasing Your Course</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../releasing_course/beta_testing.html">11.1. Beta Testing a Course</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasing_course/course_launching.html">11.2. Course Launching Activities</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasing_course/staff_debug_info.html">11.3. Staff Debug Info</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../running_course/index.html">12. Running Your Course</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../running_course/course_staffing.html">12.1. Staffing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../running_course/course_enrollment.html">12.2. Enrollment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../running_course/discussions.html">12.3. Managing Course Discussions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../running_course/discussions_students.html">12.4. Participating in Course Discussions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../running_course/discussion_guidance_moderators.html">12.5. Guidance for Discussion Moderators</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../running_course/course_data.html">12.6. Course Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../running_course/course_student.html">12.7. Student Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../running_course/course_answers.html">12.8. Answer Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../running_course/course_grades.html">12.9. Student Grades and Grading</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../running_course/checking_student_progress.html">12.10. Assign Final Grades and Issue Certificates</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../students/index.html">13. Information for Your Students</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../students/login_guide.html">13.1. Sample Student Login Guide</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../students/math_students.html">13.2. Math Response Formatting for Students</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../students/ora_students.html">13.3. Open Response Assessments for Students</a></li>
+</ul>
+</li>
+</ul>
+
+        
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top">
+        <i data-toggle="wy-nav-top" class="icon icon-reorder"></i>
+        <a href="/">Building and Running an edX Course</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <ul class="wy-breadcrumbs">
+  <li><a href="../index.html">Docs</a> &raquo;</li>
+  <li><a href="">10.1. Using Cohorts to Build Course Communities</a></li>
+  
+</ul>
+<hr/>
+
+          
+  <div class="section" id="using-cohorts-to-build-course-communities">
+<span id="cohorts-overview"></span><h1>10.1. Using Cohorts to Build Course Communities<a class="headerlink" href="#using-cohorts-to-build-course-communities" title="Permalink to this headline">¶</a></h1>
+<p>Cohorts create smaller communities of students within a course. Students who
+are in a cohort can communicate and share experiences privately within course
+discussion topics.</p>
+<p>When you enable the cohort feature for your course, the discussion topics that
+you include in units by adding discussion components are divided by cohort.
+This means that each post that a student makes to those content-specific topics
+can only be read, and responded to, by members of the same cohort. However, any
+course-wide discussion topics that you set up for your course remain unified.
+This means that all posts can be read, and responded to, by every student. You
+can change some, or all, of your course-wide topics to be divided by cohort.
+See <a class="reference internal" href="#options-for-discussion-topics"><em>Options for Discussion Topics</em></a>.</p>
+<p>This section also describes your options for <a class="reference internal" href="#options-for-assigning-students-to-cohorts"><em>assigning students to cohort
+groups</em></a>. When you enable the cohort
+feature, you define a set of cohort groups to reflect communities of students,
+and select a strategy for assigning students to those groups. Note that:</p>
+<ul class="simple">
+<li>Every student must be assigned to a cohort group. This assures that every
+student has the ability to read and contribute to all of the course
+discussion topics.</li>
+<li>Each student is in one and only one cohort group.</li>
+</ul>
+<p>To provide a consistent experience throughout the course run, each student&#8217;s
+assignment to a cohort group should remain unchanged after the course begins.</p>
+<p>For more information, see:</p>
+<ul class="simple">
+<li><a class="reference internal" href="cohort_config.html#enabling-and-configuring-cohorts"><em>Enabling and Configuring the Cohort Feature</em></a></li>
+<li><a class="reference internal" href="cohorts_discussions.html#moderating-discussions-for-cohorts"><em>Managing Discussions in a Course with Student Cohorts</em></a></li>
+</ul>
+<p>For information about discussions, see <a class="reference internal" href="../running_course/discussions.html#discussions"><em>Managing Course Discussions</em></a>.</p>
+<div class="section" id="options-for-discussion-topics">
+<span id="id1"></span><h2>10.1.1. Options for Discussion Topics<a class="headerlink" href="#options-for-discussion-topics" title="Permalink to this headline">¶</a></h2>
+<p>By enabling the cohort feature in a course, you provide students with the
+ability to ask questions of, and have conversations with, other members of
+their cohort. By offering cohort-only discussion oppotunities, the cohort
+feature can help students develop a sense of community, provide specialized
+experiences, and encourage deeper, more meaningful course involvement.</p>
+<p>Enabling the cohort feature has different effects on the course-wide discussion
+topics and the content-specific discussion topics in the course.</p>
+<div class="section" id="course-wide-discussion-topics-are-configurable">
+<h3>10.1.1.1. Course-Wide Discussion Topics Are Configurable<a class="headerlink" href="#course-wide-discussion-topics-are-configurable" title="Permalink to this headline">¶</a></h3>
+<p>To create course-wide discussion topics, you add them on the <strong>Advanced
+Settings</strong> page in Studio. By default, each of these topics is unified. All of
+the students in the course can post, read, respond, and comment in course-wide
+discussion topics without regard to their cohort group assignments. After you
+add a course-wide topic, you can configure it so that it is divided by cohort
+instead.</p>
+<p>For example, in addition to the General topic, which is supplied by default,
+you create these additional course-wide topics: Course Q&amp;A, Announcements, and
+Brainstorming. You want all students to be able to read and contribute to all
+of the posts in the General and Course Q&amp;A topics. However, you want the
+Announcements and Brainstorming topics to be divided, so that students will
+only be able to read and respond to contributions by the members of their own
+cohorts. You complete the additional configuration step for the Announcements
+and Brainstorming topics only.</p>
+<p>For information about course-wide discussion topics, see
+<a class="reference internal" href="../running_course/discussions.html#organizing-discussions"><em>Set Up Discussion Topics for Your Course</em></a>. For information about configuring these topics,
+see <a class="reference internal" href="cohort_config.html#configure-coursewide-discussion-topics-as-private"><em>Identify Divided Course-Wide Discussion Topics</em></a>.</p>
+</div>
+<div class="section" id="all-content-specific-discussion-topics-are-divided">
+<h3>10.1.1.2. All Content-Specific Discussion Topics Are Divided<a class="headerlink" href="#all-content-specific-discussion-topics-are-divided" title="Permalink to this headline">¶</a></h3>
+<p>Each of the content-specific discussion topics is divided by cohort. A student
+who is assigned to one cohort group cannot read or add to the posts, responses,
+or comments contributed by the members of another cohort group.</p>
+<p>To create content-specific discussion topics in a course, you add units that
+include discussion components. In a course with the cohort feature enabled, you
+do not have the option to change these topics to be unified for all students.</p>
+<p>For more information about content-specific discussion topics,
+see <a class="reference internal" href="../running_course/discussions.html#organizing-discussions"><em>Set Up Discussion Topics for Your Course</em></a>.</p>
+</div>
+</div>
+<div class="section" id="options-for-assigning-students-to-cohort-groups">
+<span id="options-for-assigning-students-to-cohorts"></span><h2>10.1.2. Options for Assigning Students to Cohort Groups<a class="headerlink" href="#options-for-assigning-students-to-cohort-groups" title="Permalink to this headline">¶</a></h2>
+<p>You can configure the cohort feature so that students are assigned to cohort
+groups automatically or manually. You can also use a combination of both
+assignment methods. Typically, your purpose in including the cohort feature in
+your course determines which assignment option you will use for your course.</p>
+<ul class="simple">
+<li><a class="reference internal" href="#all-automated-assignment"><em>Making MOOC Discussions Manageable: Automated Assignment</em></a></li>
+<li><a class="reference internal" href="#all-manual-assignment"><em>Grouping by Common Characteristic: Manual Assignment</em></a></li>
+<li><a class="reference internal" href="#hybrid-assignment"><em>Accomodating Small Groups Within a Course: Hybrid Assignment</em></a></li>
+<li><a class="reference internal" href="#default-cohort-group"><em>Assuring That All Students Are Assigned: The Default Cohort Group</em></a></li>
+</ul>
+<div class="section" id="making-mooc-discussions-manageable-automated-assignment">
+<span id="all-automated-assignment"></span><h3>10.1.2.1. Making MOOC Discussions Manageable: Automated Assignment<a class="headerlink" href="#making-mooc-discussions-manageable-automated-assignment" title="Permalink to this headline">¶</a></h3>
+<p>In very large courses, the number of posts made to course discussion topics can
+make for a daunting amount of daily reading. In such courses, dividing the
+enrollees into separate cohorts makes the volume of posts, responses, and
+comments by the members of each one more manageable, and is more likely to
+foster community feeling.</p>
+<p>To implement this assignment strategy, you enable the cohort feature and create
+a set of &#8220;auto&#8221; cohort groups. The first time a student views the course
+<strong>Discussion</strong> page or any of the content-specific discussion topics, he or she
+is randomly assigned to a cohort group. Together, all of the students assigned
+to a group are a cohort.</p>
+<p>These guidelines, which are based on the experiences of MOOC teams that have
+used the cohort feature in this way, are suggested to help you determine how
+many auto cohort groups to define for your course.</p>
+<ul class="simple">
+<li>Each cohort should be large enough to inspire lively participation and
+diverse points of view, but small enough to allow a sense of community to
+develop. Cohorts formed by random assignment tend to be successful if they
+include between 200 and 500 members.</li>
+<li>For every 10,000 students who enroll, approximately 200 to 400 students
+remain active in the discussions throughout the course run.</li>
+<li>Divide the estimated total enrollment of the course run by 10,000.</li>
+<li>Use the result as the number of auto cohort groups to create.</li>
+</ul>
+<p>For example, two days before it starts, a course has an enrollment of 80,000
+students. To create small communities within the discussions, the course team
+enables the cohort feature and creates eight auto cohort groups. As they visit
+the <strong>Discussion</strong> page and view the discussion components in the course
+content, students are assigned to one of the cohorts. In divided discussion
+topics, students read and respond to contributions made by other members of the
+same cohort only.</p>
+<p>For more information, see <a class="reference internal" href="cohort_config.html#implementing-the-automated-assignment-strategy"><em>Implementing the Automated Assignment Strategy</em></a>.</p>
+</div>
+<div class="section" id="grouping-by-common-characteristic-manual-assignment">
+<span id="all-manual-assignment"></span><h3>10.1.2.2. Grouping by Common Characteristic: Manual Assignment<a class="headerlink" href="#grouping-by-common-characteristic-manual-assignment" title="Permalink to this headline">¶</a></h3>
+<p>In SPOCs and other courses with small- to medium-sized enrollments, known
+existing commonalities can be used to identify cohorts. An example is a course
+that enrolls students from different companies or with different educational
+backgrounds, or members of alumni or parent groups. When students are assigned
+to cohorts on the basis of a characteristic that they share, they can privately
+discuss applications for what they are learning and explore resources and ideas
+that are of particular interest.</p>
+<p>To implement this assignment strategy, you identify the &#8220;real-world&#8221; cohorts
+that your students belong to already. You enable the cohort feature and create
+a &#8220;manual&#8221; cohort group to represent each of those cohorts. You then assign
+each student to one of the manual cohort groups. Every student who enrolls,
+including those who enroll after the course starts, must be assigned to a
+cohort group.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">To ensure that every student is assigned to a cohort group, you can
+set up a single auto cohort group, as described for the <a class="reference internal" href="#hybrid-assignment"><em>hybrid
+assignment strategy</em></a>. If you do not create an auto cohort
+group, the system automatically creates a <a class="reference internal" href="#default-cohort-group"><em>default cohort group</em></a> and assignes students to it if necessary.</p>
+</div>
+<p>For more information, see <a class="reference internal" href="cohort_config.html#implementing-the-manual-assignment-strategy"><em>Implementing the Manual Assignment Strategy</em></a>.</p>
+</div>
+<div class="section" id="accomodating-small-groups-within-a-course-hybrid-assignment">
+<span id="hybrid-assignment"></span><h3>10.1.2.3. Accomodating Small Groups Within a Course: Hybrid Assignment<a class="headerlink" href="#accomodating-small-groups-within-a-course-hybrid-assignment" title="Permalink to this headline">¶</a></h3>
+<p>For some courses, the manual assignment strategy isn&#8217;t feasible to execute, and
+the automated assignment strategy doesn&#8217;t accommodate the existing cohorts that
+exist in the student body. The enrollment may be too large to complete manual
+assignments effectively, or only some of the students may have strong defining
+characteristics among an otherwise diverse student body. For these courses, you
+can use a hybrid of the two strategies to implement the cohort feature.</p>
+<p>An example is a course that enrolls members of an alumni association. The
+alumni want an opportunity for private interactions, so manual assignment of
+those students to a cohort group makes sense. For other students in the class,
+manual assignment isn&#8217;t needed: you create one or more auto cohort groups for
+those students.</p>
+<p>Before you implement the hybrid strategy, you identify the characteristics that
+define existing cohorts in the student body. You also decide whether you want
+the rest of the students in the course to be divided into their own,
+similarly-sized cohort groups, or if you want them all to be in just one other
+group.</p>
+<p>After you enable the cohort feature, you create a manual cohort group for each
+cohort that you identified. You manually assign students who belong to those
+cohorts to the corresponding groups. You also set up auto cohort groups for
+the other students in the course, or rely on the default cohort group. The
+students who are not assigned to a manual cohort group are automatically
+assigned to one of the auto cohort groups, or to the default cohort group if
+you choose to use it, when they view the <strong>Discussion</strong> page or a discussion
+topic in the course content. (For best results when you use this strategy, you
+complete all manual assignments before the course starts and students begin
+viewing discussion topics.)</p>
+<p>For more information, see <a class="reference internal" href="cohort_config.html#implementing-the-automated-assignment-strategy"><em>Implementing the Automated Assignment Strategy</em></a> and <a class="reference internal" href="cohort_config.html#implementing-the-manual-assignment-strategy"><em>Implementing the Manual Assignment Strategy</em></a>.</p>
+</div>
+<div class="section" id="assuring-that-all-students-are-assigned-the-default-cohort-group">
+<span id="default-cohort-group"></span><h3>10.1.2.4. Assuring That All Students Are Assigned: The Default Cohort Group<a class="headerlink" href="#assuring-that-all-students-are-assigned-the-default-cohort-group" title="Permalink to this headline">¶</a></h3>
+<p>In a course that has the cohort feature enabled, all students must be assigned
+to a cohort group. To assure that all students are assigned, the system
+automatically creates a default cohort group and assigns students to it if
+necessary. Creation of the default cohort group only occurs if you do not
+define any auto cohort groups for your course. Any student who is not assigned
+to a manual cohort group is assigned to the default cohort group automatically
+when they visit the <strong>Discussion</strong> page or a discussion topic in the course
+content.</p>
+<p>Students who are assigned to the default cohort group see a cohort name of
+&#8220;Default Group&#8221; in discussion posts.</p>
+<img alt="A discussion topic post with &quot;This post is visible to Default Group&quot; above the title" src="../_images/post_visible_default.png" />
+<p>If you want students to see a different cohort name when your course starts,
+you can add an auto cohort group with the name that you prefer. See
+<a class="reference internal" href="cohort_config.html#define-auto-cohort-groups"><em>Define the Auto Cohort Groups</em></a>. (Adding an auto cohort group to your course
+for this purpose is not recommended after your course starts.)</p>
+<p>You can check the <a class="reference internal" href="../running_course/course_student.html#view-and-download-student-data"><em>student profile information report</em></a> for your course to see if any students are assigned to the
+default cohort group in your course, and change their group assignments. Note,
+however, that in divided discussion topics students can only see posts by
+members of their currently assigned cohort group: when a student is reassigned,
+posts &#8220;disappear&#8221;. As a result, any group assignment changes should be done as
+early in the course run as possible so that students see discussion posts and
+contributions that remain consistent over time.</p>
+</div>
+</div>
+</div>
+
+
+          <footer>
+  
+    <div class="rst-footer-buttons">
+      
+        <a href="cohort_config.html" class="btn btn-neutral float-right" title="10.2. Enabling and Configuring the Cohort Feature"/>Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="index.html" class="btn btn-neutral" title="10. Including Student Cohorts"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <p>
+      &copy; Copyright 2014, edX.
+  </p>
+
+  <a href="https://www.github.com/snide/sphinx_rtd_theme">Sphinx theme</a> provided by <a href="http://readthedocs.org">Read the Docs</a>
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+</body>
+</html>

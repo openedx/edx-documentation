@@ -1,0 +1,365 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>8.13. Google Instant Hangout Tool &mdash; Building and Running an edX Course  documentation</title>
+  
+
+  
+  
+
+  
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  
+  
+
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:'../',
+        VERSION:'',
+        COLLAPSE_INDEX:false,
+        FILE_SUFFIX:'.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+    <link rel="top" title="Building and Running an edX Course  documentation" href="../index.html"/>
+        <link rel="up" title="8. Creating Exercises and Tools" href="index.html"/>
+        <link rel="next" title="8.14. IFrame Tool" href="iframe.html"/>
+        <link rel="prev" title="8.12. Gene Explorer Tool" href="gene_explorer.html"/> 
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-nav-search">
+        <a href="../index.html" class="icon icon-home"> Building and Running an edX Course</a>
+        <form class="wy-form" action="../search.html" method="get">
+  <input type="text" name="q" placeholder="Search docs" />
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix">
+        
+        
+            <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../read_me.html">1. Read Me</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../preface.html">2. Preface</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../preface.html#system-status">2.1. System Status</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../preface.html#resources-for-course-teams">2.2. Resources for Course Teams</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../preface.html#resources-for-researchers">2.3. Resources for Researchers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../preface.html#resources-for-developers">2.4. Resources for Developers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../preface.html#resources-for-students">2.5. Resources for Students</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../change_log.html">3. Change Log</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../change_log.html#october-2014">3.1. October, 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../change_log.html#september-2014">3.2. September, 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../change_log.html#august-2014">3.3. August, 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../change_log.html#july-2014">3.4. July, 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../change_log.html#june-2014">3.5. June, 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../change_log.html#may-2014">3.6. May, 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../change_log.html#april-2014">3.7. April, 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../change_log.html#march-2014">3.8. March, 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../change_log.html#february-2014">3.9. February, 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../change_log.html#january-2014">3.10. January, 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../change_log.html#december-2013">3.11. December, 2013</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../getting_started/index.html">4. Getting Started</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../getting_started/browsers.html">4.1. edX Browser Support</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../getting_started/accounts.html">4.2. Getting Started with edX</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../getting_started/get_started.html">4.3. Getting Started with Studio</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../getting_started/accessibility.html">4.4. Guidelines for Creating Accessible Content</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../getting_started/glossary.html">4.5. Glossary</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../building_course/index.html">5. Setting up Your Course</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../building_course/creating_new_course.html">5.1. Creating a New Course</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../building_course/export_import_course.html">5.2. Exporting and Importing a Course</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../building_course/course_files.html">5.3. Adding Files to a Course</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../building_course/handouts_updates.html">5.4. Adding Course Updates and Handouts</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../building_course/pages.html">5.5. Adding Pages to a Course</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../building_course/textbooks.html">5.6. Adding Textbooks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../building_course/establish_grading_policy.html">5.7. Establishing a Grading Policy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../building_course/setting_up_student_view.html">5.8. Setting up the Student View</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../developing_course/index.html">6. Developing Your Course</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../developing_course/workflow.html">6.1. Getting Started with Course Content Development</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../developing_course/course_outline.html">6.2. Developing Your Course Outline</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../developing_course/course_sections.html">6.3. Developing Course Sections</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../developing_course/course_subsections.html">6.4. Developing Course Subsections</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../developing_course/course_units.html">6.5. Developing Course Units</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../developing_course/course_components.html">6.6. Developing Course Components</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../developing_course/controlling_content_visibility.html">6.7. Controlling Content Visibility</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../developing_course/testing_courseware.html">6.8. Testing Your Course Content</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../creating_content/index.html">7. Creating Course Content</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../creating_content/create_html_component.html">7.1. Working with HTML Components</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../creating_content/create_video.html">7.2. Working with Video Components</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../creating_content/create_discussion.html">7.3. Working with Discussion Components</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../creating_content/create_problem.html">7.4. Working with Problem Components</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">8. Creating Exercises and Tools</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="create_exercises_and_tools.html">8.1. Creating Exercises and Tools</a></li>
+<li class="toctree-l2"><a class="reference internal" href="annotation.html">8.2. Annotation Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="checkbox.html">8.3. Checkbox Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chemical_equation.html">8.4. Chemical Equation Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="circuit_schematic_builder.html">8.5. Circuit Schematic Builder Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="conditional_module.html">8.6. Conditional Module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="custom_javascript.html">8.7. Custom JavaScript Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="drag_and_drop.html">8.8. Drag and Drop Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dropdown.html">8.9. Dropdown Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="external_graders.html">8.10. External Grader</a></li>
+<li class="toctree-l2"><a class="reference internal" href="full_screen_image.html">8.11. Full Screen Image Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gene_explorer.html">8.12. Gene Explorer Tool</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="">8.13. Google Instant Hangout Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="iframe.html">8.14. IFrame Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="image_mapped_input.html">8.15. Image Mapped Input Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="lti_component.html">8.16. LTI Component</a></li>
+<li class="toctree-l2"><a class="reference internal" href="math_expression_input.html">8.17. Math Expression Input Problems</a></li>
+<li class="toctree-l2"><a class="reference internal" href="molecule_editor.html">8.18. Molecule Editor Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="molecule_viewer.html">8.19. Molecule Viewer Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="multiple_choice.html">8.20. Multiple Choice Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mult_choice_num_input.html">8.21. Multiple Choice and Numerical Input Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="numerical_input.html">8.22. Numerical Input</a></li>
+<li class="toctree-l2"><a class="reference internal" href="open_response_assessment.html">8.23. Open Response Assessment Problems</a></li>
+<li class="toctree-l2"><a class="reference internal" href="periodic_table.html">8.24. Periodic Table Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="poll.html">8.25. Poll Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="problem_with_hint.html">8.26. Problem with Adaptive Hint</a></li>
+<li class="toctree-l2"><a class="reference internal" href="problem_in_latex.html">8.27. Problem Written in LaTeX</a></li>
+<li class="toctree-l2"><a class="reference internal" href="protein_builder.html">8.28. Protex Protein Builder Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="text_input.html">8.29. Text Input Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="word_cloud.html">8.30. Word Cloud Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="custom_python.html">8.31. Write-Your-Own-Grader Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="zooming_image.html">8.32. Zooming Image Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mathjax.html">8.33. A Brief Introduction to MathJax in Studio</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../content_experiments/index.html">9. Creating Content Experiments</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../content_experiments/content_experiments_overview.html">9.1. Overview of Content Experiments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../content_experiments/content_experiments_configure.html">9.2. Configure Your Course for Content Experiments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../content_experiments/content_experiments_add.html">9.3. Add Content Experiments to Your Course</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../content_experiments/content_experiments_view.html">9.4. Test Content Experiments</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../cohorts/index.html">10. Including Student Cohorts</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../cohorts/cohorts_overview.html">10.1. Using Cohorts to Build Course Communities</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../cohorts/cohort_config.html">10.2. Enabling and Configuring the Cohort Feature</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../cohorts/cohorts_discussions.html">10.3. Managing Discussions in a Course with Student Cohorts</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../releasing_course/index.html">11. Releasing Your Course</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../releasing_course/beta_testing.html">11.1. Beta Testing a Course</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasing_course/course_launching.html">11.2. Course Launching Activities</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasing_course/staff_debug_info.html">11.3. Staff Debug Info</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../running_course/index.html">12. Running Your Course</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../running_course/course_staffing.html">12.1. Staffing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../running_course/course_enrollment.html">12.2. Enrollment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../running_course/discussions.html">12.3. Managing Course Discussions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../running_course/discussions_students.html">12.4. Participating in Course Discussions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../running_course/discussion_guidance_moderators.html">12.5. Guidance for Discussion Moderators</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../running_course/course_data.html">12.6. Course Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../running_course/course_student.html">12.7. Student Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../running_course/course_answers.html">12.8. Answer Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../running_course/course_grades.html">12.9. Student Grades and Grading</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../running_course/checking_student_progress.html">12.10. Assign Final Grades and Issue Certificates</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../students/index.html">13. Information for Your Students</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../students/login_guide.html">13.1. Sample Student Login Guide</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../students/math_students.html">13.2. Math Response Formatting for Students</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../students/ora_students.html">13.3. Open Response Assessments for Students</a></li>
+</ul>
+</li>
+</ul>
+
+        
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top">
+        <i data-toggle="wy-nav-top" class="icon icon-reorder"></i>
+        <a href="/">Building and Running an edX Course</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <ul class="wy-breadcrumbs">
+  <li><a href="../index.html">Docs</a> &raquo;</li>
+  <li><a href="">8.13. Google Instant Hangout Tool</a></li>
+  
+</ul>
+<hr/>
+
+          
+  <div class="section" id="google-instant-hangout-tool">
+<span id="google-instant-hangout"></span><h1>8.13. Google Instant Hangout Tool<a class="headerlink" href="#google-instant-hangout-tool" title="Permalink to this headline">¶</a></h1>
+<p>This chapter describes how you can use instant hangouts in your course. See:</p>
+<ul class="simple">
+<li><a class="reference internal" href="#hangouts-overview"><em>Overview</em></a></li>
+<li><a class="reference internal" href="#instant-hangouts-in-your-course"><em>Instant Hangouts in Your Course</em></a></li>
+<li><a class="reference internal" href="#the-student-experience"><em>The Student Experience</em></a></li>
+<li><a class="reference internal" href="#limitations"><em>Limitations</em></a></li>
+<li><a class="reference internal" href="#create-the-instant-hangout"><em>Create the Instant Hangout</em></a></li>
+</ul>
+<div class="section" id="overview">
+<span id="hangouts-overview"></span><h2>8.13.1. Overview<a class="headerlink" href="#overview" title="Permalink to this headline">¶</a></h2>
+<p>You can add the ability for students to participate in instant hangouts directly from your course.</p>
+<p>With instant hangouts, students can:</p>
+<ul class="simple">
+<li>Interact through live video and voice.</li>
+<li>Share screens and watch videos together.</li>
+<li>Collaborate on documents.</li>
+</ul>
+<p>For a full list of instant hangout features, see the <a class="reference external" href="http://www.google.com/+/learnmore/hangouts/">Google Hangouts page</a>.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Students who want to participate in instant hangouts must have a Google account.  You should note this in your course materials.</p>
+</div>
+</div>
+<div class="section" id="instant-hangouts-in-your-course">
+<span id="id1"></span><h2>8.13.2. Instant Hangouts in Your Course<a class="headerlink" href="#instant-hangouts-in-your-course" title="Permalink to this headline">¶</a></h2>
+<p>You can add one or more instant hangouts in your course. For example, you can add an instant hangout:</p>
+<ul class="simple">
+<li>In a page, to provide students with a hangout for the entire course. See <a class="reference internal" href="../building_course/pages.html#adding-pages-to-a-course"><em>Adding Pages to a Course</em></a> for more information.</li>
+<li>In an HTML component, to provide a hangout for students working on that specific course unit. See <a class="reference internal" href="../creating_content/create_html_component.html#working-with-html-components"><em>Working with HTML Components</em></a> for more information about creating HTML components.</li>
+</ul>
+<p>An instant hangout is specific to the page it is opened from. For example, students who join a hangout from one course unit interact among themselves, while students who join a hangout from another unit interact in a different hangout.</p>
+</div>
+<div class="section" id="the-student-experience">
+<span id="id2"></span><h2>8.13.3. The Student Experience<a class="headerlink" href="#the-student-experience" title="Permalink to this headline">¶</a></h2>
+<p>When you add the instant hangout to your course, a control for the hangout appears on that page. The following example shows the control in a course unit. The control shows that the student can start the hangout and be the first participant.</p>
+<img alt="Image of the instant hangout control on a unit" src="../_images/hangout_unit.png" />
+<p>To start the hangout, the student clicks <strong>Start the Hangout</strong>. (After the first student clicks <strong>Start the Hangout</strong>, other students see a <strong>Join the Hangout</strong> button.)</p>
+<p>The following example shows the control in a page when a hangout has already started. The control has a <strong>Join the Hangout</strong> button, and shows that one other student is already in the hangout.</p>
+<img alt="Image of the instant hangout control on a page" src="../_images/hangout_static_page.png" />
+<p>To join the hangout, the student clicks <strong>Join the Hangout</strong>.</p>
+<p>If not already logged in, the student is prompted to log in to Google:</p>
+<img alt="Image of the Google login page" src="../_images/google_login.png" />
+<p>Students who do not have a Google account can create one from the login page.</p>
+<p>After the student has logged in to Google, the hangout opens in a separate browser window:</p>
+<img alt="Image of the instant hangout" src="../_images/GoogleHangout_WithPeople.png" />
+</div>
+<div class="section" id="limitations">
+<span id="id3"></span><h2>8.13.4. Limitations<a class="headerlink" href="#limitations" title="Permalink to this headline">¶</a></h2>
+<p>Currently, only ten students can join a single instant hangout. You should note this in your course materials.</p>
+<p>Students in hangouts that are started from different pages in your course are counted separately. So you can have ten students participating in a hangout started from one unit, and ten other students in a hangout started from a different unit.</p>
+</div>
+<div class="section" id="create-the-instant-hangout">
+<span id="id4"></span><h2>8.13.5. Create the Instant Hangout<a class="headerlink" href="#create-the-instant-hangout" title="Permalink to this headline">¶</a></h2>
+<p>To create an instant hangout in your course:</p>
+<ol class="arabic">
+<li><p class="first">Get the <a class="reference external" href="https://raw.github.com/google/instant-hangouts/master/instanthangouts-0.1.0.js">instant hangout JavaScript file from GitHub</a>.</p>
+</li>
+<li><p class="first">Copy the text of this file into a text editor on your computer, and save the file as a JavaScript file (that is, when you save the file, change the extension from .txt to .js).</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Make sure that you copy the raw GitHub file, which does not contain formatting. Do not copy the formatted file. Any formatting will cause the JavaScript to not work correctly.</p>
+</div>
+</li>
+<li><p class="first">Upload the JavaScript file to the <strong>Files &amp; Uploads</strong> page in your course. See <a class="reference internal" href="../building_course/course_files.html#add-files-to-a-course"><em>Adding Files to a Course</em></a> for more information.</p>
+</li>
+<li><p class="first">In either a page or an HTML component, open the HTML editor.</p>
+</li>
+<li><p class="first">On the first line, add the JavaScript file you uploaded in a &lt;script&gt; tag. For example, if your JavaScript file is named <strong>instanthangouts-0.1.0.js</strong>, you would enter the following:</p>
+<div class="highlight-python"><pre>&lt;script src='/static/instanthangouts-0.1.0.js'/&gt;</pre>
+</div>
+</li>
+<li><p class="first">After the &lt;script&gt; tag, add:</p>
+<div class="highlight-python"><pre>&lt;div class='instanthangouts'/&gt;</pre>
+</div>
+</li>
+<li><p class="first">Add any additional text and tags that you want.</p>
+<p>For example, the complete HTML could be:</p>
+<div class="highlight-python"><pre>&lt;p&gt;Join an instant hangout by clicking the button below.
+You can use the hangout to have live video discussions with other students.&lt;/p&gt;
+&lt;script src='/static/instanthangouts-0.1.0.js'&gt;&lt;/script&gt;
+&lt;div class='instanthangouts'/&gt;</pre>
+</div>
+</li>
+<li><p class="first">Test the instant hangout in your course.</p>
+</li>
+</ol>
+<div class="section" id="updating-the-javascript-file">
+<h3>8.13.5.1. Updating the JavaScript File<a class="headerlink" href="#updating-the-javascript-file" title="Permalink to this headline">¶</a></h3>
+<p>Google will periodically update the instant hangouts JavaScript file.  To receive update notifications, go to the <a class="reference external" href="https://github.com/google/instant-hangouts/">instant hangouts repository page</a>, and then click <strong>Watch</strong> in the upper-right area of the page.</p>
+<p>To use an updated JavaScript file in your course, we recommend that you copy the JavaScript from the repository into a file that has the same name as the file that you uploaded to your course. When you upload the new file, the new file replaces the previous file.</p>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">If you include version numbers in the file names of uploaded files, you will have to edit any HTML components or pages that include an instant hangout control every time that you update the JavaScript file.</p>
+</div>
+</div>
+</div>
+</div>
+
+
+          <footer>
+  
+    <div class="rst-footer-buttons">
+      
+        <a href="iframe.html" class="btn btn-neutral float-right" title="8.14. IFrame Tool"/>Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="gene_explorer.html" class="btn btn-neutral" title="8.12. Gene Explorer Tool"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <p>
+      &copy; Copyright 2014, edX.
+  </p>
+
+  <a href="https://www.github.com/snide/sphinx_rtd_theme">Sphinx theme</a> provided by <a href="http://readthedocs.org">Read the Docs</a>
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+</body>
+</html>

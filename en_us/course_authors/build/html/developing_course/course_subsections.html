@@ -1,0 +1,524 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>6.4. Developing Course Subsections &mdash; Building and Running an edX Course  documentation</title>
+  
+
+  
+  
+
+  
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  
+  
+
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:'../',
+        VERSION:'',
+        COLLAPSE_INDEX:false,
+        FILE_SUFFIX:'.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+    <link rel="top" title="Building and Running an edX Course  documentation" href="../index.html"/>
+        <link rel="up" title="6. Developing Your Course" href="index.html"/>
+        <link rel="next" title="6.5. Developing Course Units" href="course_units.html"/>
+        <link rel="prev" title="6.3. Developing Course Sections" href="course_sections.html"/> 
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-nav-search">
+        <a href="../index.html" class="icon icon-home"> Building and Running an edX Course</a>
+        <form class="wy-form" action="../search.html" method="get">
+  <input type="text" name="q" placeholder="Search docs" />
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix">
+        
+        
+            <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../read_me.html">1. Read Me</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../preface.html">2. Preface</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../preface.html#system-status">2.1. System Status</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../preface.html#resources-for-course-teams">2.2. Resources for Course Teams</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../preface.html#resources-for-researchers">2.3. Resources for Researchers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../preface.html#resources-for-developers">2.4. Resources for Developers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../preface.html#resources-for-students">2.5. Resources for Students</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../change_log.html">3. Change Log</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../change_log.html#october-2014">3.1. October, 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../change_log.html#september-2014">3.2. September, 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../change_log.html#august-2014">3.3. August, 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../change_log.html#july-2014">3.4. July, 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../change_log.html#june-2014">3.5. June, 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../change_log.html#may-2014">3.6. May, 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../change_log.html#april-2014">3.7. April, 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../change_log.html#march-2014">3.8. March, 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../change_log.html#february-2014">3.9. February, 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../change_log.html#january-2014">3.10. January, 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../change_log.html#december-2013">3.11. December, 2013</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../getting_started/index.html">4. Getting Started</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../getting_started/browsers.html">4.1. edX Browser Support</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../getting_started/accounts.html">4.2. Getting Started with edX</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../getting_started/get_started.html">4.3. Getting Started with Studio</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../getting_started/accessibility.html">4.4. Guidelines for Creating Accessible Content</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../getting_started/glossary.html">4.5. Glossary</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../building_course/index.html">5. Setting up Your Course</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../building_course/creating_new_course.html">5.1. Creating a New Course</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../building_course/export_import_course.html">5.2. Exporting and Importing a Course</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../building_course/course_files.html">5.3. Adding Files to a Course</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../building_course/handouts_updates.html">5.4. Adding Course Updates and Handouts</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../building_course/pages.html">5.5. Adding Pages to a Course</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../building_course/textbooks.html">5.6. Adding Textbooks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../building_course/establish_grading_policy.html">5.7. Establishing a Grading Policy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../building_course/setting_up_student_view.html">5.8. Setting up the Student View</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">6. Developing Your Course</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="workflow.html">6.1. Getting Started with Course Content Development</a></li>
+<li class="toctree-l2"><a class="reference internal" href="course_outline.html">6.2. Developing Your Course Outline</a></li>
+<li class="toctree-l2"><a class="reference internal" href="course_sections.html">6.3. Developing Course Sections</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="">6.4. Developing Course Subsections</a></li>
+<li class="toctree-l2"><a class="reference internal" href="course_units.html">6.5. Developing Course Units</a></li>
+<li class="toctree-l2"><a class="reference internal" href="course_components.html">6.6. Developing Course Components</a></li>
+<li class="toctree-l2"><a class="reference internal" href="controlling_content_visibility.html">6.7. Controlling Content Visibility</a></li>
+<li class="toctree-l2"><a class="reference internal" href="testing_courseware.html">6.8. Testing Your Course Content</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../creating_content/index.html">7. Creating Course Content</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../creating_content/create_html_component.html">7.1. Working with HTML Components</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../creating_content/create_video.html">7.2. Working with Video Components</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../creating_content/create_discussion.html">7.3. Working with Discussion Components</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../creating_content/create_problem.html">7.4. Working with Problem Components</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../exercises_tools/index.html">8. Creating Exercises and Tools</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/create_exercises_and_tools.html">8.1. Creating Exercises and Tools</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/annotation.html">8.2. Annotation Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/checkbox.html">8.3. Checkbox Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/chemical_equation.html">8.4. Chemical Equation Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/circuit_schematic_builder.html">8.5. Circuit Schematic Builder Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/conditional_module.html">8.6. Conditional Module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/custom_javascript.html">8.7. Custom JavaScript Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/drag_and_drop.html">8.8. Drag and Drop Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/dropdown.html">8.9. Dropdown Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/external_graders.html">8.10. External Grader</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/full_screen_image.html">8.11. Full Screen Image Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/gene_explorer.html">8.12. Gene Explorer Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/google_hangouts.html">8.13. Google Instant Hangout Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/iframe.html">8.14. IFrame Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/image_mapped_input.html">8.15. Image Mapped Input Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/lti_component.html">8.16. LTI Component</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/math_expression_input.html">8.17. Math Expression Input Problems</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/molecule_editor.html">8.18. Molecule Editor Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/molecule_viewer.html">8.19. Molecule Viewer Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/multiple_choice.html">8.20. Multiple Choice Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/mult_choice_num_input.html">8.21. Multiple Choice and Numerical Input Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/numerical_input.html">8.22. Numerical Input</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/open_response_assessment.html">8.23. Open Response Assessment Problems</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/periodic_table.html">8.24. Periodic Table Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/poll.html">8.25. Poll Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/problem_with_hint.html">8.26. Problem with Adaptive Hint</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/problem_in_latex.html">8.27. Problem Written in LaTeX</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/protein_builder.html">8.28. Protex Protein Builder Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/text_input.html">8.29. Text Input Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/word_cloud.html">8.30. Word Cloud Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/custom_python.html">8.31. Write-Your-Own-Grader Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/zooming_image.html">8.32. Zooming Image Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/mathjax.html">8.33. A Brief Introduction to MathJax in Studio</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../content_experiments/index.html">9. Creating Content Experiments</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../content_experiments/content_experiments_overview.html">9.1. Overview of Content Experiments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../content_experiments/content_experiments_configure.html">9.2. Configure Your Course for Content Experiments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../content_experiments/content_experiments_add.html">9.3. Add Content Experiments to Your Course</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../content_experiments/content_experiments_view.html">9.4. Test Content Experiments</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../cohorts/index.html">10. Including Student Cohorts</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../cohorts/cohorts_overview.html">10.1. Using Cohorts to Build Course Communities</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../cohorts/cohort_config.html">10.2. Enabling and Configuring the Cohort Feature</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../cohorts/cohorts_discussions.html">10.3. Managing Discussions in a Course with Student Cohorts</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../releasing_course/index.html">11. Releasing Your Course</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../releasing_course/beta_testing.html">11.1. Beta Testing a Course</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasing_course/course_launching.html">11.2. Course Launching Activities</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasing_course/staff_debug_info.html">11.3. Staff Debug Info</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../running_course/index.html">12. Running Your Course</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../running_course/course_staffing.html">12.1. Staffing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../running_course/course_enrollment.html">12.2. Enrollment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../running_course/discussions.html">12.3. Managing Course Discussions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../running_course/discussions_students.html">12.4. Participating in Course Discussions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../running_course/discussion_guidance_moderators.html">12.5. Guidance for Discussion Moderators</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../running_course/course_data.html">12.6. Course Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../running_course/course_student.html">12.7. Student Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../running_course/course_answers.html">12.8. Answer Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../running_course/course_grades.html">12.9. Student Grades and Grading</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../running_course/checking_student_progress.html">12.10. Assign Final Grades and Issue Certificates</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../students/index.html">13. Information for Your Students</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../students/login_guide.html">13.1. Sample Student Login Guide</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../students/math_students.html">13.2. Math Response Formatting for Students</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../students/ora_students.html">13.3. Open Response Assessments for Students</a></li>
+</ul>
+</li>
+</ul>
+
+        
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top">
+        <i data-toggle="wy-nav-top" class="icon icon-reorder"></i>
+        <a href="/">Building and Running an edX Course</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <ul class="wy-breadcrumbs">
+  <li><a href="../index.html">Docs</a> &raquo;</li>
+  <li><a href="">6.4. Developing Course Subsections</a></li>
+  
+</ul>
+<hr/>
+
+          
+  <div class="section" id="developing-course-subsections">
+<span id="id1"></span><h1>6.4. Developing Course Subsections<a class="headerlink" href="#developing-course-subsections" title="Permalink to this headline">¶</a></h1>
+<p>To develop subsections in your course, you must first understand the
+following:</p>
+<ul class="simple">
+<li><a class="reference internal" href="#what-is-a-subsection">What is a Subsection?</a></li>
+<li><a class="reference internal" href="#viewing-subsections-in-the-outline">Viewing Subsections in the Outline</a></li>
+<li><a class="reference internal" href="#the-student-view-of-a-subsection">The Student View of a Subsection</a></li>
+<li><a class="reference internal" href="#subsections-and-visibility-to-students">Subsections and Visibility to Students</a></li>
+<li><a class="reference internal" href="#release-statuses-of-subsections">Release Statuses of Subsections</a></li>
+</ul>
+<p>Subsection tasks:</p>
+<ul class="simple">
+<li><a class="reference internal" href="#create-a-subsection">Create a Subsection</a></li>
+<li><a class="reference internal" href="#change-a-subsection-name">Change a Subsection Name</a></li>
+<li><a class="reference internal" href="#set-a-subsection-release-date">Set a Subsection Release Date</a></li>
+<li><a class="reference internal" href="#set-the-assignment-type-and-due-date-for-a-subsection">Set the Assignment Type and Due Date for a Subsection</a></li>
+<li><a class="reference internal" href="#publish-all-units-in-a-subsection">Publish all Units in a Subsection</a></li>
+<li><a class="reference internal" href="#hide-a-subsection-from-students">Hide a Subsection from Students</a></li>
+<li><a class="reference internal" href="#delete-a-subsection">Delete a Subsection</a></li>
+</ul>
+<div class="section" id="what-is-a-subsection">
+<h2>6.4.1. What Is a Subsection?<a class="headerlink" href="#what-is-a-subsection" title="Permalink to this headline">¶</a></h2>
+<p>Sections are divided into subsections, which in turn contain one or more units.
+A subsection may represent a topic in your course, or another organizing
+principle. Subsections are sometimes called “lessons” or “learning sequences.”</p>
+</div>
+<div class="section" id="viewing-subsections-in-the-outline">
+<h2>6.4.2. Viewing Subsections in the Outline<a class="headerlink" href="#viewing-subsections-in-the-outline" title="Permalink to this headline">¶</a></h2>
+<p>The following example shows three subsections in a section, all collapsed, in
+the course outline:</p>
+<img alt="Three collapsed subsections in the outline" src="../_images/subsections.png" />
+</div>
+<div class="section" id="the-student-view-of-a-subsection">
+<h2>6.4.3. The Student View of a Subsection<a class="headerlink" href="#the-student-view-of-a-subsection" title="Permalink to this headline">¶</a></h2>
+<p>Students see subsections in the Courseware tab, listed beneath the expanded
+section. In the following example, seven subsections are circled, and the first
+is open.</p>
+<img alt="The student view of the outline" src="../_images/subsections_student.png" />
+</div>
+<div class="section" id="subsections-and-visibility-to-students">
+<h2>6.4.4. Subsections and Visibility to Students<a class="headerlink" href="#subsections-and-visibility-to-students" title="Permalink to this headline">¶</a></h2>
+<p>Students cannot see any content in a subsection if the subsection&#8217;s release
+date is unscheduled or has not passed.</p>
+<p>If a subsection&#8217;s release date has passed, students can see content in the
+subsection if the following three conditions are met:</p>
+<ul class="simple">
+<li>The release date of the parent section has passed.</li>
+<li>The units have been published.</li>
+<li>The units are not hidden from students.</li>
+</ul>
+</div>
+<div class="section" id="release-statuses-of-subsections">
+<h2>6.4.5. Release Statuses of Subsections<a class="headerlink" href="#release-statuses-of-subsections" title="Permalink to this headline">¶</a></h2>
+<p>As a course author, you control the release status of subsections.  For the
+content of a subsection to be visible to students, the subsection must be
+released. See the following for more information about the possible releases
+statuses of subsections:</p>
+<ul class="simple">
+<li><a class="reference internal" href="#scheduled-with-the-section">Scheduled with the Section</a></li>
+<li><a class="reference internal" href="#unscheduled">Unscheduled</a></li>
+<li><a class="reference internal" href="#scheduled-later-than-the-section">Scheduled Later than the Section</a></li>
+<li><a class="reference internal" href="#scheduled-with-unpublished-changes">Scheduled with Unpublished Changes</a></li>
+<li><a class="reference internal" href="#released-with-unpublished-changes">Released with Unpublished Changes</a></li>
+<li><a class="reference internal" href="#released">Released</a></li>
+</ul>
+<div class="section" id="scheduled-with-the-section">
+<h3>6.4.5.1. Scheduled with the Section<a class="headerlink" href="#scheduled-with-the-section" title="Permalink to this headline">¶</a></h3>
+<p>When you create a subsection, it is set by default to release at the same time
+as the section it is in. Therefore, published content in the subsection is
+visible to students at the date and time the section is released.</p>
+<p>The following example shows how an subsection in the Scheduled with Section
+state is displayed in the outline, summarized with a green bar:</p>
+<img alt="A subsection scheduled to release with the section" src="../_images/subsection-scheduled.png" />
+</div>
+<div class="section" id="unscheduled">
+<h3>6.4.5.2. Unscheduled<a class="headerlink" href="#unscheduled" title="Permalink to this headline">¶</a></h3>
+<p>If the parent section is unscheduled, when you create a new subsection it
+will also be unscheduled.</p>
+<p>Regardless of the publishing status of units within the subsection, no content
+in an unscheduled subsection is visible to students.</p>
+<p>The following example shows how an unscheduled subsection is displayed in the
+outline, summarized with a gray bar:</p>
+<img alt="An unscheduled subsection" src="../_images/subsection-unscheduled.png" />
+<p>Content in the subsection is not visible to students until you set a release
+date and the date passes.</p>
+</div>
+<div class="section" id="scheduled-later-than-the-section">
+<h3>6.4.5.3. Scheduled Later than the Section<a class="headerlink" href="#scheduled-later-than-the-section" title="Permalink to this headline">¶</a></h3>
+<p>You can set a subsection to release on a date after the section releases.</p>
+<p>Content in a subsection that is scheduled for release on a future date is not
+visible to students, even if some or all of the units in the subsection are
+published.</p>
+<p>The following example shows the way that a subsection that will release after
+its parent subsection appears in the course outline:</p>
+<img alt="A subsection scheduled to release later than the section" src="../_images/subsection-scheduled-different.png" />
+<p>The scheduled date must pass for the subsection to be visible to students.</p>
+</div>
+<div class="section" id="scheduled-with-unpublished-changes">
+<h3>6.4.5.4. Scheduled with Unpublished Changes<a class="headerlink" href="#scheduled-with-unpublished-changes" title="Permalink to this headline">¶</a></h3>
+<p>You can make changes to a published unit before its parent subsection
+is released.</p>
+<p>In this situation, when the release date for the subsection passes, the last
+published version of units within the subsection are made visible to students.
+The changes in units are not visible to students until you publish them.</p>
+<p>The following example shows how a scheduled subsection with unpublished changes
+is displayed in the outline, summarized with a yellow bar:</p>
+<img alt="A scheduled subsection with unpublished changes" src="../_images/section-scheduled-with-changes.png" />
+</div>
+<div class="section" id="released-with-unpublished-changes">
+<h3>6.4.5.5. Released with Unpublished Changes<a class="headerlink" href="#released-with-unpublished-changes" title="Permalink to this headline">¶</a></h3>
+<p>If you modify a unit within a released subsection, those modifications are not
+visible to students until you publish them.</p>
+<p>The following example shows how a released section that has unpublished changes
+appears in the outline, summarized with a yellow bar:</p>
+<img alt="A released subsection with unpublished changes" src="../_images/section-released-with-changes.png" />
+</div>
+<div class="section" id="released">
+<h3>6.4.5.6. Released<a class="headerlink" href="#released" title="Permalink to this headline">¶</a></h3>
+<p>A subsection that is released is visible to students; however, students see
+only units within the subsection that are published.</p>
+<p>The following example shows how a released subsection is displayed in the
+outline, summarized with a blue bar:</p>
+<img alt="A released subsection" src="../_images/subsection-released.png" />
+</div>
+<div class="section" id="staff-only-content">
+<h3>6.4.5.7. Staff Only Content<a class="headerlink" href="#staff-only-content" title="Permalink to this headline">¶</a></h3>
+<p>A subsection can contain a unit that is hidden from students and available to
+staff only. That unit is not visible to students, even if the subsection has
+been released.</p>
+<p>The following example shows how an subsection that contains a unit that is
+hidden from students is displayed in the outline, summarized with a black bar:</p>
+<img alt="A section with a hidden unit" src="../_images/section-hidden-unit.png" />
+</div>
+</div>
+<div class="section" id="create-a-subsection">
+<span id="id2"></span><h2>6.4.6. Create a Subsection<a class="headerlink" href="#create-a-subsection" title="Permalink to this headline">¶</a></h2>
+<p>To create a new subsection:</p>
+<ol class="arabic simple">
+<li>In the outline, expand the section in which you want to create a new
+subsection.</li>
+<li>Click <strong>New Subsection</strong> at the bottom of the expanded section. A new
+subsection is added at the end of the section, with the subsection name
+selected.</li>
+<li>Enter the name for the new subsection. Remember that students see the
+subsection name in the courseware.</li>
+<li><a class="reference internal" href="course_units.html#create-a-unit"><em>Add units</em></a> to the new subsection as needed.</li>
+</ol>
+<p>It is recommended that you <a class="reference internal" href="testing_courseware.html#testing-your-course-content"><em>test course content</em></a> as you create new subsections.</p>
+</div>
+<div class="section" id="change-a-subsection-name">
+<h2>6.4.7. Change a Subsection Name<a class="headerlink" href="#change-a-subsection-name" title="Permalink to this headline">¶</a></h2>
+<p>To change a subsection name, click the Edit icon next to the subsection name.
+The name field becomes editable. Enter the new name and tab or click out of the
+field to save the name.</p>
+</div>
+<div class="section" id="set-a-subsection-release-date">
+<span id="id3"></span><h2>6.4.8. Set a Subsection Release Date<a class="headerlink" href="#set-a-subsection-release-date" title="Permalink to this headline">¶</a></h2>
+<p>To set the subsection release date:</p>
+<ol class="arabic">
+<li><p class="first">Click the Settings icon in the subsection box:</p>
+<img alt="The subsection settings icon circled" src="../_images/subsections-settings-icon.png" />
+<p>The <strong>Settings</strong> dialog box opens.</p>
+</li>
+<li><p class="first">Enter the release date and time for the section:</p>
+<img alt="The subsection release date settings" src="../_images/subsection-settings-release.png" />
+</li>
+<li><p class="first">Click <strong>Save</strong>.</p>
+</li>
+</ol>
+<p>For more information, see <a class="reference internal" href="controlling_content_visibility.html#release-dates"><em>Release Dates</em></a>.</p>
+</div>
+<div class="section" id="set-the-assignment-type-and-due-date-for-a-subsection">
+<span id="id4"></span><h2>6.4.9. Set the Assignment Type and Due Date for a Subsection<a class="headerlink" href="#set-the-assignment-type-and-due-date-for-a-subsection" title="Permalink to this headline">¶</a></h2>
+<p>You set the assignment type for problems at the subsection level.</p>
+<p>When you set the assignment type for a subsection, all problems within the
+subsection are graded and weighted as a single type.  For example, if you
+designate the assignment type for a subsection as <strong>Homework</strong>, then all
+problem types in that subsection are graded as homework.</p>
+<p>To set the assignment type and due date for a subsection:</p>
+<ol class="arabic">
+<li><p class="first">Click the Settings icon in the subsection box:</p>
+<img alt="The subsection settings icon circled" src="../_images/subsections-settings-icon.png" />
+<p>The Settings dialog box opens.</p>
+</li>
+<li><p class="first">Select the assignment type for this subsection in the <strong>Grade as</strong> field:</p>
+<img alt="The subsection settings with the assignment type and due date circled" src="../_images/subsection-settings-grading.png" />
+</li>
+<li><p class="first">Enter or select a due date and time for problems in this subsection.</p>
+</li>
+<li><p class="first">Click <strong>Save</strong>.</p>
+</li>
+</ol>
+<p>For more information, see <a class="reference internal" href="../building_course/establish_grading_policy.html#establish-a-grading-policy"><em>Establishing a Grading Policy</em></a>.</p>
+</div>
+<div class="section" id="publish-all-units-in-a-subsection">
+<span id="id5"></span><h2>6.4.10. Publish all Units in a Subsection<a class="headerlink" href="#publish-all-units-in-a-subsection" title="Permalink to this headline">¶</a></h2>
+<p>To publish all new and changed units in a subsection, click the publish icon in
+the box for the subsection:</p>
+<img alt="Publishing icon for a subsection" src="../_images/outline-publish-icon-subsection.png" />
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">The publish icon only appears when there is new or changed content within the
+subsection.</p>
+</div>
+<p>See <a class="reference internal" href="course_units.html#unit-publishing-status"><em>Unit Publishing Status</em></a> for information about statuses and visibility
+to students.</p>
+</div>
+<div class="section" id="hide-a-subsection-from-students">
+<span id="id6"></span><h2>6.4.11. Hide a Subsection from Students<a class="headerlink" href="#hide-a-subsection-from-students" title="Permalink to this headline">¶</a></h2>
+<p>You can hide all content in a subsection from students, regardless of the
+status of units within the section.</p>
+<p>To hide a subsection from students:</p>
+<ol class="arabic">
+<li><p class="first">Click the Settings icon in the subsection box:</p>
+<img alt="The subsection settings icon circled" src="../_images/subsections-settings-icon.png" />
+<p>The <strong>Settings</strong> dialog box opens.</p>
+</li>
+<li><p class="first">Check <strong>Hide from students</strong>.</p>
+<img alt="The subsection hide from students setting" src="../_images/subsection-settings-hidden.png" />
+</li>
+<li><p class="first">Click <strong>Save</strong>.</p>
+</li>
+</ol>
+<p>Now, no content in the subsection is visible to students.</p>
+<p>To make the subection visible to students, repeat these steps and clear the
+<strong>Hide from students</strong> checkbox.</p>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">When you clear the <strong>Hide from students</strong> checkbox for a subsection, not all
+content in the subsection is necessarily made visible to students. If you
+explicitly set a unit to be hidden from students, it remains hidden from
+students. Unpublished units remain unpublished, and changes to published units
+remain unpublished.</p>
+</div>
+</div>
+<div class="section" id="delete-a-subsection">
+<span id="id7"></span><h2>6.4.12. Delete a Subsection<a class="headerlink" href="#delete-a-subsection" title="Permalink to this headline">¶</a></h2>
+<p>When you delete a subsection, you delete all units within the subsection.</p>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">You cannot restore course content after you delete it. To ensure you do not
+delete content you may need later, you can move any unused content to a
+section in your course that you set to never release.</p>
+</div>
+<p>To delete a subsection:</p>
+<ol class="arabic simple">
+<li>Click the delete icon in the subsection that you want to delete:</li>
+</ol>
+<blockquote>
+<div><img alt="The subsection with Delete icon circled" src="../_images/subsection-delete.png" />
+</div></blockquote>
+<ol class="arabic simple" start="2">
+<li>When you receive the confirmation prompt, click <strong>Yes, delete this
+subsection</strong>.</li>
+</ol>
+</div>
+</div>
+
+
+          <footer>
+  
+    <div class="rst-footer-buttons">
+      
+        <a href="course_units.html" class="btn btn-neutral float-right" title="6.5. Developing Course Units"/>Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="course_sections.html" class="btn btn-neutral" title="6.3. Developing Course Sections"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <p>
+      &copy; Copyright 2014, edX.
+  </p>
+
+  <a href="https://www.github.com/snide/sphinx_rtd_theme">Sphinx theme</a> provided by <a href="http://readthedocs.org">Read the Docs</a>
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+</body>
+</html>

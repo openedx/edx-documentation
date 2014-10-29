@@ -1,0 +1,647 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>7.1. Working with HTML Components &mdash; Building and Running an edX Course  documentation</title>
+  
+
+  
+  
+
+  
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  
+  
+
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:'../',
+        VERSION:'',
+        COLLAPSE_INDEX:false,
+        FILE_SUFFIX:'.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+    <link rel="top" title="Building and Running an edX Course  documentation" href="../index.html"/>
+        <link rel="up" title="7. Creating Course Content" href="index.html"/>
+        <link rel="next" title="7.2. Working with Video Components" href="create_video.html"/>
+        <link rel="prev" title="7. Creating Course Content" href="index.html"/> 
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-nav-search">
+        <a href="../index.html" class="icon icon-home"> Building and Running an edX Course</a>
+        <form class="wy-form" action="../search.html" method="get">
+  <input type="text" name="q" placeholder="Search docs" />
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix">
+        
+        
+            <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../read_me.html">1. Read Me</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../preface.html">2. Preface</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../preface.html#system-status">2.1. System Status</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../preface.html#resources-for-course-teams">2.2. Resources for Course Teams</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../preface.html#resources-for-researchers">2.3. Resources for Researchers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../preface.html#resources-for-developers">2.4. Resources for Developers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../preface.html#resources-for-students">2.5. Resources for Students</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../change_log.html">3. Change Log</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../change_log.html#october-2014">3.1. October, 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../change_log.html#september-2014">3.2. September, 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../change_log.html#august-2014">3.3. August, 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../change_log.html#july-2014">3.4. July, 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../change_log.html#june-2014">3.5. June, 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../change_log.html#may-2014">3.6. May, 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../change_log.html#april-2014">3.7. April, 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../change_log.html#march-2014">3.8. March, 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../change_log.html#february-2014">3.9. February, 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../change_log.html#january-2014">3.10. January, 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../change_log.html#december-2013">3.11. December, 2013</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../getting_started/index.html">4. Getting Started</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../getting_started/browsers.html">4.1. edX Browser Support</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../getting_started/accounts.html">4.2. Getting Started with edX</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../getting_started/get_started.html">4.3. Getting Started with Studio</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../getting_started/accessibility.html">4.4. Guidelines for Creating Accessible Content</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../getting_started/glossary.html">4.5. Glossary</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../building_course/index.html">5. Setting up Your Course</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../building_course/creating_new_course.html">5.1. Creating a New Course</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../building_course/export_import_course.html">5.2. Exporting and Importing a Course</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../building_course/course_files.html">5.3. Adding Files to a Course</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../building_course/handouts_updates.html">5.4. Adding Course Updates and Handouts</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../building_course/pages.html">5.5. Adding Pages to a Course</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../building_course/textbooks.html">5.6. Adding Textbooks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../building_course/establish_grading_policy.html">5.7. Establishing a Grading Policy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../building_course/setting_up_student_view.html">5.8. Setting up the Student View</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../developing_course/index.html">6. Developing Your Course</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../developing_course/workflow.html">6.1. Getting Started with Course Content Development</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../developing_course/course_outline.html">6.2. Developing Your Course Outline</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../developing_course/course_sections.html">6.3. Developing Course Sections</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../developing_course/course_subsections.html">6.4. Developing Course Subsections</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../developing_course/course_units.html">6.5. Developing Course Units</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../developing_course/course_components.html">6.6. Developing Course Components</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../developing_course/controlling_content_visibility.html">6.7. Controlling Content Visibility</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../developing_course/testing_courseware.html">6.8. Testing Your Course Content</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">7. Creating Course Content</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="">7.1. Working with HTML Components</a></li>
+<li class="toctree-l2"><a class="reference internal" href="create_video.html">7.2. Working with Video Components</a></li>
+<li class="toctree-l2"><a class="reference internal" href="create_discussion.html">7.3. Working with Discussion Components</a></li>
+<li class="toctree-l2"><a class="reference internal" href="create_problem.html">7.4. Working with Problem Components</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../exercises_tools/index.html">8. Creating Exercises and Tools</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/create_exercises_and_tools.html">8.1. Creating Exercises and Tools</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/annotation.html">8.2. Annotation Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/checkbox.html">8.3. Checkbox Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/chemical_equation.html">8.4. Chemical Equation Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/circuit_schematic_builder.html">8.5. Circuit Schematic Builder Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/conditional_module.html">8.6. Conditional Module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/custom_javascript.html">8.7. Custom JavaScript Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/drag_and_drop.html">8.8. Drag and Drop Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/dropdown.html">8.9. Dropdown Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/external_graders.html">8.10. External Grader</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/full_screen_image.html">8.11. Full Screen Image Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/gene_explorer.html">8.12. Gene Explorer Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/google_hangouts.html">8.13. Google Instant Hangout Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/iframe.html">8.14. IFrame Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/image_mapped_input.html">8.15. Image Mapped Input Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/lti_component.html">8.16. LTI Component</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/math_expression_input.html">8.17. Math Expression Input Problems</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/molecule_editor.html">8.18. Molecule Editor Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/molecule_viewer.html">8.19. Molecule Viewer Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/multiple_choice.html">8.20. Multiple Choice Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/mult_choice_num_input.html">8.21. Multiple Choice and Numerical Input Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/numerical_input.html">8.22. Numerical Input</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/open_response_assessment.html">8.23. Open Response Assessment Problems</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/periodic_table.html">8.24. Periodic Table Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/poll.html">8.25. Poll Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/problem_with_hint.html">8.26. Problem with Adaptive Hint</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/problem_in_latex.html">8.27. Problem Written in LaTeX</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/protein_builder.html">8.28. Protex Protein Builder Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/text_input.html">8.29. Text Input Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/word_cloud.html">8.30. Word Cloud Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/custom_python.html">8.31. Write-Your-Own-Grader Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/zooming_image.html">8.32. Zooming Image Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/mathjax.html">8.33. A Brief Introduction to MathJax in Studio</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../content_experiments/index.html">9. Creating Content Experiments</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../content_experiments/content_experiments_overview.html">9.1. Overview of Content Experiments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../content_experiments/content_experiments_configure.html">9.2. Configure Your Course for Content Experiments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../content_experiments/content_experiments_add.html">9.3. Add Content Experiments to Your Course</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../content_experiments/content_experiments_view.html">9.4. Test Content Experiments</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../cohorts/index.html">10. Including Student Cohorts</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../cohorts/cohorts_overview.html">10.1. Using Cohorts to Build Course Communities</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../cohorts/cohort_config.html">10.2. Enabling and Configuring the Cohort Feature</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../cohorts/cohorts_discussions.html">10.3. Managing Discussions in a Course with Student Cohorts</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../releasing_course/index.html">11. Releasing Your Course</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../releasing_course/beta_testing.html">11.1. Beta Testing a Course</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasing_course/course_launching.html">11.2. Course Launching Activities</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasing_course/staff_debug_info.html">11.3. Staff Debug Info</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../running_course/index.html">12. Running Your Course</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../running_course/course_staffing.html">12.1. Staffing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../running_course/course_enrollment.html">12.2. Enrollment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../running_course/discussions.html">12.3. Managing Course Discussions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../running_course/discussions_students.html">12.4. Participating in Course Discussions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../running_course/discussion_guidance_moderators.html">12.5. Guidance for Discussion Moderators</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../running_course/course_data.html">12.6. Course Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../running_course/course_student.html">12.7. Student Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../running_course/course_answers.html">12.8. Answer Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../running_course/course_grades.html">12.9. Student Grades and Grading</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../running_course/checking_student_progress.html">12.10. Assign Final Grades and Issue Certificates</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../students/index.html">13. Information for Your Students</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../students/login_guide.html">13.1. Sample Student Login Guide</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../students/math_students.html">13.2. Math Response Formatting for Students</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../students/ora_students.html">13.3. Open Response Assessments for Students</a></li>
+</ul>
+</li>
+</ul>
+
+        
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top">
+        <i data-toggle="wy-nav-top" class="icon icon-reorder"></i>
+        <a href="/">Building and Running an edX Course</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <ul class="wy-breadcrumbs">
+  <li><a href="../index.html">Docs</a> &raquo;</li>
+  <li><a href="">7.1. Working with HTML Components</a></li>
+  
+</ul>
+<hr/>
+
+          
+  <div class="section" id="working-with-html-components">
+<span id="id1"></span><h1>7.1. Working with HTML Components<a class="headerlink" href="#working-with-html-components" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="html-component-overview">
+<h2>7.1.1. HTML Component Overview<a class="headerlink" href="#html-component-overview" title="Permalink to this headline">¶</a></h2>
+<p>HTML, or HyperText Markup Language, is the standard markup language used to
+create web pages. Web browsers present HTML code in a more readable format.</p>
+<p>When students see text and images in your course, they are seeing HTML code
+that is formatted and presented by their browsers. For more information about
+HTML, see <a class="reference external" href="http://en.wikipedia.org/wiki/HTML">Wikipedia</a>.</p>
+<p>HTML components are the basic building blocks of your course content. You use
+HTML components to add and format text, links, images, and more. You can choose
+to create HTML components directly in HTML code, or using a Visual editor that
+hides the HTML code details, as described below.</p>
+<p>For more information, see the following topics:</p>
+<ul class="simple">
+<li><a class="reference internal" href="#options-for-editing-html-components"><em>Options for Editing HTML Components</em></a></li>
+<li><a class="reference internal" href="#the-visual-editor"><em>The Visual Editor</em></a></li>
+<li><a class="reference internal" href="#the-raw-html-editor"><em>The Raw HTML Editor</em></a></li>
+<li><a class="reference internal" href="#html-component-templates"><em>HTML Component Templates</em></a></li>
+<li><a class="reference internal" href="#create-an-html-component"><em>Create an HTML Component</em></a></li>
+<li><a class="reference internal" href="#add-a-link-in-an-html-component"><em>Add a Link in an HTML Component</em></a></li>
+<li><a class="reference internal" href="#add-an-image-to-an-html-component"><em>Add an Image to an HTML Component</em></a></li>
+<li><a class="reference internal" href="#import-latex-code"><em>Import LaTeX Code into an HTML Component</em></a></li>
+</ul>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Review <a class="reference internal" href="../developing_course/index.html#developing-your-course-index"><em>Developing Your Course</em></a> and <a class="reference internal" href="../getting_started/accessibility.html#best-practices-for-html-markup"><em>Best Practices for HTML Markup</em></a> before you start working with HTML components.</p>
+</div>
+<p>To add an instant hangout to an HTML component, see <a class="reference internal" href="../exercises_tools/google_hangouts.html#google-instant-hangout"><em>Google Instant Hangout Tool</em></a>.</p>
+</div>
+<div class="section" id="options-for-editing-html-components">
+<span id="id2"></span><h2>7.1.2. Options for Editing HTML Components<a class="headerlink" href="#options-for-editing-html-components" title="Permalink to this headline">¶</a></h2>
+<p>You can work with HTML in two ways:</p>
+<ul>
+<li><p class="first"><a class="reference internal" href="#the-visual-editor"><em>The Visual Editor</em></a></p>
+<p>With the Visual editor you can create, edit, and format content in a word
+processing-like interface, without using HTML code directly. With the Visual
+editor, you can more easily format your content, and add links and images. The
+Visual editor provides access to HTML code so you can make small changes to
+formatting, if required. However, the HTML view in the Visual editor does not
+provide the detailed control you can get with the Raw HTML editor, and does
+not support custom formatting or scripts.</p>
+</li>
+<li><p class="first"><a class="reference internal" href="#the-raw-html-editor"><em>The Raw HTML Editor</em></a></p>
+<p>With the Raw HTML Editor, you work directly with HTML code. If you need to use
+custom formatting or scripts in your content, you should use the Raw HTML
+Editor.</p>
+</li>
+</ul>
+<div class="section" id="set-the-editor-for-an-html-component">
+<h3>7.1.2.1. Set the Editor for an HTML Component<a class="headerlink" href="#set-the-editor-for-an-html-component" title="Permalink to this headline">¶</a></h3>
+<p>You set the editor for an HTML component in the <strong>Settings</strong> tab:</p>
+<img alt="The Editor selection drop-down list in the HTML Component Settings tab" src="../_images/set_html_editor.png" />
+<p>Select <strong>Visual</strong> or <strong>Raw</strong>. When you change the editor, you must click
+<strong>Save</strong> and re-open the component to begin using the new editor.</p>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">If you work with content in the Raw HTML editor, then switch to the Visual
+editor, you may lose custom HTML that you created. Therefore, it is recommended
+that you start by using the Visual editor, then switch to the Raw HTML editor
+when you need to create custom HTML.</p>
+</div>
+</div>
+</div>
+<div class="section" id="the-visual-editor">
+<span id="id3"></span><h2>7.1.3. The Visual Editor<a class="headerlink" href="#the-visual-editor" title="Permalink to this headline">¶</a></h2>
+<p>The Visual editor provides a “what you see is what you get” (WYSIWYG) interface
+that allows you to format text by clicking the formatting buttons at the top of
+the editor.</p>
+<img alt="Image of the HTML component editor" src="../_images/HTMLEditor.png" />
+<p>The following image shows call-outs for the editing options and is followed by
+descriptions.</p>
+<img alt="Image of the HTML editor, with call-outs for formatting buttons" src="../_images/HTML_VisualView_Toolbar.png" />
+<ol class="arabic simple">
+<li>Choose a formatting style for the selected paragraph, such as heading 1,
+heading 2, or paragraph.</li>
+<li>Choose a font family for selected text, such as Arial, Courier New, or Times
+New Roman.</li>
+<li>Format selected text in bold.</li>
+<li>Format selected text in italics.</li>
+<li>Underline selected text.</li>
+<li>Apply a color to the selected text.</li>
+<li>Format selected text as code.</li>
+<li>Create a bulleted list.</li>
+<li>Create a numbered list.</li>
+<li>Decrease and increased the indentation of the selected paragraph.</li>
+<li>Format the selected paragraph as a blockquote.</li>
+<li>Create a link from the selected text. See <a class="reference internal" href="#add-a-link-in-an-html-component"><em>Add a Link in an HTML Component</em></a>.</li>
+<li>Delete the current link.</li>
+<li>Insert an image at the cursor. See <a class="reference internal" href="#add-an-image-to-an-html-component"><em>Add an Image to an HTML Component</em></a>.</li>
+<li>Work with HTML source code, described below.</li>
+</ol>
+<div class="section" id="work-with-html-code-in-the-visual-editor">
+<span id="work-with-html-code"></span><h3>7.1.3.1. Work with HTML code in the Visual editor<a class="headerlink" href="#work-with-html-code-in-the-visual-editor" title="Permalink to this headline">¶</a></h3>
+<p>To work with HTML source code for the content you create in the Visual editor,
+click <strong>HTML</strong>  in the editor toolbar. The HTML source code editor opens:</p>
+<img alt="Image of the HTML source code editor" src="../_images/HTML_source_code.png" />
+<p>Edit the HTML code as needed.</p>
+<p>You should not add custom styles or scripts in the HTML code view in the
+Visual editor. Use the Raw HTML editor instead.</p>
+<p>Click <strong>OK</strong> to close the source code editor and apply your changes in the
+Visual editor. The Visual editor then attempts to ensure the underlying HTML
+code is valid; for example, if you do not close a paragraph tag, the editor will
+close it for you.</p>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">Clicking <strong>OK</strong> in the source code editor does not save your changes to the
+HTML component.  You return to the component editor, where your changes are
+applied.  You must then also click <strong>Save</strong> to save your changes and close the
+component. If you click <strong>Cancel</strong>, the changes you made in the HTML source
+code are lost.</p>
+</div>
+</div>
+</div>
+<div class="section" id="the-raw-html-editor">
+<span id="id4"></span><h2>7.1.4. The Raw HTML Editor<a class="headerlink" href="#the-raw-html-editor" title="Permalink to this headline">¶</a></h2>
+<p>When you select the Raw editor for the HTML component, you edit your content in
+a text editor:</p>
+<img alt="The Raw HTML editor" src="../_images/raw_html_editor.png" />
+<p>You must enter valid HTML. The Raw HTML editor does not validate your HTML code.
+Therefore you should thoroughly test the HTML content in your course.</p>
+</div>
+<div class="section" id="html-component-templates">
+<span id="id5"></span><h2>7.1.5. HTML Component Templates<a class="headerlink" href="#html-component-templates" title="Permalink to this headline">¶</a></h2>
+<p>When you create a new HTML component, you select from a list of templates:</p>
+<img alt="The list of HTML Component templates" src="../_images/html_templates.png" />
+<p>The Raw HTML template is set to use the Raw HTML editor. All other templates use
+the Visual editor.</p>
+<p>For any HTML component, you can change the editor, regardless of the template
+used to create the component. See <a class="reference internal" href="#set-the-editor-for-an-html-component">Set the Editor for an HTML Component</a>.</p>
+</div>
+<div class="section" id="create-an-html-component">
+<span id="id6"></span><h2>7.1.6. Create an HTML Component<a class="headerlink" href="#create-an-html-component" title="Permalink to this headline">¶</a></h2>
+<p>To create an HTML component:</p>
+<ol class="arabic simple">
+<li>Under <strong>Add New Component</strong>, click <strong>html</strong>.</li>
+</ol>
+<blockquote>
+<div><img alt="Image of adding a new HTML component" src="../_images/NewComponent_HTML.png" />
+</div></blockquote>
+<ol class="arabic" start="2">
+<li><p class="first">Select the template.</p>
+<p>The rest of these instructions assume you selected
+<strong>Text</strong>, which creates an empty component with the Visual editor selected.</p>
+<p>An empty component appears at the bottom of the unit.</p>
+</li>
+</ol>
+<blockquote>
+<div><img alt="Image of an empty HTML component" src="../_images/HTMLComponent_Edit.png" />
+</div></blockquote>
+<ol class="arabic" start="3">
+<li><p class="first">In the component, click <strong>Edit</strong>.</p>
+<p>The HTML component opens in the Visual editor.</p>
+</li>
+</ol>
+<blockquote>
+<div><img alt="Image of the HTML component editor" src="../_images/HTMLEditor_empty.png" />
+</div></blockquote>
+<ol class="arabic" start="4">
+<li><p class="first">Enter and format your content. You can <a class="reference internal" href="#work-with-html-code"><em>Work with HTML code in the Visual editor</em></a> if needed.</p>
+</li>
+<li><p class="first">Enter a display name (the name that you want students to see). To do this,
+click <strong>Settings</strong> in the upper-right corner of the component editor, and
+then enter text in the <strong>Display Name</strong> field.</p>
+<p>To return to the text editor, click <strong>Editor</strong> in the upper-right corner.</p>
+</li>
+<li><p class="first">Click <strong>Save</strong> to save the HTML component.</p>
+</li>
+</ol>
+<p>When using the Visual editor, you can also:</p>
+<ul class="simple">
+<li><a class="reference internal" href="#add-a-link-in-an-html-component"><em>Add a Link in an HTML Component</em></a></li>
+<li><a class="reference internal" href="#add-an-image-to-an-html-component"><em>Add an Image to an HTML Component</em></a></li>
+<li><a class="reference internal" href="#import-latex-code"><em>Import LaTeX Code into an HTML Component</em></a></li>
+</ul>
+</div>
+<div class="section" id="add-a-link-in-an-html-component">
+<span id="id7"></span><h2>7.1.7. Add a Link in an HTML Component<a class="headerlink" href="#add-a-link-in-an-html-component" title="Permalink to this headline">¶</a></h2>
+<p>When using the Visual editor, to add a link to a website, course unit, or file
+in an HTML component, you work with the <strong>Insert link</strong> dialog box.</p>
+<img alt="Image of the Insert link dialog box" src="../_images/HTML_Insert-EditLink_DBox.png" />
+<p>You can:</p>
+<ul class="simple">
+<li><a class="reference internal" href="#add-a-link-to-a-website"><em>Add a Link to a Website</em></a></li>
+<li><a class="reference internal" href="#add-a-link-to-a-course-unit"><em>Add a Link to a Course Unit</em></a></li>
+<li><a class="reference internal" href="#add-a-link-to-a-file"><em>Add a Link to a File</em></a></li>
+</ul>
+<div class="section" id="add-a-link-to-a-website">
+<span id="id8"></span><h3>7.1.7.1. Add a Link to a Website<a class="headerlink" href="#add-a-link-to-a-website" title="Permalink to this headline">¶</a></h3>
+<p>To add a link to a website:</p>
+<ol class="arabic">
+<li><p class="first">Select the text that you want to make into the link.</p>
+</li>
+<li><p class="first">Click the link icon in the toolbar.</p>
+</li>
+<li><p class="first">In the <strong>Insert link</strong> dialog box, enter the URL of the website that you want
+in the <strong>URL</strong> field.</p>
+<img alt="Image of the Insert link dialog box" src="../_images/HTML_Insert-EditLink_Website.png" />
+</li>
+<li><p class="first">If you want the link to open in a new window, click the drop-down arrow next
+to the <strong>Target</strong> field, and then select <strong>New Window</strong>. If not, you can
+leave the default value.</p>
+</li>
+<li><p class="first">Click <strong>OK</strong>.</p>
+</li>
+<li><p class="first">Save the HTML component and test the link.</p>
+</li>
+</ol>
+</div>
+<div class="section" id="add-a-link-to-a-course-unit">
+<span id="id9"></span><h3>7.1.7.2. Add a Link to a Course Unit<a class="headerlink" href="#add-a-link-to-a-course-unit" title="Permalink to this headline">¶</a></h3>
+<p>You can add a link to a course unit in an HTML component.</p>
+<ol class="arabic">
+<li><p class="first">Obtain the unit identifier of the unit you&#8217;re linking to. To do this, open
+the unit page in Studio, and copy the unit ID from the <strong>Unit Identifier</strong>
+field under <strong>Unit Location</strong> in the right pane.</p>
+<img alt="Image of the unit page with the unit identifier circled" src="../_images/UnitIdentifier.png" />
+</li>
+<li><p class="first">Open the HTML component where you want to add the link.</p>
+</li>
+<li><p class="first">Select the text that you want to make into the link.</p>
+</li>
+<li><p class="first">Click the link icon in the toolbar.</p>
+</li>
+<li><p class="first">In the <strong>Insert link</strong> dialog box, enter the following in the <strong>URL</strong> field.</p>
+<p><tt class="docutils literal"><span class="pre">/jump_to_id/&lt;unit</span> <span class="pre">identifier&gt;</span></tt></p>
+<p>Make sure to replace &lt;unit identifier&gt; (including the brackets) with the unit
+identifier that you copied in step 2, and make sure to include both forward slashes (/).</p>
+<img alt="Image of the Insert link dialog box with a link to a unit identifier" src="../_images/HTML_Insert-EditLink_CourseUnit.png" />
+</li>
+<li><p class="first">If you want the link to open in a new window, click the drop-down arrow next
+to the <strong>Target</strong> field, and then select <strong>New Window</strong>. If not, you can
+leave the default value.</p>
+</li>
+<li><p class="first">Click <strong>Insert</strong>.</p>
+</li>
+<li><p class="first">Save the HTML component and test the link.</p>
+</li>
+</ol>
+</div>
+<div class="section" id="add-a-link-to-a-file">
+<span id="id10"></span><h3>7.1.7.3. Add a Link to a File<a class="headerlink" href="#add-a-link-to-a-file" title="Permalink to this headline">¶</a></h3>
+<p>You can add a link in an HTML component to any file you&#8217;ve uploaded for the
+course. For more information about uploading files, see <a class="reference internal" href="../building_course/course_files.html#add-files-to-a-course"><em>Adding Files to a Course</em></a>.</p>
+<ol class="arabic simple">
+<li>On the <strong>Files &amp; Uploads</strong> page, copy the <strong>Embed URL</strong> of the file.</li>
+</ol>
+<blockquote>
+<div><img alt="Image of Files and Uploads page with the URL field circled" src="../_images/HTML_Link_File.png" />
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">You must use the <strong>Embed URL</strong> to link to the file, not the <strong>External URL</strong>.</p>
+</div>
+</div></blockquote>
+<ol class="arabic" start="2">
+<li><p class="first">Select the text that you want to make into the link.</p>
+</li>
+<li><p class="first">Click the link icon in the toolbar.</p>
+</li>
+<li><p class="first">In the <strong>Insert link</strong> dialog box, enter the following in the <strong>URL</strong> field.</p>
+<p><tt class="docutils literal"><span class="pre">/static/FileName.type</span></tt></p>
+<p>Make sure to include both forward slashes (/).</p>
+<img alt="Image of the Insert link dialog box with a link to a file" src="../_images/HTML_Insert-EditLink_File.png" />
+</li>
+<li><p class="first">If you want the link to open in a new window, click the drop-down arrow next
+to the <strong>Target</strong> field, and then select <strong>New Window</strong>. If not, you can
+leave the default value.</p>
+</li>
+<li><p class="first">Click <strong>Insert</strong>.</p>
+</li>
+<li><p class="first">Save the HTML component and test the link.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="section" id="add-an-image-to-an-html-component">
+<span id="id11"></span><h2>7.1.8. Add an Image to an HTML Component<a class="headerlink" href="#add-an-image-to-an-html-component" title="Permalink to this headline">¶</a></h2>
+<p>When using the Visual editor, you can add any image that you have uploaded for
+the course to an HTML component. For more information about uploading images,
+see <a class="reference internal" href="../building_course/course_files.html#add-files-to-a-course"><em>Adding Files to a Course</em></a>.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Review <a class="reference internal" href="../getting_started/accessibility.html#best-practices-for-describing-images"><em>Best Practices for Describing Images</em></a> before you add images to
+HTML components.</p>
+</div>
+<p>To add an image, you&#8217;ll need the URL of the image that you uploaded to the
+course. You&#8217;ll then create a link to the image in the HTML component.</p>
+<ol class="arabic simple">
+<li>On the <strong>Files &amp; Uploads</strong> page, copy the <strong>Embed URL</strong> of the image that you
+want.</li>
+</ol>
+<blockquote>
+<div><img alt="Image of the Files &amp; Upload page with the Embed URL for the image circled" src="../_images/image_link.png" />
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">You must use the <strong>Embed URL</strong> to add the image, not the <strong>External URL</strong>.</p>
+</div>
+</div></blockquote>
+<ol class="arabic" start="2">
+<li><p class="first">Click the image icon in the toolbar.</p>
+</li>
+<li><p class="first">In the <strong>Insert image</strong> dialog box, enter the following in the <strong>Source</strong>
+field.</p>
+<p><tt class="docutils literal"><span class="pre">/static/FileName.type</span></tt></p>
+<p>Make sure to include both forward slashes (/).</p>
+<img alt="Image of the Insert image dialog box with a reference to a file" src="../_images/HTML_Insert-Edit_Image.png" />
+</li>
+</ol>
+<ol class="arabic" start="4">
+<li><p class="first">Enter alternative text in the <strong>Image description</strong> field. This text becomes
+the value of the <tt class="docutils literal"><span class="pre">alt</span></tt> attribute in HTML and is required for your course to
+be fully accessible. See <a class="reference internal" href="../getting_started/accessibility.html#best-practices-for-describing-images"><em>Best Practices for Describing Images</em></a> for more
+information.</p>
+</li>
+<li><p class="first">As needed, customize the image dimensions. Keep <strong>Constrain proportions</strong>
+checked to ensure the image keeps the same width and height proportions.</p>
+</li>
+<li><p class="first">To change the spacing and border of the image, click the <strong>Advanced</strong> tab.</p>
+<img alt="Image of the Insert image dialog box Advanced tab" src="../_images/HTML_Insert-Edit_Image_Advanced.png" />
+</li>
+<li><p class="first">Enter the <strong>Vertical space</strong>, <strong>Horizontal space</strong>, and <strong>Border</strong> as needed.
+The values you enter are automatically added to the <strong>Style</strong> field.</p>
+</li>
+<li><p class="first">Click <strong>OK</strong> to insert the image in the HTML component.</p>
+</li>
+<li><p class="first">Save the HTML component and test the image.</p>
+</li>
+</ol>
+</div>
+<div class="section" id="import-latex-code-into-an-html-component">
+<span id="import-latex-code"></span><h2>7.1.9. Import LaTeX Code into an HTML Component<a class="headerlink" href="#import-latex-code-into-an-html-component" title="Permalink to this headline">¶</a></h2>
+<p>You can import LaTeX code into an HTML component. You might do this, for
+example, if you want to create &#8220;beautiful math&#8221; such as the following.</p>
+<img alt="Image of math formulas created with LaTeX" src="../_images/HTML_LaTeX_LMS.png" />
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">The LaTeX processor that Studio uses to convert LaTeX code to XML is a third-
+party tool. We recommend that you use this feature with caution. If you do use
+it, make sure to work with your Program Manager.</p>
+</div>
+<p>This feature is not enabled by default. To enable it, you have to change the
+advanced settings in your course.</p>
+<p>To create an HTML component that contains LaTeX code:</p>
+<ol class="arabic simple">
+<li>Enable the policy key in your course.<ol class="arabic">
+<li>In Studio, click <strong>Settings</strong>, and then click <strong>Advanced Settings</strong>.</li>
+<li>In the field for the <strong>Enable LaTeX Compiler</strong> policy key, change
+<strong>false</strong> to <strong>true</strong>.</li>
+<li>At the bottom of the page, click <strong>Save Changes</strong>.</li>
+</ol>
+</li>
+<li>In the unit where you want to create the component, click <strong>html</strong> under
+<strong>Add New Component</strong>, and then click <strong>E-text Written in LaTeX</strong>. The new
+component is added to the unit.</li>
+<li>Click <strong>Edit</strong> to open the new component. The component editor opens.</li>
+</ol>
+<blockquote>
+<div><img alt="Image of the HTML component editor with the LaTeX compiler." src="../_images/latex_component.png" />
+</div></blockquote>
+<ol class="arabic" start="4">
+<li><p class="first">In the component editor, click <strong>Launch Latex Source Compiler</strong>. The LaTeX
+editor opens.</p>
+<img alt="Image of the HTML component editor with the LaTeX compiler" src="../_images/HTML_LaTeXEditor.png" />
+</li>
+<li><p class="first">Write LaTeX code as needed. You can also upload a LaTeX file into the editor
+from your computer by clicking <strong>Upload</strong> in the bottom right corner.</p>
+</li>
+<li><p class="first">When you have written or uploaded the LaTeX code you need, click <strong>Save &amp;
+Compile to edX XML</strong> in the lower-left corner.</p>
+<p>The component editor closes. You can see the way your LaTeX content looks.</p>
+<img alt="Image of the LaTeX component" src="../_images/HTML_LaTeX_CompEditor.png" />
+</li>
+<li><p class="first">On the unit page, click <strong>Preview</strong> to verify that your content looks the way
+you want it to in the LMS.</p>
+<p>If you see errors, go back to the unit page. Click <strong>Edit</strong> to open the
+component again, and then click <strong>Launch Latex Source Compiler</strong> in the
+lower-left corner of the component editor to edit the LaTeX code.</p>
+</li>
+</ol>
+</div>
+</div>
+
+
+          <footer>
+  
+    <div class="rst-footer-buttons">
+      
+        <a href="create_video.html" class="btn btn-neutral float-right" title="7.2. Working with Video Components"/>Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="index.html" class="btn btn-neutral" title="7. Creating Course Content"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <p>
+      &copy; Copyright 2014, edX.
+  </p>
+
+  <a href="https://www.github.com/snide/sphinx_rtd_theme">Sphinx theme</a> provided by <a href="http://readthedocs.org">Read the Docs</a>
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+</body>
+</html>

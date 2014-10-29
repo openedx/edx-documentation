@@ -1,0 +1,554 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Numerical Input &mdash; edX Open Learning XML Guide - Alpha Version  documentation</title>
+  
+
+  
+  
+
+  
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  
+  
+
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:'../',
+        VERSION:'',
+        COLLAPSE_INDEX:false,
+        FILE_SUFFIX:'.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+    <link rel="top" title="edX Open Learning XML Guide - Alpha Version  documentation" href="../index.html"/>
+        <link rel="up" title="Problems" href="index.html"/>
+        <link rel="next" title="Problem Written in LaTeX" href="problem_in_latex.html"/>
+        <link rel="prev" title="Multiple Choice Problem" href="multiple_choice.html"/> 
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-nav-search">
+        <a href="../index.html" class="icon icon-home"> edX Open Learning XML Guide - Alpha Version</a>
+        <form class="wy-form" action="../search.html" method="get">
+  <input type="text" name="q" placeholder="Search docs" />
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix">
+        
+        
+            <ul>
+<li class="toctree-l1"><a class="reference internal" href="../read_me.html">Read Me</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../preface.html">Preface</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../preface.html#system-status">System Status</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../preface.html#resources-for-course-teams">Resources for Course Teams</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../preface.html#resources-for-researchers">Resources for Researchers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../preface.html#resources-for-developers">Resources for Developers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../preface.html#resources-for-students">Resources for Students</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../change_log.html">Change Log</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../change_log.html#october-2014">October, 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../change_log.html#september-2014">September, 2014</a></li>
+</ul>
+</li>
+</ul>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../what-is-olx.html">What is Open Learning XML?</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../what-is-olx.html#xml-resources">XML Resources</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../tasks/index.html">Open Learning XML Uses</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../tasks/olx-studio.html">Use OLX with edX Studio</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tasks/deploy-lms.html">Build a Course in OLX and Deploy to the edX LMS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tasks/convert-to-olx.html">Convert Content in Other Formats to OLX</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../getting-started.html">Getting Started with OLX</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../directory-structure.html">OLX Course Structure</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../directory-structure.html#olx-and-directory-file-structures">OLX and Directory File Structures</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../directory-structure.html#top-level-directory">Top-level Directory</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../directory-structure.html#xblock-directories">XBlock Directories</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../directory-structure.html#edx-platform-directories">edX Platform Directories</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../policies/index.html">Policies</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../policies/course.html">Course Policies</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../policies/content-experiments.html">Group Configuration for Content Experiments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../policies/grading.html">Grading Policy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../policies/assets-policy.html">Course Asset Policy</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../assets/assets.html">Course Assets</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../about/index.html">The Course About Pages</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../about/overview.html">Course Overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../about/short-description.html">Short Description</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../pages/pages.html">Course Tabs</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../pages/pages.html#create-the-tab-file">Create the Tab File</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../organizing-course/index.html">Organizing Courseware</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../organizing-course/course-structure-overview.html">OLX Course Building Blocks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../organizing-course/course-xml-file.html">The Courseware Structure</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../components/index.html">Course Components (XBlocks)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../components/html-components.html">HTML Components</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../components/discussion-components.html">Discussion Components</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../components/video-components.html">Video Components</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../components/annotation.html">Annotation Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../components/conditional_module.html">Conditional Module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../components/full_screen_image.html">Full Screen Image Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../components/google_hangout.html">Google Instant Hangout Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../components/graphical_slider_tool.html">Graphical Slider Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../components/iframe.html">IFrame Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../components/lti_component.html">LTI Component</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../components/open_response_assessment.html">Open Response Assessment Problems</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../components/periodic_table.html">Periodic Table Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../components/poll.html">Poll Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../components/word_cloud.html">Word Cloud Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../components/zooming_image.html">Zooming Image Tool</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Problems</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="checkbox.html">Checkbox Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chemical_equation.html">Chemical Equation Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="circuit_schematic_builder.html">Circuit Schematic Builder Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="custom_javascript.html">Custom JavaScript Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="custom_python.html">Write-Your-Own-Grader Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="drag_and_drop.html">Drag and Drop Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dropdown.html">Dropdown Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gene_explorer.html">Gene Explorer Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="image_mapped_input.html">Image Mapped Input Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="math_expression_input.html">Math Expression Input Problems</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mathjax.html">A Brief Introduction to MathJax in Studio</a></li>
+<li class="toctree-l2"><a class="reference internal" href="molecule_editor.html">Molecule Editor Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mult_choice_num_input.html">Multiple Choice and Numerical Input Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="multiple_choice.html">Multiple Choice Problem</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="">Numerical Input</a></li>
+<li class="toctree-l2"><a class="reference internal" href="problem_in_latex.html">Problem Written in LaTeX</a></li>
+<li class="toctree-l2"><a class="reference internal" href="problem_with_hint.html">Problem with Adaptive Hint</a></li>
+<li class="toctree-l2"><a class="reference internal" href="protein_builder.html">Protex Protein Builder Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="symbolic_response.html">Symbolic Response</a></li>
+<li class="toctree-l2"><a class="reference internal" href="text_input.html">Text Input Problem</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../example-course/index.html">Example of an OLX Course</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../example-course/insider-structure.html">The Structure of edX-Insider</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../example-course/insider-course-xml.html">The edX-Insider <tt class="docutils literal"><span class="pre">course.xml</span></tt> File</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../drafts/index.html">Draft Course Content</a><ul class="simple">
+</ul>
+</li>
+</ul>
+
+        
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top">
+        <i data-toggle="wy-nav-top" class="icon icon-reorder"></i>
+        <a href="/">edX Open Learning XML Guide - Alpha Version</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <ul class="wy-breadcrumbs">
+  <li><a href="../index.html">Docs</a> &raquo;</li>
+  <li><a href="">Numerical Input</a></li>
+  
+</ul>
+<hr/>
+
+          
+  <div class="section" id="numerical-input">
+<span id="id1"></span><h1>Numerical Input<a class="headerlink" href="#numerical-input" title="Permalink to this headline">¶</a></h1>
+<p>Numerical input problems are the simpler of the two mathematics tools that Studio offers. In these problems, students enter numbers or specific and relatively simple mathematical expressions to answer a question. The text that the students enter is converted to a symbolic expression that appears below the response field.</p>
+<img alt="Image of a numerical input problem" src="../_images/image292.png" />
+<p>Note that students' responses don't have to be exact for these problems. You can specify a margin of error, or tolerance. You can also specify a correct answer explicitly, or use a Python script. For more information, see the instructions below.</p>
+<p>Responses for numerical input problems can include integers, fractions,
+and constants such as <em>pi</em> and <em>g</em>. Responses can also include text
+representing common functions, such as square root (sqrt) and log base 2
+(log2), as well as trigonometric functions and their inverses, such as
+sine (sin) and arcsine (arcsin). For these functions, the
+text that the student enters is converted into mathematical symbols. The following
+example shows the way the system renders students' text responses in
+numerical input problems.</p>
+<img alt="Image of a numerical input probem rendered by Studio" src="../_images/Math5.png" />
+<p>For more information about characters that students can enter, see <em class="xref std std-ref">Math Response Formatting for Students</em>.</p>
+<div class="section" id="create-a-numerical-input-problem">
+<h2>Create a Numerical Input Problem<a class="headerlink" href="#create-a-numerical-input-problem" title="Permalink to this headline">¶</a></h2>
+<p>You can create numerical problems in the Simple Editor or in the Advanced Editor regardless of the answer to the problem. If the text of your problem doesn't include any italics, bold formatting, or special characters, you can create the problem in the Simple Editor. If the text of your problem contains special formatting or characters, or if your problem contains a Python script, you'll use the Advanced Editor.</p>
+<p>For example, the following example problems require the Advanced Editor.</p>
+<img alt="Image of a more complex numerical input problem" src="../_images/NumericalInput_Complex.png" />
+<p>For more information about including a Python script in your problem, see <a class="reference internal" href="custom_python.html#write-your-own-grader"><em>Write-Your-Own-Grader Problem</em></a>.</p>
+<div class="section" id="simple-editor">
+<h3>Simple Editor<a class="headerlink" href="#simple-editor" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li>Under <strong>Add New Component</strong>, click <strong>Problem</strong>.</li>
+<li>In the <strong>Select Problem Component Type</strong> screen, click <strong>Numerical
+Input</strong> on the <strong>Common Problem Types</strong> tab.</li>
+</ol>
+<ol class="arabic simple" start="3">
+<li>When the new Problem component appears, click <strong>Edit</strong>.</li>
+<li>In the component editor, replace the sample problem text with your own text.</li>
+<li>Determine the text of the problem to use as a label, and then surround that text with two sets of angle brackets (&gt;&gt;&lt;&lt;).</li>
+<li>Select the text of the answer, and then click the numerical input button.</li>
+</ol>
+<img alt="Image of the numerical input button" src="../_images/ProbCompButton_NumInput.png" />
+<p>When you do this, an equal sign appears next to the answer.</p>
+<ol class="arabic" start="7">
+<li><p class="first">(Optional) Specify a margin of error, or tolerance. You can specify a percentage, number, or range.</p>
+<ul class="simple">
+<li>To specify a percentage on either side of the correct answer, add <strong>+-NUMBER%</strong> after the answer. For example, if you want to include a 2% tolerance, add <strong>+-2%</strong>.</li>
+<li>To specify a number on either side of the correct answer, add <strong>+-NUMBER</strong> after the answer. For example, if you want to include a tolerance of 5, add <strong>+-5</strong>.</li>
+<li>To specify a range, use brackets [] or parentheses (). A bracket indicates that range includes the number next to it. A parenthesis indicates that the range does not include the number next to it. For example, if you specify <strong>[5, 8)</strong>, correct answers can be 5, 6, and 7, but not 8. Likewise, if you specify <strong>(5, 8]</strong>, correct answers can be 6, 7, and 8, but not 5.</li>
+</ul>
+</li>
+<li><p class="first">In the component editor, select the text of the explanation, and then click the
+explanation button to add explanation tags around the text.</p>
+<img alt="Image of the explanation button" src="../_images/ProbCompButton_Explanation.png" />
+</li>
+<li><p class="first">On the <strong>Settings</strong> tab, specify the settings that you want.</p>
+</li>
+<li><p class="first">Click <strong>Save</strong>.</p>
+</li>
+</ol>
+<p>For the first example problem above, the text in the Problem component is the
+following.</p>
+<div class="highlight-python"><pre>&gt;&gt;What base is the decimal numeral system in?&lt;&lt;
+
+= 10
+
+[explanation]
+The decimal numerial system is base ten.
+[explanation]</pre>
+</div>
+</div>
+<div class="section" id="advanced-editor">
+<h3>Advanced Editor<a class="headerlink" href="#advanced-editor" title="Permalink to this headline">¶</a></h3>
+<p>To create this problem in the Advanced Editor, click the <strong>Advanced</strong> tab in the Problem component editor, and then replace the existing code with the following code.</p>
+<p><strong>Problem Code</strong>:</p>
+<div class="highlight-xml"><div class="highlight"><pre><span class="nt">&lt;problem&gt;</span>
+  <span class="nt">&lt;p&gt;&lt;b&gt;</span>Example Problem<span class="nt">&lt;/b&gt;&lt;/p&gt;</span>
+
+<span class="nt">&lt;p&gt;</span>What base is the decimal numeral system in?
+    <span class="nt">&lt;numericalresponse</span> <span class="na">answer=</span><span class="s">&quot;10&quot;</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;formulaequationinput</span> <span class="na">label=</span><span class="s">&quot;What base is the decimal numeral system in?&quot;</span><span class="nt">/&gt;</span>
+    <span class="nt">&lt;/numericalresponse&gt;</span>
+<span class="nt">&lt;/p&gt;</span>
+
+  <span class="nt">&lt;p&gt;</span>What is the value of the standard gravity constant <span class="nt">&lt;i&gt;</span>g<span class="nt">&lt;/i&gt;</span>, measured in m/s<span class="nt">&lt;sup&gt;</span>2<span class="nt">&lt;/sup&gt;</span>? Give your answer to at least two decimal places.
+  <span class="nt">&lt;numericalresponse</span> <span class="na">answer=</span><span class="s">&quot;9.80665&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;responseparam</span> <span class="na">type=</span><span class="s">&quot;tolerance&quot;</span> <span class="na">default=</span><span class="s">&quot;0.01&quot;</span> <span class="nt">/&gt;</span>
+    <span class="nt">&lt;formulaequationinput</span> <span class="na">label=</span><span class="s">&quot;Give your answer to at least two decimal places&quot;</span><span class="nt">/&gt;</span>
+  <span class="nt">&lt;/numericalresponse&gt;</span>
+<span class="nt">&lt;/p&gt;</span>
+
+<span class="c">&lt;!-- The following uses Python script spacing. Make sure it isn&#39;t indented when you add it to the Problem component. --&gt;</span>
+<span class="nt">&lt;script</span> <span class="na">type=</span><span class="s">&quot;loncapa/python&quot;</span><span class="nt">&gt;</span>
+computed_response = math.sqrt(math.fsum([math.pow(math.pi,2), math.pow(math.e,2)]))
+<span class="nt">&lt;/script&gt;</span>
+
+<span class="nt">&lt;p&gt;</span>What is the distance in the plane between the points (pi, 0) and (0, e)? You can type math.
+    <span class="nt">&lt;numericalresponse</span> <span class="na">answer=</span><span class="s">&quot;$computed_response&quot;</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;responseparam</span> <span class="na">type=</span><span class="s">&quot;tolerance&quot;</span> <span class="na">default=</span><span class="s">&quot;0.0001&quot;</span> <span class="nt">/&gt;</span>
+        <span class="nt">&lt;formulaequationinput</span> <span class="na">label=</span><span class="s">&quot;What is the distance in the plane between the points (pi, 0) and (0, e)?&quot;</span><span class="nt">/&gt;</span>
+    <span class="nt">&lt;/numericalresponse&gt;</span>
+<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;solution&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;detailed-solution&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;p&gt;</span>Explanation<span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;p&gt;</span>The decimal numerical system is base ten.<span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;p&gt;</span>The standard gravity constant is defined to be precisely 9.80665 m/s<span class="nt">&lt;sup&gt;</span>2<span class="nt">&lt;/sup&gt;</span>.
+    This is 9.80 to two decimal places. Entering 9.8 also works.<span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;p&gt;</span>By the distance formula, the distance between two points in the plane is
+       the square root of the sum of the squares of the differences of each coordinate.
+      Even though an exact numerical value is checked in this case, the
+      easiest way to enter this answer is to type
+      <span class="nt">&lt;code&gt;</span>sqrt(pi^2+e^2)<span class="nt">&lt;/code&gt;</span> into the editor.
+      Other answers like <span class="nt">&lt;code&gt;</span>sqrt((pi-0)^2+(0-e)^2)<span class="nt">&lt;/code&gt;</span> also work.
+    <span class="nt">&lt;/p&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/solution&gt;</span>
+<span class="nt">&lt;/problem&gt;</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="numerical-input-problem-xml">
+<span id="id2"></span><h2>Numerical Input Problem XML<a class="headerlink" href="#numerical-input-problem-xml" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="templates">
+<h3>Templates<a class="headerlink" href="#templates" title="Permalink to this headline">¶</a></h3>
+<p>The following templates represent problems with and without a decimal or percentage tolerance.</p>
+<div class="section" id="problem-with-no-tolerance">
+<h4>Problem with no tolerance<a class="headerlink" href="#problem-with-no-tolerance" title="Permalink to this headline">¶</a></h4>
+<div class="highlight-xml"><div class="highlight"><pre><span class="nt">&lt;p&gt;</span>TEXT OF PROBLEM
+    <span class="nt">&lt;numericalresponse</span> <span class="na">answer=</span><span class="s">&quot;ANSWER (NUMBER)&quot;</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;formulaequationinput</span> <span class="na">label=</span><span class="s">&quot;TEXT OF PROBLEM&quot;</span><span class="nt">/&gt;</span>
+    <span class="nt">&lt;/numericalresponse&gt;</span>
+<span class="nt">&lt;/p&gt;</span>
+
+  <span class="nt">&lt;solution&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;detailed-solution&quot;</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;p&gt;</span>TEXT OF SOLUTION<span class="nt">&lt;/p&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/solution&gt;</span>
+<span class="nt">&lt;/problem&gt;</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="problem-with-a-decimal-tolerance">
+<h4>Problem with a decimal tolerance<a class="headerlink" href="#problem-with-a-decimal-tolerance" title="Permalink to this headline">¶</a></h4>
+<div class="highlight-xml"><div class="highlight"><pre><span class="nt">&lt;problem&gt;</span>
+
+  <span class="nt">&lt;p&gt;</span>TEXT OF PROBLEM
+  <span class="nt">&lt;numericalresponse</span> <span class="na">answer=</span><span class="s">&quot;ANSWER (NUMBER)&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;responseparam</span> <span class="na">type=</span><span class="s">&quot;tolerance&quot;</span> <span class="na">default=</span><span class="s">&quot;NUMBER (DECIMAL, e.g., .02)&quot;</span> <span class="nt">/&gt;</span>
+    <span class="nt">&lt;formulaequationinput</span> <span class="na">label=</span><span class="s">&quot;TEXT OF PROBLEM&quot;</span><span class="nt">/&gt;</span>
+  <span class="nt">&lt;/numericalresponse&gt;</span>
+<span class="nt">&lt;/p&gt;</span>
+
+  <span class="nt">&lt;solution&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;detailed-solution&quot;</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;p&gt;</span>TEXT OF SOLUTION<span class="nt">&lt;/p&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/solution&gt;</span>
+<span class="nt">&lt;/problem&gt;</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="problem-with-a-percentage-tolerance">
+<h4>Problem with a percentage tolerance<a class="headerlink" href="#problem-with-a-percentage-tolerance" title="Permalink to this headline">¶</a></h4>
+<div class="highlight-xml"><div class="highlight"><pre><span class="nt">&lt;problem&gt;</span>
+
+ <span class="nt">&lt;p&gt;</span>TEXT OF PROBLEM
+  <span class="nt">&lt;numericalresponse</span> <span class="na">answer=</span><span class="s">&quot;ANSWER (NUMBER)&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;responseparam</span> <span class="na">type=</span><span class="s">&quot;tolerance&quot;</span> <span class="na">default=</span><span class="s">&quot;NUMBER (PERCENTAGE, e.g., 3%)&quot;</span> <span class="nt">/&gt;</span>
+    <span class="nt">&lt;formulaequationinput</span> <span class="na">label=</span><span class="s">&quot;TEXT OF PROBLEM&quot;</span><span class="nt">/&gt;</span>
+  <span class="nt">&lt;/numericalresponse&gt;</span>
+ <span class="nt">&lt;/p&gt;</span>
+
+  <span class="nt">&lt;solution&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;detailed-solution&quot;</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;p&gt;</span>TEXT OF SOLUTION<span class="nt">&lt;/p&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/solution&gt;</span>
+<span class="nt">&lt;/problem&gt;</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="answer-created-with-a-script">
+<h4>Answer created with a script<a class="headerlink" href="#answer-created-with-a-script" title="Permalink to this headline">¶</a></h4>
+<div class="highlight-xml"><div class="highlight"><pre><span class="nt">&lt;problem&gt;</span>
+
+<span class="c">&lt;!-- The following uses Python script spacing. Make sure it isn&#39;t indented when you add it to the Problem component. --&gt;</span>
+<span class="nt">&lt;script</span> <span class="na">type=</span><span class="s">&quot;loncapa/python&quot;</span><span class="nt">&gt;</span>
+computed_response = math.sqrt(math.fsum([math.pow(math.pi,2), math.pow(math.e,2)]))
+<span class="nt">&lt;/script&gt;</span>
+
+<span class="nt">&lt;p&gt;</span>TEXT OF PROBLEM
+    <span class="nt">&lt;numericalresponse</span> <span class="na">answer=</span><span class="s">&quot;$computed_response&quot;</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;responseparam</span> <span class="na">type=</span><span class="s">&quot;tolerance&quot;</span> <span class="na">default=</span><span class="s">&quot;0.0001&quot;</span> <span class="nt">/&gt;</span>
+        <span class="nt">&lt;formulaequationinput</span> <span class="na">label=</span><span class="s">&quot;TEXT OF PROBLEM&quot;</span><span class="nt">/&gt;</span>
+    <span class="nt">&lt;/numericalresponse&gt;</span>
+<span class="nt">&lt;/p&gt;</span>
+
+  <span class="nt">&lt;solution&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;detailed-solution&quot;</span><span class="nt">&gt;</span>
+   <span class="nt">&lt;p&gt;</span>TEXT OF SOLUTION<span class="nt">&lt;/p&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/solution&gt;</span>
+<span class="nt">&lt;/problem&gt;</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="tags">
+<h3>Tags<a class="headerlink" href="#tags" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><tt class="docutils literal"><span class="pre">&lt;numericalresponse&gt;</span></tt> (required): Specifies that the problem is a numerical input problem.</li>
+<li><tt class="docutils literal"><span class="pre">&lt;formulaequationinput</span> <span class="pre">/&gt;</span></tt> (required): Provides a response field where the student enters a response.</li>
+<li><tt class="docutils literal"><span class="pre">&lt;responseparam&gt;</span></tt> (optional): Specifies a tolerance, or margin of error, for an answer.</li>
+<li><tt class="docutils literal"><span class="pre">&lt;script&gt;</span></tt> (optional):</li>
+</ul>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Some older problems use the <tt class="docutils literal"><span class="pre">&lt;textline</span> <span class="pre">math=&quot;1&quot;</span> <span class="pre">/&gt;</span></tt> tag instead of the <tt class="docutils literal"><span class="pre">&lt;formulaequationinput</span> <span class="pre">/&gt;</span></tt> tag. However, the <tt class="docutils literal"><span class="pre">&lt;textline</span> <span class="pre">math=&quot;1&quot;</span> <span class="pre">/&gt;</span></tt> tag has been deprecated. All new problems should use the <tt class="docutils literal"><span class="pre">&lt;formulaequationinput</span> <span class="pre">/&gt;</span></tt> tag.</p>
+</div>
+<p><strong>Tag:</strong> <tt class="docutils literal"><span class="pre">&lt;numericalresponse&gt;</span></tt></p>
+<p>Specifies that the problem is a numerical input problem. The <tt class="docutils literal"><span class="pre">&lt;numericalresponse&gt;</span></tt> tag is similar to the <tt class="docutils literal"><span class="pre">&lt;formularesponse&gt;</span></tt> tag, but the <tt class="docutils literal"><span class="pre">&lt;numericalresponse&gt;</span></tt> tag does not allow unspecified variables.</p>
+<blockquote>
+<div><p>Attributes</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="20%" />
+<col width="80%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>Attribute</td>
+<td>Description</td>
+</tr>
+<tr class="row-even"><td>answer (required)</td>
+<td>The correct answer to the problem, given as a mathematical expression.</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">If you include a variable name preceded with a dollar sign ($) in the problem, you can include a script in the problem that computes the expression in terms of that variable.</p>
+</div>
+<p>The grader evaluates the answer that you provide and the student's response in the same way. The grader also automatically simplifies any numeric expressions that you or a student provides. Answers can include simple expressions such as &quot;0.3&quot; and &quot;42&quot;, or more complex expressions such as &quot;1/3&quot; and &quot;sin(pi/5)&quot;.</p>
+<p>Children</p>
+<ul class="simple">
+<li><tt class="docutils literal"><span class="pre">&lt;responseparam&gt;</span></tt></li>
+<li><tt class="docutils literal"><span class="pre">&lt;formulaequationinput&gt;</span></tt></li>
+</ul>
+</div></blockquote>
+<p><strong>Tag:</strong> * <tt class="docutils literal"><span class="pre">&lt;formulaequationinput&gt;</span></tt></p>
+<p>Creates a response field in the LMS where students enter a response.</p>
+<blockquote>
+<div><p>Attributes</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="20%" />
+<col width="80%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>Attribute</td>
+<td>Description</td>
+</tr>
+<tr class="row-even"><td>label (required)</td>
+<td>Specifies the name of the response field.</td>
+</tr>
+<tr class="row-odd"><td>size (optional)</td>
+<td>Defines the width, in characters, of the response field in the LMS.</td>
+</tr>
+</tbody>
+</table>
+<p>Children</p>
+<p>(none)</p>
+</div></blockquote>
+<p><strong>Tag:</strong> <tt class="docutils literal"><span class="pre">&lt;responseparam&gt;</span></tt></p>
+<p>Specifies a tolerance, or margin of error, for an answer.</p>
+<blockquote>
+<div><p>Attributes</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="20%" />
+<col width="80%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>Attribute</td>
+<td>Description</td>
+</tr>
+<tr class="row-even"><td>type (optional)</td>
+<td>&quot;tolerance&quot;: Defines a tolerance for a number</td>
+</tr>
+<tr class="row-odd"><td>default (optional)</td>
+<td>A number or a percentage specifying a numerical or percent tolerance.</td>
+</tr>
+</tbody>
+</table>
+<p>Children</p>
+<p>(none)</p>
+</div></blockquote>
+<p><strong>Tag:</strong> <tt class="docutils literal"><span class="pre">&lt;script&gt;</span></tt></p>
+<p>Specifies a script that the grader uses to evaluate a student's response. A problem behaves as if all of the code in all of the script tags were in a single script tag. Specifically, any variables that are used in multiple <tt class="docutils literal"><span class="pre">&lt;script&gt;</span></tt> tags share a namespace and can be overriden.</p>
+<p>As with all Python, indentation matters, even though the code is embedded in XML.</p>
+<blockquote>
+<div><p>Attributes</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="20%" />
+<col width="80%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>Attribute</td>
+<td>Description</td>
+</tr>
+<tr class="row-even"><td>type (required)</td>
+<td>Must be set to &quot;loncapa/python&quot;.</td>
+</tr>
+</tbody>
+</table>
+<p>Children</p>
+<p>(none)</p>
+</div></blockquote>
+</div>
+</div>
+</div>
+
+
+          <footer>
+  
+    <div class="rst-footer-buttons">
+      
+        <a href="problem_in_latex.html" class="btn btn-neutral float-right" title="Problem Written in LaTeX"/>Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="multiple_choice.html" class="btn btn-neutral" title="Multiple Choice Problem"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <p>
+      &copy; Copyright 2014, edX.
+  </p>
+
+  <a href="https://www.github.com/snide/sphinx_rtd_theme">Sphinx theme</a> provided by <a href="http://readthedocs.org">Read the Docs</a>
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+</body>
+</html>

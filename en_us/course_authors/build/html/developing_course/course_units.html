@@ -1,0 +1,614 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>6.5. Developing Course Units &mdash; Building and Running an edX Course  documentation</title>
+  
+
+  
+  
+
+  
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  
+  
+
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:'../',
+        VERSION:'',
+        COLLAPSE_INDEX:false,
+        FILE_SUFFIX:'.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+    <link rel="top" title="Building and Running an edX Course  documentation" href="../index.html"/>
+        <link rel="up" title="6. Developing Your Course" href="index.html"/>
+        <link rel="next" title="6.6. Developing Course Components" href="course_components.html"/>
+        <link rel="prev" title="6.4. Developing Course Subsections" href="course_subsections.html"/> 
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-nav-search">
+        <a href="../index.html" class="icon icon-home"> Building and Running an edX Course</a>
+        <form class="wy-form" action="../search.html" method="get">
+  <input type="text" name="q" placeholder="Search docs" />
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix">
+        
+        
+            <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../read_me.html">1. Read Me</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../preface.html">2. Preface</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../preface.html#system-status">2.1. System Status</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../preface.html#resources-for-course-teams">2.2. Resources for Course Teams</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../preface.html#resources-for-researchers">2.3. Resources for Researchers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../preface.html#resources-for-developers">2.4. Resources for Developers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../preface.html#resources-for-students">2.5. Resources for Students</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../change_log.html">3. Change Log</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../change_log.html#october-2014">3.1. October, 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../change_log.html#september-2014">3.2. September, 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../change_log.html#august-2014">3.3. August, 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../change_log.html#july-2014">3.4. July, 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../change_log.html#june-2014">3.5. June, 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../change_log.html#may-2014">3.6. May, 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../change_log.html#april-2014">3.7. April, 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../change_log.html#march-2014">3.8. March, 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../change_log.html#february-2014">3.9. February, 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../change_log.html#january-2014">3.10. January, 2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../change_log.html#december-2013">3.11. December, 2013</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../getting_started/index.html">4. Getting Started</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../getting_started/browsers.html">4.1. edX Browser Support</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../getting_started/accounts.html">4.2. Getting Started with edX</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../getting_started/get_started.html">4.3. Getting Started with Studio</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../getting_started/accessibility.html">4.4. Guidelines for Creating Accessible Content</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../getting_started/glossary.html">4.5. Glossary</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../building_course/index.html">5. Setting up Your Course</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../building_course/creating_new_course.html">5.1. Creating a New Course</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../building_course/export_import_course.html">5.2. Exporting and Importing a Course</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../building_course/course_files.html">5.3. Adding Files to a Course</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../building_course/handouts_updates.html">5.4. Adding Course Updates and Handouts</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../building_course/pages.html">5.5. Adding Pages to a Course</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../building_course/textbooks.html">5.6. Adding Textbooks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../building_course/establish_grading_policy.html">5.7. Establishing a Grading Policy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../building_course/setting_up_student_view.html">5.8. Setting up the Student View</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">6. Developing Your Course</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="workflow.html">6.1. Getting Started with Course Content Development</a></li>
+<li class="toctree-l2"><a class="reference internal" href="course_outline.html">6.2. Developing Your Course Outline</a></li>
+<li class="toctree-l2"><a class="reference internal" href="course_sections.html">6.3. Developing Course Sections</a></li>
+<li class="toctree-l2"><a class="reference internal" href="course_subsections.html">6.4. Developing Course Subsections</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="">6.5. Developing Course Units</a></li>
+<li class="toctree-l2"><a class="reference internal" href="course_components.html">6.6. Developing Course Components</a></li>
+<li class="toctree-l2"><a class="reference internal" href="controlling_content_visibility.html">6.7. Controlling Content Visibility</a></li>
+<li class="toctree-l2"><a class="reference internal" href="testing_courseware.html">6.8. Testing Your Course Content</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../creating_content/index.html">7. Creating Course Content</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../creating_content/create_html_component.html">7.1. Working with HTML Components</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../creating_content/create_video.html">7.2. Working with Video Components</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../creating_content/create_discussion.html">7.3. Working with Discussion Components</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../creating_content/create_problem.html">7.4. Working with Problem Components</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../exercises_tools/index.html">8. Creating Exercises and Tools</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/create_exercises_and_tools.html">8.1. Creating Exercises and Tools</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/annotation.html">8.2. Annotation Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/checkbox.html">8.3. Checkbox Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/chemical_equation.html">8.4. Chemical Equation Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/circuit_schematic_builder.html">8.5. Circuit Schematic Builder Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/conditional_module.html">8.6. Conditional Module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/custom_javascript.html">8.7. Custom JavaScript Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/drag_and_drop.html">8.8. Drag and Drop Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/dropdown.html">8.9. Dropdown Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/external_graders.html">8.10. External Grader</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/full_screen_image.html">8.11. Full Screen Image Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/gene_explorer.html">8.12. Gene Explorer Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/google_hangouts.html">8.13. Google Instant Hangout Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/iframe.html">8.14. IFrame Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/image_mapped_input.html">8.15. Image Mapped Input Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/lti_component.html">8.16. LTI Component</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/math_expression_input.html">8.17. Math Expression Input Problems</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/molecule_editor.html">8.18. Molecule Editor Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/molecule_viewer.html">8.19. Molecule Viewer Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/multiple_choice.html">8.20. Multiple Choice Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/mult_choice_num_input.html">8.21. Multiple Choice and Numerical Input Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/numerical_input.html">8.22. Numerical Input</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/open_response_assessment.html">8.23. Open Response Assessment Problems</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/periodic_table.html">8.24. Periodic Table Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/poll.html">8.25. Poll Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/problem_with_hint.html">8.26. Problem with Adaptive Hint</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/problem_in_latex.html">8.27. Problem Written in LaTeX</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/protein_builder.html">8.28. Protex Protein Builder Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/text_input.html">8.29. Text Input Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/word_cloud.html">8.30. Word Cloud Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/custom_python.html">8.31. Write-Your-Own-Grader Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/zooming_image.html">8.32. Zooming Image Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercises_tools/mathjax.html">8.33. A Brief Introduction to MathJax in Studio</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../content_experiments/index.html">9. Creating Content Experiments</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../content_experiments/content_experiments_overview.html">9.1. Overview of Content Experiments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../content_experiments/content_experiments_configure.html">9.2. Configure Your Course for Content Experiments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../content_experiments/content_experiments_add.html">9.3. Add Content Experiments to Your Course</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../content_experiments/content_experiments_view.html">9.4. Test Content Experiments</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../cohorts/index.html">10. Including Student Cohorts</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../cohorts/cohorts_overview.html">10.1. Using Cohorts to Build Course Communities</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../cohorts/cohort_config.html">10.2. Enabling and Configuring the Cohort Feature</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../cohorts/cohorts_discussions.html">10.3. Managing Discussions in a Course with Student Cohorts</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../releasing_course/index.html">11. Releasing Your Course</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../releasing_course/beta_testing.html">11.1. Beta Testing a Course</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasing_course/course_launching.html">11.2. Course Launching Activities</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../releasing_course/staff_debug_info.html">11.3. Staff Debug Info</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../running_course/index.html">12. Running Your Course</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../running_course/course_staffing.html">12.1. Staffing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../running_course/course_enrollment.html">12.2. Enrollment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../running_course/discussions.html">12.3. Managing Course Discussions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../running_course/discussions_students.html">12.4. Participating in Course Discussions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../running_course/discussion_guidance_moderators.html">12.5. Guidance for Discussion Moderators</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../running_course/course_data.html">12.6. Course Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../running_course/course_student.html">12.7. Student Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../running_course/course_answers.html">12.8. Answer Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../running_course/course_grades.html">12.9. Student Grades and Grading</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../running_course/checking_student_progress.html">12.10. Assign Final Grades and Issue Certificates</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../students/index.html">13. Information for Your Students</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../students/login_guide.html">13.1. Sample Student Login Guide</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../students/math_students.html">13.2. Math Response Formatting for Students</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../students/ora_students.html">13.3. Open Response Assessments for Students</a></li>
+</ul>
+</li>
+</ul>
+
+        
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top">
+        <i data-toggle="wy-nav-top" class="icon icon-reorder"></i>
+        <a href="/">Building and Running an edX Course</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <ul class="wy-breadcrumbs">
+  <li><a href="../index.html">Docs</a> &raquo;</li>
+  <li><a href="">6.5. Developing Course Units</a></li>
+  
+</ul>
+<hr/>
+
+          
+  <div class="section" id="developing-course-units">
+<span id="id1"></span><h1>6.5. Developing Course Units<a class="headerlink" href="#developing-course-units" title="Permalink to this headline">¶</a></h1>
+<p>When working with units in the course outline, ensure you understand the
+following:</p>
+<ul class="simple">
+<li><a class="reference internal" href="#what-is-a-unit">What is a Unit?</a></li>
+<li><a class="reference internal" href="#viewing-units-in-the-outline">Viewing Units in the Outline</a></li>
+<li><a class="reference internal" href="#viewing-the-unit-page">Viewing the Unit Page</a></li>
+<li><a class="reference internal" href="#viewing-units-as-a-student">Viewing Units as a Student</a></li>
+<li><a class="reference internal" href="#unit-publishing-status-and-visibility-to-students">Unit Publishing Status and Visibility to Students</a></li>
+<li><a class="reference internal" href="#unit-publishing-status">Unit Publishing Status</a></li>
+</ul>
+<p>When developing your course, you perform the following tasks with units:</p>
+<ul class="simple">
+<li><a class="reference internal" href="#create-a-unit">Create a Unit</a></li>
+<li><a class="reference internal" href="#edit-a-unit">Edit a Unit</a></li>
+<li><a class="reference internal" href="#preview-a-unit">Preview a Unit</a></li>
+<li><a class="reference internal" href="#publish-a-unit">Publish a Unit</a></li>
+<li><a class="reference internal" href="#discard-changes-to-a-unit">Discard Changes to a Unit</a></li>
+<li><a class="reference internal" href="#view-a-published-unit">View a Published Unit</a></li>
+<li><a class="reference internal" href="#hide-a-unit-from-students">Hide a Unit from Students</a></li>
+<li><a class="reference internal" href="#delete-a-unit">Delete a Unit</a></li>
+</ul>
+<p>You add content to units with <a class="reference internal" href="course_components.html#developing-course-components"><em>course components</em></a>.</p>
+<div class="section" id="what-is-a-unit">
+<span id="id2"></span><h2>6.5.1. What is a Unit?<a class="headerlink" href="#what-is-a-unit" title="Permalink to this headline">¶</a></h2>
+<p>A unit is a part of a <a class="reference internal" href="course_subsections.html#developing-course-subsections"><em>subsection</em></a> that
+students view as a single page.</p>
+<p>A unit contains one or more <a class="reference internal" href="course_components.html#developing-course-components"><em>components</em></a>,
+such as <a class="reference internal" href="../creating_content/create_html_component.html#working-with-html-components"><em>HTML content</em></a>,
+<a class="reference internal" href="../creating_content/create_problem.html#working-with-problem-components"><em>problems</em></a>, <a class="reference internal" href="../creating_content/create_discussion.html#working-with-discussion-components"><em>discussions</em></a>, and
+<a class="reference internal" href="../creating_content/create_video.html#working-with-video-components"><em>videos</em></a>.</p>
+</div>
+<div class="section" id="viewing-units-in-the-outline">
+<h2>6.5.2. Viewing Units in the Outline<a class="headerlink" href="#viewing-units-in-the-outline" title="Permalink to this headline">¶</a></h2>
+<p>To view units in the outline, you <a class="reference internal" href="course_outline.html#navigating-the-course-outline"><em>expand</em></a>
+the parent section and subsection:</p>
+<img alt="An outline with callouts for sections, subsections, and units" src="../_images/outline-callouts.png" />
+</div>
+<div class="section" id="viewing-the-unit-page">
+<h2>6.5.3. Viewing the Unit Page<a class="headerlink" href="#viewing-the-unit-page" title="Permalink to this headline">¶</a></h2>
+<p>When you click on a unit name in the outline, the <strong>Unit</strong> page opens.</p>
+<p>The following example shows a unit page with two components, with circles and
+text to show different areas and controls in the page.</p>
+<img alt="The Unit page" src="../_images/unit-page.png" />
+</div>
+<div class="section" id="viewing-units-as-a-student">
+<h2>6.5.4. Viewing Units as a Student<a class="headerlink" href="#viewing-units-as-a-student" title="Permalink to this headline">¶</a></h2>
+<p>To a student using the edX Learning Management System, each unit in the
+subsection appears as a link on the course ribbon at the top of the page. The
+active unit is open beneath the course ribbon.</p>
+<p>The following image shows a subsection that has five units, which are circled
+in the ribbon above the video, with the first unit open:</p>
+<img alt="Image of units from the student's point of view" src="../_images/Units_LMS.png" />
+</div>
+<div class="section" id="the-unit-workflow">
+<span id="id3"></span><h2>6.5.5. The Unit Workflow<a class="headerlink" href="#the-unit-workflow" title="Permalink to this headline">¶</a></h2>
+<p>When you have set up the <a class="reference internal" href="course_sections.html#developing-course-sections"><em>section</em></a> and
+<a class="reference internal" href="course_subsections.html#developing-course-subsections"><em>subsection</em></a> in the course outline, you
+then work with units.</p>
+<p>The typical workflow is:</p>
+<ol class="arabic simple">
+<li><a class="reference internal" href="#create-a-unit"><em>Create a new unit</em></a>.</li>
+<li><a class="reference internal" href="course_components.html#add-a-component"><em>Add components to the unit</em></a>.</li>
+<li><a class="reference internal" href="#publish-a-unit"><em>Publish the unit</em></a>.</li>
+</ol>
+<p>After you publish the unit, you can:</p>
+<ol class="arabic simple">
+<li><a class="reference internal" href="course_components.html#developing-course-components"><em>Modify components in the unit</em></a>.</li>
+<li><a class="reference internal" href="#publish-a-unit"><em>Publish the changes to the unit</em></a>.</li>
+</ol>
+<p>The following diagram shows the typical unit development workflow:</p>
+<img alt="Diagram of the unit development workflow" src="../_images/workflow-create-unit.png" />
+<p>As you work through these steps, the <strong>publishing status</strong> of the unit changes.
+The publishing status controls the content available to students, along with
+<a class="reference internal" href="controlling_content_visibility.html#release-dates"><em>release dates</em></a>. See the next section for more information.</p>
+</div>
+<div class="section" id="unit-publishing-status-and-visibility-to-students">
+<span id="unit-states-and-visibility-to-students"></span><h2>6.5.6. Unit Publishing Status and Visibility to Students<a class="headerlink" href="#unit-publishing-status-and-visibility-to-students" title="Permalink to this headline">¶</a></h2>
+<p>The following information summarizes whether or not students can see a unit.</p>
+<ul class="simple">
+<li>Students never see a unit with the publishing status <a class="reference internal" href="#draft-never-published">Draft (Never
+Published)</a>.</li>
+<li>Students never see a unit with the publishing status <a class="reference internal" href="#visible-to-staff-only">Visible to Staff
+Only</a>. See <a class="reference internal" href="#hide-a-unit-from-students">Hide a Unit from Students</a> for more information.</li>
+<li>Students do not see a unit with the publishing status <a class="reference internal" href="#published-not-yet-released">Published Not Yet
+Released</a> until the <a class="reference internal" href="controlling_content_visibility.html#release-dates"><em>release date</em></a>. On the release
+date, the status changes to <a class="reference internal" href="#published-and-live">Published and Live</a>.</li>
+<li>If the publishing status is <a class="reference internal" href="#published-and-live">Published and Live</a>, students see the current
+version of the unit.</li>
+<li>If the publishing status is <a class="reference internal" href="#draft-unpublished-changes">Draft (Unpublished Changes)</a>, students see the
+last published version of the unit if the <a class="reference internal" href="controlling_content_visibility.html#release-dates"><em>release date</em></a>
+for the containing section and subsection has passed.</li>
+</ul>
+<p>For more information, see <a class="reference internal" href="controlling_content_visibility.html#controlling-content-visibility"><em>Controlling Content Visibility</em></a>.</p>
+</div>
+<div class="section" id="unit-publishing-status">
+<span id="id4"></span><h2>6.5.7. Unit Publishing Status<a class="headerlink" href="#unit-publishing-status" title="Permalink to this headline">¶</a></h2>
+<p>As an course author, you work with units with the following statuses:</p>
+<ul class="simple">
+<li><a class="reference internal" href="#draft-never-published">Draft (Never published)</a></li>
+<li><a class="reference internal" href="#published-and-live">Published and Live</a></li>
+<li><a class="reference internal" href="#id7">Published (not yet released)</a></li>
+<li><a class="reference internal" href="#draft-unpublished-changes">Draft (Unpublished changes)</a></li>
+<li><a class="reference internal" href="#visible-to-staff-only">Visible to Staff Only</a></li>
+</ul>
+<div class="section" id="draft-never-published">
+<span id="id5"></span><h3>6.5.7.1. Draft (Never published)<a class="headerlink" href="#draft-never-published" title="Permalink to this headline">¶</a></h3>
+<p>When you create a new unit and add components to it, the unit&#8217;s publishing
+status is <strong>Draft (Never Published)</strong>, as shown in the status panel:</p>
+<img alt="Status panel of a unit that has never been published" src="../_images/unit-never-published.png" />
+<p>In Studio, you see the version of the content that you&#8217;re working on. Students
+never see a unit with this status, even if the release date has passed.</p>
+<p>Though you do not see the unit in the LMS, you can <a class="reference internal" href="testing_courseware.html#preview-course-content"><em>preview the
+unit</em></a>.</p>
+<p>You must <a class="reference internal" href="#publish-a-unit"><em>publish the unit</em></a> for it to be included in the
+LMS.</p>
+</div>
+<div class="section" id="published-and-live">
+<span id="id6"></span><h3>6.5.7.2. Published and Live<a class="headerlink" href="#published-and-live" title="Permalink to this headline">¶</a></h3>
+<p>The release date for the section and subsection have passed. You&#8217;ve published
+the unit and haven&#8217;t made any changes to it. You and students both see the
+current version of the unit.</p>
+<img alt="Status panel of a unit that is published" src="../_images/unit-published.png" />
+</div>
+<div class="section" id="published-not-yet-released">
+<span id="id7"></span><h3>6.5.7.3. Published (not yet released)<a class="headerlink" href="#published-not-yet-released" title="Permalink to this headline">¶</a></h3>
+<p>You&#8217;ve published the unit, but the release date hasn&#8217;t passed. Students cannot
+see this unit until the release date passes.</p>
+<img alt="Status panel of a unit that is published but not released" src="../_images/unit-published_unreleased.png" />
+</div>
+<div class="section" id="draft-unpublished-changes">
+<span id="id8"></span><h3>6.5.7.4. Draft (Unpublished changes)<a class="headerlink" href="#draft-unpublished-changes" title="Permalink to this headline">¶</a></h3>
+<p>When you edit a published unit, whether or not it is released, the unit&#8217;s
+publishing status changes to <strong>Draft (Unpublished Changes)</strong>, as shown in the
+status panel:</p>
+<img alt="Status panel of a unit that has pending changes" src="../_images/unit-pending-changes.png" />
+<p>In Studio, you see the draft of the content that you&#8217;re working on. If the
+release date has passed, students see the last published version of the unit.
+If the release date hasn&#8217;t passed, students can&#8217;t see your content.</p>
+<p>You must <a class="reference internal" href="#publish-a-unit"><em>publish the unit</em></a> for students to see your
+changes.</p>
+<p>You can <a class="reference internal" href="testing_courseware.html#preview-course-content"><em>preview the changes to a unit</em></a> to test
+how your changes will appear to students after you publish the unit.</p>
+</div>
+<div class="section" id="visible-to-staff-only">
+<span id="id9"></span><h3>6.5.7.5. Visible to Staff Only<a class="headerlink" href="#visible-to-staff-only" title="Permalink to this headline">¶</a></h3>
+<p>When you <a class="reference internal" href="#hide-a-unit-from-students"><em>hide a unit from students</em></a>, the
+unit&#8217;s publishing status changes to <strong>Visible to Staff Only</strong>.</p>
+<p>The publishing status of a unit can be <strong>Visible to Staff Only</strong> if you hid the
+parent <a class="reference internal" href="course_sections.html#hide-a-section-from-students"><em>section</em></a> or <a class="reference internal" href="course_subsections.html#hide-a-subsection-from-students"><em>subsection</em></a> from students.</p>
+<p>Students never see a unit with this status, even if it has been published and
+the release date has passed.</p>
+<img alt="Status panel of a unit that has pending changes" src="../_images/unit-unpublished.png" />
+</div>
+</div>
+<div class="section" id="create-a-unit">
+<span id="id10"></span><h2>6.5.8. Create a Unit<a class="headerlink" href="#create-a-unit" title="Permalink to this headline">¶</a></h2>
+<p>You can create a unit from the outline or create a unit in the same subsection
+from the unit page.</p>
+<p>To create a unit from the outline:</p>
+<ol class="arabic simple">
+<li>In the outline, expand the subsection in which you want to create a new
+unit.</li>
+<li>Click <strong>New Unit</strong> at the bottom of the expanded subsection. A new
+unit is added at the end of the subsection.</li>
+<li>On the unit page, the unit name is selected. Edit the name as needed.</li>
+<li><a class="reference internal" href="course_components.html#add-a-component"><em>Add components</em></a> to the new unit as needed.</li>
+</ol>
+<p>To create a new unit from a unit page:</p>
+<ol class="arabic">
+<li><p class="first">In the <strong>Unit Location</strong> panel, click <strong>New Unit</strong>.</p>
+<img alt="The Unit Location panel in the Unit page" src="../_images/unit_location.png" />
+<p>The unit page for the new unit opens automatically.</p>
+</li>
+<li><p class="first">On the unit page, the unit name is selected. Edit the name as needed.</p>
+</li>
+<li><p class="first"><a class="reference internal" href="course_components.html#add-a-component"><em>Add components</em></a> to the new unit as needed.</p>
+</li>
+</ol>
+<p>You must then <a class="reference internal" href="#publish-a-unit"><em>publish the unit</em></a> to make it visible to
+students.</p>
+</div>
+<div class="section" id="edit-a-unit">
+<span id="id11"></span><h2>6.5.9. Edit a Unit<a class="headerlink" href="#edit-a-unit" title="Permalink to this headline">¶</a></h2>
+<p>You can edit a unit in the following ways:</p>
+<ul class="simple">
+<li><a class="reference internal" href="#edit-the-unit-name">Edit the unit name</a></li>
+<li><a class="reference internal" href="course_components.html#developing-course-components"><em>Develop components</em></a></li>
+<li><a class="reference internal" href="#reorganize-components-in-units">Reorganize Components in Units</a></li>
+</ul>
+<p>When you make any of these changes, if you previously published the unit, the
+state changes to <a class="reference internal" href="#draft-unpublished-changes">Draft (Unpublished Changes)</a>. You must then <a class="reference internal" href="#publish-a-unit"><em>publish
+the unit</em></a> to make your edits visible to students.</p>
+<div class="section" id="edit-the-unit-name">
+<h3>6.5.9.1. Edit the Unit Name<a class="headerlink" href="#edit-the-unit-name" title="Permalink to this headline">¶</a></h3>
+<p>To edit a unit name, hover over the name to show the Edit icon:</p>
+<img alt="The Edit Unit Name icon" src="../_images/unit-edit-icon.png" />
+<p>Click the Edit icon next to the unit name. The name field becomes editable.
+Enter the new name and tab or click out of the field to save the name.</p>
+</div>
+<div class="section" id="reorganize-components-in-units">
+<h3>6.5.9.2. Reorganize Components in Units<a class="headerlink" href="#reorganize-components-in-units" title="Permalink to this headline">¶</a></h3>
+<p>You can reorganize components within a unit by dragging and dropping them to
+new locations.</p>
+<p>To move a component, hover over the handle on the right of the component&#8217;s box
+until the cursor changes to a four-headed arrow. For example, in the image
+below, the handle for the discussion component is selected:</p>
+<img alt="A discussion component selected to drag it" src="../_images/unit-drag-selected.png" />
+<p>Then, click and drag the component to the location that you want.</p>
+<p>A dashed outline indicates where the component will land when you release the
+mouse button. For example, in the image below, the discussion component is
+being moved to the top of the unit:</p>
+<img alt="A component being dragged to a new location" src="../_images/unit-drag-moved.png" />
+</div>
+</div>
+<div class="section" id="preview-a-unit">
+<span id="id12"></span><h2>6.5.10. Preview a Unit<a class="headerlink" href="#preview-a-unit" title="Permalink to this headline">¶</a></h2>
+<p>You preview a unit to review and test the content before it is visible to
+students.</p>
+<p>You can preview a unit before it is published and when there are unpublished
+changes. When the unit is published and there are no pending changes, you
+cannot preview the unit; you must view the live version of the unit.</p>
+<p>To preview the unit, in the unit page, click <strong>Preview Changes</strong>.</p>
+<img alt="The Unit page with Preview Changes button circled" src="../_images/preview_changes.png" />
+<p>The unit opens in preview mode:</p>
+<img alt="The unit in preview mode" src="../_images/preview_mode.png" />
+<p>When you are revising a previously published unit, it is helpful to preview
+your changes in one window and <a class="reference internal" href="#view-a-published-unit"><em>view the published unit</em></a> in a second window.</p>
+</div>
+<div class="section" id="publish-a-unit">
+<span id="id13"></span><h2>6.5.11. Publish a Unit<a class="headerlink" href="#publish-a-unit" title="Permalink to this headline">¶</a></h2>
+<p>Publishing a unit makes the current version of the unit in Studio available to
+students, if the release date for the section and subsection have passed.</p>
+<p>You publish a unit that has a status of <a class="reference internal" href="#draft-never-published">Draft (Never Published)</a> or <a class="reference internal" href="#draft-unpublished-changes">Draft
+(Unpublished Changes)</a>. When you publish a unit, the status changes to
+<a class="reference internal" href="#published-and-live">Published and Live</a> or <a class="reference internal" href="#published-not-yet-released">Published Not Yet Released</a>.</p>
+<p>You can publish a unit from the unit page or the course outline.</p>
+<div class="section" id="use-the-unit-page-to-publish-a-unit">
+<h3>6.5.11.1. Use the Unit Page to Publish a Unit<a class="headerlink" href="#use-the-unit-page-to-publish-a-unit" title="Permalink to this headline">¶</a></h3>
+<p>To publish the unit, click <strong>Publish</strong> in the status panel:</p>
+<img alt="Unit status panel with Publish button circled" src="../_images/unit-publish-button.png" />
+</div>
+<div class="section" id="use-the-outline-to-publish-a-unit">
+<h3>6.5.11.2. Use the Outline to Publish a Unit<a class="headerlink" href="#use-the-outline-to-publish-a-unit" title="Permalink to this headline">¶</a></h3>
+<p>To publish a unit from the outline, click the publish icon in the box for the
+unit:</p>
+<img alt="Publishing icon for a unit" src="../_images/outline-publish-icon-unit.png" />
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">The publish icon only appears when there is new or changed content in the
+unit.</p>
+</div>
+</div>
+</div>
+<div class="section" id="discard-changes-to-a-unit">
+<span id="id14"></span><h2>6.5.12. Discard Changes to a Unit<a class="headerlink" href="#discard-changes-to-a-unit" title="Permalink to this headline">¶</a></h2>
+<p>When you modify a published unit, your changes are saved in Studio, though the
+changes aren&#8217;t visible to students until you publish the unit again.</p>
+<p>In certain situations, you may decide that you never want to publish your
+changes. You can discard the changes so that Studio reverts to the last
+published version of the unit.</p>
+<p>To discard changes and revert the Studio version of the unit to the last
+published version, click <strong>Discard Changes</strong> in the status panel:</p>
+<img alt="Unit status panel with Discard Changes circled" src="../_images/unit-discard-changes.png" />
+<div class="admonition caution">
+<p class="first admonition-title">Caution</p>
+<p class="last">When you discard changes to a unit, the changes are permanently deleted. You
+cannot retrieve discarded changes or undo the action.</p>
+</div>
+</div>
+<div class="section" id="view-a-published-unit">
+<span id="id15"></span><h2>6.5.13. View a Published Unit<a class="headerlink" href="#view-a-published-unit" title="Permalink to this headline">¶</a></h2>
+<p>To view the last published version of a unit in the LMS, click <strong>View Published
+Version</strong>.</p>
+<img alt="Unit page with View Published Version button circled" src="../_images/unit_view_live_button.png" />
+<p>The unit page opens in the LMS in Staff view. You may be prompted to log in to
+the LMS.</p>
+<p>If the unit status is <a class="reference internal" href="#draft-unpublished-changes">Draft (Unpublished Changes)</a>, you do not see your
+changes in the LMS until you publish the unit again.</p>
+<p>If the unit status is <a class="reference internal" href="#draft-never-published">Draft (Never Published)</a>, the <strong>View Published
+Version</strong> button is not enabled.</p>
+</div>
+<div class="section" id="hide-a-unit-from-students">
+<span id="id16"></span><h2>6.5.14. Hide a Unit from Students<a class="headerlink" href="#hide-a-unit-from-students" title="Permalink to this headline">¶</a></h2>
+<p>You can prevent students from seeing a unit regardless of the unit status or
+the release schedules of the section and subsection.</p>
+<p>For more information, see <a class="reference internal" href="controlling_content_visibility.html#controlling-content-visibility"><em>Controlling Content Visibility</em></a>.</p>
+<p>You can hide a unit from students using the course outline or the unit page.</p>
+<div class="section" id="use-the-unit-page-to-hide-a-unit">
+<h3>6.5.14.1. Use the Unit Page to Hide a Unit<a class="headerlink" href="#use-the-unit-page-to-hide-a-unit" title="Permalink to this headline">¶</a></h3>
+<p>Select the <strong>Hide from students</strong> checkbox in the status panel:</p>
+<img alt="Unit status panel with Hide from Students checked" src="../_images/unit-hide.png" />
+<p>For more information, see <a class="reference internal" href="controlling_content_visibility.html#controlling-content-visibility"><em>Controlling Content Visibility</em></a>.</p>
+</div>
+<div class="section" id="use-the-outline-to-hide-a-unit">
+<h3>6.5.14.2. Use the Outline to Hide a Unit<a class="headerlink" href="#use-the-outline-to-hide-a-unit" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic">
+<li><p class="first">Click the Settings icon in the unit box:</p>
+<img alt="The unit settings icon circled" src="../_images/outline-unit-settings.png" />
+<p>The <strong>Settings</strong> dialog box opens.</p>
+</li>
+<li><p class="first">Check <strong>Hide from students</strong>.</p>
+<img alt="The unit hide from students setting" src="../_images/outline-unit-settings-dialog.png" />
+</li>
+<li><p class="first">Click <strong>Save</strong>.</p>
+</li>
+</ol>
+</div>
+<div class="section" id="make-a-hidden-unit-visible-to-students">
+<h3>6.5.14.3. Make a Hidden Unit Visible to Students<a class="headerlink" href="#make-a-hidden-unit-visible-to-students" title="Permalink to this headline">¶</a></h3>
+<p>Before you make a hidden unit visible to students, be aware that course content
+will immediately be visible to students, as follows:</p>
+<ul class="simple">
+<li>For a hidden unit that previously was published, clearing the check box
+publishes the current content for the unit. If you made changes to the unit
+while is was hidden, those draft changes are published.</li>
+<li>When you make a section or subsection that was previously hidden visible to
+students, draft content in units is <em>not</em> published. Changes you made since
+last publishing units are not made visible to students.</li>
+</ul>
+<p>You can make a hidden unit visible to students from the unit page or the course
+outline. Follow the instructions above and clear the <strong>Hide from students</strong>
+checkbox.</p>
+<p>You are prompted to confirm that you want to make the unit visible to students.</p>
+</div>
+</div>
+<div class="section" id="delete-a-unit">
+<h2>6.5.15. Delete a Unit<a class="headerlink" href="#delete-a-unit" title="Permalink to this headline">¶</a></h2>
+<p>You delete a unit from the course outline.</p>
+<p>When you delete a unit, you delete all components within the unit.</p>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">You cannot restore course content after you delete it. To ensure you do not
+delete content you may need later, you can move any unused content to a
+section in you</p>
+</div>
+<p>To delete a unit:</p>
+<ol class="arabic simple">
+<li>Click the delete icon in the box for the unit you want to delete:</li>
+</ol>
+<img alt="The section with Delete icon circled" src="../_images/section-delete.png" />
+<ol class="arabic simple" start="2">
+<li>When you receive the confirmation prompt, click <strong>Yes, delete this
+unit</strong>.</li>
+</ol>
+</div>
+</div>
+
+
+          <footer>
+  
+    <div class="rst-footer-buttons">
+      
+        <a href="course_components.html" class="btn btn-neutral float-right" title="6.6. Developing Course Components"/>Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="course_subsections.html" class="btn btn-neutral" title="6.4. Developing Course Subsections"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <p>
+      &copy; Copyright 2014, edX.
+  </p>
+
+  <a href="https://www.github.com/snide/sphinx_rtd_theme">Sphinx theme</a> provided by <a href="http://readthedocs.org">Read the Docs</a>
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+</body>
+</html>
