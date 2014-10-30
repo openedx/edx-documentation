@@ -2,6 +2,8 @@
 EdX Documentation
 ###################
 
+**This repo is currently in test. Not used for production yet.**
+
 The edX-Documentation repository contains all non-API documentation used by edX
 partners on edx.org and Open edX.
 
