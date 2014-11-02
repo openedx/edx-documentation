@@ -97,11 +97,9 @@ October, 2014
      - Updated :ref:`Set Important Dates for Your Course` to reflect change
        that course dates now use UTC.
    * - 10/14/14
-     - Removed the chapter on the Vital Source E-Reader tool, as it is no
-       longer supported in the edX Platform.
+     - Added the :ref:`Rerun a Course` chapter.
    * - 10/7/14
      - Added the :ref:`Including Student Cohorts` chapter.
-       
        
 *****************
 September, 2014
@@ -294,7 +292,7 @@ May, 2014
      - Updated :ref:`Assigning_discussion_roles` with a note about course staff
        requiring explicit granting of discussion administration roles.
    * - 
-     - Added VitalSource topic.
+     - Added :ref:`VitalSource` topic.
    * - 05/08/14
      - Added warnings to :ref:`Add a File` about file size.
    * - 05/07/14
