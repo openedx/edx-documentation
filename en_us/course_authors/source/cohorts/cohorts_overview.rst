@@ -189,7 +189,7 @@ For more information, see :ref:`Implementing the Manual Assignment Strategy`.
 .. _Hybrid Assignment:
 
 =============================================================
-Accomodating Small Groups Within a Course: Hybrid Assignment
+Accommodating Small Groups Within a Course: Hybrid Assignment
 =============================================================
 
 For some courses, the manual assignment strategy isn't feasible to execute, and
