@@ -262,7 +262,7 @@ Conventions to Discussion Topics`.
 .. _Configure CourseWide Discussion Topics as Private:
 
 ======================================================
-Identify Divided Course-Wide Discussion Topics
+Define Divided Course-Wide Discussion Topics
 ======================================================
 
 In the steps that follow, you configure two topics so that they are divided by
@@ -318,6 +318,83 @@ follows in the **Discussion Topic Mapping** field:
  .. image:: ../Images/Configure_cohort_topic.png
   :alt: Cohort Configuration dictionary field with the cohorted_discussions key
         defined
+
+.. _Configure ContentSpecific Discussion Topics:
+
+*****************************************************************
+Configuring Content-Specific Discussion Topics
+*****************************************************************
+
+When you enable the cohort feature for a course, and add discussion components
+to units, these content-specific discussion topics are by default divided by
+cohort. You can configure one or more of these content-specific topics to be
+unified instead.
+
+.. note:: If you want all content-specific discussion topics in your course to
+be divided by cohort, you do not need to perform any additional configuration.
+
+You must create content-specific discussion topics within Studio, and obtain
+each content-specific discussion topic's automatically-generated Discussion ID
+before you can configure them to be divided by cohort or unified. See
+:ref:`Create ContentSpecific Discussion Topics`.
+
+In the steps that follow, you add two content-specific topics to your course,
+and specify that one of them is unified.
+
+In Studio, add two discussion components to one or two units. Click **Edit** to
+open the component editor, and copy or make a note of the ID for your discussion
+component.
+
+
+
+..On the Studio **Advanced Settings** page, the two topics appear as follows in the **Discussion Topic Mapping**
+field:
+
+.. code::
+
+      "Brainstorming (private)": {
+          "id": "i4x-edX-Open-edx_demo_course_brainstorming"
+      },
+      "Announcements (private)": {
+          "id": "i4x-edX-Open-edx_demo_course_announcements"
+      }
+
+#. Open the course in Studio. 
+
+#. Select **Settings**, then **Advanced Settings**.
+
+#. In the **Cohort Configuration** field, place your cursor after the opening
+   brace character (``{``) and press Enter.
+
+#. On the new line, you define the ``"cohorted_discussions":`` policy key,
+followed by one or more course-wide discussion topic IDs enclosed by    square
+brackets (``[ ]``). You can define a set of discussion topics or just one
+discussion topic.
+
+   To define a set of topics, you type the value of the "id" for each
+   discussion topic on a new line, enclose it within quotation marks (``" "``),
+   and separate the quoted "id" values with commas. For example:
+
+ .. code:: 
+
+   "cohorted_discussions": [
+       "i4x-edX-Open-edx_demo_course_announcements",
+       "i4x-edX-Open-edx_demo_course_brainstorming"
+   ]
+   
+   
+5. Type a comma after the closing square bracket character (``],``). You must
+   include a comma to separate each of the policy keys that you define.
+   
+#. Click **Save Changes**. Studio resequences and reformats your entry. Scroll
+   back to the **Cohort Configuration** field to verify that your entry was
+   saved as you expect. Entries that do not contain all of the required
+   punctuation characters revert to the previous value when you save, and no
+   warning is presented.
+
+
+For more information about content-specific and course-wide discussion topics,
+see :ref:`Organizing_discussions`.
 
 .. _Altering Cohort Configuration:
 
