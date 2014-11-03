@@ -1,14 +1,15 @@
 .. _Enabling and Configuring Cohorts:
 
+
 ############################################
-Enabling and Configuring the Cohort Feature
+Enabling and Configuring the Cohorts Feature
 ############################################
 
 To support cohorts in your course, you select a strategy for assigning your
 students to cohort groups: automated assignment, manual assignment, or a hybrid
 approach. See :ref:`Options for Assigning Students to Cohorts`. You also decide
-whether to change any of the course-wide discussion topics so that they are
-divided by cohort instead of unified for all students.
+whether course-wide and content-specific discussion topics should be divided by
+cohort or unified for all students.
 
 After you select a strategy, you complete these configuration steps (as
 applicable):
@@ -18,16 +19,18 @@ applicable):
 #. Based on the strategy you select for assigning students to cohort groups:
    
   * :ref:`Define the auto cohort groups<Define Auto Cohort Groups>`.
-
   * :ref:`Define the manual cohort groups<Define the Manual Cohort Groups>` and
     then :ref:`assign students<Assign Students to Cohort Groups
     Manually>` to them.
-
   * Do both. 
 
-3. Identify the :ref:`course-wide discussion topics<Identifying Private
-   CourseWide Discussion Topics>` that you want to be divided by cohort. This
-   procedure is optional.
+3. Identify the discussion topics that you want to be divided by cohort. This
+   procedure is optional. 
+
+   If you want :ref:`course-wide discussion topics to be divided by cohort, you
+   need to perform some configuration tasks. In contrast, for content-specific
+   discussion topics, you need to perform some configuration tasks only if you
+   do not want these discussion topics to be divided by cohort.
 
 You complete these procedures in Studio and on the Instructor Dashboard. For an
 optimal student experience, configuration of the cohort feature should be as
@@ -362,7 +365,6 @@ Unicode characters are correctly saved and displayed.
    to specify encoding when you save a spreadsheet as a .csv file. To ensure that
    you are able to create a .csv file that is UTF-8 encoded, use a spreadsheet
    application such as Google Sheets, LibreOffice, or Apache OpenOffice.
-
 
 
 .. _Altering Cohort Configuration:
