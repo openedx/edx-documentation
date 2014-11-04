@@ -90,6 +90,7 @@
 
 .. _edX Platform Developer's Guide: http://edx.readthedocs.org/projects/edx-developer-guide/en/latest/
 
+.. _edX Developer's Guide: http://edx.readthedocs.org/projects/edx-developer-guide/en/latest/
 
 .. _Keys and Credentials for Data Transfers: http://edx.readthedocs.org/projects/devdata/en/latest/internal_data_formats/credentials.html
 
@@ -251,6 +252,7 @@
 
 .. _Add Content Experiments to Your Course: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/content_experiments/content_experiments_add.html
 
+.. _Export a Course: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/building_course/export_import_course.html#export-a-course
 
 .. _Script Tag Format:  http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/custom_python.html#script-tag-format
 
