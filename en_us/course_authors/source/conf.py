@@ -8,8 +8,8 @@ on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 
 if not on_rtd:  # only import and set the theme if we're building docs locally
     import sphinx_rtd_theme
-    html_theme = 'sphinx_rtd_theme'
-    html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
+    html_theme = 'edx_theme'
+    html_theme_path = ["../../.."]
 
 
 
@@ -39,6 +39,7 @@ master_doc = 'index'
 # General information about the project.
 project = u'Building and Running an edX Course'
 copyright = u'2014, edX'
+last_updated = u'November 4, 2014'
 
 # The short X.Y version.
 version = ''
