@@ -12,6 +12,7 @@ Running Your Course
    discussions
    discussions_students
    discussion_guidance_moderators
+   course_wiki
    course_data
    course_student
    course_answers
