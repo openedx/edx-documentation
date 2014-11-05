@@ -257,7 +257,7 @@ big, small {
 		display: table-header-group
 	}
 	tr, img {
-		page-break-inside: avoid
+		
 	}
 	img {
 		max-width: 100% !important
@@ -2522,7 +2522,7 @@ li.wy-form-gallery-edit .arrow {
 	margin-bottom: 0 !important
 }
 .wy-table-responsive table td, .wy-table-responsive table th {
-	white-space: nowrap
+	! white-space: nowrap
 }
 html {
 	height: 100%;
@@ -2559,7 +2559,7 @@ a:hover {
 	text-align: right
 }
 h1, h2, h3, h4, h5, h6, legend {
-	margin-top: 0;
+	margin-top: 24px;
 	font-weight: 700;
 	font-family: "Roboto Slab", "ff-tisa-web-pro", "Georgia", Arial, sans-serif
 }
@@ -2567,7 +2567,7 @@ p {
 	line-height: 24px;
 	margin: 0;
 	font-size: 16px;
-	margin-bottom: 24px
+	margin-bottom: 12px
 }
 h1 {
 	font-size: 175%
@@ -2614,7 +2614,8 @@ code.code-large, .rst-content tt.code-large {
 }
 .wy-plain-list-disc li, .rst-content .section ul li, .rst-content .toctree-wrapper ul li {
 	list-style: disc;
-	margin-left: 24px
+	margin-left: 24px;
+	margin-bottom: 12px
 }
 .wy-plain-list-disc li ul, .rst-content .section ul li ul, .rst-content .toctree-wrapper ul li ul {
 	margin-bottom: 0
@@ -2632,7 +2633,8 @@ code.code-large, .rst-content tt.code-large {
 }
 .wy-plain-list-decimal li, .rst-content .section ol li, .rst-content ol.arabic li {
 	list-style: decimal;
-	margin-left: 24px
+	margin-left: 24px;
+	margin-bottom: 12px
 }
 .wy-type-large {
 	font-size: 120%
