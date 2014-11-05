@@ -676,11 +676,6 @@ member fields.
 
        **History**: Added 16 Oct 2014.
 
-   * - ``speed``
-     - string
-     - Video speed in use: '0.75', '1.0', '1.25', '1.50'.
-
-
 Example 
 -----------
 
@@ -973,7 +968,8 @@ include fields that apply to events with an ``event_source`` of mobile only.
 
    * - ``new_speed``
      - 
-     - The speed that the user selected for the video to play. 
+     - The speed that the user selected for the video to play: '0.75', '1.0',
+       '1.25', '1.50'.
    * - ``old_speed``
      - 
      - The speed at which the video was playing. 
