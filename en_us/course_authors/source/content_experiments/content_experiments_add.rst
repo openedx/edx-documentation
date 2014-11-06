@@ -6,11 +6,11 @@ Add Content Experiments to Your Course
 
 After you :ref:`enable content experiments <Enable Content Experiments>` and
 :ref:`set up group configurations in Studio <Set up Group Configurations in edX
-Studio>` or :ref:`in XML <Set up Group Configurations in an XML Course>`, you
+Studio>` or :ref:`in OLX <Set up Group Configurations in an XML Course>`, you
 can add content experiments to your course. See:
 
 * :ref:`Add a Content Experiment in Studio`
-* :ref:`Add a Content Experiment in XML`
+* :ref:`Add a Content Experiment in OLX`
 
 .. _Add a Content Experiment in Studio:
 
@@ -145,95 +145,6 @@ To change the group configuration:
 #. Drag and drop components from the **Inactive Groups** section into the new
    groups. You can also create new components in the new groups.
 
+.. import OLX-content experiment doc that's shared in OLX guide.
 
-.. _Add a Content Experiment in XML:
-
-****************************************
-Add a Content Experiment in XML
-****************************************
-
-If you are developing your course in XML, you work with multiple XML files to
-configure a content experiment. This section steps through the files involved
-in a content experiment that shows different content to two different groups of
-students.
-
-For more information about working with your course's XML files, including
-information about terminology, see the `edX XML Tutorial
-<http://edx.readthedocs
-.org/projects/devdata/en/latest/course_data_formats/course_xml.html>`_.
-
-=====================================================
-Define the Content Experiment in the Sequential File
-=====================================================
-
-You reference a content experiment in the file for the subsection in the
-``sequential`` directory. For example:
-
-.. code-block:: xml
-
-    ...
-    <vertical url_name="name for the unit that contains the A/B test" display_name="A/B Test Unit">
-        <split_test url_name="name of A/B test file in the split_test folder"/>
-    </vertical>
-    .....
-
-The ``<split_test>`` element's ``url_name`` value references the name of the
-A/B test file in the ``split_test`` directory.
-
-
-.. _Define the Experiment Content in the Split Test File:
-
-=====================================================
-Define the Experiment Content in the Split Test File
-=====================================================
-
-After you define the content experiment in the sequential file, you define the
-course content you want to test in the file in the ``split_test`` directory.
-This is the file referenced in the ``<split_test>`` element in the sequential
-file, as shown above.
-
-In the content experiment file, you add elements for the experiment content.
-For this example, you add two ``<vertical>`` elements to compare the two
-different sets of content.
-
-.. code-block:: xml
-
-    <split_test url_name="AB_Test.xml" display_name="A/B Test" user_partition_id="0" 
-                group_id_to_child='{"0": "i4x://path-to-course/vertical/group_a", 
-                                    "1": "i4x://path-to-course/vertical/group_b"}'>
-        <vertical url_name="group_a" display_name="Group A">
-           <html>Welcome to group A.</html>
-           <video url_name="group_a_video"/>
-        </vertical>
-        <vertical url_name="group_b" display_name="Group B">
-            <html>Welcome to group B.</html>
-            <problem display_name="Checkboxes">
-                <p>A checkboxes problem presents checkbox buttons for student input. 
-                   Students can select more than one option presented.</p>
-                <choiceresponse>
-                    <checkboxgroup direction="vertical" label="Select the answer that matches">
-                        <choice correct="true">correct</choice>
-                        <choice correct="false">incorrect</choice>
-                        <choice correct="true">correct</choice>
-                    </checkboxgroup>
-                </choiceresponse>
-            </problem>
-        </vertical>
-    </split_test>
-
-
-In this example:
-
-* The ``user_partition_id`` value references the ID of the experiment defined
-  in the ``policy.json`` file.
-
-* The ``group_id_to_child`` value references the IDs of the groups defined in
-  the ``policy.json`` file and maps the group IDs to specific content.
-
-  For example,  the value for group ``0``, ``i4x://path-to-
-  course/vertical/group_a``, maps to the ``<vertical>`` element with the
-  ``url_name`` equal to ``group_a``.  Therefore, students in group 0 see the
-  content in that vertical.
-
-For information about the ``policy.json`` file, see :ref:`Set up Group
-Configurations in an XML Course`.
+.. include:: ../../../shared/subsections/content_experiments/content_experiments_OLX.rst

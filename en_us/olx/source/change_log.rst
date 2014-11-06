@@ -13,7 +13,9 @@ October, 2014
 
    * - Date
      - Change
-
+   * - 11/07/14
+     - Added a caution that content experiments are only supported within
+       verticals, in :ref:`Add a Content Experiment in OLX`.
    * - 10/28/14
      - Added the section :ref:`Example of an OLX Course`.
    * - 

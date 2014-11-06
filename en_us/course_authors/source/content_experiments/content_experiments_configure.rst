@@ -11,7 +11,7 @@ experiments. See:
 * :ref:`Overview of Group Configurations`
 * :ref:`Set up Group Configurations in edX Studio`
 * :ref:`Guidelines for Modifying Group Configurations`
-* :ref:`Set up Group Configurations in an XML Course`
+* :ref:`Set Up Group Configuration for OLX Courses`
 
 .. _Enable Content Experiments:
 
@@ -258,151 +258,8 @@ In both cases, the group configuration opens:
 You can use the link in the group configuration to return to the unit that
 contains the content experiment.
 
+.. import OLX-content experiment doc that's shared in OLX guide.
 
-.. _Guidelines for Modifying Group Configurations:
+.. include:: ../../../shared/subsections/content_experiments_group_modify_guidelines.rst
 
-*********************************************
-Guidelines for Modifying Group Configurations
-*********************************************
-
-Review these guidelines if you must modify a group configuration after a course
-starts. These guidelines apply for courses built in Studio or XML.
-
-
-==================================
-Modifying a Group Configuration
-==================================
-
-After the course starts, **do not**:
-
-* Delete group configurations.
-
-* Change the ``id`` value of a group configuration.
-
-
-=================
-Modifying Groups
-=================
-
-After the course starts, **do not** change the ``id`` value of a group.
-  
-You can change group names at any time.
-
-==========================================================
-Removing Groups from Group Configurations
-==========================================================
-
-After a course has started, you may find that students in a specific group are
-having difficulties or a poor experience. In this situation, you can remove the
-group from the group configuration. Content that was specified for that
-group is then no longer visible to students.
-
-Students in the removed group are reassigned evenly to one of the other groups
-in the group configuration. Any problems that these students completed in the
-removed group content do not count toward the students' grades. The students
-must begin the problem set again and complete all the problems in the group
-content to which they've been reassigned.
-
-Removing a group affects the course event data. Ensure that researchers
-evaluating your course results are aware of the group you removed and the
-date you removed it.
-
-.. _Set up Group Configurations in an XML Course:
-
-************************************************
-Set up Group Configurations in an XML Course 
-************************************************
-
-If you are developing your course in XML, you define group configurations in
-the ``policy.json`` file in the ``policies`` directory.
-
-See :ref:`Add a Content Experiment in XML` for more information on how the XML
-for the content experiment uses these settings.
-
-To specify group configurations, you modify the value for the
-``user_partitions`` policy key.
-
-.. note::  
-  ``user_partitions`` is the internal edX Platform name for group
-  configurations.
-
-The value for ``user_partitions`` is a JSON collection of group configurations,
-each of which defines the groups of students. 
-
-.. note:: 
-  Use names for group configurations that are meaningful. You select from the
-  list of group configuration names when you add a content experiment.
-
-See the following examples for more information.
-
-=============================================
-Example: One Group Configuration
-=============================================
-
-The following is an example JSON object that defines an group configuration
-with two student segments.
-
-.. code-block:: json
-
-    "user_partitions": [{"id": 0,
-                       "name": "Name of the group configuration",
-                       "description": "Description of the group configuration.",
-                       "version": 1,
-                       "groups": [{"id": 0,
-                                   "name": "Group 1",
-                                   "version": 1},
-                                  {"id": 1,
-                                   "name": "Group 2",
-                                   "version": 1}]
-                                }
-                       ]
-
-In this example:
-
-* The ``"id": 0`` identifies the group configuration. For XML courses, the
-  value is referenced in the ``user_partition`` attribute of the
-  ``<split_test>`` element in the content experiment file.
-* The ``groups`` array identifies the groups to which students are randomly
-  assigned. For XML courses, each group ``id`` value is referenced in the
-  ``group_id_to_child`` attribute of the ``<split_test>`` element.
-
-==========================================================
-Example: Multiple Group Configurations
-==========================================================
-
-The following is an example JSON object that defines two group configurations.
-The first group configuration divides students into two groups, and the second
-divides students into three groups.
-
-.. code-block:: json
-
-    "user_partitions": [{"id": 0,
-                         "name": "Name of Group Configuration 1",
-                         "description": "Description of Group Configuration 1.",
-                         "version": 1,
-                         "groups": [{"id": 0,
-                                     "name": "Group 1",
-                                     "version": 1},
-                                    {"id": 1,
-                                     "name": "Group 2",
-                                     "version": 1}]}
-                        {"id": 1,
-                         "name": "Name of Group Configuration 2",
-                         "description": "Description of Group Configuration 2.",
-                         "version": 1,
-                         "groups": [{"id": 0,
-                                     "name": "Group 1",
-                                     "version": 1},
-                                    {"id": 1,
-                                     "name": "Group 2",
-                                     "version": 1}
-                                     {"id": 2,
-                                     "name": "Group 3",
-                                     "version": 1}
-                                     ]}
-                       ]
-
-.. note:: 
-  As this example shows, each group configuration is independent.  Group IDs
-  and names must be unique within a group configuration, but not across all
-  group configurations in your course.
+.. include:: ../../../shared/subsections/content_experiments_policies.rst
