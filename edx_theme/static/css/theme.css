@@ -409,7 +409,7 @@ ul.icons li .icon-large:before, ul.icons li .icon-large:before {
 	content: "\f014"
 }
 .icon-home:before {
-	content: "\f015"
+	content:url('edx-logo-header.png')
 }
 .icon-file-alt:before {
 	content: "\f016"
