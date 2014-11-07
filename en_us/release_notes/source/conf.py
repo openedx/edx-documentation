@@ -39,6 +39,10 @@ if not on_rtd:  # only import and set the theme if we're building docs locally
 html_static_path = ["."]
 html_static_path.append('_static')
 
+# Add any paths that contain templates here, relative to this directory.
+templates_path = ["."]
+templates_path.append('_templates')
+
 
 # General information about the project.
 project = u'edX Course Staff Release Notes'
