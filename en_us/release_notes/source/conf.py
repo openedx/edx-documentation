@@ -25,6 +25,7 @@ master_doc = 'index'
 #if not on_rtd:  # only import and set the theme if we're building docs locally
 html_theme = 'edx_theme'
 html_theme_path = ["../.."]
+html_style = '../../edx_theme/static/css/theme.css'
 
 # General information about the project.
 project = u'edX Course Staff Release Notes'
