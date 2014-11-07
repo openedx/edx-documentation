@@ -22,9 +22,9 @@ master_doc = 'index'
 # so a file named "default.css" will overwrite the builtin "default.css".
 #html_static_path.append('source/_static')
 
-if not on_rtd:  # only import and set the theme if we're building docs locally
-    html_theme = 'edx_theme'
-    html_theme_path = ["../.."]
+#if not on_rtd:  # only import and set the theme if we're building docs locally
+html_theme = 'edx_theme'
+html_theme_path = ["../.."]
 
 # General information about the project.
 project = u'edX Course Staff Release Notes'
