@@ -7,7 +7,7 @@ import sys, os
 on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 
 
-html_theme = 'default'
+html_theme = 'nature'
 #html_theme_path = ["../../.."]
 
 
