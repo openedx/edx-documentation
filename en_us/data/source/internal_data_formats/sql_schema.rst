@@ -628,16 +628,17 @@ is_active
 -----------
   Boolean indicating whether this enrollment is active. If an enrollment is not active, a student is not enrolled in that course. For example, if a student decides to unenroll from the course, ``is_active`` is set to 0 (false). The student's state in ``courseware_studentmodule`` is untouched, so courseware state is not lost if a student unenrolls and then re-enrolls.  
 
-  ``is_active`` can also be set to 0 if a student begins the process of enrolling in a course by purchasing a verified certificate, but then abandond the shopping cart before completing the purchase (and the enrollment).
+  ``is_active`` can also be set to 0 if a student begins the process of enrolling in a course by purchasing a verified certificate, but then abandons the shopping cart before completing the purchase (and the enrollment).
 
   **History**: This column was introduced in the 20 Aug 2013 release. Before this release, unenrolling a student simply deleted the row in ``student_courseenrollment``.
 
 ------
 mode
 ------
-  String indicating what kind of enrollment this is: blank, audit, honor, or verified. 
+  String indicating what kind of enrollment this is: audit, honor,
+  professional, verified, or blank.
 
-  **History**: All enrollments prior to 20 Aug 2013 are "honor". 
+  **History**: All enrollments prior to 20 Aug 2013 are "honor". The "professional" value was added for courses on edx.org on %% 2014.
 
   .. _user_api_usercoursetag:
 
