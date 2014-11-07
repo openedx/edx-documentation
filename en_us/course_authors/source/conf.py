@@ -7,8 +7,8 @@ import sys, os
 on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 
 
-html_theme = 'edx_theme'
-html_theme_path = ["../../.."]
+html_theme = 'default'
+#html_theme_path = ["../../.."]
 
 
 sys.path.append(os.path.abspath('../../../'))
