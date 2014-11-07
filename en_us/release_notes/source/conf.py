@@ -23,9 +23,8 @@ master_doc = 'index'
 #html_static_path.append('source/_static')
 
 if not on_rtd:  # only import and set the theme if we're building docs locally
-    import sphinx_rtd_theme
-    html_theme = 'sphinx_rtd_theme'
-    html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
+    html_theme = 'edx_theme'
+    html_theme_path = ["../.."]
 
 # General information about the project.
 project = u'edX Course Staff Release Notes'
