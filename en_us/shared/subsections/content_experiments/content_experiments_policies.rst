@@ -1,11 +1,13 @@
-.. _Group Configuration for Content Experiments:
+.. Section is shared in CA and OLX guides
 
-############################################
-Group Configuration for Content Experiments
-############################################
+.. _Set Up Group Configuration for OLX Courses:
+
+************************************************
+Set Up Group Configuration for OLX Courses
+************************************************
 
 You define group configurations in the ``policy.json`` file in the ``policies``
-directory.
+directory of an OLX course.
 
 To specify group configurations, you modify the value for the
 ``user_partitions`` policy key.

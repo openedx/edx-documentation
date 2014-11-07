@@ -10,6 +10,5 @@ Use the chapters in this section to define policies for your course.
    :maxdepth: 2
 
    course
-   content-experiments
    grading
    assets-policy
