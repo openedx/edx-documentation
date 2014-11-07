@@ -2,7 +2,7 @@
 #
 
 import sys, os
-from path import path
+#from path import path
 
 sys.path.append('../../../../')
 
