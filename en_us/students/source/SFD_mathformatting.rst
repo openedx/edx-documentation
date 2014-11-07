@@ -1,20 +1,25 @@
 .. _Math Formatting:
 
 #####################################################################
-Student Guide to Entering Mathematical and Scientific Expressions
+Entering Mathematical and Scientific Expressions
 #####################################################################
 
 For some math, science, and other problems, you'll enter a numerical or math expression, such as a formula, into a response field. You enter your response as plain text, and the edX system then converts your text into numbers and symbols that appear below the response field:
 
-.. image:: /Images/Math4.png
- :alt: Image of a numerical input probem rendered by the parser
 .. image:: /Images/Math5.png
+ :width: 150
  :alt: Image of a numerical input probem rendered by the parser
 .. image:: /Images/Math3.png
+ :width: 150
  :alt: Image of a numerical input probem rendered by the parser
 .. image:: /Images/Math2.png
+ :width: 150
  :alt: Image of a numerical input probem rendered by the parser
 .. image:: /Images/Math1.png
+ :width: 150
+ :alt: Image of a numerical input probem rendered by the parser
+.. image:: /Images/Math4.png
+ :width: 150
  :alt: Image of a numerical input probem rendered by the parser
 
 You may recognize parts of this system if you've used math programs before. 
@@ -27,16 +32,26 @@ When you enter your plain text into the response field, follow these guidelines:
 
 * Use standard arithmetic operation symbols: the plus sign (+), minus sign (-), multiplication sign (*), and division sign (/).
 * Indicate multiplication explicitly. That is, instead of ``mc^2`` type ``m*c^2``, and instead of ``5a+4b+3c`` type ``5*a+4*b+3*c``.
-* Use parentheses to specify the order of operations and to make your expression as clear as possible.
+* Use parentheses to specify the order of operations and to make your expression as clear as possible. However, only use curved parentheses (``()``). Don't use brackets (``[]``) or braces (``{}``).
 * Use a caret (^) to indicate an exponent.
 * Use an underscore (_) to indicate a subscript.
 * Avoid whitespace.
 * Don't use equal signs (=).
 * Because the system is case-sensitive, make sure you use uppercase and lowercase letters carefully.
-* Only use curved parentheses. Don't use brackets ([]) or braces ({}).
 
 For more information about the types of characters you can use, see below.
 
+.. note:: The edX system accepts both constants and metric affixes. Be careful to distinguish between constants and metric affixes. Constants stand alone, while metric affixes must be combined with numbers.
+
+  For example, ``c`` can be a constant representing the speed of light or a metric affix meaning "centi". When you use ``c`` as a metric affix, join ``c`` with the number. When you use ``c`` as a constant, indicate multiplication explicitly. The following examples show the difference:
+
+  * ``2c`` = ``0.02`` (2 multiplied by 0.01)
+  * ``2*c`` = ``599584916.0`` (the speed of light multiplied by 2)
+
+  * ``2M`` = ``2,000,000`` (2 multiplied by 1,000,000)
+  * ``2*M`` = 2 multiplied by the variable M
+
+  For more information, see :ref:`Scientific Notation` or :ref:`Constants`.
 
 ============
 Numbers
@@ -52,66 +67,127 @@ You can use the following types of numbers:
 The largest number you can use is **1.7977e+308**, which is the largest float
 possible in the Python programming language. 
 
-====================================
-Scientific Notation and Affixes
-====================================
+.. _Scientific Notation:
 
-To indicate scientific notation, enter the letter ``e`` and the exponent that you want. You can enter positive exponents as well as negative exponents. If you enter a negative exponent, make sure to include a minus sign.
+======================================
+Scientific Notation and Metric Affixes
+======================================
 
-For example, type ``0.012`` as ``1.2e-2`` and ``-440,000`` as ``-4.4e+5`` or ``-4.4e5``.
+You can enter metric affixes or scientific notation to indicate very large or
+very small numbers. For scientific notation, you can type either a caret (^) or
+the letter ``e`` followed by a number to indicate an exponent. You can use both
+positive and negative exponents.
 
-You can also use the following International System of Units (SI) affixes: 
+For example, to indicate ``0.012``, you can enter either of the following expressions:
+
+* ``1.2^-2``
+* ``1.2e-2``
+
+To indicate ``-440,000``, you can enter either of the following expressions:
+
+* ``-4.4^5``
+* ``-4.4e5``
+
+The following table shows how to enter numbers with metric affixes, with scientific notation, and with ``e`` notation. 
 
 .. list-table::
+  :header-rows: 1
 
-  * - Affix
-    - Stands for
-    - Example
-  * - %
-    - percent
-    - 0.01 = 1e-2
-  * - k
-    - kilo
-    - 1000 = 1e3
-  * - M
-    - mega
-    - 1e6
-  * - G
-    - giga
-    - 1e9
-  * - T
-    - tera
-    - 1e12
-  * - c
-    - centi
-    - 0.01 = 1e-2
-  * - m
-    - milli
-    - 0.001 = 1e-3
-  * - u
-    - micro
+  * - To enter this number
+    - Use this metric affix
+    - Use this scientific notation
+    - Use this ``e`` notation
+    - Other notation
+  * - 0.1
+    - 1d (deci)
+    - 10^-1
+    - 1e-1
+    - 
+  * - 0.01
+    - 1c (centi)
+    - 10^-2
+    - 1e-2
+    - 1% (percent)
+  * - 0.001
+    - 1m (milli)
+    - 10^-3
+    - 1e-3
+    - 
+  * - 0.000001
+    - 1u (micro)
+    - 10^-6
     - 1e-6
-  * - n
-    - nano
+    - 
+  * - 0.000000001
+    - 1n (nano)
+    - 10^-9
     - 1e-9
-  * - p
-    - pico
+    - 
+  * - 0.000000000001
+    - 1p (pico)
+    - 10^-12
     - 1e-12
+    - 
+  * - 1000
+    - 1k (kilo)
+    - 10^3
+    - 1e3
+    - 
+  * - 1,000,000
+    - 1M (mega)
+    - 10^6
+    - 1e6
+    - 
+  * - 1,000,000,000
+    - 1G (giga)
+    - 10^9
+    - 1e9
+    - 
+  * - 1,000,000,000,000
+    - 1T (tera)
+    - 10^12
+    - 1e12
+    - 
+
+.. note:: When you use metric affixes or ``e`` notation, make sure you do not include spaces between the number and the metric affix or the ``e``.
+
+.. _Constants:
 
 ============
 Constants
 ============
 
-You can use the following constants:
+You can use several different constants in your mathematical expressions.
 
-- ``i`` and ``j`` as ``sqrt(-1)``
-- ``e`` as Euler's number (2.718...)
-- ``g``: gravity (9.80 m/s^2)
-- ``pi``
-- ``k``: the Boltzmann constant (~1.38e-23 in Joules/Kelvin)
-- ``c``: the speed of light in m/s (2.998e8)
-- ``T``: the positive difference between 0K and 0°C (273.15)
-- ``q``: the fundamental charge (~1.602e-19 Coloumbs)
+.. note:: When you enter constants multiplied by a number, make sure to indicate the multiplication explicitly. For example, enter ``2*c`` instead of ``2c`` and ``-4*i`` instead of ``-4i``.
+
+.. Should I include another example in the note?
+
+
+.. list-table::
+  :widths: 10 60
+  :header-rows: 1
+
+  * - Constant
+    - Value
+  * - ``c`` 
+    - The speed of light in m/s (2.998^8)
+  * - ``e``
+    - Euler's number (2.718...)
+  * - ``g``
+    - Gravity (9.80 m/s^2)
+  * - ``i``
+    - The square root of -1
+  * - ``j``
+    - The square root of -1
+  * - ``k``
+    - The Boltzmann constant (~1.38^-23 in Joules/Kelvin)
+  * - ``pi``
+    - The ratio of a circle's circumference to its diameter (3.14159...)
+  * - ``q``
+    - The fundamental charge (~1.602^-19 Coloumbs)
+  * - ``T``
+    - The positive difference between 0K and 0°C (273.15)
 
 ==================
 Greek Letters
@@ -159,13 +235,53 @@ To use any of the following Greek letters, type the name of the letter in the re
 Functions
 ============
 
-To use a function, type the letters that represent the function, and then surround the expression in that function with parentheses. For example, to represent the square root of ``4*a+b``, type ``sqrt(4*a+b)``. 
+To use a function, type the letters that represent the function, and then
+surround the expression in that function with parentheses. For example, to
+represent the square root of ``4*a+b``, type ``sqrt(4*a+b)``.
 
 You can use the following functions:
 
-* Common functions: sqrt, log10, log2, ln, exp, abs
-* Trigonometric functions: sin, cos, tan, sec, csc, cot
-* Their inverses: arcsin, arccos, arctan, arcsec, arccsc, arccot
-* Hyperbolic trigonometric functions and their inverses: sinh, cosh, tanh, sech, csch, coth, arcsinh, arccosh, arctanh, arcsech, arccsch, arccoth
-* Factorials: Enter factorials as ``fact(3)`` or ``factorial(3)``. You must use integers. For example, you can't enter ``fact(1.5)``.
-* A "parallel resistors" operator (``||``). For example, ``1 || 2`` represents the resistance of a pair of parallel resistors (of resistance 1 and 2 ohms), evaluating to 2/3 (ohms).
+* Common functions 
+
+  * sqrt
+  * log10
+  * log2
+  * ln
+  * exp
+  * abs
+
+* Trigonometric functions and their inverses
+
+  * sin 
+  * cos
+  * tan
+  * sec
+  * csc
+  * cot
+  * arcsin
+  * arccos
+  * arctan
+  * arcsec
+  * arccsc
+  * arccot
+
+* Hyperbolic trigonometric functions and their inverses
+
+  * sinh
+  * cosh
+  * tanh
+  * sech
+  * csch
+  * coth
+  * arcsinh
+  * arccosh
+  * arctanh
+  * arcsech
+  * arccsch
+  * arccoth
+
+* Factorials: Enter factorials as ``fact(3)`` or ``factorial(3)``. You must use
+  integers. For example, you can't enter ``fact(1.5)``.
+* A "parallel resistors" operator (``||``). For example, ``1 || 2`` represents
+  the resistance of a pair of parallel resistors (of resistance 1 and 2 ohms),
+  evaluating to 2/3 (ohms).

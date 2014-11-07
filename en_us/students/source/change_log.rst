@@ -2,9 +2,7 @@
 Change Log
 ############
        
-*****************
-October 2014
-*****************
+
 
 .. list-table::
    :widths: 10 70
@@ -12,9 +10,9 @@ October 2014
 
    * - Date
      - Change
-   * - 10/28/14
-     - Added :ref:`Introduction` section
+   * - 11/6/14
+     - Updated :ref:`Scientific Notation` and :ref:`Constants` in :ref:`Math Formatting`.
    * - 10/24/14
-     - Added :ref:`Course Discussions` section
+     - Added :ref:`Course Discussions` section.
 
 .. _Preface: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/
