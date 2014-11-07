@@ -638,7 +638,8 @@ mode
   String indicating what kind of enrollment this is: audit, honor,
   professional, verified, or blank.
 
-  **History**: All enrollments prior to 20 Aug 2013 are "honor". The "professional" value was added for courses on edx.org on %% 2014.
+  **History**: All enrollments prior to 20 Aug 2013 are "honor". The
+  "professional" value was added for courses on edx.org on 29 September 2014.
 
   .. _user_api_usercoursetag:
 
