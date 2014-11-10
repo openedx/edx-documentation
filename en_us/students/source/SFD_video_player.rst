@@ -1,4 +1,4 @@
-.. _The edX Video Player:
+.. _Video Player:
 
 #####################
 The edX Video Player
@@ -32,7 +32,14 @@ an explanation of each option or control on the video player.
    has a high-definition option.
 8. **Show transcript control**: You can show or hide the scrolling transcript to the
    right of the video by selecting this control. 
-9. **Transcript**: The transcript for the video plays by default when your video
+9. **Download video option**: This option allows you to download the video to
+   watch later. You only see this option if the video is available for download.
+10. **Download transcript option**: This option allows you to download a copy of
+    the video's transcript. You can download the transcript as a SubRip (.srt)
+    file or as a text (.txt) file. You can open files of both types in a text
+    editor such as Notepad. You only see this option if the transcript is
+    available for download.
+11. **Transcript**: The transcript for the video plays by default when your video
    starts. You can scroll through the transcript and click on any word to go to
    that point in the video.
 
