@@ -39,9 +39,10 @@ an explanation of each option or control on the video player.
     file or as a text (.txt) file. You can open files of both types in a text
     editor such as Notepad. You only see this option if the transcript is
     available for download.
-11. **Transcript**: The transcript for the video plays by default when your video
-   starts. You can scroll through the transcript and click on any word to go to
-   that point in the video.
+11. **Transcript**: The transcript for the video plays by default when your
+    video starts. You can scroll through the transcript and click on any word to
+    go to that point in the video.
+
 
 For a demonstration of the edX video player, see `Videos on edX <https://courses.edx.org/courses/edX/DemoX.1/2014/courseware/0af8db2309474971bfa70cda98668a30/ec3364075f2845baa625bfecd5970410/2>`_ in the `edX DemoX.1 course <https://www.edx.org/course/edx/edx-demox-1-demox-4116#.VF0M3_TF-2w>`_.
 
