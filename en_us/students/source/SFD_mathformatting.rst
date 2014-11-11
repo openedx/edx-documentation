@@ -4,7 +4,10 @@
 Entering Mathematical and Scientific Expressions
 #####################################################################
 
-For some math, science, and other problems, you'll enter a numerical or math expression, such as a formula, into a response field. You enter your response as plain text, and the edX system then converts your text into numbers and symbols that appear below the response field:
+For some math, science, and other problems, you'll enter a numerical or math
+expression, such as a formula, into a response field. You enter your response as
+plain text, and the edX system then converts your text into numbers and symbols
+that appear below the response field:
 
 .. image:: /Images/Math5.png
  :width: 150
@@ -22,28 +25,65 @@ For some math, science, and other problems, you'll enter a numerical or math exp
  :width: 150
  :alt: Image of a numerical input probem rendered by the parser
 
-You may recognize parts of this system if you've used math programs before. 
+
+Additionally, some edX courses have a built-in calculator tool that you can use
+while you work through the course. If the course has a calculator, the
+calculator appears as a small icon in the lower-right corner of all pages in the
+courseware.
+
+.. image:: /Images/Calc_Locate.png
+  :width: 600
+  :alt: Courseware page with an arrow pointing to the calculator
+
+When you select the icon, the calculator opens along the lower edge of the
+browser window. You can close the calculator by selecting the X just above the
+upper-right corner of the calculator.
+
+.. image:: /Images/Calc_Showing.png
+  :width: 600
+  :alt: Courseware page with the calculator visible along the edge of the browser
+
+Both the calculator and the response fields in math problems accept a selection
+of characters that represent numbers, operators, constants, functions, and other
+mathematical concepts. You may recognize parts of this system if you've used
+math programs before.
+
+.. note:: You can select the circled ``i`` icon on the right side of the 
+  calculator input field to see a pop-up hint that has an abbreviated list of
+  these characters.
 
 ****************************
 Entering Math Expressions
 ****************************
 
-When you enter your plain text into the response field, follow these guidelines:
+When you enter your plain text into the calculator or the response field, follow
+these guidelines:
 
-* Use standard arithmetic operation symbols: the plus sign (+), minus sign (-), multiplication sign (*), and division sign (/).
-* Indicate multiplication explicitly. That is, instead of ``mc^2`` type ``m*c^2``, and instead of ``5a+4b+3c`` type ``5*a+4*b+3*c``.
-* Use parentheses to specify the order of operations and to make your expression as clear as possible. However, only use curved parentheses (``()``). Don't use brackets (``[]``) or braces (``{}``).
+* Use standard arithmetic operation symbols: the plus sign (+), minus sign (-),
+  multiplication sign (*), and division sign (/).
+* Indicate multiplication explicitly. That is, instead of ``mc^2`` type
+  ``m*c^2``, and instead of ``5a+4b+3c`` type ``5*a+4*b+3*c``.
+* Use parentheses to specify the order of operations and to make your expression
+  as clear as possible. However, only use curved parentheses (``()``). Don't use
+  brackets (``[]``) or braces (``{}``).
 * Use a caret (^) to indicate an exponent.
 * Use an underscore (_) to indicate a subscript.
 * Avoid whitespace.
 * Don't use equal signs (=).
-* Because the system is case-sensitive, make sure you use uppercase and lowercase letters carefully.
+* Because the system is case-sensitive, make sure you use uppercase and
+  lowercase letters carefully.
 
 For more information about the types of characters you can use, see below.
 
-.. note:: The edX system accepts both constants and metric affixes. Be careful to distinguish between constants and metric affixes. Constants stand alone, while metric affixes must be combined with numbers.
+.. note:: The edX system accepts both constants and metric affixes. Be 
+  careful to distinguish between constants and metric affixes. Constants stand
+  alone, while metric affixes must be combined with numbers.
 
-  For example, ``c`` can be a constant representing the speed of light or a metric affix meaning "centi". When you use ``c`` as a metric affix, join ``c`` with the number. When you use ``c`` as a constant, indicate multiplication explicitly. The following examples show the difference:
+  For example, ``c`` can be a constant representing the speed of light or a
+  metric affix meaning "centi". When you use ``c`` as a metric affix, don't
+  include a space between ``c`` and the number. When you use ``c`` as a
+  constant, indicate multiplication explicitly. The following examples show the
+  difference:
 
   * ``2c`` = ``0.02`` (2 multiplied by 0.01)
   * ``2*c`` = ``599584916.0`` (the speed of light multiplied by 2)
@@ -88,7 +128,8 @@ To indicate ``-440,000``, you can enter either of the following expressions:
 * ``-4.4^5``
 * ``-4.4e5``
 
-The following table shows how to enter numbers with metric affixes, with scientific notation, and with ``e`` notation. 
+The following table shows how to enter numbers with metric affixes, with
+scientific notation, and with ``e`` notation.
 
 .. list-table::
   :header-rows: 1
@@ -149,7 +190,8 @@ The following table shows how to enter numbers with metric affixes, with scienti
     - 1e12
     - 
 
-.. note:: When you use metric affixes or ``e`` notation, make sure you do not include spaces between the number and the metric affix or the ``e``.
+.. note:: When you use metric affixes or ``e`` notation, make sure you do not 
+  include spaces between the number and the metric affix or the ``e``.
 
 .. _Constants:
 
@@ -159,7 +201,9 @@ Constants
 
 You can use several different constants in your mathematical expressions.
 
-.. note:: When you enter constants multiplied by a number, make sure to indicate the multiplication explicitly. For example, enter ``2*c`` instead of ``2c`` and ``-4*i`` instead of ``-4i``.
+.. note:: When you enter constants multiplied by a number, make sure to 
+  indicate the multiplication explicitly. For example, enter ``2*c`` instead of
+  ``2c`` and ``-4*i`` instead of ``-4i``.
 
 .. Should I include another example in the note?
 
@@ -193,7 +237,8 @@ You can use several different constants in your mathematical expressions.
 Greek Letters
 ==================
 
-To use any of the following Greek letters, type the name of the letter in the response field.
+To use any of the following Greek letters, type the name of the letter in the
+calculator or the response field.
 
 .. list-table::
    :widths: 20 20 20 20
@@ -228,7 +273,8 @@ To use any of the following Greek letters, type the name of the letter in the re
      - 
      - 
 
-.. note:: ``epsilon`` is the lunate version, whereas ``varepsilon`` looks like a backward 3.
+.. note:: ``epsilon`` is the lunate version, whereas ``varepsilon`` looks 
+  like a backward 3.
 
 
 ============
