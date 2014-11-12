@@ -423,6 +423,8 @@ This setting has the following options.
 
 .. note:: The edX Platform has a 20-seed limit for randomization.
 
+.. _Show Answer:
+
 ===============
 Show Answer
 ===============
@@ -436,12 +438,31 @@ This setting has the following options.
 |                   | button.                              |
 +-------------------+--------------------------------------+
 | **Answered**      | Show the answer after the student    |
-|                   | has submitted her final answer.      |
+|                   | tries to answer the problem.         |
+|                   |                                      |
+|                   | If the question can be, and is,      |
+|                   | reset, the answer                    |
+|                   | is not shown until the student tries |
+|                   | the problem again. (When a student   |
+|                   | answers a question, the question is  |
+|                   | considered to be                     |
+|                   | both attempted and answered. When    |
+|                   | the question is reset, the question  |
+|                   | is still attempted, but not yet      |
+|                   | answered.)                           |
 +-------------------+--------------------------------------+
 | **Attempted**     | Show the answer after the student    |
-|                   | has tried to answer the problem one  |
-|                   | time, whether or not the student     |
-|                   | answered the problem correctly.      |
+|                   | tries to answer the problem.         |
+|                   |                                      |
+|                   | If the question can be, and is,      |
+|                   | reset, the answer                    |
+|                   | *continues to show*.                 |
+|                   | (When a student answers a question,  |
+|                   | the question is considered to be     |
+|                   | both attempted and                   |
+|                   | answered. When the question is       |
+|                   | reset, the question is still         |
+|                   | attempted, but not yet answered.)    |
 +-------------------+--------------------------------------+
 | **Closed**        | Show the answer after the student    |
 |                   | has used up all his attempts to      |
