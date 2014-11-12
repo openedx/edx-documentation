@@ -650,11 +650,6 @@ mode
   String indicating what kind of enrollment this is: audit, honor,
   professional, verified, or blank.
 
-  .. note:: As a result of an error that was introduced and resolved in 2013, 
-    a small number of student enrollments (approximately 10) have the ``mode``
-    set to a blank string. In edX Insights, these enrollments are counted as
-    honor code enrollments.
-
   **History**: All enrollments prior to 20 Aug 2013 are "honor". The
   "professional" value was added for courses on edx.org on 29 Sep 2014.
 
