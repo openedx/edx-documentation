@@ -22,7 +22,7 @@ master_doc = 'index'
 # so a file named "default.css" will overwrite the builtin "default.css".
 #html_static_path.append('source/_static')
 
-
+html_style = 'default'
 html_theme = 'edx_theme'
 html_theme_path = ["../.."]
 
