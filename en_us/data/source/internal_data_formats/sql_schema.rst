@@ -560,13 +560,17 @@ city
 Columns in the student_courseenrollment Table
 ==============================================
 
-A row in this table represents a student's enrollment for a particular course run. 
+A row in this table represents a student's enrollment for a particular course
+run.
 
-.. note:: A row is created for every student who starts the enrollment process, even if they never complete registration.
+.. note:: A row is created for every student who starts the enrollment 
+  process, even if they never complete registration.
 
-**History**: As of 20 Aug 2013, this table retains the records of students who unenroll. Records are no longer deleted from this table.
+**History**: As of 20 Aug 2013, this table retains the records of students who
+unenroll. Records are no longer deleted from this table.
 
-A sample of the heading row and a data row in the ``student_courseenrollment`` table follow.
+A sample of the heading row and a data row in the ``student_courseenrollment``
+table follow.
 
 .. code-block:: sql
 
@@ -626,11 +630,19 @@ created
 -----------
 is_active
 -----------
-  Boolean indicating whether this enrollment is active. If an enrollment is not active, a student is not enrolled in that course. For example, if a student decides to unenroll from the course, ``is_active`` is set to 0 (false). The student's state in ``courseware_studentmodule`` is untouched, so courseware state is not lost if a student unenrolls and then re-enrolls.  
+  Boolean indicating whether this enrollment is active. If an enrollment is not
+  active, a student is not enrolled in that course. For example, if a student
+  decides to unenroll from the course, ``is_active`` is set to 0 (false). The
+  student's state in ``courseware_studentmodule`` is untouched, so courseware
+  state is not lost if a student unenrolls and then re-enrolls.
 
-  ``is_active`` can also be set to 0 if a student begins the process of enrolling in a course by purchasing a verified certificate, but then abandons the shopping cart before completing the purchase (and the enrollment).
+  ``is_active`` can also be set to 0 if a student begins the process of
+  enrolling in a course by purchasing a verified certificate, but then abandons
+  the shopping cart before completing the purchase (and the enrollment).
 
-  **History**: This column was introduced in the 20 Aug 2013 release. Before this release, unenrolling a student simply deleted the row in ``student_courseenrollment``.
+  **History**: This column was introduced in the 20 Aug 2013 release. Before
+  this release, unenrolling a student simply deleted the row in
+  ``student_courseenrollment``.
 
 ------
 mode
@@ -638,8 +650,13 @@ mode
   String indicating what kind of enrollment this is: audit, honor,
   professional, verified, or blank.
 
+  .. note:: As a result of an error that was introduced and resolved in 2013, 
+    a small number of student enrollments (approximately 10) have the ``mode``
+    set to a blank string. In edX Insights, these enrollments are counted as
+    honor code enrollments.
+
   **History**: All enrollments prior to 20 Aug 2013 are "honor". The
-  "professional" value was added for courses on edx.org on 29 September 2014.
+  "professional" value was added for courses on edx.org on 29 Sep 2014.
 
   .. _user_api_usercoursetag:
 
@@ -647,7 +664,10 @@ mode
 Columns in the user_api_usercoursetag Table
 ============================================
 
-This table uses key-value pairs to store metadata about a specific student's involvement in a specific course. For example, for a course that assigns students to groups randomly for A/B testing, a row in this table identifies the student's assignment to a partition and group.
+This table uses key-value pairs to store metadata about a specific student's
+involvement in a specific course. For example, for a course that assigns
+students to groups randomly for A/B testing, a row in this table identifies the
+student's assignment to a partition and group.
 
 **History**: Added 7 Mar 2014.
 
