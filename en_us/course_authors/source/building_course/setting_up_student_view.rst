@@ -97,17 +97,22 @@ The Course Start Date
  you intend it to. You must change the course start date to the date you want
  students to begin using the course.
 
-Students see the course start date and time on their **Current Courses** dashboards and
-on the course summary page. 
+Students see the course start date and time on their **Current Courses**
+dashboards and on the course About page (sometimes also called the course
+summary page). Students can see some parts of the course before the course start
+date. For example, students can see your **Course Info** page and course-wide
+discussion topics as soon as they enroll in your course. For more information
+about course-wide discussion topics, see :ref:`Create CourseWide Discussion
+Topics`.
 
 The following example shows the course start date and time on the course summary page:
 
 .. image:: ../Images/about-page-course-start.png
- :alt: An image of the course summary page, with the start date circled.
+ :alt: An image of the course About page, with the start date circled.
 
-.. note:: For courses on edX.org_, you must communicate the course start date and time to
- your edX Program Manager to ensure the date is accurate on the course
- summary page.
+.. note:: For courses on edX.org_, you must communicate the course start 
+  date and time to your edX program manager to ensure the date is accurate on
+ the course About page.
 
 In the dashboard, students see the start dates and times for each of their
 courses, as in the following examples.
@@ -116,7 +121,9 @@ courses, as in the following examples.
  :width: 600
  :alt: An image of two courses in the student dashboard, with the start dates and times circled.
 
-.. note:: If you do not specify a start time for your course, students see the default start time, 00:00 Coordinated Universal Time (UTC).
+.. note:: If you do not specify a start time for your course, students see
+   the default start time, 00:00 Coordinated Universal Time (UTC).
+
 
 
 

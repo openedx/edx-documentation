@@ -15,6 +15,10 @@ November, 2014
    * - 11/12/14
      - Corrected the description of the :ref:`Show Answer` setting for
        problems.
+   * - 
+     - Added note that students can see the **Course Info** page and course-wide
+       discussion topics as soon as they enroll in a course to :ref:`The Course
+       Start Date`.
    * - 11/07/14
      - Added a caution that content experiments are only supported within
        verticals, in :ref:`Add a Content Experiment in OLX`.
