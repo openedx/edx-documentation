@@ -262,4 +262,4 @@ contains the content experiment.
 
 .. include:: ../../../shared/subsections/content_experiments/content_experiments_group_modify_guidelines.rst
 
-include:: ../../../shared/subsections/content_experiments/content_experiments_policies.rst
+.. include:: ../../../shared/subsections/content_experiments/content_experiments_policies.rst
