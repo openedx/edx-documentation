@@ -560,13 +560,17 @@ city
 Columns in the student_courseenrollment Table
 ==============================================
 
-A row in this table represents a student's enrollment for a particular course run. 
+A row in this table represents a student's enrollment for a particular course
+run.
 
-.. note:: A row is created for every student who starts the enrollment process, even if they never complete registration.
+.. note:: A row is created for every student who starts the enrollment 
+  process, even if they never complete registration.
 
-**History**: As of 20 Aug 2013, this table retains the records of students who unenroll. Records are no longer deleted from this table.
+**History**: As of 20 Aug 2013, this table retains the records of students who
+unenroll. Records are no longer deleted from this table.
 
-A sample of the heading row and a data row in the ``student_courseenrollment`` table follow.
+A sample of the heading row and a data row in the ``student_courseenrollment``
+table follow.
 
 .. code-block:: sql
 
@@ -626,18 +630,34 @@ created
 -----------
 is_active
 -----------
-  Boolean indicating whether this enrollment is active. If an enrollment is not active, a student is not enrolled in that course. For example, if a student decides to unenroll from the course, ``is_active`` is set to 0 (false). The student's state in ``courseware_studentmodule`` is untouched, so courseware state is not lost if a student unenrolls and then re-enrolls.  
+  Boolean indicating whether this enrollment is active. If an enrollment is not
+  active, a student is not enrolled in that course. For example, if a student
+  decides to unenroll from the course, ``is_active`` is set to 0 (false). The
+  student's state in ``courseware_studentmodule`` is untouched, so courseware
+  state is not lost if a student unenrolls and then re-enrolls.
 
-  ``is_active`` can also be set to 0 if a student begins the process of enrolling in a course by purchasing a verified certificate, but then abandond the shopping cart before completing the purchase (and the enrollment).
+  ``is_active`` can also be set to 0 if a student begins the process of
+  enrolling in a course by purchasing a verified certificate, but then abandons
+  the shopping cart before completing the purchase (and the enrollment).
 
-  **History**: This column was introduced in the 20 Aug 2013 release. Before this release, unenrolling a student simply deleted the row in ``student_courseenrollment``.
+  **History**: This column was introduced in the 20 Aug 2013 release. Before
+  this release, unenrolling a student simply deleted the row in
+  ``student_courseenrollment``.
 
 ------
 mode
 ------
-  String indicating what kind of enrollment this is: blank, audit, honor, or verified. 
+  String indicating what kind of enrollment this is: audit, honor,
+  professional, verified, or blank.
 
-  **History**: All enrollments prior to 20 Aug 2013 are "honor". 
+  **History**: 
+
+  * All enrollments prior to 20 Aug 2013 are "honor", when the "audit" and
+    "verified" values were added.
+
+  * The "professional" value was added for courses on edx.org on 29 Sep 2014.
+
+  * The "audit" value was deprecated on 23 Oct 2014.
 
   .. _user_api_usercoursetag:
 
@@ -645,7 +665,10 @@ mode
 Columns in the user_api_usercoursetag Table
 ============================================
 
-This table uses key-value pairs to store metadata about a specific student's involvement in a specific course. For example, for a course that assigns students to groups randomly for A/B testing, a row in this table identifies the student's assignment to a partition and group.
+This table uses key-value pairs to store metadata about a specific student's
+involvement in a specific course. For example, for a course that assigns
+students to groups randomly for A/B testing, a row in this table identifies the
+student's assignment to a partition and group.
 
 **History**: Added 7 Mar 2014.
 
@@ -701,14 +724,19 @@ key
 ----
   Identifies an attribute of the course. 
 
-  For example, for a course that includes modules that are set up to perform A/B testing, the value in this column identifies a partition, or type of experiment. The key for the partition is in the format ``xblock.partition_service.partition_ID``, where ID is an integer.
+  For example, for a course that includes modules that are set up to perform
+  A/B testing, the value in this column identifies a partition, or type of
+  experiment. The key for the partition is in the format
+  ``xblock.partition_service.partition_ID``, where ID is an integer.
 
 ------
 value
 ------
   The content for the key that is set for a student. 
 
-  For example, for a course that includes modules that are set up to perform A/B testing, this column stores the group ID of the particular group the student is assigned to within the partition.
+  For example, for a course that includes modules that are set up to perform
+  A/B testing, this column stores the group ID of the particular group the
+  student is assigned to within the partition.
 
 .. _user_id_map:
 
@@ -716,7 +744,8 @@ value
 Columns in the user_id_map Table
 ==================================
 
-A row in this table maps a student's real user ID to an anonymous ID generated to obfuscate the student's identity.
+A row in this table maps a student's real user ID to an anonymous ID generated
+to obfuscate the student's identity.
 
 A sample of the heading row and a data row in the ``user_id_map`` table follow.
 
@@ -770,15 +799,37 @@ username
 Courseware Progress Data
 ************************
 
-Any piece of content in the courseware can store state and score in the ``courseware_studentmodule`` table. Grades and the user Progress page are generated by doing a walk of the course contents, searching for graded items, looking up a student's entries for those items in ``courseware_studentmodule`` via *(course_id, student_id, module_id)*, and then applying the grade weighting found in the course policy and grading policy files. Course policy files determine how much weight one problem has relative to another, and grading policy files determine how much categories of problems are weighted (for example, HW=50%, Final=25%, etc.).
+Any piece of content in the courseware can store state and score in the
+``courseware_studentmodule`` table. Grades and the user Progress page are
+generated by doing a walk of the course contents, searching for graded items,
+looking up a student's entries for those items in ``courseware_studentmodule``
+via *(course_id, student_id, module_id)*, and then applying the grade weighting
+found in the course policy and grading policy files. Course policy files
+determine how much weight one problem has relative to another, and grading
+policy files determine how much categories of problems are weighted (for
+example, HW=50%, Final=25%, etc.).
 
 ==================================
 About Modules
 ==================================
 
-It's important to understand what "modules" are in the context of our system, as the terminology can be confusing. For the conventions of this table and many parts of our code, a "module" is a content piece that appears in the courseware. This can be nearly anything that appears when users are in the courseware tab: a video, a piece of HTML, a problem, etc. Modules can also be collections of other modules, such as sequences, verticals (modules stacked together on the same page), weeks, chapters, etc. In fact, the course itself is a top level module that contains all the other contents of the course as children. You can imagine the entire course as a tree with modules at every node.
+It's important to understand what "modules" are in the context of our system,
+as the terminology can be confusing. For the conventions of this table and many
+parts of our code, a "module" is a content piece that appears in the
+courseware. This can be nearly anything that appears when users are in the
+courseware tab: a video, a piece of HTML, a problem, etc. Modules can also be
+collections of other modules, such as sequences, verticals (modules stacked
+together on the same page), weeks, chapters, etc. In fact, the course itself is
+a top level module that contains all the other contents of the course as
+children. You can imagine the entire course as a tree with modules at every
+node.
 
-Modules can store state, but whether and how they do so varies based on the implementation for that particular kind of module. When a user loads a page, the system looks up all the modules that need to be rendered in order to display it, and then asks the database to look up state for those modules for that user. If there is no corresponding entry for that user for a given module, a new row is created and the state is set to an empty JSON dictionary.
+Modules can store state, but whether and how they do so varies based on the
+implementation for that particular kind of module. When a user loads a page,
+the system looks up all the modules that need to be rendered in order to
+display it, and then asks the database to look up state for those modules for
+that user. If there is no corresponding entry for that user for a given module,
+a new row is created and the state is set to an empty JSON dictionary.
 
 .. _courseware_studentmodule:
 
@@ -786,9 +837,11 @@ Modules can store state, but whether and how they do so varies based on the impl
 Columns in the courseware_studentmodule Table
 ====================================================================
 
-The ``courseware_studentmodule`` table holds all courseware state for a given user. 
+The ``courseware_studentmodule`` table holds all courseware state for a given
+user.
 
-A sample of the heading row and a data row in the ``courseware_studentmodule`` table follow.
+A sample of the heading row and a data row in the ``courseware_studentmodule``
+table follow.
 
 .. code-block:: sql
 
@@ -798,8 +851,9 @@ A sample of the heading row and a data row in the ``courseware_studentmodule`` t
     33973858  course  i4x://edX/DemoX/course/Demo_course  96452 {"position": 3} NULL  
     2013-03-19 17:21:07 2014-01-07 20:18:54 NULL  na  edX/DemoX/Demo_course
 
-Students have a separate row for every piece of content that they access or that is created to hold state data, making this the largest table in the data package. 
-
+Students have a separate row for every piece of content that they access or
+that is created to hold state data, making this the largest table in the data
+package.
 
 The ``courseware_studentmodule`` table has the following columns:
 
@@ -832,7 +886,8 @@ The ``courseware_studentmodule`` table has the following columns:
 ----
 id
 ----
-  Primary key. Rarely used though, since most lookups on this table are searches on the three tuple of `(course_id, student_id, module_id)`.
+  Primary key. Rarely used though, since most lookups on this table are
+  searches on the three tuple of `(course_id, student_id, module_id)`.
 
 -------------
 module_type
