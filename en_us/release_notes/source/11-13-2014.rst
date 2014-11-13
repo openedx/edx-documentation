@@ -76,7 +76,7 @@ The following documentation is available:
   * Added the `edX Video Player`_ section.
 
   * Updated the scientific notation information and added calculator information
-    to `Math Formatting` topic.
+    to the `Math Formatting`_ topic.
 
 .. adding line for space
 
