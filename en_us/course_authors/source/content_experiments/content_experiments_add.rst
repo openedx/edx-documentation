@@ -34,9 +34,8 @@ To configure a content experiment in Studio, you:
 #. `Create the content experiment`_.
 #. `Create content for groups in the content experiment`_.
    
-After you configure a content experiment, you can `change the
-group configuration <Change the Group Configuration for a Content
-Experiment>`_.
+After you configure a content experiment, you can change its group
+configuration. See `Change the Group Configuration for a Content Experiment`_.
 
 ===============================
 Create the Content Experiment

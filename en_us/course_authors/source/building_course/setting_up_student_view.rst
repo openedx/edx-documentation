@@ -110,9 +110,10 @@ The following example shows the course start date and time on the course summary
 .. image:: ../Images/about-page-course-start.png
  :alt: An image of the course About page, with the start date circled.
 
-.. note:: For courses on edX.org_, you must communicate the course start 
-  date and time to your edX program manager to ensure the date is accurate on
- the course About page.
+.. note:: 
+ For courses on edX.org_, you must communicate the course start date and time
+  to your edX program manager to ensure the date is accurate on the course
+  About page.
 
 In the dashboard, students see the start dates and times for each of their
 courses, as in the following examples.
@@ -153,11 +154,11 @@ To set an advertised start date:
 
 4. Click **Save Changes** at the bottom of the page.
 
-  The start date shown on the dashboard is now the value of the **Course
-  Advertised Start Date** policy key:
+The start date shown on the dashboard is now the value of the **Course
+Advertised Start Date** policy key:
 
-  .. image:: ../Images/dashboard-course_adver_start.png
-   :alt: An image of a course listing in the student dashboard, with the
+.. image:: ../Images/dashboard-course_adver_start.png
+ :alt: An image of a course listing in the student dashboard, with the
      advertised start date circled.
 
 If you do not change the default course start date (01/01/2030), and the
