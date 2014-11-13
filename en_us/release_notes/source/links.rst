@@ -40,6 +40,8 @@
 
 .. _Student Guide to Course Discussions: http://edx-guide-for-students.readthedocs.org/en/latest/sfd_discussions/index.html
 
+.. _Math Formatting: http://edx-guide-for-students.readthedocs.org/en/latest/SFD_mathformatting.html
+
 .. Platform API guide links
 
 .. _edX Platform API Version 0.5: http://edx-platform-api.readthedocs.org/en/latest/index.html
@@ -50,6 +52,11 @@
 
 .. _Creating Exercises and Tools: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/index.html
 
+.. _Show Answer: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/creating_content/create_problem.html#show-answer
+
+.. _Add Content Experiments to Your Course: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/content_experiments/content_experiments_add.html
+
+.. _Add a Content Experiment in OLX: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/content_experiments/content_experiments_add.html#add-a-content-experiment-in-olx
 
 .. _edX Product and Engineering Newsletter: http://us5.campaign-archive2.com/?u=1822a33c054dc20e223ca40e2&id=090cb3ea4c&e=4a41f5542a
 
@@ -58,6 +65,8 @@
 .. _edX Release Announcements mailing list: http://eepurl.com/U84tj
 
 .. _edX Edge: https://edge.edx.org
+
+.. _edX Video Player: http://edx-guide-for-students.readthedocs.org/en/latest/SFD_video_player.html
 
 .. _edx.org: http://edx.org
 
@@ -91,6 +100,10 @@
 .. _edX Platform Developer's Guide: http://edx.readthedocs.org/projects/edx-developer-guide/en/latest/
 
 .. _edX Developer's Guide: http://edx.readthedocs.org/projects/edx-developer-guide/en/latest/
+
+.. _edx Modulestores: http://edx-developer-guide.readthedocs.org/en/latest/modulestores/index.html#edx-modulestores
+
+.. _Split Mongo Modulestore: http://edx-developer-guide.readthedocs.org/en/latest/modulestores/split-mongo.html#split-mongo-modulestore
 
 .. _Keys and Credentials for Data Transfers: http://edx.readthedocs.org/projects/devdata/en/latest/internal_data_formats/credentials.html
 
