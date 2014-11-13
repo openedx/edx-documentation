@@ -4,6 +4,22 @@ Change Log
 
 
 *****************
+November, 2014
+*****************
+
+.. list-table::
+   :widths: 10 70
+   :header-rows: 1
+
+   * - Date
+     - Change
+   * - 11/07/14
+     - Added additional information in the :ref:`Drag and Drop` chapter.
+   * - 11/07/14
+     - Added a caution that content experiments are only supported within
+       verticals, in :ref:`Add a Content Experiment in OLX`.
+
+*****************
 October, 2014
 *****************
 
