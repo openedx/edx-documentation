@@ -1,9 +1,9 @@
 ###################################
-November 12, 2014
+November 13, 2014
 ###################################
 
 The following information reflects what is new in the edX Platform as of
-November 12, 2014. See previous pages in this document for a history of changes.
+November 13, 2014. See previous pages in this document for a history of changes.
 
 ****************************************
 edX Release Announcements Mailing List
