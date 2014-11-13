@@ -14,7 +14,7 @@ October-December 2014
 
    * - Date
      - Change
-   * - 11/12/14
+   * - 11/13/14
      - Updated the ``student_courseenrollment.mode`` description.
    * - 11/5/14
      - Corrected descriptions for ``play_video`` and ``pause_video`` in
