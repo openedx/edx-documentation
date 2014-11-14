@@ -52,7 +52,9 @@ C
  
 **Certificate**
 
-  A document issued to a registered student who successfully completes a course. Not all edX courses offer certificates, and not all students register as certificate candidates.
+  A document issued to an enrolled student who successfully completes a course.
+  Not all edX courses offer certificates, and not all students enroll as
+  certificate candidates.
 
 
 

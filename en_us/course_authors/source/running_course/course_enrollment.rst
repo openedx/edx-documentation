@@ -79,7 +79,7 @@ When you enroll people in a course you have these options:
 * **Notify students by email**. When you choose this option, an email message is
   automatically sent to each of the email addresses that you supply. The message
   includes the name of the course and, for students who are not already
-  registered, a reminder to use that same email address to register.
+  enrolled, a reminder to use that same email address to enroll.
 
   An example of the email message that a student received when this option was
   selected during enrollment follows. In this example, the student already had a

@@ -59,8 +59,8 @@ of the students who are enrolled in your course provide it.
  .. image:: ../Images/Registration_page.png
    :alt: Fields that collect student information during registration
 
-Students then register for as many individual courses as they choose, which
-enrolls them in each selected course.
+Students then enroll in as many individual courses as they choose, which enrolls
+them in each selected course.
 
 You can access this self-reported information for all of the students who are
 enrolled in your course:
@@ -75,12 +75,11 @@ enrolled in your course:
 * goals
 
 The student data that is available to course staff always reflects the set of
-live, current enrollments. Students can register for your course throughout the
-defined enrollment period, and they can unregister from a course at any time,
-which unenrolls them. Students can also change their email addresses and full
-names at any time. As a result, you may want to download student data
-periodically to gain insights into how the student population changes over
-time.
+live, current enrollments. Students can enroll in your course throughout the
+defined enrollment period, and they can unenroll from a course at any time.
+Students can also change their email addresses and full names at any time. As a
+result, you may want to download student data periodically to gain insights into
+how the student population changes over time.
 
 .. note:: In the future, edX may also request that students select a language 
  and location. This data is not collected at this time.

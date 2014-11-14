@@ -119,15 +119,15 @@ To build your course, keep reading this document.
 View Your Course on edX.org
 ************************************
 
-If your organization has an agreement with edX and you have specific approval, you can create a course on edX. To see the content of your course as students will see it, you must register for your course. You can then view it on the LMS.
+If your organization has an agreement with edX and you have specific approval, you can create a course on edX. To see the content of your course as students will see it, you must enroll in your course. You can then view it on the LMS.
 
-#. Create your course and add content.
+#. In Studio, create your course and add content.
 
 #. On the **Course Outline** page, click the blue **View
    Live** button in the upper-right corner of your screen.
 
-   Your course registration page opens in a new tab on the LMS.
+   Your course enrollment page opens in a new tab on the LMS.
 
-#. Click the blue **Register** button to register for your course. After you register for your course, it opens in the LMS.
+#. Click the blue **Enroll** button to enroll in your course. After you enroll in your course, it opens in the LMS.
 
 #. To continue working on your course, in your browser, switch back to the tab that shows Studio. You will still be on the **Course Outline** page.
