@@ -12,6 +12,9 @@ November, 2014
 
    * - Date
      - Change
+   * - 11/14/14
+     - Added new documentation for :ref:`using the course wiki<Course_Wiki>`
+       in the :ref:`Running Your Course Index` chapter.
    * - 11/13/14
      - Added additional information in the :ref:`Drag and Drop` chapter.
    * - 11/12/14
