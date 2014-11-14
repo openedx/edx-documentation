@@ -6,7 +6,7 @@ Add Content Experiments to Your Course
 
 After you :ref:`enable content experiments <Enable Content Experiments>` and
 :ref:`set up group configurations in Studio <Set up Group Configurations in edX
-Studio>` or :ref:`in OLX <Set up Group Configurations in an XML Course>`, you
+Studio>`, you
 can add content experiments to your course. See:
 
 * :ref:`Add a Content Experiment in Studio`

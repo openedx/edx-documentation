@@ -112,8 +112,8 @@ The following example shows the course start date and time on the course summary
 
 .. note:: 
  For courses on edX.org_, you must communicate the course start date and time
-  to your edX program manager to ensure the date is accurate on the course
-  About page.
+ to your edX program manager to ensure the date is accurate on the course
+ About page.
 
 In the dashboard, students see the start dates and times for each of their
 courses, as in the following examples.
