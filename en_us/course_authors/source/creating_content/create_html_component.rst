@@ -193,7 +193,7 @@ Create an HTML Component
 
 To create an HTML component:
 
-1. Under **Add New Component**, click **html**.
+1. Under **Add New Component**, click **HTML**.
 
   .. image:: ../Images/NewComponent_HTML.png
    :alt: Image of adding a new HTML component
