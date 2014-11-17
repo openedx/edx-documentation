@@ -126,9 +126,9 @@ Comment Document Example
  "down" : [], "up_count" : 0, "down_count" : 0, "count" : 0, "point" : 0 },
  "visible" : true, "abuse_flaggers" : [], "historical_abuse_flaggers" : [],
  "parent_ids" : [], "at_position_list" : [], "body" : "I'm hoping this
- Demonstration course will help me figure out how to take the course I
- registered for. I am just auditing the course, but I want to benefit from it
- as much as possible, as I am extremely interested in it.\n", "course_id" :
+ Demonstration course will help me figure out how to take the course I enrolled
+ in. I am just auditing the course, but I want to benefit from it as much as
+ possible, as I am extremely interested in it.\n", "course_id" :
  "edX/DemoX/Demo_Course", "_type" : "Comment", "endorsed" : true, "endorsement"
  : { "user_id" : "9", "time" : ISODate("2014-08-29T15:11:49.442Z") },
  "anonymous" : false, "anonymous_to_peers" : false, "author_id" : "NNNNNNN",
@@ -171,7 +171,7 @@ When pretty printed, this comment looks like this:
  
   ],
   "body": "I'm hoping this Demonstration course will help me figure out how 
-  to take the course I registered for. I am just auditing the course, but I 
+  to take the course I enrolled in. I am just auditing the course, but I 
   want to benefit from it as much as possible, as I am extremely interested 
   in it.\n",
   "course_id": "edX\/DemoX\/Demo_Course",

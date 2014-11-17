@@ -338,13 +338,13 @@ Enrollment Events
 The server emits these events in response to course enrollment
 activities completed by a student.
 
-* When a student enrolls in a course, ``edx.course.enrollment.activated`` is
-  emitted. On edx.org, this is typically the result of a student clicking
-  **Register** for the course.
+* When a student enrolls in a course, the server emits
+  ``edx.course.enrollment.activated``. For example, when a student clicks
+  **Enroll** for a course on the edx.org site this event results.
 
-* When a student unenrolls from a course, ``edx.course.enrollment.deactivated``
-  is emitted. On edx.org, this is typically the result of a student clicking
-  **Unregister** for the course.
+* When a student unenrolls from a course, the server emits
+  ``edx.course.enrollment.deactivated``. For example, when a student clicks
+  **Unenroll** for a course on the edx.org site this event results.
 
 In addition, actions by instructors and course staff members also generate
 enrollment events. For the actions that members of the course team complete
