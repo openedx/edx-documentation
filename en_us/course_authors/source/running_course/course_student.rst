@@ -4,8 +4,8 @@
 Student Data
 ############################
 
-You can access data about the students who are enrolled in your course at any
-time after you create the course.
+You can access data about the individuals who are enrolled in your course at
+any time after you create the course.
 
 For information about student data, see the following topics:
 
@@ -17,8 +17,9 @@ For information about student data, see the following topics:
   
 * :ref:`Track Student Activity`
 
-You can also view charts of certain student demographics for graded problems.
-See :ref:`Grades`.
+To supplement the student data available from the Instructor Dashboard, you can
+use the charts and reports that are available from edX Insights. For more
+information, see `Using edX Insights`_.
 
 .. _PII:
 
@@ -90,11 +91,11 @@ how the student population changes over time.
 Download or View Student Data
 ==========================================
 
-You can download a report of the self-reported student data to learn about
-population demographics at a specific point in time, compare demographics at
-different points in time, and plot trends in the population over time. For
-courses that include student cohorts, this report also includes the cohort
-group that is assigned to each student.
+You can download a report of student data to learn about the individuals who
+are enrolled in your course. In addition to the self-reported data collected at
+registration, this report includes the user account ID numbers that edX assigns
+to each registrant. For courses that include student cohorts, this report
+includes the cohort group that is assigned to each student.
 
 When you choose to download student data, a process starts on the edX servers.
 The number of students enrolled in your course, and whether your course has the
@@ -125,8 +126,8 @@ To download student data:
   and scroll down to the **Pending Instructor Tasks** section.
 
 4. To open or save a student data report, click the
-   ``{course_id}_enrolled_profiles_{date}.csv`` file name at the bottom of the
-   page.
+   ``{course_id}_student_profile_info_{date}.csv`` file name at the bottom of
+   the page.
 
   All student-supplied data is included in this file without truncation.
 
@@ -156,41 +157,6 @@ Cohort column with each student's assigned cohort group.
  for backward compatibility only. This data is no longer collected during
  student registration.
 
-==========================================
-View Demographic Distributions
-==========================================
-
-You can view a course-wide summary of certain demographic distributions for
-your currently enrolled students. The total count for each value reported for
-gender and educational attainment displays on the Instructor Dashboard. Because
-this data is optional, the totals for each of these self-reported values are
-likely to be lower than your course enrollment total. You can also view a chart
-with the ages of all currently enrolled students.
-
-To display demographic data for your students:
-
-#. View the live version of your course.
-
-#. Click **Instructor**, then click **Analytics**. 
-
-   * The Year of Birth section displays a chart of enrolled students plotted by
-     year of birth.
-
-   * The Gender Distribution and Level of Education sections show tables with
-     counts of responses made by enrolled students.
-
-   .. image:: ../Images/Distribution_Education.png
-    :alt: Table with columns for different possible values for level of education completed and total count reported for each value
-
-   .. image:: ../Images/Distribution_Gender.png
-    :alt: Table with columns for different possible values for gender and total count reported for each value
-
-   "No Data" is the sum of the students for whom no value exists for the
-   demographic.
-
-  Data for individual students is not shown, and you cannot download data
-  directly from this page. See :ref:`View and download student data`.
-
 .. _Access_anonymized:
 
 ********************************
@@ -217,8 +183,8 @@ specific anonymized user ID. Values are included for every student who ever
 enrolled for your course.
 
 To research and deanonymize student data, you can use this file together with
-the enrolled_profile.csv file of student data or the
-{course_id}_grade_report_{date}.csv file of grades.
+the ``{course_id}_student_profile_info_{date}.csv`` file of student data or the
+``{course_id}_grade_report_{date}.csv`` file of grades.
 
 .. _Track Student Activity:
 
@@ -239,3 +205,5 @@ To display the number of active students:
 #. Click **Instructor**, then click **Analytics**. The count of active students
    appears at the top of the page.
 
+
+.. _Using edX Insights: http://edx-insights.readthedocs.org/en/latest/
