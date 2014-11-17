@@ -39,9 +39,9 @@ The Course Summary Page
 ***********************************
 
 The following image shows an example course summary page.  Students can see the
-course summary page before registering, and may decide to register based on the
-content of the page. You configure the contents of this page in Studio, as
-described in this chapter:
+course summary page before they enroll in the course, and may decide to enroll
+based on the content of the page. You configure the contents of this page in
+Studio, as described in this chapter:
 
 .. image:: ../Images/about_page.png
  :alt: An image of the course summary page.
@@ -56,10 +56,10 @@ The Student Dashboard
 ***********************************
 
 
-If a student registers for your course, the course is then listed on the
-**Current Courses** dashboard, with the course image.  From the dashboard, a
-student can open a course that has started. If the course has not started, the
-student can see the start date, as explained in this chapter.
+If a student enrolls in your course, the course is then listed on the **Current
+Courses** dashboard, with the course image.  From the dashboard, a student can
+open a course that has started. If the course has not started, the student can
+see the start date, as explained in this chapter.
 
 .. image:: ../Images/dashboard.png
  :alt: An image of the dashboard
@@ -293,7 +293,7 @@ page:
 .. image:: ../Images/about-page-course-video.png
  :alt: Image of the course video in the course summary page.
 
-The course video should excite and entice potential students to register, and
+The course video should excite and entice potential students to enroll, and
 reveal some of the personality the instructors bring to the course.
 
 The video should answer these key questions:
@@ -301,7 +301,7 @@ The video should answer these key questions:
 * Who is teaching the course?
 * What university or college is the course affiliated with?
 * What topics and concepts are covered in your course?
-* Why should a learner register for your course?
+* Why should a learner enroll in your course?
 
 The video should deliver your message as concisely as possible and have a run
 time of less than 2 minutes.

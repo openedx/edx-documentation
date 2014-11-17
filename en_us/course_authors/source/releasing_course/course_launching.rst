@@ -373,7 +373,7 @@ to your course.
   Facebook page {add link}. You can find videos and photos posted there before
   the course even begins.
 
-  If this is your first edX course, consider registering for edx101 {add link},
+  If this is your first edX course, consider enrolling in edx101 {add link},
   the edX Demo course. This course gives you an opportunity to explore the edX
   platform and learn how to answer problems and track your progress, before
   {course number} begins.
@@ -629,7 +629,7 @@ about future access to course materials. Be sure to replace values enclosed by
     While you may see the link in a few days, it can take up to two weeks edX
     to generate all of the course certificates.
 
-  * As a registered student, you will have access to the lecture videos even
+  * As an enrolled student, you will have access to the lecture videos even
     after the course ends. The problem sets and exams will be removed from the
     course when it is archived.
 
@@ -689,7 +689,7 @@ When preparing a message from this template, search for values enclosed by
   is offered in {time frame}, we welcome you to join the community of learners
   again.
 
-  To learn more and to register, visit the {course name} page {add link}.
+  To learn more and to enroll, visit the {course name} page {add link}.
 
   We hope to see you in the course,
 
