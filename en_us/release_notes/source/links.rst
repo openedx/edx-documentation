@@ -70,6 +70,8 @@
 
 .. _edx.org: http://edx.org
 
+.. _edX Insights: http://insights.edx.org
+
 .. _Sphinx: http://sphinx-doc.org/
 .. _LaTeX: http://www.latex-project.org/
 .. _GitHub Flow: https://github.com/blog/1557-github-flow-in-the-browser
@@ -148,6 +150,8 @@
 .. _Course Launching Activities: http://ca.readthedocs.org/en/latest/releasing_course/course_launching.html#launch
 
 .. _Adding Pages to a Course: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/building_course/pages.html
+
+.. _Using the Course Wiki: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/running_course/course_wiki.html#course-wiki
 
 .. _Show or Hide the Course Wiki Page: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/building_course/pages.html#show-or-hide-the-course-wiki-page
 
