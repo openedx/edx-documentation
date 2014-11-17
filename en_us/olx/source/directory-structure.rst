@@ -1,4 +1,4 @@
-.. _ODL Directory Structure:
+.. _OLX Directory Structure:
 
 ###############################################
 OLX Course Structure
@@ -11,7 +11,11 @@ This chapter describes the structure of a generic OLX course. See:
 * `XBlock directories`_
 * `edX Platform Directories`_
 
-See :ref:`The Structure of edX-Insider` for information on how a specific OLX course is structured.
+See :ref:`The Structure of edX-Insider` for information on how a specific OLX
+course is structured.
+
+See :ref:`Example of OLX for a Studio Course` for information on how a course
+exported from edX Studio is structured.
 
 
 ****************************************
@@ -71,6 +75,8 @@ See :ref:`Video Components` for more information.
 
 As the set of XBlocks grows, so does the set of associated XML tags
 and directories.
+
+.. _edX Platform Directories:
 
 *************************
 edX Platform Directories
