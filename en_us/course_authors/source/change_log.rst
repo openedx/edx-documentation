@@ -15,6 +15,9 @@ November, 2014
    * - 11/17/14
      - Updated :ref:`Working with Video Components` to indicate that video
        transcripts are required.
+   * -
+     - Replaced information about accessing student demographic data in the
+       :ref:`Student Data` chapter with a cross-reference to edX Insights.
    * - 11/14/14
      - Added new documentation for :ref:`using the course wiki<Course_Wiki>`
        in the :ref:`Running Your Course Index` chapter.
