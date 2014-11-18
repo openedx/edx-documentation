@@ -270,8 +270,9 @@ Obsolete columns
 Columns in the auth_userprofile Table
 ======================================
 
-The ``auth_userprofile`` table stores user demographic data collected during the student registration process. 
-Every row in this table corresponds to one row in ``auth_user``. 
+The ``auth_userprofile`` table stores user demographic data collected when
+students register for a user account. Every row in this table corresponds to
+one row in ``auth_user``.
 
 A sample of the heading row and a data row in the ``auth_userprofile`` table follow.
 
@@ -564,7 +565,8 @@ A row in this table represents a student's enrollment for a particular course
 run.
 
 .. note:: A row is created for every student who starts the enrollment 
-  process, even if they never complete registration.
+  process, even if they never complete site registration by activating the user
+  account.
 
 **History**: As of 20 Aug 2013, this table retains the records of students who
 unenroll. Records are no longer deleted from this table.
