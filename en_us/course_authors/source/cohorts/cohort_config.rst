@@ -1,14 +1,15 @@
 .. _Enabling and Configuring Cohorts:
 
+
 ############################################
-Enabling and Configuring the Cohort Feature
+Enabling and Configuring the Cohorts Feature
 ############################################
 
-To support discussions that are divided by cohort, you select a strategy
-for assigning your students to cohort groups: automated assignment, manual
+To support discussions that are divided by cohort, you select a strategy for
+assigning your students to cohort groups: automated assignment, manual
 assignment, or a hybrid approach. See :ref:`Options for Assigning Students to
-Cohorts`. You also decide whether to change any of the course-wide discussion
-topics so that they are divided by cohort instead of unified for all students. 
+Cohorts`. You also decide whether course-wide or content-specific discussion
+topics should be divided by cohort or unified for all students.
 
 After you select a strategy, you complete these configuration steps (as
 applicable):
@@ -25,9 +26,11 @@ applicable):
 
   * Do both. 
 
-3. Identify the :ref:`course-wide discussion topics<Identifying Private
-   CourseWide Discussion Topics>` that you want to be divided by cohort. This
-   procedure is optional.
+3. Identify the discussion topics that you want to be divided by cohort. If you want :ref:`course-wide discussion topics to be divided by cohort<Identifying
+  Private CourseWide Discussion Topics>`, you need to perform some configuration
+  tasks. In contrast, for content-specific discussion topics, you need to perform
+  some configuration tasks only if you do not want these discussion topics to be
+  divided by cohort.
 
 You complete these procedures in Studio and on the Instructor Dashboard. For an
 optimal student experience, configuration of the cohort feature should be as
@@ -228,19 +231,10 @@ student, review the student profile information for your course. See
 Configuring Course-Wide Discussion Topics As Divided
 *****************************************************************
 
-When you enable the cohort feature for a course, all of the course-wide
-discussion topics provide unified access to posts for all students. You can
-configure one or more of the course-wide topics to be divided by cohort
-instead.
-
-.. note:: The content-specific discussion topics in the course, which are 
- added to units as discussion components, are always divided by cohort.
-
-For more information about content-specific and course-wide discussion topics,
-see :ref:`Organizing_discussions`.
-
-Before you configure course-wide discussion topics to be divided by cohort, you
-add the topics in Studio. See :ref:`Create CourseWide Discussion Topics`. 
+When you :ref:`create course-wide discussion topics<Create CourseWide Discussion
+Topics>` in a course that has cohorts enabled, these discussion topics provide
+unified access to posts for all students. You can configure any of your course-
+wide topics to be divided by cohort instead.
 
 In the example given for creating course-wide discussion topics, a single
 topic, Course Q&A, is added to the system-supplied General topic. The steps in
@@ -251,13 +245,17 @@ there, are appropriate for a unified student audience. However, you also want
 to give students some course-wide topics that are divided by cohort. You define
 two more course-wide discussion topics, Announcements and Brainstorming.
 
-You also decide to apply a naming convention so that students will know 
-the audience for their posts before they add them. See :ref:`Apply Naming
-Conventions to Discussion Topics`. 
+You also decide to apply a naming convention so that students will know  the
+audience for the discussion topics before they add any posts. See :ref:`Apply
+Naming Conventions to Discussion Topics`.
 
 .. image:: ../Images/Discussion_Add_cohort_topics.png
  :alt: Discussion Topic Mapping field with four course-wide discussion topics 
        defined
+
+For more information about content-specific and course-wide discussion topics,
+see :ref:`Organizing_discussions`. 
+
 
 .. _Configure CourseWide Discussion Topics as Private:
 
@@ -283,7 +281,7 @@ follows in the **Discussion Topic Mapping** field:
 #. Select **Settings**, then **Advanced Settings**.
 
 #. In the **Cohort Configuration** field, place your cursor after the opening
-   brace character (``{``) and press Enter.
+   brace character (``{``) and press **Enter**.
 
 #. On the new line, you define the ``"cohorted_discussions":`` policy key,
    followed by one or more course-wide discussion topic IDs enclosed by
@@ -331,40 +329,26 @@ cohort. You can configure one or more of these content-specific topics to be
 unified instead.
 
 .. note:: If you want all content-specific discussion topics in your course to
-be divided by cohort, you do not need to perform any additional configuration.
+  be divided by cohort, you do not need to perform any additional configuration.
 
-You must create content-specific discussion topics within Studio, and obtain
-each content-specific discussion topic's automatically-generated Discussion ID
-before you can configure them to be divided by cohort or unified. See
-:ref:`Create ContentSpecific Discussion Topics`.
+You must :ref:`create content-specific discussion topics<Create ContentSpecific
+Discussion Topics>` within Studio, and obtain each discussion topic's
+automatically-generated Discussion ID, before you can change their configuration
+and make them unified discussions.
 
 In the steps that follow, you add two content-specific topics to your course,
 and specify that one of them is unified.
 
-In Studio, add two discussion components to one or two units. Click **Edit** to
-open the component editor, and copy or make a note of the ID for your discussion
-component.
-
-
-
-..On the Studio **Advanced Settings** page, the two topics appear as follows in the **Discussion Topic Mapping**
-field:
-
-.. code::
-
-      "Brainstorming (private)": {
-          "id": "i4x-edX-Open-edx_demo_course_brainstorming"
-      },
-      "Announcements (private)": {
-          "id": "i4x-edX-Open-edx_demo_course_announcements"
-      }
+In Studio, add two discussion components to a unit. Click **Edit** to open the
+component editor, and copy or make a note of the ID for the discussion component
+that you want to make unified.
 
 #. Open the course in Studio. 
 
 #. Select **Settings**, then **Advanced Settings**.
 
 #. In the **Cohort Configuration** field, place your cursor after the opening
-   brace character (``{``) and press Enter.
+   brace character (``{``) and after any existing policy key definitions, then press **Enter**.
 
 #. On the new line, you define the ``"cohorted_discussions":`` policy key,
 followed by one or more course-wide discussion topic IDs enclosed by    square
