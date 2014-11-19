@@ -3,7 +3,18 @@ Change Log
 ############
 
 *****************
-January, 2015
+February 2014
+*****************
+
+.. list-table::
+   :widths: 10 70
+   :header-rows: 1
+
+   * - 2/4/14
+     - Updated :ref:`Create an Account`.
+
+*****************
+January 2015
 *****************
 
 .. list-table::
@@ -20,7 +31,7 @@ January, 2015
      - Added the :ref:`Rerun a Course` chapter.
 
 *****************
-December, 2014
+December 2014
 *****************
 
 .. list-table::
@@ -42,9 +53,8 @@ December, 2014
    * - 
      - The :ref:`Bulk Email` section is now in the :ref:`Running Your Course Index` chapter.
 
-
 *****************
-November, 2014
+November 2014
 *****************
 
 .. list-table::
@@ -79,7 +89,7 @@ November, 2014
        verticals, in :ref:`Add a Content Experiment in OLX`.
        
 *****************
-October, 2014
+October 2014
 *****************
 
 .. list-table::
@@ -119,7 +129,7 @@ October, 2014
      - Added the :ref:`Including Student Cohorts` chapter.
        
 *****************
-September, 2014
+September 2014
 *****************
 
 .. list-table::
@@ -145,7 +155,7 @@ September, 2014
      - Added :ref:`Molecule Viewer` to :ref:`Create Exercises`
 
 **************
-August, 2014
+August 2014
 **************
 
 .. list-table::
@@ -198,7 +208,7 @@ August, 2014
 
 
 ***********
-July, 2014
+July 2014
 ***********
 
 .. list-table::
@@ -231,7 +241,7 @@ July, 2014
 
 
 ***********
-June, 2014
+June 2014
 ***********
 
 .. list-table::
@@ -255,7 +265,7 @@ June, 2014
      - Added :ref:`gradebook` to the :ref:`Grades` section.
 
 ***********
-May, 2014
+May 2014
 ***********
 
 .. list-table::
@@ -324,7 +334,7 @@ May, 2014
      - Updated :ref:`IFrame` documentation.
 
 ************
-April, 2014
+April 2014
 ************
 
 .. list-table::
@@ -388,7 +398,7 @@ April, 2014
    
 
 ************
-March, 2014
+March 2014
 ************
 
 .. list-table::
@@ -441,7 +451,7 @@ March, 2014
    
 
 ****************
-February, 2014
+February 2014
 ****************
 
 .. list-table::
@@ -491,7 +501,7 @@ February, 2014
    
 
 **************
-January, 2014
+January 2014
 **************
 
 .. list-table::
@@ -536,7 +546,7 @@ January, 2014
        design.
 
 ***************
-December, 2013
+December 2013
 ***************
 
 .. list-table::
