@@ -1,5 +1,6 @@
 .. _Cohorts Overview:
 
+
 ##########################################
 Using Cohorts to Build Course Communities
 ##########################################
@@ -52,21 +53,21 @@ cohort. Cohort-only discussion opportunities can help students develop a sense
 of community, provide specialized experiences, and encourage deeper, more
 meaningful course involvement.
 
-The behavior for course-wide and content-specific (inline) discussion topics is
-different when you first enable cohorts in your course, but you can configure
-either type of discussion in a way that you think is most effective for your
-course.
+When you first enable cohorts in your course, the initial behavior for course-
+wide discussion topics is different from the behavior of content-specific
+(inline) discussion topics. By default, course-wide discussion topics are
+unified, but content-specific discussion topics are divided by cohort. You can
+configure either type of discussion to be divided or unified.
 
 ===================================================
 Course-Wide Discussion Topics
 ===================================================
 
 To create course-wide discussion topics, you add them on the **Advanced
-Settings** page in Studio. By default, each course-wide topic is unified, and
-all students in the course can post, read, respond, and comment in course-wide
-discussion topics without regard to their cohort group assignments. After you
-add a course-wide topic, you can configure it so that it is divided by cohort
-instead.
+Settings** page in Studio. When you first create a course-wide topic, it is
+unified, and all students in the course can post, read, respond, and comment in
+the topic without regard to their cohort group assignments. After you add a
+course-wide topic, you can configure it so that it is divided by cohort instead.
 
 For example, in addition to the General topic, which is supplied by default, you
 create three additional course-wide topics: Course Q&A, Announcements, and
@@ -74,8 +75,8 @@ Brainstorming. You want all students to be able to read and contribute to all of
 the posts in the General and Course Q&A topics. However, you want the
 Announcements and Brainstorming topics to be divided, so that students will only
 be able to read and respond to contributions by members of their own cohorts.
-You complete the additional configuration step for the Announcements and
-Brainstorming topics only.
+You complete the additional configuration step only for the Announcements and
+Brainstorming topics.
 
 For information about course-wide discussion topics, see
 :ref:`Organizing_discussions`. For information about configuring these topics, 
@@ -91,15 +92,20 @@ discussion topic is divided by cohort. A student who is assigned to one cohort
 group cannot read or add to the posts, responses, or comments contributed by the
 members of another cohort group.
 
-If you want your content-specific discussion topics to remain cohorted, you do
-not need to take any further action. However, you can change some or all
-content-specific discussions so that they are unified and accessible to all
-students, regardless of cohort.
+After you add a content-specific discussion topic, if you want it to remain
+cohorted, you do not need to take any further action. However, if you want it to
+be accessible to all students regardless of cohort, you can configure it so that
+it is unified instead.
+
+For example, in a unit that is accessible to all students, you add a discussion
+component. You want this content-specific discussion topic also to be accessible
+to all students, therefore you must change its default configuration.
 
 For more information about content-specific discussion topics, see
 :ref:`Organizing_discussions`. For information about configuring content-
-specific discussion topics for cohorts, see  :ref: `Configure ContentSpecific
-Discussion Topics`.
+specific discussion topics, see :ref: `Configure ContentSpecific Discussion
+Topics`.
+
 
 .. _Options for Assigning Students to Cohorts:
 
@@ -123,7 +129,7 @@ your course determines which assignment option you will use for your course.
 .. _All Automated Assignment:
 
 =============================================================
-Making MOOC Discussions Manageable: Automated Assignment
+Automated Assignment: Making MOOC Discussions Manageable
 =============================================================
 
 In very large courses, the number of posts made to course discussion topics can
@@ -168,7 +174,7 @@ Strategy`.
 .. _All Manual Assignment:
 
 ==========================================================
-Grouping by Common Characteristic: Manual Assignment
+Manual Assignment: Grouping by Common Characteristic
 ==========================================================
 
 In SPOCs and other courses with small- to medium-sized enrollments, known
@@ -197,7 +203,7 @@ For more information, see :ref:`Implementing the Manual Assignment Strategy`.
 .. _Hybrid Assignment:
 
 =============================================================
-Accommodating Small Groups Within a Course: Hybrid Assignment
+Hybrid Assignment: Accommodating Small Groups Within a Course
 =============================================================
 
 For some courses, the manual assignment strategy isn't feasible to execute, and

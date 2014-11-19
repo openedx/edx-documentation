@@ -1,5 +1,6 @@
 .. _Discussions:
 
+
 ##################################
 Managing Course Discussions
 ##################################
@@ -75,28 +76,33 @@ the course history.
 Set Up Discussion Topics for Your Course
 *************************************************
 
-Discussions in an edX course include both the specific topics that you add to
-course units as discussion components, and broader forums on course-wide areas
-of interest, such as "Feedback", "Troubleshooting", or "Technical Help". You
-add both types of topics in Studio.
+Discussions in an edX course include both the content-specific topics that you
+add to course units as discussion components, and broader topics on course-wide
+areas of interest, such as "Feedback", "Troubleshooting", or "Technical Help".
+You add both types of discussion topics in Studio.
+
+.. _Create ContentSpecific Discussion Topics:
 
 ============================================
-Add Units With a Discussion Component
+Create Content-Specific Discussion Topics
 ============================================
 
-Typically, all units are added during the design and creation of your course in
-Studio. To add a discussion topic to a unit, you add a discussion component.
-Follow the instructions in :ref:`Working with Discussion Components`. The
-result is a content-specific discussion topic.
+To create a content-specific discussion topic, you add a discussion component to
+a unit. Typically, you do this while you are designing and creating your
+course in Studio. Follow the instructions in :ref:`Working with Discussion
+Components`. The result is a discussion topic associated with a unit and its
+content.
 
-This type of discussion topic is subject to the release date of the section
-that contains it. Students cannot contribute to these discussion topics until
-that date.
+A content-specific discussion topic is subject to the release date of the
+section that contains it. Students cannot contribute to a content-specific
+discussion topic until the containing section has been released.
 
-.. note:: In courses that include the cohort feature, all of the 
- content-specific discussion topics are divided by cohort. Student posts to
- these topics can only be read, and responded to, by members of the same cohort
- group. See :ref:`Cohorts Overview`.
+.. note:: In courses with cohorts enabled, all content-specific
+  discussion topics are divided by cohort when you first add them. Student posts
+  to divided discussion topics can only be read and responded to by members of
+  the same cohort group. You can change the configuration of content-specific
+  discussion topics to make them unified and available to all students in the
+  course. See :ref:`Configure ContentSpecific Discussion Topics`.
 
 .. _Create CourseWide Discussion Topics:
 
@@ -153,11 +159,11 @@ Discussion list now includes the topic you added.
  .. image:: ../Images/NewCategory_Discussion.png
   :alt: Image of a new topic named Course Q&A in the list of discussions
 
-.. note:: In courses that include the cohort feature, the course-wide 
- discussion topics that you add are unified. All of the posts can be read, and
- responded to, by every student, regardless of their assignement to a cohort
- group. You have the option to configure these topics to be divided by cohort.
- See :ref:`Identifying Private CourseWide Discussion Topics`.
+.. note:: In courses with cohorts enabled, the course-wide discussion topics
+  that you add are unified. All of the posts can be read and responded to by
+  every student, regardless of their assignement to a cohort group. You have the
+  option to configure these topics to be divided by cohort. See :ref:`Identifying
+  Private CourseWide Discussion Topics`.
 
 .. _Assigning_discussion_roles:
 
@@ -174,7 +180,7 @@ You can designate a team of people to help you run course discussions.
   be explicitly granted to members of the course team for them to moderate or
   administer course discussions. The course author, team members with Admin
   access (Studio), and Instructors (Instructor Dashboard) can grant discussion
-  administration roles
+  administration roles.
 
 Different options for working with discussions are available through
 these roles:
@@ -536,7 +542,7 @@ course units and all of the course-wide topics are affected.
   and Discussion Community TAs are not affected when you close the discussions
   for a course. Users with these roles can continue to add to discussions. 
 
-.. note:: To assure that your students understand why they cannot add to 
+.. note:: To make sure your students understand why they cannot add to 
   discussions, you can add the dates that discussions are closed to the
   **Course Info** page and post them to a General discussion.
 
