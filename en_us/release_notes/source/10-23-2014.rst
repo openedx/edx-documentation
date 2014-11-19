@@ -102,6 +102,7 @@ The following documentation is available:
   * Updates to the descriptions for embedding content in container objects for
     HTML, video, and discussion components in the `Course Components
     (XBlocks)`_ section.
+
 .. comment for spacing only 
 
 * `edX Platform API Version 0.5`_
