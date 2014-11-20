@@ -669,8 +669,8 @@ Columns in the user_api_usercoursetag Table
 
 This table uses key-value pairs to store metadata about a specific student's
 involvement in a specific course. For example, for a course that assigns
-students to groups randomly for A/B testing, a row in this table identifies the
-student's assignment to a partition and group.
+students to groups randomly for content experiments, a row in this table
+identifies the student's assignment to a partition and group.
 
 **History**: Added 7 Mar 2014.
 
@@ -727,8 +727,8 @@ key
   Identifies an attribute of the course. 
 
   For example, for a course that includes modules that are set up to perform
-  A/B testing, the value in this column identifies a partition, or type of
-  experiment. The key for the partition is in the format
+  content experiments, the value in this column identifies a partition, or type
+  of experiment. The key for the partition is in the format
   ``xblock.partition_service.partition_ID``, where ID is an integer.
 
 ------
@@ -737,8 +737,8 @@ value
   The content for the key that is set for a student. 
 
   For example, for a course that includes modules that are set up to perform
-  A/B testing, this column stores the group ID of the particular group the
-  student is assigned to within the partition.
+  content experiments, this column stores the group ID of the particular group
+  the student is assigned to within the partition.
 
 .. _user_id_map:
 

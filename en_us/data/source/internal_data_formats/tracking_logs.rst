@@ -2614,27 +2614,42 @@ the response.
 
 .. _AB_Event_Types:
 
-==========================
-A/B Testing Events
-==========================
+========================================
+Testing Events for Content Experiments
+========================================
 
 Course authors can configure course content to present modules that contain
-other modules. For example, a parent module can include two child modules with
-content that differs in some way for comparison testing. When a student
-navigates to a module that is set up for A/B testing in this way, the student
-is randomly assigned to a group and shown only one of the child modules.
+other modules. Content experiments, also known as A/B or split tests, use this
+structure. For example, a parent module can include two child modules that
+contain content that differs in some way for comparison testing. 
 
 * Internally, a *partition* defines the type of experiment: comparing the
   effectiveness of video alone to text alone, for example. A course can include
-  any number of modules with the same partition, or experiment type.
+  any number of modules that have the same partition or experiment type.
 
 * For each partition, students are randomly assigned to a *group*. The group
   determines which content, either video or text in this example, is shown by
   every module with that partitioning.
 
+* Students are assigned to groups randomly. Assignment to a group takes place
+  when student navigation through the course requires data from that module.
+  For example, one student is assigned to a group when he visits the course
+  progress page, while another student is assigned to a group when she visits a
+  course component that is the parent module of a content experiment. Based on
+  this random group assignment, the content of just one of the two child
+  modules is shown to the student.
+
+* For investigations into which students in each group actually interacted with
+  tested content, review the events for the behavior you want to learn about.
+  For example, review the students' ``play_video`` ,
+  ``textbook.pdf.page.navigated``, or ``problem_check`` events.
+
 The events that follow apply to modules that are set up to randomly assign
 students to groups so that different content can be shown to the different
-groups.
+groups. 
+
+For more information about how course teams add content experiments to their
+courses, see `Creating Content Experiments`_.
 
 **History**: These events were added on 12 Mar 2014.
 
@@ -3325,3 +3340,5 @@ event.
 
 
 .. _Creating a Peer Assessment: http://edx.readthedocs.org/projects/edx-open-response-assessments/en/latest/
+
+.. _Creating Content Experiments: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/content_experiments/index.html#creating-content-experiments

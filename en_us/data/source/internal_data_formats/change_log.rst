@@ -14,6 +14,9 @@ October-December 2014
 
    * - Date
      - Change
+   * - 11/26/14
+     - Expanded the background information on content experiments in
+       :ref:`AB_Event_Types`.
    * - 11/13/14
      - Updated the ``student_courseenrollment.mode`` description.
    * - 11/5/14
@@ -142,7 +145,8 @@ April-June 2014
      - Corrected misstatement on how :ref:`Discussion Forums Data` is sent in
        data packages.
    * - 04/25/14
-     - Added new event types to the :ref:`Tracking Logs` chapter for interactions with PDF files.
+     - Added new event types to the :ref:`Tracking Logs` chapter for
+       interactions with PDF files.
        
 
 **********************
@@ -156,22 +160,28 @@ January-March 2014
    * - Date
      - Change
    * - 03/31/14
-     - Added new fields for the server ``problem_check`` event type to the :ref:`Tracking Logs` chapter.
+     - Added new fields for the server ``problem_check`` event type to the
+       :ref:`Tracking Logs` chapter.
    * -
      - Reformatted the :ref:`Tracking Logs` chapter to improve readability.
    * - 03/28/14
      - Added the :ref:`Data_Czar` chapter.
    * - 03/24/14
-     - Added the ``user_api_usercoursetag`` table to the :ref:`Student_Info` chapter and the ``assigned_user_to_partition`` and ``child_render`` event types to the :ref:`Tracking Logs` chapter.
+     - Added the ``user_api_usercoursetag`` table to the :ref:`Student_Info`
+       chapter and the ``assigned_user_to_partition`` and ``child_render``
+       event types to the :ref:`Tracking Logs` chapter.
    * - 03/19/14
-     - Provided alternative formatting for the examples in the :ref:`Discussion Forums Data` chapter.
+     - Provided alternative formatting for the examples in the :ref:`Discussion
+       Forums Data` chapter.
    * - 03/13/14
      - Updated the :ref:`Student_Info` chapter.
    * - 02/24/14
      - Added descriptions of new fields to the :ref:`Wiki_Data` chapter.
    * - 02/21/14
-     - Added descriptions of new fields to the :ref:`Discussion Forums Data` chapter.
+     - Added descriptions of new fields to the :ref:`Discussion Forums Data`
+       chapter.
    * - 02/14/14
-     - Added the ``seek_video`` and ``speed_change_video`` event types to the :ref:`Tracking Logs` chapter.
+     - Added the ``seek_video`` and ``speed_change_video`` event types to the
+       :ref:`Tracking Logs` chapter.
 
 .. _Preface: http://edx.readthedocs.org/projects/devdata/en/latest/preface.html
