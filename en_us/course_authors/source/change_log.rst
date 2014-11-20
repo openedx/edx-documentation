@@ -12,6 +12,9 @@ November, 2014
 
    * - Date
      - Change
+   * - 11/20/14
+     - Updated the :ref:`compression specifications<Compression
+       Specifications>` for video files.
    * - 11/17/14
      - Updated :ref:`Working with Video Components` to indicate that video
        transcripts are required.

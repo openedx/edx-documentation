@@ -58,42 +58,35 @@ When you create your video, edX recommends the following compression specs.
 (Note that these are recommended but not required.)
 
 .. list-table::
-   :widths: 10 20 20 20
-   :header-rows: 0
+   :widths: 10 20 20
    :stub-columns: 1
 
    * - Output
-     - Edited Files
-     - Publish to YouTube
-     - Publish downloadable file to AWS S3
+     - **Publish to YouTube**
+     - **Publish downloadable file to AWS S3**
    * - Codec
      - H.264 .mp4
-     - H.264 "main concept" .mp4
-     - H.264 "x264" .mp4
-   * - Resolution and Frame Rate
-     - 1920x1080, progressive, 29.97 fps
+     - H.264 .mp4
+   * - Resolution & Frame Rate (see note)
      - 1920x1080, progressive, 29.97 fps 
      - 1280x720, progressive, 29.97 fps
    * - Aspect
      - 1.0
      - 1.0
-     - 1.0
    * - Bit Rate
-     - VBR, 2 pass 
      - VBR, 2 pass 
      - VBR, 2 pass  
    * - Target VBR
-     - 32 mbps
      - 5 mbps
      - 1 mbps
    * - Max VBR
-     - 40 mbps
      - 7.5 mbps
      - 1.5 mbps
    * - Audio
-     - Linear AAC 48kHz / 256 kbps
      - AAC 44.1 / 192 kbps
      - AAC 44.1 / 192 kbps
+
+.. note:: In general, export at the same frame rate used to shoot the media file. For example, in PAL-based countries, export at 25 fps.
 
 .. _Video Formats:
 
