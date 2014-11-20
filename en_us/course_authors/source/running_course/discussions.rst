@@ -73,36 +73,17 @@ the course history.
 .. _Organizing_discussions:
 
 *************************************************
-Set Up Discussion Topics for Your Course
+Creating Discussion Topics for Your Course
 *************************************************
 
-Discussions in an edX course include both the content-specific topics that you
-add to course units as discussion components, and broader topics on course-wide
-areas of interest, such as "Feedback", "Troubleshooting", or "Technical Help".
-You add both types of discussion topics in Studio.
+Discussions in an edX course include both broad topics on course-wide areas of
+interest such as "Feedback", "Troubleshooting", or "Technical Help", and the
+content-specific topics that you add to course units as discussion components.
+You create both types of discussion topics in Studio.
 
-.. _Create ContentSpecific Discussion Topics:
-
-============================================
-Create Content-Specific Discussion Topics
-============================================
-
-To create a content-specific discussion topic, you add a discussion component to
-a unit. Typically, you do this while you are designing and creating your
-course in Studio. Follow the instructions in :ref:`Working with Discussion
-Components`. The result is a discussion topic associated with a unit and its
-content.
-
-A content-specific discussion topic is subject to the release date of the
-section that contains it. Students cannot contribute to a content-specific
-discussion topic until the containing section has been released.
-
-.. note:: In courses with cohorts enabled, all content-specific
-  discussion topics are divided by cohort when you first add them. Student posts
-  to divided discussion topics can only be read and responded to by members of
-  the same cohort group. You can change the configuration of content-specific
-  discussion topics to make them unified and available to all students in the
-  course. See :ref:`Configure ContentSpecific Discussion Topics`.
+For details about creating discussion topics, see :ref:`Create CourseWide
+Discussion Topics` and :ref:`Create ContentSpecific Discussion Topics`.
+For details about configuring discussion topics in courses with cohorts enabled, see :ref:`Set up Discussions in Cohorted Courses`.
 
 .. _Create CourseWide Discussion Topics:
 
@@ -164,6 +145,29 @@ Discussion list now includes the topic you added.
   every student, regardless of their assignement to a cohort group. You have the
   option to configure these topics to be divided by cohort. See :ref:`Identifying
   Private CourseWide Discussion Topics`.
+
+.. _Create ContentSpecific Discussion Topics:
+
+============================================
+Create Content-Specific Discussion Topics
+============================================
+
+To create a content-specific discussion topic, you add a discussion component to
+a unit. Typically, you do this while you are designing and creating your
+course in Studio. Follow the instructions in :ref:`Working with Discussion
+Components`. The result is a discussion topic associated with a unit and its
+content.
+
+A content-specific discussion topic is subject to the release date of the
+section that contains it. Students cannot contribute to a content-specific
+discussion topic until the containing section has been released.
+
+.. note:: In courses with cohorts enabled, all content-specific
+  discussion topics are divided by cohort when you first add them. Student posts
+  to divided discussion topics can only be read and responded to by members of
+  the same cohort group. You can change the configuration of content-specific
+  discussion topics to make them unified and available to all students in the
+  course. See :ref:`Configure ContentSpecific Discussion Topics`.
 
 .. _Assigning_discussion_roles:
 
