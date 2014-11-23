@@ -6,11 +6,13 @@ Student Info and Progress Data
 
 The following sections detail how edX stores stateful data for students
 internally, and is useful for developers and researchers who are examining
-database exports. Data for students is presented in these categories.
+database exports.
 
-* :ref:`User_Data`
-* :ref:`Courseware_Progress`
-* :ref:`Certificates`
+.. contents::
+  :local:
+  :depth: 1
+
+Data for students is presented in these categories.
 
 ***************
 Conventions
@@ -111,20 +113,12 @@ Key
 User Data
 ****************
 
-The following tables store data gathered during site registration and course
-enrollment.
+Data for students is gathered during site registration, course
+enrollment, and as other activities, such as responding to a particular type of problem or joining a team, take place.
 
-* :ref:`auth_user`
-* :ref:`auth_userprofile`
-* :ref:`student_courseenrollment`
-* :ref:`user_api_usercoursetag`
-* :ref:`user_id_map`
-* :ref:`student_languageproficiency`
-
-The following tables store data gathered about the teams in a course.
-
-* :ref:`teams_courseteam`
-* :ref:`teams_courseteammembership`
+.. contents::
+  :local:
+  :depth: 1
 
 .. note:: The Teams feature is in limited release. For more information,
    contact your edX partner manager. For Open edX sites, contact your system
@@ -132,14 +126,14 @@ The following tables store data gathered about the teams in a course.
 
 .. _auth_user:
 
-================================
-Columns in the auth_user Table
-================================
+==================================
+Columns in the ``auth_user`` Table
+==================================
 
 The ``auth_user`` table is built into the edX Django Web framework. It holds
 generic information necessary for user login and permissions.
 
-A sample of the heading row and a data row in the ``auth_user`` table follow.
+A sample of the heading row and a data row in the ``auth_user`` table follows.
 
 .. code-block:: json
 
@@ -213,11 +207,11 @@ id
 ----------
 username
 ----------
-  The unique username for a user in the edX system. It can contain alphanumerics
-  and the special characters shown within the brackets: [ _ @ + - . ]. The
-  username is the only user-provided information that other users can
-  currently see. EdX has never allowed users to change usernames, but may do
-  so in the future.
+  The unique username for a user in the edX system. It can contain
+  alphanumerics and the special characters shown within the brackets:
+  [ _ @ + - . ]. The username is the only user-provided information that
+  other users can currently see. EdX has never allowed users to change
+  usernames, but might do so in the future.
 
 ------------
 first_name
@@ -333,15 +327,16 @@ Obsolete columns
 
 .. _auth_userprofile:
 
-======================================
-Columns in the auth_userprofile Table
-======================================
+=========================================
+Columns in the ``auth_userprofile`` Table
+=========================================
 
 The ``auth_userprofile`` table stores user demographic data collected when
 students register for a user account. Every row in this table corresponds to
 one row in ``auth_user``.
 
-A sample of the heading row and a data row in the ``auth_userprofile`` table follow.
+A sample of the heading row and a data row in the ``auth_userprofile`` table
+follows.
 
 .. code-block:: json
 
@@ -700,9 +695,9 @@ profile_image_uploaded_at
 
 .. _student_courseenrollment:
 
-==============================================
-Columns in the student_courseenrollment Table
-==============================================
+==================================================
+Columns in the ``student_courseenrollment`` Table
+==================================================
 
 A row in this table represents a student's enrollment for a particular course
 run.
@@ -715,7 +710,7 @@ run.
 unenroll. Records are no longer deleted from this table.
 
 A sample of the heading row and a data row in the ``student_courseenrollment``
-table follow.
+table follows.
 
 .. code-block:: sql
 
@@ -806,9 +801,9 @@ mode
 
   .. _user_api_usercoursetag:
 
-============================================
-Columns in the user_api_usercoursetag Table
-============================================
+===============================================
+Columns in the ``user_api_usercoursetag`` Table
+===============================================
 
 This table uses key-value pairs to store metadata about a specific student's
 involvement in a specific course. For example, for a course that assigns
@@ -885,14 +880,20 @@ value
 
 .. _user_id_map:
 
-==================================
-Columns in the user_id_map Table
-==================================
+=====================================
+Columns in the ``user_id_map`` Table
+=====================================
 
 A row in this table maps a student's real user ID to an anonymous ID generated
-to obfuscate the student's identity.
+to obfuscate the student's identity. This anonymous ID is not course specific.
+For more information about course specific user IDs, see the
+:ref:`student_anonymoususerid` table.
 
-A sample of the heading row and a data row in the ``user_id_map`` table follow.
+Course team members can download the anonymized user IDs for the learners in a
+course. For more information, see :ref:`partnercoursestaff:Access_anonymized`.
+
+A sample of the heading row and a data row in the ``user_id_map`` table
+follows.
 
 .. code-block:: sql
 
@@ -900,7 +901,7 @@ A sample of the heading row and a data row in the ``user_id_map`` table follow.
 
     e9989f2cca1d699d88e14fd43ccb5b5f  9999999 AAAAAAAA
 
-The ``student_courseenrollment`` table has the following columns.
+The ``user_id_map`` table has the following columns.
 
 .. list-table::
      :widths: 15 15 15 15
@@ -938,11 +939,89 @@ username
 -----------
   The student's username in ``auth_user.username``.
 
+.. _student_anonymoususerid:
+
+====================================================
+Columns in the ``student_anonymoususerid`` Table
+====================================================
+
+This anonymous ID identifies learners in a single run of a specific course. The
+course specific anonymized user IDs in this table can be used to identify
+learners in SQL tables for :ref:`open response assessment data<ORA2 Data>`. For
+more information about the anonymous IDs that identify users across courses,
+see the :ref:`user_id_map` table.
+
+Course team members can download the course specific anonymized user IDs for
+learners in a course run. For more information, see
+:ref:`partnercoursestaff:Access_anonymized`.
+
+**History**: This table was added to the database data file in data packages
+beginning with the 13 Dec 2015 export.
+
+A sample of the heading row and a data row in the ``student_anonymoususerid``
+table follows.
+
+.. code-block:: sql
+
+    id   user_id   anonymous_user_id  course_id
+
+    999999   111111   d617d135c2bed4974237a0f18991ab8d   WellesleyX/HIST229x/2013_SOND
+
+The ``student_anonymoususerid`` table has the following columns.
+
+.. list-table::
+     :widths: 15 15 15 15
+     :header-rows: 1
+
+     * - Column
+       - Type
+       - Null
+       - Key
+     * - id
+       - int(11)
+       - NO
+       - PRI
+     * - user_id
+       - int(11)
+       - NO
+       - MUL
+     * - anonymous_user_id
+       - varchar(32)
+       - NO
+       - UNI
+     * - course_id
+       - varchar(255)
+       - NO
+       - MUL
+
+---------
+id
+---------
+  A database auto-increment field that uniquely identifies the learner, and
+  acts as the primary key.
+
+---------
+user_id
+---------
+  The learner's ID in ``auth_user.id``.
+
+------------------
+anonymous_user_id
+------------------
+  The anonymous ID assigned to the learner.
+
+---------------------
+course_id
+---------------------
+
+  The course identifier, in the format ``{key type}:{org}+{course}+{run}``. For
+  example, ``course-v1:edX+DemoX+Demo_2014``.
+
 .. _student_languageproficiency:
 
-=================================================
-Columns in the student_languageproficiency Table
-=================================================
+====================================================
+Columns in the ``student_languageproficiency`` Table
+====================================================
 
 The ``student_languageproficiency`` table stores information about students'
 self-reported language preferences. Students can select only one value.
@@ -983,7 +1062,7 @@ code
 .. _teams_courseteam:
 
 ==============================================
-Columns in the teams_courseteam Table
+Columns in the ``teams_courseteam`` Table
 ==============================================
 
 This table stores information about the teams in a course.
@@ -1149,9 +1228,9 @@ team_size
 
 .. _teams_courseteammembership:
 
-================================================
-Columns in the teams_courseteammembership Table
-================================================
+===================================================
+Columns in the ``teams_courseteammembership`` Table
+===================================================
 
 This table stores information about learners who are members of a team.
 
@@ -1262,14 +1341,14 @@ a new row is created and the state is set to an empty JSON object.
 .. _courseware_studentmodule:
 
 ====================================================================
-Columns in the courseware_studentmodule Table
+Columns in the ``courseware_studentmodule`` Table
 ====================================================================
 
 The ``courseware_studentmodule`` table holds all courseware state for a given
 user.
 
 A sample of the heading row and a data row in the ``courseware_studentmodule``
-table follow.
+table follows.
 
 .. code-block:: sql
 
@@ -1452,12 +1531,13 @@ to October 2014, use the format ``i4x://{org}/{course}/{module type}/{module
 name or hash code}``. For example,
 ``i4x://MITx/3.091x/problemset/Sample_Problems``. Note that this format does
 not include course run information, so the
-``courseware_studentmodule.course_id`` column may need to be used as well.
+``courseware_studentmodule.course_id`` column might need to be used as well.
 
 ------------
 student_id
 ------------
-  A reference to ``auth_user.id``, this is the student that this module state row belongs to.
+  A reference to ``auth_user.id``, this is the student that this module state
+  row belongs to.
 
 -------
 state
@@ -1495,7 +1575,7 @@ state
   ``conditional``
 
     Conditionals don't actually store any state, so this value is always an
-    empty JSON object (`'{ }'`). These entries may be removed altogether.
+    empty JSON object (`'{ }'`). These entries can be removed altogether.
 
   ``problem``
 
@@ -1593,18 +1673,18 @@ Certificate Data
 
 .. _certificates_generatedcertificate:
 
-=======================================================
-Columns in the certificates_generatedcertificate Table
-=======================================================
+==========================================================
+Columns in the ``certificates_generatedcertificate`` Table
+==========================================================
 
 The ``certificates_generatedcertificate`` table tracks the state of
-certificates and final grades for a course. The table is  populated when a
+certificates and final grades for a course. The table is populated when a
 script is run to grade all of the students who are enrolled in the course at
 that time and issue certificates. The certificate process can be rerun and
 this table is updated appropriately.
 
 A sample of the heading row and two data rows in the
-``certificates_generatedcertificate`` table follow.
+``certificates_generatedcertificate`` table follows.
 
 .. code-block:: sql
 
