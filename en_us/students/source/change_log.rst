@@ -10,6 +10,8 @@ Change Log
 
    * - Date
      - Change
+   * - 12/4/14
+     - Added :ref:`SFD Wiki` topic.
    * - 11/24/15
      - Updated information about superscripts and subscripts in :ref:`Math
        Formatting`.

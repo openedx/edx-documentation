@@ -4,7 +4,7 @@
 Certificates
 ##############################
 
-Nearly every course on edx.org offers a certificate when you complete a course
+Nearly every course on edx.org offers a certificate when you complete the course
 successfully. The certificate includes your name, the name of the course, the
 edX partner university that created the course, and the names of one or more
 members of the course team. The certificate also lists a URL that viewers can
