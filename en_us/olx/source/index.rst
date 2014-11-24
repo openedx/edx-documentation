@@ -28,6 +28,7 @@ This document is intended for those developing edX courses through Open Learning
    problem-xml/index
    content-experiments/index
    example-course/index
+   studio-example/index
    drafts/index
 
 
