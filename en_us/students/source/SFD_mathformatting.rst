@@ -56,18 +56,28 @@ math programs before.
 Entering Math Expressions
 ****************************
 
-When you enter your plain text into the calculator or the response field, follow
-these guidelines:
+When you enter your plain text into the calculator or the response field,
+follow these guidelines:
 
-* Use standard arithmetic operation symbols: the plus sign (+), minus sign (-),
-  multiplication sign (*), and division sign (/).
-* Indicate multiplication explicitly. That is, instead of ``mc^2`` type
-  ``m*c^2``, and instead of ``5a+4b+3c`` type ``5*a+4*b+3*c``.
-* Use parentheses to specify the order of operations and to make your expression
-  as clear as possible. However, only use curved parentheses (``()``). Don't use
-  brackets (``[]``) or braces (``{}``).
-* Use a caret (^) to indicate an exponent.
-* Use an underscore (_) to indicate a subscript.
+* **Arithmetric operations**: Use standard characters for addition (+),
+  subtraction (-), multiplication (*), and division (/).
+  
+  * **Multiplication**: Be sure to indicate multiplication explicitly. That is,
+    instead of ``mc^2`` type ``m*c^2``, and instead of ``5a+4b+3c`` type
+    ``5*a+4*b+3*c``.
+    
+* **Operation Order**: Use parentheses (``( )``) to specify the order of
+  operations and to make your expression as clear as possible. Use curved
+  parentheses (``( )``) only. Do not use brackets (``[ ]``) or braces (``{
+  }``).
+* **Exponents or superscripts**: Insert a caret (^) before an exponent or
+  superscript. If the exponent or superscript includes multiple characters or
+  is an expression, surround the expression with parentheses. For example, you
+  can enter ``x^n`` or ``x^(n-1)``.
+* **Subscripts**: Insert an underscore (_) before a subscript to indicate a
+  subscript. If the subscript has multiple characters, type the characters
+  without a space. For example, you can enter ``v_IN-v_OUT``. Note, however,
+  that subscripts cannot currently include operators or parentheses.
 * Avoid whitespace.
 * Don't use equal signs (=).
 * Because the system is case-sensitive, make sure you use uppercase and

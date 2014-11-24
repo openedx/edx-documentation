@@ -10,6 +10,9 @@ Change Log
 
    * - Date
      - Change
+   * - 11/24/15
+     - Updated information about superscripts and subscripts in :ref:`Math
+       Formatting`.
    * - 11/10/14
      - Added :ref:`Video Player` topic.
    * - 11/6/14
