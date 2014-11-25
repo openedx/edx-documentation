@@ -104,9 +104,12 @@ To create an instant hangout in your course:
 
 #. In either a page or an HTML component, open the HTML editor.
 
-#. On the first line, add the JavaScript file you uploaded in a <script> tag. For example, if your JavaScript file is named **instanthangouts-0.1.0.js**, you would enter the following::
+#. On the first line, add the JavaScript file you uploaded in a <script> tag,
+   making sure you use full opening and closing tags.
+   
+   For example, if your JavaScript file is named **instanthangouts-0.1.0.js**, you would enter the following::
   
-    <script src='/static/instanthangouts-0.1.0.js'/>
+    <script src='/static/instanthangouts-0.1.0.js'></script>
 
 #. After the <script> tag, add::
   
