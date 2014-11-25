@@ -12,6 +12,8 @@ November, 2014
 
    * - Date
      - Change
+   * - 12/02/14
+     - Added email template for :ref:`Weekly Highlights` email to students.
    * - 11/20/14
      - Updated the :ref:`compression specifications<Compression
        Specifications>` for video files.
