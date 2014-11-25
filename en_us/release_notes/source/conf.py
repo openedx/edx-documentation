@@ -26,7 +26,7 @@ master_doc = 'index'
 
 html_theme = 'edx_theme'
 html_theme_path = ["_themes"]
-#html_static_path = ['_themes/edx_theme/static']
+html_static_path = ['_themes/edx_theme/static']
 #templates_path = ['_templates']
 
 #if not on_rtd:  # only import and set the theme if we're building docs locally
