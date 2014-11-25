@@ -13,7 +13,7 @@ sys.path.append(os.path.abspath('../../../'))
 sys.path.insert(0, os.path.abspath('.'))
 
 master_doc = 'index'
-html_theme = 'pyramid'
+#html_theme = 'pyramid'
 
 # Add any paths that contain templates here, relative to this directory.
 #templates_path.append('source/_templates')
@@ -24,8 +24,8 @@ html_theme = 'pyramid'
 #html_static_path.append('source/_static')
 
 
-#html_theme = 'edx_theme'
-#html_theme_path = ["_themes"]
+html_theme = 'edx_theme'
+html_theme_path = ["_themes"]
 #html_static_path = ['_themes/edx_theme/static']
 #templates_path = ['_templates']
 
