@@ -86,7 +86,10 @@ When you create your video, edX recommends the following compression specs.
      - AAC 44.1 / 192 kbps
      - AAC 44.1 / 192 kbps
 
-.. note:: In general, export at the same frame rate used to shoot the media file. For example, in PAL-based countries, export at 25 fps.
+.. note:: Typically you export at the same frame rate that was used when you 
+ created the media file. For example, if you create the file in a country that
+ uses the PAL system, you export at 25 fps instead of the NTSC standard of
+ 29.97 fps.
 
 .. _Video Formats:
 

@@ -108,7 +108,7 @@ C
   You can define alternative course content to be delivered to different,
   randomly assigned groups of students. Also known as A/B or split testing, you
   use content experiments to compare the performance of students who have been
-  exposed to different versions of of the content. For more information, see
+  exposed to different versions of the content. For more information, see
   :ref:`Creating Content Experiments`.
 
 **Content-Specific Discussion Topic**
