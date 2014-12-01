@@ -13,21 +13,20 @@ Video Processing Overview
 Videos are one of the most important assets of an online course. Making course
 videos available to students who are located all over the world, and who are
 accessing course content with different devices and Internet connectivity
-constraints, can be a complex undertaking. To help course teams at partner
-institutions meet the challenge of delivering high quality video experiences to
-as many students as possible, edX offers video file processing and media
-hosting services. Once these services are set up for your insititution and
-course, course teams only need to upload a single file to Studio for each of
-the videos they want to include in their course.
+constraints, can be a complex undertaking. 
 
-For a video to play at locations around the world, it needs to be available
-from more than one host sites. For a video to play on different devices,
-including both desktop computers and smart phones, it needs to be available in
-several different formats.
+* For a video to play at locations around the world, it needs to be available
+  from more than one host site.
 
-The edX media team, with the assistance of a representative from our partner
-institution, creates accounts with two file hosting services: YouTube Content
-Management System (CMS) and Amazon Web Services (AWS).
+* For a video to play on different devices, including both desktop computers
+  and smart phones, it needs to be available in several different formats.
+
+To help course teams at partner institutions meet the challenge of delivering
+high quality video experiences to as many students as possible, edX offers
+video file processing and media hosting services. Once these services are set
+up for your insititution and course, course teams only need to upload a single
+file to Studio for each of the videos they want to include in their course. EdX
+completes all other processing for the video files.
 
 Before your course teams can begin to upload videos in Studio, you work with
 the edX media team to make sure that these preparatory tasks are complete.
@@ -38,9 +37,10 @@ the edX media team to make sure that these preparatory tasks are complete.
 
 * :ref:`Set Up YouTube Channels`
 
-After your course teams upload an original video file in .mp4 or .mov format in
-Studio, an automated process begins to create additional formats and store them
-for you, ready for students to access, with the hosting services.
+When these preliminary tasks are complete, your course teams can upload
+original video files in .mp4 or .mov format to Studio. An automated process
+then begins to create additional formats and store them for you, ready for
+students to access, with the hosting services.
 
 .. important:: The tasks described in this section rely on the use of
  third-party tools and software. Because these tools are subject to change by
@@ -62,8 +62,11 @@ YouTube Content Management System (CMS) periodically to complete these tasks.
 * Grant access privileges to each YouTube channel to members of the
   corresponding course team.
 
-Video administrators may also, on occasion, work with members of the edX media
-team and course teams to resolve questions about video files.
+Video administrators also work with members of the edX media team and course
+teams to distribute information and resolve questions about video files.
+
+.. note:: The edX media team adds video files to the YouTube CMS account. 
+ Video administrators are not responsible for this activity.
 
 EdX recommends that organizations identify specific individuals as the video
 administrators for all of your courses. By working with the edX team over
@@ -76,18 +79,26 @@ for managing your video assets.
 Establish Access to YouTube Account 
 ****************************************
 
-The edX video team creates a dedicated YouTube CMS account for each partner
-institution. This account stores all of the video files for all of your
-courses. Because access to the account is granted to email addresses, the edX
-video team works with one of your video administrators to set up an email
-address specifically for this purpose and give it administrative privileges.
+The edX media team, with the assistance of the video administrator from your
+institution, creates dedicated accounts with two file hosting services: YouTube
+Content Management System (CMS) and Amazon Web Services (AWS). These accounts
+store all of the video files, in every required format, for all of your
+courses.
 
-.. note:: The edX media team adds the video files to the YouTube CMS account.
+For :ref:`video administrators<Identify Video Administrators>` to complete
+their periodic tasks using the YouTube CMS, they must have administrative
+access to your institution's YouTube account. Because access to the account is
+granted to email addresses, the edX video team works with one of your video
+administrators to set up an email address specifically for this purpose and
+give it administrative privileges.
 
-This procedure only needs to be completed once at each institution by one of the video administrators.
+This procedure only needs to be completed once at each institution by one of
+the video administrators.
+
+.. note:: No additional set up procedures are needed for the AWS account.
 
 #. Create a single Google email "gmail" account. The recommended format for the
-   account name is {institution ID}X-CMSmanager@gmail.com.
+   account name is {institution ID}X-CMSmanager (followed by @gmail.com).
 
 #. Send the email address to a member of the edX video team.
 
@@ -128,9 +139,9 @@ Studio.
 #. In your browser, access the YouTube Creator Studio by going to
    https://cms.youtube.com/.
 
-#. Use the video administrators' {institution ID}X-CMSmanager@gmail.com address
-   to log in to your institution's CMS account. The email address that you log
-   in with is the owner of the channels that you create.
+#. Use the video administrators' {institution ID}X-CMSmanager address
+   at gmail.com to log in to your institution's CMS account. The email address
+   that you log in with is the owner of any channels that you create.
 
 #. In the navigation bar at left click **CHANNELS**. A list of your
    institution's channels appears.
@@ -165,8 +176,8 @@ administrators can locate this ID.
 #. In your browser, access the YouTube Creator Studio by going to
    https://cms.youtube.com/.
 
-#. Use the video administrators' {institution ID}X-CMSmanager@gmail.com address
-   to log in to your institution's CMS account.
+#. Use the video administrators' {institution ID}X-CMSmanager address at
+   gmail.com to log in to your institution's CMS account.
 
 #. In the navigation bar at left click **CHANNELS**. A list of your
    institution's channels appears.
@@ -175,8 +186,12 @@ administrators can locate this ID.
 
 #. At top right, click the channel image. A window displays information about
    the account, including the email address that you used to log in.
+
+   .. image:: Images/YouTube_channel_icon.png
+    :alt: Icon representing the YouTube channel found at top right of the
+       Channels page
    
-#. Click the **YouTube settings** icon. The Account Settings Overview page
+6. Click the **YouTube settings** icon. The Account Settings Overview page
    opens in your browser.
 	
 #. Under the channel name, click **Advanced**. The YouTube Channel ID appears
@@ -218,9 +233,10 @@ they can access.
 
 #. Advise the course team member to expect and respond to the email message so
    that the account is activated. Activation must be complete for management
-   access to be granted. 
+   access to be granted. See steps 4-5 for :ref:`establishing access to a
+   YouTube account<Establish Access to YouTube Account>`.
 
-   See steps 4-5 for :ref:`establishing access to a YouTube account<Establish
-   Access to YouTube Account>`.
-
-.. Rachel: when would video admins need to filter the list of videos by channel? (CMS_Filter_Channels.pdf)
+Course team members who complete the activation process are channel managers.
+When they log in to the YouTube CMS at https://cms.youtube.com/ with the
+privileged email address, they can access the course video files hosted by
+YouTube.

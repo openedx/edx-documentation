@@ -22,13 +22,12 @@ met by successful video files, and how course teams upload the files.
 Enable Video Upload in Studio
 ******************************
 
-This procedure only needs to be completed once per course, but it must be
-complete before video files can be uploaded.
+This procedure needs to be completed only once per course, but it must be
+complete before course team members can upload video files.
 
-#. From your institution's video administrator, obtain the YouTube channel ID
-   for your course.
-
-.. is this accurate? or is it some other ID obtained in some other way?
+#. Work with your institution's video administrator to obtain the edX video
+   identifier for your course. The edX media team defines a unique value for
+   each course.
 
 #. Open the course in Studio. 
 
@@ -37,15 +36,14 @@ complete before video files can be uploaded.
 #. In the **Video Upload Credentials** field, place your cursor between the
    supplied pair of braces.
 
-#. Type ``"course_video_upload_token": "xxxx"`` where ``xxxx`` is the channel
-   ID value supplied by your video administrator.
-
-.. accurate?
+#. Type ``"course_video_upload_token": "xxxx"`` where ``xxxx`` is the unique
+   edX identifier for your course. This ID value is an 8-20 character hash
+   string.
 
 #. Click **Save Changes**. Studio reformats the name:value pair you just
    entered to indent it on a new line.
    
- .. image:: ../Images/Enable_video_upload.png
+ .. image:: Images/Enable_video_upload.png
   :alt: Video Upload Credentials field with the policy key and token
 
 You can then begin to :ref:`upload video files<Upload Video Files>`.
@@ -56,57 +54,11 @@ You can then begin to :ref:`upload video files<Upload Video Files>`.
 Specifications for Successful Video Files
 ***************************************************
 
-.. Specs for successful videos -- coming from Rachel, more detailed than the table so far
+TBD 
 
-- sending us their files (per chart)
-- single video file, in .mp4 or .mov format, for each video to include in the
-  course.
-- what file formats are accepted
-- what file naming convention is recommended
-
-
-.. following pasted from create_video.rst
-
-====================================
-Compression Specifications
-====================================
-
-When you create your video, edX recommends the following compression specs.
-(Note that these are recommended but not required.)
-
-.. list-table::
-   :widths: 10 20 20
-   :stub-columns: 1
-
-   * - Output
-     - **Publish to YouTube**
-     - **Publish downloadable file to AWS S3**
-   * - Codec
-     - H.264 .mp4
-     - H.264 .mp4
-   * - Resolution & Frame Rate (see note)
-     - 1920x1080, progressive, 29.97 fps 
-     - 1280x720, progressive, 29.97 fps
-   * - Aspect
-     - 1.0
-     - 1.0
-   * - Bit Rate
-     - VBR, 2 pass 
-     - VBR, 2 pass  
-   * - Target VBR
-     - 5 mbps
-     - 1 mbps
-   * - Max VBR
-     - 7.5 mbps
-     - 1.5 mbps
-   * - Audio
-     - AAC 44.1 / 192 kbps
-     - AAC 44.1 / 192 kbps
-
-.. note:: Typically you export at the same frame rate that was used when you 
- created the media file. For example, if you create the file in a country that
- uses the PAL system, you export at 25 fps instead of the NTSC standard of
- 29.97 fps.
+.. Specs for successful videos -- coming from Rachel
+.. - single video file, in .mp4 or .mov format, for each video
+.. - what file naming convention is recommended
 
 .. _Upload Video Files:
 
@@ -121,22 +73,26 @@ Upload Video Files
 #. Add video files to the Video Uploads page. You can drag files to the page
    and drop them, or click **Select files** to locate the files to upload.
 
+   A rectangular tile appears on the page for each file. The file name, a
+   progress bar, and the status of the file upload process appear in the tile.
+
 .. how many files can be uploaded at once
 .. what kind of bandwidth/connection is recommended
 
-Transfer of the files to the edX server begins immediately. The Video Uploads
-page displays the status of each file: **Uploading**, followed by either
-**Uploading completed** on success or **Uploading failed** if a problem occurs.
+You can use your browser to navigate to other pages while upload is in
+progress. Return to the Video Uploads page periodically to refresh the status
+for each file.
 
-* For files that upload successfully, automated processing begin. The process
+* For files that upload successfully, automated processing begins. The process
   results in additional formats for the video file, which are then transferred
   to mutiple hosting services (YouTube CMS and Amazon AWS), ready for students
-  to access. You can monitor file statuses during autometed processign. See
+  to access. You can monitor file statuses during automated processing. See
   :ref:`Monitor Video Processing`.
 
 * For files that encounter a problem, verify that the file is in .mp4 or .mov
   format and meets the other specifications for successful video processing.
-  Then try uploading the file or its replacement again.
+  See :ref:`Specifications for Successful Video Files`. Then try uploading the
+  file or its replacement again.
 
 .. _Monitor Video Processing: 
 
@@ -144,28 +100,20 @@ page displays the status of each file: **Uploading**, followed by either
 Monitor Video Processing
 ================================
 
-After video files sucessfully reach the edX servers, the Video Uploads page
-provides status updates as automated processing takes place.
+After video files sucessfully reach the edX servers, automated processing
+begins. A list of every file that has successfully uploaded to the edX servers
+appears in the Previous Uploads section of the Video Uploads page.
 
+* **In Progress** files are undergoing processing to create additional file 
+  formats or waiting for succesful transfer to the host sites.
 
+* **Complete** files are ready for inclusion in your course and for students to
+  view. See :ref:`Adding Videos to a Course`. When you click the names of these
+  files, a file hosted on one of the external host sites plays.
 
+* **Failed** files did not complete processing successfully. Verify that you
+  can play your original .mp4 or .mov file and that it meets the other
+  specifications for successful video processing. See :ref:`Specifications for
+  Successful Video Files`. Then upload the file, or a replacement file, again.
 
-on success
-on failure
-
-Course team checks Video Uploads page for status
-  - on success see a unique identifying ID for each video that they uploaded AND a link to play each transcoded file on the host platform
-  - on failure course team checks file for corruption and reuploads (if corrupt, need new file, if not, just reupload)
-
-
-
-xref to the "FYI" sectionn on Process by edX to transcode
-
-
-:ref:`Adding Videos to a Course`
-
-
-
-
-
-
+.. xref to the "FYI" section on Process by edX to transcode
