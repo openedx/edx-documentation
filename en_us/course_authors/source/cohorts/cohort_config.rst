@@ -224,6 +224,85 @@ student, review the student profile information for your course. See
 :ref:`View and download student data`.
 
 
+=======
+.. _Assign Students to Cohort Groups by uploading CSV:
+
+========================================================
+Assign Students to Cohort Groups by Uploading a CSV File
+========================================================
+
+In addition to assigning students to cohort groups by entering usernames or
+email addresses directly on the Membership page in the Instructor Dashboard, you
+can also upload a .csv file containing a list of students and the cohort groups
+you want to assign them to.
+
+.. note:: Any assignments to cohort groups that you specify in .csv files you
+   upload will overwrite or change existing cohort group assignments.
+
+.. note:: In the .csv file, each student must be identified by either a username
+   or an email address that can be matched with existing registration information.
+   If both a username and email address are provided for a student, only the email
+   address is used for matching and the username is ignored. The specified cohort
+   group names must already exist.
+
+The requirements for the .csv file are summarized in this table.
+
+.. list-table::
+    :widths: 15 30
+
+    * - **Requirement**
+      - **Notes**
+    * - Valid .csv file
+      - Must be a properly formatted comma-separated values file, with a file
+        extension of .csv and extra commas to indicate empty cells in columns.
+    * - UTF-8 encoded      
+      - Save your file with UTF-8 encoding so that Unicode characters are saved
+        and displayed correctly.
+    * - Header row      
+      - The csv file must have a header row, with column names exactly as
+        specified in "Columns" below.
+    * - Columns 
+      - At least 2 columns: 1) "email" or "username", or both; 2) "cohort". If
+        both the username and an email address are provided for a student, the
+        email address has precedence. In other words, if an email address is
+        present, an incorrect or non-matching username is ignored. Cohort names
+        must already have been created in Studio. Columns other than "Email",
+        "Username" and "Cohort" are ignored.
+
+Follow these steps to assign students to cohort groups by uploading a .csv file.     
+      
+#. View the live version of your course. For example, in Studio click **View
+   Live**.
+
+#. Click **Instructor**, then click **Membership**. 
+
+#. Scroll to the **Cohort Management** section at the bottom.
+
+#. Under **Assign Students to Cohort Groups by Uploading a CSV File**, click
+   **Browse** to navigate to the .csv file you want to upload. 
+
+#. Click **Upload File and Assign Students**. A status message is displayed
+   above the **Browse** button.
+
+#. Verify your upload results on the Data Download page. Under
+   **Reports Available for Download**, locate the link to a csv file named
+   "<CourseName>-cohort_results<DateTime>.csv" where <CourseName> is the name of
+   the course, and <DateTime> is the date and time of your file upload. 
+
+In the results file, for each cohort group specified in your uploaded file, a
+count is provided of the number of students added to the cohort group who were
+not previously in a cohort group, transferred from other cohort groups, or
+already present in the cohort group. The results file also indicates whether a
+cohort group exists: if it does not (a value of FALSE in the "Exists" column)
+then no action is taken for students you assigned to that group in the .csv
+file. "Students unknown" is the count of students who could not be matched by
+either username or email address.
+
+For a report that includes the cohort group assignment for every enrolled
+student, review the student profile information for your course. See
+:ref:`View and download student data`.
+
+
 .. _Altering Cohort Configuration:
 
 *****************************************************************
