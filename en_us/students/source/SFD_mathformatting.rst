@@ -59,14 +59,14 @@ Entering Math Expressions
 When you enter your plain text into the calculator or the response field,
 follow these guidelines:
 
-* **Arithmetric operations**: Use standard characters for addition (+),
+* **Arithmetical operations**: Use standard characters for addition (+),
   subtraction (-), multiplication (*), and division (/).
   
   * **Multiplication**: Be sure to indicate multiplication explicitly. That is,
     instead of ``mc^2`` type ``m*c^2``, and instead of ``5a+4b+3c`` type
     ``5*a+4*b+3*c``.
     
-* **Operation Order**: Use parentheses (``( )``) to specify the order of
+* **Operation order**: Use parentheses (``( )``) to specify the order of
   operations and to make your expression as clear as possible. Use curved
   parentheses (``( )``) only. Do not use brackets (``[ ]``) or braces (``{
   }``).
