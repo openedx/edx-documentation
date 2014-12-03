@@ -44,8 +44,6 @@ Before a student can enroll in a course, he or she must:
 As long as the course **Enrollment End Date** has not passed, students who
 have registered and activated user accounts can enroll themselves in
 ``www.edx.org`` courses, or can enroll in other courses if they know the URL.
-For a more detailed description of this process from a student's point of
-view, see :ref:`Sample Student Login Guide`.
 
 Course authors and instructors, however, can enroll students in a course either
 before or after the students register their user accounts.
@@ -179,6 +177,5 @@ To unenroll students, you supply the email addresses of enrolled students.
 5. Click **Unenroll**. The course is no longer listed on the students'
    **Current Courses** dashboards, and the students can no longer contribute to
    discussions or the wiki or access the courseware.
-
 
 .. _Using edX Insights: http://edx-insights.readthedocs.org/en/latest/

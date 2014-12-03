@@ -2558,6 +2558,7 @@ The following additional ``event`` member fields apply specifically to
 Discussion Forums Events
 ==========================
 
+<<<<<<< HEAD
 This section includes descriptions of the following events. 
 
 * ``edx.forum.comment.created``
@@ -2565,6 +2566,8 @@ This section includes descriptions of the following events.
 * ``edx.forum.searched``
 * ``edx.forum.thread.created``
 
+=======
+>>>>>>> Saudi Branch
 The server emits discussion forums events when a user interacts with a course
 discussion. This section presents the discussion forum events alphabetically.
 However, several of these events have hierarchical or sequential
@@ -3173,11 +3176,14 @@ the response.
 Third-Party Content Events
 ===========================
 
+<<<<<<< HEAD
 This section includes descriptions of the following events. 
 
 * ``edx.googlecomponent.calendar.displayed`` 
 * ``edx.googlecomponent.document.displayed``
 
+=======
+>>>>>>> Saudi Branch
 EdX courses can include components that present content that is hosted by a
 third party. The server emits events when third-party content is shown to
 students.
@@ -4049,7 +4055,10 @@ uploading a .csv file of student cohort assignments.
 
 .. _Creating Exercises and Tools: http://edx-partner-course-staff.readthedocs.org/en/latest/exercises_tools/index.html
 
+<<<<<<< HEAD
 .. _Working with Libraries: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/creating_content/libraries.html
 
 
 .. _Working with Video Components: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/creating_content/create_video.html#advanced-options
+=======
+>>>>>>> Saudi Branch

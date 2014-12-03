@@ -105,6 +105,7 @@ component.
    New Component** 
 
 #. Click **Advanced**, then click **Randomized Content Block**.
+
    The randomized content block is added to your unit.
 
 #. Click the **Edit** icon.
@@ -122,7 +123,6 @@ component.
   - For **Problem Type**, from the drop down list select a specific type of
     problem to be drawn from the library. Select **Any Type** if you do not want
     to specify a particular type of problem.
-
 
     .. image:: ../../../shared/building_and_running_chapters/Images/ContentLibraries_RCBSelectProblemType.png
      :alt: Problem type dropdown list in randomized content block settings    
@@ -228,8 +228,6 @@ a **Clear** icon is shown next to the setting field.
 
 Click the **Clear** icon to restore the library default setting for that field.
 
-
-
 .. _Get the Latest Version of Library Content:
 
 *********************************************
@@ -283,5 +281,3 @@ version in the library.
   up to date with the version in the library, click **Clear**.
 
   The value in that component field is reset to the current value in the library.
-
-
