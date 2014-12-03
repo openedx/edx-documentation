@@ -88,7 +88,7 @@ courses.
 For :ref:`video administrators<Identify Video Administrators>` to complete
 their periodic tasks using the YouTube CMS, they must have administrative
 access to your institution's YouTube account. Because access to the account is
-granted to email addresses, the edX video team works with one of your video
+granted to email addresses, the edX media team works with one of your video
 administrators to set up an email address specifically for this purpose and
 give it administrative privileges.
 
@@ -97,25 +97,27 @@ the video administrators.
 
 .. note:: No additional set up procedures are needed for the AWS account.
 
-#. Create a single Google email "gmail" account. The recommended format for the
-   account name is {institution ID}X-CMSmanager (followed by @gmail.com).
+#. Create a single Google email, or Gmail, account. The recommended format for
+   the account name is your institution's edx.org identifier followed by
+   "-CMSmanager". For example, ``HarvardX-CMSmanager@gmail.com`` or ``MITx-
+   CMSmanager@gmail.com``.
 
-#. Send the email address to a member of the edX video team.
+#. Send the email address to a member of the edX media team.
 
-   On receipt, an edX video team member adds the gmail address to the YouTube
+   On receipt, an edX meadia team member adds the Gmail address to the YouTube
    account and gives the account administrative privileges. This process
-   results in an activation message that is sent to the gmail account. Access
+   results in an activation message that is sent to the Gmail account. Access
    to the CMS account is not provided until activation is complete.
 
-3. Check the gmail account for the activation message from YouTube. These
-   messages are typically routed to the gmail "Social" inbox.
+3. Check the Gmail account for the activation message from YouTube. These
+   messages are typically routed to the Gmail "Social" inbox.
 
 #. To activate the account, click the "Visit the sign-up page" link in the
    email message. A browser opens to the YouTube signup page.
 
 #. Click **Use existing Google account**. You can now access the CMS account.
 
-All of the video administrators at an institution use the same gmail
+All of the video administrators at an institution use the same Gmail
 account to log in to the YouTube CMS. This approach helps ensure that staffing
 changes do not interrupt your institution's access to the YouTube account.
 
@@ -136,14 +138,13 @@ This procedure only needs to be completed once per course, but it must be
 complete before the course team begins to add videos to the course in
 Studio.
 
-#. In your browser, access the YouTube Creator Studio by going to
-   https://cms.youtube.com/.
+#. In your browser, access YouTube by going to https://cms.youtube.com.
 
-#. Use the video administrators' {institution ID}X-CMSmanager address
-   at gmail.com to log in to your institution's CMS account. The email address
-   that you log in with is the owner of any channels that you create.
+#. Use your institution's CMSmanager Gmail address for video administrators to
+   log in to the CMS account. The email address that you log in with is the
+   owner of any channels that you create.
 
-#. In the navigation bar at left click **CHANNELS**. A list of your
+#. In the navigation bar at left, click **CHANNELS**. A list of your
    institution's channels appears.
 
 #. Above the list of channels click **Create New**. A popup window opens.
@@ -160,7 +161,7 @@ Studio.
 #. Agree to the terms and then click **Done**. The list of channels now
    includes the channel that you just set up.
 
-You can now provide the YouTube channel ID to the edX video team when needed,
+You can now provide the YouTube channel ID to the edX media team when needed
 and give management access to the channel to members of the course team.
 
 .. _Locate the YouTube Channel ID:
@@ -170,16 +171,15 @@ Locate the YouTube Channel ID
 ==============================
 
 To store video files for a course in the correct YouTube channel, the edX video
-team needs to know the ID for the course's YouTube channel. If necessary, video
-administrators can locate this ID.
+team needs to know the ID for the course's YouTube channel. 
 
 #. In your browser, access the YouTube Creator Studio by going to
    https://cms.youtube.com/.
 
-#. Use the video administrators' {institution ID}X-CMSmanager address at
-   gmail.com to log in to your institution's CMS account.
+#. Use your institution's CMSmanager Gmail address for video administrators to
+   log in to the CMS account. 
 
-#. In the navigation bar at left click **CHANNELS**. A list of your
+#. In the navigation bar at left, click **CHANNELS**. A list of your
    institution's channels appears.
 
 #. Click the name of the channel. The page refreshes in your browser.  
@@ -191,11 +191,11 @@ administrators can locate this ID.
     :alt: Icon representing the YouTube channel found at top right of the
        Channels page
    
-6. Click the **YouTube settings** icon. The Account Settings Overview page
-   opens in your browser.
+6. Click the **YouTube settings** icon. A page with account settings opens in
+   your browser.
 	
-#. Under the channel name, click **Advanced**. The YouTube Channel ID appears
-   in the Account Information section of the page.
+#. Under the channel name, click **Advanced**. A page with advanced account
+   settings opens, including the YouTube Channel ID.
 
 .. _Add a Channel Manager:
 
@@ -203,16 +203,16 @@ administrators can locate this ID.
 Add a Channel Manager
 ======================
 
-After the edX video team processes the video files that are uploaded to Studio
-by a course team, the automated process that creates files in additional
-formats begins. This process gives the new files names that appear in Studio.
-Often, course teams prefer to identify the files with different names, which
-requires the file name to be changed where it is stored in the YouTube channel.
+After the edX media team receives the video files that are uploaded to Studio
+by a course team, an automated process begins to create files in additional
+formats. This process generates names that appear in Studio for the new files.
+Often, course teams prefer to rename these files, which must be done in the
+YouTube CMS.
 
-You can give a member of the course team management access to the channel in a
+You can give a member of the course team management access to a channel in a
 process that is similar to :ref:`establishing access to the YouTube
 account<Establish Access to YouTube Account>`. You obtain the email addresses
-of one or more of the course team members and invite them to manage the
+of one or more of the course team members and then invite them to manage the
 channel. Channel managers can only make changes to files in the channels that
 they can access.
 
@@ -220,7 +220,7 @@ they can access.
    Channel ID>` to log in to the YouTube Creator Studio and access a channel's
    settings.
 
-#. On the Account Settings Overview page, click **Add or remove managers**. A
+#. On the account information page, click **Add or remove managers**. A
    list of the current channel managers appears.
 
 #. Click **Add managers**. A popup opens.
@@ -237,6 +237,6 @@ they can access.
    YouTube account<Establish Access to YouTube Account>`.
 
 Course team members who complete the activation process are channel managers.
-When they log in to the YouTube CMS at https://cms.youtube.com/ with the
-privileged email address, they can access the course video files hosted by
-YouTube.
+When the email address with channel manager access is used to log in to the
+YouTube CMS at https://cms.youtube.com, course video files hosted by YouTube
+can be accessed and renamed.
