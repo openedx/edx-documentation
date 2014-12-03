@@ -3,7 +3,7 @@ Change Log
 ############
 
 *****************
-November, 2014
+December, 2014
 *****************
 
 .. list-table::
@@ -14,6 +14,20 @@ November, 2014
      - Change
    * - 12/02/14
      - Added email template for :ref:`Weekly Highlights` email to students.
+   * - 
+     - The :ref:`Bulk Email` section is now in the :ref:`Running Your Course Index` chapter.
+
+
+*****************
+November, 2014
+*****************
+
+.. list-table::
+   :widths: 10 70
+   :header-rows: 1
+
+   * - Date
+     - Change
    * - 11/20/14
      - Updated the :ref:`compression specifications<Compression
        Specifications>` for video files.
