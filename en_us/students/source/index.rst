@@ -13,6 +13,8 @@ edX Guide for Students
 
    preface
    SFD_introduction
+   SFD_video_player
+   SFD_google_docs
    SFD_certificates
    SFD_mobile
    SFD_video_player

@@ -27,6 +27,9 @@ December, 2014
 
    * - Date
      - Change
+   * - 12/31/14
+     - Added the :ref:`Google Calendar Tool` and :ref:`Google Drive Files
+       Tool` chapters.
    * - 12/19/14
      - Updated :ref:`Adding Course Updates and Handouts` and :ref:`The Visual
        Editor` to clarify that the visual editor is not supported for course
