@@ -15,6 +15,8 @@ Use the chapters in this section to create course components.
    annotation
    conditional_module
    full_screen_image
+   google_calendar
+   google_docs
    google_hangout
    graphical_slider_tool
    iframe
