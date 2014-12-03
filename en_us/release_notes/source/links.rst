@@ -7,6 +7,8 @@
 
 .. OLX Guide Links
 
+.. _Example of OLX for a Studio Course: http://edx-open-learning-xml.readthedocs.org/en/latest/studio-example/index.html#example-of-olx-for-a-studio-course
+
 .. _Graphical Slider Tool: http://edx-open-learning-xml.readthedocs.org/en/latest/problem-xml/graphical_slider_tool.html#graphical-slider-tool
 
 .. _Symbolic Response: http://edx-open-learning-xml.readthedocs.org/en/latest/problem-xml/symbolic_response.html#symbolic-response
@@ -42,11 +44,15 @@
 
 .. _Math Formatting: http://edx-guide-for-students.readthedocs.org/en/latest/SFD_mathformatting.html
 
+.. _Entering Mathematical and Scientific Expressions: http://edx-guide-for-students.readthedocs.org/en/latest/SFD_mathformatting.html#math-formatting
+
 .. Platform API guide links
 
 .. _edX Platform API Version 0.5: http://edx-platform-api.readthedocs.org/en/latest/index.html
 
 .. other links not yet categorized carefully
+
+.. _Weekly Highlights: http://edx-partner-course-staff.readthedocs.org/en/latest/running_course/bulk_email.html#weekly-highlights
 
 .. _Cohorts: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/cohorts/index.html
 
@@ -87,6 +93,12 @@
 
 
 .. _Using edX Insights: http://edx-insights.readthedocs.org/en/latest/
+
+.. _error conditions: http://edx-insights.readthedocs.org/en/latest/Reference.html#error-conditions
+
+.. _Enrollment Activity: http://edx-insights.readthedocs.org/en/latest/enrollment/Enrollment_Activity.html#enrollment-activity
+
+.. _Computation Reference: http://edx-insights.readthedocs.org/en/latest/Reference.html#reference
 
 .. _Installing, Configuring, and Running the edX Platform: http://edx.readthedocs.org/projects/edx-installing-configuring-and-running/en/latest/
 
@@ -290,6 +302,8 @@
 
 .. _Show Reset Button: http://edx-partner-course-staff.readthedocs.org/en/latest/creating_content/create_problem.html#show-reset-button
 
+.. _compression specifications: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/creating_content/create_video.html#compression-specifications
+
 
 .. Peer Assessments
 
@@ -316,6 +330,8 @@
 .. _event list: http://edx.readthedocs.org/projects/devdata/en/latest/internal_data_formats/event_list.html#event-list
 
 .. _Keys and Credentials for Data Transfers: http://edx.readthedocs.org/projects/devdata/en/latest/internal_data_formats/credentials.html
+
+.. _Testing Events for Content Experiments: http://edx.readthedocs.org/projects/devdata/en/latest/internal_data_formats/tracking_logs.html#ab-event-types
 
 .. Developer Doc
 
