@@ -1,10 +1,11 @@
 .. _Moderating Discussions for Cohorts:
 
+
 ##########################################################
-Managing Discussions in a Course with Student Cohorts
+Managing Discussions in Courses with Student Cohorts
 ##########################################################
 
-In a course that has the cohort feature enabled, every post has an indicator of
+In courses that have the cohort feature enabled, every post has an indicator of
 who can read it: either everyone, or only the members of a single cohort group.
 For students, this is the only noticeable difference between discussions in
 courses that include cohorts when compared to courses that don't. You can share
