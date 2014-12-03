@@ -1,0 +1,1 @@
+.. include:: ../../../shared/building_running_course/running_course/discussions_students.rst

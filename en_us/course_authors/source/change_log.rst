@@ -12,10 +12,8 @@ January, 2015
 
    * - Date
      - Change
-<<<<<<< HEAD
    * - 1/21/15
      - Added the :ref:`Cohorted Courseware Overview` section.
-=======
    * - 1/14/15
      - Added sections for :ref:`Content Libraries` and :ref:`Randomized Content
        Blocks`.       
@@ -30,7 +28,6 @@ January, 2015
    * - 
      - Added the :ref:`Google Calendar Tool` and :ref:`Google Drive Files
        Tool` chapters.
->>>>>>> Update change logs to reference new features
    * - 1/7/15
      - Added the :ref:`Rerun a Course` chapter.
 
