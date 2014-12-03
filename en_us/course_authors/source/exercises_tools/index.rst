@@ -29,6 +29,8 @@ Course Content Index`.
    external_graders
    full_screen_image
    gene_explorer
+   google_calendar
+   google_docs
    google_hangouts
    iframe
    image_mapped_input
