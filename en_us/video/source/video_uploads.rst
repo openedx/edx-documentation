@@ -59,6 +59,23 @@ TBD
 .. Specs for successful videos -- coming from Rachel
 .. - single video file, in .mp4 or .mov format, for each video
 .. - what file naming convention is recommended
+.. following taken verbatim from B&R create_video.rst
+
+Your video can contain whatever content you want. The `Producing Videos
+<https:/ /edge.edx.org/courses/edX/edX101/How_to_Create_an_edX_Course/coursewar
+e/93451eee15ed47b0a310c19020e8dc64/a1b0835e986b4283b0f8871d97babb9a/>`_
+section of our `edX101
+<https://edge.edx.org/courses/edX/edX101/How_to_Create_an_edX_Course/about>`_
+course has some helpful pointers for creating good video content.
+
+
+==================
+Supported Video Formats
+==================
+
+The automated processing that takes place at edX transforms each of your
+uploaded video files into several different formats. For this process to
+succeed, you must upload videos in .mp4 or .mov format.
 
 .. _Upload Video Files:
 
