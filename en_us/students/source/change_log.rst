@@ -12,13 +12,15 @@ Change Log
      - Change
    * - 1/20/14
      - Added iPhone information to :ref:`SFD Mobile`.
+   * - 12/31/14
+     - Added :ref:`Google Drive` topic.
    * - 12/12/14
      - Added :ref:`SFD Mobile` topic.
    * - 12/8/14
      - Added the preface and list of topics to the :ref:`Introduction` section.
    * - 12/4/14
-     - Added :ref:`SFD Wiki` topic.
-   * - 11/24/15
+     - Added :ref:`SFD Wiki` topic. 
+   * - 11/24/14
      - Updated information about superscripts and subscripts in :ref:`Math
        Formatting`.
    * - 11/10/14
