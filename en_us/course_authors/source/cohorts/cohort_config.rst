@@ -237,7 +237,13 @@ can also upload a .csv file containing a list of students and the cohort groups
 you want to assign them to.
 
 .. note:: Any assignments to cohort groups that you specify in .csv files you
-   upload will overwrite or change existing cohort group assignments.
+   upload will overwrite or change existing cohort group assignments. Ideally, the
+   configuration of your cohort groups should be complete and stable before your
+   course begins, and you should complete manual cohort assignments as soon as
+   possible after any student enrolls, including any enrollments that occur
+   while your course is running. To understand the impacts of changing cohort
+   assignments after your course has started, see :ref:`Altering Cohort
+   Configuration`.
 
 .. note:: In the .csv file, each student must be identified by either a username
    or an email address that can be matched with existing registration information.
@@ -267,7 +273,7 @@ The requirements for the .csv file are summarized in this table.
         email address has precedence. In other words, if an email address is
         present, an incorrect or non-matching username is ignored. Cohort names
         must already have been created in Studio. Columns other than "Email",
-        "Username" and "Cohort" are ignored.
+        "Username" and "Cohort" are ignored.    
 
 Follow these steps to assign students to cohort groups by uploading a .csv file.     
       
