@@ -7,12 +7,12 @@ Introduction
 Welcome to edX! We're glad you're taking a course with us and we hope you're as 
 excited as we are about online learning.
 
-To make the transition to online learning easier, we've put together this guide 
-to introduce you to edX. The guide shows you what courses look like and
-answers common questions around getting started, participating in course 
-discussions, completing exercises in your course, and receiving a 
-certificate. This guide is still under development, and we encourage you to 
-submit feedback to `docs@edx.org <mailto://docs@edx.org>`_.
+To make the transition to online learning easier, we've put together this guide
+with helpful information about taking an edX course. The guide shows you what
+courses look like and answers common questions around topics like certificates,
+getting started, participating in course discussions, and completing some kinds
+of exercises in your course. This guide is still under development, and we
+encourage you to submit feedback to `docs@edx.org <mailto://docs@edx.org>`_.
 
 Thanks for checking out this guide. We hope you enjoy your edX course!
 
