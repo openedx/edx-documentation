@@ -104,9 +104,9 @@ Video Administrator Access to the Account
 =========================================
 
 For :ref:`video administrators<Identify Video Administrators>` to use the
-YouTube CMS, they must have administrative access to your CMS account.
-Because access to the account is granted to email addresses, the edX media
-team works with one of your video administrators to set up an email address
+YouTube CMS, they must have administrative access to your CMS account. Because
+account access is granted to specific email addresses, the edX media team
+works with one of your video administrators to set up an email address
 specifically for this purpose and give it administrative privileges.
 
 This procedure only needs to be completed once and can be done by one of
@@ -118,8 +118,8 @@ Establishing Access to the Account
 
 #. Create a single Google email, or Gmail, account. The recommended format
    for the account name is your edx.org member identifier followed by
-   "-CMSmanager". For example, ``HarvardX-CMSmanager@gmail.com`` or ``MITx-
-   CMSmanager@gmail.com``.
+   "-CMSmanager". For example, ``HarvardX-CMSmanager@gmail.com`` or 
+   ``MITx-CMSmanager@gmail.com``.
 
 #. Send the email address to the edX media team at ``media@edx.org``.
 
