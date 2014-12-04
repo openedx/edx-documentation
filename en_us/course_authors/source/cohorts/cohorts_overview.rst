@@ -8,6 +8,13 @@ Cohorts create smaller communities of students within a course. Students who
 are in a cohort can communicate and share experiences privately within course
 discussion topics.
 
+By :ref:`enabling the cohort feature<Enabling and Configuring Cohorts>` in a
+course, you provide students with the ability to ask questions of, and have
+conversations with, other members of their cohort. Cohort-only discussion
+opportunities can help students develop a sense of community, provide
+specialized experiences, and encourage deeper, more meaningful course
+involvement.
+
 When you enable the cohort feature for your course, the discussion topics that
 you include in units by adding discussion components are divided by cohort.
 This means that each post that a student makes to those content-specific topics
@@ -115,7 +122,7 @@ your course determines which assignment option you will use for your course.
 .. _All Automated Assignment:
 
 =============================================================
-Making MOOC Discussions Manageable: Automated Assignment
+Automated Assignment: Making MOOC Discussions Manageable
 =============================================================
 
 In very large courses, the number of posts made to course discussion topics can
@@ -160,7 +167,7 @@ Strategy`.
 .. _All Manual Assignment:
 
 ==========================================================
-Grouping by Common Characteristic: Manual Assignment
+Manual Assignment: Grouping by Common Characteristics
 ==========================================================
 
 In SPOCs and other courses with small- to medium-sized enrollments, known
@@ -189,7 +196,7 @@ For more information, see :ref:`Implementing the Manual Assignment Strategy`.
 .. _Hybrid Assignment:
 
 =============================================================
-Accomodating Small Groups Within a Course: Hybrid Assignment
+Hybrid Assignment: Accommodating Small Groups Within a Course
 =============================================================
 
 For some courses, the manual assignment strategy isn't feasible to execute, and
@@ -228,7 +235,7 @@ Strategy` and :ref:`Implementing the Manual Assignment Strategy`.
 .. _Default Cohort Group:
 
 ==================================================================
-Assuring That All Students Are Assigned: The Default Cohort Group
+Ensuring That All Students Are Assigned: The Default Cohort Group
 ==================================================================
 
 In a course that has the cohort feature enabled, all students must be assigned
