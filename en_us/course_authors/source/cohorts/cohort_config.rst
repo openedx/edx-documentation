@@ -4,11 +4,11 @@
 Enabling and Configuring the Cohort Feature
 ############################################
 
-To support discussions that are divided by cohort, you select a strategy
-for assigning your students to cohort groups: automated assignment, manual
-assignment, or a hybrid approach. See :ref:`Options for Assigning Students to
-Cohorts`. You also decide whether to change any of the course-wide discussion
-topics so that they are divided by cohort instead of unified for all students. 
+To support cohorts in your course, you select a strategy for assigning your
+students to cohort groups: automated assignment, manual assignment, or a hybrid
+approach. See :ref:`Options for Assigning Students to Cohorts`. You also decide
+whether to change any of the course-wide discussion topics so that they are
+divided by cohort instead of unified for all students.
 
 After you select a strategy, you complete these configuration steps (as
 applicable):
@@ -86,8 +86,9 @@ of the cohort group they are assigned to. The message "This post is visible
 only to {cohort name}" appears with each post in discussion topics that are
 divided by cohort. See :ref:`Read the Cohort Indicator in Posts`.
 
-.. note:: You cannot delete cohort groups or change their names. If you need 
- to make changes to the way you have configured the cohort feature while your course is running, please see :ref:`Altering Cohort Configuration`.
+.. note:: You cannot delete cohort groups or change their names. If you need
+   to make changes to the way you have configured the cohort feature while your
+   course is running, please see :ref:`Altering Cohort Configuration`.
 
 #. Open the course in Studio. 
 
@@ -222,102 +223,6 @@ For a report that includes the cohort group assignment for every enrolled
 student, review the student profile information for your course. See
 :ref:`View and download student data`.
 
-.. _Identifying Private CourseWide Discussion Topics:
-
-*****************************************************************
-Configuring Course-Wide Discussion Topics As Divided
-*****************************************************************
-
-When you enable the cohort feature for a course, all of the course-wide
-discussion topics provide unified access to posts for all students. You can
-configure one or more of the course-wide topics to be divided by cohort
-instead.
-
-.. note:: The content-specific discussion topics in the course, which are 
- added to units as discussion components, are always divided by cohort.
-
-For more information about content-specific and course-wide discussion topics,
-see :ref:`Organizing_discussions`.
-
-Before you configure course-wide discussion topics to be divided by cohort, you
-add the topics in Studio. See :ref:`Create CourseWide Discussion Topics`. 
-
-In the example given for creating course-wide discussion topics, a single
-topic, Course Q&A, is added to the system-supplied General topic. The steps in
-the following procedure expand on that example: you have now decided to enable
-the cohort feature for your course. The posts that you intend to make to the
-Course Q&A and General topics, and the subjects you expect students to explore
-there, are appropriate for a unified student audience. However, you also want
-to give students some course-wide topics that are divided by cohort. You define
-two more course-wide discussion topics, Announcements and Brainstorming.
-
-You also decide to apply a naming convention so that students will know 
-the audience for their posts before they add them. See :ref:`Apply Naming
-Conventions to Discussion Topics`. 
-
-.. image:: ../Images/Discussion_Add_cohort_topics.png
- :alt: Discussion Topic Mapping field with four course-wide discussion topics 
-       defined
-
-.. _Configure CourseWide Discussion Topics as Private:
-
-======================================================
-Identify Divided Course-Wide Discussion Topics
-======================================================
-
-In the steps that follow, you configure two topics so that they are divided by
-cohort. On the Studio **Advanced Settings** page, the two topics appear as
-follows in the **Discussion Topic Mapping** field:
-
-.. code::
-
-      "Brainstorming (private)": {
-          "id": "i4x-edX-Open-edx_demo_course_brainstorming"
-      },
-      "Announcements (private)": {
-          "id": "i4x-edX-Open-edx_demo_course_announcements"
-      }
-
-#. Open the course in Studio. 
-
-#. Select **Settings**, then **Advanced Settings**.
-
-#. In the **Cohort Configuration** field, place your cursor after the opening
-   brace character (``{``) and press Enter.
-
-#. On the new line, you define the ``"cohorted_discussions":`` policy key,
-   followed by one or more course-wide discussion topic IDs enclosed by
-   square brackets (``[ ]``). You can define a set of discussion topics or just
-   one.
-
-   To define a set of topics, you type the value of the "id" for each
-   discussion topic on a new line, enclose it within quotation marks (``" "``),
-   and separate the quoted "id" values with commas. For example:
-
- .. code:: 
-
-   "cohorted_discussions": [
-       "i4x-edX-Open-edx_demo_course_announcements",
-       "i4x-edX-Open-edx_demo_course_brainstorming"
-   ]
-   
-.. this comment is here only to force allow indented formatting of next line
-
-  To specify a single discussion topic, type ``"cohorted_discussions": ["i4x-
-  test_doc-SB101-course-2014_Jan_announcements"]`` and then press Enter again.
-   
-5. Type a comma after the closing square bracket character (``],``). You must
-   include a comma to separate each of the policy keys that you define.
-   
-#. Click **Save Changes**. Studio resequences and reformats your entry. Scroll
-   back to the **Cohort Configuration** field to verify that your entry was
-   saved as you expect. Entries that do not contain all of the required
-   punctuation characters revert to the previous value when you save, and no
-   warning is presented.
-
- .. image:: ../Images/Configure_cohort_topic.png
-  :alt: Cohort Configuration dictionary field with the cohorted_discussions key
-        defined
 
 .. _Altering Cohort Configuration:
 
