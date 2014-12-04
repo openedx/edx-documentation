@@ -24,11 +24,8 @@ Specifications for Successful Video Files
 ***************************************************
 
 Your videos can contain whatever content you want to include in the course.
-The `Creating Videos <https://courses.edx.org/courses/edX/edX101/2014/coursewa
-re/c2a1714627a945afaceabdfb651088cf/9dd6e5fdf64b49a89feac208ab544760/>`_
-section of `edX101 Overview of Creating an edX Course
-<https://www.edx.org/node/5496#.VH8p51fF_FA>`_ has some helpful pointers for
-creating good video content.
+The `Creating Videos`_ section of `edX101 Overview of Creating an edX Course`_
+has some helpful pointers for creating good video content.
 
 =========================
 Supported Video Formats
@@ -97,7 +94,8 @@ This procedure needs to be completed only once per course in Studio.
    entered to indent it on a new line.
    
  .. image:: Images/Enable_video_upload.png
-  :alt: Video Upload Credentials field with the policy key and token
+  :alt: Video Upload Credentials field with the course_video_upload_token
+      policy key and a token value
 
 #. Refresh your browser page. The Studio **Content** menu updates to include
    the **Video Uploads** option.
@@ -165,3 +163,7 @@ appears in the Previous Uploads section of the Video Uploads page.
 
 
 .. xref to the "FYI" section on Process by edX to transcode
+
+.. _Creating Videos: https://courses.edx.org/courses/edX/edX101/2014/courseware/c2a1714627a945afaceabdfb651088cf/9dd6e5fdf64b49a89feac208ab544760/
+
+.. _edX101 Overview of Creating an edX Course: https://www.edx.org/node/5496#.VH8p51fF_FA
