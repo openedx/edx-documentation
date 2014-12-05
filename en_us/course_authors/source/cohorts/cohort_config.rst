@@ -244,11 +244,6 @@ you want to assign them to.
    assignments after your course has started, see :ref:`Altering Cohort
    Configuration`.
 
-.. note:: In the .csv file, each student must be identified by either a username
-   or an email address that can be matched with existing registration information.
-   If both a username and email address are provided for a student, only the email
-   address is used for matching and the username is ignored. The specified cohort
-   group names must already exist.
 
 The requirements for the .csv file are summarized in this table.
 
@@ -258,54 +253,93 @@ The requirements for the .csv file are summarized in this table.
     * - **Requirement**
       - **Notes**
     * - Valid .csv file
-      - Must be a properly formatted comma-separated values file, with a file
-        extension of .csv and extra commas to indicate empty cells in columns.
-    * - UTF-8 encoded      
-      - Save your file with UTF-8 encoding so that Unicode characters are saved
-        and displayed correctly.
-    * - Header row      
-      - The csv file must have a header row, with column names exactly as
+
+      - Must be a properly formatted comma-separated values file: 
+
+        * The file extension is .csv.
+        * Empty cells in columns are indicated using extra commas.
+          
+    * - UTF-8 encoded
+      
+      - Must be saved with UTF-8 encoding so that Unicode characters
+        display correctly. 
+
+        See :ref:`Creating a Unicode Encoded CSV File`.
+
+    * - Header row
+      - Must have a header row, with column names exactly as
         specified in "Columns" below.
     * - Columns 
-      - At least 2 columns: 1) "email" or "username", or both; 2) "cohort". If
-        both the username and an email address are provided for a student, the
-        email address has precedence. In other words, if an email address is
-        present, an incorrect or non-matching username is ignored. Cohort names
-        must already have been created in Studio. Columns other than "Email",
-        "Username" and "Cohort" are ignored.    
+  
+      - Must have at least 2 columns: 1) "email" or "username", or both; 2)
+        "cohort".
+
+        * If both the username and an email address are provided for a
+          student, the email address has precedence. In other words, if an email address
+          is present, an incorrect or non-matching username is ignored.
+
+        * Cohort names must already have been created in Studio.       
+        * Columns other than "Email", "Username" and "Cohort" are ignored.
 
 Follow these steps to assign students to cohort groups by uploading a .csv file.     
       
-#. View the live version of your course. For example, in Studio click **View
+#. View the live version of your course. For example, in Studio, click **View
    Live**.
 
 #. Click **Instructor**, then click **Membership**. 
 
 #. Scroll to the **Cohort Management** section at the bottom.
 
-#. Under **Assign Students to Cohort Groups by Uploading a CSV File**, click
+#. Under **Assign students to cohort groups by uploading a CSV file**, click
    **Browse** to navigate to the .csv file you want to upload. 
 
 #. Click **Upload File and Assign Students**. A status message is displayed
    above the **Browse** button.
 
-#. Verify your upload results on the Data Download page. Under
-   **Reports Available for Download**, locate the link to a csv file named
-   "<CourseName>-cohort_results<DateTime>.csv" where <CourseName> is the name of
-   the course, and <DateTime> is the date and time of your file upload. 
+#. Verify your upload results on the **Data Download** page. 
 
-In the results file, for each cohort group specified in your uploaded file, a
-count is provided of the number of students added to the cohort group who were
-not previously in a cohort group, transferred from other cohort groups, or
-already present in the cohort group. The results file also indicates whether a
-cohort group exists: if it does not (a value of FALSE in the "Exists" column)
-then no action is taken for students you assigned to that group in the .csv
-file. "Students unknown" is the count of students who could not be matched by
-either username or email address.
+   Under **Reports Available for Download**, locate the link to a csv file with
+   "cohort_results" and the date and time of your upload in the filename. The
+   list of available reports is sorted chronologically, with the most recently
+   generated files at the top.
 
+The results file provides the following information:  
+
+.. list-table::
+    :widths: 15 30
+
+    * - **Column**
+      - **Description**
+    * - Cohort Group
+      - The name of the cohort group to which you are assigning students.
+    * - Exists
+      - Whether the cohort group was found in the system. TRUE/FALSE. 
+      
+        If the cohort group was not found (value is FALSE), no action is taken for students you assigned to that group in the .csv file.
+
+    * - Students Added
+      - The number of students added to the cohort group as a result of the .csv upload.
+    * - Students Not Found
+      - The number of students who could not be matched by either email address or username and therefore were not added to the cohort group.          
 For a report that includes the cohort group assignment for every enrolled
 student, review the student profile information for your course. See
 :ref:`View and download student data`.
+
+
+.. _Creating a Unicode Encoded CSV File:
+
+====================================
+Creating a Unicode-encoded CSV File
+====================================
+
+Make sure .csv files that you upload are encoded as UTF-8, so that any Unicode
+characters (for example, in usernames) are correctly saved and displayed.
+
+.. note:: Some spreadsheet applications (for example, MS Excel) do not allow you
+   to specify encoding when you save a spreadsheet as a .csv file. To ensure that
+   you are able to create a .csv file that is UTF-8 encoded, use a spreadsheet
+   application such as Google Sheets, LibreOffice, or Apache OpenOffice.
+
 
 
 .. _Altering Cohort Configuration:
