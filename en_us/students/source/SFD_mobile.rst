@@ -1,8 +1,11 @@
-.. _SFD Mobile FAQ:
+.. _SFD Mobile:
 
 ########################
-edX Mobile App FAQ
+The edX Mobile App
 ########################
+
+The edX mobile app is currently available for Android devices. For more
+information, check the frequently asked questions below.
 
 .. _General Questions:
 
@@ -14,46 +17,35 @@ General Questions
 How do I get the mobile app?
 ================================
 
-This beta version of the mobile app is only available for a few select courses.
-If you're registered for a course that's available on the mobile app, the
-instructor for the course will send or post a link that you can use to join the
-**edX Android Beta Testers** Google group. You can then install the edX mobile
-app by using either your mobile device or your computer.
+You can download and install the Android app from the Google Play store to
+either your Android smartphone or your computer.
 
 Install the edX Mobile App Using Your Mobile Device
 ************************************************************
 
-#. Click the link that you've received from your instructor to access the **edX
-   Android Beta Testers** Google group.
-#. On the **EdX Android Beta Testers** Google group page, tap **Join Group**.
-#. In the dialog box that opens, select the options that you want, and then tap
-   **Join this group**.
-#. On the group's home page, tap the **Announcing edX beta app for Android
-   smartphone** post.
-#. On the **Announcing edX beta app for Android smartphone** page, tap the link
-   to the app in the Google Play store.
-#. On the app's page in the Google Play store, tap **Become a Tester**.
-#. Tap the link under **Get the test version** to download the app from the
-   Google Play store.
-#. On the app's page in the Google Play store, tap **Install**, and then tap
-   **Accept** to allow the app to access your device.
-#. When the app finishes installing, click **Open**.
+
+#. On your Android phone, tap **Play Store**.
+#. Sign in to your Google account, or create a new account.
+#. When the Play Store opens, tap the magnifying glass icon in the upper-right
+   corner of the screen.
+#. In the **Search Google Play** box, type ``edx``.
+#. In the list of apps that match ``edx``, tap **edX**.
+#. On the edX app page, tap **Install**.
+#. In the screen that opens, tap **Accept**. The download and installation
+   process begins.
+#. When the app has finished installing, tap **Open**.
+#. When the login screen opens, log in to your edX account, or create a new edX account.
 
 
 Install the edX Mobile App Using Your Computer
 ***************************************************
 
-#. Click the link that you've received from your instructor to access the **edX
-   Android Beta Testers** Google group.
-#. On the **EdX Android Beta Testers** Google group page, click **Join Group**.
-#. In the dialog box that opens, select the options that you want, and then
-   click **Join this group**.
-#. On the group's home page, click the link to the app in the Google Play store.
-#. On the app's page in the Google Play store, click **Become a Tester**.
-#. Click the link under **Get the test version** to download the app from the
-   Google Play store.
-#. Click **Install**. In the dialog box that opens, select the devices that you
-   want to install the app on, and then click **OK**.
+#. On your computer, go to the `Google Play Store <https://play.google.com>`_.
+#. In the **Search** box at the top of the page, type ``edx``.
+#. In the list of apps that match ``edx``, click **edX**.
+#. On the edX app page, click **Install**. 
+#. In the screen that opens, select the devices that you want to install the app
+   on, click **Install**, and then click **OK**.
 #. When you a see a message saying that the app has been installed, go to your
    device. Check the app list on your device for the edX app.
 
@@ -68,41 +60,28 @@ The app is free. You don't have to pay or buy anything to download or use it.
 What platforms does the app run on?
 ========================================
 
-Our current beta app is available for Android smartphones. We're also working to
+Our current app is available for Android smartphones. We're also working to
 make it available on Android tablets, iPhones, and iPads.
 
 ================================================
-Which courses are available in the mobile app?
+How do I find courses to take on the mobile app?
 ================================================
 
-The following courses are currently available for the mobile beta. We'll be
-adding more courses over the next few weeks, so check the **EdX Android Beta
-Testers** Google group page for updates.
+When you open the app and sign in to your edX account, you see a list of the
+mobile-friendly courses you're currently enrolled in.
 
-* `edX - DemoX <https://www.edx.org/course/edx/edx-
-  demox-1-demox-4116#.VCGNfytdUZY>`_: A fun and interactive course designed to
-  help you get to know the edX learning experience. Perfect to take before you
-  start another course.
+To find a new course, scroll to the end of the list of your courses, and then
+tap **Find a mobile-friendly course**.
 
-* `MITx 6.002x - Circuits and Electronics
-  <https://www.edx.org/course/mitx/mitx-6-002x-circuits-
-  electronics-2606#.VDKwoSldV58>`_: A course that teaches the fundamentals of
-  circuit and electronic analysis.
-
-* `MITx 4.605x - A Global History of Architecture — Part 1
-  <https://www.edx.org/course/mitx/mitx-4-605x-global-history-
-  architecture-2721#.VDKwoildV58>`_: A history of architecture from a global
-  perspective.
-
-* `DelftX ET.3034TU - Solar Energy <https://www.edx.org/course/delftx/delftx-et-
-  3034tu-solar-energy-1996#.VDKwpCldV58>`_: A course that allows students to
-  discover the power of solar energy and design a complete photovoltaic system.
+Currently, only select courses are offered on the edX mobile app. We're working
+hard to make all edX courses mobile-friendly and we're adding more mobile
+courses every day, so check back soon to see new available courses.
 
 ========================================================
 Can I take a course entirely on my mobile device?
 ========================================================
 
-This beta version of our mobile app is a companion app that you can use to watch
+This version of our mobile app is a companion app that you can use to watch
 course videos and see announcements and handouts. To complete readings, homework
 problems, and exams, you can tap **View on Web** in the bottom right corner of
 any screen to access the content in your browser, or you can complete
@@ -203,7 +182,7 @@ video.
 How can I make the video full screen?
 ========================================
 
-Tilt your phone until the video changes to landscape, or tap the full screen
+Rotate your phone until the video changes to landscape, or tap the full screen
 icon in the bottom right corner of the video screen.
 
 .. image:: /Images/Mob_FullScreenIcon.png

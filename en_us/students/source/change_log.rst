@@ -10,6 +10,8 @@ Change Log
 
    * - Date
      - Change
+   * - 12/12/14
+     - Added :ref:`SFD Mobile` topic.
    * - 12/8/14
      - Added the preface and list of topics to the :ref:`Introduction` section.
    * - 12/4/14
