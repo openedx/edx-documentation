@@ -257,8 +257,8 @@ The requirements for the .csv file are summarized in this table.
       - Must be a properly formatted comma-separated values file: 
 
         * The file extension is .csv.
-        * Empty cells in columns are indicated using extra commas.
-          
+        * Every row must have the same number of commas, whether or not there
+          are values in each cell.          
     * - UTF-8 encoded
       
       - Must be saved with UTF-8 encoding so that Unicode characters
@@ -298,7 +298,7 @@ Follow these steps to assign students to cohort groups by uploading a .csv file.
 
 #. Verify your upload results on the **Data Download** page. 
 
-   Under **Reports Available for Download**, locate the link to a csv file with
+   Under **Reports Available for Download**, locate the link to a .csv file with
    "cohort_results" and the date and time of your upload in the filename. The
    list of available reports is sorted chronologically, with the most recently
    generated files at the top.
@@ -317,10 +317,13 @@ The results file provides the following information:
       
         If the cohort group was not found (value is FALSE), no action is taken for students you assigned to that group in the .csv file.
 
-    * - Students Added
-      - The number of students added to the cohort group as a result of the .csv upload.
-    * - Students Not Found
-      - The number of students who could not be matched by either email address or username and therefore were not added to the cohort group.          
+    * - Students Added   
+      - The number of students added to the cohort group as a result of the .csv
+        upload.     
+    * - Students Not Found      
+      - The number of students who could not be matched by either email address
+        or username and who were therefore not added to the cohort group.
+             
 For a report that includes the cohort group assignment for every enrolled
 student, review the student profile information for your course. See
 :ref:`View and download student data`.
