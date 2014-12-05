@@ -132,6 +132,8 @@ Studio<Enable Video Upload in Studio>`.
   to access. You can monitor file statuses during automated processing. See
   :ref:`Monitor Video Processing`.
 
+  .. note:: Automated processing takes 24 hours to complete.
+
 * For files that encounter a problem, verify that the file is in .mp4 or .mov
   format and meets the other specifications for successful video processing.
   See :ref:`Specifications for Successful Video Files`. Then try uploading the
@@ -158,7 +160,7 @@ appears in the Previous Uploads section of the Video Uploads page.
   can play your original .mp4 or .mov file and that it meets the other
   specifications for successful video processing. See :ref:`Specifications for
   Successful Video Files`. Upload the file, or a replacement file, again. If
-  processing fails repeatedly for a file, contact the edX media team at
+  processing fails more than once for a file, contact the edX media team at
   ``media@edx.org``.
 
 
