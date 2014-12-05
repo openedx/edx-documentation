@@ -41,12 +41,9 @@ see :ref:`Video Advanced Options` under :ref:`Create a Video Component`.
 Step 1. Create the Video
 ************************
 
-Your video can contain whatever content you want. The `Producing Videos
-<https:/ /edge.edx.org/courses/edX/edX101/How_to_Create_an_edX_Course/coursewar
-e/93451eee15ed47b0a310c19020e8dc64/a1b0835e986b4283b0f8871d97babb9a/>`_
-section of our `edX101
-<https://edge.edx.org/courses/edX/edX101/How_to_Create_an_edX_Course/about>`_
-course has some helpful pointers for creating good video content.
+Your videos can contain whatever content you want to include in the course. The
+`Creating Videos`_ section of `edX101 Overview of Creating an edX Course`_ has
+some helpful pointers for creating good video content.
 
 .. _Compression Specifications:
 
@@ -522,3 +519,7 @@ in the video component.
    would only enter **Lecture1a**.
 #. Set the other options that you want.
 #. Click **Save**.
+
+.. _Creating Videos: https://courses.edx.org/courses/edX/edX101/2014/courseware/c2a1714627a945afaceabdfb651088cf/9dd6e5fdf64b49a89feac208ab544760/
+
+.. _edX101 Overview of Creating an edX Course: https://www.edx.org/node/5496#.VH8p51fF_FA
