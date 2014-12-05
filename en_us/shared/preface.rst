@@ -42,6 +42,14 @@ Course teams include faculty, instructional designers, course staff, discussion
 moderators, and others who contribute to the creation and delivery of courses
 on edx.org or edX Edge.
 
+edX101: Overview of Creating a Course
+-------------------------------------
+
+The `edX101`_ course was built in Studio and is available for enrollment on
+edx.org. This course takes one to two hours to complete, and is designed to
+provide a high-level overview of the course creation and delivery process. It
+also highlights the extensive capabilities of the edX platform.
+
 Documentation
 -------------
 
@@ -65,7 +73,9 @@ Documentation for course teams is available on the docs.edx.org web page.
   peer- and self- evaluations of responses to a question. Note that this new
   feature is in limited release.
 
-* `edX Open Learning XML Guide`_ provides guidelines for building edX courses with Open Learning XML (OLX). Note that this guide is currently an Alpha version.
+* `edX Open Learning XML Guide`_ provides guidelines for building edX courses
+  with Open Learning XML (OLX). Note that this guide is currently an Alpha
+  version.
 
 These guides open in your web browser. The left side of each page includes a
 **Search docs** field and links to that guide's contents. To open or save a PDF
@@ -285,3 +295,4 @@ edX Global Community meetup_ group.
 .. _openedx-ops: http://groups.google.com/forum/#!forum/openedx-ops
 .. _openedx-translation: http://groups.google.com/forum/#!forum/openedx-translation
 .. _edx-code: http://groups.google.com/forum/#!forum/edx-code
+.. _edx101: https://www.edx.org/course/overview-creating-edx-course-edx-edx101#.VIIJbWTF_yM
