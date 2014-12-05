@@ -224,7 +224,6 @@ student, review the student profile information for your course. See
 :ref:`View and download student data`.
 
 
-=======
 .. _Assign Students to Cohort Groups by uploading CSV:
 
 ========================================================
