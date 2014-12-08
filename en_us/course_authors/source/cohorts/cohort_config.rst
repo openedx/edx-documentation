@@ -235,15 +235,13 @@ email addresses directly on the Membership page in the Instructor Dashboard, you
 can also upload a .csv file containing a list of students and the cohort groups
 you want to assign them to.
 
-.. note:: Any assignments to cohort groups that you specify in .csv files you
-   upload will overwrite or change existing cohort group assignments. Ideally, the
-   configuration of your cohort groups should be complete and stable before your
-   course begins, and you should complete manual cohort assignments as soon as
-   possible after any student enrolls, including any enrollments that occur
-   while your course is running. To understand the impacts of changing cohort
-   assignments after your course has started, see :ref:`Altering Cohort
-   Configuration`.
-
+.. note:: Any assignments to cohort groups that you specify in the .csv files
+  you upload will overwrite or change existing cohort group assignments. The
+  configuration of your cohort groups should be complete and stable before your
+  course begins. You should also complete manual cohort assignments as soon as
+  possible after any student enrolls, including any enrollments that occur while
+  your course is running. To understand the effects of changing cohort assignments
+  after your course has started, see :ref:`Altering Cohort Configuration`.
 
 The requirements for the .csv file are summarized in this table.
 
@@ -254,23 +252,23 @@ The requirements for the .csv file are summarized in this table.
       - **Notes**
     * - Valid .csv file
 
-      - Must be a properly formatted comma-separated values file: 
+      - The file must be a properly formatted comma-separated values file: 
 
         * The file extension is .csv.
         * Every row must have the same number of commas, whether or not there
           are values in each cell.          
     * - UTF-8 encoded
       
-      - Must be saved with UTF-8 encoding so that Unicode characters
+      - You must save the file with UTF-8 encoding so that Unicode characters
         display correctly. 
 
         See :ref:`Creating a Unicode Encoded CSV File`.
 
     * - Header row
-      - Must have a header row, with column names exactly as
+      - You must include a header row, with column names exactly as
         specified in "Columns" below.
     * - One or two columns identifying students      
-      - Must have at least one column identifying students: 
+      - You must include at least one column identifying students: 
         
         either "email" or "username", or both. 
 
@@ -280,9 +278,13 @@ The requirements for the .csv file are summarized in this table.
         In other words, if an email address is present, an incorrect or non-
         matching username is ignored.
 
-    * - One column identifying the cohort group      
-      - The column must be named "cohort", containing cohort groups already
-        existing in Studio.     
+    * - One column identifying the cohort group
+            
+      - You must include one column named "cohort" to identify the cohort group
+        to which you are assigning each student. 
+
+        The specified cohort groups must already exist in Studio.
+
     * -             
       - Columns other than "Email", "Username" and "Cohort" are ignored.
 
