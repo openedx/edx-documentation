@@ -269,24 +269,23 @@ The requirements for the .csv file are summarized in this table.
         specified in "Columns" below.
     * - One or two columns identifying students      
       - You must include at least one column identifying students: 
-        
-        either "email" or "username", or both. 
+        either "Email" or "Username", or both. 
 
         If both the username and an email address are provided for a student,
         the email address has precedence. 
-
+        
         In other words, if an email address is present, an incorrect or non-
         matching username is ignored.
 
     * - One column identifying the cohort group
             
-      - You must include one column named "cohort" to identify the cohort group
+      - You must include one column named "Cohort" to identify the cohort group
         to which you are assigning each student. 
-
         The specified cohort groups must already exist in Studio.
 
-    * -             
-      - Columns other than "Email", "Username" and "Cohort" are ignored.
+    * -                        
+      - Columns with headings other than "Email", "Username" and "Cohort" are
+        ignored.
 
 Follow these steps to assign students to cohort groups by uploading a .csv file.     
       
@@ -300,7 +299,7 @@ Follow these steps to assign students to cohort groups by uploading a .csv file.
 #. Under **Assign students to cohort groups by uploading a CSV file**, click
    **Browse** to navigate to the .csv file you want to upload. 
 
-#. Click **Upload File and Assign Students**. A status message is displayed
+#. Click **Upload File and Assign Students**. A status message displays
    above the **Browse** button.
 
 #. Verify your upload results on the **Data Download** page. 
