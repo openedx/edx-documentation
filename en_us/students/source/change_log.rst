@@ -10,6 +10,8 @@ Change Log
 
    * - Date
      - Change
+   * - 12/8/14
+     - Added :ref:`Google Docs` topic.
    * - 12/4/14
      - Added :ref:`SFD Wiki` topic.
    * - 11/24/15
