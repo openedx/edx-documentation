@@ -7,14 +7,31 @@ Introduction
 Welcome to edX! We're glad you're taking a course with us and we hope you're as 
 excited as we are about online learning.
 
-To make the transition to online learning easier, we've put together this guide
-with helpful information about taking an edX course. The guide shows you what
-courses look like and answers common questions around topics like certificates,
-getting started, participating in course discussions, and completing some kinds
-of exercises in your course. This guide is still under development, and we
-encourage you to submit feedback to `docs@edx.org <mailto://docs@edx.org>`_.
+The purpose of this guide is to help with your transition to online learning.
+The guide answers common questions about topics like earning certificates,
+getting started, participating in course discussions, and completing some of the
+exercises you may see in your course.
 
-Thanks for checking out this guide. We hope you enjoy your edX course!
+For more information, see the following topics.
+
+* :ref:`Certificates` - Covers the different types of certificates edX offers,
+  how to change your certificate type, and when you receive your certificate.
+* :ref:`Video Player` - Contains an illustration of the edX video player and its
+  features.
+* :ref:`Math Formatting` - Offers detailed information about how to enter
+  mathematical and scientific formulas when you work through exercises in your
+  course.
+* :ref:`SFD_ORA` - Contains a detailed description of open response assessment
+  problems, including how to submit a response, perform each step of a self or
+  peer assessment, and access your score.
+* :ref:`Course Discussions Index` - Provides information about how to
+  participate in the discussions for your course, including how to add a post,
+  respond to a post, and comment on another student's response.
+* :ref:`SFD Wiki` - Covers information about an edX course wiki.
+
+This guide is still under development, and we encourage you to submit feedback
+to `docs@edx.org <mailto://docs@edx.org>`_.
+
 
 .. _Time Zones:
 

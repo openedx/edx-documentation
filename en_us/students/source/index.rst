@@ -11,6 +11,7 @@ edX Guide for Students
    :numbered:
    :maxdepth: 2
 
+   preface
    SFD_introduction
    SFD_certificates
    SFD_video_player
