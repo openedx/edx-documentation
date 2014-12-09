@@ -235,13 +235,23 @@ email addresses directly on the Membership page in the Instructor Dashboard, you
 can also upload a .csv file containing a list of students and the cohort groups
 you want to assign them to.
 
-.. note:: Any assignments to cohort groups that you specify in the .csv files
-  you upload will overwrite or change existing cohort group assignments. The
-  configuration of your cohort groups should be complete and stable before your
-  course begins. You should also complete manual cohort assignments as soon as
-  possible after any student enrolls, including any enrollments that occur while
-  your course is running. To understand the effects of changing cohort assignments
-  after your course has started, see :ref:`Altering Cohort Configuration`.
+Any assignments to cohort groups that you specify in the .csv files you upload
+will overwrite or change existing cohort group assignments. The configuration of
+your cohort groups should be complete and stable before your course begins. You
+should also complete manual cohort assignments as soon as possible after any
+student enrolls, including any enrollments that occur while your course is
+running. To understand the effects of changing cohort assignments after your
+course has started, see :ref:`Altering Cohort Configuration`.
+
+.. note:: Be aware that the contents of the .csv file are processed row by row,
+ from top to bottom, and each row is treated independently. For example, if your
+ .csv file contains conflicting information such as Student A being first
+ assigned to Cohort Group 1, then later in the spreadsheet being assigned to
+ Cohort Group 2, the end result of your .csv upload is that Student A is assigned
+ to Cohort Group 2. However, the upload results file will count  Student A twice
+ in the "Students Added" count, once when they are added to  Cohort Group 1, and
+ again when they are added to Cohort Group 2. Before submitting a file for
+ upload, check it carefully for errors.
 
 The requirements for the .csv file are summarized in this table.
 
@@ -256,7 +266,9 @@ The requirements for the .csv file are summarized in this table.
 
         * The file extension is .csv.
         * Every row must have the same number of commas, whether or not there
-          are values in each cell.          
+          are values in each cell. 
+    * - File size
+      - The file size of .csv files for upload is limited to a maximum of 2MB.               
     * - UTF-8 encoded
       
       - You must save the file with UTF-8 encoding so that Unicode characters
@@ -280,7 +292,8 @@ The requirements for the .csv file are summarized in this table.
     * - One column identifying the cohort group
             
       - You must include one column named "Cohort" to identify the cohort group
-        to which you are assigning each student. 
+        to which you are assigning each student.
+
         The specified cohort groups must already exist in Studio.
 
     * -                        
@@ -323,9 +336,9 @@ The results file provides the following information:
       
         If the cohort group was not found (value is FALSE), no action is taken for students you assigned to that group in the .csv file.
 
-    * - Students Added   
-      - The number of students added to the cohort group as a result of the .csv
-        upload.     
+    * - Students Added
+      - The number of students added to the cohort group during the row by row
+        processing of the .csv file.             
     * - Students Not Found      
       - The number of students who could not be matched by either email address
         or username and who were therefore not added to the cohort group.
