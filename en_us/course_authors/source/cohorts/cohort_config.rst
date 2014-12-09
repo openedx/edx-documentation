@@ -339,8 +339,9 @@ The results file provides the following information:
     * - Students Added
       - The number of students added to the cohort group during the row by row
         processing of the .csv file.             
-    * - Students Not Found      
-      - The number of students who could not be matched by either email address
+    * - Students Not Found
+      - A list of email addresses or usernames (if email addresses were not
+        supplied) of students who could not be matched by either email address
         or username and who were therefore not added to the cohort group.
              
 For a report that includes the cohort group assignment for every enrolled
