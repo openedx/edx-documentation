@@ -248,8 +248,8 @@ course has started, see :ref:`Altering Cohort Configuration`.
  .csv file contains conflicting information such as Student A being first
  assigned to Cohort Group 1, then later in the spreadsheet being assigned to
  Cohort Group 2, the end result of your .csv upload is that Student A is assigned
- to Cohort Group 2. However, the upload results file will count  Student A twice
- in the "Students Added" count, once when they are added to  Cohort Group 1, and
+ to Cohort Group 2. However, the upload results file will count Student A twice
+ in the "Students Added" count: once when they are added to Cohort Group 1, and
  again when they are added to Cohort Group 2. Before submitting a file for
  upload, check it carefully for errors.
 
