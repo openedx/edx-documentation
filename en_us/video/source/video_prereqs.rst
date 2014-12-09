@@ -39,7 +39,7 @@ your video files.
 
 .. note:: The edX automation process does not include captioning services. 
  Your course teams use your institution's current workflow to generate
- transcripts for your video files. See the sectio on `creating a video
+ transcripts for your video files. See the section on `creating a video
  transcript`_ in the *Building and Running an edX Course* guide.
 
 ===================================
@@ -55,13 +55,17 @@ the edX media team to make sure that these preparatory tasks are complete.
 
 * :ref:`Create YouTube Channels`
 
-When these preliminary tasks are complete, your course teams can upload
-original video files in .mp4 or .mov format to Studio. After your files upload
-successfully, an automated process starts to create the additional file
-formats and upload the files to YouTube and AWS, so that your videos are ready
-for students to access and download. This automated process takes 24 hours to
-complete. You can track the status of your files as they upload and go through
-automated processing on the Video Uploads page in Studio.
+* :ref:`Add a Channel Manager`
+
+* :ref:`Enable Video Upload in Studio` 
+
+When these tasks are complete, your course teams can upload original video
+files in .mp4 or .mov format to Studio. After video files upload successfully,
+an automated process starts to create additional file formats and transfer the
+files to YouTube and AWS, so that the videos are ready for students to access
+and download. The automated process takes 24 hours to complete. Course teams
+can track file status on the Studio **Video Uploads** page as the videos
+upload to edX and then go through automated processing.
 
 .. important:: The tasks described in this section rely on the use of
  third-party tools and software. Because these tools are subject to change by
@@ -84,17 +88,14 @@ videos associated with those channels, and YouTube’s reporting tools. In
 general, the CMS enables an administrator to:
 
 * Manage ownership of files hosted on YouTube.
-* Create multiple YouTube channels that are linked to your YouTube account.
-* Download reports and other analytics that measure views.
-
-Video administrators also work with members of the edX media team and course
-teams to distribute information and resolve questions about video files. A
-video administrator can complete these tasks.
-
-* :ref:`Create a YouTube channel<Create YouTube Channels>` for each course. 
-
+* :ref:`Create a YouTube channel<Create YouTube Channels>` that is linked to
+  your YouTube account for each course.
 * :ref:`Grant management access<Add a Channel Manager>` to each YouTube
   channel to members of the corresponding course team.
+* Download reports and other analytics that measure views.
+
+Video administrators also work with course teams and the edX media team to
+distribute information and resolve questions about video files. 
 
 EdX recommends that organizations identify specific individuals to be the
 video administrators for all of your courses. By working with the edX team
@@ -216,8 +217,14 @@ Add a Channel Manager
 About Channel Managers
 ===============================
 
-After video files are uploaded to Studio by a course team, an automated
-process begins to complete these processes.
+Video administrators can give members of course teams management access to a
+channel in a process that is similar to :ref:`establishing access to the
+YouTube account<Establish Access to YouTube Account>`. To do so, they obtain
+the email addresses of one or more of the course team members and then invite
+them to manage the channel.
+
+After a course team uploads video files to Studio, an automated process begins
+to complete these tasks.
 
 * Create video files in additional formats for optimal web and mobile
   delivery.
@@ -234,12 +241,6 @@ Multiple members of each course team can manage a YouTube channel without
 sharing an email address and password. Channel managers can rename or
 otherwise change files only in the channels that they can access. To manage a
 YouTube channel, your email address must be given management access.
-
-Video administrators can give members of course teams management access to a
-channel in a process that is similar to :ref:`establishing access to the
-YouTube account<Establish Access to YouTube Account>`. To do so, they obtain
-the email addresses of one or more of the course team members and then invite
-them to manage the channel.
 
 ===============================
 Adding a Channel Manager
@@ -285,5 +286,17 @@ Adding a Channel Manager
 Course team members who complete the activation process are channel managers.
 When they log in to the YouTube CMS at https://cms.youtube.com with the email
 address that has channel manager privileges, they can manage course content.
+
+.. _Enable Video Upload in Studio:
+
+*******************************
+Enable Video Upload in Studio
+*******************************
+
+The last task that video administrators complete before a course team can
+begin to upload videos is to work with the edX media team to enable the video
+upload feature in Studio. Contact the edX media team at ``media@edx.org`` to
+coordinate completion of this final preparatory step.
+
 
 .. _creating a video transcript: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/creating_content/create_video.html#step-2-create-or-obtain-a-video-transcript

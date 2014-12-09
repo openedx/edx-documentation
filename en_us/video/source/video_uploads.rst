@@ -12,8 +12,6 @@ files, how course teams enable the video upload process in Studio, and how
 course teams upload the files.
 
 * :ref:`Specifications for Successful Video Files` 
-  
-* :ref:`Enable Video Upload in Studio` 
 
 * :ref:`Upload Video Files`  
 
@@ -67,40 +65,40 @@ For best results, your video files should have these compression specifications.
  uses the PAL system, you export at 25 fps instead of the NTSC standard of
  29.97 fps.
 
-.. _Enable Video Upload in Studio:
+.. _Enable Video Upload in Studio2:
 
-******************************
-Enable Video Upload in Studio
-******************************
+.. ******************************
+.. Enable Video Upload in Studio
+.. ******************************
 
-This procedure needs to be completed only once per course in Studio.
+.. This procedure needs to be completed only once per course in Studio.
 
-#. Work with your institution's video administrator to obtain the edX video
+.. #. Work with your institution's video administrator to obtain the edX video
    identifier for your course. The edX media team defines a unique video
    identifier for each course.
 
-#. Open the course in Studio. 
+.. #. Open the course in Studio. 
 
-#. Select **Settings**, then **Advanced Settings**.
+.. #. Select **Settings**, then **Advanced Settings**.
 
-#. In the **Video Upload Credentials** field, place your cursor between the
+.. #. In the **Video Upload Credentials** field, place your cursor between the
    supplied pair of braces.
 
-#. Type ``"course_video_upload_token": "xxxx"`` where ``xxxx`` is the unique
+.. #. Type ``"course_video_upload_token": "xxxx"`` where ``xxxx`` is the unique
    edX identifier for your course. This ID value is an 8-20 character hash
    string.
 
-#. Click **Save Changes**. Studio reformats the name:value pair you just
+.. #. Click **Save Changes**. Studio reformats the name:value pair you just
    entered to indent it on a new line.
    
  .. image:: Images/Enable_video_upload.png
   :alt: Video Upload Credentials field with the course_video_upload_token
       policy key and a token value
 
-#. Refresh your browser page. The Studio **Content** menu updates to include
+.. #. Refresh your browser page. The Studio **Content** menu updates to include
    the **Video Uploads** option.
 
-Team members can then begin to :ref:`upload video files<Upload Video Files>`.
+.. Team members can then begin to :ref:`upload video files<Upload Video Files>`.
 
 .. _Upload Video Files:
 
@@ -108,8 +106,8 @@ Team members can then begin to :ref:`upload video files<Upload Video Files>`.
 Upload Video Files 
 ***************************
 
-Before you upload video files, you must :ref:`enable this feature in
-Studio<Enable Video Upload in Studio>`.
+Before you can upload video files, this feature must be 
+:ref:`enabled in Studio<Enable Video Upload in Studio>`.
 
 #. Open the course in Studio. 
 
@@ -126,11 +124,17 @@ Studio<Enable Video Upload in Studio>`.
 
 .. You can use your browser to navigate to other pages while upload is in progress. Return to the Video Uploads page periodically to refresh the status for each file.
 
-* For files that upload successfully, automated processing begins. The process
-  results in additional video file formats, which are then transferred
-  to multiple hosting services (YouTube CMS and Amazon AWS), ready for students
-  to access. You can monitor file statuses during automated processing. See
-  :ref:`Monitor Video Processing`.
+.. important:: You must leave the **Video Uploads** page open in your browser 
+ until the upload process is complete for all files.
+
+ The file upload process is complete when files upload successfully or fail
+ to upload.
+
+* For files that upload successfully, automated processing begins at edX.
+  Automated processing results in additional video file formats, which are
+  then transferred to multiple hosting services (YouTube CMS and Amazon AWS),
+  ready for students to access. You can monitor file statuses during automated
+  processing. See :ref:`Monitor Video Processing`.
 
   .. note:: Automated processing takes 24 hours to complete.
 
