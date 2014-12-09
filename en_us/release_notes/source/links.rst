@@ -46,6 +46,10 @@
 
 .. _Entering Mathematical and Scientific Expressions: http://edx-guide-for-students.readthedocs.org/en/latest/SFD_mathformatting.html#math-formatting
 
+.. _Preface: http://edx-guide-for-students.readthedocs.org/en/latest/preface.html
+
+.. _Course Wiki: http://edx-guide-for-students.readthedocs.org/en/latest/SFD_wiki.html
+
 .. Platform API guide links
 
 .. _edX Platform API Version 0.5: http://edx-platform-api.readthedocs.org/en/latest/index.html
@@ -73,6 +77,8 @@
 .. _edX Edge: https://edge.edx.org
 
 .. _edX Video Player: http://edx-guide-for-students.readthedocs.org/en/latest/SFD_video_player.html
+
+.. _edX101: https://www.edx.org/course/overview-creating-edx-course-edx-edx101#.VIIJbWTF_yM
 
 .. _edx.org: http://edx.org
 
