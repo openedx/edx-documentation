@@ -306,6 +306,9 @@ The following options appear on the **Advanced** tab in the video component.
         students by using the **Upload Handout** field. For more information,
         see :ref:`Additional Transcripts`.
 
+    * - **EdX Video ID**
+      - An optional field used only by course teams that are working with
+        edX to process and host video files.
     * - **Show Transcript**
       - Specifies whether the transcript plays along with the video by default.
     * - **Transcript Languages**
