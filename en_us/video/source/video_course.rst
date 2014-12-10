@@ -41,71 +41,46 @@ Copy the edX Video ID
 Add the edX Video ID to a Video Component
 ************************************************
 
-This section describes the process that you follow in place of the `Step 4.
-Create a Video Component`_ section in the *Building and Running an edX Course*
-guide. This section assumes that you are familiar with the process described in
-the `Developing Your Course`_ chapter.
+This section describes the process that course teams follow in place of the
+`Step 4. Create a Video Component`_ section in the *Building and Running an
+edX Course* guide. This section assumes that you are familiar with the process
+described in the `Developing Your Course`_ chapter.
 
 You complete these steps in Studio.
 
 #. From the **Content** menu select **Outline**. The **Course Outline** page
    opens.
 
-#. Select or add a unit, and then click **Video** to add a video component. To
-   edit an existing video component, locate the video component window and then
-   click **Edit**. The Editing: Video popup opens to the Basic tab.
+#. Select or add a unit, and then click **Video** to add a video component. 
    
-#. In the **Component Display Name** field, enter the identifying name that you
+   To edit an existing video component, locate the video component window and
+   then click **Edit**. The Editing: Video popup opens to the Basic tab.
+   
+3. In the **Component Display Name** field, enter the identifying name that you
    want students to see for this video.
 
-#. Delete the value in the **Default Video URL** field. This field must be
-   blank.
-
-5. At the top of the Editing: Video popup click **Advanced**. Additional fields
+#. At the top of the Editing: Video popup click **Advanced**. Additional fields
    appear below the **Component Display Name** and **Default Timed Transcript**
    fields.
 
 #. Scroll down to the **EdX Video ID** field and paste in the ID of the video
    file that you want to play. See :ref:`Copy the edX Video ID`.
 
+   When you supply a valid edX video ID in this field, it overrides values in
+   the **Default Video URL**, **Video File URLs**, and the **YouTube ID**
+   fields.
+
 #. Set the **Video Download Allowed** field to **True** or **False** to define
    whether students can download this video.
 
-.. %%%%% Rachel is that ^ correct? should they always select True?
+#. Click **Save**. The referenced video appears in the video component.
 
-11. Do not supply any values for the **Video File URLs** field. This field must
-    be blank.
-
-#. Optionally, supply a **Video Start Time** or a **Video Stop Time** if you
-   do not want the entire video to play.
-
-#. Do not supply any values for the **YouTube ID** speed fields. These fields
-   must remain blank.
-
-#. Click **Save**.
-
-
-
-#. To supply captions for the video, you select one of the options for the
-   **Default Timed Transcript** field.
-
-.. Rachel is that ^ correct, or should they always use the Upload New Transcript option (and not the Import YouTube Transcript option)?
-
-   Captions are required for all videos. See `Step 2. Create or Obtain a Video
-   Transcript`_ in the *Building and Running an edX Course* guide.
-
-
-#. Complete the **Download Transcript Allowed** and **Downloadable Transcript
-   URL** fields.
-   
-#. Complete the **Show Transcript** and **Transcript Languages** fields.
-
-#. Optionally, in the **Upload Handout** field include an accompanying file in
-   any format.
+For information about completing a video component by adding a transcript, see
+the `Step 2. Create or Obtain a Video Transcript`_ section in the *Building
+and Running an edX Course* guide.
 
 
 .. _Step 2. Create or Obtain a Video Transcript: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/creating_content/create_video.html#step-2-create-or-obtain-a-video-transcript
-
 
 .. _Step 4. Create a Video Component: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/creating_content/create_video.html#step-4-create-a-video-component
 
