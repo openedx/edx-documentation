@@ -224,6 +224,148 @@ student, review the student profile information for your course. See
 :ref:`View and download student data`.
 
 
+.. _Assign Students to Cohort Groups by uploading CSV:
+
+========================================================
+Assign Students to Cohort Groups by Uploading a CSV File
+========================================================
+
+In addition to assigning students to cohort groups by entering usernames or
+email addresses directly on the Membership page in the Instructor Dashboard, you
+can also upload a .csv file containing a list of students and the cohort groups
+you want to assign them to.
+
+Any assignments to cohort groups that you specify in the .csv files you upload
+will overwrite or change existing cohort group assignments. The configuration of
+your cohort groups should be complete and stable before your course begins. You
+should also complete manual cohort assignments as soon as possible after any
+student enrolls, including any enrollments that occur while your course is
+running. To understand the effects of changing cohort assignments after your
+course has started, see :ref:`Altering Cohort Configuration`.
+
+.. note:: Be aware that the contents of the .csv file are processed row by row,
+ from top to bottom, and each row is treated independently. For example, if your
+ .csv file contains conflicting information such as Student A being first
+ assigned to Cohort Group 1, then later in the spreadsheet being assigned to
+ Cohort Group 2, the end result of your .csv upload is that Student A is assigned
+ to Cohort Group 2. However, the upload results file will count Student A twice
+ in the "Students Added" count: once when they are added to Cohort Group 1, and
+ again when they are added to Cohort Group 2. Before submitting a file for
+ upload, check it carefully for errors.
+
+The requirements for the .csv file are summarized in this table.
+
+.. list-table::
+    :widths: 15 30
+
+    * - **Requirement**
+      - **Notes**
+    * - Valid .csv file
+
+      - The file must be a properly formatted comma-separated values file: 
+
+        * The file extension is .csv.
+        * Every row must have the same number of commas, whether or not there
+          are values in each cell. 
+    * - File size
+      - The file size of .csv files for upload is limited to a maximum of 2MB.               
+    * - UTF-8 encoded
+      
+      - You must save the file with UTF-8 encoding so that Unicode characters
+        display correctly. 
+
+        See :ref:`Creating a Unicode Encoded CSV File`.
+
+    * - Header row
+      - You must include a header row, with column names exactly as
+        specified in "Columns" below.
+    * - One or two columns identifying students      
+      - You must include at least one column identifying students: 
+        either "Email" or "Username", or both. 
+
+        If both the username and an email address are provided for a student,
+        the email address has precedence. 
+        
+        In other words, if an email address is present, an incorrect or non-
+        matching username is ignored.
+
+    * - One column identifying the cohort group
+            
+      - You must include one column named "Cohort" to identify the cohort group
+        to which you are assigning each student.
+
+        The specified cohort groups must already exist in Studio.
+
+    * -                        
+      - Columns with headings other than "Email", "Username" and "Cohort" are
+        ignored.
+
+Follow these steps to assign students to cohort groups by uploading a .csv file.     
+      
+#. View the live version of your course. For example, in Studio, click **View
+   Live**.
+
+#. Click **Instructor**, then click **Membership**. 
+
+#. Scroll to the **Cohort Management** section at the bottom.
+
+#. Under **Assign students to cohort groups by uploading a CSV file**, click
+   **Browse** to navigate to the .csv file you want to upload. 
+
+#. Click **Upload File and Assign Students**. A status message displays
+   above the **Browse** button.
+
+#. Verify your upload results on the **Data Download** page. 
+
+   Under **Reports Available for Download**, locate the link to a .csv file with
+   "cohort_results" and the date and time of your upload in the filename. The
+   list of available reports is sorted chronologically, with the most recently
+   generated files at the top.
+
+The results file provides the following information:  
+
+.. list-table::
+    :widths: 15 30
+
+    * - **Column**
+      - **Description**
+    * - Cohort Group
+      - The name of the cohort group to which you are assigning students.
+    * - Exists
+      - Whether the cohort group was found in the system. TRUE/FALSE. 
+      
+        If the cohort group was not found (value is FALSE), no action is taken for students you assigned to that group in the .csv file.
+
+    * - Students Added
+      - The number of students added to the cohort group during the row by row
+        processing of the .csv file.             
+    * - Students Not Found
+      - A list of email addresses or usernames (if email addresses were not
+        supplied) of students who could not be matched by either email address
+        or username and who were therefore not added to the cohort group.
+             
+For a report that includes the cohort group assignment for every enrolled
+student, review the student profile information for your course. See
+:ref:`View and download student data`.
+
+
+.. _Creating a Unicode Encoded CSV File:
+
+====================================
+Creating a Unicode-encoded CSV File
+====================================
+
+Make sure the .csv files that you upload are encoded as UTF-8, so that any
+Unicode characters (for example, in usernames) are correctly saved and
+displayed.
+
+.. note:: Some spreadsheet applications (for example, MS Excel) do not allow you
+   to specify encoding when you save a spreadsheet as a .csv file. To ensure that
+   you are able to create a .csv file that is UTF-8 encoded, use a spreadsheet
+   application such as Google Sheets, LibreOffice, or Apache OpenOffice.
+
+
+
 .. _Altering Cohort Configuration:
 
 *****************************************************************
