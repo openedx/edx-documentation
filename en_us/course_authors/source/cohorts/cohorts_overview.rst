@@ -17,13 +17,14 @@ meaningful course involvement.
 
 When you enable the cohort feature for your course, discussion topics within
 units (added as discussion components) are by default divided by cohort. This
-means that each post that a student makes to these content-specific topics can
-only be read and responded to by members of the same cohort. In contrast, any
-course-wide discussion topics that you set up for your course are by default
-unified. This means that all posts can be read, and responded to, by every
-student. You can configure your course-wide or content-specific topics so that
-some, or all, of the discussion topics at either level are divided by cohort or
-unified. See :ref:`Set up Discussions in Cohorted Courses`.
+means that when a student in a cohort group creates a post on a content-specific
+topic, only members of that same cohort group can read and respond to the post.
+In contrast, any course-wide discussion topics that you set up for your course
+are by default unified. This means that every student, regardless of their
+cohort group, can read and respond to all posts in course-wide discussions. You
+can configure your course-wide or content-specific topics so that some, or all,
+of the discussion topics at either level are divided by cohort or unified. See
+:ref:`Set up Discussions in Cohorted Courses`.
 
 This section also describes your options for :ref:`assigning students to cohort
 groups<Options for Assigning Students to Cohorts>`. When you enable the cohort

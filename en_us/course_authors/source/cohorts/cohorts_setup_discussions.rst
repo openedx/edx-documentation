@@ -61,13 +61,12 @@ how to achieve this, see :ref:`Apply Naming Conventions to Discussion Topics`.
 Define Divided Course-Wide Discussion Topics
 ======================================================
 
-This procedure shows how to configure the Brainstorming and Announcements
+This procedure describes how you configure the Brainstorming and Announcements
 course-wide discussion topics (from the example in :ref:`Identifying Private
 CourseWide Discussion Topics`) so that they are divided by cohort.
 
 On the Studio **Advanced Settings** page, details of the two topics appear as
-follows in the **Discussion Topic Mapping** field. You use the ID for each
-discussion topic to identify it in the steps that follow.
+follows in the **Discussion Topic Mapping** field. 
 
 .. code::
 
@@ -77,6 +76,9 @@ discussion topic to identify it in the steps that follow.
       "Announcements (private)": {
           "id": "i4x-edX-Open-edx_demo_course_announcements"
       }
+
+You use the ID for each discussion topic to identify it in the steps that
+follow.
 
 #. Open the course in Studio. 
 
@@ -134,9 +136,9 @@ group cannot read or add to the posts, responses, or comments contributed by the
 members of another cohort group.
 
 If you want all content-specific discussion topics in your course to remain
-cohorted, you do not need to take any further action. However, if you want one
-or more content-specific discussion topics to be accessible to all students
-regardless of cohort, you must perform some configuration tasks.
+divided by cohort, you do not need to take any further action. However, if you
+want one or more content-specific discussion topics to be accessible to all
+students regardless of cohort, you must perform some configuration tasks.
 
 =====================================================================
 Example: Configuring Content-Specific Discussion Topics as Unified
@@ -180,7 +182,10 @@ This procedure shows how to make all content-specific discussion topics in a cou
  .. image:: ../Images/cohort_config_always_inline.png
   :alt: Cohort Configuration dictionary field with the cohort key set as true and the always cohort inline discussions key set as false
 
-6. Scroll back to the **Cohort Configuration** field to verify that your entry was saved as you expect. Entries that do not contain all of the required punctuation characters revert to the previous value when you save, and no warning is presented.
+6. Scroll back to the **Cohort Configuration** field to verify that your entry
+   was saved as you expect. Entries that do not contain all of the required
+   punctuation characters revert to the previous value when you save, and no
+   warning is presented.
 
 
 .. _Specify Cohorted Discussions as Exceptions:
@@ -189,7 +194,7 @@ This procedure shows how to make all content-specific discussion topics in a cou
 Specify Exceptions to Unified Discussion Topics
 ================================================================
 
-This procedure shows how, if you have made all content-specific discussion
+This procedure describes how, if you have made all content-specific discussion
 topics in your course unified by default, you can specify exceptions, and
 indicate which content-specific discussion topics should be divided by cohort.
 
