@@ -19,7 +19,7 @@ connectivity constraints, can be a complex undertaking.
   from more than one host site. 
 
 * For a video to play on different devices, including both desktop computers
-  and smart phones, it needs to be available in several different formats.
+  and smartphones, it needs to be available in several different formats.
 
 To help course teams at partner institutions meet the challenge of delivering
 high quality video experiences to as many students as possible, edX offers
@@ -212,42 +212,14 @@ Add a Channel Manager
 ************************************
 
 Video administrators can grant management access to each YouTube channel to
-members of the corresponding course team.
+members of the corresponding course team. Management access allows team
+members to perform limited administrative tasks, such as revising YouTube
+titles or changing a video’s thumbnail. To provide these permissions, a video
+administrator obtains the email addresses of one or more course team members
+and invites them to manage the channel.
 
 .. note:: Video administrators use YouTube, but not the YouTube CMS, to add
  channel managers.
-
-===============================
-About Channel Managers
-===============================
-
-Video administrators can give members of course teams management access to a
-channel. To do so, they obtain the email addresses of one or more of the
-course team members and then invite them to manage the channel.
-
-After a course team uploads video files to Studio, an automated process begins
-to complete these tasks.
-
-* Create video files in additional formats for optimal web and mobile
-  delivery.
-
-* Upload files to the designated course YouTube channel.
-
-* Upload files to Amazon Web Services (AWS).
-
-This process also gives each file a unique identifying name. Often, course
-teams prefer to rename these files, which requires a video administrator to
-change each file name in the YouTube CMS.
-
-You can invite multiple members of each course team to manage the YouTube
-channel for their course. They do not need to share an email address and
-password. Channel managers can rename or otherwise change files only in the
-channels that they can access. To manage a YouTube channel, your email address
-must be given management access.
-
-===============================
-Adding a Channel Manager
-===============================
 
 #. In your browser, use the CMSmanager email address to sign in to YouTube at
    https://www.youtube.com. A list of the channels in your account appears.
@@ -275,7 +247,8 @@ Adding a Channel Manager
 
 Course team members who complete the activation process are channel managers.
 When they log in to the YouTube CMS at https://cms.youtube.com with the email
-address that has channel manager privileges, they can manage course content.
+address that has been given channel manager privileges, they can manage
+channel content.
 
 .. _Enable Video Upload in Studio:
 
