@@ -33,7 +33,7 @@ Example: Configuring Course-Wide Discussion Topics As Divided
 =============================================================
 
 This example assumes that you have added three course-wide discussion topics
-called Course Q&A, Announcements, and Brainstorming, to your course, so that in
+called Course Q&A, Announcements, and Brainstorming to your course, so that in
 addition to the system-supplied General topic, you have four course-wide
 discussion topics. 
 
@@ -89,11 +89,14 @@ discussion topic to identify it in the steps that follow.
    followed by one or more course-wide discussion topic IDs enclosed by
    square brackets (``[ ]``). You can define just one discussion topic or a set of discussion topics.
 
-   For example, to define a single discussion topic, type ``"cohorted_discussions": ["discussion-topic-ID"]``, replacing "discussion-topic-ID" with your discussion topic's ID, and then press Enter.
+   For example, to define a single discussion topic, type
+   ``"cohorted_discussions": ["discussion-topic-ID"]``, putting your discussion
+   topic's ID inside the double quotations marks in place of the example ID.
+   Press Enter.
 
-   To define a set of topics, type the value of the "id" for each discussion
-   topic on a new line, enclose it within quotation marks (``" "``), and
-   separate the quoted "id" values with commas. For example:
+   To define a set of topics, type the ID for each discussion topic on a new
+   line, enclose it within quotation marks (``" "``), and separate the quoted ID
+   values with commas. For example:
 
  .. code:: 
 
@@ -113,11 +116,10 @@ discussion topic to identify it in the steps that follow.
   :alt: Cohort Configuration dictionary field with the cohorted_discussions key
         defined
 
-7. Scroll
-   back to the **Cohort Configuration** field to verify that your entry was
-   saved as you expect. Entries that do not contain all of the required
-   punctuation characters revert to the previous value when you save, and no
-   warning is presented.
+7. Scroll back to the **Cohort Configuration** field to verify that your
+   entry was saved as you expect. Entries that do not contain all of the
+   required punctuation characters revert to the previous value when you save,
+   and no warning is presented.
 
 
 **********************************************
@@ -133,7 +135,7 @@ members of another cohort group.
 
 If you want all content-specific discussion topics in your course to remain
 cohorted, you do not need to take any further action. However, if you want one
-ore more content-specific discussion topics to be accessible to all students
+or more content-specific discussion topics to be accessible to all students
 regardless of cohort, you must perform some configuration tasks.
 
 =====================================================================
@@ -159,9 +161,6 @@ Make All Content-Specific Discussion Topics Unified by Default
 .. note:: If you want all content-specific discussion topics in your course to
   be divided by cohort, you do not need to perform any configuration.
 
-.. If you want any of your content-specific discussion topics to be unified rather than divided by cohort, add the always_cohort_inline_discussions policy key in the Cohort Configuration advanced setting field, and set the value to FALSE. 
-.. Then, any discussion topics that you create by adding discussion components in units are unified when they are created. If you want particular content-specific discussion topics to be divided by cohort, you add their discussion IDs to the cohorted_discussions definition in ??which setting??
-
 This procedure shows how to make all content-specific discussion topics in a course unified by default. 
 
 #. Open your course in Studio. 
@@ -169,7 +168,7 @@ This procedure shows how to make all content-specific discussion topics in a cou
 #. Select **Settings**, then **Advanced Settings**.
 
 #. In the **Cohort Configuration** field, place your cursor after the opening
-   brace character (``{``) and after any existing policy key definitions. then press **Enter**.
+   brace character (``{``) and after any existing policy key definitions, then press **Enter**.
 
 #. Press **Enter** to create a new line. On the new line, type
    
@@ -194,15 +193,25 @@ This procedure shows how, if you have made all content-specific discussion
 topics in your course unified by default, you can specify exceptions, and
 indicate which content-specific discussion topics should be divided by cohort.
 
-#. Open your course in Studio.
-#. For any discussion components that you want to specify as divided by cohort, click **Edit** to open the component editor, and copy or make a note of each topic's Discussion ID.
+#. Open your course in Studio. 
+   
+#. To specify a discussion topic as divided by cohort, find the discussion
+component in the component editor in Studio, then copy or make a
+note of its **Discussion ID**.
+
+.. image:: ../Images/DiscussionID.png
 
 #. If you make any changes in the component editor, click **Save** to save your changes.
 #. Select **Settings**, then **Advanced Settings**.
 
-#. In the **Cohort Configuration** field, if the ``cohorted_discussions`` policy key does not already exist, type ``"cohorted_discussions":``, followed by one or more course-wide discussion topic IDs enclosed by square brackets (``[ ]``). You can define a set of discussion topics or just one.
+#. In the **Cohort Configuration** field, if the ``cohorted_discussions`` policy
+   key does not already exist, type ``"cohorted_discussions":``, followed by one
+   or more course-wide discussion topic IDs enclosed by square brackets (``[
+   ]``). You can define a set of discussion topics or just one.
 
-   For example, to define a single discussion topic, type ``"cohorted_discussions": ["discussion-topic-ID"]``, replacing "discussion-topic-ID" with your discussion topic's ID, and then press Enter.
+   For example, to define a single discussion topic, type
+   ``"cohorted_discussions": ["discussion-topic-ID"]``, replacing ``"discussion-
+   topic-ID"`` with your discussion topic's ID, and then press Enter.
 
    To define a set of topics, type the value of the "id" for each discussion
    topic on a new line, enclose it within quotation marks (``" "``), and
@@ -224,10 +233,10 @@ indicate which content-specific discussion topics should be divided by cohort.
 
 .. Adding a line to force a line space
 
-7. If "cohorted_discussions" is followed by other policy keys within the
+7. If ``"cohorted_discussions"`` is followed by other policy keys within the
    **Cohort Configuration** field, make sure there is a comma after the closing
-   square bracket character (``],``). You must include a comma to separate each of
-   the policy keys that you define.
+   square bracket character (``],``). You must include a comma to separate each
+   policy key that you define.
 
  .. image:: ../Images/cohort_config_cohorted_discussions.png
   :alt: Cohort Configuration dictionary field with the cohort key set as true, the always cohort inline discussions key set as false, and two discussion topics IDs entered under the cohorted discussions policy key

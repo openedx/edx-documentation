@@ -8,7 +8,7 @@ Enabling and Configuring the Cohorts Feature
 To support cohorts in your course, you select a strategy for assigning your
 students to cohort groups: automated assignment, manual assignment, or a hybrid
 approach. See :ref:`Options for Assigning Students to Cohorts`. You also decide
-whether course-wide or content-specific discussion topics should be divided by
+whether course-wide and content-specific discussion topics should be divided by
 cohort or unified for all students.
 
 After you select a strategy, you complete these configuration steps (as

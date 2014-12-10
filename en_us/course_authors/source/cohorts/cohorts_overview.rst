@@ -87,7 +87,7 @@ to a group are a cohort.
 
 These guidelines, which are based on the experiences of MOOC teams that have
 used the cohort feature in this way, are suggested to help you determine how
-many auto cohort groups to define for your course.
+many automatic cohort groups to define for your course.
 
 * Each cohort should be large enough to inspire lively participation and
   diverse points of view, but small enough to allow a sense of community to
@@ -99,12 +99,12 @@ many auto cohort groups to define for your course.
 
 * Divide the estimated total enrollment of the course run by 10,000.
 
-* Use the result as the number of auto cohort groups to create.
+* Use the result as the number of automatic cohort groups to create.
 
 For example, two days before it starts, a course has an enrollment of 80,000
 students. To create small communities within the discussions, the course team
-enables the cohort feature and creates eight auto cohort groups. As they visit
-the **Discussion** page and view the discussion components in the course
+enables the cohort feature and creates eight automatic cohort groups. As they
+visit the **Discussion** page and view the discussion components in the course
 content, students are assigned to one of the cohorts. In divided discussion
 topics, students read and respond to contributions made by other members of the
 same cohort only.
@@ -133,11 +133,11 @@ each student to one of the manual cohort groups. Every student who enrolls,
 including those who enroll after the course starts, must be assigned to a
 cohort group.
 
-.. note:: To ensure that every student is assigned to a cohort group, you can 
- set up a single auto cohort group, as described for the :ref:`hybrid
- assignment strategy<Hybrid Assignment>`. If you do not create an auto cohort
- group, the system automatically creates a :ref:`default cohort group<Default
- Cohort Group>` and assignes students to it if necessary.
+.. note:: To ensure that every student is assigned to a cohort group, you can
+   set up a single automatic cohort group, as described for the :ref:`hybrid
+   assignment strategy<Hybrid Assignment>`. If you do not create an auto cohort
+   group, the system automatically creates a :ref:`default cohort group<Default
+   Cohort Group>` and assignes students to it if necessary.
 
 For more information, see :ref:`Implementing the Manual Assignment Strategy`.
 
