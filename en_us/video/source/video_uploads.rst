@@ -65,8 +65,6 @@ For best results, your video files should have these compression specifications.
  uses the PAL system, you export at 25 fps instead of the NTSC standard of
  29.97 fps.
 
-.. _Enable Video Upload in Studio2:
-
 .. ******************************
 .. Enable Video Upload in Studio
 .. ******************************
