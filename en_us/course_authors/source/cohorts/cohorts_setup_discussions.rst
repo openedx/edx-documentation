@@ -194,9 +194,9 @@ This procedure shows how to make all content-specific discussion topics in a cou
 Specify Exceptions to Unified Discussion Topics
 ================================================================
 
-This procedure describes how, if you have made all content-specific discussion
-topics in your course unified by default, you can specify exceptions, and
-indicate which content-specific discussion topics should be divided by cohort.
+If you have made all content-specific discussion topics in your course unified
+by default, this procedure describes how to specify exceptions, and indicate
+which content-specific discussion topics should be divided by cohort.
 
 #. Open your course in Studio. 
    
