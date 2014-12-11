@@ -107,8 +107,10 @@ follow.
        "i4x-edX-Open-edx_demo_course_brainstorming"
    ]
    
-5. If "cohorted_discussions" is followed by other policy keys within the
-   **Cohort Configuration** field, make sure there is a comma after the closing square bracket character (``],``). You must include a comma to separate each of the policy keys that you define.
+5. If ``"cohorted_discussions"`` is followed by other policy keys within the
+   **Cohort Configuration** field, make sure there is a comma after the closing
+   square bracket character (``],``). You must include a comma to separate each of
+   the policy keys that you define.
 
 .. Adding a line to force a line space
 
@@ -124,9 +126,9 @@ follow.
    and no warning is presented.
 
 
-**********************************************
-Content-Specific Discussion Topics and Cohorts
-**********************************************
+********************************************************
+Content-Specific Discussion Topics and Cohort Groups
+********************************************************
 
 When you enable the cohort feature for a course, and :ref:`create content-
 specific discussion topics<Create ContentSpecific Discussion Topics>` by adding
@@ -136,23 +138,24 @@ group cannot read or add to the posts, responses, or comments contributed by the
 members of another cohort group.
 
 If you want all content-specific discussion topics in your course to remain
-divided by cohort, you do not need to take any further action. However, if you
-want one or more content-specific discussion topics to be accessible to all
-students regardless of cohort, you must perform some configuration tasks.
+divided by cohort group, you do not need to take any further action. However, if
+you want one or more content-specific discussion topics to be accessible to all
+students regardless of cohort group, you must perform some configuration tasks.
+
 
 =====================================================================
 Example: Configuring Content-Specific Discussion Topics as Unified
 =====================================================================
 
 In this example, you decide that you want all content-specific discussion topics
-you add to your course to be unified rather than divided by cohort. To achieve
-this, you follow the steps to :ref:`Make ContentSpecific Discussion Topics
-Unified`.
+you add to your course to be unified rather than divided by cohort group . To
+achieve this, you follow the steps to :ref:`Make ContentSpecific Discussion
+Topics Unified`.
 
 Later, while designing one of the final sections in the course, you add a
-content-specific discussion topic that you decide should be divided by cohort,
-rather than unified like all other discussion components. To achieve this, you
-follow the steps to :ref:`Specify Cohorted Discussions as Exceptions`.
+content-specific discussion topic that you decide should be divided by cohort
+group, rather than unified like all other discussion components. To achieve
+this, you follow the steps to :ref:`Specify Cohorted Discussions as Exceptions`.
 
 .. _Make ContentSpecific Discussion Topics Unified:
 
@@ -161,9 +164,12 @@ Make All Content-Specific Discussion Topics Unified by Default
 ================================================================
 
 .. note:: If you want all content-specific discussion topics in your course to
-  be divided by cohort, you do not need to perform any configuration.
+   be divided by cohort group, you do not need to perform any configuration.
 
-This procedure shows how to make all content-specific discussion topics in a course unified by default. 
+This procedure shows how to make all content-specific discussion topics in a
+course unified by default. When you complete these steps, any content-specific
+discussion topics that you add to your course are accessible to all students
+regardless of their cohort group.
 
 #. Open your course in Studio. 
 
@@ -195,33 +201,40 @@ Specify Exceptions to Unified Discussion Topics
 ================================================================
 
 If you have made all content-specific discussion topics in your course unified
-by default, this procedure describes how to specify exceptions, and indicate
-which content-specific discussion topics should be divided by cohort.
+by default, this procedure describes how you can specify exceptions and
+configure particular content-specific discussion topics in your course as
+divided by cohort.
 
 #. Open your course in Studio. 
    
-#. To specify a discussion topic as divided by cohort, find the discussion
-component in the component editor in Studio, then copy or make a
-note of its **Discussion ID**.
+#. For each content-specific discussion topic that you want to make divided by
+   cohort group, locate the discussion component in Studio, then copy or make a
+   note of its **Discussion ID**.
 
 .. image:: ../Images/DiscussionID.png
 
-#. If you make any changes in the component editor, click **Save** to save your changes.
-#. Select **Settings**, then **Advanced Settings**.
+3. Select **Settings**, then **Advanced Settings**.
 
 #. In the **Cohort Configuration** field, if the ``cohorted_discussions`` policy
-   key does not already exist, type ``"cohorted_discussions":``, followed by one
-   or more course-wide discussion topic IDs enclosed by square brackets (``[
-   ]``). You can define a set of discussion topics or just one.
+   key does not already exist, type ``"cohorted_discussions":``, followed by a pair
+   of square brackets (``[ ]``).
 
-   For example, to define a single discussion topic, type
-   ``"cohorted_discussions": ["discussion-topic-ID"]``, replacing ``"discussion-
-   topic-ID"`` with your discussion topic's ID, and then press Enter.
+#. Between these opening and closing square brackets (``[ ]``) add one or more IDs
+   for the discussion topics that you want to specify as being unified. 
 
-   To define a set of topics, type the value of the "id" for each discussion
-   topic on a new line, enclose it within quotation marks (``" "``), and
-   separate the quoted "id" values with commas. For example:
+   If you are specifying only one discussion topic as divided by cohort, your
+   entry looks like this example.
 
+   .. code::
+
+      "cohorted_discussions": [c2293fa2538a41eca7224b8a07c3d09d] 
+
+
+   If you are specifying multiple discussion topics as divided by cohort, use a
+   new line for each discussion topic ID that you add, and enclose each ID
+   within double quotation marks (``"``), followed by a comma if there are
+   additional IDs following.
+ 
  .. code::  
 
     "cohorted_discussions": [
@@ -229,16 +242,9 @@ note of its **Discussion ID**.
        "c2293fa2538a41eca7224b8a07c3d09d",
        "a9823gt3187i38itp2893a8d27f8f20c"
     ]
-   
-6. Between the opening and closing square brackets (``[ ]``) add one or more IDs
-   for the discussion topics that you want to specify as being unified. Use a new
-   line for each discussion topic ID that you add, and enclose each ID within
-   double quotation marks (``"``), followed by a comma if there are additional IDs
-   following.
 
-.. Adding a line to force a line space
 
-7. If ``"cohorted_discussions"`` is followed by other policy keys within the
+6. If ``"cohorted_discussions"`` is followed by other policy keys within the
    **Cohort Configuration** field, make sure there is a comma after the closing
    square bracket character (``],``). You must include a comma to separate each
    policy key that you define.
@@ -247,9 +253,12 @@ note of its **Discussion ID**.
   :alt: Cohort Configuration dictionary field with the cohort key set as true, the always cohort inline discussions key set as false, and two discussion topics IDs entered under the cohorted discussions policy key
 
 
-8. Click **Save Changes**. Studio resequences and reformats your entry.
+7. Click **Save Changes**. Studio resequences and reformats your entry.
    
 .. Adding a line to force a line space
 
-9. Scroll back to the **Cohort Configuration** field to verify that your entry was saved as you expect. Entries that do not contain all of the required punctuation characters revert to the previous value when you save, and no warning is presented.
+8. Scroll back to the **Cohort Configuration** field to verify that your entry
+   was saved as you expect. Entries that do not contain all of the required
+   punctuation characters revert to the previous value when you save, and no
+   warning is presented.
 
