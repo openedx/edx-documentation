@@ -66,19 +66,22 @@ You complete these steps in Studio.
 #. Scroll down to the **EdX Video ID** field and paste in the ID of the video
    file that you want to play. See :ref:`Copy the edX Video ID`.
 
-   When you supply a valid edX video ID in this field, it overrides values in
-   the **Default Video URL**, **Video File URLs**, and the **YouTube ID**
-   fields.
+   When you supply a valid edX video ID in this field, you associate your
+   video component with files on YouTube and AWS that are optimized for
+   viewing with different devices and bandwidths. You do not need to add
+   values to the **Default Video URL**, **Video File URLs**, or the **YouTube
+   ID** fields. If those fields already have values, the edX video ID
+   overrides them.
 
 #. Set the **Video Download Allowed** field to **True** or **False** to define
    whether students can download this video.
 
 #. Click **Save**. The referenced video appears in the video component.
 
-For information about completing a video component by adding a transcript, see
-the `Step 2. Create or Obtain a Video Transcript`_ section in the *Building
-and Running an edX Course* guide.
-
+To complete video component setup, you add transcript files for the video. For
+information about completing a video component by adding a transcript, see the
+`Step 2. Create or Obtain a Video Transcript`_ section in the *Building and
+Running an edX Course* guide.
 
 .. _Step 2. Create or Obtain a Video Transcript: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/creating_content/create_video.html#step-2-create-or-obtain-a-video-transcript
 

@@ -8,8 +8,8 @@ After a video administrator works with the edX media team to complete
 :ref:`preliminary setup<Video Getting Started>` for the entire institution,
 individual course teams can begin to upload video files for their courses in
 Studio. This section describes the specifications met by successful video
-files, how course teams enable the video upload process in Studio, and how
-course teams upload the files.
+files, how course teams enable the video upload process in Studio, and the 
+steps to monitor video processing.
 
 * :ref:`Specifications for Successful Video Files` 
 
@@ -65,8 +65,6 @@ For best results, your video files should have these compression specifications.
  uses the PAL system, you export at 25 fps instead of the NTSC standard of
  29.97 fps.
 
-.. _Enable Video Upload in Studio2:
-
 .. ******************************
 .. Enable Video Upload in Studio
 .. ******************************
@@ -106,8 +104,9 @@ For best results, your video files should have these compression specifications.
 Upload Video Files 
 ***************************
 
-Before you can upload video files, this feature must be 
-:ref:`enabled in Studio<Enable Video Upload in Studio>`.
+Before you can upload video files, the video upload feature must be enabled
+for the course. Your video administrator coordinates this task with the edX
+media team. See :ref:`Create YouTube Channels`.
 
 #. Open the course in Studio. 
 
