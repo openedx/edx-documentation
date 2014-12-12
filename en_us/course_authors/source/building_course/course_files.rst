@@ -191,7 +191,7 @@ people not enrolled in your class.
 To ensure that those not in your class cannot view the file, click the lock
 icon.
 
-.. _note:: If you lock a file, the web URL no longer works for external access
+.. note:: If you lock a file, the web URL no longer works for external access
    to the file, unless the person accessing the URL is enrolled in the course.
  
 
