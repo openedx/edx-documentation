@@ -44,7 +44,7 @@ Students can see a file only if you create a link to it.
 .. warning:: 
  For PDF and image files, edX recommends that you use standard compression tools to reduce the file size before adding them to your course.
 
- If you have files that are larger than 50 MB after compression and need them for your course, contact your edX Program Manager.
+ If you have files that are larger than 50 MB after compression and need them for your course, contact your edX program manager.
 
  Furthermore, do not add video or audio files, or large data sets that are to be
  used by students. You should use YouTube or another hosting service to host
@@ -123,8 +123,8 @@ column header is underlined.
 Filter Files
 *********************
 
-You can filter the list of files by type, so that only a selected type of file
-is visible. The list remains in the current sort order.
+You can filter the list of files by type so that only a selected type of file is
+visible. The list remains in the current sort order.
 
 
 .. list-table::
