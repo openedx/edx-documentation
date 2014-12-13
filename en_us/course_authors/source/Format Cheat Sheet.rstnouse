@@ -41,9 +41,10 @@ To set text in a "Code format"
         ::
 -or-
 
-.. code-block:: xml
+.. code-block:: python
 
-(text in code-block:: xml is in different colors)
+(text in code-block:: python is in different colors)
+(DO NOT USE .. code-block:: xml as the Sphinx template changes "straight" quotes to "smart")
 
 ****************
 Table Formatting

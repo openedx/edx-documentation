@@ -51,7 +51,7 @@ then create a Problem component.
     image, the code would resemble the following (where 2 is the ID for the
     Sweden label):
 
-    .. code-block:: xml
+    .. code-block:: python
 
         correct-answer = {
                 '1':    [[50, 50], 75]
@@ -87,10 +87,10 @@ page, and then add the code for the problem to a Problem component.
 
 **Problem Code**:
 
-.. code-block:: xml
+.. code-block:: python
 
   <problem>
-    <p> Allopurinol is a drug used to treat and prevent gout, a very painful form of arthritis. Once only a “rich man’s disease”, gout has become more and more common in recent decades – affecting about 3 million people in the United States alone. Deposits of needle-like crystals of uric acid in connective tissue or joint spaces cause the symptoms of swelling, stiffness and intense pain. Individuals with gout overproduce uric acid because they cannot eliminate it efficiently. Allopurinol treats and prevents gout by stopping the overproduction of uric acid through inhibition of an enzyme required for the synthesis of uric acid. </p>
+    <p> Allopurinol is a drug used to treat and prevent gout, a very painful form of arthritis. Once only a "rich man's disease", gout has become more and more common in recent decades – affecting about 3 million people in the United States alone. Deposits of needle-like crystals of uric acid in connective tissue or joint spaces cause the symptoms of swelling, stiffness and intense pain. Individuals with gout overproduce uric acid because they cannot eliminate it efficiently. Allopurinol treats and prevents gout by stopping the overproduction of uric acid through inhibition of an enzyme required for the synthesis of uric acid. </p>
     <p> You are shown one of many possible molecules. On the structure of allopurinol below, identify the functional groups that are present by dragging the functional group name listed onto the appropriate target boxes on the structure. If you want to change an answer, you have to drag off the name as well. You may need to scroll through the names of functional groups to see all options. </p>
     <customresponse>
       <drag_and_drop_input no_labels="true" one_per_target="true" target_outline="true" img="/static/Allopurinol.gif">
@@ -127,7 +127,7 @@ page, and then add the code for the problem to a Problem component.
 Drag and Drop Problem XML
 *********************************
 
-.. code-block:: xml
+.. code-block:: python
 
   <problem>
     Here's an example of a "Drag and Drop" question set. Click and drag each word in the scrollbar below, up to the numbered bucket which matches the number of letters in the word.
@@ -232,7 +232,7 @@ Tags
          single target. It can be either 'true' or 'false'. If not specified,
          the default value is 'true'.
      * - no_labels (required)
-       - default is false, in default behaviour if label is not set, label is
+       - default is false, in default behavior if label is not set, label is
          obtained from id. If no_labels is true, labels are not automatically
          populated from id, and one can not set labels and obtain only icons.
 

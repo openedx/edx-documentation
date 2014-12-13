@@ -39,7 +39,7 @@ Answer Tag Format
 
 The answer tag format encloses the Python script in an ``<answer>`` tag:
 
-.. code-block:: xml
+.. code-block:: python
 
   <answer>
   if answers[0] == expect:
@@ -74,7 +74,7 @@ To create a custom Python-evaluated input problem using an ``<answer>`` tag:
 #. In the component editor, replace the example code with the following code.
 #. Click **Save**.
 
-.. code-block:: xml
+.. code-block:: python
 
     <problem>
         <p>What is the sum of 2 and 3?</p>
@@ -104,7 +104,7 @@ Script Tag Format
 
 The script tag format encloses a Python script that contains a "check function" in a ``<script>`` tag, and adds the ``cfn`` attribute of the ``<customresponse>`` tag to reference that function:
 
-.. code-block:: xml
+.. code-block:: python
 
   <problem>
 
@@ -149,7 +149,7 @@ The **check** function can return any of the following to indicate whether the s
   If the dictionary's value for ``ok`` is set to ``True``, all response fields are marked correct; if it is set to ``False``, all response fields are marked incorrect. The ``msg`` is displayed beneath all response fields, and it may contain XHTML markup.
 * A dictionary of the form 
 
-.. code-block:: xml
+.. code-block:: python
       
     
     { 'overall_message': 'Overall message',
@@ -191,7 +191,7 @@ To create a custom Python-evaluated input problem using a ``<script>`` tag:
 
 **Problem Code**:
 
-.. code-block:: xml
+.. code-block:: python
 
   <problem>
   <p>This question has two parts.</p>
@@ -236,7 +236,7 @@ To create a custom Python-evaluated input problem using a ``<script>`` tag:
 
 The following template includes answers that appear when the student clicks **Show Answer**. 
 
-.. code-block:: xml
+.. code-block:: python
 
   <problem>
 
@@ -263,7 +263,7 @@ The following template includes answers that appear when the student clicks **Sh
 
 The following template does not return answers when the student clicks **Show Answer**. If your problem doesn't include answers for the student to see, make sure to set **Show Answer** to **Never** in the problem component.
 
-.. code-block:: xml
+.. code-block:: python
 
   <problem>
 
@@ -308,7 +308,7 @@ input problem.
 .. note::
  This example uses the method ``random.randint`` to generate random numbers.  You can use any standard Python library for this purpose.
 
-.. code-block:: xml
+.. code-block:: python
 
   <problem>
     <p>Some problems in the course will utilize randomized parameters.

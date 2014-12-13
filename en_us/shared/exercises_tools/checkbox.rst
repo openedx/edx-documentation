@@ -47,7 +47,7 @@ Simple Editor
 For the example problem above, the text in the Problem component is the
 following.
 
-.. code-block:: xml
+.. code-block:: python
 
     Learning about the benefits of preventative healthcare can be particularly 
     difficult. >>Check all of the reasons below why this may be the case.<<
@@ -68,7 +68,7 @@ Advanced Editor
 
 To create this problem in the Advanced Editor, click the **Advanced** tab in the Problem component editor, and then replace the existing code with the following code.
 
-.. code-block:: xml
+.. code-block:: python
 
   <problem>
     <p>Learning about the benefits of preventative healthcare can be particularly difficult. Check all of the reasons below why this may be the case.</p>
@@ -100,7 +100,7 @@ Checkbox Problem XML
 Template
 ============
 
-.. code-block:: xml
+.. code-block:: python
 
   <problem>
     <p>Question text</p>

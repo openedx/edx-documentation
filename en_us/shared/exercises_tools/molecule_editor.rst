@@ -55,7 +55,7 @@ To create the molecule editor, you need an HTML component and a Problem componen
 HTML Component Code
 ***************************
 
-.. code-block:: xml
+.. code-block:: python
 
   <h2>Molecule Editor</h2>
   <p>The molecule editor makes creating and visualizing molecules easy. A chemistry professor may have you build and submit a molecule as part of an exercise.</p>
@@ -104,7 +104,7 @@ HTML Component Code
 Problem Component Code
 ***************************
 
-.. code-block:: xml
+.. code-block:: python
 
   <problem>
   <p>The dopamine molecule, as shown, cannot make ionic bonds. Edit the dopamine molecule so it can make ionic bonds.</p>

@@ -94,7 +94,7 @@ To create this problem in the Advanced Editor, click the **Advanced** tab in the
 
 **Problem Code**:
 
-.. code-block:: xml
+.. code-block:: python
 
   <problem>
     <p><b>Example Problem</b></p>
@@ -155,7 +155,7 @@ The following templates represent problems with and without a decimal or percent
 Problem with no tolerance
 ***************************
 
-.. code-block:: xml
+.. code-block:: python
 
   <p>TEXT OF PROBLEM
       <numericalresponse answer="ANSWER (NUMBER)">
@@ -173,7 +173,7 @@ Problem with no tolerance
 Problem with a decimal tolerance
 ************************************
 
-.. code-block:: xml
+.. code-block:: python
 
   <problem>
    
@@ -194,7 +194,7 @@ Problem with a decimal tolerance
 Problem with a percentage tolerance
 ************************************
 
-.. code-block:: xml
+.. code-block:: python
 
   <problem>
    
@@ -215,7 +215,7 @@ Problem with a percentage tolerance
 Answer created with a script
 ************************************
 
-.. code-block:: xml
+.. code-block:: python
 
   <problem>
 

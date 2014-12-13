@@ -32,7 +32,7 @@ To create a multiple choice and numerical input problem:
 Multiple Choice and Numerical Input Problem Code
 ************************************************
 
-.. code-block:: xml
+.. code-block:: python
 
   <problem>
   The numerical value of pi, rounded to two decimal points, is 3.24.

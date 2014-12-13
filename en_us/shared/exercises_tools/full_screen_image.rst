@@ -51,7 +51,7 @@ Create a Full Screen Image
 
    * Ensure that the value of the href and src attributes are the same, and that you do not change the class attribute. Your sample code should look like the following:
 
-   .. code-block:: xml
+   .. code-block:: python
 
      <h2>Sample Image Modal</h2>
      <a href="/static/Image1.jpg" class="modal-content">

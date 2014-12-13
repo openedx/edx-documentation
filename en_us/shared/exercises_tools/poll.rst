@@ -58,7 +58,7 @@ Create a Poll
 
    The file contains a list of all the components in the unit, together with the URL names of the components. For example, the following file contains an HTML component followed by a Discussion component.
 
-   .. code-block:: xml
+   .. code-block:: python
      
        <vertical display_name="Test Unit">
         <html url_name="b59c54e2f6fc4cf69ba3a43c49097d0b"/>
@@ -67,7 +67,7 @@ Create a Poll
 
 #. Add the following poll code in the location where you want the poll. Change the text of the prompt to the text that you want.
 
-   .. code-block:: xml
+   .. code-block:: python
       
     <poll_question display_name="Poll Question">
       <p>Text of the prompt</p>
@@ -77,7 +77,7 @@ Create a Poll
 
    In the example above, if you wanted your poll to appear between the HTML component and the Discussion component in the unit, your code would resemble the following.
 
-   .. code-block:: xml
+   .. code-block:: python
 
      <vertical display_name="Test Unit">
       <html url_name="b59c54e2f6fc4cf69ba3a43c49097d0b"/>
@@ -111,7 +111,7 @@ Format description
 
 The main tag of Poll module input is:
 
-.. code-block:: xml
+.. code-block:: python
 
     <poll_question> ... </poll_question>
 
@@ -148,7 +148,7 @@ Example
 Example of poll
 ==================
 
-.. code-block:: xml
+.. code-block:: python
 
     <poll_question name="second_question" display_name="Second question">
         <h3>Age</h3>

@@ -10,7 +10,7 @@ Format description
 
 The main tag of conditional module input is:
 
-.. code-block:: xml
+.. code-block:: python
 
     <conditional> ... </conditional>
 
@@ -23,7 +23,7 @@ conditional tag
 The main container for a single instance of a conditional module. The following attributes can
 be specified for this tag:
 
-.. code-block:: xml
+.. code-block:: python
 
     sources - location id of required modules, separated by ';'
     [message | ""] - message for case, where one or more are not passed. Here you can use variable {link}, which generate link to required module.
@@ -43,7 +43,7 @@ show tag
 Symlink to some set of xmodules. The following attributes can
 be specified for this tag:
 
-.. code-block:: xml
+.. code-block:: python
 
     sources - location id of modules, separated by ';'
 
@@ -55,7 +55,7 @@ Example
 Examples of conditional depends on poll
 ========================================
 
-.. code-block:: xml
+.. code-block:: python
 
     <conditional sources="i4x://MITx/0.000x/poll_question/first_real_poll_seq_with_reset" poll_answer="man"
     message="{link} must be answered for this to become visible.">
@@ -68,7 +68,7 @@ Examples of conditional depends on poll
 Examples of conditional depends on poll (use <show> tag)
 ========================================================
 
-.. code-block:: xml
+.. code-block:: python
 
     <conditional sources="i4x://MITx/0.000x/poll_question/first_real_poll_seq_with_reset" poll_answer="man"
     message="{link} must be answered for this to become visible.">
@@ -81,7 +81,7 @@ Examples of conditional depends on poll (use <show> tag)
 Examples of conditional depends on problem
 ================================================
 
-.. code-block:: xml
+.. code-block:: python
 
     <conditional sources="i4x://MITx/0.000x/problem/Conditional:lec27_Q1" attempted="True">
         <html display_name="HTML for attempted problem">You see this, cause "lec27_Q1" is attempted.</html>

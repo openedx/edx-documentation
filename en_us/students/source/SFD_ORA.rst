@@ -36,9 +36,7 @@ Here, we'll walk you through the process of completing an open response assessme
 #. Assess your own response to the question.
 #. Receive your score and provide feedback on the peer assessment.
 
-At any time during the assessment, you can see your progress through the assignment at the bottom of the page under **Your Grade**. A message tells you the steps that you still have to perform before you can receive your grade. For example, you may see the following message:
-
-.. code-block:: xml
+At any time during the assessment, you can see your progress through the assignment at the bottom of the page under **Your Grade**. A message tells you the steps that you still have to perform before you can receive your grade. For example, you may see the following message::
 
   Not Completed
   You have not completed the peer assessment step and self assessment step of this problem.
@@ -55,9 +53,7 @@ Type your response into the field under **Your Response**, and then click **Subm
 
 After you submit your response, if other students have already submitted responses, the peer assessment step starts immediately. However, you don't have to start grading right away. If you want to stop working and come back later, just refresh or reopen your browser when you come back. New peer responses will be available for you to grade.
 
-If no other students have submitted responses yet, you'll see the following message:
-
-.. code-block:: xml
+If no other students have submitted responses yet, you'll see the following message::
 
   Waiting for Peer Responses
   All submitted peer responses have been assessed. Check back later to see if more students
@@ -109,21 +105,19 @@ After you submit your response, one of the sample responses opens, together with
 
 * If any option that you select is not the same as the instructor's selection, you'll see the response again, and the following message appears above the response:
 
-.. code-block:: xml
+::
 
   Learning to Assess Responses
   Your assessment differs from the instructor's assessment of this response. Review the
   response and consider why the instructor may have assessed it differently. Then, try 
   the assessment again.
 
-For each of the criteria, you'll see one of the following two messages, depending on whether your selections matched those of the instructor:
-
-.. code-block:: xml
+For each of the criteria, you'll see one of the following two messages, depending on whether your selections matched those of the instructor::
 
   Selected Options Agree
   The option you selected is the option that the instructor selected.
 
-.. code-block:: xml
+::
 
   Selected Options Differ
   The option you selected is not the option that the instructor selected.
@@ -188,7 +182,7 @@ Receive Your Score and Provide Feedback
 
 After you submit your self assessment, if other students are still assessing your response, you'll see the following message under the **Assess Your Response** step.
 
-.. code-block:: xml
+::
 
   Your Grade: Waiting for Peer Assessment
 

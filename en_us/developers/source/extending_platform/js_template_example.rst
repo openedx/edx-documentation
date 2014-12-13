@@ -152,7 +152,7 @@ XML Problem Structure
 
 The XML problem for the sample template is:
 
-.. code-block:: xml
+.. code-block:: python
 
     <problem display_name="webGLDemo">
         <script type="loncapa/python">

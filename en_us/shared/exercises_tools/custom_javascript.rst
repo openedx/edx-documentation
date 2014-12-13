@@ -8,7 +8,7 @@ Custom JavaScript display and grading problems (also called *custom JavaScript p
 or *JS Input problems*) allow you to create a custom problem or tool that uses JavaScript
 and then add the problem or tool directly into Studio. When you create a JS Input problem,
 Studio embeds the problem in an inline frame (IFrame) so that your students can interact with
-it in the LMS. You can grade your students’ work using JavaScript and some basic Python, and
+it in the LMS. You can grade your students' work using JavaScript and some basic Python, and
 the grading is integrated into the edX grading system.
 
 The JS Input problem that you create must use HTML, JavaScript, and cascading style sheets
@@ -73,7 +73,7 @@ To download these files in a .zip archive, go to http://files.edx.org/JSInput.zi
 JavaScript Input Problem Code
 ================================
 
-.. code-block:: xml
+.. code-block:: python
 
     <problem display_name="webGLDemo">
     In the image below, click the cone.
@@ -143,7 +143,7 @@ Template
 
 The following is the basic format of a JSInput problem:
 
-.. code-block:: xml
+.. code-block:: python
 
  <problem>
         <script type="loncapa/python">
@@ -200,7 +200,12 @@ Optional Attributes
 
 * **set_statefn**
 
-  Sometimes a problem author will want information about a student's previous answers ("state") to be saved and reloaded. If the attribute **set_statefn** is used, the function given as its value will be passed the state as a string argument whenever there is a state, and the student returns to a problem. The function has the responsibility to then use this state approriately.
+  Sometimes a problem author will want information about a student's previous
+  answers ("state") to be saved and reloaded. If the attribute **set_statefn**
+  is used, the function given as its value will be passed the state as a
+  string argument whenever there is a state, and the student returns to a
+  problem. The function has the responsibility to then use this state
+  appropriately.
 
   The state that is passed is:
 
@@ -214,7 +219,7 @@ Optional Attributes
   Sometimes the state and the answer are quite different. For instance, a problem that involves using a javascript program that allows the student to alter a molecule may grade based on the molecule's hydrophobicity, but from the hydrophobicity it might be incapable of restoring the state. In that case, a
   *separate* state may be stored and loaded by **set_statefn**. Note that if **get_statefn** is defined, the answer (i.e., what is passed to the enclosing response type) will be a json string with the following format:
 
-  .. code-block:: xml
+  .. code-block:: python
 
       {
           answer: `[answer string]`

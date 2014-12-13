@@ -70,7 +70,7 @@ Advanced Editor
 
 To create this problem in the Advanced Editor, click the **Advanced** tab in the Problem component editor, and then replace the existing code with the following code.
 
-.. code-block:: xml
+.. code-block:: python
 
   <problem>
   <p>
@@ -136,7 +136,7 @@ Advanced Editor
 
 To specify additional correct responses in the Advanced Editor, add an ``<additional_answer>``  for each correct response inside the opening and closing ``<stringresponse>`` tags.
 
-.. code-block:: xml
+.. code-block:: python
 
   <problem>
 
@@ -225,7 +225,7 @@ Text Input Problem XML
 Template
 ==============
 
-.. code-block:: xml
+.. code-block:: python
 
   <problem>
       <p>Problem text</p>

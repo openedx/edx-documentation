@@ -70,7 +70,7 @@ To create this problem in the Advanced Editor, click the **Advanced** tab in the
 
 **Problem Code:**
 
-.. code-block:: xml
+.. code-block:: python
 
   <problem>
   <p>
@@ -101,7 +101,7 @@ Dropdown Problem XML
 Template
 ========
 
-.. code-block:: xml
+.. code-block:: python
 
   <problem>
   <p>
@@ -117,7 +117,7 @@ Template
     </solution>
   </problem>
 
-.. code-block:: xml
+.. code-block:: python
 
   <problem>
    <p>Problem text</p>

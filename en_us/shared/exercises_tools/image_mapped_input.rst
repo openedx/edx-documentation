@@ -24,7 +24,7 @@ To create a image mapped input problem:
 
 **Problem Code**:
 
-.. code-block:: xml
+.. code-block:: python
 
   <problem>
     <p><b>Example Problem</b></p>
@@ -47,7 +47,7 @@ Image Mapped Input Problem XML
 Template
 ==========
 
-.. code-block:: xml
+.. code-block:: python
 
   <problem>
     <startouttext/>

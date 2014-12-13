@@ -215,6 +215,10 @@ Note the following about the XML definition:
 
 * **queuename**: The value of the queuename attribute of the <coderesponse> element maps to an XQueue that edX sets up for the course.  You get this name from your edX Program Manager. You must use this exact name in order for the problem to communicate with the correct XQueue.
 
-* **Input Type**: In this example, the input type is specificed by the **<textbox>** element.  When you use <textbox>, the student enters code in a browser field when viewing the course unit.  The other element you can use to specify the input type is <filesubmission>, which enables the student to attach and submit a code file in the unit.
+* **Input Type**: In this example, the input type is specified by the
+  **<textbox>** element. When you use <textbox>, the student enters code in a
+  browser field when viewing the course unit. The other element you can use
+  to specify the input type is <filesubmission>, which enables the student to
+  attach and submit a code file in the unit.
 
 * **<grader_payload>**: You can use the <grader_payload> element to send information to the external grader in the form of a JSON object. For example, you can use <grader_payload> to tell the grader which tests to run for this problem.

@@ -24,7 +24,7 @@ For more information about the Gene Explorer, see `The Gene Explorer <http://int
 Gene Explorer Code
 ********************
 
-.. code-block:: xml
+.. code-block:: python
 
   <problem>
   <p>Make a single base pair substitution mutation in the gene below that results in a protein that is longer than the protein produced by the original gene. When you are satisfied with your change and its effect, click the <b>SUBMIT</b> button.</p>

@@ -45,12 +45,12 @@ All problems on the edX platform have several component parts.
 
 #. **Problem text.** The problem text can contain any standard HTML formatting.
 
-#. **Response field with the student’s answer.** Students enter answers
+#. **Response field with the student's answer.** Students enter answers
    in *response fields*. The appearance of the response field depends on
    the type of the problem.
 
 #. **Rendered answer.** For some problem types, Studio uses MathJax to
-   render plain text as “beautiful math.”
+   render plain text as "beautiful math."
 
 #. **Check button.** The student clicks **Check** to submit a response
    or find out if his answer is correct. If the answer is correct, a green
@@ -102,7 +102,7 @@ All problems on the edX platform have several component parts.
 #. **Hide Answer button.**
 
    .. image:: ../Images//AnatomyOfExercise3.png
-    :alt: Image of a problem in the course accordian
+    :alt: Image of a problem in the course accordion
 
 #. **Grading.** The instructor may specify whether a group of problems
    is graded. If a group of problems is graded, a clock icon appears for
@@ -147,7 +147,7 @@ editing problem components: the Simple Editor and the Advanced Editor.
 *  The **Simple Editor** allows you to edit problems visually, without
    having to work with XML.
 
-*  The **Advanced Editor** converts the problem to edX’s XML standard and
+*  The **Advanced Editor** converts the problem to the edX XML standard and
    allows you to edit that XML directly.
 
 You can switch at any time from the Simple Editor to the Advanced Editor by
@@ -242,7 +242,7 @@ The following problem templates open in the Advanced Editor.
   input or multiple choice problems.
 
 * :ref:`Problem Written in LaTeX` This problem type allows you to convert
-  problems that you’ve already written in LaTeX into the edX format. Note that
+  problems that are already written in LaTeX into the edX format. Note that
   this problem type is still a prototype, however, and may not be supported in
   the future.
 
@@ -303,7 +303,7 @@ Problem Weight
 ==============================
 
 .. note:: Studio stores scores for all problems, but scores only count 
-          toward a student’s final grade if they are in a subsection that is
+          toward a student's final grade if they are in a subsection that is
           graded.
 
 This setting specifies the maximum number of points possible for the
@@ -313,7 +313,7 @@ problem. The problem weight appears next to the problem title.
  :alt: Image of a problem from a student's point of view, with the possible 
        points circled
 
-By default, each response field, or “answer space,” in a Problem
+By default, each response field, or "answer space," in a Problem
 component is worth one point. Any Problem component can have multiple
 response fields. For example, the Problem component above
 contains one dropdown problem that has three separate questions for students
@@ -335,7 +335,7 @@ following formula:
 
 *  **Score** is the point score that the student receives.
 
-*  **Weight** is the problem’s maximum possible point score.
+*  **Weight** is the problem's maximum possible point score.
 
 *  **Correct answers** is the number of response fields that contain correct
    answers.
@@ -348,27 +348,27 @@ The following are some examples of computing scores.
 
 *Example 1*
 
-A problem’s **Weight** setting is left blank. The problem has two
+A problem's **Weight** setting is left blank. The problem has two
 response fields. Because the problem has two response fields, the
 maximum score is 2.0 points.
 
 If one response field contains a correct answer and the other response
-field contains an incorrect answer, the student’s score is 1.0 out of 2
+field contains an incorrect answer, the student's score is 1.0 out of 2
 points.
 
 *Example 2*
 
-A problem’s weight is set to 12. The problem has three response fields.
+A problem's weight is set to 12. The problem has three response fields.
 
-If a student’s response includes two correct answers and one incorrect
-answer, the student’s score is 8.0 out of 12 points.
+If a student's response includes two correct answers and one incorrect
+answer, the student's score is 8.0 out of 12 points.
 
 *Example 3*
 
-A problem’s weight is set to 2. The problem has four response fields.
+A problem's weight is set to 2. The problem has four response fields.
 
-If a student’s response contains one correct answer and three incorrect
-answers, the student’s score is 0.5 out of 2 points.
+If a student's response contains one correct answer and three incorrect
+answers, the student's score is 0.5 out of 2 points.
 
 .. _Randomization:
 
@@ -514,7 +514,7 @@ Modifying a Released Problem
  experience in the course and analysis of course data.
 
 After a student submits a response to a problem, the edX Learning Management
-System (LMS) stores the student’s response, the score that the student
+System (LMS) stores the student's response, the score that the student
 received, and the maximum score for the problem. For problems with a **Maximum
 Attempts** setting greater than 1, the LMS updates these values each time the
 student submits a new response to a problem. However, if an instructor changes
@@ -524,8 +524,8 @@ not automatically updated.
 For example, you may release a problem and specify that its answer is 3.
 After some students have submitted responses, you notice that the answer
 should be 2 instead of 3. When you update the problem with the correct
-answer, the LMS doesn’t update scores for students who answered 2 for the
-original problem and thus received the wrong score.
+answer, the LMS does not update scores for students who answered 2 for the
+original problem (and therefore received the wrong score).
 
 For another example, you may change the number of response fields to
 three. Students who submitted answers before the change have a score of
@@ -584,7 +584,7 @@ problems can be different types.
 To create multiple problems in one component, create a new Blank Advanced
 Problem component, and then add the XML for each problem in the component
 editor. You only need to include the XML for the problem and its answers. You
-don’t have to include the code for other elements, such as the **Check**
+do not have to include the code for other elements, such as the **Check**
 button.
 
 Elements such as the **Check**, **Show Answer**, and **Reset** buttons, as well
@@ -694,7 +694,7 @@ Create Randomized Problems
    the URL names of the components. For example, the following file contains
    four Problem components.
 
-   .. code-block:: xml
+   .. code-block:: python
      
        <vertical display_name="Test Unit">
           <problem url_name="d9d0ceb3ffc74eacb29501183e26ad6e"/>
@@ -706,7 +706,7 @@ Create Randomized Problems
 #. Add ``<randomize> </randomize>`` tags around the components for the problems
    that you want to randomize.
 
-   .. code-block:: xml
+   .. code-block:: python
       
        <vertical display_name="Test Unit">
          <randomize>

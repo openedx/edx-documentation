@@ -32,7 +32,7 @@ To create a math expression input problem:
 
 **Sample Problem Code**
 
-.. code-block:: xml
+.. code-block:: python
 
   <problem>
     <p>Some problems may ask for a mathematical expression. Practice creating mathematical expressions by answering the questions below.</p>
@@ -74,7 +74,7 @@ Math Expression Input Problem XML
 Templates
 ============
 
-.. code-block:: xml
+.. code-block:: python
 
   <problem>
     <p>Write an expression for the product of R_1, R_2, and the inverse of R_3.</p>
@@ -84,7 +84,7 @@ Templates
     </formularesponse>
   </problem>
 
-.. code-block:: xml
+.. code-block:: python
 
   <problem>
     <p>Problem text</p>

@@ -24,7 +24,7 @@ Create a Circuit Schematic Builder Problem
 
 To create the problem in the image above, paste the following code into the Advanced Editor.
 
-.. code-block:: xml
+.. code-block:: python
 
  <problem>
     <p>Make a voltage divider that splits the provided voltage evenly.</p>

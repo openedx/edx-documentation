@@ -10,7 +10,7 @@ We intend for these guidelines to help the course teams understand the importanc
 *Accessibility* in online instruction refers to the degree to which information and activities are available to all students equally, regardless of physical or other disabilities.
 
 Our guidance is based on international standards and principles for web accessibility (W3C WCAG 2.0) and universal design (usable by all, to the greatest extent possible, without the need for adaptation or specialized design). 
-Instructors who build courses based on these principles promote the opportunity to create an inclusive experience that considers the diverse set of learning styles and needs of all learners—including learners with disabilities, learners who speak English as a second language, learners with technical issues such as low bandwidth internet or no access to audio, and learners with age-related capability issues. For purposes of these guidelines, we have assumed that end users will be equipped with the appropriate adaptive technology and compatible software.
+Instructors who build courses based on these principles promote the opportunity to create an inclusive experience that considers the diverse set of learning styles and needs of all learners, including learners with disabilities, learners who speak English as a second language, learners with technical issues such as low bandwidth Internet or no access to audio, and learners with age-related capability issues. For purposes of these guidelines, we have assumed that end users will be equipped with the appropriate adaptive technology and compatible software.
 
 Occasionally, unanticipated accessibility barriers will arise. 
 To supplement the accessibility you can achieve within the edX platform, we recommend that you engage the resources available at your institution to support learners with disabilities. 
@@ -135,18 +135,18 @@ To produce content that is more readable by all students:
 * Make the names of elements such as course sections, subsections, units, components, and discussion topics descriptive 
   and easy to skim by putting the important information first in the name. 
   These names are used in navigation menus, page headings, and section headings and are signposts that help learners navigate your course and read course content. 
-  “Front-loading” menus and headings particularly helps screen reader users, who can more quickly assess the relevance of a link or heading.
+  "Front-loading" menus and headings particularly helps screen reader users, who can more quickly assess the relevance of a link or heading.
 
 * When creating written learning resources, break text into sections by using HTML elements, such as headings, paragraphs, and lists. 
   Long blocks of unbroken text are a barrier to most readers. Segmented content is more inviting and is easier to navigate and search. 
   See :ref:`Best Practices for HTML Markup` for guidance on creating accessible HTML.
 
 * Avoid jargon. If unfamiliar words or phrases are relevant to the subject, explain them when they are first used, and include a glossary with your course materials. 
-  When using an abbreviation or acronym, write out the phrase the first time it appears: for example, “National Aeronautics and Space Administration (NASA).”
+  When using an abbreviation or acronym, write out the phrase the first time it appears: for example, "National Aeronautics and Space Administration (NASA)."
 
-* Use link text that clearly explains the link destination (for example, “Review the Course Syllabus”). 
-  Avoid using constructs like “You can review the Course Syllabus here.” For links that point to documents rather than web pages, 
-  include the document type in the link (e.g., “Course Syllabus (PDF)”).
+* Use link text that clearly explains the link destination (for example, "Review the Course Syllabus"). 
+  Avoid using constructs like "You can review the Course Syllabus here." For links that point to documents rather than web pages, 
+  include the document type in the link (for example, "Course Syllabus (PDF)").
 
 **Resources**
 
@@ -167,7 +167,7 @@ and working with third-party suppliers.
 +++++++++++++++++++++++++++++++++++++++++++++
 Converting Microsoft Office documents to PDF
 +++++++++++++++++++++++++++++++++++++++++++++
-The teaching materials that you will convert to PDFs may use different formats—for example, your syllabus may be in Word, 
+The teaching materials that you will convert to PDFs may use different formats. For example, your syllabus may be in Word, 
 your presentation slides in PowerPoint, and your textbooks in publisher-supplied PDF. 
 Use the tools available in the applicable software to create well-structured source documents. 
 This early step helps minimize issues that may be difficult or impossible to address later in the conversion process.
@@ -175,30 +175,30 @@ This early step helps minimize issues that may be difficult or impossible to add
 **Preparing Word documents**
 
 * Keep formatting simple. Use headings, paragraphs, lists, images, and captions, and tables for tabular data. 
-  Don’t add unnecessary indents, rules, columns, blank lines, and typographic variation. The simpler the formatting, the easier it will be to make an accessible PDF document.
+  do not add unnecessary indents, rules, columns, blank lines, and typographic variation. The simpler the formatting, the easier it will be to make an accessible PDF document.
 
 * Use styles for formatting your text, such as Normal, Heading 1, and Heading 2, rather than manually formatting text using bold and indents. 
-  Add alternative text to images (see :ref:`Best Practices for Describing Images`) using Word’s picture formatting options.
+  Add alternative text to images (see :ref:`Best Practices for Describing Images`) using Word's picture formatting options.
 
 **Preparing PowerPoint documents**
 
 * To help make your content accessible and comprehensible to learners who use screen reading software, start in Outline view and include all of your content as text. 
-  Add design elements and images after completing the outline, and use PowerPoint’s picture formatting options to include detailed descriptions of images that convey information. Avoid adding animations or transitions, as they will not be saved with the PDF format.
+  Add design elements and images after completing the outline, and use PowerPoint's picture formatting options to include detailed descriptions of images that convey information. Avoid adding animations or transitions, as they will not be saved with the PDF format.
 
 * Use the Home > Drawing > Arrange > Selection Pane option to view the reading order of objects on each slide. If the reading order is not logical, reorder the objects.
 
 * Use the Home > Slides > Reset option to give each slide a unique and informative title. The title can be hidden if preferred.
 
-* Identify column headers for any data table using PowerPoint’s table formatting options (Tables > Table Options > Header Row), 
+* Identify column headers for any data table using PowerPoint's table formatting options (Tables > Table Options > Header Row), 
   and ensure that each header contains informative text describing the data in that column.
 
 **Preparing Excel spreadsheets**
 
 * Use a unique and informative title for each worksheet tab.
 
-* Include text alternatives for images (see :ref:`Best Practices for Describing Images`) using Excel’s picture formatting options.
+* Include text alternatives for images (see :ref:`Best Practices for Describing Images`) using Excel's picture formatting options.
 
-* Identify column headers using Excel’s table formatting options (Table > Table Options > Header Row), and include in each header cell informative text describing the data in that column.
+* Identify column headers using Excel's table formatting options (Table > Table Options > Header Row), and include in each header cell informative text describing the data in that column.
 
 * Do not use blank cells for formatting.
 
@@ -214,12 +214,12 @@ Note that PDFs generated from Windows versions of Office will be more accessible
 Working with third-party supplied PDFs
 +++++++++++++++++++++++++++++++++++++++++++++
 
-When you control the creation of a PDF, you have greater control over the document’s accessibility. 
-If you use PDFs provided by third parties, including textbooks supplied by publishers, the document’s accessibility may be unknown.
+When you control the creation of a PDF, you have greater control over the document's accessibility. 
+If you use PDFs provided by third parties, including textbooks supplied by publishers, the document's accessibility may be unknown.
 
 **Asking the right questions about accessible PDFs**
 
-Where possible, ask the supplier of the PDF if the PDF is accessible. If it isn’t, ask whether the supplier can provide an accessible version. Questions to ask include:
+Where possible, ask the supplier of the PDF if the PDF is accessible. If it isn't, ask whether the supplier can provide an accessible version. Questions to ask include:
 
 * Can screen readers read the document text?
 * Do images in the document include text descriptions?
@@ -239,7 +239,7 @@ You may need to update your existing teaching materials in PDF format to improve
 
 In such cases, you need special software, such as Adobe Acrobat Professional, to enhance the accessibility of the PDF. 
 PDFs that are created from scanned documents require a preliminary Optical Character Recognition (OCR) step to generate a text version of the document. 
-The procedure checks documents for accessibility barriers, adds properties and tags for document structure, sets the document’s language, and adds alternative text for images.
+The procedure checks documents for accessibility barriers, adds properties and tags for document structure, sets the document's language, and adds alternative text for images.
 
 **Resources**
 
@@ -249,7 +249,7 @@ The procedure checks documents for accessibility barriers, adds properties and t
 * Adobe provides a detailed accessibility PDF repair workflow using Acrobat XI: 
   http://www.adobe.com/content/dam/Adobe/en/accessibility/products/acroba t/pdfs/acrobat-xi-pdf-accessibility-repair-workflow.pdf
 
-* Adobe Accessibility (Adobe) is a comprehensive collection of resources on PDF authoring and repair, using Adobe’s products: 
+* Adobe Accessibility (Adobe) is a comprehensive collection of resources on PDF authoring and repair, using Adobe's products: 
   http://www.adobe.com/accessibility.html
 
 * PDF Accessibility (University of Washington) provides a step-by-step guide to creating accessible PDFs from different sources and using different applications: 
@@ -258,7 +258,7 @@ The procedure checks documents for accessibility barriers, adds properties and t
 * PDF Accessibility (WebAIM) provides a detailed and illustrated guide on creating accessible PDFs: 
   http://webaim.org/techniques/acrobat/
 
-* The National Center of Disability and Access to Education has a collection of one- page “cheat sheets” on accessible document authoring: 
+* The National Center of Disability and Access to Education has a collection of one- page "cheat sheets" on accessible document authoring: 
   http://ncdae.org/resources/cheatsheets/
 
 * The Accessible Digital Office Document (ADOD) Project provides guidance on creating accessible Office documents: 
@@ -297,7 +297,7 @@ Math images cannot be modified by people who need a high-contrast display and ca
 EdX uses MathJax to render math content in a format that is clear, readable, and accessible to people who use screen readers. 
 MathJax works together with math notation, like LaTeX and MathML, to render mathematical equations as text instead of images. 
 We recommend that you use MathJax to display your math content. 
-You can learn more about using MathJax in the MathJax documentation on accessibility (see the link in “Resources” below). 
+You can learn more about using MathJax in the MathJax documentation on accessibility (see the link in "Resources" below). 
 We will update these guidelines as improvements to MathJax are developed.
 
 ++++++++++++++++++++++++++++++++++++++++++++
@@ -308,13 +308,13 @@ Simulations, including animated or gamified content, can enhance the learning ex
 In particular, they benefit learners who may have difficulty acquiring knowledge from reading and processing textual content alone. 
 However, simulations can also present some groups of learners with difficulties. 
 To minimize barriers, consider the intended learning outcome of the simulation. 
-Is it to reinforce understanding that can also come from textual content or a video lecture, or is it to convey new knowledge that other course resources can’t cover? 
+Is it to reinforce understanding that can also come from textual content or a video lecture, or is it to convey new knowledge that other course resources can't cover? 
 Providing alternative resources will help mitigate the impact of any barriers.
 
 Although you can design simulations to avoid many accessibility barriers, some barriers, particularly in simulations supplied by third parties, 
 may be difficult or impossible to address for technical or pedagogic reasons. 
 Understanding the nature of these barriers can help you provide workarounds for learners who are affected. 
-Keep in mind that attempted workarounds for simulations supplied by third parties may require the supplier’s consent if copyrighted material is involved.
+Keep in mind that attempted workarounds for simulations supplied by third parties may require the supplier's consent if copyrighted material is involved.
 
 Consider the following questions when creating simulations, keeping in mind that as the course instructor, 
 you enjoy considerable freedom in selecting course objectives and outcomes. 
@@ -340,7 +340,7 @@ keeping in mind that some of the end users have disabilities.
 Focus on activities that allow students to complete the activity and submit their work without difficulties.
 
 Some students take longer to read information and input responses, such as students with visual or mobility impairments and students who need time to comprehend the information. 
-If an exercise has a time limit, consider whether it’s long enough to allow students to respond. Advanced planning may help cut down on the number of students requesting 
+If an exercise has a time limit, consider whether it's long enough to allow students to respond. Advanced planning may help cut down on the number of students requesting 
 time extensions.
 
 Some online exercise question types may be difficult for students who have vision or mobility impairments. For example:
@@ -372,7 +372,7 @@ for guidance on creating accessible HTML.
   charts, diagrams, and illustrations: 
   http://ncam.wgbh.org/experience_learn/educational_media/stemdx
 
-* The University of Washington’s DO-IT project provides guidance on creating accessible math content: 
+* The University of Washington's DO-IT project provides guidance on creating accessible math content: 
   http://www.washington.edu/doit/Faculty/articles?465
 
 * AccessSTEM provides guidance on creating accessible science, technology, engineering and math educational content: 
@@ -392,26 +392,26 @@ Best Practices for Describing Images
 
 Pictures, diagrams, maps, charts, and icons can present information very effectively. 
 However, some visually impaired students, including people who use screen reader software, need text alternatives to understand the information conveyed by these images. 
-The text alternative for an image depends on the image’s context and purpose, and may not be a straight description of the image’s visual characteristics.
+The text alternative for an image depends on the image's context and purpose, and may not be a straight description of the image's visual characteristics.
 
 Use the following guidelines when you include images in your course:
 
 * Provide a short text description that conveys the purpose of the image, unless the image conveys a concept or is the only source for the information it presents, 
-  in which case a long text description is appropriate. Note that you don’t need to provide a long description if the information appears elsewhere on the page. 
-  For example, you don’t need to describe a chart if the same data appears as text in a data table.
+  in which case a long text description is appropriate. Note that you do not need to provide a long description if the information appears elsewhere on the page. 
+  For example, you do not need to describe a chart if the same data appears as text in a data table.
   
   * For a representative image, such as a photograph of Ponte Vecchio, a short
-    description could be “Photo of Ponte Vecchio.” If the photograph’s purpose is to provide detailed information about the location, the long description should be more specific: “Photo of Ponte Vecchio showing its three stone arches and the Arno River.”
+    description could be "Photo of Ponte Vecchio." If the photograph's purpose is to provide detailed information about the location, the long description should be more specific: "Photo of Ponte Vecchio showing its three stone arches and the Arno River."
 
-  * For a chart, diagram, or illustration, the short description might be “Diagram of Ponte Vecchio.” The long description should include the details conveyed visually, such as dimensions and materials used.
+  * For a chart, diagram, or illustration, the short description might be "Diagram of Ponte Vecchio." The long description should include the details conveyed visually, such as dimensions and materials used.
 
-  * For a map, a short description might be “Map showing location of Ponte Vecchio.” If the map is intended to provide directions to the bridge, the long description should provide text directions.
+  * For a map, a short description might be "Map showing location of Ponte Vecchio." If the map is intended to provide directions to the bridge, the long description should provide text directions.
   
-  * For icons, the short description should be the equivalent to the information that the icon provides. For example, for a Course Syllabus link containing a PDF icon, the text equivalent for the icon would be “PDF,” which would be read as “Course Syllabus PDF.”
+  * For icons, the short description should be the equivalent to the information that the icon provides. For example, for a Course Syllabus link containing a PDF icon, the text equivalent for the icon would be "PDF," which would be read as "Course Syllabus PDF."
 
-  * For an image that serves primarily as a link to another web page, the short description should describe the link’s destination, not the image. For example, an image of a question mark that serves as a link to a Help page should be described as “help,” not “question mark.”
+  * For an image that serves primarily as a link to another web page, the short description should describe the link's destination, not the image. For example, an image of a question mark that serves as a link to a Help page should be described as "help", not "question mark".
 
-  * Images that don’t provide information don’t need text descriptions. For example, a PDF icon that is followed by link text reading “Course Syllabus (PDF)” does not need a description. Another example is a banner graphic whose function is purely aesthetic.
+  * Images that accompany descriptive text, or that are decorative, do not need text descriptions. For example, a PDF icon that is followed by link text reading "Course Syllabus (PDF)" does not need a description. Another example is a banner graphic whose function is purely aesthetic.
   
 * Include the short description in the alt attribute of the HTML image element, as follows (see :ref:`Add an Image to an HTML Component` for more information about adding images):
 
@@ -448,21 +448,21 @@ Best Practices for Accessible Media
 
 Media-based course materials help convey concepts and bring course information to life. 
 We require all edX courses to use videos with interactive, screen-reader- accessible transcripts. 
-This built-in universal design mechanism helps enhance your course’s accessibility. 
+This built-in universal design mechanism helps enhance your course's accessibility. 
 When you create your course, you need to factor in time and resources for creating these transcripts.
 
 ++++++++++++++++++++++++++++++++++++++++++++  
 Audio transcription
 ++++++++++++++++++++++++++++++++++++++++++++  
 
-Audio transcripts are essential for presenting audible content to students who can’t hear and are helpful to students who are not native English speakers. 
-Synchronized transcripts allow students who can’t hear to follow along with the video and navigate to a specific section of the video by clicking the transcript text. 
+Audio transcripts are essential for presenting audible content to students who can't hear and are helpful to students who are not native English speakers. 
+Synchronized transcripts allow students who can't hear to follow along with the video and navigate to a specific section of the video by clicking the transcript text. 
 Additionally, all students can use transcripts of media-based learning materials for study and review.
 
-A transcript starts with a text version of the video’s spoken content. 
+A transcript starts with a text version of the video's spoken content. 
 If you created your video using a script, you have a great start on creating the transcript. 
 Just review the recorded video and update the script as needed. 
-Otherwise, you’ll need to transcribe the video yourself or engage someone to do it. 
+Otherwise, you'll need to transcribe the video yourself or engage someone to do it. 
 There are many companies that will create timed video transcripts (i.e., transcripts that synchronize the text with the video using time codes) for a fee.
 
 The edX platform supports the use of transcripts in .srt format. 
@@ -474,7 +474,7 @@ See :ref:`Working with Video Components` for details on how to add timed transcr
 Video description
 ++++++++++++++++++++++++++++++++++++++++++++
 
-When creating video segments, consider how to convey information to learners who can’t see. 
+When creating video segments, consider how to convey information to learners who can't see. 
 For many topics, you can fully cover concepts in the spoken presentation. 
 If practical, you might also describe visual information, for example, by speaking as you are writing on a tablet.
 
@@ -502,11 +502,11 @@ the information in the markup helps assistive technologies, such as screen reade
 
 To make it easier for our course teams to create content with good HTML markup, we are working to make all templates in edX Studio conform to the best practices set forth below. 
 In the interim, we recommend that you manually add the appropriate HTML tagging. 
-Depending on the type of component you are adding to your course in edX Studio, the raw HTML data will be available either automatically or by selecting the “Advanced Editor” or “HTML” views.
+Depending on the type of component you are adding to your course in edX Studio, the raw HTML data will be available either automatically or by selecting the "Advanced Editor" or "HTML" views.
 
 Keep the following guidelines in mind when you create HTML content:
 
-* Use HTML to describe your content’s *meaning* rather than its *appearance*. A phrase marked as a level 1 heading (<h1>) clearly indicates the topic of the page, 
+* Use HTML to describe your content's *meaning* rather than its *appearance*. A phrase marked as a level 1 heading (<h1>) clearly indicates the topic of the page, 
   while a phrase marked as bold text (<bold> or <strong>) may be a heading or may just be text that the instructor wants to emphasize. 
   A group of items marked up as a list are related in the code, without relying on visual cues such as bullets and indents. 
   Coding meaning into content is particularly useful for students using screen readers, which, for example, can read through headings or announce the number of items in a list.
@@ -519,7 +519,7 @@ Keep the following guidelines in mind when you create HTML content:
   #. Ordered lists, where each item is listed with a number.
   #. Definition lists, where each item is represented using term and description pairs (like a dictionary).
 
-* Use table elements to mark up data sets—that is, information that works best in a grid format—with descriptive rows and columns. 
+* Use table elements to mark up data sets (that is, information that works best in a grid format) with descriptive rows and columns. 
   Mark up row and column headers using the <th> element so screen readers can effectively describe the content in the table.
 
 **Resources**
@@ -538,5 +538,5 @@ Conclusion
 
 At edX, the heart of our mission is to provide global access to higher-level learning with only a computer and the Internet. 
 We have designed a platform that enables course creators to reach thousands of learners, some of whom will lack the typical backgrounds and resources of resident students taking traditional courses on college campuses. 
-We hope that these guidelines prove useful to you as you work with your institution’s disability support services and information technology resources to comply with applicable accessibility laws. 
+We hope that these guidelines prove useful to you as you work with your institution's disability support services and information technology resources to comply with applicable accessibility laws. 
 As we are all on this learning venture together, we encourage you to share your thoughts with us at accessibility@edx.org.

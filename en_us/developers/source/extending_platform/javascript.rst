@@ -83,7 +83,7 @@ optionally to provide feedback as a formative assessment.
 #. Edit the XML of the component to remove grading information and refer to the
    HTML file you uploaded:
 
-.. code-block:: xml
+.. code-block:: python
 
     <customresponse>
         <jsinput
@@ -95,7 +95,7 @@ optionally to provide feedback as a formative assessment.
 
 For example:
 
-.. code-block:: xml
+.. code-block:: python
 
     <customresponse>
         <jsinput
@@ -139,7 +139,7 @@ attribute of the ``jsinput`` element for the problem.
 
 For example:
 
-.. code-block::  xml
+.. code-block::  python
 
     <customresponse cfn="vglcfn">
         <jsinput get_statefn="JSObject.getState"
@@ -163,7 +163,7 @@ attribute of the ``jsinput`` element for the problem.
 
 For example:
 
-.. code-block::  xml
+.. code-block::  python
 
     <customresponse cfn="vglcfn">
         <jsinput set_statefn="JSObject.setState"
@@ -188,7 +188,7 @@ attribute of the ``jsinput`` element for the problem.
 
 For example:
 
-.. code-block::  xml
+.. code-block::  python
 
     <customresponse cfn="vglcfn">
         <jsinput gradefn="JSObject.getGrade"
@@ -223,7 +223,7 @@ In the Python code, you must:
 
 The structure of the Python code in the problem is:
 
-.. code-block:: xml
+.. code-block:: python
 
     <problem>
         <script type="loncapa/python">
@@ -245,7 +245,7 @@ XML for Custom JavaScript Applications
 The problem component XML that you define in Studio to provide students with a
 JavaScript application has the following structure:
 
-.. code-block::
+.. code-block:: python
 
     <problem>
         <!-- Optional script tag for summative assessments -->

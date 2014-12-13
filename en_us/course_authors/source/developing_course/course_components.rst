@@ -250,7 +250,7 @@ shown in Studio above.
 
 The XML for the unit is:
 
-.. code-block:: xml
+.. code-block:: python
 
     <vertical display_name="Unit 1">
         <html url_name="6a5cf0ea41a54b209e0815147896d1b2"/>
@@ -260,7 +260,7 @@ The XML for the unit is:
 The ``<vertical url_name="131a499ddaa3474194c1aa2eced34455"/>`` element above
 references the parent component file that contains the child components:
  
-.. code-block:: xml
+.. code-block:: python
 
     <vertical display_name="Parent Component">
         <vertical url_name="2758bbc495dd40d59050da15b40bd9a5"/>
@@ -270,14 +270,14 @@ references the parent component file that contains the child components:
 The two verticals referenced by the parent component refer to the child
 components, which contain the actual content of your course:
 
-.. code-block:: xml
+.. code-block:: python
 
     <vertical display_name="Child Component A">
         <html url_name="4471618afafb45bfb86cbe511973e225"/>
         <video url_name="fbd800d0bdbd4cb69ac70c47c9f699e1"/>
     </vertical>
 
-.. code-block:: xml
+.. code-block:: python
 
     <vertical display_name="Child Component B">
         <html url_name="dd6ef295fda74a639842e1a49c66b2c7"/>

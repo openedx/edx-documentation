@@ -29,7 +29,7 @@ To create the protein builder:
 Protein Builder Tool Code
 *************************
 
-.. code-block:: xml
+.. code-block:: python
 
   <problem>
       <p>The protein builder allows you string together the building blocks of proteins, amino acids, and see how that string will form into a structure. You are presented with a goal protein shape, and your task is to try to re-create it. In the example below, the shape that you are asked to form is a simple line.</p> 

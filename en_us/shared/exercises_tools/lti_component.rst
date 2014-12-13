@@ -15,11 +15,11 @@ version 1.1.1 specifications.
 
 You can use an LTI component in several ways.
 
-* You can add external LTI content that is displayed only, such as textbook
-  content that doesn’t require a student response.
+* You can add external LTI content that only displays. An example is textbook
+  content that does not require a student response.
 
 * You can add external LTI content that requires a student response. An external
-  provider will grade student responses.
+  provider grades the student responses.
 
 * You can use the component as a placeholder for syncing with an external
   grading system.
@@ -41,7 +41,7 @@ unit, you need the following information.
 -  The **launch URL** (if the LTI component requires a student response
    that will be graded). You obtain the launch URL from the LTI
    provider. The launch URL is the URL that Studio sends to the external
-   LTI provider so that the provider can send back students’ grades.
+   LTI provider so that the provider can send back students' grades.
 
 - The **LTI Passports** policy key. This policy key has three parts: an LTI ID,
   a client key, and a client secret.
@@ -96,7 +96,7 @@ Step 1. Add LTI to the Advanced Module List Policy Key
 #. In the field for the **Advanced Module List** policy key, place your cursor
    between the brackets.
 
-#. Enter ``“lti”``. Make sure to include the quotation marks, but not the
+#. Enter ``"lti"``. Make sure to include the quotation marks, but not the
    period.
 
    .. image:: /Images/LTIPolicyKey.png
@@ -105,7 +105,7 @@ Step 1. Add LTI to the Advanced Module List Policy Key
 
 .. note:: If the **Advanced Module List** field already contains text, place your cursor directly
    after the closing quotation mark for the final item, and then enter a comma
-   followed by ``“lti”`` (make sure that you include the quotation marks).
+   followed by ``"lti"`` (make sure that you include the quotation marks).
 
 4. At the bottom of the page, click **Save Changes**.
 
@@ -116,7 +116,7 @@ you see a notification that your changes have been saved.
 Step 2. Register the External LTI Provider
 ==========================================
 
-To register the external LTI provider, you’ll add the **LTI Passports** policy
+To register the external LTI provider, you add the **LTI Passports** policy
 key to the course's advanced settings.
 
 #. On the **Advanced Settings** page, locate the **LTI Passports**
@@ -134,7 +134,7 @@ key to the course's advanced settings.
    Passports** policy key with a comma. Make sure to surround each entry with
    quotation marks.
 
-   .. code-block:: xml
+   .. code-block:: python
 
       "test_lti_id:b289378-f88d-2929-ctools.umich.edu:secret",
       "id_21441:b289378-f88d-2929-ctools.school.edu:23746387264",
@@ -199,6 +199,9 @@ LTI Component Settings
    * - Scored
      - Indicates whether the LTI component receives a numerical score from the external LTI system. By default, this value is set to **False**.
    * - Weight
-     - Specifies the number of points possible for the problem. By default, if an external LTI provider grades the problem, the problem is worth 1 point, and a student’s score can be any value between 0 and 1. This setting is applicable when **Scored** is set to **True**.
+     - Specifies the number of points possible for the problem. By default, if
+       an external LTI provider grades the problem, the problem is worth 1
+       point, and a student's score can be any value between 0 and 1. This
+       setting is applicable when **Scored** is set to **True**.
 
        For more information about problem weights and computing point scores, see :ref:`Problem Weight`.

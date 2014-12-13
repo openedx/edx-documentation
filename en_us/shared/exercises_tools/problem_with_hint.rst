@@ -22,7 +22,7 @@ To create the above problem:
 #. In the component editor, replace the example code with the code below.
 #. Click **Save**.
 
-.. code-block:: xml
+.. code-block:: python
 
     <problem>
 	    <text>
@@ -67,7 +67,7 @@ Problem with Adaptive Hint XML
 Template
 ========
 
-.. code-block:: xml
+.. code-block:: python
 
 	<problem>
 	  <text>

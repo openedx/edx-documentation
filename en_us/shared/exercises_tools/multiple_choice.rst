@@ -81,7 +81,7 @@ Advanced Editor
 
 To create this problem in the Advanced Editor, click the **Advanced** tab in the Problem component editor, and then replace the existing code with the following code.
 
-.. code-block:: xml
+.. code-block:: python
 
   <problem>
   <p>Lateral inhibition, as was first discovered in the horsehoe crab...</p>
@@ -179,7 +179,7 @@ You can configure the problem to shuffle answers through XML in :ref:`Advanced E
 
 For example, the following XML defines a multiple choice problem, before shuffling is enabled:
 
-.. code-block:: xml
+.. code-block:: python
 
  <p>What Apple device competed with the portable CD player?</p>
  <multiplechoiceresponse>
@@ -194,7 +194,7 @@ For example, the following XML defines a multiple choice problem, before shuffli
 
 To add shuffling to this problem, add ``shuffle="true"`` to the ``<choicegroup>`` element:
 
-.. code-block:: xml
+.. code-block:: python
 
  <p>What Apple device competed with the portable CD player?</p>
  <multiplechoiceresponse>
@@ -208,7 +208,7 @@ To add shuffling to this problem, add ``shuffle="true"`` to the ``<choicegroup>`
 
 To fix an answer's location in the list, add ``fixed="true"`` to the ``choice`` element for the answer:
 
-.. code-block:: xml
+.. code-block:: python
 
  <p>What Apple device competed with the portable CD player?</p>
  <multiplechoiceresponse>
@@ -247,7 +247,7 @@ Follow these XML guidelines:
 
 For example, the XML for the multiple choice problem is:
 
-.. code-block:: xml
+.. code-block:: python
 
    <p>What Apple device competed with the portable CD player?</p>
    <multiplechoiceresponse targeted-feedback="">
@@ -261,7 +261,7 @@ For example, the XML for the multiple choice problem is:
  
 This is followed by XML that defines the targeted feedback:
 
-.. code-block:: xml
+.. code-block:: python
 
    <targetedfeedbackset>
      <targetedfeedback explanation-id="feedback1">
@@ -318,7 +318,7 @@ Follow these XML guidelines:
 
 For example, for the following multiple choice problem, a student will see four choices, and in each set one of the choices will be one of the two correct ones. The explanation shown for the correct answer is the one with the same explanation ID.
 
-.. code-block:: xml
+.. code-block:: python
 
  <problem>
    <p>What Apple devices let you carry your digital music library in your pocket?</p>
@@ -360,7 +360,7 @@ Multiple Choice Problem XML
 Template
 ================
 
-.. code-block:: xml
+.. code-block:: python
 
   <problem>
   <p>Question text</p>

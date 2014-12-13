@@ -27,7 +27,7 @@ To create the above chemical equation problem:
 Sample Chemical Equation Problem Code
 ==========================================
 
-.. code-block:: xml
+.. code-block:: python
 
   <problem>
     <startouttext/>
@@ -75,7 +75,7 @@ Chemical Equation Problem XML
 Template
 ============
 
-.. code-block:: xml
+.. code-block:: python
 
   <problem>
     <startouttext/>

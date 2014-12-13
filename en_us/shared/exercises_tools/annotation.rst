@@ -58,7 +58,7 @@ problem.
     #. Paste the following code in the Advanced Problem component, replacing
        placeholders with your own information.
 
-        .. code-block:: xml
+        .. code-block:: python
 
           <problem>
               <annotationresponse>
