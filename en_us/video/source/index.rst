@@ -12,6 +12,7 @@ Processing Video Files
    :maxdepth: 2
 
    read_me
+   change_log
    video_prereqs
    video_uploads
    video_course

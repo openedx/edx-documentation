@@ -167,13 +167,13 @@ you create. CMS Analytics offers reports and data that can help you evaluate
 channel and video performance, including views, subscribers, watch time, and
 more.
 
-.. note:: The following procedure only needs to be completed once per 
- course, but it must be complete before the course team begins to add videos
- to the course in Studio.
-
 ===============================
 Creating YouTube Channels
 ===============================
+
+.. note:: This procedure only needs to be completed once per course, but it 
+ must be complete before the course team begins to add videos to the course in
+ Studio.
 
 #. In your browser, access YouTube by going to https://cms.youtube.com.
 
@@ -215,7 +215,7 @@ Adding a Channel Manager
 Video administrators can grant management access to each YouTube channel to
 members of the corresponding course team. Management access allows team
 members to perform limited administrative tasks, such as revising YouTube
-titles or changing a video’s thumbnail. To provide these permissions, a video
+titles or changing a video's thumbnail. To provide these permissions, a video
 administrator obtains the email addresses of one or more course team members
 and invites them to manage the channel.
 
@@ -247,9 +247,9 @@ and invites them to manage the channel.
    Access to YouTube Account>`.
 
 Course team members who complete the activation process are channel managers.
-When they log in to YouTube at https://www.youtube.com with the email address
-that has channel manager privileges, they can manage course content in that
-channel.
+When they log in to the YouTube CMS at https://cms.youtube.com with the email
+address that has been given channel manager privileges, they can manage
+channel content.
 
 
 .. _creating a video transcript: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/creating_content/create_video.html#step-2-create-or-obtain-a-video-transcript
