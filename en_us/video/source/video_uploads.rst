@@ -43,13 +43,11 @@ For best results, your video files should have these compression specifications.
    :widths: 40 40
    :stub-columns: 1
 
-   * - Output
-     - Transfer to edX Studio
-   * - Codec
-     - H.264 .mp4
-   * - Resolution & Frame Rate (see note)
-     - 1920x1080, progressive, 29.97 fps
-   * - Aspect
+   * - Codec & Container
+     - H.264, .mp4
+   * - Resolution & Frame Rate
+     - 1920x1080, progressive, 29.97 fps (see note)
+   * - Pixel Aspect Ratio
      - 1.0
    * - Bit Rate
      - VBR, 2 pass
