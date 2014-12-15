@@ -247,9 +247,8 @@ and invites them to manage the channel.
    Access to YouTube Account>`.
 
 Course team members who complete the activation process are channel managers.
-When they log in to the YouTube CMS at https://cms.youtube.com with the email
-address that has been given channel manager privileges, they can manage
-channel content.
+When they log in to YouTube at https://www.youtube.com with the email address
+that has channel manager privileges, they can manage course content.
 
 
 .. _creating a video transcript: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/creating_content/create_video.html#step-2-create-or-obtain-a-video-transcript
