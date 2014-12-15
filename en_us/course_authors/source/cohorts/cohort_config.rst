@@ -356,8 +356,7 @@ Creating a Unicode-encoded CSV File
 ====================================
 
 Make sure the .csv files that you upload are encoded as UTF-8, so that any
-Unicode characters (for example, in usernames) are correctly saved and
-displayed.
+Unicode characters are correctly saved and displayed.
 
 .. note:: Some spreadsheet applications (for example, MS Excel) do not allow you
    to specify encoding when you save a spreadsheet as a .csv file. To ensure that
