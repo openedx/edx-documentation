@@ -44,3 +44,9 @@ copyright = u'2014, edX'
 version = ''
 # The full version, including alpha/beta/rc tags.
 release = ''
+
+# Prevent single quotes (unicode U+0027) from being output as right single
+# quotes (U+2019) in the PDF.
+latex_preamble = """
+    \usepackage{upquote}
+    """
