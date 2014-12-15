@@ -50,7 +50,3 @@ release = ''
 latex_elements = {
     'preamble': '\usepackage{upquote}'
     }
-
-def setup(app):
-    from sphinx.util.texescape import tex_replacements
-    tex_replacements += [(u'’', u''')]
