@@ -47,6 +47,7 @@ release = ''
 
 # Prevent single quotes (unicode U+0027) from being output as right single
 # quotes (U+2019) in the PDF.
-latex_preamble = """
+latex_elements
+    preamble = """
     \usepackage{upquote}
     """
