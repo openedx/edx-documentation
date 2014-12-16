@@ -4,10 +4,8 @@
 Overview of Content Experiments
 #################################
 
-You use content experiments to show different course content to different
-groups of students.
-
-Also known as A/B or split tests, content experiments enable you to
+You use content experiments to show different course content to different groups
+of students. Also known as A/B or split tests, content experiments enable you to
 research and compare the performance of students in different groups to gain
 insight into the relative effectiveness of your course content.
 
@@ -35,7 +33,7 @@ experiment to be independent and use a different grouping.
 .. important::
 
   If your course has multiple experiments, it is critical that you decide
-  up front if the experiments share the same groups of students or if each
+  in advance if the experiments share the same groups of students or if each
   experiment has its own unique grouping. If two experiments share the same
   grouping, then any student that is in Group A for the first experiment will
   also be in Group A for the second one. If you want the experiments to be
