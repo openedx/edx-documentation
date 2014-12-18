@@ -12,6 +12,10 @@ December, 2014
 
    * - Date
      - Change
+   * - 12/17/14
+     - Updated :ref:`Custom JavaScript` and :ref:`Multiple Problems in One
+       Component` to indicate that you cannot use a custom JavaScript problem
+       in a component with multiple problems.
    * - 12/02/14
      - Added email template for :ref:`Weekly Highlights` email to students.
    * - 

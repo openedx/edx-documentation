@@ -18,6 +18,12 @@ create your JS Input problem.
 .. image:: /Images/JavaScriptInputExample.png
  :alt: Image of a JavaScript Input problem
 
+.. caution:: 
+  You cannot use a custom JavaScript problem in a component that contains more
+  than one problem. Each custom JavaScript problem must be in its own
+  component. See :ref:`Multiple Problems in One Component` for more
+  information.
+
 ************************************************************
 Create a Custom JavaScript Display and Grading Problem
 ************************************************************
