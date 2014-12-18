@@ -173,8 +173,8 @@ identify:
 
 * The ``course_id`` of the course that generated the event.
 * The ``org_id`` of the organization that lists the course. 
-* The ``user_id`` of the individual who is performing the action. 
 * The URL ``path`` that generated the event. 
+* The ``user_id`` of the individual who is performing the action. 
 
 When included, ``course_user_tags`` contains a dictionary with the key(s) and
 value(s) from the ``user_api_usercoursetag`` table for the user. See
@@ -246,6 +246,17 @@ data packages. To locate information about a specific event type, see the
 that originate on mobile devices.
 
 ===================
+``name`` Field
+===================
+
+**Type:** string
+
+**Details:** Identifies the type of event triggered.
+
+**History:** Events added beginning on 07 May 2014 include a ``name`` field.
+When present for an event, this field replaces the ``event_type`` field.
+
+===================
 ``page`` Field
 ===================
 
@@ -274,8 +285,8 @@ include a session value.
 
 **Type:** string
 
-**Details:** Gives the UTC time at which the event was emitted in 'YYYY-MM-
-DDThh:mm:ss.xxxxxx' format.
+**Details:** Gives the UTC time at which the event was emitted in 
+'YYYY-MM-DDThh:mm:ss.xxxxxx' format.
 
 ===================
 ``username`` Field
@@ -300,6 +311,8 @@ outside the Instructor Dashboard.
 * :ref:`navigational`
 
 * :ref:`video`
+
+*  :ref:`video_mobile`
 
 * :ref:`pdf`
 
@@ -333,18 +346,18 @@ Enrollment Events
 .. tracked_command.py
 
 ``edx.course.enrollment.activated`` and ``edx.course.enrollment.deactivated``
-------------------------------------------------------------------------------
+*****************************************************************************
 
 The server emits these events in response to course enrollment
 activities completed by a student.
 
-* When a student enrolls in a course, the server emits
-  ``edx.course.enrollment.activated``. For example, when a student clicks
-  **Enroll** for a course on the edx.org site this event results.
+* When a student enrolls in a course, the server emits an
+  ``edx.course.enrollment.activated`` event. For example, this event results
+  when a student clicks **Enroll** for a course on the edx.org site.
 
-* When a student unenrolls from a course, the server emits
-  ``edx.course.enrollment.deactivated``. For example, when a student clicks
-  **Unenroll** for a course on the edx.org site this event results.
+* When a student unenrolls from a course, the server emits an
+  ``edx.course.enrollment.deactivated`` event. For example, this event results
+  when a student clicks **Unenroll** for a course on the edx.org site.
 
 In addition, actions by instructors and course staff members also generate
 enrollment events. For the actions that members of the course team complete
@@ -352,7 +365,9 @@ that result in these events, see :ref:`instructor_enrollment`.
 
 **Event Source**: Server
 
-**History**: These enrollment events were added on 03 Dec 2013.
+**History**: These enrollment events were added on 03 Dec 2013. On 07 May
+2014, the ``name`` field was added. These events include both a ``name`` field
+and an ``event.event_type`` member field.
 
 ``event`` **Member Fields**: 
 
@@ -367,65 +382,50 @@ that result in these events, see :ref:`instructor_enrollment`.
      - string
      - **History**: Maintained for backward compatibility. 
        
-       As of 23 Oct 2013, replaced by the ``context`` ``course_id`` field.
+       As of 23 Oct 2013, replaced by the ``context.course_id`` field.
 
        See the description of the :ref:`context`.
 
    * - ``mode``
      - string
      - 'audit', 'honor', 'verified'
-   * - ``name``
-     - string
-     - Identifies the type of event: 'edx.course.enrollment.activated' or
-       'edx.course.enrollment.deactivated'. 
-
-       **History**: Added 07 May 2014 to replace the ``event`` ``event_type``
-       field.
-
-   * - ``session``
-     - string
-     - The Django session ID, if available. Can be used to identify events for
-       a specific user within a session. 
-
-       **History**: Added 07 May 2014.
-
    * - ``user_id``
      - integer
      - Identifies the user who was enrolled or unenrolled. 
 
 Example
---------
-
-.. reviewers, is this example accurate wrt the new fields?
+*******
 
 .. code-block:: json
 
     {
         "username": "AAAAAAAAAA",
-        "host": "courses.edx.org",
         "event_source": "server",
-        "event_type": "edx.course.enrollment.activated",
+        "name": "edx.course.enrollment.deactivated",
+        "time": "2014-01-26T00:28:28.388782+00:00", 
+        "agent": "Mozilla\/5.0 (Windows NT 6.1; WOW64; Trident\/7.0; rv:11.0) like Gecko",
+        "page": null
+        "host": "courses.edx.org",
+        "session": "a14j3ifhskngw0gfgn230g",
         "context": {
-          "course_id": "edX\/DemoX\/Demo_Course",
+          "user_id": 9999999,
           "org_id": "edX",
-          "path": "/change_enrollment",
-          "user_id": 9999999
+          "course_id": "edX\/DemoX\/Demo_Course",
+          "path": "\/change_enrollment",
         },
-        "time": "2014-01-26T00:28:28.388782+00:00",
         "ip": "NN.NN.NNN.NNN",
         "event": {
           "course_id": "edX\/DemoX\/Demo_Course",
           "user_id": 9999999,
           "mode": "honor"
-          "name": "edx.course.enrollment.activated",
-          "session": a14j3ifhskngw0gfgn230g
         },
-        "agent": "Mozilla\/5.0 (Windows NT 6.1; WOW64; Trident\/7.0; rv:11.0) like Gecko",
-        "page": null
+        "event_type": "edx.course.enrollment.deactivated"
       }
 
+.. new example provided by Olga 12/15/14
+
 ``edx.course.enrollment.upgrade.clicked``
------------------------------------------------
+*****************************************
 
 Students who enroll with a ``student_courseenrollment.mode`` of 'audit' or
 'honor' in a course that has a verified certificate option see a **Challenge
@@ -455,7 +455,7 @@ event when a student clicks this option, and the process of upgrading the
 ``event`` **Member Fields**: None.
        
 ``edx.course.enrollment.upgrade.succeeded``
---------------------------------------------
+*******************************************
 
 The server emits this event when the process of upgrading a student's
 ``student_courseenrollment.mode`` from 'audit' or 'honor' to 'verified' is
@@ -533,7 +533,7 @@ All of the navigational events add the same fields to the ``event`` dict field:
 
 
 ``page_close``
----------------
+**************
 
 An additional type of event, ``page_close``, originates from within the
 JavaScript Logger itself.
@@ -548,70 +548,40 @@ JavaScript Logger itself.
 
 .. _video:
 
-==============================
-Video Interaction Events 
-==============================
+==================================
+Video Interaction Events (Browser)
+==================================
 
 .. video_player_spec.js, lms-modules.js
 
-The browser or mobile device emits these events when a user works with a video.
+A browser emits these events when a user interacts with a video.
 
 **Component**: Video
 
-**Event Source**: Browser or mobile
+**Event Source**: Browser
 
-**History**: Updated 16 Oct 2014 to include data applicable when the
-``event_source`` is a mobile device.
+**History**: This section was updated on 18 Dec 2014 to remove references to
+events with an ``event_source`` of mobile. See :ref:`video_mobile` for events
+emitted when a user interacts with a video using the edX mobile app.
 
-``play_video``, ``pause_video``
----------------------------------
+``play_video``, ``pause_video``, ``stop_video``
+*************************************************
 
-* The browser or mobile device emits ``play_video`` events when the user clicks
-  the video **play** control.
+* A browser emits ``play_video`` events when the user clicks the video
+  player's **play** control.
 
-* The browser or mobile device emits ``pause_video`` events when the user
-  clicks the video **pause** control. The browser or mobile device also emits
-  these events when the video player reaches the end of the video file and play
-  automatically stops.
+* A browser emits ``pause_video`` events when the user clicks the video
+  player's **pause** control. The browser also emits these events when the
+  video player reaches the end of the video file and play automatically stops.
 
-**History**: Updated 16 Oct 2014 to include fields that apply to events with an
-``event_source`` of mobile only.
+* A browser emits  ``stop_video`` events when the video player reaches the end
+  of the video file and play automatically stops. 
 
-``context`` **Member Fields**: 
-
-.. list-table::
-   :widths: 15 15 60
-   :header-rows: 1
-
-   * - Field
-     - Type
-     - Details and Member Fields
-   * - ``client``
-     - dict
-     - Applies to events with an ``event_source`` of mobile only. 
-       
-       Includes member dictionaries and fields for special context data passed
-       from Segment.io.
-
-       The data in this field reflects a third party integration and is subject
-       to change at any time without notice.
-
-       **History**: Added 16 Oct 2014.
-
-   * - ``received_at``
-     - float
-     - Applies to events with an ``event_source`` of mobile only. 
-       
-       Indicates the time at which Segment.io received the event.
-
-       The data in this field reflects a third party integration and is subject
-       to change at any time without notice.
-
-       **History**: Added 16 Oct 2014.
+  **History**: Added 25 June 2014.
 
 
-``event`` **Member Fields**: These events have the same additional ``event``
-member fields.
+``event`` **Member Fields**: The ``play_video``, ``pause_video`` and
+``stop_video`` events have the same ``event`` member fields.
 
 .. list-table::
    :widths: 15 15 60
@@ -622,24 +592,17 @@ member fields.
      - Details
    * - ``code``
      - string
-     - For YouTube videos, the ID of the video being loaded (for example,
-       OEyXaRPEzfM). 
+     - For YouTube videos played in a browser, the ID of the video being
+       loaded (for example, OEyXaRPEzfM).
 
-       For non-YouTube videos, 'html5'.
+       For non-YouTube videos played in a browser, 'html5'.
 
    * - ``currentTime``
      - float
-     - Time the video was played, in seconds. To be deprecated.
-   * - ``current_time``
-     - integer
-     - Applies to events with an ``event_source`` of mobile only. 
-       
-       **History**:
-       Added 16 Oct 2014.
-
+     - Time the video was played, paused, or stopped, in seconds. 
    * - ``id``
      - string
-     - For events with an ``event_source`` of 'browser', the optional name
+     - The optional name
        value that the course creators supply or the system-generated hash code
        for the video being watched. 
 
@@ -654,222 +617,43 @@ member fields.
        ``courseware_studentmodule.module_id``. For example, 
        ``i4x-HarvardX-PH207x-video-Simple_Random_Sample``.
 
-   * - ``module_id``
-     - string
-     - For events with an ``event_source`` of 'mobile', the full identifier for
-       the video component.
-
-       For example,
-
-       ``block-v1:edX+DemoX+Demo_2014+type@problem+block@303034da25524878a2e66fb57c91cf85``
-
-       **History**: Added 16 Oct 2014. In October 2014, identifiers for some
-       new courses began to use the format shown above. Other new courses, and
-       all courses created prior to October 2014, use the format
-       ``i4x://MITx/4.605x_2/video/8b375e7e9c6d419c92a5cdc32f47d4f2``.
-
-   * - ``name``
-     - string
-     - ``edx.video.played`` or ``edx.video.paused``
-       
-       Applies to events with an ``event_source`` of mobile only.
-
-       **History**: Added 16 Oct 2014.
 
 Example 
------------
+*******
 
 .. code-block:: json
 
-    {
-       "username": "xxx",
-        "event_type": "play_video",
-        "ip": "",
-        "agent": "Dalvik\/1.6.0 (Linux; U; Android 4.4.2; SM-G900H Build\/KOT49H)",
-        "host": "mobile3.m.sandbox.edx.org",
-        "event": {
-          "current_time": 0,
-          "code": "html5",
-          "module_id": "i4x:\/\/MITx\/4.605x_2\/video\/8b375e7e9c6d419c92a5cdc32f47d4f2",
-          "currentTime": 0
+    { "username": AAAAAAAA,
+      "event_type": "play_video",
+      "ip": NN.NN.NN.NN,
+      "agent": "Mozilla\/5.0 (Windows NT 6.2; WOW64) Chrome\/36.0.1985.143 Safari\/537.36",
+      "host": "courses.edx.org",
+      "session": "a14j3ifhskngw0gfgn230g",
+      "event": {
+          "id": "i4x-MITx-3_032x-video-6884d5c4835c4ad58f162dc4692b7b74",
+          "currentTime": 37.621574,
+          "code": "pOZDwJvQoK4"
         },
-        "event_source": "mobile",
-        "name": "edx.video.played",
-        "context": {
-          "user_id": 11,
+      "event_source": "browser",
+      "context": {
+          "user_id": 9999,
           "org_id": "MITx",
-          "client": {
-            "network": {
-              "carrier": "",
-              "wifi": true,
-              "cellular": false,
-              "bluetooth": false
-            },
-            "locale": "en-GB",
-            "app": {
-              "name": "edX",
-              "packageName": "org.edx.mobile",
-              "version": "0.1.5 MobileN",
-              "build": "org.edx.mobile@22",
-              "versionName": "0.1.5 MobileN",
-              "versionCode": 22
-            },
-            "integrations": {
-              "all": true
-            },
-            "library": {
-              "version": 203,
-              "name": "analytics-android",
-              "versionName": "2.0.3"
-            },
-            "traits": {
-              "username": "xxx",
-              "event_source": "mobile",
-              "name": "abcd",
-              "userId": "11",
-              "anonymousId": "4483e039-77a1-44d7-a68a-d18fcde8345d",
-              "email": "abcd@gmail.com"
-            },
-            "device": {
-              "model": "SM-G900H",
-              "userId": "ae5ada65ad732397",
-              "name": "k3g",
-              "manufacturer": "samsung"
-            },
-            "userAgent": "Dalvik\/1.6.0 (Linux; U; Android 4.4.2; SM-G900H Build\/KOT49H)",
-            "os": {
-              "version": "4.4.2",
-              "name": "REL",
-              "sdk": 19
-            },
-            "screen": {
-              "densityBucket": "xxhdpi",
-              "density": 3,
-              "height": 1920,
-              "width": 1080,
-              "densityDpi": 480,
-              "scaledDensity": 3
-            }
-          },
-          "received_at": "2014-10-10T13:06:50.641000+00:00",
-          "course_id": "MITx\/4.605x_2\/3T2014",
-          "path": "\/segmentio\/event"
+          "course_id": "MITx/3.032x/3T2014",
+          "path": "\/event"
         },
-        "time": "2014-10-10T13:05:00+00:00",
-        "page": "http:\/\/mobileN.m.edx.org\/courses\/MITx\/4.605x_2\/3T2014\/courseware\/37568827279b4f70884c996e8d39f3aa\/74d6463a1b2d4a88a4e954a0dfacaf87\/4"
+      "time": "2014-10-10T13:05:00+00:00",
+      "page": "http:\/\/courses.edx.org\/courses\/MITx\/4.605x_2\/3T2014\/courseware\/37568827279b4f70884c996e8d39f3aa\/74d6463a1b2d4a88a4e954a0dfacaf87\/4"
     }
-
-``stop_video``
---------------------
-
-The browser or mobile device emits  ``stop_video`` events when the video player
-reaches the end of the video file and play automatically stops.
-
-**History**: Added 25 June 2014. Updated 16 Oct 2014 to include fields that
-apply to events with an ``event_source`` of mobile only.
-
-``context`` **Member Fields**: 
-
-.. list-table::
-   :widths: 15 15 60
-   :header-rows: 1
-
-   * - Field
-     - Type
-     - Details and Member Fields
-   * - ``client``
-     - dict
-     - Applies to events with an ``event_source`` of mobile only. 
-       
-       Includes member dictionaries and fields for special context data passed
-       from Segment.io.
-
-       The data in this field reflects a third party integration and is subject
-       to change at any time without notice.
-
-       **History**: Added 16 Oct 2014.
-
-   * - ``received_at``
-     - float
-     - Applies to events with an ``event_source`` of mobile only. 
-       
-       Indicates the time at which Segment.io received the event.
-
-       The data in this field reflects a third party integration and is subject
-       to change at any time without notice.
-
-       **History**: Added 16 Oct 2014.
-
-
-``event`` **Member Fields**: 
-
-.. list-table::
-   :widths: 15 15 60
-   :header-rows: 1
-
-   * - Field
-     - Type
-     - Details
-   * - ``currentTime``
-     - float
-     - Time the video ended, in seconds. To be deprecated.
-   * - ``current_time``
-     - integer
-     - Applies to events with an ``event_source`` of mobile only. 
-       
-       **History**: Added 16 Oct 2014.
-
-   * - ``name``
-     - string
-     - ``edx.video.stopped``
-       
-       Applies to events with an ``event_source`` of mobile only. 
-
-       **History**: Added 16 Oct 2014.
 
 
 ``seek_video``
------------------
+**************
 
-The browser or mobile device emits ``seek_video`` events when a user clicks the
+The browser emits ``seek_video`` events when a user clicks the
 playback bar or transcript to go to a different point in the video file.
 
 **History**: Prior to 25 Jun 2014, the ``old_time`` and ``new_time`` were set
-to the same value. Updated 16 Oct 2014 to include fields that apply to events
-with an ``event_source`` of mobile only.
-
-``context`` **Member Fields**: 
-
-.. list-table::
-   :widths: 15 15 60
-   :header-rows: 1
-
-   * - Field
-     - Type
-     - Details and Member Fields
-   * - ``client``
-     - dict
-     - Applies to events with an ``event_source`` of mobile only. 
-       
-       Includes member dictionaries and fields for special context data passed
-       from Segment.io.
-
-       The data in this field reflects a third party integration and is subject
-       to change at any time without notice.
-
-       **History**: Added 16 Oct 2014.
-
-   * - ``received_at``
-     - float
-     - Applies to events with an ``event_source`` of mobile only. 
-       
-       Indicates the time at which Segment.io received the event.
-
-       The data in this field reflects a third party integration and is subject
-       to change at any time without notice.
-
-       **History**: Added 16 Oct 2014.
-
+to the same value. 
 
 ``event`` **Member Fields**: 
 
@@ -880,13 +664,29 @@ with an ``event_source`` of mobile only.
    * - Field
      - Type
      - Details
-   * - ``name``
+   * - ``code``
      - string
-     - ``edx.video.seeked``
+     - For YouTube videos played in a browser, the ID of the video being
+       loaded (for example, OEyXaRPEzfM).
+
+       For non-YouTube videos played in a browser, 'html5'.
+
+   * - ``id``
+     - string
+     - The optional name
+       value that the course creators supply or the system-generated hash code
+       for the video being watched. 
+
+       For example, ``0b9e39477cf34507a7a48f74be381fdd``.
        
-       Applies to events with an ``event_source`` of mobile only.
-       
-       **History**: Added 16 Oct 2014.
+       This value is part of the ``courseware_studentmodule.module_id``. See
+       :ref:`courseware_studentmodule`.
+
+       **History**: In October 2014, identifiers for some new courses began to
+       use the format shown above. Other new courses, and all courses created
+       prior to October 2014, use an html-escaped version of the
+       ``courseware_studentmodule.module_id``. For example, 
+       ``i4x-HarvardX-PH207x-video-Simple_Random_Sample``.
 
    * - ``new_time``
      - integer
@@ -904,47 +704,13 @@ with an ``event_source`` of mobile only.
 
 
 ``speed_change_video`` 
-------------------------
+*********************************
 
-The browser or mobile device emits ``speed_change_video`` events when a user
+The browser emits ``speed_change_video`` events when a user
 selects a different playing speed for the video.
 
 **History**: Prior to 12 Feb 2014, this event was emitted when the user
-selected either the same speed or a different speed. Updated 16 Oct 2014 to
-include fields that apply to events with an ``event_source`` of mobile only.
-
-``context`` **Member Fields**: 
-
-.. list-table::
-   :widths: 15 15 60
-   :header-rows: 1
-
-   * - Field
-     - Type
-     - Details and Member Fields
-   * - ``client``
-     - dict
-     - Applies to events with an ``event_source`` of mobile only. 
-       
-       Includes member dictionaries and fields for special context data passed
-       from Segment.io.
-
-       The data in this field reflects a third party integration and is subject
-       to change at any time without notice.
-
-       **History**: Added 16 Oct 2014.
-
-   * - ``received_at``
-     - float
-     - Applies to events with an ``event_source`` of mobile only. 
-       
-       Indicates the time at which Segment.io received the event.
-
-       The data in this field reflects a third party integration and is subject
-       to change at any time without notice.
-
-       **History**: Added 16 Oct 2014.
-
+selected either the same speed or a different speed. 
 
 ``event`` **Member Fields**: 
 
@@ -958,14 +724,6 @@ include fields that apply to events with an ``event_source`` of mobile only.
    * - ``current_time``
      - integer
      - The time in the video that the user chose to change the playing speed. 
-   * - ``name``
-     - string
-     - ``edx.video.speed.changed``
-       
-       Applies to events with an ``event_source`` of mobile only. 
-
-       **History**: Added 16 Oct 2014. 
-
    * - ``new_speed``
      - 
      - The speed that the user selected for the video to play: '0.75', '1.0',
@@ -975,46 +733,10 @@ include fields that apply to events with an ``event_source`` of mobile only.
      - The speed at which the video was playing. 
 
 ``load_video``
------------------
+*********************************
 
-The browser or mobile device emits  ``load_video`` events when the video is
+The browser emits  ``load_video`` events when the video is
 fully rendered and ready to play.
-
-**History**: Updated 16 Oct 2014 to include fields that apply to events with an
-``event_source`` of mobile only.
-
-``context`` **Member Fields**: 
-
-.. list-table::
-   :widths: 15 15 60
-   :header-rows: 1
-
-   * - Field
-     - Type
-     - Details and Member Fields
-   * - ``client``
-     - dict
-     - Applies to events with an ``event_source`` of mobile only. 
-       
-       Includes member dictionaries and fields for special context data passed
-       from Segment.io.
-
-       The data in this field reflects a third party integration and is subject
-       to change at any time without notice.
-
-       **History**: Added 16 Oct 2014.
-
-   * - ``received_at``
-     - float
-     - Applies to events with an ``event_source`` of mobile only. 
-       
-       Indicates the time at which Segment.io received the event.
-
-       The data in this field reflects a third party integration and is subject
-       to change at any time without notice.
-
-       **History**: Added 16 Oct 2014.
-
 
 ``event`` **Member Fields**: 
 
@@ -1032,56 +754,12 @@ fully rendered and ready to play.
 
        For non-YouTube videos, 'html5'.
 
-   * - ``name``
-     - string
-     - ``edx.video.loaded``
-
-       Applies to events with an ``event_source`` of mobile only.
-
-       **History**: Added 16 Oct 2014.
-
 
 ``hide_transcript``
--------------------
+*********************************
 
-The browser or mobile device emits  ``hide_transcript`` events when the user
+The browser emits  ``hide_transcript`` events when the user
 clicks **CC** to suppress display of the video transcript.
-
-**History**: Updated 16 Oct 2014 to include fields that apply to events with an
-``event_source`` of mobile only.
-
-``context`` **Member Fields**: 
-
-.. list-table::
-   :widths: 15 15 60
-   :header-rows: 1
-
-   * - Field
-     - Type
-     - Details and Member Fields
-   * - ``client``
-     - dict
-     - Applies to events with an ``event_source`` of mobile only. 
-       
-       Includes member dictionaries and fields for special context data passed
-       from Segment.io.
-
-       The data in this field reflects a third party integration and is subject
-       to change at any time without notice.
-
-       **History**: Added 16 Oct 2014.
-
-   * - ``received_at``
-     - float
-     - Applies to events with an ``event_source`` of mobile only. 
-       
-       Indicates the time at which Segment.io received the event.
-
-       The data in this field reflects a third party integration and is subject
-       to change at any time without notice.
-
-       **History**: Added 16 Oct 2014.
-
 
 ``event`` **Member Fields**: 
 
@@ -1099,61 +777,14 @@ clicks **CC** to suppress display of the video transcript.
    * - ``currentTime``
      - float
      - The point in the video file at which the transcript was hidden, in
-       seconds. To be deprecated.
-   * - ``current_time``
-     - integer
-     - Applies to events with an ``event_source`` of mobile only. **History**:
-       Added 16 Oct 2014.
-   * - ``name``
-     - string
-     - ``edx.video.transcript.hide.clicked``
-       
-       Applies to events with an ``event_source`` of mobile only.
-
-       **History**: Added 16 Oct 2014.
+       seconds. 
 
 
 ``show_transcript``
---------------------
+*********************************
 
-The browser or mobile device emits  ``show_transcript`` events when the user
+The browser emits  ``show_transcript`` events when the user
 clicks **CC** to display the video transcript.
-
-**History**: Updated 16 Oct 2014 to include fields that apply to events with an
-``event_source`` of mobile only.
-
-``context`` **Member Fields**: 
-
-.. list-table::
-   :widths: 15 15 60
-   :header-rows: 1
-
-   * - Field
-     - Type
-     - Details and Member Fields
-   * - ``client``
-     - dict
-     - Applies to events with an ``event_source`` of mobile only. 
-       
-       Includes member dictionaries and fields for special context data passed
-       from Segment.io.
-
-       The data in this field reflects a third party integration and is subject
-       to change at any time without notice.
-
-       **History**: Added 16 Oct 2014.
-
-   * - ``received_at``
-     - float
-     - Applies to events with an ``event_source`` of mobile only. 
-       
-       Indicates the time at which Segment.io received the event.
-
-       The data in this field reflects a third party integration and is subject
-       to change at any time without notice.
-
-       **History**: Added 16 Oct 2014.
-
 
 ``event`` **Member Fields**: 
 
@@ -1174,20 +805,270 @@ clicks **CC** to display the video transcript.
    * - ``currentTime``
      - float
      - The point in the video file at which the transcript was opened, in
-       seconds. To be deprecated.
-   * - ``current_time``
-     - integer
-     - Applies to events with an ``event_source`` of mobile only. 
-       
-       **History**: Added 16 Oct 2014.
+       seconds. 
 
-   * - ``name``
+.. _video_mobile:
+
+=====================================
+Video Interaction Events (Mobile App)
+=====================================
+
+The edX mobile app gives learners the option to download course videos for
+offline viewing. A mobile device emits the events described in this section
+when the user interacts with a video using the app. 
+
+Events are emitted whether the user is connected to the Internet or offline.
+Events can only be forwarded to Segment.io when the user is connected. Events
+that are emitted when the user is offline are sent during the next connection
+opportunity. As a result, the ``currentTime`` that an event is emitted can be
+different than its ``received_at`` date. Data packages can include events
+emitted on past dates.
+
+**Component**: Video
+
+**Event Source**: Mobile
+
+**History**: Added 18 Dec 2014. See :ref:`video` for events emitted for
+videos viewed in a browser.
+
+
+``edx.video.loaded`` 
+********************
+
+The ``event_type`` field for this event is set to ``load_video``, like the
+comparable video event emitted by a browser. However, this event also has a
+``name`` field that is set to ``edx.video.loaded``.
+
+``context`` **Member Fields**: 
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details and Member Fields
+   * - ``app_name``
      - string
-     - ``edx.video.transcript.show.clicked``
+     - Identifies the mobile app. For example, 'edx.mobileapp.android'.
+   * - ``client``
+     - dict
+     - Includes member dictionaries and fields for special context data passed
+       from Segment.io.
+
+       The data in this field reflects a third party integration and is subject
+       to change at any time without notice.
+
+   * - ``component``
+     - string
+     - 'videoplayer'
+   * - ``received_at``
+     - float
+     - Indicates the time at which Segment.io received the event.
+
+       The data in this field reflects a third party integration and is subject
+       to change at any time without notice.
+
+
+``event`` **Member Fields**: 
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+   * - ``code``
+     - string
+     - 'mobile'
+   * - ``id``
+     - string
+     - For example, i4x-edX-DemoX-video-0b9e39477cf34507a7a48f74be381fdd.
        
-       Applies to events with an ``event_source`` of mobile only.
-       
-       **History**: Added 16 Oct 2014.
+
+``edx.video.paused``, ``edx.video.played``
+******************************************
+
+The ``event_type`` field for these events is set to ``pause_video`` or
+``play_video``, like the comparable video events emitted by a browser.
+However, these events also have a ``name`` field that is set to
+``edx.video.paused`` or ``edx.video.played``.
+
+These events have the same additional ``context`` and ``event`` member
+fields.
+
+``context`` **Member Fields**: 
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details and Member Fields
+   * - ``app_name``
+     - string
+     - Identifies the mobile app. For example, 'edx.mobileapp.android'.
+   * - ``client``
+     - dict
+     - Includes member dictionaries and fields for special context data passed
+       from Segment.io.
+
+       The data in this field reflects a third party integration and is subject
+       to change at any time without notice.
+
+   * - ``component``
+     - string
+     - 'videoplayer'
+   * - ``received_at``
+     - float
+     - Indicates the time at which Segment.io received the event.
+
+       The data in this field reflects a third party integration and is subject
+       to change at any time without notice.
+
+
+``event`` **Member Fields**: 
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+   * - ``code``
+     - string
+     - 'mobile'
+   * - ``currentTime``
+     - float
+     - Time the video was played, in seconds. 
+   * - ``id``
+     - string
+     - For example, i4x-edX-DemoX-video-0b9e39477cf34507a7a48f74be381fdd.
+
+
+``edx.video.stopped``
+*********************
+
+The ``event_type`` field for this event is set to ``stop_video``, like the
+comparable video event emitted by a browser. However, this event also has a
+``name`` field that is set to ``edx.video.stopped``.
+
+``context`` **Member Fields**: 
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details and Member Fields
+   * - ``app_name``
+     - string
+     - Identifies the mobile app. For example, 'edx.mobileapp.android'.
+   * - ``client``
+     - dict
+     - Includes member dictionaries and fields for special context data passed
+       from Segment.io.
+
+       The data in this field reflects a third party integration and is subject
+       to change at any time without notice.
+
+   * - ``component``
+     - string
+     - 'videoplayer'
+   * - ``received_at``
+     - float
+     - Indicates the time at which Segment.io received the event.
+
+       The data in this field reflects a third party integration and is subject
+       to change at any time without notice.
+
+
+``event`` **Member Fields**: These events have the same additional ``event``
+member fields.
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+   * - ``code``
+     - string
+     - 'mobile'
+   * - ``currentTime``
+     - float
+     - Time the video was played, in seconds. 
+   * - ``id``
+     - string
+     - For example, i4x-edX-DemoX-video-0b9e39477cf34507a7a48f74be381fdd.
+
+
+``edx.video.transcript.hidden``, ``edx.video.transcript.shown``
+****************************************************************
+
+The ``event_type`` field for these events is set to ``hide_transcript`` or
+``show_transcript``, like the comparable video event emitted by a browser.
+However, these events also have ``name`` fields that are set to
+``edx.video.transcript.hidden`` or ``edx.video.transcript.shown``.
+
+These events have the same additional ``context`` and ``event`` member
+fields.
+
+``context`` **Member Fields**: 
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details and Member Fields
+   * - ``app_name``
+     - string
+     - Identifies the mobile app. For example, 'edx.mobileapp.android'.
+   * - ``client``
+     - dict
+     - Includes member dictionaries and fields for special context data passed
+       from Segment.io.
+
+       The data in this field reflects a third party integration and is subject
+       to change at any time without notice.
+
+   * - ``component``
+     - string
+     - 'videoplayer'
+   * - ``received_at``
+     - float
+     - Indicates the time at which Segment.io received the event.
+
+       The data in this field reflects a third party integration and is subject
+       to change at any time without notice.
+
+
+``event`` **Member Fields**: These events have the same additional ``event``
+member fields.
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+   * - ``code``
+     - string
+     - 'mobile'
+   * - ``currentTime``
+     - float
+     - Time the video was played, in seconds. 
+   * - ``id``
+     - string
+     - For example, i4x-edX-DemoX-video-0b9e39477cf34507a7a48f74be381fdd.
 
 
 .. _pdf:
@@ -1199,7 +1080,7 @@ Textbook Interaction Events
 .. pdf-analytics.js
 
 ``book``
-----------
+*********************************
 
 The browser emits ``book`` events when a user navigates within the PDF Viewer
 or the PNG Viewer.
@@ -1253,7 +1134,7 @@ fields ``name`` and ``chapter``.
 
 
 ``textbook.pdf.thumbnails.toggled``
-------------------------------------
+*************************************
 
 The browser emits ``textbook.pdf.thumbnails.toggled`` events when a user clicks
 on the icon to show or hide page thumbnails.
@@ -1284,7 +1165,7 @@ on the icon to show or hide page thumbnails.
      -  The number of the page that is open when the user clicks this icon. 
 
 ``textbook.pdf.thumbnail.navigated``
-------------------------------------
+*************************************
 
 The browser emits ``textbook.pdf.thumbnail.navigated`` events when a user
 clicks on a thumbnail image to navigate to a page.
@@ -1319,7 +1200,7 @@ clicks on a thumbnail image to navigate to a page.
        Page 2.
 
 ``textbook.pdf.outline.toggled``
-------------------------------------
+*********************************
 
 The browser emits ``textbook.pdf.outline.toggled`` events when a user clicks
 the outline icon to show or hide a list of the book's chapters.
@@ -1350,7 +1231,7 @@ the outline icon to show or hide a list of the book's chapters.
      - The number of the page that is open when the user clicks this link.
 
 ``textbook.pdf.chapter.navigated``
-------------------------------------
+************************************
 
 The browser emits ``textbook.pdf.chapter.navigated`` events when a user clicks
 on a link in the outline to navigate to a chapter.
@@ -1381,7 +1262,7 @@ on a link in the outline to navigate to a chapter.
      - ``textbook.pdf.chapter.navigated``
      
 ``textbook.pdf.page.navigated``
-------------------------------------
+*********************************
 
 The browser emits ``textbook.pdf.page.navigated`` events when a user manually
 enters a page number.
@@ -1412,7 +1293,7 @@ enters a page number.
      - The destination page number entered by the user.
 
 ``textbook.pdf.zoom.buttons.changed``
---------------------------------------
+**************************************
 
 The browser emits ``textbook.pdf.zoom.buttons.changed`` events when a user
 clicks either the Zoom In or Zoom Out icon.
@@ -1446,7 +1327,7 @@ clicks either the Zoom In or Zoom Out icon.
      - The number of the page that is open when the user clicks the icon.
 
 ``textbook.pdf.zoom.menu.changed``
-------------------------------------
+***********************************
 
 The browser emits ``textbook.pdf.zoom.menu.changed`` events when a user selects
 a magnification setting.
@@ -1481,7 +1362,7 @@ a magnification setting.
      - The number of the page that is open when the user selects this value.
 
 ``textbook.pdf.display.scaled``
-------------------------------------
+*********************************
 
 The browser emits ``textbook.pdf.display.scaled`` events when the display
 magnification changes. These changes occur after a student selects a
@@ -1516,7 +1397,7 @@ magnification setting from the zoom menu or resizes the browser window.
      - The number of the page that is open when the scaling takes place.
 
 ``textbook.pdf.display.scrolled``
-------------------------------------
+*********************************
 
 The browser emits ``textbook.pdf.display.scrolled`` events each time the
 displayed page changes while a user scrolls up or down.
@@ -1550,7 +1431,7 @@ displayed page changes while a user scrolls up or down.
      - The number of the page that is open when the scrolling takes place.
 
 ``textbook.pdf.search.executed``
-------------------------------------
+*********************************
 
 The browser emits ``textbook.pdf.search.executed`` events when a user searches
 for a text value in the file. To reduce the number of events produced, instead
@@ -1606,7 +1487,7 @@ within 500ms of each other.
 
 
 ``textbook.pdf.search.navigatednext``
----------------------------------------------
+**************************************
 
 The browser emits ``textbook.pdf.search.navigatednext`` events when a user
 clicks on the Find Next or Find Previous icons for an entered search string.
@@ -1664,7 +1545,7 @@ clicks on the Find Next or Find Previous icons for an entered search string.
 
 
 ``textbook.pdf.search.highlight.toggled``
----------------------------------------------
+******************************************
 
 The browser emits ``textbook.pdf.search.highlight.toggled`` events when a user
 selects or clears the **Highlight All** option for a search.
@@ -1716,7 +1597,7 @@ selects or clears the **Highlight All** option for a search.
 
 
 ``textbook.pdf.search.casesensitivity.toggled``
-------------------------------------------------------
+************************************************
 
 The browser emits ``textbook.pdf.search.casesensitivity.toggled`` events when a
 user selects or clears the **Match Case** option for a search.
@@ -1780,7 +1661,7 @@ information about interactions with problems, specifically, problems defined in
 the edX Capa module.
 
 ``problem_check`` (Browser)
-----------------------------
+*********************************
 
 .. no sample to check
 
@@ -1794,7 +1675,7 @@ The browser emits ``problem_check`` events when a user checks a problem.
 checked, styled as GET parameters.
 
 ``problem_check`` (Server)
-----------------------------
+*********************************
 
 .. no sample to check
 
@@ -1901,7 +1782,7 @@ checked.
      - 'correct', 'incorrect' 
 
 ``problem_check_fail``
------------------------------
+*********************************
 
 .. no sample to check
 
@@ -1936,7 +1817,7 @@ successfully.
      - Current problem state.
 
 ``problem_reset``
---------------------
+*********************************
 
 The browser emits ``problem_reset`` events when a user clicks **Reset** to
 reset the answer to a problem.
@@ -1959,7 +1840,7 @@ reset the answer to a problem.
      - The value reset by the user. 
 
 ``problem_rescore``
------------------------------
+*********************************
 
 .. no sample to check
 
@@ -2006,7 +1887,7 @@ rescored.
      - 'correct', 'incorrect'
 
 ``problem_rescore_fail``
------------------------------
+*********************************
 
 .. no sample to check
 
@@ -2035,7 +1916,7 @@ successfully rescored.
      - Current problem state. 
 
 ``problem_save``
------------------------------
+*********************************
 
 .. no sample to check
 
@@ -2046,7 +1927,7 @@ The browser emits ``problem_save`` events when a user saves a problem.
 ``event`` **Member Fields**: None
 
 ``problem_show``
------------------------------
+*********************************
 
 .. no sample to check
 
@@ -2084,7 +1965,7 @@ The browser emits ``problem_show`` events when a problem is shown.
        i4x://MITx/6.00x/problem/L15:L15_Problem_2.
 
 ``reset_problem``
-------------------------------------------------
+*********************************
 
 .. no sample to check
 
@@ -2115,7 +1996,7 @@ successfully.
      - ID of the problem being reset.
 
 ``reset_problem_fail`` 
-------------------------------------------------
+*********************************
 
 .. no sample to check
 
@@ -2144,7 +2025,7 @@ successfully.
      - ID of the problem being reset. 
 
 ``show_answer`` 
-------------------------------------------------
+*********************************
 
 .. no sample to check
 
@@ -2170,7 +2051,7 @@ The server emits ``show_answer`` events when the answer to a problem is shown.
      - EdX ID of the problem being shown. 
 
 ``save_problem_fail`` 
-------------------------------------------------
+*********************************
 
 .. no sample to check
 
@@ -2201,8 +2082,8 @@ successfully.
      - dict
      - Current problem state.
 
-``save_problem_success`` 
-------------------------------------------------
+``save_problem_success``
+*********************************
 
 .. no sample to check
 
@@ -2231,7 +2112,7 @@ successfully.
      - Current problem state. 
 
 ``problem_graded``
--------------------
+*********************************
 
 .. return Logger.log('problem_graded', [_this.answers, response.contents], _this.id);
 
@@ -2266,7 +2147,7 @@ Forum Events
 ==========================
 
 ``edx.forum.searched``
-----------------------------------
+*********************************
 
 After a user executes a text search in the navigation sidebar of the course
 **Discussion** page, the server emits an ``edx.forum.searched`` event.
@@ -2340,8 +2221,8 @@ see `Creating a Peer Assessment`_.
 **History:** The open response assessment feature was released in August 2014;
 limited release of this feature began in April 2014.
 
-openassessmentblock.get_peer_submission
-----------------------------------------
+``openassessmentblock.get_peer_submission``
+********************************************
 
 After students submit their own responses for evaluation, they use the scoring
 rubric to evaluate the responses of other course participants. The server emits
@@ -2384,8 +2265,8 @@ this event when a response is delivered to a student for evaluation.
        If no assessment is available, this is set to "None".
 
        
-openassessmentblock.peer_assess and openassessmentblock.self_assess
-----------------------------------------------------------------------
+``openassessmentblock.peer_assess`` and ``openassessmentblock.self_assess``
+****************************************************************************
 
 The server emits this event when a student either submits an assessment of a
 peer's response or submits a self-assessment of her own response.
@@ -2441,8 +2322,8 @@ peer's response or submits a self-assessment of her own response.
      - string
      - The unique identifier for the submitted response.
 
-openassessmentblock.submit_feedback_on_assessments
-----------------------------------------------------
+``openassessmentblock.submit_feedback_on_assessments``
+******************************************************************
 
 The server emits this event when a student submits a suggestion, opinion, or
 other feedback about the assessment process.
@@ -2471,8 +2352,8 @@ other feedback about the assessment process.
      - string
      - The unique identifier of the feedback.
 
-openassessment.create_submission
---------------------------------
+``openassessment.create_submission``
+*************************************
 
 The server emits this event when a student submits a response. The same event
 is emitted when a student submits a response for peer assessment or for self
@@ -2514,8 +2395,8 @@ assessment.
      - string
      - The unique identifier of the response.
 
-openassessment.save_submission
--------------------------------
+``openassessment.save_submission``
+***********************************
 
 The server emits this event when a student saves a response. Students
 save responses before they submit them for assessment.
@@ -2543,8 +2424,8 @@ save responses before they submit them for assessment.
        service.
 
 
-openassessment.student_training_assess_example
------------------------------------------------
+``openassessment.student_training_assess_example``
+******************************************************************
 
 The server emits this event when a student submits an assessment for an
 example response. To assess the example, the student uses a scoring rubric
@@ -2580,8 +2461,8 @@ scored differently than the instructor.
      - The unique identifier of the response. Identifies the student who
        is undergoing training.
 
-openassessment.upload_file 
------------------------------
+``openassessment.upload_file``
+*********************************
 
 The browser emits this event when a student successfully uploads an image file
 as part of a response. Students complete the upload process before they submit
@@ -2654,7 +2535,7 @@ courses, see `Creating Content Experiments`_.
 **History**: These events were added on 12 Mar 2014.
 
 ``assigned_user_to_partition``
-----------------------------------
+*********************************
 
 When a student views a module that is set up to test different child modules,
 the server checks the ``user_api_usercoursetag`` table for the student's
@@ -2701,7 +2582,7 @@ If the student does not yet have an assignment, the server emits an
      - Name of the partition.
 
 ``child_render``
-----------------------------------
+*********************************
 
 When a student views a module that is set up to test different content using
 child modules, the server emits a ``child_render`` event to identify
@@ -2737,7 +2618,7 @@ For information about including student cohorts in a course, see `Including
 Student Cohorts`_ in the *Building and Running an edX Course* guide.
 
 ``edx.cohort.created``
-----------------------------------
+*********************************
 
 When a cohort group is created, the server emits an ``edx.cohort.created``
 event. Cohort groups can be created manually by members of the course team.
@@ -2771,7 +2652,7 @@ the Instructor Dashboard to create a cohort group. See
      - The display name of the cohort group.
 
 ``edx.cohort.user_added``
-----------------------------------
+*********************************
 
 When a user is added to a cohort group, the server emits an
 ``edx.cohort.user_added`` event. Members of the course team can add users to
@@ -2809,7 +2690,7 @@ the Instructor Dashboard to add a user to a group. See
      - The numeric ID (from ``auth_user.id``) of the added user.
 
 ``edx.cohort.user_removed``
-----------------------------------
+*********************************
 
 When a course team member changes the cohort group assignment of a user on
 the Instructor Dashboard, the server emits an ``edx.cohort.user_removed``
@@ -2850,7 +2731,7 @@ May 2014, new courses no longer used this implementation for open response
 assessments.
 
 ``oe_hide_question`` and ``oe_show_question``
----------------------------------------------------------------------------
+******************************************************************
 
 The browser emits ``oe_hide_question`` and ``oe_show_question`` events when the
 user hides or redisplays a combined open-ended problem.
@@ -2876,7 +2757,7 @@ user hides or redisplays a combined open-ended problem.
      - The location of the question whose prompt is being shown or hidden.
 
 ``rubric_select`` 
-----------------------
+*********************************
 
 **Component**: Combined Open-Ended
 
@@ -2902,7 +2783,7 @@ user hides or redisplays a combined open-ended problem.
      - Value selected on rubric. 
 
 ``oe_show_full_feedback`` and ``oe_show_respond_to_feedback``
-------------------------------------------------------------------
+******************************************************************
 
 **Component**: Combined Open-Ended
 
@@ -2911,7 +2792,7 @@ user hides or redisplays a combined open-ended problem.
 ``event`` **Member Fields**: None.
 
 ``oe_feedback_response_selected`` 
---------------------------------------------
+*********************************
 
 **Component**: Combined Open-Ended
 
@@ -2931,7 +2812,7 @@ user hides or redisplays a combined open-ended problem.
      - Value selected in the feedback response form.
 
 ``peer_grading_hide_question`` and ``peer_grading_show_question``
----------------------------------------------------------------------
+******************************************************************
 
 .. I couldn't find these names in any js file. peer_grading_problem.js includes oe_hide or show_question.
 
@@ -2960,7 +2841,7 @@ and ``peer_grading_show_problem``.
      - The location of the question whose prompt is being shown or hidden.
 
 ``staff_grading_hide_question`` and ``staff_grading_show_question``
------------------------------------------------------------------------
+********************************************************************
 
 .. staff_grading.js
 
@@ -3286,7 +3167,7 @@ For more information about student cohorts, see `Including Student Cohorts`_
 in the *Building and Running an edX Course* guide.
 
 ``edx.cohort.creation_requested``
-----------------------------------
+*********************************
 
 When an instructor or course staff member manually creates a cohort group on
 the Instructor Dashboard, the server emits an ``edx.cohort.creation_requested``
@@ -3313,7 +3194,7 @@ event.
      - The display name of the cohort group.
 
 ``edx.cohort.user_add_requested``
-----------------------------------
+*********************************
 
 When an instructor or course staff member adds a student to a cohort group on
 the Instructor Dashboard, the server emits an

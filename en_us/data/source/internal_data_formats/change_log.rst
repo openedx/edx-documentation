@@ -14,6 +14,9 @@ October-December 2014
 
    * - Date
      - Change
+   * - 12/16/14
+     - Added a section for video events emitted by the edX mobile app to the
+       :ref:`Tracking Logs` chapter.
    * - 11/26/14
      - Expanded the background information on content experiments in
        :ref:`AB_Event_Types`.

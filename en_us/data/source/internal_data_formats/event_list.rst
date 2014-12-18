@@ -58,6 +58,18 @@ Alphabetical Event List
      - :ref:`enrollment` and :ref:`instructor_enrollment`
    * - ``edx.forum.searched``
      - :ref:`forum_events`
+   * - ``edx.video.loaded``
+     - :ref:`video_mobile`
+   * - ``edx.video.paused``
+     - :ref:`video_mobile`
+   * - ``edx.video.played``
+     - :ref:`video_mobile`
+   * - ``edx.video.stopped``
+     - :ref:`video_mobile`
+   * - ``edx.video.transcript.hidden``
+     - :ref:`video_mobile`
+   * - ``edx.video.transcript.shown``
+     - :ref:`video_mobile`
    * - ``get_anon_ids``
      - :ref:`Instructor_Event_Types`
    * - ``get_student_progress_page``
