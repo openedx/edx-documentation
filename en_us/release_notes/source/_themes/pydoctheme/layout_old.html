@@ -1,16 +1,11 @@
 {#
-    pydoctheme/layout.html
-    ~~~~~~~~~~~~~~~~~~~~~~
-
-    basically, a literal copy from:
-
     basic/layout.html
+    ~~~~~~~~~~~~~~~~~
 
-    with two patches.
+    Master layout template for Sphinx themes.
 
-    for the simple reason that
-    basic/layout.html uses FRIGGIN MAGIC NUMBERS
-    which cannot be readily overridden.
+    :copyright: Copyright 2007-2013 by the Sphinx team, see AUTHORS.
+    :license: BSD, see LICENSE for details.
 #}
 {%- block doctype -%}
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
@@ -29,17 +24,12 @@
   {%- set titlesuffix = "" %}
 {%- endif %}
 
-{# from default/layout.html: #}
-{% if theme_collapsiblesidebar|tobool %}
-{% set script_files = script_files + ['_static/sidebar.js'] %}
-{% endif %}
-
 {%- macro relbar() %}
     <div class="related">
       <h3>{{ _('Navigation') }}</h3>
       <ul>
         {%- for rellink in rellinks %}
-        <li class="right" {% if loop.first %}style="margin-right: 2.9em"{% endif %}>
+        <li class="right" {% if loop.first %}style="margin-right: 10px"{% endif %}>
           <a href="{{ pathto(rellink[0]) }}" title="{{ rellink[1]|striptags|e }}"
              {{ accesskey(rellink[2]) }}>{{ rellink[3] }}</a>
           {%- if not loop.first %}{{ reldelim2 }}{% endif %}</li>
@@ -89,9 +79,6 @@
             {%- include "searchbox.html" %}
             {%- endblock %}
           {%- endif %}
-	  {% if github_base_account -%}
-	    {%- include "editthis.html" -%}
-	  {%- endif -%}
         </div>
       </div>
       {%- endif %}
@@ -208,12 +195,11 @@
       {% trans last_updated=last_updated|e %}Last updated on {{ last_updated }}.{% endtrans %}
     {%- endif %}
     {%- if show_sphinx %}
-      {% trans sphinx_version=sphinx_version|e %}Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> {{ sphinx_version }}.{% endtrans %}
+      {% trans sphinx_version=sphinx_version|e %}Created using <a href="http://sphinx-doc.org/">Sphinx</a> {{ sphinx_version }}.{% endtrans %}
     {%- endif %}
-    {%- if on_rtd -%}
-    <br> Built by <a href="https://readthedocs.org">ReadTheDocs.org</a>
-    {%- endif -%}
     </div>
+    <p>asdf asdf asdf asdf 22</p>
 {%- endblock %}
   </body>
 </html>
+
