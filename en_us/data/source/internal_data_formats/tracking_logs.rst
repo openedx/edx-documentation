@@ -564,8 +564,8 @@ A browser emits these events when a user interacts with a video.
 events with an ``event_source`` of mobile. See :ref:`video_mobile` for events
 emitted when a user interacts with a video using the edX mobile app.
 
-``play_video``, ``pause_video``
-*******************************
+``play_video``, ``pause_video``, ``stop_video``
+*************************************************
 
 * A browser emits ``play_video`` events when the user clicks the video
   player's **play** control.
@@ -574,8 +574,14 @@ emitted when a user interacts with a video using the edX mobile app.
   player's **pause** control. The browser also emits these events when the
   video player reaches the end of the video file and play automatically stops.
 
-``event`` **Member Fields**: The ``play_video`` and ``pause_video`` events
-have the same ``event`` member fields.
+* A browser emits  ``stop_video`` events when the video player reaches the end
+  of the video file and play automatically stops. 
+
+  **History**: Added 25 June 2014.
+
+
+``event`` **Member Fields**: The ``play_video``, ``pause_video`` and
+``stop_video`` events have the same ``event`` member fields.
 
 .. list-table::
    :widths: 15 15 60
@@ -593,7 +599,7 @@ have the same ``event`` member fields.
 
    * - ``currentTime``
      - float
-     - Time the video was played, in seconds. 
+     - Time the video was played, paused, or stopped, in seconds. 
    * - ``id``
      - string
      - The optional name
@@ -639,26 +645,6 @@ Example
       "page": "http:\/\/courses.edx.org\/courses\/MITx\/4.605x_2\/3T2014\/courseware\/37568827279b4f70884c996e8d39f3aa\/74d6463a1b2d4a88a4e954a0dfacaf87\/4"
     }
 
-``stop_video``
-**************
-
-The browser emits  ``stop_video`` events when the video player
-reaches the end of the video file and play automatically stops.
-
-**History**: Added 25 June 2014. 
-
-``event`` **Member Fields**: 
-
-.. list-table::
-   :widths: 15 15 60
-   :header-rows: 1
-
-   * - Field
-     - Type
-     - Details
-   * - ``currentTime``
-     - float
-     - Time the video ended, in seconds. 
 
 ``seek_video``
 **************
@@ -678,6 +664,30 @@ to the same value.
    * - Field
      - Type
      - Details
+   * - ``code``
+     - string
+     - For YouTube videos played in a browser, the ID of the video being
+       loaded (for example, OEyXaRPEzfM).
+
+       For non-YouTube videos played in a browser, 'html5'.
+
+   * - ``id``
+     - string
+     - The optional name
+       value that the course creators supply or the system-generated hash code
+       for the video being watched. 
+
+       For example, ``0b9e39477cf34507a7a48f74be381fdd``.
+       
+       This value is part of the ``courseware_studentmodule.module_id``. See
+       :ref:`courseware_studentmodule`.
+
+       **History**: In October 2014, identifiers for some new courses began to
+       use the format shown above. Other new courses, and all courses created
+       prior to October 2014, use an html-escaped version of the
+       ``courseware_studentmodule.module_id``. For example, 
+       ``i4x-HarvardX-PH207x-video-Simple_Random_Sample``.
+
    * - ``new_time``
      - integer
      - The time in the video, in seconds, that the user selected as the
