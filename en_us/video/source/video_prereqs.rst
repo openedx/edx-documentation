@@ -247,7 +247,7 @@ and invites them to manage the channel.
    Access to YouTube Account>`.
 
 Course team members who complete the activation process are channel managers.
-When they log in to YouTube at https://www.youtube.com with the email address
+When they log in to YouTube at https://www.youtube.com using the email address
 that has channel manager privileges, they can manage course content.
 
 

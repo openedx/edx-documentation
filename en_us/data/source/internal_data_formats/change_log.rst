@@ -14,6 +14,9 @@ October-December 2014
 
    * - Date
      - Change
+   * - 12/18/14
+     - Updated descriptions of the video events in the
+       :ref:`Tracking Logs` chapter.
    * - 11/26/14
      - Expanded the background information on content experiments in
        :ref:`AB_Event_Types`.
