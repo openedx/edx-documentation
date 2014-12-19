@@ -18,7 +18,7 @@ HTML, see `Wikipedia <http://en.wikipedia.org/wiki/HTML>`_.
 
 HTML components are the basic building blocks of your course content. You use
 HTML components to add and format text, links, images, and more. You can choose
-to create HTML components directly in HTML code, or using a Visual editor that
+to create HTML components directly in HTML code, or using a visual editor that
 hides the HTML code details, as described below.
 
 For more information, see the following topics:
@@ -50,19 +50,19 @@ You can work with HTML in two ways:
 
 * :ref:`The Visual Editor`
   
-  With the Visual editor you can create, edit, and format content in a word
-  processing-like interface, without using HTML code directly. With the Visual
-  editor, you can more easily format your content, and add links and images. The
-  Visual editor provides access to HTML code so you can make small changes to
-  formatting, if required. However, the HTML view in the Visual editor does not
-  provide the detailed control you can get with the Raw HTML editor, and does
-  not support custom formatting or scripts.
+  With the visual editor you can create, edit, and format content in a word
+  processing-like interface, without using HTML code directly. With the visual
+  editor, you can more easily format your content, and add links and images.
+  The visual editor provides access to HTML code so you can make small changes
+  to formatting, if required. However, the HTML view in the visual editor does
+  not provide the detailed control you can get with the raw HTML editor, and
+  does not support custom formatting or scripts.
 
 * :ref:`The Raw HTML Editor`
 
-  With the Raw HTML Editor, you work directly with HTML code. If you need to use
-  custom formatting or scripts in your content, you should use the Raw HTML
-  Editor.
+  With the raw HTML Editor, you work directly with HTML code. If you need to
+  use custom formatting or scripts in your content, you should use the raw HTML
+  editor.
 
 
 Set the Editor for an HTML Component
@@ -77,10 +77,10 @@ Select **Visual** or **Raw**. When you change the editor, you must click
 **Save** and re-open the component to begin using the new editor.
 
 .. warning:: 
- If you work with content in the Raw HTML editor, then switch to the Visual
- editor, you may lose custom HTML that you created. Therefore, it is recommended
- that you start by using the Visual editor, then switch to the Raw HTML editor
- when you need to create custom HTML.
+ If you work with content in the raw HTML editor, then switch to the visual
+ editor, you may lose custom HTML that you created. Therefore, it is
+ recommended that you start by using the visual editor, then switch to the raw
+ HTML editor when you need to create custom HTML.
 
 .. _The Visual Editor:
 
@@ -88,12 +88,15 @@ Select **Visual** or **Raw**. When you change the editor, you must click
 The Visual Editor
 *****************************************
 
-The Visual editor provides a “what you see is what you get” (WYSIWYG) interface
+The visual editor provides a “what you see is what you get” (WYSIWYG) interface
 that allows you to format text by clicking the formatting buttons at the top of
 the editor.
 
 .. image:: ../Images/HTMLEditor.png
  :alt: Image of the HTML component editor
+
+.. note:: 
+  The visual editor is not available for :ref:`course handouts <Adding Course Updates and Handouts>`.
 
 The following image shows call-outs for the editing options and is followed by
 descriptions.
@@ -127,7 +130,7 @@ descriptions.
 Work with HTML code in the Visual editor
 *****************************************
 
-To work with HTML source code for the content you create in the Visual editor,
+To work with HTML source code for the content you create in the visual editor,
 click **HTML**  in the editor toolbar. The HTML source code editor opens:
 
 .. image:: ../Images/HTML_source_code.png
@@ -136,12 +139,12 @@ click **HTML**  in the editor toolbar. The HTML source code editor opens:
 Edit the HTML code as needed. 
 
 You should not add custom styles or scripts in the HTML code view in the
-Visual editor. Use the Raw HTML editor instead.
+visual editor. Use the raw HTML editor instead.
 
 Click **OK** to close the source code editor and apply your changes in the
-Visual editor. The Visual editor then attempts to ensure the underlying HTML
-code is valid; for example, if you do not close a paragraph tag, the editor will
-close it for you.
+visual editor. The visual editor then attempts to ensure the underlying HTML
+code is valid; for example, if you do not close a paragraph tag, the editor
+will close it for you.
 
 .. warning:: 
  Clicking **OK** in the source code editor does not save your changes to the
@@ -156,13 +159,13 @@ close it for you.
 The Raw HTML Editor
 *****************************
 
-When you select the Raw editor for the HTML component, you edit your content in
+When you select the raw editor for the HTML component, you edit your content in
 a text editor:
 
 .. image:: ../Images/raw_html_editor.png
- :alt: The Raw HTML editor
+ :alt: The raw HTML editor
 
-You must enter valid HTML. The Raw HTML editor does not validate your HTML code.
+You must enter valid HTML. The raw HTML editor does not validate your HTML code.
 Therefore you should thoroughly test the HTML content in your course.
 
 
@@ -177,8 +180,8 @@ When you create a new HTML component, you select from a list of templates:
 .. image:: ../Images/html_templates.png
  :alt: The list of HTML Component templates
 
-The Raw HTML template is set to use the Raw HTML editor. All other templates use
-the Visual editor.
+The raw HTML template is set to use the raw HTML editor. All other templates
+use the visual editor.
 
 For any HTML component, you can change the editor, regardless of the template
 used to create the component. See `Set the Editor for an HTML Component`_.
@@ -201,7 +204,7 @@ To create an HTML component:
 2. Select the template. 
 
    The rest of these instructions assume you selected
-   **Text**, which creates an empty component with the Visual editor selected.
+   **Text**, which creates an empty component with the visual editor selected.
 
    An empty component appears at the bottom of the unit.
 
@@ -210,7 +213,7 @@ To create an HTML component:
 
 3. In the component, click **Edit**.
 
-   The HTML component opens in the Visual editor.
+   The HTML component opens in the visual editor.
 
   .. image:: ../Images/HTMLEditor_empty.png
    :alt: Image of the HTML component editor
@@ -225,7 +228,7 @@ To create an HTML component:
 
 6. Click **Save** to save the HTML component.
 
-When using the Visual editor, you can also:
+When using the visual editor, you can also:
 
 * :ref:`Add a Link in an HTML Component`
 * :ref:`Add an Image to an HTML Component`
@@ -237,7 +240,7 @@ When using the Visual editor, you can also:
 Add a Link in an HTML Component
 ***********************************
 
-When using the Visual editor, to add a link to a website, course unit, or file
+When using the visual editor, to add a link to a website, course unit, or file
 in an HTML component, you work with the **Insert link** dialog box.
 
 .. image:: ../Images/HTML_Insert-EditLink_DBox.png
@@ -360,7 +363,7 @@ Course`.
 Add an Image to an HTML Component
 ***********************************
 
-When using the Visual editor, you can add any image that you have uploaded for
+When using the visual editor, you can add any image that you have uploaded for
 the course to an HTML component. For more information about uploading images,
 see :ref:`Add Files to a Course`.
 
