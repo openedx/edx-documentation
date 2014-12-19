@@ -23,13 +23,6 @@ if on_rtd:  # only import and set the theme if we're building docs locally
     html_theme = 'edx_theme'
     html_theme_path = ["../.."]
 
-
-
-
-
-
-
-
 #sys.path.append(os.path.abspath('../../../'))
 #sys.path.append(os.path.abspath('../../'))
 
