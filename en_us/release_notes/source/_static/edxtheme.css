@@ -411,6 +411,11 @@ ul.icons li .icon-large:before, ul.icons li .icon-large:before {
 .icon-home:before {
 	content:url('edx-logo-header.png')
 }
+
+.fa-home:before{
+	content:url('edx-logo-header.png')
+}
+
 .icon-file-alt:before {
 	content: "\f016"
 }
