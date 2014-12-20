@@ -2522,7 +2522,7 @@ li.wy-form-gallery-edit .arrow {
 	margin-bottom: 0 !important
 }
 .wy-table-responsive table td, .wy-table-responsive table th {
-	! white-space: nowrap
+	white-space: wrap !important
 }
 html {
 	height: 100%;
