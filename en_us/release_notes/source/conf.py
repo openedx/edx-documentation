@@ -13,7 +13,7 @@ if not on_rtd:  # only import and set the theme if we're building docs locally
         'css_files': [
             #'https://media.readthedocs.org/css/sphinx_rtd_theme.css',
             'https://media.readthedocs.org/css/readthedocs-doc-embed.css',
-            '_static/theme.css',
+            '_static/edxtheme.css',
         ],
     }
 else:
@@ -22,7 +22,7 @@ else:
         'css_files': [
             #'https://media.readthedocs.org/css/sphinx_rtd_theme.css',
             'https://media.readthedocs.org/css/readthedocs-doc-embed.css',
-            '_static/theme.css',
+            '_static/edxtheme.css',
         ],
     }
 
