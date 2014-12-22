@@ -409,7 +409,9 @@ ul.icons li .icon-large:before, ul.icons li .icon-large:before {
 	content: "\f014"
 }
 .icon-home:before {
-	content:url('edx-logo-header.png')
+	content: url('edx-logo-header.png');
+    display: block;
+    margin-bottom: 0.404em
 }
 .icon-file-alt:before {
 	content: "\f016"
@@ -3096,7 +3098,7 @@ pre.literal-block {
 }
 .wy-side-nav-search {
 	z-index: 200;
-	background-color: #2980b9;
+	background-color: #e3e3e3;
 	text-align: center;
 	padding: 0.809em;
 	display: block;
@@ -3119,8 +3121,8 @@ pre.literal-block {
 	border-radius: 100%
 }
 .wy-side-nav-search>a, .wy-side-nav-search .wy-dropdown>a {
-	color: #fcfcfc;
-	font-size: 100%;
+	color: #2980b9;
+	font-size: 120%;
 	font-weight: bold;
 	display: inline-block;
 	padding: 4px 6px;
