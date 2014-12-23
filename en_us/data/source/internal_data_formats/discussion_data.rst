@@ -31,7 +31,7 @@ of the attributes that these two types of objects share and that are specific
 to each type, follow.
 
 In addition to these collections, events are also emitted to track specific
-user activities. See :ref:`forum_events`.
+user activities. For more information, see :ref:`forum_events`.
 
 *********
 Samples
