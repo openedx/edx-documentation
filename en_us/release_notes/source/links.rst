@@ -54,7 +54,7 @@
 
 .. Platform API guide links
 
-.. _edX Platform API Version 0.5: http://edx-platform-api.readthedocs.org/en/latest/index.html
+.. _edX Platform API: http://edx-platform-api.readthedocs.org/en/latest/index.html
 
 .. other links not yet categorized carefully
 
@@ -314,6 +314,12 @@
 
 .. _compression specifications: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/creating_content/create_video.html#compression-specifications
 
+.. _Multiple Problems in One Component: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/creating_content/create_problem.html#multiple-problems-in-one-component
+
+.. _Adding Course Updates and Handouts: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/building_course/handouts_updates.html#adding-course-updates-and-handouts
+
+.. _The Visual Editor: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/creating_content/create_html_component.html#the-visual-editor
+
 
 .. Peer Assessments
 
@@ -343,6 +349,9 @@
 
 .. _Testing Events for Content Experiments: http://edx.readthedocs.org/projects/devdata/en/latest/internal_data_formats/tracking_logs.html#ab-event-types
 
+.. _Video Interaction Events: http://edx.readthedocs.org/projects/devdata/en/latest/internal_dat
+  a_formats/tracking_logs.html#video-interaction-events
+
 .. Developer Doc
 
 .. _Contributing to Open edX: http://edx.readthedocs.org/projects/userdocs/en/latest/process/index.html
@@ -354,3 +363,9 @@
 .. _Opaque Keys: https://github.com/edx/edx-platform/wiki/Opaque-Keys
 
 .. _Ubuntu installation instructions: https://github.com/edx/configuration/wiki/edX-Ubuntu-12.04-64-bit-Installation
+
+.. _edX Data Analytics API: http://edx.readthedocs.org/projects/edx-data-analytics-api/en/latest/index.html
+
+.. _Make All Content-Specific Discussion Topics Unified by Default: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/cohorts/cohorts_setup_discussions.html#make-all-content-specific-discussion-topics-unified-by-default
+
+.. _edX Data Analytics API Version 0 Alpha: http://edx.readthedocs.org/projects/edx-data-analytics-api/en/latest/index.html
