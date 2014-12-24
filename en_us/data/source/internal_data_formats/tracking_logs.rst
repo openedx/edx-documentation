@@ -573,7 +573,7 @@ field.
 
 **History**: The edX mobile app began to emit video events on 23 Dec 14. The
 mobile app emits ``play_video``, ``pause_video``, ``stop_video``,
-``load_video``,``hide_transcript``, and ``show_transcript`` events only.
+``load_video``, ``hide_transcript``, and ``show_transcript`` events only.
 
 
 ``play_video``, ``pause_video``, ``stop_video``
