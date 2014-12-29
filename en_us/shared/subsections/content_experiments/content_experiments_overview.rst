@@ -44,5 +44,6 @@ To determine the available groupings of students, you :ref:`set up group
 configurations in Studio <Set up Group Configurations in edX Studio>` or
 :ref:`in XML <Set Up Group Configuration for OLX Courses>`.
 
-You then select which grouping to use when you :ref:`add a content experiment
-in Studio <Add a Content Experiment in Studio>` or :ref:`in XML <Add a Content Experiment in OLX>`.
+You then select which group configuration to use when you :ref:`add a content
+experiment in Studio <Add a Content Experiment in Studio>` or :ref:`in XML <Add
+a Content Experiment in OLX>`.
