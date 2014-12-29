@@ -41,29 +41,33 @@ Students can see a file only if you create a link to it.
    should not be shared, for example, Answerkey.pdf.
 
 .. warning:: 
- For PDF and image files, edX recommends that you use standard compression tools to reduce the file size before adding them to your course.
+   For PDF and image files, edX recommends that you use standard compression tools to reduce the file size before adding them to your course.
 
- If you have files that are larger than 50 MB after compression and need them for your course, contact your edX program manager.
+   If you have files that are larger than 50 MB after compression and need them
+   for your course, contact your edX program manager.
 
- Furthermore, do not add video or audio files, or large data sets that are to be
- used by students. You should use YouTube or another hosting service to host
- multimedia files for your course. For information about storing large data sets for student use, contact your edX program manager.
+   Furthermore, do not add video or audio files, or large data sets that are to
+   be used by students. You should use YouTube or another hosting service to
+   host multimedia files for your course. For information about storing large
+   data sets for student use, contact your edX program manager.
 
 To upload files:
  
 #. From the **Content** menu, select **Files & Uploads**.
 #. Click **Upload New File**.
 #. In the **Upload New File** dialog box, click **Choose File**.
-#. In the **Open** dialog box, select the file that you want to upload,
-   then click **Open**.
+   
+#. In the **Open** dialog box, select one or more files to upload, then click
+   **Open**.
 
    .. note::
       If you upload a file that has the same name as an existing course file, the
       original file is overwritten without warning.
 
-5. To upload another file, click **Load Another File** and repeat the previous
-   step. 
-6. To close the dialog box, click the **x** in the top right corner.
+5. To upload additional files, click **Load Another File** and repeat the
+   previous step.
+
+6. To close the dialog box, click the **X** in the top right corner.
 
 You see the new files on the **Files & Uploads** page.
 
@@ -133,13 +137,13 @@ visible. The list remains in the current sort order.
      - **File Types Include**
    * - Images
 
-     - .gif, .jpg, .jpeg, .png, .tiff.
+     - .gif, ,ico, .jpg, .jpeg, .png, .tif, .tiff.
 
    * - Documents
      - .pdf, .txt, MS Office and Open Office documents, presentations, or
        spreadsheets.
    * - Other
-     - Files not included in the other types, such as .sjson, .html, .js.
+     - Files not included in the other types, such as .html, .js, .sjson.
 
 
 To filter the list of files by type:
