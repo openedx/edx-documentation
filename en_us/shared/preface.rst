@@ -166,6 +166,9 @@ Documentation for developers is available on the docs.edx.org web page.
   with Open Learning XML (OLX). Note that this guide is currently an alpha
   version.
 
+* `edX Data Analytics API`_ provides tools for building applications to view
+  and analyze student activity in your course.
+
 GitHub
 -------
 
@@ -296,3 +299,4 @@ edX Global Community meetup_ group.
 .. _openedx-translation: http://groups.google.com/forum/#!forum/openedx-translation
 .. _edx-code: http://groups.google.com/forum/#!forum/edx-code
 .. _edx101: https://www.edx.org/course/overview-creating-edx-course-edx-edx101#.VIIJbWTF_yM
+.. _edX Data Analytics API: http://edx.readthedocs.org/projects/edx-data-analytics-api/en/latest/index.html
