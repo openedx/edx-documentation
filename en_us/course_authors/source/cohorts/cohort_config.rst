@@ -277,11 +277,13 @@ The requirements for the .csv file are summarized in this table.
         See :ref:`Creating a Unicode Encoded CSV File`.
 
     * - Header row
-      - You must include a header row, with column names exactly as
-        specified in "Columns" below, including case. 
+      
+      - You must include a header row, with column names exactly matching those
+        specified in "Columns" below, including case.
+        
     * - One or two columns identifying students      
       - You must include at least one column identifying students: 
-        either "Email" or "Username", or both. 
+        either "email" or "username", or both. 
 
         If both the username and an email address are provided for a student,
         the email address has precedence. 
@@ -291,7 +293,7 @@ The requirements for the .csv file are summarized in this table.
 
     * - One column identifying the cohort group
             
-      - You must include one column named "Cohort" to identify the cohort group
+      - You must include one column named "cohort" to identify the cohort group
         to which you are assigning each student.
 
         The specified cohort groups must already exist in Studio.
