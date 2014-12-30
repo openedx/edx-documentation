@@ -15,13 +15,17 @@ applicable):
 
 #. :ref:`Enable the cohort feature<Enable Cohorts>`.
 
-#. Based on the strategy you select for assigning students to cohort groups:
 
-  * :ref:`Define the auto cohort groups<Define Auto Cohort Groups>`.
-  * :ref:`Define the manual cohort groups<Define the Manual Cohort Groups>` and
-    then :ref:`assign students<Assign Students to Cohort Groups
-    Manually>` to them.
-  * Do both. 
+#. Determine the method you want to use to assign students to cohort groups:
+   
+  * :ref:`Define automatic cohort groups<Define Auto Cohort Groups>`
+
+  * :ref:`Define manual cohort groups<Define the Manual Cohort Groups>` and
+    :ref:`manually assign students<Assign Students to Cohort Groups Manually>`
+    to them
+
+  * :ref:`Use a combination of automatic and manual assignment<Hybrid
+    Assignment>`.
 
 3. Optionally, identify the discussion topics that you want to be divided by
    cohort.
@@ -36,8 +40,9 @@ applicable):
     topics to be unified<Make ContentSpecific Discussion Topics Unified>`.
 
 You complete these procedures in Studio and on the Instructor Dashboard. For an
-optimal student experience, configuration of the cohort feature should be as
-complete as possible prior to the start date of your course. 
+optimal student experience, you should make sure that configuration of the
+cohort feature is as complete as possible prior to the start date of your
+course.
 
 If you need to make changes to the way you have configured the cohort feature
 while your course is running, please see :ref:`Altering Cohort Configuration`.
@@ -117,9 +122,9 @@ divided by cohort. See :ref:`Read the Cohort Indicator in Posts`.
    it within quotation marks (``" "``), and separate the quoted name values
    with commas. For example:
    
- .. code:: 
+   .. code:: 
 
-   "auto_cohort_groups": [
+  "auto_cohort_groups": [
        "Example Group Name A",
        "Example Group Name B",
        "Example Group Name C"
@@ -232,8 +237,8 @@ Assign Students to Cohort Groups Manually
    another cohort group was changed by this procedure.
 
 For a report that includes the cohort group assignment for every enrolled
-student, review the student profile information for your course. See
-:ref:`View and download student data`.
+student, review the student profile information for your course. See :ref:`View
+and download student data`.
 
 
 .. _Assign Students to Cohort Groups by uploading CSV:

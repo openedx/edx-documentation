@@ -2,52 +2,42 @@
 
 
 ##########################################
-Using Cohorts to Build Course Communities
+Using Cohort Groups in your Courses
 ##########################################
 
-Cohorts create smaller communities of students within a course. Students who
-are in a cohort can communicate and share experiences privately within course
-discussion topics.
-
-By :ref:`enabling the cohort feature<Enabling and Configuring Cohorts>` in a
-course, you provide students with the ability to ask questions of, and have
-conversations with, other members of their cohort. Cohort-only discussion
-opportunities can help students develop a sense of community, provide
-specialized experiences, and encourage deeper, more meaningful course
+By :ref:`setting up cohort groups<Enabling and Configuring Cohorts>` in a
+course, you create smaller communities of students. You can design different
+course experiences for students in different cohort groups. In discussion topics
+that are divided by cohort group, students can also communicate and share
+experiences privately within the cohort group that they are assigned to. Cohort-
+only discussion opportunities can help students develop a sense of community,
+provide specialized experiences, and encourage deeper, more meaningful course
 involvement.
 
-When you enable the cohort feature for your course, discussion topics within
-units (added as discussion components) are by default divided by cohort. This
-means that when a student in a cohort group creates a post on a content-specific
-topic, only members of that same cohort group can read and respond to the post.
-In contrast, any course-wide discussion topics that you set up for your course
-are by default unified. This means that every student, regardless of their
-cohort group, can read and respond to all posts in course-wide discussions. You
-can configure your course-wide or content-specific topics so that some, or all,
-of the discussion topics at either level are divided by cohort or unified. See
-:ref:`Set up Discussions in Cohorted Courses`.
+If you use cohort groups in your course, you define a set of cohort groups to
+reflect communities of students, then select a strategy for :ref:`assigning
+students to cohort groups<Options for Assigning Students to Cohorts>`.
 
-This section also describes your options for :ref:`assigning students to cohort
-groups<Options for Assigning Students to Cohorts>`. When you enable the cohort
-feature, you define a set of cohort groups to reflect communities of students,
-and select a strategy for assigning students to those groups. Note that:
+.. note:: 
+   * Every student must be assigned to a cohort group. This ensures that every
+     student has the ability to read and contribute to course discussion topics.
 
-* Every student must be assigned to a cohort group. This assures that every
-  student has the ability to read and contribute to all of the course
-  discussion topics.
+   * Each student can be in one and only one cohort group. 
 
-* Each student is in one and only one cohort group. 
+   To provide students with a consistent experience throughout the course run,
+   do not change a student's assignment to a cohort group after the course
+   begins.
 
-To provide a consistent experience throughout the course run, each student's
-assignment to a cohort group should remain unchanged after the course begins.
 
-For more information, see:
+For more information about using cohort groups in courses, see:
 
 * :ref:`Enabling and Configuring Cohorts`
-* :ref:`Set up Discussions in Cohorted Courses`
+
+* :ref:`Setting Up Discussions in Courses with Cohort Groups<Set up Discussions in Cohorted Courses>`
+
 * :ref:`Moderating Discussions for Cohorts`
 
-For information about discussions, see :ref:`Discussions`.
+For information about discussions in general, see :ref:`Discussions`.
 
 
 .. _Options for Assigning Students to Cohorts:
@@ -137,11 +127,13 @@ each student to one of the manual cohort groups. Every student who enrolls,
 including those who enroll after the course starts, must be assigned to a
 cohort group.
 
+
 .. note:: To ensure that every student is assigned to a cohort group, you can
    set up a single automatic cohort group, as described for the :ref:`hybrid  assignment
    strategy<Hybrid Assignment>`. If you do not create an automatic cohort  group,
    the system automatically creates a :ref:`default cohort group<Default  Cohort
    Group>` and assigns students to it if necessary.
+
 
 For more information, see :ref:`Implementing the Manual Assignment Strategy`.
 

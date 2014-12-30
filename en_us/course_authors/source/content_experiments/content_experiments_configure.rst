@@ -66,40 +66,42 @@ during your course. In one content experiment, students either see a video or
 complete a reading assignment. You can then include problems so that you can
 see which group learned the material more completely. For this content
 experiment, you need a group configuration that assigns your students to two
-groups.
+experiment groups.
 
 In the other content experiment, you can present the same question using four 
-different types of problem. For this content experiment, you need a
-group configuration that assigns your students to four groups.
+different types of problems. For this content experiment, you need a
+group configuration that assigns your students to four experiment groups.
 
-=============================
-Assigning Students to Groups
-=============================
+=======================================
+Assigning Students to Experiment Groups
+=======================================
 
-The edX Platform assigns students to each group in a group configuration. 
+The edX Platform assigns students to each experiment group in a group
+configuration.
 
-Group assignments are:
+Experiment group assignments are:
 
 * Dynamic
 
-  The edX Platform assigns a student to a group the first time he or she views
-  a content experiment that uses the group configuration.
+  The edX Platform assigns a student to an experiment group the first time he or
+  she views a content experiment that uses the group configuration.
 
 * Random
   
-  You cannot control which students are assigned to which group. 
+  You cannot control which students are assigned to which experiment group. 
   
 * Evenly distributed
   
-  The edX Platform keeps track of the size of groups and assigns new students
-  to groups evenly. For example, when there are two groups in a configuration,
-  each group will include 50% of the students in the course; when you have four
-  groups, each group will include 25%.
+  The edX Platform keeps track of the size of experiment groups, and assigns new
+  students to groups evenly. For example, if you have two experiment groups in a
+  configuration, each group includes 50% of the students in the course; if you
+  have four experiment groups, each group includes 25% of the students.
 
 * Permanent
   
-  Students remain in their assigned groups regardless of how many content
-  experiments you set up that use the same group configuration.
+  Students remain in their assigned experiment groups regardless of how many
+  content experiments you set up that use the same group configuration.
+
 
 .. _Set up Group Configurations in edX Studio:
 
@@ -112,11 +114,7 @@ Set up Group Configurations in edX Studio
   you can set up group configurations.
 
 To set up group configurations, on the **Settings** menu, select **Group
-Configurations**. The **Group Configurations** page opens:
-
-.. image:: ../Images/group_configurations.png
- :width: 800
- :alt: The Group Configurations page
+Configurations**. The **Group Configurations** page opens.
 
 From this page you can :ref:`create<Create a Group Configuration>`,
 :ref:`edit<Edit a Group Configuration>`, and :ref:`delete<Delete a Group
@@ -131,25 +129,27 @@ Create a Group Configuration
 
 You can create a group configuration at any time.
 
-#. On the **Group Configurations** page, click **Add Your First Group
-   Configuration**. The following page opens:
+#. On the **Group Configurations** page, under **Experiment Groups**, click
+   **New Experiment Group**. The following page opens:
 
   .. image:: ../Images/create-group-config.png
    :width: 800
    :alt: Create a New Group Configuration page
 
 2. Enter a name in the **Group Configuration Name** field. Use a meaningful
-   name, as you select from group configuration names when creating content
-   experiments. Students will not see the name.
+name, because you will select from group configuration names when you create
+content experiments. Students do not see the group configuration name.
 
 #. Optionally, enter a description for the new group configuration.
+   
 #. By default, a new configuration already contains two groups. Modify the
-   names of those groups or add new groups as needed:
+   groups or add and delete groups as needed. A group configuration must have at
+   least one group.
 
-  * Modify the group names as needed. You see group names in the unit page in
-    Studio; students do not see group names.
-  * Click **Add another group** to include another group as part of the
-    configuration.
+  * Modify group names as needed. You see group names in the unit page in
+    Studio, but group names are not visible to students.       
+  * Click **Add another group** to include another group as part of
+    the configuration. 
   * Click the **X** to the right of an existing group to remove it from the
     configuration. A group configuration must have at least one group.
 
@@ -162,6 +162,7 @@ in use in the course:
 .. image:: ../Images/group_configurations_one_listed.png
  :width: 800
  :alt: The Group Configurations page with one group configuration
+
   
 .. _Edit a Group Configuration:
 
@@ -169,11 +170,10 @@ in use in the course:
 Edit a Group Configuration
 =============================
 
-.. important:: 
-  You can change the name of a group configuration at any time. However, before
-  you modify any other characteristics of a group that is inside a group
-  configuration that is currently used in a running course, review `Guidelines
-  for Modifying Group Configurations`_.
+.. important:: You can change the name of a group configuration at any time.
+   However, before you modify any other characteristics of a group configuration
+   that is currently used in a running course, review `Guidelines for Modifying
+   Group Configurations`_.
 
 #. On the **Group Configurations** page, hover over the group configuration and
    click **Edit**.
@@ -212,40 +212,40 @@ Delete a Group Configuration
 
 2. When prompted to confirm the deletion, click **Delete**.
 
+
 .. _View Experiments that Use a Group Configuration:
 
 ===============================================
 View Experiments that Use a Group Configuration
 ===============================================
 
-When working with group configurations, you can view the experiments that use
-each configuration.
+You can view the experiments that use each of your group configurations.
 
-On the **Group Configurations** page, click the name of a group to expand the
-group and see its details. You see links to experiments that use the group
-configuration:
+On the **Group Configurations** page, click the name of a group to see its
+details. You see links to experiments that use the group configuration:
 
 .. image:: ../Images/group_configurations_experiments.png
  :alt: A group configuration with the experiments using it circled
 
 Click a link to go to the unit page that contains the experiment.
 
+
 ===============================================
 View a Group Configuration from an Experiment
 ===============================================
 
 When working with a content experiment, you can view details about the group
-configuration used by that experiment.
+configuration used by that experiment in two ways:
 
-On the unit page for a unit that contains a content experiment, click the name
-of the group configuration.
+* In a unit that contains a content experiment, in the content experiment block,
+  click the name of the group configuration.
 
 .. image:: ../Images/content_experiment_group_config_link.png
  :alt: Content experiment in the unit page with the group configuration link
      circled
 
-Or at the top of the content experiment page, click the name of the group
-configuration.
+* At the top of the content experiment page, click the name of the group
+  configuration.
 
 .. image:: ../Images/content_experiment_page_group_config_link.png
  :alt: Content experiment page with the group configuration link circled
