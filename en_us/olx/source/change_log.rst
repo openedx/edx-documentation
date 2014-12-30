@@ -2,6 +2,19 @@
 Change Log
 ############
 
+*****************
+December, 2014
+*****************
+
+.. list-table::
+   :widths: 10 70
+   :header-rows: 1
+
+   * - Date
+     - Change
+   * - 12/17/14
+     - Updated :ref:`Custom JavaScript` to indicate that you cannot use a
+       custom JavaScript problem in a component with multiple problems.
 
 *****************
 November, 2014

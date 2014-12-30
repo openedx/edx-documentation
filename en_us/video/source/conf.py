@@ -37,7 +37,7 @@ master_doc = 'index'
 
 
 # General information about the project.
-project = u'edX Mobile for Students'
+project = u'Processing Video Files'
 copyright = u'2014, edX'
 
 # The short X.Y version.

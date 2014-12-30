@@ -50,11 +50,15 @@
 
 .. _Course Wiki: http://edx-guide-for-students.readthedocs.org/en/latest/SFD_wiki.html
 
+.. _The edX Mobile App:  http://edx-guide-for-students.readthedocs.org/en/latest/SFD_mobile.html#sfd-mobile
+
 .. Platform API guide links
 
 .. _edX Platform API Version 0.5: http://edx-platform-api.readthedocs.org/en/latest/index.html
 
 .. other links not yet categorized carefully
+
+.. _Assign Students to Cohort Groups by Uploading a CSV File: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/cohorts/cohort_config.html#assign-students-to-cohort-groups-by-uploading-a-csv-file
 
 .. _Weekly Highlights: http://edx-partner-course-staff.readthedocs.org/en/latest/running_course/bulk_email.html#weekly-highlights
 

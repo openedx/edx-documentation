@@ -6,7 +6,7 @@ Adding Course Updates and Handouts
 
 You add course updates and handouts in Studio.
 
-Student's see the course updates and handouts in the **Course Info** tab in your
+Students see the course updates and handouts in the **Course Info** tab in your
 course:
 
 .. image:: ../Images/course_info.png
@@ -27,7 +27,9 @@ To add a course update:
 #. Click **New Update**.
 #. Enter your update in the HTML editor that opens.
 
-  .. note::  You must enter the update in HTML. 
+  .. note::  
+    You must enter the update in HTML. The :ref:`visual editor<The Visual
+    Editor>` is not supported for course handouts.
 
 4. Click **Save**.
 
@@ -39,12 +41,12 @@ Add Course Handouts
 You can add course handouts that are visible to students on the **Course Info**
 page. To add an uploaded file to the course handouts, you will need its URL.
 
-.. note::  You must :ref:`Add Files to a Course` before you can add them as
- course handouts.
+.. note::  
+ You must :ref:`Add Files to a Course` before you can add them as course
+ handouts.
 
 #. From the **Content** menu, select **Updates**. 
 #. In the **Course Handouts** panel, click **Edit**.
-#. Edit the HTML to add links to the files you uploaded. See :ref:`Add a Link in
-   an HTML Component` for more information.
+#. Edit the HTML to add links to the files you uploaded. See :ref:`Add a Link
+   in an HTML Component` for more information.
 #. Click **Save**.
-

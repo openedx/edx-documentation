@@ -14,6 +14,7 @@ edX Guide for Students
    preface
    SFD_introduction
    SFD_certificates
+   SFD_mobile
    SFD_video_player
    SFD_mathformatting
    SFD_ORA

@@ -4,11 +4,15 @@
    contain the root `toctree` directive.
 
 
-Mobile FAQ for Students
+Processing Video Files
 ========================================
 
 .. toctree::
    :numbered:
    :maxdepth: 2
 
-   SFD_mobileFAQ
+   read_me
+   change_log
+   video_prereqs
+   video_uploads
+   video_course

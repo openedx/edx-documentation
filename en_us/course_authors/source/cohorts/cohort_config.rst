@@ -289,11 +289,13 @@ The requirements for the .csv file are summarized in this table.
         See :ref:`Creating a Unicode Encoded CSV File`.
 
     * - Header row
-      - You must include a header row, with column names exactly as
-        specified in "Columns" below.
+      
+      - You must include a header row, with column names exactly matching those
+        specified in "Columns" below, including case.
+        
     * - One or two columns identifying students      
       - You must include at least one column identifying students: 
-        either "Email" or "Username", or both. 
+        either "email" or "username", or both. 
 
         If both the username and an email address are provided for a student,
         the email address has precedence. 
@@ -303,13 +305,13 @@ The requirements for the .csv file are summarized in this table.
 
     * - One column identifying the cohort group
             
-      - You must include one column named "Cohort" to identify the cohort group
+      - You must include one column named "cohort" to identify the cohort group
         to which you are assigning each student.
 
         The specified cohort groups must already exist in Studio.
 
     * -                        
-      - Columns with headings other than "Email", "Username" and "Cohort" are
+      - Columns with headings other than "email", "username" and "cohort" are
         ignored.
 
 Follow these steps to assign students to cohort groups by uploading a .csv file.     
@@ -368,8 +370,7 @@ Creating a Unicode-encoded CSV File
 ====================================
 
 Make sure the .csv files that you upload are encoded as UTF-8, so that any
-Unicode characters (for example, in usernames) are correctly saved and
-displayed.
+Unicode characters are correctly saved and displayed.
 
 .. note:: Some spreadsheet applications (for example, MS Excel) do not allow you
    to specify encoding when you save a spreadsheet as a .csv file. To ensure that

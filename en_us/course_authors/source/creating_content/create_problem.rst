@@ -581,6 +581,11 @@ student to be able to check the answers to many problems at one time. To do
 this, you can include multiple problems inside a single Problem component. The
 problems can be different types.
 
+.. note:: 
+  You cannot use a :ref:`Custom JavaScript` in a component that contains more
+  than one problem. Each custom JavaScript problem must be in its own
+  component.
+
 To create multiple problems in one component, create a new Blank Advanced
 Problem component, and then add the XML for each problem in the component
 editor. You only need to include the XML for the problem and its answers. You

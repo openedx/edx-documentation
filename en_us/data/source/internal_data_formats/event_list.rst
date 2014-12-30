@@ -58,6 +58,18 @@ Alphabetical Event List
      - :ref:`enrollment` and :ref:`instructor_enrollment`
    * - ``edx.forum.searched``
      - :ref:`forum_events`
+   * - ``edx.video.loaded``
+     - :ref:`video`, see ``load_video``
+   * - ``edx.video.paused``
+     - :ref:`video`, see ``pause_video``
+   * - ``edx.video.played``
+     - :ref:`video`, see ``play_video``
+   * - ``edx.video.stopped``
+     - :ref:`video`, see ``stop_video``
+   * - ``edx.video.transcript.hidden``
+     - :ref:`video`, see ``hide_transcript``
+   * - ``edx.video.transcript.shown``
+     - :ref:`video`, see ``show_transcript``
    * - ``get_anon_ids``
      - :ref:`Instructor_Event_Types`
    * - ``get_student_progress_page``
@@ -68,6 +80,8 @@ Alphabetical Event List
      - :ref:`Instructor_Event_Types`
    * - ``get_students_features/csv``
      - :ref:`Instructor_Event_Types`
+   * - ``hide_transcript``
+     - :ref:`video`
    * - ``instructor``
      - :ref:`Instructor_Event_Types`
    * - ``list-beta-testers``
@@ -84,6 +98,8 @@ Alphabetical Event List
      - :ref:`Instructor_Event_Types`
    * - ``list-students``
      - :ref:`Instructor_Event_Types`
+   * - ``load_video``
+     - :ref:`video`
    * - ``modify_access``
      - :ref:`Instructor_Event_Types`
    * - ``oe_feedback_response_selected``
@@ -172,12 +188,16 @@ Alphabetical Event List
      - :ref:`navigational`
    * - ``show_answer``
      - :ref:`problem`
+   * - ``show_transcript``
+     - :ref:`video`
    * - ``speed_change_video``
      - :ref:`video`
    * - ``staff_grading_hide_question``
      - :ref:`ora`
    * - ``staff_grading_show_question``
      - :ref:`ora`
+   * - ``stop_video``
+     - :ref:`video`
    * - ``textbook.pdf.chapter.navigated``
      - :ref:`pdf`
    * - ``textbook.pdf.display.scaled``
@@ -208,13 +228,8 @@ Alphabetical Event List
      - :ref:`Instructor_Event_Types`
        
 
-..   * - ``hide_transcript``
-..     - :ref:`video`
-..   * - ``load_video``
-..     - :ref:`video`      
+
 ..   * - ``problem_graded``
 ..     - :ref:`problem`
 ..   * - ``problem_reset``
 ..     - :ref:`problem`
-..   * - ``show_transcript``
-..     - :ref:`video`
