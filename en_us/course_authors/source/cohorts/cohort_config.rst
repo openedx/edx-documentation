@@ -290,7 +290,7 @@ The requirements for the .csv file are summarized in this table.
 
     * - Header row
       - You must include a header row, with column names that exactly match those 
-        specified in "Columns" below, including case.
+        specified in "Columns" below.
     * - One or two columns identifying students      
       - You must include at least one column identifying students: 
         either "email" or "username", or both. 
