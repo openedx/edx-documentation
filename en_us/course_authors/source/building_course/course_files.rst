@@ -40,8 +40,9 @@ Students can see a file only if you create a link to it.
    avoid using file names that contain information about the file contents that
    should not be shared, for example, Answerkey.pdf.
 
-.. warning:: 
-   For PDF and image files, edX recommends that you use standard compression tools to reduce the file size before adding them to your course.
+.. warning::
+   For PDF and image files, edX recommends that you use standard compression
+   tools to reduce the file size before you add them to your course.
 
    If you have files that are larger than 50 MB after compression and need them
    for your course, contact your edX program manager.
@@ -136,14 +137,12 @@ visible. The list remains in the current sort order.
    * - **Type**
      - **File Types Include**
    * - Images
-
-     - .gif, ,ico, .jpg, .jpeg, .png, .tif, .tiff.
-
-   * - Documents
-     - .pdf, .txt, MS Office and Open Office documents, presentations, or
-       spreadsheets.
+     - .gif, ,ico, .jpg, .jpeg, .png, .tif, or .tiff
+   * - Documents 
+     - .pdf, .txt, Microsoft Office and Open Office documents, presentations, or
+       spreadsheets
    * - Other
-     - Files not included in the other types, such as .html, .js, .sjson.
+     - Files not included in the other types, such as .html, .js, or .sjson
 
 
 To filter the list of files by type:
@@ -176,7 +175,7 @@ You can navigate through the pages in these ways:
 * Use the **<** and **>** buttons at the top and bottom of the list to navigate
   to the previous and next pages.
 
-* At the bottom of the page, the first number in the page range is editable.
+* At the bottom of the page, you can edit the first number in the page range.
   Click the number to place your cursor in the field, then enter the page number
   you want to jump to.
 
