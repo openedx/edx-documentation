@@ -170,11 +170,10 @@ in use in the course:
 Edit a Group Configuration
 =============================
 
-.. important:: 
-  You can change the name of a group configuration at any time. However, before
-  you modify any other characteristics of a group that is inside a group
-  configuration currently being used in a running course, review `Guidelines
-  for Modifying Group Configurations`_.
+.. important:: You can change the name of a group configuration at any time.
+   However, before you modify any other characteristics of a group configuration
+   that is currently used in a running course, review `Guidelines for Modifying
+   Group Configurations`_.
 
 #. On the **Group Configurations** page, hover over the group configuration and
    click **Edit**.

@@ -40,10 +40,10 @@ experiment to be independent and use a different grouping.
   independent, then the experiments must use different groupings so that
   students are randomly assigned for each experiment.
 
-To determine the available groupings of students, you :ref:`set up group
-configurations using Studio <Set up Group Configurations in edX Studio>` or
-:ref:`using XML <Set Up Group Configuration for OLX Courses>`.
+To determine the available groupings of students, you set up group
+configurations :ref:`using Studio <Set up Group Configurations in edX Studio>`
+or :ref:`using XML <Set Up Group Configuration for OLX Courses>`.
 
-You then select which group configuration to use when you :ref:`add a content
-experiment using Studio <Add a Content Experiment in Studio>` or :ref:`using XML
-<Add a Content Experiment in OLX>`.
+You then select which group configuration to use when you add a content
+experiment :ref:`using Studio <Add a Content Experiment in Studio>` or
+:ref:`using XML <Add a Content Experiment in OLX>`.

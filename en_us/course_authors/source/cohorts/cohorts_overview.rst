@@ -8,10 +8,10 @@ Using Cohort Groups in your Courses
 By :ref:`setting up cohort groups<Enabling and Configuring Cohorts>` in a
 course, you create smaller communities of students. You can design different
 course experiences for students in different cohort groups. In discussion topics
-that are divided by cohorts, students can also communicate and share experiences
-privately within the cohort group that they are assigned to. Cohort-only
-discussion opportunities can help students develop a sense of community, provide
-specialized experiences, and encourage deeper, more meaningful course
+that are divided by cohort group, students can also communicate and share
+experiences privately within the cohort group that they are assigned to. Cohort-
+only discussion opportunities can help students develop a sense of community,
+provide specialized experiences, and encourage deeper, more meaningful course
 involvement.
 
 If you use cohort groups in your course, you define a set of cohort groups to
@@ -33,7 +33,7 @@ For more information about using cohort groups in courses, see:
 
 * :ref:`Enabling and Configuring Cohorts`
 
-* :ref:`Setting Up Discussions in Cohorted Courses<Set up Discussions in Cohorted Courses>`
+* :ref:`Setting Up Discussions in Courses with Cohort Groups<Set up Discussions in Cohorted Courses>`
 
 * :ref:`Moderating Discussions for Cohorts`
 
