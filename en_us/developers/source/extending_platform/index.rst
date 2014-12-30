@@ -5,6 +5,7 @@ Extending the edX Platform
 .. toctree::
     :maxdepth: 2
 
-    extending.rst
+    extending
+    xblocks
     javascript
     js_template_example

@@ -245,7 +245,7 @@ XML for Custom JavaScript Applications
 The problem component XML that you define in Studio to provide students with a
 JavaScript application has the following structure:
 
-.. code-block::
+.. code-block:: xml
 
     <problem>
         <!-- Optional script tag for summative assessments -->

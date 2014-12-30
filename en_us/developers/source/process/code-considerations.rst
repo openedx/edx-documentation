@@ -37,7 +37,7 @@ Operational Impact
   provision anything new when new courses launch? when new schools start? etc....
 * Has the feature been tested using a production configuration with vagrant?
 
-See also: :doc:`deploy-new-service`
+See also: :ref:`Deploy a New Service`.
 
 Documentation/Training/Support
 ==============================
