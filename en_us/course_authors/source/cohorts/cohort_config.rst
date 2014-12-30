@@ -278,7 +278,7 @@ The requirements for the .csv file are summarized in this table.
 
     * - Header row
       - You must include a header row, with column names exactly as
-        specified in "Columns" below.
+        specified in "Columns" below, including case. 
     * - One or two columns identifying students      
       - You must include at least one column identifying students: 
         either "Email" or "Username", or both. 
@@ -297,7 +297,7 @@ The requirements for the .csv file are summarized in this table.
         The specified cohort groups must already exist in Studio.
 
     * -                        
-      - Columns with headings other than "Email", "Username" and "Cohort" are
+      - Columns with headings other than "email", "username" and "cohort" are
         ignored.
 
 Follow these steps to assign students to cohort groups by uploading a .csv file.     
