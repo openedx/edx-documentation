@@ -32,11 +32,11 @@ You can change experiment group names at any time.
 Removing Experiment Groups from Group Configurations
 ==========================================================
 
-After a course in which you are running a content experiment has started, you
-may find that students in a specific experiment group are having difficulties or
-a poor experience. In this situation, you can remove the experiment group from
-the group configuration. Content that was specified for that experiment group is
-then no longer visible to students.
+After a course in which you are running a content experiment has started,
+students in a specific experiment group might have difficulties with the content
+or with the course experience. In this situation, you can remove the experiment
+group from the group configuration. Content that was specified for that
+experiment group is then no longer visible to students.
 
 Students in the removed experiment group are reassigned evenly to one of the
 other experiment groups in the group configuration. Any problems that these

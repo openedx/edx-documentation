@@ -93,8 +93,8 @@ Experiment group assignments are:
 * Evenly distributed
   
   The edX Platform keeps track of the size of experiment groups, and assigns new
-  students to groups evenly. For example, if there are two experiment groups in
-  a configuration, each group includes 50% of the students in the course; if you
+  students to groups evenly. For example, if you have two experiment groups in a
+  configuration, each group includes 50% of the students in the course; if you
   have four experiment groups, each group includes 25% of the students.
 
 * Permanent
@@ -147,7 +147,7 @@ content experiments. Students do not see the group configuration name.
    least one group.
 
   * Modify group names as needed. You see group names in the unit page in
-    Studio; students do not see group names.       
+    Studio, but group names are not visible to students.       
   * Click **Add another group** to include another group as part of
     the configuration. 
   * Click the **X** to the right of an existing group to remove it from the
@@ -236,17 +236,17 @@ View a Group Configuration from an Experiment
 ===============================================
 
 When working with a content experiment, you can view details about the group
-configuration used by that experiment.
+configuration used by that experiment in two ways:
 
-In a unit that contains a content experiment, in the content experiment block,
-click the name of the group configuration.
+* In a unit that contains a content experiment, in the content experiment block,
+  click the name of the group configuration.
 
 .. image:: ../Images/content_experiment_group_config_link.png
  :alt: Content experiment in the unit page with the group configuration link
      circled
 
-Or, at the top of the content experiment page, click the name of the group
-configuration.
+* At the top of the content experiment page, click the name of the group
+  configuration.
 
 .. image:: ../Images/content_experiment_page_group_config_link.png
  :alt: Content experiment page with the group configuration link circled
