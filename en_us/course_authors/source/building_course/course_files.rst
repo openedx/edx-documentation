@@ -137,7 +137,7 @@ visible. The list remains in the current sort order.
    * - **Type**
      - **File Types Include**
    * - Images
-     - .gif, ,ico, .jpg, .jpeg, .png, .tif, or .tiff
+     - .gif, .ico, .jpg, .jpeg, .png, .tif, or .tiff
    * - Documents 
      - .pdf, .txt, Microsoft Office and Open Office documents, presentations, or
        spreadsheets
