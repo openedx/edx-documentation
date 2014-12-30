@@ -15,15 +15,17 @@ applicable):
 
 #. :ref:`Enable the cohort feature<Enable Cohorts>`.
 
-#. Determine the strategy you want to use to assign students to cohort groups:
 
+#. Determine the method you want to use to assign students to cohort groups:
+   
   * :ref:`Define automatic cohort groups<Define Auto Cohort Groups>`
 
   * :ref:`Define manual cohort groups<Define the Manual Cohort Groups>` and
     :ref:`manually assign students<Assign Students to Cohort Groups Manually>`
     to them
 
-  * Do both.
+  * :ref:`Use a combination of automatic and manual assignment<Hybrid
+    Assignment>`.
 
 3. Optionally, identify the discussion topics that you want to be divided by
    cohort.
