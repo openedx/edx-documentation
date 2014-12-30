@@ -1,14 +1,14 @@
 .. _Enabling and Configuring Cohorts:
 
 ############################################
-Enabling and Configuring the Cohort Feature
+Enabling and Configuring the Cohorts Feature
 ############################################
 
 To support cohorts in your course, you select a strategy for assigning your
 students to cohort groups: automated assignment, manual assignment, or a hybrid
 approach. See :ref:`Options for Assigning Students to Cohorts`. You also decide
-whether to change any of the course-wide discussion topics so that they are
-divided by cohort instead of unified for all students.
+whether course-wide and content-specific discussion topics should be divided by
+cohort or unified for all students.
 
 After you select a strategy, you complete these configuration steps (as
 applicable):
@@ -16,18 +16,24 @@ applicable):
 #. :ref:`Enable the cohort feature<Enable Cohorts>`.
 
 #. Based on the strategy you select for assigning students to cohort groups:
-   
-  * :ref:`Define the auto cohort groups<Define Auto Cohort Groups>`.
 
+  * :ref:`Define the auto cohort groups<Define Auto Cohort Groups>`.
   * :ref:`Define the manual cohort groups<Define the Manual Cohort Groups>` and
     then :ref:`assign students<Assign Students to Cohort Groups
     Manually>` to them.
-
   * Do both. 
 
-3. Identify the :ref:`course-wide discussion topics<Identifying Private
-   CourseWide Discussion Topics>` that you want to be divided by cohort. This
-   procedure is optional.
+3. Optionally, identify the discussion topics that you want to be divided by
+   cohort.
+   
+  * If you want :ref:`course-wide discussion topics to be divided by
+    cohort<Identifying Private CourseWide Discussion Topics>`, you need to complete
+    some configuration tasks.
+
+  * In contrast, if you want content-specific discussion topics to be divided
+    by cohort, you do not need to take any action. Instead, you need to complete
+    some configuration tasks only if you want :ref:`content-specific discussion
+    topics to be unified<Make ContentSpecific Discussion Topics Unified>`.
 
 You complete these procedures in Studio and on the Instructor Dashboard. For an
 optimal student experience, configuration of the cohort feature should be as
@@ -35,6 +41,7 @@ complete as possible prior to the start date of your course.
 
 If you need to make changes to the way you have configured the cohort feature
 while your course is running, please see :ref:`Altering Cohort Configuration`.
+
 
 .. _Enable Cohorts:
 
@@ -61,6 +68,11 @@ Enabling the Cohort Feature
 You can then :ref:`implement the automated assignment strategy<Implementing the
 Automated Assignment Strategy>`, :ref:`implement the manual assignment
 strategy<Implementing the Manual Assignment Strategy>`, or both.
+
+For a report that includes the cohort group assignment for every enrolled
+student, review the student profile information for your course. See
+:ref:`View and download student data`.
+
 
 .. _Implementing the Automated Assignment Strategy:
 
@@ -141,9 +153,8 @@ Any student who is not already assigned to a cohort group will be randomly
 assigned to one of the auto cohort groups when she visits any of the course
 discussion topics.
 
-For a report that includes the cohort group assignment for every enrolled
-student, review the student profile information for your course. See
-:ref:`View and download student data`.
+
+
 
 .. _Implementing the Manual Assignment Strategy:
 
@@ -151,8 +162,8 @@ student, review the student profile information for your course. See
 Implementing the Manual Assignment Strategy
 ***************************************************
 
-To implement manual assignment of students to cohort groups, you define the
-manual cohort groups and then assign students to them. 
+To implement manual assignment of students to cohort groups, you define manual
+cohort groups and then assign students to them.
 
 You complete these procedures if you are using either the manual or hybrid
 assignment strategy for your course. For more information, see :ref:`All Manual
@@ -188,6 +199,7 @@ are divided by cohort. See :ref:`Read the Cohort Indicator in Posts`.
 
 #. Supply a name for the group, and then click **Save** below the **New Cohort
    Name** field.
+
 
 .. _Assign Students to Cohort Groups Manually:
 
@@ -277,11 +289,11 @@ The requirements for the .csv file are summarized in this table.
         See :ref:`Creating a Unicode Encoded CSV File`.
 
     * - Header row
-      - You must include a header row, with column names exactly as
-        specified in "Columns" below.
+      - You must include a header row, with column names that exactly match those 
+        specified in "Columns" below, including case.
     * - One or two columns identifying students      
       - You must include at least one column identifying students: 
-        either "Email" or "Username", or both. 
+        either "email" or "username", or both. 
 
         If both the username and an email address are provided for a student,
         the email address has precedence. 
@@ -291,13 +303,13 @@ The requirements for the .csv file are summarized in this table.
 
     * - One column identifying the cohort group
             
-      - You must include one column named "Cohort" to identify the cohort group
+      - You must include one column named "cohort" to identify the cohort group
         to which you are assigning each student.
 
         The specified cohort groups must already exist in Studio.
 
     * -                        
-      - Columns with headings other than "Email", "Username" and "Cohort" are
+      - Columns with headings other than "email", "username" and "cohort" are
         ignored.
 
 Follow these steps to assign students to cohort groups by uploading a .csv file.     
@@ -364,7 +376,6 @@ Unicode characters are correctly saved and displayed.
    application such as Google Sheets, LibreOffice, or Apache OpenOffice.
 
 
-
 .. _Altering Cohort Configuration:
 
 *****************************************************************
@@ -388,6 +399,7 @@ consequences of these actions:
 * :ref:`Deleting a cohort group<Deleting a Cohort Group>`
 
 * :ref:`Disabling the cohort feature<Disable the Cohort Feature>`
+
 
 .. _Changing Student Cohort Group Assignments:
 
@@ -416,6 +428,7 @@ To verify the cohort group assignments for your students, download the
 If changes are needed, you can :ref:`assign students<Assign Students to Cohort 
 Groups Manually>` to different cohort groups manually on the **Membership** 
 page of the Instructor Dashboard.
+
 
 .. _Renaming a Cohort Group:
 
@@ -457,6 +470,7 @@ results.
   groups are listed as manual cohort groups on the **Membership** page of the
   Instructor Dashboard.
 
+
 .. _Deleting a Cohort Group:
 
 ==========================
@@ -485,6 +499,7 @@ results.
 * The groups are listed as manual cohort groups on the **Membership** page of
   the Instructor Dashboard, and you can continue to assign students to them
   manually.
+
 
 .. _Disable the Cohort Feature:
 

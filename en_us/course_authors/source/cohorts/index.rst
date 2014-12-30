@@ -11,3 +11,4 @@ Including Student Cohorts
    cohort_config
    cohorts_setup_discussions
    cohorts_manage_discussions
+   
