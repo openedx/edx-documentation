@@ -6,7 +6,7 @@ VitalSource E-Reader Tool
 
 The VitalSource Bookshelf e-reader tool provides your students with easy access to electronic books. In addition to reading text, students can quickly browse and search content (including figures and notes), use multiple highlighters, create and manage notes, and copy notes into external documents.
 
-.. image:: /Images/VitalSource.png
+.. image:: ../../../shared/building_running_course/Images/VitalSource.png
    :width: 500
    :alt: VitalSource e-book with highlighted note
 
@@ -64,7 +64,7 @@ Source.
 #. Enter ``“lti”``. Make sure to include the quotation marks, but not the
    period.
 
-   .. image:: /Images/LTIPolicyKey.png
+   .. image:: ../../../shared/building_running_course/Images/LTIPolicyKey.png
     :alt: Image of the Advanced Module List key in the Advanced Settings page, with the LTI value added
 
   .. note:: If the value field already contains text, place your cursor directly after the closing quotation mark for the final item, and then enter a comma followed by ``“lti”`` (make sure that you include the quotation marks). For example, the value for **Advanced Module List** may resemble the following:

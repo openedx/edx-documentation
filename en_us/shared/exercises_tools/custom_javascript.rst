@@ -15,7 +15,7 @@ The JS Input problem that you create must use HTML, JavaScript, and cascading st
 (CSS). You can use any application creation tool, such as the Google Web Toolkit (GWT), to
 create your JS Input problem.
 
-.. image:: /Images/JavaScriptInputExample.png
+.. image:: ../../../shared/building_running_course/Images/JavaScriptInputExample.png
  :alt: Image of a JavaScript Input problem
 
 .. caution:: 

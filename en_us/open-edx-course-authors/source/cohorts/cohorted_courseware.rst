@@ -1,0 +1,1 @@
+.. include:: ../../../shared/building_running_course/cohorts/cohorted_courseware.rst
