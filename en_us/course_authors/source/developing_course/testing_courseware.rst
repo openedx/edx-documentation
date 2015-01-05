@@ -15,6 +15,10 @@ To test your content, you can:
 * `Preview Course Content`_
 * `View Your Live Course`_
 
+.. note:: If you use content groups in your course to designate content as
+  visible only to particular students, see :ref:`Preview Cohort Specific
+  Courseware`.
+
 For information about setting up a beta test for your course, see
 :ref:`Beta_Testing`.
 
@@ -27,10 +31,16 @@ Preview Course Content
 You preview course content before you publish it to test how it will look to
 students.
  
-When you preview course content, you see the latest course content as
-configured in Studio. You see content in units with the publishing status
-:ref:`Draft (Never Published)`, :ref:`Draft (Unpublished Changes)`, or
-:ref:`Visible to Staff Only`. 
+When you preview course content, you see the latest course content as configured
+in Studio. You see content in units with the publishing status :ref:`Draft
+(Never Published)`, :ref:`Draft (Unpublished Changes)`, or :ref:`Visible to
+Staff Only`. 
+
+If you use content groups and have designated components in a unit as visible
+only to particular groups, the visibility status indicates that some content in
+the unit is visible only to particular groups. For information about previewing
+course content if you use content groups to designate content as visible only to
+particular groups, see :ref:`Preview Cohort Specific Courseware`.
 
 For example, you :ref:`publish a unit<Publish a Unit>` with a video and
 discussion:
@@ -78,7 +88,9 @@ View Your Live Course
 
 When you are working in Studio, you can test your course by viewing it in the
 LMS. In the LMS, you can see your course as a student sees it. You can see your
-course in `Staff View`_ or `Student View`_
+course in `Staff View`_ or `Student View`_. If you are using content groups to
+designate specific content as visible only to particular content groups, you can
+see your course as a content group would see it.
 
 While you work in Studio, you can switch to your live course to see how your
 course appears to students in two ways.
@@ -123,19 +135,24 @@ date of a subsection, members of the course team can work through the problems
 to verify that the correct answer gets a green check for correct, and that any
 answer other than the correct one gets a red X for incorrect.
 
-=================
+============
 Student View
-=================
+============
 
-When viewing your course in the LMS, you can switch to student view to see the
-content exactly how students will see it.
+When viewing your course in the LMS, you can use the **Student** view to see the
+course with all course content that is intended for all students.
 
-To switch from **Staff View** to **Student View** and back again, click **Staff
-View** or **Student View** in the upper right corner.
+.. note:: If you have enabled your course for cohorts and have designated some
+  content as visible only to certain content groups, you can select a content
+  group from the **View Course As** drop down list to see the content exactly
+  as a student in a cohort associated with that content group will see it. For
+  details, see :ref:`Preview Cohort Specific Courseware`.
 
-.. image:: ../Images/Live_Course_Student_View.png
- :alt: Image of the Courseware page in a live course with Student View
-     indicated at top right
+To switch to the **Student** view, click **View this course as** and select
+**Student** from the drop down list.
+
+.. image:: ../Images/test-view-as-student.png  
+   :alt: Image of the View Course As drop down list with Staff, Student, and named content group options
 
 In **Student View**:
 

@@ -9,6 +9,7 @@ Including Student Cohorts
    
    cohorts_overview
    cohort_config
+   cohorted_courseware
    cohorts_setup_discussions
    cohorts_manage_discussions
    
