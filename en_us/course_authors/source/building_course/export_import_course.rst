@@ -64,10 +64,10 @@ Import a Course
 	**You cannot undo a course import**. We recommend that you first export the
 	current course, so you have a backup copy of it.
  
-There are several reasons you may want to import a course:
+There are several reasons you may want to import a course. For example:
 
-* To replace an existing course 
-* To load a course you developed outside of Studio
+* To load a course you developed outside of Studio.
+* To run a new version of a course that was not created in Studio.
 
 
 The course that you import must be in a .tar.gz file (that is, a .tar file

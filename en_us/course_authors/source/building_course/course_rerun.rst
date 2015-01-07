@@ -39,6 +39,8 @@ any way.
    * - Course team privileges, including admins, discussion moderators, beta
        testers
      - No. Only the user who created the new course has access to it.
+   * - Manually created cohort groups
+     - No. 
    * - Student answers, progress, and grading data
      - No.
    * - Certificates
@@ -63,7 +65,7 @@ Before you re-run a course:
   permission to create courses in Studio. See :ref:`Use Studio on Edge`.
 
 * For a course that is hosted on the `edx.org`_ site, contact your Program
-  Manager. Your Program Manager will create the new course using the re- run
+  Manager. Your Program Manager will create the new course using the re-run
   feature, and then work with you to complete the steps to :ref:`update the new
   course<Update the New Course>`.
 

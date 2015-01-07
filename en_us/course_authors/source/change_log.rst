@@ -3,6 +3,19 @@ Change Log
 ############
 
 *****************
+January, 2015
+*****************
+
+.. list-table::
+   :widths: 10 70
+   :header-rows: 1
+
+   * - Date
+     - Change
+   * - 1/7/15
+     - Added the :ref:`Rerun a Course` chapter.
+
+*****************
 December, 2014
 *****************
 
