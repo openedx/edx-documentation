@@ -10,12 +10,6 @@ gaps and errors, and mimic the student experience. To gather information about
 the overall experience of taking a course, you can also conduct a beta test of
 the course.
 
-Beta testers have early access to the course. Beta testers are not members of
-the course team or staff: they don't have information about "how it's supposed
-to work". They use their own computers and internet connections to view videos,
-follow links, and complete problems. They interact with the course exactly as
-students will, but see the course materials before other enrolled students do.
-
 * :ref:`Beta_Process`
 * :ref:`Qualities_Testers`
 * :ref:`What_Test`
@@ -61,8 +55,31 @@ course.
 .. _Qualities_Testers:
 
 ***************************************
-Qualities of Good Beta Testers
+The Beta Testing Role 
 ***************************************
+
+Beta testers have early access to the course. Beta testers are not members of
+the course team or staff: they don't have information about "how it's supposed
+to work". They use their own computers and Internet connections to view
+videos, follow links, and complete problems. They interact with the course as
+students will to find, and make, mistakes.
+
+However, beta testers are not the same as other students in the course,
+either. They have privileged access to the course and have more time to review
+and complete the course materials than the enrolled students do. Course
+discussions are not open before the course start date, so beta testers cannot
+participate in community conversations. As a result of these differences, beta
+testers do not receive certificates when they complete a course.
+
+.. note:: If one of your beta testers wishes to earn a certificate for the 
+ course, she must create a separate user account with a different username and
+ email address. She can then use that separate, non-privileged user account to
+ enroll in the course and repeat the work, completing assignments and exams
+ when they are available to all students.
+
+==================================
+Qualities of Good Beta Testers
+==================================
 
 A beta test is valuable in part because it is unscripted. Your beta testers are
 not following a predetermined series of steps, or using a particular computer
@@ -123,7 +140,8 @@ Beta testers should interact with everything in the course.
 
 As they work, beta testers log issues and questions for the course team.
 
-.. note:: Beta testers can make discussion posts and wiki contributions. You may want to ask your testers not to make posts or contributions about unreleased courseware, and alert your discussion administration team to watch for posts from the beta testers.
+.. note:: Beta testers cannot read or make discussion posts or contribute to 
+ the course wiki.
 
 .. _How_Testers_See_Course:
 
@@ -138,8 +156,9 @@ To beta test a course, you:
 
 * Identify beta testers.
 
-Designated beta testers see course content before students can. Beta testers
-access courseware:
+Designated beta testers see course content before students can. The matrix
+that follows shows the course content that beta testers can access earlier
+than other students.
 
 +-------------------------------------------+------+------+
 |                                           | Yes  |  No  |
@@ -158,7 +177,8 @@ access courseware:
 +-------------------------------------------+------+------+
 
 The course team can continue to add content in Studio after the beta test
-begins. When new content is ready for testing, be sure to :ref:`publish the unit<Publish a Unit>`.
+begins. When new content is ready for testing, be sure to :ref:`publish the
+unit<Publish a Unit>`.
 
 ================================
 Define When the Beta Test Starts
@@ -215,7 +235,7 @@ the beta testers in the courseware.
 .. _Add_Testers:
 
 *********************************
-Add Beta Testers 
+Adding Beta Testers 
 *********************************
 
 Before you can add beta testers:
@@ -271,7 +291,8 @@ To add multiple beta testers:
    enrolled (or auto enrolled) in the course follows.
 
 .. image:: ../Images/Beta_tester_email.png
-  :alt: "You have been invited to be a beta tester for <course name> at <URL>. Visit <link> to join the course and begin the beta test."
+  :alt: "You have been invited to be a beta tester for {course name} at {URL}. 
+        Visit {link} to join the course and begin the beta test."
 
 6. Click **Add beta testers**.
 
@@ -279,7 +300,9 @@ To remove the Beta Tester role from one or more users, enter their email
 addresses in the **Batch Add Beta Testers** field and then click **Remove beta
 testers**. 
 
-.. note:: The **Auto Enroll** option has no effect when you click **Remove beta testers**. The user's role as a beta tester is removed; course enrollment is not affected.
+.. note:: The **Auto Enroll** option has no effect when you click **Remove 
+ beta testers**. The user's role as a beta tester is removed; course
+ enrollment is not affected.
 
 ================================
 Add Beta Testers Individually
@@ -307,7 +330,7 @@ user's email address.
 .. _Issue_Reporting_During_Course:
 
 *********************************
-Issue Reporting During a Course
+Reporting Issues During a Course
 *********************************
 
 Despite the efforts of the course team and the beta testers, additional
