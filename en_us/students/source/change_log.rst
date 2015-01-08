@@ -26,7 +26,8 @@ Change Log
    * - 11/10/14
      - Added :ref:`Video Player` topic.
    * - 11/6/14
-     - Updated :ref:`Scientific Notation` and :ref:`Constants` in :ref:`Math Formatting`.
+     - Updated :ref:`Scientific Notation` and :ref:`Constants` in :ref:`Math
+       Formatting`.
    * - 10/24/14
      - Added :ref:`Course Discussions` section.
 
