@@ -415,9 +415,9 @@ viewer.
 
 .. _rescore:
 
-===================================================
-Rescore Student Submissions for a Problem
-===================================================
+==========================================
+Rescore Student Submissions for a Problem 
+==========================================
 
 Each problem that you define for your course includes a correct answer, and may
 also include a tolerance or acceptable alternatives. If you decide to make a
@@ -484,9 +484,9 @@ See :ref:`find_URL`. To rescore a problem:
 
 .. _reset_attempts:
 
-===================================================
-Reset Student Attempts for a Problem
-===================================================
+=====================================
+Reset Student Attempts for a Problem 
+=====================================
 
 When you create a problem, you can limit the number of times that a student can
 try to answer that problem correctly. If unexpected issues occur for a problem,
@@ -551,9 +551,9 @@ attempts for all students:
 
 .. _delete_state:
 
-=============================================
+==================================
 Delete Student State for a Problem
-=============================================
+==================================
 
 To delete a student's entire history for a problem from the database, you need
 that student's username or email address. 
