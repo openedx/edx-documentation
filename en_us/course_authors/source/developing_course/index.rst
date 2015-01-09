@@ -13,6 +13,9 @@ Course Content Index`.
 For information on creating exercises and tools, see :ref:`Exercises and Tools
 Index`.
 
+For information on creating content libraries from which you can randomly draw
+content for randomized assigments, see :ref:`Content Libraries`.
+
 .. toctree::
    :maxdepth: 2
    
