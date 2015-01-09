@@ -275,12 +275,11 @@ Block advanced component.
 7. Click **Save** when you have finished specifying the details of your
    randomized content block.
 
+
 To view the list of matching components in the library, see :ref:`View the Matching Contents of a Randomized Content Block`.
 
 To view the entire contents of the library in Studio, see :ref:`View the Contents of a Library`.
    
-
-
 
 .. _View the Matching Contents of a Randomized Content Block:
 
@@ -300,7 +299,8 @@ problems that exist in the referenced library or libraries.
 #. In the randomized content block, click the **View** icon.
    
    You see all components that match the specifications in the randomized
-   content block. 
+   content block. The text at the top of the list of components indicates how
+   many of these components are randomly selected and provided to each student.
 
 To view the contents of a library in Studio, see :ref:`View the Contents of a
 Library`.
