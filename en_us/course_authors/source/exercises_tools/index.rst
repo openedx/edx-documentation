@@ -47,6 +47,7 @@ Course Content Index`.
    problem_with_hint
    problem_in_latex
    protein_builder
+   randomized_content_blocks
    text_input
    word_cloud
    custom_python
