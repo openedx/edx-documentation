@@ -41,7 +41,7 @@ Create a New Course
    (http://help.edge.edx.org). Additionally, because this information becomes
    part of your course URL, the total number of characters in the following
    four fields must be 65 or fewer.
-
+   
   .. image:: ../Images/new_course_info.png
      :alt: Image of the course creation page
 
@@ -49,11 +49,8 @@ Create a New Course
     may be "Sets, Maps, and Symmetry Groups". Use title capitalization for the
     course title.
 
-  * For **Organization**, enter the identifier for your university. For
-    example, enter HarvardX or MITx. Do not include spaces or special
-    characters.
-
-.. is it ok to include the Harvard and MIT examples?
+  * For **Organization**, enter the identifier for your university or
+    organization. Do not include spaces or special characters.
 
   * For **Course Number**, enter both a subject abbreviation and a number. For
     example, for public health course number 207, enter **PH207**. For math
@@ -71,7 +68,30 @@ Create a New Course
     that you define for the course. See :ref:`Set Important Dates for Your
     Course` for more information.
 
-4. Click **Save.**
+4. Set the default licensing information for the course:
+
+  * Select **All Rights Reserved** to indicate to students that you own the
+    copyright for course content.
+
+  * Select **Creative Commons** to grant others to right to share and use
+    course content. You must then select the Creative Commons license options
+    to apply:
+
+    SCREEN SHOT WHEN UI FIXED
+
+    See :ref:`Creative Commons Licensing` for more information about license
+    options.
+
+  The license options you select control the copyright notice students see in
+  the courseware.
+
+  You can :ref:`change the default content license <Set Content Licensing>` in
+  the **Settings & Details** page.
+
+  You can also set the license for each video in the course. See :ref:`Video
+  Advanced Options` for more information.
+
+5. Click **Save.**
 
 You then see the empty Course Outline.
 

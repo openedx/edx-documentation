@@ -26,8 +26,8 @@ See:
 * :ref:`Add a Course Image`
 * :ref:`Add a Course Video`
 * :ref:`Set Course Requirements`
+* :ref:`Set Content Licensing`
 * :ref:`A Template For Course Overview`
-
 
 .. _Edge: http://edge.edx.org
 .. _edX.org: http://edx.org
@@ -331,13 +331,46 @@ To add a course introduction video:
 ************************
 Set Course Requirements
 ************************
+
 The estimated Effort per Week appears at the bottom of the course summary page.
 
 #. From the **Settings** menu, select **Schedule & Details**.
 #. Scroll down to the **Requirements** section.
 #. In the **Hours of Effort per Week** field, enter the number of hours you
    expect students to work on this course each week.
-#. View your course summary page to test how the requirements will appear to students.
+#. View your course summary page to test how the requirements will appear to
+   students.
+
+
+.. _Set Content Licensing:
+
+************************************************
+Set Content Licensing
+************************************************
+
+When you :ref:`create a course <Create a New Course>`, you set the default
+licensing information. You can change the default setting in the **Schedule &
+Details** page.
+
+.. image:: ../Images/course_license.png
+ :alt: Set course licensing in the Schedule & Details page.
+
+* Select **All Rights Reserved** to indicate to students that you own the
+  copyright for course content.
+
+* Select **Creative Commons** to grant others to right to share and use course
+  content. You must then select the Creative Commons license options to apply:
+
+  SCREEN SHOT WHEN UI FIXED
+
+  See :ref:`Creative Commons Licensing` for more information about license
+  options.
+
+  The license options you select control the copyright notice students see in
+  the courseware.
+
+  You can also change the license for each video in the course. See :ref:`Video
+  Advanced Options` for more information.
 
 .. _A Template For Course Overview:
 
@@ -345,7 +378,6 @@ The estimated Effort per Week appears at the bottom of the course summary page.
  A Template For Your Course Overview
 ************************************************
 
-  
 Replace the placeholders in the following template with your information.
 
 .. code-block:: html
