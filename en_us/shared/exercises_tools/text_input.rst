@@ -29,7 +29,7 @@ switch back to the Simple Editor from the Advanced Editor. Therefore, you
 might want to format the problem as completely as possible before you begin to
 use the Advanced Editor.
 
-.. _Use the Simple Editor to Create a Dropdown Problem:
+.. _Use the Simple Editor to Create a Text Input Problem:
 
 ========================================================================
 Use the Simple Editor to Create a Text Input Problem

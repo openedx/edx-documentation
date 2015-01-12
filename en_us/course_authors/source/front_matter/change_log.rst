@@ -12,8 +12,11 @@ May 2015
 
    * - Date
      - Change
+   * - 28 May 2015
+     - Added :ref:`Licensing a Course`.
    * - 19 May 2015
-     - Added documentation for the new :ref:`Problem Grade Report<problem_report>`.  
+     - Added documentation for the new :ref:`Problem Grade
+       Report<problem_report>`.
    * - 13 May 2015
      - Updated all sections in :ref:`Getting Started Index` and :ref:`Setting
        up Your Course Index` for accessibility.

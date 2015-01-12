@@ -78,7 +78,7 @@ problem, follow these steps.
 #. To identify the problem's answer, select the answer text and then select
    **Numerical Input** from the toolbar. An equals sign appears
    next to the answer.
-7. Optionally, specify a margin of error, or tolerance. You can specify a
+#. Optionally, specify a margin of error, or tolerance. You can specify a
    percentage, number, or range.
 
    * To specify a percentage on either side of the correct answer, after the
@@ -96,7 +96,7 @@ problem, follow these steps.
      **[5, 8)**, correct answers can be 5, 6, and 7, but not 8. Likewise, if
      you specify **(5, 8]**, correct answers can be 6, 7, and 8, but not 5.
 
-8. To provide an explanation, select the explanation text and then select 
+#. To provide an explanation, select the explanation text and then select 
    **Explanation** from the toolbar. ``[explanation]`` appears before
    and after the explanation text.
 #. Select **Settings** and provide an identifying **Display Name** for the

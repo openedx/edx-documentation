@@ -8,15 +8,14 @@ This topic describes how to set details about your course in Studio. The
 details you set affect the information learners see on their dashboards. For
 more information, see :ref:`SFD Dashboard Settings Profile`.
 
-* `The Course About Page`_
-* `The Learner Dashboard`_
-* `Describe Your Course`_
-* `Add a Course Image`_
-* `Add a Course Video`_
-* `Set Course Effort Expectations`_
-* `A Template For Your Course Overview`_
+.. contents:: Section Contents
+  :local:
+  :depth: 1
 
 For information about setting important dates, see :ref:`Scheduling Your
+Course`.
+
+For information about setting the course license, see :ref:`Licensing a
 Course`.
 
 .. _The Course About Page:
@@ -262,4 +261,3 @@ Replace the placeholders in the following template with your information.
       </article>
     </section>
   </section>
-

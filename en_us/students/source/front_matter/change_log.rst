@@ -12,6 +12,8 @@ Change Log
 
    * - Date
      - Change
+   * - 28 May 2015
+     - Added the :ref:`Course and Video Licenses` topic.
    * - 22 Apr 2015
      - Added :ref:`SFD Dashboard Settings Profile` topic with profile and
        account settings information.
