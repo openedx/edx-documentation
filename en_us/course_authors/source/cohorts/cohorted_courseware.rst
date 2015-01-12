@@ -35,7 +35,7 @@ In the LMS:
 #. :ref:`Assign students to cohorts<Options for Assigning Students to Cohorts>`.  
 #. :ref:`Associate one or more cohorts with a content group<Associate Cohorts
    with Content Groups>`.
-#. :ref:`View the Course as a Member of a Content Group`.
+#. :ref:`Preview Cohort Specific Courseware`.
 
 
 .. _Cohorted Courseware Example:
@@ -79,9 +79,9 @@ related video as well as the quiz at the end of each section.
 
 .. _About Content Groups:
 
-***********************
-Content Groups Overview
-***********************
+**************
+Content Groups
+**************
 
 Use content groups to designate specific course content as visible to particular
 cohorts of students. You create content groups and associate them with one or
@@ -103,9 +103,14 @@ Create Content Groups
 *********************
 
 #. In Studio, select **Settings**, then select **Group Configurations**.
-#. On the **Group Configurations** page, click **New content group**.
+ 
+#. On the **Group Configurations** page, click **New content group**. If you
+   have not created any content groups, click **Add your first content
+   group**.
    
-.. add image AddContentGroup.png
+.. image:: ../Images/Cohorts_AddContentGroup.png
+ :width: 600
+ :alt: Button on Group Configurations page for adding first content group
 
 3. Enter a meaningful name for the content group, then click **Create**.
    The page refreshes to show the name of your new content group.
@@ -149,17 +154,22 @@ Content Groups` for details about associating cohorts with content groups.
 
 To specify components as visible only to particular content groups, follow these steps.
 
-#. In Studio, select **Content**, then select **Outline**. For each component
-   that you want to make visible only to a particular content group or groups,
-   click the unit name, then click the **Visibility Settings** icon.
+#. In Studio, select **Content**, then select **Outline**. 
+   
+#. For each component that you want to make visible only to a particular
+   content group or groups, click the unit name, then click the **Visibility
+   Settings** icon.
 
-.. add image VisibiitySettingInUnit.png  
+.. image:: ../Images/Cohorts_VisibilitySettingInUnit.png
+  :alt: Screen capture of unit in course outline with visibility setting icon highlighted 
 
 3. In the **Editing visibility** dialog, select **Specific Content Groups**,
    then select the checkbox for each content group for which you want the current
    component to be visible.
 
-.. add image EditVisibility.png
+.. image:: ../Images/Cohorts_EditVisibility.png
+  :width: 400
+  :alt: Screen capture of unit in course outline with visibility setting icon highlighted 
 
 4. Click **Save**.
 
@@ -167,12 +177,15 @@ The **Visibility Settings** icon for the component is now black, and the
 publishing details for the course section in the sidebar refresh to indicate
 that some content is visible only to particular groups.
 
-.. add image OnlyVisibleToParticularGroups.png
-.. add image VisibilitySomeGroup.png
+.. image:: ../Images/Cohorts_VisibilitySomeGroup.png
+   :alt: Visibility icon is black when visibility for a component is restricted
 
-For details about previewing your course to ensure that each cohorted content
-group correctly sees the content intended for them, see :ref:`View the Course as
-a Member of a Content Group`.
+.. image:: ../Images/Cohorts_OnlyVisibleToParticularGroups.png   
+   :alt: Course outline sidebar shows visibility icon and note indicating that some content in the unit is visible only to particular group.
+
+For details about previewing your course to ensure that students in a cohort
+correctly see the content intended for them, see :ref:`Preview Cohort Specific
+Courseware`.
 
 
 .. _Associate Cohorts with Content Groups:
@@ -206,10 +219,11 @@ To associate a cohort with a content group, follow these steps:
 
 #. From the drop down list, select the content group that you want your cohort
    to be associated with.
-  
-.. add image CohortAssociateWithContentGroup.png   
 
-#. Click **Save**.
+.. image:: ../Images/Cohorts_AssociateWithContentGroup.png
+   :alt: Visibility icon is black when visibility for a component is restricted
+
+7. Click **Save**.
    
    You have now associated your content group with a cohort. Any course content
    that you :ref:`designate as visible to that content group<Specify Components
@@ -258,7 +272,9 @@ You can view the course as a member of these groups:
 #. In the navigation bar at the top of the page, select one of the options in
    the **View this course as** drop down list, as described in the table above.
 
-.. add image ViewCourseAs.png
+.. image:: ../Images/Cohorts_ViewCourseAs.png
+   :alt: Visibility icon is black when visibility for a component is restricted
 
-   The course view refreshes and the content is presented as a member of the
-   selected content group would see it.
+
+The course view refreshes and the content is presented as a member of the
+selected content group would see it.
