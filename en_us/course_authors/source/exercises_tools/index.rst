@@ -48,6 +48,7 @@ Course Content Index`.
    problem_in_latex
    protein_builder
    randomized_content_blocks
+   student_notes
    text_input
    word_cloud
    custom_python
