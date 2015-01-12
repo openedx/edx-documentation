@@ -14,6 +14,7 @@ page, see :ref:`Developing Your Course Index`.
 
    creating_new_course
    setting_up_student_view
+   licensing_course
    course_files
    handouts_updates
    pages
