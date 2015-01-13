@@ -10,11 +10,11 @@ course, you can create different course experiences for students in different
 cohorts. 
 
 You can design your course so that some students are given different content
-than others. You do this by creating content groups in Studio, and designating
-specific components in your course as visible only to one or more content
-groups. Then, if you associate one or more cohorts with a content group, only
-the students in cohorts associated with that content group can see course
-content that you have designated for it.
+than others. You do this by creating :ref:`content groups<About Content Groups>`
+in Studio, and designating specific components in your course as visible only to
+one or more content groups. Then, if you associate one or more cohorts with a
+content group, only the students in cohorts associated with that content group
+can see course content that you have designated for it.
 
 For more details about content groups, see :ref:`About Content Groups`. For an
 example of cohort-specific course content, see :ref:`Cohorted Courseware
@@ -26,16 +26,17 @@ Complete these steps to create cohorted content in your course.
 In Studio:
 
 #. :ref:`Enable cohorts in your course<Enabling and Configuring Cohorts>`.
-#. :ref:`Create content groups<Creating Content Groups>`.
-#. :ref:`Specify Components in Courseware as Visible Only to Certain Content
-   Groups`.
+#. :ref:`Create content groups<Creating Content Groups>`. 
+#. :ref:`Specify components in courseware as visible only to particular content
+   groups<Specify Components in Courseware as Visible Only to Certain Content
+   Groups>`.
      
 In the LMS: 
 
 #. :ref:`Assign students to cohorts<Options for Assigning Students to Cohorts>`.  
 #. :ref:`Associate one or more cohorts with a content group<Associate Cohorts
    with Content Groups>`.
-#. :ref:`Preview Cohort Specific Courseware`.
+#. :ref:`Preview cohort-specific courseware<Preview Cohort Specific Courseware>`.
 
 
 .. _Cohorted Courseware Example:
@@ -44,11 +45,17 @@ In the LMS:
 Example: Cohort-Specific Courseware
 ***********************************
 
-Suppose that you have two cohorts in your course: University Alumni and Current
-University Students. You intend all students to have substantially the same
-course experience, with the exception that only students in the two university-
-related cohorts will receive content that is specific to your university and
-therefore only of interest to them.
+Suppose that you create two :ref:`cohorts<Cohorts Overview>` in your course: University Alumni and
+Current University Students. Students who are not in either of these cohorts are
+automatically placed into a third cohort, the default cohort, when they access
+the courseware or discussion tabs in the course. For more information about
+enabling cohorts in your course and assigning students to cohorts, see
+:ref:`Enabling and Configuring Cohorts`.
+
+You intend all students to have substantially the same course experience, with
+the exception that only students in the two university-related cohorts will
+receive content that is specific to your university and therefore only of
+interest to them.
 
 At the end of every section, you intend to include a video message from various
 university officials, including the university president and the dean of your
@@ -71,10 +78,11 @@ specified in a component's visibility settings, it is visible to all students.
 
 As a final step, you preview the course in the LMS to ensure that students see
 the content that is intended for them. You confirm that when you view the course
-as a student not in either of the cohort groups, you see a quiz at the end of
-each section but not the university-related videos, and when you view the course
-as a student in the "University-Specific Content" group, you see a university-
-related video as well as the quiz at the end of each section.
+in the role of **Student**, in other words, any student not in a content group,
+you see a quiz at the end of each section but not the university-related videos,
+and when you view the course as a student in the "University-Specific Content"
+group, you see a university- related video as well as the quiz at the end of
+each section.
 
 
 .. _About Content Groups:
@@ -83,14 +91,20 @@ related video as well as the quiz at the end of each section.
 Content Groups
 **************
 
-Use content groups to designate specific course content as visible to particular
-cohorts of students. You create content groups and associate them with one or
-more cohorts. Then, in your course outline, for any components that you want to
-make visible only to particular content groups, you select these groups in the
-visibility settings. Each component in your course can be made visible to one or
-more content groups. Any course components that do not have an explicitly
-restricted visibility setting remain visible to all students, regardless of
-their cohort.
+Content groups are virtual groupings of students who will see a particular set
+of course content. You can use content groups to designate specific course
+content as visible to particular :ref:`cohorts<Cohorts Overview>` of students. 
+
+You create content groups in Studio, and in your course outline, you use the
+**Visibility Settings** to designate whether a component is selectively visible
+only to one or more content groups. Any course components that do not have an
+explicitly restricted visibility setting remain visible to all students,
+regardless of their cohort.
+
+Content groups do not have an actual impact on the visibility of a course
+component until they are associated with one or more cohorts. If you have
+designated certain course content as only visible to a content groups, cohorts
+that are associated with that content group will see the designated content.
 
 For an example of using content groups to create cohorted courseware, see
 :ref:`Cohorted Courseware Example`.
@@ -240,7 +254,7 @@ For an example of using content groups to create cohort-specific courseware, see
 .. _Preview Cohort Specific Courseware:
 
 *************************************
-Previewing Cohort-Specific Courseware
+Preview Cohort-Specific Courseware
 *************************************
 
 After you designate components in your course as being visible only to certain
