@@ -13,3 +13,4 @@ Contributing to Open edX
     community-manager
     product-owner
     core-committer
+    code-considerations

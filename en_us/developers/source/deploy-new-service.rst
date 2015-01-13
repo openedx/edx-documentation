@@ -1,5 +1,7 @@
+.. _Deploy a New Service:
+
 ***********************************
-So You Want to Deploy a New Service
+Deploy a New Service
 ***********************************
 
 Intro

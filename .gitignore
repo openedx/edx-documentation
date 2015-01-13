@@ -48,6 +48,12 @@ node_modules
 .bundle/
 bin/
 
+### NFS artifacts
+.nfs*
+
+### Python artifacts
+*.pyc
+
 
 
 ### Unknown artifacts
