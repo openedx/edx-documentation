@@ -369,3 +369,5 @@
 .. _Make All Content-Specific Discussion Topics Unified by Default: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/cohorts/cohorts_setup_discussions.html#make-all-content-specific-discussion-topics-unified-by-default
 
 .. _edX Data Analytics API Version 0 Alpha: http://edx.readthedocs.org/projects/edx-data-analytics-api/en/latest/index.html
+
+.. _edX Enrollment API: http://edx.readthedocs.org/projects/edx-enrollment-api/en/latest/
