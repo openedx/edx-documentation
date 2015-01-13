@@ -295,4 +295,4 @@ selected content group would see it.
 
 After your course is live, you can also see the live version as a student would
 see it, by clicking **View Live** from Studio. For more information, see
-:ref:`View Your Live Course.`
+:ref:`View Your Live Course`.
