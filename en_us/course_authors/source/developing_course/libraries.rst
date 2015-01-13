@@ -4,15 +4,17 @@
 Content Libraries 
 ##################
 
-In Studio, use content libraries to build a pool of components that can be
-shared across multiple courses to create randomized assessments. You can add
-HTML components, problems, and video components to a library. Peer assessment
-and discussion components are not supported in randomized content blocks.
+In Studio, you can use content libraries to build a pool of components that can
+be used in randomized assessments in your courses. You can add HTML components,
+problems, and video components to a library. Peer assessment and discussion
+components are not supported in randomized content blocks.
 
-Create randomized assessments in your course by adding a randomized content
-block to a unit, and specifying the number and type of problems that each
-student is assigned, to be drawn from the specified content libraries. If you
-specify more than one library from which to randomly draw components for the
+If you have enabled the content library feature in your course, after creating a
+library and adding components to it, you can use these library components in
+randomized assessments in your course. You add a randomized content block to a
+course unit, indicate one or more libraries from which the randomized content is
+to drawn, and the number and type of problems that each student is assigned. If
+you specify more than one library from which to randomly draw components for the
 randomized assessment, the content from all specified libraries is combined
 before the random selection is made.
 
@@ -47,9 +49,9 @@ Create a New Library
 
 To create a new :ref:`library<Content Libraries>`, follow these steps.
 
-#. Log in to Studio.
-#. Click **New Library**.
-#. Enter mandatory information for your new library, then click **Create**.
+#. Log in to Studio. 
+#. Click **New Library**. Enter the required information for
+#. your new library, then click **Create**.
 
   .. image:: ../Images/ContentLibrary_NewCL.png
      :alt: Image of the library creation page
@@ -191,8 +193,8 @@ Randomized Content as a Student`.
 Edit Components in a Library
 ****************************
 
-You can perform the same tasks with components in a library as you can with
-components that you have added to a course. 
+You can perform most of the same tasks with components in a library as you can
+with components that you have added to a course.
 
 For step-by-step instructions for editing, duplicating, or deleting components,
 refer to the following topics:
@@ -446,11 +448,11 @@ Contents of a Library`.
 View the Matching Contents of a Randomized Content Block
 *********************************************************
 
-In the course outline, in the unit that uses a randomized content block, you can
-view the list of all components that match the specifications in that block. For
-example, if you have specified in the randomized content block that you want to
-assign problems of the "Multiple Choice" type, you see all the multiple choice
-problems that exist in the referenced library or libraries.
+In the unit that uses a randomized content block, you can view the list of all
+components that match the specifications in that block. For example, if you have
+specified in the randomized content block that you want to assign problems of
+the "Multiple Choice" type, you see all the multiple choice problems that exist
+in the referenced library or libraries.
 
 #. In Studio, navigate to the unit containing the randomized content block that
    references your library.
@@ -489,10 +491,14 @@ Contents of a Library`.
 Getting the Latest Version of Library Content
 *********************************************
 
-If you modify the contents of a library that is references by randomized content
+If you modify the contents of a library that is referenced by randomized content
 blocks in one or more courses, you can bring the course components up to date
 with the version in the library.
-   
+
+.. warning:: Be careful when you modify problems after they have been released!
+   Changes that you make to published problems can affect the student experience
+   in the course, as well as analysis of course data.
+
 * If the components in the randomized content block have not been edited in the
   course outline, when you next open the randomized content block in the course
   outline, you see a message indicating that the component is out of date in
@@ -507,11 +513,11 @@ with the version in the library.
   The randomized content block is brought up to date with the latest contents of
   the library or libraries that it references.
 
-* If you edited the components in the course outline so that they are different
-  from the original version in the library, you do not lose your changes if you
-  click **Update now**. In this case, the changes that were made in the randomized
-  content block in the course outline are kept, but a **Clear** button becomes
-  available next to the changed field in the component.
+* If you edited the components in the randomized content block in your course so
+that they are different from the original version in the library, you do not
+lose your changes if you click **Update now**. In this case, the changes that
+were made in the randomized content block in the course outline are kept, but a
+**Clear** button becomes available next to the changed field in the component.
 
   .. image:: ../Images/ContentLibraries_ResetComponentField.png
      :alt: Clear button in the course component field reverts value to library value.
