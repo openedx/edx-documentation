@@ -292,3 +292,7 @@ You can view the course as a member of these groups:
 
 The course view refreshes and the content is presented as a member of the
 selected content group would see it.
+
+After your course is live, you can also see the live version as a student would
+see it, by clicking **View Live** from Studio. For more information, see
+:ref:`View Your Live Course.`
