@@ -4,13 +4,14 @@
 Content Libraries 
 ##################
 
-In Studio, you can use content libraries to build a pool of components that can
-be used in randomized assessments in your courses. You can add HTML components,
-problems, and video components to a library. Peer assessment and discussion
-components are not supported in randomized content blocks.
+In Studio, if you have course creation privileges, you can also create content
+libraries to build a pool of components that can be used in randomized
+assessments in your courses. You can add HTML components, problems, and video
+components to a library. Peer assessment and discussion components are not
+supported in randomized content blocks.
 
-If you have enabled the content library feature in your course, after creating a
-library and adding components to it, you can use these library components in
+After creating a library and adding components to it, if you have enabled the
+content library feature in your course, you can use these library components in
 randomized assessments in your course. You add a randomized content block to a
 course unit, indicate one or more libraries from which the randomized content is
 to drawn, and the number and type of problems that each student is assigned. If
@@ -47,14 +48,26 @@ a course.
 Create a New Library
 ********************
 
+Use content libraries to build a pool of components that can be used in
+randomized assessments in your courses. You can create content libraries if you
+have course creation privileges.
+
 To create a new :ref:`library<Content Libraries>`, follow these steps.
 
 #. Log in to Studio. 
-#. Click **New Library**. Enter the required information for
-#. your new library, then click **Create**.
+   
+#. Click **New Library**. 
+#. Enter the required information for your new library, then click **Create**.
+
+.. note:: Enter new library information carefully. After you create a new
+     library, you cannot delete it. The Library Code becomes part of the URL for
+     your library, therefore the total number of characters in the **Library
+     Name**, *Organization**, and **Library Code** fields must be 65 or fewer. 
+
 
   .. image:: ../Images/ContentLibrary_NewCL.png
      :alt: Image of the library creation page
+
 
   * For **Library Name**, enter the public display name for your library. Choose
     a meaningful name that will help you and other course team members to
@@ -69,24 +82,20 @@ To create a new :ref:`library<Content Libraries>`, follow these steps.
     within your organization. This code becomes part of the URL for your
     library, so do not include spaces or special characters in the code.
 
-.. note:: Enter new library information carefully. After you create a new
-     library, you cannot delete it. The Library Code becomes part of the URL
-     for your library.   
 
 4. Click **Create**.
 
 You see the new library, to which you can now add components. For details about
 adding components to a library, see :ref:`Add Components to a Library`.
 
-The system-generated Library ID for the new library is shown in the sidebar.
+The system-generated Library ID for the new library appears in the sidebar.
 
   .. image:: ../Images/ContentLibraryID.png
      :alt: The Library ID for the new library is shown the sidebar
 
-.. note:: You might want to copy or make a note of the Library ID for the    new
-   library. When you add a randomized content block to a course unit, you use
-   the Library ID to specify this library as a source for the randomized
-   content.
+.. note:: Copy or make a note of the Library ID for the new library. When you
+   add a randomized content block to a course unit, you use the Library ID to
+   specify this library as a source for the randomized content.
 
 
 .. _Edit a Library:
@@ -95,10 +104,10 @@ The system-generated Library ID for the new library is shown in the sidebar.
 Edit a Library
 **************
 
-After you create a new library, the only change you can make to the initial
-library information is to the name. However, at any time, you can make changes
-to the components in your library, including adding or deleting components, and
-editing the settings of components.
+After you create a library, the only change you can make to the initial library
+information is to the name. However, at any time, you can make changes to the
+components in your library, including adding or deleting components or editing
+the settings of components.
 
 To change the name of a library, follow these steps.
 
@@ -135,17 +144,22 @@ steps.
 #. Click **Add Component**, then click the component type that you want to add
    under **Add New Component**.
 
-For more information about the various types of components, see these topics.
+For more information about the types of components you can add to a library, see
+these topics.
 
 * :ref:`Working with HTML Components`
 * :ref:`Working with Problem Components`
 * :ref:`Working with Video Components`
 
-After you add a component to a library, you can edit its settings, which are
-retained when the component is selected from the library and used in a course.
-Within a course, you can further edit the component settings or revert to the
-library settings. For details, refer to :ref:`Edit Components in a Library` and
-:ref:`Get the Latest Version of Library Content`.
+After you add a component to a library, you can edit its settings. These
+settings are retained when the component is selected from the library and used
+in a course.
+
+After a component from the library is added to a unit within a randomized
+content block, you can further edit the component settings for that specific
+instance within the course, or revert to the library settings. For details,
+refer to :ref:`Edit Components in a Library` and :ref:`Get the Latest Version of
+Library Content`.
 
 
 .. _View the Contents of a Library:
@@ -160,10 +174,9 @@ To view the entire contents of a library in Studio, follow these steps.
 #. Click **Libraries**, then click the library whose components you want to
    view.
 
-The components in the library are displayed in the order in which they were
-added, with the most recently added at the bottom. Each page shows up to 10
-components. If your library has more than 10 components, additional components
-are shown on other pages.
+The components in the library display in the order in which they were added,
+with the most recently added at the bottom. If your library has more than 10
+components, additional components are shown on other pages.
 
 The range of the components shown on the current page, and the total number of
 components, are shown at the top of the page.
@@ -193,8 +206,9 @@ Randomized Content as a Student`.
 Edit Components in a Library
 ****************************
 
-You can perform most of the same tasks with components in a library as you can
-with components that you have added to a course.
+After you have added components to a content library, you can perform most of
+the same tasks with components in a library as you can with components that you
+have added to a course.
 
 For step-by-step instructions for editing, duplicating, or deleting components,
 refer to the following topics:
@@ -205,10 +219,10 @@ refer to the following topics:
 
 .. note:: If you modify components in your library that are in use in a course,
    including deleting components, these updates in the "source" library are not
-   reflected in the course unless you manually update the randomized content
-   block in the course outline. For details about updating library components
-   used in your course to match the latest version in the content library, see
-   :ref:`Get the Latest Version of Library Content`.
+   reflected in the course unless you manually update the randomized content block
+   in the course unit. For details about updating library components used in your
+   course to match the latest version in the content library, see :ref:`Get the
+   Latest Version of Library Content`.
 
 
 .. _Delete a Library:
@@ -217,11 +231,11 @@ refer to the following topics:
 Delete a Library
 *****************
 
-You cannot delete a library after creating it. Instead, you can simply
-discontinue use of an unwanted library. To do so, first make sure that none of
-its components are in use in any courses, then delete all components in the
-library. You can also :ref:`edit the name of the library<Edit a Library>` to
-make it clear to other course staff that the library should not be referenced in
+You cannot delete a library. Instead, you can discontinue use of an unwanted
+library. To do so, first make sure that none of its components are in use in any
+courses, then delete all components in the library. You can also :ref:`edit the
+name of the library<Edit a Library>` to make it clear to other course staff that
+the library should not be used as a source of randomized assessment content in
 courses.
 
 For details about deleting components in a library, see :ref:`Edit Components in
@@ -234,44 +248,51 @@ a Library`.
 Give Other Users Access to Your Library
 ***************************************
 
-You can give other Studio users access to your library. Depending on their role,
-additional library users can view and use library content in courses, edit
-library content, or add and manage other library users. All course team members
-must be registered with Studio and have an active account.
+When you create a library, you are automatically assigned an Admin role in that
+library.
 
-There are three levels of access for libraries:
+You can give other Studio users access to your library. Depending on the level
+of access  that you give them in the library, additional library users can view
+and use library content in courses, edit library content, or add and manage
+other library users. All users to whom you give library access must be
+registered with Studio and have an active account.
 
-* **User** -- Users can view library content and can reference or use library
-  components in their courses, but they cannot edit the contents of a library.
+These are the levels of access for libraries:
 
-* **Staff** -- Staff are content co-authors. They have full editing privileges
-  for a library.
+* **User** -- Users can view library content and can use library components in
+  their courses, but they cannot edit the contents of a library.
+
+* **Staff** -- Staff can use library components in their courses. In addition,
+  as content co-authors, they have full editing privileges in a library.
 
 * **Admin** -- Admins have full editing privileges for a library. In addition,
-  they can add and remove other team members. There must be at least one user
-  with Admin privileges in a library.
+  they can add and remove other team members from library access. There must be at
+  least one user with Admin privileges in a library.
 
-.. note:: New library members are first added with User privileges only. After
-   they are added with User privileges, you can then grant them Staff or Admin
-   access.
+.. note:: The levels of access for libraries are hierarchical. You can add new
+   library members only with the **User** level of access, after which you can
+   give them the **Staff** level of access. You can give **Admin** level of
+   access only to people who already have the **Staff** level of access.
 
 
 =========================
 Add a User to the Library
 =========================
 
-To grant initial User access to a team member, follow these steps.
+To grant initial **User** access to a team member, follow these steps.
 
-#. Ensure you have Admin access. 
-#. Ensure that the new team member has an active Studio account. 
-#. In Studio, click the **Libraries** tab and locate the library to which you
-   are adding this user.
+.. note:: Only a library user with **Admin** level of access can add users to
+   the library. 
+
+#. Ensure that the new library member has an active Studio account.   
+#. On the Studio home page, click the **Libraries** tab and locate the library
+   to which you are adding this user.
 #. From the **Settings** menu select **User Access**.
 #. On the **User Access** page, click **Add a New User**.
 #. Enter the new user's email address, then click **ADD USER**.
    
-   The new user is added to the list of people with access to the library, with
-   their role indicated.
+   The new user is added to the list of library members with the **User** level
+   of access.
 
 
 =========================
@@ -308,7 +329,7 @@ Remove Staff or Admin Access
 ============================
 
 After you have granted a library team member Staff Access or Admin Access, you
-(or another library user with the Admin role) can reduce their level of access.
+(or another **Admin** library user) can reduce their level of access.
 
 To remove Staff or Admin access from a library user, follow these steps.
 
@@ -316,8 +337,8 @@ To remove Staff or Admin access from a library user, follow these steps.
 #. From the **Settings** menu select **User Access**. 
    
 #. On the **User Access** page, locate the user whose access level you are
-   changing. If they are currently in the Staff role, click **Remove Staff
-   Access**. If they are currently in the Admin role, click **Remove Admin
+   changing. If they currently have **Staff** access, click **Remove Staff
+   Access**. If they currentlyhave **Admin** access, click **Remove Admin
    Access**.
 
    The user's display listing is updated to indicate their new role. 
@@ -379,8 +400,7 @@ problems from content libraries in your courses.
 
 #. Click **Save Changes**. 
    
-   Studio reformats the name:value pair you just entered to indent it on a new
-   line.
+   Studio reformats the policy key you just entered to indent it on a new line.
 
   .. image:: ../Images/ContentLibraries_AdvancedSetting.png
      :alt: Advanced Module policy key "library_content"
@@ -389,12 +409,17 @@ problems from content libraries in your courses.
 .. _Add a Randomized Content Block to Your Course:
 
 =============================================
-Add a Randomized Content Block To Your Course   
+Add a Randomized Content Block to Your Course   
 =============================================
 
 After you :ref:`enable the library content feature<Enable the Library Content
 Feature>` you can add library content to your courses using the Randomized
 Content Block advanced component.
+
+.. note:: Before starting these steps, obtain the Library ID for each library
+  that you intend to reference in the randomized content block. The Library ID
+  is found in the sidebar of each library's page. For details, see :ref:`Create a
+  New Library`.
 
 #. In Studio, open the course in which you want to add randomized problems from
    one or more content libraries.
@@ -415,10 +440,10 @@ Content Block advanced component.
   - For **Count**, enter the number of problems to be drawn from the specified
     content library or libraries for each student.
 
-  - For **Display Name**, enter name that you want students to see for this
+  - For **Display Name**, enter the name that you want students to see for this
     block.
 
-  - For **Libraries**, enter the unique Library ID found in the upper right of
+  - For **Libraries**, enter the unique Library ID found in the sidebar of
     the Library page in Studio. To select problems from more than one content
     library, click **Add** to enter each additional Library ID.
 
@@ -436,27 +461,32 @@ Content Block advanced component.
    randomized content block.
 
 To view the list of matching components in the library, see :ref:`View the
-Matching Contents of a Randomized Content Block`.
+Matching Components in a Randomized Content Block`.
 
 To view the entire contents of the library in Studio, see :ref:`View the
 Contents of a Library`.
    
 
-.. _View the Matching Contents of a Randomized Content Block:
+.. _View the Matching Components in a Randomized Content Block:
 
-*********************************************************
-View the Matching Contents of a Randomized Content Block
-*********************************************************
+***********************************************************
+View the Matching Components in a Randomized Content Block
+***********************************************************
 
-In the unit that uses a randomized content block, you can view the list of all
-components that match the specifications in that block. For example, if you have
-specified in the randomized content block that you want to assign problems of
-the "Multiple Choice" type, you see all the multiple choice problems that exist
-in the referenced library or libraries.
+In a unit that uses a randomized content block, you can view the list of all
+components that match the filter specified in that block.
+
+For example, if you have specified in the randomized content block that you want
+to provide each student with 3 multiple choice problems, you see all the
+multiple choice problems that exist in the referenced library or libraries. In
+other words, you see every problem in the library that could potentially be
+provided to a student.
 
 #. In Studio, navigate to the unit containing the randomized content block that
    references your library.
 #. In the randomized content block, click the **View** icon.
+   
+.. add image   
    
    You see all components that match the specifications in the randomized
    content block. The text at the top of the list of components indicates how
@@ -475,11 +505,12 @@ Randomized Content as a Student`.
 View the Randomized Content as a Student
 ****************************************
 
-To view components from a randomized content block as a student would see them,
-follow the steps described in the :ref:`Preview a Unit` topic.
+To view the number and type of components from a randomized content block as a
+student would see them, follow the steps described in the :ref:`Preview a Unit`
+topic.
 
 To view the list of matching components in the library, see :ref:`View the
-Matching Contents of a Randomized Content Block`.
+Matching Components in a Randomized Content Block`.
 
 To view the entire contents of the library in Studio, see :ref:`View the
 Contents of a Library`.
@@ -520,7 +551,7 @@ were made in the randomized content block in the course outline are kept, but a
 **Clear** button becomes available next to the changed field in the component.
 
   .. image:: ../Images/ContentLibraries_ResetComponentField.png
-     :alt: Clear button in the course component field reverts value to library value.
+     :alt: Clear icon in the course component field reverts value to library value.
 
   
   To clear any edits made in the course outline and bring your edited components
@@ -535,9 +566,9 @@ were made in the randomized content block in the course outline are kept, but a
 Editing Components in Randomized Content Blocks
 ******************************************************
 
-From within your course outline, in the unit that uses a randomized content
-block, you can edit component settings in the same way as you do for any other
-component in your course.
+In Studio, in the course unit that uses a randomized content block, you can edit
+component settings in the same way as you do for any other component in your
+course.
 
 The default settings of a randomized component might have been set when it was
 saved in the library. You can modify component settings so that they are
