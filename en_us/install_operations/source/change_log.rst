@@ -12,6 +12,8 @@ May, 2014
 
    * - Date
      - Change
+   * - 01/14/2014
+     - Addition of the section :ref:`Setting up the Mobile Applications`
    * - 06/07/2014
      - Addition of the section :ref:`Installing the edX Production Stack`
    * - 05/21/2014
