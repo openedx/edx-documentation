@@ -3,6 +3,16 @@ edX Documentation
 ####################################
 
 ******************
+January 14, 2015
+******************
+
+============================
+edX Enrollment API Version 1
+============================
+
+* The `edX Enrollment API`_ guide is now available.
+
+******************
 January 8, 2015
 ******************
 
@@ -17,6 +27,7 @@ Building and Running an edX Course
 * The `Adding Course Updates and Handouts`_ and `The Visual Editor`_ sections
   are updated to clarify that the visual editor is not supported for course
   handouts.
+
 
 ==================================
 edX Research Guide
