@@ -262,9 +262,9 @@ course has started, see :ref:`Altering Cohort Configuration`.
 
   For example, if your .csv file contains conflicting information such as
   Student A being first assigned to Cohort 1, then later in the spreadsheet
-  being assigned toCohort 2, the end result of your .csv upload is that Student
-  A is assignedto Cohort 2. However, the upload results file will count Student
-  A twicein the "Students Added" count: once when they are added to Cohort 1,
+  being assigned to Cohort 2, the end result of your .csv upload is that Student
+  A is assigned to Cohort 2. However, the upload results file will count Student
+  A twice in the "Students Added" count: once when they are added to Cohort 1,
   and again when they are added to Cohort 2. Before submitting a file for
   upload, check it carefully for errors.
 

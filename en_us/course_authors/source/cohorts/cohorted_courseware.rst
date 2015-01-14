@@ -21,7 +21,7 @@ example of cohort-specific course content, see :ref:`Cohorted Courseware
 Example`.
 
 
-Complete these steps to create cohorted content in your course. 
+Complete these steps to create cohort-specific content in your course.
 
 In Studio:
 
@@ -45,12 +45,12 @@ In the LMS:
 Example: Cohort-Specific Courseware
 ***********************************
 
-Suppose that you create two :ref:`cohorts<Cohorts Overview>` in your course: University Alumni and
-Current University Students. Students who are not in either of these cohorts are
-automatically placed into a third cohort, the default cohort, when they access
-the courseware or discussion tabs in the course. For more information about
-enabling cohorts in your course and assigning students to cohorts, see
-:ref:`Enabling and Configuring Cohorts`.
+Suppose that you create two :ref:`cohorts<Cohorts Overview>` in your course:
+University Alumni and Current University Students. Students who are not in
+either of these cohorts are automatically placed into a third cohort, the
+default cohort, when they access the courseware or discussion tabs in the
+course. For more information about enabling cohorts in your course and assigning
+students to cohorts, see :ref:`Enabling and Configuring Cohorts`.
 
 You intend all students to have substantially the same course experience, with
 the exception that only students in the two university-related cohorts will
@@ -64,25 +64,25 @@ alumni cohorts. Also at the end of each section, you intend to include a quiz to
 test knowledge of the concepts taught in that section. The quiz will be shown to
 all students enrolled in the course.
 
-To achieve this, on the **Group Configurations** page in Studio, you create one
+To achieve this, on the **Group Configurations** page in Studio you create one
 content group called "University-Specific Content". In the Instructor Dashboard,
 on the **Membership** tab, you associate both the "University Alumni" and the
-"Current University Students" cohorts with the "University Content" content
-group.
+"Current University Students" cohorts with the "University-Specific Content"
+content group.
 
 Then, in your course outline, you change the visibility settings for the video
-component at the end of each section so that so that it is visible only to the
+component at the end of each section so that it is visible only to the
 "University-Specific Content" content group. You do not need to edit the
 visibility settings of the quiz component, because if no content group is
 specified in a component's visibility settings, it is visible to all students.
 
 As a final step, you preview the course in the LMS to ensure that students see
 the content that is intended for them. You confirm that when you view the course
-in the role of **Student**, in other words, any student not in a content group,
-you see a quiz at the end of each section but not the university-related videos,
-and when you view the course as a student in the "University-Specific Content"
-group, you see a university- related video as well as the quiz at the end of
-each section.
+in the role of **Student** (in other words, any student not in a content group),
+you see a quiz at the end of each section, but do not see the university-related
+videos. When you view the course as a student in the "University-Specific
+Content" group, you see a university-related video as well as the quiz at the
+end of each section.
 
 
 .. _About Content Groups:
@@ -95,18 +95,19 @@ Content groups are virtual groupings of students who will see a particular set
 of course content. You can use content groups to designate specific course
 content as visible to particular :ref:`cohorts<Cohorts Overview>` of students. 
 
-You create content groups in Studio, and in your course outline, you use the
+You create content groups in Studio, and in your course outline you use the
 **Visibility Settings** to designate whether a component is selectively visible
 only to one or more content groups. Any course components that do not have an
 explicitly restricted visibility setting remain visible to all students,
 regardless of their cohort.
 
 Content groups do not have an actual impact on the visibility of a course
-component until they are associated with one or more cohorts. If you have
-designated certain course content as only visible to a content groups, cohorts
-that are associated with that content group will see the designated content.
+component until you associate them with one or more cohorts. If you have
+designated certain course content as visible to a content group, and in addition
+have associated that content group with one or more cohorts, then those cohorts
+will see the designated content.
 
-For an example of using content groups to create cohorted courseware, see
+For an example of using content groups to create cohort-specific courseware, see
 :ref:`Cohorted Courseware Example`.
 
 
@@ -118,9 +119,7 @@ Create Content Groups
 
 #. In Studio, select **Settings**, then select **Group Configurations**.
  
-#. On the **Group Configurations** page, click **New content group**. If you
-   have not created any content groups, click **Add your first content
-   group**.
+#. On the **Group Configurations** page, click **New content group**.
    
 .. image:: ../Images/Cohorts_AddContentGroup.png
  :width: 600
@@ -132,15 +131,15 @@ Create Content Groups
 
 After you create a content group, you can work with your course outline to
 specify which components are visible to specific content groups. For details,
-see :ref:`Associate Cohorts with Content Groups`.
+see :ref:`Specify Components in Courseware as Visible Only to Certain Content
+Groups`.
 
 On the Instructor Dashboard, you associate each content group with one or more
-cohorts. For details, see :ref:`Specify Components in Courseware as Visible Only
-to Certain Content Groups`.
+cohorts. For details, see :ref:`Associate Cohorts with Content Groups`.
 
-.. note:: Once a content group is created, you cannot delete it. You can
-   remove the association between a content group and its cohorts by associating
-   it with another cohort, or by changing the association to **Not Selected**.
+.. note:: Once a content group is created, you cannot delete it. You can remove
+   the association between a content group and its cohorts by changing the
+   association to **Not Selected**.
 
 
 .. _Specify Components in Courseware as Visible Only to Certain Content Groups:
@@ -150,7 +149,8 @@ Specify Components in Courseware as Visible Only to Particular Content Groups
 *****************************************************************************
 
 After you create at least one content group, you can edit your course in Studio
-and modify the visibility settings of components that you want to make visible only to particular content groups. 
+and modify the visibility settings of components that you want to make visible
+only to particular content groups.
 
 .. note:: You do not need to edit the visibility settings of components that are
    intended for all students. Components that you do not explicitly indicate as
@@ -161,12 +161,14 @@ You can specify content as visible to content groups only at the component level
 in a unit. You cannot specify entire units, subsections, or sections for
 visibility to content groups.
 
-In a separate task, you associate cohorts with content groups. Then, only the
-cohorts associated with content groups which you selected in a component's
-visibility settings can view the component. See :ref:`Associate Cohorts with
-Content Groups` for details about associating cohorts with content groups.
+In a separate task, you create cohorts and associate content groups with
+cohorts. Then, only the cohorts associated with content groups which you
+selected in a component's visibility settings can view the component. See
+:ref:`Associate Cohorts with Content Groups` for details about associating
+cohorts with content groups.
 
-To specify components as visible only to particular content groups, follow these steps.
+To specify components as visible only to particular content groups, follow these
+steps.
 
 #. In Studio, select **Content**, then select **Outline**. 
    
@@ -201,6 +203,11 @@ For details about previewing your course to ensure that students in a cohort
 correctly see the content intended for them, see :ref:`Preview Cohort Specific
 Courseware`.
 
+.. note:: In addition to visibility settings for content groups, a student's
+   ability to see a course component also depends on whether it is hidden from
+   students, whether the unit is published, and the course's release date. For
+   details about previewing courseware in general, see :ref:`Preview Course
+   Content`.
 
 .. _Associate Cohorts with Content Groups:
 
@@ -209,8 +216,7 @@ Associate Cohorts with Content Groups
 *************************************
 
 After you create a content group, you can associate it with one or more cohorts
-that should share the same visibility settings for special content in your
-course.
+with which you want to share the same special content in your course.
 
 .. note:: A content group can be associated with more than one cohort; a cohort
    cannot be associated with more than one content group.
@@ -221,13 +227,10 @@ To associate a cohort with a content group, follow these steps:
    
 #. Scroll to the **Cohort Management** section at the bottom.
 
-#. From the drop down list, select the cohort that you want to associate
-   with your content group.
-
-   If the cohort that you want to associate with your content group does not yet
-   exist, you can create it here.
+#. From the drop down list, select the cohort to which you want to associate
+   your content group.
    
-4. Click the **Settings** tab for the selected cohort.
+#. Click the **Settings** tab for the selected cohort.
 
 #. Under **Associated Content Group**, choose the **Select a Content Group** option.
 
@@ -260,6 +263,12 @@ Preview Cohort-Specific Courseware
 After you designate components in your course as being visible only to certain
 content groups, you can preview your courseware to ensure that each group
 correctly sees the content intended for them.
+
+.. note:: In addition to visibility settings for content groups, a student's
+   ability to see a course component also depends on whether it is hidden from
+   students, whether the unit is published, and the course's release date. For
+   details about previewing courseware in general, see :ref:`Preview Course
+   Content`.
 
 You can view the course as a member of these groups:
 
