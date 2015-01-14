@@ -18,4 +18,5 @@ Installing, Configuring, and Running the edX Platform
    devstack/install_devstack
    devstack/run_devstack
    prodstack/install_prodstack
+   analytics/install_analytics
    mobile
