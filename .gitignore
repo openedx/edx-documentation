@@ -68,3 +68,6 @@ lms/lib/comment_client/python
 autodeploy.properties
 .ws_migrations_complete
 dist
+
+### Testing artifacts
+test_root/
