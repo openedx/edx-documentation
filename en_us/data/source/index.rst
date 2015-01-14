@@ -2,7 +2,9 @@
 edX Research Guide
 ######################
 
-This document is intended for researchers and data czars at edX partner institutions who use the edX data exports to gain insight into their courses and students.
+This document is intended for researchers, data czars, and administrative
+teams at edX partner institutions who use the edX data exports to gain insight
+into their courses and students.
 
 .. toctree::
    :maxdepth: 2
@@ -17,6 +19,7 @@ This document is intended for researchers and data czars at edX partner institut
    internal_data_formats/sql_schema.rst
    internal_data_formats/discussion_data.rst
    internal_data_formats/wiki_data.rst
+   internal_data_formats/institution_data.rst
    internal_data_formats/tracking_logs.rst
    internal_data_formats/event_list.rst
 

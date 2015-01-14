@@ -5,6 +5,20 @@ Change Log
 ###########
 
 **********************
+January-March 2015
+**********************
+
+.. list-table::
+   :widths: 10 70
+   :header-rows: 1
+
+   * - Date
+     - Change
+   * - 1/16/15
+     - Added the :ref:`Institution_Data` chapter with information about the
+       CSV file of student email preference settings.
+
+**********************
 October-December 2014
 **********************
 
