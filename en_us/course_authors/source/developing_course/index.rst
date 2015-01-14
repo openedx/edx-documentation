@@ -13,7 +13,8 @@ Course Content Index`.
 For information on creating exercises and tools, see :ref:`Exercises and Tools
 Index`.
 
-For information on creating content libraries from which you can randomly draw content for randomized assessments, see :ref:`Content Libraries`.
+For information on creating content libraries from which you can randomly draw
+content for randomized assigments, see :ref:`Content Libraries`.
 
 .. toctree::
    :maxdepth: 2
@@ -24,6 +25,5 @@ For information on creating content libraries from which you can randomly draw c
    course_subsections
    course_units
    course_components
-   libraries
    controlling_content_visibility
    testing_courseware
