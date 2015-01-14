@@ -81,6 +81,7 @@ able to see it. Content visibility depends on several factors:
   :ref:`subsection<Set a Subsection Release Date>`
 * The :ref:`publishing status<Hide a Unit from Students>` of the unit
 * The :ref:`Hide content from students<Hide a Unit from Students>` setting
+* The use of :ref:`Content Groups`
   
 For more information, see :ref:`Controlling Content Visibility`.
 

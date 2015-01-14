@@ -163,6 +163,7 @@ in use in the course:
  :width: 800
  :alt: The Group Configurations page with one group configuration
 
+
   
 .. _Edit a Group Configuration:
 
