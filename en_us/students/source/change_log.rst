@@ -10,6 +10,9 @@ Change Log
 
    * - Date
      - Change
+   * - 1/14/15
+     - Added :ref:`SFD Student Notes`, :ref:`SFD Prerequisites` sections, and 
+       :ref:`Google Drive` sections.
    * - 12/31/14
      - Added :ref:`Google Drive` topic.
    * - 12/12/14
