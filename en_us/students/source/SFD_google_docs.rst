@@ -1,7 +1,7 @@
 .. _Google Drive:
 
 ####################################
-Embedded Files and Calendars
+Embedded Google Files and Calendars
 ####################################
 
 Courses can include files, such as documents, spreadsheets, and presentations,
@@ -33,10 +33,9 @@ For example, your course might include a spreadsheet that resembles this one.
   :width: 500
   :alt: A Google spreadsheet in a course
 
-You can interact with these Google Drive files in your course. For example,
-you can complete forms, look through the slides in a presentation, and enter
-different values in a spreadsheet. However, you cannot save changes that you
-make to the Google Drive file.
+You can interact with these Google Drive files in your course. For example, you
+can complete forms and look through the slides in a presentation. However, you
+cannot save changes that you make to the Google Drive file.
 
 ***********************
 Google Calendars
