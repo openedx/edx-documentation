@@ -45,6 +45,7 @@ Course Content Index`.
    problem_with_hint
    problem_in_latex
    protein_builder
+   student_notes
    text_input
    word_cloud
    custom_python
