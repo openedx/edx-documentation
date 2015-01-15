@@ -6,28 +6,28 @@ Managing Discussions in Courses with Student Cohorts
 ##########################################################
 
 In courses that have the cohort feature enabled, every post has an indicator of
-who can read it: either everyone, or only the members of a single cohort group.
-For students, this is the only noticeable difference between discussions in
-courses that include cohorts when compared to courses that don't. You can share
-the examples in the :ref:`Read the Cohort Indicator in Posts` section with your
+who can read it: either everyone, or only the members of a single cohort. For
+students, this is the only noticeable difference between discussions in courses
+that include cohorts when compared to courses that do not. You can share the
+examples in the :ref:`Read the Cohort Indicator in Posts` section with your
 students, along with the :ref:`Discussions for Students and Staff` section of
 this guide.
 
 Staff members who have the discussion admin, discussion moderator, or community
 TA role see the same indicator of who can read each post. Unlike the students,
 however, the discussion staff members can read and contribute to every post,
-regardless of the cohort group assignment of the student who posted it.
+regardless of the cohort assignment of the student who posted it.
 
 .. note:: Students who have the Community TA role can read and 
  contribute to all posts.
 
-In courses that enable the cohort feature, members of the discussion staff can
+In courses with the cohort feature enabled, members of the discussion staff can
 also:
 
 * Choose who will be able to see the posts that they add to divided topics. See
   :ref:`Choosing the Visibility of a Post`.
 
-* Filter the posts that are listed on the **Discussion** page by cohort group.
+* Filter the posts that are listed on the **Discussion** page by cohort.
   See :ref:`Viewing the Posts of a Cohort Group`.
   
 All of the other options and features described in the :ref:`Discussions`
@@ -41,7 +41,7 @@ Identifying Who Can Read a Post
 
 In a course that includes cohorts, all posts include a cohort indicator above
 the title. This indicator appears after any student or staff member adds a
-post. Other than naming the cohort groups carefully when you add them, no
+post. Other than naming the cohorts carefully when you add them, no
 configuration is necessary to include this identifier.
 
 Optionally, you can name your discussion topics to show students who will be
@@ -118,7 +118,7 @@ Choosing the Visibility of a Post
 
 If you have the discussion admin, discussion moderator, or community TA role,
 you can make posts to divided discussion topics visible to everyone who is
-enrolled in the course or to the members of a selected cohort group only. When
+enrolled in the course or to the members of a selected cohort only. When
 you :ref:`add a post<Add a Post>`, the **Visible to** dropdown list appears
 above the **Title** field.
 
@@ -132,13 +132,13 @@ discussion topic.
 As a discussion staff member, you can choose the visibility of your posts in
 topics that are divided by cohort. This means that you can add a single post
 with information that you want everyone to see, rather than having to write a
-separate post for each cohort group. It also means that it is possible for you
+separate post for each cohort. It also means that it is possible for you
 to unintentionally share information with a different audience than you
 intended.
 
 .. note:: Students do not choose the visibility of their posts. The 
  visibility of student posts is determined by the configuration of the topic
- they post in. See :ref:`Options for Discussion Topics`.
+ they post in. See :ref:`Finding Out Who Can See a Post`.
 
 Posts that discussion staff members add to unified discussion topics are always
 visible to all students, regardless of cohort assignment.
@@ -167,26 +167,26 @@ posts in a course that includes cohorts.
 
 .. _Viewing the Posts of a Cohort Group:
 
-************************************
-Viewing the Posts of a Cohort Group
-************************************
+*****************************
+Viewing the Posts of a Cohort
+*****************************
 
 When a course includes student cohorts, you can view posts and monitor
-discussion activity for one cohort group at a time. You can also view all
+discussion activity for one cohort at a time. You can also view all
 posts.
 
 Above the list of posts on the **Discussion** page, the **in all cohorts**
 filter is selected by default. You see every post when you make this selection,
 as shown in the illustration on the left. To limit the list so that you can
-view the same set of posts as the members of a cohort group, select the name
-of that group as shown on the right.
+view the same set of posts as the members of a cohort, select the name
+of that cohort as shown on the right.
 
 .. image:: ../Images/viewing_all_or_cohort.png
  :alt: The list of posts on the Discussion page, first showing all posts then 
-  showing only posts that members of the Univeristy Alumni cohort group can see
+  showing only posts that members of the University Alumni cohort can see
 
 Note that both of these lists include posts that are visible to
-everyone. When you filter the list by cohort group, you see the same, complete
+everyone. When you filter the list by cohort, you see the same, complete
 set of posts that the members of the cohort see.
 
 For other options that you can use to view posts, see :ref:`Find Posts`.

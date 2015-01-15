@@ -12,6 +12,7 @@ You control content visibility through these features in Studio:
 * `Release Dates`_
 * `Unit Publishing Status`_
 * `Content Hidden from Students`_
+* `Content Groups`_
   
 These features work together to control content visibility for students.
 
@@ -93,3 +94,16 @@ You can hide content at different levels:
  students. If you also explicitly set a child subsection or unit to be hidden
  from students, it remains hidden from students. Unpublished units remain
  unpublished, and changes to published units remain unpublished.
+
+.. _Content Groups:
+
+**************
+Content Groups
+**************
+
+If you have cohorts enabled in your course, you can use content groups to
+designate  particular components in your course as visible only to specific
+groups of students.
+
+For details, see :ref:`About Content Groups` and :ref:`Cohorted Courseware
+Overview`.

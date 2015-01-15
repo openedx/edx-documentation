@@ -3,34 +3,34 @@
 
 
 ######################################################
-Setting up Discussions in Courses with Cohort Groups
+Setting up Discussions in Courses with Cohorts
 ######################################################
 
 In courses that have cohorts enabled, you can set up discussion topics to be
-either divided by cohort group, or unified and accessible to all students.
+either divided by cohort, or unified and accessible to all students.
 
 When you first enable cohorts in your course, the initial behavior for course-
 wide discussion topics is different from the behavior of content-specific
-(inline) discussion topics. 
+(inline) discussion topics.
 
 By default, course-wide discussion topics are unified, but content-specific
-discussion topics are divided by cohort group. You can configure either type of
+discussion topics are divided by cohort. You can configure either type of
 discussion to be divided or unified.
 
 For overview information about discussions in a course, see :ref:`Discussions`.
-For information about using cohort groups in a course, see :ref:`Cohorts
-Overview` and :ref:`Enabling and Configuring Cohorts`.
+For information about using cohorts in a course, see :ref:`Cohorts Overview` and
+:ref:`Enabling and Configuring Cohorts`.
 
 
 ***********************************************
-Course-Wide Discussion Topics and Cohort Groups
+Course-Wide Discussion Topics and Cohorts
 ***********************************************
 
 When you first :ref:`create a course-wide discussion topic<Create CourseWide
 Discussion Topics>`, it is unified, and all students in the course can post,
-read, respond, and comment in the topic without regard to their cohort group
+read, respond, and comment in the topic without regard to their cohort
 assignments. After you add a course-wide topic, you can configure it so that it
-is divided by cohort group instead.
+is divided by cohort instead.
 
 
 .. _Identifying Private CourseWide Discussion Topics:
@@ -48,14 +48,14 @@ discussion topics.
  :alt: Discussion Topic Mapping field with four course-wide discussion topics 
        defined
 
-You have enabled cohort groups for your course to take advantage of that feature
+You have enabled cohorts for your course to take advantage of that feature
 as it applies to discussion topics.
 
 The posts that you intend to make to the Course Q&A and General topics, and the
 subjects you expect students to explore there, are appropriate for a unified
 student audience. However, you also want to give students some course-wide
-topics that are divided by cohort group. You decide that the Announcements and
-Brainstorming course-wide topics should be divided by cohort group.
+topics that are divided by cohort. You decide that the Announcements and
+Brainstorming course-wide topics should be divided by cohort.
 
 You also decide to apply a naming convention so that students will know the
 audience for the discussion topics before they add any posts. For information on
@@ -70,7 +70,7 @@ Configure Course-Wide Discussion Topics as Divided
 
 This procedure describes how you configure the Brainstorming and Announcements
 course-wide discussion topics (from the example in :ref:`Identifying Private
-CourseWide Discussion Topics`) so that they are divided by cohort group.
+CourseWide Discussion Topics`) so that they are divided by cohort.
 
 On the Studio **Advanced Settings** page, details of the two topics appear as
 follows in the **Discussion Topic Mapping** field. 
@@ -140,14 +140,14 @@ Content-Specific Discussion Topics and Cohort Groups
 When you enable the cohort feature for a course, and :ref:`create content-
 specific discussion topics<Create ContentSpecific Discussion Topics>` by adding
 discussion components to units in Studio, these content-specific discussion
-topics are divided by cohort group by default. A student who is assigned to one
-cohort group cannot read or add to the posts, responses, or comments contributed
-by the members of another cohort group.
+topics are divided by cohort by default. A student who is assigned to one
+cohort cannot read or add to the posts, responses, or comments contributed
+by the members of another cohort.
 
 If you want all content-specific discussion topics in your course to remain
-divided by cohort group, you do not need to take any further action. However, if
+divided by cohort, you do not need to take any further action. However, if
 you want one or more content-specific discussion topics to be unified
-(accessible to all students regardless of cohort group), you must complete some
+(accessible to all students regardless of cohort), you must complete some
 configuration tasks.
 
 
@@ -156,14 +156,15 @@ Example: Configuring Content-Specific Discussion Topics as Unified
 =====================================================================
 
 In this example, you decide that you want all content-specific discussion topics
-you add to your course to be unified rather than divided by cohort group. To
+you add to your course to be unified rather than divided by cohort. To
 achieve this, you follow the steps to :ref:`Make ContentSpecific Discussion
 Topics Unified`.
 
 Later, while designing one of the final sections in the course, you add a
-content-specific discussion topic that you decide should be divided by cohort
-group, rather than unified like all other discussion components. To achieve
-this, you follow the steps to :ref:`Specify Cohorted Discussions as Exceptions`.
+content-specific discussion topic that you decide should be divided by cohort,
+rather than unified like all other discussion components. To achieve this, you
+follow the steps to :ref:`Specify Cohorted Discussions as Exceptions`.
+
 
 .. _Make ContentSpecific Discussion Topics Unified:
 
@@ -172,12 +173,12 @@ Make All Content-Specific Discussion Topics Unified by Default
 ================================================================
 
 .. note:: If you want all content-specific discussion topics in your course to
-   be divided by cohort group, you do not need to perform any configuration.
+   be divided by cohort, you do not need to perform any configuration.
 
 This procedure shows how to make all content-specific discussion topics in a
 course unified by default. When you complete these steps, any content-specific
 discussion topics that you add to your course are accessible to all students
-regardless of their cohort group.
+regardless of their cohort.
 
 #. Open your course in Studio. 
 
@@ -211,12 +212,12 @@ Specify Exceptions to Unified Discussion Topics
 If you have made all content-specific discussion topics in your course unified
 by default, this procedure describes how you can specify exceptions and
 configure particular content-specific discussion topics in your course as
-divided by cohort group.
+divided by cohort.
 
 #. Open your course in Studio. 
    
 #. For each content-specific discussion topic that you want to make divided by
-   cohort group, locate the discussion component in Studio, then copy or make a
+   cohort, locate the discussion component in Studio, then copy or make a
    note of its **Discussion ID**.
 
 .. image:: ../Images/DiscussionID.png
@@ -230,7 +231,7 @@ divided by cohort group.
 #. Between these opening and closing square brackets (``[ ]``) add one or more IDs
    for the discussion topics that you want to specify as being unified. 
 
-   If you are specifying only one discussion topic as divided by cohort group,
+   If you are specifying only one discussion topic as divided by cohort,
    your entry looks like this example.
 
    .. code::
@@ -238,7 +239,7 @@ divided by cohort group.
       "cohorted_discussions": [c2293fa2538a41eca7224b8a07c3d09d] 
 
 
-   If you are specifying multiple discussion topics as divided by cohort group,
+   If you are specifying multiple discussion topics as divided by cohort,
    use a new line for each discussion topic ID that you add, and enclose each ID
    within double quotation marks (``"``), followed by a comma if there are
    additional IDs following.
