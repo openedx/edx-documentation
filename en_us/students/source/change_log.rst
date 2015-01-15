@@ -15,6 +15,9 @@ Change Log
        edX Partner Portal` and the :ref:`The Open edX Portal`.
    * - 20 Jan 15
      - Added iPhone information to :ref:`SFD Mobile`.
+   * - 1/14/15
+     - Added :ref:`SFD Student Notes`, :ref:`SFD Prerequisites` sections, and 
+       :ref:`Google Drive` sections.
    * - 12/31/14
      - Added :ref:`Google Drive` topic.
    * - 12/12/14
@@ -38,4 +41,3 @@ Change Log
        Formatting`.
    * - 10/24/14
      - Added :ref:`Course Discussions` section.
-
