@@ -179,7 +179,7 @@ institution, you:
    :ref:`Decrypt an Encrypted File`.
 
 The result of extracting and decrypting the ``{org}-{date}.zip`` file is the
-following set of sql and mongo database files.
+following set of .sql, .csv, and .mongo files.
 
 ``{org}-{course}-{date}-auth_user-{site}-analytics.sql``
 
@@ -202,6 +202,11 @@ following set of sql and mongo database files.
   the course content that the student accesses. No file is produced for courses
   that do not have any records in this table (for example, recently created
   courses). See :ref:`courseware_studentmodule`.
+
+``{org}-email_opt_in-{site}-analytics.csv``
+
+  This file reports the email preference selected by students who are enrolled
+  in any of your institution's courses. See :ref:`Institution_Data`.
 
 ``{org}-{course}-{date}-student_courseenrollment-{site}-analytics.sql``
 
