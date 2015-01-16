@@ -23,7 +23,7 @@ different experiment group of students sees.
 .. image:: ../Images/a-b-test-lms-group-2.png
  :alt: Image of a unit page with Group 1 selected
 
-.. note::    The example course content in this chapter uses content experiment
-terminology to make the functionality clear. Typically, you would not use
-terminology in course content that would make students aware of the
-experiment.
+.. note::    The example course content in this chapter uses content experiment 
+ terminology to make the functionality clear. Typically, you would not use
+ terminology in course content that would make students aware of the
+ experiment.

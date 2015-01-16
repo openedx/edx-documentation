@@ -38,7 +38,7 @@ Course Content Index`.
    multiple_choice
    mult_choice_num_input
    numerical_input
-   open_response_assessment
+   open_response_assessments/index
    periodic_table
    poll
    problem_with_hint

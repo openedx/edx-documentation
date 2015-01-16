@@ -56,11 +56,11 @@ General Exercises and Tools
           :alt: Example LTI component
      - :ref:`LTI Component`
      - LTI components allow you to add an external learning application or non-PDF textbook to Studio.
-   * - .. image:: /Images/CITL_AssmtTypes.png
+   * - .. image:: /Images/PA_QandRField.png
           :width: 100
           :alt: Example open response assessment
-     - :ref:`Open Response Assessment`
-     - In open response assessments, students receive feedback on written responses of varying lengths as well as files, such as computer code or images, that the students upload. Open response assessments include self assessment and peer assessment.
+     - :ref:`Open Response Assessments 2`
+     - In open response assessments, students receive feedback on written responses of varying lengths as well as image files that the students upload. Open response assessments include self assessment and peer assessment.
    * - .. image:: /Images/PollExample.png
           :width: 100
           :alt: Example poll
