@@ -8,12 +8,20 @@ After a video administrator works with the edX media team to complete
 :ref:`preliminary setup<Video Getting Started>` for the entire institution,
 individual course teams can begin to upload video files for their courses in
 Studio. This section describes the specifications met by successful video
-files, how course teams enable the video upload process in Studio, and the 
-steps to monitor video processing.
+files, the steps to upload the files, and how you monitor video processing 
+at edX.
+
+.. removed "how course teams enable the video upload process in Studio, " 
 
 * :ref:`Specifications for Successful Video Files` 
 
 * :ref:`Upload Video Files`  
+
+* :ref:`Monitor Video Processing`
+
+The result of video processing is additional file formats that are transferred
+to multiple hosting services (YouTube CMS and Amazon AWS), ready for students
+to access.
 
 .. _Specifications for Successful Video Files:
 
@@ -112,8 +120,9 @@ media team. See :ref:`Create YouTube Channels`.
 
 #. Select **Content**, then **Video Uploads**.
 
-#. Add video files to the Video Uploads page. You can drag files to the page
-   and drop them, or click **Select files** to locate the files to upload.
+#. Add video files to the **Video Uploads** page. You can drag files to the
+   page and drop them, or click **Select files** to locate the files to
+   upload.
 
    A rectangular tile appears on the page for each file. The file name, a
    progress bar, and the status of the file upload process appear in the tile.
@@ -123,34 +132,43 @@ media team. See :ref:`Create YouTube Channels`.
 
 .. You can use your browser to navigate to other pages while upload is in progress. Return to the Video Uploads page periodically to refresh the status for each file.
 
-.. important:: You must leave the **Video Uploads** page open in your browser 
- until the upload process is complete for all files.
+.. important:: You must leave the **Video Uploads** page open in your
+   browser until the upload process is complete for all files.
 
- The file upload process is complete when files upload successfully or fail
- to upload.
-
-* For files that upload successfully, automated processing begins at edX.
-  Automated processing results in additional video file formats, which are
-  then transferred to multiple hosting services (YouTube CMS and Amazon AWS),
-  ready for students to access. You can monitor file statuses during automated
-  processing. See :ref:`Monitor Video Processing`.
-
-  .. note:: Automated processing takes 24 hours to complete.
-
-* For files that encounter a problem, verify that the file is in .mp4 or .mov
-  format and meets the other specifications for successful video processing.
-  See :ref:`Specifications for Successful Video Files`. Then try uploading the
-  file (or its replacement) again. 
+The file upload process is complete when files upload successfully or fail to
+upload. You can monitor file progress on the **Video Uploads** page or
+download a report.
 
 .. _Monitor Video Processing: 
 
-================================
+***************************
 Monitor Video Processing
-================================
+***************************
 
-After video files successfully reach the edX servers, automated processing
-begins. A list of every file that has successfully uploaded to the edX servers
-appears in the Previous Uploads section of the Video Uploads page.
+After your video files successfully reach the edX servers, automated
+processing begins. 
+
+.. note:: Automated processing takes 24 hours to complete.
+
+A list of every file that you attempt to upload to the edX servers appears in
+the **Previous Uploads** section of the **Video Uploads** page. The list
+includes each file's status in the encoding and hosting workflow. In addition,
+you can download a report of the video files that you uploaded. See
+:ref:`Reporting Video Status`.
+
+.. _Video Processing Statuses:
+
+===========================
+Video Processing Statuses
+===========================
+
+The encoding and hosting process assigns these statuses to video files.
+
+* **Uploading** files have not yet reached the edX servers successfully. For
+  files that encounter a problem, verify that the file that you uploaded is in
+  .mp4 or .mov format and meets the other specifications for successful video
+  processing. See :ref:`Specifications for Successful Video Files`. Then try
+  uploading the file (or its replacement) again.
 
 * **In Progress** files are undergoing processing to create additional file 
   formats or waiting for successful transfer to the host sites.
@@ -164,10 +182,71 @@ appears in the Previous Uploads section of the Video Uploads page.
   specifications for successful video processing. See :ref:`Specifications for
   Successful Video Files`. Upload the file, or a replacement file, again. If
   processing fails more than once for a file, contact the edX media team at
-  ``media@edx.org``.
+  media@edx.org.
 
+Statuses of **Invalid Token** or **Unknown** indicate  a configuration
+problem. Inform your edX program manager if these statuses appear.
 
-.. xref to the "FYI" section on Process by edX to transcode
+.. add an xref to the TBD overview section on the edX transcode-and-host process
+
+.. _Reporting Video Status:
+
+================================
+Reporting Video Statuses
+================================
+
+To report the status of the encoding and hosting process of every video file
+that you upload, as well as the assigned video IDs, you can download a CSV
+file.
+
+#. Open the course in Studio. 
+
+#. Select **Content**, then **Video Uploads**.
+
+#. Click **Download available encodings (.csv)**.
+
+#. Use a spreadsheet application or text editor to open the CSV file.
+
+The CSV file reports data in these columns for all of the files you upload.
+
+* The file **Name**.
+
+* The file **Duration**. If the upload process has not yet determined how long
+  the file is, **Pending** appears.
+
+* The **Date Added**, which shows the date and time that you uploaded the
+  video file.
+
+* The unique, identifying **Video ID**. When you add a video component to your
+  course, you supply the video ID for the file you want to add. See
+  :ref:`Adding Videos to a Course`.
+
+* The **Status** of the encoding and hosting process for the file. See
+  :ref:`Video Processing Statuses`.
+
+The CSV file also includes a column for each of the formats and host sites
+that are the result of the edX encoding and hosting process. The CSV file
+includes data in these columns only after each format is successfully
+generated and delivered to its destination.
+
+* **desktop_mp4 URL**: The AWS location of a 720p resolution video file in mp4
+  format. This file is delivered to students who do not have access to YouTube
+  and view course videos with an mp4 player.
+
+* **desktop_webm URL**: The AWS location of a 720p resolution video file in
+  webm format. This file is delivered to students who do not have access to
+  YouTube and view course videos with a webm player.
+
+* **mobile_low URL**: The AWS location of a 320p resolution video file. This
+  file is delivered to students who download and view course videos on a
+  mobile device.
+
+* **youtube URL**: The YouTube location of a 1080p resolution video. By
+  default, the edX video player delivers this video.
+
+The edX encoding and hosting process produces these alternatives to ensure
+optimal playback quality for your students. 
+
 
 .. _Creating Videos: https://courses.edx.org/courses/edX/edX101/2014/courseware/c2a1714627a945afaceabdfb651088cf/9dd6e5fdf64b49a89feac208ab544760/
 
