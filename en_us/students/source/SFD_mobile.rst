@@ -4,8 +4,8 @@
 The edX Mobile App
 ########################
 
-The edX mobile app is currently available for Android devices. For more
-information, check the frequently asked questions below.
+The edX mobile app is currently available for Android and iPhone devices. For
+more information, check the frequently asked questions below.
 
 .. _General Questions:
 
@@ -17,38 +17,8 @@ General Questions
 How do I get the mobile app?
 ================================
 
-You can download and install the Android app from the Google Play store to
-either your Android smartphone or your computer.
-
-Install the edX Mobile App Using Your Mobile Device
-************************************************************
-
-
-#. On your Android phone, tap **Play Store**.
-#. Sign in to your Google account, or create a new account.
-#. When the Play Store opens, tap the magnifying glass icon in the upper-right
-   corner of the screen.
-#. In the **Search Google Play** box, type ``edx``.
-#. In the list of apps that match ``edx``, tap **edX**.
-#. On the edX app page, tap **Install**.
-#. In the screen that opens, tap **Accept**. The download and installation
-   process begins.
-#. When the app has finished installing, tap **Open**.
-#. When the login screen opens, log in to your edX account, or create a new edX account.
-
-
-Install the edX Mobile App Using Your Computer
-***************************************************
-
-#. On your computer, go to the `Google Play Store <https://play.google.com>`_.
-#. In the **Search** box at the top of the page, type ``edx``.
-#. In the list of apps that match ``edx``, click **edX**.
-#. On the edX app page, click **Install**. 
-#. In the screen that opens, select the devices that you want to install the app
-   on, click **Install**, and then click **OK**.
-#. When you a see a message saying that the app has been installed, go to your
-   device. Check the app list on your device for the edX app.
-
+The Android app is available in the Google Play Store. The iPhone app is
+available in the Apple App Store.
 
 ================================
 How much does the app cost?
@@ -60,8 +30,10 @@ The app is free. You don't have to pay or buy anything to download or use it.
 What platforms does the app run on?
 ========================================
 
-Our current app is available for Android smartphones. We're also working to
-make it available on Android tablets, iPhones, and iPads.
+Our current app is available for Android smartphones and iPhones. We're also
+working to make the app available on Android tablets and iPads.
+
+For the iPhone app, your device must be running iOS 7 or later.
 
 ================================================
 How do I find courses to take on the mobile app?
@@ -218,8 +190,10 @@ mobile device.
 Can I speed up the videos?
 ==================================
 
-Currently, the videos only run in their original speeds. We're currently working
-on the ability to change video speeds.
+You can change video speeds on the iPhone app.
+
+On the Android app, videos currently run only in their original speeds. We're
+working on the ability to change video speeds.
 
 ==================================
 How do I delete downloaded videos?

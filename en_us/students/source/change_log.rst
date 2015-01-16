@@ -10,6 +10,8 @@ Change Log
 
    * - Date
      - Change
+   * - 1/20/14
+     - Added iPhone information to :ref:`SFD Mobile`.
    * - 12/12/14
      - Added :ref:`SFD Mobile` topic.
    * - 12/8/14
