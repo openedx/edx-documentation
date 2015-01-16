@@ -111,7 +111,10 @@ After you request a grade report for your students, the result is a time-
 stamped CSV file that includes columns to identify each student: id, email, and
 username. It also includes a column for every assignment that is included in
 your grading configuration: each homework, lab, midterm, final, and any other
-assignment type you added to your course.
+assignment type you added to your course. If your course includes
+:ref:`cohorts<Cohorts Overview>` or :ref:`content experiments<Overview of
+Content Experiments>`, the grade report includes additional columns indicating
+the name of the cohort or experiment group that each student belongs to.
 
 .. important:: Because this file contains confidential, personally 
  identifiable data which may be subject to the Family Educational Rights and
@@ -167,6 +170,19 @@ provide the following information.
 * An **{assignment type} Avg** with each student's current average score for
   that assignment type: for example, HW Avg.
 
+* If :ref:`cohorts<Cohorts Overview>` are used in the course, a **Cohort Name**
+  column indicates the name of the cohort that each student belongs to, including
+  the default cohort. The column is empty for students who are not yet assigned to
+  a cohort.
+
+* If :ref:`content experiments<Overview of Content Experiments>` are used in the
+  course, an **Experiment Group** column indicates the name of the experiment
+  group that each student belongs to within a group configuration. The column
+  heading includes the name of the group configuration. The column is empty for
+  students who are not assigned to an experiment group. If you have more than one
+  experiment group configuration in your course, you see one column for each group
+  configuration.
+
 .. note:: The grade reports do not include information about individual 
  questions within the assignments, or include student answer distributions.
 
@@ -213,9 +229,21 @@ The gradebook includes the following features.
   with a grade of 65 has earned 65% of the credit in the course, and a student
   with a grade of 100 has earned 100%.
 
+* If cohorts are used in the course, a **Cohort Name** column indicates the name
+  of the cohort that each student belongs to, including the default cohort. The
+  column is empty for students who are not yet assigned to a cohort.
+
+* If content experiments are used in the course, an **Experiment Group** column
+  indicates the name of the experiment group that each student belongs to within a
+  group configuration. The column heading includes the name of the group
+  configuration. The column is empty for students who are not assigned to an
+  experiment group. If you have more than one experiment group configuration in
+  your course, you see one column for each group configuration.
+
 * To filter the data that displays you can use the **Search students** option.
   This option is case-sensitive and limits the rows shown in the gradebook to
   usernames that match your entry.
+
 
 .. _check_student_progress:
 
@@ -249,7 +277,8 @@ To view the **Progress** page for a student:
 
    The **Progress** page for the student displays a chart with the grade for
    each homework, lab, midterm, final, and any other assignment types in your
-   course, and the total grade earned for the course to date.
+   course, and the total grade earned for the course to date. The chart does not
+   reflect any cohort or experiment group assignments.
 
    .. image:: ../Images/Student_Progress.png
     :alt: Progress page chart for a student: includes a column graph with the 
