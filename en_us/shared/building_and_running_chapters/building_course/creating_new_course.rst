@@ -184,3 +184,4 @@ moderate and manage its discussions by assigning other LMS roles. The beta
 testers and discussion administrators must be enrolled in your course, but
 they do not need to have Staff or Admin access. For more information, see
 :ref:`Beta_Testing` and :ref:`Assigning_discussion_roles`.
+
