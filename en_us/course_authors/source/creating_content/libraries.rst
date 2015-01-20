@@ -17,9 +17,8 @@ in your courses. You can add HTML components, problems, and video components to
 a library. Peer assessment and discussion components are not supported in
 content libraries.
 
-.. note:: Content libraries are available only for courses whose course
-   identifiers are in this format: ``{key type}:{org}+{course}+{run}``. For
-   example, ``course-v1:edX+DemoX+Demo_2015``.
+.. note:: Content libraries are available only for courses that have course
+   identifiers in this format: ``{key type}:{org}+{course}+{run}``. For example, ``course-v1:edX+DemoX+Demo_2015``. Your course identifier appears in the  browser address bar as the final part of the URL when you open your course in Studio. For more details, see :ref:`Create a New Course`.
 
 After creating a library and adding components to it, if you have :ref:`enabled
 content libraries<Enable Content Libraries>` in your course, you can use these
