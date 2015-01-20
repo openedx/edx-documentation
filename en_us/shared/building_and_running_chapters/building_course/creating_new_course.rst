@@ -42,7 +42,7 @@ Create a New Course
    part of your course URL, the total number of characters in the following
    four fields must be 65 or fewer.
 
-  .. image:: ../../../shared/building_and_running_chapters/Images/new_course_info.png
+  .. image:: ../Images/new_course_info.png
      :alt: Image of the course creation page
 
   * For **Course Name**, enter the title of your course. For example, the name
@@ -73,7 +73,14 @@ Create a New Course
 
 4. Click **Save.**
 
-You then see the empty Course Outline.
+The page refreshes to show the empty **Outline** for your new course. The course
+identifier appears in the browser address bar as the final part of the URL in
+the format ``{key type}:{org}+{course}+{run}``. For example,
+``course-v1:edX+DemoX+Demo_2014``.
+
+  .. note::  This course ID format applies to all courses created after January
+     14, 2015. Older courses can have course IDs in the format
+     ``{org}/{course}/{run}``. For example, ``MITx/6.002x/2012_Fall``.
 
 .. _Edit Your Course:
 
@@ -88,7 +95,7 @@ When you return to Studio later, the Studio **My Courses** dashboard page lists
 the courses that you create along with any courses for which you have course
 staff privileges.
 
- .. image:: ../../../shared/building_and_running_chapters/Images/open_course.png
+ .. image:: ../Images/open_course.png
   :alt: Image of the course on the Studio dashboard
  
 To open a course, click the course name. The Studio **Course Outline** page
@@ -112,7 +119,7 @@ Categories of tasks in the Course Checklist include:
 
 From the **Tools** menu, select **Checklists**.
 
- .. image:: ../../../shared/building_and_running_chapters/Images/checklist.png
+ .. image:: ../Images/checklist.png
   :alt: Image of the course checklist
  
 
