@@ -14,7 +14,7 @@ The following documentation is available:
 
 * `edX Research Guide`_
 
-* `edX Platform Developer's Guide`_
+* `edX Developer's Guide`_
 
 * `edX XBlock Documentation`_
 

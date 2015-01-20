@@ -25,14 +25,17 @@ edX product.
 .. toctree::
    :maxdepth: 2
 
-   website/index
-   lms/index
-   studio/index
-   discussions/index
-   ora/index
-   mobile/index
    analytics/index
+   discussions/index
    documentation/index
+   insights/index
+   lms/index
+   mobile/index
+   openedx/index
+   ora/index
+   studio/index
+   website/index
+   xblocks/index
 
 ******************
 Previous Releases

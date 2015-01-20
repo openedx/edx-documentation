@@ -2,9 +2,11 @@
 edX XBlocks
 ####################################
 
-The following pages list changes to edX XBlocks:
+******************
+January 28, 2015
+******************
 
-.. toctree::
-   :maxdepth: 1
-
+All courses created after January 14, 2015 now use the `key introspection
+API`_ format to identify their component Xblocks. 
+  
 .. include:: ../links.rst

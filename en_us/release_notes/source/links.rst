@@ -371,3 +371,17 @@
 .. _edX Data Analytics API Version 0 Alpha: http://edx.readthedocs.org/projects/edx-data-analytics-api/en/latest/index.html
 
 .. _edX Enrollment API: http://edx.readthedocs.org/projects/edx-enrollment-api/en/latest/
+
+.. _Email Opt In Report: http://edx.readthedocs.org/projects/devdata/en/latest/internal_data_formats/institution_data.html#email-opt-in-report
+
+.. _MathJax 2.4: http://docs.mathjax.org/en/latest/whats-new-2.4.html#whats-new-2-4
+
+.. _MathJax 2.3: http://docs.mathjax.org/en/latest/whats-new-2.3.html#whats-new-2-3
+
+.. _Creating Cohort-Specific Courseware: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/cohorts/cohorted_courseware.html#creating-cohort-specific-courseware
+
+.. _key introspection API: http://edx.readthedocs.org/projects/edx-release-notes/en/latest/2014/06-10-2014.html?highlight=urls#the-new-key-introspection-api
+
+.. _Installing edX Insights: http://edx.readthedocs.org/projects/edx-installing-configuring-and-running/en/latest/analytics/install_analytics.html#installing-edx-insights
+
+.. _Setting up the edX Mobile Applications: http://edx.readthedocs.org/projects/edx-installing-configuring-and-running/en/latest/mobile.html
