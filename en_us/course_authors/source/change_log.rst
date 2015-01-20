@@ -12,6 +12,8 @@ January, 2015
 
    * - Date
      - Change
+   * - 1/21/15
+     - Added the :ref:`Cohorted Courseware Overview` section.
    * - 1/7/15
      - Added the :ref:`Rerun a Course` chapter.
 
