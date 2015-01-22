@@ -8,7 +8,7 @@ Students can use the molecule editor to learn how to create molecules. The molec
 
 The molecule editor incorporates two tools: the JSME molecule editor created by Peter Erl and Bruno Bienfait, and JSmol, a JavaScript-based molecular viewer from Jmol. (You don't need to download either of these tools--Studio uses them automatically.) For more information about the JSME molecule editor, see `JSME Molecule Editor <http://peter-ertl.com/jsme/index.html>`_. For more information about JSmol, see `JSmol <http://sourceforge.net/projects/jsmol/>`_.
 
-.. image:: /Images/Molecule_Editor.png
+.. image:: ../../../shared/building_running_course/Images/Molecule_Editor.png
   :alt: Image of the molecule editor
 
 .. _Create the Molecule Editor:

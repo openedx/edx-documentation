@@ -1,0 +1,1 @@
+.. include:: ../../../shared/building_running_course/cohorts/cohorts_overview.rst

@@ -1,0 +1,1 @@
+.. include:: ../../../shared/building_running_course/building_course/creating_new_course.rst

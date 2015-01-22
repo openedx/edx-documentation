@@ -6,7 +6,7 @@ Numerical Input
 
 Numerical input problems are the simpler of the two mathematics tools that Studio offers. In these problems, students enter numbers or specific and relatively simple mathematical expressions to answer a question. The text that the students enter is converted to a symbolic expression that appears below the response field. 
 
-.. image:: /Images/image292.png
+.. image:: ../../../shared/building_running_course/Images/image292.png
  :alt: Image of a numerical input problem
 
 Note that students' responses don't have to be exact for these problems. You can specify a margin of error, or tolerance. You can also specify a correct answer explicitly, or use a Python script. For more information, see the instructions below.
@@ -20,7 +20,7 @@ text that the student enters is converted into mathematical symbols. The followi
 example shows the way the system renders students' text responses in
 numerical input problems. 
 
-.. image:: /Images/Math5.png
+.. image:: ../../../shared/building_running_course/Images/Math5.png
  :alt: Image of a numerical input probem rendered by Studio
 
 For more information about characters that students can enter, see :ref:`Math Response Formatting for Students`.
@@ -33,7 +33,7 @@ You can create numerical problems in the Simple Editor or in the Advanced Editor
 
 For example, the following example problems require the Advanced Editor. 
 
-.. image:: /Images/NumericalInput_Complex.png
+.. image:: ../../../shared/building_running_course/Images/NumericalInput_Complex.png
  :alt: Image of a more complex numerical input problem
 
 For more information about including a Python script in your problem, see :ref:`Write Your Own Grader`.
@@ -51,7 +51,7 @@ Simple Editor
 #. Determine the text of the problem to use as a label, and then surround that text with two sets of angle brackets (>><<).
 #. Select the text of the answer, and then click the numerical input button. 
 
-.. image:: /Images/ProbCompButton_NumInput.png
+.. image:: ../../../shared/building_running_course/Images/ProbCompButton_NumInput.png
     :alt: Image of the numerical input button
 
 When you do this, an equal sign appears next to the answer.
@@ -67,7 +67,7 @@ When you do this, an equal sign appears next to the answer.
 8. In the component editor, select the text of the explanation, and then click the 
    explanation button to add explanation tags around the text.
 
-   .. image:: /Images/ProbCompButton_Explanation.png
+   .. image:: ../../../shared/building_running_course/Images/ProbCompButton_Explanation.png
     :alt: Image of the explanation button
 
 9. On the **Settings** tab, specify the settings that you want. 

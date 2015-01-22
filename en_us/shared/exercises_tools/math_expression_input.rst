@@ -6,7 +6,7 @@ Math Expression Input Problems
 
 In math expression input problems, students enter text that represents a mathematical expression into a field, and text is converted to a symbolic expression that appears below that field. Unlike numerical input problems, which only allow integers and a few select constants, math expression problems can include unknown variables and more complicated symbolic expressions. 
 
-.. image:: /Images/MathExpressionInputExample.png
+.. image:: ../../../shared/building_running_course/Images/MathExpressionInputExample.png
  :alt: Image of math expression input problem
 
 For more information about characters that students can enter, see :ref:`Math Response Formatting for Students`.

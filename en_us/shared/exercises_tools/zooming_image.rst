@@ -6,7 +6,7 @@ Zooming Image Tool
 
 You may want to present information to your students as an image. If your image is very large or very detailed, students may not be able to see all the information in the image. You can use the zooming image tool to enlarge areas of your image as the student moves the mouse over the image, as in the example below.
 
-.. image:: /Images/Zooming_Image.png
+.. image:: ../../../shared/building_running_course/Images/Zooming_Image.png
   :alt: Example zooming image tool showing a chemistry exercise
 
 ***********************************
@@ -57,7 +57,7 @@ Create a Zooming Image Tool
 
    The HTML in your zooming image tool may resemble the following.
 
-   .. image:: /Images/ZoomingImage_Modified.png
+   .. image:: ../../../shared/building_running_course/Images/ZoomingImage_Modified.png
      :alt: Example HTML for a zooming image tool
 
 #. Click **Save** to save the HTML component.
