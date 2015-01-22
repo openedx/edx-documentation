@@ -45,7 +45,7 @@ Event Data
 
 The ``{org}-{site}-events-{date}.log.gz.gpg`` file contains a daily log of
 course events. A separate file is available for courses running on edge.edx.org
-(with "edge" for {site} in the file name) and on edx.org (with "edx" for
+(with "edge" for {site} in the file name) and on edx.org (with "prod" for
 {site}).
 
 For a partner organization named UniversityX, these daily files are identified
