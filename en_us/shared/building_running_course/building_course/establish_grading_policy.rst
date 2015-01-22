@@ -33,7 +33,7 @@ To set the grade range, from the **Settings** menu, select **Grading**.
 
 The control for the grade range is at the top of the Grading page.
 
-.. image:: ../Images/grade_range.png
+.. image:: ../../../shared/building_running_course/Images/grade_range.png
   :alt: Image of the Grade Range control
 
 The above example shows that you have a pass/fail grade range, with a score of
@@ -47,7 +47,7 @@ You use the grade range control to change these settings:
   if you add a grade in the default setting, the grade range changes to **F**
   (0 to 50), **B** (50 to 75), and **A** (75 to 100):
 
-  .. image:: ../Images/grade_range_b.png
+  .. image:: ../../../shared/building_running_course/Images/grade_range_b.png
     :alt: Image of an altered Grade Range control
 
 * To change the score range, move the cursor over the line dividing two grades
@@ -214,7 +214,7 @@ After a grading policy is in place, students can view both their problem scores
 and the percent completed and current grade in the **Progress** tab for the
 course.
   
-  .. image:: ../Images/Progress_tab.png
+  .. image:: ../../../shared/building_running_course/Images/Progress_tab.png
     :alt: Image of the student Progress tab
 
 Each item in the X axis of the chart is for a graded subsection. Graded

@@ -9,7 +9,7 @@ In an annotation problem, the instructor highlights specific text inside a large
 
 Annotation problems ask students to respond to questions about a specific block of text. The question appears above the text when the student hovers the mouse over the highlighted text so that students can think about the question as they read.
 
-.. image:: ../Images/AnnotationExample.png
+.. image:: ../../../shared/building_running_course/Images/AnnotationExample.png
   :alt: Annotation problem
 
 ****************************
@@ -37,7 +37,7 @@ To create an annotation problem, you'll add the Annotation advanced component to
     5. Return to the unit where you want to add the specialized problem. The
        list of possible components now contains an Advanced component.
 
-       .. image:: /Images/AdvancedComponent.png
+       .. image:: ../../../shared/building_running_course/Images/AdvancedComponent.png
           :alt: Image of the Add a New Component panel with the Advanced component option
 
 2. Add the **Instructions** and **Guided Discussion** segments of the

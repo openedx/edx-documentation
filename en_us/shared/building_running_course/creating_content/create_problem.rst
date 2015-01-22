@@ -39,7 +39,7 @@ The Student View of a Problem
 
 All problems on the edX platform have several component parts.
 
-.. image:: ../Images/AnatomyOfExercise1.png
+.. image:: ../../../shared/building_running_course/Images/AnatomyOfExercise1.png
  :alt: Image of a problem from a student's point of view, with callouts for 
        elements of the problem
 
@@ -75,14 +75,14 @@ All problems on the edX platform have several component parts.
    for individual problems defaults to that number, and cannot be set to
    unlimited.
 
-   .. image:: ../Images//AnatomyOfExercise2.png
+   .. image:: ../../../shared/building_running_course/Images//AnatomyOfExercise2.png
     :alt: Image of a problem from a student's point of view, with callouts for 
           attempts and showing the answer
 
 #. **Feedback.** After a student clicks **Check**, all problems return a
    green check mark or a red X.
 
-   .. image:: ../Images//AnatomyofaProblem_Feedback.png
+   .. image:: ../../../shared/building_running_course/Images//AnatomyofaProblem_Feedback.png
     :alt: Image of feedback checkmark and x from a student's point of view
 
 #. **Correct answer.** Most problems require that the instructor specify
@@ -101,14 +101,14 @@ All problems on the edX platform have several component parts.
 
 #. **Hide Answer button.**
 
-   .. image:: ../Images//AnatomyOfExercise3.png
+   .. image:: ../../../shared/building_running_course/Images//AnatomyOfExercise3.png
     :alt: Image of a problem in the course accordian
 
 #. **Grading.** The instructor may specify whether a group of problems
    is graded. If a group of problems is graded, a clock icon appears for
    that assignment in the course accordion.
 
-   .. image:: ../Images//clock_icon.png
+   .. image:: ../../../shared/building_running_course/Images//clock_icon.png
 
 #. **Due date.** The date that the problem is due. A problem that is
    past due does not have a **Check** button. It also does not accept
@@ -165,7 +165,7 @@ Several problem templates, including multiple choice and text input problem
 templates, open in the Simple Editor. The following image shows a multiple
 choice problem in the Simple Editor.
 
-.. image:: ../Images//MultipleChoice_SimpleEditor.png
+.. image:: ../../../shared/building_running_course/Images//MultipleChoice_SimpleEditor.png
  :alt: Image of a problem in the simple editor
 
 The Simple Editor includes a toolbar that helps you format the text of your
@@ -215,7 +215,7 @@ Editor.
 The following image shows the multiple choice problem above in the Advanced
 Editor instead of the Simple Editor.
 
-.. image:: ../Images//MultipleChoice_AdvancedEditor.png
+.. image:: ../../../shared/building_running_course/Images//MultipleChoice_AdvancedEditor.png
  :alt: Image of a problem in the advanced editor
 
 The following problem templates open in the Advanced Editor.
@@ -267,7 +267,7 @@ Problem component have the following settings. These settings appear on the
 *  **Show Answer**
 *  **Show Reset Button**
 
-.. image:: ../Images/ProbComponent_Attributes.png
+.. image:: ../../../shared/building_running_course/Images/ProbComponent_Attributes.png
  :alt: Image of the Settings tab in a Problem component
 
 ===============
@@ -278,7 +278,7 @@ This setting indicates the name of your problem. The display name
 appears as a heading over the problem in the LMS and in the course
 ribbon at the top of the page.
 
-.. image:: ../Images/ProbComponent_LMS_DisplayName.png
+.. image:: ../../../shared/building_running_course/Images/ProbComponent_LMS_DisplayName.png
  :alt: Image of the problem in a unit page from a student's point of view
 
 ==============================
@@ -309,7 +309,7 @@ Problem Weight
 This setting specifies the maximum number of points possible for the
 problem. The problem weight appears next to the problem title.
 
-.. image:: ../Images/ProblemWeight_DD.png
+.. image:: ../../../shared/building_running_course/Images/ProblemWeight_DD.png
  :alt: Image of a problem from a student's point of view, with the possible 
        points circled
 
@@ -322,7 +322,7 @@ to answer, and thus has three response fields.
 The following Problem component contains one text input problem,
 and has just one response field.
 
-.. image:: ../Images/ProblemWeight_TI.png
+.. image:: ../../../shared/building_running_course/Images/ProblemWeight_TI.png
  :alt: Image of a text input problem from a student's point of view
 
 Computing Scores
@@ -381,7 +381,7 @@ a different student accesses the problem, or each time a single student tries
 to answer the problem. For example, the highlighted values in the problem below
 change each time a student submits an answer to the problem.
 
-.. image:: ../Images/Rerandomize.png
+.. image:: ../../../shared/building_running_course/Images/Rerandomize.png
  :alt: The same problem shown twice, with color highlighting on values that 
        can change
 

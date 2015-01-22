@@ -205,12 +205,12 @@ Microsoft Excel for Mac than in OpenOffice Calc.
 
   Answer Values in Microsoft Excel for Mac:
 
-   .. image:: ../Images/student_answer_excel.png
+   .. image:: ../../../shared/building_running_course/Images/student_answer_excel.png
      :alt: A spreadsheet that replaces accented French characters with underscores
 
   Answer Values in OpenOffice Calc:
 
-   .. image:: ../Images/student_answer_calc.png
+   .. image:: ../../../shared/building_running_course/Images/student_answer_calc.png
      :alt: A spreadsheet that displays accented French characters correctly
 
 If you notice characters that do not display as expected in a spreadsheet, try a
@@ -230,7 +230,7 @@ correct answer, "Warfarin". When you produce the Student Answer Distribution
 report, you verify that this answer was in fact marked correct: there is a 1 in
 the **Correct Answer** column for this **AnswerValue**.
 
-.. image:: ../Images/SAD_Answer_Review.png
+.. image:: ../../../shared/building_running_course/Images/SAD_Answer_Review.png
     :alt: In Excel, 5 rows show 5 answer values, 4 of which show comprehension of the question, but only 1 answer is marked as correct
 
 However, as you view the report you notice other student answers that you did
@@ -244,7 +244,7 @@ Many spreadsheet applications offer data visualization options, such as charts
 or graphs. Charts can help make your students' common misconceptions  easier to
 identify.
 
-.. image:: ../Images/SAD_Column_Chart.png
+.. image:: ../../../shared/building_running_course/Images/SAD_Column_Chart.png
     :alt: In Excel, AnswerValue and Count columns next to each other, values for 4 rows selected, and a column chart of the count for the 4 answers
 
 In this example, the Student Answer Distribution report is open in Microsoft
@@ -282,7 +282,7 @@ To display the distribution of scores for a problem:
    The **Analytics** page updates to display a histogram of scores for that
    problem.
 
-   .. image:: ../Images/score_histogram.png
+   .. image:: ../../../shared/building_running_course/Images/score_histogram.png
      :alt: Graph of the number of students who received different scores for a
          selected problem
 
@@ -295,7 +295,7 @@ Interpret a Score Histogram
 The histogram of scores for a selected problem provides the following
 information.
 
-   .. image:: ../Images/score_histogram_callouts.png
+   .. image:: ../../../shared/building_running_course/Images/score_histogram_callouts.png
      :alt: Histogram with indicators for the number of students scored value and
          the x-axis numbers that indicate plotted scores
 

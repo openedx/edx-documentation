@@ -290,7 +290,7 @@ To add multiple beta testers:
    selected. An example of the message that is sent to a beta tester who is not
    enrolled (or auto enrolled) in the course follows.
 
-.. image:: ../Images/Beta_tester_email.png
+.. image:: ../../../shared/building_running_course/Images/Beta_tester_email.png
   :alt: "You have been invited to be a beta tester for {course name} at {URL}. 
         Visit {link} to join the course and begin the beta test."
 

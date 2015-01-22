@@ -50,7 +50,7 @@ Viewing Units in the Outline
 To view units in the outline, you :ref:`expand<Navigating the Course Outline>`
 the parent section and subsection:
 
-.. image:: ../Images/outline-callouts.png
+.. image:: ../../../shared/building_running_course/Images/outline-callouts.png
  :alt: An outline with callouts for sections, subsections, and units
 
 ****************************
@@ -62,7 +62,7 @@ When you click on a unit name in the outline, the **Unit** page opens.
 The following example shows a unit page with two components, with circles and
 text to show different areas and controls in the page.
 
-.. image:: ../Images/unit-page.png
+.. image:: ../../../shared/building_running_course/Images/unit-page.png
  :alt: The Unit page
 
 ****************************
@@ -76,7 +76,7 @@ active unit is open beneath the course ribbon.
 The following image shows a subsection that has five units, which are circled
 in the ribbon above the video, with the first unit open:
 
-.. image:: ../Images/Units_LMS.png
+.. image:: ../../../shared/building_running_course/Images/Units_LMS.png
  :alt: Image of units from the student's point of view
 
 .. _The Unit Workflow:
@@ -102,7 +102,7 @@ After you publish the unit, you can:
    
 The following diagram shows the typical unit development workflow:
 
-.. image:: ../Images/workflow-create-unit.png
+.. image:: ../../../shared/building_running_course/Images/workflow-create-unit.png
  :alt: Diagram of the unit development workflow
    
 As you work through these steps, the **publishing status** of the unit changes.
@@ -159,7 +159,7 @@ Draft (Never published)
 When you create a new unit and add components to it, the unit's publishing
 status is **Draft (Never Published)**, as shown in the status panel:
 
-.. image:: ../Images/unit-never-published.png
+.. image:: ../../../shared/building_running_course/Images/unit-never-published.png
  :alt: Status panel of a unit that has never been published
 
 In Studio, you see the version of the content that you're working on. Students
@@ -181,7 +181,7 @@ The release date for the section and subsection have passed. You've published
 the unit and haven't made any changes to it. You and students both see the
 current version of the unit.
 
-.. image:: ../Images/unit-published.png
+.. image:: ../../../shared/building_running_course/Images/unit-published.png
  :alt: Status panel of a unit that is published
 
 .. _Published Not Yet Released:
@@ -193,7 +193,7 @@ Published (not yet released)
 You've published the unit, but the release date hasn't passed. Students cannot
 see this unit until the release date passes.
 
-.. image:: ../Images/unit-published_unreleased.png
+.. image:: ../../../shared/building_running_course/Images/unit-published_unreleased.png
  :alt: Status panel of a unit that is published but not released
 
 .. _Draft (Unpublished Changes):
@@ -206,7 +206,7 @@ When you edit a published unit, whether or not it is released, the unit's
 publishing status changes to **Draft (Unpublished Changes)**, as shown in the
 status panel:
 
-.. image:: ../Images/unit-pending-changes.png
+.. image:: ../../../shared/building_running_course/Images/unit-pending-changes.png
  :alt: Status panel of a unit that has pending changes
 
 In Studio, you see the draft of the content that you're working on. If the
@@ -235,7 +235,7 @@ Subsection from Students>` from students.
 Students never see a unit with this status, even if it has been published and
 the release date has passed.
 
-.. image:: ../Images/unit-unpublished.png
+.. image:: ../../../shared/building_running_course/Images/unit-unpublished.png
  :alt: Status panel of a unit that has pending changes
 
 .. _Create a Unit:
@@ -260,7 +260,7 @@ To create a new unit from a unit page:
 
 #. In the **Unit Location** panel, click **New Unit**.
 
-   .. image:: ../Images/unit_location.png
+   .. image:: ../../../shared/building_running_course/Images/unit_location.png
     :alt: The Unit Location panel in the Unit page
 
    The unit page for the new unit opens automatically.
@@ -296,7 +296,7 @@ Edit the Unit Name
 
 To edit a unit name, hover over the name to show the Edit icon:
 
-.. image:: ../Images/unit-edit-icon.png
+.. image:: ../../../shared/building_running_course/Images/unit-edit-icon.png
   :alt: The Edit Unit Name icon
 
 Click the Edit icon next to the unit name. The name field becomes editable.
@@ -313,7 +313,7 @@ To move a component, hover over the handle on the right of the component's box
 until the cursor changes to a four-headed arrow. For example, in the image
 below, the handle for the discussion component is selected:
 
-.. image:: ../Images/unit-drag-selected.png
+.. image:: ../../../shared/building_running_course/Images/unit-drag-selected.png
   :alt: A discussion component selected to drag it
 
 Then, click and drag the component to the location that you want. 
@@ -322,7 +322,7 @@ A dashed outline indicates where the component will land when you release the
 mouse button. For example, in the image below, the discussion component is
 being moved to the top of the unit:
 
-.. image:: ../Images/unit-drag-moved.png
+.. image:: ../../../shared/building_running_course/Images/unit-drag-moved.png
  :alt: A component being dragged to a new location  
 
 .. _Preview a Unit:
@@ -340,12 +340,12 @@ cannot preview the unit; you must view the live version of the unit.
 
 To preview the unit, in the unit page, click **Preview Changes**.
 
-.. image:: ../Images/preview_changes.png
+.. image:: ../../../shared/building_running_course/Images/preview_changes.png
  :alt: The Unit page with Preview Changes button circled
 
 The unit opens in preview mode:
 
-.. image:: ../Images/preview_mode.png
+.. image:: ../../../shared/building_running_course/Images/preview_mode.png
  :alt: The unit in preview mode
 
 When you are revising a previously published unit, it is helpful to preview
@@ -373,7 +373,7 @@ Use the Unit Page to Publish a Unit
 
 To publish the unit, click **Publish** in the status panel:
 
-.. image:: ../Images/unit-publish-button.png
+.. image:: ../../../shared/building_running_course/Images/unit-publish-button.png
  :alt: Unit status panel with Publish button circled
 
 
@@ -384,7 +384,7 @@ Use the Outline to Publish a Unit
 To publish a unit from the outline, click the publish icon in the box for the
 unit:
 
-.. image:: ../Images/outline-publish-icon-unit.png
+.. image:: ../../../shared/building_running_course/Images/outline-publish-icon-unit.png
  :alt: Publishing icon for a unit
 
 .. note:: 
@@ -407,7 +407,7 @@ published version of the unit.
 To discard changes and revert the Studio version of the unit to the last
 published version, click **Discard Changes** in the status panel:
 
-.. image:: ../Images/unit-discard-changes.png
+.. image:: ../../../shared/building_running_course/Images/unit-discard-changes.png
  :alt: Unit status panel with Discard Changes circled
 
 .. caution::
@@ -424,7 +424,7 @@ View a Published Unit
 To view the last published version of a unit in the LMS, click **View Published
 Version**.
 
-.. image:: ../Images/unit_view_live_button.png
+.. image:: ../../../shared/building_running_course/Images/unit_view_live_button.png
  :alt: Unit page with View Published Version button circled
 
 The unit page opens in the LMS in Staff view. You may be prompted to log in to
@@ -455,7 +455,7 @@ Use the Unit Page to Hide a Unit
 
 Select the **Hide from students** checkbox in the status panel:
 
-.. image:: ../Images/unit-hide.png
+.. image:: ../../../shared/building_running_course/Images/unit-hide.png
  :alt: Unit status panel with Hide from Students checked
 
 For more information, see :ref:`Controlling Content Visibility`.
@@ -466,14 +466,14 @@ Use the Outline to Hide a Unit
 
 #. Click the Settings icon in the unit box:
    
-   .. image:: ../Images/outline-unit-settings.png
+   .. image:: ../../../shared/building_running_course/Images/outline-unit-settings.png
     :alt: The unit settings icon circled
 
    The **Settings** dialog box opens.
 
 #. Check **Hide from students**.
 
-   .. image:: ../Images/outline-unit-settings-dialog.png
+   .. image:: ../../../shared/building_running_course/Images/outline-unit-settings-dialog.png
     :alt: The unit hide from students setting
 
 #. Click **Save**.
@@ -516,7 +516,7 @@ To delete a unit:
 
 #. Click the delete icon in the box for the unit you want to delete:
 
-.. image:: ../Images/section-delete.png
+.. image:: ../../../shared/building_running_course/Images/section-delete.png
  :alt: The section with Delete icon circled
 
 2. When you receive the confirmation prompt, click **Yes, delete this

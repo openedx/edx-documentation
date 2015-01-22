@@ -61,7 +61,7 @@ Visibility>` by setting release dates on the outline and publishing units.
 
 The following diagram summarizes the content creation workflow:
 
-.. image:: ../Images/workflow-create-content.png
+.. image:: ../../../shared/building_running_course/Images/workflow-create-content.png
  :alt: Diagram of the content creation process
 
 It is recommended that you :ref:`test course content <Testing Your Course
@@ -104,7 +104,7 @@ You can revise your course content at any time.
 The following diagram summarizes the content revision workflow and content
 visibility:
 
-.. image:: ../Images/workflow-revise-content.png
+.. image:: ../../../shared/building_running_course/Images/workflow-revise-content.png
  :alt: Diagram of the content creation process
 
 It is recommended that you :ref:`test course content <Testing Your Course

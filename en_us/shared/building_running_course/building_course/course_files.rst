@@ -179,7 +179,7 @@ You can navigate through the pages in these ways:
   Click the number to place your cursor in the field, then enter the page number
   you want to jump to.
 
-  .. image:: ../Images/file_pagination.png
+  .. image:: ../../../shared/building_running_course/Images/file_pagination.png
    :alt: Image showing the pair of page numbers at the bottom of the Files and
          Uploads pages with the first number in editable mode and circled
 

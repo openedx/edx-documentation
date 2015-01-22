@@ -19,7 +19,7 @@ textbook.
 When students open the textbook tab in the course, they can navigate the
 textbook by chapter:
 
-.. image:: ../Images/textbook_chapters.png
+.. image:: ../../../shared/building_running_course/Images/textbook_chapters.png
  :alt: Image of a textbook in a course.
 
 To add a textbook:
@@ -27,7 +27,7 @@ To add a textbook:
 #. From the **Content** menu, select **Textbooks**.
 #. Click **New Textbook**. The following screen opens:
 
-  .. image:: ../Images/textbook_new.png
+  .. image:: ../../../shared/building_running_course/Images/textbook_new.png
    :alt: Image of the New Textbook page.
 
 3. Enter the **Textbook Name**.

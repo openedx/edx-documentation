@@ -8,7 +8,7 @@ Text Input Problem
 
 In text input problems, students enter text into a response field. The response can include numbers, letters, and special characters such as punctuation marks. Because the text that the student enters must match the instructor's specified answer exactly, including spelling and punctuation, we recommend that you specify more than one attempt for text input problems to allow for typographical errors.
 
-.. image:: /Images/TextInputExample.png
+.. image:: ../../../shared/building_running_course/Images/TextInputExample.png
  :alt: Image of a text input probem
 
 ****************************
@@ -33,7 +33,7 @@ To create a text input problem in the Simple Editor, follow these steps.
 #. Determine the text of the problem to use as a label, and then surround that text with two sets of angle brackets (>><<).
 #. Select the text of the answer, and then click the text input button. 
    
-   .. image:: /Images/ProbCompButton_TextInput.png
+   .. image:: ../../../shared/building_running_course/Images/ProbCompButton_TextInput.png
     :alt: Image of the text input button
    
    When you do this, an equal sign appears next to the answer.
@@ -42,7 +42,7 @@ To create a text input problem in the Simple Editor, follow these steps.
 #. In the component editor, select the text of the explanation, and then click the 
    explanation button to add explanation tags around the text.
 
-   .. image:: /Images/ProbCompButton_Explanation.png
+   .. image:: ../../../shared/building_running_course/Images/ProbCompButton_Explanation.png
     :alt: Image of the explanation button
 
 #. On the **Settings** tab, specify the settings that you want. 

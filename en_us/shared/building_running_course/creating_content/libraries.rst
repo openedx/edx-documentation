@@ -81,7 +81,7 @@ To create a new content library, follow these steps.
       of characters in the **Library Name**, **Organization**, and **Library
       Code** fields must be 65 or fewer.
 
-   .. image:: ../Images/ContentLibrary_NewCL.png
+   .. image:: ../../../shared/building_running_course/Images/ContentLibrary_NewCL.png
       :alt: Image of the library creation page
 
 
@@ -106,7 +106,7 @@ adding components to a library, see :ref:`Add Components to a Library`.
 
 The system-generated Library ID for the new library appears in the sidebar.
 
-  .. image:: ../Images/ContentLibraryID.png
+  .. image:: ../../../shared/building_running_course/Images/ContentLibraryID.png
      :alt: The Library ID for the new library is shown the sidebar
 
 .. note:: Copy or make a note of the Library ID for the new library. When you
@@ -136,7 +136,7 @@ To change the name of a library, follow these steps.
    
    The library name field becomes editable.
    
-  .. image:: ../Images/ContentLibrary_EditName.png
+  .. image:: ../../../shared/building_running_course/Images/ContentLibrary_EditName.png
      :alt: The Edit icon to the right of the Library Name
 
 4.  In the library name field, make edits or enter a new library name.
@@ -207,7 +207,7 @@ You can navigate through the pages in these ways:
   Click the number to place your cursor in the field, then enter the page number
   you want to jump to.
 
-  .. image:: ../Images/file_pagination.png
+  .. image:: ../../../shared/building_running_course/Images/file_pagination.png
      :alt: Image showing a pair of page numbers with the first number circled
 
 To view the list of matching components in the library, see :ref:`View the Matching Components in a Randomized Content Block`.

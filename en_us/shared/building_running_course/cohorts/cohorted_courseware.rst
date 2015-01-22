@@ -121,7 +121,7 @@ Create Content Groups
  
 #. On the **Group Configurations** page, click **New content group**.
    
-.. image:: ../Images/Cohorts_AddContentGroup.png
+.. image:: ../../../shared/building_running_course/Images/Cohorts_AddContentGroup.png
  :width: 600
  :alt: Button on Group Configurations page for adding first content group
 
@@ -176,14 +176,14 @@ steps.
    content group or groups, click the unit name, then click the **Visibility
    Settings** icon.
 
-.. image:: ../Images/Cohorts_VisibilitySettingInUnit.png
+.. image:: ../../../shared/building_running_course/Images/Cohorts_VisibilitySettingInUnit.png
   :alt: Screen capture of unit in course outline with visibility setting icon highlighted 
 
 3. In the **Editing visibility** dialog, select **Specific Content Groups**,
    then select the checkbox for each content group for which you want the current
    component to be visible.
 
-.. image:: ../Images/Cohorts_EditVisibility.png
+.. image:: ../../../shared/building_running_course/Images/Cohorts_EditVisibility.png
   :width: 400
   :alt: Screen capture of unit in course outline with visibility setting icon highlighted 
 
@@ -193,10 +193,10 @@ The **Visibility Settings** icon for the component is now black, and the
 publishing details for the course section in the sidebar refresh to indicate
 that some content is visible only to particular groups.
 
-.. image:: ../Images/Cohorts_VisibilitySomeGroup.png
+.. image:: ../../../shared/building_running_course/Images/Cohorts_VisibilitySomeGroup.png
    :alt: Visibility icon is black when visibility for a component is restricted
 
-.. image:: ../Images/Cohorts_OnlyVisibleToParticularGroups.png   
+.. image:: ../../../shared/building_running_course/Images/Cohorts_OnlyVisibleToParticularGroups.png   
    :alt: Course outline sidebar shows visibility icon and note indicating that some content in the unit is visible only to particular group.
 
 For details about previewing your course to ensure that students in a cohort
@@ -237,7 +237,7 @@ To associate a cohort with a content group, follow these steps:
 #. From the drop down list, select the content group that you want your cohort
    to be associated with.
 
-.. image:: ../Images/Cohorts_AssociateWithContentGroup.png
+.. image:: ../../../shared/building_running_course/Images/Cohorts_AssociateWithContentGroup.png
    :alt: Visibility icon is black when visibility for a component is restricted
 
 7. Click **Save**.
@@ -295,7 +295,7 @@ You can view the course as a member of these groups:
 #. In the navigation bar at the top of the page, select one of the options in
    the **View this course as** drop down list, as described in the table above.
 
-.. image:: ../Images/Cohorts_ViewCourseAs.png
+.. image:: ../../../shared/building_running_course/Images/Cohorts_ViewCourseAs.png
    :alt: Visibility icon is black when visibility for a component is restricted
 
 

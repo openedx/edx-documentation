@@ -9,7 +9,7 @@ You add course updates and handouts in Studio.
 Students see the course updates and handouts in the **Course Info** tab in your
 course:
 
-.. image:: ../Images/course_info.png
+.. image:: ../../../shared/building_running_course/Images/course_info.png
  :alt: Image of the Course Info page, with a Course Updates & News section on
        the left side with a dated post and a frame titled "Course Handouts" 
        with links to files on the right side.

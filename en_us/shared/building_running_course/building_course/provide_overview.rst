@@ -26,7 +26,7 @@ For more information, see the following topics:
 Most of this information appears on the course About page, sometimes called the
 course summary page. The following image shows a typical About page.
 
-.. image:: ../Images/about_page.png
+.. image:: ../../../shared/building_running_course/Images/about_page.png
  :width: 600
  :alt: An image of the course About page showing the course start and end dates,
      prerequisites, description, and other information
@@ -35,7 +35,7 @@ Students see the course About page before they enroll in the course. After a
 student enrolls in the course, students can see information about your course on
 the Student Dashboard.
 
-.. image:: ../Images/dashboard.png
+.. image:: ../../../shared/building_running_course/Images/dashboard.png
  :width: 600
  :alt: An image of the dashboard showing courses with start and end dates
 
@@ -62,7 +62,7 @@ information about course requirements and staff.
 
 The course overview is outlined in the following course About page.
 
-.. image:: ../Images/about-page-course-description.png
+.. image:: ../../../shared/building_running_course/Images/about-page-course-description.png
  :width: 600
  :alt: Image of a course About page with the overview circled
 
@@ -75,7 +75,7 @@ To enter the course overview, follow these steps.
 #. Scroll down to the **Introducing Your Course** section, then locate the
    **Course Overview** field.
 
-  .. image:: ../Images/course_overview.png
+  .. image:: ../../../shared/building_running_course/Images/course_overview.png
    :width: 600
    :alt: Image of the HTML course description.
 
@@ -102,7 +102,7 @@ You provide a course image that identifies your course. The course image that
 you add in Studio appears on the student dashboard. On Edge, the course image
 also appears on the course About page.
 
-.. image:: ../Images/dashboard-course-image.png
+.. image:: ../../../shared/building_running_course/Images/dashboard-course-image.png
  :width: 600
  :alt: Image of the course image in the student dashboard
 
@@ -127,7 +127,7 @@ To excite and entice potential students to enroll, each course can have a course
 introduction video. The video should reveal some of the personality the
 instructors bring to the course.
 
-.. image:: ../Images/about-page-course-video.png
+.. image:: ../../../shared/building_running_course/Images/about-page-course-video.png
  :alt: Image of the course video in the course About page.
 
 The video should answer these key questions.
@@ -150,7 +150,7 @@ To add a course introduction video:
    between **watch?v =** and **&feature** in the URL. This code appears in the
    box below.
 
-  .. image:: ../Images/image127.png
+  .. image:: ../../../shared/building_running_course/Images/image127.png
     :alt: Image of a sample course video
     
 2. From the **Settings** menu, select **Schedule & Details**.
@@ -200,7 +200,7 @@ You can require that your students pass a particular edX course before they
 enroll in your course. Students see information about course prerequisites on
 the course About page.
 
-.. image:: ../Images/PrereqAboutPage.png
+.. image:: ../../../shared/building_running_course/Images/PrereqAboutPage.png
   :width: 500
   :alt: A course About page with prerequisite course information circled
 
@@ -210,7 +210,7 @@ other courses, the Student Dashboard does not provide a link to the courseware.
 The Student Dashboard includes a link to the About page for the prerequisite
 course. Students can enroll in the prerequisite course from the About page.
 
-.. image:: ../Images/Prereq_StudentDashboard.png
+.. image:: ../../../shared/building_running_course/Images/Prereq_StudentDashboard.png
   :width: 500
   :alt: The Student Dashboard with an available course and a course that is
       unavailable because it has a prerequisite
@@ -238,7 +238,7 @@ course materials. If you include an entrance exam, students who enroll in your
 course see only the **Course Updates & News** page and an **Entrance Exam** tab 
 until they pass the exam.
 
-.. image:: ../Images/EntEx_LandingPage.png
+.. image:: ../../../shared/building_running_course/Images/EntEx_LandingPage.png
   :width: 500
   :alt: The Course Updates & News page with the Entrance Exam tab circled on the
       left
@@ -286,7 +286,7 @@ students have a positive experience with entrance exams.
     Exam** tab again or refresh the page in their browser. When the page
     refreshes, students can see all currently available course content.
 
-    .. image:: ../Images/EntEx_CourseAccordionAfterPass.png
+    .. image:: ../../../shared/building_running_course/Images/EntEx_CourseAccordionAfterPass.png
       :width: 500
       :alt: The student view after the student has passed the entrance exam,
           with all available course sections listed in the course accordion
@@ -338,7 +338,7 @@ You must set dates and times for enrollment and for the course.
 #. In Studio, from the **Settings** menu, select **Schedule and Details**.  
 #. Follow the on-screen text to enter the course and enrollment schedule.
 
-   .. image:: ../Images/schedule.png
+   .. image:: ../../../shared/building_running_course/Images/schedule.png
     :width: 450
     :alt: An image of the course schedule page.
 
@@ -368,14 +368,14 @@ course. For more information about course-wide discussion topics, see
 The following example shows the course start date and time on the course About
 page:
 
-.. image:: ../Images/about-page-course-start.png
+.. image:: ../../../shared/building_running_course/Images/about-page-course-start.png
  :width: 600
  :alt: An image of the course About page, with the start date circled.
 
 In the dashboard, students see the start dates and times for each of their
 courses, as in the following examples.
 
-.. image:: ../Images/dashboard-course-to-start.png
+.. image:: ../../../shared/building_running_course/Images/dashboard-course-to-start.png
  :width: 600
  :alt: An image of two courses in the student dashboard, with the start dates
      and times circled.
@@ -405,7 +405,7 @@ To set an advertised start date:
    as a date (for example, as 02/01/2014), the value is parsed and presented to
    students as a date.
 
-  .. image:: ../Images/advertised_start.png
+  .. image:: ../../../shared/building_running_course/Images/advertised_start.png
    :alt: Image of the advertised start date policy key with a value of "anytime,
        self-paced"
 
@@ -414,7 +414,7 @@ To set an advertised start date:
 The start date shown on the dashboard is now the value of the **Course
 Advertised Start Date** policy key:
 
-.. image:: ../Images/dashboard-course_adver_start.png
+.. image:: ../../../shared/building_running_course/Images/dashboard-course_adver_start.png
  :width: 600
  :alt: An image of a course listing in the student dashboard, with the
      advertised start date circled.
@@ -445,20 +445,20 @@ examples.
 * If grades and certificates are not yet finalized, students can see the course
   end date and a message:
 
-  .. image:: ../Images/dashboard-wrapping-course.png
+  .. image:: ../../../shared/building_running_course/Images/dashboard-wrapping-course.png
    :alt: Image of a course on the student dashboard that has ended, but not
      been graded
 
 * When grades and certificates are finalized, students who have not earned a
   certificate see their score and the score required to earn a certificate:
   
-  .. image:: ../Images/dashboard-no-cert-course.png
+  .. image:: ../../../shared/building_running_course/Images/dashboard-no-cert-course.png
    :alt: Image of a course on the student dashboard that has ended, but not
      been graded
 
 * Students whose final score is equal to or higher than the required score can
   click **Download Certificate** to get their certificates as PDFs:
 
-  .. image:: ../Images/dashboard-completed-course.png
+  .. image:: ../../../shared/building_running_course/Images/dashboard-completed-course.png
    :alt: Image of a course on the student dashboard that has ended, but not
      been graded

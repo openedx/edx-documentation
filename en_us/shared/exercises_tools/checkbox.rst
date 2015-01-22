@@ -6,7 +6,7 @@ Checkbox Problem
 
 In checkbox problems, the student selects one or more options from a list of possible answers. The student must select all the options that apply to answer the problem correctly. Each checkbox problem must have at least one correct answer.
 
-.. image:: /Images/CheckboxExample.png
+.. image:: ../../../shared/building_running_course/Images/CheckboxExample.png
  :alt: Image of a checkbox problem
 
 ****************************
@@ -29,7 +29,7 @@ Simple Editor
 #. Determine the text of the problem to use as a label, and then surround that text with two sets of angle brackets (>><<).
 #. Select all the answer options, and then click the checkbox button. 
 
-   .. image:: /Images/ProbComponent_CheckboxIcon.png
+   .. image:: ../../../shared/building_running_course/Images/ProbComponent_CheckboxIcon.png
     :alt: Image of the checkbox button
    
    When you do this, brackets appear next to each answer choice.
@@ -38,7 +38,7 @@ Simple Editor
 #. In the component editor, select the text of the explanation, and then click the 
    explanation button to add explanation tags around the text.
 
-   .. image:: /Images/ProbCompButton_Explanation.png
+   .. image:: ../../../shared/building_running_course/Images/ProbCompButton_Explanation.png
     :alt: Image of the explanation button
 
 #. On the **Settings** tab, specify the settings that you want. 

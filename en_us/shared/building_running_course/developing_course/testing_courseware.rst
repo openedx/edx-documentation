@@ -45,18 +45,18 @@ particular groups, see :ref:`Preview Cohort Specific Courseware`.
 For example, you :ref:`publish a unit<Publish a Unit>` with a video and
 discussion:
 
-.. image:: ../Images/test-unit-studio.png
+.. image:: ../../../shared/building_running_course/Images/test-unit-studio.png
  :alt: A unit in Studio with a video and discussion
 
 Students see the same content in the LMS:
 
-.. image:: ../Images/test-unit-lms.png
+.. image:: ../../../shared/building_running_course/Images/test-unit-lms.png
  :alt: A unit in the LMS with a video and discussion
 
 You later decide to add a multiple choice problem to the unit, before the
 discussion:
 
-.. image:: ../Images/test-unit-studio-added-comp.png
+.. image:: ../../../shared/building_running_course/Images/test-unit-studio-added-comp.png
  :alt: A unit in Studio with a video, problem, and discussion
 
 Before you publish this change, you can see what the question will look to
@@ -65,7 +65,7 @@ students.
 When you click **Preview Changes**,  you see the unit in the LMS with
 the multiple choice question:
 
-.. image:: ../Images/test-unit-lms-added-comp.png
+.. image:: ../../../shared/building_running_course/Images/test-unit-lms-added-comp.png
  :alt: A unit in the LMS with a video, problem, and discussion
 
 This preview shows how students will experience the unit after you
@@ -97,12 +97,12 @@ course appears to students in two ways.
 
 * From the outline page, click **View Live**.
    
-  .. image:: ../Images/test-outline-view-live.png
+  .. image:: ../../../shared/building_running_course/Images/test-outline-view-live.png
    :alt: View live button on the outline
 
 * In a unit page, click **View Live Version**.
    
-  .. image:: ../Images/test-unit-view-live.png
+  .. image:: ../../../shared/building_running_course/Images/test-unit-view-live.png
    :alt: View Live Version button on the unit page
 
 =================
@@ -111,7 +111,7 @@ Staff View
 
 You see the course in the **Staff View**.
 
-.. image:: ../Images/Live_Course_Staff_View.png
+.. image:: ../../../shared/building_running_course/Images/Live_Course_Staff_View.png
  :alt: Image of the Courseware page in a live course with Staff View indicated
      at top right and a View Unit in Studio button
  
@@ -151,7 +151,7 @@ course with all course content that is intended for all students.
 To switch to the **Student** view, click **View this course as** and select
 **Student** from the drop down list.
 
-.. image:: ../Images/test-view-as-student.png  
+.. image:: ../../../shared/building_running_course/Images/test-view-as-student.png  
    :alt: Image of the View Course As drop down list with Staff, Student, and named content group options
 
 In **Student View**:
@@ -179,7 +179,7 @@ Studio directly.
    
 * In a unit page, click **View Unit in Studio**.
   
-  .. image:: ../Images/Live_Studio_from_LMS_Unit.png
+  .. image:: ../../../shared/building_running_course/Images/Live_Studio_from_LMS_Unit.png
    :alt: The View Unit in Studio button in an LMS unit
 
   The unit page opens in Studio.
@@ -187,7 +187,7 @@ Studio directly.
 * In the Instructor Dashboard, click **View Course in Studio** to open the
   course outline.
  
-  .. image:: ../Images/Live_Course_Instructor_Dashboard.png
+  .. image:: ../../../shared/building_running_course/Images/Live_Course_Instructor_Dashboard.png
     :alt: Image of the Instructor Dashboard in a live course with a View Course
         in Studio button
 
@@ -197,7 +197,7 @@ Studio directly.
 * In the **Course Progress** page, click **View Grading in Studio** to open the
   Grading page.
  
-  .. image:: ../Images/Student_Progress.png
+  .. image:: ../../../shared/building_running_course/Images/Student_Progress.png
      :alt: Image of the Course Progress page for a student with a View  Grading
          in Studio button
 

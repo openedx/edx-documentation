@@ -6,7 +6,7 @@ Multiple Choice Problem
 
 In multiple choice problems, students select one option from a list of answer options. Unlike with dropdown problems, whose answer choices don't appear until the student clicks the drop-down arrow, answer choices for multiple choice problems are always visible directly below the question.
 
-.. image:: /Images/MultipleChoiceExample.png
+.. image:: ../../../shared/building_running_course/Images/MultipleChoiceExample.png
  :alt: Image of a multiple choice problem
 
 Multiple choice problems also have several advanced options, such as presenting a random set of choices to each student. For more information about these options, see :ref:`Multiple Choice Advanced Options`.
@@ -32,7 +32,7 @@ Simple Editor
 #. Determine the text of the problem to use as a label, and then surround that text with two sets of angle brackets (>><<).
 #. Select all the answer options, and then click the multiple choice button. 
    
-   .. image:: /Images/ProbCompButton_MultChoice.png
+   .. image:: ../../../shared/building_running_course/Images/ProbCompButton_MultChoice.png
     :alt: Image of the multiple choice button
    
    When you do this, the component editor adds a pair of parentheses next to each 
@@ -43,7 +43,7 @@ Simple Editor
 #. In the component editor, select the text of the explanation, and then click the 
    explanation button to add explanation tags around the text.
 
-   .. image:: /Images/ProbCompButton_Explanation.png
+   .. image:: ../../../shared/building_running_course/Images/ProbCompButton_Explanation.png
     :alt: Image of the explanation button
 
 #. On the **Settings** tab, specify the settings that you want. 
@@ -125,12 +125,12 @@ Optionally, you can configure a multiple choice problem so that it shuffles the 
 
 For example, one view of the problem could be:
 
-.. image:: ../Images/multiple-choice-shuffle-1.png
+.. image:: ../../../shared/building_running_course/Images/multiple-choice-shuffle-1.png
  :alt: Image of a multiple choice problem
 
 And another view of the same problem, for another student or for the same student of a subsequent view of the unit, could be:
 
-.. image:: ../Images/multiple-choice-shuffle-2.png
+.. image:: ../../../shared/building_running_course/Images/multiple-choice-shuffle-2.png
  :alt: Image of a multiple choice problem with shuffled answers
 
 You can also have some answers shuffled, but not others. For example, you may want to have the answer "All of the Above" fixed at the end of the list, but shuffle other answers.

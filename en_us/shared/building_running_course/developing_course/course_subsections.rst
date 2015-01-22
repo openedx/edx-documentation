@@ -40,7 +40,7 @@ Viewing Subsections in the Outline
 The following example shows three subsections in a section, all collapsed, in
 the course outline:
 
-.. image:: ../Images/subsections.png
+.. image:: ../../../shared/building_running_course/Images/subsections.png
  :alt: Three collapsed subsections in the outline
 
 
@@ -52,7 +52,7 @@ Students see subsections in the Courseware tab, listed beneath the expanded
 section. In the following example, seven subsections are circled, and the first
 is open.
 
-.. image:: ../Images/subsections_student.png
+.. image:: ../../../shared/building_running_course/Images/subsections_student.png
  :alt: The student view of the outline
 
 
@@ -97,7 +97,7 @@ visible to students at the date and time the section is released.
 The following example shows how an subsection in the Scheduled with Section
 state is displayed in the outline, summarized with a green bar:
 
-.. image:: ../Images/subsection-scheduled.png
+.. image:: ../../../shared/building_running_course/Images/subsection-scheduled.png
  :alt: A subsection scheduled to release with the section
 
 
@@ -114,7 +114,7 @@ in an unscheduled subsection is visible to students.
 The following example shows how an unscheduled subsection is displayed in the
 outline, summarized with a gray bar:
 
-.. image:: ../Images/subsection-unscheduled.png
+.. image:: ../../../shared/building_running_course/Images/subsection-unscheduled.png
  :alt: An unscheduled subsection
 
 Content in the subsection is not visible to students until you set a release
@@ -134,7 +134,7 @@ published.
 The following example shows the way that a subsection that will release after
 its parent subsection appears in the course outline:
 
-.. image:: ../Images/subsection-scheduled-different.png
+.. image:: ../../../shared/building_running_course/Images/subsection-scheduled-different.png
  :alt: A subsection scheduled to release later than the section
 
 The scheduled date must pass for the subsection to be visible to students.
@@ -153,7 +153,7 @@ The changes in units are not visible to students until you publish them.
 The following example shows how a scheduled subsection with unpublished changes
 is displayed in the outline, summarized with a yellow bar:
 
-.. image:: ../Images/section-scheduled-with-changes.png
+.. image:: ../../../shared/building_running_course/Images/section-scheduled-with-changes.png
  :alt: A scheduled subsection with unpublished changes
 
 
@@ -167,7 +167,7 @@ visible to students until you publish them.
 The following example shows how a released section that has unpublished changes
 appears in the outline, summarized with a yellow bar:
 
-.. image:: ../Images/section-released-with-changes.png
+.. image:: ../../../shared/building_running_course/Images/section-released-with-changes.png
  :alt: A released subsection with unpublished changes
 
 ===========================
@@ -180,7 +180,7 @@ only units within the subsection that are published.
 The following example shows how a released subsection is displayed in the
 outline, summarized with a blue bar:
 
-.. image:: ../Images/subsection-released.png
+.. image:: ../../../shared/building_running_course/Images/subsection-released.png
  :alt: A released subsection
 
 ===========================
@@ -194,7 +194,7 @@ been released.
 The following example shows how an subsection that contains a unit that is
 hidden from students is displayed in the outline, summarized with a black bar:
 
-.. image:: ../Images/section-hidden-unit.png
+.. image:: ../../../shared/building_running_course/Images/section-hidden-unit.png
  :alt: A section with a hidden unit 
 
 .. _Create a Subsection:
@@ -235,14 +235,14 @@ To set the subsection release date:
 
 #. Click the Settings icon in the subsection box:
    
-   .. image:: ../Images/subsections-settings-icon.png
+   .. image:: ../../../shared/building_running_course/Images/subsections-settings-icon.png
     :alt: The subsection settings icon circled
 
    The **Settings** dialog box opens.
 
 #. Enter the release date and time for the section:
 
-   .. image:: ../Images/subsection-settings-release.png
+   .. image:: ../../../shared/building_running_course/Images/subsection-settings-release.png
     :alt: The subsection release date settings
 
 #. Click **Save**.
@@ -266,14 +266,14 @@ To set the assignment type and due date for a subsection:
 
 #. Click the Settings icon in the subsection box:
    
-   .. image:: ../Images/subsections-settings-icon.png
+   .. image:: ../../../shared/building_running_course/Images/subsections-settings-icon.png
     :alt: The subsection settings icon circled
 
    The Settings dialog box opens.
 
 #. Select the assignment type for this subsection in the **Grade as** field:
    
-   .. image:: ../Images/subsection-settings-grading.png
+   .. image:: ../../../shared/building_running_course/Images/subsection-settings-grading.png
     :alt: The subsection settings with the assignment type and due date circled
 
 #. Enter or select a due date and time for problems in this subsection.
@@ -290,7 +290,7 @@ Publish all Units in a Subsection
 To publish all new and changed units in a subsection, click the publish icon in
 the box for the subsection:
 
-.. image:: ../Images/outline-publish-icon-subsection.png
+.. image:: ../../../shared/building_running_course/Images/outline-publish-icon-subsection.png
  :alt: Publishing icon for a subsection
 
 .. note:: 
@@ -313,14 +313,14 @@ To hide a subsection from students:
 
 #. Click the Settings icon in the subsection box:
    
-   .. image:: ../Images/subsections-settings-icon.png
+   .. image:: ../../../shared/building_running_course/Images/subsections-settings-icon.png
     :alt: The subsection settings icon circled
 
    The **Settings** dialog box opens.
 
 #. Check **Hide from students**.
 
-   .. image:: ../Images/subsection-settings-hidden.png
+   .. image:: ../../../shared/building_running_course/Images/subsection-settings-hidden.png
     :alt: The subsection hide from students setting
 
 #. Click **Save**.
@@ -354,7 +354,7 @@ To delete a subsection:
 
 #. Click the delete icon in the subsection that you want to delete:
 
-  .. image:: ../Images/subsection-delete.png
+  .. image:: ../../../shared/building_running_course/Images/subsection-delete.png
    :alt: The subsection with Delete icon circled
 
 2. When you receive the confirmation prompt, click **Yes, delete this

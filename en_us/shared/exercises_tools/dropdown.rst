@@ -6,7 +6,7 @@ Dropdown Problem
 
 Dropdown problems allow the student to choose from a collection of answer options, presented as a dropdown list. Unlike multiple choice problems, whose answers are always visible directly below the question, dropdown problems don't show answer choices until the student clicks the dropdown arrow.
 
-.. image:: /Images/DropdownExample.png
+.. image:: ../../../shared/building_running_course/Images/DropdownExample.png
  :alt: Image of a dropdown problem
 
 ********************************
@@ -32,7 +32,7 @@ To create a dropdown problem, follow these steps.
 #. Determine the text of the problem to use as a label, and then surround that text with two sets of angle brackets (>><<).
 #. Select all the answer options, and then click the dropdown button. 
       
-   .. image:: /Images/ProbCompButton_Dropdown.png
+   .. image:: ../../../shared/building_running_course/Images/ProbCompButton_Dropdown.png
     :alt: Image of the dropdown button
       
    When you do this, a double set of brackets ([[ ]]) appears and surrounds the 
@@ -42,7 +42,7 @@ To create a dropdown problem, follow these steps.
 #. In the component editor, select the text of the explanation, and then click the 
    explanation button to add explanation tags around the text.
 
-   .. image:: /Images/ProbCompButton_Explanation.png
+   .. image:: ../../../shared/building_running_course/Images/ProbCompButton_Explanation.png
     :alt: Image of the explanation button
 
 #. On the **Settings** tab, specify the settings that you want. 

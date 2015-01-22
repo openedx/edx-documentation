@@ -24,7 +24,7 @@ You can add pages to your course. Each page appears in your course's navigation 
 For example, the following navigation bar includes the default pages as well as the
 **Course Schedule** and **Supplements & Instructor's Blog** pages.
 
-.. image:: ../Images/page_bar_lms.png
+.. image:: ../../../shared/building_running_course/Images/page_bar_lms.png
  :alt: Image of the page bar in the LMS
 
 You can create other pages for the grading policy, course slides, or any other purpose. More examples of pages you can add are:
@@ -52,18 +52,18 @@ Add a Page
 
 #. In Studio, from the **Content** menu, select **Pages**. 
 
-  .. image:: ../Images/pages_page.png
+  .. image:: ../../../shared/building_running_course/Images/pages_page.png
    :alt: Image of the Pages screen
 
 
 2. Click **Add a New Page**. A page with the title **Empty** is added to the list:
 
-  .. image:: ../Images/pages_empty.png
+  .. image:: ../../../shared/building_running_course/Images/pages_empty.png
    :alt: Image of the Pages screen with a new Empty page
 
 3. Click **Edit**. The HTML editor opens.  
 
-  .. image:: ../Images/pages_editor.png
+  .. image:: ../../../shared/building_running_course/Images/pages_editor.png
    :alt: Image of the Page editor
 
 4. Enter text for your page. See :ref:`Options for Editing HTML Components` for more information about using the editor.
@@ -84,12 +84,12 @@ If you do not want to use the Wiki in your course, you can hide the page.
 
 The eye icon in the Wiki object indicates that the Wiki page is visible in your course:
 
-.. image:: ../Images/pages_wiki_on.png
+.. image:: ../../../shared/building_running_course/Images/pages_wiki_on.png
  :alt: Image of the Pages page with the Wiki made visible
 
 Click the eye icon to hide the Wiki page. The icon changes:
 
-.. image:: ../Images/pages_wiki_off.png
+.. image:: ../../../shared/building_running_course/Images/pages_wiki_off.png
  :alt: Image of the Pages page with the Wiki made visible
 
 Click it again to make the Wiki page visible.

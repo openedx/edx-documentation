@@ -37,7 +37,7 @@ Viewing Sections in the Outline
 
 The follow example shows four sections, all collapsed, in the course outline:
 
-.. image:: ../Images/sections-outline.png
+.. image:: ../../../shared/building_running_course/Images/sections-outline.png
  :alt: Four sections in the outline
 
 ******************************
@@ -48,7 +48,7 @@ Students see sections in the **Courseware** tab. Students can expand one
 section at a time to see its contents. In the following example, three sections
 are circled, and the third one is expanded to show its subsections:
 
-.. image:: ../Images/sections_student.png
+.. image:: ../../../shared/building_running_course/Images/sections_student.png
  :alt: The students view of the course with two sections circled
 
 ************************************************
@@ -96,7 +96,7 @@ default release date is the course start date.
 The following example shows how an unscheduled section is displayed in the
 outline, summarized with a gray bar:
 
-.. image:: ../Images/section-unscheduled.png
+.. image:: ../../../shared/building_running_course/Images/section-unscheduled.png
  :alt: An unscheduled section
 
 To make the content available to students, you must schedule the release date.
@@ -112,7 +112,7 @@ content within the section, the entire section will not visible to students.
 The following example shows how a section that is scheduled for release is
 displayed in the outline, summarized with a green bar:
 
-.. image:: ../Images/section-future.png
+.. image:: ../../../shared/building_running_course/Images/section-future.png
  :alt: An section scheduled to release in the future
 
 The scheduled date must pass for the section to be visible to students.
@@ -128,7 +128,7 @@ published.
 The following example shows how a released section is displayed in the outline,
 summarized with a blue bar:
 
-.. image:: ../Images/section-released.png
+.. image:: ../../../shared/building_running_course/Images/section-released.png
  :alt: An unscheduled section
 
 ==================================
@@ -142,7 +142,7 @@ The following example shows how a released section with unpublished changes is
 displayed in the outline, with a yellow bar. The section is expanded to show
 the unit with unpublished changes:
 
-.. image:: ../Images/section-unpublished-changes.png
+.. image:: ../../../shared/building_running_course/Images/section-unpublished-changes.png
  :alt: A section with unpublished changes
 
 You must publish the unit for students to see the updates.
@@ -158,7 +158,7 @@ date of the section or subsection.
 The following example shows how a section that contains a unit that is hidden
 from students is displayed in the outline, summarized with a black bar:
 
-.. image:: ../Images/section-hidden-unit.png
+.. image:: ../../../shared/building_running_course/Images/section-hidden-unit.png
  :alt: A section with a hidden unit 
 
 
@@ -183,7 +183,7 @@ To create a new section:
 
 #. Click **New Section** at the top or bottom of the outline: 
    
-   .. image:: ../Images/outline-create-section.png
+   .. image:: ../../../shared/building_running_course/Images/outline-create-section.png
      :alt: The outline with the New Section buttons circled
 
    A new section is added at the end of the course content, with the section
@@ -203,7 +203,7 @@ Change a Section Name
 
 To edit a section name, hover over the section name to show the Edit icon:
 
-.. image:: ../Images/section-edit-icon.png
+.. image:: ../../../shared/building_running_course/Images/section-edit-icon.png
   :alt: The Edit Section Name icon
 
 Click the Edit icon next to the section name. The name field becomes editable.
@@ -219,14 +219,14 @@ To set the section release date:
 
 #. Click the Settings icon in the section box:
    
-   .. image:: ../Images/section-settings-box.png
+   .. image:: ../../../shared/building_running_course/Images/section-settings-box.png
     :alt: The section settings icon circled
 
    The **Settings** dialog box opens.
 
 #. Enter the release date and time for the section:
    
-   .. image:: ../Images/section-settings-release-date.png
+   .. image:: ../../../shared/building_running_course/Images/section-settings-release-date.png
     :alt: The section release date settings
 
 #. Click **Save**.
@@ -242,7 +242,7 @@ Publish all Units in a Section
 To publish all new and changed units in a section, click the publish icon in
 the box for the section:
 
-.. image:: ../Images/outline-publish-icon-section.png
+.. image:: ../../../shared/building_running_course/Images/outline-publish-icon-section.png
  :alt: Publishing icon for a section
 
 .. note:: 
@@ -266,14 +266,14 @@ To hide a section from students:
 
 #. Click the Settings icon in the section box:
    
-   .. image:: ../Images/section-settings-box.png
+   .. image:: ../../../shared/building_running_course/Images/section-settings-box.png
     :alt: The section settings icon circled
 
    The **Settings** dialog box opens.
 
 #. Check **Hide from students**.
 
-   .. image:: ../Images/section-settings-hide.png
+   .. image:: ../../../shared/building_running_course/Images/section-settings-hide.png
     :alt: The section hide from students setting
 
 #. Click **Save**.
@@ -306,7 +306,7 @@ To delete a section:
 
 #. Click the delete icon in the section that you want to delete:
 
-  .. image:: ../Images/section-delete.png
+  .. image:: ../../../shared/building_running_course/Images/section-delete.png
    :alt: The section with Delete icon circled
 
 2. When you receive the confirmation prompt, click **Yes, delete this

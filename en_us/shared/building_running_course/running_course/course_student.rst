@@ -57,7 +57,7 @@ When students register with edX, they select a public username and supply
 information about themselves. Most of this information is optional, so not all
 of the students who are enrolled in your course provide it.
 
- .. image:: ../Images/Registration_page.png
+ .. image:: ../../../shared/building_running_course/Images/Registration_page.png
    :alt: Fields that collect student information during registration
 
 Students then enroll in as many individual courses as they choose, which enrolls
@@ -146,7 +146,7 @@ To view student data:
    A table of the student data displays, with one row for each enrolled
    student. Longer values, such as student goals, are truncated.
 
- .. image:: ../Images/StudentData_Table.png
+ .. image:: ../../../shared/building_running_course/Images/StudentData_Table.png
   :alt: Table with columns for the collected data points and rows for each 
         student on the Instructor Dashboard
 

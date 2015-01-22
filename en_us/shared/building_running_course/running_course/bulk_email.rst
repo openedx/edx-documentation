@@ -88,7 +88,7 @@ When you click **Send Email** for a message, the server begins to process a
 bulk email task. The server assigns a series of different workflow states to
 the task.
   
-.. image:: ../Images/Bulk_email_states.png
+.. image:: ../../../shared/building_running_course/Images/Bulk_email_states.png
        :alt: Flowchart of the possible states of a bulk email task 
 
 The workflow states for a bulk email task are:
@@ -106,7 +106,7 @@ While the bulk email task is in progress, you can find out how far it has
 gotten in the workflow by checking the **Pending Instructor Tasks** section on
 the **Email** page.
 
-.. image:: ../Images/Bulk_email_pending.png
+.. image:: ../../../shared/building_running_course/Images/Bulk_email_pending.png
        :alt: Information about an email message, including who submitted it 
              and when, in tabular format
 
@@ -131,14 +131,14 @@ message text.
 #. In the **Email Task History** section of the page, click **Sent Email
    History**. The list of sent messages displays.
 
-   .. image:: ../Images/Bulk_email_list.png
+   .. image:: ../../../shared/building_running_course/Images/Bulk_email_list.png
     :alt: A tabular list of sent messages, with columns for subject, sent by,  
           time sent, and number sent
 
 4. To review additional information for a message, click its subject. The
    message opens in a dialog box.
  
-   .. image:: ../Images/Bulk_email_sent.png
+   .. image:: ../../../shared/building_running_course/Images/Bulk_email_sent.png
     :alt: A dialog box with the subject, sent by, date and time sent, sent to, 
           and message for an email message, and an option to Copy Email 
           to Editor
@@ -180,7 +180,7 @@ To produce the Email Task History report:
    History**. A report like the following example displays on the Instructor
    Dashboard.
 
-.. image:: ../Images/Bulk_email_history.png
+.. image:: ../../../shared/building_running_course/Images/Bulk_email_history.png
        :width: 800
        :alt: A tabular report with a row for each message sent and columns for requester, date and time submitted, duration, state, task status, and task progress.
 

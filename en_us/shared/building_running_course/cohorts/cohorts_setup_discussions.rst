@@ -43,7 +43,7 @@ topics called Course Q&A, Announcements, and Brainstorming to your course, so
 that in addition to the system-supplied General topic, you have four course-wide
 discussion topics.
 
-.. image:: ../Images/Discussion_Add_cohort_topics.png
+.. image:: ../../../shared/building_running_course/Images/Discussion_Add_cohort_topics.png
  :alt: Discussion Topic Mapping field with four course-wide discussion topics 
        defined
 
@@ -122,7 +122,7 @@ follow.
 
 6. Click **Save Changes**. Studio resequences and reformats your entry.
 
- .. image:: ../Images/Configure_cohort_topic.png
+ .. image:: ../../../shared/building_running_course/Images/Configure_cohort_topic.png
   :alt: Cohort Configuration dictionary field with the cohorted_discussions key
         defined
 
@@ -193,7 +193,7 @@ regardless of their cohort.
 
 5. Click **Save Changes**. Studio resequences and reformats your entry. 
  
- .. image:: ../Images/cohort_config_always_inline.png
+ .. image:: ../../../shared/building_running_course/Images/cohort_config_always_inline.png
   :alt: Cohort Configuration dictionary field with the cohort key set as true and the always cohort inline discussions key set as false
 
 6. Scroll back to the **Cohort Configuration** field to verify that your entry
@@ -219,7 +219,7 @@ divided by cohort.
    cohort, locate the discussion component in Studio, then copy or make a
    note of its **Discussion ID**.
 
-.. image:: ../Images/DiscussionID.png
+.. image:: ../../../shared/building_running_course/Images/DiscussionID.png
 
 3. Select **Settings**, then **Advanced Settings**.
 
@@ -257,7 +257,7 @@ divided by cohort.
    square bracket character (``],``). You must include a comma to separate each
    policy key that you define.
 
- .. image:: ../Images/cohort_config_cohorted_discussions.png
+ .. image:: ../../../shared/building_running_course/Images/cohort_config_cohorted_discussions.png
   :alt: Cohort Configuration dictionary field with the cohort key set as true, the always cohort inline discussions key set as false, and two discussion topics IDs entered under the cohorted discussions policy key
 
 

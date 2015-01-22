@@ -6,7 +6,7 @@ Problem with Adaptive Hint
 
 A problem with an adaptive hint evaluates a student's response, then gives the student feedback or a hint based on that response so that the student is more likely to answer correctly on the next attempt. These problems can be text input problems.
 
-.. image:: /Images/ProblemWithAdaptiveHintExample.png
+.. image:: ../../../shared/building_running_course/Images/ProblemWithAdaptiveHintExample.png
  :alt: Image of a problem with an adaptive hint
 
 ******************************************

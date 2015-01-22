@@ -61,7 +61,7 @@ content-specific discussion opportunities is called a *topic*. When these
 discussion topics are included in a course, they typically appear below the
 content they apply to.
 
-.. image:: /Images/Discussion_content_specific.png
+.. image:: ../../../shared/building_running_course/Images/Discussion_content_specific.png
  :alt: A discussion topic that appears below a video in the course, identified 
        by a "Show Discussion" link
 
@@ -70,7 +70,7 @@ as "Frequently Asked Questions" and "Troubleshooting". You access these topics
 on the **Discussion** page of the course: click the **All Discussions**
 drop-down.
 
-.. image:: /Images/Discussion_course_wide.png
+.. image:: ../../../shared/building_running_course/Images/Discussion_course_wide.png
  :alt: Discussion topics are listed on the Discussion page when you click the 
        drop-down list at the left side of the page
 
@@ -108,7 +108,7 @@ or a discussion. When you visit the **Discussion** page for your course, a
 question mark image identifies posts that ask questions and a conversation
 bubble image identifies posts that start discussions.
 
-.. image:: ../Images/Post_types_in_list.png
+.. image:: ../../../shared/building_running_course/Images/Post_types_in_list.png
  :alt: The list of posts with images identifying questions and discussions 
 
 If you have any difficulty deciding which type of post you want to add, think
@@ -159,7 +159,7 @@ To review posts about a particular part of the course or type of issue, click
 down list. (**All Discussions** is selected by default.) Only posts about the
 topic you select appear in the list of posts.
 
-.. image:: ../Images/Discussion_filters.png
+.. image:: ../../../shared/building_running_course/Images/Discussion_filters.png
  :alt: The list of posts with callouts to identify the top filter to select 
        one topic and the filter below it to select by state 
 
@@ -207,7 +207,7 @@ Add a Post to a Content-Specific Discussion Topic
   
 4. To add a post, click **New Post**.
 
-.. image:: /Images/Discussion_content_specific_post.png
+.. image:: ../../../shared/building_running_course/Images/Discussion_content_specific_post.png
   :alt: Adding a post about specific course content
 
 5. Select the type of post: click **Question** or **Discussion**.
@@ -234,7 +234,7 @@ discussion topics.
 
 #. Select the most appropriate discussion topic for your post.
 
-  .. image:: /Images/Discussion_course_wide_post.png
+  .. image:: ../../../shared/building_running_course/Images/Discussion_course_wide_post.png
     :alt: Selecting the topic for a new post on the Discussion page 
 
 5. Supply a short, descriptive **Title**. The title is the part of your post
@@ -268,7 +268,7 @@ Add a Response or Comment to a Content-Specific Discussion Topic
 
 #. Click **Expand discussion**.
    
-  .. image:: /Images/Discussion_expand.png
+  .. image:: ../../../shared/building_running_course/Images/Discussion_expand.png
     :alt: The **Expand discussion** link under a post
 
 6. Add a response or comment.
@@ -295,7 +295,7 @@ content-specific discussion topics.
  - To add a response to the post, click **Add A Response**. When your response
    is complete, click **Submit**.
 
-  .. image:: /Images/Discussion_add_response.png
+  .. image:: ../../../shared/building_running_course/Images/Discussion_add_response.png
     :alt: The **Add A Response** button located between a post and its 
           responses 
 
@@ -325,7 +325,7 @@ completely.
 * Exchanges that you have read completely have a gray callout image and
   background.
 
- .. image:: ../Images/Discussion_colorcoding.png
+ .. image:: ../../../shared/building_running_course/Images/Discussion_colorcoding.png
   :alt: The list of posts with posts showing differently colored backgrounds 
         and callout images
 
@@ -333,7 +333,7 @@ The total number of contributions in the exchange (the post and its responses
 and comments) appears in each callout image. To see the number of contributions
 that you haven't read yet, move your cursor over the callout image.
 
-.. image:: ../Images/Discussion_mouseover.png
+.. image:: ../../../shared/building_running_course/Images/Discussion_mouseover.png
  :alt: A post with 4 contributions total and a popup that shows only two are 
        unread 
 
@@ -377,14 +377,14 @@ To select a feedback option, you use the icons at the top right of each post,
 response, or comment. When you move your cursor over these icons a label
 appears.
 
-.. image:: ../Images/Discussion_options_mouseover.png
+.. image:: ../../../shared/building_running_course/Images/Discussion_options_mouseover.png
  :alt: The icons at top right of a post, shown before the cursor is 
       placed over each one and with the Vote, Follow, and More labels
 
 When you click the "More" icon, a menu of the options that currently apply
 appears.
 
-.. image:: ../Images/Discussion_More_menu.png
+.. image:: ../../../shared/building_running_course/Images/Discussion_More_menu.png
  :alt: The More icon expanded to show a menu with one option and a menu with 
        three options
 
@@ -397,14 +397,14 @@ Vote for Posts or Responses
 If you like a post or one of its responses, you can vote for it: view the
 post or response and click the "Vote" icon at top right.
 
-.. image:: ../Images/Discussion_vote.png
+.. image:: ../../../shared/building_running_course/Images/Discussion_vote.png
  :alt: A post with the Vote icon circled
 
 You can sort the list of posts so that the posts with the most votes appear at
 the top: click the drop-down list of sorting options and select **by most
 votes**.
 
-.. image:: ../Images/Discussion_sortvotes.png
+.. image:: ../../../shared/building_running_course/Images/Discussion_sortvotes.png
  :alt: The list of posts with the "by most votes" sorting option and the 
        number of votes for the post circled
 
@@ -420,7 +420,7 @@ Follow Posts
 If you find a post particularly interesting and want to return to it in the
 future, you can follow it: view that post and click the "Follow" icon.
 
-.. image:: ../Images/Discussion_follow.png
+.. image:: ../../../shared/building_running_course/Images/Discussion_follow.png
  :alt: A post with the Follow icon circled
 
 Each post that you follow appears with a "Following" indicator in the list of
@@ -430,7 +430,7 @@ To list only the posts that you are following, regardless of the discussion
 topic they apply to, click the drop-down Discussion list and select
 **Posts I'm Following**.
 
-.. image:: ../Images/Discussion_filterfollowing.png
+.. image:: ../../../shared/building_running_course/Images/Discussion_filterfollowing.png
  :alt: The list of posts with the "Posts I'm Following" filter selected. Every
        post in the list shows the following indicator.
 
@@ -447,14 +447,14 @@ The person who posted the question (and staff members) can mark responses as
 correct: click the "Mark as Answer" icon that appears at upper right of
 the response.
 
-.. image:: ../Images/Discussion_answer_question.png
+.. image:: ../../../shared/building_running_course/Images/Discussion_answer_question.png
  :alt: A question and a response, with the Mark as Answer icon circled
 
 After at least one response is marked as the answer, a check or tick mark image
 replaces the question mark image for the post in the list on the **Discussion**
 page.
 
-.. image:: ../Images/Discussion_answers_in_list.png
+.. image:: ../../../shared/building_running_course/Images/Discussion_answers_in_list.png
  :alt: The list of posts with images identifying unanswered and answered
      questions and discussions
 
@@ -468,7 +468,7 @@ You can flag any post, response, or comment for a discussion moderator to
 review: view the contribution, click the "More" icon, and then click
 **Report**.
 
-.. image:: ../Images/Discussion_reportmisuse.png
+.. image:: ../../../shared/building_running_course/Images/Discussion_reportmisuse.png
  :alt: A post and a response with the "Report" link circled
 
 .. Future: DOC-121 As a course author, I need a template of discussion guidelines to give to students

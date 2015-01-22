@@ -65,7 +65,7 @@ Enabling the Cohort Feature
 #. Click **Save Changes**. Studio reformats the name:value pair you just
    entered to indent it on a new line.
    
- .. image:: ../Images/Enable_cohorts.png
+ .. image:: ../../../shared/building_running_course/Images/Enable_cohorts.png
   :alt: Cohort Configuration dictionary field with the cohorted key defined 
         as true
 
@@ -144,13 +144,13 @@ cohort. See :ref:`Read the Cohort Indicator in Posts`.
    punctuation characters revert to the previous value when you save, and no
    warning is presented.
 
- .. image:: ../Images/Multiple_auto_cohort_groups.png
+ .. image:: ../../../shared/building_running_course/Images/Multiple_auto_cohort_groups.png
   :alt: Cohort Configuration dictionary field with the auto_cohort_groups key 
         with three values
 
 .. spacer line
 
- .. image:: ../Images/Single_auto_cohort_group.png
+ .. image:: ../../../shared/building_running_course/Images/Single_auto_cohort_group.png
   :alt: Cohort Configuration dictionary field with the auto_cohort_groups key 
         with one value
 

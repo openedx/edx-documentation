@@ -190,7 +190,7 @@ discussion topic in the course content.
 Students who are assigned to the default cohort see a cohort name of "Default
 Group" in discussion posts.
 
-.. image:: ../Images/post_visible_default.png
+.. image:: ../../../shared/building_running_course/Images/post_visible_default.png
  :alt: A discussion topic post with "This post is visible to Default Group" 
        above the title
 

@@ -37,14 +37,14 @@ Create a Discussion Component
 
 #. In the Discussion component that appears, click **Edit**.
   
-   .. image:: ../Images/Disc_Create_Edit.png
+   .. image:: ../../../shared/building_running_course/Images/Disc_Create_Edit.png
     :alt: Image of the discussion component with the Edit button circled
 
 #. When the Discussion component editor opens, follow the guidelines in the
    editor to fill in the **Category**, the optional **Display Name**, and the 
    **Subcategory** fields.
    
-   .. image:: ../Images/DiscussionComponentEditor.png
+   .. image:: ../../../shared/building_running_course/Images/DiscussionComponentEditor.png
     :alt: Image of the discussion component editor with a category of "Getting Graded" and a subcategory of "Answering More Than Once"
 
    The value in the **Display Name** field identifies the discussion in the
@@ -53,7 +53,7 @@ Create a Discussion Component
    uniquely identify the discussion in your course, each **Category** /
    **Subcategory** pair that you supply must be unique.
 
-   .. image:: ../Images/Discussion_category_subcategory.png
+   .. image:: ../../../shared/building_running_course/Images/Discussion_category_subcategory.png
     :alt: The list of discussions with the "Answering More Than Once" topic indented under "Getting Graded"
   
 #. Click **Save**.
@@ -84,7 +84,7 @@ A Student's View of the Discussion
 For students, the display name for the Discussion component appears in the
 course ribbon at the top of the page:
 
-.. image:: ../Images/DiscussionComponent_LMS_Ribbon.png
+.. image:: ../../../shared/building_running_course/Images/DiscussionComponent_LMS_Ribbon.png
  :alt: Image of a unit from a student's point of view with the component list
      showing a discussion component
 
@@ -95,11 +95,11 @@ or "Hide discussion" on the left, and a blue **New Post** button on the right.
 In the following example, the Discussion component follows Video and HTML
 components:
 
-.. image:: ../Images/DiscussionComponent_LMS.png
+.. image:: ../../../shared/building_running_course/Images/DiscussionComponent_LMS.png
   :alt: Image of a video component followed by a discussion component
 
 In the **Discussion** tab at the top of the page, students can find the
 category and subcategory of the discussion in the left pane.
 
-.. image:: ../Images/Discussion_category_subcategory.png
+.. image:: ../../../shared/building_running_course/Images/Discussion_category_subcategory.png
  :alt: Image of the Discussion page from a student's point of view

@@ -127,7 +127,7 @@ to download transcripts, a **Download transcript** button appears under the
 video. Students can then select either **SubRip (.srt) file** or **Text (.txt)
 file** to download the .srt or .txt transcript.
 
-.. image:: /Images/Video_DownTrans_srt-txt.png
+.. image:: ../../../shared/building_running_course/Images/Video_DownTrans_srt-txt.png
    :width: 500
    :alt: Video status bar showing srt and txt transcript download options
 
@@ -194,7 +194,7 @@ Step 4. Create a Video Component
 #. When the new video component appears, click **Edit**. The video editor opens
    to the **Basic** tab.
 
-   .. image:: ../Images/VideoComponentEditor.png
+   .. image:: ../../../shared/building_running_course/Images/VideoComponentEditor.png
     :alt: Image of the video component editor
     :width: 500
 
@@ -363,7 +363,7 @@ To add a table of contents, you work with a third-party service to create
 the .srt transcript file. Then, you use the **Transcript Languages** setting
 in the video component to associate the .srt file with the video.
 
-.. image:: /Images/VideoTOC.png
+.. image:: ../../../shared/building_running_course/Images/VideoTOC.png
    :alt: Image of a video with a transcript that has links to different parts
     of the video
    :width: 500
@@ -395,7 +395,7 @@ Allowed** to **True**. The **Download Transcript** button appears below the
 video, and students see the .srt and .txt options when they hover over the
 button.
 
-.. image:: /Images/Video_DownTrans_srt-txt.png
+.. image:: ../../../shared/building_running_course/Images/Video_DownTrans_srt-txt.png
    :width: 500
    :alt: Video status bar showing srt and txt transcript download options
 
@@ -405,7 +405,7 @@ Handout** field. When you do this, a **Download Handout** button appears to the
 right of the **Download Transcript** button, and students can download the
 .srt, .txt, or handout version of the transcript.
 
-.. image:: /Images/Video_DownTrans_srt-handout.png
+.. image:: ../../../shared/building_running_course/Images/Video_DownTrans_srt-handout.png
    :width: 500
    :alt: Video status bar showing srt, txt, and handout transcript download
     options
@@ -427,7 +427,7 @@ this method.**  When you use this method, the **Download Transcript** button
 appears, but only the transcript that you add is available for download. The
 .srt and .txt transcripts become unavailable.
 
-.. image:: /Images/Video_DownTrans_other.png
+.. image:: ../../../shared/building_running_course/Images/Video_DownTrans_other.png
    :width: 500
    :alt: Video status bar showing Download Transcript button without srt and
     txt options
@@ -479,7 +479,7 @@ each language, and then associate the .srt file with the video in Studio.
 When your students view the video, they can click the **CC** button at the
 bottom of the video player to select a language.
 
-.. image:: ../Images/Video_LanguageTranscripts_LMS.png
+.. image:: ../../../shared/building_running_course/Images/Video_LanguageTranscripts_LMS.png
    :alt: Video playing with language options visible
 
 .. _Steps for sjson files:

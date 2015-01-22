@@ -107,13 +107,13 @@ To create a course-wide discussion topic:
 #. Scroll down to the **Discussion Topic Mapping** policy key. By default, its
    value is:
 
- .. image:: ../Images/Discussion_Add_initial.png
+ .. image:: ../../../shared/building_running_course/Images/Discussion_Add_initial.png
   :alt: Policy value of {"General": {"id": "i4x-edX-Open-edx_demo_course"}}
 
 4. Copy the three lines provided for the General topic and paste
    them above the closing brace character (``}``):
 
- .. image:: ../Images/Discussion_Add_paste.png
+ .. image:: ../../../shared/building_running_course/Images/Discussion_Add_paste.png
   :alt: Policy value of {"General": {"id": "i4x-edX-Open-edx_demo_course"} 
         "General": {"id": "i4x-edX-Open-edx_demo_course"}}
 
@@ -124,7 +124,7 @@ To create a course-wide discussion topic:
 
 #. Add a comma after the first closing brace (``},``).
 
- .. image:: ../Images/Discussion_Add_name.png
+ .. image:: ../../../shared/building_running_course/Images/Discussion_Add_name.png
   :alt: Policy value of {"General": {"id": "i4x-edX-Open-edx_demo_course"}, 
         "Course Q&A": {"id": "i4x-edX-Open-edx_demo_course_faq"}}
 
@@ -137,7 +137,7 @@ To create a course-wide discussion topic:
 When students click the **Discussion** page for your course, the drop-down
 Discussion list now includes the topic you added.
 
- .. image:: ../Images/NewCategory_Discussion.png
+ .. image:: ../../../shared/building_running_course/Images/NewCategory_Discussion.png
   :alt: Image of a new topic named Course Q&A in the list of discussions
 
 .. note:: In courses with cohorts enabled, the course-wide discussion topics
@@ -319,13 +319,13 @@ discussion.
   see and respond to pinned posts. You can write your own post and then pin it,
   or pin a post by any author. Select the "More" icon and then **Pin**.
 
-    .. image:: ../Images/Pin_Discussion.png
+    .. image:: ../../../shared/building_running_course/Images/Pin_Discussion.png
      :alt: Image of the pin icon for discussion posts
 
 * Endorse a response. Endorsing a response indicates that it provides value to
   the discussion. Click the "check mark" (or tick mark) icon for the response.
 
-    .. image:: ../Images/Endorse_Discussion.png
+    .. image:: ../../../shared/building_running_course/Images/Endorse_Discussion.png
      :alt: Image of the Endorse button for discussion posts
 
 * Mark a question as answered. You use the same procedure to mark a response as
@@ -611,7 +611,7 @@ reopen:
    When you enter the dates and times from the example above, the value field
    looks like this:
 
-   .. image:: ../Images/Discussion_blackout_unformatted.png
+   .. image:: ../../../shared/building_running_course/Images/Discussion_blackout_unformatted.png
      :alt: Policy value of [["2014-07-22T08:00", "2014-07-25T18:00"],
          ["2014-08-09T00:00", "2099-08-09T00:00"]]
 
@@ -619,7 +619,7 @@ reopen:
 
    Studio reformats your entry to add line feeds and indentation, like this:
 
-   .. image:: ../Images/Discussion_blackout_formatted.png
+   .. image:: ../../../shared/building_running_course/Images/Discussion_blackout_formatted.png
      :alt: Same policy value but with a line feed after each bracket and comma,
          and an indent before each date
 
