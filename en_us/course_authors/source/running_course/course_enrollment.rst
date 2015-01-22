@@ -27,6 +27,11 @@ Insights from the Instructor Dashboard for your live course: after you click
 **Instructor**, click the link in the banner at the top of each page. For more
 information, see `Using edX Insights`_.
 
+.. note:: If your course has a fee, you can also create enrollment codes for 
+ organizations that purchase enrollments in your course. These organizations
+ then distribute the enrollment codes to students. For more information, see
+ :ref:`Provide Enrollment Codes`.
+
 .. _registration_enrollment:
 
 *********************************
@@ -179,6 +184,112 @@ To unenroll students, you supply the email addresses of enrolled students.
 5. Click **Unenroll**. The course is no longer listed on the students'
    **Current Courses** dashboards, and the students can no longer contribute to
    discussions or the wiki or access the courseware.
+
+.. _Provide Enrollment Codes:
+
+*********************************
+Provide Enrollment Codes
+*********************************
+
+If your course has a fee, you can create enrollment codes for organizations that
+purchase enrollments in your course. After you create the enrollment codes, the
+system sends the codes to the organization, and the organization then
+distributes the codes to students. 
+
+If your course offers enrollment codes, the Instructor Dashboard includes an
+**E-Commerce** tab that you can use to create and keep track of your enrollment
+codes. The Instructor Dashboard also allows you to view and manage enrollment
+code transactions.
+
+.. Is "E-Commerce" going to be the permanent name for this tab?
+
+.. Does the course team need to do anything to make this tab appear, or is it 
+.. created automatically when a PM gives a user either the Finance Admin or Sales
+.. Admin role?
+
+.. Is the E-Commerce tab only visible to course team members who have the FA or
+.. SA roles, or can any member of the team see it?
+
+For more information, see the following sections:
+
+* :ref:`Create Enrollment Codes`
+* :ref:`Download Enrollment Code Reports`
+* :ref:`Manage Enrollment Code Transactions`
+
+.. _Create Enrollment Codes:
+
+Create Enrollment Codes
+==========================
+
+.. note:: To create enrollment codes, you must have the **Sales Admin** role 
+ in the course.
+
+You create enrollment codes from the Instructor Dashboard. If your course offers
+redeem codes, the Instructor Dashboard has an **E-Commerce** tab.
+
+#. On the Instructor Dashboard, select the **E-Commerce** tab.
+#. In the **Enrollment Codes** section, select **Create Enrollment Codes**.
+#. When the **Create Enrollment Codes** form opens, complete the form. Items
+   with an asterisk (*) are required.
+#. At the bottom of the form, select **Create Enrollment Codes**.
+
+When you select **Create Enrollment Codes**, the system automatically creates a
+spreadsheet (CSV) file and downloads the CSV file to your computer. In addition to
+information about your course and the transaction, the CSV file contains course
+enrollment codes and URLs. Each enrollment code has a separate URL, and only one
+student can use each enrollment code.
+
+The system also sends a confirmation email to the purchasing organization. The
+email has two attachments: an invoice and a CSV file. The email instructs the
+purchasing organization to distribute enrollment codes to students and includes
+a template that the organization can use. The CSV file contains only the
+enrollment codes and their associated URLs. It does not contain additional
+information about your course or the transaction.
+
+.. Can the course team customize the email message at all? 
+
+.. _Download Enrollment Code Reports:
+
+Download Enrollment Code Reports
+====================================
+
+.. note:: To download reports, you must have the Finance Admin or Sales Admin role.
+
+.. Is the above true?
+
+To help you keep track of your enrollment codes, you can download CSV files that
+contain reports of your unused enrollment codes, your used enrollment codes, or
+all of your enrollment codes. 
+
+To download an enrollment code report, select the **E-Commerce** tab on the
+Instructor Dashboard, and then select the report that you want in the
+**Enrollment Codes** section.
+
+.. _Manage Enrollment Code Transactions:
+
+Manage Enrollment Code Transactions
+====================================
+
+.. note:: To manage enrollment code transactions, you must have the 
+ Finance Admin or Sales Admin role.
+
+.. Is the above true?
+
+In addition to the **Registration Codes** section, the **E-Commerce** tab has a
+**Sales** section that you can use to view and manage enrollment code
+transactions. You must have the Finance Admin role to complete these actions.
+
+In the **Sales** section, you can:
+
+* View the dollar amount for credit card transactions.
+* Download a CSV file of all the invoices for enrollment codes. To do this,
+  select **Download All Invoices**.
+* Download a CSV file of all credit card transactions. To do this, select
+  **Download Credit Card Transactions**.
+* Cancel an invoice. To do this, enter the invoice number in the **Invoice
+  Number** field, and then select **Cancel Invoice**.
+* Resubmit an invoice. To do this, enter the invoice number in the **Invoice
+  Number** field, and then select **Resubmit Invoice**.
 
 
 .. _Using edX Insights: http://edx-insights.readthedocs.org/en/latest/
