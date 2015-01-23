@@ -18,7 +18,7 @@ others:
   instructions for software required for the course.
 * Allowing students to create and share resources, perhaps as part of a
   collaborative exercise. 
-* Sharing errata for the course.
+* Sharing errors and corrections for the course.
 * Collecting suggestions for future runs of the course.
 
 As a student, you can perform the following tasks, depending on the permissions

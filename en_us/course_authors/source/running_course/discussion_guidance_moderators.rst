@@ -6,7 +6,12 @@ Guidance for Discussion Moderators
 
 Discussion forums are hugely important tools in running a successful MOOC; they allow for substantive community development, in addition to being excellent sources of feedback and ideas for future iterations of the course. 
 
-Moderators are the key to effectively managing these online communities. Moderators keep the discussions productive and relay important information (errata, student confusion or interest with particular topics, etc.) to the rest of the course staff. Discussions can be moderated by any of a number of members of the course team, but dedicating enough time to moderation is the best way to cultivate a successful discussion culture.
+Moderators are the key to effectively managing these online communities.
+Moderators keep the discussions productive and relay important information
+(errors, student confusion with or interest in particular topics, and so on) to
+the rest of the course staff. Discussions can be moderated by any of a number of
+members of the course team, but dedicating enough time to moderation is the best
+way to cultivate a successful discussion culture.
 
 Please feel free to use some or all of the information in this chapter to guide the contributions of your discussion moderators.
 
