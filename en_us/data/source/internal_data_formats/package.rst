@@ -50,7 +50,7 @@ course events. A separate file is available for courses running on edge.edx.org
 
 For a partner organization named UniversityX, these daily files are identified
 by the organization name, the edX site name, and the date. For example,
-``universityx-edge-2014-07-25.log.gz.gpg``.
+``universityx-edge-events-2014-07-25.log.gz.gpg``.
 
 For information about the contents of these files, see :ref:`Data Package
 Contents`.
