@@ -116,7 +116,7 @@ Download Daily Event Files
 3. Download the ``{org}-{site}-events-{date}.log.gz.gpg`` file.
 
    If your organization has courses running on both edx.org and edge.edx.org,
-   separate log files are available for the "edx" site and the "edge" site.
+   separate log files are available for the "prod" site and the "edge" site.
    Repeat this step to download the file for the other site.
 
 ============================
