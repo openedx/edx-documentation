@@ -268,9 +268,9 @@ body of a response or comment. Examples follow.
 * Use "[OFFICIAL]" at the start of announcements about changes to the course.
 
 * Provide information about corrected errors with a subject that begins
-  "[ERRATA]".
+  "[CORRECTIONS]" or "[ERRORS]".
 
-* Direct students to use "[STAFF]" in the subject of each post that needs the
+* Ask students to use "[STAFF]" in the subject of each post that needs the
   attention of a course staff member.
 
 Both your discussion team and your students can use tags like these to search
