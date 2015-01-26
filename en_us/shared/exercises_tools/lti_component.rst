@@ -168,6 +168,8 @@ LTI Component Settings
 
    * - Setting
      - Description
+   * - Accept grades past deadline
+     - Specifies whether third party systems are allowed to post grades past the deadline. By default, this value is set to **True**.
    * - Custom Parameters
      - Enables you to add one or more custom parameters. For example, if you've added an e-book, you can set a custom parameter that opens the e-book to a specific page. You could also use a custom parameter to set the background color of the LTI component.
 
