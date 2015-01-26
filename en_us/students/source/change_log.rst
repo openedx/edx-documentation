@@ -10,7 +10,9 @@ Change Log
 
    * - Date
      - Change
-   * - 20 Jan 15
+   * - 1/27/15
+     - Added :ref:`SFD Search` section.
+   * - 1/20/14
      - Added iPhone information to :ref:`SFD Mobile`.
    * - 1/14/15
      - Added :ref:`SFD Student Notes`, :ref:`SFD Prerequisites` sections, and 
