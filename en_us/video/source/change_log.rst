@@ -8,7 +8,9 @@ Change Log
 
    * - Date
      - Change
-   * - 1/16/15
+   * - 29 Jan 15
+     - Provided additional detail for the :ref:`Video Processing Overview`.
+   * - 16 Jan 2015
      - Added the :ref:`video file status report<Reporting Video Status>`.
-   * - 12/13/14
+   * - 13 Dec 2014
      - Initial draft complete.

@@ -20,7 +20,7 @@ at edX.
 * :ref:`Monitor Video Processing`
 
 The result of video processing is additional file formats that are transferred
-to multiple hosting services (YouTube CMS and Amazon AWS), ready for students
+to multiple hosting services (YouTube CMS and Amazon AWS), ready for learners
 to access.
 
 .. _Specifications for Successful Video Files:
@@ -70,6 +70,32 @@ For best results, your video files should have these compression specifications.
  created the media file. For example, if you create the file in a country that
  uses the PAL system, you export at 25 fps instead of the NTSC standard of
  29.97 fps.
+
+================================
+File Naming Conventions
+================================
+
+Each video file must have a unique name. If you upload a file that has the
+same name more than once, the new file overwrites the original file.
+
+The edX media team recommends that organizations define a naming convention
+for video files, and apply it to videos for all courses. At a minimum, your
+naming convention should include these elements.
+
+* A course identifier.
+* The year of the initial course run.
+* A revision or version number.
+
+An example naming convention is ``{course}_{year}_{segment}_{learning
+sequence}_{revision}.{type}``, which results in file names like
+``SPU27_2015_S1_1_0.mp4``.
+
+Video file names should include alphanumeric characters and underscores only.
+Periods should be used only to separate the file name from the extension that
+identifes its type.
+
+Standardizing the content and format of these file names helps all interested
+parties identify and track video files over time.
 
 .. _Enable Video Upload in Studio2:
 
@@ -173,7 +199,7 @@ The encoding and hosting process assigns these statuses to video files.
 * **In Progress** files are undergoing processing to create additional file 
   formats or waiting for successful transfer to the host sites.
 
-* **Complete** files are ready for inclusion in your course and for students to
+* **Complete** files are ready for inclusion in your course and for learners to
   view. See :ref:`Adding Videos to a Course`. When you click the names of these
   files, a file hosted on one of the external host sites plays.
 
@@ -184,7 +210,7 @@ The encoding and hosting process assigns these statuses to video files.
   processing fails more than once for a file, contact the edX media team at
   media@edx.org.
 
-Statuses of **Invalid Token** or **Unknown** indicate  a configuration
+Statuses of **Invalid Token** or **Unknown** indicate a configuration
 problem. Inform your edX program manager if these statuses appear.
 
 .. add an xref to the TBD overview section on the edX transcode-and-host process
@@ -230,22 +256,22 @@ includes data in these columns only after each format is successfully
 generated and delivered to its destination.
 
 * **desktop_mp4 URL**: The AWS location of a 720p resolution video file in mp4
-  format. This file is delivered to students who do not have access to YouTube
+  format. This file is delivered to learners who do not have access to YouTube
   and view course videos with an mp4 player.
 
 * **desktop_webm URL**: The AWS location of a 720p resolution video file in
-  webm format. This file is delivered to students who do not have access to
+  webm format. This file is delivered to learners who do not have access to
   YouTube and view course videos with a webm player.
 
 * **mobile_low URL**: The AWS location of a 320p resolution video file. This
-  file is delivered to students who download and view course videos on a
+  file is delivered to learners who download and view course videos on a
   mobile device.
 
 * **youtube URL**: The YouTube location of a 1080p resolution video. By
   default, the edX video player delivers this video.
 
 The edX encoding and hosting process produces these alternatives to ensure
-optimal playback quality for your students. 
+optimal playback quality for your learners. 
 
 
 .. _Creating Videos: https://courses.edx.org/courses/edX/edX101/2014/courseware/c2a1714627a945afaceabdfb651088cf/9dd6e5fdf64b49a89feac208ab544760/
