@@ -27,6 +27,8 @@ January 2015
      - Change
    * - 1/27/15
      - Updated :ref:`Open Response Assessments 2` chapter.
+   * -
+     - Added :ref:`Making Course Content Searchable` section.
    * - 1/21/15
      - Added the :ref:`Cohorted Courseware Overview` section.
    * - 1/14/15
