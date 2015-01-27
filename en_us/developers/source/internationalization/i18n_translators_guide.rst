@@ -62,12 +62,12 @@ Joining A Translation Team
    on the name of the language to go to the language's page. Here is an example of choosing
    the Japanese translation project:
 
-   .. image:: ../images/edx-platform-transifex-project.png
+   .. image:: /images/edx-platform-transifex-project.png
 
 3. Once you're on the language's page, click "Join team" to become part of the translation team
    for that language:
 
-   .. image:: ../images/join-language-team.png
+   .. image:: /images/join-language-team.png
 
    Once you've joined a translation team, you can begin translating strings immediately! See the
    section `How To Translate With Transifex`_.
@@ -85,19 +85,19 @@ and in English. To join a review team, request permission from the project coord
 
 1. Click on the "Members" tab of your language:
 
-   .. image:: ../images/view-team-members.png
+   .. image:: /images/view-team-members.png
 	   
    You'll see a list of all the members of your translation team.
 
 2. Click on one of the Coordinators for the language to be brought to their profile page,
    where you can click the "Send message" button to email them and ask for Reviewer access:
 
-   .. image:: ../images/send-message-button.png
+   .. image:: /images/send-message-button.png
 
 If the coordinator don't respond, try messaging another coordinator, or message one of the edX project maintainers.
 You can find the project maintainers at the top of the main project page:
 
-.. image:: ../images/project-maintainers.png
+.. image:: /images/project-maintainers.png
 
 If you are willing to become a coordinator for your language, let us know in your message.
 
@@ -111,7 +111,7 @@ Before you begin, be sure you've reviewed the `Guidelines for Translators`_.
 
 When visiting a language page, you will see a list of ten distinct resources to translate:
 
-.. image:: ../images/project-resources.png
+.. image:: /images/project-resources.png
 
 Focus on translating the non-Studio resources first. That is, please first
 translate and review these resources, in this order, before anything else:
@@ -136,7 +136,7 @@ Requesting A New Language
 If your language is **not** listed, click the "Request language" button on the main project page
 to start a new translation project for your language:
 
-.. image:: ../images/request-new-language.png
+.. image:: /images/request-new-language.png
 
 Before requesting a new language, please first make sure your language is not listed! Keep in
 mind that variants of your language may exist ("Chinese" versus "Chinese-China") and these
