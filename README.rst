@@ -51,3 +51,47 @@ Flow`_.
 
 All pull requests need approval from edX. For more information, contact edX at
 docs@edx.org.
+
+Before submitting a pull request, it is recommend you run the test suite on
+your contribution to ensure it can be compiled without errors.
+
+To run a test compilation of a contribution, first install the prerequisites:
+
+.. code::
+  
+  pip install -r requirements.txt
+
+Then run the tests:
+
+.. code::
+
+  ./run_tests.sh
+
+Additionally, you can run tests for a single project:
+
+.. code::
+  
+  ./run_tests.sh en_us/install_operations/
+
+A convenience script is provided to help you develop new documentation. To use
+it you must first install the optional tools, and then run the script.
+
+.. code::
+
+  pip install -r shared/tools.txt
+  ./develop.sh en_us/install_operations/
+
+It will output a line of text that looks like this:
+
+::
+
+  Serving on http://127.0.0.1:9090
+
+You can copy this URL into a web browser to see the HTML output for your
+project.
+
+The command starts an HTTP server that renders the HTML for the project. This
+HTTP server also monitors the project and detects any changes. When you save a
+change to a file, the server rebuilds the HTML and refreshes your browser
+automatically. In this way you can rapidly see how changes you make will be
+rendered as HTML.

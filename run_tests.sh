@@ -1,6 +1,13 @@
+#!/bin/bash
+
 # Each documentation project is in a directory in the en_us folder.
 # To generate docs for a project, Go to a project directory and
 # run `make HTML` and `make latexpdf`.
+
+# To test a subset of projects you can pass them in as command line
+# arguments to this script.  For example:
+# `./run_tests.sh en_us/install_operations` would only run tests on
+# the install operations project.
 
 # The directory that this script is located in.
 BASE_DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
@@ -24,16 +31,20 @@ SPHINX_ERRORS=0
 # build to fail.
 SPHINX_WARNINGS=0
 
-projects=(
-    "en_us/course_authors" 
-    "en_us/data"
-    "en_us/install_operations"
-    "en_us/mobile"
-    "en_us/olx"
-    "en_us/ORA2"
-    "en_us/release_notes"
-    "en_us/students"
-)
+projects=($@)
+if [ ${#projects[@]} -eq 0 ]
+then
+    projects=(
+        "en_us/course_authors" 
+        "en_us/data"
+        "en_us/install_operations"
+        "en_us/mobile"
+        "en_us/olx"
+        "en_us/ORA2"
+        "en_us/release_notes"
+        "en_us/students"
+    )
+fi
 
 for project in "${projects[@]}"; do
     cd $BASE_DIR/$project
@@ -88,11 +99,15 @@ echo TOTAL SPHINX ERRORS: $SPHINX_ERRORS
 echo TOTAL SPHINX WARNINGS: $SPHINX_WARNINGS
 echo OTHER BUILD ERRORS: $BUILD_ERRORS
 
+EXIT_STATUS=0
 if [ ${#FAILED_BUILDS[@]} -gt 0 ]; then
     echo "There were errors while building the following projects:"
     for project in "${FAILED_BUILDS[@]}"; do
         echo $project
     done
+    EXIT_STATUS=1
 else
     echo "All builds passed."
 fi
+
+exit $EXIT_STATUS
