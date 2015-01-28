@@ -188,12 +188,10 @@ information about your course or the transaction.
 Download Enrollment Code Reports
 *********************************
 
-
-.. note:: To download reports, you must have the Finance Admin or Sales Admin role.
-
-To help you keep track of the enrollment codes that have been issued for your course, you can download .csv files that
-contain reports of your unused enrollment codes, your used enrollment codes, or
-all of your enrollment codes. 
+To help you keep track of the enrollment codes that have been issued for your
+course, you can download .csv files that contain reports of your unused
+enrollment codes, your used enrollment codes, or all of your enrollment codes.
+You must have the Finance Admin or Sales Admin role to download reports.
 
 To download an enrollment code report, select the **E-Commerce** tab on the
 Instructor Dashboard, and then select the report that you want in the
@@ -204,12 +202,10 @@ Instructor Dashboard, and then select the report that you want in the
 Manage Enrollment Code Transactions
 ************************************
 
-.. note:: To manage enrollment code transactions, you must have the 
- Finance Admin role.
-
 In addition to the **Registration Codes** section, the **E-Commerce** tab has a
 **Sales** section that you can use to view and manage enrollment code
-transactions. You must have the Finance Admin role to see the **Sales** section.
+transactions. You must have the Finance Admin role to see the **Sales** section
+and manage these transactions.
 
 In the **Sales** section, you can:
 
@@ -219,10 +215,6 @@ In the **Sales** section, you can:
   select **Download All Invoices**.
 * Download a .csv file of all credit card transactions. To do this, select
   **Download Credit Card Transactions**.
-* Cancel an invoice. To do this, enter the invoice number in the **Invoice
-  Number** field, and then select **Cancel Invoice**.
-* Resubmit an invoice. To do this, enter the invoice number in the **Invoice
-  Number** field, and then select **Resubmit Invoice**.
 
 .. _view_enrollment_count:
 
