@@ -2,6 +2,15 @@
 edX Website
 ####################################
 
+******************
+January 28, 2015
+******************
+
+People who have registered, but not yet activated, an edx.org account can now
+reset their passwords on the edx.org site. Previously, you received an error
+message if you tried to reset your password before activating your account.
+(ECOM-894)
+
 ***************
 January 8, 2015
 ***************

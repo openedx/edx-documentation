@@ -67,4 +67,4 @@ version = ''
 release = ''
 
 #remove directory when content is first added to it, and add to index
-exclude_patterns = ['links.rst', 'reusables/*', 'insights/*', 'openedx/*', 'xblocks/*']
+exclude_patterns = ['links.rst', 'reusables/*']
