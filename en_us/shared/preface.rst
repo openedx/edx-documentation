@@ -169,6 +169,12 @@ Documentation for developers is available on the docs.edx.org web page.
 * `edX Data Analytics API`_ provides tools for building applications to view
   and analyze student activity in your course.
 
+* `edX Enrollment API`_ provides tools for building applications to view user
+  and course enrollment information, and to enroll users in courses.
+
+* `edX Platform API`_ provides tools for building applications to view course
+  information and videos.
+
 GitHub
 -------
 
@@ -300,3 +306,5 @@ edX Global Community meetup_ group.
 .. _edx-code: http://groups.google.com/forum/#!forum/edx-code
 .. _edx101: https://www.edx.org/course/overview-creating-edx-course-edx-edx101#.VIIJbWTF_yM
 .. _edX Data Analytics API: http://edx.readthedocs.org/projects/edx-data-analytics-api/en/latest/index.html
+.. _edX Enrollment API: http://edx.readthedocs.org/projects/edx-enrollment-api/en/latest/
+.. _edX Platform API: http://edx.readthedocs.org/projects/edx-platform-api/en/latest/
