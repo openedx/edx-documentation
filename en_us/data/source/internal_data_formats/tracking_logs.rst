@@ -186,8 +186,10 @@ more information, see the HTTP/1.1 header field definition for
 
 **Type:** dict
 
-**Details:** For all events, this field includes member fields that
-provide the following contextual information.
+**Details:** 
+
+For all events, this field includes member fields that provide the following
+contextual information.
 
 * The ``course_id`` of the course that generated the event.
 * The ``org_id`` of the organization that lists the course. 
@@ -197,14 +199,20 @@ provide the following contextual information.
 The following member fields are included to provide additional information
 when applicable for an event.
 
-* When included, ``course_user_tags`` contains a dictionary with the key(s)
+* ``course_user_tags`` contains a dictionary with the key(s)
   and value(s) from the ``user_api_usercoursetag`` table for the user. See
   :ref:`user_api_usercoursetag`.
 
-* When included for a server event, ``module`` contains a dictionary with the
-  component ``display_name`` and the xblock ``usage_key``. These values
-  identify the source of the content involved in the server process; for
-  example, the problem component that the server checked successfully.
+* ``module`` contains a dictionary that identifies the components involved in
+  a server event. For example, in a server ``problem_check`` event, the
+  problem component that the server checked successfully. The member fields of
+  this dictionary are ``display_name`` and ``usage_key``.
+
+  For modules that are used in a course to present content from a library,
+  this dictionary also includes the ``original_usage_key`` and
+  ``original_usage_version`` fields. These member fields provide a consistent
+  way to identify components that are sourced from a library, and can be used
+  to identify the source library.
 
 The member fields are blank if values cannot be determined. The ``context``
 field can also contain additional member fields that apply to specific events
@@ -353,6 +361,8 @@ outside the Instructor Dashboard.
 * :ref:`pdf`
 
 * :ref:`problem`
+
+* :ref:`library`
 
 * :ref:`forum_events`
 
@@ -2199,6 +2209,161 @@ for a problem and it is graded successfully.
        problems.
 
 
+.. _library:
+
+==========================
+Library Interaction Events
+==========================
+
+Course teams in an organization can collaboratively contribute to libraries of
+content, such as a collection of problem components for a particular subject.
+Libraries are created and maintained separately from courses so that their
+content can be used in different courses.
+
+In a course outline, course teams can include randomized content block
+components that reference a library and deliver its content to students. In a
+randomized content block component, the course team defines how many of the
+library components to deliver to each student.
+
+For more information, see `Working with Libraries`_.
+
+.. xref to come from Carol
+
+``edx.librarycontentblock.content.assigned``
+********************************************
+
+The server emits an ``edx.librarycontentblock.content.assigned`` event the
+first time that content from a randomized content block is delivered to a
+user. The ``edx.librarycontentblock.content.assigned`` event identifies the
+components delivered from the library to a user.
+
+Additional ``edx.librarycontentblock.content.assigned`` events can also be
+emitted if the course team makes a change that results in an increase in the
+number of components that the randomized content block delivers. After such a
+change, the randomized content block delivers more components to any user who
+revisits it after that change. For those users, the
+``edx.librarycontentblock.content.assigned`` event identifies the complete set
+of components delivered from the library and also the components that were
+delivered for the first time.
+
+**Event Source**: Server
+
+**History** Added 18 Mar 2015.
+
+``event`` **Member Fields**:
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+   * - ``added``
+     - list
+     - Lists the library components that were delivered to the user for the
+       first time. The content of this field is different from the content of
+       the ``result`` field only if the user revisited the randomized content
+       block and it delivered additional components from the library.
+   * - ``location``
+     - string
+     - Identifies the randomized content block component. 
+   * - ``max_count``
+     - integer
+     - The **Count** specified by a course team member in Studio. Defines the
+       number of library components to deliver. This number is greater than
+       the number of library components listed by the ``result`` field only
+       when the library has too few matching blocks available.
+   * - ``previous_count``
+     - integer
+     - The number of components assigned to this student before this event.
+       The first time the user views the randomized content block, this value
+       is 0. 
+   * - ``result``
+     - list
+     - Lists all of the library components delivered to the user. 
+
+       * ``descendants``, when present, is a list that identifies each
+         part of a library component that contains multiple parts (the
+         children of an xblock with children).
+
+       * ``original_usage_key`` and ``original_usage_version`` identify the
+         component in the library. 
+
+         When students attempt a problem component delivered by a randomized
+         content block, the resulting problem events also reference the
+         ``original_usage_key`` and ``original_usage_version`` in
+         ``context.module`` member fields. See :ref:`context`.
+
+       * ``usage_key`` identifies the location of this component in the
+         course. This value identifies a child of the randomized
+         content block component.
+       
+       To identify a component consistently within a course, you can use
+       either ``usage_key`` or ``original_usage_key`` as a consistent
+       identifier. To identify components across courses, use
+       ``orignal_usage_key``.
+       
+       
+``edx.librarycontentblock.content.removed``
+*******************************************
+
+The server emits an ``edx.librarycontentblock.content.removed`` event when a
+user revisits a randomized content block and one or more of the components
+that were previously delivered to that user can no longer be delivered.
+
+* If components are removed from the library and the course team
+  resynchronizes the randomized content block to the library, the server emits
+  an ``edx.librarycontentblock.content.removed`` event if a user who was
+  previously assigned one of those components revisits the randomized content
+  block or accesses the progress page.
+
+* If the course team changes settings for the randomized content block so that
+  fewer or different components are allowed.
+
+  For example, the course team reduces the number of library components to
+  deliver or specifies a different type of problem to deliver.
+
+**Event Source**: Server
+
+**History** Added 18 Mar 2015.
+
+``event`` **Member Fields**:
+
+The ``edx.librarycontentblock.content.removed`` events include the following
+``event`` member fields. These fields serve the same purpose for events of
+this type as for the ``edx.librarycontentblock.content.assigned`` events.
+
+* ``location``
+* ``max_count``
+* ``previous_count``
+* ``result``
+
+The following additional ``event`` member fields apply specifically to
+``edx.librarycontentblock.content.removed`` events.
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+   * - ``reason``
+     - string
+     - 'overlimit' if a course team member reduces the **Count** of library
+       components to deliver.
+       
+       'invalid' if the component is no longer included in the library, or no
+       longer matches the settings specified for the randomized content block.
+
+   * - ``removed``
+     - list
+     - Identifies the components that are no longer delivered to this user.
+       This field contains the same member fields as the ``event.result``
+       field for ``edx.librarycontentblock.content.assigned`` events.
+
+
 .. _forum_events:
 
 ==========================
@@ -2351,15 +2516,16 @@ Jun 2014. The ``group_id`` field was added 7 October 2014.
 
    * - ``group_id``
      - integer
-     - The numeric ID of the cohort to which the user's search is restricted,
-       or ``null`` if the search is not restricted in this way.
+     - The numeric ID of the cohort to which the user's search is
+       restricted, or ``null`` if the search is not restricted in this way. 
 
        In a course with cohorts enabled, a student's searches will always be
-       restricted to the student's cohort.
+       restricted to the student's cohort. 
 
        Discussion admins, moderators, and Community TAs in such a course can
-       search all discussions without specifying a cohort, which leaves this
-       field ``null``, or they can specify a single cohort to search.
+       search all discussions without specifying a cohort, which leaves
+       this field ``null``, or they can specify a single cohort to
+       search.
 
    * - ``page``
      - integer
@@ -2967,14 +3133,15 @@ Student Cohorts`_ in the *Building and Running an edX Course* guide.
 ``edx.cohort.created``
 *********************************
 
-When a cohort is created, the server emits an ``edx.cohort.created`` event.
-Cohorts can be created manually by members of the course team. The system
-automatically creates the default cohort and any cohorts that are defined by
-the ``auto_cohort_groups`` advanced setting when they are needed (for example,
-when a student is assigned to one of those cohorts).
+When a course team or the system creates a cohort, the server emits an
+``edx.cohort.created`` event. Cohorts can be created manually by members of the
+course team. The system automatically creates the default cohort and any
+cohorts that are defined by the ``auto_cohort_groups`` advanced setting when
+they are needed (for example, when a student is assigned to one of those
+cohorts).
 
-Additional events are emitted when members of the course team interact with
-the Instructor Dashboard to create a cohort. See
+Additional events are emitted when members of the course team interact with the
+Instructor Dashboard to create a cohort. See
 :ref:`instructor_cohort_events`.
 
 **Event Source**: Server
@@ -3000,16 +3167,15 @@ the Instructor Dashboard to create a cohort. See
 ``edx.cohort.user_added``
 *********************************
 
-When a user is added to a cohort, the server emits an
+When a user is added to a cohort, the server emits an 
 ``edx.cohort.user_added`` event. Members of the course team can add users to
-cohorts individually or by uploading a CSV file of student cohort 
-assignments. The system automatically adds a user to the default cohort 
-or a cohort included in the course's ``auto_cohort_groups`` setting if
-the user accesses course content that is divided by cohort but has not yet
-been assigned to a cohort.
+cohorts individually or by uploading a .csv file of student cohort
+assignments. The system automatically adds a user to the default cohort or a
+cohort included in the course's ``auto_cohort_groups`` setting if a user who
+has not yet been assigned to a cohort accesses course content.
 
-Additional events are emitted when members of the course team interact with
-the Instructor Dashboard to add a user to a group. See
+Additional events are emitted when members of the course team interact with the
+Instructor Dashboard to add a user to a cohort. See
 :ref:`instructor_cohort_events`.
 
 **Event Source**: Server
@@ -3063,6 +3229,7 @@ Instructor Dashboard, the server emits an ``edx.cohort.user_removed`` event.
    * - ``user_id``
      - integer
      - The numeric ID (from ``auth_user.id``) of the removed user.
+
 
 .. _ora:
 
@@ -3548,7 +3715,7 @@ event.
 When an instructor or course staff member adds a student to a cohort on the
 Instructor Dashboard, the server emits an ``edx.cohort.user_add_requested``
 event. Course team members can add students to a cohort individually, or by
-uploading a CSV file of student cohort assignments.
+uploading a .csv file of student cohort assignments.
 
 **Event Source**: Server
 
@@ -3571,15 +3738,13 @@ uploading a CSV file of student cohort assignments.
      - The display name of the cohort.
    * - ``previous_cohort_id``
      - integer
-     - The numeric ID of the cohort that the user was previously assigned
-       to.
+     - The numeric ID of the cohort that the user was previously assigned to.
 
        Null if the user was not previously assigned to a cohort.
 
    * - ``previous_cohort_name``
      - string
-     - The display name of the cohort that the user was previously
-       assigned to.
+     - The display name of the cohort that the user was previously assigned to.
 
        Null if the user was not previously assigned to a cohort.
 
@@ -3588,7 +3753,7 @@ uploading a CSV file of student cohort assignments.
      - The numeric ID (from ``auth_user.id``) of the added user.
 
 
-.. _Creating a Peer Assessment: http://edx.readthedocs.org/projects/edx-open-response-assessments/en/latest/
+.. _Creating a Peer Assessment: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/open_response_assessments/OpenResponseAssessments.html
 
 .. _Creating Content Experiments: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/content_experiments/index.html#creating-content-experiments
 
@@ -3600,3 +3765,4 @@ uploading a CSV file of student cohort assignments.
 
 .. _Creating Exercises and Tools: http://edx-partner-course-staff.readthedocs.org/en/latest/exercises_tools/index.html
 
+.. _Working with Libraries: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/creating_content/libraries.html
