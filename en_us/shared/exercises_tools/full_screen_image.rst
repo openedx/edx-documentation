@@ -12,17 +12,17 @@ The Student View of a Full Screen Image
 
 The student sees the full screen image in a unit page. When the student hovers the mouse pointer over the image, the **Fullscreen** button appears:
 
-.. image:: /Images/image-modal.png
+.. image:: ../../../shared/building_and_running_chapters/Images/image-modal.png
  :alt: Image of the full screen image tool with the Full Screen button.
 
 When the student clicks **Fullscreen**, the image opens and expands in the full browser window.  The buttons **Close**, **Zoom In**, and **Zoom Out** appear:
 
-.. image:: /Images/image-modal-window.png
+.. image:: ../../../shared/building_and_running_chapters/Images/image-modal-window.png
  :alt: Image of the Image Modal tool with the Full Screen button.
 
 The student can then zoom in on the image, and drag the image to view the desired part of it:
 
-.. image:: /Images/image-modeal-zoomed.png
+.. image:: ../../../shared/building_and_running_chapters/Images/image-modeal-zoomed.png
  :alt: Image of the Image Modal tool with the Full Screen button.
 
 ******************************

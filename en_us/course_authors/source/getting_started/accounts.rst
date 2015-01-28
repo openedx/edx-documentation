@@ -49,13 +49,13 @@ To get started, you register your account on edX.org_ and Edge_.
 
   * For edX.org, go to the `registration page <https://courses.edx.org/register>`_:
 
-    .. image:: ../Images/edx_registration.png
+    .. image:: ../../../shared/building_and_running_chapters/Images/edx_registration.png
      :alt: Image of the edX.org registration page
 
 
   * For Edge, go to https://edge.edx.org and click **Register**:
 
-    .. image:: ../Images/edge_register.png
+    .. image:: ../../../shared/building_and_running_chapters/Images/edge_register.png
      :alt: Image of the Edge registration page
 
   Make sure to check both **I agree to the Terms of Service** and **I agree to the Honor Code**.  
@@ -83,7 +83,7 @@ To get started, you register your account on edX.org_ and Edge_.
 
 3. Click the link in the e-mail to complete the activation. When you see the following page, your account has been activated:
 
-  .. image:: ../Images/activation_screen.png
+  .. image:: ../../../shared/building_and_running_chapters/Images/activation_screen.png
    :alt: Image of the Activation page
 
 
@@ -117,12 +117,12 @@ The process to reset your password on edX.org and Edge is the same.
 
 #. In the account information pane in the upper left corner, click **Reset Password**. 
 
-  .. image:: ../Images/dashboard-password-reset.png
+  .. image:: ../../../shared/building_and_running_chapters/Images/dashboard-password-reset.png
    :alt: Image with the Reset Password link highlighted
 
   A dialog box opens confirming that a message has been sent to your email address.
  
-  .. image:: ../Images/password-email-dialog.png
+  .. image:: ../../../shared/building_and_running_chapters/Images/password-email-dialog.png
    :alt: Image with the Reset Password link highlighted
 
 3. When you receive the following e-mail message, click the link in the message::
@@ -143,7 +143,7 @@ The process to reset your password on edX.org and Edge is the same.
 
 4. When the following dialog box opens, enter your new password in both fields, and then click **Change My Password**:
 
-  .. image:: ../Images/reset_password.png
+  .. image:: ../../../shared/building_and_running_chapters/Images/reset_password.png
    :alt: Image of the Reset Password dialog box
 
   .. note:: Your password can be any string.

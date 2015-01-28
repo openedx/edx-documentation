@@ -32,7 +32,7 @@ SCREENSHOT OF YOUR ENROLLMENT PAGE]
 
 *Example*
 
-.. image:: ../Images/image302.png
+.. image:: ../../../shared/building_and_running_chapters/Images/image302.png
  :width: 600 
  :alt: Image of a course registration page
 
@@ -41,7 +41,7 @@ SCREENSHOT OF YOUR ENROLLMENT PAGE]
 **Step 2: Request to enroll in the course** Click on the blue Enroll in [NUMBER
 OF YOUR CLASS] button: [REPLACE WITH PART OF YOUR SCREENSHOT ABOVE]
 
-.. image:: ../Images/image303.png
+.. image:: ../../../shared/building_and_running_chapters/Images/image303.png
  :width: 600 
  :alt: Image of the registration button
 
@@ -50,7 +50,7 @@ sign up for edX. (If you already have an account with edX, use it to log in. You
 should now be enrolled in the course. Skip to Step 5. Otherwise, go on with Step
 3.)
 
-.. image:: ../Images/Image305.png
+.. image:: ../../../shared/building_and_running_chapters/Images/Image305.png
  :width: 600 
  :alt: Image of the registration page
 
