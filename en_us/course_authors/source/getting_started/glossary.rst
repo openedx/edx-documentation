@@ -302,7 +302,7 @@ G
  
   List of the items that a student's response should cover in an open response assessment.
 
-  See :ref:`ORA Rubrics` for more information.
+  See :ref:`PA Rubric` for more information.
 
 
 .. _H:
@@ -519,7 +519,7 @@ R
 
   List of the items that a student's response should cover in an open response assessment.
 
-  See :ref:`ORA Rubrics` for more information.
+  See :ref:`PA Rubric` for more information.
 
 
 

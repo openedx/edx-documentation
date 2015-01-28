@@ -121,7 +121,7 @@ cohort. See :ref:`Read the Cohort Indicator in Posts`.
    it within quotation marks (``" "``), and separate the quoted name values
    with commas. For example:
    
-   .. code:: 
+   .. code-block:: xml 
 
       "auto_cohort_groups": [
           "Example Cohort Name A",

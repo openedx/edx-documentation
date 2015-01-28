@@ -12,6 +12,8 @@ January, 2015
 
    * - Date
      - Change
+   * - 1/27/15
+     - Updated :ref:`Open Response Assessments 2` chapter.
    * - 1/21/15
      - Added the :ref:`Cohorted Courseware Overview` section.
    * - 1/7/15
@@ -284,10 +286,8 @@ May, 2014
      - Updated :ref:`Problem with Adaptive Hint` to reflect formatting
        requirements for the Python script and the correct_answer attribute.
    * - 05/21/14
-     - Added warning that version 1 of the :ref:`Open Response Assessments<Open
-       Response Assessment>` suite has been deprecated and added a link to the
-       `new ORA information <http://edx-open-response-
-       assessments.readthedocs.org/en/latest/>`_.
+     - Added warning that version 1 of the Open Response Assessments suite has
+       been deprecated and added a link to the new ORA information.
    * - 05/16/14
      - Updated :ref:`Working with Video Components` to reflect UI changes.
    * - 05/14/14
@@ -307,9 +307,9 @@ May, 2014
      - Updated :ref:`Assigning_discussion_roles` with a note about course staff
        requiring explicit granting of discussion administration roles.
    * - 
-     - Added :ref:`VitalSource` topic.
+     - Added VitalSource topic.
    * - 05/08/14
-     - Added warnings to :ref:`Add a File` about file size.
+     - Added warnings to :ref:`Upload a File` about file size.
    * - 05/07/14
      - Updated the :ref:`Discussions` chapter to include a topic on closing
        discussions.
@@ -511,8 +511,8 @@ January, 2014
      - Added information about accessibility in the topic :ref:`Adding
        Textbooks`.
    * - 01/14/2014
-     - Added info about scoring (:ref:`ORA Access Scores`) and due dates in
-       :ref:`Open Response Assessment`.
+     - Added info about scoring and due dates to original Open Response
+       Assessments section.
    * - 01/13/2014
      - Extensive updates to Organizing Your Course Content and
        :ref:`Working with HTML Components`.
@@ -563,7 +563,7 @@ December, 2013
      - Added the chapter :ref:`Guidelines for Creating Accessible Content`.
    * - 12/10/2013
      - Added note about number of responses in "Available to Grade" column in
-       :ref:`Open Response Assessment`.
+       Open Response Assessments section.
    * - 
      - Added :ref:`MathJax in Studio`.
    * - 12/09/2013
