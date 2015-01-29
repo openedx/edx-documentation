@@ -13,6 +13,7 @@ Processing Video Files
 
    read_me
    change_log
+   video_overview
    video_prereqs
    video_uploads
    video_course
