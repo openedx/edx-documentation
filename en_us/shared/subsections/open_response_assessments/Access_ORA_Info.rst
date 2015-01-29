@@ -4,7 +4,12 @@
 Accessing Assignment and Student Metrics
 ##########################################
 
-After your open response assessment assignment has been released, you can access information about the number of students in each step of the assignment or the performance of individual students. This information is available in the **Course Staff Information** section at the end of each assignment. To access it, open the assignment in the courseware, scroll to the bottom of the assignment, and then click the black **Course Staff Information** banner.
+After your open response assessment assignment has been released, you can access
+information about the number of students in each step of the assignment or the
+performance of individual students. This information is available in the
+**Course Staff Information** section at the end of each assignment. To access
+it, open the assignment in the courseware, scroll to the bottom of the
+assignment, and then click the black **Course Staff Information** banner.
 
 .. image:: ../../../../shared/building_and_running_chapters/Images/PA_CourseStaffInfo_Collapsed.png
    :alt: The Course Staff Information banner at the bottom of the peer assessment
@@ -15,7 +20,8 @@ After your open response assessment assignment has been released, you can access
 View Metrics for Individual Steps
 ************************************************
 
-You can check the number of students who have completed, or are currently working through, the following steps:
+You can check the number of students who have completed, or are currently
+working through, the following steps:
 
 * Submitted responses.
 * Completed peer assessments.
