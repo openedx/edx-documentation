@@ -52,7 +52,7 @@ Add Formatting or Images to the Prompt
 
 Currently, you cannot add text formatting or images inside the Peer Assessment component. If you want to include formatting or images in the text of your prompt, you can add an HTML component that contains your text above the Peer Assessment component and leave the text field in the **Prompt** tab blank. The instructions for the peer assessment still appear above the **Your Response** field.
 
-.. image:: ../../Images/PA_HTMLComponent.png
+.. image:: ../../../../shared/building_and_running_chapters/Images/PA_HTMLComponent.png
       :alt: A peer assessment that has an image in an HTML component
       :width: 500
 
@@ -113,7 +113,7 @@ When you add a comment field to a criterion, the comment field appears below the
 
 In the following image, the first criterion has a comment field but no options. The second includes options, but does not have a comment field.
 
-.. image:: ../../Images/PA_0_Option_Criteria.png
+.. image:: ../../../../shared/building_and_running_chapters/Images/PA_0_Option_Criteria.png
 
 To provide a comment field without options:
 

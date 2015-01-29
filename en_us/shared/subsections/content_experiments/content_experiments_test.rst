@@ -14,13 +14,13 @@ then shows the content as the selected group of students sees it.
 For example, in the following page, Group 0 is selected, and the HTML component
 and video that is part of Group 0 is displayed.
 
-.. image:: ../Images/a-b-test-lms-group-0.png
+.. image:: ../../../shared/building_and_running_chapters/Images/a-b-test-lms-group-0.png
  :alt: Image of a unit page with Group 0 selected
 
 You can change the experiment group selection to view the content that a
 different experiment group of students sees.
 
-.. image:: ../Images/a-b-test-lms-group-2.png
+.. image:: ../../../shared/building_and_running_chapters/Images/a-b-test-lms-group-2.png
  :alt: Image of a unit page with Group 1 selected
 
 .. note::    The example course content in this chapter uses content experiment 

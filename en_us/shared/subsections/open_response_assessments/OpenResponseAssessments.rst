@@ -48,7 +48,7 @@ Prompt
 
 The **prompt**, or question that you want your students to answer, appears near the top of the page, followed by a field where the student enters a response. You can require your students to enter text as a response, or you can allow your students to both enter text and upload an image. 
 
-.. image:: ../../Images/PA_QandRField.png
+.. image:: ../../../../shared/building_and_running_chapters/Images/PA_QandRField.png
    :width: 500
    :alt: ORA question and blank response field
 
@@ -86,7 +86,7 @@ Rubrics are made of *criteria* and *options*.
 
    * The name is a very short summary of the criterion, such as "Ideas" or "Content". Criterion names generally have just one word. Because the system uses criterion names for identification, **the name for each criterion must be unique.** Criterion names do not appear in the rubric that students see when they are completing peer assessments, but they do appear on the page that shows the student's final grade.
 
-     .. image :: ../../Images/PA_CriterionName.png
+     .. image:: ../../../../shared/building_and_running_chapters/Images/PA_CriterionName.png
         :alt: A final score page with call-outs for the criterion names
 
    * The prompt is a description of the criterion. 
@@ -95,7 +95,7 @@ Rubrics are made of *criteria* and *options*.
 
 * Each option has a *name*, an *explanation*, and a *point value*.
 
-  .. image:: ../../Images/PA_Rubric_LMS.png
+  .. image:: ../../../../shared/building_and_running_chapters/Images/PA_Rubric_LMS.png
      :alt: Image of a rubric in the LMS with call-outs for the criterion prompt and option names, explanations, and points
 
 Different criteria in the same assignment can have different numbers of options. For example, in the image above, the first criterion has three options and the second criterion has four options.
@@ -104,7 +104,7 @@ Different criteria in the same assignment can have different numbers of options.
 
 You can see both criterion and option names when you access assignment information for an individual student. For more information, see :ref:`Accessing ORA Assignment Information`.
 
-.. image:: ../../Images/PA_Crit_Option_Names.png
+.. image:: ../../../../shared/building_and_running_chapters/Images/PA_Crit_Option_Names.png
    :width: 600
    :alt: Student-specific assignment information with call-outs for criterion and option names
 
@@ -151,7 +151,7 @@ In your assignment, you'll also specify the **assessment steps**. You can set th
 
 You can see the type and order of the assessments when you look at the assignment. In the following example, after students submit a response, they complete a student training step ("Learn to Assess Responses"), complete peer assessments on other students' responses ("Assess Peers"), and then complete self assessments ("Assess Your Response").
 
-.. image:: ../../Images/PA_AsmtWithResponse.png
+.. image:: ../../../../shared/building_and_running_chapters/Images/PA_AsmtWithResponse.png
   :alt: Image of peer assessment with assessment steps and status labeled
   :width: 600
 
@@ -169,7 +169,7 @@ When you create a peer assessment assignment, you can include one or more studen
 
 In a student training assessment, the **Learn to Assess Responses** step opens immediately after a student submits a response. The student sees one of the sample responses that you created, along with the rubric. The scores that you gave the response do not appear. The student also sees the number of sample responses that he or she will assess.
 
-.. image:: ../../Images/PA_TrainingAssessment.png
+.. image:: ../../../../shared/building_and_running_chapters/Images/PA_TrainingAssessment.png
    :alt: Sample training response, unscored
    :width: 500
 
@@ -198,7 +198,7 @@ For each of the criteria, the student sees one of the following two messages, de
 
 For example, the following student chose one correct option and one incorrect option.
 
-.. image:: ../../Images/PA_TrainingAssessment_Scored.png
+.. image:: ../../../../shared/building_and_running_chapters/Images/PA_TrainingAssessment_Scored.png
    :alt: Sample training response, scored
    :width: 500
 
@@ -231,7 +231,7 @@ By default, students see a single comment field below the entire rubric. You can
 
 The comment field appears below the options for the criterion. In the following image, both criteria have a comment field. There is also a field for overall comments on the response.
 
-.. image:: ../../Images/PA_CriterionAndOverallComments.png
+.. image:: ../../../../shared/building_and_running_chapters/Images/PA_CriterionAndOverallComments.png
    :alt: Rubric with comment fields under each criterion and under overall response
    :width: 600
 
@@ -285,13 +285,13 @@ Assessing Additional Responses
 
 Students can assess more than the required number of responses. After a student completes the peer assessment step, the step "collapses" so that just the **Assess Peers** heading is visible. 
 
-.. image:: ../../Images/PA_PAHeadingCollapsed.png
+.. image:: ../../../../shared/building_and_running_chapters/Images/PA_PAHeadingCollapsed.png
    :width: 500
    :alt: The peer assessment step with just the heading visible
 
 If the student clicks the **Assess Peers** heading, the step expands. The student can then click **Continue Assessing Peers**.
 
-.. image:: ../../Images/PA_ContinueGrading.png
+.. image:: ../../../../shared/building_and_running_chapters/Images/PA_ContinueGrading.png
    :width: 500
    :alt: The peer assessment step expanded so that "Continue Assessing Peers" is visible
 
@@ -312,7 +312,7 @@ Top Responses
 
 You can include a **Top Responses** section that shows the top-scoring responses that students have submitted for the assignment, along with the scores for those responses. The **Top Responses** section appears below the student's score information after the student finishes every step in the assignment. 
 
-.. image:: ../../Images/PA_TopResponses.png
+.. image:: ../../../../shared/building_and_running_chapters/Images/PA_TopResponses.png
    :alt: Section that shows the text and scores of the top three responses for the assignment
    :width: 500
 

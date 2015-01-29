@@ -47,7 +47,7 @@ Create the Content Experiment
    
    A new content experiment is added to the unit:
 
-   .. image:: ../Images/content_experiment_block.png
+   .. image:: ../../../shared/building_and_running_chapters/Images/content_experiment_block.png
     :width: 800
     :alt: The content experiment component in a unit page
 
@@ -57,7 +57,7 @@ Create the Content Experiment
 #. Click either **Select a Group Configuration** or **Edit** to open the content
    experiment component.
 
-   .. image:: ../Images/content_experiment_editor.png
+   .. image:: ../../../shared/building_and_running_chapters/Images/content_experiment_editor.png
     :alt: The content experiment editor
 
 #. Next to **Group Configuration**, select a group configuration.
@@ -87,7 +87,7 @@ each group that is defined in the group configuration you selected. For
 example, if you select a group configuration that defines Group A and Group B,
 you see the following page:
 
-.. image:: ../Images/content_experiment_container.png
+.. image:: ../../../shared/building_and_running_chapters/Images/content_experiment_container.png
  :alt: The content experiment page with two groups
 
 You add content for both groups as needed, just as you would add content to any
@@ -96,7 +96,7 @@ information.
 
 For example, you can add an HTML component and a video to Group A:
 
-.. image:: ../Images/a_b_test_child_expanded.png
+.. image:: ../../../shared/building_and_running_chapters/Images/a_b_test_child_expanded.png
  :alt: Image of an expanded A/B test component
 
 .. note:: 
@@ -124,7 +124,7 @@ To change the group configuration:
 
 #. In the content experiment component, click **Edit**.
 
-   .. image:: ../Images/content_experiment_editor_group2.png
+   .. image:: ../../../shared/building_and_running_chapters/Images/content_experiment_editor_group2.png
     :alt: The content experiment editor with a group configuration selected
 
 #. Select a different group configuration.
@@ -138,7 +138,7 @@ To change the group configuration:
    that you had added to groups in the previous configuration are now moved to
    a section called **Inactive Groups**.
 
-   .. image:: ../Images/inactive_groups.png
+   .. image:: ../../../shared/building_and_running_chapters/Images/inactive_groups.png
     :alt: Components in inactive groups
 
 #. Drag and drop components from the **Inactive Groups** section into the new

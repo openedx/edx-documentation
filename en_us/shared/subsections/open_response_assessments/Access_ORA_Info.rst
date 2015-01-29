@@ -6,7 +6,7 @@ Accessing Assignment and Student Metrics
 
 After your open response assessment assignment has been released, you can access information about the number of students in each step of the assignment or the performance of individual students. This information is available in the **Course Staff Information** section at the end of each assignment. To access it, open the assignment in the courseware, scroll to the bottom of the assignment, and then click the black **Course Staff Information** banner.
 
-.. image:: ../../Images/PA_CourseStaffInfo_Collapsed.png
+.. image:: ../../../../shared/building_and_running_chapters/Images/PA_CourseStaffInfo_Collapsed.png
    :alt: The Course Staff Information banner at the bottom of the peer assessment
 
 .. _PA View Metrics for Individual Steps:
@@ -27,7 +27,7 @@ To find this information, open the assignment in the courseware, scroll to the b
 
 The **Course Staff Information** section expands, and you can see the number of students who are currently working through (but have not completed) each step of the problem.
 
-.. image:: ../../Images/PA_CourseStaffInfo_Expanded.png
+.. image:: ../../../../shared/building_and_running_chapters/Images/PA_CourseStaffInfo_Expanded.png
    :alt: The Course Staff Information box expanded, showing problem status
 
 .. _Access Information for a Specific Student:
@@ -45,7 +45,7 @@ You can access information about an individual student's performance on a peer a
 
 In the following example, you can see the student's response. The response received one peer assessment, and the student completed a peer assessment on one other student's response. The student also completed a self assessment.
 
-.. image:: ../../Images/PA_SpecificStudent.png
+.. image:: ../../../../shared/building_and_running_chapters/Images/PA_SpecificStudent.png
    :width: 500
    :alt: Report showing information about a student's response
 
@@ -74,13 +74,13 @@ To determine a student's course-specific anonymized ID, you'll need two .csv spr
 5. When the link to the grade report appears in the **Reports Available for Download** list, click the link to open the spreadsheet.
 #. When you have both spreadsheets open, view the **<course name>_grade_report_<datetime>.csv** spreadsheet. Locate the student that you want by username or e-mail address. Make a note of the number in the ID column (column A) for that student. In the following example, the student ID for e-mail address ``amydorrit@example.com`` (username ``lildorrit``) is ``18557``.
 
-   .. image:: ../../Images/PA_grade_report.png
+   .. image:: ../../../../shared/building_and_running_chapters/Images/PA_grade_report.png
       :width: 500
       :alt: Spreadsheet listing enrolled students and grades
 
 7. Go to the **<course name>-anon-ids.csv** spreadsheet, locate the user ID that you noted in step 6, and then copy the value in the "Course Specific Anonymized user ID" column (**column C**) for the user. The value in column C is the student's anonymized user ID for the course. In the following example, the anonymized user ID for student ID ``18557`` is ``ofouw6265242gedud8w82g16qshsid87``.
 
-   .. image:: ../../Images/PA_anon_ids.png
+   .. image:: ../../../../shared/building_and_running_chapters/Images/PA_anon_ids.png
       :width: 500
       :alt: Spreadsheet listing students' anonymous user IDs
 
@@ -107,6 +107,6 @@ The following example shows:
 
 For a larger view, click the image so that it opens by itself in the browser window, and then click anywhere on the image that opens.
 
-.. image:: ../../Images/PA_SpecificStudent_long.png
+.. image:: ../../../../shared/building_and_running_chapters/Images/PA_SpecificStudent_long.png
    :width: 250
    :alt: Report showing information about a student's response

@@ -7,7 +7,7 @@ Drag and Drop Problem
 In drag and drop problems, students respond to a question by dragging text or
 objects to a specific location on an image.
 
-.. image:: /Images/DragAndDropProblem.png
+.. image:: ../../../shared/building_and_running_chapters/Images/DragAndDropProblem.png
  :alt: Image of a drag and drop problem
 
 *********************************

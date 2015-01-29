@@ -26,7 +26,7 @@ You can use an LTI component in several ways.
 
 For example, the following LTI component incorporates a Cerego tool that students interact with. 
 
-.. image:: /Images/LTIExample.png
+.. image:: ../../../shared/building_and_running_chapters/Images/LTIExample.png
    :alt: Cerego LTI component example
 
 .. _LTI Information:
@@ -99,7 +99,7 @@ Step 1. Add LTI to the Advanced Module List Policy Key
 #. Enter ``“lti”``. Make sure to include the quotation marks, but not the
    period.
 
-   .. image:: /Images/LTIPolicyKey.png
+   .. image:: ../../../shared/building_and_running_chapters/Images/LTIPolicyKey.png
      :width: 500
      :alt: Image of the advanced_modules key in the Advanced Settings page, with the LTI value added
 

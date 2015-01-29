@@ -14,7 +14,7 @@ If you have an problem that is already written in LaTeX, you can use this proble
           information about how to create mathematical expressions in Studio using
           MathJax, see *A Brief Introduction to MathJax in Studio*.
 
-.. image:: /Images/ProblemWrittenInLaTeX.png
+.. image:: ../../../shared/building_and_running_chapters/Images/ProblemWrittenInLaTeX.png
  :alt: Image of a problem written in LaTeX
 
 ************************************
