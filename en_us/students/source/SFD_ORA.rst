@@ -264,6 +264,21 @@ If the instructor has included a **Top Responses** section, you can see the high
    :width: 500
 
 
+********************************
+Cancelled Responses
+********************************
+
+If the instructor deems a response that you have submitted to be inappropriate,
+she can cancel that response and remove it from peer grading. In the open
+response assessment you see an indicator that your submission was cancelled,
+with the date and time of the cancellation, and a comment by the instructor
+about the reason.
+
+The instructor might allow you to submit a replacement response for the
+cancelled one, or she might not. If she does not allow you to submit a
+replacement response, your grade is zero for the assignment.
+
+
 ******************************************************
 Try an Example Open Response Assessment Problem
 ******************************************************
