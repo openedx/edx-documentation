@@ -30,7 +30,7 @@ What Is a Subsection?
 
 Sections are divided into subsections, which in turn contain one or more units.
 A subsection may represent a topic in your course, or another organizing
-principle. Subsections are sometimes called “lessons” or “learning sequences.”
+principle. Subsections are sometimes called "lessons" or "learning sequences".
 
 
 ***********************************
@@ -48,7 +48,7 @@ the course outline:
 The Student View of a Subsection
 *********************************
 
-Students see subsections in the Courseware tab, listed beneath the expanded
+Students see subsections in the **Courseware** tab, listed beneath the expanded
 section. In the following example, seven subsections are circled, and the first
 is open.
 
@@ -208,10 +208,11 @@ To create a new subsection:
 #. In the outline, expand the section in which you want to create a new
    subsection.
 #. Click **New Subsection** at the bottom of the expanded section. A new
-   subsection is added at the end of the section, with the subsection name
+   subsection appears at the end of the section, with the subsection name
    selected.
-#. Enter the name for the new subsection. Remember that students see the
-   subsection name in the courseware.
+#. Enter the name for the new subsection. A descriptive name can help learners
+   locate content in the courseware. It can also help you select content when
+   you analyze performance in edX Insights.
 #. :ref:`Add units<Create a Unit>` to the new subsection as needed.
    
 It is recommended that you :ref:`test course content <Testing Your Course
@@ -327,7 +328,7 @@ To hide a subsection from students:
 
 Now, no content in the subsection is visible to students.
 
-To make the subection visible to students, repeat these steps and clear the
+To make the subsection visible to students, repeat these steps and clear the
 **Hide from students** checkbox.
 
 .. warning::

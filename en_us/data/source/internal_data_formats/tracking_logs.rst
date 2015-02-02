@@ -202,7 +202,7 @@ when applicable for an event.
   :ref:`user_api_usercoursetag`.
 
 * When included for a server event, ``module`` contains a dictionary with the
-  component ``display_name`` and the xblock ``usage_key``. These values
+  component ``display_name`` and the ``usage_key`` of an xblock. These values
   identify the source of the content involved in the server process; for
   example, the problem component that the server checked successfully.
 

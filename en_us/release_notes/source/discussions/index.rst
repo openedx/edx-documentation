@@ -6,7 +6,8 @@ edX Discussions
 February 12, 2015
 ******************
 
-* The "Mark as Answered" icon was missing from discussion and question posts. This problem has been resolved. (TNL-1330)
+* The "Mark as Answered" icon was missing from discussion and question posts.
+  This problem has been resolved. (TNL-1330)
 
 ******************
 February 4, 2015
@@ -14,7 +15,7 @@ February 4, 2015
 
 ============================
 Accessibility Improvements 
-============================ 
+============================
 
 * For improved accessibility, the current discussion conversation now receives
   focus and includes an accessible label. (UX-1575)
