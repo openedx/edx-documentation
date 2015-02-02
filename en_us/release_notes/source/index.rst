@@ -14,6 +14,7 @@ Introduction
    read_me
    preface
    browsers
+   coming_soon
 
 ******************
 2015 Releases

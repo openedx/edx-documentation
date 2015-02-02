@@ -3,6 +3,13 @@ edX Studio
 ####################################
 
 ******************
+February 4, 2015
+******************
+
+* Previously, you received an error when opening **Settings & Details** page in
+  French. This problem is resolved. (TNL-1237)
+
+******************
 January 28, 2015
 ******************
 
@@ -29,14 +36,6 @@ January 28, 2015
   grading always included learner submissions that were submitted after the
   subsection due date. (TNL-805)
 
-================
-Coming Soon
-================
-
-Course teams will soon have the ability to apply a Creative Commons license to
-their courses or to the videos in a course. Creative Commons licenses grant
-others the right to share and use content. When learners view a course or a
-video, they will be able to see the type of license that it has.
 
 *****************
 January 14, 2015

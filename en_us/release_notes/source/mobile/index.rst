@@ -7,10 +7,10 @@ January 28, 2015
 ******************
 
 The edX mobile app is now available for iPhone and Android smartphones. With
-the app, learners can view or download video lectures for your courses and watch
-them anytime, without an Internet connection. Many of the courses that are
-currently running on edx.org are ready for use with the app, and preparations
-to support mobile delivery are in progress for even more courses.
+the app, learners can view or download video lectures for your courses and
+watch them anytime, without an Internet connection. Many of the courses that
+are currently running on edx.org are ready for use with the app, and
+preparations to support mobile delivery are in progress for even more courses.
 
 You and your enrolled learners can download the free edX mobile app from
 Google Play for Android smartphones and from the App Store for Apple iPhones.
