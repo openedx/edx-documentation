@@ -29,7 +29,7 @@ master_doc = 'index'
 #html_static_path.append('source/_static')
 
 project = u'edX Open Learning XML Guide - Alpha Version'
-copyright = u'2014, edX'
+copyright = u'2015, edX'
 
 # The short X.Y version.
 version = ''

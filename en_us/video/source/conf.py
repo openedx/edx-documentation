@@ -38,7 +38,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Processing Video Files'
-copyright = u'2014, edX'
+copyright = u'2015, edX'
 
 # The short X.Y version.
 version = ''
