@@ -39,13 +39,13 @@ with course content.
      - Firefox
      - IE 9
      - IE 10
-   * - Windows 7
+   * - Windows 8
      - Yes
      - N/A
      - Yes
      - Yes
      - Yes
-   * - Mac OSX 10.8 or 10.9
+   * - Mac OSX Mavericks or Yosemite
      - Yes
      - Yes
      - Yes
@@ -68,13 +68,13 @@ The following table shows operating system and browser support for edX Studio, w
      - Firefox
      - IE 9
      - IE 10
-   * - Windows 7
+   * - Windows 8
      - Yes
      - N/A
      - Yes
      - Provisional
      - Provisional
-   * - Mac OSX 10.8 or 10.9
+   * - Mac OSX Mavericks or Yosemite
      - Yes
      - Yes
      - Yes
@@ -99,13 +99,13 @@ students.
      - Firefox
      - IE 9
      - IE 10
-   * - Windows 7
+   * - Windows 8
      - Yes
      - N/A
      - Yes
      - Provisional
      - Provisional
-   * - Mac OSX 10.8 or 10.9
+   * - Mac OSX Mavericks or Yosemite
      - Yes
      - Yes
      - Yes
