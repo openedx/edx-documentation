@@ -169,24 +169,31 @@ definitions of all events.
 **Type:** dict
 
 **Details:** For all events, this field includes member fields that
-identify:
+provide the following contextual information.
 
 * The ``course_id`` of the course that generated the event.
 * The ``org_id`` of the organization that lists the course. 
 * The URL ``path`` that generated the event. 
 * The ``user_id`` of the individual who is performing the action. 
 
-When included, ``course_user_tags`` contains a dictionary with the key(s) and
-value(s) from the ``user_api_usercoursetag`` table for the user. See
-:ref:`user_api_usercoursetag`.
+The following member fields are included to provide additional information
+when applicable for an event.
+
+* When included, ``course_user_tags`` contains a dictionary with the key(s)
+  and value(s) from the ``user_api_usercoursetag`` table for the user. See
+  :ref:`user_api_usercoursetag`.
+* When included for a server event, ``module`` contains a dictionary with the
+  component ``display_name`` and the ``usage_key`` of an xblock. These values
+  identify the source of the content involved in the server process; for
+  example, the problem component that the server checked successfully.
 
 The member fields are blank if values cannot be determined. The ``context``
 field can also contain additional member fields that apply to specific events
 only: see the description for each type of event.
 
-**History**: Added 23 Oct 2013; ``user_id`` added 6 Nov 2013. Other event
-fields may duplicate this data. ``course_user_tags`` added 12 Mar 2014,
-``path`` added 07 May 2014.
+**History**: ``usage_key`` added 28 Jan 2015. ``path`` added 07 May 2014.
+``course_user_tags`` added 12 Mar 2014. ``user_id`` added 6 Nov 2013. Other
+event fields may duplicate this data. Added 23 Oct 2013.
 
 ===================
 ``event`` Field
