@@ -3,6 +3,33 @@ edX Learning Management System
 ####################################
 
 ******************
+February 4, 2015
+******************
+
+* Course staff no longer have to obtain a course-specific anonymized student ID
+  when they want to get student information in an open response assessment.
+  Course staff can now enter a student's username in **Get Student Info** to
+  get his information. (TNL-836)
+  
+* The first line of a Chinese video transcript was not visible. This problem is
+  resolved. (TNL-935)
+
+============================
+Accessibility Improvements 
+============================ 
+
+* Focus now changes directly to the content area after the user selects a link
+  to a new subsection or unit. (UX-1573)
+
+* Unit navigation links are reorganized into a single list. The arrow
+  navigation is converted from links to buttons and now includes the disabled
+  attribute when appropriate. (UX-1572)
+
+* Labels to bypass blocks now use the industry standard text **Skip to main
+  content**. (TNL-1264)
+
+
+******************
 January 28, 2015
 ******************
 
@@ -13,14 +40,6 @@ January 28, 2015
   an error caused grade reports to fail for courses with problem display names
   that contained Unicode characters. (TNL-1196)
 
-==================
-Coming Soon
-==================
-
-A new notes feature will soon be available in edx.org and edge.edx.org
-courses. This feature will allow a learner to highlight text and make notes
-while he progresses through the course. The learner will then be able to
-review his notes in the course content or collected on a new **Notes** tab.
 
 ****************
 January 14, 2015

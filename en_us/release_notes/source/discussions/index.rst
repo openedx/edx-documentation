@@ -2,6 +2,21 @@
 edX Discussions
 ####################################
 
+******************
+February 4, 2015
+******************
+
+============================
+Accessibility Improvements 
+============================ 
+
+* For improved accessibility, the current discussion conversation now receives
+  focus and includes an accessible label. (UX-1575)
+
+* For improved accessibility, discussions now include defined regions and
+  landmarks for screen reader navigation. The focus is on the discussion
+  when a new topic is loaded, and changes to a new post when it appears.
+  (UX-1576)
 
 *****************
 January 14, 2015
