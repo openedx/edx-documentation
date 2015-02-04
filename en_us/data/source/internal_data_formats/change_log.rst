@@ -14,7 +14,10 @@ January-March 2015
 
    * - Date
      - Change
-   * - 1/16/15
+   * - 4 Feb 2015
+     - Added information about the new ``module`` member field in the
+       :ref:`event<context>` to the :ref:`Tracking Logs` chapter.
+   * - 16 Jan 2015
      - Added the :ref:`Institution_Data` chapter with information about the
        CSV file of student email preference settings.
 
