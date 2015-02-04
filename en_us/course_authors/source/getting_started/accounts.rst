@@ -7,13 +7,13 @@ Getting Started with edX
 The following sections provide an introduction to edX and instructions for getting started on edX websites:
 
 * :ref:`edX.org and edX Edge`
-* :ref:`Register Your Account`
+* :ref:`Create an Account`
 * :ref:`edX101_section`
 * :ref:`Reset Your Password`
 
 This information is intended for course staff. You may want to include the details about the registration process and password policies in your communications with your prospective students. 
 
-Also see :ref:`enroll_student` for information about enrolling students in a course, and for an example of the email students receive.
+For information about enrolling students in a course, see :ref:`enroll_student`.
 
 .. _edX.org and edX Edge:
 
@@ -37,71 +37,60 @@ When you want to explore edX courses, you can register on edX.org_, edX Edge_, o
 
 
 
-.. _Register Your Account:
+.. _Create an Account:
 
 *************************
-Register Your Account
+Create an Account
 *************************
 
-To get started, you register your account on edX.org_ and Edge_.  
+To get started, you create, or *register*, an account on edX.org_ or Edge_.  
 
-#. On the registration page, enter your account information.
+#. For edx.org, go to the `registration and sign-in page
+   <https://courses.edx.org/account/login>`_, and then select **Create an
+   Account.**
 
-  * For edX.org, go to the `registration page <https://courses.edx.org/register>`_:
+   For Edge, go to the `registration page <https://edge.edx.org/register>`_.
 
-    .. image:: ../../../shared/building_and_running_chapters/Images/edx_registration.png
-     :alt: Image of the edX.org registration page
+#. In the registration form, enter your information in the fields that have
+   an asterisk (*).
 
-
-  * For Edge, go to https://edge.edx.org and click **Register**:
-
-    .. image:: ../../../shared/building_and_running_chapters/Images/edge_register.png
-     :alt: Image of the Edge registration page
-
-  Make sure to check both **I agree to the Terms of Service** and **I agree to the Honor Code**.  
-
-  .. note::  Students will see your **Public Username**, not your **Full Name**.
+  .. note::  Students will see the name that you enter in the **Public username** 
+    field, not the name in the **Full name** field.
 
     If you are at an edX consortium university, you should use your institutional e-mail address.
 
-    Your password can be any string.
+3. For edx.org, select the **I agree to the edX Terms of Service
+   and Honor Code** check box, and then click **Create your account**.
 
-2. When you complete the form, click **Create my edX Account**.
+   For Edge, select both the **I agree to the Terms of Service** and **I agree
+   to the Honor Code** check boxes, and then select **Create my Edge Account**.
 
-  After you submit the registration, you receive an activation email message. The email content is::
-
-    Thank you for signing up for edX! 
-    To activate your account, please copy and paste this address into your web 
-    browser's address bar:
-
-    https://courses.edx.org/activate/unique-registration-code
-  
-    If you didn't request this, you don't need to do anything; 
-    you won't receive any more email from us. 
-    Please do not reply to this e-mail; if you require assistance, 
-    check the help section of the edX web site.
-
-3. Click the link in the e-mail to complete the activation. When you see the following page, your account has been activated:
-
-  .. image:: ../../../shared/building_and_running_chapters/Images/activation_screen.png
-   :alt: Image of the Activation page
-
+#. In the activation e-mail message, click the link to complete the activation.
+   When your account has been activated, a new window in your browser opens to
+   an "Activation Complete" page that contains a link to your dashboard.
 
 .. _edX101_section:
 
 ******************************
-edX101 and the edX Demo Course
+The edX Demo Course and edX101
 ******************************
 
-EdX has provided edX101_ and the `edX Demo course <https://www.edx.org/course/edx/edx-edxdemo101-edx-demo-1038>`_ to help familiarize you with taking and creating edX courses.
+EdX provides the `edX Demo course`_ and edX101_ to help familiarize you with
+taking and creating edX courses.
 
-* edX101_, available on Edge_, is an example of a course built with Studio. It is a self-paced walk through of planning, building, and running your own online course.
+* The `edX Demo course`_ allows new students to explore and learn how to take an
+  edX course. We recommend that you become familiar with the way students
+  experience an edX course before you begin building your first course.
 
-* The `edX Demo course <https://www.edx.org/course/edx/edx-edxdemo101-edx-demo-1038>`_, available on edX.org_, allows new students to explore and learn how to take an edX course. We recommend that you become familiar with the student’s experience of an edX course before you begin building your first course.
+.. note:: You can include information about the edX Demo course in your course
+  materials, and recommend that new students take the edX Demo course before
+  proceeding with your course.
 
-.. note:: You may want to include information about the edX Demo Course in your course materials, and recommend that new students take the edX Demo Course before proceeding with your course.
+* edX101_ is an example of a course built with Studio. It is a self-paced walk-through of planning, building, and running your own online course.
 
-.. _edx101: https://edge.edx.org/courses/edX/edX101/How_to_Create_an_edX_Course/about
+.. _edx101: https://www.edx.org/course/overview-creating-edx-course-edx-edx101#.VHKBz76d9BV
+
+.. _edX Demo course: https://www.edx.org/course/edx/edx-edxdemo101-edx-demo-1038
 
 
 .. _Reset Your Password:
