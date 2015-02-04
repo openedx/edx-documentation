@@ -2257,16 +2257,15 @@ Jun 2014. The ``group_id`` field was added 7 October 2014.
 
    * - ``group_id``
      - integer
-     - The numeric ID of the cohort group to which the user's search is
-       restricted, or ``null`` if the search is not restricted in this way. 
+     - The numeric ID of the cohort to which the user's search is restricted,
+       or ``null`` if the search is not restricted in this way.
 
        In a course with cohorts enabled, a student's searches will always be
-       restricted to the student's cohort group. 
+       restricted to the student's cohort.
 
        Discussion admins, moderators, and Community TAs in such a course can
-       search all discussions without specifying a cohort group, which leaves
-       this field ``null``, or they can specify a single cohort group to
-       search.
+       search all discussions without specifying a cohort, which leaves this
+       field ``null``, or they can specify a single cohort to search.
 
    * - ``page``
      - integer
@@ -2697,15 +2696,14 @@ Student Cohorts`_ in the *Building and Running an edX Course* guide.
 ``edx.cohort.created``
 *********************************
 
-When a cohort group is created, the server emits an ``edx.cohort.created``
-event. Cohort groups can be created manually by members of the course team.
-The system automatically creates the default cohort group and any cohort
-groups that are defined by the ``auto_cohort_groups`` advanced setting when
-they are needed (for example, when a student is assigned to one of those
-groups). 
+When a cohort is created, the server emits an ``edx.cohort.created`` event.
+Cohorts can be created manually by members of the course team. The system
+automatically creates the default cohort and any cohorts that are defined by
+the ``auto_cohort_groups`` advanced setting when they are needed (for example,
+when a student is assigned to one of those cohorts).
 
 Additional events are emitted when members of the course team interact with
-the Instructor Dashboard to create a cohort group. See
+the Instructor Dashboard to create a cohort. See
 :ref:`instructor_cohort_events`.
 
 **Event Source**: Server
@@ -2723,21 +2721,21 @@ the Instructor Dashboard to create a cohort group. See
      - Details
    * - ``cohort_id``
      - integer
-     - The numeric ID of the cohort group.
+     - The numeric ID of the cohort.
    * - ``cohort_name``
      - string
-     - The display name of the cohort group.
+     - The display name of the cohort.
 
 ``edx.cohort.user_added``
 *********************************
 
-When a user is added to a cohort group, the server emits an
+When a user is added to a cohort, the server emits an
 ``edx.cohort.user_added`` event. Members of the course team can add users to
-cohort groups individually or by uploading a CSV file of student cohort group
-assignments. The system automatically adds a user to the default cohort group
-or a cohort group included in the course's ``auto_cohort_groups`` setting if
+cohorts individually or by uploading a CSV file of student cohort 
+assignments. The system automatically adds a user to the default cohort 
+or a cohort included in the course's ``auto_cohort_groups`` setting if
 the user accesses course content that is divided by cohort but has not yet
-been assigned to a cohort group.
+been assigned to a cohort.
 
 Additional events are emitted when members of the course team interact with
 the Instructor Dashboard to add a user to a group. See
@@ -2758,10 +2756,10 @@ the Instructor Dashboard to add a user to a group. See
      - Details
    * - ``cohort_id``
      - integer
-     - The numeric ID of the cohort group.
+     - The numeric ID of the cohort.
    * - ``cohort_name``
      - string
-     - The display name of the cohort group.
+     - The display name of the cohort.
    * - ``user_id``
      - integer
      - The numeric ID (from ``auth_user.id``) of the added user.
@@ -2769,9 +2767,8 @@ the Instructor Dashboard to add a user to a group. See
 ``edx.cohort.user_removed``
 *********************************
 
-When a course team member changes the cohort group assignment of a user on
-the Instructor Dashboard, the server emits an ``edx.cohort.user_removed``
-event.
+When a course team member changes the cohort assignment of a user on the
+Instructor Dashboard, the server emits an ``edx.cohort.user_removed`` event.
 
 **Event Source**: Server
 
@@ -2788,10 +2785,10 @@ event.
      - Details
    * - ``cohort_id``
      - integer
-     - The numeric ID of the cohort group.
+     - The numeric ID of the cohort.
    * - ``cohort_name``
      - string
-     - The display name of the cohort group.
+     - The display name of the cohort.
    * - ``user_id``
      - integer
      - The numeric ID (from ``auth_user.id``) of the removed user.
@@ -3246,8 +3243,8 @@ in the *Building and Running an edX Course* guide.
 ``edx.cohort.creation_requested``
 *********************************
 
-When an instructor or course staff member manually creates a cohort group on
-the Instructor Dashboard, the server emits an ``edx.cohort.creation_requested``
+When an instructor or course staff member manually creates a cohort on the
+Instructor Dashboard, the server emits an ``edx.cohort.creation_requested``
 event.
 
 **Event Source**: Server
@@ -3265,19 +3262,18 @@ event.
      - Details
    * - ``cohort_id``
      - integer
-     - The numeric ID of the cohort group.
+     - The numeric ID of the cohort.
    * - ``cohort_name``
      - string
-     - The display name of the cohort group.
+     - The display name of the cohort.
 
 ``edx.cohort.user_add_requested``
 *********************************
 
-When an instructor or course staff member adds a student to a cohort group on
-the Instructor Dashboard, the server emits an
-``edx.cohort.user_add_requested`` event. Course team members can add students
-to a cohort group individually, or by uploading a CSV file of student cohort
-group assignments.
+When an instructor or course staff member adds a student to a cohort on the
+Instructor Dashboard, the server emits an ``edx.cohort.user_add_requested``
+event. Course team members can add students to a cohort individually, or by
+uploading a CSV file of student cohort assignments.
 
 **Event Source**: Server
 
@@ -3294,24 +3290,23 @@ group assignments.
      - Details
    * - ``cohort_id``
      - integer
-     - The numeric ID of the cohort group.
+     - The numeric ID of the cohort.
    * - ``cohort_name``
      - string
-     - The display name of the cohort group.
+     - The display name of the cohort.
    * - ``previous_cohort_id``
      - integer
-     - The numeric ID of the cohort group that the user was previously assigned
+     - The numeric ID of the cohort that the user was previously assigned
        to.
 
-       Null if the user was not previously assigned to a cohort group.
+       Null if the user was not previously assigned to a cohort.
 
    * - ``previous_cohort_name``
      - string
-     - The display name of the cohort group that the user was previously
+     - The display name of the cohort that the user was previously
        assigned to.
 
-       Null if the user was not previously assigned to a cohort
-       group.
+       Null if the user was not previously assigned to a cohort.
 
    * - ``user_id``
      - integer
