@@ -30,7 +30,7 @@ pygments_style = 'sphinx'
 
 # General information about the project.
 project = u'Building and Running an edX Course'
-copyright = u'2014, edX'
+copyright = u'2015, edX'
 
 # The short X.Y version.
 version = ''
