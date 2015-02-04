@@ -1,17 +1,19 @@
-.. _Accessibility Guideline for Developers:
+.. _Accessibility Guidelines for Developers:
 
-#######################
-edX Accessibility Guide
-#######################
+#############################
+edX Accessibility Guidelines
+#############################
 
 EdX measures and evaluates accessibility using the World Wide Web Consortium's
 `Web Content Accessibility Guidelines (WCAG) 2.0 <http://www.w3.org/TR/WCAG/>`_
 (Dec. 11, 2008). All features that you merge into edX repositories are expected
 to `conform <http://www.w3.org/TR/WCAG20/#conformance>`_ to `Level AA
-<http://www.w3.org/TR/WCAG20/#cc1>`_ of this specification. This guide is
-intended to extend the guidance available in WCAG 2.0, with a focus on features
-frequently found in the Open edX platform as well as in Learning and Content
-Management Systems in general.
+<http://www.w3.org/TR/WCAG20/#cc1>`_ of this specification. 
+
+The **edX Accessibility Guidelines** are intended to extend the guidance
+available in WCAG 2.0, with a focus on features frequently found in the Open edX
+platform, as well as in Learning and Content Management Systems in general.
+
 
 ************
 Introduction
@@ -42,10 +44,10 @@ this document.
 
 * Many people with disabilities use "`assistive technologies
   <http://www.w3.org/TR/WCAG20/#atdef>`_" (such as screen readers) to interact
-  with their computers, web browsers, and web applications. Users might customize
-  their operating system, browser or web page display properties to make web
-  applications easier for them to use. For example, they might increase the font
-  size in their displays, reverse or increase contrast, or remove images.
+  with their computers, web browsers, and web applications. Computer users might
+  customize their operating system, browser, or web page display properties to make
+  web applications easier for them to use. For example, they might increase the
+  font size in their displays, reverse or increase contrast, or remove images.
 
 * To allow assistive technologies to provide the maximum information to users,
   anything in a user interface that is conveyed visually (such as the element
@@ -55,8 +57,8 @@ this document.
 
 Keep these core concepts in mind when you develop user interfaces, so that they
 can truly be used by everyone. More information is available from the W3C's Web
-Accessibility Initiative's `How People with Disabilities Use the Web: Overview
-<http://www.w3.org/WAI/intro/people-use-web/Overview.html>`_.
+Accessibility Initiative's publication `How People with Disabilities Use the
+Web: Overview <http://www.w3.org/WAI/intro/people-use-web/Overview.html>`_.
 
 
 ****************************
@@ -89,13 +91,14 @@ Use semantic markup
 *******************
 
 The role, state, and associated properties of an element are exposed to users of
-assistive technologies either directly through the DOM or through the
-Accessibility API. If you use elements for purposes other than their intended
-purposes, you can "break" features that are designed to make web applications
-easier to use, resulting in confusion when expected behaviors are not available.
-For example, the role, state, or associated properties of an element might be
-incorrectly reported when you use an element in a way that it was not designed
-to be used, causing confusion for users who rely on assistive technologies.
+assistive technologies either directly through the DOM (Document Object Model)
+or through the Accessibility API. If you use elements for purposes other than
+their intended purposes, you can "break" features that are designed to make web
+applications easier to use, resulting in confusion when expected behaviors are
+not available. For example, the role, state, or associated properties of an
+element might be incorrectly reported when you use an element in a way that it
+was not designed to be used, causing confusion for users who rely on assistive
+technologies.
 
 If the semantics and behavior you need already exist in a native HTML5 element,
 you should use that element. Do not use an element because of its default style
@@ -117,7 +120,7 @@ recreate states and properties that are included with the native element, such
 as focus or state. If you attempt to do so, more than likely you will not fully
 replicate all of them. Native checkbox elements include a toggle for checked
 state upon ``space`` or ``enter`` keypresses, exposing its label and
-"`checkedness <http://www.w3.org/TR/html5/forms.html #concept-fe-checked>`_" to
+"`checkedness <http://www.w3.org/TR/html5/forms.html#concept-fe-checked>`_" to
 the Accessibility API.
 
 --------
@@ -133,7 +136,7 @@ Lists
 -----
 
 Use ordered lists (``<ol>``) only when you are marking up a collection of
-related items whose order in the list if important. Use unordered lists
+related items whose order in the list is important. Use unordered lists
 (``<ul>``) only when you are marking up a collection of related items. Screen
 readers provide extra feedback and functionality for lists and other elements
 with semantic importance. It can be confusing or cumbersome when this feedback is
@@ -153,43 +156,44 @@ by providing a text alternative for an image.
 Text alternatives
 ---------------------
 
-A text alternative is text that users who are unable to view or use non-text
-content can access in place of the non-text content (such as images, charts,
-applets, audio files, and so on).
+For users who are unable to view or use non-text content (such as images,
+charts, applets, audio files and so on), you can provide a `text alternative
+<http://www.w3.org/TR/WCAG20/#text-altdef>`_ . A text alternative is text that
+non-sighted users can access in place of the non-text content.
 
 Text alternatives must be "programmatically determinable". This means that the
-text must be able to be read and used by the assistive technologies (and the
-accessibility features in browsers) that people with disabilities use.
+assistive technologies and accessibility features in browsers must be able to
+read and use the text.
 
 Text alternatives must also be "programmatically associated" with the non-text
 content. This means that users must be able to use assistive technology to find
-the alternative text (that they can use) when they land on the non-text content
-(that they cannot use).
+the text alternative when they land on the non-text content.
 
-All images require a `text alternative <http://www.w3.org/TR/WCAG20/#text-
-altdef>`_ . The only exceptions to this rule are purely decorative images or
-images that have text alternatives adjacent to them.
+All images require a text alternative. The only exceptions to this rule are
+purely decorative images or images that have text alternatives adjacent to them.
 
 --------------
 Alt attributes
 --------------
 
-Regardless of whether or not an image requires a text alternative, *all*
-``<img>`` elements require an ``alt`` attribute, even if the value of that
-attribute is ``""`` (NULL). If your image is purely decorative, or has a text
-alternative immediately adjacent to it, use a NULL alt attribute: ``alt=""``.
+Regardless of whether or not an image requires a text alternative, you must
+define an ``alt`` attribute for all ``<img>`` elements, even if the value of
+that attribute is empty (``alt=""``). An empty ``alt`` attribute is also called
+a NULL ``alt`` attribute.
 
-If an ``<img>`` element does not have a NULL alt attribute, you should make sure
-that the value you use in its alt attribute provides useful information to users
-who rely on screen readers. Screen readers will expose the path to the image as
-a last resort, if an alt attribute value does not exist.
+If your image is purely decorative, or has a text alternative immediately adjacent to it, use a NULL ``alt`` attribute.
+
+If an ``<img>`` element does not have a NULL ``alt`` attribute, you should make
+sure that the value you use in its ``alt`` attribute provides useful information
+to users who rely on screen readers. If an ``alt`` attribute value does not
+exist, screen readers will expose the path to the image as a last resort.
 
 
 ------------------------------------
 Best practices for non-text elements
 ------------------------------------
 
-Providing *useful* text alternatives or alt attribute values is more difficult
+Providing *useful* text alternatives or ``alt`` attribute values is more difficult
 than it sounds. Ask yourself questions about the purpose of your image to
 determine what would be most useful to the user.
 
@@ -205,16 +209,16 @@ determine what would be most useful to the user.
   examples of exceptions.
   
     * If yes, and if the same text appears adjacent to or near the image in the
-      DOM, use a "NULL" value in the alt attribute, otherwise a screen reader is
+      DOM, use a NULL value in the ``alt`` attribute, otherwise a screen reader is
       exposed to the same content twice.
     
     * If yes, and if the text within the image is there simply for visual effect
-      (such as a skewed screenshot of computer code), use a "NULL" value in the
-      alt attribute.
+      (such as a skewed screenshot of computer code), use a NULL value in the
+      ``alt`` attribute.
     
 * Does your image contribute meaning to the current page or context?
   
-    * If yes, and if the image is a simple graphic or photograph, the alt
+    * If yes, and if the image is a simple graphic or photograph, the ``alt``
       attribute should briefly describe the image in a way that conveys the same
       meaning that a sighted person would obtain from viewing the image. Context
       is important. A detailed description of a photograph is rarely useful to
@@ -222,13 +226,11 @@ determine what would be most useful to the user.
     
     * If yes, and if the image is a graph or complex piece of information,
       include the information contained in the image elsewhere on the page. The
-      alt attribute value should give a general description of the complex image. You
-      can programmatically link the image with the detailed information using ``aria-
-      describedby``.
+      ``alt`` attribute value should give a general description of the complex image. You can programmatically link the image with the detailed information using ``aria-describedby``.
   
-A very pragmatic guide on providing useful text alternatives is included in the
+A pragmatic guide on providing useful text alternatives is included in the
 `HTML5 specification (4.7.1.1) <http://www.w3.org/TR/html5/embedded-
-content-0.html#alt>`_, and provides a variety of example images and appropriate
+content-0.html#alt>`_. It provides a variety of example images and appropriate
 text alternatives.
 
 A more comprehensive decision tree is available in the `Web Accessibility
@@ -243,15 +245,15 @@ Avoid using CSS to add content
 
 CSS-generated content can cause many accessibility problems. Since many screen
 readers interact with the DOM, they are not exposed to content generated by CSS,
-which does not live in the DOM. There is currently no mechanism for adding
+which does not live in the DOM. There is currently no mechanism for providing
 alternative content for images added using CSS (either background images or
 pseudo elements).
 
 Many developers think that providing screen reader-only text can be used to
-solve this. However, images added using this technique will not be rendered to
-users who have high contrast mode enabled on their operating systems. These
+solve this problem. However, images added using this technique are not rendered
+to users who have high contrast mode enabled on their operating systems. These
 users are likely not using screen readers, so they cannot access the visible
-icon, or the screen reader text.
+icon or the screen reader text.
 
 Content injected into the DOM using JavaScript is more accessible than content added using CSS.
 
@@ -309,13 +311,13 @@ then be read to the user upon focus, or used to address the form element using
 speech input.
 
 
-.. note:: Screen readers often enter "forms processing mode" when they
-   encounter a form. This mode temporarily disables all keyboard shortcuts
-   available to users so that key presses are passed through to the control,
-   with the exception of ``TAB``, which moves focus from one form field to the
-   next. This means that context-sensitive help provided for form fields (such
-   as UI help text adjacent to the form field) is not likely to be encountered
-   by screen reader users. To remedy this situation, add an `aria-describedby
+.. note:: Screen readers often enter "forms processing mode" when they encounter
+   a form. This mode temporarily disables all keyboard shortcuts available to
+   users so that key presses are passed through to the control. The exception is
+   the ``TAB`` key, which moves focus from one form field to the next. This
+   means that context-sensitive help provided for form fields (such as UI help
+   text adjacent to the form field) is not likely to be encountered by screen
+   reader users. To remedy this situation, add an `aria-describedby
    <http://www.w3.org/TR/wai-aria/states_and_properties#aria-describedby>`_
    attribute to the input that references the help text. Doing so
    programmatically links the help text to the form control so that users can
@@ -347,7 +349,7 @@ controls are accessible, and consider the following points.
 * Can a user focus on and interact with your widget using the keyboard alone?
   
 * When the state or some other property of your widget changes, are those
-  changes conveyed to users of assistive technology using aria-attributes?
+  changes conveyed using ARIA attributes to users of assistive technology?
 
 
 .. note:: Adding an ARIA ``role`` overrides the native role semantics reported
@@ -361,12 +363,12 @@ ARIA attributes can also be used to enhance native elements by adding helpful
 information specifically for users of assistive technology. Certain sectioning
 elements (such as ``<nav>`` and ``<header>``) as well as generic ones (such as
 ``<div>`` with "search", "main" or "region" roles defined), receive special
-behaviors when encountered by assistive technology. Most screen readers
-announce when a user enters or leaves one of these regions, allow direct
-navigation to the region, and present the regions to a user in a list that they
-can use to browse the page out of context. Because your pages are likely to have
-multiple ``<nav>`` elements or ``<divs>`` with a role of region, it is important
-to use the ``aria-label`` attribute with a clear and distinct value to
+behaviors when encountered by assistive technology. Most screen readers announce
+when a user enters or leaves one of these regions, allow direct navigation to
+the region, and present the regions to a user in a list that they can use to
+browse the page out of context. Because your pages are likely to have multiple
+``<nav>`` elements or ``<div>`` elements with "region" roles defined, it is
+important to use the ``aria-label`` attribute with a clear and distinct value to
 differentiate between them.
 
 
@@ -418,17 +420,15 @@ WAI-ARIA.
   content is revealed by changing the display property, it is too easy to forget
   to toggle the value of ``aria-hidden``.
 
-  There are legitimate use cases for ``aria-hidden``, for example when you use an
-  icon font that has accessible text immediately adjacent to it. Icon fonts can be
-  focused on by certain screen readers, and will remain silent upon focus This can
-  lead screen reader users to suspect they are missing important content. Some
-  screen readers display what is being spoken on the screen, which helps users
-  with certain cognitive disabilities. Icon fonts will often be rendered as a
-  nondescript glyph in these cases. It is useful to remove them with ``aria-
-  hidden``, to prevent exposing a screen reader user to redundant information when
-  information is available in an accessible format as well as a less than
-  accessible format.
-
+  There are legitimate use cases for ``aria-hidden``, for example when you use
+  an icon font that has accessible text immediately adjacent to it. Icon fonts
+  can remain silent when focused on by certain screen readers, which can lead
+  users of screen readers to suspect that they are missing important content.
+  Icon fonts can also be rendered as nondescript glyphs by some screen readers
+  that display what is being spoken on the screen. In these cases, it is useful
+  to remove icon fonts using ``aria- hidden``, so that screen reader users are
+  not provided with the same information in both accessible and less-accessible
+  formats.
 
 Additional considerations for developing custom widgets are covered in `General
 steps for building an accessible widget <http://www.w3.org/TR/wai-aria-
@@ -489,7 +489,7 @@ the Accessibility API.
 
 To visibly hide content that should be read by screen readers, edX makes a CSS
 ``class="sr"`` available to expose content only to screen reader users. In the
-following example, a sighted user see only the X, while a screen reader user
+following example, a sighted user sees only the X, while a screen reader user
 hears only "Close".
 
 ::
@@ -506,8 +506,8 @@ hears only "Close".
 Choose colors that meet WCAG 2.0's minimum contrast ratios
 **********************************************************
 
-A minimum contrast between foreground and background colors is critical for
-users with impaired vision. You can `check color contrast ratios
+A minimum contrast ratio between foreground and background colors is critical
+for users with impaired vision. You can `check color contrast ratios
 <https://leaverou.github.io/contrast-ratio/>`_ using any number of tools
 available free online.
 
@@ -520,36 +520,35 @@ Test your code for accessibility
 
 The only way to determine if your feature is fully accessible is to manually
 test it using assistive technology; however, there are a number of automated
-tools you can use to perform a self assessment. Automated tools might report
-false positives and might not catch every possible error, but they are a quick
-and easy way to detect the most common mistakes.
+tools you can use to perform an assessment yourself. Automated tools might
+report false positives and might not catch every possible error, but they are a
+quick and easy way to detect the most common mistakes.
 
 These are some automated tools for accessibility testing.
-
-* `WAVE Accessibility Toolbar <http://wave.webaim.org/toolbar/>`_
-  (Chrome/Firefox)
+   
+* `WAVE Accessibility Toolbar <http://wave.webaim.org/toolbar/>`_. This toolbar
+  provides access to web accessibility evaluation tools that you can run in
+  Firefox. A Chrome extension is available.
   
-* `Web Developer Toolbar <https://addons.mozilla.org/en-US/firefox/addon/web-
-  developer/>`_ (Firefox)
-  
-* `Chrome Accessibility Developer Tools
-  <https://chrome.google.com/webstore/detail /accessibility-
-  developer-t/fpkknkljclfencbdbgkenhalefipecmb>`_
+* `Web Developer Toolbar <https://addons.mozilla.org/en-US/firefox/addon/web-developer/>`_. This toolbar provides various web developer tools for Firefox.
 
-* Your keyboard (For more information about keyboard accessibility, see
-  `<http://webaim.org/techniques/keyboard/>`_)
+* `Chrome Accessibility Developer Tools <https://chrome.google.com/webstore/detail/accessibility-developer-t/fpkknkljclfencbdbgkenhalefipecmb>`_. This extension adds an accessibility audit and tools to Chrome Developer Tools.
 
-To test your feature using a screen reader, you can use the following free
+* Your keyboard. For information about using your keyboard to test for
+  accessibility, see `<http://webaim.org/techniques/keyboard/>`_.
+
+To test your feature using a screen reader, you can use the following
 options.
 
-* `Voiceover <https://www.apple.com/accessibility/osx/voiceover>`_ (Screen
-  Reader for Mac - Command + F5 on Mac)
+* `Voiceover <https://www.apple.com/accessibility/osx/voiceover>`_ is a free, built-in screen reader for Mac.
   
-* `ChromeVox <http://www.chromevox.com>`_ (Screen reader for Chrome)
+* `ChromeVox <http://www.chromevox.com>`_ is a free screen reader for Chrome.
   
-* `NVDA <http://www.nvaccess.org/download/>`_ (Screen Reader for Windows - FOSS)
+* `NVDA <http://www.nvaccess.org/download/>`_ is a free screen reader for
+  Windows.
   
-* `JAWS <http://www.freedomscientific.com/Downloads/ProductDemos>`_ (Screen
-  Reader for Windows - Commercial but free to use in 40 minute demo mode)
+* `JAWS <http://www.freedomscientific.com/Downloads/ProductDemos>`_ is a screen
+  reader for Windows. It is a commercial product but free to use in a limited-time
+  demo mode.
   
 
