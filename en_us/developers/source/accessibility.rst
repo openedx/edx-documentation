@@ -37,7 +37,7 @@ this document.
   emulators.
 
 * Some people rely on speech to interact with web applications and need to be
-  able to address interactive elements.
+  able to address interactive elements by speaking their accessible names.
 
 * People who cannot hear or hear well require visible text captions, or an
   equivalent visual cue, for any audible content.
