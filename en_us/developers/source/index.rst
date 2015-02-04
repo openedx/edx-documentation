@@ -17,4 +17,5 @@ edX Developer's Guide
     public_sandboxes.rst
     analytics.rst
     deploy-new-service
+    accessibility
 
