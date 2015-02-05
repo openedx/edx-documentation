@@ -17,8 +17,8 @@ General Questions
 How do I get the mobile app?
 ================================
 
-The Android app is available in the Google Play Store. The iPhone app is
-available in the Apple App Store.
+The Android app is available in the `Google Play`_ Store. The iPhone app is
+available in the Apple `App Store`_.
 
 ================================
 How much does the app cost?
@@ -221,3 +221,7 @@ I get a "This video is not available" screen when I try to watch a video. What c
 If you run into problems, make sure you have an Internet connection. If problems
 persist, let us know: go to your **My Courses** page on the app, tap the menu
 icon in the upper left corner, and then tap **Submit Feedback**.
+
+
+.. _Google Play: https://play.google.com/store/apps/details?id=org.edx.mobile
+.. _App Store: https://itunes.apple.com/us/app/edx/id945480667?mt=8
