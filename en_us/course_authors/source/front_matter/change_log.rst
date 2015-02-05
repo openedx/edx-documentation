@@ -15,6 +15,16 @@ March 2015
    * - 24 Mar 2015
      - Added the **Video Available on Web Only** :ref:`advanced setting<Video
        Advanced Options>` to the :ref:`Working with Video Components` chapter.
+   * - 
+     - Added documentation for :ref:`renaming a cohort<Renaming a Cohort>` and
+       :ref:`Changing the Assignment Method of a Cohort`.
+   * -
+     - Modified topics relating to :ref:`cohorts<Cohorts Overview>`,
+       :ref:`cohort configuration<Enabling and Configuring Cohorts>` and
+       :ref:`cohorted discussions<Set up Discussions in Cohorted Courses>` to
+       reflect that cohort management is now done on the Instructor Dashboard in
+       the LMS.
+
    * - 20 Mar 2015
      - Added the :ref:`Providing Partial Credit for Custom Python-Evaluated
        Input Problems` section to the :ref:`Write Your Own Grader` chapter.
