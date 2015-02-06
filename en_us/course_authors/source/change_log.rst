@@ -12,9 +12,13 @@ February 2015
 
    * - Date
      - Change
+   * - 2/13/15
+     - Update the example in :ref:`Drag and Drop Problem XML`.
    * - 2/12/14
      - Updated :ref:`LTI Component settings` to reflect added settings.
-   * - 2/4/14
+   * - 2/13/15
+     - Update the example in :ref:`Drag and Drop Problem XML`.
+   * - 2/4/15
      - Updated :ref:`Create an Account`.
 
 *****************

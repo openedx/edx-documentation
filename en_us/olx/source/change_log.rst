@@ -3,6 +3,19 @@ Change Log
 ############
 
 *****************
+February 2015
+*****************
+
+.. list-table::
+   :widths: 10 70
+   :header-rows: 1
+
+   * - Date
+     - Change
+   * - 2/13/15
+     - Update the example in :ref:`Drag and Drop Problem XML`.
+
+*****************
 December, 2014
 *****************
 
