@@ -10,6 +10,8 @@ February 2014
    :widths: 10 70
    :header-rows: 1
 
+   * - Date
+     - Change
    * - 2/4/14
      - Updated :ref:`Create an Account`.
 
