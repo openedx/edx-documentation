@@ -6,10 +6,6 @@ edX Learning Management System
 February 4, 2015
 ******************
 
-* Course staff no longer have to obtain a course-specific anonymized student ID
-  when they want to get student information in an open response assessment.
-  Course staff can now enter a student's username in **Get Student Info** to
-  get his information. (TNL-836)
   
 * The first line of a Chinese video transcript was not visible. This problem is
   resolved. (TNL-935)
