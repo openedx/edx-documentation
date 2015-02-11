@@ -36,7 +36,7 @@ You can embed a Google calendar in your course so that students see the calendar
 in the courseware. You can use a  Google calendar to share quiz dates, office
 hours, or other schedules of interest to students. For example:
 
-.. image:: ../Images/google-calendar.png
+.. image:: ../../../shared/building_and_running_chapters/Images/google-calendar.png
   :alt: A Google calendar in courseware
 
 *******************************************
@@ -78,7 +78,7 @@ To enable Google Calendars in your course:
    add a comma after the closing quotation mark for the last value, and then
    type ``"google-calendar"``. For example:
    
-   .. image:: ../Images/google-advanced-setting.png
+   .. image:: ../../../shared/building_and_running_chapters/Images/google-advanced-setting.png
     :alt: Advanced modules setting for Google Calendars
 
 #. At the bottom of the page, select **Save Changes**.
@@ -135,7 +135,7 @@ Make the Google Calendar Public
 #. Click the **Share this Calendar** tab, and then select **Make this calendar
    public**.
    
-  .. image:: ../Images/google-calendar-settings.png
+  .. image:: ../../../shared/building_and_running_chapters/Images/google-calendar-settings.png
    :alt: Google calendar settings
 
 7. Select **Save**.
@@ -155,7 +155,7 @@ Obtain the Google Calendar ID
    colored **XML**, **ICAL**, and **HTML** buttons. In parentheses, you can see
    the calendar ID.
 
-   .. image:: ../Images/google-calendar-address.png
+   .. image:: ../../../shared/building_and_running_chapters/Images/google-calendar-address.png
      :width: 600
      :alt: Image of Calendar Address label with the calendar ID to the right
 
@@ -194,13 +194,13 @@ To add a Google calendar component:
    The new component is added to the unit, with the default edX Google calendar
    embedded.
 
-   .. image:: ../Images/google-calendar-studio.png
+   .. image:: ../../../shared/building_and_running_chapters/Images/google-calendar-studio.png
     :width: 600
     :alt: The Google calendar component in a unit page
 
 #. In the new component, select **Edit**.
    
-   .. image:: ../Images/google-calendar-edit.png
+   .. image:: ../../../shared/building_and_running_chapters/Images/google-calendar-edit.png
     :width: 600
     :alt: The Google calendar editor
 

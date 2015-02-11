@@ -34,7 +34,7 @@ Overview
 You can embed a Google Drive file in your course so that students see the file in
 the courseware. For example, you can share a Google spreadsheet with students.
 
-.. image:: ../Images/google-spreadsheet.png
+.. image:: ../../../shared/building_and_running_chapters/Images/google-spreadsheet.png
   :width: 600
   :alt: A Google spreadsheet in courseware
 
@@ -85,7 +85,7 @@ To enable Google Drive files in your course:
    add a comma after the closing quotation mark for the last value, and then
    type ``"google-document"``. For example:
    
-   .. image:: ../Images/google-advanced-setting.png
+   .. image:: ../../../shared/building_and_running_chapters/Images/google-advanced-setting.png
     :alt: Advanced modules setting for Google documents
 
 #. At the bottom of the page, select **Save Changes**.
@@ -131,13 +131,13 @@ file to the web and obain the embed code for the file.
 #. Open the Google Drive file.
 #. From the **File** menu, select **Publish to the web**.
    
-   .. image:: ../Images/google-publish-to-web.png
+   .. image:: ../../../shared/building_and_running_chapters/Images/google-publish-to-web.png
     :alt: The Google Drive file Publish to the web dialog box
 
 #. Click **Publish**, then select **OK** to confirm the action.
 #. Click the **Embed** tab.
       
-   .. image:: ../Images/google-embed.png
+   .. image:: ../../../shared/building_and_running_chapters/Images/google-embed.png
     :alt: The Google Drive file Publish to web Embed tab
 
 #. Copy the complete string in the **Embed** field, including the ``<iframe>``
@@ -177,12 +177,12 @@ To add a Google Drive file component:
    The new component is added to the unit, with the default Google presentation
    embedded.
 
-   .. image:: ../Images/google-document-studio.png
+   .. image:: ../../../shared/building_and_running_chapters/Images/google-document-studio.png
     :alt: The Google Drive file component in a unit page
 
 #. In the new component, select **Edit**.
    
-   .. image:: ../Images/google-document-edit-studio.png
+   .. image:: ../../../shared/building_and_running_chapters/Images/google-document-edit-studio.png
     :alt: The Google Drive file editor
 
 #. In the **Display Name** field, type the name for the component.
