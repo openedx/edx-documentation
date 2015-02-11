@@ -4,19 +4,18 @@
 LTI Component
 ###############
 
-You may have discovered or developed an external learning application
-that you want to add to your online course. Or, you may have a digital
-copy of your textbook that uses a format other than PDF. You can add
-external learning applications or textbooks to Studio by using a
-Learning Tools Interoperability (LTI) component. The LTI component is
-based on the `IMS Global Learning Tools
+You might have discovered or developed an external learning application that you
+want to add to your online course. Or you might have a digital copy of your
+textbook that uses a format other than PDF. You can add external learning
+applications or textbooks to Studio by using a Learning Tools Interoperability
+(LTI) component. The LTI component is based on the `IMS Global Learning Tools
 Interoperability <http://www.imsglobal.org/LTI/v1p1p1/ltiIMGv1p1p1.html>`_
 version 1.1.1 specifications.
 
 You can use an LTI component in several ways.
 
-* You can add external LTI content that is displayed only, such as textbook
-  content that doesn’t require a student response.
+* You can add external LTI content that is only displayed and does not require a
+student response, such as textbook content.
 
 * You can add external LTI content that requires a student response. An external
   provider will grade student responses.
@@ -96,7 +95,7 @@ Step 1. Add LTI to the Advanced Module List Policy Key
 #. In the field for the **Advanced Module List** policy key, place your cursor
    between the brackets.
 
-#. Enter ``“lti”``. Make sure to include the quotation marks, but not the
+#. Enter ``"lti"``. Make sure to include the quotation marks, but not the
    period.
 
    .. image:: ../../../shared/building_and_running_chapters/Images/LTIPolicyKey.png
@@ -105,7 +104,7 @@ Step 1. Add LTI to the Advanced Module List Policy Key
 
 .. note:: If the **Advanced Module List** field already contains text, place your cursor directly
    after the closing quotation mark for the final item, and then enter a comma
-   followed by ``“lti”`` (make sure that you include the quotation marks).
+   followed by ``"lti"`` (make sure that you include the quotation marks).
 
 4. At the bottom of the page, click **Save Changes**.
 
@@ -169,9 +168,15 @@ LTI Component Settings
    * - Setting
      - Description
    * - Accept grades past deadline
-     - Specifies whether third party systems are allowed to post grades past the deadline. By default, this value is set to **True**.
-   * - Custom Parameters
-     - Enables you to add one or more custom parameters. For example, if you've added an e-book, you can set a custom parameter that opens the e-book to a specific page. You could also use a custom parameter to set the background color of the LTI component.
+     - Specifies whether third party systems are allowed to post grades past the deadline. By default, this value is set to True.
+   * - Button Text     
+     - Enter a custom label for the button that launches the third-party LTI
+       application.           
+   * - Custom Parameters     
+     - Enables you to add one or more custom parameters. For example, if you
+       added an e-book, you can set a custom parameter that opens the e-book to
+       a specific page. You could also use a custom parameter to set the
+       background color of the LTI component.
 
        Every custom parameter has a key and a value. You must add the key and value in the following format.
 
@@ -188,19 +193,41 @@ LTI Component Settings
           page=144
 
        To add a custom parameter, click **Add**.
-   * - Display Name
-     - Specifies the name of the problem. This name appears above the problem and in the course ribbon at the top of the page in the courseware. Analytics reports may also use the display name to identify this component.
+   * - Display Name               
+     - Specifies the name of the component. This name appears above the
+       component and in the course ribbon at the top of the page in the
+       courseware. Unique, descriptive display names help you identify problems
+       quickly and accurately for analysis.
    * - Hide External Tool
-     - Indicates whether you want to launch an external tool or to use this component as a placeholder for syncing with an external grading system. If you set the value to **True**, Studio hides the **Launch** button and any IFrames for this component. By default, this value is set to **False**.
-   * - LTI ID
-     - Specifies the LTI ID for the external LTI provider. This value must be the same LTI ID that you entered on the **Advanced Settings** page.
-   * - LTI URL
-     - Specifies the URL of the external tool that this component launches. This setting is applicable when **Hide External Tool** is set to False.
+     - Indicates whether you want to launch an external tool or to use this
+       component as a placeholder for syncing with an external grading system.
+       If you set the value to True, Studio hides the **Launch** button and any
+       IFrames for this component. By default, this value is set to False.
+   * - LTI ID     
+     - Specifies the LTI ID for the external LTI provider. This value must be
+       the same LTI ID that you entered on the **Advanced Settings** page.
+   * - LTI URL 
+     - Specifies the URL of the external tool that this component launches.This
+       setting is applicable when **Hide External Tool** is set to False.      
    * - Open in New Page
-     - Indicates whether the problem opens in a new page. If you set this value to **True**,          the student clicks a link that opens the LTI content in a new window. If you set this value to **False**, the LTI content opens in an IFrame in the current page. This setting is applicable when **Hide External Tool** is set to False.
-   * - Scored
-     - Indicates whether the LTI component receives a numerical score from the external LTI system. By default, this value is set to **False**.
+     - Specify whether the problem opens in a new page. If you set this value to
+       True, the student clicks a link that opens the LTI content in a new
+       window. If you set this value to False, the LTI content opens in an
+       IFrame in the current page. This setting is applicable when **Hide
+       External Tool** is set to False.
+   * - Request user's email     
+     - If **Open in New Page** is set to True, you can also request user
+       information. Set this value to True to request the user's email address.
+   * - Request user's username     
+     - If **Open in New Page** is set to True, you can also request user
+       information. Set this value to True to request the user's username.    
+   * - Scored     
+     - Indicates whether the LTI component receives a numerical score from the
+       external LTI system. By default, this value is set to False.       
    * - Weight
-     - Specifies the number of points possible for the problem. By default, if an external LTI provider grades the problem, the problem is worth 1 point, and a student’s score can be any value between 0 and 1. This setting is applicable when **Scored** is set to **True**.
+     - Specifies the number of points possible for the problem. By default, if
+       an external LTI provider grades the problem, the problem is worth 1
+       point, and a student’s score can be any value between 0 and 1. This
+       setting is applicable when **Scored** is set to True.
 
        For more information about problem weights and computing point scores, see :ref:`Problem Weight`.
