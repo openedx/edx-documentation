@@ -7,7 +7,7 @@ Student Notes Tool
 The Student Notes tool allows students to highlight and make notes about what
 they read in the body of the course. 
 
-.. image:: /Images/SFD_SN_bodyexample.png
+.. image:: ../../../shared/building_and_running_chapters/Images/SFD_SN_bodyexample.png
   :width: 500
   :alt: Image of a course page that includes highlighted text and a student note
 
@@ -20,7 +20,7 @@ Students can access their notes either in the body of the course or on a
 student has made during the course. It also contains links to the location of
 the notes in the course content.
 
-.. image:: /Images/SFD_SN_NotesTab.png
+.. image:: ../../../shared/building_and_running_chapters/Images/SFD_SN_NotesTab.png
   :width: 500
   :alt: The Student Notes page listing all the notes a student has made in the
       course
