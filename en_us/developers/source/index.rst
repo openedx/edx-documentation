@@ -12,10 +12,11 @@ edX Developer's Guide
     testing/index
     extending_platform/index
     modulestores/index
-    internationalization/index
     pavelib.rst
     public_sandboxes.rst
     analytics.rst
     deploy-new-service
+    internationalization/index
     accessibility
+    
 
