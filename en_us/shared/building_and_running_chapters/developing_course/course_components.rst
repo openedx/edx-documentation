@@ -331,4 +331,3 @@ moves to the same level as the parent.
 .. note:: 
   For content experiments, you cannot drag a child component outside of a test
   group.
->>>>>>> Content libraries documentation
