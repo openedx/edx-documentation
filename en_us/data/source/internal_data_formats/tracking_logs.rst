@@ -348,8 +348,6 @@ events that originate on the server (during the processing of a request).
 Enrollment Events
 =========================
 
-.. tracked_command.py
-
 ``edx.course.enrollment.activated`` and ``edx.course.enrollment.deactivated``
 *****************************************************************************
 
@@ -387,18 +385,18 @@ that result in these events, see :ref:`instructor_enrollment`.
      - Details
    * - ``course_id``
      - string
-     - **History**: Maintained for backward compatibility. 
+     - The course in which the student was enrolled or unenrolled. 
        
-       As of 23 Oct 2013, replaced by the ``context.course_id`` field.
-
-       See the description of the :ref:`context`.
+       If an external tool is used to enroll or unenroll students, this field
+       contains a value and the ``context.course_id`` field is null.
 
    * - ``mode``
      - string
-     - 'audit', 'honor', 'verified'
+     - 'audit', 'honor', 'professional', 'verified'. Identifies the student's
+       enrollment mode.
    * - ``user_id``
      - integer
-     - Identifies the user who was enrolled or unenrolled. 
+     - Identifies the student who was enrolled or unenrolled. 
 
 Example
 *******
@@ -429,7 +427,36 @@ Example
         "event_type": "edx.course.enrollment.deactivated"
       }
 
-.. new example provided by Olga 12/15/14
+``edx.course.enrollment.mode_changed``
+**************************************
+
+The server emits an ``edx.course.enrollment.mode_changed`` event when the
+process of changing a student's ``student_courseenrollment.mode`` to a
+different mode is complete.
+
+**Event Source**: Server
+
+**History**: Added 21 Aug 2014.
+
+``event`` **Member Fields**: 
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+   * - ``course_id``
+     - string
+     - The course in which the student's enrollment mode has changed. 
+   * - ``mode``
+     - string
+     - 'audit', 'honor', 'professional', verified'. Identifies the student's
+       new enrollment mode.
+   * - ``user_id``
+     - integer
+     - Identifies the student whose enrollment mode changed. 
 
 ``edx.course.enrollment.upgrade.clicked``
 *****************************************
@@ -460,7 +487,7 @@ event when a student clicks this option, and the process of upgrading the
        'honor'.
 
 ``event`` **Member Fields**: None.
-       
+
 ``edx.course.enrollment.upgrade.succeeded``
 *******************************************
 
@@ -3224,6 +3251,10 @@ members also generate enrollment events.
   the server emits an ``edx.course.enrollment.activated`` event for each
   enrollment. When this feature is used to unenroll students from a course, the
   server emits a ``edx.course.enrollment.deactivated`` for each unenrollment.
+
+  For events emitted as a result of a batch enrollment, the ``username`` and
+  ``context.user_id`` identify the course team member who made the change, and
+  the ``event.user_id`` identifies the student who was enrolled or unenrolled.
 
 For details about the enrollment events, see :ref:`enrollment`.
 
