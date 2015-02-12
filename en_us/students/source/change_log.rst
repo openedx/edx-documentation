@@ -5,7 +5,7 @@ Change Log
 
 
 .. list-table::
-   :widths: 10 70
+   :widths: 20 70
    :header-rows: 1
 
    * - Date
