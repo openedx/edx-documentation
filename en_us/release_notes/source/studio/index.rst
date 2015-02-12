@@ -3,10 +3,16 @@ edX Studio
 ####################################
 
 ******************
+February 12, 2015
+******************
+
+* A new video appears as the default video when you add a Video component.
+
+******************
 February 4, 2015
 ******************
 
-* Previously, you received an error when opening **Settings & Details** page in
+* Previously, you received an error when opening the **Settings & Details** page in
   French. This problem is resolved. (TNL-1237)
 
 ******************
