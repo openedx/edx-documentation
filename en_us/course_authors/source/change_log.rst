@@ -12,6 +12,8 @@ February 2015
 
    * - Date
      - Change
+   * - 2/12/14
+     - Updated :ref:`LTI Component settings` to reflect added settings.
    * - 2/4/14
      - Updated :ref:`Create an Account`.
 
