@@ -10,21 +10,22 @@ Change Log
 
    * - Date
      - Change
-   * - 1/20/14
+   * - 20 Jan 15
      - Added iPhone information to :ref:`SFD Mobile`.
-   * - 12/12/14
+   * - 12 Dec 14
      - Added :ref:`SFD Mobile` topic.
-   * - 12/8/14
+   * - 8 Dec 14
      - Added the preface and list of topics to the :ref:`Introduction` section.
-   * - 12/4/14
+   * - 4 Dec 14
      - Added :ref:`SFD Wiki` topic.
-   * - 11/24/15
+   * - 24 Nov 14
      - Updated information about superscripts and subscripts in :ref:`Math
        Formatting`.
-   * - 11/10/14
+   * - 10 Nov 14
      - Added :ref:`Video Player` topic.
-   * - 11/6/14
-     - Updated :ref:`Scientific Notation` and :ref:`Constants` in :ref:`Math Formatting`.
-   * - 10/24/14
+   * - 6 Nov 14
+     - Updated :ref:`Scientific Notation` and :ref:`Constants` in :ref:`Math
+       Formatting`.
+   * - 24 Oct 14
      - Added :ref:`Course Discussions` section.
 
