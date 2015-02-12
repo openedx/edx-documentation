@@ -2,6 +2,11 @@
 edX Website
 ####################################
 
+******************
+February 12, 2015
+******************
+
+* Some students saw an incorrect message when they signed up for a verified certificate. This problem has been resolved. (ECOM-1031)
 
 ******************
 February 4, 2015
