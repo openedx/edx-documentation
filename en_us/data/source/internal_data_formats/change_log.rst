@@ -9,11 +9,14 @@ January-March 2015
 **********************
 
 .. list-table::
-   :widths: 10 70
+   :widths: 20 70
    :header-rows: 1
 
    * - Date
      - Change
+   * - 13 Feb 2015
+     - Added the ``edx.course.enrollment.mode_changed`` event to the
+       :ref:`Tracking Logs` chapter.
    * - 4 Feb 2015
      - Added information about the ``module.usage_key`` member field in the
        common ``context`` field to the :ref:`Tracking Logs` chapter.

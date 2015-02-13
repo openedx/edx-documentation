@@ -56,6 +56,12 @@ Alphabetical Event List
      - :ref:`enrollment` and :ref:`instructor_enrollment`
    * - ``edx.course.enrollment.deactivated`` 
      - :ref:`enrollment` and :ref:`instructor_enrollment`
+   * - ``edx.course.enrollment.mode_changed``
+     - :ref:`enrollment`
+   * - ``edx.course.enrollment.upgrade.clicked``
+     - :ref:`enrollment`
+   * - ``edx.course.enrollment.upgrade.succeeded``
+     - :ref:`enrollment`
    * - ``edx.forum.searched``
      - :ref:`forum_events`
    * - ``edx.video.loaded``
