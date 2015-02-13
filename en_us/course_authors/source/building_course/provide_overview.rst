@@ -204,10 +204,6 @@ the course About page.
   :width: 500
   :alt: A course About page with prerequisite course information circled
 
-
-.. image:: ../../../shared/building_and_running_chapters/Images/schedule.png
-
-
 If students have not completed the prerequisite course, they can enroll in your
 course and then see your course on the Student Dashboard. However, unlike with
 other courses, the Student Dashboard does not provide a link to the courseware.
