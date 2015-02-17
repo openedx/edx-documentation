@@ -18,4 +18,3 @@ Building and Running an Open edX Course
    cohorts/index
    releasing_course/index
    running_course/index
-   students/index
