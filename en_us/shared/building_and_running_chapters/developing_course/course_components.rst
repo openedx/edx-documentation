@@ -6,7 +6,7 @@ Developing Course Components
 
 This chapter describes how you develop course components. See:
 
-* `What is a Component?`_
+* `What is a Component`_
 * `Add a Component`_
 * `Edit a Component`_
 * `Duplicate a Component`_
@@ -17,6 +17,8 @@ For more information about specific component types, see:
 
 * :ref:`Creating Course Content Index`
 * :ref:`Exercises and Tools Index`
+
+.. _What is a Component:
 
 ********************
 What is a Component?
