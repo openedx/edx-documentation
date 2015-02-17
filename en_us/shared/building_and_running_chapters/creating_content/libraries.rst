@@ -45,6 +45,8 @@ libraries.
 * :ref:`View the Contents of a Library`
 * :ref:`Edit Components in a Library`
 * :ref:`Give Other Users Access to Your Library`
+* :ref:`Import a Library`
+* :ref:`Export a Library`
 
 See the following sections for details about using content library components in
 a course.
@@ -386,4 +388,72 @@ To remove **Staff** or **Admin** access from a library user, follow these steps.
 .. note:: There must always be at least one Admin for a library. If there is
    only one user with the Admin role, you cannot remove him or her from the
    Admin role unless you first assign another user to the Admin role.
+
+
+.. _Exporting and Importing a Library:
+
+*********************************
+Exporting and Importing a Library
+*********************************
+
+You can :ref:`export<Export a Library>` and :ref:`import<Import a Library>` a content library in Studio. 
+
+.. _Export a Library:
+
+There are several reasons why you might want to export your library.
+
+* To save your work
+* To edit the XML in your library directly
+* To create a backup copy of your library, which you can import if you want to revert the library back to a previous state
+* To share with another course team member
+* To create a copy of your library from which to work
+
+When you export your library, Studio creates a **.tar.gz** file that includes the following data.
+
+*This
+*That  
+
+
+The following data is not exported with your course.
+
+* This 
+* That
+
+To export a library, follow these steps.
+
+#. In Studio, select the **Libraries** tab.
+#. Locate the library that you want to export.
+#. From the **Tools** menu, select **Export**.
+#. Click **Export Library Content** and specify where you want the file to be saved.
+
+When the export completes you can access the .tar.gz file on your computer.    
+
+
+.. _Import a Library:
+
+.. warning:: When you import a library file, it completely replaces the existing
+   library and its contents. You cannot unto a library import. Before importing a
+   library file, we recommend that you first export the current library, so that
+   you have a backup copy of it.
+
+You might want to import a library if you developed or updated library content
+outside of Studio, or if you want to overwrite a problematic or outdated version
+of the library with a current backup copy.
+
+The library file that you import must be a .tar.gz file (that is, a .tar file compressed using GNU Zip). This .tar.gz file must contain a library.xml file. 
+
+To import a library, follow these steps.
+
+#. In Studio, select the **Libraries** tab.
+#. Locate the library that you want to overwrite with the new imported library file.
+#. From the **Tools** menu, select **Import**.
+#. Click **Choose a File to Import** and select the .tar.gz file that you are importing.
+#. Click **Replace my library with the selected file**.
+The Library Import Status is shown. 
+
+.. warning:: The import process has five stages. During the first two stages
+   (Uploading and Unpacking), do not navigate away from the Library Import page.
+   Doing so causes the import process to end. You can leave the page only after
+   the Unpacking stage completes. We recommend that you do not make important
+   changes to the library until all stages of the import process have finished.
 
