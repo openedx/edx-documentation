@@ -129,6 +129,10 @@ Unit**:
 
 The :ref:`unit<Developing Course Units>` page opens.
 
+.. note:: If you want to require an entrance exam for your course, you also create 
+   the exam in the course outline. Before you can create an exam, you must set
+   your course to require an entrance exam in Studio. For more information, see
+   :ref:`Require an Entrance Exam`.
 
 .. _Modify Settings for Objects in the Course Outline:
 

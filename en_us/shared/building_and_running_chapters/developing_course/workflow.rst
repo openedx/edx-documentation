@@ -85,6 +85,26 @@ able to see it. Content visibility depends on several factors:
   
 For more information, see :ref:`Controlling Content Visibility`.
 
+.. _Making Course Content Searchable:
+
+***********************************
+Making Course Content Searchable
+***********************************
+
+Learners can search course text in :ref:`HTML components<Working with HTML
+Components>` and video transcripts by using the **Search** box in the upper-left
+corner of the **Courseware** tab. 
+
+Before learners can search your course, Studio must index the content. Studio
+indexes all new course content automatically when you :ref:`publish<Publish a
+Unit>` the content. 
+
+If necessary, you can manually reindex all of the content in your course at any
+time. Typically, you would only manually reindex your course content if learners
+see unexpected search results. To reindex your course content, select **Reindex
+Content** in the upper-right corner of the **Course Outline** page. Reindexing
+usually takes less than 30 seconds.
+
 .. _Revising Content:
 
 ****************************

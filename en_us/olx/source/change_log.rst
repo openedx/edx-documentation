@@ -27,6 +27,9 @@ December, 2014
      - Change
    * - 2/12/14
      - Updated :ref:`LTI Component settings` to reflect added settings.
+   * - 12/31/14
+     - Added the :ref:`Google Calendar Tool` and :ref:`Google Drive Files
+       Tool` chapters.
    * - 12/17/14
      - Updated :ref:`Custom JavaScript` to indicate that you cannot use a
        custom JavaScript problem in a component with multiple problems.

@@ -73,7 +73,14 @@ Create a New Course
 
 4. Click **Save.**
 
-You then see the empty Course Outline.
+The page refreshes to show the empty **Outline** for your new course. The course
+identifier appears in the browser address bar as the final part of the URL in
+the format ``{key type}:{org}+{course}+{run}``. For example,
+``course-v1:edX+DemoX+Demo_2014``.
+
+  .. note::  This course ID format applies to all courses created after January
+     14, 2015. Older courses can have course IDs in the format
+     ``{org}/{course}/{run}``. For example, ``MITx/6.002x/2012_Fall``.
 
 .. _Edit Your Course:
 

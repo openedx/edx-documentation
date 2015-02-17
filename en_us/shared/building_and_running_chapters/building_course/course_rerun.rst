@@ -153,7 +153,7 @@ release:
    or :ref:`Add a Link to a File`.
 
 * Review the staff biographies and other information on the course summary
-  page and make needed updates. See :ref:`The Course Summary Page`.
+  page and make needed updates. See :ref:`Providing a Course Overview`.
 
 * Create initial posts for discussion topics and an "introduce yourself"
   post. See :ref:`Discussions`.
