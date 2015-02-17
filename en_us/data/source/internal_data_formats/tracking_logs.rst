@@ -200,8 +200,9 @@ when applicable for an event.
 * When included, ``course_user_tags`` contains a dictionary with the key(s)
   and value(s) from the ``user_api_usercoursetag`` table for the user. See
   :ref:`user_api_usercoursetag`.
+
 * When included for a server event, ``module`` contains a dictionary with the
-  component ``display_name`` and the ``usage_key`` of an xblock. These values
+  component ``display_name`` and the xblock ``usage_key``. These values
   identify the source of the content involved in the server process; for
   example, the problem component that the server checked successfully.
 
@@ -356,6 +357,8 @@ outside the Instructor Dashboard.
 * :ref:`forum_events`
 
 * :ref:`ora2`
+
+* :ref:`content`
 
 * :ref:`AB_Event_Types`
 
@@ -2111,9 +2114,9 @@ The browser emits ``problem_show`` events when a problem is shown.
 
        **History**: In October 2014, identifiers for some new courses began to
        use the format shown above. Other new courses, and all courses created
-       prior to October 2014, use an html-escaped version of the
+       prior to October 2014, use an HTML-escaped version of the
        ``courseware_studentmodule.module_id``. For example,
-       i4x://MITx/6.00x/problem/L15:L15_Problem_2.
+       ``i4x://MITx/6.00x/problem/L15:L15_Problem_2``.
 
 ``reset_problem``
 *********************************
@@ -2886,6 +2889,52 @@ the response.
      - string
      - The MIME type of the uploaded file. Reported by the student's browser.
 
+
+.. _content:
+
+===========================
+Third-Party Content Events
+===========================
+
+EdX courses can include components that present content that is hosted by a
+third party. The server emits events when third-party content is shown to
+students.
+
+``edx.googlecomponent.calendar.displayed`` and ``edx.googlecomponent.document.displayed``
+******************************************************************************************
+
+The server emits an ``edx.googlecomponent.calendar.displayed`` event when a
+Google Calendar component is shown in the LMS. The server emits an
+``edx.googlecomponent.document.displayed`` event when a Google Drive file,
+such as a document, spreadsheet, or image, is shown in the LMS.
+
+For more information about adding Google calendars or Google Drive files
+to a course, see `Creating Exercises and Tools`_.
+
+**Event Source**: Server
+
+**History**: Added 4 Mar 2015.
+
+``event`` **Member Fields**:
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+   * - ``displayed_in``
+     - string
+     - 'img' for Google Drive image files. 
+       
+       'iframe' for Google Calendars and for Google Drive files of other
+       types.
+
+   * - ``url``
+     - string
+     - The URL of the image file or of the file loaded by the iFrame.
+
 .. _AB_Event_Types:
 
 ========================================
@@ -3643,3 +3692,6 @@ uploading a CSV file of student cohort assignments.
 .. _Referer: http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.36
 
 .. _Accept-Language: http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.4
+
+.. _Creating Exercises and Tools: http://edx-partner-course-staff.readthedocs.org/en/latest/exercises_tools/index.html
+
