@@ -42,7 +42,7 @@ responses in the **Student Admin** tab on the Instructor Dashboard, you must now
 specify the complete location identifier of the problem. The `Student Grades and
 Grading`_ section is updated with this revised requirement.
 
-For additional technical detail about this architectural change and the opportunities it creates, see `Opaque Keys`_ on the GitHub wiki.
+For additional technical detail about this architectural change and the opportunities it creates, see `Opaque Keys (Locators)`_ on the GitHub wiki.
 
 ***************************************
 edX Learning Management System
