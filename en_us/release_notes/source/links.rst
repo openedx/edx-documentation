@@ -129,6 +129,8 @@
 
 .. _Split Mongo Modulestore: http://edx-developer-guide.readthedocs.org/en/latest/modulestores/split-mongo.html#split-mongo-modulestore
 
+.. _Accessibility Guidelines for Developers: http://edx-developer-guide.readthedocs.org/en/latest/accessibility.html
+
 .. _Keys and Credentials for Data Transfers: http://edx.readthedocs.org/projects/devdata/en/latest/internal_data_formats/credentials.html
 
 .. _Testing Your Course: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/developing_course/testing_courseware.html
@@ -323,7 +325,15 @@
 
 .. Peer Assessments
 
+.. _Accessing ORA Information: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/open_response_assessments/Access_ORA_Info.html
+
+.. _Access Student Information: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/open_response_assessments/Access_ORA_Info.html#access-the-student-s-information
+
 .. _Create an Open Response Assessment Assignment: http://edx.readthedocs.org/projects/edx-open-response-assessments/en/latest/CreatePeerAssessment.html
+
+.. _Removing a student submission: http://edx.readthedocs.org/projects/edx-open-response-assessments/en/latest/exercises_tools/open_response_assessments/Access_ORA_Info.html#remove-a-student-response-from-peer-grading
+
+
 
 .. DATA DOCUMENTATION
 

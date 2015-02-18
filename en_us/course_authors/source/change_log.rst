@@ -12,12 +12,16 @@ February 2015
 
    * - Date
      - Change
+   * - 2/19/15
+     - Updated ORA documentation to reflect ability to :ref:`Remove a student response from peer grading`
+   * - 
+     - Updated ORA documentation to indicate that course staff can use student
+       usernames to :ref:`Access Student Information`. They no longer need to
+       obtain an anonymized student ID.
    * - 2/13/15
-     - Update the example in :ref:`Drag and Drop Problem XML`.
-   * - 2/12/14
+     - Updated the example in :ref:`Drag and Drop Problem XML`.
+   * - 2/12/15
      - Updated :ref:`LTI Component settings` to reflect added settings.
-   * - 2/13/15
-     - Update the example in :ref:`Drag and Drop Problem XML`.
    * - 2/4/15
      - Updated :ref:`Create an Account`.
 
