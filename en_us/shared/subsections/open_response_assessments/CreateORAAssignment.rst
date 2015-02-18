@@ -19,8 +19,9 @@ Creating an open response assessment is a multi-step process:
 Each of these steps is covered in detail below.
 
 For more information about the components of an open response assessment, see
-:ref:`Open Response Assessments 2`.
-
+:ref:`Open Response Assessments 2`. For information about viewing metrics and
+student responses for released open response assessments, see :ref:`Accessing
+ORA Assignment Information`.
 
 .. _PA Create Component:
 
@@ -50,7 +51,12 @@ To add the prompt, or question:
 Add Formatting or Images to the Prompt
 ========================================
 
-Currently, you cannot add text formatting or images inside the Peer Assessment component. If you want to include formatting or images in the text of your prompt, you can add an HTML component that contains your text above the Peer Assessment component and leave the text field in the **Prompt** tab blank. The instructions for the peer assessment still appear above the **Your Response** field.
+Currently, you cannot add text formatting or images inside the Peer Assessment
+component. If you want to include formatting or images in the text of your
+prompt, you can add an HTML component that contains your text above the Peer
+Assessment component and leave the text field in the **Prompt** tab blank. The
+instructions for the peer assessment still appear above the **Your Response**
+field.
 
 .. image:: ../../../../shared/building_and_running_chapters/Images/PA_HTMLComponent.png
       :alt: A peer assessment that has an image in an HTML component
@@ -109,7 +115,8 @@ To add the rubric:
 Provide Only Comment Fields for Individual Criteria
 ==========================================================
 
-When you add a comment field to a criterion, the comment field appears below the options for the criterion. You can also provide a comment field, but no options. 
+When you add a comment field to a criterion, the comment field appears below the
+options for the criterion. You can also provide a comment field, but no options.
 
 In the following image, the first criterion has a comment field but no options. The second includes options, but does not have a comment field.
 
@@ -126,7 +133,8 @@ To provide a comment field without options:
 Step 4. Specify the Assignment Name and Response Dates
 ************************************************************
 
-To specify a name for the assignment as well as start and due dates for all student responses:
+To specify a name for the assignment as well as start and due dates for all
+student responses:
 
 #. In the component editor, click the **Settings** tab.
 #. Next to **Display Name**, type the name you want to give the assignment.
@@ -165,7 +173,8 @@ To add steps to the assignment:
 Step 6. Specify Step Settings
 ******************************
 
-After you select the steps that you want, you'll specify settings for those steps.
+After you select the steps that you want, you'll specify settings for those
+steps.
 
 .. note:: If you make changes to a step, but then you clear the check box for that step, the step will no longer be part of the assignment and your changes will not be saved. 
 
@@ -175,7 +184,8 @@ After you select the steps that you want, you'll specify settings for those step
 Student Training
 ========================
 
-For the student training step, you'll enter one or more responses that you have created, then select an option for each criterion in your rubric.
+For the student training step, you'll enter one or more responses that you have
+created, then select an option for each criterion in your rubric.
 
 .. note:: You must enter your complete rubric on the **Rubric** tab before you can select options for the student training responses. If you later change one of your criteria or any of its options, you'll also have to update the student training step.
 
@@ -191,7 +201,9 @@ For more information, see :ref:`PA Student Training Assessments`.
 Peer Assessment
 ============================
 
-For the peer assessment step, you'll specify the number of responses that each student must grade, the number of students that must grade each response, and start and due dates. All fields are required.
+For the peer assessment step, you'll specify the number of responses that each
+student must grade, the number of students that must grade each response, and
+start and due dates. All fields are required.
 
 To specify peer assessment settings:
 
@@ -222,7 +234,9 @@ To allow students to see the top-scoring responses for the assignment, you'll sp
 #. In the component editor, click the **Settings** tab.
 #. In the **Top Responses** field, specify the number of responses that you want to appear in the **Top Responses** section below the student's final score. If you don't want this section to appear, set the number to 0. The maximum number is 100.
 
-.. note:: Because each response can be up to 300 pixels in height, we recommend that you set this number to 20 or lower to prevent the page from becoming too long.
+.. note:: Because each response can be up to 300 pixels in height, we recommend
+   that you set this number to 20 or lower to prevent the page from becoming too
+   long.
 
 For more information, see :ref:`PA Top Responses`.
 
@@ -233,6 +247,10 @@ For more information, see :ref:`PA Top Responses`.
 Step 8. Test the Assignment
 ******************************
 
-To test your assignment, set up the assignment in your course, set the section or subsection date in the future, and ask a group of beta users to submit responses and grade each other. The beta testers can then let you know if they found the question and the rubric easy to understand or if they had any problems with the assignment.
+To test your assignment, set up the assignment in your course, set the section
+or subsection date in the future, and ask a group of beta users to submit
+responses and grade each other. The beta testers can then let you know if they
+found the question and the rubric easy to understand or if they had any problems
+with the assignment.
 
 For more information about beta testing, see :ref:`Beta_Testing`.

@@ -21,6 +21,9 @@ For more information about creating open response assessments, including step-by
 * :ref:`PA Create an ORA Assignment`
 * :ref:`Accessing ORA Assignment Information`
 
+For information about viewing metrics and student responses for released open
+response assessments, see :ref:`Accessing ORA Assignment Information`.
+
 For information about the student experience with open response assessments, see
 `Open Response Assessments <http://edx-guide-for-
 students.readthedocs.org/en/latest/SFD_ORA.html>`_ in the `edX Guide for
@@ -211,7 +214,14 @@ For more information, see :ref:`PA Student Training Step`.
 Peer Assessment Step
 =====================
 
-In the peer assessment step, students review other students' responses and select an option for each criterion in your rubric based on the response. Students can also provide text feedback, or comments, on the response. 
+In the peer assessment step, students review other students' responses and
+select an option for each criterion in your rubric based on the response.
+Students can also provide text feedback, or comments, on the response.
+
+If necessary, for example in the case of student submissions containing
+inappropriate or vulgar language, you can remove submissions from peer
+assessment so that other students do not see them. For details, refer to
+:Ref:`Remove a student response from peer grading`.
 
 Number of Responses and Assessments
 ************************************
@@ -278,7 +288,13 @@ To calculate the final score, add the median scores for each criterion:
 
   **Ideas median (8/10) + Content median (8/10) + Grammar median (4/5) = final score (20/25)**
 
-Note, again, that final scores are calculated by criteria, not by individual assessor. Thus the response's score is not the median of the scores that each individual peer assessor gave the response.
+.. note:: Remember that final scores are calculated by criteria, not by
+   individual assessor. The response's score is not the median of the scores
+   that each individual peer assessor gave the response.
+
+For information on grades for student submissions that you have cancelled and
+removed from peer assessment, refer to :ref:`Remove a student response from peer
+grading`.
 
 Assessing Additional Responses
 ********************************
