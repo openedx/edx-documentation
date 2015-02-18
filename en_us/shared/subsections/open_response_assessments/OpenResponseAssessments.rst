@@ -334,6 +334,10 @@ You can include a **Top Responses** section that shows the top-scoring responses
 
 You can allow the **Top Responses** section to show between 1 and 100 responses. Keep in mind, however, that each response may be up to 300 pixels in height in the list. (For longer responses, students can scroll to see the entire response.) We recommend that you specify 20 or fewer responses to prevent the page from becoming too long.
 
-.. note:: It may take up to an hour for a high-scoring response to appear in the **Top Responses** list.
+.. note:: It may take up to an hour for a high-scoring response to appear in the **Top Responses** list. 
+
+   If a high-scoring response is :ref:`removed from peer assessment<Remove a
+   student response from peer grading>` it is also removed from the **Top
+   Responses** list.
 
 For more information, see :ref:`PA Show Top Responses`.
