@@ -8,13 +8,18 @@ Change Log
 
    * - Date
      - Change
+   * - 02/24/2015
+     - Updated for the :ref:`Open edX Birch Release`.
+   * - 02/24/2015
+     - Added the section :ref:`Configuring the Open edX Platform`.
    * - 01/20/2015
-     - Addition of the section :ref:`Installing edX Insights`
+     - Added the section :ref:`Installing edX Insights`
    * - 01/14/2015
      - Addition of the section :ref:`Setting up the Mobile Applications`
    * - 06/07/2014
-     - Addition of the section :ref:`Installing the edX Production Stack`
+     - Addition of the section :ref:`Installing Open edX Fullstack`
    * - 05/21/2014
-     - The initial release of this guide, with the sections :ref:`Installing the
-       edX Developer Stack` and :ref:`Running the edX Developer Stack`.
+     - The initial release of this guide, with the sections :ref:`Installing
+       the Open edX Developer Stack` and :ref:`Running the Open edX Developer
+       Stack`.
    
