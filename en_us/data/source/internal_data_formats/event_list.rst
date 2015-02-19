@@ -232,6 +232,10 @@ Alphabetical Event List
      - :ref:`pdf`
    * - ``update_forum_role_membership``
      - :ref:`Instructor_Event_Types`
+   * - ``video_hide_cc_menu``
+     - :ref:`video`
+   * - ``video_show_cc_menu``
+     - :ref:`video`
        
 
 
