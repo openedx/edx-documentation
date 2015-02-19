@@ -29,9 +29,9 @@ a list of events, see the :ref:`event_list`.
 Sample Event
 *************************
 
-A sample event from an edX.log file follows. The JSON documents that include
-event data are delivered in a compact, machine-readable format that can be
-difficult to read at a glance.
+A sample event from an edX.log file follows. This sample was edited to remove
+personally identifiable information. Events are stored in JSON documents, which
+can be difficult to read at a glance.
 
 .. code-block:: json
 
@@ -54,10 +54,13 @@ difficult to read at a glance.
     a0effb954cca4759994f1ac9e9434bf4_4_1": {"answer": ["a piano", "a guitar"], "correct": true, 
     "input_type": "checkboxgroup", "question": "Which of the following are musical instruments?", 
     "response_type": "choiceresponse", "variant": ""}}, "success": "incorrect"}, "event_source": 
-    "server", "event_type": "problem_check", "host": "precise64", "ip": "NN.N.N.N", "page": "x_module", 
+    "server", "event_type": "problem_check", "host": "precise64", "referer": "http:\/\/localhost:8001\/
+    container\/i4x:\/\/edX\/DemoX\/vertical\/69dedd38233a46fc89e4d7b5e8da1bf4?action=new", 
+    "accept_language": "en-US,en;q=0.8","ip": "NN.N.N.N", "page": "x_module", 
     "time": 2014-03-03T16:19:05.584523+00:00", "username": "AAAAAAAAAA"}
 
-If you use a JSON formatter to "pretty print" this event, a version that is more readable is produced.
+If you use a JSON formatter to "pretty print" this event, a version that is
+more readable is produced.
 
 .. code-block:: json
 
@@ -137,6 +140,8 @@ If you use a JSON formatter to "pretty print" this event, a version that is more
     "event_source": "server", 
     "event_type": "problem_check", 
     "host": "precise64", 
+    "referer": "http:\/\/localhost:8001\/container\/i4x:\/\/edX\/DemoX\/vertical\/69dedd38233a46fc89e4d7b5e8da1bf4?action=new",
+    "accept_language": "en-US,en;q=0.8",
     "ip": "NN.N.N.N", 
     "page": "x_module", 
     "time": "2014-03-03T16:19:05.584523+00:00", 
@@ -150,7 +155,20 @@ Common Fields
 ********************
 
 This section describes the JSON fields that are common to the schema
-definitions of all events.
+definitions of all events. These fields are at the root level of the event
+JSON documents.
+
+===========================
+``accept_language`` Field
+===========================
+
+**Type:** string
+
+**Details:** The value from the HTTP Accept-Language request-header field. For
+more information, see the HTTP/1.1 header field definition for 
+`Accept-Language`_.
+
+**History:** Added 19 Feb 2015.
 
 =====================
 ``agent`` Field
@@ -274,6 +292,17 @@ emitted.
 
 For video events that originate on mobile devices, identifies the URL for the
 video component.
+
+===================
+``referer`` Field
+===================
+
+**Type:** string
+
+**Details:** The URI from the HTTP Referer request-header field. For more
+information, see the HTTP/1.1 header field definition for `Referer`_.
+
+**History:** Added 19 Feb 2015.
 
 ===================
 ``session`` Field
@@ -407,6 +436,8 @@ Example
         "username": "AAAAAAAAAA",
         "event_source": "server",
         "name": "edx.course.enrollment.deactivated",
+        "referer": "http:\/\/localhost:8001\/container\/i4x:\/\/edX\/DemoX\/vertical\/69dedd38233a46fc89e4d7b5e8da1bf4?action=new",
+        "accept_language": "en-US,en;q=0.8",
         "time": "2014-01-26T00:28:28.388782+00:00", 
         "agent": "Mozilla\/5.0 (Windows NT 6.1; WOW64; Trident\/7.0; rv:11.0) like Gecko",
         "page": null
@@ -721,6 +752,8 @@ Example: Browser-Emitted ``play_video`` Event
     "event_source": "browser",
     "event": "{\"id\":\"i4x-BerkeleyX-Stat_2_1x-video-58424ad2f75048798b4480aa699cc215\",\"currentTime\":243,\"code\":\"iOOYGgLADj8\"}",
     "time": "2014-12-23T14:26:53.723188+00:00",
+    "referer": "http:\/\/localhost:8001\/container\/i4x:\/\/edX\/DemoX\/vertical\/69dedd38233a46fc89e4d7b5e8da1bf4?action=new",
+    "accept_language": "en-US,en;q=0.8",
     "event_type": "play_video",
     "session": "11a1111111a1a1a1aa1a11a1a1111111",
     "agent": "Mozilla\/5.0 (Windows NT 6.1; WOW64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/39.0.2171.95 Safari\/537.36",
@@ -1174,6 +1207,19 @@ Mobile App Event`.
        ``courseware_studentmodule.module_id``. For example, 
        ``i4x-HarvardX-PH207x-video-Simple_Random_Sample``.
 
+``video_hide_cc_menu`` and ``video_show_cc_menu``
+**************************************************
+
+The browser emits a ``video_show_cc_menu`` event when a user selects **CC** in
+the video player to show the transcript or menu of language options. The
+browser emits a ``video_hide_cc_menu`` event when a user selects **CC** again
+to close the transcript file.
+
+**Event Source**: Browser
+
+**History**: These events were added on 19 Feb 2015.
+
+``event`` **Member Fields**: None
 
 .. _pdf:
 
@@ -3349,3 +3395,7 @@ uploading a CSV file of student cohort assignments.
 .. _Creating Content Experiments: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/content_experiments/index.html#creating-content-experiments
 
 .. _Including Student Cohorts: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/cohorts/index.html#including-student-cohorts
+
+.. _Referer: http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.36
+
+.. _Accept-Language: http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.4
