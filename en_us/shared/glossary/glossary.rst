@@ -22,7 +22,8 @@ A
 
 **About Page**
 
-  The course page that provides potential students with a course summary, prerequisites, a course video and image, and important dates.
+  The course page that provides potential students with a course summary,
+  prerequisites, a course video and image, and important dates.
 
   For more information, see :ref:`The Course Summary Page`.
 
@@ -31,7 +32,7 @@ A
 **Accessibility Label**
 
   The descriptive, identifying name that you supply when you add a problem
-  component to your course. All problems require an accessibility label.
+  component to your course. All problems require accessibility labels.
 
   For more information, see :ref:`Create Exercises`.
 
@@ -39,9 +40,8 @@ A
  
 **Advanced Editor**
 
-  An XML-only editor in a Problem component that allows you to can create and edit any type of problem. For more information, see :ref:`Advanced Editor`.
-
-
+  An XML-only editor in a Problem component that allows you to can create and
+  edit any type of problem. For more information, see :ref:`Advanced Editor`.
 
 
 .. _Assignment Type:
@@ -73,21 +73,24 @@ C
  
 **Checkbox Problem**
 
-  A problem that prompts the student to select one or more options from a list of possible answers. For more information, see :ref:`Checkbox`.
+  A problem that prompts the student to select one or more options from a list
+  of possible answers. For more information, see :ref:`Checkbox`.
 
 
 .. _Chemical Equation Response Problem:
  
 **Chemical Equation Response Problem**
 
-  A problem that allows the student to enter chemical equations as answers. For more information, see :ref:`Chemical Equation`.
+  A problem that allows the student to enter chemical equations as answers.
+  For more information, see :ref:`Chemical Equation`.
 
 
 .. _Circuit Schematic Builder Problem:
  
 **Circuit Schematic Builder Problem**
 
-  A problem that allows the student to construct a schematic answer (such as an electronics circuit) on an interactive grid.
+  A problem that allows the student to construct a schematic answer (such as
+  an electronics circuit) on an interactive grid.
 
   For more information, see :ref:`Circuit Schematic Builder`.
 
@@ -137,14 +140,18 @@ C
  
 **Course Accordion**
 
-  The left-hand navigation bar in the courseware that shows the sections and subsections for a course.  The word "accordion" is intended to evoke the folding and unfolding of an accordion, because when you click a section, the section expands to show subsections.
+  The left navigation frame in the courseware that shows the sections and
+  subsections for a course.  The word "accordion" is intended to evoke the
+  folding and unfolding of an accordion, because when you click a section, the
+  section expands to show subsections.
 
 
 .. _Course Catalog:
  
 **Course Catalog**
 
-  The page that lists all courses offered in the edX learning management system.
+  The page that lists all courses offered in the edX learning management
+  system.
 
 
 
@@ -152,7 +159,8 @@ C
  
 **Course Handouts**
 
-  Course handouts are files you make available to students in the Course Info page.
+  Course handouts are files you make available to students in the Course Info
+  page.
 
   For more information, see :ref:`Add Course Handouts`.
 
@@ -161,21 +169,27 @@ C
  
 **Course Info Page**
 
-  The page that opens first every time students access your course. You can post announcements on the Course Info page. The Course Handouts sidebar appears in the right pane of this page.
+  The page that opens first every time students access your course. You can
+  post announcements on the Course Info page. The Course Handouts sidebar
+  appears in the right pane of this page.
 
 
 .. _Run:
  
 **Course Run**
 
-  The term in which your course takes place. You set the course run when you create your course. For more information, see :ref:`Create a New Course`.
+  The term or time frame in which a specific offering of your course takes
+  place. You set the course run when you create your course. For more
+  information, see :ref:`Create a New Course`.
 
 .. _Courseware:
  
 
 **Courseware**
 
-  The page where students access the primary instructional materials for your course. Sections, subsections, units, and components are all accessed from the Courseware page.
+  The page where students access the primary instructional materials for your
+  course. Sections, subsections, units, and components are all accessed from
+  the Courseware page.
 
 **Course-Wide Discussion Topic**
 
@@ -190,7 +204,9 @@ C
  
 **Custom Response Problem**
 
-  A custom response problem evaluates text responses from students using an embedded Python script. These problems are also called "write-your-own-grader" problems. For more information, see :ref:`Write Your Own Grader`. 
+  A custom response problem evaluates text responses from students using an
+  embedded Python script. These problems are also called "write-your-own-
+  grader" problems. For more information, see :ref:`Write Your Own Grader`.
 
 .. _D:
 
@@ -225,7 +241,7 @@ D
 **Discussion Component**
 
   Discussion topics that course staff add directly to units. For example, a
-  Video component can be followed by a Discussion component so that students
+  video component can be followed by a discussion component so that students
   can discuss the video content without having to leave the page. When you add
   a discussion component to a unit, you create a content-specific discussion
   topic.
@@ -236,7 +252,8 @@ D
  
 **Dropdown Problem**
 
-  A problem that asks students to choose from a collection of answer options, presented as a drop-down list. For more information, see :ref:`Dropdown`.
+  A problem that asks students to choose from a collection of answer options,
+  presented as a drop-down list. For more information, see :ref:`Dropdown`.
 
 
 .. _E:
@@ -249,16 +266,21 @@ E
  
 **edX101**
 
-  EdX’s online course about how to create online courses. The intended audience is faculty and university administrators. It is also the first course ever to have been developed entirely using edX Studio.
+  An online course about how to create online courses. The intended audience
+  for `edX101`_ is faculty and university administrators. 
 
-.. _edX101: https://edge.edx.org/courses/edX/edX101/How_to_Create_an_edX_Course/about
+.. _edX101: https://www.edx.org/course/overview-creating-edx-course-edx-edx101#.VOYi8rDF-n0
 
 
 .. _edX Edge:
  
 **edX Edge**
 
-  A less restricted site than edX.org. While only consortium members can create and post content on edX.org, any users with course creator permissions can create courses with Studio on studio.edge.edx.org, then view the courses on the learning management system at edge.edx.org.
+  `Edge`_ is a less restricted site than edX.org. While only edX employees and
+  consortium members can create and post content on edX.org, any users with
+  course creator permissions for Edge can create courses with Studio on
+  studio.edge.edx.org, then view the courses on the learning management system
+  at edge.edx.org.
 
 .. _Edge: http://edge.edx.org
 
@@ -269,7 +291,7 @@ E
  
 **edX Studio**
 
-  The edX tool you use to build your courses. 
+  The edX tool that you use to build your courses. 
 
   For more information, see :ref:`What is Studio?`.
 
@@ -278,7 +300,9 @@ E
  
 **Exercises**
 
-  Practice or practical problems interspersed in edX course content to keep the learner engaged. Exercises are also an important measure of teaching effectiveness and learner comprehension.
+  Practice or practical problems interspersed in edX course content to keep
+  the learner engaged. Exercises are also an important measure of teaching
+  effectiveness and learner comprehension.
 
 .. _F:
 
@@ -300,7 +324,8 @@ G
  
 **Grade Range**
 
-  Thresholds that specify how numerical scores are associated with grades, and the score required to pass a course. 
+  Thresholds that specify how numerical scores are associated with grades, and
+  the score a student must obtain to pass a course.
 
   For more information, see :ref:`Set the Grade Range`.
 
@@ -309,7 +334,8 @@ G
  
 **Grading Rubric**
  
-  List of the items that a student's response should cover in an open response assessment.
+  A list of the items that a student's response should cover in an open response
+  assessment.
 
   For more information, see :ref:`PA Rubric`.
 
@@ -324,7 +350,8 @@ H
  
 **HTML Component**
 
-  The component where you add and format text for your course. An HTML component can contain text, lists, links and images. 
+  The component where you add and format text for your course. An HTML
+  component can contain text, lists, links, and images.
 
   For more information, see :ref:`Working with HTML Components`.
 
@@ -341,7 +368,8 @@ I
  
 **Image Mapped Input Problem**
 
-  A problem that presents an image and accepts clicks on the image as an answer.
+  A problem that presents an image and accepts clicks on the image as an
+  answer.
 
   For more information, see :ref:`Image Mapped Input`.
 
@@ -349,7 +377,9 @@ I
  
 **Import**
 
-  A tool in edX Studio that loads a new course into your existing course. When you use the Import tool, Studio replaces all of your existing course content with the content from the imported course.
+  A tool in edX Studio that loads a new course into your existing course. When
+  you use the Import tool, Studio replaces all of your existing course content
+  with the content from the imported course.
 
   For more information, see :ref:`Import a Course`.
 
@@ -370,11 +400,13 @@ L
  
 **LaTeX**
 
-  A document markup language and document preparation system for the TeX typesetting program. 
+  A document markup language and document preparation system for the TeX
+  typesetting program.
 
   In edX Studio, you can :ref:`import LaTeX code<Import LaTeX Code>`.
 
-  You can also create a :ref:`problem written in LaTeX<Problem Written in LaTeX>`.
+  You can also create a :ref:`problem written in LaTeX<Problem Written in
+  LaTeX>`.
 
 
 
@@ -382,9 +414,9 @@ L
  
 **Learning Management System (LMS)**
 
-  The platform that students use to view courses, and that course staff members
-  use to manage enrollment and staff privileges, moderate discussions, and
-  access data while the course is running.
+  The platform that students use to view courses, and that course staff
+  members use to manage enrollment and staff privileges, moderate discussions,
+  and access data while the course is running.
 
 
 
@@ -392,7 +424,9 @@ L
  
 **Live Mode**
 
-  A view that allows course staff to review all public units as students see them, regardless of the release dates of the section and subsection that contain the units.
+  A view that allows course staff to review all public units as students see
+  them, regardless of the release dates of the section and subsection that
+  contain the units.
 
   For more information, see :ref:`View Your Live Course`.
 
@@ -407,7 +441,8 @@ M
  
 **Math Expression Input Problem**
 
-  A problem that requires students to enter a mathematical expression as text, such as e=m*c^2.
+  A problem that requires students to enter a mathematical expression as text,
+  such as e=m*c^2.
 
   For more information, see :ref:`Math Response Formatting for Students`.
 
@@ -416,7 +451,8 @@ M
  
 **MathJax**
 
-  A LaTeX-like language you use to write equations. Studio uses MathJax to render text input such as x^2 and sqrt(x^2-4) as "beautiful math."
+  A LaTeX-like language that you use to write equations. Studio uses MathJax
+  to render text input such as x^2 and sqrt(x^2-4) as "beautiful math."
 
   For more information, see :ref:`MathJax in Studio`.
 
@@ -442,7 +478,8 @@ N
  
 **Numerical Input Problem**
 
-  A problem that asks students to enter numbers or specific and relatively simple mathematical expressions.
+  A problem that asks students to enter numbers or specific and relatively
+  simple mathematical expressions.
 
   For more information, see :ref:`Numerical Input`.
 
@@ -481,7 +518,9 @@ P
  
 **Problem Component**
 
-  A component that allows you to add interactive, automatically graded exercises to your course content. You can create many different types of problems.
+  A component that allows you to add interactive, automatically graded
+  exercises to your course content. You can create many different types of
+  problems.
 
   For more information, see :ref:`Working with Problem Components`.
 
@@ -491,7 +530,8 @@ P
  
 **Progress Page**
 
-The page in the learning management system that shows students their scores on graded assignments in the course.
+  The page in the learning management system that shows students their scores
+  on graded assignments in the course.
 
 
 
@@ -513,9 +553,9 @@ Q
 
 **Question**
 
-  A question is a type of contribution that you can make to a course discussion
-  topic to surface an issue that the course staff or other students can
-  resolve. 
+  A question is a type of contribution that you can make to a course
+  discussion topic to bring attention to an issue that the course staff or
+  other students can resolve.
 
   For more information, see :ref:`Discussions`.
   
@@ -529,7 +569,8 @@ R
  
 **Rubric**
 
-  List of the items that a student's response should cover in an open response assessment.
+  A list of the items that a student's response should cover in an open
+  response assessment.
 
   For more information, see :ref:`PA Rubric`.
 
@@ -548,7 +589,8 @@ S
  
 **Section**
 
-  The topmost category in your course. A section can represent a time period in your course or another organizing principle.
+  The topmost category in your course. A section can represent a time period
+  in your course or another organizing principle.
 
   For more information, see :ref:`Developing Course Sections`.
 
@@ -567,7 +609,9 @@ S
  
 **Simple Editor**
 
-  The graphical user interface in a Problem component that contains formatting buttons and is available for some problem types. For more information, see :ref:`Problem Studio View`.
+  The graphical user interface in a Problem component that contains formatting
+  buttons and is available for some problem types. For more information, see
+  :ref:`Problem Studio View`.
 
 .. _Split_Test:
 
@@ -580,7 +624,9 @@ S
  
 **Subsection**
 
-  A division that represents a topic in your course, or another organizing principle. Subsections are found inside sections and contain units. Subsections can also be called "lessons."
+  A division that represents a topic in your course, or another organizing
+  principle. Subsections are found inside sections and contain units.
+  Subsections can also be called "lessons."
 
   For more information, see :ref:`Developing Course Subsections`.
 
@@ -595,7 +641,8 @@ T
  
 **Text Input Problem**
 
-  A problem that asks the student to enter a line of text, which is then checked against a specified expected answer.
+  A problem that asks the student to enter a line of text, which is then
+  checked against a specified expected answer.
 
   For more information, see :ref:`Text Input`.
 
@@ -604,7 +651,8 @@ T
  
 **Transcript**
 
-  A printed version of the content of a video. You can make video transcripts available to students.
+  A text version of the content of a video. You can make video transcripts
+  available to students.
 
   For more information, see :ref:`Working with Video Components`.
 
@@ -634,9 +682,11 @@ W
  
 **Wiki**
 
-  The page in each edX course that allows students as well as course staff to add, modify, or delete content. 
+  The page in each edX course that allows students as well as course staff to
+  add, modify, or delete content.
  
-  Students can use the wiki to share links, notes, and other helpful information with each other. 
+  Students can use the wiki to share links, notes, and other helpful
+  information with each other.
 
 
 .. _X:
@@ -651,6 +701,7 @@ XYZ
 
   EdX’s component architecture for writing courseware components.  
 
-  Third parties can create components as web applications that can run within the edX learning management system.
+  Third parties can create components as web applications that can run within
+  the edX learning management system.
 
 
