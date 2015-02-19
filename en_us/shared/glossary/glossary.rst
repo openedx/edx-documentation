@@ -24,7 +24,16 @@ A
 
   The course page that provides potential students with a course summary, prerequisites, a course video and image, and important dates.
 
-  See :ref:`The Course Summary Page` for more information.
+  For more information, see :ref:`The Course Summary Page`.
+
+.. _Accessibility Label_g:
+
+**Accessibility Label**
+
+  The descriptive, identifying name that you supply when you add a problem
+  component to your course. All problems require an accessibility label.
+
+  For more information, see :ref:`Create Exercises`.
 
 .. _Advanced Editor_g:
  
@@ -80,7 +89,7 @@ C
 
   A problem that allows the student to construct a schematic answer (such as an electronics circuit) on an interactive grid.
 
-  See :ref:`Circuit Schematic Builder` for more information.
+  For more information, see :ref:`Circuit Schematic Builder`.
 
 
 .. _Cohort:
@@ -128,7 +137,7 @@ C
  
 **Course Accordion**
 
-  The left-hand navigation bar in the courseware that shows the sections and subsections for a course.  The word “accordion” is intended to evoke the folding and unfolding of an accordion, because when you click a section, the section expands to show subsections.
+  The left-hand navigation bar in the courseware that shows the sections and subsections for a course.  The word "accordion" is intended to evoke the folding and unfolding of an accordion, because when you click a section, the section expands to show subsections.
 
 
 .. _Course Catalog:
@@ -145,7 +154,7 @@ C
 
   Course handouts are files you make available to students in the Course Info page.
 
-  See :ref:`Add Course Handouts` for more information.
+  For more information, see :ref:`Add Course Handouts`.
 
 
 .. _Course Info Page:
@@ -197,7 +206,7 @@ D
   responsible for receiving course data from edX, and transferring it securely
   to researchers and other interested parties after it is received.
 
-  See the `edX Research Guide`_.
+  For more information, see the `edX Research Guide`_.
 
 .. _edX Research Guide: http://edx.readthedocs.org/projects/devdata/en/latest/
 
@@ -206,9 +215,9 @@ D
 
   The set of topics defined to promote course-wide or unit-specific dialog.
   Students use the discussion topics to communicate with each other and the
-  course staff in threaded excahnges.
+  course staff in threaded exchanges.
 
-  See :ref:`Discussions` for more information.
+  For more information, see :ref:`Discussions`.
 
 
 .. _Discussion Component:
@@ -218,10 +227,10 @@ D
   Discussion topics that course staff add directly to units. For example, a
   Video component can be followed by a Discussion component so that students
   can discuss the video content without having to leave the page. When you add
-  a dicussion component to a unit, you create a content-specific discussion
+  a discussion component to a unit, you create a content-specific discussion
   topic.
 
-  See :ref:`Working with Discussion Components` for more information.
+  For more information, see :ref:`Working with Discussion Components`.
 
 .. _Dropdown Problem:
  
@@ -240,7 +249,7 @@ E
  
 **edX101**
 
-  edX’s online course about how to create online courses. The intended audience is faculty and university administrators. It is also the first course ever to have been developed entirely using edX Studio.
+  EdX’s online course about how to create online courses. The intended audience is faculty and university administrators. It is also the first course ever to have been developed entirely using edX Studio.
 
 .. _edX101: https://edge.edx.org/courses/edX/edX101/How_to_Create_an_edX_Course/about
 
@@ -262,7 +271,7 @@ E
 
   The edX tool you use to build your courses. 
 
-  See :ref:`What is Studio?` for more information.
+  For more information, see :ref:`What is Studio?`.
 
 
 .. _Exercises:
@@ -293,7 +302,7 @@ G
 
   Thresholds that specify how numerical scores are associated with grades, and the score required to pass a course. 
 
-  See :ref:`Set the Grade Range` for more information.
+  For more information, see :ref:`Set the Grade Range`.
 
 
 .. _Grading Rubric:
@@ -302,7 +311,7 @@ G
  
   List of the items that a student's response should cover in an open response assessment.
 
-  See :ref:`PA Rubric` for more information.
+  For more information, see :ref:`PA Rubric`.
 
 
 .. _H:
@@ -317,7 +326,7 @@ H
 
   The component where you add and format text for your course. An HTML component can contain text, lists, links and images. 
 
-  See :ref:`Working with HTML Components` for more information.
+  For more information, see :ref:`Working with HTML Components`.
 
 
 
@@ -334,7 +343,7 @@ I
 
   A problem that presents an image and accepts clicks on the image as an answer.
 
-  See :ref:`Image Mapped Input` for more information.
+  For more information, see :ref:`Image Mapped Input`.
 
 .. _Import:
  
@@ -342,7 +351,7 @@ I
 
   A tool in edX Studio that loads a new course into your existing course. When you use the Import tool, Studio replaces all of your existing course content with the content from the imported course.
 
-  See :ref:`Import a Course` for more information.
+  For more information, see :ref:`Import a Course`.
 
 
  
@@ -353,6 +362,9 @@ I
 L
 ****
 
+**Label**
+
+  See :ref:`Accessibility Label_g`.
 
 .. _LaTeX:
  
@@ -360,9 +372,9 @@ L
 
   A document markup language and document preparation system for the TeX typesetting program. 
 
-  In edX Studio, you can :ref:`Import LaTeX Code`.
+  In edX Studio, you can :ref:`import LaTeX code<Import LaTeX Code>`.
 
-  You can also create a :ref:`Problem Written in LaTeX`.
+  You can also create a :ref:`problem written in LaTeX<Problem Written in LaTeX>`.
 
 
 
@@ -371,7 +383,7 @@ L
 **Learning Management System (LMS)**
 
   The platform that students use to view courses, and that course staff members
-  use to manage enrollment and staff privileges, moderate dicussions, and
+  use to manage enrollment and staff privileges, moderate discussions, and
   access data while the course is running.
 
 
@@ -382,7 +394,7 @@ L
 
   A view that allows course staff to review all public units as students see them, regardless of the release dates of the section and subsection that contain the units.
 
-  See :ref:`View Your Live Course` for more information.
+  For more information, see :ref:`View Your Live Course`.
 
 
 .. _M:
@@ -397,7 +409,7 @@ M
 
   A problem that requires students to enter a mathematical expression as text, such as e=m*c^2.
 
-  See :ref:`Math Response Formatting for Students` for more information.
+  For more information, see :ref:`Math Response Formatting for Students`.
 
 
 .. _MathJax:
@@ -406,7 +418,7 @@ M
 
   A LaTeX-like language you use to write equations. Studio uses MathJax to render text input such as x^2 and sqrt(x^2-4) as "beautiful math."
 
-  See :ref:`MathJax in Studio` for more information.
+  For more information, see :ref:`MathJax in Studio`.
 
 
 
@@ -417,7 +429,7 @@ M
 
   A problem that asks students to select one answer from a list of options.
 
-  See :ref:`Multiple Choice` for more information.
+  For more information, see :ref:`Multiple Choice`.
 
 
 .. _N:
@@ -432,7 +444,7 @@ N
 
   A problem that asks students to enter numbers or specific and relatively simple mathematical expressions.
 
-  See :ref:`Numerical Input` for more information.
+  For more information, see :ref:`Numerical Input`.
 
 
 
@@ -451,7 +463,7 @@ P
   tools and uploaded files that supplement the course. Each page appears in
   your course's navigation bar.
 
-  See :ref:`Adding Pages to a Course` for more information.
+  For more information, see :ref:`Adding Pages to a Course`.
 
 .. _Preview Mode:
  
@@ -461,7 +473,7 @@ P
   them, regardless of the unit status and regardless of whether the release
   dates have passed.
 
-  See :ref:`Preview Course Content` for more information.
+  For more information, see :ref:`Preview Course Content`.
 
 
 
@@ -471,7 +483,7 @@ P
 
   A component that allows you to add interactive, automatically graded exercises to your course content. You can create many different types of problems.
 
-  See :ref:`Working with Problem Components` for more information.
+  For more information, see :ref:`Working with Problem Components`.
 
 
 
@@ -505,7 +517,7 @@ Q
   topic to surface an issue that the course staff or other students can
   resolve. 
 
-  See :ref:`Discussions` for more information.
+  For more information, see :ref:`Discussions`.
   
 .. _R:
 
@@ -519,7 +531,7 @@ R
 
   List of the items that a student's response should cover in an open response assessment.
 
-  See :ref:`PA Rubric` for more information.
+  For more information, see :ref:`PA Rubric`.
 
 
 
@@ -538,7 +550,7 @@ S
 
   The topmost category in your course. A section can represent a time period in your course or another organizing principle.
 
-  See :ref:`Developing Course Sections` for more information.
+  For more information, see :ref:`Developing Course Sections`.
 
 
 .. _Short Course Description:
@@ -548,7 +560,7 @@ S
   The description of your course that appears on the edX `Course List
   <https://www.edx.org/course-list>`_ page.
 
-  See :ref:`Describe Your Course` for more information.
+  For more information, see :ref:`Describe Your Course`.
 
 
 .. _Simple Editor_g:
@@ -570,7 +582,7 @@ S
 
   A division that represents a topic in your course, or another organizing principle. Subsections are found inside sections and contain units. Subsections can also be called "lessons."
 
-  See :ref:`Developing Course Subsections` for more information.
+  For more information, see :ref:`Developing Course Subsections`.
 
 
 .. _T:
@@ -585,7 +597,7 @@ T
 
   A problem that asks the student to enter a line of text, which is then checked against a specified expected answer.
 
-  See :ref:`Text Input` for more information.
+  For more information, see :ref:`Text Input`.
 
 
 .. _Transcript:
@@ -594,7 +606,7 @@ T
 
   A printed version of the content of a video. You can make video transcripts available to students.
 
-  See :ref:`Working with Video Components` for more information.
+  For more information, see :ref:`Working with Video Components`.
 
 
 .. _V:
@@ -609,7 +621,7 @@ V
 
   A component that you can use to add recorded videos to your course. 
 
-  See :ref:`Working with Video Components` for more information.
+  For more information, see :ref:`Working with Video Components`.
 
 
 .. _W:
