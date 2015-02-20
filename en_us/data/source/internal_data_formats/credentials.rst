@@ -221,9 +221,19 @@ Browser. Alternatively, you can use the `AWS Command Line Interface`_.
    that account. For more information, refer to the documentation for the tool
    that you selected.
 
-   Data package files are in the edX **course-data** and
-   **edx-course-data** buckets. For information about the files that you
-   download from Amazon S3, see :ref:`Package`.
+#. Select the **s3://course-data** bucket to access the database data files. 
+   
+   Select the **s3://edx-course-data/{org}** folder to access the event data
+   files. You must include the identifier for your organization after the
+   name of the bucket.
+
+   .. note:: If you are using a third-party tool to connect to Amazon S3, you 
+    may not be able to navigate directly between the **s3://course-data**
+    bucket and the **s3://edx-course-data/{org}** folder. You may need to
+    disconnect from Amazon S3 and then reconnect to the other destination.
+
+For information about the files in each Amazon S3 destination, see
+:ref:`Package`.
 
 .. _AWS Command Line Interface: http://aws.amazon.com/cli/
 

@@ -36,8 +36,8 @@ data.
 
 .. note:: In all file names, the date is in {YYYY}-{MM}-{DD} format.
 
-You download these files from different Amazon S3 "buckets". See :ref:`Amazon
-S3 Buckets and Directories`.
+You download these files from different Amazon S3 "buckets" and folders. See
+:ref:`Amazon S3 Buckets and Directories`.
 
 ============
 Event Data
@@ -74,16 +74,16 @@ Contents`.
 .. _Amazon S3 Buckets and Directories:
 
 ********************************************
-Amazon S3 Buckets and Directories
+Amazon S3 Buckets and Folders
 ********************************************
 
-Data package files are located in the following buckets on Amazon S3:
+Data package files are located at the following Amazon S3 destinations:
 
-* The **edx-course-data** bucket contains the daily
+* The **s3://edx-course-data/{org}** folder contains the daily
   ``{org}-{site}-events-{date}.log.gz.gpg`` files of course event data.
   
-* The **course-data** bucket contains the weekly ``{org}-{date}.zip`` database
-  snapshot. 
+* The **s3://course-data** bucket contains the weekly ``{org}-{date}.zip``
+  database snapshot.
 
 For information about accessing Amazon S3, see :ref:`Access Amazon S3`.
 
@@ -93,24 +93,26 @@ For information about accessing Amazon S3, see :ref:`Access Amazon S3`.
 Download Data Packages from Amazon S3
 ****************************************************************
 
-You download the files in your data package from the Amazon S3 storage service.
+You download the files in your data package from the Amazon S3 storage
+service.
 
 ==========================
 Download Daily Event Files
 ==========================
 
 #. To download daily event files, use the AWS Command Line Interface or a
-   third-party tool to connect to the **edx-course-data** bucket on Amazon S3.
+   third-party tool to connect to the **s3://edx-course-data/{org}** folder on
+   Amazon S3.
 
    For information about providing your credentials to connect to Amazon S3,
    see :ref:`Access Amazon S3`.
 
-#. Navigate the directory structure in the **edx-course-data** bucket to locate
-   the files that you want:
+#. Navigate within **s3://edx-course-data/{org}** to locate the files that you
+   want:
 
    ``{org}/{site}/events/{year}``
 
-   The event logs in the ``{year}`` directory are in compressed, encrypted
+   The event logs in the ``{year}`` folder are in compressed, encrypted
    files named ``{org}-{site}-events-{date}.log.gz.gpg``.
 
 3. Download the ``{org}-{site}-events-{date}.log.gz.gpg`` file.
@@ -123,20 +125,20 @@ Download Daily Event Files
 Download Weekly Files
 ============================
 
-.. note:: If you are using a third-party tool to connect to Amazon S3, you may 
- not be able to navigate from one edX bucket to the other in a single session.
- You may need to disconnect from Amazon S3 and then reconnect to the other
- bucket.
+.. note:: If you are using a third-party tool to connect to Amazon S3, you
+    may not be able to navigate directly between the **s3://course-data**
+    bucket and the **s3://edx-course-data/{org}** folder. You may need to
+    disconnect from Amazon S3 and then reconnect to the other destination.
 
-#. To download a weekly database data file, connect to the edX **course-data**
+#. To download a weekly database data file, connect to the edX **s3://course-data**
    bucket on Amazon S3 using the AWS Command Line Interface or a third-party
    tool.
 
    For information about providing your credentials to connect to Amazon S3,
    see :ref:`Access Amazon S3`.
 
-2. Download the ``{org}-{date}.zip`` database data file from the **course-
-   data** bucket.
+2. Download the ``{org}-{date}.zip`` database data file from the 
+   **s3://course-data** bucket.
 
 .. _AWS Command Line Interface: http://aws.amazon.com/cli/
 
