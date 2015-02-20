@@ -168,7 +168,7 @@ JSON documents.
 more information, see the HTTP/1.1 header field definition for 
 `Accept-Language`_.
 
-**History:** Added 19 Feb 2015.
+**History:** Added 20 Feb 2015.
 
 =====================
 ``agent`` Field
@@ -302,7 +302,7 @@ video component.
 **Details:** The URI from the HTTP Referer request-header field. For more
 information, see the HTTP/1.1 header field definition for `Referer`_.
 
-**History:** Added 19 Feb 2015.
+**History:** Added 20 Feb 2015.
 
 ===================
 ``session`` Field
@@ -1217,7 +1217,7 @@ to close the transcript file.
 
 **Event Source**: Browser
 
-**History**: These events were added on 19 Feb 2015.
+**History**: These events were added on 20 Feb 2015.
 
 ``event`` **Member Fields**: None
 
