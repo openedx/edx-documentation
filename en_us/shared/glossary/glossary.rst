@@ -424,8 +424,8 @@ L
  
 **Live Mode**
 
-  A view that allows course staff to review all public units as students see
-  them, regardless of the release dates of the section and subsection that
+  A view that allows course staff to review all published units as students
+  see them, regardless of the release dates of the section and subsection that
   contain the units.
 
   For more information, see :ref:`View Your Live Course`.
