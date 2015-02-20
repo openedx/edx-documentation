@@ -24,3 +24,4 @@ Building and Running an edX Course
    releasing_course/index
    running_course/index
    students/index
+   glossary

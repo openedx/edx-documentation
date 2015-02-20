@@ -27,8 +27,6 @@ A
 
   For more information, see :ref:`The Course Summary Page`.
 
-.. _Accessibility Label_g:
-
 **Accessibility Label**
 
   The descriptive, identifying name that you supply when you add a problem
@@ -394,7 +392,7 @@ L
 
 **Label**
 
-  See :ref:`Accessibility Label_g`.
+  See :ref:`Accessibility Label<A>`.
 
 .. _LaTeX:
  
