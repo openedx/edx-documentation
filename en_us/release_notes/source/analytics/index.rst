@@ -6,8 +6,8 @@ edX Analytics
 February 23, 2015
 ******************
 
-Events in the data package now include field for data from two HTTP header
-fields, ``referer`` and ``accept_language``.
+Events in the data package now include data from two HTTP header fields,
+``referer`` and ``accept_language``.
 
 ******************
 February 12, 2015
