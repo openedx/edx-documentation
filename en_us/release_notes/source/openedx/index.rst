@@ -3,6 +3,14 @@ Open edX
 ####################################
 
 ******************
+February 23, 2015
+******************
+
+In implementations that have the ``ENABLE_COSMETIC_PRICE`` setting and the
+shopping cart enabled, an error caused free courses to be added to the shopping
+cart with a cost of $0.00. This issue is now resolved. (OSPR-396)
+
+******************
 January 28, 2015
 ******************
 
