@@ -38,7 +38,7 @@ A
  
 **Advanced Editor**
 
-  An XML-only editor in a Problem component that allows you to can create and
+  An XML-only editor in a problem component that allows you to can create and
   edit any type of problem. For more information, see :ref:`Advanced Editor`.
 
 
@@ -348,8 +348,8 @@ H
  
 **HTML Component**
 
-  The component where you add and format text for your course. An HTML
-  component can contain text, lists, links, and images.
+  A type of component that you can use to add and format text for your course.
+  An HTML component can contain text, lists, links, and images.
 
   For more information, see :ref:`Working with HTML Components`.
 
@@ -607,7 +607,7 @@ S
  
 **Simple Editor**
 
-  The graphical user interface in a Problem component that contains formatting
+  The graphical user interface in a problem component that contains formatting
   buttons and is available for some problem types. For more information, see
   :ref:`Problem Studio View`.
 
