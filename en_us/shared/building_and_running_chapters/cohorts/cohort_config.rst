@@ -53,25 +53,20 @@ while your course is running, please see :ref:`Altering Cohort Configuration`.
 Enabling the Cohort Feature
 ***************************
 
-#. Open the course in Studio. 
+#. In the LMS, select **Instructor**, then select **Cohort Management**. 
 
-#. Select **Settings**, then **Advanced Settings**.
+#. Select **Enable Cohorts**.
 
-#. In the **Cohort Configuration** field, place your cursor between the
-   supplied pair of braces.
+#. Select **Add Cohort** to create a cohort.
 
-#. Type ``"cohorted": true``. 
+#. Enter a name for the new cohort. 
+#. If you want to associate the cohort with a :ref:`content group<About Content Groups>, select **Select a Content Group**. For information about associating cohorts with content groups to create cohort-specific courseware, see :ref:`<Cohorted Courseware Overview>`.
+#. Click **Save**.
 
-#. Click **Save Changes**. Studio reformats the name:value pair you just
-   entered to indent it on a new line.
-   
- .. image:: ../../../shared/building_and_running_chapters/Images/Enable_cohorts.png
-  :alt: Cohort Configuration dictionary field with the cohorted key defined 
-        as true
+You can specify whether students are assigned to this cohort automatically or manually. For details, see XXXXXXXXXXXXXXXXXXX.
 
-You can then :ref:`implement the automated assignment strategy<Implementing the
-Automated Assignment Strategy>`, :ref:`implement the manual assignment
-strategy<Implementing the Manual Assignment Strategy>`, or both.
+For details about adding students to a cohort by uploading a CSV file, see
+:ref:`Assign Students to Cohort Groups by uploading CSV`.
 
 For a report that includes the cohort assignment for every enrolled
 student, review the student profile information for your course. See
