@@ -14,9 +14,9 @@ What's Included in Birch
 ******************************
 
 The Open edX Birch release contains several new features for students, course
-staff, and developers.  See the Open edX Release Notes for more details. (LINK)
+staff, and developers.  See the Open edX Release Notes for more details.
 
-.. Note:: 
+.. Note::
  There are several new features in the Birch release that are available, but
  not configured in new installations.  For details, see the following topics.
 
@@ -149,14 +149,15 @@ Upgrading from Aspen to Birch
 ******************************
 
 You can upgrade your Open edX instance that is running the Aspen release to the
-Birch release.
+Birch release, using the ``migrate.sh`` script in the configuration repository,
+`available here <https://github.com/edx/configuration/blob/master/util/vagrant/migrate.sh>`_.
 
-.. note::  
+.. note::
   The upgrade scripts provided are verified only for upgrading instances
   running the Aspen release. If you are running any other version of the Open
   edX Platform, the upgrade scripts might not work.
 
-.. caution:: 
+.. caution::
   Before upgrading your Open edX instance, back up all data and configuration
   files. Then verify that you can restore your Open edX instance from the
   backup files.
@@ -164,13 +165,14 @@ Birch release.
 On the computer or virtual machine running the Aspen release of Open edX, run
 the upgrade script for your type of installation:
 
-* For Devstack, run the ``migrate-devstack.sh`` script.
+* For Devstack, run ``./migrate.sh -c devstack``.
 
-* For Fullstack, run the ``migrate-fullstack.sh`` script.
-  
+* For Fullstack, run ``./migrate.sh -c fullstack``.
+
+* You can also run ``./migrate.sh -h`` to see which other options the script accepts.
+
 The script creates a temporary directory in which it upgrades Open edX, then
 cleans up extra files and directories when it finishes running.
 
 After upgrading Open edX to the Birch release, run the edX Platform and verify
-that the upgrade script. Verify that course content and data was migrated
-correctly.
+that course content and data was migrated correctly.
