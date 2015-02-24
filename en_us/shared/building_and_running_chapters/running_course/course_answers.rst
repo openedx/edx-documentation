@@ -105,10 +105,10 @@ The CSV file contains the following columns:
    * - Problem Display Name
      - The **Display Name** defined for the problem.
    * - Question
-     - The label for accessibility that appears above the answer choices or the
+     - The accessible label that appears above the answer choices or the
        text entry field for the problem. In Studio's Simple Editor, this text is
        surrounded by two pairs of angle brackets (>>Question<<). Blank for
-       questions that do not have an accessibility label defined.
+       questions that do not have an accessible label defined.
 
 Entries are sorted by the value in each column, starting with the ModuleID on
 the left and continuing through the columns to the right.
@@ -164,7 +164,7 @@ identifiers, such as choice_1 and choice_2, for those answers.
 
 **Why don't I see a Question for some of my problems?**
 
-The value in the **Question** column is the accessibility label for the problem.
+The value in the **Question** column is the accessible label for the problem.
 For more information about how to set up labels for problems, see :ref:`Create
 Exercises`.
 

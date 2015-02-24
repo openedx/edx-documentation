@@ -12,7 +12,9 @@ Studio allows you to create a wide variety of exercises and tools for your cours
 
 Depending on the exercise or tool, you'll use an HTML, Problem, or Advanced component. The page for each individual exercise or tool contains an example of each exercise or tool, together with all the files, code, and step-by-step instructions that you need to create the exercise or tool. 
 
-.. note:: Problems must include labels for accessibility. The label generally includes the text of the main question in your problem. Instructions for adding labels appear in the page for each individual problem.
+.. note:: Problems must include accessible labels. An accessible label generally 
+ includes the text of the main question in your problem. Instructions for
+ adding labels appear in the page for each individual problem.
 
 ****************************
 General Exercises and Tools

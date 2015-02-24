@@ -17,7 +17,10 @@ Create a Multiple Choice Problem
 
 You can create multiple choice problems in the Simple Editor or in the Advanced Editor.
 
-.. note:: All problems must include labels for accessibility. The label generally includes the text of the main question in your problem. To add a label for a common problem, surround the text of the label with angle brackets pointed toward the text (>>label text<<).
+.. note:: Problems must include accessible labels. An accessible label generally 
+ includes the text of the main question in your problem. To add an accessible
+ label for a common problem, surround the text of the label with angle
+ brackets pointed toward the text (>>label text<<).
 
 ================
 Simple Editor
@@ -101,6 +104,8 @@ To create this problem in the Advanced Editor, click the **Advanced** tab in the
     </div>
   </solution>
   </problem>
+
+.. "horseshoe" is spelled incorrectly above twice
 
 .. _Multiple Choice Advanced Options:
 

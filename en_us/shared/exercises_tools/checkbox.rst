@@ -15,7 +15,10 @@ Create a Checkbox Problem
 
 You can create checkbox problems in the Simple Editor or in the Advanced Editor.
 
-.. note:: All problems must include labels for accessibility. The label generally includes the text of the main question in your problem. To add a label for a common problem, surround the text of the label with angle brackets pointed toward the text (>>label text<<).
+.. note:: Problems must include accessible labels. An accessible label generally 
+ includes the text of the main question in your problem. To add an accessible
+ label for a common problem, surround the text of the label with angle
+ brackets pointed toward the text (>>label text<<).
 
 ==================
 Simple Editor

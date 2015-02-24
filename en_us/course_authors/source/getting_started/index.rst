@@ -12,4 +12,3 @@ Getting Started
    accounts
    get_started
    accessibility
-   glossary
