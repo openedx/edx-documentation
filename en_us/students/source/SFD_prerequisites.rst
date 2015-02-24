@@ -64,13 +64,17 @@ it may have another name in your course.
 
 To begin the entrance exam, select the **Entrance Exam** tab.
 
-After you pass the entrance exam, you can see all available sections in the course accordion, and you can access all available materials for the
-course.
+After you pass the entrance exam, you can see all available sections in the
+left pane, and you can access all available materials for the course.
 
 .. image:: /Images/EntEx_CourseAccordionAfterPass.png
   :width: 500
   :alt: The student view after the student has passed the entrance exam, with
-      all available course sections listed in the course accordion
+      all available course sections listed in the left pane
 
-.. note:: If you don't see any more course content after you complete the entrance exam, try refreshing the page.
+.. note:: If you don't see any more course content after you complete the entrance 
+ exam, try refreshing the page, or click the **Entrance Exam** tab again.
 
+Instructors can allow students to skip the entrance exam. If your instructor
+allows you to skip the entrance exam, you don't see the entrance exam in the
+left pane when you access the course.
