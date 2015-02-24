@@ -29,7 +29,7 @@ pygments_style = 'sphinx'
 
 
 # General information about the project.
-project = u'Installing, Configuring, and Running the edX Platform'
+project = u'Installing, Configuring, and Running the Open edX Platform'
 copyright = u'2015, edX'
 
 # The short X.Y version.
@@ -63,7 +63,7 @@ if on_rtd:
     }
 
 #remove directory when content is first added to it, and add to index
-exclude_patterns = ['links.rst']
+exclude_patterns = ['links.rst', 'configuration/configure_milestone_app.rst', 'configuration/enable_course_search.rst']
 
 # The short X.Y version.
 version = ''

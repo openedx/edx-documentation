@@ -6,11 +6,10 @@
 Setting up the edX Mobile Applications
 ######################################
 
-This chapter is intended for those are who are building the edX mobile applications and customizing their Open edX installation to support their use.
+This chapter is intended for those are who are building the edX mobile
+applications and customizing their Open edX installation to support their use.
 
-* `Code`_
-* `Authentication`_
-* `Video`_
+.. contents:: Chapter Contents:
 
 ****
 Code

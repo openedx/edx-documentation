@@ -11,27 +11,21 @@ and its dependencies in a production environment. Work to prepare complete
 installation procedures for edX Insights is in progress. Introductory material
 is available now.
 
-See the following sections:
+.. contents:: Chapter Contents:
 
-* `Overview`_
-* `What You Should Know Before You Start`_
-* `Planning Your Deployment`_
-* `Example Deployments`_
-
-.. _edX Insights: http://edx.readthedocs.org/projects/edx-insights/en/latest/index.html
 
 ********
 Overview
 ********
 
-Course teams use edX Insights to access to data gathered from courses that are
-being used by students. Course teams use edX Insights to display charts, summary
-statistics, and data tables.
+Course teams use edX Insights to access to data gathered from active courses.
+Course teams use edX Insights to display charts, summary statistics, and data
+tables.
 
 The Learning Management System (LMS) gathers data about student activity. This
-data is aggregated by the edX Analytics Pipeline. The aggregated data is exposed
-by the `edX Analytics Data API`_. EdX Insights reads the data from the edX
-Analytics Data API and presents the data to course team members.
+data is aggregated by the edX Analytics Pipeline. The aggregated data is
+exposed by the `edX Analytics Data API`_. EdX Insights reads the data from the
+edX Analytics Data API and presents the data to course team members.
 
 .. _edX Analytics Data API: http://edx.readthedocs.org/projects/edx-data-analytics-api/en/latest/index.html
 
@@ -50,11 +44,11 @@ Components
 LMS
 ***
 
-The LMS records student actions in tracking log files. The standard logrotate
-utility periodically compresses and copies these files into a filesystem that
-can be read by the edX Analytics Pipeline. The LMS also captures a lot of
-information in a MySQL database. The edX Analytics Pipeline connects directly to
-this database to extract information about students.
+The LMS records student actions in tracking log files. The standard
+``logrotate`` utility periodically compresses and copies these files into a
+filesystem that can be read by the edX Analytics Pipeline. The LMS also
+captures a lot of information in a MySQL database. The edX Analytics Pipeline
+connects directly to this database to extract information about students.
 
 edX Analytics Pipeline
 **********************
