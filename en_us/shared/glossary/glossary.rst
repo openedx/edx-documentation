@@ -27,10 +27,10 @@ A
 
   For more information, see :ref:`The Course Summary Page`.
 
-**Accessibility Label**
+**Accessible Label**
 
   The descriptive, identifying name that you supply when you add a problem
-  component to your course. All problems require accessibility labels.
+  component to your course. All problems require accessible labels.
 
   For more information, see :ref:`Create Exercises`.
 
@@ -392,7 +392,7 @@ L
 
 **Label**
 
-  See :ref:`Accessibility Label<A>`.
+  See :ref:`Accessible Label<A>`.
 
 .. _LaTeX:
  

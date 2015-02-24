@@ -9,7 +9,7 @@ Text Input Problem
 In text input problems, students enter text into a response field. The response can include numbers, letters, and special characters such as punctuation marks. Because the text that the student enters must match the instructor's specified answer exactly, including spelling and punctuation, we recommend that you specify more than one attempt for text input problems to allow for typographical errors.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/TextInputExample.png
- :alt: Image of a text input probem
+ :alt: Image of a text input problem
 
 ****************************
 Create a Text Input Problem
@@ -17,7 +17,10 @@ Create a Text Input Problem
 
 You can create text input problems in the Simple Editor or in the Advanced Editor.
 
-.. note:: All problems must include labels for accessibility. The label generally includes the text of the main question in your problem. To add a label for a common problem, surround the text of the label with angle brackets pointed toward the text (>>label text<<).
+.. note:: Problems must include accessible labels. An accessible label generally 
+ includes the text of the main question in your problem. To add an accessible
+ label for a common problem, surround the text of the label with angle
+ brackets pointed toward the text (>>label text<<).
 
 ==============
 Simple Editor
