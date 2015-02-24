@@ -1,0 +1,1 @@
+.. include:: ../../../shared/accessibility/accessibility.rst
