@@ -12,6 +12,9 @@ February 2015
 
    * - Date
      - Change
+   * - 2/26/15
+     - Updated the :ref:`Cohorted Courseware Overview` section to reflect the
+       ability to delete content groups and view their usage in a course.      
    * - 2/19/15
      - Updated ORA documentation to reflect ability to :ref:`Remove a student response from peer grading`
    * - 

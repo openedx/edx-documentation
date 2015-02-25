@@ -15,13 +15,14 @@ version 1.1.1 specifications.
 You can use an LTI component in several ways.
 
 * You can add external LTI content that is only displayed and does not require a
-student response, such as textbook content.
+  student response, such as textbook content.
 
 * You can add external LTI content that requires a student response. An external
   provider will grade student responses.
 
 * You can use the component as a placeholder for syncing with an external
   grading system.
+
 
 For example, the following LTI component incorporates a Cerego tool that students interact with. 
 
