@@ -165,6 +165,9 @@ Remove a submission from peer assessment by completing these steps.
    this student's information again, instead of the response, you see a note
    showing the date and time that the submission was removed, and the comments
    that you entered.
+
+   Removed submissions are also removed from the list of Top Responses if they
+   were previously listed.
    
 .. image:: ../../Images/ORA_CancelledStudentResponse.png
    :alt: The date, time and comment for removal of a student response is shown instead of the original response.  
