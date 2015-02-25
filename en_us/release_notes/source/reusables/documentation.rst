@@ -10,15 +10,17 @@ The following documentation is available:
 
 * `Using edX Insights`_
 
-* `Creating Peer Assessments`_
-
 * `edX Research Guide`_
+  
+* `Open edX Release Notes`_ 
+  
+* `Configuring the Open edX Platform`_   
+  
+* `Building and Running an Open edX Course`_
 
 * `edX Developer's Guide`_
 
 * `edX XBlock Documentation`_
-
-* `Installing, Configuring, and Running the edX Platform`_
 
 * `edX Open Learning XML Guide`_
 

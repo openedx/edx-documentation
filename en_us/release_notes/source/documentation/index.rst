@@ -2,6 +2,35 @@
 edX Documentation
 ####################################
 
+
+******************
+March 2, 2015
+******************
+
+==================================
+Building and Running an edX Course
+==================================
+
+The `Creating Cohort Specific Courseware`_ section now reflects the ability to
+delete content groups and view their usage in a course.
+
+=======================================================
+Installing, Configuring, and Running the edX Platform
+=======================================================
+
+This guide now includes new chapters for the `Open edX Birch Release`_ and a
+new section about `Configuring the Open edX Platform`_.
+
+======================
+Open edX Documentation
+======================
+
+New guides are now available specifically for open edX:
+
+* `Open edX Release Notes`_
+* `Building and Running an Open edX Course`_
+
+
 ******************
 February 23, 2015
 ******************
@@ -34,14 +63,14 @@ Building and Running an edX Course
 
 This guide now includes a new section about creating different course
 experiences for learners who are assigned to different cohorts. For more
-information, see `Creating Cohort-Specific Courseware`_.
+information, see `Creating Cohort Specific Courseware`_.
 
 =================================
 edX Developer's Guide
 =================================
 
-To support packaged releases for Open edX better, the source files for the
-`edX Developer's Guide`_ are now located in the GitHub ``edx-documentation``
+To support packaged releases for Open edX better, the source files for the  `edX
+Developer's Guide`_ are now located in the GitHub ``edx-documentation``
 repository.
 
 ==================

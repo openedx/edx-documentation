@@ -3,6 +3,21 @@ edX Website
 ####################################
 
 ******************
+March 2, 2015
+******************
+
+* Previously, when students used an iPad to verify their identities, they
+  received a "No Flash Detected" error message. This problem has been fixed.
+  (ECOM-859)
+
+* In some situations, students who verified their identity saw "Honor Code" as
+  their certificate track. This problem has been fixed. (ECOM-1088)
+
+* In some situations, videos were not delivered at the best quality for
+  available bandwidth. This problem has been fixed. (TNL-1202)
+
+
+******************
 February 12, 2015
 ******************
 
