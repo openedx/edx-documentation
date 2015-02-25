@@ -273,8 +273,6 @@ students have a positive experience with entrance exams.
   course About page. Otherwise, students will not know about the entrance exam
   before they enroll in your course and try to access course content.
 
-.. Is the following still true?
-
 * Add an anouncement at the top of the **Course Updates & News** page that
   contains information and instructions for students who need to take the exam.
   When students first try to access content in a course that has an entrance
