@@ -53,7 +53,7 @@ To send an email message to course participants:
 
 #. Click **Instructor** then click **Email**.
 
-#. Select who you want to send the message to from the **Send to** dropdown
+#. Select who you want to send the message to from the **Send to** drop-down
    list. You can select:
 
   * **Myself**
@@ -63,10 +63,15 @@ To send an email message to course participants:
 4. Enter a **Subject** for the message. A subject is required.
 
 #. Enter the text for the message. Message text is required. 
-   
+
+   To include an image in your message, use the **Files & Uploads** page in
+   Studio to add the file to your course, then click the **Insert/edit image**
+   icon. For more information, see :ref:`Add Files to a Course`.
+
    Messages can use HTML styling, including text formatting and links. The
    email message editor offers the same formatting options as the HTML
-   component editor in Studio. See :ref:`Working with HTML Components`.
+   component editor in Studio. For more information, see :ref:`Working with
+   HTML Components`.
 
 #. Click **Send Email**. You can perform other tasks on the Instructor
    Dashboard or navigate to other pages while you wait for your message to be
@@ -182,7 +187,9 @@ To produce the Email Task History report:
 
 .. image:: ../../../shared/building_and_running_chapters/Images/Bulk_email_history.png
        :width: 800
-       :alt: A tabular report with a row for each message sent and columns for requester, date and time submitted, duration, state, task status, and task progress.
+       :alt: A tabular report with a row for each message sent and columns for
+        requester, date and time submitted, duration, state, task status, and
+        task progress.
 
 *******************************
 Review Email Task History
@@ -243,7 +250,10 @@ milestones, as models for your own course communications.
 These messages are styled as email messages, but you could also post this
 information in a course discussion topic or on the **Course Info** page.
 
-.. important:: Revise these message templates carefully to include facts for your own course, meet the needs of your students, and reflect your own objectives and personality. Search for the "{" and "}" characters to locate prompts and replace them with course-specific values.
+.. important:: Revise these message templates carefully to include facts for 
+ your own course, meet the needs of your students, and reflect your own
+ objectives and personality. Search for the "{" and "}" characters to locate
+ prompts and replace them with course-specific values.
 
 .. _Prelaunch Reminder: 
 
@@ -628,11 +638,11 @@ When preparing a message from this template, search for values enclosed by
 
   Subject: Announcing a new run of {course name}
 
-  Hello {course number} leaners,
+  Hello {course number} learners,
 
   The next run of {course number} {course name} begins on {date}! We are glad
   to share this news with you, the students who made the earlier run{s} of
-  {course number} so succesful.
+  {course number} so successful.
 
   {Success story from the previous run.} 
 

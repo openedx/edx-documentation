@@ -5,14 +5,14 @@ Adding Files to a Course
 ###########################
 
 To use images in your course content, or to use other documents such as a
-syllabus, you must upload the files to the **Files and Uploads** page, then link
-to the uploaded files from a component in your course.
+syllabus, you must upload the files to the **Files & Uploads** page, then link
+to the uploaded files from a component in your course or a bulk email message.
 
 *******************
 Overview
 *******************
 
-You can manage your uploaded course files on the **Files and Uploads** page
+You can manage your uploaded course files on the **Files & Uploads** page
 under the **Content** menu in Studio.
 
 * :ref:`Upload a File`
@@ -30,14 +30,16 @@ under the **Content** menu in Studio.
 Upload a File
 *******************
  
-You can upload files that you want students to access in the course. After you
-upload a file, you can link to it from a component, from a course update, or in
-the course handouts, using the generated URLs on the **Files and Uploads** page.
-Students can see a file only if you create a link to it.
+You upload the files that you want students to access in the course on the
+**Files & Uploads** page. After you upload a file, the system generates two
+URLs for it. You can use the Studio URL to add a link to the file from a
+component, a course update, or in the course handouts. You can use the Web
+link to add a link to the file from a bulk email message in the LMS. Students
+can see a file only if you create a link to it.
 
 .. note:: When URLs are generated for uploaded files, the file name becomes part
-   of the URL and is visible to students when they access the file. You should
-   avoid using file names that contain information about the file contents that
+   of the URL and is visible to students when they access the file. Avoid
+   using file names that contain information about the file contents that
    should not be shared, for example, Answerkey.pdf.
 
 .. warning::
@@ -47,10 +49,11 @@ Students can see a file only if you create a link to it.
    If you have files that are larger than 50 MB after compression and need them
    for your course, contact your edX program manager.
 
-   Furthermore, do not add video or audio files, or large data sets that are to
-   be used by students. You should use YouTube or another hosting service to
-   host multimedia files for your course. For information about storing large
-   data sets for student use, contact your edX program manager.
+   Furthermore, do not use the **Files & Uploads** page to add video or
+   audio files or large data sets that are to be used by students. You should
+   use YouTube or another hosting service to host multimedia files for your
+   course. For information about storing large data sets for student use,
+   contact your edX program manager.
 
 To upload files:
  
@@ -70,7 +73,7 @@ To upload files:
 
 6. To close the dialog box, click the **X** in the top right corner.
 
-You see the new files on the **Files & Uploads** page.
+The **Files & Uploads** page refreshes to show the uploaded file.
 
 
 .. _File URLs:
@@ -79,18 +82,19 @@ You see the new files on the **Files & Uploads** page.
 Use File URLs to Reference Uploaded Files
 ********************************************
 
-
-After you upload a file, you can link to it from a component, from a course
-update, or in the course handouts, using the generated URLs on the **Files and
-Uploads** page. On the **Files & Uploads** page, the **URL** column lists the
+After you upload a file, you can use the URLs listed for it on the **Files and
+Uploads** page. On the **Files & Uploads** page, the **URL** column lists a
 Studio URL and web URL for each file.
 
 * To link to the file or image from within a course (that is, from a component,
   a course update, or a course handout), use the Studio URL. You cannot use
   the web URL to link to a file or image from within your course.
 
-* To provide a link to the file or image from outside the course, use the
-  web URL. 
+* To provide a link to the file or image from the LMS (such as in a bulk email
+  message), use the web URL.
+
+* To provide a link to the file or image from outside the course, use the web
+  URL.
 
 
 .. note:: If you lock a file, the web URL no longer works for external access
@@ -98,7 +102,7 @@ Studio URL and web URL for each file.
    the course.
 
 To copy a URL from the file list, double click the URL in the **URL** column so
-that the value is selected, then copy it.
+that the value is selected, then right-click to copy it.
 
 
 .. _Sort Files:

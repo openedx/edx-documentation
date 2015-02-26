@@ -88,7 +88,7 @@ Select **Visual** or **Raw**. When you change the editor, you must click
 The Visual Editor
 *****************************************
 
-The visual editor provides a “what you see is what you get” (WYSIWYG) interface
+The visual editor provides a "what you see is what you get" (WYSIWYG) interface
 that allows you to format text by clicking the formatting buttons at the top of
 the editor.
 
@@ -323,26 +323,28 @@ You can add a link to a course unit in an HTML component.
 Add a Link to a File
 ***********************************
 
-You can add a link in an HTML component to any file you've uploaded for the
+You can add a link in an HTML component to any file that is uploaded for the
 course. For more information about uploading files, see :ref:`Add Files to a
 Course`.
 
-#. On the **Files & Uploads** page, copy the **Embed URL** of the file.
+#. On the **Files & Uploads** page, copy the **Studio** URL of the file.
 
 
   .. image:: ../../../shared/building_and_running_chapters/Images/HTML_Link_File.png
-   :alt: Image of Files and Uploads page with the URL field circled 
+   :alt: Image of Files and Uploads page with the Studio URL field circled 
   
   .. note:: 
-   You must use the **Embed URL** to link to the file, not the **External URL**.
+   You must use the **Studio** URL to link to the file, not the **Web** URL.
 
-2. Select the text that you want to make into the link.
+2. In the HTML component where you want to add the link, select the text that
+   you want to make into the link.
 
 #. Click the link icon in the toolbar.
 
-#. In the **Insert link** dialog box, enter the following in the **URL** field.
+#. In the **Insert link** dialog box, enter the Studio URL for the file in the
+   **URL** field.
 
-   ``/static/FileName.type``
+   ``/static/{FileName}.{type}``
 
    Make sure to include both forward slashes (/).
 
@@ -374,22 +376,19 @@ see :ref:`Add Files to a Course`.
 To add an image, you'll need the URL of the image that you uploaded to the
 course. You'll then create a link to the image in the HTML component.
 
-#. On the **Files & Uploads** page, copy the **Embed URL** of the image that you
-   want.
-
-  .. image:: ../../../shared/building_and_running_chapters/Images/image_link.png
-   :alt: Image of the Files & Upload page with the Embed URL for the image
-       circled
+#. On the **Files & Uploads** page, copy the **Studio** URL of the image that you
+   want. For an example illustration, see :ref:`Add a Link to a File`.
 
   .. note:: 
-   You must use the **Embed URL** to add the image, not the **External URL**.
+   You must use the **Studio** URL to add the image, not the **Web** URL.
 
-2. Click the image icon in the toolbar.
+2. In the HTML component where you want to add the link, click the image icon
+   in the toolbar.
 
-#. In the **Insert image** dialog box, enter the following in the **Source**
-   field.
+#. In the **Insert image** dialog box, enter the Studio URL for the file in the
+   **URL** field.
 
-   ``/static/FileName.type``
+   ``/static/{FileName}.{type}``
 
    Make sure to include both forward slashes (/).
 
