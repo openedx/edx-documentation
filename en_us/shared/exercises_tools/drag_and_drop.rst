@@ -232,9 +232,9 @@ Tags
          single target. It can be either 'true' or 'false'. If not specified,
          the default value is 'true'.
      * - no_labels (required)
-       - default is false, in default behaviour if label is not set, label is
+       - The default is false. In default behavior, if label is not set, label is
          obtained from id. If no_labels is true, labels are not automatically
-         populated from id, and one can not set labels and obtain only icons.
+         populated from id, and one cannot set labels and obtain only icons.
 
   Children
 
@@ -266,7 +266,8 @@ For the grader to work, each draggable must have a unique ID.
      * - icon (optional)
        - For draggables that are images, the relative path to the image file.
      * - can_reuse
-       - true or false, default is false. If true, same draggable can be used multiple times.
+       - The default is false. If true, the same draggable can be used
+         multiple times.
 
   Children
   
