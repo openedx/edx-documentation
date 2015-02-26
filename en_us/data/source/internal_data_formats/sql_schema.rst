@@ -19,6 +19,7 @@ Conventions
 * EdX uses MySQL 5.1 relational database system with InnoDb storage engine.
 * All strings are stored as UTF-8.
 * All datetimes are stored as UTC (Coordinated Universal Time).
+* The .sql files in edX data packages are tab separated.
 
 .. note::
      EdX also uses the Django Python Web framework. Tables that are built into
