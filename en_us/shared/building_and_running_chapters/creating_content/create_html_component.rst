@@ -275,7 +275,14 @@ To add a link to a website:
 
 #. Click **OK**.
 
-#. Save the HTML component and test the link.
+#. Save the HTML component.
+
+#. To test the link, click **View Live Version** or **Preview Changes**. When
+   the unit opens in the LMS, click the linked text and verify that the
+   correct URL opens.
+
+   Note that if your link is to another HTML component in the course, the unit
+   of that destination component must be published for the link to work.
 
 
 .. _Add a Link to a Course Unit:
