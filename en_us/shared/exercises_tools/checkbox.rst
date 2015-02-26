@@ -60,9 +60,10 @@ following.
     [x] If others are immunized, fewer people will fall sick regardless of a particular individual's choice to get immunized or not. 
     [x] Trust in healthcare professionals and government officials is fragile. 
 
+.. please do not line wrap this example:
+
     [explanation]
-    People who are not immunized against a disease may still not fall sick from the disease. If someone is trying to learn whether or not preventative measures against the disease have any impact, he or she may see these people and conclude, since they have remained healthy despite not being immunized, that immunizations have no effect. Consequently, he or she would tend to believe that immunization 
-    (or other preventative measures) have fewer benefits than they actually do.
+    People who are not immunized against a disease may still not fall sick from the disease. If someone is trying to learn whether or not preventative measures against the disease have any impact, he or she may see these people and conclude, since they have remained healthy despite not being immunized, that immunizations have no effect. Consequently, he or she would tend to believe that immunization     (or other preventative measures) have fewer benefits than they actually do.
     [explanation]
 
 ==================
