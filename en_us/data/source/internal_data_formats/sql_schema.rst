@@ -21,7 +21,9 @@ Conventions
 * All datetimes are stored as UTC (Coordinated Universal Time).
 
 .. note::
-     EdX also uses the Django Python Web framework. Tables that are built into the Django Web framework are documented here only if they are used in unconventional ways.
+     EdX also uses the Django Python Web framework. Tables that are built into
+     the Django Web framework are documented here only if they are used in
+     unconventional ways.
 
 Descriptions of the tables and columns that store student data follow, first
 in summary form with field types and constraints, and then with a detailed
@@ -55,7 +57,8 @@ Type
      * - tinyint
        - 1 byte integer, usually used to indicate a Boolean with 0 = False and 1 = True.
      * - varchar
-       - String, typically short and indexable. The length is the number of chars, not bytes, to support multi-byte character sets.
+       - String, typically short and indexable. The length is the number of
+         chars, not bytes, to support multi-byte character sets.
      * - longtext
        - A long block of text, usually not indexed.
      * - date
@@ -199,7 +202,7 @@ id
 ----------
 username
 ----------
-  The unique username for a user in our system. It can contain alphanumerics
+  The unique username for a user in the edX system. It can contain alphanumerics
   and the special characters shown within the brackets: [ _ @ + - . ]. The
   username is the only user-provided information that other users can
   currently see. EdX has never allowed users to change usernames, but may do
@@ -507,7 +510,7 @@ here are found as JSON attributes *inside* a given ``meta`` field, and are
     the time for certificate generation approached, to replace nicknames with
     their actual names or correct spelling/punctuation errors.
 
-    The timestamps are UTC, like all datetimes stored in our system.
+    The timestamps are UTC, like all datetimes stored in the edX database.
 
   ``old_emails``
 
@@ -515,7 +518,7 @@ here are found as JSON attributes *inside* a given ``meta`` field, and are
     changed them, in a format similar to `old_names`. There was never an
     approval process for this.
 
-    The timestamps are UTC, like all datetimes stored in our system.
+    The timestamps are UTC, like all datetimes stored in the edX database.
 
   ``6002x_exit_response``
 
@@ -915,16 +918,16 @@ example, HW=50%, Final=25%, etc.).
 About Modules
 ==================================
 
-It's important to understand what "modules" are in the context of our system,
-as the terminology can be confusing. For the conventions of this table and many
-parts of our code, a "module" is a content piece that appears in the
-courseware. This can be nearly anything that appears when users are in the
-courseware tab: a video, a piece of HTML, a problem, etc. Modules can also be
-collections of other modules, such as sequences, verticals (modules stacked
-together on the same page), weeks, chapters, etc. In fact, the course itself is
-a top level module that contains all the other contents of the course as
-children. You can imagine the entire course as a tree with modules at every
-node.
+It is important to understand what "modules" are in the context of the edX
+system, as the terminology can be confusing. For the conventions of this table
+and many parts of the edX code, a module is a piece of course content that
+appears in the courseware. This can be nearly anything that appears when users
+are in the courseware tab: a video, a piece of HTML, a problem, etc. Modules
+can also be collections of other modules, such as sequences, verticals
+(modules stacked together on the same page), weeks, chapters, etc. In fact,
+the course itself is a top level module that contains all the other contents
+of the course as children. You can imagine the entire course as a tree with
+modules at every node.
 
 Modules can store state, but whether and how they do so varies based on the
 implementation for that particular kind of module. When a user loads a page,
