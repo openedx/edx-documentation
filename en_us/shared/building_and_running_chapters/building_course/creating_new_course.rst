@@ -130,10 +130,15 @@ automatically. Other course staff can see your changes.
 Add Course Team Members
 ************************
 
-Course team members are users who help you build your course.
+Course team members are users who help you build your course. Before you can
+assign Staff or Admin access to a team member:
 
-Only a team member with Admin access can add or remove course team members, or
-grant Admin access to other team members.
+* You must be an Admin.
+
+* You need the email address or username of each team member you want to add. 
+
+* Each of those team members must register a user account for that email
+  address/username and activate the account.
 
 Other course team members can edit the course and perform all tasks except
 adding and removing other new team members and granting Admin access.
@@ -150,10 +155,24 @@ To add a course team member:
 #. Ensure that the new team member has registered with Studio.
 #. From the **Settings** menu, select **Course Team**.
 #. Click **Add a New Team Member**.
-#. Enter the new team member's email address, then click **ADD USER**.
+#. Enter the new team member's email address, then click **ADD USER**. 
+
+The new team member can now work on the course in Studio. To preview
+the course in the LMS or work on the Instructor Dashboard, the team member
+must enroll in the course.
 
 You can also assign privileged roles to users when you work in the LMS.
-Regardless of where the role is assigned, these administrative team members can
-work on your course in both the LMS and in Studio. For more information on
-assigning roles while you run your course, see
+
+.. note:: The LMS "Course Staff" role is the same as the Studio "Staff" role, 
+ and the LMS "Instructors" role is the same as the Studio "Admin" role.
+
+Regardless of where the role is assigned, these administrative team members
+can work on your course in both Studio and the LMS (after enrollment). For
+more information about assigning roles while you run your course, see
 :ref:`Course_Staffing`.
+
+You can also designate teams of people to beta test your course and to
+moderate and manage its discussions by assigning other LMS roles. The beta
+testers and discussion administrators must be enrolled in your course, but
+they do not need to have Staff or Admin access. For more information, see
+:ref:`Beta_Testing` and :ref:`Assigning_discussion_roles`.
