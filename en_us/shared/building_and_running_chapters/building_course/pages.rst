@@ -9,7 +9,7 @@ Adding Pages to a Course
 Overview
 *******************
 
-By default, your course has the following pages:
+By default, your course includes these pages.
 
 * Courseware
 * Course Info
@@ -17,23 +17,24 @@ By default, your course has the following pages:
 * Wiki
 * Progress
 
-You cannot rename, reorder, or remove these pages.
+You can change the order of the Discussion, Wiki, and Progress pages, and you
+can hide the Wiki page.
 
-You can add pages to your course. Each page appears in your course's navigation bar. 
-
-For example, the following navigation bar includes the default pages as well as the
-**Course Schedule** and **Supplements & Instructor's Blog** pages.
+You can also add pages to your course. Each page appears in the navigation bar
+for your course. For example, the following navigation bar includes the
+default pages as well as the additional Course Schedule and Supplements &
+Instructor's Blog pages.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/page_bar_lms.png
  :alt: Image of the page bar in the LMS
 
-You can create other pages for the grading policy, course slides, or any other purpose. More examples of pages you can add are:
+You can create other pages for the grading policy, course slides, or any other
+purpose. More examples of pages you can add follow. 
 
-* A Google calendar, by embedding the code for it.  
+* A dynamic HTML calendar, using the template in :ref:`Code for Dynamic HTML
+  Schedule`.
 
-* A dynamic HTML calendar, using the template in :ref:`Code for Dynamic HTML Schedule`.
-
-* An instant hangout.  See :ref:`Google Instant Hangout` for more information.
+* An instant hangout. See :ref:`Google Instant Hangout` for more information.
 
 See:
 
@@ -50,13 +51,15 @@ See:
 Add a Page
 ****************
 
-#. In Studio, from the **Content** menu, select **Pages**. 
+#. In Studio, from the **Content** menu, select **Pages**. A page titled
+   **Pages** appears.
 
   .. image:: ../../../shared/building_and_running_chapters/Images/pages_page.png
    :alt: Image of the Pages screen
 
 
-2. Click **Add a New Page**. A page with the title **Empty** is added to the list:
+2. Click **Add a New Page**. A page with the title **Empty** is added to the
+   list:
 
   .. image:: ../../../shared/building_and_running_chapters/Images/pages_empty.png
    :alt: Image of the Pages screen with a new Empty page
@@ -66,35 +69,43 @@ Add a Page
   .. image:: ../../../shared/building_and_running_chapters/Images/pages_editor.png
    :alt: Image of the Page editor
 
-4. Enter text for your page. See :ref:`Options for Editing HTML Components` for more information about using the editor.
-#. Click **Settings** to edit the **Display Name**. The display name is the name of the page visible to students in the course.
+4. Enter text for your page. See :ref:`Options for Editing HTML Components`
+   for more information about using the editor.
+#. Click **Settings** to edit the **Display Name**. The display name is the
+   name of the page visible to students in the course.
 #. Click **Save**. 
 
-The new page is immediately available to students, if the course has started.
+The new page is immediately available to students if the course has started.
 
 .. _Show or Hide the Course Wiki Page:
 
 ************************************************
-Show or Hide the Course Wiki Page
+Hide or Show the Course Wiki Page
 ************************************************
 
-By default, your course includes a Wiki page. Students and course staff can use the Wiki to post content and comment on others' content.
+By default, your course includes a Wiki page. Students and course staff can
+use the Wiki to post content and comment on others' content.
 
 If you do not want to use the Wiki in your course, you can hide the page.
 
-The eye icon in the Wiki object indicates that the Wiki page is visible in your course:
+After you select **Content** and then **Pages** in Studio, the eye icon that
+appears next to the Wiki object indicates that the Wiki page is visible in
+your course. For an example of the page and this icon, see :ref:_`Add a Page`.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/pages_wiki_on.png
- :alt: Image of the Pages page with the Wiki made visible
-
-Click the eye icon to hide the Wiki page. The icon changes:
+Click the eye icon to hide the Wiki page. The icon changes as shown in this
+example.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/pages_wiki_off.png
  :alt: Image of the Pages page with the Wiki made visible
 
 Click it again to make the Wiki page visible.
 
-.. note:: Content remains in the Wiki when you hide the page. For example, if a student bookmarks a Wiki topic, then you hide the Wiki page, the student can still use the bookmark to access that Wiki topic. All content that was previously posted in the Wiki remains available after you hide the Wiki page, and any students logged in to edX can access the content if they know the URL. 
+.. note:: Content remains in the Wiki when you hide the page. For example, 
+ if a student bookmarks a Wiki topic, then you hide the Wiki page, the student
+ can still use the bookmark to access that Wiki topic. All content that was
+ previously posted in the Wiki remains available after you hide the Wiki page,
+ and any students logged in to edX can access the content if they know the
+ URL.
 
 .. _Reorder Pages:
 
@@ -102,11 +113,15 @@ Click it again to make the Wiki page visible.
 Reorder Pages
 ****************
 
-You can reorder pages in your course by dragging and dropping the pages to different locations. 
+To reorder the pages in your course you can drag a page to different location
+in the navigation bar and drop it there.
 
-To move a page, hover over the element handle on the right side of the page row until the mouse pointer changes to a four-headed arrow. Then, click and drag the page to the location that you want.
+To move a page, hover over the element handle on the right side of the page
+row until the mouse pointer changes to a four-headed arrow. Then, click and
+drag the page to the location that you want.
 
-.. note:: You cannot reorder the Courseware, Course Info, Discussion, Wiki, and Progress pages that your course includes by default
+.. note:: You cannot reorder the Courseware or Course Info pages that your 
+ course includes by default.
 
 .. _Delete a Page:
 
@@ -114,7 +129,8 @@ To move a page, hover over the element handle on the right side of the page row 
 Delete a Page
 ****************
 
-To delete a page that you previously added, click the trash can icon in the row for the page.  You are prompted to confirm the deletion.
+To delete a page that you previously added, click the trash can icon in the
+row for the page. You are prompted to confirm the deletion.
 
 .. _Code for Dynamic HTML Schedule:
 
@@ -122,7 +138,8 @@ To delete a page that you previously added, click the trash can icon in the row 
 Code for Dynamic HTML Schedule
 ********************************
 
-You can use the following code in a page to provide a dynamic HTML schedule in your course.
+You can use the following code in a page to provide a dynamic HTML schedule in
+your course.
 
 .. code-block:: html
 
