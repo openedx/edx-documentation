@@ -6,26 +6,18 @@ import sys, os
 # on_rtd is whether we are on readthedocs.org, this line of code grabbed from docs.readthedocs.org
 on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 
-if not on_rtd:  # only import and set the theme if we're building docs locally
-    import sphinx_rtd_theme
-    html_theme = 'sphinx_rtd_theme'
-    html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
-
-
-
-
-
-
-
-
-sys.path.append(os.path.abspath('../../../'))
-sys.path.append(os.path.abspath('../../'))
-
-#from docs.shared.conf import *
-
-sys.path.insert(0, os.path.abspath('.'))
+# Add any paths that contain templates here, relative to this directory.
+templates_path = ['_templates']
 
 master_doc = 'index'
+
+# The suffix of source filenames.
+source_suffix = '.rst'
+
+# The name of the Pygments (syntax highlighting) style to use.
+pygments_style = 'sphinx'
+
+
 
 # Add any paths that contain templates here, relative to this directory.
 #templates_path.append('source/_templates')
@@ -35,6 +27,8 @@ master_doc = 'index'
 # so a file named "default.css" will overwrite the builtin "default.css".
 #html_static_path.append('source/_static')
 
+
+# General information about the project.
 project = u'edX Research Guide'
 copyright = u'2015, edX'
 
@@ -43,5 +37,27 @@ version = ''
 # The full version, including alpha/beta/rc tags.
 release = ''
 
-#Added to turn off smart quotes so users can copy JSON values without problems.
-html_use_smartypants = False
+# -- Options for HTML output ---------------------------------------------------
+
+# The theme to use for HTML and HTML Help pages.  See the documentation for
+# a list of builtin themes.
+# html_theme = 'default'
+html_theme = 'edx_theme'
+
+# Add any paths that contain custom themes here, relative to this directory.
+#html_theme_path = []
+html_theme_path = ['../../_themes']
+
+html_favicon = '../../_themes/edx_theme/static/css/favicon.ico'
+
+#html_use_smartypants = True
+html_use_smartypants = True
+
+if on_rtd:
+    html_context = {
+       "on_rtd" : on_rtd,
+       "google_analytics_id" : '',
+       "disqus_shortname" : 'edx',
+       "github_base_account" : 'edx',
+       "github_project" : 'edx-documentation',
+    }
