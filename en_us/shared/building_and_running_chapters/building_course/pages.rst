@@ -132,6 +132,9 @@ Delete a Page
 To delete a page that you previously added, click the trash can icon in the
 row for the page. You are prompted to confirm the deletion.
 
+.. note:: You cannot delete the system-supplied Courseware, Course Info, 
+ Discussion, or Progress pages. You can hide the course Wiki page.
+
 .. _Code for Dynamic HTML Schedule:
 
 ********************************
