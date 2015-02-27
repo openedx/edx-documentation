@@ -122,6 +122,9 @@ computer.
 When you have completed these steps, see :ref:`Running the Open edX Developer
 Stack` to begin using Devstack.
 
+For help with the Devstack installation, see :ref:`Troubleshooting the Devstack
+Installation`.
+
 
 *****************************************
 Install Devstack using the Torrent file
@@ -135,3 +138,32 @@ Install Devstack using the Torrent file
     .. code-block:: bash
   
      vagrant box add box-name path-to-box-file
+
+
+.. _Troubleshooting the Devstack Installation:
+
+*****************************************
+Troubleshooting the Devstack Installation 
+*****************************************
+
+In some cases, you see an error when you attempt to create the Devstack virtual
+machine (``vagrant up``). For example:
+
+``mount.nfs: mount to NFS server '192.168.33.1:/path/to/edx-platform' failed: timed out, giving up``
+
+This error situation arises because Vagrant uses a host-only network in
+Virtualbox to communicate with your computer. That network is created on
+``vagrant up`` if one does not exist. If this network is created with the VPN
+up, it will not work. You must recreate the network with the VPN down.
+
+To resolve the error, follow these steps.
+
+#. Stop the VPN.
+#. Type ``vagrant halt``.
+#. Open Virtualbox.
+   
+#. Navigate to **Preferences > Network > Host-only Networks** and remove the
+   most-recently-created host-only network.
+
+#. Type ``vagrant up``.
+   
