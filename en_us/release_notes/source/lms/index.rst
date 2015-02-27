@@ -6,7 +6,7 @@ edX Learning Management System
 March 2, 2015
 ******************
 
-When creating problems using XML, authors can use HTMl tags to add inline
+When creating problems using XML, authors can use HTML tags to add inline
 markers that show additional information. Users see the additional text when
 they hover their cursors over markers in the problem text. (OSPR-353)
 
