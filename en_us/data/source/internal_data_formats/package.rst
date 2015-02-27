@@ -166,6 +166,8 @@ courses on a single edX site for one 24-hour period. After you download a
    be decompressed in stream using a tool such as gzip or, related libraries in
    your preferred programming language.)
 
+For more information about the events in this file, see :ref:`Tracking Logs`.
+
 ============================================
 Extracted Contents of ``{org}-{date}.zip``
 ============================================
@@ -181,7 +183,8 @@ institution, you:
    :ref:`Decrypt an Encrypted File`.
 
 The result of extracting and decrypting the ``{org}-{date}.zip`` file is the
-following set of .sql, .csv, and .mongo files.
+following set of .sql, .csv, and .mongo files. Note that the .sql files are
+tab separated.
 
 ``{org}-{course}-{date}-auth_user-{site}-analytics.sql``
 

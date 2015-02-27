@@ -8,20 +8,21 @@ Conditional Module
 Format description
 ********************
 
-The main tag of conditional module input is:
+The main tag of conditional module input is ``conditional``.
 
 .. code-block:: xml
 
     <conditional> ... </conditional>
 
-``conditional`` can include any number of any xmodule tags (``html``, ``video``, ``poll``, etc.) or ``show`` tags.
+``conditional`` can include any number of any xmodule tags (``html``,
+``video``, ``poll``, etc.) or ``show`` tags.
 
 ================
 conditional tag
 ================
 
-The main container for a single instance of a conditional module. The following attributes can
-be specified for this tag:
+The main container for a single instance of a conditional module. The
+following attributes can be specified for this tag.
 
 .. code-block:: xml
 
@@ -40,8 +41,8 @@ be specified for this tag:
 show tag
 ========
 
-Symlink to some set of xmodules. The following attributes can
-be specified for this tag:
+Symlink to some set of xmodules. The following attributes can be specified for
+this tag.
 
 .. code-block:: xml
 

@@ -17,7 +17,8 @@ Studio, and the users who have these roles can work on your course in both the
 LMS and Studio. For more information on setting up a team in Studio, see
 :ref:`Add Course Team Members`.
 
-.. note:: The LMS "Course Staff" role is the same as the Studio "Staff" role, and the LMS "Instructors" role is the same as the Studio "Admin" role.
+.. note:: The LMS "Course Staff" role is the same as the Studio "Staff" role, 
+ and the LMS "Instructors" role is the same as the Studio "Admin" role.
 
 You can also designate teams of people to beta test your course and to
 moderate and manage its discussions by assigning other LMS roles. The beta
@@ -47,7 +48,8 @@ Course Staff role or the Instructors role.
 
 * Send email messages to course participants.
 
-**Instructors** have access to all of the same options for running the course as the course staff. They can also:
+**Instructors** have access to all of the same options for running the course
+as the course staff. They can also:
 
 * Add and remove Course Staff.
 
@@ -66,9 +68,11 @@ Assign Staff Roles
 
 Before you can assign the Course Staff or Instructors role to a team member:
 
-* You need the email address or username of each team member. 
+* You must have the Instructors role.
 
-* Each team member must register a user account for that email
+* You need the email address or username of each team member you want to add. 
+
+* Each of those team members must register a user account for that email
   address/username, activate the account, and enroll in your course.
 
 To assign a staff role:

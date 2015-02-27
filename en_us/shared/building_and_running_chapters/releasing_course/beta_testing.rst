@@ -138,7 +138,9 @@ Beta testers should interact with everything in the course.
 
 * Complete all problems. 
 
-As they work, beta testers log issues and questions for the course team.
+Beta testers can use a desktop computer to access an edX website, the edX
+mobile app on a smartphone, or both to complete their tests. As they work,
+beta testers log issues and questions for the course team.
 
 .. note:: Beta testers cannot read or make discussion posts or contribute to 
  the course wiki.
@@ -171,7 +173,7 @@ than other students.
 +-------------------------------------------+------+------+
 | Before the subsection Release Day         |  X   |      |
 +-------------------------------------------+------+------+
-| Before the unit is Public                 |      |   X  |
+| Before the unit is Published              |      |   X  |
 +-------------------------------------------+------+------+
 | Before a draft replaces a live unit       |      |   X  |
 +-------------------------------------------+------+------+
@@ -179,6 +181,11 @@ than other students.
 The course team can continue to add content in Studio after the beta test
 begins. When new content is ready for testing, be sure to :ref:`publish the
 unit<Publish a Unit>`.
+
+.. important:: When you set up the beta test and define when it starts, verify 
+ that the first section, subsection, and unit in your course are available to
+ be tested. If that first unit is not available, an error occurs when testers
+ attempt to access any other content in the course.
 
 ================================
 Define When the Beta Test Starts

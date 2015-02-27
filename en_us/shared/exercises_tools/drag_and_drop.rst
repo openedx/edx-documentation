@@ -217,6 +217,7 @@ Tags
 
   .. list-table::
      :widths: 20 80
+     :header-rows: 1
 
      * - Attribute
        - Description
@@ -232,9 +233,9 @@ Tags
          single target. It can be either 'true' or 'false'. If not specified,
          the default value is 'true'.
      * - no_labels (required)
-       - default is false, in default behaviour if label is not set, label is
+       - The default is false. In default behavior, if label is not set, label is
          obtained from id. If no_labels is true, labels are not automatically
-         populated from id, and one can not set labels and obtain only icons.
+         populated from id, and one cannot set labels and obtain only icons.
 
   Children
 
@@ -256,6 +257,7 @@ For the grader to work, each draggable must have a unique ID.
 
   .. list-table::
      :widths: 20 80
+     :header-rows: 1
 
      * - Attribute
        - Description
@@ -266,7 +268,8 @@ For the grader to work, each draggable must have a unique ID.
      * - icon (optional)
        - For draggables that are images, the relative path to the image file.
      * - can_reuse
-       - true or false, default is false. If true, same draggable can be used multiple times.
+       - The default is false. If true, the same draggable can be used
+         multiple times.
 
   Children
   
@@ -289,6 +292,7 @@ the base image.
 
   .. list-table::
      :widths: 20 80
+     :header-rows: 1
 
      * - Attribute
        - Description
@@ -316,14 +320,18 @@ Targets on Draggables
 Sometimes it is not enough to have targets only on the base image, and all of
 the draggables on these targets. If a complex problem exists where a draggable
 must become itself a target (or many targets), then the following extended
-syntax can be used: ::
+syntax can be used.
 
+::
+
+    ...
     <draggable {attribute list}>
         <target {attribute list} />
         <target {attribute list} />
         <target {attribute list} />
         ...
     </draggable>
+    ...
 
 The attribute list in the tags above (``draggable`` and ``target``) is the same
 as for normal ``draggable`` and ``target`` tags. The only difference is when
@@ -362,9 +370,10 @@ Limitations of targets on draggables
 Correct answer format
 **********************
 
-For specifying answers for targets on draggables, see `Answer format for targets on draggables`_.
+For specifying answers for targets on draggables, see `Answer format for
+targets on draggables`_.
 
-There are two correct answer formats: short and long
+There are two correct answer formats: short and long.
 
 In short form, the correct answer is mapping of ``draggable_id`` to
 ``target_id``::
@@ -391,7 +400,7 @@ In long form, the correct answer is list of dicts. Every dict has 3 keys:
 that draggables must be dragged to.
 
 .. Caution::
-  Draggables in dicts inside ``correct_answer`` list must not intersect.
+  Draggables in dicts inside the ``correct_answer`` list must not intersect.
 
 Wrong (for draggable id 7)::
 
@@ -407,7 +416,7 @@ Wrong (for draggable id 7)::
       'rule': 'anyof'
     }]
 
-Rules are:
+The values for ``rule`` follow. 
 
 * ``exact``: Targets for draggable IDs in ``user_answer`` are the same as
   targets from the correct answer. For example, for draggables 7 and 8, the
@@ -500,7 +509,7 @@ Answer format for targets on draggables
 As with the cases described above, an answer must provide precise positioning
 for each draggable (on which targets it must reside). In the case when a
 draggable must be placed on a target that itself is on a draggable, then the
-answer must contain the chain of target-draggable-target. 
+answer must contain the chain of target-draggable-target.
 
 For example, suppose we have three draggables - ``up``, ``s``, and ``p``.
 Draggables ``s`` and ``p`` have targets on themselves. More specifically,
@@ -549,7 +558,8 @@ included in more than one chain.
 Grading logic
 *************
 
-#. The student's answer and the correct answer are parsed to the same format::
+#. The student's answer and the correct answer are parsed to the same format.
+   ::
 
     group_id: group_draggables, group_targets, group_rule
 

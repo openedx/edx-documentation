@@ -113,7 +113,10 @@ To create this problem in the Advanced Editor, click the **Advanced** tab in the
 Advanced Options for Multiple Choice Problems
 *********************************************
 
-Multiple choice problems have several advanced options. You can change the order of answers in the problem, include explanations that appear when a student selects a specific incorrect answer, or present a random set of choices to each student. For more information, see the following:
+Multiple choice problems have several advanced options. You can change the
+order of answers in the problem, include explanations that appear when a
+student selects a specific incorrect answer, or present a random set of
+choices to each student. For more information, see the following:
 
 
 * :ref:`Shuffle Answers in a Multiple Choice Problem`
@@ -124,23 +127,28 @@ Multiple choice problems have several advanced options. You can change the order
 
 =============================================
 Shuffle Answers in a Multiple Choice Problem
-============================================= 
+=============================================
 
-Optionally, you can configure a multiple choice problem so that it shuffles the order of possible answers.
+Optionally, you can configure a multiple choice problem so that it shuffles
+the order of possible answers.
 
 For example, one view of the problem could be:
 
 .. image:: ../../../shared/building_and_running_chapters/Images/multiple-choice-shuffle-1.png
  :alt: Image of a multiple choice problem
 
-And another view of the same problem, for another student or for the same student of a subsequent view of the unit, could be:
+And another view of the same problem, for another student or for the same
+student of a subsequent view of the unit, could be:
 
 .. image:: ../../../shared/building_and_running_chapters/Images/multiple-choice-shuffle-2.png
  :alt: Image of a multiple choice problem with shuffled answers
 
-You can also have some answers shuffled, but not others. For example, you may want to have the answer "All of the Above" fixed at the end of the list, but shuffle other answers.
+You can also have some answers shuffled, but not others. For example, you may
+want to have the answer "All of the Above" fixed at the end of the list, but
+shuffle other answers.
 
-You can configure the problem to shuffle answers through :ref:`Simple Editor` or :ref:`Advanced Editor`.
+You can configure the problem to shuffle answers through :ref:`Simple Editor`
+or :ref:`Advanced Editor`.
 
 
 Use the Simple Editor to Shuffle Answers
@@ -148,7 +156,10 @@ Use the Simple Editor to Shuffle Answers
 
 You can configure the problem to shuffle answers in :ref:`Simple Editor`.
 
-For example, the following text defines a multiple choice problem, before shuffling is enabled. The ``(x)`` indicates the correct answer::
+For example, the following text defines a multiple choice problem, before
+shuffling is enabled. The ``(x)`` indicates the correct answer.
+
+::
 
  >>What Apple device competed with the portable CD player?<<
      ( ) The iPad
@@ -156,7 +167,10 @@ For example, the following text defines a multiple choice problem, before shuffl
      (x) The iPod
      ( ) The vegetable peeler
 
-To add shuffling to this problem, add ``!`` in the parenthesis of the first answer::
+To add shuffling to this problem, add ``!`` between the parentheses of the
+first answer.
+
+::
 
  >>What Apple device competed with the portable CD player?<<
      (!) The iPad
@@ -164,7 +178,10 @@ To add shuffling to this problem, add ``!`` in the parenthesis of the first answ
      (x) The iPod
      ( ) The vegetable peeler
 
-To fix an answer's location in the list, add ``@`` in the parenthesis of that answer::
+To fix an answer's location in the list, add ``@`` between the parentheses of
+that answer.
+
+::
 
  >>What Apple device competed with the portable CD player?<<
      (!) The iPad
@@ -173,19 +190,25 @@ To fix an answer's location in the list, add ``@`` in the parenthesis of that an
      ( ) The vegetable peeler
      (@) All of the above
 
-You can combine symbols within parenthesis as necessary. For example, to show the correct answer in a fixed location, you could use::
+You can combine symbols within the parentheses as necessary. For example, to show
+the correct answer in a fixed location, you can use both ``x`` and ``@``.
+
+::
  
   (x@) The iPod
 
 Use the Advanced Editor to Shuffle Answers
 *********************************************
 
-You can configure the problem to shuffle answers through XML in :ref:`Advanced Editor`.
+You can configure the problem to shuffle answers through XML in :ref:`Advanced
+Editor`.
 
-For example, the following XML defines a multiple choice problem, before shuffling is enabled:
+For example, the following XML defines a multiple choice problem, before
+shuffling is enabled.
 
 .. code-block:: xml
 
+ <problem>
  <p>What Apple device competed with the portable CD player?</p>
  <multiplechoiceresponse>
   <choicegroup type="MultipleChoice">
@@ -195,12 +218,14 @@ For example, the following XML defines a multiple choice problem, before shuffli
     <choice correct="false">The vegetable peeler</choice>
   </choicegroup>
  </multiplechoiceresponse>
+ </problem>
 
 
-To add shuffling to this problem, add ``shuffle="true"`` to the ``<choicegroup>`` element:
+To add shuffling to this problem, add ``shuffle="true"`` to the ``<choicegroup>`` element.
 
 .. code-block:: xml
 
+ <problem>
  <p>What Apple device competed with the portable CD player?</p>
  <multiplechoiceresponse>
   <choicegroup type="MultipleChoice" shuffle="true">
@@ -210,11 +235,13 @@ To add shuffling to this problem, add ``shuffle="true"`` to the ``<choicegroup>`
     <choice correct="false">The vegetable peeler</choice>
   </choicegroup>
  </multiplechoiceresponse>
+ </problem>
 
-To fix an answer's location in the list, add ``fixed="true"`` to the ``choice`` element for the answer:
+To fix an answer's location in the list, add ``fixed="true"`` to the ``choice`` element for the answer.
 
 .. code-block:: xml
 
+ <problem>
  <p>What Apple device competed with the portable CD player?</p>
  <multiplechoiceresponse>
   <choicegroup type="MultipleChoice" shuffle="true">
@@ -225,7 +252,7 @@ To fix an answer's location in the list, add ``fixed="true"`` to the ``choice`` 
     <choice correct="false" fixed="true">All of the above</choice>
   </choicegroup>
  </multiplechoiceresponse>
-
+ </problem>
 
 .. _Targeted Feedback in a Multiple Choice Problem:
 
@@ -233,7 +260,11 @@ To fix an answer's location in the list, add ``fixed="true"`` to the ``choice`` 
 Targeted Feedback in a Multiple Choice Problem
 ===============================================
 
-You can configure a multiple choice problem so that explanations for incorrect answers are automatically shown to students. You can use these explanations to guide students towards the right answer. Therefore, targeted feedback is most useful for multiple choice problems for which students are allowed multiple attempts.
+You can configure a multiple choice problem so that explanations for incorrect
+answers are automatically shown to students. You can use these explanations to
+guide students towards the right answer. Therefore, targeted feedback is most
+useful for multiple choice problems for which students are allowed multiple
+attempts.
 
 
 Use the Advanced Editor to Configure Targeted Feedback
@@ -243,17 +274,23 @@ You configure the problem to provide targeted feedback through XML in :ref:`Adva
 
 Follow these XML guidelines:
 
-* Add a ``targeted-feedback`` attribute to the ``<multiplechoiceresponse>`` element, with no value: ``<multiplechoiceresponse targeted-feedback="">``
+* Add a ``targeted-feedback`` attribute to the ``<multiplechoiceresponse>``
+  element, with no value: ``<multiplechoiceresponse targeted-feedback="">``.
 * Add a ``<targetedfeedbackset>`` element before the ``<solution>`` element.
-* Within ``<targetedfeedbackset>``, add one or more ``<targetedfeedback>`` elements.
-* Within each ``<targetedfeedback>`` element, enter your explanation for the incorrect answer in HTML as markup described below.
-* Connect the ``<targetedfeedback>`` element with a specific incorrect answer by using the same ``explanation-id`` attribute value for each.
-* Use the ``<solution>`` element for the correct answer, with the same ``explanation-id`` attribute value as the correct ``<choice>`` element.
+* Within ``<targetedfeedbackset>``, add one or more ``<targetedfeedback>``
+  elements.
+* Within each ``<targetedfeedback>`` element, enter your explanation for the
+  incorrect answer in HTML as markup described below.
+* Connect the ``<targetedfeedback>`` element with a specific incorrect answer
+  by using the same ``explanation-id`` attribute value for each.
+* Use the ``<solution>`` element for the correct answer, with the same
+  ``explanation-id`` attribute value as the correct ``<choice>`` element.
 
-For example, the XML for the multiple choice problem is:
+For example, the XML for the multiple choice problem follows.
 
 .. code-block:: xml
 
+   <problem>
    <p>What Apple device competed with the portable CD player?</p>
    <multiplechoiceresponse targeted-feedback="">
     <choicegroup type="MultipleChoice">
@@ -263,11 +300,13 @@ For example, the XML for the multiple choice problem is:
       <choice correct="false" explanation-id="feedback3">The vegetable peeler</choice>
     </choicegroup>
    </multiplechoiceresponse>
+   ...
  
-This is followed by XML that defines the targeted feedback:
+This is followed by XML that defines the targeted feedback.
 
 .. code-block:: xml
 
+   ...
    <targetedfeedbackset>
      <targetedfeedback explanation-id="feedback1">
        <div class="detailed-targeted-feedback">
@@ -294,7 +333,7 @@ This is followed by XML that defines the targeted feedback:
       <p>The iPod directly competed with portable CD players.</p>
      </div>
     </solution>
-
+    </problem>
 
 .. _Answer Pools in a Multiple Choice Problem:
 
@@ -302,26 +341,44 @@ This is followed by XML that defines the targeted feedback:
 Answer Pools in a Multiple Choice Problem
 =============================================
 
-You can configure a multiple choice problem so that a random subset of choices are shown to each student. For example, you can add 10 possible choices to the problem, and each student views a set of five choices.
+You can configure a multiple choice problem so that a random subset of choices
+are shown to each student. For example, you can add 10 possible choices to the
+problem, and each student views a set of five choices.
 
-The answer pool must have at least one correct answer, and can have more than one. In each set of choices shown to a student, one correct answer is included. For example, you may configure two correct answers in the set of 10. One of the two correct answers is included in each set a student views.
+The answer pool must have at least one correct answer, and can have more than
+one. In each set of choices shown to a student, one correct answer is
+included. For example, you may configure two correct answers in the set of 10.
+One of the two correct answers is included in each set a student views.
 
 Use the Advanced Editor to Configure Answer Pools
 **************************************************
 
-You configure the problem to provide answer pools through XML in :ref:`Advanced Editor`.
+You configure the problem to provide answer pools through XML in
+:ref:`Advanced Editor`.
 
 Follow these XML guidelines:
 
-* In the ``<choicegroup>`` element, add the ``answer-pool`` attribute, with the numerical value indicating the number of possible answers in the set. For example, ``<choicegroup answer-pool="4">``.
+* In the ``<choicegroup>`` element, add the ``answer-pool`` attribute, with
+  the numerical value indicating the number of possible answers in the set.
+  For example, ``<choicegroup answer-pool="4">``.
 
-* For each correct answer, to the ``<choice>`` element, add an ``explanation-id`` attribute and value that maps to a solution. For example, ``<choice correct="true" explanation-id="iPod">The iPod</choice>``.
+* For each correct answer, to the ``<choice>`` element, add an ``explanation-
+  id`` attribute and value that maps to a solution. For example, ``<choice
+  correct="true" explanation-id="iPod">The iPod</choice>``.
 
-* For each ``<solution>`` element, add an ``explanation-id`` attribute and value that maps back to a correct answer. For example, ``<solution explanation-id="iPod">``.
+* For each ``<solution>`` element, add an ``explanation-id`` attribute and
+  value that maps back to a correct answer. For example, ``<solution
+  explanation-id="iPod">``.
 
-.. note:: If the choices include only one correct answer, you do not have to use the ``explanation-id`` in either the ``choice`` or ``<solution>`` element. You do still use the ``<solutionset>`` element to wrap the ``<solution>`` element.
+.. note:: If the choices include only one correct answer, you do not have to 
+ use the ``explanation-id`` in either the ``choice`` or ``<solution>``
+ element. You do still use the ``<solutionset>`` element to wrap the
+ ``<solution>`` element.
 
-For example, for the following multiple choice problem, a student will see four choices, and in each set one of the choices will be one of the two correct ones. The explanation shown for the correct answer is the one with the same explanation ID.
+For example, for the following multiple choice problem, a student will see
+four choices, and in each set one of the choices will be one of the two
+correct ones. The explanation shown for the correct answer is the one with the
+same explanation ID.
 
 .. code-block:: xml
 
@@ -388,8 +445,10 @@ Template
 Tags
 ================
 
-* ``<multiplechoiceresponse>`` (required): Indicates that the problem is a multiple choice problem.
-* ``<choicegroup>`` (required): Indicates the beginning of the list of options. 
+* ``<multiplechoiceresponse>`` (required): Indicates that the problem is a
+  multiple choice problem.
+* ``<choicegroup>`` (required): Indicates the beginning of the list of
+  options.
 * ``<choice>`` (required): Lists an answer option.
 
 **Tag:** ``<multiplechoiceresponse>``
@@ -413,6 +472,7 @@ Indicates the beginning of the list of options.
 
   .. list-table::
      :widths: 20 80
+     :header-rows: 1
 
      * - Attribute
        - Description
@@ -433,11 +493,15 @@ Lists an answer option.
 
   .. list-table::
      :widths: 20 80
+     :header-rows: 1
 
      * - Attribute
        - Description
      * - correct (at least one required)
-       - Indicates a correct or incorrect answer. When the attribute is set to "true", the choice is a correct answer. When the attribute is set to "false", the choice is an incorrect answer. Only one choice can be a correct answer.
+       - Indicates a correct or incorrect answer. When the attribute is set to
+         "true", the choice is a correct answer. When the attribute is set to
+         "false", the choice is an incorrect answer. Only one choice can be a
+         correct answer.
      * - name
        - A unique name that the back end uses to refer to the choice.
 

@@ -278,8 +278,9 @@ that originate on mobile devices.
 
 **Details:** Identifies the type of event triggered.
 
-**History:** Events added beginning on 07 May 2014 include a ``name`` field.
-When this field is present for an event, it replaces the ``event_type`` field.
+**History:** Server and mobile events added beginning on 07 May 2014 include a
+``name`` field. When this field is present for an event, it replaces the
+``event_type`` field.
 
 ===================
 ``page`` Field

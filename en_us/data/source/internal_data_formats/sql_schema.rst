@@ -4,34 +4,46 @@
 Student Info and Progress Data
 ##############################
 
-The following sections detail how edX stores stateful data for students internally, and is useful for developers and researchers who are examining database exports. This data includes:
+The following sections detail how edX stores stateful data for students
+internally, and is useful for developers and researchers who are examining
+database exports. Data for students is presented in these categories. 
 
 * :ref:`User_Data`
 * :ref:`Courseware_Progress`
 * :ref:`Certificates`
 
-Conventions to keep in mind:
+***************
+Conventions
+***************
 
 * EdX uses MySQL 5.1 relational database system with InnoDb storage engine.
 * All strings are stored as UTF-8.
 * All datetimes are stored as UTC (Coordinated Universal Time).
+* The .sql files in edX data packages are tab separated.
 
 .. note::
-     EdX also uses the Django Python Web framework. Tables that are built into the Django Web framework are documented here only if they are used in unconventional ways.
+     EdX also uses the Django Python Web framework. Tables that are built into
+     the Django Web framework are documented here only if they are used in
+     unconventional ways.
 
-Descriptions of the tables and columns that store student data follow, first in summary form with field types and constraints, and then with a detailed explanation of each column. 
+Descriptions of the tables and columns that store student data follow, first
+in summary form with field types and constraints, and then with a detailed
+explanation of each column.
 
 ********************
 MySQL Terminology
 ********************
 
-The summary information provided about the SQL table columns uses the following MySQL schema terminology.
+The summary information provided about the SQL table columns uses the
+following MySQL schema terminology.
 
 ========
 Type
 ========
 
-  The kind of data and the size of the field. When a numeric field has a length specified, the length indicates how many digits display but does not affect the number of bytes used.
+  The kind of data and the size of the field. When a numeric field has a
+  length specified, the length indicates how many digits display but does not
+  affect the number of bytes used.
 
   .. list-table::
      :widths: 25 65
@@ -46,7 +58,8 @@ Type
      * - tinyint
        - 1 byte integer, usually used to indicate a Boolean with 0 = False and 1 = True.
      * - varchar
-       - String, typically short and indexable. The length is the number of chars, not bytes, to support multi-byte character sets.
+       - String, typically short and indexable. The length is the number of
+         chars, not bytes, to support multi-byte character sets.
      * - longtext
        - A long block of text, usually not indexed.
      * - date
@@ -70,7 +83,9 @@ Null
        - NULL values are not allowed.
 
 .. note::
-     Django often just places blank strings instead of NULL when it wants to indicate a text value is optional. This is more meaningful for numeric and date fields.
+     Django often just places blank strings instead of NULL when it wants to
+     indicate a text value is optional. This is more meaningful for numeric
+     and date fields.
 
 ========
 Key
@@ -87,7 +102,8 @@ Key
      * - UNI
        - Unique
      * - MUL
-       - Indexed for fast lookup, but the same value can appear multiple times. A unique index that allows NULL can also show up as MUL.
+       - Indexed for fast lookup, but the same value can appear multiple
+         times. A unique index that allows NULL can also show up as MUL.
 
 .. _User_Data:
 
@@ -95,7 +111,8 @@ Key
 User Data
 ****************
 
-The following tables store data gathered during site registration and course enrollment. 
+The following tables store data gathered during site registration and course
+enrollment.
 
 * :ref:`auth_user`
 * :ref:`auth_userprofile`
@@ -109,7 +126,8 @@ The following tables store data gathered during site registration and course enr
 Columns in the auth_user Table
 ================================
 
-The ``auth_user`` table is built into the edX Django Web framework. It holds generic information necessary for user login and permissions. 
+The ``auth_user`` table is built into the edX Django Web framework. It holds
+generic information necessary for user login and permissions.
 
 A sample of the heading row and a data row in the ``auth_user`` table follow.
 
@@ -124,7 +142,7 @@ A sample of the heading row and a data row in the ``auth_user`` table follow.
     9999999    AAAAAAAAA    AAAAAA  AAAAAA 1 1 0 2014-01-01 17:28:27 2012-03-04 
     00:57:49   NULL      0 NULL      0 0
 
-The ``auth_user`` table has the following columns:
+The ``auth_user`` table has the following columns.
 
   +------------------------------+--------------+------+-----+------------------+
   | Column                       | Type         | Null | Key | Comment          |
@@ -177,12 +195,19 @@ The ``auth_user`` table has the following columns:
 ----
 id
 ----
-  Primary key, and the value typically used in URLs that reference the user. A user has the same value for ``id`` here as they do in the MongoDB database's users collection. Foreign keys referencing ``auth_user.id`` will often be named ``user_id``, but are sometimes named ``student_id``.
+  Primary key, and the value typically used in URLs that reference the user. A
+  user has the same value for ``id`` here as they do in the MongoDB database's
+  users collection. Foreign keys referencing ``auth_user.id`` will often be
+  named ``user_id``, but are sometimes named ``student_id``.
 
 ----------
 username
 ----------
-  The unique username for a user in our system. It can contain alphanumerics and the special characters shown within the brackets: [ _ @ + - . ]. The username is the only user-provided information that other users can currently see. EdX has never allowed users to change usernames, but may do so in the future.
+  The unique username for a user in the edX system. It can contain alphanumerics
+  and the special characters shown within the brackets: [ _ @ + - . ]. The
+  username is the only user-provided information that other users can
+  currently see. EdX has never allowed users to change usernames, but may do
+  so in the future.
 
 ------------
 first_name
@@ -197,43 +222,69 @@ last_name
 -------
 email
 -------
-  The user's email address, which is the primary mechanism users use to log in. This value is optional by default in Django, but is required by edX. This value must be unique to each user and is never shown to other users.
+  The user's email address, which is the primary mechanism users use to log
+  in. This value is optional by default in Django, but is required by edX.
+  This value must be unique to each user and is never shown to other users.
 
 ----------
 password
 ----------
-  A hashed version of the user's password. Depending on when the password was last set, this will either be a SHA1 hash or PBKDF2 with SHA256 (Django 1.3 uses the former and 1.4 the latter).
+  A hashed version of the user's password. Depending on when the password was
+  last set, this will either be a SHA1 hash or PBKDF2 with SHA256 (Django 1.3
+  uses the former and 1.4 the latter).
 
 ----------
 is_staff
 ----------
-  Most users have a 0 for this field. Set to 1 if the user is a staff member of **edX**, with corresponding elevated privileges that cut across courses. It does not indicate that the person is a member of the course staff for any given course. 
+  Most users have a 0 for this field. Set to 1 if the user is a staff member
+  of **edX**, with corresponding elevated privileges that cut across courses.
+  It does not indicate that the person is a member of the course staff for any
+  given course.
 
-  Generally, users with this flag set to 1 are either edX program managers responsible for course delivery, or edX developers who need access for testing and debugging purposes. Users who have ``is_staff`` = 1 have instructor privileges on all courses and can see additional debug information on the Instructor tab.
+  Generally, users with this flag set to 1 are either edX program managers
+  responsible for course delivery, or edX developers who need access for
+  testing and debugging purposes. Users who have ``is_staff`` = 1 have
+  instructor privileges on all courses and can see additional debug
+  information on the Instructor tab.
 
 .. note::
-     This designation has no bearing on a user's role in the discussion forums, and confers no elevated privileges there.
+     This designation has no bearing on a user's role in the discussion
+     forums, and confers no elevated privileges there.
 
 -----------
 is_active
 -----------
-  This value is 1 if the user has clicked on the activation link that was sent to them when they created their account, and 0 otherwise. 
+  This value is 1 if the user has clicked on the activation link that was sent
+  to them when they created their account, and 0 otherwise.
 
-  Users who have ``is_active`` = 0 generally cannot log into the system. However, when users first create an account, they are automatically logged in even though they have not yet activated the account. This is to let them experience the site immediately without having to check their email. A message displays on the dashboard to remind users to check their email and activate their accounts when they have time. When they log out, they cannot log back in again until activation is complete. However, because edX sessions last a long time, it is possible for someone to use the site as a student for days without being "active".
+  Users who have ``is_active`` = 0 generally cannot log into the system.
+  However, when users first create an account, they are automatically logged
+  in even though they have not yet activated the account. This is to let them
+  experience the site immediately without having to check their email. A
+  message displays on the dashboard to remind users to check their email and
+  activate their accounts when they have time. When they log out, they cannot
+  log back in again until activation is complete. However, because edX
+  sessions last a long time, it is possible for someone to use the site as a
+  student for days without being "active".
 
-  Once ``is_active`` is set to 1, it is *only* set back to 0 if the user is banned (which is a very rare, manual operation).
+  Once ``is_active`` is set to 1, it is *only* set back to 0 if the user is
+  banned (which is a very rare, manual operation).
 
 --------------
 is_superuser
 --------------
-  Controls access to django_admin views: set to 1 (true) only for site admins. 0 for almost everybody.
+  Controls access to django_admin views. Set to 1 (true) only for site admins.
+  0 for almost everybody.
 
-  **History**: Only the earliest developers of the system have this set to 1, and it is no longer really used in the codebase.
+  **History**: Only the earliest developers of the system have this set to 1,
+  and it is no longer really used in the codebase.
 
 ------------
 last_login
 ------------
-  A datetime of the user's last login. Should not be used as a proxy for activity, since people can use the site all the time and go days between logging in and out.
+  A datetime of the user's last login. Should not be used as a proxy for
+  activity, since people can use the site all the time and go days between
+  logging in and out.
 
 -------------
 date_joined
@@ -246,7 +297,8 @@ date_joined
 -------------------
 Obsolete columns
 -------------------
-  All of the following columns were added by an application called Askbot, a discussion forum package that is no longer part of the system.
+  All of the following columns were added by an application called Askbot, a
+  discussion forum package that is no longer part of the system.
 
   * status
   * email_key
@@ -260,9 +312,14 @@ Obsolete columns
   * display_tag_filter_strategy
   * consecutive_days_visit_count
 
-  Only users who were part of the prototype 6.002x course run in the Spring of 2012 have any information in these columns. Even for those users, most of this information was never collected. Only the columns with values that are automatically generated have any values in them, such as the tag-related columns.
+  Only users who were part of the prototype 6.002x course run in the Spring of
+  2012 have any information in these columns. Even for those users, most of
+  this information was never collected. Only the columns with values that are
+  automatically generated have any values in them, such as the tag-related
+  columns.
 
-  These columns are unrelated to the discussion forums that edX currently uses, and will eventually be dropped from this table.
+  These columns are unrelated to the discussion forums that edX currently
+  uses, and will eventually be dropped from this table.
 
 .. _auth_userprofile:
 
@@ -286,7 +343,7 @@ A sample of the heading row and a data row in the ``auth_userprofile`` table fol
     to test out the name-change functionality", "2012-10-22T12:23:10.598444"]]} 
     course.xml  NULL  NULL  NULL  NULL  NULL  1      NULL
 
-The ``auth_userprofile`` table has the following columns:
+The ``auth_userprofile`` table has the following columns.
 
   +--------------------+--------------+------+-----+------------------------------------------+
   | Column             | Type         | Null | Key | Comment                                  |
@@ -322,7 +379,11 @@ The ``auth_userprofile`` table has the following columns:
   | city               | longtext     | YES  |     |                                          | 
   +--------------------+--------------+------+-----+------------------------------------------+
 
-**History**: ``country`` and ``city`` added January 2014. The organization of this table was different for the students who signed up for the MITx prototype phase in the spring of 2012, than for those who signed up afterwards. The column descriptions that follow detail the differences in the demographic data gathered.
+**History**: ``country`` and ``city`` added January 2014. The organization of
+this table was different for the students who signed up for the MITx prototype
+phase in the spring of 2012, than for those who signed up afterwards. The
+column descriptions that follow detail the differences in the demographic data
+gathered.
 
 ----
 id
@@ -337,28 +398,46 @@ user_id
 ------
 name
 ------
-  String for a user's full name. EdX makes no constraints on language or breakdown into first/last name. The names are never shown to other students. International students usually enter a romanized version of their names, but not always. Name changes are permitted, and the previous name is logged in the ``meta`` field.
+  String for a user's full name. EdX makes no constraints on language or
+  breakdown into first/last name. The names are never shown to other students.
+  International students usually enter a romanized version of their names, but
+  not always. Name changes are permitted, and the previous name is logged in
+  the ``meta`` field.
 
-  **History**: A former edX policy required manual approval of name changes to guard the integrity of the certificates. Students would submit a name change request, and an edX team member would approve or reject the request. 
+  **History**: A former edX policy required manual approval of name changes to
+  guard the integrity of the certificates. Students would submit a name change
+  request, and an edX team member would approve or reject the request.
 
 ----------
 language
 ----------
   No longer used. 
 
-  **History**: User's preferred language, asked during the sign up process for the 6.002x prototype course given in the Spring of 2012. Sometimes written in those languages. EdX stopped collecting this data after MITx transitioned to edX, but never removed the values for the first group of students.
+  **History**: User's preferred language, asked during the sign up process for
+  the 6.002x prototype course given in the Spring of 2012. Sometimes written
+  in those languages. EdX stopped collecting this data after MITx transitioned
+  to edX, but never removed the values for the first group of students.
 
 ----------
 location
 ----------
   No longer used. 
 
-  **History**: User's location, asked during the sign up process for the 6.002x prototype course given in the Spring of 2012. The request was not specific, so people tended to put the city they were in, though some just supplied a country and some got as specific as their street address. Again, sometimes romanized and sometimes written in their native language. Like ``language``, edX stopped collecting this column after MITx transitioned to edX, so it is only available for the first batch of students.
+  **History**: User's location, asked during the sign up process for the
+  6.002x prototype course given in the Spring of 2012. The request was not
+  specific, so people tended to put the city they were in, though some just
+  supplied a country and some got as specific as their street address. Again,
+  sometimes romanized and sometimes written in their native language. Like
+  ``language``, edX stopped collecting this column after MITx transitioned to
+  edX, so it is only available for the first batch of students.
 
 ------
 meta
 ------
-  An optional, freeform text field that stores JSON data. This field allows us to associate arbitrary metadata with a user. An example of the JSON that can be stored in this field follows, using pretty print for an easier-to-read display format.
+  An optional, freeform text field that stores JSON data. This field allows us
+  to associate arbitrary metadata with a user. An example of the JSON that can
+  be stored in this field follows, using pretty print for an easier-to-read
+  display format.
 
 .. code-block:: json
 
@@ -415,37 +494,53 @@ meta
   }
  }
 
-Details about this metadata follow. Please note that the "fields" described here are found as JSON attributes *inside* a given ``meta`` field, and are *not* separate database columns of their own.
+Details about this metadata follow. Please note that the "fields" described
+here are found as JSON attributes *inside* a given ``meta`` field, and are
+*not* separate database columns of their own.
 
   ``old_names``
 
-    A list of the previous names this user had, and the timestamps at which they submitted a request to change those names. These name change request submissions used to require a staff member to approve it before the name change took effect. This is no longer the case, though their previous names are still recorded.
+    A list of the previous names this user had, and the timestamps at which
+    they submitted a request to change those names. These name change request
+    submissions used to require a staff member to approve it before the name
+    change took effect. This is no longer the case, though their previous
+    names are still recorded.
 
-    Note that the value stored for each entry is the name they had, not the name they requested to get changed to. People often changed their names as the time for certificate generation approached, to replace nicknames with their actual names or correct spelling/punctuation errors.
+    Note that the value stored for each entry is the name they had, not the
+    name they requested to get changed to. People often changed their names as
+    the time for certificate generation approached, to replace nicknames with
+    their actual names or correct spelling/punctuation errors.
 
-    The timestamps are UTC, like all datetimes stored in our system.
+    The timestamps are UTC, like all datetimes stored in the edX database.
 
   ``old_emails``
 
-    A list of previous emails this user had, with timestamps of when they changed them, in a format similar to `old_names`. There was never an approval process for this.
+    A list of previous emails this user had, with timestamps of when they
+    changed them, in a format similar to `old_names`. There was never an
+    approval process for this.
 
-    The timestamps are UTC, like all datetimes stored in our system.
+    The timestamps are UTC, like all datetimes stored in the edX database.
 
   ``6002x_exit_response``
 
-    Answers to a survey that was sent to students after the prototype 6.002x course in the Spring of 2012. The questions and number of questions were randomly selected to measure how much survey length affected response rate. Only students from this course have this field.
+    Answers to a survey that was sent to students after the prototype 6.002x
+    course in the Spring of 2012. The questions and number of questions were
+    randomly selected to measure how much survey length affected response
+    rate. Only students from this course have this field.
 
 ------------
 courseware
 ------------
   No longer used. 
 
-  **History**: At one point, it was part of a way to do A/B tests, but it has not been used for anything meaningful since the conclusion of the prototype course in the spring of 2012.
+  **History**: At one point, it was part of a way to do A/B tests, but it has
+  not been used for anything meaningful since the conclusion of the prototype
+  course in the spring of 2012.
 
 --------
 gender
 --------
-  Collected during student signup from a dropdown list control. 
+  Collected during student signup from a drop-down list control. 
 
   .. list-table::
        :widths: 10 80
@@ -464,26 +559,31 @@ gender
        * - NULL
          - This student signed up before this information was collected.
 
-  **History**: This information began to be collected after the transition from MITx to edX; prototype course students have NULL for this field.
+  **History**: This information began to be collected after the transition
+  from MITx to edX; prototype course students have NULL for this field.
 
 -----------------
 mailing_address
 -----------------
-  Collected during student signup from a text field control. A blank string for students who elect not to enter anything.
+  Collected during student registration from a text field control. A blank
+  string for students who elect not to enter anything.
 
-  **History**: This information began to be collected after the transition from MITx to edX; prototype course students have NULL for this field.
+  **History**: This information began to be collected after the transition
+  from MITx to edX; prototype course students have NULL for this field.
 
 ---------------
 year_of_birth
 ---------------
-  Collected during student signup from a dropdown list control. NULL for students who decide not to fill this in.
+  Collected during student registration from a drop-down list control. NULL
+  for students who decide not to fill this in.
 
-  **History**: This information began to be collected after the transition from MITx to edX; prototype course students have NULL for this field.
+  **History**: This information began to be collected after the transition
+  from MITx to edX; prototype course students have NULL for this field.
 
 --------------------
 level_of_education
 --------------------
-  Collected during student signup from a dropdown list control. 
+  Collected during student registration from a drop-down list control. 
 
   .. list-table::
        :widths: 10 80
@@ -518,14 +618,18 @@ level_of_education
        * - NULL
          - This student signed up before this information was collected.
 
-  **History**: Data began to be collected in this column after the transition from MITx to edX; prototype course students have NULL for this field.
+  **History**: Data began to be collected in this column after the transition
+  from MITx to edX; prototype course students have NULL for this field.
 
 -------
 goals
 -------
-  Collected during student signup from a text field control with the label "Goals in signing up for edX". A blank string for students who elect not to enter anything.
+  Collected during student registration from a text field control with the
+  label "Goals in signing up for edX". A blank string for students who elect
+  not to enter anything.
 
-  **History**: This information began to be collected after the transition from MITx to edX; prototype course students have NULL for this field. 
+  **History**: This information began to be collected after the transition
+  from MITx to edX; prototype course students have NULL for this field.
 
 -------------------
 allow_certificate
@@ -580,7 +684,7 @@ table follow.
 
     1135683 9999999 edX/DemoX/Demo_course 2013-03-19 17:20:58 1 honor
 
-The ``student_courseenrollment`` table has the following columns:
+The ``student_courseenrollment`` table has the following columns.
 
 +-----------+--------------+------+-----+---------+----------------+
 | Field     | Type         | Null | Key | Default | Extra          |
@@ -676,7 +780,7 @@ identifies the student's assignment to a partition and group.
 
 .. need a sample header and row from a data package when available
 
-The ``user_api_usercoursetag`` table has the following columns: 
+The ``user_api_usercoursetag`` table has the following columns.
 
 .. list-table::
      :widths: 15 15 15 15
@@ -757,7 +861,7 @@ A sample of the heading row and a data row in the ``user_id_map`` table follow.
 
     e9989f2cca1d699d88e14fd43ccb5b5f  9999999 AAAAAAAA
 
-The ``student_courseenrollment`` table has the following columns: 
+The ``student_courseenrollment`` table has the following columns.
 
 .. list-table::
      :widths: 15 15 15 15
@@ -815,16 +919,16 @@ example, HW=50%, Final=25%, etc.).
 About Modules
 ==================================
 
-It's important to understand what "modules" are in the context of our system,
-as the terminology can be confusing. For the conventions of this table and many
-parts of our code, a "module" is a content piece that appears in the
-courseware. This can be nearly anything that appears when users are in the
-courseware tab: a video, a piece of HTML, a problem, etc. Modules can also be
-collections of other modules, such as sequences, verticals (modules stacked
-together on the same page), weeks, chapters, etc. In fact, the course itself is
-a top level module that contains all the other contents of the course as
-children. You can imagine the entire course as a tree with modules at every
-node.
+It is important to understand what "modules" are in the context of the edX
+system, as the terminology can be confusing. For the conventions of this table
+and many parts of the edX code, a module is a piece of course content that
+appears in the courseware. This can be nearly anything that appears when users
+are in the courseware tab: a video, a piece of HTML, a problem, etc. Modules
+can also be collections of other modules, such as sequences, verticals
+(modules stacked together on the same page), weeks, chapters, etc. In fact,
+the course itself is a top level module that contains all the other contents
+of the course as children. You can imagine the entire course as a tree with
+modules at every node.
 
 Modules can store state, but whether and how they do so varies based on the
 implementation for that particular kind of module. When a user loads a page,
@@ -857,7 +961,7 @@ Students have a separate row for every piece of content that they access or
 that is created to hold state data, making this the largest table in the data
 package.
 
-The ``courseware_studentmodule`` table has the following columns:
+The ``courseware_studentmodule`` table has the following columns.
 
 +-------------+--------------+------+-----+---------+----------------+
 | Field       | Type         | Null | Key | Default | Extra          |
@@ -902,41 +1006,79 @@ module_type
      * - Type
        - Description
      * - chapter
-       - The top level categories for a course. Each of these is usually labeled as a Week in the courseware, but this is just convention.
+       - The top level categories for a course. Each of these is usually
+         labeled as a Week in the courseware, but this is just convention.
      * - combinedopenended
-       - A module type developed for grading open ended questions via self assessment, peer assessment, and machine learning.
+       - A module type developed for grading open ended questions via self
+         assessment, peer assessment, and machine learning.
      * - conditional
-       - Allows you to prevent access to certain parts of the courseware if other parts have not been completed first.
+       - Allows you to prevent access to certain parts of the courseware if
+         other parts have not been completed first.
      * - course
        - The top level course module of which all course content is descended.
      * - crowdsource_hinter
-       - Not currently used. **History**: This ``module_type`` was included in a single course on a test basis and then deprecated. 
+       - Not currently used. 
+         
+         **History**: This ``module_type`` was included in
+         a single course on a test basis and then deprecated.
+
      * - lti
-       - Learning Tools Interoperability component that adds an external learning application to display content, or to display content and also require a student response. 
+       - Learning Tools Interoperability component that adds an external
+         learning application to display content, or to display content and
+         also require a student response.
      * - peergrading
-       - Indicates a problem that is graded by other students. An option for grading open ended questions.
+       - Indicates a problem that is graded by other students. An option for
+         grading open ended questions.
      * - poll_question
-       - Not currently used. **History**: This ``module_type`` was included in a single course on a test basis and then deprecated. 
+       - Not currently used. 
+         
+         **History**: This ``module_type`` was included in
+         a single course on a test basis and then deprecated.
+
      * - problem
-       - A problem that the user can submit solutions for. EdX offers many different varieties.
+       - A problem that the user can submit solutions for. EdX offers many
+         different varieties.
      * - problemset
-       - A collection of problems and supplementary materials, typically used for homeworks and rendered as a horizontal icon bar in the courseware. Use is inconsistent, and some courses use a ``sequential`` instead.
+       - A collection of problems and supplementary materials, typically used
+         for homeworks and rendered as a horizontal icon bar in the
+         courseware. Use is inconsistent, and some courses use a
+         ``sequential`` instead.
      * - randomize
-       - Identifies a module in which one of several possible defined alternatives is randomly selected for display to each student. 
+       - Identifies a module in which one of several possible defined
+         alternatives is randomly selected for display to each student.
      * - selfassessment
-       - Self assessment problems. Used in a single course in Fall 2012 as an early test of the open ended grading system. Deprecated in favor of ``combinedopenended``. 
+       - Self assessment problems. Used in a single course in Fall 2012 as an
+         early test of the open ended grading system. Deprecated in favor of
+         ``combinedopenended``.
      * - sequential
-       - A collection of videos, problems, and other materials, rendered as a horizontal icon bar in the courseware.
+       - A collection of videos, problems, and other materials, rendered as a
+         horizontal icon bar in the courseware.
      * - timelimit
-       - Not currently used. **History**: This ``module_type`` was included in a single course on a test basis and then deprecated. 
+       - Not currently used. 
+         
+         **History**: This ``module_type`` was included in
+         a single course on a test basis and then deprecated.
+
      * - video
        - A component that makes a video file available for students to play.
      * - videoalpha
-       - Not currently used. **History**: During the implementation of a change to the ``video`` ``module_type``, both ``video`` and ``videoalpha`` were stored. The ``videoalpha`` type was then deprecated.
+       - Not currently used. 
+         
+         **History**: During the implementation of a
+         change to the ``video`` ``module_type``, both ``video`` and
+         ``videoalpha`` were stored. The ``videoalpha`` type was then
+         deprecated.
+
      * - videosequence
-       - A collection of videos, exercise problems, and other materials, rendered as a horizontal icon bar in the courseware. **History**: This ``module_type`` is no longer in use, courses now use ``sequential`` instead.
+       - A collection of videos, exercise problems, and other materials,
+         rendered as a horizontal icon bar in the courseware. 
+
+         **History**: This ``module_type`` is no longer in use, courses now
+         use ``sequential`` instead.
+
      * - word_cloud
-       - A specialized problem that produces a graphic from the words that students enter.
+       - A specialized problem that produces a graphic from the words that
+         students enter.
 
 -----------
 module_id
@@ -947,11 +1089,9 @@ module_id
   content a canonical representation even during a transition between back-end
   data stores.
 
-  As an example, this ``module_id``:
+  As an example, this example ``module_id`` contains the following parts.
 
     ``block-v1:edX+DemoX+Demo_2014+type@problem+block@303034da25524878a2e66fb57c91cf85``
-
-  contains the following parts.
 
   .. list-table::
      :widths: 15 20 55
@@ -960,26 +1100,26 @@ module_id
      * - Part
        - Example Value
        - Definition
-     * - {key type}
-       - block-v1
+     * - ``{key type}``
+       - ``block-v1``
        - The type of namespace identifier, including the implementation
          version.
-     * - {org}
-       - edX
+     * - ``{org}``
+       - ``edX``
        - The organization part of the ID, indicating what organization created
          this piece of content.
-     * - {course}
-       - DemoX
+     * - ``{course}``
+       - ``DemoX``
        - The course that this content was created for. 
-     * - {run}
-       - Demo_2014
+     * - ``{run}``
+       - ``Demo_2014``
        - The term or specific iteration of the course. 
-     * - type@{module type}
-       - type@problem
+     * - ``type@{module type}``
+       - ``type@problem``
        - The module type. The same value is stored in the
          ``courseware_studentmodule.module_type`` column.
-     * - block@{module name or hash code}
-       - block@303034da25524878a2e66fb57c91cf85
+     * - ``block@{module name or hash code}``
+       - ``block@303034da25524878a2e66fb57c91cf85``
        - The name that the content creators supplied for this module. If the
          module does not have a name, the system generates a hash code as its
          identifier.
@@ -1000,65 +1140,108 @@ student_id
 -------
 state
 -------
-  This is a JSON text field where different module types are free to store their state however they wish.
+  This is a JSON text field where different module types are free to store
+  their state however they wish.
 
   ``course``, ``chapter``, ``problemset``, ``sequential``, ``videosequence``
 
-    The state for all of these container modules is a JSON dictionary indicating the user's last known position within this container. This is 1-indexed, not 0-indexed, mostly because it was released that way and a later change would have broken saved navigation state for users.
+    The state for all of these container modules is a JSON dictionary
+    indicating the user's last known position within this container. This is
+    1-indexed, not 0-indexed, mostly because it was released that way and a
+    later change would have broken saved navigation state for users.
 
     Example: ``{"position" : 3}``
 
-    When this user last interacted with this course/chapter/etc., they clicked on the third child element. Note that the position is a simple index and not a ``module_id``, so if you rearranged the order of the contents, it would not be smart enough to accomodate the changes and would point users to the wrong place.
+    When this user last interacted with this course/chapter/etc., they clicked
+    on the third child element. Note that the position is a simple index and
+    not a ``module_id``, so if you rearranged the order of the contents, it
+    would not be smart enough to accommodate the changes and would point users
+    to the wrong place.
 
-    The hierarchy of these containers is ``course > chapter > (problemset | sequential | videosequence)``
+    The hierarchy of these containers is 
+    ``course > chapter > (problemset | sequential | videosequence)``.
 
   ``combinedopenended``
 
-    The JSON document includes attributes that identify the student's ``answer``, a ``rubric_xml`` that includes the complete XML syntax for the rubric, the ``score`` earned and the ``max_score``, and the ``grader_id`` (the ``auth_user.id``) of each student who assessed the answer. 
+    The JSON document includes attributes that identify the student's
+    ``answer``, a ``rubric_xml`` that includes the complete XML syntax for the
+    rubric, the ``score`` earned and the ``max_score``, and the ``grader_id``
+    (the ``auth_user.id``) of each student who assessed the answer.
 
 .. is a complete list of all possible attributes needed? 26 Feb 14  
 
   ``conditional``
 
-    Conditionals don't actually store any state, so this value is always an empty JSON dictionary (`'{}'`). These entries may be removed altogether.
+    Conditionals don't actually store any state, so this value is always an
+    empty JSON dictionary (`'{}'`). These entries may be removed altogether.
 
   ``problem``
 
-    There are many kinds of problems supported by the system, and they all have different state requirements. Note that a single problem can have many different response fields. If a problem generates a random circuit and asks five questions about it, then all of that is stored in one row in ``courseware_studentmodule``.
+    There are many kinds of problems supported by the system, and they all
+    have different state requirements. Note that a single problem can have
+    many different response fields. If a problem generates a random circuit
+    and asks five questions about it, then all of that is stored in one row in
+    ``courseware_studentmodule``.
 
 .. Include the different problem types and info about the state.
 
   ``selfassessment``
 
-   In the course that used this module type, the JSON document included attributes for the ``student_answers``, the ``scores`` earned and ``max_score``, and any ``hints`` provided.
+   In the course that used this module type, the JSON document included
+   attributes for the ``student_answers``, the ``scores`` earned and
+   ``max_score``, and any ``hints`` provided.
 
 -------
 grade
 -------
-  Floating point value indicating the total unweighted grade for this problem that the student has scored. Basically how many responses they got right within the problem.
+  Floating point value indicating the total unweighted grade for this problem
+  that the student has scored. Basically how many responses they got right
+  within the problem.
 
-  Only ``problem`` and ``selfassessment`` types use this column. All other modules set this to NULL. Due to a quirk in how rendering is done, ``grade`` can also be NULL for a tenth of a second or so the first time that a user loads a problem. The initial load triggers two writes, the first of which sets the ``grade`` to NULL, and the second of which sets it to 0.
+  Only ``problem`` and ``selfassessment`` types use this column. All other
+  modules set this to NULL. Due to a quirk in how rendering is done, ``grade``
+  can also be NULL for a tenth of a second or so the first time that a user
+  loads a problem. The initial load triggers two writes, the first of which
+  sets the ``grade`` to NULL, and the second of which sets it to 0.
 
 ---------
 created
 ---------
-  Datetime when this row was created, which is typically when the student first accesses this piece of content.
+  Datetime when this row was created, which is typically when the student
+  first accesses this piece of content.
 
-  **Note**: For a module that contains multiple child modules, a row is created for each of them when the student first accesses one of them.
+  .. note:: For a module that contains multiple child modules, a row is
+   created for each of them when the student first accesses one of them.
 
 ----------
 modified
 ----------
-  Datetime when this row was last updated. Set to be equal to ``created`` at first. A change in ``modified`` implies that there was a state change, usually in response to a user action like saving or submitting a problem, or clicking on a navigational element that records its state. However it can also be triggered if the module writes multiple times on its first load, like problems do (see note in ``grade``).
+  Datetime when this row was last updated. Set to be equal to ``created`` at
+  first. A change in ``modified`` implies that there was a state change,
+  usually in response to a user action like saving or submitting a problem, or
+  clicking on a navigational element that records its state. However it can
+  also be triggered if the module writes multiple times on its first load,
+  like problems do (see note in ``grade``).
 
 -----------
 max_grade
 -----------
-  Floating point value indicating the total possible unweighted grade for this problem, or basically the number of responses that are in this problem. Though in practice it's the same for every entry with the same ``module_id``, it is technically possible for it to be anything. 
+  Floating point value indicating the total possible unweighted grade for this
+  problem, or basically the number of responses that are in this problem.
+  Though in practice it's the same for every entry with the same
+  ``module_id``, it is technically possible for it to be anything.
 
-  Another way in which ``max_grade`` can differ between entries with the same ``module_id`` is if the problem was modified after the ``max_grade`` was written and the user never went back to the problem after it was updated. This might happen if a member of the course staff puts out a problem with five parts, realizes that the last part doesn't make sense, and decides to remove it. People who saw and answered it when it had five parts and never came back to it after the changes had been made will have a ``max_grade`` of 5, while people who saw it later will have a ``max_grade`` of 4.
+  Another way in which ``max_grade`` can differ between entries with the same
+  ``module_id`` is if the problem was modified after the ``max_grade`` was
+  written and the user never went back to the problem after it was updated.
+  This might happen if a member of the course staff puts out a problem with
+  five parts, realizes that the last part doesn't make sense, and decides to
+  remove it. People who saw and answered it when it had five parts and never
+  came back to it after the changes had been made will have a ``max_grade`` of
+  5, while people who saw it later will have a ``max_grade`` of 4.
 
-  Only graded module types use this column, with ``problem`` being the primary example. All other modules set this to NULL.
+  Only graded module types use this column, with ``problem`` being the primary
+  example. All other modules set this to NULL.
 
 ------
 done
@@ -1092,9 +1275,14 @@ Certificate Data
 Columns in the certificates_generatedcertificate Table
 =======================================================
 
-The ``certificates_generatedcertificate`` table tracks the state of certificates and final grades for a course. The table is  populated when a script is run to grade all of the students who are enrolled in the course at that time and issue certificates. The  certificate process can be rerun and this table is updated appropriately.
+The ``certificates_generatedcertificate`` table tracks the state of
+certificates and final grades for a course. The table is  populated when a
+script is run to grade all of the students who are enrolled in the course at
+that time and issue certificates. The certificate process can be rerun and
+this table is updated appropriately.
 
-A sample of the heading row and two data rows in the ``certificates_generatedcertificate`` table follow.
+A sample of the heading row and two data rows in the
+``certificates_generatedcertificate`` table follow.
 
 .. code-block:: sql
 
@@ -1109,7 +1297,7 @@ A sample of the heading row and two data rows in the ``certificates_generatedcer
  27  9999999        0.0  BerkeleyX/CS169.1x/2012_Fall    0  notpassing  AAAAAA  
  2012-11-10  00:12:11  2012-11-26  19:06:19  honor
 
-The ``certificates_generatedcertificate`` table has the following columns:
+The ``certificates_generatedcertificate`` table has the following columns.
 
 +---------------+--------------+------+-----+---------+----------------+
 | Field         | Type         | Null | Key | Default | Extra          |
@@ -1163,24 +1351,28 @@ download_url
 -------
 grade
 -------
-  The grade computed the last time certificate generation ran. If the courseware, student state, or grading policy change, the value in this column can be different than the grade shown on a student's Progress page.
+  The grade computed the last time certificate generation ran. If the
+  courseware, student state, or grading policy change, the value in this
+  column can be different than the grade shown on a student's Progress page.
 
 ---------
 key
 ---------
-  Used internally only. A random string that is used to match server requests to responses sent to the LMS. 
+  Used internally only. A random string that is used to match server requests
+  to responses sent to the LMS.
 
 -----------------
 distinction
 -----------------
   Not used. 
 
-  **History**: This was used for letters of distinction for 188.1x, but is not being used for any current courses.
+  **History**: This was used for letters of distinction for 188.1x, but is not
+  being used for any current courses.
 
 --------
 status
 --------
-  Status can be one of these states:
+  The status can be one of these states.
 
   .. list-table::
        :widths: 15 80
@@ -1193,21 +1385,28 @@ status
        * - deleting 
          - A request has been made to delete a certificate.
        * - downloadable 
-         - The student passed the course and a certificate is available for download.
+         - The student passed the course and a certificate is available for
+           download.
        * - error 
          - An error ocurred during certificate generation.
        * - generating 
-         - A request has been made to generate a certificate but it has not yet been generated.
+         - A request has been made to generate a certificate but it has not
+           yet been generated.
        * - notpassing 
          - The student's grade is not a passing grade. 
        * - regenerating 
-         - A request has been made to regenerate a certificate but it has not yet been generated.
+         - A request has been made to regenerate a certificate but it has not
+           yet been generated.
        * - restricted 
-         - No longer used. **History**: Specified when ``userprofile.allow_certificate`` was set to false: to indicate that the student was on the restricted embargo list. 
+         - No longer used. **History**: Specified when
+           ``userprofile.allow_certificate`` was set to false: to indicate
+           that the student was on the restricted embargo list.
        * - unavailable 
-         - No entry, typically because the student has not yet been graded for certificate generation.
+         - No entry, typically because the student has not yet been graded for
+           certificate generation.
 
-  After a course has been graded and certificates have been issued, status is one of:
+  After a course has been graded and certificates have been issued, status is
+  one of these values.
 
   * downloadable
   * notpassing
@@ -1215,17 +1414,20 @@ status
 -------------
 verify_uuid
 -------------
-  A hash code that verifies the validity of a certificate. Included on the certificate itself as part of a URL. 
+  A hash code that verifies the validity of a certificate. Included on the
+  certificate itself as part of a URL.
   
 -------------
 download_uuid
 -------------
-  A hash code that identifies this student's certificate. Included as part of the ``download_url``. 
+  A hash code that identifies this student's certificate. Included as part of
+  the ``download_url``.
 
 ------
 name
 ------
-  This column records the name of the student that was set at the time the student was graded and the certificate was generated.
+  This column records the name of the student that was set at the time the
+  student was graded and the certificate was generated.
 
 ---------------
 created_date
@@ -1240,9 +1442,13 @@ modified_date
 ---------------
 error_reason
 ---------------
-  Used internally only. Logs messages that are used for debugging if the certificate generation process fails.
+  Used internally only. Logs messages that are used for debugging if the
+  certificate generation process fails.
 
 ---------------
 mode
 ---------------
-  Contains the value found in the ``enrollment.mode`` field for a student and course at the time the certificate was generated: blank, audit, honor, or verified. This value is not updated if the student's ``enrollment.mode`` changes after certificates are generated. 
+  Contains the value found in the ``enrollment.mode`` field for a student and
+  course at the time the certificate was generated: blank, audit, honor, or
+  verified. This value is not updated if the student's ``enrollment.mode``
+  changes after certificates are generated.
