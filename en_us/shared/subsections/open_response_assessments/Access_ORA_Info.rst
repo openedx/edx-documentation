@@ -50,8 +50,8 @@ the problem.
 Access Information for a Specific Student
 ***********************************************
 
-You can access information about an individual student's performance on a peer
-assessment assignment, including:
+You can access information about an individual student's performance on an open
+response assessment assignment, including:
 
 * The student's response. 
   
@@ -63,13 +63,21 @@ assessment assignment, including:
   
 * The student's self assessment.
 
-In the following example, you can see the student's response. The response
-received one peer assessment, and the student completed a peer assessment on one
-other student's response. The student also completed a self assessment.
+In the following example, you can see the performance information for a specific
+student. This student's response received one peer assessment, and the student
+completed a peer assessment on one other student's response. The student also
+completed a self assessment.
 
 .. image:: ../../../../shared/building_and_running_chapters/Images/PA_SpecificStudent.png
    :width: 500
    :alt: Report showing information about a student's response
+
+To determine whether this student has received the required number of
+assessments from other students and has completed the required number of
+assessments for other students, refer to the **Graded By** and **Must Grade**
+values that were set for the open response assessment assignment in Studio. For
+more information about these settings, see :ref:`Specify Step Settings<PA
+Specify Step Settings>`.
 
 For details about accessing information for a specific student, and for an
 example that shows a student's response with more assessments, see :ref:`Access

@@ -14,6 +14,14 @@ Open response assessments include peer assessments and self assessments. In peer
 
 In open response assessments, students usually only see their own responses and any peer responses they assess. You can also allow students to see the top-scoring responses that their peers have submitted. For more information, see :ref:`PA Top Responses`.
 
+.. note:: Open response assessments that are visible to all students do not
+   respect cohorts. In other words, it is possible for students in one cohort to
+   be asked to grade responses for students in another cohort. If you want to
+   make an open response assessment divided by cohort, you must create that
+   assessment in a course component that is defined as cohort-specific. For more
+   information about cohorts and creating cohort-specific courseware, see
+   :ref:`Cohorts Overview` and :ref:`Cohorted Courseware Overview`.
+
 For more information about creating open response assessments, including step-by-step instructions, see the following sections:
 
 * :ref:`PA Elements`
