@@ -5,8 +5,9 @@ Adding Files to a Course
 ###########################
 
 To use images in your course content, or to use other documents such as a
-syllabus, you must upload the files to the **Files & Uploads** page, then link
-to the uploaded files from a component in your course or a bulk email message.
+syllabus, you must upload the files to the **Files & Uploads** page. You can
+then include links to the files you upload in your course content in Studio,
+or in a bulk email message sent from the Instructor Dashboard.
 
 *******************
 Overview
