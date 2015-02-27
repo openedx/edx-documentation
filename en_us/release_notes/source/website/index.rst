@@ -6,7 +6,7 @@ edX Website
 March 2, 2015
 ******************
 
-* Previously, when students used an iPad to verify their identities, they
+* Previously, when students used iPads to verify their identities, they
   received a "No Flash Detected" error message. This problem has been fixed.
   (ECOM-859)
 
