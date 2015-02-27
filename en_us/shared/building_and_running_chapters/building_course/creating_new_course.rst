@@ -135,10 +135,11 @@ assign Staff or Admin access to a team member:
 
 * You must be an Admin.
 
-* You need the email address or username of each team member you want to add. 
+* The team member that you want to add must register a user account and
+  activate the account.
 
-* Each of those team members must register a user account for that email
-  address/username and activate the account.
+* You need the same, registered email address for the team member you want to
+  add.
 
 Other course team members can edit the course and perform all tasks except
 adding and removing other new team members and granting Admin access.
