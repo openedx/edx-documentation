@@ -38,14 +38,14 @@ purpose. More examples of pages you can add follow.
 
 See:
 
-* :ref:`Add a Page`
+* :ref:`Add Page`
 * :ref:`Show or Hide the Course Wiki Page`
 * :ref:`Reorder Pages`
 * :ref:`Delete a Page`
 * :ref:`Code for Dynamic HTML Schedule`
 
 
-.. _`Add a Page`:
+.. _Add Page:
 
 ****************
 Add a Page

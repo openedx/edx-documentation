@@ -17,7 +17,7 @@
 
 .. _Week_overview.html: https://github.com/pmitros/edX-Insider/blob/master/Ongoing/html/Week_overview.html
 
-.. _Creating a Peer Assessment: http://edx.readthedocs.org/projects/edx-open-response-assessments/en/latest/index.html
+.. _Creating a Peer Assessment: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/open_response_assessments/index.html
 
 .. _course.xml: https://github.com/pmitros/edX-Insider/blob/master/Ongoing/course.xml
 
