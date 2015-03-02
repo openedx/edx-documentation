@@ -155,8 +155,8 @@ You configure the following fields for each assignment type:
   
 * **Total Number:** 
   
-  The number of assignments of this type that you plan to include in your
-  course.
+  The total number of subsections in your course that contain problems of this
+  assignment type.
   
 * **Number of Droppable**
   
