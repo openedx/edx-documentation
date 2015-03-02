@@ -3,6 +3,15 @@ edX Learning Management System
 ####################################
 
 ******************
+March 2, 2015
+******************
+
+When creating problems using XML, authors can now use HTML tags to add inline
+markers that show additional information. Users see the additional text when
+they hover their cursors over, or move keyboard focus to, markers in the problem
+text. This feature includes enhanced support for screen reader users. (OSPR-353)
+
+******************
 February 12, 2015
 ******************
 

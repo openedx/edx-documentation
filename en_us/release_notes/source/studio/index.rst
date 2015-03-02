@@ -2,6 +2,24 @@
 edX Studio
 ####################################
 
+
+******************
+March 2, 2015
+******************
+
+* When course teams work with content groups on the **Group Configurations** page,
+  they can now see which units in the course use a content group, and can link
+  directly to those units from content group details. Course teams can now also
+  delete content groups that are not in use in a course. See `Creating Cohort
+  Specific Courseware`_ for more details.
+
+* Previously, if a dropdown problem that was created with variables was
+  answered, the chosen answer was not retained in the selection input. This
+  problem has been fixed. (TNL-1419)
+  
+* Some issues with MATLAB problems were resolved. (TNL-1459)  
+
+
 ******************
 February 12, 2015
 ******************
@@ -20,7 +38,7 @@ January 28, 2015
 ******************
 
 * If you include cohorts in your course, you can now assign different course
-  content to different cohorts. See `Creating Cohort-Specific Courseware`_ for
+  content to different cohorts. See `Creating Cohort Specific Courseware`_ for
   more details.
 
 * All courses created after 14 Jan 2015 now use the `key introspection API`_

@@ -5,6 +5,14 @@
 
 .. _edX Open Learning XML Guide: http://edx-open-learning-xml.readthedocs.org/en/latest/index.html
 
+.. _Open edX Release Notes: http://edx.readthedocs.org/projects/open-edx-release-notes/en/latest/index.html
+
+.. _Building and Running an Open edX Course: http://edx.readthedocs.org/projects/open-edx-building-and-running-a-course/en/named-release-birch/index.html
+
+.. _Open edX Birch Release: http://edx.readthedocs.org/projects/edx-installing-configuring-and-running/en/latest/birch.html#open-edx-birch-release
+
+.. _Configuring the Open edX Platform: http://edx.readthedocs.org/projects/edx-installing-configuring-and-running/en/latest/configuration/index.html
+
 .. OLX Guide Links
 
 .. _Example of OLX for a Studio Course: http://edx-open-learning-xml.readthedocs.org/en/latest/studio-example/index.html#example-of-olx-for-a-studio-course
@@ -388,7 +396,7 @@
 
 .. _MathJax 2.3: http://docs.mathjax.org/en/latest/whats-new-2.3.html#whats-new-2-3
 
-.. _Creating Cohort-Specific Courseware: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/cohorts/cohorted_courseware.html#creating-cohort-specific-courseware
+.. _Creating Cohort Specific Courseware: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/cohorts/cohorted_courseware.html#creating-cohort-specific-courseware
 
 .. _key introspection API: http://edx.readthedocs.org/projects/edx-release-notes/en/latest/2014/06-10-2014.html?highlight=urls#the-new-key-introspection-api
 
