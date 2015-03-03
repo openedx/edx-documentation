@@ -51,7 +51,7 @@ Installing the Birch Release
 
 You can install the Open edX Birch release using :ref:`Devstack <Install DevStack>` or :ref:`Fullstack <Install Open edX Fullstack>`.
 
-Review the prerequisities and instructions for each option, then choose the
+Review the prerequisites and instructions for each option, then choose the
 option that best meets your needs. Ensure you install the required software to
 run the edX Platform.
 
@@ -64,7 +64,7 @@ For new installations, follow the steps below.
 
    .. caution::
      The Vagrant boxes have a large file size (about 2.5GB). If you have a slow
-     or unreliable Internet connection, use BitTorrent to download the the
+     or unreliable Internet connection, use BitTorrent to download the
      Vagrant box you need.
 
 #. `Set the OPENEDX_RELEASE Environment Variable`_.
@@ -75,7 +75,7 @@ Download the Vagrant Box
 =========================
 
 If you have a fast and reliable Internet connection, you can download the
-Vagrant box direclty or by running ``vagrant up`` when installing
+Vagrant box directly or by running ``vagrant up`` when installing
 :ref:`Devstack <Installing the Open edX Developer Stack>` or
 :ref:`Fullstack <Installing Open edX Fullstack>`.
 
@@ -92,7 +92,7 @@ Download the BitTorrent File
 =============================
 
 You can also download the BitTorrent file for the option you selected.
-BitTorrent is recommended if you have a slow or unreliable data conntection.
+BitTorrent is recommended if you have a slow or unreliable data connection.
 You then use the BitTorrent file to download the Vagrant box. If the Internet
 connection is temporarily lost while you are downloading the Vagrant box
 through BitTorrent, you can later continue the download without data loss or
