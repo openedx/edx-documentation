@@ -243,7 +243,7 @@ until they pass the exam.
   :alt: The Course Updates & News page with the Entrance Exam tab circled on the
       left
 
-As students work through the entrance exam, they can see their status at the top of
+As students take the entrance exam, they can see their status at the top of
 the page. After students pass the exam, they can access all released materials
 in your course.
 
@@ -303,13 +303,11 @@ Allow a Student to Skip the Entrance Exam
 **************************************************
 
 You can allow a student to skip the entrance exam. To do this, you need the
-student's edX username or the email address that is associated with the
-student's edX account.
+student's registered edX username or email address.
 
-#. On the Instructor Dashboard, click **Student Admin**, and then scroll to the
-   **Entrance Exam Adjustment** section.
-#. Enter the student's information in the **Student's edX email address or
-   username** field.
+#. On the Instructor Dashboard, click **Student Admin**.
+#. In the **Entrance Exam Adjustment** section, enter the student's
+   information in the **Student's edX email address or username** field.
 #. Under **Select an action for the student's entrance exam**, select
    **Let Student Skip Entrance Exam**.
 
@@ -334,14 +332,16 @@ On the Instructor Dashboard, click **Student Admin**, and then scroll to the
   submitted. For more information, see :ref:`rescore`.
 
 * **Delete Student's Answers and Scores**: Delete all of the student's answers
-  and scores for the entire entrance exam. For more information, see
+  and scores for the entire entrance exam so that the student can begin again.
+  This action is sometimes called deleting a student's history or "deleting
+  student state". For more information, see :ref:`Adjust_grades` and
   :ref:`delete_state`.
 
-Another option on the Instructor Dashboard is **Show Background Task History for
-Student**. If you reset student attempts, rescore student submissions, or delete
-a student's answers and scores, the adjustment runs in the background while you
-perform other tasks. If you want to see a record of all the adjustments that have
-run for the entrance exam, select **Show Student's Exam Adjustment History**.
+Another option on the Instructor Dashboard is **Show Background Task History
+for Student**. If you reset student attempts, rescore student submissions, or
+delete a student's answers and scores, the adjustment runs in the background
+while you perform other tasks. To see a record of all completed entrance exam
+adjustments, select **Show Student's Exam Adjustment History**.
 
 
 

@@ -73,8 +73,8 @@ left pane, and you can access all available materials for the course.
       all available course sections listed in the left pane
 
 .. note:: If you don't see any more course content after you complete the entrance 
- exam, try refreshing the page, or click the **Entrance Exam** tab again.
+ exam, try refreshing the page, or select the **Entrance Exam** tab again.
 
 Instructors can allow students to skip the entrance exam. If your instructor
-allows you to skip the entrance exam, you don't see the entrance exam in the
+allows you to skip the entrance exam, you do not see the entrance exam in the
 left pane when you access the course.
