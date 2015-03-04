@@ -9,12 +9,9 @@ have access to a library whose content you want to use, you can reference that
 library to create randomized assignments for students.
 
 To create a randomized assignment, you add one or more randomized content blocks
-to a course unit. For each randomized content block, specify one or more
-libraries from which to draw the content, and indicate the number and optionally
-the type of problem to randomly give each student. If you specify more than one
-library from which to randomly draw components for the randomized assignment,
-the content from all specified libraries is combined before the random selection
-is made.
+to a course unit. For each randomized content block, specify a library from
+which to draw the content, and indicate the number and optionally the type of
+problem to randomly give each student. 
 
 The libraries that you create or have access to are listed on the **Libraries**
 tab on the Studio Home page. For details about content libraries, see
@@ -51,8 +48,8 @@ Using components from content libraries in your course involves two steps.
 #. :ref:`Add a Randomized Content Block to Your Course`
    
 .. note:: After adding a randomized content block to your course, be aware that
-   if components in the source library or libraries change, you must manually
-   update the components in the course outline if you want to keep the components
+   if components in the source library change, you must manually update the
+   components in the course outline if you want to keep the components
    synchronized with the version in the library.
 
 For details about working with randomized content blocks in your course, see
@@ -99,13 +96,8 @@ After you :ref:`enable content libraries<Enable Content Libraries>` you can add
 library content to your courses using the Randomized Content Block advanced
 component.
 
-.. note:: Before starting these steps, obtain the Library ID for each library
-   that you intend to reference in the randomized content block. The Library ID
-   is found in the sidebar of each library's page. For details, see :ref:`Create
-   a New Library`.
-
 #. In Studio, open the course in which you want to add randomized problems from
-   one or more content libraries.
+   a content library.
 
 #. Click **Content** then click **Outline**.
 
@@ -125,13 +117,11 @@ component.
   - For **Display Name**, enter the name that you want students to see for this
     block.
 
-  - For **Libraries**, enter the unique Library ID found in the sidebar of
-    the Library page in Studio. To select problems from more than one content
-    library, click **Add** to enter each additional Library ID.
+  - For **Library**, select the library from which you want to draw problems.
 
   - For **Problem Type**, from the drop down list select a specific type of
-    problem to be drawn from the library or libraries. Select **Any Type**
-    if you do not want to select a particular type of problem.
+    problem to be drawn from the library. Select **Any Type** if you do not want
+    to specify a particular type of problem.
 
     .. image:: ../../../shared/building_and_running_chapters/Images/ContentLibraries_SelectProblemType.png
      :alt: The Edit icon to the right of the Library Name    
@@ -165,9 +155,9 @@ components that match the filters specified in that block.
 
 For example, if you have specified in the randomized content block that you want
 to provide each student with 3 multiple choice problems, you see all the
-multiple choice problems that exist in the referenced library or libraries. In
-other words, you see every problem in the library that could potentially be
-provided to a student.
+multiple choice problems that exist in the referenced library. In other words,
+you see every problem in the library that could potentially be provided to a
+student.
 
 #. In Studio, navigate to the unit containing the randomized content block that
    references your library.
@@ -272,7 +262,7 @@ version in the library.
   To update your randomized content block components to the latest versions in the content library, click **Update now**.
 
   The randomized content block is brought up to date with the latest contents of
-  the library or libraries that it references.
+  the library that it references.
 
 * If you edited only the settings of components in the randomized content block
   in your course so that they are different from the original version in the
