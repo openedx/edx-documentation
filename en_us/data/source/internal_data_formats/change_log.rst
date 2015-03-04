@@ -20,6 +20,9 @@ January-March 2015
    * - 
      - Added events for the display of :ref:`Google components<content>` to the
        Tracking Logs chapter.
+   * - 3 Mar 2015
+     - Updated the :ref:`Preface` to include information about the :ref:`The
+       edX Partner Portal` and the :ref:`The Open edX Portal`.
    * - 23 Feb 2015
      - Added new common fields for HTTP header values and new events for video
        caption use to the :ref:`Tracking Logs` chapter.

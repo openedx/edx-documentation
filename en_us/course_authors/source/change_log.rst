@@ -2,6 +2,20 @@
 Change Log
 ############
 
+****************
+March 2015
+****************
+
+.. list-table::
+   :widths: 10 70
+   :header-rows: 1
+
+   * - Date
+     - Change
+   * - 3 Mar 2015
+     - Updated the :ref:`Preface` to include information about the :ref:`The
+       edX Partner Portal` and the :ref:`The Open edX Portal`.
+
 *****************
 February 2015
 *****************
@@ -269,7 +283,7 @@ June 2014
    * - Date
      - Change
    * - 06/20/14
-     - Added a `Preface`_ with resources for course teams, developers,
+     - Added a :ref:`Preface` with resources for course teams, developers,
        researchers, and students.
    * - 06/18/14    
      - In the :ref:`View and download student data` section, updated the
@@ -599,5 +613,4 @@ December 2013
    * - 12/05/2013
      - Complete revision of edX Studio documentation and integration of edX101
        content.
-
-.. _Preface: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/
+       

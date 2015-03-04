@@ -8,6 +8,9 @@ Change Log
 
    * - Date
      - Change
+   * - 03/02/15
+     - Updated the :ref:`Preface` to include information about the :ref:`The
+       edX Partner Portal` and the :ref:`The Open edX Portal`.
    * - 02/24/2015
      - Updated for the :ref:`Open edX Birch Release`.
    * - 02/24/2015
