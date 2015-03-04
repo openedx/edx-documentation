@@ -2,6 +2,13 @@
 edX Studio
 ####################################
 
+******************
+March 5, 2015
+******************
+
+Course teams can now include Google Drive files and calendars in courseware by
+creating a link to the file or calendar in Studio. For more information, see
+`Google Drive files_Studio`_ and `Google Calendar tool_Studio`_.
 
 ******************
 March 2, 2015

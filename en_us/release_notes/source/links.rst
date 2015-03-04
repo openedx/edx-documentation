@@ -1,6 +1,12 @@
 
 .. Links
 
+.. _Open edX Portal: http://open.edx.org/
+
+.. _Partner Portal: http://partners.edx.org/
+
+.. _Announcements: https://open.edx.org/announcements
+
 .. _Open Learning XML (OLX) Format: http://engineering.edx.org/2014/10/open-learning-xml-olx-format/
 
 .. _edX Open Learning XML Guide: http://edx-open-learning-xml.readthedocs.org/en/latest/index.html
@@ -105,7 +111,7 @@
 
 .. _docs.edx.org: http://docs.edx.org
 
-.. _edX roadmap: https://openedx.atlassian.net/wiki/display/PROD/Product+Roadmap
+.. _edX roadmap: https://open.edx.org/features-roadmap/all
 
 .. _Building and Running an edX Course: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/
 
@@ -245,6 +251,12 @@
 .. _Full Screen Image: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/full_screen_image.html
 
 .. _Google Instant Hangout Tool: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/google_hangouts.html
+
+.. _Google Drive files_Studio: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/google_docs.html
+
+.. _Google Calendar tool_Studio: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/google_calendar.html
+
+.. _Google Docs and Calendars_Students: http://edx-guide-for-students.readthedocs.org/en/latest/SFD_google_docs.html
 
 .. _Multiple Choice and Numerical Input Problem: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/mult_choice_num_input.html
 

@@ -14,8 +14,6 @@ released, we will add a link to related documentation.
 * Open response assessments (ORA) in edx.org and edge.edx.org courses will soon
   support multiple prompts.
 
-* Course teams will soon be able to use new component types to include Google
-  Calendars and Google Drive documents in courseware.
 
 
 .. include:: links.rst
