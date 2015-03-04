@@ -14,6 +14,10 @@ January-March 2015
 
    * - Date
      - Change
+   * - 11 Mar 2015
+     - Added information about additional video interaction events that are
+       now emitted by the edX mobile app, and reorganized the :ref:`video` in
+       the Tracking Logs chapter.
    * - 5 Mar 2015
      - Added new events for contributions to discussion forums to the
        :ref:`Tracking Logs` chapter.

@@ -80,6 +80,8 @@ Alphabetical Event List
      - :ref:`video`, see ``pause_video``
    * - ``edx.video.played``
      - :ref:`video`, see ``play_video``
+   * - ``edx.video.position.changed``
+     - :ref:`video`, see ``seek_video``
    * - ``edx.video.stopped``
      - :ref:`video`, see ``stop_video``
    * - ``edx.video.transcript.hidden``

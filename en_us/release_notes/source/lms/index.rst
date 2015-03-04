@@ -8,7 +8,7 @@ March 11, 2015
 
 ============================
 Accessibility Improvements 
-============================ 
+============================
 
 * The main region in the Student dashboard now includes the `role` and `aria-
   label` attributes. (TNL-1567)

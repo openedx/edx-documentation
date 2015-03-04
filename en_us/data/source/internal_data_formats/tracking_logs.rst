@@ -607,8 +607,6 @@ All of the navigational events add the same fields to the ``event`` dict field.
 An additional type of event, ``page_close``, originates from within the
 JavaScript Logger itself.
 
-.. what is the function of the Logger? what value do the events that it logs have? is event_source by any chance set to 'task' for these?
-
 **Component**: JavaScript Logger
 
 **Event Source**: Browser
@@ -621,57 +619,165 @@ JavaScript Logger itself.
 Video Interaction Events
 ==================================
 
-.. video_player_spec.js, lms-modules.js
-
 A browser or the edX mobile app emits these events when a user interacts with
-a video. When users use a browser to stream video files, the browser emits the
-events. When users use the edX mobile app to download course videos for
-offline viewing on a mobile device, the mobile app emits the events.
+a video. 
 
-When a user interacts with a video file offline using the edX mobile app, note
-that the app can only forward its events during the next connection
-opportunity. As a result, the date and time in the event's ``time`` field can
-be different from the date and time in the ``context.received_at`` field. Data
-packages can include events emitted on past dates.
+* When users use a browser to stream video files on a desktop computer or
+  mobile device, the browser emits the events.
 
-The ``event_type`` member field contains the identifying name of each event.
-Video events that have an ``event_source`` of 'mobile' also include a ``name``
-field.
+* When users use the edX mobile app to stream or download course videos for
+  offline viewing, the mobile app emits the events.
+
+  When a user interacts with a downloaded video file offline using the edX
+  mobile app, note that the app can only forward its events during the next
+  connection opportunity. As a result, the date and time in the event's
+  ``time`` field can be different from the date and time in its
+  ``context.received_at`` field. Data packages can include events emitted on
+  past dates.
+
+The ``event_type`` field contains the identifying name of each event. Video
+interaction events that have an ``event_source`` of 'mobile' also have a
+``name`` field.
+
+This section presents the video interaction events alphabetically. Typically,
+an interaction with the video player begins with a :ref:`play_video` event.
 
 **Component**: Video
 
-**History**: The edX mobile app began to emit video events on 23 Dec 14. The
-mobile app emits ``play_video``, ``pause_video``, ``stop_video``,
-``load_video``, ``hide_transcript``, and ``show_transcript`` events only.
+**History**: The edX mobile app for iOS began to emit a subset of the video
+events on 25 Feb 2015. The edX mobile app for Android began to emit a subset
+of the video events on 23 Dec 2014.
 
+``hide_transcript``/``edx.video.transcript.hidden``
+***************************************************
 
-``play_video``, ``pause_video``, ``stop_video``
-*************************************************
+When a user selects **CC** to suppress display of the video transcript, the
+browser or mobile app emits a ``hide_transcript`` event.
 
-* When a user clicks the video player's **play** control, the player emits a
-  ``play_video`` event.
-
-* When a user clicks the video player's **pause** control, the player emits a
-  ``pause_video`` event. The player also emits this event when it reaches the
-  end of the video file and play automatically stops.
-
-* When the video player reaches the end of the video file and play
-  automatically stops, the player emits a ``stop_video`` event.
-
-  **History**: Added 25 June 2014.
-
-In addition to the identifying ``event_type`` values given above, the events
-that the edX mobile app emits include a ``name`` field with one of these
-values, respectively: ``edx.video.played``, ``edx.video.paused``, and
-``edx.video.stopped``.
+In addition to the identifying ``event_type`` of ``hide_transcript``, events
+that the edX mobile app emits also include a ``name`` field with a value of
+``edx.video.transcript.hidden``.
 
 **Event Source**: Browser or Mobile
 
-**History**: Updated 23 Dec 2014 to include edX mobile app events.
+**History**: Updated 25 Feb 2015 to include events emitted by the edX mobile
+app for iOS. Updated 23 Dec 2014 to include events emitted by the edX mobile
+app for Android.
 
-``context`` **Member Fields**: Only events that the edX mobile app emits
-include these ``context`` member fields. See :ref:`Example Mobile App
-Event`.
+``context`` **Member Fields**: 
+
+Only video interaction events with an ``event_source`` of 'mobile' include
+additional ``context`` member fields. The same set of additional context
+fields are added for ``hide_transcript``/ ``edx.video.transcript.hidden``
+events as for the :ref:`play_video` events. For an example of an event with
+these fields, see :ref:`Example Mobile App Event`.
+
+``event`` **Member Fields**: 
+
+The ``hide_transcript``/``edx.video.transcript.hidden`` events include the
+following ``event`` member fields. These fields serve the same purpose for
+events of this type as for the :ref:`play_video` events.
+
+* ``code``
+* ``currentTime``: The point in the video file at which the transcript was
+  hidden, in seconds.
+* ``id``
+
+``load_video``/``edx.video.loaded``
+***********************************
+
+When the video is fully rendered and ready to play, the browser or mobile app
+emits a ``load_video`` event.
+
+In addition to the identifying ``event_type`` of ``load_video``, the events
+that the edX mobile app emits also include a ``name`` field with a value of
+``edx.video.loaded``.
+
+**Event Source**: Browser or Mobile
+
+**History**: Updated 25 Feb 2015 to include events emitted by the edX mobile
+app for iOS. Updated 23 Dec 2014 to include events emitted by the edX mobile
+app for Android.
+
+``context`` **Member Fields**: 
+
+Only video interaction events with an ``event_source`` of 'mobile' include
+additional ``context`` member fields. The same set of additional context
+fields are added for ``load_video`` events as for :ref:`play_video`. For an
+example of an event with these fields, see
+:ref:`Example Mobile App Event`.
+
+``event`` **Member Fields**: 
+
+The ``load_video``/ ``edx.video.loaded`` events include the following ``event``
+member fields. These fields serve the same purpose for events of this type as
+for the :ref:`play_video` events.
+
+* ``code``
+* ``id``
+
+``pause_video``/``edx.video.paused``
+*************************************
+
+When a user selects the video player's **pause** control, the player emits a
+``pause_video`` event. The player also emits this event when it reaches the
+end of the video file and play automatically stops. Note that as of June 2014,
+the player also emits a ``stop_video`` event when it reaches the end of the
+video file and play automatically stops.
+
+In addition to the identifying ``event_type`` of ``pause_video``, the events
+that the edX mobile app emits include a ``name`` field with a value of
+``edx.video.paused``.
+
+**Event Source**: Browser or Mobile
+
+**History**: Updated 25 Feb 2015 to include events emitted by the edX mobile
+app for iOS. Updated 23 Dec 2014 to include events emitted by the edX mobile
+app for Android. 
+
+``context`` **Member Fields**: 
+
+Only video interaction events with an ``event_source`` of 'mobile' include
+additional ``context`` member fields. The same set of additional context
+fields are added for ``pause_video``/ ``edx.video.paused`` events as for
+:ref:`play_video`. For an example of an event with these fields, see
+:ref:`Example Mobile App Event`.
+
+``event`` **Member Fields**: 
+
+The ``pause_video``/``edx.video.paused`` events include the following
+``event`` member fields. These fields serve the same purpose for events of
+this type as for the :ref:`play_video` events.
+
+* ``code``
+* ``currentTime``: The time in the video at which the video paused, in
+  seconds.
+* ``id``
+
+.. _play_video:
+
+``play_video``/``edx.video.played``
+***********************************
+
+When a user selects the video player's **play** control, the player emits a
+``play_video`` event.
+
+In addition to the identifying ``event_type`` of ``play_video``, events
+that the edX mobile app emits also include a ``name`` field with a value of
+``edx.video.played``.
+
+**Event Source**: Browser or Mobile
+
+**History**: Updated 25 Feb 2015 to include events emitted by the edX mobile
+app for iOS. Updated 23 Dec 2014 to include events emitted by the edX mobile
+app for Android.
+
+``context`` **Member Fields**: 
+
+Only video interaction events with an ``event_source`` of 'mobile' include
+additional ``context`` member fields. Other video interaction events with an
+``event_source`` of mobile also include these fields. For an example of an
+event with these fields, see :ref:`Example Mobile App Event`.
 
 .. list-table::
    :widths: 15 15 60
@@ -681,11 +787,11 @@ Event`.
      - Type
      - Details and Member Fields
    * - ``application``
-     - dict
+     - dictionary
      - Includes ``name`` and ``version`` member fields to identify the edX
        mobile app. 
    * - ``client``
-     - dict
+     - dictionary
      - Includes member dictionaries and fields with device-specific data.
 
        The ``client`` data is gathered by the event collection library, which
@@ -701,7 +807,7 @@ Event`.
      - Indicates the time at which the event collection library received the
        event. 
 
-       Events can only be forwarded when the user is connected to the
+       Events can only be forwarded when the mobile device is connected to the
        Internet. Therefore, this value can be different than the event's
        ``time`` value.
 
@@ -729,7 +835,7 @@ Event`.
 
    * - ``currentTime``
      - float
-     - The time the video was played, paused, or stopped, in seconds. 
+     - The time in the video at which the video was played, in seconds. 
    * - ``id``
      - string
      - The optional name value supplied by the course creators, or the system-
@@ -849,18 +955,48 @@ Example: Mobile App-Emitted ``edx.video.played`` Event
   }
 
 
-``seek_video``
-**************
+``seek_video``/``edx.video.position.changed``
+*********************************************
 
-A browser emits ``seek_video`` events when a user clicks the
-playback bar or transcript to go to a different point in the video file.
+A browser emits ``seek_video`` events when a user selects a user interface
+control to go to a different point in the video file.
 
-**Event Source**: Browser
+* On a desktop computer, users can click and drag in the playback bar or click
+  in a transcript to change position.
+* In the edX mobile app, users can click and drag in the playback bar or tap
+  the "back 30 seconds" button to change position.
+* When using a browser on a mobile device, users can click and drag in the
+  playback bar to change position.
 
-**History**: Prior to 25 Jun 2014, the ``old_time`` and ``new_time`` were set
-to the same value. 
+In addition to the value ``seek_video`` in the ``event_type`` field, the
+events that the edX mobile app emits include the value
+``edx.video.position.changed`` in the ``name`` field.
+
+**Event Source**: Browser or Mobile
+
+**History**: Updated 10 Mar 2015 to include events emitted by the edX mobile
+app for Android or iOS. Prior to 25 Jun 2014, the ``old_time`` and
+``new_time`` fields were set to the same value.
+
+``context`` **Member Fields**: 
+
+Only video interaction events with an ``event_source`` of 'mobile' include
+additional ``context`` member fields. The same set of additional context
+fields are added for ``seek_video``/ ``edx.video.position.changed`` events as
+for :ref:`play_video`. For an example of an event with these fields, see
+:ref:`Example Mobile App Event`.
 
 ``event`` **Member Fields**: 
+
+The ``seek_video``/``edx.video.position.changed`` events include the following
+``event`` member fields. These fields serve the same purpose for events of
+this type as for the :ref:`play_video` events.
+
+* ``code``
+* ``id``
+
+The following additional ``event`` member fields apply specifically to
+``seek_video``/``edx.video.position.changed`` events.
 
 .. list-table::
    :widths: 15 15 60
@@ -869,29 +1005,6 @@ to the same value.
    * - Field
      - Type
      - Details
-   * - ``code``
-     - string
-     - For YouTube videos played in a browser, the ID of the video being
-       loaded (for example, OEyXaRPEzfM).
-
-       For non-YouTube videos played in a browser, 'html5'.
-
-   * - ``id``
-     - string
-     - The optional name value supplied by the course creators, or the system-
-       generated hash code for the video being watched.
-
-       For example, ``0b9e39477cf34507a7a48f74be381fdd``.
-       
-       This value is part of the ``courseware_studentmodule.module_id``. See
-       :ref:`courseware_studentmodule`.
-
-       **History**: In October 2014, identifiers for some new courses began to
-       use the format shown above. Other new courses, and all courses created
-       prior to October 2014, use an HTML-escaped version of the
-       ``courseware_studentmodule.module_id``. For example, 
-       ``i4x-HarvardX-PH207x-video-Simple_Random_Sample``.
-
    * - ``new_time``
      - integer
      - The time in the video, in seconds, that the user selected as the
@@ -900,18 +1013,63 @@ to the same value.
      - integer
      - The time in the video, in seconds, at which the user chose to go to a
        different point in the file.
+   * - ``requested_skip_interval``
+     - integer
+     - Applies only to events with an  ``event_source`` of 'mobile'. The number
+       of seconds that the user moved backward (expressed as a negative) or
+       forward in the file.
+
+       **History**: Added 10 Mar 2015.
+       
    * - ``type``
      - string
      - The navigational method used to change position within the video.
        
-       'onCaptionSeek', 'onSlideSeek', or 'onSkipSeek'.
+       In events for a user of a desktop computer, this value can be
+       'onCaptionSeek' or 'onSlideSeek'. In events for a user of the mobile
+       app, this value can be 'onSlideSeek' or 'onSkipSeek'.
 
+
+``show_transcript``/``edx.video.transcript.shown``
+**************************************************
+
+When a user selects **CC** to display the video transcript, the browser or
+mobile app emits a ``show_transcript`` event.
+
+In addition to the identifying ``event_type`` of ``show_transcript``, events
+that the edX mobile app emits also include a ``name`` field with a value of
+``edx.video.transcript.shown``.
+
+**Event Source**: Browser or Mobile
+
+**History**: Updated 25 Feb 2015 to include events emitted by the edX mobile
+app for iOS. Updated 23 Dec 2014 to include events emitted by the edX mobile
+app for Android.
+
+``context`` **Member Fields**: 
+
+Only video interaction events with an ``event_source`` of 'mobile' include
+additional ``context`` member fields. The same set of additional context
+fields are added for ``show_transcript``/ ``edx.video.transcript.shown`` events
+as for :ref:`play_video`. For an example of an event with these fields, see
+:ref:`Example Mobile App Event`.
+
+``event`` **Member Fields**: 
+
+The ``show_transcript``/``edx.video.transcript.shown`` events include the
+following ``event`` member fields. These fields serve the same purpose for
+events of this type as for the :ref:`play_video` events.
+
+* ``code``
+* ``currentTime``: The point in the video file at which the transcript was
+  opened, in seconds.
+* ``id``
 
 ``speed_change_video`` 
 *********************************
 
-A browser emits ``speed_change_video`` events when a user
-selects a different playing speed for the video.
+A browser emits ``speed_change_video`` events when a user selects a different
+playing speed for the video.
 
 **Event Source**: Browser
 
@@ -938,292 +1096,39 @@ selected either the same speed or a different speed.
      - 
      - The speed at which the video was playing. 
 
-``load_video``
-*********************************
+``stop_video``/``edx.video.stopped``
+*************************************
 
-When the video is fully rendered and ready to play, the browser or mobile app
-emits a ``load_video`` event.
+When the video player reaches the end of the video file and play automatically
+stops, the player emits a ``stop_video`` event.
 
-In addition to the identifying ``event_type`` of ``load_video``, the events
-that the edX mobile app emits also include a ``name`` field with a value of
-``edx.video.loaded``.
-
-**Event Source**: Browser or Mobile
-
-**History**: Updated 23 Dec 2014 to include edX mobile app events.
-
-``context`` **Member Fields**: Only events that the edX mobile app emits
-include these ``context`` member fields. For an example, see :ref:`Example
-Mobile App Event`.
-
-.. list-table::
-   :widths: 15 15 60
-   :header-rows: 1
-
-   * - Field
-     - Type
-     - Details and Member Fields
-   * - ``application``
-     - dict
-     - Includes ``name`` and ``version`` member fields to identify the edX
-       mobile app. 
-   * - ``client``
-     - dict
-     - Includes member dictionaries and fields with device-specific data.
-
-       The ``client`` data is gathered by the event collection library, which
-       is provided by a third party.
-
-       The content of this field is subject to change without notice.
-
-   * - ``component``
-     - string
-     - 'videoplayer'
-   * - ``received_at``
-     - float
-     - Indicates the time at which the event collection library received the
-       event. 
-
-       Events can only be forwarded when the user is connected to the
-       Internet. Therefore, this value can be different than the event's
-       ``time`` value.
-
-       The data in this field reflects a third-party integration and is subject
-       to change at any time without notice.
-
-
-``event`` **Member Fields**: 
-
-.. list-table::
-   :widths: 15 15 60
-   :header-rows: 1
-
-   * - Field
-     - Type
-     - Details
-   * - ``code``
-     - string
-     - For YouTube videos, the ID of the video being loaded (for example,
-       OEyXaRPEzfM). 
-
-       For non-YouTube videos, 'html5'.
-
-       For videos played by the edX mobile app, 'mobile'.
-
-   * - ``id``
-     - string
-     - The optional name value supplied by the course creators, or the system-
-       generated hash code for the video being watched.
-
-       For example, ``0b9e39477cf34507a7a48f74be381fdd``.
-       
-       This value is part of the ``courseware_studentmodule.module_id``. See
-       :ref:`courseware_studentmodule`.
-
-       **History**: In October 2014, identifiers for some new courses began to
-       use the format shown above. Other new courses, and all courses created
-       prior to October 2014, use an HTML-escaped version of the
-       ``courseware_studentmodule.module_id``. For example, 
-       ``i4x-HarvardX-PH207x-video-Simple_Random_Sample``.
-
-
-``hide_transcript``
-*********************************
-
-When a user clicks **CC** to suppress display of the video transcript, the
-browser or mobile app emits a ``hide_transcript`` event.
-
-In addition to the identifying ``event_type`` of ``hide_transcript``, events
-that the edX mobile app emits also include a ``name`` field with a value of
-``edx.video.transcript.hidden``.
+In addition to the identifying ``event_type`` of ``stop_video``, the events
+that the edX mobile app emits include a ``name`` field with a value of
+``edx.video.stopped``.
 
 **Event Source**: Browser or Mobile
 
-**History**: Updated 23 Dec 2014 to include edX mobile app events.
+**History**: Updated 25 Feb 2015 to include events emitted by the edX mobile
+app for iOS. Updated 23 Dec 2014 to include events emitted by the edX mobile
+app for Android. Added 25 June 2014.
 
-``context`` **Member Fields**: Only events that the edX mobile app emits
-include these ``context`` member fields. For an example, see :ref:`Example
-Mobile App Event`.
+``context`` **Member Fields**: 
 
-.. list-table::
-   :widths: 15 15 60
-   :header-rows: 1
-
-   * - Field
-     - Type
-     - Details and Member Fields
-   * - ``application``
-     - dict
-     - Includes ``name`` and ``version`` member fields to identify the edX
-       mobile app. 
-   * - ``client``
-     - dict
-     - Includes member dictionaries and fields with device-specific data.
-
-       The ``client`` data is gathered by the event collection library, which
-       is provided by a third party.
-
-       The content of this field is subject to change without notice.
-
-   * - ``component``
-     - string
-     - 'videoplayer'
-   * - ``received_at``
-     - float
-     - Indicates the time at which the event collection library received the
-       event. 
-
-       Events can only be forwarded when the user is connected to the
-       Internet. Therefore, this value can be different than the event's
-       ``time`` value.
-
-       The data in this field reflects a third-party integration and is subject
-       to change at any time without notice.
-
+Only video interaction events with an ``event_source`` of 'mobile' include
+additional ``context`` member fields. The same set of additional context
+fields are added for ``stop_video``/ ``edx.video.stopped`` events as for
+:ref:`play_video`. For an example of an event with these fields, see
+:ref:`Example Mobile App Event`.
 
 ``event`` **Member Fields**: 
 
-.. list-table::
-   :widths: 15 15 60
-   :header-rows: 1
+The ``stop_video``/``edx.video.stopped`` events include the following
+``event`` member fields. These fields serve the same purpose for events of
+this type as for the :ref:`play_video` events.
 
-   * - Field
-     - Type
-     - Details
-   * - ``code``
-     - string
-     - For YouTube videos played in a browser, the ID of the video being
-       loaded (for example, OEyXaRPEzfM).
-
-       For non-YouTube videos played in a browser, 'html5'.
-
-       For videos played by the edX mobile app, 'mobile'.
-
-   * - ``currentTime``
-     - float
-     - The point in the video file at which the transcript was hidden, in
-       seconds. 
-   * - ``id``
-     - string
-     - The optional name value supplied by the course creators, or the system-
-       generated hash code for the video being watched.
-
-       For example, ``0b9e39477cf34507a7a48f74be381fdd``.
-       
-       This value is part of the ``courseware_studentmodule.module_id``. See
-       :ref:`courseware_studentmodule`.
-
-       **History**: In October 2014, identifiers for some new courses began to
-       use the format shown above. Other new courses, and all courses created
-       prior to October 2014, use an HTML-escaped version of the
-       ``courseware_studentmodule.module_id``. For example, 
-       ``i4x-HarvardX-PH207x-video-Simple_Random_Sample``.
-
-
-``show_transcript``
-*********************************
-
-When a user clicks **CC** to display the video transcript, the browser or
-mobile app emits a ``show_transcript`` event.
-
-In addition to the identifying ``event_type`` of ``show_transcript``, events
-that the edX mobile app emits also include a ``name`` field with a value of
-``edx.video.transcript.shown``.
-
-**Event Source**: Browser or Mobile
-
-**History**: Updated 23 Dec 2014 to include edX mobile app events.
-
-``context`` **Member Fields**: Only events that the edX mobile app emits
-include these ``context`` member fields. For an example, see :ref:`Example
-Mobile App Event`.
-
-.. list-table::
-   :widths: 15 15 60
-   :header-rows: 1
-
-   * - Field
-     - Type
-     - Details and Member Fields
-   * - ``application``
-     - dict
-     - Includes ``name`` and ``version`` member fields to identify the edX
-       mobile app. 
-   * - ``client``
-     - dict
-     - Includes member dictionaries and fields with device-specific data.
-
-       The ``client`` data is gathered by the event collection library, which
-       is provided by a third party.
-
-       The content of this field is subject to change without notice.
-
-   * - ``component``
-     - string
-     - 'videoplayer'
-   * - ``received_at``
-     - float
-     - Indicates the time at which the event collection library received the
-       event. 
-
-       Events can only be forwarded when the user is connected to the
-       Internet. Therefore, this value can be different than the event's
-       ``time`` value.
-
-       The data in this field reflects a third-party integration and is subject
-       to change at any time without notice.
-
-``event`` **Member Fields**: 
-
-.. list-table::
-   :widths: 15 15 60
-   :header-rows: 1
-
-   * - Field
-     - Type
-     - Details
-   * - ``code``
-     - string
-     - For YouTube videos, the ID of the video being loaded (for example,
-       OEyXaRPEzfM). 
-
-       For non-YouTube videos, 'html5'.
-
-       For videos played by the edX mobile app, 'mobile'.
-
-   * - ``currentTime``
-     - float
-     - The point in the video file at which the transcript was opened, in
-       seconds. 
-   * - ``id``
-     - string
-     - The optional name value supplied by the course creators, or the system-
-       generated hash code for the video being watched.
-
-       For example, ``0b9e39477cf34507a7a48f74be381fdd``.
-       
-       This value is part of the ``courseware_studentmodule.module_id``. See
-       :ref:`courseware_studentmodule`.
-
-       **History**: In October 2014, identifiers for some new courses began to
-       use the format shown above. Other new courses, and all courses created
-       prior to October 2014, use an HTML-escaped version of the
-       ``courseware_studentmodule.module_id``. For example, 
-       ``i4x-HarvardX-PH207x-video-Simple_Random_Sample``.
-
-``video_hide_cc_menu`` and ``video_show_cc_menu``
-**************************************************
-
-The browser emits a ``video_show_cc_menu`` event when a user selects **CC** in
-the video player to show the transcript or menu of language options. The
-browser emits a ``video_hide_cc_menu`` event when a user selects **CC** again
-to close the transcript file.
-
-**Event Source**: Browser
-
-**History**: These events were added on 23 Feb 2015.
-
-``event`` **Member Fields**: None
+* ``code``
+* ``currentTime``: The time in the video at which play stopped, in seconds.
+* ``id``
 
 .. _pdf:
 

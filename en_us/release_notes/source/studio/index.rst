@@ -8,7 +8,7 @@ March 11, 2015
 
 ============================
 Accessibility Improvements 
-============================ 
+============================
 
 * The **Schedule & Details**, **Group Configurations**, **Advanced Settings**,
   and **Grading** pages now include `aria-label` attributes. (TNL-1532)
