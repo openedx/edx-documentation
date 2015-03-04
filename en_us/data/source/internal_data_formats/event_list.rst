@@ -62,7 +62,13 @@ Alphabetical Event List
      - :ref:`enrollment`
    * - ``edx.course.enrollment.upgrade.succeeded``
      - :ref:`enrollment`
+   * - ``edx.forum.comment.created``
+     - :ref:`forum_events`
+   * - ``edx.forum.response.created``
+     - :ref:`forum_events`
    * - ``edx.forum.searched``
+     - :ref:`forum_events`
+   * - ``edx.forum.thread.created``
      - :ref:`forum_events`
    * - ``edx.video.loaded``
      - :ref:`video`, see ``load_video``
