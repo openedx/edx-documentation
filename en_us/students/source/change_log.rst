@@ -10,6 +10,9 @@ Change Log
 
    * - Date
      - Change
+   * - 4 Mar 2015
+     - Updated the :ref:`Preface` to include information about the :ref:`The
+       edX Partner Portal` and the :ref:`The Open edX Portal`.
    * - 20 Jan 15
      - Added iPhone information to :ref:`SFD Mobile`.
    * - 12/31/14
