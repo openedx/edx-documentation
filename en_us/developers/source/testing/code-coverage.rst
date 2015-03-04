@@ -23,4 +23,4 @@ acceptance tests as your changes require.
 
 .. _coverage.py: https://pypi.python.org/pypi/coverage
 .. _JSCover: http://tntim96.github.io/JSCover/
-.. _diff-cover: https://github.com/edx/diff-cover
+.. _diff-cover: https://github.com/Bachmann1234/diff-cover
