@@ -34,8 +34,11 @@ The following documentation is available:
 Other edX Resources
 **************************
 
-You can sign up for the `edX Release Announcements mailing list`_ to get an
-email message each time we update the *edX Release Notes*.
+To receive and share product and release announcements by email, subscribe to
+announcements on the `Open edX Portal`_. To do this, visit the
+`Announcements`_ page, locate **Subscriptions** in the right pane, and then
+select the types of announcements you want to receive. You must create an
+account before you can subscribe to announcements.
 
 You can access the `edX Status`_ page to get an up-to-date status for all edX
 services. The page also includes the Twitter feed for
