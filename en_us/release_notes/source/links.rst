@@ -252,11 +252,11 @@
 
 .. _Google Instant Hangout Tool: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/google_hangouts.html
 
-.. _Google Drive files_Studio: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/google_docs.html
+.. _Google Drive Files Tool: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/google_docs.html
 
-.. _Google Calendar tool_Studio: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/google_calendar.html
+.. _Google Calendar Tool: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/google_calendar.html
 
-.. _Google Docs and Calendars_Students: http://edx-guide-for-students.readthedocs.org/en/latest/SFD_google_docs.html
+.. _Embedded Google Files and Calendars: http://edx-guide-for-students.readthedocs.org/en/latest/SFD_google_docs.html
 
 .. _Multiple Choice and Numerical Input Problem: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/mult_choice_num_input.html
 
