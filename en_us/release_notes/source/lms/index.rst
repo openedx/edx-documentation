@@ -7,7 +7,7 @@ March 5, 2015
 ******************
 
 * Course teams can now include Google Drive files and calendars in courseware.
-  For more information, see `Google Docs and Calendars_Students`_.
+  For more information, see `Embedded Google Files and Calendars`_.
 
 * Several accessibility improvements have made navigating course content
   easier for screen readers.
