@@ -2,6 +2,20 @@
 Change Log
 ############
 
+****************
+March 2015
+****************
+
+.. list-table::
+   :widths: 10 70
+   :header-rows: 1
+
+   * - Date
+     - Change
+   * - 5 Mar 2015
+     - Updated the :ref:`Preface` to include information about the :ref:`The
+       edX Partner Portal` and the :ref:`The Open edX Portal`.
+
 *****************
 February 2015
 *****************
@@ -77,7 +91,7 @@ October, 2014
      - Reorganized the :ref:`Problems` and :ref:`Course Components`
        sections to properly categorize these types of objects.
    * - 
-     - Updated the :ref:`ODL Directory Structure` chapter to accurately reflect
+     - Updated the :ref:`OLX Directory Structure` chapter to accurately reflect
        how an OLX course is organized.
    * - 
      - Updated the :ref:`HTML Components`, :ref:`Discussion Components`, and

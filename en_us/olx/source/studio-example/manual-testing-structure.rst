@@ -30,7 +30,7 @@ Manual Testing Course and Directory File Structures
 ***************************************************************
 
 All files and subdirectories that comprise the Manual Testing course are
-stored in the `manual-testing-complete`_ directory in the `edx-platform Git
+stored in the `manual-testing-complete`_ directory in the edx-platform Git
 repository.
 
 .. Image:: ../Images/manual-testing-course-github.png
