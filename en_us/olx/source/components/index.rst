@@ -21,7 +21,7 @@ Use the chapters in this section to create course components.
    graphical_slider_tool
    iframe
    lti_component
-   open_response_assessment
+   open_response_assessments/index
    periodic_table
    poll
    word_cloud 

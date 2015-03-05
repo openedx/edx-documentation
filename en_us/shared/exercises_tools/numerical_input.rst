@@ -66,10 +66,10 @@ Simple Editor
    text with two sets of angle brackets (>><<).
 #. Select the text of the answer, and then click the numerical input button. 
 
-.. image:: ../../../shared/building_and_running_chapters/Images/ProbCompButton_NumInput.png
+  .. image:: ../../../shared/building_and_running_chapters/Images/ProbCompButton_NumInput.png
     :alt: Image of the numerical input button
 
-   When you do this, an equals sign appears next to the answer.
+  When you do this, an equals sign appears next to the answer.
         
 7. (Optional) Specify a margin of error, or tolerance. You can specify a
    percentage, number, or range.

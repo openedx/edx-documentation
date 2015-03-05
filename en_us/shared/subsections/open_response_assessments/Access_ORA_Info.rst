@@ -160,7 +160,7 @@ Remove a submission from peer assessment by completing these steps.
 #. Scroll down to the **Student Response** section and locate the submission you
    want to remove.
 
-.. image:: ../../Images/ORA_RemoveSubmission.png
+.. image:: ../../../../shared/building_and_running_chapters/Images/ORA_RemoveSubmission.png
    :alt: Dialog allowing comments to be entered when removing a student submission
    
 5. Enter a comment to document or explain the removal. This comment appears to
@@ -177,5 +177,5 @@ Remove a submission from peer assessment by completing these steps.
    Removed submissions are also removed from the list of Top Responses if they
    were previously listed.
    
-.. image:: ../../Images/ORA_CancelledStudentResponse.png
+.. image:: ../../../../shared/building_and_running_chapters/Images//ORA_CancelledStudentResponse.png
    :alt: The date, time and comment for removal of a student response is shown instead of the original response.  

@@ -70,7 +70,7 @@ directory.
 For information about several examples of these directories, see: 
 
 See :ref:`HTML Components` for more information.
-See :ref:`Problems and Tools` for more information.
+See :ref:`Problems` for more information.
 See :ref:`Video Components` for more information.
 
 As the set of XBlocks grows, so does the set of associated XML tags
