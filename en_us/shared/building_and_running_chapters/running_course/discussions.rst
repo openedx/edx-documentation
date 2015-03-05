@@ -58,10 +58,18 @@ responses is sometimes called a thread.
 
 All course staff members and enrolled students can add posts, responses, and
 comments, and view all of the posts, responses, and comments made by other
-course participants. Members of the course community, both staff and students,
-can be given permission to moderate or administer course discussions through a
-set of discussion administration roles. Discussion threads are saved as part of
-the course history.
+course participants. Exceptions are discussion topics that you configure as
+divided by cohort. For such discussion topics, while course staff who also have
+discussion staff member roles can see topics for all cohorts, students can only
+view posts, responses, and commments from other students who belong to the same
+cohort. Similarly, posts, responses, and comments that they make in a divided
+course-wide discussion topic are only visible to other members of the same
+cohort. For more details about setting up discussions that are divided by cohort, see :ref:`Set up Discussions in Cohorted Courses`.
+
+Members of the course community, both staff and students, can be given
+permission to moderate or administer course discussions through a set of
+discussion administration roles. Discussion threads are saved as part of the
+course history.
 
 .. note:: 
   The :ref:`Discussions for Students and Staff` chapter describes features that
@@ -82,8 +90,10 @@ content-specific topics that you add to course units as discussion components.
 You create both types of discussion topics in Studio.
 
 For details about creating discussion topics, see :ref:`Create CourseWide
-Discussion Topics` and :ref:`Create ContentSpecific Discussion Topics`.
-For details about configuring discussion topics in courses with cohorts enabled, see :ref:`Set up Discussions in Cohorted Courses`.
+Discussion Topics` and :ref:`Create ContentSpecific Discussion Topics`. For
+details about configuring discussion topics in courses with cohorts enabled, see
+:ref:`Set up Discussions in Cohorted Courses`.
+
 
 .. _Create CourseWide Discussion Topics:
 
@@ -140,11 +150,13 @@ Discussion list now includes the topic you added.
  .. image:: ../../../shared/building_and_running_chapters/Images/NewCategory_Discussion.png
   :alt: Image of a new topic named Course Q&A in the list of discussions
 
-.. note:: In courses with cohorts enabled, the course-wide discussion topics
-   that you add are unified. All of the posts can be read and responded to by
-   every student, regardless of their assignement to a cohort. You have the
-   option to configure these topics to be divided by cohort. See :ref:`Identifying
-   Private CourseWide Discussion Topics`.
+.. note:: Course-wide discussion topics are unified when you first add
+   them. All of the posts can be read and responded to by every student,
+   regardless of their assignment to a cohort. After you add a course-wide
+   topic, you can configure it so that it is divided by cohort instead. For
+   step-by-step instructions for specifying whether a course-wide discussion
+   topic is unified or divided by cohort, see :ref:`Specify Whether CourseWide Discussion Topics are Cohorted`.
+
 
 .. _Create ContentSpecific Discussion Topics:
 
@@ -167,7 +179,8 @@ discussion topic until the containing section has been released.
    discussion topics can only be read and responded to by members of the same
    cohort. You can change the configuration of content-specific discussion topics
    to make them unified and available to all students in the course. See
-   :ref:`Make ContentSpecific Discussion Topics Unified`.
+   :ref:`Specify Whether ContentSpecific Discussion Topics are Cohorted`.
+
 
 .. _Assigning_discussion_roles:
 

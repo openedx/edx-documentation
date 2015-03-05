@@ -96,9 +96,9 @@ and comments.
 "(private)". You may only find it necessary to explicitly identify topics that
 have a unified audience for all posts.)
 
-For more information about adding and configuring course-wide discussion
-topics, see :ref:`Organizing_discussions` or :ref:`Identifying Private
-CourseWide Discussion Topics`.
+For more information about adding and configuring course-wide discussion topics,
+see :ref:`Create CourseWide Discussion Topics` and :ref:`Specify Whether
+CourseWide Discussion Topics are Cohorted`.
 
 If desired, you could also apply a naming convention to the content-specific
 discussion topics that you add as Discussion components in Studio. For example,
