@@ -2333,7 +2333,7 @@ the contributions. When these actions are complete, the server emits an
 
 **Event Source**: Server
 
-**History**: Added 4 Mar 2015.
+**History**: Added 5 Mar 2015.
 
 ``event`` **Member Fields**:
 
@@ -2377,7 +2377,7 @@ emits an ``edx.forum.response.created`` event.
 
 **Event Source**: Server
 
-**History**: Added 4 Mar 2015. 
+**History**: Added 5 Mar 2015. 
 
 ``event`` **Member Fields**:
 
@@ -2482,7 +2482,7 @@ complete, the server emits an ``edx.forum.thread.created`` event.
 
 **Event Source**: Server
 
-**History**: Added 4 Mar 2015.
+**History**: Added 5 Mar 2015.
 
 ``event`` **Member Fields**:
 
@@ -2913,7 +2913,7 @@ to a course, see `Creating Exercises and Tools`_.
 
 **Event Source**: Server
 
-**History**: Added 4 Mar 2015.
+**History**: Added 5 Mar 2015.
 
 ``event`` **Member Fields**:
 

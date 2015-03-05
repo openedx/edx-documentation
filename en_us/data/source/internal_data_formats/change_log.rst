@@ -14,7 +14,7 @@ January-March 2015
 
    * - Date
      - Change
-   * - 4 Mar 2015
+   * - 5 Mar 2015
      - Added new events for contributions to discussion forums to the
        :ref:`Tracking Logs` chapter.
    * - 
