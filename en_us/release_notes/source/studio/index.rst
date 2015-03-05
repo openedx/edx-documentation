@@ -8,7 +8,7 @@ March 5, 2015
 
 Course teams can now include Google Drive files and calendars in courseware by
 creating a link to the file or calendar in Studio. For more information, see
- `Google Drive Files Tool`_ and `Google Calendar Tool`_.
+`Google Drive Files Tool`_ and `Google Calendar Tool`_.
 
 ******************
 March 2, 2015
