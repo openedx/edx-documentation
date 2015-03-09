@@ -192,6 +192,10 @@ To view the entire contents of a library in Studio, follow these steps.
 #. Log in to Studio.
 #. Click **Libraries**, then click the library whose components you want to
    view.
+#. Optionally, click **Hide Previews** at the top right of the library page to
+   collapse the component previews and see only the list of component display
+   names. To return to the full preview of components in the library, click
+   **Show Previews**.
 
 The components in the library display in the order in which they were added,
 with the most recently added at the bottom. If your library has more than 10
