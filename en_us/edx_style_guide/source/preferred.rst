@@ -39,9 +39,13 @@ Don’t use “the following” as a noun
   * - Caution block
     - Do not use. Use a note block or a warning block instead.
   * - Cross-references
-    - Introduce stand-alone cross-references with "For more information, see ``<topic name>``. (Do not use the more abrupt "See ``<topic name>``.")
+    - Introduce stand-alone cross-references with "For more information, see
+      ``<topic name>``. (Do not use the more abrupt "See ``<topic name>``.")
 
-      For inline cross-references, create links to words in the sentence, but don't use the name of the topic itself unless the capitalization fits. For example: "You can use the :ref:`course checklists<Use the Course Checklist>` to verify that the course is ready for release." 
+      For inline cross-references, create links to words in the sentence, but
+      don't use the name of the topic itself unless the capitalization fits.
+      For example: "You can use the :ref:`course checklists<Use the Course
+      Checklist>` to verify that the course is ready for release."
 
   * - Dates
     - Format dates as DD Mon YYYY or DD Month YYYY. For example: 11 Jan 2015
@@ -57,6 +61,10 @@ Don’t use “the following” as a noun
       see :ref:`Images`.
   * - Lists
     - Introduce a list with a complete sentence that ends in a period. See also "steps."
+
+      Use complete sentences with terminal periods in lists unless each item
+      is short (e.g., three words or fewer).
+
   * - Notes
     - Use when you want the user to pay special attention to an instruction or idea.
   * - Numbers
@@ -75,13 +83,10 @@ Don’t use “the following” as a noun
   * - UI terms
     - When you describe UI elements, leave out the UI element name. For example, type "click OK" instead of "click the OK button."
 
-      If the UI has an error, such as a spelling mistake, 
-What do we do when there are errors in the UI? Do we match the UI or use the correct spelling/form in the docs? --> Go with correct form; UI may catch up someday.
-Punctuation for list items
-How to refer to our UI objects: e.g. navigation pane, tabs, page, component editor, etc.
+      If the UI has an error, such as a spelling mistake, write the word or phrase correctly in the documentation.
 
-Warnings
-Only use when a user might have significant problems.
+  * - Warnings
+    - Only use when a user might have significant problems, such as data loss or a security vulnerability.
 
 
 
