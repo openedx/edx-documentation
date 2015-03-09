@@ -1,3 +1,4 @@
+
 .. _Working with Problem Components:
 
 ################################
@@ -45,12 +46,12 @@ All problems on the edX platform have several component parts.
 
 #. **Problem text.** The problem text can contain any standard HTML formatting.
 
-#. **Response field with the student’s answer.** Students enter answers
+#. **Response field with the student's answer.** Students enter answers
    in *response fields*. The appearance of the response field depends on
    the type of the problem.
 
 #. **Rendered answer.** For some problem types, Studio uses MathJax to
-   render plain text as “beautiful math.”
+   render plain text as "beautiful math".
 
 #. **Check button.** The student clicks **Check** to submit a response
    or find out if his answer is correct. If the answer is correct, a green
@@ -75,15 +76,15 @@ All problems on the edX platform have several component parts.
    for individual problems defaults to that number, and cannot be set to
    unlimited.
 
-   .. image:: ../../../shared/building_and_running_chapters/Images//AnatomyOfExercise2.png
+   .. image:: ../../../shared/building_and_running_chapters/Images/AnatomyOfExercise2.png
     :alt: Image of a problem from a student's point of view, with callouts for 
           attempts and showing the answer
 
 #. **Feedback.** After a student clicks **Check**, all problems return a
    green check mark or a red X.
 
-   .. image:: ../../../shared/building_and_running_chapters/Images//AnatomyofaProblem_Feedback.png
-    :alt: Image of feedback checkmark and x from a student's point of view
+   .. image:: ../../../shared/building_and_running_chapters/Images/AnatomyofaProblem_Feedback.png
+    :alt: Image of feedback check mark and x from a student's point of view
 
 #. **Correct answer.** Most problems require that the instructor specify
    a single correct answer.
@@ -101,14 +102,14 @@ All problems on the edX platform have several component parts.
 
 #. **Hide Answer button.**
 
-   .. image:: ../../../shared/building_and_running_chapters/Images//AnatomyOfExercise3.png
-    :alt: Image of a problem in the course accordian
+   .. image:: ../../../shared/building_and_running_chapters/Images/AnatomyOfExercise3.png
+    :alt: Image of a problem in the course accordion
 
 #. **Grading.** The instructor may specify whether a group of problems
    is graded. If a group of problems is graded, a clock icon appears for
    that assignment in the course accordion.
 
-   .. image:: ../../../shared/building_and_running_chapters/Images//clock_icon.png
+   .. image:: ../../../shared/building_and_running_chapters/Images/clock_icon.png
 
 #. **Due date.** The date that the problem is due. A problem that is
    past due does not have a **Check** button. It also does not accept
@@ -147,7 +148,7 @@ editing problem components: the Simple Editor and the Advanced Editor.
 *  The **Simple Editor** allows you to edit problems visually, without
    having to work with XML.
 
-*  The **Advanced Editor** converts the problem to edX’s XML standard and
+*  The **Advanced Editor** converts the problem to the edX XML standard and
    allows you to edit that XML directly.
 
 You can switch at any time from the Simple Editor to the Advanced Editor by
@@ -165,7 +166,7 @@ Several problem templates, including multiple choice and text input problem
 templates, open in the Simple Editor. The following image shows a multiple
 choice problem in the Simple Editor.
 
-.. image:: ../../../shared/building_and_running_chapters/Images//MultipleChoice_SimpleEditor.png
+.. image:: ../../../shared/building_and_running_chapters/Images/MultipleChoice_SimpleEditor.png
  :alt: Image of a problem in the simple editor
 
 The Simple Editor includes a toolbar that helps you format the text of your
@@ -185,21 +186,21 @@ following:
 
 The following problem templates open in the Simple Editor.
 
-*  :ref:`Checkbox` In checkbox problems, students select one or more options
+*  :ref:`Checkbox`: In checkbox problems, students select one or more options
    from a list of possible answers.
 
-*  :ref:`Dropdown` In dropdown problems, students select one answer from a
+*  :ref:`Dropdown`: In dropdown problems, students select one answer from a
    dropdown list.
 
-*  :ref:`Multiple Choice` Multiple choice problems require students to
+*  :ref:`Multiple Choice`: Multiple choice problems require students to
    select one answer from a list of choices that appear directly below
    the question.
 
-*  :ref:`Numerical Input` Numerical input problems require answers that
+*  :ref:`Numerical Input`: Numerical input problems require answers that
    include only integers, fractions, and a few common constants and
    operators.
 
-*  :ref:`Text Input` In text input problems, students enter a short text
+*  :ref:`Text Input`: In text input problems, students enter a short text
    answer to a question.
 
 
@@ -215,7 +216,7 @@ Editor.
 The following image shows the multiple choice problem above in the Advanced
 Editor instead of the Simple Editor.
 
-.. image:: ../../../shared/building_and_running_chapters/Images//MultipleChoice_AdvancedEditor.png
+.. image:: ../../../shared/building_and_running_chapters/Images/MultipleChoice_AdvancedEditor.png
  :alt: Image of a problem in the advanced editor
 
 The following problem templates open in the Advanced Editor.
@@ -242,7 +243,7 @@ The following problem templates open in the Advanced Editor.
   input or multiple choice problems.
 
 * :ref:`Problem Written in LaTeX` This problem type allows you to convert
-  problems that you’ve already written in LaTeX into the edX format. Note that
+  problems previously written in LaTeX into the edX format. Note that
   this problem type is still a prototype, however, and may not be supported in
   the future.
 
@@ -281,6 +282,10 @@ ribbon at the top of the page.
 .. image:: ../../../shared/building_and_running_chapters/Images/ProbComponent_LMS_DisplayName.png
  :alt: Image of the problem in a unit page from a student's point of view
 
+In addition, edX Insights uses the display name to identify each problem.
+Unique, descriptive display names help you identify problems quickly and
+accurately for analysis. For more information, see `Using edX Insights`_.
+
 ==============================
 Maximum Attempts
 ==============================
@@ -293,8 +298,8 @@ changed to a specific number, the **Maximum Attempts** setting for individual
 problems defaults to that number, and cannot be set to unlimited.
 
 .. note:: Only questions that have a **Maximum Attempts** setting of 1 or 
- higher are included on the Student Answer Distribution report that you can
- download during your course.
+ higher are included in the answer distribution computations used in edX
+ Insights and the Student Answer Distribution report.
 
 .. _Problem Weight:
 
@@ -303,7 +308,7 @@ Problem Weight
 ==============================
 
 .. note:: Studio stores scores for all problems, but scores only count 
-          toward a student’s final grade if they are in a subsection that is
+          toward a student's final grade if they are in a subsection that is
           graded.
 
 This setting specifies the maximum number of points possible for the
@@ -313,7 +318,7 @@ problem. The problem weight appears next to the problem title.
  :alt: Image of a problem from a student's point of view, with the possible 
        points circled
 
-By default, each response field, or “answer space,” in a Problem
+By default, each response field, or "answer space", in a Problem
 component is worth one point. Any Problem component can have multiple
 response fields. For example, the Problem component above
 contains one dropdown problem that has three separate questions for students
@@ -335,7 +340,7 @@ following formula:
 
 *  **Score** is the point score that the student receives.
 
-*  **Weight** is the problem’s maximum possible point score.
+*  **Weight** is the problem's maximum possible point score.
 
 *  **Correct answers** is the number of response fields that contain correct
    answers.
@@ -348,27 +353,27 @@ The following are some examples of computing scores.
 
 *Example 1*
 
-A problem’s **Weight** setting is left blank. The problem has two
+A problem's **Weight** setting is left blank. The problem has two
 response fields. Because the problem has two response fields, the
 maximum score is 2.0 points.
 
 If one response field contains a correct answer and the other response
-field contains an incorrect answer, the student’s score is 1.0 out of 2
+field contains an incorrect answer, the student's score is 1.0 out of 2
 points.
 
 *Example 2*
 
-A problem’s weight is set to 12. The problem has three response fields.
+A problem's weight is set to 12. The problem has three response fields.
 
-If a student’s response includes two correct answers and one incorrect
-answer, the student’s score is 8.0 out of 12 points.
+If a student's response includes two correct answers and one incorrect
+answer, the student's score is 8.0 out of 12 points.
 
 *Example 3*
 
-A problem’s weight is set to 2. The problem has four response fields.
+A problem's weight is set to 2. The problem has four response fields.
 
-If a student’s response contains one correct answer and three incorrect
-answers, the student’s score is 0.5 out of 2 points.
+If a student's response contains one correct answer and three incorrect
+answers, the student's score is 0.5 out of 2 points.
 
 .. _Randomization:
 
@@ -501,7 +506,8 @@ randomized variables and randomization is set to **On Reset**, changes the
 values the student sees in the problem. If the number of Maximum  Attempts that
 was set for this problem has been reached, the **Reset** button is not visible.
 
-This problem-level settimg overrides the course-level **Show Reset Button for Problems** setting.
+This problem-level setting overrides the course-level **Show Reset Button for
+Problems** setting.
 
 .. _Modifying a Released Problem:
 
@@ -514,18 +520,18 @@ Modifying a Released Problem
  experience in the course and analysis of course data.
 
 After a student submits a response to a problem, the edX Learning Management
-System (LMS) stores the student’s response, the score that the student
+System (LMS) stores the student's response, the score that the student
 received, and the maximum score for the problem. For problems with a **Maximum
 Attempts** setting greater than 1, the LMS updates these values each time the
 student submits a new response to a problem. However, if an instructor changes
 a problem or its attributes, existing student information for that problem is
 not automatically updated.
 
-For example, you may release a problem and specify that its answer is 3.
-After some students have submitted responses, you notice that the answer
-should be 2 instead of 3. When you update the problem with the correct
-answer, the LMS doesn’t update scores for students who answered 2 for the
-original problem and thus received the wrong score.
+For example, you may release a problem and specify that its answer is 3. After
+some students have submitted responses, you notice that the answer should be 2
+instead of 3. When you update the problem with the correct answer, the LMS
+does not update scores for students who originally answered 2 for the problem
+and received the wrong score.
 
 For another example, you may change the number of response fields to
 three. Students who submitted answers before the change have a score of
@@ -589,7 +595,7 @@ problems can be different types.
 To create multiple problems in one component, create a new Blank Advanced
 Problem component, and then add the XML for each problem in the component
 editor. You only need to include the XML for the problem and its answers. You
-don’t have to include the code for other elements, such as the **Check**
+do not have to include the code for other elements, such as the **Check**
 button.
 
 Elements such as the **Check**, **Show Answer**, and **Reset** buttons, as well
@@ -618,7 +624,7 @@ single problem. Problem randomization offers different problems or problem
 versions to different students.
 
 .. note:: Creating problems with versions that can be randomized requires you 
- to export your course, edit some of your course's XML files in a text editor,
+ to export your course, edit some of your course's .xml files in a text editor,
  and then re-import your course. We recommend that you create a backup copy of
  your course before you do this. We also recommend that you only edit your
  course files in the text editor if you're very familiar with editing XML.
@@ -732,8 +738,7 @@ Create Randomized Problems
    gzip/>`_.
 
    For information about how to do this on a Windows computer, see `How to Make
-   a .tar.gz on Windows <http://stackoverflow.com/questions/12774707 /how-to-
-   make-a-tar-gz-on-windows>`_.
+   a .tar.gz on Windows <http://stackoverflow.com/questions/12774707/how-to-make-a-tar-gz-on-windows>`_.
 
 #. In Studio, re-import your course.
 
@@ -747,3 +752,6 @@ Create Randomized Problems
   
   * A .csv file for student responses contains the responses to each of the
     problems in the problem bank.
+
+
+.. _Using edX Insights: http://edx-insights.readthedocs.org/en/latest/

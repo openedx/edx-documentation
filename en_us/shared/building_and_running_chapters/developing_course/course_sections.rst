@@ -186,11 +186,12 @@ To create a new section:
    .. image:: ../../../shared/building_and_running_chapters/Images/outline-create-section.png
      :alt: The outline with the New Section buttons circled
 
-   A new section is added at the end of the course content, with the section
+   A new section appears at the end of the course content with the section
    name selected.
 
-#. Enter the name for the new section. Remember that students see the section
-   name in the courseware.
+#. Enter the name for the new section. A descriptive name can help learners
+   locate content in the courseware. It can also help you select content when
+   you analyze performance in edX Insights.
 
 #. :ref:`Add subsections<Create a Subsection>` to the new section as needed.
    

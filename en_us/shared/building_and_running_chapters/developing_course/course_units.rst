@@ -100,7 +100,7 @@ After you publish the unit, you can:
 #. :ref:`Modify components in the unit<Developing Course Components>`.
 #. :ref:`Publish the changes to the unit<Publish a Unit>`.
    
-The following diagram shows the typical unit development workflow:
+The following diagram shows the typical unit development workflow.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/workflow-create-unit.png
  :alt: Diagram of the unit development workflow
@@ -252,8 +252,10 @@ To create a unit from the outline:
 #. In the outline, expand the subsection in which you want to create a new
    unit.
 #. Click **New Unit** at the bottom of the expanded subsection. A new
-   unit is added at the end of the subsection.
-#. On the unit page, the unit name is selected. Edit the name as needed.
+   page opens for you to add components to the unit.
+#. On the unit page, the unit name is selected. Supply an identifying name. A
+   descriptive name can help learners locate content in the courseware. It can
+   also help you select content when you analyze performance in edX Insights.
 #. :ref:`Add components<Add a Component>` to the new unit as needed.
 
 To create a new unit from a unit page:
@@ -265,7 +267,9 @@ To create a new unit from a unit page:
 
    The unit page for the new unit opens automatically.
 
-#. On the unit page, the unit name is selected. Edit the name as needed.
+#. On the unit page, the unit name is selected. Supply an identifying name. A
+   descriptive name can help learners locate content in the courseware. It can
+   also help you select content when you analyze performance in edX Insights.
 
 #. :ref:`Add components<Add a Component>` to the new unit as needed.
 
@@ -294,13 +298,13 @@ the unit<Publish a Unit>` to make your edits visible to students.
 Edit the Unit Name
 ==============================
 
-To edit a unit name, hover over the name to show the Edit icon:
+To edit a unit name, click the Edit icon next to the name.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/unit-edit-icon.png
   :alt: The Edit Unit Name icon
 
-Click the Edit icon next to the unit name. The name field becomes editable.
-Enter the new name and tab or click out of the field to save the name.
+The name field becomes editable. Enter the new name and then press the Tab key
+or click out of the field to save the name.
 
 ==============================
 Reorganize Components in Units

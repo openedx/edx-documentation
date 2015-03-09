@@ -21,7 +21,7 @@ messages.
 Course Launch Checklist
 ****************************
 
-As the start date for your course approaches, a checklist or timeline of
+As the start date for your course approaches, a checklist or time line of
 activities can help you make sure that your course, and your students, are
 ready to begin. Suggestions for activities to complete before your course
 starts follow.
@@ -32,25 +32,33 @@ starts follow.
   Dates for Your Course`.
 * Review the grading policy, and set a grace period for homework assignment
   due dates. See :ref:`Establish a Grading Policy`.
-* Confirm that any optional features that you want your course to include, such
-  as implementing student cohorts, are enabled and configured. See
+* Confirm that any optional features that you want your course to include,
+  such as student cohorts, are enabled and configured. See
   :ref:`Cohorts Overview`.
+* Assign the discussion admin, discussion moderator, and community TA roles to
+  selected course team members  on the Instructor Dashboard. See
+  :ref:`Assigning_discussion_roles`.
 
 **Review First Week Content**
 
 * Verify that all units are present and published. See :ref:`Developing Course
   Units`.
-* Check all assignments for completeness and verify their due dates. See
-  :ref:`Working with Problem Components`.
 * Verify that videos, transcripts, and download links are in place and
   working.
+* Check all assignments for completeness and verify their due dates. See
+  :ref:`Working with Problem Components`.
+* Use edX Insights to review the answers that beta testers selected for
+  problems, and to proofread your display names, accessibility labels, and
+  answer text.
 * Review feedback from the course team and beta testers to be sure that the
-  content has been thoroughly reviewed and tested.
+  content has been thoroughly reviewed and tested. 
+
 
 **Welcome Students**
 
 * Two months before the course start date, prepare and send a welcome email
-  message to currently enrolled students. See :ref:`Prelaunch Reminder` and :ref:`Send_Bulk_Email`.
+  message to currently enrolled students. See :ref:`Prelaunch Reminder` and
+  :ref:`Send_Bulk_Email`.
 * Compose a welcome message and add it to the **Course Info** page. See
   :ref:`Add a Course Update`.
 * Verify that a syllabus and other references are available on the **Course
@@ -77,9 +85,9 @@ starts follow.
   issues, and collaborate on tasks.
 * Verify that the instructors and course staff selected for your course
   have the correct role assignments in the LMS. See :ref:`Course_Staffing`.
-* Verify that discussion admins, discussion moderators, and community TAs have
-  registered and activated their user accounts, enrolled in the course, and
-  been assigned their roles on the Instructor Dashboard. See
+* Verify that the people you have given the discussion admin, discussion
+  moderator, and community TA roles have registered and activated their user
+  accounts and enrolled in the course. See
   :ref:`Assigning_discussion_roles`.
 * Define methods for managing discussions and guidance for discussion
   moderators, and distribute to the discussion team. See

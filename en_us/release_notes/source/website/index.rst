@@ -2,6 +2,14 @@
 edX Website
 ####################################
 
+
+******************
+February 4, 2015
+******************
+
+* A single sign-in page at edX.org now includes the options to create a new
+  account on edX or sign in to an existing edX account.
+
 ******************
 March 2, 2015
 ******************

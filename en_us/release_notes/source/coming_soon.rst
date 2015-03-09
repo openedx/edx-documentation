@@ -15,5 +15,4 @@ released, we will add a link to related documentation.
   support multiple prompts.
 
 
-
 .. include:: links.rst
