@@ -6,7 +6,8 @@ edX Discussions
 February 12, 2015
 ******************
 
-* The "Mark as Answered" icon was missing from discussion and question posts. This problem has been resolved. (TNL-1330)
+* The "Mark as Answered" icon was missing from discussion and question posts.
+  This problem has been resolved. (TNL-1330)
 
 ******************
 February 4, 2015

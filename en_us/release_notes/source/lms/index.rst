@@ -3,6 +3,19 @@ edX Learning Management System
 ####################################
 
 ******************
+March 11, 2015
+******************
+
+============================
+Accessibility Improvements 
+============================ 
+
+* The main region in the Student dashboard now includes the `role` and `aria-
+  label` attributes. (TNL-1567)
+
+* Navigation controls in the LMS now have `aria-label` attributes. (TNL-1554)
+
+******************
 March 5, 2015
 ******************
 

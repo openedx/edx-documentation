@@ -3,6 +3,16 @@ edX Insights
 ####################################
 
 ******************
+March 11, 2015
+******************
+
+In edX Insights, course teams can now review how students are answering graded
+problems. You can use the performance charts and reports to assess problem
+difficulty, identify common mistakes and misconceptions, and verify that your
+problems are clearly stated and complete.
+
+
+******************
 February 23, 2015
 ******************
 
