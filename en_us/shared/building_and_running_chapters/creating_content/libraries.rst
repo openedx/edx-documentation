@@ -411,14 +411,11 @@ There are several reasons why you might want to export your library.
 * To create a backup copy of your library
 * To share with another course team member
 
-When you export your library, Studio creates a **.tar.gz** file containing the
-problems you added to it, including any customizations made to problem settings
-that were made in the library.
-
-The following items are not exported with your library.
-
-* User permissions
-* What else?
+When you export your library, Studio creates a **.tar.gz** file (that is, a .tar
+file compressed using GNU Zip). This export file contains the problems in the
+library, including any customizations you made in the library to problem
+settings. The export does not include library settings such as user access
+permissions.
 
 To export a library, follow these steps.
 
@@ -437,12 +434,13 @@ You might want to import a library if you developed or updated library content
 outside of Studio, or if you want to overwrite a problematic or outdated version
 of the library.
 
-.. warning:: When you import a library, it completely replaces the existing
-   library and its contents. You cannot undo a library import. Before you
-   proceed, we recommend that you export the current library, so that you
-   have a backup copy of it.
+.. warning:: When you import a library, the imported library completely replaces
+   the existing library and its contents. You cannot undo a library import.
+   Before you proceed, we recommend that you export the current library, so that
+   you have a backup copy of it.
 
-The library file that you import must be a .tar.gz file (that is, a .tar file compressed using GNU Zip). This .tar.gz file must contain a library.xml file. 
+The library file that you import must be a .tar.gz file (that is, a .tar file
+compressed using GNU Zip). This .tar.gz file must contain a library.xml file.
 
 To import a library, follow these steps.
 
@@ -452,13 +450,13 @@ To import a library, follow these steps.
     
 #. From the **Tools** menu, select **Import**.
    
-#. Click **Choose a File to Import** and select the .tar.gz file that you are
-   importing.
+#. Click **Choose a File to Import** and select the .tar.gz file that you want
+   to import.
 
 #. Click **Replace my library with the selected file**.
    
 .. warning:: The import process has five stages. During the first two stages
-   (Uploading and Unpacking), do not navigate away from the Library Import page.
+   (Uploading and Unpacking), do not navigate away from the **Library Import** page.
    Doing so causes the import process to end. You can leave the page only after
    the Unpacking stage completes. We recommend that you do not make important
    changes to the library until all stages of the import process have finished.
@@ -467,10 +465,10 @@ To import a library, follow these steps.
    imported library.
 
 .. note:: If your imported library includes changes to components that are in
-   use in a course, these updates in the library are not reflected in the course
-   unless you manually update the randomized content block in the course unit.
-   For details about updating library components used in your course to match
-   the latest version in the content library, see :ref:`Get the Latest Version
-   of Library Content`.
+   use in a course, the course does not reflect these library updates until you
+   manually update the randomized content block in the course unit. For details
+   about updating library components used in your course to match the latest
+   version in the content library, see :ref:`Get the Latest Version of Library
+   Content`.
    
 
