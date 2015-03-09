@@ -5,7 +5,7 @@ Developing Course Units
 ###################################
 
 When working with units in the course outline, ensure you understand the
-following:
+following topics.
 
 * `What is a Unit?`_
 * `Viewing Units in the Outline`_
@@ -14,7 +14,7 @@ following:
 * `Unit Publishing Status and Visibility to Students`_
 * `Unit Publishing Status`_
 
-When developing your course, you perform the following tasks with units:
+When developing your course, you complete the following tasks with units.
 
 * `Create a Unit`_
 * `Edit a Unit`_
@@ -48,7 +48,7 @@ Viewing Units in the Outline
 ****************************
 
 To view units in the outline, you :ref:`expand<Navigating the Course Outline>`
-the parent section and subsection:
+the parent section and subsection.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/outline-callouts.png
  :alt: An outline with callouts for sections, subsections, and units
@@ -74,7 +74,7 @@ subsection appears as a link on the course ribbon at the top of the page. The
 active unit is open beneath the course ribbon.
 
 The following image shows a subsection that has five units, which are circled
-in the ribbon above the video, with the first unit open:
+in the ribbon above the video, with the first unit open.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/Units_LMS.png
  :alt: Image of units from the student's point of view
@@ -100,7 +100,7 @@ After you publish the unit, you can:
 #. :ref:`Modify components in the unit<Developing Course Components>`.
 #. :ref:`Publish the changes to the unit<Publish a Unit>`.
    
-The following diagram shows the typical unit development workflow:
+The following diagram shows the typical unit development workflow.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/workflow-create-unit.png
  :alt: Diagram of the unit development workflow
@@ -142,7 +142,7 @@ For more information, see :ref:`Controlling Content Visibility`.
 Unit Publishing Status
 ************************************************ 
 
-As an course author, you work with units with the following statuses:
+As an course author, you work with units with the following statuses.
 
 * `Draft (Never published)`_
 * `Published and Live`_
@@ -157,7 +157,7 @@ Draft (Never published)
 ========================
 
 When you create a new unit and add components to it, the unit's publishing
-status is **Draft (Never Published)**, as shown in the status panel:
+status is **Draft (Never Published)**, as shown in the status panel.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/unit-never-published.png
  :alt: Status panel of a unit that has never been published
@@ -204,7 +204,7 @@ Draft (Unpublished changes)
 
 When you edit a published unit, whether or not it is released, the unit's
 publishing status changes to **Draft (Unpublished Changes)**, as shown in the
-status panel:
+status panel.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/unit-pending-changes.png
  :alt: Status panel of a unit that has pending changes
@@ -252,8 +252,10 @@ To create a unit from the outline:
 #. In the outline, expand the subsection in which you want to create a new
    unit.
 #. Click **New Unit** at the bottom of the expanded subsection. A new
-   unit is added at the end of the subsection.
-#. On the unit page, the unit name is selected. Edit the name as needed.
+   page opens for you to add components to the unit.
+#. On the unit page, the unit name is selected. Supply an identifying name. A
+   descriptive name can help learners locate content in the courseware. It can
+   also help you select content when you analyze performance in edX Insights.
 #. :ref:`Add components<Add a Component>` to the new unit as needed.
 
 To create a new unit from a unit page:
@@ -265,7 +267,9 @@ To create a new unit from a unit page:
 
    The unit page for the new unit opens automatically.
 
-#. On the unit page, the unit name is selected. Edit the name as needed.
+#. On the unit page, the unit name is selected. Supply an identifying name. A
+   descriptive name can help learners locate content in the courseware. It can
+   also help you select content when you analyze performance in edX Insights.
 
 #. :ref:`Add components<Add a Component>` to the new unit as needed.
 
@@ -279,7 +283,7 @@ students.
 Edit a Unit
 **************
 
-You can edit a unit in the following ways:
+You can edit a unit in the following ways.
 
 * `Edit the unit name`_
 * :ref:`Develop components<Developing Course Components>`
@@ -294,13 +298,13 @@ the unit<Publish a Unit>` to make your edits visible to students.
 Edit the Unit Name
 ==============================
 
-To edit a unit name, hover over the name to show the Edit icon:
+To edit a unit name, click the Edit icon next to the name.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/unit-edit-icon.png
   :alt: The Edit Unit Name icon
 
-Click the Edit icon next to the unit name. The name field becomes editable.
-Enter the new name and tab or click out of the field to save the name.
+The name field becomes editable. Enter the new name and then press the Tab key
+or click out of the field to save the name.
 
 ==============================
 Reorganize Components in Units
@@ -311,7 +315,7 @@ new locations.
 
 To move a component, hover over the handle on the right of the component's box
 until the cursor changes to a four-headed arrow. For example, in the image
-below, the handle for the discussion component is selected:
+below, the handle for the discussion component is selected.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/unit-drag-selected.png
   :alt: A discussion component selected to drag it
@@ -320,7 +324,7 @@ Then, click and drag the component to the location that you want.
 
 A dashed outline indicates where the component will land when you release the
 mouse button. For example, in the image below, the discussion component is
-being moved to the top of the unit:
+being moved to the top of the unit.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/unit-drag-moved.png
  :alt: A component being dragged to a new location  
@@ -405,7 +409,7 @@ changes. You can discard the changes so that Studio reverts to the last
 published version of the unit.
 
 To discard changes and revert the Studio version of the unit to the last
-published version, click **Discard Changes** in the status panel:
+published version, click **Discard Changes** in the status panel.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/unit-discard-changes.png
  :alt: Unit status panel with Discard Changes circled
@@ -453,7 +457,7 @@ You can hide a unit from students using the course outline or the unit page.
 Use the Unit Page to Hide a Unit
 =======================================
 
-Select the **Hide from students** checkbox in the status panel:
+Select the **Hide from students** check box in the status panel.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/unit-hide.png
  :alt: Unit status panel with Hide from Students checked
@@ -464,7 +468,7 @@ For more information, see :ref:`Controlling Content Visibility`.
 Use the Outline to Hide a Unit
 =======================================
 
-#. Click the Settings icon in the unit box:
+#. Click the Settings icon in the unit box.
    
    .. image:: ../../../shared/building_and_running_chapters/Images/outline-unit-settings.png
     :alt: The unit settings icon circled
@@ -483,7 +487,7 @@ Make a Hidden Unit Visible to Students
 =======================================
 
 Before you make a hidden unit visible to students, be aware that course content
-will immediately be visible to students, as follows:
+will immediately be visible to students, as follows.
 
 * For a hidden unit that previously was published, clearing the check box
   publishes the current content for the unit. If you made changes to the unit
@@ -495,7 +499,7 @@ will immediately be visible to students, as follows:
 
 You can make a hidden unit visible to students from the unit page or the course
 outline. Follow the instructions above and clear the **Hide from students**
-checkbox.
+check box.
 
 You are prompted to confirm that you want to make the unit visible to students.
 
@@ -514,7 +518,7 @@ When you delete a unit, you delete all components within the unit.
 
 To delete a unit:
 
-#. Click the delete icon in the box for the unit you want to delete:
+#. Click the delete icon in the box for the unit you want to delete.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/section-delete.png
  :alt: The section with Delete icon circled
