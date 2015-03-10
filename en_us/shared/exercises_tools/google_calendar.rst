@@ -141,6 +141,7 @@ Make the Google Calendar Public
 #. Click the **Share this Calendar** tab, and then select **Make this calendar
    public**.
    
+
   .. image:: ../../../shared/building_and_running_chapters/Images/google-calendar-settings.png
    :alt: Google calendar settings
 
