@@ -4,11 +4,11 @@ edX Style Guide
 
 .. toctree::
     :maxdepth: 2
-
+	
     preface.rst
     intro.rst
     userinterface.rst
-    grammarpunctuation.rst
+    wordlist.rst
     preferred.rst
     formattinglayout.rst
     images.rst

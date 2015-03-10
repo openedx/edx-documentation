@@ -15,7 +15,6 @@ Don’t use “the following” as a noun
 
 
 .. list-table::
-   :widths: 15 85
 
   * - Abbreviations
     - Only use for standards of measurement, such as kb. For example, replace
@@ -44,8 +43,8 @@ Don’t use “the following” as a noun
 
       For inline cross-references, create links to words in the sentence, but
       don't use the name of the topic itself unless the capitalization fits.
-      For example: "You can use the :ref:`course checklists<Use the Course
-      Checklist>` to verify that the course is ready for release."
+      For example: "You can use the ``:ref:`course checklists<Use the Course
+      Checklist>``` to verify that the course is ready for release."
 
   * - Dates
     - Format dates as DD Mon YYYY or DD Month YYYY. For example: 11 Jan 2015

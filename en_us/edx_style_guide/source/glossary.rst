@@ -1,1 +1,1 @@
-.. include:: ../../shared/preface.rst
+.. include:: ../../shared/glossary/glossary.rst

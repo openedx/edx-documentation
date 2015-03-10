@@ -62,7 +62,6 @@ Documenting the User Interface
      - A box that a user types or pastes text into. Prefer field.
    * - window
      - 
-   * - 
 
 
 

@@ -25,10 +25,10 @@ Heading 5
 Image Format
 ************
 
-Image format, uses images as a reference from the soure/image file
+Image format, uses images as a reference from the source/Images file
 
        .. image:: images/image029.png
-       : width: 800
+       :width: 800
 
        .. image:: images/image009.png
        :width: 800  
