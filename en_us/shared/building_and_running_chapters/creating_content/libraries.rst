@@ -400,9 +400,15 @@ To remove **Staff** or **Admin** access from a library user, follow these steps.
 Exporting and Importing a Library
 *********************************
 
-You can :ref:`export<Export a Library>` and :ref:`import<Import a Library>` a content library in Studio. 
+You can :ref:`export<Export a Library>` and :ref:`import<Import a Library>` a
+content library in Studio.
+
 
 .. _Export a Library:
+
+================
+Export a Library
+================
 
 There are several reasons why you might want to export your library.
 
@@ -429,6 +435,10 @@ computer.
 
 
 .. _Import a Library:
+
+================
+Import a Library
+================
 
 You might want to import a library if you developed or updated library content
 outside of Studio, or if you want to overwrite a problematic or outdated version
