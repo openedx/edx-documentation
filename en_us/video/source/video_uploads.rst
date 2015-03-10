@@ -92,7 +92,7 @@ sequence}_{revision}.{type}``, which results in file names like
 
 Video file names should include alphanumeric characters and underscores only.
 Periods should be used only to separate the file name from the extension that
-identifes its type.
+identifies its type.
 
 Standardizing the content and format of these file names helps all interested
 parties identify and track video files over time.
@@ -161,8 +161,9 @@ media team. See :ref:`Create YouTube Channels`.
 .. important:: You must leave the **Video Uploads** page open in your
    browser until the upload process is complete for all files.
 
-The file upload process is complete when files upload successfully or fail to
-upload. You can monitor file progress on the **Video Uploads** page or
+When the status of an uploaded file changes to Ready, the file upload process
+is successful. If the status changes to Failed, the file upload process is not
+successful. You can monitor file progress on the **Video Uploads** page or
 download a report.
 
 .. _Monitor Video Processing: 
@@ -199,9 +200,11 @@ The encoding and hosting process assigns these statuses to video files.
 * **In Progress** files are undergoing processing to create additional file 
   formats or waiting for successful transfer to the host sites.
 
-* **Complete** files are ready for inclusion in your course and for learners to
-  view. See :ref:`Adding Videos to a Course`. When you click the names of these
-  files, a file hosted on one of the external host sites plays.
+* **Ready** files are ready for inclusion in your course and for learners to
+  view. See :ref:`Adding Videos to a Course`. When you click the names of
+  these files, a file hosted on one of the external host sites plays.
+  Processing continues at video hosting sites for 24 hours after you upload a
+  file.
 
 * **Failed** files did not complete processing successfully. Verify that you
   can play your original .mp4 or .mov file and that it meets the other

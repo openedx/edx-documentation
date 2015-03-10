@@ -20,8 +20,8 @@ connectivity constraints, can be a complex undertaking.
 
 To help course teams at partner institutions meet the challenge of delivering
 high quality video experiences to as many learners as possible, edX offers
-media encoding and hosting services to address multiple playback and download
-needs.
+media encoding and hosting services to partners to address multiple playback
+and download needs.
 
 ************************************
 Course Team Video Upload Overview
@@ -50,9 +50,11 @@ accounts to ensure optimal playback quality for course videos.
      video ID and then transcoding it into four formats and transferring the
      results to two host sites
 
-The automated encoding and hosting process takes 24 hours to complete. If a
-step fails to complete successfully the process includes multiple automated
-retries.
+.. important:: The automated encoding and hosting process takes **24 hours**
+ to complete.
+
+If a step fails to complete successfully the process includes multiple
+automated retries.
 
 Course teams can track the status of each video file on the Studio **Video
 Uploads** page as the videos go through automated processing.
@@ -67,10 +69,10 @@ Course Team Add Video Overview
 ************************************
 
 In Studio, course teams can monitor the progress of each video that they
-upload and obtain its unique video ID. After the encoding and hosting process
-for a file completes successfully, the course team adds its video ID to a
-video component in the course outline. For more information, see :ref:`Adding
-Videos to a Course`.
+upload and obtain its unique video ID. After the file uploads to the edX
+servers successfully, it is given a status of Ready and the course team can
+add its video ID to a video component in the course outline. For more
+information, see :ref:`Adding Videos to a Course`.
 
 .. image:: Images/add_video_process.png
  :alt: Flowchart of course team uploading a video, followed by edX assigning a
@@ -80,5 +82,10 @@ Videos to a Course`.
 When a learner uses the edX video player or the edX mobile app to access a
 course video, the video ID is what provides the connection to the URLs that
 host each differently-encoded version of the original video file.
+
+The course team can add a video to their course as soon as its unique video ID
+is assigned, and the video plays in the LMS as soon as its status is Ready.
+However, processing takes 24 hours to complete for all encodings and all video
+hosting sites.
 
 .. _creating a video transcript: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/creating_content/create_video.html#step-2-create-or-obtain-a-video-transcript
