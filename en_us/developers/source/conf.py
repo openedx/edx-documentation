@@ -61,3 +61,5 @@ if on_rtd:
        "github_base_account" : 'edx',
        "github_project" : 'edx-documentation',
     }
+#remove directory when content is first added to it, and add to index
+exclude_patterns = ['i18n.rst', 'i18n_translators_guide.rst']
