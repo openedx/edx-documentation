@@ -107,7 +107,7 @@ You might find the following references helpful as you prepare your PR.
   guide/en/latest/process/index.html>`_.
 
 * The `edX Research
-  Guide<http://edx.readthedocs.org/projects/devdata/en/latest/>`_ is a
+  Guide <http://edx.readthedocs.org/projects/devdata/en/latest/>`_ is a
   reference for information about emitted events that are included in the edX
   tracking logs.
 
