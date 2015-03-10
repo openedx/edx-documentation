@@ -140,7 +140,7 @@ Creating YouTube Channels
 
 #. Above the list of channels click **Create New**. A popup window opens.
 
-#. Leave the checkboxes under **Permissions** unselected, and then click
+#. Leave the check boxes under **Permissions** unselected, and then click
    **Continue**. (You can change the channel's permission settings at any
    time.) The popup window presents fields for information about the channel.
 
@@ -204,3 +204,7 @@ Course team members who complete the activation process are channel managers.
 When they log in to YouTube at https://www.youtube.com using the email address
 that has channel manager privileges, they can manage course content.
 
+.. important:: It takes 24 hours to complete the automated encoding and 
+ hosting process for each video file that a course team uploads in Studio.
+ Channel managers cannot use YouTube to work with the resulting hosted file
+ until after the process is complete.
