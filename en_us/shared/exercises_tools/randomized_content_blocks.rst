@@ -82,7 +82,7 @@ You must enable content libraries before you can use randomized components from
    
    Studio reformats the policy key you just entered to indent it on a new line.
 
-  .. image:: ../Images/ContentLibraries_AdvancedSetting.png
+  .. image:: ../../../shared/building_and_running_chapters/Images/ContentLibraries_AdvancedSetting.png
      :alt: Advanced Module policy key "library_content"
 
 
@@ -123,7 +123,8 @@ component.
     problem to be drawn from the library. Select **Any Type** if you do not want
     to specify a particular type of problem.
 
-    .. image:: ../Images/ContentLibraries_SelectProblemType.png
+
+    .. image:: ../../../shared/building_and_running_chapters/Images/ContentLibraries_SelectProblemType.png
      :alt: The Edit icon to the right of the Library Name    
 
   - For **Scored**, from the drop down list select **True** or **False** to
@@ -163,7 +164,8 @@ student.
    references your library.
 #. In the randomized content block, click the **View** icon.
    
-   .. image:: ../Images/ContentLibraries_ViewMatching.png
+
+   .. image:: ../../../shared/building_and_running_chapters/Images/ContentLibraries_ViewMatching.png
       :alt: The View button for a randomized content block
 
    You see all components that match the specifications in the randomized
@@ -221,7 +223,7 @@ You can also reset a component's settings to the library default. If a
 component's settings have been changed from the default settings in the library,
 a **Clear** icon is shown next to the setting field.
 
- .. image:: ../Images/ContentLibraries_ResetComponentField.png
+ .. image:: ../../../shared/building_and_running_chapters/Images/ContentLibraries_ResetComponentField.png
     :alt: Clear button in the course component field reverts value to library value.
 
 Click the **Clear** icon to restore the library default setting for that field.
@@ -255,7 +257,7 @@ version in the library.
   outline, you see a message indicating that the component is out of date in
   comparison with the library.
 
-  .. image:: ../Images/ContentLibraries_ComponentUpdateNow.png
+  .. image:: ../../../shared/building_and_running_chapters/Images/ContentLibraries_ComponentUpdateNow.png
      :alt: Error message shown when the source library has changed, with the
       Update Now link circled.
 
@@ -273,7 +275,7 @@ version in the library.
   in a randomized content block will be lost if you click **Update now** to get
   the latest library version.
 
-  .. image:: ../Images/ContentLibraries_ResetComponentField.png
+  .. image:: ../../../shared/building_and_running_chapters/Images/ContentLibraries_ResetComponentField.png
      :alt: Clear icon in the course component field reverts value to library value.
 
   
