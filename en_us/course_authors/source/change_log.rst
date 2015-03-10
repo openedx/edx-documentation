@@ -12,6 +12,8 @@ March 2015
 
    * - Date
      - Change
+   * - 11 Mar 2015
+     - Added the secton :ref:`Adding Tooltips to a Problem`.
    * - 3 Mar 2015
      - Updated the :ref:`Preface` to include information about the :ref:`The
        edX Partner Portal` and the :ref:`The Open edX Portal`.
