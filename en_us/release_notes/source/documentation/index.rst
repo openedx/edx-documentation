@@ -4,6 +4,21 @@ edX Documentation
 
 
 ******************
+March 11, 2015
+******************
+
+==================================
+edX Research Guide
+==================================
+
+The `Tracking Logs`_ chapter now contains:
+
+* New events for contributions to discussion forums.
+
+* New events for the opening of Google calendars and documents to the Tracking
+  Logs chapter.
+
+******************
 March 2, 2015
 ******************
 
