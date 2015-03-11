@@ -15,6 +15,9 @@ a selected problem.
 
 * :ref:`score_histogram`
 
+Student answer distribution data, including both charts and reports, is also
+available from edX Insights. For more information, see `Using edX Insights`_.
+
 .. _Student_Answer_Submission:
 
 ************************************************************
@@ -319,3 +322,6 @@ information.
   course the number of students shown in a score histogram can be quite
   different than the **Count** for the same problem in a student answer
   distribution report.
+
+
+.. _Using edX Insights: http://edx-insights.readthedocs.org/en/latest/

@@ -13,7 +13,7 @@ the response field.
 .. image:: ../../../shared/building_and_running_chapters/Images/image292.png
  :alt: Image of a numerical input problem
 
-Note that students' responses don't have to be exact for these problems. You
+Note that students' responses do not have to be exact for these problems. You
 can specify a margin of error, or tolerance. You can also specify a correct
 answer explicitly, or use a Python script. For more information, see the
 instructions below.
@@ -38,10 +38,10 @@ Create a Numerical Input Problem
 
 You can create numerical problems in the Simple Editor or in the Advanced
 Editor regardless of the answer to the problem. If the text of your problem
-doesn't include any italics, bold formatting, or special characters, you can
+does not include any italics, bold formatting, or special characters, you can
 create the problem in the Simple Editor. If the text of your problem contains
 special formatting or characters, or if your problem contains a Python script,
-you'll use the Advanced Editor.
+you use the Advanced Editor.
 
 For example, the following example problems require the Advanced Editor. 
 
@@ -55,31 +55,25 @@ For more information about including a Python script in your problem, see
 Simple Editor
 ==================
 
-#. Under **Add New Component**, click **Problem**.
-#. In the **Select Problem Component Type** screen, click **Numerical
-   Input** on the **Common Problem Types** tab.
-   
-3. When the new Problem component appears, click **Edit**.
-#. In the component editor, replace the sample problem text with your own
-   text.
-#. Determine the text of the problem to use as a label, and then surround that
-   text with two sets of angle brackets (>><<).
-#. Select the text of the answer, and then click the numerical input button. 
-
-  .. image:: ../../../shared/building_and_running_chapters/Images/ProbCompButton_NumInput.png
-    :alt: Image of the numerical input button
-
-  When you do this, an equals sign appears next to the answer.
-        
-7. (Optional) Specify a margin of error, or tolerance. You can specify a
+#. Under **Add New Component**, select **Problem**.
+#. Under **Common Problem Types**, select **Numerical Input**.
+#. When the new Problem component appears, click **Edit**. The Simple Editor
+   opens with example problems.
+#. In the editor, replace the sample problem text with your own text.
+#. Determine the text of the problem to use as an accessible label, and then
+   use two sets of angle brackets (>><<) to surround that text.
+#. To identify the problem's answer, select the answer text and then select
+   **Numerical Input** in the editing toolbar. An equals sign appears
+   next to the answer.
+#. (Optional) Specify a margin of error, or tolerance. You can specify a
    percentage, number, or range.
 
    * To specify a percentage on either side of the correct answer, add
-     **+-NUMBER%** after the answer. For example, if you want to include a 2%
+     **+-{number}%** after the answer. For example, if you want to include a 2%
      tolerance, add **+-2%**.
 
    * To specify a number on either side of the correct answer, add
-     **+-NUMBER** after the answer. For example, if you want to include a
+     **+-{number}** after the answer. For example, if you want to include a
      tolerance of 5, add **+-5**.
 
    * To specify a range, use brackets [] or parentheses (). A bracket
@@ -89,17 +83,15 @@ Simple Editor
      but not 8. Likewise, if you specify **(5, 8]**, correct answers can be 6,
      7, and 8, but not 5.
 
-8. In the component editor, select the text of the explanation, and then click
-   the explanation button to add explanation tags around the text.
-
-   .. image:: ../../../shared/building_and_running_chapters/Images/ProbCompButton_Explanation.png
-    :alt: Image of the explanation button
-
-9. On the **Settings** tab, specify the settings that you want. 
+8. To provide an explanation, select the explanation text and then click
+   **Explanation** in the editing toolbar. "[explanation]" appears before and
+   after the explanation text.
+#. On the **Settings** tab, specify the settings that you want for the
+   problem.
 #. Click **Save**.
 
-For the first example problem above, the text in the Problem component is the
-following.
+For the first example problem above, the text in the Problem component appears
+as follows.
 
 ::
 
