@@ -60,6 +60,10 @@ as the course staff. They can also:
 * Add and remove Discussion Admins, Discussion Moderators, and Discussion
   Community TAs.
 
+.. note:: To moderate course discussions, the team member must also have one 
+ of the discussion roles. For more information, see
+ :ref:`Assigning_discussion_roles`.
+
 .. 12 Feb 14 Sarina: This all sounds right but there are other tasks (rescoring, etc) not mentioned. Probably worth nailing down what tasks can and cannot be done by a course staff.
 
 **********************

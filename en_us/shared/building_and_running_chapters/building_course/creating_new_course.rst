@@ -158,9 +158,12 @@ To add a course team member:
 #. Click **Add a New Team Member**.
 #. Enter the new team member's email address, then click **ADD USER**. 
 
-The new team member can now work on the course in Studio. To preview
-the course in the LMS or work on the Instructor Dashboard, the team member
-must enroll in the course.
+The new team member can now work on the course in Studio. 
+
+* To preview the course in the LMS, the team member must enroll in the course.
+* To moderate course discussions, the team member must also have one of the
+  discussion roles. For more information, see
+  :ref:`Assigning_discussion_roles`.
 
 You can also assign privileged roles to users when you work in the LMS.
 
