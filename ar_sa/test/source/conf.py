@@ -7,7 +7,7 @@ import sys, os
 on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 
 # Add any paths that contain templates here, relative to this directory.
-#templates_path = ['_templates']
+templates_path = ['_templates']
 
 master_doc = 'index'
 
@@ -18,7 +18,7 @@ source_suffix = '.rst'
 pygments_style = 'sphinx'
 
 
-language = 'en'
+language = 'he'
 
 # Add any paths that contain templates here, relative to this directory.
 #templates_path.append('source/_templates')
@@ -43,15 +43,15 @@ release = ''
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 # html_theme = 'default'
-#html_theme = 'edx_theme'
+html_theme = 'edx_theme'
 
 # Add any paths that contain custom themes here, relative to this directory.
 #html_theme_path = []
-#html_theme_path = ['../../_themes']
+html_theme_path = ['../../_themes']
 
-#html_favicon = '../../_themes/edx_theme/static/css/favicon.ico'
+html_favicon = '../../_themes/edx_theme/static/css/favicon.ico'
 
-#html_use_smartypants = True
+html_use_smartypants = True
 html_use_smartypants = True
 
 if on_rtd:
