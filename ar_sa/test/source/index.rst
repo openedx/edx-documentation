@@ -8,8 +8,8 @@ edX Guide for Students
 ========================================
 
 .. toctree::
-   :maxdepth: 1
 
    sample
-   hebrew
+   sampletwo
+   samplethree
    SFD

@@ -18,7 +18,7 @@ source_suffix = '.rst'
 pygments_style = 'sphinx'
 
 
-language = 'he'
+language = 'en'
 
 # Add any paths that contain templates here, relative to this directory.
 #templates_path.append('source/_templates')
