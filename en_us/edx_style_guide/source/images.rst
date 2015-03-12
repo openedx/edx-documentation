@@ -22,8 +22,9 @@ Guidelines
 *****************
 
 Guidelines for using screenshots in documentation (when is it necessary)
+
 Guidelines for making screen captures (sizes, resolution, how much of window
-to capture/exclude) Before you take a screen shot, narrow the window to avoid
+to capture/exclude). Before you take a screen shot, narrow the window to avoid
 extra white space - usually narrow until page is no longer responsive (unless
 this will make screen shot too long)
 
@@ -60,7 +61,8 @@ Accessibility
 *****************
 
 Making images and accessible and easy to globalize
-use alt text so that screenreaders have information for the image
+
+Use alt text so that screenreaders have information for the image
 
 
 
@@ -74,16 +76,18 @@ higher res version available
 Use Photoshop to edit images.
 
 Screen shots must have a border:
-2 pt
-#b7b7b7
+
+* 2 pt
+* #b7b7b7
 
 Save the screen shot as the original size and set size in document.
 
-Save for web (CMD+OPTION+SHIFT+S): 
+Save for web 
 
-Preset: PNG-24
-Accept other defaults
-Save as .png.
+#. Press CMD+OPTION+SHIFT+S. 
+#. Preset: PNG-24
+#. Accept other defaults
+#. Save as .png, original size. Specify width in RST file.
 
 =============
 Annotations
@@ -148,10 +152,7 @@ user can click the image in the document to enlarge it.
     - 250
   * - Extra-wide screen
     - 800
-  * - 
-    - 
-  * - 
-    - 
+
 
 Full screen width
 

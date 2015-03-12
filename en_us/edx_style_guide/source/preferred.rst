@@ -5,21 +5,27 @@ Preferred Usage
 #################
 
 
-Write short, clear sentences. Avoid dependent clauses.
+* Write short, clear sentences. Avoid dependent clauses.
 
-Break sentences into shorter phrases where possible.
-Locate the course you want to re-run and click **Re-Run Course**.
-Locate the course you want to re-run, and then click **Re-Run Course**.
+* Break sentences into shorter phrases where possible.
 
-Don’t use “the following” as a noun
-Don't use "should" for "have to" or "must"; can use "we recommend"
+  * Locate the course you want to re-run and click **Re-Run Course**.
 
-Avoid redundancy in phrases like, 
-Create a new NOUN --> prefer Create a NOUN
-Delete/Edit an existing NOUN --> prefer Delete/Edit a NOUN
+  * Locate the course you want to re-run, and then click **Re-Run Course**.
+
+* Don’t use “the following” as a noun.
+
+* Use "have to," "must," or "we recommend" rather than "should." 
+
+* Avoid redundancy in phrases:
+
+  * Create a new NOUN --> prefer Create a NOUN
+
+  * Delete or edit an existing NOUN --> prefer Delete or edit a NOUN
 
 
 .. list-table::
+  :widths: 20 80
 
   * - Abbreviations
     - Only use for standards of measurement, such as kb. For example, replace
@@ -32,7 +38,7 @@ Delete/Edit an existing NOUN --> prefer Delete/Edit a NOUN
       "The browser emits these events when you click **Save**."
 
   * - Acronyms
-    - Always spell out on first mention.
+    - Always spell out on first mention per page.
 
       Students see your course in the learning management system (LMS).
 
@@ -51,14 +57,15 @@ Delete/Edit an existing NOUN --> prefer Delete/Edit a NOUN
       ready for release."
 
   * - Dates
-    - Format dates as DD Mon YYYY or DD Month YYYY. For example: 11 Jan 2015
+    - Format dates as ``DD Mon YYYY`` or ``DD Month YYYY``. For example: ``11
+      Jan 2015``
   * - File types 
     - Include the period before the file type abbreviation, and make the file
       type lowercase. For example: "Download a .csv file on the Instructor
       Dashboard." If necessary, explain the file type. For example: "A Word
       (.doc) file."
   * - Headings
-    - *How headings are worded (H1s: gerunds, etc.)*
+    - TBD: How headings are worded (H1s: gerunds, etc.)
   * - Images
     - Minimize use of screenshots and other graphics. For more information,
       see :ref:`Images`.
@@ -89,7 +96,7 @@ Delete/Edit an existing NOUN --> prefer Delete/Edit a NOUN
       the problem is more complex, write it out as steps.
 
   * - Tables
-    - *Rules for use*
+    - TBD: Rules for use
   * - UI terms
     - When you describe UI elements, leave out the UI element name. For
       example, type "click OK" instead of "click the OK button."

@@ -5,6 +5,7 @@ Word List
 ############
 
 .. list-table::
+  :widths: 20 80
 
   * - chapter
     - TBD: section vs. chapter vs. topic
