@@ -13,14 +13,22 @@ Resources for making screen captures (existing dummy course with good data)
 
 Because the UI can change rapidly, use images sparingly.
 
+Add to images section. Need guidelines for created images such as flowcharts,
+diagrams. What standard tools should we/can we use? Ultimately would be good
+to have a library of styled graphics, shapes, etc. for consistency.
+
 *****************
 Guidelines
 *****************
 
 Guidelines for using screenshots in documentation (when is it necessary)
 Guidelines for making screen captures (sizes, resolution, how much of window
-to capture/exclude)
-Before you take a screen shot, narrow the window to avoid extra white space - usually narrow until page is no longer responsive (unless this will make screen shot too long)
+to capture/exclude) Before you take a screen shot, narrow the window to avoid
+extra white space - usually narrow until page is no longer responsive (unless
+this will make screen shot too long)
+
+The following image has a lot of white space inside the component editor,
+which narrowing the window will correct.
 
 .. image:: Images/DiscussionComponentEditor.png
   :width: 450
@@ -54,6 +62,8 @@ Accessibility
 Making images and accessible and easy to globalize
 use alt text so that screenreaders have information for the image
 
+
+
 *****************
 Editing Images
 *****************
@@ -85,9 +95,28 @@ required, use edX blue (#2276b2).
 Make sure that callouts or other additions are in a separate layer from the
 images.
 
-instead of using text, use numbered identifiers and provide a legend
+Instead of using text, use numbered identifiers and provide a legend.
 
-if text is used in graphics, leave 30% extra surrounding space for expansion
+If text is used in graphics, leave 30% extra surrounding space for expansion.
+
+**************************
+Adding Images to Files
+**************************
+
+When you add an image to a file, include three lines.
+
+* The image directive
+* The image width
+* Image alt text
+
+.. code-block:: xml
+
+  .. image:: Images/HTMLEditor_empty.png
+    :width: 450
+    :alt: An empty HTML component editor in Studio
+
+
+
 
 ***************
 Image Sizes

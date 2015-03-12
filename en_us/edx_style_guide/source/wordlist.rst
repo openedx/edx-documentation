@@ -4,21 +4,61 @@
 Word List
 ############
 
-email (not e-mail or Email) – TBC fine for use as noun and adjective. Verb? Prefer "send an email message"? "send an email" OK as a noun; don't use as adj
-smartphone (one word)
-URL (not url). When providing a URL in documentation, omit trailing slashes (http://edx.org instead of http://edx.org/).
-ID (not id)
-third party (noun), e.g. "This product comes from a third party"); third-party (adjective), e.g. "third-party software"
-Standardize on section vs. chapter vs. topic, etc.
-Do we refer to “pop up box”, “dialog box”?
-“Staff View” and “Student View”? or is it “the Staff view” and “the Student view”?
-“Must” vs “have to” vs “should”
-Don’t use “discussion forums”; use “course discussions”
-“User rights” vs “privileges”
-drop-down or dropdown list/menu
-check box or checkbox (and do users “select” a checkbox or “check” a checkbox? “Clear” or “deselect”?)
-learner v student: learner (sigh)
-instructor v professor: instructor
-Instructor Dashboard
-Student Dashboard
-numerals
+.. list-table::
+
+  * - chapter
+    - TBD: section vs. chapter vs. topic
+  * - course discussions
+    - Use instead of "discussion forum".
+  * - discussion forum
+    - Do not use. Use "course discussions".
+  * - dropdown
+    - Use "drop-down" throughout the guides except when directly referring to
+      the UI control, which is labeled "dropdown". (Use sparingly to describe
+      a UI element as the UI may change.)
+  * - email
+    - Not e-mail or Email. Can be a noun or adjective (e.g., "Send an email"
+      or "Send an email message"). Do not use as a verb.
+  * - ID
+    - Not id.
+  * - instructor
+    - Use instead of "professor".
+  * - Instructor Dashboard
+    - Capitalize both words.
+  * - learner
+    - Use instead of "student".
+  * - login, log in
+    - Do not use. Use "sign-in" (adj) or "sign in to" (v).
+  * - plug-in
+    - Not plugin.
+  * - professor
+    - Use "instructor".
+  * - section
+    - TBD: section vs. chapter vs. topic
+  * - sign in to
+    - Not "sign into".
+  * - smartphone
+    - One word.
+  * - snippet
+    - Use "sample" or "example" instead.
+  * - Staff View
+    - TBD: “Staff View” and “Student View”? “the Staff view” and “the Student view”?
+  * - student
+    - Use "learner".
+  * - Student Dashboard
+    - TBD: Capitalize?
+  * - third party, third-party
+    - "third party" is a noun (e.g. "This product comes from a third party");
+      third-party is the adjective form (e.g., "third-party software").
+  * - topic
+    - TBD: section vs. chapter vs. topic
+  * - URL
+    - Not url. When providing a URL in documentation, omit trailing slashes
+      (http://edx.org instead of http://edx.org/).
+  * - username
+    - Not "user name" (this is a necessary evil).
+  * - user rights
+    - TBD: user rights vs. privileges
+  * - XBlock
+    - Not Xblock or xBlock.
+

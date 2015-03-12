@@ -4,6 +4,21 @@
 Documenting the User Interface
 ###############################
 
+
+For UI elements, everything should use sentence caps except the following
+items, which use title caps:
+
+* Page titles
+* Tab titles (maybe?)
+* Buttons (because these usually only have a few words)
+
+
+"A browser emits ``seek_video`` events when a user uses the playback bar or back 30 seconds button, or clicks in a transcript, to go to a different point..."
+SP: Maybe enclose "back 30 seconds" in quotation marks to clarify it's the name of the button?
+AH: it's not the actual name of the button, or I would bold it... how would you categorize this for the style guide?
+SP: Hmm - I think since it's not really the name of the button, but describes what the button does, we should use quotation marks but not capitalize it? We should probably have a "buttons that have icons but not text but we need to describe them" category in the style guide. :-\
+AH: there are several more UI controls like this, no visible label or mouseover tip/name, including the "playback" bar. When we have a more complete definition of what to do, I'll delimit all of them in this file when we do the globalization review...
+
 .. list-table::
    :widths: 15 85
 
@@ -12,7 +27,7 @@ Documenting the User Interface
    * - button
      - 
    * - checkbox
-     - One word.
+     - One word. TBD: Do users “select” a checkbox or “check” a checkbox? “Clear” or “deselect”?
    * - component editor
      - 
    * - control
