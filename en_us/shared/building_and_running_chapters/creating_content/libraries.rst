@@ -11,24 +11,23 @@ Working with Content Libraries
 Content Libraries Overview
 **************************
 
-In Studio, if you have course creation privileges, you can create a content
-library to build a pool of components that can be used in randomized assignments
-in your courses. You can add HTML components, problems, and video components to
-a library. Peer assessment and discussion components are not supported in
-content libraries.
+In Studio, if you have course creation privileges, you can create a library to
+build a pool of components for use in randomized assignments in your courses.
+You can add HTML components, problems, and video components to a library. Peer
+assessment and discussion components are not supported in libraries.
 
 .. note:: Content libraries are available only for courses that have course
-   identifiers in this format: ``{key type}:{org}+{course}+{run}``. For example, ``course-v1:edX+DemoX+Demo_2015``. Your course identifier appears in the  browser address bar as the final part of the URL when you open your course in Studio. For more details, see :ref:`Create a New Course`.
+   identifiers in this format: ``{key type}:{org}+{course}+{run}``. For example,
+   ``course-v1:edX+DemoX+Demo_2015``. Your course identifier appears in the
+   browser address bar as the final part of the URL when you open your course in
+   Studio. For more details, see :ref:`Create a New Course`.
 
 After creating a library and adding components to it, if you have :ref:`enabled
 content libraries<Enable Content Libraries>` in your course, you can use these
 library components in randomized assignments in your course. You do this by
-adding a randomized content block to a course unit and indicating one or more
-libraries from which the randomized content is to drawn, as well as the number
-and type of problems that each student is assigned. If you specify more than one
-library from which to randomly draw components for the randomized assignment,
-the content from all specified libraries is combined before the random selection
-is made.
+adding a randomized content block to a course unit and specifying the name of
+the library from which the randomized content is to drawn. You also specify the
+number and type of problems that each student is assigned.
 
 Libraries have separate users and levels of access from courses. Initially, only
 the person who created the library has access. She can add other users to the
@@ -66,12 +65,12 @@ Create a New Library
 
 Use :ref:`content libraries<Content Libraries>` to build a pool of components
 that can be used in randomized assignments in your courses. You can create
-content libraries if you have course creation privileges.
+libraries if you have course creation privileges.
 
 For information about adding other users to a library after you create it, see
 :ref:`Give Other Users Access to Your Library`.
 
-To create a new content library, follow these steps.
+To create a new library, follow these steps.
 
 #. Log in to Studio. 
    
@@ -91,7 +90,7 @@ To create a new content library, follow these steps.
     a meaningful name that will help you and other course team members to
     identify the library. For example, "Level 200 Math Problems". When you add a
     randomized content block to a course unit, you use the library name to
-    specify this library as a source for the randomized content.
+    specify this library as a source for the randomized assignment.
 
   * For **Organization**, enter the identifier for your university. For
     example, enter HarvardX or MITx. Do not include spaces or special
@@ -220,11 +219,11 @@ Randomized Content as a Student`.
 Edit Components in a Library
 ****************************
 
-After you have added components to a content library, you can edit, duplicate,
-or delete them. 
+After you have added components to a library, you can edit, duplicate, or delete
+them.
 
-For step-by-step instructions for editing, duplicating, or
-deleting components, refer to the following topics:
+For step-by-step instructions for editing, duplicating, or deleting components,
+refer to the following topics.
 
 * :ref:`Edit a Component`
 * :ref:`Duplicate a Component`
@@ -234,8 +233,8 @@ deleting components, refer to the following topics:
    these updates in the "source" library are not reflected in the course unless
    you manually update the randomized content block in the course unit. For
    details about updating library components used in your course to match the
-   latest version in the content library, see :ref:`Get the Latest Version of
-   Library Content`.
+   latest version in the library, see :ref:`Get the Latest Version of Library
+   Content`.
 
 
 .. _Delete a Library:
