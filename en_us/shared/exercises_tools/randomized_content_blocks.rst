@@ -128,7 +128,7 @@ component.
     to specify a particular type of problem.
 
 
-    .. image:: ../../../shared/building_and_running_chapters/Images/ContentLibraries_RCBSelectProblemType.png
+  .. image:: ../../../shared/building_and_running_chapters/Images/ContentLibraries_RCBSelectProblemType.png
      :alt: The Edit icon to the right of the Library Name    
 
   - For **Scored**, from the drop down list select **True** or **False** to
@@ -227,8 +227,8 @@ You can also reset a component's settings to the library default. If a
 component's settings have been changed from the default settings in the library,
 a **Clear** icon is shown next to the setting field.
 
- .. image:: ../../../shared/building_and_running_chapters/Images/ContentLibraries_ResetComponentField.png
-    :alt: Clear button in the course component field reverts value to library value.
+.. image:: ../../../shared/building_and_running_chapters/Images/ContentLibraries_ResetComponentField.png
+   :alt: Clear button in the course component field reverts value to library value.
 
 Click the **Clear** icon to restore the library default setting for that field.
 

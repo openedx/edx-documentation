@@ -126,11 +126,11 @@ To change the name of a library, follow these steps.
 #. Click **Libraries**, then click the library whose name you want to edit.
    
 #. Click the **Edit** icon next to the library name. 
-   
+  
+   .. image:: ../../../shared/building_and_running_chapters/Images/ ContentLibrary_EditName.png
+      :alt: The Edit icon to the right of the Library Name
+
    The library name field becomes editable.
-   
-  .. image:: ../../../shared/building_and_running_chapters/Images/ContentLibrary_EditName.png
-     :alt: The Edit icon to the right of the Library Name
 
 4.  In the library name field, make edits or enter a new library name.
 #. Click anywhere outside the library name field to save your changes.
