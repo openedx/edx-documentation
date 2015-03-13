@@ -34,6 +34,8 @@ A
 
   For more information, see :ref:`Create Exercises`.
 
+  See :ref:`Providing a Course Overview` for more information.
+
 .. _Advanced Editor_g:
  
 **Advanced Editor**
