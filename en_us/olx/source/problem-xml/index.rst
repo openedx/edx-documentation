@@ -14,17 +14,15 @@ composed of four types of tags:
 * **hinters** are used to provide feedback to problems. 
 * Standard HTML tags are used for formatting. 
 
-OLX is designed to allow mixing-and-matching of inputtypes,
-responsetypes, and hinters. For example, a numerical grader could match
-7+-0.1%. It would be okay to use this with any inputtype which output a number,
-whether this was a text box, equation input, slider, or multiple choice
-question. In practice, this doesn't always work. For example, in the former
-case, a multiple choice question would not give an output in a format a
-numerical grader could handle.
+OLX is designed to allow mixing and matching of inputtypes, responsetypes, and
+hinters. For example, a numerical grader could match 7+-0.1%. Ideally, you
+could use this grader with any inputtype that outputs a number, including a
+text box, equation input, slider, or multiple choice question. In practice,
+this doesn't always work. For example, in the former case, a multiple choice
+question would not give an output in a format a numerical grader could handle.
 
 In addition, in many cases, there is a 1:1 mapping between graders and inputs.
-For some types of inputs (especially discipline-specific specialized ones), it
-simply does not make sense to have more than one grader.
+For some types of inputs (especially discipline-specific specialized ones), only one grader is needed.
 
 The most general grader is ``customresponse``. This uses Python code
 to evaluate the input. By design, this ought to work with any inputtype,
@@ -38,6 +36,7 @@ approximately identical.
 .. toctree::
    :maxdepth: 2
 
+   create_problem
    checkbox
    chemical_equation
    circuit_schematic_builder
