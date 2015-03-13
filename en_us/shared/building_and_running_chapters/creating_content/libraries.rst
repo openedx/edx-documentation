@@ -392,7 +392,7 @@ Exporting and Importing a Library
 *********************************
 
 You can :ref:`export<Export a Library>` and :ref:`import<Import a Library>` a
-content library in Studio.
+library in Studio.
 
 
 .. _Export a Library:
@@ -469,7 +469,6 @@ To import a library, follow these steps.
    use in a course, the course does not reflect these library updates until you
    manually update the randomized content block in the course unit. For details
    about updating library components used in your course to match the latest
-   version in the content library, see :ref:`Get the Latest Version of Library
-   Content`.
+   version in the library, see :ref:`Get the Latest Version of Library Content`.
    
 
