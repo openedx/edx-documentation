@@ -90,7 +90,7 @@ If you do not want to use the Wiki in your course, you can hide the page.
 
 After you select **Content** and then **Pages** in Studio, the eye icon that
 appears next to the Wiki object indicates that the Wiki page is visible in
-your course. For an example of the page and this icon, see :ref:_`Add a Page`.
+your course. For an example of the page and this icon, see :ref:`Add Page`.
 
 Click the eye icon to hide the Wiki page. The icon changes as shown in this
 example.

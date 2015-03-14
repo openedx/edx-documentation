@@ -1,7 +1,7 @@
 .. _Numerical Input:
 
 ########################
-Numerical Input
+Numerical Input Problem
 ########################
 
 Numerical input problems are the simpler of the two mathematics tools that

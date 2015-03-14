@@ -25,21 +25,21 @@ A
   The course page that provides potential students with a course summary,
   prerequisites, a course video and image, and important dates.
 
-  For more information, see :ref:`The Course Summary Page`.
+  For more information, see `The Course Summary Page`_.
 
 **Accessible Label**
 
   The descriptive, identifying name that you supply when you add a problem
   component to your course. All problems require accessible labels.
 
-  For more information, see :ref:`Create Exercises`.
+  For more information, see `Creating Exercises and Tools`_.
 
 .. _Advanced Editor_g:
  
 **Advanced Editor**
 
   An XML-only editor in a problem component that allows you to can create and
-  edit any type of problem. For more information, see :ref:`Advanced Editor`.
+  edit any type of problem. For more information, see `The Advanced Editor`_.
 
 
 .. _Assignment Type:
@@ -48,7 +48,7 @@ A
 
   The category of graded student work, such as homework, exams, and exercises.
 
-  For more information, see :ref:`Establish a Grading Policy`.
+  For more information, see `Establishing a Grading Policy`_.
 
 .. _C:
 
@@ -67,31 +67,34 @@ C
 
 
 
-.. _Checkbox Problem:
+.. _Checkbox_g:
  
 **Checkbox Problem**
 
   A problem that prompts the student to select one or more options from a list
-  of possible answers. For more information, see :ref:`Checkbox`.
+  of possible answers. For more information, see `Checkbox Problem`_.
 
 
-.. _Chemical Equation Response Problem:
+.. _Chemical Equation_g:
  
 **Chemical Equation Response Problem**
 
   A problem that allows the student to enter chemical equations as answers.
-  For more information, see :ref:`Chemical Equation`.
+  For more information, see `Chemical Equation Problem`_.
 
 
-.. _Circuit Schematic Builder Problem:
+.. _Circuit Schematic_g:
  
 **Circuit Schematic Builder Problem**
 
   A problem that allows the student to construct a schematic answer (such as
   an electronics circuit) on an interactive grid.
 
-  For more information, see :ref:`Circuit Schematic Builder`.
+  For more information, see `Circuit Schematic Builder Problem`_.
 
+**Closed Captions**
+
+  See :ref:`Transcript<T>`.
 
 .. _Cohort:
  
@@ -103,15 +106,15 @@ C
 
   Cohorts are an optional feature of courses on the edX platform. For
   information about how you enable the cohort feature, set up cohort groups,
-  and assign students to them, see :ref:`Cohorts Overview`.
+  and assign students to them, see `Using Cohorts in Your Courses`_.
 
 .. _Component_g:
  
 **Component**
 
   The part of a unit that contains your actual course content. A unit can
-  contain one or more components. For more information, see :ref:`Developing
-  Course Components`.
+  contain one or more components. For more information, see `Developing Course
+  Components`_.
 
 .. _Content Experiment:
 
@@ -121,7 +124,7 @@ C
   randomly assigned groups of students. Also known as A/B or split testing, you
   use content experiments to compare the performance of students who have been
   exposed to different versions of the content. For more information, see
-  :ref:`Creating Content Experiments`.
+  `Creating Content Experiments`_.
 
 **Content-Specific Discussion Topic**
 
@@ -131,8 +134,8 @@ C
   component to a unit. Students cannot contribute to a content-specific 
   discussion topic until the release date of the section that contains it.
 
-  For more information, see :ref:`Working with Discussion Components` and
-  :ref:`Organizing_discussions`.
+  For more information, see `Working with Discussion Components`_ and
+  `Creating Discussion Topics for Your Course`_.
 
 .. _Course Accordion:
  
@@ -160,7 +163,7 @@ C
   Course handouts are files you make available to students in the Course Info
   page.
 
-  For more information, see :ref:`Add Course Handouts`.
+  For more information, see `Add Course Handouts`_.
 
 
 .. _Course Info Page:
@@ -178,7 +181,7 @@ C
 
   The term or time frame in which a specific offering of your course takes
   place. You set the course run when you create your course. For more
-  information, see :ref:`Create a New Course`.
+  information, see `Create a New Course`_.
 
 .. _Courseware:
  
@@ -196,7 +199,7 @@ C
   topics include Announcements and Frequently Asked Questions. Students can
   contribute to these topics as soon as your course starts.
 
-  For more information, see :ref:`Organizing_discussions`.
+  For more information, see `Creating Discussion Topics for Your Course`_.
 
 .. _Custom Response Problem:
  
@@ -204,7 +207,7 @@ C
 
   A custom response problem evaluates text responses from students using an
   embedded Python script. These problems are also called "write-your-own-
-  grader" problems. For more information, see :ref:`Write Your Own Grader`.
+  grader" problems. For more information, see `Write-Your-Own-Grader Problem`_.
 
 .. _D:
 
@@ -222,8 +225,6 @@ D
 
   For more information, see the `edX Research Guide`_.
 
-.. _edX Research Guide: http://edx.readthedocs.org/projects/devdata/en/latest/
-
 
 **Discussion**
 
@@ -231,7 +232,7 @@ D
   Students use the discussion topics to communicate with each other and the
   course staff in threaded exchanges.
 
-  For more information, see :ref:`Discussions`.
+  For more information, see `Managing Course Discussions`_.
 
 
 .. _Discussion Component:
@@ -244,14 +245,14 @@ D
   a discussion component to a unit, you create a content-specific discussion
   topic.
 
-  For more information, see :ref:`Working with Discussion Components`.
+  For more information, see `Working with Discussion Components`_.
 
-.. _Dropdown Problem:
+.. _Dropdown_g:
  
 **Dropdown Problem**
 
   A problem that asks students to choose from a collection of answer options,
-  presented as a drop-down list. For more information, see :ref:`Dropdown`.
+  presented as a drop-down list. For more information, see `Dropdown Problem`_.
 
 
 .. _E:
@@ -267,9 +268,6 @@ E
   An online course about how to create online courses. The intended audience
   for `edX101`_ is faculty and university administrators. 
 
-.. _edX101: https://www.edx.org/course/overview-creating-edx-course-edx-edx101#.VOYi8rDF-n0
-
-
 .. _edX Edge:
  
 **edX Edge**
@@ -280,18 +278,13 @@ E
   studio.edge.edx.org, then view the courses on the learning management system
   at edge.edx.org.
 
-.. _Edge: http://edge.edx.org
-
-
-
-
 .. _edX Studio:
  
 **edX Studio**
 
   The edX tool that you use to build your courses. 
 
-  For more information, see :ref:`What is Studio?`.
+  For more information, see `What is Studio?`_.
 
 
 .. _Exercises:
@@ -325,17 +318,12 @@ G
   Thresholds that specify how numerical scores are associated with grades, and
   the score a student must obtain to pass a course.
 
-  For more information, see :ref:`Set the Grade Range`.
+  For more information, see `Set the Grade Range`_.
 
-
-.. _Grading Rubric:
  
 **Grading Rubric**
  
-  A list of the items that a student's response should cover in an open response
-  assessment.
-
-  For more information, see :ref:`PA Rubric`.
+  See :ref:`Rubric<R>`.
 
 
 .. _H:
@@ -351,7 +339,7 @@ H
   A type of component that you can use to add and format text for your course.
   An HTML component can contain text, lists, links, and images.
 
-  For more information, see :ref:`Working with HTML Components`.
+  For more information, see `Working with HTML Components`_.
 
 
 
@@ -362,14 +350,14 @@ I
 ****
 
 
-.. _Image Mapped Input Problem:
+.. _Image Mapped_g:
  
 **Image Mapped Input Problem**
 
   A problem that presents an image and accepts clicks on the image as an
   answer.
 
-  For more information, see :ref:`Image Mapped Input`.
+  For more information, see `Image Mapped Input Problem`_.
 
 .. _Import:
  
@@ -379,7 +367,7 @@ I
   you use the Import tool, Studio replaces all of your existing course content
   with the content from the imported course.
 
-  For more information, see :ref:`Import a Course`.
+  For more information, see `Import a Course`_.
 
 
  
@@ -401,10 +389,9 @@ L
   A document markup language and document preparation system for the TeX
   typesetting program.
 
-  In edX Studio, you can :ref:`import LaTeX code<Import LaTeX Code>`.
+  In edX Studio, you can `import LaTeX code`_.
 
-  You can also create a :ref:`problem written in LaTeX<Problem Written in
-  LaTeX>`.
+  You can also create a `problem written in LaTeX`_.
 
 
 
@@ -426,7 +413,7 @@ L
   see them, regardless of the release dates of the section and subsection that
   contain the units.
 
-  For more information, see :ref:`View Your Live Course`.
+  For more information, see `View Your Live Course`_.
 
 
 .. _M:
@@ -435,14 +422,14 @@ L
 M
 ****
 
-.. _Math Expression Input Problem:
+.. _Math Expression_g:
  
 **Math Expression Input Problem**
 
   A problem that requires students to enter a mathematical expression as text,
   such as e=m*c^2.
 
-  For more information, see :ref:`Math Response Formatting for Students`.
+  For more information, see `Entering Mathematical and Scientific Expressions`_.
 
 
 .. _MathJax:
@@ -452,18 +439,18 @@ M
   A LaTeX-like language that you use to write equations. Studio uses MathJax
   to render text input such as x^2 and sqrt(x^2-4) as "beautiful math."
 
-  For more information, see :ref:`MathJax in Studio`.
+  For more information, see `A Brief Introduction to MathJax in Studio`_.
 
 
 
 
-.. _Multiple Choice Problem:
+.. _Multiple Choice_g:
  
 **Multiple Choice Problem**
 
   A problem that asks students to select one answer from a list of options.
 
-  For more information, see :ref:`Multiple Choice`.
+  For more information, see `Multiple Choice Problem`_.
 
 
 .. _N:
@@ -472,14 +459,14 @@ M
 N
 ****
 
-.. _Numerical Input Problem:
+.. _Numerical Input_g:
  
 **Numerical Input Problem**
 
   A problem that asks students to enter numbers or specific and relatively
   simple mathematical expressions.
 
-  For more information, see :ref:`Numerical Input`.
+  For more information, see `Numerical Input Problem`_.
 
 
 
@@ -498,7 +485,7 @@ P
   tools and uploaded files that supplement the course. Each page appears in
   your course's navigation bar.
 
-  For more information, see :ref:`Adding Pages to a Course`.
+  For more information, see `Adding Pages to a Course`_.
 
 .. _Preview Mode:
  
@@ -508,7 +495,7 @@ P
   them, regardless of the unit status and regardless of whether the release
   dates have passed.
 
-  For more information, see :ref:`Preview Course Content`.
+  For more information, see `Preview Course Content`_.
 
 
 
@@ -520,7 +507,7 @@ P
   exercises to your course content. You can create many different types of
   problems.
 
-  For more information, see :ref:`Working with Problem Components`.
+  For more information, see `Working with Problem Components`_.
 
 
 
@@ -555,7 +542,7 @@ Q
   discussion topic to bring attention to an issue that the course staff or
   other students can resolve.
 
-  For more information, see :ref:`Discussions`.
+  For more information, see `Managing Course Discussions`_.
   
 .. _R:
 
@@ -563,14 +550,14 @@ Q
 R
 ****
 
-.. _Rubric:
+.. _Rubric_g:
  
 **Rubric**
 
   A list of the items that a student's response should cover in an open
   response assessment.
 
-  For more information, see :ref:`PA Rubric`.
+  For more information, see `Rubric`_.
 
 
 
@@ -590,7 +577,7 @@ S
   The topmost category in your course. A section can represent a time period
   in your course or another organizing principle.
 
-  For more information, see :ref:`Developing Course Sections`.
+  For more information, see `Developing Course Sections`_.
 
 
 .. _Short Course Description:
@@ -600,7 +587,7 @@ S
   The description of your course that appears on the edX `Course List
   <https://www.edx.org/course-list>`_ page.
 
-  For more information, see :ref:`Describe Your Course`.
+  For more information, see `Describe Your Course`_.
 
 
 .. _Simple Editor_g:
@@ -609,13 +596,13 @@ S
 
   The graphical user interface in a problem component that contains formatting
   buttons and is available for some problem types. For more information, see
-  :ref:`Problem Studio View`.
+  `The Studio View of a Problem`_.
 
 .. _Split_Test:
 
 **Split Test**
 
-  See `Content Experiment`_.
+  See :ref:`Content Experiment<C>`.
 
 
 .. _Subsection:
@@ -626,7 +613,7 @@ S
   principle. Subsections are found inside sections and contain units.
   Subsections can also be called "lessons."
 
-  For more information, see :ref:`Developing Course Subsections`.
+  For more information, see `Developing Course Subsections`_.
 
 
 .. _T:
@@ -635,14 +622,14 @@ S
 T
 ****
 
-.. _Text Input Problem:
+.. _Text Input_g:
  
 **Text Input Problem**
 
   A problem that asks the student to enter a line of text, which is then
   checked against a specified expected answer.
 
-  For more information, see :ref:`Text Input`.
+  For more information, see `Text Input Problem`_.
 
 
 .. _Transcript:
@@ -652,7 +639,7 @@ T
   A text version of the content of a video. You can make video transcripts
   available to students.
 
-  For more information, see :ref:`Working with Video Components`.
+  For more information, see `Working with Video Components`_.
 
 
 .. _V:
@@ -667,7 +654,7 @@ V
 
   A component that you can use to add recorded videos to your course. 
 
-  For more information, see :ref:`Working with Video Components`.
+  For more information, see `Working with Video Components`_.
 
 
 .. _W:
@@ -686,6 +673,8 @@ W
   Students can use the wiki to share links, notes, and other helpful
   information with each other.
 
+  For more information, see `Hide or Show the Course Wiki Page`_.
+
 
 .. _X:
 
@@ -702,4 +691,51 @@ XYZ
   Third parties can create components as web applications that can run within
   the edX learning management system.
 
+
+
+
+.. _The Course Summary Page: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/building_course/setting_up_student_view.html#the-course-summary-page
+.. _Creating Exercises and Tools: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/create_exercises_and_tools.html
+.. _The Advanced Editor: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/creating_content/create_problem.html#advanced-editor
+.. _Establishing a Grading Policy: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/building_course/establish_grading_policy.html
+.. _Checkbox Problem: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/checkbox.html
+.. _Chemical Equation Problem: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/chemical_equation.html
+.. _Circuit Schematic Builder Problem: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/circuit_schematic_builder.html
+.. _Using Cohorts in Your Courses: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/cohorts/cohorts_overview.html
+.. _Developing Course Components: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/developing_course/course_components.html
+.. _Creating Content Experiments: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/content_experiments/index.html
+.. _Working with Discussion Components: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/creating_content/create_discussion.html
+.. _Creating Discussion Topics for Your Course: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/running_course/discussions.html#organizing-discussions
+.. _Add Course Handouts: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/building_course/handouts_updates.html#add-course-handouts
+.. _Create a New Course: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/building_course/creating_new_course.html#create-a-new-course
+.. _Write-Your-Own-Grader Problem: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/custom_python.html
+.. _edX Research Guide: http://edx.readthedocs.org/projects/devdata/en/latest/
+.. _Managing Course Discussions: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/running_course/discussions.html
+.. _Working with Discussion Components: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/creating_content/create_discussion.html
+.. _Dropdown Problem: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/dropdown.html
+.. _edX101: https://www.edx.org/course/overview-creating-edx-course-edx-edx101#.VOYi8rDF-n0
+.. _Edge: http://edge.edx.org
+.. _What is Studio?: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/getting_started/get_started.html#what-is-studio.. _: 
+.. _Set the Grade Range: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/building_course/establish_grading_policy.html#set-the-grade-range
+.. _Rubric: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/open_response_assessments/OpenResponseAssessments.html#pa-rubric
+.. _Working with HTML Components: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/creating_content/create_html_component.html
+.. _Image Mapped Input Problem: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/image_mapped_input.html
+.. _Import a Course: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/building_course/export_import_course.html#import-a-course
+.. _import LaTeX code: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/creating_content/create_html_component.html#import-latex-code
+.. _problem written in LaTeX: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/problem_in_latex.html#problem-written-in-latex
+.. _View Your Live Course: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/developing_course/testing_courseware.html#view-your-live-course
+.. _Entering Mathematical and Scientific Expressions: http://edx-guide-for-students.readthedocs.org/en/latest/SFD_mathformatting.html
+.. _A Brief Introduction to MathJax in Studio: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/mathjax.html
+.. _Multiple Choice Problem: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/multiple_choice.html 
+.. _Numerical Input Problem: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/numerical_input.html
+.. _Adding Pages to a Course: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/building_course/pages.html
+.. _Preview Course Content: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/developing_course/testing_courseware.html#preview-course-content
+.. _Working with Problem Components: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/creating_content/create_problem.html 
+.. _Developing Course Sections: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/developing_course/course_sections.html
+.. _Describe Your Course: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/building_course/setting_up_student_view.html#describe-your-course
+.. _The Studio View of a Problem: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/creating_content/create_problem.html#problem-studio-view
+.. _Developing Course Subsections: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/developing_course/course_subsections.html
+.. _Text Input Problem: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/text_input.html
+.. _Working with Video Components: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/creating_content/create_video.html#working-with-video-components
+.. _Hide or Show the Course Wiki Page: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/building_course/pages.html#hide-or-show-the-course-wiki-page
 
