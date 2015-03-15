@@ -8,12 +8,12 @@ releases.
 ******************
 Introduction
 ******************
+
 .. toctree::
+   :numbered:
    :maxdepth: 1
 
-   read_me
-   preface
-   browsers
+   front_matter/index
    birch
    
 **************************

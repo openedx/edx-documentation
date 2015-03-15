@@ -13,4 +13,4 @@ Flow`_. All pull requests need approval from edX. For more information, contact
 edX at docs@edx.org.
 
 
-.. include:: links.rst
+.. include:: ../links.rst

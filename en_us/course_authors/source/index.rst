@@ -11,9 +11,7 @@ Building and Running an edX Course
    :numbered:
    :maxdepth: 2
 
-   read_me
-   preface
-   change_log
+   front_matter/index
    getting_started/index
    building_course/index
    developing_course/index

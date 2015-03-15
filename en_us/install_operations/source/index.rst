@@ -22,10 +22,7 @@ Release>`.
    :numbered:
    :maxdepth: 2
 
-   read_me
-   change_log
-   preface
-   browsers
+   front_matter/index
    birch
    install_options
    devstack/install_devstack

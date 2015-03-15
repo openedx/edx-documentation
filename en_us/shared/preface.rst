@@ -78,7 +78,7 @@ announcements on the `Open edX Portal`_.
 #. Under **Announcement Type** in the **Subscriptions** block, select the type
    of announcements that you want to receive through email.
 
-   .. image:: ../../shared/images/Announcement_subscriptions.png
+   .. image:: ../../../shared/images/Announcement_subscriptions.png
      :alt: Subscription block in the Open edX Portal Announcements page.
 
 4. Click **Save**.
