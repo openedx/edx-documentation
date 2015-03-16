@@ -5,11 +5,11 @@ Accessing Assignment and Student Metrics
 ##########################################
 
 After your open response assessment assignment has been released, you can access
-information about the number of students in each step of the assignment or about
-the performance of individual students. This information is available in the
+information about the number of students in each step of the assignment or the
+performance of individual students. This information is available in the
 **Course Staff Information** section at the end of each assignment. To access
-student information, open the assignment in the courseware, scroll to the bottom
-of the assignment, and then click the black **Course Staff Information** banner.
+student information, open the assignment in the courseware, scroll to the bottom of the
+assignment, and then click the black **Course Staff Information** banner.
 
 .. image:: ../../../../shared/building_and_running_chapters/Images/PA_CourseStaffInfo_Collapsed.png
    :alt: The Course Staff Information banner at the bottom of the peer assessment
@@ -34,12 +34,9 @@ working through, the following steps:
 * Completed self assessments.
 * Completed the entire assignment. 
 
-To find this information, open the assignment in the courseware, scroll to the
-bottom of the assignment, and then click **Course Staff Information**.
+To find this information, open the assignment in the courseware, scroll to the bottom of the assignment, and then click **Course Staff Information**.
 
-The **Course Staff Information** section expands, and you can see the number of
-students who are currently working through (but have not completed) each step of
-the problem.
+The **Course Staff Information** section expands, and you can see the number of students who are currently working through (but have not completed) each step of the problem.
 
 .. image:: ../../../../shared/building_and_running_chapters/Images/PA_CourseStaffInfo_Expanded.png
    :alt: The Course Staff Information box expanded, showing problem status
@@ -50,17 +47,11 @@ the problem.
 Access Information for a Specific Student
 ***********************************************
 
-You can access information about an individual student's performance on an open
-response assessment assignment, including:
+You can access information about an individual student's performance on a peer assessment assignment, including:
 
 * The student's response. 
-  
-* The peer assessments that other students performed on the student's response,
-  including feedback on individual criteria and on the overall response.
-  
-* The peer assessments that the student performed on other students' responses,
-  including feedback on individual criteria and on the overall responses.
-  
+* The peer assessments that other students performed on the student's response, including feedback on individual criteria and on the overall response.
+* The peer assessments that the student performed on other students' responses, including feedback on individual criteria and on the overall responses.
 * The student's self assessment.
 
 In the following example, you can see the performance information for a specific
@@ -107,8 +98,7 @@ The following example shows:
 * The two peer assessments the student completed.
 * The student's self assessment.
 
-For a larger view, click the image so that it opens by itself in the browser
-window, and then click anywhere on the image that opens.
+For a larger view, click the image so that it opens by itself in the browser window, and then click anywhere on the image that opens.
 
 .. image:: ../../../../shared/building_and_running_chapters/Images/PA_SpecificStudent_long.png
    :width: 250
@@ -179,3 +169,4 @@ Remove a submission from peer assessment by completing these steps.
    
 .. image:: ../../../../shared/building_and_running_chapters/Images//ORA_CancelledStudentResponse.png
    :alt: The date, time and comment for removal of a student response is shown instead of the original response.  
+
