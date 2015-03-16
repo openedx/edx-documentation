@@ -7,12 +7,19 @@ Bulk Email
 For courses on edx.org, you can send bulk email messages to course participants
 directly from the Instructor Dashboard. Messages can use HTML styling, and can
 include links to videos, social media pages for the course, and other material.
-All course contributors who are assigned the course staff or instructor role can
-use bulk emails to communicate with course participants before, during, and
-after the course run.
+All course contributors who are assigned the course staff or instructor role
+can use bulk emails to communicate with course participants before, during, and
+after the course run. 
 
-For templates that you can use when preparing your own messages, see
-:ref:`Example Messages to Students`.
+This chapter contains the following topics.
+
+* `Message Addressing`_
+* `Send Email Messages to Course Participants`_
+* `Use Keywords in Messages`_
+* `Message Workflow States`_
+* `Review Sent Messages`_
+* `Email Task History Report`_
+* `Example Messages to Students`_
 
 
 *************************
@@ -32,12 +39,12 @@ recipients by selecting one of these predefined groups:
 
   * Students who have not replied to the account activation email message
     that is sent when they registered on edx.org. 
-  * Students who have opted out of
-    receiving email messages through the **Email Settings** link, which is present
-    for each course on the **Current Courses** dashboard.
+  * Students who have opted out of receiving email messages through the **Email
+    Settings** link, which is present for each course on the **Current
+    Courses** dashboard.
 
 Before you use the bulk email feature, consider that messages **cannot be
-cancelled** after they are sent. If you plan to send a message to all course
+canceled** after they are sent. If you plan to send a message to all course
 participants, be sure to review each draft carefully, and send the message to
 yourself first for thorough testing.
 
@@ -73,6 +80,10 @@ To send an email message to course participants:
    component editor in Studio. For more information, see :ref:`Working with
    HTML Components`.
 
+   You can use keywords in messages, to have values that are specific to each
+   recipient substituted in the content when messages are sent. For more
+   information, see `Use Keywords in Messages`_ .
+
 #. Click **Send Email**. You can perform other tasks on the Instructor
    Dashboard or navigate to other pages while you wait for your message to be
    sent.
@@ -82,6 +93,48 @@ Multiple courses use the same queue to complete these tasks, so it can take
 some time for your message to be sent to all of its recipients. If your course
 is a MOOC, consider limiting the number of messages that you send to all
 course participants to no more than one per week.
+
+.. _Use Keywords in Messages:
+
+****************************
+Use Keywords in Messages
+****************************
+
+You can include keywords in your messages. A keyword is a variable: when you
+send the message, a value that is specific to the each recipient is substituted
+for the keyword. For example, when you use the ``%%USER_FULLNAME%%`` keyword,
+each message contains the name of the recipient.
+
+.. note:: 
+  Do not use keywords in the Subject line of a message. The keyword in the
+  subject will not be assigned a value, and the recipient will see the keyword
+  text.
+
+===================
+Supported Keywords
+===================
+
+You can use the following keywords in your messages.
+
+* ``%%USER_ID%%`` - the anonymous user ID of the message recipient
+* ``%%USER_FULLNAME%%`` - the full name of the message recipient
+* ``%%COURSE_DISPLAY_NAME%%`` - the display name of the course
+* ``%%COURSE_END_DATE%%`` - the end date of the course
+
+===================
+Keyword Formatting
+===================
+
+You format keywords as: ``%%Keyword%%``.  You can include keywords in any HTML
+tags in an email message. For example:
+
+::
+
+  <h2>%%COURSE_DISPLAY_NAME%% Updates</h2>
+
+  <p>Dear %%USER_FULLNAME%%, this is a reminder that the last day of the course
+     is <b>%%COURSE_END_DATE%%</b></p>
+  . . .
 
 .. _Email_queuing:
 
@@ -191,9 +244,9 @@ To produce the Email Task History report:
         requester, date and time submitted, duration, state, task status, and
         task progress.
 
-*******************************
+===========================
 Review Email Task History
-*******************************
+===========================
 
 For tasks with a **State** of Success, the **Task Progress** column shows an
 informational message. These messages can have a format such as "Message
@@ -237,29 +290,37 @@ Example Messages to Students
 You can use these example messages, prepared for delivery before typical course
 milestones, as models for your own course communications.
 
-* :ref:`Prelaunch Reminder`
-* :ref:`Launch Day Welcome`
-* :ref:`Verified Registration Reminder`
-* :ref:`Weekly Highlights`
-* :ref:`Midcourse Encouragement`
-* :ref:`Midcourse Events`
-* :ref:`Technical Issue`
-* :ref:`Course Farewell and Certificates`
-* :ref:`New Course Run Announcement`
+* `Prelaunch Reminder`_
+* `Launch Day Welcome`_
+* `Verified Registration Reminder`_
+* `Weekly Highlights`_
+* `Midcourse Encouragement`_
+* `Midcourse Events`_
+* `Technical Issue`_
+* `Course Farewell and Certificates`_
+* `New Course Run Announcement`_
 
 These messages are styled as email messages, but you could also post this
-information in a course discussion topic or on the **Course Info** page.
+information in a course discussion topic or on the **Course Info** page. To use
+:ref:`keywords <Use Keywords in Messages>`, you must send email messages;
+keywords are not supported in discussion topics or the **Course Info** page.
 
-.. important:: Revise these message templates carefully to include facts for 
+.. important:: 
+ Revise these message templates carefully to include facts for 
  your own course, meet the needs of your students, and reflect your own
  objectives and personality. Search for the "{" and "}" characters to locate
  prompts and replace them with course-specific values.
 
+ Some of these messages also contain :ref:`keywords <Use Keywords in
+ Messages>`. Values specific to your course and the recipients will be
+ substituted for the keywords when you send the messages. Ensure you are using
+ keywords appropriately for your course and objectives.
+
 .. _Prelaunch Reminder: 
 
-********************
+====================
 Pre-launch Reminder
-********************
+====================
 
 Pre-launch reminders raise awareness of the course start date, publicize the
 course, and generate excitement. In addition to the course start date and time,
@@ -276,35 +337,37 @@ the example that follows also lets students know that:
 You may want to send out more than one message before the course launches: use
 this template as a starting point for crafting the different messages you want
 to deliver. Replace values enclosed by {braces} with information that applies
-to your course.
+to your course. In addition, check that you are using :ref:`keywords <Use
+Keywords in Messages>` appropriately.
 
 :: 
 
   Subject: {course number} Starts Soon!
 
-  Hello {course name} student,
+  Hello %%USER_FULLNAME%%,
 
-  We are excited that you are joining us for {course number} {course name},
-  offered by {organization name} through edX. Class begins on {day}, {date} at
-  {time} UTC (which is {time} {local time zone}). Note that edX courses use
-  Coordinated Universal Time (UTC) for due dates and release times.
+  We are excited that you are joining us for {course number}
+  %%COURSE_DISPLAY_NAME%%, offered by {organization name} through edX. Class
+  begins on {day}, {date} at {time} UTC (which is {time} {local time zone}).
+  Note that edX courses use Coordinated Universal Time (UTC) for due dates and
+  release times.
 
   In case you haven't already found it, {course number} has its own official
   Facebook page {add link}. You can find videos and photos posted there before
   the course even begins.
 
-  If this is your first edX course, consider enrolling in edx101 {add link},
-  the edX Demo course. This course gives you an opportunity to explore the edX
-  platform and learn how to answer problems and track your progress, before
-  {course number} begins.
+  If this is your first edX course, consider enrolling in the edX Demo course
+  {add link}. This course gives you an opportunity to explore the edX platform
+  and learn how to answer problems and track your progress, before {course
+  number} begins.
 
   Your {course number} course staff
 
 .. _Launch Day Welcome:
 
-********************
+===================
 Launch Day Welcome
-********************
+===================
 
 On your course start date, you can send an email message that both welcomes
 students and gives them specific actions to accomplish. This example directs
@@ -336,20 +399,22 @@ personally introduces the course team leader. Search for the values enclosed by
 
 .. _Verified Registration Reminder:
 
-*********************************************
+==============================================
 Reminder to Register for Verified Certificate
-*********************************************
+==============================================
 
 After your course has launched, you can send an email to remind students that
 the last day to register for a verified certificate is approaching. You can use
 this template as a starting point for your own message; search for the values
-enclosed by {braces} and replace them with information for your course.
+enclosed by {braces} and replace them with information for your course. In
+addition, check that you are using :ref:`keywords <Use Keywords in Messages>`
+appropriately.
 
 ::
 
   Subject: Earn an edX verified certificate for {course name}!
 
-  Dear students, 
+  Dear %%USER_FULLNAME%%, 
 
   Interested in using an edX certificate to bolster a college application or to
   advance your career? With an edX verified certificate, you can demonstrate to
@@ -357,8 +422,9 @@ enclosed by {braces} and replace them with information for your course.
   challenging edX course, while helping to support the edX mission.
 
   We would like to remind you that {date} is the last day to register for a
-  verified certificate in {course name}. Registering for a certificate is easy!
-  Just go to this course on your edX dashboard and click "Challenge Yourself".
+  verified certificate in %%COURSE_DISPLAY_NAME%%. Registering for a
+  certificate is easy! Just go to this course on your edX dashboard and click
+  "Challenge Yourself".
 
   Good luck!
 
@@ -366,9 +432,9 @@ enclosed by {braces} and replace them with information for your course.
 
 .. _Weekly Highlights:
 
-*********************
+==================
 Weekly Highlights
-*********************
+==================
 
 Sending a weekly email to students can be a great way to keep them engaged and
 provide encouragement. At the end of each week you might send students an email
@@ -380,16 +446,17 @@ important discussions, and provide links to the discussion topics.
 You can use this template as a starting point for designing your own message,
 omitting the discussion highlights if they are not appropriate for your course
 (the example discussion highlights are from a course about urban solutions to
-the global water crisis). Search for the values enclosed by {braces} and replace
-them with information for your course.
+the global water crisis). Search for the values enclosed by {braces} and
+replace them with information for your course. In addition, check that you are
+using :ref:`keywords <Use Keywords in Messages>` appropriately.
 
 ::
 
   Subject: {Course Name} Week 1 Highlights
 
   We hope you all had a great week! Below, we have provided links to some
-  exciting discussions that have been going on, and a Q&A video with {Professor}
-  that recaps some of the questions that have come up this week.
+  exciting discussions that have been going on, and a Q&A video with
+  {Professor} that recaps some of the questions that have come up this week.
 
   We'd also like to remind you to take this week's quiz by {date} at {time} UTC.
   The next module will be available on {Time and Date}.
@@ -412,9 +479,9 @@ them with information for your course.
 
 .. _Midcourse Encouragement:
 
-*****************************
+========================
 Mid-Course Encouragement
-*****************************
+========================
 
 While your course is running, you can send messages to promote community,
 remind students of upcoming due dates, and address any recurring issues.
@@ -423,7 +490,9 @@ This example gives students guidance on how to keep up with the course schedule
 and encourages contributions to the discussions. You may want to send out more
 than one message while the course is running. You can use this template as a
 starting point for your own messages; search for the values enclosed by
-{braces} and replace them with information for your course.
+{braces} and replace them with information for your course. In
+addition, check that you are using :ref:`keywords <Use Keywords in Messages>`
+appropriately.
 
 :: 
 
@@ -456,9 +525,9 @@ starting point for your own messages; search for the values enclosed by
 
 .. _Midcourse Events:
 
-*********************
+========================
 Mid-Course Event
-*********************
+========================
 
 Before an exam or other significant course event, messages can provide
 practical information about the exam, communicate expectations regarding
@@ -480,13 +549,14 @@ completion. This example lets students know:
   graders.
 
 Be sure to search for the values enclosed by {braces} and replace them with
-information for your course.
+information for your course. In addition, check that you are using
+:ref:`keywords <Use Keywords in Messages>` appropriately.
 
 :: 
 
   Subject: {course number} Exam Info
 
-  Hello {course name} student,
+  Hello %%USER_FULLNAME%%,
 
   Great job working through week {number}! As you know, the {course number}
   exam is next week. If you missed a problem set, you can still earn a
@@ -533,9 +603,9 @@ information for your course.
 
 .. _Technical Issue:
 
-**********************
+========================
 Technical Issue
-**********************
+========================
 
 In the event of an unanticipated system failure, a message can both alert
 students to the problem and reassure them that the issue is either resolved or
@@ -565,9 +635,9 @@ problem, the status of its solution, and any after effects.
 
 .. _Course Farewell and Certificates:
 
-****************************************
+=================================
 Course Farewell and Certificates
-****************************************
+=================================
 
 In the last few days before your course ends, a message can direct students to
 a course survey, answer questions about certificates, and provide information
@@ -578,13 +648,13 @@ about future access to course materials. Be sure to replace values enclosed by
 
   Subject: {course number} Final Remarks
 
-  Dear students,
+  Dear %%USER_FULLNAME%%,
 
-  Thank you for making {course number} so much fun these last few months! We
-  had a great time getting to know you through the course discussions. We
-  appreciate the effort that you put into this course, and we hope that you
-  enjoyed learning {subject} through edX. With or without a certificate, you
-  should be proud of your accomplishments.
+  Thank you for making %%COURSE_DISPLAY_NAME%% so much fun these last few
+  months! We had a great time getting to know you through the course
+  discussions. We appreciate the effort that you put into this course, and we
+  hope that you enjoyed learning {subject} through edX. With or without a
+  certificate, you should be proud of your accomplishments.
 
   * Please take a few minutes to answer the exit survey, now available under
     Courseware. We will use your responses to improve the course in the future.
@@ -612,9 +682,9 @@ about future access to course materials. Be sure to replace values enclosed by
 
 .. _New Course Run Announcement:
 
-*****************************
+=================================
 New Course Run Announcement
-*****************************
+=================================
 
 When you prepare a course for a new run, you can use the bulk email feature in
 its previous run (or runs) to inform an engaged and knowledgeable audience:

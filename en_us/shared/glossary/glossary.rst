@@ -4,7 +4,7 @@
 Glossary
 ############
 
-:ref:`A` - :ref:`C` - :ref:`D` - :ref:`E` - :ref:`F` - :ref:`G` - :ref:`H` - :ref:`I` - :ref:`L` - :ref:`M` - :ref:`N` - :ref:`P` - :ref:`R` - :ref:`S` - :ref:`T` - :ref:`V` - :ref:`W` - :ref:`XYZ<X>`
+:ref:`A` - :ref:`C` - :ref:`D` - :ref:`E` - :ref:`F` - :ref:`G` - :ref:`H` - :ref:`I` - :ref:`K` - :ref:`L` - :ref:`M` - :ref:`N` - :ref:`P` - :ref:`R` - :ref:`S` - :ref:`T` - :ref:`V` - :ref:`W` - :ref:`XYZ<X>`
 
 .. _A:
 
@@ -371,6 +371,16 @@ I
 
 
  
+.. _K:
+
+****
+K
+****
+
+**Keyword**
+
+  A variable in a bulk email message. When you send the message, a value that
+  is specific to the each recipient is substituted for the keyword. 
 
 .. _L:
 
