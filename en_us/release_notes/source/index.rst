@@ -2,18 +2,17 @@
 edX Release Notes
 ####################################
 
+.. toctree::
+   :maxdepth: 2
+
+   front_matter/index
+
 The *edX Release Notes* provide a cumulative list of changes to edX
 products.
 
-******************
-Introduction
-******************
 .. toctree::
    :maxdepth: 1
 
-   read_me
-   preface
-   browsers
    coming_soon
 
 ******************

@@ -11,8 +11,7 @@ Processing Video Files
    :numbered:
    :maxdepth: 2
 
-   read_me
-   change_log
+   front_matter/index
    video_overview
    video_prereqs
    video_uploads

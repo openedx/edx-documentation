@@ -7,12 +7,10 @@ teams at edX partner institutions who use the edX data exports to gain insight
 into their courses and students.
 
 .. toctree::
+   :numbered:
    :maxdepth: 2
 
-   read_me.rst
-   preface.rst
-   browsers.rst
-   internal_data_formats/change_log.rst
+   front_matter/index
    internal_data_formats/data_czar.rst
    internal_data_formats/credentials.rst
    internal_data_formats/package.rst
