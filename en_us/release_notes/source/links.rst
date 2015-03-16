@@ -128,8 +128,6 @@
 
 .. _Installing the edX Production Stack: http://edx.readthedocs.org/projects/edx-installing-configuring-and-running/en/latest/prodstack/install_prodstack.html
 
-.. _Creating Peer Assessments: http://edx.readthedocs.org/projects/edx-open-response-assessments/en/latest/
-
 .. _edX Research Guide: http://edx.readthedocs.org/projects/devdata/en/latest/
 
 .. _Data Delivered in Data Packages: http://edx.readthedocs.org/projects/devdata/en/latest/internal_data_formats/package.html
@@ -349,11 +347,11 @@
 
 .. _Access Student Information: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/open_response_assessments/Access_ORA_Info.html#access-the-student-s-information
 
-.. _Create an Open Response Assessment Assignment: http://edx.readthedocs.org/projects/edx-open-response-assessments/en/latest/CreatePeerAssessment.html
+.. _Create an Open Response Assessment Assignment: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/open_response_assessments/CreateORAAssignment.html
 
-.. _Removing a student submission: http://edx.readthedocs.org/projects/edx-open-response-assessments/en/latest/exercises_tools/open_response_assessments/Access_ORA_Info.html#remove-a-student-response-from-peer-grading
+.. _Removing a student submission: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/open_response_assessments/Access_ORA_Info.html#remove-a-student-response-from-peer-grading
 
-
+.. _Creating Peer Assessments: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/open_response_assessments/OpenResponseAssessments.html
 
 .. DATA DOCUMENTATION
 
@@ -415,3 +413,7 @@
 .. _Installing edX Insights: http://edx.readthedocs.org/projects/edx-installing-configuring-and-running/en/latest/analytics/install_analytics.html#installing-edx-insights
 
 .. _Setting up the edX Mobile Applications: http://edx.readthedocs.org/projects/edx-installing-configuring-and-running/en/latest/mobile.html
+
+.. _Working with Libraries: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/creating_content/libraries.html
+
+.. _Randomized Content Blocks: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools//randomized_content_blocks.html

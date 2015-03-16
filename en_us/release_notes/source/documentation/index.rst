@@ -2,6 +2,26 @@
 edX Documentation
 ####################################
 
+******************
+March 17, 2015
+******************
+
+==================================
+Building and Running an edX Course
+==================================
+
+* A new section on `Working with Libraries`_ is now available in the "Create
+  Course Content" chapter.
+
+* A new section on `Randomized Content Blocks`_ is now available in the
+  "Creating Exercises and Tools" chapter.
+
+==================================
+edX Research Guide
+==================================
+
+The `Tracking Logs`_ chapter now includes events for student interactions with
+library content.
 
 ******************
 March 11, 2015
@@ -11,7 +31,7 @@ March 11, 2015
 edX Research Guide
 ==================================
 
-The `Tracking Logs`_ chapter now contains:
+The `Tracking Logs`_ chapter now contains descriptions of these events.
 
 * New events for contributions to discussion forums.
 
@@ -40,7 +60,7 @@ new section about `Configuring the Open edX Platform`_.
 Open edX Documentation
 ======================
 
-New guides are now available specifically for open edX:
+The following new guides are now available specifically for open edX.
 
 * `Open edX Release Notes`_
 * `Building and Running an Open edX Course`_

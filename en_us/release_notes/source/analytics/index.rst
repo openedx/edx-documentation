@@ -3,6 +3,14 @@ edX Analytics
 ####################################
 
 ******************
+March 17, 2015
+******************
+
+Daily data packages now include events that record which of the problems in a
+library were delivered by a randomized content block component.  For more
+information, see the `Tracking Logs`_ chapter in the `edX Research Guide`_.
+
+******************
 March 11, 2015
 ******************
 
