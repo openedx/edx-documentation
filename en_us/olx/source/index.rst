@@ -30,6 +30,7 @@ This document is intended for those developing edX courses through Open Learning
    example-course/index
    studio-example/index
    drafts/index
+   glossary
 
 
  

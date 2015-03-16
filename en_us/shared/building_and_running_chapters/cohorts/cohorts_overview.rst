@@ -2,7 +2,7 @@
 
 
 #############################
-Using Cohorts in your Courses
+Using Cohorts in Your Courses
 #############################
 
 By :ref:`setting up cohorts<Enabling and Configuring Cohorts>` in a course, you

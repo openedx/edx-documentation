@@ -34,3 +34,4 @@ Release>`.
    configuration/index
    analytics/install_analytics
    mobile
+   glossary

@@ -18,5 +18,6 @@ edX Developer's Guide
     deploy-new-service
     internationalization/index
     accessibility
+    glossary
     
 

@@ -22,4 +22,4 @@ into their courses and students.
    internal_data_formats/institution_data.rst
    internal_data_formats/event_list.rst
    internal_data_formats/tracking_logs.rst
-
+   glossary.rst
