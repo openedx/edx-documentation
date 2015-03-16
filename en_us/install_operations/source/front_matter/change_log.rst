@@ -8,6 +8,8 @@ Change Log
 
    * - Date
      - Change
+   * - 26 October 2015
+     - Added the :ref:`Using Elastic MapReduce on AWS` topic.
    * - 23 October 2015
      - Updated all topics in :ref:`Configuring the Open edX Platform` to
        instruct users to modify the ``lms.env.json`` and ``cms.env.json``

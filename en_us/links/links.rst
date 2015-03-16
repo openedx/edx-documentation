@@ -32,7 +32,7 @@
 
 .. _Announcements: https://open.edx.org/announcements
 
-
+.. _edx-analytics-configuration: https://github.com/edx/edx-analytics-configuration
 
 .. _edX pattern library: http://ux.edx.org/elements/colors/
 
@@ -100,6 +100,9 @@
 
 .. _S3.py: https://github.com/edx/edx-ora2/blob/a4ce7bb00190d7baff60fc90fb613229565ca7ef/openassessment/fileupload/backends/s3.py
 
+.. _edX Analytics Installation: https://openedx.atlassian.net/wiki/display/OpenOPS/edX+Analytics+Installation
+
+
 .. EDX VMs
 
 .. _iOS: http://github.com/edx/edx-app-ios
@@ -166,6 +169,20 @@
 ..  _mongodb: http://docs.mongodb.org/manual/
 
 .. _AWS Command Line Interface: http://aws.amazon.com/cli/
+
+.. _AWS Documentation: http://aws.amazon.com/documentation/
+
+.. _Elastic MapReduce: http://aws.amazon.com/elasticmapreduce/
+
+.. _default EC2 role for Amazon EMR: http://docs.aws.amazon.com/ElasticMapReduce/latest/DeveloperGuide/emr-iam-roles-defaultroles.html#emr-iam-roles-defaultec2
+
+.. _a single public subnet: http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Scenario1.html
+
+.. _example configuration scenario: http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Scenario2.html
+
+.. _spot pricing market: http://aws.amazon.com/ec2/purchasing-options/spot-instances/
+
+.. _MySQL connector library: http://dev.mysql.com/downloads/connector/j/5.1.html
 
 .. _Gpg4win Compendium: http://www.gpg4win.org/doc/en/gpg4win-compendium.html
 
@@ -262,7 +279,7 @@
 .. _GitHub Flow: https://github.com/blog/1557-github-flow-in-the-browser
 .. _RST: http://docutils.sourceforge.net/rst.html
 
-.. _edX Insights: http://insights.edx.org
+.. _edX Insights: https://insights.edx.org
 
 .. _edX Status: http://status.edx.org/
 
