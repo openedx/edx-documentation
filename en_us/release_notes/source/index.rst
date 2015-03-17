@@ -7,13 +7,13 @@ edX Release Notes
 
    front_matter/index
 
-The *edX Release Notes* provide a cumulative list of changes to edX
-products.
+.. The *edX Release Notes* provide a cumulative list of changes to edX
+.. products.
 
-.. toctree::
+.. .. toctree::
    :maxdepth: 1
 
-   coming_soon
+..   coming_soon
 
 ******************
 2015 Releases

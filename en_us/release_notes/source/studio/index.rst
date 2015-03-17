@@ -3,6 +3,34 @@ edX Studio
 ####################################
 
 ******************
+March 17, 2015
+******************
+
+* Course teams can now include a new type of component, a randomized content
+  block, in their courses. These components randomly draw problems from a
+  predefined library of components and present them to learners.
+
+  You create and maintain libraries of components separately from courses. All
+  of an organization's course teams can work collaboratively to develop the
+  problems that the libraries contain. Each library can then be referenced by
+  randomized content blocks in any of that organization's courses. For more
+  information, see `Working with Libraries`_.
+
+* Open response assessments can now include more than one prompt or
+  question. A single rubric is used to grade all of the prompts in the
+  assessment. For more information, see `Creating Peer Assessments`_.
+
+* When you add an HTML component to a course outline and select the Full
+  Screen Image Tool, IFrame Tool, or Zooming Image Tool, revised example
+  templates now appear. The descriptions and procedures in the
+  templates now include additional detail, including how to provide 
+  accessible labels for your learners.
+
+* A problem with the file locking feature on the **Files & Uploads** page is
+  now resolved. To lock a file, click the lock icon that appears near it.
+  (TNL-1461)
+
+******************
 March 11, 2015
 ******************
 
@@ -99,10 +127,11 @@ January 8, 2015
 * When a component with multiple parents had a draft version, you received an
   error when trying to export the course. This problem is resolved. (PLAT-332)
 
-* You can now use a new advanced setting, ``always_cohort_inline_discussions``,
-  to control whether content-specific discussion topics are unified or
-  cohorted.  See `Make All Content-Specific Discussion Topics Unified by
-  Default`_ for more information.
+* You can now use a new advanced setting,
+  ``always_cohort_inline_discussions``, to control whether content-specific
+  discussion topics are unified or divided by cohort.  See 
+  `Make All Content-Specific Discussion Topics Unified by Default`_ for 
+  more information.
 
 * The inline help for the **Discussion Topic Mapping** advanced setting is
   updated to note that discussion IDs must be unique. (TNL-752)
