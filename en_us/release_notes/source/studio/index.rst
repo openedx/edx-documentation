@@ -3,7 +3,7 @@ edX Studio
 ####################################
 
 ******************
-March 17, 2015
+March 18, 2015
 ******************
 
 * Course teams can now include a new type of component, a randomized content
