@@ -3,7 +3,7 @@ edX Analytics
 ####################################
 
 ******************
-March 17, 2015
+March 18, 2015
 ******************
 
 Daily data packages now include events that record which of the problems in a
