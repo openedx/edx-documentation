@@ -124,8 +124,8 @@ component.
     to specify a particular type of problem.
 
 
-    .. image:: ../../../shared/building_and_running_chapters/Images/ContentLibraries_SelectProblemType.png
-     :alt: The Edit icon to the right of the Library Name    
+    .. image:: ../../../shared/building_and_running_chapters/Images/ContentLibraries_RCBSelectProblemType.png
+     :alt: Problem type dropdown list in randomized content block settings    
 
   - For **Scored**, from the drop down list select **True** or **False** to
     indicate whether the assignment should be graded. 
