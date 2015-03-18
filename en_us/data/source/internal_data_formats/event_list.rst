@@ -52,6 +52,10 @@ Alphabetical Event List
      - :ref:`student_cohort_events`
    * - ``edx.cohort.user_removed``
      - :ref:`student_cohort_events`
+   * - ``edx.librarycontentblock.content.assigned``
+     - :ref:`library`
+   * - ``edx.librarycontentblock.content.removed``
+     - :ref:`library`
    * - ``edx.course.enrollment.activated``
      - :ref:`enrollment` and :ref:`instructor_enrollment`
    * - ``edx.course.enrollment.deactivated`` 

@@ -686,7 +686,8 @@ XYZ
  
 **XBlock**
 
-  EdX’s component architecture for writing courseware components.  
+  EdX’s component architecture for writing courseware components: XBlocks are
+  the components that deliver course content to learners.
 
   Third parties can create components as web applications that can run within
   the edX learning management system.
