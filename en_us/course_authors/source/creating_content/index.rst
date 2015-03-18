@@ -20,3 +20,4 @@ Index`.
    create_video
    create_discussion
    create_problem
+   libraries
