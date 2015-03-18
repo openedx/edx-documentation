@@ -146,8 +146,8 @@ Users Access to Your Library`.
 Add Components to a Library
 ****************************
 
-To add new :ref:`components<What is a Component>` to your library, follow these
-steps.
+To add new :ref:`components<Developing Course Components>` to your library,
+follow these steps.
 
 #. Log in to Studio.
 #. Click **Libraries**, then click the library that you want to add components to.
@@ -371,8 +371,8 @@ To remove **Staff** or **Admin** access from a library user, follow these steps.
 #. On the **User Access** page, locate the user whose access level you are
    changing. 
 
-   - If she currently has **Staff** access, click **Remove Staff Access**. 
-   - If she currently has **Admin** access, click **Remove Admin Access**.
+  - If she currently has **Staff** access, click **Remove Staff Access**. 
+  - If she currently has **Admin** access, click **Remove Admin Access**.
 
    The user's display listing is updated to indicate their new role. 
 
@@ -458,7 +458,7 @@ To import a library, follow these steps.
    the Unpacking stage completes. We recommend that you do not make important
    changes to the library until all stages of the import process have finished.
 
-5. When the import process finishes, click **View Updated Library** to view the
+6. When the import process finishes, click **View Updated Library** to view the
    imported library.
 
 .. note:: If your imported library includes changes to components that are in
