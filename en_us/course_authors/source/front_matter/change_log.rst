@@ -16,8 +16,11 @@ March 2015
      - Added the sections :ref:`Content Libraries` and :ref:`Randomized Content
        Blocks` to reflect support for libraries in Studio.
    * - 
-     - Updated ORA documentation to reflect support for multiple prompts in a
-       single ORA assignment.
+     - Updated :ref:`Open Response Assessments` to reflect support for multiple
+       prompts in a single ORA assignment.
+   * - 
+     - Added the :ref:`Use Keywords in Messages` section to the :ref:`Bulk
+       Email` chapter.
    * - 11 Mar 2015
      - Added the section :ref:`Adding Tooltips to a Problem`.
    * - 3 Mar 2015
