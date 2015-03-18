@@ -13,9 +13,8 @@ March 2015
    * - Date
      - Change
    * - 17 Mar 2015
-     
      - Added the sections :ref:`Content Libraries` and :ref:`Randomized Content
-       Blocks`.
+       Blocks` to reflect support for libraries in Studio.
    * - 
      - Updated ORA documentation to reflect support for multiple prompts in a
        single ORA assignment.
