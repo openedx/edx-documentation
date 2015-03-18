@@ -105,10 +105,6 @@ component.
    New Component** 
 
 #. Click **Advanced**, then click **Randomized Content Block**.
-   
-   .. image:: ../../../shared/building_and_running_chapters/Images/ContentLibraries_AddRCB.png
-     :alt: Select Randomized Content Block from Advanced Component types
-
    The randomized content block is added to your unit.
 
 #. Click the **Edit** icon.
@@ -128,8 +124,8 @@ component.
     to specify a particular type of problem.
 
 
-  .. image:: ../../../shared/building_and_running_chapters/Images/ContentLibraries_RCBSelectProblemType.png
-     :alt: The Edit icon to the right of the Library Name    
+    .. image:: ../../../shared/building_and_running_chapters/Images/ContentLibraries_RCBSelectProblemType.png
+     :alt: Problem type dropdown list in randomized content block settings    
 
   - For **Scored**, from the drop down list select **True** or **False** to
     indicate whether the assignment should be graded. 
@@ -227,14 +223,12 @@ You can also reset a component's settings to the library default. If a
 component's settings have been changed from the default settings in the library,
 a **Clear** icon is shown next to the setting field.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/ContentLibraries_ResetComponentField.png
-   :alt: Clear button in the course component field reverts value to library value.
+ .. image:: ../../../shared/building_and_running_chapters/Images/ContentLibraries_ResetComponentField.png
+    :alt: Clear button in the course component field reverts value to library value.
 
 Click the **Clear** icon to restore the library default setting for that field.
 
-.. note:: Any changes you made to the **Editor** tab of components in a
-   randomized content block will be lost if you click **Update now** to get the
-   latest library version.
+
 
 .. _Get the Latest Version of Library Content:
 
