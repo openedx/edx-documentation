@@ -12,6 +12,9 @@ March 2015
 
    * - Date
      - Change
+   * - 20 Mar 2015
+     - Added the :ref:`Providing Partial Credit for Custom Python-Evaluated
+       Input Problems` section to the :ref:`Write Your Own Grader` chapter.
    * - 18 Mar 2015
      - Added the sections :ref:`Content Libraries` and :ref:`Randomized Content
        Blocks` to reflect support for libraries in Studio.
