@@ -34,11 +34,9 @@ However!
 
 Example: 
 
-"Block open port on catheter fitting could mean completely different things.
-
-Block the open port on the catheter fitting.
-
-Block open the port on the catheter fitting.
+"Block open port on catheter fitting" could mean completely different things
+once the definite article is inserted. Compare "Block the open port on the
+catheter fitting." to "Block open the port on the catheter fitting.
 
 
 ************************************
@@ -87,12 +85,14 @@ words can sneak into use as pronouns.
   all, another, any, each, either, few, following, many, neither, none, one,
   other, rest, same, several, some, such, that, them, these, those
 
-Ask “of what?”, “of which?” or “as what?” when you use these words.
+Ask "of what?", "of which?", or "as what?" when you use these words.
 
   Example:
 
   In order to sterilize a reusable product using an autoclave, it must first be
   properly cleaned and disinfected.
+
+  What must be cleaned and disinfected? 
 
 Avoid broad-reference pronouns. 
 

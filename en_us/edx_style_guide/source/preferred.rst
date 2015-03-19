@@ -5,15 +5,15 @@ Preferred Usage
 #################
 
 
-* Write short, clear sentences. Avoid dependent clauses.
+* Write short, clear sentences of no more than 20-30 words. Avoid dependent
+  clauses.
 
-* Break sentences into shorter phrases where possible.
+* Beware of fused sentences. Use commas to break sentences into component
+  phrases. For example, change "Locate the course you want to re-run and click
+  **Re-Run Course**." to "Locate the course you want to re-run, and then click
+  **Re-Run Course**."
 
-  * Locate the course you want to re-run and click **Re-Run Course**.
-
-  * Locate the course you want to re-run, and then click **Re-Run Course**.
-
-* Don’t use “the following” as a noun.
+* Do not use "the following" as a noun or to introduce a list.
 
 * Use "have to," "must," or "we recommend" rather than "should." 
 
@@ -28,24 +28,33 @@ Preferred Usage
   :widths: 20 80
 
   * - Abbreviations
-    - Only use for standards of measurement, such as kb. For example, replace
-      "etc." with "and so on".
+    - Only use for standards of measurement, such as kb. 
+    
+      Do not use Latin abbreviations. For example, replace "etc." with "and so
+      on".
+
+      Do not use clipped terms, such as spec, quotes, or rep. Exception: "The
+      edX mobile app" is the correct term.
+
   * - Active voice
-    - Use active voice as much as possible. 
-
-      "These events are emitted by the browser when you click **Save**." 
-
-      "The browser emits these events when you click **Save**."
+    - Use active voice as much as possible. For example, rephrase "These
+      events are emitted by the browser when you click **Save**." as "The
+      browser emits these events when you click **Save**."
 
   * - Acronyms
-    - Always spell out on first mention per page.
+    - Always spell out the term, then follow it with the acronym in
+      parentheses, the first time it is mentioned in an .rst file.
 
-      Students see your course in the learning management system (LMS).
+      For example, "Students see your course in the learning management system
+      (LMS)."
 
   * - Capitalization
-    - Capitalize headings. Do not capitalize job titles, such as professor, instructor, or program manager.
+    - Capitalize headings. Do not capitalize job titles, such as professor,
+      instructor, or program manager.
   * - Caution block
     - Do not use. Use a note block or a warning block instead.
+  * - Contractions
+    - Do not use.
   * - Cross-references
     - Introduce stand-alone cross-references with "For more information, see
       ``<topic name>``. (Do not use the more abrupt "See ``<topic name>``.")
@@ -70,21 +79,39 @@ Preferred Usage
     - Minimize use of screenshots and other graphics. For more information,
       see :ref:`Images`.
   * - Lists
-    - Introduce a list with a complete sentence that ends in a period. See also "steps."
+    - Introduce an unordered list with a complete sentence that ends in a
+      period. See also "steps."
 
-      Use complete sentences with terminal periods in lists unless each item
-      is short (e.g., three words or fewer).
+      Each item in the list should be able to stand on its own, rather than
+      complete an introductory sentence fragment. Present listed items as
+      complete sentences with terminal periods, unless each item is short
+      (three words or fewer).
 
+  * - Mood
+    - Use the indicative and imperative moods. Avoid the subjunctive mood.
   * - Notes
-    - Use when you want the user to pay special attention to an instruction or idea.
+    - Use when you want the user to pay special attention to an instruction or
+      idea.
   * - Numbers
     - Spell out numbers from zero to nine and use numerals for 10 and above,
       even in the same sentence. For example: "You may select five, six, or 12
       users."
   * - Passive voice
     - Do not use unless absolutely necessary. It frequently makes the actor unclear.
+  * - Pronouns
+    - Avoid ambiguous pronouns such as all, each, many, several, some, that,
+      them, these, those.
+  * - Punctuation
+    - Avoid slashes, particularly "and/or". They introduce ambiguity.
+
+      Avoid em dashes. Putting non-restrictive relative clauses into separate
+      sentences leads to simpler, clearer writing.
+
+      Do not use smart quotes or smart apostrophes. Use the straight versions.
+
   * - Steps
-    - To introduce steps, use "To do this, follow these steps." Note the terminal period.
+    - To introduce an ordered list of procedural steps, use "To do this,
+      follow these steps." Note the complete sentence and terminal period.
 
       If you are describing a procedure for the user to follow, use numbered
       steps instead of writing out the procedure as a narrative.
@@ -97,16 +124,30 @@ Preferred Usage
 
   * - Tables
     - TBD: Rules for use
+  * - Tense
+    - Prefer the present tense, particularly for procedural steps.
   * - UI terms
     - When you describe UI elements, leave out the UI element name. For
       example, type "click OK" instead of "click the OK button."
 
-      If the UI has an error, such as a spelling mistake, write the word or
-      phrase correctly in the documentation.
+      If the UI label has an error, such as a spelling mistake, write the word
+      or phrase correctly in the documentation.
 
   * - Warnings
-    - Only use when a user might have significant problems, such as data loss or a security vulnerability.
+    - Only use when a user might have significant problems, such as data loss
+      or a security vulnerability.
+  * - White space
+    - Plan for the expansion of text, particularly in images such as flowcharts.
+  * - Word choice
+    - See the `Word List`_ for our preferred terminology. Avoid jargon,
+      colloquialisms, and humor.
+      
+      Do not use non-technical words that are not in common use, such as "and
+      so forth", albeit, heretofore, thus, or whilst.
 
+      Be careful of commonly used phrases that introduce ambiuguity. For
+      example, instead of "When the process completes..." use "After the
+      process completes..."
 
 
 
