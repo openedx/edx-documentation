@@ -1152,7 +1152,7 @@ state
 
     Example: ``{"position" : 3}``
 
-    When this user last interacted with this course/chapter/etc., they clicked
+    When this user last interacted with this course/chapter/etc., she clicked
     on the third child element. Note that the position is a simple index and
     not a ``module_id``, so if you rearranged the order of the contents, it
     would not be smart enough to accommodate the changes and would point users

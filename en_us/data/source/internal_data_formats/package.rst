@@ -121,13 +121,13 @@ Download Daily Event Files
    separate log files are available for the "prod" site and the "edge" site.
    Repeat this step to download the file for the other site.
 
-============================
-Download Weekly Files
-============================
+==============================
+Download Weekly Database Files
+==============================
 
 .. note:: If you are using a third-party tool to connect to Amazon S3, you
-    may not be able to navigate directly between the **s3://course-data**
-    bucket and the **s3://edx-course-data/{org}** folder. You may need to
+    might not be able to navigate directly between the **s3://course-data**
+    bucket and the **s3://edx-course-data/{org}** folder. You might need to
     disconnect from Amazon S3 and then reconnect to the other destination.
 
 #. To download a weekly database data file, connect to the edX **s3://course-data**
@@ -200,6 +200,14 @@ tab separated.
 
   The final grade and certificate status for students (populated after course
   completion). See :ref:`certificates_generatedcertificate`.
+
+``{org}-{course}-{date}-course_structure-{site}-analytics.json``
+
+  This file documents the structure of a course at a point in time. The file
+  includes data for the course, including important dates, pages, and course-
+  wide discussion topics. It also identifies each item of course content
+  defined in the course outline. A separate file is included for each course
+  on the site. For more information, see :ref:`course_structure`.
 
 ``{org}-{course}-{date}-courseware_studentmodule-{site}-analytics.sql``
 
