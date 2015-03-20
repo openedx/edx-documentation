@@ -12,6 +12,9 @@ March 2015
 
    * - Date
      - Change
+   * - 20 Mar 2015
+     - Added the :ref:`Providing Partial Credit for Custom Python-Evaluated
+       Input Problems` section to the :ref:`Write Your Own Grader` chapter.
    * - 11 Mar 2015
      - Added the secton :ref:`Adding Tooltips to a Problem`.
    * -
