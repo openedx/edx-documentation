@@ -1,8 +1,10 @@
 ############
 Change Log
 ############
-       
 
+**********************
+2015
+**********************
 
 .. list-table::
    :widths: 20 70
@@ -10,11 +12,25 @@ Change Log
 
    * - Date
      - Change
+   * - 20 Mar 2015
+     - Added registration and enrollment to the  :ref:`SFD Mobile` chapter.
    * - 4 Mar 2015
      - Updated the :ref:`Preface` to include information about the :ref:`The
        edX Partner Portal` and the :ref:`The Open edX Portal`.
    * - 20 Jan 15
      - Added iPhone information to :ref:`SFD Mobile`.
+       
+
+**********************
+2014
+**********************
+
+.. list-table::
+   :widths: 10 70
+   :header-rows: 1
+
+   * - Date
+     - Change
    * - 12/31/14
      - Added :ref:`Google Drive` topic.
    * - 12/12/14
