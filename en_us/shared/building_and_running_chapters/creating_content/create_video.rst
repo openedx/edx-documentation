@@ -8,9 +8,9 @@ Working with Video Components
 Introduction to Videos
 **********************
 
-You can create a video of your lecture and add it to your course with other
-components—such as discussions and problems—to promote active learning. Adding
-a video to your course has several steps.
+You can create videos of your lectures and add them to your course to
+supplement other components, such as discussions and problems, to promote
+active learning. Adding a video to your course has several steps.
 
 #. :ref:`Create the Video`.
 #. :ref:`Create Transcript`.
@@ -150,9 +150,9 @@ accesses your YouTube videos.
 
 Because YouTube is not available in all locations, however, we recommend that
 you also post copies of your videos on a third-party site such as `Amazon S3
-<http://aws.amazon.com/s3/>`_. When a student views  a video in your course, if
-YouTube is not available in that student’s location or if the YouTube video
-doesn’t play, the video on the backup site starts playing automatically. You
+<http://aws.amazon.com/s3/>`_. When a student views a video in your course, if
+YouTube is not available in that student's location or if the YouTube video
+does not play, the video on the backup site starts playing automatically. You
 can also allow the student to download the video from the backup site.
 
 After you post your video online, make sure you have the URL for the video. If
@@ -200,12 +200,12 @@ Step 4. Create a Video Component
 
    You replace the default values with your own. 
    
-3. In the **Component Display Name** field, enter the name you want students to
-   see when they hover the mouse over the unit in the course ribbon. This text
-   also appears as a header for the video.
+3. In the **Component Display Name** field, enter an identifying name for this
+   video. Students see this name as a header for the video and when they hover
+   the cursor over the unit in the course ribbon.
 
-#. In the **Default Video URL** field, enter the URL of the video. For example,
-   the URL may resemble one of the following.
+#. In the **Default Video URL** field, enter the URL of the video. Example
+   URLs follow.
 
    ::
    
@@ -220,13 +220,13 @@ Step 4. Create a Video Component
     URLs for these versions below the default video URL. **These URLs cannot be
     YouTube URLs**. To add a URL for another version, click **Add URLs for
     additional versions**. The first listed video that is compatible with the
-    student's computer will play.
+    student's computer plays.
 
 5. Next to **Default Timed Transcript**, select an option. 
 
-   * If edX already has a transcript for your video--for example, if you are
-     using a video from an existing course--Studio automatically finds the
-     transcript and associates the transcript with the video.
+   * If edX already has a transcript for this video, Studio automatically
+     finds the transcript and associates the transcript with the video. This
+     situation can occur when you reuse a video from an existing course.
      
      If you want to modify the transcript, click **Download Transcript for
      Editing**. You can then make your changes and upload the new file by
@@ -284,7 +284,7 @@ The following options appear on the **Advanced** tab in the video component.
          You do not have to change this setting.
     * - **Download Transcript Allowed**
       - Specifies whether you want to allow students to download the timed
-        transcript. If you set this value to **True**, a link to download the
+        transcript. If you select **True**, a link to download the
         file appears below the video.
 
         By default, Studio creates a .txt transcript when you upload an .srt
@@ -318,10 +318,15 @@ The following options appear on the **Advanced** tab in the video component.
       - Allows you to upload a handout to accompany this video. Your handout
         can be in any format. Students can download the handout by clicking
         **Download Handout** under the video.
+    * - **Video Available on Web Only**
+      - If you select **True**, students are only allowed to play this video
+        in a Web browser. If you select **False**, students can use any
+        compatible application to play the video, including Web browsers and
+        mobile apps.
     * - **Video Download Allowed**
       - Specifies whether students can download versions of this video in
         different formats if they cannot use the edX video player or do not
-        have access to YouTube. If you set this value to **True**, you must add
+        have access to YouTube. If you select **True**, you must add
         at least one non-YouTube URL in the **Video File URLs** field.
     * - **Video File URLs**
       - The URL or URLs where you posted non-YouTube versions of the video.
@@ -410,7 +415,7 @@ right of the **Download Transcript** button, and students can download the
    :alt: Video status bar showing srt, txt, and handout transcript download
     options
 
-To add a downloadable transcript by using the **Upload Handout** field:
+To add a downloadable transcript, you use the **Upload Handout** field.
 
 #. Create or obtain your transcript as a .pdf or in another format.
 #. In the video component, click the **Advanced** tab.
@@ -496,7 +501,7 @@ in the video component.
  .sjson files. All new courses should use .srt files.
 
 #. Obtain the .sjson file from a media company such as 3Play.
-#. Change the name of the .sjson file to use the following format:
+#. Change the name of the .sjson file to use the following format.
    
    ``subs_{video filename}.srt.sjson``
    
