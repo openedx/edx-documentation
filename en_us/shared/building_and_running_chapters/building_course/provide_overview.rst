@@ -234,14 +234,12 @@ Require an Entrance Exam
 ===================================
 
 You can require your students to pass an entrance exam before they access your
-course materials. If you include an entrance exam, students who enroll in your 
-course see only the **Course Updates & News** page and an **Entrance Exam** tab 
-until they pass the exam.
+course materials. If you include an entrance exam, students who enroll in your
+course see only the **Entrance Exam** tab until they pass the exam.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/EntEx_LandingPage.png
   :width: 500
-  :alt: The Course Updates & News page with the Entrance Exam tab circled on the
-      left
+  :alt: The Entrance Exam page with the first problem visible
 
 As students take the entrance exam, they can see their status at the top of
 the page. After students pass the exam, they can access all released materials
@@ -273,23 +271,8 @@ students have a positive experience with entrance exams.
   course About page. Otherwise, students will not know about the entrance exam
   before they enroll in your course and try to access course content.
 
-* Add an anouncement at the top of the **Course Updates & News** page that
-  contains information and instructions for students who need to take the exam.
-  When students first try to access content in a course that has an entrance
-  exam, they see the **Course Updates & News** page. We suggest that you include
-  the following information.
-
-  * To begin the course entrance exam, students click the **Entrance Exam** tab
-    on the left side of the screen.
-
-  * After students complete the entrance exam, they have to click the **Entrance
-    Exam** tab again or refresh the page in their browser. When the page
-    refreshes, students can see all currently available course content.
-
-    .. image:: ../../../shared/building_and_running_chapters/Images/EntEx_CourseAccordionAfterPass.png
-      :width: 500
-      :alt: The student view after the student has passed the entrance exam,
-          with all available course sections listed in the course accordion
+* On your course About page or in a course e-mail, include a link to the
+  information about `entrance exams <http://doroob-student-documentation.readthedocs.org/en/latest/SFD_prerequisites.html#entrance-exam>`_ in the `edX Guide for Students <http://doroob-student- documentation.readthedocs.org/en/latest/index.html>`_.
 
 
 Create an Entrance Exam from the Course Outline
