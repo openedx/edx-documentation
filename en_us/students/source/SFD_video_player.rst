@@ -40,7 +40,7 @@ an explanation of each option or control on the video player.
     editor such as Notepad. You only see this option if the transcript is
     available for download.
 11. **Transcript**: The transcript for the video plays by default when your
-    video starts. You can scroll through the transcript and click on any word to
+    video starts. You can scroll through the transcript and select any word to
     go to that point in the video.
 
 
