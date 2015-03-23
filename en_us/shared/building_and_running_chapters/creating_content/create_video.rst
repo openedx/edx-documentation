@@ -342,9 +342,19 @@ The following options appear on the **Advanced** tab in the video component.
     * - **Video Start Time**
       - The time you want the video to start if you do not want the entire
         video to play. Formatted as HH:MM:SS. The maximum value is 23:59:59.
+
+        Note that YouTube offers an option to play the entire video,
+        regardless of the specified start time. When possible, cut your video
+        files to the desired length before you upload them.
+
     * - **Video Stop Time**
       - The time you want the video to stop if you do not want the entire video
         to play. Formatted as HH:MM:SS. The maximum value is 23:59:59.
+
+        Note that YouTube offers an option to play the entire video,
+        regardless of the specified stop time. When possible, cut your video
+        files to the desired length before you upload them.
+
     * - **YouTube IDs**
       - If you have uploaded separate video files to YouTube for different
         speeds of your video (YouTube ID for .75x speed, YouTube ID for 1.25x
