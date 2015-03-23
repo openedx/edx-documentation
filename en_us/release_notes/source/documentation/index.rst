@@ -2,6 +2,22 @@
 edX Documentation
 ####################################
 
+
+******************
+March 25, 2015
+******************
+
+==================================
+Building and Running an edX Course
+==================================
+
+* New `Renaming a Cohort`_ and `Changing the Assignment Method of a Cohort`_ 
+  sections are now available in the "Including Student Cohorts" chapter.
+
+* Topics throughout the `Cohorts`_ chapter have been updated to reflect that
+  cohort management is now done on the Instructor Dashboard in the LMS. 
+
+
 ******************
 March 18, 2015
 ******************
@@ -22,6 +38,7 @@ edX Research Guide
 
 The `Tracking Logs`_ chapter now includes events for student interactions with
 library content.
+
 
 ******************
 March 11, 2015

@@ -72,11 +72,17 @@
 
 .. other links not yet categorized carefully
 
-.. _Assign Students to Cohort Groups by Uploading a CSV File: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/cohorts/cohort_config.html#assign-students-to-cohort-groups-by-uploading-a-csv-file
+
 
 .. _Weekly Highlights: http://edx-partner-course-staff.readthedocs.org/en/latest/running_course/bulk_email.html#weekly-highlights
 
 .. _Cohorts: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/cohorts/index.html
+
+.. _Assign Students to Cohort Groups by Uploading a CSV File: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/cohorts/cohort_config.html#assign-students-to-cohort-groups-by-uploading-a-csv-file
+
+.. _Renaming a Cohort: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/cohorts/cohort_config.html#rename-a-cohort
+
+.. _Changing the Assignment Method of a Cohort: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/cohorts/cohort_config.html#changing-the-assignment-method-of-a-cohort
 
 .. _Creating Exercises and Tools: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/index.html
 
@@ -98,7 +104,7 @@
 
 .. _edX101: https://www.edx.org/course/overview-creating-edx-course-edx-edx101#.VIIJbWTF_yM
 
-.. _edx.org: http://edx.org
+.. _edX.org: http://edx.org
 
 .. _edX Insights: http://insights.edx.org
 

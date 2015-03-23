@@ -2,6 +2,15 @@
 edX Open Response Assessments
 ####################################
 
+
+******************
+March 18, 2015
+******************
+
+Open response assessments can now include more than one prompt or question. A
+single rubric is used to grade all of the prompts in the assessment. For more
+information, see `Creating Peer Assessments`_.
+
 ******************
 February 23, 2015
 ******************

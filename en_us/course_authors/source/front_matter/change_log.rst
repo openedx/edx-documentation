@@ -12,7 +12,8 @@ March 2015
 
    * - Date
      - Change
-   * - 24 Mar 2015
+
+   * - 25 Mar 2015
      - Added the **Video Available on Web Only** :ref:`advanced setting<Video
        Advanced Options>` to the :ref:`Working with Video Components` chapter.
    * - 
