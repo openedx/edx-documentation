@@ -46,6 +46,14 @@ For information about using cohorts in a course and managing discussions that
 are divided by cohort, see :ref:`Cohorts Overview` and :ref:`Moderating
 Discussions for Cohorts`.
 
+.. note:: Making discussion topics divided by cohort, described in this and
+   the following topics, only divides posts within the discussion topics by
+   cohort; the discussion topics are still visible to all learners in the
+   course. If you want to make specific content-specific discussion topics
+   visible only to certain cohorts, you can implement content groups and
+   change the visibility settings on the discussion components. For more
+   details, see :ref:`Cohorted Courseware Overview`.
+
 
 .. _Coursewide Discussion Topics and Cohorts:
 
