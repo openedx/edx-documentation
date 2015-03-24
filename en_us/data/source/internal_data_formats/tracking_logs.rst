@@ -984,9 +984,14 @@ events that the edX mobile app emits include the value
 
 **Event Source**: Browser or Mobile
 
-**History**: Updated 10 Mar 2015 to include events emitted by the edX mobile
-app for Android or iOS. Prior to 25 Jun 2014, the ``old_time`` and
-``new_time`` fields were set to the same value.
+**History**: 
+
+* Updated 10 Mar 2015 to include the final implementation for events emitted
+  by the edX mobile app for Android and iOS. Prototype events were emitted by
+  the mobile app in February and March 2015.
+  
+* Prior to 25 Jun 2014, the ``old_time`` and ``new_time`` fields were set to
+  the same value.
 
 ``context`` **Member Fields**: 
 
