@@ -143,8 +143,8 @@ Discussion list now includes the topic you added.
 .. note:: In courses with cohorts enabled, the course-wide discussion topics
    that you add are unified. All of the posts can be read and responded to by
    every student, regardless of their assignement to a cohort. You have the
-   option to configure these topics to be divided by cohort. See :ref:`Identifying
-   Private CourseWide Discussion Topics`.
+   option to configure these topics to be divided by cohort. See
+   :ref:`Coursewide Discussion Topics and Cohorts`.
 
 .. _Create ContentSpecific Discussion Topics:
 
@@ -167,7 +167,7 @@ discussion topic until the containing section has been released.
    discussion topics can only be read and responded to by members of the same
    cohort. You can change the configuration of content-specific discussion topics
    to make them unified and available to all students in the course. See
-   :ref:`Make ContentSpecific Discussion Topics Unified`.
+   :ref:`Content Specific Discussion Topics and Cohorts`.
 
 .. _Assigning_discussion_roles:
 

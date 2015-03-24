@@ -66,7 +66,7 @@ all students enrolled in the course.
 
 To achieve this, on the **Group Configurations** page in Studio you create one
 content group called "University-Specific Content". In the Instructor Dashboard,
-on the **Membership** tab, you associate both the "University Alumni" and the
+on the **Cohorts** tab, you associate both the "University Alumni" and the
 "Current University Students" cohorts with the "University-Specific Content"
 content group.
 
@@ -271,22 +271,20 @@ with which you want to share the same special content in your course.
 
 To associate a cohort with a content group, follow these steps:
 
-#. In the LMS, select **Instructor**, then select **Membership**. 
+#. In the LMS, select **Instructor**, then select **Cohorts**. 
    
-#. Scroll to the **Cohort Management** section at the bottom.
-
-#. From the drop down list, select the cohort to which you want to associate
-   your content group.
+#. From the cohorts drop down list, select the cohort to which you want to
+   associate your content group.
    
 #. Click the **Settings** tab for the selected cohort.
 
 #. Under **Associated Content Group**, choose the **Select a Content Group** option.
 
-#. From the drop down list, select the content group that you want your cohort
-   to be associated with.
+#. From the content group drop down list, select the content group that you want
+   your cohort to be associated with.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/Cohorts_AssociateWithContentGroup.png
-   :alt: Visibility icon is black when visibility for a component is restricted
+   :alt: Select a content group to associate with the cohort
 
 7. Click **Save**.
    
