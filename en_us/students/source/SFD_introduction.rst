@@ -14,6 +14,9 @@ exercises you may see in your course.
 
 For more information, see the following topics.
 
+* :ref:`SFD Your Information` - Describes the information that you
+  share with edX, including your edX profile, and how to view or change that
+  information.
 * :ref:`Certificates` - Covers the different types of certificates edX offers,
   how to change your certificate type, and when you receive your certificate.
 * :ref:`Video Player` - Contains an illustration of the edX video player and its
@@ -28,6 +31,8 @@ For more information, see the following topics.
   participate in the discussions for your course, including how to add a post,
   respond to a post, and comment on another student's response.
 * :ref:`SFD Wiki` - Covers information about an edX course wiki.
+* :ref:`SFD Mobile` - Includes frequently asked questions about the edX mobile
+  app for Android and iPhone.
 
 This guide is still under development, and we encourage you to submit feedback
 to `docs@edx.org <mailto://docs@edx.org>`_.

@@ -15,6 +15,9 @@ April 2015
    * - 22 Apr 2015
      - Updated the :ref:`Working with Video Components` section to reflect a field
        label change. 
+   * -   
+     - Added the :ref:`SFD Dashboard Settings Profile` topic with profile and
+       account settings information.     
    * - 16 Apr 2015
      - In the :ref:`Create Exercises` section, added a column to the tables to
        indicate level of support for each exercise or tool.
