@@ -416,4 +416,4 @@
 
 .. _Working with Libraries: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/creating_content/libraries.html
 
-.. _Randomized Content Blocks: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools//randomized_content_blocks.html
+.. _Randomized Content Blocks: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/randomized_content_blocks.html
