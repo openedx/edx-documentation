@@ -147,7 +147,15 @@ General Exercises and Tools
        problems, the grader uses a Python script that you create and embed in
        the problem to evaluates a student's response or provide hints. These
        problems can be any type.
-
+   * - .. image:: ../../../shared/building_and_running_chapters/Images/RecommenderXBlockExample.png
+          :width: 100
+          :alt: Example RecommenderXBlock
+     - :ref:`RecommenderXBlock`
+     - RecommenderXBlock can hold a list of resources for misconception
+       remediation, additional reading, etc. This tool allows instructors
+       and students to work together and maintain the qualit of list. For
+       example, instructors and students can suggest new resource, vote 
+       useful ones, or flag abuse and spam.
 
 ********************************
 Image-Based Exercises and Tools

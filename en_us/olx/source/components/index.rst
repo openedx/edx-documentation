@@ -26,3 +26,4 @@ Use the chapters in this section to create course components.
    poll
    word_cloud 
    zooming_image
+   recommenderXBlock
