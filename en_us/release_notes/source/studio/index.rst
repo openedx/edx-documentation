@@ -2,6 +2,18 @@
 edX Studio
 ####################################
 
+
+******************
+March 25, 2015
+******************
+
+Cohort creation and management has moved from the **Advanced Settings** page in
+Studio. Course teams can now use the new **Cohorts** tab on the Instructor
+Dashboard in the LMS to add and rename cohorts, change a cohort's assignment
+method, associate cohorts with content groups, and specify whether course-wide
+and content-specific discussions are divided by cohort.
+
+
 ******************
 March 18, 2015
 ******************

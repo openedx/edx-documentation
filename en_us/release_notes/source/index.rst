@@ -10,10 +10,11 @@ edX Release Notes
 .. The *edX Release Notes* provide a cumulative list of changes to edX
 .. products.
 
-.. .. toctree::
-   :maxdepth: 1
+.. toctree::
+   :maxdepth: 2
 
-..   coming_soon
+   coming_soon.rst
+
 
 ******************
 2015 Releases

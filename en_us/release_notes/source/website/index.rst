@@ -2,6 +2,15 @@
 edX Website
 ####################################
 
+
+******************
+March 25, 2015
+******************
+
+The `edx.org`_ footer now includes links to additional social media sites.
+(ECOM-1134)
+
+
 ******************
 March 2, 2015
 ******************
@@ -27,14 +36,14 @@ February 12, 2015
 February 4, 2015
 ******************
 
-* A single sign-in page at edX.org now includes the options to create a new
+* A single sign-in page at `edX.org`_ now includes the options to create a new
   account on edX or sign in to an existing edX account.
 
 ******************
 January 28, 2015
 ******************
 
-People who have registered, but not yet activated, an edx.org account can now
+People who have registered, but not yet activated, an `edX.org`_ account can now
 reset their passwords on the edx.org site. Previously, you received an error
 message if you tried to reset your password before activating your account.
 (ECOM-894)

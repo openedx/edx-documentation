@@ -2,6 +2,17 @@
 edX Mobile App
 ####################################
 
+
+******************
+March 18, 2015
+******************
+
+Students can now use the edX mobile app to find and enroll in courses. New
+visitors can also register for an edX user account. These features are available
+now in the edX mobile app for Android smartphones, and will be available soon
+for iPhones.
+
+
 ******************
 March 11, 2015
 ******************
