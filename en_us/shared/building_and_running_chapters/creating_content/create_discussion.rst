@@ -49,9 +49,9 @@ Create a Discussion Component
 
    The value in the **Display Name** field identifies the discussion in the
    course content. The values in the **Category** and **Subcategory** fields
-   appear in the list of discussion topics on the **Discussion** page. To
-   uniquely identify the discussion in your course, each **Category** /
-   **Subcategory** pair that you supply must be unique.
+   appear in the list of discussion topics on the **Discussion** page. 
+
+   .. note:: Each **Category**/**Subcategory** pair for the discussion topics in your course must be unique.
 
    .. image:: ../../../shared/building_and_running_chapters/Images/Discussion_category_subcategory.png
     :alt: The list of discussions with the "Answering More Than Once" topic indented under "Getting Graded"

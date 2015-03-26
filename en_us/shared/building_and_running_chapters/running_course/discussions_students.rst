@@ -94,17 +94,19 @@ respond to it more easily.
 Types of Discussion Posts
 ====================================
 
-When you make a contribution to a course discussion topic, it can typically be
-categorized as either a question or a discussion.
+When you make a contribution in a course discussion topic, you add your post
+as either a question or a discussion.
 
 * A *question* post raises an issue so that the course staff and community can
-  provide answers.
+  provide answers. 
 
-* A *discussion* post starts a conversation by sharing thoughts and
-  reflections, and inviting community participation.
+* A *discussion* post starts a conversation by sharing thoughts and reflections,
+  and inviting community participation.
 
-When you add a post to a discussion topic, you specify whether it is a question
-or a discussion. When you visit the **Discussion** page for your course, a
+When you add a post to a discussion topic, you must specify whether it is a question
+or a discussion. 
+
+After you make your post, on the **Discussion** page for your course, a
 question mark image identifies posts that ask questions and a conversation
 bubble image identifies posts that start discussions.
 
@@ -113,7 +115,10 @@ bubble image identifies posts that start discussions.
 
 If you have any difficulty deciding which type of post you want to add, think
 about whether you want to get concrete information (a question) or start an
-open-ended conversation (a discussion).
+open-ended conversation (a discussion). If you require an answer from the
+course team, be sure to create your post as a question, so that the course
+team sees that a response is required and responds appropriately.
+
 
 .. _Find Posts:
 
@@ -167,8 +172,9 @@ topic you select appear in the list of posts.
 Review Only Unread or Unanswered Posts
 =======================================
 
-To limit the posts shown on the **Discussion** page, you can select one of the filter options. Above the list of posts, the **Show all** filter
-is selected by default. 
+To limit the posts shown on the **Discussion** page, you can select one of the
+filter options. Above the list of posts, the **Show all** filter is selected
+by default.
 
 * To list only the discussions and questions that you have not yet viewed,
   select **Unread**.
@@ -187,8 +193,7 @@ Add a Post
 ================================
 
 To make sure that other students and the course team can find and respond to
-your post, try to select the correct type for your post: either question or
-discussion.
+your post, determine the type for your post: either question or discussion.
 
 Add a Post to a Content-Specific Discussion Topic
 **************************************************

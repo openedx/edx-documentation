@@ -43,8 +43,9 @@ consider different viewpoints, and ask questions. In a discussion, there are
 three hierarchical levels of interaction.
 
 * A *post* is the first level of interaction. A post opens a new subject. Posts
-  are often posed as questions, either to start a conversation or to surface an
-  issue that requires some action. When you add a post, you categorize it as a **Question** or as a **Discussion**.  
+  can be made as questions, to solicit a concrete answer, or as discussions,
+  to start a conversation. When you add a post, you decide whether to add it
+  as a **Question** or as a **Discussion**.
 
 * A *response* is the second level of interaction. A response is a reply made
   directly to a post to provide a solution or continue the conversation.
@@ -82,8 +83,9 @@ content-specific topics that you add to course units as discussion components.
 You create both types of discussion topics in Studio.
 
 For details about creating discussion topics, see :ref:`Create CourseWide
-Discussion Topics` and :ref:`Create ContentSpecific Discussion Topics`.
-For details about configuring discussion topics in courses with cohorts enabled, see :ref:`Set up Discussions in Cohorted Courses`.
+Discussion Topics` and :ref:`Create ContentSpecific Discussion Topics`. For
+details about configuring discussion topics in courses with cohorts enabled,
+see :ref:`Set up Discussions in Cohorted Courses`.
 
 .. _Create CourseWide Discussion Topics:
 
@@ -177,14 +179,16 @@ Assign Discussion Administration Roles
 
 You can designate a team of people to help you run course discussions.
 
-.. note:: 
-  The course team that you set up in Studio (or the course staff and
-  instructors you add on the Instructor Dashboard) are not automatically
-  granted discussion administration roles. Discussion administration roles must
-  be explicitly granted to members of the course team for them to moderate or
-  administer course discussions. The course author, team members with Admin
-  access (Studio), and Instructors (Instructor Dashboard) can grant discussion
-  administration roles.
+.. note:: The course team that you set up in Studio (or the course staff and
+   instructors you add on the Instructor Dashboard) are not automatically
+   granted discussion administration roles.
+
+
+   Discussion administration roles must be explicitly granted to members of
+   the course team for them to moderate or administer course discussions. The
+   course author, team members with Admin access (Studio), and Instructors
+   (Instructor Dashboard) can grant discussion administration roles.
+
 
 Different options for working with discussions are available through
 these roles:
@@ -228,9 +232,9 @@ addresses or usernames.
 Assign Roles
 ====================================
 
-To assign a discussion administration role, you must be the course author or an
-Instructor (that is, you are identified in Studio as a team member with Admin
-access).
+To assign a discussion administration role, you must be the course author or
+an Instructor (that is, you are identified in Studio as a team member with
+Admin access or in the LMS as an Instructor).
 
 #. View the live version of the course.
 
@@ -243,8 +247,26 @@ access).
 #. Under the list of users who currently have that role, enter an email address
    or username and click **Add** for the role type.
 
-#. To remove an assigned role, view the list of users and then click **Revoke
-   access**.
+
+==============
+Remove Roles
+==============
+
+To remove role privileges from a user, you must be the course author or
+an Instructor (that is, you are identified in Studio as a team member with
+Admin access or in the LMS as an Instructor).
+
+#. View the live version of the course.
+
+#. Click **Instructor**, then click **Membership**.
+
+#. In the Administration List Management section, use the drop-down list to
+   select Discussion Admins, Discussion Moderators, or Discussion Community
+   TAs.
+
+#. From the list of users who currently have that role, select the user you
+   want to remove, then click **Revoke access**.
+
 
 .. _Running_discussions:
 

@@ -22,32 +22,45 @@ Add a Post, Response, or Comment
 Add a Post
 ==============
 
-When you add a post to the course discussions, you'll determine the post type
-and the post topic, and then you'll add the post either directly inside the
-course unit or on the **Discussion** page.
+When you add a post to a discussion in your course, you decide what type of
+post to make and the topic of the post. You then add the post either directly
+inside the course unit or on the **Discussion** page.
 
 .. _Determine Post Type:
 
+**************************************************
 Determine the Post Type: Discussion or Question
 **************************************************
 
 To make sure that other students and the course team can find and respond to
-your post, determine the type for your post: either question or discussion.
+your post, decide what type of post you want to make: either question or
+discussion.
 
-* A *question* post raises an issue so that the discussion staff and community can
-  provide answers.
+* A *question* post raises an issue so that the discussion staff or community
+  can provide answers. 
 
 * A *discussion* post starts a conversation by sharing thoughts and
   reflections, and inviting community participation.
 
 If you have any difficulty deciding which type of post you want to add, think
 about whether you want to get concrete information (a question) or start an
-open-ended conversation (a discussion).
+open-ended conversation (a discussion). If you are asking a question about the
+course and need an answer from the course team, be sure to create your post as
+a question, so that the course team sees that a response is required and
+responds appropriately.
 
-.. note:: You can change the post type from discussion to question or vice versa at any time after you add your post. For more information, see :ref:`Edit or Delete`.
+After you make your post, on the **Discussion** page for your course, a
+question mark image identifies posts that ask questions and a conversation
+bubble image identifies posts that start discussions.
+
+.. note:: You can change the post type from discussion to question or vice
+   versa at any time after you add your post. For more information, see
+   :ref:`Edit or Delete`.
+   
 
 .. _Determine Post Topic:
 
+*************************
 Determine the Post Topic
 *************************
 
@@ -61,6 +74,7 @@ which topic is the most appropriate for your post. For more information, see
 After you've decided on a post type and topic, you can add your post on the
 **Discussion** page or in the body of the course.
 
+************************************
 Add a Post on the Discussion Page
 ************************************
 
@@ -93,6 +107,7 @@ this is the case, you'll see a **Post Anonymously** check box under the field
 where you enter your text. When you post anonymously, discussion staff can see your
 username, but other students cannot.
 
+************************************
 Add a Post in a Course Unit
 ************************************
 
@@ -130,6 +145,7 @@ to content-specific discussions.
 #. Enter the complete text of your post. Click the buttons above the text field
    to see options for formatting the text and for adding links or images.
 
+
 In a few courses, you can add posts, responses, and comments anonymously. If
 this is the case, you'll see a **Post Anonymously** check box under the field
 where you enter your text. When you post anonymously, discussion staff can see your
@@ -148,6 +164,7 @@ adding a response, or expand on a particular response by adding a comment.
 The same options for formatting the text and for adding links or images are
 available for responses and comments as for posts.
 
+**************************************************
 Add a Response or Comment on the Discussion Page
 **************************************************
 
@@ -174,6 +191,7 @@ topics on the **Discussion** page.
  - To add a comment to a response, click inside the **Add a comment** field below
    the response. When your comment is complete, click **Submit**.  
 
+*******************************************
 Add a Response or Comment in a Course Unit
 *******************************************
 
@@ -204,7 +222,7 @@ topic inside the course.
 
 *******************************************
 Edit or Delete a Post, Response, or Comment
-******************************************* 
+*******************************************
 
 You can edit or delete your own posts, responses, or comments at any time. You
 cannot edit or delete contributions from other students.
