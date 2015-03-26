@@ -243,8 +243,7 @@ The following problem templates open in the Advanced Editor.
 
 * :ref:`Problem Written in LaTeX` This problem type allows you to convert
   problems that you previously wrote in LaTeX into the edX format. Note that
-  this problem type is still a prototype, however, and may not be supported in
-  the future.
+  this problem type is a prototype, and is not supported.
 
 * :ref:`Write Your Own Grader` Custom Python-evaluated input (also called
   "write-your-own-grader" problems evaluate students' responses using an
