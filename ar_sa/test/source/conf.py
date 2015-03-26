@@ -18,7 +18,7 @@ source_suffix = '.rst'
 pygments_style = 'sphinx'
 
 
-language = 'he'
+language = 'ar'
 
 # Add any paths that contain templates here, relative to this directory.
 #templates_path.append('source/_templates')
@@ -30,7 +30,7 @@ language = 'he'
 
 
 # General information about the project.
-project = u'edX Guide for Students'
+project = u'دليل EDX للطلاب'
 copyright = u'2015, edX'
 
 # The short X.Y version.

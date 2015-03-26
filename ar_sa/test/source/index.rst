@@ -4,12 +4,9 @@
    contain the root `toctree` directive.
 
 
-edX Guide for Students
+دليل EDX للطلاب
 ========================================
 
 .. toctree::
 
    sample
-   sampletwo
-   samplethree
-   SFD

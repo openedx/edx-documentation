@@ -28,7 +28,8 @@ html {
 	-ms-text-size-adjust: 100%
 }
 body {
-	margin: 0
+	margin: 0;
+	direction: rtl;
 }
 a:hover, a:active {
 	outline: 0
