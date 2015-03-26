@@ -13,6 +13,8 @@ Dashboard in the LMS to add and rename cohorts, change a cohort's assignment
 method, associate cohorts with content groups, and specify whether course-wide
 and content-specific discussions are divided by cohort.
 
+For more information, see `Cohorts`_.
+
 
 ******************
 March 18, 2015

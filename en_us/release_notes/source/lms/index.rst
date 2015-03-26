@@ -13,6 +13,8 @@ in Studio to the Instructor Dashboard in the LMS. Course teams can use the new
 method, associate cohorts with content groups, and specify whether course-wide
 and content-specific discussions are divided by cohort.
 
+For more information, see `Cohorts`_.
+
 
 ******************
 March 11, 2015

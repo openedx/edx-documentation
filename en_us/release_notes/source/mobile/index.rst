@@ -12,6 +12,8 @@ visitors can also register for an edX user account. These features are available
 now in the edX mobile app for Android smartphones, and will be available soon
 for iPhones.
 
+For more information, see `The edX Mobile App`_.
+
 
 ******************
 March 11, 2015
