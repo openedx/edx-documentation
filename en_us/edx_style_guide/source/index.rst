@@ -5,7 +5,6 @@ edX Style Guide
 .. toctree::
     :maxdepth: 2
 	
-    preface.rst
     intro.rst
     preferred.rst
     wordlist.rst
