@@ -61,7 +61,7 @@ working on, and so on.
 Review Comments Terminology
 ---------------------------
 In order to expedite the review process and to have a clear and mutual understanding
-between reviewers and contributors, the following terminology is strongly suggested
+between reviewers and contributors, the following terminology should be used
 when submitting comments on a PR:
 
 * **Must** - A comment of type "Must" indicates the reviewer feels strongly about
@@ -85,9 +85,6 @@ As an example, the following PR comment is clearly categorized as Optional:
 ``"Optional: Consider reducing the high degree of connascense in this code by using
 keyword arguments."``
 
-**Note:** Unless stated or implied otherwise, all comments are assumed to be of type
-"Must".
-
-**Note 2:** It is possible that after further discussion and review, the reviewer
+**Note:** It is possible that after further discussion and review, the reviewer
 chooses to amend their comment, thereby changing its severity to be higher or
 lower than what was originally set.
