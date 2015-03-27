@@ -5,14 +5,14 @@ Word List
 ############
 
 .. list-table::
-  :widths: 20 80
-  :header-rows: 1
+   :widths: 20 80
+   :header-rows: 1
 
   * - Term
     - Description and Examples
   * - chapter
     - TBD: section vs. chapter vs. topic
-    - course team, course team member
+  * - course team, course team member
     - Use instead of "instructor", professor", "course author", "course
       staff", "faculty",  etc.
   * - discussion, course discussions
