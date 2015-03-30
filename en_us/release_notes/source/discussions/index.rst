@@ -3,6 +3,13 @@ edX Discussions
 ####################################
 
 ******************
+March 31, 2015
+******************
+
+* When users searched for a username in course discussions, they received an
+  error message. This problem is resolved. (TNL-1717)
+
+******************
 February 12, 2015
 ******************
 
