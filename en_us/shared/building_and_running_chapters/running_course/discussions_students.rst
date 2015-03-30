@@ -167,8 +167,9 @@ topic you select appear in the list of posts.
 Review Only Unread or Unanswered Posts
 =======================================
 
-To limit the posts shown on the **Discussion** page, you can select one of the filter options. Above the list of posts, the **Show all** filter
-is selected by default. 
+To limit the posts shown on the **Discussion** page, you can select one of the
+filter options. Above the list of posts, the **Show all** filter is selected
+by default.
 
 * To list only the discussions and questions that you have not yet viewed,
   select **Unread**.
