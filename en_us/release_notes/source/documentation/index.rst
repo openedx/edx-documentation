@@ -4,6 +4,26 @@ edX Documentation
 
 
 ******************
+March 31, 2015
+******************
+
+==================================
+Building and Running an edX Course
+==================================
+
+* Added the **Video Available on Web Only** advanced setting to the `Working
+  with Video Components`_ chapter.
+
+* Added the `Providing Partial Credit for Custom Python-Evaluated Input
+  Problems`_ section to the `Write-Your-Own-Grader Problem`_ chapter.
+
+==================
+Student Guide
+==================
+
+* Added registration and enrollment to `The edX Mobile App`_ section.
+
+******************
 March 25, 2015
 ******************
 

@@ -4,6 +4,24 @@ edX Learning Management System
 
 
 ******************
+March 31, 2015
+******************
+
+============================
+Accessibility Improvements 
+============================
+
+* The LMS now includes a aria-live region to contain HTML for problems.
+  Submission buttons have been removed from the aria-live ``div`` scope.
+  (TNL-1699)
+
+* Several accessibility fixes have been implemented in the course header.
+  (ECOM-1233)
+
+* An aria label has been added to the LMS footer. (ECOM-803)
+
+
+******************
 March 25, 2015
 ******************
 
@@ -59,15 +77,15 @@ February 12, 2015
   **Report a Problem** option did not work. This problem has been resolved.
   (TNL-1336)
 
-* Students who enroll in the verified certificate track for a course, but do not
-  verify their identity before the verification deadline, now receive a
+* Students who enroll in the verified certificate track for a course, but do
+  not verify their identity before the verification deadline, now receive a
   "Verification Deadline Has Passed" message in the browser when they try to
   verify their identity. Previously, students who missed the verification
   deadline saw a "Page Not Found" error message in the browser. (ECOM-1045)
 
-* In courses that have cohort-specific content, the **Generate Grade Report** option on
-  the **Data Download** tab of the Instructor Dashboard sometimes did not create
-  a grade report. This problem has been resolved. (TNL-1351)
+* In courses that have cohort-specific content, the **Generate Grade Report**
+  option on the **Data Download** tab of the Instructor Dashboard sometimes did
+  not create a grade report. This problem has been resolved. (TNL-1351)
 
 * In Safari, videos sometimes did not play at the selected speed. This problem
   has been resolved. (TNL-408)

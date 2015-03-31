@@ -423,3 +423,7 @@
 .. _Working with Libraries: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/creating_content/libraries.html
 
 .. _Randomized Content Blocks: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/randomized_content_blocks.html
+
+.. _Providing Partial Credit for Custom Python-Evaluated Input Problems: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/custom_python.html#providing-partial-credit-for-custom-python-evaluated-input-problems
+
+.. _Write-Your-Own-Grader Problem: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/custom_python.html
