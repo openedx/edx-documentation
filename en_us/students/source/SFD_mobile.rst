@@ -76,19 +76,17 @@ connected to the Internet.
 How do I create an edX account?
 ======================================
 
-When you open the edX mobile app, select **Sign up and start learning**. To
-create an edX account, you provide this information.
+When you open the edX mobile app, select **Sign up and start learning**. You
+can create an edX account using your email address or your Facebook or Google
+account. You also provide the following information.
 
-* Your email address. 
 * Your name.
-* The username that will identify you to course instructors and other
-  learners.
+* The username that will identify you to course teams and to other learners.
 * A password.
 * Your country or region. 
 
-After you create your account, an activation message is sent to your email
-address. Select the activation link in the message to finish setting up your
-account.
+After you create your account, you can find courses that interest you and
+enroll in them.
 
 ==================================================
 How do I find courses to take with the mobile app?
