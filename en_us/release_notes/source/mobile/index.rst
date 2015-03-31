@@ -2,6 +2,17 @@
 edX Mobile App
 ####################################
 
+******************
+March 31, 2015
+******************
+
+In the edX mobile app, new visitors can now use a Google or Facebook account
+to sign up for an edX account. These sign up options are available now in the
+edX mobile app for Android smartphones, and will be available soon for
+iPhones.
+
+For more information, see `The edX Mobile App`_.
+
 
 ******************
 March 18, 2015
