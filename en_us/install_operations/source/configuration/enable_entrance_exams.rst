@@ -25,13 +25,13 @@ Open edX Course* and *Open edX Learner's* guides.
 Enable Entrance Exams in Studio and the Learning Management System
 *************************************************************************
 
-#. Set the value of ``ENABLE_ENTRANCE_EXAMS`` in the
+#. Set the value of ``ENTRANCE_EXAMS`` in the
    ``/cms/envs/common.py`` and ``/lms/envs/common.py`` files to ``True``.
    
    .. code-block:: bash
 
      # Entrance exams feature flag
-     'ENABLE_ENTRANCE_EXAMS': True,
+     'ENTRANCE_EXAMS': True,
 
 #. Save the ``/cms/envs/common.py`` and ``/lms/envs/common.py`` files.
    
