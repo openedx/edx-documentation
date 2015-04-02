@@ -362,7 +362,7 @@ outside the Instructor Dashboard.
 
 * :ref:`problem`
 
-* :ref:`library`
+* :ref:`library_events`
 
 * :ref:`forum_events`
 
@@ -2214,7 +2214,7 @@ for a problem and it is graded successfully.
        problems.
 
 
-.. _library:
+.. _library_events:
 
 ==========================
 Library Interaction Events

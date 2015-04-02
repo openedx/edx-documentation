@@ -919,17 +919,6 @@ example, HW=50%, Final=25%, etc.).
 About Modules
 ==================================
 
-It is important to understand what "modules" are in the context of the edX
-system, as the terminology can be confusing. For the conventions of this table
-and many parts of the edX code, a module is a piece of course content that
-appears in the courseware. This can be nearly anything that appears when users
-are in the courseware tab: a video, a piece of HTML, a problem, etc. Modules
-can also be collections of other modules, such as sequences, verticals
-(modules stacked together on the same page), weeks, chapters, etc. In fact,
-the course itself is a top level module that contains all the other contents
-of the course as children. You can imagine the entire course as a tree with
-modules at every node.
-
 Modules can store state, but whether and how they do so varies based on the
 implementation for that particular kind of module. When a user loads a page,
 the system looks up all the modules that need to be rendered in order to

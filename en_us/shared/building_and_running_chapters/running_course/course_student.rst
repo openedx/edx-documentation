@@ -64,14 +64,15 @@ Students then enroll in as many individual courses as they choose, which enrolls
 them in each selected course.
 
 You can access this self-reported information for all of the students who are
-enrolled in your course:
+enrolled in your course.
 
 * username
 * name
 * email
 * year_of_birth
 * gender
-* level_of_education
+* level_of_education. For more information about the reported values, see
+  `auth_userprofile.level_of_education`_ column in the *edX Research Guide*.
 * mailing_address
 * goals
 
@@ -207,3 +208,4 @@ To display the number of active students:
 
 
 .. _Using edX Insights: http://edx-insights.readthedocs.org/en/latest/
+.. _auth_userprofile.level_of_education: http://edx.readthedocs.org/projects/devdata/en/latest/internal_data_formats/sql_schema.html#level-of-education
