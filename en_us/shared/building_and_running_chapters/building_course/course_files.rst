@@ -9,6 +9,10 @@ syllabus, you must upload the files to the **Files & Uploads** page. You can
 then include links to the files you upload in your course content in Studio,
 or in a bulk email message sent from the Instructor Dashboard.
 
+.. note:: 
+ Ensure that you obtain copyright permissions for files and images you use in
+ your course, and that you cite sources appropriately.
+
 *******************
 Overview
 *******************
@@ -39,9 +43,9 @@ link to add a link to the file from a bulk email message in the LMS. Students
 can see a file only if you create a link to it.
 
 .. note:: When URLs are generated for uploaded files, the file name becomes part
-   of the URL and is visible to students when they access the file. Avoid
-   using file names that contain information about the file contents that
-   should not be shared, for example, Answerkey.pdf.
+   of the URL and is visible to students when they access the file. Avoid using
+   file names that contain information about the file contents that should not
+   be shared, for example, Answerkey.pdf.
 
 .. warning::
    For PDF and image files, edX recommends that you use standard compression

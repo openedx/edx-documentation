@@ -4,27 +4,28 @@
 LTI Component
 ###############
 
-You might have discovered or developed an external learning application that you
-want to add to your online course. Or you might have a digital copy of your
+You might have discovered or developed an external learning application that
+you want to add to your online course. Or you might have a digital copy of your
 textbook that uses a format other than PDF. You can add external learning
-applications or textbooks to Studio by using a Learning Tools Interoperability
+applications or textbooks in Studio by using a learning tools interoperability
 (LTI) component. The LTI component is based on the `IMS Global Learning Tools
 Interoperability <http://www.imsglobal.org/LTI/v1p1p1/ltiIMGv1p1p1.html>`_
 version 1.1.1 specifications.
 
 You can use an LTI component in several ways.
 
-* You can add external LTI content that is only displayed and does not require a
-  student response, such as textbook content.
+* You can add external LTI content that is only displayed and does not require
+  a student response, such as textbook content.
 
-* You can add external LTI content that requires a student response. An external
-  provider will grade student responses.
+* You can add external LTI content that requires a student response. An
+  external provider will grade student responses.
 
 * You can use the component as a placeholder for syncing with an external
   grading system.
 
 
-For example, the following LTI component incorporates a Cerego tool that students interact with. 
+For example, the following LTI component incorporates a Cerego tool that
+students interact with.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/LTIExample.png
    :alt: Cerego LTI component example
@@ -46,13 +47,13 @@ unit, you need the following information.
 - The **LTI Passports** policy key. This policy key has three parts: an LTI ID,
   a client key, and a client secret.
 
-  -  The **LTI ID**. This is a value that you create to refer to the external LTI
-     provider. You should create an LTI ID that you can remember easily.
+  -  The **LTI ID**. This is a value that you create to refer to the external
+     LTI provider. You should create an LTI ID that you can remember easily.
 
-     The LTI ID can contain uppercase and lowercase alphanumeric
-     characters, as well as underscore characters (_). It can be any length. For example, you may create an LTI ID that is
-     as simple as **test_lti_id**, or your LTI ID may be a string of
-     numbers and letters such as  **id_21441** or
+     The LTI ID can contain uppercase and lowercase alphanumeric characters, as
+     well as underscore characters (_). It can be any length. For example, you
+     can create an LTI ID that is as simple as **test_lti_id**, or your LTI ID
+     can be a string of numbers and letters such as  **id_21441** or
      **book_lti_provider_from_new_york**.
   -  The **client key**. This value is a sequence of characters that you
      obtain from the LTI provider. The client key is used for
@@ -65,11 +66,13 @@ unit, you need the following information.
      may be a string of numbers and letters such as **23746387264** or
      **yt4984yr8**.
 
-  To create the **LTI Passports** policy key, combine the LTI ID, client key, and client secret in the following format (make sure to include the colons):
+  To create the **LTI Passports** policy key, combine the LTI ID, client key,
+  and client secret in the following format (make sure to include the colons).
 
   ``lti_id:client_key:client_secret``
 
-  For example, an **LTI Passports** policy key may resemble any of the following:
+  For example, an **LTI Passports** policy key can resemble any of the
+  following.
 
   ``test_lti_id:b289378-f88d-2929-ctools.school.edu:secret``
   
@@ -103,9 +106,11 @@ Step 1. Add LTI to the Advanced Module List Policy Key
      :width: 500
      :alt: Image of the advanced_modules key in the Advanced Settings page, with the LTI value added
 
-.. note:: If the **Advanced Module List** field already contains text, place your cursor directly
-   after the closing quotation mark for the final item, and then enter a comma
-   followed by ``"lti"`` (make sure that you include the quotation marks).
+.. note:: 
+   If the **Advanced Module List** field already contains text, place your
+   cursor directly after the closing quotation mark for the final item, and
+   then enter a comma followed by ``"lti"`` (make sure that you include the
+   quotation marks).
 
 4. At the bottom of the page, click **Save Changes**.
 
@@ -126,7 +131,8 @@ key to the course's advanced settings.
 
 #. Enter the **LTI Passports** policy key surrounded by quotation marks.
 
-   For example, the text in the **LTI Passports** field may resemble the following.
+   For example, the text in the **LTI Passports** field can resemble the
+   following.
 
    ``"test_lti_id:b289378-f88d-2929-ctools.umich.edu:secret"``
 
@@ -153,8 +159,14 @@ Step 3. Add the LTI Component to a Unit
 #. In the unit where you want to create the problem, click **Advanced**
    under **Add New Component**, and then click **LTI**.
 #. In the component that appears, click **Edit**.
-#. In the component editor, specify the settings that you want. See :ref:`LTI Component Settings` for a description of each setting.
+#. In the component editor, specify the settings that you want. See :ref:`LTI
+   Component Settings` for a description of each setting.
 #. Click **Save**.
+   
+.. note:: 
+  You cannot test the LTI component from within Studio. You must test the LTI
+  component in Preview mode or in the live course.  For more information, see
+  :ref:`Testing Your Course Content`.
 
 .. _LTI Component settings:
 
@@ -211,8 +223,8 @@ LTI Component Settings
      - Specifies the URL of the external tool that this component launches.This
        setting is applicable when **Hide External Tool** is set to False.      
    * - Open in New Page
-     - Specify whether the problem opens in a new page. If you set this value to
-       True, the student clicks a link that opens the LTI content in a new
+     - Specify whether the problem opens in a new page. If you set this value
+       to True, the student clicks a link that opens the LTI content in a new
        window. If you set this value to False, the LTI content opens in an
        IFrame in the current page. This setting is applicable when **Hide
        External Tool** is set to False.
@@ -231,4 +243,5 @@ LTI Component Settings
        point, and a student’s score can be any value between 0 and 1. This
        setting is applicable when **Scored** is set to True.
 
-       For more information about problem weights and computing point scores, see :ref:`Problem Weight`.
+       For more information about problem weights and computing point scores,
+       see :ref:`Problem Weight`.

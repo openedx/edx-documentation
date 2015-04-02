@@ -108,15 +108,24 @@ descriptions.
    heading 2, or paragraph.
 #. Choose a font family for selected text, such as Arial, Courier New, or Times
    New Roman.
-#. Format selected text in bold.
-#. Format selected text in italics.
-#. Underline selected text.
-#. Apply a color to the selected text.
-#. Format selected text as code.
-#. Create a bulleted list.
-#. Create a numbered list.
+#. Format selected text in bold. The editor inserts ``<strong>`` tags around
+   the selected text.
+#. Format selected text in italics. The editor inserts ``<em>`` tags around the
+   selected text.
+#. Underline the selected text. The editor encloses the selected text in
+   the tag ``<span style="text-decoration: underline;">``.
+#. Apply a color to the selected text. The editor encloses the selected text in
+   the tag ``<span style="color: color-hex-code;">``.
+#. Format selected text as a code block. The editor inserts ``<code>`` tags
+   around the selected text, which is then displayed in a monospace font.
+#. Create a bulleted list. The editor inserts ``<ul>`` tags
+   around the selected text, and encloses each paragraph in ``<li>`` tags.
+#. Create a numbered list. The editor inserts ``<ol>`` tags
+   around the selected text, and encloses each paragraph in ``<li>`` tags.
 #. Decrease and increased the indentation of the selected paragraph.
-#. Format the selected paragraph as a blockquote.
+#. Format the selected paragraph as a blockquote. The editor inserts
+   ``<blockquote>`` tags around the selected text, which is then displayed as a
+   separate paragraph in a monospace font.
 #. Create a link from the selected text. See :ref:`Add a Link in an HTML
    Component`.
 #. Delete the current link.
@@ -263,8 +272,8 @@ To add a link to a website:
 
 #. Click the link icon in the toolbar.
 
-#. In the **Insert link** dialog box, enter the URL of the website that you want
-   in the **URL** field.
+#. In the **Insert link** dialog box, enter the URL of the website that you
+   want in the **URL** field.
 
    .. image:: ../../../shared/building_and_running_chapters/Images/HTML_Insert-EditLink_Website.png
     :alt: Image of the Insert link dialog box
@@ -286,7 +295,6 @@ To add a link to a website:
 
 
 .. _Add a Link to a Course Unit:
-
 
 Add a Link to a Course Unit
 ***********************************
@@ -310,13 +318,20 @@ You can add a link to a course unit in an HTML component.
 
    ``/jump_to_id/<unit identifier>``
 
-   Make sure to replace <unit identifier> (including the brackets) with the unit
-   identifier that you copied in step 2, and make sure to include both forward slashes (/).
+   Make sure to replace <unit identifier> (including the brackets) with the
+   unit identifier that you copied in step 1, and make sure to include both
+   forward slashes (/).
 
    .. image:: ../../../shared/building_and_running_chapters/Images/HTML_Insert-EditLink_CourseUnit.png
     :alt: Image of the Insert link dialog box with a link to a unit identifier
 
-#. If you want the link to open in a new window, click the drop-down arrow next
+  .. caution::
+    Ensure you use ``/jump_to_id/<unit identifier>`` as the URL value. Do not
+    use the URL of the unit that you see in the browser address bar.  If you do
+    not use ``/jump_to_id/<unit identifier>``, the link will be broken if you
+    export then import the course.
+
+6. If you want the link to open in a new window, click the drop-down arrow next
    to the **Target** field, and then select **New Window**. If not, you can
    leave the default value.
 
@@ -334,8 +349,12 @@ You can add a link in an HTML component to any file that is uploaded for the
 course. For more information about uploading files, see :ref:`Add Files to a
 Course`.
 
-#. On the **Files & Uploads** page, copy the **Studio** URL of the file.
+.. tip:: 
+ When adding links to files, open the HTML component and the **Files &
+ Uploads** page in separate browser windows. You can then more quickly copy and
+ paste file URLs.
 
+#. On the **Files & Uploads** page, copy the **Studio** URL of the file.
 
   .. image:: ../../../shared/building_and_running_chapters/Images/HTML_Link_File.png
    :alt: Image of Files and Uploads page with the Studio URL field circled 
@@ -376,15 +395,23 @@ When using the visual editor, you can add any image that you have uploaded for
 the course to an HTML component. For more information about uploading images,
 see :ref:`Add Files to a Course`.
 
+Review :ref:`Best Practices for Describing Images` before you add images to
+HTML components.
+
 .. note:: 
- Review :ref:`Best Practices for Describing Images` before you add images to
- HTML components.
+ Ensure that you obtain copyright permissions for images you use in
+ your course, and that you cite sources appropriately.
 
 To add an image, you'll need the URL of the image that you uploaded to the
 course. You'll then create a link to the image in the HTML component.
 
-#. On the **Files & Uploads** page, copy the **Studio** URL of the image that you
-   want. For an example illustration, see :ref:`Add a Link to a File`.
+.. tip:: 
+ When adding images, open the HTML component and the **Files &
+ Uploads** page in separate browser windows. You can then more quickly copy and
+ paste image URLs.
+
+#. On the **Files & Uploads** page, copy the **Studio** URL of the image that
+   you want. For an example illustration, see :ref:`Add a Link to a File`.
 
   .. note:: 
    You must use the **Studio** URL to add the image, not the **Web** URL.
@@ -403,20 +430,24 @@ course. You'll then create a link to the image in the HTML component.
     :alt: Image of the Insert image dialog box with a reference to a file
 
 4. Enter alternative text in the **Image description** field. This text becomes
-   the value of the ``alt`` attribute in HTML and is required for your course to
-   be fully accessible. See :ref:`Best Practices for Describing Images` for more
-   information.
+   the value of the ``alt`` attribute in HTML and is required for your course
+   to be fully accessible. See :ref:`Best Practices for Describing Images` for
+   more information.
 
 #. As needed, customize the image dimensions. Keep **Constrain proportions**
-   checked to ensure the image keeps the same width and height proportions.
+   checked to ensure the image keeps the same width and height proportions. 
+
+   With **Constrain proportions** selected, you only change one dimension. When
+   you tab out of the field, the other dimension changes to a value that
+   maintains the same image proportions.
 
 #. To change the spacing and border of the image, click the **Advanced** tab. 
 
    .. image:: ../../../shared/building_and_running_chapters/Images/HTML_Insert-Edit_Image_Advanced.png
     :alt: Image of the Insert image dialog box Advanced tab
 
-#. Enter the **Vertical space**, **Horizontal space**, and **Border** as needed.
-   The values you enter are automatically added to the **Style** field.
+#. Enter the **Vertical space**, **Horizontal space**, and **Border** as
+   needed. The values you enter are automatically added to the **Style** field.
 
 #. Click **OK** to insert the image in the HTML component.
 
@@ -478,8 +509,8 @@ To create an HTML component that contains LaTeX code:
    .. image:: ../../../shared/building_and_running_chapters/Images/HTML_LaTeX_CompEditor.png
     :alt: Image of the LaTeX component
 
-#. On the unit page, click **Preview** to verify that your content looks the way
-   you want it to in the LMS.
+#. On the unit page, click **Preview** to verify that your content looks the
+   way you want it to in the LMS.
 
    If you see errors, go back to the unit page. Click **Edit** to open the
    component again, and then click **Launch Latex Source Compiler** in the

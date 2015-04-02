@@ -46,15 +46,11 @@ Studio, as described in this chapter:
 .. image:: ../../../shared/building_and_running_chapters/Images/about_page.png
  :alt: An image of the course summary page.
 
-
-
-
 .. _The Student Dashboard:
 
 ***********************************
 The Student Dashboard
 ***********************************
-
 
 If a student enrolls in your course, the course is then listed on the **Current
 Courses** dashboard, with the course image.  From the dashboard, a student can
@@ -63,8 +59,6 @@ see the start date, as explained in this chapter.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/dashboard.png
  :alt: An image of the dashboard
-
-
 
 .. _Set Important Dates for Your Course:
 
@@ -81,10 +75,12 @@ In Studio, from the **Settings** menu, select **Schedule and Details**.
 
 Follow the on-screen text to enter the course and enrollment schedule.
 
+EdX recommends that you check that all important dates are correct one week
+before you plan to start the course.
+
 .. note:: 
  The Time fields on this page, and the times that students see, use UTC
  (Universal Coordinated Time)
-
 
 .. _The Course Start Date:
 
@@ -99,13 +95,19 @@ The Course Start Date
 
 Students see the course start date and time on their **Current Courses**
 dashboards and on the course About page (sometimes also called the course
-summary page). Students can see some parts of the course before the course start
-date. For example, students can see your **Course Info** page and course-wide
-discussion topics as soon as they enroll in your course. For more information
-about course-wide discussion topics, see :ref:`Create CourseWide Discussion
-Topics`.
+summary page). Students can see some parts of the course before the course
+start date. For example, students can see your **Course Info** page and course-
+wide discussion topics as soon as they enroll in your course. For more
+information about course-wide discussion topics, see :ref:`Create CourseWide
+Discussion Topics`.
 
-The following example shows the course start date and time on the course summary page:
+EdX recommends that you set the start time of your course to early in the day,
+generally 12:00 UTC or earlier. Learners often expect the course to be
+available on the start date in their own time zones and try to access course
+content during the day.
+
+The following example shows the course start date and time on the course
+summary page:
 
 .. image:: ../../../shared/building_and_running_chapters/Images/about-page-course-start.png
  :alt: An image of the course About page, with the start date circled.
