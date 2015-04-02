@@ -34,9 +34,12 @@ working through, the following steps:
 * Completed self assessments.
 * Completed the entire assignment. 
 
-To find this information, open the assignment in the courseware, scroll to the bottom of the assignment, and then click **Course Staff Information**.
+To find this information, open the assignment in the courseware, scroll to the
+bottom of the assignment, and then click **Course Staff Information**.
 
-The **Course Staff Information** section expands, and you can see the number of students who are currently working through (but have not completed) each step of the problem.
+The **Course Staff Information** section expands, and you can see the number
+of students who are currently working through (but have not completed) each
+step of the problem.
 
 .. image:: ../../../../shared/building_and_running_chapters/Images/PA_CourseStaffInfo_Expanded.png
    :alt: The Course Staff Information box expanded, showing problem status
@@ -47,11 +50,16 @@ The **Course Staff Information** section expands, and you can see the number of 
 Access Information for a Specific Student
 ***********************************************
 
-You can access information about an individual student's performance on a peer assessment assignment, including:
+You can access information about an individual student's performance on a peer
+assessment assignment, including:
 
 * The student's response. 
-* The peer assessments that other students performed on the student's response, including feedback on individual criteria and on the overall response.
-* The peer assessments that the student performed on other students' responses, including feedback on individual criteria and on the overall responses.
+* The peer assessments that other students performed on the student's
+  response, including feedback on individual criteria and on the overall
+  response.
+* The peer assessments that the student performed on other students'
+  responses, including feedback on individual criteria and on the overall
+  responses.
 * The student's self assessment.
 
 In the following example, you can see the performance information for a specific
@@ -98,7 +106,8 @@ The following example shows:
 * The two peer assessments the student completed.
 * The student's self assessment.
 
-For a larger view, click the image so that it opens by itself in the browser window, and then click anywhere on the image that opens.
+For a larger view, click the image so that it opens by itself in the browser
+window, and then click anywhere on the image that opens.
 
 .. image:: ../../../../shared/building_and_running_chapters/Images/PA_SpecificStudent_long.png
    :width: 250
@@ -108,14 +117,15 @@ For a larger view, click the image so that it opens by itself in the browser win
 .. _Remove a student response from peer grading:
 
 ************************************************
-Remove a student response from peer grading
+Remove a Student Response from Peer Grading
 ************************************************
 
 If you use open response assessments, students might alert you to vulgar,
 abusive, or otherwise inappropriate responses that they have seen while
-performing peer assessments. In such a situation you can locate and cancel the
-submission. Doing so removes the inappropriate response from peer assessments so
-that it is no longer shown to other students.
+performing peer assessments. In such a situation you can :ref:`locate<Locate a
+specific ORA submission>` and cancel the submission. Doing so removes the
+inappropriate response from peer assessments so that it is no longer shown to
+other students.
 
 .. note:: Removing a student's submission is an irreversible action. 
 
@@ -169,4 +179,34 @@ Remove a submission from peer assessment by completing these steps.
    
 .. image:: ../../../../shared/building_and_running_chapters/Images//ORA_CancelledStudentResponse.png
    :alt: The date, time and comment for removal of a student response is shown instead of the original response.  
+
+
+.. _Locate a specific ORA submission:
+
+*************************************************
+Locate a Specific Submission in an ORA Assignment
+*************************************************
+
+If you are alerted to an inappropriate ORA submission that you want to cancel
+and :ref:`remove from peer assessment<Remove a student response from peer
+grading>`, locate the specific submission by following these steps.
+
+#. Ask the person who reported the incident to send you a sample of text from
+   the inappropriate post.
+
+#. Contact your edX program manager to request a data download of ORA
+   responses for your course.
+
+   You will receive the download as a spreadsheet or in .csv file format.
+
+#. Search the spreadsheet for text that matches the sample text from the
+   inappropriate post.
+
+#. From any matching entries in the spreadsheet, locate the username of the
+   learner who posted the submission.
+
+#. Make a note of the username, and follow the steps to :ref:`remove a student
+   response from peer grading<Remove a student response from peer grading>`.
+
+
 
