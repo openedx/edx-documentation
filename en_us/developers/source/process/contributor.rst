@@ -148,5 +148,5 @@ links:
 * `Javascript Guidelines <https://github.com/edx/edx-platform/wiki/Javascript-Guidelines>`_
 
 .. _edx-platform Github wiki: https://github.com/edx/edx-platform/wiki#development
-.. _contributor's agreement with edX: http://code.edx.org/individual-contributor-agreement.pdf
+.. _contributor's agreement with edX: http://open.edx.org/sites/default/files/wysiwyg/individual-contributor-agreement.pdf
 .. _compatible licenses: https://github.com/edx/edx-platform/wiki/Licensing
