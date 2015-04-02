@@ -28,8 +28,8 @@ sections:
 
 * :ref:`Close_discussions`
   
-For information about how enabling the cohort feature for a course affects
-options for moderating course discussions, see :ref:`Moderating Discussions for
+For information about how using cohorts in your course affects how your course
+team might moderate course discussions, see :ref:`Moderating Discussions for
 Cohorts`.
 
 .. _Overview_discussions:
@@ -84,8 +84,8 @@ You create both types of discussion topics in Studio.
 
 For details about creating discussion topics, see :ref:`Create CourseWide
 Discussion Topics` and :ref:`Create ContentSpecific Discussion Topics`. For
-details about configuring discussion topics in courses with cohorts enabled,
-see :ref:`Set up Discussions in Cohorted Courses`.
+details about configuring discussion topics in courses that use cohorts, see
+:ref:`Set up Discussions in Cohorted Courses`.
 
 .. _Create CourseWide Discussion Topics:
 
@@ -94,13 +94,22 @@ Create Course-Wide Discussion Topics
 =====================================
 
 All courses include a page named **Discussion**. When you create a course, a
-discussion topic named "General" is available for you to include by default.
-You can add more course-wide discussion topics to guide how students share and
-find information during your course. Such course-wide topics might include
-Feedback, Troubleshooting, or Technical Help. Discussions in these topics can
-begin as soon as your course is available.
+course-wide discussion topic named "General" is already included by default.
 
-To create a course-wide discussion topic:
+You can add additional course-wide discussion topics to guide how students
+share and find information during your course. Such course-wide topics might
+include Introduction and Announcements, Feedback, or Troubleshooting.
+Discussions in these topics can begin as soon as your course is available.
+
+.. note:: Make sure each discussion topic in your course has a unique name,
+   whether it is a course-wide topic or a content-specific discussion topic
+   that you add as a discussion component. If different discussion topics
+   share the same name, learners might be confused as to which discussion
+   topic they are participating in. For example, do not add a content-specific
+   discussion topic named "General", because a course-wide discussion topic
+   named "General" already exists in every course.
+
+To create a course-wide discussion topic, follow these steps.
 
 #. Open your course in Studio. 
 
@@ -124,7 +133,10 @@ To create a course-wide discussion topic:
 #. Change the value for the second "id" to a unique identifier. For example,
    append a reference to the name of the topic.
 
-#. Add a comma after the first closing brace (``},``).
+.. note:: In discussion topic IDs, you can use only alphanumeric characters
+   and these special characters: underscore, hyphen, and period.
+
+7. Add a comma after the first closing brace (``},``).
 
  .. image:: ../../../shared/building_and_running_chapters/Images/Discussion_Add_name.png
   :alt: Policy value of {"General": {"id": "i4x-edX-Open-edx_demo_course"}, 
@@ -142,11 +154,11 @@ Discussion list now includes the topic you added.
  .. image:: ../../../shared/building_and_running_chapters/Images/NewCategory_Discussion.png
   :alt: Image of a new topic named Course Q&A in the list of discussions
 
-.. note:: In courses with cohorts enabled, the course-wide discussion topics
-   that you add are unified. All of the posts can be read and responded to by
-   every student, regardless of their assignement to a cohort. You have the
-   option to configure these topics to be divided by cohort. See
-   :ref:`Coursewide Discussion Topics and Cohorts`.
+.. note:: In courses that use cohorts, the course-wide discussion topics that
+   you add are unified. All posts can be read and responded to by every
+   learner, regardless of the cohort that they belong to. You can optionally
+   configure these topics to be divided by cohort. See :ref:`Coursewide
+   Discussion Topics and Cohorts`.
 
 .. _Create ContentSpecific Discussion Topics:
 
@@ -191,7 +203,7 @@ You can designate a team of people to help you run course discussions.
 
 
 Different options for working with discussions are available through
-these roles:
+the following roles.
 
 * *Discussion moderators* can edit and delete messages at any level, review
   messages flagged for misuse, close and reopen posts, pin posts, and endorse
@@ -227,6 +239,7 @@ addresses or usernames.
 
 * To get this information for an enrolled student, on the Instructor Dashboard
   click **Data Download**, then **Download profile information as a CSV**.
+
 
 ====================================
 Assign Roles
