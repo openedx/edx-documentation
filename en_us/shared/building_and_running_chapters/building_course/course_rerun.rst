@@ -50,6 +50,11 @@ any way.
    * - Wiki contributions
      - No.
 
+After you re-run a course, modifications to the original course and the re-run
+course are independent. Changes to either course are not propagated to the
+other course. Therefore, you should ensure that the original course content is
+as complete as possible before you re-run the course.
+
 See :ref:`Use Re-Run to Create a Course<Use ReRun to Create a Course>` and
 :ref:`Update the New Course`.
 
@@ -68,6 +73,10 @@ Before you re-run a course:
   Manager. Your Program Manager will create the new course using the re-run
   feature, and then work with you to complete the steps to :ref:`update the new
   course<Update the New Course>`.
+
+* Ensure that the course content is complete. Additions and changes you make to
+  the original course after creating the new course are not propagated to the
+  new course.
 
 To re-run a course, you must have course creation privileges in Studio and you
 must be a member of the course team for the course you want to re-run.
@@ -165,6 +174,8 @@ through the course and verify that it is ready for release. You can also refer
 to the :ref:`Launch` chapter for tools and ideas that help you prepare the
 course for launch.
 
+.. note:: 
+  Changes you make in the new course are not propagated to the original course.
 
 .. _edge.edx.org: http://edge.edx.org
 .. _edx.org: http://edx.org

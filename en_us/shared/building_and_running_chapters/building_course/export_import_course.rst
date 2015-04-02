@@ -9,6 +9,13 @@ You can :ref:`Export a Course` and :ref:`Import a Course` through Studio.
 To duplicate an existing course for a new run, course creators can use the
 course re-run option. See :ref:`Rerun a Course`.
 
+.. caution::
+  Before exporting and importing a course, ensure that links in the course to
+  other course content use the ``/jump_to_id/<unit identifier>`` syntax. If a
+  link does not use the ``/jump_to_id/<unit identifier>`` syntax, the link will
+  be broken if you export then import the course. For more information, see
+  :ref:`Add a Link to a Course Unit`.
+
 .. _Export a Course:
 
 ***************
@@ -69,7 +76,6 @@ There are several reasons you may want to import a course. For example:
 * To load a course you developed outside of Studio.
 * To run a new version of a course that was not created in Studio.
 
-
 The course that you import must be in a .tar.gz file (that is, a .tar file
 compressed with GNU Zip). This .tar.gz file must contain a course.xml file in a
 course data directory. The tar.gz file must have the same name as the course
@@ -77,8 +83,8 @@ data directory. It may also contain other files.
  
 If your course uses legacy layout structures, you may not be able to edit the
 course in Studio, although it will probably appear correctly on Edge. To make
-sure that your course is completely editable, ensure that all of your material
-is embedded in a unit.
+sure that your course is completely editable, ensure that all components are
+embedded in a unit.
  
 The import process has five stages. During the first two stages, you must stay
 on the Course Import page. You can leave this page after the Unpacking stage
@@ -92,3 +98,9 @@ To import a course:
 #. Locate the file that you want, and then click **Open**.
 #. Click **Replace my course with the one above**.
 
+.. note:: 
+ When you import a course, important dates, such as the course start date and
+ time, are overwritten. After the import is complete, you should check dates to
+ ensure they are set as intended. For more information, see
+ :ref:`Set Important Dates for Your Course`.
+ 

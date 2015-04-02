@@ -265,6 +265,7 @@ Problem component have the following settings. These settings appear on the
 *  **Randomization**
 *  **Show Answer**
 *  **Show Reset Button**
+*  **Timer Between Attempts**
 
 .. image:: ../../../shared/building_and_running_chapters/Images/ProbComponent_Attributes.png
  :alt: Image of the Settings tab in a Problem component
@@ -507,6 +508,17 @@ was set for this problem has been reached, the **Reset** button is not visible.
 
 This problem-level setting overrides the course-level **Show Reset Button for
 Problems** setting.
+
+.. _Timer Between Attempts:
+
+=======================
+Timer Between Attempts
+=======================
+
+This setting specifies the number of seconds a student must wait between
+submissions for a problem that allows multiple attempts. If the value is 0, the
+student can attempt the problem again immediately.
+
 
 .. _Modifying a Released Problem:
 
