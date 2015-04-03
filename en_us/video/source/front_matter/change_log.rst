@@ -8,6 +8,9 @@ Change Log
 
    * - Date
      - Change
+   * - 4 Apr 2015
+     - Added the :ref:`Add a Video Transcript` section to provide procedures
+       for obtaining transcripts and associating them with your video files.
    * - 10 Mar 15
      - Updated several sections, including :ref:`Video Processing Statuses`.
        Clarified when teams can add a video to a course in contrast to when

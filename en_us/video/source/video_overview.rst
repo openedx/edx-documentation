@@ -61,8 +61,8 @@ Uploads** page as the videos go through automated processing.
 
 .. note:: The edX automation process does not include captioning services. 
  Your course teams use your institution's current workflow to generate
- transcripts for your video files. See the section on `creating a video
- transcript`_ in the *Building and Running an edX Course* guide.
+ transcripts for your video files, and then add them to the video in Studio.
+ For more information, see :ref:`Add a Video Transcript`.
 
 ************************************
 Course Team Add Video Overview
