@@ -3,6 +3,20 @@ Change Log
 ############
 
 ****************
+April 2015
+****************
+
+.. list-table::
+   :widths: 10 70
+   :header-rows: 1
+
+   * - Date
+     - Change
+   * - 3 April 2015
+     - Added the section :ref:`Timer Between Attempts` to the :ref:`Working
+       with Problem Components` chapter.
+
+****************
 March 2015
 ****************
 
