@@ -5,24 +5,30 @@
 Managing Discussions in Courses with Student Cohorts
 ##########################################################
 
-In courses that have the cohort feature enabled, every post has an indicator of
-who can read it: either everyone, or only the members of a single cohort. For
-students, this is the only noticeable difference between discussions in courses
-that include cohorts when compared to courses that do not. You can share the
-examples in the :ref:`Read the Cohort Indicator in Posts` section with your
-students, along with the :ref:`Discussions for Students and Staff` section of
-this guide.
+In courses that have cohorts enabled, every post has an indicator of who can
+read it: either all students, or only the members of a single cohort. For
+students, this is the only noticeable difference between discussions in
+courses that include cohorts when compared to courses that do not. You can
+share the examples in the :ref:`Read the Cohort Indicator in Posts` section
+with your students, along with the :ref:`Discussions for Students and Staff`
+section of this guide.
 
-Staff members who have the discussion admin, discussion moderator, or community
-TA role see the same indicator of who can read each post. Unlike the students,
-however, the discussion staff members can read and contribute to every post,
-regardless of the cohort assignment of the student who posted it.
+Staff members who have the discussion admin, discussion moderator, or
+community TA role see the same indicator of who can read each post. Unlike the
+students, however, staff members with discussion privileges can read and
+contribute to every post, regardless of the cohort assignment of the student
+who posted it.
 
-.. note:: Students who have the Community TA role can read and 
- contribute to all posts.
+.. note:: Course team members must have discussion moderator or admin
+   privileges in addition to their course staff privileges to be able to view
+   posts that are divided by cohort. For information about adding discussion
+   privileges, see :ref:`Assigning_discussion_roles`.
 
-In courses with the cohort feature enabled, members of the discussion staff can
-also:
+   Students who have the Community TA role can read and contribute to all
+   posts.
+
+In courses with the cohort feature enabled, course team members who have
+discussion moderator or admin privileges can also:
 
 * Choose who will be able to see the posts that they add to divided topics. See
   :ref:`Choosing the Visibility of a Post`.
@@ -174,6 +180,10 @@ Viewing the Posts of a Cohort
 When a course includes student cohorts, you can view posts and monitor
 discussion activity for one cohort at a time. You can also view all
 posts.
+
+.. note:: Course team members must have discussion moderator or admin
+   privileges in addition to their course staff privileges to be able to view
+   posts that are divided by cohort.
 
 Above the list of posts on the **Discussion** page, the **in all cohorts**
 filter is selected by default. You see every post when you make this selection,
