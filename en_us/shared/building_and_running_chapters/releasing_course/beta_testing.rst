@@ -29,8 +29,8 @@ course in an effort to improve its quality. The phases of the beta testing
 process, and some questions that you may find useful to consider as you prepare
 for each phase, follow.
 
-#. **Planning**: What are your objectives for the test? What is the schedule for
-   testing?
+#. **Planning**: What are your objectives for the test? What is the schedule
+   for testing?
 
 #. **Recruitment**: How many testers do you need? How much time do you expect
    testers to spend? When do you need them to complete their feedback?
@@ -39,11 +39,11 @@ for each phase, follow.
    immediately, or are its sections and subsections available at different
    times? How will that affect the schedule?
 
-#. **Collect feedback**: How do you want testers to provide feedback? Who checks
-   for feedback, and how often?
+#. **Collect feedback**: How do you want testers to provide feedback? Who
+   checks for feedback, and how often?
 
-#. **Evaluate feedback**: How is feedback evaluated? Who decides what changes to
-   make as a result, and on what schedule?
+#. **Evaluate feedback**: How is feedback evaluated? Who decides what changes
+   to make as a result, and on what schedule?
 
 #. **Conclusion**: How do you acknowledge the efforts of your testers? What do
    you share with them about the results of their efforts?
@@ -101,9 +101,10 @@ content:
 * To identify material that is unclear, at least one tester should be less
   familiar with the content.
 
-Depending on the objectives you set for your beta test, you may want to consider
-recruiting testers who use assistive technologies, who have different native
-languages, or who have varying levels of familiarity with computer software.
+Depending on the objectives you set for your beta test, you might want to
+consider recruiting testers who use assistive technologies, who have different
+native languages, or who have varying levels of familiarity with computer
+software.
 
 =========================================
 Using Course Staff as Beta Testers 
@@ -118,9 +119,10 @@ reluctant to provide feedback, or overly zealous.
 If you do want a staff member to be a beta tester, a different, second email
 address must be used for this additional role. The privileges of the course
 staff role override those of a beta tester, so a second registration on the
-site, activation, and enrollment in the course are necessary using this second
-email address. The staff member must log in using the second email address (with
-the beta tester role) in order to experience the course as a student.
+site, as well as activation and enrollment in the course, are necessary using
+this second email address. The staff member must log in using the second email
+address (with the beta tester role) in order to experience the course as a
+student.
 
 .. _What_Test:
 
@@ -142,9 +144,6 @@ Beta testers can use a desktop computer to access an edX website, the edX
 mobile app on a smartphone, or both to complete their tests. As they work,
 beta testers log issues and questions for the course team.
 
-.. note:: Beta testers cannot read or make discussion posts or contribute to 
- the course wiki.
-
 .. _How_Testers_See_Course:
 
 ******************************************
@@ -153,8 +152,8 @@ How Beta Testers See Course Content
 
 To beta test a course, you: 
 
-* Define a number of days before section and subsection release days for testing
-  to begin.
+* Define a number of days before section and subsection release days for
+  testing to begin.
 
 * Identify beta testers.
 
@@ -191,9 +190,9 @@ unit<Publish a Unit>`.
 Define When the Beta Test Starts
 ================================
 
-To define the start of the beta test, you use Studio to specify a number of days
-before the release day that is defined for each section and subsection in your
-course.
+To define the start of the beta test, you use Studio to specify a number of
+days before the release day that is defined for each section and subsection in
+your course.
 
 #. In Studio, from the **Settings** menu select **Advanced Settings**.
 
@@ -286,16 +285,16 @@ To add multiple beta testers:
 #. Click **Instructor**, and then click **Membership**. 
 
 #. In the **Batch Beta Tester Addition** section of the page, enter one or more
-   addresses or usernames separated by commas or line feeds (the Enter key). You
-   can also copy data from a CSV file of email addresses and paste it here.
+   addresses or usernames separated by commas or line feeds (the Enter key).
+   You can also copy data from a CSV file of email addresses and paste it here.
  
-#. To enroll the beta testers in your course, leave **Auto Enroll** selected. If
-   the beta test starts before the course **Enrollment Start Date**, testers
+#. To enroll the beta testers in your course, leave **Auto Enroll** selected.
+   If the beta test starts before the course **Enrollment Start Date**, testers
    cannot enroll themselves in your course.
 
-#. To send an email message to the beta testers, leave **Notify users by email**
-   selected. An example of the message that is sent to a beta tester who is not
-   enrolled (or auto enrolled) in the course follows.
+#. To send an email message to the beta testers, leave **Notify users by
+   email** selected. An example of the message that is sent to a beta tester
+   who is not enrolled in the course follows.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/Beta_tester_email.png
   :alt: "You have been invited to be a beta tester for {course name} at {URL}. 
@@ -346,8 +345,8 @@ problems, questions, and issues can occur while a course is running.
 * Often, students report issues by asking questions in a discussion. Your
   discussion administration team can watch for posts that indicate problems.
 
-* To let students know the best way to report problems, you can post information
-  on the **Course Info** page or post it in a discussion.
+* To let students know the best way to report problems, you can post
+  information on the **Course Info** page or post it in a discussion.
 
 .. per Mark 19 Feb 14: eventually we want to provide more guidance for students:  course issues > use discussions, platform issues > submit issue to edx.
 
