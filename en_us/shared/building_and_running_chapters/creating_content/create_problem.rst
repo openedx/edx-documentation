@@ -259,13 +259,13 @@ In addition to the text of the problem, problems that you create using a
 Problem component have the following settings. These settings appear on the
 **Settings** tab in the component editor.
 
-*  **Display Name**
-*  **Maximum Attempts**
-*  **Problem Weight**
-*  **Randomization**
-*  **Show Answer**
-*  **Show Reset Button**
-*  **Timer Between Attempts**
+*  `Display Name`_
+*  `Maximum Attempts`_
+*  `Problem Weight`_
+*  `Randomization`_
+*  `Show Answer`_
+*  `Show Reset Button`_
+*  `Timer Between Attempts`_
 
 .. image:: ../../../shared/building_and_running_chapters/Images/ProbComponent_Attributes.png
  :alt: Image of the Settings tab in a Problem component
@@ -517,7 +517,16 @@ Timer Between Attempts
 
 This setting specifies the number of seconds a student must wait between
 submissions for a problem that allows multiple attempts. If the value is 0, the
-student can attempt the problem again immediately.
+student can attempt the problem again immediately after an incorrect attempt.
+
+Adding required wait time between attempts can help to prevent learners from
+simply guessing when multiple attempts are allowed.
+
+If a learner attempts a problem again before the required time has elapsed, she
+sees a message below the problem indicating the required wait time.
+
+.. image:: ../../../shared/building_and_running_chapters/Images/problem_attempt_timer.png
+ :alt: Problem with message that learner must wait before attempting again
 
 
 .. _Modifying a Released Problem:
