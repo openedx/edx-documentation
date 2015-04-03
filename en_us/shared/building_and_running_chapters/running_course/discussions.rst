@@ -13,8 +13,8 @@ community.
 
 Discussions are also excellent sources of feedback and ideas for the future.
 
-For options you can use to run and moderate discussions, see the following
-sections:
+For information about running and moderating discussions, see the following
+sections.
 
 * :ref:`Overview_discussions`
 
@@ -31,6 +31,14 @@ sections:
 For information about how using cohorts in your course affects how your course
 team might moderate course discussions, see :ref:`Moderating Discussions for
 Cohorts`.
+
+.. note:: The :ref:`Discussions for Students and Staff` section describes
+   features that are available to all discussion participants, and might be
+   useful to students who are new to online discussion forums. You can share
+   the section with your students by, for example, adding a "Never Used a
+   Discussion Forum Before?" post that includes the information you think will
+   be most useful to them.
+
 
 .. _Overview_discussions:
 
@@ -55,21 +63,29 @@ three hierarchical levels of interaction.
   post as a whole.
  
 The dialogue created by a post, its responses, and the comments on those
-responses is sometimes called a thread.
+responses is sometimes called a thread. Discussion threads are saved as part
+of the course history.
 
 All course staff members and enrolled students can add posts, responses, and
 comments, and view all of the posts, responses, and comments made by other
-course participants. Members of the course community, both staff and students,
-can be given permission to moderate or administer course discussions through a
-set of discussion administration roles. Discussion threads are saved as part of
-the course history.
+course participants. 
 
-.. note:: 
-  The :ref:`Discussions for Students and Staff` chapter describes features that
-  are available to all discussion participants, and may be useful to students
-  who are new to online discussion forums. You can share the chapter with your
-  students by, for example, adding a "Never Used a Discussion Forum Before?"
-  post that includes the information you think will be most useful to them.
+Members of the course community, both staff and students, can be given
+permission to moderate or administer course discussions through a set of
+discussion administration roles. 
+
+.. note:: The course team that you set up in Studio (or the course staff and
+   instructors you add on the Instructor Dashboard) are not automatically
+   granted discussion administration privileges, which are required to view
+   all posts, for example in courses using cohorts.
+
+   Discussion administration roles must be explicitly granted to members of
+   the course team for them to moderate or administer course discussions. The
+   course author, team members with Admin access (Studio), and Instructors
+   (Instructor Dashboard) can grant discussion administration roles. For
+   information about adding discussion privileges, see
+   :ref:`Assigning_discussion_roles`.
+
 
 .. _Organizing_discussions:
 
