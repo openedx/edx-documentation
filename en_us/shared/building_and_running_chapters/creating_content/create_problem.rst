@@ -523,7 +523,7 @@ Adding required wait time between attempts can help to prevent learners from
 simply guessing when multiple attempts are allowed.
 
 If a learner attempts a problem again before the required time has elapsed, she
-sees a message below the problem indicating the required wait time.
+sees a message below the problem indicating the remaining wait time.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/problem_attempt_timer.png
  :alt: Problem with message that learner must wait before attempting again
