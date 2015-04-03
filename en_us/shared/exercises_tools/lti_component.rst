@@ -216,6 +216,10 @@ LTI Component Settings
        component as a placeholder for syncing with an external grading system.
        If you set the value to True, Studio hides the **Launch** button and any
        IFrames for this component. By default, this value is set to False.
+   * - LTI Application Information     
+     - The description of the third party application. If the application
+       requires a username or email address, use this field to inform learners
+       why their information will be forwarded to a third party application.
    * - LTI ID     
      - Specifies the LTI ID for the external LTI provider. This value must be
        the same LTI ID that you entered on the **Advanced Settings** page.
