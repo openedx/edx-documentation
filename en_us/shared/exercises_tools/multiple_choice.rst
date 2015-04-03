@@ -4,18 +4,24 @@
 Multiple Choice Problem
 ########################
 
-In multiple choice problems, students select one option from a list of answer options. Unlike with dropdown problems, whose answer choices don't appear until the student clicks the drop-down arrow, answer choices for multiple choice problems are always visible directly below the question.
+In multiple choice problems, students select one option from a list of answer
+options. Unlike with dropdown problems, whose answer choices don't appear
+until the student clicks the drop-down arrow, answer choices for multiple
+choice problems are always visible directly below the question.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/MultipleChoiceExample.png
  :alt: Image of a multiple choice problem
 
-Multiple choice problems also have several advanced options, such as presenting a random set of choices to each student. For more information about these options, see :ref:`Multiple Choice Advanced Options`.
+Multiple choice problems also have several advanced options, such as
+presenting a random set of choices to each student. For more information about
+these options, see :ref:`Multiple Choice Advanced Options`.
 
 ****************************************
 Create a Multiple Choice Problem
 ****************************************
 
-You can create multiple choice problems in the Simple Editor or in the Advanced Editor.
+You can create multiple choice problems in the Simple Editor or in the
+Advanced Editor.
 
 .. note:: Problems must include accessible labels. An accessible label generally 
  includes the text of the main question in your problem. To add an accessible
@@ -29,22 +35,23 @@ Simple Editor
 #. Under **Add New Component**, click **Problem**.
 #. In the **Select Problem Component Type** screen, click **Multiple
    Choice** on the **Common Problem Types** tab.
-#. When the new Problem component appears, click **Edit**.
-#. In the component editor, replace the sample problem text with the text of your 
-   problem. Enter each answer option on its own line.
-#. Determine the text of the problem to use as a label, and then surround that text with two sets of angle brackets (>><<).
+#. When the new problem component appears, click **Edit**.
+#. In the component editor, replace the sample problem text with the text of
+   your problem. Enter each answer option on its own line.
+#. Determine the text of the problem to use as a label, and then surround that
+   text with two sets of angle brackets (>><<).
 #. Select all the answer options, and then click the multiple choice button. 
    
    .. image:: ../../../shared/building_and_running_chapters/Images/ProbCompButton_MultChoice.png
     :alt: Image of the multiple choice button
    
-   When you do this, the component editor adds a pair of parentheses next to each 
-   possible answer.
+   When you do this, the component editor adds a pair of parentheses next to
+   each possible answer.
    
 #. Add an "x" between the parentheses next to the correct answer.
    
-#. In the component editor, select the text of the explanation, and then click the 
-   explanation button to add explanation tags around the text.
+#. In the component editor, select the text of the explanation, and then click
+   the explanation button to add explanation tags around the text.
 
    .. image:: ../../../shared/building_and_running_chapters/Images/ProbCompButton_Explanation.png
     :alt: Image of the explanation button
@@ -52,55 +59,69 @@ Simple Editor
 #. On the **Settings** tab, specify the settings that you want. 
 #. Click **Save**.
 
-For the example problem above, the text in the Problem component is the
+For the example problem above, the text in the problem component is the
 following.
 
 ::
 
     >>Lateral inhibition, as was first discovered in the horsehoe crab:<<
 
-    ( ) is a property of touch sensation, referring to the ability of crabs to 
-    detect nearby predators.
+    ( ) is a property of touch sensation, referring to the ability of crabs
+    to detect nearby predators.
     ( ) is a property of hearing, referring to the ability of crabs to detect 
     low frequency noises.
-    (x) is a property of vision, referring to the ability of crabs eyes to 
+    (x) is a property of vision, referring to the ability of crabs' eyes to 
     enhance contrasts.
-    ( ) has to do with the ability of crabs to use sonar to detect fellow horseshoe 
-    crabs nearby.
-    ( ) has to do with a weighting system in the crabs skeleton that allows it to 
-    balance in turbulent water.
+    ( ) has to do with the ability of crabs to use sonar to detect fellow 
+    horseshoe crabs nearby.
+    ( ) has to do with a weighting system in the crab's skeleton that allows 
+    it to balance in turbulent water.
 
     [Explanation]
-    Horseshoe crabs were essential to the discovery of lateral inhibition, a property of 
-    vision present in horseshoe crabs as well as humans, that enables enhancement of 
-    contrast at edges of objects as was demonstrated in class. In 1967, Haldan Hartline 
-    received the Nobel prize for his research on vision and in particular his research 
-    investigating lateral inhibition using horseshoe crabs.
+    Horseshoe crabs were essential to the discovery of lateral inhibition,
+    a property of vision present in horseshoe crabs as well as in humans that 
+    enables enhancement of contrast at edges of objects as was demonstrated in class. 
+    In 1967, Haldan Hartline received the Nobel prize for his research on vision 
+    and in particular his research investigating lateral inhibition using 
+    horseshoe crabs.
     [Explanation]
 
 ================
 Advanced Editor
 ================
 
-To create this problem in the Advanced Editor, click the **Advanced** tab in the Problem component editor, and then replace the existing code with the following code.
+To create this problem in the Advanced Editor, click the **Advanced** tab in
+the problem component editor, and then replace the existing code with the
+following code.
 
 .. code-block:: xml
 
   <problem>
   <p>Lateral inhibition, as was first discovered in the horsehoe crab...</p>
   <multiplechoiceresponse>
-    <choicegroup type="MultipleChoice" label="Lateral inhibition, as was first discovered in the horsehoe crab">
-      <choice correct="false">is a property of touch sensation, referring to the ability of crabs to detect nearby predators.</choice>
-      <choice correct="false">is a property of hearing, referring to the ability of crabs to detect low frequency noises.</choice>
-      <choice correct="false">is a property of vision, referring to the ability of crabs eyes to enhance contrasts.</choice>
-      <choice correct="true">has to do with the ability of crabs to use sonar to detect fellow horseshoe crabs nearby.</choice>
-      <choice correct="false">has to do with a weighting system in the crabs skeleton that allows it to balance in turbulent water.</choice>
+    <choicegroup type="MultipleChoice" label="Lateral inhibition, as was first discovered
+      in the horsehoe crab">
+      <choice correct="false">is a property of touch sensation, referring to the ability 
+      of crabs to detect nearby predators.</choice>
+      <choice correct="false">is a property of hearing, referring to the ability of crabs
+      to detect low frequency noises.</choice>
+      <choice correct="false">is a property of vision, referring to the ability of crabs' 
+      eyes to enhance contrasts.</choice>
+      <choice correct="true">has to do with the ability of crabs to use sonar to detect
+      fellow horseshoe crabs nearby.</choice>
+      <choice correct="false">has to do with a weighting system in the crab's skeleton 
+      that allows it to balance in turbulent water.</choice>
     </choicegroup>
   </multiplechoiceresponse>
   <solution>
     <div class="detailed-solution">
       <p>Explanation</p>
-      <p>Horseshoe crabs were essential to the discovery of lateral inhibition, a property of vision present in horseshoe crabs as well as humans, that enables enhancement of contrast at edges of objects as was demonstrated in class. In 1967, Haldan Hartline received the Nobel prize for his research on vision and in particular his research investigating lateral inhibition using horseshoe crabs.</p>
+      <p>Horseshoe crabs were essential to the discovery of lateral inhibition,
+       a property of vision present in horseshoe crabs as well as humans that
+       enables enhancement of contrast at edges of objects as was demonstrated in class.
+       In 1967, Haldan Hartline received the Nobel prize for his research on vision
+       and in particular his research investigating lateral inhibition using
+       horseshoe crabs.</p>
     </div>
   </solution>
   </problem>
@@ -116,8 +137,7 @@ Advanced Options for Multiple Choice Problems
 Multiple choice problems have several advanced options. You can change the
 order of answers in the problem, include explanations that appear when a
 student selects a specific incorrect answer, or present a random set of
-choices to each student. For more information, see the following:
-
+choices to each student. For more information, see the following topics.
 
 * :ref:`Shuffle Answers in a Multiple Choice Problem`
 * :ref:`Targeted Feedback in a Multiple Choice Problem`
@@ -143,12 +163,12 @@ student of a subsequent view of the unit, could be:
 .. image:: ../../../shared/building_and_running_chapters/Images/multiple-choice-shuffle-2.png
  :alt: Image of a multiple choice problem with shuffled answers
 
-You can also have some answers shuffled, but not others. For example, you may
-want to have the answer "All of the Above" fixed at the end of the list, but
-shuffle other answers.
+You can also have some answers shuffled, but not others. For example, you
+might want to have the answer "All of the Above" always appear at the end of
+the list, but shuffle other answers.
 
-You can configure the problem to shuffle answers through :ref:`Simple Editor`
-or :ref:`Advanced Editor`.
+You can configure the problem to shuffle answers using :ref:`Simple Editor` or
+:ref:`Advanced Editor`.
 
 
 Use the Simple Editor to Shuffle Answers
@@ -190,8 +210,8 @@ that answer.
      ( ) The vegetable peeler
      (@) All of the above
 
-You can combine symbols within the parentheses as necessary. For example, to show
-the correct answer in a fixed location, you can use both ``x`` and ``@``.
+You can combine symbols within the parentheses as necessary. For example, to
+show the correct answer in a fixed location, you can use both ``x`` and ``@``.
 
 ::
  
@@ -221,7 +241,8 @@ shuffling is enabled.
  </problem>
 
 
-To add shuffling to this problem, add ``shuffle="true"`` to the ``<choicegroup>`` element.
+To add shuffling to this problem, add ``shuffle="true"`` to the
+``<choicegroup>`` element.
 
 .. code-block:: xml
 
@@ -237,7 +258,8 @@ To add shuffling to this problem, add ``shuffle="true"`` to the ``<choicegroup>`
  </multiplechoiceresponse>
  </problem>
 
-To fix an answer's location in the list, add ``fixed="true"`` to the ``choice`` element for the answer.
+To fix an answer's location in the list, add ``fixed="true"`` to the
+``choice`` element for the answer.
 
 .. code-block:: xml
 
@@ -270,7 +292,8 @@ attempts.
 Use the Advanced Editor to Configure Targeted Feedback
 ********************************************************
 
-You configure the problem to provide targeted feedback through XML in :ref:`Advanced Editor`.
+You configure the problem to provide targeted feedback through XML in
+:ref:`Advanced Editor`.
 
 Follow these XML guidelines:
 
@@ -311,7 +334,8 @@ This is followed by XML that defines the targeted feedback.
      <targetedfeedback explanation-id="feedback1">
        <div class="detailed-targeted-feedback">
          <p>Targeted Feedback</p>
-         <p>The iPad came out later and did not directly compete with portable CD players.</p>
+         <p>The iPad came out later and did not directly compete with portable
+            CD players.</p>
        </div>
      </targetedfeedback>
      <targetedfeedback explanation-id="feedback2">
@@ -345,10 +369,11 @@ You can configure a multiple choice problem so that a random subset of choices
 are shown to each student. For example, you can add 10 possible choices to the
 problem, and each student views a set of five choices.
 
-The answer pool must have at least one correct answer, and can have more than
-one. In each set of choices shown to a student, one correct answer is
-included. For example, you may configure two correct answers in the set of 10.
-One of the two correct answers is included in each set a student views.
+The answer pool must have at least one correct answer. It can have more than one
+correct answer. In each set of choices shown to a student, one correct answer is
+included. For example, you can configure two correct answers in the set of
+choices. One of the two correct answers is included in each set that a student
+views.
 
 Use the Advanced Editor to Configure Answer Pools
 **************************************************
@@ -376,9 +401,9 @@ Follow these XML guidelines:
  ``<solution>`` element.
 
 For example, for the following multiple choice problem, a student will see
-four choices, and in each set one of the choices will be one of the two
-correct ones. The explanation shown for the correct answer is the one with the
-same explanation ID.
+four choices. In each set, one of the choices will be one of the two correct
+choices. The explanation shown for the correct answer is the one with the same
+explanation ID.
 
 .. code-block:: xml
 
@@ -405,7 +430,8 @@ same explanation ID.
         <solution explanation-id="iPhone">
         <div class="detailed-solution">
             <p>Explanation</p>
-            <p>In addition to being a cell phone, the iPhone can store and play your digital music.</p>
+            <p>In addition to being a cell phone, the iPhone can store and play your
+               digital music.</p>
         </div>
         </solution>
     </solutionset>
@@ -500,8 +526,9 @@ Lists an answer option.
      * - correct (at least one required)
        - Indicates a correct or incorrect answer. When the attribute is set to
          "true", the choice is a correct answer. When the attribute is set to
-         "false", the choice is an incorrect answer. Only one choice can be a
-         correct answer.
+         "false", the choice is an incorrect answer. You can specify more than 
+         one correct answer, but students can select only once choice to submit
+         as their answer.
      * - name
        - A unique name that the back end uses to refer to the choice.
 
