@@ -104,12 +104,11 @@ strongly recommend that you **use the .mp4 or .webm format**.
 Step 2. Create or Obtain a Video Transcript
 *********************************************
 
-Transcripts are required for your videos. Transcripts are helpful for
-students who are viewing a video in a language other than their native
-language, who are unable to watch the video, or who want to review the content
-of the video. You can allow students to download transcripts so that they
-can read them offline. You associate a transcript with a video when you
-create the video component.
+Transcripts are required for your videos. Transcripts are required for deaf or
+hard of hearing learners to understand audio content, and helpful for learners
+who speak other languages. You can allow students to download transcripts so
+that they can read them offline. You associate a transcript with a video when
+you create the video component.
 
 Timed transcripts in the SubRip Text (.srt) format are strongly recommended. A
 transcript in the .srt format appears next to its associated video and
