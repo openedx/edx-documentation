@@ -433,7 +433,7 @@ L
   and access data while the course is running.
 
 
-.. _Library:
+.. _Library_g:
 
 **Library**
 
@@ -483,6 +483,18 @@ M
   For more information, see `A Brief Introduction to MathJax in Studio`_.
 
 
+.. _Module_g:
+
+**Module**
+
+  An item of course content, created in an XBlock, that appears on the
+  **Courseware** page in the edX learning management system. Examples of
+  modules include videos, HTML-formatted text, and problems.
+
+  Module is also used to refer to the structural components that organize
+  course content. Sections, subsections, and units are modules; in fact, the
+  course itself is a top-level module that contains all of the other course
+  content as children.
 
 
 .. _Multiple Choice_g:

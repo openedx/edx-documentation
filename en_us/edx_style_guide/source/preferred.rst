@@ -139,7 +139,7 @@ Preferred Usage
   * - White space
     - Plan for the expansion of text, particularly in images such as flowcharts.
   * - Word choice
-    - See the `Word List`_ for our preferred terminology. Avoid jargon,
+    - See the :ref:`Word List` for our preferred terminology. Avoid jargon,
       colloquialisms, and humor.
       
       Do not use non-technical words that are not in common use, such as "and
