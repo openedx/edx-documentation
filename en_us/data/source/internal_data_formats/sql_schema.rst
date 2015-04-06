@@ -374,9 +374,9 @@ The ``auth_userprofile`` table has the following columns.
   +--------------------+--------------+------+-----+------------------------------------------+
   | allow_certificate  | tinyint(1)   | NO   |     |                                          |
   +--------------------+--------------+------+-----+------------------------------------------+
-  | country            | varchar(2)   | YES  |     |                                          |  
+  | country            | varchar(2)   | YES  |     |                                          |
   +--------------------+--------------+------+-----+------------------------------------------+
-  | city               | longtext     | YES  |     |                                          | 
+  | city               | longtext     | YES  |     |                                          |
   +--------------------+--------------+------+-----+------------------------------------------+
 
 **History**: ``country`` and ``city`` added January 2014. The organization of
@@ -568,6 +568,8 @@ mailing_address
   Collected during student registration from a text field control. A blank
   string for students who elect not to enter anything.
 
+  This column can contain multiple lines, which are separated by '``\r\n``'.
+
   **History**: This information began to be collected after the transition
   from MITx to edX; prototype course students have NULL for this field.
 
@@ -627,6 +629,8 @@ goals
   Collected during student registration from a text field control with the
   label "Goals in signing up for edX". A blank string for students who elect
   not to enter anything.
+
+  This column can contain multiple lines, which are separated by '``\r\n``'.
 
   **History**: This information began to be collected after the transition
   from MITx to edX; prototype course students have NULL for this field.
