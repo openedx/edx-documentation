@@ -65,7 +65,9 @@ C
   Not all edX courses offer certificates, and not all students enroll as
   certificate candidates.
 
+**Chapter**
 
+  See :ref:`Section<S>`.
 
 .. _Checkbox_g:
  
@@ -627,10 +629,16 @@ S
  
 **Section**
 
-  The topmost category in your course. A section can represent a time period
-  in your course or another organizing principle.
+  The topmost category in your course outline. A section can represent a time
+  period or another organizing principle for course content. A section
+  contains one or more subsections.
 
   For more information, see `Developing Course Sections`_.
+
+
+**Sequential**
+
+  See :ref:`Subsection<S>`.
 
 
 .. _Short Course Description:
@@ -662,9 +670,9 @@ S
  
 **Subsection**
 
-  A division that represents a topic in your course, or another organizing
-  principle. Subsections are found inside sections and contain units.
-  Subsections can also be called "lessons."
+  A division in the course outline that represents a topic in your course,
+  such as a lesson or another organizing principle. Subsections are defined
+  inside sections and contain units.
 
   For more information, see `Developing Course Subsections`_.
 
@@ -694,12 +702,29 @@ T
 
   For more information, see `Working with Video Components`_.
 
+.. _U:
+
+***
+U
+***
+
+**Unit**
+
+  A unit is a division in the course outline that represents a lesson.
+  Learners view all of the content in a unit on a single page.
+
+  For more information, see `Developing Course Units`_.
+
 
 .. _V:
 
 ****
 V
 ****
+
+**Vertical**
+
+  See :ref:`Unit<U>`.
 
 .. _Video Component:
  
@@ -739,7 +764,7 @@ XYZ
  
 **XBlock**
 
-  EdX’s component architecture for writing courseware components: XBlocks are
+  EdX's component architecture for writing courseware components: XBlocks are
   the components that deliver course content to learners.
 
   Third parties can create components as web applications that can run within
@@ -793,6 +818,7 @@ XYZ
 .. _Describe Your Course: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/building_course/setting_up_student_view.html#describe-your-course
 .. _The Studio View of a Problem: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/creating_content/create_problem.html#problem-studio-view
 .. _Developing Course Subsections: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/developing_course/course_subsections.html
+.. _Developing Course Units: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/developing_course/course_units.html
 .. _Text Input Problem: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/text_input.html
 .. _Working with Video Components: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/creating_content/create_video.html#working-with-video-components
 .. _Hide or Show the Course Wiki Page: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/building_course/pages.html#hide-or-show-the-course-wiki-page

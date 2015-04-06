@@ -14,6 +14,12 @@ January-March 2015
 
    * - Date
      - Change
+   * - 6 Apr 15
+     - Added a section to describe the
+       :ref:`course structure<course_structure>` file.
+   * - 18 Mar 2015
+     - Added information about library events for students to the
+       :ref:`Tracking Logs` chapter.
    * - 11 Mar 2015
      - Added information about additional video interaction events that are
        now emitted by the edX mobile app, and reorganized the :ref:`video` in
