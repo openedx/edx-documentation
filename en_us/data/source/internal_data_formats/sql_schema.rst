@@ -600,7 +600,7 @@ level_of_education
        * - b
          - Bachelor's degree.
        * - a
-         - Associate's degree.
+         - Associate degree.
        * - hs
          - Secondary/high school.
        * - jhs
