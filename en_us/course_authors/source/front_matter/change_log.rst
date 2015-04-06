@@ -12,7 +12,10 @@ April 2015
 
    * - Date
      - Change
-   * - 3 April 2015
+   * - 6 Apr 2015
+     - Added instructions for specifying multiple or irregular regions to
+       :ref:`Image Mapped Input`.
+   * - 3 Apr 2015
      - Added the section :ref:`Timer Between Attempts` to the :ref:`Working
        with Problem Components` chapter.
 
