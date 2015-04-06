@@ -205,4 +205,4 @@ or text (.txt) format to download.
 
 .. _Developing Your Course: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/developing_course/index.html#developing-your-course-index
 
-.. _3Play Media: http://www.3playmedia.com>
+.. _3Play Media: http://www.3playmedia.com
