@@ -2,6 +2,49 @@
 edX Documentation
 ####################################
 
+******************
+April 15, 2015
+******************
+
+==================================
+Using edX Insights
+==================================
+
+Added the `Ungraded Problem Submissions`_ section to the *Using edX Insights*
+guide.
+
+==================================
+Building and Running an edX Course
+==================================
+
+* Added instructions for specifying multiple or irregular regions to
+  the `Image Mapped Input`_ topic.
+
+* Added the `Timer Between Attempts`_ topic to the "Working with
+  Problem Components" section.
+
+* Added information about the `Recommender`_ tool.
+
+==================================
+edX Research Guide
+==================================
+
+Added the `Course Content Data`_ section to describe the course structure
+file.
+
+==================================
+Open edX Platform APIs
+==================================
+
+Added sections for `Course Structure API Version 0`_, `Enrollment API Version
+1.0`_, and `User API Version 0`_.
+
+==================================
+edX Developer's Guide
+==================================
+
+Added the `edX Style Guidelines`_ section with guidelines for Objective-C
+contributions.
 
 ******************
 March 31, 2015
@@ -17,11 +60,11 @@ Building and Running an edX Course
 * Added the `Providing Partial Credit for Custom Python-Evaluated Input
   Problems`_ section to the `Write-Your-Own-Grader Problem`_ chapter.
 
-==================
-Student Guide
-==================
+=======================
+edX Guide for Students
+=======================
 
-* Added registration and enrollment to `The edX Mobile App`_ section.
+Added registration and enrollment to `The edX Mobile App`_ section.
 
 ******************
 March 25, 2015
@@ -74,6 +117,12 @@ The `Tracking Logs`_ chapter now contains descriptions of these events.
 
 * New events for the opening of Google calendars and documents to the Tracking
   Logs chapter.
+
+==================================
+Using edX Insights
+==================================
+
+Added the `Student Performance`_ section to the *Using edX Insights* guide.
 
 ******************
 March 2, 2015
@@ -145,9 +194,9 @@ To support packaged releases for Open edX better, the source files for the  `edX
 Developer's Guide`_ are now located in the GitHub ``edx-documentation``
 repository.
 
-==================
-Student Guide
-==================
+=======================
+edX Guide for Students
+=======================
 
 Answers to frequently asked questions about the edX mobile app are now
 available in the `The edX Mobile App`_ section of this guide.

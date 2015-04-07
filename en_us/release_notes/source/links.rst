@@ -31,6 +31,10 @@
 
 .. _Problems and Tools:  http://edx-open-learning-xml.readthedocs.org/en/latest/problem-xml/index.html
 
+.. _Image Mapped Input: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/image_mapped_input.html
+
+.. _Timer Between Attempts: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/creating_content/create_problem.html#timer-between-attempts
+
 .. _OLX Course Structure: http://edx-open-learning-xml.readthedocs.org/en/latest/directory-structure.html#odl-directory-structure
 
 .. _Course Components (XBlocks): http://edx-open-learning-xml.readthedocs.org/en/latest/components/index.html
@@ -69,6 +73,12 @@
 .. Platform API guide links
 
 .. _edX Platform API: http://edx-platform-api.readthedocs.org/en/latest/index.html
+
+.. _Course Structure API Version 0: http://edx.readthedocs.org/projects/edx-platform-api/en/latest/course_structure/index.html#edx-platform-course-structure-api-version-0
+
+.. _Enrollment API Version 1.0: http://edx.readthedocs.org/projects/edx-platform-api/en/latest/enrollment/index.html#edx-platform-enrollment-api-version-1-0
+
+.. _User API Version 0: http://edx.readthedocs.org/projects/edx-platform-api/en/latest/user/index.html#edx-platform-user-api-version-0
 
 .. other links not yet categorized carefully
 
@@ -138,6 +148,7 @@
 
 .. _Data Delivered in Data Packages: http://edx.readthedocs.org/projects/devdata/en/latest/internal_data_formats/package.html
 
+.. _Course Content Data: http://edx.readthedocs.org/projects/devdata/en/latest/internal_data_formats/course_structure.html#course-structure
 
 .. _edX Platform Developer's Guide: http://edx.readthedocs.org/projects/edx-developer-guide/en/latest/
 
@@ -427,3 +438,13 @@
 .. _Providing Partial Credit for Custom Python-Evaluated Input Problems: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/custom_python.html#providing-partial-credit-for-custom-python-evaluated-input-problems
 
 .. _Write-Your-Own-Grader Problem: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/custom_python.html
+
+.. _Using edX Insights: http://edx-insights.readthedocs.org/en/latest/
+
+.. _Ungraded Problem Submissions: http://edx-insights.readthedocs.org/en/latest/performance/Performance_Ungraded.html#ungraded-problem-submissions
+
+.. _Student Performance: http://edx-insights.readthedocs.org/en/latest/performance/index.html
+
+.. _edX Style Guidelines: http://edx.readthedocs.org/projects/edx-developer-guide/en/latest/style_guides/index.html
+
+.. _Recommender: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/recommenderXBlock.html#recommenderxblock
