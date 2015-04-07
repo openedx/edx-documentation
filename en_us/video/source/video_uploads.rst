@@ -207,8 +207,12 @@ The encoding and hosting process assigns these statuses to video files.
   file.
 
 * **Imported** files were imported into Studio along with the other assets of
-  a previously exported course. Imported files are often already included
-  in course components, and they are ready for learners to view in the LMS.
+  a previously exported course. To determine whether processing is complete
+  for a file with a status of **Imported**, refer to the status of the same
+  file on the **Video Uploads page of the original course.
+
+  As a best practice, wait until as many of the video files uploaded for a
+  course are in the **Ready** status as possible before you export.
 
 * **Failed** files did not complete processing successfully. Verify that you
   can play your original .mp4 or .mov file and that it meets the other
