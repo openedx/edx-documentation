@@ -206,6 +206,14 @@ The encoding and hosting process assigns these statuses to video files.
   Processing continues at video hosting sites for 24 hours after you upload a
   file.
 
+* **Imported** files were imported into Studio along with the other assets of
+  a previously exported course. To determine whether processing is complete
+  for a file with a status of **Imported**, refer to the status of the same
+  file on the **Video Uploads page of the original course.
+
+  As a best practice, wait until as many of the video files uploaded for a
+  course are in the **Ready** status as possible before you export.
+
 * **Failed** files did not complete processing successfully. Verify that you
   can play your original .mp4 or .mov file and that it meets the other
   specifications for successful video processing. See :ref:`Specifications for
