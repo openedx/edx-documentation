@@ -22,6 +22,8 @@ sections.
 
 * :ref:`Assigning_discussion_roles`
 
+* :ref:`Visibility of Discussion Topics`
+
 * :ref:`Running_discussions`
 
 * :ref:`Moderating_discussions`
@@ -297,6 +299,32 @@ Admin access or in the LMS as an Instructor).
    want to remove, then click **Revoke access**.
 
 
+.. _Visibility of Discussion Topics:
+
+**********************************
+Visibility of Discussion Topics
+**********************************
+
+The names that you specify as the category and subcategory names for
+discussion components are not visible on the **Discussion** tab until after
+the course has started and the unit is released.
+
+However, "seed" posts that you create in content-specific discussion topics
+before a course starts or before the unit is released are immediately visible
+on the **Discussion** tab, even though the containing category or subcategory
+names are not visible. We recommend that you do not create posts in content-
+specific discussion topics before a unit is released. For more information
+about release dates and the visibility of components, see ee :ref:`Controlling
+Content Visibility`.
+
+In contrast, :ref:`course-wide discussion topics<Create CourseWide Discussion
+Topics>` that you create on the **Advanced Settings** page in Studio,
+including the default "General" discussion topic, are immediately visible,
+regardless of whether the course has started. They are not associated with any
+particular section or subsection of the courseware, and are not subject to
+release dates.
+
+
 .. _Running_discussions:
 
 *********************
@@ -340,20 +368,24 @@ Seed Discussion Topics
 
 To help students learn how to get the most out of course discussions, and find
 the best discussion topic to use for their questions and conversations, you can
-seed discussion topics by adding posts before your course starts. Some examples
-follow.
+seed discussion topics in course-wide discussion topics before the course starts. 
+Some examples follow.
 
 * In the General topic (which is included in every course by default), add an
   [INTRO] post to initiate a thread for student and staff introductions.
 
-* For each topic that you create, add the first post to it to describe
-  the way you intend it to be used. In addition to providing guidance, these
-  initial messages can also act as models for students to follow when they
-  create their own posts.
+* For each course-wide discussion topic that you create, add an initial post
+  to describe the way you intend that discussion to be used. In addition to
+  providing guidance, these initial messages can act as models for learners to
+  follow when they create their own posts.
 
-* If you include discussion components along with problem components in a unit,
-  you can add a post that encourages students to use the topic to ask for help
-  with the problems, but reminds them not to post the answers.
+We strongly recommend that you do not create seed posts in content-specific
+discussion topics before the course starts or before the containing unit is
+released. The category and subcategory names for content-specific discussion
+topics are subject to the release visibility of their containing unit, and are
+not visible until the unit is released. For more details, see :ref:`Visibility
+of Discussion Topics`.
+
 
 ======================================
 Minimize Thread Proliferation
