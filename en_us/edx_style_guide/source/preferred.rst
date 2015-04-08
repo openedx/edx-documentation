@@ -4,20 +4,19 @@
 Preferred Usage
 #################
 
-
-* Write short, clear sentences of no more than 20-30 words. Avoid dependent
+* Write short, clear sentences of no more than 20 words. Avoid dependent
   clauses.
 
 * Beware of fused sentences. Use commas to break sentences into component
   phrases. For example, change "Locate the course you want to re-run and click
-  **Re-Run Course**." to "Locate the course you want to re-run, and then click
-  **Re-Run Course**."
+  **Re-Run Course**." to "Locate the course you want to re-run, and then
+  select **Re-Run Course**."
 
 * Do not use "the following" as a noun or to introduce a list.
 
 * Use "have to," "must," or "we recommend" rather than "should." 
 
-* Avoid redundancy in phrases:
+* Avoid redundancy in phrases.
 
   * Create a new NOUN --> prefer Create a NOUN
 
@@ -74,7 +73,15 @@ Preferred Usage
       Dashboard." If necessary, explain the file type. For example: "A Word
       (.doc) file."
   * - Headings
-    - TBD: How headings are worded (H1s: gerunds, etc.)
+    - For sections that contain concepts and procedures, use a gerund to start
+      the title. For concepts, use a gerund to start the title. For
+      procedures, use an imperative verb to start the title. Do not use nouns
+      or noun phrases.
+  * - Hyphenation
+    - Minimize the use of hyphenation and present combinations as either two
+      separate words or a single word. Use hyphens only when the meaning is
+      unclear without them. Exceptions can be found in the :ref:`word
+      list<Word List>`.
   * - Images
     - Minimize use of screenshots and other graphics. For more information,
       see :ref:`Images`.
@@ -123,7 +130,7 @@ Preferred Usage
       the problem is more complex, write it out as steps.
 
   * - Tables
-    - TBD: Rules for use
+    - When you include a table, be sure to include a heading row or column.
   * - Tense
     - Prefer the present tense, particularly for procedural steps.
   * - UI terms
@@ -145,7 +152,7 @@ Preferred Usage
       Do not use non-technical words that are not in common use, such as "and
       so forth", albeit, heretofore, thus, or whilst.
 
-      Be careful of commonly used phrases that introduce ambiuguity. For
+      Be careful of commonly used phrases that introduce ambiguity. For
       example, instead of "When the process completes..." use "After the
       process completes..."
 

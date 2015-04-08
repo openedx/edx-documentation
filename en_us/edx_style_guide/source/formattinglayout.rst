@@ -4,6 +4,10 @@
 Formatting and Content Layout
 #############################
 
+For an .rst file that contains examples of the markup used by the
+documentation team, see the 
+edx-documentation/en_us/edx_style_guide/source/Format Cheat 
+Sheet.rstnouse file.
 
 .. list-table::
   :widths: 15 15 15 25
@@ -15,134 +19,92 @@ Formatting and Content Layout
   * - Book or guide name
     - *Italic*
     - *Building and Running an edX Course*
-    - Include links wherever possible
+    - When mentioning the guide in general, link the title to the HTML rather
+      than presenting in italics. When providing the title in addition to a
+      specific section or topic in the guide, link the section or topic and
+      then place the name of the guide in italics.
+
+      Translator guidance is that strings in italic font should be translated.
+
   * - Code samples
     - ``monospace``
-    - In the **Discussion Topic Mapping** field, place your cursor on the line
-      between the opening brace ({) and the closing brace (}), and then paste
-      the following code. Make sure to include both braces.
+    - The member fields of this dictionary are ``display_name`` and
+      ``usage_key``.
+    - To make the efforts of translators easier, use ``monospace`` markup only
+      for strings that should not be translated: code, commands, SQL table
+      columns, and event names.
+
+      For longer examples, such as XML templates, which include text that can
+      be translated, use the code block markup and include a comment for
+      translators with explicit instructions. 
+
+      .. Translators: In the following XML code block, do not translate any
+      .. text that is between the < > characters.
 
       .. code-block:: xml
+      
+          <problem display_name="webGLDemo">
+          In the image below, click the cone.
 
-        "General": {
-        "id": "i4x-Hx-101-course-2014_T4"
-        }``
-
-    - 
   * - Programming elements
-    - TBD: **bold** or ``monospace`` (see MSTP)
-    - Attributes, classes, events, functions, methods, parameters, properties
+    - ``monospace``
+    - The ``event_type`` parameter enables downstream processing.
 
-      The event_type parameter enables downstream processing.
+      An XBlock must set ``has_score`` to ``True``.
 
-      An XBlock must set has_score to True.
+    - Follow the same rules as for code samples. Programming elements include
+      attributes, classes, events, functions, methods, parameters, and
+      properties.
 
-    - Identify the element type on first mention. (SP: May not be necessary
-      for our technical audience, but this will help with localization -
-      thoughts?)
+      Identify the element type on first mention. Element names only need an
+      article when the text also includes the element type.
 
-      Element names only need an article when the text also includes the element type:
+      * Set the ``has_score`` property to ``True``.
 
-      * Set the has_score class property to True.
+      * Set ``has_score`` to ``True``.
 
-      * Set has_score to True.
+      * Incorrect: Set the has_score to True.
 
-      * NOT: Set the has_score to True.
-
-  * - Heading 1
-    - 
-
-      .. code-block:: xml
-
-       *********
-       Heading 1
-       *********
-
-    - 
-    - 
-  * - Heading 2
-    - 
-
-       .. code-block:: xml
-
-        =========
-        Heading 2
-        =========
-
-    - 
-    - 
-  * - Heading 3
-    - 
-
-       .. code-block:: xml
-
-        Heading 3
-        *********
-
-    - 
-    - 
-  * - Heading 4
-    - 
-
-       .. code-block:: xml
-
-         Heading 4
-         =========
-    - 
-    - 
-  * - Heading 5
-    - 
-
-       .. code-block:: xml
-
-        Heading 5
-        ^^^^^^^^^
-
-    - 
-    - 
   * - Unnamed icons
-    - TBD: Normal text, description in quotation marks
-    - When a user uses the playback bar or the "back 30 seconds" button...
-    - Icons are visual elements that do not have a label or mouseover
-      tip/name. If the icon has a mouseover tip, use the mouseover tip text as
-      the name of the control.
-
-      (screen shot of un-named icons vs. icon with a mouseover tip)
-
+    - Enclose a description in quotation marks
+    - Select "back 30 seconds" on the playback bar.
+    - In most cases, icons have a label or mouseover tip. If the icon has a
+      mouseover tip, use the mouseover tip text as the name of the control and
+      put it in **bold** like other UI elements.
   * - New term
-    - *Italic*
-    - Rubrics contain *criteria* and *options*.
-    - Add new terms to the glossary.
-  * - Title
+    - link to glossary definition
     - 
-
-      .. code-block:: xml
-
-       #####
-       Title
-       #####
-
-    - 
-    - 
+    - Add new terms to the glossary. If you want to be sure that people
+      understand how you are using the term, provide a link to the glossary
+      definition.
   * - UI item
     - **bold**
-    - In the **Advanced Module List** field, type...
-
-      On the **Tools** menu, click **Checklists**.
-
-      Under **Add New Component**, click **HTML**, and then click **Text**.
-
-      In the left pane, select the **Filter messages like this** check box.
+    - From the **Tools** menu, select **Checklists**.
+      
+      In the left pane, select **Filter messages like this**.
 
     - A UI item is anything that the user views, clicks, selects, or interacts
-      with and that has a name or a tooltip.
+      with and that has a name or a tooltip. If it doesn't have a label or
+      tooltip, see Unnamed icons above.
+
+      Translator guidance is that strings in boldface font should be
+      translated.
+      
   * - User input
     - ``monospace``
     - In the **Show Calculator** field, type ``true``.
-    - Inline if the user input is short (one line); indented if more than one line.
+    - Follow the same rules as for code samples. The assumption is that values
+      presented in monospace font must be entered exactly as documented, and that translated versions of the value are not acceptable. 
+      
+      If the user input value can be translated, add a "Translator:" comment
+      to that effect.
+      
+      Inline if the user input is short (one line); indented if more than one
+      line.
+
   * - Variables
     - Surround with braces ({}). 
     - 
-    - Avoid angle brackets (< >) because rST interprets
-      angle brackets as setting off XML examples.
+    - Avoid angle brackets (< >) because rST interprets angle brackets as
+      setting off XML examples.
 

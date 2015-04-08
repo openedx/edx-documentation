@@ -10,8 +10,6 @@ Word List
 
    * - Term
      - Description and Examples
-   * - chapter
-     - TBD: section vs. chapter vs. topic
    * - course team, course team member
      - Use instead of "instructor", professor", "course author", "course
        staff", "faculty",  etc.
@@ -42,32 +40,41 @@ Word List
        are "course creator", "admin", and "staff". The name of the role should
        only be used when the privilege is an explicit requirement to complete
        an activity.
+   * - sample
+     - Use instead of "snippet". "Example" can also be used.
    * - section
-     - TBD: section vs. chapter vs. topic
+     - In our guides, refers to any part of a guide that is a parent to other
+       content, including other sections or individual topics. Use instead of
+       chapter.
+   * - select
+     - Use instead of "click" (mouse), "press" (keyboard), or "tap"
+       (smartphone). Accessible alternatives are "choose" (for a UI element
+       that becomes highlighted and remains on screen) or "activate" (for a UI
+       element that causes the dialog box to close or the page to refresh).
    * - sign in to (v)
      - Use instead of "sign into".
    * - sign-in (adj)
      - Use instead of "login" or "log in".
    * - smartphone
      - One word. Use instead of "mobile device": Android smartphones and iPhones.
-   * - sample
-     - Use instead of "snippet". "Example" can also be used.
-   * - select
-     - TBD. [Use instead of "click" (mouse), "press" (keyboard), and "tap" (smartphone)?]
-   * - Staff View
-     - TBD: “Staff View” and “Student View”? “the Staff view” and “the Student view”?
    * - Student Dashboard
      - TBD: Capitalize?
    * - third party (n), third-party (adj)
      - "Third party" is a noun: "This product comes from a third party".
        "Third-party" is the adjective form: "third-party software".
    * - topic
-     - TBD: section vs. chapter vs. topic
+     - In our guides, refers to the concepts or procedures that are the
+       lowest-level contents of a section.
    * - URL
      - Use instead of url. When providing a URL in documentation, omit trailing slashes
        (http://edx.org instead of http://edx.org/).
    * - username
      - Use instead of "user name".
+   * - View as Staff (or Student)
+     - Be sure to cast sentences in terms of the selections that people
+       actually have to make in the user interface. As an example, if you
+       select a control labeled **View as Staff**, avoid referring to the
+       result as the staff view or student view.
    * - XBlock
      - Use instead of "Xblock" or "xBlock".
 
