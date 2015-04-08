@@ -24,6 +24,7 @@ For more information about discussion components, see these topics.
 * :ref:`Visibility of Discussion Topics`
 * :ref:`A Students View of the Discussion`
 
+
 For more information about discussions in general, see these topics.
 
 * :ref:`Discussions`
@@ -35,6 +36,7 @@ For more information about discussions in general, see these topics.
 *****************************
 Create a Discussion Component 
 *****************************
+
 
 .. note:: We recommend that you add an HTML component before each discussion
    component to introduce the topic that you want learners to discuss. The

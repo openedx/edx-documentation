@@ -100,10 +100,11 @@ interest such as "Feedback", "Troubleshooting", or "Technical Help", and the
 content-specific topics that you add to course units as discussion components.
 You create both types of discussion topics in Studio.
 
-For details about creating discussion topics, see :ref:`Create CourseWide
-Discussion Topics` and :ref:`Create ContentSpecific Discussion Topics`. For
-details about configuring discussion topics in courses that use cohorts, see
-:ref:`Set up Discussions in Cohorted Courses`.
+For more information about creating discussion topics, see :ref:`Create
+CourseWide Discussion Topics` and :ref:`Create ContentSpecific Discussion
+Topics`. For information about configuring discussion topics in courses that
+use cohorts, see :ref:`Set up Discussions in Cohorted Courses`.
+
 
 .. _Create CourseWide Discussion Topics:
 
@@ -184,15 +185,21 @@ Discussion list now includes the topic you added.
 Create Content-Specific Discussion Topics
 ============================================
 
-To create a content-specific discussion topic, you add a discussion component to
-a unit. Typically, you do this while you are designing and creating your
+To create a content-specific discussion topic, you add a discussion component
+to a unit. Typically, you do this while you are designing and creating your
 course in Studio. Follow the instructions in :ref:`Working with Discussion
 Components`. The result is a discussion topic associated with a unit and its
-content.
+content. 
 
-A content-specific discussion topic is subject to the release date of the
-section that contains it. Students cannot contribute to a content-specific
-discussion topic until the containing section has been released.
+.. warning:: Follow the recommended steps to add discussion components. Do not
+   create discussion topics by using the **Duplicate** button in Studio, and
+   do not reference the same discussion ID in more than one place in your
+   course. Duplicated discussion components will result in discussion topics
+   containing the same conversations, even if learners post in different
+   discussion topics.
+
+For more information about the visibility of content-specific discussion
+topics, see :ref:`Visibility of Discussion Topics`.
 
 .. note:: In courses with cohorts enabled, all content-specific discussion
    topics are divided by cohort when you first add them. Student posts to divided
@@ -312,10 +319,10 @@ the course has started and the unit is released.
 However, "seed" posts that you create in content-specific discussion topics
 before a course starts or before the unit is released are immediately visible
 on the **Discussion** tab, even though the containing category or subcategory
-names are not visible. We recommend that you do not create posts in content-
-specific discussion topics before a unit is released. For more information
-about release dates and the visibility of components, see ee :ref:`Controlling
-Content Visibility`.
+names are not visible. We recommend that you do not create posts in 
+content-specific discussion topics before a unit is released. For more
+information about release dates and the visibility of components, see
+:ref:`Controlling Content Visibility`.
 
 In contrast, :ref:`course-wide discussion topics<Create CourseWide Discussion
 Topics>` that you create on the **Advanced Settings** page in Studio,
