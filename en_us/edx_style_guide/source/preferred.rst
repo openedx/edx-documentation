@@ -55,8 +55,13 @@ Preferred Usage
   * - Contractions
     - Do not use.
   * - Cross-references
+
     - Introduce stand-alone cross-references with "For more information, see
-      ``<topic name>``. (Do not use the more abrupt "See ``<topic name>``.")
+      ``<topic name>``. (Do not use the more abrupt "See ``<topic name>``." An
+      exception is in the Glossary, where cross-references to other entries in
+      the Glossary should use See (when there is no other information in the
+      current entry) and See Also (when the current entry is complete in
+      itself and you provide a cross-reference to a related entry).
 
       For inline cross-references, create links to words in the sentence, but
       don't use the name of the topic itself unless the capitalization works
@@ -80,8 +85,7 @@ Preferred Usage
   * - Hyphenation
     - Minimize the use of hyphenation and present combinations as either two
       separate words or a single word. Use hyphens only when the meaning is
-      unclear without them. Exceptions can be found in the :ref:`word
-      list<Word List>`.
+      unclear without them. For exceptions to this rule, see the `Word List`_.  
   * - Images
     - Minimize use of screenshots and other graphics. For more information,
       see :ref:`Images`.
