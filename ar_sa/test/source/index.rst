@@ -10,3 +10,5 @@
 .. toctree::
 
    sample
+   add_post
+   anatomy
