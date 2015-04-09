@@ -8,24 +8,27 @@ Working with Discussion Components
 Overview
 *******************
 
-You can add a Discussion component to a unit, to pose a question related to the
-Unit and give students a chance to respond and interact.
+You can add discussion components to a unit to pose questions related to the
+unit and give students a chance to respond and interact on a specific subject.
+Discussion topics that you create by adding discussion components in your
+courseware are known as content-specific discussion topics.
 
-See the following topics:
-
-* :ref:`Create a Discussion Component`
-* :ref:`A Students View of the Discussion`
-
-
-Before you add a Discussion component, it is generally a good idea to add an
-HTML component that introduces the topic to be discussed. The Discussion
-component itself does not contain any text and may be easy for students to
+We recommend that you add an HTML component before each discussion component
+to introduce the topic that you want learners to discuss. The discussion
+component itself does not contain any text and can be easy for learners to
 overlook.
 
-Also see the following chapters:
+For more information about discussion components, see these topics.
+
+* :ref:`Create a Discussion Component`
+* :ref:`Visibility of Discussion Topics`
+* :ref:`A Students View of the Discussion`
+
+For more information about discussions in general, see these topics.
 
 * :ref:`Discussions`
 * :ref:`Guidance for Discussion Moderators`
+* :ref:`Set up Discussions in Cohorted Courses`
 
 .. _Create a Discussion Component:
 
@@ -33,47 +36,47 @@ Also see the following chapters:
 Create a Discussion Component 
 *****************************
 
+.. note:: We recommend that you add an HTML component before each discussion
+   component to introduce the topic that you want learners to discuss. The
+   discussion component itself does not contain any text and can be easy for
+   learners to overlook.
+
 #. Under **Add New Component**, click **Discussion**.
 
-#. In the Discussion component that appears, click **Edit**.
+#. In the discussion component that appears, click **Edit**.
   
    .. image:: ../../../shared/building_and_running_chapters/Images/Disc_Create_Edit.png
     :alt: Image of the discussion component with the Edit button circled
 
-#. When the Discussion component editor opens, follow the guidelines in the
-   editor to fill in the **Category**, the optional **Display Name**, and the 
-   **Subcategory** fields.
+#. Follow the guidelines in the editor to fill in the **Category**, the
+   optional **Display Name**, and the **Subcategory** fields.
    
    .. image:: ../../../shared/building_and_running_chapters/Images/DiscussionComponentEditor.png
     :alt: Image of the discussion component editor with a category of "Getting Graded" and a subcategory of "Answering More Than Once"
 
    The value in the **Display Name** field identifies the discussion in the
    course content. The values in the **Category** and **Subcategory** fields
-   appear in the list of discussion topics on the **Discussion** page. 
+   appear in the list of discussion topics on the **Discussion** tab. 
 
-   .. note:: Each **Category**/**Subcategory** pair for the discussion topics in your course must be unique.
+   .. note:: Each **Category**/**Subcategory** pair for the discussion topics
+      in your course must be unique.
 
    .. image:: ../../../shared/building_and_running_chapters/Images/Discussion_category_subcategory.png
-    :alt: The list of discussions with the "Answering More Than Once" topic indented under "Getting Graded"
+    :alt: A list of discussions with the "Answering More Than Once" topic indented under "Getting Graded"
   
 #. Click **Save**.
 
-.. warning:: 
-  You should always use these steps to create a discussion component. If you
-  create a discussion component by using the **Duplicate** button in Studio,
-  both discussion components will contain the same conversations, even if users
-  post in different discussions.
+.. warning:: You should always use these steps to create a discussion
+   component. Do not create discussion topics by using the **Duplicate**
+   button in Studio. Duplicated discussion components will result in
+   discussion topics containing the same conversations, even if users post in
+   different discussions.
 
-Discussion *categories* are immediately visible on the **Discussion** tab for
-your course when you create them, even if the unit that contains the Discussion
-is not published. However, an individual Discussion component is not visible
-until the unit is published and release dates for the section and subsection
-have passed. See :ref:`Controlling Content Visibility` for more information.
+.. note:: On the *Discussion** tab, you cannot see category and subcategory
+   names of discussion components that you created until after the course has
+   started and the unit is released. For more details about when discussion
+   topics are visible, see :ref:`Visibility of Discussion Topics`.
 
-Additionally, you cannot see posts, responses, or comments in a Discussion
-component when you are working in Studio. To see the discussion, go to the unit
-that contains the Discussion component in Studio, and then click **Preview** or
-**View Live** under **Unit Settings**.
 
 .. _A Students View of the Discussion:
 
@@ -81,18 +84,18 @@ that contains the Discussion component in Studio, and then click **Preview** or
 A Student's View of the Discussion 
 **********************************
 
-For students, the display name for the Discussion component appears in the
-course ribbon at the top of the page:
+For students, the display name for the discussion component appears in the
+learning sequence at the top of the page:
 
 .. image:: ../../../shared/building_and_running_chapters/Images/DiscussionComponent_LMS_Ribbon.png
  :alt: Image of a unit from a student's point of view with the component list
      showing a discussion component
 
-The Discussion space appears under other components in the unit. It doesn't
+The discussion space appears under other components in the unit. It does not
 have a label in the body of the unit. Instead, students see "Show discussion"
 or "Hide discussion" on the left, and a blue **New Post** button on the right.
 
-In the following example, the Discussion component follows Video and HTML
+In the following example, the discussion component follows video and HTML
 components:
 
 .. image:: ../../../shared/building_and_running_chapters/Images/DiscussionComponent_LMS.png
