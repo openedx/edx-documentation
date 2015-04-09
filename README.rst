@@ -59,7 +59,7 @@ To run a test compilation of a contribution, first install the prerequisites:
 
 .. code::
   
-  pip install -r shared/travis-requirements.txt
+  pip install -r shared/travis_requirements.txt
 
 Then run the tests:
 
