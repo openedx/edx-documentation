@@ -12,6 +12,8 @@ April 2015
 
    * - Date
      - Change
+   * - 10 Apr 2015
+     - Add information for the :ref:`RecommenderXBlock`.
    * - 6 Apr 2015
      - Added instructions for specifying multiple or irregular regions to
        :ref:`Image Mapped Input`.
