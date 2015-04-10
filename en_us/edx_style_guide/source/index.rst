@@ -12,6 +12,7 @@ edX Style Guide
     formattinglayout.rst
     images.rst
     global_English.rst
+    templates/index.rst
     glossary.rst
 
     
