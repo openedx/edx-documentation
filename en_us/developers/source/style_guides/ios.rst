@@ -1,7 +1,6 @@
 .. highlight::objc
-.. _Apple's guidelines: https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Conventions/Conventions.html
-.. _error prone API: http://khanlou.com/2013/12/kvo-considered-harmful/
-.. _principle of least surprise: http://en.wikipedia.org/wiki/Principle_of_least_astonishment
+
+.. _edX Objective-C Style Guide:
 
 ###########################
 edX Objective-C Style Guide
@@ -94,9 +93,10 @@ Syntax and Organization
         - (instancetype)initWithSomeClass:(SomeClass*)object;
         @end
 
-* Avoid ``#define``. Instead use constant declarations. They are more accessible
-  to the compiler. For example, "Quick Open" does not work with macros.
-  Additionally, macro functions are error prone and hard to debug. Some examples follow:
+* Avoid ``#define``. Instead use constant declarations. They are more
+  accessible to the compiler. For example, "Quick Open" does not work with
+  macros. Additionally, macro functions are error prone and hard to debug.
+  Some examples follow:
     
     .. code-block:: objc
 
@@ -158,7 +158,8 @@ Syntax and Organization
    *  Class ``Example`` should be in ``OEXExample.[hm]``
    *  Category ``SomethingAdditions`` on class ``OEXExample``  should be in 
       ``OEXExample+SomethingAdditions.[hm]``
-   *  A view controller for the ``Example`` screen should be in ``OEXExampleViewController.[hm]``
+   *  A view controller for the ``Example`` screen should be in 
+      ``OEXExampleViewController.[hm]``
    *  A view that displays an ``Example`` should be in ``OEXExampleView.[hm]``
 
 *  Categories should be named for the functionality they provide.
@@ -197,7 +198,9 @@ Syntax and Organization
   interface. Everything else should be declared in a class continuation in the
   implementation file.
 
-* Avoid lazy initialization of properties. Otherwise, it is hard to reason about property accesses. With lazy initialization, even read only objects have complicated threading behavior.
+* Avoid lazy initialization of properties. Otherwise, it is hard to reason
+  about property accesses. With lazy initialization, even read only objects
+  have complicated threading behavior.
 
     .. code-block:: objc
 
@@ -241,7 +244,9 @@ Syntax and Organization
         /// Method that does a thing
         - (void)someMethod { }
 
-* Always comment the type of the contents of collection types like ``NSArray`` and ``NSDictionary``. This makes the expectations of the code clear. For example:
+* Always comment the type of the contents of collection types like ``NSArray``
+  and ``NSDictionary``. This makes the expectations of the code clear. For
+  example:
 
     .. code-block:: objc
 
@@ -320,7 +325,7 @@ Writing Tests
   that after the tests are over, it should be as if they never ran.
 
 * Network data should always be mocked. The tests should have the exact same
-  result whether or not an internet connection is available to the
+  result whether or not an Internet connection is available to the
   test runner.
 
 * If you need to expose a method just for testing, prefix it ``t_``. This
@@ -376,4 +381,9 @@ Writing Tests
         @interface SomeClass (Testing)
         - (void)isVisible;
         @end
+
+
+.. _Apple's guidelines: https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Conventions/Conventions.html
+.. _error prone API: http://khanlou.com/2013/12/kvo-considered-harmful/
+.. _principle of least surprise: http://en.wikipedia.org/wiki/Principle_of_least_astonishment
 

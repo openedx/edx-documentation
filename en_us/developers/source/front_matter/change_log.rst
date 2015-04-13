@@ -10,6 +10,9 @@ Change Log
 
    * - Date
      - Change
+   * - 14 Apr 2015
+     - Added the initial topic, :ref:`edX Objective-C Style Guide`, to the
+       edX Style Guidelines section.
    * - 4 Mar 2015
      - Updated the :ref:`Preface` to include information about the :ref:`The
        edX Partner Portal` and the :ref:`The Open edX Portal`.
