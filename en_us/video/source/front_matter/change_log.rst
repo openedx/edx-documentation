@@ -8,6 +8,9 @@ Change Log
 
    * - Date
      - Change
+   * - 22 Apr 2015
+     - Updated the :ref:`Adding Videos to a Course` section to reflect a field
+       label change in Studio.
    * - 4 Apr 2015
      - Added the :ref:`Add a Video Transcript` section to provide procedures
        for obtaining transcripts and associating them with your video files.

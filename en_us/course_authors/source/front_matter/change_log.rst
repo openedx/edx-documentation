@@ -12,6 +12,9 @@ April 2015
 
    * - Date
      - Change
+   * - 22 Apr 2015
+     - Updated the :ref:`Working with Video Components` section to reflect a field
+       label change. 
    * - 16 Apr 2015
      - In the :ref:`Create Exercises` section, added a column to the tables to
        indicate level of support for each exercise or tool.
@@ -34,7 +37,6 @@ March 2015
 
    * - Date
      - Change
-
    * - 25 Mar 2015
      - Added the **Video Available on Web Only** :ref:`advanced setting<Video
        Advanced Options>` to the :ref:`Working with Video Components` chapter.

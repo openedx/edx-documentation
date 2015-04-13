@@ -16,7 +16,7 @@ with the video file in a video component.
 .. _Copy the edX Video ID:
 
 ************************
-Copy the edX Video ID
+Copy the Video ID
 ************************
  
 #. Open the course in Studio. 
@@ -32,7 +32,7 @@ Copy the edX Video ID
 #. Right-click and select **Copy**. Be sure to select and copy the entire
    video ID value.
    
-   Next, you paste this value into the **EdX Video ID** field for a video
+   Next, you paste this value into the **Video ID** field for a video
    component. See :ref:`Add the edX Video ID to a Video Component`.
 
    .. note:: The video ID is available for every uploaded file. However, 
@@ -48,7 +48,7 @@ video ID for every uploaded file.
 .. _Add the edX Video ID to a Video Component:
 
 ************************************************
-Add the edX Video ID to a Video Component
+Add the Video ID to a Video Component
 ************************************************
 
 This section describes the procedure that course teams follow in place of the
@@ -76,15 +76,15 @@ page appear in one window while you add video components in the other.
    appear below the **Component Display Name** and **Default Timed Transcript**
    fields.
 
-#. Scroll down to the **EdX Video ID** field and paste in the ID of the video
+#. Scroll down to the **Video ID** field and paste in the ID of the video
    file that you want to play. See :ref:`Copy the edX Video ID`.
 
-   When you supply a valid edX video ID in this field, you associate your
+   When you supply a valid video ID in this field, you associate your
    video component with files on YouTube and AWS that are optimized for
    viewing with different devices and bandwidths. You do not need to add
    values to the **Default Video URL**, **Video File URLs**, or the **YouTube
    ID** fields. If those fields already have values, the URLs that are
-   associated with this edX video ID override them.
+   associated with this video ID override them.
 
 6. Set the **Video Download Allowed** field to **True** or **False** to define
    whether learners can download this video.
@@ -149,7 +149,7 @@ To associate a transcript with a video, follow these steps.
 
 .. note:: 
  This procedure assumes that you have already created the video component and
- followed the procedures to :ref:`add the edX video ID<Add the edX Video ID to
+ followed the procedures to :ref:`add the video ID<Add the edX Video ID to
  a Video Component>` to it. In addition, you must have the .srt file, or the
  subtitles or captions must be available on YouTube, before you complete
  these steps.
