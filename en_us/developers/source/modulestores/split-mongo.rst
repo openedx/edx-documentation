@@ -37,8 +37,10 @@ Split Mongo Data Model
 In the Split Mongo data model, edX courses are split into three collections:
 
 * `Course Index`_
-* `Course Structures`_
+* :ref:`Structures`
 * `XBlock Definitions`_
+
+.. Structures link is a workaround; "Course Structures" as label is already taken 
 
 =============
 Course Index
@@ -78,6 +80,8 @@ Course Reruns
 The edX Platform enables you to rerun a course.  When you rerun a course, a new
 course index is created. The new course index points to the same course
 structure as the original course index.
+
+.. _Structures:
 
 ==========================
 Course Structures
@@ -155,8 +159,8 @@ revert a course or block to a previous version.
 Content Reuse
 ==============
 
-By using pointers to reference XBlock definitions from `course structures
-<Course Structures>`_, Split Mongo enables content reuse. A single `XBlock
+By using pointers to reference XBlock definitions from :ref:`course structures
+<Structures>`, Split Mongo enables content reuse. A single `XBlock
 definition <XBlock Definition>`_ can be referenced from multiple course
 structures.
 
