@@ -25,8 +25,8 @@ What is a Component?
 A component is the part of a unit that contains your actual course content. A
 unit can contain one or more components.
 
-A student can view the name of all components in a unit by hovering over the
-unit in the ribbon at the top of the page.
+A student can view the names of all components in a unit by moving the cursor
+over each unit in the learning sequence at the top of the page.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/ComponentNames_CourseRibbon.png
  :alt: Image of the component list for a unit
@@ -88,8 +88,8 @@ Set the Display Name for a Component
 =====================================
 
 Each component has a display name that shows in the component header when you
-can edit the component. The display name also shows to students when they hover
-the cursor over the unit icon in the course ribbon.
+can edit the component. The display name also shows to students when they move
+the cursor over the unit icon in the learning sequence.
 
 To set the display name for a component:
 

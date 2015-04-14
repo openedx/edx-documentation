@@ -207,10 +207,10 @@ LTI Component Settings
 
        To add a custom parameter, click **Add**.
    * - Display Name               
-     - Specifies the name of the component. This name appears above the
-       component and in the course ribbon at the top of the page in the
-       courseware. Unique, descriptive display names help you identify problems
-       quickly and accurately for analysis.
+     - Specifies the name of the component. This name appears as a heading
+       above the problem and as a tooltip in the learning sequence at the top
+       of the **Courseware** page. Unique, descriptive display names help you
+       identify problems quickly and accurately for analysis.
    * - Hide External Tool
      - Indicates whether you want to launch an external tool or to use this
        component as a placeholder for syncing with an external grading system.

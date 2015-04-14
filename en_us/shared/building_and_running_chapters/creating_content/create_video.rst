@@ -221,8 +221,8 @@ Step 4. Create a Video Component
    You replace the default values with your own. 
    
 3. In the **Component Display Name** field, enter an identifying name for this
-   video. Students see this name as a header for the video and when they place
-   the cursor over the unit in the course ribbon.
+   video. This name appears as a heading above the video and as a tooltip in
+   the learning sequence at the top of the **Courseware** page.
 
 #. In the **Default Video URL** field, enter the URL of the video. Example
    URLs follow.

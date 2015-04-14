@@ -150,9 +150,9 @@ following settings.
 Display Name
 ===============
 
-This setting indicates the name of your problem. The display name
-appears as a heading over the problem in the LMS and in the course
-ribbon at the top of the page. 
+This setting indicates the name of your problem. This name appears as a
+heading above the problem and as a tooltip in the learning sequence at the top
+of the **Courseware** page.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/ProbComponent_LMS_DisplayName.png
  :alt: Image of the problem in a unit page from a student's point of view
