@@ -11,6 +11,18 @@ continue to apply core technical writing principles. We also need to expand
 our skill sets to follow guidelines that will make what we write even easier
 for a global audience to understand and translate.
 
+
+********************
+Globalized Examples
+********************
+
+In addition to writing so that our text can be easily translated, remember
+that our audience is global, and make sure this is reflected in the examples
+that we use to illustrate concepts in our documentation. Use situations that
+people can relate to regardless of their culture, and use example names and
+email addresses that represent diverse ethnicities.
+
+
 ******************
 Short Sentences
 ******************
