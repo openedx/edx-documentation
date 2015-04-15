@@ -2,6 +2,19 @@
 edX Insights
 ####################################
 
+*******************
+April 9, 2015
+*******************
+
+Course teams can now use edX Insights to access student performance data for
+both graded and ungraded exercises. The number of students who submitted an
+answer, and the percentage who submitted the correct or incorrect answer, is
+available at the section, subsection, and unit level. The actual answers that
+students submit for each ungraded question are also available for review.
+
+For more information, see the new `Ungraded Problem Submissions`_ section in
+the *Using edX Insights* guide.
+
 ******************
 March 11, 2015
 ******************
@@ -11,6 +24,8 @@ problems. You can use the performance charts and reports to assess problem
 difficulty, identify common mistakes and misconceptions, and verify that your
 problems are clearly stated and complete.
 
+For more information, see `Student Performance`_ in the *Using edX Insights*
+guide.
 
 ******************
 February 23, 2015
