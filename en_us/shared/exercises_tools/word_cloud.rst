@@ -51,8 +51,9 @@ To create a word cloud tool:
 #. In the component editor, specify the settings that you want. You can
    leave the default value for everything except **Display Name**.
 
-   -  **Display Name**: The name that appears in the course ribbon and
-      as a heading above the problem.
+   -  **Display Name**: This name appears as a heading above the problem and
+      as a tooltip in the learning sequence at the top of the **Courseware**
+      page.
    -  **Inputs**: The number of text boxes into which students can enter
       words, phrases, or sentences.
    -  **Maximum Words**: The maximum number of words that the word cloud

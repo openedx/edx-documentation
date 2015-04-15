@@ -4,7 +4,9 @@
 Glossary
 ############
 
-:ref:`A` - :ref:`C` - :ref:`D` - :ref:`E` - :ref:`F` - :ref:`G` - :ref:`H` - :ref:`I` - :ref:`K` - :ref:`L` - :ref:`M` - :ref:`N` - :ref:`P` - :ref:`R` - :ref:`S` - :ref:`T` - :ref:`V` - :ref:`W` - :ref:`XYZ<X>`
+:ref:`A` - :ref:`C` - :ref:`D` - :ref:`E` - :ref:`F` - :ref:`G` - :ref:`H` 
+- :ref:`I` - :ref:`K` - :ref:`L` - :ref:`M` - :ref:`N` - :ref:`P` - :ref:`R` 
+- - :ref:`S` - :ref:`T` - :ref:`V` - :ref:`W` - :ref:`XYZ<X>`
 
 .. _A:
 
@@ -144,15 +146,6 @@ C
 
   For more information, see `Working with Discussion Components`_ and
   `Creating Discussion Topics for Your Course`_.
-
-.. _Course Accordion:
- 
-**Course Accordion**
-
-  The left navigation frame in the courseware that shows the sections and
-  subsections for a course.  The word "accordion" is intended to evoke the
-  folding and unfolding of an accordion, because when you click a section, the
-  section expands to show subsections.
 
 
 .. _Course Catalog:
@@ -433,6 +426,19 @@ L
   The platform that students use to view courses, and that course staff
   members use to manage enrollment and staff privileges, moderate discussions,
   and access data while the course is running.
+
+**Learning Sequence**
+
+  The horizontal navigation bar that appears at the top of the **Courseware**
+  page in the LMS. The learning sequence contains an icon for each unit in the
+  selected subsection. When a learner moves the cursor over one of these
+  icons, the names of each component in that unit appear.
+ 
+**Left Pane**
+
+  The navigation frame that appears at the left side of the **Courseware**
+  page in the LMS. The left pane shows the sections in the course. When you
+  click a section, the section expands to show subsections.
 
 
 .. _Library_g:

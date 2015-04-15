@@ -97,7 +97,9 @@ To add the VitalSource Bookshelf e-reader to a unit, you'll create an LTI compon
 
 #. In the component that appears, click **Edit**.
 
-#. In the **Display Name** field, type the name of your e-book. This name appears at the top of the component and in the course ribbon at the top of the page in the courseware.
+#. In the **Display Name** field, type the name of your e-book. This name
+   appears as a heading above the problem and as a tooltip in the learning
+   sequence at the top of the **Courseware** page.
 
 #. Next to **Custom Parameters**, click **Add**.
 

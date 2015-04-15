@@ -102,11 +102,11 @@ All problems on the edX platform have several component parts.
 #. **Hide Answer button.**
 
    .. image:: ../../../shared/building_and_running_chapters/Images//AnatomyOfExercise3.png
-    :alt: Image of a problem in the course accordion
+    :alt: A graded assignment shown in the left pane of the LMS for a course
 
 #. **Grading.** The instructor may specify whether a group of problems
    is graded. If a group of problems is graded, a clock icon appears for
-   that assignment in the course accordion.
+   that assignment in the left pane.
 
    .. image:: ../../../shared/building_and_running_chapters/Images//clock_icon.png
 
@@ -274,9 +274,9 @@ Problem component have the following settings. These settings appear on the
 Display Name
 ===============
 
-This setting indicates the name of your problem. The display name
-appears as a heading over the problem in the LMS and in the course
-ribbon at the top of the page.
+This setting indicates the name of your problem. This name appears as a
+heading above the problem and as a tooltip in the learning sequence at the top
+of the **Courseware** page.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/ProbComponent_LMS_DisplayName.png
  :alt: Image of the problem in a unit page from a student's point of view

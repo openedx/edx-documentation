@@ -70,11 +70,12 @@ Viewing Units as a Student
 ****************************
 
 To a student using the edX Learning Management System, each unit in the
-subsection appears as a link on the course ribbon at the top of the page. The
-active unit is open beneath the course ribbon.
+subsection appears as a link in the learning sequence at the top of the
+**Courseware** page. The contents of the active unit appear below the learning
+sequence.
 
 The following image shows a subsection that has five units, which are circled
-in the ribbon above the video, with the first unit open.
+in the learning sequence above the video, with the first unit open.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/Units_LMS.png
  :alt: Image of units from the student's point of view
