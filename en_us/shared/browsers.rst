@@ -33,18 +33,20 @@ learning management system (LMS), which learners and course teams use to
 interact with course content. 
 
 .. list-table::
-   :widths: 20 10 10 10 10 10
+   :widths: 20 10 10 10 10 10 10
    :header-rows: 1
 
    * -
      - Chrome
      - Safari
      - Firefox
-     - IE 9
+     - IE 11
      - IE 10
+     - IE 9
    * - Windows 8
      - Yes
      - N/A
+     - Yes
      - Yes
      - Yes
      - Yes
@@ -52,6 +54,7 @@ interact with course content.
      - Yes
      - Yes
      - Yes
+     - N/A
      - N/A
      - N/A
 
@@ -65,25 +68,28 @@ The following table shows operating system and browser support for edX Studio,
 which course teams use to build a course.
 
 .. list-table::
-   :widths: 20 10 10 10 10 10
+   :widths: 20 10 10 10 10 10 10
    :header-rows: 1
 
    * -
      - Chrome
      - Safari
      - Firefox
-     - IE 9
+     - IE 11
      - IE 10
+     - IE 9
    * - Windows 8
      - Yes
      - N/A
      - Yes
      - Provisional
      - Provisional
+     - Provisional
    * - Mac OSX Mavericks or Yosemite
      - Yes
      - Yes
      - Yes
+     - N/A
      - N/A
      - N/A
 
@@ -98,25 +104,28 @@ Insights, which course teams use to review and download data about their
 courses and learners.
 
 .. list-table::
-   :widths: 20 10 10 10 10 10
+   :widths: 20 10 10 10 10 10 10
    :header-rows: 1
 
    * -
      - Chrome
      - Safari
      - Firefox
-     - IE 9
+     - IE 11
      - IE 10
+     - IE 9
    * - Windows 8
      - Yes
      - N/A
      - Yes
      - Provisional
      - Provisional
+     - Provisional
    * - Mac OSX Mavericks or Yosemite
      - Yes
      - Yes
      - Yes
+     - N/A
      - N/A
      - N/A
 
