@@ -231,73 +231,40 @@ We have not yet established guidelines for internationalizing the following.
 * Documentation (written for Sphinx as .rst files)
 
 
-Building and testing your code
-******************************
-
-These instructions assume you are a developer writing new code to check in to
-Github. For other use cases in the translation life cycle (such as translating
-the strings, or checking the translations into Github, see use cases).
-
-1. Create human-readable .po files with the latest strings. This command may
-   take a minute or two to complete::
-
-    $ cd edx-platform
-    $ paver i18n_extract
-
-2. Generate dummy strings:  See coverage testing (below) for more details. This
-   will create an "Esperanto" translation that is actually over-accented
-   English.  Use this to create fake translations::
-
-    $ paver i18n_dummy
-    
-3. Run the paver i18n_generate command to create machine-readable .mo files::
- 
-    $ paver i18n_generate
-
-4. Django should be ready to go. The next time you run Studio or LMS, append
-   ``?preview-lang=eo`` to the URL to turn on Esperanto as a dark language. The
-   accented-English strings (from step 3, above) should be displayed.
-
-   If you experience issues, be sure that your settings for ``USE_I18N`` and
-   ``USE_L10N`` are both set to True.
-
-5. With Esperanto turned on as a dark language (see Step 4), review the pages
-   affected by your code and verify that you see fake translations. If you see
-   plain English instead, your code is not being properly translated. Review 
-   the steps in editing source files (above). 
-
-6. When you are done reviewing, append ``?clear-lang`` to the LMS or Studio URL
-   to reset your session to English.
-
-
 Coverage testing
 ****************
 
-This tool is used during the bootstrap phase, when presumably (1) there is a
-lot of edX source code to be converted, and (2) there are not a lot of
-available translations for externalized edX strings. At the end of the
-bootstrap phase, we will eventually deprecate this tool in favor of other
-processes. Once most of the edX source code has been successfully converted,
-and there are several full translations available, it will be easier to detect
-and correct specific gaps in compliance.
+These instructions assume you are a developer working on internationalizing
+new or existing user-facing features. To test that your code is properly i18n'd,
+you'll first generate a set of 'dummy' translations, then view those translations
+on your app's page to make sure everything (scraping and serving) is working
+properly.
 
-Use the coverage tool to generate dummy files::
+First, use the coverage tool to generate dummy files::
 
     $ paver i18n_dummy
     
 This will create new dummy translations in the Esperanto directory
-(edx-platform/conf/local/eo/LC_MESSAGES).
+(edx-platform/conf/local/eo/LC_MESSAGES). DO NOT CHECK THESE FILES IN. You
+should discard these files once you are done testing.
 
-You can then configure your browser preferences to view Esperanto as your
-preferred language. Instead of plain English strings, you should see something
-like this:
+Next, restart the LMS and Studio to load in the new translation files::
+
+    $ paver devstack lms
+    $ paver devstack studio
+
+When you visit Studio or the LMS, append
+``?preview-lang=eo`` to the URL to turn on Esperanto as a dark language.
+
+Instead of plain English strings, you should see specially-accented English
+strings that look like this:
 
     Thé Fütüré øf Ønlïné Édüçätïøn Ⱡσяєм ι#
     Før änýøné, änýwhéré, änýtïmé Ⱡσяєм #
 
 This dummy text is distinguished by extra accent characters. If you see plain
 English instead (without these accents), it most likely means the string has
-not been externalized yet. To fix this: 
+not been marked for translation yet, or you've broken a rule. To fix this: 
 
 * Find the string in the source tree (either in Python, JavaScript, or HTML
   template code). 
@@ -317,6 +284,14 @@ page layout, such as columns that don't fit, or text that is truncated (the
 probably need to fix the page layouts accordingly to accommodate the longer
 strings.
 
+Finally, append ``?preview-lang=ar`` to the end of your URL to view your
+feature in Arabic. Test to make sure that the UX is properly "flipped" to
+right-to-left mode (note that new and changed strings will not yet be translated;
+the point is simply to make sure all elements on the page properly "flip"
+to the new orientation).
+
+When you are done reviewing, append ``?clear-lang`` to the LMS or Studio URL
+to reset your session to your base language.
 
 Style guidelines
 ****************
