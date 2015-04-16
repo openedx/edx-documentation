@@ -331,20 +331,43 @@ properly for other languages.
 
 Bad::
 
-    message = _("The directory has ") + len(directory.files) + _(" files.")
+    message = _("Welcome to the ") + settings.PLATFORM_NAME + _(" dashboard.")
 
 In this scenario, the translator will have to figure out how to translate these
-two separate strings. It is very difficult to translate a fragment like "The
-directory has." In some languages the fragments will be in different order. For
-example, in Japanese, "files" will come before "has."
+two separate strings. It is very difficult to translate a fragment like "Welcome to 
+the." In some languages the fragments will be in different order.
+For example, Spanish would order this phrase as "Welcome to the dashboard of edX".
 
 It is much easier for a translator to figure out how to translate the entire
-sentence, using the pattern "The directory has {file_count} files."
+sentence, using the pattern "Welcome to the {platform_name} dashboard."
 
 Good::
 
-    message = _("The directory has {file_count} files.").format(file_count=directory.files)
+    message = _("Welcome to the {platform_name} dashboard.").format(platform_name=settings.PLATFORM_NAME)
 
+
+Please note that you cannot concatenate within the gettext call at all. For example,
+this does not work:
+
+Bad::
+
+    message = _(
+        "Welcome to {platform_name}, the online learning platform " +
+        "that hosts courses from world-class universities around the world!"
+    ).format(platform_name=settings.PLATFORM_NAME)
+
+In Python, because _() is a function you can actually do this:
+
+Good (Python only!)::
+
+    message = _(
+        "Welcome to {platform_name}, the online learning platform "
+        "that hosts courses from world-class universities around the world!"
+    ).format(platform_name=settings.PLATFORM_NAME)
+
+However, in Javascript and other languages, the gettext call cannot be broken up over
+multiple lines. You will have to live with long lines on gettext calls, and we make a
+style exception for this.
 
 Use named placeholders
 ======================
