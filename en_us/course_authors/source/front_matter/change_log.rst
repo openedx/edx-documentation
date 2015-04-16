@@ -12,6 +12,9 @@ April 2015
 
    * - Date
      - Change
+   * - 16 Apr 2015
+     - In the :ref:`Create Exercises` section, added a column to the tables to
+       indicate level of support for each exercise or tool.
    * - 10 Apr 2015
      - Add information for the :ref:`RecommenderXBlock` tool.
    * - 6 Apr 2015
