@@ -3,7 +3,7 @@ edX Style Guide
 #########################
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 1
 	
     intro.rst
     preferred.rst
@@ -13,7 +13,8 @@ edX Style Guide
     images.rst
     global_English.rst
     templates/index.rst
+    WorkingWithEdXDocSource.rst
+    DocTranslationGuidelines.rst
+    DocTranslationProcess.rst
+    ExampleRSTFile.rst
     glossary.rst
-
-    
-
