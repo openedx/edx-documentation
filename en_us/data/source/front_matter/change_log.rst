@@ -14,6 +14,10 @@ January-March 2015
 
    * - Date
      - Change
+   * - 22 Apr 15
+     - Added information about the new ``student_languageproficiency`` table
+       and two new columns in the ``auth_userprofile`` table to
+       :ref:`Student_Info`.
    * - 6 Apr 15
      - Added a section to describe the
        :ref:`course structure<course_structure>` file.

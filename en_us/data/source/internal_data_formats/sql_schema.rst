@@ -119,6 +119,7 @@ enrollment.
 * :ref:`student_courseenrollment`
 * :ref:`user_api_usercoursetag`
 * :ref:`user_id_map`
+* :ref:`student_languageproficiency`
 
 .. _auth_user:
 
@@ -335,54 +336,62 @@ A sample of the heading row and a data row in the ``auth_userprofile`` table fol
 
 .. code-block:: json
 
-    id  user_id name  language  location  meta  courseware  gender  mailing_address 
-    year_of_birth level_of_education  goals allow_certificate  country  city
+    id  user_id name  language  location  meta  courseware  gender
+    mailing_address year_of_birth level_of_education  goals allow_certificate
+    country  city  bio   profile_image_uploaded_at
 
-    9999999  AAAAAAAA  AAAAAAAAA English MIT {"old_emails": [["aaaaa@xxxxx.xxx", 
-    "2012-11-16T10:28:10.096489"]], "old_names": [["BBBBBBBBBBBBB", "I wanted 
-    to test out the name-change functionality", "2012-10-22T12:23:10.598444"]]} 
-    course.xml  NULL  NULL  NULL  NULL  NULL  1      NULL
+    9999999  AAAAAAAA  AAAAAAAAA English MIT {"old_emails":
+    [["aaaaa@xxxxx.xxx", "2012-11-16T10:28:10.096489"]], "old_names":
+    [["BBBBBBBBBBBBB", "I wanted to test out the name-change functionality",
+    "2012-10-22T12:23:10.598444"]]} course.xml  NULL  NULL  NULL  NULL  NULL
+    1      NULL   Hi! I'm from the US and I've taken 4 edX courses so far. I
+    want to learn how to confront problems of wealth inequality. 2015-04-19 16:41:27
 
 The ``auth_userprofile`` table has the following columns.
 
-  +--------------------+--------------+------+-----+------------------------------------------+
-  | Column             | Type         | Null | Key | Comment                                  |
-  +====================+==============+======+=====+==========================================+
-  | id                 | int(11)      | NO   | PRI |                                          |
-  +--------------------+--------------+------+-----+------------------------------------------+
-  | user_id            | int(11)      | NO   | UNI |                                          |
-  +--------------------+--------------+------+-----+------------------------------------------+
-  | name               | varchar(255) | NO   | MUL |                                          |
-  +--------------------+--------------+------+-----+------------------------------------------+
-  | language           | varchar(255) | NO   | MUL | # Obsolete                               |
-  +--------------------+--------------+------+-----+------------------------------------------+
-  | location           | varchar(255) | NO   | MUL | # Obsolete                               |
-  +--------------------+--------------+------+-----+------------------------------------------+
-  | meta               | longtext     | NO   |     |                                          |
-  +--------------------+--------------+------+-----+------------------------------------------+
-  | courseware         | varchar(255) | NO   |     | # Obsolete                               |
-  +--------------------+--------------+------+-----+------------------------------------------+
-  | gender             | varchar(6)   | YES  | MUL | # Only users signed up after prototype   |
-  +--------------------+--------------+------+-----+------------------------------------------+
-  | mailing_address    | longtext     | YES  |     | # Only users signed up after prototype   |
-  +--------------------+--------------+------+-----+------------------------------------------+
-  | year_of_birth      | int(11)      | YES  | MUL | # Only users signed up after prototype   |
-  +--------------------+--------------+------+-----+------------------------------------------+
-  | level_of_education | varchar(6)   | YES  | MUL | # Only users signed up after prototype   |
-  +--------------------+--------------+------+-----+------------------------------------------+
-  | goals              | longtext     | YES  |     | # Only users signed up after prototype   |
-  +--------------------+--------------+------+-----+------------------------------------------+
-  | allow_certificate  | tinyint(1)   | NO   |     |                                          |
-  +--------------------+--------------+------+-----+------------------------------------------+
-  | country            | varchar(2)   | YES  |     |                                          |
-  +--------------------+--------------+------+-----+------------------------------------------+
-  | city               | longtext     | YES  |     |                                          |
-  +--------------------+--------------+------+-----+------------------------------------------+
+  +----------------------------+--------------+------+-----+------------------------------------------+
+  | Column                     | Type         | Null | Key | Comment                                  |
+  +============================+==============+======+=====+==========================================+
+  | id                         | int(11)      | NO   | PRI |                                          |
+  +----------------------------+--------------+------+-----+------------------------------------------+
+  | user_id                    | int(11)      | NO   | UNI |                                          |
+  +----------------------------+--------------+------+-----+------------------------------------------+
+  | name                       | varchar(255) | NO   | MUL |                                          |
+  +----------------------------+--------------+------+-----+------------------------------------------+
+  | language                   | varchar(255) | NO   | MUL | # Obsolete                               |
+  +----------------------------+--------------+------+-----+------------------------------------------+
+  | location                   | varchar(255) | NO   | MUL | # Obsolete                               |
+  +----------------------------+--------------+------+-----+------------------------------------------+
+  | meta                       | longtext     | NO   |     |                                          |
+  +----------------------------+--------------+------+-----+------------------------------------------+
+  | courseware                 | varchar(255) | NO   |     | # Obsolete                               |
+  +----------------------------+--------------+------+-----+------------------------------------------+
+  | gender                     | varchar(6)   | YES  | MUL | # Only users signed up after prototype   |
+  +----------------------------+--------------+------+-----+------------------------------------------+
+  | mailing_address            | longtext     | YES  |     | # Only users signed up after prototype   |
+  +----------------------------+--------------+------+-----+------------------------------------------+
+  | year_of_birth              | int(11)      | YES  | MUL | # Only users signed up after prototype   |
+  +----------------------------+--------------+------+-----+------------------------------------------+
+  | level_of_education         | varchar(6)   | YES  | MUL | # Only users signed up after prototype   |
+  +----------------------------+--------------+------+-----+------------------------------------------+
+  | goals                      | longtext     | YES  |     | # Only users signed up after prototype   |
+  +----------------------------+--------------+------+-----+------------------------------------------+
+  | allow_certificate          | tinyint(1)   | NO   |     |                                          |
+  +----------------------------+--------------+------+-----+------------------------------------------+
+  | country                    | varchar(2)   | YES  |     |                                          |
+  +----------------------------+--------------+------+-----+------------------------------------------+
+  | city                       | longtext     | YES  |     |                                          |
+  +----------------------------+--------------+------+-----+------------------------------------------+
+  | bio                        | varchar(3000)| YES  |     |                                          |
+  +----------------------------+--------------+------+-----+------------------------------------------+
+  | profile_image_uploaded_at  | datetime     | YES  |     |                                          |
+  +----------------------------+--------------+------+-----+------------------------------------------+
 
-**History**: ``country`` and ``city`` added January 2014. The organization of
-this table was different for the students who signed up for the MITx prototype
-phase in the spring of 2012, than for those who signed up afterwards. The
-column descriptions that follow detail the differences in the demographic data
+**History**: ``bio`` and ``profile_image_uploaded_at`` added 22 April 2015.
+``country`` and ``city`` added January 2014. The organization of this table
+was different for the students who signed up for the MITx prototype phase in
+the spring of 2012, than for those who signed up afterwards. The column
+descriptions that follow detail the differences in the demographic data
 gathered.
 
 ----
@@ -663,6 +672,23 @@ city
 
   **History**: Added in Jan 2014, not yet implemented.
 
+------
+bio
+------
+  Stores one or more paragraphs of biographical information that the learner
+  enters. The maximum number of characters is 3000.
+
+  **History**: Added 22 April 2015.
+
+
+------------------------------
+profile_image_uploaded_at
+------------------------------
+  Stores the date and time when a learner uploaded a profile image.
+
+  **History**: Added 22 April 2015.
+
+
 .. _student_courseenrollment:
 
 ==============================================
@@ -902,6 +928,48 @@ id
 username
 -----------
   The student's username in ``auth_user.username``. 
+
+.. _student_languageproficiency:
+
+=================================================
+Columns in the student_languageproficiency Table
+=================================================
+
+The ``student_languageproficiency`` table stores information about students'
+self-reported language preferences. Students can select only one value.
+
+**History**: Added 22 April 2015.
+
++-----------------+-------------+------+-----+---------+----------------+
+| Field           | Type        | Null | Key | Default | Extra          |
++-----------------+-------------+------+-----+---------+----------------+
+| id              | int(11)     | NO   | PRI | NULL    | auto_increment |
++-----------------+-------------+------+-----+---------+----------------+
+| user_profile_id | int(11)     | NO   | MUL | NULL    |                |
++-----------------+-------------+------+-----+---------+----------------+
+| code            | varchar(16) | NO   | MUL | NULL    |                |
++-----------------+-------------+------+-----+---------+----------------+
+
+---------
+id
+---------
+ 
+  A database auto-increment field that uniquely identifies the language. This
+  field is not exposed through the API.
+
+----------------
+user_profile_id
+----------------
+
+  Specifies the ID in the ``authuser_profile`` table that is associated with a
+  particular language proficiency.
+   
+----
+code
+----
+  The language code. Most codes are ISO 639-1 codes, with the addition of
+  codes for simplified and traditional Chinese.
+
 
 .. _Courseware_Progress:
 
