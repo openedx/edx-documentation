@@ -52,29 +52,32 @@ If you enroll in a course that requires an entrance exam, the course appears on
 your Student Dashboard. However, you cannot access all released course content
 immediately.
 
-The first time that you access the course, the course opens to the **Course
-Updates & News** page. At the top of the page, instead of seeing several tabs,
-you only see one tab. The name of this tab is usually **Entrance Exam**, though
-it may have another name in your course.
+The first time that you access the course, the course opens to the **Entrance
+Exam** page. At the top of the page, you can see a message that lists your
+current score and the minimum score that is required to pass the entrance
+exam. You can begin the exam immediately.
 
 .. image:: /Images/EntEx_LandingPage.png
   :width: 500
-  :alt: The Course Updates & News page with the Entrance Exam tab circled on the
-      left
+  :alt: The Entrance Exam page with the first problem visible
 
-To begin the entrance exam, select the **Entrance Exam** tab.
+To take the exam, answer all the available questions, and then click **Check**
+to submit your answers.
 
-After you pass the entrance exam, you can see all available sections in the
-left pane, and you can access all available materials for the course.
+To see your score on the exam, refresh the page after you submit your answers.
+The message at the top of the page tells you if you have passed the exam. If
+you refresh the page before you answer all the questions in the exam, the
+message tells you your current score.
 
-.. image:: /Images/EntEx_CourseAccordionAfterPass.png
+After you pass the entrance exam, in addition to the message at the top
+of the page, you can see all currently available course sections in the
+left pane, and you can access all available course materials.
+
+.. image:: /Images/EntEx_LeftPaneAfterPass.png
   :width: 500
   :alt: The student view after the student has passed the entrance exam, with
       all available course sections listed in the left pane
 
-.. note:: If you don't see any more course content after you complete the entrance 
- exam, try refreshing the page, or select the **Entrance Exam** tab again.
-
 Instructors can allow students to skip the entrance exam. If your instructor
-allows you to skip the entrance exam, you do not see the entrance exam in the
-left pane when you access the course.
+allows you to skip the entrance exam, you do not see the entrance exam when
+you access the course.
