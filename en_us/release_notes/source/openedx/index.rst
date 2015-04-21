@@ -3,6 +3,18 @@ Open edX
 ####################################
 
 ******************
+April 22, 2015
+******************
+
+* Two response fields (``course_start`` and ``course_end``) were added to the
+  course enrollment API. (ECOM-1411)
+
+* The course enrollment API now returns an absolute URL in the
+  ``user_message_URL`` field. Previously, only the path was returned, which
+  could result in errors. (ECOM-1430)
+
+
+******************
 April 15, 2015
 ******************
 

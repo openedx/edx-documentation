@@ -2,6 +2,16 @@
 edX Analytics
 ####################################
 
+******************
+April 22, 2015
+******************
+
+With the release of the Profiles feature, the information in course data
+packages will change. The ``auth_userprofile`` table includes two new columns,
+``bio`` and ``profile_image_uploaded_at``. Additionally, data packages will
+include a new ``student_languageproficiency`` table. For more information, see
+the `Student Info and Progress Data`_ section in the `edX Research Guide`_.
+
 
 ******************
 March 18, 2015
@@ -9,7 +19,7 @@ March 18, 2015
 
 Daily data packages now include events that record which of the problems in a
 library were delivered by a randomized content block component.  For more
-information, see the `Tracking Logs`_ chapter in the `edX Research Guide`_.
+information, see the `Tracking Logs`_ section in the `edX Research Guide`_.
 
 ******************
 March 11, 2015
@@ -56,7 +66,7 @@ February 12, 2015
   ``module`` dictionary, which also provides the component ``display_name``, on
   28 Jan 2015.
 
-  For more information, see the `Tracking Logs`_ chapter in the `edX Research
+  For more information, see the `Tracking Logs`_ section in the `edX Research
   Guide`_.
 
 ******************
