@@ -27,6 +27,17 @@ Insights from the Instructor Dashboard for your live course: after you click
 **Instructor**, click the link in the banner at the top of each page. For more
 information, see `Using edX Insights`_.
 
+.. note:: Some courses have fees that are separate from the fees for an edX 
+ verified certificate. If your course has a fee, organizations can purchase
+ enrollment for students in your course directly from you. When an organization
+ purchases enrollments in your course, you can create *enrollment codes* that
+ you can provide to the organization. The organization then distributes these
+ enrollment codes to its students to simplify the enrollment process. For more
+ information, see :ref:`Paid Enrollment`.
+
+ You must work with your edX program manager if you want to offer a course that
+ has a fee.
+
 .. _registration_enrollment:
 
 *********************************
@@ -74,9 +85,7 @@ When you enroll people in a course you have these options:
   the list that do not match a registered user account are enrolled as soon as
   that account is registered and activated.
 
-  If you do not select **Auto Enroll**, the people who you enroll must also
-  actively locate your course and enroll themselves in it. These students see
-  the course on their dashboards after they have done so.
+  If you do not select **Auto Enroll**, the people who you enroll must also actively locate your course and enroll themselves in it. These students see the course on their dashboards after they have done so.
 
 * **Notify students by email**. When you choose this option, an email message is
   automatically sent to each of the email addresses that you supply. The message
@@ -111,6 +120,109 @@ To enroll students or staff members:
    selected.
 
 #. Click **Enroll**.
+
+.. _Paid Enrollment:
+
+==========================
+Enrollment in Paid Courses
+==========================
+
+If your course has a fee, an organization might want to purchase enrollments in
+your course. For example, if your course is a business training course, another
+company may want some of its employees to enroll in your course. To allow the
+organization to purchase multiple enrollments in one transaction, you create
+*enrollment codes* for the enrollments that the organization purchases. You send
+these codes to the organization, and the organization then distributes the codes
+to learners. Each learner must use a separate code to enroll.
+
+If your course is set up to offer enrollment codes, the Instructor Dashboard
+includes an **E-Commerce** tab. On this tab, you create, view, and manage
+enrollment code transactions.
+
+.. note:: You must work with your edX program manager if you want to offer 
+ a course that has a fee.
+
+ To see the **E-Commerce** tab, you must have the Sales Admin or 
+ Finance Admin role in your course. If you do not have one of these roles,
+ contact your edX program manager.
+
+For more information, see the following sections:
+
+* :ref:`Create Enrollment Codes`
+* :ref:`Download Enrollment Code Reports`
+* :ref:`Manage Enrollment Code Transactions`
+
+.. _Create Enrollment Codes:
+
+Create Enrollment Codes
+*********************************
+
+.. note:: To create enrollment codes, you must have the **Sales Admin** role 
+ in the course.
+
+You create enrollment codes from the Instructor Dashboard. If your course offers
+redeem codes, the Instructor Dashboard has an **E-Commerce** tab.
+
+#. On the Instructor Dashboard, select the **E-Commerce** tab.
+#. In the **Enrollment Codes** section, select **Create Enrollment Codes**.
+#. When the **Create Enrollment Codes** form opens, complete the form. Items
+   with an asterisk (*) are required.
+#. At the bottom of the form, select **Create Enrollment Codes**.
+
+When you select **Create Enrollment Codes**, the system automatically creates a
+comma-separated values (.csv) file and downloads the .csv file to your computer.
+In addition to information about your course and the transaction, such as the
+invoice number, the .csv file contains course enrollment codes and URLs. Each
+enrollment code has a separate URL, and only one student can use each enrollment
+code.
+
+The system also sends a confirmation email to the purchasing organization. The
+email has two attachments: an invoice and a .csv file. The email instructs the
+purchasing organization to distribute enrollment codes to students and includes
+a template that the organization can use. The .csv file contains only the
+enrollment codes and their associated URLs. It does not contain additional
+information about your course or the transaction.
+
+.. _Download Enrollment Code Reports:
+
+Download Enrollment Code Reports
+*********************************
+
+
+.. note:: To download reports, you must have the Finance Admin or Sales Admin role.
+
+To help you keep track of the enrollment codes that have been issued for your course, you can download .csv files that
+contain reports of your unused enrollment codes, your used enrollment codes, or
+all of your enrollment codes. 
+
+To download an enrollment code report, select the **E-Commerce** tab on the
+Instructor Dashboard, and then select the report that you want in the
+**Enrollment Codes** section.
+
+.. _Manage Enrollment Code Transactions:
+
+Manage Enrollment Code Transactions
+************************************
+
+.. note:: To manage enrollment code transactions, you must have the 
+ Finance Admin role.
+
+In addition to the **Registration Codes** section, the **E-Commerce** tab has a
+**Sales** section that you can use to view and manage enrollment code
+transactions. You must have the Finance Admin role to see the **Sales** section.
+
+In the **Sales** section, you can:
+
+* View the total dollar amount that the course has received for all credit card
+  transactions.
+* Download a .csv file of all the invoices for enrollment codes. To do this,
+  select **Download All Invoices**.
+* Download a .csv file of all credit card transactions. To do this, select
+  **Download Credit Card Transactions**.
+* Cancel an invoice. To do this, enter the invoice number in the **Invoice
+  Number** field, and then select **Cancel Invoice**.
+* Resubmit an invoice. To do this, enter the invoice number in the **Invoice
+  Number** field, and then select **Resubmit Invoice**.
 
 .. _view_enrollment_count:
 
@@ -181,5 +293,9 @@ To unenroll students, you supply the email addresses of enrolled students.
 5. Click **Unenroll**. The course is no longer listed on the students'
    **Current Courses** dashboards, and the students can no longer contribute to
    discussions or the wiki or access the courseware.
+
+.. _Provide Enrollment Codes:
+
+
 
 .. _Using edX Insights: http://edx-insights.readthedocs.org/en/latest/
