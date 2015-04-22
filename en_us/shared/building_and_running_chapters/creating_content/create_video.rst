@@ -361,19 +361,19 @@ The following options appear on the **Advanced** tab in the video component.
         edX to process and host video files.
     * - **Video Start Time**
       - The time you want the video to start if you do not want the entire
-        video to play. Formatted as HH:MM:SS. The maximum value is 23:59:59.
+        video to play. Use HH:MM:SS format. The maximum value is 23:59:59.
 
-        Note that YouTube offers an option to play the entire video,
-        regardless of the specified start time. When possible, cut your video
-        files to the desired length before you upload them.
+        .. note:: Learners who download and play the video in the mobile 
+         app see the entire video file. Only videos that play in a browser
+         start playing at the specified start time.
 
     * - **Video Stop Time**
       - The time you want the video to stop if you do not want the entire video
-        to play. Formatted as HH:MM:SS. The maximum value is 23:59:59.
+        to play. Use HH:MM:SS format. The maximum value is 23:59:59.
 
-        Note that YouTube offers an option to play the entire video,
-        regardless of the specified stop time. When possible, cut your video
-        files to the desired length before you upload them.
+        .. note:: Learners who download and play the video in the mobile 
+         app see the entire video file. Only videos that play in a browser
+         stop playing at the specified stop time.
 
     * - **YouTube IDs**
       - If you have uploaded separate video files to YouTube for different
