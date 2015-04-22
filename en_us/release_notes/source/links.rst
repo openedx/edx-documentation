@@ -58,6 +58,8 @@
 
 .. _Introduction: http://edx-guide-for-students.readthedocs.org/en/latest/SFD_introduction.html
 
+.. _SFD Getting Started: http://edx-guide-for-students.readthedocs.org/en/latest/SFD_getting_started.html
+
 .. _Student Guide to Course Discussions: http://edx-guide-for-students.readthedocs.org/en/latest/sfd_discussions/index.html
 
 .. _Math Formatting: http://edx-guide-for-students.readthedocs.org/en/latest/SFD_mathformatting.html
@@ -254,6 +256,9 @@
 .. _Staffing data: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/running_course/course_staffing.html
 
 .. _Enrollment data: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/running_course/course_enrollment.html
+
+.. _Introduction to Exercises and Tools: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/create_exercises_and_tools.html#introduction-to-exercises-and-tools
+
 
 .. _Gene Explorer: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/gene_explorer.html
 

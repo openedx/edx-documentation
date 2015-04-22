@@ -3,6 +3,13 @@ edX Open Response Assessments
 ####################################
 
 ******************
+April 22, 2015
+******************
+
+In ORA assignments, learners could no longer view their submissions after they
+received a grade for the assignment. This issue has been resolved. (TNL-2000)
+
+******************
 April 15, 2015
 ******************
 

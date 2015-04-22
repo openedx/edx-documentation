@@ -2,6 +2,39 @@
 edX Documentation
 ####################################
 
+
+******************
+April 22, 2015
+******************
+
+=======================
+edX Guide for Students
+=======================
+
+* Added sections to reflect changes to account settings and the introduction
+  of profiles.
+* Added a new section about the Learner Dashboard.
+
+For more information, see the `SFD Getting Started`_ section of the `EdX Guide for
+Students`_.
+
+==================================
+Building and Running an edX Course
+==================================
+
+In the `Introduction to Exercises and Tools`_ section, a new column in the
+tables indicates the level of support that edX provides for each exercise or
+tool.
+
+==================================
+edX Research Guide
+==================================
+
+New columns were added to the ``auth_userprofile`` table and a new
+``student_languageproficiency`` table was added to reflect changes for the
+Profiles feature. For more information, see the `Student Info and Progress
+Data`_ section in the `edX Research Guide`_.
+
 ******************
 April 15, 2015
 ******************

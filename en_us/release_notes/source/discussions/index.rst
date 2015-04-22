@@ -2,19 +2,27 @@
 edX Discussions
 ####################################
 
+
+******************
+April 22, 2015
+******************
+
+Discussion posts exceeding a certain length or containing numerous equations
+were not rendering LaTeX expressions. This issue has been resolved. (TNL-1902)
+
 ******************
 March 31, 2015
 ******************
 
-* When users searched for a username in course discussions, they received an
-  error message. This problem is resolved. (TNL-1717)
+When users clicked a link from the page listing all a user's posts, they
+received an error message. This problem is resolved. (TNL-1717)
 
 ******************
 February 12, 2015
 ******************
 
-* The "Mark as Answered" icon was missing from discussion and question posts.
-  This problem has been resolved. (TNL-1330)
+The "Mark as Answered" icon was missing from discussion and question posts.
+This problem has been resolved. (TNL-1330)
 
 ******************
 February 4, 2015
@@ -36,13 +44,11 @@ Accessibility Improvements
 January 14, 2015
 *****************
 
-* After editing a discussion post or comment, a user was then not able to
-  report the post or mark it as the answer. This problem is resolved.
-  (TNL-1016)
+After editing a discussion post or comment, a user was then not able to report the post or mark it as the answer. This problem is resolved. (TNL-1016)
 
 *****************
 January 8, 2015
 *****************
 
-* When you viewed responses in a discussion topic, the vote count was displayed
-  twice. This problem is resolved. (TNL-1016)
+When you viewed responses in a discussion topic, the vote count was displayed
+twice. This problem is resolved. (TNL-1016)

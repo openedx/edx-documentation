@@ -2,6 +2,15 @@
 edX Website
 ####################################
 
+
+******************
+April 22, 2015
+******************
+
+Learners can now unenroll from courses that have not yet started. Previously,
+unenrollment was available only for live courses. (ECOM-1435)
+
+
 ******************
 April 15, 2015
 ******************
@@ -39,7 +48,8 @@ March 2, 2015
 February 12, 2015
 ******************
 
-* Some students saw an incorrect message when they signed up for a verified certificate. This problem has been resolved. (ECOM-1031)
+* Some students saw an incorrect message when they signed up for a verified
+  certificate. This problem has been resolved. (ECOM-1031)
 
 ******************
 February 4, 2015
