@@ -454,6 +454,35 @@ course staff.
 For information on setting up moderators for your course, see
 :ref:`Assigning_discussion_roles`.
 
+====================================================
+View Profile Information for Discussion Participants
+====================================================
+
+If you want to find out more about a specific discussion participant, you can
+view that learner's edX profile. Learners can have either a limited profile or a
+full profile.
+
+To view a learner's profile, follow these steps.
+
+#. On the **Discussion** page, select a username in a post,
+   response, or comment.
+#. On the **Active Threads** page for that learner, select the
+   learner's username.
+
+The following image shows a learner's username in a post, the learner's
+username on the **Active Threads** page, and the learner's profile page.
+
+.. image:: ../../../shared/building_and_running_chapters/Images/SFD_Prof_from_Disc.png
+  :width: 600
+  :alt: Image of a discussion with a learner's username circled, an image of
+      that learner's active threads page in the course discussions, and an
+      image of the learner's profile
+
+For more information, or to create your own profile, see `View, Create, or
+Edit an edX Profile <http://edx- guide-for-
+students.readthedocs.org/en/latest/sfd_your_information.html#sfd_pro
+file_page>`_.
+
 ========================================
 Provide Guidelines for Students
 ========================================

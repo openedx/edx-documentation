@@ -12,6 +12,9 @@ Change Log
 
    * - Date
      - Change
+   * - 22 Apr 2015
+     - Added :ref:`SFD Dashboard Settings Profile` topic with profile and
+       account settings information.
    * - 20 Mar 2015
      - Added registration and enrollment to the  :ref:`SFD Mobile` chapter.
    * - 4 Mar 2015
