@@ -13,7 +13,7 @@ edX Guide for Students
 
    front_matter/index
    SFD_introduction
-   SFD_dashboard_settings_profile
+   sfd_dashboard_profile/index
    SFD_video_player
    SFD_google_docs
    SFD_certificates
