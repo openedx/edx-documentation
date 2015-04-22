@@ -105,7 +105,7 @@ parties identify and track video files over time.
 
 .. This procedure needs to be completed only once per course in Studio.
 
-.. #. Work with your institution's video administrator to obtain the edX video
+.. #. Work with your institution's video administrator to obtain the video
    identifier for your course. The edX media team defines a unique video
    identifier for each course.
 

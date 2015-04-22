@@ -326,9 +326,6 @@ The following options appear on the **Advanced** tab in the video component.
         students by using the **Upload Handout** field. For more information,
         see :ref:`Additional Transcripts`.
 
-    * - **EdX Video ID**
-      - An optional field used only by course teams that are working with
-        edX to process and host video files.
     * - **Show Transcript**
       - Specifies whether the transcript plays along with the video by default.
     * - **Transcript Languages**
@@ -359,6 +356,9 @@ The following options appear on the **Advanced** tab in the video component.
         To help make sure all standard browsers can play your video, we
         **strongly** recommend that you use the .mp4 or .webm format.
 
+    * - **Video ID**
+      - An optional field used only by course teams that are working with
+        edX to process and host video files.
     * - **Video Start Time**
       - The time you want the video to start if you do not want the entire
         video to play. Formatted as HH:MM:SS. The maximum value is 23:59:59.
