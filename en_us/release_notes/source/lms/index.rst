@@ -19,8 +19,8 @@ course discussions.
 Learners and staff can also use the new **Account Settings** page to update
 account information, such as the account email address and password, and
 demographic information, such as level of education and country or region. For
-more information, see the `SFD Getting Started`_ section of the `EdX Guide for
-Students`_.
+more information, see the `Exploring Your Dashboard, Settings, and Profile`_
+section of the `EdX Guide for Students`_.
 
 ==========================
 Video Start and Stop Times

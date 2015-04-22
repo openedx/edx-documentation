@@ -58,7 +58,7 @@
 
 .. _Introduction: http://edx-guide-for-students.readthedocs.org/en/latest/SFD_introduction.html
 
-.. _SFD Getting Started: http://edx-guide-for-students.readthedocs.org/en/latest/SFD_getting_started.html
+.. _Exploring Your Dashboard, Settings, and Profile: http://edx-guide-for-students.readthedocs.org/en/latest/sfd_dashboard_profile/SFD_dashboard_settings_profile.html
 
 .. _Student Guide to Course Discussions: http://edx-guide-for-students.readthedocs.org/en/latest/sfd_discussions/index.html
 
