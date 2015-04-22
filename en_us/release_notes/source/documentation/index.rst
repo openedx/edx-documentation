@@ -15,8 +15,8 @@ edX Guide for Students
   of profiles.
 * Added a new section about the Learner Dashboard.
 
-For more information, see the `SFD Getting Started`_ section of the `EdX Guide for
-Students`_.
+For more information, see the `Exploring Your Dashboard, Settings, and
+Profile`_ section of the `EdX Guide for Students`_.
 
 ==================================
 Building and Running an edX Course
