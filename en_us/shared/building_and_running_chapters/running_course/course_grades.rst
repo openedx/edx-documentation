@@ -8,11 +8,13 @@ You can review information about how grading is configured for your course, and
 access student grades, at any time after you create the course. You can also
 make adjustments to student grading for a problem, for a single student or all
 students. For information about the grading data that you can access and the
-changes you can make, see the following topics:
+changes you can make, see the following topics.
 
 * :ref:`Review_grades`
 
 * :ref:`Access_grades`
+
+* :ref:`problem_report`
 
 * :ref:`gradebook`
 
@@ -66,14 +68,15 @@ learners' grades.
 .. important:: Any changes that you make to the course grading policy, to
    graded subsections, or to graded components after the course begins will
    affect learners' experiences in the course as well as analysis of its data.
-   Unavoidable changes should be announced to learners, for example, on the
-   **Course Info** page, and carefully tracked for researchers.
+   EdX recommends that you announce any unavoidable changes learners by using,
+   for example, the **Course Info** page. You should also carefully track
+   these changes for researchers.
 
 .. _Access_grades:
 
-********************************************************
-Generate Grades for Enrolled Learners (All Courses)
-********************************************************
+***********************************************************
+Generate a Grade Report for Enrolled Learners (All Courses)
+***********************************************************
 
 For any course, you can generate grades and then download a file with the
 results for each enrolled learner. 
@@ -81,14 +84,20 @@ results for each enrolled learner.
 When you initiate calculations to grade student work, a process starts on the
 edX servers. The complexity of your grading configuration and the number of
 students enrolled in your course affect how long this process takes. You can
-download a report of the calculated grades in a .csv (comma-separated values)
+download a report of the calculated grades in a comma-separated values (.csv)
 file when the grading process is complete.
 
 For courses with fewer than 200 students enrolled, you also have the option to
 review student grades on the Instructor Dashboard. See :ref:`gradebook`.
 
-To generate the grade report for the learners who are currently enrolled in
-your course:
+To generate and download the grade report for the learners who are currently
+enrolled in your course, follow these steps.
+
+.. important:: Because the grade report file contains confidential, personally
+   identifiable data which might be subject to the Family Educational Rights and
+   Privacy Act (FERPA), be sure to follow your institution's data stewardship
+   policies when you open or save this file.
+
 
 #. View the live version of your course.
 
@@ -96,25 +105,55 @@ your course:
 
 #. To start the grading process, click **Generate Grade Report**.
 
-  A status message indicates that the grading process is in progress. This
-  process can take some time to complete, but you can navigate away from this
-  page and do other work while it runs.
+   A status message indicates that the grading process is in progress. This
+   process can take some time to complete, but you can navigate away from this
+   page and do other work while it runs.
 
-4. To track the progress of the grading process, reload the page in your
-   browser and scroll down to the **Pending Instructor Tasks** section.
+4. To check the progress of the grading process, reload the page in your
+   browser and scroll down to the **Pending Instructor Tasks** section. The
+   status of active tasks is shown in the table.
 
-==========================================
-Download Grades for Enrolled Learners
-==========================================
+   When the report is complete, a linked .csv filename becomes available above
+   the **Pending Instructor Tasks** section. Filenames are in the format
+   ``{course_id}_grade_report_{datetime}.csv``. The most recently generated
+   reports appear at the top of the list.
 
-The result of requesting a grade report for your course is a time-stamped .csv
-file that includes columns to identify each learner by ID, email address, and
-username. It also includes a column for every assignment that is included in
-your grading configuration: each homework, lab, midterm, final, and any other
-assignment type you added to your course. 
+5. To open or save a grade report file, locate and click the link for the
+   grade report you requested. 
 
-The report indicates the enrollment track for each learner, and for
-professional and verified track learners, whether they have verified their
+   You can open .csv files in a spreadsheet application to sort, graph, and
+   compare data.
+
+.. note:: To prevent the accidental distribution of learner data, you can
+   download grade report files only by clicking the links on this page. Do not
+   copy these links for reuse elsewhere, as they expire within 5 minutes. The
+   links on this page also expire if the page is open for more than 5 minutes.
+   If necessary, refresh the page to generate new links.
+
+
+.. _Interpret the Grade Report:
+
+==========================
+Interpret the Grade Report
+==========================
+
+
+A grade report for your course is a time-stamped .csv file that identifies
+each enrolled learner by ID, email address, and username, and provides a
+snapshot of their cumulative course scores.
+
+Scores in the grade report are presented by assignment. There is a column for
+every assignment that is included in your grading configuration: each
+homework, lab, midterm, final, and any other assignment type you added to your
+course.
+
+.. note:: The grade report does not include information about individual
+   problems within assignments, or include student answer distributions. For a
+   report that shows problem-level information, see :ref:`problem_report`.
+
+
+The report indicates the enrollment track for each learner. For professional
+and verified track learners it also shows whether they have verified their
 identity. The report shows whether each learner is eligible to receive a
 certificate (determined by whether he has earned a passing grade at the time
 the report was requested), whether a certificate has been generated, and the
@@ -125,48 +164,12 @@ experiments<Overview of Content Experiments>`, the grade report includes
 additional columns indicating the name of the cohort or experiment group that
 each learner belongs to.
 
-
-.. important:: Because the grade report file contains confidential, personally
-   identifiable data which might be subject to the Family Educational Rights and
-   Privacy Act (FERPA), be sure to follow your institution's data stewardship
-   policies when you open or save this file.
-
-To download the grade report file for your course, follow these steps.
-
-#. View the live version of your course.
-
-#. Click **Instructor**, then click **Data Download**.
-
-#. To open or save a grade report file, click the
-   ``{course_id}_grade_report_{date}.csv`` file name at the bottom of the page.
-
-.. note:: To prevent the accidental distribution of learner data, you can only
-   download grade report files by clicking the links on this page. Do not copy
-   these links for reuse elsewhere, as they expire within 5 minutes. The links
-   on this page also expire if the page is open for more than 5 minutes: if
-   necessary, refresh the page to generate new links.
-
-.. _Interpret the Grade Report:
-
-=====================================
-Interpret the Grade Report
-=====================================
-
-Grade reports provide a snapshot of cumulative course scores, by assignment, of
-every currently enrolled learner.
-
-.. note:: Grade reports do not include information about individual problems
-   within the assignments, or include student answer distributions.
-
-You can open ``{course_id}_grade_report_{date}.csv`` files in a spreadsheet
-application to sort, graph, and compare data.
-
 .. image:: ../../../shared/building_and_running_chapters/Images/Grade_Report.png
   :alt: A course grade report, opened in Excel, showing the grades achieved by 
         students on several homework assignments and the midterm
 
-The .csv file contains one row of data for each learner, and columns that
-provide the following information.
+The grade report .csv file contains one row of data for each learner, and
+columns that provide the following information.
 
 * Learner identifiers, including an internal **id**, **email** address, and
   **username**.
@@ -197,7 +200,7 @@ provide the following information.
   configuration.
 
 * The **Enrollment Track** column indicates whether each learner is enrolled in
-  the course in the honor, verified, or professional education track.
+  the course in the honor code, verified, or professional education track.
 
 * The **Verification Status** column applies only to learners who are enrolled
   in the verified or professional tracks. The value in this column indicates
@@ -212,14 +215,112 @@ provide the following information.
   embargoed countries.
 
 * For learners who are eligible to receive a certificate, the **Certificate
-  Delivered** column has a value of "Y" when the certificates for a course are
-  generated. The value is "N" for learners who are not eligible to receive a
-  certificate.
+  Delivered** column has a value of "Y" when the certificates for a course have
+  been generated. The value is "N" for learners who are not eligible to
+  receive a certificate.
 
 * The **Certificate Type** column indicates the type of certificate that the
   learner is eligible for, such as "honor" or "verified". If a learner is not
   eligible for a certificate, or if the certificates for a course have not yet
   been generated, the value in this column is "N/A".
+
+
+.. _problem_report:
+
+*******************************************************************
+Generate a Problem Grade Report for Enrolled Students (All Courses)
+*******************************************************************
+
+For any course, you can calculate grades for problems and generate a report
+that can be downloaded. The problem grade report for a course shows the number
+points that each learner has earned for each problem and the number of
+possible points for every problem in the course and the . In addition, the
+report shows the final grade score for each learner.
+
+To generate and download the problem grade report for the learners who are
+currently enrolled in your course, follow these steps.
+
+.. important:: Because the problem grade report file contains confidential,
+   personally identifiable data which might be subject to the Family
+   Educational Rights and Privacy Act (FERPA), be sure to follow your
+   institution's data stewardship policies when you open or save this file.
+
+#. View the live version of your course.
+
+#. Click **Instructor**, then click **Data Download**.
+
+#. To start the problem grading process, click **Generate Problem Grade
+   Report**.
+
+   A status message indicates that the problem grading process is in progress.
+   This process can take some time to complete, but you can navigate away from
+   this page and do other work while it runs.
+
+4. To check the progress of the problem grading process, reload the page in your
+   browser and scroll down to the **Pending Instructor Tasks** section. The
+   status of active tasks is shown in the table.
+
+   When the report is complete, a linked .csv filename becomes available above
+   the **Pending Instructor Tasks** section. Filenames are in the format
+   ``{course_id}_problem_grade_report_{datetime}.csv``. The most recently
+   generated reports appear at the top of the list.
+
+5. To open or save a problem grade report file, locate and click the link for
+   the problem grade report you requested.
+
+   You can open .csv files in a spreadsheet application to sort, graph, and
+   compare data.
+
+.. note:: To prevent the accidental distribution of learner data, you can
+   download problem grade report files only by clicking the links on this
+   page. Do not copy these links for reuse elsewhere, as they expire within 5
+   minutes. The links on this page also expire if the page is open for more
+   than 5 minutes. If necessary, refresh the page to generate new links.
+
+
+.. _Interpret the Problem Grade Report:
+
+====================================
+Interpret the Problem Grade Report
+====================================
+
+A problem grade report for your course is a time-stamped .csv file that
+identifies each enrolled learner by ID, email address, and username, and
+provides a snapshot of earned scores compared with the possible scores for
+each problem.
+
+The problem grade report includes two columns for every problem that is
+included in your grading configuration. For each homework, lab, midterm, or
+final exam problem, there is one column for earned points, and one column for
+possible points. In addition, the report shows the final grade score for each
+learner, espressed as a decimal.
+
+.. image:: ../../../shared/building_and_running_chapters/Images/Problem_Grade_Report_Example.png
+  :alt: An example problem grade report shown in Excel, showing the decimal
+    final grade for learners as well as the earned vs possible points that they
+    each achieved on several quiz assignments. A column for a midterm is only
+    partially visible.
+
+The .csv file contains one row of data for each learner, and columns that
+provide the following information.
+
+* Learner identifiers, including an internal **Student ID**, **Email** address, and
+  **Username**.
+
+* The **Final Grade**, with the total score that a learner has currently attained
+  in the course. This value is expressed as a decimal: a learner with a grade
+  of 0.65 has earned 65% of the credit in the course, and a learner with a
+  grade of 1 has earned 100%.
+
+* For each problem (identified by assignment, subsection, and problem name), a
+  column showing the number of points actually earned by each learner. If a
+  learner has not viewed a problem, the value in this column is "N/A". If
+  a learner has not answered a problem, the value in this column is "0".  
+
+* For each problem (identified by assignment, subsection, and problem name), a
+  column showing the number of points that it is possible to earn for the
+  problem. If a learner has not viewed a problem, the value in this column
+  is "N/A".
 
 
 .. _gradebook:
