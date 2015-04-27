@@ -705,8 +705,10 @@ Video Interaction Events
 ==================================
 
 This section includes descriptions of the following events. Due to a naming
-convention change, many of these events have two identifying names. The
-original name is followed by the revised name in this list.
+convention change, many of these events have two identifying names. In this
+list, the original name, which is present in the ``event_type`` field for all
+events, is followed by a newer, revised name. The revised name is present in
+the ``name`` field only for events that have an ``event_source`` of 'mobile'.
 
 * ``hide_transcript``/``edx.video.transcript.hidden``
 * ``load_video``/``edx.video.loaded``
@@ -732,10 +734,6 @@ interacts with a video.
   ``time`` field can be different from the date and time in its
   ``context.received_at`` field. Data packages can include events emitted on
   past dates.
-
-The ``event_type`` field contains the identifying name of each event. Video
-interaction events that have an ``event_source`` of 'mobile' also have a
-``name`` field.
 
 This section presents the video interaction events alphabetically. Typically,
 an interaction with the video player begins with a :ref:`play_video` event.
