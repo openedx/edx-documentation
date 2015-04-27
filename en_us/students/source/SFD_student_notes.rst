@@ -29,7 +29,12 @@ and a pencil icon in the lower-right corner.
   :alt: Page of course content with the Notes tab at the top and the pencil icon
       in the lower-right corner
 
-The **Notes** tab lists all the notes that you have made during the course. For more information, see :ref:`The Notes Tab`.
+The **Notes** tab lists all the notes that you have made during the course.
+For more information, see :ref:`The Notes Tab`.
+
+.. note:: Learners who do not use a mouse can use keyboard shortcuts to create, 
+ access, and delete notes. For more information about using keyboard
+ shortcuts, see :ref:`SFD SN Keyboard Shortcuts`.
 
 
 ======================================
@@ -138,3 +143,69 @@ to see your notes.
 
 .. note:: If you hide student notes, you cannot make new notes. To make new
  notes, select the pencil icon to show notes.
+
+
+.. _SFD SN Keyboard Shortcuts:
+
+*********************************************
+Keyboard Shortcuts for Student Notes
+*********************************************
+
+You can use keyboard shortcuts to create, edit, and delete your notes.
+
+.. note:: These keyboard shortcuts work on both PCs and Macintosh computers.
+ However, you can only use these keyboard shortcuts on browsers that support
+ caret browsing.
+
+  * Internet Explorer and Firefox support caret browsing by default. To enable
+    caret browsing in Firefox, press F7.
+  * Safari supports caret browsing when VoiceOver is turned on. For more
+    information about VoiceOver, see the `Apple website
+    <https://www.apple.com/accessibility/osx/voiceover/>`_.
+  * Chrome does not support caret browsing.
+
+Before you use the following keyboard shortcuts, you must make sure that notes
+are turned on. To turn notes on or off, press Ctrl + Shift + left bracket
+(``[``). Notes are turned on when a pencil icon with a dark gray background is
+visible in the lower-right corner of the page. If the pencil icon has a light
+gray background, notes are turned off. In the following image, notes are
+turned on.
+
+.. image:: /Images/SFD_SN_NotesOn.png
+  :width: 500
+  :alt: Course page with an arrow pointing to the dark gray pencil icon that
+      indicates notes are turned on
+
+=======================================
+Create a Note Using the Keyboard
+=======================================
+
+To create a note using keyboard shortcuts, follow these steps.
+
+#. Enable caret browsing mode.
+#. Use the arrow keys to move the cursor to the left of the text that you want
+   to highlight.
+#. Hold down Shift + right arrow to select the text.
+#. Press Ctrl + Shift + right bracket (``]``) to open the note editor.
+#. In the text field, type your note.
+#. To save your note, press Tab to move to the **Save** button, and then press
+   Enter.
+
+   To close the note editor without creating a note, press Tab to move to the
+   **Cancel** button, and then press Enter. You can also press Esc to close
+   the note editor.
+
+========================================
+Edit or Delete a Note Using the Keyboard
+========================================
+
+To edit or delete a note, follow these steps.
+
+#. Press Tab to move focus to the note that you want.
+#. Press Ctrl + spacebar or Ctrl + Enter to open the note editor.
+#. Press Tab to move the cursor to the text field, and then make the changes
+   that you want.
+#. Press Tab to move to the **Edit**, **Delete**, or **Close** button, and
+   then press Enter.
+
+To close the note editor without making any changes, press Esc.

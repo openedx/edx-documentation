@@ -10,6 +10,8 @@ Change Log
 
    * - Date
      - Change
+   * - 27 Apr 2015
+     - Added keyboard shortcut information to :ref:`SFD Student Notes` topic.
    * - 4 Mar 2015
      - Updated the :ref:`Preface` to include information about the :ref:`The
        edX Partner Portal` and the :ref:`The Open edX Portal`.
@@ -27,7 +29,7 @@ Change Log
    * - 8 Dec 14
      - Added the preface and list of topics to the :ref:`Introduction` section.
    * - 4 Dec 14
-     - Added :ref:`SFD Wiki` topic.
+     - Updated :ref:`SFD Wiki` topic.
    * - 12/4/14
      - Added :ref:`SFD Wiki` topic. 
    * - 11/24/14
