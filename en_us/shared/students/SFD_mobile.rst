@@ -7,18 +7,18 @@ The edX Mobile App
 The edX mobile app is a companion to the `edx.org`_ website. You can use the
 app to download course videos so that you can watch them whenever you want to,
 even without an Internet connection. To access the rest of the course,
-including course discussions, homework, and quizzes, you use a web
-browser on a computer.
+including course discussions, homework, and quizzes, you use a web browser.
+If you have access to a computer, you might find it easier to use it for some
+of the coursework.
 
 The edX mobile app is currently available for Android smartphones and iPhones.
 For more information, check the answers to frequently asked questions in these
 categories.
 
-* `General Questions`_
-* `Getting Started`_
-* `Courseware Questions`_
-* `Video Questions`_
-* `Troubleshooting`_
+.. contents:: Section Contents 
+   :local:
+   :depth: 1
+
 
 .. _General Questions:
 
@@ -43,8 +43,8 @@ The app is free. You do not have to pay or buy anything to download or use it.
 What platforms does the app run on?
 ========================================
 
-Right now, the edX mobile app is available for Android smartphones and
-iPhones. For the iPhone app, your device must be running iOS 7 or later.
+Right now, the edX mobile app is available for Android smartphones (running
+Android 4.0 or later) and iPhones (running iOS 7 or later).
 
 We plan to make the app available on Android tablets and iPads in the
 future.
@@ -114,7 +114,7 @@ How do I unenroll from a course?
 ========================================
 
 To unenroll from a course, use a browser to go to the `edx.org`_ website. You
-unenroll from courses on your :ref:`dashboard<SFD Learner Dashboard>`.
+unenroll from courses on your dashboard.
 
 .. _Courseware Questions:
 
@@ -128,14 +128,16 @@ Can I take a course entirely on my mobile device?
 
 Not at this time. With the edX mobile app, you can download course videos to
 watch when you do not have an Internet connection. To complete other work,
-including readings, homework problems, and exams, use a computer.
+including readings, homework problems, and exams, use a web browser. (If you
+have access to a computer, you might find it easier to use it for some of the
+coursework.)
 
 ========================================================
 How do I post questions on the discussion board?
 ========================================================
 
 Right now, you cannot use the app to participate in course discussions. To
-read or contribute to the discussions, use a computer.
+read or contribute to the discussions, use a web browser.
 
 .. _Video Questions:
 
@@ -147,8 +149,9 @@ Video Questions
 How do I download videos?
 ================================
 
-To download videos, select the "download" icon that appears to the right of each
-section, subsection, or video name. 
+To download videos, you must be connected to the Internet. Select the
+"download" icon that appears to the right of a section, subsection, or
+video name.
 
 * If you select download for a section or subsection, you download all of the
   videos in that section or subsection.
@@ -158,18 +161,33 @@ section, subsection, or video name.
    :width: 300
    :alt: List of sections with the "download" icon circled.
 
-To download videos, you must be connected to the Internet. After you download
-a video, you can watch it any time.
+To download videos, you must be connected to the Internet. After you download a
+video, you can watch it any time.
 
 ================================================
 How much data will the videos in this app use?
 ================================================
 
-Course videos are optimized for mobile playback, but watching or downloading any
-video can result in heavy data use. We recommend using a Wi-Fi connection if you
-intend to watch or download a lot of videos. The edX app has a **Download only
-on Wi-Fi** setting that is enabled by default to help you avoid using your
-cellular network accidentally.
+Course videos are optimized for mobile playback, but watching or downloading
+any video can result in heavy data use. We recommend using a Wi-Fi connection
+if you intend to watch or download a lot of videos. The edX app has a
+**Download only on Wi-Fi** setting that is enabled by default to help you avoid
+using your cellular network accidentally.
+
+==================================
+How can I see captions?
+==================================
+
+While a video plays, select **Settings** (the "gear" icon) at the lower right,
+and then select **Closed Captions**. If the video has captions, a list of
+available languages appears. Select the language that you want from the list.
+
+.. image:: ../../shared/students/Images/Mob_CCwithLanguages.png
+   :width: 500
+   :alt: Video with closed caption language menu visible.
+
+Some courses have captions in only one language, while others offer several
+language choices.
 
 ========================================================================
 What are the numbers to the right of section and subsection names?
@@ -201,21 +219,6 @@ screen" in the bottom right corner of the video screen.
 .. image:: ../../shared/students/Images/Mob_FullScreenIcon.png
    :width: 300
    :alt: Video with "full screen" icon circled.
-
-==================================
-How can I see captions?
-==================================
-
-While a video plays, select **Settings** (the "gear" icon) at the lower right,
-and then select **Closed Captions**. If the video has captions, a list of
-available languages appears. Select the language that you want from the list.
-
-.. image:: ../../shared/students/Images/Mob_CCwithLanguages.png
-   :width: 500
-   :alt: Video with closed caption language menu visible.
-
-Some courses have captions in only one language, while others offer several
-language choices.
 
 ==================================
 Can I speed up the videos?
@@ -266,15 +269,23 @@ How do I delete downloaded videos?
 
 #. Select **Delete**.
 
+
+.. The following section describes how push notifications appear on devices with the edX mobile app installed
+.. Alison, DOC-1814, June 2015
+
+.. only:: Open_edX
+
+    .. include:: ../../shared/students/Section_notification_questions.rst
+
 .. _Troubleshooting:
 
 *************************
 Troubleshooting
 *************************
 
-==========================================================================================
+===============================================================================
 I see "This video is not available" when I try to watch a video. What can I do?
-==========================================================================================
+===============================================================================
 
 If you have problems viewing videos, make sure that you have an Internet
 connection and then try to view or download the video again.
