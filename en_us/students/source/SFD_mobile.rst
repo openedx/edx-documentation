@@ -4,8 +4,23 @@
 The edX Mobile App
 ########################
 
-The edX mobile app is currently available for Android and iPhone devices. For
-more information, check the frequently asked questions below.
+The edX mobile app is a companion to the `edx.org`_ website. You can use the
+app to download course videos so that you can watch them whenever you want to,
+even without an Internet connection. To access the rest of the course,
+including course discussions, homework, and quizzes, you use a web browser.
+If you have access to a computer, you might find it easier to use it for some
+of the coursework.
+
+The edX mobile app is currently available for Android smartphones and iPhones.
+For more information, check the answers to frequently asked questions in these
+categories.
+
+* `General Questions`_
+* `Getting Started`_
+* `Courseware Questions`_
+* `Video Questions`_
+* `Notification Questions`_
+* `Troubleshooting`_
 
 .. _General Questions:
 
@@ -24,82 +39,107 @@ available in the Apple `App Store`_.
 How much does the app cost?
 ================================
 
-The app is free. You don't have to pay or buy anything to download or use it.
+The app is free. You do not have to pay or buy anything to download or use it.
 
 ========================================
 What platforms does the app run on?
 ========================================
 
-Our current app is available for Android smartphones and iPhones. We're also
-working to make the app available on Android tablets and iPads.
+Right now, the edX mobile app is available for Android smartphones (running
+Android 4.0 or later) and iPhones (running iOS 7 or later).
 
-For the iPhone app, your device must be running iOS 7 or later.
-
-================================================
-How do I find courses to take on the mobile app?
-================================================
-
-When you open the app and sign in to your edX account, you see a list of the
-mobile-friendly courses you're currently enrolled in.
-
-To find a new course, scroll to the end of the list of your courses, and then
-tap **Find a mobile-friendly course**.
-
-Currently, only select courses are offered on the edX mobile app. We're working
-hard to make all edX courses mobile-friendly and we're adding more mobile
-courses every day, so check back soon to see new available courses.
-
-========================================================
-Can I take a course entirely on my mobile device?
-========================================================
-
-This version of our mobile app is a companion app that you can use to watch
-course videos and see announcements and handouts. To complete readings, homework
-problems, and exams, you can tap **View on Web** in the bottom right corner of
-any screen to access the content in your browser, or you can complete
-assignments on your computer.
-
-========================================================
-How do I post questions on the discussion board?
-========================================================
-
-Right now, you can't participate in discussions by using the app. However, when
-you tap **View on Web** in the bottom right corner of any screen, the course
-opens in your browser. You can then tap the **Discussion** tab in your course to
-participate in discussions.
-
-========================================
-How do I change my download settings?
-========================================
-
-#. In the upper left corner of your **My Courses** page, tap the menu icon.
-
-   .. image:: /Images/Mob_Menu.png
-      :width: 300
-      :alt: Mobile "My Courses" page with an arrow pointing to the menu in the upper left corner
-
-#. In the list that appears, locate **SETTINGS: Download only on Wi-Fi**, and
-   then tap the option's current setting to change it.
-
-.. note:: By default, the app is set so that it will only download content, 
-  including videos, if you're on a Wi-Fi network. If you change this setting, 
-  you may exceed the data allowance for your cellular plan.
-
-========================================
-How do I un-enroll from a course?
-========================================
-
-To un-enroll from a course, visit the edX website on your mobile browser or on
-your computer.
+We plan to make the app available on Android tablets and iPads in the
+future.
 
 ================================================
 How can I send questions or comments to edX?
 ================================================
 
-We'd love to receive your feedback on this beta version of our mobile app. In
-the app home page, tap the menu in the upper left corner, and then tap **Submit
+We are glad to receive your feedback on our mobile app. On the **My Courses**
+page, select the menu in the upper left corner, and then select **Submit
 Feedback**.
 
+.. _Getting Started:
+
+*************************
+Getting Started
+*************************
+
+======================================
+Do I need an edX account?
+======================================
+
+You need to have an edX account before you can enroll in courses. You can sign
+up for an edX account in the edX mobile app, or use a browser to go to the
+`edx.org`_ website. When you create your account, you need to be connected to
+the Internet.
+
+======================================
+How do I create an edX account?
+======================================
+
+When you open the edX mobile app, select **Sign up and start learning**. You
+can create an edX account using your email address or your Facebook or Google
+account. You also provide the following information.
+
+* Your name.
+* The username that will identify you to course teams and to other learners.
+* A password.
+* Your country or region. 
+
+After you create your account, you can find courses that interest you and
+enroll in them.
+
+==================================================
+How do I find courses to take?
+==================================================
+
+When you open the app and sign in to your edX account, you see a list of the
+mobile-friendly courses that you are currently enrolled in. At the end of the
+list, select **Find a Mobile-Friendly Course**.
+
+You can also use the menu at the top of the page. Select **Find Courses**.
+
+   .. image:: /Images/Mob_Menu.png
+      :width: 300
+      :alt: Mobile "My Courses" page with an arrow pointing to the menu in the
+        upper left corner.
+
+To sign up for a course, click **Enroll**.
+
+Only select courses are offered on the edX mobile app right now. We are
+working hard to make all edX courses mobile-friendly. We are adding more
+mobile courses every day, so check back often to see new available courses.
+
+========================================
+How do I unenroll from a course?
+========================================
+
+To unenroll from a course, use a browser to go to the `edx.org`_ website. You
+unenroll from courses on your dashboard.
+
+.. _Courseware Questions:
+
+*************************
+Courseware Questions
+*************************
+
+========================================================
+Can I take a course entirely on my mobile device?
+========================================================
+
+Not at this time. With the edX mobile app, you can download course videos to
+watch when you do not have an Internet connection. To complete other work,
+including readings, homework problems, and exams, use a web browser. (If you
+have access to a computer, you might find it easier to use it for some of the
+coursework.)
+
+========================================================
+How do I post questions on the discussion board?
+========================================================
+
+Right now, you cannot use the app to participate in course discussions. To
+read or contribute to the discussions, use a web browser.
 
 .. _Video Questions:
 
@@ -111,14 +151,19 @@ Video Questions
 How do I download videos?
 ================================
 
-To download videos, tap the download icon that appears to the right of each
-section, subsection, or video name. If you tap the download icon for a video,
-you'll download just that video. If you tap the download icon for a section or
-subsection, you'll download all of the videos in that section or subsection.
+To download videos, you must be connected to the Internet. Select the
+"download" icon that appears to the right of a section, subsection, or
+video name.
+
+* If you select download for a section or subsection, you download all of its
+  videos.
+* If you select download for a video, you download only that video.
 
 .. image:: /Images/Mob_DownloadIcon.png
    :width: 300
-   :alt: List of sections with the download icon circled
+   :alt: List of sections with the "download" icon circled.
+
+After you download a video, you can watch it any time.
 
 ================================================
 How much data will the videos in this app use?
@@ -127,8 +172,23 @@ How much data will the videos in this app use?
 Course videos are optimized for mobile playback, but watching or downloading any
 video can result in heavy data use. We recommend using a Wi-Fi connection if you
 intend to watch or download a lot of videos. The edX app has a **Download only
-on Wi-Fi** setting that's enabled by default to help you avoid using your
+on Wi-Fi** setting that is enabled by default to help you avoid using your
 cellular network accidentally.
+
+==================================
+How can I see captions?
+==================================
+
+While a video plays, select **Settings** (the "gear" icon) at the lower right,
+and then select **Closed Captions**. If the video has captions, a list of
+available languages appears. Select the language that you want from the list.
+
+.. image:: /Images/Mob_CCwithLanguages.png
+   :width: 500
+   :alt: Video with closed caption language menu visible.
+
+Some courses have captions in only one language, while others offer several
+language choices.
 
 ========================================================================
 What are the numbers to the right of section and subsection names?
@@ -139,74 +199,114 @@ in that section or subsection.
 
 .. image:: /Images/Mob_NumberVideos.png
    :width: 300
-   :alt: List of sections with the number of videos circled
+   :alt: List of sections with the number of videos circled.
 
 ========================================================
 What are the circles to the left of the video name?
 ========================================================
 
-The circle indicates whether you've watched a video. A blue circle means that
-you haven't started watching the video. A half-filled circle means that you've
-watched part of the video. A gray circle means that you've watched the entire
-video.
+The circle indicates whether you have already played a video. A blue circle
+means that you have not started playing the video. A half-filled circle means
+that you played part of the video. A gray circle means that you played the
+entire video.
 
 ========================================
 How can I make the video full screen?
 ========================================
 
-Rotate your phone until the video changes to landscape, or tap the full screen
-icon in the bottom right corner of the video screen.
+Rotate your phone until the video changes to landscape, or select "full
+screen" in the bottom right corner of the video screen.
 
 .. image:: /Images/Mob_FullScreenIcon.png
    :width: 300
-   :alt: Video in windowed mode with full screen icon circled
-
-==================================
-How can I see captions?
-==================================
-
-When you're playing a video, tap the gear icon in the lower right corner, and
-then tap **Closed Captions**. If the video has captions, a list of available
-languages for the captions appears. Tap the language that you want in the list.
-Some captions are available in just one language, and others are available in
-several languages.
-
-.. image:: /Images/Mob_CCwithLanguages.png
-   :width: 500
-   :alt: Video with closed caption language menu visible
-
-========================================================================================================================================
-If I watch a course video in the mobile app, and then I access the course on a computer, will I be in the same place in the course?
-========================================================================================================================================
-
-Right now, your course activity on the mobile app doesn't affect your course
-activity on your computer. That is, if you use your computer to access the
-course, and then you watch a few videos on your mobile device, the next time you
-access the course with your computer you'll return to the last page that you
-viewed on your computer. You won't go to the last video that you watched on your
-mobile device.
+   :alt: Video with "full screen" icon circled.
 
 ==================================
 Can I speed up the videos?
 ==================================
 
-You can change video speeds on the iPhone app.
+You can change video speeds on the iPhone app. While a video plays, select
+**Settings** (the "gear" icon) at the lower right, and then select **Video
+Speed**.
 
-On the Android app, videos currently run only in their original speeds. We're
+On the Android app, videos currently run only in their original speeds. We are
 working on the ability to change video speeds.
+
+========================================
+How do I change my download settings?
+========================================
+
+#. On the **My Courses** page, select the menu in the upper left corner.
+
+   .. image:: /Images/Mob_Menu.png
+      :width: 300
+      :alt: Mobile "My Courses" page with an arrow pointing to the menu in the
+        upper left corner.
+
+#. Select **My Settings**. 
+
+#. Change the **Wi-Fi only download** setting.
+
+.. note:: By default, the app is set so that it only downloads content, 
+  including videos, if you are on a Wi-Fi network. If you change this setting, 
+  you might exceed the data allowance for your cellular plan.
 
 ==================================
 How do I delete downloaded videos?
 ==================================
+ 
+#. On the **My Courses** page, select the menu in the upper left corner.
 
-#. In the upper left corner of your home page, tap the menu icon, and then tap
-   **My Videos**.
-#. Tap the course that has the video that you want to delete.
-#. At the bottom of the screen, tap **Edit**.
-#. Tap to select the box that appears to the right of the video name, and then
-   tap **Delete** at the bottom of the screen.
-#. In the **Confirm Delete** dialog box, tap **Delete**.
+#. Select **My Videos**.
 
+#. On the **All Videos** page, select the course that has the video that you
+   want to delete. Alternatively, select **Recent Videos**.
+
+#. At the bottom of the list of videos, select **Edit**. A "selection" icon
+   appears next to each video name and at the top of the page.
+
+#. Select the videos that you want to delete. To select all of the videos,
+   select the icon at the top of the page.
+
+#. Select **Delete**.
+
+.. _Notification Questions:
+
+**************************
+Notification Questions
+**************************
+
+=========================================================
+Will I get notified about upcoming due dates and exams?
+=========================================================
+
+Many course teams send notifications to remind you when assignments are due
+or make other announcements. However, each course team decides what to
+announce and when, and whether to send notifications to the mobile app.
+
+========================================================
+Where can I read all of the announcements for my course?
+========================================================
+
+You can use the edX mobile app or a web browser to visit the **Course Info**
+page and read all of the announcements.
+
+==================================================================
+How do I turn off course notifications (or turn them back on)?
+==================================================================
+
+You can turn notifications off, or on, for each of your courses. In the edX
+mobile app, select the course and visit its **Course Info** page to change the
+notification setting.
+
+===========================================================
+Can I turn off notifications for all of my courses at once?
+===========================================================
+
+You can turn off all notifications for the edX mobile app. To change the
+notification setting on an Android smartphone, visit the **App info** page for
+the edX mobile app. On an iPhone, visit **Settings** and then select the edX
+mobile app.
 
 .. _Troubleshooting:
 
@@ -214,14 +314,17 @@ How do I delete downloaded videos?
 Troubleshooting
 *************************
 
-======================================================================================================
-I get a "This video is not available" screen when I try to watch a video. What can I do?
-======================================================================================================
+==========================================================================================
+I see "This video is not available" when I try to watch a video. What can I do?
+==========================================================================================
 
-If you run into problems, make sure you have an Internet connection. If problems
-persist, let us know: go to your **My Courses** page on the app, tap the menu
-icon in the upper left corner, and then tap **Submit Feedback**.
+If you have problems viewing videos, make sure that you have an Internet
+connection and then try to view or download the video again.
+
+If problems persist, let us know. On the **My Courses** page, select the
+"menu" icon, and then select **Submit Feedback**.
 
 
 .. _Google Play: https://play.google.com/store/apps/details?id=org.edx.mobile
 .. _App Store: https://itunes.apple.com/us/app/edx/id945480667?mt=8
+.. _edx.org: https://edx.org
