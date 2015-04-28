@@ -3,6 +3,20 @@ Change Log
 ############
 
 ****************
+May 2015
+****************
+
+.. list-table::
+   :widths: 10 70
+   :header-rows: 1
+
+   * - Date
+     - Change
+   * - 5 May 2015
+     - Updated the :ref:`Student Data` section to include information about
+       the :ref:`learner engagement report<Track Student Activity>`.
+
+****************
 March 2015
 ****************
 
