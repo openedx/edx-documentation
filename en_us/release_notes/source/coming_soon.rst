@@ -15,5 +15,12 @@ A new Student Notes tool allows learners in some courses to highlight and make
 notes about text directly in the courseware. Learners can see individual notes
 in the courseware or all notes together on a new **Notes** tab in the LMS.
 
+*********************
+New Studio Templates
+*********************
+
+New templates for HTML and problem components will soon be available in edX
+Studio. These templates provide updated guidelines and examples, accessibility
+information, and links to documentation.
 
 .. include:: links.rst

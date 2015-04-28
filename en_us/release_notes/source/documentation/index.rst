@@ -4,6 +4,28 @@ edX Documentation
 
 
 ******************
+April 28, 2015
+******************
+
+==================================
+Building and Running an edX Course
+==================================
+
+* Updated the `Working with Video Components`_ section to reflect a field label
+  change.
+
+* Added the `Exploring Your Dashboard Settings and Profile <Exploring Your
+  Dashboard Settings and Profile Course Staff>`_ topic with profile and account
+  settings information.
+
+==================================
+edX Platform APIs
+==================================
+
+* Updated the example responses in the `edX Enrollment API`_ documentation to
+  include new ``enrollment_start`` and ``enrollment_end`` fields.
+
+******************
 April 22, 2015
 ******************
 
