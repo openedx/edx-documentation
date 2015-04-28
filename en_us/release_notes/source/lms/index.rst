@@ -4,6 +4,18 @@ edX Learning Management System
 
 
 ******************
+April 28, 2015
+******************
+
+* Several updates were made in the LMS to support right-to-left languages. In
+  right-to-left languages, the header on the **Course Info page** is now right-
+  justified, courseware errors are properly reversed, and the Due icon is
+  properly aligned. (UX-1632, UX-1634, UX-1724)
+
+* A problem with linking to other units in the same subsection was fixed.
+  (TNL-1844)
+
+******************
 April 22, 2015
 ******************
 

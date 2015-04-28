@@ -420,7 +420,7 @@
 
 .. _edX Data Analytics API Version 0 Alpha: http://edx.readthedocs.org/projects/edx-data-analytics-api/en/latest/index.html
 
-.. _edX Enrollment API: http://edx.readthedocs.org/projects/edx-enrollment-api/en/latest/
+.. _edX Enrollment API: http://edx.readthedocs.org/projects/edx-platform-api/en/latest/enrollment/enrollment.html
 
 .. _Email Opt In Report: http://edx.readthedocs.org/projects/devdata/en/latest/internal_data_formats/institution_data.html#email-opt-in-report
 
@@ -453,3 +453,5 @@
 .. _edX Style Guidelines: http://edx.readthedocs.org/projects/edx-developer-guide/en/latest/style_guides/index.html
 
 .. _Recommender: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/recommenderXBlock.html#recommenderxblock
+
+.. _Exploring Your Dashboard Settings and Profile Course Staff: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/getting_started/dashboard_acctsettings_profile.html
