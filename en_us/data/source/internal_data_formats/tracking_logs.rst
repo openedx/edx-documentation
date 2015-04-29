@@ -415,6 +415,8 @@ outside the Instructor Dashboard.
 
 * :ref:`pdf`
 
+* :ref:`student_notes`
+
 * :ref:`problem`
 
 * :ref:`library_events`
@@ -1831,6 +1833,233 @@ user selects or clears the **Match Case** option for a search.
        
        Blank for successful search strings.
 
+
+.. _student_notes:
+
+=================================
+Student Notes Events   
+=================================
+
+This section includes descriptions of the following events. 
+
+* ``edx.course.student_notes.added``
+* ``edx.course.student_notes.viewed``
+* ``edx.course.student_notes.edited``
+* ``edx.course.student_notes.deleted``
+* ``edx.course.student_notes.searched``
+* ``edx.course.student_notes.used_unit_link``
+
+``edx.course.student_notes.added``
+***********************************
+
+The browser emits ``edx.course.student_notes.added`` events when a learner
+adds a note in courseware.
+
+**Event Source**: Browser
+
+**History**: This event was added in April 2015.
+
+``event`` **Member Fields**: 
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+   * - ``note_id``
+     - string
+     - The ID of the note. 
+   * - ``note_text``
+     - string
+     - The text of the note (truncated at 300 characters).
+   * - ``note_text_truncated``
+     - boolean
+     - Indicates whether the ``note_text`` field is truncated.
+   * - ``highlighted_content``
+     - string  
+     - The course text that the learner highlighted (truncated at 300 characters).
+   * - ``highlighted_content_truncated``
+     - boolean 
+     - Indicates whether the ``highlighted_content`` field is truncated.
+   * - ``component_usage_id``
+     - string  
+     - The ID of the component where the learner added the note.
+
+``edx.course.student_notes.viewed``
+***********************************
+
+The browser emits ``edx.course.student_notes.viewed`` events when a learner
+views notes in courseware.
+
+**Event Source**: Browser
+
+**History**: This event was added in April 2015.
+
+``event`` **Member Fields**: 
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+   * - ``notes``
+     - list
+     - A list of the currently visible notes. Learners can add multiple notes
+       to the same text.
+
+``event.notes`` **Member Fields**: 
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+   * - ``note_id``
+     - string
+     - The ID of the note.
+
+
+``edx.course.student_notes.edited``
+***********************************
+
+The browser emits ``edx.course.student_notes.edited`` events when a learner
+edits a note in courseware.
+
+**Event Source**: Browser
+
+**History**: This event was added in April 2015.
+
+``event`` **Member Fields**: 
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+   * - ``note_id``
+     - string
+     - The ID of the note.
+   * - ``old_note_text``
+     - string
+     - The text of the note before the learner edited it (truncated at 300
+       characters).
+   * - ``old_note_text_truncated``
+     - boolean
+     - Indicates whether the ``old_note_text`` field is truncated.
+   * - ``note_text``
+     - string
+     - Text of the new note (truncated at 300 characters).
+   * - ``note_text_truncated``
+     - boolean 
+     - Indicates whether the ``notes_text`` field is truncated.
+   * - ``highlighted_content``
+     - string  
+     - The course text that the learner highlighted (truncated at 300 characters).
+   * - ``highlighted_content_truncated``
+     - boolean 
+     - Indicates whether the ``highlighted_content`` field is truncated.
+   * - ``component_usage_id``
+     - string  
+     - The ID of the component where the learner added the note.
+
+``edx.course.student_notes.deleted``
+*************************************
+
+The browser emits ``edx.course.student_notes.deleted`` events when a learner
+deletes a note in courseware.
+
+**Event Source**: Browser
+
+**History**: This event was added in April 2015.
+
+``event`` **Member Fields**: 
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+   * - ``note_id``
+     - string
+     - The ID of the note.
+   * - ``note_text``
+     - string
+     - Text of the new note (truncated at 300 characters).
+   * - ``note_text_truncated``
+     - boolean 
+     - Indicates whether the ``notes_text`` field is truncated.
+   * - ``highlighted_content``
+     - string  
+     - The course text that the learner highlighted (truncated at 300 characters).
+   * - ``highlighted_content_truncated``
+     - boolean 
+     - Indicates whether the ``highlighted_content`` field is truncated.
+   * - ``component_usage_id``
+     - string  
+     - The ID of the component where the learner added the note.
+
+``edx.course.student_notes.searched``
+*************************************
+
+The browser emits ``edx.course.student_notes.searched`` events when a learner
+searches notes on the **Student Notes** page.
+
+**Event Source**: Browser
+
+**History**: This event was added in April 2015.
+
+``event`` **Member Fields**: 
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+   * - ``number_of_results``
+     - integer
+     - The number of search results.
+   * - ``search_string``
+     - string
+     - The text of the search query.
+
+``edx.course.student_notes.used_unit_link``
+*************************************
+
+The browser emits ``edx.course.student_notes.used_unit_link`` events when a
+learner clicks the link from a note on the **Student Notes** page to the
+location of the note in the courseware.
+
+**Event Source**: Browser
+
+**History**: This event was added in April 2015.
+
+``event`` **Member Fields**: 
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+   * - ``note_id``
+     - string
+     - The ID of the note.
+   * - ``component_usage_id``
+     - string  
+     - The ID of the component where the learner added the note.
 
 .. _problem:
 
