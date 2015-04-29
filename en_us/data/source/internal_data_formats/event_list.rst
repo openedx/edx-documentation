@@ -52,10 +52,6 @@ Alphabetical Event List
      - :ref:`student_cohort_events`
    * - ``edx.cohort.user_removed``
      - :ref:`student_cohort_events`
-   * - ``edx.librarycontentblock.content.assigned``
-     - :ref:`library_events`
-   * - ``edx.librarycontentblock.content.removed``
-     - :ref:`library_events`
    * - ``edx.course.enrollment.activated``
      - :ref:`enrollment` and :ref:`instructor_enrollment`
    * - ``edx.course.enrollment.deactivated`` 
@@ -66,6 +62,20 @@ Alphabetical Event List
      - :ref:`enrollment`
    * - ``edx.course.enrollment.upgrade.succeeded``
      - :ref:`enrollment`
+   * - ``edx.course.student_notes.added``
+     - :ref:`student_notes`
+   * - ``edx.course.student_notes.deleted``
+     - :ref:`student_notes`
+   * - ``edx.course.student_notes.edited``
+     - :ref:`student_notes`
+   * - ``edx.course.student_notes.notes_page_viewed``
+     - :ref:`student_notes`
+   * - ``edx.course.student_notes.searched``
+     - :ref:`student_notes`
+   * - ``edx.course.student_notes.used_unit_link``
+     - :ref:`student_notes`
+   * - ``edx.course.student_notes.viewed``
+     - :ref:`student_notes`
    * - ``edx.forum.comment.created``
      - :ref:`forum_events`
    * - ``edx.forum.response.created``
@@ -78,6 +88,10 @@ Alphabetical Event List
      - :ref:`content`
    * - ``edx.googlecomponent.document.displayed``
      - :ref:`content`
+   * - ``edx.librarycontentblock.content.assigned``
+     - :ref:`library_events`
+   * - ``edx.librarycontentblock.content.removed``
+     - :ref:`library_events`
    * - ``edx.video.loaded``
      - :ref:`video`, see ``load_video``
    * - ``edx.video.paused``
