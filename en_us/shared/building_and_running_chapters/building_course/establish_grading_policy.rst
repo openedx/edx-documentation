@@ -4,17 +4,13 @@
 Establishing a Grading Policy  
 ##############################
 
-*******************
-Overview
-*******************
-
 Establishing a grading policy takes several steps. You must:
 
 #. :ref:`Set the Grade Range`
 #. :ref:`Set the Grace Period`
 #. :ref:`Configure the Assignment Types`
 #. :ref:`Graded Subsections`
-#. :ref:`The Student View of Grades`
+#. :ref:`The Learner View of Grades`
 
 .. important:: Any changes to the course grading policy, to graded 
  subsections, or to graded components after a course begins will affect the
@@ -34,42 +30,44 @@ To set the grade range, from the **Settings** menu, select **Grading**.
 The control for the grade range is at the top of the Grading page.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/grade_range.png
-  :alt: Image of the Grade Range control
+  :alt: Image of the Grade Range control.
+  :width: 600
 
 The above example shows that you have a pass/fail grade range, with a score of
-50 as the cutoff. This is the default setting used when you create a course.
+50 as the cutoff. This is the default setting for a new course.
 
-You use the grade range control to change these settings:
+You can adjust the grade range as needed.
 
-* To add a grade in the range, click the **+** icon.
+* To add a grade in the range, select the **+** icon.
 
   A new grade is added to the range between the existing grades. For example,
   if you add a grade in the default setting, the grade range changes to **F**
   (0 to 50), **B** (50 to 75), and **A** (75 to 100):
 
   .. image:: ../../../shared/building_and_running_chapters/Images/grade_range_b.png
-    :alt: Image of an altered Grade Range control
+    :alt: Image of an altered Grade Range control.
+    :width: 600
 
 * To change the score range, move the cursor over the line dividing two grades
-  and then click and drag the line left or right.
+  and then select and drag the line left or right.
 
   You can see the range numbers of the two grades adjacent to the line change.
-  Release the mouse button when the line is where you want it.
+  Unselect the line when it is where you want it.
   
-* To change the name of the grade, double-click the current name of the grade
-  to select it, and then start typing the name of the new grade. For example,
-  if the original name of the grade is "Pass", you can double-click "Pass" and
+* To change the name of the grade, select the current name of the grade
+  and start typing the name of the new grade. For example,
+  if the original name of the grade is "Pass", you can select "Pass" and
   then type "Excellent" to replace the name.
 
   You cannot change **F** or **Fail**. 
 
 * To remove a grade, move the cursor so that it is over the grade. 
 
-  A **remove** link appears above the grade. Click the link.
+  A **remove** link appears above the grade. Select the link.
   
   You cannot remove F or A.
   
-After you make any changes to the grade range, you must click **Save Changes**
+After you make any changes to the grade range, you must select **Save Changes**
 at the bottom of the page.
 
 .. _Grade Ranges and Certificates:
@@ -78,7 +76,7 @@ at the bottom of the page.
 Grade Ranges and Certificates
 ==============================
 
-If you plan for your course to offer certificates, note that a student will
+If you plan for your course to offer certificates, note that a learner will
 qualify for a certificate by earning any grade over the F, or Fail, threshold.
 This is true regardless of how many grade levels you add in the grade range.
 
@@ -88,10 +86,11 @@ This is true regardless of how many grade levels you add in the grade range.
 Set the Grace Period 
 *************************
     
-You can set a grace period that extends homework due dates for your students. 
+You can set a grace period that extends homework due dates for your learners. 
 
-.. note:: The grace period applies to the whole course; you cannot set a grace
- period for individual assignments.
+.. note:: 
+ The grace period applies to the whole course; you cannot set a grace period
+ for individual assignments.
   
 In the Grading page, under **Grading Rules & Policies**, enter a value in the
 **Grace Period on Deadline** field. Enter the value in Hours:Minutes format.
@@ -103,15 +102,15 @@ Configure the Assignment Types
 ******************************
 
 You must create assignment types for your course and determine the weight of
-the student's total grade for each assignment type.
+the total grade for each assignment type.
 
-For example, you may have:
+For example, you might have the following assignment types.
 
 * 10 homework assignments, worth a total of 50% of the grade; 
 * A midterm exam, worth a total of 20% of the grade; 
 * A final exam, worth 30% of the grade. 
 
-By default, a new course you create has four assignment types: 
+By default, a new course has the following four assignment types. 
 
 * Homework
 * Lab
@@ -121,27 +120,29 @@ By default, a new course you create has four assignment types:
 You can use these assignment types, modify or remove them, and create new
 assignment types.
 
-To create a new assignment type, in the bottom of the Grading page, click **New
-Assignment Type**, then configure the fields described below.
+To create a new assignment type, in the bottom of the Grading page, select
+**New Assignment Type**, then configure the fields described below.
 
 ==========================
 Assignment Type Fields
 ==========================
-You configure the following fields for each assignment type:
+
+You configure the following fields for each assignment type.
     
 * **Assignment Type Name:** 
   
   The general category of the assignment. This name will be visible to
-  students.
+  learners.
  
-  .. note:: All assignments of a particular type count the same toward the
-   weight of that category. As a result, a homework assignment that contains
-   10 problems is worth the same percentage of a student's grade as a homework
-   assignment that contains 20 problems.
+  .. note:: 
+   All assignments of a particular type count the same toward the weight of
+   that category. As a result, a homework assignment that contains 10 problems
+   is worth the same percentage of a student's grade as a homework assignment
+   that contains 20 problems.
   
 * **Abbreviation:** 
   
-  This is the short name that appears next to an assignment on a student's
+  This is the short name that appears next to an assignment on a learner's
   **Progress** tab.  
 
 * **Weight of Total Grade:** 
@@ -182,11 +183,10 @@ assignment type.
  units within subsections. Additionally, you can designate a subsection as one,
  and only one, of the assignment types you configured.
   
-See :ref:`Developing Course Subsections` for general instructions on
-configuring a subsection.
+For more information, see :ref:`Developing Course Subsections`.
 
-See :ref:`Set the Assignment Type and Due Date for a Subsection` for
-instructions on designating a subsection as a graded assignment.
+For instructions on designating a subsection as a graded assignment, see
+:ref:`Set the Assignment Type and Due Date for a Subsection`.
 
 Within a graded subsection, you create problems of the type designated for that
 subsection. You cannot not mix problems of different assignment types in the
@@ -199,23 +199,23 @@ contain other content as well as the actual homework or lab problems.
 
 .. note:: 
  You can create problems in Studio without specifying that the subsection is an
- assignment type. However, such problems do not count toward a student's grade.
+ assignment type. However, such problems do not count toward a learner's grade.
 
-See :ref:`Working with Problem Components` for instructions on creating
-problems.
+For more information about creating problems, see :ref:`Working with Problem
+Components`.
 
-.. _The Student View of Grades:
+.. _The Learner View of Grades:
 
 **************************
-The Student View of Grades
+The Learner View of Grades
 **************************
 
-After a grading policy is in place, students can view both their problem scores
+After a grading policy is in place, learners can view both their problem scores
 and the percent completed and current grade in the **Progress** tab for the
 course.
   
   .. image:: ../../../shared/building_and_running_chapters/Images/Progress_tab.png
-    :alt: Image of the student Progress tab
+    :alt: Image of the student Progress tab.
 
 Each item in the X axis of the chart is for a graded subsection. Graded
 problems in units are not broken out in the chart; the score from each problem
@@ -225,6 +225,8 @@ Graded subsections are grouped in the chart by assignment type rather than
 listed in chronological order. For example, all homework exercises are grouped
 together, followed by labs, then exams.
 
-.. note:: The **x** for an assignment in the Progress tab indicates that the 
- grade for that assignment is currently dropped. You configure how many
- assignments are dropped when you :ref:`Configure the Assignment Types`.
+.. note:: 
+ The **x** for an assignment in the Progress tab indicates that the grade for
+ that assignment is currently dropped. You configure how many assignments are
+ dropped when you :ref:`configure assignment types <Configure the Assignment
+ Types>`.

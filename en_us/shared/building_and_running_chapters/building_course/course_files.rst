@@ -4,22 +4,12 @@
 Adding Files to a Course
 ###########################
 
-To use images in your course content, or to use other documents such as a
-syllabus, you must upload the files to the **Files & Uploads** page. You can
-then include links to the files you upload in your course content in Studio,
-or in a bulk email message sent from the Instructor Dashboard.
+To use images and other files in your course, you upload the files to your
+course by using Studio, and then you add links to the files in the course
+content. You can also use uploaded files in bulk email messages sent from the
+Instructor Dashboard.
 
-.. note:: 
- Ensure that you obtain copyright permissions for files and images you use in
- your course, and that you cite sources appropriately.
-
-*******************
-Overview
-*******************
-
-You can manage your uploaded course files on the **Files & Uploads** page
-under the **Content** menu in Studio.
-
+* :ref:`File Size`
 * :ref:`Upload a File`
 * :ref:`File URLs`
 * :ref:`Sort Files`
@@ -28,6 +18,24 @@ under the **Content** menu in Studio.
 * :ref:`Lock a File`
 * :ref:`Delete a File`
 
+.. _File Size:
+
+*******************
+File Size
+*******************
+
+The maximum size for an uploaded file is 50 MB.
+
+We recommend that you use standard compression tools to reduce PDF and image
+file sizes before you add the files to your course. If you have to use files
+that are larger than 50 MB after compression, contact your edX program manager.
+
+If you have video or audio files or large data sets to share with your
+students, use YouTube or another hosting service to host these files. Do not
+use the Files & Uploads page to add these files to your course. If you are an
+edX partner and you need to store large data sets, contact your edX program
+manager.
+
 
 .. _Upload a File:
 
@@ -35,51 +43,41 @@ under the **Content** menu in Studio.
 Upload a File
 *******************
  
-You upload the files that you want students to access in the course on the
-**Files & Uploads** page. After you upload a file, the system generates two
-URLs for it. You can use the Studio URL to add a link to the file from a
-component, a course update, or in the course handouts. You can use the Web
-link to add a link to the file from a bulk email message in the LMS. Students
-can see a file only if you create a link to it.
+You upload the files in Studio on the **Files & Uploads** page.
 
-.. note:: When URLs are generated for uploaded files, the file name becomes part
-   of the URL and is visible to students when they access the file. Avoid using
-   file names that contain information about the file contents that should not
-   be shared, for example, Answerkey.pdf.
-
-.. warning::
-   For PDF and image files, edX recommends that you use standard compression
-   tools to reduce the file size before you add them to your course.
-
-   If you have files that are larger than 50 MB after compression and need them
-   for your course, contact your edX program manager.
-
-   Furthermore, do not use the **Files & Uploads** page to add video or
-   audio files or large data sets that are to be used by students. You should
-   use YouTube or another hosting service to host multimedia files for your
-   course. For information about storing large data sets for student use,
-   contact your edX program manager.
+.. note:: 
+ Ensure that you obtain copyright permissions for files and images you upload
+ to your course, and that you cite sources appropriately.
 
 To upload files:
  
-#. From the **Content** menu, select **Files & Uploads**.
-#. Click **Upload New File**.
-#. In the **Upload New File** dialog box, click **Choose File**.
+#. Create or locate the file on your computer.
    
-#. In the **Open** dialog box, select one or more files to upload, then click
+   .. note:: 
+    When URLs are generated for uploaded files, the file name becomes part of
+    the URL and is visible to students when they access the file. Avoid using
+    file names that contain information about the file contents that should not
+    be shared, such as ``Answerkey.pdf``.
+
+#. From the **Content** menu, select **Files & Uploads**.
+
+#. Select **Upload New File**.
+
+#. In the **Upload New File** dialog box, select **Choose File**.
+   
+#. In the **Open** dialog box, select one or more files to upload, then select
    **Open**.
 
    .. note::
-      If you upload a file that has the same name as an existing course file, the
-      original file is overwritten without warning.
+      If you upload a file that has the same name as an existing course file,
+      the original file is overwritten without warning.
 
-5. To upload additional files, click **Load Another File** and repeat the
+#. To upload additional files, select **Load Another File** and repeat the
    previous step.
 
-6. To close the dialog box, click the **X** in the top right corner.
+#. To close the dialog box, select the **X** in the top right corner.
 
 The **Files & Uploads** page refreshes to show the uploaded file.
-
 
 .. _File URLs:
 
@@ -87,28 +85,34 @@ The **Files & Uploads** page refreshes to show the uploaded file.
 Use File URLs to Reference Uploaded Files
 ********************************************
 
-After you upload a file, you can use the URLs listed for it on the **Files and
-Uploads** page. On the **Files & Uploads** page, the **URL** column lists a
-Studio URL and web URL for each file.
+After you upload a file, you can use the URLs listed for it. On the **Files &
+Uploads** page, the **URL** column lists a Studio URL and web URL for each
+file.
 
-* To link to the file or image from within a course (that is, from a component,
-  a course update, or a course handout), use the Studio URL. You cannot use
-  the web URL to link to a file or image from within your course.
+Use the web URL if you want to perform either of the following actions.
+Add a file or image to a bulk email message...
+Provide a link to the file or image from outside the course.
 
-* To provide a link to the file or image from the LMS (such as in a bulk email
-  message), use the web URL.
+* You use the **Studio URL** to add a file or image to a component, a course
+  update, or course handouts. For more information, see :ref:`Add an Image to
+  an HTML Component`. You cannot use the web URL to link to a file or image
+  from within your course.
 
-* To provide a link to the file or image from outside the course, use the web
-  URL.
+* Use the **Web URL** to:
+  
+  * Add a file or image to a bulk email message in the LMS. For more
+    information, see :ref:`Send_Bulk_Email`.
 
+  * To provide a link to the file or image from outside the course.
 
-.. note:: If you lock a file, the web URL no longer works for external access
-   to the file, unless the person accessing the URL is enrolled in and logged in to
-   the course.
+.. note:: 
+  You can lock a file if you do not want anyone outside your course to view the
+  file. When you lock a file, the web URL only allows file access to learners
+  who are signed in to edX and enrolled in the course. For more information,
+  see :ref:`Lock a File`.
 
-To copy a URL from the file list, double click the URL in the **URL** column so
-that the value is selected, then right-click to copy it.
-
+To copy a URL from the file list, select the URL in the **URL** column
+and copy it.
 
 .. _Sort Files:
 
@@ -116,19 +120,16 @@ that the value is selected, then right-click to copy it.
 Sort Files
 *********************
 
-On the **Files & Uploads** page, by default, files are sorted by the **Date
-Added** column, with the most recently added files at the top.
+On the **Files & Uploads** page, you can sort your files by any column that has
+a blue column header. For example, to sort the list by name, select the
+**Name** column header.
 
-You can sort your files by any column that has a blue column header. For
-example, to sort the list by name, click the **Name** column header.
+Change the sort order by selecting a sortable column header. The direction of
+the arrow in the column header indicates whether the order is ascending or
+descending. Each time you select the column header, the sort order reverses.
 
-Change the sort order by clicking a sortable column header. The direction of the
-arrow in the column header indicates whether the order is ascending or
-descending. Each time you click the column header, the sort order reverses.
-
-The current sort order is shown at the top of the file list, and the active sort
-column header is underlined.
-
+The current sort order is shown at the top of the file list, and the active
+sort column header is underlined.
 
 .. _Filter Files:
 
@@ -136,9 +137,8 @@ column header is underlined.
 Filter Files
 *********************
 
-You can filter the list of files by type so that only a selected type of file is
-visible. The list remains in the current sort order.
-
+You can filter the list of files by type so that only a selected type of file
+is visible. The list remains in the current sort order.
 
 .. list-table::
    :widths: 10 20
@@ -148,24 +148,22 @@ visible. The list remains in the current sort order.
    * - Images
      - .gif, .ico, .jpg, .jpeg, .png, .tif, or .tiff
    * - Documents 
-     - .pdf, .txt, Microsoft Office and Open Office documents, presentations, or
-       spreadsheets
+     - .pdf, .txt, Microsoft Office and Open Office documents, presentations,
+       or spreadsheets
    * - Other
      - Files not included in the other types, such as .html, .js, or .sjson
 
-
 To filter the list of files by type:
  
-#. On the **Files & Uploads** page, click the **Type** column header.
+#. On the **Files & Uploads** page, select the **Type** column header.
 
-#. In the dropdown list, select the type of file that you want to view. 
+#. In the drop-down list, select the type of file that you want to view. 
 
 The list refreshes to show only the type of file you selected, and the column
 header changes to reflect the type of file that you have filtered by.
 
-To reset the list and view files of all types, click **Show All** in the **Type**
-dropdown list.
-
+To reset the list and view files of all types, select **Show All** in the
+**Type** drop-down list.
 
 .. _Find Files:
 
@@ -173,25 +171,24 @@ dropdown list.
 Find Files
 *******************
 
-The **Files & Uploads** page lists up to 50 files.  If your course has more than
-50 files, additional files are listed on other pages.
+The **Files & Uploads** page lists up to 50 files.  If your course has more
+than 50 files, additional files are listed on other pages.
 
 The range of the files listed on the page, and the total number of files, are
 shown at the top of the page.
 
-You can navigate through the pages in these ways:
+You can navigate through the pages in these ways.
 
-* Use the **<** and **>** buttons at the top and bottom of the list to navigate
-  to the previous and next pages.
+* Select the **<** and **>** buttons at the top and bottom of the list to
+  navigate to the previous and next pages.
 
 * At the bottom of the page, you can edit the first number in the page range.
-  Click the number to place your cursor in the field, then enter the page number
-  you want to jump to.
+  Select the number to place your cursor in the field, then enter the page
+  number you want to jump to.
 
   .. image:: ../../../shared/building_and_running_chapters/Images/file_pagination.png
-   :alt: Image showing the pair of page numbers at the bottom of the Files and
-         Uploads pages with the first number in editable mode and circled
-
+   :width: 250
+   :alt: Image showing page navigation on the Files & Uploads page.
 
 .. _Lock a File:
  
@@ -199,16 +196,13 @@ You can navigate through the pages in these ways:
 Lock a File
 *******************
 
-By default, anyone can access a file you upload if they know the URL, even
-people not enrolled in your class.
+By default, anyone can access a file you upload if they know the web URL, even
+if they are not enrolled in your course. You can prevent outside access to a
+file by locking the file. When you lock a file, the web URL only allows
+learners who are enrolled in your course and signed in to edX to access the
+file.
 
-To ensure that those not in your class cannot view the file, click the lock
-icon.
-
-.. note:: If you lock a file, the web URL no longer works for external access
-   to the file, unless the person accessing the URL is enrolled in and logged in to
-   the course.
- 
+To lock a file, select the lock icon in the right column. 
 
 .. _Delete a File:
 
@@ -216,10 +210,10 @@ icon.
 Delete a File
 *******************
 
-To delete a file, click the **x** icon next to the file.  You are prompted to
-confirm the deletion.
+To delete a file, select the **x** icon in the row for file.  You are prompted
+to confirm the deletion.
 
-.. warning:: If you delete a file that has been linked from a course component,
-   those links will be broken. Before deleting files that are used in a course,
-   make sure you update the links to those files in the course.
+.. warning:: 
+  After you delete a file, links to the file from course content will be
+  broken. You must update links to files that you need to delete.
  

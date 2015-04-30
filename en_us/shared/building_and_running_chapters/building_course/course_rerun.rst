@@ -9,6 +9,16 @@ you select the course re-run option, most, but not all, of the original course
 content is duplicated to the new course. The original course is not changed in
 any way.
 
+* :ref:`Data Duplicated When You Re-Run a Course`
+* :ref:`Use Re-Run to Create a Course`
+* :ref:`Update the New Course`
+
+.. _Data Duplicated When You Re-Run a Course:
+
+********************************************
+Data Duplicated When You Re-Run a Course
+********************************************
+
 .. list-table::
    :widths: 45 45
    :header-rows: 1
@@ -18,7 +28,7 @@ any way.
    * - Course start date
      - No. Set to midnight on January 1, 2030 (UTC).
    * - All other course dates
-     - Yes. You will need to update all release dates and due dates.
+     - Yes. You must update all release dates and due dates.
    * - Course structure (sections, subsections, units) and state (published,
        hidden)
      - Yes. 
@@ -55,16 +65,15 @@ course are independent. Changes to either course are not propagated to the
 other course. Therefore, you should ensure that the original course content is
 as complete as possible before you re-run the course.
 
-See :ref:`Use Re-Run to Create a Course<Use ReRun to Create a Course>` and
-:ref:`Update the New Course`.
+For more information, see :ref:`Use Re-Run to Create a Course` and :ref:`Update the New Course`.
 
-.. _Use ReRun to Create a Course:
+.. _Use Re-Run to Create a Course:
 
 ********************************************
 Use Re-Run to Create a Course
 ********************************************
 
-Before you re-run a course:
+Before you re-run a course, complete the following steps.
 
 * For a course that is hosted on the `edge.edx.org`_ site, verify that you have
   permission to create courses in Studio. See :ref:`Use Studio on Edge`.
@@ -92,14 +101,16 @@ To re-run a course:
   .. image:: ../../../shared/building_and_running_chapters/Images/Rerun_link.png
      :alt: A course listed on the dashboard with the Re-run Course and View 
            Live options shown 
+     :width: 600
 
-3. Locate the course you want to re-run and click **Re-Run Course**. The
+3. Locate the course you want to re-run and select **Re-Run Course**. The
    **Create a re-run of a course** page opens with values already supplied in
    the **Course Name**, **Organization**, and **Course Number** fields.
 
   .. image:: ../../../shared/building_and_running_chapters/Images/rerun_course_info.png
      :alt: The course creation page for a rerun, with the course name, 
-           organization, and course number supplied
+           organization, and course number supplied.
+     :width: 600
 
 4. Supply a **Course Run** to indicate when the new course will be offered. 
    
@@ -109,7 +120,7 @@ To re-run a course:
    characters used for the name, organization, number, and run must be 65 or
    fewer.
 
-5. Click **Create Re-Run**. Your **My Courses** dashboard opens with a status
+5. Select **Create Re-Run**. Your **My Courses** dashboard opens with a status
    message about the course creation process.
 
    Duplication of the course structure and content takes several minutes. You
@@ -123,21 +134,20 @@ To re-run a course:
 Update the New Course
 ********************************************
 
-When you create a course by re-running another course, you should carefully
+When you create a course by re-running another course, you must carefully
 review the settings and content of the new course. To assure a quality
-experience for students, be sure to test the course thoroughly before the
+experience for learners, be sure to test the course thoroughly before the
 course start date. See :ref:`Testing Your Course Content` and
 :ref:`Beta_Testing`.
 
-At a minimum, you will need to make these changes to prepare the new course for
-release:
+At a minimum, you must make the following changes to prepare the new
+course for release.
 
 * Add course staff members, including discussion admins, moderators, and
-  community TAs. See :ref:`Add Course Team Members` or
-  :ref:`Course_Staffing`.
+  community TAs. See :ref:`Add Course Team Members` or :ref:`Course_Staffing`.
   
 * Update course-wide dates, including course and enrollment start and end
-  dates. See :ref:`Set Important Dates for Your Course`.
+  dates. See :ref:`Scheduling Your Course`.
 
 * Change the release dates of course sections, subsections, and units. See
   :ref:`Release Dates`.
@@ -149,11 +159,12 @@ release:
   a Course Update`.
 
 * Review the files on the **Files & Uploads** page. To update a file that
-  contains references to course-related dates, you will need to:
+  contains references to course-related dates, you must complete the
+  following steps.
   
-  #. Locate the source file.
-  #. Change course-related dates in the file.
-  #. Upload the revised version of the file.
+  1. Locate the source file.
+  2. Change course-related dates in the file.
+  3. Upload the revised version of the file.
   
   .. note:: If you use the same file name when you upload a revised file, 
    links to that file in course components and course handouts will continue to
@@ -162,7 +173,7 @@ release:
    or :ref:`Add a Link to a File`.
 
 * Review the staff biographies and other information on the course summary
-  page and make needed updates. See :ref:`The Course Summary Page`.
+  page and make needed updates. See :ref:`The Course About Page`.
 
 * Create initial posts for discussion topics and an "introduce yourself"
   post. See :ref:`Discussions`.
@@ -171,7 +182,7 @@ release:
   
 You can use the :ref:`course checklists<Use the Course Checklist>` to work
 through the course and verify that it is ready for release. You can also refer
-to the :ref:`Launch` chapter for tools and ideas that help you prepare the
+to the :ref:`Launch` topic for tools and ideas that help you prepare the
 course for launch.
 
 .. note:: 

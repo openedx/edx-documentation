@@ -451,7 +451,7 @@ Hide a Unit from Students
 You can prevent students from seeing a unit regardless of the unit status or
 the release schedules of the section and subsection. 
 
-For more information, see :ref:`Controlling Content Visibility`.
+For more information, see :ref:`Content Hidden from Students`.
 
 You can hide a unit from students using the course outline or the unit page.
 

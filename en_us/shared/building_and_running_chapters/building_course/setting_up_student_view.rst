@@ -1,217 +1,55 @@
-.. _Setting up the Student View:
+.. _Setting Details About Your Course:
 
 ######################################################
-Setting up the Student View
+Setting Details About Your Course
 ######################################################
 
+This topic describes how to set details about your course in Studio. The
+details you set affect the information learners see on their dashboards. For
+more information, see :ref:`SFD Dashboard Settings Profile`.
 
-*******************
-Overview
-*******************
+* `The Course About Page`_
+* `The Learner Dashboard`_
+* `Describe Your Course`_
+* `Add a Course Image`_
+* `Add a Course Video`_
+* `Set Course Effort Expectations`_
+* `A Template For Your Course Overview`_
 
-This chapter describes how you set up your course to be displayed in the course
-summary page and in a student's **Current Courses** dashboard. The information
-you configure for your course is important for prospective and current students
-to understand.
+For information about setting important dates, see :ref:`Scheduling Your
+Course`.
 
-See:
-
-* :ref:`The Course Summary Page`
-* :ref:`The Student Dashboard`
-* :ref:`Set Important Dates for Your Course`
-* :ref:`The Course Start Date`
-* :ref:`Set the Advertised Start Date`
-* :ref:`The Course End Date`
-* :ref:`Describe Your Course`
-* :ref:`Add a Course Image`
-* :ref:`Add a Course Video`
-* :ref:`Set Course Requirements`
-* :ref:`A Template For Course Overview`
-
-
-.. _Edge: http://edge.edx.org
-.. _edX.org: http://edx.org
-
-.. _The Course Summary Page:
+.. _The Course About Page:
 
 ***********************************
-The Course Summary Page
+The Course About Page
 ***********************************
 
-The following image shows an example course summary page.  Students can see the
-course summary page before they enroll in the course, and may decide to enroll
-based on the content of the page. You configure the contents of this page in
-Studio, as described in this chapter:
+The following example shows the course About page. Learners can see the
+About page before they enroll in the course, and may decide to enroll
+based on the content of the page. 
 
 .. image:: ../../../shared/building_and_running_chapters/Images/about_page.png
- :alt: An image of the course summary page.
-
-.. _The Student Dashboard:
-
-***********************************
-The Student Dashboard
-***********************************
-
-If a student enrolls in your course, the course is then listed on the **Current
-Courses** dashboard, with the course image.  From the dashboard, a student can
-open a course that has started. If the course has not started, the student can
-see the start date, as explained in this chapter.
-
-.. image:: ../../../shared/building_and_running_chapters/Images/dashboard.png
- :alt: An image of the dashboard
-
-.. _Set Important Dates for Your Course:
-
-***********************************
-Set Important Dates for Your Course
-***********************************
-
-You must set dates and times for enrollment and for the course.
-
-In Studio, from the **Settings** menu, select **Schedule and Details**.  
-
-.. image:: ../../../shared/building_and_running_chapters/Images/schedule.png
-  :alt: An image of the course schedule page.
-
-Follow the on-screen text to enter the course and enrollment schedule.
-
-EdX recommends that you check that all important dates are correct one week
-before you plan to start the course.
-
-.. note:: 
- The Time fields on this page, and the times that students see, use UTC
- (Universal Coordinated Time)
-
-.. _The Course Start Date:
-
-***********************************
-The Course Start Date
-***********************************
-
-.. note:: The default course start date is set far into the future, to
- **01/01/2030**. This is to ensure that your course does not start before
- you intend it to. You must change the course start date to the date you want
- students to begin using the course.
-
-Students see the course start date and time on their **Current Courses**
-dashboards and on the course About page (sometimes also called the course
-summary page). Students can see some parts of the course before the course
-start date. For example, students can see your **Course Info** page and course-
-wide discussion topics as soon as they enroll in your course. For more
-information about course-wide discussion topics, see :ref:`Create CourseWide
-Discussion Topics`.
-
-EdX recommends that you set the start time of your course to early in the day,
-generally 12:00 UTC or earlier. Learners often expect the course to be
-available on the start date in their own time zones and try to access course
-content during the day.
-
-The following example shows the course start date and time on the course
-summary page:
-
-.. image:: ../../../shared/building_and_running_chapters/Images/about-page-course-start.png
- :alt: An image of the course About page, with the start date circled.
-
-.. note:: 
- For courses on edX.org_, you must communicate the course start date and time
- to your edX program manager to ensure the date is accurate on the course
- About page.
-
-In the dashboard, students see the start dates and times for each of their
-courses, as in the following examples.
-
-.. image:: ../../../shared/building_and_running_chapters/Images/dashboard-course-to-start.png
+ :alt: An image of the course About page.
  :width: 600
- :alt: An image of two courses in the student dashboard, with the start dates and times circled.
 
-.. note:: If you do not specify a start time for your course, students see
-   the default start time, 00:00 Coordinated Universal Time (UTC).
+You configure the contents of this page in Studio, as described in this topic.
 
-
-
-
-.. _Set the Advertised Start Date:
+.. _The Learner Dashboard:
 
 ***********************************
-Set the Advertised Start Date
+The Learner Dashboard
 ***********************************
 
-You can set an advertised start date for your course that is different than the
-course start date you set in the **Schedule and Details** page. You may want to
-do this if there is uncertainty about the exact start date. For example, you
-could advertise the start date as **Spring, 2014**.
+If a learner enrolls in your course, the course is then listed on the **Current
+Courses** dashboard, with the course image. From the dashboard, a learner can
+open a course that has started. If the course has not started, the learner can
+see the start date, as explained in :ref:`Scheduling Your Course`.
 
-To set an advertised start date:
-
-#. From the **Settings** menu, select **Advanced Settings**.
-#. Find the **Course Advertised Start Date** policy key. The default value is
-   **null**.
-#. Enter the value you want to display as the advertised start date. You can
-   use any string, enclosed in double quotation marks. If you format the string
-   as a date (for example, as 02/01/2014), the value is parsed and presented to
-   students as a date.
-
-  .. image:: ../../../shared/building_and_running_chapters/Images/advertised_start.png
-   :alt: Image of the advertised start date policy key with a value of "anytime, self-paced"
-
-4. Click **Save Changes** at the bottom of the page.
-
-The start date shown on the dashboard is now the value of the **Course
-Advertised Start Date** policy key:
-
-.. image:: ../../../shared/building_and_running_chapters/Images/dashboard-course_adver_start.png
- :alt: An image of a course listing in the student dashboard, with the
-     advertised start date circled.
-
-If you do not change the default course start date (01/01/2030), and the
-**Course Advertised Start Date** policy value is ``null``, then the student
-dashboard does not list a start date for the course. Students just see that
-the course has not yet started.
-
-.. _The Course End Date:
-
-***********************************
-The Course End Date
-***********************************
-
-The course end date is the date after which students can no longer earn credit
-toward certificates. Students who have earned certificates can view them after
-the course end date.
-
-.. important::
- If you do not set a course end date, students will not be able to access
- earned certificates.
-
-.. note:: 
- For courses on edX.org_, you must communicate the course end date to
- your edX Program Manager, to ensure the date is accurate on the course
- summary page.
-
-After grades and certificates are finalized, students see the course end date
-on their personal **Current Courses** dashboards, as shown in the following
-examples.
-
-* If grades and certificates are not yet finalized, students can see the course
-  end date and a message:
-
-  .. image:: ../../../shared/building_and_running_chapters/Images/dashboard-wrapping-course.png
-   :alt: Image of a course on the student dashboard that has ended, but not
-     been graded
-
-* When grades and certificates are finalized, students who have not earned a
-  certificate see their score and the score required to earn a certificate:
-  
-  .. image:: ../../../shared/building_and_running_chapters/Images/dashboard-no-cert-course.png
-   :alt: Image of a course on the student dashboard that has ended, but not
-     been graded
-
-* Students whose final score is equal to or higher than the required score can
-  click **Download Certificate** to get their certificates as PDFs:
-
-  .. image:: ../../../shared/building_and_running_chapters/Images/dashboard-completed-course.png
-   :alt: Image of a course on the student dashboard that has ended, but not
-     been graded
-
+.. image:: ../../../shared/building_and_running_chapters/Images/dashboard-course-start-and-end.png
+ :width: 600
+ :alt: An image of two courses in the dashboard, with the start dates and
+     times.
 
 .. _Describe Your Course:
 
@@ -219,34 +57,38 @@ examples.
 Describe Your Course
 ************************
 
-On Edge_, students that you explicitly invite see the description of your course
-on the course summary page.
+Learners see the description of your course on the course About page.
 
-For example, the course description is circled in the following course summary
-page:
+For example, the course description is circled in the following course About
+page.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/about-page-course-description.png
- :alt: Image of a course summary with the description circled
+ :alt: Image of a course summary with the description circled.
+ :width: 600
 
-.. note:: For courses on edX.org_, you must communicate the course description
+.. note:: For courses on edX.org, you must communicate the course description
  to your edX Program Manager, to ensure the content is accurate on the course
- summary page.
+ About page.
 
 #. From the **Settings** menu, select **Schedule & Details**.
+
 #. Scroll down to the **Introducing Your Course** section, then locate the
    **Course Overview** field.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/course_overview.png
-  :alt: Image of the HTML course description.
+   .. image:: ../../../shared/building_and_running_chapters/Images/course_overview.png
+    :alt: Image of the HTML course description.
+    :width: 600
 
-3. Overwrite the content as needed for your course, following the directions in
+#. Overwrite the content as needed for your course, following the directions in
    the boilerplate text. Do not edit HTML tags. For a template that includes
    placeholders, see :ref:`A Template For Course Overview`.
-
-   .. note:: There is no save button. Studio automatically saves your changes.
  
-4. Click **your course summary page** in the text beneath the field to test how
-   the description will appear to students.
+#. Select **your course summary page** in the text beneath the field to test
+   how the description will appear to learners.
+
+#. When you make changes, a **Save Changes** button appears at the bottom right
+   of the page. Select **Save Changes** when you have completed the course
+   description.
 
 .. _Add a Course Image:
 
@@ -254,49 +96,52 @@ page:
 Add a Course Image
 ************************
 
-The course image that you add in Studio appears on the student dashboard. It
-should be a minimum of 378 pixels in width by 225 pixels in height, and in .jpg
-or .png format. Make sure the image that you upload maintains the aspect ratio
-of those dimensions so that the image appears correctly on the student
-dashboard.
+The course image that you add in Studio appears on the dashboard. It should be
+a minimum of 378 pixels in width by 225 pixels in height, and in .jpg or .png
+format. Make sure the image that you upload maintains the aspect ratio of those
+dimensions so that the image appears correctly on the dashboard.
 
 In the following example, the course image that was added in Studio is circled
-in the student dashboard.
+in the dashboard.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/dashboard-course-image.png
- :alt: Image of the course image in the student dashboard
-
+ :alt: Image of the course image in the dashboard.
+ :width: 600
 
 #. From the **Settings** menu, select **Schedule & Details**.
+
 #. Scroll down to the **Course Image** section.
+
 #. To select an image from your computer, click **Upload Course Image**, then
    follow the prompts to find and upload your image.
-#. View your dashboard to test how the image will appear to students.
 
-.. note:: On edX.org_, the course image you add in Studio is used on the student
-   dashboard, but does not automatically appear on the course About page. Work
-   directly with your edX program manager to set up the About page assets and
-   course image for the course summary page.
+#. When you make changes, a **Save Changes** button appears at the bottom right
+   of the page. Select **Save Changes** when you have added the course image.
+
+#. View your dashboard to test how the image will appear to learners.
+
+.. note:: 
+  On edX.org, the course image you add in Studio is used on the learner
+  dashboard, but does not automatically appear on the course About page. Work
+  directly with your edX program manager to set up the About page assets and
+  course image for the course summary page.
 
 .. _Add a Course Video:
 
 *********************************
-Add a Course Introduction Video
+Add a Course Video
 *********************************
 
-On Edge_, the course introduction video appears on the course summary page that
-students see.
+The course video appears on the course About page.
 
-.. note:: On edX.org_, you work directly with your Program Manager to set up the
- course video in the summary page.
-
-In the following example, the course video is circled in the course summary
+In the following example, the course video is circled in the course About
 page:
 
 .. image:: ../../../shared/building_and_running_chapters/Images/about-page-course-video.png
  :alt: Image of the course video in the course summary page.
+ :width: 600
 
-The course video should excite and entice potential students to enroll, and
+The course video should excite and entice potential learners to enroll, and
 reveal some of the personality the instructors bring to the course.
 
 The video should answer these key questions:
@@ -312,35 +157,53 @@ time of less than 2 minutes.
 Ensure your course introduction video follows the same :ref:`Compression
 Specifications` and :ref:`Video Formats` guidelines as course content videos.
 
-To add a course introduction video:
-
-
 #. Upload the course video to YouTube. Make note of the code that appears
    between **watch?v =** and **&feature** in the URL. This code appears in the
    green box below.
 
-  .. image:: ../../../shared/building_and_running_chapters/Images/image127.png
-    :alt: Image of a sample course video
+   .. image:: ../../../shared/building_and_running_chapters/Images/image127.png
+    :alt: Image of a sample course video.
     
-2. From the **Settings** menu, select **Schedule & Details**.
+#. From the **Settings** menu, select **Schedule & Details**.
+
 #. Scroll down to the **Course Introduction Video** section.
+
 #. In the field below the video box, enter the YouTube video ID (the code you
    copied in step 1). When you add the code, the video automatically loads in
-   the video box. Studio automatically saves your changes.
-#. View your course summary page to test how the video will appear to students.
+   the video box.
 
-.. _Set Course Requirements:
+#. When you make changes, a **Save Changes** button appears at the bottom right
+   of the page. Select **Save Changes** when you have added the course video.
 
-************************
-Set Course Requirements
-************************
-The estimated Effort per Week appears at the bottom of the course summary page.
+#. View your course About page to test how the video will appear to learners.
+
+.. note:: 
+  On edX.org, you work directly with your Program Manager to set up the course
+  video in the summary page.
+
+.. _Set Course Effort Expectations:
+
+*******************************
+Set Course Effort Expectations
+*******************************
+
+The estimated effort the course requires appears in the course About page. 
+
+You set the hours and minutes a week estimate in Studio.
 
 #. From the **Settings** menu, select **Schedule & Details**.
+
 #. Scroll down to the **Requirements** section.
+
 #. In the **Hours of Effort per Week** field, enter the number of hours you
-   expect students to work on this course each week.
-#. View your course summary page to test how the requirements will appear to students.
+   expect learners to work on this course each week.
+
+#. When you make changes, a **Save Changes** button appears at the bottom right
+   of the page. Select **Save Changes** when you have added the estimated
+   effort.
+
+#. View your course About page to test how the requirements will appear to
+   learners.
 
 .. _A Template For Course Overview:
 
@@ -348,39 +211,39 @@ The estimated Effort per Week appears at the bottom of the course summary page.
  A Template For Your Course Overview
 ************************************************
 
-  
 Replace the placeholders in the following template with your information.
 
 .. code-block:: html
 
   <section class="about">
     <h2>About This Course</h2>
-    <p>Include your long course description here. The long course description
-      should contain 150-400 words.</p>
-    <p>This is paragraph 2 of the long course description. Add more paragraphs
-      as needed. Make sure to enclose them in paragraph tags.</p>
-  <section>
+    <p>Include your long course description here. The long course description 
+    should contain 150-400 words.</p>
+    <p>This is paragraph 2 of the long course description. Add more paragraphs 
+    as needed. Make sure to enclose them in paragraph tags.</p>
+  </section>
   <section class="prerequisites">
-    <h2>Prerequisites</h2>
-    <p>Add information about class prerequisites here.</p>
+    <h2>Requirements</h2>
+    <p>Add information about the skills and knowledge students need to take 
+    this course.</p>
   </section>
   <section class="course-staff">
     <h2>Course Staff</h2>
     <article class="teacher">
       <div class="teacher-image">
-        <!-- Replace the path below with the path to your faculty image. -->
-        <img src="/c4x/edX/edX101/asset/Placeholder_FacultyImage.jpg"
-          align="left" style="margin:0 20 px 0"/>
+        <img src="/static/images/placeholder-faculty.png" align="left" 
+        style="margin:0 20 px 0" alt="Course Staff Image #1">
       </div>
-      <h3>Staff Member</h3>
-      <p>Biography of instructor/staff member</p>
+      <h3>Staff Member #1</h3>
+      <p>Biography of instructor/staff member #1</p>
     </article>
-  <article class="teacher">
+    <article class="teacher">
       <div class="teacher-image">
-        <img src="/c4x/edX/edX101/asset/Placeholder_FalcutyImage.jpg"/>
+        <img src="/static/images/placeholder-faculty.png" align="left" 
+        style="margin:0 20 px 0" alt="Course Staff Image #2">
       </div>
-      <h3>Staff Member Name</h3>
-      <p>Biography of instructor/staff member</p>
+      <h3>Staff Member #2</h3>
+      <p>Biography of instructor/staff member #2</p>
     </article>
   </section>
   <section class="faq">
@@ -388,21 +251,15 @@ Replace the placeholders in the following template with your information.
       <h2>Frequently Asked Questions</h2>
       <article class="response">
         <h3>Do I need to buy a textbook?</h3>
-        <p>No, a free online version of Chemistry: Principles, Patterns, and
-          Applications, First Edition by Bruce Averill and Patricia Eldredge
-          will be available, though you can purchase a printed version
-          (published by FlatWorld Knowledge) if you'd like.</p>
+        <p>No, a free online version of Chemistry: Principles, Patterns, and 
+        Applications, First Edition by Bruce Averill and Patricia Eldredge 
+        will be available, though you can purchase a printed version (
+        published by FlatWorld Knowledge) if you’d like.</p>
       </article>
       <article class="response">
-        <h3>Question 2?</h3>
-        <p>Answer 2.</p>
+        <h3>Question #2</h3>
+        <p>Your answer would be displayed here.</p>
       </article>
     </section>
   </section>
 
-  <!--Paragraph: <p>CONTENT GOES IN HERE</p> -->
-  <!--Line break: <br/> -->
-  <!--Hyperlink: <a href="URL">LINK TEXT</a> -->
-  <!--Email hyperlink: <a href="mailto:EMAIL@ADDRESS.COM">LINK TEXT</a> -->
-  <!--Bold text: <b>TEXT</b> -->
-  <!--Italic text: <i>TEXT</i> -->

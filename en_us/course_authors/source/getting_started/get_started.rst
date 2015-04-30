@@ -4,11 +4,7 @@
 Getting Started with Studio
 ###########################
 
-***************
-Overview
-***************
-
-This section describes the tools you use to build an edX course, and how to
+This topic describes the tools you use to build an edX course, and how to
 create your first course.
 
 * :ref:`What is Studio?`
@@ -36,7 +32,6 @@ policies, publish your course, and more.
 
 You use Studio directly through your browser. You do not need any additional
 software.
-
 
 .. _Use Studio on Edge:
 
@@ -74,48 +69,12 @@ You see the following page, which is your **My Courses** dashboard:
 
 .. image:: ../../../shared/building_and_running_chapters/Images/first_course.png
  :width: 600
- :alt: The Studio home page where you create your first course
+ :alt: The Studio home page where you create your first course.
 
-#. Select **Create Your First Course**.
-#. Enter course information as applicable and select **Create**.
+Select **Create Your First Course** and follow instructions in ths
+:ref:`Creating a New Course` section.
 
-  .. image:: ../../../shared/building_and_running_chapters/Images/new_course_info.png
-   :width: 600
-   :alt: The Create New Course page
-
-  .. note::  
-    Enter new course information carefully. This information becomes part of
-    the URL for your course. To change the URL after the course is created, you
-    must contact edX through the Help site (http://help.edge.edx.org).
-    Additionally, because this information becomes part of your course URL, the
-    total number of characters in the following three fields must be 65 or
-    fewer.
-
-  * For **Course Name**, enter the title of your course. For example, the name
-    might be “Sets, Maps and Symmetry Groups". Use title capitalization for the
-    course title.
-
-  * For **Organization**, enter the name of your organization. Do not include
-    whitespace or special characters.
-
-  * For **Course Number**, enter both a subject abbreviation and a number. For
-    example, for public health course number 207, enter **PH207**. For math
-    course 101x, enter **Math101x**. Do not include whitespace or special
-    characters in the course number.
-
-    .. note:: 
-      If your course will be open to the world, be sure to include the "x". If
-      it is exclusively an on-campus offering, do not include the "x".*
-
-3. Select **Save**.
-
-Your new course opens to the **Course Outline** page. Because you have not yet
-created any content, this page is empty.
-
-In your browser’s address bar, notice that the URL of your course includes the
-course organization, number, and course run.
-
-You can now view your empty course on Edge.
+When you've created the course, you can view it on Edge.
   
 .. _View Your Course on Edge:
     
@@ -134,7 +93,7 @@ just created listed on your **My Courses** dashboard:
 
 .. image:: ../../../shared/building_and_running_chapters/Images/new_course.png
  :width: 600
- :alt: The Edge Dashboard
+ :alt: The Edge Dashboard.
 
 You can view the course and see that there is no content yet.
 

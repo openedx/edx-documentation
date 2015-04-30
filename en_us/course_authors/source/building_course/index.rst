@@ -4,15 +4,16 @@
 Setting up Your Course
 ##########################
 
-Use the chapters in this section to create and build your course.
+Use the topics in this section to create and build your course.
 
-For information on how to develop your course content in the Studio Outline
-page, see :ref:`Developing Your Course Index`.
+For information on how to develop your course content in the Studio Outline,
+see :ref:`Developing Your Course Index`.
 
 .. toctree::
    :maxdepth: 2
 
    creating_new_course
+   scheduling_course
    setting_up_student_view
    course_files
    handouts_updates

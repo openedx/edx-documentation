@@ -8,10 +8,10 @@ To launch a course, you prepare the course itself, the staff, and the
 students. This chapter includes a :ref:`Course Launch Checklist` to use as a
 model for your schedule of activities.
 
-To help you communicate to the course staff or to all course participants before
-the course launches and while it is running, you can send email messages from
-the Instructor Dashboard. See :ref:`Bulk Email`. The chapter on bulk email also
-includes a set of :ref:`example messages to students<Example Messages to
+To help you communicate to the course staff or to all course participants
+before the course launches and while it is running, you can send email messages
+from the Instructor Dashboard. See :ref:`Bulk Email`. The chapter on bulk email
+also includes a set of :ref:`example messages to students<Example Messages to
 Students>` that you can use as guidelines when you write your own email
 messages.
 
@@ -28,8 +28,8 @@ starts follow.
 
 **Verify Course Settings**
 
-* Check the course start date and time in Studio. See :ref:`Set Important
-  Dates for Your Course`.
+* Check the course start date and time in Studio. See :ref:`Scheduling Your
+  Course`.
 * Review the grading policy, and set a grace period for homework assignment
   due dates. See :ref:`Establish a Grading Policy`.
 * Confirm that any optional features that you want your course to include, such

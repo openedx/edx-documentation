@@ -37,10 +37,13 @@ and purpose are different.
 * EdX Edge is edX's more private site. Courses on Edge are not published on
   edX.org. Any member of a partner course team can create and publish courses,
   including test courses, on Edge without receiving approval from edX or a
-  partner institution. However, Edge does not have a course catalog, and
-  courses cannot be found through search engines such as Google. Only learners
-  whom you explicitly invite or who have the URL for your course can
-  participate in your course on Edge.
+  partner institution. 
+
+  However, Edge does not have a course catalog, and courses cannot be found
+  through search engines such as Google. Only learners whom you explicitly
+  invite or who have the URL for your course can participate in your course on
+  Edge. Note that you can invite an unlimited number of learners to participate
+  in an Edge course.
 
   EdX Edge also hosts small private online courses (SPOCs).
 
@@ -87,7 +90,9 @@ To get started, you create, or *register*, an account on edX.org or Edge.
    Complete" page that contains a link to your dashboard.
 
 You can modify your account information and reset your password from the
-:ref:`Account Settings<SFD Account Settings>` page.
+:ref:`account settings<SFD Account Settings>` page. Note that account settings
+are available from the LMS and learner dashboard, not from Studio or the
+Studio dashboard.
 
 .. _Edge registration: http://edge.edx.org/register
 .. _edX.org registration: https://courses.edx.org/register

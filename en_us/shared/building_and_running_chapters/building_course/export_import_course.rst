@@ -4,7 +4,10 @@
 Exporting and Importing a Course
 #####################################
 
-You can :ref:`Export a Course` and :ref:`Import a Course` through Studio.
+You can :ref:`Export a Course` and :ref:`Import a Course` through Studio. 
+
+When you import and export a course, you work with :ref:`.tar.gz files <Work
+with the targz file>`.
 
 To duplicate an existing course for a new run, course creators can use the
 course re-run option. See :ref:`Rerun a Course`.
@@ -41,7 +44,6 @@ the following course data:
 * Pages
 * Course assets
 * Course settings
- 
 
 The following data is not exported with your course:
  
@@ -50,14 +52,12 @@ The following data is not exported with your course:
 * Discussion data
 * Certificates
 
-To export a course:
- 
+
 #. From the **Tools** menu, select **Export**.
-#. Click **Export Course Content**.
+#. Select **Export Course Content**.
 
 When the export completes you can then access the .tar.gz file on your
 computer.
-
 
 .. _Import a Course:
 
@@ -66,7 +66,6 @@ Import a Course
 ***************
 
 .. warning::
-
 	Content of the imported course replaces all the content of this course.
 	**You cannot undo a course import**. We recommend that you first export the
 	current course, so you have a backup copy of it.
@@ -82,25 +81,52 @@ course data directory. The tar.gz file must have the same name as the course
 data directory. It may also contain other files.
  
 If your course uses legacy layout structures, you may not be able to edit the
-course in Studio, although it will probably appear correctly on Edge. To make
-sure that your course is completely editable, ensure that all components are
-embedded in a unit.
+course in Studio. To make sure that your course is completely editable, ensure
+that all components are embedded in a unit.
  
 The import process has five stages. During the first two stages, you must stay
 on the Course Import page. You can leave this page after the Unpacking stage
-has completed. We recommend, however, that you don't make important changes to
-your course until the import operation has completed.
+has completed. EdX recommends, however, that you don't make important changes
+to your course until the import operation has completed.
  
 To import a course:
  
 #. From the **Tools** menu, select **Import**.
-#. Click **Choose a File to Import**.
-#. Locate the file that you want, and then click **Open**.
-#. Click **Replace my course with the one above**.
+#. Select **Choose a File to Import**.
+#. Locate the file that you want, and then Select **Open**.
+#. Select **Replace my course with the one above**.
 
 .. note:: 
  When you import a course, important dates, such as the course start date and
  time, are overwritten. After the import is complete, you should check dates to
  ensure they are set as intended. For more information, see
- :ref:`Set Important Dates for Your Course`.
+ :ref:`Scheduling Your Course`.
  
+.. _Work with the targz file:
+
+******************************
+Work with the .tar.gz file
+******************************
+
+Courses are exported and imported in .tar.gz files.  
+ 
+To extract and compress .tar.gz files, you will need a third-party program.
+
+If you are using Microsoft Windows, see the following resources.
+
+* `How to Unpack a tar File in Windows
+  <http://www.haskell.org/haskellwiki/How_to_unpack_a_tar_file_in_Windows>`_
+   
+* `How to Extract a Gz File <http://www.wikihow.com/Extract-a-Gz-File>`_
+  
+* `The gzip Home Page <http://www.gzip.org/>`_
+
+* The `Windows <http://www.ofzenandcomputing.com/how-to-open-tar-gz-
+  files/#windows>`_ section of the `How to Open .tar.gz Files
+  <http://www.ofzenandcomputing.com /how-to-open-tar-gz-files/>`_ page
+
+If you are using a Macintosh computer, see the following resources:  
+
+* The `Mac OS X <http://www.ofzenandcomputing.com/how-to-open-tar-gz-
+  files/#mac- os-x>`_ section of the `How to Open .tar.gz Files
+  <http://www.ofzenandcomputing.com/how-to-open-tar-gz-files/>`_ page.

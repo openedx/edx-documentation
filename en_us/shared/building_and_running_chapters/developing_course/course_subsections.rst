@@ -310,6 +310,8 @@ Hide a Subsection from Students
 You can hide all content in a subsection from students, regardless of the
 status of units within the section.
 
+For more information, see :ref:`Content Hidden from Students`.
+
 To hide a subsection from students:
 
 #. Click the Settings icon in the subsection box.

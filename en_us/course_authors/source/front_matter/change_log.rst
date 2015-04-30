@@ -2,7 +2,6 @@
 Change Log
 ############
 
-
 ****************
 May 2015
 ****************
@@ -13,6 +12,29 @@ May 2015
 
    * - Date
      - Change
+   * - 13 May 2015
+     - Updated all sections in :ref:`Getting Started Index` and :ref:`Setting
+       up Your Course Index` for accessibility.
+   * -
+     - Added the new section :ref:`Scheduling Your Course`.
+   * -
+     - Added :ref:`Enrollment End Date and Time`.
+   * - 
+     - Updated :ref:`Code for Dynamic HTML Schedule`.
+   * - 
+     - Added :ref:`Whitelisting Your Domain for Google Hangouts`.
+   * -
+     - Added :ref:`Hiding Graded Content`
+   * -
+     - Added :ref:`Work with the targz file`
+   * -
+     - Clarified in :ref:`edX.org and edX Edge` that Edge courses can have an
+       unlimited number of learners.
+   * -
+     - Updated :ref:`A Template For Course Overview`.
+   * -
+     - Updated :ref:`Create a Code Response Problem` to include the base URL
+       that external graders must access.
    * - 12 May 2015
      - Updated the :ref:`Access_grades` section to describe new 
        certificate-related and enrollment track columns in the grade report.
@@ -22,9 +44,9 @@ May 2015
        changes before a course is released.
 
 
-****************
+***********
 April 2015
-****************
+***********
 
 .. list-table::
    :widths: 10 70
@@ -192,8 +214,7 @@ November 2014
        problems.
    * - 
      - Added note that students can see the **Course Info** page and course-
-       wide discussion topics as soon as they enroll in a course to :ref:`The
-       Course Start Date`.
+       wide discussion topics as soon as they enroll in a course to :ref:`Set Start and End Dates`.
    * - 11/07/14
      - Added a caution that content experiments are only supported within
        verticals, in :ref:`Add a Content Experiment in OLX`.
@@ -215,8 +236,8 @@ October 2014
      - Added :ref:`email template<Verified Registration Reminder>` for 
        reminding students of last day to register for verified certificates.
    * - 10/29/14
-     - Added information about course start time visibility to :ref:`The Course
-       Start Date`.
+     - Added information about course start time visibility to :ref:`Set Start
+       and End Dates`.
    * - 10/28/14
      - Added section for :ref:`Show Reset Button` in :ref:`Problem Settings`
        and clarified **Reset** button behavior in :ref:`Problem Student View`.
@@ -231,7 +252,7 @@ October 2014
      - Added note about limited support of annotation problem type to
        :ref:`Annotation`.
    * - 10/16/14
-     - Updated :ref:`Set Important Dates for Your Course` to reflect change
+     - Updated :ref:`Scheduling Your Course` to reflect change
        that course dates now use UTC.
    * - 10/14/14
      - Added the :ref:`Rerun a Course` chapter.
@@ -345,8 +366,8 @@ July 2014
        :ref:`Overview_discussions` section and to reflect changes to the
        Discussion list and to the Advanced Settings page in Studio.
    * - 07/01/14
-     - Updated :ref:`The Course End Date` to specify when students can earn and
-       access certificates.
+     - Updated :ref:`Scheduling Your Course` to specify when students can earn
+       and access certificates.
    
 
 
@@ -548,9 +569,7 @@ March 2014
    * - 03/10/14
      - Added information about setting up your course summary page to 
 
-       * :ref:`The Course Start Date`
-
-       * :ref:`The Course End Date`
+       * :ref:`Set Start and End Dates`
 
        * :ref:`Add a Course Image`
 
@@ -602,7 +621,7 @@ February 2014
    * - 02/06/14
      - Added :ref:`Periodic Table` and :ref:`Molecule Editor`
    * - 02/05/14
-     - Added section :ref:`Set the Advertised Start Date`.
+     - Added section :ref:`Advertise a Different Start Date`.
    * - 02/04/14
      - Added the :ref:`Student Data` and :ref:`Grades` chapters.
    * - 
@@ -610,9 +629,9 @@ February 2014
        Numerical Input` and :ref:`Protein Builder`.
    
 
-**************
+*************
 January 2014
-**************
+*************
 
 .. list-table::
    :widths: 10 70
@@ -640,7 +659,7 @@ January 2014
      - Updated :ref:`Add Files to a Course` to reflect addition of sorting to
        the **Files & Uploads** page.
    * - 
-     - Updated :ref:`Set Important Dates for Your Course` to reflect change to
+     - Updated :ref:`Scheduling Your Course` to reflect change to
        default course start date to 2029.
    * - 01/07/2014
      - Updated :ref:`Text Input` with info about multiple strings.
