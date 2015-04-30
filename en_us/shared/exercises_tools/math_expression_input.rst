@@ -143,8 +143,8 @@ Specifies that the problem is a math expression input problem. The
 
   Attributes
 
-  ``type``: Can be "cs" (case sensitive, the default) or "ci" (case
-  insensitive, so that capitalization doesn't matter in variable names).
+  ``type``: Can be "cs" for case sensitive, which is the default, or "ci" for case
+  insensitive, so that capitalization does not matter in variable names.
 
   ``answer``: The correct answer to the problem, given as a mathematical
   expression. If you precede a variable name in the problem with a dollar sign
@@ -165,7 +165,7 @@ Specifies that the problem is a math expression input problem. The
     sign (@), colon (:), and pound sign (#) characters separate the lists. An
     example of the format follows.
 
-    ``variables@lower_bounds:upper_bounds#num_samples``
+    ``"variables@lower_bounds:upper_bounds#num_samples"``
 
     For example, a ``<formularesponse>`` tag that includes the ``samples``
     attribute may look like either of the following.
