@@ -54,9 +54,8 @@ future.
 How can I send questions or comments to edX?
 ================================================
 
-We are glad to receive your feedback on this early version of our mobile app.
-In the app home page, select the menu in the upper-left corner, and then
-select **Submit Feedback**.
+We are glad to receive your feedback on our mobile app. On the app home page,
+select the menu in the upper-left corner, and then select **Submit Feedback**.
 
 .. _Getting Started:
 
@@ -68,10 +67,10 @@ Getting Started
 What if I do not have an edX account?
 ======================================
 
-You need to have an edX account before you can enroll in a course. You can
-sign up for an edX account in the edX mobile app, or use a browser to go to
-the `edx.org`_ website. When you create your account, you need to be
-connected to the Internet.
+You need to have an edX account before you can enroll in courses. You can sign
+up for an edX account in the edX mobile app, or use a browser to go to the
+`edx.org`_ website. When you create your account, you need to be connected to
+the Internet.
 
 ======================================
 How do I create an edX account?
@@ -90,7 +89,7 @@ After you create your account, you can find courses that interest you and
 enroll in them.
 
 ==================================================
-How do I find courses to take with the mobile app?
+How do I find courses to take?
 ==================================================
 
 When you open the app and sign in to your edX account, you see a list of the
@@ -114,7 +113,7 @@ mobile courses every day, so check back often to see new available courses.
 How do I un-enroll from a course?
 ========================================
 
-To un-enroll from a course, use a browser to go to the `edx.org`_ website.
+To un-enroll from a course, use a browser to go to the `edx.org`_ website. 
 
 .. _Courseware Questions:
 
@@ -262,11 +261,33 @@ Notification Questions
 **************************
 
 ====================================================
-How do I turn notifications for a course off or on?
+Will I get notified about upcoming due dates?
 ====================================================
 
-#. 
 
+
+
+========================================================
+Where can I read all of the notifications for a course?
+========================================================
+
+
+
+
+====================================================
+How do I turn course notifications off (or back on)?
+====================================================
+
+#. Open the edX mobile app.
+#. Select the course.
+#. Select **Course Info**. 
+   
+   The most recent notification appears at the bottom
+   of the screen. Scroll down to read older notifications.
+
+===========================================================
+Can I turn off notifications for all of my courses at once?
+===========================================================
 
 
 .. _Troubleshooting:
