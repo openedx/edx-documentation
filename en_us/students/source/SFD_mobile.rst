@@ -260,34 +260,40 @@ How do I delete downloaded videos?
 Notification Questions
 **************************
 
-====================================================
-Will I get notified about upcoming due dates?
-====================================================
+=========================================================
+Will I get notified about upcoming due dates and exams?
+=========================================================
 
-
-
+Many course teams send notifications to remind you when assignments are due
+and make other announcements. However, each course team decides what to
+announce and when, and whether to send the notifications to the mobile app.
 
 ========================================================
-Where can I read all of the notifications for a course?
+Where can I read the course notifications?
 ========================================================
-
-
-
-
-====================================================
-How do I turn course notifications off (or back on)?
-====================================================
 
 #. Open the edX mobile app.
 #. Select the course.
 #. Select **Course Info**. 
    
-   The most recent notification appears at the bottom
-   of the screen. Scroll down to read older notifications.
+   The most recent notification appears at the bottom of the page. Scroll
+   down to read older notifications.
+
+To read all of course announcements, use a web browser to visit the course's
+**Course Info** page.
+
+====================================================
+How do I turn course notifications off (or back on)?
+====================================================
+
+You can turn notifications off, or on, for an individual course on the
+**Course Info** page.
+
 
 ===========================================================
 Can I turn off notifications for all of my courses at once?
 ===========================================================
+
 
 
 .. _Troubleshooting:
