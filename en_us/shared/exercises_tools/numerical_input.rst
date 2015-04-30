@@ -4,93 +4,101 @@
 Numerical Input Problem
 ########################
 
-Numerical input problems are the simpler of the two mathematics tools that
-Studio offers. In these problems, students enter numbers or specific and
-relatively simple mathematical expressions to answer a question. The text that
-the students enter is converted to a symbolic expression that appears below
-the response field.
+In numerical input problems, learners enter numbers or specific and relatively
+simple mathematical expressions to answer a question. The text that the
+learners enter is converted to a symbolic expression that appears below the
+response field.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/image292.png
- :alt: Image of a numerical input problem
+ :alt: A problem with 3 questions, the learner gave 2 correct and 1
+     incorrect answer
 
-Note that students' responses do not have to be exact for these problems. You
-can specify a margin of error, or tolerance. You can also specify a correct
-answer explicitly, or use a Python script. For more information, see the
-instructions below.
+You can specify a margin of error, or tolerance, for the answers to these
+problems so that learners' responses do not have to be exact. You can 
+specify a correct answer explicitly or use a Python script.
 
 Responses for numerical input problems can include integers, fractions, and
-constants such as *pi* and *g*. Responses can also include text representing
+constants such as pi and g. Responses can also include text representing
 common functions, such as square root (sqrt) and log base 2 (log2), as well as
 trigonometric functions and their inverses, such as sine (sin) and arcsine
-(arcsin). For these functions, the text that the student enters is converted
-into mathematical symbols. The following example shows the way the system
-renders students' text responses in numerical input problems.
+(arcsin). For these functions, learners enter text that is converted into
+mathematical symbols. The following example shows a response entered by a
+learner and the numerical expression that results.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/Math5.png
- :alt: Image of a numerical input problem rendered by Studio
+ :alt: A learner typed n*x^(n-1) to enter the symbolic expression n times x to
+     the n minus 1 power
 
-For more information about characters that students can enter, see :ref:`Math
-Response Formatting for Students`.
+For more information about characters that learners can enter, see `Math
+Response Formatting for Students`_.
 
 ***********************************
-Create a Numerical Input Problem 
+Creating a Numerical Input Problem 
 ***********************************
 
 You can create numerical problems in the Simple Editor or in the Advanced
-Editor regardless of the answer to the problem. If the text of your problem
-does not include any italics, bold formatting, or special characters, you can
-create the problem in the Simple Editor. If the text of your problem contains
-special formatting or characters, or if your problem contains a Python script,
-you use the Advanced Editor.
+Editor regardless of the answer to the problem. 
 
-For example, the following example problems require the Advanced Editor. 
+* If the text of your problem does not include any italics, bold formatting,
+  or special characters, you can create the problem in the Simple Editor. 
+* If the text of your problem contains special formatting or characters, or if
+  your problem contains a Python script, you use the Advanced Editor.
+
+For example, the following problems require the Advanced Editor. 
 
 .. image:: ../../../shared/building_and_running_chapters/Images/NumericalInput_Complex.png
- :alt: Image of a more complex numerical input problem
+ :alt: A problem that requires a square root as the answer
 
 For more information about including a Python script in your problem, see
 :ref:`Write Your Own Grader`.
 
-==================
-Simple Editor
-==================
+.. _Use the Simple Editor to Create a Numerical Input Problem:
 
-#. Under **Add New Component**, select **Problem**.
-#. Under **Common Problem Types**, select **Numerical Input**.
-#. When the new Problem component appears, click **Edit**. The Simple Editor
-   opens with example problems.
-#. In the editor, replace the sample problem text with your own text.
-#. Determine the text of the problem to use as an accessible label, and then
-   use two sets of angle brackets (>><<) to surround that text.
+========================================================================
+Use the Simple Editor to Create a Numerical Input Problem
+========================================================================
+
+To use the Simple Editor to create a numerical input problem, follow these steps.
+
+#. In the unit where you want to create the problem, under **Add New
+   Component** select **Problem**.
+#. From the list of **Common Problem Types**, select **Numerical Input**.
+#. Select **Edit**. The Simple Editor opens with an example problem. In the
+   editor, you replace the sample problem text with your own text.
+#. Determine the text that expresses the question you want learners to answer,
+   and then use two sets of angle brackets (>><<) to surround that text. This
+   question text is the accessible label for the problem.
 #. To identify the problem's answer, select the answer text and then select
    **Numerical Input** in the editing toolbar. An equals sign appears
    next to the answer.
-#. (Optional) Specify a margin of error, or tolerance. You can specify a
+#. Optionally, specify a margin of error, or tolerance. You can specify a
    percentage, number, or range.
 
-   * To specify a percentage on either side of the correct answer, add
-     **+-{number}%** after the answer. For example, if you want to include a 2%
-     tolerance, add **+-2%**.
+   * To specify a percentage on either side of the correct answer, after the
+     answer add **+-{number}%**. For example, to include a 2% tolerance, add
+     **+-2%**.
 
-   * To specify a number on either side of the correct answer, add
-     **+-{number}** after the answer. For example, if you want to include a
-     tolerance of 5, add **+-5**.
+   * To specify a number on either side of the correct answer, after the
+     answer add **+-{number}**. For example, to include a tolerance of 5, add
+     **+-5**.
 
-   * To specify a range, use brackets [] or parentheses (). A bracket
-     indicates that range includes the number next to it. A parenthesis
-     indicates that the range does not include the number next to it. For
-     example, if you specify **[5, 8)**, correct answers can be 5, 6, and 7,
-     but not 8. Likewise, if you specify **(5, 8]**, correct answers can be 6,
-     7, and 8, but not 5.
+   * To specify a range, you provide the starting and ending values separated
+     by a comma and then surround the rangge with brackets [] or parentheses
+     (). A bracket includes the number next to it in the range, and a
+     parenthesis excludes the number from the range. For example, if you specify
+     **[5, 8)**, correct answers can be 5, 6, and 7, but not 8. Likewise, if
+     you specify **(5, 8]**, correct answers can be 6, 7, and 8, but not 5.
 
-8. To provide an explanation, select the explanation text and then click
-   **Explanation** in the editing toolbar. "[explanation]" appears before and
-   after the explanation text.
-#. On the **Settings** tab, specify the settings that you want for the
+8. To provide an explanation, select the explanation text and then select the
+   **Explanation** from the toolbar. "[explanation]" appears before
+   and after the explanation text.
+#. Select **Settings** and provide an identifying **Display Name** for the
    problem.
-#. Click **Save**.
+#. Specify options for the problem. For more information, see :ref:`Problem
+   Settings`.
+#. Select **Save**.
 
-For the first example problem above, the text in the Problem component appears
+For the first example problem above, the text in the problem component appears
 as follows.
 
 ::
@@ -103,13 +111,16 @@ as follows.
    The decimal numeral system is base ten.
    [explanation]
 
-==================
-Advanced Editor
-==================
+========================================================================
+Use the Advanced Editor to Create a Numerical Input Problem 
+========================================================================
 
-To create this problem in the Advanced Editor, click the **Advanced** tab in
-the Problem component editor, and then replace the existing code with the
-following code.
+For a more complex problem, such as the one that follows, you use the Advanced Editor.
+
+#. Follow steps 1-3 for creating the problem in the :ref:`Simple Editor<Use
+   the Simple Editor to Create a Numerical Input Problem>`. 
+#. Select **Advanced Editor**, and then replace the existing code with the
+   following code.
 
 **Problem Code**:
 
@@ -131,7 +142,7 @@ following code.
     </numericalresponse>
   </p>
 
-  <!-- The following uses Python script spacing. Make sure it isn't indented when you add it to the Problem component. -->
+  <!-- The following uses Python script spacing. Make sure it is not indented when you add it to the problem component. -->
   <script type="loncapa/python">
   computed_response = math.sqrt(math.fsum([math.pow(math.pi,2), math.pow(math.e,2)]))
   </script>
@@ -171,7 +182,7 @@ Templates
 
 The following templates represent problems with and without a decimal or percentage tolerance.
 
-Problem with no tolerance
+Problem with No Tolerance
 ***************************
 
 .. code-block:: xml
@@ -191,7 +202,7 @@ Problem with no tolerance
   </solution>
   </problem>
 
-Problem with a decimal tolerance
+Problem with a Decimal Tolerance
 ************************************
 
 .. code-block:: xml
@@ -212,7 +223,7 @@ Problem with a decimal tolerance
   </solution>
   </problem>
 
-Problem with a percentage tolerance
+Problem with a Percentage Tolerance
 ************************************
 
 .. code-block:: xml
@@ -233,14 +244,14 @@ Problem with a percentage tolerance
   </solution>
   </problem>
 
-Answer created with a script
+Answer Created with a Script
 ************************************
 
 .. code-block:: xml
 
   <problem>
 
-  <!-- The following uses Python script spacing. Make sure it isn't indented when you add it to the Problem component. -->
+  <!-- The following uses Python script spacing. Make sure it is not indented when you add it to the problem component. -->
   <script type="loncapa/python">
   computed_response = math.sqrt(math.fsum([math.pow(math.pi,2), math.pow(math.e,2)]))
   </script>
@@ -266,7 +277,7 @@ Tags
 * ``<numericalresponse>`` (required): Specifies that the problem is a
   numerical input problem.
 * ``<formulaequationinput />`` (required): Provides a response field where the
-  student enters a response.
+  learner enters a response.
 * ``<responseparam>`` (optional): Specifies a tolerance, or margin of error,
   for an answer.
 * ``<script>`` (optional)
@@ -298,9 +309,9 @@ the ``<numericalresponse>`` tag does not allow unspecified variables.
    ($) in the problem, you can include a script in the problem that computes
    the expression in terms of that variable.
 
-  The grader evaluates the answer that you provide and the student's response
+  The grader evaluates the answer that you provide and the learner's response
   in the same way. The grader also automatically simplifies any numeric
-  expressions that you or a student provides. Answers can include simple
+  expressions that you or a learner provides. Answers can include simple
   expressions such as "0.3" and "42", or more complex expressions such as
   "1/3" and "sin(pi/5)".
 
@@ -309,7 +320,7 @@ the ``<numericalresponse>`` tag does not allow unspecified variables.
   * ``<responseparam>``
   * ``<formulaequationinput>``
 
-**Tag:** * ``<formulaequationinput>``
+**Tag:** ``<formulaequationinput>``
 
 Creates a response field in the LMS where students enter a response.
 
@@ -353,7 +364,7 @@ Specifies a tolerance, or margin of error, for an answer.
 
 **Tag:** ``<script>``
 
-Specifies a script that the grader uses to evaluate a student's response. A
+Specifies a script that the grader uses to evaluate a learner's response. A
 problem behaves as if all of the code in all of the script tags were in a
 single script tag. Specifically, any variables that are used in multiple
 ``<script>`` tags share a namespace and can be overridden.
@@ -375,3 +386,5 @@ XML.
   Children
   
   (none)
+
+.. _Math Response Formatting for Students: http://edx-guide-for-students.readthedocs.org/en/latest/SFD_mathformatting.html
