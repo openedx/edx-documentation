@@ -75,10 +75,10 @@ the video administrators.
 Establishing Access to the Account 
 ===================================
 
-#. Create a single Google email, or Gmail, account. The recommended format
+#. Create a single Google email (Gmail) account. The recommended format
    for the account name is your edx.org member identifier followed by
-   "-CMSmanager". For example, ``HarvardX-CMSmanager@gmail.com`` or 
-   ``MITx-CMSmanager@gmail.com``.
+   "CMSmanager". For example, ``HarvardXCMSmanager@gmail.com`` or 
+   ``MITxCMSmanager@gmail.com``.
 
 #. Send the email address to the edX media team at ``media@edx.org``.
 
