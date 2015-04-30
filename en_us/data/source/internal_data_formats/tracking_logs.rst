@@ -818,10 +818,22 @@ for the :ref:`play_video` events.
 *************************************
 
 When a user selects the video player's **pause** control, the player emits a
-``pause_video`` event. The player also emits this event when it reaches the
-end of the video file and play automatically stops. Note that as of June 2014,
-the player also emits a ``stop_video`` event when it reaches the end of the
-video file and play automatically stops.
+``pause_video`` event. For videos that are streamed in a browser, when the
+player reaches the end of the video file and play automatically stops it emits
+both this event and a ``stop_video`` event (as of June 2014).
+
+Note that course teams can specify a **Video Stop Time** for video files. 
+
+* If the user streams a video file in a browser and a **Video Stop Time** is
+  present for the video, the player stops at the specified time and emits the
+  ``pause_video`` and ``stop_video`` events.
+
+* If the user plays a streaming or downloaded video in the edX mobile app, the
+  app ignores the **Video Stop Time** and plays the file to its end. The app
+  then emits only the ``stop_video`` event.
+
+For more information, see `Working with Video Components`_ in the *Building
+and Running an edX Course* guide.
 
 In addition to the identifying ``event_type`` of ``pause_video``, the events
 that the edX mobile app emits include a ``name`` field with a value of
@@ -829,9 +841,12 @@ that the edX mobile app emits include a ``name`` field with a value of
 
 **Event Source**: Browser or Mobile
 
-**History**: Updated 25 Feb 2015 to include events emitted by the edX mobile
-app for iOS. Updated 23 Dec 2014 to include events emitted by the edX mobile
-app for Android. 
+**History**: 
+
+* Updated 5 May 2015 to include the effect of a **Video Stop Time**. 
+* Updated 25 Feb 2015 to include events emitted by the edX mobile app for iOS.
+* Updated 23 Dec 2014 to include events emitted by the edX mobile app for
+  Android.
 
 ``context`` **Member Fields**: 
 
@@ -861,15 +876,31 @@ this type as for the :ref:`play_video` events.
 When a user selects the video player's **play** control, the player emits a
 ``play_video`` event.
 
+Note that course teams can specify a **Video Start Time** for video files. 
+
+* If the user streams a video file in a browser and a **Video Start Time** is
+  present for the video, the player starts at the specified time and emits the
+  ``play_video`` event.
+
+* If the user plays a streaming or downloaded video in the edX mobile app, the
+  app ignores the **Video Start Time** and emits the ``play_video`` event
+  when it plays the file from the beginning.
+
+For more information, see `Working with Video Components`_ in the *Building
+and Running an edX Course* guide.
+
 In addition to the identifying ``event_type`` of ``play_video``, events
 that the edX mobile app emits also include a ``name`` field with a value of
 ``edx.video.played``.
 
 **Event Source**: Browser or Mobile
 
-**History**: Updated 25 Feb 2015 to include events emitted by the edX mobile
-app for iOS. Updated 23 Dec 2014 to include events emitted by the edX mobile
-app for Android.
+**History**: 
+
+* Updated 5 May 2015 to include the effect of a **Video Start Time**. 
+* Updated 25 Feb 2015 to include events emitted by the edX mobile app for iOS.
+* Updated 23 Dec 2014 to include events emitted by the edX mobile app for
+  Android.
 
 ``context`` **Member Fields**: 
 
@@ -1209,15 +1240,32 @@ selected either the same speed or a different speed.
 When the video player reaches the end of the video file and play automatically
 stops, the player emits a ``stop_video`` event.
 
+Note that course teams can specify a **Video Stop Time** for video files. 
+
+* If the user streams a video file in a browser and a **Video Stop Time** is
+  present for the video, the player stops at the specified time and emits the
+  ``pause_video`` and ``stop_video`` events.
+
+* If the user plays a streaming or downloaded video in edX mobile app, the
+  app ignores the **Video Stop Time** and plays the file to its end. The
+  app then emits the ``stop_video`` event.
+
+For more information, see `Working with Video Components`_ in the *Building
+and Running an edX Course* guide.
+
 In addition to the identifying ``event_type`` of ``stop_video``, the events
 that the edX mobile app emits include a ``name`` field with a value of
 ``edx.video.stopped``.
 
 **Event Source**: Browser or Mobile
 
-**History**: Updated 25 Feb 2015 to include events emitted by the edX mobile
-app for iOS. Updated 23 Dec 2014 to include events emitted by the edX mobile
-app for Android. Added 25 June 2014.
+**History**: 
+
+* Updated 5 May 2015 to include the effect of a **Video Stop Time**. 
+* Updated 25 Feb 2015 to include events emitted by the edX mobile app for iOS.
+* Updated 23 Dec 2014 to include events emitted by the edX mobile app for
+  Android.
+* Added 25 June 2014.
 
 ``context`` **Member Fields**: 
 
@@ -3936,3 +3984,6 @@ uploading a .csv file of student cohort assignments.
 .. _Creating Exercises and Tools: http://edx-partner-course-staff.readthedocs.org/en/latest/exercises_tools/index.html
 
 .. _Working with Libraries: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/creating_content/libraries.html
+
+
+.. _Working with Video Components: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/creating_content/create_video.html#advanced-options

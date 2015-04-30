@@ -14,6 +14,10 @@ January-March 2015
 
    * - Date
      - Change
+   * - 11 May 2015 
+     - Updated the descriptions of the ``pause_video``, ``play_video``, and
+       ``stop_video`` :ref:`video interaction events<video>` to include the
+       effects of a **Video Start Time** or **Video Stop Time**.
    * - 22 Apr 15
      - Added information about the new ``student_languageproficiency`` table
        and two new columns in the ``auth_userprofile`` table to

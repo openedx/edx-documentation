@@ -184,9 +184,11 @@ to decrypt the Amazon S3 credentials file and the files in your data packages.
 
 #. Navigate to the file and right-click it. 
    
-#. On a Windows computer, select **Decrypt and verify**, then click
-   **Decrypt/Verify**. On a Macintosh, select **Services**, then click
-   **OpenPGP: Decrypt File**.
+#. On a Windows computer, select **Decrypt and verify**, and then click
+   **Decrypt/Verify**. Do not change any other setting.
+
+   On a Macintosh, select **Services**, and then click **OpenPGP: Decrypt
+   File**.
 
 #. Enter your passphrase. The GNU Privacy Guard program decrypts the file.
    
@@ -216,24 +218,28 @@ Browser. Alternatively, you can use the `AWS Command Line Interface`_.
 #. Open your decrypted ``credentials.csv`` file. This file contains your AWS
    Access Key and your AWS Secret Key.
 
-#. Open the third-party tool. In most tools, you set up information about the
-   S3 account and then supply your Access Key and your Secret Key to connect to
-   that account. For more information, refer to the documentation for the tool
-   that you selected.
+#. Open the third-party tool. 
 
-#. Select the **s3://course-data** bucket to access the database data files. 
+#. Enter information to connect to the S3 account.
+
+   For example, you might need to select an option such as **Open Connection**,
+   and then supply the service you want to connect to (Amazon S3), your Access
+   Key, and your Secret Key. For more information, see the documentation
+   provided for the tool that you selected.
+
+5. To access the database data files, specify or select ``s3://course-data``. 
    
-   Select the **s3://edx-course-data/{org}** folder to access the event data
-   files. You must include the identifier for your organization after the
-   name of the bucket.
+   To access the event data files, specify or select ``s3://edx-course-
+   data/{org}/``. You must include the identifier for your organization after
+   the name of the bucket.
 
    .. note:: If you are using a third-party tool to connect to Amazon S3, you 
-    may not be able to navigate directly between the **s3://course-data**
-    bucket and the **s3://edx-course-data/{org}** folder. You may need to
-    disconnect from Amazon S3 and then reconnect to the other destination.
+    might not be able to navigate directly between ``s3://course-data`` and
+    ``s3://edx-course-data/{org}/``. You might need to disconnect from Amazon
+    S3 and then reconnect to specify the other destination.
 
-For information about the files in each Amazon S3 destination, see
-:ref:`Package`.
+For information about the files found at each of these Amazon S3 destinations,
+see :ref:`Package`.
 
 .. _AWS Command Line Interface: http://aws.amazon.com/cli/
 
