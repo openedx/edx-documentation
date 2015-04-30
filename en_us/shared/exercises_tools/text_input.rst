@@ -4,55 +4,67 @@
 Text Input Problem
 ########################
 
-
-
-In text input problems, students enter text into a response field. The response can include numbers, letters, and special characters such as punctuation marks. Because the text that the student enters must match the instructor's specified answer exactly, including spelling and punctuation, we recommend that you specify more than one attempt for text input problems to allow for typographical errors.
+In text input problems, learners enter text into a response field. The
+response can include numbers, letters, and special characters such as
+punctuation marks. Because the text that the learner enters must match the
+instructor's specified answer exactly, including spelling and punctuation, we
+recommend that you specify more than one correct answer for text input
+problems to allow for differences in capitalization and typographical errors.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/TextInputExample.png
  :alt: Image of a text input problem
 
-****************************
-Create a Text Input Problem
-****************************
+For the text input problems in your course, you can use edX Insights to review
+aggregated learner performance data and examine submitted answers. For more
+information, see `Using edX Insights`_.
 
-You can create text input problems in the Simple Editor or in the Advanced Editor.
+******************************
+Creating a Text Input Problem
+******************************
 
-.. note:: Problems must include accessible labels. An accessible label generally 
- includes the text of the main question in your problem. To add an accessible
- label for a common problem, surround the text of the label with angle
- brackets pointed toward the text (>>label text<<).
+You can create text input problems in the Simple Editor or in the Advanced
+Editor. You can set up a problem in the Simple Editor, and then switch to the
+Advanced Editor to add more configuration options in XML. However, you cannot
+switch back to the Simple Editor from the Advanced Editor. Therefore, you
+might want to format the problem as completely as possible before you begin to
+use the Advanced Editor.
 
-==============
-Simple Editor
-==============
+.. _Use the Simple Editor to Create a Dropdown Problem:
 
-To create a text input problem in the Simple Editor, follow these steps.
+========================================================================
+Use the Simple Editor to Create a Text Input Problem
+========================================================================
 
-#. Under **Add New Component**, click **Problem**.
-#. In the **Select Problem Component Type** screen, click **Text Input**
-   on the **Common Problem Types** tab.
-#. In the new Problem component that appears, click **Edit**.
-#. Replace the default text with the text for your problem.
-#. Determine the text of the problem to use as a label, and then surround that text with two sets of angle brackets (>><<).
-#. Select the text of the answer, and then click the text input button. 
-   
-   .. image:: ../../../shared/building_and_running_chapters/Images/ProbCompButton_TextInput.png
-    :alt: Image of the text input button
-   
-   When you do this, an equal sign appears next to the answer.
-  
-   
-#. In the component editor, select the text of the explanation, and then click the 
-   explanation button to add explanation tags around the text.
+To use the :ref:`Simple Editor<Simple Editor>` to create a text input problem,
+follow these steps.
 
-   .. image:: ../../../shared/building_and_running_chapters/Images/ProbCompButton_Explanation.png
-    :alt: Image of the explanation button
+#. In the unit where you want to create the problem, under **Add New
+   Component** select **Problem**.
+#. From the list of **Common Problem Types**, select **Text Input**. Studio
+   adds an example text input problem to the unit.
+#. Select **Edit**. The Simple Editor opens.
+#. Replace the sample problem text with your own text.
+#. Determine the text that describes the question you want learners to answer,
+   and surround that text with two pairs of angle brackets (``>>question<<``).
+   This question text is the accessible label for the problem.
+#. Select the text of the problem's answer, and then select **Text Input** from 
+   the toolbar. An equals signe (=) appears next to the answer.
 
-#. On the **Settings** tab, specify the settings that you want. 
-#. Click **Save**.
+   You can identfy more than one correct answer. For more information, see
+   :ref:`Multiple Responses in Text Input Problems`.
 
-For the example problem above, the text in the Problem component is the
-following.
+7. To provide an explanation, select the explanation text and then select 
+   **Explanation** from the toolbar. ``[explanation]`` appears before
+   and after the explanation text.
+#. Select **Settings** and provide an identifying **Display Name** for the
+   problem.
+#. Define additional settings for the problem. For more information, see
+   :ref:`Problem Settings`.
+#. Select **Save**.
+
+For the example problem illustrated above, the following text displays in the
+problem component.
+
 
 ::
 
@@ -67,11 +79,19 @@ following.
     from the group (even when the group does not have 100% bednet coverage).
     [explanation]
 
-=====================
-Advanced Editor
-=====================
 
-To create this problem in the Advanced Editor, click the **Advanced** tab in the Problem component editor, and then replace the existing code with the following code.
+========================================================================
+Use the Advanced Editor to Edit a Text Input Problem 
+========================================================================
+
+To use the Advanced Editor to edit a text input problem, follow these steps.
+
+#. Follow the steps for creating the problem in the :ref:`Simple Editor<Use
+   the Simple Editor to Create a Text Input Problem>`. 
+#. Select **Advanced Editor**, and then edit the XML to add the tags and
+   attributes you want. An example follows.
+
+**Problem Code**:
 
 .. code-block:: xml
 
@@ -107,23 +127,24 @@ To create this problem in the Advanced Editor, click the **Advanced** tab in the
   </solution>
   </problem>
 
-
-
+.. _Multiple Responses in Text Input Problems:
 
 ******************************************
 Multiple Responses in Text Input Problems
 ******************************************
 
-You can specify more than one correct response for text input problems. 
-For example, instead of requiring students to enter exactly "Dr. Martin Luther 
-King, Junior," you can allow answers of "Martin Luther King," "Doctor Martin 
-Luther King," and other variations. To do this, you can use the Simple Editor or the Advanced Editor.
+You can specify more than one correct response for text input problems. For
+example, instead of requiring learners to enter "Dr. Martin Luther King,
+Junior" exactly, you can also allow answers of "Martin Luther King," "Doctor
+Martin Luther King," and other variations. To do this, you can use the Simple
+Editor or the Advanced Editor.
 
 ==============
 Simple Editor
 ==============
 
-To specify additional correct responses in the Simple Editor, include "or=" (without the quotation marks) before each additional correct response.
+To specify additional correct responses in the Simple Editor, include``or= ``
+before each additional correct response.
 
 ::
 
@@ -137,7 +158,9 @@ To specify additional correct responses in the Simple Editor, include "or=" (wit
 Advanced Editor
 =====================
 
-To specify additional correct responses in the Advanced Editor, add an ``<additional_answer>``  for each correct response inside the opening and closing ``<stringresponse>`` tags.
+To specify additional correct responses in the Advanced Editor, add an
+``<additional_answer>`` for each correct response inside the opening and
+closing ``<stringresponse>`` tags.
 
 .. code-block:: xml
 
@@ -154,18 +177,19 @@ To specify additional correct responses in the Advanced Editor, add an ``<additi
 
   </problem>
 
-
 ******************************************
 Case Sensitivity and Text Input Problems
 ******************************************
 
-By default, text input problems do not require a case sensitive response. You can change this
-and require a case sensitive answer.
+By default, text input problems do not require a case sensitive response. You
+can change this and require a case sensitive answer.
 
-To make a text input response case sensitive, you must use :ref:`Advanced Editor`.
+To make a text input response case sensitive, you must use :ref:`Advanced
+Editor`.
 
-In the Advanced Editor, you see that the **type** attribute of the **stringresponse** 
-element equals **ci**, for *case insensitive*. For example:
+In the Advanced Editor, you see that the ``type`` attribute of the
+``stringresponse`` element equals ``ci``, for "case insensitive". An example
+follows.
 
 ::
 
@@ -173,7 +197,8 @@ element equals **ci**, for *case insensitive*. For example:
       <textline size="20"/>
     </stringresponse>
 
-To make the response case sensitive, change the value of the **type** attribute to **cs**.
+To make the response case sensitive, change the value of the ``type``
+attribute to ``cs``.
 
 ::
 
@@ -185,14 +210,17 @@ To make the response case sensitive, change the value of the **type** attribute 
 Response Field Length of Text Input Problems
 *************************************************
 
-By default, the response field for text input problems is 20 characters long. 
+By default, the response field for text input problems is 20 characters long.
 
-You should preview the unit to ensure that the length of the response input field
-accommodates the correct answer, and provides extra space for possible incorrect answers.
+You should preview the unit to ensure that the length of the response input
+field accommodates the correct answer, and provides extra space for possible
+incorrect answers.
 
-If the default response field length is not sufficient, you can change it using :ref:`Advanced Editor`.
+If the default response field length is not sufficient, you can change it
+using :ref:`Advanced Editor`.
 
-In the advanced editor, in the XML block for the answer, you see that the **size** attribute of the **textline** element equals **20**:
+In the Advanced Editor, in the XML block for the answer, you see that the
+``size`` attribute of the ``textline`` element equals ``20``.
 
 ::
 
@@ -200,7 +228,8 @@ In the advanced editor, in the XML block for the answer, you see that the **size
       <textline size="20"/>
     </stringresponse>
 
-To change the response field length, change the value of the **size** attribute:
+To change the response field length, change the value of the ``size``
+attribute.
 
 ::
 
@@ -212,11 +241,20 @@ To change the response field length, change the value of the **size** attribute:
 Hints and Regular Expressions in Text Input Problems
 ********************************************************
 
-You can provide hints that appear when students enter common incorrect answers in text input problems. You can also set a text input problem to allow a regular expression as an answer. To do this, you'll have to modify the problem's XML in the Advanced Editor. 
+You can provide hints that appear when learners enter common incorrect answers
+in text input problems. You can also set a text input problem to allow a
+regular expression as an answer. To do this, you modify the problem's XML in
+the Advanced Editor.
 
-The regular expression that the student enters must contain the part of the answer that the instructor specifies. For example, if an instructor has specified  ``<answer="example answer" type="regexp">``, correct answers include ``example answered``, ``two example answers``, or even ``==example answer==``, but not ``examples`` or ``example anser``.
+The regular expression that the learner enters must contain the part of the
+answer that the instructor specifies. For example, if an instructor has
+specified  ``<answer="example answer" type="regexp">``, correct answers
+include ``example answered``, ``two example answers``, or even ``==example
+answer==``, but not ``examples`` or ``example anser``.
 
-You can add ``regexp`` to the value of the ``type`` attribute, for example: ``type="ci regexp"`` or ``type="regexp"`` or ``type="regexp cs"``. In this case, any answer or hint are treated as regular expressions.
+You can add ``regexp`` to the value of the ``type`` attribute, for example:
+``type="ci regexp"`` or ``type="regexp"`` or ``type="regexp cs"``. In this
+case, any answers or hints are treated as regular expressions.
 
 .. _Text Input Problem XML:
 
@@ -264,11 +302,18 @@ Tags
 =======
 
 * ``<stringresponse>``: Indicates that the problem is a text input problem. 
-* ``<textline>``: Child of ``<stringresponse>``. Creates a response field in the LMS where the student enters a response.
-* ``<additional_answer>`` (optional): Specifies an additional correct answer for the problem. A problem can contain an unlimited number of additional answers.
-* ``<hintgroup>`` (optional): Indicates that the instructor has provided hints for certain common incorrect answers.
-* ``<stringhint />`` (optional): Child of ``<hintgroup>``. Specifies the text of the incorrect answer to provide the hint for. Contains answer, type, name.
-* ``<hintpart>``: Contains the name from ``<stringhint>``. Associates the incorrect answer with the hint text for that incorrect answer.
+* ``<textline>``: Child of ``<stringresponse>``. Creates a response field in
+  the LMS where the learner enters a response.
+* ``<additional_answer>`` (optional): Specifies an additional correct answer
+  for the problem. A problem can contain an unlimited number of additional
+  answers.
+* ``<hintgroup>`` (optional): Indicates that the instructor has provided hints
+  for certain common incorrect answers.
+* ``<stringhint />`` (optional): Child of ``<hintgroup>``. Specifies the text
+  of the incorrect answer to provide the hint for. Contains answer, type,
+  name.
+* ``<hintpart>``: Contains the name from ``<stringhint>``. Associates the
+  incorrect answer with the hint text for that incorrect answer.
 * ``<startouttext />``: Indicates the beginning of the text of the hint.
 * ``<endouttext />``: Indicates the end of the text of the hint.
 
@@ -284,9 +329,19 @@ Indicates that the problem is a text input problem.
      * - Attribute
        - Description
      * - answer (required)
-       - Specifies the correct answer. To designate the answer as a regular expression, add "regexp" to the **type** attribute. If you do not add "regexp" to the **type** attribute, the student's answer must match the value in this attribute exactly.
+       - Specifies the correct answer. To designate the answer as a regular
+         expression, add "regexp" to the **type** attribute. If you do not add
+         "regexp" to the **type** attribute, the learner's answer must match
+         the value in this attribute exactly.
      * - type (optional)
-       - Can specify whether the problem is case sensitive and allows regular expressions. If the ``<stringresponse>`` tag includes ``type="ci"``, the problem is not case sensitive. If the tag includes ``type="cs"``, the problem is case sensitive. If the tag includes ``type="regexp"``, the problem allows regular expressions. A **type** attribute in a ``<stringresponse>`` tag can also combine these values. For example, ``<stringresponse type="regexp cs">`` specifies that the prolem allows regular expressions and is case sensitive.
+       - Can specify whether the problem is case sensitive and allows regular
+         expressions. If the ``<stringresponse>`` tag includes ``type="ci"``,
+         the problem is not case sensitive. If the tag includes ``type="cs"``,
+         the problem is case sensitive. If the tag includes ``type="regexp"``,
+         the problem allows regular expressions. A **type** attribute in a
+         ``<stringresponse>`` tag can also combine these values. For example,
+         ``<stringresponse type="regexp cs">`` specifies that the prolem
+         allows regular expressions and is case sensitive.
 
   Children
 
@@ -296,7 +351,7 @@ Indicates that the problem is a text input problem.
     
 **Tag:** ``<textline />``
  
-Creates a response field in the LMS where the student enters a response.
+Creates a response field in the LMS where the learner enters a response.
 
   Attributes
 
@@ -310,7 +365,7 @@ Creates a response field in the LMS where the student enters a response.
      * - size (optional)
        - Specifies the size, in characters, of the response field in the LMS.
      * - hidden (optional)
-       - If set to "true", students cannot see the response field.
+       - If set to "true", learners cannot see the response field.
      * - correct_answer (optional)
        - Lists the correct answer to the problem.
 
@@ -320,7 +375,8 @@ Creates a response field in the LMS where the student enters a response.
 
 **Tag:** ``<additional_answer>``
 
-Specifies an additional correct answer for the problem. A problem can contain an unlimited number of additional answers.
+Specifies an additional correct answer for the problem. A problem can contain
+an unlimited number of additional answers.
 
   Attributes
 
@@ -332,7 +388,8 @@ Specifies an additional correct answer for the problem. A problem can contain an
 
 **Tag:** ``<hintgroup>``
 
-Indicates that the instructor has provided hints for certain common incorrect answers.
+Indicates that the instructor has provided hints for certain common incorrect
+answers.
 
   Attributes
 
@@ -358,7 +415,9 @@ Specifies a common incorrect answer to the problem.
      * - name (required)
        - The name of the hint that you want to provide.
      * - type
-       - Specifies whether the text of the specified incorrect answer is case sensitive. Can be set to "cs" (case sensitive) or "ci" (case insensitive).
+       - Specifies whether the text of the specified incorrect answer is case
+         sensitive. Can be set to "cs" (case sensitive) or "ci" (case
+         insensitive).
 
   Children
 
@@ -376,7 +435,11 @@ Associates a common incorrect answer with the hint for that incorrect answer.
      * - Attribute
        - Description
      * - on
-       - The name of the hint. This must be the same as the **name** attribute of the ``<stringhint>`` tag. (The ``<stringhint>`` tag provides the name of the hint and the incorrect answer to associate with the hint. The ``<hintpart>`` tag contains the name of the hint and the text of the hint.)
+       - The name of the hint. This must be the same as the ``name`` attribute
+         of the ``<stringhint>`` tag. (The ``<stringhint>`` tag provides the
+         name of the hint and the incorrect answer to associate with the hint.
+         The ``<hintpart>`` tag contains the name of the hint and the text of
+         the hint.)
 
   Children
 
@@ -395,3 +458,6 @@ Surround the text of the hint.
   
   (none)
 
+
+
+.. _Using edX Insights: http://edx.readthedocs.org/projects/edx-insights/en/latest/

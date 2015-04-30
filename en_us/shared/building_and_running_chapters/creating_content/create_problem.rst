@@ -144,16 +144,16 @@ The Studio View of a Problem
 All problems are written in XML. However, Studio offers two interfaces for
 editing problem components: the Simple Editor and the Advanced Editor.
 
-*  The **Simple Editor** allows you to edit problems visually, without
-   having to work with XML.
+*  The Simple Editor allows you to edit problems visually, without
+   having to work with XML. 
 
-*  The **Advanced Editor** converts the problem to edX’s XML standard and
+*  The Advanced Editor converts the problem to edX's XML standard and
    allows you to edit that XML directly.
 
 You can switch at any time from the Simple Editor to the Advanced Editor by
 clicking **Advanced Editor** in the top right corner of the Simple Editor
 interface. However, it is not possible to switch from the Advanced Editor to
-the Simple Editor.
+the Simple Editor. 
 
 .. _Simple Editor:
 
@@ -161,29 +161,8 @@ the Simple Editor.
 The Simple Editor
 =================
 
-Several problem templates, including multiple choice and text input problem
-templates, open in the Simple Editor. The following image shows a multiple
-choice problem in the Simple Editor.
-
-.. image:: ../../../shared/building_and_running_chapters/Images//MultipleChoice_SimpleEditor.png
- :alt: Image of a problem in the simple editor
-
-The Simple Editor includes a toolbar that helps you format the text of your
-problem. When you select text and then click the formatting buttons, the Simple
-Editor formats the text for you automatically. The toolbar buttons are the
-following:
-
-1. Create a level 1 heading.
-2. Create multiple choice options.
-3. Create checkbox options.
-4. Create text input options.
-5. Create numerical input options.
-6. Create dropdown options.
-7. Create an explanation that appears when students click **Show Answer**.
-8. Open the problem in the Advanced Editor.
-9. Open a list of formatting hints.
-
-The following problem templates open in the Simple Editor.
+When you select the following problem types, the Simple Editor opens with a
+preformatted example problem.
 
 *  :ref:`Checkbox`: In checkbox problems, students select one or more options
    from a list of possible answers.
@@ -202,12 +181,48 @@ The following problem templates open in the Simple Editor.
 *  :ref:`Text Input`: In text input problems, students enter a short text
    answer to a question.
 
+This image shows an example multiple choice problem in the Simple Editor.
+
+.. image:: ../../../shared/building_and_running_chapters/Images//MultipleChoice_SimpleEditor.png
+ :alt: The simple editor with numbered callouts for options and an example
+     multiple choice problem to demonstrate the formatting.
+
+The Simple Editor includes a toolbar with options that provide the required
+formatting for different types of problems. When you select an option from the
+toolbar, formatted sample text appears in the Simple Editor. Alternatively,
+you can apply formatting to your own text by selecting the text and then one
+of the toolbar options.
+
+Descriptions of the toolbar options follow.
+
+ 1. **Heading 1**: Format text as a first level heading.
+ 2. **Multiple Choice**: Identify the text on each selected line as an answer
+    option for a multiple choice problem.
+ 3. **Checkboxes**: Identify the text on each selected line as an answer
+    option for a checkboxes problem.
+ 4. **Text Input**: Identify the correct answer for a text input problem.
+ 5. **Numerical Input**: Identify the correct answer, with an optional
+    tolerance, for a numerical input problem.
+ 6. **Dropdown**: Identify a comma-separated list as the answer options for a
+    dropdown problem.
+ 7. **Explanation**: Format text as an explanation that appears when students
+    click **Show Answer**.
+ 8. Open the problem in the Advanced Editor.
+ 9. Open a list of formatting hints.
+10. **Accessible Label**: Identify the question as the problem's accessible
+    label. No toolbar option is available, but when you surround text with two
+    pairs of angle brackets pointing inward (``>>question<<``), screen readers
+    use that text as the accessible label for the problem.
+
+    In addition, edX Insights uses the accessible label to identify the
+    question in each problem. For more information, see `Using edX Insights`_.
 
 .. _Advanced Editor:
 
 ===================
 The Advanced Editor
 ===================
+
 The **Advanced Editor** opens a problem in XML. Templates for problems such as
 such as drag and drop and math expression input open directly in the Advanced
 Editor.
