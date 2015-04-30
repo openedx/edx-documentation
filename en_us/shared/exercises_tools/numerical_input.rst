@@ -10,7 +10,7 @@ learners enter is converted to a symbolic expression that appears below the
 response field.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/image292.png
- :alt: A numerical input problem with 3 questions, 2 correct answers and 1
+ :alt: A problem with 3 questions, the learner gave 2 correct and 1
      incorrect answer
 
 You can specify a margin of error, or tolerance, for the answers to these
@@ -47,7 +47,7 @@ Editor regardless of the answer to the problem.
 For example, the following problems require the Advanced Editor. 
 
 .. image:: ../../../shared/building_and_running_chapters/Images/NumericalInput_Complex.png
- :alt: Image of a more complex numerical input problem
+ :alt: A problem that requires a square root as the answer
 
 For more information about including a Python script in your problem, see
 :ref:`Write Your Own Grader`.
