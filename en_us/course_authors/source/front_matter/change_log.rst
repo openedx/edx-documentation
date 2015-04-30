@@ -12,9 +12,12 @@ April 2015
 
    * - Date
      - Change
+   * - 30 Apr 2015
+     - Updated :ref:`Getting Started with edX` to reflect changes to the
+       Dashboard, account settings, and profiles.
    * - 22 Apr 2015
-     - Updated the :ref:`Working with Video Components` section to reflect a field
-       label change. 
+     - Updated the :ref:`Working with Video Components` section to reflect a
+       field label change.
    * -   
      - Added the :ref:`SFD Dashboard Settings Profile` topic with profile and
        account settings information.     
