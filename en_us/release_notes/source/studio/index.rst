@@ -2,6 +2,17 @@
 edX Studio
 ####################################
 
+*********************
+May 5, 2015
+*********************
+
+New templates for HTML and problem components are now available. These
+templates provide updated guidelines and examples, accessibility information,
+and links to documentation.
+
+.. image:: ../Images/NewProblemTemplate.png
+ :width: 500
+ :alt: The new Image Mapped Input problem template
 
 ******************
 April 22, 2015
