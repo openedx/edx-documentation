@@ -335,7 +335,7 @@ You can view the course as a member of these groups:
       - You see content that is intended for all students, as well
         as any content specifically set to be visible to this content group.
 
-#. In Studio, in the course outline, click **Preview Changes**. You see your
+#. In Studio, in the course outline, click **Preview**. You see your
    course section in the **Courseware** section of the LMS.
 
 #. In the navigation bar at the top of the page, select one of the options in

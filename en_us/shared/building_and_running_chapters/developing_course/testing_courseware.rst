@@ -28,13 +28,14 @@ For information about setting up a beta test for your course, see
 Preview Course Content
 *************************
 
-You preview course content before you publish it to test how it will look to
-students.
+You can preview course content before a course is live or before you publish
+specific units, to test how content will appear to students when it is
+released.
  
-When you preview course content, you see the latest course content as configured
+When you preview course content, you see the latest course content configured
 in Studio. You see content in units with the publishing status :ref:`Draft
 (Never Published)`, :ref:`Draft (Unpublished Changes)`, or :ref:`Visible to
-Staff Only`. 
+Staff Only`.
 
 If you use content groups and have designated components in a unit as visible
 only to particular groups, the visibility status indicates that some content in
@@ -42,42 +43,45 @@ the unit is visible only to particular groups. For information about previewing
 course content if you use content groups to designate content as visible only to
 particular groups, see :ref:`Preview Cohort Specific Courseware`.
 
-For example, you :ref:`publish a unit<Publish a Unit>` with a video and
-discussion:
+For example, you :ref:`publish a unit<Publish a Unit>` with a video and a
+discussion.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/test-unit-studio.png
  :alt: A unit in Studio with a video and discussion
 
-Students see the same content in the LMS:
+Students see the same content in the LMS.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/test-unit-lms.png
  :alt: A unit in the LMS with a video and discussion
 
 You later decide to add a multiple choice problem to the unit, before the
-discussion:
+discussion. Before you publish this change, you can see how the question will
+look to students by previewing the unit in the LMS.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/test-unit-studio-added-comp.png
- :alt: A unit in Studio with a video, problem, and discussion
+ :alt: A unit in Studio with a video and multiple choice problem. (The
+   discussion component below the multiple choice problem is not included in
+   the screen capture).
 
-Before you publish this change, you can see what the question will look to
-students.
 
-When you click **Preview Changes**,  you see the unit in the LMS with
-the multiple choice question:
+When you click **Preview** and select to view the course as a **Student**, you
+see the unit in the LMS with the multiple choice question. This preview shows
+how students will experience the unit after you :ref:`publish the
+change<Publish a Unit>`.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/test-unit-lms-added-comp.png
- :alt: A unit in the LMS with a video, problem, and discussion
+ :alt: A unit in the LMS with "View as Student" selected, showing a video and
+  a multiple choice problem. (The discussion component below the multiple
+  choice problem is not included in the screen capture).
 
-This preview shows how students will experience the unit after you
-:ref:`publish the change<Publish a Unit>`.
 
-In the live course, students continue to see the same content, without the
+In the live course, students continue to see the existing content, without the
 multiple choice question, until you :ref:`publish the change<Publish a Unit>`.
 
-.. note:: 
-  **Preview Changes** in not available when the unit's state is :ref:`Published
-  and Live`, because in this case the preview and live version are exactly the
-  same. You can view the live course to see the published content.
+.. note:: When the unit's state is :ref:`Published and Live`, the preview and
+   the live version of the courseware are exactly the same. Selecting either
+   of **View Live** or **Preview** gives you the same view.
+
 
  
 .. _View Your Live Course:
@@ -113,7 +117,7 @@ You see the course in the **Staff View**.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/Live_Course_Staff_View.png
  :alt: Image of the Courseware page in a live course with Staff View indicated
-     at top right and a View Unit in Studio button
+  at top right and a View Unit in Studio button
  
 In **Staff View**:
 
@@ -151,8 +155,9 @@ course with all course content that is intended for all students.
 To switch to the **Student** view, click **View this course as** and select
 **Student** from the drop down list.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/test-view-as-student.png  
-   :alt: Image of the View Course As drop down list with Staff, Student, and named content group options
+.. image:: ../../../shared/building_and_running_chapters/Images/test-view-as-student.png
+ :alt: Image of the View Course As drop down list with Staff, Student, and
+  named content group options
 
 In **Student View**:
 
