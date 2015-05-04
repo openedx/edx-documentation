@@ -75,12 +75,10 @@ For best results, your video files should have these compression specifications.
 File Naming Conventions
 ================================
 
-Each video file must have a unique name. If you upload a file that has the
-same name more than once, the new file overwrites the original file.
-
-The edX media team recommends that organizations define a naming convention
-for video files, and apply it to videos for all courses. At a minimum, your
-naming convention should include these elements.
+Each video file must have a unique name. The edX media team recommends that
+organizations define a naming convention for video files, and apply it to
+videos for all courses. At a minimum, your naming convention should include
+these elements.
 
 * A course identifier.
 * The year of the initial course run.
