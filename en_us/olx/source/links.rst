@@ -9,7 +9,7 @@
 
 .. _2014.xml: https://github.com/edx/edx-platform/blob/master/common/test/data/manual-testing-complete/course/2014.xml
 
-.. _LONCAPA XML format: https://s1.lite.msu.edu/adm/help/Authoring_XML_Intro.hlp#Authoring_XML_Intro
+.. _LON-CAPA XML format: https://s1.lite.msu.edu/adm/help/Authoring_XML_Intro.hlp#Authoring_XML_Intro
 
 .. _edX-Insider: https://github.com/pmitros/edX-Insider
 
