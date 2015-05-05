@@ -41,7 +41,7 @@ distribution or misuse of this information.
 .. _Access_student_data:
 
 ****************************
-Access Student Data
+Accessing Student Data
 ****************************
 
 You can download data about the students who are currently enrolled in your
@@ -109,7 +109,7 @@ view student data on the Instructor Dashboard.
 .. note:: In addition to the data for enrolled students, data for the course 
  staff is included in the file or display.
 
-To download student data:
+To download student data, follow these steps.
 
 #. View the live version of your course.
 
@@ -131,7 +131,7 @@ To download student data:
 
   All student-supplied data is included in this file without truncation.
 
-To view student data:
+To view student data, follow these steps.
 
 .. note:: This option is available only for courses with an enrollment of less 
  than 200.
@@ -160,7 +160,7 @@ Cohort column with each student's assigned cohort group.
 .. _Access_anonymized:
 
 ********************************
-Access Anonymized Student IDs
+Accessing Anonymized Student IDs
 ********************************
 
 Some of the tools that are available for use with the edX platform, including
@@ -188,22 +188,131 @@ the ``{course_id}_student_profile_info_{date}.csv`` file of student data or the
 
 .. _Track Student Activity:
 
-******************************
-Track Student Activity
-******************************
+*************************************
+Using the Learner Engagement Report
+*************************************
 
-To monitor student activity during your course, you can review the number of
-students who, each week, interacted with your course. To be considered active,
-students must visit pages, play videos, add to discussions, submit answers to
-problems, or complete other course activities. The active student count is
-updated weekly.
+With the learner engagement report, you can monitor what individual learners
+are doing in your course. The report contains a row for each enrolled learner,
+and has columns that quantify overall course activity and engagement with
+course problems, videos, discussions, and textbooks.
 
-To display the number of active students:
+With this report, you can identify which learners are, and which are not,
+visiting course content. Further, you can identify the learners who are
+attempting problems, playing videos, participating in discussions, or viewing
+textbooks.
+
+The server generates a new learner engagement report every day for the
+previous day's activity. On Mondays, an additional report is generated to
+summarize activity during the previous week (Monday through Sunday).
+
+===================================================
+Understanding the Learner Engagement Report
+===================================================
+
+Reported Problem Types
+**********************
+
+To measure problem-related activity, the learner engagement report includes
+data for capa problems. That is, the report includes data for problems for
+which learners can select **Check**, including these problem types.
+
+ * Checkboxes
+ * Custom JavaScript
+ * Drag and Drop
+ * Dropdown
+ * Math expression input
+ * Multiple choice
+ * Numerical input
+ * Text input
+
+The report does not include data for open response assessments or LTI
+components.
+
+For more information about the problem types that you can add to courses, see
+:ref:`Exercises and Tools Index`.
+
+Report Columns
+**************
+
+The learner engagement report .csv files contain the following columns.
+
+.. list-table::
+   :widths: 20 60
+   :header-rows: 1
+
+   * - Column
+     - Description
+   * - Date
+     - Included only in the daily report. The date of the reported activity.
+   * - End Date
+     - Included only in the weekly report. The last date of the report
+       period.
+   * - Course ID
+     - The identifier for the course run.
+   * - Username
+     - The unique username for an edX account. 
+   * - Email
+     - The unique email address for an edX account.
+   * - Cohort
+     - Indicates the learner's assigned cohort. Blank if the learner is not
+       assigned to a cohort.
+   * - Was Active
+     - Included only in the daily report. 1 for learners who visited any page
+       (URL) in the course at least once during the reported day, 0 otherwise.
+   * - Days Active This Week
+     - Included only in the weekly report. Identifies the number of days
+       during the week that the learner visited any page (URL) in the course.
+   * - Unique Problems Attempted
+     - The number of unique problems for which the learner selected **Check**
+       to submit an answer. 
+   * - Total Problem Attempts
+     - The number of times the learner selected **Check** to submit answers,
+       regardless of the particular problem attempted.
+   * - Unique Problems Correct
+     - The number of unique problems for which the learner submitted a correct
+       answer.
+   * - Unique Videos Played
+     - The number of times the learner played a video. Each video that the
+       learner began to play is included in this count once.
+   * - Discussion Posts
+     - The number of new posts the learner contributed to the course
+       discussions.
+   * - Discussion Responses
+     - The number of responses the learner made to posts in the course
+       discussions.
+   * - Discussion Comments
+     - The number of comments the learner made on responses in the course
+       discussions.
+   * - Textbook Pages Viewed
+     - The number of pages in a .pdf textbook that the learner viewed. 
+   * - URL of Last Subsection Viewed
+     - The URL of the last subsection the learner visited.
+
+
+.. _Download the Learner Engagement Report:
+
+===================================================
+Download the Learner Engagement Report
+===================================================
+
+An automated process runs daily on the system server to update learner
+engagement data and create the daily or weekly .csv file for you to download.
+Links to the .csv files are available on the Instructor Dashboard.
+
+To download a learner engagement report, follow these steps.
 
 #. View the live version of your course.
 
-#. Click **Instructor**, then click **Analytics**. The count of active students
-   appears at the top of the page.
+#. Click **Instructor**, then click **Data Download**.
+
+#. At the bottom of the page, click the
+   ``student_engagement_daily_{date}.csv`` or ``student_engagement_weekly_{end
+   date}.csv`` file name. You might have to scroll down to find a specific
+   file.
+
+.. Victor, should I add a section on what to do with it after you've downloaded it? or refer them to a similar existing section for the student answer distribution report?
+
 
 
 .. _Using edX Insights: http://edx-insights.readthedocs.org/en/latest/

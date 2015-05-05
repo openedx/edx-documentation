@@ -58,6 +58,15 @@ A
 C
 ****
 
+**Capa Problem**
+
+  Any of the problem types implemented in the edX platform by the
+  ``capa_module`` XBlock. Examples range from the text input, drag and drop,
+  and math expression input problem types to the circuit schematic builder,
+  custom JavaScript, and chemical equation problem types.
+
+  Other assessment methods are also available, and implemented using other
+  XBlocks. An open response assessment is an example of a non-capa problem type.
 
 .. _Certificate:
  
