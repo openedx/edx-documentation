@@ -2,6 +2,15 @@
 edX Learning Management System
 ####################################
 
+*********************
+May 5, 2015
+*********************
+
+* A problem in which some learners could not select **Change Email** to change
+  their email addresses in Chrome has been fixed. (TNL-1745)
+
+* A problem that prevented navigation buttons from appearing correctly on
+  Windows computers in high-contrast mode has been fixed. (AC-36)
 
 ******************
 April 28, 2015
