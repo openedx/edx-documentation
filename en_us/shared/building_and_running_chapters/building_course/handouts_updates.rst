@@ -10,7 +10,7 @@ course updates and handouts on the **Course Info** page in your course.
 .. image:: ../../../shared/building_and_running_chapters/Images/course_info.png
  :alt: The Course Info page as it appears to students, with a "Course Updates
        & News" section containing a dated post and a "Course Handouts" frame
-       with a list of links
+       with a list of links.
 
 .. _Add a Course Update:
 
@@ -19,8 +19,9 @@ Add a Course Update
 **********************
 
 You add an update to notify learners of an upcoming exam or deadline, a change
-in the course schedule, or make any other announcement that has a 
-time-sensitive or urgent nature.
+in the course schedule, and make other announcements that are time-sensitive.
+When you add an update, you have the option to send a notification to learners
+who use the edX moile app to access your course.
 
 To add a course update, follow these steps.
 
@@ -30,13 +31,15 @@ To add a course update, follow these steps.
 
     * You must use HTML to format your update. The :ref:`visual editor<The
       Visual Editor>` is not provided for course handouts.
+    * To provide the best experience for learners who read course updates on
+      their smartphones, include only unformatted text.
     * If you change the supplied date, the new date appears above the update
       on the **Course Info** page. However, the update is visible to all
       enrolled learners as soon as you post it.
 
 4. Optionally, choose whether to send a notification about your update to the
-   edX mobile app. For the best experience on smartphones, your update should
-   only include unformatted text.
+   edX mobile app. 
+
 #. Select **Post**. 
    
    Your update appears on the **Course Info** page in your course immediately.

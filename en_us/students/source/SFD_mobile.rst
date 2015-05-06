@@ -269,32 +269,30 @@ and make other announcements. However, each course team decides what to
 announce and when, and whether to send the notifications to the mobile app.
 
 ========================================================
-Where can I read the course notifications?
+Where can I read all of the notifications for my course?
 ========================================================
 
-#. Open the edX mobile app.
-#. Select the course.
-#. Select **Course Info**. 
-   
-   The most recent notification appears at the bottom of the page. Scroll
-   down to read older notifications.
+Course teams can choose whether or not to send notifications when they add
+announcements to the **Course Info** page. You can use the edX mobile app or a
+web browser to visit the **Course Info** page and read all of the
+announcements.
 
-To read all of course announcements, use a web browser to visit the course's
-**Course Info** page.
+==================================================================
+How do I turn off course notifications (or turn them back on)?
+==================================================================
 
-====================================================
-How do I turn course notifications off (or back on)?
-====================================================
-
-You can turn notifications off, or on, for an individual course on the
-**Course Info** page.
-
+You can turn notifications off, or on, for each of your courses. In the edX
+mobile app, select the course and visit its **Course Info** page to change the
+notification setting.
 
 ===========================================================
 Can I turn off notifications for all of my courses at once?
 ===========================================================
 
-
+You can turn all notifications off for the edX mobile app. To change the
+notification setting on an Android smartphone, visit the **App info** page for
+the edX mobile app. On an iPhone, visit **Settings** and then select the edX
+mobile app.
 
 .. _Troubleshooting:
 
@@ -302,9 +300,9 @@ Can I turn off notifications for all of my courses at once?
 Troubleshooting
 *************************
 
-======================================================================================================
+==========================================================================================
 I get a "This video is not available" screen when I try to watch a video. What can I do?
-======================================================================================================
+==========================================================================================
 
 If you run into problems, make sure you have an Internet connection. If problems
 persist, let us know: go to your **My Courses** page on the app, select the menu
