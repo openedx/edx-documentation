@@ -339,19 +339,20 @@ Preview a Unit
 You preview a unit to review and test the content before it is visible to
 students.
 
-You can preview a unit before it is published and when there are unpublished
-changes. When the unit is published and there are no pending changes, you
-cannot preview the unit; you must view the live version of the unit.
+You can preview a unit before it is published and before the course is live.
+In a live course, after the unit is published and if there are no pending
+changes, previewing a unit is exactly the same as viewing the live version of
+the unit.
 
-To preview the unit, in the unit page, click **Preview Changes**.
+To preview the unit, in the unit page, click **Preview**.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/preview_changes.png
- :alt: The Unit page with Preview Changes button circled
+ :alt: A course unit page, with the Preview button circled
 
-The unit opens in preview mode:
+The unit opens in preview mode.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/preview_mode.png
- :alt: The unit in preview mode
+ :alt: The unit in preview mode in the LMS
 
 When you are revising a previously published unit, it is helpful to preview
 your changes in one window and :ref:`view the published unit<View a Published
@@ -426,11 +427,11 @@ published version, click **Discard Changes** in the status panel.
 View a Published Unit
 ****************************
 
-To view the last published version of a unit in the LMS, click **View Published
+To view the last published version of a unit in the LMS, click **View Live
 Version**.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/unit_view_live_button.png
- :alt: Unit page with View Published Version button circled
+ :alt: Unit page with View Live Version button circled
 
 The unit page opens in the LMS in Staff view. You may be prompted to log in to
 the LMS.
@@ -438,8 +439,8 @@ the LMS.
 If the unit status is `Draft (Unpublished Changes)`_, you do not see your
 changes in the LMS until you publish the unit again.
 
-If the unit status is `Draft (Never Published)`_, the **View Published
-Version** button is not enabled.
+If the unit status is `Draft (Never Published)`_, the **View Live Version**
+button is not enabled.
 
 .. _Hide a Unit from Students:
 
