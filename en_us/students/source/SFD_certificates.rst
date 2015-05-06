@@ -202,13 +202,6 @@ enough of the course with a high enough grade to qualify for a certificate.
 You do not have to wait until you finish the course. You can usually find out
 if a course offers on-demand certificates on the course About page.
 
-.. note:: Both honor code and verified certificates are available on 
- demand. However, if you want to upgrade from an honor code certificate to a
- verified certificate, **you must complete the upgrade before you request an
- on-demand certificate**. If you request an on-demand honor code certificate and
- later upgrade to a verified certificate, you can only download an honor code
- certificate.
-
 If a course offers on-demand certificates, as soon as you have qualified for a
 certificate, you see the following message at the top of the course
 **Progress** page.
