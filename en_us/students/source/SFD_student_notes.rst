@@ -4,80 +4,81 @@
 Student Notes
 ##############################
 
-In some edX courses, you can use the Student Notes feature to highlight and make
-notes about what you read right in the body of the course. You can see
-individual notes inside the course content, or you can see all of your notes at
-once on the **Notes** tab.
+In some edX courses, you can use the Student Notes feature to highlight and
+make notes about what you read right in the body of the course. Your notes can
+contain text as well as tags that you add to categorize your notes.
 
-.. image:: /Images/SFD_SN_bodyexample.png
-  :width: 500
-  :alt: Image of a course page that includes highlighted text and a student note
-
-.. note:: You can create notes for most text in the body of the course. 
- However, the student notes feature is currently not available for exercises,
- videos, or PDF textbooks.
-
-***************************
-Using Student Notes
-***************************
-
-When a course includes student notes, every page has a **Notes** tab at the top
-and a pencil icon in the lower-right corner.
+When a course includes student notes, every page has a **Notes** tab at the
+top and a pencil icon in the lower right corner. You can see individual notes
+inside the course content, or you can see all of your notes at once on the
+**Notes** tab.
 
 .. image:: /Images/SFD_SN_notesindicators.png
   :width: 500
-  :alt: Page of course content with the Notes tab at the top and the pencil icon
-      in the lower-right corner
+  :alt: Page of course content that includes the Notes tab at the top,
+      highlighted text with an accompanying note, and the pencil icon in the
+      lower right corner.
 
-The **Notes** tab lists all the notes that you have made during the course.
-For more information, see :ref:`The Notes Tab`.
+.. note:: You can create notes for most text in the body of the course. 
+ However, the Student Notes feature is currently not available for exercises,
+ videos, or PDF textbooks.
 
-.. note:: Learners who do not use a mouse can use keyboard shortcuts to create, 
- access, and delete notes. For more information about using keyboard
- shortcuts, see :ref:`SFD SN Keyboard Shortcuts`.
-
-
-======================================
+*************************************
 Make a Note or Highlight a Passage
-======================================
+*************************************
 
-To make a note on a page:
+To make a note on a page, follow these steps. 
+
+.. note:: You can also use keyboard shortcuts to create, access, and delete 
+ notes. For more information about using keyboard shortcuts, see :ref:`SFD SN
+ Keyboard Shortcuts`.
 
 #. Select the text that you want to make the note about. You can select as
-   many characters and words as you want.
+   much text as you want.
 
 #. When a pencil "edit" icon appears above the selected text, click
    the icon to open the note editor.
 
    .. image:: /Images/SFD_SN_Create-EditNoteIcon.png
      :width: 400
-     :alt: Paragraph with one sentence selected and the pencil icon above the
-         selected text
+     :alt: Paragraph with text selected and the pencil icon above the selected
+         text.
 
-#. In the field that appears, type the text of your note. Your note can contain
-   as many words as you want.
+#. When the note editor opens, enter your note and any tags that you want to
+   add. You can also save the highlight for the passage without entering a
+   note or tag.
 
-   .. image:: /Images/SFD_SN_NoteEditor.png
-     :width: 400
-     :alt: Note editor open with a student's note
+   * To enter a note, click **Comments**, and then type the text of your note.
+     Your note can contain as many words as you want.
 
-#. After you've finished writing your note, click **Save** or press ENTER. The
-   note editor closes, and the text that you selected remains highlighted.
+   * To add one or more tags, click **Add some tags here**, and then type any
+     tags that you want to add. 
 
-If you want to highlight a passage without making a note, open the note
-editor by following the steps above, and then click **Save** or press ENTER.
-When you hover over the highlighted text, the note field contains the words "no
-comment".
+     Tags cannot contain spaces. If you want to add a tag that has more than
+     one word, type multiple words as one word with no spaces, or use hyphens
+     (-) or underscores (_) to separate words in the tag.
 
-======================
+     .. image:: /Images/SFD_SN_NoteEditor.png
+      :width: 400
+      :alt: Note editor open with a learner's note.
+
+   * To highlight a passage without adding a note or tag, select **Save** or
+     press Enter. When you hover over the highlighted text, the note field
+     contains the words "no comment".
+
+3. After you finish writing your note and adding tags, select **Save** or
+   press Enter. The note editor closes, and the text that you selected remains
+   highlighted.
+
+***************************
 View and Search Notes
-======================
+***************************
 
 You can view your course notes in two places. 
 
 * You can view individual notes in the place in the course where you created the
   notes. To see your notes, go to the unit that contains your note and hover
-  over or click the highlighted text. When you click the highlighted text, your
+  over or select the highlighted text. When you select the highlighted text, your
   note remains open until you click outside the highlighted text.
 
 * You can view all the notes you've made in the course on the **Notes** tab. You
@@ -85,65 +86,71 @@ You can view your course notes in two places.
 
 .. _The Notes Tab:
 
+================
 The Notes Tab
-*****************
+================
 
 On the **Notes** tab, you can see all the notes you've made in your course in
 one place. You can also search the text of your notes.
 
 .. image:: /Images/SFD_SN_NotesTab.png
   :width: 500
-  :alt: Notes tab showing a list of notes ordered by recent activity
+  :alt: Notes tab showing a list of notes ordered by recent activity.
 
-The **Notes** tab lists both the text that you selected and the note that you
+The **Notes** tab lists the text that you selected and the note that you
 made. You can sort the notes by the date you created or edited them, or by the
 location of the note in the course. 
 
-Next to each note, you can also see the location of the text and your note in
-the course. To see your note in the body of the course, click the link under
-**Noted In** for that note.
+Next to each note, you can also see the following information.
 
-To search your notes, type a search term in the **Search notes for** box, and
-then either click the magnifying glass icon or press ENTER.
+* A link to the location in the course that contains the highlighted text and
+  your note. To go to that location, click the link under **Noted in**.
+* The time and date when you last edited the note.
+* Any tags that you added.
+
+To search your notes, type a search term in the **Search notes for** field, and
+then either click the magnifying glass icon or press Enter.
 
 
-=======================================
+************************************
 Edit or Delete a Note or Highlight
-=======================================
+************************************
 
-To edit a note:
+To edit a note, follow these steps.
 
 #. In the body of the course, hover over the highlighted text until your note
    appears.
-#. When the note appears, hover over the note until a pencil and paper icon and
-   an X icon appear in the note field, and then click the pencil and paper icon
-   to open the note editor.
+#. When the note appears, select the pencil icon in the upper right corner to
+   open the note editor.
 
    .. image:: /Images/SFD_SN_EditDeleteNote.png
     :width: 175
-    :alt: Note editor with the pencil and paper and X icons visible
+    :alt: Note editor with the pencil and paper and X icons visible.
 
 #. In the note editor, edit your note, and then click **Save**.
 
-To delete a note or highlight:
+To delete a note or highlight, follow these steps.
 
 #. Hover over the highlighted text until your note appears.
-#. When the note appears, hover over the note until a pencil and paper icon and
-   an X icon appear in the note field, and then click the X icon to delete the
-   note or highlight.
+#. When the note appears, select the trash icon in the upper right corner to
+   delete the note or highlight.
 
-===================
+***************************
 Show or Hide Notes
-===================
+***************************
 
-By default, you can see any notes that you make. If you don't want to see your
-highlights or notes in the course, select the pencil icon in the lower-right
-corner to hide student notes. You can always select the icon again if you want
-to see your notes.
+By default, all notes that you make are visible. However, you can show or hide
+notes by selecting the the pencil icon in the lower right corner. When the
+pencil icon has a dark gray background, notes are visible. When the pencil
+icon has a light gray background, notes are hidden.
+
+.. image:: /Images/SFD_SN_NotesShowHide.png
+  :width: 400
+  :alt: Two page excerpts side by side, the image on the right showing notes
+       visible, and the image on the left showing notes hidden.
 
 .. note:: If you hide student notes, you cannot make new notes. To make new
  notes, select the pencil icon to show notes.
-
 
 .. _SFD SN Keyboard Shortcuts:
 
@@ -165,16 +172,8 @@ You can use keyboard shortcuts to create, edit, and delete your notes.
   * Chrome does not support caret browsing.
 
 Before you use the following keyboard shortcuts, you must make sure that notes
-are turned on. To turn notes on or off, press Ctrl + Shift + left bracket
-(``[``). Notes are turned on when a pencil icon with a dark gray background is
-visible in the lower-right corner of the page. If the pencil icon has a light
-gray background, notes are turned off. In the following image, notes are
-turned on.
-
-.. image:: /Images/SFD_SN_NotesOn.png
-  :width: 500
-  :alt: Course page with an arrow pointing to the dark gray pencil icon that
-      indicates notes are turned on
+are visible. To show or hide notes, press Ctrl + Shift + left bracket
+(``[``). 
 
 =======================================
 Create a Note Using the Keyboard
@@ -186,8 +185,11 @@ To create a note using keyboard shortcuts, follow these steps.
 #. Use the arrow keys to move the cursor to the left of the text that you want
    to highlight.
 #. Hold down Shift + right arrow to select the text.
-#. Press Ctrl + Shift + right bracket (``]``) to open the note editor.
+#. Press Ctrl + Shift + right bracket (``]``) to open the note editor. The
+   note editor opens with the cursor in the text field.
 #. In the text field, type your note.
+#. To add tags, press Tab to move to the tag field, and then add
+   your tags.
 #. To save your note, press Tab to move to the **Save** button, and then press
    Enter.
 
@@ -203,8 +205,8 @@ To edit or delete a note, follow these steps.
 
 #. Press Tab to move focus to the note that you want.
 #. Press Ctrl + spacebar or Ctrl + Enter to open the note editor.
-#. Press Tab to move the cursor to the text field, and then make the changes
-   that you want.
+#. Press Tab to move the cursor to the text field or the tag field, and then
+   make the changes that you want.
 #. Press Tab to move to the **Edit**, **Delete**, or **Close** button, and
    then press Enter.
 
