@@ -10,6 +10,9 @@ Change Log
 
    * - Date
      - Change
+   * - 7 May 2015
+     - Added the :ref:`Testing Event Emission` topic to the :ref:`analytics`
+       section.
    * - 14 Apr 2015
      - Added the initial topic, :ref:`edX Objective-C Style Guide`, to the
        edX Style Guidelines section.
