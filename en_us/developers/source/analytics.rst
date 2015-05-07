@@ -91,6 +91,7 @@ Debugging Events
 On devstack, emitted events are stored in the ``/edx/var/log/tracking.log`` log
 file. This file can be useful for validation and debugging.
 
+.. _Testing Event Emission:
 
 Testing Event Emission
 ======================
