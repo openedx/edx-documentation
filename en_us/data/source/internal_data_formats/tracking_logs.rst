@@ -415,13 +415,13 @@ outside the Instructor Dashboard.
 
 * :ref:`pdf`
 
-* :ref:`student_notes`
-
 * :ref:`problem`
 
 * :ref:`library_events`
 
 * :ref:`forum_events`
+
+* :ref:`student_notes`
 
 * :ref:`ora2`
 
@@ -1833,234 +1833,6 @@ user selects or clears the **Match Case** option for a search.
        
        Blank for successful search strings.
 
-
-.. _student_notes:
-
-=================================
-Student Notes Events   
-=================================
-
-This section includes descriptions of the following events. 
-
-* ``edx.course.student_notes.added``
-* ``edx.course.student_notes.viewed``
-* ``edx.course.student_notes.edited``
-* ``edx.course.student_notes.deleted``
-* ``edx.course.student_notes.searched``
-* ``edx.course.student_notes.used_unit_link``
-
-``edx.course.student_notes.added``
-***********************************
-
-The browser emits ``edx.course.student_notes.added`` events when a learner
-adds a note in courseware.
-
-**Event Source**: Browser
-
-**History**: This event was added in April 2015.
-
-``event`` **Member Fields**: 
-
-.. list-table::
-   :widths: 15 15 60
-   :header-rows: 1
-
-   * - Field
-     - Type
-     - Details
-   * - ``note_id``
-     - string
-     - The ID of the note. 
-   * - ``note_text``
-     - string
-     - The text of the note (truncated at 300 characters).
-   * - ``note_text_truncated``
-     - boolean
-     - Indicates whether the ``note_text`` field is truncated.
-   * - ``highlighted_content``
-     - string  
-     - The course text that the learner highlighted (truncated at 300 characters).
-   * - ``highlighted_content_truncated``
-     - boolean 
-     - Indicates whether the ``highlighted_content`` field is truncated.
-   * - ``component_usage_id``
-     - string  
-     - The ID of the component where the learner added the note.
-
-``edx.course.student_notes.viewed``
-***********************************
-
-The browser emits ``edx.course.student_notes.viewed`` events when a learner
-views notes in courseware.
-
-**Event Source**: Browser
-
-**History**: This event was added in April 2015.
-
-``event`` **Member Fields**: 
-
-.. list-table::
-   :widths: 15 15 60
-   :header-rows: 1
-
-   * - Field
-     - Type
-     - Details
-   * - ``notes``
-     - list
-     - A list of the currently visible notes. Learners can add multiple notes
-       to the same text.
-
-``event.notes`` **Member Fields**: 
-
-.. list-table::
-   :widths: 15 15 60
-   :header-rows: 1
-
-   * - Field
-     - Type
-     - Details
-   * - ``note_id``
-     - string
-     - The ID of the note.
-
-
-``edx.course.student_notes.edited``
-***********************************
-
-The browser emits ``edx.course.student_notes.edited`` events when a learner
-edits a note in courseware.
-
-**Event Source**: Browser
-
-**History**: This event was added in April 2015.
-
-``event`` **Member Fields**: 
-
-.. list-table::
-   :widths: 15 15 60
-   :header-rows: 1
-
-   * - Field
-     - Type
-     - Details
-   * - ``note_id``
-     - string
-     - The ID of the note.
-   * - ``old_note_text``
-     - string
-     - The text of the note before the learner edited it (truncated at 300
-       characters).
-   * - ``old_note_text_truncated``
-     - boolean
-     - Indicates whether the ``old_note_text`` field is truncated.
-   * - ``note_text``
-     - string
-     - Text of the new note (truncated at 300 characters).
-   * - ``note_text_truncated``
-     - boolean 
-     - Indicates whether the ``notes_text`` field is truncated.
-   * - ``highlighted_content``
-     - string  
-     - The course text that the learner highlighted (truncated at 300 characters).
-   * - ``highlighted_content_truncated``
-     - boolean 
-     - Indicates whether the ``highlighted_content`` field is truncated.
-   * - ``component_usage_id``
-     - string  
-     - The ID of the component where the learner added the note.
-
-``edx.course.student_notes.deleted``
-*************************************
-
-The browser emits ``edx.course.student_notes.deleted`` events when a learner
-deletes a note in courseware.
-
-**Event Source**: Browser
-
-**History**: This event was added in April 2015.
-
-``event`` **Member Fields**: 
-
-.. list-table::
-   :widths: 15 15 60
-   :header-rows: 1
-
-   * - Field
-     - Type
-     - Details
-   * - ``note_id``
-     - string
-     - The ID of the note.
-   * - ``note_text``
-     - string
-     - Text of the new note (truncated at 300 characters).
-   * - ``note_text_truncated``
-     - boolean 
-     - Indicates whether the ``notes_text`` field is truncated.
-   * - ``highlighted_content``
-     - string  
-     - The course text that the learner highlighted (truncated at 300 characters).
-   * - ``highlighted_content_truncated``
-     - boolean 
-     - Indicates whether the ``highlighted_content`` field is truncated.
-   * - ``component_usage_id``
-     - string  
-     - The ID of the component where the learner added the note.
-
-``edx.course.student_notes.searched``
-*************************************
-
-The browser emits ``edx.course.student_notes.searched`` events when a learner
-searches notes on the **Student Notes** page.
-
-**Event Source**: Browser
-
-**History**: This event was added in April 2015.
-
-``event`` **Member Fields**: 
-
-.. list-table::
-   :widths: 15 15 60
-   :header-rows: 1
-
-   * - Field
-     - Type
-     - Details
-   * - ``number_of_results``
-     - integer
-     - The number of search results.
-   * - ``search_string``
-     - string
-     - The text of the search query.
-
-``edx.course.student_notes.used_unit_link``
-*************************************
-
-The browser emits ``edx.course.student_notes.used_unit_link`` events when a
-learner clicks the link from a note on the **Student Notes** page to the
-location of the note in the courseware.
-
-**Event Source**: Browser
-
-**History**: This event was added in April 2015.
-
-``event`` **Member Fields**: 
-
-.. list-table::
-   :widths: 15 15 60
-   :header-rows: 1
-
-   * - Field
-     - Type
-     - Details
-   * - ``note_id``
-     - string
-     - The ID of the note.
-   * - ``component_usage_id``
-     - string  
-     - The ID of the component where the learner added the note.
-
 .. _problem:
 
 =================================
@@ -3044,6 +2816,194 @@ complete, the server emits an ``edx.forum.thread.created`` event.
        Also present for ``edx.forum.response.created`` and
        ``edx.forum.comment.created`` events.
        
+.. _student_notes:
+
+=================================
+Student Notes Events   
+=================================
+
+This section includes descriptions of the following events. 
+
+* ``edx.course.student_notes.added``
+* ``edx.course.student_notes.deleted``
+* ``edx.course.student_notes.edited``
+* ``edx.course.student_notes.searched``
+* ``edx.course.student_notes.used_unit_link``
+* ``edx.course.student_notes.viewed``
+
+The Student Notes tool allows students to highlight and make notes about what
+they read in the body of the course. Students can access their notes either in
+the body of the course or on a **Notes** tab.
+
+For more information, see (URL of published documentation).
+
+.. _edx_course_student_notes_added:
+
+``edx.course.student_notes.added``
+***********************************
+
+The browser emits ``edx.course.student_notes.added`` events when a learner
+adds a note in courseware.
+
+**Event Source**: Browser
+
+**History**: Added 12 May 2015.
+
+``event`` **Member Fields**: 
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+   * - ``component_usage_id``
+     - string  
+     - The ID of the component where the learner added the note.
+   * - ``highlighted_content``
+     - string  
+     - The course text that the learner highlighted. The text is truncated at
+       300 characters.
+   * - ``highlighted_content_truncated``
+     - boolean 
+     - Indicates whether the ``highlighted_content`` field is truncated.
+   * - ``note_id``
+     - string
+     - The ID of the note. 
+   * - ``note_text``
+     - string
+     - The text of the note. Notes are truncated at 300 characters.
+   * - ``note_text_truncated``
+     - boolean
+     - Indicates whether the ``note_text`` field is truncated.
+
+``edx.course.student_notes.deleted``
+*************************************
+
+The browser emits ``edx.course.student_notes.deleted`` events when a learner
+deletes a note in courseware.
+
+**Event Source**: Browser
+
+**History**: Added 12 May 2015.
+
+``event`` **Member Fields**: 
+
+The member fields in the ``edx.course.student_notes.deleted`` event are the
+same as the member fields in the :ref:`edx_course_student_notes_added` event.
+
+
+``edx.course.student_notes.edited``
+***********************************
+
+The browser emits ``edx.course.student_notes.edited`` events when a learner
+edits a note in courseware.
+
+**Event Source**: Browser
+
+**History**: Added 12 May 2015.
+
+``event`` **Member Fields**: 
+
+The ``edx.course.student_notes.edited`` event includes the following fields in
+addition to the member fields in the :ref:`edx_course_student_notes_added`
+event.
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+   * - ``old_note_text``
+     - string
+     - The text of the note before the learner edited it. Notes are truncated
+       at 300 characters.
+   * - ``old_note_text_truncated``
+     - boolean
+     - Indicates whether the ``old_note_text`` field is truncated.
+
+
+``edx.course.student_notes.searched``
+*************************************
+
+The browser emits ``edx.course.student_notes.searched`` events when a learner
+searches notes on the **Student Notes** page.
+
+**Event Source**: Browser
+
+**History**: Added 12 May 2015.
+
+``event`` **Member Fields**: 
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+   * - ``number_of_results``
+     - integer
+     - The number of search results.
+   * - ``search_string``
+     - string
+     - The text of the search query.
+
+``edx.course.student_notes.used_unit_link``
+*********************************************
+
+The browser emits ``edx.course.student_notes.used_unit_link`` events when a
+learner uses a note link on the **Student Notes** page to go to the HTML
+component that contains that note.
+
+**Event Source**: Browser
+
+**History**: Added 12 May 2015.
+
+``event`` **Member Fields**: 
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+   * - ``component_usage_id``
+     - string  
+     - The ID of the component where the learner added the note.
+   * - ``note_id``
+     - string
+     - The ID of the note.
+
+``edx.course.student_notes.viewed``
+***********************************
+
+The browser emits ``edx.course.student_notes.viewed`` events when a learner
+views notes in courseware.
+
+**Event Source**: Browser
+
+**History**: Added 12 May 2015.
+
+``event`` **Member Fields**: 
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+   * - ``notes``
+     - list
+     - A list of the currently visible notes. Learners can add multiple notes
+       to the same text.
+
+Contains the member field ``note_id``, which contains the unique identifier for the note.
 
 .. _ora2:
 
