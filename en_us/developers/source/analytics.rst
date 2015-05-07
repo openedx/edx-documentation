@@ -86,10 +86,199 @@ sacrifice the clarity of an event in an attempt to minimize size. It is much
 more important that the event is clear.
 
 Debugging Events
-=================
+================
 
 On devstack, emitted events are stored in the ``/edx/var/log/tracking.log`` log
 file. This file can be useful for validation and debugging.
+
+
+Testing Event Emission
+======================
+
+It is important to test instrumentation code since regressions can have a
+significant negative impact on downstream consumers of the data.
+
+Each test can make stronger or weaker assertions about the structure and content
+of various fields in the event. Tests can make assertions about particular
+fields in the nested hierarchical structures that are events. This allows them
+to continue to pass even if a new global field is added to all events (for
+example).
+
+Assertions
+----------
+
+The ``openedx.core.lib.tests.assertions.events`` module contains helper
+functions that can be used to make assertions about events. The key function in
+this module is ``assert_event_matches`` which allows tests to make assertions
+about parts of the event. The signature looks like this::
+
+    def assert_event_matches(expected_event, actual_event, tolerate=None):
+
+The ``expected_event`` parameter contains the assertion that is being made. The
+``actual_event`` parameter contains the complete event that was emitted. The
+``tolerate`` parameter allows the test to specify the types of discrepancies
+that it cares about. This allows you to be very strict in assertions about some
+parts of the event and more lenient in other areas.
+
+Here are examples that highlight the default settings for ``tolerate``.
+
+::
+
+    # By default, decode string values for the "event" field as JSON and compare
+    # the contents with the actual event. This will not raise an error.
+    assert_event_matches(
+        {'event': {'a': 'b'}},
+        {'event': '{"a": "b"}'}
+    )
+
+    # Ignore "unexpected" root fields. This will not raise an error even though
+    # the field "foo" does not appear in the expected event.
+    assert_event_matches(
+        {'event_type': 'test'},
+        {'event_type': 'test', 'foo': 'bar'}
+    )
+
+    # Ignore "unexpected" fields in the context. This will not raise an error
+    # even though the field "foo" does not appear in the expected event context.
+    assert_event_matches(
+        {'event_type': 'test'},
+        {'event_type': 'test', 'context': {'foo': 'bar'}}
+    )
+
+    # Overriding "tolerate" allows more strict assertions to be made.
+    # This assertion will raise an error!
+    assert_event_matches(
+        {'event_type': 'test'},
+        {'event_type': 'test', 'context': {'foo': 'bar'}},
+        tolerate=[]
+    )
+
+
+Unit testing
+------------
+
+Test classes should inherit from
+``common.djangoapps.track.tests.EventTrackingTestCase``. Additionally, some
+helper assertion functions are available to help with making assertions about
+events.
+
+Here is an example of a subclass.
+
+::
+
+    from track.tests import EventTrackingTestCase
+    from openedx.core.lib.tests.assertions.events import assert_event_matches
+
+    class MyTestClass(EventTrackingTestCase):
+
+        def setUp(self):
+            # The setUp() of the superclass must be called
+            super(MyTestClass, self).setUp()
+
+        def test_event_emitted(self):
+            my_function_that_emits_events()
+
+            # If the above function only emits a single event, this can be used.
+            actual_event = self.get_event()
+
+            # This will assert that the "event_type" of the event is "foobar".
+            # Note that it makes no assertions about any of the other fields
+            # in the event.
+            assert_event_matches({'event_type': 'foobar'}, actual_event)
+
+        def test_no_event_emitted(self):
+
+            my_function_that_does_not_emit()
+
+            # This will fail if any events were emitted by the above function
+            # call.
+            self.assert_no_events_emitted()
+
+Bok Choy Testing
+----------------
+
+Test classes should use the mixin
+``common.test.acceptance.tests.helpers.EventsTestMixin``. At its core, this
+mixin captures all events that are emitted while the test is running and allows
+you to make assertions about those events. Below some common patterns are
+outlined. By default, Bok Choy event assertions are as lenient as possible. The
+tests can be made more strict by passing in ``tolerate=[]`` to indicate that an
+exact match is necessary. Similarly, other flags can be passed into the
+``tolerate`` parameter to tightly control the level of validation performed.
+
+Wait for some events and make assertions about their content.
+
+::
+
+    def test_foobar_event_emission(self):
+        emit_foobar_event()
+
+        # This will wait for the event to be emitted. It will time out if the
+        # event is not emitted quickly enough (or not emitted at all).
+        actual_events = self.wait_for_events({'event_type': 'foobar'})
+
+        # This will compare the first event emitted with the first expected
+        # event, the second with the second etc.
+        self.assert_events_match(
+          [
+            {'event': {'a': 'b'}}
+          ],
+          actual_events
+        )
+
+        # ``wait_for_events`` also accepts arbitrary callable functions to check
+        # to see if an event "matches"
+        def some_custom_event_filter(event):
+            return event['event']['old_time'] > 10
+
+        # This will return when some_custom_event_filter returns true for at
+        # at least one event.
+        actual_events = self.wait_for_events(some_custom_event_filter)
+
+    def test_multiple_events(self):
+        emit_several_events()
+
+        def my_event_filter(event):
+            return event['event_type'] in ('first_event', 'second_event')
+
+        # This will wait for 2 events to match the filter defined above. Note
+        # that it makes no assertions about their ordering or content.
+        actual_events = self.wait_for_events(my_event_filter, number_of_matches=2)
+
+        # This ensures that first_event was emitted before second_event and
+        # checks the payload of both events.
+        self.assert_events_match(
+          [
+            {
+              'event_type': 'first_event',
+              'event': {'a': 'b'}
+            },
+            {
+              'event_type': 'second_event',
+              'event': {'a': 'other'}
+            }
+          ],
+          actual_events
+        )
+
+    def test_granular_assertion(self):
+
+        # This foobar event is emitted first, with the "a" field set to "NOT B"
+        tracker.emit('foobar', {'a': 'NOT B'})
+
+        # A context manager can be used to ensure that the first "foobar" event
+        # is ignored. It only makes assertions about the events that are emitted
+        # inside this context.
+        with self.assert_events_match_during(
+            {'event_type': 'foobar'},
+            [
+              {
+                'event': {'a': 'b'}
+              }
+            ]
+        ):
+            emit_foobar_event()
+
 
 Documenting Events
 *******************
@@ -163,7 +352,11 @@ A selection of events can be transmitted to segment.io in order to take
 advantage of a wide variety of analytics-related third party services such as
 Mixpanel and Chartbeat. It is enabled in the LMS if the ``SEGMENT_IO_LMS``
 feature flag is enabled and the ``SEGMENT_IO_LMS_KEY`` key is set to a valid
-segment.io API key in the ``lms.auth.json`` file.
+segment.io API key in the ``lms.auth.json`` file. Additionally, the setting
+``EVENT_TRACKING_SEGMENTIO_EMIT_WHITELIST`` in the ``lms.auth.json`` file can be
+used to specify event names that should be emitted to segment.io from normal
+`tracker.emit()` calls. Events specified in this whitelist will be sent to both
+the tracking logs and segment.io.
 
 Google Analytics
 *****************
