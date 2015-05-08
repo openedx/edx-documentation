@@ -76,7 +76,8 @@ To install Open edX Fullstack directly from the command line, follow the
 instructions below.
 
 Before beginning the installation, ensure that you have your local computer's
-administrator's password. The password is needed so that NFS can be set up to allow users to access code directories directly from your computer.
+administrator's password. The password is needed so that NFS can be set up to
+allow users to access code directories directly from your computer.
 
 #. Ensure the ``nfsd`` client is running.
 
@@ -110,7 +111,7 @@ administrator's password. The password is needed so that NFS can be set up to al
    recreate the virtual machine, Vagrant re-uses the box it downloaded. See
    `Vagrant's documentation on boxes`_ for more information.
 
-#. When prompted, enter administrator password for your local computer.
+#. When prompted, enter the administrator password for your local computer.
 
 **********************************************
 Browser Login to Open edX Fullstack
