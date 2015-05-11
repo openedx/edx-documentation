@@ -21,7 +21,7 @@ work.
 
 .. note:: Your certificate lists the full name that appears on your dashboard. 
   Before your course ends, make sure that the name on your dashboard is correct. 
-  To change your full name, go to your dashboard, and then click **edit** under 
+  To change your full name, go to your dashboard, and then select **edit** under 
   **Full Name** in the left pane.
 
 ****************************
@@ -124,7 +124,7 @@ certificate, but you might later want to change to a verified certificate. You
 can change the certificate type until registration for verified certificates
 ends for your course, usually two or more weeks after the course starts.
 
-* To upgrade to a verified certificate, go to your dashboard, and then click
+* To upgrade to a verified certificate, go to your dashboard, and then select
   **Challenge Yourself!** under the name of your course. You'll then follow the
   onscreen instructions to register for a verified certificate.
 
@@ -134,7 +134,7 @@ ends for your course, usually two or more weeks after the course starts.
   has passed.
 
 * To change from a verified certificate to an honor code certificate, go to your
-  dashboard, and then click **Unregister** under the name of your course. The
+  dashboard, and then select **Unregister** under the name of your course. The
   edX support team will contact you with information about a refund. You must
   change to an honor code certificate before verified certificate registration
   closes for your course if you want to receive a refund.
@@ -165,11 +165,11 @@ for the class as well as a link to your certificate.
    :width: 500
    :alt: Dashboard with course name, grade, and link to certificate
 
-If you want a paper copy of your certificate, you can click **Download Your Certificate (PDF)** to download and print the certificate from your dashboard.
+If you want a paper copy of your certificate, you can select **Download Your Certificate (PDF)** to download and print the certificate from your dashboard.
 
 .. note:: Your certificate lists the full name that appears on your dashboard. 
   Before your course ends, make sure that the name on your dashboard is correct. 
-  To change your full name, go to your dashboard, and then click **edit** under 
+  To change your full name, go to your dashboard, and then select **edit** under 
   **Full Name** in the left pane.
 
 =============================================
@@ -191,6 +191,60 @@ certificates less frequently. For more information about your course's specific
 certificate schedule, see the About page or the **Course Info** tab for your
 course.
 
+.. _SFD On Demand Certificates: 
+
+On-Demand Certificates
+*********************************
+
+A few self-paced courses offer on-demand certificates. These certificates
+allow you to request and download your certificate as soon as you complete
+enough of the course with a high enough grade to qualify for a certificate.
+You do not have to wait until you finish the course. You can usually find out
+if a course offers on-demand certificates on the course About page.
+
+If a course offers on-demand certificates, as soon as you have qualified for a
+certificate, you see the following message at the top of the course
+**Progress** page.
+
+.. image:: /Images/SFD_Cert_QualifiedOnDemand.png
+  :width: 500
+  :alt: Image of the top of a Progress page, with the text "Congratulations,
+      you've qualified for a certificate!"
+
+You can request your certificate at any time after you have qualified for the
+certificate. Note, however, that if you request your certificate before the
+end of the course, the grade that you see on your dashboard no longer updates
+automatically as you complete coursework. Your **Progress** page continues to
+reflect your current grade. To update your grade on your dashboard, request
+your certificate again.
+
+.. note:: Your course grade does not appear on your certificate.
 
 
+.. _Request Download Certificate:
 
+Request and Download a Certificate
+====================================
+
+To receive your certificate at any time after you have qualified for the
+certificate, follow these steps.
+
+#. On the course **Progress** page, select **Request Certificate**.
+
+   The certificate creation process may take up to 48 hours. After your
+   certificate has been created, you see the following message on your
+   **Progress** page.
+
+   .. image:: /Images/SFD_Certs_CertificateAvailable.png
+    :width: 500
+    :alt: Image of a message with the following text: "Your certificate is
+        available. You can now download your certificate as a PDF here or on
+        your dashboard."
+
+#. Download your certificate from the **Progress** page or from your dashboard.
+
+   * To download your certificate from the **Progress** page, select
+     **Download Your Certificate** in the upper right corner of the page.
+
+   * To download your certificate from your dashboard, select **Download Your
+     Certificate** next to the name of your course.
