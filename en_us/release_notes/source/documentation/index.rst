@@ -2,6 +2,25 @@
 edX Documentation
 ####################################
 
+******************
+May 12, 2015
+******************
+
+==================================
+Building and Running an edX Course
+==================================
+
+The grade report that course teams can download from the instructor dashboard
+now includes columns with information about learners' enrollment tracks and
+certificate statuses. For more information, see `Interpret the Grade Report`_.
+
+==================================
+edX Platform APIs
+==================================
+
+* Updated the `User API`_ to Version 1. 
+
+* Added the `User Preferences API`_.
 
 ******************
 April 28, 2015

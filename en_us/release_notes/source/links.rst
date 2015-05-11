@@ -80,7 +80,11 @@
 
 .. _Enrollment API Version 1.0: http://edx.readthedocs.org/projects/edx-platform-api/en/latest/enrollment/index.html#edx-platform-enrollment-api-version-1-0
 
+.. _User API: http://edx-platform-api.readthedocs.org/en/latest/user/index.html#edx-platform-user-api-version-1-0
+
 .. _User API Version 0: http://edx.readthedocs.org/projects/edx-platform-api/en/latest/user/index.html#edx-platform-user-api-version-0
+
+.. _User Preferences API: http://edx-platform-api.readthedocs.org/en/latest/user/preferences.html#user-preferences-api
 
 .. other links not yet categorized carefully
 
@@ -455,3 +459,7 @@
 .. _Recommender: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/recommenderXBlock.html#recommenderxblock
 
 .. _Exploring Your Dashboard Settings and Profile Course Staff: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/getting_started/dashboard_acctsettings_profile.html
+
+.. _Interpret the Grade Report: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/running_course/course_grades.html#interpret-the-grade-report
+
+.. _Preview Course Content: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/developing_course/testing_courseware.html#preview-course-content

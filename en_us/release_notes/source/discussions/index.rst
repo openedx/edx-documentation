@@ -2,6 +2,16 @@
 edX Discussions
 ####################################
 
+*********************
+May 12, 2015
+*********************
+
+* When learners access a component-specific discussion topic in the courseware
+  and select **Show Posts**, the list of posts now opens to the first post
+  instead of the last post. (TNL-1530)
+
+* Improvements to the accessibility of discussion posts to screen reader users
+  are included in this release. (AC-102)
 
 ******************
 April 22, 2015

@@ -6,8 +6,8 @@ edX Website
 May 5, 2015
 *********************
 
-* The **Remember Me** check box temporarily did not appear on the edx.org
-  sign-in page. This problem has been fixed. (ECOM-1489)
+The **Remember Me** check box temporarily did not appear on the edx.org
+sign-in page. This problem has been fixed. (ECOM-1489)
 
 ******************
 April 22, 2015

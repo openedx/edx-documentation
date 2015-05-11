@@ -3,6 +3,19 @@ edX Studio
 ####################################
 
 *********************
+May 12, 2015
+*********************
+
+When course teams work in the course outline, they can now preview units in
+the LMS before the content is released. When course teams select **Preview**
+for a unit, they can choose to preview the unit in the LMS as staff, all
+students, or as a student with access to a specific content group.
+
+Previously, **Preview Changes** did not work until the content was live.
+
+For more information, see `Preview Course Content`_.
+
+*********************
 May 5, 2015
 *********************
 
