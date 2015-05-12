@@ -33,7 +33,7 @@ learning management system (LMS), which learners and course teams use to
 interact with course content. 
 
 .. list-table::
-   :widths: 20 10 10 10 10 10 10
+   :widths: 20 10 10 10 10 10
    :header-rows: 1
 
    * -
@@ -42,11 +42,9 @@ interact with course content.
      - Firefox
      - IE 11
      - IE 10
-     - IE 9
    * - Windows 8
      - Yes
      - N/A
-     - Yes
      - Yes
      - Yes
      - Yes
@@ -54,7 +52,6 @@ interact with course content.
      - Yes
      - Yes
      - Yes
-     - N/A
      - N/A
      - N/A
 
