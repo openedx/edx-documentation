@@ -65,7 +65,7 @@ The following table shows operating system and browser support for edX Studio,
 which course teams use to build a course.
 
 .. list-table::
-   :widths: 20 10 10 10 10 10 10
+   :widths: 20 10 10 10 10 10
    :header-rows: 1
 
    * -
@@ -74,19 +74,16 @@ which course teams use to build a course.
      - Firefox
      - IE 11
      - IE 10
-     - IE 9
    * - Windows 8
      - Yes
      - N/A
      - Yes
      - Provisional
      - Provisional
-     - Provisional
    * - Mac OSX Mavericks or Yosemite
      - Yes
      - Yes
      - Yes
-     - N/A
      - N/A
      - N/A
 
@@ -101,7 +98,7 @@ Insights, which course teams use to review and download data about their
 courses and learners.
 
 .. list-table::
-   :widths: 20 10 10 10 10 10 10
+   :widths: 20 10 10 10 10 10
    :header-rows: 1
 
    * -
@@ -110,19 +107,16 @@ courses and learners.
      - Firefox
      - IE 11
      - IE 10
-     - IE 9
    * - Windows 8
      - Yes
      - N/A
      - Yes
      - Provisional
      - Provisional
-     - Provisional
    * - Mac OSX Mavericks or Yosemite
      - Yes
      - Yes
      - Yes
-     - N/A
      - N/A
      - N/A
 
