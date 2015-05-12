@@ -96,7 +96,7 @@ Video Formats
 
 The edX video player supports videos in .mp4, .webm, .mpeg, and .ogg format.
 However, to help make sure all standard browsers can play your video, we
-strongly recommend that you **use the .mp4 or .webm format**.
+strongly recommend that you use the **.mp4 format**.
 
 .. _Create Transcript:
 
@@ -179,24 +179,24 @@ site where you post the videos may have to handle a lot of traffic.
 
 .. note:: The URL for the video that you post on a third-party site must end 
  in .mp4, .webm, .mpeg, or .ogg. (To help make sure all standard browsers can
- play your video, we **strongly** recommend that you use .mp4 or .webm format.)
- EdX cannot support videos that you post on sites such as Vimeo.
+ play your video, we **strongly** recommend that you use .mp4 format.) EdX
+ cannot support videos that you post on sites such as Vimeo.
 
 If you (or your beta testers or learners) encounter an error when you view a
 course video, it might be the result of one of these browser-related problems.
 
 * Verify that the browser is up to date. For example, some older versions of
-  the Mozilla Firefox browser did not play .mp4 video files. This problem does
-  not occur in more recent versions of this browser.
+  the Mozilla Firefox browser did not play .mp4 video files, and some older
+  versions of the Firefox browser did not play .webm video files. This problem
+  does not occur in more recent versions of these browsers.
 
   For more information, see `Media formats supported by the HTML audio and
   video elements`_.
 
 * Verify that file metadata, particularly the MIME type, is correctly set on
-  the host site. Internet Explorer 9 and 10 browsers do not play videos if the
-  MIME type is not set. For example, make sure that the HTTP header Content-
-  Type is set to video/mp4 for an .mp4 file, or to video/webm for a .webm
-  file.
+  the host site. Internet Explorer 10 browsers do not play videos if the MIME
+  type is not set. For example, make sure that the HTTP header Content-Type
+  is set to video/mp4 for an .mp4 file, or to video/webm for a .webm file.
 
   As an example of how you might set metadata on a video backup site, the
   *Console User Guide* for the Amazon Simple Storage Service provides this
@@ -232,15 +232,14 @@ Step 4. Create a Video Component
       http://youtu.be/OEoXaMPEzfM
       http://www.youtube.com/watch?v=OEoXaMPEzfM
       https://s3.amazonaws.com/edx-course-videos/edx-edx101/EDXSPCPJSP13-G030300.mp4
-      https://s3.amazonaws.com/edx-videos/edx101/video4.webm	
+      https://s3.amazonaws.com/edx-videos/edx101/video4.webm
 
-.. note:: To be sure all students can access the video, we recommend 
-    providing both an .mp4 and a .webm version of your video. To do this, you
-    can post additional versions of your videos on the Internet, then add the
-    URLs for these versions below the default video URL. **These URLs cannot be
-    YouTube URLs**. To add a URL for another version, click **Add URLs for
-    additional versions**. The first listed video that is compatible with the
-    student's computer plays.
+.. note:: To be sure that all students can access a video, you might want to 
+    create multiple versions that use different encodings or hosting services.
+    After you post different versions on the Internet, you add each URL below
+    the default video URL. **These URLs cannot be YouTube URLs**. To add a URL
+    for another version, click **Add URLs for additional versions**. The first
+    listed video that is compatible with the student's computer plays.
 
 5. Next to **Default Timed Transcript**, select an option. 
 
@@ -347,14 +346,14 @@ The following options appear on the **Advanced** tab in the video component.
         at least one non-YouTube URL in the **Video File URLs** field.
     * - **Video File URLs**
       - The URL or URLs where you posted non-YouTube versions of the video.
-        Every URL should end in .mpeg, .webm, .mp4, or .ogg and cannot be a
+        Every URL should end in .mp4, .webm, .mpeg, or .ogg and cannot be a
         YouTube URL. Each student will be able to view the first listed video
         that is compatible with the student's computer. To allow students to
         download these videos, you must set **Video Download Allowed** to
         **True**.
 
         To help make sure all standard browsers can play your video, we
-        **strongly** recommend that you use the .mp4 or .webm format.
+        **strongly** recommend that you use the .mp4 format.
 
     * - **Video ID**
       - An optional field used only by course teams that are working with
