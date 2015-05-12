@@ -2,6 +2,26 @@
 Change Log
 ############
 
+
+****************
+May 2015
+****************
+
+.. list-table::
+   :widths: 10 70
+   :header-rows: 1
+
+   * - Date
+     - Change
+   * - 12 May 2015
+     - Updated the :ref:`Access_grades` section to describe new 
+       certificate-related and enrollment track columns in the grade report.
+   * - 
+     - Updated the :ref:`Preview Course Content` section to reflect that
+       course teams can now use the **Preview** button to preview course
+       changes before a course is released.
+
+
 ****************
 April 2015
 ****************
