@@ -15,16 +15,6 @@ the **Data Download** tab in the LMS. This new report will show the possible and
 earned points for each problem in an assignment, the total weighted score for
 each problem, and each learner's overall grade.
 
-In addition, the existing grade report will include new columns that show the
-following information about each learner’s certificate status.
-
-* The learner's enrollment track.
-* Whether the learner has completed ID verification.
-* Whether the learner has earned a certificate for the course (based on
-  attaining a passing grade at the time that the grade report is requested).
-* The type of certificate earned.
-* Whether certificates have been generated for the course.
-
 *************
 Student Notes
 *************
