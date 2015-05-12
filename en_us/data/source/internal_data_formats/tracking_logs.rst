@@ -1902,8 +1902,12 @@ This section includes descriptions of the following events.
 * ``problem_graded``
 
 Problem interaction events are emitted by the server or the browser to capture
-information about interactions with problems, specifically, problems defined in
-the edX Capa module.
+information about interactions with problems. 
+
+These events were designed for the problem types implemented in the edX
+platform by the ``capa_module.py`` XBlock. Problem types that are implemented
+by other XBlocks, such as :ref:`open response assessments<ora2>`, are
+instrumented with different events.
 
 ``problem_check`` (Browser)
 *********************************

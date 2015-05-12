@@ -5,8 +5,8 @@ Glossary
 ############
 
 :ref:`A` - :ref:`C` - :ref:`D` - :ref:`E` - :ref:`F` - :ref:`G` - :ref:`H` 
-- :ref:`I` - :ref:`K` - :ref:`L` - :ref:`M` - :ref:`N` - :ref:`P` - :ref:`R` 
-- - :ref:`S` - :ref:`T` - :ref:`V` - :ref:`W` - :ref:`XYZ<X>`
+- :ref:`I` - :ref:`K` - :ref:`L` - :ref:`M` - :ref:`N` - :ref:`O` - :ref:`P` 
+- :ref:`R` - :ref:`S` - :ref:`T` - :ref:`V` - :ref:`W` - :ref:`XYZ<X>`
 
 .. _A:
 
@@ -58,6 +58,15 @@ A
 C
 ****
 
+**Capa Problem**
+
+  Any of the problem types implemented in the edX platform by the
+  ``capa_module`` XBlock. Examples range from text input, drag and drop, and
+  math expression input problem types to circuit schematic builder, custom
+  JavaScript, and chemical equation problem types.
+
+  Other assessment methods are also available, and implemented using other
+  XBlocks. An open response assessment is an example of a non-capa problem type.
 
 .. _Certificate:
  
@@ -464,6 +473,14 @@ L
 
   For more information, see `View Your Live Course`_.
 
+**LON-CAPA**
+
+  The LearningOnline Network with Computer-Assisted Personalized Approach
+  e-learning platform. The structure of capa problem types in the edX platform
+  is based on the `LON-CAPA`_ assessment system, although they are not
+  compatible.
+
+  See :ref:`Capa Problems<C>`.
 
 .. _M:
 
@@ -530,6 +547,21 @@ N
   For more information, see `Numerical Input Problem`_.
 
 
+.. _O:
+
+****
+O
+****
+
+**Open Response Assessment**
+
+  A type of assignment that allows learners to answer using text and,
+  optionally, an image, as in a short essay. Learners then evaluate each
+  others' work by comparing each response to a rubric created by the course
+  team. These assignments can also include a self assessment, in which
+  learners compare their own responses to the rubric.
+
+  For more information, see `Open Response Assessments`_.
 
 .. _P:
 
@@ -828,4 +860,5 @@ XYZ
 .. _Text Input Problem: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/text_input.html
 .. _Working with Video Components: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/creating_content/create_video.html#working-with-video-components
 .. _Hide or Show the Course Wiki Page: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/building_course/pages.html#hide-or-show-the-course-wiki-page
-
+.. _LON-CAPA: http://www.lon-capa.org/
+.. _Open Response Assessments: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/open_response_assessments/OpenResponseAssessments.html
