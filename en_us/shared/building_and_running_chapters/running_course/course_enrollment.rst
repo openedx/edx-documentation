@@ -156,7 +156,7 @@ Unenroll Students from a Course
 You can remove students from a course by unenrolling them. To prevent students
 from re-enrolling, course enrollment must also be closed. You use Studio to
 set the **Enrollment End Date** for the course to a date in the past. See
-:ref:`Set Important Dates for Your Course`.
+:ref:`Scheduling Your Course`.
 
 **Note**: Unenrollment does not delete data for a student. An unenrolled
 student's state remains in the database and is reinstated if the student does

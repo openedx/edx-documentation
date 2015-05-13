@@ -88,12 +88,25 @@ You can hide content at different levels:
 * :ref:`Subsections<Hide a Subsection from Students>`
 * :ref:`Units<Hide a Unit from Students>`
 
-.. warning::
- When you make a previously hidden section or subsection visible to students,
- not all content in the section or subsection is necessarily made visible to
- students. If you also explicitly set a child subsection or unit to be hidden
- from students, it remains hidden from students. Unpublished units remain
- unpublished, and changes to published units remain unpublished.
+.. note::
+ When you make a previously hidden section or subsection visible to learners,
+ some content in the section or subsection may remain hidden. If you have
+ explicitly set a subsection or unit to be hidden from learners, this
+ subsection or unit remains hidden even when you change the visibility of the
+ parent section or subsection. Unpublished units remain unpublished, and
+ changes to published units remain unpublished.
+
+.. _Hiding Graded Content:
+
+=====================
+Hiding Graded Content
+=====================
+
+If you hide a section, subsection, or unit that contains graded problems,
+grading is not affected. The hidden problems are still counted when the edX
+platform calculates grades. If a problem was at time visible and learners
+submitted answers for it, they still receive the credit they earned if you
+later hide the problem.
 
 .. _Content Groups:
 
@@ -103,7 +116,7 @@ Content Groups
 
 If you have cohorts enabled in your course, you can use content groups to
 designate  particular components in your course as visible only to specific
-groups of students.
+groups of learners.
 
 For details, see :ref:`About Content Groups` and :ref:`Cohorted Courseware
 Overview`.

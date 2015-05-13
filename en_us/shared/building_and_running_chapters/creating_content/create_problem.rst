@@ -689,24 +689,9 @@ Create Randomized Problems
    appears in the **Unit Identifier** field under **Unit Location**.
 
 #. Export your course. For information about how to do this, see
-   :ref:`Exporting and Importing a Course`. Save the .tar.gz file that contains
-   your course in a memorable location so that you can find it easily.
-
-#. Locate the .tar.gz file that contains your course, and then unpack the
-   .tar.gz file so that you can see its contents in a list of folders and
-   files.
-
-   To do this on a Windows computer, you'll need to download a third-party
-   program. For more information, see `How to Unpack a tar File in Windows
-   <http://www.haskell.org/haskellwiki/How_to_unpack_a_tar_file_in_Windows>`_,
-   `How to Extract a Gz File <http://www.wikihow.com/Extract-a-Gz-File>`_, `The
-   gzip Home Page <http://www.gzip.org/>`_, or the `Windows
-   <http://www.ofzenandcomputing.com/how-to-open-tar-gz-files/#windows>`_
-   section of the `How to Open .tar.gz Files <http://www.ofzenandcomputing.com/how-to-open-tar-gz-files/>`_ page.
-
-   For information about how to do this on a Mac, see the `Mac OS X
-   <http://www.ofzenandcomputing.com/how-to-open-tar-gz-files/#mac-os-x>`_
-   section of the `How to Open .tar.gz Files <http://www.ofzenandcomputing.com/how-to-open-tar-gz-files/>`_ page.
+   :ref:`Exporting and Importing a Course`. Save and extract the .tar.gz file
+   that contains your course in a memorable location so that you can find
+   it easily.
 
 #. In the list of folders and files, open the **Vertical** folder.
 

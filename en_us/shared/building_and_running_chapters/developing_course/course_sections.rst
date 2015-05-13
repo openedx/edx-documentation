@@ -85,7 +85,7 @@ statuses of sections.
 Unscheduled
 ========================
 
-If you do not change the :ref:`course start date<The Course Start Date>`
+If you do not change the :ref:`course start date<Set Start and End Dates>`
 default value, ``1/1/2030 00:00:00 UTC``, when you create a new section, its
 release date will appear as ``Unscheduled``. When the section release date is
 unscheduled, students cannot see any content in that section, regardless of
@@ -169,7 +169,7 @@ from students displays in the outline, summarized with a black bar.
 Create a Section
 ****************************
 
-If you do not change the :ref:`course start date<The Course Start Date>`
+If you do not change the :ref:`course start date<Set Start and End Dates>`
 default value, ``1/1/2030``, when you create a new section, its release date
 will be ``Unscheduled``. 
 
@@ -263,6 +263,8 @@ Hide a Section from Students
 
 You can hide all content in a section from students, regardless of the status
 of subsections and units within the section.
+
+For more information, see :ref:`Content Hidden from Students`.
 
 To hide a section from students:
 

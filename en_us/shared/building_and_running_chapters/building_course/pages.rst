@@ -4,9 +4,19 @@
 Adding Pages to a Course
 ###########################
 
+This topic describes how to add pages, or tabs, to your course.
+
+* :ref:`Default Pages`
+* :ref:`Add Page`
+* :ref:`Show or Hide the Course Wiki Page`
+* :ref:`Reorder Pages`
+* :ref:`Delete a Page`
+* :ref:`Code for Dynamic HTML Schedule`
+
+.. _Default Pages:
 
 *******************
-Overview
+Default Pages
 *******************
 
 By default, your course includes these pages.
@@ -17,16 +27,24 @@ By default, your course includes these pages.
 * Wiki
 * Progress
 
-You can change the order of the Discussion, Wiki, and Progress pages, and you
-can hide the Wiki page.
+You can change the order of the **Discussion**, **Wiki**, and **Progress**
+pages, and you can hide the **Wiki** page.
 
-You can also add pages to your course. Each page appears in the navigation bar
-for your course. For example, the following navigation bar includes the
-default pages as well as the additional Course Schedule and Supplements &
-Instructor's Blog pages.
+.. _Add Page:
+
+****************
+Add a Page
+****************
+
+You can add pages to your course. Each page appears for learners in the
+navigation bar for your course. 
+
+For example, the following navigation bar includes the default pages as well as
+the additional Course Schedule and Supplements & Instructor's blog pages.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/page_bar_lms.png
- :alt: Image of the page bar in the LMS
+ :width: 600
+ :alt: Image of the navigation bar in the LMS.
 
 You can create other pages for the grading policy, course slides, or any other
 purpose. More examples of pages you can add follow. 
@@ -36,46 +54,38 @@ purpose. More examples of pages you can add follow.
 
 * An instant hangout. See :ref:`Google Instant Hangout` for more information.
 
-See:
-
-* :ref:`Add Page`
-* :ref:`Show or Hide the Course Wiki Page`
-* :ref:`Reorder Pages`
-* :ref:`Delete a Page`
-* :ref:`Code for Dynamic HTML Schedule`
-
-
-.. _Add Page:
-
-****************
-Add a Page
-****************
-
 #. In Studio, from the **Content** menu, select **Pages**. A page titled
-   **Pages** appears.
+   **Pages** opens. This page contains a list of the pages that appear in the
+   navigation bar in your course.
 
-  .. image:: ../../../shared/building_and_running_chapters/Images/pages_page.png
-   :alt: Image of the Pages screen
+   .. image:: ../../../shared/building_and_running_chapters/Images/pages_page.png
+    :width: 600
+    :alt: Image of the Pages page.
 
+#. Select **Add a New Page**. A page with the title **Empty** is added to the
+   list.
 
-2. Click **Add a New Page**. A page with the title **Empty** is added to the
-   list:
+   .. image:: ../../../shared/building_and_running_chapters/Images/pages_empty.png
+    :width: 600
+    :alt: Image of the Pages page with a new Empty page.
 
-  .. image:: ../../../shared/building_and_running_chapters/Images/pages_empty.png
-   :alt: Image of the Pages screen with a new Empty page
+#. In the row for the new page, select **Edit**. The HTML editor opens.  
 
-3. Click **Edit**. The HTML editor opens.  
+   .. image:: ../../../shared/building_and_running_chapters/Images/pages_editor.png
+    :width: 600
+    :alt: Image of the page editor.
 
-  .. image:: ../../../shared/building_and_running_chapters/Images/pages_editor.png
-   :alt: Image of the Page editor
+#. Enter content for your page. 
 
-4. Enter text for your page. See :ref:`Options for Editing HTML Components`
-   for more information about using the editor.
-#. Click **Settings** to edit the **Display Name**. The display name is the
-   name of the page visible to students in the course.
-#. Click **Save**. 
+   For more information about using the editor, see :ref:`Options for Editing
+   HTML Components`.
 
-The new page is immediately available to students if the course has started.
+#. Select **Settings** to edit the **Display Name**. The display name is the
+   name of the page visible to learners in the course.
+
+#. Select **Save**. 
+
+The new page is immediately available to learners if the course has started.
 
 .. _Show or Hide the Course Wiki Page:
 
@@ -83,29 +93,28 @@ The new page is immediately available to students if the course has started.
 Hide or Show the Course Wiki Page
 ************************************************
 
-By default, your course includes a Wiki page. Students and course staff can
-use the Wiki to post content and comment on others' content.
+By default, your course includes a wiki page. Learners and course staff can
+use the wiki to post content and comment on others' content.
 
-If you do not want to use the Wiki in your course, you can hide the page.
+If you do not want to use a wiki in your course, you can hide the page.
 
-After you select **Content** and then **Pages** in Studio, the eye icon that
-appears next to the Wiki object indicates that the Wiki page is visible in
-your course. For an example of the page and this icon, see :ref:`Add Page`.
+In the **Pages** list, the eye icon that appears next to the **Wiki** page
+indicates that the wiki is visible in your course. 
 
-Click the eye icon to hide the Wiki page. The icon changes as shown in this
-example.
+Select the eye icon to hide the **Wiki** page. The icon changes as shown in
+this example.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/pages_wiki_off.png
  :alt: Image of the Pages page with the Wiki made visible
 
-Click it again to make the Wiki page visible.
+Select it again to make the **Wiki** page visible.
 
-.. note:: Content remains in the Wiki when you hide the page. For example, 
- if a student bookmarks a Wiki topic, then you hide the Wiki page, the student
- can still use the bookmark to access that Wiki topic. All content that was
- previously posted in the Wiki remains available after you hide the Wiki page,
- and any students logged in to edX can access the content if they know the
- URL.
+.. note:: Content remains in the wiki when you hide the page. For example, 
+ if a student bookmarks a wiki topic, then you hide the **Wiki** page, the
+ student can still use the bookmark to access that wiki topic. All content that
+ was previously posted in the wiki remains available after you hide the wiki
+ page, and any students logged in to edX can access the content if they know
+ the URL.
 
 .. _Reorder Pages:
 
@@ -117,11 +126,10 @@ To reorder the pages in your course you can drag a page to different location
 in the navigation bar and drop it there.
 
 To move a page, hover over the element handle on the right side of the page
-row until the mouse pointer changes to a four-headed arrow. Then, click and
+row until the mouse pointer changes to a four-headed arrow. Then select and
 drag the page to the location that you want.
 
-.. note:: You cannot reorder the Courseware or Course Info pages that your 
- course includes by default.
+.. note:: You cannot reorder the **Courseware** or **Course Info** pages.
 
 .. _Delete a Page:
 
@@ -129,11 +137,12 @@ drag the page to the location that you want.
 Delete a Page
 ****************
 
-To delete a page that you previously added, click the trash can icon in the
+To delete a page that you previously added, select the trash can icon in the
 row for the page. You are prompted to confirm the deletion.
 
-.. note:: You cannot delete the system-supplied Courseware, Course Info, 
- Discussion, or Progress pages. You can hide the course Wiki page.
+.. note:: 
+  You cannot delete the **Courseware**, **Course Info**, **Discussion**, or
+  **Progress** pages. You can hide the course **Wiki** page.
 
 .. _Code for Dynamic HTML Schedule:
 
@@ -144,8 +153,12 @@ Code for Dynamic HTML Schedule
 You can use the following code in a page to provide a dynamic HTML schedule in
 your course.
 
-.. code-block:: html
+.. note:: 
+  Paste the following code into the page using either :ref:`the visual editor
+  <Work with HTML code>` or the :ref:`raw HTML editor <The Raw HTML Editor>`.
+  Do not paste the code directly into the visual editor.
 
+.. code-block:: html
 
 	<div class= "syllabus">
 
@@ -307,7 +320,5 @@ your course.
     			<td class="assignment"></td>
     			<td class="due">      </td>
 		</tr>
-
 	</table>
 	</div>
-
