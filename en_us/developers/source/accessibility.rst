@@ -8,7 +8,9 @@ EdX measures and evaluates accessibility using the World Wide Web Consortium's
 `Web Content Accessibility Guidelines (WCAG) 2.0 <http://www.w3.org/TR/WCAG/>`_
 (Dec. 11, 2008). All features that you merge into edX repositories are expected
 to `conform <http://www.w3.org/TR/WCAG20/#conformance>`_ to `Level AA
-<http://www.w3.org/TR/WCAG20/#cc1>`_ of this specification. 
+<http://www.w3.org/TR/WCAG20/#cc1>`_ of this specification and to satisfy the 
+requirements outlined in the edX `Website Accessibility Policy 
+<http://www.edx.org/accessibility>`_. 
 
 The **edX Accessibility Guidelines** are intended to extend the guidance
 available in WCAG 2.0, with a focus on features frequently found in the Open edX
