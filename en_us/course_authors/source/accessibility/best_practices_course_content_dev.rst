@@ -1,0 +1,1 @@
+.. include:: ../../../shared/accessibility/best_practices_course_content_dev.rst
