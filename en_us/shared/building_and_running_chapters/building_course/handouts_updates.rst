@@ -12,6 +12,10 @@ course updates and handouts on the **Course Info** page in your course.
        & News" section containing a dated post and a "Course Handouts" frame
        with a list of links.
 
+.. contents:: Section Contents 
+   :local:
+   :depth: 1
+
 .. _Add a Course Update:
 
 **********************
@@ -19,7 +23,7 @@ Add a Course Update
 **********************
 
 You add updates to notify learners of upcoming exams or deadlines, changes in
-the course schedule, or make other announcements. 
+the course schedule, or to make other announcements. 
 
 To add a course update, follow these steps.
 
