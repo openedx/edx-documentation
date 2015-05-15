@@ -82,6 +82,24 @@ Alphabetical Event List
      - :ref:`Instructor_Event_Types`
    * - ``edx.instructor.report.requested``
      - :ref:`Instructor_Event_Types`
+   * - ``edx.video.bumper.dismissed``
+     - :ref:`pre-roll`
+   * - ``edx.video.bumper.loaded``
+     - :ref:`pre-roll`
+   * - ``edx.video.bumper.played``
+     - :ref:`pre-roll`
+   * - ``edx.video.bumper.skipped``
+     - :ref:`pre-roll`
+   * - ``edx.video.bumper.stopped``
+     - :ref:`pre-roll`
+   * - ``edx.video.bumper.transcript.hidden``
+     - :ref:`pre-roll`
+   * - ``edx.video.bumper.transcript.menu.hidden``
+     - :ref:`pre-roll`
+   * - ``edx.video.bumper.transcript.menu.shown``
+     - :ref:`pre-roll`
+   * - ``edx.video.bumper.transcript.shown``
+     - :ref:`pre-roll`
    * - ``edx.video.loaded``
      - :ref:`video`, see ``load_video``
    * - ``edx.video.paused``
