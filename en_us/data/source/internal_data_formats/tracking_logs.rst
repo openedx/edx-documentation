@@ -2827,6 +2827,7 @@ This section includes descriptions of the following events.
 * ``edx.course.student_notes.added``
 * ``edx.course.student_notes.deleted``
 * ``edx.course.student_notes.edited``
+* ``edx.course.student_notes.notes_page_viewed``
 * ``edx.course.student_notes.searched``
 * ``edx.course.student_notes.used_unit_link``
 * ``edx.course.student_notes.viewed``
@@ -2847,7 +2848,7 @@ adds a note in courseware.
 
 **Event Source**: Browser
 
-**History**: Added 12 May 2015.
+**History**: Added XX May 2015.
 
 ``event`` **Member Fields**: 
 
@@ -2877,6 +2878,15 @@ adds a note in courseware.
    * - ``note_text_truncated``
      - boolean
      - Indicates whether the ``note_text`` field is truncated.
+   * - ``tags``
+     - array of strings
+     - An array of the tags that the learner has specified. The text is
+       truncated at 300 characters. If the text is truncated, only complete
+       tag names appear in the array. If the learner has not specified tags,
+       the array is empty.
+   * - ``tags_truncated``
+     - boolean
+     - Indicates whether the ``tags`` field is truncated. 
 
 ``edx.course.student_notes.deleted``
 *************************************
@@ -2886,7 +2896,7 @@ deletes a note in courseware.
 
 **Event Source**: Browser
 
-**History**: Added 12 May 2015.
+**History**: Added XX May 2015.
 
 ``event`` **Member Fields**: 
 
@@ -2902,7 +2912,7 @@ edits a note in courseware.
 
 **Event Source**: Browser
 
-**History**: Added 12 May 2015.
+**History**: Added XX May 2015.
 
 ``event`` **Member Fields**: 
 
@@ -2924,7 +2934,43 @@ event.
    * - ``old_note_text_truncated``
      - boolean
      - Indicates whether the ``old_note_text`` field is truncated.
+   * - ``old_tags``
+     - array of strings
+     - Content of the array of tags before the learner edited it. Text is
+       truncated at 300 characters. If the text is truncated, only complete
+       tag names appear in the array. If the learner has not specified tags,
+       the array is empty.
+   * - ``old_tags_truncated``
+     - boolean
+     - Indicates whether the ``old_tags`` field is truncated.
 
+``edx.course.student_notes.notes_page_viewed``
+**********************************************
+
+The browser emits ``edx.course.student_notes.notes_page_viewed`` events when a
+student accesses or selects a different view on the **Notes** page. Note that
+because "Recent Activity" is the default view, the browser always emits a
+``edx.course.student_notes.notes_page_viewed`` event that has a ``view`` field
+value of "Recent Activity" the first time that the learner accesses the page.
+
+**Event Source**: Browser
+
+**History**: Added XX May 2015.
+
+``event`` **Member Fields**: 
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+   * - ``view``
+     - string
+     - The view on the **Notes** page that the learner selects. Possible values
+       are "Recent Activity", "Location in Course", "Tags", and "Search
+       Results".
 
 ``edx.course.student_notes.searched``
 *************************************
@@ -2934,7 +2980,7 @@ searches notes on the **Student Notes** page.
 
 **Event Source**: Browser
 
-**History**: Added 12 May 2015.
+**History**: Added XX May 2015.
 
 ``event`` **Member Fields**: 
 
@@ -2961,7 +3007,7 @@ component that contains that note.
 
 **Event Source**: Browser
 
-**History**: Added 12 May 2015.
+**History**: Added XX May 2015.
 
 ``event`` **Member Fields**: 
 
@@ -2978,6 +3024,11 @@ component that contains that note.
    * - ``note_id``
      - string
      - The ID of the note.
+   * - view
+     - string
+     - When a learner selects a different view on the Notes page, the view
+       that the learner last viewed. Possible values are "Recent Activity",
+       "Location in Course", "Tags", and "Search Results".
 
 ``edx.course.student_notes.viewed``
 ***********************************
@@ -2987,7 +3038,7 @@ views notes in courseware.
 
 **Event Source**: Browser
 
-**History**: Added 12 May 2015.
+**History**: Added XX May 2015.
 
 ``event`` **Member Fields**: 
 

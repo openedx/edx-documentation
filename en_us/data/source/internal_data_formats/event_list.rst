@@ -68,6 +68,8 @@ Alphabetical Event List
      - :ref:`student_notes`
    * - ``edx.course.student_notes.edited``
      - :ref:`student_notes`
+   * - ``edx.course.student_notes.notes_page_viewed``
+     - :ref:`student_notes`
    * - ``edx.course.student_notes.searched``
      - :ref:`student_notes`
    * - ``edx.course.student_notes.used_unit_link``
