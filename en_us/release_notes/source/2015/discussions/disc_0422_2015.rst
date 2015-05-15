@@ -1,0 +1,4 @@
+
+Discussion posts exceeding a certain length or containing numerous equations
+were not rendering LaTeX expressions. This issue has been resolved. (TNL-1902)
+

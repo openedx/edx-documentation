@@ -1,0 +1,7 @@
+
+==========================
+Accessibility Enhancements
+==========================
+
+In the course About pages, ``<fieldset>`` elements now have ``<legend>``
+elements for screen readers. (TNL-1371)

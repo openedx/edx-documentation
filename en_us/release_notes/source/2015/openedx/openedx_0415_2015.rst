@@ -1,0 +1,8 @@
+
+The following APIs are now available.
+
+* `Course Structure API Version 0`_ 
+
+* `Enrollment API Version 1.0`_
+
+* `User API Version 0`_

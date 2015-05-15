@@ -7,9 +7,6 @@ edX Release Notes
 
    front_matter/index
 
-.. The *edX Release Notes* provide a cumulative list of changes to edX
-.. products.
-
 .. toctree::
    :maxdepth: 2
 
@@ -17,35 +14,54 @@ edX Release Notes
 
 
 ******************
-2015 Releases
+What's New?
 ******************
 
-See the following pages for a chronological list of released changes for that
-edX product.
+See released changes for a particular product by date, or by date across
+products.
+
+==================
+By Product
+==================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
-   analytics/index
-   discussions/index
-   documentation/index
-   insights/index
-   lms/index
-   mobile/index
-   openedx/index
-   ora/index
-   studio/index
-   website/index
-   xblocks/index
+   analytics_index
+   discussions_index
+   doc_index
+   insights_index
+   lms_index
+   mobile_index
+   openedx_index
+   ORA_index
+   studio_index
+   website_index
+   xblocks_index
 
-******************
-Previous Releases
-******************
+==================
+By Date
+==================
+
++++++++
+2015
++++++++
+
+.. toctree::
+   :maxdepth: 1
+
+   2015/index
+
++++++++++++++++++
+2014 and earlier
++++++++++++++++++
 
 .. toctree::
    :maxdepth: 1
 
    2014/index
+
+
 
 .. include:: reusables/documentation.rst
 

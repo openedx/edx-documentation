@@ -1,0 +1,4 @@
+
+Open response assessments can now include more than one prompt or question. A
+single rubric is used to grade all of the prompts in the assessment. For more
+information, see `Creating Peer Assessments`_.

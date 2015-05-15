@@ -1,0 +1,17 @@
+
+==================================
+edX Research Guide
+==================================
+
+The `Tracking Logs`_ chapter now contains descriptions of these events.
+
+* New events for contributions to discussion forums.
+
+* New events for the opening of Google calendars and documents to the Tracking
+  Logs chapter.
+
+==================================
+Using edX Insights
+==================================
+
+Added the `Student Performance`_ section to the *Using edX Insights* guide.

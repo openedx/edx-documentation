@@ -1,0 +1,2 @@
+
+A new video appears as the default video when you add a Video component.

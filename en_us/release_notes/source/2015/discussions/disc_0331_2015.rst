@@ -1,0 +1,3 @@
+
+When users clicked a link from the page listing all a user's posts, they
+received an error message. This problem is resolved. (TNL-1717)
