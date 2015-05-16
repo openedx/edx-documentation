@@ -3034,7 +3034,7 @@ component that contains that note.
 ***********************************
 
 The browser emits ``edx.course.student_notes.viewed`` events when a learner
-views notes in courseware.
+selects a note to view the note in the courseware.
 
 **Event Source**: Browser
 
@@ -3051,8 +3051,8 @@ views notes in courseware.
      - Details
    * - ``notes``
      - list
-     - A list of the currently visible notes. Learners can add multiple notes
-       to the same text.
+     - A list of the ``note_id`` values for the currently visible notes.
+       Learners can add multiple notes to the same text.
 
 Contains the member field ``note_id``, which contains the unique identifier for the note.
 
