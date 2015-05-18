@@ -1,0 +1,40 @@
+
+==================================
+Using edX Insights
+==================================
+
+Added the `Ungraded Problem Submissions`_ section to the *Using edX Insights*
+guide.
+
+==================================
+Building and Running an edX Course
+==================================
+
+* Added instructions for specifying multiple or irregular regions to
+  the `Image Mapped Input`_ topic.
+
+* Added the `Timer Between Attempts`_ topic to the "Working with
+  Problem Components" section.
+
+* Added information about the `Recommender`_ tool.
+
+==================================
+edX Research Guide
+==================================
+
+Added the `Course Content Data`_ section to describe the course structure
+file.
+
+==================================
+Open edX Platform APIs
+==================================
+
+Added sections for `Course Structure API Version 0`_, `Enrollment API Version
+1.0`_, and `User API Version 0`_.
+
+==================================
+edX Developer's Guide
+==================================
+
+Added the `edX Style Guidelines`_ section with guidelines for Objective-C
+contributions.

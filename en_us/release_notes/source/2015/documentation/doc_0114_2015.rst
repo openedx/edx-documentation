@@ -1,0 +1,7 @@
+
+============================
+edX Enrollment API
+============================
+
+ Version 1 of the `edX Enrollment API`_ guide is now available.
+

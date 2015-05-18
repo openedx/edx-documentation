@@ -1,0 +1,3 @@
+
+Previously, you received an error when opening the **Settings & Details** page
+in French. This problem is resolved. (TNL-1237)

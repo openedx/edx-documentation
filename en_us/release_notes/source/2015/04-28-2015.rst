@@ -1,0 +1,25 @@
+
+###################################
+April 28, 2015
+###################################
+
+The following information reflects what is new in the edX Platform as of
+April 28, 2015. 
+
+
+**************************
+Documentation
+**************************
+
+.. include:: documentation/doc_0428_2015.rst
+
+
+**************************
+LMS
+**************************
+
+.. include:: lms/lms_0428_2015.rst
+
+
+
+.. include:: ../links.rst
