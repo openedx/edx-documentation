@@ -4,8 +4,9 @@
 Change Log
 ###########
 
+
 **********************
-January-March 2015
+April-June 2015
 **********************
 
 .. list-table::
@@ -14,6 +15,9 @@ January-March 2015
 
    * - Date
      - Change
+   * - 19 May 15
+     - Added information about new instructor report events to the
+       :ref:`Tracking Logs` chapter.
    * - 11 May 2015 
      - Updated the descriptions of the ``pause_video``, ``play_video``, and
        ``stop_video`` :ref:`video interaction events<video>` to include the
@@ -25,6 +29,18 @@ January-March 2015
    * - 6 Apr 15
      - Added a section to describe the
        :ref:`course structure<course_structure>` file.
+
+
+**********************
+January-March 2015
+**********************
+
+.. list-table::
+   :widths: 20 70
+   :header-rows: 1
+
+   * - Date
+     - Change
    * - 18 Mar 2015
      - Added information about library events for students to the
        :ref:`Tracking Logs` chapter.

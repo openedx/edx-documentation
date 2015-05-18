@@ -3626,11 +3626,12 @@ that are common to all events. See :ref:`common`.
 * ``list-staff``
 * ``list-students``
 
-.. _rescore_all:
 
 ======================================================
-``rescore-all-submissions`` and ``reset-all-attempts``
+``add_instructor`` and ``remove_instructor`` 
 ======================================================
+
+.. previously a comma-separated list; "Rows identical after the second column" (which means the name and description columns) were combined
 
 **Component**: Instructor Dashboard
 
@@ -3644,10 +3645,9 @@ that are common to all events. See :ref:`common`.
 
    * - Field
      - Type
-   * - ``course``
+   * - ``instructor``
      - string
-   * - ``problem`` 
-     - string
+
 
 .. _rescore_student:
 
@@ -3676,6 +3676,111 @@ that are common to all events. See :ref:`common`.
    * - ``student``
      - string
 
+
+======================================================
+``edx.instructor.report.downloaded`` 
+======================================================
+
+The browser emits an  ``edx.instructor.report.downloaded`` event when the user
+clicks a report link on the instructor dashboard to download a report.
+
+**History**: Added 8 May 2015.
+
+**Component**: Instructor Dashboard
+
+**Event Source**: Browser
+
+``event`` **Member Fields**: 
+
+.. list-table::
+   :widths: 20 20 40
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+   * - ``report_url``
+     - string
+     - The URL to the report file.  
+
+
+======================================================
+``edx.instructor.report.requested`` 
+======================================================
+
+The server emits an  ``edx.instructor.report.requested`` event when the user
+clicks to request the generation of a report on the instructor dashboard. 
+
+**History**: Added 8 May 2015.
+
+**Component**: Instructor Dashboard
+
+**Event Source**: Server
+
+``event`` **Member Fields**: 
+
+.. list-table::
+   :widths: 20 20 40
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+   * - ``report_type``
+     - string
+     - The type of report that was requested.
+
+
+.. _progress:
+
+======================================================
+``get-student-progress-page`` 
+======================================================
+
+**Component**: Instructor Dashboard
+
+**Event Source**: Server
+
+``event`` **Member Fields**: 
+
+.. list-table::
+   :widths: 40 40
+   :header-rows: 1
+
+   * - Field
+     - Type
+   * - ``course``
+     - string
+   * - ``instructor``
+     - string
+   * - ``student``
+     - string
+
+
+.. _rescore_all:
+
+======================================================
+``rescore-all-submissions`` and ``reset-all-attempts``
+======================================================
+
+**Component**: Instructor Dashboard
+
+**Event Source**: Server
+
+``event`` **Member Fields**: 
+
+.. list-table::
+   :widths: 40 40
+   :header-rows: 1
+
+   * - Field
+     - Type
+   * - ``course``
+     - string
+   * - ``problem`` 
+     - string
+
+
 .. _reset_attempts:
 
 ======================================================
@@ -3703,51 +3808,8 @@ that are common to all events. See :ref:`common`.
    * - ``student``
      - string
 
-.. _progress:
 
-======================================================
-``get-student-progress-page`` 
-======================================================
 
-**Component**: Instructor Dashboard
-
-**Event Source**: Server
-
-``event`` **Member Fields**: 
-
-.. list-table::
-   :widths: 40 40
-   :header-rows: 1
-
-   * - Field
-     - Type
-   * - ``course``
-     - string
-   * - ``instructor``
-     - string
-   * - ``student``
-     - string
-
-======================================================
-``add_instructor`` and ``remove_instructor`` 
-======================================================
-
-.. previously a comma-separated list; "Rows identical after the second column" (which means the name and description columns) were combined
-
-**Component**: Instructor Dashboard
-
-**Event Source**: Server
-
-``event`` **Member Fields**: 
-
-.. list-table::
-   :widths: 40 40
-   :header-rows: 1
-
-   * - Field
-     - Type
-   * - ``instructor``
-     - string
 
 .. _list_forum:
 

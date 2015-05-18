@@ -78,6 +78,10 @@ Alphabetical Event List
      - :ref:`content`
    * - ``edx.googlecomponent.document.displayed``
      - :ref:`content`
+   * - ``edx.instructor.report.downloaded``
+     - :ref:`Instructor_Event_Types`
+   * - ``edx.instructor.report.requested``
+     - :ref:`Instructor_Event_Types`
    * - ``edx.video.loaded``
      - :ref:`video`, see ``load_video``
    * - ``edx.video.paused``
