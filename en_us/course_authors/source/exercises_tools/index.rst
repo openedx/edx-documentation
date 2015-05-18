@@ -40,6 +40,7 @@ Course Content Index`.
    molecule_viewer
    multiple_choice
    mult_choice_num_input
+   notes
    numerical_input
    open_response_assessments/index
    periodic_table
