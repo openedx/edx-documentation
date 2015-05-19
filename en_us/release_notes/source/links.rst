@@ -88,7 +88,7 @@
 
 .. other links not yet categorized carefully
 
-
+.. _Change Log: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/front_matter/change_log.html
 
 .. _Weekly Highlights: http://edx-partner-course-staff.readthedocs.org/en/latest/running_course/bulk_email.html#weekly-highlights
 
@@ -152,6 +152,10 @@
 
 .. _edX Research Guide: http://edx.readthedocs.org/projects/devdata/en/latest/
 
+.. _edx.instructor.report.downloaded: http://edx.readthedocs.org/projects/devdata/en/latest/internal_data_formats/tracking_logs.html#edx-instructor-report-downloaded
+
+.. _edx.instructor.report.requested: http://edx.readthedocs.org/projects/devdata/en/latest/internal_data_formats/tracking_logs.html#edx-instructor-report-requested
+
 .. _Data Delivered in Data Packages: http://edx.readthedocs.org/projects/devdata/en/latest/internal_data_formats/package.html
 
 .. _Course Content Data: http://edx.readthedocs.org/projects/devdata/en/latest/internal_data_formats/course_structure.html#course-structure
@@ -189,6 +193,8 @@
 .. _Answer Pools in a Multiple Choice Problem: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/multiple_choice.html#answer-pools-in-a-multiple-choice-problem
 
 .. _Grade and Answer Data: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/running_course/course_grades.html#grades
+
+.. _Generate a Problem Grade Report for Enrolled Students: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/running_course/course_grades.html#problem-report
 
 .. _Multiple Choice: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/multiple_choice.html
 
@@ -423,6 +429,10 @@
 .. _Make All Content-Specific Discussion Topics Unified by Default: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/cohorts/cohorts_setup_discussions.html#make-all-content-specific-discussion-topics-unified-by-default
 
 .. _edX Data Analytics API Version 0 Alpha: http://edx.readthedocs.org/projects/edx-data-analytics-api/en/latest/index.html
+
+.. _Course Video Data: http://edx.readthedocs.org/projects/edx-data-analytics-api/en/latest/courses.html#get-the-course-video-data
+
+.. _Video Data API: http://edx.readthedocs.org/projects/edx-data-analytics-api/en/latest/videos.html
 
 .. _edX Enrollment API: http://edx.readthedocs.org/projects/edx-platform-api/en/latest/enrollment/enrollment.html
 
