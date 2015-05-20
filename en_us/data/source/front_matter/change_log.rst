@@ -14,6 +14,19 @@ January-March 2015
 
    * - Date
      - Change
+   * - XX May 15
+     - Added information about the seven new :ref:`student_notes` events.
+
+**********************
+January-March 2015
+**********************
+
+.. list-table::
+   :widths: 20 70
+   :header-rows: 1
+
+   * - Date
+     - Change
    * - 22 Apr 15
      - Added information about the new ``student_languageproficiency`` table
        and two new columns in the ``auth_userprofile`` table to
