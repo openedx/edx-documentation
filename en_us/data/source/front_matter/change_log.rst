@@ -5,7 +5,7 @@ Change Log
 ###########
 
 **********************
-January-March 2015
+April-June 2015
 **********************
 
 .. list-table::
@@ -16,6 +16,13 @@ January-March 2015
      - Change
    * - XX May 15
      - Added information about the seven new :ref:`student_notes` events.
+   * - 22 Apr 15
+     - Added information about the new ``student_languageproficiency`` table
+       and two new columns in the ``auth_userprofile`` table to
+       :ref:`Student_Info`.
+   * - 6 Apr 15
+     - Added a section to describe the
+       :ref:`course structure<course_structure>` file.
 
 **********************
 January-March 2015
@@ -27,13 +34,6 @@ January-March 2015
 
    * - Date
      - Change
-   * - 22 Apr 15
-     - Added information about the new ``student_languageproficiency`` table
-       and two new columns in the ``auth_userprofile`` table to
-       :ref:`Student_Info`.
-   * - 6 Apr 15
-     - Added a section to describe the
-       :ref:`course structure<course_structure>` file.
    * - 18 Mar 2015
      - Added information about library events for students to the
        :ref:`Tracking Logs` chapter.

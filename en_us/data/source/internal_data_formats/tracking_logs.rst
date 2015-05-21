@@ -2878,13 +2878,13 @@ adds a note in courseware.
      - array of strings
      - An array of the tags that the learner has specified. The text is
        truncated at 8333 characters. If the text is truncated, only complete
-       tag names appear in the array. If the learner has not specified tags,
+       tag names appear in the array. If the learner did not specify tags,
        the array is empty.
    * - ``truncated``
      - array of strings
-     - Lists the names of any truncated fields. Possible
-       values are "note_text", "highlighted_content", and "tags". If no fields
-       have been truncated, the array is empty.
+     - Lists the names of any truncated fields. Values can be "note_text",
+       "highlighted_content", and "tags". If no fields have been truncated,
+       the array is empty.
 
 ``edx.course.student_notes.deleted``
 *************************************
@@ -2928,12 +2928,12 @@ event.
    * - ``old_note_text``
      - string
      - The text of the note before the learner edited it. Notes are truncated
-       at 300 characters.
+       at 8333 characters.
    * - ``old_tags``
      - array of strings
      - Content of the array of tags before the learner edited it. Text is
        truncated at 8333 characters. If the text is truncated, only complete
-       tag names appear in the array. If the learner has not specified tags,
+       tag names appear in the array. If the learner did not specify tags,
        the array is empty.
 
 ``edx.course.student_notes.notes_page_viewed``
@@ -2941,7 +2941,7 @@ event.
 
 The browser emits ``edx.course.student_notes.notes_page_viewed`` events when a
 student accesses or selects a different view on the **Notes** page. Note that
-because "Recent Activity" is the default view, the browser always emits a
+because "Recent Activity" is the default view, the browser always emits an
 ``edx.course.student_notes.notes_page_viewed`` event that has a ``view`` field
 value of "Recent Activity" the first time that the learner accesses the page.
 
@@ -2968,7 +2968,7 @@ value of "Recent Activity" the first time that the learner accesses the page.
 *************************************
 
 The browser emits ``edx.course.student_notes.searched`` events when a learner
-searches notes on the **Student Notes** page.
+searches notes on the **Notes** page.
 
 **Event Source**: Browser
 
@@ -2994,7 +2994,7 @@ searches notes on the **Student Notes** page.
 *********************************************
 
 The browser emits ``edx.course.student_notes.used_unit_link`` events when a
-learner uses a note link on the **Student Notes** page to go to the HTML
+learner uses a note link on the **Notes** page to go to the HTML
 component that contains that note.
 
 **Event Source**: Browser
@@ -3018,15 +3018,17 @@ component that contains that note.
      - The ID of the note.
    * - view
      - string
-     - When a learner selects a different view on the Notes page, the view
-       that the learner last viewed. Possible values are "Recent Activity",
-       "Location in Course", "Tags", and "Search Results".
+     - When a learner selects a note on the **Notes** page to access the note
+       in the courseware, the **Notes** page view that the learner was
+       viewing. Value can be "Recent Activity", "Location in Course",
+       "Tags", and "Search Results".
 
 ``edx.course.student_notes.viewed``
 ***********************************
 
 The browser emits ``edx.course.student_notes.viewed`` events when a learner
-selects a note to view the note in the courseware.
+views a note on a page in the courseware.
+
 
 **Event Source**: Browser
 
@@ -3044,9 +3046,8 @@ selects a note to view the note in the courseware.
    * - ``notes``
      - list
      - A list of the ``note_id`` values for the currently visible notes.
-       Learners can add multiple notes to the same text.
-
-Contains the member field ``note_id``, which contains the unique identifier for the note.
+       Learners can add multiple notes to the same text. Contains the member
+       field ``note_id``, which contains the unique identifier for the note.
 
 .. _ora2:
 
