@@ -1,7 +1,7 @@
 .. _SFD_ORA:
 
 ###########################################
-Open Response Assessments
+公开回应评估
 ###########################################
 
 In an open response assessment, you provide written responses to questions that
