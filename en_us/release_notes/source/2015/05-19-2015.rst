@@ -1,0 +1,27 @@
+
+###################################
+May 19, 2015
+###################################
+
+The following information reflects what is new in the edX Platform as of
+May 19, 2015. 
+
+**************************
+edX Analytics
+**************************
+
+.. include:: analytics/analytics_0519_2015.rst
+
+**************************
+Learning Management System
+**************************
+
+.. include:: lms/lms_0519_2015.rst
+
+**************************
+Documentation
+**************************
+
+.. include:: documentation/doc_0519_2015.rst
+
+.. include:: ../links.rst

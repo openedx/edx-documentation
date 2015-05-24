@@ -47,4 +47,4 @@ services. The page also includes the Twitter feed for
 You can access the public `edX roadmap`_ for details about the currently
 planned product direction.
 
-.. .. include:: ../../links.rst
+.. .. include:: ../links.rst
