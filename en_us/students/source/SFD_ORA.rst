@@ -1,37 +1,29 @@
 .. _SFD_ORA:
 
 ###########################################
-Open Response Assessments
+开放式互动评定（来自网络）
 ###########################################
 
-In an open response assessment, you provide written responses to questions that
-might not have simple or definitive answers. For some open response assessments,
-you can submit an image to accompany a written response.
+在一个开放式互动评分中，你可以给可能没有简单或确切答案的问题（主观题？）书面解答。在开放式
+互动评分中，你也可以提交带有图片的解答。
 
-Open response assessments can include a peer assessment, a self assessment, or
-both. With a peer assessment, you assess, or grade, responses that several of
-your peers have submitted, and several of your peers assess your responses. With
-a self assessment, you assess your own responses. To assess a response, you
-compare the response to a rubric that the instructor provides.
+公开回应的评估可以包括互评，自我评估，或两者。 在互评中, 你可以对你的同学提交的
+解答进行评定或者打分，你的同学也可以对你提交的解答进行同样的操作。在自评中你只可
+以对自己的解答进行评定。 你需要将待评定的解答与教师给出的表参考答案（貌似不太达意）
+进行比较，来完成评定。
 
-A *rubric* is a list of expectations that the responses in an open response
-assessment should meet. Rubrics are made of *criteria* and *options*. *Criteria*
-describe characteristics that each response should have, such as topics the
-response should cover. The *options* for each of the criteria describe how well
-each response satisfies the criteria. In the following image, you can see a
-rubric with two criteria. Each of the criteria has several options.
+标准答案是一个解答中所应该达到的要求的列表。 标准答案由 *标准* 和 *选项* （选项翻译不像中文）
+组成。 *标准* 是每个解答所应具有的特点，例如解答所应包含的话题。 *符合度/选项* 是解答符合标准的程度。 
+下面图片展示了一个包含两个标准的参考答案，每个标准下面又有多个 *符合度/选项*  。
 
 .. image:: /Images/PA_S_Rubric.png
    :alt: Rubric showing criteria and options
    :width: 500
 
-When you assess a response, you select the option that best describes the
-response for each of the criteria.
+在你评定一个解答时，你需要选择最能描述解答体现标准程度的选项。
 
-Some instructors create a **Top Responses** section that shows the top-scoring
-responses for the assignment and the scores that these responses received. If an
-instructor creates this section, you can see it below your score after you
-complete each step of the assignment.
+有的老师会创建一个 **最佳解答** 单元来展示这个问题的高分解答和其得分。如果有这个单元，你就能在
+完成了这个问题的每一步之后，在自己的得分下面查看到它。
 
 ************************
 Student Instructions

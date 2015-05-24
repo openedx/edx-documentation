@@ -1,111 +1,73 @@
 .. _Certificates:
 
 ##############################
-Certificates
+证书
 ##############################
 
-Nearly every course on edx.org offers a certificate when you complete the course
-successfully. The certificate includes your name, the name of the course, the
-edX partner university that created the course, and the names of one or more
-members of the course team. The certificate also lists a URL that viewers can
-use to verify the authenticity of the certificate.
+几乎所有在edx.org上的课程都会在你完成学时后提供一份证书，包含你的姓名、课程名、课程所属大学、授课团队的成员姓名，以及一条链接以供其他人来查验这份证书的授权。
 
 .. image:: /Images/SFD_HCCert.png
    :width: 500
    :alt: Example edX honor code certificate
 
-Because edX courses are not credit-bearing courses, the certificate doesn't
-include a grade or specify the number of credit hours that the course might earn
-in a university. Additionally, transcripts are not available for edX course
-work.
+因为edX课程不是学分制的，所以证书并不包含像大学课程那样明确的成绩或学习时间。此外，edX课程的成绩单也是无法获得的。
 
-.. note:: Your certificate lists the full name that appears on your dashboard. 
-  Before your course ends, make sure that the name on your dashboard is correct. 
-  To change your full name, go to your dashboard, and then select **edit** under 
-  **Full Name** in the left pane.
+.. note:: 证书列出了你在仪表盘上显示的全名。在课程结束之前，请确保仪表盘上的名字是正确的。如果要更改你的全名，请访问仪表盘，然后选择左侧栏中的 **全名** 下的 **编辑** 一项。
 
 ****************************
-Selecting a Certificate Type
+选择一个证书的种类
 ****************************
 
-Three types of certificates may be available for courses on edx.org: honor code,
-verified, and XSeries. You select the certificate type you want when you
-register for a course.
+有三种证书可在edx.org上获得：荣誉证书，认证证书，以及XSeries。当注册一门课程的时候你可以选择想要的证书种类。
 
-Honor code and verified certificates show that you've completed a single honor
-code or verified course. An XSeries certificate shows that you've completed a
-series of courses, known as an XSeries.
+荣誉证书以及认证证书表明了你已经完成一项荣誉课程或者认证课程。如其所述，一张XSeries证书表明了你已经完成一系列的课程。
 
-The type of certificate appears in a color-coded tag under the course image on
-your dashboard:
+证书的种类将会在仪表盘上的课程简图下用不同颜色的标签注明：
 
 .. image:: /Images/Dashboard_CertTypes.png
    :width: 500
    :alt: Dashboard with color indications for audit, honor code, and verified courses
 
 
-.. note:: A very small number of courses do not offer certificates. These courses 
-  have the same rigorous material as other edX courses. If you want evidence that 
-  you completed the course, you can print a copy of the **Progress** page in the course.
+.. note:: 有极少数的课程不提供证书，它们和edX的其他课程一样属于可信来源。如果想要证明你已完成这门课程，可以打印课程中的 **进度** 一页。
 
 
 =========================
-Honor Code Certificates
+荣誉证书
 =========================
 
-Honor code certificates are free of charge to all students and are available for
-all except a few specific courses. When you audit a course, or you take a course
-that doesn't offer verified certificates, you'll automatically receive an honor
-code certificate if you meet the requirements to pass the course.
+荣誉证书对于所有学生免费，并且除个别几个特殊要求的课程外，所有课程都可获取。当你旁听了一门课程，或加入了一门不提供verified证书的时候，你将自动获得一份荣誉证书，前提是你通过了课程的所有考核。
 
 .. image:: /Images/SFD_HCCert.png
    :width: 500
    :alt: Example edX honor code certificate
 
 =========================
-Verified Certificates
+认证证书
 =========================
 
-A verified certificate shows not only that you successfully completed your edX
-course, but also that you've verified your identity by using a webcam and an
-official ID from your country or region. You may want to work toward a verified
-certificate if you plan to use your course for job applications, promotions, or
-school applications.
+一份认证证书表明你不仅成功地完成了你的edX课程，而且你已通过网络摄像头和身份证号的方式获取所在国家或地区的认证。如果你计划将课程用于职位申请、升职或学校申请的话，那么你可以努力获取一份认证证书。
 
 .. image:: /Images/SFD_VerCert.png
    :width: 500
    :alt: Example edX honor code certificate
 
-Verified certificates are available for select courses. If a course offers
-verified certificates, you'll see a "Verified" badge on the course image in the
-list of courses on edx.org:
+认证证书均可在精品课程中获取。如果一门课程提供认证证书的话，那么你可以在edx.org的课程列表中看到课程简图下的“认证”标志。
 
 .. image:: /Images/SFD_VerifiedBadge.png
    :width: 200
    :alt: Image of DemoX course listing with a verified badge
 
-Verified certificates are available for a fee that varies by course. The fee
-helps support edX. If you want to help support edX, you can choose to pay more
-than the minimum required fee. For more information about the fee for a
-particular course, see the About page for that course.
+认证证书可在不同收费下的课程中获得，这些费用将帮助edX的建设。如果你希望资助edX的话，那么你可以通过支付比最少费用更多的钱来这么做。关于某门课程收费方面的信息，请参阅这门课程的介绍页面。
 
-When you register for a verified course, you'll use a webcam to submit a photo
-of yourself and of an official ID to edX's secure authorization service. We
-encrypt your photos and use the highest levels of security available to protect
-your data. During the course, you may be asked to use the same method to re-
-verify your identity periodically. If your computer doesn't have a webcam, you
-must register for the verified certificate on a computer that has a webcam.
+当注册一门认证课程时，你会被要求用网络摄像头拍摄一张自拍照，并附上身份证号，提交至edX安全认证服务。我们将会加密你的照片并用最高等级的安全措施来保护你的数据。当课程进行时，你或许会被要求用同样的方式再次认证你之前的身份信息。如果你的计算机没有网络摄像头的话，那么你必须用有摄像头的计算机来注册并获取认证证书。
 
-.. For more information about registering for a verified certificate and paying
-.. the fee, see :ref:`SFD_registration`. (this topic not written yet)
+.. 关于更多注册认证证书、费用支付的信息请参阅：ref:`SFD_registration`. (这篇章节还不存在！)
 
-For a list of all courses that offer verified
-certificates, see the `edX course catalog <https://www.edx.org/course-
+若希望获知所有提供认证证书的课程，请参阅 `edX课程目录 <https://www.edx.org/course-
 list/allschools/verified/allcourses>`_.
 
-If you have a question or an issue with billing for a verified certificate,
-contact us at `billing@edx.org <mailto://billing@edx.org>`_. Include your order
-number, but please **do not include your credit card information**.
+如果你对认证证书的计费有任何问题或意见，请联系我们： `billing@edx.org <mailto://billing@edx.org>`_. 请在邮件中写明你的订单号，但 **不要写你的信用卡信息**。
 
 =========================
 XSeries Certificates

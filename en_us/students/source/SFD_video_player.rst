@@ -1,51 +1,42 @@
 .. _Video Player:
 
 #####################
-The edX Video Player
+edX播放器
 #####################
 
-All edX courses include videos, and edX has its own video player. Most of the
-controls on the player will be familiar to you if you have watched online videos
-before. However, the edX video player has some extra features you may not have 
-seen.
+所有的edX课程都含有视频和edX专有的播放器。如果你在网上看过视频的话，那么其中的大部分播放器控件都是你熟悉的。然而，edX的视频播放器也会有一些你可能没有见过的额外的功能。
 
-The following image shows the video player in the middle of a video, followed by
-an explanation of each option or control on the video player.
+下图是一个播放到一半的播放器，紧跟着的是对播放器上的一些选项和控制的解释。
 
 .. image:: /Images/Video_Intro.png
   :width: 600
   :alt: Image of video player with call-outs
 
-1. **Play/pause control**: You can play or pause the video by using this control.
-2. **Time**: The first number indicates the time the video has played. The second
-   number indicates the total length of the video.
-3. **Time slider**: You can drag this control to any point in the video if you want
-   to go back or skip ahead to a particular time.
-4. **Speed control**: If you want the video to play faster or slower, you can select
-   different speeds using this control.
-5. **Volume control**: You can use this control to change the volume of the video.
-6. **Full screen control**: You can expand the video to fill your browser window by
-   selecting this control. To return to default mode, press ESC on your
-   keyboard.
-7. **HD control**: Some videos have a high-definition option that you can use if
-   you have a fast internet connection. You only see this control if your video
-   has a high-definition option.
-8. **Show transcript control**: You can show or hide the scrolling transcript to the
-   right of the video by selecting this control. 
-9. **Download video option**: This option allows you to download the video to
-   watch later. You only see this option if the video is available for download.
-10. **Download transcript option**: This option allows you to download a copy of
-    the video's transcript. You can download the transcript as a SubRip (.srt)
-    file or as a text (.txt) file. You can open files of both types in a text
-    editor such as Notepad. You only see this option if the transcript is
-    available for download.
-11. **Transcript**: The transcript for the video plays by default when your
-    video starts. You can scroll through the transcript and select any word to
-    go to that point in the video.
+1. **播放/暂停**: 你可以用这个按钮播放或者暂停视频。
+
+2. **时间**: 第一个数字表示视频已播放的时间，第二个数字表示视频的总时长
+
+3. **时间滑块**: 你可以拖拽这个滑块到视频上的任一时间点。
+
+4. **速度调节**: 如果你想让视频播放得更快或者更慢，可以用此功能调节至不同的速度。
+
+5. **声音控制选项**: 你可以用这个功能来调节视频播放的声音大小。
+
+6. **全屏**: 你还可以通过选择这个按钮来让视频全屏，想退出全屏请按键盘上的ESC键。
+
+7. **高清**: 一部分视频有高清选项，如果你的网络状况良好，可以选择播放高清版本的视频。
+
+8. **显示/隐藏字幕**: 你可以通过此选项选择显示或者隐藏右侧的滚动字幕。
+
+9. **下载视频选项**: 你可以使用此选项功能下载视频供稍后观看，只有本视频允许下载视频的时候你才可以看到此选项。
+
+10. **下载字幕**: 此选项允许你下载一份视频字幕的副本，我们提供SubRip(.srt)格式或text(.txt)格式的字幕文件下载。你可以用一个文本编辑器打开它们。只有本视频允许下载字幕的时候你才可以看到此选项。
+
+11. **字幕栏**: 字幕会默认地滚动到相应视频播放的位置，你可以通过选择字幕中的文字来跳转到视频中的任意时间点。
 
 
-For a demonstration of the edX video player, see `Videos on edX <https://courses
+若想查看一个edX播放器的演示，请参见 `Videos on edX <https://courses
 .edx.org/courses/edX/DemoX.1/2014/courseware/0af8db2309474971bfa70cda98668a30/ec
-3364075f2845baa625bfecd5970410/2>`_ in the `edX DemoX course
+3364075f2845baa625bfecd5970410/2>`_ 以及 `edX DemoX course
 <https://www.edx.org/course/edx/edx-demox-1-demox-4116#.VF0M3_TF-2w>`_.
 
