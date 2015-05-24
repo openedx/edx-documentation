@@ -18,25 +18,18 @@ Certificates
 Selecting a Certificate Type
 ****************************
 
-Three types of certificates may be available for courses on edx.org: honor code,
-verified, and XSeries. You select the certificate type you want when you
-register for a course.
+三种证书可在edx.org上获得：honor code，verified，以及XSeries。当注册一门课程的时候你可以选择想要的证书种类。
 
-Honor code and verified certificates show that you've completed a single honor
-code or verified course. An XSeries certificate shows that you've completed a
-series of courses, known as an XSeries.
+Honor code以及verified证书表明了你已经完成一项honor code或者verified课程。如其所述，一张XSeries证书表明了你已经完成一系列的课程。
 
-The type of certificate appears in a color-coded tag under the course image on
-your dashboard:
+证书的种类将会在仪表盘上的课程简图下用不同颜色的标签注明：
 
 .. image:: /Images/Dashboard_CertTypes.png
    :width: 500
    :alt: Dashboard with color indications for audit, honor code, and verified courses
 
 
-.. note:: A very small number of courses do not offer certificates. These courses 
-  have the same rigorous material as other edX courses. If you want evidence that 
-  you completed the course, you can print a copy of the **Progress** page in the course.
+.. note:: 有极少数的课程不提供证书，它们和edX的其他课程一样属于可信来源。如果想要证明你已完成这门课程，可以打印课程中的 **进度** 一页。
 
 
 =========================
