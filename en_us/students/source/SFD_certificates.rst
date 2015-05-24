@@ -4,25 +4,15 @@
 Certificates
 ##############################
 
-Nearly every course on edx.org offers a certificate when you complete the course
-successfully. The certificate includes your name, the name of the course, the
-edX partner university that created the course, and the names of one or more
-members of the course team. The certificate also lists a URL that viewers can
-use to verify the authenticity of the certificate.
+几乎所有在edx.org上的课程都会在你完成学时后提供一份证书，包含你的姓名、课程名、课程所属大学、授课团队的成员姓名，以及一条链接以供其他人来查验这份证书的授权。
 
 .. image:: /Images/SFD_HCCert.png
    :width: 500
    :alt: Example edX honor code certificate
 
-Because edX courses are not credit-bearing courses, the certificate doesn't
-include a grade or specify the number of credit hours that the course might earn
-in a university. Additionally, transcripts are not available for edX course
-work.
+因为edX课程不是学分制的，所以证书并不包含像大学课程那样明确的成绩或学习时间。此外，edX课程的成绩单也是无法获得的。
 
-.. note:: Your certificate lists the full name that appears on your dashboard. 
-  Before your course ends, make sure that the name on your dashboard is correct. 
-  To change your full name, go to your dashboard, and then select **edit** under 
-  **Full Name** in the left pane.
+.. note:: 证书列出了你在仪表盘上显示的全名。在课程结束之前，请确保仪表盘上的名字是正确的。如果要更改你的全名，请访问仪表盘，然后选择左侧栏中的 **全名** 下的 **编辑** 一项。
 
 ****************************
 Selecting a Certificate Type
