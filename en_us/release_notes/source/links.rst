@@ -47,6 +47,11 @@
     xml.readthedocs.org/en/latest/problem-xml/custom_python.html#script-tag-
     format>
 
+.. _Licensing a Course: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/building_course/licensing_course.html
+
+.. _Course and Video Licenses: http://edx.readthedocs.org/projects/edx-guide-for-students/en/latest/SFD_licensing.html
+
+.. _Enabling Course and Video Licensing: http://edx.readthedocs.org/projects/edx-installing-configuring-and-running/en/latest/configuration/enable_licensing.html
 
 .. _Write-Your-Own-Grader for OLX: http://edx-open-learning-
     xml.readthedocs.org/en/latest/problem-xml/custom_python.html
