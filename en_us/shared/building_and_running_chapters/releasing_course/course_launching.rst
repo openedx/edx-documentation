@@ -36,6 +36,11 @@ starts follow.
   as student cohorts, are enabled and configured. See
   :ref:`Cohorts Overview`.
 
+**Verify Certificates**
+
+* Make sure that certificates are correctly configured and ready to be issued.
+  See :ref:`Setting Up Course Certificates`.
+
 **Review First Week Content**
 
 * Verify that all units are present and published. See :ref:`Developing Course
