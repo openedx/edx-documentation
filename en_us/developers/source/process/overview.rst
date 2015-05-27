@@ -15,6 +15,81 @@ and other contributors can expect from each other. The goals are:
 * Maintain a high standard for code quality, while avoiding hurt feelings
   as much as possible.
 
+Overview
+--------
+
+Get in touch with us right now! We want to talk to you about your work as early
+as possible in your development cycle, ideally when you start designing your
+feature. This will help you so much, we promise: we'll help guide your work so
+you don't have to rearchitect it late in your development cycle. We'll help you
+understand the analytics, performance, test, accessibility, and other various
+requirements up front. We'll also be able to let you know if work you're
+planning duplicates work edX or others are doing. Finally, we'll let you know if
+your work requires `architecture council review`_.
+
+You can get in touch with us using JIRA, IRC, or mailing lists. `The
+instructions here`_ explain how to use each tool; use whichever you prefer.
+
+You should get in touch with us regarding any work you intend to contribute
+upstream, including but not limited to:
+
+* Core platform changes (changes to the edx-platform repo)
+* Changes to any associated repos (edx-analytics, configuration, XBlock, etc)
+* A new XBlock you're writing that you intend to have run on edx.org
+
+We do not need to review your code if you are writing:
+
+* An XBlock to be run on your own server, not intended to run on edx.org
+* LTI tools that are running on an external server
+* Code you are writing for your own installation, that won't be run on edx.org
+
+Make sure you've signed a `contribution agreement`_ before you submit code
+upstream to any edX owned repo. Please be sure you've at least skimmed the
+:doc:`contributor guidelines <contributor>`, especially the :doc:`pull request
+cover letter <cover-letter>` guidelines.
+
+If you have any process questions along the way, please reach out to us on the
+`edx-code mailing list`_.
+
+Once you open your pull request, we'll need to review it. What types of review
+are necessary will be determined by the complexity of your pull request and
+whether or not you've spoken to us before you open your pull request. An
+overview of the process is here:
+
+.. image:: pr-process.png
+   :align: center
+   :alt: A visualization of the pull request process
+   :target: ../_images/pr-process.png
+
+.. _architecture council review: https://openedx.atlassian.net/wiki/display/OPEN/OSPR%3A+Architecture+Review
+.. _The instructions here: https://github.com/edx/edx-platform/blob/master/CONTRIBUTING.rst#step-0-join-the-conversation
+.. _contribution agreement: https://github.com/edx/edx-platform/blob/master/CONTRIBUTING.rst#step-1-sign-a-contribution-agreement
+.. _edx-code mailing list: https://groups.google.com/forum/#!forum/edx-code
+
+General Guidelines
+------------------
+
+Please follow these guidelines when writing code. Please note that not all of
+these may be required for your feature; reach out to us if you have any
+questions or concerns.
+
+* `Internationalization Coding Guidelines`_
+* `RTL UI Best Practices`_
+* `Accessibility Guidelines`_
+* `Analytics Guidelines`_
+* `Eventing Design and Review Process`_
+
+For XBlocks you intend to install on edx.org, please also read
+
+* `XBlock Review Guidelines`_
+
+.. _Internationalization Coding Guidelines: https://openedx.atlassian.net/wiki/edx.readthedocs.org/projects/edx-developer-guide/en/latest/internationalization/i18n.html
+.. _RTL UI Best Practices: https://github.com/edx/edx-platform/wiki/RTL-UI-Best-Practices
+.. _Accessibility Guidelines: http://edx.readthedocs.org/projects/edx-developer-guide/en/latest/accessibility.html
+.. _Analytics Guidelines: http://edx.readthedocs.org/projects/edx-developer-guide/en/latest/analytics.html
+.. _Eventing Design and Review Process: https://openedx.atlassian.net/wiki/display/AN/Eventing+Design+and+Review+Process
+.. _XBlock Review Guidelines: https://openedx.atlassian.net/wiki/display/OPEN/XBlock+review+guidelines
+
 Roles
 -----
 
@@ -38,14 +113,6 @@ different jobs and responsibilities:
 .. note::
   At the moment, developers who work for edX are core committers, and other
   developers are contributors. This may change in the future.
-
-Overview
---------
-
-.. image:: pr-process.png
-   :align: center
-   :alt: A visualization of the pull request process
-   :target: ../_images/pr-process.png
 
 If you are a :doc:`contributor <contributor>` submitting a pull request, expect that it will
 take a few weeks before it can be merged. The earlier you can start talking
