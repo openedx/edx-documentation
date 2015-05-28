@@ -47,7 +47,9 @@ May 2015
      - Updated the :ref:`Preview Course Content` section to reflect that
        course teams can now use the **Preview** button to preview course
        changes before a course is released.
-
+   * - 5 May 2015
+     - Updated the :ref:`Student Data` section to include information about
+       the :ref:`learner engagement report<Track Student Activity>`.
 
 ***********
 April 2015
@@ -79,6 +81,7 @@ April 2015
    * - 3 Apr 2015
      - Added the section :ref:`Timer Between Attempts` to the :ref:`Working
        with Problem Components` chapter.
+
 
 ****************
 March 2015
@@ -159,8 +162,21 @@ January 2015
      - Change
    * - 1/27/15
      - Updated :ref:`Open Response Assessments 2` chapter.
+   * -
+     - Added :ref:`Making Course Content Searchable` section.
    * - 1/21/15
      - Added the :ref:`Cohorted Courseware Overview` section.
+   * - 1/14/15
+     - Added sections for :ref:`Content Libraries` and :ref:`Randomized Content
+       Blocks`.       
+   * - 
+     - Added a section for :ref:`Cohorted Courseware Overview`.
+   * -      
+     - Updated :ref:`Add Files to a Course` section with information about
+       filtering the list of uploaded files by file type.
+   * - 
+     - Added the :ref:`Google Calendar Tool` and :ref:`Google Drive Files
+       Tool` chapters.
    * - 1/7/15
      - Added the :ref:`Rerun a Course` chapter.
 
@@ -181,6 +197,9 @@ December 2014
      - Updated :ref:`Adding Course Updates and Handouts` and :ref:`The Visual
        Editor` to clarify that the visual editor is not supported for course
        handouts.
+   * - 
+     - Added the :ref:`Assign Students to Cohort Groups by uploading CSV`
+       section.       
    * - 12/17/14
      - Updated :ref:`Custom JavaScript` and :ref:`Multiple Problems in One
        Component` to indicate that you cannot use a custom JavaScript problem

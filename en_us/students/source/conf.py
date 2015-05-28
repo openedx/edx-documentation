@@ -29,7 +29,7 @@ pygments_style = 'sphinx'
 
 
 # General information about the project.
-project = u'edX Guide for Students'
+project = u'edX Learner\'s Guide'
 copyright = u'2015, edX'
 
 # The short X.Y version.

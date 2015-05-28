@@ -90,11 +90,11 @@ problem, follow these steps.
      **+-5**.
 
    * To specify a range, you provide the starting and ending values separated
-     by a comma and then surround the range with brackets [] or parentheses
-     (). A bracket includes the number next to it in the range, and a
-     parenthesis excludes the number from the range. For example, if you specify
-     **[5, 8)**, correct answers can be 5, 6, and 7, but not 8. Likewise, if
-     you specify **(5, 8]**, correct answers can be 6, 7, and 8, but not 5.
+     by a comma and then surround the range with brackets [] or parentheses ().
+     A bracket includes the number next to it in the range, and a parenthesis
+     excludes the number from the range. For example, if you specify **[5,
+     8)**, correct answers can be 5, 6, and 7, but not 8. Likewise, if you
+     specify **(5, 8]**, correct answers can be 6, 7, and 8, but not 5.
 
 #. To provide an explanation, select the explanation text and then select 
    **Explanation** from the toolbar. ``[explanation]`` appears before

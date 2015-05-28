@@ -146,6 +146,9 @@ General Exercises and Tools
      - If you have an problem that is already written in LaTeX, you can use
        this problem type to easily convert your code into XML.
      - No support
+
+.. Removed student notes row for now-- cannot conditionalize in tables. Currently student notes page is included in open edx, not in edx.
+
    * - .. image:: ../../../shared/building_and_running_chapters/Images/TextInputExample.png
           :width: 100
           :alt: Example text input problem
@@ -154,6 +157,7 @@ General Exercises and Tools
        response can include numbers, letters, and special characters such as
        punctuation marks.
      - Full support  
+   
    * - .. image:: ../../../shared/building_and_running_chapters/Images/WordCloudExample.png
           :width: 100
           :alt: Example word cloud

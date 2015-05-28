@@ -45,6 +45,7 @@ Course Content Index`.
    problem_in_latex
    protein_builder
    recommenderXBlock
+   student_notes
    text_input
    vitalsource
    word_cloud

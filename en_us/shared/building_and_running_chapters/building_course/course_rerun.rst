@@ -76,7 +76,7 @@ Use Re-Run to Create a Course
 Before you re-run a course, complete the following steps.
 
 * For a course that is hosted on the `edge.edx.org`_ site, verify that you have
-  permission to create courses in Studio. See :ref:`Use Studio on Edge`.
+  permission to create courses in Studio.
 
 * For a course that is hosted on the `edx.org`_ site, contact your Program
   Manager. Your Program Manager will create the new course using the re-run

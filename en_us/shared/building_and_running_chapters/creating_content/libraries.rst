@@ -4,7 +4,6 @@
 Working with Content Libraries 
 ##############################
 
-
 .. _Content Libraries Overview:
 
 **************************
@@ -125,7 +124,7 @@ To change the name of a library, follow these steps.
 #. Log in to Studio.
 #. Click **Libraries**, then click the library whose name you want to edit.
    
-#. Click the **Edit** icon next to the library name. 
+#. Click the **Edit** icon next to the library name.
    
    The library name field becomes editable.
    
@@ -394,7 +393,6 @@ Exporting and Importing a Library
 You can :ref:`export<Export a Library>` and :ref:`import<Import a Library>` a
 content library in Studio.
 
-
 .. _Export a Library:
 
 ================
@@ -472,4 +470,3 @@ To import a library, follow these steps.
    version in the content library, see :ref:`Get the Latest Version of Library
    Content`.
    
-

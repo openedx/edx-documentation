@@ -18,6 +18,14 @@ source_suffix = '.rst'
 pygments_style = 'sphinx'
 
 
+extensions = ['sphinx.ext.ifconfig']
+
+tags.add('Partners')
+
+product = 'Partners'
+
+def setup(app):
+    app.add_config_value('product', '', True)
 
 # Add any paths that contain templates here, relative to this directory.
 #templates_path.append('source/_templates')
@@ -31,11 +39,6 @@ pygments_style = 'sphinx'
 # General information about the project.
 project = u'Building and Running an edX Course'
 copyright = u'2015, edX'
-
-# The short X.Y version.
-version = ''
-# The full version, including alpha/beta/rc tags.
-release = ''
 
 # -- Options for HTML output ---------------------------------------------------
 
@@ -52,6 +55,7 @@ html_favicon = '../../_themes/edx_theme/static/css/favicon.ico'
 
 #html_use_smartypants = True
 html_use_smartypants = True
+
 
 if on_rtd:
     html_context = {

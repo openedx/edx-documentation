@@ -23,7 +23,6 @@ You can use an LTI component in several ways.
 * You can use the component as a placeholder for syncing with an external
   grading system.
 
-
 For example, the following LTI component incorporates a Cerego tool that
 students interact with.
 

@@ -7,15 +7,9 @@ Student Data
 You can access data about the individuals who are enrolled in your course at
 any time after you create the course.
 
-For information about student data, see the following topics:
-
-* :ref:`PII`
-
-* :ref:`Access_student_data`
-
-* :ref:`Access_anonymized`
-  
-* :ref:`Track Student Activity`
+.. contents:: Section Contents:
+  :local:
+  :depth: 2
 
 To supplement the student data available from the Instructor Dashboard, you can
 use the charts and reports that are available from edX Insights. For more
@@ -41,7 +35,7 @@ distribution or misuse of this information.
 .. _Access_student_data:
 
 ****************************
-Access Student Data
+Accessing Student Data
 ****************************
 
 You can download data about the students who are currently enrolled in your
@@ -110,7 +104,7 @@ view student data on the Instructor Dashboard.
 .. note:: In addition to the data for enrolled students, data for the course 
  staff is included in the file or display.
 
-To download student data:
+To download student data, follow these steps.
 
 #. View the live version of your course.
 
@@ -132,7 +126,7 @@ To download student data:
 
   All student-supplied data is included in this file without truncation.
 
-To view student data:
+To view student data, follow these steps.
 
 .. note:: This option is available only for courses with an enrollment of less 
  than 200.
@@ -161,7 +155,7 @@ Cohort column with each student's assigned cohort group.
 .. _Access_anonymized:
 
 ********************************
-Access Anonymized Student IDs
+Accessing Anonymized Student IDs
 ********************************
 
 Some of the tools that are available for use with the edX platform, including
@@ -187,25 +181,13 @@ To research and deanonymize student data, you can use this file together with
 the ``{course_id}_student_profile_info_{date}.csv`` file of student data or the
 ``{course_id}_grade_report_{date}.csv`` file of grades.
 
-.. _Track Student Activity:
+.. only:: Open_edX
 
-******************************
-Track Student Activity
-******************************
+    .. include:: ../../../shared/building_and_running_chapters/running_course/Section_course_student.rst
 
-To monitor student activity during your course, you can review the number of
-students who, each week, interacted with your course. To be considered active,
-students must visit pages, play videos, add to discussions, submit answers to
-problems, or complete other course activities. The active student count is
-updated weekly.
+.. only:: Partners
 
-To display the number of active students:
-
-#. View the live version of your course.
-
-#. Click **Instructor**, then click **Analytics**. The count of active students
-   appears at the top of the page.
-
+    .. include:: ../../../shared/building_and_running_chapters/running_course/Section_track_student_activity.rst
 
 .. _Using edX Insights: http://edx-insights.readthedocs.org/en/latest/
 .. _auth_userprofile.level_of_education: http://edx.readthedocs.org/projects/devdata/en/latest/internal_data_formats/sql_schema.html#level-of-education
