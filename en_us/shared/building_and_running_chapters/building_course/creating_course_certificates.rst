@@ -4,16 +4,12 @@
 Setting Up Course Certificates
 ################################
 
-This topic describes how to configure and create certificates for your course
+This section describes how to configure and create certificates for your course
 in Studio.
 
-* :ref:``
-* :ref:``
+.. contents::
+   :local:
 
-
-
-.. _Edge: http://edge.edx.org
-.. _edXorg: http://edx.org
 
 .. _Create a Certificate:
   
@@ -27,14 +23,18 @@ Create a certificate
 
 #. Select **Add a new certificate**.
 
-#. If the official course name is too long to display well on a certificate,
-   you can optionally specify a shorter course name to use on the certificate.
+#. Optionally, specify a shorter course name to use on the certificate, if the
+   official course name is too long to display well.
 
-#. Upload the logo for your organization. Make sure that this is the same
-   standardized logo used across all courses for your organization. Make sure
-   it is the approved and official version that other courses in your
-   organization are using, for consistency across certificates that are issued
-   from other courses in your organization.
+#. Upload the logo image file for your organization. Make sure that this is
+   the approved official logo for your organization, for consistency with
+   certificates that are issued from other courses in your organization.
+
+.. note:: Images that you upload for certificates can be a maximum of 10MB in
+   size and must not exceed the dimensions indicated below the upload path field.
+
+.. image
+   
 
 #. Add a signatory for each person associated with the course or organization
    that you want to have appear on the certificate, up to a maximum of 4
@@ -45,15 +45,24 @@ Create a certificate
    only for verified certificates; honor certificates show only the names of
    signatories, not their signatures.
 
-#. When you have finished editing your certification click “Preview” and
-   select the course mode to view the certificate as it will appear to a
-   learner taking the course in the selected mode.
+.. image   
+
+#. When you have finished editing your certificate select the course mode then
+   select **Preview** to view the certificate as it will appear to a learner
+   taking the course in the selected mode.
+
+.. note:: Images that you upload for certificates can be a maximum of 10MB in
+   size and must not exceed the dimensions indicated below the upload path field.
+
+.. image
 
 #. When you are satisfied that the certificate details are as they should
-   appear, click **Approved**.
+   appear, click **Activate**.
 
-   Approved certificates are available for viewing by learners and for
-   previewing by course team members.
+   Activated certificates are available for viewing by learners and course
+   staff. You can edit activated certificates, but if you make and save any
+   changes, the certificate becomes inactive. You must activate it again
+   before it can be issued.
 
 
 .. _Edit a Certificate:
@@ -61,6 +70,26 @@ Create a certificate
 ************************
 Edit a Certificate
 ************************
+
+You can edit a certificate at any time, including after a certificate has been activated, but as a best practice you should not make changes to certificates after a course has started and if it is possible that the certificate has already been issued to learners.
+
+To make changes to a certificate configuration, follow these steps.
+
+#. In Studio, select **Settings** > **Certificates**.
+
+#. In the certificate configuration, select the **Edit** icon and make your
+   changes.
+
+#. When you have finished editing the certificate configuration, click
+   **Save**.
+
+   After you save your changes, you should **Preview** the certificate to make
+   sure it appears as you want it to. You then need to click **Activate** to
+   re-activate the certificate.
+
+.. image
+
+
 
 
 
@@ -70,63 +99,63 @@ Edit a Certificate
 Delete a Certificate
 ************************
 
+You can delete a certificate at any time, but as a best practice you should not delete certificates after a course has started and if it is possible that the certificate has already been issued to learners.
+
+To delete a certificate, follow these steps.
 
 
 
 
 
-
-
-
-
-.. _Add Course Team Members:
+.. _Preview a Certificate:
 
 ************************
-Add Course Team Members
+Preview a Certificate
 ************************
 
-Course team members are users who help you build your course. Before you can
-assign Staff or Admin access to a team member:
+When a certificate has been approved, course team members can preview it for
+verification purposes.
 
-* You must be an Admin.
+#. In Studio, select Settings > Certificates.
 
-* The team member that you want to add must register a user account and
-  activate the account.
+#. On the certificates configuration page, click Preview, then select the
+   course mode of the certificate you want to preview.
 
-* You need the same, registered email address for the team member you want to
-  add.
+   You see the web view for the certificate, as a learner in the selected
+   course mode would see it.
 
-Other course team members can edit the course and perform all tasks except
-adding and removing other team members and granting Admin access.
+#. If necessary, on the certificates configuration page, select Edit.
 
-.. note::  Any course team member can delete content created by other team
- members.
+#. Make any changes and select **Save**.
 
-To add a course team member:
+#. Click Preview to see your changes.
 
-#. Ensure you have Admin access.
-#. Ensure that the new team member has registered and activated an account.
-#. In Studio, from the **Settings** menu, select **Course Team**.
-#. Select **Add a New Team Member**.
-#. Enter the new team member's email address, then select **ADD USER**. 
 
-The new team member can now work on the course in Studio. 
 
-* To preview the course in the LMS, the team member must enroll in the course.
+.. _Approve a Certificate:
 
-* To moderate course discussions, the team member must also have one of the
-  discussion roles. For more information, see
-  :ref:`Assigning_discussion_roles`.
+************************
+Approve a Certificate
+************************
 
-You can also assign privileged roles to users when you work in the LMS.
+When the course certificate is ready to be issued, on the certificates
+configuration page in Studio click **Approve**. 
 
-.. note:: The LMS "Course Staff" role is the same as the Studio "Staff" role, 
- and the LMS "Instructors" role is the same as the Studio "Admin" role.
+The certificate configuration can be edited, but if you save any changes, the
+certificate must be approved again.
 
-Regardless of where the role is assigned, these administrative team members
-can work on your course in both Studio and the LMS (after enrollment). For
-more information about assigning roles while you run your course, see
-:ref:`Course_Staffing`.
+If you must make further changes after you approve a certificate you must re-approve it after saving your changes.
+
+
+
+
+.. _Manage Certificate Images:
+
+**************************
+Manage Certificate Images
+**************************
+
+
 
 You can also designate teams of people to beta test your course and to
 moderate and manage its discussions by assigning other LMS roles. The beta
