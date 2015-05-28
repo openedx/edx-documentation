@@ -13,6 +13,7 @@ see :ref:`Developing Your Course Index`.
    :maxdepth: 2
 
    creating_new_course
+   search_course
    scheduling_course
    setting_up_student_view
    course_prerequisites
