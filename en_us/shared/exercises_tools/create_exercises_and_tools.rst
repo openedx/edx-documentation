@@ -114,6 +114,13 @@ General Exercises and Tools
      - :ref:`LTI Component`
      - LTI components allow you to add an external learning application or non-PDF textbook to Studio.
      - Full support
+   * - .. image:: ../../../shared/building_and_running_chapters/Images/SFD_SN_bodyexample.png
+          :width: 100
+          :alt: Image of notes in a course
+     - :ref:`Notes Tool`
+     - With notes, learners can make notes about what they read and
+       highlight passages in the course content.
+     - Full support
    * - .. image:: ../../../shared/building_and_running_chapters/Images/PA_QandRField.png
           :width: 100
           :alt: Example open response assessment
