@@ -1,0 +1,9 @@
+
+Course staff can now specify either "All Rights Reserved" or a Creative
+Commons license for course content as a whole as well as for each individual
+video in the course. For more information, see `Licensing a Course`_ in
+*Building and Running an edX Course* and `Enabling Course and Video
+Licensing`_ in *Installing, Configuring, and Running the Open edX Platform*.
+
+
+
