@@ -195,20 +195,20 @@ of the toolbar options.
 
 Descriptions of the toolbar options follow.
 
- 1. **Heading 1**: Format text as a first level heading.
- 2. **Multiple Choice**: Identify the text on each selected line as an answer
-    option for a multiple choice problem.
- 3. **Checkboxes**: Identify the text on each selected line as an answer
-    option for a checkboxes problem.
- 4. **Text Input**: Identify the correct answer for a text input problem.
- 5. **Numerical Input**: Identify the correct answer, with an optional
-    tolerance, for a numerical input problem.
- 6. **Dropdown**: Identify a comma-separated list as the answer options for a
-    dropdown problem.
- 7. **Explanation**: Format text as an explanation that appears when students
-    click **Show Answer**.
- 8. Open the problem in the Advanced Editor.
- 9. Open a list of formatting hints.
+1. **Heading 1**: Format text as a first level heading.
+2. **Multiple Choice**: Identify the text on each selected line as an answer
+   option for a multiple choice problem.
+3. **Checkboxes**: Identify the text on each selected line as an answer option
+   for a checkboxes problem.
+4. **Text Input**: Identify the correct answer for a text input problem.
+5. **Numerical Input**: Identify the correct answer, with an optional
+   tolerance, for a numerical input problem.
+6. **Dropdown**: Identify a comma-separated list as the answer options for a
+   dropdown problem.
+7. **Explanation**: Format text as an explanation that appears when students
+   click **Show Answer**.
+8. Open the problem in the Advanced Editor.
+9. Open a list of formatting hints.
 10. **Accessible Label**: Identify the question as the problem's accessible
     label. No toolbar option is available, but when you surround text with two
     pairs of angle brackets pointing inward (``>>question<<``), screen readers

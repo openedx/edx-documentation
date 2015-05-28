@@ -14,3 +14,4 @@ options.
    install_google_drive
    enable_prerequisites
    enable_entrance_exams
+   enable_licensing

@@ -6,10 +6,9 @@ Creating a New Course
 
 This topic describes how to create and set up your course with Studio.
 
-* :ref:`Create a New Course`
-* :ref:`Edit Your Course`
-* :ref:`Use the Course Checklist`
-* :ref:`Add Course Team Members`
+.. contents:: Section Contents
+  :local:
+  :depth: 1
 
 Another way to create a course is to re-run an existing course. See
 :ref:`Rerun a Course`.
@@ -36,7 +35,7 @@ Create a New Course
    Help site (http://help.edge.edx.org). Additionally, because this information
    becomes part of your course URL, the total number of characters in the
    following four fields must be 65 or fewer.
-
+   
   .. image:: ../../../shared/building_and_running_chapters/Images/new_course_info.png
      :width: 600
      :alt: Image of the course creation page in Studio.
@@ -47,6 +46,7 @@ Create a New Course
 
   * For **Organization**, enter the identifier for your organization. Do not
     include spaces or special characters.
+
 
   * For **Course Number**, enter both a subject abbreviation and a number. For
     example, for public health course number 207, enter **PH207**. For math
@@ -63,6 +63,7 @@ Create a New Course
     The value that you enter for the run does not affect the course start date
     that you define for the course. For more information, see :ref:`Scheduling
     Your Course`.
+
 
 4. Select **Save.**
 
