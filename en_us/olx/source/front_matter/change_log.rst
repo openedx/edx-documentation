@@ -12,6 +12,33 @@ March 2015
 
    * - Date
      - Change
+   * - 23 June
+     - Several additions were made to provide information about using feedback
+       and hints in common problems.
+       
+       * :ref:`Adding Feedback and Hints to a Problem`
+       * :ref:`Use Feedback in a Checkbox Problem`
+       * :ref:`Use Hints in a Checkbox Problem`
+       * :ref:`Use Feedback in a Dropdown Problem` 
+       * :ref:`Use Hints in a Dropdown Problem`
+       * :ref:`Use Feedback in a Multiple Choice Problem` 
+       * :ref:`Use Hints in a Multiple Choice Problem`
+       * :ref:`Use Feedback in a Numerical Input Problems` 
+       * :ref:`Use Hints in a Numerical Input Problem`
+       * :ref:`Use Feedback in a Text Input Problem` 
+       * :ref:`Use Hints in a Text Input Problem`
+
+
+****************
+March 2015
+****************
+
+.. list-table::
+   :widths: 10 70
+   :header-rows: 1
+
+   * - Date
+     - Change
    * - 20 Mar 2015
      - Added the :ref:`Providing Partial Credit for Custom Python-Evaluated
        Input Problems` section to the :ref:`Write Your Own Grader` chapter.

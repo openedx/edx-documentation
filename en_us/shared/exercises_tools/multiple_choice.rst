@@ -4,6 +4,14 @@
 Multiple Choice Problem
 ########################
 
+.. contents:: Topic Contents
+  :local:
+  :depth: 1
+
+**********
+Overview
+**********
+
 In multiple choice problems, learners select one option from a list of answer
 options. Unlike :ref:`dropdown<Dropdown>` problems, whose answer choices
 do not appear until the learner clicks the dropdown arrow, answer choices for
@@ -11,14 +19,19 @@ multiple choice problems are always visible directly below the question.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/MultipleChoiceExample.png
  :alt: Image of a multiple choice problem
-
-For the multiple choice problems in your course, you can use edX Insights to
-review aggregated learner performance data and examine the submitted answers.
-For more information, see `Using edX Insights`_.
+ :width: 600
 
 Multiple choice problems can also have several advanced options, such as
 presenting a random set of choices to each learner. For more information about
 these options, see :ref:`Multiple Choice Advanced Options`.
+
+**************************************************
+Analyzing Performance on Multiple Choice Problems
+**************************************************
+
+For the multiple choice problems in your course, you can use edX Insights to
+review aggregated learner performance data and examine the submitted answers.
+For more information, see `Using edX Insights`_.
 
 ****************************************
 Creating a Multiple Choice Problem
@@ -82,9 +95,17 @@ follow these steps.
 
 #. In the unit where you want to create the problem, under **Add New
    Component** select **Problem**.
-#. From the list of **Common Problem Types**, select **Multiple Choice**.
-   Studio adds an example multiple choice problem to the unit.
-#. Select **Edit**. The Simple Editor opens. 
+#. Select one of the two multiple choice problem templates.
+   
+  * From the list of **Common Problem Types**, select **Multiple Choice**. 
+   
+  * From the list of **Common Problems with Hints and Feedback**, select
+    **Multiple Choice with Hints and Feedback**. For more information, see `Use
+    Feedback in a Multiple Choice Problem`_.
+
+    Studio adds the problem to the unit.
+
+3. Select **Edit**. The Simple Editor opens. 
 #. Replace the sample problem text with your own text.
 #. Determine the text that describes the question you want learners to answer,
    and surround that text with two pairs of angle brackets (``>>question<<``).
@@ -103,8 +124,8 @@ follow these steps.
    :ref:`Problem Settings`.
 #. Select **Save**.
 
-For the example problem illustrated above, the following text displays in the
-problem component.
+For the example problem illustrated above, the following text is displayed in
+the problem component.
 
 ::
 
@@ -122,14 +143,13 @@ problem component.
     it to balance in turbulent water.
 
     [Explanation]
-    Horseshoe crabs were essential to the discovery of lateral inhibition,
-    a property of vision present in horseshoe crabs as well as in humans that 
-    enables enhancement of contrast at edges of objects as was demonstrated in class. 
-    In 1967, Haldan Hartline received the Nobel prize for his research on vision 
-    and in particular his research investigating lateral inhibition using 
-    horseshoe crabs.
+    Horseshoe crabs were essential to the discovery of lateral
+    inhibition, a property of vision present in horseshoe crabs as well as in
+    humans that enables enhancement of contrast at edges of objects as was
+    demonstrated in class. In 1967, Haldan Hartline received the Nobel prize
+    for his research on vision and in particular his research investigating
+    lateral inhibition using horseshoe crabs.
     [Explanation]
-
 
 ========================================================================
 Use the Advanced Editor to Edit a Multiple Choice Problem 
@@ -177,6 +197,187 @@ problem, follow these steps.
   </solution>
   </problem>
 
+.. _Use Feedback in a Multiple Choice Problem:
+
+********************************************
+Use Feedback in a Multiple Choice Problem
+********************************************
+
+You can add feedback in a multiple choice problem using the simple editor
+or the advanced editor. For an overview of feedback in problems, see
+:ref:`Adding Feedback and Hints to a Problem`.
+
+In multiple choice problems, you can provide feedback for each option that a
+learner can select. Use the following guidelines when providing feedback.
+
+* Use feedback for the incorrect answers to target common misperceptions and
+  mistakes. 
+
+* Ensure feedback provides some guidance to the learner about how to arrive at
+  the correct answer.
+
+* Use feedback for the correct answer as an opportunity to reinforce why the
+  answer is correct. Because learners are able to guess, ensure that feedback
+  provides a reason why the answer is correct for learners who might have
+  selected that answer by chance.
+
+=======================================
+Configure Feedback in the Simple Editor
+=======================================
+
+In the :ref:`Simple Editor<Simple Editor>`, you configure answer feedback with
+the following syntax.  When you create a new multiple choice problem, select
+the template **Multiple Choice with Hints and Feedback**. This template has
+example feedback syntax that you can replace.
+
+::
+
+  ( ) Answer {{Feedback for learners who select this answer.}}
+
+For example, the following problem has feedback for each possible answer.
+
+::
+
+  >>Which of the following is an example of a vegetable?<<
+  ( ) apple {{An apple is the fertilized ovary that comes from an apple tree 
+  and contains seeds classifying it as a fruit.}}
+  ( ) pumpkin {{A pumpkin is the fertilized ovary of a squash plant and 
+  contains seeds classifying it as a fruit.}}
+  (x) potato {{A potato is an edible part of a plant in tuber form and is 
+  classified as a vegetable}}
+  ( ) tomato {{Many people mistakenly think a tomato is a vegetable. However, 
+  because a tomato is the fertilized ovary of a tomato plant and contains 
+  seeds it is classified as a fruit.}}
+
+=========================================
+Configure Feedback in the Advanced Editor
+=========================================
+
+In the :ref:`Advanced Editor<Advanced Editor>`, you configure answer feedback
+with the following syntax.
+
+.. code-block:: xml
+
+    <choice correct="false">
+      Choice Label
+      <choicehint>
+        Feedback for when learner selects this answer.
+      </choicehint>
+    </choice>
+
+For example, the following problem has feedback for each answer.
+
+.. code-block:: xml
+
+  <multiplechoiceresponse>
+    <choicegroup label="Which of the following is an example of a vegetable?" 
+      type="MultipleChoice">
+      <choice correct="false">apple 
+        <choicehint>An apple is the fertilized 
+          ovary that comes from an apple tree and contains seeds classifying 
+          it as a fruit.
+        </choicehint>
+      </choice>
+      <choice correct="false">pumpkin
+        <choicehint>A pumpkin is the fertilized 
+          ovary of a squash plant and contains seeds classifying it as a fruit.
+        </choicehint>
+      </choice>
+      <choice correct="true">potato 
+        <choicehint>A potato is an edible part of a plant in tuber form and is 
+          classified as a vegetable.
+        </choicehint>
+      </choice>
+      <choice correct="false">tomato 
+        <choicehint>Many people mistakenly think a tomato is a vegetable. 
+         However, because a tomato is the fertilized ovary of a tomato plant 
+         and contains seeds it is classified as a fruit.
+        </choicehint>
+      </choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+
+=========================
+Customize Feedback Labels
+=========================
+
+By default, the feedback labels shown to learners are **Correct** and
+**Incorrect**. If you do not define feedback labels, learners see these terms
+when they submit an answer, as in the following example.
+
+.. image:: ../../../shared/building_and_running_chapters/Images/multiple_choice_feedback.png
+ :alt: Image of multiple choice feedback with the standard label.
+ :width: 600
+
+You can configure the problem to override the default labels. For example, you
+can configure a custom label for a specific wrong answer.
+
+.. image:: ../../../shared/building_and_running_chapters/Images/multiple_choice_feedback_custom_label.png
+ :alt: Image of multiple choice feedback with a custom label.
+ :width: 600
+
+.. note::
+  The default labels **Correct** and **Incorrect** are displayed in the
+  learner's requested language. If you provide custom labels, they are
+  displayed to all users as you configure them and are not translated into
+  different languages.
+
+Customize Feedback Labels in the Simple Editor
+***********************************************
+
+In the :ref:`Simple Editor<Simple Editor>`, you configure custom feedback
+labels with the following syntax.
+
+::
+
+  ( ) Answer {{Label:: Feedback for learners who select this answer.}}
+
+For example, the following feedback is configured to use a custom label.
+
+::
+
+  ( ) tomato {{Not Quite:: Many people mistakenly think a tomato is a 
+  vegetable. However, because a tomato is the fertilized ovary of a tomato 
+  plant and contains seeds, it is a fruit.}}
+
+Customize Feedback Labels in the Advanced Editor
+*************************************************
+
+In the :ref:`Advanced Editor<Advanced Editor>`, you configure custom feedback
+labels with the following syntax.
+
+.. code-block:: xml
+
+    <choice correct="true or fale">Answer 
+      <choicehint label="Custom Label">
+        Feedback for learners who select this answer.
+      </choicehint>
+    </choice>
+
+For example, the following feedback is configured to use a custom label.
+
+.. code-block:: xml
+
+  <choice correct="false">
+    tomato 
+    <choicehint label="Not Quite">
+      Many people mistakenly think a tomato is a vegetable. However, because 
+      a tomato is the fertilized ovary of a tomato plant and contains seeds, 
+      it is a fruit.
+    </choicehint>
+  </choice>
+
+.. _Use Hints in a Multiple Choice Problem:
+
+********************************************
+Use Hints in a Multiple Choice Problem
+********************************************
+
+You can add hints in a multiple choice problem, using the simple editor
+or the advanced editor. For an overview of hints in problems, see
+:ref:`Adding Feedback and Hints to a Problem`.
+
+.. include:: ../../../shared/exercises_tools/Subsection_configure_hints.rst
 
 .. _Multiple Choice Problem XML:
 
@@ -191,15 +392,28 @@ Template
 .. code-block:: xml
 
   <problem>
-  <fieldset>
   <legend>Question text</legend>
   <multiplechoiceresponse>
     <choicegroup type="MultipleChoice" label="label text">
-      <choice correct="false" name="a">Incorrect choice</choice>
-      <choice correct="true" name="b">Correct choice</choice>
+      <choice correct="false" name="a">
+        Incorrect choice
+        <choicehint>
+          Hint for incorrect choice.
+        </choicehint>
+      </choice>
+      <choice correct="true" name="b">
+        Correct choice
+        <choicehint>
+          Hint for correct choice.
+        </choicehint>
+      </choice>
     </choicegroup>
   </multiplechoiceresponse>
-  </fieldset>
+
+  <demandhint>
+    <hint>Hint 1</hint>
+    <hint>Hint 2</hint>
+  </demandhint>
 
   <solution>
     <div class="detailed-solution">
@@ -215,9 +429,13 @@ Tags
 
 * ``<multiplechoiceresponse>`` (required): Indicates that the problem is a
   multiple choice problem.
+
 * ``<choicegroup>`` (required): Indicates the beginning of the list of
   options.
+
 * ``<choice>`` (required): Lists an answer option.
+
+* ``<demandhint>`` (optional): Specifies hints for the learner.
 
 **Tag:** ``<multiplechoiceresponse>``
 
@@ -276,6 +494,26 @@ Lists an answer option.
 
   Children
   
+  ``<choicehint>``
+
+**Tag:** ``<choicehint>``
+
+Specifies a hint for the answer.
+
+**Tag:** ``<demandhint>``
+
+Specifies hints available to the learner.
+
+  Children
+  
+  ``<hint>``
+
+**Tag:** ``<hint>``
+
+Specifies a hint available to the learner.
+
+  Children
+  
   (none)
 
 .. _Multiple Choice Advanced Options:
@@ -287,7 +525,7 @@ Advanced Options for Multiple Choice Problems
 Multiple choice problems have several advanced options. You can change the
 order of answers in the problem, include explanations that appear when a
 learner selects a specific incorrect answer, or present a random set of
-choices to each learner. For more information, see the following topics.
+choices to each learner. For more information, see the following sections.
 
 * :ref:`Shuffle Answers in a Multiple Choice Problem`
 * :ref:`Targeted Feedback in a Multiple Choice Problem`
