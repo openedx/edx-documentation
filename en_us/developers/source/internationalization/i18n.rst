@@ -245,7 +245,8 @@ First, use the coverage tool to generate dummy files::
     $ paver i18n_dummy
     
 This will create new dummy translations in the Esperanto directory
-(edx-platform/conf/local/eo/LC_MESSAGES). DO NOT CHECK THESE FILES IN. You
+(edx-platform/conf/local/eo/LC_MESSAGES) and the RTL directory
+(edx-platform/conf/local/rtl/LC_MESSAGES). DO NOT CHECK THESE FILES IN. You
 should discard these files once you are done testing.
 
 Next, restart the LMS and Studio to load in the new translation files::
@@ -254,7 +255,8 @@ Next, restart the LMS and Studio to load in the new translation files::
     $ paver devstack studio
 
 When you visit Studio or the LMS, append
-``?preview-lang=eo`` to the URL to turn on Esperanto as a dark language.
+``?preview-lang=eo`` to the URL to view the webpage in the dummy testing
+language.
 
 Instead of plain English strings, you should see specially-accented English
 strings that look like this:
@@ -284,14 +286,18 @@ page layout, such as columns that don't fit, or text that is truncated (the
 probably need to fix the page layouts accordingly to accommodate the longer
 strings.
 
-Finally, append ``?preview-lang=ar`` to the end of your URL to view your
-feature in Arabic. Test to make sure that the UX is properly "flipped" to
-right-to-left mode (note that new and changed strings will not yet be translated;
-the point is simply to make sure all elements on the page properly "flip"
-to the new orientation).
+Finally, append ``?preview-lang=rtl`` to the end of your URL to view your
+feature in the dummy RTL language. Test to make sure that the UX is properly
+"flipped" to right-to-left mode. Note that certain page elements may not look
+correct because they are controlled by the browser. For the best testing, switch
+your browser's language to Arabic or another RTL language (Hebrew, Persian, or
+Urdu) as well. See our `RTL UI Guidelines`_ for information on fixing any issues
+that you find.
 
 When you are done reviewing, append ``?clear-lang`` to the LMS or Studio URL
 to reset your session to your base language.
+
+.. _RTL UI Guidelines: https://github.com/edx/edx-platform/wiki/RTL-UI-Best-Practices
 
 Style guidelines
 ****************
