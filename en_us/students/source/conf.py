@@ -19,6 +19,15 @@ pygments_style = 'sphinx'
 
 
 
+extensions = ['sphinx.ext.ifconfig']
+
+tags.add('Partners')
+
+product = 'Partners'
+
+def setup(app):
+    app.add_config_value('product', '', True)
+
 # Add any paths that contain templates here, relative to this directory.
 #templates_path.append('source/_templates')
 
