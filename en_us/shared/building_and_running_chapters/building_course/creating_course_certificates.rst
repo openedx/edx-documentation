@@ -173,7 +173,7 @@ viewing by learners.
 
 #. On the certificates configuration page click **Deactivate**.
 
-The certificate is no longer active. 
+The certificate is no longer active and is not issued to learners.
 
 
 
@@ -187,5 +187,4 @@ When you add image files to a certificate, either for the organization logo or
 for signatures, the uploaded files are listed in Studio under **Contents** >
 **Files & Uploads**.
 
-You can delete images 
 

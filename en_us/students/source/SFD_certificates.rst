@@ -275,7 +275,20 @@ or share a badge to a badging site such as Mozilla Backpack.
 Share Your Certificate on LinkedIn
 ===================================
 
-To add evidence of your achievement to your LinkedIn profile, you 
+When your certificate is ready, on your dashboard, under the link to download
+your certificate, you can select **Add to profile** to add your certificate to
+your LinkedIn profile.
+
+
+===================================
+Upload a Badge to Mozilla Backpack
+===================================
+
+On your certificate page you can download a badge representing your
+achievement, and share it by uploading to a badging site such as Mozilla
+Backpack.
+
+
 
 
 
