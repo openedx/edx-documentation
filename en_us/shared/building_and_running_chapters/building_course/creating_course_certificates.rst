@@ -58,19 +58,16 @@ To create a certificate for your course, follow these steps.
 
 .. image   
 
-#. When you have finished configuring your certificate, you can :ref:`preview
-   the certificate<Preview a Certificate>` to see how it will appear to a
-   learner taking the course in the selected mode.
+#. When you have finished configuring your certificate, click **Create**.
+
+   You can :ref:`preview the certificate<Preview a Certificate>` to see how it will appear to a learner taking the course in the selected mode.
 
 .. image
 
-#. When you are satisfied that the certificate details are as they should
-   appear, you can :ref:`activate the certificate<Activate a Certificate>`.
+.. note:: A certificate is not available for issuing to learners until you
+   :ref:`activate the certificate<Activate a Certificate>`.
 
-   Activated certificates are available for issuing to learners. You can edit
-   activated certificates, but if you make and save any changes, the
-   certificate becomes inactive. You must activate it again before it can be
-   issued.
+   
 
 
 .. _Edit a Certificate:
@@ -156,9 +153,9 @@ certificate.
 The certificate becomes active and is ready for issuing to learners who attain
 passing grades in your course.
 
-After activating a certificate, you can :ref:`edit the certificate<Edit a
-Certificate>` further, but if you make any changes, you must activate the
-certificate again.
+Activated certificates are available for issuing to learners. You can edit
+activated certificates, but if you make and save any changes, the certificate
+becomes inactive. You must activate it again before it can be issued.
 
 
 .. _Deactivate a Certificate:
