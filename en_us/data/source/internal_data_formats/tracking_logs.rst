@@ -429,6 +429,8 @@ outside the Instructor Dashboard.
 
 * :ref:`student_cohort_events`
 
+* :ref:`badges`
+
 * :ref:`ora`
 
 The descriptions that follow include what each event represents, the system
@@ -3451,6 +3453,154 @@ Instructor Dashboard, the server emits an ``edx.cohort.user_removed`` event.
    * - ``user_id``
      - integer
      - The numeric ID (from ``auth_user.id``) of the removed user.
+
+
+.. _badges:
+
+=================================
+Badging Events 
+=================================
+
+This section includes descriptions of the following events related to badges,
+which are created when learners have achieved some course milestone, usually
+the awarding of a course certificate. Badges are created automatically when
+certificates are generated.
+
+* ``edx.badges.assertion.created`` 
+* ``edx.badges.assertion.shared`` 
+* ``edx.badges.evidence.visit``
+
+
+``edx.badges.assertion.created``
+*********************************
+
+When a badge is created that associates a specific learner with a specific
+achievement, the server emits an ``edx.badges.assertion.created`` event.
+
+**Event Source**: Server
+
+**History** Added 8 June 2015.
+
+``event`` **Member Fields**:
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+   * - ``assertion_id``
+     - integer
+     - The ID of the BadgeAssertion object in the database.
+   * - ``enrollment_mode``
+     - string
+     - The course enrollment mode associated with this badge.
+   * - ``user_id``
+     - integer
+     - The numeric ID of the user associated with this badge.
+   * - ``assertion_json_url``
+     - string
+     - The URL to the public web view location of the badge.
+   * - ``course_id``
+     - string
+     - The course associated with this badge.        
+   * - ``issuer``
+     - string
+     - The URL to the issuer of the badge.
+   * - ``assertion_image_url``
+     - string
+     - The URL to the image file location of the badge.
+
+
+``edx.badges.assertion.shared``
+*********************************
+
+When a learner downloads a badge that she has earned for the purpose of
+sharing it on social media, the server emits an
+``edx.badges.assertion.shared`` event.
+
+**Event Source**: Browser
+
+**History** Added 8 June 2015.
+
+``event`` **Member Fields**:
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+   * - ``assertion_image_url``
+     - string
+     - The URL to the image file location of the badge.
+   * - ``course_id``
+     - string
+     - The course associated with this badge. 
+   * - ``social_network``
+     - string
+     - The social network to which the badge is shared.
+   * - ``assertion_id``
+     - integer
+     - The ID of the BadgeAssertion object in the database.
+   * - ``assertion_json_url``
+     - string
+     - The URL to the public web view location of the badge. 
+   * - ``user_id``
+     - integer
+     - The numeric ID of the learner associated with this badge.     
+   * - ``enrollment_mode``
+     - string
+     - The course enrollment mode associated with this badge.
+   * - ``issuer``
+     - string
+     - The URL to the issuer of the badge.
+
+
+
+``edx.badges.evidence.visit``
+*********************************
+
+When a badge that has been shared on social media is visited, the server emits
+an ``edx.badges.evidence.visit`` event.
+
+**Event Source**: Browser
+
+**History** Added 8 June 2015.
+
+``event`` **Member Fields**:
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+   * - ``assertion_image_url``
+     - string
+     - The URL to the image file location of the badge.
+   * - ``course_id``
+     - string
+     - The course associated with this badge.  
+   * - ``assertion_id``
+     - integer
+     - The ID of the BadgeAssertion object in the database.
+   * - ``assertion_json_url``
+     - string
+     - The URL to the public web view location of the badge. 
+   * - ``user_id``
+     - integer
+     - The numeric ID of the user associated with this badge.     
+   * - ``enrollment_mode``
+     - string
+     - The course enrollment mode associated with this badge.
+   * - ``issuer``
+     - string
+     - The URL to the issuer of the badge.
+
 
 
 .. _ora:
