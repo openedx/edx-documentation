@@ -257,3 +257,32 @@ grade, click **Update Certificate** on either your **Progress** page or
 your dashboard to request and download a new certificate. If you want to
 change the name on the certificate, make sure that you change your full name
 on the **Account Settings** page before you request the new certificate.
+
+
+.. _Sharing Your Certificate:
+
+****************************
+Sharing Your Certificate
+****************************
+
+When you complete a course and receive a certificate, you can share your
+achievement in several ways. You can :ref:`download and print your
+certificate<Request Download Certificate>`, share the certificate on LinkedIn,
+or share a badge to a badging site such as Mozilla Backpack.
+
+
+
+
+
+
+
+
+
+===================================
+Upload a Badge to Mozilla Backpack
+===================================
+
+On your certificate page you can download a badge representing your
+achievement, and share it by uploading to a badging site such as Mozilla
+Backpack.
+
