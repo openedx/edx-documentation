@@ -18,6 +18,7 @@ Open edX Learner's Guide
    SFD_video_player
    SFD_course_search
    SFD_google_docs
+   SFD_certificates
    SFD_prerequisites
    SFD_student_notes
    SFD_mathformatting
