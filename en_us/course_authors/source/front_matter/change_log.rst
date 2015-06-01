@@ -3,6 +3,19 @@ Change Log
 ############
 
 ****************
+June 2015
+****************
+
+.. list-table::
+   :widths: 10 70
+   :header-rows: 1
+
+   * - Date
+     - Change
+   * - 8 Jun 2015
+     - Added :ref:`Manage Course Fees`.
+
+****************
 May 2015
 ****************
 
