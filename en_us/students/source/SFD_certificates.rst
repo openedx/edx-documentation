@@ -282,7 +282,30 @@ or share a badge to a badging site such as Mozilla Backpack.
 Upload a Badge to Mozilla Backpack
 ===================================
 
-On your certificate page you can download a badge representing your
-achievement, and share it by uploading to a badging site such as Mozilla
-Backpack.
+When you earn a certificate, you can download a badge representing your
+achievement, and share it on a badging site such as Mozilla Backpack.
+
+To view and upload your badge to Mozilla Backpack, follow these steps.
+
+#. When your certificate is ready, your dashboard will show you your final grade
+for the class as well as a link to your certificate.
+
+.. image:: /Images/SFD_Cert_DownloadButton.png
+   :width: 500
+   :alt: Dashboard with course name, grade, and link to certificate
+
+#. Select **Download Your Certificate (PDF)**.
+
+#. On the certificate page, click the badge icon.
+
+.. image:: /Images/SFD_BadgeShareButton.png 
+   :alt: Icon bar at the top of the certificate web view, showing the Mozilla
+   Backpack share icon.
+
+   You see instructions for downloading your badge and then sharing it on the
+   Mozilla Backpack site. You have to create an account on Mozilla Backpack to
+   share your badge.
+
+.. image:: /Images/SFD_MozillaBackpackShareDialog.png
+   :alt: Screen capture of the dialog with instructions that opens when you select the Mozilla Backpack share icon.   
 
