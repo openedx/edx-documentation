@@ -275,9 +275,21 @@ or share a badge to a badging site such as Mozilla Backpack.
 Share Your Certificate on LinkedIn
 ===================================
 
-When your certificate is ready, on your dashboard, under the link to download
-your certificate, you can select **Add to profile** to add your certificate to
-your LinkedIn profile.
+When you earn a certificate you can add your certificate to your LinkedIn
+profile.
+
+To share your certificate to your LinkedIn profile, follow these steps.
+
+#. When your certificate is ready, your dashboard will show you a link to your certificate and a button for adding the certificate to your LinkedIn profile.
+
+.. image:: /Images/SFD_CertificateAddToLinkedInButton.png
+   :width: 500
+   :alt: Dashboard showing link to certificate and button for sharing
+   certificate to LinkedIn
+
+#. Select **Add to profile**.
+
+   You are taken to the LinkedIn site, where the certificate is added to your profile after you log in. 
 
 
 ===================================
