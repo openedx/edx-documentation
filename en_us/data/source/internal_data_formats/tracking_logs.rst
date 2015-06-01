@@ -429,7 +429,7 @@ outside the Instructor Dashboard.
 
 * :ref:`student_cohort_events`
 
-* :ref:`badges`
+* :ref:`badging_events`
 
 * :ref:`ora`
 
@@ -3455,7 +3455,7 @@ Instructor Dashboard, the server emits an ``edx.cohort.user_removed`` event.
      - The numeric ID (from ``auth_user.id``) of the removed user.
 
 
-.. _badges:
+.. _badging_events:
 
 =================================
 Badging Events 
