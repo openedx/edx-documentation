@@ -16,3 +16,6 @@ options.
    enable_entrance_exams
    enable_licensing
    edx_search
+   enable_certificates
+   enable_badging
+
