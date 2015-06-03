@@ -1507,6 +1507,8 @@ module_type
        - A specialized problem that produces a graphic from the words that
          students enter.
 
+.. _module_id:
+
 -----------
 module_id
 -----------
