@@ -30,6 +30,8 @@ The following fields are present for all of the objects in the
 
 Descriptions of these fields follow.
 
+.. _Course Structure Category Field:
+
 ====================================
 Course Structure ``category`` Field
 ====================================
