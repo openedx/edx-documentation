@@ -8,6 +8,8 @@ Change Log
 
    * - Date
      - Change
+   * - 9 June 2015
+     - Added :ref:`Enable edX Search`.
    * - 28 May 2015
      - Added :ref:`Enable Licensing`.
    * - 2 March 2015
