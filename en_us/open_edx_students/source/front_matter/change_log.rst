@@ -17,12 +17,13 @@ June 2015
      - Added a section for frequently asked questions about the edX mobile
        applications, :ref:`SFD Mobile`.
    * - 
-     - Added :ref:`SFD Search` and :ref:`SFD Notes` sections.
+     - Added :ref:`SFD Search`, :ref:`SFD Notes`, and :ref:`SFD Bookmarks`
+       sections.
 
 
-*****************
+**********************
 May 2015
-*****************
+**********************
 
 .. list-table::
    :widths: 15 70
