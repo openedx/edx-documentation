@@ -2,11 +2,11 @@
 Core Committer
 **************
 
-Core committers are responsible for doing code review on pull requests from
-contributors, once the pull request has passed through a community manager and
+Core committers (or simply, committers) are responsible for reviewing pull requests from
+contributors. This happens once the pull request has passed through a community manager and
 been prioritized by a product owner. As much as possible, the code review
-process should be treated identically to the process of reviewing a pull request
-from another core committer: we’re all part of the same community. However,
+process for community contributors should be identical to the process of reviewing a pull request
+from another committer: we’re all part of the same community. However,
 there are a few ways that the process is different:
 
 * The contributor cannot see when conflicts occur in the branch.
