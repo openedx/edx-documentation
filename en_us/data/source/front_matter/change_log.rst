@@ -15,9 +15,12 @@ April-June 2015
 
    * - Date
      - Change
+   * - 8 Jun 2015
+     - Added descriptions of the ``video_show_cc_menu`` and
+       ``video_hide_cc_menu`` events to the :ref:`Tracking Logs` section.
    * - 19 May 15
      - Added information about new instructor report events to the
-       :ref:`Tracking Logs` chapter.
+       :ref:`Tracking Logs` section.
    * - 11 May 2015 
      - Updated the descriptions of the ``pause_video``, ``play_video``, and
        ``stop_video`` :ref:`video interaction events<video>` to include the
