@@ -6,9 +6,8 @@
 Enabling Certificates
 #######################
 
-In this Open edX release, a new feature allows organizations and course teams
-to generate certificates for learners who have completed courses. Learners can
-view, print, or share their certificates.
+Organizations and course teams can now generate certificates for learners who
+have completed courses. Learners can view, print, or share their certificates.
 
 For information about certificates, see the *Building and Running an Open edX
 Course* and *Open edX Learner's* guides.
@@ -114,10 +113,13 @@ Configure Certificates for Your Open edX Instance
 Customize Certificate Templates For Your Organization
 ******************************************************
 
-Set up the certificate templates for certificates that your organization will
-issue. Base templates are included, but you must ensure that they are
-customized for your organization. Assets for HTML certificates exist in the
-following locations.
+Set up the templates for certificates that your organization will issue. Base
+templates are included, but you must ensure that they are customized for your
+organization. For example, you can change the images that appear on
+certificates for each course mode that your organization supports, as well as
+fonts and colors that are used on certificates.
+
+Assets for HTML certificates exist in the following locations.
 
 * **lms/templates/certificates** - this folder contains .html files for
   certificates. The file ``valid.html`` is an example of a certificate file.
@@ -142,5 +144,35 @@ certificate configuration that is used to generate certificates for their
 course, including adding signatories and images for organization logo and
 signature images for signatories. For details, see `Set Up Course HTML
 Certificates`_ in *Building and Running an Open edX Course*.
+
+
+*****************************************
+Generate Certificates For a Course
+*****************************************
+
+To generate certificates for a course, run the ``manage.py`` script with the
+following settings. When the script finishes running, grades are calculated
+for learners who are enrolled in the course, and certificates are generated
+for eligible learners.
+
+#. Obtain the course ID for the course for which you are generating
+   certificates. When you view course content in your browser, the course ID
+   appears as part of the URL. For example, in the URL
+   ``http://www.edx.org/course/course-v1:edX+demoX_Demo_2015``, the course ID
+   is ``course-v1:edX+demoX_Demo_2015``. For some courses, the course ID 
+   contains slashes. For example, ``edX/Demox/Demo_2014``. 
+
+#. Run ``manage.py`` with the following settings, replacing ``{CourseID}``
+   with the actual course ID. Do not include beginning or trailing slashes.
+
+   ``/manage.py lms --settings=aws ungenerated_certs -c {CourseID}``
+
+   For example, 
+
+   ``/manage.py lms --settings=aws ungenerated_certs -c course-v1:edX+demoX_Demo_2015``.
+
+3. View the certificate generation status for a course using ``gen_cert_report``. For example,
+
+   ``/manage.py lms --settings=aws gen_cert_report -c course-v1:edX+demoX_Demo_2015``.
 
 

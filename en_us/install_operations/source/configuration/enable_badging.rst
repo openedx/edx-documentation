@@ -109,7 +109,7 @@ Configure Badges and Badge Images for Your Open edX Instance
 
 #. Access the Django Administration website for your instance of Open edX. To
    do this, go to ``https://<host name of your Open edX instance>/admin``. For
-   example, this might be ``https://edge.edx.org/admin``.
+   example, this might be ``https://YourOrganization.org/admin``.
 
 #. Under **Site Administration** > **Certificates**, define a Badge Image
    Configuration for each course mode on your platform for which you want to
@@ -121,12 +121,11 @@ Configure Badges and Badge Images for Your Open edX Instance
  * Icon -- the badge image to use for the specified course mode
 
  .. important:: Default images are supplied for badges. You must replace the
-      default images with your organization's own badge images before any
-      badges are issued. When the first badge is issued for a given course,
-      badge images are uploaded to Badgr Server. Even if you subsequently
-      change badge images in the Django Administration badge image
-      configuration, badges issued for that course will continue to use the
-      original uploaded images.
+    default images with your organization's own badge images before any badges
+    are issued. When the first badge is issued for a given course, badge
+    images are uploaded to Badgr Server. All badges issued in future for this
+    course will use the original badge image, even if you subsequently change
+    badge images in the Django Administration badge image configuration.
 
 4. Optionally, define a default image for any course modes that do not have an
    explicitly specified badge image. Select **Default** in the badge image
