@@ -2815,11 +2815,11 @@ complete, the server emits an ``edx.forum.thread.created`` event.
 
        Also present for ``edx.forum.response.created`` and
        ``edx.forum.comment.created`` events.
-       
+
 .. _student_notes:
 
 =================================
-Student Notes Events   
+Notes Events   
 =================================
 
 This section includes descriptions of the following events. 
@@ -2832,11 +2832,9 @@ This section includes descriptions of the following events.
 * ``edx.course.student_notes.used_unit_link``
 * ``edx.course.student_notes.viewed``
 
-The Student Notes tool allows students to highlight and make notes about what
-they read in the body of the course. Students can access their notes either in
+The Notes tool allows learners to highlight and make notes about what
+they read in the body of the course. Learners can access their notes either in
 the body of the course or on a **Notes** tab.
-
-For more information, see (URL of published documentation).
 
 .. _edx_course_student_notes_added:
 
@@ -2848,7 +2846,7 @@ adds a note in courseware.
 
 **Event Source**: Browser
 
-**History**: Added XX May 2015.
+**History**: Added XX Jun 2015.
 
 ``event`` **Member Fields**: 
 
@@ -2894,7 +2892,7 @@ deletes a note in courseware.
 
 **Event Source**: Browser
 
-**History**: Added XX May 2015.
+**History**: Added XX Jun 2015.
 
 ``event`` **Member Fields**: 
 
@@ -2910,7 +2908,7 @@ edits a note in courseware.
 
 **Event Source**: Browser
 
-**History**: Added XX May 2015.
+**History**: Added XX Jun 2015.
 
 ``event`` **Member Fields**: 
 
@@ -2947,7 +2945,7 @@ value of "Recent Activity" the first time that the learner accesses the page.
 
 **Event Source**: Browser
 
-**History**: Added XX May 2015.
+**History**: Added XX Jun 2015.
 
 ``event`` **Member Fields**: 
 
@@ -2972,7 +2970,7 @@ searches notes on the **Notes** page.
 
 **Event Source**: Browser
 
-**History**: Added XX May 2015.
+**History**: Added XX Jun 2015.
 
 ``event`` **Member Fields**: 
 
@@ -2999,7 +2997,7 @@ component that contains that note.
 
 **Event Source**: Browser
 
-**History**: Added XX May 2015.
+**History**: Added XX Jun 2015.
 
 ``event`` **Member Fields**: 
 
@@ -3032,7 +3030,7 @@ views a note on a page in the courseware.
 
 **Event Source**: Browser
 
-**History**: Added XX May 2015.
+**History**: Added XX Jun 2015.
 
 ``event`` **Member Fields**: 
 
