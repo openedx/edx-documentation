@@ -28,6 +28,8 @@ May 2015
 
    * - Date
      - Change
+   * - 8 Jun 2015
+     - Added :ref:`Notes Tool` topic.
    * - 28 May 2015
      - Updated this document to latest version.
 

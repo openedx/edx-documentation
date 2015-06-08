@@ -17,12 +17,11 @@ Open edX Learner's Guide
    SFD_licensing
    SFD_video_player
    SFD_course_search
+   SFD_notes
    SFD_google_docs
    SFD_certificates
    SFD_mobile
    SFD_prerequisites
-   SFD_student_notes
-   SFD_mobile
    SFD_mathformatting
    SFD_ORA
    sfd_discussions/index
