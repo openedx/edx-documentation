@@ -429,6 +429,8 @@ outside the Instructor Dashboard.
 
 * :ref:`student_cohort_events`
 
+* :ref:`badging_events`
+
 * :ref:`ora`
 
 The descriptions that follow include what each event represents, the system
@@ -3451,6 +3453,155 @@ Instructor Dashboard, the server emits an ``edx.cohort.user_removed`` event.
    * - ``user_id``
      - integer
      - The numeric ID (from ``auth_user.id``) of the removed user.
+
+
+.. _badging_events:
+
+=================================
+Badging Events 
+=================================
+
+This section includes descriptions of the following events related to badges,
+which are created when learners have achieved some course milestone, usually
+the awarding of a course certificate. Badges are created automatically when
+certificates are generated. A badge is uniquely identifiable by its assertion
+information. A badge assertion represents a badge being awarded to a learner,
+and describes the following three items.
+
+ * Who the badge was awarded to
+ * What the badge represents (for example, course identifier, enrollment mode)
+ * Who issued the badge (the issuing organization)
+
+When learners earn badges, they can download a badge image and share it on
+social networks, or on badge display sites such as Mozilla Backpack. When
+other parties visit the shared badge links, they can view information that
+gives evidence of the learner's achievement.
+
+
+* ``edx.badges.assertion.created`` 
+* ``edx.badges.assertion.shared`` 
+* ``edx.badges.evidence.evidence_visit``
+
+
+``edx.badges.assertion.created``
+*********************************
+
+When a badge is created that associates a specific learner with a specific
+achievement, the server emits an ``edx.badges.assertion.created`` event.
+
+**Event Source**: Server
+
+**History** Added 8 June 2015.
+
+``event`` **Member Fields**:
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+   * - ``assertion_id``
+     - integer
+     - The unique ID of the BadgeAssertion object.
+   * - ``assertion_image_url``
+     - string
+     - The URL of an image file of the badge that includes badge assertion
+       information in the header. These files can serve to verify the user's
+       accomplishment and can be easily shared.
+   * - ``assertion_json_url``
+     - string
+     - The URL of a JSON object containing the badge assertion information.
+   * - ``course_id``
+     - string
+     - The course associated with this badge. 
+   * - ``enrollment_mode``
+     - string
+     - The course enrollment mode associated with this badge.
+   * - ``issuer``
+     - string
+     - The URL of the badge issuer's web site.
+   * - ``user_id``
+     - integer
+     - The numeric ID of the learner who earned this badge.    
+
+
+``edx.badges.assertion.shared``
+*********************************
+
+When a learner downloads a badge that she has earned for the purpose of
+sharing it on social media, the server emits an
+``edx.badges.assertion.shared`` event.
+
+**Event Source**: Browser
+
+**History** Added 8 June 2015.
+
+``event`` **Member Fields**:
+
+The ``edx.badges.assertion.shared`` event includes many of the same ``event``
+member fields that are described for the ``edx.badges.assertion.created``
+event. The following member fields serve the same purpose for
+``edx.badges.assertion.shared`` as they do for
+``edx.badges.assertion.created``.
+
+* ``assertion_id``
+* ``assertion_image_url``
+* ``assertion_json_url``
+* ``course_id``
+* ``enrollment_mode``
+* ``issuer``
+* ``user_id``
+
+
+The following additional ``event`` member field applies specifically to
+``edx.badges.assertion.shared`` events.
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+   * - ``social_network``
+     - string
+     - The social network to which the badge is shared.
+
+
+``edx.badges.evidence.evidence_visit``
+***************************************
+
+Each badge contains assertion information that includes an "evidence" field.
+When badges are displayed on sites such as Mozilla Backpack, the evidence
+field is used to provide a link to evidence that confirms the badge owner's
+achievement, usually a certificate.
+
+When other users visit social networks or a site such as Mozilla Backpack and
+use a badge's evidence link to view a badge owner's certificate, the server
+emits an ``edx.badges.evidence.evidence_visit`` event.
+
+**Event Source**: Browser
+
+**History** Added 8 June 2015.
+
+``event`` **Member Fields**:
+
+The ``edx.badges.evidence.evidence_visit`` event includes all of the same
+``event`` member fields that are described for the
+``edx.badges.assertion.created`` event. The following member fields serve the
+same purpose for ``edx.badges.evidence.evidence_visit`` as they do for
+``edx.badges.assertion.created``.
+
+* ``assertion_id``
+* ``assertion_image_url``
+* ``assertion_json_url``
+* ``course_id``
+* ``enrollment_mode``
+* ``issuer``
+* ``user_id``
+
 
 
 .. _ora:
