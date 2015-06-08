@@ -1,1 +1,0 @@
-.. include:: ../../../shared/exercises_tools/student_notes.rst
