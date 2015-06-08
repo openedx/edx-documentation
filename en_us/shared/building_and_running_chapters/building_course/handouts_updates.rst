@@ -31,13 +31,27 @@ To add a course update, follow these steps.
 #. Select **New Update**.
 #. Enter your update in the HTML editor that opens.
 
-   * You must use HTML to format your update. The :ref:`visual editor<The
-     Visual Editor>` is not provided.
-   * If you change the supplied date, the new date appears above the update
-     on the **Course Info** page. However, the update is visible to all
-     enrolled learners as soon as you post it.
+  * You must use HTML to format your update. The :ref:`visual editor<The Visual
+    Editor>` is not provided.
+  * If you change the supplied date, the new date appears above the update on
+    the **Course Info** page. However, the update is visible to all enrolled
+    learners as soon as you post it.
 
-4. Select **Post**. Your update appears on your course's **Course Info** page
+.. The following step allows installations that use the edX mobile apps to send a push notification to the app when an update is added. 
+.. Alison, DOC-1814, June 2015
+
+.. only:: Open_edX
+
+    #. Optionally, choose whether to send a notification about your update to
+       the edX mobile app.
+
+      * Learners can choose to turn off notifications for individual courses or
+        for all courses. The **Course Info** page continues to show all
+        updates.
+      * All updates appear on the **Course Info** page, even if you do not send
+        notifications.
+
+#. Select **Post**. Your update appears on your course's **Course Info** page
    immediately.
 
 .. _Add Course Handouts:
@@ -66,4 +80,4 @@ To identify a course handout, follow these steps.
      <p><a href="/static/Syllabus_Fall2016.pdf" target="_blank">Syllabus</a></p>
      <p><a href="/static/Glossary_v3.pdf" target="_blank">Glossary</a></p>
 
-4. Select **Save**.
+#. Select **Save**.

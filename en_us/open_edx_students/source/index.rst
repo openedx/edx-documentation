@@ -21,6 +21,7 @@ Open edX Learner's Guide
    SFD_certificates
    SFD_prerequisites
    SFD_student_notes
+   SFD_mobile
    SFD_mathformatting
    SFD_ORA
    sfd_discussions/index

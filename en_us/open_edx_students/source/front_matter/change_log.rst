@@ -2,12 +2,28 @@
 Change Log
 ############
 
-**********************
-2015
-**********************
+
+*****************
+June 2015
+*****************
 
 .. list-table::
-   :widths: 20 70
+   :widths: 15 70
+   :header-rows: 1
+
+   * - Date
+     - Change
+   * - 8 Jun 2015
+     - Added a section for frequently asked questions about the edX mobile
+       applications, :ref:`SFD Mobile`.
+
+
+*****************
+May 2015
+*****************
+
+.. list-table::
+   :widths: 15 70
    :header-rows: 1
 
    * - Date
