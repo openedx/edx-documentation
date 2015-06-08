@@ -1,11 +1,11 @@
-.. This file is for open edx only. Currently on edx.org there is no ability
-.. for course authors to create certificate configurations.
-
 .. _Setting Up Course Certificates:
 
 ################################
 Setting Up Course Certificates
 ################################
+
+.. This file is for open edx only. Currently on edx.org there is no ability
+.. for course authors to create certificate configurations.
 
 This section describes how to configure certificates for your course in
 Studio.
