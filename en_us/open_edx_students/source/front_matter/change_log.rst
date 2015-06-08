@@ -12,5 +12,7 @@ Change Log
 
    * - Date
      - Change
+   * - 8 Jun 2015
+     - Added :ref:`SFD Search` section.
    * - 22 May 2015
      - Initial version of this guide for Open edX learners.
