@@ -19,6 +19,9 @@ June 2015
    * - 
      - Added :ref:`SFD Search`, :ref:`SFD Notes`, and :ref:`SFD Bookmarks`
        sections.
+   * - 
+     - Updated the :ref:`Certificates` section to include information on
+       sharing certificates, including sharing digital badges.
 
 
 **********************
