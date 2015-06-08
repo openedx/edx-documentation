@@ -6,7 +6,7 @@ Course Launching Activities
 
 To launch a course, you prepare the course itself, the staff, and the
 students. This section includes a :ref:`course launch checklist<Course Launch
-Checklist>` to use as a model for your schedule of activities.
+Checklist>` that you can use as a model for your schedule of activities.
 
 To help you communicate to the course staff or to all course participants
 before the course launches and while it is running, you can send email messages
@@ -35,6 +35,11 @@ starts follow.
 * Confirm that any optional features that you want your course to include, such
   as student cohorts, are enabled and configured. See
   :ref:`Cohorts Overview`.
+
+**Verify Certificates**
+
+* Make sure that certificates are correctly configured and ready to be issued.
+  See :ref:`Setting Up Course Certificates`.
 
 **Review First Week Content**
 
