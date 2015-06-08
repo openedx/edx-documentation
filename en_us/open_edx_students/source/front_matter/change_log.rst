@@ -16,6 +16,8 @@ June 2015
    * - 8 Jun 2015
      - Added a section for frequently asked questions about the edX mobile
        applications, :ref:`SFD Mobile`.
+   * - 
+     - Added :ref:`SFD Search` section.
 
 
 *****************
@@ -28,7 +30,5 @@ May 2015
 
    * - Date
      - Change
-   * - 8 Jun 2015
-     - Added :ref:`SFD Search` section.
    * - 22 May 2015
      - Initial version of this guide for Open edX learners.

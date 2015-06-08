@@ -4,117 +4,48 @@
 The edX Mobile App
 ########################
 
-The edX mobile app is a companion to the `edx.org`_ website. You can use the
-app to download course videos so that you can watch them whenever you want to,
-even without an Internet connection. To access the rest of the course,
-including course discussions, homework, and quizzes, you use a web browser.
-If you have access to a computer, you might find it easier to use it for some
-of the coursework.
+.. The following paragraph describes the features of the edX mobile app for partners/edx.org (video only)
+.. Alison, DOC-1840, June 2015
+
+.. only:: Partners
+
+  The edX mobile app is a companion to the `edx.org`_ website. You can use the
+  app to download course videos so that you can watch them whenever you want
+  to, even without an Internet connection. To access the rest of the course,
+  including course discussions, homework, and quizzes, you use a web browser on
+  a computer.
+
+.. The following paragraph describes the features of the edX mobile app for Open edX (adds notifications, assessments, discussions)
+.. Alison, DOC-1840, June 2015
+
+.. only:: Open_edX
+
+  You can use the edX mobile app to download course videos so that you can
+  watch them whenever you want to, even without an Internet connection. When
+  you have an Internet connection, you can also read course announcements,
+  participate in discussions, and get started on homework and other
+  assignments. To complete an entire course, you use a web browser on a
+  computer.
 
 The edX mobile app is currently available for Android smartphones and iPhones.
-For more information, check the answers to frequently asked questions in these
-categories.
 
 .. contents:: Section Contents 
-   :local:
-   :depth: 1
+  :local:
+  :depth: 1
 
+.. The following general Q&A applies to the edX mobile app for partners/edx.org only
+.. Alison, DOC-1840, June 2015
 
-.. _General Questions:
+.. only:: Partners
 
-*************************
-General Questions
-*************************
+    .. include:: ../../shared/students/Section_mobile_general.rst
 
-================================
-How do I get the mobile app?
-================================
+.. The following getting started Q&A applies to the edX mobile app for partners/edx.org only
+.. Alison, DOC-1840, June 2015
 
-The Android app is available in the `Google Play`_ Store. The iPhone app is
-available in the Apple `App Store`_.
+.. only:: Partners
 
-================================
-How much does the app cost?
-================================
-
-The app is free. You do not have to pay or buy anything to download or use it.
-
-========================================
-What platforms does the app run on?
-========================================
-
-Right now, the edX mobile app is available for Android smartphones (running
-Android 4.0 or later) and iPhones (running iOS 7 or later).
-
-We plan to make the app available on Android tablets and iPads in the
-future.
-
-================================================
-How can I send questions or comments to edX?
-================================================
-
-We are glad to receive your feedback on our mobile app. On the **My Courses**
-page, select the menu in the upper left corner, and then select **Submit
-Feedback**.
-
-.. _Getting Started:
-
-*************************
-Getting Started
-*************************
-
-======================================
-Do I need an edX account?
-======================================
-
-You need to have an edX account before you can enroll in courses. You can sign
-up for an edX account in the edX mobile app, or use a browser to go to the
-`edx.org`_ website. When you create your account, you need to be connected to
-the Internet.
-
-======================================
-How do I create an edX account?
-======================================
-
-When you open the edX mobile app, select **Sign up and start learning**. You
-can create an edX account using your email address or your Facebook or Google
-account. You also provide the following information.
-
-* Your name.
-* The username that will identify you to course teams and to other learners.
-* A password.
-* Your country or region. 
-
-After you create your account, you can find courses that interest you and
-enroll in them.
-
-==================================================
-How do I find courses to take?
-==================================================
-
-When you open the app and sign in to your edX account, you see a list of the
-mobile-friendly courses that you are currently enrolled in. At the end of the
-list, select **Find a Mobile-Friendly Course**.
-
-You can also use the menu at the top of the page. Select **Find Courses**.
-
-   .. image:: ../../shared/students/Images/Mob_Menu.png
-      :width: 300
-      :alt: Mobile "My Courses" page with an arrow pointing to the menu in the
-        upper left corner.
-
-To sign up for a course, click **Enroll**.
-
-Only select courses are offered on the edX mobile app right now. We are
-working hard to make all edX courses mobile-friendly. We are adding more
-mobile courses every day, so check back often to see new available courses.
-
-========================================
-How do I unenroll from a course?
-========================================
-
-To unenroll from a course, use a browser to go to the `edx.org`_ website. You
-unenroll from courses on your dashboard.
+    .. include:: ../../shared/students/Section_mobile_gettingstarted.rst
 
 .. _Courseware Questions:
 
@@ -126,18 +57,35 @@ Courseware Questions
 Can I take a course entirely on my mobile device?
 ========================================================
 
-Not at this time. With the edX mobile app, you can download course videos to
-watch when you do not have an Internet connection. To complete other work,
-including readings, homework problems, and exams, use a web browser. (If you
-have access to a computer, you might find it easier to use it for some of the
-coursework.)
+.. The following paragraph describes the features of the edX mobile app for partners/edx.org (video only)
+.. Alison, DOC-1840, June 2015
+
+.. only:: Partners
+
+  Not at this time. With the edX mobile app, you can download course videos to
+  watch when you do not have an Internet connection. To complete other work,
+  including readings, homework problems, and exams, use a computer.
+
+.. The following paragraph describes the features of the edX mobile app for Open edX (adds notifications, assessments, discussions)
+.. Alison, DOC-1840, June 2015
+
+.. only:: Open_edX
+
+  Not entirely. With the edX mobile app, you can download course videos to
+  watch when you do not have an Internet connection. When you have an Internet
+  connection, you can also read course announcements and content, participate
+  in discussions, and do some, but not all, of the problems in your
+  assignments. To complete an entire course, you use a web browser on a
+  computer.
 
 ========================================================
 How do I post questions on the discussion board?
 ========================================================
 
 Right now, you cannot use the app to participate in course discussions. To
-read or contribute to the discussions, use a web browser.
+read or contribute to the discussions, use a web browser on a computer.
+
+.. Reviewers, I will provide the Open_edX version of this paragraph ^^ in a different PR - Alison
 
 .. _Video Questions:
 
@@ -169,25 +117,10 @@ How much data will the videos in this app use?
 ================================================
 
 Course videos are optimized for mobile playback, but watching or downloading
-any video can result in heavy data use. We recommend using a Wi-Fi connection
-if you intend to watch or download a lot of videos. The edX app has a
+any video can result in heavy data use. EdX recommends using a Wi-Fi connection
+if you intend to watch or download a lot of videos. The edX mobile app has a
 **Download only on Wi-Fi** setting that is enabled by default to help you avoid
 using your cellular network accidentally.
-
-==================================
-How can I see captions?
-==================================
-
-While a video plays, select **Settings** (the "gear" icon) at the lower right,
-and then select **Closed Captions**. If the video has captions, a list of
-available languages appears. Select the language that you want from the list.
-
-.. image:: ../../shared/students/Images/Mob_CCwithLanguages.png
-   :width: 500
-   :alt: Video with closed caption language menu visible.
-
-Some courses have captions in only one language, while others offer several
-language choices.
 
 ========================================================================
 What are the numbers to the right of section and subsection names?
@@ -228,7 +161,7 @@ You can change video speeds on the iPhone app. While a video plays, select
 **Settings** (the "gear" icon) at the lower right, and then select **Video
 Speed**.
 
-On the Android app, videos currently run only in their original speeds. We are
+On the Android app, videos currently run only in their original speeds. EdX is
 working on the ability to change video speeds.
 
 ========================================
@@ -269,13 +202,19 @@ How do I delete downloaded videos?
 
 #. Select **Delete**.
 
-
 .. The following section describes how push notifications appear on devices with the edX mobile app installed
 .. Alison, DOC-1814, June 2015
 
 .. only:: Open_edX
 
     .. include:: ../../shared/students/Section_notification_questions.rst
+
+.. The following section describes the assessment types that appear on devices with the edX mobile app installed
+.. Alison, DOC-1840, June 2015
+
+.. only:: Open_edX
+
+    .. include:: ../../shared/students/Section_mobile_assessments.rst
 
 .. _Troubleshooting:
 
