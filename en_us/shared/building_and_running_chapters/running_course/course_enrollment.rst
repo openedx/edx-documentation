@@ -72,7 +72,9 @@ When you enroll people in a course you have these options:
   the list that do not match a registered user account are enrolled as soon as
   that account is registered and activated.
 
-  If you do not select **Auto Enroll**, the people who you enroll must also actively locate your course and enroll themselves in it. These students see the course on their dashboards after they have done so.
+  If you do not select **Auto Enroll**, the people who you enroll must also
+  actively locate your course and enroll themselves in it. These students see
+  the course on their dashboards after they have done so.
 
 * **Notify students by email**. When you choose this option, an email message is
   automatically sent to each of the email addresses that you supply. The message
@@ -107,6 +109,15 @@ To enroll students or staff members:
    selected.
 
 #. Click **Enroll**.
+
+.. only:: Open_edX
+
+   .. note:: If your course has a fee, and an organization wants to purchase 
+    enrollment for multiple seats in your course at one time, you can create
+    *enrollment codes* for the organization. The organization then distributes
+    these enrollment codes to its students to simplify the enrollment process.
+    You can also create coupon codes to give learners a discount when they
+    enroll in your course. For more information, see :ref:`Manage Course Fees`.
 
 .. _view_enrollment_count:
 
