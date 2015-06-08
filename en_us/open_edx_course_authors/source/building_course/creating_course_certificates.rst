@@ -1,1 +1,1 @@
-.. include:: ../../../shared/building_and_running_chapters/building_course/creating_course_certificates_OpenedXOnly.rst
+.. include:: ../../../shared/building_and_running_chapters/building_course/creating_course_certificates_OpenedxOnly.rst
