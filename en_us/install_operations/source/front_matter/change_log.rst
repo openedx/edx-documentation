@@ -11,6 +11,10 @@ Change Log
    * - 8 June 2015
      - Added :ref:`Enable edX Search`.
    * - 
+     - Added :ref:`Enable Certificates`.
+   * - 
+     - Added :ref:`Enable Badging`.
+   * - 
      - Updated the :ref:`Setting up the Mobile Applications` section to include
        configuration for push notifications.
    * - 28 May 2015
