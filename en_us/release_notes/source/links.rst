@@ -19,6 +19,12 @@
 
 .. _Configuring the Open edX Platform: http://edx.readthedocs.org/projects/edx-installing-configuring-and-running/en/latest/configuration/index.html
 
+.. _Enable edX Search: http://edx.readthedocs.org/projects/edx-installing-configuring-and-running/en/latest/configuration/edx_search.html#enable-edx-search
+
+.. _Enable Certificates: http://edx.readthedocs.org/projects/edx-installing-configuring-and-running/en/latest/configuration/enable_certificates.html#enable-certificates
+
+.. _Enabling Badging: http://edx.readthedocs.org/projects/edx-installing-configuring-and-running/en/latest/configuration/enable_badging.html#enable-badging
+
 .. OLX Guide Links
 
 .. _Example of OLX for a Studio Course: http://edx-open-learning-xml.readthedocs.org/en/latest/studio-example/index.html#example-of-olx-for-a-studio-course
@@ -90,6 +96,8 @@
 .. _User API Version 0: http://edx.readthedocs.org/projects/edx-platform-api/en/latest/user/index.html#edx-platform-user-api-version-0
 
 .. _User Preferences API: http://edx-platform-api.readthedocs.org/en/latest/user/preferences.html#user-preferences-api
+
+.. _Profile Images API: http://edx.readthedocs.org/projects/edx-platform-api/en/latest/profile_images/index.html#profile-images-api-version-1-0
 
 .. other links not yet categorized carefully
 
@@ -378,6 +386,8 @@
 .. _The Visual Editor: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/creating_content/create_html_component.html#the-visual-editor
 
 
+.. _Adding a Pre-Roll Video to Your edX Course: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/creating_content/create_video.html#adding-a-pre-roll-video-to-your-edx-course
+
 .. Peer Assessments
 
 .. _Accessing ORA Information: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/open_response_assessments/Access_ORA_Info.html
@@ -416,6 +426,8 @@
 
 .. _Video Interaction Events: http://edx.readthedocs.org/projects/devdata/en/latest/internal_dat
   a_formats/tracking_logs.html#video-interaction-events
+
+.. _Pre-Roll Video Interaction Events: http://edx.readthedocs.org/projects/devdata/en/latest/internal_data_formats/tracking_logs.html#pre-roll-video-interaction-events
 
 .. Developer Doc
 
@@ -478,3 +490,25 @@
 .. _Interpret the Grade Report: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/running_course/course_grades.html#interpret-the-grade-report
 
 .. _Preview Course Content: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/developing_course/testing_courseware.html#preview-course-content
+
+.. Open edX latest docs
+
+.. _Add a Course Update: http://edx.readthedocs.org/projects/open-edx-building-and-running-a-course/en/latest/building_course/handouts_updates.html#add-a-course-update
+
+.. _Setting Up Course Certificates: http://edx.readthedocs.org/projects/open-edx-building-and-running-a-course/en/latest/building_course/creating_course_certificates.html#setting-up-course-certificates
+
+.. _Mobile-Ready Problem Types: http://edx.readthedocs.org/projects/open-edx-building-and-running-a-course/en/latest/exercises_tools/create_exercises_and_tools.html#mobile-ready-problem-types
+
+.. _Manage Course Fees: http://edx.readthedocs.org/projects/open-edx-building-and-running-a-course/en/latest/running_course/manage_course_fees.html#manage-course-fees
+
+.. _Notification Questions: http://edx.readthedocs.org/projects/open-edx-learner-guide/en/latest/SFD_mobile.html#notification-questions
+
+.. _Completing Assignments: http://edx.readthedocs.org/projects/open-edx-learner-guide/en/latest/SFD_mobile.html#completing-assignments
+
+.. _Certificates: http://edx.readthedocs.org/projects/open-edx-learner-guide/en/latest/SFD_certificates.html
+
+.. _Searching the Course: http://edx.readthedocs.org/projects/open-edx-learner-guide/en/latest/SFD_course_search.html
+
+.. _Student Notes: http://edx.readthedocs.org/projects/open-edx-learner-guide/en/latest/SFD_student_notes.html
+
+.. _Bookmarks: http://edx.readthedocs.org/projects/open-edx-learner-guide/en/latest/SFD_bookmarks.html
