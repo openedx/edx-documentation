@@ -718,6 +718,8 @@ the ``name`` field only for events that have an ``event_source`` of 'mobile'.
 * ``show_transcript``/``edx.video.transcript.shown``
 * ``speed_change_video`` 
 * ``stop_video``/``edx.video.stopped``
+* ``video_hide_cc_menu``
+* ``video_show_cc_menu``
 
 A browser or the edX mobile app emits video interaction events when a user
 interacts with a video.
@@ -1284,6 +1286,44 @@ this type as for the :ref:`play_video` events.
 
 * ``code``
 * ``currentTime``: The time in the video at which play stopped, in seconds.
+* ``id``
+
+``video_hide_cc_menu``
+************************************************
+
+When a user selects a language from the **CC** menu for a video that
+has transcripts in multiple languages, the browser emits a
+``video_hide_cc_menu`` event.
+
+**Event Source**: Browser
+
+**History**: Added 17 Feb 2015. 
+
+``event`` **Member Fields**: 
+
+The ``video_hide_cc_menu`` events include the following ``event`` member
+fields. These fields serve the same purpose for events of this type as for
+:ref:`play_video`.
+
+* ``code``
+* ``id``
+
+``video_show_cc_menu``
+************************************************
+
+When a user selects **CC** for a video that has transcripts in multiple
+languages, the browser emits a ``video_show_cc_menu`` event. This event is
+emitted in addition to the ``show_transcript`` event.
+
+**Event Source**: Browser
+
+``event`` **Member Fields**: 
+
+The ``video_show_cc_menu`` events include the following ``event`` member
+fields. These fields serve the same purpose for events of this type as for
+:ref:`play_video`.
+
+* ``code``
 * ``id``
 
 .. _pdf:
