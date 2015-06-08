@@ -15,6 +15,8 @@ June 2015
    * - 8 Jun 2015
      - Updated the :ref:`Add a Course Update` section to include information
        about sending notifications to the edX mobile applications.
+   * - 
+     - Added the list of :ref:`Mobile-Ready Problem Types`.
 
 *****************
 May 2015

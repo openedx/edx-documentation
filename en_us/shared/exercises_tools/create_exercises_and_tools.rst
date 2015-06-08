@@ -4,6 +4,10 @@
 Creating Exercises and Tools
 ############################
 
+.. contents:: Section Contents 
+  :local:
+  :depth: 1
+
 ************************************
 Introduction to Exercises and Tools
 ************************************
@@ -353,3 +357,10 @@ STEM Exercises and Tools
      - The Protex protein builder asks students to create specified protein
        shapes by stringing together amino acids.
      - No support
+
+.. The following section lists the types of problems that learners can interact with in the edX mobile app. 
+.. Alison, DOC-1840, June 2015
+
+.. only:: Open_edX
+
+  .. include:: ../../../shared/exercises_tools/Section_mobile_problems.rst
