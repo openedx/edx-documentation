@@ -15,3 +15,4 @@ options.
    enable_prerequisites
    enable_entrance_exams
    enable_licensing
+   edx_search
