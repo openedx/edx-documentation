@@ -17,8 +17,7 @@ June 2015
      - Added a section for frequently asked questions about the edX mobile
        applications, :ref:`SFD Mobile`.
    * - 
-     - Added :ref:`SFD Search`, :ref:`SFD Notes`, and :ref:`SFD Bookmarks`
-       sections.
+     - Added :ref:`SFD Search` and :ref:`SFD Notes` sections.
    * - 
      - Updated the :ref:`Certificates` section to include information on
        sharing certificates, including sharing digital badges.
