@@ -42,7 +42,6 @@ For more information, see the following topics.
   respond to a post, and comment on another student's response.
 * :ref:`SFD Wiki` - Covers information about an edX course wiki.
 
-
 This guide is still under development, and we encourage you to submit feedback
 to `docs@edx.org <mailto://docs@edx.org>`_.
 

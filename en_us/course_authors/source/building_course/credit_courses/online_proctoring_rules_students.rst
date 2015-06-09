@@ -55,16 +55,15 @@ The Room You are Taking the Test In
    posted guidelines) to have such materials available for a particular
    examination.
 
-   In addition to pens, paper, calculators, textbooks, and notebooks, the
-   following tools should not be on your desk or used during your proctored
-   exam.
+In addition to pens, paper, calculators, textbooks, and notebooks, the
+following tools should not be on your desk or used during your proctored exam.
 
-   * Phones.
-   * Programs such as Excel, Word, Powerpoint.
-   * Any website other than edX.org.
-   * Communication programs such as Skype.
+  * Phones.
+  * Programs such as Excel, Word, Powerpoint.
+  * Any website other than edX.org.
+  * Communication programs such as Skype.
 
-#. Make sure there is no writing visible on the desk or on the walls around
+4. Make sure there is no writing visible on the desk or on the walls around
    you.
 
 #. Make sure you do not have more than one display or monitor connected to the
@@ -106,9 +105,9 @@ The Computer You are Taking the Test With
 
 #. The following tools should not be during your proctored exam. 
 
-   * Programs such as Excel, Word, Powerpoint.
-   * Any website other than edX.org.
-   * Communication programs such as Skype.
+  * Programs such as Excel, Word, Powerpoint.
+  * Any website other than edX.org.
+  * Communication programs such as Skype.
 
 
 ==========================================
@@ -147,3 +146,8 @@ passing grade.
 
 If you have questions about your proctoring exam status, go to http://edx.org
 to contact edX Support, or consult your course team.
+
+
+
+
+

@@ -24,7 +24,8 @@ For more information, see the following sections.
 Configure the Course
 ****************************
 
-Configuring your Open edX environment to support paid courses has several steps.
+Configuring your Open edX environment to support paid courses has several
+steps.
 
 #. :ref:`Obtain a merchant account with CyberSource<Obtain CyberSource
    Merchant Account>`.
@@ -399,7 +400,8 @@ the **E-Commerce** page. To see the **E-Commerce** page, you must have either
 the Sales Admin or Finance Admin role. For information, see :ref:`Assign Admin
 Roles`. 
 
-In the **Enrollment Codes** section, you can perform the following transactions.
+In the **Enrollment Codes** section, you can perform the following
+transactions.
 
 * Cancel enrollment codes.
 * Restore enrollment codes.

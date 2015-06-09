@@ -42,8 +42,8 @@ steps.
 Create a Verification Checkpoint
 *********************************
 
-To require learners to verify their identities before a specific assessment, you
-add a verification checkpoint component to a unit in that assessment. After
+To require learners to verify their identities before a specific assessment,
+you add a verification checkpoint component to a unit in that assessment. After
 you create a checkpoint component, the checkpoint appears on the **Progress**
 pages and in the courseware for learners who must complete in-course identity
 reverification.
@@ -247,3 +247,40 @@ requirements on their **Progress** pages.
 
 For more information about the in-course identity reverification experience
 for the learner, see `In-Course Identity Reverification <http://edx-guide-for-students.readthedocs.org/en/latest/SFD_credit_courses/SFD_in_course_ID_reverification.html>`_.
+
+*************************************************
+Create an In-Course Reverification Checkpoint
+*************************************************
+
+To create an in-course reverification checkpoint, follow these steps.
+
+#. In the subsection for the assessment that requires reverification, create a
+   new unit.
+#. In the unit, locate **Add New Component**, select **Advanced**, and then
+   select **Reverification Checkpoint**.
+
+   You can add more components to the unit that contains the reverification
+   checkpoint. If you add more components, make sure that the reverification
+   checkpoint is the first component in the unit.
+
+#. In the reverification checkpoint component, select **Edit**.
+#. In the component editor, locate **Associated Assessment**, and then enter
+   the display name of the subsection that contains the assessment that you
+   want to associate with the checkpoint. If you have not created the
+   assessment yet, enter the display name that you plan to give the
+   assessment.
+#. For **Verification Attempts**, select the number of times that you
+   want to allow learners to attempt to verify their identity. You can select
+   up to three attempts.
+#. Select **Save**.
+
+After you create an reverification checkpoint, the checkpoint appears in the
+list of course credit requirements on learners' **Progress** pages.
+
+.. image:: ../Images/SFD_Credit_ReqList.png
+ :width: 400
+ :alt: The Progress page showing requirements for credit eligibility.
+
+.. update image when sandbox ready (8/7: can't show anything but "Upcoming"
+.. status)
+

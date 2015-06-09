@@ -68,10 +68,10 @@ Certificate Types
 
 .. only:: Open_edX
 
-  Different types of certificates might be available for courses you take: for
-  example, "honor code" or "verified". You select the certificate type you want
-  when you enroll in a course. You select the certificate type when you
-  :ref:`enroll in a course <SFD Enrolling in a Course>`.
+    Different types of certificates might be available for courses you take:
+    for example, "honor code" or "verified". You select the certificate type
+    you want when you enroll in a course. You select the certificate type when
+    you :ref:`enroll in a course <SFD Enrolling in a Course>`.
 
 .. only:: Partners
 
@@ -81,7 +81,6 @@ Certificate Types
     .. contents::
      :local:
      :depth: 1
-
     .. Note:: Not all courses offer every type of certificate.
 
     .. _SFD Honor Code Certificates:
@@ -98,6 +97,7 @@ Certificate Types
     .. image:: ../../shared/students/Images/SFD_HCCert.png
        :width: 500
        :alt: Example edX honor code certificate
+
 
     .. _SFD Verified Certificates:
 
@@ -166,7 +166,6 @@ Certificate Types
 
     .. _edX course catalog: https://www.edx.org/course-list/allschools/verified/allcourses`
 
-
     ****************************
     Changing a Certificate Type
     ****************************
@@ -198,6 +197,7 @@ Certificate Types
 
     If you have questions about changing your certificate type, contact the edX
     support team at `technical@edx.org <mailto://technical@edx.org>`_.
+
 
 *************************
 Receiving a Certificate
@@ -308,7 +308,7 @@ your certificate.
 Certificates for Self-Paced Courses
 ***********************************
 
-While most edX courses have specific start and end dates, some courses are
+While most edX courses have specific start and end dates, a few courses are
 self-paced. You can start these courses anytime and work through the
 courseware at your own pace.
 
