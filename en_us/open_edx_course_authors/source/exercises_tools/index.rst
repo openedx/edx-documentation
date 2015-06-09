@@ -50,7 +50,6 @@ Course Content Index`.
    protein_builder
    randomized_content_blocks
    recommenderXBlock
-   student_notes
    text_input
    word_cloud
    custom_python

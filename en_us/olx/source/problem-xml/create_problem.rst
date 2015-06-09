@@ -573,6 +573,6 @@ Create Randomized Problems
          </randomize>
        </vertical>
 
-.. include:: ../../../shared/exercises_tools/adding_tooltip.rst       
+.. include:: ../../../shared/exercises_tools/adding_tooltip.rst
 
 .. include:: ../links.rst

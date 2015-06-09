@@ -13,8 +13,7 @@ wiki<Seeding the Wiki>` with specific content, by explaining how you want it to
 be used at the beginning of the course, and by providing clear instructions and
 guidelines for its use.
 
-Common uses for the course wiki might
-be:
+Common uses for the course wiki might include the following activities.
 
 * Sharing answers to course FAQs and collecting new FAQs.
 * Sharing editable course information, such as download and installation

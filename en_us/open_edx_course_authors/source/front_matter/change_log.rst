@@ -16,9 +16,11 @@ June 2015
      - Updated the :ref:`Add a Course Update` section to include information
        about sending notifications to the edX mobile applications.
    * - 
-     - Added the list of :ref:`Mobile-Ready Problem Types`.
+     - Added the list of `Mobile-Ready Problem Types <http://edx.readthedocs.org/projects/open-edx-building-and-running-a-course/en/latest/exercises_tools/create_exercises_and_tools.html#mobile-ready-problem-types>`_.
    * - 
-     - Added the :ref:`Setting Up Course Certificates` section.  
+     - Added the :ref:`Setting Up Course Certificates` section.
+   * - 
+     - Added :ref:`Manage Course Fees`.
 
 *****************
 May 2015

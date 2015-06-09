@@ -1,8 +1,8 @@
 .. _Adding Tooltips to a Problem:
 
-====================================
+==============================
 Adding Tooltips to a Problem
-====================================
+==============================
 
 You can add inline tooltips to a problem, so that learners can hover over the
 tooltip icon and see text that you write to help them understand the problem.

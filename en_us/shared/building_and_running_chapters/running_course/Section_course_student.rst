@@ -1,9 +1,5 @@
 .. _Using the Learner Engagement Report:
 
-*************************************
-Using the Learner Engagement Report
-*************************************
-
 With the learner engagement report, you can monitor what individual learners
 are doing in your course. The report contains a row for each enrolled learner,
 and has columns that quantify overall course activity and engagement with

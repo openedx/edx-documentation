@@ -183,9 +183,17 @@ the ``{course_id}_student_profile_info_{date}.csv`` file of student data or the
 
 .. only:: Open_edX
 
+    *************************************
+    Using the Learner Engagement Report
+    *************************************
+
     .. include:: ../../../shared/building_and_running_chapters/running_course/Section_course_student.rst
 
 .. only:: Partners
+
+    ***********************
+    Track Student Activity
+    ***********************
 
     .. include:: ../../../shared/building_and_running_chapters/running_course/Section_track_student_activity.rst
 

@@ -26,10 +26,7 @@ When the search engine returns results, either for an individual course or
 across all courses, learners can select any search result to view that result
 in the courseware.
 
-For more information about the student experience, see `Searching the Course
-<http://draft-sfd-search.readthedocs.org/en/latest/SFD_course_search.html>`_.
-
-.. Replace above URL when feature is released
+For more information about the student experience, see `Searching the Course <http://edx.readthedocs.org/projects/open-edx-learner-guide/en/latest/SFD_course_search.html>`_.
 
 .. note:: Studio does not index course exercises and problems, including 
  homework and exam problems. Studio also does not index course discussions.
