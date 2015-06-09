@@ -28,5 +28,5 @@ of the notes in the courseware.
   :alt: The Notes page listing all the notes a learner has made in the
       course.
 
-For detailed information about the ways learners can use notes, see
-`Notes <http://edx-guide-for-students.readthedocs.org/en/latest/SFD_notes.html>`_.
+For detailed information about the ways learners can use notes, see `Notes 
+<http://edx.readthedocs.org/projects/open-edx-learner-guide/en/latest/SFD_notes.html>`_.

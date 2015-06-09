@@ -15,6 +15,7 @@ Open edX Learner's Guide
    SFD_introduction
    sfd_dashboard_profile/index
    SFD_licensing
+   SFD_course_search
    SFD_video_player
    SFD_bookmarks
    SFD_notes

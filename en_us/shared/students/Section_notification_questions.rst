@@ -1,9 +1,5 @@
 .. _Notification Questions:
 
-**************************
-Notification Questions
-**************************
-
 =========================================================
 Will I get notified about upcoming due dates and exams?
 =========================================================

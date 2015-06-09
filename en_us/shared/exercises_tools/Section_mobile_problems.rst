@@ -1,10 +1,7 @@
-.. _Mobile-Ready Problem Types
+.. _Mobile-Ready Problem Types:
 
-*********************************
-Mobile-Ready Problem Types
-*********************************
-
-Learners can read and submit answers for the following types of problems while they use the edX mobile app. 
+Learners can read and submit answers for the following types of problems while
+they use the edX mobile app.
 
 * :ref:`Checkbox`
 * :ref:`Dropdown`

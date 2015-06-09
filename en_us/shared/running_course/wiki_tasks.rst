@@ -2,17 +2,17 @@
 
 .. _Adding a Wiki Article:
 
-********************************
+*********************************
 Adding a Wiki Article
-********************************
-
+*********************************
+  
 When you add an article to the wiki, be aware of what level you are currently
 viewing, to make sure that you add your new article to the correct level in the
 course wiki.
 
 To move down a level in the wiki, click the **See all children** link; to move
-up, click the appropriate level in the wiki breadcrumb trail links at the top of
-the page.
+up, click the appropriate level in the wiki breadcrumb trail links at the top
+of the page.
 
 ===============================
 Add Articles at the Same Level

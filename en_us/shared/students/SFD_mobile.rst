@@ -38,12 +38,20 @@ The edX mobile app is currently available for Android smartphones and iPhones.
 
 .. only:: Partners
 
+    *************************
+    General Questions
+    *************************
+
     .. include:: ../../shared/students/Section_mobile_general.rst
 
 .. The following getting started Q&A applies to the edX mobile app for partners/edx.org only
 .. Alison, DOC-1840, June 2015
 
 .. only:: Partners
+
+    *************************
+    Getting Started
+    *************************
 
     .. include:: ../../shared/students/Section_mobile_gettingstarted.rst
 
@@ -207,12 +215,20 @@ How do I delete downloaded videos?
 
 .. only:: Open_edX
 
+    **************************
+    Notification Questions
+    **************************
+
     .. include:: ../../shared/students/Section_notification_questions.rst
 
 .. The following section describes the assessment types that appear on devices with the edX mobile app installed
 .. Alison, DOC-1840, June 2015
 
 .. only:: Open_edX
+
+    **************************
+    Completing Assignments
+    **************************
 
     .. include:: ../../shared/students/Section_mobile_assessments.rst
 

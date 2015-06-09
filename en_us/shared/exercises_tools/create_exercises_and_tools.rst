@@ -363,4 +363,8 @@ STEM Exercises and Tools
 
 .. only:: Open_edX
 
+  *********************************
+  Mobile-Ready Problem Types
+  *********************************
+
   .. include:: ../../../shared/exercises_tools/Section_mobile_problems.rst
