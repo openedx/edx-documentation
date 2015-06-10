@@ -197,7 +197,7 @@
 
 .. _Example Messages to Students: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/releasing_course/course_launching.html#example-messages-to-students
 
-.. _Enrollment: http://ca.readthedocs.org/en/latest/running_course/course_enrollment.html#enrollment
+.. _Enrollment: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/running_course/course_enrollment.html#enrollment
 
 .. _Shuffle Answers in a Multiple Choice Problem: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/multiple_choice.html#shuffle-answers-in-a-multiple-choice-problem
 
@@ -225,7 +225,7 @@
 
 .. _Releasing Your Course: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/releasing_course/index.html
 
-.. _Course Launching Activities: http://ca.readthedocs.org/en/latest/releasing_course/course_launching.html#launch
+.. _Course Launching Activities: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/releasing_course/course_launching.html#launch
 
 .. _Adding Pages to a Course: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/building_course/pages.html
 
@@ -325,7 +325,7 @@
 
 .. _IFrame Tool: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/iframe.html
 
-.. _Drag and Drop Problem: http://ca.readthedocs.org/en/latest/exercises_tools/drag_and_drop.html
+.. _Drag and Drop Problem: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/drag_and_drop.html
 
 
 .. _Assign Discussion Administration Roles: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/running_course/discussions.html#assigning-discussion-roles
