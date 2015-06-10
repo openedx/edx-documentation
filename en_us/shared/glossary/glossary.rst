@@ -4,9 +4,10 @@
 Glossary
 ############
 
-:ref:`A` - :ref:`C` - :ref:`D` - :ref:`E` - :ref:`F` - :ref:`G` - :ref:`H` 
-- :ref:`I` - :ref:`K` - :ref:`L` - :ref:`M` - :ref:`N` - :ref:`O` - :ref:`P` 
-- :ref:`R` - :ref:`S` - :ref:`T` - :ref:`V` - :ref:`W` - :ref:`XYZ<X>`
+:ref:`A` - :ref:`C` - :ref:`D` - :ref:`E` - :ref:`F` 
+- :ref:`G` - :ref:`H` - :ref:`I` - :ref:`K` - :ref:`L` 
+- :ref:`M` - :ref:`N` - :ref:`O` - :ref:`P` - :ref:`R` 
+- :ref:`S` - :ref:`T` - :ref:`V` - :ref:`W` - :ref:`XYZ<X>`
 
 .. _A:
 
@@ -580,6 +581,14 @@ P
 
   For more information, see `Adding Pages to a Course`_.
 
+**Pre-Roll Video**
+
+  A short video file that plays before the video component selected by the learner.
+  Pre-roll videos play automatically, on an infrequent schedule. 
+
+  For more information, see `Adding a Pre-Roll Video`_.
+
+
 .. _Preview Mode:
  
 **Preview Mode**
@@ -808,8 +817,12 @@ XYZ
   Third parties can create components as web applications that can run within
   the edX learning management system.
 
+**XSeries**
 
+  A set of related courses in a specific subject. Learners qualify for an
+  XSeries certificate when they pass all of the courses in the XSeries.
 
+  For more information, see https://www.edx.org/xseries.
 
 .. _The Course Summary Page: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/building_course/setting_up_student_view.html#the-course-summary-page
 .. _Creating Exercises and Tools: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/create_exercises_and_tools.html
@@ -862,3 +875,4 @@ XYZ
 .. _Hide or Show the Course Wiki Page: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/building_course/pages.html#hide-or-show-the-course-wiki-page
 .. _LON-CAPA: http://www.lon-capa.org/
 .. _Open Response Assessments: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/open_response_assessments/OpenResponseAssessments.html
+.. _Adding a Pre-Roll Video: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/creating_content/create_video.html#adding-a-pre-roll-video

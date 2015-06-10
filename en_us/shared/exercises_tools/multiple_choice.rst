@@ -372,6 +372,7 @@ To add shuffling to this problem, add ``shuffle="true"`` to the
   </fieldset>
  </problem>
 
+
 To fix an answer's location in the list, add ``fixed="true"`` to the
 ``choice`` element for the answer.
 

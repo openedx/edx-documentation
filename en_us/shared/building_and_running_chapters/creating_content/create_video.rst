@@ -4,31 +4,26 @@
 Working with Video Components
 #############################
 
-You can create videos of your lectures and add them to your course to
-supplement other components, such as discussions and problems, to promote
-active learning. Adding a video to your course has several steps.
+You can create videos and add them to a course to supplement other components,
+such as discussions and problems, to promote active learning. Adding a video
+to your course has several steps.
 
-.. contents:: Section Contents
+.. contents:: Section Contents 
   :local:
   :depth: 1
 
-.. note:: Review :ref:`Best Practices for Accessible Media` before adding
- videos to your course.
-
-.. _Protecting Videos:
-
-************************
-Protecting Videos
-************************ 
+.. important:: Be sure to review :ref:`Best Practices for Accessible Media` 
+ before you create videos for your course.
 
 To help course teams protect video assets, the edX video player hides video
-URLs from learners by default. This functionality is in effect for all video
-files, including YouTube videos and videos that you have posted in other
-locations. Learners can still download videos if you select the **Video
-Download Allowed** option for your video components. For more information about
-posting videos not hosted on YouTube, see :ref:`Post the Video Online`. For
-more information about options that you can set when you create a video
-component, see :ref:`Video Advanced Options`.
+URLs from students by default. This functionality is in effect for all video
+files, including YouTube videos and videos that are hosted in other locations.
+Students can still download videos if you select the **Video Download
+Allowed** option for your video components. For more information about posting
+videos to hosting sites other than YouTube, see :ref:`Post the Video Online`.
+For more information about options that you can set when you create a video
+component, see :ref:`Video Advanced Options` under :ref:`Create a Video
+Component`.
 
 .. _Create the Video:
 
@@ -42,12 +37,12 @@ some helpful pointers for creating good video content.
 
 .. _Compression Specifications:
 
-====================================
-Compression Specifications
-====================================
+======================================
+Recommended Compression Specifications
+======================================
 
-When you create your video, edX recommends the following compression specs.
-(Note that these are recommended but not required.)
+When you create your video, edX recommends the following compression
+specifications. These specifications are recommended but not required.
 
 .. list-table::
    :widths: 10 20 20
@@ -85,13 +80,13 @@ When you create your video, edX recommends the following compression specs.
 
 .. _Video Formats:
 
-==================
-Video Formats
-==================
+=======================
+Supported Video Formats
+=======================
 
 The edX video player supports videos in .mp4, .webm, .mpeg, and .ogg format.
-However, to help make sure all standard browsers can play your video, we
-strongly recommend that you use the **.mp4 format**.
+However, to help make sure all standard browsers can play your video, edX
+strongly recommends that you use the **.mp4 format**.
 
 .. _Create Transcript:
 
@@ -107,7 +102,7 @@ you create the video component.
 
 Timed transcripts in the SubRip Text (.srt) format are strongly recommended. A
 transcript in the .srt format appears next to its associated video and
-automatically scrolls as the video plays. A learner can click a word in the
+automatically scrolls as the video plays. A learner can select a word in the
 transcript to jump to the point in the video where that word is spoken.
 
 To create or obtain a transcript in .srt format, you can work with a company
@@ -117,8 +112,8 @@ provides captioning services.
 
 When you upload an .srt file, a .txt file is created automatically. You can
 allow learners to download these transcript files. If you allow your learners
-to download transcripts, a **Download transcript** button appears under the
-video. Learners can then select either **SubRip (.srt) file** or **Text (.txt)
+to download transcripts, the video player includes a **Download transcript**
+option. Learners can then select either **SubRip (.srt) file** or **Text (.txt)
 file** to download the .srt or .txt transcript.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/Video_DownTrans_srt-txt.png
@@ -142,16 +137,17 @@ Step 3. Post the Video Online
 All course videos should be posted to YouTube. By default, the edX video player
 accesses your YouTube videos.
 
-Because YouTube is not available in all locations, however, we recommend that
-you also post copies of your videos on a third-party site such as `Amazon S3
-<http://aws.amazon.com/s3/>`_. When a learner views a video in your course, if
-YouTube is not available in that learner's location or if the YouTube video
-does not play, the video on the backup site starts playing automatically. You
-can also allow the learners to download the video from the backup site.
+Because YouTube is not available in all locations, however, edX recommends that
+you also post copies of your videos on a third-party hosting site such as
+`Amazon S3 <http://aws.amazon.com/s3/>`_. When a learner views a video in your
+course, if YouTube is not available in that learner's location or if the
+YouTube video does not play, the video on the backup site starts playing
+automatically. You can also allow the learners to download the video from the
+backup site.
 
-After you post your video online, make sure you have the URL for the video. If
-you host copies of your video in more than one place, make sure you have the
-URL for each video location.
+After you post your video online, make sure you have the URL for that copy of
+the video. If you post copies of your video in more than one place, make sure
+you have the URL for each video location.
 
 ==================
 YouTube
@@ -170,20 +166,20 @@ Other Sites
 ==================
 
 You can use any video backup site that you want. However, keep in mind that the
-site where you post the videos may have to handle a lot of traffic.
+site where you post the videos might need to handle high traffic volume.
 
 .. note:: The URL for the video that you post on a third-party site must end
  in .mp4, .webm, .mpeg, or .ogg. (To help make sure all standard browsers can
- play your video, we **strongly** recommend that you use .mp4 format.) EdX
+ play your video, edX **strongly** recommends that you use .mp4 format.) EdX
  cannot support videos that you post on sites such as Vimeo.
 
 If you (or your beta testers or learners) encounter an error when you view a
 course video, it might be the result of one of these browser-related problems.
 
-* Verify that the browser is up to date. For example, some older versions of
-  the Mozilla Firefox browser did not play .mp4 video files, and some older
-  versions of the Firefox browser did not play .webm video files. This problem
-  does not occur in more recent versions of these browsers.
+* Verify that the viewer's browser is up to date. For example, some older
+  versions of the Mozilla Firefox browser did not play .mp4 video files, and
+  some older versions of the Firefox browser did not play .webm video files.
+  These problems do not occur in more recent versions of these browsers.
 
   For more information, see `Media formats supported by the HTML audio and
   video elements`_.
@@ -204,10 +200,12 @@ course video, it might be the result of one of these browser-related problems.
 Step 4. Create a Video Component
 ********************************
 
-#. Under **Add New Component**, click **Video**.
+To add a video and its transcript to your course, follow these steps.
 
-#. When the new video component appears, click **Edit**. The video editor opens
-   to the **Basic** tab.
+#. Under **Add New Component**, select **Video**.
+
+#. When the new video component appears, select **Edit**. The video editor opens
+   to the **Basic** page.
 
    .. image:: ../../../shared/building_and_running_chapters/Images/VideoComponentEditor.png
     :alt: Image of the video component editor
@@ -229,11 +227,11 @@ Step 4. Create a Video Component
       https://s3.amazonaws.com/edx-course-videos/edx-edx101/EDXSPCPJSP13-G030300.mp4
       https://s3.amazonaws.com/edx-videos/edx101/video4.webm
 
-.. note:: To be sure that all learners can access a video, you might want to 
+.. note:: To be sure that all learners can access a video, you can 
     create multiple versions that use different encodings or hosting services.
     After you post different versions on the Internet, you add each URL below
     the default video URL. **These URLs cannot be YouTube URLs**. To add a URL
-    for another version, click **Add URLs for additional versions**. The first
+    for another version, select **Add URLs for additional versions**. The first
     listed video that is compatible with the learner's computer plays.
 
 5. Next to **Default Timed Transcript**, select an option.
@@ -241,28 +239,28 @@ Step 4. Create a Video Component
    * If edX already has a transcript for this video, Studio automatically
      finds the transcript and associates the transcript with the video. This
      situation can occur when you reuse a video from an existing course.
-
-     If you want to modify the transcript, click **Download Transcript for
+     
+     If you want to modify the transcript, select **Download Transcript for
      Editing**. You can then make your changes and upload the new file by
-     clicking **Upload New Transcript**.
+     selecting **Upload New Transcript**.
 
    * If edX does not have a transcript for the video, but YouTube has a
      transcript, Studio automatically finds the YouTube transcript and asks if
-     you want to import it. To use this YouTube transcript, click **Import
+     you want to import it. To use this YouTube transcript, select **Import
      YouTube Transcript**. (If you want to modify the YouTube transcript,
-     import the YouTube transcript into Studio, and then click **Download
+     import the YouTube transcript into Studio, and then select **Download
      Transcript for Editing**. You can then make your changes and upload the
-     new file by clicking **Upload New Transcript**.)
+     new file by selecting **Upload New Transcript**.)
 
    * If both edX and YouTube have a transcript for your video, but the edX
      transcript is out of date, you receive a message asking if you want to
      replace the edX transcript with the YouTube transcript. To use the YouTube
-     transcript, click **Yes, replace the edX transcript with the YouTube
+     transcript, select **Yes, replace the edX transcript with the YouTube
      transcript**.
 
    * If neither edX nor YouTube has a transcript for your video, and your
-     transcript uses the .srt format, click **Upload New Transcript** to upload
-     the transcript file from your computer.
+     transcript uses the .srt format, select **Upload New Transcript** to
+     upload the transcript file from your computer.
 
      .. note::
 
@@ -273,18 +271,18 @@ Step 4. Create a Video Component
           do not use this setting to upload the transcript. For more
           information, see :ref:`Additional Transcripts`.
 
-6. Optionally, click **Advanced** to set more options for the video. For a
+6. Optionally, select **Advanced** to set more options for the video. For a
    description of each option, see :ref:`Video Advanced Options`.
 
-#. Click **Save.**
-
+#. Select **Save.**
+  
 .. _Video Advanced Options:
 
-==================
-Advanced Options
-==================
+========================
+Setting Advanced Options
+========================
 
-The following options appear on the **Advanced** tab in the video component.
+The following options appear on the **Advanced** page of the video component.
 
 .. list-table::
     :widths: 30 70
@@ -294,7 +292,7 @@ The following options appear on the **Advanced** tab in the video component.
         **Display Name** field on the **Basic** tab.
     * - **Default Timed Transcript**
       -  The name of the transcript file that is used in the **Default Timed
-         Transcript** field on the **Basic** tab. This field is auto-populated.
+         Transcript** field on the **Basic** page. This field is auto-populated.
          You do not have to change this setting.
     * - **Download Transcript Allowed**
       - Specifies whether you want to allow learners to download the timed
@@ -316,7 +314,7 @@ The following options appear on the **Advanced** tab in the video component.
         When you add a transcript to this field, only the transcript that you
         add is available for download. The .srt and .txt transcripts become
         unavailable. If you want to provide a downloadable transcript in a
-        format other than .srt, we recommend that you upload a handout for
+        format other than .srt, edX recommends that you upload a handout for
         learners by using the **Upload Handout** field. For more information,
         see :ref:`Additional Transcripts`.
 
@@ -348,7 +346,8 @@ The following options appear on the **Advanced** tab in the video component.
     * - **Upload Handout**
       - Allows you to upload a handout to accompany this video. Your handout
         can be in any format. Learners can download the handout by clicking
-        **Download Handout** under the video.
+        **Download Handout** under the video.For more information, see
+        :ref:`Additional Transcripts`.
     * - **Video Available on Web Only**
       - If you select **True**, learners are only allowed to play this video
         in a Web browser. If you select **False**, learners can use any
@@ -396,146 +395,135 @@ The following options appear on the **Advanced** tab in the video component.
         videos in these fields. These settings are optional, to support video
         play on older browsers.
 
+**********************************
+Including Optional Collateral
+**********************************
+
+After you add a video component to your course, you can provide optional
+collateral to accompany the video.
+
+.. contents:: 
+  :local:
+  :depth: 1
+
 .. _Video TOC:
 
-***************************
-Video Table of Contents
-***************************
+==============================
+Add a Video Table of Contents
+==============================
 
-You can add a table of contents for your video by adding an .srt transcript
-file that contains clickable links to different parts of the video. When your
-learners view the video, they can click the **CC** button at the bottom of the
-video player to switch between the main transcript for the video and the table
-of contents.
+You can add a table of contents for your video by adding an .srt file that
+contains links to different parts of the video. When your learners view the
+video, they can select **CC** to switch between the main transcript for the
+video and the table of contents.
 
-To add a table of contents, you work with a third-party service to create
-the .srt transcript file. Then, you use the **Transcript Languages** setting
-in the video component to associate the .srt file with the video.
+To add a table of contents, you work with a third-party service to create an
+.srt file. Then, you use the **Transcript Languages** setting in the video
+component to associate the .srt file with the video.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/VideoTOC.png
    :alt: Image of a video with a transcript that has links to different parts
     of the video
    :width: 500
 
-#. After you obtain the .srt transcript file that will function as the
-   table of contents, open the video component for the video.
+#. After you obtain the .srt file that will function as the table of contents,
+   open the video component for the video.
 
 #. On the **Advanced** tab, scroll down to **Transcript Languages**, and then
-   click **Add**.
+   select **Add**. 
 
-#. In the dropdown list that appears, select **Table of Contents**.
+#. Select **Table of Contents**. 
 
-   An **Upload** button appears.
+#. Select **Upload**, browse to the .srt file, and then select **Open**.
 
-#. Click **Upload**, browse to the .srt file for the transcript, and then click
-   **Open**.
-
-#. In the **Upload translation** dialog box, click **Upload**.
+#. In the **Upload translation** dialog box, select **Upload**.
 
 .. _Additional Transcripts:
 
-**********************
-Additional Transcripts
-**********************
+============================================================
+Add a Supplemental Downloadable Transcript
+============================================================
 
 By default, a .txt file is created when you upload an .srt file, and learners
-can download an .srt or .txt transcript when you set **Download Transcript
-Allowed** to **True**. The **Download Transcript** button appears below the
+can download either the .srt or .txt transcript when you set **Download
+Transcript Allowed** to **True**. **Download Transcript** appears below the
 video, and learners see the .srt and .txt options when they move the cursor
-over the button.
+over that option.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/Video_DownTrans_srt-txt.png
    :width: 500
    :alt: Video status bar showing srt and txt transcript download options
 
-If you want to provide a downloadable transcript in a format such as .pdf along
-with the .srt and .txt transcripts, we recommend that you use the **Upload
-Handout** field. When you do this, a **Download Handout** button appears to the
-right of the **Download Transcript** button, and learners can download the
-.srt, .txt, or handout version of the transcript.
+To provide a downloadable transcript in a format such as .pdf along with the
+.srt and .txt transcripts, you use the **Upload Handout** advanced setting.
+When you do this, **Download Handout** appears to the right of the **Download
+Transcript** in the video player, and learners can download the .srt, .txt, or
+handout version of the transcript.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/Video_DownTrans_srt-handout.png
    :width: 500
    :alt: Video status bar showing srt, txt, and handout transcript download
     options
 
-To add a downloadable transcript, you use the **Upload Handout** field.
+To add a downloadable transcript, follow these steps.
 
 #. Create or obtain your transcript as a .pdf or in another format.
-#. In the video component, click the **Advanced** tab.
-#. Locate **Upload Handout**, and then click **Upload**.
-#. In the **Upload File** dialog box, click **Choose File**.
-#. In the dialog box, select the file on your computer, and then click
+#. In the video component, select **Advanced**.
+#. Locate **Upload Handout**, and then select **Upload**.
+#. In the **Upload File** dialog box, select **Choose File**.
+#. In the dialog box, select the file on your computer, and then select
    **Open**.
-#. In the **Upload File** dialog box, click **Upload**.
-
-Before Studio added the **Upload Handout** feature, some courses posted
-transcript files on the **Files & Uploads** page or on the Internet, and then
-added a link to those files in the video component. **We no longer recommend
-this method.**  When you use this method, the **Download Transcript** button
-appears, but only the transcript that you add is available for download. The
-.srt and .txt transcripts become unavailable.
-
-.. image:: ../../../shared/building_and_running_chapters/Images/Video_DownTrans_other.png
-   :width: 500
-   :alt: Video status bar showing Download Transcript button without srt and
-    txt options
-
-If you want to use this method, you can post your transcript online, and then
-add the URL to the transcript in the **Downloadable Transcript URL** field.
-However, bear in mind that learners will not be able to download .srt or .txt
-transcripts.
+#. In the **Upload File** dialog box, select **Upload**.
 
 .. _Transcripts in Additional Languages:
 
-====================================
-Transcripts in Additional Languages
-====================================
+============================================================
+Add a Transcript in Another Language
+============================================================
 
 You can provide transcripts for your video in other languages. To do this,
 you work with a third-party service to obtain an .srt transcript file for
 each language, and then associate the .srt file with the video in Studio.
 
+Before you add transcript files, make sure that each one has a unique name. If
+you use the same transcript name in more than one video component, the same
+transcript will play for each video. To avoid this problem, you could name
+your foreign language transcript files according to the video's file name and
+the transcript language.
+
+For example, you have two videos, named video1.mp4 and video2.mp4. Each video
+has a Russian transcript and a Spanish transcript. You can name the
+transcripts for the first video video1_RU.srt and video1_ES.srt, and name the
+transcripts for the second video video2_RU.srt and video2_ES.srt.
+
+To add the transcripts to a video component, follow these steps.
+
 #. After you obtain the .srt files for additional languages, open the
    video component for the video.
 
 #. On the **Advanced** tab, scroll down to **Transcript Languages**, and then
-   click **Add**.
+   select **Add**.
 
-#. In the drop-down list that appears, select the language for the transcript
-   that you want to add.
+#. Select the language for the transcript that you want to add.
 
-   An **Upload** button appears below the language.
+#. Select **Upload**, browse to the .srt file for the language that you want,
+   and then select **Open**.
 
-#. Click **Upload**, browse to the .srt file for the language that you want,
-   and then click **Open**.
-
-#. In the **Upload translation** dialog box, click **Upload**.
+#. In the **Upload translation** dialog box, select **Upload**.
 
 #. Repeat steps 2 - 5 for any additional languages.
 
-.. note:: Make sure that all your transcript file names are unique to each
- video and language. If you use the same transcript name in more than one video
- component, the same transcript will play for each video. To avoid this
- problem, you could name your foreign language transcript files according to
- the video's file name and the transcript language.
-
- For example, you have two videos, named video1.mp4 and video2.mp4. Each video
- has a Russian transcript and a Spanish transcript. You can name the
- transcripts for the first video video1_RU.srt and video1_ES.srt, and name the
- transcripts for the second video video2_RU.srt and video2_ES.srt.
-
-When your learners view the video, they can click the **CC** button at the
-bottom of the video player to select a language.
+When your students view the video, they can select **CC** to select a
+language.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/Video_LanguageTranscripts_LMS.png
    :alt: Video playing with language options visible
 
 .. _Steps for sjson files:
 
-**********************
+==============================
 Steps for .sjson Files
-**********************
+==============================
 
 If your course uses .sjson files, you upload the .sjson file for the video
 to the **Files & Uploads** page, and then specify the name of the .sjson file
@@ -552,25 +540,17 @@ in the video component.
    For example, if the name of your video is **Lecture1a**, the name of your
    .sjson file must be **subs_Lecture1a.srt.sjson**.
 
-#. Upload the .sjson file for your video to the **Files & Uploads** page.
-#. Create a new video component.
-#. On the **Basic** tab, enter the name that you want learners to see in the
-   **Component Display Name** field.
-#. In the **Video URL** field, enter the URL of the video. For example, the URL
-   may resemble one of the following.
-
-   ::
-
-      http://youtu.be/OEoXaMPEzfM
-      http://www.youtube.com/watch?v=OEoXaMPEzfM
-      https://s3.amazonaws.com/edx-course-videos/edx-edx101/EDXSPCPJSP13-G030300.mp4
-
-#. Click the **Advanced** tab.
+3. Upload the .sjson file for your video to the **Files & Uploads** page.
+#. Edit or create the video component.
+#. Select **Advanced**.
 #. In the **Default Timed Transcript** field, enter the file name of your
    video. Do not include `subs_` or `.sjson`. For the example in step 2, you
    would only enter **Lecture1a**.
 #. Set the other options that you want.
-#. Click **Save**.
+#. Select **Save**.
+
+.. include:: ../../../shared/building_and_running_chapters/creating_content/create_preroll_video.rst
+
 
 .. _Creating Videos: https://courses.edx.org/courses/edX/edX101/2014/courseware/c2a1714627a945afaceabdfb651088cf/9dd6e5fdf64b49a89feac208ab544760/
 

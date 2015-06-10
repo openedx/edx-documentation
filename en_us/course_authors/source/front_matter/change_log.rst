@@ -3,11 +3,26 @@ Change Log
 ############
 
 ****************
+June 2015
+****************
+
+.. list-table::
+   :widths: 15 70
+   :header-rows: 1
+
+   * - Date
+     - Change
+   * - 10 Jun 2015
+     - Added the :ref:`Adding a Pre-Roll Video` section.
+   * - 
+     - Added the :ref:`view_not_yet_enrolled` section.
+
+****************
 May 2015
 ****************
 
 .. list-table::
-   :widths: 10 70
+   :widths: 15 70
    :header-rows: 1
 
    * - Date
@@ -56,7 +71,7 @@ April 2015
 ***********
 
 .. list-table::
-   :widths: 10 70
+   :widths: 15 70
    :header-rows: 1
 
    * - Date
@@ -88,7 +103,7 @@ March 2015
 ****************
 
 .. list-table::
-   :widths: 10 70
+   :widths: 15 70
    :header-rows: 1
 
    * - Date
