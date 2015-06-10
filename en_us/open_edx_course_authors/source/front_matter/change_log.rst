@@ -3,11 +3,11 @@ Change Log
 ############
 
 *****************
-June 2015
+Apr-Jun 2015
 *****************
 
 .. list-table::
-   :widths: 15 70
+   :widths: 20 70
    :header-rows: 1
 
    * - Date
@@ -21,28 +21,17 @@ June 2015
      - Added the :ref:`Setting Up Course Certificates` section.
    * - 
      - Added :ref:`Manage Course Fees`.
-
-*****************
-May 2015
-*****************
-
-.. list-table::
-   :widths: 15 70
-   :header-rows: 1
-
-   * - Date
-     - Change
-   * - 8 Jun 2015
+   * - 
      - Added :ref:`Notes Tool` topic.
    * - 28 May 2015
      - Updated this document to latest version.
 
 *****************
-February 2015
+Jan-Mar 2015
 *****************
 
 .. list-table::
-   :widths: 15 70
+   :widths: 20 70
    :header-rows: 1
 
    * - Date
