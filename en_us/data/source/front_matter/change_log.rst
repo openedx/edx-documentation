@@ -15,9 +15,13 @@ April-June 2015
 
    * - Date
      - Change
+   * - 10 Jun 2015
+     - Added information about events for :ref:`pre-roll videos<pre-roll>` to
+       the :ref:`Tracking Logs` section.
    * - 8 Jun 2015
      - Added descriptions of the ``video_show_cc_menu`` and
-       ``video_hide_cc_menu`` events to the :ref:`Tracking Logs` section.
+       ``video_hide_cc_menu`` events to the 
+       :ref:`video interaction events<video>` section.
    * - 19 May 15
      - Added information about new instructor report events to the
        :ref:`Tracking Logs` section.
@@ -46,31 +50,31 @@ January-March 2015
      - Change
    * - 18 Mar 2015
      - Added information about library events for students to the
-       :ref:`Tracking Logs` chapter.
+       :ref:`Tracking Logs` section.
    * - 11 Mar 2015
      - Added information about additional video interaction events that are
        now emitted by the edX mobile app, and reorganized the :ref:`video` in
-       the Tracking Logs chapter.
+       the Tracking Logs section.
    * - 5 Mar 2015
      - Added new events for contributions to discussion forums to the
-       :ref:`Tracking Logs` chapter.
+       :ref:`Tracking Logs` section.
    * - 
      - Added events for the display of :ref:`Google components<content>` to the
-       Tracking Logs chapter.
+       Tracking Logs section.
    * - 3 Mar 2015
      - Updated the :ref:`Preface` to include information about the :ref:`The
        edX Partner Portal` and the :ref:`The Open edX Portal`.
    * - 23 Feb 2015
      - Added new common fields for HTTP header values and new events for video
-       caption use to the :ref:`Tracking Logs` chapter.
+       caption use to the :ref:`Tracking Logs` section.
    * - 13 Feb 2015
      - Added the ``edx.course.enrollment.mode_changed`` event to the
-       :ref:`Tracking Logs` chapter.
+       :ref:`Tracking Logs` section.
    * - 4 Feb 2015
      - Added information about the ``module.usage_key`` member field in the
-       common ``context`` field to the :ref:`Tracking Logs` chapter.
+       common ``context`` field to the :ref:`Tracking Logs` section.
    * - 16 Jan 2015
-     - Added the :ref:`Institution_Data` chapter with information about the
+     - Added the :ref:`Institution_Data` section with information about the
        CSV file of student email preference settings.
 
 **********************
@@ -85,10 +89,10 @@ October-December 2014
      - Change
    * - 12/24/14
      - Added information about video events that the edX mobile app emits to
-       the :ref:`Tracking Logs` chapter.
+       the :ref:`Tracking Logs` section.
    * - 12/18/14
      - Updated descriptions of the video events in the
-       :ref:`Tracking Logs` chapter.
+       :ref:`Tracking Logs` section.
    * - 11/26/14
      - Expanded the background information on content experiments in
        :ref:`AB_Event_Types`.
@@ -99,22 +103,22 @@ October-December 2014
        :ref:`video`.
    * - 10/28/14
      - Added best practices for passphrases to the
-       :ref:`Getting_Credentials_Data_Czar` chapter.
+       :ref:`Getting_Credentials_Data_Czar` section.
    * - 10/23/14
      - Added examples of the format used to identify course components to the
-       :ref:`Student_Info` and :ref:`Tracking Logs` chapters.
+       :ref:`Student_Info` and :ref:`Tracking Logs` sections.
    * - 
      - Updated the ``child_render`` event to reflect the name change for the
        ``child_id`` member field. See :ref:`Tracking Logs`.
    * - 10/20/14
-     - Updated the :ref:`Package` chapter to remove instructions for
+     - Updated the :ref:`Package` section to remove instructions for
        downloading weekly event files.
    * - 10/16/14
      - Updated video events with new fields relating to mobile device use in
-       the :ref:`Tracking Logs` chapter.
+       the :ref:`Tracking Logs` section.
    * - 10/07/14
      - Added new student and instructor events relating to cohort use to the
-       :ref:`Tracking Logs` chapter.
+       :ref:`Tracking Logs` section.
    * - 
      - Removed information about XML course formats. See the `edX Open
        Learning XML Guide <http://edx-open-learning-
@@ -134,14 +138,14 @@ July-September 2014
      - Change
    * - 09/30/14
      - Added information about the data that is available to course teams to
-       the :ref:`Package` chapter.
+       the :ref:`Package` section.
    * - 09/18/14
      - Added descriptions of two columns added to the :ref:`auth_userprofile
        table<auth_userprofile>`.
    * - 09/08/14
-     - Added cautions to the :ref:`Getting_Credentials_Data_Czar` chapter.
+     - Added cautions to the :ref:`Getting_Credentials_Data_Czar` section.
    * - 09/04/14
-     - Updated the :ref:`Discussion Forums Data` chapter to include the
+     - Updated the :ref:`Discussion Forums Data` section to include the
        ``thread_type`` field for CommentThreads and the ``endorsement`` field
        for Comments.
    * - 08/25/14
@@ -155,12 +159,12 @@ July-September 2014
        staff/en/latest/exercises_tools/drag_and_drop.html>`_ in *Building and
        Running an edX Course*.
    * - 08/12/14
-     - Added the :ref:`ora2` section to the :ref:`Tracking Logs` chapter.
+     - Added the :ref:`ora2` section to the :ref:`Tracking Logs` section.
    * - 08/01/14
-     - Added the :ref:`Package` chapter with information to help data czars
+     - Added the :ref:`Package` section with information to help data czars
        locate and download data package files.
    * - 07/10/14
-     - Added the :ref:`Getting_Credentials_Data_Czar` chapter with information
+     - Added the :ref:`Getting_Credentials_Data_Czar` section with information
        to help new data czars set up credentials for secure data transfers.
 
 
@@ -176,25 +180,25 @@ April-June 2014
      - Change
    * - 06/27/14
      - Made a correction to the ``edx.forum.searched`` event name in the
-       :ref:`Tracking Logs` chapter.
+       :ref:`Tracking Logs` section.
    * - 
-     - Added the ``stop_video`` event to the :ref:`Tracking Logs` chapter.
+     - Added the ``stop_video`` event to the :ref:`Tracking Logs` section.
    * - 
-     - Updated the ``seek_video`` event in the :ref:`Tracking Logs` chapter.
+     - Updated the ``seek_video`` event in the :ref:`Tracking Logs` section.
    * - 06/23/14
      - Added a `Preface`_ with resources for course teams, developers,
        researchers, and students.
    * - 05/23/14
      - Added descriptions of the enrollment upgrade events to the
-       :ref:`Tracking Logs` chapter.
+       :ref:`Tracking Logs` section.
    * - 05/22/14
      - Added descriptions of five video- and problem-related events to the
-       :ref:`Tracking Logs` chapter.
+       :ref:`Tracking Logs` section.
    * - 
      - Added the new ``edx.forum.searched`` event to the
-       :ref:`Tracking Logs` chapter.
+       :ref:`Tracking Logs` section.
    * - 05/06/14
-     - Added enrollment event types to the :ref:`Tracking Logs` chapter. 
+     - Added enrollment event types to the :ref:`Tracking Logs` section. 
    * - 05/05/14
      - Removed information on the Poll module. See `Polls 
        <http://edx.readthedocs.org/projects/edx-partner-course-
@@ -220,7 +224,7 @@ April-June 2014
      - Corrected misstatement on how :ref:`Discussion Forums Data` is sent in
        data packages.
    * - 04/25/14
-     - Added new event types to the :ref:`Tracking Logs` chapter for
+     - Added new event types to the :ref:`Tracking Logs` section for
        interactions with PDF files.
        
 
@@ -236,27 +240,27 @@ January-March 2014
      - Change
    * - 03/31/14
      - Added new fields for the server ``problem_check`` event type to the
-       :ref:`Tracking Logs` chapter.
+       :ref:`Tracking Logs` section.
    * -
-     - Reformatted the :ref:`Tracking Logs` chapter to improve readability.
+     - Reformatted the :ref:`Tracking Logs` section to improve readability.
    * - 03/28/14
-     - Added the :ref:`Data_Czar` chapter.
+     - Added the :ref:`Data_Czar` section.
    * - 03/24/14
      - Added the ``user_api_usercoursetag`` table to the :ref:`Student_Info`
-       chapter and the ``assigned_user_to_partition`` and ``child_render``
-       event types to the :ref:`Tracking Logs` chapter.
+       section and the ``assigned_user_to_partition`` and ``child_render``
+       event types to the :ref:`Tracking Logs` section.
    * - 03/19/14
      - Provided alternative formatting for the examples in the :ref:`Discussion
-       Forums Data` chapter.
+       Forums Data` section.
    * - 03/13/14
-     - Updated the :ref:`Student_Info` chapter.
+     - Updated the :ref:`Student_Info` section.
    * - 02/24/14
-     - Added descriptions of new fields to the :ref:`Wiki_Data` chapter.
+     - Added descriptions of new fields to the :ref:`Wiki_Data` section.
    * - 02/21/14
      - Added descriptions of new fields to the :ref:`Discussion Forums Data`
-       chapter.
+       section.
    * - 02/14/14
      - Added the ``seek_video`` and ``speed_change_video`` event types to the
-       :ref:`Tracking Logs` chapter.
+       :ref:`Tracking Logs` section.
 
 .. _Preface: http://edx.readthedocs.org/projects/devdata/en/latest/preface.html
