@@ -43,6 +43,8 @@ course in a CSV (comma-separated values) file. For courses that have fewer than
 200 students enrolled, you can also view data for enrolled students on the
 Instructor Dashboard.
 
+For information about course enrollment, see :ref:`Enrollment`.
+
 ======================
 Student-Reported Data
 ======================
