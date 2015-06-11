@@ -55,11 +55,10 @@ Preferred Usage
   * - Contractions
     - Do not use.
   * - Cross-references
-
     - Introduce stand-alone cross-references with "For more information, see
-      ``<topic name>``. (Do not use the more abrupt "See ``<topic name>``.")
+      ``{topic name}``. (Do not use the more abrupt "See ``{topic name}``.")
       An exception is in the Glossary, where cross-references to other entries
-      in the Glossary should use "See" (when there is not other information in
+      in the Glossary should use "See" (when there is no other information in
       the current entry) or See Also (when the current entry is complete in
       itself and you provide a cross-reference to a related entry).
 
@@ -68,6 +67,11 @@ Preferred Usage
       with the sentence. For example: "You can use the ``:ref:`course
       checklists<Use the Course Checklist>``` to verify that the course is
       ready for release."
+
+      To promote a better experience for screenreaders, provide the title of
+      the destination in each cross-reference link, and not just a URL. In
+      addition, avoid including multiple links to the same destination on a
+      single HTML page.
 
   * - Dates
     - Format dates as ``DD Mon YYYY`` or ``DD Month YYYY``. For example: ``11
@@ -109,7 +113,8 @@ Preferred Usage
       even in the same sentence. For example: "You may select five, six, or 12
       users."
   * - Passive voice
-    - Do not use unless absolutely necessary. It frequently makes the actor unclear.
+    - Do not use unless absolutely necessary. It frequently makes the actor
+      unclear.
   * - Pronouns
     - Avoid ambiguous pronouns such as all, each, many, several, some, that,
       them, these, those.
@@ -149,7 +154,8 @@ Preferred Usage
     - Only use when a user might have significant problems, such as data loss
       or a security vulnerability.
   * - White space
-    - Plan for the expansion of text, particularly in images such as flowcharts.
+    - Plan for the expansion of text, particularly in images such as
+      flowcharts.
   * - Word choice
     - See the :ref:`Word List` for our preferred terminology. Avoid jargon,
       colloquialisms, and humor.
