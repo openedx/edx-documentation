@@ -61,7 +61,8 @@
 
 .. _edX Managing the Full Stack: https://github.com/edx/configuration/wiki/edX-Managing-the-Full-Stack
 
-.. _Set Up Course HTML Certificates: http://edx.readthedocs.org/projects/open_edx_course_authors/build/html/building_course/creating_course_certificates.html#setting-up-course-certificates
+.. _Set Up Course HTML Certificates: http://edx.readthedocs.org/projects/open_edx_building-and-running-a-course/en/latest/building_course/creating_course_certificates.html#setting-up-course-certificates
 
-.. _Enable Badges In Each Course: http://edx.readthedocs.org/projects/open_edx_course_authors/build/html/building_course/creating_course_certificates.html#enable-or-disable-badges-for-your-course
+.. _Enable Badges In Each Course: http://edx.readthedocs.org/projects/open_edx_building-and-running-a-course/en/latest/building_course/creating_course_certificates.html#enable-or-disable-badges-for-your-course
+
 
