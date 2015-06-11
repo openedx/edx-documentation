@@ -4,29 +4,43 @@
 Images
 #######
 
-Images
-Resources for making screen captures (existing dummy course with good data)
+Because the user interface can change rapidly and frequently, and because it is
+very expensive for translation teams to re-create screen shots, the
+documentation team uses screen shot images sparingly.
 
-`AA Introduction to Music Theory <https://studio.edge.edx.org/course/sylviaX/TEST10/2014_T3>`_
+.. Add to images section: guidelines for created images such as flowcharts,
+ diagrams. What standard tools should we/can we use? Ultimately would be good
+ to have a library of styled graphics, shapes, etc. for consistency.
 
-`La Tierra Centroamericana <https://studio.edge.edx.org/course/edX/GEO101/2014_T1>`_
+.. contents:: Section contents
+  :local:
+  :levels: 1
 
-Because the UI can change rapidly, use images sparingly.
+***************
+Resources
+***************
 
-Add to images section. Need guidelines for created images such as flowcharts,
-diagrams. What standard tools should we/can we use? Ultimately would be good
-to have a library of styled graphics, shapes, etc. for consistency.
+These resources for screen captures (existing dummy courses with good
+data) are available on edX Edge.
+
+* `AA Introduction to Music Theory <https://studio.edge.edx.org/course/sylviaX/TEST10/2014_T3>`_
+
+* `La Tierra Centroamericana <https://studio.edge.edx.org/course/edX/GEO101/2014_T1>`_
 
 *****************
 Guidelines
 *****************
 
-Guidelines for using screenshots in documentation (when is it necessary)
+Messages: Avoid using a screen shot to show an error, warning, or informational
+message. Instead, just include the text of the message as part of the procedure
+or concept.
 
-Guidelines for making screen captures (sizes, resolution, how much of window
-to capture/exclude). Before you take a screen shot, narrow the window to avoid
-extra white space - usually narrow until page is no longer responsive (unless
-this will make screen shot too long)
+
+.. when is it necessary? when to avoid?
+
+Before you take a screen shot, reduce the window width to avoid extra white
+space. Usually this means you narrow until page is no longer responsive (unless
+this will make screen shot too long).
 
 The following image has a lot of white space inside the component editor,
 which narrowing the window will correct.
@@ -47,7 +61,7 @@ Capturing Images
 
 You can use the Mac's built-in screen capture functionality to take screen shots. 
 
-To capture part of the screen:
+To capture part of the screen, follow these steps.
 
 #. Press CMD + SHIFT + 4. The mouse pointer changes to a crosshairs symbol.
 #. Click and drag from the upper-left corner of the area you want to capture
@@ -55,16 +69,6 @@ To capture part of the screen:
    image you want.
 
 .. note:: This method does not capture the mouse pointer.
-
-*****************
-Accessibility
-*****************
-
-Making images and accessible and easy to globalize
-
-Use alt text so that screenreaders have information for the image
-
-
 
 *****************
 Editing Images
@@ -75,10 +79,12 @@ higher res version available
 
 Use Photoshop to edit images.
 
-Screen shots must have a border:
+Add a border with the following characteristics to each screen shot.
 
 * 2 pt
 * #b7b7b7
+  
+To add a border, CMD+a to select the entire image, then Edit > Stroke. 
 
 Save the screen shot as the original size and set size in document.
 
@@ -88,6 +94,8 @@ Save for web
 #. Preset: PNG-24
 #. Accept other defaults
 #. Save as .png, original size. Specify width in RST file.
+
+.. does setting the screen size in the rst work for both HTML and PDF? and is that the preferred method, or is it the save for web option that follows? Also, note that there is an image size section further down - Alison, 11 June 2015 
 
 =============
 Annotations
@@ -99,7 +107,8 @@ required, use edX blue (#2276b2).
 Make sure that callouts or other additions are in a separate layer from the
 images.
 
-Instead of using text, use numbered identifiers and provide a legend.
+Instead of using text, use numbered identifiers and provide a legend in the
+text.
 
 If text is used in graphics, leave 30% extra surrounding space for expansion.
 
@@ -120,7 +129,41 @@ When you add an image to a file, include three lines.
     :alt: An empty HTML component editor in Studio
 
 
+*****************
+Accessibility
+*****************
 
+Every image added to the documentation must have alt text that makes the
+purpose of the image clear to those who are using screen readers.
+
+The following examples are of useful alt text.
+
+.. code-block:: xml
+
+ :alt: Image of the feedback checkmark and x from a student's point of view.
+
+ :alt: A stacked bar chart for three subsections. In one subsection, fewer
+  than a third of the students who started videos finished watching them.
+
+
+The following examples are of alt text that is less useful.
+
+.. code-block:: xml
+
+ :alt: Image of a multiple choice problem.
+
+ :alt: Example response.
+
+When you write alt text, follow these guidelines. 
+
+* Be aware of how long the alt text is. Automated tests produce warnings for
+  text that is longer than about 20 characters. However, your description must
+  be long enough to be meaningful.
+* Include punctuation in the alt text.
+* To ensure that every image in an HTML file has alt text, try the 
+  `Durham University Alt Text Checker`_.
+* To check the alt text length and find other accessibility issues in an HTML
+  file, try the `Web Accessibility Evaluation Tool`_.
 
 ***************
 Image Sizes
@@ -191,3 +234,8 @@ Extra-wide screen
   :alt: 800-pixel-wide image
 
 
+
+
+.. _Durham University Alt Text Checker: https://www.dur.ac.uk/cis/web/accessibility/tools/alttext/
+
+.. _Web Accessibility Evaluation Tool: http://wave.webaim.org/
