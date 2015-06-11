@@ -8,6 +8,9 @@ Change Log
 
    * - Date
      - Change
+   * - 11 Jun 2015
+     - Added the maximum video file length of 5GB to the :ref:`Specifications
+       for Successful Video Files` section.
    * - 22 Apr 2015
      - Updated the :ref:`Adding Videos to a Course` section to reflect a field
        label change in Studio.

@@ -30,6 +30,9 @@ Specifications for Successful Video Files
 ***************************************************
 
 Your videos can contain whatever content you want to include in the course.
+
+.. important:: Each video file that you upload must be less than 5GB in size.
+
 The `Creating Videos`_ section of `edX101 Overview of Creating an edX Course`_
 has some helpful pointers for creating good video content.
 
@@ -65,6 +68,8 @@ For best results, your video files should have these compression specifications.
      - 7.5 mbps
    * - Audio
      - AAC 44.1 / 192 kbps
+   * - Size
+     - 5GB maximum
 
 .. note:: Typically you export at the same frame rate that was used when you 
  created the media file. For example, if you create the file in a country that
