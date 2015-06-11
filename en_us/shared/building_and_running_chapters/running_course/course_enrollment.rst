@@ -178,7 +178,7 @@ To download this report, follow these steps.
 
 #. Select **Instructor**, and then select **Data Download**.
 
-#. In the **Reports** section of the page. select **Download a CSV of learners
+#. In the **Reports** section of the page, select **Download a CSV of learners
    who can enroll**.
 
   A status message indicates that report generation is in progress. This
