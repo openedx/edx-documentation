@@ -5,16 +5,16 @@ Images
 #######
 
 Because the user interface can change rapidly and frequently, and because it is
-very expensive for translation teams to re-create screen shots, the
+very expensive for translation teams to localize screen shots, the
 documentation team uses screen shot images sparingly.
 
 .. Add to images section: guidelines for created images such as flowcharts,
  diagrams. What standard tools should we/can we use? Ultimately would be good
  to have a library of styled graphics, shapes, etc. for consistency.
 
-.. contents:: Section contents
-  :local:
-  :levels: 1
+.. contents:: Section Contents 
+   :local:
+   :depth: 1
 
 ***************
 Resources
@@ -75,7 +75,7 @@ Editing Images
 *****************
 
 Processing screenshots (colors for borders, overlay items) and how to make
-higher res version available
+higher resolution version available.
 
 Use Photoshop to edit images.
 
@@ -129,10 +129,11 @@ When you add an image to a file, include three lines.
     :alt: An empty HTML component editor in Studio
 
 
-*****************
-Accessibility
-*****************
+***************************
+Alt Text for Accessibility
+***************************
 
+The purpose of alt text is to serve as a functional equivalent for an image.
 Every image added to the documentation must have alt text that makes the
 purpose of the image clear to those who are using screen readers.
 
@@ -156,14 +157,14 @@ The following examples are of alt text that is less useful.
 
 When you write alt text, follow these guidelines. 
 
-* Be aware of how long the alt text is. Automated tests produce warnings for
-  text that is longer than about 20 characters. However, your description must
-  be long enough to be meaningful.
-* Include punctuation in the alt text.
+* Quality and meaning are more important than brevity. However, length is a
+  consideration, and some automated tests produce warnings for text that is
+  longer than about 20 characters.
+* Punctuate the alt text.
 * To ensure that every image in an HTML file has alt text, try the 
   `Durham University Alt Text Checker`_.
-* To check the alt text length and find other accessibility issues in an HTML
-  file, try the `Web Accessibility Evaluation Tool`_.
+* To find other accessibility issues in an HTML file, try the 
+  `Web Accessibility Evaluation Tool`_.
 
 ***************
 Image Sizes
