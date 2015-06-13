@@ -17,6 +17,12 @@ For the checkbox problems in your course, you can use edX Insights to review
 aggregated learner performance data and examine submitted answers. For more
 information, see `Using edX Insights`_.
 
+.. note:: On checkbox problems, make sure the all of the choices are
+   unambiguous, and avoid trick questions. Checkbox problems with ambiguity
+   can be frustrating to students, especially if they have a limited number of
+   attempts.
+
+
 ****************************
 Creating a Checkbox Problem
 ****************************

@@ -198,9 +198,12 @@ points possible)
      - Salic law
      - This response explains the way that Salic law contributed to the dynastic disagreement between Edward III and Philip VI, leading to the Hundred Years' War.
 
-For more information about writing effective rubrics, see Heidi Goodrich
-Andrade's `Understanding Rubrics
-<http://learnweb.harvard.edu/alps/thinking/docs/rubricar.htm>`_.
+.. note:: For peer grading, the most effective rubrics are as concrete 
+   and specific as possible. Many novice learners will be unqualified 
+   to make the types of value judgments required for more holistic
+   rubrics. In addition, edX suggests using clear, simple language in 
+   rubrics.
+
 
 For more information, see :ref:`PA Add Rubric`.
 

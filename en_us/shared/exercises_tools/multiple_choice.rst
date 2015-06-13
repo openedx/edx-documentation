@@ -31,6 +31,46 @@ However, you cannot switch back to the Simple Editor from the Advanced Editor.
 Therefore, you might want to format the problem as completely as possible
 before you begin to use the Advanced Editor.
 
+********************************************************
+Pedagogical Considerations for Multiple Choice Questions
+********************************************************
+
+edX recommends the use, whenever possible, of authentic assessments 
+rather than multiple choice questions for graded problems. Authentic
+assessments in online courses tend to lead to better learning
+outcomes. In addition, authentic assessments allow for infinite
+attempts, mastery learning, and more intellectual risk taking, both
+of which lead to substantially better learning outcomes.
+
+Multiple choice questions do have several helpful uses:
+
+* Ungraded multiple choice questions can help students think about a concept 
+   in the context of knowledge transfer.
+* For many subject areas, authentic assessments are either unavailable
+   or prohibitively complex to use. In such courses, multiple choice
+   questions can act as the only available fallback.
+
+Fortunately, multiple choice questions are among the best studied in
+assessment literature. A few guidelines for the creation of such
+questions:
+
+* Organize the set of answers logically. Use consistent phrasing
+   between answers, and when possible, parallel structure. 
+* Place as many of the words in the stem, and keep the answers
+   as concise as possible.
+* The distractors should not be substantially shorter, longer,
+   or use different structure than the answer. The answers should
+   be as consistent in structure, length, and phrasing as possible.
+* Avoid negatives (and especially double negatives)
+* Test higher-order thinking (comprehension and critical thinking). 
+   Avoid simple recall.
+* If there is a finite number of attempts, avoid trick questions
+   and try to keep wording clear and unambiguous. 
+* Make all distractors plausible.
+* Use "All of the above" and "None of the above" with caution. If a 
+   learner can identify at least two correct answers, it can give away
+   the answer with only partial comprehension. 
+
 .. _Use the Simple Editor to Create a Multiple Choice Problem:
 
 ================================================================

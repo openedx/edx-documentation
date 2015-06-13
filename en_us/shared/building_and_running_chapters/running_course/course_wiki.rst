@@ -8,9 +8,11 @@ Wikis provide a way for course staff and students to access, share, and
 collaboratively edit information both about, and for, your course. 
 
 Every course has a wiki that you can set up in a way appropriate for your
-course. You can influence how students (and staff) use it by :ref:`seeding the
-wiki<Seeding the Wiki>` with specific content, by explaining how you want it to
-be used at the beginning of the course, and by providing clear instructions and
+course. If you have specific expectations for how the wiki should be
+used, communicate these expectations to your students and staff. You can
+:ref:`seed the wiki<Seeding the Wiki>` with specific content and provide a
+skeleton structure and some exemplars. At the beginning of the course, explain
+how you want the course wiki to be used, and provide clear instructions and
 guidelines for its use.
 
 Common uses for the course wiki might include the following activities.

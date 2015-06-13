@@ -67,7 +67,7 @@ All problems on the edX platform have several component parts.
    above) and the explanation (see 10 below). The instructor sets whether
    the **Show Answer** button is visible.
 
-#. **Attempts.** The instructor may set a specific number of attempts or allow
+#. **Attempts.** The instructor might set a specific number of attempts or allow
    unlimited attempts for a problem. By default, the course-wide **Maximum
    Attempts** advanced setting is null, meaning that the maximum number of
    attempts for problems is unlimited. If the course-wide **Maximum Attempts**
@@ -304,15 +304,22 @@ Maximum Attempts
 ==============================
 
 This setting specifies the number of times a student is allowed to attempt
-answering the problem. By default, the course-wide **Maximum Attempts**
+answering a problem. By default, the course-wide **Maximum Attempts**
 advanced setting is null, meaning that the maximum number of attempts for
 problems is unlimited. If the course-wide **Maximum Attempts** setting is
 changed to a specific number, the **Maximum Attempts** setting for individual
 problems defaults to that number, and cannot be set to unlimited.
 
-.. note:: Only questions that have a **Maximum Attempts** setting of 1 or 
- higher are included in the answer distribution computations used in edX
- Insights and the Student Answer Distribution report.
+.. note:: edX recommends setting **Maximum Attempts** to either unlimited or a
+   very large number. Unlimited attempts allow for mastery learning and
+   encourages risk taking and experimentation, both of which lead to improved
+   learning outcomes. Allowing for unlimited attempts might be impossible in
+   some courses, such as those where grading is primarily based on multiple
+   choice questions.
+
+.. note:: Only questions that have a **Maximum Attempts** setting of 1 or
+   higher are included in the answer distribution computations used in edX
+   Insights and the Student Answer Distribution report.
 
 
 .. _Problem Weight:
@@ -440,7 +447,12 @@ This setting has the following options.
 |                   | other students see.                  |
 +-------------------+--------------------------------------+
 
-.. note:: The edX Platform has a 20-seed limit for randomization.
+.. note:: The edX Platform has a 20-seed limit for randomization. This means 
+  that in a course with a large numbers of learners, those learners will see 
+  a maximum of 20 different problem variants. This limitation allows for 
+  better analysis of learner submissions (such as the ability to detect 
+  common incorrect answers and usage patterns around such answers).
+
 
 .. _Show Answer:
 

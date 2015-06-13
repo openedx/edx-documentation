@@ -4,9 +4,23 @@
 Working with Video Components
 #############################
 
-You can create videos and add them to a course to supplement other components,
-such as discussions and problems, to promote active learning. Adding a video
-to your course has several steps.
+You can create videos and add them to a course to supplement active
+learning components, such as discussions and problems. Videos can be
+effective for a number of purposes, such as presenting motivating 
+material, showing experiments, and reducing cognitive load for complex
+content.
+
+.. note:: Before creating video content, figure out whether video is
+  the best medium. Should the content be conveyed through text? Through
+  an interactive demonstration? By having the student work through a 
+  problem? Try to keep videos as short as possible -- students are much
+  less likely to finish watching a video if it is more than 5-10 minutes 
+  long. When creating videos, try to follow 
+  `Richard Mayer's 12 Principles <http://hartford.edu/academics/faculty/fcld/data/documentation/technology/presentation/powerpoint/12_principles_multimedia.pdf>`_. 
+  These principles are based on extensive experimental research of student
+  learning. 
+  
+Adding a video to your course has several steps.
 
 .. contents:: Section Contents 
   :local:

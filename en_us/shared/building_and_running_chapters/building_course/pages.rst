@@ -94,7 +94,8 @@ Hide or Show the Course Wiki Page
 ************************************************
 
 By default, your course includes a wiki page. Learners and course staff can
-use the wiki to post content and comment on others' content.
+use the wiki to post content as well as comment on other people's content. For
+details, see :ref:`Course_Wiki`.
 
 If you do not want to use a wiki in your course, you can hide the page.
 
@@ -115,6 +116,7 @@ Select it again to make the **Wiki** page visible.
  was previously posted in the wiki remains available after you hide the wiki
  page, and any students logged in to edX can access the content if they know
  the URL.
+
 
 .. _Reorder Pages:
 
