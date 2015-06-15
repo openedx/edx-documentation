@@ -5,4 +5,6 @@ EdX Platform APIs
 
 In the *EdX Platform APIs* guide, the `edX Enrollment API`_ section has been
 updated to reflect the addition of a new GET parameter that will include
-expired course modes. For details, see `Get Enrollment Details for a Course <http://edx.readthedocs.org/projects/edx-platform-api/en/latest/enrollment/enrollment.html#get-enrollment-details-for-a-course>`_.
+expired course modes. For details, see `Get Enrollment Details for a Course`_.
+
+

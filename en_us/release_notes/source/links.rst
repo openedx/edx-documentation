@@ -424,8 +424,7 @@
 
 .. _Testing Events for Content Experiments: http://edx.readthedocs.org/projects/devdata/en/latest/internal_data_formats/tracking_logs.html#ab-event-types
 
-.. _Video Interaction Events: http://edx.readthedocs.org/projects/devdata/en/latest/internal_dat
-  a_formats/tracking_logs.html#video-interaction-events
+.. _Video Interaction Events: http://edx.readthedocs.org/projects/devdata/en/latest/internal_data_formats/tracking_logs.html#video-interaction-events
 
 .. _Pre-Roll Video Interaction Events: http://edx.readthedocs.org/projects/devdata/en/latest/internal_data_formats/tracking_logs.html#pre-roll-video-interaction-events
 
@@ -452,6 +451,8 @@
 .. _Video Data API: http://edx.readthedocs.org/projects/edx-data-analytics-api/en/latest/videos.html
 
 .. _edX Enrollment API: http://edx.readthedocs.org/projects/edx-platform-api/en/latest/enrollment/enrollment.html
+
+.. _Get Enrollment Details for a Course: http://edx.readthedocs.org/projects/edx-platform-api/en/latest/enrollment/enrollment.html#get-enrollment-details-for-a-course
 
 .. _Email Opt In Report: http://edx.readthedocs.org/projects/devdata/en/latest/internal_data_formats/institution_data.html#email-opt-in-report
 
