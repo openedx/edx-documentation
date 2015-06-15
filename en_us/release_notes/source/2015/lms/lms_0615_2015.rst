@@ -1,3 +1,2 @@
 
-In bulk email subject lines, the course title is no longer automatically
-repeated. (TNL-1877)
+In bulk emails, the course title no longer appears on the subject line. (TNL-1877)

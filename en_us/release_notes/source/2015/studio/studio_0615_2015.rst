@@ -1,4 +1,0 @@
-
-The CMS Export command attempted to export to the wrong location when a
-relative path was specified for the export location. This issue is resolved.
-The management command now handles invalid paths. (PLAT-643)
