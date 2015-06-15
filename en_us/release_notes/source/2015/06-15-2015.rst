@@ -22,13 +22,6 @@ Learning Management System
 
 
 **************************
-edX Studio
-**************************
-
-.. include:: studio/studio_0615_2015.rst
-
-
-**************************
 edX Website
 **************************
 
