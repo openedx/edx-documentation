@@ -27,7 +27,7 @@ See the `edx configuration repository wiki`_ for information from edX and the
 Open edX community about Devstack and other installation and configuration
 options. This wiki contains two pages with more information about Devstack.
 
-* `Devstack <Devstack wiki>`_
+* `Devstack wiki`_
 * `Developing on Devstack`_
 
 
