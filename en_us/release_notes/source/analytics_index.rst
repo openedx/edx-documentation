@@ -5,10 +5,10 @@ edX Analytics
 ####################################
 
 ******************
-June 15, 2015
+June 16, 2015
 ******************
 
-.. include:: 2015/analytics/analytics_0615_2015.rst
+.. include:: 2015/analytics/analytics_0616_2015.rst
 
 ******************
 May 19, 2015

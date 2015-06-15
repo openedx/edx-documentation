@@ -6,10 +6,10 @@ edX Learning Management System
 
 
 **************************
-June 15, 2015
+June 16, 2015
 **************************
 
-.. include:: 2015/lms/lms_0615_2015.rst
+.. include:: 2015/lms/lms_0616_2015.rst
 
 **************************
 June 2, 2015

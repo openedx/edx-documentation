@@ -5,10 +5,10 @@ edX Documentation
 ####################################
 
 *********************
-June 15, 2015
+June 16, 2015
 *********************
 
-.. include:: 2015/documentation/doc_0615_2015.rst
+.. include:: 2015/documentation/doc_0616_2015.rst
 
 *********************
 June 10, 2015
