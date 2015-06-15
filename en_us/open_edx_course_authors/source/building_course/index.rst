@@ -25,4 +25,5 @@ see :ref:`Developing Your Course Index`.
    establish_grading_policy
    creating_course_certificates
    course_rerun
+   custom_courses
    export_import_course

@@ -18,4 +18,5 @@ options.
    edx_search
    enable_certificates
    enable_badging
+   enable_ccx
 
