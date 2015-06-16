@@ -9,7 +9,7 @@ Change Log
    * - Date
      - Change
    * - 16 June 2015
-     - Added the :ref:`Enable CCX` section
+     - Added the :ref:`Enable CCX` section.
    * - 8 June 2015
      - Added :ref:`Enable edX Search`.
    * - 

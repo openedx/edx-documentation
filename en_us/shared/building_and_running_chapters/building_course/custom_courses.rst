@@ -28,11 +28,11 @@ Custom Courses and Roles
 There are three roles involved in creating and running a CCX. 
 
 * **Instructors** create the existing course and have privileges to create CCX
-  Coaches for their course.
+  coaches for their course.
 
 * **CCX Coaches** select content from the existing course for the CCX. CCX
-  Coaches also enroll learners, set start and due dates for their scheduled
-  content, and manage grading policy for the CCX.
+  coaches also enroll learners, set start and due dates for their scheduled
+  content, and manage the grading policy for the CCX.
 
 * **Learners** take the CCX and view the selected content on the specified
   schedule.
@@ -52,14 +52,14 @@ complete the following steps.
 
 #. Click ``Save Changes``.
 
-You can now add a CCX Coach.
+You can now add a CCX coach.
 
 *******************
 Add a CCX Coach
 *******************
 
-The first step to create a CCX is to create a CCX Coach in an existing course.
-A CCX can have only one XXC coach.
+The first step to create a CCX is to create a CCX coach in an existing course.
+A CCX can have only one CCX coach.
 
 You add a CCX coach through the Instructor Dashboard in the LMS. Ensure you
 have Instructor access to the course.
@@ -75,8 +75,8 @@ enrolled in the course.
 #. Enter the CCX coach's username or email address and select **Add CCX
    Coach**.
 
-When the CCX Coach next logs into the LMS, the **CCX Coach** tab will 
-be visible. The CCX Coach dashboard is not accessible by the instructor.
+When the CCX coach next logs into the LMS, the **CCX Coach** tab will 
+be visible. The CCX coach dashboard is not accessible by the instructor.
 
 ***************************
  Create the Custom Course
@@ -87,10 +87,10 @@ course and create a CCX.
 
 #. In the LMS, select the **CCX Coach** tab. 
 
-#. From the CCX Coach Dashboard, enter the name for your CCX, then select
+#. From the CCX coach Dashboard, enter the name for your CCX, then select
    **Coach a new Custom Course for edX**.
 
-#. When the CCX is created, you are re-directed to the full CCX Coach
+#. When the CCX is created, you are re-directed to the full CCX coach
    Dashboard.
 
 .. note:: 
@@ -104,11 +104,11 @@ the ``CCX Coach`` tab.
  The CCX Coach Dashboard
 ************************
 
-The CCX Coach Dashboard provides the tools for you to manage the CCX. The CCX
-Coach Dashboard contains four tabs, described in the following sections.
+The CCX coach Dashboard provides the tools for you to manage the CCX. The CCX
+coach Dashboard contains four tabs, described in the following sections.
 
 .. note::
-  CCX Coaches don't have the same level of access and control over content that
+  CCX coaches don't have the same level of access and control over content that
   course instructors have, and do not have access to the Instructor Dashboard.
 
 ============
