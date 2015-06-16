@@ -1,0 +1,4 @@
+
+To improve accessibility, accessible text was added for each social media link
+in the edX website footer, and alt text for mobile links was made more
+descriptive. (ECOM-1724)
