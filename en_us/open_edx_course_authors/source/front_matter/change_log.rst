@@ -12,6 +12,8 @@ Apr-Jun 2015
 
    * - Date
      - Change
+   * - 16 Jun 2015
+     - Added the :ref:`Creating a Custom Course` section.
    * - 10 Jun 2015
      - Added the :ref:`view_not_yet_enrolled` section.
    * - 8 Jun 2015
