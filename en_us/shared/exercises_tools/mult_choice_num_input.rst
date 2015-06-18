@@ -9,7 +9,7 @@ You can create a problem that combines a multiple choice and numerical input pro
 .. image:: ../../../shared/building_and_running_chapters/Images/MultipleChoice_NumericalInput.png
   :alt: Image of a multiple choice and numerical input problem
 
-.. note:: Currently, students can only enter numerals in the text field. Students cannot enter words or mathematical expressions.
+.. note:: Currently, students can only enter numerals in the text field. Students cannot enter words or mathematical expressions, which might be confusing to students used to normal edX numerical inputs.
 
 .. _Create an MCNI Problem:
 

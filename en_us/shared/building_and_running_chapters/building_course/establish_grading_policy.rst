@@ -123,6 +123,14 @@ assignment types.
 To create a new assignment type, in the bottom of the Grading page, select
 **New Assignment Type**, then configure the fields described below.
 
+.. note:: In a MOOC, some number of learners will experience personal 
+  emergencies, technical problems (such as power blackouts or loss of 
+  internet access), or other issues. You will not be able to grant 
+  individual extensions to such learners, but can provide some amount 
+  of flexibility for managing such issues by designing longer deadlines 
+  and allowing droppable assignments.
+
+
 ==========================
 Assignment Type Fields
 ==========================
@@ -164,6 +172,7 @@ You configure the following fields for each assignment type.
   The number of assignments of this type that the grader will drop. The grader
   will drop the lowest-scored assignments first.
 
+  
 .. _Graded Subsections:
 
 **********************************************
