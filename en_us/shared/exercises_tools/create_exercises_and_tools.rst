@@ -102,9 +102,14 @@ General Exercises and Tools
        upload. Open response assessments include self assessment and peer
        assessment.
      - Full support  
+   * - :ref:`Poll Tool`
+     - You can include polls in your course to gather learners' opinions on
+       various questions. You can use the Poll Tool in Studio.
+     - Full support 
    * - :ref:`Poll`
      - You can run polls in your course so that your students can share
-       opinions on different questions.
+       opinions on different questions. You can use this type of poll only in
+       OLX, not Studio.
      - Provisional support  
    * - :ref:`Problem with Adaptive Hint`
      - A problem with an adaptive hint evaluates a student's response, then
@@ -119,6 +124,10 @@ General Exercises and Tools
 
 .. Removed student notes row for now-- cannot conditionalize in tables. Currently student notes page is included in open edx, not in edx.
 
+   * - :ref:`Survey Tool`
+     - You can include surveys in your course to collect learner responses to
+       multiple questions. You can use the Survey Tool in Studio.
+     - Full support 
    * - :ref:`Text Input`
      - In text input problems, students enter text into a response field. The
        response can include numbers, letters, and special characters such as

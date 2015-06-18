@@ -53,9 +53,11 @@ approximately identical.
    mult_choice_num_input
    multiple_choice
    numerical_input
+   poll_question
    problem_in_latex
    problem_with_hint
    protein_builder
+   survey
    symbolic_response
    text_input
 
