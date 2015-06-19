@@ -25,6 +25,16 @@
 
 .. _Enabling Badging: http://edx.readthedocs.org/projects/edx-installing-configuring-and-running/en/latest/configuration/enable_badging.html#enable-badging
 
+.. _Enabling Custom Courses: http://edx.readthedocs.org/projects/edx-installing-configuring-and-running/en/latest/configuration/enable_ccx.html
+
+.. _Creating a Custom Course: http://edx.readthedocs.org/projects/open-edx-building-and-running-a-course/en/latest/building_course/custom_courses.html
+
+.. _Report Learners Not Yet Enrolled: http://edx.readthedocs.org/projects/open-edx-building-and-running-a-course/en/latest/running_course/course_enrollment.html#view-not-yet-enrolled
+
+.. _Accessibility Best Practices for Developing Course Content: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/accessibility/index.html
+
+.. _Open Source Accessibility Best Practices for Developing Course Content: http://edx.readthedocs.org/projects/open-edx-building-and-running-a-course/en/latest/accessibility/best_practices_course_content_dev.html#accessibility-best-practices-for-course-content-development
+
 .. OLX Guide Links
 
 .. _Example of OLX for a Studio Course: http://edx-open-learning-xml.readthedocs.org/en/latest/studio-example/index.html#example-of-olx-for-a-studio-course
@@ -480,7 +490,7 @@
 
 .. _Ungraded Problem Submissions: http://edx-insights.readthedocs.org/en/latest/performance/Performance_Ungraded.html#ungraded-problem-submissions
 
-.. _Student Performance: http://edx-insights.readthedocs.org/en/latest/performance/index.html
+.. _Student Performance: http://edx.readthedocs.org/projects/edx-insights/en/latest/performance/index.html
 
 .. _edX Style Guidelines: http://edx.readthedocs.org/projects/edx-developer-guide/en/latest/style_guides/index.html
 

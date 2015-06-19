@@ -5,4 +5,4 @@ and links to documentation.
 
 .. image:: /Images/NewProblemTemplate.png
    :width: 500
-   :alt: The new Image Mapped Input problem template
+   :alt: The new Image Mapped Input problem template.
