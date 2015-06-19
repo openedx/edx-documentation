@@ -42,6 +42,12 @@ Alphabetical Event List
      - :ref:`Instructor_Event_Types`
    * - ``dump-grades-raw``
      - :ref:`Instructor_Event_Types`
+   * - ``edx.badge.assertion.created``
+     - :ref:`badging_events`
+   * - ``edx.badge.assertion.shared``
+     - :ref:`badging_events`
+   * - ``edx.badge.assertion.evidence_visited``
+     - :ref:`badging_events` 
    * - ``edx.cohort.created``
      - :ref:`student_cohort_events`
    * - ``edx.cohort.creation_requested``
