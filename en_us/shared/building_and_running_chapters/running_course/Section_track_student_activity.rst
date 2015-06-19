@@ -1,4 +1,8 @@
 .. _Track Student Activity:
+    
+***********************
+Track Student Activity
+***********************
 
 To monitor student activity during your course, you can review the number of
 students who, each week, interacted with your course. To be considered active,

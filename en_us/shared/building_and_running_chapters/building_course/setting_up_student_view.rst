@@ -35,9 +35,9 @@ based on the content of the page.
 You configure the contents of this page in Studio, as described in this topic.
 
 .. note:: Given the diversity of MOOC learners, be careful to clearly 
-   communicate the  target audience, level, and prerequisites for your course. 
+   communicate the target audience, level, and prerequisites for your course. 
    Aim for concrete, unambiguous words (for example, ``understand eigenvalue 
-   decomposition'' rather than ``intermediate linear algebra'').
+   decomposition`` rather than ``intermediate linear algebra``).
 
 
 .. _The Learner Dashboard:
