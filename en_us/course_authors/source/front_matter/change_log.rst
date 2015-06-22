@@ -22,6 +22,8 @@ July 2015
 
    * - Date
      - Change
+   * - 15 July 2015
+     - Added the :ref:`Best Practices for ORA` and :ref:`PA Scoring` sections.  
    * - 8 July 2015
      - Added the :ref:`Poll Tool` and :ref:`Survey Tool` sections.
    * - 1 July
@@ -202,13 +204,11 @@ February 2015
      - Updated the :ref:`Cohorted Courseware Overview` section to reflect the
        ability to delete content groups and view their usage in a course.      
    * - 2/19/15
-     - Updated ORA documentation to reflect ability to :ref:`remove a student
-       response from peer grading<Remove a student response from peer
-       grading>`.
+     - Updated ORA documentation to reflect ability to :ref:`Remove a learner response from peer grading`
    * - 
-     - Updated ORA documentation to indicate that course staff can use student
-       usernames to :ref:`access student information<Access Student
-       Information>`. They no longer need to obtain an anonymized student ID.
+     - Updated ORA documentation to indicate that course staff can use learner
+       usernames to :ref:`access learner information<Access Learner
+       Information>`. They no longer need to obtain an anonymized learner ID.
    * - 2/13/15
      - Updated the example in the :ref:`Drag and Drop Problem XML` topic.
    * - 2/12/15
