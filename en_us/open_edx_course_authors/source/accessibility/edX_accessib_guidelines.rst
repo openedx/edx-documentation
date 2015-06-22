@@ -1,0 +1,1 @@
+.. include:: ../../../shared/accessibility/edX_accessib_guidelines.rst
