@@ -12,10 +12,14 @@ June 2015
 
    * - Date
      - Change
+   * - 22 Jun 2015
+     - Updated the :ref:`Accessibility Best Practices for Course Content Development` section.
    * - 10 Jun 2015
      - Added the :ref:`Adding a Pre-Roll Video` section.
    * - 
      - Added the :ref:`view_not_yet_enrolled` section.
+ 
+
 
 ****************
 May 2015
