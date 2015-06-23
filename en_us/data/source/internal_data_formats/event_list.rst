@@ -4,6 +4,16 @@
 Alphabetical Event List
 #######################
 
+
+:ref:`ABC` - :ref:`DEF` - :ref:`GHI` - :ref:`JKL` - :ref:`MNO` 
+- :ref:`PQR` - :ref:`ST` - :ref:`UVWXYZ`
+
+.. _ABC:
+
+*******
+A, B, C
+*******
+
 .. list-table::
    :widths: 40 40
    :header-rows: 1
@@ -28,6 +38,19 @@ Alphabetical Event List
      - :ref:`Instructor_Event_Types`
    * - ``child_render``
      - :ref:`AB_Event_Types`
+
+.. _DEF:
+
+*******
+D, E, F
+*******
+
+.. list-table::
+   :widths: 40 40
+   :header-rows: 1
+
+   * - Event
+     - Description
    * - ``delete-student-module-state``
      - :ref:`Instructor_Event_Types`
    * - ``dump-answer-dist-csv``
@@ -118,6 +141,19 @@ Alphabetical Event List
      - :ref:`video`, see ``hide_transcript``
    * - ``edx.video.transcript.shown``
      - :ref:`video`, see ``show_transcript``
+
+.. _GHI:
+
+*******
+G, H, I
+*******
+
+.. list-table::
+   :widths: 40 40
+   :header-rows: 1
+
+   * - Event
+     - Description
    * - ``get_anon_ids``
      - :ref:`Instructor_Event_Types`
    * - ``get_student_progress_page``
@@ -132,6 +168,19 @@ Alphabetical Event List
      - :ref:`video`
    * - ``instructor``
      - :ref:`Instructor_Event_Types`
+
+.. _JKL:
+
+*******
+J, K, L
+*******
+
+.. list-table::
+   :widths: 40 40
+   :header-rows: 1
+
+   * - Event
+     - Description
    * - ``list-beta-testers``
      - :ref:`Instructor_Event_Types`
    * - ``list-forum-admins``
@@ -148,6 +197,19 @@ Alphabetical Event List
      - :ref:`Instructor_Event_Types`
    * - ``load_video``
      - :ref:`video`
+
+.. _MNO:
+
+*******
+M, N, O
+*******
+
+.. list-table::
+   :widths: 40 40
+   :header-rows: 1
+
+   * - Event
+     - Description
    * - ``modify_access``
      - :ref:`Instructor_Event_Types`
    * - ``oe_feedback_response_selected``
@@ -176,6 +238,19 @@ Alphabetical Event List
      - :ref:`ora2`
    * - ``openassessment.upload_file``
      - :ref:`ora2`
+
+.. _PQR:
+
+*******
+P, Q, R
+*******
+
+.. list-table::
+   :widths: 40 40
+   :header-rows: 1
+
+   * - Event
+     - Description
    * - ``page_close``
      - :ref:`navigational`
    * - ``pause_video``
@@ -222,6 +297,19 @@ Alphabetical Event List
      - :ref:`Instructor_Event_Types`
    * - ``rubric_select``
      - :ref:`ora`
+
+.. _ST:
+
+*******
+S, T
+*******
+
+.. list-table::
+   :widths: 40 40
+   :header-rows: 1
+
+   * - Event
+     - Description
    * - ``save_problem_fail``
      - :ref:`problem`
    * - ``save_problem_success``
@@ -272,12 +360,33 @@ Alphabetical Event List
      - :ref:`pdf`
    * - ``textbook.pdf.zoom.menu.changed``
      - :ref:`pdf`
+
+.. _UVWXYZ:
+
+*********************
+U, V, W, X, Y, Z
+*********************
+
+.. list-table::
+   :widths: 40 40
+   :header-rows: 1
+
+   * - Event
+     - Description
    * - ``update_forum_role_membership``
      - :ref:`Instructor_Event_Types`
    * - ``video_hide_cc_menu``
      - :ref:`video`
    * - ``video_show_cc_menu``
      - :ref:`video`
+   * - ``xblock.poll.submitted``
+     - :ref:`Poll and Survey Events`
+   * - ``xblock.poll.view_results``
+     - :ref:`Poll and Survey Events`
+   * - ``xblock.survey.submitted``
+     - :ref:`Poll and Survey Events`
+   * - ``xblock.survey.view_results``
+     - :ref:`Poll and Survey Events`
        
 
 
