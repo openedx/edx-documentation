@@ -224,7 +224,7 @@ The following member fields are present in the ``context`` field for all events.
      - string
      - The URL that generated the event. 
    * - ``user_id``
-     - string
+     - integer
      - Identifies the individual who is performing the action.
 
 
