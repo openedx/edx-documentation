@@ -436,17 +436,31 @@ Creating Accessible Word Documents
 Many of the same accessibility techniques and principles that apply to
 authoring web content also apply to creating Word documents.
 
-* Images must have `descriptive text associated <https://support.office.com/en-us/article/Creating-accessible-Word-documents-D9BF3683-87AC-47EA-B91A-78DCACB3C66D#__toc275414986>`_ with them.
+* Images must have descriptive text associated with them. For more information,
+  see `Add alternative text to images and objects in Word documents
+  <https://support.office.com/en-us/article/Creating-accessible-Word-documents-
+  D9BF3683-87AC-47EA-B91A-78DCACB3C66D#__toc275414986>`_.
 
-* Documents should be `well structured <https://support.office.com/en-us/article/Creating-accessible-Word-documents-D9BF3683-87AC-47EA-B91A-78DCACB3C66D#__toc275414990>`_.
+* Documents should be well structured. For more information see `Ensure all
+  heading styles are in the correct order in Word documents
+  <https://support.office.com/en-us/article/Creating-accessible-Word-documents-
+  D9BF3683-87AC-47EA-B91A-78DCACB3C66D#__toc275414990>`_.
 
-* Hyperlinks should be `meaningful <https://support.office.com/en-us/article/Creating-accessible-Word-documents-D9BF3683-87AC-47EA-B91A-78DCACB3C66D#__toc275414991>`_ and describe the destination.
+* Hyperlinks should be meaningful and describe the destination. For more
+  information, see `Use hyperlink text that is meaningful in Word documents
+  <https://support.office.com/en- us/article/Creating-accessible-Word-
+  documents-D9BF3683-87AC-47EA-B91A- 78DCACB3C66D#__toc275414991>`_.
 
-* Tables should include `properly defined column and row headers <https://support.office.com/en-us/article/Creating-accessible-Word-documents-D9BF3683-87AC-47EA-B91A-78DCACB3C66D#__toc271197283>`_.
+* Tables should include properly defined column and row headers. For more
+  information, see `Use simple table structure in Word documents
+  <https://support.office.com/en-us/article/Creating-accessible-Word-documents-
+  D9BF3683-87AC-47EA-B91A-78DCACB3C66D#__toc271197283>`_.
 
 * Color combinations should be high contrast.
 
-* Verify the accessibility of your document using `Microsoft's Accessibility Checker <https://support.office.com/en-us/article/Check-for-accessibility-issues-a16f6de0-2f39-4a2b-8bd8-5ad801426c7f?ui=en-US&rs=en-US&ad=US>`_.
+* Verify the accessibility of your document using `Microsoft's Accessibility
+  Checker <https://support.office.com/en-us/article/Check-for-accessibility-
+  issues-a16f6de0-2f39-4a2b-8bd8-5ad801426c7f?ui=en-US&rs=en-US&ad=US>`_.
 
 In addition, follow these guidelines when you format Word documents.
 
@@ -476,11 +490,21 @@ Creating Accessible Excel Documents
 Many of the same accessibility techniques and principles that apply to
 authoring data tables in HTML also apply to creating Excel spreadsheets.
 
-* Images must have `descriptive text associated <https://support.office.com/en-us/article/Creating-accessible-Excel-workbooks-6CC05FC5-1314-48B5-8EB3-683E49B3E593#__toc271205010>`_ with them.
+* Images must have descriptive text associated with them. For more information,
+  see `Add alternative text to images and objects in Excel documents
+  <https://support.office.com/en-us/article/Creating-accessible-Excel-
+  workbooks-6CC05FC5-1314-48B5-8EB3-683E49B3E593#__toc271205010>`_.
 
-* Column and row headings should be `programmatically identified <https://support.office.com/en-us/article/Creating-accessible-Excel-workbooks-6CC05FC5-1314-48B5-8EB3-683E49B3E593#__toc271205011>`_. 
 
-* Hyperlinks should be `meaningful <https://support.office.com/en-us/article/Creating-accessible-Excel-workbooks-6CC05FC5-1314-48B5-8EB3-683E49B3E593#__toc271197281>`_ and describe the destination.
+* Column and row headings should be programmatically identified. For more
+  informaton, see `Specify column header information in Excel tables
+  <https://support.office.com/en-us/article/Creating-accessible-Excel-
+  workbooks-6CC05FC5-1314-48B5-8EB3-683E49B3E593#__toc271205011>`_.
+
+* Hyperlinks should be meaningful and describe the destination. For more
+  information, see `Use hyperlink text that is meaningful in Excel documents
+  <https://support.office.com/en-us/article/Creating-accessible-Excel-
+  workbooks-6CC05FC5-1314-48B5-8EB3-683E49B3E593#__toc271197281>`_.
 
 * Use a unique and informative title for each worksheet tab.
 
@@ -488,15 +512,21 @@ authoring data tables in HTML also apply to creating Excel spreadsheets.
 
 * Color combinations should be high contrast.
 
-* Verify the accessibility of your workbook using `Microsoft's Accessibility Checker <https://support.office.com/en-us/article/Check-for-accessibility-issues-a16f6de0-2f39-4a2b-8bd8-5ad801426c7f?ui=en-US&rs=en-US&ad=US>`_.
+* Verify the accessibility of your workbook using `Microsoft's Accessibility
+  Checker <https://support.office.com/en-us/article/Check-for-accessibility-
+  issues-a16f6de0-2f39-4a2b-8bd8-5ad801426c7f?ui=en-US&rs=en-US&ad=US>`_.
 
 
 Accessible Microsoft Excel Resources
 *******************************************************
 
-* Microsoft guide to `creating accessible Excel workbooks <https://support.office.com/en-us/article/Creating-accessible-Excel-workbooks-6CC05FC5-1314-48B5-8EB3-683E49B3E593>`_.
+* Microsoft guide to `creating accessible Excel workbooks
+  <https://support.office.com/en-us/article/Creating-accessible-Excel-
+  workbooks-6CC05FC5-1314-48B5-8EB3-683E49B3E593>`_.
 
-* Microsoft tool that allows you to `check Excel workbooks for accessibility issues <https://support.office.com/en-us/article/Check-for-accessibility-issues-a16f6de0-2f39-4a2b-8bd8-5ad801426c7f?ui=en-US&rs=en-US&ad=US>`_.
+* Microsoft tool that allows you to `check Excel workbooks for accessibility
+  issues <https://support.office.com/en-us/article/Check-for-accessibility-
+  issues-a16f6de0-2f39-4a2b-8bd8-5ad801426c7f?ui=en-US&rs=en-US&ad=US>`_.
 
 
 =====================================================
@@ -506,19 +536,35 @@ Creating Accessible Powerpoint Documents
 Many of the same accessibility techniques and principles that apply to
 authoring web content also apply to creating Powerpoint presentations.
 
-* Images must have `descriptive text associated with them <https://support.office.com/en-us/article/Creating-accessible-PowerPoint-presentations-6F7772B2-2F33-4BD2-8CA7-DAE3B2B3EF25#__toc286131977>`_.
+* Images must have descriptive text associated with them. For more information,
+  see `Add alternative text to images and objects in Powerpoint documents
+  <https://support.office.com/en-us/article/Creating-accessible-PowerPoint-
+  presentations-6F7772B2-2F33-4BD2-8CA7-DAE3B2B3EF25#__toc286131977>`_.
 
-* Column and row headings should be `programmatically identified <https://support.office.com/en-us/article/Creating-accessible-PowerPoint-presentations-6F7772B2-2F33-4BD2-8CA7-DAE3B2B3EF25#__toc286131978>`_. 
+* Column and row headings should be programmatically identified. For more
+  information, see `Specify column header information in tables in Powerpoint
+  documents <https://support.office.com/en-us/article/Creating-accessible-
+  PowerPoint-presentations-
+  6F7772B2-2F33-4BD2-8CA7-DAE3B2B3EF25#__toc286131978>`_.
 
-* Hyperlinks should be `meaningful <https://support.office.com/en-us/article/Creating-accessible-PowerPoint-presentations-6F7772B2-2F33-4BD2-8CA7-DAE3B2B3EF25#__toc286131980>`_ and describe the destination.
+* Hyperlinks should be meaningful and describe the destination. For more
+  information, see `Use hyperlink text that is meaningful in Powerpoint
+  documents <https://support.office.com/en-us/article/Creating-accessible-
+  PowerPoint-presentations-
+  6F7772B2-2F33-4BD2-8CA7-DAE3B2B3EF25#__toc286131980>`_.
 
 * Use a unique and informative title for each slide.
 
-* Ensure that information is `presented in a logical order <https://support.office.com/en-us/article/Creating-accessible-PowerPoint-presentations-6F7772B2-2F33-4BD2-8CA7-DAE3B2B3EF25#__toc286131984>`_
+* Ensure that information is `presented in a logical order
+  <https://support.office.com/en-us/article/Creating-accessible-PowerPoint-
+  presentations-6F7772B2-2F33-4BD2-8CA7-DAE3B2B3EF25#__toc286131984>`_
 
 * Color combinations should be high contrast.
 
-* Verify the accessibility of your presentation using `Microsoft's Accessibility Checker <https://support.office.com/en-us/article/Check-for-accessibility-issues-a16f6de0-2f39-4a2b-8bd8-5ad801426c7f?ui=en-US&rs=en-US&ad=US>`_.
+* Verify the accessibility of your presentation using `Microsoft's
+  Accessibility Checker <https://support.office.com/en-us/article/Check-for-
+  accessibility-issues-a16f6de0-2f39-4a2b-8bd8-5ad801426c7f?ui=en-US&rs=en-
+  US&ad=US>`_.
 
 To make your content accessible and comprehensible to learners who use screen
 reading software, start in Outline view and include all of your content as
@@ -533,11 +579,17 @@ not logical, change the order of the objects.
 Accessible Powerpoint Resources
 *******************************************************
 
-* Microsoft guide to `creating accessible PowerPoint presentations <https://support.office.com/en-us/article/Creating-accessible-PowerPoint-presentations-6F7772B2-2F33-4BD2-8CA7-DAE3B2B3EF25>`_.
+* Microsoft guide to `creating accessible PowerPoint presentations
+  <https://support.office.com/en-us/article/Creating-accessible-PowerPoint-
+  presentations-6F7772B2-2F33-4BD2-8CA7-DAE3B2B3EF25>`_.
 
-* WebAIM's `PowerPoint Accessibility <http://webaim.org/techniques/powerpoint/>`_.
+* WebAIM's `PowerPoint Accessibility
+  <http://webaim.org/techniques/powerpoint/>`_.
 
-* Microsoft tool that allows you to `check Powerpoint documents for accessibility issues <https://support.office.com/en-us/article/Check-for-accessibility-issues-a16f6de0-2f39-4a2b-8bd8-5ad801426c7f?ui=en-US&rs=en-US&ad=US>`_.
+* Microsoft tool that allows you to `check Powerpoint documents for
+  accessibility issues <https://support.office.com/en-us/article/Check-for-
+  accessibility-issues-a16f6de0-2f39-4a2b-8bd8-5ad801426c7f?ui=en-US&rs=en-
+  US&ad=US>`_.
 
 
 .. _Best Practices for Math Content:
@@ -553,28 +605,31 @@ Do not create images of equations instead of including text equations. Math
 images cannot be modified by people who need a larger or high contrast
 display, and cannot be read by screen reader software.
 
-EdX uses `MathJax <https://www.mathjax.org>`_ to render math content in a format
-that is clear, readable, and accessible to people who use screen readers.
-MathJax works together with math notation such as LaTeX and MathML to render
-mathematical equations as text instead of images. EdX recommends that you use
-MathJax to display your math content.
+EdX uses `MathJax`_ to render math content in a
+format that is clear, readable, and accessible to people who use screen
+readers. MathJax works together with math notation such as LaTeX and MathML to
+render mathematical equations as text instead of images. EdX recommends that
+you use MathJax to display your math content.
 
 ======================================================
 Accessible Mathematical Content Resources
 ======================================================
 
-* The `DO-IT project <http://www.washington.edu/doit/are-there-guidelines-creating-accessible-math?465=>`_ from the University of Washington provides guidance on creating accessible math content.
+* The `DO-IT project <http://www.washington.edu/doit/are-there-guidelines-
+  creating-accessible-math?465=>`_ from the University of Washington provides
+  guidance on creating accessible math content.
 
 * `AccessSTEM <http://www.washington.edu/doit/programs/accessstem/overview>`_
   provides guidance on creating accessible science, technology, engineering
   and math educational content.
   
-* `MathJax <http://www.mathjax.org>`_ provides guidance on creating accessible
+* `MathJax`_ provides guidance on creating accessible
   pages with their display engine.
 
 * The `Design Science News blog <http://news.dessci.com/accessible-math>`_
   shares information about making math accessible.
 
+.. _MathJax: <http://www.mathjax.org>
 
 .. _Best Practices for Custom Content Types:
 

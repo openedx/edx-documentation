@@ -23,7 +23,7 @@ You can specify the following types of regions.
 
 .. note:: When you create a problem that contains an image, you must include
  alt text for your image to make the image accessible. For more information
- about alt text, see :ref:`Guidelines for Creating Accessible Content`.
+ about alt text, see :ref:`Best Practices for Describing Images`.
 
 ****************************************
 Create an Image Mapped Input Problem
@@ -88,8 +88,8 @@ Create the Problem in Studio
       path for your image.
 
    #. Include alt text for your image to make the image accessible. For more
-      information about alt text, see :ref:`Guidelines for Creating Accessible
-      Content`.
+      information about alt text, see :ref:`Best Practices for Describing
+      Images`.
 
    #. Replace the example values for the ``width`` and ``height`` attributes
       with the dimensions for your image. 

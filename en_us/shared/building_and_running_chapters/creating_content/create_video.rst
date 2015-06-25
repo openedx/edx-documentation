@@ -26,7 +26,7 @@ Adding a video to your course has several steps.
   :local:
   :depth: 1
 
-.. important:: Be sure to review :ref:`Best Practices for Accessible Media` 
+.. important:: Be sure to review :ref:`Creating Accessible Media` 
  before you create videos for your course.
 
 To help course teams protect video assets, the edX video player hides video
