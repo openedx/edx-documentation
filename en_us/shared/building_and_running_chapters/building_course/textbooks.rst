@@ -9,7 +9,7 @@ You can add PDF textbooks to your course.
 .. note:: 
  Do not use image files (for example, .png files) as textbooks for your course,
  as they are not accessible to screen readers. For more information, review
- :ref:`Best Practices for Accessible PDFs`.
+ :ref:`Creating Accessible PDFs`.
 
 Each textbook that you add is displayed to learners as a page, or tab, in the
 course navigation bar.

@@ -77,8 +77,8 @@ as many learners as possible.
 * The optimum length for a pre-roll video is 5 to 10 seconds. The video player
   stops playing longer files after 35 seconds.
 
-* Before you create a pre-roll video, be sure to review :ref:`Best Practices
-  for Accessible Media`.
+* Before you create a pre-roll video, be sure to review :ref:`Creating
+  Accessible Media`.
 
 * The video must have at least one accompanying transcript. 
 

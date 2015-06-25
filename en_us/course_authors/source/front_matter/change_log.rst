@@ -742,7 +742,7 @@ December 2013
    * - 12/12/2013
      - Added the edX :ref:`Glossary`.
    * - 12/11/2013
-     - Added the chapter :ref:`Guidelines for Creating Accessible Content`.
+     - Added the chapter Guidelines for Creating Accessible Content.
    * - 12/10/2013
      - Added note about number of responses in "Available to Grade" column in
        Open Response Assessments section.
