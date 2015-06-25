@@ -15,8 +15,8 @@ content.
   an interactive demonstration? By having the student work through a 
   problem? Try to keep videos as short as possible -- students are much
   less likely to finish watching a video if it is more than 5-10 minutes 
-  long. When creating videos, try to follow 
-  `Richard Mayer's 12 Principles <http://hartford.edu/academics/faculty/fcld/data/documentation/technology/presentation/powerpoint/12_principles_multimedia.pdf>`_. 
+  long. When creating videos, try to follow `Richard Mayer's 12 Principles 
+  <http://hartford.edu/academics/faculty/fcld/data/documentation/technology/presentation/powerpoint/12_principles_multimedia.pdf>`_. 
   These principles are based on extensive experimental research of student
   learning. 
   
@@ -213,6 +213,16 @@ course video, it might be the result of one of these browser-related problems.
 ********************************
 Step 4. Create a Video Component
 ********************************
+
+.. The following note provides a cross reference to information that applies only to courses running on edx.org. - Alison 24 Jun 15
+
+.. only:: Partners
+
+    .. note:: If you are building a course to run on the edx.org site, in 
+     place of this step, you follow the :ref:`Add the edX Video ID to a Video
+     Component` procedure. For more information, see the :ref:`Processing Video
+     Files Index` section.
+
 
 To add a video and its transcript to your course, follow these steps.
 
@@ -563,7 +573,12 @@ in the video component.
 #. Set the other options that you want.
 #. Select **Save**.
 
-.. include:: ../../../shared/building_and_running_chapters/creating_content/create_preroll_video.rst
+
+.. The following include adds procedures for pre-roll videos to the guide for partners only. This feature works only on edx.org.  - Alison 24 Jun 15
+
+.. only:: Partners
+
+    .. include:: ../../../shared/building_and_running_chapters/creating_content/create_preroll_video.rst
 
 
 .. _Creating Videos: https://courses.edx.org/courses/edX/edX101/2014/courseware/c2a1714627a945afaceabdfb651088cf/9dd6e5fdf64b49a89feac208ab544760/

@@ -12,8 +12,12 @@ June 2015
 
    * - Date
      - Change
+   * - 25 Jun 2015
+     - Added the :ref:`Processing Video Files Index` section for use with
+       edx.org courses.
    * - 22 Jun 2015
-     - Updated the :ref:`Accessibility Best Practices for Course Content Development` section.
+     - Updated the :ref:`Accessibility Best Practices for Course Content
+       Development` section.
    * - 10 Jun 2015
      - Added the :ref:`Adding a Pre-Roll Video` section.
    * - 

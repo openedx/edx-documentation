@@ -23,8 +23,8 @@ Copy the Video ID
 
 #. Select **Content**, then **Video Uploads**.
 
-#. In the **Previous Uploads** list, locate the video that you want to include in
-   the course.
+#. In the **Previous Uploads** list, locate the video that you want to include
+   in the course.
 
 #. Select the value in the **Video ID** column for the video. The video ID is
    assigned when you upload a video.   
@@ -51,15 +51,17 @@ video ID for every uploaded file.
 Add the Video ID to a Video Component
 ************************************************
 
-This section describes the procedure that course teams follow in place of the
-`Step 4. Create a Video Component`_ section in the *Building and Running an
-edX Course* guide. This section assumes that you are familiar with the
-procedures described in the `Developing Your Course`_ chapter.
+This section describes the procedure that course teams follow to add an
+uploaded video file to a video component in an edx.org course. You follow this
+procedure in place of the :ref:`Create a Video Component` section in this
+guide. This section assumes that you are familiar with the procedures described
+in the :ref:`Developing Your Course Index` section.
 
-You complete these steps in Studio. For convenience, download the report of
-uploaded videos and open it on your desktop before you begin. Alternatively,
-open a second browser window so that the video IDs on the **Video Uploads**
-page appear in one window while you add video components in the other.
+You complete these steps in Studio. For convenience, :ref:`download the report
+of uploaded videos<Reporting Video Status>` and open it on your desktop before
+you begin. Alternatively, open a second browser window so that the video IDs on
+the **Video Uploads** page appear in one window while you work with video
+components in the other.
 
 #. From the **Content** menu select **Outline**. The **Course Outline** page
    opens.
@@ -69,7 +71,7 @@ page appear in one window while you add video components in the other.
    To edit an existing video component, locate the video component window and
    then click **Edit**. The Editing: Video popup opens to the Basic tab.
    
-3. In the **Component Display Name** field, enter the identifying name that you
+3. For the **Component Display Name**, enter the identifying name that you
    want learners to see for this video.
 
 #. At the top of the Editing: Video popup click **Advanced**. Additional fields
@@ -113,9 +115,7 @@ automatically scrolls as the video plays. A learner can click a word in the
 transcript to jump to the point in the video where that word is spoken.
 
 This section briefly describes the procedures that course teams follow to add
-transcripts to their videos. For more information, see the `Step 2. Create or
-Obtain a Video Transcript`_ section in the *Building and Running an edX
-Course* guide.
+transcripts to their videos. For more information, see the :ref:`Create Transcript` section in this guide.
 
 ======================================
 Create or Obtain a Transcript
@@ -198,11 +198,5 @@ To test transcript downloads for the video, select **Download transcript** in
 the video player's control bar. You can choose either the SubRip (.srt) format
 or text (.txt) format to download.
 
-
-.. _Step 2. Create or Obtain a Video Transcript: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/creating_content/create_video.html#step-2-create-or-obtain-a-video-transcript
-
-.. _Step 4. Create a Video Component: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/creating_content/create_video.html#step-4-create-a-video-component
-
-.. _Developing Your Course: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/developing_course/index.html#developing-your-course-index
 
 .. _3Play Media: http://www.3playmedia.com

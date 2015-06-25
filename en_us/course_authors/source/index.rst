@@ -17,6 +17,7 @@ Building and Running an edX Course
    building_course/index
    developing_course/index
    creating_content/index
+   video/index
    exercises_tools/index
    content_experiments/index
    cohorts/index
