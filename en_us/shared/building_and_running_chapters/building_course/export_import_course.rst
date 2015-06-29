@@ -102,10 +102,10 @@ To import a course:
  ensure they are set as intended. For more information, see
  :ref:`Scheduling Your Course`.
  
-.. _Work with the targz file:
+.. _Work with the targz File:
 
 ******************************
-Work with the .tar.gz file
+Work with the .tar.gz File
 ******************************
 
 Courses are exported and imported in .tar.gz files containing OLX, an edX

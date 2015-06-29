@@ -1,7 +1,7 @@
 .. _Setting up Your Course Index:
 
 ##########################
-Setting up Your Course
+Setting Up Your Course
 ##########################
 
 Use the topics in this section to create and build your course.
