@@ -14,7 +14,7 @@ What's Included in Birch
 ******************************
 
 The Open edX Birch release contains several new features for students, course
-staff, and developers.  See the Open edX Release Notes for more details.
+teams, and developers.  See the Open edX Release Notes for more details.
 
 .. Note::
  There are several new features in the Birch release that are available, but
@@ -28,10 +28,10 @@ staff, and developers.  See the Open edX Release Notes for more details.
 What is the Birch Git Tag?
 ******************************
 
-The Git tag for the Birch release is **named-release/birch**. You use this tag to identify the version of Open edX code that is the Birch release.
+The Git tag for the Birch release is **named-release/birch**. You use this tag
+to identify the version of Open edX code that is the Birch release.
 
-The following Open edX Git repositories have the Git tag **named-
-release/birch**:
+The following Open edX Git repositories have the Git tag **named-release/birch**:
 
 * edx-platform
 * configuration

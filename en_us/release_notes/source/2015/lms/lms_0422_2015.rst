@@ -3,16 +3,16 @@
 Profiles 
 ================
 
-Learners and staff can now introduce themselves to the edX community through
-personal profiles. A profile can include an image, a personal introduction,
-and other information. Learners can access each others' profiles from within
-course discussions.
+Learners and course team members can now introduce themselves to the edX
+community through personal profiles. A profile can include an image, a personal
+introduction, and other information. Learners can access each others' profiles
+from within course discussions.
 
-Learners and staff can also use the new **Account Settings** page to update
-account information, such as the account email address and password, and
-demographic information, such as level of education and country or region. For
-more information, see the `Exploring Your Dashboard, Settings, and Profile`_
-section of the `EdX Guide for Students`_.
+Learners and course team members can also use the new **Account Settings** page
+to update account information, such as the account email address and password,
+and demographic information, such as level of education and country or region.
+For more information, see the `Exploring Your Dashboard, Settings, and
+Profile`_ section of the `EdX Guide for Students`_.
 
 ==========================
 Video Start and Stop Times

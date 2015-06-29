@@ -174,8 +174,8 @@ In the following example, the learner's submission was correct, the score was
 Building an External Grader
 ****************************
 
-Course staff, not edX, is responsible for building and deploying the external
-grader.
+The course team, not edX, is responsible for building and deploying the
+external grader.
 
 In addition to creating tests that are specific to the problems you use in your
 course, there are four areas that you must plan for when you build an external

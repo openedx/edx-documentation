@@ -188,10 +188,10 @@ Staff Only Content
 ===========================
 
 A subsection can contain a unit that is hidden from students and available to
-staff only. That unit is not visible to students, even if the subsection has
-been released.
+members of the course team only. That unit is not visible to students, even if
+the subsection has been released.
 
-The following example shows how an subsection that contains a unit that is
+The following example shows how a subsection that contains a unit that is
 hidden from students displays in the outline, summarized with a black bar.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/section-hidden-unit.png

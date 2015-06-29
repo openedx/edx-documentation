@@ -189,8 +189,8 @@ When you install Devstack, the following accounts are created.
      - Description
    * - staff@example.com
      - An LMS and Studio user with course creation and editing permissions.
-       This user is a course staff member with rights to work with the
-       demonstration course in Studio.
+       This user is a course team member with rights to work with the
+       demonstration course in Studio, the LMS, and Insights.
    * - verified@example.com
      - A student account that you can use to access the LMS for testing
        verified certificates.

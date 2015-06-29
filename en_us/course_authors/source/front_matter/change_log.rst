@@ -23,15 +23,18 @@ July 2015
    * - Date
      - Change
    * - 15 July 2015
-     - Added the :ref:`Best Practices for ORA` and :ref:`PA Scoring` sections.  
+     - Added the :ref:`Best Practices for ORA` and :ref:`PA Scoring` sections.
+   * - 
+     - Updated this guide to use the course team "Admin" and "Staff" role names
+       consistently. For more information, see the :ref:`Course_Staffing`
+       section.
    * - 8 July 2015
      - Added the :ref:`Poll Tool` and :ref:`Survey Tool` sections.
-   * - 1 July
+   * - 1 July 2015
      - Several additions were made to provide information about using feedback
        and hints in common problems.
        
        * :ref:`Adding Feedback and Hints to a Problem`
-       
        * :ref:`Use Feedback in a Checkbox Problem`
        * :ref:`Use Hints in a Checkbox Problem`
        * :ref:`Use Feedback in a Dropdown Problem` 
@@ -206,7 +209,7 @@ February 2015
    * - 2/19/15
      - Updated ORA documentation to reflect ability to :ref:`Remove a learner response from peer grading`
    * - 
-     - Updated ORA documentation to indicate that course staff can use learner
+     - Updated ORA documentation to indicate that course teams can use learner
        usernames to :ref:`access learner information<Access Learner
        Information>`. They no longer need to obtain an anonymized learner ID.
    * - 2/13/15

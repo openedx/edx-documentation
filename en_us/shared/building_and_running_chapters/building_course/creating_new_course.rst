@@ -80,7 +80,7 @@ can begin editing.
 
 When you return to Studio later, the Studio **My Courses** dashboard page lists
 the courses that you created as well as any courses for which you have course
-staff privileges.
+team privileges.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/open_course.png
   :width: 600
@@ -118,7 +118,7 @@ that task.
 You can expand and collapse sections of the checklist as needed.
 
 You can check tasks as you complete them. Studio saves your changes
-automatically. Other course staff can see your changes.
+automatically. Other members of the course team can see your changes.
 
 .. _Add Course Team Members:
 
@@ -127,7 +127,8 @@ Add Course Team Members
 ************************
 
 Course team members are users who help you build your course. Before you can
-assign Staff or Admin access to a team member:
+assign Staff or Admin access to a team member, you must meet these
+prerequisites.
 
 * You must be an Admin.
 
@@ -161,13 +162,10 @@ The new team member can now work on the course in Studio.
 
 You can also assign privileged roles to users when you work in the LMS.
 
-.. note:: The LMS "Course Staff" role is the same as the Studio "Staff" role, 
- and the LMS "Instructors" role is the same as the Studio "Admin" role.
-
-Regardless of where the role is assigned, these administrative team members
-can work on your course in both Studio and the LMS (after enrollment). For
-more information about assigning roles while you run your course, see
-:ref:`Course_Staffing`.
+Regardless of where the role is assigned, these administrative team members can
+work on your course in Studio immediately, and use the LMS and Insights after
+enrollment. For more information about assigning roles while you run your
+course, see :ref:`Course_Staffing`.
 
 You can also designate teams of people to beta test your course and to
 moderate and manage its discussions by assigning other LMS roles. The beta

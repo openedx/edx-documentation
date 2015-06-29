@@ -322,15 +322,16 @@ Optional parameters::
 When specifying ``el_id``, it is essential to set "output" to one of
     element - GST will invoke the function, and the return of it will be
               inserted into a HTML element with id specified by ``el_id``.
-    none    - GST will simply inoke the function. It is left to the instructor
-              who writes the JavaScript function body to update all necesary
-              HTML elements inside the function, before it exits. This is done
-              so that extra steps can be preformed after an HTML element has
-              been updated with a value. Note, that because the return value
-              from this function is not actually used, it will be tempting to
-              omit the "return" statement. However, in this case, the attribute
-              "disable_auto_return" must be set to "true" in order to prevent
-              GST from inserting a "return" statement automatically.
+    none    - GST will simply invoke the function. It is left to the course 
+              team member who writes the JavaScript function body to update 
+              all necessary HTML elements inside the function before it 
+              exits. This is done so that extra steps can be performed after 
+              an HTML element has been updated with a value. Note that because 
+              the return value from this function is not actually used, it 
+              will be tempting to omit the "return" statement. However, in 
+              this case, the attribute "disable_auto_return" must be set to 
+              "true" in order to prevent GST from inserting a "return" 
+              statement automatically.
     plot_label - GST will process all plot labels (which are strings), and
                  will replace the all instances of substrings specified by
                  ``el_id`` with the returned value of the function. This is

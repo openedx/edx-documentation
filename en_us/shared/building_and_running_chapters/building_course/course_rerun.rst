@@ -90,10 +90,10 @@ Before you re-run a course, complete the following steps.
 To re-run a course, you must have course creation privileges in Studio and you
 must be a member of the course team for the course you want to re-run.
   
-To re-run a course:
+To re-run a course, follow these steps.
 
 #. Log in to Studio. Your dashboard lists the courses that you have access to
-   as a staff member.
+   as a course team member.
 
 #. Move your cursor over each row in the list of courses. The **Re-Run Course**
    and **View Live** options appear for each course.
@@ -143,7 +143,7 @@ course start date. See :ref:`Testing Your Course Content` and
 At a minimum, you must make the following changes to prepare the new
 course for release.
 
-* Add course staff members, including discussion admins, moderators, and
+* Add course team members, including discussion admins, moderators, and
   community TAs. See :ref:`Add Course Team Members` or :ref:`Course_Staffing`.
   
 * Update course-wide dates, including course and enrollment start and end

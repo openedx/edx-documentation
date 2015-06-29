@@ -16,11 +16,11 @@ assessments.
 Introduction to Open Response Assessments
 *****************************************
 
-Open response assessments allow instructors to assign questions that might not
-have definite answers, such as text responses or short essays. Learners submit
-responses to questions, then each learner and the learner's peers compare the
-responses to a rubric that you create. You can also allow learners to upload an
-image to accompany a text response.
+Open response assessments allow the course team to assign questions that might
+not have definite answers, such as text responses or short essays. Learners
+submit responses to questions, then each learner and the learner's  peers
+compare the responses to a rubric that you create. You can also allow learners
+to upload an image to accompany a text response.
 
 Open response assessments can include both peer assessments and self
 assessments. In peer assessments, learners compare their peers' responses to a
@@ -33,11 +33,11 @@ scoring responses that their peers have submitted. For more information, see
 :ref:`PA Top Responses`.
 
 .. note:: Open response assessments that are visible to all learners do not
-   respect cohorts. In other words, it is possible for learners in one cohort to
-   be asked to grade responses for learners in another cohort. If you want to
-   make an open response assessment divided by cohort, you must create that
-   assessment in a course component that is defined as cohort-specific. For more
-   information about cohorts and creating cohort-specific courseware, see
+   respect cohorts. In other words, it is possible for learners in one cohort
+   to be asked to grade responses for learners in another cohort. If you want
+   to make an open response assessment divided by cohort, you must create that
+   assessment in a course component that is defined as cohort-specific. For
+   more information about cohorts and creating cohort-specific courseware, see
    :ref:`Cohorts Overview` and :ref:`Cohorted Courseware Overview`.
 
 For more information about creating open response assessments, including step
@@ -101,9 +101,9 @@ open response assessments in your courses.
   to perform too many peer assessments can have a negative impact on learners'
   course completion rates.
 
-* Set the **Must Grade** number higher than the **Graded By** number to minimize
-  the chance that some responses will not be peer assessed. EdX recommends a
-  setting such as **Must Grade** = 4 and **Graded By** = 3.
+* Set the **Must Grade** number higher than the **Graded By** number to
+  minimize the chance that some responses will not be peer assessed. EdX
+  recommends a setting such as **Must Grade** = 4 and **Graded By** = 3.
 
 * In ORA assignments, to allow enough time for peer assessments to be
   performed after learners have submitted their own responses, set the
@@ -113,21 +113,20 @@ open response assessments in your courses.
   due, other learners may not have time to perform peer assessments before
   peer assessments are due.
 
-* In discussion forum posts, provide guidance for peer grading of ORA
-  assignments.
+* In discussion posts, provide guidance for peer grading of ORA assignments.
 
-* Consider extending due dates to allow course staff to monitor discussion
-  forums for questions about or reactions to peer grading, and to address
-  issues when necessary.
+* Consider extending due dates to allow the discussion moderation team to
+  monitor course discussions for questions about, or reactions to, peer
+  grading, and to address issues when necessary.
 
-  If learners raise concerns about ORA assignments in discussion forums,
-  course staff have the ability to perform actions such as :ref:`deleting a
-  learner's history, or "state" <Adjust_grades>` for a problem so that he can
-  submit his assignment again, or :ref:`removing a learner response <Remove a
-  learner response from peer grading>` from peer grading. If there are more
-  widespread issues with peer grading, course staff can reduce the weight of
-  the peer assessment within the final course grade or allow learners to drop
-  the lowest graded assignment from their grades.
+  If learners raise concerns about ORA assignments in course discussions,
+  course team members can perform actions such as :ref:`deleting a learner's
+  history, or "state" <Adjust_grades>` for a problem so that he can submit his
+  assignment again, or :ref:`removing a learner response <Remove a learner
+  response from peer grading>` from peer grading. If there are more widespread
+  issues with peer grading, the course team can reduce the weight of the peer
+  assessment within the final course grade or allow learners to drop the lowest
+  graded assignment from their grades.
 
 
 .. _PA Elements:
@@ -141,8 +140,8 @@ elements:
 
 * One or more :ref:`prompts <PA Prompts>`, or questions.
 
-* The :ref:`rubric <PA Rubric>`. One rubric is used to grade all the prompts in the
-  assessment.
+* The :ref:`rubric <PA Rubric>`. One rubric is used to grade all the prompts in
+  the assessment.
   
 * One or more :ref:`assessment steps <PA Assessment Steps>`. Assignments can
   include a learner training step, a peer assessment step, and a self
@@ -166,7 +165,8 @@ near the top of the page, followed by a field where the learner enters a
 response. You can require your learners to enter text as a response, or you can
 allow your learners to both enter text and upload an image.
 
-.. note:: If learners upload an image, the image file must be a .jpg or .png file, and it must be smaller than 5 MB in size.
+.. note:: If learners upload an image, the image file must be a .jpg or .png 
+ file, and it must be smaller than 5 MB in size.
 
 .. image:: ../../../../shared/building_and_running_chapters/Images/PA_QandRField.png
    :width: 500
@@ -233,19 +233,19 @@ Rubrics consist of *criteria* and *options*.
   .. image:: ../../../../shared/building_and_running_chapters/Images/PA_Rubric_LMS.png
      :alt: Image of a rubric in the LMS with call-outs for the criterion prompt and option names, explanations, and points
 
-Different criteria in the same assignment can have different numbers of options.
-For example, in the image above, the first criterion has three options and the
-second criterion has four options.
+Different criteria in the same assignment can have different numbers of
+options. For example, in the image above, the first criterion has three options
+and the second criterion has four options.
 
 .. note:: You can also include criteria that do not have options, but that do include a field where learners can enter feedback. For more information, see :ref:`PA Criteria Comment Field Only`.
 
 You can see both criterion and option names when you access assignment
-information for an individual learner. For more information, see :ref:`Accessing
-ORA Assignment Information`.
+information for an individual learner. For more information, see
+:ref:`Accessing ORA Assignment Information`.
 
 .. image:: ../../../../shared/building_and_running_chapters/Images/PA_Crit_Option_Names.png
    :width: 600
-   :alt: learner-specific assignment information with call-outs for criterion and option names
+   :alt: Learner-specific assignment information with call-outs for criterion and option names.
 
 When you create your rubric, decide how many points each option will receive,
 and make sure that the explanation for each option is as specific as possible.
@@ -273,13 +273,18 @@ points possible)
      - This response does not address the origins of the Hundred Years' War.
    * - 1
      - Dynastic disagreement
-     - This response alludes to a dynastic disagreement between England and France, but doesn't reference Edward III of England and Philip VI of France.
+     - This response alludes to a dynastic disagreement between England and
+       France, but doesn't reference Edward III of England and Philip VI of
+       France.
    * - 3
      - Edward and Philip
-     - This response mentions the dynastic disagreement between Edward III and Philip VI, but doesn't address the role of Salic law.
+     - This response mentions the dynastic disagreement between Edward III and
+       Philip VI, but doesn't address the role of Salic law.
    * - 5
      - Salic law
-     - This response explains the way that Salic law contributed to the dynastic disagreement between Edward III and Philip VI, leading to the Hundred Years' War.
+     - This response explains the way that Salic law contributed to the
+       dynastic disagreement between Edward III and Philip VI, leading to the
+       Hundred Years' War.
 
 .. note:: For peer grading, the most effective rubrics are as concrete 
    and specific as possible. Many novice learners will be unqualified 
@@ -313,7 +318,7 @@ self assessments ("Assess Your Response").
    recommends that you place the peer assessment before the self assessment.
 
 .. image:: ../../../../shared/building_and_running_chapters/Images/PA_AsmtWithResponse.png
-  :alt: Image of peer assessment with assessment steps and status labeled
+  :alt: A peer assessment with assessment steps and status labeled.
   :width: 600
 
 
@@ -325,10 +330,10 @@ Learner Training Step
 
 When you create a peer assessment assignment, you can include one or more
 learner training assessments to help learners learn to perform their own
-assessments. A learner training assessment contains one or more sample responses
-that you write, together with the scores that you would give the sample
-responses. Learners review these responses and try to score them the way that
-you scored them.
+assessments. A learner training assessment contains one or more sample
+responses that you write, together with the scores that you would give the
+sample responses. Learners review these responses and try to score them the way
+that you scored them.
 
 .. note:: If you include a learner training step, you must also include a peer
    assessment step. The learner training step must come before peer and self
@@ -341,17 +346,18 @@ gave the response do not appear. The learner also sees the number of sample
 responses that he or she will assess.
 
 .. image:: ../../../../shared/building_and_running_chapters/Images/PA_TrainingAssessment.png
-   :alt: Sample training response, unscored
+   :alt: Sample training response, unscored.
    :width: 500
 
 The learner selects an option for each of the assignment's criteria, and then
 selects **Compare your selections with the instructor's selections**. If all of
-the learner's selections match the instructor's selections, the next sample
-response opens automatically.
+the learner's selections match the selections defined by the course team, the
+next sample response opens automatically.
 
-If any of the learner's selections differs from the instructor's selections, the
-learner sees the response again, and the following message appears above the
-response:
+If any of the learner's selections differ from those specified by the course
+team, the learner sees the response again, and the following message appears
+above the response.
+
 
 .. code-block:: xml
 
@@ -361,7 +367,8 @@ response:
   the assessment again.
 
 For each of the criteria, the learner sees one of the following two messages,
-depending on whether the learner's selections matched those of the instructor:
+depending on whether the learner's selections matched those of the course team.
+
 
 .. code-block:: xml
 
@@ -377,11 +384,11 @@ For example, the following learner chose one correct option and one incorrect
 option.
 
 .. image:: ../../../../shared/building_and_running_chapters/Images/PA_TrainingAssessment_Scored.png
-   :alt: Sample training response, scored
+   :alt: Sample training response, scored.
    :width: 500
 
 The learner continues to try scoring the sample response until the learner's
-scoring for all criteria matches the instructor's scoring.
+scoring for all criteria matches the scoring defined by the course team.
 
 For more information, see :ref:`PA Student Training Step`.
 
@@ -390,9 +397,9 @@ For more information, see :ref:`PA Student Training Step`.
 Peer Assessment Step
 *****************************
 
-In the peer assessment step, learners review other learners' responses. For each
-response, they select an option for each criterion in your rubric based on the
-response. Learners can also provide text feedback, or comments, on each
+In the peer assessment step, learners review other learners' responses. For
+each response, they select an option for each criterion in your rubric based on
+the response. Learners can also provide text feedback, or comments, on each
 response.
 
 If you include both peer and self assessment steps, edX recommends that you
@@ -415,29 +422,28 @@ assignment is complete.
    must undergo. For example, if you require each response to receive three
    assessments, you could require each learner to assess five responses.
 
-If all responses have received assessments, but some learners have not completed
-the required number of peer assessments, those learners can assess responses
-that other learners have already assessed. The learner who submitted the
-response sees the additional peer assessments when he sees his score. However,
-the additional peer assessments do not count toward the score that the response
-receives.
-
+If all responses have received assessments, but some learners have not
+completed the required number of peer assessments, those learners can assess
+responses that other learners have already assessed. The learner who submitted
+the response sees the additional peer assessments when he sees his score.
+However, the additional peer assessments do not count toward the score that the
+response receives.
 
 .. _Feedback Options:
 
 Feedback Options
 ****************
 
-By default, learners see a single comment field below the entire rubric. You can
-also add a comment field to an individual criterion or to several individual
-criteria. This comment field can contain up to 300 characters.
+By default, learners see a single comment field below the entire rubric. You
+can also add a comment field to an individual criterion or to several
+individual criteria. This comment field can contain up to 300 characters.
 
 The comment field appears below the options for the criterion. In the following
 image, both criteria have a comment field. There is also a field for overall
 comments on the response.
 
 .. image:: ../../../../shared/building_and_running_chapters/Images/PA_CriterionAndOverallComments.png
-   :alt: Rubric with comment fields under each criterion and under overall response
+   :alt: Rubric with comment fields under each criterion and under overall response.
    :width: 600
 
 For more information, see :ref:`PA Add Rubric` and :ref:`PA Criteria Comment
@@ -471,8 +477,8 @@ In self assessments, the learner sees his response followed by your rubric. As
 with peer assessments, the learner compares the rubric to his response and
 selects an option for each of the criteria.
 
-If you include both peer and self assessments, we recommend that you include the
-peer assessment before the self assessment.
+If you include both peer and self assessments, edX recommends that you include
+the peer assessment before the self assessment.
 
 
 .. _PA Scoring:
@@ -512,10 +518,10 @@ that criterion. For example, if the Ideas criterion in a peer assessment
 receives a 10 from one learner, a 7 from a second learner, and an 8 from a
 third learner, the Ideas criterion's score is 8.
 
-The learner's final score on a response is the sum of the median scores from all
-peer assessors for all of the required criteria.
+The learner's final score on a response is the sum of the median scores from
+all peer assessors for all of the required criteria.
 
-For example, a response might have received the following scores from three peer
+For example, a response might have received the following scores from peer
 assessors.
 
 .. list-table::
@@ -574,31 +580,30 @@ Self assessments are scored by criteria. Each learner rates herself on each
 criterion, using the rubric. The learner's final score on a response is the
 total number of earned points, out of the total possible points.
 
-
-
 .. _PA Top Responses:
 
 *****************************
 Top Responses
 *****************************
 
-You can include a **Top Responses** section that shows the top-scoring responses
-that learners have submitted for the assignment, along with the scores for those
-responses. The **Top Responses** section appears below the learner's score
-information after the learner finishes every step in the assignment.
+You can include a **Top Responses** section that shows the top-scoring
+responses that learners have submitted for the assignment, along with the
+scores for those responses. The **Top Responses** section appears below the
+learner's score information after the learner finishes every step in the
+assignment.
 
 .. image:: ../../../../shared/building_and_running_chapters/Images/PA_TopResponses.png
-   :alt: Section that shows the text and scores of the top three responses for the assignment
+   :alt: Section that shows the text and scores of the top three responses for the assignment.
    :width: 500
 
-You can allow the **Top Responses** section to show between 1 and 100 responses.
-Keep in mind, however, that each response might be up to 300 pixels in height in
-the list. (For longer responses, learners can scroll to see the entire
-response.) We recommend that you specify 20 or fewer responses to prevent the
-page from becoming too long.
+You can allow the **Top Responses** section to show between 1 and 100
+responses. Keep in mind, however, that each response might be up to 300 pixels
+in height in the list. (For longer responses, learners can scroll to see the
+entire response.) EdX recommends that you specify 20 or fewer responses to
+prevent the page from becoming too long.
 
-.. note:: It may take up to an hour for a high-scoring response to appear in the
-   **Top Responses** list.
+.. note:: It may take up to an hour for a high-scoring response to appear in 
+ the **Top Responses** list.
 
    If a high-scoring response is :ref:`removed from peer assessment<Remove a
    learner response from peer grading>` it is also removed from the **Top

@@ -139,7 +139,7 @@ Assets for HTML certificates exist in the following locations.
 Configure Certificates Within Each Course
 *****************************************
 
-Within Studio, course team members with Admin privileges can create and edit a
+Within Studio, course team members with the Admin role can create and edit a
 certificate configuration that is used to generate certificates for their
 course, including adding signatories and images for organization logo and
 signature images for signatories. For details, see `Set Up Course HTML

@@ -25,18 +25,19 @@ course re-run option. See :ref:`Rerun a Course`.
 Export a Course
 ***************
 
-There are several reasons you may want to export your course:
+There are several reasons you might want to export your course. Examples
+follow.
 
-* To save your work
-* To edit the XML in your course directly
+* To save your work.
+* To edit the XML in your course directly.
 * To create a backup copy of your course, which you can import if you want to
-  revert the course back to a previous state
-* To share with another instructor for another class
+  revert the course back to a previous state.
+* To share with the team members of another course.
 * To create a copy of your course that you can later import into another course
-  instance and customize 
+  instance and customize.
  
 When you export your course, Studio creates a **.tar.gz** file that includes
-the following course data:
+the following course data.
  
 * Course content (all Sections, Subsections, and Units)
 * Course structure
@@ -45,13 +46,14 @@ the following course data:
 * Course assets
 * Course settings
 
-The following data is not exported with your course:
+The following data is not exported with your course.
  
 * User data
 * Course team data
 * Discussion data
 * Certificates
 
+To export your course, follow these steps.
 
 #. From the **Tools** menu, select **Export**.
 #. Select **Export Course Content**.
@@ -89,7 +91,7 @@ on the Course Import page. You can leave this page after the Unpacking stage
 has completed. EdX recommends, however, that you don't make important changes
 to your course until the import operation has completed.
  
-To import a course:
+To import a course, follow these steps.
  
 #. From the **Tools** menu, select **Import**.
 #. Select **Choose a File to Import**.

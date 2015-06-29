@@ -73,6 +73,6 @@ After you pass the entrance exam, in addition to the message at the top
 of the page, you can see all currently available course sections in the
 left pane, and you can access all available course materials.
 
-Instructors can allow students to skip the entrance exam. If your instructor
-allows you to skip the entrance exam, you do not see the entrance exam when
-you access the course.
+The course team can allow students to skip the entrance exam. If a course team
+member allows you to skip the entrance exam, you do not see the entrance exam
+when you access the course.

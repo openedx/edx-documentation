@@ -27,7 +27,7 @@ Custom Courses and Roles
 
 There are three roles involved in creating and running a CCX. 
 
-* **Instructors** create the existing course and have privileges to create CCX
+* **Admins** create the existing course and have privileges to create CCX
   coaches for their course.
 
 * **CCX Coaches** select content from the existing course for the CCX. CCX
@@ -62,21 +62,22 @@ The first step to create a CCX is to create a CCX coach in an existing course.
 A CCX can have only one CCX coach.
 
 You add a CCX coach through the Instructor Dashboard in the LMS. Ensure you
-have Instructor access to the course.
+have the Admin role in the course.
 
 In addition, ensure that the new CCX coach has registered in the LMS and
 enrolled in the course.
 
-#. In the LMS, from the **Instructor** tab select **Membership**. 
+#. In the LMS, select **Instructor**, and then select **Membership**. 
 
-#. In the **Administration List Management** section, from **Select an
-   Administrator Group**, select **CCX Coaches**.
+#. In the **Course Team Management** section, from **Select a course team
+   role**, select **CCX Coaches**.
 
 #. Enter the CCX coach's username or email address and select **Add CCX
    Coach**.
 
-When the CCX coach next logs into the LMS, the **CCX Coach** tab will 
-be visible. The CCX coach dashboard is not accessible by the instructor.
+When the CCX coach next logs into the LMS, the **CCX Coach** tab will be
+visible. The CCX coach dashboard is not accessible by course team members with
+other roles.
 
 ***************************
  Create the Custom Course
@@ -108,8 +109,9 @@ The CCX coach Dashboard provides the tools for you to manage the CCX. The CCX
 coach Dashboard contains four tabs, described in the following sections.
 
 .. note::
-  CCX coaches don't have the same level of access and control over content that
-  course instructors have, and do not have access to the Instructor Dashboard.
+  CCX coaches do not have the same level of access and control over content
+  that team members with the Admin or Staff roles do, and do not have access to
+  the Instructor Dashboard.
 
 ============
 Schedule Tab

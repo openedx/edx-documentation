@@ -5,9 +5,9 @@ Recommender
 ##################
 
 
-The Recommender provides students with a list of online resources on
+The Recommender provides students with a list of online resources 
 related to the course content. These resources are jointly
-managed by the instructors and the students. 
+managed by course team members and the students. 
 
 The most common use is for remediation of errors and misconceptions, followed
 by providing additional, more advanced resources.
@@ -19,7 +19,7 @@ complex knowledge gaps, as well as help to move students in
 the right direction. 
 
 
-* Students and instructors can:
+* Students and course team members can:
 
    * Add new resources.
    * Edit existing resources and work jointly to improve the quality of
@@ -27,7 +27,7 @@ the right direction.
    * Manage quality by voting for high quality resources or flagging
      resources as spam or abuse.
 
-Instructors can endorse useful resources or remove irrelevant entries.
+Course team members can endorse useful resources or remove irrelevant entries.
 
 If you use the Recommender, you should inform students through course
 content or :ref:`course updates <Adding Course Updates and Handouts>` about the

@@ -23,7 +23,7 @@ The initial version of edX Insights, our new course analytics product, is now
 available. In this release, edX Insights provides data for student enrollment
 activity, geographic location, and engagement with course content.
 
-Team members who have the Instructor or Course Staff role can open edX Insights
+Team members who have the Admin or Staff role can open edX Insights
 from the Instructor Dashboard. A banner announcing this new product displays at
 the top of every page: click the **visit edX Insights** link to view data about
 your course.

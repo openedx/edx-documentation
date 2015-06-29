@@ -18,22 +18,23 @@ edx.org Sandbox
 This sandbox is intended for those looking to try out the software powering
 `edx.org <www.edx.org>`_.
 
-The sandbox provides staff- and student-level access to a copy of the current
-version of the edx.org website. This sandbox does not allow access to Studio, the
-course-authoring system.
+The sandbox provides course team and student-level access to a copy of the
+current version of the edx.org website. This sandbox does not allow access to
+Studio, the course authoring system.
 
-Log in by visiting the following URL:
+You can log in by visiting the following URL.
 
 * `https://www.sandbox.edx.org/ <https://www.sandbox.edx.org/>`_
 
-You can log in to a staff account using the following credentials:
+To log in to an account with the Admin role, you can use the following
+credentials.
 
 * username: staff@example.com
 * password: edx
 
 You can log in to a student account using one the following credentials.
-These user accounts represent students enrolled in the demo course with an
-audit, honor code, or verified certificate, respectively:
+These user accounts represent students enrolled in the demo course in the 
+audit, honor code, or verified certificate tracks, respectively.
 
 *  username: audit@example.com / honor@example.com / verified@example.com
 *  password: edx
@@ -92,18 +93,18 @@ To access the sandbox servers, you must supply the following username and passwo
 Logging In To Sandbox Accounts
 ==============================
 To log in to the sandbox for a language, you supply the language code in the
-username as follows:
+username as follows.
 
 * username: LANGUAGE_CODE@example.com
 * password: edx
 
-So if you are working on Chinese (China), you'll log in with these credentials:
+So if you are working on Chinese (China), you log in with these credentials.
 
 * username: zh_CN@example.com
 * password: edx
 
-This user account has Course Staff privileges so that you can test Studio and
-instructor-specific pages in the LMS.
+This user account has Staff privileges so that you can test Studio and
+the Instructor Dashboard pages in the LMS.
 
 You can also make new student-level user accounts, which is useful for verifying
 translations within the registration flow.

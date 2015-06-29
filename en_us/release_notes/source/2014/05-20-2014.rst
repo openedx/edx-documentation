@@ -47,7 +47,7 @@ edX Studio
   was one of the courses affected, you must re-import the course in Studio to
   enable transcript downloads. (BLD-1014)
 
-* A problem that prevented users with only course staff privileges from
+* A problem that prevented users with the Staff role from
   importing courses is resolved. (STUD-1595)
 
 

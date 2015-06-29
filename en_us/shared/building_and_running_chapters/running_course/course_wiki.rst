@@ -4,7 +4,7 @@
 Using the Course Wiki
 ########################
 
-Wikis provide a way for course staff and students to access, share, and
+Wikis provide a way for the course team and students to access, share, and
 collaboratively edit information both about, and for, your course. 
 
 Every course has a wiki that you can set up in a way appropriate for your
@@ -25,14 +25,14 @@ Common uses for the course wiki might include the following activities.
 * Sharing errata for the course.
 * Collecting suggestions for future runs of the course.
 
-As students and staff create and edit wiki articles, they contribute to a
-repository of information about your course that can be immediately useful to
-other students, or useful for you and your course team as you develop other
-courses or future runs of the same course.
+As students and course team members create and edit wiki articles, they
+contribute to a repository of information about your course that can be
+immediately useful to other students, or useful for you and your course team as
+you develop other courses or future runs of the same course.
 
-The wiki for each course is a "child" wiki of the edX-wide wiki. From within any
-course wiki, clicking the top level **Wiki** link in the breadcrumb trail at the
-top of the page takes you to the edX-wide wiki.
+The wiki for each course is a "child" wiki of the edX-wide wiki. From within
+any course wiki, clicking the top level **Wiki** link in the breadcrumb trail
+at the top of the page takes you to the edX-wide wiki.
 
 .. Some courses have linked wikis, which can be useful for course re-runs or for course series. You link a wiki with another course's wiki by...?
 
@@ -48,9 +48,12 @@ Keep these points in mind as you design the wiki for your course:
 
 * Decide whether some parts of the wiki are intended for student collaboration or student input. Make sure that students are able to create and edit wiki articles in those sections, and use text to clearly indicate to students that these pages can be edited.
 
-* Think about the different tasks that will be performed by people in different roles. Typically you want your course team to have some privileges that students do not have. For example, course staff can delete wiki articles, but students cannot.
+* Think about the different tasks that will be performed by people in different
+  roles. Typically you want your course team to have some privileges that
+  students do not have. For example, course team members can delete wiki
+  articles, but students cannot.
 
-Course staff can perform these tasks to manage the wiki:
+Members of the course team can perform these tasks to manage the wiki.
 
 * :ref:`Show or Hide the Wiki<Showing or Hiding the Wiki>`
 * :ref:`Control Wiki Access<Controlling Wiki Access>`
@@ -118,11 +121,11 @@ Setting Permissions for Wiki Articles
 ***************************************
 
 To prevent certain groups of users from being able to add or edit articles, you
-need to modify the read/write permissions for articles. For example, as a course
-instructor, you likely want to prevent students from creating wiki articles at
-the top level, so you should remove write access to course-level wiki articles
-for most users. (Top-level wiki articles are children of the edX-wide wiki, and
-cannot be found within the course wiki).
+need to modify the read/write permissions for articles. For example, as a
+member of the course team, you likely want to prevent students from creating
+wiki articles at the top level, so you should remove write access to course-
+level wiki articles for most users. (Top-level wiki articles are children of
+the edX-wide wiki, and cannot be found within the course wiki).
 
 To modify the permissions for wiki articles, follow these steps.
 
@@ -145,12 +148,12 @@ Groups Used in Wiki Permissions
 There are three groups for each course, managed by adding users to these groups
 on the **Membership** page of the Instructor Dashboard:
 
-	* Beta testers (by default there are no beta testers until you add them)
-	* Instructors (by default, the course author is always in the instructor   group)
+	* Beta Testers (by default there are no beta testers until you add them)
+	* Admins (by default, the course author is always in this group)
 	* Staff (these are course team members)
   
-The permissions for the **Others** group apply to users who are not in the three
-course groups, including students.
+The permissions for the **Others** group apply to users who are not in the
+three course groups, including students.
 
 .. If permissions are unchanged from the default wiki, students can create articles at the course level (children of the edX-wide wiki). This is easy to do accidentally due to the prominence of the Add article button for the top level.
 

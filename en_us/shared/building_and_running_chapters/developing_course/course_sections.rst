@@ -153,8 +153,8 @@ Staff Only Content
 ===========================
 
 A section can contain a unit that is hidden from students and available to
-staff only. That unit is not visible to students, regardless of the release
-date of the section or subsection.
+members of the course team only. That unit is not visible to students,
+regardless of the release date of the section or subsection.
 
 The following example shows how a section that contains a unit that is hidden
 from students displays in the outline, summarized with a black bar.

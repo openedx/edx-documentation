@@ -93,7 +93,7 @@ The new page is immediately available to learners if the course has started.
 Hide or Show the Course Wiki Page
 ************************************************
 
-By default, your course includes a wiki page. Learners and course staff can
+By default, your course includes a wiki page. Learners and the course team can
 use the wiki to post content as well as comment on other people's content. For
 details, see :ref:`Course_Wiki`.
 

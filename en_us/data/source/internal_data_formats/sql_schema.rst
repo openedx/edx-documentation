@@ -239,14 +239,14 @@ is_staff
 ----------
   Most users have a 0 for this field. Set to 1 if the user is a staff member
   of **edX**, with corresponding elevated privileges that cut across courses.
-  It does not indicate that the person is a member of the course staff for any
+  It does not indicate that the person is a member of the course team for any
   given course.
 
   Generally, users with this flag set to 1 are either edX program managers
   responsible for course delivery, or edX developers who need access for
   testing and debugging purposes. Users who have ``is_staff`` = 1 have
-  instructor privileges on all courses and can see additional debug
-  information on the Instructor tab.
+  Admin privileges on all courses and can see additional debug
+  information on the Instructor Dashboard.
 
 .. note::
      This designation has no bearing on a user's role in the discussion
@@ -1295,7 +1295,7 @@ max_grade
   Another way in which ``max_grade`` can differ between entries with the same
   ``module_id`` is if the problem was modified after the ``max_grade`` was
   written and the user never went back to the problem after it was updated.
-  This might happen if a member of the course staff puts out a problem with
+  This might happen if a member of the course team puts out a problem with
   five parts, realizes that the last part doesn't make sense, and decides to
   remove it. People who saw and answered it when it had five parts and never
   came back to it after the changes had been made will have a ``max_grade`` of

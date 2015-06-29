@@ -97,8 +97,8 @@ Types of Discussion Posts
 When you make a contribution in a course discussion topic, you add your post
 as either a question or a discussion.
 
-* A *question* post raises an issue so that the course staff and community can
-  provide answers. 
+* A *question* post raises an issue so that members of the discussion
+  moderation team and the course community can provide answers.
 
 * A *discussion* post starts a conversation by sharing thoughts and reflections,
   and inviting community participation.
@@ -362,9 +362,9 @@ digest, click **Discussion** and then select the **Receive updates** checkbox.
 Provide Feedback on Contributions
 ************************************
 
-As you read the contributions that other students and staff make to discussion
-topics, you can provide feedback without writing a complete response or
-comment. You can:
+As you read the contributions that other students and team members make to
+discussion topics, you can provide feedback without writing a complete response
+or comment. You can provide feedback in these ways.
 
 * :ref:`Vote for posts and responses<Vote for Posts or Responses>` to provide
   positive feedback.
@@ -376,7 +376,7 @@ comment. You can:
   Questions>`.
 
 * :ref:`Report a contribution<Report Discussion Misuse>` that is inappropriate
-  to the course staff.
+  to the discussion moderation team.
 
 To select a feedback option, you use the icons at the top right of each post,
 response, or comment. When you move your cursor over these icons a label
@@ -448,9 +448,9 @@ Answer Questions and Mark Questions as Answered
 Anyone in a course can answer questions. Just add a response to the question
 post with your answer.
 
-The person who posted the question (and staff members) can mark responses as
-correct: click the "Mark as Answer" icon that appears at upper right of
-the response.
+The person who posted the question (and members of the discussion moderation
+team) can mark responses as correct: click the "Mark as Answer" icon that
+appears at upper right of the response.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/Discussion_answer_question.png
  :alt: A question and a response, with the Mark as Answer icon circled

@@ -54,22 +54,22 @@ Replace the placeholders in the following template with your information.
     <p>Add information about class prerequisites here.</p>
   </section>
   <section class="course-staff">
-    <h2>Course Staff</h2>
+    <h2>Course Team</h2>
     <article class="teacher">
       <div class="teacher-image">
         <!-- Replace the path below with the path to your faculty image. -->
         <img src="/c4x/edX/edX101/asset/Placeholder_FacultyImage.jpg"
           align="left" style="margin:0 20 px 0"/>
       </div>
-      <h3>Staff Member</h3>
-      <p>Biography of instructor/staff member</p>
+      <h3>Team Member</h3>
+      <p>Biography of course team member</p>
     </article>
     <article class="teacher">
       <div class="teacher-image">
         <img src="/c4x/edX/edX101/asset/Placeholder_FalcutyImage.jpg"/>
       </div>
-      <h3>Staff Member Name</h3>
-      <p>Biography of instructor/staff member</p>
+      <h3>Team Member Name</h3>
+      <p>Biography of course team member</p>
     </article>
   </section>
   <section class="faq">

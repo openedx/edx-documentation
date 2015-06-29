@@ -11,7 +11,7 @@ excellent sources of feedback and ideas for future iterations of the course.
 Moderators are the key to effectively managing these online communities.
 Moderators keep the discussions productive and relay important information
 (errors, student confusion with or interest in particular topics, and so on)
-to the rest of the course staff. Discussions can be moderated by any of a
+to the rest of the course team. Discussions can be moderated by any of a
 number of members of the course team, but dedicating enough time to moderation
 is the best way to cultivate a successful discussion culture.
 
@@ -28,7 +28,7 @@ Responsibilities
 
 * Relay reports of errata, common misconceptions and questions, highly
   disruptive participants, bugs, and amusing or interesting posts to the most
-  appropriate course staff.
+  appropriate course team members.
 
 * Enforce the Honor Code by editing or deleting problem answers, or requests
   for answers, promptly.
@@ -51,13 +51,13 @@ Qualities of good discussion moderators
 * Good or great content knowledge: stellar students from previous years often
   make good moderators.
 
-* Solid communication skills: the ability to organize positive, consistent,
-  and effective communication with students, other moderators, and course
-  staff.
+* Solid communication skills: the ability to organize positive, consistent, and
+  effective communication with students, other moderators, and members of the
+  course team.
 
 * Time: keeping up-to-date with the discussions for a large MOOC requires at
   least 5 hours per week for reading posts, replying to or editing posts, and
-  communicating with the other moderators and course staff.
+  communicating with the other moderators and the course team.
 
 * Enthusiasm: this is the best predictor of moderator excellence! 
 
@@ -98,7 +98,7 @@ Time sensitive problems
   approaching or new content is being released. The discussions tend to be
   extra busy at these times.
 
-* Alert the course staff about problems that need to be dealt with quickly,
+* Alert the course team about problems that need to be dealt with quickly,
   such as problems with graded assignments. Setting up a course email address
   that is checked frequently is a good way to manage such alerts.
 
@@ -141,8 +141,8 @@ Bugs or errors
 
  - If not, suggest to the students that they check their work. 
 
- - If so, contact course staff, and notify the thread that the error has been
-   reported.
+ - If so, contact members of the course team, and notify the thread that the
+   error has been reported.
 
 * Use language that does not assign blame or discourage users from the
   platform. 

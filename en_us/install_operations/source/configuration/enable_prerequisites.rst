@@ -6,7 +6,7 @@
 Enable Course Prerequisites
 ######################################################
 
-In the Open edX Birch release, a new feature allows course staff to set
+In the Open edX Birch release, a new feature allows course teams to set
 prerequisites for a course. Learners must complete the prerequisite courses
 before participating in the course.
 

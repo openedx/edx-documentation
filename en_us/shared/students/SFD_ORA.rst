@@ -5,21 +5,22 @@ Open Response Assessments
 ###########################################
 
 In an open response assessment, you provide written responses to questions that
-might not have simple or definitive answers. For some open response assessments,
-you can submit an image to accompany a written response.
+might not have simple or definitive answers. For some open response
+assessments, you can submit an image to accompany a written response.
 
 Open response assessments can include a peer assessment, a self assessment, or
 both. With a peer assessment, you assess, or grade, responses that several of
-your peers have submitted, and several of your peers assess your responses. With
-a self assessment, you assess your own responses. To assess a response, you
-compare the response to a rubric that the instructor provides.
+your peers have submitted, and several of your peers assess your responses.
+With a self assessment, you assess your own responses. To assess a response,
+you compare the response to a rubric that the course team provides.
 
 A *rubric* is a list of expectations that the responses in an open response
-assessment should meet. Rubrics are made of *criteria* and *options*. *Criteria*
-describe characteristics that each response should have, such as topics the
-response should cover. The *options* for each of the criteria describe how well
-each response satisfies the criteria. In the following image, you can see a
-rubric with two criteria. Each of the criteria has several options.
+assessment should meet. Rubrics are made of *criteria* and *options*.
+*Criteria* describe characteristics that each response should have, such as
+topics the response should cover. The *options* for each of the criteria
+describe how well each response satisfies the criteria. In the following image,
+you can see a rubric with two criteria. Each of the criteria has several
+options.
 
 .. image:: ../../shared/students/Images/PA_S_Rubric.png
    :alt: Rubric showing criteria and options
@@ -28,10 +29,10 @@ rubric with two criteria. Each of the criteria has several options.
 When you assess a response, you select the option that best describes the
 response for each of the criteria.
 
-Some instructors create a **Top Responses** section that shows the top-scoring
-responses for the assignment and the scores that these responses received. If an
-instructor creates this section, you can see it below your score after you
-complete each step of the assignment.
+Some courses provide a **Top Responses** section that shows the top-scoring
+responses for the assignment and the scores that these responses received. If
+your course team creates this section, you can see it below your score after
+you complete each step of the assignment.
 
 ************************
 Student Instructions
@@ -71,8 +72,8 @@ example, you might see the following message:
 Submit Your Response
 =====================
 
-Read each question carefully. Some instructors include important information in
-the question, such as how long a response must be, or specific topics your
+Read each question carefully. Some course teams include important information
+in the question, such as how long a response must be, or specific topics your
 response must cover.
 
 .. note:: The total word count for all responses within the assessment cannot be
@@ -138,7 +139,7 @@ appears next to the **Choose File** button. If you want to change the image,
 follow steps 1-3 again. You can only upload one image per response.
 
 .. image:: ../../shared/students/Images/PA_Upload_WithImage.png
-   :alt: Example response with an image of Paris
+   :alt: Example response with an image of Paris.
    :width: 500
 
 
@@ -146,23 +147,23 @@ follow steps 1-3 again. You can only upload one image per response.
 Learn to Assess Responses
 ============================
 
-In this step, you will learn to assess responses effectively by reviewing and
-assessing sample responses that the instructor has provided. You will try to
-select the same options for the response as the instructor selected.
+In this step, you learn to assess responses effectively by reviewing and
+assessing sample responses provided by the course team. You try to
+select the same options for the response as the course team selected.
 
-.. note:: Not all instructors provide sample responses for training. If the
-   instructor did provide sample responses, this step does not appear in the
+.. note:: Not all course teams provide sample responses for training. If the
+   course team did provide sample responses, this step does not appear in the
    assignment.
 
-After you submit your response, one of the sample responses opens, together with
-the rubric for the assignment. Read the sample response and the rubric
-carefully, select the options that you think best reflect the response, and then
-click **Compare your selections with the instructor's selections**.
+After you submit your response, one of the sample responses opens, together
+with the rubric for the assignment. Read the sample response and the rubric
+carefully, select the options that you think best reflect the response, and
+then click **Compare your selections with the instructor's selections**.
 
-* If all of your selections are the same as the instructor's selections, the
+* If all of your selections are the same as the defined selections, the
   next sample response opens automatically.
 
-* If any option that you select is not the same as the instructor's selection,
+* If any option that you select is not the same as the defined selection,
   you see the response again, and the following message appears above the
   response.
 
@@ -174,7 +175,7 @@ click **Compare your selections with the instructor's selections**.
   the assessment again.
 
 For each of the criteria, you see one of the following two messages, depending
-on whether your selections matched those of the instructor.
+on whether your selections matched those defined by the course team.
 
 .. code-block:: xml
 
@@ -194,7 +195,7 @@ option.
    :width: 500
 
 You continue to assess the sample response until the options you select for all
-criteria match the options that the instructor selected.
+criteria match the options defined by the course team.
 
 When you have successfully assessed all of the sample responses, you move to the
 next step in the assignment.
@@ -352,7 +353,7 @@ Note, again, that your final score is not the median of the scores that each ind
 View Top Responses (optional)
 ==================================
 
-If the instructor has included a **Top Responses** section, you can see the
+If the course team included a **Top Responses** section, you can see the
 highest-scoring responses that your peers have submitted. This section only
 appears after you have completed all the steps of the assignment.
 
@@ -365,13 +366,13 @@ appears after you have completed all the steps of the assignment.
 Cancelled Responses
 ********************************
 
-If the instructor deems a response that you have submitted to be inappropriate,
-she can cancel that response and remove it from peer grading. In the open
-response assessment you see an indicator that your submission was cancelled,
-with the date and time of the cancellation, and a comment by the instructor
-about the reason.
+If a member of the course team deems a response that you have submitted to be
+inappropriate, she can cancel that response and remove it from peer grading. In
+the open response assessment you see an indicator that your submission was
+cancelled, with the date and time of the cancellation, and a comment by the
+course team member about the reason.
 
-The instructor might allow you to submit a replacement response for the
+The course team member might allow you to submit a replacement response for the
 cancelled one, or she might not. If she does not allow you to submit a
 replacement response, your grade is zero for the assignment.
 

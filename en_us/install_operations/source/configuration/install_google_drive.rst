@@ -6,7 +6,7 @@
 Add the Google Drive and Google Calendar XBlock
 ######################################################
 
-In the Open edX Birch release, course staff can embed Google calendars and
+In the Open edX Birch release, course teams can embed Google calendars and
 Google Drive files in courseware.
 
 To enable this feature on your instance of Open edX, you install the `Google Drive XBlock`_.

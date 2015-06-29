@@ -66,17 +66,17 @@ All problems on the edX platform have several component parts.
    stop working on a problem and come back to it later.
 
 #. **Show Answer button.** This button is optional. When the learner
-   selects **Show Answer**, he sees both the correct answer (see 2
-   above) and the explanation (see 10 below). The instructor sets whether
+   selects **Show Answer**, she sees both the correct answer (see 2
+   above) and the explanation (see 10 below). You define whether
    the **Show Answer** button is visible.
 
-#. **Attempts.** The instructor might set a specific number of attempts or
-   allow unlimited attempts for a problem. By default, the course-wide
-   **Maximum Attempts** advanced setting is null, meaning that the maximum
-   number of attempts for problems is unlimited. If the course-wide **Maximum
-   Attempts** setting is changed to a specific number, the **Maximum Attempts**
-   setting for individual problems defaults to that number, and cannot be set
-   to unlimited.
+#. **Attempts.** You can set a specific number of attempts, or allow
+   unlimited attempts for a problem. By default, the course-wide **Maximum
+   Attempts** advanced setting is null, meaning that the maximum number of
+   attempts for problems is unlimited. If the course-wide **Maximum Attempts**
+   setting is changed to a specific number, the **Maximum Attempts** setting
+   for individual problems defaults to that number, and cannot be set to
+   unlimited.
 
    .. image:: ../../../shared/building_and_running_chapters/Images//AnatomyOfExercise2.png
     :alt: An image of a problem from a learners's point of view, with 
@@ -89,10 +89,10 @@ All problems on the edX platform have several component parts.
    .. image:: ../../../shared/building_and_running_chapters/Images//AnatomyofaProblem_Feedback.png
     :alt: An image of a feedback checkmark and x from a learner's point of view.
 
-#. **Correct answer.** Most problems require that the instructor specify
+#. **Correct answer.** Most problems require that you specify 
    a single correct answer.
 
-#. **Explanation.** The instructor can include an explanation that
+#. **Explanation.** You can include an explanation that
    appears when a learner selects **Show Answer**.
 
 #. **Reset button.** Learners can select **Reset** to clear any input that has
@@ -109,7 +109,7 @@ All problems on the edX platform have several component parts.
     :alt: An image of a graded assignment shown in the left pane of the LMS for a course.
     :width: 200
 
-#. **Grading.** The instructor can specify whether a group of problems
+#. **Grading.** You can specify whether a group of problems
    is graded. If a group of problems is graded, a clock icon appears for
    that assignment in the left pane.
 
@@ -128,12 +128,12 @@ All problems on the edX platform have several component parts.
 There are also some attributes of problems that are not immediately
 visible. You can set these attributes in Studio.
 
-* **Randomization.** For some problems, the instructor can specify whether a
+* **Randomization.** For some problems, you can specify whether a
   problem will use randomly generated numbers that vary from learner to
   learner.
 
-* **Weight.** Different problems in a particular problem set can have different
-  weights.
+* **Weight.** Different problems in a particular problem set can be
+   given different weights.
 
 * **Label.** To improve accessibility for learners who have disabilities, each
   problem needs a descriptive label. The label typically contains part or all
@@ -550,13 +550,12 @@ Modifying a Released Problem
  experience in the course and analysis of course data.
 
 After a learner submits a response to a problem, the edX Learning Management
-System (LMS) stores the response, the score that the learner
-received, and the maximum score for the problem. 
-
-For problems with a **Maximum Attempts** setting greater than 1, the LMS
-updates these values each time the learner submits a new response to a problem.
-However, if an instructor changes a problem or its attributes, existing learner
-information for that problem is not automatically updated.
+System (LMS) stores that response, the score that the learner
+received, and the maximum score for the problem. For problems with a **Maximum
+Attempts** setting greater than 1, the LMS updates these values each time the
+learner submits a new response to a problem. However, if you change
+a problem or its attributes, existing learner information for that problem is
+not automatically updated.
 
 For example, you release a problem and specify that its answer is 3.
 After some learner have submitted responses, you notice that the answer
@@ -751,11 +750,12 @@ Create Randomized Problems
 
 .. note::
 
-  * Once you have implemented randomization, you can only see one of the
-    versions or problems in Studio. You can edit that single problem directly
-    in Studio, but to edit any of the other problems, you must export
-    your course, edit the problems in a text editor, and then re-import the
-    course. This is true for instructors as well as course teams.
+  * After you implement randomization, you can only see one of the versions or
+    problems in Studio. You can edit that single problem directly in Studio,
+    but to edit any of the other problems, you must export your course, edit
+    the problems in a text editor, and then re-import the course. The same
+    procedure applies to all course team members, regardless of their assigned
+    roles.
   
   * A .csv file for learner responses contains the responses to each of the
     problems in the problem bank.

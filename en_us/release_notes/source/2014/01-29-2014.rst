@@ -58,7 +58,9 @@ edX Learning Management System
 
 * Grading in unreleased LTI components did not work correctly for users with the Beta Tester role. This problem has been resolved. (BLD-641)
 
-* In Firefox, videos started playing from 00:00 even if the instructor specified a different start time for the video. Videos now start from the specified start time. (BLD-708)
+* In Firefox, videos started playing from 00:00 even if a different start time
+  was specified for the video. Videos now start from the specified start time.
+  (BLD-708)
 
 
 ***************************************

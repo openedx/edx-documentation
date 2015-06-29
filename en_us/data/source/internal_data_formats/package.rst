@@ -19,9 +19,9 @@ for all of their organizations' edx.org and edge.edx.org courses.
 * :ref:`Data Package Contents`
 
 Course-specific data is also available to the members of individual course
-teams. Users who are assigned the Instructor or Course Staff role can view and
-download data from the Instructor Dashboard in their live courses and from edX
-Insights. The data available to course teams from these applications is a
+teams. Users who are assigned the Admin or Staff role for the course can view
+and download data from the Instructor Dashboard in their live courses and from
+edX Insights. The data available to course teams from these applications is a
 subset of the data available in the data packages. For more information, see
 `Building and Running an edX Course`_ and `Using edX Insights`_.
 

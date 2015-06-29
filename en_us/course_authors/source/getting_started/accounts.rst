@@ -11,8 +11,8 @@ getting started on edX websites.
 * :ref:`Create an Account`
 * :ref:`edX101_section`
 
-This information is intended for course staff. You might want to include the
-details about the registration process and password policies in your
+This information is intended for course team members. You might want to include
+the details about the registration process and password policies in your
 communications with prospective students.
 
 For information about enrolling students in a course, see

@@ -26,9 +26,9 @@ information that can be used to identify, contact, and locate individuals. This
 information is available to course authors for the students who are enrolled in
 their courses.
 
-Course staff should follow the policies established by their organizations
-and comply with the legal requirements of their locales to prevent public
-distribution or misuse of this information.
+Members of the course team should follow the policies established by their
+organizations and comply with the legal requirements of their locales to
+prevent public distribution or misuse of this information.
 
 .. **Question**: I just made this statement up. What guidance can/should we give, for immediate publication and in the future? (sent to Tena and Jennifer Adams 31 Jan 14)
 
@@ -72,12 +72,12 @@ enrolled in your course.
 * mailing_address
 * goals
 
-The student data that is available to course staff always reflects the set of
-live, current enrollments. Students can enroll in your course throughout the
-defined enrollment period, and they can unenroll from a course at any time.
+The student data that is available to course team members always reflects the
+set of live, current enrollments. Students can enroll in your course throughout
+the defined enrollment period, and they can unenroll from a course at any time.
 Students can also change their email addresses and full names at any time. As a
-result, you may want to download student data periodically to gain insights into
-how the student population changes over time.
+result, you may want to download student data periodically to gain insights
+into how the student population changes over time.
 
 .. note:: In the future, edX may also request that students select a language 
  and location. This data is not collected at this time.
@@ -104,7 +104,7 @@ For courses with fewer than 200 students enrolled, you also have the option to
 view student data on the Instructor Dashboard.
 
 .. note:: In addition to the data for enrolled students, data for the course 
- staff is included in the file or display.
+ team is included in the file or display.
 
 To download student data, follow these steps.
 
@@ -120,7 +120,7 @@ To download student data, follow these steps.
   page and do other work while it runs.
 
   To track the progress of the report process, reload the page in your browser
-  and scroll down to the **Pending Instructor Tasks** section.
+  and scroll down to the **Pending Tasks** section.
 
 4. To open or save a student data report, click the
    ``{course_id}_student_profile_info_{date}.csv`` file name at the bottom of

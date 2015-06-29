@@ -40,8 +40,8 @@ April-June 2015
      - Added descriptions of the ``video_show_cc_menu`` and
        ``video_hide_cc_menu`` events to the 
        :ref:`video interaction events<video>` section.
-   * - 19 May 2015
-     - Added information about new instructor report events to the
+   * - 19 May 15
+     - Added information about new course team report events to the
        :ref:`Tracking Logs` section.
    * - 11 May 2015 
      - Updated the descriptions of the ``pause_video``, ``play_video``, and
@@ -135,7 +135,7 @@ October-December 2014
      - Updated video events with new fields relating to mobile device use in
        the :ref:`Tracking Logs` section.
    * - 10/07/14
-     - Added new student and instructor events relating to cohort use to the
+     - Added new student and course team events relating to cohort use to the
        :ref:`Tracking Logs` section.
    * - 
      - Removed information about XML course formats. See the `edX Open
