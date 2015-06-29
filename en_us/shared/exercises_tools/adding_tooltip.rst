@@ -8,10 +8,11 @@ You can add inline tooltips to a problem, so that learners can hover over the
 tooltip icon and see text that you write to help them understand the problem.
 
 For example, in the following problem the learner hovers over the tooltip icon
-to see a definition for the acronym "ROI":
+to see a definition for the acronym "ROI".
 
 .. image:: ../../../shared/building_and_running_chapters/Images/tooltip.png
  :alt: An example of a tooltip from a learner's point of view.
+ :width: 500
 
 .. note:: 
   For learners using a screen reader, the tooltip expands to show the tooltip

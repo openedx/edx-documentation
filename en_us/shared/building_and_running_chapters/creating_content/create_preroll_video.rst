@@ -14,7 +14,7 @@ videos in your course. For example, a pre-roll video might provide learners
 with information about your organization, or about the next course in an
 XSeries. One pre-roll video can be included in each course.
 
-.. contents:: Section Contents 
+.. contents:: 
   :local:
   :depth: 1
 
@@ -180,13 +180,13 @@ To identify the pre-roll video for your course, follow these steps.
 
      {"video_id": "83cef264-d6f5-4cf2-ad9d-0178ab8c92cd"}
 
-7. After the closing quotation mark, add a comma and a space. 
+#. After the closing quotation mark, add a comma and a space. 
 
    ::
 
      {"video_id": "83cef264-d6f5-4cf2-ad9d-0178ab8c92cd", }
 
-8. After the comma and the space, enter ``"transcripts": {}``. 
+#. After the comma and the space, enter ``"transcripts": {}``. 
 
 #. Inside the pair of braces for the transcripts, you enter a value pair to
    identify the language of the transcript file and then its file name from
@@ -207,7 +207,7 @@ To identify the pre-roll video for your course, follow these steps.
    Chinese or ``"zh_HANT"`` for Traditional Chinese. Note that you enter only
    the file name for each transcript, and not its complete Studio URL.
 
-10. If you have other transcript files, you add them in comma separated pairs
+#. If you have other transcript files, you add them in comma separated pairs
     after your first ``"language": "URL"`` pair.
 
     ::
@@ -215,7 +215,7 @@ To identify the pre-roll video for your course, follow these steps.
       {"video_id": "83cef264-d6f5-4cf2-ad9d-0178ab8c92cd", "transcripts": {"en": "edx_preroll_en.srt", "zh_HANS": "edx_preroll_zh_HANS.srt", "zh_HANT": "edx_preroll_zh_HANT.srt"}}
 
  
-11. Select **Save Changes**. Studio resequences and reformats your entry.
+#. Select **Save Changes**. Studio resequences and reformats your entry.
     Scroll back to **Video Pre-roll** to verify that your entry was saved as
     you expect. Entries that do not contain all of the required punctuation
     characters revert to the previous value when you save, and no warning is
@@ -272,7 +272,7 @@ To remove the pre-roll file from your course, follow these steps.
 
     {}
 
-3. Select **Save Changes**. 
+#. Select **Save Changes**. 
 
 
 .. _Processing Video Files: http://processing-video-files.readthedocs.org/en/latest/

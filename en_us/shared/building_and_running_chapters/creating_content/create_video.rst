@@ -4,37 +4,63 @@
 Working with Video Components
 #############################
 
+This section describes how to work with videos for your course.
+
+.. contents::
+ :local:
+ :depth: 1
+
+************************
+Overview
+************************
+
 You can create videos and add them to a course to supplement active
 learning components, such as discussions and problems. Videos can be
 effective for a number of purposes, such as presenting motivating 
 material, showing experiments, and reducing cognitive load for complex
 content.
 
-.. note:: Before creating video content, figure out whether video is
-  the best medium. Should the content be conveyed through text? Through
-  an interactive demonstration? By having the student work through a 
-  problem? Try to keep videos as short as possible -- students are much
-  less likely to finish watching a video if it is more than 5-10 minutes 
-  long. When creating videos, try to follow `Richard Mayer's 12 Principles 
-  <http://hartford.edu/academics/faculty/fcld/data/documentation/technology/presentation/powerpoint/12_principles_multimedia.pdf>`_. 
-  These principles are based on extensive experimental research of student
-  learning. 
+=====================
+When to use a Video
+=====================
+
+Before creating video content, figure out whether video is the best medium by
+asking the following questions.
+
+* Should the content be conveyed through text? 
+* Through an interactive demonstration? 
+* By having learners work through a problem? 
   
-Adding a video to your course has several steps.
+=============
+Video Length
+=============
 
-.. contents:: Section Contents 
-  :local:
-  :depth: 1
+Keep videos as short as possible.
 
-.. important:: Be sure to review :ref:`Creating Accessible Media` 
- before you create videos for your course.
+Learners are much less likely to finish watching a video if it is more than
+5-10 minutes long. 
+
+====================
+Video Accessibility
+====================
+
+Be sure to review :ref:`Creating Accessible Media` before you create videos for
+your course.
+
+========================================
+Allowing Learners to Download Videos
+========================================
 
 To help course teams protect video assets, the edX video player hides video
-URLs from students by default. This functionality is in effect for all video
+URLs by default. This functionality is in effect for all video
 files, including YouTube videos and videos that are hosted in other locations.
-Students can still download videos if you select the **Video Download
-Allowed** option for your video components. For more information about posting
+
+You can allow learners to download videos by selecting the **Video Download
+Allowed** option for your video components. 
+
+For more information about posting
 videos to hosting sites other than YouTube, see :ref:`Post the Video Online`.
+
 For more information about options that you can set when you create a video
 component, see :ref:`Video Advanced Options` under :ref:`Create a Video
 Component`.
@@ -49,14 +75,20 @@ Your videos can contain whatever content you want to include in the course. The
 `Creating Videos`_ section of `edX101 Overview of Creating an edX Course`_ has
 some helpful pointers for creating good video content.
 
+When you create videos, follow `Richard Mayer's 12 Principles
+<http://hartford.edu/academics/faculty/
+fcld/data/documentation/technology/presentation/powerpoint/12_principles_mult
+imedia.pdf>`_. The principles in this document are based on extensive
+experimental research of student learning.
+
 .. _Compression Specifications:
 
 ======================================
 Recommended Compression Specifications
 ======================================
 
-When you create your video, edX recommends the following compression
-specifications. These specifications are recommended but not required.
+EdX recommends the following video compression specifications. These
+specifications are recommended but not required.
 
 .. list-table::
    :widths: 10 20 20
@@ -132,7 +164,7 @@ file** to download the .srt or .txt transcript.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/Video_DownTrans_srt-txt.png
    :width: 500
-   :alt: Video status bar showing srt and txt transcript download options
+   :alt: Video status bar showing srt and txt transcript download options.
 
 You can also provide transcripts in different formats, such as .pdf, and you
 can provide transcripts in different languages. For more information about
@@ -200,7 +232,7 @@ course video, it might be the result of one of these browser-related problems.
 
 * Verify that file metadata, particularly the MIME type, is correctly set on
   the host site. Internet Explorer 10 browsers do not play videos if the MIME
-  type is not set. For example, make sure that the HTTP header Content-Type
+  type is not set. For example, make sure that the HTTP header ``Content-Type``
   is set to video/mp4 for an .mp4 file, or to video/webm for a .webm file.
 
   As an example of how you might set metadata on a video backup site, the
@@ -228,12 +260,12 @@ To add a video and its transcript to your course, follow these steps.
 
 #. Under **Add New Component**, select **Video**.
 
-#. When the new video component appears, select **Edit**. The video editor opens
-   to the **Basic** page.
+#. When the new video component appears, select **Edit**. The video editor
+   opens to the **Basic** page.
 
    .. image:: ../../../shared/building_and_running_chapters/Images/VideoComponentEditor.png
-    :alt: Image of the video component editor
-    :width: 500
+    :alt: Image of the video component editor.
+    :width: 600
 
    You replace the default values with your own.
 
@@ -316,8 +348,8 @@ The following options appear on the **Advanced** page of the video component.
         **Display Name** field on the **Basic** tab.
     * - **Default Timed Transcript**
       -  The name of the transcript file that is used in the **Default Timed
-         Transcript** field on the **Basic** page. This field is auto-populated.
-         You do not have to change this setting.
+         Transcript** field on the **Basic** page. This field is auto-
+         populated. You do not have to change this setting.
     * - **Download Transcript Allowed**
       - Specifies whether you want to allow learners to download the timed
         transcript. If you select **True**, a link to download the
@@ -369,8 +401,8 @@ The following options appear on the **Advanced** page of the video component.
         information, see :ref:`Transcripts in Additional Languages`.
     * - **Upload Handout**
       - Allows you to upload a handout to accompany this video. Your handout
-        can be in any format. Learners can download the handout by clicking
-        **Download Handout** under the video.For more information, see
+        can be in any format. Learners can download the handout by selecting
+        **Download Handout** under the video. For more information, see
         :ref:`Additional Transcripts`.
     * - **Video Available on Web Only**
       - If you select **True**, learners are only allowed to play this video
@@ -447,7 +479,7 @@ component to associate the .srt file with the video.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/VideoTOC.png
    :alt: Image of a video with a transcript that has links to different parts
-    of the video
+    of the video.
    :width: 500
 
 #. After you obtain the .srt file that will function as the table of contents,
@@ -537,7 +569,7 @@ To add the transcripts to a video component, follow these steps.
 
 #. Repeat steps 2 - 5 for any additional languages.
 
-When your students view the video, they can select **CC** to select a
+When your learners view the video, they can select **CC** to select a
 language.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/Video_LanguageTranscripts_LMS.png
