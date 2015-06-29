@@ -15,15 +15,18 @@ encounter platform issues that you believe might affect your ability to
 provide accessible course content, please contact us at accessibility@edx.org.
 We welcome any comments and questions. 
 
-.. note:: If you use authoring tools other than those provided by edX, your
-   course content might not be accessible or might not meet our standards for
-   accessibility.
+.. Do not modify wording of the following note. Exact wording is from Legal.
+
+.. note:: Use of authoring tools other than those provided by edX might result
+   in inaccessible course content. However, for clarity, use of edX authoring
+   tools does not ensure that your course content will be accessible.
+
 
 ************************
 Who Are Our Learners?
 ************************
 
-In the following sections, we outline guidelines for creating and delivering
+In the following sections, we provide guidance on creating and delivering
 course content that allows students to use built-in accessibility
 functionality (such as text-to-speech and magnification features), assistive
 technologies, and alternative formats. These practices consider learners with
@@ -59,15 +62,15 @@ Removing Barriers to Learning
 
 EdX highly recommends that you implement the best practices in this document
 and in other resources. If you cannot easily address any of these barriers to
-providing accessible course content, EdX recommends that you consult with
+providing accessible course content, edX recommends that you consult with
 resources at your organization such as Disability Services, or assistive
 technology and accessibility specialists.
 
 The following resources might also assist you in producing accessible course
 content.
 
-* `User Agent Accessibility Guidelines (UAAG) <http://www.w3.org/WAI/intro/uaag.php#whatis>`_
-* `Authoring Tool Accessibility Guidelines (ATAG) <http://www.w3.org/WAI/intro/atag.php>`_
+* `User Agent Accessibility Guidelines (UAAG) 1.0 <http://www.w3.org/WAI/intro/uaag.php#whatis>`_
+* `Authoring Tool Accessibility Guidelines (ATAG) 2.0 <http://www.w3.org/WAI/intro/atag.php>`_
 * `WAI-ARIA (Accessible Rich Internet Applications) <http://www.w3.org/WAI/intro/aria.php>`_
 * `WCAT2ICT <http://www.w3.org/WAI/intro/wcag2ict>`_
 * `EPUB 3.0 <http://idpf.org/epub/30>`_

@@ -10,9 +10,9 @@ encounter platform issues that you believe might affect your ability to
 provide accessible course content, please contact us at accessibility@edx.org.
 We welcome any comments and questions.
 
-.. note:: If you use authoring tools other than those provided by edX, your
-   course content might not be accessible or might not meet our standards for
-   accessibility.
+.. note:: Use of authoring tools other than those provided by edX might result
+   in inaccessible course content. However, for clarity, use of edX authoring
+   tools does not ensure that your course content will be accessible.
 
 .. contents::
    :local:
@@ -27,9 +27,11 @@ Make Sure Your Course Content is Perceivable
 
 The `WCAG 2.0 <http://www.w3.org/TR/WCAG20/#cc1>`_ guidelines are organized
 around several principles, one of which is that web content must be
-perceivable. Information and user interface components must be presentable to
-users in ways they can perceive. Users must be able to perceive the
-information being presented; it cannot be invisible to all of their senses.
+perceivable. That is, information and user interface components must be
+presentable to users in ways they can perceive; it cannot be invisible to all
+of their senses. In almost all cases, this means that the information should
+be available as text, which can be rendered or transformed into a format that
+can be perceived.
 
 To produce content that is perceivable by all learners, follow these
 guidelines.
@@ -66,9 +68,14 @@ without losing information or structure. If your content includes specific
 information, structure, and relationships (such as sequence) that is conveyed
 through presentation, make sure the same information, structure, and
 relationships can be programmatically determined or are available in text.
+HTML is an ideal format in which to publish course content, because it
+provides semantic elements with implied roles, states, and properties. Users
+of assistive technologies rely on such semantic elements to effectively and
+efficiently consume and navigate content. Publish your content in HTML
+whenever possible.
 
 Make sure your course content does not rely solely on sensory characteristics
-such as shape, size, visual location, orientation, or sound, to be understood
+such as shape, size, visual location, orientation, or sound to be understood
 by learners.
 
 ======================================================
@@ -84,10 +91,13 @@ readable, that there is sufficient contrast between the foreground and
 background. Do not use color as the sole means of visually distinguishing an
 element or conveying critical information. When images contain text, make sure
 that the text has a font size of at least 14 points and has good contrast with
-the background.
+the background.  Whenever possible, use the default font and color defined in
+the edX platform, which was designed to be easy to read.  If you choose to
+override default font colors, make sure that the foreground and background
+colors have `sufficient contrast <https://leaverou.github.io/contrast-ratio/>`_.
 
-For audio elements, make sure foreground sounds are sufficiently louder than
-background sounds.
+For audio elements, make sure that foreground sounds are sufficiently louder
+than background sounds.
 
 
 .. _Make Sure Your Course Content is Understandable:
@@ -114,9 +124,10 @@ explain them when they are first used, and include a glossary with your course
 materials. When you use an abbreviation or acronym, provide the full phrase
 the first time it appears. For example, "World Health Organization (WHO)."
 
-The Center for Plain Language provides detailed resources on writing clearly
-and concisely, in language appropriate for your content and target audience.
-http://centerforplainlanguage.org/5-steps-to-plain-language/
+The Center for Plain Language provides `detailed resources on writing clearly
+and concisely <http://centerforplainlanguage.org/5-steps-to-plain-language/>`_, 
+in language appropriate for your content and target audience.
+
 
 =========================================
 Make Your Course Easy to Navigate
@@ -139,12 +150,15 @@ text are a barrier to most readers. Segmented content is more inviting and is
 easier to navigate and search. See :ref:`Best Practices for HTML Markup` for
 guidance on creating accessible HTML.
 
-When you provide links to external material, use link text that clearly
+When you provide links to external materials, use link text that clearly
 explains the link destination (for example, "Review the Course Syllabus").
 Avoid using constructs such as “Review the Course Syllabus here”, with only
 the word "here" serving as link text. For links that point to documents rather
 than web pages, include the document type in the link. For example,
-"Supplemental Reading for Week 1 (EPUB)").
+"Supplemental Reading for Week 1 (EPUB)". Screen reader users frequently
+browse lists of links, or navigate web pages by moving from one link to the
+next. Ensuring that link text is understandable without surrounding context is
+important.
 
 
 .. _Best Practices for Describing Images:
@@ -153,82 +167,136 @@ than web pages, include the document type in the link. For example,
 Use Best Practices for Describing Images
 ************************************************
 
-When you use images, diagrams, maps, charts, or icons in your course content,
-you must provide text alternatives that provide information equivalent to the
-visual content, or that identifies the purpose of such non-text content.
+When you use images (including diagrams, maps, charts, or icons) in your
+course content, you must provide text alternatives that provide information
+equivalent to the visual content, or that identify the purpose of such 
+non-text content.
 
 The text alternative for an image depends on the image’s context and purpose,
 and might not be a simple description of the image’s visual characteristics.
-In general, for every graphic, edX recommends that you provide a text
+In general, for every image, edX recommends that you provide a text
 alternative that provides the equivalent information that a sighted learner
-would obtain from viewing the graphic. If the image contains words that are
+would obtain from viewing the image. If the image contains words that are
 important for understanding the content, include the words in the text
-alternative.
+alternative. If the image itself is being used as a link, the text
+alternative should describe the destination or action that will be performed
+when the link is activated.
 
-Use the following guidelines when you include images in your course.
+The primary mechanism for providing a text alternative for an image in HTML is
+the ``alt`` attribute. The text value of this attribute is what screen reader
+users hear when they encounter the image in your content. 
+
+.. note:: All images *must* include an ``alt`` attribute. There are some
+   cases, noted below, when an empty ``alt`` attribute (``alt=""``) is
+   desirable. However, the ``alt`` attribute must never be omitted.
+
+Create useful and meaningful text alternatives for images in your course by
+following these guidelines for particular situations.
+
+.. contents::
+   :local:
+   :depth: 1
+
 
 =========================================
-Provide Short Text Descriptions
+Images That Are Links or Controls
 =========================================
 
-For each meaningful graphic, provide a short text description that describes
-the purpose of the image, unless the image conveys a concept or is the only
-source for the information it presents, in which case provide a long text
-description. Note that you do not need to provide a long description if the
-information appears elsewhere on the page. For example, you do not need to
-describe a chart if the same data appears as text in a data table.
+If your image serves as a link to additional content or is an interactive form
+control such as a button, the value of the ``alt`` attribute should describe
+the destination of the link or the action that will be performed when the user
+clicks the image. For example, if a linked image of an envelope opens an email
+program to send an email, a useful text alternative is "Send message", rather
+than "Envelope."
 
-Place short descriptions in the ``alt`` attribute of the HTML image element.
-For more information about adding images, see :ref:`Add an Image to an HTML
-Component`. ::
+===========================
+Images That Contain Text
+===========================
 
- <img src="image.jpg" alt="Photo of Ponte Vecchio">
+If your image contains text, the ``alt`` attribute would typically consist of
+exactly the same text as is contained in the image. However, there are a
+couple of conditions when having an empty ``alt`` attribute (``alt=""``) is
+the preferred solution.
+
+If the text contained in the image is also available in nearby HTML, or
+otherwise accessible text, including it in the ``alt`` attribute would be
+redundant. All images must include an ``alt`` attribute so you should not omit
+the ``alt`` attribute entirely. In addition, if the ``alt`` attribute is
+omitted entirely, screen readers will read the value of the ``src`` attribute
+(the path to the image on a web server) as a fallback. This is rarely helpful
+to the user and often results in a poor user experience. However, in this
+case, setting an empty ``alt=""`` attribute is acceptable. Doing so
+effectively "hides" the image from screen reader users.
+
+If the text contained in the image is for decorative purposes only and adds no
+value to the content of the page, an empty ``alt`` attribute is also acceptable.
+
+
+===================================================================
+Images That Contribute Meaning or Additional Context to the Page
+===================================================================
+
+If the image is a simple graphic or photograph that provides additional
+context to the surrounding content, the ``alt`` attribute should briefly
+describe the image in a way that conveys that context.
+
+Consider the following examples of meaningful alt attributes for a photo of
+the famous stone bridge, Ponte Vecchio in Florence, Italy.
  
-* For a representative image, such as a photograph of the Ponte Vecchio, a
-  short description could be “Photo of Ponte Vecchio.” If the photograph’s
-  purpose is to provide detailed information about the location, the long
-  description should be more specific: “Photo of Ponte Vecchio showing its
-  three stone arches and the Arno River.”
+* For a representative image of the bridge included on a page about Florence,
+  a meaningful ``alt`` attribute would be “Photo of Ponte Vecchio.”
+  
+* If the context of the page is about the bridge itself a meaningful ``alt``
+  attribute would be more specific: “Photo of Ponte Vecchio showing its three
+  stone arches which span the Arno River.”
 
-* For a chart, diagram, or illustration, the short description might be
-  “Illlustration of Ponte Vecchio.” The long description should include the
-  details conveyed visually, such as dimensions and materials used.
+* For a technical diagram, or illustration, on a page about the construction
+  of the bridge the ``alt`` attribute would include the details conveyed visually, 
+  such as dimensions and materials used: "The Ponte Vecchio is a stone bridge
+  with three arches and a span-to-rise ratio of 5 to 1."
 
-* For a map, a short description might be “Map showing location of Ponte
-  Vecchio.” If the map is intended to provide directions to the bridge, the
-  long description should provide text directions.
- 
-* For an icon, the short description should be equivalent to the information
-  that the icon provides. For example, for a Course Syllabus link containing
-  an EPUB icon, the text equivalent for the icon would be “EPUB,” which would
-  be read as “Course Syllabus EPUB.”
+* For a map intended to provide directions to the bridge, the ``alt`` attribute would 
+  provide directions as text.
 
-* For an image that serves primarily as a link to another web page, the short
-  description should describe the link’s destination, not the image. For
-  example, an image of a question mark that serves as a link to a Help page
-  should be described as “help,” not “question mark.”
+===========================================================
+Graphs or Complex Visual Representations of Information
+===========================================================
 
-=========================================
-Provide Long Text Descriptions
-=========================================
+If the image is a graph or represents a complex piece of information, include
+the information contained in the image as accessible text adjacent to the
+image, or provide a link to the information. The ``alt`` attribute should convey
+a summary of what the complex image conveys visually. For example, a line
+graph that represents the price of a stock over time might be "The price of
+the stock rises from $45 in January of 2015 to over $76 in June of 2015 with
+a significant drop of 30% during the month of March."
 
 Consider using a caption to display long descriptions so that the information
 is available to all learners. In the following example, the image element
 includes the short description as the ``alt`` attribute and the paragraph
 element includes the long description. ::
 
- <img src="image.jpg" alt="Photo of Ponte Vecchio">
- <p>Photo of Ponte Vecchio showing its three stone arches and the Arno river</p>
-  
+<img src="image.jpg" alt="Photo of Ponte Vecchio">
+<p>Photo of Ponte Vecchio showing its three stone arches and the Arno river</p>
+
 Alternatively, provide long descriptions by creating an additional unit or
 downloadable file that contains the descriptive text and providing a link to
 the unit or file below the image. ::
  
- <img src="image.jpg" alt="Illustration of Ponte Vecchio">
- <p><a href="description.html">Description of Ponte Vecchio Illustration</a></p>
+<img src="image.jpg" alt="Illustration of Ponte Vecchio">
+<p><a href="description.html">Description of Ponte Vecchio Illustration</a></p>
+
+ 
+=============================================================
+Images With Unknown Descriptions at The Time of Publication
+=============================================================
+
+If a suitable text alternative is unknown at the time of publication (for
+example, a webcam image that updates every 10 minutes) provide an ``alt``
+attribute that includes as much useful information as possible. For example,
+"Traffic on Interstate 90 at 5:45 PM June 26, 2015."
 
 ===================================================
-Handle Non-Informative Images Appropriately
+Non-Informative Images
 ===================================================
 
 Images that do not provide information, including purely decorative images, do
@@ -236,45 +304,77 @@ not need text descriptions. For example, an icon that is followed by link text
 that reads “Course Syllabus (EPUB)” does not need alternative text. 
 
 For non-informative images that should be skipped by screen reading software,
-include an ``alt`` attribute but leave it with an empty value. ::
+include an ``alt`` attribute but leave it with an empty value (also known as 
+a NULL ``alt`` attribute). ::
 
    <img src="image.jpg" alt="">
+   
+.. note:: While it is appropriate to have an empty ``alt`` attribute, it is never
+   acceptable to omit the ``alt`` attribute entirely. If image elements do not 
+   include an ``alt`` attribute at all, a screen reader will read the path to the 
+   image, or, in the case of a linked image, announce the linked URL. This is 
+   rarely helpful to the user and often results in a poor user experience.
+   
 
-If image elements do not include an ``alt`` attribute at all, depending on the
-specific screen reader software, a screen reader might skip the image,
-announce the image filename, or, in the case of a linked image, announce the
-link URL.
+.. _Information Graphics:
 
+=============================================================
+Information Graphics (Charts, Diagrams, Illustrations)
+=============================================================
+
+Graphics are helpful for communicating concepts and information, but they can
+present challenges for people with visual impairments. For example, a chart
+that requires color perception or a diagram with tiny labels and annotations
+will likely be difficult to comprehend for learners with color blindness or
+low vision. All images present a barrier to learners who are blind.
+
+EdX recommends that you follow these best practices for making information
+graphics accessible to visually impaired students.
+
+* Avoid using only color to distinguish important features of an image. For
+  example, on a line graph, use a different symbol or line style as well as
+  color to distinguish the data elements.
+
+* Whenever possible, use an image format that supports scaling, such as .svg,
+  so that learners can employ zooming or view the image larger. Consider
+  providing a high-resolution version of complex graphics that have small but
+  essential details.
+
+* For every graphic, provide a text alternative that provides the equivalent
+  information that a sighted learner would obtain from viewing the graphic.
+  For charts and graphs, a text alternative could be a table displaying the
+  same data. See :ref:`Best Practices for Describing Images` for details about
+  providing useful text alternatives for images.
 
 =====================================================
 Accessible Images Resources
 =====================================================
 
-* A `decision tree <http://www.4syllables.com.au/2010/12/text-alternatives-decision-tree/>`_ for choosing appropriate alternative text for images (Dey Alexander).
+* W3C `Resources on Alternative Text for Images <http://www.w3.org/WAI/alt/>`_
+
+* `W3C WAI Images Tutorial <http://www.w3.org/WAI/tutorials/images/>`_
+    
+* `HTML5 - Requirements for providing text to act as an alternative for images
+  <http://www.w3.org/TR/html5/embedded-content-0.html#alt>`_
 
 * `WebAim <http://webaim.org/techniques/alttext/>`_ provides general guidance
   on the appropriate use of alternative text for images.
 
-* A more detailed description of HTML5 techniques for providing useful
-  alternative text for images from `W3C <http://dev.w3.org/html5/alt-
-  techniques/>`_.
-
 * `The DIAGRAM Center <http://www.diagramcenter.org/webinars.html>`_,
   established by the US Department of Education (Office of Special Education
   Programs), provides guidance on ways to make it easier, faster, and more
-  cost effective to create and use accessible images.
-  
+  cost effective to create and use accessible images.  
 
 .. _Creating Accessible Course Materials:
 
 ************************************************
-Creating Accessible Course Materials
+Create Accessible Course Materials
 ************************************************
 
 The source teaching materials for your course might exist in a variety of
 formats. For example, your syllabus might be in MS Word, your presentation
 slides in MS PowerPoint, and your textbooks in publisher-supplied PDF. It is
-important to consider how accessible these supplemental materials are, before
+important to consider how accessible these supplemental materials are before
 making them available through your course.
 
 Carefully consider the document format you choose for publishing your course
@@ -385,11 +485,11 @@ Best Practices for Authoring Accessible PDF Documents
 * If your document includes tables, verify that table headers for rows and
   columns are properly defined.
   
-.. note::  When you export Microsoft Office documents as PDF, use the **Save
+.. note:: When you export Microsoft Office documents as PDF, use the **Save
    as PDF** option. Make sure the **Document Structure Tags for
    Accessibility** option is selected (consult your software documentation for
    more details). PDFs generated from Windows versions of MS Office might be
-   more accessible than those generated from Mac OS versions of MS Office.  If
+   more accessible than those generated from Mac OS versions of MS Office. If
    you are using Mac OS, we highly recommend exporting from OpenOffice or
    LibreOffice.
 
@@ -400,10 +500,10 @@ Best Practices for Authoring Accessible PDF Documents
 Evaluating PDF Files for Accessibility
 ***************************************
 
-EdX highly recommends using the tools available in Adobe Acrobat Pro
-("Accessibility Checker") to evaluate your PDF files for accessibility. Adobe
-Acrobat Pro also includes a tool ("Make Accessible") for fixing most common
-accessibility issues.
+EdX highly recommends using the tools available in Adobe Acrobat Pro (for
+example, "Accessibility Checker") to evaluate your PDF files for
+accessibility. Adobe Acrobat Pro also includes tools (for example, "Make
+Accessible") for fixing most common accessibility issues.
 
 
 Accessible PDF Resources
@@ -436,25 +536,13 @@ Creating Accessible Word Documents
 Many of the same accessibility techniques and principles that apply to
 authoring web content also apply to creating Word documents.
 
-* Images must have descriptive text associated with them. For more information,
-  see `Add alternative text to images and objects in Word documents
-  <https://support.office.com/en-us/article/Creating-accessible-Word-documents-
-  D9BF3683-87AC-47EA-B91A-78DCACB3C66D#__toc275414986>`_.
+* Images must have `descriptive text <https://support.office.com/en-us/article/Creating-accessible-Word-documents-D9BF3683-87AC-47EA-B91A-78DCACB3C66D#__toc275414986>`_ associated with them.
 
-* Documents should be well structured. For more information see `Ensure all
-  heading styles are in the correct order in Word documents
-  <https://support.office.com/en-us/article/Creating-accessible-Word-documents-
-  D9BF3683-87AC-47EA-B91A-78DCACB3C66D#__toc275414990>`_.
+* Documents should be `well structured <https://support.office.com/en-us/article/Creating-accessible-Word-documents-D9BF3683-87AC-47EA-B91A-78DCACB3C66D#__toc275414990>`_.
 
-* Hyperlinks should be meaningful and describe the destination. For more
-  information, see `Use hyperlink text that is meaningful in Word documents
-  <https://support.office.com/en- us/article/Creating-accessible-Word-
-  documents-D9BF3683-87AC-47EA-B91A- 78DCACB3C66D#__toc275414991>`_.
+* `Hyperlinks should be meaningful <https://support.office.com/en-us/article/Creating-accessible-Word-documents-D9BF3683-87AC-47EA-B91A-78DCACB3C66D#__toc275414991>`_ and describe the destination.
 
-* Tables should include properly defined column and row headers. For more
-  information, see `Use simple table structure in Word documents
-  <https://support.office.com/en-us/article/Creating-accessible-Word-documents-
-  D9BF3683-87AC-47EA-B91A-78DCACB3C66D#__toc271197283>`_.
+* Tables should include `properly defined column and row headers <https://support.office.com/en-us/article/Creating-accessible-Word-documents-D9BF3683-87AC-47EA-B91A-78DCACB3C66D#__toc271197283>`_.
 
 * Color combinations should be high contrast.
 
@@ -495,16 +583,9 @@ authoring data tables in HTML also apply to creating Excel spreadsheets.
   <https://support.office.com/en-us/article/Creating-accessible-Excel-
   workbooks-6CC05FC5-1314-48B5-8EB3-683E49B3E593#__toc271205010>`_.
 
+* `Column and row headings should be programmatically identified <https://support.office.com/en-us/article/Creating-accessible-Excel-workbooks-6CC05FC5-1314-48B5-8EB3-683E49B3E593#__toc271205011>`_. 
 
-* Column and row headings should be programmatically identified. For more
-  informaton, see `Specify column header information in Excel tables
-  <https://support.office.com/en-us/article/Creating-accessible-Excel-
-  workbooks-6CC05FC5-1314-48B5-8EB3-683E49B3E593#__toc271205011>`_.
-
-* Hyperlinks should be meaningful and describe the destination. For more
-  information, see `Use hyperlink text that is meaningful in Excel documents
-  <https://support.office.com/en-us/article/Creating-accessible-Excel-
-  workbooks-6CC05FC5-1314-48B5-8EB3-683E49B3E593#__toc271197281>`_.
+* `Hyperlinks in spreadsheets should be meaningful <https://support.office.com/en-us/article/Creating-accessible-Excel-workbooks-6CC05FC5-1314-48B5-8EB3-683E49B3E593#__toc271197281>`_ and describe the destination.
 
 * Use a unique and informative title for each worksheet tab.
 
@@ -547,11 +628,7 @@ authoring web content also apply to creating Powerpoint presentations.
   PowerPoint-presentations-
   6F7772B2-2F33-4BD2-8CA7-DAE3B2B3EF25#__toc286131978>`_.
 
-* Hyperlinks should be meaningful and describe the destination. For more
-  information, see `Use hyperlink text that is meaningful in Powerpoint
-  documents <https://support.office.com/en-us/article/Creating-accessible-
-  PowerPoint-presentations-
-  6F7772B2-2F33-4BD2-8CA7-DAE3B2B3EF25#__toc286131980>`_.
+* `Hyperlinks in presentations should be meaningful <https://support.office.com/en-us/article/Creating-accessible-PowerPoint-presentations-6F7772B2-2F33-4BD2-8CA7-DAE3B2B3EF25#__toc286131980>`_ and describe the destination.
 
 * Use a unique and informative title for each slide.
 
@@ -599,32 +676,36 @@ Use Best Practices for Mathematical Content
 ************************************************
 
 Math in online courses can be challenging to deliver in a way that is
-accessible to people with vision impairments.
+accessible to people with vision impairments. Non-scalable images of
+mathematical content cannot be sufficiently enlarged or navigated by 
+low-vision users and are not accessible to blind users at all.
 
-Do not create images of equations instead of including text equations. Math
-images cannot be modified by people who need a larger or high contrast
-display, and cannot be read by screen reader software.
-
-EdX uses `MathJax`_ to render math content in a
+EdX uses `MathJax <https://www.mathjax.org>`_ to render math content in a
 format that is clear, readable, and accessible to people who use screen
 readers. MathJax works together with math notation such as LaTeX and MathML to
 render mathematical equations as text instead of images. EdX recommends that
-you use MathJax to display your math content.
+you use MathJax to author your math content. MathJax renders math in a variety
+of formats on the client side, offering the end user the ability to consume
+math content in their preferred format. EdX Studio supports authoring math
+directly in LaTeX using the `LaTeX Source Compiler
+<https://edx.readthedocs.org/projects/edx-partner-course-
+staff/en/latest/creating_content/create_html_component.html#import-latex-
+code>`_ to transform LaTeX into MathJax.
+>>>>>>> Finalize Accessibility Best Practices document
 
 ======================================================
 Accessible Mathematical Content Resources
 ======================================================
+  
+* `The MathJax website <http://www.mathjax.org>`_ provides guidance on creating accessible
+  pages using their display engine.
+  
+* The `DO-IT project <http://www.washington.edu/doit/are-there-guidelines-creating-accessible-math?465=>`_ from the University of Washington provides guidance on creating accessible math content.
+>>>>>>> Finalize Accessibility Best Practices document
 
-* The `DO-IT project <http://www.washington.edu/doit/are-there-guidelines-
-  creating-accessible-math?465=>`_ from the University of Washington provides
-  guidance on creating accessible math content.
-
-* `AccessSTEM <http://www.washington.edu/doit/programs/accessstem/overview>`_
+* `The AccessSTEM website <http://www.washington.edu/doit/programs/accessstem/overview>`_
   provides guidance on creating accessible science, technology, engineering
   and math educational content.
-  
-* `MathJax`_ provides guidance on creating accessible
-  pages with their display engine.
 
 * The `Design Science News blog <http://news.dessci.com/accessible-math>`_
   shares information about making math accessible.
@@ -644,38 +725,6 @@ learners.
 
 .. contents::
    :local:
-
-
-.. _Information Graphics:
-
-=============================================================
-Information Graphics (Charts, Diagrams, Illustrations)
-=============================================================
-
-Graphics are helpful for communicating concepts and information, but they can
-present challenges for people with visual impairments. For example, a chart
-that requires color perception or a diagram with tiny labels and annotations
-will likely be difficult to comprehend for learners with color blindness or
-low vision. All images present a barrier to learners who are blind.
-
-EdX recommends that you follow these best practices for making information
-graphics accessible to visually impaired students.
-
-* Avoid using only color to distinguish important features of an image. For
-  example, on a line graph, use a different symbol or line style as well as
-  color to distinguish the data elements.
-
-* Whenever possible, use an image format that supports scaling, such as .svg,
-  so that learners can employ zooming or view the image larger. Consider
-  providing a high resolution version of complex graphics that have small but
-  essential details.
-
-* For every graphic, provide a text alternative that provides the equivalent
-  information that a sighted learner would obtain from viewing the graphic.
-  For charts and graphs, a text alternative could be a table displaying the
-  same data. See :ref:`Best Practices for Describing Images` for details about
-  providing useful text alternatives for images.
-
 
 .. _Simulations and Interactive Modules:
 
@@ -697,9 +746,11 @@ Although you can design simulations to avoid many accessibility barriers, some
 barriers, particularly in simulations supplied by third parties, might be
 difficult or impossible to address for technical or pedagogic reasons.
 Understanding the nature of these barriers can help you provide workarounds
-for learners who are affected.  Keep in mind that attempted workarounds for
+for learners who are affected. Keep in mind that attempted workarounds for
 simulations supplied by third parties might require the supplier’s consent if
-copyrighted material is involved.
+copyrighted material is involved. If you consider third party solutions, we
+encourage you to evaluate them for accessibility. The easiest way to do this 
+is to contact the vendor and ask them about the accessibility of their product.
 
 Consider the following questions when creating simulations, keeping in mind
 that as the course instructor, you enjoy considerable freedom in selecting
@@ -765,15 +816,15 @@ Third-Party Content
 ======================================================
 
 If you include links to third-party content in your course, be mindful of the
-accessibility of such resources. EdX recommends that you test any links prior
-to sharing them with learners.
+accessibility of such resources. EdX recommends that you evaluate third-party
+content prior to sharing it with learners.
 
 You can use the eReader tool or :ref:`Add Files to a Course` to incorporate
 third-party textbooks and other publications in PDF format into your course.
 You can also incorporate such materials into your course in HTML format. See
 :ref:`Creating Accessible PDFs` for guidance on working with third-party
 supplied PDFs, and :ref:`Best Practices for HTML Markup` for guidance on
-creating accessible HTML.
+creating accessible HTML. 
 
 
 .. _Accessible Custom Content Resources:
@@ -798,37 +849,43 @@ Create Accessible Media
 ************************************************
 
 Media-based course materials help to convey concepts and can bring course
-information to life. We require all videos in edX courses to include
-interactive transcripts that can be read by screen reader software. This
-built-in universal design mechanism enhances your course’s accessibility. When
-you create your course, you need to factor in time and resources for creating
-these transcripts.
+information to life. We require all videos in edX courses to include text
+captions in `SubRip (SRT) format
+<https://en.wikipedia.org/wiki/SubRip#SubRip_text_file_format>`_. The edX
+media player displays caption files in an interactive sidebar that benefits a
+variety of learners, including learners who are hard of hearing or whose
+native language differs from the primary language of the media. This built-in
+universal design mechanism enhances your course’s accessibility. When you
+create your course, you need to factor in time and resources for creating text
+captions.
 
 
 =====================================================
-Audio Transcripts
+Audio Captions
 =====================================================
 
-Audio transcripts are essential for presenting the readable equivalent of
-audio content to learners who cannot hear. They can also be helpful for
-learners whose native languages are languages other than English. Synchronized
-transcripts allow learners who cannot hear to follow along with the video and
+Audio captions are essential for presenting the readable equivalent of audio
+content to learners who cannot hear. They can also be helpful for learners
+whose native languages are languages other than the primary language of the
+media. Synchronized text captions allow learners who cannot hear to follow
+along with the video. The edX media player displays text captions as links in
+an interactive area adjacent to the video, which allows all learners to
 navigate to a specific section of the video by selecting some location within
-the transcript text. In addition, all learners can use transcripts of media-
-based learning materials for study and review.
+the caption text.
 
-A transcript starts with the text version of a video’s spoken content. If you
-created your video using a script, you have a great start on creating the
-transcript. Just review the recorded video and update the script as needed.
-Otherwise, you will need to transcribe the video yourself or engage someone to
-do it. There are many companies that will create timed video transcripts
-(transcripts that synchronize the text with the video using time codes) for a
-fee.
-
-The edX platform supports the use of transcripts in .srt format. When you
-integrate a video file into the platform, you should also upload the .srt file
-of the timed transcript for such video. See :ref:`Working with Video
-Components` for details on how to add timed transcripts.
+Text caption files start with the text version of a video’s spoken content and
+any non-spoken audio that is important to understanding the context of the
+video, such as [BUZZER], [LAUGHTER], or [THUNDER]. If you created your video
+using a script, you have a great start on creating the text caption file.
+Simply review the recorded video and update the script as needed. Text
+captions can be uploaded to Youtube along with the video to create a timed
+text file in `SubRip (SRT) format
+<https://en.wikipedia.org/wiki/SubRip#SubRip_text_file_format>`_. Otherwise,
+you will need to transcribe the video yourself or engage someone to do it.
+There are many companies that will create timed text captions (captions that
+synchronize the text with the video using time codes) for a fee. SRT files
+should be associated with video components in Studio. See :ref:`Working with
+Video Components` for details on how to associate text captions with videos.
 
 
 =====================================================
@@ -836,16 +893,17 @@ Descriptions in Video
 =====================================================
 
 When you create video segments, consider how you will convey information to
-learners who cannot see what is happening in a video. Even if you have audio
-transcripts that can be read by screen readers, actions that are only visible
-on screen without any audible equivalent are not accessible to learners who
-have visual impairments.
+learners who cannot see what is happening in a video. Actions that are only
+visible on screen without any audible equivalent are not accessible to
+learners who have visual impairments.
 
 For many topics, you can fully cover concepts in the spoken presentation. If
 it is practical to do so, you should audibly describe visual events as they
 happen in the video. For example, if you are illustrating dropping a coin and
 a feather together from a height, you should consider narrating your actions
-as you perform them.
+as you perform them. Ask yourself if your video would make sense if the
+learner were only listening to the audio content, for example while they were
+driving a car.
 
 
 =====================================================
@@ -854,18 +912,15 @@ Downloadable Transcripts
 
 For both audio and video transcripts, consider including a text file that
 students can download and review using tools such as word processing, screen
-reader, or literacy software. The downloadable transcript should be text only,
-without time codes.
+reader, or literacy software. All learners can use transcripts of media-based
+learning materials for study and review.
 
 
 =====================================================
 Accessible Media Resources
 =====================================================
 
-Accessible Digital Media Guidelines provides detailed advice on creating
-online video and audio with accessibility in mind.
-http://ncam.wgbh.org/invent_build/web_multimedia/accessible-digital-media-guide
-
+`Accessible Digital Media Guidelines <http://ncam.wgbh.org/invent_build/web_multimedia/accessible-digital-media-guide>`_ provides detailed advice on creating online video and audio with accessibility in mind.
 
 .. _Best Practices for HTML Markup:
 
@@ -889,17 +944,16 @@ Keep the following guidelines in mind when you create HTML content.
 
 * Use HTML tags to describe your content’s meaning rather than its appearance.
   For example, you should tag a title with the appropriate heading level (for
-  example ``<h2>``) rather than making the heading simply appear like a heading
-  by using visual elements such as bold text and a larger font size. Format
-  list items as a list rather than using bullets and indents, so that they are
-  related in the code. Using HTML to describe your content's meaning is
-  valuable for learners who screen readers, which, for example, can read
-  through all headings of a specific level or announce the number of items in
-  a list.
+  example ``<h2>``) rather than making the heading simply appear like a
+  heading by using visual elements such as bold text and a larger font size.
+  Format list items as a list rather than using images of bullets or indents.
+  Using HTML to describe your content's meaning is valuable for learners who
+  use screen readers, which, for example, can read through all headings of a
+  specific level or announce the number of items in a list.
 
 * Use HTML heading levels in sequential order to represent the structure of a
   document. Well-structured headings help learners and screen reader users to
-  navigate a page and find what they are looking for.
+  navigate a page and efficiently find what they are looking for.
 
 * Use HTML list elements to group related items and make content easier to
   skim and read. HTML offers three kinds of lists.
@@ -958,7 +1012,7 @@ guidelines.
   a variety of ways. For example, if there is a text component, provide the
   ability to enlarge the font size or change the text color. For images and
   diagrams, always provide an equivalent text description. For video, include
-  text captions or a transcript as well as an audio track.
+  text captions.
 
 * Provide multiple ways for learners to engage with information and
   demonstrate their knowledge. This is particularly important to keep in mind
@@ -983,5 +1037,5 @@ Universal Design for Learning Resources
 * `Delivering Accessible Digital Learning (JISC Techdis) <http://www.jisctechdis.ac.uk/techdis/resources/accessiblecontent>`_ provides a useful overview of an inclusive approach to course design.
 
 * `The National Center on Universal Design for Learning <http://www.udlcenter.org/implementation/postsecondary>`_ provides a helpful overview on Universal Design for Learning.
-  
+ 
 
