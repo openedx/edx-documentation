@@ -7,13 +7,17 @@ You can now add feedback, hints, or both to the following problem types.
 
 * Checkbox
 * Dropdown
-* Multiple Choice
-* Numerical Input
-* Text Input
+* Multiple choice
+* Numerical input
+* Text input
   
-In Studio, you can use new templates to add sample problems with the feedback
-and hint syntax.
+In Studio, you can use new templates to add sample problems that use the
+feedback and hint syntax.
 
 .. image:: /Images/hints_feedback_problem_templates.png
   :alt:  The list of Common Problems with Hints and Feedback templates.
   :width:  600
+
+For more information, see `Feedback and Hints_partners`_ in *Building and
+Running an edX Course* or `Feedback and Hints_openedx`_ in *Building and
+Running an Open edX Course*.

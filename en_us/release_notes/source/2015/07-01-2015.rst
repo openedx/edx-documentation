@@ -1,0 +1,29 @@
+###################################
+July 1, 2015
+###################################
+
+The following information reflects what is new in the edX Platform as of
+July 1, 2015. 
+
+.. contents::
+ :local:
+
+**************************
+Studio
+**************************
+
+.. include:: studio/studio_0701_2015.rst
+
+**************************
+LMS
+**************************
+
+.. include:: lms/lms_0701_2015.rst
+
+**************************
+Documentation
+**************************
+
+.. include:: documentation/doc_0701_2015.rst
+
+.. include:: ../links.rst

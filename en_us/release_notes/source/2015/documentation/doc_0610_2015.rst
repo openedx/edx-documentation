@@ -5,8 +5,8 @@ Documentation for edX Partners
 Building and Running an edX Course
 **********************************
 
-The `Working with Video Components`_ section now includes a topic about
-`Adding a Pre-Roll Video to Your edX Course`_.
+The `Working with Video Components`_ section now includes an `Adding a Pre-
+Roll Video to Your edX Course`_ topic.
 
 edX Research Guide
 **********************************
