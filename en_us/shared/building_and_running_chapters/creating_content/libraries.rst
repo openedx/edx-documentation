@@ -10,10 +10,10 @@ Working with Content Libraries
 Content Libraries Overview
 **************************
 
-In Studio, if you have course creation privileges, you can create a library to
-build a pool of components for use in randomized assignments in your courses.
-You can add HTML components, problems, and video components to a library. Peer
-assessment and discussion components are not supported in libraries.
+In Studio, you can create a library to build a pool of components for use in
+randomized assignments in your courses. You can add HTML components, problems,
+and video components to a library. Peer assessment and discussion components
+are not supported in libraries.
 
 .. note:: Content libraries are available only for courses that have course
    identifiers in this format: ``{key type}:{org}+{course}+{run}``. For example,
@@ -63,11 +63,7 @@ Create a New Library
 ********************
 
 Use :ref:`content libraries<Content Libraries>` to build a pool of components
-that can be used in randomized assignments in your courses. You can create
-libraries if you have course creation privileges.
-
-For information about adding other users to a library after you create it, see
-:ref:`Give Other Users Access to Your Library`.
+that can be used in randomized assignments in your courses. 
 
 To create a new library, follow these steps.
 
@@ -102,8 +98,13 @@ To create a new library, follow these steps.
 
 4. Click **Create**.
 
-You see the new library, to which you can now add components. For details about
-adding components to a library, see :ref:`Add Components to a Library`.
+You see the new library, to which you can now add components. For information
+about adding components to a library, see :ref:`Add Components to a Library`.
+
+After you create a library, you are automatically assigned an **Admin** role
+for the library. For information about adding other users to a library after
+you create it, see :ref:`Give Other Users Access to Your Library`.
+
 
 
 .. _Edit a Library:
@@ -382,6 +383,8 @@ To remove **Staff** or **Admin** access from a library user, follow these steps.
 .. note:: There must always be at least one Admin for a library. If there is
    only one user with the Admin role, you cannot remove him or her from the
    Admin role unless you first assign another user to the Admin role.
+
+
 
 
 .. _Exporting and Importing a Library:
