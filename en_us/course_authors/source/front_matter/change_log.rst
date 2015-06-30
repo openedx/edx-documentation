@@ -38,13 +38,13 @@ May 2015
    * - 28 May 2015
      - Added :ref:`Licensing a Course`.
    * - 19 May 2015
-     - Added documentation for the new :ref:`Problem Grade
-       Report<problem_report>`.
+     - Added documentation for the new :ref:`problem grade
+       report<problem_report>`.
    * - 13 May 2015
      - Updated all sections in :ref:`Getting Started Index` and :ref:`Setting
        up Your Course Index` for accessibility.
    * -
-     - Added the new section :ref:`Scheduling Your Course`.
+     - Added the :ref:`Scheduling Your Course` section.
    * -
      - Added :ref:`Enrollment End Date and Time`.
    * - 
@@ -52,12 +52,12 @@ May 2015
    * - 
      - Added :ref:`Whitelisting Your Domain for Google Hangouts`.
    * -
-     - Added :ref:`Hiding Graded Content`
+     - Added :ref:`Hiding Graded Content`.
    * -
-     - Added :ref:`Work with the targz file`
+     - Added :ref:`Work with the targz File`.
    * -
-     - Clarified in :ref:`edX.org and edX Edge` that Edge courses can have an
-       unlimited number of learners.
+     - Clarified that Edge courses can have an unlimited number of learners in
+       the :ref:`edX.org and edX Edge` section.
    * -
      - Updated :ref:`A Template For Course Overview`.
    * -
@@ -67,9 +67,9 @@ May 2015
      - Updated the :ref:`Access_grades` section to describe new 
        certificate-related and enrollment track columns in the grade report.
    * - 
-     - Updated the :ref:`Preview Course Content` section to reflect that
-       course teams can now use the **Preview** button to preview course
-       changes before a course is released.
+     - Updated the :ref:`Preview Course Content` section to reflect that course
+       teams can now use **Preview** to preview course changes before a course
+       is released.
    * - 5 May 2015
      - Updated the :ref:`Student Data` section to include information about
        the :ref:`learner engagement report<Track Student Activity>`.
@@ -97,13 +97,13 @@ April 2015
      - In the :ref:`Create Exercises` section, added a column to the tables to
        indicate level of support for each exercise or tool.
    * - 10 Apr 2015
-     - Add information for the :ref:`RecommenderXBlock` tool.
+     - Added information about the :ref:`RecommenderXBlock` tool.
    * - 6 Apr 2015
      - Added instructions for specifying multiple or irregular regions to
        :ref:`Image Mapped Input`.
    * - 3 Apr 2015
-     - Added the section :ref:`Timer Between Attempts` to the :ref:`Working
-       with Problem Components` chapter.
+     - Added the :ref:`Timer Between Attempts` topic to the :ref:`Working
+       with Problem Components` section.
 
 
 ****************
@@ -120,21 +120,22 @@ March 2015
      - Added the **Video Available on Web Only** :ref:`advanced setting<Video
        Advanced Options>` to the :ref:`Working with Video Components` chapter.
    * - 
-     - Added documentation for :ref:`renaming a cohort<Renaming a Cohort>` and
-       :ref:`Changing the Assignment Method of a Cohort`.
+     - Added documentation for :ref:`renaming<Renaming a Cohort>` and
+       :ref:`changing the assignment method<Changing the Assignment Method 
+       of a Cohort>` for cohorts.
    * -
      - Modified topics relating to :ref:`cohorts<Cohorts Overview>`,
        :ref:`cohort configuration<Enabling and Configuring Cohorts>` and
        :ref:`cohorted discussions<Set up Discussions in Cohorted Courses>` to
-       reflect that cohort management is now done on the Instructor Dashboard in
-       the LMS.
+       reflect that cohort management is now done on the Instructor Dashboard 
+       in the LMS.
 
    * - 20 Mar 2015
      - Added the :ref:`Providing Partial Credit for Custom Python-Evaluated
        Input Problems` section to the :ref:`Write Your Own Grader` chapter.
    * - 18 Mar 2015
-     - Added the sections :ref:`Content Libraries` and :ref:`Randomized Content
-       Blocks` to reflect support for libraries in Studio.
+     - Added the :ref:`Content Libraries` and :ref:`Randomized Content
+       Blocks` sections to reflect support for libraries in Studio.
    * - 
      - Updated :ref:`Open Response Assessments` to reflect support for multiple
        prompts in a single ORA assignment.
@@ -144,8 +145,9 @@ March 2015
    * - 11 Mar 2015
      - Added the section :ref:`Adding Tooltips to a Problem`.
    * - 3 Mar 2015
-     - Updated the :ref:`Preface` to include information about the :ref:`The
-       edX Partner Portal` and the :ref:`The Open edX Portal`.
+     - Updated the :ref:`Preface` to include information about the :ref:`edX
+       partner portal<The edX Partner Portal>` and the :ref:`open edX
+       portal<The Open edX Portal>`.
 
 *****************
 February 2015
@@ -161,13 +163,15 @@ February 2015
      - Updated the :ref:`Cohorted Courseware Overview` section to reflect the
        ability to delete content groups and view their usage in a course.      
    * - 2/19/15
-     - Updated ORA documentation to reflect ability to :ref:`Remove a student response from peer grading`
+     - Updated ORA documentation to reflect ability to :ref:`remove a student
+       response from peer grading<Remove a student response from peer
+       grading>`.
    * - 
      - Updated ORA documentation to indicate that course staff can use student
-       usernames to :ref:`Access Student Information`. They no longer need to
-       obtain an anonymized student ID.
+       usernames to :ref:`access student information<Access Student
+       Information>`. They no longer need to obtain an anonymized student ID.
    * - 2/13/15
-     - Updated the example in :ref:`Drag and Drop Problem XML`.
+     - Updated the example in the :ref:`Drag and Drop Problem XML` topic.
    * - 2/12/15
      - Updated :ref:`LTI Component settings` to reflect added settings.
    * - 2/4/15
@@ -195,7 +199,7 @@ January 2015
    * - 
      - Added a section for :ref:`Cohorted Courseware Overview`.
    * -      
-     - Updated :ref:`Add Files to a Course` section with information about
+     - Updated the :ref:`Add Files to a Course` section with information about
        filtering the list of uploaded files by file type.
    * - 
      - Added the :ref:`Google Calendar Tool` and :ref:`Google Drive Files
@@ -228,9 +232,11 @@ December 2014
        Component` to indicate that you cannot use a custom JavaScript problem
        in a component with multiple problems.
    * - 12/02/14
-     - Added email template for :ref:`Weekly Highlights` email to students.
+     - Added an email template for a :ref:`<weekly highlights<Weekly
+       Highlights>` message to students.
    * - 
-     - The :ref:`Bulk Email` section is now in the :ref:`Running Your Course Index` chapter.
+     - The :ref:`Bulk Email` topic is now in the :ref:`Running Your Course
+       Index` section.
 
 *****************
 November 2014
@@ -252,7 +258,7 @@ November 2014
      - Replaced information about accessing student demographic data in the
        :ref:`Student Data` chapter with a cross-reference to edX Insights.
    * - 11/14/14
-     - Added new documentation for :ref:`using the course wiki<Course_Wiki>`
+     - Added documentation for :ref:`using the course wiki<Course_Wiki>`
        in the :ref:`Running Your Course Index` chapter.
    * - 11/13/14
      - Added additional information in the :ref:`Drag and Drop` chapter.
@@ -260,8 +266,9 @@ November 2014
      - Corrected the description of the :ref:`Show Answer` setting for
        problems.
    * - 
-     - Added note that students can see the **Course Info** page and course-
-       wide discussion topics as soon as they enroll in a course to :ref:`Set Start and End Dates`.
+     - Added note that students can see the **Course Info** page and 
+       course-wide discussion topics as soon as they enroll in a course to 
+       the :ref:`Set Start and End Dates` topic.
    * - 11/07/14
      - Added a caution that content experiments are only supported within
        verticals, in :ref:`Add a Content Experiment in OLX`.
@@ -277,11 +284,12 @@ October 2014
    * - Date
      - Change
    * - 10/31/14
-     - Added warning in :ref:`Export a Course` about sensitive or license-
-       specific information that is included when you export a course.
+     - Added warning in :ref:`Export a Course` about sensitive or 
+       license-specific information that is included when you export a course.
    * - 10/30/14
-     - Added :ref:`email template<Verified Registration Reminder>` for 
-       reminding students of last day to register for verified certificates.
+     - Added an :ref:`email template<Verified Registration Reminder>` for
+       reminding students of the last day to register for verified
+       certificates.
    * - 10/29/14
      - Added information about course start time visibility to :ref:`Set Start
        and End Dates`.
@@ -296,10 +304,10 @@ October 2014
    * -
      - Added :ref:`Create a Randomized Custom Python-Evaluated Input Problem`.
    * - 10/23/14
-     - Added note about limited support of annotation problem type to
+     - Added a note about limited support of the annotation problem type to
        :ref:`Annotation`.
    * - 10/16/14
-     - Updated :ref:`Scheduling Your Course` to reflect change
+     - Updated :ref:`Scheduling Your Course` to reflect 
        that course dates now use UTC.
    * - 10/14/14
      - Added the :ref:`Rerun a Course` chapter.
@@ -324,13 +332,16 @@ September 2014
        Staff` chapters to include information about choosing the type of post
        and to reflect changes in the user interface.
    * - 09/11/14
-     - Added info about possible problem types to :ref:`Problem with Adaptive Hint`.
+     - Added info about possible problem types to :ref:`Problem with Adaptive
+       Hint`.
    * - 
-     - Removed "These problems only allow integers and a few select constants" from table of problem types in :ref:`Create Exercises`.
+     - Removed "These problems only allow integers and a few select constants"
+       from the table of problem types in :ref:`Create Exercises`.
    * - 
-     - Added a note about angle bracket characters to the :ref:`Dropdown` topic.
+     - Added a note about angle bracket characters to the :ref:`Dropdown`
+       topic.
    * - 09/26/14
-     - Added :ref:`Molecule Viewer` to :ref:`Create Exercises`
+     - Added :ref:`Molecule Viewer` to :ref:`Create Exercises`.
 
 **************
 August 2014
@@ -343,25 +354,25 @@ August 2014
    * - Date
      - Change
    * - 08/28/14
-     - Updated documentation in :ref:`Developing Your Course Index`
-       for new capabilities to publish or hide multiple units 
+     - Updated :ref:`Developing Your Course Index`
+       with new capabilities to publish or hide multiple units 
        from the outline.
    * - 
-     - Added documentation for :ref:`Creating Content Experiments`.
+     - Added :ref:`Creating Content Experiments`.
    * - 08/22/14
      - Added warnings about the effects of changing the course grading policy,
        graded subsections, or graded components after the course begins.
    * - 08/20/14
      - Added :ref:`Browsers` to the :ref:`Getting Started Index` section.
    * - 08/18/14
-     - Expanded the :ref:`Example Messages to Students` in the :ref:`Launch`
-       chapter.
+     - Expanded the :ref:`example messages<Example Messages to Students>` in
+       the :ref:`Launch` chapter.
    * - 08/12/14
      - Updated documentation to address the new publishing workflow and user
        interface. 
 
-       Created a new part, :ref:`Developing Your Course Index`,
-       which contains the following chapters:
+       Created a new section, :ref:`Developing Your Course Index`,
+       which contains the following topics.
 
        * :ref:`Getting Started with Course Content Development`
        * :ref:`Developing Your Course Outline`
@@ -399,7 +410,7 @@ July 2014
      - Expanded the :ref:`Discussions for Students and Staff` chapter to
        include information about adding posts, responses, and comments.
    * - 07/23/14
-     - Added the section :ref:`Grade Ranges and Certificates` to the
+     - Added :ref:`Grade Ranges and Certificates` to the
        :ref:`Establish a Grading Policy` chapter.
    * - 07/22/14
      - Added :ref:`Example Messages to Students` to the :ref:`Launch` chapter.
@@ -453,14 +464,15 @@ May 2014
    * - Date
      - Change
    * - 05/30/14
-     - Update :ref:`Working with Video Components` to include recommendations to
-       use .mp4 and .webm video formats for browser compatibility
+     - Updated :ref:`Working with Video Components` to include recommendations
+       to use .mp4 and .webm video formats for browser compatibility.
    * - 05/27/14
      - Based on the new requirement to specify the complete location identifier
-       of a problem to adjust student grades, revised the :ref:`Grades` section.
+       of a problem to adjust student grades, revised the :ref:`Grades`
+       section.
    * - 05/22/14
-     - Reorganized, updated, and streamlined these sections in the :ref:`Running
-       Your Course Index` chapter:
+     - Reorganized, updated, and streamlined the following sections in the
+       :ref:`Running Your Course Index` section.
 
        * Divided *Grade and Answer Data* into separate sections for
          :ref:`Grades` and :ref:`Review_Answers`.
@@ -472,15 +484,15 @@ May 2014
 
    * - 
      - Updated :ref:`Problem with Adaptive Hint` to reflect formatting
-       requirements for the Python script and the correct_answer attribute.
+       requirements for the Python script and the ``correct_answer`` attribute.
    * - 05/21/14
      - Added warning that version 1 of the Open Response Assessments suite has
        been deprecated and added a link to the new ORA information.
    * - 05/16/14
      - Updated :ref:`Working with Video Components` to reflect UI changes.
    * - 05/14/14
-     - Updated the :ref:`Running Your Course Index` chapter to remove references
-       to the "new beta" Instructor Dashboard.
+     - Updated the :ref:`Running Your Course Index` chapter to remove
+       references to the "new beta" Instructor Dashboard.
    * - 05/13/14
      - Updated the :ref:`Enrollment` section to reflect that usernames or email
        addresses can be used to batch enroll students.
@@ -502,8 +514,8 @@ May 2014
      - Updated the :ref:`Discussions` chapter to include a topic on closing
        discussions.
    * - 05/06/14
-     - Expanded the :ref:`Grades` chapter to include a topic on interpreting the
-       score histograms for problems.
+     - Expanded the :ref:`Grades` chapter to include a topic on interpreting
+       the score histograms for problems.
    * - 
      - Updated :ref:`LTI Component` to reflect changes to the Studio UI.
    * - 05/02/14
@@ -522,30 +534,39 @@ April 2014
    * - Date
      - Change
    * - 04/28/14
-     - Updated :ref:`Show or Hide the Course Wiki Page` to include note about Wiki content being available after you hide the Wiki page.
+     - Updated :ref:`Show or Hide the Course Wiki Page` to include note about
+       Wiki content being available after you hide the Wiki page.
    * - 04/26/14
-     - Updated label information; added XML information to :ref:`Problem with Adaptive Hint`.  
+     - Updated label information; added XML information to :ref:`Problem with
+       Adaptive Hint`.
    * - 04/24/14
-     - Expanded the :ref:`Grades` chapter to include topics on interpreting the grade reports and student progress page.
+     - Expanded the :ref:`Grades` chapter to include topics on interpreting the
+       grade reports and student progress page.
    * -    
      - Updated the :ref:`Beta_Testing` section to reflect feature changes.
    * -
-     - Updated the :ref:`Working with HTML Components` chapter to reflect changes to the HTML component editor.
+     - Updated the :ref:`Working with HTML Components` chapter to reflect
+       changes to the HTML component editor.
    * - 04/23/14
-     - Reorganized information about problems into :ref:`Exercises and Tools Index` section.
+     - Reorganized information about problems into :ref:`Exercises and Tools
+       Index` section.
    * - 04/23/14
-     - Added more information about collecting language and location data from students to :ref:`Student Data`.  
+     - Added more information about collecting language and location data from
+       students to :ref:`Student Data`.
    * - 04/22/14
-     - Updated the :ref:`Bulk Email` section with information about the dashboard option to opt out of course email.
+     - Updated the :ref:`Bulk Email` section with information about the
+       dashboard option to opt out of course email.
    * - 
-     - In :ref:`Discussions`, corrected the steps to "Create Discussion
-       Categories".
+     - In :ref:`Discussions`, corrected the steps to create discussion
+       categories.
    * - 
      - Updated the :ref:`Enrollment` section to reflect feature changes.
    * - 04/16/14
-     - Updated "Transcripts in Additional Languages" in :ref:`Working with Video Components`.
+     - Updated the Transcripts in Additional Languages topic in :ref:`Working
+       with Video Components`.
    * -  
-     - In support of new features, added the following sections to :ref:`Multiple Choice` problems:
+     - In support of new features, added the following sections to
+       :ref:`Multiple Choice` problems.
 
        * :ref:`Shuffle Answers in a Multiple Choice Problem`
        * :ref:`Targeted Feedback in a Multiple Choice Problem`
@@ -555,18 +576,19 @@ April 2014
      - Updated *Testing Your Course* to include a section on how to *View Your
        Live Course*.
    * - 04/11/14
-     - Expanded the :ref:`Grades` section to include a topic on interpreting the Student Answer Distribution report. 
+     - Expanded the :ref:`Grades` section to include a topic on interpreting
+       the Student Answer Distribution report.
    * - 04/08/14
      - Updated the chapter :ref:`Working with HTML Components` to reflect the
        new HTML editor. 
    * - 04/07/14
      - Expanded the :ref:`Course Data`, :ref:`Enrollment`, and
    * - 04/03/14
-     - Updated the :ref:`Adding Pages to a Course` chapter to reflect ability to :ref:`Show or Hide the Course Wiki Page`.
+     - Updated the :ref:`Adding Pages to a Course` section with the
+       :ref:`Show or Hide the Course Wiki Page` topic.
    * - 04/02/14
-     - Reorganized the sections Building a *Course Index* and
-       *Creating Course Content Index* to better reflect the workflow of
-       building a new course.
+     - Reorganized sections to better reflect the workflow of building a new
+       course.
    * - 04/01/14 
      - Update the :ref:`Establish a Grading Policy` chapter to emphasize that
        grading is applied to subsections only.
@@ -592,16 +614,18 @@ March 2014
      - Updated the :ref:`Adding Pages to a Course` section to reflect feature
        changes.
    * - 03/27/14
-     - Updated the section on :ref:`Beta_Testing` to include the new "batch add" feature.
+     - Updated the section on :ref:`Beta_Testing` to include the new batch
+       add feature.
    * - 03/19/14
      - Updated the sections on :ref:`Beta_Testing`, :ref:`Discussions`,
-       :ref:`Grades`, and :ref:`Student Data` with changes to the new Instructor Dashboard.
+       :ref:`Grades`, and :ref:`Student Data` with changes to the new
+       Instructor Dashboard.
    * - 03/17/14
-     - Reorganized this document into major sections: 
+     - Reorganized this document into the following major sections.
 
        * :ref:`Getting Started Index`
 
-       * Building a Course Index
+       * :ref:`Building a Course Index`
 
        * :ref:`Creating Course Content Index`
 
@@ -614,7 +638,8 @@ March 2014
        * :ref:`Information for Your Students Index`
 
    * - 03/10/14
-     - Added information about setting up your course summary page to 
+     - Added information about setting up your course summary page to these
+       sections.
 
        * :ref:`Set Start and End Dates`
 
@@ -637,23 +662,23 @@ February 2014
    * - Date
      - Change  
    * - 02/25/14
-     - Updated :ref:`Add Files to a Course` section to include new External URL
-       feature.
+     - Updated the :ref:`Add Files to a Course` section to include the new
+       External URL feature.
    * -
      - Updated :ref:`Add a Link to a File` and :ref:`Add an Image to an HTML
        Component` to specify you must use the file's Embed URL.
    * - 02/24/14
-     - Created new chapter, :ref:`Getting Started with edX`.
+     - Added :ref:`Getting Started with edX`.
    * -
-     - Updated :ref:`Add a Course Video` section.
+     - Updated the :ref:`Add a Course Video` section.
    * - 02/21/14
      - Added the :ref:`Beta_Testing` chapter. 
    * - 02/19/14
-     - Updated :ref:`Import LaTeX Code` to reflect new workflow and UI change
-       for creating Latex HTML components.
+     - Updated :ref:`Import LaTeX Code` to reflect the new workflow and a UI
+       change for creating LaTeX HTML components.
    * - 02/18/14
-     - Included several enhancements to the chapter :ref:`Establish a Grading
-       Policy`
+     - Included several enhancements in the :ref:`Establish a Grading Policy`
+       section.
    * - 02/14/14
      - Added :ref:`Additional Transcripts` section to :ref:`Working with Video
        Components`; updated :ref:`Video Advanced Options`.
@@ -666,14 +691,14 @@ February 2014
    * - 02/07/14
      - Added section on :ref:`Full Screen Image`.
    * - 02/06/14
-     - Added :ref:`Periodic Table` and :ref:`Molecule Editor`
+     - Added :ref:`Periodic Table` and :ref:`Molecule Editor`.
    * - 02/05/14
-     - Added section :ref:`Advertise a Different Start Date`.
+     - Added the :ref:`Advertise a Different Start Date` section.
    * - 02/04/14
-     - Added the :ref:`Student Data` and :ref:`Grades` chapters.
+     - Added the :ref:`Student Data` and :ref:`Grades` sections.
    * - 
-     - Added :ref:`Multiple Choice and
-       Numerical Input` and :ref:`Protein Builder`.
+     - Added the :ref:`Multiple Choice and Numerical Input` and :ref:`Protein
+       Builder` sections.
    
 
 *************
@@ -713,12 +738,12 @@ January 2014
    * - 
      - Added info about template to :ref:`Checkbox`.
    * - 01/06/2014
-     - Created :ref:`Custom JavaScript`
+     - Created :ref:`Custom JavaScript`.
    * - 01/06/2014
-     - Created :ref:`Zooming image`
+     - Created :ref:`Zooming image`.
    * - 01/01/2014
-     - Updated the chapters Organizing Your Course Content and
-       Testing Your Course to reflect changes in the Course Outline
+     - Updated the chapters on organizing your course content and
+       testing your course to reflect changes in the course outline
        design.
 
 ***************
@@ -732,10 +757,11 @@ December 2013
    * - Date
      - Change  
    * - 12/20/2013
-     - Made :ref:`ORA for Students` into template that instructors can
+     - Made :ref:`ORA for Students` into a template that instructors can
        customize.
    * - 12/19/2013
-     - Created "Tools" topic. (Note 4/10/14: Topic merged into :ref:`Create Exercises`.)
+     - Created "Tools" topic. (Note 4/10/14: Topic merged into :ref:`Create
+       Exercises`.)
    * - 12/18/2013
      - Updated documentation about video player options in :ref:`Working with
        Video Components`.
