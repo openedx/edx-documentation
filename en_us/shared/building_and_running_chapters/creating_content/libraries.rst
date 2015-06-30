@@ -65,9 +65,6 @@ Create a New Library
 Use :ref:`content libraries<Content Libraries>` to build a pool of components
 that can be used in randomized assignments in your courses. 
 
-For information about adding other users to a library after you create it, see
-:ref:`Give Other Users Access to Your Library`.
-
 To create a new library, follow these steps.
 
 #. Log in to Studio. 
@@ -101,8 +98,13 @@ To create a new library, follow these steps.
 
 4. Click **Create**.
 
-You see the new library, to which you can now add components. For details about
-adding components to a library, see :ref:`Add Components to a Library`.
+You see the new library, to which you can now add components. For information
+about adding components to a library, see :ref:`Add Components to a Library`.
+
+After you create a library, you are automatically assigned an **Admin** role
+for the library. For information about adding other users to a library after
+you create it, see :ref:`Give Other Users Access to Your Library`.
+
 
 
 .. _Edit a Library:
