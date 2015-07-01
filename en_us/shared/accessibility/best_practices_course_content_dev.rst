@@ -89,12 +89,14 @@ background, in both visual and audio elements.
 For visual elements, techniques include making sure the fonts you use are
 readable, that there is sufficient contrast between the foreground and
 background. Do not use color as the sole means of visually distinguishing an
-element or conveying critical information. When images contain text, make sure
-that the text has a font size of at least 14 points and has good contrast with
-the background.  Whenever possible, use the default font and color defined in
-the edX platform, which was designed to be easy to read.  If you choose to
-override default font colors, make sure that the foreground and background
-colors have `sufficient contrast <https://leaverou.github.io/contrast-ratio/>`_.
+element or conveying critical information. If you must create images that
+contain text, make sure that the text has a font size of at least 14 points 
+and has good contrast with the background.  Images of text cannot be scaled
+or color corrected as well as HTML text. Whenever possible, use the default 
+font and color defined in the edX platform, which was designed to be easy to
+read.  If you choose to override default font colors, make sure that the 
+foreground and background colors have `sufficient contrast 
+<https://leaverou.github.io/contrast-ratio/>`_.
 
 For audio elements, make sure that foreground sounds are sufficiently louder
 than background sounds.
