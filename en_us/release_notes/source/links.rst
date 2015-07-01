@@ -160,9 +160,9 @@
 
 .. _Building and Running an edX Course: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/
 
-.. _Feedback and Hints_openedx: http://edx.readthedocs.org/projects/open-edx-building-and-running-a-course/en/latest/creating_content/create_problem.html#adding-feedback-and-hints-to-a-problem
+.. _Adding Feedback and Hints to a Problem: http://edx.readthedocs.org/projects/open-edx-building-and-running-a-course/en/latest/creating_content/create_problem.html#adding-feedback-and-hints-to-a-problem
 
-.. _Feedback and Hints_partners: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/creating_content/create_problem.html#adding-feedback-and-hints-to-a-problem
+.. _Add Feedback and Hints to a Problem: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/creating_content/create_problem.html#adding-feedback-and-hints-to-a-problem
 
 .. _Processing Video Files: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/video/index.html#processing-video-files-index
 
