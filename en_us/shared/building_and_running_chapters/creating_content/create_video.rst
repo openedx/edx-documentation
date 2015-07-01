@@ -156,6 +156,11 @@ that provides captioning services. EdX works with `3Play Media
 <http://www.3playmedia.com>`_. `YouTube <http://www.youtube.com/>`_ also
 provides captioning services.
 
+.. note:: If the name of your transcript file includes special characters, such
+          as ç, å, or ó, the upload option results in an error. Before you
+          upload the transcript, change the file name to remove the special
+          characters.
+
 When you upload an .srt file, a .txt file is created automatically. You can
 allow learners to download these transcript files. If you allow your learners
 to download transcripts, the video player includes a **Download transcript**
@@ -164,7 +169,7 @@ file** to download the .srt or .txt transcript.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/Video_DownTrans_srt-txt.png
    :width: 500
-   :alt: Video status bar showing srt and txt transcript download options.
+   :alt: Video status bar showing .srt and .txt transcript download options.
 
 You can also provide transcripts in different formats, such as .pdf, and you
 can provide transcripts in different languages. For more information about
@@ -271,7 +276,8 @@ To add a video and its transcript to your course, follow these steps.
 
 3. In the **Component Display Name** field, enter an identifying name for this
    video. This name appears as a heading above the video and as a tooltip in
-   the learning sequence at the top of the **Courseware** page.
+   the learning sequence at the top of the **Courseware** page. It also
+   identifies the video for you in Insights.
 
 #. In the **Default Video URL** field, enter the URL of the video. Example
    URLs follow.
@@ -320,12 +326,12 @@ To add a video and its transcript to your course, follow these steps.
 
      .. note::
 
-        * If your transcript uses the .sjson format, do not use this setting.
-          For more information, see :ref:`Steps for sjson files`.
-
         * If you want to provide a transcript in a format such as .pdf,
-          do not use this setting to upload the transcript. For more
+          do not use this field to upload the transcript. For more
           information, see :ref:`Additional Transcripts`.
+
+        * If your transcript uses the .sjson format, do not use this field.
+          For more information, see :ref:`Steps for sjson files`.
 
 6. Optionally, select **Advanced** to set more options for the video. For a
    description of each option, see :ref:`Video Advanced Options`.
@@ -347,9 +353,9 @@ The following options appear on the **Advanced** page of the video component.
       - The name that you want your learners to see. This is the same as the
         **Display Name** field on the **Basic** tab.
     * - **Default Timed Transcript**
-      -  The name of the transcript file that is used in the **Default Timed
-         Transcript** field on the **Basic** page. This field is auto-
-         populated. You do not have to change this setting.
+      -  The name of the transcript file that was specified in the **Default
+         Timed Transcript** field on the **Basic** page. You do not have to
+         change this setting.
     * - **Download Transcript Allowed**
       - Specifies whether you want to allow learners to download the timed
         transcript. If you select **True**, a link to download the
@@ -478,8 +484,8 @@ To add a table of contents, you work with a third-party service to create an
 component to associate the .srt file with the video.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/VideoTOC.png
-   :alt: Image of a video with a transcript that has links to different parts
-    of the video.
+   :alt: A video with a transcript that has links to different parts of the
+    video.
    :width: 500
 
 #. After you obtain the .srt file that will function as the table of contents,
@@ -508,7 +514,7 @@ over that option.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/Video_DownTrans_srt-txt.png
    :width: 500
-   :alt: Video status bar showing srt and txt transcript download options
+   :alt: Video status bar showing .srt and .txt transcript download options.
 
 To provide a downloadable transcript in a format such as .pdf along with the
 .srt and .txt transcripts, you use the **Upload Handout** advanced setting.
@@ -518,8 +524,8 @@ handout version of the transcript.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/Video_DownTrans_srt-handout.png
    :width: 500
-   :alt: Video status bar showing srt, txt, and handout transcript download
-    options
+   :alt: Video status bar showing .srt, .txt, and handout transcript download
+    options.
 
 To add a downloadable transcript, follow these steps.
 
@@ -573,7 +579,7 @@ When your learners view the video, they can select **CC** to select a
 language.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/Video_LanguageTranscripts_LMS.png
-   :alt: Video playing with language options visible
+   :alt: Video playing with language options visible.
 
 .. _Steps for sjson files:
 
