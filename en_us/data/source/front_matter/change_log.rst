@@ -6,6 +6,21 @@ Change Log
 
 
 **********************
+July-September 2015
+**********************
+
+.. list-table::
+   :widths: 20 70
+   :header-rows: 1
+
+   * - Date
+     - Change
+   * - 1 Jul 15
+     - Added new events for :ref:`problem hints<problem>` to the
+       :ref:`Tracking Logs` section.
+
+
+**********************
 April-June 2015
 **********************
 
