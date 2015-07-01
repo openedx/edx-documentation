@@ -4,136 +4,142 @@
 Working with Problem Components
 ################################
 
+This section covers the basics of problem components: what they look like to
+you and your learners, and the options that every problem component has. 
+
+.. contents::
+ :local:
+ :depth: 1
+
+For more information about individual problem types, see :ref:`Create
+Exercises`.
+
 ******************************
-Overview of Problem Components
+Overview
 ******************************
 
 The problem component allows you to add interactive, automatically
 graded exercises to your course content. You can create many different
 types of problems in Studio.
 
+******************************
+Graded Problems
+******************************
+
 All problems receive a point score, but, by default, problems do not count
-toward a student's grade. If you want the problems to count toward the
-student's grade, change the assignment type of the subsection that contains the
-problems.
+toward a learner's grade. 
 
-This section covers the basics of Problem components: what they look like to
-you and your students, and the options that every problem component has. For
-more information about individual problem types, see :ref:`Create Exercises`.
-
-For more information, see the following topics.
-
-* :ref:`Problem Student View`
-* :ref:`Problem Studio View`
-* :ref:`Problem Settings`
-* :ref:`Modifying a Released Problem`
-* :ref:`Additional Work with Problems`
-* :ref:`Multiple Problems in One Component`
-* :ref:`Problem Randomization`
+To have problems to count toward the grade, change the assignment type of the
+subsection that contains the problems. For more information, see :ref:`Set the
+Assignment Type and Due Date for a Subsection`.
 
 .. _Problem Student View:
 
 ************************************
-The Student View of a Problem
+The Learner View of a Problem
 ************************************
 
 All problems on the edX platform have several component parts.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/AnatomyOfExercise1.png
- :alt: Image of a problem from a student's point of view, with callouts for 
-       elements of the problem
+ :alt: An image of a problem from a learner's point of view, with callouts for 
+       elements of the problem.
+  :width: 500
 
 #. **Problem text.** The problem text can contain any standard HTML formatting.
 
-#. **Response field with the student's answer.** Students enter answers
+#. **Response field with the learner's answer.** Learners enter answers
    in *response fields*. The appearance of the response field depends on
    the type of the problem.
 
 #. **Rendered answer.** For some problem types, Studio uses MathJax to
    render plain text as "beautiful math".
 
-#. **Check button.** The student clicks **Check** to submit a response
-   or find out if his answer is correct. If the answer is correct, a green
-   check mark appears. If it is incorrect, a red X appears. When the
-   student clicks the **Check button**, Studio saves the grade and current
+#. **Check button.** The learner selects **Check** to submit a response or find
+   out if his answer is correct. If the answer is correct, a green check mark
+   appears. If it is incorrect, a red X appears. When the learner selects the
+   **Check** button, the Learning Management System saves the grade and current
    state of the problem.
 
-#. **Save button.** The student can click **Save** to save his current
-   response without submitting it for a grade. This allows the student to
+#. **Save button.** The learner can select **Save** to save her current
+   response without submitting it for a grade. This allows the learner to
    stop working on a problem and come back to it later.
 
-#. **Show Answer button.** This button is optional. When the student
-   clicks **Show Answer**, the student sees both the correct answer (see 2
+#. **Show Answer button.** This button is optional. When the learner
+   selects **Show Answer**, he sees both the correct answer (see 2
    above) and the explanation (see 10 below). The instructor sets whether
    the **Show Answer** button is visible.
 
-#. **Attempts.** The instructor might set a specific number of attempts or allow
-   unlimited attempts for a problem. By default, the course-wide **Maximum
-   Attempts** advanced setting is null, meaning that the maximum number of
-   attempts for problems is unlimited. If the course-wide **Maximum Attempts**
-   setting is changed to a specific number, the **Maximum Attempts** setting
-   for individual problems defaults to that number, and cannot be set to
-   unlimited.
+#. **Attempts.** The instructor might set a specific number of attempts or
+   allow unlimited attempts for a problem. By default, the course-wide
+   **Maximum Attempts** advanced setting is null, meaning that the maximum
+   number of attempts for problems is unlimited. If the course-wide **Maximum
+   Attempts** setting is changed to a specific number, the **Maximum Attempts**
+   setting for individual problems defaults to that number, and cannot be set
+   to unlimited.
 
    .. image:: ../../../shared/building_and_running_chapters/Images//AnatomyOfExercise2.png
-    :alt: Image of a problem from a student's point of view, with callouts for 
-          attempts and showing the answer
+    :alt: An image of a problem from a learners's point of view, with 
+       callouts for attempts and showing the answer.
+    :width: 500
 
-#. **Feedback.** After a student clicks **Check**, all problems return a
+#. **Feedback.** After a learner selects **Check**, all problems return a
    green check mark or a red X.
 
    .. image:: ../../../shared/building_and_running_chapters/Images//AnatomyofaProblem_Feedback.png
-    :alt: Image of feedback checkmark and x from a student's point of view
+    :alt: An image of a feedback checkmark and x from a learner's point of view.
 
 #. **Correct answer.** Most problems require that the instructor specify
    a single correct answer.
 
-#. **Explanation.** The instructor may include an explanation that
-   appears when a student clicks **Show Answer**.
+#. **Explanation.** The instructor can include an explanation that
+   appears when a learner selects **Show Answer**.
 
-#. **Reset button.** Students can click **Reset** to clear any input that has
-   not yet been submitted, and try again to answer the question. If the student
-   has already submitted an answer, clicking **Reset** clears the submission
+#. **Reset button.** Learners can select **Reset** to clear any input that has
+   not yet been submitted, and try again to answer the question. If the learner
+   has already submitted an answer, selecting **Reset** clears the submission
    and, if the problem contains randomized variables and randomization is set
-   to **On Reset**, changes the values the student sees in the problem. If the
+   to **On Reset**, changes the values the learner sees in the problem. If the
    number of Maximum Attempts that was set for this problem has been reached,
    the **Reset** button is not visible.
 
 #. **Hide Answer button.**
 
    .. image:: ../../../shared/building_and_running_chapters/Images//AnatomyOfExercise3.png
-    :alt: A graded assignment shown in the left pane of the LMS for a course
+    :alt: An image of a graded assignment shown in the left pane of the LMS for a course.
+    :width: 200
 
-#. **Grading.** The instructor may specify whether a group of problems
+#. **Grading.** The instructor can specify whether a group of problems
    is graded. If a group of problems is graded, a clock icon appears for
    that assignment in the left pane.
 
    .. image:: ../../../shared/building_and_running_chapters/Images//clock_icon.png
+    :alt: An image of the clock icon, signifying that the problems are graded.
 
 #. **Due date.** The date that the problem is due. A problem that is
    past due does not have a **Check** button. It also does not accept
    answers or provide feedback.
 
 .. note:: Problems can be **open** or **closed.** Closed problems do not 
-          have a **Check** button. Students can still see questions, solutions,
+          have a **Check** button. Learners can still see questions, solutions,
           and revealed explanations, but they cannot check their work, submit
           responses, or change an earlier score.
 
 There are also some attributes of problems that are not immediately
 visible. You can set these attributes in Studio.
 
-*  **Randomization.** For some problems, the instructor can specify
-   whether a problem will use randomly generated numbers that vary from
-   student to student.
+* **Randomization.** For some problems, the instructor can specify whether a
+  problem will use randomly generated numbers that vary from learner to
+  learner.
 
-*  **Weight.** Different problems in a particular problem set may be
-   given different weights.
+* **Weight.** Different problems in a particular problem set can have different
+  weights.
 
-*  **Label.** To improve accessibility for students who have disabilities, each
-   problem needs a descriptive label. The label typically contains part or all
-   of the text of the question in the problem. Most templates include a space
-   for a label. You can find example labels in the documentation for each
-   problem or tool type.
+* **Label.** To improve accessibility for learners who have disabilities, each
+  problem needs a descriptive label. The label typically contains part or all
+  of the text of the question in the problem. Most templates include a space
+  for a label. You can find example labels in the documentation for each
+  problem or tool type.
 
 .. _Problem Studio View:
 
@@ -151,9 +157,9 @@ editing problem components: the Simple Editor and the Advanced Editor.
    allows you to edit that XML directly.
 
 You can switch at any time from the Simple Editor to the Advanced Editor by
-clicking **Advanced Editor** in the top right corner of the Simple Editor
-interface. However, it is not possible to switch from the Advanced Editor to
-the Simple Editor. 
+selecting **Advanced Editor** in the top right corner of the Simple Editor
+interface. However, after you save a problem in the Advanced Editor, you cannot
+open it again in the Simple Editor.
 
 .. _Simple Editor:
 
@@ -164,13 +170,13 @@ The Simple Editor
 When you select the following problem types, the Simple Editor opens with a
 preformatted example problem.
 
-*  :ref:`Checkbox`: In checkbox problems, students select one or more options
+*  :ref:`Checkbox`: In checkbox problems, learners select one or more options
    from a list of possible answers.
 
-*  :ref:`Dropdown`: In dropdown problems, students select one answer from a
+*  :ref:`Dropdown`: In dropdown problems, learners select one answer from a
    dropdown list.
 
-*  :ref:`Multiple Choice`: Multiple choice problems require students to
+*  :ref:`Multiple Choice`: Multiple choice problems require learners to
    select one answer from a list of choices that appear directly below
    the question.
 
@@ -178,14 +184,15 @@ preformatted example problem.
    include only integers, fractions, and a few common constants and
    operators.
 
-*  :ref:`Text Input`: In text input problems, students enter a short text
+*  :ref:`Text Input`: In text input problems, learners enter a short text
    answer to a question.
 
-This image shows an example multiple choice problem in the Simple Editor.
+The following image shows an example multiple choice problem in the Simple Editor.
 
 .. image:: ../../../shared/building_and_running_chapters/Images//MultipleChoice_SimpleEditor.png
- :alt: The simple editor with numbered callouts for options and an example
-     multiple choice problem to demonstrate the formatting.
+ :alt: An image of the simple editor with numbered callouts for options and an 
+   example multiple choice problem to demonstrate the formatting.
+ :width: 450
 
 The Simple Editor includes a toolbar with options that provide the required
 formatting for different types of problems. When you select an option from the
@@ -205,8 +212,8 @@ Descriptions of the toolbar options follow.
      tolerance, for a numerical input problem.
   6. **Dropdown**: Identify a comma-separated list as the answer options for a
      dropdown problem.
-  7. **Explanation**: Format text as an explanation that appears when students
-     click **Show Answer**.
+  7. **Explanation**: Format text as an explanation that appears when learners
+     select **Show Answer**.
   8. Open the problem in the Advanced Editor.
   9. Open a list of formatting hints.
   10. **Accessible Label**: Identify the question as the problem's accessible
@@ -230,28 +237,28 @@ The following image shows the multiple choice problem above in the Advanced
 Editor instead of the Simple Editor.
 
 .. image:: ../../../shared/building_and_running_chapters/Images//MultipleChoice_AdvancedEditor.png
- :alt: Image of a problem in the advanced editor
+ :alt: An image of a problem in the advanced editor.
+ :width: 450
 
 The following problem templates open in the Advanced Editor.
 
-* :ref:`Circuit Schematic Builder` In circuit schematic problems, students
+* :ref:`Circuit Schematic Builder` In circuit schematic problems, learners
   create and modify circuits on an interactive grid and submit computer-
   generated analyses of the circuits for grading.
 
-* :ref:`Custom JavaScript` With custom JavaScript display and grading problems,
-  you can incorporate problem types that you've created in HTML into Studio via
-  an IFrame.
+* :ref:`Custom JavaScript` With custom JavaScript problems, you can create a
+  custom problem or tool that uses JavaScript and add it directly into Studio.
 
-* :ref:`Drag and Drop` Drag and drop problems require students to drag text or
+* :ref:`Drag and Drop` Drag and drop problems require learners to drag text or
   objects to a specific location on an image.
 
-* :ref:`Image Mapped Input` Image mapped input problems require students to
-  click a specific location on an image.
+* :ref:`Image Mapped Input` Image mapped input problems require learners to
+  select a specific location on an image.
 
-* :ref:`Math Expression Input` Math expression input problems require students
+* :ref:`Math Expression Input` Math expression input problems require learners
   to enter a mathematical expression as text, such as e=m\*c^2.
 
-* :ref:`Problem with Adaptive Hint` These problems can give students feedback
+* :ref:`Problem with Adaptive Hint` These problems can give learners feedback
   or hints based on their responses. Problems with adaptive hints can be text
   input or multiple choice problems.
 
@@ -260,8 +267,8 @@ The following problem templates open in the Advanced Editor.
   this problem type is a prototype, and is not supported.
 
 * :ref:`Write Your Own Grader` Custom Python-evaluated input (also called
-  "write-your-own-grader" problems evaluate students' responses using an
-  embedded Python script that you create. These problems can be any type.
+  "write-your-own-grader" problems evaluate learners' responses using an
+  embedded Python script that you create. These problems can be of any type.
 
 .. _Problem Settings:
 
@@ -270,30 +277,28 @@ Problem Settings
 ******************
 
 In addition to the text of the problem, problems that you create using a
-Problem component have the following settings. These settings appear on the
+problem component have the following settings. These settings appear on the
 **Settings** tab in the component editor.
 
-*  `Display Name`_
-*  `Maximum Attempts`_
-*  `Problem Weight`_
-*  `Randomization`_
-*  `Show Answer`_
-*  `Show Reset Button`_
-*  `Timer Between Attempts`_
-
 .. image:: ../../../shared/building_and_running_chapters/Images/ProbComponent_Attributes.png
- :alt: Image of the Settings tab in a Problem component
+ :alt: An image of the Settings tab in a problem component.
+ :width: 450
+
+.. contents::
+  :local:
+  :depth: 1
 
 ===============
 Display Name
 ===============
 
-This setting indicates the name of your problem. This name appears as a
-heading above the problem and as a tooltip in the learning sequence at the top
-of the **Courseware** page.
+This setting indicates the name of your problem. This name appears for learners
+as a heading above the problem and as a tooltip in the learning sequence at the
+top of the **Courseware** page.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/ProbComponent_LMS_DisplayName.png
- :alt: Image of the problem in a unit page from a student's point of view
+ :alt: An image of the problem in a unit page from a learners's point of view.
+ :width: 500
 
 In addition, edX Insights uses the display name to identify each problem.
 Unique, descriptive display names help you identify problems quickly and
@@ -303,7 +308,7 @@ accurately for analysis. For more information, see `Using edX Insights`_.
 Maximum Attempts
 ==============================
 
-This setting specifies the number of times a student is allowed to attempt
+This setting specifies the number of times that a learner is allowed to attempt
 answering a problem. By default, the course-wide **Maximum Attempts**
 advanced setting is null, meaning that the maximum number of attempts for
 problems is unlimited. If the course-wide **Maximum Attempts** setting is
@@ -321,45 +326,45 @@ problems defaults to that number, and cannot be set to unlimited.
    higher are included in the answer distribution computations used in edX
    Insights and the Student Answer Distribution report.
 
-
 .. _Problem Weight:
 
 ==============================
 Problem Weight
 ==============================
 
-.. note:: Studio stores scores for all problems, but scores only count 
-          toward a student's final grade if they are in a subsection that is
-          graded.
+.. note:: The Learning Management System stores scores for all problems, but
+  scores only count toward a learner's final grade if they are in a subsection
+  that is graded.
 
 This setting specifies the maximum number of points possible for the
 problem. The problem weight appears next to the problem title.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/ProblemWeight_DD.png
- :alt: Image of a problem from a student's point of view, with the possible 
-       points circled
+ :alt: An image of a problem from a learner's point of view, with the possible 
+       points circled.
+ :width: 500
 
-By default, each response field, or "answer space", in a Problem
-component is worth one point. Any Problem component can have multiple
-response fields. For example, the Problem component above
-contains one dropdown problem that has three separate questions for students
-to answer, and thus has three response fields.
+By default, each response field, or "answer space", in a problem component is
+worth one point. Any problem component can have multiple response fields. For
+example, the problem component above contains one dropdown problem that has
+three separate questions, and thus has three response fields.
 
-The following Problem component contains one text input problem,
+The following problem component contains one text input problem,
 and has just one response field.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/ProblemWeight_TI.png
- :alt: Image of a text input problem from a student's point of view
+ :alt: An image of a text input problem from a learners's point of view.
+ :width: 500
 
 Computing Scores
 ****************
 
-The score that a student earns for a problem is the result of the
+The score that a learner earns for a problem is the result of the
 following formula:
 
 **Score = Weight × (Correct answers / Response fields)**
 
-*  **Score** is the point score that the student receives.
+*  **Score** is the point score that the learner receives.
 
 *  **Weight** is the problem's maximum possible point score.
 
@@ -379,22 +384,22 @@ response fields. Because the problem has two response fields, the
 maximum score is 2.0 points.
 
 If one response field contains a correct answer and the other response
-field contains an incorrect answer, the student's score is 1.0 out of 2
+field contains an incorrect answer, the learner's score is 1.0 out of 2
 points.
 
 *Example 2*
 
 A problem's weight is set to 12. The problem has three response fields.
 
-If a student's response includes two correct answers and one incorrect
-answer, the student's score is 8.0 out of 12 points.
+If a learner's response includes two correct answers and one incorrect
+answer, the learner's score is 8.0 out of 12 points.
 
 *Example 3*
 
 A problem's weight is set to 2. The problem has four response fields.
 
-If a student's response contains one correct answer and three incorrect
-answers, the student's score is 0.5 out of 2 points.
+If a learner's response contains one correct answer and three incorrect
+answers, the learner's score is 0.5 out of 2 points.
 
 .. _Randomization:
 
@@ -403,49 +408,48 @@ Randomization
 ===============
 
 This setting specifies whether certain values in your problem change each time
-a different student accesses the problem, or each time a single student tries
+a different learner accesses the problem, or each time a single learner tries
 to answer the problem. For example, the highlighted values in the problem below
-change each time a student submits an answer to the problem.
+change each time a learner submits an answer to the problem.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/Rerandomize.png
- :alt: The same problem shown twice, with color highlighting on values that 
-       can change
+ :alt: An image of the same problem shown twice, with color highlighting on 
+   values that can change.
+ :width: 800
 
 If you want to change, or "randomize," specific values in your problem, you
-have to do both the following:
+have to complete both of the following steps.
 
 * Make sure that your problem contains a Python script that randomizes the
   values that you want.
 
-* Enable randomization in the Problem component. 
+* Enable randomization in the problem component. 
 
-.. note:: Note that specifying this **Randomization** setting is different 
+.. note:: Specifying the **Randomization** setting is different 
  from *problem randomization*. The **Randomization** setting randomizes
  variables within a single problem. Problem randomization offers different
- problems or problem versions to different students. For more information, see
+ problems or problem versions to different learners. For more information, see
  :ref:`Problem Randomization`.
 
 To enable randomization, select an option for the **Randomization** setting.
 This setting has the following options.
 
-+-------------------+--------------------------------------+
-| **Always**        | Students see a different version of  |
-|                   | the problem each time they click     |
-|                   | **Check**.                           |
-+-------------------+--------------------------------------+
-| **On Reset**      | Students see a different version of  |
-|                   | the problem each time they click     |
-|                   | **Reset**.                           |
-+-------------------+--------------------------------------+
-| **Never**         | All students see the same version    |
-|                   | of the problem. This is the default. |
-+-------------------+--------------------------------------+
-| **Per Student**   | Individual students see the same     |
-|                   | version of the problem each time     |
-|                   | they look at it, but that version    |
-|                   | is different from the version that   |
-|                   | other students see.                  |
-+-------------------+--------------------------------------+
+.. list-table::
+   :widths: 15 70
+
+   * - **Always** 
+     - Learners see a different version of the problem each time they select
+       Check.
+   * - **On Reset** 
+     - Learners see a different version of the problem each time they select
+       Reset.
+   * - **Never** 
+     - All learners see the same version of the problem. This is the default
+       setting.
+   * - **Per Student**
+     - Individual learners see the same version of the problem each time they
+       look at it, but that version is different from the version that other
+       Learners see.
 
 .. note:: The edX Platform has a 20-seed limit for randomization. This means 
   that in a course with a large numbers of learners, those learners will see 
@@ -453,70 +457,50 @@ This setting has the following options.
   better analysis of learner submissions (such as the ability to detect 
   common incorrect answers and usage patterns around such answers).
 
-
 .. _Show Answer:
 
 ===============
 Show Answer
 ===============
 
-This setting defines when the problem shows the answer to the student.
-This setting has the following options.
+This setting defines when learners are shown the answers to a problem and has
+the following options
 
-+-------------------+--------------------------------------+
-| **Always**        | Always show the answer when the      |
-|                   | student clicks the **Show Answer**   |
-|                   | button.                              |
-+-------------------+--------------------------------------+
-| **Answered**      | Show the answer after the student    |
-|                   | tries to answer the problem.         |
-|                   |                                      |
-|                   | If the question can be, and is,      |
-|                   | reset, the answer                    |
-|                   | is not shown until the student tries |
-|                   | the problem again. (When a student   |
-|                   | answers a question, the question is  |
-|                   | considered to be                     |
-|                   | both attempted and answered. When    |
-|                   | the question is reset, the question  |
-|                   | is still attempted, but not yet      |
-|                   | answered.)                           |
-+-------------------+--------------------------------------+
-| **Attempted**     | Show the answer after the student    |
-|                   | tries to answer the problem.         |
-|                   |                                      |
-|                   | If the question can be, and is,      |
-|                   | reset, the answer                    |
-|                   | *continues to show*.                 |
-|                   | (When a student answers a question,  |
-|                   | the question is considered to be     |
-|                   | both attempted and                   |
-|                   | answered. When the question is       |
-|                   | reset, the question is still         |
-|                   | attempted, but not yet answered.)    |
-+-------------------+--------------------------------------+
-| **Closed**        | Show the answer after the student    |
-|                   | has used up all his attempts to      |
-|                   | answer the problem or the due date   |
-|                   | has passed.                          |
-+-------------------+--------------------------------------+
-| **Finished**      | Show the answer after the student    |
-|                   | has answered the problem correctly,  |
-|                   | the student has no attempts left, or |
-|                   | the problem due date has passed.     |
-+-------------------+--------------------------------------+
-| **Correct or      | Show the answer after the student    |
-| Past Due**        | has answered the problem correctly   |
-|                   | or the problem due date has passed.  |
-+-------------------+--------------------------------------+
-| **Past Due**      | Show the answer after the due date   |
-|                   | for the problem has passed.          |
-+-------------------+--------------------------------------+
-| **Never**         | Never show the answer. In this case, |
-|                   | the **Show Answer** button does not  |
-|                   | appear next to the problem in Studio |
-|                   | or in the LMS.                       |
-+-------------------+--------------------------------------+
+.. list-table::
+   :widths: 15 70
+   
+   * - **Always** 
+     - Always show the answer when the learner selects the **Show Answer**
+       button.
+   * - **Answered** 
+     - Show the answer after the learner tries to answer the problem. 
+       
+       If the question can be, and is, reset, the answer is not shown until the
+       learner tries the problem again. (When a learner answers a question, the
+       question is considered to be both attempted and answered. When the
+       question is reset, the question is still attempted, but not yet
+       answered.)
+   * - **Attempted** 
+     - Show the answer after the learner tries to answer the problem.
+       
+       If the question can be, and is, reset, the answer continues to show.
+       (When a learner answers a question, the question is considered to be
+       both attempted and answered. When the question is reset, the question is
+       still attempted, but not yet answered.)
+   * - **Closed**
+     - Show the answer after the learner has used up all his attempts to answer
+       the problem or the due date has passed.
+   * - **Finished**
+     - Show the answer after the learner has answered the problem correctly,
+       the learner has no attempts left, or the problem due date has passed.
+   * - **Correct or Past Due**
+     - Show the answer after the learner has answered the problem correctly or
+       the problem due date has passed.
+   * - **Past Due**
+     - Show the answer after the due date for the problem has passed.
+   * - **Past Due**
+     - Never show the answer. In this case, the Show Answer button does not
+       appear next to the problem in Studio or in the LMS.
 
 .. _Show Reset Button:
 
@@ -525,12 +509,16 @@ Show Reset Button
 =================
 
 This setting defines whether a **Reset** button is visible on the problem.
-Students can click **Reset** to clear any input that has not yet been submitted,
-and try again to answer the problem. If the student has already submitted an
-answer, clicking **Reset** clears the submission and, if the problem contains
-randomized variables and randomization is set to **On Reset**, changes the
-values the student sees in the problem. If the number of Maximum  Attempts that
-was set for this problem has been reached, the **Reset** button is not visible.
+
+Learners can select **Reset** to clear any input that has not yet been
+submitted, and try again to answer the problem. 
+
+If the learner has already submitted an answer, selecting **Reset** clears the
+submission and, if the problem contains randomized variables and randomization
+is set to **On Reset**, changes the values in the problem. 
+
+If the number of Maximum Attempts that was set for this problem has been
+reached, the **Reset** button is not visible.
 
 This problem-level setting overrides the course-level **Show Reset Button for
 Problems** setting.
@@ -541,9 +529,9 @@ Problems** setting.
 Timer Between Attempts
 =======================
 
-This setting specifies the number of seconds a student must wait between
+This setting specifies the number of seconds that a learner must wait between
 submissions for a problem that allows multiple attempts. If the value is 0, the
-student can attempt the problem again immediately after an incorrect attempt.
+learner can attempt the problem again immediately after an incorrect attempt.
 
 Adding required wait time between attempts can help to prevent learners from
 simply guessing when multiple attempts are allowed.
@@ -552,8 +540,9 @@ If a learner attempts a problem again before the required time has elapsed, she
 sees a message below the problem indicating the remaining wait time.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/problem_attempt_timer.png
- :alt: Problem with message that learner must wait before attempting again
-
+ :alt: An image of a problem with a message indicating that the learner must 
+   wait before attempting to answer again.
+ :width: 500
 
 .. _Modifying a Released Problem:
 
@@ -562,52 +551,53 @@ Modifying a Released Problem
 *********************************
 
 .. warning:: Be careful when you modify problems after they have been 
- released! Changes that you make to published problems can affect the student
+ released. Changes that you make to published problems can affect the learner
  experience in the course and analysis of course data.
 
-After a student submits a response to a problem, the edX Learning Management
-System (LMS) stores the student's response, the score that the student
-received, and the maximum score for the problem. For problems with a **Maximum
-Attempts** setting greater than 1, the LMS updates these values each time the
-student submits a new response to a problem. However, if an instructor changes
-a problem or its attributes, existing student information for that problem is
-not automatically updated.
+After a learner submits a response to a problem, the edX Learning Management
+System (LMS) stores the response, the score that the learner
+received, and the maximum score for the problem. 
 
-For example, you may release a problem and specify that its answer is 3.
-After some students have submitted responses, you notice that the answer
+For problems with a **Maximum Attempts** setting greater than 1, the LMS
+updates these values each time the learner submits a new response to a problem.
+However, if an instructor changes a problem or its attributes, existing learner
+information for that problem is not automatically updated.
+
+For example, you release a problem and specify that its answer is 3.
+After some learner have submitted responses, you notice that the answer
 should be 2 instead of 3. When you update the problem with the correct
-answer, the LMS does not update scores for students who originally answered 
+answer, the LMS does not update scores for learners who originally answered 
 2 for the problem and received the wrong score.
 
-For another example, you may change the number of response fields to
-three. Students who submitted answers before the change have a score of
-0, 1, or 2 out of 2.0 for that problem. Students who submitted answers
+For another example, you change the number of response fields to
+three. Learners who submitted answers before the change have a score of
+0, 1, or 2 out of 2.0 for that problem. Learners who submitted answers
 after the change have scores of 0, 1, 2, or 3 out of 3.0 for the same
 problem.
 
 If you change the weight setting for the problem in Studio, however, existing
-student scores update when the student's **Progress** page is refreshed. In a
-live section, students will see the effect of these changes.
+scores update when the learner's **Progress** page is refreshed. In a live
+section, learners will see the effect of these changes.
 
 ===============
 Workarounds
 ===============
 
 If you have to modify a released problem in a way that affects grading, you
-have two options within Studio to assure that every student has the opportunity
+have two options to ensure that every learner has the opportunity
 to submit a new response and be regraded. Note that both options require you to
-ask your students to go back and resubmit answers to a problem.
+ask your learners to go back and resubmit answers to a problem.
 
-*  In the Problem component that you changed, increase the number of attempts
-   for the problem. Then ask all your students to redo the problem.
+*  In the problem component that you changed, increase the number of attempts
+   for the problem, then ask all your learners to redo the problem.
 
-*  Delete the entire Problem component in Studio and create a new Problem
-   component with the content and settings that you want. (If the revisions you
-   must make are minor, duplicate the Problem component before you delete it
-   and revise the copy.) Then ask all your students to complete the new
-   problem.
+*  Delete the entire problem component in Studio and create a new Problem
+   component with the content and settings that you want, then ask all your
+   learners to complete the new problem. (If the revisions you must make are
+   minor, duplicate the problem component before you delete it and revise the
+   copy.)
 
-For information about how to review and adjust student grades in the LMS, see
+For information about how to review and adjust learner grades in the LMS, see
 :ref:`Grades`.
 
 .. _Additional Work with Problems:
@@ -618,7 +608,7 @@ Additional Work with Problems
 
 You have some further options when you work with problems. You can include more
 than one problem in a single problem component, or you can set up a problem
-that presents different versions to different students.
+that presents different versions to different learners.
 
 .. _Multiple Problems in One Component:
 
@@ -626,12 +616,12 @@ that presents different versions to different students.
 Multiple Problems in One Component
 ====================================
 
-You may want to create a problem that has more than one response type. For
-example, you may want to create a numerical input problem, and then include a
-multiple choice question about the numerical input problem. Or, you may want a
-student to be able to check the answers to many problems at one time. To do
-this, you can include multiple problems inside a single Problem component. The
-problems can be different types.
+You might want to create a problem that has more than one response type. For
+example, you might want to create a numerical input problem and then include a
+multiple choice question about that numerical input problem. Or, you might
+want a learner to be able to check the answers to many problems at one time. To
+do this, you can include multiple problems inside a single problem component.
+The problems can be different types.
 
 .. note:: 
   You cannot use a :ref:`Custom JavaScript` in a component that contains more
@@ -639,19 +629,19 @@ problems can be different types.
   component.
 
 To create multiple problems in one component, create a new Blank Advanced
-Problem component, and then add the XML for each problem in the component
+problem component, and then add the XML for each problem in the component
 editor. You only need to include the XML for the problem and its answers. You
 do not have to include the code for other elements, such as the **Check**
 button.
 
 Elements such as the **Check**, **Show Answer**, and **Reset** buttons, as well
-as the settings that you select for the Problem component, apply to all of the
+as the settings that you select for the problem component, apply to all of the
 problems in that component. Thus, if you set the maximum number of attempts to
-3, the student has three attempts to answer the entire set of problems in the
+3, the learner has three attempts to answer the entire set of problems in the
 component as a whole rather than three attempts to answer each problem
-individually. If a student clicks **Check**, the LMS scores all of the problems
-in the component at once. If a student clicks **Show Answer**, the answers for
-all the problems in the component appear.
+individually. If a learner selects **Check**, the LMS scores all of the
+problems in the component at once. If a learner selects **Show Answer**, the
+answers for all the problems in the component appear.
 
 .. _Problem Randomization:
 
@@ -659,21 +649,21 @@ all the problems in the component appear.
 Problem Randomization
 ===========================
 
-You may want to present different students with different problems, or
-different versions of the same problem. To do this, you'll create a Problem
+You might want to present different learners with different problems, or
+different versions of the same problem. To do this, you create a problem
 component for each problem or version in Studio, and then edit your course
-outside of Studio to randomize the problem that students see.
+outside of Studio, in OLX, to randomize the problem that learners see.
 
 Note that *problem randomization* is different from the **Randomization**
 setting in Studio. The **Randomization** setting randomizes variables within a
 single problem. Problem randomization offers different problems or problem
-versions to different students.
+versions to different learners.
 
 .. note:: Creating problems with versions that can be randomized requires you 
  to export your course, edit some of your course's XML files in a text editor,
  and then re-import your course. We recommend that you create a backup copy of
  your course before you do this. We also recommend that you only edit your
- course files in the text editor if you're very familiar with editing XML.
+ course files in the text editor if you are very familiar with editing XML.
 
 Terminology
 ************
@@ -699,9 +689,9 @@ of files.
    * - Component
      - Discussion, HTML, problem, or video
 
-For example, when you want to find a specific section in your course, you'll
-look in the **Chapter** folder when you open the list of files that your course
-contains. To find a unit, you'll look in the **Vertical** folder.
+For example, when you want to find a specific section in your course, look in
+the **Chapter** directory when you open the list of files that your course
+contains. To find a unit, look in the **Vertical** directory.
 
 .. _Create Randomized Problems:
 
@@ -709,30 +699,30 @@ Create Randomized Problems
 ****************************
 
 #. In the unit where you want to create a randomized problem, create a separate
-   Problem component for each version or problem that you want to randomize.
-   For example, if you want to offer four versions or problems, you'll create
-   four separate Problem components. Make a note of the 32-digit unit ID that
+   problem component for each version or problem that you want to randomize.
+   For example, if you want to offer four versions or problems, create
+   four separate problem components. Make a note of the 32-digit unit ID that
    appears in the **Unit Identifier** field under **Unit Location**.
 
-#. Export your course. For information about how to do this, see
+#. Export your course. For more information, see
    :ref:`Exporting and Importing a Course`. Save and extract the .tar.gz file
    that contains your course in a memorable location so that you can find
    it easily.
 
-#. In the list of folders and files, open the **Vertical** folder.
+#. In the list of directories and files, open the **Vertical** directory.
 
-   .. note:: If your unit is not published, open the **Drafts** folder, and 
-    then open the **Vertical** folder in the **Drafts** folder.
+   .. note:: If your unit is not published, open the **Drafts** directory, and 
+    then open the **Vertical** directory in the **Drafts** folder.
 
 #. In the **Vertical** folder, locate the .xml file that has the same name as
    the unit ID that you noted in step 1, and then open the file in a text
-   editor such as Sublime 2. For example, if the unit ID is
-   e461de7fe2b84ebeabe1a97683360d31, you open the
-   e461de7fe2b84ebeabe1a97683360d31.xml file.
+   editor such as Sublime. For example, if the unit ID is
+   ``e461de7fe2b84ebeabe1a97683360d31``, open the
+   ``e461de7fe2b84ebeabe1a97683360d31.xml`` file.
 
    The file contains a list of all the components in the unit, together with
    the URL names of the components. For example, the following file contains
-   four Problem components.
+   four problem components.
 
    .. code-block:: xml
      
@@ -772,13 +762,13 @@ Create Randomized Problems
 
 .. note::
 
-  * Once you've implemented randomization, you can only see one of the versions
-    or problems in Studio. You can edit that single problem directly in Studio,
-    but to edit any of the other problems, you'll have to export your course,
-    edit the problems in a text editor, and then re-import the course. This is
-    true for instructors as well as course teams.
+  * Once you have implemented randomization, you can only see one of the
+    versions or problems in Studio. You can edit that single problem directly
+    in Studio, but to edit any of the other problems, you must export
+    your course, edit the problems in a text editor, and then re-import the
+    course. This is true for instructors as well as course teams.
   
-  * A .csv file for student responses contains the responses to each of the
+  * A .csv file for learner responses contains the responses to each of the
     problems in the problem bank.
 
 .. include:: ../../../shared/exercises_tools/adding_tooltip.rst
