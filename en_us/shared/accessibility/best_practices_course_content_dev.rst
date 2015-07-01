@@ -705,7 +705,6 @@ Accessible Mathematical Content Resources
   pages using their display engine.
   
 * The `DO-IT project <http://www.washington.edu/doit/are-there-guidelines-creating-accessible-math?465=>`_ from the University of Washington provides guidance on creating accessible math content.
->>>>>>> Finalize Accessibility Best Practices document
 
 * `The AccessSTEM website <http://www.washington.edu/doit/programs/accessstem/overview>`_
   provides guidance on creating accessible science, technology, engineering
@@ -714,7 +713,6 @@ Accessible Mathematical Content Resources
 * The `Design Science News blog <http://news.dessci.com/accessible-math>`_
   shares information about making math accessible.
 
-.. _MathJax: <http://www.mathjax.org>
 
 .. _Best Practices for Custom Content Types:
 
