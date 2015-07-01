@@ -4,6 +4,14 @@
 Numerical Input Problem
 ########################
 
+.. contents:: Topic Contents
+  :local:
+  :depth: 1
+
+**********
+Overview
+**********
+
 In numerical input problems, learners enter numbers or specific and relatively
 simple mathematical expressions to answer a question. The text that the
 learners enter is converted to a symbolic expression that appears below the
@@ -12,6 +20,7 @@ response field.
 .. image:: ../../../shared/building_and_running_chapters/Images/image292.png
  :alt: A problem with 3 questions, the learner gave 2 correct and 1
      incorrect answer
+ :width: 600
 
 Responses for numerical input problems can include integers, fractions, and
 constants such as pi and *g*. Responses can also include text representing
@@ -24,6 +33,7 @@ learner and the numerical expression that results.
 .. image:: ../../../shared/building_and_running_chapters/Images/Math5.png
  :alt: A learner typed n*x^(n-1) to enter the symbolic expression n times x to
      the n minus 1 power
+ :width: 400
 
 For more information about how learners enter expressions, see `Math Response
 Formatting for Students`_.
@@ -31,6 +41,10 @@ Formatting for Students`_.
 You can specify a margin of error, or tolerance, for the answers to these
 problems so that learners' responses do not have to be exact. You can 
 specify a correct answer explicitly or use a Python script.
+
+**************************************************
+Analyzing Performance on Numerical Input Problems
+**************************************************
 
 For the numerical input problems in your course, you can use edX Insights to
 review aggregated learner performance data and examine submitted answers. For
@@ -67,9 +81,17 @@ problem, follow these steps.
 
 #. In the unit where you want to create the problem, under **Add New
    Component** select **Problem**.
-#. From the list of **Common Problem Types**, select **Numerical Input**.
-   Studio adds an example dropdown problem to the unit.
-#. Select **Edit**. The Simple Editor opens.
+#. Select one of the two numerical input problem templates.
+   
+  * From the list of **Common Problem Types**, select **Numerical Input**. 
+   
+  * From the list of **Common Problems with Hints and Feedback**, select
+    **Numerical Input with Hints and Feedback**. For more information, see `Use
+    Feedback in a Numerical Input Problems`_.
+
+    Studio adds the problem to the unit.
+
+3. Select **Edit**. The Simple Editor opens. 
 #. Replace the sample problem text with your own text.
 #. Determine the text that describes the question you want learners to answer,
    and surround that text with two pairs of angle brackets (``>>question<<``).
@@ -137,30 +159,28 @@ Editor.
   <problem>
     <p><b>Example Problem</b></p>
 
-  <p>What base is the decimal numeral system in?
+  <legend>What base is the decimal numeral system in?</legend>
       <numericalresponse answer="10">
           <formulaequationinput label="What base is the decimal numeral system in?"/>
       </numericalresponse>
   </p>
 
-    <p>What is the value of the standard gravity constant <i>g</i>, measured in m/s<sup>2</sup>? Give your answer to at least two decimal places.
+    <legend>What is the value of the standard gravity constant <i>g</i>, measured in m/s<sup>2</sup>? Give your answer to at least two decimal places.</legend>
     <numericalresponse answer="9.80665">
       <responseparam type="tolerance" default="0.01" />
       <formulaequationinput label="Give your answer to at least two decimal places"/>
     </numericalresponse>
-  </p>
 
   <!-- The following lines use Python script spacing. Make sure it is not indented when you add it to the problem component. -->
   <script type="loncapa/python">
   computed_response = math.sqrt(math.fsum([math.pow(math.pi,2), math.pow(math.e,2)]))
   </script>
 
-  <p>What is the distance in the plane between the points (pi, 0) and (0, e)? You can type math.
+  <legend>What is the distance in the plane between the points (pi, 0) and (0, e)? You can type math.</legend>
       <numericalresponse answer="$computed_response">
           <responseparam type="tolerance" default="0.0001" />
           <formulaequationinput label="What is the distance in the plane between the points (pi, 0) and (0, e)?"/>
       </numericalresponse>
-  </p>
   <solution>
     <div class="detailed-solution">
       <p>Explanation</p>
@@ -177,6 +197,147 @@ Editor.
     </div>
   </solution>
   </problem>
+
+.. _Use Feedback in a Numerical Input Problems:
+
+********************************************
+Use Feedback in a Numerical Input Problems
+********************************************
+
+You can add feedback in a numerical input problem using the simple editor
+or the advanced editor. For an overview of feedback in problems, see
+:ref:`Adding Feedback and Hints to a Problem`.
+
+In numerical input problems, you can provide feedback for correct answers. 
+
+.. note:: 
+  You cannot provide feedback for incorrect answers in numerical input
+  problems.
+
+Use feedback for the correct answer to reinforce the process for arriving at
+the numerical value.
+
+=======================================
+Configure Feedback in the Simple Editor
+=======================================
+
+In the :ref:`Simple Editor<Simple Editor>`, you configure answer feedback with
+the following syntax. When you create a new numerical input problem, select the
+template  **Numerical Input with Hints and Feedback**. This template has
+example feedback syntax that you can replace.
+
+::
+
+  = Numerical Answer {{Feedback for the correct answer.}}
+
+For example, the following problem has feedback for each possible answer.
+
+::
+
+  >>What is the arithmetic mean for the following set of numbers? 
+    (1, 5, 6, 3, 5)<<
+
+  = 4 {{The mean for this set of numbers is 20 / 5 which equals 4.}}
+
+=========================================
+Configure Feedback in the Advanced Editor
+=========================================
+
+In the :ref:`Advanced Editor<Advanced Editor>`, you configure answer feedback
+with the following syntax.   
+
+.. code-block:: xml
+
+    <numericalresponse answer="Correct Answer">
+      <formulaequationinput label="Question" />
+      <correcthint>
+        Feedback for the correct answer.
+      </correcthint>
+    </numericalresponse>
+
+For example, the following problem has feedback for the correct answer.
+
+.. code-block:: xml
+
+  <numericalresponse answer="4">
+    <formulaequationinput label="What is the arithmetic mean for the following 
+      set of numbers? (1, 5, 6, 3, 5)" />
+    <correcthint>
+      The mean for this set of numbers is 20 / 5 which equals 4.
+    </correcthint>
+  </numericalresponse>
+
+=========================
+Customize Feedback Labels
+=========================
+
+By default, the feedback label for correct answers is **Correct** . If you do
+not define a feedback label, learners see this term when they submit a correct
+answer, as in the following example.
+
+.. image:: ../../../shared/building_and_running_chapters/Images/numerical_input_feedback.png
+ :alt: Image of numerical input feedback with the standard label.
+ :width: 600
+
+You can configure the problem to override the default labels. For example, you
+can configure a custom label for the answer.
+
+.. image:: ../../../shared/building_and_running_chapters/Images/numerical_input_feedback_custom_label.png
+ :alt: Image of numerical input feedback with a custom label.
+ :width: 600
+
+.. note::
+  The default label **Correct** is displayed in the learner's requested
+  language. If you provide a custom label, it is displayed to all users as you
+  configure it and is not translated into different languages.
+
+Customize Feedback Labels in the Simple Editor
+***********************************************
+
+In the :ref:`Simple Editor<Simple Editor>`, you configure a custom feedback
+label with the following syntax.
+
+::
+
+  = 4 {{Label::Feedback}}
+
+For example, the following feedback is configured to use a custom label.
+
+::
+
+  = 4 {{Good Job::The mean for this set of numbers is 20 / 5 which equals 4.}}
+
+Customize Feedback Labels in the Advanced Editor
+*************************************************
+
+In the :ref:`Advanced Editor<Advanced Editor>`, you configure custom feedback
+labels with the following syntax.
+
+.. code-block:: xml
+
+    <correcthint label="Custom Label">
+      Feedback
+    </correcthint>
+
+For example, the following feedback is configured to use a custom label.
+
+.. code-block:: xml
+
+  <correcthint label="Good Job">
+    The mean for this set of numbers is 20 / 5 which equals 4.
+  </correcthint>
+
+.. _Use Hints in a Numerical Input Problem:
+
+********************************************
+Use Hints in a Numerical Input Problem
+********************************************
+
+You can use hints in a numerical input problem, using the simple editor
+or the advanced editor. For an overview of hints in problems, see
+:ref:`Adding Feedback and Hints to a Problem`.
+
+.. include:: ../../../shared/exercises_tools/Subsection_configure_hints.rst
 
 .. _Numerical Input Problem XML:
 
@@ -198,17 +359,18 @@ Problem with No Tolerance
 
   <problem>
 
-  <p>TEXT OF PROBLEM
-      <numericalresponse answer="ANSWER (NUMBER)">
-          <formulaequationinput label="TEXT OF PROBLEM"/>
-      </numericalresponse>
-  </p>
-   
+    <legend>TEXT OF PROBLEM</legend>
+    <numericalresponse answer="ANSWER (NUMBER)">
+      <formulaequationinput label="TEXT OF PROBLEM"/>
+      <correcthint>
+        Feedback for the correct answer.
+      </correcthint>
+    </numericalresponse>
     <solution>
-    <div class="detailed-solution">
-    <p>TEXT OF SOLUTION</p>
-    </div>
-  </solution>
+      <div class="detailed-solution">
+        <p>TEXT OF SOLUTION</p>
+      </div>
+    </solution>
   </problem>
 
 Problem with a Decimal Tolerance
@@ -218,18 +380,20 @@ Problem with a Decimal Tolerance
 
   <problem>
    
-    <p>TEXT OF PROBLEM
+    <legend>TEXT OF PROBLEM</legend>
     <numericalresponse answer="ANSWER (NUMBER)">
       <responseparam type="tolerance" default="NUMBER (DECIMAL, e.g., .02)" />
       <formulaequationinput label="TEXT OF PROBLEM"/>
+      <correcthint>
+        Feedback for the correct answer.
+      </correcthint>
     </numericalresponse>
-  </p>
    
     <solution>
-    <div class="detailed-solution">
-    <p>TEXT OF SOLUTION</p>
-    </div>
-  </solution>
+      <div class="detailed-solution">
+        <p>TEXT OF SOLUTION</p>
+      </div>
+    </solution>
   </problem>
 
 Problem with a Percentage Tolerance
@@ -239,19 +403,21 @@ Problem with a Percentage Tolerance
 
   <problem>
    
-   <p>TEXT OF PROBLEM
+    <legend>TEXT OF PROBLEM</legend>
     <numericalresponse answer="ANSWER (NUMBER)">
       <responseparam type="tolerance" default="NUMBER (PERCENTAGE, e.g., 3%)" />
       <formulaequationinput label="TEXT OF PROBLEM"/>
+      <correcthint>
+        Feedback for the correct answer.
+      </correcthint>
     </numericalresponse>
-   </p>
 
     <solution>
-    <div class="detailed-solution">
-    <p>TEXT OF SOLUTION</p>
-    </div>
-  </solution>
-  </problem>
+      <div class="detailed-solution">
+        <p>TEXT OF SOLUTION</p>
+      </div>
+    </solution>
+    </problem>
 
 Answer Created Using a Script
 ************************************
@@ -265,18 +431,20 @@ Answer Created Using a Script
   computed_response = math.sqrt(math.fsum([math.pow(math.pi,2), math.pow(math.e,2)]))
   </script>
 
-  <p>TEXT OF PROBLEM
-      <numericalresponse answer="$computed_response">
-          <responseparam type="tolerance" default="0.0001" />
-          <formulaequationinput label="TEXT OF PROBLEM"/>
-      </numericalresponse>
-  </p>
+    <legend>TEXT OF PROBLEM</legend>
+    <numericalresponse answer="$computed_response">
+      <responseparam type="tolerance" default="0.0001" />
+      <formulaequationinput label="TEXT OF PROBLEM"/>
+      <correcthint>
+        Feedback for the correct answer.
+      </correcthint>
+    </numericalresponse>
 
     <solution>
-    <div class="detailed-solution">
-     <p>TEXT OF SOLUTION</p>
-    </div>
-  </solution>
+      <div class="detailed-solution">
+        <p>TEXT OF SOLUTION</p>
+      </div>
+    </solution>
   </problem>
 
 ====
@@ -285,10 +453,15 @@ Tags
 
 * ``<numericalresponse>`` (required): Specifies that the problem is a
   numerical input problem.
+
 * ``<formulaequationinput />`` (required): Provides a response field where the
   learner enters a response.
+
+* ``<correcthint>`` (optional): Specifies feedback for the correct answer.
+
 * ``<responseparam>`` (optional): Specifies a tolerance, or margin of error,
   for an answer.
+
 * ``<script>`` (optional)
 
 .. note:: Some older problems use the ``<textline math="1" />`` tag instead 
@@ -328,6 +501,7 @@ the ``<numericalresponse>`` tag does not allow unspecified variables.
   
   * ``<responseparam>``
   * ``<formulaequationinput>``
+  * ``<correcthint>``
 
 **Tag:** ``<formulaequationinput>``
 
@@ -371,6 +545,10 @@ Specifies a tolerance, or margin of error, for an answer.
   
   (none)
 
+**Tag:** ``<correcthint>``
+
+Specifies a hint for the correct answer.
+
 **Tag:** ``<script>``
 
 Specifies a script that the grader uses to evaluate a learner's response. A
@@ -396,7 +574,22 @@ XML.
   
   (none)
 
-.. _Math Response Formatting for Students: http://edx-guide-for-students.readthedocs.org/en/latest/SFD_mathformatting.html
+**Tag:** ``<demandhint>``
 
+Specifies hints available to the learner.
+
+  Children
+  
+  ``<hint>``
+
+**Tag:** ``<hint>``
+
+Specifies a hint available to the learner.
+
+  Children
+  
+  (none)
+
+.. _Math Response Formatting for Students: http://edx-guide-for-students.readthedocs.org/en/latest/SFD_mathformatting.html
 
 .. _Using edX Insights: http://edx.readthedocs.org/projects/edx-insights/en/latest/

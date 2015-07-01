@@ -33,7 +33,7 @@ To have problems to count toward the grade, change the assignment type of the
 subsection that contains the problems. For more information, see :ref:`Set the
 Assignment Type and Due Date for a Subsection`.
 
-.. _Problem Student View:
+.. _Problem Learner View:
 
 ************************************
 The Learner View of a Problem
@@ -187,7 +187,8 @@ preformatted example problem.
 *  :ref:`Text Input`: In text input problems, learners enter a short text
    answer to a question.
 
-The following image shows an example multiple choice problem in the Simple Editor.
+The following image shows an example multiple choice problem in the Simple
+Editor.
 
 .. image:: ../../../shared/building_and_running_chapters/Images//MultipleChoice_SimpleEditor.png
  :alt: An image of the simple editor with numbered callouts for options and an 
@@ -600,21 +601,11 @@ ask your learners to go back and resubmit answers to a problem.
 For information about how to review and adjust learner grades in the LMS, see
 :ref:`Grades`.
 
-.. _Additional Work with Problems:
-
-************************************
-Additional Work with Problems
-************************************
-
-You have some further options when you work with problems. You can include more
-than one problem in a single problem component, or you can set up a problem
-that presents different versions to different learners.
-
 .. _Multiple Problems in One Component:
 
-====================================
+***********************************
 Multiple Problems in One Component
-====================================
+***********************************
 
 You might want to create a problem that has more than one response type. For
 example, you might want to create a numerical input problem and then include a
@@ -643,11 +634,13 @@ individually. If a learner selects **Check**, the LMS scores all of the
 problems in the component at once. If a learner selects **Show Answer**, the
 answers for all the problems in the component appear.
 
+.. include:: ../../../shared/exercises_tools/Section_adding_hints.rst
+
 .. _Problem Randomization:
 
-===========================
+***********************************
 Problem Randomization
-===========================
+***********************************
 
 You might want to present different learners with different problems, or
 different versions of the same problem. To do this, you create a problem
@@ -665,8 +658,9 @@ versions to different learners.
  your course before you do this. We also recommend that you only edit your
  course files in the text editor if you are very familiar with editing XML.
 
+============
 Terminology
-************
+============
 
 Sections, subsections, units, and components have different names in the
 **Course Outline** view and in the list of files that you'll see after you
@@ -695,8 +689,9 @@ contains. To find a unit, look in the **Vertical** directory.
 
 .. _Create Randomized Problems:
 
+==========================
 Create Randomized Problems
-****************************
+==========================
 
 #. In the unit where you want to create a randomized problem, create a separate
    problem component for each version or problem that you want to randomize.
@@ -771,6 +766,6 @@ Create Randomized Problems
   * A .csv file for learner responses contains the responses to each of the
     problems in the problem bank.
 
-.. include:: ../../../shared/exercises_tools/adding_tooltip.rst
+.. include:: ../../../shared/exercises_tools/Section_adding_tooltip.rst
 
 .. _Using edX Insights: http://edx.readthedocs.org/projects/edx-insights/en/latest/

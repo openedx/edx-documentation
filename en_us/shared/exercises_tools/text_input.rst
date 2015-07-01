@@ -4,6 +4,14 @@
 Text Input Problem
 ########################
 
+.. contents:: Topic Contents
+  :local:
+  :depth: 1
+
+**********
+Overview
+**********
+
 In text input problems, learners enter text into a response field. The
 response can include numbers, letters, and special characters such as
 punctuation marks. Because the text that the learner enters must match the
@@ -13,6 +21,11 @@ problems to allow for differences in capitalization and typographical errors.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/TextInputExample.png
  :alt: Image of a text input problem
+ :width: 600
+
+**************************************************
+Analyzing Performance on Multiple Choice Problems
+**************************************************
 
 For the text input problems in your course, you can use edX Insights to review
 aggregated learner performance data and examine submitted answers. For more
@@ -40,14 +53,22 @@ follow these steps.
 
 #. In the unit where you want to create the problem, under **Add New
    Component** select **Problem**.
-#. From the list of **Common Problem Types**, select **Text Input**. Studio
-   adds an example text input problem to the unit.
-#. Select **Edit**. The Simple Editor opens.
+#. Select one of the two text input problem templates.
+   
+  * From the list of **Common Problem Types**, select **Text Input**. 
+   
+  * From the list of **Common Problems with Hints and Feedback**, select **Text
+    Input with Hints and Feedback**. For more information, see `Use Feedback in
+    a Text Input Problem`_.
+
+    Studio adds the problem to the unit.
+
+3. Select **Edit**. The Simple Editor opens. 
 #. Replace the sample problem text with your own text.
 #. Determine the text that describes the question you want learners to answer,
    and surround that text with two pairs of angle brackets (``>>question<<``).
    This question text is the accessible label for the problem.
-#. Select the text of the problem's answer, and then select **Text Input** from 
+#. Select the text of the problem's answer, and then select **Text Input** from
    the toolbar. An equals signe (=) appears next to the answer.
 
    You can identfy more than one correct answer. For more information, see
@@ -65,20 +86,18 @@ follow these steps.
 For the example problem illustrated above, the following text displays in the
 problem component.
 
-
 ::
 
-    >>What is the technical term that refers to the fact that, when enough people 
-    sleep under a bednet, the disease may altogether disappear?<<
-    = herd immunity
+    >>What was the first post-secondary school in China to allow both male and 
+    female students?<<
+
+    = Nanjing Higher Normal Institute
+    or= National Central University
+    or= Nanjing University
 
     [explanation]
-    The correct answer is herd immunity. As more and more people use bednets, 
-    the risk of malaria begins to fall for everyone – users and non-users alike. 
-    This can fall to such a low probability that malaria is effectively eradicated 
-    from the group (even when the group does not have 100% bednet coverage).
+    Nanjing Higher Normal Institute first admitted female students in 1920.
     [explanation]
-
 
 ========================================================================
 Use the Advanced Editor to Edit a Text Input Problem 
@@ -95,37 +114,197 @@ To use the Advanced Editor to edit a text input problem, follow these steps.
 
 .. code-block:: xml
 
-  <problem>
-  <p>
-    <em>This problem is adapted from an exercise that first appeared in MITx's 14.73x The Challenges of Global Poverty course, spring 2013.</em>
-  </p>
-  <p>What is the technical term that refers to the fact that, when enough people sleep under a bednet, the disease may altogether disappear?</p>
-  <stringresponse answer="herd immunity" type="ci regexp">
-         <additional_answer>community immunity</additional_answer>
-          <additional_answer>population immunity</additional_answer>
-          <textline size="20" label="What is the technical term that refers to the fact that, when enough people sleep under a bednet, the disease may altogether disappear?"/>
-          <hintgroup>
-              <stringhint answer="contact immunity" type="ci" name="contact_immunity_hint" />
-              <hintpart on="contact_immunity_hint">
-                  <startouttext />
-                  In contact immunity, a vaccinated individual passes along his immunity to another person through contact with feces or bodily fluids. The answer to the question above refers to the form of immunity that occurs when so many members of a population are protected, an infectious disease is unlikely to spread to the unprotected population.
-                  <endouttext />
-              </hintpart >
-              <stringhint answer="firewall immunity" type="ci" name="firewall_immunity_hint" />
-              <hintpart on="firewall_immunity_hint">
-                  <startouttext />
-                  Although a firewall provides protection for a population, the term "firewall" is used more in computing and technology than in epidemiology.
-                  <endouttext />
-              </hintpart >
-          </hintgroup>
-  </stringresponse>
-  <solution>
-    <div class="detailed-solution">
-      <p>Explanation</p>
-      <p>The correct answer is <b>herd immunity</b>. As more and more people use bednets, the risk of malaria begins to fall for everyone – users and non-users alike. This can fall to such a low probability that malaria is effectively eradicated from the group (even when the group does not have 100% bednet coverage).</p>
-    </div>
-  </solution>
+  <problem> 
+    <p>What was the first post-secondary school in China to allow both male and female students?</p>
+
+    <stringresponse answer="Nanjing Higher Normal Institute" type="ci" >
+      <additional_answer>National Central University</additional_answer>
+      <additional_answer>Nanjing University</additional_answer> 
+      <textline label="What was the first post-secondary school in China to 
+        allow both male and female students?" size="20"/> 
+    </stringresponse>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p>Nanjing Higher Normal Institute first admitted female students in 
+        1920.</p>
+      </div>
+    </solution>
   </problem>
+
+.. _Use Feedback in a Text Input Problem:
+
+********************************************
+Use Feedback in a Text Input Problem
+********************************************
+
+You can add feedback in a text input problem using the simple editor
+or the advanced editor. For an overview of feedback in problems, see
+:ref:`Adding Feedback and Hints to a Problem`.
+
+In text input problems, you can provide feedback for each option that a
+learner can select. 
+
+Use feedback on correct answers to reinforce why the answer is
+correct. 
+
+Use feedback on incorrect answers as an opportunity to address common learner
+misconceptions. Feedback for text input questions should also provide guidance
+to the learner on how to arrive at the correct answer.
+
+=======================================
+Configure Feedback in the Simple Editor
+=======================================
+
+In the :ref:`Simple Editor<Simple Editor>`, you configure answer feedback with
+the following syntax. When you create a new text input problem, select the
+template  **Text Input with Hints and Feedback**. This template has example
+feedback syntax that you can replace.
+
+::
+
+  = Correct Answer {{Feedback for learners who select this answer.}}
+  not= Incorrect Answer {{Feedback for learners who select this answer.}}
+
+For example, the following problem has feedback for the correct answer and two
+common incorrect answers.
+
+::
+
+  >>What is the largest state in the U.S. in terms of land area?<<
+
+  =Alaska {{Alaska is the largest state in the U.S. in terms of not only land
+  area, but also total area and water area. Alaska is 576,400 square miles,
+  more than double the land area of the second largest state, Texas.}}
+
+  not=Texas {{While many people think Texas is the largest state in terms of
+  land area, it is actually the second largest and contains 261,797 square
+  miles.}}
+
+  not=California {{California is the third largest state and contains 155,959
+  square miles.}}
+
+
+=========================================
+Configure Feedback in the Advanced Editor
+=========================================
+
+In the :ref:`Advanced Editor<Advanced Editor>`, you configure answer feedback
+with the following syntax.
+
+.. code-block:: xml
+
+    <stringresponse answer="Correct Answer" type="ci" >
+      <correcthint>Hint for correct answer.</correcthint>
+      <stringequalhint answer="Incorrect Anser">
+        Hint for incorrect answer.
+      </stringequalhint>
+    </stringresponse>
+
+For example, the following problem has feedback for the correct answer and two
+common incorrect answers.
+
+.. code-block:: xml
+
+  <problem>
+
+    <p>What was the first post-secondary school in China to allow both male and female students?</p>
+    <stringresponse answer="Alaska" type="ci" >
+      <correcthint>
+        Alaska is the largest state in the U.S. in terms of not only land 
+        area, but also total area and water area. Alaska is 576,400 square 
+        miles, more than double the land area of the second largest state, 
+        Texas.
+      </correcthint>
+      <stringequalhint answer="Texas">
+        While many people think Texas is the largest state in terms of land 
+        area, it is actually the second largest of the 50 U.S. states 
+        containing 261,797 square miles.
+      </stringequalhint>
+      <stringequalhint answer="California">
+        California is the third largest state in the U.S. in terms of land 
+        area containing 155,959 square miles.</stringequalhint>
+      <textline label="What is the largest state in the U.S. in terms of land 
+        area?" size="20"/>
+    </stringresponse>
+  </problem>
+
+=========================
+Customize Feedback Labels
+=========================
+
+By default, the feedback labels shown to learners are **Correct** and
+**Incorrect**. If you do not define feedback labels, learners see these terms
+when they submit an answer, as in the following example.
+
+.. image:: ../../../shared/building_and_running_chapters/Images/text_input_feedback.png
+ :alt: Image of text input feedback with the standard label.
+ :width: 600
+
+You can configure the problem to override the default labels. For example, you
+can configure a custom label for a specific wrong answer.
+
+.. image:: ../../../shared/building_and_running_chapters/Images/text_input_feedback_custom_label.png
+ :alt: Image of text input feedback with a custom label.
+ :width: 600
+
+.. note::
+  The default labels **Correct** and **Incorrect** are displayed in the
+  learner's requested language. If you provide custom labels, they are
+  displayed to all users as you configure them and are not translated into
+  different languages.
+
+Customize Feedback Labels in the Simple Editor
+***********************************************
+
+In the :ref:`Simple Editor<Simple Editor>`, you configure custom feedback
+labels with the following syntax.
+
+::
+
+  not=Answer {{Label:: Feedback}}
+
+For example, the following feedback is configured to use a custom label.
+
+::
+
+  not=Texas {{Close but wrong:: While many people think Texas is the largest 
+  state in terms of land area, it is actually the second largest of the 50 U.S.
+  states, containing 261,797 square miles.}}
+
+Customize Feedback Labels in the Advanced Editor
+*************************************************
+
+In the :ref:`Advanced Editor<Advanced Editor>`, you configure custom feedback
+labels with the following syntax.
+
+.. code-block:: xml
+
+    <stringequalhint answer="Incorrect Anser" label="Custom Label">
+      Feedback
+    </stringequalhint>
+
+For example, the following feedback is configured to use a custom label.
+
+.. code-block:: xml
+
+    <stringequalhint answer="Texas" label="Close but wrong">
+      While many people think Texas is the largest state in terms of land 
+      area, it is actually the second largest of the 50 U.S. states containing 
+      261,797 square miles.
+    </stringequalhint>
+
+.. _Use Hints in a Text Input Problem:
+
+********************************************
+Use Hints in a Text Input Problem
+********************************************
+
+You can add hints in a text input problem, using the simple editor
+or the advanced editor. For an overview of hints in problems, see
+:ref:`Adding Feedback and Hints to a Problem`.
+
+.. include:: ../../../shared/exercises_tools/Subsection_configure_hints.rst
 
 .. _Multiple Responses in Text Input Problems:
 
@@ -148,7 +327,8 @@ before each additional correct response.
 
 ::
 
-    >>What African-American led the United States civil rights movement during the 1960s?<<
+    >>What African-American led the United States civil rights movement during 
+    the 1960s?<<
     = Dr. Martin Luther King, Jr.
     or= Dr. Martin Luther King, Junior
     or= Martin Luther King, Jr.
@@ -172,9 +352,9 @@ closing ``<stringresponse>`` tags.
     <additional_answer>Dr. Martin Luther King, Junior</additional_answer>
     <additional_answer>Martin Luther King, Jr.</additional_answer>
     <additional_answer>Martin Luther King</additional_answer>
-    <textline label="What African-American led the United States civil rights movement during the 1960s?" size="20"/>
+    <textline label="What African-American led the United States civil rights 
+      movement during the 1960s?" size="20"/>
   </stringresponse>
-
   </problem>
 
 ******************************************
@@ -238,13 +418,11 @@ attribute.
     </stringresponse>
 
 ********************************************************
-Hints and Regular Expressions in Text Input Problems
+Regular Expressions in Text Input Problems
 ********************************************************
 
-You can provide hints that appear when learners enter common incorrect answers
-in text input problems. You can also set a text input problem to allow a
-regular expression as an answer. To do this, you modify the problem's XML in
-the Advanced Editor.
+You can configure a text input problem to allow a regular expression as an
+answer. To do this, you modify the problem's XML in the Advanced Editor.
 
 The regular expression that the learner enters must contain the part of the
 answer that the instructor specifies. For example, if an instructor has
@@ -304,18 +482,11 @@ Tags
 * ``<stringresponse>``: Indicates that the problem is a text input problem. 
 * ``<textline>``: Child of ``<stringresponse>``. Creates a response field in
   the LMS where the learner enters a response.
-* ``<additional_answer>`` (optional): Specifies an additional correct answer
+* ``<additional_answer>``: (optional): Specifies an additional correct answer
   for the problem. A problem can contain an unlimited number of additional
   answers.
-* ``<hintgroup>`` (optional): Indicates that the instructor has provided hints
-  for certain common incorrect answers.
-* ``<stringhint />`` (optional): Child of ``<hintgroup>``. Specifies the text
-  of the incorrect answer to provide the hint for. Contains answer, type,
-  name.
-* ``<hintpart>``: Contains the name from ``<stringhint>``. Associates the
-  incorrect answer with the hint text for that incorrect answer.
-* ``<startouttext />``: Indicates the beginning of the text of the hint.
-* ``<endouttext />``: Indicates the end of the text of the hint.
+* ``<correcthint>``: Specifies feedback for the correct answer.
+* ``<stringequalhint>``: Specifies feedback for an incorrect answer.
 
 **Tag:** ``<stringresponse>``
 
@@ -347,7 +518,8 @@ Indicates that the problem is a text input problem.
 
   * ``<textline />`` (required)
   * ``<additional_answer>`` (optional)
-  * ``<hintgroup>`` (optional)
+  * ``<correcthint>`` (optional)
+  * ``<stringequalhint>`` (optional)
     
 **Tag:** ``<textline />``
  
@@ -386,10 +558,9 @@ an unlimited number of additional answers.
 
   (none)
 
-**Tag:** ``<hintgroup>``
+**Tag:** ``<correcthint>``
 
-Indicates that the instructor has provided hints for certain common incorrect
-answers.
+Specifies the feedback for the correct answer.
 
   Attributes
 
@@ -397,11 +568,11 @@ answers.
 
   Children
   
-  * ``<stringhint>`` (required)
+  (none)
 
-**Tag:** ``<stringhint>``
+**Tag:** ``<stringequalhint>``
 
-Specifies a common incorrect answer to the problem.
+Specifies the feedback for an incorrect answer.
 
   Attributes
 
@@ -412,52 +583,49 @@ Specifies a common incorrect answer to the problem.
        - Description
      * - answer (required)
        - The text of the incorrect answer.
-     * - name (required)
-       - The name of the hint that you want to provide.
-     * - type
-       - Specifies whether the text of the specified incorrect answer is case
-         sensitive. Can be set to "cs" (case sensitive) or "ci" (case
-         insensitive).
 
   Children
 
-  * ``<hintpart>`` (required)
-
-**Tag:** ``<hintpart>``
-
-Associates a common incorrect answer with the hint for that incorrect answer.
-
-  Attributes
-
-  .. list-table::
-     :widths: 20 80
-
-     * - Attribute
-       - Description
-     * - on
-       - The name of the hint. This must be the same as the ``name`` attribute
-         of the ``<stringhint>`` tag. (The ``<stringhint>`` tag provides the
-         name of the hint and the incorrect answer to associate with the hint.
-         The ``<hintpart>`` tag contains the name of the hint and the text of
-         the hint.)
-
-  Children
-
-  * ``<startouttext />`` (required)
-  * ``<endouttext />`` (required)
-
-**Tags:** ``<startouttext />`` and ``<endouttext>``
-
-Surround the text of the hint.
-
-  Attributes
-  
   (none)
 
-  Children
-  
-  (none)
+**************************
+Deprecated Hinting Method
+**************************
 
+The following example shows the XML format with the ``<hintgroup>`` element
+that you could use to configure hints for text input problems. Problems using
+this XML format will continue to work in the edX Platform. However, it is
+recommended that use use the new way of configuring hints documented above.
 
+.. code-block:: xml
+
+  <problem>
+      <p>Problem text</p>
+      <stringresponse answer="Correct answer 1" type="ci regexp">
+          <additional_answer>Correct answer 2</additional_answer>
+          <additional_answer>Correct answer 3</additional_answer>
+          <textline size="20" label="label text"/>
+          <hintgroup>
+              <stringhint answer="Incorrect answer A" type="ci" name="hintA" />
+                <hintpart on="hintA">
+                    <startouttext />Text of hint for incorrect answer A<endouttext />
+                </hintpart >
+              <stringhint answer="Incorrect answer B" type="ci" name="hintB" />
+                <hintpart on="hintB">
+                    <startouttext />Text of hint for incorrect answer B<endouttext />
+                </hintpart >
+              <stringhint answer="Incorrect answer C" type="ci" name="hintC" />
+                <hintpart on="hintC">
+                    <startouttext />Text of hint for incorrect answer C<endouttext />
+                </hintpart >
+          </hintgroup>
+      </stringresponse>
+      <solution>
+      <div class="detailed-solution">
+      <p>Explanation or Solution Header</p>
+      <p>Explanation or solution text</p>
+      </div>
+    </solution>
+  </problem>
 
 .. _Using edX Insights: http://edx.readthedocs.org/projects/edx-insights/en/latest/

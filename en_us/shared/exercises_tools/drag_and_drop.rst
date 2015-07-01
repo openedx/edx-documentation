@@ -11,7 +11,7 @@ objects to a specific location on an image.
  :alt: Image of a drag and drop problem
 
 *********************************
-Create a Drag and Drop Problem
+Creating a Drag and Drop Problem
 *********************************
 
 To create a simple drag and drop problem in which students drag labels onto an

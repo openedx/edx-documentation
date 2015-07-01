@@ -422,6 +422,8 @@ element:
   
   <problem show_reset_button="true"  . . . >
 
+.. include:: ../../../shared/exercises_tools/Section_adding_hints.rst
+
 .. _Modifying a Released Problem:
 
 *********************************
@@ -573,6 +575,6 @@ Create Randomized Problems
          </randomize>
        </vertical>
 
-.. include:: ../../../shared/exercises_tools/adding_tooltip.rst
+.. include:: ../../../shared/exercises_tools/Section_adding_tooltip.rst       
 
 .. include:: ../links.rst
