@@ -724,7 +724,7 @@ Use Best Practices for Custom Content Types
 
 Using different content types in your courses can significantly add to the
 learning experience for your students. This section covers how to design
-several custom content types so that your course content is accessible all
+several custom content types so that your course content is accessible to all
 learners.
 
 .. contents::
