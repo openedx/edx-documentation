@@ -247,7 +247,8 @@ Consider the following examples of meaningful alt attributes for a photo of
 the famous stone bridge, Ponte Vecchio in Florence, Italy.
  
 * For a representative image of the bridge included on a page about Florence,
-  a meaningful ``alt`` attribute would be “Photo of Ponte Vecchio.”
+  a meaningful ``alt`` attribute would be “Photo of Ponte Vecchio, a famous
+  bridge and shopping center in Florence Italy.”
   
 * If the context of the page is about the bridge itself a meaningful ``alt``
   attribute would be more specific: “Photo of Ponte Vecchio showing its three
