@@ -222,8 +222,8 @@ the preferred solution.
 
 If the text contained in the image is also available in nearby HTML, or
 otherwise accessible text, including it in the ``alt`` attribute would be
-redundant. In this case, setting an empty ``alt=""`` attribute is acceptable. 
-Doing so effectively "hides" the image from screen reader users.
+redundant. In this case, setting an empty ``alt`` attribute (``alt=""``)
+is acceptable.  Doing so effectively "hides" the image from screen reader users.
 
 .. note:: All images *must* include an ``alt`` attribute so you should not omit
    the ``alt`` attribute entirely. If the ``alt`` attribute is omitted entirely, 
@@ -248,7 +248,7 @@ the famous stone bridge, Ponte Vecchio in Florence, Italy.
  
 * For a representative image of the bridge included on a page about Florence,
   a meaningful ``alt`` attribute would be “Photo of Ponte Vecchio, a famous
-  bridge and shopping center in Florence Italy.”
+  bridge and shopping center in Florence, Italy.”
   
 * If the context of the page is about the bridge itself a meaningful ``alt``
   attribute would be more specific: “Photo of Ponte Vecchio showing its three
@@ -759,7 +759,7 @@ is to contact the vendor and ask them about the accessibility of their product.
 Consider the following questions when creating simulations, keeping in mind
 that as the course instructor, you enjoy considerable freedom in selecting
 course objectives and outcomes. Additionally, if the visual components of a
-simulation are so central to your course design, providing alternate text
+simulation are so central to your course design, providing alternative text
 description and other accommodations might not be practical or feasible.
 
 * Does the simulation require vision to understand? If so, provide text
