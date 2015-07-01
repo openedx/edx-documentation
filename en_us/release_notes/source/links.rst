@@ -145,12 +145,13 @@
 
 .. _edX.org: http://edx.org
 
-.. _edX Insights: http://insights.edx.org
 
 .. _Sphinx: http://sphinx-doc.org/
 .. _LaTeX: http://www.latex-project.org/
 .. _GitHub Flow: https://github.com/blog/1557-github-flow-in-the-browser
 .. _RST: http://docutils.sourceforge.net/rst.html
+
+.. _edX Insights: http://insights.edx.org
 
 .. _edX Status: http://status.edx.org/
 
