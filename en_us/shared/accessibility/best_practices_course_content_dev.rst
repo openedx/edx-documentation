@@ -87,12 +87,12 @@ making it easier for learners to distinguish foreground information from the
 background, in both visual and audio elements.
 
 For visual elements, techniques include making sure the fonts you use are
-readable, that there is sufficient contrast between the foreground and
+readable, and that there is sufficient contrast between the foreground and
 background. Do not use color as the sole means of visually distinguishing an
 element or conveying critical information. If you must create images that
 contain text, make sure that the text has a font size of at least 14 points 
 and has good contrast with the background.  Images of text cannot be scaled
-or color corrected as well as HTML text. Whenever possible, use the default 
+or color corrected as effectively as HTML text. Whenever possible, use the default 
 font and color defined in the edX platform, which was designed to be easy to
 read.  If you choose to override default font colors, make sure that the 
 foreground and background colors have `sufficient contrast 
@@ -225,7 +225,7 @@ otherwise accessible text, including it in the ``alt`` attribute would be
 redundant. In this case, setting an empty ``alt`` attribute (``alt=""``)
 is acceptable.  Doing so effectively "hides" the image from screen reader users.
 
-.. note:: All images *must* include an ``alt`` attribute so you should not omit
+.. note:: All images *must* include an ``alt`` attribute so do not omit
    the ``alt`` attribute entirely. If the ``alt`` attribute is omitted entirely, 
    screen readers will read the value of the ``src`` attribute (the path to the 
    image on a web server) as a fallback. This is rarely helpful to the user and 
