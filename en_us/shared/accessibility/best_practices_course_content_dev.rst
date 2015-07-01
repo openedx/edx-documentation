@@ -87,14 +87,16 @@ making it easier for learners to distinguish foreground information from the
 background, in both visual and audio elements.
 
 For visual elements, techniques include making sure the fonts you use are
-readable, that there is sufficient contrast between the foreground and
+readable, and that there is sufficient contrast between the foreground and
 background. Do not use color as the sole means of visually distinguishing an
-element or conveying critical information. When images contain text, make sure
-that the text has a font size of at least 14 points and has good contrast with
-the background.  Whenever possible, use the default font and color defined in
-the edX platform, which was designed to be easy to read.  If you choose to
-override default font colors, make sure that the foreground and background
-colors have `sufficient contrast <https://leaverou.github.io/contrast-ratio/>`_.
+element or conveying critical information. If you must create images that
+contain text, make sure that the text has a font size of at least 14 points 
+and has good contrast with the background.  Images of text cannot be scaled
+or color corrected as effectively as HTML text. Whenever possible, use the default 
+font and color defined in the edX platform, which was designed to be easy to
+read.  If you choose to override default font colors, make sure that the 
+foreground and background colors have `sufficient contrast 
+<https://leaverou.github.io/contrast-ratio/>`_.
 
 For audio elements, make sure that foreground sounds are sufficiently louder
 than background sounds.
@@ -220,13 +222,14 @@ the preferred solution.
 
 If the text contained in the image is also available in nearby HTML, or
 otherwise accessible text, including it in the ``alt`` attribute would be
-redundant. All images must include an ``alt`` attribute so you should not omit
-the ``alt`` attribute entirely. In addition, if the ``alt`` attribute is
-omitted entirely, screen readers will read the value of the ``src`` attribute
-(the path to the image on a web server) as a fallback. This is rarely helpful
-to the user and often results in a poor user experience. However, in this
-case, setting an empty ``alt=""`` attribute is acceptable. Doing so
-effectively "hides" the image from screen reader users.
+redundant. In this case, setting an empty ``alt`` attribute (``alt=""``)
+is acceptable.  Doing so effectively "hides" the image from screen reader users.
+
+.. note:: All images *must* include an ``alt`` attribute so do not omit
+   the ``alt`` attribute entirely. If the ``alt`` attribute is omitted entirely, 
+   screen readers will read the value of the ``src`` attribute (the path to the 
+   image on a web server) as a fallback. This is rarely helpful to the user and 
+   often results in a poor user experience.
 
 If the text contained in the image is for decorative purposes only and adds no
 value to the content of the page, an empty ``alt`` attribute is also acceptable.
@@ -244,7 +247,8 @@ Consider the following examples of meaningful alt attributes for a photo of
 the famous stone bridge, Ponte Vecchio in Florence, Italy.
  
 * For a representative image of the bridge included on a page about Florence,
-  a meaningful ``alt`` attribute would be “Photo of Ponte Vecchio.”
+  a meaningful ``alt`` attribute would be “Photo of Ponte Vecchio, a famous
+  bridge and shopping center in Florence, Italy.”
   
 * If the context of the page is about the bridge itself a meaningful ``alt``
   attribute would be more specific: “Photo of Ponte Vecchio showing its three
@@ -720,7 +724,7 @@ Use Best Practices for Custom Content Types
 
 Using different content types in your courses can significantly add to the
 learning experience for your students. This section covers how to design
-several custom content types so that your course content is accessible all
+several custom content types so that your course content is accessible to all
 learners.
 
 .. contents::
@@ -755,7 +759,7 @@ is to contact the vendor and ask them about the accessibility of their product.
 Consider the following questions when creating simulations, keeping in mind
 that as the course instructor, you enjoy considerable freedom in selecting
 course objectives and outcomes. Additionally, if the visual components of a
-simulation are so central to your course design, providing alternate text
+simulation are so central to your course design, providing alternative text
 description and other accommodations might not be practical or feasible.
 
 * Does the simulation require vision to understand? If so, provide text
