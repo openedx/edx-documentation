@@ -8,8 +8,8 @@ Building and Running an edX Course
 * A new `Processing Video Files`_ section describes the workflow for
   creating videos and uploading them for use in an edx.org course.
 
-* A `Feedback and Hints_partners`_ section describes the new problem templates
-  that include hinting and feedback.
+* A new `Add Feedback and Hints to a Problem`_ section describes the new
+  problem templates that include hinting and feedback.
 
 
 ==================================
@@ -19,5 +19,5 @@ Documentation for Open edX Users
 Building and Running an Open edX Course
 ****************************************
 
-A `Feedback and Hints_openedx`_ section describes the new problem templates
-that include hinting and feedback.
+A new `Adding Feedback and Hints to a Problem`_ section describes the new
+problem templates that include hinting and feedback.

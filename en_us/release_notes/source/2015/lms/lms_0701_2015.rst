@@ -28,8 +28,8 @@ learners can view those hints by selecting **Hint** under the problem.
   :alt: Hints in a multiple choice problem.
   :width: 500
 
-For more information, see `Feedback and Hints_partners`_ in *Building and
-Running an edX Course* or `Feedback and Hints_openedx`_ in *Building and
+For more information, see `Add Feedback and Hints to a Problem`_ in *Building and
+Running an edX Course* or `Adding Feedback and Hints to a Problem`_ in *Building and
 Running an Open edX Course*.
 
 Problem Appearance Changes 
