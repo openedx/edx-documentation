@@ -222,13 +222,14 @@ the preferred solution.
 
 If the text contained in the image is also available in nearby HTML, or
 otherwise accessible text, including it in the ``alt`` attribute would be
-redundant. All images must include an ``alt`` attribute so you should not omit
-the ``alt`` attribute entirely. In addition, if the ``alt`` attribute is
-omitted entirely, screen readers will read the value of the ``src`` attribute
-(the path to the image on a web server) as a fallback. This is rarely helpful
-to the user and often results in a poor user experience. However, in this
-case, setting an empty ``alt=""`` attribute is acceptable. Doing so
-effectively "hides" the image from screen reader users.
+redundant. In this case, setting an empty ``alt=""`` attribute is acceptable. 
+Doing so effectively "hides" the image from screen reader users.
+
+.. note:: All images *must* include an ``alt`` attribute so you should not omit
+   the ``alt`` attribute entirely. If the ``alt`` attribute is omitted entirely, 
+   screen readers will read the value of the ``src`` attribute (the path to the 
+   image on a web server) as a fallback. This is rarely helpful to the user and 
+   often results in a poor user experience.
 
 If the text contained in the image is for decorative purposes only and adds no
 value to the content of the page, an empty ``alt`` attribute is also acceptable.
