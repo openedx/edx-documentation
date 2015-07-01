@@ -15,7 +15,7 @@ July-September 2015
 
    * - Date
      - Change
-   * - 1 Jul 15
+   * - 1 Jul 2015
      - Added new events for :ref:`problem hints<problem>` to the
        :ref:`Tracking Logs` section.
 
@@ -37,18 +37,18 @@ April-June 2015
      - Added descriptions of the ``video_show_cc_menu`` and
        ``video_hide_cc_menu`` events to the 
        :ref:`video interaction events<video>` section.
-   * - 19 May 15
+   * - 19 May 2015
      - Added information about new instructor report events to the
        :ref:`Tracking Logs` section.
    * - 11 May 2015 
      - Updated the descriptions of the ``pause_video``, ``play_video``, and
        ``stop_video`` :ref:`video interaction events<video>` to include the
        effects of a **Video Start Time** or **Video Stop Time**.
-   * - 22 Apr 15
+   * - 22 Apr 2015
      - Added information about the new ``student_languageproficiency`` table
        and two new columns in the ``auth_userprofile`` table to
        :ref:`Student_Info`.
-   * - 6 Apr 15
+   * - 6 Apr 2015
      - Added a section to describe the
        :ref:`course structure<course_structure>` file.
 
