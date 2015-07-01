@@ -537,20 +537,32 @@ Shuffle Answers in a Multiple Choice Problem
 Optionally, you can configure a multiple choice problem so that it shuffles
 the order of possible answers.
 
-For example, one view of the problem could be:
+For example, one view of a geography problem could be as follows.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/multiple-choice-shuffle-1.png
- :alt: Image of a multiple choice problem
+::
 
-And another view of the same problem, for another learner or for the same
-learner of a subsequent view of the unit, could be:
+ What Apple device competed with the portable CD player?
 
-.. image:: ../../../shared/building_and_running_chapters/Images/multiple-choice-shuffle-2.png
- :alt: Image of a multiple choice problem with shuffled answers
+ ( ) The iPad
+ ( ) Napster
+ ( ) The iPod
+ ( ) The vegetable peeler
 
-You can also have some answers shuffled, but not others. For example, you
-might want to have the answer "All of the Above" always appear at the end of
-the list, but shuffle other answers.
+Another view of the same problem, for a different learner or for the same
+learner on a subsequent view of the unit, could be as follows.
+
+::
+
+ What Apple device competed with the portable CD player?
+
+ ( ) The iPad
+ ( ) The iPod
+ ( ) The vegetable peeler
+ ( ) Napster
+
+You can also have some answers shuffled, but not others. For example, you might
+want to include the answer "All of the Above" and have it always appear at the
+end of the list, but shuffle the other answers.
 
 You can configure the problem to shuffle answers using the Simple Editor or
 Advanced Editor.

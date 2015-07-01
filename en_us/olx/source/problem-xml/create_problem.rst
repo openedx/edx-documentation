@@ -121,7 +121,7 @@ visible. You can set these attributes in Studio.
    whether a problem will use randomly generated numbers that vary from
    student to student.
 
-*  **Weight.** Different problems in a particular problem set may be
+*  **Weight.** Different problems in a particular problem set can be
    given different weights.
 
 *  **Label.** To improve accessibility for students who have disabilities, each
@@ -159,7 +159,7 @@ of the **Courseware** page.
 
 The display name is also used in edX Insights reports.
 
-You set the display name as an attribute of the ``problem`` element:
+You set the display name as an attribute of the ``problem`` element.
 
 .. code-block:: xml
   
@@ -181,7 +181,7 @@ problems defaults to that number, and cannot be set to unlimited.
  higher are included on the Student Answer Distribution report that you can
  download during your course.
 
-You set the maximum attempts as an attribute of the ``problem`` element:
+You set the maximum attempts as an attribute of the ``problem`` element.
 
 .. code-block:: xml
   
@@ -205,19 +205,13 @@ problem. The problem weight appears next to the problem title.
  :alt: Image of a problem from a student's point of view, with the possible 
        points circled
 
-By default, each response field, or "answer space,” in a problem
-component is worth one point. Any problem component can have multiple
-response fields. For example, the Problem component above
-contains one dropdown problem that has three separate questions for students
-to answer, and thus has three response fields.
+By default, each response field, or "answer space", in a problem component is
+worth one point. Any problem component can have multiple response fields. For
+example, the problem component above contains one dropdown problem that has
+three separate questions, and also has three response fields.
 
-The following problem component contains one text input problem,
-and has just one response field.
-
-.. image:: ../../../shared/building_and_running_chapters/Images/ProblemWeight_TI.png
- :alt: Image of a text input problem from a student's point of view
-
-You set the problem weight as an attribute of the ``problem`` element:
+You set a different component weight as an attribute of the ``problem``
+element.
 
 .. code-block:: xml
   
@@ -227,7 +221,7 @@ Computing Scores
 ****************
 
 The score that a student earns for a problem is the result of the
-following formula:
+following formula.
 
 **Score = Weight × (Correct answers / Response fields)**
 
@@ -320,7 +314,7 @@ This setting has the following options.
 +-------------------+--------------------------------------+
 
 
-You set the randomization as an attribute of the ``problem`` element:
+You set value randomization as an attribute of the ``problem`` element.
 
 .. code-block:: xml
   
@@ -392,7 +386,7 @@ This setting has the following options.
 |                   | or in the LMS.                       |
 +-------------------+--------------------------------------+
 
-You set the show answer preference as an attribute of the ``problem`` element:
+You set the show answer preference as an attribute of the ``problem`` element.
 
 .. code-block:: xml
   
@@ -416,7 +410,7 @@ This problem-level setting overrides the course-level **Show Reset Button for
 Problems** setting.
 
 You set the show reset button preference as an attribute of the ``problem``
-element:
+element.
 
 .. code-block:: xml
   

@@ -337,31 +337,27 @@ Problem Weight
   scores only count toward a learner's final grade if they are in a subsection
   that is graded.
 
-This setting specifies the maximum number of points possible for the
-problem. The problem weight appears next to the problem title.
+This setting specifies the total number of points possible for the
+problem. The problem weight appears next to the problem's display name.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/ProblemWeight_DD.png
- :alt: An image of a problem from a learner's point of view, with the possible 
-       points circled.
+ :alt: An image of a problem from a learner's point of view, with the possible
+       number of points, 3, circled.
  :width: 500
 
 By default, each response field, or "answer space", in a problem component is
 worth one point. Any problem component can have multiple response fields. For
 example, the problem component above contains one dropdown problem that has
-three separate questions, and thus has three response fields.
+three separate questions, and also has three response fields.
 
-The following problem component contains one text input problem,
-and has just one response field.
-
-.. image:: ../../../shared/building_and_running_chapters/Images/ProblemWeight_TI.png
- :alt: An image of a text input problem from a learners's point of view.
- :width: 500
+You can increase or decrease the weight for a problem component by entering a
+**Problem Weight**.
 
 Computing Scores
 ****************
 
 The score that a learner earns for a problem is the result of the
-following formula:
+following formula.
 
 **Score = Weight × (Correct answers / Response fields)**
 
@@ -538,12 +534,10 @@ Adding required wait time between attempts can help to prevent learners from
 simply guessing when multiple attempts are allowed.
 
 If a learner attempts a problem again before the required time has elapsed, she
-sees a message below the problem indicating the remaining wait time.
+sees a message below the problem indicating the remaining wait time. The format
+of the message is, "You must wait at least {n} seconds between submissions. {n}
+seconds remaining."
 
-.. image:: ../../../shared/building_and_running_chapters/Images/problem_attempt_timer.png
- :alt: An image of a problem with a message indicating that the learner must 
-   wait before attempting to answer again.
- :width: 500
 
 .. _Modifying a Released Problem:
 

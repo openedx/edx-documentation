@@ -17,10 +17,9 @@ simple mathematical expressions to answer a question. The text that the
 learners enter is converted to a symbolic expression that appears below the
 response field.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/image292.png
- :alt: A problem with 3 questions, the learner gave 2 correct and 1
-     incorrect answer
- :width: 600
+.. image:: ../../../shared/building_and_running_chapters/Images/NumericalInputExample.png
+ :alt: A problem with two questions, one answered correctly and one
+     incorrectly.
 
 Responses for numerical input problems can include integers, fractions, and
 constants such as pi and *g*. Responses can also include text representing
@@ -32,8 +31,7 @@ learner and the numerical expression that results.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/Math5.png
  :alt: A learner typed n*x^(n-1) to enter the symbolic expression n times x to
-     the n minus 1 power
- :width: 400
+     the n minus 1 power.
 
 For more information about how learners enter expressions, see `Math Response
 Formatting for Students`_.
@@ -62,10 +60,12 @@ Editor.
 * If the text of your problem contains special formatting or characters, or if
   your problem contains a Python script, you use the Advanced Editor.
 
-For example, the following problems require the Advanced Editor. 
+For example, you must use the Advanced Editor to define the following problems.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/NumericalInput_Complex.png
- :alt: A problem that requires a square root as the answer
+ :alt: A problem that requires a square root as the answer.
+
+In this example, the question uses a Python script to compute the square root.
 
 For more information about including a Python script in your problem, see
 :ref:`Write Your Own Grader`.
