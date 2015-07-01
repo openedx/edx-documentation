@@ -10,4 +10,5 @@ For Your Information
    read_me
    preface
    change_log
+   change_log_2014
    browsers
