@@ -692,10 +692,9 @@ you use MathJax to author your math content. MathJax renders math in a variety
 of formats on the client side, offering the end user the ability to consume
 math content in their preferred format. EdX Studio supports authoring math
 directly in LaTeX using the `LaTeX Source Compiler
-<https://edx.readthedocs.org/projects/edx-partner-course-
-staff/en/latest/creating_content/create_html_component.html#import-latex-
-code>`_ to transform LaTeX into MathJax.
->>>>>>> Finalize Accessibility Best Practices document
+<https://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/creating_content/
+create_html_component.html#import-latex-code>`_ to transform LaTeX into MathJax.
+
 
 ======================================================
 Accessible Mathematical Content Resources
