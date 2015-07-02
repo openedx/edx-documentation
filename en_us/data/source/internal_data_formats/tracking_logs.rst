@@ -2191,7 +2191,7 @@ hint.
 
 **Event Source**: Server
 
-**History**: This event was added on 23 Jun 2015.
+**History**: This event was added on 1 Jul 2015.
 
 ``event`` **Member Fields**: 
 
@@ -2227,7 +2227,7 @@ selects **Check**.
 
 **Event Source**: Server
 
-**History**: This event was added on 23 Jun 2015.
+**History**: This event was added on 1 Jul 2015.
 
 ``event`` **Member Fields**: 
 
