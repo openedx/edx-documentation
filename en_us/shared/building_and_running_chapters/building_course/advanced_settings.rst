@@ -26,21 +26,43 @@ Blurb
 Allow Anonymous Discussion Posts
 ==================================
 
-The default for this setting is true. If true, students can create discussion posts that are anonymous to all users, including course staff.
+If the value for this setting is True, learners can create discussion posts
+that are anonymous and not attributable to them. Anonymous posts appear as
+anonymous to course team members as well as learners.
+
+The default value for this setting is True.
 
 
 ============================================
 Allow Anonymous Discussion Posts to Peers
 ============================================
 
-The default for this setting is false. If true, students can create discussion posts that are anonymous to other students. This setting does not make posts anonymous to course staff.
+
+If the value for this setting is True, learners can create discussion posts
+that appear anonymous to other learners. This setting does not make posts
+anonymous to course team members.
+
+The default value for this setting is False.
 
 
 ==================================
 Allow Public Wiki Access
 ==================================
 
-If you are re-running a course and want students to be able to visit wikis from a previous run, this setting should be true. This will allow new students to visit and edit the old wikis as if they are part of the new course. Students must still be logged in to edX.org to participate in the public wikis, and wiki users will be able to see the history and changes made by all students (new and old) as usual.
+If the value for this setting is True, edX users can view your course wiki
+even if they are not enrolled in the course. The default value for this setting is
+False.
+
+If you are re-running a course and want learners to be able to see wikis from
+a previous course run, you should set this setting to True. Learners in the
+new run of the course will be able to visit and edit the old wikis as if they
+are part of the new course.
+
+Learners must be logged in to edX.org to participate in any public wikis, and
+wiki users will be able to see the history and changes made by all learners
+(new and old) as usual.
+
+
 
 
 ==================================
@@ -49,11 +71,13 @@ Certificate Name (Long)
 
 Do not change this setting.
 
+
 ==================================
 Certificate Name (Short)
 ==================================
 
 Do not change this setting.
+
 
 =====================================
 Certificate Web/HTML View Overrides
@@ -61,14 +85,33 @@ Certificate Web/HTML View Overrides
 
 Do not change this setting.
 
+
 ==================================
 Certificates Display Behavior
 ==================================
 
-This setting should be used for self-paced courses planning to offer certificate runs multiple times during the course. 
-end (default): Displays this certificate information to all students after the course end date. 
-early_no_info (recommended for self-paced courses or courses with multiple certificate runs): Displays certificate links and scores to passing students as soon as certificates are generated. Students who have not yet achieved a passing score see nothing on their dashboard until course ends.
-early_with_info: Displays certificate information and current score to all students as soon as certificates are generated for the first time. Note: This should be used sparingly. Students may be confused if they see a score generated in the middle of a self-paced or long format course run even if they have more time to improve score and achieve a passing grade.
+This setting controls the timing of when certificate information and current
+grades are shown to learners. It should be used for self-paced courses
+planning to offer certificate runs multiple times during the course. Possible
+values are ``end``, ``early_no_info``, and ``early_with_info``.
+
+The default value for this setting is ``"end"``. 
+
+If the value for this setting is "end", certificate information is displayed to all learners after the course end date.
+
+If the value for this setting is "early_no_info", certificate links and scores
+are shown to eligible learners as soon as certificates are generated. Learners
+who have not yet achieved a passing grade do not see any certificate
+information on their dashboard until the course ends. This setting is
+recommended for self-paced courses or courses with multiple certificate runs.
+
+If the value for this setting is "early_with_info", certificate links and scores are shown to all learners as soon as certificates are generated for the first time. 
+
+.. note:: This setting should be used rarely. Learners might be confused if
+   they see a score on their dashboard in the middle of a self-paced or long
+   format course run, and when they might have time remaining to improve their
+   score and achieve a passing grade.
+
 
 ==================================
 Cosmetic Course Display Price
@@ -76,15 +119,18 @@ Cosmetic Course Display Price
 
 Do not change this setting.
 
+
 ==================================
 Course About Page Image
 ==================================
 
 Do not change this setting.
 
+
 ==================================
 Course Advertised Start Date
 ==================================
+
 
 Documented in Building and Running Guide: Setting up the Student View > Set the Advertised Start Date.
 This setting overrides the displayed start date on the student dashboard. Teams may wish to alter this setting if they know a course will start in a certain month or quarter, but do not have a firm start date yet. Instead of displaying the Course Start Date from Settings>Schedule & Details, a different date can be displayed. The default is “null”. To display a different date, go to Settings>Advanced Settings>Course Advertised Start Date, remove “null” and type in the desired display date:
@@ -96,6 +142,7 @@ Course Announcement Date
 ==================================
 
 Do not change this setting.
+
 
 ==================================
 Course Display Name
@@ -127,7 +174,7 @@ Do not change this setting.
 Course Maximum Student Enrollment
 ==================================
 
-The default for this setting is null, which means that unlimited students can enroll. To set a cap on enrollment, enter the maximum number of students here. Students who attempt to enroll after the limit has been reached will see a message explaining that enrollment is closed.
+The default value for this setting is null, which means that unlimited students can enroll. To set a cap on enrollment, enter the maximum number of students here. Students who attempt to enroll after the limit has been reached will see a message explaining that enrollment is closed.
 
 ==================================
 Course Not Graded
