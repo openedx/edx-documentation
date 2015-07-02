@@ -3544,7 +3544,7 @@ This section describes events emitted by the poll and survey XBlocks.
   :local:
   :depth: 1
 
-**History**: Added 30 Jun 2015.
+**History**: Added 8 Jul 2015.
 
 ``xblock.poll.submitted``
 ************************************
@@ -3565,7 +3565,7 @@ response to a poll.
      - Details
    * - ``url_name``
      - string
-     - The unique location identifier for the poll Xblock.
+     - The unique location identifier for the poll XBlock.
    * - ``choice``
      - string
      - The unique internal identifier for the response that the user submitted.
@@ -3602,7 +3602,7 @@ responses to a survey.
      - Details
    * - ``url_name``
      - string
-     - The unique location identifier for the survey Xblock.
+     - The unique location identifier for the survey XBlock.
    * - ``choices``
      - object
      - Name/value pairs that identify each question in the survey and the
