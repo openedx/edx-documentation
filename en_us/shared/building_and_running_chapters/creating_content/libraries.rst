@@ -32,7 +32,7 @@ content libraries<Enable Content Libraries>` in your course, you can use these
 library components in randomized assignments in your course. You do this by
 adding a randomized content block to a course unit and specifying the name of
 the library from which the randomized content is to drawn. You also specify the
-number and type of problems that each learner is assigned.
+number and type of problems that each learner is assigned. For information about randomized content blocks, see :ref:`Randomized Content Blocks`.
 
 Libraries have separate users and levels of access from courses. Initially,
 only the person who created the library has access. She can add other users to
@@ -198,8 +198,15 @@ You can navigate through the pages in the following ways.
 To view the list of matching components in the library, see :ref:`View the
 Matching Components in a Randomized Content Block`.
 
-To view the randomized content as a learner would see it, see :ref:`View the
-Randomized Content as a Student`.
+To view the randomized content that was assigned to a specific learner, see
+:ref:`Specific Student View`. 
+
+.. note:: You cannot use the **Specific student** view for any course content
+   that is visible only to certain groups. For example, if your course uses
+   cohorts or experiment groups, and some courseware is visible only to
+   learners in a particular content group or experiment group, you cannot see
+   that content when you view the live course as a specific student.
+
 
 .. _Edit Components in a Library:
 

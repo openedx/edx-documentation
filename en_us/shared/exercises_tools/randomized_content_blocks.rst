@@ -18,13 +18,16 @@ tab on the Studio Home page. For details about content libraries, see
 :ref:`Content Libraries`.
 
 For details about using content library components in a course, see these
-topics:
+topics.
 
 * :ref:`Use Components from Libraries in a Course`
 * :ref:`Add a Randomized Content Block to Your Course`
 * :ref:`View the Matching Components in a Randomized Content Block`
 * :ref:`Edit Components in Randomized Content Blocks`
 * :ref:`Get the Latest Version of Library Content`
+* :ref:`Preview Randomized Content in Student View`
+* :ref:`View Specific Student Assigned Problems from Randomized Content Block`
+* :ref:`Adjust Grades for a Problem from a Randomized Content Block`
 
 
 .. _Use Components from Libraries in a Course:
@@ -58,7 +61,9 @@ these topics.
 * :ref:`View the Matching Components in a Randomized Content Block`
 * :ref:`Edit Components in Randomized Content Blocks`
 * :ref:`Get the Latest Version of Library Content`
-
+* :ref:`Preview Randomized Content in Student View`
+* :ref:`View Specific Student Assigned Problems from Randomized Content Block`
+* :ref:`Adjust Grades for a Problem from a Randomized Content Block`
 
 .. _Enable Content Libraries:
 
@@ -143,7 +148,7 @@ settings, see :ref:`View the Matching Components in a Randomized Content Block`.
 
 To view the entire contents of the library in Studio, see :ref:`View the
 Contents of a Library`.
-   
+
 
 .. _View the Matching Components in a Randomized Content Block:
 
@@ -175,25 +180,9 @@ student.
 To view the contents of a library in Studio, see :ref:`View the Contents of a
 Library`.
 
-To view the randomized content as a student would see it, see :ref:`View the
-Randomized Content as a Student`.
+To view the randomized content that was assigned to a specific learner, see
+:ref:`Specific Student View`.
 
-
-.. _View the Randomized Content as a Student:
-
-****************************************
-View the Randomized Content as a Student
-****************************************
-
-To view the number and type of components from a randomized content block as a
-student would see them, follow the steps described in the :ref:`Preview a Unit`
-topic.
-
-To view the list of matching components in the library, see :ref:`View the
-Matching Components in a Randomized Content Block`.
-
-To view the entire contents of the library in Studio, see :ref:`View the
-Contents of a Library`.
 
 
 .. _Edit Components in Randomized Content Blocks:
@@ -228,6 +217,7 @@ a **Clear** icon is shown next to the setting field.
 
 Click the **Clear** icon to restore the library default setting for that field.
 
+
 .. _Get the Latest Version of Library Content:
 
 *********************************************
@@ -239,7 +229,7 @@ blocks in one or more courses, those courses do not automatically use the
 updated content. You can bring the randomized content blocks up to date with the
 version in the library.
 
-.. warning:: Be careful when you modify problems after they have been released!
+.. warning:: Be careful when you modify problems after they have been released.
    Changes that you make to published problems can affect the student experience
    in the course, as well as analysis of course data.
 
@@ -281,3 +271,58 @@ version in the library.
   up to date with the version in the library, click **Clear**.
 
   The value in that component field is reset to the current value in the library.
+
+
+.. _Preview Randomized Content in Student View:
+
+***********************************************
+Preview the Randomized Content in Student View
+***********************************************
+
+You can preview course content before a course is live or before you publish
+specific units, to test how content will appear to students when it is
+released. To view the number and type of components from a randomized content
+block as students would see them, follow the steps described in the
+:ref:`Preview a Unit` topic.
+
+
+.. _View Specific Student Assigned Problems from Randomized Content Block:
+
+***************************************************************************
+View a Specific Student's Assigned Problems from a Randomized Content Block
+***************************************************************************
+
+In a live course, to view the components that are assigned to a specific
+student from a randomized content block, follow the steps described in the
+:ref:`Specific Student View` topic.
+
+.. note:: You cannot use the **Specific student** view for any course content
+   that is visible only to certain groups. For example, if your course uses
+   cohorts or experiment groups, and some courseware is visible only to
+   learners in a particular content group or experiment group, you cannot see
+   that content when you view the live course as a specific student.
+
+
+.. _Adjust Grades for a Problem from a Randomized Content Block:
+
+***********************************************************
+Adjust Grades for a Problem from a Randomized Content Block
+***********************************************************
+
+To adjust a grade or reset the attempts for a problem that was assigned from a
+randomized content block, you can view the courseware as a specific student to
+see the actual problems that they were assigned. 
+
+Obtain the username or email address for the learner whose grades you want to
+adjust, and follow the steps described in the :ref:`Specific Student View`
+topic to view the actual problems in the courseware that this student was
+assigned.
+
+In the **Specific student** courseware view in the LMS for the student whose
+username or email you entered, locate the components from the randomized
+content block. Follow the steps described in :ref:`Adjust_grades` to rescore
+the learner's submission, reset attempts, or delete the learner's state for a
+problem.
+
+
+
