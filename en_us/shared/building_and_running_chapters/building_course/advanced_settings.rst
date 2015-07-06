@@ -174,13 +174,19 @@ Do not change this setting.
 Course Maximum Student Enrollment
 ==================================
 
-The default value for this setting is null, which means that unlimited students can enroll. To set a cap on enrollment, enter the maximum number of students here. Students who attempt to enroll after the limit has been reached will see a message explaining that enrollment is closed.
+Use this setting to specify a maximum number of learners who can enroll in the
+course. The default value for this setting is null, which means that unlimited
+students can enroll. To cap enrollment, enter the maximum number of learners
+that can enroll. Learners who attempt to enroll after the limit has been
+reached will see a message explaining that enrollment is closed.
+
 
 ==================================
 Course Not Graded
 ==================================
 
 Do not change this setting.
+
 
 ==================================
 Course Number Display String
