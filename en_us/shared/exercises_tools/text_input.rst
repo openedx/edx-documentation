@@ -452,27 +452,16 @@ Template
           <additional_answer>Correct answer 2</additional_answer>
           <additional_answer>Correct answer 3</additional_answer>
           <textline size="20" label="label text"/>
-          <hintgroup>
-              <stringhint answer="Incorrect answer A" type="ci" name="hintA" />
-                <hintpart on="hintA">
-                    <startouttext />Text of hint for incorrect answer A<endouttext />
-                </hintpart >
-              <stringhint answer="Incorrect answer B" type="ci" name="hintB" />
-                <hintpart on="hintB">
-                    <startouttext />Text of hint for incorrect answer B<endouttext />
-                </hintpart >
-              <stringhint answer="Incorrect answer C" type="ci" name="hintC" />
-                <hintpart on="hintC">
-                    <startouttext />Text of hint for incorrect answer C<endouttext />
-                </hintpart >
-          </hintgroup>
+          <correcthint>Provides feedback when learners submit the correct response.</correcthint>
+          <stringequalhint answer="Incorrect answer 1">Provides feedback when learners submit the specified incorrect response.</stringequalhint>
+          <stringequalhint answer="Incorrect answer 2">Provides feedback when learners submit the specified incorrect response.</stringequalhint>
+          <textline label="Which U.S. state has the largest land area?" size="20"/>
       </stringresponse>
-      <solution>
-      <div class="detailed-solution">
-      <p>Explanation or Solution Header</p>
-      <p>Explanation or solution text</p>
-      </div>
-    </solution>
+
+      <demandhint>
+        <hint>The first text string to display when learners request a hint.</hint>
+        <hint>The second text string to display when learners request a hint.</hint>
+      </demandhint>
   </problem>
 
 =======
