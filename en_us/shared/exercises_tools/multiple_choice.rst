@@ -166,8 +166,7 @@ problem, follow these steps.
 .. code-block:: xml
 
   <problem>
-  <fieldset>
-  <legend>Lateral inhibition, as was first discovered in the horseshoe crab...</legend>
+  <p>Lateral inhibition, as was first discovered in the horseshoe crab...</p>
   <multiplechoiceresponse>
     <choicegroup type="MultipleChoice" label="Lateral inhibition, as was first discovered
       in the horseshoe crab">
@@ -183,7 +182,6 @@ problem, follow these steps.
       that allows it to balance in turbulent water.</choice>
     </choicegroup>
   </multiplechoiceresponse>
-  </fieldset>
   <solution>
     <div class="detailed-solution">
       <p>Explanation</p>
@@ -392,7 +390,7 @@ Template
 .. code-block:: xml
 
   <problem>
-  <legend>Question text</legend>
+  <p>Question text</p>
   <multiplechoiceresponse>
     <choicegroup type="MultipleChoice" label="label text">
       <choice correct="false" name="a">
@@ -409,7 +407,6 @@ Template
       </choice>
     </choicegroup>
   </multiplechoiceresponse>
-
   <demandhint>
     <hint>Hint 1</hint>
     <hint>Hint 2</hint>
@@ -617,8 +614,7 @@ shuffling is enabled.
 .. code-block:: xml
 
  <problem>
-  <fieldset>
-  <legend>What Apple device competed with the portable CD player?</legend>
+  <p>What Apple device competed with the portable CD player?</p>
   <multiplechoiceresponse>
    <choicegroup type="MultipleChoice">
      <choice correct="false">The iPad</choice>
@@ -627,7 +623,6 @@ shuffling is enabled.
      <choice correct="false">The vegetable peeler</choice>
    </choicegroup>
   </multiplechoiceresponse>
-  </fieldset>
  </problem>
 
 
@@ -637,8 +632,7 @@ To add shuffling to this problem, add ``shuffle="true"`` to the
 .. code-block:: xml
 
  <problem>
-  <fieldset>
-  <legend>What Apple device competed with the portable CD player?</legend>
+  <p>What Apple device competed with the portable CD player?</p>
   <multiplechoiceresponse>
    <choicegroup type="MultipleChoice" shuffle="true">
      <choice correct="false">The iPad</choice>
@@ -647,7 +641,6 @@ To add shuffling to this problem, add ``shuffle="true"`` to the
      <choice correct="false">The vegetable peeler</choice>
    </choicegroup>
   </multiplechoiceresponse>
-  </fieldset>
  </problem>
 
 
@@ -657,8 +650,7 @@ To fix an answer's location in the list, add ``fixed="true"`` to the
 .. code-block:: xml
 
  <problem>
-  <fieldset>
-  <legend>What Apple device competed with the portable CD player?</legend>
+  <p>What Apple device competed with the portable CD player?</p>
   <multiplechoiceresponse>
    <choicegroup type="MultipleChoice" shuffle="true">
      <choice correct="false">The iPad</choice>
@@ -668,7 +660,6 @@ To fix an answer's location in the list, add ``fixed="true"`` to the
      <choice correct="false" fixed="true">All of the above</choice>
    </choicegroup>
   </multiplechoiceresponse>
-  </fieldset>
  </problem>
 
 .. _Targeted Feedback in a Multiple Choice Problem:
@@ -709,8 +700,7 @@ For example, the XML for the multiple choice problem follows.
 .. code-block:: xml
 
    <problem>
-   <fieldset>
-   <legend>What Apple device competed with the portable CD player?</legend>
+   <p>What Apple device competed with the portable CD player?</p>
    <multiplechoiceresponse targeted-feedback="">
     <choicegroup type="MultipleChoice">
       <choice correct="false" explanation-id="feedback1">The iPad</choice>
@@ -718,7 +708,6 @@ For example, the XML for the multiple choice problem follows.
       <choice correct="true" explanation-id="correct">The iPod</choice>
       <choice correct="false" explanation-id="feedback3">The vegetable peeler</choice>
     </choicegroup>
-   </fieldset>
    </multiplechoiceresponse>
    ...
  
@@ -805,8 +794,7 @@ explanation ID.
 .. code-block:: xml
 
  <problem>
-  <fieldset>
-  <legend>What Apple devices let you carry your digital music library in your pocket?</legend>
+  <p>What Apple devices let you carry your digital music library in your pocket?</p>
    <multiplechoiceresponse>
     <choicegroup type="MultipleChoice" answer-pool="4">
       <choice correct="false">The iPad</choice>
@@ -817,7 +805,6 @@ explanation ID.
       <choice correct="true" explanation-id="iPhone">The iPhone</choice>
     </choicegroup>
    </multiplechoiceresponse>
-  </fieldset>
 
     <solutionset>
         <solution explanation-id="iPod">
