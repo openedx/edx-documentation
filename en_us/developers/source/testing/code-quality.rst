@@ -41,4 +41,4 @@ in the line.
 .. _pep8: https://pypi.python.org/pypi/pep8
 .. _coverage.py: https://pypi.python.org/pypi/coverage
 .. _pylint: http://pylint.org/
-.. _diff-quality: https://github.com/Bachman1234/diff-cover
+.. _diff-quality: https://github.com/Bachmann1234/diff-cover
