@@ -185,6 +185,8 @@
 
 .. _edx.instructor.report.requested: http://edx.readthedocs.org/projects/devdata/en/latest/internal_data_formats/tracking_logs.html#edx-instructor-report-requested
 
+.. _Poll and Survey Events: http://edx.readthedocs.org/projects/devdata/en/latest/internal_data_formats/tracking_logs.html#poll-and-survey-events
+
 .. _Data Delivered in Data Packages: http://edx.readthedocs.org/projects/devdata/en/latest/internal_data_formats/package.html
 
 .. _Course Content Data: http://edx.readthedocs.org/projects/devdata/en/latest/internal_data_formats/course_structure.html#course-structure
@@ -226,6 +228,10 @@
 .. _Generate a Problem Grade Report for Enrolled Students: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/running_course/course_grades.html#problem-report
 
 .. _Multiple Choice: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/multiple_choice.html
+
+.. _Poll Tool: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/poll_question.html
+
+.. _Survey Tool: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/survey.html
 
 .. _Course Data: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/running_course/course_data.html#course-data
 
@@ -529,3 +535,5 @@
 .. _Student Notes: http://edx.readthedocs.org/projects/open-edx-learner-guide/en/latest/SFD_student_notes.html
 
 .. _Bookmarks: http://edx.readthedocs.org/projects/open-edx-learner-guide/en/latest/SFD_bookmarks.html
+
+.. _Creating Exercises and Tools - open edX: http://edx.readthedocs.org/projects/open-edx-building-and-running-a-course/en/latest/exercises_tools/index.html

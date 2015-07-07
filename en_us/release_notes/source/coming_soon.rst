@@ -13,12 +13,5 @@ PayPal for Verified Certificates
 Selected courses will soon offer learners the option to use PayPal to pay for
 their verified certificates.
 
-*************
-Student Notes
-*************
-
-A new Student Notes tool allows learners in some courses to highlight and make
-notes about text directly in the courseware. Learners can see individual notes
-in the courseware or all notes together on a new **Notes** tab in the LMS.
 
 .. include:: links.rst
