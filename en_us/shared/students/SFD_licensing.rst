@@ -71,7 +71,7 @@ the bottom of the page when you view content in the **Courseware** tab.
   :width: 600
 
 If a video has a different license than the course as a whole, you see
-the license at the bottom right of the video player:
+the license at the bottom right of the video player.
 
 .. image:: ../../shared/building_and_running_chapters/Images/learner_video_license.png
  :alt: A video with a pointer to the license.

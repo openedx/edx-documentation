@@ -4,23 +4,25 @@
 Adding Tooltips to a Problem
 ==============================
 
-You can add inline tooltips to a problem, so that learners can hover over the
-tooltip icon and see text that you write to help them understand the problem.
+To help learners understand terminology or other aspects of a problem, you can
+add inline tooltips. Tooltips show text to learners when they move their
+cursors over a tooltip icon.
 
-For example, in the following problem the learner hovers over the tooltip icon
-to see a definition for the acronym "ROI".
+The following example problem includes two tooltips. The tooltip that provides
+a definition for "ROI" is being shown.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/tooltip.png
  :alt: An example of a tooltip from a learner's point of view.
  :width: 500
 
 .. note:: 
-  For learners using a screen reader, the tooltip expands to show the tooltip
-  text when the screen reader focuses on the tooltip icon.
+  For learners using a screen reader, the tooltip expands to make its
+  associated text accessible when the screen reader focuses on the tooltip
+  icon.
 
-To add the tooltip, you wrap text that you want to appear as the tooltip in the
-``clarification`` element.  For example, the following problem contains two
-tooltips:
+To add the tooltip, you wrap the text that you want to appear as the tooltip in
+the ``clarification`` element.  For example, the following problem contains two
+tooltips.
 
 .. code-block:: xml
 

@@ -20,7 +20,7 @@ clicks the dropdown arrow.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/DropdownExample.png
  :alt: A problem component with 3 dropdown problems, 2 marked correct and 1
-     incorrect
+     incorrect.
  :width: 600
 
 **************************************************

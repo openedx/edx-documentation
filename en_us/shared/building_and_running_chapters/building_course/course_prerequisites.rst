@@ -7,7 +7,7 @@ Set Course Prerequisites
 You might want to make sure that your students have a specific set of skills
 and knowledge before they take your course. 
 
-.. contents:: Section Contents:
+.. contents:: 
  :local:
  :depth: 1
 
@@ -24,7 +24,7 @@ the course About page.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/PrereqAboutPage.png
   :width: 500
-  :alt: A course About page with prerequisite course information circled
+  :alt: A course About page with prerequisite course information circled.
 
 If students have not completed the prerequisite course, they can enroll in your
 course and then see your course on the Student Dashboard. However, unlike with
@@ -35,15 +35,17 @@ course. Students can enroll in the prerequisite course from the About page.
 .. image:: ../../../shared/building_and_running_chapters/Images/Prereq_StudentDashboard.png
   :width: 500
   :alt: The Student Dashboard with an available course and a course that is
-      unavailable because it has a prerequisite
+      unavailable because it has a prerequisite.
 
-To specify a prerequisite course, you must be a course author in both the
-current course and in the prerequisite course.
+To define one course as the prerequisite for another, you must be the course
+creator in both the current course and in the prerequisite course.
+
+To specify a prerequisite course, follow these steps. 
 
 #. In Studio, open your course.
 #. On the **Settings** menu, select **Schedule & Details**.
 #. On the **Schedule & Details** page, scroll to the **Requirements** section.
-#. Under **Prerequisite Course**, click the drop-down list to select a course.
+#. Under **Prerequisite Course**, select a course from the list.
 #. At the bottom of the page, select **Save Changes**.
 
 .. note:: Currently, you can specify only one prerequisite course.
@@ -56,14 +58,14 @@ Require an Entrance Exam
 ****************************
 
 You can require your students to pass an entrance exam before they access your
-course materials. If you include an entrance exam, students who enroll in your 
-course see only the **Course Updates & News** page and an **Entrance Exam** tab 
+course materials. If you include an entrance exam, students who enroll in your
+course see only the **Course Updates & News** page and an **Entrance Exam** tab
 until they pass the exam.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/EntEx_LandingPage.png
   :width: 500
-  :alt: The Course Updates & News page with the Entrance Exam tab circled on the
-      left
+  :alt: The Course Updates & News page with the Entrance Exam tab circled on
+   the left.
 
 
 After students pass the exam, they can access all released materials in your 
@@ -108,11 +110,6 @@ students have a positive experience with entrance exams.
   * After students complete the entrance exam, they have to click the
     **Entrance Exam** tab again or refresh the page in their browser. When the
     page refreshes, students can see all currently available course content.
-
-    .. image:: ../../../shared/building_and_running_chapters/Images/EntEx_CourseAccordionAfterPass.png
-      :width: 500
-      :alt: The student view after the student has passed the entrance exam,
-          with all available course sections listed in the course accordion
 
 ================================================
 Create an Entrance Exam from the Course Outline
