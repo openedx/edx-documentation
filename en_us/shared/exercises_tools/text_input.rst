@@ -467,14 +467,25 @@ Template
 Tags
 =======
 
-* ``<stringresponse>``: Indicates that the problem is a text input problem. 
-* ``<textline>``: Child of ``<stringresponse>``. Creates a response field in
-  the LMS where the learner enters a response.
-* ``<additional_answer>``: (optional): Specifies an additional correct answer
-  for the problem. A problem can contain an unlimited number of additional
-  answers.
-* ``<correcthint>``: Specifies feedback for the correct answer.
-* ``<stringequalhint>``: Specifies feedback for an incorrect answer.
+* ``<stringresponse>``: Indicates that the problem is a text input problem. The
+  ``<stringresponse>`` tag has the following child tags.
+
+  - ``<textline>``: Creates the response field in the LMS where the learner
+    enters a response.
+
+  - ``<additional_answer>`` (optional): Specifies an additional correct answer
+    for the problem. A problem can contain an unlimited number of additional
+    answers.
+
+  - ``<correcthint>`` (optional): Specifies feedback for the correct answer.
+
+  - ``<stringequalhint>`` (optional): Specifies feedback for an incorrect
+    answer.
+
+* ``<demandhint>`` (optional): Specifies one or more hints that learners can
+  request to help them arrive at the correct answer. The ``<demandhint>`` tag
+  has a child tag of ``<hint>``.
+
 
 **Tag:** ``<stringresponse>``
 
@@ -493,14 +504,20 @@ Indicates that the problem is a text input problem.
          "regexp" to the **type** attribute, the learner's answer must match
          the value in this attribute exactly.
      * - type (optional)
-       - Can specify whether the problem is case sensitive and allows regular
-         expressions. If the ``<stringresponse>`` tag includes ``type="ci"``,
-         the problem is not case sensitive. If the tag includes ``type="cs"``,
-         the problem is case sensitive. If the tag includes ``type="regexp"``,
-         the problem allows regular expressions. A **type** attribute in a
-         ``<stringresponse>`` tag can also combine these values. For example,
-         ``<stringresponse type="regexp cs">`` specifies that the prolem
-         allows regular expressions and is case sensitive.
+       - Specifies whether the problem requires a case sensitive response and
+         if it allows regular expressions. 
+
+         * If the ``<stringresponse>`` tag includes ``type="ci"``, the problem
+           is not case sensitive.
+         * If the tag includes ``type="cs"``, the problem is case sensitive.
+         * If the tag includes ``type="regexp"``, the problem allows regular
+           expressions.
+
+         A **type** attribute in a ``<stringresponse>`` tag can also combine
+         these values. For example, ``<stringresponse type="regexp cs">``
+         specifies that the prolem allows regular expressions and is case
+         sensitive.
+
 
   Children
 
@@ -575,6 +592,23 @@ Specifies the feedback for an incorrect answer.
   Children
 
   (none)
+
+**Tag:** ``<demandhint>``
+
+Specifies one or more hints that learners can request to help them arrive at
+the correct answer.
+
+  Attributes
+
+  (none)
+
+  Children
+
+**Tag:** ``<hint>``
+ 
+Contains the text of a hint. The LMS shows each of the defined hints to the
+learners in the order that the ``<hint>`` tags  are included within the
+``<demandhint>`` tag.
 
 **************************
 Deprecated Hinting Method
