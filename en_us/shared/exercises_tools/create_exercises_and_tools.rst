@@ -119,7 +119,7 @@ General Exercises and Tools
        problems can be text input or multiple choice problems.
      - Provisional support  
    * - :ref:`Problem Written in LaTeX`
-     - If you have an problem that is already written in LaTeX, you can use
+     - If you have a problem that is already written in LaTeX, you can use
        this problem type to easily convert your code into XML.
      - No support
    * - :ref:`Survey Tool`
