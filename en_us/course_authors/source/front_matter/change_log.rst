@@ -22,7 +22,9 @@ July 2015
 
    * - Date
      - Change
-   * - 01 July
+   * - 8 July 2015
+     - Added the :ref:`Poll Tool` and :ref:`Survey Tool` sections.
+   * - 1 July
      - Several additions were made to provide information about using feedback
        and hints in common problems.
        
@@ -243,4 +245,3 @@ January 2015
        Tool` chapters.
    * - 1/7/15
      - Added the :ref:`Rerun a Course` chapter.
-       

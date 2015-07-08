@@ -1,9 +1,9 @@
 
 .. _Poll:
 
-##########
-Poll Tool
-##########
+##################
+Poll Tool for OLX
+##################
 
 You can run polls in your course so that your students can share opinions on different questions.
 

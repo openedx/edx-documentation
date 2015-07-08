@@ -3,7 +3,21 @@ Change Log
 ############
 
 ****************
-March 2015
+July 2015
+****************
+
+.. list-table::
+   :widths: 10 70
+   :header-rows: 1
+
+   * - Date
+     - Change
+   * - 8 July 2015
+     - Added the :ref:`Poll Tool` and :ref:`Survey Tool` sections.
+
+
+****************
+June 2015
 ****************
 
 .. list-table::

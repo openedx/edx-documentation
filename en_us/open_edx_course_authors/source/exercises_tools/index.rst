@@ -44,12 +44,14 @@ Course Content Index`.
    numerical_input
    open_response_assessments/index
    periodic_table
+   poll_question
    poll
    problem_with_hint
    problem_in_latex
    protein_builder
    randomized_content_blocks
    recommenderXBlock
+   survey
    text_input
    word_cloud
    custom_python
