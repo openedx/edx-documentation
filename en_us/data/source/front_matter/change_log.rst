@@ -15,6 +15,9 @@ July-September 2015
 
    * - Date
      - Change
+   * - 8 Jul 2015
+     - Added new events for :ref:`polls and surveys<Poll and Survey Events>` to
+       the :ref:`Tracking Logs` section.
    * - 1 Jul 2015
      - Added new events for :ref:`problem hints<problem>` to the
        :ref:`Tracking Logs` section.
