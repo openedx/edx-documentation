@@ -10,6 +10,9 @@ Change Log
 
    * - Date
      - Change
+   * - 28 Jul 2015
+     - Added more detail to the :ref:`Testing Event Emission` topic to the
+       :ref:`analytics` section.
    * - 7 May 2015
      - Added the :ref:`Testing Event Emission` topic to the :ref:`analytics`
        section.
