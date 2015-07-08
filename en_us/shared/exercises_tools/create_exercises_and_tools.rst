@@ -40,6 +40,7 @@ instructions that you need to create the exercise or tool.
 General Exercises and Tools
 ****************************
 
+.. note: student notes tool not in table, only for open edx.
 .. list-table::
    :widths: 25 60 20
    :header-rows: 1
@@ -121,9 +122,6 @@ General Exercises and Tools
      - If you have an problem that is already written in LaTeX, you can use
        this problem type to easily convert your code into XML.
      - No support
-
-.. Removed student notes row for now-- cannot conditionalize in tables. Currently student notes page is included in open edx, not in edx.
-
    * - :ref:`Survey Tool`
      - You can include surveys in your course to collect learner responses to
        multiple questions. You can use the Survey Tool in Studio.
