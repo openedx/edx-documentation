@@ -5,39 +5,39 @@ Open edX
 ####################################
 
 ******************
-April 22, 2015
+22 April 2015
 ******************
 
 .. include:: 2015/openedx/openedx_0422_2015.rst
 
 
 ******************
-April 15, 2015
+15 April 2015
 ******************
 
 .. include:: 2015/openedx/openedx_0422_2015.rst
 
 
 ******************
-March 5, 2015
+5 March 2015
 ******************
 
 .. include:: 2015/openedx/openedx_0422_2015.rst
 
 ******************
-March 2, 2015
+2 March 2015
 ******************
 
 .. include:: 2015/openedx/openedx_0422_2015.rst
 
 ******************
-February 23, 2015
+23 February 2015
 ******************
 
 .. include:: 2015/openedx/openedx_0422_2015.rst
 
 ******************
-January 28, 2015
+28 January 2015
 ******************
 
 .. include:: 2015/openedx/openedx_0422_2015.rst

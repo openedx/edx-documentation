@@ -4,114 +4,126 @@
 edX Documentation
 ####################################
 
+**************************
+8 July 2015
+**************************
+
+.. include:: 2015/documentation/doc_0708_2015.rst
+
+**************************
+1 July 2015
+**************************
+
+.. include:: 2015/documentation/doc_0701_2015.rst
+
 *********************
-June 23, 2015
+23 June 2015
 *********************
 
 .. include:: 2015/documentation/doc_0623_2015.rst
 
 *********************
-June 16, 2015
+16 June 2015
 *********************
 
 .. include:: 2015/documentation/doc_0616_2015.rst
 
 *********************
-June 10, 2015
+10 June 2015
 *********************
 
 .. include:: 2015/documentation/doc_0610_2015.rst
 
 *********************
-May 28, 2015
+28 May 2015
 *********************
 
 .. include:: 2015/documentation/doc_0528_2015.rst
 
 ******************
-May 19, 2015
+19 May 2015
 ******************
 
 .. include:: 2015/documentation/doc_0519_2015.rst
 
 ******************
-May 12, 2015
+12 May 2015
 ******************
 
 .. include:: 2015/documentation/doc_0512_2015.rst
 
 ******************
-April 28, 2015
+28 April 2015
 ******************
 
 .. include:: 2015/documentation/doc_0428_2015.rst
 
 ******************
-April 22, 2015
+22 April 2015
 ******************
 
 .. include:: 2015/documentation/doc_0422_2015.rst
 
 ******************
-April 15, 2015
+15 April 2015
 ******************
 
 .. include:: 2015/documentation/doc_0415_2015.rst
 
 ******************
-March 31, 2015
+31 March 2015
 ******************
 
 .. include:: 2015/documentation/doc_0331_2015.rst
 
 ******************
-March 25, 2015
+25 March 2015
 ******************
 
 .. include:: 2015/documentation/doc_0325_2015.rst
 
 ******************
-March 18, 2015
+18 March 2015
 ******************
 
 .. include:: 2015/documentation/doc_0318_2015.rst
 
 ******************
-March 11, 2015
+11 March 2015
 ******************
 
 .. include:: 2015/documentation/doc_0311_2015.rst
 
 ******************
-March 2, 2015
+2 March 2015
 ******************
 
 .. include:: 2015/documentation/doc_0302_2015.rst
 
 
 ******************
-February 23, 2015
+23 February 2015
 ******************
 
 .. include:: 2015/documentation/doc_0223_2015.rst
 
 
 ******************
-January 28, 2015
+28 January 2015
 ******************
 
 .. include:: 2015/documentation/doc_0128_2015.rst
 
 
 ******************
-January 14, 2015
+14 January 2015
 ******************
 
 .. include:: 2015/documentation/doc_0114_2015.rst
 
 
 ******************
-January 8, 2015
+8 January 2015
 ******************
 
 .. include:: 2015/documentation/doc_0108_2015.rst

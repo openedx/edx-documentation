@@ -5,68 +5,80 @@ edX Analytics
 ####################################
 
 ******************
-June 16, 2015
+8 July 2015
+******************
+
+.. include:: 2015/analytics/analytics_0708_2015.rst
+
+******************
+16 June 2015
 ******************
 
 .. include:: 2015/analytics/analytics_0616_2015.rst
 
 ******************
-May 19, 2015
+10 June 2015
+******************
+
+.. include:: 2015/analytics/analytics_0610_2015.rst
+
+******************
+19 May 2015
 ******************
 
 .. include:: 2015/analytics/analytics_0519_2015.rst
 
 ******************
-April 22, 2015
+22 April 2015
 ******************
 
 .. include:: 2015/analytics/analytics_0422_2015.rst
 
 
 ******************
-March 18, 2015
+18 March 2015
 ******************
 
 .. include:: 2015/analytics/analytics_0318_2015.rst
 
 
 ******************
-March 11, 2015
+11 March 2015
 ******************
 
 .. include:: 2015/analytics/analytics_0311_2015.rst
 
 
 ******************
-March 5, 2015
+5 March 2015
 ******************
 
 .. include:: 2015/analytics/analytics_0305_2015.rst
 
 
 ******************
-February 23, 2015
+23 February 2015
 ******************
 
 .. include:: 2015/analytics/analytics_0223_2015.rst
 
 
 ******************
-February 12, 2015
+12 February 2015
 ******************
 
 .. include:: 2015/analytics/analytics_0212_2015.rst
 
 
 ******************
-January 28, 2015
+28 January 2015
 ******************
 
 .. include:: 2015/analytics/analytics_0128_2015.rst
 
 
 ***************
-January 8, 2015
+8 January 2015
 ***************
 
 .. include:: 2015/analytics/analytics_0108_2015.rst
