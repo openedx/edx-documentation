@@ -1,7 +1,7 @@
-.. _Including Student Cohorts:
+.. _Including Learner Cohorts:
 
 #############################
-Including Student Cohorts
+Including Learner Cohorts
 #############################
 
 .. toctree::
