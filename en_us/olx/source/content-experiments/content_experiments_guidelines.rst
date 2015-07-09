@@ -1,3 +1,3 @@
 .. import OLX-content experiment doc that's shared in CA guide.
 
-.. include:: ../../../shared/subsections/content_experiments/content_experiments_group_modify_guidelines.rst
+.. include:: ../../../shared/building_and_running_chapters/content_experiments/subsection_content_experiments_group_modify_guidelines.rst

@@ -25,12 +25,6 @@ Information on analyzing events from content experiments is included in the
 
 .. _edX Researcher Guide: http://edx.readthedocs.org/projects/devdata/en/latest/internal_data_formats/tracking_logs.html#a-b-testing-events
 
-For more information, see:
-
-* :ref:`Configure Your Course for Content Experiments`
-* :ref:`Add Content Experiments to Your Course`
-* :ref:`Test Content Experiments`
-
 .. _Courses with Multiple Content Experiments:
 
 ******************************************
