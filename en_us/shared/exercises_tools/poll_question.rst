@@ -44,6 +44,8 @@ Studio or OLX.
 To enable the Poll tool in your course, you add ``"poll"`` to the **Advanced
 Modules List** in Advanced Settings.
 
+.. _Enable the Poll Tool in Studio:
+
 ======================================
 Enable the Poll Tool in Studio
 ======================================
@@ -87,8 +89,8 @@ For example, the following XML code enables polls in a course.
 Add a Poll in edX Studio
 ***************************
 
-You must `enable the poll <Enable the Poll Tool in Studio>`_ tool before you
-add the component.
+You must :ref:`enable the poll <Enable the Poll Tool in Studio>` tool before
+you add the component.
 
 #. On the Course Outline page, open the unit where you want to add the poll.
 

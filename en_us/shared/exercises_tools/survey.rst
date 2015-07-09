@@ -42,6 +42,8 @@ Enable the Survey Tool
 Before you can add surveys to your course, you must enable the survey tool in
 Studio or OLX.
 
+.. _Enable the Survey Tool in Studio:
+
 ======================================
 Enable the Survey Tool in Studio
 ======================================
@@ -85,7 +87,8 @@ For example, the following XML code enables the survey tool.
 Add a Survey in edX Studio
 ***************************
 
-You must enable the survey tool before you add the component.
+You must :ref:`enable the survey tool <Enable the Survey Tool in Studio>`
+before you add the component.
 
 #. On the Course Outline page, open the unit where you want to add the survey.
 
