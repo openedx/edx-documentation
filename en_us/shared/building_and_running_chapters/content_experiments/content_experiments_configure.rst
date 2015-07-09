@@ -4,14 +4,12 @@
 Configure Your Course for Content Experiments
 #####################################################
 
-This chapter describes how to configure your course so that you can use content
-experiments. See:
+This section provides instructions to configure your course to use content
+experiments.
 
-* :ref:`Enable Content Experiments`
-* :ref:`Overview of Group Configurations`
-* :ref:`Set up Group Configurations in edX Studio`
-* :ref:`Guidelines for Modifying Group Configurations`
-* :ref:`Set Up Group Configuration for OLX Courses`
+.. contents::
+  :local:
+  :depth: 1
 
 .. _Enable Content Experiments:
 
@@ -46,7 +44,7 @@ To enable content experiments in your course, you add ``split_test`` to the
        "split_test"
      ]
 
-#. At the bottom of the page, click **Save Changes**.
+#. Select **Save Changes**.
 
 .. _Overview of Group Configurations:
 
@@ -57,51 +55,50 @@ Overview of Group Configurations
 Before you can create content experiments, you must specify at least one group
 configuration for your course.
 
-A group configuration defines how many groups of students are in an experiment.
+A group configuration defines how many groups of learners are in an experiment.
 You can have any number of group configurations in your course. When you create
 a content experiment, you select the group configuration to use.
 
 For example, you may want to do two different experiments at different times
-during your course. In one content experiment, students either see a video or
+during your course. In one content experiment, learners either see a video or
 complete a reading assignment. You can then include problems so that you can
 see which group learned the material more completely. For this content
-experiment, you need a group configuration that assigns your students to two
+experiment, you need a group configuration that assigns your learners to two
 experiment groups.
 
 In the other content experiment, you can present the same question using four 
 different types of problems. For this content experiment, you need a
-group configuration that assigns your students to four experiment groups.
+group configuration that assigns your learners to four experiment groups.
 
 =======================================
-Assigning Students to Experiment Groups
+Assigning Learners to Experiment Groups
 =======================================
 
-The edX Platform assigns students to each experiment group in a group
+The edX Platform assigns learners to each experiment group in a group
 configuration.
 
 Experiment group assignments are:
 
 * Dynamic
 
-  The edX Platform assigns a student to an experiment group the first time he or
-  she views a content experiment that uses the group configuration.
+  The edX Platform assigns a learner to an experiment group the first time he
+  or she views a content experiment that uses the group configuration.
 
 * Random
   
-  You cannot control which students are assigned to which experiment group. 
+  You cannot control which learners are assigned to which experiment group. 
   
 * Evenly distributed
   
-  The edX Platform keeps track of the size of experiment groups, and assigns new
-  students to groups evenly. For example, if you have two experiment groups in a
-  configuration, each group includes 50% of the students in the course; if you
-  have four experiment groups, each group includes 25% of the students.
+  The edX Platform keeps track of the size of experiment groups, and assigns
+  new learners to groups evenly. For example, if you have two experiment groups
+  in a configuration, each group includes 50% of the learners in the course; if
+  you have four experiment groups, each group includes 25% of the learners.
 
 * Permanent
   
-  Students remain in their assigned experiment groups regardless of how many
+  Learners remain in their assigned experiment groups regardless of how many
   content experiments you set up that use the same group configuration.
-
 
 .. _Set up Group Configurations in edX Studio:
 
@@ -129,31 +126,31 @@ Create a Group Configuration
 
 You can create a group configuration at any time.
 
-#. On the **Group Configurations** page, under **Experiment Groups**, click
+#. On the **Group Configurations** page, under **Experiment Groups**, select
    **New Experiment Group**. The following page opens:
 
-  .. image:: ../../../shared/building_and_running_chapters/Images/create-group-config.png
-   :width: 800
-   :alt: Create a New Group Configuration page
+   .. image:: ../../../shared/building_and_running_chapters/Images/create-group-config.png
+    :width: 800
+    :alt: An image of the Create a New Group Configuration page in Studio.
 
-2. Enter a name in the **Group Configuration Name** field. Use a meaningful
-name, because you will select from group configuration names when you create
-content experiments. Students do not see the group configuration name.
+#. Enter a name in the **Group Configuration Name** field. Use a meaningful
+   name, because you will select from group configuration names when you create
+   content experiments. Learners do not see the group configuration name.
 
 #. Optionally, enter a description for the new group configuration.
    
 #. By default, a new configuration already contains two groups. Modify the
-   groups or add and delete groups as needed. A group configuration must have at
-   least one group.
+   groups or add and delete groups as needed. A group configuration must have
+   at least one group.
 
-  * Modify group names as needed. You see group names in the unit page in
-    Studio, but group names are not visible to students.       
-  * Click **Add another group** to include another group as part of
-    the configuration. 
-  * Click the **X** to the right of an existing group to remove it from the
-    configuration. A group configuration must have at least one group.
+   * Modify group names as needed. You see group names in the unit page in
+     Studio, but group names are not visible to learners.
+   * Select **Add another group** to include another group as part of the
+     configuration.
+   * Select the **X** to the right of an existing group to remove it from the
+     configuration. A group configuration must have at least one group.
 
-5. Click **Create** to save the new group configuration.
+#. Select **Create** to save the new group configuration.
    
 The group configuration is then listed in the page. You can see the number of
 groups that the configuration contains, as well as whether the configuration is
@@ -161,10 +158,8 @@ in use in the course:
 
 .. image:: ../../../shared/building_and_running_chapters/Images/group_configurations_one_listed.png
  :width: 800
- :alt: The Group Configurations page with one group configuration
+ :alt: The Group Configurations page with one group configuration listed.
 
-
-  
 .. _Edit a Group Configuration:
 
 =============================
@@ -172,27 +167,30 @@ Edit a Group Configuration
 =============================
 
 .. important:: You can change the name of a group configuration at any time.
-   However, before you modify any other characteristics of a group configuration
-   that is currently used in a running course, review `Guidelines for Modifying
-   Group Configurations`_.
+   However, before you modify any other characteristics of a group
+   configuration that is currently used in a running course, review `Guidelines
+   for Modifying Group Configurations`_.
 
 #. On the **Group Configurations** page, hover over the group configuration and
-   click **Edit**.
+   select **Edit**.
    
    .. image:: ../../../shared/building_and_running_chapters/Images/group_configurations_edit.png
-    :alt: The Group Configurations page with Edit button
+    :alt: An image of the Group Configurations page with Edit button
+        highlighted.
+    :width: 800
 
    The following page opens:
 
    .. image:: ../../../shared/building_and_running_chapters/Images/save-group-config.png
-    :alt: Edit a Group Configuration page
+    :alt: An image of the Edit a Group Configuration page.
+    :width: 800
 
 #. Modify the name and description as needed.
 
 #. Modify groups in the configuration as needed. See `Create a Group
    Configuration`_ for details.
    
-#. Click **Save** to save your changes.
+#. Select **Save** to save your changes.
 
 .. _Delete a Group Configuration:
 
@@ -206,13 +204,13 @@ Delete a Group Configuration
  content experiment.
 
 #. On the **Group Configurations** page, hover over the group configuration and
-   click the Delete icon. 
+   select the Delete icon. 
 
-  .. image:: ../../../shared/building_and_running_chapters/Images/group-configuration-delete.png
-   :alt: Edit a Group Configuration page
+   .. image:: ../../../shared/building_and_running_chapters/Images/group-configuration-delete.png
+    :alt: An image of the Edit a Group Configuration page.
+    :width: 800
 
-2. When prompted to confirm the deletion, click **Delete**.
-
+#. When prompted to confirm the deletion, select **Delete**.
 
 .. _View Experiments that Use a Group Configuration:
 
@@ -222,14 +220,15 @@ View Experiments that Use a Group Configuration
 
 You can view the experiments that use each of your group configurations.
 
-On the **Group Configurations** page, click the name of a group to see its
+On the **Group Configurations** page, select the name of a group to see its
 details. You see links to experiments that use the group configuration:
 
 .. image:: ../../../shared/building_and_running_chapters/Images/group_configurations_experiments.png
- :alt: A group configuration with the experiments using it circled
+ :alt: An image of a group configuration with the experiments using the
+     configuration circled.
+ :width: 800
 
-Click a link to go to the unit page that contains the experiment.
-
+Select a link to go to the unit page that contains the experiment.
 
 ===============================================
 View a Group Configuration from an Experiment
@@ -238,23 +237,28 @@ View a Group Configuration from an Experiment
 When working with a content experiment, you can view details about the group
 configuration used by that experiment in two ways:
 
-* In a unit that contains a content experiment, in the content experiment block,
-  click the name of the group configuration.
+* In a unit that contains a content experiment, in the content experiment
+  block, select the name of the group configuration.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/content_experiment_group_config_link.png
- :alt: Content experiment in the unit page with the group configuration link
-     circled
+  .. image:: ../../../shared/building_and_running_chapters/Images/content_experiment_group_config_link.png
+   :alt: An image of the content experiment in the unit page with the group
+     configuration link circled
+   :width: 800
 
-* At the top of the content experiment page, click the name of the group
+* At the top of the content experiment page, select the name of the group
   configuration.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/content_experiment_page_group_config_link.png
- :alt: Content experiment page with the group configuration link circled
+  .. image:: ../../../shared/building_and_running_chapters/Images/content_experiment_page_group_config_link.png
+   :alt: An image of the content experiment page with the group configuration
+       link circled.
+   :width: 800
 
 In both cases, the group configuration opens:
 
 .. image:: ../../../shared/building_and_running_chapters/Images/group_configurations_experiments.png
- :alt: A Group Configuration with the experiments using it circled
+ :alt: An image of the Group Configuration page with the experiments using it
+     circled.
+ :width: 800
 
 You can use the link in the group configuration to return to the unit that
 contains the content experiment.
