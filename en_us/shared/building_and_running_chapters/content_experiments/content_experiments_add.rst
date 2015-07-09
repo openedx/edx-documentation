@@ -146,4 +146,4 @@ To change the group configuration:
 
 .. import OLX-content experiment doc that's shared in OLX guide.
 
-.. include:: ../../../shared/subsections/content_experiments/content_experiments_OLX.rst
+.. include:: ../../../shared/building_and_running_chapters/content_experiments/subsection_content_experiments_OLX.rst
