@@ -14,6 +14,8 @@ exercises you may see in your course.
 
 For more information, see the following topics.
 
+* :ref:`Getting Started_account` - Provides information about setting up your
+  user account on an edX website and the edX Demo course.
 * :ref:`SFD Dashboard Settings Profile` - Provides an overview of the learner
   dashboard and includes information about how to change account settings and
   create a profile.
