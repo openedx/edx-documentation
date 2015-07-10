@@ -590,6 +590,63 @@ Specifies a hint available to the learner.
   
   (none)
 
+.. _Use Randomization in a Numerical Input Problem:
+
+*****************************************************
+Use Randomization in a Numerical Input Problem
+*****************************************************
+
+You can randomize values in a numerical input problem by using the advanced
+editor. To randomize values, you include a Python script in the problem. The
+script, which is similar to a :ref:`Write Your Own Grader` script, performs
+these functions.
+
+* The script must include instructions to generate random numbers. An example
+  instruction is ``float(random.randrange(10,100,10))``. The **Randomization**
+  setting for the problem defines how frequently a new value is generated. For
+  more information, see :ref:`Randomization`.
+
+* The script should include a way to pass the randomly-generated values into
+  the question that learners see. To do so, you can prefix the variable names
+  with dollar signs ($). In the following example, the randomly generated
+  numbers are identified in the script as ``V1`` and ``V2``, and in therefore
+  in the question that learners see as ``$V1`` and ``$V2``.
+
+An example of a problem that asks learners to find the sum of two randomly
+generated values follows.
+
+.. code-block:: xml
+
+     <problem>
+     <script type="loncapa/python">
+     V1 = float(random.randrange(10,100,10))
+     V2 = float(random.randrange(10,100,10))
+     totalvolume = V1+V2
+     </script>
+     <startouttext/>
+     <p> What is the sum of $V1 and $V2?</p>
+     <endouttext/>
+     <numericalresponse answer="$totalvolume">
+     <responseparam type="tolerance" default="5%" name="tol" description="Numerical Tolerance"/>
+     <textline/>
+     </numericalresponse>
+     </problem>
+
+The edX Platform has a 20-seed maximum for randomization. This means that
+learners see up to 20 different problem variants for every problem that has
+**Randomization** set to an option other than Never. This maximum allows for
+better analysis of learner submissions, such as allowing you to detect common
+incorrect answers and usage patterns for such answers. For more information,
+see :ref:`Student_Answer_Distribution` or `Review Answers to Graded Problems`_
+or `Review Answers to Ungraded Problems`_ in *Using edX Insights*.
+
+
+
 .. _Math Response Formatting for Students: http://edx-guide-for-students.readthedocs.org/en/latest/SFD_mathformatting.html
 
 .. _Using edX Insights: http://edx.readthedocs.org/projects/edx-insights/en/latest/
+
+
+.. _Review Answers to Graded Problems: http://edx.readthedocs.org/projects/edx-insights/en/latest/performance/Performance_Answers.html#review-answers-to-graded-problems
+
+.. _Review Answers to Ungraded Problems: http://edx.readthedocs.org/projects/edx-insights/en/latest/performance/Performance_Ungraded.html#review-answers-to-ungraded-problems
