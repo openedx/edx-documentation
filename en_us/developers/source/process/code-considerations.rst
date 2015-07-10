@@ -146,7 +146,7 @@ Open Source
 UX/Design/Front End Development
 ===============================
 * Did you make sure that the feature is going to pass
-  Accessibility requirements (still TBD)?
+  :ref:`Accessibility Guidelines for Developers`?
 * Did you make sure any system/instructional text is I18N ready?
 * Did you ensure that basic functionality works across all supported browsers?
 * Did you plan for the feature's UI to degrade gracefully (or be
