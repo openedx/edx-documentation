@@ -8,6 +8,8 @@ Change Log
 
    * - Date
      - Change
+   * - 5 Aug 2015
+     - Added the :ref:`Enabling Third Party Authentication` section.
    * - 16 June 2015
      - Added the :ref:`Enable CCX` section.
    * - 8 June 2015

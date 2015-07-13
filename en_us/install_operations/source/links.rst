@@ -29,6 +29,8 @@
 .. _Birch Fullstack BitTorrent: https://s3.amazonaws.com/edx-static/vagrant-images/20150224-birch-fullstack.box?torrent
 
 
+.. _XML file: https://edge.edx.org/auth/saml/metadata.xml
+.. _Edge registration: http://edge.edx.org/register
 
 .. _BitTorrent:  http://www.bittorrent.com/
 
@@ -65,4 +67,5 @@
 
 .. _Enable Badges In Each Course: http://edx.readthedocs.org/projects/open_edx_building-and-running-a-course/en/latest/building_course/creating_course_certificates.html#enable-or-disable-badges-for-your-course
 
+.. _Shibboleth configuration wiki: https://wiki.shibboleth.net/confluence/display/SHIB2/IdPMetadataProvider
 

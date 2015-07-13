@@ -4,8 +4,8 @@
 Configuring the Open edX Platform
 ######################################################
 
-Read the following chapters for information on Open edX Platform configuration
-options.
+The following sections provide information about Open edX Platform
+configuration options.
 
 .. toctree::
    :maxdepth: 2
@@ -19,4 +19,5 @@ options.
    enable_certificates
    enable_badging
    enable_ccx
+   tpa/enable_tpa_edge
 
