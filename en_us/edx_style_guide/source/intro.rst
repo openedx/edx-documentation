@@ -4,10 +4,14 @@
 Introduction
 ############
 
-The doc team follows Microsoft Manual of Style for Technical Publications
-style in general, but defers to AP style where there are differences.
+The purpose of this guide is to provide a reference for documentation standards
+used in edX technical publications. Its intended audiences are members of the
+edX documentation team, other edX employees, and translation teams and open
+source contributors around the world.
 
-Need to add doc organizational guidelines, e.g. a template for documenting a
-procedure, a concept, etc. What does an overview section consist of?
+The edX documentation team follows the *Microsoft Manual of Style*, 4th
+edition. Terms that are not covered by the *Microsoft Manual of Style*, and 
+company or team decisions about usage which differs from those the 
+manual are documented here.
 
-Provide or link to examples wherever possible.
+
