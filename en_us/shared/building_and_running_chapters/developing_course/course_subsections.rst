@@ -259,11 +259,16 @@ Set the Assignment Type and Due Date for a Subsection
 You set the assignment type for problems at the subsection level. 
 
 When you set the assignment type for a subsection, all problems within the
-subsection are graded and weighted as a single type.  For example, if you
+subsection are graded and weighted as a single type. For example, if you
 designate the assignment type for a subsection as **Homework**, then all
 problem types in that subsection are graded as homework.
 
-To set the assignment type and due date for a subsection:
+.. note:: Unlike other problem types, ORA assignments are not governed by the
+   subsection due date. Due dates for each ORA assignment are set in the assignment's
+   settings. For details, see :ref:`PA Specify Name and Dates`.
+
+
+To set the assignment type and due date for a subsection, follow these steps.
 
 #. Click the Settings icon in the subsection box.
    
