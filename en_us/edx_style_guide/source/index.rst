@@ -9,10 +9,11 @@ edX Style Guide
     preferred.rst
     wordlist.rst
     userinterface.rst
+    templates/index.rst
     formattinglayout.rst
     images.rst
     global_English.rst
-    templates/index.rst
+    media_accessibility.rst
     WorkingWithEdXDocSource.rst
     DocTranslationGuidelines.rst
     DocTranslationProcess.rst
