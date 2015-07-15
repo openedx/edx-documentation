@@ -410,7 +410,17 @@
 
 .. _Adding a Pre-Roll Video to Your edX Course: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/creating_content/create_video.html#adding-a-pre-roll-video-to-your-edx-course
 
-.. Peer Assessments
+
+
+.. Peer Assessments (ORA)
+
+.. _Introduction to ORA: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/open_response_assessments/OpenResponseAssessments.html#introduction-to-open-response-assessments
+
+.. _Introduction to ORA - Open edX: http://edx.readthedocs.org/projects/open-edx-building-and-running-a-course/en/latest/exercises_tools/open_response_assessments/OpenResponseAssessments.html#introduction-to-open-response-assessments
+
+.. _Best Practices for ORA: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/open_response_assessments/OpenResponseAssessments.html#best-practices-for-open-response-assessments
+
+.. _Best Practices for ORA - Open edX: http://edx.readthedocs.org/projects/open-edx-building-and-running-a-course/en/latest/exercises_tools/open_response_assessments/OpenResponseAssessments.html#best-practices-for-open-response-assessments
 
 .. _Accessing ORA Information: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/open_response_assessments/Access_ORA_Info.html
 
@@ -421,6 +431,8 @@
 .. _Removing a student submission: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/open_response_assessments/Access_ORA_Info.html#remove-a-student-response-from-peer-grading
 
 .. _Creating Peer Assessments: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/open_response_assessments/OpenResponseAssessments.html
+
+
 
 .. DATA DOCUMENTATION
 
