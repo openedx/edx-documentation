@@ -825,42 +825,61 @@ Create Accessible Media
 ************************************************
 
 Media-based course materials help to convey concepts and can bring course
-information to life. We require all videos in edX courses to include text
+information to life. We require all videos in edX courses to include timed text
 captions in `SubRip (SRT) format
-<https://en.wikipedia.org/wiki/SubRip#SubRip_text_file_format>`_. The edX
-media player displays caption files in an interactive sidebar that benefits a
-variety of learners, including learners who are hard of hearing or whose
-native language differs from the primary language of the media. This built-in
-universal design mechanism enhances your course's accessibility. When you
-create your course, you need to factor in time and resources for creating text
-captions.
+<https://en.wikipedia.org/wiki/SubRip#SubRip_text_file_format>`_. The edX media
+player displays caption files in an interactive sidebar that benefits a variety
+of learners, including learners who are hard of hearing or whose native
+language differs from the primary language of the media. This built-in
+universal design mechanism enhances your course’s accessibility. When you
+create your course, you need to factor in time and resources for creating timed
+text captions.
 
 =====================================================
-Audio Captions
+Timed Text Captions
 =====================================================
 
-Audio captions are essential for presenting the readable equivalent of audio
-content to learners who cannot hear. They can also be helpful for learners
-whose native languages are languages other than the primary language of the
-media. Synchronized text captions allow learners who cannot hear to follow
-along with the video. The edX media player displays text captions as links in
-an interactive area adjacent to the video, which allows all learners to
-navigate to a specific section of the video by selecting some location within
-the caption text.
+Timed text captions are essential to opening up a world of information for
+persons with hearing loss or literacy needs by making the readable equivalent
+of audio content available to them in a synchronized manner. Globally hearing
+loss affects about 10% of the population to some degree. It causes disability
+in 5% (360 to 538 million) and moderate to severe disability in 124 million
+people.  Timed text captions also be helpful for learners whose native
+languages are languages other than the primary language of the media or who
+have cognitive conditions that benefit from visual. The edX media player
+displays timed text captions as links in an interactive area adjacent to the
+video, which allows all learners to navigate to a specific section of the video
+by selecting some location within the caption text.
 
 Text caption files start with the text version of a video's spoken content and
 any non-spoken audio that is important to understanding the context of the
 video, such as [BUZZER], [LAUGHTER], or [THUNDER]. If you created your video
 using a script, you have a great start on creating the text caption file.
-Simply review the recorded video and update the script as needed. Text
-captions can be uploaded to YouTube along with the video to create a timed
-text file in `SubRip (SRT) format
+Simply review the recorded video and update the script as needed. Proper
+editing should maintain both the original meaning, content, and essential
+vocabulary. Text captions can be uploaded to YouTube along with the video to
+create a timed text file in `SubRip (SRT) format
 <https://en.wikipedia.org/wiki/SubRip#SubRip_text_file_format>`_. Otherwise,
-you will need to transcribe the video yourself or engage someone to do it.
-There are many companies that will create timed text captions (captions that
-synchronize the text with the video using time codes) for a fee. SRT files
-should be associated with video components in Studio. See :ref:`Working with
-Video Components` for details on how to associate text captions with videos.
+you will need to create the timed text caption file yourself or engage someone
+to do it. There are many companies that will create timed text captions
+(captions that synchronize the text with the video using time codes) for a fee.
+SRT files should be associated with video components in Studio. See
+:ref:`Working with Video Components` for details on how to associate text
+captions with videos.
+
+If you choose to create your own timed text caption files yourself, you must
+follow these guidelines.
+
+* Each caption frame should not be on screen for less than three seconds.
+* Each caption frame must not be on screen for less than two seconds.
+* Each caption frame should not exceed more than 2 lines.
+* Each caption frame must not exceed more than 3 lines.
+* Each line should not exceed more than 32 characters
+* All caption frames should be precisely time synched to the audio.
+* When multiple speakers are present, it is sometimes helpful to identify who
+  is speaking, especially when the video does not make this clear.
+* Non-speech sounds like [MUSIC] or [LAUGHTER] should be added in square
+  brackets.
 
 =====================================================
 Descriptions in Video
@@ -892,7 +911,9 @@ learning materials for study and review.
 Accessible Media Resources
 =====================================================
 
-`Accessible Digital Media Guidelines <http://ncam.wgbh.org/invent_build/web_multimedia/accessible-digital-media-guide>`_ provides detailed advice on creating online video and audio with accessibility in mind.
+* `Accessible Digital Media Guidelines <http://ncam.wgbh.org/invent_build/web_multimedia/accessible-digital-media-guide>`_ provides detailed advice on creating online video and audio with accessibility in mind.
+* `Captioning Key <https://dcmp.org/public_content/ai/captioningkey/index.html>`_ by the National Association for the Deaf provides excellent guidance on creating described and captioned media.
+* `Transcription, Captioning and Subtitling Standards <http://www.3playmedia.com/2014/05/06/transcription-captioning-subtitling-standards/>`_ by 3PlayMedia discusses best practices in this recorded webinar and white paper.
 
 .. _Best Practices for HTML Markup:
 
