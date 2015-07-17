@@ -6,7 +6,7 @@ Managing Course Discussions
 ##################################
 
 Discussions, or discussion forums, foster interaction among your students and
-between students and course staff. You can set up different topics to guide
+between students and the course team. You can set up different topics to guide
 these interactions when you create your course, and then run and moderate
 discussions throughout the course to encourage participation and develop course
 community.
@@ -48,9 +48,9 @@ Cohorts`.
 Overview
 ********************************
 
-Students and staff use course discussions to share ideas, exchange views,
-consider different viewpoints, and ask questions. In a discussion, there are
-three hierarchical levels of interaction.
+Students and the course team use course discussions to share ideas, exchange
+views, consider different viewpoints, and ask questions. In a discussion, there
+are three hierarchical levels of interaction.
 
 * A *post* is the first level of interaction. A post opens a new subject. Posts
   can be made as questions, to solicit a concrete answer, or as discussions,
@@ -68,25 +68,23 @@ The dialogue created by a post, its responses, and the comments on those
 responses is sometimes called a thread. Discussion threads are saved as part
 of the course history.
 
-All course staff members and enrolled students can add posts, responses, and
+All course team members and enrolled students can add posts, responses, and
 comments, and view all of the posts, responses, and comments made by other
 course participants. 
 
-Members of the course community, both staff and students, can be given
-permission to moderate or administer course discussions through a set of
-discussion administration roles. 
+Members of the course community, students as well as the course team, can be
+given permission to moderate or administer course discussions through a set of
+discussion moderation roles.
 
-.. note:: The course team that you set up in Studio (or the course staff and
-   instructors you add on the Instructor Dashboard) are not automatically
-   granted discussion administration privileges, which are required to view
-   all posts, for example in courses using cohorts.
+.. note:: The course team that you set up in Studio or on the Instructor 
+ Dashboard in the LMS are not automatically granted discussion administration
+ roles.
 
-   Discussion administration roles must be explicitly granted to members of
-   the course team for them to moderate or administer course discussions. The
-   course author, team members with Admin access (Studio), and Instructors
-   (Instructor Dashboard) can grant discussion administration roles. For
-   information about adding discussion privileges, see
-   :ref:`Assigning_discussion_roles`.
+ Discussion administration roles must be explicitly granted to members of the
+ course team for them to moderate or administer course discussions. The
+ course author and team members with the Admin role can grant discussion
+ administration roles. For information about assigning discussion privileges,
+ see :ref:`Assigning_discussion_roles`.
 
 
 .. _Organizing_discussions:
@@ -216,16 +214,15 @@ Assign Discussion Administration Roles
 
 You can designate a team of people to help you run course discussions.
 
-.. note:: The course team that you set up in Studio (or the course staff and
-   instructors you add on the Instructor Dashboard) are not automatically
-   granted discussion administration roles.
+.. note:: The members of the course team that you set up in Studio or on the 
+ Instructor Dashboard in the LMS are not automatically granted discussion
+ administration roles.
 
-
-   Discussion administration roles must be explicitly granted to members of
-   the course team for them to moderate or administer course discussions. The
-   course author, team members with Admin access (Studio), and Instructors
-   (Instructor Dashboard) can grant discussion administration roles.
-
+ Discussion administration roles must be explicitly granted to members of the
+ course team for them to moderate or administer course discussions. The
+ course author and team members with the Admin role can grant discussion
+ administration roles. For information about assigning discussion privileges,
+ see :ref:`Assigning_discussion_roles`.
 
 Different options for working with discussions are available through
 the following roles.
@@ -235,7 +232,7 @@ the following roles.
   responses. Posts made by moderators are marked as "By: Staff" in the list of
   posts. Responses and comments made by moderators have a colored "Staff"
   identifier. This role is often given to course team members who already have
-  the Course Staff role.
+  the Staff role.
 
 .. removed this clause from 1st sentence per JAAkana and MHoeber: , and, if the
 .. course is cohorted, see posts from all cohorts
@@ -251,7 +248,7 @@ the following roles.
 * *Discussion admins* have the same options for working with discussions as
   moderators, and their posts, responses, and comments have the same "Staff"
   identifiers. This role can be reserved for assignment to course team members
-  who have the Instructor role only: the discussion admins can then both
+  who have the Admin role only: the discussion admins can then both
   moderate discussions and give other users these discussion management roles
   whenever necessary.
 
@@ -259,51 +256,47 @@ Before you can assign roles to your discussion team, you need their email
 addresses or usernames.
 
 * To get this information for a course team member, on the Instructor Dashboard
-  click **Membership** and then select **Course Staff** or **Instructor** from
-  the drop-down list.
+  select **Membership**, and then select either **Staff** or **Admin**.
 
 * To get this information for an enrolled student, on the Instructor Dashboard
-  click **Data Download**, then **Download profile information as a CSV**.
+  select **Data Download**, and then **Download profile information as a CSV**.
 
 
 ====================================
 Assign Roles
 ====================================
 
-To assign a discussion administration role, you must be the course author or
-an Instructor (that is, you are identified in Studio as a team member with
-Admin access or in the LMS as an Instructor).
+You can assign a course team role to any user who is already enrolled in your
+course. To assign a discussion administration role, you must be the course
+author or an Admin.
 
 #. View the live version of the course.
 
-#. Click **Instructor**, then click **Membership**.
+#. Select **Instructor**, and then select **Membership**.
 
-#. In the Administration List Management section, use the drop-down list to
-   select Discussion Admins, Discussion Moderators, or Discussion Community
-   TAs.
+#. In the **Course Team Management** section, select **Discussion Admins**,
+   **Discussion Moderators**, or **Discussion Community TAs**.
 
 #. Under the list of users who currently have that role, enter an email address
-   or username and click **Add** for the role type.
+   or username, and then select **Add** for the role type. 
 
 
 ==============
 Remove Roles
 ==============
 
-To remove role privileges from a user, you must be the course author or
-an Instructor (that is, you are identified in Studio as a team member with
-Admin access or in the LMS as an Instructor).
+To remove a role from a user, you must be the course author or an
+Admin.
 
 #. View the live version of the course.
 
-#. Click **Instructor**, then click **Membership**.
+#. Select **Instructor**, and then select **Membership**.
 
-#. In the Administration List Management section, use the drop-down list to
-   select Discussion Admins, Discussion Moderators, or Discussion Community
-   TAs.
+#. In the **Course Team Management** section, select **Discussion Admins**,
+   **Discussion Moderators**, or **Discussion Community TAs**.
 
 #. From the list of users who currently have that role, select the user you
-   want to remove, then click **Revoke access**.
+   want to remove, and then select **Revoke access**.
 
 
 .. _Visibility of Discussion Topics:
@@ -357,7 +350,7 @@ body of a response or comment. Examples follow.
   "[CORRECTIONS]" or "[ERRORS]".
 
 * Ask students to use "[STAFF]" in the subject of each post that needs the
-  attention of a course staff member.
+  attention of a course team member.
 
 Both your discussion team and your students can use tags like these to search
 the discussions more effectively.
@@ -379,7 +372,7 @@ seed discussion topics in course-wide discussion topics before the course starts
 Some examples follow.
 
 * In the General topic (which is included in every course by default), add an
-  [INTRO] post to initiate a thread for student and staff introductions.
+  [INTRO] post to initiate a thread for student and course team introductions.
 
 * For each course-wide discussion topic that you create, add an initial post
   to describe the way you intend that discussion to be used. In addition to
@@ -442,14 +435,14 @@ Moderate Discussions
 
 The members of a course discussion team monitor discussions and keep them
 productive. They can also collect information, such as areas of particular
-confusion or interest, and relay it to the course staff.
+confusion or interest, and relay it to the course team.
 
 Developing and sustaining a positive discussion culture requires that
 sufficient moderator time is dedicated to reviewing and responding to
 discussions. Keeping up-to-date with a large MOOC forum requires a commitment
 of 5 or more hours per week, and involves reading threads, replying to and
-editing posts, and communicating with the rest of the discussion team and
-course staff.
+editing posts, and communicating with the rest of the discussion moderation
+team and other members of the course team.
 
 For information on setting up moderators for your course, see
 :ref:`Assigning_discussion_roles`.
@@ -661,9 +654,10 @@ course units and all of the course-wide topics are affected.
   However, students can continue to vote on existing threads, follow threads,
   or report messages for misuse.
 
-* Course Staff, Instructors, Discussion Admins, Discussion Moderators,
-  and Discussion Community TAs are not affected when you close the discussions
-  for a course. Users with these roles can continue to add to discussions. 
+* Course team members with the Staff, Admin, Discussion Admins, Discussion
+  Moderators, and Discussion Community TAs roles are not affected when you
+  close the discussions for a course. Users with these roles can continue to
+  add to discussions.
 
 .. note:: To make sure your students understand why they cannot add to 
   discussions, you can add the dates that discussions are closed to the

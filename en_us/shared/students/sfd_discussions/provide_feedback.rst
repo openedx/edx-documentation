@@ -5,9 +5,9 @@
 Provide Feedback on Contributions
 ###############################################
 
-As you read the contributions that other students and staff make to discussion
-topics, you can provide feedback without writing a complete response or
-comment. You can:
+As you read the contributions that other students and course team members make
+to discussion topics, you can provide feedback without writing a complete
+response or comment. You can:
 
 * :ref:`Vote for posts and responses<Vote for Posts or Responses>` to provide
   positive feedback.
@@ -19,7 +19,7 @@ comment. You can:
   Questions>`.
 
 * :ref:`Report a contribution<Report Discussion Misuse>` that is inappropriate
-  to the course staff.
+  to the course team.
 
 To select a feedback option, you use the icons at the top right of each post,
 response, or comment. When you move your cursor over these icons a label
@@ -32,7 +32,7 @@ appears.
 
 When you click the "More" icon, a menu of available options opens. Options vary
 depending on whether the contribution is a post, response, or comment, and on
-whether you are a student or a member of discussion staff.
+whether you are a student or a member of the discussion team.
 
 .. image:: ../../../shared/students/Images/Discussion_More_menu.png
  :width: 300
@@ -114,7 +114,8 @@ replaces the question mark image for the post in the list of posts.
  :alt: The list of posts with images identifying unanswered and answered
      questions and discussions
 
-.. note:: Discussion staff can mark any response as correct. Students can only mark responses as correct for their own posts.
+.. note:: The discussion moderation team can mark any response as correct. 
+ Students can only mark responses as correct for their own posts.
 
 .. _Report Discussion Misuse:
 

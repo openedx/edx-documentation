@@ -12,6 +12,12 @@ July 2015
 
    * - Date
      - Change
+   * - 15 July 2015
+     - Added the :ref:`Best Practices for ORA` and :ref:`PA Scoring` sections.
+   * - 
+     - Updated this guide to use the course team "Admin" and "Staff" role names
+       consistently. For more information, see the :ref:`Course_Staffing`
+       section.
    * - 8 July 2015
      - Added the :ref:`Poll Tool` and :ref:`Survey Tool` sections.
    * - 1 July

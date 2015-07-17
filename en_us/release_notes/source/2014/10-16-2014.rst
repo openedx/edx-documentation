@@ -78,7 +78,7 @@ The following documentation is available:
   
   Recent changes include:
 
-  * Added new student and instructor events relating to cohort use to the
+  * Added new student and course team events relating to cohort use to the
     `Tracking Logs`_ chapter.
 
   * Added new event member fields for data emitted from mobile devices to the

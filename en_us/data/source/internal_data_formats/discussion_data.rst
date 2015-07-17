@@ -218,22 +218,28 @@ _type
 --------------------
 anonymous
 --------------------
-  If true, this ``CommentThread`` or ``Comment`` displays in the user interface as written by "anonymous", even to those who have course staff or discussion administration roles in the course. 
+  If true, this ``CommentThread`` or ``Comment`` displays in the user interface
+  as written by "anonymous", even to course team members and discussion team
+  members.
 
 --------------------
 anonymous_to_peers
 --------------------
-  If true, this ``CommentThread`` or ``Comment`` displays in the user interface as written by "anonymous" to students, but  course staff and discussion administrators see the author's username. 
+  If true, this ``CommentThread`` or ``Comment`` displays in the user interface
+  as written by "anonymous" to students, but members of the course team and the
+  discussion team can see the author's username.
 
 --------------------
 at_position_list
 --------------------
-  No longer used. Child comments (replies) are sorted by their ``created_at`` timestamp only. 
+  No longer used. Child comments (replies) are sorted by their ``created_at``
+  timestamp only.
 
 --------------------
 author_id
 --------------------
-  Identifies the user who wrote this. Corresponds to the user IDs stored in the MySQL database as ``auth_user.id``.
+  Identifies the user who wrote this. Corresponds to the user IDs stored in the
+  MySQL database as ``auth_user.id``.
 
 --------------------
 author_username

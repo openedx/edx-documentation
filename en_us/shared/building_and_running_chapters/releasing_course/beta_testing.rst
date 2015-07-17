@@ -59,7 +59,7 @@ The Beta Testing Role
 ***************************************
 
 Beta testers have early access to the course. Beta testers are not members of
-the course team or staff: they don't have information about "how it's supposed
+the course team: they do not have information about "how it is supposed
 to work". They use their own computers and Internet connections to view
 videos, follow links, and complete problems. They interact with the course as
 students will to find, and make, mistakes.
@@ -90,7 +90,7 @@ however, you may find these skills and characteristics to be helpful.
 
 * Attention to detail for identifying problems and inconsistencies.
 
-* Solid communication skills for reporting problems to course staff. 
+* Solid communication skills for reporting problems to the course team. 
 
 Your beta testers should also have varying levels of knowledge about the course
 content:
@@ -107,22 +107,21 @@ native languages, or who have varying levels of familiarity with computer
 software.
 
 =========================================
-Using Course Staff as Beta Testers 
+Using Course Team Members as Beta Testers 
 =========================================
 
-Course staff can provide valuable feedback about your course. However, they are
-typically stakeholders in the success of your course and have a significant
+The course team can provide valuable feedback about your course. However, they
+are typically stakeholders in the success of your course and have a significant
 amount of knowledge about it. As a result, they can be too close to the course
 to interact with it in the same way as students will. They can also be either
 reluctant to provide feedback, or overly zealous.
 
-If you do want a staff member to be a beta tester, a different, second email
-address must be used for this additional role. The privileges of the course
-staff role override those of a beta tester, so a second registration on the
-site, as well as activation and enrollment in the course, are necessary using
-this second email address. The staff member must log in using the second email
-address (with the beta tester role) in order to experience the course as a
-student.
+If you do want a team member to be a beta tester, note that the privileges of
+the Staff or Admin role override those of a beta tester. The team member must
+use a different, second email address to create an additional edX account and
+enroll in the course, and the course team must assign only the beta tester role
+to that edX account. The course team member experiences the course as a learner
+only when she signs in to edX using the beta tester account.
 
 .. _What_Test:
 
@@ -212,7 +211,7 @@ Beta tester access to courseware for a course with **Days Early for Beta Users**
 = 20 and 2 sections:
 
 +-------------------------------------------+------------------------------------------------+
-| Course Enrollment Date = 31 August        | 31 August; earlier if enrolled by course staff |
+| Course Enrollment Date = 31 August        | 31 August; earlier if enrolled by course team  |
 +===========================================+================================================+
 | Course Start Date = 15 September          | 26 August                                      |
 +-------------------------------------------+------------------------------------------------+
@@ -343,7 +342,7 @@ Despite the efforts of the course team and the beta testers, additional
 problems, questions, and issues can occur while a course is running.
 
 * Often, students report issues by asking questions in a discussion. Your
-  discussion administration team can watch for posts that indicate problems.
+  discussion moderation team can watch for posts that indicate problems.
 
 * To let students know the best way to report problems, you can post
   information on the **Course Info** page or post it in a discussion.

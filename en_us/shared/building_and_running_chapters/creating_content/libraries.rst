@@ -233,9 +233,9 @@ Delete a Library
 You cannot delete a library. Instead, you can discontinue use of an unwanted
 library. To do so, first make sure that none of its components are in use in
 any courses, then delete all components in the library. You can also :ref:`edit
-the name of the library<Edit a Library>` to make it clear to other course staff
-that the library should not be used as a source of randomized assignment
-content in courses.
+the name of the library<Edit a Library>` to make it clear to other course team
+members that the library should not be used as a source of randomized
+assignment content in courses.
 
 For details about deleting components in a library, see :ref:`Edit Components
 in a Library`.
@@ -255,7 +255,7 @@ and use library content in courses, edit library content, or add and manage
 other library users. All users to whom you give library access must be
 registered with Studio and have an active account.
 
-These are the levels of access for libraries:
+These are the levels of access for libraries.
 
 * **User** -- Users can view library content and can use library components in
   their courses, but they cannot edit the contents of a library.

@@ -6,7 +6,7 @@
 Enable Entrance Exams
 ######################################################
 
-In the Open edX Birch release, a new feature allows course staff to create an
+In the Open edX Birch release, a new feature allows course teams to create an
 entrance exam for the course. Learners must pass the entrance exam before
 participating in the course.
 

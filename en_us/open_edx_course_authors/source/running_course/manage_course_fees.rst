@@ -30,7 +30,7 @@ Configuring your Open edX environment to support paid courses has several steps.
    Merchant Account>`.
 #. :ref:`Add configuration code<Add Configuration Code>`.
 #. :ref:`Add a course mode in Django<Add Course Mode>`.
-#. :ref:`Assign two Admin roles to course staff<Assign Admin Roles>`.
+#. :ref:`Assign privileged roles to course team members<Assign Admin Roles>`.
 
 .. _Obtain CyberSource Merchant Account:
 

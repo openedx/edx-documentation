@@ -7,7 +7,7 @@ Bulk Email
 For courses on edx.org, you can send bulk email messages to course participants
 directly from the Instructor Dashboard. Messages can use HTML styling, and can
 include links to videos, social media pages for the course, and other material.
-All course contributors who are assigned the course staff or instructor role
+All course contributors who are assigned the Staff or Admin role
 can use bulk emails to communicate with course participants before, during, and
 after the course run. 
 
@@ -27,13 +27,13 @@ Message Addressing
 *************************
 
 When you send an email message from the Instructor Dashboard, you choose its
-recipients by selecting one of these predefined groups:
+recipients by selecting one of these predefined groups.
 
 * **Myself**, to test out a message before sending it to a larger group.
-* **Staff and Instructors**, to contact other members of the administrative
+* **Staff and admins**, to contact other members of the course
   team.
-* **All (students, staff and instructors)**, to communicate with currently
-  enrolled students and the administrative team. 
+* **All (students, staff and admins)**, to communicate with currently
+  enrolled students and the course team. 
 
   Email messages are sent to all enrolled students with these exceptions:
 
@@ -58,14 +58,14 @@ To send an email message to course participants:
 
 #. View the live version of your course.
 
-#. Click **Instructor** then click **Email**.
+#. Select **Instructor**, and then select **Email**.
 
 #. Select who you want to send the message to from the **Send to** drop-down
    list. You can select:
 
   * **Myself**
-  * **Staff and Instructors**
-  * **All (students, staff and instructors)**
+  * **Staff and admins**
+  * **All (students, staff and admins)**
 
 4. Enter a **Subject** for the message. A subject is required.
 
@@ -84,7 +84,7 @@ To send an email message to course participants:
    recipient substituted in the content when messages are sent. For more
    information, see `Use Keywords in Messages`_ .
 
-#. Click **Send Email**. You can perform other tasks on the Instructor
+#. Select **Send Email**. You can perform other tasks on the Instructor
    Dashboard or navigate to other pages while you wait for your message to be
    sent.
 
@@ -161,7 +161,7 @@ The workflow states for a bulk email task are:
 * Failure: An error occurred and task processing did not complete successfully.
 
 While the bulk email task is in progress, you can find out how far it has
-gotten in the workflow by checking the **Pending Instructor Tasks** section on
+gotten in the workflow by checking the **Pending Tasks** section on
 the **Email** page.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/Bulk_email_pending.png

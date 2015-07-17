@@ -89,9 +89,9 @@ Exploring the Account Settings Page
 When you create an account on edX, some basic information is required,
 including your email address and your name. You can also provide additional,
 optional information when you create your account, such as the level of
-education you have completed. Course staff can access this information to find
-out more about the learners who enroll in their courses. This information also
-helps edX increase the quality and quantity of our courses.
+education you have completed. Course team members can access this information
+to find out more about the learners who enroll in their courses. This
+information also helps edX increase the quality and quantity of our courses.
 
 .. _SFD Basic Information:
 

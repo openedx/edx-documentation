@@ -143,9 +143,9 @@ General Exercises and Tools
      - Provisional support  
    * - :ref:`RecommenderXBlock`
      - RecommenderXBlock can hold a list of resources for misconception
-       remediation, additional reading, and so on. This tool allows
-       instructors and students to work together and maintain the list of
-       resources. For example, instructors and students can suggest new
+       remediation, additional reading, and so on. This tool allows the 
+       course team and students to work together to maintain the list of
+       resources. For example, team members and students can suggest new
        resources, vote for useful ones, or flag abuse and spam.
      - Provisional support  
 

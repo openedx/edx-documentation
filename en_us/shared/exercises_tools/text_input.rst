@@ -4,7 +4,7 @@
 Text Input Problem
 ########################
 
-.. contents:: Topic Contents
+.. contents:: 
   :local:
   :depth: 1
 
@@ -424,8 +424,8 @@ You can configure a text input problem to allow a regular expression as an
 answer. To do this, you modify the problem's XML in the Advanced Editor.
 
 The regular expression that the learner enters must contain the part of the
-answer that the instructor specifies. For example, if an instructor has
-specified  ``<answer="example answer" type="regexp">``, correct answers
+answer that the course team specifies. For example, if you 
+specify  ``<answer="example answer" type="regexp">``, correct answers
 include ``example answered``, ``two example answers``, or even ``==example
 answer==``, but not ``examples`` or ``example anser``.
 
@@ -565,7 +565,8 @@ an unlimited number of additional answers.
 
 **Tag:** ``<correcthint>``
 
-Specifies the feedback for the correct answer.
+Indicates that the course team has provided hints for certain common incorrect
+answers.
 
   Attributes
 

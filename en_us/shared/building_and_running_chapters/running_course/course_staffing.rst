@@ -5,36 +5,32 @@ Staffing
 ##########################
 
 You can designate a team of people to help you run your course. Two roles are
-available to give your administrative team members access to different options
-for working with students, grades, and other members of the staff.
+available to give team members access to additional options for working with
+students, grades, and other members of the staff.
 
-* Course Staff
+* Staff
 
-* Instructors
+* Admin
 
-You can assign these privileged roles when you work in either the LMS or in
-Studio, and the users who have these roles can work on your course in both the
-LMS and Studio. For more information on setting up a team in Studio, see
-:ref:`Add Course Team Members`.
+You can assign these privileged roles when you work in either the LMS or
+Studio. The people who have these roles can work on your course in Studio, the
+LMS, and Insights. For more information about assigning roles to team members
+in Studio, see :ref:`Add Course Team Members`.
 
-.. note:: The LMS "Course Staff" role is the same as the Studio "Staff" role, 
- and the LMS "Instructors" role is the same as the Studio "Admin" role.
-
-You can also designate teams of people to beta test your course and to
-moderate and manage its discussions by assigning other LMS roles. The beta
-testers and discussion administrators must be enrolled in your course, but
-they do not need to have the Course Staff or Instructors role or a Studio
-role. For more information, see :ref:`Beta_Testing` and
-:ref:`Assigning_discussion_roles`.
+You can also designate teams of people to beta test your course or to moderate
+and manage its discussions by assigning other roles in the LMS. Beta testers
+and discussion team members must be enrolled in your course, but they do not
+need to have the Staff or Admin role. For more information, see
+:ref:`Beta_Testing` and :ref:`Assigning_discussion_roles`.
 
 ****************************
 Administrative Team Roles
 ****************************
 
-To provide access to features on the LMS Instructor Dashboard you assign the
-Course Staff role or the Instructors role.
+To provide access to features on the LMS Instructor Dashboard, you assign the
+Staff role or the Admin role.
 
-**Course Staff** can: 
+Team members with the **Staff** role can complete these tasks.
 
 * View the course before the Course Start Date. 
 
@@ -48,49 +44,48 @@ Course Staff role or the Instructors role.
 
 * Send email messages to course participants.
 
-**Instructors** have access to all of the same options for running the course
-as the course staff. They can also:
+Team members with the **Admin** role have access to all of the same options for
+running the course as team members with the Staff role. They can also complete
+these tasks.
 
-* Add and remove Course Staff.
+* Add and remove Staff.
 
-* Add and remove other Instructors.
+* Add and remove other Admins.
 
 * Add and remove Beta Testers.
 
 * Add and remove Discussion Admins, Discussion Moderators, and Discussion
   Community TAs.
 
-.. note:: To moderate course discussions, the team member must also have one 
- of the discussion roles. For more information, see
- :ref:`Assigning_discussion_roles`.
+  .. note:: To moderate course discussions, team members must have one 
+   of these discussion roles assigned to them *in addition to* the Staff or
+   Admin role. For more information, see :ref:`Assigning_discussion_roles`.
 
-.. 12 Feb 14 Sarina: This all sounds right but there are other tasks (rescoring, etc) not mentioned. Probably worth nailing down what tasks can and cannot be done by a course staff.
+*************************
+Assign Course Team Roles 
+*************************
 
-**********************
-Assign Staff Roles 
-**********************
+Before you can assign the Staff or Admin role to a team member, you must meet
+these prerequisites.
 
-Before you can assign the Course Staff or Instructors role to a team member:
-
-* You must have the Instructors role.
+* You must have the Admin role.
 
 * You need the email address or username of each team member you want to add. 
 
 * Each of those team members must register a user account for that email
-  address/username, activate the account, and enroll in your course.
+  address or username, activate the account, and enroll in your course.
 
-To assign a staff role:
+To assign a privileged role to a course team member, follow these steps.
 
 #. View the live version of your course.
 
-#. Click **Instructor**, then click **Membership**.
+#. Select **Instructor**, and then select **Membership**.
 
-#. In the **Administration List Management** section, use the drop-down list to
-   select **Course Staff** or **Instructors**.
+#. In the **Course Team Management** section, select **Staff** or **Admin**.
 
 #. Under the list of users who currently have that role, enter an email
-   address or username and click **Add** for the role type.
+   address or username, and then select **Add** for the role type.
 
-To remove an assigned role, view the list of users and then click **Revoke
+To remove an assigned role, view the list of users and then select **Revoke
 access**.
 

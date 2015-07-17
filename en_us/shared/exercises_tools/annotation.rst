@@ -4,89 +4,99 @@
 Annotation Problem
 ###################
 
-
-In an annotation problem, the instructor highlights specific text inside a larger text block and then asks questions about that text. The questions appear when students hover the mouse over the highlighted text. The questions also appear in a section below the text block, along with space for students' responses.
-
-Annotation problems ask students to respond to questions about a specific block of text. The question appears above the text when the student hovers the mouse over the highlighted text so that students can think about the question as they read.
+In an annotation problem, you highlight specific text inside a larger text
+block and then ask questions about that text. The questions appear when
+students move their cursors over the highlighted text. The questions also
+appear in a section below the text block, along with space for students'
+responses.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/AnnotationExample.png
-  :alt: Annotation problem
+  :alt: An example annotation problem.
 
 ****************************
 Create an Annotation Problem
 ****************************
 
-To create an annotation problem, you'll add the Annotation advanced component to your course, add the **Instructions** and **Guided Discussion** segments of the problem, and then the **Annotation problem** segment of the problem.
+To create an annotation problem, you add the Annotation advanced component to
+your course, add the **Instructions** and **Guided Discussion** segments of the
+problem, and then the **Annotation problem** segment of the problem.
 
-#. Add the Annotation advanced component. 
+=================================
+Add the Annotation Component 
+=================================
 
-    #. From the **Settings** menu select **Advanced Settings**.
+To add the Annotation advanced component, follow these steps.
 
-    #. In the field for the **Advanced Module List** policy key, place your
-       cursor between the brackets.
+#. From the **Settings** menu select **Advanced Settings**.
 
-    #. Enter the following value. Make sure to include the quotation marks.
+#. In the field for the **Advanced Module List** policy key, place your cursor
+   between the brackets.
 
-       ``"annotatable"``
+#. Enter the following value. Make sure to include the quotation marks.
 
-    4. At the bottom of the page, click **Save Changes**.
+   ``"annotatable"``
 
-       The page refreshes automatically. At the top of the page, you see a
-       notification that your changes have been saved.
+4. At the bottom of the page, select **Save Changes**.
 
-    5. Return to the unit where you want to add the specialized problem. The
-       list of possible components now contains an Advanced component.
+   The page refreshes automatically. At the top of the page, you see a
+   notification that your changes have been saved.
 
-       .. image:: ../../../shared/building_and_running_chapters/Images/AdvancedComponent.png
-          :alt: Image of the Add a New Component panel with the Advanced component option
+5. Return to the unit where you want to add the specialized problem. The list
+   of possible components now contains an Advanced component.
 
-2. Add the **Instructions** and **Guided Discussion** segments of the
-problem.
+   .. image:: ../../../shared/building_and_running_chapters/Images/AdvancedComponent.png
+      :alt: The Add a New Component panel with the Advanced component option.
 
-    #. In the unit where you want to create the problem, under **Add New
-       Component** click **Advanced**.
-    #. In the list of problem types, click **Annotation**.
-    #. In the component that appears, click **Edit**.
-    #. In the component editor, replace the example code with your own code.
-    #. Click **Save**.
+============================================
+Add Instructions and Guided Discussion
+============================================
 
-3. Add the **Annotation problem** segment of the problem.
+To add the **Instructions** and **Guided Discussion** segments of the problem,
+follow these steps.
 
-    #. Under the Annotation component, create a new blank Advanced Problem
-       component.
+#. In the unit where you want to create the problem, under **Add New
+   Component** select **Advanced**.
+
+#. In the list of problem types, select **Annotation**.
+
+#. In the component that appears, select **Edit**.
+
+#. In the component editor, replace the example code with your own code.
+
+#. Select **Save**.
+
+=================================
+Add Annotation Problem
+=================================
+
+To add the **Annotation problem** segment of the problem, follow these steps.
+
+#. Under the Annotation component, create a new blank Advanced Problem
+   component.
        
-    #. Paste the following code in the Advanced Problem component, replacing
-       placeholders with your own information.
+#. Paste the following code in the Advanced Problem component, replacing
+   placeholders with your own information.
 
-        .. code-block:: xml
+   .. code-block:: xml
 
-          <problem>
-              <annotationresponse>
-                  <annotationinput>
-                    <text>PLACEHOLDER: Text of annotation</text>
-                      <comment>PLACEHOLDER: Text of question</comment>
-                      <comment_prompt>PLACEHOLDER: Type your response below:</comment_prompt>
-                      <tag_prompt>PLACEHOLDER: In your response to this question, which tag below 
-                      do you choose?</tag_prompt>
-                    <options>
-                      <option choice="incorrect">PLACEHOLDER: Incorrect answer (to make this 
-                      option a correct or partially correct answer, change choice="incorrect" 
-                      to choice="correct" or choice="partially-correct")</option>
-                      <option choice="correct">PLACEHOLDER: Correct answer (to make this option 
-                      an incorrect or partially correct answer, change choice="correct" to 
-                      choice="incorrect" or choice="partially-correct")</option>
-                      <option choice="partially-correct">PLACEHOLDER: Partially correct answer 
-                      (to make this option a correct or partially correct answer, 
-                      change choice="partially-correct" to choice="correct" or choice="incorrect")
-                      </option>
-                    </options>
-                  </annotationinput>
-              </annotationresponse>
-              <solution>
-                <p>PLACEHOLDER: Detailed explanation of solution</p>
-              </solution>
-            </problem>
+       <problem>
+           <annotationresponse>
+               <annotationinput>
+                 <text>PLACEHOLDER: Text of annotation</text>
+                   <comment>PLACEHOLDER: Text of question</comment>
+                   <comment_prompt>PLACEHOLDER: Type your response below:</comment_prompt>
+                   <tag_prompt>PLACEHOLDER: In your response to this question, which tag below do you choose?</tag_prompt>
+                 <options>
+                   <option choice="incorrect">PLACEHOLDER: Incorrect answer (to make this option a correct or partially correct answer, change choice="incorrect" to choice="correct" or choice="partially-correct")</option>
+                   <option choice="correct">PLACEHOLDER: Correct answer (to make this option an incorrect or partially correct answer, change choice="correct" to choice="incorrect" or choice="partially-correct")</option>
+                   <option choice="partially-correct">PLACEHOLDER: Partially correct answer (to make this option a correct or partially correct answer, change choice="partially-correct" to choice="correct" or choice="incorrect")
+                   </option>
+                 </options>
+               </annotationinput>
+           </annotationresponse>
+           <solution>
+             <p>PLACEHOLDER: Detailed explanation of solution</p>
+           </solution>
+         </problem>
 
-#. Click **Save**.
-
-
+3. Select **Save**.

@@ -4,9 +4,9 @@
 Enrollment
 ##########################
 
-Course authors and instructors can enroll learners in a course, see how many
-people are enrolled, and, when necessary, unenroll learners on the Instructor
-Dashboard.
+The course creator, and course team members with the Staff and Admin roles, can
+enroll learners in a course, see how many people are enrolled, and, when
+necessary, unenroll learners on the Instructor Dashboard.
 
 Learners can enroll themselves in a course during its defined enrollment
 period. For a ``www.edx.org`` course, enrollment is publicly available to
@@ -41,8 +41,8 @@ As long as the course **Enrollment End Date** has not passed, learners who
 have registered and activated user accounts can enroll themselves in
 ``www.edx.org`` courses, or can enroll in other courses if they know the URL.
 
-Course authors and instructors, however, can enroll learners in a course either
-before or after the learners register their user accounts.
+Course creators, Admins, and Staff, however, can enroll learners in a course
+either before or after the learners register their user accounts.
 
 .. important:: To work on a course, every course team member must register and
  activate a user account and enroll.
@@ -92,7 +92,7 @@ When you enroll people in a course you have these options:
 Enroll Learners in a Course
 *********************************
 
-To enroll learners or staff members, follow these steps.
+To enroll learners or course team members, follow these steps.
 
 #. View the live version of your course.
 
@@ -131,16 +131,16 @@ View an Enrollment Count
 After you create a course, you can access the total number of people who are
 enrolled in it. When you view an enrollment count, note the following
 
-* In addition to learners, the enrollment count includes the course author,
-  course team members, instructors, and course staff. (To work with a
-  course in Studio or the LMS, you must be enrolled in that course.)
+* In addition to learners, the enrollment count includes all course team
+  members, including Admins and Staff. (To work with a course in Studio, the
+  LMS, or Insights, you must be enrolled in that course.)
 
-* Learners can unenroll from courses, and course authors and instructors can
+* Learners can unenroll from courses, and course Admins and Staff can
   unenroll learners when necessary.
 
   **Note**: The enrollment count displays the number of currently enrolled
-  learners and course team staff. It is not a historical count of everyone who
-  has ever enrolled in the course.
+  learners and course team members. It is not a historical count of everyone
+  who has ever enrolled in the course.
 
 The total number of current enrollees is shown as the sum of the number of
 people who selected each of the certification tracks (verified, professional,
@@ -186,7 +186,7 @@ To download this report, follow these steps.
   page and do other work while it runs.
 
   To track the progress of the report process, reload the page in your browser
-  and scroll down to the **Pending Instructor Tasks** section.
+  and scroll down to the **Pending Tasks** section.
 
 4. To open or save the report, select the
    ``{org}_{course_id}_may_enroll_info_{date}.csv`` file name at the bottom of

@@ -19,9 +19,14 @@ an email message when we have updated the edX Course Staff Release Notes.
 edX Studio
 ***************************************
 
-* On the **Create a New Course** page, additional information in now available below the **Course Name** field. (STUD-2001)
+* On the **Create a New Course** page, additional information in now available
+  below the **Course Name** field. (STUD-2001)
 
-* Instructors can use a new **Invitation Only** advanced setting to limit course enrollment to a specific group. If this setting is set to True, potential students see an "Enrollment in this course is by invitation only" message on the course About page. By default, this setting is set to False. (LMS-2670)
+* The course team can use a new **Invitation Only** advanced setting to limit
+  course enrollment to a specific group. If this setting is set to True,
+  potential students see an "Enrollment in this course is by invitation only"
+  message on the course About page. By default, this setting is set to False.
+  (LMS-2670)
 
 **************************
 edX Documentation

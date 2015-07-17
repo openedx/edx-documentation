@@ -59,10 +59,10 @@ All problems on the edX platform have several component parts.
 
 #. **Show Answer button.** This button is optional. When the student
    clicks **Show Answer**, the student sees both the correct answer (see 2
-   above) and the explanation (see 10 below). The instructor sets whether
+   above) and the explanation (see 10 below). You define whether
    the **Show Answer** button is visible.
 
-#. **Attempts.** The instructor may set a specific number of attempts or allow
+#. **Attempts.** You can set a specific number of attempts or allow
    unlimited attempts for a problem. By default, the course-wide **Maximum
    Attempts** advanced setting is null, meaning that the maximum number of
    attempts for problems is unlimited. If the course-wide **Maximum Attempts**
@@ -80,10 +80,10 @@ All problems on the edX platform have several component parts.
    .. image:: ../../../shared/building_and_running_chapters/Images/AnatomyofaProblem_Feedback.png
     :alt: Image of feedback checkmark and x from a student's point of view
 
-#. **Correct answer.** Most problems require that the instructor specify
+#. **Correct answer.** Most problems require that you specify
    a single correct answer.
 
-#. **Explanation.** The instructor may include an explanation that
+#. **Explanation.** You can include an explanation that
    appears when a student clicks **Show Answer**.
 
 #. **Reset button.** Students can click **Reset** to clear any input that has
@@ -99,7 +99,7 @@ All problems on the edX platform have several component parts.
    .. image:: ../../../shared/building_and_running_chapters/Images/AnatomyOfExercise3.png
     :alt: Image of a problem in the left pane
 
-#. **Grading.** The instructor may specify whether a group of problems
+#. **Grading.** You can specify whether a group of problems
    is graded. If a group of problems is graded, a clock icon appears for
    that assignment in the left pane.
 
@@ -117,7 +117,7 @@ All problems on the edX platform have several component parts.
 There are also some attributes of problems that are not immediately
 visible. You can set these attributes in Studio.
 
-*  **Randomization.** For some problems, the instructor can specify
+*  **Randomization.** For some problems, you can specify
    whether a problem will use randomly generated numbers that vary from
    student to student.
 
@@ -432,7 +432,7 @@ After a student submits a response to a problem, the LMS stores the student's
 response, the score that the student received, and the maximum score for the
 problem. For problems with a **Maximum Attempts** setting greater than 1, the
 LMS updates these values each time the student submits a new response to a
-problem. However, if an instructor changes a problem or its attributes,
+problem. However, if you change a problem or its attributes,
 existing student information for that problem is not automatically updated.
 
 For example, you may release a problem and specify that its answer is 3.

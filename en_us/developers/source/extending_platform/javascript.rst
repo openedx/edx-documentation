@@ -28,7 +28,8 @@ See the following sections for more information:
 See :ref:`The Custom JavaScript Display and Grading Example Template` for
 information about the template application built in to edX Studio.
 
-Course staff should see the following sections of the document `Building and Running an edX Course <http://edx.readthedocs.org/projects/ca/en/latest/>`_:
+Course teams should see the following sections of the `Building and Running an
+edX Course <http://edx.readthedocs.org/projects/ca/en/latest/>`_ guide.
 
 * `Custom JavaScript Display and Grading <http://edx.readthedocs.org/projects/ca/en/latest/problems_tools/advanced_problems.html#custom-javascript-display-and-grading>`_ 
 

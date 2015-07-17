@@ -754,7 +754,7 @@ encourage you to evaluate them for accessibility. The easiest way to do this
 is to contact the vendor and ask them about the accessibility of their product.
 
 Consider the following questions when creating simulations, keeping in mind
-that as the course instructor, you enjoy considerable freedom in selecting
+that as the course creator, you enjoy considerable freedom in selecting
 course objectives and outcomes. Additionally, if the visual components of a
 simulation are so central to your course design, providing alternative text
 description and other accommodations might not be practical or feasible.

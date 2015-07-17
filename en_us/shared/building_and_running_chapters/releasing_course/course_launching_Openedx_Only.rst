@@ -8,7 +8,7 @@ To launch a course, you prepare the course itself, the staff, and the
 students. This section includes a :ref:`course launch checklist<Course Launch
 Checklist>` that you can use as a model for your schedule of activities.
 
-To help you communicate to the course staff or to all course participants
+To help you communicate to the course team or to all course participants
 before the course launches and while it is running, you can send email messages
 from the Instructor Dashboard. See :ref:`Bulk Email`. The section on bulk email
 also includes a set of :ref:`example messages to students<Example Messages to
@@ -77,19 +77,21 @@ starts follow.
 * On the course start date, prepare and send a launch email message to
   currently enrolled students. See :ref:`Launch Day Welcome`. 
 
-**Prepare Staff**
+**Prepare the Course Team**
 
-* Define communication methods for all course contributors, including staff,
-  instructors, and the discussion team. For example, set up a course-specific
-  email address.
+* Define communication methods for all course contributors, including team
+  members with the Staff, Admin, and discussion moderation team roles. For
+  example, set up a course-specific email address.
 * Verify that all course contributors know how to record their work, report
   issues, and collaborate on tasks.
-* Verify that the instructors and course staff selected for your course
+* Verify that the admins and staff selected for your course
   have the correct role assignments in the LMS. See :ref:`Course_Staffing`.
-* Verify that the people you have given the discussion admin, discussion
-  moderator, and community TA roles have registered and activated their user
-  accounts and enrolled in the course. See
-  :ref:`Assigning_discussion_roles`.
+* Verify that the people you have given the Discussion Admin, Discussion
+  Moderator, and Discussion Community TA roles have registered and activated
+  their user accounts and enrolled in the course. See
+  :ref:`Assigning_discussion_roles`. Note that team members with the Admin and
+  Staff roles must also be given one of these roles to have discussion
+  moderation privileges.
 * Define methods for managing discussions and guidance for discussion
   moderators, and distribute to the discussion team. See
   :ref:`Moderating_discussions` and :ref:`Guidance for Discussion Moderators`.

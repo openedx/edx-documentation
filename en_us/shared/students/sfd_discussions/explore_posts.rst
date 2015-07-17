@@ -126,8 +126,8 @@ View Pinned Posts
 Pinned posts appear at the top of the list of posts when you view all
 discussions. Pinned posts can contain important information about the course or
 any part of the course, such as a particular video or problem. The pinned post
-may originate from anyone in the course, including students and staff, but only
-members of course staff can pin posts.
+may originate from anyone in the course, including students and the discussion
+moderation team, but only members of the moderation team can pin posts.
 
 .. image:: ../../../shared/students/Images/Disc_Pinned.png
  :width: 300
@@ -140,9 +140,10 @@ View Contributions from a Specific Participant
 *************************************************
 
 You can review all the posts, responses, and comments that a specific
-participant has made, both for students and for course staff. To do this, click
-the username that appears at the top of any of the participant's contributions. A page
-opens that shows the following information about the participant. 
+participant has made. You can select other learners, or members of the course
+team. To do this, click the username that appears at the top of any of the
+participant's contributions. A page opens that shows the following information
+about the participant.
 
 * The participant's username.
 

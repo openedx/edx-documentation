@@ -110,11 +110,11 @@ enrolled in your course, follow these steps.
    page and do other work while it runs.
 
 4. To check the progress of the grading process, reload the page in your
-   browser and scroll down to the **Pending Instructor Tasks** section. The
+   browser and scroll down to the **Pending Tasks** section. The
    status of active tasks is shown in the table.
 
-   When the report is complete, a linked .csv filename becomes available above
-   the **Pending Instructor Tasks** section. Filenames are in the format
+   When the report is complete, a linked .csv file name becomes available above
+   the **Pending Tasks** section. File names are in the format
    ``{course_id}_grade_report_{datetime}.csv``. The most recently generated
    reports appear at the top of the list.
 
@@ -256,12 +256,12 @@ currently enrolled in your course, follow these steps.
    This process can take some time to complete, but you can navigate away from
    this page and do other work while it runs.
 
-4. To check the progress of the problem grading process, reload the page in your
-   browser and scroll down to the **Pending Instructor Tasks** section. The
-   status of active tasks is shown in the table.
+4. To check the progress of the problem grading process, reload the page in
+   your browser and scroll down to the **Pending Tasks** section. The status of
+   active tasks is shown in the table.
 
-   When the report is complete, a linked .csv filename becomes available above
-   the **Pending Instructor Tasks** section. Filenames are in the format
+   When the report is complete, a linked .csv file name becomes available above
+   the **Pending Tasks** section. File names are in the format
    ``{course_id}_problem_grade_report_{datetime}.csv``. The most recently
    generated reports appear at the top of the list.
 

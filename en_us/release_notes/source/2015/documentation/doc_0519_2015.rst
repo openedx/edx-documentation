@@ -14,8 +14,8 @@ edX Research Guide
   ``play_video``, and ``stop_video`` `video interaction events`_ to include the
   effects of a **Video Start Time** or **Video Stop Time**.
 
-* Two events have been added to the instructor events section for generating
-  and downloading reports from the instructor dashboard.
+* Two events have been added to the Course Team Events section for generating
+  and downloading reports from the Instructor Dashboard.
 
   * `edx.instructor.report.downloaded`_
   * `edx.instructor.report.requested`_

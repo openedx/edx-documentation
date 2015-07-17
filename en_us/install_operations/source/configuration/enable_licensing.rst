@@ -6,15 +6,15 @@
 Enabling Course and Video Licensing
 ####################################
 
-Course staff can specify licensing options for course content as well as for
+Course teams can specify licensing options for course content as well as for
 each video in a course.
 
-Course staff can select one of the following license options.
+Course teams can select one of the following license options.
 
 * All Rights Reserved
 * Creative Commons
 
-By specifying the license, course staff communicate to learners whether and how
+By specifying the license, course teams communicate to learners whether and how
 they can reuse course content.
 
 To enable this feature on your instance of Open edX, you must enable licensing

@@ -36,8 +36,8 @@ To make sure that other students and the course team can find and respond to
 your post, decide what type of post you want to make: either question or
 discussion.
 
-* A *question* post raises an issue so that the discussion staff or community
-  can provide answers. 
+* A *question* post raises an issue so that the discussion moderation team or
+  community can provide answers.
 
 * A *discussion* post starts a conversation by sharing thoughts and
   reflections, and inviting community participation.
@@ -104,8 +104,8 @@ topics on the **Discussion** page.
 
 In a few courses, you can add posts, responses, and comments anonymously. If
 this is the case, you'll see a **Post Anonymously** check box under the field
-where you enter your text. When you post anonymously, discussion staff can see your
-username, but other students cannot.
+where you enter your text. When you post anonymously, the discussion moderation
+team can see your username, but other students cannot.
 
 ************************************
 Add a Post in a Course Unit
@@ -148,8 +148,8 @@ to content-specific discussions.
 
 In a few courses, you can add posts, responses, and comments anonymously. If
 this is the case, you'll see a **Post Anonymously** check box under the field
-where you enter your text. When you post anonymously, discussion staff can see your
-username, but other students cannot.
+where you enter your text. When you post anonymously, the discussion moderation
+team can see your username, but other students cannot.
 
 .. _Add Response:
 

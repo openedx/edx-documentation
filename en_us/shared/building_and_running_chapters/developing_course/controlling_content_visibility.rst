@@ -4,8 +4,8 @@
 Controlling Content Visibility
 ###################################
 
-As course staff, you must carefully control which content is visible to
-students and when.
+As a member of the course team, you must carefully control which content is
+visible to students and when.
 
 You control content visibility through these features in Studio:
 
@@ -33,7 +33,7 @@ Published units are not visible to students until the scheduled release date.
 When the section and subsection have different release dates, published units
 are not visible until both dates have passed.
 
-Prior to the release date, content is visible to course staff
+Prior to the release date, content is visible to course team members by 
 :ref:`previewing the course <Preview Course Content>` or :ref:`viewing the live
 course as staff<View Your Live Course>`.
 
@@ -79,8 +79,8 @@ answer to a problem in another unit of that subsection. After the problem's due
 date, you could make the unit with the answer visible.
 
 You could also hide a unit from students if you wanted to use that unit to
-provide instructions or guidance meant only for course staff. Only course staff
-would see that unit in the course.
+provide instructions or guidance meant only for the course team. Only course
+team members would see that unit in the course.
 
 You can hide content at different levels:
 

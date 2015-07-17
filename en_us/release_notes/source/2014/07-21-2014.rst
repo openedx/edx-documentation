@@ -31,9 +31,9 @@ edX Studio
   
   This change does not affect student-visible URLs.
 
-* In open response assessments, instructors can now create assignments that allow students to upload an image file as well as write a text response. For more information, see `Creating Peer Assessments`_.
+* In open response assessments, you can now create assignments that allow students to upload an image file as well as write a text response. For more information, see `Creating Peer Assessments`_.
 
-* In open response assessments, instructors can now create a criterion that includes a field for comments, but no options. For more information, see `Creating Peer Assessments`_.
+* In open response assessments, you can now create a criterion that includes a field for comments, but no options. For more information, see `Creating Peer Assessments`_.
 
 * In some cases, deleting a unit from a subsection caused server errors. This bug has been fixed. (STUD-1962)
 

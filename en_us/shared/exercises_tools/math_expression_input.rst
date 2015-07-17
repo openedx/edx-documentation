@@ -22,10 +22,9 @@ Insights to review aggregated learner performance data and examine
 submitted answers. For more information, see `Using edX Insights`_.
 
 For math expression input problems, the grader uses numerical sampling to
-determine whether the learner's response matches the instructor-provided math
-expression, to a specified numerical tolerance. The instructor must specify
-the allowed variables in the expression as well as the range of values for
-each variable.
+determine whether a learner's response matches the math expression that you
+provide, to a specified numerical tolerance. You specify the allowed variables
+in the expression as well as the range of values for each variable.
 
 When you create a math expression input problem in Studio, you use `MathJax
 <http://www.mathjax.org>`_ to change your plain text into "beautiful math."

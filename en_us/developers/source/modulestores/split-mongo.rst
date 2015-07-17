@@ -62,8 +62,8 @@ In the edX Platform:
 *  Students using the LMS see and interact with the published version of the
    course.
 
-*  Course staff using edX Studio make changes to the draft version of the
-   course. 
+*  Course team members using edX Studio make changes to the draft version of
+   the course.
 
    *  When the user changes a the course outline, display names, the course
       about page, course updates, other course pages, sections or subsections,

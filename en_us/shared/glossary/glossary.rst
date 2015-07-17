@@ -241,7 +241,7 @@ D
 
   The set of topics defined to promote course-wide or unit-specific dialog.
   Students use the discussion topics to communicate with each other and the
-  course staff in threaded exchanges.
+  course team in threaded exchanges.
 
   For more information, see `Managing Course Discussions`_.
 
@@ -250,7 +250,7 @@ D
  
 **Discussion Component**
 
-  Discussion topics that course staff add directly to units. For example, a
+  Discussion topics that course teams add directly to units. For example, a
   video component can be followed by a discussion component so that students
   can discuss the video content without having to leave the page. When you add
   a discussion component to a unit, you create a content-specific discussion
@@ -433,9 +433,9 @@ L
  
 **Learning Management System (LMS)**
 
-  The platform that students use to view courses, and that course staff
-  members use to manage enrollment and staff privileges, moderate discussions,
-  and access data while the course is running.
+  The platform that students use to view courses, and that course team members
+  use to manage learner enrollment, assign team member privileges, moderate
+  discussions, and access data while the course is running.
 
 **Learning Sequence**
 
@@ -468,7 +468,7 @@ L
  
 **Live Mode**
 
-  A view that allows course staff to review all published units as students
+  A view that allows the course team to review all published units as students
   see them, regardless of the release dates of the section and subsection that
   contain the units.
 
@@ -640,8 +640,8 @@ Q
 
 **Question**
 
-  A question is a type of contribution that you can make to a course
-  discussion topic to bring attention to an issue that the course staff or
+  A question is a type of contribution that you can make to a course discussion
+  topic to bring attention to an issue that the discussion moderation team or
   other students can resolve.
 
   For more information, see `Managing Course Discussions`_.
@@ -792,8 +792,8 @@ W
  
 **Wiki**
 
-  The page in each edX course that allows students as well as course staff to
-  add, modify, or delete content.
+  The page in each edX course that allows both students and members of the
+  course team to add, modify, or delete content.
  
   Students can use the wiki to share links, notes, and other helpful
   information with each other.

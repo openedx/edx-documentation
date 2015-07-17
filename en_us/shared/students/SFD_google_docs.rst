@@ -5,15 +5,15 @@ Embedded Files and Calendars
 ####################################
 
 Courses can include files, such as documents, spreadsheets, and presentations,
-and a calendar. Your instructor uses Google to create and maintain these files
+and a calendar. Your course team uses Google to create and maintain these files
 and calendars. They appear in the body of your course just like any other
 course content.
 
 .. note:: Google services are not available in some regions and countries. 
  If Google services are not available in your area, you might see an "image
- unavailable" message in the place of the Google file or calendar. Your
- instructor might provide alternative resources if Google services are not
- available for you.
+ unavailable" message in the place of the Google file or calendar. The course
+ team might provide alternative resources if Google services are not available
+ for you.
 
 ***********************
 Google Drive Files
@@ -50,8 +50,8 @@ the course. You can also add it to your own Google calendar.
   :alt: A Google calendar in a course
 
 By default, the view that opens in the course calendar is the view that the
-instructor set. You can change the view by clicking the **Week**, **Month**, or
-**Agenda** tabs in the upper-right corner.
+course team set. You can change the view by clicking the **Week**, **Month**,
+or **Agenda** tabs in the upper-right corner.
 
 When you view the calendar in your course, the dates and times on the calendar
 automatically adjust to your local time. Your time zone information appears in

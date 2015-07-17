@@ -26,14 +26,14 @@ Staff` section of this guide.
 
 Course team members who have the discussion admin, discussion moderator, or
 community TA role see the same indicator of who can read each post. Unlike the
-learners, however, course team members with discussion privileges can read and
+learners, however, team members with discussion privileges can read and
 contribute to every post, regardless of the cohort assignment of the learner
 who posted it.
 
-.. note:: Course team members must have discussion moderator or admin
-   privileges in addition to their course staff privileges to be able to view
-   posts that are divided by cohort. For information about adding discussion
-   privileges, see :ref:`Assigning_discussion_roles`.
+.. note:: Course team members must have the Discussion Moderator or Discussion
+ Admin role in addition to the Staff or Admin role to be able to view posts
+ that are divided by cohort. For information about assigning discussion
+ moderation roles, see :ref:`Assigning_discussion_roles`.
 
    Learners who have the Community TA role can read and contribute to all
    posts.
@@ -48,7 +48,7 @@ discussion moderator or admin privileges can also:
   See :ref:`Viewing the Posts of a Cohort Group`.
   
 All of the other options and features described in the :ref:`Discussions`
-section continue to be available to the discussion staff.
+section continue to be available to the discussion moderation team.
 
 .. _Finding Out Who Can See a Post:
 
@@ -57,7 +57,7 @@ Identifying Who Can Read a Post
 ********************************
 
 In a course that includes cohorts, all posts include a cohort indicator above
-the title. This indicator appears after any student or staff member adds a
+the title. This indicator appears after any student or team member adds a
 post. Other than naming the cohorts carefully when you add them, no
 configuration is necessary to include this identifier.
 
@@ -149,11 +149,10 @@ This example shows a new post being added to a content-specific
 discussion topic.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/visible_to_contentspecific.png
- :alt: An image showing the fields and controls that appear when a staff member
-       selects New Post for a content-specific topic.
- :width: 600
+ :alt: The fields and controls that appear when a team member clicks 
+       New Post for a content-specific topic
 
-As a discussion staff member, you can choose the visibility of your posts in
+As a discussion team member, you can choose the visibility of your posts in
 topics that are divided by cohort. This means that you can add a single post
 with information that you want everyone to see, rather than having to write a
 separate post for each cohort. It also means that it is possible for you
@@ -164,8 +163,8 @@ intended.
  visibility of learner posts is determined by the configuration of the topic
  they post in. See :ref:`Finding Out Who Can See a Post`.
 
-Posts that discussion staff members add to unified discussion topics are always
-visible to all learners, regardless of cohort assignment.
+Posts that discussion team members add to unified discussion topics are always
+visible to all students, regardless of cohort assignment.
 
 .. _Considerations When Editing Posts:
 
@@ -200,7 +199,7 @@ discussion activity for one cohort at a time. You can also view all
 posts.
 
 .. note:: Course team members must have discussion moderator or admin
-   privileges in addition to their course staff privileges to be able to view
+   privileges in addition to their course team privileges to be able to view
    posts that are divided by cohort.
 
 Above the list of posts on the **Discussion** page, the **in all cohorts**

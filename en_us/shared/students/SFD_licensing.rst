@@ -27,7 +27,8 @@ Creative Commons License
 ****************************
 
 The Creative Commons license indicates that you can share or reuse course
-content or videos, depending on the license options the instructor selected.
+content or videos, depending on the license options selected by the course
+team.
 
 A Creative Commons license has one or more of the following options.
 

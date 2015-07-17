@@ -42,7 +42,7 @@ the course discussions and individual posts, on the **Discussion** page.
 The Discussion Page
 **********************************
 
-When you go to the **Discussion** page in your course, you'll see a page that
+When you go to the **Discussion** page in your course, you see a page that
 looks like the following image. You can click the image to enlarge it.
 
 .. image:: ../../../shared/students/Images/DiscussionHomeCallouts.png
@@ -59,16 +59,19 @@ use to sort discussions by topic, status, and activity.
 
 The list of posts includes the following elements.
 
-1. The drop-down Discussion list. When you click this list, you can
-   see all of the topics in the course discussions, or you can view only the posts that you're currently following. For more information about discussion topics, see :ref:`Discussion Topics`. For more information about following posts, see :ref:`Follow Posts`.
+1. The drop-down Discussion list. When you click this list, you can see all of
+   the topics in the course discussions, or you can view only the posts that
+   you are following. For more information about discussion topics,
+   see :ref:`Discussion Topics`. For more information about following posts,
+   see :ref:`Follow Posts`.
 
-2. The status filter. You can filter discussions that you haven't read or that
-   contain unanswered questions. For more information, see :ref:`Answer
+2. The status filter. You can filter discussions that you have not read yet, or
+   that contain unanswered questions. For more information, see :ref:`Answer
    Questions`.
 
-3. Specific identifiers. If an instructor has pinned a post, if you're
-   following a post, or if the person who created the post is a community TA,
-   moderator, or administrator, you'll see a colored identifier with this
+3. Specific identifiers. If a moderator has pinned a post, if you chose to 
+   follow a post, or if the person who created the post is a community TA,
+   moderator, or administrator, you see a colored identifier with this
    information.
 
 4. The title of the post. The title lets you know what the post is about.
@@ -81,15 +84,16 @@ The list of posts includes the following elements.
    asks.
 
 7. The post search box. You can search all posts, responses, and comments for
-   individual words or phrases. For more information, see :ref:`Search Discussions`.
+   individual words or phrases. For more information, see :ref:`Search
+   Discussions`.
 
 8. The activity sorting control. You can sort discussions by recent activity,
    most activity, or most votes. For more information, see :ref:`Keep Up with
    New Activity`.
 
-9. Status indicators. These indicators show whether you've read a post and the
-   responses and comments for that post. For more information, see :ref:`Keep Up
-   with New Activity`.
+9. Status indicators. These indicators show whether you have read a post and
+   the responses and comments for that post. For more information, see
+   :ref:`Keep Up with New Activity`.
 
 ===========
 Right Pane
@@ -142,8 +146,8 @@ The icons that you see may include the following:
 * A star (posts only). Click this icon if you want to follow the post. For more
   information, see :ref:`Follow Posts`. 
 * A check mark (responses only). For questions, the student who posted the
-  question, or discussion staff, can use this icon to indicate that the response is
-  correct. For more information, see :ref:`Answer Questions`.
+  question, or discussion team member, can use this icon to indicate that the
+  response is correct. For more information, see :ref:`Answer Questions`.
 * An ellipsis, or "more", icon (...). When you click this icon, you may see several additional options:
 
   * **Edit**. This option is only visible if you are the author of the post,
