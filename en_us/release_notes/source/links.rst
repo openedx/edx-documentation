@@ -261,8 +261,6 @@
 
 .. _Student Data: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/running_course/course_student.html#student-data
 
-.. _Track Student Activity: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/running_course/course_student.html#track-student-activity
-
 .. _Add the Beta Testers: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/releasing_course/beta_testing.html#add-testers
 
 .. _Getting Started: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/getting_started/index.html#getting-started-index

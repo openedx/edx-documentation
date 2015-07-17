@@ -12,8 +12,10 @@ any time after you create the course.
   :depth: 2
 
 To supplement the student data available from the Instructor Dashboard, you can
-use the charts and reports that are available from edX Insights. For more
-information, see `Using edX Insights`_.
+use the charts and reports that are available from edX Insights. With Insights,
+you can monitor student activity and review the number of students who, each
+week, interacted with your course.  For more information, see `Using edX
+Insights`_.
 
 .. _PII:
 
@@ -187,9 +189,6 @@ the ``{course_id}_student_profile_info_{date}.csv`` file of student data or the
 
     .. include:: ../../../shared/building_and_running_chapters/running_course/Section_course_student.rst
 
-.. only:: Partners
-
-    .. include:: ../../../shared/building_and_running_chapters/running_course/Section_track_student_activity.rst
 
 .. _Using edX Insights: http://edx-insights.readthedocs.org/en/latest/
 .. _auth_userprofile.level_of_education: http://edx.readthedocs.org/projects/devdata/en/latest/internal_data_formats/sql_schema.html#level-of-education

@@ -12,6 +12,9 @@ July 2015
 
    * - Date
      - Change
+   * - 28 July 2015
+     - Updated the :ref:`Review_Answers` section to remove references to
+       features on the Analytics page of the Instructor Dashboard.
    * - 17 July 2015
      - Added the :ref:`Best Practices for ORA` and :ref:`PA Scoring` sections.
    * - 
