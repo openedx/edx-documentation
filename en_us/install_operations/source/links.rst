@@ -28,9 +28,11 @@
 
 .. _Birch Fullstack BitTorrent: https://s3.amazonaws.com/edx-static/vagrant-images/20150224-birch-fullstack.box?torrent
 
-
 .. _XML file: https://edge.edx.org/auth/saml/metadata.xml
+
 .. _Edge registration: http://edge.edx.org/register
+
+.. _Font Awesome: http://fortawesome.github.io/Font-Awesome/icons/
 
 .. _BitTorrent:  http://www.bittorrent.com/
 
@@ -67,5 +69,14 @@
 
 .. _Enable Badges In Each Course: http://edx.readthedocs.org/projects/open_edx_building-and-running-a-course/en/latest/building_course/creating_course_certificates.html#enable-or-disable-badges-for-your-course
 
+
 .. _Shibboleth configuration wiki: https://wiki.shibboleth.net/confluence/display/SHIB2/IdPMetadataProvider
 
+.. _Azure portal: https://manage.windowsazure.com
+
+.. _Microsoft Azure: https://azure.microsoft.com/en-us/pricing/free-trial/
+
+
+.. _python-social-auth backend documentation: http://python-social-auth.readthedocs.org/en/latest/backends/index.html#social-backends
+
+.. _Python SAML Toolkit: https://github.com/onelogin/python-saml

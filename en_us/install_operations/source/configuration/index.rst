@@ -19,5 +19,5 @@ configuration options.
    enable_certificates
    enable_badging
    enable_ccx
-   tpa/enable_tpa_edge
-
+   tpa/index
+   
