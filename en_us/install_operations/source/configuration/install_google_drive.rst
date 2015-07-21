@@ -3,7 +3,7 @@
 .. _Add the Google Drive and Google Calendar XBlock:
 
 ######################################################
-Add the Google Drive and Google Calendar XBlock
+Adding the Google Drive and Google Calendar XBlock
 ######################################################
 
 In the Open edX Birch release, course teams can embed Google calendars and

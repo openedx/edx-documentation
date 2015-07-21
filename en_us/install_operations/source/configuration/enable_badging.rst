@@ -6,6 +6,16 @@
 Enabling Badging
 ##################
 
+This section describes how to enable badging in your instance of Open edX.
+
+.. contents::
+   :local:
+   :depth: 1
+
+*********
+Overview
+*********
+
 Badges provide a way for learners to share their course achievements. For
 courses that have badges enabled, learners receive a badge at the same time as
 they receive a course certificate, and have the option of sharing their badges
@@ -20,9 +30,6 @@ following set up and configuration tasks.
 
 .. Note::  
   Before proceeding, review :ref:`Guidelines for Updating the edX Platform`.
-
-.. contents::
-   :local:
 
 *****************************************************************
 Make Sure that Certificates are Enabled
@@ -72,18 +79,18 @@ Enable Badges in Studio and the Learning Management System
 
 #. In ``/lms/envs/common.py``, set the values for the following parameters.
   
- * ``BADGR_API_TOKEN`` - a string containing the API token for the Badgr
-   superuser account. Obtain the token from the /v1/user/auth-token page
-   while logged in to the API as the superuser.
+   * ``BADGR_API_TOKEN`` - a string containing the API token for the Badgr
+     superuser account. Obtain the token from the /v1/user/auth-token page
+     while logged in to the API as the superuser.
 
- * ``BADGR_BASE_URL`` - a string containing the base URL for Badgr Server.
-   The Badgr Server must be installed at a publicly accessible IP address.
+   * ``BADGR_BASE_URL`` - a string containing the base URL for Badgr Server.
+     The Badgr Server must be installed at a publicly accessible IP address.
 
- * ``BADGR_ISSUER_SLUG`` - a string that is the slug for the Badgr issuer. The
-   slug can be obtained from the URL of the Badgr Server page that displays
-   the issuer. For example, in the URL ``http://exampleserver.com/issuer
-   /test-issuer``, the issuer slug is ``test-issuer``.
-    
+   * ``BADGR_ISSUER_SLUG`` - a string that is the slug for the Badgr issuer.
+     The slug can be obtained from the URL of the Badgr Server page that
+     displays the issuer. For example, in the URL
+     ``http://exampleserver.com/issuer /test-issuer``, the issuer slug is
+     ``test-issuer``.    
 
    .. code-block:: bash
 
@@ -95,13 +102,12 @@ Enable Badges in Studio and the Learning Management System
      BADGR_ISSUER_SLUG = "test-issuer"
 
 
-3. Save the ``/cms/envs/common.py`` and ``/lms/envs/common.py`` files.
+#. Save the ``/cms/envs/common.py`` and ``/lms/envs/common.py`` files.
 
 #. Run database migrations.
 
 #. Restart the Studio and Learning Management System processes so that the
    updated environment configurations are loaded.
-
 
 ***************************************************************
 Configure Badges and Badge Images for Your Open edX Instance
@@ -117,24 +123,24 @@ Configure Badges and Badge Images for Your Open edX Instance
 
 #. For each badge image configuration, set these parameters.
 
- * Course Mode
- * Icon -- the badge image to use for the specified course mode
+   * Course Mode
+   * Icon -- the badge image to use for the specified course mode
 
- .. important:: Default images are supplied for badges. You must replace the
+   .. important:: Default images are supplied for badges. You must replace the
     default images with your organization's own badge images before any badges
-    are issued. When the first badge is issued for a given course, badge
-    images are uploaded to Badgr Server. All badges issued in future for this
-    course will use the original badge image, even if you subsequently change
-    badge images in the Django Administration badge image configuration.
+    are issued. When the first badge is issued for a given course, badge images
+    are uploaded to Badgr Server. All badges issued in future for this course
+    will use the original badge image, even if you subsequently change badge
+    images in the Django Administration badge image configuration.
 
-4. Optionally, define a default image for any course modes that do not have an
+#. Optionally, define a default image for any course modes that do not have an
    explicitly specified badge image. Select **Default** in the badge image
    configuration. 
 
    .. note:: You can specify only one default badge image.
 
-#. Save each configuration parameter and exit the Django Administration website.
-
+#. Save each configuration parameter and exit the Django Administration
+   website.
 
 *****************************************
 Enable Badges Within Each Course

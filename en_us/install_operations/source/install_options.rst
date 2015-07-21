@@ -4,7 +4,11 @@
 Open edX Platform Installation Options
 ########################################
 
-.. contents:: Chapter Contents:
+This section describes the Open edX installation options.
+
+.. contents::
+ :local:
+ :depth: 1
 
 ***************************
 Open edX Developer Stack
@@ -29,7 +33,6 @@ options. This wiki contains two pages with more information about Devstack.
 
 * `Devstack wiki`_
 * `Developing on Devstack`_
-
 
 *********************
 Open edX Fullstack

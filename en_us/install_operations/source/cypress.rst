@@ -1,44 +1,43 @@
 .. include:: links.rst
 
-.. _Open edX Birch Release:
+.. _Open edX Cypress Release:
 
 ########################################
-Open edX Birch Release
+Open edX Cypress Release
 ########################################
 
-This section describes how to install the Open edX Birch release.
+This section describes how to install the Open edX Cypress release.
 
 .. contents::
  :local:
  :depth: 1
 
-.. note:: 
-  Now that the Open edX Cypress release is available, edX no longer
-  supports the Birch release.
-
 ******************************
-What's Included in Birch
+What's Included in Cypress
 ******************************
 
-The Open edX Birch release contains several new features for students, course
-teams, and developers.  See the Open edX Release Notes for more details.
+The Open edX Cypress release contains several new features for learners, course
+teams, and developers. See the Open edX Release Notes for more details.
 
 .. Note::
- There are several new features in the Birch release that are available, but
- not configured in new installations.  For details, see the following topics.
+ There are several new features in the Cypress release that are available, but
+ not enabled by default in new installations.  For details,
+ see the following topics.
 
- * :ref:`Add the Google Drive and Google Calendar XBlock`.
- * :ref:`Enable Course Prerequisites`
- * :ref:`Enable Entrance Exams`
+ * :ref:`Enable edX Search`
+ * :ref:`Enable Badging`
+ * :ref:`Enable CCX`
+ * :ref:`Enable Licensing`
 
 ******************************
-What is the Birch Git Tag?
+What is the Cypress Git Tag?
 ******************************
 
-The Git tag for the Birch release is **named-release/birch.2**. You use this tag
-to identify the version of Open edX code that is the Birch release.
+The Git tag for the Cypress release is ``named-release/cypress``. You use this
+tag to identify the version of Open edX code that is the Cypress release.
 
-The following Open edX Git repositories have the Git tag **named-release/birch.2**:
+The following Open edX Git repositories have the Git tag 
+``named-release/cypress``.
 
 * edx-platform
 * configuration
@@ -50,22 +49,22 @@ The following Open edX Git repositories have the Git tag **named-release/birch.2
 * edx-ora2
 * XBlock
 
-.. confirm
-
 ******************************
-Installing the Birch Release
+Installing the Cypress Release
 ******************************
 
-You can install the Open edX Birch release using :ref:`Devstack <Install DevStack>` or :ref:`Fullstack <Install Open edX Fullstack>`.
+You can install the Open edX Cypress release using
+:ref:`Devstack <Install DevStack>` or
+:ref:`Fullstack <Install Open edX Fullstack>`.
 
-Review the prerequisites and instructions for each option, then choose the
-option that best meets your needs. Ensure you install the required software to
-run the edX Platform.
+Review the prerequisites and instructions for each option, and then choose the
+option that best meets your needs. Ensure that you install the
+required software to run the edX Platform.
 
-If you are upgrading from the Aspen release, see `Upgrading from Aspen to
-Birch`_.
+If you are upgrading from the Birch release, see `Upgrading from Birch to
+Cypress`_.
 
-For new installations, follow the steps below.
+For new installations, follow these steps.
 
 #. `Download the Vagrant Box`_ or `Download the BitTorrent File`_.
 
@@ -91,7 +90,6 @@ boxes.
 
 See `Vagrant's documentation on boxes`_ for more information.
 
-
 =============================
 Download the BitTorrent File
 =============================
@@ -115,47 +113,49 @@ Vagrant before continuing with the installation process.
 
    .. code-block:: bash
 
-     $ vagrant box add /path-to-downloaded-box/vagrant-images-birch-2-devstack.box --name birch-devstack-2
+     $ vagrant box add /path-to-downloaded-box/name-of-vagrant-box --name
+       cypress-devstack
+
 
 * For Fullstack installations, run the following command.
 
    .. code-block:: bash
 
-     $ vagrant box add /path-to-downloaded-box/vagrant-images-birch-2-fullstack.box --name birch-fullstack-2
+     $ vagrant box add /path-to-downloaded-box/name-of-vagrant-box --name
+       cypress-fullstack
 
 ============================================
 Set the OPENEDX_RELEASE Environment Variable
 ============================================
 
 Before installing the Vagrant box, you must set the value of the
-`OPENEDX_RELEASE` environment variable to the Git tag for the Birch release:
+``OPENEDX_RELEASE`` environment variable to the Git tag for the Cypress
+release. Use the Linux ``export`` command.
 
 .. code-block:: bash
 
-  export OPENEDX_RELEASE="named-release/birch.2"
-
+  export OPENEDX_RELEASE="named-release/cypress"
 
 =========================
 Install the Vagrant Box
 =========================
 
-When you have completed the previous steps, install the Birch release by
+When you have completed the previous steps, install the Cypress release by
 following the installation instructions for :ref:`Devstack <Installing the Open
-edX Developer Stack>` or
-:ref:`Fullstack <Installing Open edX Fullstack>`.
+edX Developer Stack>` or :ref:`Fullstack <Installing Open edX Fullstack>`.
 
+********************************
+Upgrading from Birch to Cypress
+********************************
 
-******************************
-Upgrading from Aspen to Birch
-******************************
-
-You can upgrade your Open edX instance that is running the Aspen release to the
-Birch release, using the ``migrate.sh`` script in the configuration repository,
-`available here <https://github.com/edx/configuration/blob/master/util/vagrant/migrate.sh>`_.
+You can upgrade an Open edX instance that is running the Birch release to the
+Cypress release, by using the ``migrate.sh`` script in the configuration
+repository, `available here
+<https://github.com/edx/configuration/blob/master/util/vagrant/migrate.sh>`_.
 
 .. note::
   The upgrade scripts provided are verified only for upgrading instances
-  running the Aspen release. If you are running any other version of the Open
+  running the Birch release. If you are running any other version of the Open
   edX Platform, the upgrade scripts might not work.
 
 .. caution::
@@ -163,17 +163,18 @@ Birch release, using the ``migrate.sh`` script in the configuration repository,
   files. Then verify that you can restore your Open edX instance from the
   backup files.
 
-On the computer or virtual machine running the Aspen release of Open edX, run
-the upgrade script for your type of installation:
+On the computer or virtual machine that is running the Birch release of Open
+edX, run the upgrade script for your type of installation:
 
-* For Devstack, run ``./migrate.sh -t named-release/birch.2 -c devstack``.
+* For Devstack, run ``./migrate.sh -c devstack``.
 
-* For Fullstack, run ``./migrate.sh -t named-release/birch.2 -c fullstack``.
+* For Fullstack, run ``./migrate.sh -c fullstack``.
 
-* You can also run ``./migrate.sh -h`` to see which other options the script accepts.
+* You can also run ``./migrate.sh -h`` to see which other options the script
+  accepts.
 
 The script creates a temporary directory in which it upgrades Open edX, then
 cleans up extra files and directories when it finishes running.
 
-After upgrading Open edX to the Birch release, run the edX Platform and verify
-that course content and data was migrated correctly.
+After upgrading Open edX to the Cypress release, start the LMS and Studio and
+verify that course content and data was migrated correctly.

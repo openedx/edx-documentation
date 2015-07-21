@@ -8,6 +8,13 @@ Change Log
 
    * - Date
      - Change
+   * - 10 August 2015
+     - Added the :ref:`Open edX Cypress Release` section.
+   * -
+     - Added the :ref:`YouTube_API` section.
+   * - 
+     - Added the :ref:`Configuring ORA2 to Upload Files to Alternative Storage
+       Systems` section.
    * - 6 Aug 2015
      - Added the :ref:`Enabling Third Party Authentication` section.
    * - 5 Aug 2015

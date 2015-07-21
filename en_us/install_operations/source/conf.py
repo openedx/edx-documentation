@@ -63,7 +63,7 @@ if on_rtd:
     }
 
 #remove directory when content is first added to it, and add to index
-exclude_patterns = ['links.rst', 'configuration/configure_milestone_app.rst', 'configuration/enable_course_search.rst']
+exclude_patterns = ['links.rst', 'configuration/configure_milestone_app.rst']
 
 # The short X.Y version.
 version = ''

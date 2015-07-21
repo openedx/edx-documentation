@@ -6,6 +6,16 @@
 Enabling Certificates
 #######################
 
+This section describes how to enable certificates in your instance of Open edX.
+
+.. contents::
+   :local:
+   :depth: 1
+
+*********
+Overview
+*********
+
 Organizations and course teams can now generate certificates for learners who
 have completed courses. Learners can view, print, or share their certificates.
 
@@ -18,10 +28,6 @@ configuration tasks described in this topic.
 
 .. Note::  
   Before proceeding, review :ref:`Guidelines for Updating the edX Platform`.
-
-.. contents::
-   :local:
-
 
 *****************************************************************
 Enable Certificates in Studio and the Learning Management System
@@ -174,5 +180,3 @@ for eligible learners.
 3. View the certificate generation status for a course using ``gen_cert_report``. For example,
 
    ``/manage.py lms --settings=aws gen_cert_report -c course-v1:edX+demoX_Demo_2015``.
-
-
