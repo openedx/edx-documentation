@@ -23,9 +23,12 @@ software to check that the person taking the exam is the same person who is
 taking the course for credit, and also to detect any attempts to cheat on the
 exam.
 
+Read edX's Online Proctoring Policy (XXXXX ADD LINK) to make sure you know
+what is required, before you agree to take an exam with online proctoring.
+
 If an exam in your course is marked as a proctored exam, you can choose to
 take the exam without proctoring, but you will not be eligible for credit for
-it.
+it, and you will not be offered the proctored option for that exam again.
 
 If you take an exam as a proctored exam, you must pass the proctoring review,
 otherwise you cannot earn credit for your course even if you have attained a
@@ -34,6 +37,50 @@ passing grade.
 If you are not ready to take the exam right now, you can return to it and make
 your choice later, although you should give yourself enough time to take it
 before the due date.
+
+
+**********************************
+Before Taking a Proctored Exam
+**********************************
+
+
+#. If you need to request extra time allowance for the exam, do so before you
+   make any choices on the exam page.
+
+#. Make sure your computer meets the minimum system requirements for running
+   the remote proctoring software.
+
+#. Make sure you have only a single monitor connected to your computer, or
+   that you are not using a secondary display if you are using a laptop.
+
+#. Certain communication apps are prohibited while you are taking a proctored
+   exam. Make sure you shut down programs such as Skype or XXX? before you
+   start taking a proctored exam.
+
+================================
+Requesting Additional Time 
+================================
+
+In certain circumstances you might need more time to complete your proctored
+exam. Be sure to ask your course team or instructor about this possibility
+before making your choice to take the exam as a proctored exam. They will need
+to approve your request and add time to your specific exam before you start
+your exam.
+
+================================
+Requirements for Proctored Exams
+================================
+
+You must be on certain versions of the Windows or Mac operating systems for
+the proctoring software to work. Check the list to make sure you are using a
+supported operating system version.
+
+http://clientportal.softwaresecure.com/support/index.php?/Knowledgebase/Article/View/252/0/system-requirements-remote-proctor-now
+
+You must also be using one of the browser versions supported by edX. Check the
+list to make sure you are using a supported browser version.
+
+http://edx.readthedocs.org/projects/edx-guide-for-students/en/latest/front_matter/browsers.html
 
 
 ****************************
@@ -167,50 +214,9 @@ to the browser window where you were accessing the exam on edx.org, and take
 the exam.
 
 
-**********************************
-Before Taking a Proctored Exam
-**********************************
 
 
-#. If you need to request extra time allowance for the exam, do so before you
-   make any choices on the exam page.
 
-#. Make sure your computer meets the minimum system requirements for running
-   the remote proctoring software.
-
-#. Make sure you have only a single monitor connected to your computer, or
-   that you are not using a secondary display if you are using a laptop.
-
-#. Certain communication apps are prohibited while you are taking a proctored
-   exam. Make sure you shut down programs such as Skype or XXX? before you
-   start taking a proctored exam.
-
-
-================================
-Requirements for Proctored Exams
-================================
-
-
-You must be on certain versions of the Windows or Mac operating systems for
-the proctoring software to work. Check the list to make sure you are using a
-supported operating system version.
-
-http://clientportal.softwaresecure.com/support/index.php?/Knowledgebase/Article/View/252/0/system-requirements-remote-proctor-now
-
-You must also be using one of the browser versions supported by edX. Check the
-list to make sure you are using a supported browser version.
-
-http://edx.readthedocs.org/projects/edx-guide-for-students/en/latest/front_matter/browsers.html
-
-================================
-Requesting Additional Time 
-================================
-
-In certain circumstances you might need more time to complete your proctored
-exam. Be sure to ask your course team or instructor about this possibility
-before making your choice to take the exam as a proctored exam. They will need
-to approve your request and add time to your specific exam before you start
-your exam.
 
 **********************************
 Taking a Proctored Exam
@@ -219,10 +225,39 @@ Taking a Proctored Exam
 When a proctored exam starts, the time remaining is shown in a bar at the top
 of the page.
 
-You will see a warning at XXXX what point?
+You will see warnings in the timer bar when 20% of the total time is left, and
+also when 5% of the total time is left.
 
-If you do not complete the exam in the allotted time, you do not receive
-credit for the exam. 
+.. note:: You can minimize the proctoring software window, but do not close it.
+
+.. note:: If you close the edX exam browser or navigate away from your exam during your proctored exam, the timer will continue running. You cannot pause the timer. You can return to your exam at the point that you left it.
+
+If time runs out before you have completed the exam, the proctoring review is
+still submitted, and any answers that you have completed up to that time are
+also submitted. If you pass the proctoring review, you might still qualify for
+a passing grade with the answers you have submitted.
+
+=============================================================
+What if I experience technical difficulties during the exam?
+=============================================================
+
+If your proctoring session and timed exam end unexpectedly before you complete
+the exam due to some technical difficulty, contact your course team or edX
+Support and let them know about your situation. If they agree that there is a
+legitimate reason, you might be able to try again to take the proctored exam.
+Your answers from any failed attempt are not kept.
+
+- Loss of internet connectivity.
+- Computer shut down or became unresponsive.
+- Accidentally closed the proctoring software window.
+- Accidentally closed the edX.org exam window.
+
+
+
+
+
+
+
 
 **********************************
 Completing a Proctored Exam
@@ -235,6 +270,20 @@ are two processes for evaluating whether you have earned credit for the exam.
 
 Close the Remote Proctor Now window. After you have quit Remote Proctor Now,
 the exam data upload starts.
+
+When the proctoring session data has finished uploading, your proctoring review status is in a "Pending" state. It might take 3-5 days for your proctoring session to be reviewed. When the review is complete, you will be able to see whether your result is Pass or Fail.
+
+.. note:: Your proctoring session review result is separate from the score you
+   achieve on your exam. It is possible for you to receive a Pass on the proctoring review, but not earn enough points to qualify for a passing grade on the exam. Conversely, you might receive a passing grade on the exam questions, but you might fail the proctoring review. 
+
+   Any Fail result on the proctoring review means that you cannot apply for
+   credit for the course, regardless of the grade you achieved in the exam or
+   in the course.
+
+You have the option to apply for credit if:
+- you have completed the required exams
+- you have a grade that is deemed sufficient to earn credit
+- you have passed proctoring reviews for the relevant exams.
 
 
 
