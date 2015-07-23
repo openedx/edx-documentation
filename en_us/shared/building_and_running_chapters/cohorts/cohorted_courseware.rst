@@ -32,7 +32,7 @@ Example`.
 
 Complete these steps to create cohort-specific content in your course.
 
-In Studio:
+In Studio
 
 #. :ref:`Enable cohorts in your course<Enabling and Configuring Cohorts>`.
 #. :ref:`Create content groups<Creating Content Groups>`. 
@@ -40,7 +40,7 @@ In Studio:
    groups<Specify Components in Courseware as Visible Only to Certain Content
    Groups>`.
      
-In the LMS: 
+In the LMS
 
 #. :ref:`Assign learners to cohorts<Options for Assigning Learners to
    Cohorts>`.
@@ -331,7 +331,7 @@ content intended for them.
    details about previewing courseware in general, see :ref:`Preview Course
    Content`.
 
-You can view the course as a member of these groups:
+You can view the course as a member of these groups.
 
 .. list-table::
     :widths: 15 30
@@ -343,7 +343,12 @@ You can view the course as a member of these groups:
       - You see all content in the course, including content that is hidden
         from learners.
     * - Student
-      - You see any content that is intended for all learners.
+      - You see any content that is intended for all
+        students.
+    * - Specific Student
+      - Viewing content as a specific student is not available for any content
+        that is visible only to a particular group (content groups and
+        experiment groups).
     * - Student in <Content Group Name>            
       - You see content that is intended for all learners, as well
         as any content specifically set to be visible to this content group.

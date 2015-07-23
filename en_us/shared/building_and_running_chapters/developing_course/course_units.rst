@@ -358,6 +358,8 @@ When you are revising a previously published unit, it is helpful to preview
 your changes in one window and :ref:`view the published unit<View a Published
 Unit>` in a second window.
 
+For more information about previewing courseware, see :ref:`Preview Course Content`.
+
 .. _Publish a Unit:
 
 ****************************
