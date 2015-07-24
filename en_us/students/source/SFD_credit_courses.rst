@@ -9,11 +9,9 @@ toward a degree at a college or university. When a course offers academic
 credit, you see [a visual indication on the edX home page and on the course
 About page].
 
-.. eligibility expires after how much time?
+.. Need info about visual indication
 
-.. For Verified courses with Credit option, display new track selection page
-.. that has new copy describing Credit as an option when buying Verified
-.. (https://openedx.atlassian.net/wiki/display/ECOM/Credit)
+.. When is eligibility deadline (usually)?
 
 *****************************
 Enroll for Academic Credit
@@ -40,21 +38,14 @@ exam.
  not to verify your identity at any time, you are no longer eligible for
  credit. You can still receive a verified certificate in the course.
 
-When you must verify your identity, you see the following message in the
-courseware.
+When you must verify your identity, you receive a message in the
+courseware. Select **Verify Now** to begin the ID verification process. 
 
-.. code:: 
+To verify your identity during the course, you must take a photo of your face,
+the same way you did at the beginning of the course. You do not have to take a
+photo of your ID again.
 
-	Identity verification required
-
-	To receive credit for this course, you must verify your identity every
-	time you receive a verification message. If you do not want to verify your
-	identity, you can opt out of verification. However, you will no longer be
-	eligible for credit in the course.
-
-Select **Verify Now** to begin the ID verification process. The steps for
-verifying your identity during the course are the same as the steps at the
-beginning of the course. For more information, see :ref:`SFD Verify Your
+For more information about ID verification, see :ref:`SFD Verify Your
 Identity`.
 
 For more information about verified certificates, see :ref:`SFD Verified
@@ -64,7 +55,7 @@ Certificates`.
 Proctored Exams
 ===================
 
-..[Brief intro]
+.. Brief intro
 
 For more information about proctored exams, see :ref:`getlinkfromCarol`.
 
@@ -84,22 +75,20 @@ eligibility status and the status of each individual requirement.
 
 .. update image when sandbox ready
 
-
 *****************************
 Purchase Academic Credit
 *****************************
 
 After you receive your verified certificate for the course, the option to
 purchase academic credit for the course appears on your dashboard below the
-option to download your certificate. When you purchase credit, you submit a
-payment to edX, and then complete any additional steps that the specific
-organization that grants the credit requires.
+option to download your certificate. You also receive an email from edX.
 
-
-**Cred-el email as well? See https://docs.google.com/document/d/1b_YTQvkhe-kp6jj2am-FD7Wgxuie2gs6qTfmHNvrnIM/edit**
+When you purchase credit, you submit a payment to edX, and then complete any
+additional steps that the specific organization that grants the credit
+requires.
 
 .. Does info about the deadline for purchasing course credit appear on the
-.. dashboard too, or not until the Purchase Credit For page?
+.. dashboard, or only on the Purchase Credit For page?
 
 .. note:: More than one organization might offer credit for the same course. 
  If this is the case, you select the organization that you want when you
@@ -107,13 +96,14 @@ organization that grants the credit requires.
 
 To purchase academic credit, follow these steps.
 
-#. On your dashboard, select **Purchase Credit** next to the course that you want.
+#. On your dashboard, select **Purchase Credit** next to the course that you
+   want.
 #. On the **Purchase credit for** page, select the organization that you want
    to purchase credit from, and then select **Check Out** or **Check Out with
    PayPal**.
-#. Follow the onscreen instructions to complete the payment process. A
-   confirmation page opens and you receive an email message when the payment
-   process is complete.
+#. Follow the onscreen instructions to complete the payment process. When the
+   payment process is complete, a confirmation page opens, and you receive an
+   email message.
 #. On the payment confirmation page, note whether the organization requires
    you to complete additional steps to receive credit. If the organization has
    additional requirements, select **Complete Credit** to go to that
@@ -123,11 +113,4 @@ After the organization has evaluated your information, a message on your
 dashboard indicates whether the organization has granted the academic credit
 for the course and provides a link to the organization. You also receive an
 email that indicates whether you have received academic credit for the course.
-
-
-.. Credit: Dashboard UX:
-.. https://openedx.atlassian.net/wiki/display/UX/Credit+-+Dashboard+UX
-
-.. Credit: Checkout and Receipt Pages UX:
-.. https://openedx.atlassian.net/wiki/pages/viewpage.action?pageId=30967130
 
