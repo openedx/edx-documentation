@@ -271,7 +271,10 @@ are two processes for evaluating whether you have earned credit for the exam.
 Close the Remote Proctor Now window. After you have quit Remote Proctor Now,
 the exam data upload starts.
 
-When the proctoring session data has finished uploading, your proctoring review status is in a "Pending" state. It might take 3-5 days for your proctoring session to be reviewed. When the review is complete, you will be able to see whether your result is Pass or Fail.
+When the proctoring session data has finished uploading, your proctoring
+review status is in a "Pending" state. It might take 3-5 days for your
+proctoring session to be reviewed. When the review is complete, you will be
+able to see whether your result is Pass or Fail.
 
 .. note:: Your proctoring session review result is separate from the score you
    achieve on your exam. It is possible for you to receive a Pass on the proctoring review, but not earn enough points to qualify for a passing grade on the exam. Conversely, you might receive a passing grade on the exam questions, but you might fail the proctoring review. 
