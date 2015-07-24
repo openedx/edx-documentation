@@ -13,6 +13,19 @@ For older changes, see :ref:`Change Log 2014`.
  :depth: 1
 
 ****************
+August 2015
+****************
+
+.. list-table::
+   :widths: 15 70
+   :header-rows: 1
+
+   * - Date
+     - Change
+   * - 1 Aug 2015
+     - Added the :ref:`Offering Academic Course Credit` topic.
+
+****************
 July 2015
 ****************
 
