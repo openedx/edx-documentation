@@ -4,6 +4,17 @@
 edX Documentation
 ####################################
 
+The following information describes what is new in edX documentation. 
+
+.. contents::
+  :local:
+  :depth: 2
+
+**************************
+28 July 2015
+**************************
+
+.. include:: 2015/documentation/doc_0728_2015.rst
 
 **************************
 17 July 2015

@@ -4,6 +4,12 @@
 Open edX
 ####################################
 
+The following information describes what is new in Open edX. 
+
+.. contents::
+  :local:
+  :depth: 2
+
 ******************
 22 April 2015
 ******************

@@ -1,9 +1,14 @@
 .. _Mobile Index:
 
 ####################################
-edX Mobile App
+EdX Mobile App
 ####################################
 
+The following information describes what is new in the edX mobile apps. 
+
+.. contents::
+  :local:
+  :depth: 2
 
 ******************
 22 April 2015

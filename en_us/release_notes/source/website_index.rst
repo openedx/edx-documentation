@@ -1,6 +1,12 @@
 ####################################
-edX Website
+EdX Website
 ####################################
+
+The following information describes what is new on edx.org. 
+
+.. contents::
+  :local:
+  :depth: 2
 
 **************************
 8 July 2015

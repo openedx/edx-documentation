@@ -1,8 +1,14 @@
 .. _Insights Index:
 
 ####################################
-edX Insights
+EdX Insights
 ####################################
+
+The following information describes what is new in edX Insights. 
+
+.. contents::
+  :local:
+  :depth: 2
 
 *******************
 23 June 2015

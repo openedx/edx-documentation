@@ -6,7 +6,8 @@ The following information reflects what is new in the edX Platform as of
 23 June 2015. 
 
 .. contents::
- :local:
+  :local:
+  :depth: 2
 
 **************************
 Insights
