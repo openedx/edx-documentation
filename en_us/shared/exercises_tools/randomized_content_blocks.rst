@@ -296,12 +296,6 @@ In a live course, to view the components that are assigned to a specific
 student from a randomized content block, follow the steps described in the
 :ref:`Specific Student View` topic.
 
-.. note:: You cannot use the **Specific student** view for any course content
-   that is visible only to certain groups. For example, if your course uses
-   cohorts or experiment groups, and some courseware is visible only to
-   learners in a particular content group or experiment group, you cannot see
-   that content when you view the live course as a specific student.
-
 
 .. _Adjust Grades for a Problem from a Randomized Content Block:
 
@@ -311,7 +305,7 @@ Adjust Grades for a Problem from a Randomized Content Block
 
 To adjust a grade or reset the attempts for a problem that was assigned from a
 randomized content block, you can view the courseware as a specific student to
-see the actual problems that they were assigned. 
+see the actual problems that they were assigned.
 
 Obtain the username or email address for the learner whose grades you want to
 adjust, and follow the steps described in the :ref:`Specific Student View`

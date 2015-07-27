@@ -1,4 +1,4 @@
-.. _Testing Your Course Content:
+f.. _Testing Your Course Content:
 
 ###########################
 Testing Your Course Content
@@ -120,9 +120,7 @@ You can view the course as a member of these groups.
         students.
     * - Specific Student
       - You see content that is intended for the student whose email or
-        username you specify. NOTE: Viewing content as a specific student is
-        not available for any content that is visible only to a particular
-        group (content groups and experiment groups).
+        username you specify. 
     * - Student in <Content Group Name>            
       - You see content that is intended for all students, as well
         as any content specifically set to be visible to this content group.
@@ -206,12 +204,13 @@ To switch to the **Student** view, click **View this course as** and select
 * You do not see sections or subsections that have not yet been released.
 
 * If the section and subsection are released, you see units that are
-  :ref:`Published and Live`. For units that are
-  :ref:`Draft (Unpublished Changes)`, you see the last published version of the
-  unit. 
+  :ref:`Published and Live`. For units that are :ref:`Draft (Unpublished
+  Changes)`, you see the last published version of the unit.
 
 * You do not see units that are :ref:`Draft (Never Published)` or
-  :ref:`Visible to Staff Only`. To see these units, you must switch back to Instructor view or use Preview mode as described in :ref:`Preview Course Content`.
+  :ref:`Visible to Staff Only`. To see these units, you must switch back to
+  Instructor view or use Preview mode as described in :ref:`Preview Course
+  Content`.
 
 * You can access the Instructor Dashboard, which has features and reports that
   help you run your course.
@@ -233,11 +232,6 @@ view the courseware as a specific student to see the actual problems that they
 were assigned. For details about adjusting grades or resetting attempts, see
 :ref:`Adjust_grades`.
 
-.. note:: You cannot use the **Specific student** view for any course content
-   that is visible only to certain groups. For example, if your course uses
-   cohorts or experiment groups, and some courseware is visible only to
-   learners in a particular content group or experiment group, you cannot see
-   that content when you view the live course as a specific student.
 
 To switch to the **Specific student** view, click **View this course as**.
 Select **Specific student** from the drop down list, and enter the username or
@@ -257,7 +251,8 @@ as.
   unit. 
 
 * You do not see units that are :ref:`Draft (Never Published)` or
-  :ref:`Visible to Staff Only`. To see these units, you must switch back to Staff view or use Preview mode as described in :ref:`Preview Course Content`.
+  :ref:`Visible to Staff Only`. To see these units, you must switch back to
+  Staff view or use Preview mode as described in :ref:`Preview Course Content`.
 
 * You can access the Instructor Dashboard, which has features and reports that
   help you run your course.
