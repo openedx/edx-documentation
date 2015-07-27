@@ -4,7 +4,7 @@
 Add Content Experiments to Your Course
 #########################################
 
-This section provides an instructions on adding content experiments to your
+This section provides instructions for adding content experiments to your
 course.
 
 .. contents::
@@ -15,7 +15,7 @@ course.
 Before Adding Content Experiments
 ********************************************
 
-Before you try to add content experiments to your course, ensure that you have
+Before you add content experiments to your course, ensure that you have
 completed the following tasks.
 
 * :ref:`Enable Content Experiments`
@@ -55,14 +55,14 @@ Create the Content Experiment
 
 #. Select **Content Experiment**.
    
-   A new content experiment is added to the unit:
+   A new content experiment is added to the unit.
 
    .. image:: ../../../shared/building_and_running_chapters/Images/content_experiment_block.png
     :width: 800
     :alt: An image showing the content experiment component in a unit page in
         Studio.
 
-   You can work with the content experiment as you can any other component.
+   You can work with the content experiment as you do any other component.
    For more information, see :ref:`Developing Course Components`.
 
 #. Select either **Select a Group Configuration** or **Edit** to open the
