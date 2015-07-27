@@ -21,13 +21,14 @@ in the course as well as receive a Pass result for a proctoring session that
 is conducted as they take an examination that is designated as a proctored
 exam. Proctored exams must also be timed exams.
 
-Proctored exams use software to check that the person taking the exam is the
-same person who is taking the course for credit, and also to detect any
-attempts to cheat on the exam. Students who agree to take an exam with online
-proctoring must install the proctoring software and perform a series of checks
-on their system and their test environment before being allowed to proceed.
-The proctoring software then runs in the background, monitoring the test
-environment and screen activity as the student takes the exam.
+Online proctoring software checks that the person taking the exam is the same
+person who is taking the course for credit, and also detects any attempts to
+cheat on the exam. Students who agree to take an exam with online proctoring
+must install the proctoring software and perform a series of checks on their
+computer and test environment and must also provide photo identification
+before being allowed to proceed. The proctoring software then runs in the
+background, monitoring the test environment and screen activity as the student
+takes the exam.
 
 When the student completes the exam, either by submitting their answers or
 when the time expires for the exam, proctoring data is uploaded to the third
@@ -40,6 +41,8 @@ proctored exam.
 
 .. For passing students, is there some visible status change for certificates etc. that is triggered to indicate that they can go ahead with requesting credit? Anything visible in the UI?
 
+
+.. _CA_StudentExperience_Proctored Exams:
 
 ==============================================
 The Student Experience of Proctored Exams
