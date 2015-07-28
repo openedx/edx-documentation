@@ -8,7 +8,7 @@ Add a Content Experiment in OLX
 
 You work with multiple XML files to configure a content experiment. This
 section steps through the files involved in a content experiment that shows
-different content to two different groups of students.
+different content to two different groups of learners.
 
 =====================================================
 Define the Content Experiment in the Sequential File
@@ -59,8 +59,8 @@ different sets of content.
         <vertical url_name="group_b" display_name="Group B">
             <html>Welcome to group B.</html>
             <problem display_name="Checkboxes">
-                <p>A checkboxes problem presents checkbox buttons for student input. 
-                   Students can select more than one option presented.</p>
+                <p>A checkboxes problem presents checkbox buttons for learner input. 
+                   Learners can select more than one option presented.</p>
                 <choiceresponse>
                     <checkboxgroup direction="vertical" label="Select the answer that matches">
                         <choice correct="true">correct</choice>
@@ -83,7 +83,8 @@ In this example:
 
   For example,  the value for group ``0``, ``i4x://path-to-
   course/vertical/group_a``, maps to the ``<vertical>`` element with the
-  ``url_name`` equal to ``group_a``.  Therefore, students in group 0 see the
+  ``url_name`` equal to ``group_a``.  Therefore, learners in group 0 see the
   content in that vertical.
 
-For information about the ``policy.json`` file, see :ref:`Set Up Group Configuration for OLX Courses`.
+For information about the ``policy.json`` file, see :ref:`Set Up Group
+Configuration for OLX Courses`.
