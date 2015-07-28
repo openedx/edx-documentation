@@ -99,12 +99,11 @@ All problems on the edX platform have several component parts.
    not yet been submitted, and try again to answer the question. 
 
   - If the learner has already submitted an answer, selecting **Reset** clears
-    the submission. 
+    the submission and, if the problem includes a Python script to randomize
+    variables and the randomization setting is **On Reset**, changes the values
+    the learner sees in the problem.
   - If the number of Maximum Attempts that was set for this problem has been
     reached, the **Reset** button is not visible.
-  - If the problem includes a Python script to randomize variables and the
-    randomization setting is **On Reset**, the values the learner sees in the
-    problem change.
 
 #. **Hide Answer button.**
 
@@ -407,13 +406,12 @@ answers, the learner's score is 0.5 out of 2 points.
 Randomization
 ===============
 
-For numerical input problems that include a Python script to generate random
-numbers, this setting specifies how frequently the values in the problem
-change: each time a different learner accesses the problem, each time a single
-learner tries to answer the problem, both, or never.
+For problems that include a Python script to generate numbers randomly, this
+setting specifies how frequently the values in the problem change: each time a
+different learner accesses the problem, each time a single learner tries to
+answer the problem, both, or never.
 
-.. note:: For problems that are not set up to include random number generation,
- this setting should be "Never".
+.. note:: This setting should be **Never** for every problem that is not configured for random number generation. 
 
 For example, in this problem, the highlighted values change each time a learner
 submits an answer to the problem.
@@ -430,15 +428,36 @@ these steps.
   generates numbers. For more information, see :ref:`Use Randomization in a
   Numerical Input Problem`.
 
-* Select an option other than Never for the **Randomization** setting. 
+* Select an option other than **Never** for the **Randomization** setting. 
 
 .. note:: The **Randomization** setting serves a different purpose from
  "problem randomization". The **Randomization** setting affects how numeric
- values are randomized within a single problem. Problem randomization offers
- different problems or problem versions to different learners. For more
- information, see :ref:`Problem Randomization`.
+ values are randomized within a single problem and requires the inclusion of a
+ Python script. Problem randomization offers different problems or problem
+ versions to different learners. For more information, see :ref:`Problem
+ Randomization`.
 
-The **Randomization** setting has the following options.
+The edX Platform has a 20-seed maximum for randomization. This means that
+learners see up to 20 different problem variants for every problem that has
+**Randomization** set to an option other than **Never**. It also means that
+every answer for the 20 different variants is reported by the Answer
+Distribution report and edX Insights. Limiting the number of variants to a
+maximum of 20 allows for better analysis of learner submissions by allowing you
+to detect common incorrect answers and usage patterns for such answers.
+
+For more information, see :ref:`Student_Answer_Distribution` in this guide, or
+`Review Answers to Graded Problems`_ or `Review Answers to Ungraded Problems`_
+in *Using edX Insights*.
+ 
+.. important:: Whenever you choose an option other than **Never** for a 
+ problem, the Answer Distribution report and edX Insights include up to 20
+ variants for the problem, even if the problem was not actually configured to
+ include randomly generated values. This can make data collected for problems
+ that cannot include randomly generated values, (including, but not limited to,
+ all multiple choice, checkboxes, dropdown, and text input problems), extremely
+ difficult to interpret.
+
+You can choose the following options for the **Randomization** setting.
 
 .. list-table::
    :widths: 15 70
@@ -453,23 +472,14 @@ The **Randomization** setting has the following options.
      - Learners see a different version of the problem each time they select
        Reset.
    * - **Never** 
-     - All learners see the same version of the problem. Select this option for
-       every problem in your course that does not include a Python script to
-       generate random numbers. For most courses, this option is supplied by
-       default.
+     - All learners see the same version of the problem. For most courses, this
+       option is supplied by default. Select this option for every problem in
+       your course that does not include a Python script to generate random
+       numbers.
    * - **Per Student**
      - Individual learners see the same version of the problem each time they
        look at it, but that version is different from the version that other
        learners see.
-
-The edX Platform has a 20-seed maximum for randomization. This means that
-learners see up to 20 different problem variants for every problem that has
-**Randomization** set to an option other than Never. This maximum allows for
-better analysis of learner submissions, such as allowing you to detect common
-incorrect answers and usage patterns for such answers. For more information,
-see :ref:`Student_Answer_Distribution` or `Review Answers to Graded Problems`_
-or `Review Answers to Ungraded Problems`_ in *Using edX Insights*.
-
 
 .. _Show Answer:
 
@@ -658,9 +668,9 @@ component for each problem or version in Studio, and then edit your course
 outside of Studio, in OLX, to randomize the problem that learners see.
 
 Note that *problem randomization* is different from the **Randomization**
-setting in Studio. The **Randomization** setting randomizes variables within a
-single problem. Problem randomization offers different problems or problem
-versions to different learners.
+setting in Studio. The **Randomization** setting controls when a Python script
+within a single problem randomizes variables. Problem randomization offers
+different problems or problem versions to different learners.
 
 .. note:: Creating problems with versions that can be randomized requires you 
  to export your course, edit some of your course's XML files in a text editor,
