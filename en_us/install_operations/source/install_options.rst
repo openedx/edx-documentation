@@ -34,6 +34,13 @@ options. This wiki contains two pages with more information about Devstack.
 * `Devstack wiki`_
 * `Developing on Devstack`_
 
+Given the large number of dependencies needed to develop extensions to
+Open edX Insights, a separate development environment is available to support
+analytics development. This guide includes the following section about the
+analytics devstack:
+
+* :ref:`Installing the Open edX Analytics Developer Stack`
+
 *********************
 Open edX Fullstack
 *********************

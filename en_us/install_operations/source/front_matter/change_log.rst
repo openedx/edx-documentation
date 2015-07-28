@@ -11,6 +11,9 @@ Change Log
    * - 15 September 2015
      - Added the :ref:`Configuring an edX Instance as an LTI Tool Provider`
        section.
+   * -
+     - Added the :ref:`Installing the Open edX Analytics Developer Stack`
+       section.
    * - 10 August 2015
      - Added the :ref:`Open edX Cypress Release` section.
    * -
