@@ -5,16 +5,21 @@ Offering Academic Course Credit
 #####################################
 
 If your institution has an agreement with edX, you might be able to offer
-academic credit for your course. Courses that offer academic credit have
-additional safety features to help prevent cheating. Learners will be able to
-purchase academic credit after they earn a verified certificate in the course.
+academic credit for your course. Learners will be able to purchase this
+academic credit after they meet requirements that you set. These requirements
+typically include identity checks throughout the course as well as ID
+verification at the beginning of the course. Learners can see a list of the
+requirements on their **Progress** page.
 
 If your course will include academic credit, your edX program manager will
-complete the initial setup of your course. You must then complete two steps.
+complete the initial setup of your course, including setting the price and
+enabling your course to offer credit. You must then complete two steps.
 
-#. :ref:`Specify the minimum score that a student must earn to receive academic
-   credit in the course <Specify Passing Score>`.
-#. :ref:`Add security features to the course <Add Security Features>`.
+#. :ref:`Specify the minimum score that a student must earn to receive
+   academic credit in the course <Specify Passing Score>`.
+#. :ref:`Add identity checks to the course <Add Identity Checks>`.
+
+
 
 .. _Specify Passing Score:
 
@@ -30,19 +35,21 @@ specific score that a learner must receive to earn credit for your course.
    a percent sign (%)in the **Minimum Passing Grade to Earn Credit** box. This
    score can be any number from 1 to 100. Do not add a percent sign.
 
-.. _Add Security Features:
+.. _Add Identity Checks:
 
 ****************************
-Add Security Features
+Add Identity Checks
 ****************************
 
-For courses that offer academic credit, edX has two security features:
+For courses that offer academic credit, edX has two identity checks:
 proctored exams and :ref:`in-course reverification (ICRV) <In Course
 Reverification>`. You can use either feature or both features in your course.
 
 ================
 Proctored Exams
 ================
+
+.. note:: sjfkla; wieoha; 
 
 .. from Carol
 
@@ -58,18 +65,9 @@ checkpoint, they must use their computer's webcam to verify their
 identification, similar to the original ID verification process, before they
 can access more course content.
 
-You can require in-course reverification for a specific course track.
-For example, you can require in-course reverification for learners in
-the verified track, but not the honor code track.
-
-.. Should this be mandatory? It doesn't make sense to have ICRV for honor code
-.. students. And, if it's mandatory, should ICRV only be associated with the
-.. verified track by default, getting rid of the second step below?
-
 To use ICRV, you must complete the following steps.
 
 #. Enable the ICRV XBlock in your course.
-#. (Optional) Associate ICRV with a course track.
 #. Create specific ICRV checkpoints.
 
 
@@ -79,15 +77,18 @@ Enable In-Course Reverification
 To enable ICRV for your course, follow these steps.
 
 #. In Studio, select **Settings**, and then select **Advanced Settings**.
-#. ...
+#. In the **Advanced Module List** field, place your cursor between the
+   brackets (``[]``),and then add ``"edx-reverification-block"``. Make sure to
+   include the quotation marks. 
 
-Associate the Course Track
-****************************
+   .. note:: If the **Advanced Module List** field already contains one or 
+    more items, add a comma after the closing quotation mark for the last
+    item, and then add ``"edx-reverification-block"``.
 
-To associate ICRV with a specific course track, follow these steps.
+    ``"module_name","edx-reverification-block"``
 
-#. In Studio...
-#. ...
+.. Info from https://openedx.atlassian.net/wiki/display/ECOM/How+to+Configure+Credit+Courses
+
 
 Create an ICRV Checkpoint
 ****************************
@@ -104,14 +105,15 @@ To create an ICRV checkpoint, follow these steps.
    with. If you have not created the assessment yet, type the display name
    that the assessment will have.
 #. Next to **Verification Attempts**, specify the number of times that you
-   want students to be able to attempt to verify their identity.
+   want students to be able to attempt to verify their identity. You can
+   specify up to three attempts. If you do not specify a number, [learners
+   only have one attempt(?)].
 #. Select **Save**.
 
 After you create an ICRV checkpoint, the checkpoint appears on the learner's
 **Progress** page.
 
 
-
-
-
+Verify that all reverification events are captured (attempts, success, failures, retries, skips)
+Verify that the course team can download a report for the course that displays who has both completed the course and has completed the reverifications successfully.
 

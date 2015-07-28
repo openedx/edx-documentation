@@ -6,26 +6,33 @@ Academic Course Credit
 
 Some edX courses allow you to purchase academic credit that you can apply
 toward a degree at a college or university. When a course offers academic
-credit, you see [a visual indication on the edX home page and on the course
-About page].
+credit, you see an "Earn Credit" indication for the course in the edX list of
+courses.
 
-.. Need info about visual indication
+.. image:: /Images/SFD_Credit_YellowIndicator.png
+ :width: 200
+ :alt: The Progress page showing requirements for credit eligibility
 
-.. When is eligibility deadline (usually)?
+To earn academic credit, you must meet a series of requirements, such as
+verifying your identity several times during your course or taking proctored
+exams. After you meet the requirements, you can purchase academic credit for a
+specific time after the course ends (usually one year).
 
 *****************************
 Enroll for Academic Credit
 *****************************
 
 To receive academic credit for a course, you must enroll in the verified track
-for the course. You become eligible to purchase academic credit after you earn
-a verified certificate.
+for the course. For more information about enrolling, see :ref:`SFD Enrolling
+in a Course`.
 
-When you take a course for academic credit, you may have to verify your
-identity several times during the course, take proctored exams, or both.
+When you take a course for academic credit, you might have to complete a
+number of identity checks. You must complete all of the identity checks in the
+course to be eligible for credit. Identity checks include periodic identity
+verification and proctored exams.
 
 ========================================
-Identity Verification for Credit Courses
+Identity Verification 
 ========================================
 
 When you take a course for academic credit, you must verify your identity both
@@ -71,7 +78,7 @@ eligibility status and the status of each individual requirement.
 
 .. image:: /Images/SFD_Progress_CreditReqs.png
  :width: 500
- :alt: The Progress page showing requirements for credit eligibility
+ :alt: The Progress page showing requirements for credit eligibility.
 
 .. update image when sandbox ready
 
@@ -79,16 +86,13 @@ eligibility status and the status of each individual requirement.
 Purchase Academic Credit
 *****************************
 
-After you receive your verified certificate for the course, the option to
-purchase academic credit for the course appears on your dashboard below the
-option to download your certificate. You also receive an email from edX.
+After you meet the requirements for credit, the option to purchase academic
+credit for the course appears on your dashboard below the option to download
+your certificate. You also receive an email from edX.
 
 When you purchase credit, you submit a payment to edX, and then complete any
 additional steps that the specific organization that grants the credit
 requires.
-
-.. Does info about the deadline for purchasing course credit appear on the
-.. dashboard, or only on the Purchase Credit For page?
 
 .. note:: More than one organization might offer credit for the same course. 
  If this is the case, you select the organization that you want when you
@@ -98,9 +102,9 @@ To purchase academic credit, follow these steps.
 
 #. On your dashboard, select **Purchase Credit** next to the course that you
    want.
-#. On the **Purchase credit for** page, select the organization that you want
-   to purchase credit from, and then select **Check Out** or **Check Out with
-   PayPal**.
+#. On the **Checkout** page, select the organization that you want to purchase
+   credit from (if applicable), and then select **Check Out** or **Check Out
+   with PayPal**.
 #. Follow the onscreen instructions to complete the payment process. When the
    payment process is complete, a confirmation page opens, and you receive an
    email message.
@@ -113,4 +117,7 @@ After the organization has evaluated your information, a message on your
 dashboard indicates whether the organization has granted the academic credit
 for the course and provides a link to the organization. You also receive an
 email that indicates whether you have received academic credit for the course.
+
+If you do not receive credit for the course, contact the organization that
+issues the credit directly.
 
