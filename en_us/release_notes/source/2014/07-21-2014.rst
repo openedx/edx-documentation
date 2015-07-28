@@ -71,7 +71,7 @@ The following documentation is available:
 
   Recent changes include: 
 
-  * The `Track Student Activity`_ section has been added to the `Student Data`_ chapter.
+  * The Track Student Activity section has been added to the `Student Data`_ chapter.
 
 * `edX Developer's Guide`_
 

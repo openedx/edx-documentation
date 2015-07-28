@@ -22,6 +22,10 @@ July 2015
 
    * - Date
      - Change
+   * - 28 July 2015
+     - Updated the :ref:`Review_Answers` section to remove references to
+       features on the Analytics page of the Instructor Dashboard. Course data
+       is available in edX Insights.
    * - 17 July 2015
      - Added the :ref:`Best Practices for ORA` and :ref:`PA Scoring` sections.
    * - 
