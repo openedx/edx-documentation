@@ -214,8 +214,9 @@ exam, follow these steps.
 
 #. Click the Settings icon to open the settings for the exam.
 
-#. Select the **This exam is timed** option, and specify the allotted time for
-   the exam in hours and minutes. 
+#. Select the **This exam is timed** option.
+
+#. Specify the allotted time for the exam in hours and minutes.
 
    If the exam is a timed exam but not a proctored exam, this is your last step.
 
@@ -337,6 +338,7 @@ for grading.
 
 If the exam is also a proctored exam, the proctoring session automatically
 ends when the exam ends, and the proctoring session data is uploaded for review. 
+
 .. Is this true that the proctoring session automatically ends?
 
 

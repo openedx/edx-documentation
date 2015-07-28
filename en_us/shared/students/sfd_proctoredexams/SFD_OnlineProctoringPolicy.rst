@@ -48,7 +48,9 @@ The Room You Take the Exam In
    permitted (in posted guidelines) to have such materials available for a
    particular examination.
 
-   In addition to pens, paper, calculators, textbooks, and notebooks, the following tools should not be on your desk or used during your proctored exam. 
+   In addition to pens, paper, calculators, textbooks, and notebooks, the
+   following tools should not be on your desk or used during your proctored
+   exam.
 
   * Smartphones or other communication devices.
   * Programs such as Excel, Word, Powerpoint.
@@ -127,24 +129,18 @@ Your Personal Behavior
    enter the room in which you are taking the exam.
 
 
-************************************
-Consequences of Violating the Policy
-************************************
+******************************************************
+Consequences of Violating the Online Proctoring Rules
+******************************************************
 
-If you are flagged for cheating, you will be contacted directly by edx.org and
-subject to penalties as articulated in the edx.org honor code and exam
-guidelines.
+If you are flagged for cheating, you will be subject to penalties as
+articulated in the edx.org honor code and exam guidelines. Your proctoring
+exam status will be "Failed" and you will not be eligible to apply for credit
+for this course.
 
-For other violations, you might be notified by edx.org on behalf of ASU.
-This notification will be delivered by email after proctoring session reviews are complete.
-
-.. note:: The intent of these warnings is to allow you the chance to modify
-   your behavior to comply with this policy before punitive action is
-   required. As outlined in edx.org’s policy, repeat offences will be subject
-   to review and may result in a failing grade or expulsion.
-
-If you have questions or need help, go to http://edx.org to contact edX
-Support.
+If you want to appeal your proctoring session result, contact edX Support on
+http://edx.org. They will review the proctoring results and decide whether you
+should have the opportunity to retake the exam.
 
 
 

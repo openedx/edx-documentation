@@ -23,8 +23,9 @@ software to check that the person taking the exam is the same person who is
 taking the course for credit, and also to detect any attempts to cheat on the
 exam.
 
-Read edX's Online Proctoring Policy (XXXXX ADD LINK) to make sure you know
-what is required, before you agree to take an exam with online proctoring.
+Read :ref:`edX's Online Proctoring Policy <Online Proctoring Rules>` to make
+sure you know what is required, before you agree to take an exam with online
+proctoring.
 
 If an exam in your course is marked as a proctored exam, you can choose to
 take the exam without proctoring, but you will not be eligible for credit for
@@ -38,6 +39,7 @@ If you are not ready to take the exam right now, you can return to it and make
 your choice later, although you should give yourself enough time to take it
 before the due date.
 
+.. _SFD_Before_Taking_Proctored_Exam:
 
 **********************************
 Before Taking a Proctored Exam
