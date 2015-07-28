@@ -6,21 +6,17 @@ Preface
 
 .. Doc team! Be sure that when you make any changes to this file that you also make them to the mirrored file in the edx-analytics-dashboard/docs repository. - Alison 19 Aug 14
 
-Course teams, researchers, developers, students: the edX community includes
+Course teams, researchers, developers, learners: the edX community includes
 groups with a range of reasons for using the platform and objectives to
 accomplish. To help members of each group learn about what edX offers, reach
 goals, and solve problems, edX provides a variety of information resources.
 
-To help you find what you need, browse the edX offerings in these categories:
+To help you find what you need, browse the edX offerings in the following
+categories.
 
-* `The edX Partner Portal`_
-* `The Open edX Portal`_
-* `Release Announcements through the Open edX Portal`_
-* `Resources for Course Teams`_
-* `Resources for Researchers`_
-* `Resources for Developers`_
-* `Resources for Open edX`_
-* `Resources for Students`_
+.. contents:: 
+ :local:
+ :depth: 1
 
 All members of the edX community are encouraged to make use of any of the
 resources described in this preface. We welcome your feedback on these edX
@@ -60,8 +56,9 @@ the Open edX blog, and other rich community resources.
 All users can view content on the Open edX Portal without creating an account
 and logging in.  
 
-To comment on blog posts or the edX roadmap, you must create an account and log
-in. If you do not have an account, follow these steps.
+To comment on blog posts or the edX roadmap, or subscribe to email updates, you
+must create an account and log in. If you do not have an account, follow these
+steps.
 
 #. Visit `open.edx.org/user/register`_.
 #. Fill in your personal details.
@@ -81,7 +78,7 @@ announcements on the `Open edX Portal`_.
 #. Go to https://open.edx.org/announcements.
 #. Under **Announcement Type** in the **Subscriptions** block, select the type
    of announcements that you want to receive through email.
-#. Click **Save**.
+#. Select **Save**.
    
 You will now receive email messages when new announcements of the types you
 selected are posted.
@@ -111,16 +108,18 @@ Course teams include faculty, instructional designers, course staff, discussion
 moderators, and others who contribute to the creation and delivery of courses
 on edx.org or edX Edge.
 
+======================================
 edX101: Overview of Creating a Course
--------------------------------------
+======================================
 
 The `edX101`_ course was built in Studio and is available for enrollment on
 edx.org. This course takes one to two hours to complete, and is designed to
 provide a high-level overview of the course creation and delivery process. It
 also highlights the extensive capabilities of the edX platform.
 
+==============
 Documentation
--------------
+==============
 
 Documentation for course teams is available on the docs.edx.org web page.
 
@@ -129,7 +128,7 @@ Documentation for course teams is available on the docs.edx.org web page.
   Learning Management System (LMS) to run a course.
 
   When you are working in edX Studio, you can access relevant sections of this
-  guide by clicking **Help** on any page.
+  guide by selecting **Help** on any page.
 
 * `Using edX Insights`_ describes the metrics, visualizations, and downloadable
   .csv files that course teams can use to gain information about student
@@ -144,14 +143,15 @@ Documentation for course teams is available on the docs.edx.org web page.
 
 These guides open in your web browser. The left side of each page includes a
 **Search docs** field and links to the contents of that guide. To open or save
-a PDF version, click **v: latest** at the lower right of the page, then click
+a PDF version, select **v: latest** at the lower right of the page, then select
 **PDF**.
 
 .. note:: If you use the Safari browser, be aware that it does not support the 
  search feature for `edX documentation`_. This is a known limitation.
 
+======
 Email
------
+======
 
 To receive and share information by email, course team members can:
 
@@ -162,8 +162,9 @@ To receive and share information by email, course team members can:
 * Join the `openedx-studio`_ Google group to ask questions and participate in
   discussions with peers at other edX partner organizations and edX staffers.
 
+====================
 Wikis and Web Sites
--------------------
+====================
 
 The edX product team maintains public product roadmaps on :ref:`the Open edX
 Portal<The Open edX Portal>` and :ref:`the edX Partner Portal<The edX Partner
@@ -182,28 +183,31 @@ Data for the courses on edx.org and edX Edge is available to the "data czars"
 at our partner institutions, and then used by database experts, statisticians,
 educational investigators, and others for educational research.
 
+==============
 Documentation
--------------
+==============
 
 The `edX Research Guide`_ is available on the docs.edx.org web page.
 
 This guide opens in your web browser, with a **Search docs** field and links to
 that guide's contents on the left side of each page. To open or save a PDF
-version, click **v: latest** at the lower right of the page, and then click
+version, select **v: latest** at the lower right of the page, and then select
 **PDF**.
 
 .. note:: If you use the Safari browser, be aware that it does not support the 
  search feature for `edX documentation`_. This is a known limitation.
 
+======
 Email
--------
+======
 
 To receive and share information by email, researchers can join the 
 `openedx-analytics`_ Google group to ask questions and participate in 
 discussions with peers at other edX partner organizations and edX staffers.
 
+======
 Wikis
--------------------
+======
 
 The edX Analytics team maintains the `Open edX Analytics`_ wiki, which includes
 links to periodic release notes and other resources for researchers.
@@ -220,13 +224,13 @@ Resources for Developers
 Software engineers, system administrators, and translators work on extending
 and localizing the code for the edX platform.
 
+=============
 Documentation
--------------
+=============
 
 Documentation for developers is available on the docs.edx.org web page.
 
-* The `edX Platform Developer's Guide`_ collects information directly from edX
-  platform python docstrings. The topics in this guide include guidelines for
+* The `edX Platform Developer's Guide`_ includes guidelines for
   contributing to Open edX, options for extending the Open edX platform, using
   the edX public sandboxes, instrumenting analytics, and testing.
 
@@ -234,24 +238,30 @@ Documentation for developers is available on the docs.edx.org web page.
   for getting an edX developer stack (Devstack) and production stack
   (Fullstack) operational.
 
-* XBlock_: Open edX courseware components provides preliminary documentation
-  on the XBlock component architecture for building courses.
+* `Open edX XBlock Tutorial`_ guides developers through the process of
+  creating an XBlock, and explains the concepts and anatomy of XBlocks.
+
+* `Open edX XBlock API Guide`_ provides reference information about the XBlock
+  API.
 
 * `edX Open Learning XML Guide`_ provides guidelines for building edX courses
   with Open Learning XML (OLX). Note that this guide is currently an alpha
   version.
 
-* `edX Data Analytics API`_ provides tools for building applications to view
-  and analyze student activity in your course.
+* `edX Data Analytics API`_ provides reference information for using the data
+  analytics API to build applications to view and analyze learner activity in
+  your course.
 
-* `edX Platform APIs`_ provide tools for building applications to view course
-  information and videos and work with mobile apps, users, and enrollment.
+* `edX Platform APIs`_ provide reference information for building applications
+  to view course information and videos and work with user and enrollment
+  data.
 
 .. note:: If you use the Safari browser, be aware that it does not support the 
  search feature for `edX documentation`_. This is a known limitation.
 
+======
 GitHub
--------
+======
 
 These are the main edX repositories on GitHub.
 
@@ -266,8 +276,9 @@ Additional repositories are used for other projects. Our contributor agreement,
 contributor guidelines and coding conventions, and other resources are
 available in these repositories.
 
+==============
 Email and IRC
---------------
+==============
 
 To receive and share information by email, developers can join these Google
 groups to ask questions and participate in discussions with peers and edX
@@ -286,9 +297,9 @@ Additional Google groups are occasionally formed for individual projects.
 
 EdX engineers often monitor the Freenode #edx-code IRC channel.
 
-
+====================
 Wikis and Web Sites
--------------------
+====================
 
 The `Open edX Portal`_ is the entry point for new contributors.
 
@@ -297,7 +308,7 @@ provides insights into the plans, projects, and questions that the edX Open
 Source team is working on with the community.
 
 The pull request dashboard_  is a visualization of the count and age of the
-pull requests (PRs) assigned to teams at edX. Click the bars in this chart to
+pull requests (PRs) assigned to teams at edX. Select the bars in this chart to
 get more information about the PRs.
 
 The `edx-tools`_ wiki lists publicly shared tools for working with the edX
@@ -321,7 +332,7 @@ release-specific documentation is available on docs.edx.org.
   use the Learning Management System (LMS) to run a course.
 
   When you are working in Studio, you can access relevant sections of this
-  guide by clicking **Help** on any page.
+  guide by selecting **Help** on any page.
 
 In addition, the following guides are kept up to date with information about
 the most recently released additions to the platform.
@@ -332,6 +343,28 @@ the most recently released additions to the platform.
 * `Building and Running an Open edX Course - latest`_ includes descriptions of
   features released after the most recent official, named release.
 
+* The `edX Platform Developer's Guide`_ includes guidelines for
+  contributing to Open edX, options for extending the Open edX platform, using
+  the edX public sandboxes, instrumenting analytics, and testing.
+
+* `Open edX XBlock Tutorial`_ guides developers through the process of
+  creating an XBlock, and explains the concepts and anatomy of XBlocks.
+
+* `Open edX XBlock API Guide`_ provides reference information on the XBlock
+  API.
+
+* `EdX Open Learning XML Guide`_ provides guidelines for building edX courses
+  with Open Learning XML (OLX). Note that this guide is currently an alpha
+  version.
+
+* `EdX Data Analytics API`_ provides reference information for using the data
+  analytics API to build applications to view and analyze learner activity in
+  your course.
+
+* `EdX Platform APIs`_ provide reference information for building applications
+  to view course information and videos and work with user and enrollment
+  data.
+
 .. note:: If you use the Safari browser, be aware that it does not support the 
  search feature for `edX documentation`_. This is a known limitation.
 
@@ -341,20 +374,22 @@ the most recently released additions to the platform.
 Resources for Learners
 **************************
 
+==============
 Documentation
--------------
+==============
 
 The `EdX Learner's Guide`_ and the `Open edX Learner's Guide`_ are  available
 on the docs.edx.org web page. Because learners are currently only guided to
 this resource through the courseware, we encourage course teams to provide
 learners with links to these guides as needed in course updates or discussions.
 
+==============
 In a Course
-------------
+==============
 
 All edX courses have a discussion forum where you can ask questions and
-interact with other students and with the course team: click **Discussion**.
-Many courses also offer a wiki for additional resources and materials: click
+interact with other students and with the course team: select **Discussion**.
+Many courses also offer a wiki for additional resources and materials: select
 **Wiki**.
 
 Other resources might also be available, such as a course-specific Facebook
@@ -365,18 +400,19 @@ the **Course Info** page for your course as well as the **Discussion** and
 From time to time, the course team might send email messages to all students.
 While you can opt out of these messages, doing so means that you can miss
 important or time-sensitive information. To change your preferences for course
-email, click **edX** or **edX edge** at the top of any page. On your dashboard
-of current courses, locate the course and then click **Email Settings**.
+email, select **edX** or **edX edge** at the top of any page. On your dashboard
+of current courses, locate the course and then select **Email Settings**.
 
+==========
 From edX
----------
+==========
 
 To help you get started with the edX learning experience, edX offers a course
 (of course!). You can find the edX Demo_ course on the edX web site. EdX also
 maintains a list of `frequently asked questions`_  and answers.
 
 If you still have questions or suggestions, you can get help from the edX
-support team: click **Contact** at the bottom of any edX web page or send an
+support team: select **Contact** at the bottom of any edX web page or send an
 email message to info@edx.org.
 
 For opportunities to meet others who are interested in edX courses, check the
@@ -421,4 +457,5 @@ edX Global Community meetup_ group.
 .. _partners.edx.org: https://partners.edx.org
 .. _Twitter:  http://twitter.com/edXstatus
 .. _Using edX Insights: http://edx-insights.readthedocs.org/en/latest/
-.. _XBlock: http://edx.readthedocs.org/projects/xblock/en/latest/
+.. _Open EdX XBlock API Guide: http://edx.readthedocs.org/projects/xblock/en/latest/
+.. _Open edX XBlock Tutorial: http://edx.readthedocs.org/projects/xblock-tutorial/en/latest/index.html
