@@ -22,6 +22,6 @@ Outline page, see :ref:`Developing Your Course Index`.
    create_video
    create_discussion
    create_problem
-   ../../../shared/building_and_running_chapters/creating_content/CA_TimedExams
-   ../../../shared/building_and_running_chapters/creating_content/CA_ProctoredExams
+   CA_TimedExams
+   CA_ProctoredExams
    libraries
