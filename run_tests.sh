@@ -47,7 +47,7 @@ then
         "en_us/ORA2"
         "en_us/release_notes"
         "en_us/students"
-        "en_us/video"
+        "en_us/xblock-tutorial"
     )
 fi
 
