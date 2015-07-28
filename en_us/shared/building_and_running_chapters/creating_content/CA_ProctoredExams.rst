@@ -20,7 +20,8 @@ In for-credit courses, course teams can create exams that they designate as
 proctored exams. Learners in the Verified track can choose to take the exam as
 proctored and be eligible for course credit, or take the exam as a non-
 proctored exam and not be eligible for course credit. For more information
-about creating proctored exams in Studio, see :ref:`Create a Proctored Exam`.
+about creating proctored exams in Studio, see :ref:`Create a Timed or
+Proctored Exam`.
 
 To earn credit for completing a course, learners take the exam as a proctored
 exam and must receive a passing result for their online proctoring session in
@@ -197,6 +198,9 @@ To enable timed or proctored exams in your course, follow these steps.
 
 #. Select **Save Changes** at the bottom of the page. You can now create timed
    or proctored exams in your course.
+
+For information about creating a timed or proctored exam, see :ref:`Create a
+Timed or Proctored Exam`.
 
 
 .. _Create a Timed or Proctored Exam:
