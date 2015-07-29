@@ -201,12 +201,6 @@ Matching Components in a Randomized Content Block`.
 To view the randomized content that was assigned to a specific learner, see
 :ref:`Specific Student View`. 
 
-.. note:: You cannot use the **Specific student** view for any course content
-   that is visible only to certain groups. For example, if your course uses
-   cohorts or experiment groups, and some courseware is visible only to
-   learners in a particular content group or experiment group, you cannot see
-   that content when you view the live course as a specific student.
-
 
 .. _Edit Components in a Library:
 

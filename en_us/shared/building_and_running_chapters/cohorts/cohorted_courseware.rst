@@ -346,9 +346,8 @@ You can view the course as a member of these groups.
       - You see any content that is intended for all
         students.
     * - Specific Student
-      - Viewing content as a specific student is not available for any content
-        that is visible only to a particular group (content groups and
-        experiment groups).
+      - You see content that is intended for the student whose email or
+        username you specify. 
     * - Student in <Content Group Name>            
       - You see content that is intended for all learners, as well
         as any content specifically set to be visible to this content group.

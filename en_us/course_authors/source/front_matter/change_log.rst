@@ -26,6 +26,12 @@ July 2015
      - Updated the :ref:`Review_Answers` section to remove references to
        features on the Analytics page of the Instructor Dashboard. Course data
        is available in edX Insights.
+   * -  
+     - Added the :ref:`View Specific Student Assigned Problems from Randomized
+       Content Block` and :ref:`Adjust Grades for a Problem from a Randomized
+       Problem Block` sections. Also updated information in the :ref:`Preview
+       Cohort Specific Courseware` and :ref:`View Your Live Course` sections
+       to reflect the ability to preview the courseware as a specific student.
    * - 17 July 2015
      - Added the :ref:`Best Practices for ORA` and :ref:`PA Scoring` sections.
    * - 
