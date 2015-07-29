@@ -11,7 +11,7 @@ adjust the learner's grades. Previewing the actual content that a learner was
 assigned from a randomized content block is available only after the unit is
 published, and after a learner has accessed the unit in the courseware.
 
-For more information, see `Specific Student View`_ in *Building an Running
+For more information, see `Specific Student View`_ in *Building and Running
 an edX Course*.
 
 ====================================================
@@ -19,4 +19,4 @@ Icon Change for Graded Subsections
 ====================================================
 
 The icon in the courseware contents next to a graded subsection has changed
-from a clock to a paper and pencil symbol
+from a clock to a paper and pencil symbol.
