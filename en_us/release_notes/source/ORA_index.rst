@@ -1,8 +1,15 @@
 .. _ORA Index:
 
 ####################################
-edX Open Response Assessments
+EdX Open Response Assessments
 ####################################
+
+The following information describes what is new in edX Open Response
+Assessments.
+
+.. contents::
+  :local:
+  :depth: 2
 
 
 ******************

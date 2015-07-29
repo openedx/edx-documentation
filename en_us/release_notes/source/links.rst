@@ -1,6 +1,14 @@
 
 .. Links
 
+.. _Specific Student View: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/developing_course/testing_courseware.html#specific-student-view
+
+.. _Specific Student View - Open edX: http://edx.readthedocs.org/projects/open-edx-building-and-running-a-course/en/latest/developing_course/testing_courseware.html#specific-student-view
+
+.. _Open edX XBlock Tutorial: http://edx.readthedocs.org/projects/xblock-tutorial/en/latest/
+
+.. _Open edX XBlock API Guide: http://edx.readthedocs.org/projects/xblock/en/latest/
+
 .. _Open edX Portal: http://open.edx.org/
 
 .. _Partner Portal: http://partners.edx.org/

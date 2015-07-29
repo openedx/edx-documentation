@@ -6,6 +6,9 @@
 The following information reflects what is new in the edX Platform as of
 28 January 2015. 
 
+.. contents::
+  :local:
+  :depth: 2
 
 **************************
 Analytics

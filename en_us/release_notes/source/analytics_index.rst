@@ -1,9 +1,20 @@
 .. _Analytics Index:
 
 ####################################
-edX Analytics
+EdX Analytics
 ####################################
 
+The following information describes what is new in edX analytics. 
+
+.. contents::
+  :local:
+  :depth: 2
+
+******************
+28 July 2015
+******************
+
+.. include:: 2015/analytics/analytics_0728_2015.rst
 
 ******************
 17 July 2015

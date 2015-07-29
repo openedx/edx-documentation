@@ -1,8 +1,14 @@
 .. _Discussions Index:
 
 ####################################
-edX Discussions
+EdX Discussions
 ####################################
+
+The following information describes what is new in edX discussions. 
+
+.. contents::
+  :local:
+  :depth: 2
 
 ******************
 2 June 2015

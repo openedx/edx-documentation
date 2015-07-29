@@ -1,8 +1,14 @@
 .. _XBlocks Index:
 
 ####################################
-edX XBlocks
+EdX XBlocks
 ####################################
+
+The following information describes what is new in edX XBlocks. 
+
+.. contents::
+  :local:
+  :depth: 2
 
 ******************
 11 March 2015
