@@ -22,6 +22,9 @@ July 2015
 
    * - Date
      - Change
+   * - 30 July 2015
+     - Updated the :ref:`Working with Problem Components` and :ref:`Numerical
+       Input` sections to clarify how the **Randomization** setting is used.
    * - 28 July 2015
      - Updated the :ref:`Review_Answers` section to remove references to
        features on the Analytics page of the Instructor Dashboard. Course data
