@@ -18,10 +18,12 @@ Proctored Exam Overview
 
 In for-credit courses, course teams can create exams that they designate as
 proctored exams. Learners in the Verified track can choose to take the exam as
-proctored and be eligible for course credit, or take the exam as a non-
-proctored exam and not be eligible for course credit. For more information
-about creating proctored exams in Studio, see :ref:`Create a Timed or
-Proctored Exam`.
+proctored and be eligible for course credit, or take the exam as an open exam
+and not be eligible for course credit. For more information about creating
+proctored exams in Studio, see :ref:`Create a Timed or Proctored Exam`. You
+can :ref:`create a practice proctored exam <Create a Practice Proctored Exam>`
+for your course so that learners can become familiar with the process and you
+can share information about the actual proctored exam ahead of time.
 
 To earn credit for completing a course, learners take the exam as a proctored
 exam and must receive a passing result for their online proctoring session in
@@ -216,7 +218,7 @@ exam, follow these steps.
 
 #. In Studio, in your course outline, add a subsection for your exam.
 
-#. Click the Settings icon to open the settings for the exam.
+#. Select the Settings icon to open the settings for the exam.
 
 #. Select the **This exam is timed** option.
 
@@ -232,9 +234,59 @@ exam, follow these steps.
 For information about how learners experience a proctored exam, see
 :ref:`CA_LearnerExperience_Proctored Exams` or
 :ref:`CA_LearnerExperience_Timed Exams`.
+ 
 
-..For information about creating a practice proctored exam that learners can
-..try, see :ref:{to come}
+.. _Create a Practice Proctored Exam:
+
+===================================
+Create a Practice Proctored Exam
+===================================
+
+You can add a practice proctored exam to your course so that learners can
+confirm that their systems are compatible with the proctoring software and
+familiarize themselves with the steps to perform the identity and environment
+checks. 
+
+.. note:: Unlike actual proctored exams, practice exams are visible to all
+   learners, regardless of the track that they are enrolled in.
+
+Practice exams are not linked to credit eligibility requirements and
+no monitoring by the proctoring software is actually done, but learners will
+be guided through the same steps as in a real proctored exam, to install the
+proctoring software, perform the identify checks and room scan. 
+
+Learners who have performed the proctoring software installation for a
+practice exam are required to perform the same installation step when they
+prepare to take an actual proctored exam, to ensure that they are using the
+latest version of the proctoring software.
+
+
+To create a practice exam, follow these steps.
+
+#. In Studio, in your course outline, add a subsection for the practice exam. 
+
+#. Give a name to the exam that clearly identifies it as a practice exam.
+
+#. Select the Settings icon to open the settings for the exam.
+
+#. Select the **This exam is timed** option.
+
+#. Specify the allotted time for the exam in hours and minutes.
+
+   For a practice exam, edX recommends that you specify a short duration, such as 3 minutes.
+
+#. Select the **This exam is a practice exam** option.
+
+#. Select **Save**.
+
+#. Optionally, add a text component to the exam to provide learners with
+   information about the proctored exam in your course. You might also want to
+   add one or two dummy questions to the exam; if you do, make sure the
+   subsection is not graded.
+
+The practice exam is added to the courseware, and is visible to all learners
+regardless of their enrollment track. It is not graded or proctored, and does
+not affect learners' credit eligibility.
 
 
 .. _Respond to Learner Concerns about Proctored Exams:
@@ -304,6 +356,61 @@ follow these steps.
 
 #. When the exam attempt has been deleted, let the learner know that they can
    retake the exam.
+
+
+.. _Viewing Proctored Exam Results:
+
+************************************
+Viewing Proctored Session Results
+************************************
+
+At any time after learners have taken the proctored exam in your course, you
+can download a .CSV file that displays the status of the proctoring session
+for participating learners.
+
+.. note:: The Proctored Session Results report only shows the result of
+   reviews of the proctored sessions. These results are separate from the
+   learners' grades on the exam.
+
+To generate and download a file of proctoring session results, follow these
+steps.
+
+.. important:: Because the proctoring session results file contains
+   confidential, personally identifiable data which might be subject to the
+   Family Educational Rights and Privacy Act (FERPA), be sure to follow your
+   institution's data stewardship policies when you open or save this file.
+
+
+#. View the live version of your course.
+
+#. In the LMS, select **Instructor**, then select **Data Download**.
+
+#. Select **Generate Proctored Exam Results Report**.
+
+   A status message indicates that the report generation process is in
+   progress. This process can take some time to complete, but you can navigate
+   away from this page and do other work while it runs.
+
+4. To check the progress of the report generation, reload the page in your
+   browser and scroll down to the **Pending Tasks** section. The status of active
+   tasks is shown in the table.
+
+   When the report is complete, a linked .csv file name becomes available above
+   the **Pending Tasks** section. File names are in the format
+   ``{course_id}_grade_report_{datetime}.csv``. The most recently generated
+   reports appear at the top of the list.
+
+5. To open or save a report file, locate and click the link for the report you
+   requested.
+
+   You can open .csv files in a spreadsheet application to sort, graph, and
+   compare data.
+
+.. note:: To prevent the accidental distribution of learner data, you can
+   download exam result report files only by clicking the links on this page.
+   Do not copy these links for reuse elsewhere, as they expire within 5
+   minutes. The links on this page also expire if the page is open for more
+   than 5 minutes. If necessary, refresh the page to generate new links.
 
 
 .. _CA_Situations_Learners_Encounter_Proctored_Exams:
