@@ -4,6 +4,8 @@
 Academic Course Credit
 #########################
 
+.. make sure SFD_introduction.rst is up to date
+
 Some edX courses allow you to purchase academic credit that you can apply
 toward a degree at a college or university. When a course offers academic
 credit, you see an "Earn Credit" indication for the course in the edX list of
@@ -11,12 +13,18 @@ courses.
 
 .. image:: /Images/SFD_Credit_YellowIndicator.png
  :width: 200
- :alt: The Progress page showing requirements for credit eligibility
+ :alt: A course tile showing the "Earn Credit" indication.
 
 To earn academic credit, you must meet a series of requirements, such as
 verifying your identity several times during your course or taking proctored
 exams. After you meet the requirements, you can purchase academic credit for a
 specific time after the course ends (usually one year).
+
+For more information, see the following sections.
+
+.. contents:: 
+  :local:
+  :depth: 1
 
 *****************************
 Enroll for Academic Credit
@@ -26,43 +34,64 @@ To receive academic credit for a course, you must enroll in the verified track
 for the course. For more information about enrolling, see :ref:`SFD Enrolling
 in a Course`.
 
+*****************************
+Complete Identity Checks
+*****************************
+
 When you take a course for academic credit, you might have to complete a
-number of identity checks. You must complete all of the identity checks in the
-course to be eligible for credit. Identity checks include periodic identity
-verification and proctored exams.
+number of identity checks. Identity checks include periodic identity
+verification inside the course and proctored exams.
+
+.. note:: To be eligible for academic credit, you must complete all identity 
+ checks. If you choose not to complete an identity check at any time, you are
+ no longer eligible for credit. You can still receive a verified certificate
+ in the course.
 
 ========================================
-Identity Verification 
+In-Course Identity Verification 
 ========================================
 
-When you take a course for academic credit, you must verify your identity both
-at the beginning of the course and at certain times during the course. For
-example, you may be required to verify your identity before you take each
-exam.
+When your course requires in-course identity verification, you must verify
+your identity at the beginning of the course and then at certain times during
+the course. For example, you may be required to verify your identity before
+you take each exam.
 
-.. note:: To be eligible for academic credit, you must verify your identity 
- every time that you receive a request to verify your identity. If you choose
- not to verify your identity at any time, you are no longer eligible for
- credit. You can still receive a verified certificate in the course.
+When you must verify your identity, you receive an "Identity verification
+required" message in the courseware. You cannot complete any further work in
+the course until you verify your identity or decline to verify your identity.
 
-When you must verify your identity, you receive a message in the
-courseware. Select **Verify Now** to begin the ID verification process. 
+To verify your identity, follow these steps.
 
-To verify your identity during the course, you must take a photo of your face,
-the same way you did at the beginning of the course. You do not have to take a
-photo of your ID again.
+#. In the message you receive, select **Verify Now** to begin the ID
+   verification process.
+
+#. On the **Take Your Photo** page, select the camera icon below your image to
+   take a picture of your face.
+
+   For information about how to take a good photo, review the **To take a
+   successful photo** guidelines to the right of your image.
+
+#. On the **Review Your Photo** page, review your photo. If you are not
+   satisfied with the photo, select **Retake Photo**. When you are satisfied
+   with your photo, select **Submit** in the lower left corner.
+
+A verification confirmation page opens and confirms that you have submitted
+your ID verification photo.
+
+After edX's authorization service examines your photo, you receive a message
+on your dashboard that informs you whether the verification process was
+successful. If the verification process was not successful, you must submit
+new verification photos. You can begin the verification process again by
+selecting **Verify Your Identity**.
 
 For more information about ID verification, see :ref:`SFD Verify Your
 Identity`.
-
-For more information about verified certificates, see :ref:`SFD Verified
-Certificates`.
 
 ===================
 Proctored Exams
 ===================
 
-.. Brief intro
+.. Brief intro from Carol
 
 For more information about proctored exams, see :ref:`getlinkfromCarol`.
 
@@ -102,9 +131,13 @@ To purchase academic credit, follow these steps.
 
 #. On your dashboard, select **Purchase Credit** next to the course that you
    want.
-#. On the **Checkout** page, select the organization that you want to purchase
-   credit from (if applicable), and then select **Check Out** or **Check Out
+#. On the **Checkout** page, make sure that you see the organization that you
+   want to purchase credit from, and then select **Checkout** or **Checkout
    with PayPal**.
+
+.. Yes, I know the last two instances of "Checkout" should be "Check Out".
+.. Long story.
+
 #. Follow the onscreen instructions to complete the payment process. When the
    payment process is complete, a confirmation page opens, and you receive an
    email message.

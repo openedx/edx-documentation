@@ -4,32 +4,45 @@
 Enrolling in a Course
 ##############################
 
-To enroll in a course, on the edX home page, select the course that you want.
-Then, when the About page for the course opens, select **Enroll Now** in the
-upper right corner of the page.
 
-* If your course only offers honor code certificates, you are enrolled in the
-  course after you select **Enroll Now**.
+To enroll in a course, follow these steps.
 
-* If your course offers both honor code certificates and verified
-  certificates, you must select the type of certificate you want after you
-  select **Enroll Now**.
+#. On the edX home page, select the course that you want.
+#. When the About page for the course opens, select **Enroll Now** in the
+   upper right corner of the page.
 
-	* To work toward an honor code certificate, select **Audit This Course**.
+    * If your course only offers honor code certificates, you are enrolled in
+      the course after you select **Enroll Now**.
 
-  * To work toward a verified certificate, select **Pursue a Verified
-    Certificate**, and then follow the steps to verify your identity. For more
-    information, see :ref:`SFD Verify Your Identity`.
+    * If your course offers both honor code certificates and verified
+      certificates, you must select the type of certificate you want after you
+      select **Enroll Now**.
 
-For more information about honor code certificates and verified certificates,
-see :ref:`Certificates`.
+      * To work toward an honor code certificate, select **Audit This
+        Course**.
 
-After you successfully enroll in the course, your dashboard opens. You can see
-the new course in your list of courses.
+      * To work toward a verified certificate, select **Pursue a Verified
+        Certificate**, and then follow the onscreen instructions to pay the
+        course fee and verify your identity. You must pay the course fee
+        before you can begin the course. You do not have to verify your
+        identity immediately, but you must verify your identity before the
+        course ID verification deadline has passed. For more information, see
+        :ref:`SFD Verify Your Identity`.
+
+      For more information about honor code certificates and verified certificates,
+      see :ref:`Certificates`.
+
+#. When your dashboard opens, verify that you can see the new course in your
+   list of courses.
 
 If you select **View Course** on your dashboard, the **Course Info** page for
 the course opens. If the course has already started, you can select the
 **Courseware** page to access released course materials.
+
+.. note:: Course instructors occasionally enroll learners directly in a 
+ course. If this is the case, you receive an email that contains a link to the
+ course. Select the link to enroll in the course.
+
 
 .. _SFD Verify Your Identity:
 
@@ -37,16 +50,16 @@ the course opens. If the course has already started, you can select the
 Verify Your Identity
 ******************************
 
-When you enroll in the verified certificate track for a course, you have to
-verify your identity at the beginning of the course. You might also have to
-verify your identity at different times during the course, such as before you
-take an exam.
+When you enroll in the verified certificate track for a course, you do not
+have to verify your identity immediately, but you must verify your identity
+before the course ID verification deadline. You can see the deadline below the
+name of the course on your dashboard.
 
 To verify your identity, you use a webcam to submit a photo of yourself and of
-an official ID to edX's authorization service. We encrypt your photos and use
-the highest levels of security available to protect your data. If your
-computer does not have a webcam, you must verify your identity on a computer
-that has a webcam.
+a government-issued photo ID to edX's authorization service. We encrypt your
+photos and use the highest levels of security available to protect your data.
+If your computer does not have a webcam, you must verify your identity on a
+computer that does have a webcam.
 
 When you verify your identity for one course, you verify your identity for all
 edX courses. Verification is effective for one year. If you enroll in another
@@ -70,8 +83,8 @@ To verify your identity, follow these steps.
      verify your identity, select **Verify Now** next to the course
      on your dashboard.
 
-#. On the **Take Your Photo** page, select the camera icon below your image to take
-   a picture of your face.
+#. On the **Take Your Photo** page, select the camera icon below your image to
+   take a picture of your face.
 
    For information about how to take a good photo, review the **To take a
    successful photo** guidelines to the right of your image.
@@ -96,9 +109,9 @@ To verify your identity, follow these steps.
 
    .. note:: If your ID uses non-Roman characters, you must enter a full 
     name for your edX account in this step so that it also uses non-Roman
-    characters. To do this, select **Edit Your Name** in the list of
-    requirements, and then enter your name in non-Roman characters in the text
-    box.
+    characters to match your ID. To do this, select **Edit Your Name** in the
+    list of requirements, and then enter your name in non-Roman characters in
+    the text box.
 
      .. image:: ../../shared/students/Images/SFD_VerifyID_NonRoman.png
       :width: 500
@@ -109,9 +122,9 @@ To verify your identity, follow these steps.
 A verification confirmation page opens and confirms that you have submitted
 your ID verification photos.
 
-After edX's authorization service examines your photos, a message on your
-dashboard informs you whether the verification process was successful. If the
-verification process was not successful, you must submit new verification
-photos. You can begin the verification process again by selecting **Verify
-Your Identity**.
+After edX's authorization service examines your photo, you receive a message
+on your dashboard that informs you whether the verification process was
+successful. If the verification process was not successful, you must submit
+new verification photos. You can begin the verification process again by
+selecting **Verify Your Identity**.
 

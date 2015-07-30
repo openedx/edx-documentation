@@ -160,8 +160,10 @@ Certificates are distributed shortly after a course ends--usually within two
 weeks. After the course ends, you'll see the following message under the course
 name on your dashboard:
 
-``Final course details are being wrapped up at this time. Your final standing
-will be available shortly.``
+::
+
+  Final course details are being wrapped up at this time. Your final standing
+  will be available shortly.
 
 When your certificate is ready, your dashboard will show you your final grade
 for the class as well as a link to your certificate.
@@ -255,12 +257,3 @@ certificate, follow these steps.
 
    * To download your certificate from your dashboard, select **Download Your
      Certificate** next to the name of your course.
-
-Update Your Certificate
-========================
-
-If you want to update your certificate with a different name or an improved
-grade, click **Update Certificate** on either your **Progress** page or your
-dashboard to request and download a new certificate. If you want to change the
-name on the certificate, make sure that you change your full name on the
-**Account Settings** page before you request the new certificate.
