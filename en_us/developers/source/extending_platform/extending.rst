@@ -10,16 +10,24 @@ and innovative educational content in your courses.
 
 This section of the developers' documentation lists and explains the different ways to extend the platform, starting with the following table. Click the name of the extension type in the column header for more information.
 
+.. |br| raw:: html
+
+  <br />
+
 .. list-table::
    :widths: 10 10 10 10 10 10
    :header-rows: 1
 
    * - 
-     - :ref:`Custom JavaScript Applications`
+     - Custom |br|
+       JavaScript |br|
+       Applications*
      - LTI
-     - External Graders
+     - External |br|
+       Graders
      - XBlocks
-     - Platform Customization
+     - Platform |br|
+       Customization
    * - Development Cost
      - Low
      - Low
@@ -87,3 +95,4 @@ This section of the developers' documentation lists and explains the different w
      - No
      - No
 
+(*) :ref:`Custom JavaScript Applications`
