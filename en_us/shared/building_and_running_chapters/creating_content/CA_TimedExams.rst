@@ -25,6 +25,8 @@ In some situations, for example to accommodate learners with disabilities, you
 can allow a specific learner more time to complete a timed exam. For
 information, see :ref:`Requests for Additional Time`.
 
+.. Product, please confirm. If courses that are not using proctoring want to use timed exams, will they have a channel to edX Support, to ask Support to create allowances for them?
+
 
 .. _CA_LearnerExperience_Timed Exams:
 
@@ -32,10 +34,18 @@ information, see :ref:`Requests for Additional Time`.
 The Learner Experience of Timed Exams
 ==============================================
 
+In the courseware, learners see a clock icon to indicate that an exam has a
+time limit.
+
+.. Add image
+
 Taking a timed exam is the same for a learner as taking any other exam in a
 course, except that a countdown timer is visible at the top of the courseware
-page during the exam. Warnings are displayed when there is 20% and 5% of
-allotted time remaining.
+page during the exam. The timer begins to count down from the allowed time of
+the exam as soon as the learner selects **OK** to start the exam. Warnings are
+displayed when there is 20% and 5% of allotted time remaining.
+
+.. Need to verify workflow
 
 When learners complete the exam, or when the countdown timer reaches 00:00,
 they no longer have access to the exam. Answers that they have completed are
