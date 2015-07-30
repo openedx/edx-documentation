@@ -42,23 +42,25 @@ Software Prerequisites
 To install and run the Analytics Devstack, you must first install the base
 :ref:`Open edX Developer Stack <Installing the Open edX Developer Stack>`.
 
-You also need to install the Open edX Analytics Configuration tools in order
-to run the Open edX Analytics Pipeline. To install the Open edX Analytics
-Configuration tools follow the instructions below.
+Open edX Analytics Pipeline includes a tool that is used to deploy itself.
+In order to make use of these tools, follow the instructions below.
 
 
 1. Clone the repository.
 
   .. code-block:: bash
 
-     git clone https://github.com/edx/edx-analytics-configuration
+     git clone https://github.com/edx/edx-analytics-pipeline
 
 
-#. Install the project dependencies.
+2. Install the project dependencies.
 
   .. code-block:: bash
 
-     make deps
+     make bootstrap
+
+The system is now ready to start running tasks on the Analytics Devstack
+using the `remote-task` tool.
 
   
 .. _Install the Analytics Devstack:  
@@ -181,24 +183,26 @@ Run the Open edX Analytics Pipeline
 
 #. Create a new user in the LMS and enroll in the demo course.
 
-#. Navigate to the location where edx-analytics-configuration project was cloned.
+#. Navigate to the courseware and submit answers to a few problems.
+
+#. Navigate to the location where edx-analytics-pipeline project was cloned on the host.
    
    .. code-block:: bash
 
-     cd edx-analytics-configuration
+     cd edx-analytics-pipeline
 
 #. Run the enrollment task.
    
    .. code-block:: bash
 
-     bin/remote-task --vagrant-path <path to `devstack`> --remote-name devstack --override-config ${PWD}/batch/config/devstack.cfg --wait \
+     remote-task --vagrant-path <path to `devstack`> --remote-name devstack --override-config ${PWD}/config/devstack.cfg --wait \
         ImportEnrollmentsIntoMysql --local-scheduler --interval-end $(date +%Y-%m-%d -d "tomorrow") --n-reduce-tasks 1
 
 #. Run the answer distribution task.
 
    .. code-block:: bash
 
-    bin/remote-task --vagrant-path <path to `devstack`> --remote-name devstack --override-config ${PWD}/batch/config/devstack.cfg --wait \
+    remote-task --vagrant-path <path to `devstack`> --remote-name devstack --override-config ${PWD}/config/devstack.cfg --wait \
         AnswerDistributionWorkflow --local-scheduler \
           --src hdfs://localhost:9000/data/ \
           --include '*tracking.log*' \
