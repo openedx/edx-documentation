@@ -21,5 +21,6 @@ see :ref:`Developing Your Course Index`.
    pages
    textbooks
    establish_grading_policy
+   course_credit
    course_rerun
    export_import_course
