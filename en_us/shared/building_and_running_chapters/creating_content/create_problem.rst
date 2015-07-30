@@ -280,12 +280,8 @@ Problem Settings
 ******************
 
 In addition to the text of the problem, problems that you create using a
-problem component have the following settings. These settings appear on the
-**Settings** tab in the component editor.
-
-.. image:: ../../../shared/building_and_running_chapters/Images/ProbComponent_Attributes.png
- :alt: An image of the Settings tab in a problem component.
- :width: 450
+problem component have the following settings. To access these settings you
+select **Settings** in the component editor.
 
 .. contents::
   :local:
@@ -411,7 +407,8 @@ setting specifies how frequently the values in the problem change: each time a
 different learner accesses the problem, each time a single learner tries to
 answer the problem, both, or never.
 
-.. note:: This setting should be **Never** for every problem that is not configured for random number generation. 
+.. note:: This setting should only be set to an option other than **Never** 
+ for problems that are configured to do random number generation.
 
 For example, in this problem, the highlighted values change each time a learner
 submits an answer to the problem.
@@ -425,8 +422,11 @@ If you want to randomize numeric values in a problem, you complete both of
 these steps.
 
 * Make sure that you edit your problem to include a Python script that randomly
-  generates numbers. For more information, see :ref:`Use Randomization in a
+  generates numbers. 
+
+..  For more information, see :ref:`Use Randomization in a
   Numerical Input Problem`.
+.. ^^ add back when DOC-2175 gets done - Alison 30 Jul 15  
 
 * Select an option other than **Never** for the **Randomization** setting. 
 
@@ -450,12 +450,12 @@ For more information, see :ref:`Student_Answer_Distribution` in this guide, or
 in *Using edX Insights*.
  
 .. important:: Whenever you choose an option other than **Never** for a 
- problem, the Answer Distribution report and edX Insights include up to 20
- variants for the problem, even if the problem was not actually configured to
- include randomly generated values. This can make data collected for problems
- that cannot include randomly generated values, (including, but not limited to,
- all multiple choice, checkboxes, dropdown, and text input problems), extremely
- difficult to interpret.
+ problem, the computations for the Answer Distribution report and edX Insights
+ include up to 20 variants for the problem, even if the problem was not
+ actually configured to include randomly generated values. This can make data
+ collected for problems that cannot include randomly generated values,
+ (including, but not limited to, all multiple choice, checkboxes, dropdown, and
+ text input problems), extremely difficult to interpret.
 
 You can choose the following options for the **Randomization** setting.
 
@@ -523,7 +523,7 @@ the following options
    * - **Past Due**
      - Show the answer after the due date for the problem has passed.
    * - **Past Due**
-     - Never show the answer. In this case, the Show Answer button does not
+     - Never show the answer. In this case, a **Show Answer** button does not
        appear next to the problem in Studio or in the LMS.
 
 .. _Show Reset Button:

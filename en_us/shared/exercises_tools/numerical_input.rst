@@ -590,69 +590,6 @@ Specifies a hint available to the learner.
   
   (none)
 
-.. _Use Randomization in a Numerical Input Problem:
-
-*****************************************************
-Use Randomization in a Numerical Input Problem
-*****************************************************
-
-You can randomize values in a numerical input problem by using the advanced
-editor. To randomize values, you include a Python script in the problem. The
-script, which is similar to a :ref:`Write Your Own Grader` script, performs
-these functions.
-
-* The script must include instructions to generate random numbers. An example
-  is ``float(random.randrange(10,100,10))``. 
-
-  The **Randomization** setting for the problem defines how frequently a new
-  value is generated. For more information, see :ref:`Randomization`.
-
-* The script should include a way to pass the randomly generated values into
-  the question that learners see. To do this, you can prefix the variable names
-  with dollar signs ($). 
-
-  In the example that follows, the randomly generated numbers are identified as
-  ``V1`` and ``V2`` in the script. As a result, the question that learners see
-  references the numbers as ``$V1`` and ``$V2``.
-
-An example of a problem that asks learners to find the sum of two randomly
-generated values follows.
-
-.. code-block:: xml
-
-     <problem>
-     <script type="loncapa/python">
-     V1 = float(random.randrange(10,100,10))
-     V2 = float(random.randrange(10,100,10))
-     totalvolume = V1+V2
-     </script>
-     <startouttext/>
-     <p> What is the sum of $V1 and $V2?</p>
-     <endouttext/>
-     <numericalresponse answer="$totalvolume">
-     <responseparam type="tolerance" default="5%" name="tol" description="Numerical Tolerance"/>
-     <textline/>
-     </numericalresponse>
-     </problem>
-
-The edX Platform has a 20-seed maximum for randomization. This means that
-learners see up to 20 different problem variants for every problem that has
-**Randomization** set to an option other than **Never**. It also means that
-every answer for the 20 different variants is reported by the Answer
-Distribution report and edX Insights. Limiting the number of variants to a
-maximum of 20 allows for better analysis of learner submissions by allowing you
-to detect common incorrect answers and usage patterns for such answers.
-
-For more information, see :ref:`Student_Answer_Distribution` in this guide,  or
-`Review Answers to Graded Problems`_ or `Review Answers to Ungraded Problems`_
-in *Using edX Insights*.
-
-
-
 .. _Math Response Formatting for Students: http://edx-guide-for-students.readthedocs.org/en/latest/SFD_mathformatting.html
 
 .. _Using edX Insights: http://edx.readthedocs.org/projects/edx-insights/en/latest/
-
-.. _Review Answers to Graded Problems: http://edx.readthedocs.org/projects/edx-insights/en/latest/performance/Performance_Answers.html#review-answers-to-graded-problems
-
-.. _Review Answers to Ungraded Problems: http://edx.readthedocs.org/projects/edx-insights/en/latest/performance/Performance_Ungraded.html#review-answers-to-ungraded-problems
