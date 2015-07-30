@@ -237,18 +237,6 @@ have qualified for the certificate, follow these steps.
    * To access your certificate from your dashboard, select **View
      Certificate** next to the name of your course.
 
-
-Update Your Certificate
-========================
-
-If you want to update the certificate from your self-paced course with a
-different name or an improved grade, click **Update Certificate** on either
-your **Progress** page or your dashboard to request and download a new
-certificate. If you want to change the name on the certificate, make sure that
-you change your full name on the **Account Settings** page before you request
-the new certificate.
-
-
 .. _Sharing Your Certificate:
 
 ****************************
