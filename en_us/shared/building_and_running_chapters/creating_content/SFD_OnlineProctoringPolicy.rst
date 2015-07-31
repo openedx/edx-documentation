@@ -1,1 +1,146 @@
-.. include:: ../../../shared/students/sfd_proctoredexams/SFD_OnlineProctoringPolicy.rst
+.. _Online Proctoring Rules:
+
+##############################
+Online Proctoring Rules
+##############################
+
+EdX.org uses an online proctoring service for certain exams (typically final
+exams) that are part of courses that can be made eligible for credit. Students
+taking proctored exams are required to adhere to the following rules to
+receive a Pass result from the proctoring service.
+
+Students are responsible for testing their systems with the proctoring
+software well in advance of all online proctored exams in their courses, so
+that any troubleshooting that is required can be accomplished. Students can
+refer to the free Demo Course on edX.org, where they can configure and
+experience a sample proctored exam.
+
+As with other ID-verified assessments and exams, students will be asked to
+establish their identity during the proctored exam process by supplying a
+government-issued photo ID.
+
+*****************************
+Test Environment Requirements
+*****************************
+
+To pass a proctored exam, students must make sure that the environment in
+which they take the exam meets the following requirements.
+
+=====================================
+The Room You are Taking the Test In
+=====================================
+
+#. Make sure the room is well lit. The lighting in the room must be bright enough to be considered "daylight" quality. Overhead lighting is preferred. If overhead lighting is not available, the source of light should not be behind you. 
+
+#. Sit at a clean desk or table, not on a bed or couch.
+
+#. Clear the desk or table of all materials such as books, papers, notebooks,
+   calculators, and so on, unless you have been specifically permitted (in
+   posted guidelines) to have such materials available for a particular
+   examination.
+
+In addition to pens, paper, calculators, textbooks, and notebooks, the following tools should not be on your desk or used during your proctored exam. 
+
+  * Programs such as Excel, Word, Powerpoint.
+  * Any website other than edX.org.
+  * Communication programs such as Skype.
+
+#. Make sure there is no writing visible on the desk or on the walls around
+   you.
+
+#. Make sure you do not have more than one display or monitor connected to the
+   computer on which you are taking the exam.
+
+#. Do not have music or television playing in the background during the exam.
+
+#. Do not use headphones, ear buds, or any other type of listening equipment.
+
+#. Do not talk to anyone else. During the proctored exam you must not
+   communicate with any other person by any means.
+
+#. Do not use a phone for any reason during the proctored exam.
+
+#. While you are taking the proctored exam, no other person is allowed to
+   enter the room in which you are taking the exam.
+
+#. The room you take the exam in must be the same room in which you performed
+   the room scan during the proctoring session setup.
+
+#. Do not leave the room during the exam for any reason, unless you have been
+   specifically permitted to do so in posted guidelines for a particular exam.
+
+#. Do not move to another room during the exam. The exam must be completed in
+   the same room that the proctoring webcam scan is performed in.
+
+
+==========================================
+The Computer You are Taking the Test With
+==========================================
+
+#. Make sure you do not have more than one display or monitor connected to the
+   computer on which you are taking the exam. For example, if you usually use
+   a laptop with a monitor connected, disconnect your monitor and use only the
+   laptop screen.
+
+#. Before starting your proctored exam, close all other programs or windows on
+   your testing computer.
+
+#. The following tools should not be during your proctored exam. 
+
+  * Programs such as Excel, Word, Powerpoint.
+  * Any website other than edX.org.
+  * Communication programs such as Skype.
+
+
+==========================================
+Your Personal Behavior
+==========================================
+
+#. Dress as if you are in a public setting.
+
+#. Do not leave the room during the exam for any reason, unless you have been
+   specifically permitted to do so in posted guidelines for a particular exam.
+
+#. Do not move to another room during the exam. The exam must be completed in
+   the same room that the proctoring webcam scan is performed in.
+
+#. Do not have music or television playing in the background.
+
+#. Do not use headphones, ear buds, or any other type of listening equipment.
+
+#. Do not talk to anyone else. During the proctored exam you must not
+   communicate with any other person by any means.
+
+#. Do not use a phone for any reason during the proctored exam.
+
+#. While you are taking the proctored exam, no other person is allowed to
+   enter the room in which you are taking the exam.
+
+
+************************************
+Consequences of Violating the Policy
+************************************
+
+If you are flagged for cheating, you will be contacted directly by edx.org and
+subject to penalties as articulated in the edx.org honor code and exam
+guidelines.
+
+For other violations, you might be notified by edx.org on behalf of ASU.
+This notification will be delivered by email after proctoring session reviews are complete.
+
+.. note:: The intent of these warnings is to allow you the chance to modify
+   your behavior to comply with this policy before punitive action is
+   required. As outlined in edx.org’s policy, repeat offences will be subject
+   to review and may result in a failing grade or expulsion.
+
+If you have questions or need help, go to http://edx.org to contact edX
+Support.
+
+
+For support, please go to: http://edx.org
+
+
+
+
+
+
