@@ -368,11 +368,47 @@ follow these steps.
    retake the exam.
 
 
+.. _Proctored Exam Results:
+
+******************************
+Proctored Exam Results
+******************************
+
+The proctoring software monitors both the screen activity and webcam view of
+learners. When learners complete a proctored exam, their proctoring session
+data is uploaded for review by the proctoring service provider. Reviewers
+apply defined criteria including the :ref:`Online Proctoring Rules <Online
+Proctoring Rules>` to decide whether any observed behavior should be flagged.
+
+Two results are possible for proctoring session reviews.
+*  **Verified** - the learner has passed the proctoring review.
+
+*  **Rejected** - Some suspicious activity has been observed and the learner
+   has not passed the proctoring review.
+
+Some learner behavior that is listed in the Online Proctoring Rules is
+discouraged, but does not impact the integrity of the exam. Violations in
+these cases might be flagged but learners with such flags will still receive a
+**Verified** result. For example, a learner is discouraged from playing music
+or having a TV on in the background while they take their exam, but if their
+session recording shows such behavior, it is still possible for them to
+receive a **Verified** result for their proctoring session results, as long as
+there are no instances of suspicious activity that do seem to indicate
+cheating.
+
+Activities that would cause learners to fail their proctoring session review
+include not providing a photo ID, using a second computer during the proctored
+exam, appearing to read the exam to another person in the room, displaying
+nudity or explicit materials or browsing adult-based content. If there is even
+one instance of such activity, learners receive a **Rejected** result for
+their proctoring session.
+
+
 .. _Viewing Proctored Exam Results:
 
-************************************
+=================================
 Viewing Proctored Session Results
-************************************
+=================================
 
 At any time after learners have taken the proctored exam in your course, you
 can download a .CSV file that displays the status of the proctoring session
@@ -460,29 +496,68 @@ for grading.
 If the exam is also a proctored exam, the proctoring session automatically
 ends when the exam ends, and the proctoring session data is uploaded for review. 
 
-.. Is this true that the proctoring session automatically ends?
-
 
 =======================================================
 Closing a Browser Window Before The End of the Exam
 =======================================================
 
-If a learner closes either the proctoring software window or the edx.org
-browser window while a proctored exam is in progress, they see an alert
-message warning them that they are ending their exam. If they continue to
-close either of the windows, both the exam and the proctoring session end. 
+Several situations might arise during the exam. This section describes the
+result of each of these situations.
 
-In general, answers in the exam up to the point that the session ended are submitted for grading, but the proctoring session recording might not be completely uploaded. 
+In some cases, course team members will have to decide whether the exam
+results that were obtained are valid, or whether the exam attempt should be
+cleared and the learner given an opportunity to retake the exam. For more
+information, see :ref:`Requests for Retaking a Proctored Exam`.
 
-If either the proctoring software or the exam window terminate unexpectedly
-due to a system error rather than a learner action, the alert message might
-not be shown, but the results in terms of the answer submission and the
-proctoring session upload are the same.
 
-Course team members will have to decide whether the exam results that were
-obtained are valid, or whether the exam attempt should be cleared and the
-learner given an opportunity to retake the exam. For more information, see
-:ref:`Requests for Retaking a Proctored Exam`.
+The Proctoring Software Terminates Unexpectedly
++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+If the proctoring software crashes, the LMS alerts learners and stops the
+exam. Learners should contact edX Support in this situation.
+
+
+The edX Browser Terminates Unexpectedly
++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+If the browser in which the edX exam is running crashes, the exam timer for
+each learner continues to run. Learners can reopen their exam in a new browser
+window and continue their exam, but they will have lost time while the browser was closed. 
+
+.. Question: how does the proctoring software view such a break in taking the exam?
+
+
+Learners Close the Proctoring Software Window
++++++++++++++++++++++++++++++++++++++++++++++++
+
+If learners close their proctoring software windows before they have completed
+a proctored exam, they see alert messages warning them that they are ending
+their exam. If they continue to close the proctoring software window, both the
+exam and the proctoring session end.
+
+The exam is stopped in the LMS. Answers in the exam up to the point that the
+session ended are submitted for grading, but the proctoring session recording
+might not be completely uploaded. Learners should contact edX Support in this
+situation.
+
+
+Learners Close the edX Exam Window
++++++++++++++++++++++++++++++++++++
+
+If learners close the browser in which their edX proctored exam is running
+before they have completed the exam, they do not see any alerts. The exam
+timer for each learner continues to run. If learners reopen their exam in a
+new browser window, they can continue their exam, but they will have lost time
+while the browser was closed.
+
+.. Question: how does the proctoring software view such a break in taking the exam?
+
+
+
+
+
+
+
 
 
 
