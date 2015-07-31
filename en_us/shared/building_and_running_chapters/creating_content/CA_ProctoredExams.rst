@@ -48,8 +48,8 @@ monitoring the test environment and screen activity as the learner takes the
 exam.
 
 For more information about the technical requirements for taking a proctored
-exam, and edX's Online Proctoring Rules, see :ref:`Preparing Learners for
-Proctored Exams`.
+exam, and edX's :ref:`Online Proctoring Rules <Online Proctoring Rules>`, see
+:ref:`Preparing Learners for Proctored Exams`.
 
 ===============================
 Proctored Exam Session Results
@@ -58,7 +58,9 @@ Proctored Exam Session Results
 When learners complete a proctored exam, either by submitting their answers or
 when the time expires for the exam, the proctoring session data is uploaded to
 the third party proctoring service provider. This data is reviewed for
-adherence to :ref:`edX's Online Proctoring Rules <SFD_OnlineProctoringPolicy>`, and when the review is complete, a result is returned for each learner who took the exam as a proctored exam.
+adherence to :ref:`Online Proctoring Rules <Online Proctoring Rules>`, and
+when the review is complete, a result is returned for each learner who took
+the exam as a proctored exam.
 
 When proctoring session results become available, course staff can download a
 report that lists proctoring results for learners in their course. For more
@@ -189,6 +191,7 @@ The following list represents only some of the requirements listed in the
 Enabling Timed or Proctored Exams in Your Course
 **************************************************
 
+
 To enable timed or proctored exams in your course, follow these steps.
 
 .. note:: Proctored exams are always also timed exams.
@@ -203,8 +206,12 @@ To enable timed or proctored exams in your course, follow these steps.
 #. Select **Save Changes** at the bottom of the page. You can now create timed
    or proctored exams in your course.
 
-For information about creating a timed or proctored exam, see :ref:`Create a
-Timed or Proctored Exam`.
+When you have enabled this setting for your course, you can perform the
+following tasks.
+
+.. contents::
+ :local:
+ :depth: 1
 
 
 .. _Create a Timed or Proctored Exam:
@@ -234,8 +241,10 @@ exam, follow these steps.
 #. Select **Save**.
 
 For information about how learners experience a proctored exam, see
-:ref:`CA_LearnerExperience_Proctored Exams`.
- 
+:ref:`CA_LearnerExperience_Proctored Exams`. For information about creating a
+practice exam that learners can take, see :ref:`Create a Practice Proctored
+Exam`.
+
 
 .. _Create a Practice Proctored Exam:
 
@@ -256,8 +265,6 @@ no monitoring by the proctoring software is actually done, but learners will
 be guided through the same steps as in a real proctored exam, to install the
 proctoring software, perform the identify checks and room scan. 
 
-.. note:: Make sure you create the practice exam as an ungraded exam.
-
 Learners who have performed the proctoring software installation for a
 practice exam are required to perform the same installation step when they
 prepare to take an actual proctored exam, to ensure that they are using the
@@ -265,6 +272,8 @@ latest version of the proctoring software.
 
 
 To create a practice exam, follow these steps.
+
+.. note:: Make sure you create the practice exam as an ungraded exam.
 
 #. In Studio, in your course outline, add a subsection for the practice exam. 
 
@@ -368,7 +377,7 @@ follow these steps.
 .. _Proctored Exam Results:
 
 ******************************
-Proctored Exam Results
+Proctored Session Results
 ******************************
 
 The proctoring software monitors both the screen activity and webcam view of
