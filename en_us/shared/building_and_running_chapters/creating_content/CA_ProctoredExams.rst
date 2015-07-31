@@ -22,8 +22,9 @@ proctored and be eligible for course credit, or take the exam as an open exam
 and not be eligible for course credit. For more information about creating
 proctored exams in Studio, see :ref:`Create a Timed or Proctored Exam`. You
 can :ref:`create a practice proctored exam <Create a Practice Proctored Exam>`
-for your course so that learners can become familiar with the process and you
-can share information about the actual proctored exam ahead of time.
+for your course so that learners can become familiar with the process of
+installing proctoring software and performing the required checks ahead of
+time.
 
 To earn credit for completing a course, learners take the exam as a proctored
 exam and must receive a passing result for their online proctoring session in
@@ -55,13 +56,11 @@ Proctored Exam Session Results
 ===============================
 
 When learners complete a proctored exam, either by submitting their answers or
-when the time expires for the exam, proctoring data is uploaded to the third
-party proctoring service provider. This data is reviewed for adherence to
-edX's Online Proctoring Rules :ref:(ADD LINK), and when the review is complete, a
-Pass or Fail result is returned for each learner who took the exam as a
-proctored exam.
-
-.. Verify how course staff check proctoring results for students.
+when the time expires for the exam, the proctoring session data is uploaded to
+the third party proctoring service provider. This data is reviewed for
+adherence to :ref:`edX's Online Proctoring Rules
+<SFD_OnlineProctoringPolicy>`, and when the review is complete, a result is
+returned for each learner who took the exam as a proctored exam.
 
 When proctoring session results become available, course staff can download a
 report that lists proctoring results for learners in their course. For more
@@ -71,11 +70,9 @@ information, see :ref:`Reviewing Proctoring Results for Learners`.
 .. etc. that is triggered to indicate that they can go ahead with requesting
 .. credit? Anything visible in the UI?
 
-Learners who have achieved passing grades in the course as well as Pass
-results for the proctored exam are shown as eligible for credit on their
+Learners who have achieved passing grades in the course as well as a Verified
+result for the proctored exam are shown as eligible for credit on their
 Progress pages.
-
-.. integration points with the Sylvia's credit eligibility doc?
 
 
 .. _CA_LearnerExperience_Proctored Exams:
@@ -145,9 +142,16 @@ Proctoring Rules <Online Proctoring Rules>`. Emphasize that learners must be
 aware of the requirements before taking the exam, and that some of the
 requirements might take some preparation.
 
-.. note:: When learners agree to the exam with online proctoring and start the
-   process of installing the proctoring software, they must continue through
-   to taking the exam as soon as that process is completed.
+You can also create a practice proctored exam that is visible to all learners.
+This ungraded exam provides an opportunity for learners to experience the
+proctoring software setup process and make sure their computers are compatible
+with the software. For more information, see :ref:`Create a Practice Proctored
+Exam`.
+
+.. note:: In an actual proctored exam, as soon as learners agree to take the
+   exam with online proctoring and start the process of installing the
+   proctoring software, they must continue through to taking the exam as soon
+   as that process is completed.
 
 The following list represents only some of the requirements listed in the
 :ref:`Online Proctoring Rules <Online Proctoring Rules>`.
@@ -255,6 +259,8 @@ no monitoring by the proctoring software is actually done, but learners will
 be guided through the same steps as in a real proctored exam, to install the
 proctoring software, perform the identify checks and room scan. 
 
+.. note:: Make sure you create the practice exam as an ungraded exam.
+
 Learners who have performed the proctoring software installation for a
 practice exam are required to perform the same installation step when they
 prepare to take an actual proctored exam, to ensure that they are using the
@@ -269,11 +275,17 @@ To create a practice exam, follow these steps.
 
 #. Select the Settings icon to open the settings for the exam.
 
+#. Make sure the exam is specified as **Not Graded**.
+
 #. Select the **This exam is timed** option.
 
 #. Specify the allotted time for the exam in hours and minutes.
 
-   For a practice exam, edX recommends that you specify a short duration, such as 3 minutes.
+   For a practice exam, edX recommends that you specify a relativelyshort
+   duration that is appropriate for the number of example problems you
+   include.
+
+#. Select the **This exam is proctored** option.   
 
 #. Select the **This exam is a practice exam** option.
 
@@ -281,12 +293,10 @@ To create a practice exam, follow these steps.
 
 #. Optionally, add a text component to the exam to provide learners with
    information about the proctored exam in your course. You might also want to
-   add one or two dummy questions to the exam; if you do, make sure the
-   subsection is not graded.
+   add a few dummy questions to the exam.
 
 The practice exam is added to the courseware, and is visible to all learners
-regardless of their enrollment track. It is not graded or proctored, and does
-not affect learners' credit eligibility.
+regardless of their enrollment track. 
 
 
 .. _Respond to Learner Concerns about Proctored Exams:
