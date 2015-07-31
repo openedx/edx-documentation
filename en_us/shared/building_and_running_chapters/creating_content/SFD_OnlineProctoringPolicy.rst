@@ -1,1 +1,1 @@
-.. include:: ../../shared/students/SFD_OnlineProctoringPolicy.rst
+.. include:: ../../shared/students/sfd_proctoredexams/SFD_OnlineProctoringPolicy.rst

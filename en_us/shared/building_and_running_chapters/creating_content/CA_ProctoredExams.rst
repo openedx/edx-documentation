@@ -4,7 +4,7 @@
 Including Proctored Exams In Your Course
 ##########################################
 
-This section describes how to create and monitor proctored exams in Studio.
+This section describes how to create and manage proctored exams in Studio.
 
 .. contents::
  :local:
@@ -58,13 +58,12 @@ Proctored Exam Session Results
 When learners complete a proctored exam, either by submitting their answers or
 when the time expires for the exam, the proctoring session data is uploaded to
 the third party proctoring service provider. This data is reviewed for
-adherence to :ref:`edX's Online Proctoring Rules
-<SFD_OnlineProctoringPolicy>`, and when the review is complete, a result is
+adherence to :ref:`edX's Online Proctoring Rules <SFD_OnlineProctoringPolicy>`, and when the review is complete, a result is
 returned for each learner who took the exam as a proctored exam.
 
 When proctoring session results become available, course staff can download a
 report that lists proctoring results for learners in their course. For more
-information, see :ref:`Reviewing Proctoring Results for Learners`.
+information, see :ref:`Proctored Exam Results`.
 
 .. For passing students, is there some visible status change for certificates
 .. etc. that is triggered to indicate that they can go ahead with requesting
@@ -236,8 +235,7 @@ exam, follow these steps.
 #. Select **Save**.
 
 For information about how learners experience a proctored exam, see
-:ref:`CA_LearnerExperience_Proctored Exams` or
-:ref:`CA_LearnerExperience_Timed Exams`.
+:ref:`CA_LearnerExperience_Proctored Exams`.
  
 
 .. _Create a Practice Proctored Exam:
@@ -381,6 +379,7 @@ apply defined criteria including the :ref:`Online Proctoring Rules <Online
 Proctoring Rules>` to decide whether any observed behavior should be flagged.
 
 Two results are possible for proctoring session reviews.
+
 *  **Verified** - the learner has passed the proctoring review.
 
 *  **Rejected** - Some suspicious activity has been observed and the learner
@@ -426,7 +425,6 @@ steps.
    Family Educational Rights and Privacy Act (FERPA), be sure to follow your
    institution's data stewardship policies when you open or save this file.
 
-
 #. View the live version of your course.
 
 #. In the LMS, select **Instructor**, then select **Data Download**.
@@ -443,8 +441,7 @@ steps.
 
    When the report is complete, a linked .csv file name becomes available above
    the **Pending Tasks** section. File names are in the format
-   ``{course_id}_grade_report_{datetime}.csv``. The most recently generated
-   reports appear at the top of the list.
+   ``{course_id}_proctored_exam_results_report_{datetime}.csv``. The most recently generated reports appear at the top of the list.
 
 5. To open or save a report file, locate and click the link for the report you
    requested.
@@ -457,6 +454,83 @@ steps.
    Do not copy these links for reuse elsewhere, as they expire within 5
    minutes. The links on this page also expire if the page is open for more
    than 5 minutes. If necessary, refresh the page to generate new links.
+
+
+=================================================
+Understanding the Proctored Session Results File
+=================================================
+
+The .CSV file that you can download to view the status and results of learners' proctoring sessions contains the following fields.
+
+
+.. list-table::
+   :widths: 30 55
+   :header-rows: 1
+
+   * - Column
+     - Description
+   * - Created
+     - The date and time that the learner agreed to take the exam as proctored
+       and was assigned an exam code
+   * - Modified
+     - ?
+   * - Started At
+     - The date and time that the learner started to take the proctored exam.
+   * - Exam Name
+     - The name of the proctored exam in the courseware.
+   * - User/Email
+     - The username or email address that identifies the learner taking the
+       proctored exam.
+   * - Completed At
+     - The date and time that the learner completed the proctored exam.
+   * - External ID
+     - ?
+   * - Allowed Time
+     - The time in hours and minutes (?) that this learner was allowed to
+       complete the exam.
+   * - Status
+     - The status of the proctoring session review. Possible values are
+       ``created``, ``ready to start``, ``started``, ``timed out``,
+       ``completed``, ``submitted``, ``verified``, ``rejected``, and
+       ``error``. For an explanation of each status, see the table below.
+   * - Attempt Code   
+     - The unique code that was assigned to this learner for the proctored exam.
+   * - Is Sample Attempt  
+     - Indicates whether this exam attempt was for a practice exam.
+   * - Last Poll Time
+     - ?
+   * - Last Poll IP Address
+     - ?    
+
+The following table describes the possible values in the Status column.
+
+.. list-table::
+   :widths: 30 55
+   :header-rows: 1
+
+   * - Value in the Status column
+     - Description
+   * - Created
+     - The exam attempt record has been created, but the exam has not yet been
+       started.
+   * - Ready to Start
+     - The exam attempt record has been created. The learner still needs to
+       start the  exam.
+   * - Started
+     - The learner has started the proctored exam.
+   * - Timed Out
+     - The proctored exam has timed out.
+   * - Completed
+     - The learner has completed the proctored exam.
+   * - Submitted
+     - The learner has completed the proctored exam and results have been
+       submitted for review.
+   * - Verified
+     - The proctoring session review has been completed, and has passed.
+   * - Rejected
+     - The proctoring session review has been completed, and has not passed.
+   * - Error
+     - The exam is believed to be in error.
 
 
 .. _CA_Situations_Learners_Encounter_Proctored_Exams:
