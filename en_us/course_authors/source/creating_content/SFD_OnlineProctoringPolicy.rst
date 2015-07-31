@@ -45,7 +45,7 @@ In addition to pens, paper, calculators, textbooks, and notebooks, the following
   * Any website other than edX.org.
   * Communication programs such as Skype.
 
-#. Make sure there is no writing visible on the desk or on the walls around
+4. Make sure there is no writing visible on the desk or on the walls around
    you.
 
 #. Make sure you do not have more than one display or monitor connected to the
@@ -121,24 +121,12 @@ Your Personal Behavior
 Consequences of Violating the Policy
 ************************************
 
-If you are flagged for cheating, you will be contacted directly by edx.org and
-subject to penalties as articulated in the edx.org honor code and exam
-guidelines.
+If you violate the online proctoring rules in a way that results in your
+proctoring session being given a "Rejected" status, you are not eligible to
+purchase credit for the course, even if you have achieved a passing grade.
 
-For other violations, you might be notified by edx.org on behalf of ASU.
-This notification will be delivered by email after proctoring session reviews are complete.
-
-.. note:: The intent of these warnings is to allow you the chance to modify
-   your behavior to comply with this policy before punitive action is
-   required. As outlined in edx.org’s policy, repeat offences will be subject
-   to review and may result in a failing grade or expulsion.
-
-If you have questions or need help, go to http://edx.org to contact edX
-Support.
-
-
-For support, please go to: http://edx.org
-
+If you have questions about your proctoring exam status, go to http://edx.org
+to contact edX Support, or consult your course team.
 
 
 
