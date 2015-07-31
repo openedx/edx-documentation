@@ -58,8 +58,7 @@ Proctored Exam Session Results
 When learners complete a proctored exam, either by submitting their answers or
 when the time expires for the exam, the proctoring session data is uploaded to
 the third party proctoring service provider. This data is reviewed for
-adherence to :ref:`edX's Online Proctoring Rules <SFD_OnlineProctoringPolicy>`, and when the review is complete, a result is
-returned for each learner who took the exam as a proctored exam.
+adherence to :ref:`edX's Online Proctoring Rules <SFD_OnlineProctoringPolicy>`, and when the review is complete, a result is returned for each learner who took the exam as a proctored exam.
 
 When proctoring session results become available, course staff can download a
 report that lists proctoring results for learners in their course. For more
