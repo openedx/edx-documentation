@@ -31,7 +31,7 @@ exam and must receive a passing result for their online proctoring session in
 addition to achieving a passing score in the course.
 
 For information about for-credit courses and specifying the passing score, see
-:ref:`Offering Academic Course Credit` and :ref:`Specify Passing Score`.
+:ref:`Offering Academic Course Credit`_ and :ref:`Specify Passing Score`_.
 
 
 =====================================================
@@ -101,7 +101,7 @@ When learners agree to take the exam with online proctoring, they are guided
 through the process of installing the proctoring software and performing
 system and user checks, including ID verification. They must be ready to take
 the exam as soon as the proctoring session setup is completed. For details,
-see :ref:`SFD_Before_Taking_Proctored_Exam`_ in the *edX Learner's Guide*.
+see :ref:`SFD Before Taking Proctored_Exam`_ in the *edX Learner's Guide*.
 
 After learners successfully complete the checks, the proctoring session starts.
 Learners are reminded not to close the proctoring software window. They are
