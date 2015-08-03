@@ -287,7 +287,7 @@ To create a practice exam, follow these steps.
 
 #. Specify the allotted time for the exam in hours and minutes.
 
-   For a practice exam, edX recommends that you specify a relativelyshort
+   For a practice exam, edX recommends that you specify a relatively short
    duration that is appropriate for the number of example problems you
    include.
 
