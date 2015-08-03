@@ -110,7 +110,9 @@ start taking the exam.
 
 A countdown timer is visible at the top of the courseware page during the
 exam. Warnings are displayed when there is 20% and 5% of allotted time
-remaining.
+remaining. For example, if the allowed time in the exam is 60 minutes,
+learners see a warning when there are 12 minutes left, and again when there
+are 3 minutes left.
 
 When learners complete the exam, or when the countdown timer reaches 00:00,
 they no longer have access to the exam. The proctoring software begins the
@@ -188,13 +190,11 @@ The following list represents only some of the requirements listed in the
 .. _Enabling Timed or Proctored Exams:
 
 **************************************************
-Enabling Timed or Proctored Exams in Your Course
+Enabling Proctored Exams in Your Course
 **************************************************
 
 
-To enable timed or proctored exams in your course, follow these steps.
-
-.. note:: Proctored exams are always also timed exams.
+To enable proctored exams in your course, follow these steps.
 
 #. In Studio, select **Settings**, then select **Advanced Settings**.
 
@@ -203,8 +203,8 @@ To enable timed or proctored exams in your course, follow these steps.
 
 #. Change the value of the setting to ``true``.
 
-#. Select **Save Changes** at the bottom of the page. You can now create timed
-   or proctored exams in your course.
+#. Select **Save Changes** at the bottom of the page. You can now create
+   proctored exams in your course.
 
 When you have enabled this setting for your course, you can perform the
 following tasks.
@@ -217,13 +217,12 @@ following tasks.
 .. _Create a Timed or Proctored Exam:
 
 =================================
-Create a Timed or Proctored Exam
+Create a Proctored Exam
 =================================
 
-To create an exam that has a time limit for completion or that is a proctored
-exam, follow these steps.
+To create an exam that includes online proctoring, follow these steps.
 
-.. note:: Proctored exams are always also timed exams.
+.. note:: Proctored exams are always timed exams.
 
 #. In Studio, in your course outline, add a subsection for your exam.
 
@@ -233,10 +232,7 @@ exam, follow these steps.
 
 #. Specify the allotted time for the exam in hours and minutes.
 
-   If the exam is a timed exam but not a proctored exam, this is your last step.
-
-#. To specify that the exam is also a proctored exam, select the **This exam
-   is proctored** option.
+#. Select the **This exam is proctored** option.
 
 #. Select **Save**.
 
@@ -555,8 +551,8 @@ to decide how to proceed on a case by case basis.
 Navigating to Another Part of the Course During an Exam
 =========================================================
 
-While they are taking a timed or proctored exam, learners can navigate (using
-the same browser session) to other parts of your course.
+While they are taking a proctored exam, learners can navigate (using the same
+browser session) to other parts of your course.
 
 .. note:: It is a violation of edX's Online Proctoring Rules for learners to
    navigate to websites other than edX.org during the proctored exam.
