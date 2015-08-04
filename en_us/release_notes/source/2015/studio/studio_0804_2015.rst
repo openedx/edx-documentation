@@ -25,13 +25,9 @@ Problem Improvements
 
 EdX has made the following improvements to problem components in Studio.
 
-* For drag and drop and Custom JS input problems, the **Show Answer** button
-  does not work correctly. EdX has changed the default **Show Answer** value
-  for these problems to **Never**.
+* For drag and drop and custom JavaScript problems, edX has changed the default
+  value of the **Show Answer** setting to **Never**. (TNL-645)
 
 * Because options in checkbox problems are always formatted as a vertical
-  list, the ``direction`` attribute has been removed from the
-  ``checkboxgroup`` element. (TNL-231)
-
-
-
+  list, edX has removed the ``direction`` attribute from the ``checkboxgroup``
+  element. (TNL-231)

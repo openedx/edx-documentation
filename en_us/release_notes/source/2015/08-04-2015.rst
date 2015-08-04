@@ -22,12 +22,6 @@ Studio
 .. include:: studio/studio_0804_2015.rst
 
 **************************
-Website
-**************************
-
-.. include:: website/website_0804_2015.rst
-
-**************************
 Documentation
 **************************
 

@@ -9,12 +9,6 @@ The following information describes what is new on edx.org.
   :depth: 2
 
 **************************
-4 August 2015
-**************************
-
-.. include:: 2015/website/website_0804_2015.rst
-
-**************************
 8 July 2015
 **************************
 
