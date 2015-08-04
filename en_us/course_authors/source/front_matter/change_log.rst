@@ -32,9 +32,9 @@ July 2015
    * -  
      - Added the :ref:`View Specific Student Assigned Problems from Randomized
        Content Block` and :ref:`Adjust Grades for a Problem from a Randomized
-       Problem Block` sections. Also updated information in the :ref:`Preview
-       Cohort Specific Courseware` and :ref:`View Your Live Course` sections
-       to reflect the ability to preview the courseware as a specific student.
+       Content Block` sections. Also updated information in the :ref:`Preview
+       Cohort Specific Courseware` and :ref:`View Your Live Course` sections to
+       reflect the ability to preview the courseware as a specific student.
    * - 17 July 2015
      - Added the :ref:`Best Practices for ORA` and :ref:`PA Scoring` sections.
    * - 
@@ -129,7 +129,7 @@ May 2015
        is released.
    * - 5 May 2015
      - Updated the :ref:`Student Data` section to include information about
-       the :ref:`learner engagement report<Track Student Activity>`.
+       the learner engagement report.
 
 ***********
 April 2015

@@ -377,7 +377,7 @@ To change the default email, follow these steps.
    * **registration_codes_sale_invoice_attachment.txt**: The invoice for the
      purchasing organization. The invoice can include payment instructions.
    * **order_confirmation_email.txt**: The confirmation email to send to the
-    purchasing organization.
+     purchasing organization.
 
 #. Make any changes that you want to make, and then save your changes.
 

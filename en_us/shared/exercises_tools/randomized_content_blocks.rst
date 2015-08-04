@@ -317,6 +317,3 @@ username or email you entered, locate the components from the randomized
 content block. Follow the steps described in :ref:`Adjust_grades` to rescore
 the learner's submission, reset attempts, or delete the learner's state for a
 problem.
-
-
-
