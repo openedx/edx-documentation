@@ -1,4 +1,4 @@
-f.. _Testing Your Course Content:
+.. _Testing Your Course Content:
 
 ###########################
 Testing Your Course Content
