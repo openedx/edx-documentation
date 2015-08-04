@@ -555,3 +555,22 @@
 .. _Bookmarks: http://edx.readthedocs.org/projects/open-edx-learner-guide/en/latest/SFD_bookmarks.html
 
 .. _Creating Exercises and Tools - open edX: http://edx.readthedocs.org/projects/open-edx-building-and-running-a-course/en/latest/exercises_tools/index.html
+
+
+.. _Working with Problem Components - Open edX: http://edx.readthedocs.org/projects/open-edx-building-and-running-a-course/en/latest/creating_content/create_problem.html
+
+.. _Numerical Input Problem - Open edX: http://edx.readthedocs.org/projects/open-edx-building-and-running-a-course/en/latest/exercises_tools/numerical_input.html#numerical-input
+
+.. _Answer Data - Open edX: http://edx.readthedocs.org/projects/open-edx-building-and-running-a-course/en/latest/running_course/course_answers.html#review-answers
+
+.. _Numerical Input Problem: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/numerical_input.html#numerical-input
+
+.. _Answer Data: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/running_course/course_answers.html#review-answers
+
+.. _View a Specific Student's Assigned Problems from a Randomized Content Block: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/randomized_content_blocks.html#view-specific-student-assigned-problems-from-randomized-content-block
+
+.. _Adjust Grades for a Problem from a Randomized Problem Block: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/randomized_content_blocks.html#adjust-grades-for-a-problem-from-a-randomized-content-block
+
+.. _Preview Cohort-Specific Courseware: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/cohorts/cohorted_courseware.html#preview-cohort-specific-courseware
+
+.. _View Your Live Course: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/developing_course/testing_courseware.html#view-your-live-course
