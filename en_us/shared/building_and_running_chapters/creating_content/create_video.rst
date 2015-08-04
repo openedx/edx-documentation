@@ -156,11 +156,6 @@ that provides captioning services. EdX works with `3Play Media
 <http://www.3playmedia.com>`_. `YouTube <http://www.youtube.com/>`_ also
 provides captioning services.
 
-.. note:: If the name of your transcript file includes special characters, such
-          as ç, å, or ó, the upload option results in an error. Before you
-          upload the transcript, change the file name to remove the special
-          characters.
-
 When you upload an .srt file, a .txt file is created automatically. You can
 allow learners to download these transcript files. If you allow your learners
 to download transcripts, the video player includes a **Download transcript**
@@ -171,9 +166,33 @@ file** to download the .srt or .txt transcript.
    :width: 500
    :alt: Video status bar showing .srt and .txt transcript download options.
 
-You can also provide transcripts in different formats, such as .pdf, and you
-can provide transcripts in different languages. For more information about
-these options, see :ref:`Additional Transcripts`.
+================================
+Naming SubRip Text Files
+================================
+
+To prevent errors when you upload your video transcripts, edX recommends the
+following conventions for naming your transcript files.
+
+* Each transcript file should have a unique identifying name. The name should
+  be unique not only across the transcript files for your videos, but across
+  all of your course uploads.
+
+* File names that include special characters, such as ç, å, or ó, cause the
+  upload option to result in an error. Before you upload a transcript, change
+  the file name to remove the special characters.
+
+* Make sure that the file type, ``.srt``, is in lower case. 
+
+* Other than to separate the identifying name from the ``.srt`` file type, file
+  names should not include periods.
+
+=========================================
+Providing Transcripts in Other Formats
+=========================================
+
+You can provide transcripts in formats other than the .srt format, such as
+.pdf, and you can provide additional transcript files in different languages.
+For more information about these options, see :ref:`Additional Transcripts`.
 
 .. note:: Historically, some courses used .sjson files for video transcripts.
  Use of .sjson files is no longer recommended; however, if transcripts in your
