@@ -14,16 +14,22 @@ Word List
      - Use instead of "instructor", professor", "course author", "course
        staff", "faculty",  etc.
    * - discussion, course discussions
-     - Use instead of "forum" or discussion forum".
+     - Use instead of "forum" or "discussion forum".
    * - drop-down
      - Use drop-down throughout the guides except when directly referring to
        the edX problem type, which is labeled "dropdown". As always, avoid
        using in procedural steps to describe a particular type of UI control.
+   * - edx, EdX, edX
+     - The name of our company is presented in mixed case: edX. However, when a
+       sentence begins with the company name, the first letter is also
+       capitalized as in the following example. "EdX is the name of our
+       company." Our websites, edx.org and edge.edx.org, are presented in all
+       lower case.
    * - email
      - Not e-mail or Email. Can be a noun or adjective (for example, "Send an
        email" or "Send an email message"). Do not use as a verb.
    * - ID
-     - Use instead of id.
+     - Use instead of id or Id.
    * - Instructor Dashboard
      - Capitalize both words.
    * - learner
@@ -56,7 +62,8 @@ Word List
    * - sign-in (adj)
      - Use instead of "login" or "log in".
    * - smartphone
-     - One word. Use instead of "mobile device": Android smartphones and iPhones.
+     - One word. Use instead of "mobile device": Android smartphones and
+       iPhones.
    * - Student Dashboard
      - TBD: Capitalize?
    * - third party (n), third-party (adj)
@@ -66,8 +73,8 @@ Word List
      - In our guides, refers to the concepts or procedures that are the
        lowest-level contents of a section.
    * - URL
-     - Use instead of url. When providing a URL in documentation, omit trailing slashes
-       (http://edx.org instead of http://edx.org/).
+     - Use instead of url. When providing a URL in documentation, omit trailing
+       slashes (http://edx.org instead of http://edx.org/).
    * - username
      - Use instead of "user name".
    * - View as Staff (or Student)
