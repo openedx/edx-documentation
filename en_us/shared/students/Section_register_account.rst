@@ -10,13 +10,13 @@
   you sign in to the partner account you can also sign in to your edx.org or
   Edge account with a single click.
 
-#. On the registration page, enter the required information for your new
+2. On the registration page, enter the required information for your new
    account. Fields with an asterisk (*) are required.
 
    If you chose to link your account to an account with a signin partner, some
    of the required information might be provided for you.
 
-#. Select the applicable options to accept the terms of service and
+3. Select the applicable options to accept the terms of service and
    honor code.
 
 #. Select **Create**. An activation message is sent to your email address.
