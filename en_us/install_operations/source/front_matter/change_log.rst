@@ -3,13 +3,15 @@ Change Log
 ############
 
 .. list-table::
-   :widths: 15 70
+   :widths: 20 70
    :header-rows: 1
 
    * - Date
      - Change
-   * - 5 Aug 2015
+   * - 6 Aug 2015
      - Added the :ref:`Enabling Third Party Authentication` section.
+   * - 5 Aug 2015
+     - Added the :ref:`Enabling Third Party Authentication Edge` section.
    * - 16 June 2015
      - Added the :ref:`Enable CCX` section.
    * - 8 June 2015
@@ -23,7 +25,7 @@ Change Log
        configuration for push notifications.
    * - 28 May 2015
      - Added :ref:`Enable Licensing`.
-   * - 02 Mar 15
+   * - 02 Mar 2015
      - Updated the :ref:`Preface` to include information about the :ref:`The
        edX Partner Portal` and the :ref:`The Open edX Portal`.
    * - 24 Feb 2015

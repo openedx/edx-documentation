@@ -1,4 +1,4 @@
-.. _Enabling Third Party Authentication:
+.. _Enabling Third Party Authentication Edge:
 
 ##################################################
 Enabling Third Party Authentication with edX Edge
