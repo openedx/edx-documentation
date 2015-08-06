@@ -10,13 +10,9 @@ The *data package* that data czars download from Amazon S3 consists of a set of
 compressed and encrypted files that contain event logs and database snapshots
 for all of their organizations' edx.org and edge.edx.org courses.
 
-* :ref:`Data Package Files`
-
-* :ref:`Amazon S3 Buckets and Directories`
-
-* :ref:`Download Data Packages from Amazon S3`
-
-* :ref:`Data Package Contents`
+.. contents::
+   :local:
+   :depth: 1
 
 Course-specific data is also available to the members of individual course
 teams. Users who are assigned the Admin or Staff role for the course can view
@@ -52,6 +48,11 @@ For a partner organization named UniversityX, these daily files are identified
 by the organization name, the edX site name, and the date. For example,
 ``universityx-edge-events-2014-07-25.log.gz.gpg``.
 
+Each of these compressed files can range in size from hundreds of kilobytes to
+tens of megabytes. When you extract a compressed file, it is approximately 20
+times larger. As a result, multiple gigabytes of space might be needed to store
+the tracking logs for a year.
+
 For information about the contents of these files, see :ref:`Data Package
 Contents`.
 
@@ -67,6 +68,12 @@ every week, representing the database at that point in time.
 For a partner organization named UniversityX, each weekly file is identified by
 the organization name and its extraction date: for example,
 ``universityx-2013-10-27.zip``.
+
+Compressed, these files can range in size from hundreds of megabytes to tens of
+gigabytes in size. When you extract a compressed file, it is approximately 20
+times larger. As a result, institutions that receive data for several courses
+for several years might require from tens to hundreds of gigabytes of space for
+data storage.
 
 For information about the contents of this file, see :ref:`Data Package
 Contents`.
@@ -130,9 +137,9 @@ Download Weekly Database Files
     bucket and the **s3://edx-course-data/{org}** folder. You might need to
     disconnect from Amazon S3 and then reconnect to the other destination.
 
-#. To download a weekly database data file, connect to the edX **s3://course-data**
-   bucket on Amazon S3 using the AWS Command Line Interface or a third-party
-   tool.
+#. To download a weekly database data file, connect to the edX 
+   **s3://course-data** bucket on Amazon S3 using the AWS Command Line 
+   Interface or a third-party tool.
 
    For information about providing your credentials to connect to Amazon S3,
    see :ref:`Access Amazon S3`.
@@ -163,8 +170,7 @@ courses on a single edX site for one 24-hour period. After you download a
 
 #. Extract the log file from the compressed .gz file. The result is a single
    file named ``{org}-{site}-events-{date}.log``. (Alternatively, the data can
-   be decompressed in stream using a tool such as gzip or, related libraries in
-   your preferred programming language.)
+   be decompressed in stream using a tool such as gzip.)
 
 For more information about the events in this file, see :ref:`Tracking Logs`.
 
