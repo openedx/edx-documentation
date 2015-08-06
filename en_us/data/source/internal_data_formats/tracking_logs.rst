@@ -3914,10 +3914,13 @@ Instructor Dashboard, the server emits an ``edx.cohort.user_removed`` event.
 Open Response Assessment Events (Deprecated)
 ============================================
 
-**History**: The events in this section recorded interactions with the
-prototype implementation of open response assessment (ORA) problem types. As of
-May 2014, new courses no longer used this implementation for open response
-assessments.
+The events described in this section recorded interactions with the prototype
+implementation of open response assessment (ORA 1) problem types. EdX
+deprecated this feature in May 2014, and removed the ability to add a new ORA 1
+assignment to courses in December 2014.
+
+For more information about events for the current implementation of open
+response assessments, see :ref:`ora2`.
 
 ``oe_hide_question`` and ``oe_show_question``
 ******************************************************************
@@ -4003,9 +4006,7 @@ user hides or redisplays a combined open-ended problem.
 ``peer_grading_hide_question`` and ``peer_grading_show_question``
 ******************************************************************
 
-.. I couldn't find these names in any js file. peer_grading_problem.js includes oe_hide or show_question.
-
-The browser emits ``peer_grading_hide_question`` and
+The browser emits ``peer_grading_hide_question`` and 
 ``peer_grading_show_question`` events when the user hides or redisplays a
 problem that is peer graded.
 
@@ -4032,9 +4033,7 @@ and ``peer_grading_show_problem``.
 ``staff_grading_hide_question`` and ``staff_grading_show_question``
 ********************************************************************
 
-.. staff_grading.js
-
-The browser emits ``staff_grading_hide_question`` and
+The browser emits ``staff_grading_hide_question`` and 
 ``staff_grading_show_question`` events when the user hides or redisplays a
 problem that is staff graded.
 
