@@ -212,16 +212,6 @@ M, N, O
      - Description
    * - ``modify_access``
      - :ref:`Instructor_Event_Types`
-   * - ``oe_feedback_response_selected``
-     - :ref:`ora`
-   * - ``oe_hide_question``
-     - :ref:`ora`
-   * - ``oe_show_full_feedback``
-     - :ref:`ora`
-   * - ``oe_show_question``
-     - :ref:`ora`
-   * - ``oe_show_respond_to_feedback``
-     - :ref:`ora`
    * - ``openassessmentblock.get_peer_submission``
      - :ref:`ora2`
    * - ``openassessmentblock.peer_assess``
@@ -255,10 +245,6 @@ P, Q, R
      - :ref:`navigational`
    * - ``pause_video``
      - :ref:`video`
-   * - ``peer_grading_hide_question``
-     - :ref:`ora`
-   * - ``peer_grading_show_question``
-     - :ref:`ora`
    * - ``play_video``
      - :ref:`video`
    * - ``problem_check``
@@ -295,8 +281,6 @@ P, Q, R
      - :ref:`problem`
    * - ``reset-student-attempts``
      - :ref:`Instructor_Event_Types`
-   * - ``rubric_select``
-     - :ref:`ora`
 
 .. _ST:
 
@@ -328,10 +312,6 @@ S, T
      - :ref:`video`
    * - ``speed_change_video``
      - :ref:`video`
-   * - ``staff_grading_hide_question``
-     - :ref:`ora`
-   * - ``staff_grading_show_question``
-     - :ref:`ora`
    * - ``stop_video``
      - :ref:`video`
    * - ``textbook.pdf.chapter.navigated``
