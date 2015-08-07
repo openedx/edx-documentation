@@ -45,7 +45,7 @@ exam and must receive a passing result for their online proctoring session in
 addition to achieving a passing score in the course.
 
 For information about for-credit courses and specifying the passing score, see
-:ref:`Offering Academic Course Credit`_ and :ref:`Specify Passing Score`_.
+:ref:`Academic Course Credit` and :ref:`Specify Passing Score`.
 
 
 =====================================================
@@ -84,9 +84,9 @@ information, see :ref:`Proctored Exam Results`.
 .. etc. that is triggered to indicate that they can go ahead with requesting
 .. credit? Anything visible in the UI?
 
-Learners who have achieved passing grades in the course as well as a Verified
-result for the proctored exam are shown as eligible for credit on their
-Progress pages.
+Learners who have achieved the minimum credit-eligible grade in the course as
+well as a **Satisfactory** result for the proctored session review are shown
+as eligible for credit on their Progress pages.
 
 
 .. _CA_LearnerExperience_Proctored Exams:
@@ -398,18 +398,18 @@ Proctoring Rules>` to decide whether any observed behavior should be flagged.
 
 Two results are possible for proctoring session reviews.
 
-*  **Verified** - the learner has passed the proctoring review.
+*  **Satisfactory** - the learner has passed the proctoring review.
 
-*  **Rejected** - Some suspicious activity has been observed and the learner
-   has not passed the proctoring review.
+*  **Unsatisfactory** - Some suspicious activity has been observed. The
+   learner has not passed the proctoring review.
 
 Some learner behavior that is listed in the Online Proctoring Rules is
 discouraged, but does not impact the integrity of the exam. Violations in
 these cases might be flagged but learners with such flags will still receive a
-**Verified** result. For example, a learner is discouraged from playing music
+**Satisfactory** result. For example, a learner is discouraged from playing music
 or having a TV on in the background while they take their exam, but if their
 session recording shows such behavior, it is still possible for them to
-receive a **Verified** result for their proctoring session results, as long as
+receive a **Satisfactory** result for their proctoring session results, as long as
 there are no instances of suspicious activity that do seem to indicate
 cheating.
 
@@ -417,8 +417,8 @@ Activities that would cause learners to fail their proctoring session review
 include not providing a photo ID, using a second computer during the proctored
 exam, appearing to read the exam to another person in the room, displaying
 nudity or explicit materials or browsing adult-based content. If there is even
-one instance of such activity, learners receive a **Rejected** result for
-their proctoring session.
+one instance of such activity, learners receive an **Unsatisfactory** result
+for their proctoring session.
 
 
 .. _Viewing Proctored Exam Results:
@@ -480,6 +480,7 @@ Understanding the Proctored Session Results File
 
 The .CSV file that you can download to view the status and results of learners' proctoring sessions contains the following fields.
 
+.. Chris Are these columns in the report finalized? I think you mentioned that some of these might be removed.
 
 .. list-table::
    :widths: 30 55
@@ -543,9 +544,9 @@ The following table describes the possible values in the Status column.
    * - Submitted
      - The learner has completed the proctored exam and results have been
        submitted for review.
-   * - Verified
+   * - Satisfactory
      - The proctoring session review has been completed, and has passed.
-   * - Rejected
+   * - Unsatisfactory
      - The proctoring session review has been completed, and has not passed.
    * - Error
      - The exam is believed to be in error.

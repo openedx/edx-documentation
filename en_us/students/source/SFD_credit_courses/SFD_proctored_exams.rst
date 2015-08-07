@@ -132,6 +132,8 @@ as a proctored exam. They will need to approve your request and add time to
 your specific exam before you start your exam.
 
 
+
+
 .. _Steps in Taking Proctored Exams: 
 
 **********************************
@@ -321,13 +323,41 @@ To take a practice proctored exam, follow these steps.
 
 #. In the courseware, open the practice exam.
 
-.. Need to confirm what students see
+.. Need to verify with sandbox and get screenshots
 
-#. Do this
+#. Follow the instructions to install the proctoring software and perform
+   system and identity checks.
 
-#. Do that
+#. Make sure the proctoring software is running while you complete the example
+   exam questions.
 
-You can retry a practice exam as many times as you want to.
+#. When you have completed the questions, if the exam timer has not reached
+   00:00, select **End my exam**. 
+
+#. Go to the proctoring software browser window and close the window. Confirm
+   that you want to quit the application when you are prompted.
+
+#. In the browser window for the edX exam, you see the result page for your
+   exam. Because this is a practice exam, your proctoring session is not
+   reviewed. For a practice exam, you will see two possible results.
+
+  *  **Your practice proctored exam is complete** -- This status indicates
+     that you completed the exam and experienced no issues with the
+     proctoring software.
+
+  *  **Your practice proctored exam failed** -- This status indicates that you
+     completed the exam, but there were issues with the proctoring software.
+     Some parts of the proctoring checks might have failed, or the
+     proctoring software window might have been closed before the exam ended.
+
+You can retry a practice exam as many times as you want to. If you received a
+**Failed** result on your practice exam, you should try to fix any issues and
+take the practice exam again until you achieve a **Completed** result. Doing
+so will help you to make sure you can successfully take an actual proctored
+exam in the course. 
+
+If you continue to have issue with the proctoring software, select **Contact
+Support** in the proctoring software window.
 
 
 
@@ -337,23 +367,83 @@ You can retry a practice exam as many times as you want to.
 Taking a Proctored Exam
 **********************************
 
-When a proctored exam starts, the countdown timer also starts. The time that
-is allowed in the exam is shown in a bar at the top of the edX courseware
-page. For more information, see :ref:`SFD Taking a Timed Exam`.
+All proctored exams are also timed exams, in which you have a time limit to
+complete the exam. When a proctored exam starts, a countdown timer at the top
+of the edX courseware page also starts.
 
-.. note:: After you start a proctored exam, you can minimize the proctoring
-   software window, but you must not close it.
-
-   If you close the edX exam browser or navigate away from your exam during
-   you proctored exam, the timer continues counting down. You cannot pause the
-   timer. If you accidentally close the edX exam browser, you can open a new
-   browser window and return to your exam at the point that you left it. You
-   cannot regain any of the time that is lost in a situation like this.
+The countdown timer provides a warning when 20% of the time is left and again
+when 5% of the time is left. For example, if you have 60 minutes to complete
+the exam, you will see a warning when there are 12 minutes left, and again
+when there are 3 minutes left.
 
 If time runs out before you have completed the exam, the proctoring review is
 still submitted, and any answers that you have completed up to that time are
 also submitted. If you pass the proctoring review, you might still qualify for
 a passing grade with the answers you have submitted.
+
+To take a proctored exam, follow these steps.
+
+#. In the courseware, open the proctored exam.
+
+.. Need to get screenshots when UI finalized
+
+
+2. On the page where you agree to or decline taking the exam with online
+   proctoring, select **Yes, I want to take this exam with online
+   proctoring**.
+
+   .. note:: If you decline the proctored exam option and select **No, I want
+      to take this exam without proctoring**, you will not have another
+      chance to take this exam with proctoring, and you will not be
+      eligible to use this course for academic credit, regardless of your
+      final grade in the course.
+
+#. Follow the instructions to install the proctoring software and perform
+   system and identity checks.
+
+#. Make sure the proctoring software is running while you complete the exam
+   questions.
+
+   .. note:: After you start a proctored exam, you must not close the
+      proctoring software window, although you can minimize it.
+
+      You cannot pause or stop the timer once you have started your exam. If
+      you close the edX exam browser or navigate away from your exam during
+      your proctored exam, the timer continues to count down. You cannot pause
+      the timer. If you accidentally close the edX exam browser, you can open
+      a new browser window and return to your exam at the point that you left
+      it. You cannot regain any of the time that is lost in a situation like
+      this.
+
+
+5. When you have completed the questions, if the exam timer has not reached
+   00:00, select **End my exam**. 
+
+#. Go to the proctoring software browser window and close the window. Confirm
+   that you want to quit the application when you are prompted.
+
+#. In the browser window for the edX exam, you see the result page for your
+   exam. You can come back to this page to check for your proctoring session
+   review results.
+
+   There are several possible statuses.
+
+  *  **Pending** -- This status indicates that the data for your proctoring
+     session is being reviewed. It usually takes 2-3 days for results to
+     appear for an exam.
+
+  *  **Satisfactory** -- This status indicates that your proctoring session
+     was reviewed, and that you have passed the review. If you also achieve
+     the minimum credit eligibility grade in your course, you are eligible
+     to use this course for academic credit.
+
+  *  **Unsatisfactory** -- This status indicates that your proctoring session
+     was reviewed, and that you did not pass the review because some
+     suspicious activity was observed. You are not eligible to use this
+     course for academic credit regardless of your final grade.
+
+Check your **Progress** page for full details of your credit eligibility
+status.
 
 
 .. _SFD Technical Difficulties During Exam:
@@ -368,10 +458,53 @@ know about your situation. If they agree that there is a legitimate reason,
 you might be able to try again to take the proctored exam. Your answers from
 any failed attempt are not kept.
 
-- Loss of internet connectivity.
-- Computer shut down or became unresponsive.
-- Accidentally closed the proctoring software window.
-- Accidentally closed the edX.org exam window.
+Here are some situations that you might encounter while you are taking a
+proctored exam.
+
+
+The Proctoring Software Terminates Unexpectedly
++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+If the proctoring software crashes, the edX exam automatically stops the exam.
+You should contact edX Support in this situation.
+
+
+The edX Browser Terminates Unexpectedly
++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+If the browser in which the edX exam is running crashes, the exam timer for
+each learner continues to run. You should make sure the proctoring software is
+still running, then open a new browser window and navigate back to your edX exam.
+You should be able to continue your exam but you will have lost time while the
+browser was closed. If your proctoring software also crashed, contact edX Support.
+
+
+You Accidentally Close the Proctoring Software Window
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+If you accidentally close your proctoring software windows before you have
+completed a proctored exam, you see alert messages warning you that you are
+ending your exam. If you continue to close the proctoring software window,
+both the exam and the proctoring session end.
+
+Answers in the exam up to the point that the session ended are submitted for
+grading, but the proctoring session recording might not be completely
+uploaded. You should contact edX Support in this situation. Depending on the
+circumstances, your course team will have to decide whether your proctored
+exam attempt is valid.
+
+
+You Accidentally Close the edX Exam Window
++++++++++++++++++++++++++++++++++++++++++++++
+
+If you accidentally close the browser in which your edX proctored exam is
+running before you have completed the exam, there are no alerts shown to you.
+The exam timer continues to run. You should make sure the proctoring software
+is still running, then open a new browser window and navigate back to your edX
+exam. You should be able to continue your exam but you will have lost time
+while the browser was closed. If your proctoring software was also stopped,
+contact edX Support. Depending on the circumstances, your course team will
+have to decide whether your proctored exam attempt is valid.
 
 
 **********************************
