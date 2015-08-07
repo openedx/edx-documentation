@@ -4,8 +4,6 @@
 Academic Course Credit
 #########################
 
-.. make sure SFD_introduction.rst is up to date
-
 Some edX courses allow you to purchase academic credit that you can apply
 toward a degree at a college or university. When a course offers academic
 credit, you see an "Earn Credit" indication for the course in the edX list of
@@ -31,81 +29,36 @@ Enroll for Academic Credit
 *****************************
 
 To receive academic credit for a course, you must enroll in the verified track
-for the course. For more information about enrolling, see :ref:`SFD Enrolling
-in a Course`.
+for the course. 
+
+For more information about enrolling, see :ref:`SFD Enrolling in a Course`.
 
 *****************************
 Complete Identity Checks
 *****************************
 
-When you take a course for academic credit, you might have to complete a
+When you take a course for academic credit, you have to complete a
 number of identity checks. Identity checks include periodic identity
-verification inside the course and proctored exams.
+reverification inside the course and proctored exams.
 
 .. note:: **To be eligible for academic credit, you must complete all identity 
  checks.** If you choose not to complete an identity check at any time, you
  are no longer eligible for credit. You can still receive a verified
  certificate in the course.
 
-========================================
-In-Course Identity Verification 
-========================================
+* In-course identity reverification requires you to verify your identity,
+  similar to the way you verified your identity at the beginning of the
+  course. You must use a computer that has a webcam to reverify your identity.
 
-When your course requires in-course identity verification, you must verify
-your identity at the beginning of the course and then at certain times during
-the course. For example, you might be required to verify your identity before
-you take each exam.
+  For more information, see :ref:`SFD In Course Identity
+  Reverification`.
 
-When you must verify your identity, you receive an "Identity verification
-required" message in the courseware. You cannot complete any further work in
-the course until you either verify your identity or specifically decline to
-verify your identity.
+* Proctored exams are exams that use both time limits and online proctoring
+  software. To pass a proctored exam, you must receive both a passing grade
+  for the exam itself and a Pass result when the recording of your proctoring
+  session is reviewed. 
 
-To verify your identity, follow these steps.
-
-#. In the message you receive, select **Verify Now** to begin the ID
-   verification process.
-
-#. On the **Take Your Photo** page, select the camera icon below your image to
-   take a picture of your face.
-
-   For information about how to take a good photo, review the **To take a
-   successful photo** guidelines to the right of your image.
-
-#. On the **Review Your Photo** page, review your photo. If you are not
-   satisfied with the photo, select **Retake Photo**. When you are satisfied
-   with your photo, select **Submit** in the lower left corner.
-
-A verification confirmation page opens and confirms that you have submitted
-your ID verification photo.
-
-After edX's authorization service examines your photo, you receive a message
-on your dashboard that informs you whether the verification process was
-successful. If the verification process was not successful, you must submit
-new verification photos. You can begin the verification process again by
-selecting **Verify Your Identity**.
-
-For more information about ID verification, see :ref:`SFD Verify Your
-Identity`.
-
-===================
-Proctored Exams
-===================
-
-Proctored exams are exams that use both time limits and online proctoring
-software. To pass a proctored exam, you must receive both a passing grade for
-the exam itself and a Pass result when the recording of your proctoring
-session is reviewed.
-
-Before you begin a proctored exam, you must specify whether you want to take
-the exam as a proctored exam. If you take the exam as a proctored exam, you
-receive instructions to install the proctoring software, verify your identity,
-and scan the desk and room where you are taking the exam.
-
-If you do not take the exam as a proctored exam, the exam is still timed.
-However, you are no longer eligible for credit for the course.
-
-For more information about proctored exams, see :ref:`SFD_ProctoredExams`.
+  For more information about proctored exams, see :ref:`SFD_ProctoredExams`.
 
 *****************************
 Keep Track of Your Progress
@@ -122,8 +75,8 @@ individual requirement.
  :alt: Progress page with a list of credit requirements below the progress
      graph.
 
-.. update image when sandbox ready (8/7: can't show anything but "Upcoming"
-.. status)
+.. update image when sandbox ready (8/7: currently can't show anything but
+.. "Upcoming" status)
 
 *****************************
 Purchase Academic Credit
@@ -153,7 +106,7 @@ To purchase academic credit, follow these steps.
 .. Yes, I know the last two instances of "Checkout" should be "Check Out".
 .. Long story.
 
-#. Follow the onscreen instructions to complete the payment process. When the
+3. Follow the onscreen instructions to complete the payment process. When the
    payment process is complete, a confirmation page opens, and you receive an
    email message.
 #. On the payment confirmation page, note whether the organization requires
