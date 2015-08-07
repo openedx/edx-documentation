@@ -1,4 +1,4 @@
-.. _Proctored Exams:
+.. _CA_ProctoredExams:
 
 #####################################
 Proctored Exams
