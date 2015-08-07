@@ -31,7 +31,7 @@ credit.
 
 .. note:: Proctored exams are visible only if you are enrolled in the Verified
    track for your course. If you are not in the Verified track, you take the
-   same exam as a timed exam, without the option to choose online proctoring.
+   same exam as a open exam, without the option to choose online proctoring.
    If you want to be eligible to purchase academic credit for passing your
    course, make sure you enroll in or upgrade to the Verified track as early
    as possible during the course, so that you do not miss any credit
@@ -45,13 +45,14 @@ Choosing to Take a Proctored Exam
 
 You have the choice to take exams with online proctoring only if you are
 enrolled in the Verified track. If you are enrolled in the Honor Code track,
-you see proctored exams as timed exams.
+you see proctored exams as open exams.
 
 .. note:: You do not have to agree to take an exam as a proctored exam; you
-   can choose to take the exam simply as a timed exam. However, if you make
-   this choice you will not be eligible for academic credit for your course.
-   You will not be offered the proctored option again for an exam if you have
-   previously refused it.
+   can choose to take the exam simply as an open exam. Open exams are not
+   monitored and have no time limits. However, if you make this choice you
+   will not be eligible for academic credit for your course. You will not be
+   offered the proctored option again for an exam if you have previously
+   refused it.
 
 When you agree to take a proctored exam, you are guided through the steps to
 install and set up the proctoring software. The proctoring setup process
@@ -64,15 +65,14 @@ several example problems that you can try to answer. For more information, see
 :ref:`SFD Taking a Practice Exam`.
 
 
-.. important::     
-   Before you take an exam with online proctoring, read the
+.. important:: Before you take an exam with online proctoring, read the
    following documents to make sure you know what is allowed or not allowed
-   during a proctored exam, and make sure your computer and browser version are
-   compatible with the online proctoring software.
+   during a proctored exam, and make sure your computer and browser version
+   are compatible with the online proctoring software.
 
-  * :ref:`Online Proctoring Rules`
+ * :ref:`Online Proctoring Rules`
 
-  * `Proctoring Software System Requirements <http://clientportal.softwaresecure.com/support/index.php?/Knowledgebase/Article/View/252/0/system-requirements-remote-proctor-now>`_
+ * `Proctoring Software System Requirements <http://clientportal.softwaresecure.com/support/index.php?/Knowledgebase/Article/View/252/0/system-requirements-remote-proctor-now>`_
 
 If you take an exam as a proctored exam, you must receive a Satisfactory result when
 the recording of your proctoring session is reviewed, otherwise you cannot
@@ -204,7 +204,7 @@ terms, select **I agree**.
 
 .. note:: If you do not want to agree to the terms, select **I don't agree**.
    You can then quit the online proctoring software and return to the edX
-   courseware where you can choose to take the exam as a timed exam only, and
+   courseware where you can choose to take the exam as an open exam, and
    not be eligible for credit.
 
 
@@ -305,16 +305,16 @@ Return to the browser window where you were accessing the exam on edx.org, and
 Taking a Practice Proctored Exam
 **********************************
 
-Your course might include a practice proctored exam that you can take to make
-sure you can complete the proctoring setup steps on your computer. It usually
-includes several example problems that you can try to answer.
+Your course might include an optional practice proctored exam that you can
+take to make sure you can complete the proctoring setup steps on your
+computer. It usually includes several example problems that you can try to
+answer.
+ 
+Practice exams let you follow the steps to set up the proctoring software,
+perform the required identity and environment scans, and experience taking an
+exam with online proctoring, but your proctoring session is not reviewed.
 
-Practice exams do not affect your grade or your eligibility for credit. 
-
-Practice exams let you follow the steps to set up the proctoring software and
-perform the required identity and environment scans, but no actual monitoring
-is done by the software. You have a chance to try the proctoring software set
-up, and to experience a :ref:`timed exam <SFD Taking a Timed Exam>`.
+.. note:: Practice exams do not affect your grade or your eligibility for credit.
 
 To take a practice proctored exam, follow these steps.
 
@@ -326,29 +326,8 @@ To take a practice proctored exam, follow these steps.
 
 #. Do that
 
+You can retry a practice exam as many times as you want to.
 
-.. _SFD Taking a Timed Exam:
-
-**********************************
-Taking a Timed Exam
-**********************************
-
-If you choose not to take an exam with online proctoring, you will not be
-eligible to purchase credit for the course. However, you take the exam as a
-timed exam, and can still earn grades based on your work.
-
-When you take a timed exam, you have a time limit in which to complete the
-exam and submit your answers. You see a countdown timer at the top of the edX
-courseware page. 
-
-The countdown timer will flash and provide a warning when 20% of the time is
-left and again when 5% of the time is left. For example, if you have 60
-minutes to complete the exam, you will see a warning when there are 12 minutes
-left, and again when there are 3 minutes left.
-
-If you do not complete your answers by the time the countdown timer reaches
-00.00, the exam stops. Any answers that you have completed by that point are
-submitted for grading.
 
 
 .. _SFD Taking a Proctored Exam:
@@ -382,7 +361,7 @@ a passing grade with the answers you have submitted.
 Experiencing Technical Difficulties During the Exam
 ===============================================================
 
-If your proctoring session or timed exam end unexpectedly before you complete
+If your proctoring session or your exam ends unexpectedly before you complete
 the exam due to some technical difficulty, contact edX Support and let them
 know about your situation. If they agree that there is a legitimate reason,
 you might be able to try again to take the proctored exam. Your answers from
