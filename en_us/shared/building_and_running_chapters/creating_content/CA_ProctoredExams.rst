@@ -16,15 +16,29 @@ This section describes how to create and manage proctored exams in Studio.
 Proctored Exam Overview
 ****************************
 
+Proctored exams are exams with time limits that learners complete while online
+proctoring software monitors their computer and behavior for activity that
+might be evidence of cheating.
+
 In for-credit courses, course teams can create exams that they designate as
-proctored exams. Learners in the Verified track can choose to take the exam as
-proctored and be eligible for course credit, or take the exam as an open exam
-and not be eligible for course credit. For more information about creating
-proctored exams in Studio, see :ref:`Create a Timed or Proctored Exam`. You
-can :ref:`create a practice proctored exam <Create a Practice Proctored Exam>`
-for your course so that learners can become familiar with the process of
-installing proctoring software and performing the required checks ahead of
-time.
+proctored exams, and make these exams requirements for credit eligibility. 
+
+.. note:: Only learners enrolled in the Verified track see the option to take
+   an exam with online proctoring. If you believe that there are students who
+   have not yet upgraded to the Verified track who should be taking proctored
+   exams and qualifying for course credit, you should remind them to enroll in
+   the Verified track before the part of your course where proctored exams
+   occur.
+
+Learners in the Verified track can choose to take the exam as proctored and be
+eligible for course credit, or take the exam as an open exam and not be
+eligible for course credit. For more information about creating proctored
+exams in Studio, see :ref:`Create a Proctored Exam`.
+
+You can also :ref:`create a practice proctored exam <Create a Practice
+Proctored Exam>` for your course so that learners can become familiar with the
+process of installing proctoring software and performing the required checks
+ahead of time.
 
 To earn credit for completing a course, learners take the exam as a proctored
 exam and must receive a passing result for their online proctoring session in
@@ -214,7 +228,7 @@ following tasks.
  :depth: 1
 
 
-.. _Create a Timed or Proctored Exam:
+.. _Create a Proctored Exam:
 
 =================================
 Create a Proctored Exam
