@@ -4,6 +4,11 @@
 Proctored Exams
 #########################
 
+.. Carol: The following is the intro info you wrote for this. Since I changed
+.. the files a bit I ended up just using the first paragraph in
+.. SFD_credit_courses.rst, but I wanted to include all of the text here in
+.. case we come up with another use for it.
+
 Proctored exams are exams that use both time limits and online proctoring
 software. To pass a proctored exam, you must receive both a passing grade for
 the exam itself and a Pass result when the recording of your proctoring
