@@ -42,6 +42,16 @@ Portal, follow these steps.
 #. Select **Create New Account**. You will receive a confirmation email with
    your account access within 24 hours.
 
+===============================================
+Course Team Support in the edX Partner Portal
+===============================================
+
+EdX partner course teams can get technical support in the `edX Partner
+Portal`_. To access technical support, submit a support ticket, or review any
+support tickets you have created, go to `partners.edx.org`_ and select **Course
+Staff Support** at the top of the page. This option is available on every page
+in the Partner Portal.
+
 .. _The Open edX Portal:
 
 ***********************
