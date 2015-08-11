@@ -214,15 +214,15 @@ Assign Discussion Administration Roles
 
 You can designate a team of people to help you run course discussions.
 
-.. note:: The members of the course team that you set up in Studio or on the 
- Instructor Dashboard in the LMS are not automatically granted discussion
- administration roles.
+.. note:: The members of the course team that you set up in Studio or on the
+   Instructor Dashboard in the LMS are not automatically granted discussion
+   administration roles.
 
- Discussion administration roles must be explicitly granted to members of the
- course team for them to moderate or administer course discussions. The
- course author and team members with the Admin role can grant discussion
- administration roles. For information about assigning discussion privileges,
- see :ref:`Assigning_discussion_roles`.
+   Discussion administration roles must be explicitly granted to members of the
+   course team for them to be able to moderate or administer course discussions.
+   The course author and any team members who have the Admin role can grant
+   discussion administration roles.
+   
 
 Different options for working with discussions are available through
 the following roles.
