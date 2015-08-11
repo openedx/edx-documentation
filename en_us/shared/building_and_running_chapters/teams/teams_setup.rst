@@ -60,7 +60,8 @@ To enable teams in your course, follow these steps.
 .. is this note re special characters true?      
 
 
-.. code-block::
+::
+
 
    {
     "topics": [
@@ -76,7 +77,7 @@ To enable teams in your course, follow these steps.
         },
         {
             "name": "Sustainability Standards and Reporting",
-            "description": "Description for Sustainability Standards and Reporting",
+            "description": "Description for Sustainability Standards",
             "id": "Standards_Reporting"
         }
     ],
