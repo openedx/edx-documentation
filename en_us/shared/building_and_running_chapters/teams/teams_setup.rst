@@ -52,24 +52,48 @@ To enable teams in your course, follow these steps.
    ``"max_team_size": 5``
 
 #. To specify topics within which teams can be created, add entries under
-   ``"topics"``. For each topic, provide a description, name, and ID as shown.
+   ``"topics"``. For each topic, provide a description, name, and ID as shown in the example.
 
    .. note:: In topic specifications, you can use only alphanumeric characters
       and these special characters: underscore, hyphen, and period.
 
-.. is the above note true?      
+.. is this note re special characters true?      
 
-.. ADD IMAGE - screen capture of Teams Configuration entries
+::
+   {
+    "topics": [
+        {
+            "name": "Sustainability in Corporations",
+            "description": "Description for Sustainability in Corporations",
+            "id": "Sustain_Corporations"
+        },
+        {
+            "name": "Water Conservation Projects",
+            "description": "Description for Water Conservation",
+            "id": "Water_Conservation"
+        },
+        {
+            "name": "Sustainability Standards and Reporting",
+            "description": "Description for Sustainability Standards and Reporting",
+            "id": "Standards_Reporting"
+        }
+    ],
+    "max_team_size": 5
+   }
 
-   Make sure that each set of values for a team is enclosed in a set of curly
-   braces, with a comma between consecutive values. If you create more than
-   one topic, make sure there is a comma after the closing curly brace of each
-   topic that has another topic following it.
 
-   All of the sets of topic values are enclosed within a set of square
+.. note:: If you create more than one topic, make sure there is a comma after
+   the closing curly brace of each topic that has another topic following it.
+
+   Make sure all of the sets of topic values are enclosed within a set of square
    brackets, with a comma after the closing square bracket.
 
-   The topics you have created are shown in the LMS when learners browse teams
-   by topic.
+The topics you have created are shown in the LMS when learners browse teams by
+topic.
+
+
+.. image:: ../../../shared/building_and_running_chapters/images/teams_topics_created.png
+     :width: 800
+     :alt: A screen capture showing 3 topics on the Browse Teams page.
    
 
