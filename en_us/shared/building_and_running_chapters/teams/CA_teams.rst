@@ -131,8 +131,11 @@ copying a link and sending it to invitees so that they can locate the team.
 Participating in Team Discussions
 ===================================
 
-Only members of a team can post to the discussion forum in their team, but
-their posts are visible to all learners in your course.
+Only members of a team (or anyone with a discussion administrator, discussion
+moderator, or community TA role) can post to a team's discussion forum. Any
+learner in your course can view team discussions without being a member, but
+they cannot add posts to a team's discussion unless they also belong to the
+team.
 
 .. note:: Team discussions are not divided by cohort. Learners who are in the
    same team, but who belong to different cohorts can view and participate in
@@ -166,9 +169,8 @@ see :ref:`Running_discussions`.
 Ability to Post in Team Discussions
 ===================================
 
-Only team members, discussion community TAs, and course team members with the
-roles of Discussion Admin or Discussion Moderator can post to the team
-discussion.
+Team members, discussion community TAs, and course team members with the roles
+of Discussion Admin or Discussion Moderator can post to the team discussion. Team members can edit their own posts, reply to posts and comments, follow and flag posts, and so on.
 
 Posts made by discussion community TAs are marked as "By: Community TA".
 Responses and comments made by community TAs have a colored "Community TA"
@@ -184,9 +186,11 @@ Ability to Edit or Delete Posts
 ===================================
 
 Discussion moderators or discussion admins can perform the following actions
-in team discussions.
+in team discussions, without being a member of the team.
 
 * Review, edit, or delete messages
 * Pin, close, or reopen posts
 * Endorse responses
+
+
 
