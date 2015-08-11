@@ -5,9 +5,9 @@
 Managing Team Discussions 
 #########################
 
-
-As in course discussions, different roles have different privileges in team
-discussions.
+You should designate course staff and optionally student TAs to moderate team
+discussions. As in course discussions, different roles have different
+privileges in team discussions.
 
 .. note:: The members of the course team that you set up in Studio or on the
    Instructor Dashboard in the LMS are not automatically granted discussion

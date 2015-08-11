@@ -94,8 +94,7 @@ To enable teams in your course, follow these steps.
 The topics you have created are shown in the LMS when learners browse teams by
 topic.
 
-
-.. image:: ../../../shared/building_and_running_chapters/images/teams_topics_created.png
+ .. image:: ../../../shared/building_and_running_chapters/images/teams_topics_created.png
      :width: 800
      :alt: A screen capture showing 3 topics on the Browse Teams page.
    
