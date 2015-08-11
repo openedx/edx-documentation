@@ -9,6 +9,7 @@ The following information describes what is new in edX analytics.
 .. contents::
   :local:
   :depth: 2
+  
 
 ******************
 28 July 2015
