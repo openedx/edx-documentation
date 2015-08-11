@@ -23,7 +23,7 @@ Building and Running an edX Course
    exercises_tools/index
    content_experiments/index
    cohorts/index
-   CA_teams
+   teams/index
    releasing_course/index
    running_course/index
    students/index
