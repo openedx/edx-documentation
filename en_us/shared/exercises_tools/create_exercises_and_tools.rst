@@ -122,6 +122,10 @@ General Exercises and Tools
      - If you have a problem that is already written in LaTeX, you can use
        this problem type to easily convert your code into XML.
      - No support
+   * - :ref:`Qualtrics Survey`
+     - You can import surveys that you have created in Qualtrics. The survey
+       appears inside an IFrame in your course.
+     - Full support
    * - :ref:`Survey Tool`
      - You can include surveys in your course to collect learner responses to
        multiple questions. You can use the Survey Tool in Studio.

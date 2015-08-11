@@ -22,6 +22,8 @@ August 2015
 
    * - Date
      - Change
+   * - 12 August 2015
+     - Added the :ref:`Qualtrics Survey` topic.
    * - 5 Aug 2015
      - Added information about using campus credentials to sign in to the
        :ref:`Getting Started with edX` section.

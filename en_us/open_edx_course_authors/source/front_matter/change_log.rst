@@ -3,6 +3,19 @@ Change Log
 ############
 
 ****************
+August 2015
+****************
+
+.. list-table::
+   :widths: 15 70
+   :header-rows: 1
+
+   * - Date
+     - Change
+   * - 12 August 2015
+     - Added the :ref:`Qualtrics Survey` topic.
+
+****************
 July 2015
 ****************
 
