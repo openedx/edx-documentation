@@ -59,7 +59,9 @@ To enable teams in your course, follow these steps.
 
 .. is this note re special characters true?      
 
-::
+
+.. code-block::
+
    {
     "topics": [
         {
