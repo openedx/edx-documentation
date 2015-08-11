@@ -161,9 +161,9 @@ Birch release, using the ``migrate.sh`` script in the configuration repository,
 On the computer or virtual machine running the Aspen release of Open edX, run
 the upgrade script for your type of installation:
 
-* For Devstack, run ``./migrate.sh -c devstack``.
+* For Devstack, run ``./migrate.sh -t named-release/birch.2 -c devstack``.
 
-* For Fullstack, run ``./migrate.sh -c fullstack``.
+* For Fullstack, run ``./migrate.sh -t named-release/birch.2 -c fullstack``.
 
 * You can also run ``./migrate.sh -h`` to see which other options the script accepts.
 
