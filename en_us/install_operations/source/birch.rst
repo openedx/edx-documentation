@@ -28,10 +28,10 @@ teams, and developers.  See the Open edX Release Notes for more details.
 What is the Birch Git Tag?
 ******************************
 
-The Git tag for the Birch release is **named-release/birch**. You use this tag
+The Git tag for the Birch release is **named-release/birch.2**. You use this tag
 to identify the version of Open edX code that is the Birch release.
 
-The following Open edX Git repositories have the Git tag **named-release/birch**:
+The following Open edX Git repositories have the Git tag **named-release/birch.2**:
 
 * edx-platform
 * configuration
@@ -131,7 +131,7 @@ Before installing the Vagrant box, you must set the value of the
 
 .. code-block:: bash
 
-  export OPENEDX_RELEASE="named-release/birch"
+  export OPENEDX_RELEASE="named-release/birch.2"
 
 
 =========================
