@@ -110,17 +110,13 @@ Vagrant before continuing with the installation process.
 
    .. code-block:: bash
 
-     $ vagrant box add /path-to-downloaded-box/vagrant-images-20150224-birch-
-     devstack.box --name birch-devstack
+     $ vagrant box add /path-to-downloaded-box/vagrant-images-birch-2-devstack.box --name birch-devstack-2
 
 * For Fullstack installations, run the following command.
 
    .. code-block:: bash
 
-     $ vagrant box add /path-to-downloaded-box/vagrant-images-20150224-birch-
-     fullstack.box --name birch-fullstack
-
-.. confirm names
+     $ vagrant box add /path-to-downloaded-box/vagrant-images-birch-2-fullstack.box --name birch-fullstack-2
 
 ============================================
 Set the OPENEDX_RELEASE Environment Variable
@@ -165,9 +161,9 @@ Birch release, using the ``migrate.sh`` script in the configuration repository,
 On the computer or virtual machine running the Aspen release of Open edX, run
 the upgrade script for your type of installation:
 
-* For Devstack, run ``./migrate.sh -c devstack``.
+* For Devstack, run ``./migrate.sh -t named-release/birch.2 -c devstack``.
 
-* For Fullstack, run ``./migrate.sh -c fullstack``.
+* For Fullstack, run ``./migrate.sh -t named-release/birch.2 -c fullstack``.
 
 * You can also run ``./migrate.sh -h`` to see which other options the script accepts.
 
