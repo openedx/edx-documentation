@@ -18,15 +18,15 @@
 
 .. _Vagrant's documentation on boxes: http://docs.vagrantup.com/v2/boxes.html
 
-.. _Birch Devstack: https://s3.amazonaws.com/edx-static/vagrant-images/20150224-birch-devstack.box
+.. _Birch Devstack: https://s3.amazonaws.com/edx-static/vagrant-images/birch-2-devstack.box
 
-.. _Birch Fullstack: https://s3.amazonaws.com/edx-static/vagrant-images/20150224-birch-fullstack.box
+.. _Birch Fullstack: https://s3.amazonaws.com/edx-static/vagrant-images/birch-2-fullstack.box
 
 .. _Google Drive XBlock: https://github.com/edx-solutions/xblock-google-drive
 
-.. _Birch Devstack BitTorrent: https://s3.amazonaws.com/edx-static/vagrant-images/20150224-birch-devstack.box?torrent
+.. _Birch Devstack BitTorrent: https://s3.amazonaws.com/edx-static/vagrant-images/birch-2-devstack.box?torrent
 
-.. _Birch Fullstack BitTorrent: https://s3.amazonaws.com/edx-static/vagrant-images/20150224-birch-fullstack.box?torrent
+.. _Birch Fullstack BitTorrent: https://s3.amazonaws.com/edx-static/vagrant-images/birch-2-fullstack.box?torrent
 
 .. _XML file: https://edge.edx.org/auth/saml/metadata.xml
 
@@ -42,7 +42,7 @@
 
 .. _Enable Google Drive Files in edX Studio: http://edx.readthedocs.org/projects/open-edx-building-and-running-a-course/en/named-release-birch/exercises_tools/google_docs.html#enable-google-drive-files-in-your-course
 
-.. mobile: 
+.. mobile:
 
 .. _iOS: http://github.com/edx/edx-app-ios
 .. _Android: http://github.com/edx/edx-app-android

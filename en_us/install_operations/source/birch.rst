@@ -110,17 +110,13 @@ Vagrant before continuing with the installation process.
 
    .. code-block:: bash
 
-     $ vagrant box add /path-to-downloaded-box/vagrant-images-20150224-birch-
-     devstack.box --name birch-devstack
+     $ vagrant box add /path-to-downloaded-box/vagrant-images-birch-2-devstack.box --name birch-devstack-2
 
 * For Fullstack installations, run the following command.
 
    .. code-block:: bash
 
-     $ vagrant box add /path-to-downloaded-box/vagrant-images-20150224-birch-
-     fullstack.box --name birch-fullstack
-
-.. confirm names
+     $ vagrant box add /path-to-downloaded-box/vagrant-images-birch-2-fullstack.box --name birch-fullstack-2
 
 ============================================
 Set the OPENEDX_RELEASE Environment Variable
