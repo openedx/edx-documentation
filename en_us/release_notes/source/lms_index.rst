@@ -10,6 +10,14 @@ The following information describes what is new in the edX LMS.
   :local:
   :depth: 2
 
+
+
+**************************
+12 August 2015
+**************************
+
+.. include:: 2015/lms/lms_0812_2015.rst
+
 **************************
 4 August 2015
 **************************
