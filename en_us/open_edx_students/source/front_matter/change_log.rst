@@ -4,6 +4,21 @@ Change Log
 
 
 *****************
+August 2015
+*****************
+
+.. list-table::
+   :widths: 15 70
+   :header-rows: 1
+
+   * - Date
+     - Change
+   * - 17 Aug 2015
+     - Updated :ref:`SFD Mobile` section to include information about using the
+       edX mobile apps to access course discussions.
+
+
+*****************
 June 2015
 *****************
 
