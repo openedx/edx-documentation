@@ -1,3 +1,8 @@
+.. _Open edX Named Releases Wiki page: https://openedx.atlassian.net/wiki/display/DOC/Named+Releases
+
+.. _YouTube Data API v3: https://developers.google.com/youtube/v3/
+.. _instructions for obtaining authorization credentials: https://developers.google.com/youtube/registering_an_application
+
 .. _nginx: http://nginx.com
 .. _gunicorn: http://gunicorn.org
 .. _Introduction to the Mac OS X Command Line: http://blog.teamtreehouse.com/introduction-to-the-mac-os-x-command-line
@@ -15,6 +20,9 @@
 .. _Ease: https://github.com/edx/ease
 .. _VirtualBox Guest Editions: http://www.virtualbox.org/manual/ch04.html
 .. _Vagrant documentation: http://docs.vagrantup.com/v2/
+.. _Ansible: http://docs.ansible.com/ansible/index.html
+.. _edx-platform: https://github.com/edx/edx-platform
+.. _configuration: https://github.com/edx/configuration
 
 .. _Vagrant's documentation on boxes: http://docs.vagrantup.com/v2/boxes.html
 
@@ -28,7 +36,17 @@
 
 .. _Birch Fullstack BitTorrent: https://s3.amazonaws.com/edx-static/vagrant-images/birch-2-fullstack.box?torrent
 
+
 .. _XML file: https://edge.edx.org/auth/saml/metadata.xml
+
+.. Cypress Links - Still need to change
+
+.. _init file: https://github.com/edx/edx-ora2/blob/a4ce7bb00190d7baff60fc90fb613229565ca7ef/openassessment/fileupload/backends/__init__.py
+
+.. _base.py: https://github.com/edx/edx-ora2/blob/a4ce7bb00190d7baff60fc90fb613229565ca7ef/openassessment/fileupload/backends/base.py
+
+.. _S3.py: https://github.com/edx/edx-ora2/blob/a4ce7bb00190d7baff60fc90fb613229565ca7ef/openassessment/fileupload/backends/s3.py
+
 
 .. _Edge registration: http://edge.edx.org/register
 

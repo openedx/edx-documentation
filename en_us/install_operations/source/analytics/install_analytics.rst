@@ -6,13 +6,14 @@
 Installing edX Insights
 #######################
 
-This chapter is intended for those who are interested in running `edX Insights`_
-and its dependencies in a production environment. Work to prepare complete
-installation procedures for edX Insights is in progress. Introductory material
-is available now.
+This section is intended for those who are interested in running `edX
+Insights`_ and its dependencies in a production environment. Work to prepare
+complete installation procedures for edX Insights is in progress. Introductory
+material is available now.
 
-.. contents:: Chapter Contents:
-
+.. contents::
+ :local:
+ :depth: 1
 
 ********
 Overview
@@ -110,7 +111,6 @@ the edX Analytics Pipeline:
 * Understand the YAML file format.
 * Understand Amazon Web Services terminology.
 
-
 ************************
 Planning Your Deployment
 ************************
@@ -131,9 +131,9 @@ clusters can be scaled vertically and horizontally as your data grows. For very
 small installations of Open edX, a single virtual server should be sufficiently
 powerful to process your data.
 
-Amazon's `Elastic MapReduce`_ service offers pre-configured Hadoop clusters. If you
-are able to use Amazon Web Services, use of this service is recommended. Proper
-installation and configuration of Hadoop can be time consuming.
+Amazon's `Elastic MapReduce`_ service offers pre-configured Hadoop clusters. If
+you are able to use Amazon Web Services, use of this service is recommended.
+Proper installation and configuration of Hadoop can be time consuming.
 
 Additionally, vendors such as Cloudera and MapR offer simplified Hadoop
 administration experiences.
@@ -141,7 +141,8 @@ administration experiences.
 Hadoop is a distributed system that consists of several different services. It
 is worth noting that they are Java services and require a non-trivial amount of
 memory to run. The high memory requirement may prevent you from running all
-services on the same virtual server if it does not have enough memory available.
+services on the same virtual server if it does not have enough memory
+available.
 
 .. _Elastic MapReduce: http://aws.amazon.com/elasticmapreduce/
 
@@ -152,8 +153,8 @@ edX Applications
 The edX Analytics Data API responds to a small number of requests every time a
 page is loaded in edX Insights. Small installations can probably host both
 services on the same virtual server. Larger installations will want to consider
-hosting them on more than one virtual server. A load balancer is recommended for
-each service that requires more than one virtual server.
+hosting them on more than one virtual server. A load balancer is recommended
+for each service that requires more than one virtual server.
 
 ============
 Result Store
@@ -161,9 +162,9 @@ Result Store
 
 The results of computations performed by the edX Analytics Pipeline are stored
 in a MySQL database. Even small installations should use a different MySQL
-server than the one used by the LMS. The query patterns of the edX Analytics API
-are more I/O intensive than usual. Placing both databases on the same server may
-degrade performance of the Learning Management System.
+server than the one used by the LMS. The query patterns of the edX Analytics
+API are more I/O intensive than usual. Placing both databases on the same
+server may degrade performance of the Learning Management System.
 
 =========
 Scheduler
@@ -185,11 +186,11 @@ Example Deployments
 Small Scale Using Elastic MapReduce
 ===================================
 
-A small deployment might consist of a single master node and a single core node.
-The Scheduler is deployed to the master node and periodically executes the edX
-Analytics Data Pipeline on this server. Additionally, the edX Analytics API, edX
-Insights and result store are deployed to the master node. These services run
-continuously.
+A small deployment might consist of a single master node and a single core
+node. The Scheduler is deployed to the master node and periodically executes
+the edX Analytics Data Pipeline on this server. Additionally, the edX Analytics
+API, edX Insights and result store are deployed to the master node. These
+services run continuously.
 
 ===================================
 Large Scale Using Elastic MapReduce
@@ -220,7 +221,7 @@ cluster is deployed. The master node is considered the node that is running the
 Job Tracker service for Hadoop 1.X deployments or the Resource Manager service
 for Hadoop 2.X deployments. Hive and Sqoop are deployed to the master node.
 Several servers are deployed outside of the Hadoop cluster that host the
-remainder of the infrastructure. The edX Analytics API and edX Insights services
-are each deployed to at least one server. The Scheduler is deployed to another
-server. A MySQL database is deployed to a server that is configured to host a
-relational database.
+remainder of the infrastructure. The edX Analytics API and edX Insights
+services are each deployed to at least one server. The Scheduler is deployed to
+another server. A MySQL database is deployed to a server that is configured to
+host a relational database.

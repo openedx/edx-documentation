@@ -2,13 +2,23 @@
 
 .. _Enable Entrance Exams:
 
-######################################################
-Enable Entrance Exams
-######################################################
+########################
+Enabling Entrance Exams
+########################
 
-In the Open edX Birch release, a new feature allows course teams to create an
-entrance exam for the course. Learners must pass the entrance exam before
-participating in the course.
+This section describes how to enable entrance exams in your instance of Open
+edX.
+
+.. contents::
+   :local:
+   :depth: 1
+
+*********
+Overview
+*********
+
+Course teams can create an entrance exam for the course. Learners must pass the
+entrance exam before participating in the course.
 
 To enable this feature on your instance of Open edX, you must enable
 entrance exams in Studio and the Learning Management System.
@@ -34,4 +44,3 @@ Enable Entrance Exams in Studio and the Learning Management System
      'ENTRANCE_EXAMS': True,
 
 #. Save the ``/cms/envs/common.py`` and ``/lms/envs/common.py`` files.
-   

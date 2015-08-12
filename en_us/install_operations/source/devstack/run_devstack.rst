@@ -6,8 +6,11 @@
 Running the Open edX Developer Stack
 ####################################
 
-.. contents:: Chapter Contents:
+This section describes how to run the Open edX Developer Stack.
 
+.. contents::
+   :local:
+   :depth: 1
 
 ****************************************
 Connect to the Devstack Virtual Machine
@@ -16,11 +19,11 @@ Connect to the Devstack Virtual Machine
 #. To connect to the Devstack virtual machine, use the SSH command from the
    `devstack` directory.
 
-  .. code-block:: bash
+   .. code-block:: bash
 
-   vagrant ssh
+     vagrant ssh
 
-2. To use Devstack and perform any of the tasks described in this section, you
+#. To use Devstack and perform any of the tasks described in this section, you
    must connect as the user **edxapp**.
 
    .. code-block:: bash

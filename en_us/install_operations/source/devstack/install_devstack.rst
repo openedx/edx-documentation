@@ -6,11 +6,11 @@
 Installing the Open edX Developer Stack
 ########################################
 
-This chapter is intended for those who are installing and running the Open edX
-Developer Stack.
+This section describes how to install the Open edX Developer Stack.
 
-.. contents:: Chapter Contents:
-
+.. contents::
+   :local:
+   :depth: 1
 
 **********
 Overview
@@ -160,10 +160,7 @@ To resolve the error, follow these steps.
 
 #. Stop the VPN.
 #. Type ``vagrant halt``.
-#. Open Virtualbox.
-   
+#. Open Virtualbox.   
 #. Navigate to **Preferences > Network > Host-only Networks** and remove the
    most-recently-created host-only network.
-
 #. Type ``vagrant up``.
-   
