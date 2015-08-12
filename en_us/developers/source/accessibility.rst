@@ -538,6 +538,14 @@ These are some automated tools for accessibility testing.
 
 * Your keyboard. For information about using your keyboard to test for
   accessibility, see `<http://webaim.org/techniques/keyboard/>`_.
+  
+.. note:: By default, the Mac OSX operating system is configured to move keyboard
+   focus to "Text boxes and lists only."  This setting also applies to browsing web
+   pages using Safari or Firefox with a keyboard.  To effectively test 
+   keyboard accessibility using a Mac, you should configure your computer
+   to focus on "All controls."  Open up your System Preferences -> Keyboard then
+   toggle the radio button on the Shortcuts tab under "Full Keyboard Access."
+   You can also toggle this setting using Control+F7.
 
 To test your feature using a screen reader, you can use the following
 options.
