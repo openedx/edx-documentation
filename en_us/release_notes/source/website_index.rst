@@ -2,11 +2,18 @@
 EdX Website
 ####################################
 
-The following information describes what is new on edx.org. 
+The following information describes what is new on edx.org and Edge. 
 
 .. contents::
   :local:
   :depth: 2
+
+
+**************************
+12 August 2015
+**************************
+
+.. include:: 2015/website/website_0812_2015.rst
 
 **************************
 8 July 2015

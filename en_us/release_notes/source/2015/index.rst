@@ -1,4 +1,4 @@
-2.. 2015 index file for date based release notes pages
+.. 2015 index file for date based release notes pages
 
 ####################################
 edX Release Notes 2015
