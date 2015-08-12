@@ -48,6 +48,7 @@ Course Content Index`.
    problem_with_hint
    problem_in_latex
    protein_builder
+   qualtrics
    randomized_content_blocks
    recommenderXBlock
    survey
