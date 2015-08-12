@@ -37,6 +37,13 @@ Heading Levels
  Heading 6
  ~~~~~~~~~~~
 
+***************************
+Internal Table of Contents
+***************************
+
+.. contents:: 
+  :local:
+  :depth: 1
 
 ************************************************
 Paragraph Text and Commented Text
@@ -86,6 +93,27 @@ Use asterisks for bulleted lists.
 * What university or college is the course affiliated with?
 * What topics and concepts are covered in your course?
 * Why should a learner enroll in your course?
+
+To create a bulleted list inside a numbered list, make sure that you indent
+the bulleted list only two spaces instead of three. The bulleted list cannot
+be flush with the text in the numbered list, or it will appear as a numbered
+list.
+
+::
+
+  To enroll in a course, follow these steps.
+
+  #. On the edX home page, select the course that you want.
+  #. When the About page for the course opens, select **Enroll Now** in the
+     upper right corner of the page.
+
+    * If your course only offers honor code certificates, you are enrolled in
+      the course after you select **Enroll Now**.
+
+    * If your course offers both honor code certificates and verified
+      certificates, you must select the type of certificate you want after you
+      select **Enroll Now**.
+
 
 
 *********************************
