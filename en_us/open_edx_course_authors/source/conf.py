@@ -28,7 +28,7 @@ def setup(app):
 
 
 # General information about the project.
-project = u'Building and Running an Open edX Course'
+project = u'Building and Running an Open edX Course - Cypress Release'
 copyright = u'2015, edX'
 
 # The short X.Y version.

@@ -3,9 +3,9 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-###########################################################
-Installing, Configuring, and Running the Open edX Platform
-###########################################################
+############################################################################
+Installing, Configuring, and Running the Open edX Platform - Cypress Release
+############################################################################
 
 *Installing, Configuring, and Running the Open edX Platform* provides
 instructions for using your own instance of the Open edX Platform and

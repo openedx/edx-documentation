@@ -29,7 +29,7 @@ pygments_style = 'sphinx'
 
 
 # General information about the project.
-project = u'Installing, Configuring, and Running the Open edX Platform'
+project = u'Installing, Configuring, and Running the Open edX Platform - Cypress Release'
 copyright = u'2015, edX'
 
 # The short X.Y version.
