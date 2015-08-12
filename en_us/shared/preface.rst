@@ -331,8 +331,9 @@ Resources for Open edX
 **************************
 
 Hosting providers, platform extenders, core contributors, and course staff all
-use Open edX. Starting with the Birch release of Open edX, the following
-release-specific documentation is available on docs.edx.org.  
+use Open edX. EdX provides release-specific documentation, as well as the
+latest version of all guides, for Open edX users. The following documentation
+is available.
 
 * `Open edX Release Notes`_ provides information on the contents of Open edX
   releases.
@@ -344,14 +345,14 @@ release-specific documentation is available on docs.edx.org.
   When you are working in Studio, you can access relevant sections of this
   guide by selecting **Help** on any page.
 
-In addition, the following guides are kept up to date with information about
-the most recently released additions to the platform.
+* `Open edX Learner's Guide`_ helps students use the Open edX LMS to take
+  courses. This guide is available on the docs.edx.org web page. Because
+  learners are currently only guided to this resource through the courseware,
+  we encourage course teams to provide learners with links to this guide as
+  needed in course updates or discussions.
 
 * `Installing, Configuring, and Running the edX Platform`_ provides
   information about installing and using Devstack and Fullstack.
-
-* `Building and Running an Open edX Course - latest`_ includes descriptions of
-  features released after the most recent official, named release.
 
 * The `edX Platform Developer's Guide`_ includes guidelines for
   contributing to Open edX, options for extending the Open edX platform, using
