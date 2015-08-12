@@ -574,3 +574,5 @@
 .. _Preview Cohort-Specific Courseware: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/cohorts/cohorted_courseware.html#preview-cohort-specific-courseware
 
 .. _View Your Live Course: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/developing_course/testing_courseware.html#view-your-live-course
+
+.. _Enabling Third Party Authentication with edX Edge: http://edx.readthedocs.org/projects/edx-installing-configuring-and-running/en/latest/configuration/tpa/enable_tpa_edge.html#enabling-third-party-authentication-edge
