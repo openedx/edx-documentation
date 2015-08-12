@@ -1,4 +1,4 @@
-.. 2015 index file for date based release notes pages
+2.. 2015 index file for date based release notes pages
 
 ####################################
 edX Release Notes 2015
@@ -10,6 +10,7 @@ The following pages describe what is new in 2015.
 .. toctree::
    :maxdepth: 1
    
+   08-12-2015
    08-04-2015
    07-28-2015
    07-17-2015
