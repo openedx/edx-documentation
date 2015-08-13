@@ -74,16 +74,13 @@ To browse topics and find a team to join, follow these steps.
    you cannot participate unless you are a member of the team.
 
 .. image:: ../../shared/students/Images/Teams_TeamsDetails.png
-  :width: 500
+  :width: 600
   :alt: Detailed view of team, showing discussions.
 
 .. note:: You can navigate from a team's detail page back to the topic teams
    view or back to all topics using the breadcrumb links at the top of the
    page.
 
-.. image:: ../../shared/students/Images/Teams_Breadcrumbs.png
-  :width: 500
-  :alt: Breadcrumb links for navigation between teams and topics.
 
 =======================
 Join a Team
@@ -121,7 +118,7 @@ To invite friends to join your team, follow these steps.
 #. On your team's details page, select and copy the URL under **Invite Others**.
 
 .. image:: ../../shared/students/Images/Teams_InviteOthers.png
-  :width: 500
+  :width: 200
   :alt: The Invite Others field on the Team Details page, with a URL that can
       be copied and shared.
 
@@ -148,7 +145,7 @@ To leave a team that you belong to, select **Leave Team** from the **Team
 Details** page.
 
 .. image:: ../../shared/students/Images/Teams_Leave Team.png
-  :width: 500
+  :width: 200
   :alt: The Leave Team link on the Team Details page.
 
 You are no longer visible in the team membership profiles list, or in the
