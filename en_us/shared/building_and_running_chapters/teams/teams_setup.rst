@@ -22,12 +22,13 @@ Teams Overview
 Using teams in your course enables learners to interact and collaborate in
 small groups around topics that you create.
 
-Learners can create their own teams and use not only names and descriptions to
-identify them but also, optionally, a primary communication language and a
-primary country that members identify with. Team characteristics might serve
-as the basis for attracting new members, resulting in small groups of learners
-with similar interests and goals who will work together on projects within the
-same topic area.
+After browsing topics, learners can join a team or create their own team
+within a topic. When learners create a new team, they add names and
+descriptions to identify them but also, optionally, a primary communication
+language and a primary country that members identify with. Team
+characteristics might serve as the basis for attracting new members, resulting
+in small groups of learners with similar interests and goals who will work
+together on projects or activities within the same topic area.
 
 
 .. https://openedx.atlassian.net/browse/TNL-1889

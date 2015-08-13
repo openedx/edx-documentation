@@ -31,12 +31,13 @@ When learners find a team that they want to join, they select **Join Team**
 and are immediately added to the team membership, subject to the maximum team
 size. 
 
-If no teams exist, no teams exist that learners want to join, or if existing
-teams have reached the maximum number of members, learners can create their
-own teams. Under a topic, learners select **Create Team**. They specify a name
-and description for their team, and optionally specify a country and language
-that team members identify with. A learner who creates a team automatically
-becomes a member of the new team.
+If no teams exist, if existing teams have reached the maximum number of
+members, or if none of the existing teams are appealing, learners can create
+their own teams. Under the list of existing teams in a topic, learners select
+**create a new team in this topic**. They specify a name and description for
+their team, and optionally specify a country and language that team members
+identify with. A learner who creates a team automatically becomes a member of
+the new team.
 
 .. note:: Encourage learners to join existing teams before creating new teams.
 
@@ -50,8 +51,9 @@ team. To join a new team, they must first leave their existing team.
 Inviting Friends to Join a Team
 *************************************
 
-When learners join a team, they can invite friends to join that team by
-copying a link and sending it to invitees so that they can locate the team.
+After learners join a team, they can invite friends to join that same team by
+copying a URL, which they can then forward to invitees by any external means
+such as email, or social media post.
 
 
 *************************************
