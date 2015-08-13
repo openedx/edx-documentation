@@ -4,10 +4,10 @@
 In-Course Reverification
 #################################
 
-To use ICRV, you must complete the following steps.
+To use in-course reverification, you must complete the following steps.
 
-#. :ref:`Enable ICRV in your course <Enable ICRV>`.
-#. :ref:`Create specific ICRV checkpoints <Create ICRV Checkpoint>`.
+#. :ref:`Enable reverification in your course <Enable Reverification>`.
+#. :ref:`Create specific reverification checkpoints <Create Reverification Checkpoint>`.
 
 .. _Enable ICRV:
 
@@ -15,7 +15,7 @@ To use ICRV, you must complete the following steps.
 Enable In-Course Reverification
 *********************************
 
-To enable ICRV for your course, follow these steps.
+To enable in-course reverification for your course, follow these steps.
 
 #. In Studio, select **Settings**, and then select **Advanced Settings**.
 #. In the **Advanced Module List** field, place your cursor between the
@@ -27,17 +27,20 @@ To enable ICRV for your course, follow these steps.
     item, and then add ``"edx-reverification-block"``. The field should
     resemble the following example.
 
-    ``"module_name","edx-reverification-block"``
+    ``["module_name","edx-reverification-block"]``
+
+#. At the bottom of the page, select **Save Changes**.
 
 .. _Create ICRV Checkpoint:
 
-*******************************
-Create an ICRV Checkpoint
-*******************************
+*************************************************
+Create an In-Course Reverification Checkpoint
+*************************************************
 
-To create an ICRV checkpoint, follow these steps.
+To create an in-course reverification checkpoint, follow these steps.
 
-#. In the subsection for the assessment that requires ICRV, create a new unit.
+#. In the subsection for the assessment that requires reverification, create a
+   new unit.
 #. In the unit, locate **Add New Component**, select **Advanced**, and then
    select **Reverification Checkpoint**.
 
@@ -46,17 +49,18 @@ To create an ICRV checkpoint, follow these steps.
    checkpoint is the first component in the unit.
 
 #. In the reverification checkpoint component, select **Edit**.
-#. In the component editor, locate **Associated Assessment**, and then type the
-   display name of the subsection that contains assessment that you want to
-   associate with the checkpoint. If you have not created the assessment yet,
-   type the display name that the assessment will have.
-#. In the **Verification Attempts** box, select the number of times that you
+#. In the component editor, locate **Associated Assessment**, and then enter
+   the display name of the subsection that contains the assessment that you
+   want to associate with the checkpoint. If you have not created the
+   assessment yet, enter the display name that you plan to give the
+   assessment.
+#. For **Verification Attempts**, select the number of times that you
    want to allow learners to attempt to verify their identity. You can select
    up to three attempts.
 #. Select **Save**.
 
-After you create an ICRV checkpoint, the checkpoint appears in the list of
-course credit requirements on the learner's **Progress** page.
+After you create an reverification checkpoint, the checkpoint appears in the list of
+course credit requirements on learners' **Progress** pages.
 
 .. image:: /Images/SFD_Credit_ReqList.png
  :width: 400
