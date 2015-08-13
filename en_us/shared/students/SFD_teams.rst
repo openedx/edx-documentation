@@ -4,7 +4,13 @@
 Teamwork in Courses
 ##########################################
 
-Some courses support small teams, organized around topics, that you can join to study or work on a project together. If your course course includes teams, your instructor or course staff will provide guidelines for how you should work in teams. 
+In courses that use teams, course staff create topics that you can choose from
+for small group activities or projects. You choose a topic that interests you,
+and form a team with other learners who have the same interest, to work on the
+group activity or project together.
+
+If your course includes teams, your instructor or course staff will provide
+guidelines for how you should work in teams.
 
 .. content::
    :local:
@@ -15,13 +21,19 @@ Some courses support small teams, organized around topics, that you can join to 
 About Teams and Topics
 ************************
 
-If teams are used in your course, there is a **Teams** page in the LMS where
-you can see the topics that have been created by the course team. Teams are
-created within a specific topic, and have a maximum team size.
 
-If it up to you to browse the topics and find one that you are interested in
-working on. Then, you join a team that is working on that topic. For more
-information, see :ref:`Finding a Team to Join`.
+If your course has topics that your course team has created for group work,
+there is a **Teams** page in the LMS where you can see the list of topics and
+their descriptions.
+
+It is up to you to browse the topics and find one that you are interested in
+working on. Then, you join a team that is working on that topic, either by
+joining a team that has already been created, or by creating a new team
+yourself. For more information, see :ref:`Browse Topics and Find a Team to
+Join`.
+
+Teams are always created within a specific topic, and have a maximum team size
+that is decided by course staff.
 
 
 ======================================
@@ -41,12 +53,17 @@ To browse topics and find a team to join, follow these steps.
 
 #. Each team's name and description, and in some cases the optional primary
    language of a team and a country that team members identify with, are
-   shown.
+   shown. 
+
+   The number of team members is also shown, letting you know whether
+   the team is full, or whether there is space for you to join.
+
+.. image to come
 
 #. To get a better sense of a team's members, discussion, and communications,
    select **View** for a team.
 
-   On a team's detail page, you can browse the team's discussion topics, but
+   On a team's detail page, you can browse the team's discussion posts, but
    you cannot participate unless you are a member of the team.
 
 .. image to come
@@ -60,7 +77,9 @@ To browse topics and find a team to join, follow these steps.
 Join a Team
 =======================
 
-When you have found a team you want to join, select **Join Team**.
+When you have found a team you want to join, select **Join Team**. 
+
+.. note:: If a team is full, the **Join Team** button is not available.
 
 .. image to come
 
@@ -86,8 +105,9 @@ To invite friends to join your team, follow these steps.
 
 .. image to come
 
-#. Forward the link to friends who you want to invite. They can paste the URL
-   into a browser to find and join your team.
+#. Forward the link to your team to friends who you want to invite, by pasting
+   the copied URL into emails, texts, or social media posts. They can paste
+   the URL into a browser address bar to find and join your team.
 
 
 =======================
@@ -96,23 +116,34 @@ Leaving a Team
 
 If you have changed your mind about the team you joined, you can leave a team.
 
-To leave a team that you belong to, follow these steps.
+.. note:: edX recommends that you do not change teams after work in a course
+   has started, without carefully considering the impacts to your work and
+   that of your fellow learners. If you must leave a team for some reason,
+   make sure you communicate with your fellow team members and let them know
+   why and when you are leaving. This is especially important if you are part
+   of the way through your course, and you and your team have been working
+   together on a project or activity.
 
-#. On your team's details page, select **Leave Team**.
+To leave a team that you belong to, select **Leave Team**.
+
+You are no longer visible in the team membership profiles list, or in the
+membership count. You can no longer add posts in the team's discussion.
 
 .. image to come
 
-.. Is there a confirmation message? Can't do on sandbox yet.
+.. Add info about confirmation message when implemented.
 
 
 =======================
 Creating a Team
 =======================
 
-Only if you cannot find an appropriate team to join within your topic, you can
-create a new team. 
+If no teams exist in the topic, if existing teams have reached the maximum
+number of members, or if you do not want to join any of the existing teams in
+the topic, you can create a new team.
 
-When you create a new team, you are automatically made a member of it.
+When you create a new team in a topic, you are automatically added as a
+member.
 
 To create a team, follow these steps.
 
@@ -126,10 +157,18 @@ To create a team, follow these steps.
 
 .. image to come  
 
-#. On the **Create New Team** page, add a name and description for the team.
-   Optionally, specify a language that members would primarily use to
-   communicate with each other, and a country that members would primarily
-   identify with.
+#. On the **Create New Team** page, add a name and description for the team. 
+
+   In the description, include details about your proposed project or activity
+   to help other learners to decide whether they want to join your team and
+   work with you.
+
+   You must include a team name and description, but you can choose whether to
+   add some optional details for your team. If you want to, you can specify a
+   language that members would primarily use to communicate with each other,
+   and a country that members would primarily identify with. Keep in mind that
+   if your team details make the team membership seem to selective, other
+   learners might be discouraged from joining.
 
 .. note:: Be careful in entering your team details. After you save the
    details for your new team, you cannot change them, and you cannot delete
@@ -139,7 +178,7 @@ To create a team, follow these steps.
 
 #. When you have finished adding your team details, click **Create**.
 
-   Your new team is added to the list of team under your selected topic. You are automatically made a member of the team you created.
+   Your new team is added to the list of team under your selected topic. You are automatically added as a team member.
 
    For information about inviting friends to join a team, see :ref:`Inviting Friends to Join a Team`.  
 
