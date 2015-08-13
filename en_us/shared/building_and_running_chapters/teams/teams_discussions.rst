@@ -6,21 +6,19 @@ Managing Team Discussions
 #########################
 
 You should designate course staff and optionally student TAs to moderate team
-discussions. As in course discussions, different roles have different
-privileges in team discussions.
-
-.. note:: The members of the course team that you set up in Studio or on the
-   Instructor Dashboard in the LMS are not automatically granted discussion
-   administration roles.
-
-   Discussion administration roles must be explicitly granted to members of the
-   course team for them to be able to moderate or administer course discussions.
-   The course author and any team members who have the Admin role can grant
-   discussion administration roles.
+discussions. The same discussion administration roles for managing course
+discussions on the Discussions page apply to discussion administration for
+team discussions. Course team members and student TAs who already have
+discussion moderation roles for course discussions on the Discussions page can
+perform the same roles for discussions in teams.
 
 For information about discussion administration roles, see
 :ref:`Assigning_discussion_roles`. For information about managing discussions,
 see :ref:`Running_discussions`.
+
+.. contents::
+  :local:
+  :depth: 1
 
 ***********************************
 Ability to Post in Team Discussions
@@ -31,13 +29,9 @@ of Discussion Admin or Discussion Moderator can post to the team discussion.
 Team members can edit their own posts, reply to posts and comments, follow and
 flag posts, and so on.
 
-Posts made by discussion community TAs are marked as "By: Community TA".
-Responses and comments made by community TAs have a colored "Community TA"
-identifier.
-
-Posts made by discussion moderators or discussion admins are marked as "By:
-Staff" in the lists of posts, and responses and comments made by discussion
-moderators are have a colored "Staff" identifier.
+Posts made by discussion community TAs are marked as "By: Community TA" in the
+list of posts, and those made by discussion moderators or discussion admins
+are marked as "By: Staff".
 
 
 ***********************************
