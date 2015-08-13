@@ -8,7 +8,7 @@ This section describes how to create and manage proctored exams in Studio.
 
 .. contents::
  :local:
- :depth: 1
+ :depth: 2
 
 .. _CA_ProctoredExams_Overview:
 
@@ -17,18 +17,18 @@ Proctored Exam Overview
 ****************************
 
 Proctored exams are exams with time limits that learners complete while online
-proctoring software monitors their computer and behavior for activity that
+proctoring software monitors their computers and behavior for activity that
 might be evidence of cheating.
 
 In for-credit courses, course teams can create exams that they designate as
-proctored exams, and make these exams requirements for credit eligibility. 
+proctored exams, and require that learners pass these exams as one of the
+requirements for credit eligibility.
 
-.. note:: Only learners enrolled in the Verified track see the option to take
-   an exam with online proctoring. If you believe that there are students who
-   have not yet upgraded to the Verified track who should be taking proctored
-   exams and qualifying for course credit, you should remind them to enroll in
-   the Verified track before the part of your course where proctored exams
-   occur.
+.. note:: Only learners who are enrolled in the Verified track see the option
+   to take an exam with online proctoring. If you believe that there are
+   students who have not yet upgraded to the Verified track who should be
+   taking proctored exams and qualifying for course credit, you should remind
+   them to enroll in the Verified track before the deadline for upgrading.
 
 Learners in the Verified track can choose to take the exam as proctored and be
 eligible for course credit, or take the exam as an open exam and not be
@@ -40,12 +40,15 @@ Proctored Exam>` for your course so that learners can become familiar with the
 process of installing proctoring software and performing the required checks
 ahead of time.
 
-To earn credit for completing a course, learners take the exam as a proctored
-exam and must receive a passing result for their online proctoring session in
-addition to achieving a passing score in the course.
+To satisfy the proctored exam requirement for credit eligibility, learners
+must take the exam as a proctored exam and receive a **Satisfactory** result
+for their proctoring session review as well as a passing grade on the exam
+itself. For more information about proctored session review results, see
+:ref:`Proctored Exam Session Results`.
 
-For information about for-credit courses and specifying the passing score, see
-:ref:`Academic Course Credit` and :ref:`Specify Passing Score`.
+For information about for-credit courses and specifying the passing score for
+credit eligibility, see :ref:`Academic Course Credit` and :ref:`Specify
+Passing Score`.
 
 
 =====================================================
@@ -65,6 +68,9 @@ For more information about the technical requirements for taking a proctored
 exam, and edX's :ref:`Online Proctoring Rules <Online Proctoring Rules>`, see
 :ref:`Preparing Learners for Proctored Exams`.
 
+
+.. _Proctored Exam Session Results:
+
 ===============================
 Proctored Exam Session Results
 ===============================
@@ -76,17 +82,18 @@ adherence to :ref:`Online Proctoring Rules <Online Proctoring Rules>`, and
 when the review is complete, a result is returned for each learner who took
 the exam as a proctored exam.
 
-When proctoring session results become available, course staff can download a
-report that lists proctoring results for learners in their course. For more
-information, see :ref:`Proctored Exam Results`.
+Before proctoring session results are available, learners see a **Pending**
+result. After their proctoring sessions are available, learners can receive
+either a **Satisfactory** or **Unsatisfactory** result.
 
-.. For passing students, is there some visible status change for certificates
-.. etc. that is triggered to indicate that they can go ahead with requesting
-.. credit? Anything visible in the UI?
+Learners can check their proctoring session results by returning to the
+proctored exam in the courseware. Their proctoring session review results are
+updated there when results are received. In addition, learners can go to their
+**Progress** pages, where they can check their proctored exam results as a
+part of their overall credit eligibility status.
 
-Learners who have achieved the minimum credit-eligible grade in the course as
-well as a **Satisfactory** result for the proctored session review are shown
-as eligible for credit on their Progress pages.
+Course staff can download a report that lists proctoring results for learners
+in their course. For more information, see :ref:`Proctored Session Results`.
 
 
 .. _CA_LearnerExperience_Proctored Exams:
@@ -98,7 +105,8 @@ The Learner Experience of Proctored Exams
 Only learners who have signed up for the Verified track in your course have
 the option of taking proctored exams. When they access a proctored exam,
 learners on the Verified track can choose to take the exam with online
-proctoring, or to take the exam without proctoring and only as a timed exam.
+proctoring, or to take the exam without proctoring and as an open exam with no
+time limit.
 
 If learners choose to take the exam without proctoring, they are not eligible
 for credit for the exam, and will not be offered the proctored option for that
@@ -108,8 +116,13 @@ Learners who are not ready to make the choice or take the exam immediately can
 defer their decision and return to the exam again at some other time before
 the due date.
 
-.. Do we want to give advice to course staff about planning an adequate due date? 
-.. e.g. allow more time than normal for allow proctoring results to come back? Allow time for administrative tasks, especially as edX support needs to be involved in creating extra time allowances. Course staff need to allow enough time to get confirmations back from Support and also to notify students. If resolution of any technical difficulty disputes is needed, students also need adequate time to retake the exam.
+.. Question for Griff or Julia 
+
+.. Do we want to give advice to course staff about planning an adequate due date?  e.g. allow more time than normal for allow proctoring results to come back? Allow time for administrative tasks, especially as edX support needs to be involved in creating extra time allowances. Course staff need to allow enough time to get confirmations back from Support and also to notify students. If resolution of any technical difficulty disputes is needed, students also need adequate time to retake the exam.
+
+
+Taking a proctored exam
++++++++++++++++++++++++++++++++++
 
 When learners agree to take the exam with online proctoring, they are guided
 through the process of installing the proctoring software and performing
@@ -128,18 +141,24 @@ remaining. For example, if the allowed time in the exam is 60 minutes,
 learners see a warning when there are 12 minutes left, and again when there
 are 3 minutes left.
 
-When learners complete the exam, or when the countdown timer reaches 00:00,
-they no longer have access to the exam. The proctoring software begins the
-process of uploading the captured session data. Learners are notified of this
-and see a status of "Pending" for their proctoring session results. They can
-check their Progress pages in the LMS for updates to the proctoring review
-results. If they receive a passing result for proctoring as well as passing
-grades for the course, they are shown as being eligible for credit on their
-Progress page.
+For information about scenarios that learners might encounter while taking
+proctored exams, see :ref:`Respond to Learner Concerns about Proctored Exams`
+and :ref:`CA_Situations_Learners_Encounter_Proctored_Exams`.
 
-For information about scenarios that learners might encounter, see
-:ref:`Respond to Learner Concerns about Proctored Exams` and
-:ref:`CA_Situations_Learners_Encounter_Proctored_Exams`.
+
+Completing a proctored exam
++++++++++++++++++++++++++++++++++
+
+When learners complete the exam, or when the countdown timer reaches 00:00,
+they no longer have access to the exam. Learners are reminded to quit the
+proctoring session, and the proctoring software begins the process of
+uploading the captured session data.
+
+On the proctored exam page in the LMS, learners see a status of "Pending" for
+their proctoring session results until their session data has been reviewed.
+They can return to this page in the courseware or check their **Progress**
+pages in the LMS for updates to their proctoring review results.
+
 
 
 .. _Preparing Learners for Proctored Exams:
@@ -384,7 +403,7 @@ follow these steps.
    retake the exam.
 
 
-.. _Proctored Exam Results:
+.. _Proctored Session Results:
 
 ******************************
 Proctored Session Results
@@ -404,8 +423,8 @@ Two results are possible for proctoring session reviews.
    learner has not passed the proctoring review.
 
 Some learner behavior that is listed in the Online Proctoring Rules is
-discouraged, but does not impact the integrity of the exam. Violations in
-these cases might be flagged but learners with such flags will still receive a
+discouraged but does not impact the integrity of the exam. Violations in
+these cases might be flagged but learners with such flags can still receive a
 **Satisfactory** result. For example, a learner is discouraged from playing music
 or having a TV on in the background while they take their exam, but if their
 session recording shows such behavior, it is still possible for them to
@@ -421,7 +440,7 @@ one instance of such activity, learners receive an **Unsatisfactory** result
 for their proctoring session.
 
 
-.. _Viewing Proctored Exam Results:
+.. _Viewing Proctored Session Results:
 
 =================================
 Viewing Proctored Session Results
@@ -457,9 +476,10 @@ steps.
    browser and scroll down to the **Pending Tasks** section. The status of active
    tasks is shown in the table.
 
-   When the report is complete, a linked .csv file name becomes available above
-   the **Pending Tasks** section. File names are in the format
-   ``{course_id}_proctored_exam_results_report_{datetime}.csv``. The most recently generated reports appear at the top of the list.
+   When the report is complete, a linked .csv file name becomes available
+   above the **Pending Tasks** section. File names are in the format
+   ``{course_id}_proctored_exam_results_report_{datetime}.csv``. The most
+   recently generated reports appear at the top of the list.
 
 5. To open or save a report file, locate and click the link for the report you
    requested.
@@ -474,13 +494,18 @@ steps.
    than 5 minutes. If necessary, refresh the page to generate new links.
 
 
+.. _Proctored Session Results File:
+
 =================================================
 Understanding the Proctored Session Results File
 =================================================
 
-The .CSV file that you can download to view the status and results of learners' proctoring sessions contains the following fields.
+The .CSV file that you can download to view the status and results of
+learners' proctoring sessions contains the following fields.
 
 .. Chris Are these columns in the report finalized? I think you mentioned that some of these might be removed.
+
+.. Chris Questions marks in the table indicate where I'm not sure of some column descriptions. 
 
 .. list-table::
    :widths: 30 55
@@ -582,12 +607,15 @@ continuing to count down during the learner's time away from the exam.
 Running Out Of Time In an Exam
 ==========================================
 
-If the timer reaches 00.00 before a learner has completed the exam, all the
-answers that the learner has submitted up to that point in time are submitted
-for grading.
+If the timer reaches 00.00 before a learner has completed the exam, the exam
+ends, and all answers that the learner has submitted up to that point in time
+are submitted for grading. 
 
-If the exam is also a proctored exam, the proctoring session automatically
-ends when the exam ends, and the proctoring session data is uploaded for review. 
+The proctoring software detects that the edX exam has ended, and prompts
+learners to confirm that they want to quit their proctoring session. Learners
+must go back to the proctoring software and confirm that they are quitting, so
+that the proctoring session ends and the proctoring session data is uploaded
+for review.
 
 
 =======================================================
@@ -615,9 +643,10 @@ The edX Browser Terminates Unexpectedly
 
 If the browser in which the edX exam is running crashes, the exam timer for
 each learner continues to run. Learners can reopen their exam in a new browser
-window and continue their exam, but they will have lost time while the browser was closed. 
+window and continue their exam, but they will have lost time while the browser
+was closed.
 
-.. Question: how does the proctoring software view such a break in taking the exam?
+.. Question for Chris: how does the proctoring software view such a break in taking the exam?
 
 
 Learners Close the Proctoring Software Window
@@ -638,10 +667,10 @@ Learners Close the edX Exam Window
 +++++++++++++++++++++++++++++++++++
 
 If learners close the browser in which their edX proctored exam is running
-before they have completed the exam, they do not see any alerts. The exam
-timer for each learner continues to run. If learners reopen their exam in a
-new browser window, they can continue their exam, but they will have lost time
-while the browser was closed.
+before they have completed the exam, they might not see any alerts, depending
+on the browser that they are using. The exam  timer for each learner continues
+to run. If learners reopen their exam in a new browser window, they can
+continue their exam, but they will have lost time while the browser was
+closed.
 
-.. Question: how does the proctoring software view such a break in taking the exam?
-
+.. Question for Chris: how does the proctoring software view such a break in taking the exam?
