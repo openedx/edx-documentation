@@ -53,7 +53,7 @@ both features in your course.
   For more information, see :ref:`In Course Reverification`.
 
 * Proctored exams are timed exams that learners take while being monitored by
-  online proctoring software. Only learners who have enrolled in the Verified
+  online proctoring software. Only learners who have enrolled in the verified
   track see the proctored exam option in the courseware, and can choose
   whether they want to take the exam with online proctoring. If they decline
   the proctored option, they can take the exam with no monitoring and no time

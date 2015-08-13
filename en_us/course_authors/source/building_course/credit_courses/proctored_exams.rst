@@ -24,13 +24,13 @@ In for-credit courses, course teams can create exams that they designate as
 proctored exams, and require that learners pass these exams as one of the
 requirements for credit eligibility.
 
-.. note:: Only learners who are enrolled in the Verified track see the option
+.. note:: Only learners who are enrolled in the verified track see the option
    to take an exam with online proctoring. If you believe that there are
-   students who have not yet upgraded to the Verified track who should be
+   students who have not yet upgraded to the verified track who should be
    taking proctored exams and qualifying for course credit, you should remind
-   them to enroll in the Verified track before the deadline for upgrading.
+   them to enroll in the verified track before the deadline for upgrading.
 
-Learners in the Verified track can choose to take the exam as proctored and be
+Learners in the verified track can choose to take the exam as proctored and be
 eligible for course credit, or take the exam as an open exam and not be
 eligible for course credit. For more information about creating proctored
 exams in Studio, see :ref:`Create a Proctored Exam`.
@@ -48,7 +48,7 @@ itself. For more information about proctored session review results, see
 
 For information about for-credit courses and specifying the passing score for
 credit eligibility, see :ref:`Academic Course Credit` and :ref:`Specify
-Passing Score`.
+Minimum Credit Eligible Grade`.
 
 
 =====================================================
@@ -102,9 +102,9 @@ in their course. For more information, see :ref:`Proctored Session Results`.
 The Learner Experience of Proctored Exams
 ==============================================
 
-Only learners who have signed up for the Verified track in your course have
+Only learners who have signed up for the verified track in your course have
 the option of taking proctored exams. When they access a proctored exam,
-learners on the Verified track can choose to take the exam with online
+learners on the verified track can choose to take the exam with online
 proctoring, or to take the exam without proctoring and as an open exam with no
 time limit.
 
