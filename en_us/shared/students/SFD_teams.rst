@@ -29,12 +29,13 @@ their descriptions.
 It is up to you to browse the topics and find one that you are interested in
 working on. Then, you join a team that is working on that topic, either by
 joining a team that has already been created, or by creating a new team
-yourself. For more information, see :ref:`Browse Topics and Find a Team to
-Join`.
+yourself. For more information, see :ref:`Browse Topics and Find a Team`.
 
 Teams are always created within a specific topic, and have a maximum team size
 that is decided by course staff.
 
+
+.. _Browse Topics and Find a Team:
 
 ======================================
 Browse Topics and Find a Team to Join
@@ -84,7 +85,8 @@ When you have found a team you want to join, select **Join Team**.
 .. image to come
 
 Your profile is added to the list of team member profiles, and you can
-participate in the team's discussions.
+participate in the team's discussions. The team that you joined is added to
+the **My Team** page.
 
 .. note:: You can only belong to one team at a time. If you belong to a team,
    but find another team that you want to join, you must leave the first team
