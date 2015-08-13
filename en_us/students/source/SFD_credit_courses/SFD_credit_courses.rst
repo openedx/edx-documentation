@@ -99,23 +99,23 @@ To purchase academic credit, follow these steps.
 
 #. On your dashboard, select **Purchase Credit** next to the course that you
    want.
-#. On the **Checkout** page, make sure that you see the organization that you
-   want to purchase credit from, and then select **Checkout** or **Checkout
+#. On the **Checkout** page, verify that the organization that you want to
+   purchase credit from appears, and then select **Checkout** or **Checkout
    with PayPal**.
 
 .. Yes, I know the last two instances of "Checkout" should be "Check Out".
 .. Long story.
 
-3. Follow the onscreen instructions to complete the payment process. When the
-   payment process is complete, a confirmation page opens, and you receive an
-   email message.
-#. On the payment confirmation page, note whether the organization requires
-   you to complete additional steps to receive credit. If the organization has
-   additional requirements, select **Complete Credit** to go to that
-   organization's website.
+3. Follow the instructions to complete the payment process. When the payment
+   process is complete, a confirmation page opens, and you receive an email
+   message.
+#. On the payment confirmation page, a notification informs you if the
+   organization requires you to complete additional steps to receive credit.
+   If the organization has additional requirements, select **Complete Credit**
+   to go to that organization's website.
 
 After the organization has evaluated your information, a message on your
-dashboard indicates whether the organization has granted the academic credit
+dashboard indicates whether the organization has granted you academic credit
 for the course and provides a link to the organization. You also receive an
 email that indicates whether you have received academic credit for the course.
 
