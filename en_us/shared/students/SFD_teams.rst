@@ -12,9 +12,9 @@ group activity or project together.
 If your course includes teams, your instructor or course staff will provide
 guidelines for how you should work in teams.
 
-.. content::
-   :local:
-   :depth: 1	
+.. contents::
+  :local:
+  :depth: 1	
 
 
 ************************
@@ -105,6 +105,8 @@ the **My Team** page.
    but find another team that you want to join, you must leave the first team
    before you can join a new one.
 
+
+.. _Inviting Friends to Join Your Team:
 
 =====================================
 Inviting Friends to Join Your Team
@@ -209,7 +211,8 @@ To create a team, follow these steps.
 
    Your new team is added to the list of team under your selected topic. You are automatically added as a team member.
 
-   For information about inviting friends to join a team, see :ref:`Inviting Friends to Join a Team`.  
+   For information about inviting friends to join a team, see :ref:`Inviting
+   Friends to Join Your Team`.
 
 
 ********************************
@@ -218,10 +221,6 @@ About Discussions in Teams
 
 After you join a team, you can participate in discussions on your team page
 with other members.
-
-.. content::
-   :local:
-   :depth: 1
 
 
 ================================
