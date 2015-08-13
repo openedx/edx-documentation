@@ -14,7 +14,7 @@ guidelines for how you should work in teams.
 
 .. contents::
   :local:
-  :depth: 1	
+  :depth: 2	
 
 
 ************************
