@@ -17,8 +17,10 @@ edX Release Notes
 What's New?
 ******************
 
-See released changes for a particular product by date, or by date across
-products.
+See released changes for a particular edX :ref:`product by date<By Product>`,
+or by :ref:`date across products<By Date>`.
+
+.. _By Product:
 
 ==================
 By Product
@@ -38,6 +40,8 @@ By Product
    studio_index
    website_index
    xblocks_index
+
+.. _By Date:
 
 ==================
 By Date

@@ -6,8 +6,14 @@ The following information describes what is new on edx.org and Edge.
 
 .. contents::
   :local:
-  :depth: 2
+  :depth: 1
 
+
+**************************
+19 August 2015
+**************************
+
+.. include:: 2015/website/website_0818_2015.rst
 
 **************************
 12 August 2015
