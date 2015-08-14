@@ -232,7 +232,7 @@ Install the Remote Proctoring Software
 Follow the provided link to download and install the appropriate version of the online
 proctoring software. 
 
-.. image:: /Images/Proctoring_SSDownload.png
+.. image:: /Images/Proctoring_SS_Download.png
  :width: 400
  :alt: The page on which you choose to take an exam with proctoring or without.
 
@@ -465,7 +465,8 @@ To take a practice proctored exam, follow these steps.
    :width: 600
    :alt: After you agree to take an exam with proctoring you receive a unique
          exam code on the "You Have Chosen to Take a Proctored Exam" page.
-  
+
+
 #. Click **Select exam code** to select the entire exam code, then use
    keyboard combinations such at ``Ctrl + C`` or ``command + C`` to copy the
    code to your clipboard.
@@ -480,7 +481,7 @@ To take a practice proctored exam, follow these steps.
    When you have successfully set up the proctoring software, your proctoring
    session starts.
 
-   .. image:: /Images/Proctoring_SessionHasStarted.png
+   .. image:: /Images/Proctoring_SS_SessionHasStarted.png
     :width: 600
     :alt: The page confirming that the proctoring session has started.
 
@@ -585,7 +586,7 @@ To take a proctored exam, follow these steps.
    When you have successfully set up the proctoring software, your proctoring
    session starts.
 
-   .. image:: /Images/Proctoring_SessionHasStarted.png
+   .. image:: /Images/Proctoring_SS_SessionHasStarted.png
     :width: 600
     :alt: The page confirming that the proctoring session has started.
 
