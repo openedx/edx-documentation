@@ -459,25 +459,44 @@ To take a practice proctored exam, follow these steps.
    a unique exam code that is associated with your edX account. You will need
    to enter it later, when you are prompted to do so during the proctoring
    software setup.
+
+  .. image:: /Images/Proctoring_YouHaveChosenToTake.png  
+   :width: 600
+
+   :alt: After you agree to take an exam with proctoring you receive a unique
+         exam code on the "You Have Chosen to Take a Proctored Exam" page.
   
 #. Click **Select exam code** to select the entire exam code, then use
    keyboard combinations such at ``Ctrl + C`` or ``command + C`` to copy the
    code to your clipboard.
 
 #. Select the **install and set up the proctoring software** link in Step 1 on
-   the page. Follow the instructions to install the proctoring software and
-   perform system and identity checks. For more information, see :ref:`Steps
-   in Taking Proctored Exams`.
+   the page. 
 
-   .. image:: /Images/Proctoring_StartSystemCheck.png
-    :width: 600
-    :alt: The "Start System Check" button on the proctoring software welcome window.
+   Follow the instructions to install the proctoring software and perform
+   system and identity checks. For more information, see :ref:`Steps in Taking
+   Proctored Exams`.
+
+   When you have successfully set up the proctoring software, your proctoring
+   session starts.
+
+   .. image:: /Images/Proctoring_SessionHasStarted.png
+     :width: 600
+     :alt: The page confirming that the proctoring session has started.
 
 #. Do not close the proctoring software window. Return to the edX browser
    window and select **Start my exam**.
 
+.. image:: /Images/Proctoring_StartMyExam.png
+     :width: 600
+     :alt: The page on the edX browser where you start your exam.
+
 #. When you have completed the questions, if the exam timer has not reached
-   00:00, select **End my exam**. 
+   00:00, select **End my exam** on the timer bar.
+
+.. image:: /Images/Proctoring_EndMyExam.png
+     :width: 600
+     :alt: The "End My Exam" button on the edX exam timer bar.
 
 #. Go to the proctoring software browser window and close the window. Confirm
    that you want to quit the application when you are prompted.
@@ -549,8 +568,9 @@ To take a proctored exam, follow these steps.
    software setup.
 
   .. image:: /Images/Proctoring_YouHaveChosenToTake.png  
-   :width: 600  
-   :alt: After you agree to take an exam with proctoring you receive a unique exam code on the "You Have Chosen to Take a Proctored Exam" page.
+   :width: 600
+   :alt: After you agree to take an exam with proctoring you receive a unique
+         exam code on the "You Have Chosen to Take a Proctored Exam" page.
   
 #. Click **Select exam code** to select the entire exam code, then use
    keyboard combinations such at ``Ctrl + C`` or ``command + C`` to copy the
@@ -561,9 +581,12 @@ To take a proctored exam, follow these steps.
    perform system and identity checks. For more information, see :ref:`Steps
    in Taking Proctored Exams`.
 
-   .. image:: /Images/Proctoring_StartSystemCheck.png
-    :width: 600
-    :alt: The "Start System Check" button on the proctoring software welcome window.
+   When you have successfully set up the proctoring software, your proctoring
+   session starts.
+
+   .. image:: /Images/Proctoring_SessionHasStarted.png
+     :width: 600
+     :alt: The page confirming that the proctoring session has started.
 
 #. Do not close the proctoring software window. Return to the edX browser
    window and select **Start my exam**.
@@ -573,7 +596,8 @@ To take a proctored exam, follow these steps.
  :alt: The "Start my exam" button is available on the edX exam page after you
        have finished setting up the proctoring software.
 
-#. Start answering your exam questions.    
+#. Start answering your exam questions. The timer at the upper right of the
+   courseware page shows the time that you have remaining in the exam.
 
    .. note:: After you start a proctored exam, you must not close the
       proctoring software window, although you can minimize it.
@@ -589,10 +613,19 @@ To take a proctored exam, follow these steps.
 5. When you have completed the questions, if the exam timer has not reached
    00:00, select **End my exam**. 
 
-.. image End my exam in bar   
+.. image:: /Images/Proctoring_EndMyExam.png
+     :width: 600
+     :alt: The "End My Exam" button on the edX exam timer bar.
 
-#. Go to the proctoring software browser window and close the window. Confirm
-   that you want to quit the application when you are prompted.
+#. Go back to the proctoring software browser window and close the window.
+   Confirm that you want to quit the application when you are prompted.
+
+   The data from your proctoring session is uploaded. 
+   .. note:: Do not close the upload window until you see that the upload has finished.
+
+.. image:: /Images/Proctoring_SS_DataUploadComplete.png
+     :width: 600
+     :alt: The "End My Exam" button on the edX exam timer bar.
 
 #. In the browser window for the edX exam, you see the result page for your
    exam. 
