@@ -28,7 +28,7 @@ their descriptions.
 
 It is up to you to browse the topics and find one that you are interested in
 working on. Then, you join a team that is working on that topic, either by
-joining a team that has already been created, or by creating a new team
+finding a team that has already been created, or by creating a new team
 yourself. For more information, see :ref:`Browse Topics and Find a Team`.
 
 Teams are always created within a specific topic, and have a maximum team size
@@ -56,7 +56,7 @@ To browse topics and find a team to join, follow these steps.
       that takes users to the list of teams within that topic highlighted.
       
 
-#. Each team's name and description, and in some cases the optional primary
+5. Each team's name and description, and in some cases the optional primary
    language of a team and a country that team members identify with, are
    shown. 
 
@@ -67,14 +67,14 @@ To browse topics and find a team to join, follow these steps.
   :width: 500
   :alt: View of a team within a topic showing name and description, number of members.
 
-#. To get a better sense of a team's members, discussion, and communications,
+6. To get a better sense of a team's members, discussion, and communications,
    select **View** for a team.
 
    On a team's detail page, you can browse the team's discussion posts, but
    you cannot participate unless you are a member of the team.
 
 .. image:: ../../shared/students/Images/Teams_TeamsDetails.png
-  :width: 600
+  :width: 500
   :alt: Detailed view of team, showing discussions.
 
 .. note:: You can navigate from a team's detail page back to the topic teams
@@ -103,28 +103,7 @@ the **My Team** page.
    before you can join a new one.
 
 
-.. _Inviting Friends to Join Your Team:
-
-=====================================
-Inviting Friends to Join Your Team
-=====================================
-
-After you have joined a team, you can invite friends in your course to join
-the same team so that you can work on a project together. You can only send
-invitations if the team has not reached its maximum number of members.
-
-To invite friends to join your team, follow these steps.
-
-#. On your team's details page, select and copy the URL under **Invite Others**.
-
-.. image:: ../../shared/students/Images/Teams_InviteOthers.png
-  :width: 200
-  :alt: The Invite Others field on the Team Details page, with a URL that can
-      be copied and shared.
-
-#. Forward the link to your team to friends who you want to invite, by pasting
-   the copied URL into emails, texts, or social media posts. They can paste
-   the URL into a browser address bar to find and join your team.
+.. Add back Invite Friends when this feature becomes available
 
 
 =======================
@@ -135,11 +114,13 @@ If you have changed your mind about the team you joined, you can leave a team.
 
 .. note:: edX recommends that you do not change teams after work in a course
    has started, without carefully considering the impacts to your work and
-   that of your fellow learners. If you must leave a team for some reason,
-   make sure you communicate with your fellow team members and let them know
-   why and when you are leaving. This is especially important if you are part
-   of the way through your course, and you and your team have been working
-   together on a project or activity.
+   that of your fellow learners. 
+
+   If you must leave a team for some reason, make sure you communicate with
+   your fellow team members and let them know why and when you are leaving.
+   This is especially important if you are part of the way through your
+   course, and you and your team have been working together on a project or
+   activity.
 
 To leave a team that you belong to, select **Leave Team** from the **Team
 Details** page.
@@ -149,7 +130,7 @@ Details** page.
   :alt: The Leave Team link on the Team Details page.
 
 You are no longer visible in the team membership profiles list, or in the
-membership count. You can no longer add posts in the team's discussion.
+membership count. You can no longer participate in the team's discussion.
 
 .. Add info about confirmation message when implemented.
 
@@ -158,9 +139,7 @@ membership count. You can no longer add posts in the team's discussion.
 Creating a Team
 =======================
 
-If no teams exist in the topic, if existing teams have reached the maximum
-number of members, or if you do not want to join any of the existing teams in
-the topic, you can create a new team.
+Try to find an existing team to join, before creating a new team.
 
 When you create a new team in a topic, you are automatically added as a
 member.
@@ -181,7 +160,7 @@ To create a team, follow these steps.
   :alt: The "createa a new team in this topic" link at the bottom of the page
       showing all teams in a topic.
 
-#. On the **Create New Team** page, add a name and description for the team. 
+4. On the **Create New Team** page, add a name and description for the team. 
 
    In the description, include details about your proposed project or activity
    to help other learners to decide whether they want to join your team and
@@ -204,12 +183,12 @@ To create a team, follow these steps.
   :alt: Empty form with fields to be completed when a learner creates a new team.
 
 
-#. When you have finished adding your team details, click **Create**.
+5. When you have finished adding your team details, click **Create**.
 
-   Your new team is added to the list of team under your selected topic. You are automatically added as a team member.
+   Your new team is added to the list of team under your selected topic. You
+   are automatically added as a team member.
 
-   For information about inviting friends to join a team, see :ref:`Inviting
-   Friends to Join Your Team`.
+..   For information about inviting friends to join a team, see :ref:`Inviting Friends to Join Your Team`.
 
 
 ********************************
@@ -231,7 +210,7 @@ Team discussions work in the same way as your course discussions. For
 information about course discussions, see :ref:`Anatomy of edX Course
 Discussions`.
 
-.. still writing and testing 
+
 
 
 
