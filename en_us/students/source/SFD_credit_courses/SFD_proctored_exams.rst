@@ -376,20 +376,45 @@ answer.
  
 Practice exams let you follow the steps to set up the proctoring software,
 perform the required identity and environment scans, and experience taking an
-exam with online proctoring, but your proctoring session is not reviewed.
+exam with online proctoring, but your proctoring session is not reviewed
 
 .. note:: Practice exams do not affect your grade or your eligibility for credit.
+
 
 To take a practice proctored exam, follow these steps.
 
 #. In the courseware, open the practice exam.
 
-#. Follow the instructions to install the proctoring software and perform
-   system and identity checks. For more information, see :ref:`Steps in Taking
-   Proctored Exams`.
+.. image:: /Images/Proctoring_ChooseProctoringPractice.png
+ :width: 600
+ :alt: Practice exams let you take an example ungraded exam with proctoring.
 
-#. Make sure the proctoring software is running while you complete the example
-   exam questions.
+2. On the practice exam page, select **Yes, I want to take this practice exam
+   with online proctoring**.
+
+   .. note:: Remember that your proctoring session is not reviewed, and that this exam
+   is not graded.
+
+   On the **You have Chosen To Take a Proctored Exam** page, you are assigned
+   a unique exam code that is associated with your edX account. You will need
+   to enter it later, when you are prompted to do so during the proctoring
+   software setup.
+  
+#. Click **Select exam code** to select the entire exam code, then use
+   keyboard combinations such at ``Ctrl + C`` or ``command + C`` to copy the
+   code to your clipboard.
+
+#. Select the **install and set up the proctoring software** link in Step 1 on
+   the page. Follow the instructions to install the proctoring software and
+   perform system and identity checks. For more information, see :ref:`Steps
+   in Taking Proctored Exams`.
+
+   .. image:: /Images/Proctoring_StartSystemCheck.png
+    :width: 600
+    :alt: The "Start System Check" button on the proctoring software welcome window.
+
+#. Do not close the proctoring software window. Return to the edX browser
+   window and select **Start my exam**.
 
 #. When you have completed the questions, if the exam timer has not reached
    00:00, select **End my exam**. 
@@ -444,8 +469,9 @@ To take a proctored exam, follow these steps.
 
 #. In the courseware, open the proctored exam.
 
-.. image Choose Proctored or not
-
+.. image:: /Images/Proctoring_ChooseProctoring.png
+ :width: 600
+ :alt: Verified track learners can choose whether to take the proctored exam with proctoring or not.
 
 2. On the page where you agree to or decline taking the exam with online
    proctoring, select **Yes, I want to take this exam with online
@@ -457,12 +483,35 @@ To take a proctored exam, follow these steps.
       eligible to use this course for academic credit, regardless of your
       final grade in the course.
 
-#. Follow the instructions to install the proctoring software and perform
-   system and identity checks. For more information, see :ref:`Steps in Taking
-   Proctored Exams`.
+   On the **You have Chosen To Take a Proctored Exam** page, you are assigned
+   a unique exam code that is associated with your edX account. You will need
+   to enter it later, when you are prompted to do so during the proctoring
+   software setup.
+
+.. image:: /Images/Proctoring_YouHaveChosenToTake.png  
+ :width: 600  
+ :alt: After you agree to take an exam with proctoring you receive a unique exam code on the "You Have Chosen to Take a Proctored Exam" page.
+  
+#. Click **Select exam code** to select the entire exam code, then use
+   keyboard combinations such at ``Ctrl + C`` or ``command + C`` to copy the
+   code to your clipboard.
+
+#. Select the **install and set up the proctoring software** link in Step 1 on
+   the page. Follow the instructions to install the proctoring software and
+   perform system and identity checks. For more information, see :ref:`Steps
+   in Taking Proctored Exams`.
+
+   .. image:: /Images/Proctoring_StartSystemCheck.png
+    :width: 600
+    :alt: The "Start System Check" button on the proctoring software welcome window.
 
 #. Do not close the proctoring software window. Return to the edX browser
    window and select **Start my exam**.
+
+.. image:: /Images/Proctoring_StartMyExam.png
+ :width: 600
+ :alt: The "Start my exam" button is available on the edX exam page after you
+       have finished setting up the proctoring software.
 
 #. Start answering your exam questions.    
 
@@ -632,7 +681,7 @@ means for your credit eligibility.
 
 
 =========================================
-Credit Eligibility Shown on Progress Page
+Credit Eligibility on Your Progress Page
 =========================================
 
 Depending on your proctoring session review results and the actual score you
