@@ -31,7 +31,6 @@ in small groups of learners with similar interests and goals who will work
 together on projects or activities within the same topic area.
 
 
-.. https://openedx.atlassian.net/browse/TNL-1889
 
 *******************************
 Enabling and Configuring Teams
@@ -39,9 +38,15 @@ Enabling and Configuring Teams
 
 To enable teams in your course, follow these steps.
 
+..note:: The Teams page in the LMS becomes available when you have specified
+  at least one topic for teams in your course.
+
 #. In Studio, from the **Settings** menu, select **Advanced Settings**.
 
-#. On the **Advanced Settings** page, locate the **Teams Configuration** policy key.
+#. On the **Advanced Settings** page, select **Show Deprecated Settings**,
+   then locate the **Teams Configuration** policy key.
+
+.. Remove deprecated settings limitation in future
 
 #. Within this policy key you define two entries, topics and maximum team size.
 
@@ -55,11 +60,8 @@ To enable teams in your course, follow these steps.
 #. To specify topics within which teams can be created, add entries under
    ``"topics"``. For each topic, provide a description, name, and ID as shown in the example.
 
-   .. note:: In topic specifications, you can use only alphanumeric characters
-      and these special characters: underscore, hyphen, and period.
-
-.. is this note re special characters true?      
-
+   .. note:: For topic IDs, you can use only alphanumeric characters and the
+      underscore, hyphen, and period characters.
 
 ::
 
