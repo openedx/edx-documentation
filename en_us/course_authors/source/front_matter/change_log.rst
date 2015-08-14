@@ -4,7 +4,7 @@
 Change Log for 2015
 ########################
 
-This section lists changes made to this document in 2015.
+This section lists changes in this document in 2015.
 
 For older changes, see :ref:`Change Log 2014`.
 
@@ -22,11 +22,8 @@ August 2015
 
    * - Date
      - Change
-   * - 12 August 2015
-     - Added the :ref:`Qualtrics Survey` topic.
-   * - 5 Aug 2015
-     - Added information about using campus credentials to sign in to the
-       :ref:`Getting Started with edX` section.
+   * - 1 Aug 2015
+     - Added the :ref:`Offering Academic Course Credit` topic.
 
 ****************
 July 2015
@@ -38,19 +35,6 @@ July 2015
 
    * - Date
      - Change
-   * - 30 July 2015
-     - Updated the :ref:`Working with Problem Components` and :ref:`Numerical
-       Input` sections to clarify how the **Randomization** setting is used.
-   * - 28 July 2015
-     - Updated the :ref:`Review_Answers` section to remove references to
-       features on the Analytics page of the Instructor Dashboard. Course data
-       is available in edX Insights.
-   * -  
-     - Added the :ref:`View Specific Student Assigned Problems from Randomized
-       Content Block` and :ref:`Adjust Grades for a Problem from a Randomized
-       Content Block` sections. Also updated information in the :ref:`Preview
-       Cohort Specific Courseware` and :ref:`View Your Live Course` sections to
-       reflect the ability to preview the courseware as a specific student.
    * - 17 July 2015
      - Added the :ref:`Best Practices for ORA` and :ref:`PA Scoring` sections.
    * - 
@@ -145,7 +129,7 @@ May 2015
        is released.
    * - 5 May 2015
      - Updated the :ref:`Student Data` section to include information about
-       the learner engagement report.
+       the :ref:`learner engagement report<Track Student Activity>`.
 
 ***********
 April 2015
