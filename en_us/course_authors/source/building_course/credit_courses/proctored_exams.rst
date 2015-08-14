@@ -8,7 +8,7 @@ This section describes how to create and manage proctored exams in Studio.
 
 .. contents::
  :local:
- :depth: 2
+ :depth: 1
 
 .. _CA_ProctoredExams_Overview:
 
@@ -240,7 +240,7 @@ To enable proctored exams in your course, follow these steps.
      :alt: The "Enable Timed and Proctored Exams" advanced setting with a value of "true".
      :width: 500
 
-#. Select **Save Changes** at the bottom of the page. You can now create
+4. Select **Save Changes** at the bottom of the page. You can now create
    proctored exams in your course.
 
 When you have enabled this setting for your course, you can perform the
@@ -275,7 +275,7 @@ To create an exam that includes online proctoring, follow these steps.
      :alt: The Studio subsection settings dialog showing selections for a timed and proctored final exam. 
      :width: 400
 
-#. Select **Save**.
+6. Select **Save**.
 
 For information about how learners experience a proctored exam, see
 :ref:`CA_LearnerExperience_Proctored Exams`. For information about creating a
@@ -336,7 +336,7 @@ To create a practice exam, follow these steps.
      :alt: The Studio subsection settings dialog, showing settings for an ungraded practice proctored exam.
      :width: 400
 
-#. Select **Save**.
+9. Select **Save**.
 
 #. Optionally, add a text component to the exam to provide learners with
    information about the proctored exam in your course. You might also want to
@@ -500,7 +500,7 @@ steps.
 5. To open or save a report file, locate and click the link for the report you
    requested.
 
-     .. image:: ../../../../shared/building_and_running_chapters/Images/Proctoring_CSVExamResultsLink.png
+  .. image:: ../../../../shared/building_and_running_chapters/Images/Proctoring_CSVExamResultsLink.png
      :alt: The link for a generated proctored exam results report in the instructor dashboard. 
      :width: 600
 
