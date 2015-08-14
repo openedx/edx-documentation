@@ -392,8 +392,8 @@ To take a practice proctored exam, follow these steps.
 2. On the practice exam page, select **Yes, I want to take this practice exam
    with online proctoring**.
 
-   .. note:: Remember that your proctoring session is not reviewed, and that this exam
-   is not graded.
+   .. note:: Remember that your proctoring session is not reviewed, and that
+      this exam is not graded.
 
    On the **You have Chosen To Take a Proctored Exam** page, you are assigned
    a unique exam code that is associated with your edX account. You will need
@@ -488,9 +488,9 @@ To take a proctored exam, follow these steps.
    to enter it later, when you are prompted to do so during the proctoring
    software setup.
 
-.. image:: /Images/Proctoring_YouHaveChosenToTake.png  
- :width: 600  
- :alt: After you agree to take an exam with proctoring you receive a unique exam code on the "You Have Chosen to Take a Proctored Exam" page.
+  .. image:: /Images/Proctoring_YouHaveChosenToTake.png  
+   :width: 600  
+   :alt: After you agree to take an exam with proctoring you receive a unique exam code on the "You Have Chosen to Take a Proctored Exam" page.
   
 #. Click **Select exam code** to select the entire exam code, then use
    keyboard combinations such at ``Ctrl + C`` or ``command + C`` to copy the
