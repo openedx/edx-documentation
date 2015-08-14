@@ -128,7 +128,7 @@ When learners agree to take the exam with online proctoring, they are guided
 through the process of installing the proctoring software and performing
 system and user checks, including ID verification. They must be ready to take
 the exam as soon as the proctoring session setup is completed. For details,
-see :ref:`SFD Before Taking Proctored_Exam`_ in the *edX Learner's Guide*.
+see :ref:`SFD Before Taking Proctored Exam` in the *edX Learner's Guide*.
 
 After learners successfully complete the checks, the proctoring session starts.
 Learners are reminded not to close the proctoring software window. They are
@@ -273,7 +273,7 @@ To create an exam that includes online proctoring, follow these steps.
 
   .. image:: ../../../../shared/building_and_running_chapters/Images/Proctoring_StudioSetProctoredExam.png
      :alt: The Studio subsection settings dialog showing selections for a timed and proctored final exam. 
-     :width: 600
+     :width: 400
 
 #. Select **Save**.
 
@@ -334,7 +334,7 @@ To create a practice exam, follow these steps.
 
   .. image:: ../../../../shared/building_and_running_chapters/Images/Proctoring_StudioSetPracticeExam.png
      :alt: The Studio subsection settings dialog, showing settings for an ungraded practice proctored exam.
-     :width: 600
+     :width: 400
 
 #. Select **Save**.
 
