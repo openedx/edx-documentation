@@ -12,6 +12,8 @@ Change Log
 
    * - Date
      - Change
+   * - 1 Aug 2015
+     - Added the :ref:`SFD Enrolling in a Course` and :ref:`SFD Academic Course Credit` topics.
    * - 28 May 2015
      - Added the :ref:`Course and Video Licenses` topic.
    * - 22 Apr 2015
