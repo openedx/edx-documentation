@@ -9,7 +9,7 @@ proctoring software, and steps involved in taking proctored exams.
 
 .. contents::
  :local:
- :depth: 2
+ :depth: 1
 
  
 .. _SFD Proctored Exams Overview:
