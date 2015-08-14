@@ -32,7 +32,10 @@ credit.
 
 Proctored exams are indicated with an alarm clock icon in the courseware.
 
-.. image Proctoring_AlarmClockIcon.png
+.. image:: /Images/Proctoring_AlarmClockIcon.png
+ :width: 200
+ :alt: Courseware navigation in the LMS showing an exam with an alarm clock icon.
+
 
 .. note:: Proctored exams are visible only if you are enrolled in the verified
    track for your course. If you are not in the verified track, you take the
@@ -170,11 +173,13 @@ eligibility for credit when you take the exam with or without proctoring, see
 If you choose to take the exam with proctoring, you are assigned a unique exam
 code. This code is unique to your edX account and to this exam; do not share
 it. You can only use this code once. You will be asked for this code during
-the proctoring set up. Copy this code so that you can paste it when you are
-prompted to do so.
+the proctoring set up. 
 
-.. image Exam Code
+Highlight the entire exam code by selecing **Select exam code** and then copy the code to your clipboard, for example, by using key combinations such as ``Ctrl+C`` or ``command+C``.
 
+.. image:: /Images/Proctoring_SelectExamCode.png
+ :width: 400
+ :alt: The "Select Exam Code" button next to the exam code.
 
 .. _Perform System Checks:
 
@@ -187,7 +192,9 @@ working camera and microphone, and tests your internet bandwidth.
 
 When you are ready to perform these checks, click **Start System Check**.
 
-.. image Start System Check
+.. image:: /Images/Proctoring_StartSystemCheck.png
+ :width: 400
+ :alt: The proctoring software welcome window with a "Start System Check" button.
 
 Follow the instructions on each page. When you have finished performing the
 system checks, you see a link for downloading the online proctoring software.
@@ -219,7 +226,9 @@ After you install the online proctoring software on your computer, you are
 prompted to enter the unique exam code that was assigned to you when you
 agreed to take the proctored exam.
 
-.. SS Enter Exam Code
+.. image:: /Images/Proctoring_PastedExamCode.png
+ :width: 400
+ :alt: The proctoring software exam code prompt with an exam code pasted into the field. 
 
 Paste the code into the Exam Code field, then select **Validate**.
 
@@ -268,7 +277,9 @@ take a picture of a government-issued photo ID that clearly identifies you by yo
 Follow the instructions to hold your card up to the webcam and position it in
 the frame. When you are ready to take the photo, click **Take Photo**.
 
-.. SS Take ID Photo
+.. image:: /Images/Proctoring_SS_TakeIDPhoto.png
+ :width: 400
+ :alt: The "Select Exam Code" button next to the exam code.
 
 Preview and confirm the photo of your ID. 
 
