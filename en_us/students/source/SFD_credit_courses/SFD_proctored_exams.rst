@@ -418,7 +418,7 @@ that your proctored session has started. This means that you have successfully
 set up the proctoring software, and it has started recording a proctoring
 session.
 
-..important:: You must not close this browser page until you have finished your exam.
+.. important:: You must not close this browser page until you have finished your exam.
 
 .. image:: /Images/Proctoring_SS_SessionHasStarted.png
  :width: 600
@@ -474,7 +474,7 @@ To take a practice proctored exam, follow these steps.
          exam code on the "You Have Chosen to Take a Proctored Exam" page.
 
 
-#. Click **Select exam code** to select the entire exam code, then use
+3. Click **Select exam code** to select the entire exam code, then use
    keyboard combinations such at ``Ctrl + C`` or ``command + C`` to copy the
    code to your clipboard.
 
@@ -619,7 +619,7 @@ To take a proctored exam, follow these steps.
       it. You cannot regain any of the time that is lost in a situation like
       this.
 
-5. When you have completed the questions, if the exam timer has not reached
+#. When you have completed the questions, if the exam timer has not reached
    00:00, select **End my exam**. 
 
    .. image:: /Images/Proctoring_EndMyExam.png
@@ -641,13 +641,11 @@ To take a proctored exam, follow these steps.
 #. In the browser window for the edX exam, you see the result page for your
    exam. 
 
-.. image edX exam ended Pending
-
-
    You can come back to this page to check for your proctoring session
    review results.
 
-   There are several possible statuses.
+There are several possible statuses for proctoring session results after you
+complete your exam.
 
   *  **Pending** -- This status indicates that the data for your proctoring
      session is being reviewed. It usually takes 2-3 days for results to
