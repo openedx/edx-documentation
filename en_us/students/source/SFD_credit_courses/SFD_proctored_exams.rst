@@ -168,18 +168,37 @@ with online proctoring. For more information about what it means to your
 eligibility for credit when you take the exam with or without proctoring, see
 :ref:`Choosing to Take a Proctored Exam`.
 
-.. image Choose Proctored or Not
+.. image:: /Images/Proctoring_ChooseProctoring.png
+ :width: 600
+ :alt: The page on which you choose to take an exam with proctoring or without.
 
-If you choose to take the exam with proctoring, you are assigned a unique exam
-code. This code is unique to your edX account and to this exam; do not share
-it. You can only use this code once. You will be asked for this code during
-the proctoring set up. 
+If you choose to take the exam with proctoring, you go through steps to set up
+the proctoring software and take your exam. If you decline to take the exam
+with proctoring, you take the exam as a regular exam, without proctoring and
+without a time limit.
 
-Highlight the entire exam code by selecing **Select exam code** and then copy the code to your clipboard, for example, by using key combinations such as ``Ctrl+C`` or ``command+C``.
 
-.. image:: /Images/Proctoring_SelectExamCode.png
- :width: 400
- :alt: The "Select Exam Code" button next to the exam code.
+.. _Proceed With Proctored Exam:
+
+=======================================
+Proceed With a Proctored Exam
+=======================================
+
+If you agree to take the exam with proctoring, you proceed to the next page.
+
+.. image:: /Images/Proctoring_YouHaveChosenToTake.png
+ :width: 600
+
+ :alt: After agreeing to proctoring you are assigned an exam code and have a
+       link to launch the proctoring software.
+
+On the **You Have Chosen To Take a Proctored Exam** page, Step 1 provides a
+link that launches the online proctoring software. Step 2 provides the unique
+exam code that you have been assigned, for use in this exam only. This code is
+unique to your edX account and to this exam. You should not share it, and you
+can use the code only once. You will be asked for this code later, during the
+proctoring set up.
+
 
 .. _Perform System Checks:
 
@@ -187,17 +206,20 @@ Highlight the entire exam code by selecing **Select exam code** and then copy th
 Perform System Checks
 ======================
 
-In the next step, the online proctoring software checks that you have a
-working camera and microphone, and tests your internet bandwidth.
+When you click **install and set up the proctoring software**, the online
+proctoring software opens in a new browser window.
 
-When you are ready to perform these checks, click **Start System Check**.
+Select **Start System Check** to allow the proctoring software to check that
+you have a working camera and microphone, and test your internet bandwidth.
+These checks make sure that a proctoring session can be successfully recorded
+on your system before you install the software.
 
 .. image:: /Images/Proctoring_StartSystemCheck.png
- :width: 400
+ :width: 600
  :alt: The proctoring software welcome window with a "Start System Check" button.
 
-Follow the instructions on each page. When you have finished performing the
-system checks, you see a link for downloading the online proctoring software.
+Follow the instructions on each page. If the system checks are successful, you
+see a link for downloading the online proctoring software.
 
 
 .. _Install Remote Proctoring Software:
@@ -209,7 +231,9 @@ Install the Remote Proctoring Software
 Follow the provided link to download and install the appropriate version of the online
 proctoring software. 
 
-.. SS Download link
+.. image:: /Images/Proctoring_SSDownload.png
+ :width: 400
+ :alt: The page on which you choose to take an exam with proctoring or without.
 
 .. note:: Even if you have previously installed this software, for example if
    you installed it for a practice proctored exam, you should install it
@@ -227,16 +251,20 @@ prompted to enter the unique exam code that was assigned to you when you
 agreed to take the proctored exam.
 
 .. image:: /Images/Proctoring_PastedExamCode.png
- :width: 400
+ :width: 600
  :alt: The proctoring software exam code prompt with an exam code pasted into the field. 
 
-Paste the code into the Exam Code field, then select **Validate**.
+Paste the code into the **Exam Code** field, then select **Validate**.
 
 If your exam code is valid, you see the details of your exam: the exam name
 and duration. Select **Next**.
 
 You see the Terms of Use dialog for the proctoring software. Read the terms,
 then if you agree to them, select **I agree**.
+
+.. image:: /Images/Proctoring_SS_TermsofUse.png
+ :width: 600
+ :alt: The proctoring software "Terms of Use" page. 
 
 .. note:: If you do not want to agree to the terms, select **I don't agree**.
    You can then quit the online proctoring software and return to the edX
@@ -251,14 +279,21 @@ Read the Pre-Exam Advisory Information
 If you have agreed to the online proctoring software's terms of use, you see a
 page of Pre-Exam Advisory Information.
 
+.. image:: /Images/Proctoring_SS_PreExamAdvisory.png
+ :width: 600
+ :alt: The proctoring software's pre-exam advisory information.
+
 Read the information, then select **Next**.
 
 The software will detect any prohibited programs (such as Skype) and will
-prompt you to close them if necessary. If you encounter any issues, click the
-**Contact Support** button in the proctoring software window to contact
-technical support.
+prompt you to close them if necessary. 
 
-.. SS Contact Support
+If you encounter any issues, click the **Contact Support** button in the
+proctoring software window to contact technical support.
+
+.. image:: /Images/Proctoring_SS_ContactSupportButton.png
+ :width: 500
+ :alt: The proctoring software's "Contact Support" button.
 
 
 .. _Take ID Photo:
@@ -268,7 +303,8 @@ Take a Picture of Your Photo ID
 ================================
 
 To fulfill the identity check for online proctoring, you use your webcam to
-take a picture of a government-issued photo ID that clearly identifies you by your full name, and that can be used to confirm your identity.
+take a picture of a government-issued photo ID that clearly identifies you by
+your full name, and that can be used to confirm your identity.
 
 .. note:: If you do not complete this photo ID step, you cannot achieve a
    **Satisfactory** result for your proctoring review, and you cannot be
@@ -278,16 +314,19 @@ Follow the instructions to hold your card up to the webcam and position it in
 the frame. When you are ready to take the photo, click **Take Photo**.
 
 .. image:: /Images/Proctoring_SS_TakeIDPhoto.png
- :width: 400
- :alt: The "Select Exam Code" button next to the exam code.
+ :width: 600
+ :alt: The "Take ID Photo" step of proctoring verification.
 
 Preview and confirm the photo of your ID. 
 
-If you are satisfied that the photo ID picture is clear and legible, click
-**Confirm Photo ID**. If you are not satisfied that picture is clear, click
-**Retake** to try again.
+If you are satisfied that the photo ID picture is clear and legible, select
+the checkbox and select **Confirm Photo ID**. 
 
-.. SS Retake button?
+If you are not satisfied that picture is clear, click **Retake** to try again.
+
+.. image:: /Images/Proctoring_SS_ConfirmIDPhoto.png
+ :width: 600
+ :alt: The "Confirm ID Photo" step of proctoring verification.
 
 .. _Scan Room:
 
@@ -300,7 +339,9 @@ your webcam. The video is used to confirm that there are no :ref:`unauthorized
 materials <Online Proctoring Rules>` on your desk or table, under your desk or
 table, or in the room.
 
-.. SS Start Room Scan
+.. image:: /Images/Proctoring_SS_StartRoomScan.png
+ :width: 600
+ :alt: The "Room Scan" step of proctoring verification.
 
 Select **Start Room Scan**, and pan the camera so that it captures the area on
 your desk as well as under your desk, then pan around the room.
@@ -315,13 +356,19 @@ the requested areas.
 
 Preview and confirm the room and desk scan. 
 
+.. image:: /Images/Proctoring_SS_RoomScanConfirm.png
+ :width: 600
+ :alt: The "Room Scan Confirm" step of proctoring verification.
+
+If you are satisfied that the room and desk scan clearly shows your test
+environment, select the checkbox and select **Confirm Room/Desk Scan**.
+
 .. note:: Although you can select the checkbox to confirm your scan, you
    cannot select the confirmation button until the scan has finished
    replaying.
 
-If you are satisfied that the room and desk scan clearly shows your test
-environment, click **Confirm Room/Desk Scan**. If you are not satisfied with
-the scan, click **Retake** to try again.
+If you are not satisfied with the scan, click **Retake** to try again.
+
 
 .. _Take Photo of Yourself:
 
@@ -331,7 +378,9 @@ Take a Webcam Photo of Yourself
 
 You are asked to take a photo of yourself using your webcam.
 
-.. image SS Take User Photo
+.. image:: /Images/Proctoring_SS_TakeUserPhoto.png
+ :width: 600
+ :alt: The "Take User Photo" step of proctoring verification.
 
 Follow the instructions to position yourself in front of your webcam. When you
 are ready to take the photo, click **Take User Photo**.
@@ -341,9 +390,13 @@ There is a countdown before the camera takes the photo.
 Preview and confirm that your photo is clear, and can be used to verify that
 you are the same person as in the photo ID.
 
-.. SS Confirm User Photo
+.. image:: /Images/Proctoring_SS_ConfirmUserPhoto.png
+ :width: 600
+ :alt: The "Confirm User Photo" step of proctoring verification.
 
-If you are satisfied that your photo is clear, click **Confirm User Photo**.
+If you are satisfied that your photo is clear, select the checkbox and select
+**Confirm User Photo**.
+
 If you are not satisfied that picture is clear, click **Retake User Photo** to
 try again.
 
@@ -353,14 +406,21 @@ Return to the edX Browser and Start Your Exam
 =================================================
 
 When you have completed all the verification steps, you see a page confirming
-that your proctored exam is starting. 
+that your proctored session has started. This means that you have successfully
+set up the proctoring software, and it has started recording a proctoring
+session.
 
 ..important:: You must not close this browser page until you have finished your exam.
 
-.. image Your Proctored Session Has Started
+.. image:: /Images/Proctoring_SS_SessionHasStarted.png
+ :width: 600
+ :alt: The page confirming that the proctoring session has started.
 
 Return to the browser window where you were accessing the exam on edx.org, and
 :ref:`take the exam <SFD Taking a Proctored Exam>`.
+
+For information about taking a practice exam, see :ref:`SFD Taking a Practice
+Exam`.
 
 
 .. _SFD Taking a Practice Exam:
