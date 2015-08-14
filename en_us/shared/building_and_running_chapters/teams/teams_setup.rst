@@ -38,17 +38,17 @@ Enabling and Configuring Teams
 
 To enable teams in your course, follow these steps.
 
-..note:: The Teams page in the LMS becomes available when you have specified
-  at least one topic for teams in your course.
+.. note:: The Teams page in the LMS becomes available when you have specified
+   at least one topic for teams in your course.
 
 #. In Studio, from the **Settings** menu, select **Advanced Settings**.
 
 #. On the **Advanced Settings** page, select **Show Deprecated Settings**,
    then locate the **Teams Configuration** policy key.
 
-.. Remove deprecated settings limitation in future
+ .. Remove deprecated settings limitation in future
 
-#. Within this policy key you define two entries, topics and maximum team size.
+3. Within this policy key you define two entries, topics and maximum team size.
 
 #. To specify the maximum team size for teams in your course, enter the
    ``max_team_size`` parameter in double quotation marks, a colon, then the
@@ -97,8 +97,10 @@ To enable teams in your course, follow these steps.
 The topics you have created are shown in the LMS when learners browse teams by
 topic.
 
- .. image:: ../../../shared/building_and_running_chapters/images/teams_topics_created.png
-     :width: 800
-     :alt: A screen capture showing 3 topics on the Browse Teams page.
+.. image:: ../../../shared/building_and_running_chapters/Images/Teams_Topics_Created.png
+ :width: 800
+ :alt: A screen capture showing 3 topics on the Browse Teams page.
+
+
    
 
