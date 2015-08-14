@@ -4,7 +4,7 @@
 Change Log for 2015
 ########################
 
-This section lists changes made to this document in 2015.
+This section lists changes in this document in 2015.
 
 .. contents::
  :local:
@@ -112,6 +112,8 @@ August 2015
    * - 5 August 2015
      - Added information about using campus credentials to sign in to the
        :ref:`Getting Started with edX` section.
+   * - 1 Aug 2015
+     - Added the :ref:`Offering Academic Course Credit` topic.
 
 ****************
 July 2015
