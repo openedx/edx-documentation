@@ -74,10 +74,10 @@ several example problems that you can try to answer. For more information, see
 :ref:`SFD Taking a Practice Exam`.
 
 
-.. important:: Before you take an exam with online proctoring, read the
-   following documents to make sure you know what is allowed or not allowed
-   during a proctored exam, and make sure your computer and browser version
-   are compatible with the online proctoring software.
+.. note:: Before you take an exam with online proctoring, read the following
+   documents to make sure you know what is allowed or not allowed during a
+   proctored exam, and make sure your computer and browser version are
+   compatible with the online proctoring software.
 
  * :ref:`Online Proctoring Rules`
 
@@ -86,6 +86,8 @@ several example problems that you can try to answer. For more information, see
 To satisfy the proctored exam requirement for credit eligibility, you must
 take the exam as a proctored exam and receive a **Satisfactory** result for
 your proctoring session review as well as a passing grade on the exam itself.
+For more information about academic course credit, see :ref:`SFD Academic
+Course Credit`.
 
 If you are not ready to take the exam right now, you can return to it and make
 your choice later, although you should give yourself enough time to take it
@@ -215,7 +217,7 @@ you have a working camera and microphone, and test your internet bandwidth.
 These checks make sure that a proctoring session can be successfully recorded
 on your system before you install the software.
 
-.. image:: /Images/Proctoring_StartSystemCheck.png
+.. image:: /Images/Proctoring_SS_StartSystemCheck.png
  :width: 600
  :alt: The proctoring software welcome window with a "Start System Check" button.
 
@@ -229,16 +231,17 @@ see a link for downloading the online proctoring software.
 Install the Remote Proctoring Software
 ==========================================
 
-Follow the provided link to download and install the appropriate version of the online
-proctoring software. 
+Follow the provided link to download and install the appropriate version of
+the online proctoring software. For example, if you are running a Mac
+operating system, you would see the page shown.
 
 .. image:: /Images/Proctoring_SS_Download.png
  :width: 400
  :alt: The page on which you choose to take an exam with proctoring or without.
 
 .. note:: Even if you have previously installed this software, for example if
-   you installed it for a practice proctored exam, you should install it
-   again, to make sure you have the most up to date version.
+   you installed it for a practice proctored exam, you must install it again,
+   to make sure you have the most up to date version.
 
 
 .. _Enter Unique Exam Code:
@@ -251,7 +254,7 @@ After you install the online proctoring software on your computer, you are
 prompted to enter the unique exam code that was assigned to you when you
 agreed to take the proctored exam.
 
-.. image:: /Images/Proctoring_PastedExamCode.png
+.. image:: /Images/Proctoring_SS_PastedExamCode.png
  :width: 600
  :alt: The proctoring software exam code prompt with an exam code pasted into the field. 
 
@@ -259,6 +262,10 @@ Paste the code into the **Exam Code** field, then select **Validate**.
 
 If your exam code is valid, you see the details of your exam: the exam name
 and duration. Select **Next**.
+
+===============================
+Agree to the Terms of Service
+===============================
 
 You see the Terms of Use dialog for the proctoring software. Read the terms,
 then if you agree to them, select **I agree**.
@@ -622,17 +629,20 @@ To take a proctored exam, follow these steps.
 #. Go back to the proctoring software browser window and close the window.
    Confirm that you want to quit the application when you are prompted.
 
-   The data from your proctoring session is uploaded. 
-   .. note:: Do not close the upload window until you see that the upload has finished.
+   The data from your proctoring session is uploaded.
+
+   .. note:: Do not close the upload window until you see that the upload has
+      finished.
 
    .. image:: /Images/Proctoring_SS_DataUploadComplete.png
-    :width: 600
+    :width: 400
     :alt: The "End My Exam" button on the edX exam timer bar.
 
 #. In the browser window for the edX exam, you see the result page for your
    exam. 
 
 .. image edX exam ended Pending
+
 
    You can come back to this page to check for your proctoring session
    review results.
