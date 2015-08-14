@@ -18,7 +18,8 @@ Browsing Teams by Topic
 ***********************************
 
 On the Teams page in the LMS, learners in your course can browse topics to
-find a subject that they are interested in working on. 
+find a subject that they are interested in working on. Within each topic,
+learners can see whether teams already exist for the topic.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/Teams_TopicArrowButton.png
   :width: 500
