@@ -22,6 +22,7 @@ see :ref:`Developing Your Course Index`.
    textbooks
    establish_grading_policy
    creating_course_certificates
+   credit_courses/index
    course_rerun
    export_import_course
    lti/index
