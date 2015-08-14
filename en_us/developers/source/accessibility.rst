@@ -547,7 +547,7 @@ These are some automated tools for accessibility testing.
    On the **Shortcuts** tab, for Full Keyboard Access select **All controls**. You can also 
    toggle this setting with Control+F7.  If you are a Chrome user, this behavior is 
    controlled in a browser setting and is enabled by default.  However, if you find that you
-   cannot move focus to links while using Chrome may need to change your browser configuration.
+   cannot move focus to links while using Chrome you may need to change your browser configuration.
    Open **Settings**, then click **Show advanced settings...**.  Confirm that the 
    **Pressing Tab on a web page highlights links, as well as form fields** checkbox
    under **Web content** is checked.
