@@ -41,7 +41,7 @@ process of installing proctoring software and performing the required checks
 ahead of time.
 
 To satisfy the proctored exam requirement for credit eligibility, learners
-must take the exam as a proctored exam and receive a **Satisfactory** result
+must take the xam as a proctored exam and receive a **Satisfactory** result
 for their proctoring session review as well as a passing grade on the exam
 itself. For more information about proctored session review results, see
 :ref:`Proctored Exam Session Results`.
@@ -236,6 +236,10 @@ To enable proctored exams in your course, follow these steps.
 
 #. Change the value of the setting to ``true``.
 
+  .. image:: ../../../../shared/building_and_running_chapters/Images/Proctoring_AdvancedSetting.png
+     :alt: The "Enable Timed and Proctored Exams" advanced setting with a value of "true".
+     :width: 500
+
 #. Select **Save Changes** at the bottom of the page. You can now create
    proctored exams in your course.
 
@@ -266,6 +270,10 @@ To create an exam that includes online proctoring, follow these steps.
 #. Specify the allotted time for the exam in hours and minutes.
 
 #. Select the **This exam is proctored** option.
+
+  .. image:: ../../../../shared/building_and_running_chapters/Images/Proctoring_StudioSetProctoredExam.png
+     :alt: The Studio subsection settings dialog showing selections for a timed and proctored final exam. 
+     :width: 600
 
 #. Select **Save**.
 
@@ -323,6 +331,10 @@ To create a practice exam, follow these steps.
 #. Select the **This exam is proctored** option.   
 
 #. Select the **This exam is a practice exam** option.
+
+  .. image:: ../../../../shared/building_and_running_chapters/Images/Proctoring_StudioSetPracticeExam.png
+     :alt: The Studio subsection settings dialog, showing settings for an ungraded practice proctored exam.
+     :width: 600
 
 #. Select **Save**.
 
@@ -468,6 +480,10 @@ steps.
 
 #. Select **Generate Proctored Exam Results Report**.
 
+  .. image:: ../../../../shared/building_and_running_chapters/Images/Proctoring_GenerateCSVExamResults.png
+     :alt: The "Generate Proctored Exam Results Report" button in the LMS. 
+     :width: 400
+
    A status message indicates that the report generation process is in
    progress. This process can take some time to complete, but you can navigate
    away from this page and do other work while it runs.
@@ -483,6 +499,10 @@ steps.
 
 5. To open or save a report file, locate and click the link for the report you
    requested.
+
+     .. image:: ../../../../shared/building_and_running_chapters/Images/Proctoring_CSVExamResultsLink.png
+     :alt: The link for a generated proctored exam results report in the instructor dashboard. 
+     :width: 600
 
    You can open .csv files in a spreadsheet application to sort, graph, and
    compare data.

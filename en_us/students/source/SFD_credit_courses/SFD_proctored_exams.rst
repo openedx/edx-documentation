@@ -32,7 +32,7 @@ credit.
 
 Proctored exams are indicated with an alarm clock icon in the courseware.
 
-.. image of proctored exam with icon
+.. image Proctoring_AlarmClockIcon.png
 
 .. note:: Proctored exams are visible only if you are enrolled in the verified
    track for your course. If you are not in the verified track, you take the
