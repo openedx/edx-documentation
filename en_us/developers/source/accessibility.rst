@@ -545,12 +545,13 @@ These are some automated tools for accessibility testing.
    keyboard accessibility using a Mac, you should configure your computer
    to focus on **All controls**.  Open **System Preferences**, and then select **Keyboard**. 
    On the **Shortcuts** tab, for Full Keyboard Access select **All controls**. You can also 
-   toggle this setting with Control+F7.  If you are a Chrome user, this behavior is 
-   controlled in a browser setting and is enabled by default.  However, if you find that you
-   cannot move focus to links while using Chrome you may need to change your browser configuration.
-   Open **Settings**, then click **Show advanced settings...**.  Confirm that the 
-   **Pressing Tab on a web page highlights links, as well as form fields** checkbox
-   under **Web content** is checked.
+   toggle this setting with Control+F7.  
+   
+   If you are a Chrome user, this behavior is controlled in a browser setting and is 
+   enabled by default.  However, if you find that you cannot move focus to links while 
+   using Chrome you might need to change your browser configuration. Open **Settings**, 
+   then click **Show advanced settings**.  Under **Web content**, confirm that the 
+   **Pressing Tab on a web page highlights links, as well as form fields** checkbox is selected.
 
 To test your feature using a screen reader, you can use the following
 options.
