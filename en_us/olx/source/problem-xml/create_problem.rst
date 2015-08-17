@@ -418,6 +418,8 @@ element.
 
 .. include:: ../../../shared/exercises_tools/Section_adding_hints.rst
 
+.. include:: ../../../shared/exercises_tools/Section_partial_credit.rst
+
 .. _Modifying a Released Problem:
 
 *********************************

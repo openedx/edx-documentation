@@ -517,7 +517,7 @@ available free online.
 .. _Test your code for accessibility:
 
 ********************************
-Test your code for accessibility
+Test your code for accessibility  
 ********************************
 
 The only way to determine if your feature is fully accessible is to manually
@@ -538,6 +538,20 @@ These are some automated tools for accessibility testing.
 
 * Your keyboard. For information about using your keyboard to test for
   accessibility, see `<http://webaim.org/techniques/keyboard/>`_.
+  
+.. note:: By default, the Mac OSX operating system is configured to move keyboard
+   focus to **Text boxes and lists only**.  This setting also applies to browsing web
+   pages using Safari or Firefox with a keyboard.  To effectively test 
+   keyboard accessibility using a Mac, you should configure your computer
+   to focus on **All controls**.  Open **System Preferences**, and then select **Keyboard**. 
+   On the **Shortcuts** tab, for Full Keyboard Access select **All controls**. You can also 
+   toggle this setting with Control+F7.  
+   
+   If you are a Chrome user, this behavior is controlled in a browser setting and is 
+   enabled by default.  However, if you find that you cannot move focus to links while 
+   using Chrome you might need to change your browser configuration. Open **Settings**, 
+   then click **Show advanced settings**.  Under **Web content**, confirm that the 
+   **Pressing Tab on a web page highlights links, as well as form fields** checkbox is selected.
 
 To test your feature using a screen reader, you can use the following
 options.

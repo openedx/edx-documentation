@@ -12,6 +12,10 @@ Change Log
 
    * - Date
      - Change
+   * - 17 Aug 2015
+     - Added the :ref:`SFD Enrolling in a Course` and :ref:`SFD Academic Course Credit` topics.
+   * -
+     - Added the :ref:`SFD_ProctoredExams` and :ref:`Online Proctoring Rules` topics.
    * - 28 May 2015
      - Added the :ref:`Course and Video Licenses` topic.
    * - 22 Apr 2015
