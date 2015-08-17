@@ -16,12 +16,9 @@ For information about discussion administration roles, see
 :ref:`Assigning_discussion_roles`. For information about managing discussions,
 see :ref:`Running_discussions`.
 
-<<<<<<< HEAD
-=======
 .. contents::
   :local:
   :depth: 1
->>>>>>> carol/doc/teams_CA
 
 ***********************************
 Ability to Post in Team Discussions
