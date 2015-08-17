@@ -18,13 +18,7 @@ Browsing Teams by Topic
 ***********************************
 
 On the Teams page in the LMS, learners in your course can browse topics to
-find a subject that they are interested in working on. Within each topic,
-learners can see whether teams already exist for the topic.
-
-.. image:: ../../../shared/building_and_running_chapters/Images/Teams_TopicArrowButton.png
-  :width: 500
-  :alt: On the page showing available topics, one topic has the arrow button
-      that takes users to the list of teams within that topic highlighted.
+find a subject that they are interested in working on. 
 
 Within each topic, learners can see whether teams already exist for the topic. 
 
@@ -77,7 +71,6 @@ they have left.
 Learners can only belong to one team at a time. For learners who already
 belong to a team, the **Join Team** button is not available when they view
 other teams. To join a new team, they must first leave their existing team.
-
 
 .. Add back Invite Others when available
 

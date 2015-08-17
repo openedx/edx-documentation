@@ -10,8 +10,7 @@ in your courses.
 
 .. contents::
   :local:
-  :depth: 2
-
+  :depth: 1
 
 .. _CA_Teams_Overview:
 
@@ -29,7 +28,6 @@ language and a primary country that members identify with. Team
 characteristics might serve as the basis for attracting new members, resulting
 in small groups of learners with similar interests and goals who will work
 together on projects or activities within the same topic area.
-
 
 
 *******************************
@@ -62,6 +60,7 @@ To enable teams in your course, follow these steps.
 
    .. note:: For topic IDs, you can use only alphanumeric characters and the
       underscore, hyphen, and period characters.
+
 
 ::
 
@@ -100,7 +99,6 @@ topic.
 .. image:: ../../../shared/building_and_running_chapters/Images/Teams_Topics_Created.png
  :width: 800
  :alt: A screen capture showing 3 topics on the Browse Teams page.
-
 
    
 
