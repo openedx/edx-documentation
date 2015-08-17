@@ -9,34 +9,16 @@ After you have :ref:`enabled teams <Teams Setup>` and created topics in your
 course, learners can begin browsing and joining teams. Each learner can belong
 to only one team.
 
-<<<<<<< HEAD
-=======
 .. contents::
   :local:
   :depth: 1
 
->>>>>>> carol/doc/teams_CA
 ***********************************
 Browsing Teams by Topic
 ***********************************
 
 On the Teams page in the LMS, learners in your course can browse topics to
-find a subject that they are interested in working on. Within each topic,
-<<<<<<< HEAD
-learners can see whether teams already exist for the topic. 
-
-If there are existing teams, learners can view each team's name, description,
-and, if these are defined, the team's primary language of communication and
-country that members primarily identify with. Learners can also view
-discussion posts that team members have made, but they cannot add posts unless
-they belong to a team.
-=======
-learners can see whether teams already exist for the topic.
-
-.. image:: ../../../shared/building_and_running_chapters/Images/Teams_TopicArrowButton.png
-  :width: 500
-  :alt: On the page showing available topics, one topic has the arrow button
-      that takes users to the list of teams within that topic highlighted.
+find a subject that they are interested in working on. 
 
 Within each topic, learners can see whether teams already exist for the topic. 
 
@@ -50,7 +32,6 @@ primary language of communication and a country that members primarily
 identify with. Learners can also view discussion posts that team members have
 made, but they cannot add posts unless they belong to a team.
 
->>>>>>> carol/doc/teams_CA
 
 *************************************
 Joining, Creating, or Leaving a Team
@@ -59,37 +40,6 @@ Joining, Creating, or Leaving a Team
 When learners find a team that they want to join, they select **Join Team**
 and are immediately added to the team membership, subject to the maximum team
 size. 
-
-<<<<<<< HEAD
-If no teams exist, if existing teams have reached the maximum number of
-members, or if none of the existing teams are appealing, learners can create
-their own teams. Under the list of existing teams in a topic, learners select
-**create a new team in this topic**. They specify a name and description for
-their team, and optionally specify a country and language that team members
-identify with. A learner who creates a team automatically becomes a member of
-the new team.
-
-.. note:: Encourage learners to join existing teams before creating new teams.
-
-At any time, learners can leave teams that they have joined. Learners can only
-belong to one team at a time. If they attempt to join a team while they belong
-to another team, they see a message indicating that they already belong to a
-team. To join a new team, they must first leave their existing team.
-
-
-*************************************
-Inviting Friends to Join a Team
-*************************************
-
-After learners join a team, they can invite friends to join that same team by
-copying a URL, which they can then forward to invitees by any external means
-such as email, or social media post.
-=======
-.. note:: Course team members who have administrative roles, discussion
-   moderator, or discussion administrator roles can create multiple teams,
-   therefore they are not automatically added to the team membership for teams
-   that they create. This is also true for students who also have the
-   community TA role.
 
 If no teams exist, if existing teams have reached the maximum number of
 members, or if none of the existing teams are appealing, learners can create
@@ -106,6 +56,12 @@ team automatically becomes a member of the new team.
 
 .. note:: Encourage learners to join existing teams before creating new teams.
 
+.. note:: Course team members who have administrative roles, discussion
+   moderator, or discussion administrator roles can create multiple teams,
+   therefore they are not automatically added to the team membership for teams
+   that they create. This is also true for students who also have the
+   community TA role.
+
 At any time, learners can leave teams that they have joined, although you
 should emphasize to learners that they should try not to change teams after
 any team projects or activities have started. Learners who leave a team will
@@ -116,9 +72,7 @@ Learners can only belong to one team at a time. For learners who already
 belong to a team, the **Join Team** button is not available when they view
 other teams. To join a new team, they must first leave their existing team.
 
-
 .. Add back Invite Others when available
->>>>>>> carol/doc/teams_CA
 
 
 *************************************
