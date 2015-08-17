@@ -10,12 +10,7 @@ in your courses.
 
 .. contents::
   :local:
-<<<<<<< HEAD
   :depth: 1
-=======
-  :depth: 2
->>>>>>> carol/doc/teams_CA
-
 
 .. _CA_Teams_Overview:
 
@@ -35,24 +30,12 @@ in small groups of learners with similar interests and goals who will work
 together on projects or activities within the same topic area.
 
 
-<<<<<<< HEAD
-.. https://openedx.atlassian.net/browse/TNL-1889
-=======
->>>>>>> carol/doc/teams_CA
-
 *******************************
 Enabling and Configuring Teams
 *******************************
 
 To enable teams in your course, follow these steps.
 
-<<<<<<< HEAD
-#. In Studio, from the **Settings** menu, select **Advanced Settings**.
-
-#. On the **Advanced Settings** page, locate the **Teams Configuration** policy key.
-
-#. Within this policy key you define two entries, topics and maximum team size.
-=======
 .. note:: The Teams page in the LMS becomes available when you have specified
    at least one topic for teams in your course.
 
@@ -64,7 +47,6 @@ To enable teams in your course, follow these steps.
  .. Remove deprecated settings limitation in future
 
 3. Within this policy key you define two entries, topics and maximum team size.
->>>>>>> carol/doc/teams_CA
 
 #. To specify the maximum team size for teams in your course, enter the
    ``max_team_size`` parameter in double quotation marks, a colon, then the
@@ -76,16 +58,9 @@ To enable teams in your course, follow these steps.
 #. To specify topics within which teams can be created, add entries under
    ``"topics"``. For each topic, provide a description, name, and ID as shown in the example.
 
-<<<<<<< HEAD
-   .. note:: In topic specifications, you can use only alphanumeric characters
-      and these special characters: underscore, hyphen, and period.
-
-.. is this note re special characters true?      
-
-=======
    .. note:: For topic IDs, you can use only alphanumeric characters and the
       underscore, hyphen, and period characters.
->>>>>>> carol/doc/teams_CA
+
 
 ::
 
@@ -121,16 +96,9 @@ To enable teams in your course, follow these steps.
 The topics you have created are shown in the LMS when learners browse teams by
 topic.
 
-<<<<<<< HEAD
- .. image:: ../../../shared/building_and_running_chapters/images/teams_topics_created.png
-     :width: 800
-     :alt: A screen capture showing 3 topics on the Browse Teams page.
-=======
 .. image:: ../../../shared/building_and_running_chapters/Images/Teams_Topics_Created.png
  :width: 800
  :alt: A screen capture showing 3 topics on the Browse Teams page.
 
-
->>>>>>> carol/doc/teams_CA
    
 
