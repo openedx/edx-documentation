@@ -14,15 +14,23 @@ exercises you may see in your course.
 
 For more information, see the following topics.
 
-* :ref:`Getting Started_account` - Provides information about setting up your
-  user account on an edX website and the edX Demo course.
 * :ref:`SFD Dashboard Settings Profile` - Provides an overview of the learner
   dashboard and includes information about how to change account settings and
   create a profile.
-* :ref:`Certificates` - Covers the different types of certificates edX offers,
-  how to change your certificate type, and when you receive your certificate.
+* :ref:`SFD Enrolling in a Course` - Describes how to enroll in a course,
+  including how to verify your identity for a verified course.
+* :ref:`SFD Academic Course Credit` - Covers how to receive academic credit
+  for certain edX courses.
+* :ref: `Course and Video Licenses` - Explains the different kinds of licenses
+  that may apply to your course.
 * :ref:`Video Player` - Contains an illustration of the edX video player and its
   features.
+* :ref: `Google Drive` - Describes the use of Google Drive files and calendars
+  in a course.
+* :ref:`Certificates` - Covers the different types of certificates edX offers,
+  how to change your certificate type, and when you receive your certificate.
+* :ref:`SFD Mobile` - Includes frequently asked questions about the edX mobile
+  app for Android and iPhone.
 * :ref:`Math Formatting` - Offers detailed information about how to enter
   mathematical and scientific formulas when you work through exercises in your
   course.
@@ -33,8 +41,7 @@ For more information, see the following topics.
   participate in the discussions for your course, including how to add a post,
   respond to a post, and comment on another student's response.
 * :ref:`SFD Wiki` - Covers information about an edX course wiki.
-* :ref:`SFD Mobile` - Includes frequently asked questions about the edX mobile
-  app for Android and iPhone.
+
 
 This guide is still under development, and we encourage you to submit feedback
 to `docs@edx.org <mailto://docs@edx.org>`_.
