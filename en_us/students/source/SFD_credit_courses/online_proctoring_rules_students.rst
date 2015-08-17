@@ -6,18 +6,19 @@ Online Proctoring Rules for Learners
 
 EdX.org uses an online proctoring service for certain exams (typically final
 exams) that are part of courses that can be made eligible for credit. Students
-taking proctored exams are required to adhere to the following rules to
-receive a **Satisfactory** result from the proctoring service.
+who take proctored exams for credit are required to adhere to the following
+rules to receive a **Satisfactory** result from the proctoring service.
 
-Students are responsible for testing their systems with the proctoring
-software well in advance of all online proctored exams in their courses, so
-that any troubleshooting that is required can be accomplished. Students can
-refer to the free Demo Course on edX.org, where they can configure and
-experience a sample proctored exam.
+Students should test their systems with the proctoring software well in advance
+of any actual graded proctored exams in their courses, so that any
+troubleshooting that is required can be accomplished. Students can take practice
+proctored exams in their course, so that they can experience the steps to set up
+the proctoring software as well as an example proctored exam.
 
 As with other ID-verified assessments and exams, students will be asked to
 establish their identity during the proctored exam process by supplying a
-government-issued photo ID with a full name that matches the name they used to register on edX.org.
+government-issued photo ID with a full name that matches the name they used to
+register on edX.org.
 
 
 *****************************
@@ -91,7 +92,7 @@ The Computer You are Taking the Test With
 #. Before starting your proctored exam, close all other programs or windows on
    your testing computer.
 
-#. The following tools should not be during your proctored exam. 
+#. The following tools should not be used during your proctored exam.
 
   * Programs such as Excel, Word, Powerpoint.
   * Any website other than edX.org.
