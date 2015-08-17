@@ -47,12 +47,6 @@ When learners find a team that they want to join, they select **Join Team**
 and are immediately added to the team membership, subject to the maximum team
 size. 
 
-.. note:: Course team members who have administrative roles, discussion
-   moderator, or discussion administrator roles can create multiple teams,
-   therefore they are not automatically added to the team membership for teams
-   that they create. This is also true for students who also have the
-   community TA role.
-
 If no teams exist, if existing teams have reached the maximum number of
 members, or if none of the existing teams are appealing, learners can create
 their own teams. Under the list of existing teams in a topic, learners select
@@ -67,6 +61,12 @@ country and language that team members identify with. A learner who creates a
 team automatically becomes a member of the new team.
 
 .. note:: Encourage learners to join existing teams before creating new teams.
+
+.. note:: Course team members who have administrative roles, discussion
+   moderator, or discussion administrator roles can create multiple teams,
+   therefore they are not automatically added to the team membership for teams
+   that they create. This is also true for students who also have the
+   community TA role.
 
 At any time, learners can leave teams that they have joined, although you
 should emphasize to learners that they should try not to change teams after
