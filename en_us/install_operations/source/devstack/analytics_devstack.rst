@@ -192,16 +192,18 @@ Run the Open edX Analytics Pipeline
    
    .. code-block:: bash
 
+     $ export WHEEL_URL=http://edx-wheelhouse.s3-website-us-east-1.amazonaws.com/Ubuntu/precise
      # On Mac OS X replace the date command below with $(date -v+1d +%Y-%m-%d)
-     $ remote-task --vagrant-path <path to `analyticstack`> --remote-name devstack --override-config ${PWD}/config/devstack.cfg --wait \
+     $ remote-task --vagrant-path <path to `analyticstack`> --remote-name devstack --override-config ${PWD}/config/devstack.cfg --wheel-url $WHEEL_URL --wait \
         ImportEnrollmentsIntoMysql --local-scheduler --interval-end $(date +%Y-%m-%d -d "tomorrow") --n-reduce-tasks 1
 
 5. Run the answer distribution task.
 
    .. code-block:: bash
 
+    $ export WHEEL_URL=http://edx-wheelhouse.s3-website-us-east-1.amazonaws.com/Ubuntu/precise
     $ export UNIQUE_NAME=$(date +%Y-%m-%dT%H:%M:%SZ)
-    $ remote-task --vagrant-path <path to `analyticstack`> --remote-name devstack --override-config ${PWD}/config/devstack.cfg --wait \
+    $ remote-task --vagrant-path <path to `analyticstack`> --remote-name devstack --override-config ${PWD}/config/devstack.cfg --wheel-url $WHEEL_URL --wait \
         AnswerDistributionWorkflow --local-scheduler \
           --src hdfs://localhost:9000/data/ \
           --include '*tracking.log*' \
