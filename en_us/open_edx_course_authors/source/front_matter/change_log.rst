@@ -2,6 +2,21 @@
 Change Log
 ############
 
+
+****************
+September 2015
+****************
+
+.. list-table::
+   :widths: 15 70
+   :header-rows: 1
+
+   * - Date
+     - Change
+   * - 2 Sep 2015
+     - Added the :ref:`Setting Up Course Certificates` topic.
+
+
 ****************
 August 2015
 ****************

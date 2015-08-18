@@ -4,18 +4,21 @@
 Setting Start and End Dates
 ##############################
 
+This section describes how to schedule your course in Studio.
+
+.. contents::
+   :local:
+   :depth: 1
+
+**********
+Overview
+**********
+
 The start and end dates you set for your course and for course enrollment are
 important for prospective and current learners. As soon as enrollment starts,
-prospective learners can see your course in the edX course catalog, view the
+prospective learners can see your course in the course catalog, view the
 course About page, and enroll in the course. Current learners see your course
 start or end date on their dashboards.
-
-For more information about the start and end dates for your course, as well as
-instructions for setting start and end dates, see the following topics.
-
-* :ref:`View Start and End Dates`
-* :ref:`Determine Start and End Dates`
-* :ref:`Set Start and End Dates`
 
 .. _View Start and End Dates:
 
@@ -57,10 +60,12 @@ dates and times on the **Schedule & Details** page in Studio. EdX recommends
 that you verify all important dates in Studio one week before you plan to
 start the course.
 
-.. note::
-  For courses on edX.org, you must communicate the course start and end dates
-  and times to your edX program manager to ensure the information is accurate on
-  the course About page. 
+.. only:: Partners
+
+  .. note::
+    For courses on edX.org, you must communicate the course start and end dates
+    and times to your edX Program Manager to ensure the information is accurate
+    on the course About page.
 
 ============================
 Course Start Date and Time
@@ -72,6 +77,11 @@ course content. By default, the course start date and time are set to
 before you intend it to. You must change this setting to the correct date and
 time for your course.
 
+.. note::  
+  If your course is configured to issue certificates, you cannot start the
+  course until the required certificates are activated. For more information,
+  see :ref:`Activate a Certificate`.
+
 EdX recommends that you set the start time of your course early in the day,
 generally 00:00 UTC or earlier. Learners often expect the course to be
 available on the start date in their own time zones and try to access course
@@ -79,9 +89,9 @@ content during the day. If you do not specify a start time for your course,
 learners see the default start time, 00:00 Universal Coordinated Time (UTC).
 
 Learners can see some parts of the course before the course start date. For
-example, they can see your **Course Info** page and course-wide discussion topics
-as soon as they enroll in your course. For more information, see :ref:`Create
-CourseWide Discussion Topics`.
+example, they can see your **Course Info** page and course-wide discussion
+topics as soon as they enroll in your course. For more information, see
+:ref:`Create CourseWide Discussion Topics`.
 
 .. note:: 
   You can set a different advertised start date for your course. You might
