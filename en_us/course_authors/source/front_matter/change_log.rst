@@ -12,12 +12,25 @@ This section lists changes made to this document in 2015.
 
 For older changes, see :ref:`Change Log 2014`.
 
+****************
+September 2015
+****************
+
+.. list-table::
+   :widths: 30 70
+   :header-rows: 1
+
+   * - Date
+     - Change
+   * - 2 September 2015
+     - Added the :ref:`Using edX as an LTI Tool Provider` section.
+
 ***************
 August 2015
 ***************
 
 .. list-table::
-   :widths: 15 70
+   :widths: 30 70
    :header-rows: 1
 
    * - Date
@@ -42,7 +55,7 @@ August 2015
        in edX Insights.
    * - 12 August 2015
      - Added the :ref:`Qualtrics Survey` topic.
-   * - 5 Aug 2015
+   * - 5 August 2015
      - Added information about using campus credentials to sign in to the
        :ref:`Getting Started with edX` section.
 

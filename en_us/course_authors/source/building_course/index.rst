@@ -23,3 +23,4 @@ see :ref:`Developing Your Course Index`.
    establish_grading_policy
    course_rerun
    export_import_course
+   lti/index
