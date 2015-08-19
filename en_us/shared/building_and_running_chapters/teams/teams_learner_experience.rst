@@ -47,18 +47,22 @@ When learners find a team that they want to join, they select **Join Team**
 and are immediately added to the team membership, subject to the maximum team
 size. 
 
+.. note:: Learners can belong to only one team. If a learner already belongs to a
+.. team, the **Join Team** button is not available. 
+
 If no teams exist, if existing teams have reached the maximum number of
 members, or if none of the existing teams are appealing, learners can create
 their own teams. Under the list of existing teams in a topic, learners select
-**create a new team in this topic**. 
+**create a new team in this topic**. This link is available only to learners
+who do not already belong to a team.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/Teams_CreateNewTeamLink.png
   :width: 500
   :alt: View of a team within a topic showing name and description, number of members.
 
-They specify a name and description for their team, and optionally specify a
-country and language that team members identify with. A learner who creates a
-team automatically becomes a member of the new team.
+Learners specify a name and description for their team, and optionally specify
+a country and language that team members identify with. A learner who creates
+a team automatically becomes a member of the new team.
 
 .. note:: Encourage learners to join existing teams before creating new teams.
 
