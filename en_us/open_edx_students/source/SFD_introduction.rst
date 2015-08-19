@@ -17,14 +17,14 @@ For more information, see the following topics.
   create a profile.
 * :ref:`SFD Enrolling in a Course` - Describes how to enroll in a course,
   including how to verify your identity for a verified course.
-* :ref: `Course and Video Licenses` - Explains the different kinds of licenses
+* :ref:`Course and Video Licenses` - Explains the different kinds of licenses
   that may apply to your course.
-* :ref: `SFD Search` - Describes how to search content inside your course.
-* :ref:`Video Player` - Contains an illustration of the edX video player and its
-  features.
-* :ref: `SFD Notes` - Introduces the Notes tool, which allows learners to
+* :ref:`SFD Search` - Describes how to search content inside your course.
+* :ref:`Video Player` - Contains an illustration of the edX video player and
+  its features.
+* :ref:`SFD Notes` - Introduces the Notes tool, which allows learners to
   create bookmarks and write notes directly in the courseware.
-* :ref: `Google Drive` - Describes the use of Google Drive files and calendars
+* :ref:`Google Drive` - Describes the use of Google Drive files and calendars
   in a course.
 * :ref:`Certificates` - Covers the different types of certificates edX offers,
   how to change your certificate type, and when you receive your certificate.
