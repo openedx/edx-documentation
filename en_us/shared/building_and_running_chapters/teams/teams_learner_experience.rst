@@ -48,7 +48,7 @@ and are immediately added to the team membership, subject to the maximum team
 size. 
 
 .. note:: Learners can belong to only one team. If a learner already belongs to a
-.. team, the **Join Team** button is not available. 
+   team, the **Join Team** button is not available. 
 
 If no teams exist, if existing teams have reached the maximum number of
 members, or if none of the existing teams are appealing, learners can create
