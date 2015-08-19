@@ -576,3 +576,16 @@
 .. _View Your Live Course: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/developing_course/testing_courseware.html#view-your-live-course
 
 .. _Enabling Third Party Authentication with edX Edge: http://edx.readthedocs.org/projects/edx-installing-configuring-and-running/en/latest/configuration/tpa/enable_tpa_edge.html#enabling-third-party-authentication-edge
+
+.. _Open edX wiki page for Dogwood: https://openedx.atlassian.net/wiki/display/OPEN/Dogwood
+
+.. _Open edX Conference: http://con.openedx.org/
+
+.. _Registration: http://www.eventbrite.com/e/open-edx-con-2015-tickets-17211056734?aff=relnotes
+
+.. _Qualtrics Survey Tool: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/qualtrics.html
+
+.. _Qualtrics Survey Tool - Open edX: http://edx.readthedocs.org/projects/open-edx-building-and-running-a-course/en/latest/exercises_tools/qualtrics.html
+
+.. _Open edX Cypress Release Notes: http://edx.readthedocs.org/projects/open-edx-release-notes/en/latest/cypress.html
+

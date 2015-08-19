@@ -11,6 +11,13 @@ The following information describes what is new in Open edX.
   :depth: 2
 
 ******************
+19 August 2015
+******************
+
+.. include:: 2015/openedx/openedx_0818_2015.rst
+
+
+******************
 22 April 2015
 ******************
 
