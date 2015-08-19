@@ -4,8 +4,8 @@
    contain the root `toctree` directive.
 
 
-Open edX Learner's Guide
-========================================
+Open edX Learner's Guide - Cypress Release
+===========================================
 
 .. toctree::
    :numbered:
