@@ -4,7 +4,7 @@
 Checkbox Problem
 ##################
 
-.. contents:: Topic Contents
+.. contents::
   :local:
   :depth: 1
 
@@ -13,13 +13,17 @@ Overview
 **********
 
 In checkbox problems, learners select one or more options from a list of
-possible answers. To answer the problem correctly, a learner must select all
-of the options that apply. Each checkbox problem must have at least one
-correct answer.
+possible answers. To answer the problem correctly, a learner must select all of
+the options that are correct answers, and none of the options that are
+incorrect. Each checkbox problem must have at least one correct answer.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/CheckboxExample.png
- :alt: A checkbox problem with four options, 2 of which are required for the
-     correct answer.
+ :alt: A checkbox problem with four options, 2 of which are correct.
+
+.. note:: 
+   Make sure that all of the answer choices are unambiguous, and avoid trick
+   questions. Checkbox problems with ambiguity can be frustrating to learners,
+   especially if they have a limited number of attempts.
 
 **************************************************
 Analyzing Performance on Checkbox Problems
@@ -28,11 +32,6 @@ Analyzing Performance on Checkbox Problems
 For the checkbox problems in your course, you can use edX Insights to review
 aggregated learner performance data and examine submitted answers. For more
 information, see `Using edX Insights`_.
-
-.. note:: On checkbox problems, make sure the all of the choices are
-   unambiguous, and avoid trick questions. Checkbox problems with ambiguity
-   can be frustrating to students, especially if they have a limited number of
-   attempts.
 
 
 ****************************
@@ -373,6 +372,127 @@ or the advanced editor. For an overview of hints in problems, see
 
 .. include:: ../../../shared/exercises_tools/Subsection_configure_hints.rst
 
+
+********************************************
+Award Partial Credit in a Checkbox Problem
+********************************************
+
+You can configure a checkbox problem to have partial credit awarded to learners
+who submit an answer that is partly correct. You must use the `Advanced Editor
+<Use the Advanced Editor to Edit a Checkbox Problem>`_ to configure partial
+credit.
+
+In the following example, the learner selected two of the three correct choices
+and received partial credit.
+
+.. image:: ../../../shared/building_and_running_chapters/Images/multiple_choice_partial_credit.png
+ :alt: Image of a multiple choice problem with partial credit for two our of
+     three answers.
+ :width: 600
+
+For an overview of partial credit in problems, see
+:ref:`Awarding Partial Credit for a Problem`.
+
+There are two ways to award partial credit in a checkbox problem.
+
+.. contents::
+  :local:
+  :depth: 1
+
+======================
+Every Decision Counts
+======================
+
+You can configure a checkbox problem so that the learner's response for every
+option is evaluated and scored. This is referred to as EDC, (Every Decision
+Counts).
+
+With EDC, for each option the learner gets wrong, either by not selecting a
+correct option or selecting an incorrect option, the learner's score is
+reduced by 1/n, where "n" is the number of options.
+
+For example, if there are four options, each one is worth 25% of the total
+score. If a learner's response is wrong for one option, she receives 75% of the
+points for the problem.
+
+To expand on this example, take a checkbox problem with four options, A, B, C,
+and D. Options A and B are correct, and C and D are incorrect. The following
+lists demonstrates the learner's score for different submissions.
+
+* A, B, and C are selected. Option C is incorrect and the score is 75%.
+  
+* A is selected. Option B is incorrect and the score is 75%.
+  
+* A and C are selected. Options B and C are incorrect and the score is
+  50%.
+
+* C and D are selected. All options are incorrect and the score is 0%.
+
+
+Configure an EDC Checkbox Problem
+**********************************
+
+To configure an EDC checkbox problem, you add the
+attribute ``partial_credit="EDC"`` to the ``<choiceresponse>`` element in
+problem XML. 
+
+For example, the following XML shows the checkbox problem template
+updated to provide partial credit.
+
+.. code-block:: xml
+
+  <choiceresponse partial_credit="EDC">
+    <checkboxgroup label="Which of the following is a fruit? Check all that apply.">
+      <choice correct="true">apple</choice>
+      <choice correct="true">pumpkin</choice>
+      <choice correct="false">potato</choice>
+      <choice correct="true">tomato</choice>
+    </checkboxgroup>
+  </choiceresponse>
+
+=======
+Halves
+=======
+
+You can configure a checkbox problem so that for every option a learner gets
+wrong, either by not selecting a correct option or selecting an incorrect
+option, half of the remaining points are subtracted from the problem. This is
+referred to as scoring by "Halves".
+
+For example, if a learner gets one out of four options wrong, he receives 50%
+of the points for the problem.
+
+.. note:: 
+  For half of the remaining points to be deducted, the problem must have more
+  than twice the number of options than the number of incorrect answers in the
+  learner's response. Otherwise, the learner receives no credit for the
+  problem. For example, if the learner gets two out of four options wrong, he
+  receives no credit for the problem. If he gets two out of five options wrong,
+  he gets 25% of the points.
+
+
+Configure a Halves Checkbox Problem
+************************************
+
+To configure a Halves checkbox problem, you add the
+attribute ``partial_credit="halves"`` to the ``<choiceresponse>`` element in
+problem XML. 
+
+For example, the following XML shows the checkbox problem template
+updated to provide partial credit.
+
+.. code-block:: xml
+
+  <choiceresponse partial_credit="halves">
+    <checkboxgroup label="Which of the following is a fruit? Check all that apply.">
+      <choice correct="true">apple</choice>
+      <choice correct="true">pumpkin</choice>
+      <choice correct="false">potato</choice>
+      <choice correct="true">tomato</choice>
+    </checkboxgroup>
+  </choiceresponse>
+
+
 .. _Checkbox Problem XML:
 
 ****************************
@@ -462,7 +582,13 @@ Specifies that the problem contains options for learners to choose from.
 
   Attributes
 
-  (none)
+  .. list-table::
+     :widths: 20 80
+
+     * - Attribute
+       - Description
+     * - partial_credit (optional)
+       - Specifies the type of partial credit given. ``EDC`` or ``halves``.
 
   Children
 

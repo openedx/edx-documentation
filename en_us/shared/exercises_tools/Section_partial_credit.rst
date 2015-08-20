@@ -14,7 +14,7 @@ partial credit for a problem if they submit an answer that is partly correct.
 * :ref:`Text Input`
 
 By awarding partial credit for problems, you can motivate learners who have
-learned some of the course content and provide a score that accurately
+mastered some of the course content and provide a score that accurately
 demonstrates their progress.
 
 See the pages for these problem types for more information on configuring
