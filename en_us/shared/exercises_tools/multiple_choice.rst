@@ -405,7 +405,7 @@ For an overview of partial credit in problems, see
 Configure a Multiple Choice Problem to Award Partial Credit
 =================================================================
 
-To configure an multiple choice problem to award partial credit for a specific
+To configure a multiple choice problem to award partial credit for a specific
 answer, you add the following attributes to the problem XML.
 
 * Add the ``partial_credit="points"`` attribute to the

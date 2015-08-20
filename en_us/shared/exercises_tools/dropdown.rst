@@ -4,7 +4,7 @@
 Dropdown Problem
 #####################
 
-.. contents:: Topic Contents
+.. contents::
   :local:
   :depth: 1
 
@@ -330,6 +330,78 @@ or the advanced editor. For an overview of hints in problems, see
 
 .. include:: ../../../shared/exercises_tools/Subsection_configure_hints.rst
 
+
+*************************************************
+Award Partial Credit in a Dropdown Problem
+*************************************************
+
+You can configure a dropdown problem so that specific incorrect answers award
+learners partial credit for the problem. You must use the `Advanced Editor <Use
+the Advanced Editor to Edit a Dropdown Problem>`_ to configure partial credit.
+
+In the following example, the learner selected a wrong answer and received
+partial credit.
+
+.. image:: ../../../shared/building_and_running_chapters/Images/partial_credit_dropdown.png
+ :alt: Image of a dropdown problem with partial credit for an incorrect
+     answer.
+ :width: 600
+
+You can specify what percentage of the points for the problem a learner
+receives for an incorrect answer. If you do not specify the percentage, the
+default 50% is used.
+
+For an overview of partial credit in problems, see
+:ref:`Awarding Partial Credit for a Problem`.
+
+=================================================================
+Configure a Dropdown Problem to Award Partial Credit
+=================================================================
+
+To configure a dropdown problem to award partial credit for a specific
+answer, you add the following attributes to the problem XML.
+
+* Add the ``partial_credit="points"`` attribute to the
+  ``<optionresponse>`` element.
+
+* Add the ``partial`` attribute to the ``<optioninput>`` element. Add each
+  answer that you intend to award partial credit as a value for the ``partial``
+  attribute. Separate multiple values with a comma (,). For example,
+  ``partial="China, Spain"`` indicates that two answers receive partial credit.
+
+  .. Note:: 
+    Each value of the ``partial`` attribute must match a value in the
+    ``options`` attribute for the problem.
+
+* Optionally, for each answer that you intend to award partial credit, add the
+  percentage of the problem, as a decimal, in the ``point_values`` attribute
+  for the ``<optioninput>`` element. Separate multiple values with a comma
+  (,). 
+
+  The percentage value is used for the answer in the same position in the
+  ``partial`` attribute. 
+
+  For example, if you added ``partial="China, Spain"`` and
+  y``point_value="0.25, 0.75"`` then the answer "China" earns 25% of the
+  points, and "Spain" earns 75% of the points. If you do not add the
+  ``point_values`` attribute, 50% is used for all partial credit answers.
+
+For example, the following XML shows the dropdown problem template updated to
+provide partial 20% of the problem's points for learners who answer "China".
+
+.. code-block:: xml
+
+  <optionresponse partial_credit="points">
+    <optioninput label="Which of the following countries celebrates its 
+      independence on August 15?" 
+      options="('India','Spain','China','Bermuda')" 
+      correct="India"
+      partial = "China" 
+      point_values = "0.2" >
+    </optioninput>
+  </optionresponse>
+
+
 .. _Dropdown Problem XML:
 
 ************************
@@ -389,7 +461,17 @@ Indicates that the problem is a dropdown problem.
 
   Attributes
 
-  (none)
+  .. list-table::
+     :widths: 20 80
+     :header-rows: 1
+
+     * - Attribute
+       - Description
+     * - partial_credit (optional)
+       - Specifies that the problem can award partial credit.
+     * - type (required)
+       - If used, must be set to "points".
+
 
   Children
 
@@ -409,6 +491,13 @@ Lists the answer options.
      * - correct (required)
        - Indicates whether an answer is correct. Possible values are "true"
          and "false". Only one **correct** attribute can be set to "true".
+     * - partial (optional)
+       - Indicates whether an answer receives partial credit. 
+     * - point_value
+       - When there are one or more partial answers, indicates the percentage,
+         as a decimal, of the points the learner receives for selecting those
+         option. If "point_value" is not specified for a partial credit answer,
+         50% is used by default.
   
   Children
 
