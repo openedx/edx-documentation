@@ -31,8 +31,8 @@ the learner selects all three, and no others, she receives the full 1 point.
 In this case, the learner selected two of the three correct choices and
 received partial credit.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/multiple_choice_partial_credit.png
- :alt: Image of a multiple choice problem with partial credit for two our of
+.. image:: ../../../shared/building_and_running_chapters/Images/checkbox_partial_credit.png
+ :alt: Image of a checkbox problem with partial credit for two our of
      three answers.
  :width: 600
 
