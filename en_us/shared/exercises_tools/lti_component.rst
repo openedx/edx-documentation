@@ -4,30 +4,36 @@
 LTI Component
 ###############
 
-You might have discovered or developed an external learning application that
-you want to add to your online course. Or you might have a digital copy of your
-textbook that uses a format other than PDF. You can add external learning
-applications or textbooks in Studio by using a learning tools interoperability
-(LTI) component. The LTI component is based on the `IMS Global Learning Tools
-Interoperability <http://www.imsglobal.org/LTI/v1p1p1/ltiIMGv1p1p1.html>`_
-version 1.1.1 specifications.
+You can integrate remote learning tools, such as applications and textbooks,
+into your course with the learning tools interoperability (LTI) component. The
+LTI component is based on the `IMS Global Learning Tools Interoperability™ 
+<http://www.imsglobal.org/LTI/v1p1p1/ltiIMGv1p1p1.html>`_ version 1.1.1
+specifications.
 
 You can use an LTI component in several ways.
 
-* You can add external LTI content that is only displayed and does not require
-  a student response, such as textbook content.
+* You can add remote LTI content that displays to learners only, and that does
+  not require a learner response. An example is a digital copy of a textbook in
+  a format other than PDF.
 
-* You can add external LTI content that requires a student response. An
-  external provider will grade student responses.
+* You can add remote LTI tools that do require a learner response. A remote
+  LTI tool provider grades the responses.
 
-* You can use the component as a placeholder for syncing with an external
-  grading system.
+* You can use the LTI component as a placeholder for synchronizing with a
+  remote grading system.
 
-For example, the following LTI component incorporates a Cerego tool that
-students interact with.
+For example, the following LTI component integrates a Cerego tool that learners
+interact with into the LMS for a course.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/LTIExample.png
-   :alt: Cerego LTI component example
+   :alt: A page in the LMS showing the Cerego music player and a question for
+    learners to answer about it.
+
+When you add an LTI component to your course, the edX Learning Management
+System (LMS) is the LTI tool consumer, and the external tool or content is the
+LTI tool provider. 
+
+.. You can also integrate content from an edX course into a remote learning management system such as Canvas or Blackboard. For more information about how to use Studio as an LTI tool provider, see :ref:`TBD`.
 
 .. _LTI Information:
 
@@ -35,43 +41,43 @@ students interact with.
 Obtain LTI Information
 ************************
 
-Before you create an LTI component from an external LTI provider in a
-unit, you need the following information.
+Before you create an LTI component to integrate content from a remote tool
+provider into a unit of your course, you need the following information.
 
--  The **launch URL** (if the LTI component requires a student response
-   that will be graded). You obtain the launch URL from the LTI
-   provider. The launch URL is the URL that Studio sends to the external
-   LTI provider so that the provider can send back students’ grades.
+-  If the LTI component requires a learner response that will be graded, the
+   **launch URL** is required. You obtain the launch URL from the LTI tool
+   provider. The launch URL is the URL that Studio sends to the remote LTI tool
+   provider so that the tool provider can send back learners' grades.
 
 - The **LTI Passports** policy key. This policy key has three parts: an LTI ID,
   a client key, and a client secret.
 
-  -  The **LTI ID**. This is a value that you create to refer to the external
-     LTI provider. You should create an LTI ID that you can remember easily.
+  -  The **LTI ID** is a value that you create to refer to the remote LTI
+     tool provider. You should create an LTI ID that you can remember easily.
 
      The LTI ID can contain uppercase and lowercase alphanumeric characters, as
      well as underscore characters (_). It can be any length. For example, you
-     can create an LTI ID that is as simple as **test_lti_id**, or your LTI ID
-     can be a string of numbers and letters such as  **id_21441** or
-     **book_lti_provider_from_new_york**.
-  -  The **client key**. This value is a sequence of characters that you
-     obtain from the LTI provider. The client key is used for
-     authentication and can contain any number of characters. For example,
-     your client key may be **b289378-f88d-2929-ctools.school.edu**.
-  -  The **client secret**. This value is a sequence of characters that
-     you obtain from the LTI provider. The client secret is used for
-     authentication and can contain any number of characters. For example,
-     your client secret can be something as simple as **secret**, or it
-     may be a string of numbers and letters such as **23746387264** or
-     **yt4984yr8**.
+     can create an LTI ID that is as simple as ``test_lti_id``, or your LTI ID
+     can be a string of numbers and letters such as  ``id_21441`` or
+     ``book_lti_provider_from_new_york``.
+
+  -  The **client key** is a sequence of characters that you obtain from the
+     LTI tool provider. The client key is used for authentication and can
+     contain any number of characters. For example, your client key might be
+     ``b289378-f88d-2929-ctools.school.edu``.
+
+  -  The **client secret** is a sequence of characters that you obtain from the
+     LTI tool provider. The client secret is used for authentication and can
+     contain any number of characters. For example, your client secret can be
+     something as simple as ``secret``, or it might be a string of numbers and
+     letters such as ``23746387264`` or ``yt4984yr8``.
 
   To create the **LTI Passports** policy key, combine the LTI ID, client key,
-  and client secret in the following format (make sure to include the colons).
+  and client secret in the following format (be sure to include the colons).
 
-  ``lti_id:client_key:client_secret``
+  ``{your_lti_id}:{client_key}:{client_secret}``
 
-  For example, an **LTI Passports** policy key can resemble any of the
-  following.
+  An **LTI Passports** policy key can resemble any of the following examples.
 
   ``test_lti_id:b289378-f88d-2929-ctools.school.edu:secret``
   
@@ -83,89 +89,95 @@ unit, you need the following information.
 Create an LTI Component
 ************************
 
-Creating an LTI component in your course has three steps.
+To add an LTI component to your course, you complete all of these steps.
 
-#. Add LTI to the **Advanced Module List**  policy key.
-#. Register the LTI provider.
-#. Create the LTI component in an individual unit.
+.. contents::
+   :local:
+   :depth: 1
 
 ======================================================
 Step 1. Add LTI to the Advanced Module List Policy Key
 ======================================================
 
-#. On the **Settings** menu, click **Advanced Settings**.
+#. From the Studio **Settings** menu, select **Advanced Settings**.
 
-#. In the field for the **Advanced Module List** policy key, place your cursor
-   between the brackets.
+#. In the **Advanced Module List** field, place your cursor between the
+   brackets.
 
-#. Enter ``"lti"``. Make sure to include the quotation marks, but not the
-   period.
+#. Enter ``"lti"``. Be sure to include the quotation marks, but not the period.
+   The text in the **Advanced Module List** field should resemble the
+   following.
 
-   .. image:: ../../../shared/building_and_running_chapters/Images/LTIPolicyKey.png
-     :width: 500
-     :alt: Image of the advanced_modules key in the Advanced Settings page, with the LTI value added
+   ``["lti"]``
 
-.. note:: 
    If the **Advanced Module List** field already contains text, place your
    cursor directly after the closing quotation mark for the final item, and
-   then enter a comma followed by ``"lti"`` (make sure that you include the
-   quotation marks).
+   then enter a comma followed by ``"lti"`` (again, make sure that you include
+   the quotation marks).
 
-4. At the bottom of the page, click **Save Changes**.
+   ``["word_cloud","lti"]``
 
-The page refreshes automatically. At the top of the page,
-you see a notification that your changes have been saved.
+4. At the bottom of the page, select **Save Changes**.
+
+The page refreshes automatically and reformats your entry in the **Advanced
+Module List** field. At the top of the page, a message notifies you that your
+changes have been saved.
 
 ==========================================
 Step 2. Register the External LTI Provider
 ==========================================
 
-To register the external LTI provider, you’ll add the **LTI Passports** policy
+To register the remote LTI tool provider, you add the **LTI Passports** policy
 key to the course's advanced settings.
 
-#. On the **Advanced Settings** page, locate the **LTI Passports**
-   policy key.
+#. From the Studio **Settings** menu, select **Advanced Settings**.
 
-#. Place your cursor between the brackets.
+#. In the **LTI Passports** field, place your cursor between the
+   brackets.
 
-#. Enter the **LTI Passports** policy key surrounded by quotation marks.
+#. Enter your **LTI Passports** policy key surrounded by quotation marks.
 
    For example, the text in the **LTI Passports** field can resemble the
    following.
 
    ``"test_lti_id:b289378-f88d-2929-ctools.umich.edu:secret"``
 
-   If you have multiple LTI providers, separate the values for each **LTI
-   Passports** policy key with a comma. Make sure to surround each entry with
-   quotation marks.
+   For more information about creating your key, see :ref:`LTI Information`.
+
+#. To integrate tools from more than one LTI provider into your
+   course, separate the policy key for each **LTI Passports** policy key with a
+   comma. Make sure to surround each entry with quotation marks.
 
    .. code-block:: xml
 
-      "test_lti_id:b289378-f88d-2929-ctools.umich.edu:secret",
-      "id_21441:b289378-f88d-2929-ctools.school.edu:23746387264",
-      "book_lti_provider_from_new_york:b289378-f88d-2929-ctools.company.com:yt4984yr8"
+      [
+          "test_lti_id:b289378-f88d-2929-ctools.umich.edu:secret",
+          "id_21441:b289378-f88d-2929-ctools.school.edu:23746387264",
+          "book_lti_provider_from_new_york:b289378-f88d-2929-ctools.company.com:yt4984yr8"
+      ] 
 
-4. At the bottom of the page, click **Save Changes**.
+4. At the bottom of the page, select **Save Changes**.
 
-The page refreshes automatically. At the top of the page, you see a
-notification that your changes have been saved, and you can see your entries
-for the **LTI Passports** policy key.
+The page refreshes automatically and reformats your entry in the **LTI
+Passports** field. At the top of the page, you see a notification that your
+changes have been saved.
 
 ==========================================
 Step 3. Add the LTI Component to a Unit
 ==========================================
 
-#. In the unit where you want to create the problem, click **Advanced**
-   under **Add New Component**, and then click **LTI**.
-#. In the component that appears, click **Edit**.
-#. In the component editor, specify the settings that you want. See :ref:`LTI
-   Component Settings` for a description of each setting.
-#. Click **Save**.
+#. In the unit where you want to add the remote learning tool, from the **Add
+   New Component** section select **Advanced**, and then select **LTI**.
+
+#. In the component that appears, select **Edit**.
+
+#. In the component editor, specify the settings that you want. For more
+   information about each setting, see :ref:`LTI Component Settings`.
+
+#. Select **Save**.
    
-.. note:: 
-  You cannot test the LTI component from within Studio. You must test the LTI
-  component in Preview mode or in the live course.  For more information, see
-  :ref:`Testing Your Course Content`.
+To test an LTI component, you use the Preview feature or view the live version
+in the LMS. For more information, see :ref:`Testing Your Course Content`.
 
 .. _LTI Component settings:
 
@@ -174,76 +186,80 @@ LTI Component Settings
 **********************
 
 .. list-table::
-   :widths: 10 80
+   :widths: 20 80
    :header-rows: 1
 
    * - Setting
      - Description
    * - Accept grades past deadline
-     - Specifies whether third party systems are allowed to post grades past the deadline. By default, this value is set to True.
+     - Specifies whether third party systems are allowed to post grades past
+       the deadline. By default, this value is set to True.
    * - Button Text     
-     - Enter a custom label for the button that launches the third-party LTI
+     - Enter a custom label for the button that launches the external LTI
        application.           
-   * - Custom Parameters     
+   * - Custom Parameters
      - Enables you to add one or more custom parameters. For example, if you
-       added an e-book, you can set a custom parameter that opens the e-book to
+       add an e-book, you can set a custom parameter that opens the e-book to
        a specific page. You could also use a custom parameter to set the
        background color of the LTI component.
 
-       Every custom parameter has a key and a value. You must add the key and value in the following format.
+       Every custom parameter has a key and a value. You must add the key and
+       value in the following format.
 
-       ::
+       {key}={value}
 
-          key=value
-
-       For example, a custom parameter may resemble the following.
+       An example custom parameter follows.
 
        ::
 
           bgcolor=red
-
           page=144
 
-       To add a custom parameter, click **Add**.
+       To add a custom parameter, select **Add**.
+
    * - Display Name               
      - Specifies the name of the component. This name appears as a heading
        above the problem and as a tooltip in the learning sequence at the top
        of the **Courseware** page. Unique, descriptive display names help you
        identify problems quickly and accurately for analysis.
    * - Hide External Tool
-     - Indicates whether you want to launch an external tool or to use this
-       component as a placeholder for syncing with an external grading system.
+     - Indicates whether you want to launch a remote tool or use this component
+       as a placeholder for synchronizing with a remote grading system.
+
        If you set the value to True, Studio hides the **Launch** button and any
        IFrames for this component. By default, this value is set to False.
+
    * - LTI Application Information     
-     - The description of the third party application. If the application
-       requires a username or email address, use this field to inform learners
-       why their information will be forwarded to a third party application.
+     - The description of the external application. If the application requires
+       a username or email address, use this field to inform learners that
+       their information will be forwarded to the external application.
    * - LTI ID     
-     - Specifies the LTI ID for the external LTI provider. This value must be
-       the same LTI ID that you entered on the **Advanced Settings** page.
+     - Specifies the LTI ID for the remote LTI tool provider. This value must
+       be the same LTI ID that you entered as part of the **LTI Passports**
+       policy key on the **Advanced Settings** page.
    * - LTI URL 
-     - Specifies the URL of the external tool that this component launches.This
+     - Specifies the URL of the remote tool that this component launches. This
        setting is applicable when **Hide External Tool** is set to False.      
    * - Open in New Page
-     - Specify whether the problem opens in a new page. If you set this value
-       to True, the student clicks a link that opens the LTI content in a new
-       window. If you set this value to False, the LTI content opens in an
-       IFrame in the current page. This setting is applicable when **Hide
-       External Tool** is set to False.
+     - Specifies whether the component opens in a new page. If you set this
+       value to True, when the learner selects this component the LTI content
+       opens in a new window. If you set this value to False, the LTI content
+       opens in an IFrame in the current page. This setting is applicable when
+       **Hide External Tool** is set to False.
    * - Request user's email     
      - If **Open in New Page** is set to True, you can also request user
-       information. Set this value to True to request the user's email address.
+       information. Set this value to True to request the learner's email
+       address.
    * - Request user's username     
      - If **Open in New Page** is set to True, you can also request user
-       information. Set this value to True to request the user's username.    
+       information. Set this value to True to request the learner's username.
    * - Scored     
      - Indicates whether the LTI component receives a numerical score from the
-       external LTI system. By default, this value is set to False.       
+       remote LTI tool provider. By default, this value is set to False.       
    * - Weight
-     - Specifies the number of points possible for the problem. By default, if
-       an external LTI provider grades the problem, the problem is worth 1
-       point, and a student’s score can be any value between 0 and 1. This
+     - Specifies the number of points possible for a problem. By default, if
+       a remote LTI tool provider grades the problem, the problem is worth 1
+       point, and a learner's score can be any value between 0 and 1. This
        setting is applicable when **Scored** is set to True.
 
        For more information about problem weights and computing point scores,
