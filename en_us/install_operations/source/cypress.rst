@@ -85,7 +85,7 @@ Vagrant box directly or by running ``vagrant up`` when installing
 :ref:`Devstack <Installing the Open edX Developer Stack>` or
 :ref:`Fullstack <Installing Open edX Fullstack>`.
 
-See the `Open edX Named Releases Wiki page`_ to access the latest Vagrant
+See the `Open edX Releases Wiki page`_ to access the latest Vagrant
 boxes.
 
 See `Vagrant's documentation on boxes`_ for more information.
@@ -101,7 +101,7 @@ connection is temporarily lost while you are downloading the Vagrant box
 through BitTorrent, you can later continue the download without data loss or
 corruption.
 
-See the `Open edX Named Releases Wiki page`_ to access the latest Vagrant
+See the `Open edX Releases Wiki page`_ to access the latest Vagrant
 boxes.
 
 See `BitTorrent`_ for more information.

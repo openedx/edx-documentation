@@ -1,4 +1,4 @@
-.. _Open edX Named Releases Wiki page: https://openedx.atlassian.net/wiki/display/DOC/Named+Releases
+.. _Open edX Releases Wiki page: https://openedx.atlassian.net/wiki/display/DOC/Open+edX+Releases
 
 .. _YouTube Data API v3: https://developers.google.com/youtube/v3/
 .. _instructions for obtaining authorization credentials: https://developers.google.com/youtube/registering_an_application
