@@ -588,9 +588,6 @@ Understanding the Proctored Session Results File
 The .CSV file that you can download to view the status and results of
 learners' proctoring sessions contains the following fields.
 
-.. Chris Are these columns in the report finalized? I think you mentioned that some of these might be removed.
-
-.. Chris Questions marks in the table indicate where I'm not sure of some column descriptions. 
 
 .. list-table::
    :widths: 30 55
@@ -598,38 +595,26 @@ learners' proctoring sessions contains the following fields.
 
    * - Column
      - Description
-   * - Created
-     - The date and time that the learner agreed to take the exam as proctored
-       and was assigned an exam code
-   * - Modified
-     - ?
-   * - Started At
-     - The date and time that the learner started to take the proctored exam.
-   * - Exam Name
-     - The name of the proctored exam in the courseware.
    * - User/Email
      - The username or email address that identifies the learner taking the
        proctored exam.
+   * - Exam Name
+     - The name of the proctored exam in the courseware.
+   * - Allowed Time
+     - The amount of time in minutes that this learner was allotted for 
+       completing the exam.
+   * - Is Sample Attempt  
+     - Indicates whether this exam attempt was for a practice exam.
+   * - Started At
+     - The date and time that the learner started to take the proctored exam.
    * - Completed At
      - The date and time that the learner completed the proctored exam.
-   * - External ID
-     - ?
-   * - Allowed Time
-     - The time in hours and minutes (?) that this learner was allowed to
-       complete the exam.
    * - Status
      - The status of the proctoring session review. Possible values are
        ``created``, ``ready to start``, ``started``, ``timed out``,
        ``completed``, ``submitted``, ``verified``, ``rejected``, and
        ``error``. For an explanation of each status, see the table below.
-   * - Attempt Code   
-     - The unique code that was assigned to this learner for the proctored exam.
-   * - Is Sample Attempt  
-     - Indicates whether this exam attempt was for a practice exam.
-   * - Last Poll Time
-     - ?
-   * - Last Poll IP Address
-     - ?    
+  
 
 The following table describes the possible values in the Status column.
 
