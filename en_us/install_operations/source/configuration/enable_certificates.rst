@@ -43,6 +43,10 @@ Enable Certificates in Studio and the Learning Management System
 
 #. Save the ``/cms/envs/common.py`` and ``/lms/envs/common.py`` files.
 
+#. If it does not exist already, create the folder ``/tmp/certificates`` owned by
+   the user and group ``www-data``. Depending on your configuration, this folder 
+   might not survive reboots, and so might need to be created by script.
+
 #. Run database migrations.
 
 
@@ -171,12 +175,18 @@ for eligible learners.
 #. Run ``manage.py`` with the following settings, replacing ``{CourseID}``
    with the actual course ID. Do not include beginning or trailing slashes.
 
-   ``/manage.py lms --settings=aws ungenerated_certs -c {CourseID}``
+   ``./manage.py lms --settings=aws ungenerated_certs -c {CourseID}``
 
    For example, 
 
-   ``/manage.py lms --settings=aws ungenerated_certs -c course-v1:edX+demoX_Demo_2015``.
+   ``./manage.py lms --settings=aws ungenerated_certs -c course-v1:edX+demoX_Demo_2015``.
+   
+   .. Note:: 
+     If the LMS is running on a server that does not have https support 
+     (such as a locally run fullstack for testing) you will need to use the ``--insecure``
+     flag so that the certificate generation service contacts the lms on http instead of
+     https.
 
 3. View the certificate generation status for a course using ``gen_cert_report``. For example,
 
-   ``/manage.py lms --settings=aws gen_cert_report -c course-v1:edX+demoX_Demo_2015``.
+   ``./manage.py lms --settings=aws gen_cert_report -c course-v1:edX+demoX_Demo_2015``.
