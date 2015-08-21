@@ -83,15 +83,15 @@ problem, follow these steps.
    Component** select **Problem**.
 #. Select one of the two numerical input problem templates.
    
-  * From the list of **Common Problem Types**, select **Numerical Input**. 
+   * From the list of **Common Problem Types**, select **Numerical Input**. 
    
-  * From the list of **Common Problems with Hints and Feedback**, select
-    **Numerical Input with Hints and Feedback**. For more information, see `Use
-    Feedback in a Numerical Input Problems`_.
+   * From the list of **Common Problems with Hints and Feedback**, select
+     **Numerical Input with Hints and Feedback**. For more information, see
+     `Use Feedback in a Numerical Input Problems`_.
 
     Studio adds the problem to the unit.
 
-3. Select **Edit**. The Simple Editor opens. 
+#. Select **Edit**. The Simple Editor opens. 
 #. Replace the sample problem text with your own text.
 #. Determine the text that describes the question you want learners to answer,
    and surround that text with two pairs of angle brackets (``>>question<<``).
@@ -102,7 +102,7 @@ problem, follow these steps.
    next to the answer.
 #. Optionally, specify a margin of error, or tolerance. You can specify a
    percentage, number, or range.
-
+   
    * To specify a percentage on either side of the correct answer, after the
      answer add **+-{number}%**. For example, to include a 2% tolerance, add
      **+-2%**.
@@ -201,7 +201,7 @@ Editor.
 .. _Use Feedback in a Numerical Input Problems:
 
 ********************************************
-Use Feedback in a Numerical Input Problems
+Using Feedback in a Numerical Input Problems
 ********************************************
 
 You can add feedback in a numerical input problem using the simple editor
@@ -330,7 +330,7 @@ For example, the following feedback is configured to use a custom label.
 .. _Use Hints in a Numerical Input Problem:
 
 ********************************************
-Use Hints in a Numerical Input Problem
+Using Hints in a Numerical Input Problem
 ********************************************
 
 You can use hints in a numerical input problem, using the simple editor
@@ -340,9 +340,9 @@ or the advanced editor. For an overview of hints in problems, see
 .. include:: ../../../shared/exercises_tools/Subsection_configure_hints.rst
 
 
-**************************************************
-Award Partial Credit in a Numerical Input Problem
-**************************************************
+*****************************************************
+Awarding Partial Credit in a Numerical Input Problem
+*****************************************************
 
 You can configure a numerical input problem to have partial credit awarded to
 learners who submit an answer that is close or related to the correct answer.
@@ -366,9 +366,11 @@ There are two ways to award partial credit in a numerical input problem.
   :local:
   :depth: 1
 
-======================
-Close Answers
-======================
+.. Note:: You can use these ways of awarding partial credit in combination.
+
+==========================
+Identifying Close Answers
+==========================
 
 You can configure a numerical input problem so that answers that are close to
 the correct answer receive partial credit.
@@ -379,9 +381,9 @@ multiplied by 2 and the following rules are applied.
 
 * An answer within the tolerance receives 100% of the points for the problem.
 
-* An answer within 2x the tolerance receives 50%.
+* An answer within or equal to 2x of the tolerance receives 50%.
 
-* An answer more than 2x outside of the tolerance receives 0%.
+* An answer more than 2x the outside of the tolerance receives 0%.
 
 You can optionally specify a different multiplier for the tolerance. For
 example, you could set the multiplier to 3. In this case, the following rules
@@ -389,12 +391,12 @@ are applied.
 
 * An answer within the tolerance receives 100% of the points for the problem.
 
-* An answer within 3x the tolerance receives 50%.
+* An answer within or equal to 3x of the tolerance receives 50%.
 
 * An answer more than 3x outside of the tolerance receives 0%.
 
-Configure an Close Numerical Input Problem
-*******************************************
+Configure Close Answers for a Numerical Input Problem
+******************************************************
 
 To configure a numerical input problem to award partial credit for close
 answers, you add the following attributes to the problem XML.
@@ -404,7 +406,7 @@ answers, you add the following attributes to the problem XML.
 
 * Optionally, add the ``partial_range`` attribute to the ``<responseparam>``
   element and set its value to the tolerance multiplier. If you do not set the
-  ``partial_range`` element, 2 is used as the tolerance multiplier.
+  ``partial_range`` attribute, 2 is used as the tolerance multiplier.
 
 For example, the following XML shows the numerical problem template
 updated to provide partial credit for close answers.
@@ -417,9 +419,9 @@ updated to provide partial credit for close answers.
     <responseparam type="tolerance" default="1%" partial_range="3"/>
   </numericalresponse>
 
-==================
-Answers in a List
-==================
+=============================================
+Awarding Partial Credit for Answers in a List
+=============================================
 
 For some numerical input problems, mistakes do not get a learner close to the
 right answer. For example, a small mistake can lead to negative instead of
@@ -427,8 +429,8 @@ positive results, or to an answer that is off by a square root or numerical
 factor.
 
 For these types of problems, you can configure a list of wrong answers that
-receive partial credit. Learners who submit answers in the list receive 50% of
-the problem's points.
+receive partial credit. Learners who submit answers that are on the list
+receive 50% of the problem's points.
 
 
 Configure a List for a Numerical Input Problem
@@ -437,7 +439,7 @@ Configure a List for a Numerical Input Problem
 To configure a numerical input problem to award partial credit for answers in a
 list, you add the following attributes to the problem XML.
 
-* Add the ``"partial_credit="list"`` attribute to the
+* Add the ``partial_credit="list"`` attribute to the
   ``<numericalresponse>`` element. 
 
 * Add the ``partial_answers`` attribute to the ``<responseparam>`` element. Set
@@ -447,14 +449,12 @@ list, you add the following attributes to the problem XML.
 For example, the following XML shows the numerical problem template
 updated to provide partial credit for a different answer.
 
-
 .. code-block:: xml
 
-  <numericalresponse answer="93*10^6" partial_credit="list">
+  <numericalresponse answer="93*10^7" partial_credit="list">
     <formulaequationinput label="How many miles away from Earth is the sun? 
       Use scientific notation to answer." />
-    <responseparam type="tolerance" default="100000" 
-      partial_answers="150*10^6"/>
+    <responseparam partial_answers="150*10^6"/>
   </numericalresponse>
 
 .. _Numerical Input Problem XML:
@@ -578,7 +578,7 @@ Tags
 * ``<correcthint>`` (optional): Specifies feedback for the correct answer.
 
 * ``<responseparam>`` (optional): Specifies a tolerance, or margin of error,
-  for an answer.
+  for an answer. Also specifies a partial credit tolerance multiplier.
 
 * ``<script>`` (optional)
 
@@ -605,7 +605,7 @@ the ``<numericalresponse>`` tag does not allow unspecified variables.
        - The correct answer to the problem, given as a mathematical
          expression.
      * - partial_credit (optional)
-       - Specifies the type of partial credit given. ``Close`` or ``List``.
+       - Specifies the type of partial credit given. ``close`` or ``list``.
 
   .. note:: If you include a variable name preceded with a dollar sign 
    ($) in the problem, you can include a script in the problem that computes
@@ -661,11 +661,11 @@ Specifies a tolerance, or margin of error, for an answer.
      * - default (optional)
        - A number or a percentage specifying a numerical or percent tolerance.
      * - partial_range (optional)
-       - For partial credit problems, a multiplier for the tolerance. Default
-         is 2.
+       - For partial credit problems of type close, a multiplier for the
+         tolerance. Default is 2.
      * - partial_answers (optional)
-       - For partial credit problems, a comma-separated list of values that are
-         to receive 50% credit.
+       - For partial credit problems of type list, a comma-separated list of
+         values that are to receive 50% credit.
 
   Children
   

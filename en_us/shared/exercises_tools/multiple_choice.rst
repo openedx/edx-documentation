@@ -33,16 +33,6 @@ For the multiple choice problems in your course, you can use edX Insights to
 review aggregated learner performance data and examine the submitted answers.
 For more information, see `Using edX Insights`_.
 
-****************************************
-Creating a Multiple Choice Problem
-****************************************
-
-You can create multiple choice problems in the Simple Editor or in the
-Advanced Editor. You can set up a problem in the Simple Editor, and then
-switch to the Advanced Editor to add more configuration options in XML.
-However, you cannot switch back to the Simple Editor from the Advanced Editor.
-Therefore, you might want to format the problem as completely as possible
-before you begin to use the Advanced Editor.
 
 ********************************************************
 Pedagogical Considerations for Multiple Choice Questions
@@ -83,6 +73,17 @@ questions:
 * Use "All of the above" and "None of the above" with caution. If a 
    learner can identify at least two correct answers, it can give away
    the answer with only partial comprehension. 
+
+****************************************
+Creating a Multiple Choice Problem
+****************************************
+
+You can create multiple choice problems in the Simple Editor or in the
+Advanced Editor. You can set up a problem in the Simple Editor, and then
+switch to the Advanced Editor to add more configuration options in XML.
+However, you cannot switch back to the Simple Editor from the Advanced Editor.
+Therefore, you might want to format the problem as completely as possible
+before you begin to use the Advanced Editor.
 
 .. _Use the Simple Editor to Create a Multiple Choice Problem:
 
@@ -198,7 +199,7 @@ problem, follow these steps.
 .. _Use Feedback in a Multiple Choice Problem:
 
 ********************************************
-Use Feedback in a Multiple Choice Problem
+Using Feedback in a Multiple Choice Problem
 ********************************************
 
 You can add feedback in a multiple choice problem using the simple editor
@@ -368,7 +369,7 @@ For example, the following feedback is configured to use a custom label.
 .. _Use Hints in a Multiple Choice Problem:
 
 ********************************************
-Use Hints in a Multiple Choice Problem
+Using Hints in a Multiple Choice Problem
 ********************************************
 
 You can add hints in a multiple choice problem, using the simple editor
@@ -377,14 +378,14 @@ or the advanced editor. For an overview of hints in problems, see
 
 .. include:: ../../../shared/exercises_tools/Subsection_configure_hints.rst
 
-*************************************************
-Award Partial Credit in a Multiple Choice Problem
-*************************************************
+****************************************************
+Awarding Partial Credit in a Multiple Choice Problem
+****************************************************
 
-You can configure a multiple problem so that specific incorrect answers award
-learners partial credit for the problem. You must use the `Advanced Editor <Use
-the Advanced Editor to Edit a Multiple Choice Problem>`_ to configure partial
-credit.
+You can configure a multiple choice problem so that specific incorrect answers
+award learners partial credit for the problem. You must use the `Advanced
+Editor <Use the Advanced Editor to Edit a Multiple Choice Problem>`_ to
+configure partial credit.
 
 In the following example, the learner selected a wrong answer and received
 partial credit.
@@ -396,7 +397,7 @@ partial credit.
 
 You can specify what percentage of the points for the problem a learner
 receives for an incorrect answer. If you do not specify the percentage, the
-default 50% is used.
+default of 50% is used.
 
 For an overview of partial credit in problems, see
 :ref:`Awarding Partial Credit for a Problem`.
@@ -414,11 +415,13 @@ answer, you add the following attributes to the problem XML.
 * For each answer that you intend to award partial credit, add the
   ``correct="partial"`` attribute to the ``<choice>`` element. 
 
-* Optionally, for the answer that you intend to award partial credit, add the
-  percentage of the problem, as a decimal, in the ``point_value`` attribute for
-  the ``<choice>`` element. For example, you can add ``point_value="0.25"``
-  to award 25% of the points to learners who select that answer. If you do not
-  add the ``point_value`` attribute, 50% is used.
+* Optionally, you can define the percentage of the problem score to award for
+  each answer. In the ``point_values`` attribute for the ``<choice>`` element,
+  enter the value as a decimal. For example, you can add ``point_value="0.25"``
+  to award 25% of the points to learners who select that answer. The percentage
+  awarded should reflect how close the learner has gotten to a full
+  understanding of the problem.If you do not add the ``point_value`` attribute,
+  50% is used.
 
 For example, the following XML shows the multiple choice problem template
 updated to provide partial credit for the first answer.
@@ -506,9 +509,8 @@ Indicates that the problem is a multiple choice problem.
      * - Attribute
        - Description
      * - partial_credit (optional)
-       - Specifies that the problem can award partial credit.
-     * - type (required)
-       - If used, must be set to "points".
+       - Specifies that the problem can award partial credit. If used, must be
+         set to "points".
 
   (none)
 
@@ -551,18 +553,23 @@ Lists an answer option.
      * - Attribute
        - Description
      * - correct (at least one required)
-       - Indicates a correct, incorrect, or partially correct answer. When the
-         attribute is set to "true", the choice is a correct answer. When the
-         attribute is set to "false", the choice is an incorrect answer. When set to "partial", the learner receives partial credit for selecting the answer.You
-         can specify more than one correct answer, but learners can select only
-         once choice to submit as their answer.
+       - Indicates a correct, incorrect, or partially correct answer. 
+         
+         * When this set to "true", the choice is a correct answer. 
+         * When set to "false", the choice is an incorrect answer. 
+         * When set to "partial", the learner receives partial credit for
+           selecting the answer.
+         
+         You can specify more than one correct answer, but learners can select
+         only once choice to submit as their answer.
+     
      * - point_value
-       - When "correct=partial", indicates the percentage, as a decimal, of the
-         points the learner receives for selecting this option. If
+       - When correct="partial", indicates the percentage, as a decimal, of
+         the points the learner receives for selecting this option. If
          "point_value" is not specified for a partial credit answer, 50% is
          used by default.
      * - name
-       - A unique name that the back end uses to refer to the choice.
+       - A unique name that is used interanlly to refer to the choice.
 
   Children
   

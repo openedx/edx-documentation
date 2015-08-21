@@ -32,7 +32,7 @@ aggregated learner performance data and examine submitted answers. For
 more information, see `Using edX Insights`_.
 
 ********************************
-Create a Dropdown Problem
+Creating a Dropdown Problem
 ********************************
 
 You can create dropdown problems in the Simple Editor or in the Advanced
@@ -55,15 +55,15 @@ follow these steps.
    Component** select **Problem**.
 #. Select one of the two dropdown problem templates.
    
-  * From the list of **Common Problem Types**, select **Dropdown**. 
+   * From the list of **Common Problem Types**, select **Dropdown**. 
    
-  * From the list of **Common Problems with Hints and Feedback**, select
-    **Dropdown with Hints and Feedback**. For more information, see `Use
-    Feedback in a Dropdown Problem`_.
+   * From the list of **Common Problems with Hints and Feedback**, select
+     **Dropdown with Hints and Feedback**. For more information, see `Use
+     Feedback in a Dropdown Problem`_.
 
-    Studio adds the problem to the unit.
+     Studio adds the problem to the unit.
 
-3. Select **Edit**. The Simple Editor opens. 
+4. Select **Edit**. The Simple Editor opens. 
 #. Replace the sample problem text with your own text.
 #. Determine the text that describes the question you want learners to answer,
    and surround that text with two pairs of angle brackets (``>>question<<``).
@@ -140,7 +140,7 @@ To use the Advanced Editor to edit a dropdown problem, follow these steps.
 .. _Use Feedback in a Dropdown Problem:
 
 ********************************************
-Use Feedback in a Dropdown Problem
+Using Feedback in a Dropdown Problem
 ********************************************
 
 You can add feedback in a dropdown problem using the simple editor
@@ -321,7 +321,7 @@ For example, the following feedback is configured to use a custom label.
 .. _Use Hints in a Dropdown Problem:
 
 ********************************************
-Use Hints in a Dropdown Problem
+Using Hints in a Dropdown Problem
 ********************************************
 
 You can use hints in a dropdown problem, using the simple editor
@@ -332,7 +332,7 @@ or the advanced editor. For an overview of hints in problems, see
 
 
 *************************************************
-Award Partial Credit in a Dropdown Problem
+Awarding Partial Credit in a Dropdown Problem
 *************************************************
 
 You can configure a dropdown problem so that specific incorrect answers award
@@ -349,7 +349,7 @@ partial credit.
 
 You can specify what percentage of the points for the problem a learner
 receives for an incorrect answer. If you do not specify the percentage, the
-default 50% is used.
+default score of 50% is used.
 
 For an overview of partial credit in problems, see
 :ref:`Awarding Partial Credit for a Problem`.
@@ -364,7 +364,7 @@ answer, you add the following attributes to the problem XML.
 * Add the ``partial_credit="points"`` attribute to the
   ``<optionresponse>`` element.
 
-* Add the ``partial`` attribute to the ``<optioninput>`` element. Add each
+* Add the ``partial`` attribute to the ``<optioninput>`` element. Include each
   answer that you intend to award partial credit as a value for the ``partial``
   attribute. Separate multiple values with a comma (,). For example,
   ``partial="China, Spain"`` indicates that two answers receive partial credit.
@@ -373,21 +373,22 @@ answer, you add the following attributes to the problem XML.
     Each value of the ``partial`` attribute must match a value in the
     ``options`` attribute for the problem.
 
-* Optionally, for each answer that you intend to award partial credit, add the
-  percentage of the problem, as a decimal, in the ``point_values`` attribute
-  for the ``<optioninput>`` element. Separate multiple values with a comma
-  (,). 
+* Optionally, you can define the percentage of the problem score to award for
+  each answer. In the ``point_values`` attribute for the
+  ``<optioninput>`` element, enter each value as a decimal. Separate multiple
+  values with a comma (,).
 
   The percentage value is used for the answer in the same position in the
   ``partial`` attribute. 
 
   For example, if you added ``partial="China, Spain"`` and
-  y``point_value="0.25, 0.75"`` then the answer "China" earns 25% of the
-  points, and "Spain" earns 75% of the points. If you do not add the
+  ``point_value="0.25, 0.5"`` then the answer "China" earns 25% of the
+  points, and "Spain" earns 50% of the points. If you do not add the
   ``point_values`` attribute, 50% is used for all partial credit answers.
 
 For example, the following XML shows the dropdown problem template updated to
-provide partial 20% of the problem's points for learners who answer "China".
+provide partial credit of 20% of the problem's points for learners who answer
+"China".
 
 .. code-block:: xml
 
@@ -468,9 +469,8 @@ Indicates that the problem is a dropdown problem.
      * - Attribute
        - Description
      * - partial_credit (optional)
-       - Specifies that the problem can award partial credit.
-     * - type (required)
-       - If used, must be set to "points".
+       - Specifies that the problem can award partial credit. If used, value
+         must be ``points``.
 
 
   Children
@@ -492,8 +492,9 @@ Lists the answer options.
        - Indicates whether an answer is correct. Possible values are "true"
          and "false". Only one **correct** attribute can be set to "true".
      * - partial (optional)
-       - Indicates whether an answer receives partial credit. 
-     * - point_value
+       - Indicates whether an answer receives partial credit. If used, value is
+         a comma separated list of answers that receive partial credit.
+     * - point_value (optional)
        - When there are one or more partial answers, indicates the percentage,
          as a decimal, of the points the learner receives for selecting those
          option. If "point_value" is not specified for a partial credit answer,
