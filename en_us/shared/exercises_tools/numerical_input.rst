@@ -401,8 +401,9 @@ Configure Close Answers for a Numerical Input Problem
 To configure a numerical input problem to award partial credit for close
 answers, you add the following attributes to the problem XML.
 
-* Add the ``"partial_credit="close"`` attribute to the
-  ``<numericalresponse>`` element. 
+* Add the ``"partial_credit="close"`` attribute to the ``<numericalresponse>``
+  element. If you are using close answers in combination with a list, set the
+  attribute to ``partial_credit="close,list"``.
 
 * Optionally, add the ``partial_range`` attribute to the ``<responseparam>``
   element and set its value to the tolerance multiplier. If you do not set the
@@ -439,8 +440,9 @@ Configure a List for a Numerical Input Problem
 To configure a numerical input problem to award partial credit for answers in a
 list, you add the following attributes to the problem XML.
 
-* Add the ``partial_credit="list"`` attribute to the
-  ``<numericalresponse>`` element. 
+* Add the ``partial_credit="list"`` attribute to the ``<numericalresponse>``
+  element. If you are a list in combination with close answers, set the
+  attribute to ``partial_credit="close,list"``.
 
 * Add the ``partial_answers`` attribute to the ``<responseparam>`` element. Set
   its value to one or more answers that should earn 50% of the problem's
@@ -605,7 +607,8 @@ the ``<numericalresponse>`` tag does not allow unspecified variables.
        - The correct answer to the problem, given as a mathematical
          expression.
      * - partial_credit (optional)
-       - Specifies the type of partial credit given. ``close`` or ``list``.
+       - Specifies the type of partial credit given. ``close``, ``list``, or a
+         combination of both in any order separated by a comma (,).
 
   .. note:: If you include a variable name preceded with a dollar sign 
    ($) in the problem, you can include a script in the problem that computes
