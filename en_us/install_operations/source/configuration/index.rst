@@ -20,5 +20,6 @@ configuration options.
    enable_badging
    enable_ccx
    tpa/index
+   lti/index
    youtube_api
    ora2_uploads
