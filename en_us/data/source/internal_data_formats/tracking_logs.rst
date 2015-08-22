@@ -3243,10 +3243,10 @@ This section includes descriptions of the following events.
 * ``openassessmentblock.peer_assess`` 
 * ``openassessmentblock.self_assess``
 * ``openassessmentblock.submit_feedback_on_assessments``
-* ``openassessment.create_submission``
-* ``openassessment.save_submission``
-* ``openassessment.student_training_assess_example``
-* ``openassessment.upload_file``
+* ``openassessmentblock.create_submission``
+* ``openassessmentblock.save_submission``
+* ``openassessmentblock.student_training_assess_example``
+* ``openassessmentblock.upload_file``
 
 In an open response assessment, students review a question and then submit a
 text response and, optionally, an image file. To evaluate their own and one or
@@ -3390,7 +3390,7 @@ other feedback about the assessment process.
      - string
      - The unique identifier of the feedback.
 
-``openassessment.create_submission``
+``openassessmentblock.create_submission``
 *************************************
 
 The server emits this event when a student submits a response. The same event
@@ -3433,7 +3433,7 @@ assessment.
      - string
      - The unique identifier of the response.
 
-``openassessment.save_submission``
+``openassessmentblock.save_submission``
 ***********************************
 
 The server emits this event when a student saves a response. Students
@@ -3462,7 +3462,7 @@ save responses before they submit them for assessment.
        service.
 
 
-``openassessment.student_training_assess_example``
+``openassessmentblock.student_training_assess_example``
 ******************************************************************
 
 The server emits this event when a student submits an assessment for an
@@ -3499,7 +3499,7 @@ scored differently than the course team.
      - The unique identifier of the response. Identifies the student who
        is undergoing training.
 
-``openassessment.upload_file``
+``openassessmentblock.upload_file``
 *********************************
 
 The browser emits this event when a student successfully uploads an image file
