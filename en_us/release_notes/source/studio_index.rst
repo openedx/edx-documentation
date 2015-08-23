@@ -1,4 +1,4 @@
-2.. _Studio Index:
+.. _Studio Index:
 
 ####################################
 EdX Studio
@@ -9,6 +9,12 @@ The following information describes what is new in edX Studio.
 .. contents::
   :local:
   :depth: 2
+
+**************************
+19 August 2015
+**************************
+
+.. include:: 2015/studio/studio_0818_2015.rst
 
 **************************
 12 August 2015

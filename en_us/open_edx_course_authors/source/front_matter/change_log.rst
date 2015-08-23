@@ -12,6 +12,10 @@ August 2015
 
    * - Date
      - Change
+   * - 17 August 2015
+     - Updated the :ref:`Discussions` section with information about discussion
+       administration options that are not yet available in the edX mobile
+       apps.
    * - 12 August 2015
      - Added the :ref:`Qualtrics Survey` topic.
 

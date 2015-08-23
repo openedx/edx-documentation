@@ -37,7 +37,10 @@ Selecting a Certificate Type
 
 Different types of certificates might be available for courses you take: for
 example, "honor code" or "verified". You select the certificate type you want
-when you register for a course.
+when you enroll in a course.
+
+For more information about enrolling in a course, see :ref:`SFD Enrolling in a
+Course`.
 
 Honor code and verified certificates show that you have completed a single honor
 code or verified course. 
@@ -51,9 +54,10 @@ your dashboard:
    courses
 
 
-.. note:: A very small number of courses do not offer certificates. These courses 
-  have the same rigorous material as other edX courses. If you want evidence that 
-  you completed the course, you can print a copy of the **Progress** page in the course.
+
+.. note:: Some courses might not offer certificates. If you want evidence that
+  you completed the course, you can print a copy of the **Progress** page in
+  the course.
 
 
 =========================
@@ -94,14 +98,11 @@ Verified certificates are usually available for a fee that varies by course.
 For more information about the fee for a particular course, see the About page
 for that course.
 
-When you register for a verified course, you use a webcam to submit a photo of
+When you enroll in a verified course, you use a webcam to submit a photo of
 yourself and of an official ID to the platform's secure authorization service.
 During the course, you may be asked to use the same method to re-verify your
 identity periodically. If your computer does not have a webcam, you must
 register for the verified certificate on a computer that has a webcam.
-
-.. For more information about registering for a verified certificate and paying
-.. the fee, see :ref:`SFD_registration`. (this topic not written yet)
 
 
 ****************************
@@ -143,8 +144,10 @@ Certificates are distributed shortly after a course ends; usually within two
 weeks. After the course ends, you will see the following message under the
 course name on your dashboard:
 
-``Final course details are being wrapped up at this time. Your final standing
-will be available shortly.``
+::
+
+  Final course details are being wrapped up at this time. Your final standing
+  will be available shortly.
 
 When your certificate is ready, your dashboard will show you your final grade
 for the class as well as a link to your certificate.
@@ -236,6 +239,18 @@ have qualified for the certificate, follow these steps.
 
    * To access your certificate from your dashboard, select **View
      Certificate** next to the name of your course.
+
+
+Update Your Certificate
+========================
+
+If you want to update the certificate from your self-paced course with a
+different name or an improved grade, click **Update Certificate** on either
+your **Progress** page or your dashboard to request and download a new
+certificate. If you want to change the name on the certificate, make sure that
+you change your full name on the **Account Settings** page before you request
+the new certificate.
+
 
 .. _Sharing Your Certificate:
 
