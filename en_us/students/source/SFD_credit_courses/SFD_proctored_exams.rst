@@ -30,7 +30,7 @@ cheating or using a false identity. Your course might require you to take
 and pass at least one proctored exam to be eligible to purchase academic
 credit.
 
-Proctored exams are indicated with an alarm clock icon in the courseware.
+Proctored exams are indicated with a lock icon in the courseware.
 
 .. image:: /Images/Proctoring_AlarmClockIcon.png
  :width: 200
