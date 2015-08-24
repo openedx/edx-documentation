@@ -4,15 +4,12 @@
 Write-Your-Own-Grader Problem
 ##############################
 
-This chapter provides information about writing your own grader directly in a
-problem component. See the following sections for more information.
+This section provides information about writing your own grader directly in a
+problem component.
 
-* `Overview`_
-* `Create a Custom Python-Evaluated Input Problem Studio`_
-* `Script Tag Format`_
-* `Answer Tag Format`_
-* `Providing Partial Credit for Custom Python-Evaluated Input Problems`_
-* `Create a Randomized Custom Python-Evaluated Input Problem`_
+.. contents::
+   :local:
+   :depth: 1
 
 **********
 Overview
@@ -25,12 +22,13 @@ be any type. Numerical input and text input problems are the most common
 write-your-own-grader problems.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/CustomPythonExample.png
- :alt: Image of a write your own grader problem
+ :alt: An image of a write-your-own-grader problem.
 
 You can create a Python-evaluated input problem in :ref:`answer tag format
 <Answer Tag Format>` or :ref:`script tag format <Script Tag Format>`.
 
-Custom Python-evaluated input problems can include the following:
+Custom Python-evaluated input problems can include the following advanced
+problem types.
 
 * :ref:`Chemical Equation`
 * :ref:`Custom JavaScript`
@@ -42,17 +40,16 @@ Custom Python-evaluated input problems can include the following:
 Create a Custom Python-Evaluated Input Problem Studio
 *****************************************************
 
-#. In the unit where you want to create the problem, click **Problem** under
-   **Add New Component**, and then click the **Advanced** tab.
+#. In the unit where you want to create the problem, select **Problem** under
+   **Add New Component**, and then select the **Advanced** tab.
 
-#. Click **Custom Python-Evaluated Input**.
+#. Select **Custom Python-Evaluated Input**.
 
-#. In the component that appears, click **Edit**.
+#. In the component that appears, select **Edit**.
 
-#. In the component editor, edit the problem in :ref:`answer tag format <Answer
-   Tag Format>` or :ref:`script tag format <Script Tag Format>`.
+#. In the component editor, edit the problem in `answer tag format`_ or `script tag format`_.
 
-#. Click **Save**.
+#. Select **Save**.
 
 .. _Script Tag Format:
 
@@ -62,9 +59,75 @@ Script Tag Format
 
 The script tag format encloses a Python script that contains a "check function"
 in a ``<script>`` tag, and adds the ``cfn`` attribute of the
-``<customresponse>`` tag to reference that function. In the following example,
-``<customresponse>`` tags reference the ``test_add_to_ten`` and ``test_add``
-functions that are in the ``<script>`` tag.
+``<customresponse>`` tag to reference that function. 
+
+This section contains the following information about using the ``<script>``
+tag.
+
+.. contents::
+   :local:
+   :depth: 1
+
+===================
+The check Function
+===================
+
+The ``check`` function in a ``<script>`` tag accepts two arguments.
+
+* ``expect`` is the value of the ``expect`` attribute of ``<customresponse>``.
+  If ``expect`` is not provided as an argument, the function must have another
+  way to determine if the answer is correct.
+
+* ``answer`` is either:
+
+    * The value of the answer the learner provided, if the problem only has one
+      response field.
+    
+    * An ordered list of answers the learner provided, if the problem has
+      multiple response fields.
+
+The ``check`` function can return any of the following value to indicate
+whether the learner's answer is correct:
+
+* ``True``: Indicates that the learner answered correctly for all response
+  fields.
+
+* ``False``: Indicates that the learner answered incorrectly. All response
+  fields are marked as incorrect.
+
+* ``Partial``: Indicates that the learner answer partially correctly. The
+  learner receives 50% of the points for the problem. See `Provide Half
+  Credit`_.
+
+* A dictionary of the form: ``{ 'ok': True, 'msg': 'Message' }`` If the
+  dictionary's value for ``ok`` is set to ``True``, all response fields are
+  marked correct. If it is set to ``False``, all response fields are marked
+  incorrect. If it is set to ``Partial``, the learner receives 50% of the
+  problem points. The ``msg`` is displayed below all response fields, and it
+  can contain XHTML markup. 
+
+* A dictionary of the form 
+
+  .. code-block:: xml     
+    
+    { 'overall_message': 'Overall message',
+        'input_list': [
+            { 'ok': True, 'msg': 'Feedback for input 1'},
+            { 'ok': False, 'msg': 'Feedback for input 2'},
+            { 'ok': Partial, 'msg': 'Feedback for input 3'}
+            ... ] }
+
+The last form is useful for responses that contain multiple response fields. It
+allows you to provide feedback for each response field individually, as well as
+a message that applies to the entire response.
+
+===========================
+Example with the Script Tag
+===========================
+
+In the following example, ``<customresponse>`` tags reference the
+``test_add_to_ten`` and ``test_add`` functions that are in the ``<script>``
+tag.
 
 .. code-block:: xml
 
@@ -109,78 +172,19 @@ functions that are in the ``<script>`` tag.
 
   </problem>
 
-**Important**: Python honors indentation. Within the ``<script>`` tag, the
-``def check_func(expect, ans):`` line must have no indentation.
+.. Important:: 
+ Python honors indentation. Within the ``<script>`` tag, the ``def
+ check_func(expect, ans):`` line must have no indentation.
 
-The following table explains the important attributes and values in the
-preceding example.
+====================================================
+Example of the Check Function Returning a Dictionary
+====================================================
 
-.. list-table::
-   :widths: 20 80
-
-   * - ``<script type="loncapa/python">``
-     - Indicates that the problem contains a Python script.
-   * - ``<customresponse cfn="test_add_to_ten">``
-     - Indicates that the function ``test_add_to_ten`` is called when the
-       student checks the answers for this problem.
-   * - ``<customresponse cfn="test_add" expect="20">``
-     - Indicates that the function ``test_add`` is called when the student
-       checks the answers for this problem and that the expected answer is
-       ``20``.
-   * - <textline size="10" correct_answer="3"/>
-     - This tag includes the ``size``, ``correct_answer``, and ``label``
-       attributes. The ``correct_answer`` attribute is optional.
-
-The **check** function accepts two arguments:
-
-* ``expect`` is the value of the ``expect`` attribute of ``<customresponse>``.
-  If ``expect`` is not provided as an argument, the function must have another
-  way to determine if the answer is correct.
-
-* ``answer`` is either:
-
-    * The value of the answer the student provided, if the problem only has one
-      response field.
-    
-    * An ordered list of answers the student provided, if the problem has
-      multiple response fields.
-
-The **check** function can return any of the following to indicate whether the
-student's answer is correct:
-
-* ``True``: Indicates that the student answered correctly for all response
-  fields.
-
-* ``False``: Indicates that the student answered incorrectly. All response
-  fields are marked as incorrect.
-
-* A dictionary of the form: ``{ 'ok': True, 'msg': 'Message' }`` If the
-  dictionary's value for ``ok`` is set to ``True``, all response fields are
-  marked correct. If it is set to ``False``, all response fields are marked
-  incorrect. The ``msg`` is displayed below all response fields, and it may
-  contain XHTML markup. For information about providing partial credit for
-  learners' answers, see `Providing Partial Credit for Custom Python-Evaluated
-  Input Problems`_.
-
-* A dictionary of the form 
-
-  .. code-block:: xml     
-    
-    { 'overall_message': 'Overall message',
-        'input_list': [
-            { 'ok': True, 'msg': 'Feedback for input 1'},
-            { 'ok': False, 'msg': 'Feedback for input 2'},
-            ... ] }
-
-The last form is useful for responses that contain multiple response fields. It
-allows you to provide feedback for each response field individually, as well as
-a message that applies to the entire response.
-
-The following example shows another checking function.
+ The following example shows a ``check`` function that returns a dictionary.
 
 .. code-block:: python
 
-    def check_func(expect, answer_given):
+    def check(expect, answer_given):
         check1 = (int(answer_given[0]) == 1)
         check2 = (int(answer_given[1]) == 2)
         check3 = (int(answer_given[2]) == 3)
@@ -195,6 +199,30 @@ the  second input, and ``3`` for the third input. It provides feedback messages
 for each individual input, as well as a message displayed below the entire
 problem.
 
+======================
+Script Tag Attributes
+======================
+
+The following table explains the important attributes and values in the
+preceding example.
+
+.. list-table::
+   :widths: 20 80
+
+   * - ``<script type="loncapa/python">``
+     - Indicates that the problem contains a Python script.
+   * - ``<customresponse cfn="test_add_to_ten">``
+     - Indicates that the function ``test_add_to_ten`` is called when the
+       learner checks the answers for this problem.
+   * - ``<customresponse cfn="test_add" expect="20">``
+     - Indicates that the function ``test_add`` is called when the learner
+       checks the answers for this problem and that the expected answer is
+       ``20``.
+   * - <textline size="10" correct_answer="3"/>
+     - This tag includes the ``size``, ``correct_answer``, and ``label``
+       attributes. The ``correct_answer`` attribute is optional.
+
+
 ========================================================================
 Create a Custom Python-Evaluated Input Problem in Script Tag Format
 ========================================================================
@@ -203,7 +231,7 @@ To create a custom Python-evaluated input problem using a ``<script>`` tag:
 
 #. In the component editor, modify the example as needed.
 
-#. Click **Save**.
+#. Select **Save**.
 
 **Problem Code**:
 
@@ -256,7 +284,7 @@ To create a custom Python-evaluated input problem using a ``<script>`` tag:
 
 **Templates**
 
-The following template includes answers that appear when the student clicks
+The following template includes answers that appear when the learner selects
 **Show Answer**.
 
 .. code-block:: xml
@@ -284,8 +312,8 @@ The following template includes answers that appear when the student clicks
       </solution>
   </problem>
 
-The following template does not return answers when the student clicks **Show
-Answer**. If your problem doesn't include answers for the student to see, make
+The following template does not return answers when the learner selects **Show
+Answer**. If your problem does not include answers for the learner to see, make
 sure to set **Show Answer** to **Never** in the problem component.
 
 .. code-block:: xml
@@ -313,104 +341,59 @@ sure to set **Show Answer** to **Never** in the problem component.
       </solution>
   </problem>
 
-.. _Answer Tag Format:
 
-**************************
-Answer Tag Format
-**************************
+====================
+Provide Half Credit
+====================
 
-The answer tag format encloses the Python script in an ``<answer>`` tag,
-instead of using a Python function with a ``<script>`` tag, as in the following
-example.
+You can configure a custom Pythyon-evaluated input problem so that learners who
+give a partially correct answer receive 50% of the points for a problem. To
+provide a learner with a more granular score, see `Provide Partial Credit by
+Returning a Percent as a Grade`_.
 
-.. code-block:: xml
+The ``check`` function must use return the value ``Partial`` in one of the
+following ways.
 
-  <answer>
-  if answers[0] == expect:
-      correct[0] = 'correct'
-      overall_message = 'Good job!'
-  else:
-      correct[0] = 'incorrect'
-      messages[0] = 'This answer is incorrect'
-      overall_message = 'Please try again'
-  </answer>
+* Return the value``Partial`` directly.
 
-.. important:: 
-  Python honors indentation. Within the ``<answer>`` tag, you must begin your
-  script with no indentation.
+* Return the value ``Partial`` in the dictionary that is returned, in the
+  following form.
+  
+  ``{ 'ok': Partial, 'msg': 'Message' }`` 
 
-The Python script interacts with these variables in the global context:
+* Return the value ``Partial`` as part of the input list for multi-part
+  problems.
 
-* ``answers``: An ordered list of answers the student provided. For example, if
-  the student answered ``6``, ``answers[0]`` would equal ``6``.
+  .. code-block:: xml     
+    
+    { 'overall_message': 'Overall message',
+        'input_list': [
+            { 'ok': True, 'msg': 'Feedback for input 1'},
+            { 'ok': False, 'msg': 'Feedback for input 2'},
+            { 'ok': Partial, 'msg': 'Feedback for input 3'}
+            ... ] }
 
-* ``expect``: The value of the ``expect`` attribute of ``<customresponse>`` (if
-  provided).
-
-* ``correct``: An ordered list of strings indicating whether the student
-  answered the question correctly.  Valid values are ``"correct"``,
-  ``"incorrect"``, and ``"unknown"``.  You can set these values in the script.
-
-* ``messages``: An ordered list of messages that appear under each response
-  field in the problem. You can use this to provide hints to users. For
-  example, if you include ``messages[0] = "The capital of California is
-  Sacramento"``, that message appears under the first response field in the
-  problem.
-
-* ``overall_message``: A message that appears below the entire problem. You
-  can use this to provide a hint that applies to the entire problem rather than
-  a particular response field.
-
-========================================================================
-Create a Custom Python-Evaluated Input Problem in Answer Tag Format
-========================================================================
-
-#. In the component editor, modify the example as to use  the``<answer>`` tag
-   instead of ``<script>``. You can copy the sample code below.
-
-#. Click **Save**.
-
-
-.. code-block:: xml
-
-    <problem>
-        <p>What is the sum of 2 and 3?</p>
-
-        <customresponse expect="5">
-        <textline math="1" />
-        </customresponse>
-
-        <answer>
-    if answers[0] == expect:
-        correct[0] = 'correct'
-        overall_message = 'Good job!'
-    else:
-        correct[0] = 'incorrect'
-        messages[0] = 'This answer is incorrect'
-        overall_message = 'Please try again'
-        </answer>
-    </problem>
-
-.. important:: 
-  Python honors indentation. Within the ``<answer>`` tag, you must begin your
-  script with no indentation.
+For more information about ``check`` function return values, see `The check
+Function`_.
 
 .. _Providing Partial Credit for Custom Python-Evaluated Input Problems:
 
-********************************************************************
-Providing Partial Credit for Custom Python-Evaluated Input Problems
-********************************************************************
+===========================================================
+Provide Partial Credit by Returning a Percent as a Grade
+===========================================================
 
-You can configure a custom Python-evaluated input problem that gives
-partial credit for learners' answers.
+You can configure a custom Python-evaluated input problem that gives partial
+credit for learners' answers by returning a percent value as a grade. This
+method provides greater flexibility in assigning the learner a score than
+`providing half credit <provide half credit>`_.
 
-The following example demonstrates a sample problem that allows partial
-credit. The learner's score equals the answer divided by 100.
+In the following example the learner's score equals the answer divided by 100.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/partial-credit-python-problem.png
- :alt: Image of a write your own grader problem that provides partial credit
+ :alt: An image of a write-your-own-grader problem that provides partial
+     credit.
 
-The following code demonstrates the configuration of this problem.
+The following code shows the configuration of this problem.
 
 .. code-block:: xml
 
@@ -423,7 +406,7 @@ The following code demonstrates the configuration of this problem.
  
   def give_partial_credit(expect, ans):
     ans = float(ans)
-    if ans > 100 or ans <; 0:
+    if ans > 100 or ans < 0:
         # Assign a score of zero if the answer is less than zero or over 100.
         ans = 0
     grade = ans/100
@@ -464,9 +447,9 @@ to assign learners partial credit.
 
 .. _Create a Randomized Custom Python-Evaluated Input Problem:
 
-*****************************************************************
+===========================================================
 Create a Randomized Custom Python-Evaluated Input Problem
-*****************************************************************
+===========================================================
 
 You can create a custom Python-evaluated input problem that randomizes
 variables in the Python code. 
@@ -505,3 +488,85 @@ input problem.
     <p><b>Explanation:</b></p>
   </solution>
   </problem>
+
+.. _Answer Tag Format:
+
+**************************
+Answer Tag Format
+**************************
+
+The answer tag format encloses the Python script in an ``<answer>`` tag,
+instead of using a Python function with a ``<script>`` tag, as in the following
+example.
+
+.. code-block:: xml
+
+  <answer>
+  if answers[0] == expect:
+      correct[0] = 'correct'
+      overall_message = 'Good job!'
+  else:
+      correct[0] = 'incorrect'
+      messages[0] = 'This answer is incorrect'
+      overall_message = 'Please try again'
+  </answer>
+
+.. important:: 
+  Python honors indentation. Within the ``<answer>`` tag, you must begin your
+  script with no indentation.
+
+The Python script interacts with these variables in the global context:
+
+* ``answers``: An ordered list of answers the learner provided. For example, if
+  the learner answered ``6``, ``answers[0]`` would equal ``6``.
+
+* ``expect``: The value of the ``expect`` attribute of ``<customresponse>`` (if
+  provided).
+
+* ``correct``: An ordered list of strings indicating whether the learner
+  answered the question correctly.  Valid values are ``"correct"``,
+  ``"incorrect"``, and ``"unknown"``.  You can set these values in the script.
+
+* ``messages``: An ordered list of messages that appear under each response
+  field in the problem. You can use this to provide hints to users. For
+  example, if you include ``messages[0] = "The capital of California is
+  Sacramento"``, that message appears under the first response field in the
+  problem.
+
+* ``overall_message``: A message that appears below the entire problem. You
+  can use this to provide a hint that applies to the entire problem rather than
+  a particular response field.
+
+========================================================================
+Create a Custom Python-Evaluated Input Problem in Answer Tag Format
+========================================================================
+
+#. In the component editor, modify the example as to use  the``<answer>`` tag
+   instead of ``<script>``. You can copy the sample code below.
+
+#. Select **Save**.
+
+
+.. code-block:: xml
+
+    <problem>
+        <p>What is the sum of 2 and 3?</p>
+
+        <customresponse expect="5">
+        <textline math="1" />
+        </customresponse>
+
+        <answer>
+    if answers[0] == expect:
+        correct[0] = 'correct'
+        overall_message = 'Good job!'
+    else:
+        correct[0] = 'incorrect'
+        messages[0] = 'This answer is incorrect'
+        overall_message = 'Please try again'
+        </answer>
+    </problem>
+
+.. important:: 
+  Python honors indentation. Within the ``<answer>`` tag, you must begin your
+  script with no indentation.
