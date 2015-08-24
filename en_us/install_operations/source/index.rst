@@ -14,9 +14,8 @@ associated applications.
 This document applies to the most recent version of the Open edX Platform; that
 is, it applies to the *master* branch of the edX Platform.
 
-This document also contains instructions for instaling named releases of Open
-edX. The most recent named release of Open edX is :ref:`Cypress <Open edX
-Cypress Release>`.
+This document also contains instructions for installing Open edX releases. The
+most recent release of Open edX is :ref:`Cypress <Open edX Cypress Release>`.
 
 .. toctree::
    :numbered:

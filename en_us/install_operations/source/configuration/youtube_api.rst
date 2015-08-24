@@ -68,7 +68,7 @@ To set your YouTube API key in Ansible's configuration file, complete the follow
 #. Save and close the file.
 
 #. Run Ansible so that it applies your YouTube API key to your Open edX
-   installation. If you are running the Cypress named release, run the
+   installation. If you are running the Open edX Cypress release, run the
    following command.
 
    .. code-block:: bash

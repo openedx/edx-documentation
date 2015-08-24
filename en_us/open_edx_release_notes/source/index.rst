@@ -2,8 +2,7 @@
 Open edX Release Notes
 ####################################
 
-The *Open edX Release Notes* provide information about the Open edX named
-releases.
+The *Open edX Release Notes* provide information about the Open edX releases.
 
 .. toctree::
    :numbered:
