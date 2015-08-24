@@ -11,6 +11,8 @@ proctoring software, and steps involved in taking proctored exams.
  :local:
  :depth: 1
 
+For information about rules you must follow when you take proctored exams, see
+:ref:`Online Proctoring Rules`.
  
 .. _SFD Proctored Exams Overview:
 
@@ -32,9 +34,9 @@ credit.
 
 Proctored exams are indicated with a lock icon in the courseware.
 
-.. image:: /Images/Proctoring_AlarmClockIcon.png
+.. image:: /Images/Proctoring_LockIcon.png
  :width: 200
- :alt: Courseware navigation in the LMS showing an exam with an alarm clock icon.
+ :alt: Courseware navigation in the LMS showing an exam with a lock icon.
 
 
 .. note:: Proctored exams are visible only if you are enrolled in the verified
@@ -176,10 +178,12 @@ eligibility for credit when you take the exam with or without proctoring, see
  :width: 600
  :alt: The page on which you choose to take an exam with proctoring or without.
 
-If you choose to take the exam with proctoring, you go through steps to set up
-the proctoring software and take your exam. If you decline to take the exam
-with proctoring, you take the exam as a regular exam, without proctoring and
-without a time limit.
+If you choose to take the exam with proctoring, you are eligible for academic
+credit for this course. You are guided through steps to set up the proctoring
+software and take your exam.
+
+If you decline to take the exam with proctoring, you take the exam as a
+regular exam, without proctoring and without a time limit.
 
 
 .. _Proceed With Proctored Exam:
@@ -232,12 +236,12 @@ Install the Remote Proctoring Software
 ==========================================
 
 Follow the provided link to download and install the appropriate version of
-the online proctoring software. For example, if you are running a Mac
-operating system, you would see the page shown.
+the online proctoring software for your operating system. For example, if you
+are running a Mac operating system, you would see the page shown.
 
 .. image:: /Images/Proctoring_SS_Download.png
  :width: 400
- :alt: The page on which you choose to take an exam with proctoring or without.
+ :alt: The proctoring software dialog box with links to download the application for Mac or Windows.
 
 .. note:: Even if you have previously installed this software, for example if
    you installed it for a practice proctored exam, you must install it again,
@@ -267,8 +271,8 @@ and duration. Select **Next**.
 Agree to the Terms of Service
 ===============================
 
-You see the Terms of Use dialog for the proctoring software. Read the terms,
-then if you agree to them, select **I agree**.
+You see the Terms of Use dialog box for the proctoring software. Read the
+terms, then if you agree to them, select **I agree**.
 
 .. image:: /Images/Proctoring_SS_TermsofUse.png
  :width: 600
