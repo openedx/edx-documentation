@@ -11,13 +11,14 @@ Installing, Configuring, and Running the edX Platform
 =======================================================
 
 This guide now includes new chapters for the `Open edX Birch Release`_ and a
-new section about `Configuring the Open edX Platform`_.
+new section about `Installing, Configuring, and Running the Open edX
+Platform`_.
 
 ======================
 Open edX Documentation
 ======================
 
-The following new guides are now available specifically for open edX.
+The following new guides are now available specifically for Open edX.
 
 * `Open edX Release Notes`_
 * `Building and Running an Open edX Course`_

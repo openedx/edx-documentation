@@ -27,7 +27,7 @@ The following documentation is available:
 
    * `Tracking Logs`_ 
 
-* `edX Developer's Guide`_
+* `Open edX Developer's Guide`_
 
 
 

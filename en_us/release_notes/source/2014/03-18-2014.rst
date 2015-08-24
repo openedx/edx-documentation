@@ -41,7 +41,7 @@ The following documentation is available:
   * `Certificate Data`_
 
 
-* `edX Developer's Guide`_
+* `Open edX Developer's Guide`_
 
 
 *************

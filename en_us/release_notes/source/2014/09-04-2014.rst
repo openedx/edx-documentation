@@ -95,9 +95,9 @@ The following documentation is available:
    * The `Discussion Forums Data`_ chapter now includes the new ``thread_type``
      field for CommentThreads and the new ``endorsed`` field for Comments.
 
-* `edX Developer's Guide`_
+* `Open edX Developer's Guide`_
 
-* `edX XBlock Documentation`_
+* `Open edX XBlock API Guide`_
 
 * `Installing, Configuring, and Running the edX Platform`_  
 

@@ -78,15 +78,15 @@ The following documentation is available:
     * Updates to the values reported in the ``student_courseenrollment.mode``
       column.
 
-* `edX Platform Developer's Guide`_
+* `Open edX Developer's Guide`_
 
-* `edX XBlock Documentation`_
+* `Open edX XBlock API Guide`_
 
 * `Installing, Configuring, and Running the edX Platform`_
 
 * `edX Open Learning XML Guide`_
   
-* `edX Platform API`_
+* `Open edX Platform API`_
 
 **************************
 Other edX Resources

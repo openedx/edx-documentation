@@ -2,7 +2,7 @@
 edX Documentation
 **************************
 
-The following documentation is available:
+The following documentation is available.
 
 * `Building and Running an edX Course`_
 
@@ -14,21 +14,22 @@ The following documentation is available:
   
 * `Open edX Release Notes`_ 
   
-* `Configuring the Open edX Platform`_   
+* `Installing, Configuring, and Running the Open edX Platform`_   
   
 * `Building and Running an Open edX Course`_
 
-* `edX Developer's Guide`_
+* `Open edX Developer's Guide`_
 
-* `edX XBlock Documentation`_
+* `Open edX XBlock Tutorial`_
+
+* `Open edX XBlock API`_
 
 * `edX Open Learning XML Guide`_
 
-* `edX Platform API`_
+* `Open edX Platform API`_
   
-* `edX Data Analytics API`_
-  
-* `edX Enrollment API`_
+* `Open edX Data Analytics API`_
+
 
 **************************
 Other edX Resources

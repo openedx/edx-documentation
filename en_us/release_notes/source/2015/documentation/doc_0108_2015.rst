@@ -22,6 +22,6 @@ emits. See the `Tracking Logs`_ chapter.
 edX Data Analytics API
 ======================================
 
-The initial, version 0 Alpha of the `edX Data Analytics API`_ guide is now
+The initial, version 0 Alpha of the `Open edX Data Analytics API`_ guide is now
 published.
 

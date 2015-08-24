@@ -95,9 +95,9 @@ The following documentation is available:
 
 .. adding line for space
 
-* `edX Platform Developer's Guide`_
+* `Open edX Developer's Guide`_
 
-* `edX XBlock Documentation`_
+* `Open edX XBlock API Guide`_
 
 * `Installing, Configuring, and Running the edX Platform`_
 
@@ -109,7 +109,7 @@ The following documentation is available:
 
 .. adding line for space
   
-* `edX Platform API`_
+* `Open edX Platform API`_
 
 **************************
 Other edX Resources
