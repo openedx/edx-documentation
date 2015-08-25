@@ -7,10 +7,11 @@ Awarding Partial Credit for a Problem
 You can configure the following problem types so that learners can receive
 partial credit for a problem if they submit an answer that is partly correct.
 
-* :ref:`Checkbox`
-* :ref:`Dropdown`
-* :ref:`Multiple Choice`
-* :ref:`Numerical Input`
+* :ref:`Checkbox <Awarding Partial Credit in a Checkbox Problem>`
+* :ref:`Dropdown <Awarding Partial Credit in a Dropdown Problem>`
+* :ref:`Multiple Choice <Awarding Partial Credit in a Multiple Choice Problem>`
+* :ref:`Numerical Input <Awarding Partial Credit in a Numerical Input Problem>`
+* :ref:`Write-Your-Own Grader <Provide Half Credit>`
 
 By awarding partial credit for problems, you can motivate learners who have
 mastered some of the course content and provide a score that accurately

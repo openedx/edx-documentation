@@ -373,6 +373,7 @@ or the advanced editor. For an overview of hints in problems, see
 
 .. include:: ../../../shared/exercises_tools/Subsection_configure_hints.rst
 
+.. _Awarding Partial Credit in a Checkbox Problem:
 
 *********************************************
 Awarding Partial Credit in a Checkbox Problem

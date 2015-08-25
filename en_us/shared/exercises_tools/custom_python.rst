@@ -341,6 +341,7 @@ sure to set **Show Answer** to **Never** in the problem component.
       </solution>
   </problem>
 
+.. _Provide Half Credit:
 
 ====================
 Provide Half Credit

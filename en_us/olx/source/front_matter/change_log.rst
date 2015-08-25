@@ -2,6 +2,28 @@
 Change Log
 ############
 
+
+****************
+August 2015
+****************
+
+.. list-table::
+   :widths: 10 70
+   :header-rows: 1
+
+   * - Date
+     - Change
+   * - 25 August 2015
+     - Several additions were made to provide information about awarding
+       partial credit for problems.
+       
+       * :ref:`Awarding Partial Credit for a Problem`
+       * :ref:`Awarding Partial Credit in a Checkbox Problem`
+       * :ref:`Awarding Partial Credit in a Dropdown Problem`
+       * :ref:`Awarding Partial Credit in a Multiple Choice Problem` 
+       * :ref:`Awarding Partial Credit in a Numerical Input Problem`
+       * :ref:`Provide Half Credit` in a Write Your Own Grader Problem
+
 ****************
 July 2015
 ****************
@@ -14,7 +36,6 @@ July 2015
      - Change
    * - 8 July 2015
      - Added the :ref:`Poll Tool` and :ref:`Survey Tool` sections.
-
 
 ****************
 June 2015
