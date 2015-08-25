@@ -95,9 +95,9 @@ whether the learner's answer is correct:
 * ``False``: Indicates that the learner answered incorrectly. All response
   fields are marked as incorrect.
 
-* ``Partial``: Indicates that the learner answer partially correctly. The
-  learner receives 50% of the points for the problem. See `Provide Half
-  Credit`_.
+* ``"Partial"``: Indicates that the learner answer partially correctly. By
+  default the learner receives 50% of the points for the problem. For more
+  information, see `Provide Half Credit`_.
 
 * A dictionary of the form: ``{ 'ok': True, 'msg': 'Message' }`` If the
   dictionary's value for ``ok`` is set to ``True``, all response fields are
@@ -114,7 +114,7 @@ whether the learner's answer is correct:
         'input_list': [
             { 'ok': True, 'msg': 'Feedback for input 1'},
             { 'ok': False, 'msg': 'Feedback for input 2'},
-            { 'ok': Partial, 'msg': 'Feedback for input 3'}
+            { 'ok': 'Partial', 'msg': 'Feedback for input 3'}
             ... ] }
 
 The last form is useful for responses that contain multiple response fields. It
@@ -351,17 +351,17 @@ give a partially correct answer receive 50% of the points for a problem. To
 provide a learner with a more granular score, see `Provide Partial Credit by
 Returning a Percent as a Grade`_.
 
-The ``check`` function must use return the value ``Partial`` in one of the
+The ``check`` function must use return the value ``"Partial"`` in one of the
 following ways.
 
-* Return the value``Partial`` directly.
+* Return the value ``"Partial"`` directly.
 
-* Return the value ``Partial`` in the dictionary that is returned, in the
+* Return the value ``"Partial"`` in the dictionary that is returned, in the
   following form.
   
-  ``{ 'ok': Partial, 'msg': 'Message' }`` 
+  ``{ 'ok': 'Partial', 'msg': 'Message' }`` 
 
-* Return the value ``Partial`` as part of the input list for multi-part
+* Return the value ``"Partial"`` as part of the input list for multi-part
   problems.
 
   .. code-block:: xml     
