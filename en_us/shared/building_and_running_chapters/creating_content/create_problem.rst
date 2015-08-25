@@ -656,6 +656,8 @@ answers for all the problems in the component appear.
 
 .. include:: ../../../shared/exercises_tools/Section_adding_hints.rst
 
+.. include:: ../../../shared/exercises_tools/Section_partial_credit.rst
+
 .. _Problem Randomization:
 
 ***********************************
