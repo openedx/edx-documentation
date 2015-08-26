@@ -6,11 +6,11 @@ Change Log for 2015
 
 This section lists changes made to this document in 2015.
 
-For older changes, see :ref:`Change Log 2014`.
-
 .. contents::
  :local:
  :depth: 1
+
+For older changes, see :ref:`Change Log 2014`.
 
 ***************
 August 2015
@@ -22,7 +22,7 @@ August 2015
 
    * - Date
      - Change
-   * - 25 August 2015
+   * - 26 August 2015
      - Several additions were made to provide information about awarding
        partial credit for problems.
        
@@ -33,6 +33,9 @@ August 2015
        * :ref:`Awarding Partial Credit in a Numerical Input Problem`
        * :ref:`Award Half Credit` in a Write Your Own Grader Problem
    
+   * - 
+     - Updated the :ref:`Course Data` topic to include descriptions of newly
+       added values.
    * - 12 August 2015
      - Added the :ref:`Qualtrics Survey` topic.
    * - 5 Aug 2015

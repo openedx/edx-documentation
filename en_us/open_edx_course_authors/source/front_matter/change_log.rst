@@ -13,7 +13,7 @@ August 2015
    * - Date
      - Change
 
-   * - 25 August 2015
+   * - 26 August 2015
      - Several additions were made to provide information about awarding
        partial credit for problems.
        
@@ -24,6 +24,9 @@ August 2015
        * :ref:`Awarding Partial Credit in a Numerical Input Problem`
        * :ref:`Award Half Credit` in a Write Your Own Grader Problem
 
+   * - 
+     - Updated the :ref:`Course Data` topic to include descriptions of newly
+       added values.
    * - 17 August 2015
      - Updated the :ref:`Discussions` section with information about discussion
        administration options that are not yet available in the edX mobile
