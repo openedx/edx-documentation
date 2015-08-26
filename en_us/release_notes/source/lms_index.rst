@@ -12,6 +12,12 @@ The following information describes what is new in the edX LMS.
 
 
 **************************
+25 August 2015
+**************************
+
+.. include:: 2015/lms/lms_0825_2015.rst
+
+**************************
 19 August 2015
 **************************
 

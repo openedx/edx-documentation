@@ -25,7 +25,7 @@
 
 .. _Open edX Birch Release: http://edx.readthedocs.org/projects/edx-installing-configuring-and-running/en/latest/birch.html#open-edx-birch-release
 
-.. _Configuring the Open edX Platform: http://edx.readthedocs.org/projects/edx-installing-configuring-and-running/en/latest/configuration/index.html
+.. _Installing, Configuring, and Running the Open edX Platform: http://edx.readthedocs.org/projects/edx-installing-configuring-and-running/en/latest/configuration/index.html
 
 .. _Enable edX Search: http://edx.readthedocs.org/projects/edx-installing-configuring-and-running/en/latest/configuration/edx_search.html#enable-edx-search
 
@@ -103,7 +103,7 @@
 
 .. Platform API guide links
 
-.. _edX Platform API: http://edx-platform-api.readthedocs.org/en/latest/index.html
+.. _Open edX Platform API: http://edx-platform-api.readthedocs.org/en/latest/index.html
 
 .. _Course Structure API Version 0: http://edx.readthedocs.org/projects/edx-platform-api/en/latest/course_structure/index.html#edx-platform-course-structure-api-version-0
 
@@ -171,6 +171,13 @@
 
 .. _Adding Feedback and Hints to a Problem: http://edx.readthedocs.org/projects/open-edx-building-and-running-a-course/en/latest/creating_content/create_problem.html#adding-feedback-and-hints-to-a-problem
 
+.. _Awarding Partial Credit for a Problem: http://edx.readthedocs.org/projects/open-edx-building-and-running-a-course/en/latest/creating_content/create_problem.html#awarding-partial-credit-for-a-problem
+
+.. _Awarding Partial Credit for a Problem - Open edX: http://edx.readthedocs.org/projects/open-edx-building-and-running-a-course/en/latest/creating_content/create_problem.html#awarding-partial-credit-for-a-problem
+
+.. _Awarding Partial Credit for a Problem - OLX: http://edx.readthedocs.org/projects/edx-open-learning-xml/en/latest/problem-xml/create_problem.html#awarding-partial-credit-for-a-problem
+
+
 .. _Add Feedback and Hints to a Problem: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/creating_content/create_problem.html#adding-feedback-and-hints-to-a-problem
 
 .. _Processing Video Files: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/video/index.html#processing-video-files-index
@@ -199,9 +206,10 @@
 
 .. _Course Content Data: http://edx.readthedocs.org/projects/devdata/en/latest/internal_data_formats/course_structure.html#course-structure
 
-.. _edX Platform Developer's Guide: http://edx.readthedocs.org/projects/edx-developer-guide/en/latest/
 
 .. _edX Developer's Guide: http://edx.readthedocs.org/projects/edx-developer-guide/en/latest/
+
+.. _Open edX Developer's Guide: http://edx.readthedocs.org/projects/edx-developer-guide/en/latest/
 
 .. _edx Modulestores: http://edx-developer-guide.readthedocs.org/en/latest/modulestores/index.html#edx-modulestores
 
@@ -242,6 +250,8 @@
 .. _Survey Tool: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/survey.html
 
 .. _Course Data: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/running_course/course_data.html#course-data
+
+.. _Course Data - Open edX: http://edx.readthedocs.org/projects//open-edx-building-and-running-a-course/en/latest/running_course/course_data.html#course-data
 
 .. _Staffing: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/running_course/course_staffing.html#course-staffing
 
@@ -336,6 +346,8 @@
 .. _Discussions: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/running_course/discussions.html
 
 .. _Participating in Course Discussions: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/running_course/discussions_students.html
+
+.. _Managing Course Discussions - Open edX: http://edx.readthedocs.org/projects/open-edx-building-and-running-a-course/en/latest/running_course/discussions.html#discussions
 
 .. _Guidance for Discussion Moderators: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/running_course/discussion_guidance_moderators.html
 
@@ -472,7 +484,9 @@
 
 .. _Contributing to Open edX: http://edx.readthedocs.org/projects/userdocs/en/latest/process/index.html
 
-.. _edX XBlock Documentation: http://edx.readthedocs.org/projects/xblock/en/latest/
+.. _Open edX XBlock Tutorial: http://edx.readthedocs.org/projects/xblock-tutorial/en/latest/
+
+.. _Open edX XBlock API: http://edx.readthedocs.org/projects/xblock/en/latest/
 
 .. _Analytics: http://edx.readthedocs.org/projects/userdocs/en/latest/analytics.html
 
@@ -480,7 +494,7 @@
 
 .. _Ubuntu installation instructions: https://github.com/edx/configuration/wiki/edX-Ubuntu-12.04-64-bit-Installation
 
-.. _edX Data Analytics API: http://edx.readthedocs.org/projects/edx-data-analytics-api/en/latest/index.html
+.. _Open edX Data Analytics API: http://edx.readthedocs.org/projects/edx-data-analytics-api/en/latest/index.html
 
 .. _Make All Content-Specific Discussion Topics Unified by Default: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/cohorts/cohorts_setup_discussions.html#make-all-content-specific-discussion-topics-unified-by-default
 

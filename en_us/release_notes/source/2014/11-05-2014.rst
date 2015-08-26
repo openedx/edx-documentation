@@ -99,15 +99,15 @@ The following documentation is available:
 
 * `edX Research Guide`_
   
-* `edX Platform Developer's Guide`_
+* `Open edX Developer's Guide`_
 
-* `edX XBlock Documentation`_
+* `Open edX XBlock API Guide`_
 
 * `Installing, Configuring, and Running the edX Platform`_
 
 * `edX Open Learning XML Guide`_
   
-* `edX Platform API`_
+* `Open edX Platform API`_
 
 
 **************************

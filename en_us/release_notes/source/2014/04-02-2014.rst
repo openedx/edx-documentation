@@ -39,7 +39,7 @@ The following documentation is available:
 
   *  Added the `Data Czar/Data Team Selection and Responsibilities`_ chapter.
 
-* `edX Developer's Guide`_
+* `Open edX Developer's Guide`_
 
   *  Added the `Custom JavaScript Applications`_ chapter.
 

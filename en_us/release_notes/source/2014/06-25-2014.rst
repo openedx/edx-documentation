@@ -57,15 +57,15 @@ The following documentation is available:
        
 * `edX Research Guide`_
 
-* `edX Developer's Guide`_
+* `Open edX Developer's Guide`_
  
-* `edX XBlock Documentation`_
+* `Open edX XBlock API Guide`_
 
 * `Installing, Configuring, and Running the edX Platform`_  
 
 A Preface that identifies resources for course teams,  developers,
 researchers, and students was added to `Building and Running an edX Course`_,
-the `edX Research Guide`_, and the `edX Developer's Guide`_ this week.
+the `edX Research Guide`_, and the `Open edX Developer's Guide`_ this week.
 
 **************************
 Other edX Resources

@@ -111,9 +111,9 @@ The following documentation is available:
   * Updated the ``child_render`` event to reflect the name change for the
     ``child_id`` member field. See `Tracking Logs`_.
 
-* `edX Developer's Guide`_
+* `Open edX Developer's Guide`_
 
-* `edX XBlock Documentation`_
+* `Open edX XBlock API Guide`_
 
 * `Installing, Configuring, and Running the edX Platform`_  
 

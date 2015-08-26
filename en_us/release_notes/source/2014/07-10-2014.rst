@@ -72,9 +72,9 @@ The following documentation is available:
 
   * Added the `Keys and Credentials for Data Transfers`_ chapter.
 
-* `edX Developer's Guide`_
+* `Open edX Developer's Guide`_
 
-* `edX XBlock Documentation`_
+* `Open edX XBlock API Guide`_
 
 * `Installing, Configuring, and Running the edX Platform`_  
 

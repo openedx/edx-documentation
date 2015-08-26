@@ -84,9 +84,9 @@ The following documentation is available:
   Instructions for downloading the weekly tracking event log file have been
   removed. These log files are now available only daily.
 
-* `edX Developer's Guide`_
+* `Open edX Developer's Guide`_
 
-* `edX XBlock Documentation`_
+* `Open edX XBlock API Guide`_
 
 * `Installing, Configuring, and Running the edX Platform`_  
 
@@ -105,7 +105,7 @@ The following documentation is available:
 
 .. comment for spacing only 
 
-* `edX Platform API`_
+* `Open edX Platform API`_
 
   Alpha documentation for the edX platform API is now available.
 

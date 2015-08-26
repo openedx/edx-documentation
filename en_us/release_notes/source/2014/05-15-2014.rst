@@ -57,14 +57,14 @@ The following documentation is available:
   ``edx.course.enrollment.deactivated``.
   
 
-* `edX Developer's Guide`_
+* `Open edX Developer's Guide`_
 
    Recent changes include: 
 
    Added an `Analytics`_ section for developers.
   
   
-* `edX XBlock Documentation`_
+* `Open edX XBlock API Guide`_
 
 
 

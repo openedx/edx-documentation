@@ -34,7 +34,7 @@ The following documentation is available:
 
   * Alternative formatting for the examples in the `Discussion Forums Data`_ chapter.
 
-* `edX Developer's Guide`_
+* `Open edX Developer's Guide`_
 
 
 

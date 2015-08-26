@@ -31,7 +31,7 @@ The following documentation is available:
    * `Wiki Data`_
    * `Discussion Forum Data`_
 
-* `edX Developer's Guide`_
+* `Open edX Developer's Guide`_
 
 
 

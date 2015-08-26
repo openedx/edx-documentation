@@ -45,10 +45,10 @@ The following documentation is available:
   * Removed obsolete information about XML formats for problems.
   
 
-* `edX Developer's Guide`_
+* `Open edX Developer's Guide`_
   
   
-* `edX XBlock Documentation`_
+* `Open edX XBlock API Guide`_
 
 
 

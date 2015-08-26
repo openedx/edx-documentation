@@ -147,11 +147,11 @@ The following documentation is available:
   This is a new document that covers installing and running Devstack.
 
 
-* `edX Developer's Guide`_
+* `Open edX Developer's Guide`_
 
 
   
-* `edX XBlock Documentation`_
+* `Open edX XBlock API Guide`_
   
 
 

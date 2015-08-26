@@ -10,6 +10,12 @@ The following information describes what is new on edx.org and Edge.
 
 
 **************************
+25 August 2015
+**************************
+
+.. include:: 2015/website/website_0825_2015.rst
+
+**************************
 19 August 2015
 **************************
 

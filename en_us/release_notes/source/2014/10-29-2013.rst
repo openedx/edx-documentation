@@ -20,7 +20,7 @@ The following documentation is available:
 * `edX Research Guide`_
 
 
-* `edX Developer's Guide`_
+* `Open edX Developer's Guide`_
 
 .. include:: ../links.rst
 

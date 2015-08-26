@@ -87,9 +87,9 @@ The following documentation is available:
   * Removed information about XML course formats. See the `edX Open Learning
     XML Guide`_ for information about building XML courses.
 
-* `edX Developer's Guide`_
+* `Open edX Developer's Guide`_
 
-* `edX XBlock Documentation`_
+* `Open edX XBlock API Guide`_
 
 * `Installing, Configuring, and Running the edX Platform`_  
 

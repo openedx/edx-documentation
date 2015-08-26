@@ -79,14 +79,14 @@ The following documentation is available:
     formatting.
   
 
-* `edX Developer's Guide`_
+* `Open edX Developer's Guide`_
 
   Recent changes include: 
 
   Updated the `Analytics`_ section to include information on documenting and
   debugging events.
   
-* `edX XBlock Documentation`_
+* `Open edX XBlock API Guide`_
 
 **************************
 Other edX Resources

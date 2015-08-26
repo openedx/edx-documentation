@@ -143,9 +143,9 @@ The following documentation is available:
      removed. These topics are covered in the `Building and Running an edX
      Course`_  guide.
 
-* `edX Developer's Guide`_
+* `Open edX Developer's Guide`_
 
-* `edX XBlock Documentation`_
+* `Open edX XBlock API Guide`_
 
 * `Installing, Configuring, and Running the edX Platform`_  
 

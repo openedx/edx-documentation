@@ -73,11 +73,11 @@ The following documentation is available:
 
   * The Track Student Activity section has been added to the `Student Data`_ chapter.
 
-* `edX Developer's Guide`_
+* `Open edX Developer's Guide`_
 
    * The link to the `Ubuntu installation instructions`_ has been updated.
 
-* `edX XBlock Documentation`_
+* `Open edX XBlock API Guide`_
 
 * `Installing, Configuring, and Running the edX Platform`_  
 
