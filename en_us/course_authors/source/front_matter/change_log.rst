@@ -12,9 +12,9 @@ For older changes, see :ref:`Change Log 2014`.
  :local:
  :depth: 1
 
-****************
+***************
 August 2015
-****************
+***************
 
 .. list-table::
    :widths: 15 70
@@ -22,6 +22,17 @@ August 2015
 
    * - Date
      - Change
+   * - 25 August 2015
+     - Several additions were made to provide information about awarding
+       partial credit for problems.
+       
+       * :ref:`Awarding Partial Credit for a Problem`
+       * :ref:`Awarding Partial Credit in a Checkbox Problem`
+       * :ref:`Awarding Partial Credit in a Dropdown Problem`
+       * :ref:`Awarding Partial Credit in a Multiple Choice Problem` 
+       * :ref:`Awarding Partial Credit in a Numerical Input Problem`
+       * :ref:`Award Half Credit` in a Write Your Own Grader Problem
+   
    * - 12 August 2015
      - Added the :ref:`Qualtrics Survey` topic.
    * - 5 Aug 2015
