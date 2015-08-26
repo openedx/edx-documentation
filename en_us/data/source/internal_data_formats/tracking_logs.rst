@@ -3245,8 +3245,8 @@ This section includes descriptions of the following events.
 * ``openassessmentblock.submit_feedback_on_assessments``
 * ``openassessmentblock.create_submission``
 * ``openassessmentblock.save_submission``
-* ``openassessmentblock.student_training_assess_example``
-* ``openassessmentblock.upload_file``
+* ``openassessment.student_training_assess_example``
+* ``openassessment.upload_file``
 
 In an open response assessment, students review a question and then submit a
 text response and, optionally, an image file. To evaluate their own and one or
@@ -3462,7 +3462,7 @@ save responses before they submit them for assessment.
        service.
 
 
-``openassessmentblock.student_training_assess_example``
+``openassessment.student_training_assess_example``
 ******************************************************************
 
 The server emits this event when a student submits an assessment for an
@@ -3499,7 +3499,7 @@ scored differently than the course team.
      - The unique identifier of the response. Identifies the student who
        is undergoing training.
 
-``openassessmentblock.upload_file``
+``openassessment.upload_file``
 *********************************
 
 The browser emits this event when a student successfully uploads an image file
