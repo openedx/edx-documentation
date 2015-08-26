@@ -202,7 +202,7 @@ Run the Open edX Analytics Pipeline
    .. code-block:: bash
 
     $ export WHEEL_URL=http://edx-wheelhouse.s3-website-us-east-1.amazonaws.com/Ubuntu/precise
-    $ export UNIQUE_NAME=$(date +%Y-%m-%dT%H:%M:%SZ)
+    $ export UNIQUE_NAME=$(date +%Y-%m-%dT%H_%M_%SZ)
     $ remote-task --vagrant-path <path to `analyticstack`> --remote-name devstack --override-config ${PWD}/config/devstack.cfg --wheel-url $WHEEL_URL --wait \
         AnswerDistributionWorkflow --local-scheduler \
           --src hdfs://localhost:9000/data/ \
