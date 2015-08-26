@@ -212,17 +212,17 @@ M, N, O
      - Description
    * - ``modify_access``
      - :ref:`Instructor_Event_Types`
+   * - ``openassessmentblock.create_submission``
+     - :ref:`ora2`
    * - ``openassessmentblock.get_peer_submission``
      - :ref:`ora2`
    * - ``openassessmentblock.peer_assess``
      - :ref:`ora2`
+   * - ``openassessmentblock.save_submission``
+     - :ref:`ora2`
    * - ``openassessmentblock.self_assess``
      - :ref:`ora2`
    * - ``openassessmentblock.submit_feedback_on_assessments``
-     - :ref:`ora2`
-   * - ``openassessment.create_submission``
-     - :ref:`ora2`
-   * - ``openassessment.save_submission``
      - :ref:`ora2`
    * - ``openassessment.student_training_assess_example``
      - :ref:`ora2`
