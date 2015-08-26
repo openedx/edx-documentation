@@ -36,6 +36,10 @@ August 2015
    * - 
      - Updated the :ref:`Course Data` topic to include descriptions of newly
        added values.
+   * - 
+     - Updated the :ref:`Enrollment` section to remove references to enrollment
+       counts on the Instructor Dashboard. Course enrollment data is available
+       in edX Insights.
    * - 12 August 2015
      - Added the :ref:`Qualtrics Survey` topic.
    * - 5 Aug 2015
