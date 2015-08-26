@@ -3239,14 +3239,9 @@ Open Response Assessment Events
 
 This section includes descriptions of the following events. 
 
-* ``openassessmentblock.get_peer_submission``
-* ``openassessmentblock.peer_assess`` 
-* ``openassessmentblock.self_assess``
-* ``openassessmentblock.submit_feedback_on_assessments``
-* ``openassessment.create_submission``
-* ``openassessment.save_submission``
-* ``openassessment.student_training_assess_example``
-* ``openassessment.upload_file``
+.. contents::  
+  :local:
+  :depth: 1
 
 In an open response assessment, students review a question and then submit a
 text response and, optionally, an image file. To evaluate their own and one or
@@ -3390,8 +3385,8 @@ other feedback about the assessment process.
      - string
      - The unique identifier of the feedback.
 
-``openassessment.create_submission``
-*************************************
+``openassessmentblock.create_submission``
+******************************************
 
 The server emits this event when a student submits a response. The same event
 is emitted when a student submits a response for peer assessment or for self
@@ -3433,8 +3428,8 @@ assessment.
      - string
      - The unique identifier of the response.
 
-``openassessment.save_submission``
-***********************************
+``openassessmentblock.save_submission``
+****************************************
 
 The server emits this event when a student saves a response. Students
 save responses before they submit them for assessment.
