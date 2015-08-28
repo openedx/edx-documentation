@@ -19,11 +19,11 @@ Overview
 The Open edX Developer Stack, known as **Devstack**, is a Vagrant instance
 designed for local development.
 
-Devstack Uses the same system requirements as :ref:`Open edX Fullstack
+Devstack uses the same system requirements as :ref:`Open edX Fullstack
 <Installing Open edX Fullstack>`. This allows you to discover and fix system
 configuration issues early in development.
 
-Devstack Simplifies certain production settings to make development more
+Devstack simplifies certain production settings to make development more
 convenient. For example, `nginx`_ and `gunicorn`_ are disabled in Devstack;
 Devstack uses Django's runserver instead.
 
@@ -46,7 +46,7 @@ Devstack also includes a demo edX course.
 Knowledge Prerequisites
 **************************
 
-To use Devstack, you should meeting the following knowledge requirements.
+To use Devstack, you should meet the following knowledge requirements.
 
 * Understand basic terminal usage. If you are using a Mac computer, see
   `Introduction to the Mac OS X Command Line`_. If you are using a Windows
@@ -130,20 +130,24 @@ Installation`.
 Install Devstack using the Torrent file
 *****************************************
 
-#. Download the Devstack `Torrent`_ file. 
+You can use BitTorrent to download the box file.  Follow all of the
+instructions in :ref:`Install DevStack`, but instead of downloading
+the Vagrant file with curl, do this:
+
+#. Download the Devstack `Torrent`_ file.
 
 #. When you have the file on your computer, add the virtual machine using the
    following command.
 
     .. code-block:: bash
-  
+
      vagrant box add box-name path-to-box-file
 
 
 .. _Troubleshooting the Devstack Installation:
 
 *****************************************
-Troubleshooting the Devstack Installation 
+Troubleshooting the Devstack Installation
 *****************************************
 
 In some cases, you see an error when you attempt to create the Devstack virtual
