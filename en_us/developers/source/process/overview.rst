@@ -110,9 +110,6 @@ different jobs and responsibilities:
 :doc:`contributor`
     Submits pull requests for eventual committing to an Open edX repository.
 
-.. note::
-  At the moment, developers who work for edX are core committers, and other
-  developers are contributors. This may change in the future.
 
 If you are a :doc:`contributor <contributor>` submitting a pull request, expect that it will
 take a few weeks before it can be merged. The earlier you can start talking
@@ -137,9 +134,9 @@ pull request of what’s going on. No one likes to feel like they’re being ign
 More details are in the :doc:`product owner guidelines <product-owner>`.
 
 If you are a :doc:`core committer <core-committer>`, allocate some time
-in every two-week sprint to review pull requests from other contributors.
+in your normal work schedule to review pull requests from other contributors.
 The community managers will make sure that these pull requests meet a
-basic standard for quality before asking you spend time reviewing them.
+basic standard for quality before asking you to spend time reviewing them.
 More details are in the :doc:`core committer guidelines <core-committer>`.
 
 Feel free to read the other documentation specific to each individual role in the
