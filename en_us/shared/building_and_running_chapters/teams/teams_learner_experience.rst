@@ -26,17 +26,19 @@ learners can see whether teams already exist for the topic.
   :alt: On the page showing available topics, one topic has the arrow button
       that takes users to the list of teams within that topic highlighted.
 
-Within each topic, learners can see whether teams already exist for the topic. 
+Within each topic, learners can search team descriptions for keywords, to find
+teams they are interested in joining.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/Teams_TopicViewButton.png
   :width: 500
   :alt: View of a team within a topic showing name and description, number of members.
 
-For any teams that exist, learners can view each team's name and description.
-There are also optional characteristics that teams might have specified: a
-primary language of communication and a country that members primarily
-identify with. Learners can also view discussion posts that team members have
-made, but they cannot add posts unless they belong to a team.
+Learners can view each team's name and description as well as optional
+characteristics that teams might have specified: a primary language of
+communication and a country that members primarily identify with. When they
+are browsing teams, learners can also read the discussion posts that team
+members have made, but they cannot add posts to a team's discussion forum
+unless they join that team.
 
 
 *************************************
@@ -93,7 +95,7 @@ Participating in Team Discussions
 Only members of a team (or anyone with a discussion administrator, discussion
 moderator, or community TA role) can post to a team's discussion forum. Any
 learner in your course can view team discussions without being a member, but
-they cannot add posts to a team's discussion unless they also belong to the
+they cannot add posts to a team's discussion unless they also belong to that
 team.
 
 .. note:: Team discussions are not divided by cohort. Learners who are in the
