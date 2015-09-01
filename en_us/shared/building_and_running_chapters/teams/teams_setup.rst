@@ -118,8 +118,24 @@ To create a new team, follow these steps.
 #. On the **Teams** page, select **Browse**, then select the topic in which
    you want to create a team.
 
+#. At the bottom of the list of teams within the topic, select the **create a
+   new team in this topic** link.
 
+#. On the **Create a New Team** page, add a name and description for the team. 
 
+   In the description, include details about the proposed project or activity
+   to help learners to decide whether they want to join this team.
+
+   A team name and description are mandatory. Optional details for the team
+   include a language that members would primarily use to communicate with
+   each other, and a country that members would primarily identify with. Keep
+   in mind that if the team details make the team membership seem too
+   selective, learners might be discouraged from joining.
+
+#. When you have finished entering details for the team, select **Create**.
+
+   You see the details page for the team you created.
+   
 
 .. _Search for a Team:
 
