@@ -350,6 +350,14 @@ learners who submit an answer that is close or related to the correct answer.
 You must use the `Advanced Editor <Use the Advanced Editor to Edit a Numerical
 Input Problem>`_ to configure partial credit.
 
+.. only:: Partners
+
+  .. note:: 
+    Support for partial credit problems in courses on edx.org and edX
+    Edge is provisional. Ensure you test such problems thoroughly before
+    releasing them to learners. For more information, contact your edX Program
+    Manager.
+
 In the following example, the learner entered an answer that was close to the
 correct answer and received partial credit.
 
@@ -395,6 +403,7 @@ are applied.
 * An answer within or equal to 3x of the tolerance receives 50%.
 
 * An answer more than 3x outside of the tolerance receives 0%.
+
 
 Configure Close Answers for a Numerical Input Problem
 ******************************************************
