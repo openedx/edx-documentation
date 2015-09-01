@@ -17,6 +17,14 @@ By awarding partial credit for problems, you can motivate learners who have
 mastered some of the course content and provide a score that accurately
 demonstrates their progress.
 
+.. only:: Partners
+
+  .. note:: 
+    Support for partial credit problems in courses on edx.org and edX
+    Edge is provisional. Ensure that you test such problems thoroughly before
+    releasing them to learners. For more information, contact your edX Program
+    Manager.
+
 For more information about configuring partial credit, see the topic for each
 problem type.
   
@@ -27,7 +35,7 @@ How Learners Receive Partial Credit
 Learners receive partial credit when submitting an answer in the LMS.
 
 In the following example, the learner selected a wrong answer to a multiple
-choice problem, but received 25% of the points.
+choice problem, but received 60% of the points.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/partial_credit_multiple_choice.png
  :alt: Image of a multiple choice problem with partial credit for an incorrect
@@ -35,7 +43,7 @@ choice problem, but received 25% of the points.
  :width: 600
 
 .. note:: 
-  The course team configured the problem to award 25% of the points for this
+  The course team configured the problem to award 60% of the points for this
   answer.
 
 ====================================================

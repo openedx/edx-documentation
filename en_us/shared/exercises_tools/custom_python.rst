@@ -352,6 +352,14 @@ give a partially correct answer receive 50% of the points for a problem. To
 provide a learner with a more granular score, see `Award a Percentage of
 Credit for the Problem`_.
 
+.. only:: Partners
+
+  .. note:: 
+    Support for partial credit problems in courses on edx.org and edX
+    Edge is provisional. Ensure that you test such problems thoroughly before
+    releasing them to learners. For more information, contact your edX Program
+    Manager.
+
 The ``check`` function must use return the value ``"Partial"`` in one of the
 following ways.
 
