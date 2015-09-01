@@ -18,16 +18,23 @@ Browsing Teams by Topic
 ***********************************
 
 On the Teams page in the LMS, learners in your course can browse topics to
-find a subject that they are interested in working on. Within each topic,
-learners can see whether teams already exist for the topic.
+find a subject that they are interested in working on. 
+
+Learners can sort topics alphabetically by name, or by the number of teams in
+a topic.
+
+Within each topic, learners can see whether teams already exist for the topic.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/Teams_TopicArrowButton.png
   :width: 500
   :alt: On the page showing available topics, one topic has the arrow button
       that takes users to the list of teams within that topic highlighted.
 
-Within each topic, learners can search team descriptions for keywords, to find
-teams they are interested in joining.
+Learners can sort the list of teams within a topic by teams that showed the
+most recent activity, or by teams with the most open slots.
+
+Within each topic, learners can search teams by keyword, to find teams they
+are interested in joining.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/Teams_TopicViewButton.png
   :width: 500

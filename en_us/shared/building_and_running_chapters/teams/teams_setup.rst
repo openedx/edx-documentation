@@ -129,13 +129,17 @@ Search for a Team
 
 Use the search field within a topic to find an existing team in that topic.
 
+.. note:: Partial strings are not supported for searching teams.
+
+To get a list of teams that match your search keywords, follow these steps.
+
 #. In the LMS, select the **Teams** tab.
 
 #. On the **Teams** page, select **Browse**, then select the topic in which
    you want to find a team.
    
-#. In the search field, enter one or more keywords to search for within a
-   team's description and title, then press **Enter** or the search icon.
+#. In the search field, enter one or more keywords to search for, then press
+   **Enter** or select the search icon.
 
    .. note:: Partial strings are not supported for searching teams.
 
