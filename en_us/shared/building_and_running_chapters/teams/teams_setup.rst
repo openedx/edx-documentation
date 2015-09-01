@@ -186,7 +186,10 @@ To edit a team's details, follow these steps.
    impacts.
 
 #. In the LMS, select the **Teams** tab.
-#. On the **Teams** page, select the topic that the team is in, then locate the team.
+#. On the **Teams** page, select **Browse** to show all topics.
+#. Select the arrow button for the topic to show all teams in that topic. 
+#. Locate the team that you want to edit. To find the team, you can search
+   using keywords or sort teams by last activity or open slots.
 #. Select **View** for the team that you want to edit.
 #. Select **Edit Team**. 
 #. Make your changes, then select **Update**.
@@ -212,14 +215,19 @@ place on the team is made available to other learners.
 To remove a learner from a team, follow these steps.
 
 #. In the LMS, select the **Teams** tab.
-#. On the **Teams** page, select the topic that the team is in, then locate
-   the team.
-#. Select **View** for the team that you want to edit.
+#. On the **Teams** page, select **Browse** to show all topics.
+#. Select the arrow button for the topic to show all teams in that topic. 
+#. Locate the team that you want to edit. To find the team, you can search
+   using keywords or sort teams by last activity or open slots.
+#. Select **View** for the team from which you want to remove a learner.
 #. Select **Edit Team**. 
-#. In the **Instructor Tools** bar, select **Edit Membership**.
+#. On the **Instructor Tools** bar, select **Edit Membership**.
 #. On the team's **Membership** page, select **Remove** next to the name of
    the learner who you want to remove from the team.
-#. Confirmation or update step??
+
+.. Must learners be removed one by one, or can multiples be selected?
+
+.. Is there a button to confirm the removal or members?   
 
 
 .. _Delete a Team:
@@ -230,18 +238,28 @@ Delete a Team
 
 As a course team member with the Staff, Admin, or Discussion Moderator role,
 you might need to manage the teams in your course, including deleting teams
-that remain empty or are dysfunctional. Deleting a team removes all learners
-from the team membership, and removes the team from the teams listing view
-within a topic.
+that remain empty or are dysfunctional. 
+
+When you delete a team, all learners are removed from the team membership, and
+team discussions can no longer be accessed.
+
+.. note:: Deleting a team removes it permanently from the course, and cannot
+   be undone.
+
+
+To delete a team, follow these steps.
 
 #. In the LMS, select the **Teams** tab.
-#. On the **Teams** page, select the topic that the team is in, then locate
-   the team.
-#. Select **View** for the team that you want to edit.
+#. On the **Teams** page, select **Browse** to show all topics.
+#. Select the arrow button for the topic to show all teams in that topic. 
+#. Locate the team that you want to edit. To find the team, you can search
+   using keywords or sort teams by last activity or open slots.
+#. Select **View** for the team that you want to delete.
 #. Select **Edit Team**. 
-#. In the **Instructor Tools** bar, select **Delete Team**.
-#. In the confirmation message, select **OK**. ..To be confirmed.
+#. On the **Instructor Tools** bar, select **Delete Team**.
+#. In the confirmation message, select **Delete**. 
 
-   The team no longer appears in the teams list within its topic, and learner
-   who were previously members of this team no longer belong to a team.
+   You see a confirmation that the team has been deleted. The team no longer
+   appears in the teams list within its topic. Learners who were previously
+   members of this team no longer belong to a team.
 
