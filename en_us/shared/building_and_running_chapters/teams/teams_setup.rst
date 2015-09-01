@@ -38,27 +38,29 @@ Enabling and Configuring Teams
 
 To enable teams in your course, follow these steps.
 
-.. note:: The Teams page in the LMS becomes available when you have specified
-   at least one topic for teams in your course.
+.. note:: The Teams page in the LMS becomes available only after you have
+   specified at least one topic for teams in your course.
 
 #. In Studio, from the **Settings** menu, select **Advanced Settings**.
 
 #. On the **Advanced Settings** page, select **Show Deprecated Settings**,
    then locate the **Teams Configuration** policy key.
 
- .. Remove deprecated settings limitation in future
+.. Remove deprecated settings limitation in future
 
-3. Within this policy key you define two entries, topics and maximum team size.
+3. Within this policy key you define two entries: topics and maximum team size.
 
 #. To specify the maximum team size for teams in your course, enter the
-   ``max_team_size`` parameter in double quotation marks, a colon, then the
-   value. For example, to set the maximum number of learners per team in your
-   course to 5, your entry would be:
+   ``max_team_size`` parameter in double quotation marks, followed by a colon,
+   then a positive integer value representing the maximum number of team
+   members allowed. For example, to set the maximum number of learners per
+   team in your course to 5, your entry would look like this example.
 
    ``"max_team_size": 5``
 
 #. To specify topics within which teams can be created, add entries under
-   ``"topics"``. For each topic, provide a description, name, and ID as shown in the example.
+   ``"topics"``. For each topic, provide a description, name, and ID as shown
+   in the example.
 
    .. note:: For topic IDs, you can use only alphanumeric characters and the
       underscore, hyphen, and period characters.
@@ -97,9 +99,10 @@ To enable teams in your course, follow these steps.
 The topics you have created are shown on the **Teams** page in the LMS when
 learners browse teams by topic.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/Teams_Topics_Created.png
- :width: 800
- :alt: A screen capture showing 3 topics on the Browse Teams page.
+
+.. image:: ../../../shared/building_and_running_chapters/Images/Teams_TopicsView.png
+  :width: 800
+  :alt: A screen capture showing 3 topics on the Browse Teams page.
 
 
 .. _Create a Team:
@@ -135,7 +138,7 @@ To create a new team, follow these steps.
 #. When you have finished entering details for the team, select **Create**.
 
    You see the details page for the team you created.
-   
+
 
 .. _Search for a Team:
 
