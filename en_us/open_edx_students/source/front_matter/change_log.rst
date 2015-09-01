@@ -4,6 +4,21 @@ Change Log
 
 
 *****************
+August 2015
+*****************
+
+.. list-table::
+   :widths: 15 70
+   :header-rows: 1
+
+   * - Date
+     - Change
+   * - 17 Aug 2015
+     - Updated :ref:`SFD Mobile` section to include information about using the
+       edX mobile apps to access course discussions.
+
+
+*****************
 June 2015
 *****************
 
@@ -13,6 +28,8 @@ June 2015
 
    * - Date
      - Change
+   * - 1 Aug 2015
+     - Added the :ref:`SFD Enrolling in a Course` and :ref:`SFD Academic Course Credit` topics.
    * - 8 Jun 2015
      - Added a section for frequently asked questions about the edX mobile
        applications, :ref:`SFD Mobile`.

@@ -14,6 +14,7 @@ Open edX Learner's Guide - Cypress Release
    front_matter/index
    SFD_introduction
    sfd_dashboard_profile/index
+   SFD_enrolling
    SFD_licensing
    SFD_course_search
    SFD_video_player
