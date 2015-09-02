@@ -72,10 +72,12 @@ Import a Course
 	**You cannot undo a course import**. We recommend that you first export the
 	current course, so you have a backup copy of it.
  
-There are several reasons you may want to import a course. For example:
+There are several reasons you may want to import a course. Some examples
+follow.
 
 * To load a course you developed outside of Studio.
 * To run a new version of a course that was not created in Studio.
+* To prepare course content for reuse in another learning system.
 
 The course that you import must be in a .tar.gz file (that is, a .tar file
 compressed with GNU Zip). This .tar.gz file must contain a course.xml file in a
@@ -115,7 +117,7 @@ format for open course exchange. For more information about OLX, see the `edX
 OLX Documentation <http://edx.readthedocs.org/projects/edx-open-learning-
 xml/en/latest/>`_.
 
-To extract and compress .tar.gz files, you will need a third-party program.
+To extract and compress .tar.gz files, you use a third-party program.
 
 If you are using Microsoft Windows, see the following resources.
 
@@ -126,12 +128,10 @@ If you are using Microsoft Windows, see the following resources.
   
 * `The gzip Home Page <http://www.gzip.org/>`_
 
-* The `Windows <http://www.ofzenandcomputing.com/how-to-open-tar-gz-
-  files/#windows>`_ section of the `How to Open .tar.gz Files
+* The `Windows <http://www.ofzenandcomputing.com/how-to-open-tar-gz-files/#windows>`_ section of the `How to Open .tar.gz Files
   <http://www.ofzenandcomputing.com /how-to-open-tar-gz-files/>`_ page
 
-If you are using a Macintosh computer, see the following resources:  
+If you are using a Macintosh computer, see the following resource.  
 
-* The `Mac OS X <http://www.ofzenandcomputing.com/how-to-open-tar-gz-
-  files/#mac- os-x>`_ section of the `How to Open .tar.gz Files
+* The `Mac OS X <http://www.ofzenandcomputing.com/how-to-open-tar-gz-files/#mac-os-x>`_ section of the `How to Open .tar.gz Files
   <http://www.ofzenandcomputing.com/how-to-open-tar-gz-files/>`_ page.
