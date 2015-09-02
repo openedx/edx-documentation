@@ -18,33 +18,34 @@ Browsing Teams by Topic
 ***********************************
 
 On the Teams page in the LMS, learners in your course can browse topics to
-find a subject that they are interested in working on. 
-
-Learners can sort topics alphabetically by name, or by the number of teams in
-a topic.
-
-Within each topic, learners can see whether teams already exist for the topic.
+find a subject that they are interested in working on. Learners can sort
+topics alphabetically by name, or by the number of teams in a topic.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/Teams_TopicArrowButton.png
   :width: 500
   :alt: On the page showing available topics, one topic has the arrow button
       that takes users to the list of teams within that topic highlighted.
 
-Learners can sort the list of teams within a topic by teams that showed the
-most recent activity, or by teams with the most open slots.
+Within each topic, learners can view existing teams. The overview for each
+team shows the team's name and description, the number of members and
+available slots, and the elapsed time since the last activity in the team.
 
-Within each topic, learners can search teams by keyword, to find teams they
-are interested in joining.
+To find teams, learners can sort teams by the most recent activity or by the
+most open slots. They can also use keywords to search for teams that might
+match their interests, language, or country.
+
+When learners locate a team that they might be interested in joining, they can
+select **View** on the team overview to view team details.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/Teams_TopicViewButton.png
   :width: 500
   :alt: View of a team within a topic showing name and description, number of members.
 
-Learners can view each team's name and description as well as optional
-characteristics that teams might have specified: a primary language of
-communication and a country that members primarily identify with. When they
-are browsing teams, learners can also read the discussion posts that team
-members have made, but they cannot add posts to a team's discussion forum
+On each team's details page, learners can view the team's name and
+description, as well as optional characteristics that were specified: a
+primary language of communication and a country that members primarily
+identify with. While they are browsing teams, learners can read any team's
+discussion posts, but they cannot add posts to a team's discussion forum
 unless they join that team.
 
 
@@ -59,11 +60,10 @@ size.
 .. note:: Learners can belong to only one team. If a learner already belongs to a
    team, the **Join Team** button is not available. 
 
-If no teams exist, if existing teams have reached the maximum number of
-members, or if none of the existing teams are appealing, learners can create
-their own teams. Under the list of existing teams in a topic, learners select
-**create a new team in this topic**. This link is available only to learners
-who do not already belong to a team.
+Learners can create their own teams if they cannot find a team they want to
+join. Under the list of existing teams in a topic, learners select **create a
+new team in this topic**. This link is available only to learners who do not
+already belong to a team.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/Teams_CreateNewTeamLink.png
   :width: 500

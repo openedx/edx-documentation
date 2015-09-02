@@ -20,7 +20,7 @@ Teams Overview
 *******************************
 
 Using teams in your course is an effective way for learners to interact and
-collaborate on small group projects or activities. You can create a variety of
+collaborate on small group projects or activities. You can define a variety of
 topics from learners to choose from, within which teams can be formed. Teams
 must be formed within a topic.
 
@@ -39,9 +39,9 @@ a choice of topics, and ask learners to join teams within the topic of their
 choice to complete the assignment. Team members can use the discussion forums
 within the team to communicate and collaborate on the assignment.
 
-Team are less effective when there are no obvious team tasks or goals. In
-general, edX does not recommend using teams in your course only to provide a
-means for learners to connect socially.
+Teams are not as effective when members have no obvious team tasks or goals.
+In general, edX does not recommend using teams in your course only to provide
+a way for learners to connect socially.
 
 
 .. _Enable and Configure Teams:
@@ -237,11 +237,12 @@ To remove a learner from a team, follow these steps.
 #. Select **Edit Team**. 
 #. On the **Instructor Tools** bar, select **Edit Membership**.
 #. On the team's **Membership** page, select **Remove** next to the name of
-   the learner who you want to remove from the team.
+   the learner who you want to remove from the team. 
+#. In the confirmation message, select **Remove**. 
 
-.. Must learners be removed one by one, or can multiples be selected?
-
-.. Is there a button to confirm the removal or members?   
+   You see a confirmation that the learner has been removed from the team.
+   The spot that the learner previously occupied on the team becomes avaiable
+   to another learner.
 
 
 .. _Delete a Team:
@@ -273,7 +274,8 @@ To delete a team, follow these steps.
 #. On the **Instructor Tools** bar, select **Delete Team**.
 #. In the confirmation message, select **Delete**. 
 
-   You see a confirmation that the team has been deleted. The team no longer
-   appears in the teams list within its topic. Learners who were previously
-   members of this team no longer belong to a team.
+   You are returned to the topic page where you are notified that the team has
+   been successfully deleted. The team no longer appears in the teams list
+   within its topic. Learners who were previously members of this team no
+   longer belong to a team.
 
