@@ -19,8 +19,10 @@ in your courses.
 Teams Overview
 *******************************
 
-Using teams in your course enables learners to interact and collaborate in
-small groups around topics that you create.
+Using teams in your course is an effective way for learners to interact and
+collaborate on small group projects or activities. You can create a variety of
+topics from learners to choose from, within which teams can be formed. Teams
+must be formed within a topic.
 
 After browsing topics, learners can join a team or create their own team
 within a topic. When learners create a new team, they add names and
@@ -30,13 +32,25 @@ characteristics might serve as the basis for attracting new members, resulting
 in small groups of learners with similar interests and goals who will work
 together on projects or activities within the same topic area.
 
+Teams are most effective when learners have a clear reason for joining a team,
+and a clear outcome to achieve with fellow team members. For example, you
+might create an assignment that consists of a group project or activity, with
+a choice of topics, and ask learners to join teams within the topic of their
+choice to complete the assignment. Team members can use the discussion forums
+within the team to communicate and collaborate on the assignment.
 
+Team are less effective when there are no obvious team tasks or goals. In
+general, edX does not recommend using teams in your course only to provide a
+means for learners to connect socially.
+
+
+.. _Enable and Configure Teams:
 
 *******************************
-Enabling and Configuring Teams
+Enable and Configure Teams
 *******************************
 
-To enable teams in your course, follow these steps.
+To use teams in your course, follow these steps.
 
 .. note:: The Teams page in the LMS becomes available only after you have
    specified at least one topic for teams in your course.
@@ -97,7 +111,8 @@ To enable teams in your course, follow these steps.
    brackets, with a comma after the closing square bracket.
 
 The topics you have created are shown on the **Teams** page in the LMS when
-learners browse teams by topic.
+learners browse teams by topic. The **Teams** page is not visible until you
+have created at least one topic.
 
 
 .. image:: ../../../shared/building_and_running_chapters/Images/Teams_TopicsView.png
@@ -112,9 +127,9 @@ Create a Team
 ******************
 
 As a course team member with the Staff, Admin, or Discussion Moderator role,
-you can create a new team.
+you can create new teams within topics.
 
-To create a new team, follow these steps.
+To create a team, follow these steps.
 
 #. In the LMS, select the **Teams** tab.
 
@@ -146,7 +161,7 @@ To create a new team, follow these steps.
 Search for a Team
 ******************
 
-Use the search field within a topic to find an existing team in that topic.
+Use the search field to find a team within a topic.
 
 .. note:: Partial strings are not supported for searching teams.
 
@@ -164,7 +179,7 @@ To get a list of teams that match your search keywords, follow these steps.
 
    Teams within the topic that match your search are displayed. 
 
-To clear the existing search term, select the **X** next to the search field
+To clear the existing search term, select the **X** next to the search field,
 or select all the text within the field and enter text to replace it.
 
 
@@ -182,8 +197,7 @@ from Team`.
 To edit a team's details, follow these steps.
 
 .. note:: Before making significant changes to a team, communicate with team
-   members so that they are aware of the changes you will make, and their
-   impacts.
+   members so that they are aware of the changes and their impacts.
 
 #. In the LMS, select the **Teams** tab.
 #. On the **Teams** page, select **Browse** to show all topics.
