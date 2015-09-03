@@ -191,6 +191,14 @@ LMS
 
 * ``ENABLE_COURSE_DISCOVERY``: Enables/disables Course Discovery feature (over
   courses searching and facet filtering)
+ 
+* ``COURSE_DISCOVERY_FILTERS``: If provided, overrides the list of facets 
+  that are used in Course Discovery feature to filter the results.
+  By default, all facets will be displayed. List of available facets includes:
+  
+  * Course organization: ``"org"``
+  * Course type: ``"modes"``
+  * Course language: ``"language"``
 
 * ``SEARCH_ENGINE``: Sets used search engine. There are 2 predefined values,
   but more can be added:
