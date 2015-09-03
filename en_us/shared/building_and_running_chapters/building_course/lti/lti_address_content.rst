@@ -137,6 +137,9 @@ older courses. If you are using a spreadsheet to organize your location
 identifiers, you can select the usage ID value, and then copy and paste it into
 the spreadsheet. 
 
+To close the Staff Debug viewer, click on the browser page outside of the
+viewer.
+
 For more information, see :ref:`Staff Debug Info`.
 
 .. _View the Page Source for the Usage ID:

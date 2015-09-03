@@ -26,6 +26,10 @@ September 2015
      - Added the :ref:`View the Course Structure API for the Usage ID` topic.
    * -
      - Added the :ref:`Setting Up Course Certificates` topic.
+   * - 
+     - Updated the :ref:`Student_Answer_Submission` section to include topics
+       about the downloadable student state report and the submission history
+       report.
    * - 2 September 2015
      - Added the :ref:`Using edX as an LTI Tool Provider` section.
 
