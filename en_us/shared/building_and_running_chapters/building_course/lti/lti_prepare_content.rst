@@ -10,8 +10,7 @@ Preparing to Reuse Course Content
   you create a duplicate version of the course. You use the duplicate course
   specifically as a source of content for your external LMS. Based on
   configuration choices your organization makes for using edX as an LTI tool
-  provider, you might be asked to create the duplicate course on edX Edge, on
-  the ``edx-lti.org`` site, or on another host site.
+  provider, you might be asked to create the duplicate course on edX Edge or on another host site.
 
 .. only:: Open_edX
 
@@ -83,11 +82,12 @@ To create the duplicate course, follow these steps.
 #. In Studio on edX Edge, export the course. For more information, see
    :ref:`Export a Course`.
    
-#. In Studio on your organization's host site for LTI courses, create a course.
-   This is the duplicate course.
+#. In Studio on your organization's host site for LTI courses (either edX Edge
+   or your organization's own LTI site), create a course. This is the duplicate
+   course.
    
    .. note:: If your organization uses edX Edge as the host site, be sure to
-    give the duplicate course a different name or run.
+    give the duplicate course a different, distinguishing name or run.
 
 #. In the duplicate course, import the tar.gz file that you exported in step 1.
    For more information, see :ref:`Import a Course`.

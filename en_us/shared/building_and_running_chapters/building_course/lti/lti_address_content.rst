@@ -10,7 +10,7 @@ then format the identifiers into an LTI URL.
 
 .. contents:: 
    :local:
-   :depth: 1
+   :depth: 2
 
 Using a tool like a spreadsheet can be helpful to organize the course ID and
 the usage IDs that correspond to each piece of course content you want to
