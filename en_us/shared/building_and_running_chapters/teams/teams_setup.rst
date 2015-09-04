@@ -139,12 +139,10 @@ To create a team, follow these steps.
 #. At the bottom of the list of teams within the topic, select the **create a
    new team in this topic** link.
 
-   .. image:: .../../../shared/building_and_running_chapters/Images/Teams_CreateNewTeamLink.png
+   .. image:: ../../../shared/building_and_running_chapters/Images/Teams_CreateNewTeamLink.png
      :width: 600
-     :alt: The "create a new team in this topic" link at the bottom of the page
-           showing all teams in a topic
+     :alt: The "create a new team in this topic" link
 
-.. update this screenshot with new footer text
 
 #. On the **Create a New Team** page, add a name and description for the team. 
 
@@ -248,10 +246,15 @@ To remove a learner from a team, follow these steps.
 #. Select **View** for the team from which you want to remove a learner.
 #. Select **Edit Team**. 
 #. On the **Instructor Tools** bar, select **Edit Membership**.
+
+   .. image:: ../../../shared/building_and_running_chapters/Images/Teams_InstructorToolsEditMembers.png
+     :width: 600
+     :alt: The Edit Membership button on the "Instructor Tools" bar on the Edit Team page.    
+
 #. On the team's **Membership** page, select **Remove** next to the name of
    the learner who you want to remove from the team. 
 #. In the confirmation message, select **Remove**. 
-#. Repeat steps 9 and 10 to remove additional members.
+#. Repeat steps 8 and 9 to remove additional members.
 
    Updates to the team membership are reflected when you refresh the page. 
 
@@ -283,6 +286,11 @@ To delete a team, follow these steps.
 #. Select **View** for the team that you want to delete.
 #. Select **Edit Team**. 
 #. On the **Instructor Tools** bar, select **Delete Team**.
+
+   .. image:: ../../../shared/building_and_running_chapters/Images/Teams_InstructorToolsDeleteTeam.png
+     :width: 600
+     :alt: The Edit Membership button on the "Instructor Tools" bar on the Edit Team page. 
+
 #. In the confirmation message, select **Delete**. 
 
    You are returned to the topic page where you are notified that the team has
