@@ -116,7 +116,7 @@ have created at least one topic.
 
 
 .. image:: ../../../shared/building_and_running_chapters/Images/Teams_TopicsView.png
-  :width: 800
+  :width: 600
   :alt: A screen capture showing 3 topics on the Browse Teams page.
 
 
@@ -139,20 +139,20 @@ To create a team, follow these steps.
 #. At the bottom of the list of teams within the topic, select the **create a
    new team in this topic** link.
 
-   .. image:: ../../shared/students/Images/Teams_CreateNewTeamLink.png
-     :width: 500
+   .. image:: .../../../shared/building_and_running_chapters/Images/Teams_CreateNewTeamLink.png
+     :width: 600
      :alt: The "create a new team in this topic" link at the bottom of the page
            showing all teams in a topic
 
 .. update this screenshot with new footer text
 
-4. On the **Create a New Team** page, add a name and description for the team. 
+#. On the **Create a New Team** page, add a name and description for the team. 
 
    In the description, include details about the proposed project or activity
    to help learners to decide whether they want to join this team.
 
-   .. image:: ../../shared/students/Images/Teams_CreateNewTeamForm.png
-     :width: 500
+   .. image:: ../../../shared/building_and_running_chapters/Images/Teams_CreateNewTeamForm.png
+     :width: 600
      :alt: Empty form with fields to be completed when you create a new team.   
 
 #. Optionally, add some characteristics for your team. You can specify a
