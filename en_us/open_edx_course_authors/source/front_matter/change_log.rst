@@ -14,17 +14,6 @@ August 2015
      - Change
 
    * - 26 August 2015
-     - Several additions were made to provide information about awarding
-       partial credit for problems.
-       
-       * :ref:`Awarding Partial Credit for a Problem`
-       * :ref:`Awarding Partial Credit in a Checkbox Problem`
-       * :ref:`Awarding Partial Credit in a Dropdown Problem`
-       * :ref:`Awarding Partial Credit in a Multiple Choice Problem` 
-       * :ref:`Awarding Partial Credit in a Numerical Input Problem`
-       * :ref:`Award Half Credit` in a Write Your Own Grader Problem
-
-   * - 
      - Updated the :ref:`Course Data` topic to include descriptions of newly
        added values.
    * - 17 August 2015

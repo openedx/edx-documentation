@@ -378,68 +378,6 @@ or the advanced editor. For an overview of hints in problems, see
 
 .. include:: ../../../shared/exercises_tools/Subsection_configure_hints.rst
 
-.. _Awarding Partial Credit in a Multiple Choice Problem:
-
-****************************************************
-Awarding Partial Credit in a Multiple Choice Problem
-****************************************************
-
-You can configure a multiple choice problem so that specific incorrect answers
-award learners partial credit for the problem. You must use the `Advanced
-Editor <Use the Advanced Editor to Edit a Multiple Choice Problem>`_ to
-configure partial credit.
-
-In the following example, the learner selected a wrong answer and received
-partial credit.
-
-.. image:: ../../../shared/building_and_running_chapters/Images/partial_credit_multiple_choice.png
- :alt: Image of a multiple choice problem with partial credit for an incorrect
-     answer.
- :width: 600
-
-You can specify what percentage of the points for the problem a learner
-receives for an incorrect answer. If you do not specify the percentage, the
-default of 50% is used.
-
-For an overview of partial credit in problems, see
-:ref:`Awarding Partial Credit for a Problem`.
-
-=================================================================
-Configure a Multiple Choice Problem to Award Partial Credit
-=================================================================
-
-To configure a multiple choice problem to award partial credit for a specific
-answer, you add the following attributes to the problem XML.
-
-* Add the ``partial_credit="points"`` attribute to the
-  ``<multiplechoiceresponse>`` element.
-
-* For each answer that you intend to award partial credit, add the
-  ``correct="partial"`` attribute to the ``<choice>`` element. 
-
-* Optionally, you can define the percentage of the problem score to award for
-  each answer. In the ``point_values`` attribute for the ``<choice>`` element,
-  enter the value as a decimal. For example, you can add ``point_value="0.25"``
-  to award 25% of the points to learners who select that answer. The percentage
-  awarded should reflect how close the learner has gotten to a full
-  understanding of the problem.If you do not add the ``point_value`` attribute,
-  50% is used.
-
-For example, the following XML shows the multiple choice problem template
-updated to provide partial credit for the first answer.
-
-.. code-block:: xml
-
-  <multiplechoiceresponse partial_credit="points">
-    <choicegroup label="Which of the following countries has the largest 
-        population?" type="MultipleChoice">
-      <choice correct="partial" point_value="0.25">Brazil</choice>
-      <choice correct="false">Germany</choice>
-      <choice correct="true">Indonesia</choice>
-      <choice correct="false">Russia</choice>
-    </choicegroup>
-  </multiplechoiceresponse>
-
 
 .. _Multiple Choice Problem XML:
 
@@ -504,16 +442,6 @@ Indicates that the problem is a multiple choice problem.
 
   Attributes
 
-  .. list-table::
-     :widths: 20 80
-     :header-rows: 1
-
-     * - Attribute
-       - Description
-     * - partial_credit (optional)
-       - Specifies that the problem can award partial credit. If used, must be
-         set to "points".
-
   (none)
 
   Children
@@ -555,21 +483,14 @@ Lists an answer option.
      * - Attribute
        - Description
      * - correct (at least one required)
-       - Indicates a correct, incorrect, or partially correct answer. 
+       - Indicates a correct or incorrect answer.
          
          * When this set to "true", the choice is a correct answer. 
          * When set to "false", the choice is an incorrect answer. 
-         * When set to "partial", the learner receives partial credit for
-           selecting the answer.
          
          You can specify more than one correct answer, but learners can select
          only once choice to submit as their answer.
      
-     * - point_value
-       - When correct="partial", indicates the percentage, as a decimal, of
-         the points the learner receives for selecting this option. If
-         "point_value" is not specified for a partial credit answer, 50% is
-         used by default.
      * - name
        - A unique name that is used internally to refer to the choice.
 
