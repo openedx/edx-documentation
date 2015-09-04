@@ -129,30 +129,42 @@ Create a Team
 As a course team member with the Staff, Admin, or Discussion Moderator role,
 you can create new teams within topics.
 
+.. Is it true that when course staff, admin, moderators or TAs create a team, they are not automatically made members of the team(s) that they create?
+
 To create a team, follow these steps.
 
-#. In the LMS, select the **Teams** tab.
-
-#. On the **Teams** page, select **Browse**, then select the topic in which
-   you want to create a team.
+#. From the **Teams** page in the LMS, select **Browse**, then select the
+   topic in which you want to create a team.
 
 #. At the bottom of the list of teams within the topic, select the **create a
    new team in this topic** link.
 
-#. On the **Create a New Team** page, add a name and description for the team. 
+   .. image:: ../../shared/students/Images/Teams_CreateNewTeamLink.png
+     :width: 500
+     :alt: The "create a new team in this topic" link at the bottom of the page
+           showing all teams in a topic
+
+.. update this screenshot with new footer text
+
+4. On the **Create a New Team** page, add a name and description for the team. 
 
    In the description, include details about the proposed project or activity
    to help learners to decide whether they want to join this team.
 
-   A team name and description are mandatory. Optional details for the team
-   include a language that members would primarily use to communicate with
-   each other, and a country that members would primarily identify with. Keep
-   in mind that if the team details make the team membership seem too
-   selective, learners might be discouraged from joining.
+   .. image:: ../../shared/students/Images/Teams_CreateNewTeamForm.png
+     :width: 500
+     :alt: Empty form with fields to be completed when you create a new team.   
+
+#. Optionally, add some characteristics for your team. You can specify a
+   language that members would primarily use to communicate with each other,
+   and a country that members would primarily identify with. Keep in mind that
+   if your team details make the team membership seem too selective, learners
+   might be discouraged from joining.
 
 #. When you have finished entering details for the team, select **Create**.
 
-   You see the details page for the team you created.
+   Your new team is added to the list of team under your selected topic.
+
 
 
 .. _Search for a Team:
@@ -167,15 +179,15 @@ Use the search field to find a team within a topic.
 
 To get a list of teams that match your search keywords, follow these steps.
 
-#. In the LMS, select the **Teams** tab.
-
-#. On the **Teams** page, select **Browse**, then select the topic in which
-   you want to find a team.
+#. From the **Teams** page in the LMS, select **Browse**, then select the
+   topic in which you want to find a team.
    
 #. In the search field, enter one or more keywords to search for, then press
    **Enter** or select the search icon.
 
    .. note:: Partial strings are not supported for searching teams.
+
+.. add image   
 
    Teams within the topic that match your search are displayed. 
 
@@ -239,10 +251,9 @@ To remove a learner from a team, follow these steps.
 #. On the team's **Membership** page, select **Remove** next to the name of
    the learner who you want to remove from the team. 
 #. In the confirmation message, select **Remove**. 
+#. Repeat steps 9 and 10 to remove additional members.
 
-   You see a confirmation that the learner has been removed from the team.
-   The spot that the learner previously occupied on the team becomes avaiable
-   to another learner.
+   Updates to the team membership are reflected when you refresh the page. 
 
 
 .. _Delete a Team:

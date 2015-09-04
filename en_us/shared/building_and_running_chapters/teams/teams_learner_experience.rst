@@ -17,7 +17,7 @@ within topics. Each learner can belong to only one team.
 Browsing Teams by Topic
 ***********************************
 
-On the Teams page in the LMS, learners in your course can browse topics to
+On the **Teams** page in the LMS, learners in your course can browse topics to
 find a subject that they are interested in working on. Learners can sort
 topics alphabetically by name, or by the number of teams in a topic.
 
@@ -28,10 +28,10 @@ topics alphabetically by name, or by the number of teams in a topic.
 
 Within each topic, learners can view existing teams. The overview for each
 team shows the team's name and description, the number of members and
-available slots, and the elapsed time since the last activity in the team.
+available spots, and the elapsed time since the last activity in the team.
 
 To find teams, learners can sort teams by the most recent activity or by the
-most open slots. They can also use keywords to search for teams that might
+most open spots. They can also use keywords to search for teams that might
 match their interests, language, or country.
 
 When learners locate a team that they might be interested in joining, they can
