@@ -384,14 +384,6 @@ who submit an answer that is partly correct. You must use the `Advanced Editor
 <Use the Advanced Editor to Edit a Checkbox Problem>`_ to configure partial
 credit.
 
-.. only:: Partners
-
-  .. note:: 
-    Support for partial credit problems in courses on edx.org and edX
-    Edge is provisional. Ensure that you test such problems thoroughly before
-    releasing them to learners. For more information, contact your edX Program
-    Manager.
-
 In the following example, the learner selected two of the three correct
 choices, and did not select any incorrect choices. The learner therefore had 4
 out of 5 correct answers. Because the course team set this problem up to award
