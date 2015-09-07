@@ -22,6 +22,8 @@ September 2015
 
    * - Date
      - Change
+   * - 9 September 2015
+     - Added the :ref:`View the Course Structure API for the Usage ID` topic.
    * - 2 September 2015
      - Added the :ref:`Using edX as an LTI Tool Provider` section.
 
