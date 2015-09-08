@@ -124,28 +124,32 @@ directive. You can add the conditional text as regular text or as a note.
 
 Make sure to indent the paragraph under the directive.
 
-.. only:: Partners
+::
 
- Data about course enrollment is available from edX Insights. You can access
- Insights from the Instructor Dashboard for your live course: after you select
- **Instructor**, follow the link in the banner at the top of each page. For
- more information, see `Using edX Insights`_.
- 
-.. only:: Open_edX
+  .. only:: Partners
 
-    .. note::
-      If you want to require an entrance exam for your course, you also create
-      the exam in the course outline. Before you can create an exam, you must
-      set your course to require an entrance exam in Studio. For more
-      information, see :ref:`Require an Entrance Exam`.
+   Data about course enrollment is available from edX Insights. You can access
+   Insights from the Instructor Dashboard for your live course: after you select
+   **Instructor**, follow the link in the banner at the top of each page. For
+   more information, see `Using edX Insights`_.
+   
+  .. only:: Open_edX
+
+      .. note::
+        If you want to require an entrance exam for your course, you also create
+        the exam in the course outline. Before you can create an exam, you must
+        set your course to require an entrance exam in Studio. For more
+        information, see :ref:`Require an Entrance Exam`.
 
 To conditionalize more than a paragraph, use either the ``only:: Partners`` or
 the ``only:: Open_edX`` directive, and then use an ``include::`` directive
 indented under the only directive.
 
-.. only:: Open_edX
+::
 
-   .. include:: ../../../shared/building_and_running_chapters/running_course/Section_course_student.rst
+  .. only:: Open_edX
+
+     .. include:: ../../../shared/building_and_running_chapters/running_course/Section_course_student.rst
 
 
 
