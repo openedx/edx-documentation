@@ -1,8 +1,10 @@
+sudo: false
 language: python
 branches:
     only:
         - master
 python: "2.7"
+cache: pip
 # This part isn't needed until we are running latexpdf builds.
 # before_install:
     # MacTex is used locally (MacOSX) by the docs team,
