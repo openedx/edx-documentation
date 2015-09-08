@@ -134,16 +134,14 @@ Key
 User Data
 ****************
 
-Data for students is gathered during site registration, course
-enrollment, and as other activities, such as responding to a particular type of problem or joining a team, take place.
+Data for students is gathered during site registration, course enrollment, and
+as other activities, such as responding to a particular type of problem or
+joining a team, take place.
 
 .. contents::
   :local:
   :depth: 1
 
-.. note:: The Teams feature is in limited release. For more information,
-   contact your edX partner manager. For Open edX sites, contact your system
-   administrator.
 
 .. _auth_user:
 
@@ -1088,10 +1086,6 @@ Columns in the ``teams_courseteam`` Table
 
 This table stores information about the teams in a course.
 
-.. note:: The Teams feature is in limited release. For more information,
-   contact your edX partner manager. For Open edX sites, contact your system
-   administrator.
-
 **History**: Added September 15 2015
 
 The ``teams_courseteam`` table has the following columns.
@@ -1239,13 +1233,11 @@ last_activity_at
   this field includes team creation, and the creation of posts, comments, and
   responses in the team's discussions.
 
-
 --------------------
 team_size
 --------------------
 
   The current count of the number of members in the team.
-
 
 .. _teams_courseteammembership:
 
@@ -1254,10 +1246,6 @@ Columns in the ``teams_courseteammembership`` Table
 ===================================================
 
 This table stores information about learners who are members of a team.
-
-.. note:: The Teams feature is in limited release. For more information,
-   contact your edX partner manager. For Open edX sites, contact your system
-   administrator.
 
 **History**: Added September 15 2015.
 

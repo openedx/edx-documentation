@@ -148,10 +148,11 @@ certificate (determined by whether he has earned a passing grade at the time
 the report was requested), whether a certificate has been generated, and the
 type of certificate earned.
 
-If your course includes :ref:`cohorts<Cohorts Overview>` or :ref:`content
-experiments<Overview of Content Experiments>`, the grade report includes
-additional columns indicating the name of the cohort or experiment group that
-each learner belongs to.
+If your course includes :ref:`cohorts<Cohorts Overview>`, :ref:`content
+experiments<Overview of Content Experiments>`, or
+:ref:`teams<CA_Teams_Overview>`, the grade report includes additional columns
+indicating the name of the cohort, experiment group, or team that each learner
+belongs to.
 
 .. image:: ../../../shared/images/Grade_Report.png
   :alt: A course grade report, opened in Excel, showing the grades achieved by
@@ -187,6 +188,10 @@ columns that provide the following information.
   is empty for learners who are not assigned to an experiment group. If you
   have more than one experiment group configuration in your course, you see one
   column for each group configuration.
+
+* If :ref:`teams<CA_Teams_Overview>` are enabled in the course, a **Team
+  Name** column indicates the name of the team that each learner belongs to. The
+  column is empty for learners who have not joined a team.
 
 * The **Enrollment Track** column indicates whether each learner is enrolled in
   the course in the honor code, verified, or professional education track.

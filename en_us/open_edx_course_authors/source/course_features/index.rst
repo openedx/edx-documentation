@@ -14,6 +14,7 @@ see :ref:`Developing Your Course Index`.
    :maxdepth: 2
 
    cohorts/index
+   teams/index
    content_experiments/index
    timed_exams
    lti/index
