@@ -55,15 +55,15 @@ follow these steps.
    Component** select **Problem**.
 #. Select one of the two dropdown problem templates.
    
-   * From the list of **Common Problem Types**, select **Dropdown**. 
+  * From the list of **Common Problem Types**, select **Dropdown**. 
    
-   * From the list of **Common Problems with Hints and Feedback**, select
-     **Dropdown with Hints and Feedback**. For more information, see `Use
-     Feedback in a Dropdown Problem`_.
+  * From the list of **Common Problems with Hints and Feedback**, select
+    **Dropdown with Hints and Feedback**. For more information, see `Use
+    Feedback in a Dropdown Problem`_.
 
-     Studio adds the problem to the unit.
+    Studio adds the problem to the unit.
 
-4. Select **Edit**. The Simple Editor opens. 
+3. Select **Edit**. The Simple Editor opens. 
 #. Replace the sample problem text with your own text.
 #. Determine the text that describes the question you want learners to answer,
    and surround that text with two pairs of angle brackets (``>>question<<``).

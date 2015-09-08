@@ -83,15 +83,15 @@ problem, follow these steps.
    Component** select **Problem**.
 #. Select one of the two numerical input problem templates.
    
-   * From the list of **Common Problem Types**, select **Numerical Input**. 
+  * From the list of **Common Problem Types**, select **Numerical Input**. 
    
-   * From the list of **Common Problems with Hints and Feedback**, select
-     **Numerical Input with Hints and Feedback**. For more information, see
-     `Use Feedback in a Numerical Input Problems`_.
+  * From the list of **Common Problems with Hints and Feedback**, select
+    **Numerical Input with Hints and Feedback**. For more information, see
+    `Use Feedback in a Numerical Input Problems`_.
 
     Studio adds the problem to the unit.
 
-#. Select **Edit**. The Simple Editor opens. 
+3. Select **Edit**. The Simple Editor opens. 
 #. Replace the sample problem text with your own text.
 #. Determine the text that describes the question you want learners to answer,
    and surround that text with two pairs of angle brackets (``>>question<<``).
@@ -103,22 +103,21 @@ problem, follow these steps.
 #. Optionally, specify a margin of error, or tolerance. You can specify a
    percentage, number, or range.
    
-   * To specify a percentage on either side of the correct answer, after the
-     answer add **+-{number}%**. For example, to include a 2% tolerance, add
-     **+-2%**.
+  * To specify a percentage on either side of the correct answer, after the
+    answer add **+-{number}%**. For example, to include a 2% tolerance, add
+    **+-2%**.
 
-   * To specify a number on either side of the correct answer, after the
-     answer add **+-{number}**. For example, to include a tolerance of 5, add
-     **+-5**.
+  * To specify a number on either side of the correct answer, after the answer
+    add **+-{number}**. For example, to include a tolerance of 5, add **+-5**.
 
-   * To specify a range, you provide the starting and ending values separated
-     by a comma and then surround the range with brackets [] or parentheses ().
-     A bracket includes the number next to it in the range, and a parenthesis
-     excludes the number from the range. For example, if you specify **[5,
-     8)**, correct answers can be 5, 6, and 7, but not 8. Likewise, if you
-     specify **(5, 8]**, correct answers can be 6, 7, and 8, but not 5.
+  * To specify a range, you provide the starting and ending values separated
+    by a comma and then surround the range with brackets [] or parentheses ().
+    A bracket includes the number next to it in the range, and a parenthesis
+    excludes the number from the range. For example, if you specify **[5,8)**,
+    correct answers can be 5, 6, and 7, but not 8. Likewise, if you specify
+    **(5,8]**, correct answers can be 6, 7, and 8, but not 5.
 
-#. To provide an explanation, select the explanation text and then select 
+8. To provide an explanation, select the explanation text and then select 
    **Explanation** from the toolbar. ``[explanation]`` appears before
    and after the explanation text.
 #. Select **Settings** and provide an identifying **Display Name** for the
@@ -462,7 +461,9 @@ Tags
 
 * ``<responseparam>`` (optional): Specifies a tolerance, or margin of error,
   for an answer. 
-.. Commenting out for partial credit revert: Also specifies a partial credit tolerance multiplier.
+
+.. Commenting out for partial credit revert: Also specifies a partial credit
+.. tolerance multiplier.
 
 * ``<script>`` (optional)
 
