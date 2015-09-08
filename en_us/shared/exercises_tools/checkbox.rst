@@ -20,7 +20,9 @@ one correct answer.
 .. image:: ../../../shared/building_and_running_chapters/Images/CheckboxExample.png
  :alt: A checkbox problem with four options, 2 of which are required for the correct answer.
 
-.. commenting out for partial credit revert.. note:: Make sure that all of the answer choices are unambiguous, and avoid trick questions. Checkbox problems with ambiguity can be frustrating to learners, especially if they have a limited number of attempts.
+.. note:: Make sure that all of the answer choices are unambiguous, and avoid
+   trick questions. Checkbox problems with ambiguity can be frustrating to
+   learners, especially if they have a limited number of attempts.
 
 **************************************************
 Analyzing Performance on Checkbox Problems
@@ -29,11 +31,6 @@ Analyzing Performance on Checkbox Problems
 For the checkbox problems in your course, you can use edX Insights to review
 aggregated learner performance data and examine submitted answers. For more
 information, see `Using edX Insights`_.
-
-.. note:: On checkbox problems, make sure all of the choices are unambiguous,
-   and avoid trick questions. Checkbox problems with ambiguity can be
-   frustrating to students, especially if they have a limited number of
-   attempts.
 
 
 ****************************
