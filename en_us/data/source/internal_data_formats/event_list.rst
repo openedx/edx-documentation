@@ -81,10 +81,6 @@ D, E, F
      - :ref:`student_cohort_events`
    * - ``edx.cohort.user_removed``
      - :ref:`student_cohort_events`
-   * - ``edx.librarycontentblock.content.assigned``
-     - :ref:`library_events`
-   * - ``edx.librarycontentblock.content.removed``
-     - :ref:`library_events`
    * - ``edx.course.enrollment.activated``
      - :ref:`enrollment` and :ref:`instructor_enrollment`
    * - ``edx.course.enrollment.deactivated`` 
@@ -111,10 +107,30 @@ D, E, F
      - :ref:`Instructor_Event_Types`
    * - ``edx.instructor.report.requested``
      - :ref:`Instructor_Event_Types`
+   * - ``edx.librarycontentblock.content.assigned``
+     - :ref:`library_events`
+   * - ``edx.librarycontentblock.content.removed``
+     - :ref:`library_events`     
    * - ``edx.problem.hint.demandhint_displayed``
      - :ref:`problem`
    * - ``edx.problem.hint.feedback_displayed``
      - :ref:`problem`
+   * - ``edx.team.activity_updated``
+     - :ref:`student_teams_events`  
+   * - ``edx.team.changed``
+     - :ref:`student_teams_events`     
+   * - ``edx.team.created``
+     - :ref:`student_teams_events`
+   * - ``edx.team.deleted``
+     - :ref:`student_teams_events`     
+   * - ``edx.team.learner_added``
+     - :ref:`student_teams_events`
+   * - ``edx.team.learner_removed``
+     - :ref:`student_teams_events`
+   * - ``edx.team.page_viewed``
+     - :ref:`student_teams_events`  
+   * - ``edx.team.searched``
+     - :ref:`student_teams_events`   
    * - ``edx.video.bumper.dismissed``
      - :ref:`pre-roll`
    * - ``edx.video.bumper.loaded``
