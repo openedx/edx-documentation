@@ -114,6 +114,43 @@ list.
       certificates, you must select the type of certificate you want after you
       select **Enroll Now**.
 
+***************************************
+Conditional Text
+***************************************
+
+To conditionalize a single paragraph, use either the ``only:: Partners`` or
+the ``only:: Open_edX`` directive, and indent the paragraph under the
+directive. You can add the conditional text as regular text or as a note. 
+
+Make sure to indent the paragraph under the directive.
+
+::
+
+  .. only:: Partners
+
+   Data about course enrollment is available from edX Insights. You can access
+   Insights from the Instructor Dashboard for your live course: after you select
+   **Instructor**, follow the link in the banner at the top of each page. For
+   more information, see `Using edX Insights`_.
+   
+  .. only:: Open_edX
+
+      .. note::
+        If you want to require an entrance exam for your course, you also create
+        the exam in the course outline. Before you can create an exam, you must
+        set your course to require an entrance exam in Studio. For more
+        information, see :ref:`Require an Entrance Exam`.
+
+To conditionalize more than a paragraph, use either the ``only:: Partners`` or
+the ``only:: Open_edX`` directive, and then use an ``include::`` directive
+indented under the only directive.
+
+::
+
+  .. only:: Open_edX
+
+     .. include:: ../../../shared/building_and_running_chapters/running_course/Section_course_student.rst
+
 
 
 *********************************
@@ -241,7 +278,9 @@ text that is useful to someone who might not be able to see the image.
 Tables
 ************************************
 
-Each example in this section shows the raw formatting for the table followed by the table as it would render (if you are viewing this file as part of the Style Guide).
+Each example in this section shows the raw formatting for the table followed
+by the table as it would render (if you are viewing this file as part of the
+Style Guide).
 
 ======================================
 Example of a table with an empty cell
