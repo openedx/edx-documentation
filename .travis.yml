@@ -1,17 +1,23 @@
 sudo: false
 language: python
-branches:
-    only:
-        - master
-python: "2.7"
-cache: pip
-# This part isn't needed until we are running latexpdf builds.
-# before_install:
-    # MacTex is used locally (MacOSX) by the docs team,
-    # but since we are using a linux machine for travis,
-    # we can use texlive-full instead.
-    # - "sudo apt-get update"
-    # - "sudo apt-get install texlive-full git python-dev -y"
+python:
+  - "2.7"
+cache:
+    directories:
+        - $HOME/.cache/pip
 install:
     - "pip install -r shared/travis_requirements.txt"
 script: "./run_tests.sh"
+branches:
+    only:
+        - master
+
+
+
+# This part isn't needed until we are running latexpdf builds.
+# before_install:
+#     MacTex is used locally (MacOSX) by the docs team,
+#     but since we are using a linux machine for travis,
+#     we can use texlive-full instead.
+#     - "sudo apt-get update"
+#     - "sudo apt-get install texlive-full git python-dev -y"
