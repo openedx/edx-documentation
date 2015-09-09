@@ -10,7 +10,8 @@ Preparing to Reuse Course Content
   you create a duplicate version of the course. You use the duplicate course
   specifically as a source of content for your external LMS. Based on
   configuration choices your organization makes for using edX as an LTI tool
-  provider, you might be asked to create the duplicate course on edX Edge or on another host site.
+  provider, you might be asked to create the duplicate course on edX Edge or on
+  another host site.
 
 .. only:: Open_edX
 
@@ -49,11 +50,6 @@ considerations.
   IDs, such as content experiments and cohorts, are not designed to provide
   results for external use. To use features like these for your course, you
   should plan to set them up in the external LMS.
-
-* Currently, the edX platform does not aggregate learner scores for problem
-  components. As a result, for grades to be passed from the edX platform back
-  to the external LMS, you must create links to each problem component in a
-  graded subsection individually, rather than to a complete unit or subsection.
 
 * To ensure that edX content remains available without interruption, edX course
   content appears in the external LMS regardless of the start, end, or
@@ -106,10 +102,10 @@ units, and subsections you want to include.
 
 Using an organizational tool, such as a spreadsheet, can be helpful. For
 example, you can use a spreadsheet column to identify the type of content (for
-example, component, unit, graded subsection, ungraded subsection), and add the
-display names to the next column. Additional columns can contain the values
-that you use to construct the addresses for your LTI links. For more
-information about addressing content, see :ref:`Determining Content Addresses`.
+example, component, unit, subsection), and add their display names to the next
+column. Additional columns can contain the values that you use to construct the
+addresses for your LTI links. For more information about addressing content,
+see :ref:`Determining Content Addresses`.
 
 Optionally, you can streamline the contents of units and subsections by
 removing components, or disable course features that you do not plan to use.
@@ -135,7 +131,7 @@ removing components, or disable course features that you do not plan to use.
    * - Internal Links
      - No
    * - Problem Components
-     - Yes (link to components in graded subsections individually)
+     - Yes
    * - Randomized Content Block Problem Components
      - No
    * - Video Components
