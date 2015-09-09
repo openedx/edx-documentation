@@ -24,8 +24,11 @@ September 2015
      - Change
    * - 9 September 2015
      - Added the :ref:`View the Course Structure API for the Usage ID` topic.
+   * -
+     - Added the :ref:`Setting Up Course Certificates` topic.
    * - 2 September 2015
      - Added the :ref:`Using edX as an LTI Tool Provider` section.
+
 
 ***************
 August 2015
@@ -126,10 +129,6 @@ June 2015
        Development` section.
    * - 10 Jun 2015
      - Added the :ref:`Adding a Pre-Roll Video` section.
-   * - 
-     - Added the :ref:`view_not_yet_enrolled` section.
- 
-
 
 ****************
 May 2015

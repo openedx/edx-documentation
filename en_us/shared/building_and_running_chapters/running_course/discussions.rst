@@ -667,7 +667,7 @@ Block Users
 ===============
 
 For a learner who continues to misuse the course discussions, you can unenroll
-the learner from the course. For more information, see :ref:`unenroll_learner`.
+the learner from the course. For more information, see :ref:`unenroll_student`.
 If the enrollment period for the course is over, the learner cannot re-enroll.
 
 .. _Close_discussions:

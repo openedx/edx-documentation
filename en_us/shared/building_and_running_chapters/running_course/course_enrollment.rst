@@ -142,6 +142,7 @@ To enroll learners or course team members, follow these steps.
 You can view or download a list of the people who are enrolled in the course.
 See :ref:`Student Data`.
 
+
 .. _view_not_yet_enrolled:
 
 ********************************
