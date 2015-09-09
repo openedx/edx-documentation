@@ -28,6 +28,7 @@ most recent release of Open edX is :ref:`Cypress <Open edX Cypress Release>`.
    configuration/index
    analytics/index
    mobile
+   feature_flags/feature_flag_index
    glossary
 
 .. include:: ../../links/links.rst
