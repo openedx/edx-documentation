@@ -603,3 +603,6 @@
 
 .. _Open edX Cypress Release Notes: http://edx.readthedocs.org/projects/open-edx-release-notes/en/latest/cypress.html
 
+.. _Student Answer Submissions: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/
+
+
