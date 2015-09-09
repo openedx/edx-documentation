@@ -109,7 +109,7 @@ Apr-Jun 2015
    * - 16 Jun 2015
      - Added the :ref:`Creating a Custom Course` section.
    * - 10 Jun 2015
-     - Added the :ref:`view_not_yet_enrolled` section.
+     - Added the :ref:`Report Learners Not Yet Enrolled` section.
    * - 8 Jun 2015
      - Updated the :ref:`Add a Course Update` section to include information
        about sending notifications to the edX mobile applications.

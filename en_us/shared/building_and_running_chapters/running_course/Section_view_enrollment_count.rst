@@ -3,9 +3,9 @@
 
 .. _view_enrollment_count:
 
-*************************
+=========================
 View an Enrollment Count
-*************************
+=========================
 
 After you create a course, you can access the total number of people who are
 enrolled in it. Note the following information about how this count is
@@ -32,7 +32,7 @@ To view the enrollment count for a course, follow these steps.
 
 #. Select **Instructor**, and then select **Course Info** if necessary. 
 
-  The **Enrollment Information** section of the page that opens shows the
-  number of people who are currently enrolled in your course and in each of
-  the certification tracks.
+   The **Enrollment Information** section of the page that opens shows the
+   number of people who are currently enrolled in your course and in each of
+   the certification tracks.
 
