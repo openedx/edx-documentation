@@ -8,12 +8,16 @@ September 2015
 ****************
 
 .. list-table::
-   :widths: 15 70
+   :widths: 30 70
    :header-rows: 1
 
    * - Date
      - Change
-   * - 2 Sep 2015
+   * - 9 September 2015
+     - Updated the :ref:`Student_Answer_Submission` section to include topics
+       about the downloadable student state report and the submission history
+       report.
+   * - 2 September 2015
      - Added the :ref:`Setting Up Course Certificates` topic.
 
 
@@ -22,12 +26,11 @@ August 2015
 ****************
 
 .. list-table::
-   :widths: 15 70
+   :widths: 30 70
    :header-rows: 1
 
    * - Date
      - Change
-
    * - 26 August 2015
      - Several additions were made to provide information about awarding
        partial credit for problems.
@@ -54,7 +57,7 @@ July 2015
 ****************
 
 .. list-table::
-   :widths: 15 70
+   :widths: 30 70
    :header-rows: 1
 
    * - Date
@@ -78,7 +81,6 @@ July 2015
        and hints in common problems.
        
        * :ref:`Adding Feedback and Hints to a Problem`
-       
        * :ref:`Use Feedback in a Checkbox Problem`
        * :ref:`Use Hints in a Checkbox Problem`
        * :ref:`Use Feedback in a Dropdown Problem` 
@@ -96,7 +98,7 @@ Apr-Jun 2015
 *****************
 
 .. list-table::
-   :widths: 20 70
+   :widths: 30 70
    :header-rows: 1
 
    * - Date
@@ -127,7 +129,7 @@ Jan-Mar 2015
 *****************
 
 .. list-table::
-   :widths: 20 70
+   :widths: 30 70
    :header-rows: 1
 
    * - Date

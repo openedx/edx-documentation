@@ -6,7 +6,8 @@ Answer Data
 
 To review student answers to the problems in your course, you can review the
 answer submitted by a selected student for a specific problem or download a
-course-wide report of answer data.
+course-wide report of any student answers to a specific problem. You can also
+download an answer distribution report for course problems.
 
 .. contents::
  :local:
@@ -17,13 +18,26 @@ available from edX Insights. For more information, see `Using edX Insights`_.
 
 .. _Student_Answer_Submission:
 
-************************************************************
-Check a Student's Answer Submission and Submission History
-************************************************************
+*****************************
+Student Answer Submissions
+*****************************
 
-For a single student and problem, you can review the exact response submitted,
-the number of attempts made, and the date and time of the submission. You
-identify the student by supplying a username.
+You can review a single student's complete submission history for a specific
+problem, or the answers submitted by all students for that problem. For either
+a single student or all students, you can review the exact response submitted,
+the number of attempts made, and the date and time of the submission.
+
+.. contents::
+ :local:
+ :depth: 1
+
+============================================================
+View One Student's Submission History
+============================================================
+
+Before you can check the answer or answers submitted by a student, you need the
+student's username. For more information about how to obtain usernames, see
+:ref:`View and download student data`.
 
 To review a response submitted by a student, follow these steps.
 
@@ -39,10 +53,248 @@ To review a response submitted by a student, follow these steps.
    select **View History** at the end of the page.
 
   Information about the response or responses provided by the student displays.
+  For more information, see :ref:`Interpret a Student Submission History`.
 
 To close the Submission History Viewer, click on the browser page outside of
 the viewer.
+
+.. _Interpret a Student Submission History:
+
+============================================================
+Interpret a Student's Submission History
+============================================================
+
+The Submission History Viewer shows every timestamped database record of the
+interactions between a student and a problem, which can include processes
+completed both in the browser and on the server. These records appear with the
+most recent interaction at the top of the Submission History Viewer, followed
+by each previous interaction.
+
+This topic provides an example submission history for a capa problem with
+guidelines that can help you interpret a submission history. The number and
+complexity of the records that appear in this report vary based on the type of
+problem and the settings and features defined.
+
+**Record 1: Problem Viewed (Server)**
+
+The first interaction, shown at the bottom of the Submission History, records
+when the server delivered the problem component to the browser for the student
+to view.
+
+.. code-block:: json
+
+  #1: 2015-09-04 08:34:53+00:00 (America/New_York time)
+
+  Score: None / None
+
+  {
+    "input_state": {
+      "i4x-edx-DemoX-problem-2363f9b08ed04be5a21e5a32511dd30a_2_1": {}
+    }, 
+    "seed": 1
+  }
+
+
+**Record 2: Problem Checked (Browser)**
+
+The next interaction shown as you scroll up from the bottom records when the
+student selected **Check** in the browser to submit an answer. Note that this
+record does not contain the actual answer submitted.
+
+.. code-block:: json
+
+  #2: 2015-09-04 08:35:03+00:00 (America/New_York time)
+
+  Score: 0.0 / 1.0
+
+  {
+    "input_state": {
+      "i4x-edx-DemoX-problem-2363f9b08ed04be5a21e5a32511dd30a_2_1": {}
+    }, 
+    "seed": 1
+  }
+
+
+**Record 3: Problem Checked (Server)**
+
+The next interaction records the results of the server processing that occurred
+after the student submitted the answer. This record includes
+``student_answers`` with the submitted answer value, along with ``attempts``,
+``correctness``, and other values.
+
+.. code-block:: json
+
+  #3: 2015-09-03 18:15:10+00:00 (America/New_York time)
+
+  Score: 0.0 / 1.0
+
+  {
+    "attempts": 1, 
+    "correct_map": {
+      "i4x-edx-DemoX-problem-2363f9b08ed04be5a21e5a32511dd30a_2_1": {
+        "answervariable": null, 
+        "correctness": "incorrect", 
+        "hint": "", 
+        "hintmode": null, 
+        "msg": "", 
+        "npoints": null, 
+        "queuestate": null
+      }
+    }, 
+    "done": true, 
+    "input_state": {
+      "i4x-edx-DemoX-problem-2363f9b08ed04be5a21e5a32511dd30a_2_1": {}
+    }, 
+    "last_submission_time": "2015-09-03T18:15:10Z", 
+    "seed": 1, 
+    "student_answers": {
+      "i4x-edx-DemoX-problem-2363f9b08ed04be5a21e5a32511dd30a_2_1": "Nanjing"
+    }
+  }
+
+
+**Record 4: Problem Retried (Browser)**
+
+When a problem gives students multiple attempts at the right answer, and the
+student tries again, an additional record is added when a student selects
+**Check** again. The server has not yet processed the new submission, so the
+data in the record is almost identical to the data in record 3.
+
+**Record 5: Problem Retried (Server)**
+
+The most recent interaction in this example records the results after the
+student attempts the problem again and submits a different answer. Note the
+differences between values in this record and in record 3, including the
+reported ``Score`` and the values for ``student_answers``, ``attempts``, and
+``correctness``.
+
+.. code-block:: json
+
+  #5: 2015-09-03 18:15:17+00:00 (America/New_York time)
+
+  Score: 1.0 / 1.0
+
+  {
+    "attempts": 2, 
+    "correct_map": {
+      "i4x-edx-DemoX-problem-2363f9b08ed04be5a21e5a32511dd30a_2_1": {
+        "answervariable": null, 
+        "correctness": "correct", 
+        "hint": "", 
+        "hintmode": null, 
+        "msg": "", 
+        "npoints": null, 
+        "queuestate": null
+      }
+    }, 
+    "done": true, 
+    "input_state": {
+      "i4x-edx-DemoX-problem-2363f9b08ed04be5a21e5a32511dd30a_2_1": {}
+    }, 
+    "last_submission_time": "2015-09-03T18:15:17Z", 
+    "seed": 1, 
+    "student_answers": {
+      "i4x-edx-DemoX-problem-2363f9b08ed04be5a21e5a32511dd30a_2_1": "Nanjing University"
+    }
+  }
+
+
+.. _Student_Problem_Answers:
+
+============================================================
+Report All Students' Answer Submissions
+============================================================
+
+Before you can download a report of all student answers for a problem, you need
+the :ref:`unique identifier<find_URL>` of the problem that you want to
+investigate.
+
+To download a report of the answers submitted for a problem by every student,
+follow these steps.
+
+#. View the live version of your course.
+
+#. Select **Instructor**, and then select **Data Download**.
+
+#. In the **Reports** section, enter the **Problem location** . For capa
+   problems, you can use the **Staff Debug Info** option to :ref:`find this
+   identifier<find_URL>` for a problem.
    
+#. Select **Download a CSV of problem responses**.
+
+#. At the bottom of the page, select the
+   ``{course_id}_student_state_from_{problem_location}_{date}.csv`` file. 
+
+#. Use a text editor or spreadsheet application to open the file. For more
+   information, see :ref:`Interpret the Student State Report`.
+
+.. _Interpret the Student State Report:
+
+============================================================
+Interpret the Student State Report
+============================================================
+
+The Student State report contains a row for each student who has viewed a
+problem or submitted an answer for the problem, identified by username. The
+**State** column reports the results of the server processing for each
+student's most recently submitted answer.
+
+When you open the report, the value in the **State** column appears on a single
+line. This value is a record in JSON format. An example record for a text input
+capa problem follows.
+
+``{"correct_map": {"2363f9b08ed04be5a21e5a32511dd30a_2_1": {"hint": "", "hintmode": null, "correctness": "correct", "msg": "", "answervariable": null, "npoints": null, "queuestate": null}}, "input_state": {"2363f9b08ed04be5a21e5a32511dd30a_2_1": {}}, "last_submission_time": "2015-09-03T18:15:17Z", "attempts": 2, "seed": 1, "done": true, "student_answers": {"2363f9b08ed04be5a21e5a32511dd30a_2_1": "Nanjing University"}}``
+
+You can use a JSON "pretty print" tool or script to make the value in the
+**State** column more readable, as in the following example.
+
+.. code-block:: json
+
+  {
+    "correct_map": {
+      "2363f9b08ed04be5a21e5a32511dd30a_2_1": {
+        "hint": "",
+        "hintmode": null,
+        "correctness": "correct",
+        "msg": "",
+        "answervariable": null,
+        "npoints": null,
+        "queuestate": null
+      }
+    },
+    "input_state": {
+      "2363f9b08ed04be5a21e5a32511dd30a_2_1": {
+      
+      }
+    },
+    "last_submission_time": "2015-09-03T18:15:17Z",
+    "attempts": 2,
+    "seed": 1,
+    "done": true,
+    "student_answers": {
+      "2363f9b08ed04be5a21e5a32511dd30a_2_1": "Nanjing University"
+    }
+  }
+
+When you add line breaks and spacing to the value in the **State** column for
+this capa problem, it becomes possible to recognize its similarity to the
+server problem check records in the Submission History. For more information,
+see :ref:`Interpret a Student Submission History`.
+
+A **State** value that appears as follows indicates a learner who has viewed a
+capa problem, but not yet submitted an answer.
+
+  ``{"seed": 1, "input_state": {"i4x-edX-DemoX_1-problem-05c289c5ad3d47d48a77622c4a81ec36_2_1": {}}}``
+
+For open response assessment problems, the **State** value appears as follows
+for learners who have submitted an answer.
+
+  ``{"submission_uuid": "c359b484-5644-11e5-a166-0a4a2062d211", "no_peers": false}``
+
+For open response assessment problems, ``"no_peers": false`` indicates that the
+learner has completed at least one peer assessment, while ``"no_peers": true``
+indicates that no peer assessments have been submitted.
+
 .. _Student_Answer_Distribution:
 
 ****************************************
@@ -269,3 +521,4 @@ answer(s) can guide future changes to the courseware.
 
 
 .. _Using edX Insights: http://edx-insights.readthedocs.org/en/latest/
+.. _Problem Interaction Events: http://edx.readthedocs.org/projects/devdata/en/latest/internal_data_formats/tracking_logs.html#problem
