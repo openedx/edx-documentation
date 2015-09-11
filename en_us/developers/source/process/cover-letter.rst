@@ -2,6 +2,10 @@
 Pull Request Cover Letter
 *************************
 
+For features with user-facing impact, please make sure you've also read the
+guidelines for :ref:`Contributing to the Documentation for your Open Source
+Feature`.
+
 When opening up a pull request, please prepare a "cover letter" to place into
 the "Description" field on Github. A good cover letter concisely answers as
 many of the following questions as possible. Not all pull requests will have
@@ -39,7 +43,6 @@ answers to every one of these questions, which is okay!
 * What are your concerns (the author’s) about the PR? Is there a corner case you
   don't know how to address or some tests you aren't sure how to add? Please bring
   these concerns up in your cover letter so we can help!
-
 
 Example Of A Good PR Cover Letter
 ---------------------------------
