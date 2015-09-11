@@ -95,9 +95,9 @@ whether the learner's answer is correct:
 * ``False``: Indicates that the learner answered incorrectly. All response
   fields are marked as incorrect.
 
-* ``"Partial"``: Indicates that the learner answer partially correctly. By
-  default the learner receives 50% of the points for the problem. For more
-  information, see `Award Half Credit`_.
+.. * ``"Partial"``: Indicates that the learner answer partially correctly. By
+..  default the learner receives 50% of the points for the problem. For more
+..  information, see `Award Half Credit`_.
 
 * A dictionary of the form: ``{ 'ok': True, 'msg': 'Message' }`` If the
   dictionary's value for ``ok`` is set to ``True``, all response fields are
@@ -341,113 +341,6 @@ sure to set **Show Answer** to **Never** in the problem component.
       </solution>
   </problem>
 
-.. _Award Half Credit:
-
-====================
-Award Half Credit
-====================
-
-You can configure a custom Pythyon-evaluated input problem so that learners who
-give a partially correct answer receive 50% of the points for a problem. To
-provide a learner with a more granular score, see `Award a Percentage of
-Credit for the Problem`_.
-
-The ``check`` function must use return the value ``"Partial"`` in one of the
-following ways.
-
-* Return the value ``"Partial"`` directly.
-
-* Return the value ``"Partial"`` in the dictionary that is returned, in the
-  following form.
-  
-  ``{ 'ok': 'Partial', 'msg': 'Message' }`` 
-
-* Return the value ``"Partial"`` as part of the input list for multi-part
-  problems.
-
-  .. code-block:: xml     
-    
-    { 'overall_message': 'Overall message',
-        'input_list': [
-            { 'ok': True, 'msg': 'Feedback for input 1'},
-            { 'ok': False, 'msg': 'Feedback for input 2'},
-            { 'ok': 'Partial', 'msg': 'Feedback for input 3'}
-            ... ] }
-
-With all of these options, ``True`` awards learners with 100% of the available
-points for the problem, ``'Partial'`` with 50%, and ``False`` with 0%.
-
-For more information about ``check`` function return values, see `The check
-Function`_.
-
-.. _Providing Partial Credit for Custom Python-Evaluated Input Problems:
-
-===========================================================
-Award a Percentage of Credit for the Problem
-===========================================================
-
-You can configure a custom Python-evaluated input problem that gives partial
-credit for learners' answers by returning a percent value as a grade. This
-method provides greater flexibility in assigning the learner a score than
-`providing half credit <provide half credit>`_.
-
-In the following example the learner's score equals the answer divided by 100.
-
-.. image:: ../../../shared/building_and_running_chapters/Images/partial-credit-python-problem.png
- :alt: An image of a write-your-own-grader problem that provides partial
-     credit.
-
-The following code shows the configuration of this problem.
-
-.. code-block:: xml
-
-  <problem>
-  <p>In the following problem, the learner receives a score that equals the 
-     answer / 100. If the learner's answer is greater tahn 100 or less than 0, 
-     the score equals 0.</p>
- 
-  <script type="loncapa/python">
- 
-  def give_partial_credit(expect, ans):
-    ans = float(ans)
-    if ans > 100 or ans < 0:
-        # Assign a score of zero if the answer is less than zero or over 100.
-        ans = 0
-    grade = ans/100
-    return {
-        'input_list': [
-           { 'ok': True, 'msg': 'Your grade is ' + str(ans) + '%', 'grade_decimal':grade},
-        ] 
-    }
-  </script>
- 
-  <p>Enter a number beween 0 and 100.</p>
-  <customresponse cfn="give_partial_credit">
-    <textline points="100" size="40" label="Ans1"/><br/>
-  </customresponse>
-  </problem>
-
-In this example:
-
-* The ``points`` attribute of the ``<customresponse>`` tag specifies that the
-  question is worth 100 points.
-
-* The function ``give_partial_credit`` checks that the answer is between 0 and
-  100, and if so divides the learner's answer by 100 to determine the grade.
-
-* The ``input_list`` that is returned specifies that:
-  
-  * The answer is acceptable and can receive partial or full credit, with the
-    item ``'ok': True``.
-
-  * The learner receives the message ``Your grade is`` followed by the percent
-    grade, with the item ``'msg': 'Your grade is ' + str(ans) + '%'``.
-
-  * The grade assigned is the learner's answer divided by 100, with the item
-    ``'grade_decimal':grade``.
-
-You can enhance and apply this example for your own problems in which you need
-to assign learners partial credit.
 
 .. _Create a Randomized Custom Python-Evaluated Input Problem:
 

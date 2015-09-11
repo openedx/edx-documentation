@@ -55,15 +55,15 @@ follow these steps.
    Component** select **Problem**.
 #. Select one of the two dropdown problem templates.
    
-   * From the list of **Common Problem Types**, select **Dropdown**. 
+  * From the list of **Common Problem Types**, select **Dropdown**. 
    
-   * From the list of **Common Problems with Hints and Feedback**, select
-     **Dropdown with Hints and Feedback**. For more information, see `Use
-     Feedback in a Dropdown Problem`_.
+  * From the list of **Common Problems with Hints and Feedback**, select
+    **Dropdown with Hints and Feedback**. For more information, see `Use
+    Feedback in a Dropdown Problem`_.
 
-     Studio adds the problem to the unit.
+    Studio adds the problem to the unit.
 
-4. Select **Edit**. The Simple Editor opens. 
+3. Select **Edit**. The Simple Editor opens. 
 #. Replace the sample problem text with your own text.
 #. Determine the text that describes the question you want learners to answer,
    and surround that text with two pairs of angle brackets (``>>question<<``).
@@ -330,79 +330,6 @@ or the advanced editor. For an overview of hints in problems, see
 
 .. include:: ../../../shared/exercises_tools/Subsection_configure_hints.rst
 
-.. _Awarding Partial Credit in a Dropdown Problem:
-
-*************************************************
-Awarding Partial Credit in a Dropdown Problem
-*************************************************
-
-You can configure a dropdown problem so that specific incorrect answers award
-learners partial credit for the problem. You must use the `Advanced Editor <Use
-the Advanced Editor to Edit a Dropdown Problem>`_ to configure partial credit.
-
-In the following example, the learner selected a wrong answer and received
-partial credit.
-
-.. image:: ../../../shared/building_and_running_chapters/Images/partial_credit_dropdown.png
- :alt: Image of a dropdown problem with partial credit for an incorrect
-     answer.
- :width: 600
-
-You can specify what percentage of the points for the problem a learner
-receives for an incorrect answer. If you do not specify the percentage, the
-default score of 50% is used.
-
-For an overview of partial credit in problems, see
-:ref:`Awarding Partial Credit for a Problem`.
-
-=================================================================
-Configure a Dropdown Problem to Award Partial Credit
-=================================================================
-
-To configure a dropdown problem to award partial credit for a specific
-answer, you add the following attributes to the problem XML.
-
-* Add the ``partial_credit="points"`` attribute to the
-  ``<optionresponse>`` element.
-
-* Add the ``partial`` attribute to the ``<optioninput>`` element. Include each
-  answer that you intend to award partial credit as a value for the ``partial``
-  attribute. Separate multiple values with a comma (,). For example,
-  ``partial="China, Spain"`` indicates that two answers receive partial credit.
-
-  .. Note:: 
-    Each value of the ``partial`` attribute must match a value in the
-    ``options`` attribute for the problem.
-
-* Optionally, you can define the percentage of the problem score to award for
-  each answer. In the ``point_values`` attribute for the
-  ``<optioninput>`` element, enter each value as a decimal. Separate multiple
-  values with a comma (,).
-
-  The percentage value is used for the answer in the same position in the
-  ``partial`` attribute. 
-
-  For example, if you added ``partial="China, Spain"`` and
-  ``point_value="0.25, 0.5"`` then the answer "China" earns 25% of the
-  points, and "Spain" earns 50% of the points. If you do not add the
-  ``point_values`` attribute, 50% is used for all partial credit answers.
-
-For example, the following XML shows the dropdown problem template updated to
-provide partial credit of 20% of the problem's points for learners who answer
-"China".
-
-.. code-block:: xml
-
-  <optionresponse partial_credit="points">
-    <optioninput label="Which of the following countries celebrates its 
-      independence on August 15?" 
-      options="('India','Spain','China','Bermuda')" 
-      correct="India"
-      partial = "China" 
-      point_values = "0.2" >
-    </optioninput>
-  </optionresponse>
-
 
 .. _Dropdown Problem XML:
 
@@ -463,16 +390,7 @@ Indicates that the problem is a dropdown problem.
 
   Attributes
 
-  .. list-table::
-     :widths: 20 80
-     :header-rows: 1
-
-     * - Attribute
-       - Description
-     * - partial_credit (optional)
-       - Specifies that the problem can award partial credit. If used, value
-         must be ``points``.
-
+  (none)
 
   Children
 
@@ -492,14 +410,6 @@ Lists the answer options.
      * - correct (required)
        - Indicates whether an answer is correct. Possible values are "true"
          and "false". Only one **correct** attribute can be set to "true".
-     * - partial (optional)
-       - Indicates whether an answer receives partial credit. If used, value is
-         a comma separated list of answers that receive partial credit.
-     * - point_value (optional)
-       - When there are one or more partial answers, indicates the percentage,
-         as a decimal, of the points the learner receives for selecting those
-         option. If "point_value" is not specified for a partial credit answer,
-         50% is used by default.
   
   Children
 
