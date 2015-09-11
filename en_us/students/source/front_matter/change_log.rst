@@ -12,6 +12,9 @@ Change Log
 
    * - Date
      - Change
+   * - 21 Oct 2015
+     - Added information about uploading additional file types to the
+       :ref:`Submit a File with Your Response` topic.
    * - 8 Oct 2015
      - Updated the :ref:`Certificates` topic to include information about
        :ref:`printing web certificates <Print a Web Certificate>`.
