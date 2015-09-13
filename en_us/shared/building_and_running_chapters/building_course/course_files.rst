@@ -28,7 +28,7 @@ The maximum size for an uploaded file is 50 MB.
 
 We recommend that you use standard compression tools to reduce PDF and image
 file sizes before you add the files to your course. If you have to use files
-that are larger than 50 MB after compression, contact your edX program manager.
+that are larger than 50 MB after compression, contact your edX Partner Manager.
 
 If you have video or audio files or large data sets to share with your
 students, use YouTube or another hosting service to host these files. Do not

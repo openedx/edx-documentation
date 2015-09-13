@@ -72,7 +72,7 @@ page.
  :width: 600
 
 .. note:: For courses on edX.org, you must communicate the course description
- to your edX Program Manager, to ensure the content is accurate on the course
+ to your edX Partner Manager, to ensure the content is accurate on the course
  About page.
 
 #. From the **Settings** menu, select **Schedule & Details**.
@@ -128,7 +128,7 @@ in the dashboard.
 .. note:: 
   On edX.org, the course image you add in Studio is used on the learner
   dashboard, but does not automatically appear on the course About page. Work
-  directly with your edX program manager to set up the About page assets and
+  directly with your edX Partner Manager to set up the About page assets and
   course image for the course summary page.
 
 .. _Add a Course Video:
@@ -183,7 +183,7 @@ Specifications` and :ref:`Video Formats` guidelines as course content videos.
 #. View your course About page to test how the video will appear to learners.
 
 .. note:: 
-  On edX.org, you work directly with your Program Manager to set up the course
+  On edX.org, you work directly with your Partner Manager to set up the course
   video in the summary page.
 
 .. _Set Course Effort Expectations:
