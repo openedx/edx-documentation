@@ -581,6 +581,12 @@ P
 
   For more information, see `Adding Pages to a Course`_.
 
+**Partner Manager**
+
+  Each EdX partner institution has an edX Partner Manager. The Partner Manager
+  is the primary contact for the institution's course teams.
+
+
 **Pre-Roll Video**
 
   A short video file that plays before the video component selected by the learner.

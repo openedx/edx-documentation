@@ -64,7 +64,7 @@ start the course.
 
   .. note::
     For courses on edX.org, you must communicate the course start and end dates
-    and times to your edX Program Manager to ensure the information is accurate
+    and times to your edX Partner Manager to ensure the information is accurate
     on the course About page.
 
 ============================
@@ -135,7 +135,7 @@ the course end date.
   For partner courses on edx.org, when the enrollment end date passes,
   the course is no longer listed in the course catalog. EdX encourages you to
   keep enrollment open as long as possible. For more information, contact your
-  edX program manager.
+  edX Partner Manager.
 
 .. _Set Start and End Dates:
 

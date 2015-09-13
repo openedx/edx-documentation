@@ -55,7 +55,7 @@ secret passphrase (a password).
 The result is the public key that you send to edX to use in encrypting data
 files for your institution, and the private key which you keep secret and use
 to decrypt the encrypted files that you receive. Creating these keys is a one-
-time process that you coordinate with your edX program manager. Instructions
+time process that you coordinate with your edX Partner Manager. Instructions
 for creating the keys on Windows or Macintosh follow.
 
 For more information about GPG encryption and creating key pairs, see the
@@ -88,7 +88,7 @@ Create Keys: Windows
 
 3. When Kleopatra presents the **Key Pair Successfully Created** dialog box,
    click **Send Certificate by EMail** to send the public key (and only the
-   public key) to your edX program manager.
+   public key) to your edX Partner Manager.
 
 #. Optionally, click **Make a Backup Copy of Your Key Pair** to store both of
    the keys on a removable data storage device.
@@ -123,7 +123,7 @@ Create Keys: Macintosh
    remember, or use a secure method of retaining it for reuse in the future:
    you use this passphrase when you decrypt your data packages.
 
-#. To send only your public key to your edX program manager, click the key and
+#. To send only your public key to your edX Partner Manager, click the key and
    then click **Export**. A dialog box opens.
 
   a. Specify a file name and location to save the file. 
@@ -135,7 +135,7 @@ Create Keys: Macintosh
   When you click **Save**, only the public key is saved in the resulting .asc
   file. Do not share your private key with edX or any third party.
 
-7. Compose an e-mail message to your edX program manager. Attach the .asc
+7. Compose an e-mail message to your edX Partner Manager. Attach the .asc
    file that you saved in the previous step to the message, then send the
    message.
 
@@ -153,7 +153,7 @@ each data czar. The credentials for accessing this account are called an Access
 Key and a Secret Key.
 
 After the edX Analytics team creates these access credentials for you, they use
-the public encryption key that you sent your program manager to encrypt the
+the public encryption key that you sent your Partner Manager to encrypt the
 credentials into a **credentials.csv.gpg** file. The edX Analytics team then
 sends the file to you as an email attachment.
 
