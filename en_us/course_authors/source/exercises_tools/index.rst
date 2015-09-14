@@ -25,6 +25,7 @@ Components Index`.
    chemical_equation
    circuit_schematic_builder
    conditional_module
+   completion
    custom_javascript
    drag_and_drop
    dropdown
