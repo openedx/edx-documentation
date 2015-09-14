@@ -60,6 +60,14 @@ General Exercises and Tools
        question then see a different block of text from the students who answer
        "No" to that question.
      - Provisional support   
+   * - :ref:`Completion Module`
+     - You can create a module which allows students to mark given
+       sections of the courseware as completed. This helps students
+       track progress through ungraded sections (such as reading text,
+       watching video, or participating in forums), and gives students
+       a way to signal indicate to both themselves and the instructors
+       that they did, indeed, perform the required activities.
+     - Provisional support   
    * - :ref:`Custom JavaScript`
      - Custom JavaScript display and grading problems (also called *custom
        JavaScript problems* or *JS Input problems*) allow you to create a
