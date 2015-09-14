@@ -20,6 +20,10 @@ For more information, see the following sections.
   :local:
   :depth: 1
 
+Be sure to review all supplemental materials to assure that they are accessible
+before making them available through your course. For more information, see
+:ref:`Accessibility Best Practices for Course Content Development`.
+
 *************************************
 Add a Qualtrics Survey to Your Course
 *************************************
