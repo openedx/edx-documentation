@@ -219,8 +219,8 @@ steps.
 
 #. In your browser, enter the URL for the course structure API. 
    
-   For example, to access the course structure API for the edX Demo course on
-   Edge, you enter this URL.
+   For example, to access the course structure API for the edX Demo course, 
+   you enter this URL.
 
    ``https://edge.edx.org/api/course_structure/v0/course_structures/course-v1:edX+DemoX+Demo_Course`` 
 

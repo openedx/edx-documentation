@@ -13,6 +13,8 @@ September 2015
 
    * - Date
      - Change
+   * - 18 September 2015
+     - Added the :ref:`Using Open edX as an LTI Tool Provider` section.
    * - 9 September 2015
      - Updated the :ref:`Student_Answer_Submission` section to include topics
        about the downloadable student state report and the submission history

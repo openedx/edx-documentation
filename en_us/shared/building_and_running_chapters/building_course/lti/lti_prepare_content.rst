@@ -15,10 +15,10 @@ Preparing to Reuse Course Content
 
 .. only:: Open_edX
 
-  Before you begin work to reuse the content in an edX course, check with your
-  development operations (DevOps) team for information about the edX website to
-  use. At some sites, a completely separate open edX instance, with a different
-  Studio website, is set up to be the LTI tool provider.
+  Before you begin work to reuse the content in an Open edX course, check with
+  your development operations (DevOps) team for information about the 
+  website to use. At some sites, a completely separate Open edX instance, with
+  a different Studio website, is set up to be the LTI tool provider.
 
 .. contents:: 
    :local:
@@ -69,21 +69,28 @@ editing its XML before you import.
 Create the Duplicate Course
 ***********************************
 
-Before you create a duplicate course, be sure to check with your DevOps team or
-your edX PM to determine the website that hosts your organization's courses for
-LTI use.
+.. only:: Partners
+
+  Before you create a duplicate course, be sure to check with your DevOps team
+  or your edX Partner Manager to determine the website that hosts your
+  organization's courses for LTI use.
+
+.. only:: Open_edX
+
+  Before you create a duplicate course, be sure to check with your DevOps team
+  to determine the website that hosts your organization's courses for LTI use.
 
 To create the duplicate course, follow these steps.
 
-#. In Studio on edX Edge, export the course. For more information, see
+#. In Studio, export the original course. For more information, see
    :ref:`Export a Course`.
    
-#. In Studio on your organization's host site for LTI courses (either edX Edge
-   or your organization's own LTI site), create a course. This is the duplicate
-   course.
+#. In Studio on your organization's host site for LTI courses, create a course.
+   This is the duplicate course.
    
-   .. note:: If your organization uses edX Edge as the host site, be sure to
-    give the duplicate course a different, distinguishing name or run.
+   .. note:: If your organization uses the same site as the host for both the 
+    original course and for LTI courses, be sure to give the duplicate course a
+    different name or run.
 
 #. In the duplicate course, import the tar.gz file that you exported in step 1.
    For more information, see :ref:`Import a Course`.
