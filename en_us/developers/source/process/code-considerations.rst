@@ -5,6 +5,10 @@ Code Considerations
 This is a checklist of all of the things that we expect a developer to consider
 as they are building new or modifying existing functionality.
 
+.. contents::
+   :local:
+   :depth: 1
+
 Operational Impact
 ==================
 
