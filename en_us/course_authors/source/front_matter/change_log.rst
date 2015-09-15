@@ -22,6 +22,9 @@ September 2015
 
    * - Date
      - Change
+   * - 15 September 2015
+     - Updated the :ref:`Rerun a Course` section to make it clear that only
+       edX Partner Managers can rerun a course.
    * - 9 September 2015
      - Added the :ref:`View the Course Structure API for the Usage ID` topic.
    * -
@@ -44,17 +47,6 @@ August 2015
 
    * - Date
      - Change
-   * - 26 August 2015
-     - Several additions were made to provide information about awarding
-       partial credit for problems.
-       
-       * :ref:`Awarding Partial Credit for a Problem`
-       * :ref:`Awarding Partial Credit in a Checkbox Problem`
-       * :ref:`Awarding Partial Credit in a Dropdown Problem`
-       * :ref:`Awarding Partial Credit in a Multiple Choice Problem` 
-       * :ref:`Awarding Partial Credit in a Numerical Input Problem`
-       * :ref:`Award Half Credit` in a Write Your Own Grader Problem
-   
    * - 
      - Updated the :ref:`Course Data` topic to include descriptions of newly
        added values.
@@ -238,10 +230,6 @@ March 2015
        :ref:`cohorted discussions<Set up Discussions in Cohorted Courses>` to
        reflect that cohort management is now done on the Instructor Dashboard 
        in the LMS.
-
-   * - 20 Mar 2015
-     - Added the :ref:`Providing Partial Credit for Custom Python-Evaluated
-       Input Problems` section to the :ref:`Write Your Own Grader` chapter.
    * - 18 Mar 2015
      - Added the :ref:`Content Libraries` and :ref:`Randomized Content
        Blocks` sections to reflect support for libraries in Studio.
