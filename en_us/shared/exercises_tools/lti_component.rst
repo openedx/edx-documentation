@@ -33,6 +33,13 @@ When you add an LTI component to your course, the edX Learning Management
 System (LMS) is the LTI tool consumer, and the external tool or content is the
 LTI tool provider. 
 
+Be sure to review all supplemental materials to assure that they are accessible
+before making them available through your course. For more information, see
+:ref:`Accessibility Best Practices for Course Content Development`.
+
+
+.. Alison Make this link V available when you add new LTI section to open source - Alison 14 Sept 15
+
 .. You can also integrate content from an edX course into a remote learning management system such as Canvas or Blackboard. For more information about how to use Studio as an LTI tool provider, see :ref:`TBD`.
 
 .. _LTI Information:
