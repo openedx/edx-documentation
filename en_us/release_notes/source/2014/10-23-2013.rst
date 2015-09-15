@@ -56,7 +56,7 @@ New Features
 * **Text customization capability**
 
   You can now customize some of the UI text that your students see. You do this through the text_customization key in the Advanced
-  Settings for the course. (However, edX recommends that you contact your Program Manager before you modify the text_customization key.) 
+  Settings for the course. (However, edX recommends that you contact your Partner Manager before you modify the text_customization key.) 
 
 * **JavaScript loading performance**
 

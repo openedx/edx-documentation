@@ -79,7 +79,7 @@ Before you re-run a course, complete the following steps.
   permission to create courses in Studio.
 
 * For a course that is hosted on the `edx.org`_ site, contact your Program
-  Manager. Your Program Manager will create the new course using the re-run
+  Manager. Your Partner Manager will create the new course using the re-run
   feature, and then work with you to complete the steps to :ref:`update the new
   course<Update the New Course>`.
 
