@@ -194,6 +194,8 @@
 
 .. _Installing the edX Production Stack: http://edx.readthedocs.org/projects/edx-installing-configuring-and-running/en/latest/prodstack/install_prodstack.html
 
+.. _Installing the Open edX Analytics Developer Stack: http://edx.readthedocs.org/projects/edx-installing-configuring-and-running/en/latest/devstack/analytics_devstack.html
+
 .. _edX Research Guide: http://edx.readthedocs.org/projects/devdata/en/latest/
 
 .. _edx.instructor.report.downloaded: http://edx.readthedocs.org/projects/devdata/en/latest/internal_data_formats/tracking_logs.html#edx-instructor-report-downloaded
@@ -603,6 +605,7 @@
 
 .. _Open edX Cypress Release Notes: http://edx.readthedocs.org/projects/open-edx-release-notes/en/latest/cypress.html
 
-.. _Student Answer Submissions: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/
+.. _Student Answer Submissions: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/running_course/course_answers.html#student-answer-submissions
 
+.. _Using edX as an LTI Tool Provider: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/building_course/lti/index.html
 
