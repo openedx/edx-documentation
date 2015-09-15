@@ -543,7 +543,7 @@ Location identifiers for problems can be in one of these formats.
 * ``location = block-v1:{org}+{course}+{run}+type@problem+block@{id}``, for
   example, ``location = block-v1:edX+BlendedX+1T2015+type@problem+block@72e0f73cdf5c4d648ebec0022854f18b``
 
-* ``i4x://{org}/{course}/problem/{id}``, for example, 
+* ``location = i4x://{org}/{course}/problem/{id}``, for example, 
   ``location = i4x://edX/edX101/problem/680cc746e8ee473490841334f0235635``
 
 Courses created since Fall 2014 typically have usage IDs in the first format,
@@ -563,7 +563,7 @@ To find the unique location identifier for a problem, follow these steps.
    including its **location**.
 
 #. To copy the location of the problem, select the entire value after
-   ``location = ``, right click, and then select **Copy**.
+   ``location =``, right click, and then select **Copy**.
 
 To close the Staff Debug viewer, click on the browser page outside of the
 viewer.
