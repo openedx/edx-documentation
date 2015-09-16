@@ -7,11 +7,11 @@
   of an organization's course teams can work collaboratively to develop the
   problems that the libraries contain. Each library can then be referenced by
   randomized content blocks in any of that organization's courses. For more
-  information, see `Working with Libraries`_.
+  information, see :ref:`partnercoursestaff:Content Libraries`.
 
-* Open response assessments can now include more than one prompt or
-  question. A single rubric is used to grade all of the prompts in the
-  assessment. For more information, see `Creating Peer Assessments`_.
+* Open response assessments can now include more than one prompt or question. A
+  single rubric is used to grade all of the prompts in the assessment. For more
+  information, see :ref:`partnercoursestaff:Open Response Assessments`.
 
 * When you add an HTML component to a course outline and select the Full
   Screen Image Tool, IFrame Tool, or Zooming Image Tool, revised example

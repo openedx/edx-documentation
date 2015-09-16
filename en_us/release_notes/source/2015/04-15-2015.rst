@@ -37,5 +37,4 @@ EdX Website
 
 .. include:: documentation/doc_0415_2015.rst
 
-
-.. include:: ../links.rst
+.. include:: ../../../links/links.rst

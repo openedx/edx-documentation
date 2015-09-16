@@ -12,4 +12,4 @@ a pull request back to the original project: this is known as the `GitHub
 Flow`_. All pull requests need approval from edX. For more information, contact
 edX at docs@edx.org.
 
-.. include:: ../links.rst
+.. include:: ../../../links/links.rst

@@ -58,7 +58,4 @@ XBlocks
 
 .. include:: xblocks/xblocks_0311_2015.rst
 
-
-
-
-.. include:: ../links.rst
+.. include:: ../../../links/links.rst

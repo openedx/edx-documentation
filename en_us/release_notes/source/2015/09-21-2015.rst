@@ -32,4 +32,4 @@ Studio
 
 
 
-.. include:: ../links.rst
+.. include:: ../../../links/links.rst

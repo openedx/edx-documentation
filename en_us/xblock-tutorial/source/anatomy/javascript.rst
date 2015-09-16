@@ -45,4 +45,4 @@ Note the following details about the JavaScript file.
 The XBlock JavaScript code can also use the ``children`` and ``childMap``
 functions as needed. For more information, see :ref:`XBlock Children`.
 
-.. include:: ../links.rst
+.. include:: ../../../links/links.rst

@@ -164,5 +164,4 @@ The following information describes what is new in edX documentation.
 
 .. include:: 2015/documentation/doc_0108_2015.rst
 
-
-.. include:: links.rst
+.. include:: ../../links/links.rst

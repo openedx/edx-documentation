@@ -54,4 +54,5 @@ The following information describes what is new in the edX mobile apps.
 
 
   
-.. include:: links.rst
+
+.. include:: ../../links/links.rst

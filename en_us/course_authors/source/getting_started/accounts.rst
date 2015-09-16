@@ -27,7 +27,7 @@ edx.org and edX Edge
 *************************
 
 To explore edX courses, you can register an account on the edx.org_ website,
-the edX Edge_ website, or both. These sites are visually and functionally
+the `edX Edge`_ website, or both. These sites are visually and functionally
 similar, but their content and purposes are different.
 
 * edx.org hosts massive open online courses (MOOCs) from edX institutional
@@ -100,9 +100,4 @@ to help familiarize you with taking and creating edX courses.
   Studio. It is a self-paced walk-through of planning, building, and running
   your own online course.
 
-.. _Overview of Creating an edX Course: https://www.edx.org/course/overview-creating-edx-course-edx-edx101#.VHKBz76d9BV
-.. _edX Demo course: https://www.edx.org/course/edx/edx-edxdemo101-edx-demo-1038
-.. _Edge: http://edge.edx.org
-.. _edX.org: http://edx.org
-.. _Edge registration: http://edge.edx.org/register
-.. _edx.org registration: https://courses.edx.org/register
+.. include:: ../../../links/links.rst

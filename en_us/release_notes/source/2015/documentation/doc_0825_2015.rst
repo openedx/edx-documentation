@@ -5,17 +5,12 @@ Documentation for edX Partners
 Building and Running an edX Course
 **********************************
  
-* Added `Awarding Partial Credit for a Problem`_ to the
-  *Working with Problems* topic. This section contains links to information on
-  configuring checkbox, dropdown, multiple choice, and numeric input problem
-  topics to award partial credit.
+* Updated :ref:`partnercoursestaff:Course Data` to include descriptions of
+  newly added values.
 
-* Updated `Course Data`_ to include descriptions of newly added
-  values.
-
-* Updated `Enrollment`_ to remove references to enrollment
-  counts on the Instructor Dashboard. Course enrollment data is available
-  in edX Insights.
+* Updated :ref:`partnercoursestaff:Enrollment` to remove references to
+  enrollment counts on the Instructor Dashboard. Course enrollment data is
+  available in edX Insights.
 
 
 ==================================
@@ -28,24 +23,10 @@ We do not update the documentation for Open edX releases.
 
 Building and Running an Open edX Course
 ****************************************
- 
-* Added `Awarding Partial Credit for a Problem - Open edX`_ to the *Working
-  with Problems* topic. This section contains links to information on
-  configuring checkbox, dropdown, multiple choice, and numeric input problem
-  topics to award partial credit.
 
-* Updated `Course Data - Open edX`_ to include descriptions of newly added
-  values.
+* Updated :ref:`opencoursestaff:Course Data` to include descriptions of newly
+  added values.
 
-* Updated `Managing Course Discussions - Open edX`_ with information about
-  discussion administration options that are not yet available in the edX
+* Updated :ref:`opencoursestaff:Discussions` with information
+  about discussion administration options that are not yet available in the edX
   mobile apps.
-
-
-Open Learning XML Guide
-****************************************
- 
-Added `Awarding Partial Credit for a Problem - OLX`_ to the *Working
-with Problems* topic. This section contains links to information on configuring
-checkbox, dropdown, multiple choice, and numeric input problem topics to award
-partial credit.

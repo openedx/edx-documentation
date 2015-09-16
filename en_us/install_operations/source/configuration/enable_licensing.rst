@@ -1,5 +1,3 @@
-.. include:: ../links.rst
-
 .. _Enable Licensing:
 
 ####################################
@@ -66,3 +64,5 @@ Enable Licensing in the Learning Management System
           . . .
 
 #. Save the ``/lms/envs/common.py`` file.
+
+.. include:: ../../../links/links.rst

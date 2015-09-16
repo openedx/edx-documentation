@@ -69,4 +69,5 @@ By Date
 
 .. include:: reusables/documentation.rst
 
-.. include:: links.rst
+
+.. include:: ../../links/links.rst

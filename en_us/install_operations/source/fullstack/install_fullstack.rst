@@ -1,5 +1,3 @@
-.. include:: ../links.rst
-
 .. _Installing Open edX Fullstack:
 
 ####################################
@@ -127,3 +125,5 @@ Browser Login to Open edX Fullstack
    * verified@example.com / edx
    * audit@example.com / edx
    * honor@example.com / edx
+
+.. include:: ../../../links/links.rst

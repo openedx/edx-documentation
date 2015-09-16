@@ -39,4 +39,4 @@ See the following chapters for more information.
 
    manual-testing-structure
 
-.. include:: ../links.rst
+.. include:: ../../../links/links.rst

@@ -166,4 +166,4 @@ IdP to sign in to Edge, follow these steps.
 .. Alison 15 Jul 2015
 
 
-.. include:: ../../links.rst
+.. include:: ../../../../links/links.rst

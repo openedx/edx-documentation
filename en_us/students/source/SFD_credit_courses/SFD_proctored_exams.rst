@@ -83,7 +83,7 @@ several example problems that you can try to answer. For more information, see
 
  * :ref:`Online Proctoring Rules`
 
- * `Proctoring Software System Requirements <http://clientportal.softwaresecure.com/support/index.php?/Knowledgebase/Article/View/252/0/system-requirements-remote-proctor-now>`_
+ * `Proctoring Software System Requirements`_
 
 To satisfy the proctored exam requirement for credit eligibility, you must
 take the exam as a proctored exam and receive a **Satisfactory** result for
@@ -122,10 +122,9 @@ Know the Rules and Requirements for Online Proctoring
 
 * You must be on certain versions of the Windows or Mac operating systems for
   the proctoring software to work. Check the `Proctoring Software System
-  Requirements <http://clientportal.softwaresecure.com/support/index.php?/Knowledgebase/
-  Article/View/252/0/system-requirements-remote-proctor-now>`_ to make sure you are using
-  a supported operating system version and that your computer meets the minimum system 
-  requirements for running the remote proctoring software.
+  Requirements`_ to make sure you are using a supported operating system
+  version and that your computer meets the minimum system requirements for
+  running the remote proctoring software.
 
 * You must be using one of the browser versions supported by edX. Check the
   :ref:`list of edX supported browsers <Browsers>` to make sure you are using
@@ -798,5 +797,5 @@ eligibility status on your **Progress** page.
 For more information about academic course credit, see :ref:`SFD Academic
 Course Credit`.
 
-
+.. include:: ../../../links/links.rst
 

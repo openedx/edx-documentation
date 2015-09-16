@@ -54,4 +54,4 @@ instructions.
 For information on creating the virtual environment for your XBlock, see
 :ref:`Create and Activate the Virtual Environment`.
 
-.. include:: ../links.rst
+.. include:: ../../../links/links.rst

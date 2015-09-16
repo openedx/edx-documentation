@@ -1,5 +1,3 @@
-.. include:: links.rst
-
 .. _Setting up the Mobile Applications:
 
 ############################################
@@ -143,13 +141,12 @@ includes the video in the course structure.
 * To configure a video module in edX Studio, you edit the video component. On
   the **Advanced** tab, in the **Video File URLs** field, enter the URL to the
   mobile-targeted video as the first URL in the list. For more information,
-  see `Working with Video Components`_ in *Building and Running an Open edX
-  Course*.
+  see :ref:`opencoursestaff:Working with Video Components` in *Building and Running an Open edX Course*.
 
 * To configure a video module by editing the course XML, enter the URL to the
   mobile-targeted video as the first URL in the list of ``html5_sources``. For
-  more information, see `Video Components`_ in the *edX Open Learning XML
-  Guide*.
+  more information, see :ref:`olx:Video Components` in the *edX
+  Open Learning XML Guide*.
 
 ****************************************
 Enabling Push Notifications
@@ -216,3 +213,5 @@ directories and files, see the GitHub repositories for `iOS`_ and `Android`_.
     PUSH_NOTIFICATIONS: true
    
 #. Save the file.
+
+.. include:: ../../links/links.rst

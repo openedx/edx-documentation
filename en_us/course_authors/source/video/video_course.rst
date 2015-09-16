@@ -198,5 +198,4 @@ To test transcript downloads for the video, select **Download transcript** in
 the video player's control bar. You can choose either the SubRip (.srt) format
 or text (.txt) format to download.
 
-
-.. _3Play Media: http://www.3playmedia.com
+.. include:: ../../../links/links.rst

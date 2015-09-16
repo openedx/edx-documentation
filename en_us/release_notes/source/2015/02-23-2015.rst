@@ -45,6 +45,4 @@ ORA
 
 .. include:: ora/ora_0223_2015.rst
 
-
-
-.. include:: ../links.rst
+.. include:: ../../../links/links.rst

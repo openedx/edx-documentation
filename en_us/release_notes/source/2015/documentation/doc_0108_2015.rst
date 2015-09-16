@@ -3,25 +3,25 @@
 Building and Running an edX Course
 ==================================
 
-* The `Custom JavaScript Problem`_ and `Multiple Problems in One Component`_
-  sections are updated to indicate that you cannot use a custom JavaScript
-  problem in a component with multiple problems.
+* The :ref:`partnercoursestaff:Custom JavaScript` and
+  :ref:`partnercoursestaff:Multiple Problems in One Component` sections are
+  updated to indicate that you cannot use a custom JavaScript problem in a
+  component with multiple problems.
 
-* The `Adding Course Updates and Handouts`_ and `The Visual Editor`_ sections
-  are updated to clarify that the visual editor is not supported for course
-  handouts.
+* The :ref:`partnercoursestaff:Adding Course Updates and Handouts` and
+  :ref:`partnercoursestaff:Advanced Editor` sections are updated to clarify
+  that the visual editor is not supported for course handouts.
 
 ==================================
 edX Research Guide
 ==================================
 
 Updated information is available for video events that the edX mobile app
-emits. See the `Tracking Logs`_ chapter.
+emits. See the :ref:`data:Tracking Logs` chapter.
 
 ======================================
 edX Data Analytics API
 ======================================
 
-The initial, version 0 Alpha of the `Open edX Data Analytics API`_ guide is now
-published.
-
+The initial, version 0 Alpha of the :ref:`opendataapi:Open edX Data Analytics
+API` guide is now published.

@@ -201,4 +201,4 @@ The following information describes what is new in the edX LMS.
 .. include:: 2015/lms/lms_0108_2015.rst
 
 
-.. include:: links.rst
+.. include:: ../../links/links.rst

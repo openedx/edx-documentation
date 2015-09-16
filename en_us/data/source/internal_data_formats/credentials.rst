@@ -61,7 +61,6 @@ for creating the keys on Windows or Macintosh follow.
 For more information about GPG encryption and creating key pairs, see the
 `Gpg4win Compendium`_.
 
-.. _Gpg4win Compendium: http://www.gpg4win.org/doc/en/gpg4win-compendium.html
 
 =====================
 Create Keys: Windows
@@ -98,7 +97,6 @@ Create Keys: Windows
  files, work with edX to set her or him up as an additional data czar. Data
  czars must create and use their own passphrases.
 
-.. _Gpg4win: http://gpg4win.org/
 
 =======================
 Create Keys: Macintosh
@@ -138,9 +136,6 @@ Create Keys: Macintosh
 7. Compose an e-mail message to your edX Partner Manager. Attach the .asc
    file that you saved in the previous step to the message, then send the
    message.
-
-.. _GPG Tools: https://gpgtools.org/
-.. _First Steps: http://support.gpgtools.org/kb/how-to/first-steps-where-do-i-start-where-do-i-begin#setupkey
 
 ****************************************************************
 EdX: Deliver Credentials for Accessing Data Storage
@@ -241,5 +236,7 @@ Browser. Alternatively, you can use the `AWS Command Line Interface`_.
 For information about the files found at each of these Amazon S3 destinations,
 see :ref:`Package`.
 
-.. _AWS Command Line Interface: http://aws.amazon.com/cli/
+
+
+.. include:: ../../../links/links.rst
 

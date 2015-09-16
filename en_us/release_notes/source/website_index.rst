@@ -106,4 +106,4 @@ The following information describes what is new on edx.org and Edge.
 .. include:: 2015/website/website_0108_2015.rst
 
 
-.. include:: links.rst
+.. include:: ../../links/links.rst

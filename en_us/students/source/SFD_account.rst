@@ -54,8 +54,4 @@ If you are new to online learning, you might want to take the `edX Demo
 course`_. EdX provides this demonstration course to give you a way to explore
 and learn how to take an edX course.
 
-
-.. _edX Demo course: https://www.edx.org/course/edx/edx-edxdemo101-edx-demo-1038
-.. _edX Edge: http://edge.edx.org
-.. _edX.org: http://edx.org
-.. _edx.org registration: https://courses.edx.org/register
+.. include:: ../../links/links.rst

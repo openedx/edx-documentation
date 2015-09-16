@@ -62,4 +62,4 @@ approximately identical.
    text_input
 
 
-.. include:: ../links.rst
+.. include:: ../../../links/links.rst

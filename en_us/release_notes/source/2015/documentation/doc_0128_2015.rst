@@ -5,32 +5,33 @@ Building and Running an edX Course
 
 This guide now includes a new section about creating different course
 experiences for learners who are assigned to different cohorts. For more
-information, see `Creating Cohort Specific Courseware`_.
+information, see :ref:`partnercoursestaff:Cohorted Courseware Overview`.
 
 =================================
 edX Developer's Guide
 =================================
 
-To support packaged releases for Open edX better, the source files for the  `edX
-Developer's Guide`_ are now located in the GitHub ``edx-documentation``
-repository.
+To support packaged releases for Open edX better, the source files for the
+:ref:`opendevelopers:edX Developer's Guide` are now located in the GitHub
+``edx-documentation`` repository.
 
 =======================
 edX Guide for Students
 =======================
 
 Answers to frequently asked questions about the edX mobile app are now
-available in the `The edX Mobile App`_ section of this guide.
+available in the :ref:`learners:SFD Mobile` section of this guide.
 
 =======================================================
 Installing, Configuring, and Running the edX Platform
 =======================================================
 
-This guide now includes new chapters for `Installing edX Insights`_ and
-`Setting up the edX Mobile Applications`_.
+This guide now includes new chapters for :ref:`installation:Installing edX
+Insights` and :ref:`installation:Setting up the Mobile Applications`.
 
 ==================================
 edX Research Guide
 ==================================
 
-This guide now includes a description of the new `Email Opt In Report`_.
+This guide now includes a description of the new :ref:`data:Email Opt In
+Report`.

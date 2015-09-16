@@ -169,5 +169,4 @@ The following information describes what is new in edX Studio.
 
 .. include:: 2015/studio/studio_0108_2015.rst
 
-
-.. include:: links.rst
+.. include:: ../../links/links.rst

@@ -8,7 +8,5 @@ partial credit for a problem if they submit an answer that is partly correct.
 * Numerical Input
 
 By awarding partial credit for problems, you can motivate learners who have
-mastered some of the course content and provide a score that reflects their progress.
-
-For more information about configuring partial credit, see `Awarding Partial
-Credit for a Problem`_ or `Awarding Partial Credit for a Problem - Open edX`_.
+mastered some of the course content and provide a score that reflects their
+progress.

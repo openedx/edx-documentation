@@ -5,5 +5,6 @@ support analytics development. This environment, known as the Analytics
 Devstack, includes the edX Analytics Data API and Open edX Insights, as well
 as all of the components needed to run the Open edX Analytics Pipeline.
 
-For more information, see `Installing the Open edX Analytics Developer Stack`_
-in the *Installing, Configuring, and Running the Open edX Platform* guide.
+For more information, see :ref:`installation:Installing the Open edX Analytics
+Developer Stack` in the *Installing, Configuring, and Running the Open edX
+Platform* guide.

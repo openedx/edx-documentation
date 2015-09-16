@@ -21,4 +21,4 @@ example Thumbs XBlocK, see :ref:`Customize Your XBlock`.
    javascript
    stylesheets
 
-.. include:: ../links.rst
+.. include:: ../../../links/links.rst

@@ -6,21 +6,12 @@ The following information reflects what is new in the edX Platform as of
 December 9, 2014. See previous pages in this document for a history of
 changes.
 
-****************************************
-edX Release Announcements Mailing List
-****************************************
-
-These edX Course Staff Release Notes are always available and are updated with
-each release of the edX Platform on `edx.org`_ and `edX Edge`_.
-
-You can also sign up for the `edX Release Announcements mailing list`_ to get
-an email message when we update the edX Course Staff Release Notes.
 
 ******************************
 edX Resources
 ******************************
 
-* A new version of the `edX101`_ course has been released on edx.org. This high-level
+* A new version of the edX101 course has been released on edx.org. This high-level
   overview of the course creation and delivery process includes guidance for
   adapting traditional courses to the edX platform and introduces the basic
   course components and problem types that course authors can use. 
@@ -65,60 +56,3 @@ Coming Soon
 Students who enroll in a verified course must currently complete the ID
 verification process before completing the payment process. Soon, the ID
 verification and payment processes will be separate.
-
-**************************
-edX Documentation
-**************************
-
-The following documentation is available:
-
-* `Building and Running an edX Course`_
-
-  Click **Help** in the upper-right corner of any page in the edX Studio
-  user interface to access relevant sections of this guide. You can also
-  download the entire guide as a PDF.
-
-  Recent changes include:
-
-  * Reorganized the `Cohorts`_ and `Discussions`_ topics.
-
-.. adding line for space
-
-* `EdX Guide for Students`_
-  
-  Recent changes include:
-
-  * Added the `Course Wiki`_ topic.
-  * Added a list of topics in the guide to the `Introduction`_ page.
-  * Added the `Preface`_.
-
-.. adding line for space
-
-* `Using edX Insights`_
-
-* `Creating Peer Assessments`_
-
-* `edX Research Guide`_
-
-* `Open edX Developer's Guide`_
-
-* `Open edX XBlock API Guide`_
-
-* `Installing, Configuring, and Running the edX Platform`_
-
-* `edX Open Learning XML Guide`_
-
-* `Open edX Platform API`_
-
-**************************
-Other edX Resources
-**************************
-
-You can access the `edX Status`_ page to get an up-to-date status for all
-services on edx.org and edX Edge. The page also includes the Twitter feed for
-@edXstatus, which the edX Operations team uses to post updates.
-
-You can access the public `edX roadmap`_ for details about the currently
-planned product direction.
-
-.. include:: ../links.rst

@@ -1,5 +1,3 @@
-.. include:: ../links.rst
-
 .. _Installing the Open edX Developer Stack:
 
 ########################################
@@ -168,3 +166,5 @@ To resolve the error, follow these steps.
 #. Navigate to **Preferences > Network > Host-only Networks** and remove the
    most-recently-created host-only network.
 #. Type ``vagrant up``.
+
+.. include:: ../../../links/links.rst

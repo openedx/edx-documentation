@@ -15,7 +15,4 @@ Flow`_.
 All pull requests need approval from edX. For more information, contact edX at
 docs@edx.org.
 
-.. _Sphinx: http://sphinx-doc.org/
-.. _LaTeX: http://www.latex-project.org/
-.. _`GitHub Flow`: https://github.com/blog/1557-github-flow-in-the-browser
-.. _RST: http://docutils.sourceforge.net/rst.html
+.. include:: ../../../links/links.rst

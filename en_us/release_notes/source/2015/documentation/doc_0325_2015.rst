@@ -3,8 +3,10 @@
 Building and Running an edX Course
 ==================================
 
-* New `Renaming a Cohort`_ and `Changing the Assignment Method of a Cohort`_ 
-  sections are now available in the "Including Student Cohorts" chapter.
+* New :ref:`partnercoursestaff:Renaming a Cohort` and
+  :ref:`partnercoursestaff:Changing the Assignment Method of a Cohort` sections
+  are now available in the "Including Student Cohorts" chapter.
 
-* Topics throughout the `Cohorts`_ chapter have been updated to reflect that
-  cohort management is now done on the Instructor Dashboard in the LMS. 
+* Topics throughout the :ref:`partnercoursestaff:Cohorts Overview` chapter have
+  been updated to reflect that cohort management is now done on the Instructor
+  Dashboard in the LMS.

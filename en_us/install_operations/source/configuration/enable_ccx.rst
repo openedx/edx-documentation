@@ -1,5 +1,3 @@
-.. include:: ../links.rst
-
 .. _Enable CCX:
 
 ####################################
@@ -29,3 +27,5 @@ Open edX, you must configure the ``server-vars.yml`` file in the edX platform.
      sudo /edx/bin/update edx-platform <your-branch-name>
 
 4. Restart the LMS server.
+
+.. include:: ../../../links/links.rst

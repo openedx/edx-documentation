@@ -83,4 +83,4 @@ The student sees this sequential as:
 .. Image:: ../Images/Insider-first-sequential.png
  :alt: The squential as a student views it
 
-.. include:: ../links.rst
+.. include:: ../../../links/links.rst

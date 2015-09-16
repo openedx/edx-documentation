@@ -101,4 +101,4 @@ CSS strings generated from the XBlock's static files.
 
   TBP
 
-.. include:: ../links.rst
+.. include:: ../../../links/links.rst

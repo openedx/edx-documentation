@@ -146,4 +146,4 @@ course.
 
 See :ref:`Course Tabs` for more information.
 
- .. include:: links.rst
+.. include:: ../../links/links.rst

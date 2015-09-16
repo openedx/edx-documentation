@@ -14,6 +14,5 @@ After you enable third party authentication and your institutional identity
 provider, learners who already have campus credentials can use them to
 authenticate into edX Edge.
 
-For more information, see `Enabling Third Party Authentication with edX Edge`_
-in *Installing, Configuring, and Running the Open edX Platform*.
-
+For more information, see :ref:`installation:Enabling Third Party Authentication Edge` in *Installing, Configuring, and Running the Open
+edX Platform*.

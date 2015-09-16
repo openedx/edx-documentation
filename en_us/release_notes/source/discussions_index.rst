@@ -63,8 +63,4 @@ The following information describes what is new in edX discussions.
 .. include:: 2015/discussions/disc_0108_2015.rst
 
 
-
-
-
-
-.. include:: links.rst
+.. include:: ../../links/links.rst

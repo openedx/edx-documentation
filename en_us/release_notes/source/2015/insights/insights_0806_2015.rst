@@ -6,5 +6,5 @@ enrolled in the course) as well as for **Current Enrollment** (the number of
 learners enrolled as of the computation date, not including learners who have
 unenrolled).
 
-For more information, see the `Enrollment Activity`_ section in
+For more information, see the :ref:`insights:Enrollment_Activity` section in
 the *Using edX Insights* guide.

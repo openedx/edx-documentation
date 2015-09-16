@@ -1,5 +1,3 @@
-.. include:: ../links.rst
-
 .. _Enable Entrance Exams:
 
 ########################
@@ -44,3 +42,6 @@ Enable Entrance Exams in Studio and the Learning Management System
      'ENTRANCE_EXAMS': True,
 
 #. Save the ``/cms/envs/common.py`` and ``/lms/envs/common.py`` files.
+
+.. include:: ../../../links/links.rst
+

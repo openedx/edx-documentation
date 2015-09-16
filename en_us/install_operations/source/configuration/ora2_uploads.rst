@@ -1,4 +1,3 @@
-.. include:: ../links.rst
 .. _Configuring ORA2 to Upload Files to Alternative Storage Systems:
 
 ################################################################
@@ -31,3 +30,5 @@ must complete the following steps.
    implementation of ``BaseBackend``.
 
 .. to do - used shared file with cypress release notes
+
+.. include:: ../../../links/links.rst

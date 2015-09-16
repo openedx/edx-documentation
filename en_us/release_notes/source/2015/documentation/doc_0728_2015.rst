@@ -5,8 +5,8 @@ Documentation for edX Partners
 Building and Running an edX Course
 **********************************
  
-The new `Specific Student View`_ section provides instructions for course teams
-to view the course as a specific student.
+The new :ref:`partnercoursestaff:Specific Student View` section provides
+instructions for course teams to view the course as a specific student.
 
 ==================================
 Documentation for Open edX Users
@@ -15,15 +15,15 @@ Documentation for Open edX Users
 Building and Running an Open edX Course
 ****************************************
  
-The new `Specific Student View - Open edX`_ section
+The new :ref:`opencoursestaff:Specific Student View` section
 provides instructions for course teams to view the course as a specific
 student.
 
 Open edX XBlock Tutorial
 ****************************************
 
-EdX has just released the `Open edX XBlock Tutorial`_. This tutorial guides
-developers through the process of creating an XBlock, and explains the
-concepts and anatomy of XBlocks.
+EdX has just released the :ref:`xblocktutorial:Open edX XBlock Tutorial`. This
+tutorial guides developers through the process of creating an XBlock, and
+explains the concepts and anatomy of XBlocks.
 
-There is a separate `Open edX XBlock API Guide`_.
+There is a separate :ref:`xblockapi:EdX XBlock API Guide`.

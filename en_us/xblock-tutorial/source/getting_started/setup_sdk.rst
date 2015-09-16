@@ -71,4 +71,4 @@ Then create the virtual environment in your ``xblock_development`` directory.
 When the requirements are installed, you are ready to :ref:`create your first
 XBlock <Create Your First XBlock>`.
 
-.. include:: ../links.rst
+.. include:: ../../../links/links.rst

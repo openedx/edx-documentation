@@ -5,15 +5,6 @@ September 4, 2014
 The following information reflects what is new in the edX Platform as of September 4,
 2014. See previous pages in this document for a history of changes.
 
-****************************************
-edX Release Announcements Mailing List
-****************************************
-
-These edX Course Staff Release Notes are always available and are updated with
-each release of the edX Platform on `edx.org`_ and `edX Edge`_.
-
-You can also sign up for the `edX Release Announcements mailing list`_ to get
-an email message when we update the edX Course Staff Release Notes.
 
 ***************************************
 edX Website
@@ -40,15 +31,15 @@ edX Learning Management System
 
   * Informational labels such as "Staff" and "Following" have been redesigned and relocated.
 
-  For more details, see our `End of August Product Announcement`_.
+  For more details, see our End of August Product Announcement.
 
 * Students can now submit their usernames and email addresses to a third party
   by using an LTI interface. (BLD-1250)
 
-* The bulk email feature is now available for all Studio-backed courses on the `edx.org`_ site. 
+* The bulk email feature is now available for all Studio-backed courses on the edx.org site. 
   With this feature, you can send email messages to course participants directly from 
   the Instructor Dashboard before, during, and after the course run. For more information, 
-  see `Bulk Email`_ and `Example Messages to Students`_.
+  see Bulk Email and Example Messages to Students.
 
 
 **************************
@@ -63,53 +54,3 @@ weeks:
   your students are, and what they do while interacting with your course, the
   data available on this dashboard can validate choices you’ve made, reveal
   unexpected patterns, and inform plans for changes to the course.
-
-
-**************************
-edX Documentation
-**************************
-
-All guides now include a section that lists browsers supported for use with the
-edX platform.
-
-The following documentation is available:
-
-* `Building and Running an edX Course`_ 
-
-  Click **Help** in the upper-right corner of any page in the edX Studio
-  user interface to access relevant sections in this guide. You can also
-  download the entire guide as a PDF.
-
-  Recent changes include: 
-
-  * The `Discussions`_ and `Participating in Course
-    Discussions`_ chapters now include the question post type and the new placement and
-    appearance of the actions you can take on posts, responses, and comments.
-
-* `Creating Peer Assessments`_
-
-* `edX Research Guide`_
-
-   Recent changes include: 
-
-   * The `Discussion Forums Data`_ chapter now includes the new ``thread_type``
-     field for CommentThreads and the new ``endorsed`` field for Comments.
-
-* `Open edX Developer's Guide`_
-
-* `Open edX XBlock API Guide`_
-
-* `Installing, Configuring, and Running the edX Platform`_  
-
-**************************
-Other edX Resources
-**************************
-
-You can access the `edX Status`_ page to get an up-to-date status for all
-services on edx.org and edX Edge. The page also includes the Twitter feed for
-@edXstatus, which the edX Operations team uses to post updates.
-
-You can access the public `edX roadmap`_ for details about the currently
-planned product direction.
-
-.. include:: ../links.rst

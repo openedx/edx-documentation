@@ -10,8 +10,8 @@ This section provides instructions for deploying your XBlock in Devstack.
  :local:
  :depth: 1
 
-For more information about Devstack, see the `Open edX Installation and
-Configuration Guide`_.
+For more information about Devstack, see the :ref:`installation:Installing,
+Configuring, and Running the Open edX Platform`.
 
 *******************
 Prerequisites
@@ -20,8 +20,8 @@ Prerequisites
 Before proceeding with the steps to deploy your XBlock, ensure the following
 requirements are met.
 
-* Devstack is running.  For instructions, see the `Open edX Installation and
-  Configuration Guide`_.
+* Devstack is running. For instructions, see the :ref:`installation:Running
+  the Open edX Developer Stack`.
 
 * Ensure you have the XBlock directory in a location you can access from the
   Devstack Vagrant instance.
@@ -126,7 +126,8 @@ You can then edit the properties of the instance as needed by selecting the
 
 .. add image
 
-For more information about working with components in Studio, see `Developing
-Course Components`_ in the *Building and Running an Open edX* guide.
+For more information about working with components in Studio, see
+:ref:`opencoursestaff:Developing Course Components` in the *Building and
+Running an Open edX* guide.
 
-.. include:: ../links.rst
+.. include:: ../../../links/links.rst

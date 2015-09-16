@@ -73,4 +73,4 @@ Next Step
 After you complete your customizations to the HTML file, you continue on and
 :ref:`customize the XBlock JavaScript file<Customize myxblock.js>`.
 
-.. include:: ../links.rst
+.. include:: ../../../links/links.rst

@@ -5,16 +5,6 @@ August 7, 2014
 The following information reflects what is new in the edX Platform as of August
 7, 2014. See previous pages in this document for a history of changes.
 
-****************************************
-edX Release Announcements Mailing List
-****************************************
-
-These edX Course Staff Release Notes are always available and are updated with
-each release of the edX Platform on `edx.org`_ and `edX Edge`_.
-
-You can also sign up for the `edX Release Announcements mailing list`_ to get
-an email message when we have updated the edX Course Staff Release Notes.
-
 ***************************************
 edX Studio
 ***************************************
@@ -72,42 +62,4 @@ few weeks:
   soon include a new Question post type. Students and course teams will also be
   able to filter posts to find unanswered questions easily.
 
-**************************
-edX Documentation
-**************************
 
-The following documentation is available:
-
-* `Building and Running an edX Course`_ 
-
-  Click **Help** in the upper-right corner of any page in the edX Studio
-  user interface to access relevant sections in this guide. You can also
-  download the entire guide as a PDF.
-       
-* `edX Research Guide`_
-
-  Recent changes include: 
-
-  The new `Data Delivered in Data Packages`_ chapter describes the compressed
-  and encrypted data files that make up a data package, the locations of those
-  files on the Amazon S3 storage service, and the files that data czars extract
-  from the packages after download.
-
-* `Open edX Developer's Guide`_
-
-* `Open edX XBlock API Guide`_
-
-* `Installing, Configuring, and Running the edX Platform`_  
-
-**************************
-Other edX Resources
-**************************
-
-You can access the `edX Status`_ page to get an up-to-date status for all
-services on edx.org and edX Edge. The page also includes the Twitter feed for
-@edXstatus, which the edX Operations team uses to post updates.
-
-You can access the public `edX roadmap`_ for details about the currently
-planned product direction.
-
-.. include:: ../links.rst

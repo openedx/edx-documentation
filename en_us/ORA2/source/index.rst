@@ -7,4 +7,5 @@
 Creating Peer Assessments
 ========================================
 
-This documentation has moved! Please click `Creating Peer Assessments <http://edx.readthedocs.org/projects/edx-open-response-assessments/en/latest/>`_ to see the latest information about peer assessments.
+This documentation has moved! Please see :ref:`partnercoursestaff:PA Create
+an ORA Assignment` for the latest information about peer assessments.

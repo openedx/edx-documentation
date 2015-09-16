@@ -3,38 +3,40 @@
 Using edX Insights
 ==================================
 
-Added the `Ungraded Problem Submissions`_ section to the *Using edX Insights*
-guide.
+Added the :ref:`insights:Performance_Ungraded` section to the *Using
+edX Insights* guide.
 
 ==================================
 Building and Running an edX Course
 ==================================
 
 * Added instructions for specifying multiple or irregular regions to
-  the `Image Mapped Input`_ topic.
+  the :ref:`partnercoursestaff:Image Mapped Input` topic.
 
-* Added the `Timer Between Attempts`_ topic to the "Working with
-  Problem Components" section.
+* Added the :ref:`partnercoursestaff:Timer Between Attempts` topic to the
+  "Working with Problem Components" section.
 
-* Added information about the `Recommender`_ tool.
+* Added information about the :ref:`partnercoursestaff:RecommenderXBlock`
+  tool.
 
 ==================================
 edX Research Guide
 ==================================
 
-Added the `Course Content Data`_ section to describe the course structure
-file.
+Added the :ref:`data:course_structure` section to describe the course
+structure file.
 
 ==================================
 Open edX Platform APIs
 ==================================
 
-Added sections for `Course Structure API Version 0`_, `Enrollment API Version
-1.0`_, and `User API Version 0`_.
+Added sections for :ref:`openplatformapi:EdX Platform Course Structure API
+Version 0`, :ref:`openplatformapi:edX Platform Enrollment API Version 1.0`, and
+:ref:`openplatformapi:edX Platform User API Version 1.0`.
 
 ==================================
 edX Developer's Guide
 ==================================
 
-Added the `edX Style Guidelines`_ section with guidelines for Objective-C
-contributions.
+Added the :ref:`opendevelopers:edX Style Guidelines` section with guidelines
+for Objective-C contributions.

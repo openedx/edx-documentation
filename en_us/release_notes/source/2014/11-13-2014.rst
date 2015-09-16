@@ -5,16 +5,6 @@ November 13, 2014
 The following information reflects what is new in the edX Platform as of
 November 13, 2014. See previous pages in this document for a history of changes.
 
-****************************************
-edX Release Announcements Mailing List
-****************************************
-
-These edX Course Staff Release Notes are always available and are updated with
-each release of the edX Platform on `edx.org`_ and `edX Edge`_.
-
-You can also sign up for the `edX Release Announcements mailing list`_ to get
-an email message when we update the edX Course Staff Release Notes.
-
 
 *************
 edX Studio
@@ -35,80 +25,6 @@ edX Learning Management System
   mark, but did not receive points for completing the problem correctly. This
   problem has been fixed. (TNL-765)
 
-* A problem with the spacing in the **Discussion** page search box in Arabic has
-  been fixed. (OSPR-183)
+* A problem with the spacing in the **Discussion** page search box in Arabic
+  has been fixed. (OSPR-183)
   
-**************************
-edX Documentation
-**************************
-
-The following documentation is available:
-
-* `Building and Running an edX Course`_
-
-  Click **Help** in the upper-right corner of any page in the edX Studio
-  user interface to access relevant sections of this guide. You can also
-  download the entire guide as a PDF.
-
-  Recent changes include:
-
-  * Added a cautionary note to `Add a Content Experiment in OLX`_ explaining
-    that content experiments can only be defined at the unit level. (DOC-1058
-    and DOC-1161)
-
-  * Added reset information to the `Show Answer`_ section. (DOC-1146)
-
-.. adding line for space
-
-
-* `Using edX Insights`_
-
-  * Click **Help** in the upper-right corner of any page in the edX Insights
-    user interface to access relevant sections of this guide. You can also
-    download the entire guide as a PDF.
-
-.. adding line for space    
-    
-* `EdX Guide for Students`_
-
-  Recent changes include:
-
-  * Added the `edX Video Player`_ section.
-
-  * Updated the scientific notation information and added calculator information
-    to the `Math Formatting`_ topic.
-
-.. adding line for space
-
-* `Creating Peer Assessments`_
-
-* `edX Research Guide`_
-  
-* `Open edX Developer's Guide`_
-
-  Recent changes include:
-
-    * Created the `edX Modulestores`_ section and added the `Split Mongo
-      Modulestore`_ chapter.
-
-* `Open edX XBlock API Guide`_
-
-* `Installing, Configuring, and Running the edX Platform`_
-
-* `edX Open Learning XML Guide`_
-  
-* `Open edX Platform API`_
-
-
-**************************
-Other edX Resources
-**************************
-
-You can access the `edX Status`_ page to get an up-to-date status for all
-services on edx.org and edX Edge. The page also includes the Twitter feed for
-@edXstatus, which the edX Operations team uses to post updates.
-
-You can access the public `edX roadmap`_ for details about the currently
-planned product direction.
-
-.. include:: ../links.rst

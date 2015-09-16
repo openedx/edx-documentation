@@ -271,3 +271,5 @@ Default Fields in a New XBlock
 When you create a new XBlock, the ``count`` field is added to the Python file
 by default. This field is for demonstration purposes and you should replace it
 with your own field definitions.
+
+.. include:: ../../../links/links.rst

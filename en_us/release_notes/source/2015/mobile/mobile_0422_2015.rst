@@ -7,4 +7,4 @@ The following features are now available for the edX mobile app on iPhones.
 * The edX mobile app can now be used to find and enroll in courses.
 
 These features are also available in the edX mobile app for Android
-smartphones. For more information, see `The edX Mobile App`_.
+smartphones. For more information, see :ref:`learners:SFD Mobile`.

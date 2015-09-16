@@ -93,4 +93,4 @@ Note the following details about the vote handler.
 
 For more information, see :ref:`Handler Methods`.
 
-.. include:: ../links.rst
+.. include:: ../../../links/links.rst

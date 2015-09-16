@@ -52,8 +52,9 @@ XBlocks and the edX Platform
 The edX Platform uses many built-in XBlocks that are available to course
 developers. For example, HTML content, videos, and interactive problems are all
 XBlocks. The edX Platform also includes many specialized XBlocks such as
-`Google Drive`_ and `Open Response Assessments`_. For more information, see
-:ref:`XBlocks and the edX Platform`.
+:ref:`opencoursestaff:Google Drive Files Tool` and :ref:`opencoursestaff:Open
+Response Assessments 2`. For more information, see :ref:`XBlocks and the
+edX Platform`.
 
 EdX recognizes the ever expanding need to provide new and innovative types
 of content. The XBlock API and XBlock SDK are available for developers to
@@ -88,7 +89,7 @@ This tutorial is meant to guide developers through the process of creating an
 XBlock, and to explain the :ref:`concepts<XBlock Concepts>` and
 :ref:`anatomy<Anatomy of an XBlock>` of XBlocks.
 
-Developers should also see the `EdX XBlock API Guide`_.
+Developers should also see the :ref:`xblockapi:EdX XBlock API Guide`.
 
 =========================================
 XBlock Independence and Interoperability
@@ -117,4 +118,4 @@ Like HTML ``<div>`` tags, XBlocks can represent components as small as a
 paragraph of text, a video, or a multiple choice input field, or as large as a
 section, a chapter, or an entire course.
 
-.. include:: ../links.rst
+.. include:: ../../../links/links.rst

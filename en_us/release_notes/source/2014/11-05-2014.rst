@@ -5,16 +5,6 @@ November 5, 2014
 The following information reflects what is new in the edX Platform as of
 November 5, 2014. See previous pages in this document for a history of changes.
 
-****************************************
-edX Release Announcements Mailing List
-****************************************
-
-These edX Course Staff Release Notes are always available and are updated with
-each release of the edX Platform on `edx.org`_ and `edX Edge`_.
-
-You can also sign up for the `edX Release Announcements mailing list`_ to get
-an email message when we update the edX Course Staff Release Notes.
-
 
 *************
 edX Studio
@@ -44,81 +34,3 @@ edX Insights
   enrolled in their courses. Self-reported age, education, and gender data is
   available to view as histograms, metrics, and in tables, and is also available
   for download in .csv format.
-
-**************************
-edX Documentation
-**************************
-
-The following documentation is available:
-
-* `Building and Running an edX Course`_
-
-  Click **Help** in the upper-right corner of any page in the edX Studio
-  user interface to access relevant sections of this guide. You can also
-  download the entire guide as a PDF.
-
-  Recent changes include:
-
-  * In `Example Messages to Students`_, added a new email template that
-    course teams can use to remind students that the final date to register for
-    a verified certificate is approaching.
-
-  * In `Export a Course`_, added cautions to make course teams aware that when
-    courses are exported, some of the exported data includes sensitive
-    information that should not be shared, such as MATLAB API keys and LTI
-    passports.
-
-  * Removed the warning in `Add Content Experiments to Your Course`_ that grade
-    exports did not work with courses using content experiments. For courses
-    using content experiments, the edX platform now supports problem components
-    in graded subsections and grade exports.
-
-.. adding line for space
-
-
-* `Using edX Insights`_
-
-  Recent changes include:
-
-  * Added context-sensitive Help on each page of the edX Insights user
-    interface. Click **Help** in the upper-right corner of any page to access
-    relevant sections of this guide.
-
-.. adding line for space    
-    
-* `EdX Guide for Students`_
-
-  Recent changes include:
-
-  * Updates to reflect fact that course start times as well as dates are now shown
-    for courses.
-
-.. adding line for space
-
-* `Creating Peer Assessments`_
-
-* `edX Research Guide`_
-  
-* `Open edX Developer's Guide`_
-
-* `Open edX XBlock API Guide`_
-
-* `Installing, Configuring, and Running the edX Platform`_
-
-* `edX Open Learning XML Guide`_
-  
-* `Open edX Platform API`_
-
-
-**************************
-Other edX Resources
-**************************
-
-You can access the `edX Status`_ page to get an up-to-date status for all
-services on edx.org and edX Edge. The page also includes the Twitter feed for
-@edXstatus, which the edX Operations team uses to post updates.
-
-You can access the public `edX roadmap`_ for details about the currently
-planned product direction.
-
-.. include:: ../links.rst

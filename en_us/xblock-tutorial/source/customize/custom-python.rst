@@ -169,4 +169,4 @@ Next Step
 After you complete your customizations to the Python file, you continue on and
 :ref:`customize the XBlock HTML file<Customize myxblock.html>`.
 
-.. include:: ../links.rst
+.. include:: ../../../links/links.rst

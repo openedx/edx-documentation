@@ -241,4 +241,4 @@ The `Manual Testing`_ course includes platform directories to support non-course
 more information.
 
 
-.. include:: ../links.rst
+.. include:: ../../../links/links.rst

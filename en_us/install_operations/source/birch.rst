@@ -1,5 +1,3 @@
-.. include:: links.rst
-
 .. _Open edX Birch Release:
 
 ########################################
@@ -177,3 +175,5 @@ cleans up extra files and directories when it finishes running.
 
 After upgrading Open edX to the Birch release, run the edX Platform and verify
 that course content and data was migrated correctly.
+
+.. include:: ../../links/links.rst

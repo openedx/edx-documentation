@@ -24,6 +24,4 @@ Open edX
 
 .. include:: openedx/openedx_0916_2015.rst
 
-
-
-.. include:: ../links.rst
+.. include:: ../../../links/links.rst

@@ -8,14 +8,14 @@ You can now include two new types of components in your courses.
 * Use the Poll tool to pose a question to learners and have them select an
   answer from a set list. 
 
-  For more information, see `Poll Tool`_ in the *Building and Running an edX
+  For more information, see :ref:`partnercoursestaff:Poll Tool` in the *Building and Running an edX
   Course* guide.
 
 * Use the Survey tool to pose multiple questions to learners and have them
   select an answer for each question from a set list. 
 
-  For more information, see `Survey Tool`_ in the *Building and Running an edX
-  Course* guide.
+  For more information, see :ref:`partnercoursestaff:Survey Tool` in the
+  *Building and Running an edX Course* guide.
 
 When you include polls and surveys in a course, you can analyze the responses
 and also choose whether to let learners see the aggregate answers for the
@@ -32,7 +32,3 @@ displays the message, "This course uses features that are no longer supported."
 A newer version of the open response assessments feature (ORA 2) was released
 over a year ago, and the ability to add ORA 1 problems was removed from Studio
 in May 2014.
-
-For information about adding ORA 2 problems to a course, see `Create an
-Open Response Assessment Assignment`_.
-

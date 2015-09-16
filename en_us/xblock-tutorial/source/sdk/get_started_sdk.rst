@@ -18,4 +18,4 @@ This section describes how to get started with the XBlock SDK.
 
 .. include:: ../reusable/run_server.rst
 
-.. include:: ../links.rst
+.. include:: ../../../links/links.rst

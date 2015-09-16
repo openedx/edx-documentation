@@ -2,39 +2,13 @@
 January 29, 2014
 ###################################
 
-**************************
-edX Documentation
-**************************
-
-You can access the public `edX roadmap`_ for
-details about the currently planned product direction.
-
-The following documentation is available:
-
-* `Building and Running an edX Course`_ 
-
-  You can also download the guide as a PDF from the edX Studio user interface.
-
-  Recent changes include:
-  
-  * `Discussions`_ 
-  * `Guidance for Discussion Moderators`_
-  * `External Graders`_
-
-
-* `edX Research Guide`_
-
-
-* `Open edX Developer's Guide`_
-
-
 
 *************
 edX Studio
 *************
 
 
-* In edX Studio, you can now duplicate components within a unit. See the documentation on `duplicating components`_ for more information. (STUD-1186)
+* In edX Studio, you can now duplicate components within a unit. See the documentation on duplicating components for more information. (STUD-1186)
 
 * You can now use single quotation marks without escaping them when you specify option response answers. The single quotation mark must be between two alphabet characters.  (LMS-2031)
 
@@ -48,9 +22,9 @@ edX Learning Management System
 
 * When a student sets the speed for a video, that speed setting is now saved and used when the student views subsequent videos. (BLD-237)
 
-* In the Video component, the settings on the **Advanced** tab now include **Transcript Download Allowed** and **Video Download Allowed**, and **Download Video** has been merged into **Video Sources** to eliminate redundancy. A description of each setting is available at `Video Advanced Options`_. (BLD-364, BLD-368)
+* In the Video component, the settings on the **Advanced** tab now include **Transcript Download Allowed** and **Video Download Allowed**, and **Download Video** has been merged into **Video Sources** to eliminate redundancy. A description of each setting is available at Video Advanced Options. (BLD-364, BLD-368)
 
-* For numerical response problems, students can now enter negative exponents in the same ways they can enter positive exponents. For example, students can enter ``4.9e-9`` or ``4.9*10^-9``. (BLD-434)
+* For numerical response problems, students can now enter negative exponents in the same ways they can enter positive exponents. For example, students can enter 4.9e-9 or 4.9*10^-9. (BLD-434)
 
 * For text input problems, course teams can now use regular expressions to allow some flexibility in students' answers. For example, if a question asks students to name the birthplace of Bill Clinton, students can answer "Hope, AR", "Hope, Arkansas", or "Arkansas."
 
@@ -80,4 +54,3 @@ Open Response Assessments
  
 * In self assessments, students had to submit responses before the deadline for the problem passed, but didn't have to perform the self assessment of their responses before the deadline. Students must now submit both the response to the problem and their self assessment of that response before the deadline for the problem. (ORA-202) 
 
-.. include:: ../links.rst

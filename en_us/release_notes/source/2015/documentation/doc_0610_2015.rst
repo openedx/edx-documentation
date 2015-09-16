@@ -5,17 +5,17 @@ Documentation for edX Partners
 Building and Running an edX Course
 **********************************
 
-The `Working with Video Components`_ section now includes an `Adding a 
-Pre-Roll Video to Your edX Course`_ topic.
+The :ref:`partnercoursestaff:Working with Video Components` section now
+includes an :ref:`partnercoursestaff:Adding a Pre-Roll Video` topic.
 
 edX Research Guide
 **********************************
 
-* The new `Pre-Roll Video Interaction Events`_ topic describes the events
-  emitted when users interact with pre-roll videos.
+* The new :ref:`data:pre-roll` topic describes the
+  events emitted when users interact with pre-roll videos.
 
-* The topic about `Video Interaction Events`_ now includes descriptions of the
-  ``video_show_cc_menu`` and ``video_hide_cc_menu`` events.
+* The topic about :ref:`data:video` now includes
+  descriptions of the ``video_show_cc_menu`` and ``video_hide_cc_menu`` events.
 
 ==================================
 Latest Open edX Guides
@@ -29,54 +29,56 @@ for features in the Open edX platform.
 Installing, Configuring, and Running the Open edX Platform
 ***********************************************************
 
-* The new `Enable edX Search`_ section describes the Django application that
-  provides access to search services from within edX Platform applications.
+* The new :ref:`installation:Enable edX Search` section describes the Django
+  application that provides access to search services from within edX Platform
+  applications.
 
-* The new `Enable Certificates`_ section describes how to enable and configure
-  the certificate generation process.
+* The new :ref:`installation:Enable Certificates` section describes how to
+  enable and configure the certificate generation process.
 
-* The new `Enabling Badging`_ section describes how to enable and configure
-  badges.
+* The new :ref:`installation:Enable Badging` section describes how to enable
+  and configure badges.
 
-* The section about `Setting up the edX Mobile Applications`_ now includes
-  information about configuring push notifications, and has been enhanced with
-  additional detail.
+* The section about :ref:`installation:Setting up the Mobile Applications`
+  now includes information about configuring push notifications, and has been
+  enhanced with additional detail.
 
 Building and Running an Open edX Course
 ****************************************
 
-* The new `Setting Up Course Certificates`_ section describes how you
-  configure certificates for a course in Studio.
+* The new :ref:`opencoursestaff:Setting Up Course Certificates` section
+  describes how you configure certificates for a course in Studio.
 
-* The new `Manage Course Fees`_ section describes configuration and
-  management of fees for paid courses.
+* The new :ref:`opencoursestaff:Manage Course Fees` section describes
+  configuration and management of fees for paid courses.
 
 * The "Creating Exercises and Tools" section now includes a list of the
-  `Mobile-Ready Problem Types`_ that learners can complete using the edX mobile
-  applications.
+  :ref:`opencoursestaff:Mobile-Ready Problem Types` that learners can complete
+  using the edX mobile applications.
 
-* The `Add a Course Update`_ topic now includes information about sending
-  notifications to the edX mobile applications for course handouts.
+* The :ref:`opencoursestaff:Add a Course Update` topic now includes
+  information about sending notifications to the edX mobile applications for
+  course handouts.
 
 Open edX Learner's Guide
 ****************************
 
 * A section of frequently asked questions about the edX mobile applications is
-  now available. this section includes topics about `Notification Questions`_
-  and `Completing Assignments`_.
+  now available. For more information, see :ref:`openlearners:SFD Mobile`.
 
-* The new `Searching the Course`_ section describes how learners can search for
-  a term in a single course or in all of the courses they are enrolled in.
+* The new :ref:`openlearners:SFD Search` section describes how
+  learners can search for a term in a single course or in all of the courses
+  they are enrolled in.
 
-* The section about `Certificates`_ now includes information about
-  sharing certificates and digital badges.
+* The section about :ref:`openlearners:Certificates` now includes information
+  about sharing certificates and digital badges.
 
-* The new `Student Notes`_ section describes how learners can highlight and
-  make notes about course content.
+* The new :ref:`openlearners:SFD Notes` section describes how learners can
+  highlight and make notes about course content.
 
 ========================
 EdX Platform APIs
 ========================
 
 A new section of the *EdX Platform APIs* guide is now available for the
-`Profile Images API`_.
+:ref:`openplatformapi:Profile Images API Version 1.0`.

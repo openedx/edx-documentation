@@ -3,15 +3,15 @@
 Building and Running an edX Course
 ==================================
 
-* A new section on `Working with Libraries`_ is now available in the "Create
-  Course Content" chapter.
+* A new section on :ref:`partnercoursestaff:Content Libraries` is now
+  available in the "Create Course Content" chapter.
 
-* A new section on `Randomized Content Blocks`_ is now available in the
-  "Creating Exercises and Tools" chapter.
+* A new section on :ref:`partnercoursestaff:Randomized Content Blocks` is now
+  available in the "Creating Exercises and Tools" chapter.
 
 ==================================
 edX Research Guide
 ==================================
 
-The `Tracking Logs`_ chapter now includes events for student interactions with
-library content.
+The :ref:`data:Tracking Logs` chapter now includes events for student
+interactions with library content.

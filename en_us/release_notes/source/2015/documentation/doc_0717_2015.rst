@@ -5,10 +5,10 @@ Documentation for edX Partners
 Building and Running an edX Course
 **********************************
 
-A `Best Practices for ORA`_ topic has been added to the documentation about
-open response assessments. For more information about open response
-assessments, see `Introduction to ORA`_ in the *Building and Running an edX
-Course* guide.
+A :ref:`partnercoursestaff:Best Practices for ORA` topic has been added to the
+documentation about open response assessments. For more information about open
+response assessments, see :ref:`partnercoursestaff:Open Response Assessments 2`
+in the *Building and Running an edX Course* guide.
 
 ==================================
 Documentation for Open edX Users
@@ -17,7 +17,7 @@ Documentation for Open edX Users
 Building and Running an Open edX Course
 ****************************************
 
-A `Best Practices for ORA - Open edX`_ topic has been added to the
+A :ref:`opencoursestaff:Best Practices for ORA` topic has been added to the
 documentation about open response assessments. For more information about open
-response assessments, see `Introduction to ORA - Open edX`_ in the *Building
-and Running an Open edX Course* guide.
+response assessments, see :ref:`opencoursestaff:Open Response Assessments 2` in
+the *Building and Running an Open edX Course* guide.

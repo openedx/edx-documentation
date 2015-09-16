@@ -1,5 +1,3 @@
-.. include:: ../links.rst
-
 .. _Enable edX Search:
 
 #########################
@@ -229,3 +227,5 @@ LMS
   * default: ``SearchFilterGenerator``
   * LMS implementation:
     :class:`"lms.lib.courseware_search.lms_filter_generator.LmsSearchFilterGenerator`
+
+.. include:: ../../../links/links.rst

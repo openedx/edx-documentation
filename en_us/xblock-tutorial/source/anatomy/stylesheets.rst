@@ -19,4 +19,4 @@ application.
 The styles in ``thumbs.css`` are referenced in the :ref:`XBlock HTML file <The
 XBlock HTML File>`.
 
-.. include:: ../links.rst
+.. include:: ../../../links/links.rst

@@ -3,6 +3,3 @@ Open response assessments that were created using the original version of this
 assignment type (ORA 1) no longer appear in the LMS. A newer version of the
 open response assessments feature (ORA 2) was released over a year ago, and
 the ability to add ORA 1 problems was removed from Studio in May 2014.
-
-For more information about adding ORA 2 problems to a course, see `Create an
-Open Response Assessment Assignment`_.

@@ -1,34 +1,39 @@
 **************************
-edX Documentation
+EdX Documentation
 **************************
 
-The following documentation is available.
+The following documentation is available for edX Partners.
 
-* `Building and Running an edX Course`_
+* :ref:`partnercoursestaff:document index`
 
-* `edX Guide for Students`_
+* :ref:`learners:edX Learner's Guide`
 
-* `Using edX Insights`_
+* :ref:`insights:Overview`
 
-* `edX Research Guide`_
+* :ref:`data:edX Research Guide`
+
+The following documentation is available for Open edX users.
   
-* `Open edX Release Notes`_ 
+* :ref:`openreleasenotes:Open edX Release Notes`
   
-* `Installing, Configuring, and Running the Open edX Platform`_   
+* :ref:`installation:Installing, Configuring, and Running the Open edX
+  Platform`
   
-* `Building and Running an Open edX Course`_
+* :ref:`opencoursestaff:Building and Running an Open edX Course`
 
-* `Open edX Developer's Guide`_
+* :ref:`openlearners:Open edX Learner's Guide`
 
-* `Open edX XBlock Tutorial`_
+* :ref:`opendevelopers:Open edX Developer's Guide`
 
-* `Open edX XBlock API`_
+* :ref:`xblocktutorial:Open edX XBlock Tutorial`
 
-* `edX Open Learning XML Guide`_
+* :ref:`xblockapi:Open edX XBlock API`
 
-* `Open edX Platform API`_
+* :ref:`olx:edX Open Learning XML Guide`
+
+* :ref:`openplatformapi:Open edX Platform APIs`
   
-* `Open edX Data Analytics API`_
+* :ref:`opendataapi:Open edX Data Analytics API`
 
 
 **************************
@@ -47,5 +52,3 @@ services. The page also includes the Twitter feed for
 
 You can access the public `edX roadmap`_ for details about the currently
 planned product direction.
-
-.. .. include:: ../links.rst

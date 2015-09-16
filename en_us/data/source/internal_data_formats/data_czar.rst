@@ -94,13 +94,9 @@ Resources and Information
 The edX Analytics team adds every data czar to a Google Group and mailing
 list called `course-data`_.
 
-.. _course-data: http://groups.google.com/a/edx.org/forum/#!forum/course-data
-
 EdX also hosts an `Open edX Analytics wiki`_ that is available to the
 public. The wiki provides links to the engineering roadmap, information about
 operational issues, and release notes describing past releases.
-
-.. _Open edX Analytics wiki: http://edx-wiki.atlassian.net/wiki/display/OA/Open+edX+Analytics+Home
 
 .. _Skills_Experience_Contributors:
 
@@ -151,3 +147,5 @@ Technical Skills
 
 - Ability to write parsing scripts that properly handle JSON serialization and
   Unicode.
+
+.. include:: ../../../links/links.rst

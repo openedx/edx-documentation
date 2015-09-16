@@ -26,4 +26,4 @@ Note the following details about the HTML file.
 * The values ``self.upvotes`` and ``self.downvotes`` reference the fields in
   the XBlock Python class.
 
-.. include:: ../links.rst
+.. include:: ../../../links/links.rst

@@ -109,5 +109,5 @@ To verify that the SAML authentication backend is loaded on a devstack or
 fullstack installation, review the ``/edx/app/edxapp/lms.env.json`` file.
 
 
-.. include:: ../../links.rst
+.. include:: ../../../../links/links.rst
 

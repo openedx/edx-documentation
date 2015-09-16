@@ -19,7 +19,7 @@ teams. Users who are assigned the Admin or Staff role for the course can view
 and download data from the Instructor Dashboard in their live courses and from
 edX Insights. The data available to course teams from these applications is a
 subset of the data available in the data packages. For more information, see
-`Building and Running an edX Course`_ and `Using edX Insights`_.
+:ref:`partnercoursestaff:document index` and :ref:`insights:Overview`.
 
 .. _Data Package Files:
 
@@ -147,7 +147,6 @@ Download Weekly Database Files
 2. Download the ``{org}-{date}.zip`` database data file from the 
    **s3://course-data** bucket.
 
-.. _AWS Command Line Interface: http://aws.amazon.com/cli/
 
 .. _Data Package Contents:
 
@@ -257,6 +256,4 @@ tab separated.
   :ref:`wiki_articlerevision`.
 
 
-
-.. _Using edX Insights: http://edx-insights.readthedocs.org/en/latest/
-.. _Building and Running an edX Course: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/
+.. include:: ../../../links/links.rst

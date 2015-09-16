@@ -11,8 +11,6 @@ from within course discussions.
 Learners and course team members can also use the new **Account Settings** page
 to update account information, such as the account email address and password,
 and demographic information, such as level of education and country or region.
-For more information, see the `Exploring Your Dashboard, Settings, and
-Profile`_ section of the `EdX Guide for Students`_.
 
 ==========================
 Video Start and Stop Times
@@ -26,8 +24,6 @@ file that is delimited by your specified start and stop times plays.
 .. note:: The **Video Start Time** and **Video Stop Time** values do not apply
    to videos that are downloaded or viewed using the native mobile app.
    Learners who use the mobile app can play the entire video file.
-
-For more information, see `Video Advanced Options`_.
 
 ============================
 Accessibility Improvements 

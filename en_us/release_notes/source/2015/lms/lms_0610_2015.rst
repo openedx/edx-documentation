@@ -6,7 +6,7 @@ Report of Not-Yet-Enrolled Students
 Course teams for invitation-only courses can now track enrollment status from
 the Instructor Dashboard. The **Data Download** page of the Instructor
 Dashboard now includes a downloadable report of learners who have been invited
-to enroll in a course, but who have not yet done so. For more information, see the `Enrollment`_ section in *Building and Running an edX Course*.
+to enroll in a course, but who have not yet done so.
 
 ========================================
 Learner Experience for Pre-Roll Videos
@@ -22,5 +22,4 @@ to the video that they selected, or **Do not show again** to permanently opt
 out of seeing pre-roll videos in the course.
 
 For information about how course teams can add a pre-roll video and its
-transcripts to a course, see `Adding a Pre-Roll Video to Your edX Course`_ in
-*Building and Running an edX Course*.
+transcripts to a course, see :ref:`partnercoursestaff:Adding a Pre-Roll Video` in *Building and Running an edX Course*.

@@ -5,14 +5,14 @@ Documentation for edX Partners
 Building and Running an edX Course
 **********************************
 
-The `Accessibility Best Practices for Developing Course Content`_
-section has been expanded and moved to the top level of the guide.
+The :ref:`partnercoursestaff:Accessibility Index` section has been expanded and
+moved to the top level of the guide.
 
 Using edX Insights
 *******************
 
-The `Student Performance`_ section is updated to reflect that submission data
-is now averaged rather than summed.
+The :ref:`insights:Performance Index` section is updated to reflect that
+submission data is now averaged rather than summed.
 
 ==================================
 Documentation for Open edX Users
@@ -26,18 +26,20 @@ for features in the Open edX platform.
 Installing, Configuring, and Running the Open edX Platform
 ***********************************************************
 
-The new `Enabling Custom Courses`_ section describes how to configure the edX
-Platform to allow users with the right permissions to create custom courses.
+The new :ref:`installation:Enable CCX` section describes how to
+configure the Open edX Platform to allow users with the right permissions to
+create custom courses.
 
 Building and Running an Open edX Course
 ****************************************
 
-* The `Open Source Accessibility Best Practices for Developing Course Content`_
-  section has been expanded and moved to the top level of the guide.
+* The :ref:`opencoursestaff:Accessibility Index`. section has been expanded and
+  moved to the top level of the guide.
 
-* The new `Creating a Custom Course`_ section describes how to create a custom
-  course in the Learning Management System to reuse course content.
+* The new :ref:`opencoursestaff:Creating a Custom Course` section describes how
+  to create a custom course in the Learning Management System to reuse course
+  content.
 
-* The new `Report Learners Not Yet Enrolled`_ section describes how to produce
-  a report of auto-enrolled email addresses that do not yet correspond to an
-  enrolled learner.
+* The new :ref:`opencoursestaff:Report Learners Not Yet Enrolled` section
+  describes how to produce a report of auto-enrolled email addresses that do
+  not yet correspond to an enrolled learner.

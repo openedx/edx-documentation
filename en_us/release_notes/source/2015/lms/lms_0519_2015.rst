@@ -5,8 +5,7 @@ Problem Grade Report
 For any course, you can now calculate grades for problems and generate a report
 that can be downloaded from the Instructor Dashboard. This new report includes,
 for each graded problem, a learner's earned and possible points, and their
-total score, expressed as a decimal. For more information, see `Generate a
-Problem Grade Report for Enrolled Students`_. (TNL-1951)
+total score, expressed as a decimal. (TNL-1951)
 
 =================================
 Accessibility Improvements

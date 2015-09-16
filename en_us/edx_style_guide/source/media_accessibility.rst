@@ -65,7 +65,8 @@ video. Is the information presented "equivalent"?
 .. note:: With regard to blindness, Mark feels that it is important to drive 
  home the fact that if you do not vocalize unspoken visual events that are
  important to understanding the video, you will trigger a requirement to
- provide :ref:`audio descriptions<Audio Description>`_, which is both expensive and time consuming.
+ provide :ref:`audio descriptions<Audio Description>`, which is both expensive
+ and time consuming.
 
 *************
 Low Vision

@@ -5,8 +5,8 @@ Documentation for edX Partners
 Building and Running an edX Course
 **********************************
 
-The `Creating Exercises and Tools`_ section now includes details for the new
-poll and survey tools.
+The :ref:`partnercoursestaff:Create Exercises` section now includes
+details for the new poll and survey tools.
 
 ==================================
 Documentation for Open edX Users
@@ -15,5 +15,5 @@ Documentation for Open edX Users
 Building and Running an Open edX Course
 ****************************************
 
-In the latest version of this guide, the `Creating Exercises and Tools -
-open edX`_ section includes details for the new poll and survey tools.
+In the latest version of this guide, the :ref:`opencoursestaff:Create
+Exercises` section includes details for the new poll and survey tools.

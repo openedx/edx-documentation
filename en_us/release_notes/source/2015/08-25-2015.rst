@@ -21,8 +21,6 @@ Insights
 
 .. include:: insights/insights_0825_2015.rst
 
-.. include:: ../links.rst
-
 **************************
 Studio
 **************************
@@ -35,8 +33,6 @@ Website
 
 .. include:: website/website_0825_2015.rst
 
-.. include:: ../links.rst
-
 
 **************************
 Documentation
@@ -44,4 +40,5 @@ Documentation
 
 .. include:: documentation/doc_0825_2015.rst
 
-.. include:: ../links.rst
+
+.. include:: ../../../links/links.rst

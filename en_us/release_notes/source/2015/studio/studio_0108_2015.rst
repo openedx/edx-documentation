@@ -4,9 +4,7 @@
 
 * You can now use a new advanced setting,
   ``always_cohort_inline_discussions``, to control whether content-specific
-  discussion topics are unified or divided by cohort.  See 
-  `Make All Content-Specific Discussion Topics Unified by Default`_ for 
-  more information.
+  discussion topics are unified or divided by cohort.
 
 * The inline help for the **Discussion Topic Mapping** advanced setting is
   updated to note that discussion IDs must be unique. (TNL-752)

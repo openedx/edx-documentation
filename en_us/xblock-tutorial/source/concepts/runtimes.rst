@@ -175,4 +175,4 @@ XBlock Runtime API
 
 For more information, see the `XBlock Runtime API`_ in the *XBlock API Guide*.
 
-.. include:: ../links.rst
+.. include:: ../../../links/links.rst
