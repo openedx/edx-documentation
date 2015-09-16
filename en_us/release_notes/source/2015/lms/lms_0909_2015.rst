@@ -7,5 +7,3 @@
 * When learners drag an option onto a drag and drop problem, the option label
   no longer wraps to a new line unexpectedly. (OSPR-752)
 
-.. include:: ../links.rst
-
