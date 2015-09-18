@@ -5,13 +5,12 @@ Re-running a Course
 ###################
 
 Another way to create a course in Studio is to re-run an existing course. When
-you select the course re-run option, most, but not all, of the original course
-content is duplicated to the new course. The original course is not changed in
-any way.
+you re-run a course, most, but not all, of the original course content is
+duplicated to the new course. The original course is not changed in any way.
 
-* :ref:`Data Duplicated When You Re-Run a Course`
-* :ref:`Use Re-Run to Create a Course`
-* :ref:`Update the New Course`
+.. contents::
+  :local:
+  :depth: 1
 
 .. _Data Duplicated When You Re-Run a Course:
 
@@ -65,54 +64,59 @@ course are independent. Changes to either course are not propagated to the
 other course. Therefore, you should ensure that the original course content is
 as complete as possible before you re-run the course.
 
-For more information, see :ref:`Use Re-Run to Create a Course` and :ref:`Update the New Course`.
+For more information, see :ref:`Use Re-Run to Create a Course` and
+:ref:`Update the New Course`.
 
 .. _Use Re-Run to Create a Course:
 
 ********************************************
-Use Re-Run to Create a Course
+Using Re-Run to Create a Course
 ********************************************
 
-Before you re-run a course, complete the following steps.
+.. only:: Partners
 
-* For a course that is hosted on the `edge.edx.org`_ site, verify that you have
-  permission to create courses in Studio.
+   Only edX Partner Managers have the permissions needed to re-run a course.
+   To re-run a course that is hosted on the `edx.org`_ or `edge.edx.org`_
+   sites, contact your edX Partner Manager. After your Partner Manager creates
+   the new course using the re-run feature, you can complete the steps to
+   :ref:`update the new course<Update the New Course>`.
 
-* For a course that is hosted on the `edx.org`_ site, contact your Program
-  Manager. Your Program Manager will create the new course using the re-run
-  feature, and then work with you to complete the steps to :ref:`update the new
-  course<Update the New Course>`.
+.. only:: Open_edX
 
-* Ensure that the course content is complete. Additions and changes you make to
-  the original course after creating the new course are not propagated to the
-  new course.
+   Only global or system administrators have the permissions needed to re-run
+   a course. To re-run a course, contact your system administrator. After your
+   system administrator creates a new course using the re-run feature, you can
+   complete the steps to :ref:`update the new course<Update the New Course>`.
 
-To re-run a course, you must have course creation privileges in Studio and you
-must be a member of the course team for the course you want to re-run.
-  
-To re-run a course, follow these steps.
+.. note:: Before you re-run a course, ensure that the course content is
+   complete. Additions and changes that you make to the original course after
+   creating the new course are not propagated to the new course.
 
-#. Log in to Studio. Your dashboard lists the courses that you have access to
+.. Comment out the procedure to create rerun, since only Global Admin (i.e.
+.. edX internal can do this) Done as part of DOC-2236 (CT, Sept 11, 2015)
+   To re-run a course, follow these steps.
+
+   #. Log in to Studio. Your dashboard lists the courses that you have access to
    as a course team member.
 
-#. Move your cursor over each row in the list of courses. The **Re-Run Course**
+   #. Move your cursor over each row in the list of courses. The **Re-Run Course**
    and **View Live** options appear for each course.
 
-  .. image:: ../../../shared/building_and_running_chapters/Images/Rerun_link.png
+   .. image:: ../../../shared/building_and_running_chapters/Images/Rerun_link.png
      :alt: A course listed on the dashboard with the Re-run Course and View 
            Live options shown 
      :width: 600
 
-3. Locate the course you want to re-run and select **Re-Run Course**. The
+   3. Locate the course you want to re-run and select **Re-Run Course**. The
    **Create a re-run of a course** page opens with values already supplied in
    the **Course Name**, **Organization**, and **Course Number** fields.
 
-  .. image:: ../../../shared/building_and_running_chapters/Images/rerun_course_info.png
+   .. image:: ../../../shared/building_and_running_chapters/Images/rerun_course_info.png
      :alt: The course creation page for a rerun, with the course name, 
            organization, and course number supplied.
      :width: 600
 
-4. Supply a **Course Run** to indicate when the new course will be offered. 
+   4. Supply a **Course Run** to indicate when the new course will be offered. 
    
    Together, the course number, the organization, and the course run are used
    to create the URL for the new course. The combination of these three values
@@ -120,13 +124,14 @@ To re-run a course, follow these steps.
    characters used for the name, organization, number, and run must be 65 or
    fewer.
 
-5. Select **Create Re-Run**. Your **My Courses** dashboard opens with a status
+   5. Select **Create Re-Run**. Your **My Courses** dashboard opens with a status
    message about the course creation process.
 
    Duplication of the course structure and content takes several minutes. You
    can work in other parts of Studio or in the LMS, or on other web sites,
    while the process runs. The new course appears on your **My Courses**
    dashboard in Studio when configuration is complete.
+
 
 .. _Update the New Course:
 

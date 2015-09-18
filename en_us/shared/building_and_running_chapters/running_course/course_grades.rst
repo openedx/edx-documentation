@@ -86,10 +86,9 @@ To generate and download the grade report for the learners who are currently
 enrolled in your course, follow these steps.
 
 .. important:: Because the grade report file contains confidential, personally
-   identifiable data which might be subject to the Family Educational Rights and
-   Privacy Act (FERPA), be sure to follow your institution's data stewardship
-   policies when you open or save this file.
-
+   identifiable data which might be subject to the Family Educational Rights
+   and Privacy Act (FERPA), be sure to follow your institution's data
+   stewardship policies when you open or save this file.
 
 #. View the live version of your course.
 
@@ -143,7 +142,6 @@ course.
    problems within assignments, or include student answer distributions. For a
    report that shows problem-level information, see :ref:`problem_report`.
 
-
 The report indicates the enrollment track for each learner. For professional
 and verified track learners it also shows whether they have verified their
 identity. The report shows whether each learner is eligible to receive a
@@ -183,13 +181,13 @@ columns that provide the following information.
   the default cohort. The column is empty for learners who are not yet assigned to
   a cohort.
 
-* If :ref:`content experiments<Overview of Content Experiments>` are used in the
-  course, an **Experiment Group** column indicates the name of the experiment
-  group that each learner belongs to within a group configuration. The column
-  heading includes the name of the group configuration. The column is empty for
-  learners who are not assigned to an experiment group. If you have more than one
-  experiment group configuration in your course, you see one column for each group
-  configuration.
+* If :ref:`content experiments<Overview of Content Experiments>` are used in
+  the course, an **Experiment Group** column indicates the name of the
+  experiment group that each learner belongs to within a group configuration.
+  The column heading includes the name of the group configuration. The column
+  is empty for learners who are not assigned to an experiment group. If you
+  have more than one experiment group configuration in your course, you see one
+  column for each group configuration.
 
 * The **Enrollment Track** column indicates whether each learner is enrolled in
   the course in the honor code, verified, or professional education track.
@@ -540,22 +538,32 @@ When you create each of the problems for a course, edX assigns a unique
 location to it. To make grading adjustments for a problem, or to view data
 about it, you need to specify the problem location.
 
-To find the unique location identifier for a problem:
+Location identifiers for problems can be in one of these formats. 
+
+* ``location = block-v1:{org}+{course}+{run}+type@problem+block@{id}``, for
+  example, ``location = block-v1:edX+BlendedX+1T2015+type@problem+block@72e0f73cdf5c4d648ebec0022854f18b``
+
+* ``location = i4x://{org}/{course}/problem/{id}``, for example, 
+  ``location = i4x://edX/edX101/problem/680cc746e8ee473490841334f0235635``
+
+Courses created since Fall 2014 typically have usage IDs in the first format,
+while older courses have usage IDs in the second format.
+
+To find the unique location identifier for a problem, follow these steps.
 
 #. View the live version of your course.
 
-#. Click **Courseware** and navigate to the unit that contains the problem.
+#. Select **Courseware**, and then navigate to the unit that contains the
+   problem.
 
-#. Display the problem and then click **Staff Debug Info**.
+#. Display the problem, and find the **Submission History** and **Staff Debug
+   Info** options that appear below it.
 
-   Information about the problem displays, including its **location**. 
+#. Select **Staff Debug Info**. Information about the problem appears,
+   including its **location**.
 
-   .. image:: ../../../shared/building_and_running_chapters/Images/Problem_URL.png
-    :alt: The Staff Debug view of a problem with the location identifier 
-          indicated
-
-4. To copy the location of the problem, select the entire location, right
-   click, and choose **Copy**.
+#. To copy the location of the problem, select the entire value after
+   ``location =``, right click, and then select **Copy**.
 
 To close the Staff Debug viewer, click on the browser page outside of the
 viewer.

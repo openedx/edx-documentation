@@ -9,8 +9,8 @@ authentication between their campus or institutional authentication systems and
 the edX Edge site. Learners at sites that enable third party authentication can
 use their campus credentials to authenticate into edX Edge. These procedures
 require collaboration between members of the DevOps (development operations) or
-IT teams at your partner institution and edX, facilitated by your program
-manager.
+IT teams at your partner institution and edX, facilitated by your edX Partner
+Manager.
 
 .. future: add xref to section that describes complete open edX procedures
 .. Alison 15 Jul 2015
@@ -74,7 +74,7 @@ Configure User Attributes
 You work with edX to ensure that your identity provider will assert the user
 information that you want learners to see during initial sign in on edX Edge.
 When you :ref:`send your Shibboleth configuration data<Send Shibboleth
-Configuration Data to edX>` to your institution's program manager at edX, you
+Configuration Data to edX>` to your institution's edX Partner Manager, you
 include any customizations to the attributes that will be asserted.
 
 Selecting User Attributes to Assert
@@ -122,7 +122,7 @@ Send Shibboleth Configuration Data to edX
 ======================================================
 
 To complete the integration between your Shibboleth system and Edge, send
-the following information to your institution's program manager at edX.
+the following information to your institution's edX Partner Manager.
 
 * Metadata: The URL for your Shibboleth IdP metadata XML file. 
 
@@ -135,7 +135,7 @@ the following information to your institution's program manager at edX.
   For more information about how you can work with edX to configure user
   attributes effectively, see :ref:`Configure User Attributes`.
 
-Your edX program manager notifies you when integration with your IdP is
+Your edX Partner Manager notifies you when integration with your IdP is
 complete.
 
 ========================

@@ -194,7 +194,7 @@ grading>`, locate the specific submission by following these steps.
 #. Ask the person who reported the incident to send you a sample of text from
    the inappropriate post.
 
-#. Contact your edX program manager to request a data download of ORA
+#. Contact your edX Partner Manager to request a data download of ORA
    responses for your course.
 
    You will receive the download as a spreadsheet or in .csv file format.
@@ -207,6 +207,3 @@ grading>`, locate the specific submission by following these steps.
 
 #. Make a note of the username, and follow the steps to :ref:`remove a learner
    response from peer grading<Remove a learner response from peer grading>`.
-
-
-
