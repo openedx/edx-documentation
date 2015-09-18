@@ -34,7 +34,7 @@ Bug Fixes
 
 * In for-credit courses, credit-eligible assessments were listed on the
   **Progress** page in the order that they were created. They are now sorted by
-  assessment due date. (ECOM-2118)
+  assessment start date. (ECOM-2118)
 
 * When learners select **Show Answer** for dropdown problems, the positioning of
   the correct answer has been fixed so that it now displays in the same way as
