@@ -27,8 +27,8 @@ Bug Fixes
   checkpoint were incorrectly shown a message indicating that they had missed
   the re-verification deadline. This issue has been resolved. Learners can
   continue to check whether they satisfied the verification or credit
-  requirement on their **Progress** pages. A green checkmark appears next to the
-  verification requirement when submitted photos are approved by the
+  requirement on their **Progress** pages. A green checkmark appears next to
+  the verification requirement when submitted photos are approved by the
   verification service. The verification process can take 24 hours or more.
   (ECOM-2225)
 
@@ -36,9 +36,9 @@ Bug Fixes
   **Progress** page in the order that they were created. They are now sorted by
   assessment start date. (ECOM-2118)
 
-* When learners select **Show Answer** for dropdown problems, the positioning of
-  the correct answer has been fixed so that it now displays in the same way as
-  it does for other problem types such as numerical input. (OSPR-794)
+* When learners select **Show Answer** for dropdown problems, the positioning
+  of the correct answer has been fixed so that it now displays in the same way
+  as it does for other problem types such as numerical input. (OSPR-794)
 
 * When learners select **Show Answer** for math expression input problems, the
   answer display and the loading animation have been improved. (OSPR-808)
