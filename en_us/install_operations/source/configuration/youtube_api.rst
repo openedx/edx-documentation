@@ -29,7 +29,9 @@ Get a YouTube API key
 *************************
 
 To get the YouTube API key, follow YouTube's `instructions for obtaining
-authorization credentials`_.
+authorization credentials`_. YouTube provides two different options for API
+keys: server keys or browser keys. You should use a **browser key** for
+Open edX.
 
 .. Note::
   Before proceeding, review :ref:`Guidelines for Updating the edX Platform`.
@@ -61,7 +63,7 @@ To set your YouTube API key in Ansible's configuration file, complete the follow
 #. Find the line for the YouTube API key.
 
    ``EDXAPP_YOUTUBE_API_KEY: "PUT_YOUR_API_KEY_HERE"``
-   
+
    Replace ``PUT_YOUR_API_KEY_HERE`` with your YouTube API key. Ensure
    that the YouTube API key is within by quotation marks.
 
@@ -98,11 +100,11 @@ steps.
    files, including ``lms.auth.json`` and ``cms.auth.json``. If you are running
    Devstack or Fullstack, the directory is ``/edx/app/edxapp``.
 
-#. Open the ``lms.auth.json`` file in your text editor. 
+#. Open the ``lms.auth.json`` file in your text editor.
 
 #. Find the line for the YouTube API key.
    ``"YOUTUBE_API_KEY": "PUT_YOUR_API_KEY_HERE",``
-   
+
    Replace ``PUT_YOUR_API_KEY_HERE`` with your YouTube API key. Ensure
    that the YouTube API key is within by quotation marks.
 
