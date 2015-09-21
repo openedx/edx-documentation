@@ -466,6 +466,50 @@ updated to provide partial credit for a different answer.
     <responseparam partial_answers="150*10^6"/>
   </numericalresponse>
 
+******************************************
+Add Text after the Numeric Response Field
+******************************************
+
+You might want to include a word, phrase, or sentence after the answer field
+in a numerical input problem to help guide your students or resolve ambiguity.
+
+.. image:: ../../../shared/building_and_running_chapters/Images/NI_trailing_text.png
+ :width: 500
+ :alt: Three numerical input problems with text after the response field:
+     "km", a percent sign, and a symbol for meters per second squared.
+
+To do this, you must use the :ref:`Advanced Editor<Advanced Editor>`.
+
+After you open the problem in the Advanced Editor, locate the
+``formulaequationinput`` element. This element creates the response field for
+the problem. The ``formulaequationinput`` element is a child of the
+``numericalresponse`` element.
+
+To add text after the answer field, add the ``trailing_text`` attribute
+together with the text that you want to use inside the
+``formulaequationinput`` element. Several examples follow.
+
+.. note:: You can use MathJax inside the ``trailing_text`` attribute, as the 
+ third example shows. You cannot use HTML inside this attribute.
+
+::
+
+  <numericalresponse answer="12.87">
+    <formulaequationinput label="How far is 8 miles in kilometers?" 
+    trailing_text="km" />
+  </numericalresponse>
+
+  <numericalresponse answer="91"> 
+    <formulaequationinput label="According to the Pew Research Center's Internet
+    and American Life Project, what percentage of the world's population has a 
+    cellular phone as of May 2013?" trailing_text="%" />
+  </numericalresponse>
+
+  <numericalresponse answer="9.81"> 
+    <formulaequationinput label="What is the strength of Earth's gravity, to 
+    two decimal places?" trailing_text="\(m/s^{2}\)" />
+  </numericalresponse>
+
 .. _Numerical Input Problem XML:
 
 ****************************

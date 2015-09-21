@@ -33,6 +33,10 @@ October 2015
        * :ref:`Awarding Partial Credit in a Write Your Own Grader
          Problem<Award Partial Credit>`
 
+   * - 
+     - Added information about including text after the response field in
+       :ref:`Text Input` and :ref:`Numerical Input`.
+
 ****************
 September 2015
 ****************
