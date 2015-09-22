@@ -23,6 +23,9 @@ For more information and examples of how course teams might set up a course on
 an external LMS as a consumer of edX course content, see `Using edX as an LTI
 Tool Provider`_ in the *Building and Running an edX Course* guide.
 
+You can also configure LTI authentication between your Open edX installation
+and an external LMS. For more information, see :ref:`Configuring Open edX for
+LTI Authentication`.
 
 .. include:: ../../links.rst
 
