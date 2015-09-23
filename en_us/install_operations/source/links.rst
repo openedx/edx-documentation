@@ -100,3 +100,6 @@
 .. _Python SAML Toolkit: https://github.com/onelogin/python-saml
 
 .. _Using edX as an LTI Tool Provider: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/building_course/lti/index.html#using-edx-as-an-lti-tool-provider
+
+.. _IMS LTI 1.1 Consumer Launch: http://www.imsglobal.org/developers/LTI/test/v1p1/lms.php
+

@@ -77,6 +77,73 @@ tool consumer, follow these steps.
     for this field. Alternatively, you can replace it with a secret generated
     by an external tool.
 
-7. Optionally, change the default value for the **Lti max timestamp age**.
+7. Optionally, change the **Lti max timestamp age** to the time interval that
+   is acceptable for both the tool provider and tool consumer systems.
 
 #. Select **Save** at the bottom of the page. 
+
+*******************************************
+Test LTI Authentication 
+*******************************************
+
+To verify the sign in process for an LTI provider configuration, follow these
+steps.
+
+#. Have the LTI consumer key and secret for the LTI provider configuration
+   available. For example, use the Django administration console to open the
+   **Change Provider Configuration (LTI)** page.
+
+#. Use a separate browser window or tab to open the `IMS LTI 1.1 Consumer
+   Launch`_ page.
+
+#. As the **Launch URL**, enter your base URL followed by ``/auth/login/lti/``.
+   For example, ``http://{your_URL}/auth/login/lti/``.
+
+#. Copy the **Lti consumer key** value, and then on the IMS LTI 1.1 Consumer
+   Launch page paste it in as the **Key**.
+   
+#. Copy the **Lti consumer secret** value, and then on the IMS LTI 1.1 Consumer
+   Launch page paste it in as the **Secret**.
+   
+#. Optionally, change the default values in the **Launch Data** section of the
+   IMS LTI 1.1 Consumer Launch page to match the set of values that the tool
+   consumer is configured to supply.
+
+#. To test the workflow for a learner who does not yet have a user account on
+   your Open edX system, follow these steps.
+
+   - Use a separate browser window or tab to make sure that you are signed out
+     of your Open edX LMS.
+
+   - On the IMS LTI 1.1 Consumer Launch page, select **Recompute Launch Data**
+     and then select **Press to Launch**.
+
+   The page that is configured for delivery to an unauthenticated user loads at
+   the bottom of the page. In the example that follows, the registration page
+   appears (that is, it was not configured to be skipped) and the learner is
+   prompted to complete required fields.
+
+   .. image:: ../../Images/lti_test_auth.png
+     :alt: Screen shot of the IMS LTI 1.1 Consumer Launch page with the
+         registration page for the edX Edge loaded at the bottom.
+
+#. To test the workflow for a learner who already has a user account on
+   your Open edX system, follow these steps.
+
+   - Use a separate browser window or tab to sign in to your Open edX LMS.
+
+   - On the IMS LTI 1.1 Consumer Launch page, select **Recompute Launch Data**
+     and then select **Press to Launch**.
+
+   Your Open edX user account is linked to the LTI provider configuration, and
+   your learner dashboard on the Open edX site loads at the bottom of the page.
+   To unlink your user accounts, select the arrow next to your username, and
+   then select **Account**. In the **Connected Accounts** section, select
+   **Unlink** next to the LTI provider configuration name.
+
+
+
+
+
+.. include:: ../../links.rst
+
