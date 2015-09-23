@@ -21,7 +21,7 @@ To use edX course content in the Canvas LMS, you add a new app to the course and
    ``https://edx-lti.org/lti_provider/courses/course-v1:edX+DemoX+2014/block-v1:edX+DemoX+Demo_Course+type@problem+block@d2e35c1d294b4ba0b3b1048615605d2a``.
 
    .. image:: ../../../../shared/building_and_running_chapters/Images/lti_edit_problem_Canvas.png
-     :alt: The Canvas page where you add an enternal tool and supply the LTI
+     :alt: The Canvas page where you add an external tool and supply the LTI
          URL.
 
    For more information, see :ref:`Determining Content Addresses`.

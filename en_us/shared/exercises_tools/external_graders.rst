@@ -105,7 +105,7 @@ problems in Studio.
 EdX partners who are using external graders should use the base URL
 ``https://xqueue.edx.org`` as the XQueue name.
 
-If you are an edX partner, contact your edX program manager for more
+If you are an edX partner, contact your edX Partner Manager for more
 information. Because edX hosts many XQueues for different courses, you must use
 the exact XQueue name in your problems, as described in  :ref:`Create a Code
 Response Problem`.
@@ -232,7 +232,7 @@ edX operations, when the grader fails. In collaboration with edX, you must
 develop a procedure to quickly identify the cause of failure, which can be your
 grader or edX's XQueue.
 
-Contact your edX program manager for more information.
+Contact your edX Partner Manager for more information.
 
 If you know the grader will be unavailable at a certain time for maintenance,
 you should :ref:`add a course update <Add a Course Update>`.
@@ -285,7 +285,7 @@ external grader::
 Note the following details about the XML definition.
 
 * **queuename**: The value of the queuename attribute of the ``<coderesponse>``
-  element maps to an XQueue. Partners should contact their edX program manager
+  element maps to an XQueue. Partners should contact their edX Partner Manager
   for more information. You must use this exact name in order for the problem
   to communicate with the correct XQueue.
 

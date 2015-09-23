@@ -5,6 +5,10 @@ Code Considerations
 This is a checklist of all of the things that we expect a developer to consider
 as they are building new or modifying existing functionality.
 
+.. contents::
+   :local:
+   :depth: 1
+
 Operational Impact
 ==================
 
@@ -42,10 +46,15 @@ See also: :ref:`Deploy a New Service`.
 Documentation/Training/Support
 ==============================
 
-* Is there appropriate documentation in the context of the product for
-  this feature? If not, how can we get it to folks?
+* Is there appropriate documentation in the context of the product for this
+  feature, in the form of labels, on-screen help, or mouse over hints? In
+  Studio, each page has a context-sensitive link to the edX documentation. If
+  users will need more information to understand how to set up and use the
+  feature, how can we get that information to the users?
 
-  * For Studio much of the documentation is in the product.
+  For more information about the types of information that technical writers
+  typically try to find out when they document a new feature, see
+  :ref:`Contributing to the Documentation for your Open Source Feature`.
 
 * Is this feature big enough that we need to have a session with stakeholders
   to introduce this feature BEFORE we release it? (PMs, Support, etc...)
@@ -174,8 +183,91 @@ UX/Design/Front End Development
 .. [2] http://thesassway.com/intermediate/avoid-nested-selectors-for-more-modular-css
 .. [3] http://ianstormtaylor.com/oocss-plus-sass-is-the-best-way-to-css/
 
-edX.org Specific
-================
 
-* Ensure that you have not broken import/export?
-* Ensure that you have not broken video player? (Lyla video)
+.. _Contributing to the Documentation for your Open Source Feature:
+
+Contributing to the Documentation for Your Open Source Feature
+===============================================================
+
+Thank you for making a contribution to Open edX. To help ensure the widest
+possible adoption for your contribution, it should have an appropriate level of
+documentation. For features with user-facing changes, additions to the `edX
+documentation`_ set might be needed to help different types of users understand
+and use it successfully.
+
+You can use the questions that follow as guidelines for providing in-depth
+information about a change to the edX code base. The edX documentation team
+typically tries to answer questions like these for every new feature.
+
+Your pull request ("PR") `cover letter`_ might already include some, or all, of
+this information, but we encourage you to consider each of these questions to
+be sure that you have provided thorough context and detail.
+
+The edX documentation set is created using RST files and Sphinx. If you want to
+contribute documentation directly, you are welcome to make revisions and
+additions to the files in the edX documentation team's `GitHub repository`_. If
+you have questions, please contact us at docs@edx.org.
+
+#. What problem or lack of functionality do users experience that made you
+   decide to make this contribution?
+
+#. How does your feature or revision address that problem? Consider providing
+   one or more use cases.
+
+#. Who is affected by your contribution, and in what ways? Please provide
+   one or more screen captures.
+
+  * Will the course team have access to a new tool or page in Studio, or see
+    changes or additions to the Studio user interface?
+
+  * How will learners experience the change in the courseware? What learning
+    outcomes can be expected?
+
+  * How will course team members experience the change in the LMS, on the
+    Instructor Dashboard as well as in the course content?
+
+  * What questions are researchers likely to ask about student interaction with
+    the feature? Will researchers need information about new or changed
+    tracking log events, SQL tables, or JSON files?
+
+  * Does this feature include tools for developers, such as a new API or
+    changed or updated API endpoints?
+
+#. Does your contribution affect any existing problem types or the video
+   player? The events emitted by these features are used by Open edX Insights
+   and by researchers to measure learner performance and engagement.
+
+  * Performance analytics: What effect does your change have on existing data,
+    reports, and metrics for student performance? Have you added reports or
+    metrics?
+
+  * Engagement analytics: What effect does your change have on existing data,
+    reports, and metrics for student engagement? Have you added reports or
+    metrics?
+
+#. Are there any prerequisites?
+
+  * Does a system administrator need to set a feature flag, grant permissions,
+    set up a user account, configure integration with a third party tool, or
+    perform any other installation or configuration steps? If so, be sure to
+    provide those steps.
+
+  * Do any Advanced Setting policy keys need to be added or changed in Studio?
+    If so, be sure to provide an example of the syntax needed.
+
+  * Is a particular course role needed to set up or use the feature? Some
+    examples are discussion moderator, beta tester, and admin.
+
+  * Is specialized background knowledge necessary? Examples are familiarity
+    with, or authorization to access, other on campus systems or third party
+    tools.
+
+#. How will each affected audience (particularly system administrators, course
+   teams, and learners) use the feature? Consider describing the workflow and
+   referencing screen captures.
+
+
+
+.. _cover letter: http://edx.readthedocs.org/projects/edx-developer-guide/en/latest/process/cover-letter.html
+.. _GitHub repository: https://github.com/edx/edx-documentation
+.. _edX documentation: http://docs.edx.org 

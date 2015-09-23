@@ -10,6 +10,10 @@ Change Log
 
    * - Date
      - Change
+   * - 15 Sep 2015
+     - Added a topic with guidelines for :ref:`contributing to the
+       documentation for your open source feature<Contributing to the
+       Documentation for your Open Source Feature>`.
    * - 28 Jul 2015
      - Added more detail to the :ref:`Testing Event Emission` topic to the
        :ref:`analytics` section.

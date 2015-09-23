@@ -403,6 +403,7 @@ other than the Instructor Dashboard.
   :local:
   :depth: 1
 
+
 The descriptions that follow include what each event represents, the system
 component it originates from, the history of any changes made to the event
 over time, and any additional member fields that the common ``context`` or
@@ -3901,6 +3902,303 @@ Instructor Dashboard, the server emits an ``edx.cohort.user_removed`` event.
    * - ``user_id``
      - integer
      - The numeric ID (from ``auth_user.id``) of the removed user.
+
+
+.. Commenting out badging events; add back when Badging supported on edx.org
+
+  .. _badging_events:
+
+  =================================
+  Badging Events 
+  =================================
+
+  This section includes descriptions of the following events related to badges,
+  which are created when learners have achieved some course milestone, usually
+  the awarding of a course certificate. Badges are created automatically when
+  certificates are generated. A badge is uniquely identifiable by its assertion
+  information. A badge assertion represents a badge being awarded to a learner,
+  and describes the following three items.
+
+       * Who the badge was awarded to.
+       * What the badge represents (for example, course identifier, enrollment mode).
+       * Who issued the badge (the issuing organization).
+
+      When learners earn badges, they can download a badge image and share it on
+      social networks or on badge display sites such as Mozilla Backpack. When
+      other parties visit the shared badge links, they can view information that
+      gives evidence of the learner's achievement. 
+
+
+      * ``edx.badge.assertion.created`` 
+      * ``edx.badge.assertion.shared`` 
+      * ``edx.badge.assertion.evidence_visited``
+
+
+      ``edx.badge.assertion.created``
+      *********************************
+
+      When a badge is created that associates a specific learner with a specific
+      achievement, the server emits an ``edx.badge.assertion.created`` event.
+
+      **Event Source**: Server
+
+      **History** Added 8 June 2015.
+
+      ``event`` **Member Fields**:
+
+      .. list-table::
+         :widths: 15 15 60
+         :header-rows: 1
+
+         * - Field
+           - Type
+           - Details
+         * - ``assertion_id``
+           - integer
+           - The unique ID of the BadgeAssertion object.
+         * - ``assertion_image_url``
+           - string
+           - The URL of an image file of the badge that includes badge assertion
+             information in the header. These files can serve to verify the user's
+             accomplishment and can be easily shared.
+         * - ``assertion_json_url``
+           - string
+           - The URL of a JSON object containing the badge assertion information.
+         * - ``course_id``
+           - string
+           - The course associated with this badge. 
+         * - ``enrollment_mode``
+           - string
+           - The course enrollment mode associated with this badge.
+         * - ``issuer``
+           - string
+           - The URL of the badge issuer's web site.
+         * - ``user_id``
+           - integer
+           - The numeric ID of the learner who earned this badge.    
+
+
+      ``edx.badge.assertion.shared``
+      *********************************
+
+      When a learner downloads a badge that she has earned for the purpose of
+      sharing it on social media, the server emits an
+      ``edx.badge.assertion.shared`` event.
+
+      **Event Source**: Browser
+
+      **History** Added 8 June 2015.
+
+      ``event`` **Member Fields**:
+
+      The ``edx.badge.assertion.shared`` event includes many of the same ``event``
+      member fields that are described for the ``edx.badge.assertion.created``
+      event. The following member fields serve the same purpose for
+      ``edx.badge.assertion.shared`` as they do for
+      ``edx.badge.assertion.created``.
+
+      * ``assertion_id``
+      * ``assertion_image_url``
+      * ``assertion_json_url``
+      * ``course_id``
+      * ``enrollment_mode``
+      * ``issuer``
+      * ``user_id``
+
+
+      The following additional ``event`` member field applies specifically to
+      ``edx.badge.assertion.shared`` events.
+
+      .. list-table::
+         :widths: 15 15 60
+         :header-rows: 1
+
+         * - Field
+           - Type
+           - Details
+         * - ``social_network``
+           - string
+           - The social network to which the badge is shared.
+
+
+      ``edx.badge.assertion.evidence_visited``
+      *****************************************
+       
+      Each badge contains assertion information that includes an "evidence" field.
+      When badges are displayed on sites such as Mozilla Backpack, the evidence
+      field is used to provide a link to evidence that confirms the badge owner's
+      achievement, usually a certificate.
+       
+      When other users visit social networks or a site such as Mozilla Backpack and
+      use a badge's evidence link to view a badge owner's certificate, the server
+      emits an ``edx.badge.assertion.evidence_visited`` event.
+
+      **Event Source**: Browser
+
+      **History** Added 8 June 2015.
+
+      ``event`` **Member Fields**:
+
+      The ``edx.badge.assertion.evidence_visited`` event includes all of the same
+      ``event`` member fields that are described for the
+      ``edx.badge.assertion.created`` event. The following member fields serve the
+      same purpose for ``edx.badge.assertion.evidence_visited`` as they do for
+      ``edx.badge.assertion.created``.
+
+      * ``assertion_id``
+      * ``assertion_image_url``
+      * ``assertion_json_url``
+      * ``course_id``
+      * ``enrollment_mode``
+      * ``issuer``
+      * ``user_id``
+
+
+.. _certificate_events:
+
+=================================
+Certificate Events 
+=================================
+
+This section includes descriptions of the events related to certificates, which
+are awarded to qualified learners when they complete a course.
+
+* ``edx.certificate.created`` 
+* ``edx.certificate.shared`` 
+* ``edx.certificate.evidence_visited``
+
+
+``edx.certificate.created``
+*********************************
+
+When a certificate is generated, a record is created in the
+``certificates_generatedcertificate`` table, triggering an
+``edx.certificate.created`` event. For details, see
+:ref:`certificates_generatedcertificate`.
+
+**Event Source**: Server
+
+**History** Added 2 September 2015.
+
+``event`` **Member Fields**:
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+   * - ``certificate_id``
+     - string
+     - The ``verify.uuid`` value from the
+       ``certificates_generatedcertificate`` table. This string appears at the
+       bottom of each certificate.
+   * - ``certificate_url``
+     - string
+     - The URL for the certificate web page.  
+   * - ``course_id``
+     - string
+     - The course for which this certificate is issued. 
+   * - ``enrollment_mode``
+     - string
+     - The course enrollment mode associated with this certificate.
+   * - ``generation_mode``
+     - string
+     - Indicates whether this certificate was generated for all learners in a
+       course by a batch command, or whether a learner generated her own
+       certificate. Possible values are "batch" and "self".
+   * - ``user_id``
+     - integer
+     - The numeric ID of the learner who earned this certificate.    
+
+
+``edx.certificate.shared``
+*********************************
+
+When a learner shares the URL for her certificate on a social media web site,
+the server emits an ``edx.certificate.shared`` event.
+
+**Event Source**: Browser
+
+**History** Added 2 September 2015.
+
+``event`` **Member Fields**:
+
+The ``edx.certificate.shared`` event includes many of the same ``event``
+member fields that are described for the ``edx.certificate.created`` event.
+The following member fields serve the same purpose for
+``edx.certificate.shared`` as they do for `edx.certificate.created`_.
+
+* ``certificate_id``
+* ``certificate_url``
+* ``course_id``
+* ``enrollment_mode``
+* ``user_id``
+
+
+The following additional ``event`` member field applies specifically to
+``edx.certificate.shared`` events.
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+   * - ``social_network``
+     - string
+     - The social network to which the certificate is shared, such as
+       "LinkedIn", "Facebook", or "Twitter".
+
+
+``edx.certificate.evidence_visited``
+**************************************
+ 
+When a learner shares her certificates on social network sites such as
+LinkedIn, and the link back to the certificate is followed by some visitor to
+that social network site, the server emits an
+``edx.certificate.evidence_visited`` event.
+
+**Event Source**: Browser
+
+**History** Added 2 September 2015.
+
+``event`` **Member Fields**:
+
+The ``edx.certificate.evidence_visited`` event includes all of the same
+``event`` member fields that are described for the ``edx.certificate.created``
+event. The following member fields serve the same purpose for
+``edx.certificate.evidence_visited`` as they do for
+``edx.certificate.created``.
+
+* ``certificate_id``
+* ``certificate_url``
+* ``course_id``
+* ``enrollment_mode``
+* ``user_id``
+
+
+The following additional ``event`` member fields apply specifically to
+``edx.certificate.evidence_visited`` events.
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details  
+   * - ``social_network``
+     - string
+     - The social network to which the certificate is shared, such as
+       "LinkedIn", "Facebook", or "Twitter".
+   * - ``source_url``
+     - string
+     - The URL of the web site where the certificate evidence link was
+       selected. This URL is the same as the URI in the ``context.referer``
+       field. For details, see `referer field`_.
 
 
 .. _ora:

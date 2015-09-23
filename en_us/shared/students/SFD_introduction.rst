@@ -21,11 +21,11 @@ For more information, see the following topics.
   including how to verify your identity for a verified course.
 * :ref:`SFD Academic Course Credit` - Covers how to receive academic credit
   for certain edX courses.
-* :ref: `Course and Video Licenses` - Explains the different kinds of licenses
+* :ref:`Course and Video Licenses` - Explains the different kinds of licenses
   that may apply to your course.
-* :ref:`Video Player` - Contains an illustration of the edX video player and its
-  features.
-* :ref: `Google Drive` - Describes the use of Google Drive files and calendars
+* :ref:`Video Player` - Contains an illustration of the edX video player and
+  its features.
+* :ref:`Google Drive` - Describes the use of Google Drive files and calendars
   in a course.
 * :ref:`Certificates` - Covers the different types of certificates edX offers,
   how to change your certificate type, and when you receive your certificate.

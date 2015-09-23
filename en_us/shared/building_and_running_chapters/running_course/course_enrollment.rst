@@ -20,9 +20,10 @@ learners.
 .. only:: Open_edX
 
   Data about course enrollment is available from the Instructor Dashboard and
-  from Insights. For more information, see :ref:`view_enrollment_count`.
+  from Insights. For more information, see :ref:`Report Learners Not Yet
+  Enrolled`.
 
-.. contents:: Section Contents:
+.. contents::
   :local:
   :depth: 1
 
@@ -82,7 +83,7 @@ When you enroll people in a course, you have the following options.
   that account is registered and activated.
 
   You can track the enrollment status of the learners who you auto enroll. For
-  more information, see :ref:`view_not_yet_enrolled`.
+  more information, see :ref:`Report Learners Not Yet Enrolled`.
 
   If you do not select **Auto Enroll**, the people who you enroll must also
   actively locate your course and enroll themselves in it. These learners see
@@ -115,34 +116,33 @@ To enroll learners or course team members, follow these steps.
    address of the learner, or enter multiple names or addresses separated by
    commas or new lines.
 
-  You can copy and paste data from a CSV file of email addresses. However,
-  note that this feature is better suited to courses with smaller enrollments,
-  rather than courses with massive enrollments.
+   You can copy and paste data from a CSV file of email addresses. However,
+   note that this feature is better suited to courses with smaller enrollments,
+   rather than courses with massive enrollments.
 
-4. To streamline the course enrollment process, leave **Auto Enroll** selected.
+#. To streamline the course enrollment process, leave **Auto Enroll** selected.
 
 #. To send learners an email message, leave **Notify students by email**
    selected.
 
 #. Select **Enroll**.
 
+You can view or download a list of the people who are enrolled in the course.
+See :ref:`Student Data`.
+
 .. only:: Open_edX
 
-   .. note:: If your course has a fee, and an organization wants to purchase 
+  .. note:: If your course has a fee, and an organization wants to purchase 
     enrollment for multiple seats in your course at one time, you can create
     enrollment codes for the organization. The organization then distributes
     these enrollment codes to its learners to simplify the enrollment process.
     You can also create coupon codes to give learners a discount when they
     enroll in your course. For more information, see :ref:`Manage Course Fees`.
 
-.. only:: Open_edX
+  .. include:: ../../../shared/building_and_running_chapters/running_course/Section_view_enrollment_count.rst
 
-   .. include:: ../../../shared/building_and_running_chapters/running_course/Section_view_enrollment_count.rst
 
-You can view or download a list of the people who are enrolled in the course.
-See :ref:`Student Data`.
-
-.. _view_not_yet_enrolled:
+.. _Report Learners Not Yet Enrolled:
 
 ********************************
 Report Learners Not Yet Enrolled

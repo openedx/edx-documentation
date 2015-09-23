@@ -5,6 +5,8 @@
 
 .. _Specific Student View - Open edX: http://edx.readthedocs.org/projects/open-edx-building-and-running-a-course/en/latest/developing_course/testing_courseware.html#specific-student-view
 
+.. _Creating a Custom Course: http://edx.readthedocs.org/projects/open-edx-building-and-running-a-course/en/latest/building_course/custom_courses.html
+
 .. _Open edX XBlock Tutorial: http://edx.readthedocs.org/projects/xblock-tutorial/en/latest/
 
 .. _Open edX XBlock API Guide: http://edx.readthedocs.org/projects/xblock/en/latest/
@@ -193,6 +195,8 @@
 .. _Installing, Configuring, and Running the edX Platform: http://edx.readthedocs.org/projects/edx-installing-configuring-and-running/en/latest/
 
 .. _Installing the edX Production Stack: http://edx.readthedocs.org/projects/edx-installing-configuring-and-running/en/latest/prodstack/install_prodstack.html
+
+.. _Installing the Open edX Analytics Developer Stack: http://edx.readthedocs.org/projects/edx-installing-configuring-and-running/en/latest/devstack/analytics_devstack.html
 
 .. _edX Research Guide: http://edx.readthedocs.org/projects/devdata/en/latest/
 
@@ -602,4 +606,8 @@
 .. _Qualtrics Survey Tool - Open edX: http://edx.readthedocs.org/projects/open-edx-building-and-running-a-course/en/latest/exercises_tools/qualtrics.html
 
 .. _Open edX Cypress Release Notes: http://edx.readthedocs.org/projects/open-edx-release-notes/en/latest/cypress.html
+
+.. _Student Answer Submissions: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/running_course/course_answers.html#student-answer-submissions
+
+.. _Using edX as an LTI Tool Provider: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/building_course/lti/index.html
 

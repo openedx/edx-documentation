@@ -15,6 +15,8 @@ July-September 2015
 
    * - Date
      - Change
+   * - 2 Sep 2015
+     - Added new events for :ref:`digital certificates <certificate_events>`.
    * - 6 Aug 2015
      - Updated the the :ref:`Package` section to include approximate sizes for
        the files in data packages.

@@ -1,0 +1,6 @@
+
+For a custom course on the Open edX platform, or CCX, instructors now receive
+an error message if they use an invalid or unregistered email address to add a
+user to a course. For more information about CCX, see `Creating a Custom
+Course`_ in *Building and Running an Open edX Course*.
+

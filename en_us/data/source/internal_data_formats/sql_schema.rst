@@ -242,7 +242,7 @@ is_staff
   It does not indicate that the person is a member of the course team for any
   given course.
 
-  Generally, users with this flag set to 1 are either edX program managers
+  Generally, users with this flag set to 1 are either edX Partner Managers
   responsible for course delivery, or edX developers who need access for
   testing and debugging purposes. Users who have ``is_staff`` = 1 have
   Admin privileges on all courses and can see additional debug

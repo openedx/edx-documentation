@@ -46,10 +46,12 @@ the external LMS.
 Learner Identification and Single Sign On
 ******************************************
 
-.. note:: Different configuration options are available for how an external 
- LMS and edX Edge authenticate users. Your DevOps team is likely to have
- additional information about the specific authentication process used by your
- institution.
+.. only:: Partners
+
+  .. note:: Different configuration options are available for how an external 
+   LMS and edX Edge authenticate users. Your DevOps team is likely to have
+   additional information about the specific authentication process used by 
+   your institution.
 
 Learners do not need to navigate to a different website, or sign in to any
 other system (including edX), to access content that originates in an edX

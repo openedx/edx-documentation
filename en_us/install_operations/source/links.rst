@@ -98,3 +98,5 @@
 .. _python-social-auth backend documentation: http://python-social-auth.readthedocs.org/en/latest/backends/index.html#social-backends
 
 .. _Python SAML Toolkit: https://github.com/onelogin/python-saml
+
+.. _Using edX as an LTI Tool Provider: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/building_course/lti/index.html#using-edx-as-an-lti-tool-provider

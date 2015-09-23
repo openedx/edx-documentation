@@ -10,22 +10,14 @@ make adjustments to student grading for a problem, for a single student or all
 students. For information about the grading data that you can access and the
 changes you can make, see the following topics.
 
-* :ref:`Review_grades`
+.. contents::
+ :local:
+ :depth: 1
 
-* :ref:`Access_grades`
-
-* :ref:`problem_report`
-
-* :ref:`gradebook`
-
-* :ref:`check_student_progress`
-
-* :ref:`Adjust_grades`
-
-To review student answers to the problems in your course, you can check the
-answer submitted by a specified student for a selected problem, download
-course-wide answer data, or review a graph of all answer data for a selected
-problem. See :ref:`Review_Answers`.
+To review student answers to course problems, you can check the answer
+submissions for a specific problem, either for a selected student or for all
+students. You can also review answer distribution data for all of the problems.
+See :ref:`Review_Answers`.
 
 For information about how you establish a grading policy and work with the
 Problem components in your course, see :ref:`Establish a Grading Policy` or
@@ -94,10 +86,9 @@ To generate and download the grade report for the learners who are currently
 enrolled in your course, follow these steps.
 
 .. important:: Because the grade report file contains confidential, personally
-   identifiable data which might be subject to the Family Educational Rights and
-   Privacy Act (FERPA), be sure to follow your institution's data stewardship
-   policies when you open or save this file.
-
+   identifiable data which might be subject to the Family Educational Rights
+   and Privacy Act (FERPA), be sure to follow your institution's data
+   stewardship policies when you open or save this file.
 
 #. View the live version of your course.
 
@@ -151,7 +142,6 @@ course.
    problems within assignments, or include student answer distributions. For a
    report that shows problem-level information, see :ref:`problem_report`.
 
-
 The report indicates the enrollment track for each learner. For professional
 and verified track learners it also shows whether they have verified their
 identity. The report shows whether each learner is eligible to receive a
@@ -191,13 +181,13 @@ columns that provide the following information.
   the default cohort. The column is empty for learners who are not yet assigned to
   a cohort.
 
-* If :ref:`content experiments<Overview of Content Experiments>` are used in the
-  course, an **Experiment Group** column indicates the name of the experiment
-  group that each learner belongs to within a group configuration. The column
-  heading includes the name of the group configuration. The column is empty for
-  learners who are not assigned to an experiment group. If you have more than one
-  experiment group configuration in your course, you see one column for each group
-  configuration.
+* If :ref:`content experiments<Overview of Content Experiments>` are used in
+  the course, an **Experiment Group** column indicates the name of the
+  experiment group that each learner belongs to within a group configuration.
+  The column heading includes the name of the group configuration. The column
+  is empty for learners who are not assigned to an experiment group. If you
+  have more than one experiment group configuration in your course, you see one
+  column for each group configuration.
 
 * The **Enrollment Track** column indicates whether each learner is enrolled in
   the course in the honor code, verified, or professional education track.
@@ -233,8 +223,8 @@ Generate a Problem Grade Report for Enrolled Students (All Courses)
 
 For any course, you can calculate grades for problems and generate a report
 that can be downloaded. The problem grade report for a course shows the number
-points that each learner has earned for each problem and the number of
-possible points for every problem in the course and the . In addition, the
+of points that each learner has earned for each problem, and the number of
+possible points for every problem in the course. In addition, the
 report shows the final grade score for each learner.
 
 To generate and download the problem grade report for the learners who are
@@ -293,7 +283,7 @@ The problem grade report includes two columns for every problem that is
 included in your grading configuration. For each homework, lab, midterm, or
 final exam problem, there is one column for earned points, and one column for
 possible points. In addition, the report shows the final grade score for each
-learner, espressed as a decimal.
+learner, expressed as a decimal.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/Problem_Grade_Report_Example.png
   :alt: An example problem grade report shown in Excel, showing the decimal
@@ -424,7 +414,7 @@ To view the **Progress** page for a learner, follow these steps.
 
    .. image:: ../../../shared/building_and_running_chapters/Images/Student_Progress_list.png
     :alt: Bottom portion of a Progress page for the same student with the 
-          score acheived for each problem in the first course subsection 
+          score achieved for each problem in the first course subsection 
 
 =============================================
 Interpret the Student Progress Page
@@ -458,7 +448,7 @@ represented; however, the student's "total" of 43% is on the far right.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/Student_Progress.png
  :alt: Progress page for a student also included on the grade report: includes 
-       a column graph with the grade acheived for each assignment 
+       a column graph with the grade achieved for each assignment 
 
 The chart on the **Progress** page includes y-axis labels for the grade ranges
 defined for the course. In this example, Pass is set to 60%, so at the end of
@@ -528,7 +518,7 @@ change is unavoidable, you can make the following adjustments.
   single learner or for all learners enrolled in the course. See
   :ref:`reset_attempts`.
 
-* Delete a learners's database history, or "state", completely for a problem.
+* Delete a learner's database history, or "state", completely for a problem.
   You can only delete learner state for one learner at a time. For example, you
   realize that a problem needs to be rewritten after only a few of your
   students have answered it. To resolve this situation, you rewrite the problem
@@ -548,22 +538,32 @@ When you create each of the problems for a course, edX assigns a unique
 location to it. To make grading adjustments for a problem, or to view data
 about it, you need to specify the problem location.
 
-To find the unique location identifier for a problem:
+Location identifiers for problems can be in one of these formats. 
+
+* ``location = block-v1:{org}+{course}+{run}+type@problem+block@{id}``, for
+  example, ``location = block-v1:edX+BlendedX+1T2015+type@problem+block@72e0f73cdf5c4d648ebec0022854f18b``
+
+* ``location = i4x://{org}/{course}/problem/{id}``, for example, 
+  ``location = i4x://edX/edX101/problem/680cc746e8ee473490841334f0235635``
+
+Courses created since Fall 2014 typically have usage IDs in the first format,
+while older courses have usage IDs in the second format.
+
+To find the unique location identifier for a problem, follow these steps.
 
 #. View the live version of your course.
 
-#. Click **Courseware** and navigate to the unit that contains the problem.
+#. Select **Courseware**, and then navigate to the unit that contains the
+   problem.
 
-#. Display the problem and then click **Staff Debug Info**.
+#. Display the problem, and find the **Submission History** and **Staff Debug
+   Info** options that appear below it.
 
-   Information about the problem displays, including its **location**. 
+#. Select **Staff Debug Info**. Information about the problem appears,
+   including its **location**.
 
-   .. image:: ../../../shared/building_and_running_chapters/Images/Problem_URL.png
-    :alt: The Staff Debug view of a problem with the location identifier 
-          indicated
-
-4. To copy the location of the problem, select the entire location, right
-   click, and choose **Copy**.
+#. To copy the location of the problem, select the entire value after
+   ``location =``, right click, and then select **Copy**.
 
 To close the Staff Debug viewer, click on the browser page outside of the
 viewer.
@@ -633,7 +633,7 @@ See :ref:`find_URL`. To rescore a problem:
 
 .. note:: You can use a similar procedure to rescore the submission for a 
  problem by a single student. You work in the **Student-Specific Grade
- Adjustment** section of the page to enter both the student’s email address or
+ Adjustment** section of the page to enter both the student's email address or
  username and the unique problem identifier, and then click **Rescore Student
  Submission**.
 
@@ -701,7 +701,7 @@ attempts for all students:
 
 .. note:: You can use a similar procedure to reset problem attempts for a 
  single student. You work in the **Student-Specific Grade Adjustment** section
- of the page to enter both the student’s email address or username and the
+ of the page to enter both the student's email address or username and the
  unique problem identifier, and then click **Reset Student Attempts**.
 
 .. _delete_state:
@@ -742,6 +742,6 @@ See :ref:`find_URL`.
 #. Click **Instructor**, then click **Student Admin**. 
 
 #. In the **Student-Specific Grade Adjustment** section of the page, enter both
-   the student’s email address or username and the unique problem identifier,
+   the student's email address or username and the unique problem identifier,
    and then click **Delete Student State for Problem**.
    

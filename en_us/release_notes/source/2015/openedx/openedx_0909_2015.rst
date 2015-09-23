@@ -1,0 +1,9 @@
+
+When you install the Open edX developer stack, the search feature is now
+enabled by default. For more information about how you can configure this
+feature, see `Enable edX Search`_. For more information about how learners can
+use this feature, see `Searching the Course`_.
+
+.. note:: The search feature is not currently available on edx.org or Edge. 
+
+
