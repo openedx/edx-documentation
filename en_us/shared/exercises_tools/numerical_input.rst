@@ -275,14 +275,14 @@ not define a feedback label, learners see this term when they submit a correct
 answer, as in the following example.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/numerical_input_feedback.png
- :alt: Image of numerical input feedback with the standard label.
+ :alt: Numerical input feedback with the standard label.
  :width: 600
 
 You can configure the problem to override the default labels. For example, you
 can configure a custom label for the answer.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/numerical_input_feedback_custom_label.png
- :alt: Image of numerical input feedback with a custom label.
+ :alt: Numerical input feedback with a custom label.
  :width: 600
 
 .. note::

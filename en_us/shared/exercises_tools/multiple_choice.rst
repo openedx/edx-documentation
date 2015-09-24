@@ -18,7 +18,7 @@ do not appear until the learner clicks the dropdown arrow, answer choices for
 multiple choice problems are always visible directly below the question.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/MultipleChoiceExample.png
- :alt: Image of a multiple choice problem
+ :alt: A multiple choice problem
  :width: 600
 
 Multiple choice problems can also have several advanced options, such as
@@ -305,14 +305,14 @@ By default, the feedback labels shown to learners are **Correct** and
 when they submit an answer, as in the following example.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/multiple_choice_feedback.png
- :alt: Image of multiple choice feedback with the standard label.
+ :alt: Multiple choice feedback with the standard label.
  :width: 600
 
 You can configure the problem to override the default labels. For example, you
 can configure a custom label for a specific wrong answer.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/multiple_choice_feedback_custom_label.png
- :alt: Image of multiple choice feedback with a custom label.
+ :alt: Multiple choice feedback with a custom label.
  :width: 600
 
 .. note::
@@ -567,7 +567,7 @@ Lists an answer option.
      * - point_value
        - When ``correct="partial"``, indicates the percentage, as a decimal, of
          the points the learner receives for selecting this option. If
-        ``point_value`` is not specified for a partial credit answer, 50% is
+         ``point_value`` is not specified for a partial credit answer, 50% is
          used by default.
      * - name
        - A unique name that is used internally to refer to the choice.
