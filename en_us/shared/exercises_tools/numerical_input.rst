@@ -344,7 +344,7 @@ or the advanced editor. For an overview of hints in problems, see
 Awarding Partial Credit in a Numerical Input Problem
 *****************************************************
 
-You can configure a numerical input problem to have partial credit awarded to
+You can configure a numerical input problem to award partial credit to
 learners who submit an answer that is close or related to the correct answer.
 You must use the `Advanced Editor <Use the Advanced Editor to Edit a Numerical
 Input Problem>`_ to configure partial credit.
@@ -353,8 +353,7 @@ In the following example, the learner entered an answer that was close to the
 correct answer and received partial credit.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/partial_credit_numerical_input.png
- :alt: Image of a numerical input problem with partial credit for a close
-     answer.
+ :alt: A numerical input problem with partial credit for a close answer.
  :width: 600
 
 For an overview of partial credit in problems, see
@@ -387,7 +386,7 @@ multiplied by 2 and the following rules are applied.
 
 You can optionally specify a different multiplier for the tolerance. For
 example, you could set the multiplier to 3. In this case, the following rules
-are applied.
+apply.
 
 * An answer within the tolerance receives 100% of the points for the problem.
 
@@ -424,8 +423,8 @@ updated to provide partial credit for close answers.
 Awarding Partial Credit for Answers in a List
 =============================================
 
-For some numerical input problems, mistakes do not get a learner close to the
-right answer. For example, a small mistake can lead to negative instead of
+For some numerical input problems, mistakes do not help a learner arrive at
+the correct answer. For example, a small mistake can lead to negative instead of
 positive results, or to an answer that is off by a square root or numerical
 factor.
 

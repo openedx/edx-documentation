@@ -19,12 +19,12 @@ incorrect. The course team must set up each checkbox problem to have at least
 one correct answer.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/CheckboxExample.png
- :alt: A checkbox problem with four options, 2 of which are correct.
+ :alt: A checkbox problem with four options, two of which are correct.
 
 .. note:: 
    Make sure that all of the answer choices are unambiguous, and avoid trick
    questions. Checkbox problems with ambiguity can be frustrating to learners,
-   especially if they have a limited number of attempts.
+   especially if the problems have a limited number of attempts.
 
 **************************************************
 Analyzing Performance on Checkbox Problems
@@ -385,13 +385,14 @@ who submit an answer that is partly correct. You must use the `Advanced Editor
 credit.
 
 In the following example, the learner selected two of the three correct
-choices, and did not select any incorrect choices. The learner therefore had 4
-out of 5 correct answers. Because the course team set this problem up to award
-partial credit for every correct answer selected, and incorrect answer left
-unselected (known as `every decision counts`_), the learner earned 80%.
+choices, and did not select any incorrect choices. The learner therefore had
+four out of five correct answers. Because the course team set this problem up
+to award partial credit for every correct answer selected and every incorrect
+answer left unselected (known as `every decision counts`_), the learner earned
+80% of the points for this problem.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/checkbox_partial_credit.png
- :alt: Image of a checkbox choice problem with partial credit for two out of
+ :alt: A checkbox choice problem with partial credit for two out of
      three answers.
  :width: 600
 
@@ -411,8 +412,8 @@ Using the Every Decision Counts Style
 ======================================
 
 You can configure a checkbox problem so that the learner's response for every
-option is evaluated and scored. This is referred to as EDC, every decision
-counts.
+option is evaluated and scored. This is known as "every decision counts"
+(EDC).
 
 With EDC, for each option the learner gets wrong, either by not selecting a
 correct option or selecting an incorrect option, the learner's score is
@@ -455,9 +456,8 @@ problem.
 Configure an EDC Checkbox Problem
 **********************************
 
-To configure an EDC checkbox problem, you add the
-attribute ``partial_credit="EDC"`` to the ``<choiceresponse>`` element in the
-problem XML. 
+To configure an EDC checkbox problem, you add the ``partial_credit="EDC"``
+attribute to the ``<choiceresponse>`` element in the problem XML.
 
 For example, the following XML shows the checkbox problem template after it is
 updated to provide partial credit.
@@ -480,7 +480,7 @@ Using the Halves Style
 You can configure a checkbox problem so that for every option a learner gets
 wrong, either by not selecting a correct option or selecting an incorrect
 option, half of the remaining points are subtracted from the problem. This is
-referred to as scoring by "Halves".
+known as scoring by "halves".
 
 For example, if a learner gets one out of four options wrong, he receives 50%
 of the points for the problem.
@@ -526,9 +526,9 @@ different submissions for a Halves problem.
 Configure a Halves Checkbox Problem
 ************************************
 
-To configure a Halves checkbox problem, you add the attribute
-``partial_credit="halves"`` to the ``<choiceresponse>`` element in the problem
-XML.
+To configure a halves checkbox problem, you add the
+``partial_credit="halves"`` attribute to the ``<choiceresponse>`` element in
+the problem XML.
 
 For example, the following XML shows the checkbox problem template
 updated to provide partial credit.

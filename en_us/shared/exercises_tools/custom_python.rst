@@ -95,8 +95,8 @@ whether the learner's answer is correct:
 * ``False``: Indicates that the learner answered incorrectly. All response
   fields are marked as incorrect.
 
-* ``"Partial"``: Indicates that the learner answer partially correctly. By
-  default the learner receives 50% of the points for the problem. For more
+* ``"Partial"``: Indicates that the learner's answer was partially correct. By
+  default, the learner receives 50% of the points for the problem. For more
   information, see `Award Half Credit`_.
 
 * A dictionary of the form: ``{ 'ok': True, 'msg': 'Message' }`` If the
@@ -352,7 +352,7 @@ give a partially correct answer receive 50% of the points for a problem. To
 provide a learner with a more granular score, see `Award a Percentage of
 Credit for the Problem`_.
 
-The ``check`` function must use return the value ``"Partial"`` in one of the
+The ``check`` function must return the value ``"Partial"`` in one of the
 following ways.
 
 * Return the value ``"Partial"`` directly.
@@ -391,7 +391,7 @@ credit for learners' answers by returning a percent value as a grade. This
 method provides greater flexibility in assigning the learner a score than
 `providing half credit <provide half credit>`_.
 
-In the following example the learner's score equals the answer divided by 100.
+In the following example, the learner's score equals the answer divided by 100.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/partial-credit-python-problem.png
  :alt: An image of a write-your-own-grader problem that provides partial
@@ -403,7 +403,7 @@ The following code shows the configuration of this problem.
 
   <problem>
   <p>In the following problem, the learner receives a score that equals the 
-     answer / 100. If the learner's answer is greater tahn 100 or less than 0, 
+     answer / 100. If the learner's answer is greater than 100 or less than 0, 
      the score equals 0.</p>
  
   <script type="loncapa/python">
@@ -429,10 +429,10 @@ The following code shows the configuration of this problem.
 
 In this example:
 
-* The ``points`` attribute of the ``<customresponse>`` tag specifies that the
+* The ``points`` attribute of the ``<customresponse>`` element specifies that the
   question is worth 100 points.
 
-* The function ``give_partial_credit`` checks that the answer is between 0 and
+* The ``give_partial_credit`` function checks that the answer is between 0 and
   100, and if so divides the learner's answer by 100 to determine the grade.
 
 * The ``input_list`` that is returned specifies that:
@@ -446,8 +446,7 @@ In this example:
   * The grade assigned is the learner's answer divided by 100, with the item
     ``'grade_decimal':grade``.
 
-You can enhance and apply this example for your own problems in which you need
-to assign learners partial credit.
+You can enhance and apply this example for your own partial credit problems.
 
 .. _Create a Randomized Custom Python-Evaluated Input Problem:
 

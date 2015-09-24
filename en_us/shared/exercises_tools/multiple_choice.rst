@@ -393,13 +393,12 @@ In the following example, the learner selected a wrong answer and received
 partial credit.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/partial_credit_multiple_choice.png
- :alt: Image of a multiple choice problem with partial credit for an incorrect
-     answer.
+ :alt: A multiple choice problem with partial credit for an incorrect answer.
  :width: 600
 
 You can specify what percentage of the points for the problem a learner
 receives for an incorrect answer. If you do not specify the percentage, the
-default of 50% is used.
+system uses the default of 50%.
 
 For an overview of partial credit in problems, see
 :ref:`Awarding Partial Credit for a Problem`.
@@ -417,13 +416,13 @@ answer, you add the following attributes to the problem XML.
 * For each answer that you intend to award partial credit, add the
   ``correct="partial"`` attribute to the ``<choice>`` element. 
 
-* Optionally, you can define the percentage of the problem score to award for
+* Optionally, define the percentage of the problem score to award for
   each answer. In the ``point_values`` attribute for the ``<choice>`` element,
   enter the value as a decimal. For example, you can add ``point_value="0.25"``
   to award 25% of the points to learners who select that answer. The percentage
   awarded should reflect how close the learner has gotten to a full
-  understanding of the problem.If you do not add the ``point_value`` attribute,
-  50% is used.
+  understanding of the concept. If you do not add the ``point_value`` attribute,
+  the system uses a value of 50%.
 
 For example, the following XML shows the multiple choice problem template
 updated to provide partial credit for the first answer.
@@ -557,18 +556,18 @@ Lists an answer option.
      * - correct (at least one required)
        - Indicates a correct, incorrect, or partially correct answer. 
          
-         * When this set to "true", the choice is a correct answer. 
+         * When set to "true", the choice is a correct answer. 
          * When set to "false", the choice is an incorrect answer. 
          * When set to "partial", the learner receives partial credit for
            selecting the answer.
          
-         You can specify more than one correct answer, but learners can select
-         only once choice to submit as their answer.
+         You can specify more than one correct or partially correct answer,
+         but learners can select only once choice to submit as their answer.
      
      * - point_value
-       - When correct="partial", indicates the percentage, as a decimal, of
+       - When ``correct="partial"``, indicates the percentage, as a decimal, of
          the points the learner receives for selecting this option. If
-         "point_value" is not specified for a partial credit answer, 50% is
+        ``point_value`` is not specified for a partial credit answer, 50% is
          used by default.
      * - name
        - A unique name that is used internally to refer to the choice.
