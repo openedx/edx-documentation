@@ -709,8 +709,11 @@ and time in Studio. You enter the values in this format:
 
 where:
 
-* The dates and times that you enter are in the Universal Coordinated (UTC)
-  time zone, not in your local time zone.
+* The dates and times that you enter are in Coordinated Universal Time (UTC),
+  not in your local time zone. You might want to verify that you have specified
+  the times that you intend by using a time zone converter such as `Time and
+  Date Time Zone Converter
+  <http://www.timeanddate.com/worldclock/converter.html>`_
 
 * You enter an actual letter **T** between the numeric date and time values. 
 

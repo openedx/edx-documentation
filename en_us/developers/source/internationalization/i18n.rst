@@ -225,6 +225,12 @@ For example::
 Note: it is recommended that you use ``<%-`` for all translated strings
 as this will HTML escape the string before including it in the page. This
 ensures that translations are free to use non-HTML characters.
+Important note: Due to the bug in the underlying underscore extraction library,
+when ```interpolate``` and ```gettext``` are in the same line, the library will
+not work properly; in such situation, the library will just extract the word 
+```gettext``` rather than the actual string need to be extracted. So please make 
+sure to separate ```interpolate``` and ```gettext``` into two different lines, 
+just like the above example does.
 
 Currently, translators comments are not supported in Underscore template files,
 as the underlying library does not parse them out. We recommend you add them in

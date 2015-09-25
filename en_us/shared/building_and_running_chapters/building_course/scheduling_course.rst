@@ -86,7 +86,7 @@ EdX recommends that you set the start time of your course early in the day,
 generally 00:00 UTC or earlier. Learners often expect the course to be
 available on the start date in their own time zones and try to access course
 content during the day. If you do not specify a start time for your course,
-learners see the default start time, 00:00 Universal Coordinated Time (UTC).
+learners see the default start time, 00:00 Coordinated Universal Time (UTC).
 
 Learners can see some parts of the course before the course start date. For
 example, they can see your **Course Info** page and course-wide discussion
@@ -155,9 +155,11 @@ You set dates and times for the course and for course enrollment in Studio.
 
 #. When you finish entering your dates and times, select **Save Changes**.
 
-.. note:: 
- The Time fields on this page, and the times that learners see, use Universal
- Coordinated Time (UTC).
+.. note:: The times that you set, and the times that learners see, are in 
+ Coordinated Universal Time (UTC). You might want to verify that you have
+ specified the times that you intend by using a time zone converter such as
+ `Time and Date Time Zone Converter
+ <http://www.timeanddate.com/worldclock/converter.html>`_
 
 EdX recommends that you verify that all important dates are correct one week
 before you plan to start the course.

@@ -163,25 +163,39 @@ To provide a comment field without options, complete these steps.
 Step 4. Specify the Assignment Name and Response Dates
 ************************************************************
 
+Before you specify the start and due dates and times for a response, be sure
+that you consider these aspects of, and best practices for, the open response
+assessment feature.
+
+* Unlike other problem types, ORA assignments are not governed by the
+  subsection due date. Due dates for each ORA assignment are set in the
+  assignment's settings.
+
+* EdX recommends that you set the response due date at least one week before
+  the peer assessment due date and time, to allow enough time for peer
+  assessments to be performed after learners have submitted their own
+  responses. If the response due time and peer assessment due time are close
+  together, and a learner submits a response just before responses are due,
+  other learners may not have time to perform peer assessments before peer
+  assessments are due. For details, see :ref:`Best Practices for ORA`.
+
+* The times that you set, and the times that learners see, are in Coordinated
+  Universal Time (UTC). You might want to verify that you have specified the
+  times that you intend by using a time zone converter such as `Time and Date
+  Time Zone Converter <http://www.timeanddate.com/worldclock/converter.html>`_
+
 To specify a name for the assignment as well as start and due dates for all
 student responses, complete these steps.
 
 #. In the component editor, select the **Settings** tab.
+
 #. Next to **Display Name**, type the name you want to give the assignment.
-#. Next to **Response Start Date** and **Response Start Time**, enter the date and time when you want learners to be able to begin submitting responses. Note that all times are in Universal Coordinated Time (UTC).
-#. Next to **Response Due Date** and **Response Due Time**, enter the date and time by which all learner responses must be submitted. Note that all times are in Universal Coordinated Time (UTC).
 
-.. note:: Unlike other problem types, ORA assignments are not governed by the
-   subsection due date. Due dates for each ORA assignment are set in the
-   assignment's settings.
+#. Next to **Response Start Date** and **Response Start Time**, enter the date
+   and time when you want learners to be able to begin submitting responses.
 
-.. note:: EdX recommends that you set the response due date at least one week
-   before the peer assessment due date and time, to allow enough time for peer
-   assessments to be performed after learners have submitted their own
-   responses. If the response due time and peer assessment due time are close
-   together, and a learner submits a response just before responses are due,
-   other learners may not have time to perform peer assessments before peer
-   assessments are due. For details, see :ref:`Best Practices for ORA`.
+#. Next to **Response Due Date** and **Response Due Time**, enter the date and
+   time by which all learner responses must be submitted.
 
 
 .. _PA Select Assignment Steps:
@@ -266,11 +280,24 @@ start and due dates. All fields are required.
 To specify peer assessment settings, follow these steps.
 
 #. Locate the **Step: Peer Assessment** heading.
-#. Next to **Must Grade**, enter the number of responses that each learner must grade.
-#. Next to **Graded By**, enter the number of learners that must grade each response.
-#. Next to **Start Date** and **Start Time**, enter the date and time when learners can begin assessing their peers' responses. All times are in Universal Coordinated Time (UTC).
-#. Next to **Due Date** and **Due Time**, enter the date and time by which all peer assessments must be complete. All times are in UTC.
 
+#. Next to **Must Grade**, enter the number of responses that each learner must
+   grade.
+
+#. Next to **Graded By**, enter the number of learners that must grade each
+   response.
+
+#. Next to **Start Date** and **Start Time**, enter the date and time when
+   learners can begin assessing their peers' responses.
+
+#. Next to **Due Date** and **Due Time**, enter the date and time by which all
+   peer assessments must be complete.
+
+  .. note:: The times that you set, and the times that learners see, are in
+   Coordinated Universal Time (UTC). You might want to verify that you have
+   specified the times that you intend by using a time zone converter such as
+   `Time and Date Time Zone Converter
+   <http://www.timeanddate.com/worldclock/converter.html>`_
 
 ============================
 Self Assessment
@@ -281,11 +308,16 @@ For the self assessment step, you specify when the step starts and ends.
 #. Locate the **Step: Self Assessment** heading.
    
 #. Next to **Start Date** and **Start Time**, enter the date and time when
-   learners can begin assessing their peers' responses. All times are in
-   Universal Coordinated Time (UTC).
+   learners can begin assessing their peers' responses.
    
-#. Next to **Due Date** and **Due Time**, enter the date and time by which all peer assessments must be complete. All times are in UTC.
+#. Next to **Due Date** and **Due Time**, enter the date and time by which all
+   peer assessments must be complete.
 
+  .. note:: The times that you set, and the times that learners see, use
+   Coordinated Universal Time (UTC). You might want to verify that you have
+   specified the times that you intend by using a time zone converter such as
+   `Time and Date Time Zone Converter
+   <http://www.timeanddate.com/worldclock/converter.html>`_
 
 .. _PA Show Top Responses:
 
@@ -298,10 +330,10 @@ specify a number on the **Settings** tab.
 
 #. In the component editor, select the **Settings** tab.
    
-#. In the **Top Responses** field, specify the number of responses that you want
-   to appear in the **Top Responses** section below the learner's final score.
-   If you do not want this section to appear, set the number to 0. The maximum
-   number is 100.
+#. In the **Top Responses** field, specify the number of responses that you
+   want to appear in the **Top Responses** section below the learner's final
+   score. If you do not want this section to appear, set the number to 0. The
+   maximum number is 100.
 
 .. note:: Because each response can be up to 300 pixels in height, we recommend
    that you set the number of top responses to 20 or lower, to prevent the page

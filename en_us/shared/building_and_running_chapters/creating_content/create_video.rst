@@ -152,9 +152,13 @@ automatically scrolls as the video plays. A learner can select a word in the
 transcript to jump to the point in the video where that word is spoken.
 
 To create or obtain a transcript in .srt format, you can work with a company
-that provides captioning services. EdX works with `3Play Media
-<http://www.3playmedia.com>`_. `YouTube <http://www.youtube.com/>`_ also
-provides captioning services.
+that provides captioning services. 
+
+.. only:: Partners
+
+  EdX works with `3Play Media <http://www.3playmedia.com>`_ and
+  `Cielo24 <http://www.cielo24.com/>`_. `YouTube <http://www.youtube.com/>`_
+  also provides captioning services.
 
 When you upload an .srt file, a .txt file is created automatically. You can
 allow learners to download these transcript files. If you allow your learners
