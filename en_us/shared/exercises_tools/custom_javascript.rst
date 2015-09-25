@@ -19,10 +19,16 @@ create your JS Input problem.
  :alt: Image of a JavaScript Input problem
 
 .. caution:: 
-  You cannot use a custom JavaScript problem in a component that contains more
-  than one problem. Each custom JavaScript problem must be in its own
-  component. See :ref:`Multiple Problems in One Component` for more
-  information.
+  
+  * You cannot use a custom JavaScript problem in a component that contains
+    more than one problem. Each custom JavaScript problem must be in its own
+    component. See :ref:`Multiple Problems in One Component` for more
+    information.
+
+  * The **Show Answer** button does not work for JS Input problems. By
+    default, the **Show Answer** option is set to **Never**. If you change
+    this option in the problem component, a **Show Answer** button appears in
+    the LMS, but the button does not work.
 
 ************************************************************
 Create a Custom JavaScript Display and Grading Problem
