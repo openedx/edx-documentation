@@ -10,7 +10,7 @@ video in your course.
 By specifying the license, you communicate to learners whether and how they can
 reuse your course content.
 
-.. contents:: Section Contents
+.. contents::
   :local:
   :depth: 1
 
@@ -29,12 +29,13 @@ of the following license options.
 .. _All Rights Reserved License:
 
 ====================================
-All Rights Reserved License
+All Rights Reserved
 ====================================
 
-The All Rights Reserved license indicates to learners that you own the
-copyright for course content or videos. Learners cannot reuse or republish
-course content or videos that have All Rights Reserved licenses.
+All Rights Reserved indicates to learners that you own the copyright but
+reserve all rights for sharing copies of course content or videos. Learners
+cannot reuse or republish course content or videos that have All Rights
+Reserved licenses.
 
 .. _Creative Commons License:
 
@@ -42,11 +43,13 @@ course content or videos that have All Rights Reserved licenses.
 Creative Commons License
 ====================================
 
-The Creative Commons license indicates to learners that they can share or reuse
-course content or videos, depending on the license options that you select.
+The Creative Commons license indicates to learners that you own the copyright
+but are granting certain permissions for reuse, depending on the license
+options that you select.
 
-When you specify a Creative Commons license for your course or a video, you
-specify one or more options.
+When you create a new course, the default terms are set to All Rights Reserved.
+You can change the terms for your course in the **Schedule & Details** page in
+Studio.
 
 .. list-table::
    :widths: 10 70

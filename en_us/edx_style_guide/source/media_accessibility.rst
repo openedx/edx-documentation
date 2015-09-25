@@ -62,10 +62,9 @@ driving, doing household chores, and so on, and they may not be able to focus
 on the video content at all. Try listening to only the audio track from your
 video. Is the information presented "equivalent"?
 
-.. note:: With regard to blindness, Mark feels that it is important to drive 
- home the fact that if you do not vocalize unspoken visual events that are
- important to understanding the video, you will trigger a requirement to
- provide :ref:`audio descriptions<Audio Description>`_, which is both expensive and time consuming.
+.. note:: In video content, you must either vocalize unspoken visual
+ events that are necessary for understanding the video or provide :ref:`audio
+ descriptions<Audio Description>`.
 
 *************
 Low Vision
