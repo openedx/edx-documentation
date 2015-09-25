@@ -2,6 +2,26 @@
 Change Log
 ############
 
+****************
+October 2015
+****************
+
+.. list-table::
+   :widths: 30 70
+   :header-rows: 1
+
+   * - Date
+     - Change
+   * - 1 October 2015
+     - Added information about awarding partial credit for the following
+       problems.
+       
+       * :ref:`Awarding Partial Credit for a Problem`
+       * :ref:`Awarding Partial Credit in a Checkbox Problem`
+       * :ref:`Awarding Partial Credit in a Multiple Choice Problem` 
+       * :ref:`Awarding Partial Credit in a Numerical Input Problem`
+       * :ref:`Awarding Partial Credit in a Write Your Own Grader
+         Problem<Award Partial Credit>`
 
 ****************
 September 2015
@@ -13,16 +33,6 @@ September 2015
 
    * - Date
      - Change
-   * - 30 September 2015
-     - Several additions were made to provide information about awarding
-       partial credit for problems.
-       
-       * :ref:`Awarding Partial Credit for a Problem`
-       * :ref:`Awarding Partial Credit in a Checkbox Problem`
-       * :ref:`Awarding Partial Credit in a Multiple Choice Problem` 
-       * :ref:`Awarding Partial Credit in a Numerical Input Problem`
-       * :ref:`Award Half Credit` in a Write Your Own Grader Problem
-
    * - 18 September 2015
      - Added the :ref:`Using Open edX as an LTI Tool Provider` section.
    * - 9 September 2015

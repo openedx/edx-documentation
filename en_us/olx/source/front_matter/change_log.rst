@@ -4,24 +4,25 @@ Change Log
 
 
 ****************
-September 2015
+October 2015
 ****************
 
 .. list-table::
-   :widths: 10 70
+   :widths: 30 70
    :header-rows: 1
 
    * - Date
      - Change
-   * - 30 September 2015
-     - Several additions were made to provide information about awarding
-       partial credit for problems.
+   * - 1 October 2015
+     - Added information about awarding partial credit for the following
+       problems.
        
        * :ref:`Awarding Partial Credit for a Problem`
        * :ref:`Awarding Partial Credit in a Checkbox Problem`
        * :ref:`Awarding Partial Credit in a Multiple Choice Problem` 
        * :ref:`Awarding Partial Credit in a Numerical Input Problem`
-       * :ref:`Award Half Credit` in a Write Your Own Grader Problem
+       * :ref:`Awarding Partial Credit in a Write Your Own Grader
+         Problem<Award Partial Credit>`
 
 ****************
 July 2015
