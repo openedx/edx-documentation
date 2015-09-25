@@ -10,6 +10,22 @@ objects to a specific location on an image.
 .. image:: ../../../shared/building_and_running_chapters/Images/DragAndDropProblem.png
  :alt: Image of a drag and drop problem
 
+.. note:: 
+
+ * **Drag and drop problems are not accessible for learners with some
+   disabilities, and they do not work correctly on mobile phones.** If you use
+   this kind of problem, make sure that you include an alternative for
+   learners who cannot access drag and drop problems, or leave these problems
+   ungraded.
+
+   For more information about creating accessible content, see
+   :ref:`Accessibility Best Practices for Course Content Development`.
+
+ * The **Show Answer** button does not work for drag and drop problems. By
+   default, the **Show Answer** option is set to **Never**. If you change this
+   option in the problem component, a **Show Answer** button appears in the
+   LMS, but the button does not work.
+
 *********************************
 Creating a Drag and Drop Problem
 *********************************
@@ -107,8 +123,9 @@ page, and then add the code for the problem to a Problem component.
         <target id="1" h="113" w="55" y="140.10000610351562" x="181.5"/>
       </drag_and_drop_input>
       <answer type="loncapa/python"> 
-  correct_answer = [ {'draggables': ['2'], 'targets': ['0' ], 'rule':'unordered_equal' }, 
-  {'draggables': ['none'], 'targets': ['1' ], 'rule':'unordered_equal' }] 
+  correct_answer = [ 
+      {'draggables': ['2'], 'targets': ['0' ], 'rule':'unordered_equal' }, 
+      {'draggables': ['none'], 'targets': ['1' ], 'rule':'unordered_equal' }] 
   if draganddrop.grade(submission[0], correct_answer): 
       correct = ['correct'] 
   else: 
@@ -129,73 +146,78 @@ Drag and Drop Problem XML
 
 .. code-block:: xml
 
-    <problem>
-        Here's an example of a "Drag and Drop" question set. Click and drag each word in the scrollbar below, up to the numbered bucket which matches the number of letters in the word.
-        <customresponse>
-            <drag_and_drop_input img="https://studio.edx.org/c4x/edX/DemoX/asset/L9_buckets.png">
-                <draggable id="1" label="a"/>
-                <draggable id="2" label="cat"/>
-                <draggable id="3" label="there"/>
-                <draggable id="4" label="pear"/>
-                <draggable id="5" label="kitty"/>
-                <draggable id="6" label="in"/>
-                <draggable id="7" label="them"/>
-                <draggable id="8" label="za"/>
-                <draggable id="9" label="dog"/>
-                <draggable id="10" label="slate"/>
-                <draggable id="11" label="few"/>
-            </drag_and_drop_input>
-            <answer type="loncapa/python">
-               correct_answer = {
-                   '1':      [[70, 150], 121],
-                   '6':      [[190, 150], 121],
-                   '8':      [[190, 150], 121],
-                   '2':      [[310, 150], 121],
-                   '9':      [[310, 150], 121],
-                   '11':     [[310, 150], 121],
-                   '4':      [[420, 150], 121],
-                   '7':      [[420, 150], 121],
-                   '3':      [[550, 150], 121],
-                   '5':      [[550, 150], 121],
-                   '10':     [[550, 150], 121]}
-                   if draganddrop.grade(submission[0], correct_answer):
-                       correct = ['correct']
-                   else:
-                       correct = ['incorrect']
-            </answer>
-        </customresponse>
-        <customresponse>
-            <text>
-                <h2>Drag and Drop with Outline</h2>
-                <p>Please label hydrogen  atoms connected with left carbon atom.</p>
-            </text>
-            <drag_and_drop_input img="https://studio.edx.org/c4x/edX/DemoX/asset/ethglycol.jpg" target_outline="true" one_per_target="true" no_labels="true" label_bg_color="rgb(222, 139, 238)">
-                <draggable id="1" label="Hydrogen" />
-                <draggable id="2" label="Hydrogen" />
-                <target id="t1_o" x="10" y="67" w="100" h="100"/>
-                <target id="t2" x="133" y="3" w="70" h="70"/>
-                <target id="t3" x="2" y="384" w="70" h="70"/>
-                <target id="t4" x="95" y="386" w="70" h="70"/>
-                <target id="t5_c" x="94" y="293" w="91" h="91"/>
-                <target id="t6_c" x="328" y="294" w="91" h="91"/>
-                <target id="t7" x="393" y="463" w="70" h="70"/>
-                <target id="t8" x="344" y="214" w="70" h="70"/>
-                <target id="t9_o" x="445" y="162" w="100" h="100"/>
-                <target id="t10" x="591" y="132" w="70" h="70"/>
-            </drag_and_drop_input>
-            <answer type="loncapa/python">
-                correct_answer = [{
-                    'draggables': ['1', '2'],
-                    'targets': ['t2', 't3', 't4' ],
-                    'rule':'anyof'
-                }]
-                if draganddrop.grade(submission[0], correct_answer):
-                    correct = ['correct']
-                else:
-                    correct = ['incorrect']
-            </answer>
-        </customresponse>
-    </problem>
+ <problem>
+     <customresponse>
+         <p>Drag each word in the scrollbar to the bucket that matches the number of 
+         letters in the word.</p>
+         <drag_and_drop_input img="https://studio.edx.org/c4x/edX/DemoX/asset/L9_buckets.png">
+             <draggable id="1" label="a"/>
+             <draggable id="2" label="bog"/>
+             <draggable id="3" label="droll"/>
+             <draggable id="4" label="oboe"/>
+             <draggable id="5" label="swain"/>
+             <draggable id="6" label="in"/>
+             <draggable id="7" label="onyx"/>
+             <draggable id="8" label="of"/>
+             <draggable id="9" label="tap"/>
+             <draggable id="10" label="strop"/>
+             <draggable id="11" label="few"/>
+         </drag_and_drop_input>
+         <answer type="loncapa/python">
+             correct_answer = {
+                 '1':      [[70, 150], 121],
+                 '6':      [[190, 150], 121],
+                 '8':      [[190, 150], 121],
+                 '2':      [[310, 150], 121],
+                 '9':      [[310, 150], 121],
+                 '11':     [[310, 150], 121],
+                 '4':      [[420, 150], 121],
+                 '7':      [[420, 150], 121],
+                 '3':      [[550, 150], 121],
+                 '5':      [[550, 150], 121],
+                 '10':     [[550, 150], 121]}
+             if draganddrop.grade(submission[0], correct_answer):
+                 correct = ['correct']
+             else:
+                 correct = ['incorrect']
+         </answer>
+     </customresponse>
+ </problem>
+
+.. code-block:: xml
+
+ <problem>
+     <customresponse>
+         <p>Label the hydrogen atoms connected with the left carbon atom.</p>
+         <drag_and_drop_input img="https://studio.edx.org/c4x/edX/DemoX/asset/ethglycol.jpg"
+         target_outline="true" one_per_target="true" no_labels="true" 
+         label_bg_color="rgb(222, 139, 238)">
+             <draggable id="1" label="Hydrogen" />
+             <draggable id="2" label="Hydrogen" />
+             <target id="t1_o" x="10" y="67" w="100" h="100"/>
+             <target id="t2" x="133" y="3" w="70" h="70"/>
+             <target id="t3" x="2" y="384" w="70" h="70"/>
+             <target id="t4" x="95" y="386" w="70" h="70"/>
+             <target id="t5_c" x="94" y="293" w="91" h="91"/>
+             <target id="t6_c" x="328" y="294" w="91" h="91"/>
+             <target id="t7" x="393" y="463" w="70" h="70"/>
+             <target id="t8" x="344" y="214" w="70" h="70"/>
+             <target id="t9_o" x="445" y="162" w="100" h="100"/>
+             <target id="t10" x="591" y="132" w="70" h="70"/>
+         </drag_and_drop_input>
+         <answer type="loncapa/python">
+             correct_answer = [{
+                 'draggables': ['1', '2'],
+                 'targets': ['t2', 't3', 't4' ],
+                 'rule':'anyof'
+             }]
+             if draganddrop.grade(submission[0], correct_answer):
+                 correct = ['correct']
+             else:
+                 correct = ['incorrect']
+         </answer>
+     </customresponse>
+ </problem>
 
 
 ========
