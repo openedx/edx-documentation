@@ -389,6 +389,14 @@ award learners partial credit for the problem. You must use the `Advanced
 Editor <Use the Advanced Editor to Edit a Multiple Choice Problem>`_ to
 configure partial credit.
 
+.. only:: Partners
+ 
+ .. note:: 
+    Support for partial credit problems in courses on edx.org and edX
+    Edge is provisional. Ensure that you test such problems thoroughly before
+    releasing them to learners. For more information, contact your edX program
+    manager.
+
 In the following example, the learner selected a wrong answer and received
 partial credit.
 

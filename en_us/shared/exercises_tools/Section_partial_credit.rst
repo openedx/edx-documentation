@@ -19,6 +19,14 @@ demonstrates their progress.
 For more information about configuring partial credit, see the topic for each
 problem type.
   
+.. only:: Partners
+
+  .. note:: 
+    Support for partial credit problems in courses on edx.org and edX
+    Edge is provisional. Ensure that you test such problems thoroughly before
+    releasing them to learners. For more information, contact your edX program
+    manager.
+
 ==========================================
 How Learners Receive Partial Credit
 ==========================================
@@ -33,7 +41,7 @@ received 25% of the possible points.
 .. image:: ../../../shared/building_and_running_chapters/Images/partial_credit_multiple_choice.png
  :alt: Image of a multiple choice problem with partial credit for an incorrect
      answer.
- :width: 600
+ :width: 500
 
 
 ====================================================

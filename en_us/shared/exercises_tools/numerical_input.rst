@@ -349,6 +349,14 @@ learners who submit an answer that is close or related to the correct answer.
 You must use the `Advanced Editor <Use the Advanced Editor to Edit a Numerical
 Input Problem>`_ to configure partial credit.
 
+.. only:: Partners
+
+ .. note:: 
+    Support for partial credit problems in courses on edx.org and edX
+    Edge is provisional. Ensure that you test such problems thoroughly before
+    releasing them to learners. For more information, contact your edX program
+    manager.
+
 In the following example, the learner entered an answer that was close to the
 correct answer and received partial credit.
 

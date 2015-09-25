@@ -341,16 +341,35 @@ sure to set **Show Answer** to **Never** in the problem component.
       </solution>
   </problem>
 
+.. _Award Partial Credit:
+
+====================
+Award Partial Credit
+====================
+
+You can configure a custom Pythyon-evaluated input problem so that learners
+who give a partially correct answer receive partial credit for the problem.
+You can award 50% of the points for the problem, or you can award a different
+percentage of points. For more information, see the following sections.
+
+* :ref:`Award Half Credit`
+* :ref:`Award a Percentage of Credit`
+
+.. only:: Partners
+ 
+ .. note:: 
+    Support for partial credit problems in courses on edx.org and edX
+    Edge is provisional. Ensure that you test such problems thoroughly before
+    releasing them to learners. For more information, contact your edX program
+    manager.
+
 .. _Award Half Credit:
 
-====================
 Award Half Credit
-====================
+*********************
 
-You can configure a custom Pythyon-evaluated input problem so that learners who
-give a partially correct answer receive 50% of the points for a problem. To
-provide a learner with a more granular score, see `Award a Percentage of
-Credit for the Problem`_.
+You can configure a problem to award 50% of the possible points. To provide a
+learner with a more granular score, see `Award a Percentage of Credit`_.
 
 The ``check`` function must return the value ``"Partial"`` in one of the
 following ways.
@@ -380,16 +399,14 @@ points for the problem, ``'Partial'`` with 50%, and ``False`` with 0%.
 For more information about ``check`` function return values, see `The check
 Function`_.
 
-.. _Providing Partial Credit for Custom Python-Evaluated Input Problems:
+.. _Award a Percentage of Credit:
 
-===========================================================
-Award a Percentage of Credit for the Problem
-===========================================================
+Award a Percentage of Credit
+******************************
 
-You can configure a custom Python-evaluated input problem that gives partial
-credit for learners' answers by returning a percent value as a grade. This
-method provides greater flexibility in assigning the learner a score than
-`providing half credit <provide half credit>`_.
+You can configure a problem to return a percent value as a grade. This method
+provides greater flexibility in assigning the learner a score than :ref:`awarding
+half credit<Award Half Credit>`.
 
 In the following example, the learner's score equals the answer divided by 100.
 
