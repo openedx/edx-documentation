@@ -13,6 +13,10 @@ September 2015
 
    * - Date
      - Change
+   * - 25 September 2015
+     - Updated the sample XML and added an accessibility note in :ref:`Drag
+       and Drop`. Added a note about the **Show Answer** setting in
+       :ref:`Drag and Drop` and :ref:`Custom JavaScript`.
    * - 18 September 2015
      - Added the :ref:`Using Open edX as an LTI Tool Provider` section.
    * - 9 September 2015
