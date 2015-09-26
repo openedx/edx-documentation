@@ -42,7 +42,7 @@ Open edX Fullstack includes the following edX components.
 Knowledge Prerequisites
 **************************
 
-To use Fullstack, you should meeting the following knowledge requirements.
+To use Fullstack, you should meet the following knowledge requirements.
 
 * Understand basic terminal usage. If you are using a Mac computer, see
   `Introduction to the Mac OS X Command Line`_. If you are using a Windows
