@@ -14,15 +14,24 @@ Qualtrics survey appears in an IFrame in the courseware.
 Course staff can view the overall results of the survey as well as responses
 from individual learners.
 
+.. note:: To use a Qualtrics survey, you must have a Qualtrics license. Qualtrics 
+ licenses are available for a fee at the `Qualtrics website
+ <http://www.qualtrics.com>`_. If you want to include a survey but you do not
+ have a Qualtrics license, you can use the :ref:`edX survey tool<Survey
+ Tool>` or a :ref:`Google form<Google Drive Files Tool>`.
+
 For more information, see the following sections.
 
 .. contents::
   :local:
   :depth: 1
 
-Be sure to review all supplemental materials to assure that they are accessible
-before making them available through your course. For more information, see
+Be sure to review all supplemental materials to make sure that they are
+accessible before making them available through your course. For more
+information, see
 :ref:`Accessibility Best Practices for Course Content Development`.
+
+
 
 *************************************
 Add a Qualtrics Survey to Your Course

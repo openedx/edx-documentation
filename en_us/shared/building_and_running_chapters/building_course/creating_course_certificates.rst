@@ -22,15 +22,20 @@ Overview
 Using Studio, you create certificates that learners can earn in your
 course. 
 
-***********************************
-Certificates and Course Start Dates
-***********************************
+.. Course start date not published for partners at this time, pending review.
 
-If your course is configured to issue certificates, you cannot start the course
-until the required certificates are :ref:`activated<Activate a Certificate>`.
+.. only:: Open_edX
 
-For information on starting the course, see :ref:`Determine Start and End
-Dates`.
+    ***********************************
+    Certificates and Course Start Dates
+    ***********************************
+
+    If your course is configured to issue certificates, you cannot start the
+    course until the required certificates are :ref:`activated<Activate a
+    Certificate>`.
+
+    For information on starting the course, see :ref:`Determine Start and End
+    Dates`.
 
 **********************
 Certificate Design
@@ -93,9 +98,14 @@ To create a certificate for your course, follow these steps.
    5. For verified certificates, you must upload an image file showing the
       signature of each signatory.
 
+      The image file must be a transparent .PNG file, 450px by 150px.
+
 .. only:: Open_edX
 
    5. Optionally, upload an image file showing the signature of each signatory.
+      
+      The image file must be a transparent .PNG file, 450px by 150px.
+      
 
 6. When you have finished creating your certificate, select **Create**.
 

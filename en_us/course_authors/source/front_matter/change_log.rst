@@ -43,6 +43,10 @@ September 2015
 
    * - Date
      - Change
+   * - 25 September 2015
+     - Updated the sample XML and added an accessibility note in :ref:`Drag
+       and Drop`. Added a note about the **Show Answer** setting in
+       :ref:`Drag and Drop` and :ref:`Custom JavaScript`.
    * - 15 September 2015
      - Updated the :ref:`Rerun a Course` section to make it clear that only
        edX Partner Managers can rerun a course.

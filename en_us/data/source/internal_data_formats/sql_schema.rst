@@ -121,6 +121,15 @@ enrollment.
 * :ref:`user_id_map`
 * :ref:`student_languageproficiency`
 
+The following tables store data gathered about the teams in a course.
+
+* :ref:`teams_courseteam`
+* :ref:`teams_courseteammembership`
+
+.. note:: The Teams feature is in limited release. For more information,
+   contact your edX Partner Manager. For Open edX sites, contact your system
+   administrator.
+
 .. _auth_user:
 
 ================================
@@ -969,6 +978,258 @@ code
 ----
   The language code. Most codes are ISO 639-1 codes, with the addition of
   codes for simplified and traditional Chinese.
+
+
+.. _teams_courseteam:
+
+==============================================
+Columns in the teams_courseteam Table
+==============================================
+
+This table stores information about the teams in a course.
+
+.. note:: The Teams feature is in limited release. For more information,
+   contact your edX Partner Manager. For Open edX sites, contact your system
+   administrator.
+
+**History**: Added September 15 2015
+
+The ``teams_courseteam`` table has the following columns.
+
+.. list-table::
+     :widths: 15 15 15 15
+     :header-rows: 1
+
+     * - Column
+       - Type
+       - Null
+       - Key
+     * - id
+       - int(11)
+       - NO
+       - PRI   
+     * - team_id
+       - varchar(255)  
+       - NO
+       - UNI
+     * - name
+       - varchar(255)
+       - NO
+       - UNI 
+     * - course_id
+       - textfield
+       - NO
+       - MUL
+     * - topic_id
+       - varchar(255)
+       - YES
+       - MUL
+     * - date_created
+       - datetime
+       - NO
+       - MUL 
+     * - description
+       - varchar(300)
+       - NO
+       - MUL
+     * - country
+       - varchar(2)
+       - YES
+       - MUL 
+     * - language
+       - varchar(16)
+       - YES
+       - MUL             
+     * - discussion_topic_id
+       - varchar(255)
+       - NO
+       - MUL
+     * - last_activity_at
+       - datetime
+       - NO
+       - MUL
+     * - team_size
+       - int(11)
+       - NO
+       - MUL
+
+
+--------------------
+id
+--------------------
+
+  The primary key, a database auto-increment field that uniquely identifies
+  the team.
+
+---------
+team_id
+---------
+
+  The unique identifier for this team. 
+
+---------------------
+name
+---------------------
+
+  The display name for this team. A name is required when a team is created.
+
+---------------------
+course_id
+---------------------
+
+  The course identifier, in the format ``{key type}:{org}+{course}+{run}``. For
+  example, ``course-v1:edX+DemoX+Demo_2014``.
+
+  **History**: In October 2014, identifiers for some new courses began to use
+  the format shown above. Other new courses, and all courses created prior to
+  October 2014, use the format ``{org}/{course}/{run}``,  for example,
+  ``MITx/6.002x/2012_Fall``.
+
+---------------------
+topic_id
+---------------------
+
+  The unique identifier for the teams topic associated with the team. Topics,
+  including an ID for each topic, are defined by course team members in
+  **Advanced Settings** in Studio.
+
+---------------------
+date_created
+---------------------
+
+  The date and time that this team was created, in the format ``YYYY-MM-DD
+  HH:MM:SS``.
+
+---------------------
+description
+---------------------
+
+  The description for the team. A team description is required when a team is
+  created.
+
+---------------------
+country
+---------------------
+
+  An optional field in a team's details. The person who creates a team can
+  specify a country that the team's members primarily identify with. Country
+  codes are ISO 3166-1 codes.
+
+---------------------
+language
+---------------------
+   
+  An optional field in a team's details. A team can specify a language that
+  the team's members primarily communicate using. Most language codes are ISO
+  639-1 codes, with the addition of codes for simplified and traditional
+  Chinese.
+
+---------------------
+discussion_topic_id
+---------------------
+
+  The identifier for all discussion topics within this team's discussions.
+
+--------------------
+last_activity_at
+--------------------
+
+  The date and time that the most recent activity on the team was recorded, in
+  the format ``YYYY-MM-DD HH:MM:SS``. The current definition of activity for
+  this field includes team creation, and the creation of posts, comments, and
+  responses in the team's discussions.
+
+
+--------------------
+team_size
+--------------------
+
+  The current count of the number of members in the team.
+
+
+.. _teams_courseteammembership:
+
+================================================
+Columns in the teams_courseteammembership Table
+================================================
+
+This table stores information about learners who are members of a team.
+
+.. note:: The Teams feature is in limited release. For more information,
+   contact your edX Partner Manager. For Open edX sites, contact your system
+   administrator.
+
+**History**: Added September 15 2015.
+
+The ``teams_courseteammembership`` table has the following columns.
+
+.. list-table::
+     :widths: 15 15 15 15
+     :header-rows: 1
+
+     * - Column
+       - Type
+       - Null
+       - Key
+     * - id
+       - int (11)
+       - NO
+       - PRI  
+     * - user_id
+       - int (11)
+       - NO
+       - UNI
+     * - team_id
+       - int (11)
+       - NO
+       - MUL
+     * - date_joined
+       - datetime
+       - NO
+       - MUL
+     * - last_activity_at
+       - datetime
+       - NO
+       - MUL
+
+---------------------
+id
+---------------------
+
+  The primary key, a database auto-increment field that uniquely identifies
+  the membership of a user on a team.
+
+---------------------
+user_id
+---------------------
+
+  The ID of a user who is currently a member of the team, from
+  ``auth_user.id``.
+
+---------------------
+team_id
+---------------------
+
+  The ID of the team, from ``teams_courseteam.id``.
+
+--------------------
+date_joined
+--------------------
+
+  The timestamp of the time that the user joined the team, in the format
+  ``YYYY-MM-DD HH:MM:SS``.
+
+--------------------
+last_activity_at
+--------------------
+
+  The date/time of the most recent activity performed by this user on this
+  team, in the format ``YYYY-MM-DD HH:MM:SS``. The current definition of
+  activity for this field is limited to discussions-related actions by this
+  user: adding or deleting posts, adding comments or responses, and voting on
+  posts. If the user has not yet participated in the team's discussion, the
+  ``last_activity_at`` date/time reflects the timestamp when the user joined
+  the team.
 
 
 .. _Courseware_Progress:
