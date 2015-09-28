@@ -69,14 +69,18 @@ exam, and edX's :ref:`Online Proctoring Rules <Online Proctoring Rules>`, see
 :ref:`Preparing Learners for Proctored Exams`.
 
 .. note:: Course staff should familiarize themselves with edX's :ref:`Online
-   Proctoring Rules <Online Proctoring Rules>`. If a particular exam in your
-   course has a different exam policy than the standard rules, contact your
-   edX Program Manager. It is important that the rules for your exam, if
-   different from the standard rules, are communicated to the proctored exam
-   reviewers so that learners are not unknowingly failed for using an item
-   (for example, a calculator or a specific reference book) that you have
-   allowed in your exam, but that is listed as forbidden in the proctoring
-   rules.
+   Proctoring Rules <Online Proctoring Rules>`, which reflect our proctoring
+   software partner's "Closed Book Exam" rules. These strict rules prohibit
+   learners from using any tools during the exam, including pencil and
+   paper,calculators, or reference books.
+
+   If a particular exam in your course has a less stringent exam policy, or if
+   you want to allow a particular tool (for example, a calculator or pencil
+   and paper), contact your edX Program Manager. It is important that the
+   rules for your exam, if different from the "Closed Book" rules, are
+   communicated to the proctored exam reviewers so that learners are not
+   unknowingly failed for using an item that you have allowed in your exam,
+   but that is listed as forbidden in the proctoring rules.
 
 
 .. _Proctored Exam Session Results:
