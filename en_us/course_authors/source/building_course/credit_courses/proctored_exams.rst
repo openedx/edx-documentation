@@ -396,6 +396,10 @@ additional time allowances can be provided for specific students. Consult with
 your organization's Disability Services resources to decide whether and how a
 learner with specific needs can be accommodated for a timed exam.
 
+.. note:: Make sure the learner who has requested additional time does not
+   start taking the proctored exam before the additional time has been
+   approved and set up.
+
 If it is confirmed that additional time should be allowed for a specific
 student to take the exam, follow these steps.
 
@@ -422,6 +426,10 @@ In some situations, for example to accommodate learners with disabilities,
 special allowances can be provided for specific students. Consult with your
 organization's Disability Services resources to decide whether and how a
 learner with specific needs can be accommodated.
+
+.. note:: Make sure the learner who has requested special allowances does not
+   start taking the proctored exam before the exemption has been approved and
+   set up.
 
 If it is confirmed that some special allowance should be made to the exam
 policy for a particular learner, follow these steps.
