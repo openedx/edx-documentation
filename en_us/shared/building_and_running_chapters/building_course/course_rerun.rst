@@ -53,7 +53,7 @@ Data Duplicated When You Re-Run a Course
    * - Student answers, progress, and grading data
      - No.
    * - Certificates
-     - No.
+     - Yes.
    * - Discussion posts, responses, comments, and other data
      - No.
    * - Wiki contributions
@@ -96,27 +96,27 @@ Using Re-Run to Create a Course
 .. edX internal can do this) Done as part of DOC-2236 (CT, Sept 11, 2015)
    To re-run a course, follow these steps.
 
-   #. Log in to Studio. Your dashboard lists the courses that you have access to
-   as a course team member.
+   #. Log in to Studio. Your dashboard lists the courses that you have access
+      to as a course team member.
 
-   #. Move your cursor over each row in the list of courses. The **Re-Run Course**
-   and **View Live** options appear for each course.
+   #. Move your cursor over each row in the list of courses. The **Re-Run
+      Course** and **View Live** options appear for each course.
 
-   .. image:: ../../../shared/building_and_running_chapters/Images/Rerun_link.png
-     :alt: A course listed on the dashboard with the Re-run Course and View 
+      .. image:: ../../../shared/building_and_running_chapters/Images/Rerun_link.png
+        :alt: A course listed on the dashboard with the Re-run Course and View 
            Live options shown 
-     :width: 600
+        :width: 600
 
-   3. Locate the course you want to re-run and select **Re-Run Course**. The
-   **Create a re-run of a course** page opens with values already supplied in
-   the **Course Name**, **Organization**, and **Course Number** fields.
+   #. Locate the course you want to re-run and select **Re-Run Course**. The
+      **Create a re-run of a course** page opens with values already supplied
+      in the **Course Name**, **Organization**, and **Course Number** fields.
 
-   .. image:: ../../../shared/building_and_running_chapters/Images/rerun_course_info.png
-     :alt: The course creation page for a rerun, with the course name, 
+      .. image:: ../../../shared/building_and_running_chapters/Images/rerun_course_info.png
+        :alt: The course creation page for a rerun, with the course name, 
            organization, and course number supplied.
-     :width: 600
+        :width: 600
 
-   4. Supply a **Course Run** to indicate when the new course will be offered. 
+   #. Supply a **Course Run** to indicate when the new course will be offered. 
    
    Together, the course number, the organization, and the course run are used
    to create the URL for the new course. The combination of these three values

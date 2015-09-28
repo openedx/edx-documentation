@@ -5,6 +5,7 @@ Change Log
 ###########
 
 
+
 **********************
 July-September 2015
 **********************
@@ -15,10 +16,13 @@ July-September 2015
 
    * - Date
      - Change
-   * - 2 Sep 2015
+   * - 16 Sept 2015
+     - Added new events for :ref:`teams<student_teams_events>` to the
+       :ref:`Tracking Logs` section.
+   * - 2 Sept 2015
      - Added new events for :ref:`digital certificates <certificate_events>`.
    * - 6 Aug 2015
-     - Updated the the :ref:`Package` section to include approximate sizes for
+     - Updated the :ref:`Package` section to include approximate sizes for
        the files in data packages.
    * - 8 Jul 2015
      - Added new events for :ref:`polls and surveys<Poll and Survey Events>` to

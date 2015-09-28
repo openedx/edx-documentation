@@ -2951,6 +2951,13 @@ discussion forums database data that is included in the weekly database data
 files. For information about the discussion forums database, see
 :ref:`Discussion Forums Data`.
 
+If a thread, response, or comment was part of a team discussion within a
+course, a ``team_id`` field is included in the ``edx.forum.thread.created``,
+``edx.forum.response.created``, or ``edx.forum.comment.created`` event to
+identify the team in which the discussion event was triggered. For more
+information about events for teams, see :ref:`student_teams_events`.
+
+
 .. _forum_comment:
 
 ``edx.forum.comment.created``
@@ -2978,6 +2985,7 @@ purpose for comments as they do for threads or responses.
 * ``discussion``
 * ``id``
 * ``options``
+* ``team_id``
 * ``truncated``
 * ``url``
 * ``user_course_roles``
@@ -3020,6 +3028,7 @@ member fields serve the same purpose for responses as they do for threads.
 * ``commentable_id``
 * ``id``
 * ``options``
+* ``team_id``
 * ``truncated``
 * ``url``
 * ``user_course_roles``
@@ -3125,11 +3134,12 @@ complete, the server emits an ``edx.forum.thread.created`` event.
    * - Field
      - Type
      - Details
+
    * - ``anonymous``
      - Boolean
      - Applies only to courses that allow discussion posts that are anonymous
        to all other users.
-       
+
        'true' only if the user selected the **post anonymously** check box.
 
    * - ``anonymous_to_peers``
@@ -3137,13 +3147,13 @@ complete, the server emits an ``edx.forum.thread.created`` event.
      - Applies only to courses that allow discussion posts that are anonymous
        to other students. The username of the thread creator is visible only
        to users who have discussion management privileges.
-       
+
        'true' only if the user selected the **post anonymously to classmates**
        check box.
 
    * - ``body``
      - string
-     - The text supplied for the new post.
+     - The text supplied for the new post.      
        
        Also present for ``edx.forum.response.created`` and
        ``edx.forum.comment.created`` events.
@@ -3154,8 +3164,8 @@ complete, the server emits an ``edx.forum.thread.created`` event.
        course-wide discussion.
 
        Also present for ``edx.forum.response.created`` and
-       ``edx.forum.comment.created`` events.
-       
+       ``edx.forum.comment.created`` events.  
+
    * - ``category_name``
      - string
      - The display name for the specific discussion component or top-level,
@@ -3171,18 +3181,19 @@ complete, the server emits an ``edx.forum.thread.created`` event.
 
        Also present for ``edx.forum.response.created`` and
        ``edx.forum.comment.created`` events.
-       
+
    * - ``group_id``
      - string
      - The numeric ID of the cohort to which the contribution is restricted,
        or ``null`` if the contribution is not restricted to a specific cohort.
+
    * - ``id``
      - string
      - A unique identifier for this forum contribution.
 
        Also present for ``edx.forum.response.created`` and
        ``edx.forum.comment.created`` events.
-       
+
    * - ``options``
      - dictionary
      - Contains the ``followed`` Boolean, which identifies whether the user
@@ -3190,14 +3201,22 @@ complete, the server emits an ``edx.forum.thread.created`` event.
 
        Also present for ``edx.forum.response.created`` and
        ``edx.forum.comment.created`` events.
-       
+
+   * - ``team_id``
+     - string
+     - If the thread is part of a team discussion within a course, this field
+       identifies the team that the thread was created in. For more
+       information about events for teams, see :ref:`student_teams_events`.
+
    * - ``thread_type``
      - string
      - The person who creates the thread specifies either 'discussion' or
        'question' to characterize the purpose of the post.
+
    * - ``title``
      - string
      - The brief descriptive text supplied to identify the post.
+
    * - ``truncated``
      - Boolean
      - 'true' only if the post was longer than 2000 characters, which is the
@@ -3205,7 +3224,7 @@ complete, the server emits an ``edx.forum.thread.created`` event.
 
        Also present for ``edx.forum.response.created`` and
        ``edx.forum.comment.created`` events.
-       
+
    * - ``url``
      - string
      - The escaped URL of the page the user was visiting when this event was
@@ -3213,7 +3232,7 @@ complete, the server emits an ``edx.forum.thread.created`` event.
 
        Also present for ``edx.forum.response.created`` and
        ``edx.forum.comment.created`` events.
-       
+
    * - ``user_course_roles``
      - array
      - Identifies the course-level 'Instructor' (that is, Admin) or 'Staff'
@@ -3221,16 +3240,15 @@ complete, the server emits an ``edx.forum.thread.created`` event.
 
        Also present for ``edx.forum.response.created`` and
        ``edx.forum.comment.created`` events.
-       
+
    * - ``user_forums_roles``
      - array
      - Identifies a user who does not have discussion management privileges as
        a 'Student'. Identifies users who have discussion management privileges
-       as a course 'Community TA', 'Moderator', or 'Administrator'.
-
-       Also present for ``edx.forum.response.created`` and
+       as a course 'Community TA', 'Moderator', or 'Administrator'. Also
+       present for ``edx.forum.response.created`` and
        ``edx.forum.comment.created`` events.
-       
+
 
 .. _ora2:
 
@@ -3904,6 +3922,335 @@ Instructor Dashboard, the server emits an ``edx.cohort.user_removed`` event.
      - The numeric ID (from ``auth_user.id``) of the removed user.
 
 
+.. _student_teams_events:
+
+==========================
+Teams-Related Events
+==========================
+
+This section includes descriptions of the following events, which are
+generated if a course includes teams, and learners or course team members
+perform particular teams-related actions. This list includes both student
+events and course team events, because some of these events are triggered by
+actions that can be performed both by students and course staff (with the
+Staff, Admin, Discussion Admin or Discussion Moderator roles), or by students
+with special roles such as Community TAs.
+
+This section presents teams-related events alphabetically. Typically, the
+first event produced when teams are included in a course is the
+``edx.team.created`` event.
+
+.. note:: The Teams feature is in limited release. For more information,
+   contact your edX Partner Manager. For Open edX sites, contact your system
+   administrator.
+
+.. contents:: 
+  :local:
+  :depth: 1
+
+
+For information about including teams in a course, see `Teams Setup`_ in the
+*Building and Running an edX Course* guide.
+
+
+.. _edx_team_activity_updated:
+
+``edx.team.activity_updated``
+*********************************
+
+When team discussion activity has occurred on a team, including a team member
+posting, editing posts, commenting, responding, endorsing, and so on), the
+server emits an ``edx.team.activity_updated`` event. 
+
+The definition of activity that would trigger this event does not include
+changes in team membership. 
+
+**Event Source**: Server
+
+**History** Added 16 Sept 2015.
+
+``event`` **Member Fields**:
+
+
+In addition to the :ref:`common<context>` ``context`` member fields, this
+event type also includes the following ``event`` member field.
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+   * - ``team_id``
+     - string
+     - The identifier for the team.
+
+
+.. _edx_team_changed:
+
+``edx.team.changed``
+*********************************
+
+When a team's information is edited, the server emits one
+``edx.team.team_changed`` event for each modified field.
+
+**Event Source**: Server
+
+**History** Added 16 Sept 2015.
+
+``event`` **Member Fields**:
+
+In addition to the :ref:`common<context>` ``context`` member fields, this
+event type also includes the following ``event`` member fields.
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+   * - ``field``
+     - string
+     - The name of the field within the team's details that was modified such
+       as team name, description, primary country, or primary language.
+   * - ``new``
+     - string
+     - The value of the field after the modification. If this value is longer
+       than 1250 characters, the string is truncated, ``...`` is added at the
+       end of the string, and this field is included in the ``truncated``
+       array.
+   * - ``old``
+     - string
+     - The value of the field before the modification. If this value is longer
+       than 1250 characters, the string is truncated, ``...`` is added at the
+       end of the string, and this field is included in the ``truncated``
+       array.  
+   * - ``truncated``
+     - array
+     - The ``truncated`` event field is an array of the ``old`` and ``new``
+       fields that have been truncated.
+
+The ``edx.team.changed`` event also includes the following ``event`` member
+field.
+
+* ``team_id``
+
+This field serves the same purpose for this event as it does for the
+:ref:`edx_team_activity_updated` event.
+
+
+``edx.team.created``
+*********************************
+
+When a team is created, either by a course team member or by a learner, the
+server emits an ``edx.team.created`` event.
+
+**Event Source**: Server
+
+**History** Added 16 Sept 2015.
+
+``event`` **Member Fields**:
+
+In addition to the :ref:`common<context>` ``context`` member fields, this
+event type also includes the following ``event`` member field.
+
+This field serves the same purpose for this event as it does for the
+:ref:`edx_team_activity_updated` event.
+
+* ``team_id``
+
+
+``edx.team.deleted``
+*********************************
+
+When a team is deleted, the server emits an ``edx.team.deleted`` event. Course
+team members who have any of the **Staff**, **Admin**, **Discussion Admin**,
+**Discussion Moderator**, or **Community TA** roles can delete teams.
+
+**Event Source**: Server
+
+**History** Added 16 Sept 2015.
+
+``event`` **Member Fields**:
+
+In addition to the :ref:`common<context>` ``context`` member fields, this
+event type also includes the following ``event`` member field.
+
+This field serves the same purpose for this event as it does for the
+:ref:`edx_team_activity_updated` event.
+
+* ``team_id``
+
+
+``edx.team.learner_added``
+*********************************
+
+When a user joins a team or is added by someone else, the server emits an
+``edx.team.learner_added`` event.
+
+**Event Source**: Server
+
+**History** Added 16 Sept 2015.
+
+``event`` **Member Fields**:
+
+In addition to the :ref:`common<context>` ``context`` member fields, this
+event type also includes the following ``event`` member fields.
+
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+   * - ``add_method``
+     - string
+     - The method by which the user joined the team. Possible values are
+       ``added_on_create``, ``joined_from_team_view``, or
+       ``added_by_another_user``.
+   * - ``user_id``
+     - string
+     - The identifier for the user who joined or was added to the team.  
+
+The ``edx.team.learner_added`` event also includes the following ``event``
+member field. 
+
+* ``team_id``
+
+This field serves the same purpose for this event as it does for the
+:ref:`edx_team_activity_updated` event.
+
+
+
+``edx.team.learner_removed``
+*********************************
+
+When a user leaves a team or is removed by someone else, the server emits an
+``edx.team.learner_deleted`` event. This event is also triggered when a team
+is deleted, because all members are removed when a team is deleted.
+
+Course team members who have any of the **Staff**, **Admin**, **Discussion
+Admin**, **Discussion Moderator**, or **Community TA** roles can remove
+learners from teams.
+
+**Event Source**: Server
+
+**History** Added 16 Sept 2015.
+
+``event`` **Member Fields**:
+
+In addition to the :ref:`common<context>` ``context`` member fields, this
+event type also includes the following ``event`` member fields.
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+   * - ``remove_method``
+     - string
+     - The method by which the user was removed from the team. Possible
+       values are ``self_removal``, ``team_deleted``, or ``removed_by_admin``.
+   * - ``user_id``
+     - string
+     - The identifier for the user who left or was removed from the team.
+
+The ``edx.team.learner_removed`` event also includes the following ``event``
+member field. 
+
+* ``team_id``
+
+This field serves the same purpose for this event as it does for the
+:ref:`edx_team_activity_updated` event.   
+
+
+``edx.team.page_viewed``
+*********************************
+
+When a user views any page with a unique URL under the **Teams** page in the
+courseware, the server emits an ``edx.team.page_viewed`` event.
+
+**Event Source**: Server
+
+**History** Added 16 Sept 2015.
+
+``event`` **Member Fields**:
+
+In addition to the :ref:`common<context>` ``context`` member fields, this
+event type also includes the following ``event`` member fields.
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details  
+   * - ``page_name``  
+     - string
+     - The name of the page that was viewed. Possible values are: ``browse``,
+       ``edit-team``, ``my-teams``, ``new-team``, ``search teams``, ``single-
+       team``, and ``single-topic``.
+   * - ``topic_id``
+     - string
+     - The identifier of the topic related to the page that was viewed. This
+       value is set to ``null`` if a topic is not applicable to the page that
+       was viewed, or if the topic does not exist.
+
+
+The ``edx.team.page_viewed`` event also includes the following ``event``
+member field. 
+
+* ``team_id``
+
+This field serves the same purpose for this event as it does for the
+:ref:`edx_team_activity_updated` event. For the ``edx.team.page_viewed`` event,
+the value of this field is set to ``null`` if the page that was viewed has no
+applicable team, or if a team does not exist.
+
+
+``edx.team.searched``
+*********************************
+
+When a user performs a search for teams from the topic view under the
+**Teams** page of the courseware, the server emits an ``edx.team.searched``
+event.
+
+**Event Source**: Server
+
+**History** Added 16 Sept 2015.
+
+``event`` **Member Fields**:
+
+In addition to the :ref:`common<context>` ``context`` member fields, this
+event type also includes the following ``event`` member fields.
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+   * - ``number_of_results``
+     - integer
+     - The count of results that matched the search text.  
+   * - ``search_text``
+     - string
+     - The text or keywords used in the search.
+   * - ``topic_id``
+     - string
+     - The identifier for the topic under which this search for teams was
+       performed. 
+
+
+
 .. Commenting out badging events; add back when Badging supported on edx.org
 
   .. _badging_events:
@@ -4089,6 +4436,7 @@ When a certificate is generated, a record is created in the
    * - Field
      - Type
      - Details
+
    * - ``certificate_id``
      - string
      - The ``verify.uuid`` value from the
@@ -4135,7 +4483,6 @@ The following member fields serve the same purpose for
 * ``course_id``
 * ``enrollment_mode``
 * ``user_id``
-
 
 The following additional ``event`` member field applies specifically to
 ``edx.certificate.shared`` events.
@@ -4792,6 +5139,10 @@ uploading a .csv file of student cohort assignments.
      - The numeric ID (from ``auth_user.id``) of the added user.
 
 
+
+
+
+
 .. _Creating a Peer Assessment: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/open_response_assessments/OpenResponseAssessments.html
 
 .. _Creating Content Experiments: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/content_experiments/index.html#creating-content-experiments
@@ -4811,3 +5162,10 @@ uploading a .csv file of student cohort assignments.
 .. _Adding a Pre-Roll Video to Your edX Course: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/creating_content/create_video.html#adding-a-pre-roll-video-to-your-edX-course
 
 .. _Adding Hints and Feedback to a Problem: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/creating_content/create_problem.html#adding-hints-and-feedback-to-a-problem
+
+.. _Teams Setup: http://draft-course-author-teams.readthedocs.org/en/latest/teams/teams_setup.html
+
+.. note that the above Teams Course Author doc is available only in draft
+.. form. As of 15 Sept 2015 the feature used in a course pilot but not
+.. widely released on edx.org, so doc has not been published. When it is
+.. published we need to update the link to point to docs.edx.org location.

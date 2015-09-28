@@ -5,6 +5,8 @@
 
 .. _Specific Student View - Open edX: http://edx.readthedocs.org/projects/open-edx-building-and-running-a-course/en/latest/developing_course/testing_courseware.html#specific-student-view
 
+.. _Creating a Custom Course: http://edx.readthedocs.org/projects/open-edx-building-and-running-a-course/en/latest/building_course/custom_courses.html
+
 .. _Open edX XBlock Tutorial: http://edx.readthedocs.org/projects/xblock-tutorial/en/latest/
 
 .. _Open edX XBlock API Guide: http://edx.readthedocs.org/projects/xblock/en/latest/
