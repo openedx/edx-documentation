@@ -6,7 +6,7 @@ Online Proctoring Rules for Learners
 
 EdX.org uses an online proctoring service for certain exams (typically final
 exams) that are part of courses that can be made eligible for credit. Learners
-taking proctored exams are required to adhere to an set of defined rules to
+taking proctored exams are required to adhere to a set of defined rules to
 receive a **Satisfactory** result from the proctoring service.
 
 If a particular exam in your course has less stringent rules or allows you to
