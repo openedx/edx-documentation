@@ -187,9 +187,19 @@ earning credit.
 
 Explain what proctored exams are, and provide learners with links to the
 Learner's Guide topics about proctored exams, and to edX's :ref:`Online
-Proctoring Rules <Online Proctoring Rules>`. Emphasize that learners must be
-aware of the requirements before taking the exam, and that some of the
-requirements might take some preparation.
+Proctoring Rules <Online Proctoring Rules>`. 
+
+.. note:: If a particular exam in your course has a less stringent exam
+   policy, or if you want to allow a particular tool (for example, a
+   calculator or pencil and paper), make this difference clear to your
+   learners, and contact your edX Program Manager. It is important that the
+   rules for your exam, if different from the edX Online Proctoring Rules, are
+   communicated to the proctored exam reviewers so that learners are not
+   unknowingly failed for using an item that you have allowed in your exam,
+   but that is listed as forbidden in the proctoring rules.
+
+Emphasize that learners must be aware of the requirements before taking the
+exam, and that some of the requirements might take some preparation.
 
 You can also create a practice proctored exam that is visible to all learners.
 This ungraded exam provides an opportunity for learners to experience the
