@@ -135,14 +135,15 @@ Know the Rules and Requirements for Online Proctoring
 
 .. _Request Additional Time:
 
-================================
-Request Additional Time 
-================================
+===============================================
+Request Additional Time or Special Allowances
+===============================================
 
-If you need more time to complete your proctored exam, ask your course team or
-instructor about this possibility before making your choice to take the exam
-as a proctored exam. They will need to approve your request and add time to
-your specific exam before you start your exam.
+If you need more time to complete your proctored exam or require exemption
+from particular exam policies, ask your course team or instructor about this
+possibility before making your choice to take the exam as a proctored exam.
+They will need to approve your request and make any adjustments before you
+start your exam.
 
 
 .. _Steps in Taking Proctored Exams: 

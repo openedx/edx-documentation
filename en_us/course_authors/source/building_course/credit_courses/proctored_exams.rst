@@ -41,7 +41,7 @@ process of installing proctoring software and performing the required checks
 ahead of time.
 
 To satisfy the proctored exam requirement for credit eligibility, learners
-must take the xam as a proctored exam and receive a **Satisfactory** result
+must take the exam as a proctored exam and receive a **Satisfactory** result
 for their proctoring session review as well as a passing grade on the exam
 itself. For more information about proctored session review results, see
 :ref:`Proctored Exam Session Results`.
@@ -67,6 +67,16 @@ exam.
 For more information about the technical requirements for taking a proctored
 exam, and edX's :ref:`Online Proctoring Rules <Online Proctoring Rules>`, see
 :ref:`Preparing Learners for Proctored Exams`.
+
+.. note:: Course staff should familiarize themselves with edX's :ref:`Online
+   Proctoring Rules <Online Proctoring Rules>`. If a particular exam in your
+   course has a different exam policy than the standard rules, contact your
+   edX Program Manager. It is important that the rules for your exam, if
+   different from the standard rules, are communicated to the proctored exam
+   reviewers so that learners are not unknowingly failed for using an item
+   (for example, a calculator or a specific reference book) that you have
+   allowed in your exam, but that is listed as forbidden in the proctoring
+   rules.
 
 
 .. _Proctored Exam Session Results:
@@ -386,6 +396,34 @@ student to take the exam, follow these steps.
 
    When this learner starts taking the exam, the exam timer takes into account
    the adjusted time.
+
+
+.. _Requests for Special Allowances:
+
+=======================================
+Handle Requests for Special Allowances
+=======================================
+
+In some situations, for example to accommodate learners with disabilities,
+special allowances can be provided for specific students. Consult with your
+organization's Disability Services resources to decide whether and how a
+learner with specific needs can be accommodated.
+
+If it is confirmed that some special allowance should be made to the exam
+policy for a particular learner, follow these steps.
+
+#. Contact edX Support to ask them to set up a special allowance for the
+   learner.
+
+#. Provide edX Support with the learner's username or email address, and the
+#. special allowance that the learner is allowed. For example, "Allow 2nd
+#. person in room while taking exam".
+
+#. When the allowance has been set up, let the learner know that their special
+   allowance has been granted.
+
+   When this learner's proctored exam results are reviewed, the reviewer is
+   aware of the special allowance and takes that into account in their review.
 
 
 .. _Requests for Retaking a Proctored Exam:

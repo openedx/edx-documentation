@@ -15,9 +15,14 @@ that any troubleshooting that is required can be accomplished. Students can
 refer to the free Demo Course on edX.org, where they can configure and
 experience a sample proctored exam.
 
-As with other ID-verified assessments and exams, students will be asked to
+As with other ID-verified assessments and exams, learners will be asked to
 establish their identity during the proctored exam process by supplying a
-government-issued photo ID with a full name that matches the name they used to register on edX.org.
+government-issued photo ID with a full name that matches the name they used to
+register on edX.org.
+
+.. note:: If you require additional time or any specific accommodations or
+   exemptions to the exam policies in order to complete a proctored exam,
+   contact your instructor or edX Support.
 
 
 *****************************
