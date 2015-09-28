@@ -5,15 +5,22 @@ Online Proctoring Rules for Learners
 ####################################
 
 EdX.org uses an online proctoring service for certain exams (typically final
-exams) that are part of courses that can be made eligible for credit. Students
-taking proctored exams are required to adhere to the following rules to
+exams) that are part of courses that can be made eligible for credit. Learners
+taking proctored exams are required to adhere to an set of defined rules to
 receive a **Satisfactory** result from the proctoring service.
+
+If a particular exam in your course has less stringent rules or allows you to
+use a specific tool such as a calculator or reference book during a proctored
+exam, your course staff will let you know. If you are not told about any
+different proctoring exam rules, make sure you adhere to the "Closed Book
+Exam" rules that are described in the following sections.
 
 Students are responsible for testing their systems with the proctoring
 software well in advance of all online proctored exams in their courses, so
-that any troubleshooting that is required can be accomplished. Students can
-refer to the free Demo Course on edX.org, where they can configure and
-experience a sample proctored exam.
+that any troubleshooting that is required can be accomplished. Students might
+be able to take practice proctored exams in their course, or can refer to the
+free Demo Course on edX.org, where they can experience a sample proctored
+exam.
 
 As with other ID-verified assessments and exams, learners will be asked to
 establish their identity during the proctored exam process by supplying a
