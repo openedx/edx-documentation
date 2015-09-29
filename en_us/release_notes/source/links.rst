@@ -111,6 +111,8 @@
 
 .. _Enrollment API Version 1.0: http://edx.readthedocs.org/projects/edx-platform-api/en/latest/enrollment/index.html#edx-platform-enrollment-api-version-1-0
 
+.. _Enrollment API: http://edx.readthedocs.org/projects/edx-platform-api/en/latest/enrollment/index.html
+
 .. _User API: http://edx-platform-api.readthedocs.org/en/latest/user/index.html#edx-platform-user-api-version-1-0
 
 .. _User API Version 0: http://edx.readthedocs.org/projects/edx-platform-api/en/latest/user/index.html#edx-platform-user-api-version-0
@@ -408,6 +410,8 @@
 
 .. _Text Input Problem XML: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/text_input.html#text-input-problem-xml
 
+.. _Text Input Problem: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/text_input.html
+
 .. _Create a Randomized Custom Python-Evaluated Input Problem: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/custom_python.html#create-a-randomized-custom-python-evaluated-input-problem
 
 .. _Annotation Problem: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/annotation.html#annotation
@@ -577,11 +581,17 @@
 
 .. _Working with Problem Components - Open edX: http://edx.readthedocs.org/projects/open-edx-building-and-running-a-course/en/latest/creating_content/create_problem.html
 
-.. _Numerical Input Problem - Open edX: http://edx.readthedocs.org/projects/open-edx-building-and-running-a-course/en/latest/exercises_tools/numerical_input.html#numerical-input
+
 
 .. _Answer Data - Open edX: http://edx.readthedocs.org/projects/open-edx-building-and-running-a-course/en/latest/running_course/course_answers.html#review-answers
 
-.. _Numerical Input Problem: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/numerical_input.html#numerical-input
+.. _Numerical Input Problem: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/numerical_input.html
+
+.. _Text Input Problem: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/text_input.html
+
+.. _Numerical Input Problem - Open edX: http://edx.readthedocs.org/projects/open-edx-building-and-running-a-course/en/latest/exercises_tools/numerical_input.html#numerical-input
+ 
+.. _Text Input Problem - Open edX: http://edx.readthedocs.org/projects/open-edx-building-and-running-a-course/en/latest/exercises_tools/text_input.html
 
 .. _Answer Data: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/running_course/course_answers.html#review-answers
 
@@ -610,4 +620,3 @@
 .. _Student Answer Submissions: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/running_course/course_answers.html#student-answer-submissions
 
 .. _Using edX as an LTI Tool Provider: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/building_course/lti/index.html
-
