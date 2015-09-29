@@ -108,8 +108,8 @@ Proctoring Rules <Online Proctoring Rules>`.
 .. note:: If you are a learner with disabilities, consult your organization's
    Disability Resources or talk with your course team if you need
    :ref:`additional time <Request Additional Time>` or specific accommodations
-   to take the exam. If you need to request extra time to complete the exam,
-   do so before you make any choices on the exam page.
+   to take the exam. If you need to request extra time or special allowances
+   to complete the exam, do so before you make any choices on the exam page.
 
 
 .. _Know Rules for Online Proctoring:
@@ -130,7 +130,7 @@ Know the Rules and Requirements for Online Proctoring
   a supported browser. 
 
 * Read the rules and requirements that are covered in the :ref:`Online
-  Proctoring Rules <Online Proctoring Rules>`.
+  Proctoring Rules <Online Proctoring Rules>`. 
 
 
 .. _Request Additional Time:
