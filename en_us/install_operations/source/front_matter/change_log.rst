@@ -8,6 +8,9 @@ Change Log
 
    * - Date
      - Change
+   * - 2 October 2015
+     - Added the :ref:`Options for LTI Authentication and User Provisioning`
+       section.
    * - 15 September 2015
      - Added the :ref:`Configuring an edX Instance as an LTI Tool Provider`
        section.
