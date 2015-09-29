@@ -80,6 +80,8 @@
 
 .. _requirements/edx/github.txt: https://github.com/edx/edx-platform/blob/master/requirements/edx/github.txt
 
+.. _submission_mixin.py: https://github.com/edx/edx-ora2/blob/a4ce7bb00190d7baff60fc90fb613229565ca7ef/openassessment/xblock/submission_mixin.py
+
 .. _edx-platform: https://github.com/edx/edx-platform
 
 .. _edx configuration repository: https://github.com/edx/configuration

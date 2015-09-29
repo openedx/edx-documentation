@@ -38,12 +38,12 @@ To install the Google Drive XBlock, follow these steps.
 
 #. Save the ``requirements/edx/github.txt`` file.
 
-After you configure the edX Platform to use Google Drive files or a Google
-Calendar, each course team that wants to use it must enable the tool for their
-course. For more information, see these references.
+After you configure the edX Platform, to use Google Drive files or a Google
+Calendar in a course, you must add the XBlock to the advanced settings for the
+course. For more information, see the following topics in the *Building and
+Running an Open edX Course* guide.
 
 * :ref:`opencoursestaff:Enable the Google Drive Files Tool`
 * :ref:`opencoursestaff:Enable the Google Calendars Tool`
-
 
 .. include:: ../../../links/links.rst
