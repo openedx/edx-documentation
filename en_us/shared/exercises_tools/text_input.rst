@@ -357,6 +357,41 @@ closing ``<stringresponse>`` tags.
   </problem>
 
 ******************************************
+Add Text after the Text Response Field
+******************************************
+
+You might want to include a word, phrase, or sentence after the answer field
+in a text input problem to help guide your students or resolve ambiguity.
+
+.. image:: ../../../shared/building_and_running_chapters/Images/MC_trailing_text.png
+ :width: 500
+ :alt: Multiple choice problem with the word "Institute" after the answer field.
+
+To do this, you must use the :ref:`Advanced Editor<Advanced Editor>`.
+
+In the problem, locate the ``textline`` element. This element creates the
+response field for the problem and is a child of the ``stringresponse``
+element. An example follows.
+
+::
+
+  <stringresponse answer="Ashmun" type="ci" >
+    <textline label="What Pennsylvania school was founded in 1854 to provide 
+     educational opportunities for African-Americans?" size="20" />
+  </stringresponse>
+
+To add text after the answer field, add the ``trailing_text`` attribute
+together with the text that you want to use inside the ``textline`` element.
+
+::
+
+  <stringresponse answer="Ashmun" type="ci" >
+    <textline label="What Pennsylvania school was founded in 1854 to provide educational
+     opportunities for African-Americans?" size="20" trailing_text="Institute" />
+  </stringresponse>
+
+
+******************************************
 Case Sensitivity and Text Input Problems
 ******************************************
 
@@ -386,7 +421,7 @@ attribute to ``cs``.
     </stringresponse>
 
 *************************************************
-Response Field Length of Text Input Problems
+Response Field Length in Text Input Problems
 *************************************************
 
 By default, the response field for text input problems is 20 characters long.
@@ -545,6 +580,8 @@ Creates a response field in the LMS where the learner enters a response.
        - If set to "true", learners cannot see the response field.
      * - correct_answer (optional)
        - Lists the correct answer to the problem.
+     * - trailing_text
+       - Adds the text that you specify after the response field.
 
   Children
   
@@ -616,9 +653,10 @@ Deprecated Hinting Method
 **************************
 
 The following example shows the XML format with the ``<hintgroup>`` element
-that you could use to configure hints for text input problems. Problems using
-this XML format will continue to work in the edX Platform. However, it is
-recommended that use use the new way of configuring hints documented above.
+that you could use in the past to configure hints for text input problems.
+Problems using this XML format will continue to work in the edX Platform.
+However, edX recommends that you use the new way of configuring hints
+documented above.
 
 .. code-block:: xml
 
