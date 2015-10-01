@@ -4,16 +4,13 @@
 Developing Course Components
 ###################################
 
-This chapter describes how you develop course components. See:
+This section describes how you develop course components. 
 
-* `What is a Component`_
-* `Add a Component`_
-* `Edit a Component`_
-* `Duplicate a Component`_
-* `Delete a Component`_
-* `Components that Contain Other Components`_
+.. contents:: 
+  :local:
+  :depth: 1
 
-For more information about specific component types, see:
+For more information about specific component types, see the following topics.
 
 * :ref:`Creating Course Content Index`
 * :ref:`Exercises and Tools Index`
@@ -27,16 +24,17 @@ What is a Component?
 A component is the part of a unit that contains your actual course content. A
 unit can contain one or more components.
 
-A student can view the names of all components in a unit by moving the cursor
+A learner can view the names of all components in a unit by moving the cursor
 over each unit in the learning sequence at the top of the page.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/ComponentNames_CourseRibbon.png
- :alt: Image of the component list for a unit
+ :alt: Image of the component list for a unit.
 
-By default, Studio includes four types of components.
+By default, Studio includes four types of components for you to add to your
+course.
 
 * **Discussion components** provide discussion spaces in the body of your
-  course. Students can explore ideas about a lesson with their peers in a
+  course. Learners can explore ideas about a lesson with their peers in a
   discussion space.
 * **HTML components** allow you to add text, images, and some types of learning
   tools to your course. Content in HTML components is formatted as HTML.
@@ -52,7 +50,7 @@ By default, Studio includes four types of components.
 Add a Component
 ********************
 
-To add a component to the unit, click the component type that you want under
+To add a component to the unit, select the component type that you want under
 **Add New Component**.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/AddNewComponent.png
@@ -66,7 +64,7 @@ that you want:
 - :ref:`Working with Problem Components`
 - :ref:`Working with Video Components`
   
-After you add a component, it is not visible to students until you
+After you add a component, it is not visible to learners until you
 :ref:`publish the unit<Publish a Unit>`.
 
 .. _Edit a Component:
@@ -75,14 +73,14 @@ After you add a component, it is not visible to students until you
 Edit a Component
 ********************
 
-To edit a component, click **Edit**:
+To edit a component, you select the **Edit** icon.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/unit-edit.png
   :alt: Image of a unit with Edit icon circled
 
-Then follow instructions for the type of component you are editing.
+Then, follow instructions for the type of component you are editing.
 
-After you edit a component, the changes are not visible to students until you
+After you edit a component, the changes are not visible to learners until you
 :ref:`publish the unit<Publish a Unit>`.
 
 =====================================
@@ -90,22 +88,22 @@ Set the Display Name for a Component
 =====================================
 
 Each component has a display name that shows in the component header when you
-can edit the component. The display name also shows to students when they move
+can edit the component. The display name also shows to learners when they move
 the cursor over the unit icon in the learning sequence.
 
-To set the display name for a component:
+To set the display name for a component, follow these steps.
 
 #. Edit the component.
-#. Click **Settings**.
+#. Select **Configure**.
 #. Edit the **Display Name** field.
 
   .. image:: ../../../shared/building_and_running_chapters/Images/display-name.png
    :alt: Image of the Display Name field for a component.
 
-4. Click **Save**.
+4. Select **Save**.
 
-Different types of components have different fields in the Settings dialog box,
-but all have the **Display Name** field.
+Different types of components have different fields in the **Settings** dialog
+box, but all of them have the **Display Name** field.
 
 .. _Duplicate a Component:
 
@@ -115,17 +113,18 @@ Duplicate a Component
 
 When you duplicate a component, a new copy of that component is added directly
 beneath the first component. You can then modify the duplicate. In many cases,
-duplicating a component and editing a copy is a faster way to create new
+duplicating a component and editing the copy is a faster way to create new
 content.
 
-To duplicate a component, click the Duplicate icon in the component header:
+To duplicate a component, select the **Duplicate** icon in the component
+header.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/unit-dup.png
-  :alt: Image of a unit with Duplicate icon circled
+  :alt: Image of a unit with Duplicate icon circled.
 
-Then follow instructions for the type of component you are editing.
+Then, follow instructions for the type of component you are editing.
 
-After you duplicate a component, the new component is not visible to students
+After you duplicate a component, the new component is not visible to learners
 until you :ref:`publish the unit<Publish a Unit>`.
 
 .. note::  You cannot duplicate a content experiment.
@@ -137,19 +136,20 @@ Delete a Component
 **********************
 
 .. caution:: 
- Be sure you want to delete the component. You can not undo the deletion.
+ Be sure you want to delete the component. You cannot undo the deletion.
 
-To delete a component:
+To delete a component, follow these steps.
 
-#. Click the Delete icon in the component header:
+#. Select the **Delete** icon in the component header.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/unit-delete.png
-  :alt: Image of a unit with Delete icon circled
+  :alt: Image of a unit with Delete icon circled.
 
-2. When you receive the confirmation prompt, click **Yes, delete this
+2. When you receive the confirmation prompt, select **Yes, delete this
    component**.
 
-After you delete a component, the component remians visible to students until you :ref:`publish the unit<Publish a Unit>`.
+After you delete a component, the component remains visible to learners until
+you :ref:`publish the unit<Publish a Unit>`.
 
 .. _Components that Contain Other Components:
 
@@ -163,13 +163,13 @@ or content experiments, you have to create components inside components. See
 :ref:`Creating Content Experiments` for more information.
 
 The component that contains other components is referred to as the *parent*;
-the contained components are referred to as *children*.
+the contained components are referred to as children.
 
 In the unit page, a parent component appears with the display name and a
 **View** link. For example:
 
 .. image:: ../../../shared/building_and_running_chapters/Images/component_container.png
- :alt: Image of a unit page with a parent component
+ :alt: Image of a unit page with a parent component.
 
 
 ==================================================
@@ -180,7 +180,7 @@ A parent component does not directly contain content. Content such as HTML,
 videos, or problems are in the child components.
 
 A parent component has a display name. When the unit is private or in draft,
-click **Edit** in the parent component to change the display name.
+select **Edit** in the parent component to change the display name.
 
 .. note:: 
   Parent components of a specific type, such as content experiments, have
@@ -191,22 +191,22 @@ click **Edit** in the parent component to change the display name.
 View Child Components
 ======================================
 
-When you click **View** in the parent component, the parent component page
+When you select **View** in the parent component, the parent component page
 opens, showing all child components. In this example, Child Component A
-contains an HTML component and a video:
+contains an HTML component and a video.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/child-components-a.png
- :alt: Image of an expanded child component
+ :alt: Image of an expanded child component.
 
-Click the arrow next to a child component name to collapse it and hide the
-component's contents:
+Select the arrow next to a child component name to collapse it and hide the
+component's contents.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/child-components.png
- :alt: Image of a child component page
+ :alt: Image of a child component page.
 
-Click the arrow again to expand the component.
+Select the arrow again to expand the component.
 
-See:
+For more information, see the following topics.
 
 * `Edit a Component`_
 * `Set the Display Name for a Component`_
@@ -220,15 +220,15 @@ Add a Child Component
 If the containing unit is private or in draft, you can add a child component in
 its parent component.
 
-To add a child component, open and expand the parent component. Then click the
-component type that you want under **Add New Component** within the parent
+To add a child component, open and expand the parent component. Then, select
+the component type that you want under **Add New Component** within the parent
 component.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/AddNewComponent.png
-  :alt: Image of adding a new component
+  :alt: Image of adding a new component.
 
-For more information, see the documentation for the specific component type
-that you want:
+For more information, see the section for the specific component type that you
+want.
 
 - :ref:`Working with Discussion Components`
 - :ref:`Working with HTML Components`
@@ -250,7 +250,7 @@ s.org/projects/devdata/en/latest/course_data_formats/course_xml.html>`_.
 The following examples show the XML used to create the unit and components
 shown in Studio above.
 
-The XML for the unit is:
+The XML for the unit is as follows.
 
 .. code-block:: xml
 
@@ -260,7 +260,7 @@ The XML for the unit is:
     </vertical>
 
 The ``<vertical url_name="131a499ddaa3474194c1aa2eced34455"/>`` element above
-references the parent component file that contains the child components:
+references the parent component file that contains the child components.
  
 .. code-block:: xml
 
@@ -270,7 +270,7 @@ references the parent component file that contains the child components:
     </vertical>
 
 The two verticals referenced by the parent component refer to the child
-components, which contain the actual content of your course:
+components, which contain the actual content of your course.
 
 .. code-block:: xml
 
@@ -291,18 +291,18 @@ in your course.
 
 
 ======================================
-The Student View of Nested Components
+The Learner View of Nested Components
 ======================================
 
-For students, all parent and child components are displayed on the unit page.
-The following example shows the student view of the unit described above:
+For learners, all parent and child components appear on the unit page.
+The following example shows the learner view of the unit described above.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/nested_components_student_view.png
- :alt: Image of the student's view of nested components
+ :alt: Image of the learner's view of nested components.
 
 .. note:: 
  The visibility of nested components depends on the visibility of 
- the parent unit. The parent unit must be public for students to see nested
+ the parent unit. The parent unit must be public for learners to see nested
  components. For more information, see :ref:`Unit States and Visibility to Students`.
 
 
@@ -320,7 +320,7 @@ component into a different parent component, if both parents are expanded. For
 example, you can select the video component that is in Child Component A and
 drag it into Child Component B. Select the video component, and as you drag it
 into Child Component B, release the mouse button when a dashed outline of the
-component you are moving appears in the new location:
+component you are moving appears in the new location.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/drag_child_component.png
  :alt: Image of dragging a child component to a new location
