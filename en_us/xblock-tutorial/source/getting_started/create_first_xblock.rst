@@ -30,4 +30,4 @@ XBlock Software Development Kit>`, about the :ref:`anatomy of an XBlock
 <Anatomy of an XBlock>`, and :ref:`how to customize your new XBlock <Customize
 Your XBlock>`.
 
-.. include:: ../links.rst
+.. include:: ../../../links/links.rst

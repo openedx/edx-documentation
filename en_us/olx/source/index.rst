@@ -1,3 +1,5 @@
+.. _edX Open Learning XML Guide:
+
 ############################
 edX Open Learning XML Guide
 ############################

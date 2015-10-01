@@ -6,16 +6,6 @@ The following information reflects what is new in the edX Platform as of
 September 9,
 2014. See previous pages in this document for a history of changes.
 
-****************************************
-edX Release Announcements Mailing List
-****************************************
-
-These edX Course Staff Release Notes are always available and are updated with
-each release of the edX Platform on `edx.org`_ and `edX Edge`_.
-
-You can also sign up for the `edX Release Announcements mailing list`_ to get
-an email message when we update the edX Course Staff Release Notes.
-
 
 ***************************************
 edX Website
@@ -64,43 +54,3 @@ We're pleased to announce the following upcoming change:
   your students are, and what they do while interacting with your course, the
   data available on this dashboard can validate choices you’ve made, reveal
   unexpected patterns, and inform plans for changes to the course.
-
-
-**************************
-edX Documentation
-**************************
-
-All guides now include a section that lists browsers supported for use with the
-edX platform.
-
-The following documentation is available:
-
-* `Building and Running an edX Course`_ 
-
-  Click **Help** in the upper-right corner of any page in the edX Studio
-  user interface to access relevant sections in this guide. You can also
-  download the entire guide as a PDF.
-
-
-* `Creating Peer Assessments`_
-
-* `edX Research Guide`_
-
-* `Open edX Developer's Guide`_
-
-* `Open edX XBlock API Guide`_
-
-* `Installing, Configuring, and Running the edX Platform`_  
-
-**************************
-Other edX Resources
-**************************
-
-You can access the `edX Status`_ page to get an up-to-date status for all
-services on edx.org and edX Edge. The page also includes the Twitter feed for
-@edXstatus, which the edX Operations team uses to post updates.
-
-You can access the public `edX roadmap`_ for details about the currently
-planned product direction.
-
-.. include:: ../links.rst

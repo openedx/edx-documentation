@@ -40,4 +40,4 @@ The LMS requires XBlocks to have the following properties.
   * ``video``
   * ``other``
 
-.. include:: ../links.rst
+.. include:: ../../../links/links.rst

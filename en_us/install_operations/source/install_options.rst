@@ -1,4 +1,4 @@
-.. include:: links.rst
+.. _Open edX Platform Installation Options: 
 
 ########################################
 Open edX Platform Installation Options
@@ -67,3 +67,5 @@ Ubuntu information is planned for future versions of this guide.
 See the `edx configuration repository wiki`_ for information from edX
 and the Open edX community about Ubuntu and other installation and
 configuration options.
+
+.. include:: ../../links/links.rst

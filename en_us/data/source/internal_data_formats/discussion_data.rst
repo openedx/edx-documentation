@@ -8,8 +8,6 @@ EdX discussion data is stored as collections of JSON documents in a MongoDB
 database. MongoDB is a document-oriented, NoSQL database system. Documentation
 can be found at the mongodb_ web site.
 
-..  _mongodb: http://docs.mongodb.org/manual/
-
 In the data package, discussion data is delivered in a .mongo file, identified
 by organization and course, in this format:
 edX-*organization*-*course*-*source*.mongo.
@@ -408,3 +406,5 @@ sk
 --------------------
   A randomly generated number that drives a sorted index to improve online performance.
 
+
+.. include:: ../../../links/links.rst

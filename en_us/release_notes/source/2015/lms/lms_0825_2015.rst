@@ -2,8 +2,7 @@
 * Course enrollment data is now available only through edX Insights, which
   reports both the current and total enrollment count for a course. Previously,
   the Instructor Dashboard also reported the current enrollment count. This
-  change affects edx.org and edX Edge, not Open edX. For more information, see
-  `Using edX Insights`_.
+  change affects edx.org and edX Edge, not Open edX.
 
 * The following additional information is now available on the Course Info page
   on the Instructor Dashboard. 

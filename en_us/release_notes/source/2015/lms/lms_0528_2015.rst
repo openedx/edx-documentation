@@ -4,6 +4,3 @@ learners can now see license information on every page in the courseware and
 for specific videos. For Creative Commons licenses, learners can follow links
 to the Creative Commons website to read more about their rights to use course
 content.
-
-For more information, see `Licensing a Course`_ in *Building and Running an edX
-Course* and `Course and Video Licenses`_ in the *edX Guide for Students*.

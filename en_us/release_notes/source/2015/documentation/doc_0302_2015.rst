@@ -3,16 +3,15 @@
 Building and Running an edX Course
 ==================================
 
-The `Creating Cohort Specific Courseware`_ section now reflects the ability to
-delete content groups and view their usage in a course.
+The :ref:`partnercoursestaff:Cohorted Courseware Overview` section now
+reflects the ability to delete content groups and view their usage in a course.
 
 =======================================================
 Installing, Configuring, and Running the edX Platform
 =======================================================
 
-This guide now includes new chapters for the `Open edX Birch Release`_ and a
-new section about `Installing, Configuring, and Running the Open edX
-Platform`_.
+This guide now includes new chapters for the :ref:`installation:Open edX Birch
+Release`.
 
 ======================
 Open edX Documentation
@@ -20,5 +19,5 @@ Open edX Documentation
 
 The following new guides are now available specifically for Open edX.
 
-* `Open edX Release Notes`_
-* `Building and Running an Open edX Course`_
+* :ref:`openreleasenotes:Open edX Release Notes`
+* :ref:`opencoursestaff:Building and Running an Open edX Course`

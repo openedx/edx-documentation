@@ -22,4 +22,4 @@ LMS
 
 .. include:: lms/lms_0903_2015.rst
 
-.. include:: ../links.rst
+.. include:: ../../../links/links.rst

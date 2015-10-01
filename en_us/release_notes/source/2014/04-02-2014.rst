@@ -5,52 +5,14 @@ April 3, 2014
 The following information reflects what is new in the edX Platform as of April
 3, 2014.  See previous pages in this document for a history of changes.
 
-**************************
-edX Documentation
-**************************
-
-You can access the public `edX roadmap`_ for
-details about the currently planned product direction.
-
-The following documentation is available:
-
-* `Building and Running an edX Course`_ 
-
-  You can also download the guide as a PDF from the edX Studio user interface.
-
-  Recent changes include: 
-
-  * Expanded the `Grade and Answer Data`_ chapter to include the new
-    `Student Answer Distribution`_ section.
-
-  * Updated the `Releasing Your Course`_ section to include `Course Launching Activities`_.
-
-  * Updated the `Adding Pages to a Course`_ chapter
-    to reflect ability to `Show or Hide the Course Wiki Page`_.
-
-  * Reorganized the sections `Building a Course`_ and
-    `Creating Course Content`_ to better
-    reflect the workflow of building a new course.
-
-
-* `edX Research Guide`_
-
-  Recent changes include:
-
-  *  Added the `Data Czar/Data Team Selection and Responsibilities`_ chapter.
-
-* `Open edX Developer's Guide`_
-
-  *  Added the `Custom JavaScript Applications`_ chapter.
-
 
 *************
 edX Studio
 *************
 
 * You can now choose to hide or show the Wiki in your course, by using a control
-  in the list of course Pages.  For more information, see `Show or Hide the
-  Course Wiki Page`_. (STUD-1375)
+  in the list of course Pages.  For more information, see Show or Hide the
+  Course Wiki Page. (STUD-1375)
 
 * A new IFrame template is now available as an option when you create a
   new HTML component. An IFrame allows you to integrate ungraded exercises and
@@ -83,7 +45,7 @@ edX Learning Management System
 
   The report is automatically generated on a periodic basis, so the most
   recently updated version of the report is available on the Instructor
-  Dashboard. For more information, see `Student Answer Distribution`_. (AN-590)
+  Dashboard. For more information, see Student Answer Distribution. (AN-590)
 
 * **Bulk Email for New Courses**
 
@@ -94,8 +56,8 @@ edX Learning Management System
   directly from the Instructor Dashboard, before, during, and after the course
   run. A history report of all email messages sent for your course is available.
   It includes the username of the sender, the recipients, the date and time
-  sent, and the task status. For more information, see `Course Launching
-  Activities`_ . (LMS-1035)
+  sent, and the task status. For more information, see Course Launching
+  Activities . (LMS-1035)
 
 
-.. include:: ../links.rst
+

@@ -37,6 +37,4 @@ Mobile
 
 .. include:: mobile/mobile_0331_2015.rst
 
-
-
-.. include:: ../links.rst
+.. include:: ../../../links/links.rst

@@ -70,4 +70,5 @@ The following information describes what is new in Open edX.
 .. include:: 2015/openedx/openedx_0128_2015.rst
    
 
-.. include:: links.rst
+
+.. include:: ../../links/links.rst

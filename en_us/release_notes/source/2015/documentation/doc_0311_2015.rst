@@ -3,7 +3,8 @@
 edX Research Guide
 ==================================
 
-The `Tracking Logs`_ chapter now contains descriptions of these events.
+The :ref:`data:Tracking Logs` chapter now contains descriptions of these
+events.
 
 * New events for contributions to discussion forums.
 
@@ -14,4 +15,5 @@ The `Tracking Logs`_ chapter now contains descriptions of these events.
 Using edX Insights
 ==================================
 
-Added the `Student Performance`_ section to the *Using edX Insights* guide.
+Added the :ref:`insights:Performance Index` section to the *Using edX
+Insights* guide.

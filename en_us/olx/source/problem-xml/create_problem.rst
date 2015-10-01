@@ -573,4 +573,4 @@ Create Randomized Problems
 
 .. include:: ../../../shared/exercises_tools/Section_adding_tooltip.rst       
 
-.. include:: ../links.rst
+.. include:: ../../../links/links.rst

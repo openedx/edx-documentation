@@ -23,4 +23,4 @@ See the following chapters for more information.
    insider-structure
    insider-course-xml
 
-.. include:: ../links.rst
+.. include:: ../../../links/links.rst

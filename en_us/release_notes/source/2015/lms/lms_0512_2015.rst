@@ -18,8 +18,6 @@ for each learner.
 * The type of certificate, for learners who are eligible to receive a
   certificate.
 
-For more information, see `Interpret the Grade Report`_.
-
 =================================
 Accessibility Improvements
 =================================

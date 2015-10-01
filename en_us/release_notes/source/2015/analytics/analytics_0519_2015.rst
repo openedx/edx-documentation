@@ -2,5 +2,5 @@
 Two instructor events have been added for generating and
 downloading reports from the Instructor Dashboard.
 
-* `edx.instructor.report.downloaded`_
-* `edx.instructor.report.requested`_
+* :ref:`data:edx.instructor.report.downloaded`
+* :ref:`data:edx.instructor.report.requested`

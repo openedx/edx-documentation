@@ -5,41 +5,6 @@ April 23, 2014
 The following information reflects what is new in the edX Platform as of April
 23, 2014.  See previous pages in this document for a history of changes.
 
-**************************
-edX Documentation
-**************************
-
-You can access the `edX Status`_ page to get an up-
-to-date status for all services on edx.org and edX Edge. The page also includes
-the Twitter feed for @edXstatus, which the edX Operations team uses to post
-updates.
-
-You can access the public `edX roadmap`_ for
-details about the currently planned product direction.
-
-The following documentation is available:
-
-* `Building and Running an edX Course`_ 
-
-  You can also download the guide as a PDF from the edX Studio user interface.
-
-  Recent changes include: 
-
-  * Updated `Testing Your Course`_ to include a section on how to `Switch Between Studio and Your Live Course`_.
-
-  * Updated `Transcripts in Additional Languages`_ in `Working with Video Components`_.
-
-  * In `Discussions`_, corrected the steps to Create Discussion Categories.
-
-  * Updated the `Bulk Email`_ section with information about the dashboard option to opt out of course email.
-
-  * Updated the `Enrollment`_ section to reflect feature changes.
-      
-
-* `edX Research Guide`_
-
-* `Open edX Developer's Guide`_
-
 
 *************
 edX Studio
@@ -66,4 +31,3 @@ edX Learning Management System
 
 
 
-.. include:: ../links.rst

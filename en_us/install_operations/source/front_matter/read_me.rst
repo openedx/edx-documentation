@@ -11,7 +11,4 @@ and revise this documentation project on GitHub:
 To suggest a revision, follow the `GitHub Flow`_: fork the project, make
 changes in your fork, and submit a pull request back to the original project.
 
-.. _Sphinx: http://sphinx-doc.org/
-.. _LaTeX: http://www.latex-project.org/
-.. _`GitHub Flow`: https://github.com/blog/1557-github-flow-in-the-browser
-.. _RST: http://docutils.sourceforge.net/rst.html
+.. include:: ../../../links/links.rst

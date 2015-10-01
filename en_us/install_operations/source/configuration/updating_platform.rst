@@ -1,5 +1,3 @@
-.. include:: ../links.rst
-
 .. _Guidelines for Updating the edX Platform:
 
 ######################################################
@@ -16,3 +14,5 @@ If you need to change settings on a running server, take the following steps.
 #. Start the new server.
 #. Reroute traffic from the old server to the new server.
 #. Decommission the old server.
+
+.. include:: ../../../links/links.rst

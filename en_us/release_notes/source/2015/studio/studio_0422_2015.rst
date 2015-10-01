@@ -1,11 +1,11 @@
 
 * Course teams can now upload video transcripts for video components in either
   Simplified Chinese or Traditional Chinese. For more information, see
-  `Working with Video Components`_.
+  :ref:`partnercoursestaff:Working with Video Components`.
 
 * The **Advanced Settings** page for video components includes a renamed field,
   **Video ID**. Previously, this field was named **EdX Video ID**. For more
-  information, see `Working with Video Components`_.
+  information, see :ref:`partnercoursestaff:Working with Video Components`.
 
 * If course teams define either one or both of the **Video Start Time** and
   **Video Stop Time** values, learners no longer have the option to override

@@ -35,6 +35,4 @@ Documentation
 
 .. include:: documentation/doc_0512_2015.rst
 
-
-
-.. include:: ../links.rst
+.. include:: ../../../links/links.rst

@@ -1,5 +1,3 @@
-.. include:: ../links.rst
-
 .. _Installing edX Insights:
 
 #######################
@@ -225,3 +223,6 @@ remainder of the infrastructure. The edX Analytics API and edX Insights
 services are each deployed to at least one server. The Scheduler is deployed to
 another server. A MySQL database is deployed to a server that is configured to
 host a relational database.
+
+.. include:: ../../../links/links.rst
+

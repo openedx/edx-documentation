@@ -7,5 +7,5 @@ surveys.
 * ``xblock.survey.submitted``
 * ``xblock.survey.view_results``
   
-For more information about these events, see `Poll and Survey Events`_ in the
-*EdX Research Guide*.
+For more information about these events, see :ref:`data:Poll and Survey Events`
+in the *EdX Research Guide*.

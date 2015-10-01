@@ -36,4 +36,4 @@ it is appropriate for use on edx.org. Specifically, edX will review your XBlock
 for security, scalability, accessibility, and fitness of purpose. You should be
 prepared to respond to questions and comments from edX in your pull request.
 
-.. include:: ../links.rst
+.. include:: ../../../links/links.rst

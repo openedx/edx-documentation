@@ -1,5 +1,3 @@
-.. include:: ../links.rst
-
 .. _Installing the Open edX Analytics Developer Stack:
 
 #################################################
@@ -225,3 +223,5 @@ Run the Open edX Analytics Pipeline
           --output-root hdfs://localhost:9000/edx-analytics-pipeline/output/answer_distribution/ \
           --marker hdfs://localhost:9000/edx-analytics-pipeline/output/answer_distribution_raw/$UNIQUE_NAME/marker \
           --n-reduce-tasks 1
+
+.. include:: ../../../links/links.rst

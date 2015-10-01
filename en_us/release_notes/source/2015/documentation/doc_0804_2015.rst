@@ -5,20 +5,21 @@ Documentation for edX Partners
 Building and Running an edX Course
 **********************************
  
-* The `Working with Problem Components`_ and `Numerical Input Problem`_
-  sections have clearer information about using the **Randomization** setting.
+* The :ref:`partnercoursestaff:Working with Problem Components` and
+  :ref:`partnercoursestaff:Numerical Input` sections have clearer
+  information about using the **Randomization** setting.
 
-* The `Answer Data`_ section no longer contains references to features on the
-  **Analytics** page of the Instructor Dashboard. Course data is available in
-  edX Insights.
+* The :ref:`partnercoursestaff:Review_Answers` section no longer contains
+  references to features on the **Analytics** page of the Instructor Dashboard.
+  Course data is available in edX Insights.
 
-* The `View a Specific Student's Assigned Problems from a Randomized Content
-  Block`_ and `Adjust Grades for a Problem from a Randomized Problem Block`_
-  sections have been added.
+* The :ref:`partnercoursestaff:View Specific Student Assigned Problems from
+  Randomized Content Block` and :ref:`partnercoursestaff:Adjust Grades for a
+  Problem from a Randomized Content Block` sections have been added.
 
 * Information about previewing courseware as a specific student has been added
-  to the `Preview Cohort-Specific Courseware`_ and `View Your Live Course`_
-  sections.
+  to the :ref:`partnercoursestaff:Preview Cohort Specific Courseware` and
+  :ref:`partnercoursestaff:View Your Live Course` sections.
 
 
 ==================================
@@ -28,9 +29,10 @@ Documentation for Open edX Users
 Building and Running an Open edX Course
 ****************************************
  
-* The `Working with Problem Components - Open edX`_ and `Numerical Input Problem - Open edX`_
-  sections have clearer information about using the **Randomization** setting.
+* The :ref:`opencoursestaff:Working with Problem Components` and
+  :ref:`opencoursestaff:Numerical Input` sections have clearer
+  information about using the **Randomization** setting.
 
-* The `Answer Data - Open edX`_ section no longer contains references to features on the
-  **Analytics** page of the Instructor Dashboard. Course data is available in
-  edX Insights.
+* The ref:`opencoursestaff:Review_Answers` section no longer contains
+  references to features on the **Analytics** page of the Instructor Dashboard.
+  Course data is available in edX Insights.

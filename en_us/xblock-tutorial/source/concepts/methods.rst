@@ -113,4 +113,4 @@ When you create a new XBlock, two methods are added automatically.
   This method is for demonstration purposes and you can remove it.
 
 
-.. include:: ../links.rst
+.. include:: ../../../links/links.rst

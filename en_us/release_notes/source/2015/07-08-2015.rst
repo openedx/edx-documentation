@@ -45,4 +45,4 @@ Open Response Assessments
 
 .. include:: ora/ora_0708_2015.rst
 
-.. include:: ../links.rst
+.. include:: ../../../links/links.rst

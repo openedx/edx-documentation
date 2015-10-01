@@ -1,3 +1,5 @@
+.. _edX Developer's Guide:
+
 #########################
 edX Developer's Guide
 #########################

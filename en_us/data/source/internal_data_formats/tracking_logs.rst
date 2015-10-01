@@ -812,8 +812,8 @@ Note that course teams can specify a **Video Stop Time** for video files.
   app ignores the **Video Stop Time** and plays the file to its end. The app
   then emits only the ``stop_video`` event.
 
-For more information, see `Working with Video Components`_ in the *Building
-and Running an edX Course* guide.
+For more information, see :ref:`partnercoursestaff:Working with Video
+Components` in the *Building and Running an edX Course* guide.
 
 In addition to the identifying ``event_type`` of ``pause_video``, the events
 that the edX mobile app emits include a ``name`` field with a value of
@@ -865,8 +865,8 @@ Note that course teams can specify a **Video Start Time** for video files.
   app ignores the **Video Start Time** and emits the ``play_video`` event
   when it plays the file from the beginning.
 
-For more information, see `Working with Video Components`_ in the *Building
-and Running an edX Course* guide.
+For more information, see :ref:`partnercoursestaff:Working with Video
+Components` in the *Building and Running an edX Course* guide.
 
 In addition to the identifying ``event_type`` of ``play_video``, events
 that the edX mobile app emits also include a ``name`` field with a value of
@@ -1229,8 +1229,8 @@ Note that course teams can specify a **Video Stop Time** for video files.
   app ignores the **Video Stop Time** and plays the file to its end. The
   app then emits the ``stop_video`` event.
 
-For more information, see `Working with Video Components`_ in the *Building
-and Running an edX Course* guide.
+For more information, see :ref:`partnercoursestaff:Working with Video
+Components` in the *Building and Running an edX Course* guide.
 
 In addition to the identifying ``event_type`` of ``stop_video``, the events
 that the edX mobile app emits include a ``name`` field with a value of
@@ -1326,8 +1326,9 @@ When a user interacts with the pre-roll video, different events are emitted
 than for the other videos in the course. This section presents the pre-roll
 video events alphabetically.
 
-For more information about pre-roll videos, see `Adding a Pre-Roll Video to
-Your edX Course`_ in the *Building and Running an edX Course* guide.
+For more information about pre-roll videos, see :ref:`partnercoursestaff:Adding
+a Pre-Roll Video to Your edX Course` in the *Building and Running an edX
+Course* guide.
 
 **Component**: Video
 
@@ -2179,8 +2180,8 @@ by other XBlocks, such as :ref:`open response assessments<ora2>` or :ref:`polls
 and surveys<Poll and Survey Events>`, are instrumented with different events.
 
 For more information about designing problems to include hints, feedback, or
-both, see `Adding Hints and Feedback to a Problem`_ in the *Building and
-Running an edX Course* guide.
+both, see :ref:`partnercoursestaff:Adding Feedback and Hints to a Problem` in
+the *Building and Running an edX Course* guide.
 
 ``edx.problem.hint.demandhint_displayed``
 ******************************************
@@ -2283,8 +2284,8 @@ selects **Check**.
        correct and incorrect selections across all of the available choices.
        All other types of feedback are identified as 'single'.
 
-       For more information, see `Adding Hints and Feedback to a Problem`_ in
-       the *Building and Running an edX Course* guide.
+       For more information, see :ref:`partnercoursestaff:Adding Feedback and
+       Hints to a Problem` in the *Building and Running an edX Course* guide.
 
 
 ``problem_check`` (Browser)
@@ -2779,7 +2780,7 @@ components that reference a library and deliver its content to students. In a
 randomized content block component, the course team defines how many of the
 library components to deliver to each student.
 
-For more information, see `Working with Libraries`_.
+For more information, see :ref:`partnercoursestaff:Content Libraries`.
 
 .. xref to come from Carol
 
@@ -3266,7 +3267,7 @@ In an open response assessment, students review a question and then submit a
 text response and, optionally, an image file. To evaluate their own and one or
 more other students' responses to the questions, students use a scoring rubric
 designed by the course team. For more information about open response
-assessments, see `Creating a Peer Assessment`_.
+assessments, see :ref:`partnercoursestaff:PA Create an ORA Assignment`.
 
 **Component**: Open Response Assessments
 
@@ -3660,7 +3661,7 @@ Google Calendar component is shown in the LMS. The server emits an
 such as a document, spreadsheet, or image, is shown in the LMS.
 
 For more information about adding Google calendars or Google Drive files
-to a course, see `Creating Exercises and Tools`_.
+to a course, see :ref:`partnercoursestaff:Create Exercises`.
 
 **Event Source**: Server
 
@@ -3728,7 +3729,7 @@ students to groups so that different content can be shown to the different
 groups. 
 
 For more information about how course teams add content experiments to their
-courses, see `Creating Content Experiments`_.
+courses, see :ref:`partnercoursestaff:Add Content Experiments to Your Course`.
 
 **History**: These events were added on 12 Mar 2014.
 
@@ -3818,8 +3819,9 @@ This section includes descriptions of the following events.
 * ``edx.cohort.user_added``
 * ``edx.cohort.user_removed``
 
-For information about including student cohorts in a course, see `Including
-Student Cohorts`_ in the *Building and Running an edX Course* guide.
+For information about including student cohorts in a course, see
+:ref:`partnercoursestaff:Cohorts Overview` in the *Building and Running an edX
+Course* guide.
 
 ``edx.cohort.created``
 *********************************
@@ -3949,8 +3951,7 @@ first event produced when teams are included in a course is the
   :depth: 1
 
 
-For information about including teams in a course, see `Teams Setup`_ in the
-*Building and Running an edX Course* guide.
+.. NOT in live doc yet For information about including teams in a course, see Teams Setup in the *Building and Running an edX Course* guide.
 
 
 .. _edx_team_activity_updated:
@@ -4778,6 +4779,7 @@ follow.
    * - ``student``
      - string
 
+.. _edx.instructor.report.downloaded:
 
 ======================================================
 ``edx.instructor.report.downloaded`` 
@@ -4805,6 +4807,7 @@ clicks a report link on the Instructor Dashboard to download a report.
      - string
      - The URL to the report file.  
 
+.. _edx.instructor.report.requested:
 
 ======================================================
 ``edx.instructor.report.requested`` 
@@ -5065,8 +5068,9 @@ In addition to the cohort events that are generated when cohorts are created
 and users are assigned to them (see :ref:`student_cohort_events`), actions by
 course team members also generate cohort-related events.
 
-For more information about student cohorts, see `Including Student Cohorts`_
-in the *Building and Running an edX Course* guide.
+For more information about student cohorts, see
+:ref:`partnercoursestaff:Cohorts Overview` in the *Building and Running an edX
+Course* guide.
 
 ``edx.cohort.creation_requested``
 *********************************
@@ -5140,32 +5144,4 @@ uploading a .csv file of student cohort assignments.
 
 
 
-
-
-
-.. _Creating a Peer Assessment: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/open_response_assessments/OpenResponseAssessments.html
-
-.. _Creating Content Experiments: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/content_experiments/index.html#creating-content-experiments
-
-.. _Including Student Cohorts: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/cohorts/index.html#including-student-cohorts
-
-.. _Referer: http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.36
-
-.. _Accept-Language: http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.4
-
-.. _Creating Exercises and Tools: http://edx-partner-course-staff.readthedocs.org/en/latest/exercises_tools/index.html
-
-.. _Working with Libraries: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/creating_content/libraries.html
-
-.. _Working with Video Components: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/creating_content/create_video.html#advanced-options
-
-.. _Adding a Pre-Roll Video to Your edX Course: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/creating_content/create_video.html#adding-a-pre-roll-video-to-your-edX-course
-
-.. _Adding Hints and Feedback to a Problem: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/creating_content/create_problem.html#adding-hints-and-feedback-to-a-problem
-
-.. _Teams Setup: http://draft-course-author-teams.readthedocs.org/en/latest/teams/teams_setup.html
-
-.. note that the above Teams Course Author doc is available only in draft
-.. form. As of 15 Sept 2015 the feature used in a course pilot but not
-.. widely released on edx.org, so doc has not been published. When it is
-.. published we need to update the link to point to docs.edx.org location.
+.. include:: ../../../links/links.rst

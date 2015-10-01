@@ -71,4 +71,4 @@ following methods.
 
 .. examples?
 
-.. include:: ../links.rst
+.. include:: ../../../links/links.rst

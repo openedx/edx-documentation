@@ -1,5 +1,3 @@
-.. include:: ../links.rst
-
 .. _YouTube_API:
 
 ###############################
@@ -114,3 +112,5 @@ steps.
    not exist in this file, create it.
 
 #. Save and close the file.
+
+.. include:: ../../../links/links.rst

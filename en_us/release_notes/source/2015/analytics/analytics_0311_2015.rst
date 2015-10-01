@@ -8,5 +8,5 @@ actions completed using the edX mobile app.
 * The edX mobile app for Android now emits ``seek_video`` events in addition to
   other video interaction events. 
 
-For more information, see the `Video Interaction Events`_ section of the `edX
-Research Guide`_.
+For more information, see the :ref:`data:video` section of
+the *edX Research Guide*.

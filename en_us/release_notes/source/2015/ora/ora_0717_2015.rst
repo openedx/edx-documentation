@@ -1,5 +1,5 @@
 
-A `Best Practices for ORA`_ topic has been added to the documentation about
-open response assessments. For more information about open response
-assessments, see `Introduction to ORA`_ in the *Building and Running an edX Course*
-guide.
+A :ref:`partnercoursestaff:Best Practices for ORA` topic has been added to the
+documentation about open response assessments. For more information about open
+response assessments, see :ref:`partnercoursestaff:Open Response Assessments 2`
+in the *Building and Running an edX Course* guide.

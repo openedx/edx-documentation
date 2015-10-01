@@ -4,25 +4,24 @@ Building and Running an edX Course
 ==================================
 
 This guide includes many changes in the past week. For details, see the
-`Change Log`_.
+:ref:`partnercoursestaff:Change Log for 2015`.
 
 ==================================
 edX Research Guide
 ==================================
 
 * This guide includes updated descriptions of the ``pause_video``,
-  ``play_video``, and ``stop_video`` `video interaction events`_ to include the
-  effects of a **Video Start Time** or **Video Stop Time**.
+  ``play_video``, and ``stop_video`` :ref:`data:video` to
+  include the effects of a **Video Start Time** or **Video Stop Time**.
 
 * Two events have been added to the Course Team Events section for generating
   and downloading reports from the Instructor Dashboard.
 
-  * `edx.instructor.report.downloaded`_
-  * `edx.instructor.report.requested`_
+  * :ref:`data:edx.instructor.report.downloaded`
+  * :ref:`data:edx.instructor.report.requested`
 
 ==================================
 edX Data Analytics API
 ==================================
 
-This guide now includes information on the `Course Video Data`_ endpoint and
-the `Video Data API`_.
+This guide now includes information on the :ref:`opendataapi:Video Data API`.

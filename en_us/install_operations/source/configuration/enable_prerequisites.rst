@@ -1,5 +1,3 @@
-.. include:: ../links.rst
-
 .. _Enable Course Prerequisites:
 
 #############################
@@ -45,3 +43,6 @@ Enable Prerequisite Courses in Studio and the Learning Management System
        'ENABLE_PREREQUISITE_COURSES': True,
 
 #. Save the the ``/cms/envs/common.py`` and ``/lms/envs/common.py`` files.
+
+.. include:: ../../../links/links.rst
+

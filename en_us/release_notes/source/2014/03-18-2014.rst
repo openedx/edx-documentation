@@ -2,53 +2,16 @@
 March 18, 2014
 ###################################
 
-The following information reflects what is new in the edX Platform as of March 18, 2014.  See previous pages in this document for a history of changes.
+The following information reflects what is new in the edX Platform as of March
+18, 2014.  See previous pages in this document for a history of changes.
 
-**************************
-edX Documentation
-**************************
-
-You can access the public `edX roadmap`_ for
-details about the currently planned product direction.
-
-The following documentation is available:
-
-* `Building and Running an edX Course`_ 
-
-  You can also download the guide as a PDF from the edX Studio user interface.
-
-  Recent changes include: 
-
-  * `Getting Started`_
-
-  * `Building a Course`_
-
-  * `Creating Course Content`_
-
-  * `Creating Exercises and Tools`_
-
-  * `Releasing Your Course`_
-
-  * `Running Your Course`_
-
-  * `Information for Your Students`_
-
-
-* `edX Research Guide`_
-
-  Recent changes include:
-
-  * `Certificate Data`_
-
-
-* `Open edX Developer's Guide`_
 
 
 *************
 edX Studio
 *************
 
-* In the HTML editor, when you entered a ``<style>`` element, the editor sometimes stopped responding. This problem is resolved. (STUD-1434) 
+* In the HTML editor, when you entered a <style> element, the editor sometimes stopped responding. This problem is resolved. (STUD-1434) 
 
 
 ***************************************
@@ -82,4 +45,4 @@ edX Discussions
 
 * A problem that prevented students from viewing discussion components within a unit when cohorts were configured is resolved. (FOR-523)
 
-.. include:: ../links.rst
+

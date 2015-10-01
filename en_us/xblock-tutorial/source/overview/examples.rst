@@ -50,7 +50,7 @@ Course teams or developers can also add a Google calendar using OLX.
     display_name="Class Schedule"
   />
 
-For more information, see `Google Calendar Tool`_ and `Google Drive Tool`_ in
+For more information, see :ref:`opencoursestaff:Google Calendar Tool` and :ref:`opencoursestaff:Google Drive Files Tool` in
 *Building and Running an Open edX Course*.
 
 ==================
@@ -82,4 +82,4 @@ You can explore the other example XBlocks in the XBlock SDK.
 * Several `Content XBlocks`_
 * Several `Structure XBlocks`_
 
-.. include:: ../links.rst
+.. include:: ../../../links/links.rst

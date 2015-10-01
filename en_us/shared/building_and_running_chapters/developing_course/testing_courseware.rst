@@ -221,7 +221,6 @@ To switch to the **Student** view, click **View this course as** and select
 Specific Student View
 =====================
 
-
 In the LMS, the course content in your live course as one particular student
 would see it, use the **Specific student** view.
 

@@ -19,8 +19,8 @@ access. Each external LMS that you :ref:`configure as a tool consumer
 After you complete the configuration of a tool consumer on your edX system, you
 can add the consumer credentials to your external LMS. For examples of how
 course teams might set up a course on an external LMS as a consumer of edX
-course content, see `Using edX as an LTI Tool Provider`_ in the *Building and
-Running an edX Course* guide.
+course content, see :ref:`opencoursestaff:Using Open edX as an LTI Tool
+Provider` in the *Building and Running an edX Course* guide.
 
 .. _Configure the Tool Consumer:
 
@@ -55,7 +55,7 @@ follow these steps.
 5. Select **Save** at the bottom of the page.
 
 
-.. include:: ../../links.rst
+.. include:: ../../../../links/links.rst
 
 
 

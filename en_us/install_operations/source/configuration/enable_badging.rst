@@ -1,5 +1,3 @@
-.. include:: ../links.rst
-
 .. _Enable Badging:
 
 ##################
@@ -147,5 +145,9 @@ Enable Badges Within Each Course
 *****************************************
 
 Badge issuing is enabled by default for all courses, but can be turned off or
-on again using an advanced setting in Studio. For details, see `Enable Badges
-In Each Course`_ in *Building and Running an Open edX Course*.
+on again using an advanced setting in Studio. For details, see
+:ref:`opencoursestaff:Enable Badges in Course` in *Building and Running an Open
+edX Course*.
+
+.. include:: ../../../links/links.rst
+

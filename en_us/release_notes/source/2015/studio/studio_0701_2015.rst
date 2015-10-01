@@ -18,6 +18,7 @@ feedback and hint syntax.
   :alt:  The list of Common Problems with Hints and Feedback templates.
   :width:  600
 
-For more information, see `Add Feedback and Hints to a Problem`_ in *Building and
-Running an edX Course* or `Adding Feedback and Hints to a Problem`_ in *Building and
-Running an Open edX Course*.
+For more information, see :ref:`partnercoursestaff:Adding Feedback and Hints to
+a Problem` in *Building and Running an edX Course* or
+:ref:`opencoursestaff:Adding Feedback and Hints to a Problem` in *Building
+and Running an Open edX Course*.

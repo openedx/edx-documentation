@@ -38,7 +38,4 @@ Studio
 .. include:: studio/studio_0114_2015.rst
 
 
-
-
-
-.. include:: ../links.rst
+.. include:: ../../../links/links.rst

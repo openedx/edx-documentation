@@ -23,6 +23,4 @@ LMS
 
 .. include:: lms/lms_0428_2015.rst
 
-
-
-.. include:: ../links.rst
+.. include:: ../../../links/links.rst

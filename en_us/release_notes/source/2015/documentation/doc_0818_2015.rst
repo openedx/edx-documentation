@@ -5,9 +5,9 @@ Documentation for edX Partners
 Building and Running an edX Course
 **********************************
  
-The `Qualtrics Survey Tool`_ is now documented in the *Creating Exercises and
-Tools* section. You can use this fully supported tool to import surveys created
-in Qualtrics into your course.
+The :ref:`partnercoursestaff:Qualtrics Survey` is now documented in the
+*Creating Exercises and Tools* section. You can use this fully supported tool
+to import surveys created in Qualtrics into your course.
 
 
 ==================================
@@ -17,7 +17,6 @@ Documentation for Open edX Users
 Building and Running an Open edX Course
 ****************************************
  
-The `Qualtrics Survey Tool - Open edX`_ is now documented in the *Creating
-Exercises and Tools* section. You can use this tool to import surveys created
-in Qualtrics into your course.
-
+The :ref:`opencoursestaff:Qualtrics Survey` is now
+documented in the *Creating Exercises and Tools* section. You can use this tool
+to import surveys created in Qualtrics into your course.

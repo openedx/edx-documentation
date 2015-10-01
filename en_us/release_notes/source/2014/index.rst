@@ -1,16 +1,16 @@
 .. Getting_Started documentation master file, created by
    sphinx-quickstart on Tue Apr 16 11:19:12 2013.
    You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+   contain the root toctree directive.
 
 #############################################
 edX Course Staff Release Notes 2013-2014
 #############################################
 
 The following pages describe changes to the edX System in 2013 and 2014. Each
-page contains information on new or changed documentation, as well as new
-features and changes in edX Studio, the edX Learning Management System, edX
-Insights, Course Discussions, Analytics, accessibility, and more.
+page contains information on new features and changes in edX Studio, the edX
+Learning Management System, edX Insights, Course Discussions, Analytics,
+accessibility, and more.
 
 
 *************
@@ -80,4 +80,3 @@ Insights, Course Discussions, Analytics, accessibility, and more.
    10-23-2013
 
 
-.. include:: ../links.rst

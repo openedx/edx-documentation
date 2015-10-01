@@ -11,10 +11,9 @@ investigate course state at a point in time.
 
 This section describes the contents of the ``course_structure`` file.
 
-* :ref:`Shared Fields`
-* :ref:`Course Data`
-* :ref:`Course Building Block Data`
-* :ref:`Course Component Data`
+.. contents::
+  :local:
+  :depth: 1
 
 .. _Shared Fields:
 
@@ -111,7 +110,7 @@ page, or tab, named "edX Community".
 
 A partial list of the ``metadata`` member fields for a course follows. For
 information about the settings that course teams define for a course in
-Studio, see `Building and Running an edX Course`_.
+Studio, see :ref:`partnercoursestaff:document index`.
 
 .. list-table::
    :widths: 25 60
@@ -232,9 +231,10 @@ for objects that it contains.
 
 The ``metadata`` field provides information about parameters set for the
 section, subsection, or unit. A partial list of the ``metadata`` member fields
-for a section, subsection, or unit follows. For information about the
-structure that course teams can define for a course, see `Developing Your
-Course`_ in the *Building and Running an edX Course* guide.
+for a section, subsection, or unit follows. For information about the structure
+that course teams can define for a course, see
+:ref:`partnercoursestaff:Developing Your Course Index` in the *Building and
+Running an edX Course* guide.
 
 
 .. list-table::
@@ -341,8 +341,8 @@ component.
 
 * The other ``metadata`` member fields reflect settings specific to each
   component type. For information about the settings that course teams can
-  define for components, see `Creating Course Content`_ in the *Building and
-  Running an edX Course* guide.
+  define for components, see :ref:`partnercoursestaff:Creating Course Content
+  Index` in the *Building and Running an edX Course* guide.
 
 ======================================
 Course Component Data Sample
@@ -405,9 +405,4 @@ Course Component Data Sample
   }, 
 
 
-
-.. _Building and Running an edX Course: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/
-
-.. _Developing Your Course: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/developing_course/index.html
-
-.. _Creating Course Content: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/en/latest/creating_content/index.html
+.. include:: ../../../links/links.rst

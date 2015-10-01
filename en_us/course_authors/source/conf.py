@@ -1,24 +1,17 @@
 # -*- coding: utf-8 -*-
-#
-
 import sys, os
 
-# on_rtd is whether we are on readthedocs.org, this line of code grabbed from docs.readthedocs.org
-on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
+sys.path.append('../../../')
 
-# Add any paths that contain templates here, relative to this directory.
-templates_path = ['_templates']
+from shared.conf import *
 
-master_doc = 'index'
+html_theme = 'edx_theme'
 
-# The suffix of source filenames.
-source_suffix = '.rst'
+html_theme_path = ['../../_themes']
 
-# The name of the Pygments (syntax highlighting) style to use.
-pygments_style = 'sphinx'
+html_favicon = '../../_themes/edx_theme/static/css/favicon.ico'
 
-
-extensions = ['sphinx.ext.ifconfig']
+project = u'Building and Running an edX Course'
 
 tags.add('Partners')
 
@@ -26,44 +19,3 @@ product = 'Partners'
 
 def setup(app):
     app.add_config_value('product', '', True)
-
-# Add any paths that contain templates here, relative to this directory.
-#templates_path.append('source/_templates')
-
-# Add any paths that contain custom static files (such as style sheets) here,
-# relative to this directory. They are copied after the builtin static files,
-# so a file named "default.css" will overwrite the builtin "default.css".
-#html_static_path.append('source/_static')
-
-
-# General information about the project.
-project = u'Building and Running an edX Course'
-copyright = u'2015, edX'
-
-# -- Options for HTML output ---------------------------------------------------
-
-# The theme to use for HTML and HTML Help pages.  See the documentation for
-# a list of builtin themes.
-# html_theme = 'default'
-html_theme = 'edx_theme'
-
-# Add any paths that contain custom themes here, relative to this directory.
-#html_theme_path = []
-html_theme_path = ['../../_themes']
-
-html_favicon = '../../_themes/edx_theme/static/css/favicon.ico'
-
-#html_use_smartypants = True
-html_use_smartypants = True
-
-
-if on_rtd:
-    html_context = {
-       "on_rtd" : on_rtd,
-       "google_analytics_id" : '',
-       "disqus_shortname" : 'edx',
-       "github_base_account" : 'edx',
-       "github_project" : 'edx-documentation',
-    }
-
-

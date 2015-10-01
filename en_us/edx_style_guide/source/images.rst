@@ -292,11 +292,4 @@ Extra-wide screen
   :width: 800
   :alt: 800-pixel-wide image.
 
-
-
-
-.. _Durham University Alt Text Checker: https://www.dur.ac.uk/cis/web/accessibility/tools/alttext/
-
-.. _Web Accessibility Evaluation Tool: http://wave.webaim.org/
-
-.. _edX pattern library: http://ux.edx.org/elements/colors/
+.. include:: ../../links/links.rst

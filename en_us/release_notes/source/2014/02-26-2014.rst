@@ -2,38 +2,6 @@
 February 26, 2014
 ###################################
 
-**************************
-edX Documentation
-**************************
-
-You can access the public `edX roadmap`_ for
-details about the currently planned product direction.
-
-The following documentation is available:
-
-* `Building and Running an edX Course`_ 
-
-  You can also download the guide as a PDF from the edX Studio user interface.
-
-  Recent changes include:
-  
-  * `Getting Started`_
-  * `Beta Testing a Course`_
-  * `Import LaTeX Code into an HTML Component`_
-  * `Establishing a Grading Policy`_
-
-
-* `edX Research Guide`_
-
-   Recent changes include:
-
-   * `Tracking Logs`_ 
-   * `Wiki Data`_
-   * `Discussion Forum Data`_
-
-* `Open edX Developer's Guide`_
-
-
 
 *************
 edX Studio
@@ -53,7 +21,7 @@ Discussions
 
 * Course staff can now delete comments made on discussion responses.
   
-.. include:: ../links.rst
+
 
 
 

@@ -55,5 +55,4 @@ Assessments.
 .. include:: 2015/ora/ora_0108_2015.rst
 
 
-
-.. include:: links.rst
+.. include:: ../../links/links.rst

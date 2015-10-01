@@ -1,5 +1,3 @@
-.. include:: ../links.rst
-
 .. _Running the Open edX Developer Stack:
 
 ####################################
@@ -205,3 +203,6 @@ When you install Devstack, the following accounts are created.
        code certificates.
 
 The password for all of these accounts is ``edx``.
+
+.. include:: ../../../links/links.rst
+

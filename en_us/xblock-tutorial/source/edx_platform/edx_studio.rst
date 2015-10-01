@@ -39,4 +39,4 @@ Studio requires XBlocks to have the following properties.
   Studio editor.
 
 
-.. include:: ../links.rst
+.. include:: ../../../links/links.rst

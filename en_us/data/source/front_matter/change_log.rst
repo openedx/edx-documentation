@@ -147,10 +147,8 @@ October-December 2014
      - Added new student and course team events relating to cohort use to the
        :ref:`Tracking Logs` section.
    * - 
-     - Removed information about XML course formats. See the `edX Open
-       Learning XML Guide <http://edx-open-learning-
-       xml.readthedocs.org/en/latest/index.html>`_ for information about
-       building XML courses.
+     - Removed information about XML course formats. See the :ref:`olx:edX Open
+       Learning XML Guide` for information about building XML courses.
 
 
 **********************
@@ -176,15 +174,13 @@ July-September 2014
        ``thread_type`` field for CommentThreads and the ``endorsement`` field
        for Comments.
    * - 08/25/14
-     - Removed information on course grading. See `Establishing a Grading
-       Policy <http://edx.readthedocs.org/projects/edx-partner-course-
-       staff/en/latest/building_course/establish_grading_policy.html>`_ in
-       *Building and Running an edX Course*.
-   * -
-     - Removed information on the XML for drag and drop. See `Drag and Drop
-       Problems <http://edx.readthedocs.org/projects/edx-partner-course-
-       staff/en/latest/exercises_tools/drag_and_drop.html>`_ in *Building and
+     - Removed information on course grading. See
+       :ref:`partnercoursestaff:Establish a Grading Policy` in *Building and
        Running an edX Course*.
+   * -
+     - Removed information on the XML for drag and drop. See
+       :ref:`partnercoursestaff:Drag and Drop` in *Building and Running an edX
+       Course*.
    * - 08/12/14
      - Added the :ref:`ora2` section to the :ref:`Tracking Logs` section.
    * - 08/01/14
@@ -213,7 +209,7 @@ April-June 2014
    * - 
      - Updated the ``seek_video`` event in the :ref:`Tracking Logs` section.
    * - 06/23/14
-     - Added a `Preface`_ with resources for course teams, developers,
+     - Added a :ref:`Preface` with resources for course teams, developers,
        researchers, and students.
    * - 05/23/14
      - Added descriptions of the enrollment upgrade events to the
@@ -227,26 +223,20 @@ April-June 2014
    * - 05/06/14
      - Added enrollment event types to the :ref:`Tracking Logs` section. 
    * - 05/05/14
-     - Removed information on the Poll module. See `Polls 
-       <http://edx.readthedocs.org/projects/edx-partner-course-
-       staff/en/latest/exercises_tools/poll.html>`_ in *Building and Running an
-       edX Course*.
+     - Removed information on the Poll module. See
+       :ref:`partnercoursestaff:Poll` in *Building and Running an edX Course*.
    * -
-     - Removed information on the Word Cloud tool. See `Word Cloud tool 
-       <http://edx.readthedocs.org/projects/edx-partner-course-
-       staff/en/latest/exercises_tools/word_cloud.html>`_ in *Building and
-       Running an edX Course*.
+     - Removed information on the Word Cloud tool. See
+       :ref:`partnercoursestaff:Word Cloud` in *Building and Running an edX
+       Course*.
    * - 
-     - Removed information on CustomResponse XML and Python Script. See `Write-
-       Your-Own-Grader Problem <http://edx.readthedocs.org/projects/edx-
-       partner-course-staff/en/latest/exercises_tools/custom_python.html>`_ in
-       the  *Building and Running an edX Course* guide.
+     - Removed information on CustomResponse XML and Python Script. See
+       :ref:`partnercoursestaff:Write Your Own Grader` in the  *Building and
+       Running an edX Course* guide.
    * - 
-     - Removed information on Formula Equation Input. See `Create a Math
-       Expression Input Problem <http://edx.readthedocs.org/projects/edx-
-       partner-course-
-       staff/en/latest/exercises_tools/math_expression_input.html>`_ in the
-       *Building and Running an edX Course* guide.
+     - Removed information on Formula Equation Input. See
+       `partnercoursestaff:Math Expression Input` in the *Building and Running
+       an edX Course* guide.
    * - 04/29/14
      - Corrected misstatement on how :ref:`Discussion Forums Data` is sent in
        data packages.
@@ -290,4 +280,4 @@ January-March 2014
      - Added the ``seek_video`` and ``speed_change_video`` event types to the
        :ref:`Tracking Logs` section.
 
-.. _Preface: http://edx.readthedocs.org/projects/devdata/en/latest/preface.html
+.. include:: ../../../links/links.rst

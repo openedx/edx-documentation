@@ -14,8 +14,8 @@ learn from, the best materials available, regardless of platform.
  with our early adopter partners to support further testing of this feature
  with additional learning management systems.
 
-For more information, see `Using edX as an LTI Tool Provider`_ in the
-*Building and Running an edX Course* guide.
+For more information, see :ref:`partnercoursestaff:Using edX as an LTI Tool
+Provider` in the *Building and Running an edX Course* guide.
 
 
 =========

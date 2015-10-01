@@ -1,3 +1,5 @@
+.. _Open edX XBlock Tutorial:
+
 #########################
 Open edX XBlock Tutorial
 #########################

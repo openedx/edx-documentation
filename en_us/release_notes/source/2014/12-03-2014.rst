@@ -6,16 +6,6 @@ The following information reflects what is new in the edX Platform as of
 December 3, 2014. See previous pages in this document for a history of
 changes.
 
-****************************************
-edX Release Announcements Mailing List
-****************************************
-
-These edX Course Staff Release Notes are always available and are updated with
-each release of the edX Platform on `edx.org`_ and `edX Edge`_.
-
-You can also sign up for the `edX Release Announcements mailing list`_ to get
-an email message when we update the edX Course Staff Release Notes.
-
 *************
 edX Studio
 *************
@@ -43,83 +33,3 @@ A new page on the edx.org site will soon welcome visitors who are not logged in
 when they try to enroll in a course. The new page will help visitors identify
 themselves as either new or returning users, and then present fields to collect
 either registration or login information as appropriate.
-
-**************************
-edX Documentation
-**************************
-
-The following documentation is available:
-
-* `Building and Running an edX Course`_
-
-  Click **Help** in the upper-right corner of any page in the edX Studio
-  user interface to access relevant sections of this guide. You can also
-  download the entire guide as a PDF.
-
-  Recent changes include:
-
-  * Updated the `compression specifications`_ for video files.
-  
-  * Added an email template for `Weekly Highlights`_ message to students.
-
-.. adding line for space
-
-* `Using edX Insights`_
-  
-  Recent changes include:
-
-  * Expanded the section on possible `error conditions`_.
-  
-  * Added information about accessing enrollment history for all courses. See
-    `Enrollment Activity`_ and `Computation Reference`_.
-
-.. adding line for space
-
-* `EdX Guide for Students`_
-  
-  Recent changes include:
-
-  * Updated information about superscripts and subscripts in `Entering
-    Mathematical and Scientific Expressions`_.
-
-.. adding line for space
-
-* `Creating Peer Assessments`_
-
-* `edX Research Guide`_
-
-  Recent changes include:
-
-  * Expanded the background information on content experiments in `Testing
-    Events for Content Experiments`_.
-
-.. adding line for space
-
-* `Open edX Developer's Guide`_
-
-* `Open edX XBlock API Guide`_
-
-* `Installing, Configuring, and Running the edX Platform`_
-
-* `edX Open Learning XML Guide`_
-
-  Recent changes include:
-
-  * Added the `Example of OLX for a Studio Course`_ section.
-
-.. adding line for space
-  
-* `Open edX Platform API`_
-
-**************************
-Other edX Resources
-**************************
-
-You can access the `edX Status`_ page to get an up-to-date status for all
-services on edx.org and edX Edge. The page also includes the Twitter feed for
-@edXstatus, which the edX Operations team uses to post updates.
-
-You can access the public `edX roadmap`_ for details about the currently
-planned product direction.
-
-.. include:: ../links.rst

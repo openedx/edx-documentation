@@ -5,13 +5,14 @@ Building and Running an edX Course
 
 The grade report that course teams can download from the Instructor Dashboard
 now includes columns with information about learners' enrollment tracks and
-certificate statuses. For more information, see `Interpret the Grade Report`_.
+certificate statuses. For more information, see
+:ref:`partnercoursestaff:Interpret the Grade Report`.
 
 ==================================
 edX Platform APIs
 ==================================
 
-* Updated the `User API`_ to Version 1. 
+* Updated the :ref:`openplatformapi:edX Platform User API Version 1.0` to
+  Version 1.
 
-* Added the `User Preferences API`_.
-
+* Added the :ref:`openplatformapi:User Preferences API`.

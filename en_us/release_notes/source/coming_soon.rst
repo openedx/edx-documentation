@@ -27,6 +27,4 @@ The next release for Open edX, Dogwood, is scheduled for late November 2015. To
 stay up to date about the expected contents and progress of the release, refer
 to the `Open edX wiki page for Dogwood`_.
 
-
-
-.. include:: links.rst
+.. include:: ../../links/links.rst

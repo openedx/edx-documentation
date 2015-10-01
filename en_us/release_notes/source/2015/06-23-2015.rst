@@ -21,4 +21,4 @@ Documentation
 
 .. include:: documentation/doc_0623_2015.rst
 
-.. include:: ../links.rst
+.. include:: ../../../links/links.rst

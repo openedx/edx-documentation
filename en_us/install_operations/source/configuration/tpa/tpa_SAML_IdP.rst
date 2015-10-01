@@ -169,5 +169,4 @@ steps.
      :alt: Screen shot of the list of enabled IdPs. Each IdP name is linked to
          the sign in page for the corresponding authentication system.
 
-
-.. include:: ../../links.rst
+.. include:: ../../../../links/links.rst

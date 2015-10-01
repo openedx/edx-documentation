@@ -1,5 +1,3 @@
-.. include:: ../links.rst
-
 .. _Enable Certificates:
 
 #######################
@@ -141,8 +139,8 @@ Assets for HTML certificates exist in the following locations.
   creating certificates, such as images, fonts, and sass/css files. 
 
   .. note:: The organization logo on a certificate is uploaded in Studio. For
-     details, see `Set Up Course HTML Certificates`_ in *Building and Running
-     an Open edX Course*.
+     details, see :ref:`opencoursestaff:Setting Up Course Certificates` in
+     *Building and Running an Open edX Course*.
 
 
 *****************************************
@@ -152,8 +150,8 @@ Configure Certificates Within Each Course
 Within Studio, course team members with the Admin role can create and edit a
 certificate configuration that is used to generate certificates for their
 course, including adding signatories and images for organization logo and
-signature images for signatories. For details, see `Set Up Course HTML
-Certificates`_ in *Building and Running an Open edX Course*.
+signature images for signatories. For details, :ref:`opencoursestaff:Setting Up
+Course Certificates` in *Building and Running an Open edX Course*.
 
 
 *****************************************
@@ -190,3 +188,5 @@ for eligible learners.
 3. View the certificate generation status for a course using ``gen_cert_report``. For example,
 
    ``./manage.py lms --settings=aws gen_cert_report -c course-v1:edX+demoX_Demo_2015``.
+
+.. include:: ../../../links/links.rst

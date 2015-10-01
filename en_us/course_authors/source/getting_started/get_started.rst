@@ -7,11 +7,9 @@ Getting Started with Studio
 This topic describes the tools you use to build an edX course, and how to
 create your first course.
 
-* :ref:`What is Studio?`
-* :ref:`Use Studio on Edge`
-* :ref:`Create Your First Course`
-* :ref:`View Your Course on Edge`
-* :ref:`Register Your Course on edX.org`
+.. contents::
+ :local:
+ :depth: 1
 
 If you are using an instance of Open edX, some specifics in this section might 
 not apply.
@@ -53,9 +51,6 @@ You must then request access to create courses.
 
 EdX evaluates your request. When course creation permissions are granted,
 you are notified by email.
-
-.. _Studio: https://studio.edge.edx.org
-.. _Edge: http://edge.edx.org
   
 .. _Create Your First Course:  
   
@@ -88,7 +83,7 @@ any content.
 In the Course Outline in Studio, select **View Live**. The course opens on
 Edge.
 
-You can also go directly to Edge_. Log in if prompted. You see the course you
+You can also go directly to `edX Edge`_. Log in if prompted. You see the course you
 just created listed on your **My Courses** dashboard:
 
 .. image:: ../../../shared/building_and_running_chapters/Images/new_course.png
@@ -119,3 +114,6 @@ it, you must enroll in your course. You can then view it on the LMS.
 
 #. To continue working on your course, in your browser, switch back to the tab
    that shows Studio. You will still be on the **Course Outline** page.
+
+.. include:: ../../../links/links.rst
+
