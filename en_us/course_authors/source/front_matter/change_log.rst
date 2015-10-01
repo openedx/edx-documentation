@@ -76,7 +76,7 @@ August 2015
 
    * - Date
      - Change
-   * - 
+   * - 25 August 2015
      - Updated the :ref:`Course Data` topic to include descriptions of newly
        added values.
    * - 
