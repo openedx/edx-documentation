@@ -13,6 +13,31 @@ This section lists changes made to this document in 2015.
 For older changes, see :ref:`Change Log 2014`.
 
 ****************
+October 2015
+****************
+
+.. list-table::
+   :widths: 30 70
+   :header-rows: 1
+
+   * - Date
+     - Change
+   * - 1 October 2015
+     - Added information about awarding partial credit for the following
+       problems.
+       
+       * :ref:`Awarding Partial Credit for a Problem`
+       * :ref:`Awarding Partial Credit in a Checkbox Problem`
+       * :ref:`Awarding Partial Credit in a Multiple Choice Problem` 
+       * :ref:`Awarding Partial Credit in a Numerical Input Problem`
+       * :ref:`Awarding Partial Credit in a Write Your Own Grader
+         Problem<Award Partial Credit>`
+
+   * - 
+     - Added information about including text after the response field in
+       :ref:`Numerical Input` and :ref:`Text Input`.
+
+****************
 September 2015
 ****************
 

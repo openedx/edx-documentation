@@ -53,12 +53,12 @@ to `docs@edx.org <mailto://docs@edx.org>`_.
 A Note about Time Zones 
 ************************
 
-As you work through your course, you'll see dates and times when new materials 
-are released and when homework assignments and exams are due. It's important to 
-remember that edX lists all times in universal coordinated time (UTC). 
-When you see a time in your course, we recommend that you use a time zone converter 
-to convert the UTC time to your local time. You can any converter that you want, 
-including one of the following time zone converters.
+As you work through your course, you'll see dates and times when new materials
+are released and when homework assignments and exams are due. It's important to
+remember that edX lists all times in Coordinated Universal Time (UTC). When you
+see a time in your course, we recommend that you use a time zone converter to
+convert the UTC time to your local time. You can use any converter that you
+want, including one of the following time zone converters.
 
 `Time and Date Time Zone Converter <http://www.timeanddate.com/worldclock/converter.html>`_
 

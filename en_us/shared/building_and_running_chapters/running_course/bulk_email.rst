@@ -350,7 +350,8 @@ Keywords in Messages>` appropriately.
   %%COURSE_DISPLAY_NAME%%, offered by {organization name} through edX. Class
   begins on {day}, {date} at {time} UTC (which is {time} {local time zone}).
   Note that edX courses use Coordinated Universal Time (UTC) for due dates and
-  release times.
+  release times. You might want to verify the times in the course by using a
+  time zone converter such as {link}.
 
   In case you haven't already found it, {course number} has its own official
   Facebook page {add link}. You can find videos and photos posted there before
