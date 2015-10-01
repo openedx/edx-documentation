@@ -35,7 +35,7 @@ October 2015
 
    * - 
      - Added information about including text after the response field in
-       :ref:`Text Input` and :ref:`Numerical Input`.
+       :ref:`Numerical Input` and :ref:`Text Input`.
 
 ****************
 September 2015
