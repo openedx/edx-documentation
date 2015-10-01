@@ -5,6 +5,7 @@ edX Style Guide
 .. toctree::
     :maxdepth: 1
 	
+    change_log.rst
     intro.rst
     preferred.rst
     wordlist.rst
