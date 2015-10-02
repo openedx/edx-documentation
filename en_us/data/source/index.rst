@@ -1,3 +1,5 @@
+.. _edX Research Guide:
+
 ######################
 edX Research Guide
 ######################

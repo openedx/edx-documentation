@@ -1327,8 +1327,7 @@ than for the other videos in the course. This section presents the pre-roll
 video events alphabetically.
 
 For more information about pre-roll videos, see :ref:`partnercoursestaff:Adding
-a Pre-Roll Video to Your edX Course` in the *Building and Running an edX
-Course* guide.
+a Pre-Roll Video` in the *Building and Running an edX Course* guide.
 
 **Component**: Video
 

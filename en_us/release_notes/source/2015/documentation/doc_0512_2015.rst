@@ -12,7 +12,7 @@ certificate statuses. For more information, see
 edX Platform APIs
 ==================================
 
-* Updated the :ref:`openplatformapi:edX Platform User API Version 1.0` to
+* Updated the :ref:`openplatformapi:edX Platform User API` to
   Version 1.
 
 * Added the :ref:`openplatformapi:User Preferences API`.

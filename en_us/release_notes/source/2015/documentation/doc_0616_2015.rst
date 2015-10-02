@@ -4,6 +4,6 @@ EdX Platform APIs
 ========================
 
 In the *EdX Platform APIs* guide, the :ref:`openplatformapi:edX Platform
-Enrollment API Version 1.0` section has been updated to reflect the addition of
+Enrollment API` section has been updated to reflect the addition of
 a new GET parameter that will include expired course modes. For details, see
 :ref:`openplatformapi:Get the Users Enrollment Status in a Course`.

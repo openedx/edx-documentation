@@ -14,6 +14,6 @@ edX Platform APIs
 ==================================
 
 * Updated the example responses in the :ref:`openplatformapi:edX Platform
-  Enrollment API Version 1.0` documentation to include new ``enrollment_start``
+  Enrollment API` documentation to include new ``enrollment_start``
   and ``enrollment_end`` fields.
   
