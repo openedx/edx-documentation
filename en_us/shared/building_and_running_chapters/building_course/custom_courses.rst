@@ -64,10 +64,10 @@ A CCX can have only one CCX coach.
 You add a CCX coach through the Instructor Dashboard in the LMS. Ensure you
 have the Admin role in the course.
 
-In addition, ensure that the new CCX coach has registered in the LMS and
-enrolled in the course.
+In addition, ensure that the user whom you would like to add as a CCX coach
+has registered in the LMS.
 
-#. In the LMS, select **Instructor**, and then select **Membership**. 
+#. In the LMS, select **Instructor**, and then select **Membership**.
 
 #. In the **Course Team Management** section, from **Select a course team
    role**, select **CCX Coaches**.
@@ -75,9 +75,15 @@ enrolled in the course.
 #. Enter the CCX coach's username or email address and select **Add CCX
    Coach**.
 
+The user is added as a coach and enrolled in the course if she is not
+already enrolled.
+
+If she's enrolled when she's added as a CCX coach, the coach will get
+an email to let her know.
+
 When the CCX coach next logs into the LMS, the **CCX Coach** tab will be
-visible. The CCX coach dashboard is not accessible by course team members with
-other roles.
+visible. The CCX coach dashboard is not accessible by course team members
+with other roles.
 
 ***************************
  Create the Custom Course
