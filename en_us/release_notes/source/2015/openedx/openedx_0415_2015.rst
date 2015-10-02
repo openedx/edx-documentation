@@ -3,6 +3,6 @@ The following APIs are now available.
 
 * :ref:`openplatformapi:EdX Platform Course Structure API Version 0`
 
-* :ref:`openplatformapi:`edX Platform Enrollment API Version 1.0`
+* :ref:`openplatformapi:edX Platform Enrollment API`
 
-* :ref:`openplatformapi:`edX Platform User API Version 1.0`
+* :ref:`openplatformapi:edX Platform User API`

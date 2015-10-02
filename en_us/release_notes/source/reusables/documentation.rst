@@ -23,11 +23,11 @@ The following documentation is available for Open edX users.
 
 * :ref:`openlearners:Open edX Learner's Guide`
 
-* :ref:`opendevelopers:Open edX Developer's Guide`
+* :ref:`opendevelopers:edX Developer's Guide`
 
 * :ref:`xblocktutorial:Open edX XBlock Tutorial`
 
-* :ref:`xblockapi:Open edX XBlock API`
+* :ref:`xblockapi:EdX XBlock API Guide`
 
 * :ref:`olx:edX Open Learning XML Guide`
 
