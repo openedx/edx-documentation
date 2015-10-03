@@ -131,17 +131,18 @@ There are also some attributes of problems that are not immediately
 visible. You can set these attributes in Studio.
 
 * **Randomization.** In certain types of problems, you can include a Python
-  script to randomize the values that are presented to learners. You use this
-  setting to define when values are randomized.
+  script to randomize the values that are presented to learners. You use
+  this setting to define when values are randomized. For more information,
+  see :ref:`Randomization`.
 
-* **Weight.** Different problems in a particular problem set can be
-   given different weights.
+* **Weight.** Different problems in a particular problem set can be given
+  different weights. For more information, see :ref:`Problem Weight`.
 
 * **Label.** To improve accessibility for learners who have disabilities, each
   problem needs a descriptive label. The label typically contains part or all
   of the text of the question in the problem. Most templates include a space
   for a label. You can find example labels in the documentation for each
-  problem or tool type.
+  problem or tool type, in the :ref:`Create Exercises` section.
 
 .. _Problem Studio View:
 
@@ -664,28 +665,33 @@ answers for all the problems in the component appear.
 Problem Randomization
 ***********************************
 
-You might want to present different learners with different problems, or
-different versions of the same problem. To do this, you create a problem
-component for each problem or version in Studio, and then edit your course
-outside of Studio, in OLX, to randomize the problem that learners see.
+Presenting different learners with different problems or with different
+versions of the same problem is referred to as "problem randomization".
 
-Note that *problem randomization* is different from the **Randomization**
-setting in Studio. The **Randomization** setting controls when a Python script
-within a single problem randomizes variables. Problem randomization offers
-different problems or problem versions to different learners.
+To use problem randomization, you first create a problem component in Studio
+for each of the problems or versions you want to include. You then edit your
+course outside of Studio, using OLX, to randomize the problem that learners
+see. For more information, see :ref:`Create Randomized Problems`.
 
-.. note:: Creating problems with versions that can be randomized requires you 
- to export your course, edit some of your course's XML files in a text editor,
- and then re-import your course. We recommend that you create a backup copy of
- your course before you do this. We also recommend that you only edit your
- course files in the text editor if you are very familiar with editing XML.
+Note that problem randomization is different from the **Randomization**
+setting in Studio. Problem randomization offers different problems or problem
+versions to different learners, whereas the **Randomization** setting controls
+when a Python script randomizes the variables within a single problem. For
+more information about the **Randomization** setting, see
+:ref:`Randomization`.
 
-============
-Terminology
-============
+Another method of providing different learners with different problems is to
+use randomized content blocks, which randomly draw problems from pools of
+problems stored in content libraries. For more information, see
+:ref:`Randomized Content Blocks`.
+
+
+============================================
+Course Outline Terminology in Exported Files
+============================================
 
 Sections, subsections, units, and components have different names in the
-**Course Outline** view and in the list of files that you'll see after you
+**Course Outline** view and in the list of files that you will see after you
 export your course and open the .xml files for editing. The following table
 lists the names of these elements in the **Course Outline** view and in a list
 of files.
@@ -714,6 +720,13 @@ contains. To find a unit, look in the **Vertical** directory.
 ==========================
 Create Randomized Problems
 ==========================
+
+.. note:: Creating problems with versions that can be randomized requires you
+   to export your course, edit some of your course's XML files in a text
+   editor, and then re-import your course. We recommend that you create a
+   backup copy of your course before you do this. We also recommend that you
+   edit your course files in the text editor only if you are very familiar
+   with editing XML.
 
 #. In the unit where you want to create a randomized problem, create a separate
    problem component for each version or problem that you want to randomize.
