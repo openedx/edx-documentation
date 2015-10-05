@@ -43,15 +43,15 @@ In addition to obvious text, do translate the following items.
 
   For example, in
 
-  ``:ref:`Work with edX Documentation Source Files``` or  
-  ```Work with edX Documentation Source Files`_`` 
+  ``:ref:`Work with edX Documentation Source Files``` or
+  ```Work with edX Documentation Source Files`_``
 
   the text between the grave accent
   characters (`) is actual anchor text and should not be translated.
 
   However, in the example
 
-  ``:ref:`this is link text<Work with edX Documentation Source Files>``` 
+  ``:ref:`this is link text<Work with edX Documentation Source Files>```
 
   the actual anchor text is between the carets and should not be
   translated. The text string between the first grave accent character and the
@@ -64,7 +64,7 @@ In addition to obvious text, do translate the following items.
 
    .. image:: ../../../data/source/Images/DataCzar_Initialization.png
       :width: 100
-      :alt: Flowchart showing process for initializing a data czar 
+      :alt: Flowchart showing process for initializing a data czar
 
 
 
@@ -83,23 +83,23 @@ Do not translate or alter any of the following elements.
   the same Images folder location, so that image links within the
   documentation are not broken.
 
-* Words in file paths in cross-references or image references. 
+* Words in file paths in cross-references or image references.
 
 * Words that are part of .rst directives, including "note" or "warning".
   Examples are listed in :ref:`Work with edX Documentation Source Files` and
   :ref:`ExampleRSTFile<Anchor For ExampleRSTFile>`.
 
-* The text of anchors in .rst files. 
+* The text of anchors in .rst files.
 
-* Code examples that are tagged with ``.. code-block::``.  
+* Code examples that are tagged with ``.. code-block::``.
 
 * Variables, database field names, or code examples that are tagged with
-  monospace code font (placed between double grave accent characters). 
+  monospace code font (placed between double grave accent characters).
 
-  For example, in the following sentence, do not translate the event names that are between pairs of double grave accent characters.  
+  For example, in the following sentence, do not translate the event names that are between pairs of double grave accent characters.
 
   The edX mobile app for iOS now emits ````play_video````, ````pause_video````,
-  ````stop_video````, ````load_video````, and ````seek_video```` events. 
+  ````stop_video````, ````load_video````, and ````seek_video```` events.
 
 
 For information about working with edX Documentation source files, see

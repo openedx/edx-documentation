@@ -16,7 +16,7 @@ Course Content Index`.
 
 .. toctree::
    :maxdepth: 2
-   
+
    create_exercises_and_tools
    annotation
    checkbox

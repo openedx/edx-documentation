@@ -4,7 +4,7 @@
 edX Documentation
 ####################################
 
-The following information describes what is new in edX documentation. 
+The following information describes what is new in edX documentation.
 
 .. contents::
   :local:

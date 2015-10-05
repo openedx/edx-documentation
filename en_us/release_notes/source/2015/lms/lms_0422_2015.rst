@@ -1,6 +1,6 @@
 
 ================
-Profiles 
+Profiles
 ================
 
 Learners and course team members can now introduce themselves to the edX
@@ -26,7 +26,7 @@ file that is delimited by your specified start and stop times plays.
    Learners who use the mobile app can play the entire video file.
 
 ============================
-Accessibility Improvements 
+Accessibility Improvements
 ============================
 
 In addition to some minor changes to enhance accessibility in the LMS and

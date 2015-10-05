@@ -16,7 +16,7 @@ directory. See :ref:`Course Assets` for more information.
 Create the Asset Policy File
 *******************************
 
-You define policies for your assets in the ``assets.json`` file. 
+You define policies for your assets in the ``assets.json`` file.
 
 Save the ``assets.json`` file in the ``policy`` directory. You use one
 ``assets.json`` file for all of the courses you may have in your directory
@@ -43,7 +43,7 @@ Asset Policy JSON Objects
          * ``category``:  Equal to ``asset``
          * ``name``: The file name
          * ``course``: The course number
-         * ``tag``: 
+         * ``tag``:
          * ``org``: The organization that created the course
          * ``revision``
      * - ``filename``
@@ -58,7 +58,7 @@ Asset Policy JSON Objects
          * ``thumbnail``
          * The filename for the thumbnail
 
-        
+
 
 *******************************
 Example Asset Policy File
@@ -69,29 +69,29 @@ The following example shows the JSON policy for one image file.
 .. code-block:: json
 
     {
-        "dashboard.png": 
+        "dashboard.png":
             {
-                "contentType": "image/png", 
-                "displayname": "dashboard.png", 
-                "locked": false, 
-                "content_son": 
+                "contentType": "image/png",
+                "displayname": "dashboard.png",
+                "locked": false,
+                "content_son":
                     {
-                        "category": "asset", 
-                        "name": "dashboard.png", 
-                        "course": "Course number", 
-                        "tag": "c4x", 
-                        "org": "Organization", 
+                        "category": "asset",
+                        "name": "dashboard.png",
+                        "course": "Course number",
+                        "tag": "c4x",
+                        "org": "Organization",
                         "revision": null
-                    }, 
-                    "filename": "/c4x/Organization/Course-number/asset/dashboard.png", 
-                    "import_path": null, 
-                    "thumbnail_location": 
+                    },
+                    "filename": "/c4x/Organization/Course-number/asset/dashboard.png",
+                    "import_path": null,
+                    "thumbnail_location":
                         [
-                            "c4x", 
-                            "Organization", 
-                            "Course number", 
-                            "thumbnail", 
-                            "dashboard.jpg", 
+                            "c4x",
+                            "Organization",
+                            "Course number",
+                            "thumbnail",
+                            "dashboard.jpg",
                             null
                         ]
             }

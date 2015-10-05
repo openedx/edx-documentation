@@ -18,7 +18,7 @@ content for randomized assigments, see :ref:`Content Libraries`.
 
 .. toctree::
    :maxdepth: 2
-   
+
    workflow
    course_outline
    course_sections

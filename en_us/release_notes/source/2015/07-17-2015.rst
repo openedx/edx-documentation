@@ -3,7 +3,7 @@
 ###################################
 
 The following information reflects what is new in the edX Platform as of
-17 July 2015. 
+17 July 2015.
 
 .. contents::
   :local:

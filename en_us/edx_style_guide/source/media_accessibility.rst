@@ -10,7 +10,7 @@ Mark Sadecki, the edX accessibility specialist, for course teams who need to
 prepare accessible media. Its content is also useful for writers who are
 preparing instructional videos and technical documentation.
 
-.. contents:: 
+.. contents::
   :local:
   :depth: 1
 
@@ -62,7 +62,7 @@ driving, doing household chores, and so on, and they may not be able to focus
 on the video content at all. Try listening to only the audio track from your
 video. Is the information presented "equivalent"?
 
-.. note:: With regard to blindness, Mark feels that it is important to drive 
+.. note:: With regard to blindness, Mark feels that it is important to drive
  home the fact that if you do not vocalize unspoken visual events that are
  important to understanding the video, you will trigger a requirement to
  provide :ref:`audio descriptions<Audio Description>`, which is both expensive
@@ -81,7 +81,7 @@ temporarily where they are not looking, or in text that is moving or scrolling.
 
 A person with low vision is likely to use screen magnification software. This
 means that they will only be viewing a portion of the screen, and so must
-manage tracking media content. 
+manage tracking media content.
 
 Others with low vision may have difficulty reading when text is too small, has
 poor background contrast, or when decorative fonts or effects are used. Users
@@ -116,7 +116,7 @@ Deafness
 
 People who are deaf generally cannot access the audio content of your media. As
 a result, an alternative format is required. On edX, this is provided through
-synchronized captions. 
+synchronized captions.
 
 ============================
 Things to Keep in Mind
@@ -158,7 +158,7 @@ Things to Keep in Mind
 * Try to face the camera as much as possible when speaking onscreen.
 
 * Avoid background noise and/or music that competes with the primary audio.
-  
+
 *********************************
 WCAG 2 AA Requirements for Media
 *********************************

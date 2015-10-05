@@ -24,7 +24,7 @@ preference selected by each student enrolled in your institution's courses.
 You can use this information to develop a distribution list for campaigns that
 introduce new or related courses to students.
 
-.. note:: Your data package includes a .csv file for the edx.org site only. 
+.. note:: Your data package includes a .csv file for the edx.org site only.
   At this time, students can specify an email preference only on edx.org.
 
 The file contains data in these columns.

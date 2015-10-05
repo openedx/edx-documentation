@@ -33,7 +33,7 @@ credentials.
 * password: edx
 
 You can log in to a student account using one the following credentials.
-These user accounts represent students enrolled in the demo course in the 
+These user accounts represent students enrolled in the demo course in the
 audit, honor code, or verified certificate tracks, respectively.
 
 *  username: audit@example.com / honor@example.com / verified@example.com
@@ -48,7 +48,7 @@ translations "in context" - that is, in use on an actual website.
 On edx.org, we only pull down reviewed translations from Transifex. See the
 `translation guidelines <https://github.com/edx/edx-platform/blob/master/docs/en_us/developers/source/i18n_translators_guide.rst#joining-a-review-team>`_
 for more details.
- 
+
 To help you review and test, these sandboxes present *all* translations, not
 just reviewed translations. This means that you may encounter broken pages as
 you navigate the website. If this happens, it is probably because some of the

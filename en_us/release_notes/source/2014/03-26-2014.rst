@@ -17,7 +17,7 @@ edX Studio
 edX Learning Management System
 ***************************************
 
-* You can now batch add beta testers to your course. The UI for adding beta testers has been expanded. See Add the Beta Testers for more information. (LMS-1287) 
+* You can now batch add beta testers to your course. The UI for adding beta testers has been expanded. See Add the Beta Testers for more information. (LMS-1287)
 
 * When you enroll students, the process now checks that the email addresses are valid and gives you a message for those that are invalid. (LMS-2244)
 

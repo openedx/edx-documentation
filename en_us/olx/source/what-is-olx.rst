@@ -26,6 +26,6 @@ To work with OLX, you should have a strong understanding of XML. This
 document presumes you understand XML and can use tools to create and edit XML
 files.
 
-For a primer on XML, see the `Wikipedia XML entry`_ . 
+For a primer on XML, see the `Wikipedia XML entry`_ .
 
 .. include:: ../../links/links.rst

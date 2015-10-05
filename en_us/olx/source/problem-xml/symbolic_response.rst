@@ -17,7 +17,7 @@ This is a partial list of features, to be revised as we go along:
     * sub and superscripts: an expression following the ``^`` character
       indicates exponentiation. To use superscripts in variables, the syntax
       is ``b_x__d`` for the variable ``b`` with subscript ``x`` and super
-      ``d``. 
+      ``d``.
 
       An example of a problem::
 

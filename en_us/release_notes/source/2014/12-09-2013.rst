@@ -9,7 +9,7 @@ edX Studio
 
 * You can now allow multiple strings as correct answers to text response problems. (BLD-474)
 
-The following changes are included in this release: 
+The following changes are included in this release:
 
 * If you entered invalid HTML in the Course Handouts, you were not able to edit the Course Handouts to fix the HTML. This problem is resolved (STUD-293)
 
@@ -23,11 +23,11 @@ The following changes are included in this release:
 
 
 ***************************************
-edX Learning Management System 
+edX Learning Management System
 ***************************************
 
 
-The following changes are included in this release: 
+The following changes are included in this release:
 
 * All dialog boxes in the Wiki are now fully accessible to screen readers. (LMS-1337)
 
@@ -35,10 +35,10 @@ The following changes are included in this release:
 
 * If a user registered for a verified certificate, then switched to audit the course, the student
   remained listed as signed up for a verified certificate. This problem is resolved. (LMS-1526)
-  
+
 * In code response questions, the button to hide the output is now shown for each test case, so students do
   not need to scroll through all test cases to get to the button to hide all output. (BLD-126)
-  
+
 * The calculator tooltips now show all options for inputing numbers. (BLD-400)
 
 * The video player now alerts screen readers when the video is over. (BLD-488)
@@ -51,7 +51,7 @@ The following changes are included in this release:
 Discussion Forums
 ******************
 
-The following changes are included in this release: 
+The following changes are included in this release:
 
 * An update to enhance accessibility was made so that when users load additional forum threads,
   focus remains on the loading element. (FOR-238)

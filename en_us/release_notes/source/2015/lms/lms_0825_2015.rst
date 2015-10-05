@@ -5,18 +5,18 @@
   change affects edx.org and edX Edge, not Open edX.
 
 * The following additional information is now available on the Course Info page
-  on the Instructor Dashboard. 
+  on the Instructor Dashboard.
 
-  * Course Start Date, including the start time (UTC). 
+  * Course Start Date, including the start time (UTC).
 
-  * Course End Date, including the end time (UTC). 
-  
-  * The number of sections included in the course. 
-    
+  * Course End Date, including the end time (UTC).
+
+  * The number of sections included in the course.
+
   Previously, this information was available only in Studio. (OSPR-733)
 
 ============================
-Accessibility Improvements 
+Accessibility Improvements
 ============================
 
 The calculator available in the LMS is updated to have a background color that

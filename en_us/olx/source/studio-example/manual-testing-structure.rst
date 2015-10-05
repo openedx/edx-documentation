@@ -15,13 +15,13 @@ This chapter describes the structure of the `Manual Testing`_ course. See:
 * `Other XBlock Files`_
 * `Platform Directories`_
 
-For information on how a generic OLX course is structured, see 
+For information on how a generic OLX course is structured, see
 :ref:`OLX Directory Structure`.
 
 For information on how a non-Studio OLX course can be structured, see :ref:`The
 Structure of edX-Insider`.
 
-.. note:: 
+.. note::
   The structure and content of the manual testing course may change before this
   documentation is updated.
 
@@ -219,7 +219,7 @@ Following is an example of a problem XBlock:
 
 .. code-block:: xml
 
-  <problem display_name="Blank Common Problem" markdown="Capital of France is 
+  <problem display_name="Blank Common Problem" markdown="Capital of France is
     Paris:&#10;&#10;[[false, (true)]]&#10;">
     <p>Capital of France is Paris:</p>
     <optionresponse>

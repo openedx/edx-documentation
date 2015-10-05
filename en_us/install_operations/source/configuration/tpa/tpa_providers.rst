@@ -13,11 +13,11 @@ For example, your Open edX installation hosts the courses of three different
 institutions. When you configure the open edX installation to be a service
 provider, and configure each of the three institutions to be identity
 providers, you permit learners who have valid user credentials at any of
-those institutions to access the Open edX site. 
+those institutions to access the Open edX site.
 
-.. You can enable third party authentication between your Open edX system and identity providers that use the SAML 2.0 (Security Assertion Markup Language, version 2.0) or OAuth2 standards for authentication. 
+.. You can enable third party authentication between your Open edX system and identity providers that use the SAML 2.0 (Security Assertion Markup Language, version 2.0) or OAuth2 standards for authentication.
 
-.. replace the first following sentence with the above when ready to add OAuth2 
+.. replace the first following sentence with the above when ready to add OAuth2
 .. - Alison 5 Aug 15
 
 You can enable third party authentication between your Open edX system and
@@ -27,7 +27,7 @@ version 2.0) standard for authentication. For more information, see
 
 .. Regardless of the standard that the identity provider you want to integrate with uses, you begin by :ref:`enabling the third party authentication feature<Enable the Third Party Authentication Feature>` for your installation.
 
-.. replace the following para with the above para when ready to add OAuth2 
+.. replace the following para with the above para when ready to add OAuth2
 .. - Alison 5 Aug 15
 
 At an Open edX installation, you begin by :ref:`enabling the third party

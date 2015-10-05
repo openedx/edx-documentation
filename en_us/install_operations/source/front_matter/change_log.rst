@@ -21,7 +21,7 @@ Change Log
      - Added the :ref:`Open edX Cypress Release` section.
    * -
      - Added the :ref:`YouTube_API` section.
-   * - 
+   * -
      - Added the :ref:`Configuring ORA2 to Upload Files to Alternative Storage
        Systems` section.
    * - 6 Aug 2015
@@ -32,11 +32,11 @@ Change Log
      - Added the :ref:`Enable CCX` section.
    * - 8 June 2015
      - Added :ref:`Enable edX Search`.
-   * - 
+   * -
      - Added :ref:`Enable Certificates`.
-   * - 
+   * -
      - Added :ref:`Enable Badging`.
-   * - 
+   * -
      - Updated the :ref:`Setting up the Mobile Applications` section to include
        configuration for push notifications.
    * - 28 May 2015
@@ -46,7 +46,7 @@ Change Log
        edX Partner Portal` and the :ref:`The Open edX Portal`.
    * - 24 Feb 2015
      - Updated for the :ref:`Open edX Birch Release`.
-   * - 
+   * -
      - Added the section :ref:`Configuring the Open edX Platform`.
    * - 20 Jan 2015
      - Added the section :ref:`Installing edX Insights`.

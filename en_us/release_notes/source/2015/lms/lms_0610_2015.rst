@@ -1,6 +1,6 @@
 
 ====================================
-Report of Not-Yet-Enrolled Students 
+Report of Not-Yet-Enrolled Students
 ====================================
 
 Course teams for invitation-only courses can now track enrollment status from

@@ -10,9 +10,9 @@ You create a course policy file to specify metadata about your course.
 Create the Course Policy File
 *******************************
 
-You define policies for your course in the ``policy.json`` file. 
+You define policies for your course in the ``policy.json`` file.
 
-Save the ``policy.json`` file in the ``policy/<course-name>`` directory. 
+Save the ``policy.json`` file in the ``policy/<course-name>`` directory.
 
 The ``<course-name>`` directory  must match the value of the ``url_name`` attribute in the ``course.xml`` file.
 
@@ -33,7 +33,7 @@ Course Policy JSON Objects
      * - ``disable_policy_graph``
        - Whether the policy graph should be disabled (``true``) or not (``false)``.  SUPORTED?
      * - ``enrollment_start``, ``enrollment_end``
-       - The dates in which students can enroll in the course. For example, ``"2012-09-05T12:00"``. If not specified, students can enroll any time. 
+       - The dates in which students can enroll in the course. For example, ``"2012-09-05T12:00"``. If not specified, students can enroll any time.
      * - ``end``
        - The end date for the course.  For example: ``"2012-11-05T12:00"``.
      * - ``end_of_course_survey_url``
@@ -76,15 +76,15 @@ Example Course Policy File
     {
       "course/2014":
           {
-	          "tabs": [{"type": "courseware", "name": "Courseware"}, 
-	                   {"type": "course_info", "name": "Course Info"}, 
-	                   {"type": "discussion", "name": "Discussion"}, 
-	                   {"type": "wiki", "name": "Wiki"}, 
+	          "tabs": [{"type": "courseware", "name": "Courseware"},
+	                   {"type": "course_info", "name": "Course Info"},
+	                   {"type": "discussion", "name": "Discussion"},
+	                   {"type": "wiki", "name": "Wiki"},
 	                   {"type": "progress", "name": "Progress"}],
-	
+
 	           "display_name": "edX Demonstration Course",
 	           "discussion_topics": {"General": {"id": "i4x-General-course-2014"}}
-               
+
                    "user_partitions": [{"id": 0,
                                         "name": "Two Groups",
                                         "description": "For 2-group experiments.",

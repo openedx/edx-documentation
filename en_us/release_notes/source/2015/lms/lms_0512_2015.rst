@@ -7,7 +7,7 @@ The grade report now includes new columns with certificate status and
 enrollment track information. When course teams generate the grade report from
 the Instructor Dashboard, they can see the following additional information
 for each learner.
- 
+
 * Enrollment track: honor, verified, or professional education.
 * Verification status, to identify learners in the verified or professional
   track who have completed identity verification with edX.

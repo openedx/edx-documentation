@@ -36,7 +36,7 @@ Samples
 *********
 
 Two sample rows, or JSON documents, from a ``.mongo`` file of discussion data
-follow. 
+follow.
 
 ----------------------------------------
 CommentThread Document Example
@@ -74,13 +74,13 @@ more readable is produced.
   "anonymous": false,
   "anonymous_to_peers": false,
   "at_position_list": [
- 
+
   ],
   "author_id": "NNNNNNN",
   "author_username": "AAAAAAAAAA",
-  "body": "Welcome to the edX101 forum!\n\nThis forum will be regularly 
-  monitored by edX. Please post your questions and comments here. When 
-  asking a question, don't forget to search the forum to check whether 
+  "body": "Welcome to the edX101 forum!\n\nThis forum will be regularly
+  monitored by edX. Please post your questions and comments here. When
+  asking a question, don't forget to search the forum to check whether
   your question has already been answered.\n\n",
   "closed": false,
   "comment_count": 0,
@@ -93,7 +93,7 @@ more readable is produced.
     "$date": 1358134464424
   },
   "tags_array": [
- 
+
   ],
   "thread_type": "discussion",
   "title": "Welcome to the edX101 forum!",
@@ -103,7 +103,7 @@ more readable is produced.
   "votes": {
     "count": 1,
     "down": [
- 
+
     ],
     "down_count": 0,
     "point": 1,
@@ -145,10 +145,10 @@ When pretty printed, this comment looks like this:
   },
   "votes": {
     "up": [
- 
+
     ],
     "down": [
- 
+
     ],
     "up_count": 0,
     "down_count": 0,
@@ -157,20 +157,20 @@ When pretty printed, this comment looks like this:
   },
   "visible": true,
   "abuse_flaggers": [
- 
+
   ],
   "historical_abuse_flaggers": [
- 
+
   ],
   "parent_ids": [
- 
+
   ],
   "at_position_list": [
- 
+
   ],
-  "body": "I'm hoping this Demonstration course will help me figure out how 
-  to take the course I enrolled in. I am just auditing the course, but I 
-  want to benefit from it as much as possible, as I am extremely interested 
+  "body": "I'm hoping this Demonstration course will help me figure out how
+  to take the course I enrolled in. I am just auditing the course, but I
+  want to benefit from it as much as possible, as I am extremely interested
   in it.\n",
   "course_id": "edX\/DemoX\/Demo_Course",
   "_type": "Comment",
@@ -206,7 +206,7 @@ Descriptions of the fields that are present for both ``CommentThread`` and ``Com
 --------------------
 _id
 --------------------
-  The 12-byte MongoDB unique ID for this collection. Like all MongoDB IDs, the IDs are monotonically increasing and the first four bytes are a timestamp. 
+  The 12-byte MongoDB unique ID for this collection. Like all MongoDB IDs, the IDs are monotonically increasing and the first four bytes are a timestamp.
 
 --------------------
 _type
@@ -242,7 +242,7 @@ author_id
 --------------------
 author_username
 --------------------
-  The username of the person who wrote the discussion post or comment. 
+  The username of the person who wrote the discussion post or comment.
 
 --------------------
 body
@@ -254,7 +254,7 @@ course_id
 --------------------
   The full course_id of the course that this comment was made in, including org and run. This value can be seen in the URL when browsing the courseware section. Example: ``BerkeleyX/Stat2.1x/2013_Spring``.
 
-.. 12 Feb 14, Sarina: not yet relevant but with splitmongo changes course_id conventions will change. may be worth discussing with Don et al as to when we expect these changes to land and how to document.  
+.. 12 Feb 14, Sarina: not yet relevant but with splitmongo changes course_id conventions will change. may be worth discussing with Don et al as to when we expect these changes to land and how to document.
 
 --------------------
 created_at
@@ -316,14 +316,14 @@ commentable_id
 --------------------
 last_activity_at
 --------------------
-  Timestamp in UTC indicating the last time there was activity in the thread (new posts, edits, etc). Closing the thread does not affect the value in this field. 
+  Timestamp in UTC indicating the last time there was activity in the thread (new posts, edits, etc). Closing the thread does not affect the value in this field.
 
 .. FOR-482 open to research inconsistency between the data actually in the data package and this example and description.
 
 --------------------
 tags_array
 --------------------
-  No longer used. 
+  No longer used.
 
   **History**: Intended to be a list of user definable tags.
 
@@ -335,7 +335,7 @@ title
 --------------------
 thread_type
 --------------------
-  Identifies the type of post as a "question" or "discussion".  
+  Identifies the type of post as a "question" or "discussion".
 
   **History**: Added 4 Sep 2014.
 
@@ -343,7 +343,7 @@ thread_type
 Comment Fields
 ********************
 
-The following fields are specific to ``Comment`` objects. A ``Comment`` is either a response to a ``CommentThread`` (such as an answer to the question), or a reply to another ``Comment`` (a comment about somebody's answer). 
+The following fields are specific to ``Comment`` objects. A ``Comment`` is either a response to a ``CommentThread`` (such as an answer to the question), or a reply to another ``Comment`` (a comment about somebody's answer).
 
 **History**: It used to be the case that ``Comment`` replies could nest much more deeply, but this was later capped at just these three levels (post, response, comment) much in the way that StackOverflow does.
 
@@ -355,7 +355,7 @@ visible
 --------------------
 abuse_flaggers
 --------------------
-  Records the user id of each user who selects the **Report Misuse** flag for a ``Comment`` in the user interface. Stores an array of user ids if more than one user flags the ``Comment``. This is empty if no users flag the ``Comment``. 
+  Records the user id of each user who selects the **Report Misuse** flag for a ``Comment`` in the user interface. Stores an array of user ids if more than one user flags the ``Comment``. This is empty if no users flag the ``Comment``.
 
 ----------------------------------------
 historical_abuse_flaggers
@@ -387,7 +387,7 @@ endorsement
 --------------------
 comment_thread_id
 --------------------
-  Identifies the ``CommentThread`` that the ``Comment`` is a part of. 
+  Identifies the ``CommentThread`` that the ``Comment`` is a part of.
 
 --------------------
 parent_id

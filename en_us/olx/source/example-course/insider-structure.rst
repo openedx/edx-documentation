@@ -17,7 +17,7 @@ Directory Structure`.
 See :ref:`Example of OLX for a Studio Course` for information on how a course
 exported from edX Studio is structured.
 
-.. note:: 
+.. note::
   The structure and content of edX-Insider may change before this documentation
   is updated.
 
@@ -72,14 +72,14 @@ single HTML XBlock with the display name ``Week overview``, which references
 ``Week_overview`` in the ``url_name`` attribute:
 
 .. code-block:: html
-  
-  <chapter display_name="Pedagogical Foundations: Constructive Learning"  
+
+  <chapter display_name="Pedagogical Foundations: Constructive Learning"
       url_name="Week_2_Technology_enabled_constructive_learning">
-      <sequential format="Learning Sequence" graded="true" 
-          display_name="Overview (go here first)" 
+      <sequential format="Learning Sequence" graded="true"
+          display_name="Overview (go here first)"
           url_name="Overview_go_here_first">
           <vertical display_name="Week's overview" url_name="Week_s_overview">
-              <html display_name="Week overview" filename="Week_overview" 
+              <html display_name="Week overview" filename="Week_overview"
                   url_name="Week_overview"/>
 
 There is a file called ``Week_overview.html`` in the ``html`` directory that
@@ -104,20 +104,20 @@ For example, in ``course.xml``, the sequential with the display name ``In-class
 exercise`` contains embedded HTML content:
 
 .. code-block:: html
-  
-  <sequential display_name="In-class exercise" url_name="in_class"> 
-      <html display_name="Overview" url_name="overview"> 
+
+  <sequential display_name="In-class exercise" url_name="in_class">
+      <html display_name="Overview" url_name="overview">
           <p>In the on-line portion,
-             we examined a way we used technology to allow efficient 
-             implementation of one theory from learning science – constructive 
-             learning – in edX. In designing the edX platform, we applied many 
+             we examined a way we used technology to allow efficient
+             implementation of one theory from learning science – constructive
+             learning – in edX. In designing the edX platform, we applied many
              such techniques. We took aspects of mastery learning, project-
-             based learning, gamification and others. Other platforms have 
-             sophisticated techniques for targeting specific student 
-             misconceptions, enabling a range of student social experiences, 
+             based learning, gamification and others. Other platforms have
+             sophisticated techniques for targeting specific student
+             misconceptions, enabling a range of student social experiences,
              assessing teacher performance, and hundreds of other research-
              based techniques. We would like to give you a chance to practice
-             with designing software to enable good pedagogy. 
+             with designing software to enable good pedagogy.
           </p>
 	      . . .
       </html>
@@ -176,7 +176,7 @@ The ``policies`` directory contains:
     course.
 
   * ``policy.json``, which defines various settings in the course.
-  
+
 See :ref:`Course Policies` for more information.
 
 ====================
@@ -208,13 +208,13 @@ files.
 The vertical files are referenced in ``course.xml`` as follows:
 
 .. code-block:: html
-  
+
   <vertical url_name="constructive_ora_exercise"></vertical>
 
 And:
 
 .. code-block:: html
-  
+
   <vertical url_name="in_class_ora"></vertical>
 
 

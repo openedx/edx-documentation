@@ -17,7 +17,7 @@ edX Studio
 
 * A problem that caused assignment weights in the grading policy to display
   incorrectly is resolved. (TNL-884)
-  
+
 ******************************
 edX Learning Management System
 ******************************

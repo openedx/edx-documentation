@@ -5,7 +5,7 @@ Alphabetical Event List
 #######################
 
 
-:ref:`ABC` - :ref:`DEF` - :ref:`GHI` - :ref:`JKL` - :ref:`MNO` 
+:ref:`ABC` - :ref:`DEF` - :ref:`GHI` - :ref:`JKL` - :ref:`MNO`
 - :ref:`PQR` - :ref:`ST` - :ref:`UVWXYZ`
 
 .. _ABC:
@@ -70,7 +70,7 @@ D, E, F
    * - ``edx.certificate.shared``
      - :ref:`certificate_events`
    * - ``edx.certificate.evidence_visited``
-     - :ref:`certificate_events`    
+     - :ref:`certificate_events`
    * - ``edx.cohort.created``
      - :ref:`student_cohort_events`
    * - ``edx.cohort.creation_requested``
@@ -83,7 +83,7 @@ D, E, F
      - :ref:`student_cohort_events`
    * - ``edx.course.enrollment.activated``
      - :ref:`enrollment` and :ref:`instructor_enrollment`
-   * - ``edx.course.enrollment.deactivated`` 
+   * - ``edx.course.enrollment.deactivated``
      - :ref:`enrollment` and :ref:`instructor_enrollment`
    * - ``edx.course.enrollment.mode_changed``
      - :ref:`enrollment`
@@ -110,27 +110,27 @@ D, E, F
    * - ``edx.librarycontentblock.content.assigned``
      - :ref:`library_events`
    * - ``edx.librarycontentblock.content.removed``
-     - :ref:`library_events`     
+     - :ref:`library_events`
    * - ``edx.problem.hint.demandhint_displayed``
      - :ref:`problem`
    * - ``edx.problem.hint.feedback_displayed``
      - :ref:`problem`
    * - ``edx.team.activity_updated``
-     - :ref:`student_teams_events`  
+     - :ref:`student_teams_events`
    * - ``edx.team.changed``
-     - :ref:`student_teams_events`     
+     - :ref:`student_teams_events`
    * - ``edx.team.created``
      - :ref:`student_teams_events`
    * - ``edx.team.deleted``
-     - :ref:`student_teams_events`     
+     - :ref:`student_teams_events`
    * - ``edx.team.learner_added``
      - :ref:`student_teams_events`
    * - ``edx.team.learner_removed``
      - :ref:`student_teams_events`
    * - ``edx.team.page_viewed``
-     - :ref:`student_teams_events`  
+     - :ref:`student_teams_events`
    * - ``edx.team.searched``
-     - :ref:`student_teams_events`   
+     - :ref:`student_teams_events`
    * - ``edx.video.bumper.dismissed``
      - :ref:`pre-roll`
    * - ``edx.video.bumper.loaded``
@@ -389,7 +389,7 @@ U, V, W, X, Y, Z
      - :ref:`Poll and Survey Events`
    * - ``xblock.survey.view_results``
      - :ref:`Poll and Survey Events`
-       
+
 
 
 ..   * - ``problem_graded``

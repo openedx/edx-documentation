@@ -49,7 +49,7 @@ similar, but their content and purposes are different.
 
   EdX Edge also hosts small private online courses (SPOCs).
 
-.. note:: 
+.. note::
  All course data and user accounts on Edge and edx.org are separate. If you
  want to use both edx.org and Edge, you must complete the account registration
  process on both sites.
@@ -84,7 +84,7 @@ from Studio.
 The edX Demo Course and edX101
 ******************************
 
-EdX provides the edX Demo course and Overview of Creating an edX Course 
+EdX provides the edX Demo course and Overview of Creating an edX Course
 to help familiarize you with taking and creating edX courses.
 
 * The `edX Demo course`_ allows new students to explore and learn how to take

@@ -10,9 +10,9 @@ composed of four types of tags:
 
 * **inputtypes** are similar to XBlocks. They define ways for users to enter
   input into the problem.
-* **responsetypes** are graders. They define how inputs are mapped to grades. 
-* **hinters** are used to provide feedback to problems. 
-* Standard HTML tags are used for formatting. 
+* **responsetypes** are graders. They define how inputs are mapped to grades.
+* **hinters** are used to provide feedback to problems.
+* Standard HTML tags are used for formatting.
 
 OLX is designed to allow mixing and matching of inputtypes, responsetypes, and
 hinters. For example, a numerical grader could match 7+-0.1%. Ideally, you

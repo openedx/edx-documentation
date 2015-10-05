@@ -18,8 +18,8 @@ edX Learning Management System
 ***************************************
 
 * This release includes several enhancements to the Beta Instructor Dashboard:
-  
-  * You can now enter either a username or an email address to batch add 
+
+  * You can now enter either a username or an email address to batch add
     and enroll beta testers and students.
   * The Auto Enroll option is now available when you add beta testers in batch.
   * For the Batch Enrollment and the Batch Add Beta Testers features, the Auto

@@ -1,7 +1,7 @@
 .. _Configuring your Installation as a SAML Service Provider:
 
 ###############################################################
-Configuring your Installation as a SAML Service Provider 
+Configuring your Installation as a SAML Service Provider
 ###############################################################
 
 The first step in configuring your Open edX installation to act as a SAML SP
@@ -27,11 +27,11 @@ To generate the keys for your Open edX installation, follow these steps.
 
 #. On your local computer or on the server, open Terminal or a Command Prompt
    and run the following command.
-   
+
    ``openssl req -new -x509 -days 3652 -nodes -out saml.crt -keyout saml.key``
 
-#. Provide information at each prompt. 
-   
+#. Provide information at each prompt.
+
 Two files, ``saml.crt`` and ``saml.key``, are created in the directory where
 you ran the command.
 
@@ -54,19 +54,19 @@ these steps.
 
   - **Private key**: Use a text editor to open the ``saml.key`` file, and then
     copy the RSA private key into this field.
-  
+
   - **Public key**: Use a text editor to open the ``saml.crt`` file, and then
     copy the certificate into this field.
-  
+
   - **Entity ID**: Enter a URI for the server. To ensure that this value
     uniquely identifies your site, the naming convention that edX recommends is
     to include the server's domain name. For example,
     ``http://saml.mydomain.com/``.
-  
+
   - **Organization Info**: Use the format in the example that follows to
     specify a language and locale code and identifying information for your
     installation.
-    
+
     .. code:: json
 
      {
@@ -79,12 +79,12 @@ these steps.
 
   - **Other config str**: Define the security settings for the IdP metadata
     files. For more information about the security settings, see the `Python SAML Toolkit`_. An example follows.
-    
+
     .. code:: json
 
-     { 
+     {
         "SECURITY_CONFIG": {
-          "signMetadata": false, 
+          "signMetadata": false,
           "metadataCacheDuration": ""
         }
      }

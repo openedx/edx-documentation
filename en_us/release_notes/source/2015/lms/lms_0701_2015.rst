@@ -33,7 +33,7 @@ a Problem` in *Building and Running an edX Course* or
 :ref:`opencoursestaff:Adding Feedback and Hints to a Problem` in *Building and
 Running an Open edX Course*.
 
-Problem Appearance Changes 
+Problem Appearance Changes
 ******************************
 
 To make the edX LMS easier to use on mobile devices, the appearance of common

@@ -3,7 +3,7 @@
   resolved. (TNL-935)
 
 ============================
-Accessibility Improvements 
+Accessibility Improvements
 ============================
 
 * Focus now changes directly to the content area after the user selects a link

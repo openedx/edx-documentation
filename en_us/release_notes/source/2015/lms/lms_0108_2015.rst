@@ -6,4 +6,4 @@
 
 * The Student Dashboard is updated to provide a visual indication of
   professional education courses the student is enrolled in. (ECOM-728)
-  
+

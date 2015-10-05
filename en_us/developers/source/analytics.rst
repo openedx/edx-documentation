@@ -34,7 +34,7 @@ Emitting from client-side coffee script::
 
 .. note::
     The client-side API currently uses a deprecated library (the ``track``
-     djangoapp) instead of the event-tracking library. Eventually, event-tracking 
+     djangoapp) instead of the event-tracking library. Eventually, event-tracking
      will publish a client-side API of its own: when available, that
      API should be used instead of the ``track``-based solution. See
      :ref:`deprecated_api`.
@@ -316,7 +316,7 @@ comments that identify the purpose of the event and its fields. Your
 descriptions and examples can help assure that researchers and other members
 of the open edX community understand your intent and use the events correctly.
 
-You might find the following references helpful as you prepare your PR. 
+You might find the following references helpful as you prepare your PR.
 
 * The *edX Platform Developer's Guide* provides guidelines for `contributing
   to open edX <http://edx.readthedocs.org/projects/edx-developer-

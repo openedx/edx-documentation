@@ -20,12 +20,12 @@ For an example of an ``course.xml`` file, see :ref:`The edX-Insider course.xml F
 The ``course.xml`` File
 *************************************
 
-The root element of the ``course.xml`` file is ``course``. 
+The root element of the ``course.xml`` file is ``course``.
 
 For example, the ``course.xml`` file may contain:
 
 .. code-block:: xml
-  
+
   <course advanced_modules="[&quot;concept&quot;, &quot;done&quot;,
       &quot;profile&quot;, &quot;recommender&quot;]" course="edX_Insider"
       course_image="code.png" display_name="edX Demo"
@@ -69,13 +69,13 @@ The attributes of the ``course`` element are used to construct URLs in the
 course.  The following course URL shows where these values are used:
 
 .. code-block:: html
-  
+
   http://my-edx-server.org/courses/<@org value>/<@course value>/<@url_name value>/info
 
 For example:
 
 .. code-block:: html
-  
+
   http://my-edx-server.org/courses/edX/DemoX/Demo_Course/info
 
 *******************************
@@ -93,9 +93,9 @@ possible to hide them from the navigation using the ``hide_from_toc`` option.
 For example, if the course outline file contains:
 
 .. code-block:: xml
-  
-    <course> 
-      <chapter display_name="Exam Review" url_name="exam_review"> 
+
+    <course>
+      <chapter display_name="Exam Review" url_name="exam_review">
       . . .
     </course>
 
@@ -125,12 +125,12 @@ The ``chapter`` element contains one or more children. Studio uses ``sequential`
 The following example shows a chapter with two sequentials, or subsections. :
 
 .. code-block:: xml
-  
+
   <chapter display_name="Example Week 2: Get Interactive">
-      <sequential display_name="Simulations" url_name="simulations"> 
+      <sequential display_name="Simulations" url_name="simulations">
           . . .
-      <sequential display_name="Graded Simulations" 
-          url_name="graded_simulations"> 
+      <sequential display_name="Graded Simulations"
+          url_name="graded_simulations">
           . . .
   </chapter>
 
@@ -145,9 +145,9 @@ subsection in the chapter.
 For example, the course may contain:
 
 .. code-block:: xml
-  
-    <course> 
-        <chapter url_name="exam_review"> 
+
+    <course>
+        <chapter url_name="exam_review">
             <sequential display_name="Simulations" url_name="simulations">
                 . . .
             </sequential>
@@ -186,18 +186,18 @@ For example, the course may contain:
 
 ==============================================
 ``sequential`` Children
-============================================== 
+==============================================
 
-The ``sequential`` element contains one or more child ``vertical`` elements. 
+The ``sequential`` element contains one or more child ``vertical`` elements.
 
 The ``veritical`` element references a vertical, or unit, in the course.
 
 The following example shows a chapter with a sequential that has three verticals, or units. :
 
 .. code-block:: xml
-  
-    <course> 
-        <chapter url_name="exam_review"> 
+
+    <course>
+        <chapter url_name="exam_review">
             <sequential display_name="Simulations" url_name="simulations">
                 <vertical display_name: "Unit 1" url_name="Lesson_1_Unit_1">
                     . . . .
@@ -224,9 +224,9 @@ unit in the subsection.
 For example, the course may contain:
 
 .. code-block:: xml
-  
-    <course> 
-        <chapter url_name="exam_review"> 
+
+    <course>
+        <chapter url_name="exam_review">
             <sequential display_name="Simulations" url_name="simulations">
                 <vertical display_name="Unit 1" url_name="Lesson_1_Unit_1"/>
                     . . .
@@ -252,12 +252,12 @@ For example, the course may contain:
 
 ==============================
 ``vertical`` Children
-============================== 
+==============================
 
 The ``vertical`` element contains one or more child elements for each component
 in the vertical, or unit.
 
-note:: 
+note::
   You can embed the content of components in the ``course.xml`` file, as
   child elements of the ``vertical`` element. Hoever, you may want to store
   components in separate files, to better enable content reuse across courses.
@@ -271,7 +271,7 @@ Platform supports a wide range of components, including custom XBlocks.
 The following example shows a vertical with two components:
 
 .. code-block:: xml
-  
+
   <vertical display_name="Lesson_1_Unit_1">
       <html url_name="Introduction"/>
       <video url_name="Unit_1_Video"/>

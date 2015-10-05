@@ -13,14 +13,14 @@ edX Studio
 * The course outline interface has been enhanced. When you are working with
   units, the unit currently being viewed or edited is highlighted in the course
   outline panel on the right. (TNL-291)
-  
+
 ******************************
 edX Learning Management System
 ******************************
 
 * For courses using content experiments, the edX platform now supports problem
   components in graded subsections and grade exports. (TNL-41)
-  
+
 **************************
 edX Insights
 **************************

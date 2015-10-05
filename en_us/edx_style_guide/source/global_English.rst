@@ -44,7 +44,7 @@ However!
 * Do not sacrifice the syntactic cues provided by definite and indefinite articles.
 * Do not omit important information. Be explicit.
 
-Example: 
+Example:
 
 "Block open port on catheter fitting" could mean completely different things
 once the definite article is inserted. Compare "Block the open port on the
@@ -81,7 +81,7 @@ Introduce the list with a complete sentence.
 
 Do not use the bulleted points to complete an introductory sentence fragment.
 
-Make sure each bulleted point can stand alone. 
+Make sure each bulleted point can stand alone.
 
 This approach might increase word count, but it decreases translation cost.
 
@@ -104,9 +104,9 @@ Ask "of what?", "of which?", or "as what?" when you use these words.
   In order to sterilize a reusable product using an autoclave, it must first be
   properly cleaned and disinfected.
 
-  What must be cleaned and disinfected? 
+  What must be cleaned and disinfected?
 
-Avoid broad-reference pronouns. 
+Avoid broad-reference pronouns.
 
   Example:
 
@@ -131,7 +131,7 @@ context for them.
 
   Display it on the screen.
 
-  Change the scroll rate on the display. 
+  Change the scroll rate on the display.
 
 ******************
 Word Choice

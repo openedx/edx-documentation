@@ -25,7 +25,7 @@ Getting Started with Transifex
 ******************************
 
 Contributors wishing to help translate edx-platform and
-associated projects can find edX translation projects on 
+associated projects can find edX translation projects on
 `Transifex <https://www.transifex.com/organization/open-edx/dashboard>`_.
 Note: All strings must be both translated **and reviewed** before
 we will publish them on the edx.org website.
@@ -86,7 +86,7 @@ and in English. To join a review team, request permission from the project coord
 1. Click on the "Members" tab of your language:
 
    .. image:: /images/view-team-members.png
-	   
+
    You'll see a list of all the members of your translation team.
 
 2. Click on one of the Coordinators for the language to be brought to their profile page,
@@ -189,28 +189,28 @@ will break the website.
 
 Examples::
 
-   String: "If you have a general question about {platform_name} please email 
+   String: "If you have a general question about {platform_name} please email
    <a href="mailto:{contact_email}">{contact_email}</a>."
 
-   Good translation: "{platform_name}에 대해 일반적인 질문이 있으면 
+   Good translation: "{platform_name}에 대해 일반적인 질문이 있으면
      <a href="mailto:{contact_email}">{contact_email}</a>로 이메일 주십시요."
 
-   Bad translation: "{platform_name}에 대해 일반적인 질문이 있으면 
+   Bad translation: "{platform_name}에 대해 일반적인 질문이 있으면
      {contact_email}로 이메일 주십시요."
 
      Please do not remove the HTML tags.
 
-   Bad translation: "{platform_name}에 대해 일반적인 질문이 있으면 
+   Bad translation: "{platform_name}에 대해 일반적인 질문이 있으면
      <a href="흔한:{contact_email}">{contact_email}</a>로 이메일 주십시요."
 
      Do not translate the HTML tags. Please use the given HTML tags.
 
-   Bad translation: "{platform_name}에 대해 일반적인 질문이 있으면 
+   Bad translation: "{platform_name}에 대해 일반적인 질문이 있으면
      <b>{contact_email}</b>로 이메일 주십시요."
 
      Do not change the HTML tags to something new. Please use the given HTML tags.
 
-   Bad translation: "{platform_name}에 대해 일반적인 질문이 있으면 
+   Bad translation: "{platform_name}에 대해 일반적인 질문이 있으면
      < a href = " mailto : {contact_email} " > {contact_email} < / a >로 이메일 주십시요."
 
      Do not add additional spacing to the HTML tags. Please use the given HTML tags.

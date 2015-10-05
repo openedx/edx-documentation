@@ -34,7 +34,7 @@ Open edX Fullstack includes the following edX components.
 * `Discern`_, the machine-learning-based automated textual classification API
   service.
 * `Ease`_, a library for the classification of textual content.
-  
+
 
 **************************
 Knowledge Prerequisites
@@ -63,7 +63,7 @@ software.
 
 * A Network File System (NFS) client, if your operating system does not include
   one. Fullstack uses VirtualBox Guest Editions to share folders through NFS.
-  
+
 .. _Install Open edX Fullstack:
 
 *********************************
@@ -80,20 +80,20 @@ allow users to access code directories directly from your computer.
 #. Ensure the ``nfsd`` client is running.
 
 #. Create the ``fullstack`` directory and navigate to it in the command prompt.
-   
+
    .. code-block:: bash
 
      mkdir fullstack
      cd fullstack
 
 #. Download the fullstack Vagrant file.
-   
+
    .. code-block:: bash
 
      curl -L https://raw.githubusercontent.com/edx/configuration/master/vagrant/release/fullstack/Vagrantfile > Vagrantfile
 
 #. Install the Vagrant ``hostsupdater`` plugin.
-   
+
    .. code-block:: bash
 
      vagrant plugin install vagrant-hostsupdater
@@ -117,7 +117,7 @@ Browser Login to Open edX Fullstack
 
 #. In your browser, go to Go to ``preview.localhost``, which is an alias entry
    for 192.168.33.10 that was created in your ``/etc/hosts`` file.
-   
+
    The latest version of fullstack has the demo course pre-loaded and a set of
    dummy accounts.
 

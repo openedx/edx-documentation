@@ -17,7 +17,7 @@ edX Studio
   Video component editor. Open the **Advanced** tab in the Video component
   editor, and use the **Upload** button to find and add a file from your
   computer:
-  
+
   .. image:: images/upload_handout_video.png
    :alt: Image of the Upload Handout section of the Video component editor.
 

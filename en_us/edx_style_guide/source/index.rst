@@ -4,7 +4,7 @@ edX Style Guide
 
 .. toctree::
     :maxdepth: 1
-	
+
     intro.rst
     preferred.rst
     wordlist.rst

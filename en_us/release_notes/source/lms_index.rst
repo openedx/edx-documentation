@@ -4,7 +4,7 @@
 EdX Learning Management System
 ####################################
 
-The following information describes what is new in the edX LMS. 
+The following information describes what is new in the edX LMS.
 
 .. contents::
   :local:

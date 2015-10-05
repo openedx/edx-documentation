@@ -45,7 +45,7 @@ general, the CMS enables an administrator to:
 * Download reports and other analytics that measure views.
 
 Video administrators also work with course teams and the edX media team to
-distribute information and resolve questions about video files. 
+distribute information and resolve questions about video files.
 
 EdX recommends that organizations identify specific individuals to be the
 video administrators for all of your courses. By working with the edX team
@@ -55,11 +55,11 @@ procedures for managing your video assets.
 .. _Establish Access to YouTube Account:
 
 ****************************************
-Establish Access to YouTube Account 
+Establish Access to YouTube Account
 ****************************************
 
 =========================================
-Video Administrator Access to the Account 
+Video Administrator Access to the Account
 =========================================
 
 For :ref:`video administrators<Identify Video Administrators>` to use the
@@ -72,12 +72,12 @@ This procedure only needs to be completed once and can be done by one of
 the video administrators.
 
 ===================================
-Establishing Access to the Account 
+Establishing Access to the Account
 ===================================
 
 #. Create a single Google email (Gmail) account. The recommended format
    for the account name is your edx.org member identifier followed by
-   "CMSmanager". For example, ``HarvardXCMSmanager@gmail.com`` or 
+   "CMSmanager". For example, ``HarvardXCMSmanager@gmail.com`` or
    ``MITxCMSmanager@gmail.com``.
 
 #. Send the email address to the edX media team at ``media@edx.org``.
@@ -125,7 +125,7 @@ more.
 Creating YouTube Channels
 ===============================
 
-.. note:: This procedure only needs to be completed once per course, but it 
+.. note:: This procedure only needs to be completed once per course, but it
  must be complete before the course team begins to add videos to the course in
  Studio.
 
@@ -195,7 +195,7 @@ and invites them to manage the channel.
 
 #. Advise the course team member to expect and respond to the email message
    to activate the channel manager account. Activation must be complete for
-   management access to be granted. 
+   management access to be granted.
 
    See steps 4-5 for :ref:`establishing access to a YouTube account<Establish
    Access to YouTube Account>`.
@@ -204,7 +204,7 @@ Course team members who complete the activation process are channel managers.
 When they log in to YouTube at https://www.youtube.com using the email address
 that has channel manager privileges, they can manage course content.
 
-.. important:: It takes 24 hours to complete the automated encoding and 
+.. important:: It takes 24 hours to complete the automated encoding and
  hosting process for each video file that a course team uploads in Studio.
  Channel managers cannot use YouTube to work with the resulting hosted file
  until after the process is complete.

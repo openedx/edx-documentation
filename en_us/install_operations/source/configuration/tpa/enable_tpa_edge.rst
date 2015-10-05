@@ -52,8 +52,8 @@ Add edX Edge as a Service Provider
 On your Shibboleth system, use the SAML metadata obtained from the XML file to
 add edX Edge to your whitelist of authorized service providers.
 
-For example, you might add the following information to your 
-``$IDP_HOME/conf/relying-party.xml`` file. 
+For example, you might add the following information to your
+``$IDP_HOME/conf/relying-party.xml`` file.
 
 .. code:: xml
 
@@ -64,7 +64,7 @@ For example, you might add the following information to your
 
 For more information about defining a metadata source on a Shibboleth system,
 see the `Shibboleth configuration wiki`_.
-  
+
 .. _Configure User Attributes:
 
 =============================
@@ -112,7 +112,7 @@ defined on your Shibboleth system. For example, you might want to allow
 currently matriculated students to sign in to Edge, but not alumni. The
 ``eduPersonEntitlement`` attribute can be used to restrict access in this way.
 
-.. note:: If you want access to be restricted to certain users, be sure to 
+.. note:: If you want access to be restricted to certain users, be sure to
  let edX know what provider assertions to use to determine access rights.
 
 .. _Send Shibboleth Configuration Data to edX:
@@ -124,13 +124,13 @@ Send Shibboleth Configuration Data to edX
 To complete the integration between your Shibboleth system and Edge, send
 the following information to your institution's edX Partner Manager.
 
-* Metadata: The URL for your Shibboleth IdP metadata XML file. 
+* Metadata: The URL for your Shibboleth IdP metadata XML file.
 
 * Entity ID: The URI that identifies the Identity Provider. This ID must match
   the value specified in the metadata XML.
 
 * User Attributes: A list of the values that you want your Shibboleth system to
-  assert when users sign in to edX Edge. 
+  assert when users sign in to edX Edge.
 
   For more information about how you can work with edX to configure user
   attributes effectively, see :ref:`Configure User Attributes`.
@@ -154,7 +154,7 @@ IdP to sign in to Edge, follow these steps.
 
 #. Select **Use my institutional/campus credentials**. The list of providers
    that appears should include your IdP.
-   
+
    .. image:: ../../Images/tpa_inst_list.png
      :alt: Screen shot of the list of enabled IdPs. Each IdP name is linked to
          the sign in page for the corresponding authentication system.

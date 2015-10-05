@@ -17,7 +17,7 @@ The Open edX system supports these user authentication flows for LTI.
    :depth: 1
 
 ******************************
-Anonymous User Authentication 
+Anonymous User Authentication
 ******************************
 
 The first time a learner encounters an Open edX resource in a course, the
@@ -40,7 +40,7 @@ on your Open edX system for this user authentication flow.
 Open edX User Authentication
 ******************************
 
-The first time a learner encounters an Open edX resource in a course, he is 
+The first time a learner encounters an Open edX resource in a course, he is
 prompted to either sign in with existing credentials or create a user account.
 The Open edX system creates a user account and provisions it with the supplied
 values, and links it to the tool consumer user account for that learner. The
@@ -53,6 +53,6 @@ the Open edX system. This flow provides a smooth learner experience that can
 also satisfy legal requirements or privacy concerns.
 
 After you configure your edX instance as an LTI tool provider, you can
-:ref:`configure Open edX user authentication<Configuring Open edX for LTI 
+:ref:`configure Open edX user authentication<Configuring Open edX for LTI
 Authentication>` between your Open edX system and the tool consumer.
 

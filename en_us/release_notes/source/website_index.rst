@@ -2,7 +2,7 @@
 EdX Website
 ####################################
 
-The following information describes what is new on edx.org and Edge. 
+The following information describes what is new on edx.org and Edge.
 
 .. contents::
   :local:

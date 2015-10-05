@@ -28,7 +28,7 @@ they can reuse course content.
 To enable this feature on your instance of Open edX, you must enable licensing
 in both Studio and the Learning Management System.
 
-.. Note::  
+.. Note::
   Before proceeding, review :ref:`Guidelines for Updating the edX Platform`.
 
 *****************************
@@ -39,7 +39,7 @@ Enable Licensing in Studio
    ``/cms/envs/common.py``
 
 #. In the ``FEATURES`` dictionary, add ``'LICENSING':True``:
-   
+
    .. code-block:: bash
 
       FEATURES = {
@@ -47,7 +47,7 @@ Enable Licensing in Studio
           . . .
 
 #. Save the ``/cms/envs/common.py`` file.
-   
+
 **********************************************************
 Enable Licensing in the Learning Management System
 **********************************************************
@@ -56,7 +56,7 @@ Enable Licensing in the Learning Management System
    ``/lms/envs/common.py``
 
 #. In the ``FEATURES`` dictionary, add ``'LICENSING':True``:
-   
+
    .. code-block:: bash
 
       FEATURES = {

@@ -36,6 +36,6 @@ For more information, see Go to Studio from Your Live Course.
 * Video transcripts are now displayed in their source language. (BLD-935)
 
 * Video transcripts are now available for all video speeds in Firefox. (BLD-958)
-  
+
 
 

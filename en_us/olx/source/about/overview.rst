@@ -17,7 +17,7 @@ You create an HTML file called ``overview.html`` in the ``overview`` directory.
 Overview Sections
 *********************************************
 
-The ``overview.html`` must contain specific sections. 
+The ``overview.html`` must contain specific sections.
 
 Each section is wrapped in ``section`` tags. The value of the ``class``
 attribute specifies what the section is for and how it is displayed to
@@ -37,7 +37,7 @@ The overview must contain sections named the following:
 ************************************************
  A Template For Your Course Overview
 ************************************************
-  
+
 Replace the placeholders in the following template with your information.
 
 .. code-block:: html

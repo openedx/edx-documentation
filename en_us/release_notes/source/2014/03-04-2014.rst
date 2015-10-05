@@ -34,7 +34,7 @@ Accessibility Improvements
 
 * The layout of Course Updates is improved to use semantic tagging and not just simple lists, making the page more accessible to screen readers. (LMS-1724)
 
-* A label is added to the checkbox problem template. 
+* A label is added to the checkbox problem template.
 
 * Confirmation dialog boxes for Open Response Assessments are now screen-reader accessible.
 

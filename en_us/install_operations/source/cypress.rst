@@ -34,7 +34,7 @@ What is the Cypress Git Tag?
 The Git tag for the Cypress release is ``named-release/cypress``. You use this
 tag to identify the version of Open edX code that is the Cypress release.
 
-The following Open edX Git repositories have the Git tag 
+The following Open edX Git repositories have the Git tag
 ``named-release/cypress``.
 
 * edx-platform

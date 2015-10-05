@@ -17,7 +17,7 @@ New Features
 
   When you enter a video URL in the Editing: Video dialog box, the system checks if a timed transcript for that video exists on edX, and if
   so, automatically associates the transcript with the video. If no transcript is found, you click Upload New Timed Transcript to locate and
-  upload the .SRT file for the transcript. 
+  upload the .SRT file for the transcript.
 
   When there is an associated timed transcript, you can click Download to Edit to download a local copy of the .SRT file. You can then
   modify the transcript and upload the new file.
@@ -53,40 +53,40 @@ Known Issues and Workarounds
 Changes and Updates
 ==========================
 
-The following changes are included in this release: 
+The following changes are included in this release:
 
 * Because Course IDs are not case sensitive, all Course IDs must be unique regardless of capitalization. For example, you cannot have
   both edX101 and EdX101 as course IDs. (STUD-873)
 
 
 ***************************************
-edX Learning Management System 
+edX Learning Management System
 ***************************************
 
 
-The following changes are included in this release: 
+The following changes are included in this release:
 
 * The cheatsheet available when you are adding a new Wiki article is now accessible to screen readers. (LMS-1303)
- 
+
 * In the Wiki, active links are now displayed as bold, and have additional text labels, to be accessible to screen readers. (LMS-1306)
- 
+
 * In the Wiki, when you navigate through links with the Tab key, the active link is updated in the same was as when you hover over it with
   the mouse pointer. (LMS-1336)
- 
+
 * Default Wiki permissions are updated so that only course staff can delete Wiki pages. (LMS-1355)
- 
+
 * The Reset Password and Password Reset Confirmation pages are updated to use styles consistent with the system. (LMS-1357)
- 
+
 * In certain situations, students received a 500 error when viewing the Progress page. This problem was resolved in a patch on October 23, 2013. (LMS-1367)
- 
+
 * A visual indicator has been added to the video player to indicate which part of the video will play, when it is not the default. (BLD-391)
- 
+
 * Forum views are updated to improve performance. (FOR-250)
 
 ******************
-Analytics 
+Analytics
 ******************
 
-The following changes are included in this release: 
+The following changes are included in this release:
 
 * Course exports are included with weekly data dumps delivered to university data representatives. (AN-57)

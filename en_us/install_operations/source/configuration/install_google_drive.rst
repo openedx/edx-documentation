@@ -12,7 +12,7 @@ To enable this feature on your instance of Open edX, you install the `Google Dri
 For information about using Google calendars and Google Drive files in courses,
 see the *Building and Running an Open edX Course* guide.
 
-.. Note::  
+.. Note::
   Before proceeding, review :ref:`Guidelines for Updating the edX Platform`.
 
 To install the Google Drive XBlock, follow these steps.
@@ -28,7 +28,7 @@ To install the Google Drive XBlock, follow these steps.
      utils.git@349d6e05dbd553e1f18d3ad1f7ca02c0497f39d7#egg=xblock-utils
 
 #. Add a line to add the Google Drive XBlock.
-   
+
    .. code-block:: bash
 
      git+https://github.com/edx-solutions/xblock-google-drive.

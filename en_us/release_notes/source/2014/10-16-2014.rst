@@ -35,5 +35,5 @@ edX Studio
   time, you enter **YYYY-MM-DDTHH:MM**. Be sure to enter the **T** between the
   date and time.
 
-* The date and time on the **Schedule and Details** page are now shown in 
+* The date and time on the **Schedule and Details** page are now shown in
   Coordinated Universal Time (UTC). (TNL-85)

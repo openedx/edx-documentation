@@ -17,7 +17,7 @@ This section documents the how edX Studio currently exports courses, so that
 you can understand and manually navigate through the structure of exported
 courses.
 
-.. note:: 
+.. note::
   The format of Studio course exports may change in the future; therefore tools
   you create specifically for the current Studio export format may not work for
   future versions. To avoid problems with manually authored OLX courses, we

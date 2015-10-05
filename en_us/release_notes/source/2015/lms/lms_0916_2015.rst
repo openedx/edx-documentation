@@ -10,7 +10,7 @@ in their on-campus learning management systems. The "edX as an LTI Tool
 Provider" feature can make it easier for you to teach with, and students to
 learn from, the best materials available, regardless of platform.
 
-.. note:: Support for this feature is currently provisional. EdX is working 
+.. note:: Support for this feature is currently provisional. EdX is working
  with our early adopter partners to support further testing of this feature
  with additional learning management systems.
 

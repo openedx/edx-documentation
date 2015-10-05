@@ -12,7 +12,7 @@ edX Studio
 
 * To correct problems with the appearance of non-ASCII characters in Studio,
   additional font files were installed. (TNL-395)
-  
+
 ******************************
 edX Learning Management System
 ******************************

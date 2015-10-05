@@ -10,11 +10,11 @@ The following information reflects what is new in the edX Platform as of Septemb
 edX Website
 ***************************************
 
-* Users who signed up for a verified course sometimes saw an incorrect 
+* Users who signed up for a verified course sometimes saw an incorrect
   price. This bug has been fixed. (ECOM-113)
 
-* A problem with auto-registration sometimes prevented verified courses from 
-  appearing on a user's dashboard. This bug has been fixed. (ECOM-199) 
+* A problem with auto-registration sometimes prevented verified courses from
+  appearing on a user's dashboard. This bug has been fixed. (ECOM-199)
 
 *******************************
 edX Learning Management System
@@ -26,8 +26,8 @@ edX Learning Management System
   * When a discussion participant adds a post, the participant must now identify the post as
     either asking a question or starting a discussion.
 
-  * Controls for actions that discussion participants can take on posts, responses, 
-    and comments have moved to the top right of each contribution. 
+  * Controls for actions that discussion participants can take on posts, responses,
+    and comments have moved to the top right of each contribution.
 
   * Informational labels such as "Staff" and "Following" have been redesigned and relocated.
 
@@ -36,9 +36,9 @@ edX Learning Management System
 * Students can now submit their usernames and email addresses to a third party
   by using an LTI interface. (BLD-1250)
 
-* The bulk email feature is now available for all Studio-backed courses on the edx.org site. 
-  With this feature, you can send email messages to course participants directly from 
-  the Instructor Dashboard before, during, and after the course run. For more information, 
+* The bulk email feature is now available for all Studio-backed courses on the edx.org site.
+  With this feature, you can send email messages to course participants directly from
+  the Instructor Dashboard before, during, and after the course run. For more information,
   see Bulk Email and Example Messages to Students.
 
 

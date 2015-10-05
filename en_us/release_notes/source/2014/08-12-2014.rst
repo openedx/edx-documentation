@@ -11,8 +11,8 @@ The following information reflects what is new in the edX Platform as of August
 edX Studio
 ***************************************
 
-* This release includes a redesigned user experience for publishing. 
-  
+* This release includes a redesigned user experience for publishing.
+
   *  The process for creating, releasing, and updating content has been
      streamlined and simplified.
 
@@ -22,13 +22,13 @@ edX Studio
   *  Visual cues are now present on the **Course Outline** page and on
      individual unit pages to indicate whether your content is published and
      whether students can see it.
-  
+
       .. image:: images/PubChange_NewOutline.png
         :alt: The Course Outline page with release dates indicated and callouts for the "Settings" icons that allows you to change it
 
   *  You can select the **Hide from students** check box on a unit page at any
      time to immediately remove that unit from student view.
-  
+
       .. image:: images/Hide_from_Students.png
         :alt: The unit page indicating the new check box on the right side of the page
 
@@ -37,7 +37,7 @@ edX Studio
   Newsletter.
 
 * A graphical user interface is now available for creating and maintaining open
-  response assessment problems. 
+  response assessment problems.
 
   You now define the open response assessment rubric in the following page:
 
@@ -45,7 +45,7 @@ edX Studio
    :alt: The Open Response Assessment editor Rubric tab
 
   You now define settings for the open response assessment in the following page:
-  
+
   .. image:: images/PeerAssessmentSettingsGUI.png
    :alt: The Open Response Assessment editor Settings tab
 

@@ -4,7 +4,7 @@
 EdX Insights
 ####################################
 
-The following information describes what is new in edX Insights. 
+The following information describes what is new in edX Insights.
 
 .. contents::
   :local:

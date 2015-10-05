@@ -12,7 +12,7 @@ content, including advanced problem types and videos, in an on campus or in
 house learning management system. Examples currently include courses running on
 Canvas and Blackboard.
 
-.. note:: Support for this feature is currently provisional. EdX is working 
+.. note:: Support for this feature is currently provisional. EdX is working
  with a set of early adopter partners to support further testing of this
  feature with additional learning management systems.
 

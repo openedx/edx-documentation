@@ -14,7 +14,7 @@ edX Resources
 * A new version of the edX101 course has been released on edx.org. This high-level
   overview of the course creation and delivery process includes guidance for
   adapting traditional courses to the edX platform and introduces the basic
-  course components and problem types that course authors can use. 
+  course components and problem types that course authors can use.
 
 *************
 edX Studio
@@ -24,7 +24,7 @@ edX Studio
   assessment problem, they received an error message. This problem has been
   fixed. (PLAT-249)
 
-  
+
 ******************************
 edX Learning Management System
 ******************************

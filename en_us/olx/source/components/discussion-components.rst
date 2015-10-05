@@ -27,25 +27,25 @@ The name of the XML file must match the value of the @url_name attribute of the
 In-line, you can create, if the vertical XML file contains:
 
 .. code-block:: xml
-  
+
    <vertical display_name="Lesson_1_Unit_1">
-      <discussion 
-          discussion_category="Essays" 
-          discussion_id="peer_grading_component" 
-          discussion_target="Peer Grading" 
+      <discussion
+          discussion_category="Essays"
+          discussion_id="peer_grading_component"
+          discussion_target="Peer Grading"
           display_name="Peer Grading"
 	  url_name="peer_grading_discussion"
-       /> 
+       />
   </vertical>
 
-If you prefer to create the discussion in its own file, you can create: 
+If you prefer to create the discussion in its own file, you can create:
 
 .. code-block:: xml
 
    <vertical display_name="Lesson_1_Unit_1">
-      <discussion 
+      <discussion
 	  url_name="Introduce_Yourself"
-       /> 
+       />
   </vertical>
 
 You create the file ``discussion/Introduce_Yourself.xml`` to define the inline
@@ -97,10 +97,10 @@ Example Discussion Component XML File
 The following example shows an XML file for a discussion component:
 
 .. code-block:: xml
-  
-  <discussion 
-      discussion_category="Essays" 
-      discussion_id="6e51dd8f181b44ffa6d91303a287ed3f" 
-      discussion_target="Peer Grading" 
+
+  <discussion
+      discussion_category="Essays"
+      discussion_id="6e51dd8f181b44ffa6d91303a287ed3f"
+      discussion_target="Peer Grading"
       display_name="Peer Grading"
-   /> 
+   />

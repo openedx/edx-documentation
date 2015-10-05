@@ -18,7 +18,7 @@
 .. _EdX XBlock Tutorial: http://edx.readthedocs.org/projects/xblock-tutorial/en/latest/
 
 .. _EdX XBlock API Guide: http://edx.readthedocs.org/projects/xblock/en/latest/
-  
+
 .. _EdX Open Learning XML Guide: http://edx.readthedocs.org/projects/edx-open-learning-xml/en/latest/
 
 .. _Open edX Platform APIs: http://edx.readthedocs.org/projects/edx-platform-api/en/latest/

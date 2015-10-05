@@ -16,7 +16,7 @@
 * When you add an HTML component to a course outline and select the Full
   Screen Image Tool, IFrame Tool, or Zooming Image Tool, revised example
   templates now appear. The descriptions and procedures in the
-  templates now include additional detail, including how to provide 
+  templates now include additional detail, including how to provide
   accessible labels for your learners.
 
 * A problem with the file locking feature on the **Files & Uploads** page is
