@@ -316,13 +316,6 @@ certificate, you see the following message at the top of the course
 You can request your certificate at any time after you have qualified for the
 certificate. 
 
-.. Caution:: 
-  If you request your certificate before the end of the course, the grade that
-  you see on your dashboard no longer updates automatically as you complete
-  coursework. Your **Progress** page continues to reflect your current grade.
-  To update your grade on your dashboard, request your certificate again.
-
-
 .. _Request Download Certificate:
 
 ====================================
