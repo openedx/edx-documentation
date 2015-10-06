@@ -629,7 +629,7 @@ The following table describes the possible values in the Status column.
        started.
    * - Ready to Start
      - The exam attempt record has been created. The learner still needs to
-       start the  exam.
+       start the exam.
    * - Started
      - The learner has started the proctored exam.
    * - Timed Out
