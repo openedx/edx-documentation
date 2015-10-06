@@ -36,6 +36,16 @@ Your videos can contain whatever content you want to include in the course.
 The `Creating Videos`_ section of `edX101 Overview of Creating an edX Course`_
 has some helpful pointers for creating good video content.
 
+
+.. _Maximum Video File Size:
+
+=========================
+Maximum Video File Size
+=========================
+
+The maximum size for each video file that you upload is 5 GB. The upload
+process fails for larger files.
+
 =========================
 Supported Video Formats
 =========================
