@@ -608,7 +608,7 @@ learners' proctoring sessions contains the following fields.
    * - Started At
      - The date and time that the learner started to take the proctored exam.
    * - Completed At
-     - The date and time that the learner completed the proctored exam.
+     - The date and time that the learner submitted the proctored exam.
    * - Status
      - The status of the proctoring session review. Possible values are
        ``created``, ``ready to start``, ``started``, ``timed out``,
