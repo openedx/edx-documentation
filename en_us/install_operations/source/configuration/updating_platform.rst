@@ -1,11 +1,11 @@
-.. _Guidelines for Updating the edX Platform:
+.. _Guidelines for Updating the Open edX Platform:
 
 ######################################################
-Guidelines for Updating the edX Platform
+Guidelines for Updating the Open edX Platform
 ######################################################
 
-When you update the edX Platform, you should not change configuration files on
-a running server. Doing so can result in unpredictable problems.
+When you update the Open edX Platform, you should not change configuration
+files on a running server. Doing so can result in unpredictable problems.
 
 If you need to change settings on a running server, take the following steps.
 

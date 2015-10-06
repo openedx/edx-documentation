@@ -38,6 +38,7 @@
 
 .. GitHub Links
 
+.. _EdX Search: https://github.com/edx/edx-search/
 
 .. _GitHub Flow: https://github.com/blog/1557-github-flow-in-the-browser
 
