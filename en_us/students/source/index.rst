@@ -18,6 +18,7 @@ edX Learner's Guide
    SFD_video_player
    SFD_google_docs
    SFD_certificates
+   sfd_proctoredexams/index
    SFD_mobile
    SFD_mathformatting
    SFD_ORA
