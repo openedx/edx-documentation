@@ -10,3 +10,4 @@ Academic Course Credit
    SFD_credit_courses
    SFD_in_course_ID_reverification
    SFD_proctored_exams
+   online_proctoring_rules_students

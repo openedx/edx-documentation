@@ -52,5 +52,15 @@ both features in your course.
 
   For more information, see :ref:`In Course Reverification`.
 
-* Proctored exams...
+* Proctored exams are timed exams that learners take while being monitored by
+  online proctoring software. Only learners who have enrolled in the verified
+  track see the proctored exam option in the courseware, and can choose
+  whether they want to take the exam with online proctoring. If they decline
+  the proctored option, they can take the exam with no monitoring and no time
+  limit, but they will not be eligible to earn academic credit for the course,
+  regardless of their final grade. Honor code learners see the same exam in
+  the courseware, but without the proctored exam option. They take the exam as
+  an open exam, with no monitoring and no time limit.
+
+  For more information, see :ref:`CA_ProctoredExams`.
 

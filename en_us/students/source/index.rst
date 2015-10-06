@@ -15,7 +15,7 @@ edX Learner's Guide
    SFD_introduction
    sfd_dashboard_profile/index
    SFD_enrolling
-   SFD_credit_courses
+   SFD_credit_courses/index
    SFD_licensing
    SFD_video_player
    SFD_google_docs
