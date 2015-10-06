@@ -22,6 +22,9 @@ October 2015
 
    * - Date
      - Change
+   * - 5 October 2015
+     - Added the :ref:`Maximum Video File Size` section to the :ref:`Uploading
+       Videos in Studio` topic.
    * - 1 October 2015
      - Added information about awarding partial credit for the following
        problems.
