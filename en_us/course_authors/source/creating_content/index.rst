@@ -22,4 +22,5 @@ Outline page, see :ref:`Developing Your Course Index`.
    create_video
    create_discussion
    create_problem
+   CA_ProctoredExams
    libraries
