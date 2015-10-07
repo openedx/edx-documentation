@@ -1,7 +1,7 @@
 
 Data for each of your course videos is now available in edX Insights. How many
 learners started viewing the video, and how many actually completed it? What
-parts of a video did learners replay, and what parts did they skip over? In
+parts of the video did learners replay, and what parts did they skip over? In
 Insights, metrics and tool tips provide the exact counts, and a chart helps you
 visualize your learners' viewing patterns for each five second segment.
 
@@ -22,7 +22,10 @@ particular part of the video, or skip over a part of the video.
 While you review data for a video in Insights, you can select **Expand
 Preview** to open the video player directly above the chart.
 
-.. another image to come?
+.. image:: /Images/insights_replayed_video_preview.png
+ :width: 800
+ :alt: The video player showing the part of the video that had the highest
+   number of replays, above the chart.
 
 Using the viewing patterns revealed by Insights, you can investigate specific
 segments of your course videos, make deductions about causes, and take action.
