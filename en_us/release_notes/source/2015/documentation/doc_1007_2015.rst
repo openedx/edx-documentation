@@ -36,7 +36,8 @@ EdX Research Guide
 EdX Guide for Students
 ******************************
 
-Updated the :ref:`learners:Certificates` topic to include information about web certificates.
+Updated the :ref:`learners:Certificates` topic to include information about web
+certificates.
 
 ==================================
 Documentation for Open edX Users
@@ -49,7 +50,7 @@ We do not update the documentation for Open edX releases.
 Building and Running an Open edX Course
 ****************************************
 
-* Added the :ref:`opencoursestaff:Using edX as an LTI Tool Provider`
+* Added the :ref:`opencoursestaff:Using Open edX as an LTI Tool Provider`
   section.
 
 * Added the :ref:`opencoursestaff:Setting Up Course Certificates` topic.
