@@ -22,8 +22,8 @@ must complete the following steps.
    of ``backend_setting`` in `init file`_
    to point to your implementation of ``BaseBackend``.
 
-#. Add code to instantiate the new implementation to the :func:`get_backend` in
-   the ``init.py`` file.
+#. Add code to instantiate the new implementation to the ``get_backend()``
+   function in the ``init.py`` file.
 
 #. Configure ORA2 to use the alternative storage system by modifying the value
    of ``ORA2_FILEUPLOAD_BACKEND`` in the Django settings to point to your
