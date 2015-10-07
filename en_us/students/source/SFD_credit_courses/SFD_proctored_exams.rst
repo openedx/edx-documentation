@@ -32,11 +32,11 @@ cheating or using a false identity. Your course might require you to take
 and pass at least one proctored exam to be eligible to purchase academic
 credit.
 
-Proctored exams are indicated with a lock icon in the courseware.
+Proctored exams are indicated in the courseware with a pencil icon and a "Proctored Option Available" label.
 
-.. image:: /Images/Proctoring_LockIcon.png
+.. image:: /Images/Proctoring_PencilIcon.png
  :width: 200
- :alt: Courseware navigation in the LMS showing an exam with a lock icon.
+ :alt: Courseware navigation in the LMS showing an exam with a pencil icon and a "Proctored Option Available" label.
 
 
 .. note:: Proctored exams are visible only if you are enrolled in the verified
@@ -75,15 +75,14 @@ can complete the proctoring setup steps on your computer. It usually includes
 several example problems that you can try to answer. For more information, see
 :ref:`SFD Taking a Practice Exam`.
 
-
 .. note:: Before you take an exam with online proctoring, read the following
    documents to make sure you know what is allowed or not allowed during a
    proctored exam, and make sure your computer and browser version are
    compatible with the online proctoring software.
 
- * :ref:`Online Proctoring Rules`
+  * :ref:`Online Proctoring Rules`
 
- * `Proctoring Software System Requirements`_
+  * `Proctoring Software System Requirements`_
 
 To satisfy the proctored exam requirement for credit eligibility, you must
 take the exam as a proctored exam and receive a **Satisfactory** result for

@@ -20,9 +20,8 @@ index of documents, and then searching within that index for matching
 information.
 
 .. Note::
-  Before proceeding, review :ref:`Guidelines for Updating the edX Platform`.
-
-.. _EdX Search: https://github.com/edx/edx-search/
+  Before proceeding, review :ref:`Guidelines for Updating the Open edX
+  Platform`.
 
 **********************************
 Search Engines and edX Search
@@ -45,8 +44,8 @@ ElasticSearchEngine
 ====================
 
 ElasticSearchEngine is a ElasticSearch back-end implementation. It uses same
-ElasticSearch version that is already part of edX Platform. The current version
-is v0.90.13, and Django Elasticsearch is 0.4.5.
+ElasticSearch version that is already part of Open edX Platform. The current
+version is v0.90.13, and Django Elasticsearch is 0.4.5.
 
 ************************
 EdX Search Requirements
@@ -63,8 +62,8 @@ EdX Search requires the following applications.
 Install edX Search
 *************************
 
-EdX Search is included in edX Platform Github requirements and is installed
-automatically when you install edX Platform.
+EdX Search is included in Open edX Platform Github requirements and is
+installed automatically when you install the Open edX Platform.
 
 For existing installations, you must install edX Search manually.
 
@@ -136,7 +135,7 @@ You can also reindex the course manually through the **Reindex** button in the
 Which Data Gets Indexed
 ==============================
 
-Which data gets indexed is determined by the module :func:`index_dictionary`
+Which data gets indexed is determined by the module ``index_dictionary()``
 function implementation. Modules supporting this method are ``Sequence``,
 ``Vertical``, ``Video`` and ``HTML Block``. You can add support to any module
 type.
@@ -210,7 +209,7 @@ LMS
 
   * default: ``SearchInitializer``
   * LMS implementation:
-    :class:`lms.lib.courseware_search.lms_search_initializer.LmsSearchInitializer`
+    ``lms.lib.courseware_search.lms_search_initializer.LmsSearchInitializer``
 
 * ``SEARCH_RESULT_PROCESSOR``: Used to set custom SearchResultProcessor.
   SearchResultProcessor does post processing and data manipulation on a result
@@ -218,7 +217,7 @@ LMS
 
   * default: ``SearchResultProcessor``
   * LMS implementation:
-    :class:`lms.lib.courseware_search.lms_result_processor.LmsSearchResultProcessor`
+    ``lms.lib.courseware_search.lms_result_processor.LmsSearchResultProcessor``
 
 * ``SEARCH_FILTER_GENERATOR``: Used to set custom SearchFilterGenerator.
   SearchFilterGenerator sets filters defined by current active user. Basic
@@ -226,6 +225,6 @@ LMS
 
   * default: ``SearchFilterGenerator``
   * LMS implementation:
-    :class:`"lms.lib.courseware_search.lms_filter_generator.LmsSearchFilterGenerator`
+    ``lms.lib.courseware_search.lms_filter_generator.LmsSearchFilterGenerator``
 
 .. include:: ../../../links/links.rst
