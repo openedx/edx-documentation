@@ -29,7 +29,8 @@ To enable this feature on your instance of Open edX, you must enable licensing
 in both Studio and the Learning Management System.
 
 .. Note::  
-  Before proceeding, review :ref:`Guidelines for Updating the edX Platform`.
+  Before proceeding, review :ref:`Guidelines for Updating the Open edX
+  Platform`.
 
 *****************************
 Enable Licensing in Studio

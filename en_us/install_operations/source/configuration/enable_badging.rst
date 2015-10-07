@@ -27,7 +27,8 @@ Enabling the badges feature on your instance of Open edX involves the
 following set up and configuration tasks.
 
 .. Note::  
-  Before proceeding, review :ref:`Guidelines for Updating the edX Platform`.
+  Before proceeding, review :ref:`Guidelines for Updating the Open edX
+  Platform`.
 
 *****************************************************************
 Make Sure that Certificates are Enabled
