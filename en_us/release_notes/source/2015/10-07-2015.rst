@@ -4,7 +4,6 @@
 
 The following information reflects what is new in edX Analytics this week.
 
-
 .. contents::
   :local:
   :depth: 1
@@ -14,6 +13,13 @@ Insights
 **************************
 
 .. include:: insights/insights_1007_2015.rst
+
+
+**************************
+EdX Documentation
+**************************
+
+.. include:: documentation/doc_1007_2015.rst
 
 
 .. include:: ../links.rst

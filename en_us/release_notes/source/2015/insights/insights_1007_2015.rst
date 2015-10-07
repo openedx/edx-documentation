@@ -10,9 +10,9 @@ visualize your learners' viewing patterns for each five second segment.
  :alt: A chart and metrics showing a video with a high completion rate.
 
 For some videos, the information that you get from Insights might be a valuable
-confirmation that your learners are engaged by video content. For other videos,
-the information might raise questions about why learners replay, or skip over,
-a particular part of the video.
+confirmation that your learners are engaged by the video content. For other
+videos, the information might raise questions about why learners replay a
+particular part of the video, or skip over a part of the video.
 
 .. image:: /Images/insights_replayed_video.png
  :width: 800
@@ -23,4 +23,4 @@ Using the viewing patterns revealed by Insights, you can investigate specific
 segments of your course videos, make deductions about causes, and take action.
 
 For more information, see the :ref:`insights:Engagement_Video` section in the
-Using edX Insights guide.
+*Using edX Insights* guide.
