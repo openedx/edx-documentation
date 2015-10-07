@@ -1,21 +1,22 @@
 .. _Student Data:
 
 ############################
-Student Data
+Learner Data
 ############################
 
 You can access data about the individuals who are enrolled in your course at
 any time after you create the course.
 
-.. contents:: Section Contents:
+.. contents:: 
   :local:
   :depth: 2
 
-To supplement the student data available from the Instructor Dashboard, you can
-use the charts and reports that are available from edX Insights. With Insights,
-you can monitor student activity and review the number of students who, each
-week, interacted with your course.  For more information, see `Using edX
-Insights`_.
+To supplement the learner data that is available from the Instructor Dashboard,
+you can use the charts and reports that are available from edX Insights. With
+Insights, you can review demographic and geographic distributions for enrolled
+learners. You can also monitor learner activity and review the number of
+learners who, each week, interacted with your course. For more information, see
+:ref:`Using edX Insights<insights:Overview>`.
 
 .. _PII:
 
@@ -25,170 +26,190 @@ Guidance for Working with Personal Information
 
 The information that edX collects from site registrants includes personal
 information that can be used to identify, contact, and locate individuals. This
-information is available to course authors for the students who are enrolled in
-their courses.
+information is available to course team members with the Admin or Staff role
+for the learners who are enrolled in their courses.
 
 Members of the course team should follow the policies established by their
 organizations and comply with the legal requirements of their locales to
 prevent public distribution or misuse of this information.
 
-.. **Question**: I just made this statement up. What guidance can/should we give, for immediate publication and in the future? (sent to Tena and Jennifer Adams 31 Jan 14)
-
 .. _Access_student_data:
 
 ****************************
-Accessing Student Data
+Accessing Learner Data
 ****************************
 
-You can download data about the students who are currently enrolled in your
-course in a CSV (comma-separated values) file. For courses that have fewer than
-200 students enrolled, you can also view data for enrolled students on the
-Instructor Dashboard.
+From the Instructor Dashboard, you can download data about the individuals who
+are currently enrolled in your course in a .csv (comma-separated values) file.
+For courses that have fewer than 200 learners enrolled, you can also view data
+for enrolled learners on the Instructor Dashboard.
 
 For information about course enrollment, see :ref:`Enrollment`.
 
 ======================
-Student-Reported Data
+Learner-Reported Data
 ======================
 
-When students register with edX, they select a public username and supply
-information about themselves. Most of this information is optional, so not all
-of the students who are enrolled in your course provide it.
+When learners create, or register, their user accounts, they select a public
+username and supply their full names and email addresses. Learners also have
+the option to provide personal demographic information, including gender, year
+of birth, and highest level of education completed. Because this information is
+optional, not all of the learners who are enrolled in your course provide it.
 
- .. image:: ../../../shared/building_and_running_chapters/Images/Registration_page.png
-   :alt: Fields that collect student information during registration
+After learners create an account, they can enroll in as many individual courses
+as they choose. 
 
-Students then enroll in as many individual courses as they choose, which enrolls
-them in each selected course.
+* The learner data that is available from the Instructor Dashboard reflects the
+  set of live, current enrollments. Data for the course team, wha are also
+  enrolled in the course, is included.
 
-You can access this self-reported information for all of the students who are
-enrolled in your course.
+* Learners can enroll in your course throughout the defined enrollment period,
+  and they can unenroll from a course at any time.
 
-* username
-* name
-* email
-* year_of_birth
-* gender
-* level_of_education. For more information about the reported values, see
-  `auth_userprofile.level_of_education`_ column in the *edX Research Guide*.
-* mailing_address
-* goals
+* Learners can update their personal information at any time on the
+  :ref:`Account Settings<SFD Account Settings>` page.
 
-The student data that is available to course team members always reflects the
-set of live, current enrollments. Students can enroll in your course throughout
-the defined enrollment period, and they can unenroll from a course at any time.
-Students can also change their email addresses and full names at any time. As a
-result, you may want to download student data periodically to gain insights
-into how the student population changes over time.
+As a result, you might want to download learner data periodically to gain an
+understanding of how the learner population changes over time.
 
-.. note:: In the future, edX may also request that students select a language 
- and location. This data is not collected at this time.
+.. _Columns in the Student Profile Report:
+
+============================================
+Columns in the Student Profile Report
+============================================
+
+The student profile report includes a row for each enrolled learner or course
+team member and the following columns.
+
+.. list-table::
+   :widths: 30 70
+   :header-rows: 1
+
+   * - Column
+     - Description
+   * - id
+     - The user account ID number that the system assigns to each registrant.
+   * - username
+     - The public username entered by the learner. Usernames are required and
+       cannot be changed.
+   * - name
+     - The full name entered by the learner. A name is required. Learners can
+       update this value on the **Account Settings** page.
+   * - email
+     - The email address entered by the learner. An email address is required.
+       Learners can update this value on the **Account Settings** page.
+   * - year_of_birth
+     - This value is optional and can be updated on the **Account Settings**
+       page.
+   * - gender
+     - This value is optional and can be updated on the **Account Settings**
+       page.
+   * - level_of_education
+     - This value is optional and can be updated on the **Account Settings**
+       page. For a list of the possible values, see the description of the
+       :ref:`data:auth_userprofile` table's level_of_education column in the
+       *EdX Research Guide*.
+   * - mailing_address
+     - This value is optional and is supplied only at registration.
+   * - goals
+     - This value is optional and is supplied only at registration.
+   * - cohort
+     - For courses that include learner cohorts, reports the cohort group that
+       is assigned to each learner.
+
+.. note:: The columns for language and location that are included in this 
+ report are present for backward compatibility only. This data is no longer
+ collected during account creation. Selections that learners make for language
+ and country on the **Account Settings** page are not included on this report.
 
 .. _View and download student data:
 
 ==========================================
-Download or View Student Data
+Download or View Learner Data
 ==========================================
 
-You can download a report of student data to learn about the individuals who
-are enrolled in your course. In addition to the self-reported data collected at
-registration, this report includes the user account ID numbers that edX assigns
-to each registrant. For courses that include student cohorts, this report
-includes the cohort group that is assigned to each student.
+You can download a report of learner data to gain more information about the
+individuals who are enrolled in your course. For courses with fewer than 200
+learners enrolled, you also have the option to view learner data on the
+Instructor Dashboard.
 
-When you choose to download student data, a process starts on the edX servers.
-The number of students enrolled in your course, and whether your course has the
-cohort feature enabled, affect how long this process takes. You can download a
-report of student profile information in a CSV (comma-separated values) file
-after the process is complete.
+Download Learner Data
+***********************
 
-For courses with fewer than 200 students enrolled, you also have the option to
-view student data on the Instructor Dashboard.
-
-.. note:: In addition to the data for enrolled students, data for the course 
- team is included in the file or display.
-
-To download student data, follow these steps.
+To download learner data, follow these steps.
 
 #. View the live version of your course.
 
-#. Click **Instructor**, then click **Data Download**.
+#. Select **Instructor**, and then select **Data Download**.
 
-#. To download data about enrolled students in a CSV file, click **Download
+#. To download data about enrolled learners in a CSV file, select **Download
    profile information as a CSV**.
 
-  A status message indicates that report generation is in progress. This
-  process can take some time to complete, but you can navigate away from this
-  page and do other work while it runs.
+  A status message indicates that report generation is in progress. The number
+  of learners enrolled in your course, and whether your course has the cohort
+  feature enabled, affect how long this process takes. This process can take
+  some time to complete, but you can navigate away from this page and do other
+  work while it runs.
 
   To track the progress of the report process, reload the page in your browser
   and scroll down to the **Pending Tasks** section.
 
-4. To open or save a student data report, click the
+4. To open or save a student profile report, select the
    ``{course_id}_student_profile_info_{date}.csv`` file name at the bottom of
    the page.
 
-  All student-supplied data is included in this file without truncation.
+  All learner-supplied data is included in this file without truncation. For
+  more information, see :ref:`Columns in the Student Profile Report`.
 
-To view student data, follow these steps.
+View Learner Data
+***********************
+
+To view learner data, follow these steps.
 
 .. note:: This option is available only for courses with an enrollment of less 
  than 200.
 
 #. View the live version of your course.
 
-#. Click **Instructor**, then click **Data Download**.
+#. Select **Instructor**, and then select **Data Download**.
 
-#. To display data about enrolled students, click **List enrolled students'
+#. To display data about enrolled learners, select **List enrolled students'
    profile information**. 
 
-   A table of the student data displays, with one row for each enrolled
-   student. Longer values, such as student goals, are truncated.
-
- .. image:: ../../../shared/building_and_running_chapters/Images/StudentData_Table.png
-  :alt: Table with columns for the collected data points and rows for each 
-        student on the Instructor Dashboard
-
-For courses that have the cohorts feature enabled, this report also includes a
-Cohort column with each student's assigned cohort group.
-
-.. note:: The columns for language and location are included in this report 
- for backward compatibility only. This data is no longer collected during
- student registration.
+   A table of profile data displays, with one row for each enrolled learner.
+   Longer values, such as goals, are truncated. For more information, see
+   :ref:`Columns in the Student Profile Report`.
 
 .. _Access_anonymized:
 
 ********************************
-Accessing Anonymized Student IDs
+Accessing Anonymized Learner IDs
 ********************************
 
 Some of the tools that are available for use with the edX platform, including
-external graders and surveys, work with anonymized student data. If it becomes
+external graders and surveys, work with anonymized learner data. If it becomes
 necessary for you to deanonymize previously anonymized data, you can download a
 CSV file to use for that purpose.
 
-To download a file of assigned user IDs and anonymized user IDs:
+To download a file of assigned user IDs and anonymized user IDs, follow these
+steps.
 
 #. View the live version of your course.
 
-#. Click **Instructor**, then click **Data Download**.
+#. Select **Instructor**, and then select **Data Download**.
 
-#. Click **Get Student Anonymized IDs CSV**.
+#. Select **Get Student Anonymized IDs CSV**.
 
 You are prompted to open or save the {course-id}-anon-id.csv file for your
-course. This file contains the user ID that is assigned to each student at
+course. This file contains the user ID that is assigned to each learner at
 registration and its corresponding edX-wide anonymized user ID and course
-specific anonymized user ID. Values are included for every student who ever
+specific anonymized user ID. Values are included for every learner who ever
 enrolled for your course.
 
-To research and deanonymize student data, you can use this file together with
-the ``{course_id}_student_profile_info_{date}.csv`` file of student data or the
+To research and deanonymize learner data, you can use this file together with
+the ``{course_id}_student_profile_info_{date}.csv`` file of learner data or the
 ``{course_id}_grade_report_{date}.csv`` file of grades.
 
 .. only:: Open_edX
 
     .. include:: ../../../shared/building_and_running_chapters/running_course/Section_course_student.rst
-
-
-.. _Using edX Insights: http://edx-insights.readthedocs.org/en/latest/
-.. _auth_userprofile.level_of_education: http://edx.readthedocs.org/projects/devdata/en/latest/internal_data_formats/sql_schema.html#level-of-education

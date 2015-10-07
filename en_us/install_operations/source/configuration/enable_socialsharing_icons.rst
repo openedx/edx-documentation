@@ -29,7 +29,7 @@ URLS, a link to the course About page in the LMS is used.
 
 .. note::  
    Before proceeding, review :ref:`Guidelines for Updating the edX Platform`.
-
+   
 *******************************
 Configure Social Sharing
 *******************************

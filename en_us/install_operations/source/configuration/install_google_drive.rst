@@ -13,7 +13,8 @@ For information about using Google calendars and Google Drive files in courses,
 see the *Building and Running an Open edX Course* guide.
 
 .. Note::  
-  Before proceeding, review :ref:`Guidelines for Updating the edX Platform`.
+  Before proceeding, review :ref:`Guidelines for Updating the Open edX
+  Platform`.
 
 To install the Google Drive XBlock, follow these steps.
 
