@@ -28,7 +28,8 @@ site can include a link back to that URL. If you do not enable custom course
 URLS, a link to the course About page in the LMS is used.
 
 .. note::  
-   Before proceeding, review :ref:`Guidelines for Updating the edX Platform`.
+   Before proceeding, review :ref:`Guidelines for Updating the Open edX
+   Platform`.
 
 *******************************
 Configure Social Sharing

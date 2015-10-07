@@ -25,7 +25,8 @@ feature flag in both Studio and the Learning Management System and perform the
 configuration tasks described in this topic.
 
 .. Note::  
-  Before proceeding, review :ref:`Guidelines for Updating the edX Platform`.
+  Before proceeding, review :ref:`Guidelines for Updating the Open edX
+  Platform`.
 
 *****************************************************************
 Enable Certificates in Studio and the Learning Management System

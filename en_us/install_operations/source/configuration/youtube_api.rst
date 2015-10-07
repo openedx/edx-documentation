@@ -32,7 +32,8 @@ keys: server keys or browser keys. You should use a **browser key** for
 Open edX.
 
 .. Note::
-  Before proceeding, review :ref:`Guidelines for Updating the edX Platform`.
+  Before proceeding, review :ref:`Guidelines for Updating the Open edX
+  Platform`.
 
 ******************************************
 Install the YouTube API key in Open edX
