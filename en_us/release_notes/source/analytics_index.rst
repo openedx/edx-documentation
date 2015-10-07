@@ -4,7 +4,7 @@
 EdX Analytics
 ####################################
 
-The following information describes what is new in edX analytics. 
+The following information describes what is new in edX analytics.
 
 .. contents::
   :local:

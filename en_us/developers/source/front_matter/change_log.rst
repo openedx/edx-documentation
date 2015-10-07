@@ -29,4 +29,4 @@ Change Log
    * - 13 Jan 2015
      - Moved document to edx-documentation repo and created separate project in
        edx-platform repo for internal docstrings.
-   
+

@@ -8,14 +8,14 @@ After a video administrator works with the edX media team to complete
 :ref:`preliminary setup<Video Getting Started>` for the entire institution,
 individual course teams can begin to upload video files for their courses in
 Studio. This section describes the specifications met by successful video
-files, the steps to upload the files, and how you monitor video processing 
+files, the steps to upload the files, and how you monitor video processing
 at edX.
 
-.. removed "how course teams enable the video upload process in Studio, " 
+.. removed "how course teams enable the video upload process in Studio, "
 
-* :ref:`Specifications for Successful Video Files` 
+* :ref:`Specifications for Successful Video Files`
 
-* :ref:`Upload Video Files`  
+* :ref:`Upload Video Files`
 
 * :ref:`Monitor Video Processing`
 
@@ -81,7 +81,7 @@ For best results, your video files should have these compression specifications.
    * - Size
      - 5GB maximum
 
-.. note:: Typically you export at the same frame rate that was used when you 
+.. note:: Typically you export at the same frame rate that was used when you
  created the media file. For example, if you create the file in a country that
  uses the PAL system, you export at 25 fps instead of the NTSC standard of
  29.97 fps.
@@ -122,7 +122,7 @@ parties identify and track video files over time.
    identifier for your course. The edX media team defines a unique video
    identifier for each course.
 
-.. #. Open the course in Studio. 
+.. #. Open the course in Studio.
 
 .. #. Select **Settings**, then **Advanced Settings**.
 
@@ -135,7 +135,7 @@ parties identify and track video files over time.
 
 .. #. Click **Save Changes**. Studio reformats the name:value pair you just
    entered to indent it on a new line.
-   
+
  .. image:: Images/Enable_video_upload.png
   :alt: Video Upload Credentials field with the course_video_upload_token
       policy key and a token value
@@ -148,14 +148,14 @@ parties identify and track video files over time.
 .. _Upload Video Files:
 
 ***************************
-Upload Video Files 
+Upload Video Files
 ***************************
 
 Before you can upload video files, the video upload feature must be enabled
 for the course. Your video administrator coordinates this task with the edX
 media team. See :ref:`Create YouTube Channels`.
 
-#. Open the course in Studio. 
+#. Open the course in Studio.
 
 #. Select **Content**, then **Video Uploads**.
 
@@ -179,14 +179,14 @@ is successful. If the status changes to Failed, the file upload process is not
 successful. You can monitor file progress on the **Video Uploads** page or
 download a report.
 
-.. _Monitor Video Processing: 
+.. _Monitor Video Processing:
 
 ***************************
 Monitor Video Processing
 ***************************
 
 After your video files successfully reach the edX servers, automated
-processing begins. 
+processing begins.
 
 .. note:: Automated processing takes 24 hours to complete.
 
@@ -210,7 +210,7 @@ The encoding and hosting process assigns these statuses to video files.
   processing. See :ref:`Specifications for Successful Video Files`. Then try
   uploading the file (or its replacement) again.
 
-* **In Progress** files are undergoing processing to create additional file 
+* **In Progress** files are undergoing processing to create additional file
   formats or waiting for successful transfer to the host sites.
 
 * **Ready** files are ready for inclusion in your course and for learners to
@@ -241,7 +241,7 @@ To report the status of the encoding and hosting process of every video file
 that you upload, as well as the assigned video IDs, you can download a CSV
 file.
 
-#. Open the course in Studio. 
+#. Open the course in Studio.
 
 #. Select **Content**, then **Video Uploads**.
 
@@ -287,7 +287,7 @@ generated and delivered to its destination.
   default, the edX video player delivers this video.
 
 The edX encoding and hosting process produces these alternatives to ensure
-optimal playback quality for your learners. 
+optimal playback quality for your learners.
 
 
 .. _Creating Videos: https://courses.edx.org/courses/edX/edX101/2014/courseware/c2a1714627a945afaceabdfb651088cf/9dd6e5fdf64b49a89feac208ab544760/

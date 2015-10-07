@@ -590,7 +590,7 @@
 .. _Text Input Problem: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/text_input.html
 
 .. _Numerical Input Problem - Open edX: http://edx.readthedocs.org/projects/open-edx-building-and-running-a-course/en/latest/exercises_tools/numerical_input.html#numerical-input
- 
+
 .. _Text Input Problem - Open edX: http://edx.readthedocs.org/projects/open-edx-building-and-running-a-course/en/latest/exercises_tools/text_input.html
 
 .. _Answer Data: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/running_course/course_answers.html#review-answers

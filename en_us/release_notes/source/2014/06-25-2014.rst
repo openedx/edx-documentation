@@ -18,11 +18,11 @@ Problem component. For more information, see Creating Peer Assessments.
 ***************************************
 edX Learning Management System
 ***************************************
-   
+
 * In some courses, an error prevented the full output that is available from an
   external grader for a coding problem from appearing. This error has been
   corrected. (LMS-2852)
 
 * In Discussions, you can now search by username to access a list of the
   discussion posts made by another user. (FOR-627)
-  
+

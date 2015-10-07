@@ -44,12 +44,12 @@ follow these steps.
   - **Consumer Key**: The console generates a unique key value for this
     tool consumer. Alternatively, you can use an external application to
     generate the key, and then enter it here.
-  
+
   - **Consumer Secret**: The console generates a unique secret value for this
     tool consumer. Alternatively, you can use an external application to
     generate the secret, and then enter it here.
 
-  .. important:: Do not supply a value for the **Instance guid** field. The 
+  .. important:: Do not supply a value for the **Instance guid** field. The
    tool consumer generates and supplies a globally unique identifier.
 
 5. Select **Save** at the bottom of the page.

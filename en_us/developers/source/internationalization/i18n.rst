@@ -87,10 +87,10 @@ Python source code
 In most Python source code (read the Django docs for more details)::
 
     from django.utils.translation import ugettext as _
-    
+
     # Translators: This will help the translator
     message = _("Welcome!")
-    
+
     # Translators: This is a very long comment that needs to wrap
     # over multiple lines because it would be too long otherwise.
     message = _("Hello world")
@@ -122,7 +122,7 @@ Django template files
 In Django template files (`templates/*.html`)::
 
     {% load i18n %}
-    
+
     {# Translators: this will help the translator. #}
     {% trans "Welcome!" %}
 
@@ -136,7 +136,7 @@ available to python programmers. Just make sure to import the relevant
 functions first. Here's a Mako template example::
 
     <%! from django.utils.translation import ugettext as _ %>
- 
+
     ## Translators: message to the translator. This comment may
     ## wrap on to multiple lines if needed, as long as they are
     ## lines directly above the marked up string.
@@ -192,7 +192,7 @@ native Coffeescript features that break the extraction from the .js files:
     # NO NO not like this:
     # Translators: this won't get to the translators!
     message = gettext("Welcome, #{student_name}!")  # This won't work!
-    
+
     # YES like this:
     `// Translators: this will get to the translators.`
     message = gettext("This works")
@@ -201,7 +201,7 @@ native Coffeescript features that break the extraction from the .js files:
     Translators: This will work, but takes three lines :(
     ###
     message = gettext("Hey there")
- 
+
 .. highlight:: python
 
 Underscore template files
@@ -227,9 +227,9 @@ as this will HTML escape the string before including it in the page. This
 ensures that translations are free to use non-HTML characters.
 Important note: Due to the bug in the underlying underscore extraction library,
 when ```interpolate``` and ```gettext``` are in the same line, the library will
-not work properly; in such situation, the library will just extract the word 
-```gettext``` rather than the actual string need to be extracted. So please make 
-sure to separate ```interpolate``` and ```gettext``` into two different lines, 
+not work properly; in such situation, the library will just extract the word
+```gettext``` rather than the actual string need to be extracted. So please make
+sure to separate ```interpolate``` and ```gettext``` into two different lines,
 just like the above example does.
 
 Currently, translators comments are not supported in Underscore template files,
@@ -261,7 +261,7 @@ properly.
 First, use the coverage tool to generate dummy files::
 
     $ paver i18n_dummy
-    
+
 This will create new dummy translations in the Esperanto directory
 (edx-platform/conf/local/eo/LC_MESSAGES) and the RTL directory
 (edx-platform/conf/local/rtl/LC_MESSAGES). DO NOT CHECK THESE FILES IN. You
@@ -284,13 +284,13 @@ strings that look like this:
 
 This dummy text is distinguished by extra accent characters. If you see plain
 English instead (without these accents), it most likely means the string has
-not been marked for translation yet, or you've broken a rule. To fix this: 
+not been marked for translation yet, or you've broken a rule. To fix this:
 
 * Find the string in the source tree (either in Python, JavaScript, or HTML
-  template code). 
+  template code).
 
 * Refer to the above coding guidelines to make sure it has been externalized
-  properly. 
+  properly.
 
 * Rerun the scripts and confirm that the strings are now properly converted
   into dummy text.
@@ -333,7 +333,7 @@ Bad::
     message = _("Welcome to the ") + settings.PLATFORM_NAME + _(" dashboard.")
 
 In this scenario, the translator will have to figure out how to translate these
-two separate strings. It is very difficult to translate a fragment like "Welcome to 
+two separate strings. It is very difficult to translate a fragment like "Welcome to
 the." In some languages the fragments will be in different order.
 For example, Spanish would order this phrase as "Welcome to the dashboard of edX".
 

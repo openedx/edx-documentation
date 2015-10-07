@@ -6,6 +6,6 @@ Information for Your Students
 
 .. toctree::
    :maxdepth: 2
-   
+
    math_students
    ora_students

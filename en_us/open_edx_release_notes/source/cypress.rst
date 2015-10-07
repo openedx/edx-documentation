@@ -151,7 +151,7 @@ each learner.
   passing grade in the course at the time of the grade report generation.
 
 * Certificate delivery status, to identify learners who have received their
-  certificates. 
+  certificates.
 
 * The type of certificate, for learners who are eligible to receive a
   certificate.
@@ -339,7 +339,7 @@ With the Cypress release, you can configure ORA2 to store files in an alternate
 system. To have learners' files stored in a system other than Amazon S3, you
 must complete the following steps.
 
-#. Implement the ``BaseBackend`` class defined in the `base.py`_ file. 
+#. Implement the ``BaseBackend`` class defined in the `base.py`_ file.
 
    For example, the `S3.py`_ file in the same directory is an implementation of
    ``BaseBackend`` for Amazon S3. You must implement the equivalent class for
@@ -432,7 +432,7 @@ enhancements in the Open edX LMS and discussions.
 
 * Keyboard navigation in open response assessments has been improved by
   restoring keyboard focus outline indicators.
-  
+
 * The LMS now has a region with a role of main and a descriptive aria-label
   allowing users to quickly navigate to the main content area using landmarks.
 
@@ -444,7 +444,7 @@ enhancements in the Open edX LMS and discussions.
 
 * The workflow for checking how ASCII math is converted to MathML or MathJax
   format has been streamlined for screen reader users.
-  
+
 * Nonessential information is no longer included in aria-live regions, which
   improves the experience for screen reader users.
 
@@ -457,7 +457,7 @@ enhancements in the Open edX LMS and discussions.
 * The main blue colors used throughout the LMS user interface
   were changed to meet WCAG AA guidelines for contrast.
 
-* The LMS now includes an aria-live region to contain HTML for problems. 
+* The LMS now includes an aria-live region to contain HTML for problems.
 
 * Submission buttons have been removed from the aria-live div scope.
 
@@ -507,6 +507,6 @@ in each release on edx.org. You can subscribe to have release announcements
 sent to your email account.
 
 Changes listed on 8 July 2015 and before are included in the Cypress release
-of Open edX. 
+of Open edX.
 
 .. include:: links.rst

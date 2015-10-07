@@ -7,7 +7,7 @@ Configure the Milestones Application
 
 #. Set the value of ``MILESTONES_APP`` in the ``/cms/envs/common.py`` and
    ``/lms/envs/common.py`` files to ``True``.
-   
+
    .. code-block:: bash
 
        # Milestones application flag

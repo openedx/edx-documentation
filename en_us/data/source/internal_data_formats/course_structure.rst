@@ -4,9 +4,9 @@
 Course Content Data
 ####################
 
-For each course, the database files include a 
+For each course, the database files include a
 ``{org}-{course}-{date}-course_structure-{site}-analytics.json`` JSON file.
-Researchers can use this file to gain an overview of a course's content and 
+Researchers can use this file to gain an overview of a course's content and
 investigate course state at a point in time.
 
 This section describes the contents of the ``course_structure`` file.
@@ -151,55 +151,55 @@ Course Data Sample
 .. code-block:: json
 
    "i4x://edX/DemoX/course/1T2015": {
-      "category": "course", 
+      "category": "course",
       "children": [
-        "i4x://edX/DemoX/chapter/1ff96c6155eb40c39140c656cdc2708b", 
-        "i4x://edX/DemoX/chapter/00d4374f346b4744aa6f4708cdf46d53", 
-        "i4x://edX/DemoX/chapter/abc5cf5203ee494faf73fa3f55b4485b", 
-        "i4x://edX/DemoX/chapter/a783b6e59fe24917985a8aa29eeec150", 
+        "i4x://edX/DemoX/chapter/1ff96c6155eb40c39140c656cdc2708b",
+        "i4x://edX/DemoX/chapter/00d4374f346b4744aa6f4708cdf46d53",
+        "i4x://edX/DemoX/chapter/abc5cf5203ee494faf73fa3f55b4485b",
+        "i4x://edX/DemoX/chapter/a783b6e59fe24917985a8aa29eeec150",
         "i4x://edX/DemoX/chapter/0cdd0de7b1f740468381c265796f6f63"
-      ], 
+      ],
       "metadata": {
-        "advertised_start": "4/15/2015", 
-        "days_early_for_beta": 90.0, 
+        "advertised_start": "4/15/2015",
+        "days_early_for_beta": 90.0,
         "discussion_topics": {
           "General": {
             "id": "i4x-edX-DemoX-course-1T2015"
           }
-        }, 
-        "display_name": "edX Demonstration Course", 
-        "end": null, 
-        "graceperiod": "18000 seconds", 
-        "start": "2014-08-10T07:00:00Z", 
+        },
+        "display_name": "edX Demonstration Course",
+        "end": null,
+        "graceperiod": "18000 seconds",
+        "start": "2014-08-10T07:00:00Z",
         "tabs": [
           {
-            "name": "Courseware", 
+            "name": "Courseware",
             "type": "courseware"
-          }, 
+          },
           {
-            "name": "Course Info", 
+            "name": "Course Info",
             "type": "course_info"
-          }, 
+          },
           {
-            "name": "Discussion", 
+            "name": "Discussion",
             "type": "discussion"
-          }, 
+          },
           {
-            "name": "edX Community", 
-            "type": "static_tab", 
+            "name": "edX Community",
+            "type": "static_tab",
             "url_slug": "67e8a9e44dde4e97b2bd33a928b9099e"
           }
           {
-            "name": "Progress", 
+            "name": "Progress",
             "type": "progress"
-          }, 
+          },
           {
-            "name": "Wiki", 
+            "name": "Wiki",
             "type": "wiki"
           }
         ]
       }
-    }, 
+    },
 
 
 .. _Course Building Block Data:
@@ -267,51 +267,51 @@ Course Building Block Data Sample
 .. code-block:: json
 
   "i4x://edX/DemoX/chapter/00d4374f346b4744aa6f4708cdf46d53": {
-    "category": "chapter", 
+    "category": "chapter",
     "children": [
       "i4x://edX/DemoX/sequential/9681154b9c0a4baaafb5f4e26bc71550"
-    ], 
+    ],
     "metadata": {
-      "display_name": "Introduction to edX Studio", 
-      "start": "2020-08-09T16:00:00Z", 
+      "display_name": "Introduction to edX Studio",
+      "start": "2020-08-09T16:00:00Z",
       "visible_to_staff_only": true
     }
-  }, 
+  },
   .
   .
   .
   "i4x://edX/DemoX/sequential/547f430ffd414a5fbb4a080fd5eb7566": {
-    "category": "sequential", 
+    "category": "sequential",
     "children": [
-      "i4x://edX/DemoX/vertical/2ea89cbec5bd4034981a70abff7a82e1", 
+      "i4x://edX/DemoX/vertical/2ea89cbec5bd4034981a70abff7a82e1",
       "i4x://edX/DemoX/vertical/7405431e9fe14354a39ac52a2973bc1c"
-    ], 
+    ],
     "metadata": {
       "display_name": "What Does an edX Course Look Like?"
     }
-  }, 
+  },
   .
   .
   .
    "i4x://edX/DemoX/vertical/7405431e9fe14354a39ac52a2973bc1c": {
-    "category": "vertical", 
+    "category": "vertical",
     "children": [
-      "i4x://edX/DemoX/html/d3bd5215cf044056beb8e6f7f3e3afc4", 
+      "i4x://edX/DemoX/html/d3bd5215cf044056beb8e6f7f3e3afc4",
       "i4x://edX/DemoX/video/ddf62dd7bff249efa1add6776f1e2ab8"
-    ], 
+    ],
     "metadata": {
       "display_name": "Your Course Info"
     }
-  }, 
+  },
   .
   .
   .
   "i4x://edX/DemoX/vertical/778671e308e446409c0c797d9d424eae": {
-    "category": "vertical", 
+    "category": "vertical",
     "children": [
-      "i4x://edX/DemoX/problem/db71da27320a44bdb45df31d0d801e20", 
+      "i4x://edX/DemoX/problem/db71da27320a44bdb45df31d0d801e20",
       "i4x://edX/DemoX/discussion/05d808aad49543de997964be3bfac528"
-    ], 
+    ],
     "metadata": {
       "display_name": "Exercise Gallery"
     }
@@ -332,7 +332,7 @@ sample that follows extracts objects for each of these component types from a
 The ``children`` array is not used for these types of objects.
 
 The ``metadata`` field provides information about parameters set for a
-component. 
+component.
 
 * The ``metadata.display_name`` member field applies to all of the basic
   component types. This name identifies the component to learners in the LMS
@@ -351,58 +351,58 @@ Course Component Data Sample
 .. code-block:: json
 
   "i4x://edX/DemoX/html/d3bd5215cf044056beb8e6f7f3e3afc4": {
-    "category": "html", 
-    "children": [], 
+    "category": "html",
+    "children": [],
     "metadata": {
       "display_name": "Intro to Video"
     }
-  }, 
+  },
   .
   .
   .
   "i4x://edX/DemoX/video/ddf62dd7bff249efa1add6776f1e2ab8": {
-    "category": "video", 
-    "children": [], 
+    "category": "video",
+    "children": [],
     "metadata": {
-      "display_name": "Your Course About Page", 
-      "download_track": true, 
-      "download_video": true, 
-      "end_time": "00:07:24", 
+      "display_name": "Your Course About Page",
+      "download_track": true,
+      "download_video": true,
+      "end_time": "00:07:24",
       "html5_sources": [
         "https://d2f1egay8yehza.cloudfront.net/BERGG101/BERGG101T314-V001800_100.mp4"
-      ], 
-      "sub": "BERGG101T314-V001800_100", 
+      ],
+      "sub": "BERGG101T314-V001800_100",
       "youtube_id_1_0": "uxypPaUu8ng"
     }
-  }, 
+  },
   .
   .
   .
     "i4x://edX/DemoX/problem/db71da27320a44bdb45df31d0d801e20": {
-    "category": "problem", 
-    "children": [], 
+    "category": "problem",
+    "children": [],
     "metadata": {
-      "display_name": "Multiple Choice Questions", 
-      "markdown": "Many edX courses have homework or exercises you need to complete.  Notice the clock image to the left?  That means this homework or exercise needs to be completed for you to pass the course.\n\nAs you go through the question types, notice how edX gives you immediate feedback on your responses - it really helps in the learning process.\n\nWhat color is the open ocean on a sunny day?\n\n[[yellow, (blue), green]]\n\n\nWhich of the following are musical instruments?\n\n[x] a piano\n[ ] a tree\n[x] a guitar\n[ ] a window\n\n\n ", 
-      "max_attempts": null, 
-      "rerandomize": "never", 
-      "showanswer": "never", 
+      "display_name": "Multiple Choice Questions",
+      "markdown": "Many edX courses have homework or exercises you need to complete.  Notice the clock image to the left?  That means this homework or exercise needs to be completed for you to pass the course.\n\nAs you go through the question types, notice how edX gives you immediate feedback on your responses - it really helps in the learning process.\n\nWhat color is the open ocean on a sunny day?\n\n[[yellow, (blue), green]]\n\n\nWhich of the following are musical instruments?\n\n[x] a piano\n[ ] a tree\n[x] a guitar\n[ ] a window\n\n\n ",
+      "max_attempts": null,
+      "rerandomize": "never",
+      "showanswer": "never",
       "weight": null
     }
-  }, 
+  },
   .
   .
   .
   "i4x://edX/DemoX/discussion/05d808aad49543de997964be3bfac528": {
-    "category": "discussion", 
-    "children": [], 
+    "category": "discussion",
+    "children": [],
     "metadata": {
-      "discussion_category": "Week 2", 
-      "discussion_id": "7be676c36bba4486aeeabe3ecb5b06e8", 
-      "discussion_target": "Improve the Question", 
+      "discussion_category": "Week 2",
+      "discussion_id": "7be676c36bba4486aeeabe3ecb5b06e8",
+      "discussion_target": "Improve the Question",
       "display_name": "Discussion Space: Improve the Question"
     }
-  }, 
+  },
 
 
 .. include:: ../../../links/links.rst

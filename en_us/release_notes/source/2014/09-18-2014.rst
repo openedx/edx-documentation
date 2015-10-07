@@ -10,9 +10,9 @@ September 18, 2014. See previous pages in this document for a history of changes
 edX Learning Management System
 *******************************
 
-* On the **Discussions** tab, an error message sometimes appeared when you clicked through the thread list quickly. This bug has been fixed. 
+* On the **Discussions** tab, an error message sometimes appeared when you clicked through the thread list quickly. This bug has been fixed.
 
-* A "Page Not Found" error that could occur in some circumstances has been fixed. Previously, if a student closed the browser window after viewing a course section, and the course team later made that section unavailable, the error could occur when the student returned to the course section. (LMS-6492) 
+* A "Page Not Found" error that could occur in some circumstances has been fixed. Previously, if a student closed the browser window after viewing a course section, and the course team later made that section unavailable, the error could occur when the student returned to the course section. (LMS-6492)
 
 * If a student changed the playback speed of a video in Firefox, the video did not play. This bug has been fixed. (BLD-1221)
 

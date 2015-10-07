@@ -50,7 +50,7 @@ to `docs@edx.org <mailto://docs@edx.org>`_.
 .. _Time Zones:
 
 ************************
-A Note about Time Zones 
+A Note about Time Zones
 ************************
 
 As you work through your course, you'll see dates and times when new materials

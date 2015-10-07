@@ -4,7 +4,7 @@
 Change Log for 2013 through 2014
 ################################
 
-This section lists changes in this document from 2013 and 2014. 
+This section lists changes in this document from 2013 and 2014.
 
 For more recent changes, see :ref:`Change Log for 2015`.
 
@@ -12,7 +12,7 @@ For more recent changes, see :ref:`Change Log for 2015`.
  :local:
  :depth: 1
 
-.. note:: Because of later changes in this document that made old links 
+.. note:: Because of later changes in this document that made old links
   obsolete, links have been removed from this table. Use the table of contents,
   the :ref:`document index` index page, or search to find the information you
   need.
@@ -34,9 +34,9 @@ December 2014
      - Updated Adding Course Updates and Handouts and The Visual
        Editor to clarify that the visual editor is not supported for course
        handouts.
-   * - 
+   * -
      - Added the Assign Students to Cohort Groups by uploading CSV
-       section.       
+       section.
    * - 12/17/14
      - Updated Custom JavaScript and Multiple Problems in One
        Component to indicate that you cannot use a custom JavaScript problem
@@ -44,7 +44,7 @@ December 2014
    * - 12/02/14
      - Added an email template for a <weekly highlights<Weekly
        Highlights> message to students.
-   * - 
+   * -
      - The Bulk Email topic is now in the Running Your Course
        Index section.
 
@@ -75,14 +75,14 @@ November 2014
    * - 11/12/14
      - Corrected the description of the Show Answer setting for
        problems.
-   * - 
-     - Added note that students can see the **Course Info** page and 
-       course-wide discussion topics as soon as they enroll in a course to 
+   * -
+     - Added note that students can see the **Course Info** page and
+       course-wide discussion topics as soon as they enroll in a course to
        the Set Start and End Dates topic.
    * - 11/07/14
      - Added a caution that content experiments are only supported within
        verticals, in Add a Content Experiment in OLX.
-       
+
 *****************
 October 2014
 *****************
@@ -94,7 +94,7 @@ October 2014
    * - Date
      - Change
    * - 10/31/14
-     - Added warning in Export a Course about sensitive or 
+     - Added warning in Export a Course about sensitive or
        license-specific information that is included when you export a course.
    * - 10/30/14
      - Added an email template<Verified Registration Reminder> for
@@ -109,7 +109,7 @@ October 2014
    * - 10/27/14
      - Fixed the code sample in Script Tag Format in the Write
        Your Own Grader chapter.
-   * - 
+   * -
      - Fixed a bug in Text Input Problem XML.
    * -
      - Added Create a Randomized Custom Python-Evaluated Input Problem.
@@ -117,13 +117,13 @@ October 2014
      - Added a note about limited support of the annotation problem type to
        Annotation.
    * - 10/16/14
-     - Updated Scheduling Your Course to reflect 
+     - Updated Scheduling Your Course to reflect
        that course dates now use UTC.
    * - 10/14/14
      - Added the Rerun a Course chapter.
    * - 10/7/14
      - Added the Including Student Cohorts chapter.
-       
+
 *****************
 September 2014
 *****************
@@ -144,10 +144,10 @@ September 2014
    * - 09/11/14
      - Added info about possible problem types to Problem with Adaptive
        Hint.
-   * - 
+   * -
      - Removed "These problems only allow integers and a few select constants"
        from the table of problem types in Create Exercises.
-   * - 
+   * -
      - Added a note about angle bracket characters to the Dropdown
        topic.
    * - 09/26/14
@@ -165,9 +165,9 @@ August 2014
      - Change
    * - 08/28/14
      - Updated Developing Your Course Index
-       with new capabilities to publish or hide multiple units 
+       with new capabilities to publish or hide multiple units
        from the outline.
-   * - 
+   * -
      - Added Creating Content Experiments.
    * - 08/22/14
      - Added warnings about the effects of changing the course grading policy,
@@ -179,7 +179,7 @@ August 2014
        the Launch chapter.
    * - 08/12/14
      - Updated documentation to address the new publishing workflow and user
-       interface. 
+       interface.
 
        Created a new section, Developing Your Course Index,
        which contains the following topics.
@@ -196,7 +196,7 @@ August 2014
    * - 08/07/14
      - Added information about reviewing and duplicating the contents of
        previously-sent messages to the Bulk Email section.
-   * - 
+   * -
      - Updated the view_enrollment_count section to include the
        breakdown by certification track in the enrollment section.
 
@@ -236,7 +236,7 @@ July 2014
    * - 07/01/14
      - Updated Scheduling Your Course to specify when students can earn
        and access certificates.
-   
+
 
 
 ***********
@@ -252,15 +252,15 @@ June 2014
    * - 06/20/14
      - Added a Preface with resources for course teams, developers,
        researchers, and students.
-   * - 06/18/14    
+   * - 06/18/14
      - In the View and download student data section, updated the
        example report to include the new User ID column.
-   * - 06/17/14   
+   * - 06/17/14
      - Added Video TOC section to Working with Video Components.
-   * - 06/06/14   
+   * - 06/06/14
      - Added a description of email task workflow states to the Launch
        section.
-   * - 06/03/14   
+   * - 06/03/14
      - Added gradebook to the Grades section.
 
 ***********
@@ -292,7 +292,7 @@ May 2014
        * Renamed the *Checking Student Progress and Issuing Certificates*
          section to Checking Student Progress and Issuing Certificates.
 
-   * - 
+   * -
      - Updated Problem with Adaptive Hint to reflect formatting
        requirements for the Python script and the correct_answer attribute.
    * - 05/21/14
@@ -306,17 +306,17 @@ May 2014
    * - 05/13/14
      - Updated the Enrollment section to reflect that usernames or email
        addresses can be used to batch enroll students.
-   * - 
+   * -
      - Updated the Grades section to reflect new features on the problem
        **Staff Debug** viewer for rescoring, resetting attempts, and deleting
        student state.
-   * - 
+   * -
      - Updated the Course_Staffing section to state the labeling
        differences between Studio and the LMS with respect to course team roles.
    * - 05/09/14
      - Updated Assigning_discussion_roles with a note about course staff
        requiring explicit granting of discussion administration roles.
-   * - 
+   * -
      - Added VitalSource topic.
    * - 05/08/14
      - Added warnings to Upload a File about file size.
@@ -326,11 +326,11 @@ May 2014
    * - 05/06/14
      - Expanded the Grades chapter to include a topic on interpreting
        the score histograms for problems.
-   * - 
+   * -
      - Updated LTI Component to reflect changes to the Studio UI.
    * - 05/02/14
      - Updated Drag and Drop information.
-   * - 
+   * -
      - Updated IFrame documentation.
 
 ************
@@ -352,7 +352,7 @@ April 2014
    * - 04/24/14
      - Expanded the Grades chapter to include topics on interpreting the
        grade reports and student progress page.
-   * -    
+   * -
      - Updated the Beta_Testing section to reflect feature changes.
    * -
      - Updated the Working with HTML Components chapter to reflect
@@ -366,15 +366,15 @@ April 2014
    * - 04/22/14
      - Updated the Bulk Email section with information about the
        dashboard option to opt out of course email.
-   * - 
+   * -
      - In Discussions, corrected the steps to create discussion
        categories.
-   * - 
+   * -
      - Updated the Enrollment section to reflect feature changes.
    * - 04/16/14
      - Updated the Transcripts in Additional Languages topic in Working
        with Video Components.
-   * -  
+   * -
      - In support of new features, added the following sections to
        Multiple Choice problems.
 
@@ -390,7 +390,7 @@ April 2014
        the Student Answer Distribution report.
    * - 04/08/14
      - Updated the chapter Working with HTML Components to reflect the
-       new HTML editor. 
+       new HTML editor.
    * - 04/07/14
      - Expanded the Course Data, Enrollment, and
    * - 04/03/14
@@ -399,13 +399,13 @@ April 2014
    * - 04/02/14
      - Reorganized sections to better reflect the workflow of building a new
        course.
-   * - 04/01/14 
+   * - 04/01/14
      - Update the Establish a Grading Policy chapter to emphasize that
        grading is applied to subsections only.
-   * - 
+   * -
      - Updated the Releasing Your Course Index section to include
        Launch.
-   
+
 
 ************
 March 2014
@@ -416,8 +416,8 @@ March 2014
    :header-rows: 1
 
    * - Date
-     - Change  
-   * - 03/31/14 
+     - Change
+   * - 03/31/14
      - Expanded the Grades chapter to include the new
        Review_Answers section.
    * - 03/27/14
@@ -459,7 +459,7 @@ March 2014
 
        * Describe Your Course
 
-   
+
 
 ****************
 February 2014
@@ -470,7 +470,7 @@ February 2014
    :header-rows: 1
 
    * - Date
-     - Change  
+     - Change
    * - 02/25/14
      - Updated the Add Files to a Course section to include the new
        External URL feature.
@@ -482,7 +482,7 @@ February 2014
    * -
      - Updated the Add a Course Video section.
    * - 02/21/14
-     - Added the Beta_Testing chapter. 
+     - Added the Beta_Testing chapter.
    * - 02/19/14
      - Updated Import LaTeX Code to reflect the new workflow and a UI
        change for creating LaTeX HTML components.
@@ -506,10 +506,10 @@ February 2014
      - Added the Advertise a Different Start Date section.
    * - 02/04/14
      - Added the Student Data and Grades sections.
-   * - 
+   * -
      - Added the Multiple Choice and Numerical Input and Protein
        Builder sections.
-   
+
 
 *************
 January 2014
@@ -520,13 +520,13 @@ January 2014
    :header-rows: 1
 
    * - Date
-     - Change  
+     - Change
    * - 01/29/2014
      - Added the chapter Google Instant Hangout.
    * - 01/24/2014
      - Added the Discussions and Guidance for Discussion
        Moderators chapters.
-   * - 
+   * -
      - Added more detailed instructions to Zooming image
    * - 01/21/2014
      - Added information about accessibility in the topic Adding
@@ -540,12 +540,12 @@ January 2014
    * - 01/08/2014
      - Updated Add Files to a Course to reflect addition of sorting to
        the **Files & Uploads** page.
-   * - 
+   * -
      - Updated Scheduling Your Course to reflect change to
        default course start date to 2029.
    * - 01/07/2014
      - Updated Text Input with info about multiple strings.
-   * - 
+   * -
      - Added info about template to Checkbox.
    * - 01/06/2014
      - Created Custom JavaScript.
@@ -565,7 +565,7 @@ December 2013
    :header-rows: 1
 
    * - Date
-     - Change  
+     - Change
    * - 12/20/2013
      - Made ORA for Students into a template that instructors can
        customize.
@@ -577,7 +577,7 @@ December 2013
        Video Components.
    * - 12/13/2013
      - Created LTI Component.
-   * - 
+   * -
      - Created ORA for Students.
    * - 12/12/2013
      - Added the edX Glossary.
@@ -586,11 +586,11 @@ December 2013
    * - 12/10/2013
      - Added note about number of responses in "Available to Grade" column in
        Open Response Assessments section.
-   * - 
+   * -
      - Added MathJax in Studio.
    * - 12/09/2013
      - Created MathJax in Studio.
    * - 12/05/2013
      - Complete revision of edX Studio documentation and integration of edX101
        content.
-       
+

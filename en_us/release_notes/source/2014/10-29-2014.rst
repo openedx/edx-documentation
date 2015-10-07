@@ -15,7 +15,7 @@ edX Website
 
 
 *******************************
-edX Learning Management System 
+edX Learning Management System
 *******************************
 
 * In Firefox and Safari browsers, after a student changed the video speed,

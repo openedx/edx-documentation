@@ -11,7 +11,7 @@ The following information reflects what is new in the edX Platform as of March
 edX Studio
 *************
 
-* In the HTML editor, when you entered a <style> element, the editor sometimes stopped responding. This problem is resolved. (STUD-1434) 
+* In the HTML editor, when you entered a <style> element, the editor sometimes stopped responding. This problem is resolved. (STUD-1434)
 
 
 ***************************************

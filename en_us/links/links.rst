@@ -51,7 +51,7 @@
 .. _VirtualEnv: http://www.virtualenv.org/en/latest/
 
 .. _VirtualEnv Installation: https://virtualenv.pypa.io/en/latest/installation.html
-         
+
 .. _VirtualEnvWrapper: http://virtualenvwrapper.readthedocs.org/en/latest
 
 .. _XBlock SDK: https://github.com/edx/xblock-sdk
@@ -198,7 +198,7 @@
 
 .. _Proctoring Software System Requirements: http://clientportal.softwaresecure.com/support/index.php?/Knowledgebase/Article/View/252/0/system-requirements-remote-proctor-now
 
-.. _Proctoring Software System Requirements: http://clientportal.softwaresecure.com/support/index.php?/Knowledgebase/Article/View/252/0/system-requirements-remote-proctor-now 
+.. _Proctoring Software System Requirements: http://clientportal.softwaresecure.com/support/index.php?/Knowledgebase/Article/View/252/0/system-requirements-remote-proctor-now
 
 .. _Vagrant's documentation on boxes: http://docs.vagrantup.com/v2/boxes.html
 

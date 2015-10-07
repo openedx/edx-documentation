@@ -9,5 +9,5 @@
 * Previously, if a dropdown problem that was created with variables was
   answered, the chosen answer was not retained in the selection input. This
   problem has been fixed. (TNL-1419)
-  
-* Some issues with MATLAB problems were resolved. (TNL-1459)  
+
+* Some issues with MATLAB problems were resolved. (TNL-1459)

@@ -4,7 +4,7 @@
 ###################################
 
 The following information reflects what is new in the edX Platform as of
-18 March 2015. 
+18 March 2015.
 
 .. contents::
   :local:

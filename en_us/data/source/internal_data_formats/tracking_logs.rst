@@ -10,7 +10,7 @@ the mobile device to capture information about interactions with the courseware
 and the Instructor Dashboard in the LMS, and are stored in JSON documents. In
 the data package, event data is delivered in a log file.
 
-.. contents:: 
+.. contents::
   :local:
   :depth: 1
 
@@ -29,28 +29,28 @@ can be difficult to read before standard formatting is applied.
 
 .. code-block:: json
 
-    {"agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) 
-    Chrome/30.0.1599.101 Safari/537.36", "context": {"course_id": "edx/AN101/2014_T1", 
-    "module": {"display_name": "Multiple Choice Questions"}, "org_id": "edx", "user_id": 
-    9999999}, "event": {"answers": {"i4x-edx-AN101-problem-a0effb954cca4759994f1ac9e9434bf4_2_1": 
-    "yellow", "i4x-edx-AN101-problem-a0effb954cca4759994f1ac9e9434bf4_4_1": ["choice_0", "choice_2"]}, 
-    "attempts": 1, "correct_map": {"i4x-edx-AN101-problem-a0effb954cca4759994f1ac9e9434bf4_2_1": 
-    {"correctness": "incorrect", "hint": "", "hintmode": null, "msg": "", "npoints": null, 
-    "queuestate": null}, "i4x-edx-AN101-problem-a0effb954cca4759994f1ac9e9434bf4_4_1": 
-    {"correctness": "correct", "hint": "", "hintmode": null, "msg": "", "npoints": null, 
+    {"agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko)
+    Chrome/30.0.1599.101 Safari/537.36", "context": {"course_id": "edx/AN101/2014_T1",
+    "module": {"display_name": "Multiple Choice Questions"}, "org_id": "edx", "user_id":
+    9999999}, "event": {"answers": {"i4x-edx-AN101-problem-a0effb954cca4759994f1ac9e9434bf4_2_1":
+    "yellow", "i4x-edx-AN101-problem-a0effb954cca4759994f1ac9e9434bf4_4_1": ["choice_0", "choice_2"]},
+    "attempts": 1, "correct_map": {"i4x-edx-AN101-problem-a0effb954cca4759994f1ac9e9434bf4_2_1":
+    {"correctness": "incorrect", "hint": "", "hintmode": null, "msg": "", "npoints": null,
+    "queuestate": null}, "i4x-edx-AN101-problem-a0effb954cca4759994f1ac9e9434bf4_4_1":
+    {"correctness": "correct", "hint": "", "hintmode": null, "msg": "", "npoints": null,
     "queuestate": null}}, "grade": 2, "max_grade": 3, "problem_id": "i4x://edx/AN101/problem/
-    a0effb954cca4759994f1ac9e9434bf4", "state": {"correct_map": {}, "done": null, "input_state": 
+    a0effb954cca4759994f1ac9e9434bf4", "state": {"correct_map": {}, "done": null, "input_state":
     {"i4x-edx-AN101-problem-a0effb954cca4759994f1ac9e9434bf4_2_1": {}, "i4x-edx-AN101-problem-
-    a0effb954cca4759994f1ac9e9434bf4_4_1": {}}, "seed": 1, "student_answers": {}}, "submission": 
-    {"i4x-edx-AN101-problem-a0effb954cca4759994f1ac9e9434bf4_2_1": {"answer": "yellow", "correct": 
-    false, "input_type": "optioninput", "question": "What color is the open ocean on a sunny day?", 
+    a0effb954cca4759994f1ac9e9434bf4_4_1": {}}, "seed": 1, "student_answers": {}}, "submission":
+    {"i4x-edx-AN101-problem-a0effb954cca4759994f1ac9e9434bf4_2_1": {"answer": "yellow", "correct":
+    false, "input_type": "optioninput", "question": "What color is the open ocean on a sunny day?",
     "response_type": "optionresponse", "variant": ""}, "i4x-edx-AN101-problem-
-    a0effb954cca4759994f1ac9e9434bf4_4_1": {"answer": ["a piano", "a guitar"], "correct": true, 
-    "input_type": "checkboxgroup", "question": "Which of the following are musical instruments?", 
-    "response_type": "choiceresponse", "variant": ""}}, "success": "incorrect"}, "event_source": 
+    a0effb954cca4759994f1ac9e9434bf4_4_1": {"answer": ["a piano", "a guitar"], "correct": true,
+    "input_type": "checkboxgroup", "question": "Which of the following are musical instruments?",
+    "response_type": "choiceresponse", "variant": ""}}, "success": "incorrect"}, "event_source":
     "server", "event_type": "problem_check", "host": "precise64", "referer": "http:\/\/localhost:8001\/
-    container\/i4x:\/\/edX\/DemoX\/vertical\/69dedd38233a46fc89e4d7b5e8da1bf4?action=new", 
-    "accept_language": "en-US,en;q=0.8","ip": "NN.N.N.N", "page": "x_module", 
+    container\/i4x:\/\/edX\/DemoX\/vertical\/69dedd38233a46fc89e4d7b5e8da1bf4?action=new",
+    "accept_language": "en-US,en;q=0.8","ip": "NN.N.N.N", "page": "x_module",
     "time": 2014-03-03T16:19:05.584523+00:00", "username": "AAAAAAAAAA"}
 
 If you use a JSON formatter to "pretty print" this event, a version that is
@@ -59,86 +59,86 @@ more readable is produced.
 .. code-block:: json
 
  {
-    "agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36", 
+    "agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36",
     "context": {
-        "course_id": "edx/AN101/2014_T1", 
+        "course_id": "edx/AN101/2014_T1",
         "module": {
             "display_name": "Multiple Choice Questions"
-        }, 
-        "org_id": "edx", 
+        },
+        "org_id": "edx",
         "user_id": 9999999
-    }, 
+    },
     "event": {
         "answers": {
-            "i4x-edx-AN101-problem-a0effb954cca4759994f1ac9e9434bf4_2_1": "yellow", 
+            "i4x-edx-AN101-problem-a0effb954cca4759994f1ac9e9434bf4_2_1": "yellow",
             "i4x-edx-AN101-problem-a0effb954cca4759994f1ac9e9434bf4_4_1": [
-                "choice_0", 
+                "choice_0",
                 "choice_2"
             ]
-        }, 
-        "attempts": 1, 
+        },
+        "attempts": 1,
         "correct_map": {
             "i4x-edx-AN101-problem-a0effb954cca4759994f1ac9e9434bf4_2_1": {
-                "correctness": "incorrect", 
-                "hint": "", 
-                "hintmode": null, 
-                "msg": "", 
-                "npoints": null, 
+                "correctness": "incorrect",
+                "hint": "",
+                "hintmode": null,
+                "msg": "",
+                "npoints": null,
                 "queuestate": null
-            }, 
+            },
             "i4x-edx-AN101-problem-a0effb954cca4759994f1ac9e9434bf4_4_1": {
-                "correctness": "correct", 
-                "hint": "", 
-                "hintmode": null, 
-                "msg": "", 
-                "npoints": null, 
+                "correctness": "correct",
+                "hint": "",
+                "hintmode": null,
+                "msg": "",
+                "npoints": null,
                 "queuestate": null
             }
-        }, 
-        "grade": 2, 
-        "max_grade": 3, 
-        "problem_id": "i4x://edx/AN101/problem/a0effb954cca4759994f1ac9e9434bf4", 
+        },
+        "grade": 2,
+        "max_grade": 3,
+        "problem_id": "i4x://edx/AN101/problem/a0effb954cca4759994f1ac9e9434bf4",
         "state": {
-            "correct_map": {}, 
-            "done": null, 
+            "correct_map": {},
+            "done": null,
             "input_state": {
-                "i4x-edx-AN101-problem-a0effb954cca4759994f1ac9e9434bf4_2_1": {}, 
+                "i4x-edx-AN101-problem-a0effb954cca4759994f1ac9e9434bf4_2_1": {},
                 "i4x-edx-AN101-problem-a0effb954cca4759994f1ac9e9434bf4_4_1": {}
-            }, 
-            "seed": 1, 
+            },
+            "seed": 1,
             "student_answers": {}
-        }, 
+        },
         "submission": {
             "i4x-edx-AN101-problem-a0effb954cca4759994f1ac9e9434bf4_2_1": {
-                "answer": "yellow", 
-                "correct": false, 
-                "input_type": "optioninput", 
-                "question": "What color is the open ocean on a sunny day?", 
-                "response_type": "optionresponse", 
+                "answer": "yellow",
+                "correct": false,
+                "input_type": "optioninput",
+                "question": "What color is the open ocean on a sunny day?",
+                "response_type": "optionresponse",
                 "variant": ""
             },
             "i4x-edx-AN101-problem-a0effb954cca4759994f1ac9e9434bf4_4_1": {
                 "answer": [
-                    "a piano", 
+                    "a piano",
                     "a guitar"
-                ], 
-                "correct": true, 
-                "input_type": "checkboxgroup", 
-                "question": "Which of the following are musical instruments?", 
-                "response_type": "choiceresponse", 
+                ],
+                "correct": true,
+                "input_type": "checkboxgroup",
+                "question": "Which of the following are musical instruments?",
+                "response_type": "choiceresponse",
                 "variant": ""
             }
-        }, 
+        },
         "success": "incorrect"
-    }, 
-    "event_source": "server", 
-    "event_type": "problem_check", 
-    "host": "precise64", 
+    },
+    "event_source": "server",
+    "event_type": "problem_check",
+    "host": "precise64",
     "referer": "http:\/\/localhost:8001\/container\/i4x:\/\/edX\/DemoX\/vertical\/69dedd38233a46fc89e4d7b5e8da1bf4?action=new",
     "accept_language": "en-US,en;q=0.8",
-    "ip": "NN.N.N.N", 
-    "page": "x_module", 
-    "time": "2014-03-03T16:19:05.584523+00:00", 
+    "ip": "NN.N.N.N",
+    "page": "x_module",
+    "time": "2014-03-03T16:19:05.584523+00:00",
     "username": "AAAAAAAAAA"
  }
 
@@ -167,7 +167,7 @@ in your data package can include these fields in different sequences.
 **Type:** string
 
 **Details:** The value from the HTTP Accept-Language request-header field. For
-more information, see the HTTP/1.1 header field definition for 
+more information, see the HTTP/1.1 header field definition for
 `Accept-Language`_.
 
 **History:** Added 23 Feb 2015.
@@ -178,7 +178,7 @@ more information, see the HTTP/1.1 header field definition for
 
 **Type:** string
 
-**Details:** Browser agent string of the user who triggered the event. 
+**Details:** Browser agent string of the user who triggered the event.
 
 .. _context:
 
@@ -188,10 +188,10 @@ more information, see the HTTP/1.1 header field definition for
 
 **Type:** dictionary
 
-**Details:** 
+**Details:**
 
 The ``context`` field includes member fields that provide contextual
-information. 
+information.
 
 * This field contains a core set of member fields that are common to all events.
 * For certain events with additional contextual requirements, this field
@@ -201,10 +201,10 @@ information.
   fields. For more information about the ``context`` member fields for an
   event, see the description of that event later in this section.
 
-``context`` Member Fields Common to All Events 
+``context`` Member Fields Common to All Events
 ***********************************************
 
-The following member fields are present in the ``context`` field for all events. 
+The following member fields are present in the ``context`` field for all events.
 
 .. list-table::
    :widths: 15 15 60
@@ -221,7 +221,7 @@ The following member fields are present in the ``context`` field for all events.
      - The organization that lists the course.
    * - ``path``
      - string
-     - The URL that generated the event. 
+     - The URL that generated the event.
    * - ``user_id``
      - integer
      - Identifies the individual who is performing the action.
@@ -261,7 +261,7 @@ fields to provide additional information.
        and can be used to identify the source library.
 
 
-The ``context`` member fields are blank if values cannot be determined. 
+The ``context`` member fields are blank if values cannot be determined.
 
 **History**: ``usage_key`` added 28 Jan 2015. ``path`` added 07 May 2014.
 ``course_user_tags`` added 12 Mar 2014. ``user_id`` added 6 Nov 2013. Other
@@ -303,8 +303,8 @@ devices.
 
 **Details:** The type of event triggered. Values depend on ``event_source``.
 
-:ref:`Student_Event_Types` and :ref:`Instructor_Event_Types` later in this 
-section provide descriptions of each type of event that is included in 
+:ref:`Student_Event_Types` and :ref:`Instructor_Event_Types` later in this
+section provide descriptions of each type of event that is included in
 data packages. To locate information about a specific event type, see the
 :ref:`event_list`.
 
@@ -344,7 +344,7 @@ that originate on mobile devices.
 **Type:** string
 
 **Details:** The '$URL' of the page the user was visiting when the event was
-emitted. 
+emitted.
 
 For video events that originate on mobile devices, identifies the URL for the
 video component.
@@ -377,7 +377,7 @@ include a session value.
 
 **Type:** string
 
-**Details:** Gives the UTC time at which the event was emitted in 
+**Details:** Gives the UTC time at which the event was emitted in
 'YYYY-MM-DDThh:mm:ss.xxxxxx' format.
 
 ===================
@@ -399,7 +399,7 @@ This section lists the events that are typically initiated by learners. These
 events are generated by interactions with the learning management system (LMS)
 other than the Instructor Dashboard.
 
-.. contents::  
+.. contents::
   :local:
   :depth: 1
 
@@ -420,9 +420,9 @@ events that originate on the server (during the processing of a request).
 Enrollment Events
 =========================
 
-This section includes descriptions of the following events. 
+This section includes descriptions of the following events.
 
-* ``edx.course.enrollment.activated`` 
+* ``edx.course.enrollment.activated``
 * ``edx.course.enrollment.deactivated``
 * ``edx.course.enrollment.mode_changed``
 * ``edx.course.enrollment.upgrade.clicked``
@@ -454,7 +454,7 @@ that result in these events, see :ref:`instructor_enrollment`.
 2014, the ``name`` field was added. These enrollment events include both a
 ``name`` field and an ``event_type`` field.
 
-``event`` **Member Fields**: 
+``event`` **Member Fields**:
 
 .. list-table::
    :widths: 15 15 60
@@ -465,8 +465,8 @@ that result in these events, see :ref:`instructor_enrollment`.
      - Details
    * - ``course_id``
      - string
-     - The course in which the student was enrolled or unenrolled. 
-       
+     - The course in which the student was enrolled or unenrolled.
+
        If an external tool is used to enroll or unenroll students, this field
        contains a value and the ``context.course_id`` field is null.
 
@@ -476,7 +476,7 @@ that result in these events, see :ref:`instructor_enrollment`.
        enrollment mode.
    * - ``user_id``
      - integer
-     - Identifies the student who was enrolled or unenrolled. 
+     - Identifies the student who was enrolled or unenrolled.
 
 Example
 *******
@@ -489,7 +489,7 @@ Example
         "name": "edx.course.enrollment.deactivated",
         "referer": "http:\/\/localhost:8001\/container\/i4x:\/\/edX\/DemoX\/vertical\/69dedd38233a46fc89e4d7b5e8da1bf4?action=new",
         "accept_language": "en-US,en;q=0.8",
-        "time": "2014-01-26T00:28:28.388782+00:00", 
+        "time": "2014-01-26T00:28:28.388782+00:00",
         "agent": "Mozilla\/5.0 (Windows NT 6.1; WOW64; Trident\/7.0; rv:11.0) like Gecko",
         "page": null
         "host": "courses.edx.org",
@@ -520,7 +520,7 @@ different mode is complete.
 
 **History**: Added 21 Aug 2014.
 
-``event`` **Member Fields**: 
+``event`` **Member Fields**:
 
 .. list-table::
    :widths: 15 15 60
@@ -531,14 +531,14 @@ different mode is complete.
      - Details
    * - ``course_id``
      - string
-     - The course in which the student's enrollment mode has changed. 
+     - The course in which the student's enrollment mode has changed.
    * - ``mode``
      - string
      - 'audit', 'honor', 'professional', verified'. Identifies the student's
        new enrollment mode.
    * - ``user_id``
      - integer
-     - Identifies the student whose enrollment mode changed. 
+     - Identifies the student whose enrollment mode changed.
 
 ``edx.course.enrollment.upgrade.clicked``
 *****************************************
@@ -554,7 +554,7 @@ event when a student clicks this option, and the process of upgrading the
 
 **History**: Added 18 Dec 2013.
 
-``context`` **Member Fields**: 
+``context`` **Member Fields**:
 
 In addition to the :ref:`common<context>` ``context`` member fields, this
 event type also includes the following ``context`` member field.
@@ -584,7 +584,7 @@ complete.
 
 **History**: Added 18 Dec 2013.
 
-``context`` **Member Fields**: 
+``context`` **Member Fields**:
 
 In addition to the :ref:`common<context>` ``context`` member fields, this
 event type also includes the following ``context`` member field.
@@ -605,10 +605,10 @@ event type also includes the following ``context`` member field.
 .. _navigational:
 
 ==============================
-Navigational Events 
+Navigational Events
 ==============================
 
-This section includes descriptions of the following events. 
+This section includes descriptions of the following events.
 
 * ``page_close``
 * ``seq_goto``
@@ -630,20 +630,20 @@ The ``page_close`` event originates from within the JavaScript Logger itself.
 ``seq_goto``, ``seq_next``, and ``seq_prev``
 ********************************************
 
-The browser emits these events when a user selects a navigational control. 
+The browser emits these events when a user selects a navigational control.
 
-* ``seq_goto`` is emitted when a user jumps between units in a sequence. 
+* ``seq_goto`` is emitted when a user jumps between units in a sequence.
 
 * ``seq_next`` is emitted when a user navigates to the next unit in a sequence.
 
 * ``seq_prev`` is emitted when a user navigates to the previous unit in a
   sequence.
 
-**Component**: Sequence 
+**Component**: Sequence
 
 **Event Source**: Browser
 
-``event`` **Member Fields**: 
+``event`` **Member Fields**:
 
 All of these navigational events have the same ``event`` member fields.
 
@@ -656,18 +656,18 @@ All of these navigational events have the same ``event`` member fields.
      - Details
    * - ``id``
      - integer
-     - The edX ID of the sequence. 
+     - The edX ID of the sequence.
    * - ``new``
      - integer
-     - For ``seq_goto``, the index of the unit being jumped to. 
-       
+     - For ``seq_goto``, the index of the unit being jumped to.
+
        For ``seq_next`` and ``seq_prev``, the index of the unit being navigated
        to.
 
    * - ``old``
      - integer
-     - For ``seq_goto``, the index of the unit being jumped from. 
-       
+     - For ``seq_goto``, the index of the unit being jumped from.
+
        For ``seq_next`` and ``seq_prev``, the index of the unit being navigated
        away from.
 
@@ -690,7 +690,7 @@ the ``name`` field only for events that have an ``event_source`` of 'mobile'.
 * ``play_video``/``edx.video.played``
 * ``seek_video``/``edx.video.position.changed``
 * ``show_transcript``/``edx.video.transcript.shown``
-* ``speed_change_video`` 
+* ``speed_change_video``
 * ``stop_video``/``edx.video.stopped``
 * ``video_hide_cc_menu``
 * ``video_show_cc_menu``
@@ -712,7 +712,7 @@ interacts with a video.
   past dates.
 
 This section presents the video interaction events alphabetically. Typically,
-an interaction with the video player begins with a :ref:`play_video` event. 
+an interaction with the video player begins with a :ref:`play_video` event.
 
 For courses that include a pre-roll video, user interactions with the pre-roll
 video result in different events. For more information, see :ref:`pre-roll`.
@@ -740,7 +740,7 @@ that the edX mobile app emits also include a ``name`` field with a value of
 app for iOS. Updated 23 Dec 2014 to include events emitted by the edX mobile
 app for Android.
 
-``context`` **Member Fields**: 
+``context`` **Member Fields**:
 
 Only video interaction events with an ``event_source`` of 'mobile' include
 additional ``context`` member fields in addition to the :ref:`common<context>`
@@ -749,7 +749,7 @@ member fields. The same set of additional context fields are added for
 :ref:`play_video` events. For an example of an event with these fields, see
 :ref:`Example Mobile App Event`.
 
-``event`` **Member Fields**: 
+``event`` **Member Fields**:
 
 The ``hide_transcript``/``edx.video.transcript.hidden`` events include the
 following ``event`` member fields. These fields serve the same purpose for
@@ -776,7 +776,7 @@ that the edX mobile app emits also include a ``name`` field with a value of
 app for iOS. Updated 23 Dec 2014 to include events emitted by the edX mobile
 app for Android.
 
-``context`` **Member Fields**: 
+``context`` **Member Fields**:
 
 Only video interaction events with an ``event_source`` of 'mobile' include
 additional ``context`` member fields in addition to the :ref:`common<context>`
@@ -785,7 +785,7 @@ member fields. The same set of additional context fields are added for
 with these fields, see
 :ref:`Example Mobile App Event`.
 
-``event`` **Member Fields**: 
+``event`` **Member Fields**:
 
 The ``load_video``/ ``edx.video.loaded`` events include the following ``event``
 member fields. These fields serve the same purpose for events of this type as
@@ -802,7 +802,7 @@ When a user selects the video player's **pause** control, the player emits a
 player reaches the end of the video file and play automatically stops it emits
 both this event and a ``stop_video`` event (as of June 2014).
 
-Note that course teams can specify a **Video Stop Time** for video files. 
+Note that course teams can specify a **Video Stop Time** for video files.
 
 * If the user streams a video file in a browser and a **Video Stop Time** is
   present for the video, the player stops at the specified time and emits the
@@ -821,14 +821,14 @@ that the edX mobile app emits include a ``name`` field with a value of
 
 **Event Source**: Browser or Mobile
 
-**History**: 
+**History**:
 
-* Updated 5 May 2015 to include the effect of a **Video Stop Time**. 
+* Updated 5 May 2015 to include the effect of a **Video Stop Time**.
 * Updated 25 Feb 2015 to include events emitted by the edX mobile app for iOS.
 * Updated 23 Dec 2014 to include events emitted by the edX mobile app for
   Android.
 
-``context`` **Member Fields**: 
+``context`` **Member Fields**:
 
 Only video interaction events with an ``event_source`` of 'mobile' include
 additional ``context`` member fields in addition to the :ref:`common<context>`
@@ -837,7 +837,7 @@ member fields. The same set of additional context fields are added for
 :ref:`play_video`. For an example of an event with these fields, see
 :ref:`Example Mobile App Event`.
 
-``event`` **Member Fields**: 
+``event`` **Member Fields**:
 
 The ``pause_video``/``edx.video.paused`` events include the following
 ``event`` member fields. These fields serve the same purpose for events of
@@ -855,7 +855,7 @@ this type as for the :ref:`play_video` events.
 When a user selects the video player's **play** control, the player emits a
 ``play_video`` event.
 
-Note that course teams can specify a **Video Start Time** for video files. 
+Note that course teams can specify a **Video Start Time** for video files.
 
 * If the user streams a video file in a browser and a **Video Start Time** is
   present for the video, the player starts at the specified time and emits the
@@ -874,14 +874,14 @@ that the edX mobile app emits also include a ``name`` field with a value of
 
 **Event Source**: Browser or Mobile
 
-**History**: 
+**History**:
 
-* Updated 5 May 2015 to include the effect of a **Video Start Time**. 
+* Updated 5 May 2015 to include the effect of a **Video Start Time**.
 * Updated 25 Feb 2015 to include events emitted by the edX mobile app for iOS.
 * Updated 23 Dec 2014 to include events emitted by the edX mobile app for
   Android.
 
-``context`` **Member Fields**: 
+``context`` **Member Fields**:
 
 Only video interaction events with an ``event_source`` of 'mobile' include
 additional ``context`` member fields in addition to the :ref:`common<context>`
@@ -899,7 +899,7 @@ fields, see :ref:`Example Mobile App Event`.
    * - ``application``
      - dictionary
      - Includes ``name`` and ``version`` member fields to identify the edX
-       mobile app. 
+       mobile app.
    * - ``client``
      - dictionary
      - Includes member dictionaries and fields with device-specific data.
@@ -915,7 +915,7 @@ fields, see :ref:`Example Mobile App Event`.
    * - ``received_at``
      - float
      - Indicates the time at which the event collection library received the
-       event. 
+       event.
 
        Events can only be forwarded when the mobile device is connected to the
        Internet. Therefore, this value can be different than the event's
@@ -925,7 +925,7 @@ fields, see :ref:`Example Mobile App Event`.
        to change at any time without notice.
 
 
-``event`` **Member Fields**: 
+``event`` **Member Fields**:
 
 .. list-table::
    :widths: 15 15 60
@@ -945,25 +945,25 @@ fields, see :ref:`Example Mobile App Event`.
 
    * - ``currentTime``
      - float
-     - The time in the video at which the event was emitted. 
+     - The time in the video at which the event was emitted.
    * - ``id``
      - string
      - The optional name value supplied by the course creators, or the system-
        generated hash code for the video being watched.
 
        For example, ``0b9e39477cf34507a7a48f74be381fdd``.
-       
+
        This value is part of the ``courseware_studentmodule.module_id``. See
        :ref:`courseware_studentmodule`.
 
        **History**: In October 2014, identifiers for some new courses began to
        use the format shown above. Other new courses, and all courses created
        prior to October 2014, use an HTML-escaped version of the
-       ``courseware_studentmodule.module_id``. For example, 
+       ``courseware_studentmodule.module_id``. For example,
        ``i4x-HarvardX-PH207x-video-Simple_Random_Sample``.
 
 
-Example: Browser-Emitted ``play_video`` Event 
+Example: Browser-Emitted ``play_video`` Event
 **********************************************
 
 .. code-block:: json
@@ -991,7 +991,7 @@ Example: Browser-Emitted ``play_video`` Event
 
 .. _Example Mobile App Event:
 
-Example: Mobile App-Emitted ``edx.video.played`` Event 
+Example: Mobile App-Emitted ``edx.video.played`` Event
 *******************************************************
 
 .. code-block:: json
@@ -1084,16 +1084,16 @@ events that the edX mobile app emits include the value
 
 **Event Source**: Browser or Mobile
 
-**History**: 
+**History**:
 
 * Updated 10 Mar 2015 to include the final implementation for events emitted
   by the edX mobile app for Android and iOS. Prototype events were emitted by
   the mobile app in February and March 2015.
-  
+
 * Prior to 25 Jun 2014, the ``old_time`` and ``new_time`` fields were set to
   the same value.
 
-``context`` **Member Fields**: 
+``context`` **Member Fields**:
 
 Only video interaction events with an ``event_source`` of 'mobile' include
 additional ``context`` member fields in addition to the :ref:`common<context>`
@@ -1102,7 +1102,7 @@ member fields. The same set of additional context fields are added for
 :ref:`play_video`. For an example of an event with these fields, see
 :ref:`Example Mobile App Event`.
 
-``event`` **Member Fields**: 
+``event`` **Member Fields**:
 
 The ``seek_video``/``edx.video.position.changed`` events include the following
 ``event`` member fields. These fields serve the same purpose for events of
@@ -1136,11 +1136,11 @@ The following additional ``event`` member fields apply specifically to
        forward in the file.
 
        **History**: Added 10 Mar 2015.
-       
+
    * - ``type``
      - string
      - The navigational method used to change position within the video.
-       
+
        In events for a user of a desktop computer, this value can be
        'onCaptionSeek' or 'onSlideSeek'. In events for a user of the mobile
        app, this value can be 'onSlideSeek' or 'onSkipSeek'.
@@ -1162,7 +1162,7 @@ that the edX mobile app emits also include a ``name`` field with a value of
 app for iOS. Updated 23 Dec 2014 to include events emitted by the edX mobile
 app for Android.
 
-``context`` **Member Fields**: 
+``context`` **Member Fields**:
 
 Only video interaction events with an ``event_source`` of 'mobile' include
 additional ``context`` member fields in addition to the :ref:`common<context>`
@@ -1171,7 +1171,7 @@ member fields. The same set of additional context fields are added for
 :ref:`play_video`. For an example of an event with these fields, see
 :ref:`Example Mobile App Event`.
 
-``event`` **Member Fields**: 
+``event`` **Member Fields**:
 
 The ``show_transcript``/``edx.video.transcript.shown`` events include the
 following ``event`` member fields. These fields serve the same purpose for
@@ -1182,7 +1182,7 @@ events of this type as for the :ref:`play_video` events.
   opened.
 * ``id``
 
-``speed_change_video`` 
+``speed_change_video``
 *********************************
 
 A browser emits ``speed_change_video`` events when a user selects a different
@@ -1191,9 +1191,9 @@ playing speed for the video.
 **Event Source**: Browser
 
 **History**: Prior to 12 Feb 2014, this event was emitted when a user
-selected either the same speed or a different speed. 
+selected either the same speed or a different speed.
 
-``event`` **Member Fields**: 
+``event`` **Member Fields**:
 
 .. list-table::
    :widths: 15 15 60
@@ -1204,14 +1204,14 @@ selected either the same speed or a different speed.
      - Details
    * - ``current_time``
      - integer
-     - The time in the video that the user chose to change the playing speed. 
+     - The time in the video that the user chose to change the playing speed.
    * - ``new_speed``
      - float
      - The speed that the user selected for the video to play: '0.75', '1.0',
        '1.25', '1.50'.
    * - ``old_speed``
      - float
-     - The speed at which the video was playing. 
+     - The speed at which the video was playing.
 
 ``stop_video``/``edx.video.stopped``
 *************************************
@@ -1219,7 +1219,7 @@ selected either the same speed or a different speed.
 When the video player reaches the end of the video file and play automatically
 stops, the player emits a ``stop_video`` event.
 
-Note that course teams can specify a **Video Stop Time** for video files. 
+Note that course teams can specify a **Video Stop Time** for video files.
 
 * If the user streams a video file in a browser and a **Video Stop Time** is
   present for the video, the player stops at the specified time and emits the
@@ -1238,15 +1238,15 @@ that the edX mobile app emits include a ``name`` field with a value of
 
 **Event Source**: Browser or Mobile
 
-**History**: 
+**History**:
 
-* Updated 5 May 2015 to include the effect of a **Video Stop Time**. 
+* Updated 5 May 2015 to include the effect of a **Video Stop Time**.
 * Updated 25 Feb 2015 to include events emitted by the edX mobile app for iOS.
 * Updated 23 Dec 2014 to include events emitted by the edX mobile app for
   Android.
 * Added 25 June 2014.
 
-``context`` **Member Fields**: 
+``context`` **Member Fields**:
 
 Only video interaction events with an ``event_source`` of 'mobile' include
 additional ``context`` member fields in addition to the :ref:`common<context>`
@@ -1255,7 +1255,7 @@ member fields. The same set of additional context fields are added for
 :ref:`play_video`. For an example of an event with these fields, see
 :ref:`Example Mobile App Event`.
 
-``event`` **Member Fields**: 
+``event`` **Member Fields**:
 
 The ``stop_video``/``edx.video.stopped`` events include the following
 ``event`` member fields. These fields serve the same purpose for events of
@@ -1275,9 +1275,9 @@ has transcripts in multiple languages, the browser emits a
 
 **Event Source**: Browser
 
-**History**: Added 17 Feb 2015. 
+**History**: Added 17 Feb 2015.
 
-``event`` **Member Fields**: 
+``event`` **Member Fields**:
 
 The ``video_hide_cc_menu`` events include the following ``event`` member
 fields. These fields serve the same purpose for events of this type as for
@@ -1295,9 +1295,9 @@ emitted in addition to the ``show_transcript`` event.
 
 **Event Source**: Browser
 
-**History**: Added 17 Feb 2015. 
+**History**: Added 17 Feb 2015.
 
-``event`` **Member Fields**: 
+``event`` **Member Fields**:
 
 The ``video_show_cc_menu`` events include the following ``event`` member
 fields. These fields serve the same purpose for events of this type as for
@@ -1314,7 +1314,7 @@ Pre-Roll Video Interaction Events
 ==================================
 
 Course teams can create a short video message and configure it to play
-automatically before the videos in a course. 
+automatically before the videos in a course.
 
 * The pre-roll video plays on an infrequent schedule of once per user per week.
 
@@ -1336,13 +1336,13 @@ a Pre-Roll Video` in the *Building and Running an edX Course* guide.
 ``edx.video.bumper.dismissed``
 *******************************
 
-A browser emits this event when a user selects **Do not show again** for a 
-pre-roll video. This option allows the user to opt out of viewing the course 
+A browser emits this event when a user selects **Do not show again** for a
+pre-roll video. This option allows the user to opt out of viewing the course
 pre-roll video in the future.
 
 **Event Source**: Browser
 
-``event`` **Member Fields**: 
+``event`` **Member Fields**:
 
 The ``edx.video.bumper.dismissed`` events include the following ``event``
 member fields. These fields serve the same purpose for events of this type as
@@ -1362,7 +1362,7 @@ an ``edx.video.bumper.loaded`` event.
 
 **Event Source**: Browser
 
-``event`` **Member Fields**: 
+``event`` **Member Fields**:
 
 The ``edx.video.bumper.loaded`` events include the following ``event``
 member fields. These fields serve the same purpose for events of this type as
@@ -1383,7 +1383,7 @@ video, the browser emits an ``edx.video.bumper.played`` event.
 
 **Event Source**: Browser
 
-``event`` **Member Fields**: 
+``event`` **Member Fields**:
 
 .. list-table::
    :widths: 15 15 60
@@ -1398,19 +1398,19 @@ video, the browser emits an ``edx.video.bumper.played`` event.
        played.
    * - ``code``
      - string
-     - Contains the value 'html5'. All pre-roll videos are non-YouTube videos. 
+     - Contains the value 'html5'. All pre-roll videos are non-YouTube videos.
    * - ``currentTime``
      - float
-     - The time in the file at which the video played. 
+     - The time in the file at which the video played.
    * - ``duration``
      - integer
-     - The length of the video file, in seconds. 
+     - The length of the video file, in seconds.
    * - ``host_component_id``
      - string
      - Identifier for the video component that the user selected, and that is
        queued to play after the pre-roll video.
 
-Example: ``edx.video.bumper.played`` Event 
+Example: ``edx.video.bumper.played`` Event
 **********************************************
 
 .. code-block:: json
@@ -1438,7 +1438,7 @@ Example: ``edx.video.bumper.played`` Event
   }
 
 
-``edx.video.bumper.skipped`` 
+``edx.video.bumper.skipped``
 *********************************
 
 A browser emits this event when a user selects **Skip** for a bumper video.
@@ -1447,7 +1447,7 @@ play the selected video immediately.
 
 **Event Source**: Browser
 
-``event`` **Member Fields**: 
+``event`` **Member Fields**:
 
 The ``edx.video.bumper.skipped`` events include the following ``event`` member
 fields. These fields serve the same purpose for events of this type as for the
@@ -1466,11 +1466,11 @@ fields. These fields serve the same purpose for events of this type as for the
 A browser emits this event when the video player reaches the end of the pre-
 roll video file and play automatically stops.
 
-This is the only event that is emitted when a user pauses a pre-roll video. 
+This is the only event that is emitted when a user pauses a pre-roll video.
 
 **Event Source**: Browser
 
-``event`` **Member Fields**: 
+``event`` **Member Fields**:
 
 The ``edx.video.bumper.stopped`` events include the following ``event`` member
 fields. These fields serve the same purpose for events of this type as for the
@@ -1491,7 +1491,7 @@ video, the browser emits a ``edx.video.bumper.transcript.hidden`` event.
 
 **Event Source**: Browser
 
-``event`` **Member Fields**: 
+``event`` **Member Fields**:
 
 The ``edx.video.bumper.transcript.hidden`` events include the following
 ``event`` member fields. These fields serve the same purpose for events of this
@@ -1512,7 +1512,7 @@ has transcripts in multiple languages, the browser emits an
 
 **Event Source**: Browser
 
-``event`` **Member Fields**: 
+``event`` **Member Fields**:
 
 The ``edx.video.bumper.transcript.menu.hidden`` events include the following
 ``event`` member fields. These fields serve the same purpose for events of this
@@ -1535,7 +1535,7 @@ addition to the ``edx.video.bumper.transcript.shown`` event.
 
 **Event Source**: Browser
 
-``event`` **Member Fields**: 
+``event`` **Member Fields**:
 
 The ``edx.video.bumper.transcript.menu.shown`` events include the following
 ``event`` member fields. These fields serve the same purpose for events of this
@@ -1569,10 +1569,10 @@ type as for the :ref:`edx.video.bumper.played` events.
 .. _pdf:
 
 =================================
-Textbook Interaction Events   
+Textbook Interaction Events
 =================================
 
-This section includes descriptions of the following events. 
+This section includes descriptions of the following events.
 
 * ``book``
 * ``textbook.pdf.thumbnails.toggled``
@@ -1600,14 +1600,14 @@ or the PNG Viewer.
 * For textbooks in PNG format, the URL in the common ``page`` field contains
   '/book/'.
 
-**Component**: PDF Viewer, PNG Viewer 
+**Component**: PDF Viewer, PNG Viewer
 
 **Event Source**: Browser
 
 **History**: This event changed on 16 Apr 2014 to include ``event`` member
 fields ``name`` and ``chapter``.
 
-``event`` **Member Fields**: 
+``event`` **Member Fields**:
 
 .. list-table::
    :widths: 15 15 60
@@ -1618,25 +1618,25 @@ fields ``name`` and ``chapter``.
      - Details
    * - ``chapter``
      - string
-     - The name of the PDF file. 
+     - The name of the PDF file.
        **History**: Added for events produced by the PDF Viewer on 16 Apr 2014.
    * - ``name``
      - string
-     -  
+     -
        * For 'gotopage', set to ``textbook.pdf.page.loaded``.
-       * For 'prevpage', set to ``textbook.pdf.page.navigatedprevious``. 
-       * For 'nextpage', set to ``textbook.pdf.page.navigatednext``. 
-       
+       * For 'prevpage', set to ``textbook.pdf.page.navigatedprevious``.
+       * For 'nextpage', set to ``textbook.pdf.page.navigatednext``.
+
        **History**: Added for events produced by the PDF Viewer on 16 Apr 2014.
    * - ``new``
      - integer
      - Destination page number.
    * - ``old``
      - integer
-     - The original page number. Applies to 'gotopage' event types only. 
+     - The original page number. Applies to 'gotopage' event types only.
    * - ``type``
      - string
-     -  
+     -
        * 'gotopage' is emitted when a page loads after the student manually
          enters its number.
        * 'prevpage' is emitted when the next page button is clicked.
@@ -1649,13 +1649,13 @@ fields ``name`` and ``chapter``.
 The browser emits ``textbook.pdf.thumbnails.toggled`` events when a user clicks
 on the icon to show or hide page thumbnails.
 
-**Component**: PDF Viewer 
+**Component**: PDF Viewer
 
 **Event Source**: Browser
 
 **History**: This event was added on 16 Apr 2014.
 
-``event`` **Member Fields**: 
+``event`` **Member Fields**:
 
 .. list-table::
    :widths: 15 15 60
@@ -1672,7 +1672,7 @@ on the icon to show or hide page thumbnails.
      - ``textbook.pdf.thumbnails.toggled``
    * -  ``page``
      -  integer
-     -  The number of the page that is open when the user clicks this icon. 
+     -  The number of the page that is open when the user clicks this icon.
 
 ``textbook.pdf.thumbnail.navigated``
 *************************************
@@ -1680,13 +1680,13 @@ on the icon to show or hide page thumbnails.
 The browser emits ``textbook.pdf.thumbnail.navigated`` events when a user
 clicks on a thumbnail image to navigate to a page.
 
-**Component**: PDF Viewer 
+**Component**: PDF Viewer
 
 **Event Source**: Browser
 
 **History**: This event was added on 16 Apr 2014.
 
-``event`` **Member Fields**: 
+``event`` **Member Fields**:
 
 .. list-table::
    :widths: 15 15 60
@@ -1695,9 +1695,9 @@ clicks on a thumbnail image to navigate to a page.
    * - Field
      - Type
      - Details
-   * - ``chapter`` 
+   * - ``chapter``
      - string
-     - The name of the PDF file. 
+     - The name of the PDF file.
    * - ``name``
      - string
      - ``textbook.pdf.thumbnail.navigated``
@@ -1715,13 +1715,13 @@ clicks on a thumbnail image to navigate to a page.
 The browser emits ``textbook.pdf.outline.toggled`` events when a user clicks
 the outline icon to show or hide a list of the book's chapters.
 
-**Component**: PDF Viewer 
+**Component**: PDF Viewer
 
 **Event Source**: Browser
 
 **History**: This event was added on 16 Apr 2014.
 
-``event`` **Member Fields**: 
+``event`` **Member Fields**:
 
 .. list-table::
    :widths: 15 15 60
@@ -1730,13 +1730,13 @@ the outline icon to show or hide a list of the book's chapters.
    * - Field
      - Type
      - Details
-   * - ``chapter`` 
+   * - ``chapter``
      - string
      - The name of the PDF file.
    * - ``name``
      - string
      - ``textbook.pdf.outline.toggled``
-   * - ``page`` 
+   * - ``page``
      - integer
      - The number of the page that is open when the user clicks this link.
 
@@ -1746,13 +1746,13 @@ the outline icon to show or hide a list of the book's chapters.
 The browser emits ``textbook.pdf.chapter.navigated`` events when a user clicks
 on a link in the outline to navigate to a chapter.
 
-**Component**: PDF Viewer 
+**Component**: PDF Viewer
 
 **Event Source**: Browser
 
 **History**: This event was added on 16 Apr 2014.
 
-``event`` **Member Fields**: 
+``event`` **Member Fields**:
 
 .. list-table::
    :widths: 15 15 60
@@ -1766,24 +1766,24 @@ on a link in the outline to navigate to a chapter.
      - The name of the PDF file.
    * - ``chapter_title``
      - string
-     - The identifying name for the destination of the outline link. 
+     - The identifying name for the destination of the outline link.
    * - ``name``
      - string
      - ``textbook.pdf.chapter.navigated``
-     
+
 ``textbook.pdf.page.navigated``
 *********************************
 
 The browser emits ``textbook.pdf.page.navigated`` events when a user manually
 enters a page number.
 
-**Component**: PDF Viewer 
+**Component**: PDF Viewer
 
 **Event Source**: Browser
 
 **History**: This event was added on 16 Apr 2014.
 
-``event`` **Member Fields**: 
+``event`` **Member Fields**:
 
 .. list-table::
    :widths: 15 15 60
@@ -1808,13 +1808,13 @@ enters a page number.
 The browser emits ``textbook.pdf.zoom.buttons.changed`` events when a user
 clicks either the Zoom In or Zoom Out icon.
 
-**Component**: PDF Viewer 
+**Component**: PDF Viewer
 
 **Event Source**: Browser
 
 **History**: This event was added on 16 Apr 2014.
 
-``event`` **Member Fields**: 
+``event`` **Member Fields**:
 
 .. list-table::
    :widths: 15 15 60
@@ -1842,13 +1842,13 @@ clicks either the Zoom In or Zoom Out icon.
 The browser emits ``textbook.pdf.zoom.menu.changed`` events when a user selects
 a magnification setting.
 
-**Component**: PDF Viewer 
+**Component**: PDF Viewer
 
 **Event Source**: Browser
 
 **History**: This event was added on 16 Apr 2014.
 
-``event`` **Member Fields**: 
+``event`` **Member Fields**:
 
 .. list-table::
    :widths: 15 15 60
@@ -1878,13 +1878,13 @@ The browser emits ``textbook.pdf.display.scaled`` events when the display
 magnification changes. These changes occur after a student selects a
 magnification setting from the zoom menu or resizes the browser window.
 
-**Component**: PDF Viewer 
+**Component**: PDF Viewer
 
 **Event Source**: Browser
 
 **History**: This event was added on 16 Apr 2014.
 
-``event`` **Member Fields**: 
+``event`` **Member Fields**:
 
 .. list-table::
    :widths: 15 15 60
@@ -1898,11 +1898,11 @@ magnification setting from the zoom menu or resizes the browser window.
      - The magnification setting; for example, 0.95 or 1.25.
    * - ``chapter``
      - string
-     - The name of the PDF file. 
+     - The name of the PDF file.
    * - ``name``
      - string
      - ``textbook.pdf.display.scaled``
-   * - ``page`` 
+   * - ``page``
      - integer
      - The number of the page that is open when the scaling takes place.
 
@@ -1912,13 +1912,13 @@ magnification setting from the zoom menu or resizes the browser window.
 The browser emits ``textbook.pdf.display.scrolled`` events each time the
 displayed page changes while a user scrolls up or down.
 
-**Component**: PDF Viewer 
+**Component**: PDF Viewer
 
 **Event Source**: Browser
 
 **History**: This event was added on 16 Apr 2014.
 
-``event`` **Member Fields**: 
+``event`` **Member Fields**:
 
 .. list-table::
    :widths: 15 15 60
@@ -1929,10 +1929,10 @@ displayed page changes while a user scrolls up or down.
      - Details
    * - ``chapter``
      - string
-     - The name of the PDF file. 
+     - The name of the PDF file.
    * - ``direction``
      - string
-     - 'up', 'down' 
+     - 'up', 'down'
    * - ``name``
      - string
      - ``textbook.pdf.display.scrolled``
@@ -1949,13 +1949,13 @@ of producing one event per entered character this event defines a search string
 as the set of characters that is consecutively entered in the search field
 within 500ms of each other.
 
-**Component**: PDF Viewer 
+**Component**: PDF Viewer
 
 **Event Source**: Browser
 
 **History**: This event was added on 16 Apr 2014.
 
-``event`` **Member Fields**: 
+``event`` **Member Fields**:
 
 .. list-table::
    :widths: 15 15 60
@@ -1967,17 +1967,17 @@ within 500ms of each other.
      - Details
    * - ``caseSensitive``
      - Boolean
-     - 'true' if the case sensitive option is selected. 
-       
+     - 'true' if the case sensitive option is selected.
+
        'false' if this option is not selected.
 
    * - ``chapter``
      - string
-     - The name of the PDF file. 
+     - The name of the PDF file.
    * - ``highlightAll``
      - Boolean
-     - 'true' if the option to highlight all matches is selected. 
-       
+     - 'true' if the option to highlight all matches is selected.
+
        'false' if this option is not selected.
 
    * - ``name``
@@ -1992,7 +1992,7 @@ within 500ms of each other.
    * - ``status``
      - string
      - A "not found" status phrase for a search string that is unsuccessful.
-       
+
        Blank for successful search strings.
 
 
@@ -2002,13 +2002,13 @@ within 500ms of each other.
 The browser emits ``textbook.pdf.search.navigatednext`` events when a user
 clicks on the Find Next or Find Previous icons for an entered search string.
 
-**Component**: PDF Viewer 
+**Component**: PDF Viewer
 
 **Event Source**: Browser
 
 **History**: This event was added on 16 Apr 2014.
 
-``event`` **Member Fields**: 
+``event`` **Member Fields**:
 
 .. list-table::
    :widths: 15 15 60
@@ -2019,28 +2019,28 @@ clicks on the Find Next or Find Previous icons for an entered search string.
      - Details
    * - ``caseSensitive``
      - Boolean
-     - 'true' if the case sensitive option is selected. 
-       
+     - 'true' if the case sensitive option is selected.
+
        'false' if this option is not selected.
 
    * - ``chapter``
      - string
-     - The name of the PDF file. 
+     - The name of the PDF file.
    * - ``findprevious``
      - Boolean
-     - 'true' if the user clicks the Find Previous icon. 
-       
+     - 'true' if the user clicks the Find Previous icon.
+
        'false' if the user clicks the Find Next icon.
 
    * - ``highlightAll``
      - Boolean
-     - 'true' if the option to highlight all matches is selected. 
-       
+     - 'true' if the option to highlight all matches is selected.
+
        'false' if this option is not selected.
 
    * - ``name``
      - string
-     - ``textbook.pdf.search.navigatednext`` 
+     - ``textbook.pdf.search.navigatednext``
    * - ``page``
      - integer
      - The number of the page that is open when the search takes place.
@@ -2050,7 +2050,7 @@ clicks on the Find Next or Find Previous icons for an entered search string.
    * - ``status``
      -  string
      - A "not found" status phrase for a search string that is unsuccessful.
-       
+
        Blank for successful search strings.
 
 
@@ -2060,13 +2060,13 @@ clicks on the Find Next or Find Previous icons for an entered search string.
 The browser emits ``textbook.pdf.search.highlight.toggled`` events when a user
 selects or clears the **Highlight All** option for a search.
 
-**Component**: PDF Viewer 
+**Component**: PDF Viewer
 
 **Event Source**: Browser
 
 **History**: This event was added on 16 Apr 2014.
 
-``event`` **Member Fields**: 
+``event`` **Member Fields**:
 
 .. list-table::
    :widths: 15 15 60
@@ -2077,17 +2077,17 @@ selects or clears the **Highlight All** option for a search.
      - Details
    * - ``caseSensitive``
      - Boolean
-     - 'true' if the case sensitive option is selected. 
-       
+     - 'true' if the case sensitive option is selected.
+
        'false' if this option is not selected.
 
    * - ``chapter``
      - string
-     - The name of the PDF file. 
+     - The name of the PDF file.
    * - ``highlightAll``
      - Boolean
-     - 'true' if the option to highlight all matches is selected. 
-       
+     - 'true' if the option to highlight all matches is selected.
+
        'false' if this option is not selected.
 
    * - ``name``
@@ -2098,11 +2098,11 @@ selects or clears the **Highlight All** option for a search.
      - The number of the page that is open when the search takes place.
    * - ``query``
      - string
-     - The value in the search field. 
+     - The value in the search field.
    * - ``status``
      - string
      - A "not found" status phrase for a search string that is unsuccessful.
-       
+
        Blank for successful search strings.
 
 
@@ -2112,13 +2112,13 @@ selects or clears the **Highlight All** option for a search.
 The browser emits ``textbook.pdf.search.casesensitivity.toggled`` events when a
 user selects or clears the **Match Case** option for a search.
 
-**Component**: PDF Viewer 
+**Component**: PDF Viewer
 
 **Event Source**: Browser
 
 **History**: This event was added on 16 Apr 2014.
 
-``event`` **Member Fields**: 
+``event`` **Member Fields**:
 
 .. list-table::
    :widths: 15 15 60
@@ -2129,17 +2129,17 @@ user selects or clears the **Match Case** option for a search.
      - Details
    * - ``caseSensitive``
      - Boolean
-     - 'true' if the case sensitive option is selected. 
-       
+     - 'true' if the case sensitive option is selected.
+
        'false' if this option is not selected.
 
    * - ``chapter``
      - string
-     - The name of the PDF file. 
+     - The name of the PDF file.
    * - ``highlightAll``
      - Boolean
      - 'true' if the option to highlight all matches is selected.
-       
+
        'false' if this option is not selected.
 
    * - ``name``
@@ -2154,24 +2154,24 @@ user selects or clears the **Match Case** option for a search.
    * - ``status``
      -  string
      - A "not found" status phrase for a search string that is unsuccessful.
-       
+
        Blank for successful search strings.
 
 
 .. _problem:
 
 =================================
-Problem Interaction Events 
+Problem Interaction Events
 =================================
 
-This section includes descriptions of the following events. 
+This section includes descriptions of the following events.
 
 .. contents:: Section Contents
   :local:
   :depth: 1
 
 Problem interaction events are emitted by the server or the browser to capture
-information about interactions with problems. 
+information about interactions with problems.
 
 These events were designed for the problem types implemented in the edX
 platform by the ``capa_module.py`` XBlock. Problem types that are implemented
@@ -2194,7 +2194,7 @@ hint.
 
 **History**: This event was added on 1 Jul 2015.
 
-``event`` **Member Fields**: 
+``event`` **Member Fields**:
 
 .. list-table::
    :widths: 15 15 60
@@ -2209,7 +2209,7 @@ hint.
        defined for a problem is identified with ``hint_index: 0``.
    * - ``hint_len``
      - integer
-     - The total number of hints defined for this problem. 
+     - The total number of hints defined for this problem.
    * - ``hint_text``
      - string
      - The text of the hint that was displayed to the user.
@@ -2230,7 +2230,7 @@ selects **Check**.
 
 **History**: This event was added on 1 Jul 2015.
 
-``event`` **Member Fields**: 
+``event`` **Member Fields**:
 
 .. list-table::
    :widths: 15 15 60
@@ -2295,7 +2295,7 @@ selects **Check**.
 Both browser interactions and server requests produce ``problem_check`` events.
 The browser emits ``problem_check`` events when a user checks a problem.
 
-**Event Source**: Browser 
+**Event Source**: Browser
 
 ``event`` **Member Fields**: For browser-emitted ``problem_check`` events, the
 ``event`` field contains the values of all input fields from the problem being
@@ -2310,10 +2310,10 @@ Both browser interactions and server requests produce ``problem_check`` events.
 
 The server emits ``problem_check`` events when a problem is successfully
 checked.
-  
+
 **Event Source**: Server
 
-**History**: 
+**History**:
 
 * On 5 Mar 2014, the ``submission`` dictionary was added to the ``event`` field
   and  ``module`` was added to the ``context`` field.
@@ -2323,12 +2323,12 @@ checked.
 
 * Prior to 15 Jul 2013, this event was emitted twice for the same action.
 
-``context`` **Member Fields**: 
+``context`` **Member Fields**:
 
 This event type includes the :ref:`common<context>` ``context.module`` member
 field.
 
-``event`` **Member Fields**: 
+``event`` **Member Fields**:
 
 .. list-table::
    :widths: 15 15 60
@@ -2348,7 +2348,7 @@ field.
    * - ``correct_map``
      - dictionary
      - For each problem ID value listed by ``answers``, provides:
-       
+
        * ``correctness``: string; 'correct', 'incorrect'
        * ``hint``: string; Gives optional hint. Nulls allowed.
        * ``hintmode``: string; None, 'on_request', 'always'. Nulls allowed.
@@ -2361,7 +2361,7 @@ field.
 
    * - ``grade``
      - integer
-     - Current grade value. 
+     - Current grade value.
    * - ``max_grade``
      - integer
      - Maximum possible grade value.
@@ -2373,8 +2373,8 @@ field.
      - Current problem state.
    * - ``submission``
      - object
-     - Provides data about the response made. 
-       
+     - Provides data about the response made.
+
        For components that include multiple problems, a separate submission
        object is provided for each one.
 
@@ -2391,11 +2391,11 @@ field.
          'choiceresponse', 'optionresponse', and 'multiplechoiceresponse'.
        * ``variant``: integer; For problems that use problem randomization
          features such as answer pools or choice shuffling, contains the unique
-         ID of the variant that was presented to this user. 
+         ID of the variant that was presented to this user.
 
    * - ``success``
      - string
-     - 'correct', 'incorrect' 
+     - 'correct', 'incorrect'
 
 ``problem_check_fail``
 *********************************
@@ -2410,7 +2410,7 @@ successfully.
 **History**: Prior to 15 Oct 2013, this event was named
 ``save_problem_check_fail``.
 
-``event`` **Member Fields**: 
+``event`` **Member Fields**:
 
 .. list-table::
    :widths: 15 15 60
@@ -2419,16 +2419,16 @@ successfully.
    * - Field
      - Type
      - Details
-   * - ``answers`` 
+   * - ``answers``
      - dictionary
-     - 
-   * - ``failure`` 
+     -
+   * - ``failure``
      - string
      - 'closed', 'unreset'
    * - ``problem_id``
      - string
      - ID of the problem being checked.
-   * - ``state``  
+   * - ``state``
      - dictionary
      - Current problem state.
 
@@ -2440,7 +2440,7 @@ successfully.
 The server emits a ``problem_graded`` event each time a user clicks **Check**
 for a problem and it is graded successfully.
 
-``event`` **Member Fields**: 
+``event`` **Member Fields**:
 
 .. list-table::
    :widths: 15 15 60
@@ -2451,8 +2451,8 @@ for a problem and it is graded successfully.
      - Details
    * - ``[answers, contents]``
      - array
-     - ``answers`` provides the value checked by the user. 
-       
+     - ``answers`` provides the value checked by the user.
+
        ``contents`` delivers HTML using data entered for the problem in Studio,
        including the display name, problem text, and choices or response field
        labels.
@@ -2471,7 +2471,7 @@ rescored.
 
 **Event Source**: Server
 
-``event`` **Member Fields**: 
+``event`` **Member Fields**:
 
 .. list-table::
    :widths: 15 15 60
@@ -2482,22 +2482,22 @@ rescored.
      - Details
    * - ``attempts``
      - integer
-     - 
+     -
    * - ``correct_map``
      - dictionary
      - See the fields for the ``problem_check`` server event above.
-   * - ``new_score`` 
+   * - ``new_score``
      - integer
-     - 
+     -
    * - ``new_total``
      - integer
-     - 
+     -
    * - ``orig_score``
      - integer
-     - 
+     -
    * - ``orig_total``
      - integer
-     - 
+     -
    * - ``problem_id``
      - string
      - ID of the problem being rescored.
@@ -2518,7 +2518,7 @@ successfully rescored.
 
 **Event Source**: Server
 
-``event`` **Member Fields**: 
+``event`` **Member Fields**:
 
 .. list-table::
    :widths: 15 15 60
@@ -2527,7 +2527,7 @@ successfully rescored.
    * - Field
      - Type
      - Details
-   * - ``failure`` 
+   * - ``failure``
      - string
      - 'unsupported', 'unanswered', 'input_error', 'unexpected'
    * - ``problem_id``
@@ -2535,7 +2535,7 @@ successfully rescored.
      - ID of the problem being checked.
    * - ``state``
      - dictionary
-     - Current problem state. 
+     - Current problem state.
 
 
 ``problem_reset``
@@ -2548,7 +2548,7 @@ reset the answer to a problem.
 
 **Event Source**: Browser
 
-``event`` **Member Fields**: 
+``event`` **Member Fields**:
 
 .. list-table::
    :widths: 15 15 60
@@ -2559,7 +2559,7 @@ reset the answer to a problem.
      - Details
    * - ``answers``
      - string
-     - The value reset by the user. 
+     - The value reset by the user.
 
 
 ``problem_save``
@@ -2578,13 +2578,13 @@ The browser emits ``problem_save`` events when a user saves a problem.
 
 .. no sample to check
 
-The browser emits ``problem_show`` events when a problem is shown.  
+The browser emits ``problem_show`` events when a problem is shown.
 
 .. %%
 
 **Event Source**: Browser
 
-``event`` **Member Fields**: 
+``event`` **Member Fields**:
 
 .. list-table::
    :widths: 15 15 60
@@ -2595,12 +2595,12 @@ The browser emits ``problem_show`` events when a problem is shown.
      - Details
    * - ``problem``
      - string
-     - The optional name value that the course creators supply or the 
+     - The optional name value that the course creators supply or the
        system-generated hash code for the problem being shown.
 
        For example, ``input_303034da25524878a2e66fb57c91cf85_2_1`` or
        ``303034da25524878a2e66fb57c91cf85_2_1``.
-       
+
        This value is based on part of the
        ``courseware_studentmodule.module_id``. See
        :ref:`courseware_studentmodule`.
@@ -2623,7 +2623,7 @@ successfully.
 
 **Event Source**: Server
 
-``event`` **Member Fields**: 
+``event`` **Member Fields**:
 
 .. list-table::
    :widths: 15 15 60
@@ -2634,15 +2634,15 @@ successfully.
      - Details
    * - ``new_state``
      - dictionary
-     - New problem state.  
+     - New problem state.
    * - ``old_state``
      - dictionary
-     - The state of the problem before the reset was performed. 
+     - The state of the problem before the reset was performed.
    * - ``problem_id``
      - string
      - ID of the problem being reset.
 
-``reset_problem_fail`` 
+``reset_problem_fail``
 *********************************
 
 .. no sample to check
@@ -2652,7 +2652,7 @@ successfully.
 
 **Event Source**: Server
 
-``event`` **Member Fields**: 
+``event`` **Member Fields**:
 
 .. list-table::
    :widths: 15 15 60
@@ -2660,7 +2660,7 @@ successfully.
 
    * - Field
      - Type
-     - Details 
+     - Details
    * - ``failure``
      - string
      - 'closed', 'not_done'
@@ -2669,9 +2669,9 @@ successfully.
      - The state of the problem before the reset was requested.
    * - ``problem_id``
      - string
-     - ID of the problem being reset. 
+     - ID of the problem being reset.
 
-``save_problem_fail`` 
+``save_problem_fail``
 *********************************
 
 .. no sample to check
@@ -2681,7 +2681,7 @@ successfully.
 
 **Event Source**: Server
 
-``event`` **Member Fields**: 
+``event`` **Member Fields**:
 
 .. list-table::
    :widths: 15 15 60
@@ -2690,15 +2690,15 @@ successfully.
    * - Field
      - Type
      - Details
-   * - ``answers`` 
+   * - ``answers``
      - dictionary
-     - 
-   * - ``failure`` 
+     -
+   * - ``failure``
      - string
-     - 'closed', 'done' 
+     - 'closed', 'done'
    * - ``problem_id``
      - string
-     - ID of the problem being saved. 
+     - ID of the problem being saved.
    * - ``state``
      - dictionary
      - Current problem state.
@@ -2713,7 +2713,7 @@ successfully.
 
 **Event Source**: Server
 
-``event`` **Member Fields**: 
+``event`` **Member Fields**:
 
 .. list-table::
    :widths: 15 15 60
@@ -2724,28 +2724,28 @@ successfully.
      - Details
    * - ``answers``
      -  dictionary
-     -  
+     -
    * - ``problem_id``
      - string
-     - ID of the problem being saved. 
+     - ID of the problem being saved.
    * - ``state``
      - dictionary
-     - Current problem state. 
+     - Current problem state.
 
-``show_answer`` 
+``show_answer``
 *********************************
 
 .. no sample to check
 
-The server emits ``show_answer`` events when the answer to a problem is shown. 
+The server emits ``show_answer`` events when the answer to a problem is shown.
 
 **Event Source**: Server
 
-**History**: The original name for this event was ``showanswer``. 
+**History**: The original name for this event was ``showanswer``.
 
 .. **Question** is this renaming info correct?
 
-``event`` **Member Fields**: 
+``event`` **Member Fields**:
 
 .. list-table::
    :widths: 15 15 60
@@ -2756,7 +2756,7 @@ The server emits ``show_answer`` events when the answer to a problem is shown.
      - Details
    * - ``problem_id``
      - string
-     - EdX ID of the problem being shown. 
+     - EdX ID of the problem being shown.
 
 .. _library_events:
 
@@ -2764,7 +2764,7 @@ The server emits ``show_answer`` events when the answer to a problem is shown.
 Library Interaction Events
 ==========================
 
-This section includes descriptions of the following events. 
+This section includes descriptions of the following events.
 
 * ``edx.librarycontentblock.content.assigned``
 * ``edx.librarycontentblock.content.removed``
@@ -2821,7 +2821,7 @@ delivered for the first time.
        block and it delivered additional components from the library.
    * - ``location``
      - string
-     - Identifies the randomized content block component. 
+     - Identifies the randomized content block component.
    * - ``max_count``
      - integer
      - The **Count** specified by a course team member in Studio. Defines the
@@ -2832,17 +2832,17 @@ delivered for the first time.
      - integer
      - The number of components assigned to this student before this event.
        The first time the user views the randomized content block, this value
-       is 0. 
+       is 0.
    * - ``result``
      - list
-     - Lists all of the library components delivered to the user. 
+     - Lists all of the library components delivered to the user.
 
        * ``descendants``, when present, is a list that identifies each
          part of a library component that contains multiple parts (the
          children of an XBlock with children).
 
        * ``original_usage_key`` and ``original_usage_version`` identify the
-         component in the library. 
+         component in the library.
 
          When students attempt a problem component delivered by a randomized
          content block, the resulting problem events also reference the
@@ -2852,13 +2852,13 @@ delivered for the first time.
        * ``usage_key`` identifies the location of this component in the
          course. This value identifies a child of the randomized
          content block component.
-       
+
        To identify a component consistently within a course, you can use
        either ``usage_key`` or ``original_usage_key`` as a consistent
        identifier. To identify components across courses, use
        ``orignal_usage_key``.
-       
-       
+
+
 ``edx.librarycontentblock.content.removed``
 *******************************************
 
@@ -2907,7 +2907,7 @@ The following additional ``event`` member fields apply specifically to
      - string
      - 'overlimit' if a course team member reduces the **Count** of library
        components to deliver.
-       
+
        'invalid' if the component is no longer included in the library, or no
        longer matches the settings specified for the randomized content block.
 
@@ -2924,7 +2924,7 @@ The following additional ``event`` member fields apply specifically to
 Discussion Forums Events
 ==========================
 
-This section includes descriptions of the following events. 
+This section includes descriptions of the following events.
 
 * ``edx.forum.comment.created``
 * ``edx.forum.response.created``
@@ -3016,7 +3016,7 @@ emits an ``edx.forum.response.created`` event.
 
 **Event Source**: Server
 
-**History**: Added 5 Mar 2015. 
+**History**: Added 5 Mar 2015.
 
 ``event`` **Member Fields**:
 
@@ -3077,7 +3077,7 @@ Jun 2014. The ``group_id`` field was added 7 October 2014.
    * - ``corrected_text``
      - string
      - A re-spelling of the query, suggested by the search engine, which was
-       automatically substituted for the original one. 
+       automatically substituted for the original one.
 
        This happens only when there are no results for the original query, but
        the index contains matches for a similar term or phrase.
@@ -3087,10 +3087,10 @@ Jun 2014. The ``group_id`` field was added 7 October 2014.
    * - ``group_id``
      - integer
      - The numeric ID of the cohort to which the user's search is
-       restricted, or ``null`` if the search is not restricted in this way. 
+       restricted, or ``null`` if the search is not restricted in this way.
 
        In a course with cohorts enabled, a student's searches will always be
-       restricted to the student's cohort. 
+       restricted to the student's cohort.
 
        Discussion admins, moderators, and Community TAs in such a course can
        search all discussions without specifying a cohort, which leaves
@@ -3099,8 +3099,8 @@ Jun 2014. The ``group_id`` field was added 7 October 2014.
 
    * - ``page``
      - integer
-     - Results are returned in sets of 20 per page. 
-       
+     - Results are returned in sets of 20 per page.
+
        Identifies the page of results requested by the user.
 
    * - ``query``
@@ -3153,8 +3153,8 @@ complete, the server emits an ``edx.forum.thread.created`` event.
 
    * - ``body``
      - string
-     - The text supplied for the new post.      
-       
+     - The text supplied for the new post.
+
        Also present for ``edx.forum.response.created`` and
        ``edx.forum.comment.created`` events.
 
@@ -3164,7 +3164,7 @@ complete, the server emits an ``edx.forum.thread.created`` event.
        course-wide discussion.
 
        Also present for ``edx.forum.response.created`` and
-       ``edx.forum.comment.created`` events.  
+       ``edx.forum.comment.created`` events.
 
    * - ``category_name``
      - string
@@ -3253,12 +3253,12 @@ complete, the server emits an ``edx.forum.thread.created`` event.
 .. _ora2:
 
 ======================================
-Open Response Assessment Events 
+Open Response Assessment Events
 ======================================
 
-This section includes descriptions of the following events. 
+This section includes descriptions of the following events.
 
-.. contents::  
+.. contents::
   :local:
   :depth: 1
 
@@ -3284,7 +3284,7 @@ this event when a response is delivered to a student for evaluation.
 
 **History**: Added 3 April 2014.
 
-``event`` **Member Fields**: 
+``event`` **Member Fields**:
 
 .. list-table::
    :widths: 15 15 60
@@ -3304,7 +3304,7 @@ this event when a response is delivered to a student for evaluation.
 
    * - ``item_id``
      - string
-     - The i4x:// style locator that identifies the problem in the course. 
+     - The i4x:// style locator that identifies the problem in the course.
    * - ``requesting_student_id``
      - string
      - The course-specific anonymized user ID of the student who requested the
@@ -3312,11 +3312,11 @@ this event when a response is delivered to a student for evaluation.
    * - ``submission_returned_uuid``
      - string
      - The unique identifier of the response that the student retrieved for
-       assessment. 
+       assessment.
 
        If no assessment is available, this is set to "None".
 
-       
+
 ``openassessmentblock.peer_assess`` and ``openassessmentblock.self_assess``
 ****************************************************************************
 
@@ -3343,7 +3343,7 @@ peer's response or submits a self-assessment of her own response.
      - array
      - The ``parts`` field contains member fields for each ``criterion`` in the
        rubric, the ``option`` that the student selected for it, and any
-       ``feedback`` comments that the student supplied. 
+       ``feedback`` comments that the student supplied.
 
        These member fields are repeated in an array to include all of the
        rubric's criteria.
@@ -3355,7 +3355,7 @@ peer's response or submits a self-assessment of her own response.
 
        When the only criterion in the rubric is student feedback, ``points
        possible`` is 0 and the ``option`` field is not included.
-       
+
    * - ``rubric``
      - dictionary
      - This field contains the member field ``contenthash``, which identifies
@@ -3426,8 +3426,8 @@ assessment.
      - Details
    * - ``answer``
      - dictionary
-     - This field contains a ``text`` (string) member field for the response. 
-       
+     - This field contains a ``text`` (string) member field for the response.
+
        For responses that also include an image file, this field contains a
        ``file_upload_key`` (string) member field with the AWS S3 key that
        identifies the location of the image file on the Amazon S3 storage
@@ -3468,8 +3468,8 @@ save responses before they submit them for assessment.
      - Details
    * - ``saved_response``
      - dictionary
-     - This field contains a ``text`` (string) member field for the response. 
-       
+     - This field contains a ``text`` (string) member field for the response.
+
        For responses that also include an image file, this field contains a
        ``file_upload_key`` (string) member field with the AWS S3 key that
        identifies the location of the image file on the Amazon S3 storage
@@ -3552,9 +3552,9 @@ the response.
 Poll and Survey Events
 ===========================
 
-This section describes events emitted by the poll and survey XBlocks. 
+This section describes events emitted by the poll and survey XBlocks.
 
-.. contents::  
+.. contents::
   :local:
   :depth: 1
 
@@ -3620,7 +3620,7 @@ responses to a survey.
    * - ``choices``
      - object
      - Name/value pairs that identify each question in the survey and the
-       responses that the user selected, in the format 
+       responses that the user selected, in the format
        ``"question_name": "'response_name"``.
 
 
@@ -3642,9 +3642,9 @@ submits survey responses.
 Third-Party Content Events
 ===========================
 
-This section includes descriptions of the following events. 
+This section includes descriptions of the following events.
 
-* ``edx.googlecomponent.calendar.displayed`` 
+* ``edx.googlecomponent.calendar.displayed``
 * ``edx.googlecomponent.document.displayed``
 
 EdX courses can include components that present content that is hosted by a
@@ -3677,8 +3677,8 @@ to a course, see :ref:`partnercoursestaff:Create Exercises`.
      - Details
    * - ``displayed_in``
      - string
-     - 'img' for Google Drive image files. 
-       
+     - 'img' for Google Drive image files.
+
        'iframe' for Google Calendars and for Google Drive files of other
        types.
 
@@ -3692,7 +3692,7 @@ to a course, see :ref:`partnercoursestaff:Create Exercises`.
 Testing Events for Content Experiments
 ========================================
 
-This section includes descriptions of the following events. 
+This section includes descriptions of the following events.
 
 * ``assigned_user_to_partition``
 * ``child_render``
@@ -3700,7 +3700,7 @@ This section includes descriptions of the following events.
 Course authors can configure course content to present modules that contain
 other modules. Content experiments, also known as A/B or split tests, use this
 structure. For example, a parent module can include two child modules that
-contain content that differs in some way for comparison testing. 
+contain content that differs in some way for comparison testing.
 
 * Internally, a *partition* defines the type of experiment: comparing the
   effectiveness of video alone to text alone, for example. A course can include
@@ -3725,7 +3725,7 @@ contain content that differs in some way for comparison testing.
 
 The events that follow apply to modules that are set up to randomly assign
 students to groups so that different content can be shown to the different
-groups. 
+groups.
 
 For more information about how course teams add content experiments to their
 courses, see :ref:`partnercoursestaff:Add Content Experiments to Your Course`.
@@ -3737,7 +3737,7 @@ courses, see :ref:`partnercoursestaff:Add Content Experiments to Your Course`.
 
 When a student views a module that is set up to test different child modules,
 the server checks the ``user_api_usercoursetag`` table for the student's
-assignment to the relevant partition, and to a group for that partition. 
+assignment to the relevant partition, and to a group for that partition.
 
 * The partition ID is the ``user_api_usercoursetag.key``.
 
@@ -3748,7 +3748,7 @@ If the student does not yet have an assignment, the server emits an
 ``user_api_usercoursetag`` table for the student. See
 :ref:`user_api_usercoursetag`.
 
-.. note:: After this event is emitted, the common ``context`` field in all 
+.. note:: After this event is emitted, the common ``context`` field in all
  subsequent events includes a ``course_user_tags`` member field with the
  student's assigned partition and group.
 
@@ -3756,7 +3756,7 @@ If the student does not yet have an assignment, the server emits an
 
 **Event Source**: Browser
 
-``event`` **Member Fields**: 
+``event`` **Member Fields**:
 
 .. list-table::
    :widths: 15 15 60
@@ -3770,7 +3770,7 @@ If the student does not yet have an assignment, the server emits an
      - Identifier of the group.
    * - ``group_name``
      - string
-     - Name of the group. 
+     - Name of the group.
    * - ``partition_id``
      - integer
      - Identifier for the partition, in the format
@@ -3790,7 +3790,7 @@ the child module that was shown to the student.
 
 **Event Source**: Server
 
-``event`` **Member Fields**: 
+``event`` **Member Fields**:
 
 .. list-table::
    :widths: 15 15 60
@@ -3801,10 +3801,10 @@ the child module that was shown to the student.
      - Details
    * - ``child_id``
      - string
-     - ID of the module that was displayed to the student. 
-       
+     - ID of the module that was displayed to the student.
+
        **History**: Renamed on 16 Oct 2014 from ``child-id`` to ``child_id``.
-       
+
 
 .. _student_cohort_events:
 
@@ -3812,7 +3812,7 @@ the child module that was shown to the student.
 Student Cohort Events
 ==========================
 
-This section includes descriptions of the following events. 
+This section includes descriptions of the following events.
 
 * ``edx.cohort.created``
 * ``edx.cohort.user_added``
@@ -3859,7 +3859,7 @@ Instructor Dashboard to create a cohort. See
 ``edx.cohort.user_added``
 *********************************
 
-When a user is added to a cohort, the server emits an 
+When a user is added to a cohort, the server emits an
 ``edx.cohort.user_added`` event. Members of the course team can add users to
 cohorts individually or by uploading a .csv file of student cohort
 assignments. The system automatically adds a user to the default cohort or a
@@ -3945,7 +3945,7 @@ first event produced when teams are included in a course is the
    contact your edX Partner Manager. For Open edX sites, contact your system
    administrator.
 
-.. contents:: 
+.. contents::
   :local:
   :depth: 1
 
@@ -3960,10 +3960,10 @@ first event produced when teams are included in a course is the
 
 When team discussion activity has occurred on a team, including a team member
 posting, editing posts, commenting, responding, endorsing, and so on), the
-server emits an ``edx.team.activity_updated`` event. 
+server emits an ``edx.team.activity_updated`` event.
 
 The definition of activity that would trigger this event does not include
-changes in team membership. 
+changes in team membership.
 
 **Event Source**: Server
 
@@ -4026,7 +4026,7 @@ event type also includes the following ``event`` member fields.
      - The value of the field before the modification. If this value is longer
        than 1250 characters, the string is truncated, ``...`` is added at the
        end of the string, and this field is included in the ``truncated``
-       array.  
+       array.
    * - ``truncated``
      - array
      - The ``truncated`` event field is an array of the ``old`` and ``new``
@@ -4114,10 +4114,10 @@ event type also includes the following ``event`` member fields.
        ``added_by_another_user``.
    * - ``user_id``
      - string
-     - The identifier for the user who joined or was added to the team.  
+     - The identifier for the user who joined or was added to the team.
 
 The ``edx.team.learner_added`` event also includes the following ``event``
-member field. 
+member field.
 
 * ``team_id``
 
@@ -4162,12 +4162,12 @@ event type also includes the following ``event`` member fields.
      - The identifier for the user who left or was removed from the team.
 
 The ``edx.team.learner_removed`` event also includes the following ``event``
-member field. 
+member field.
 
 * ``team_id``
 
 This field serves the same purpose for this event as it does for the
-:ref:`edx_team_activity_updated` event.   
+:ref:`edx_team_activity_updated` event.
 
 
 ``edx.team.page_viewed``
@@ -4191,8 +4191,8 @@ event type also includes the following ``event`` member fields.
 
    * - Field
      - Type
-     - Details  
-   * - ``page_name``  
+     - Details
+   * - ``page_name``
      - string
      - The name of the page that was viewed. Possible values are: ``browse``,
        ``edit-team``, ``my-teams``, ``new-team``, ``search teams``, ``single-
@@ -4205,7 +4205,7 @@ event type also includes the following ``event`` member fields.
 
 
 The ``edx.team.page_viewed`` event also includes the following ``event``
-member field. 
+member field.
 
 * ``team_id``
 
@@ -4240,14 +4240,14 @@ event type also includes the following ``event`` member fields.
      - Details
    * - ``number_of_results``
      - integer
-     - The count of results that matched the search text.  
+     - The count of results that matched the search text.
    * - ``search_text``
      - string
      - The text or keywords used in the search.
    * - ``topic_id``
      - string
      - The identifier for the topic under which this search for teams was
-       performed. 
+       performed.
 
 
 
@@ -4256,7 +4256,7 @@ event type also includes the following ``event`` member fields.
   .. _badging_events:
 
   =================================
-  Badging Events 
+  Badging Events
   =================================
 
   This section includes descriptions of the following events related to badges,
@@ -4273,11 +4273,11 @@ event type also includes the following ``event`` member fields.
       When learners earn badges, they can download a badge image and share it on
       social networks or on badge display sites such as Mozilla Backpack. When
       other parties visit the shared badge links, they can view information that
-      gives evidence of the learner's achievement. 
+      gives evidence of the learner's achievement.
 
 
-      * ``edx.badge.assertion.created`` 
-      * ``edx.badge.assertion.shared`` 
+      * ``edx.badge.assertion.created``
+      * ``edx.badge.assertion.shared``
       * ``edx.badge.assertion.evidence_visited``
 
 
@@ -4313,7 +4313,7 @@ event type also includes the following ``event`` member fields.
            - The URL of a JSON object containing the badge assertion information.
          * - ``course_id``
            - string
-           - The course associated with this badge. 
+           - The course associated with this badge.
          * - ``enrollment_mode``
            - string
            - The course enrollment mode associated with this badge.
@@ -4322,7 +4322,7 @@ event type also includes the following ``event`` member fields.
            - The URL of the badge issuer's web site.
          * - ``user_id``
            - integer
-           - The numeric ID of the learner who earned this badge.    
+           - The numeric ID of the learner who earned this badge.
 
 
       ``edx.badge.assertion.shared``
@@ -4370,12 +4370,12 @@ event type also includes the following ``event`` member fields.
 
       ``edx.badge.assertion.evidence_visited``
       *****************************************
-       
+
       Each badge contains assertion information that includes an "evidence" field.
       When badges are displayed on sites such as Mozilla Backpack, the evidence
       field is used to provide a link to evidence that confirms the badge owner's
       achievement, usually a certificate.
-       
+
       When other users visit social networks or a site such as Mozilla Backpack and
       use a badge's evidence link to view a badge owner's certificate, the server
       emits an ``edx.badge.assertion.evidence_visited`` event.
@@ -4404,14 +4404,14 @@ event type also includes the following ``event`` member fields.
 .. _certificate_events:
 
 =================================
-Certificate Events 
+Certificate Events
 =================================
 
 This section includes descriptions of the events related to certificates, which
 are awarded to qualified learners when they complete a course.
 
-* ``edx.certificate.created`` 
-* ``edx.certificate.shared`` 
+* ``edx.certificate.created``
+* ``edx.certificate.shared``
 * ``edx.certificate.evidence_visited``
 
 
@@ -4444,10 +4444,10 @@ When a certificate is generated, a record is created in the
        bottom of each certificate.
    * - ``certificate_url``
      - string
-     - The URL for the certificate web page.  
+     - The URL for the certificate web page.
    * - ``course_id``
      - string
-     - The course for which this certificate is issued. 
+     - The course for which this certificate is issued.
    * - ``enrollment_mode``
      - string
      - The course enrollment mode associated with this certificate.
@@ -4458,7 +4458,7 @@ When a certificate is generated, a record is created in the
        certificate. Possible values are "batch" and "self".
    * - ``user_id``
      - integer
-     - The numeric ID of the learner who earned this certificate.    
+     - The numeric ID of the learner who earned this certificate.
 
 
 ``edx.certificate.shared``
@@ -4502,7 +4502,7 @@ The following additional ``event`` member field applies specifically to
 
 ``edx.certificate.evidence_visited``
 **************************************
- 
+
 When a learner shares her certificates on social network sites such as
 LinkedIn, and the link back to the certificate is followed by some visitor to
 that social network site, the server emits an
@@ -4536,7 +4536,7 @@ The following additional ``event`` member fields apply specifically to
 
    * - Field
      - Type
-     - Details  
+     - Details
    * - ``social_network``
      - string
      - The social network to which the certificate is shared, such as
@@ -4575,7 +4575,7 @@ user hides or redisplays a combined open-ended problem.
 
 **Event Source**: Browser
 
-``event`` **Member Fields**: 
+``event`` **Member Fields**:
 
 .. list-table::
    :widths: 15 15 60
@@ -4588,14 +4588,14 @@ user hides or redisplays a combined open-ended problem.
      - string
      - The location of the question whose prompt is being shown or hidden.
 
-``rubric_select`` 
+``rubric_select``
 *********************************
 
 **Component**: Combined Open-Ended
 
 **Event Source**: Browser
 
-``event`` **Member Fields**: 
+``event`` **Member Fields**:
 
 .. list-table::
    :widths: 15 15 60
@@ -4609,10 +4609,10 @@ user hides or redisplays a combined open-ended problem.
      - Rubric category selected.
    * - ``location``
      - string
-     - The location of the question whose rubric is being selected. 
+     - The location of the question whose rubric is being selected.
    * - ``selection``
      - integer
-     - Value selected on rubric. 
+     - Value selected on rubric.
 
 ``oe_show_full_feedback`` and ``oe_show_respond_to_feedback``
 ******************************************************************
@@ -4623,7 +4623,7 @@ user hides or redisplays a combined open-ended problem.
 
 ``event`` **Member Fields**: None.
 
-``oe_feedback_response_selected`` 
+``oe_feedback_response_selected``
 *********************************
 
 **Component**: Combined Open-Ended
@@ -4646,7 +4646,7 @@ user hides or redisplays a combined open-ended problem.
 ``peer_grading_hide_question`` and ``peer_grading_show_question``
 ******************************************************************
 
-The browser emits ``peer_grading_hide_question`` and 
+The browser emits ``peer_grading_hide_question`` and
 ``peer_grading_show_question`` events when the user hides or redisplays a
 problem that is peer graded.
 
@@ -4657,7 +4657,7 @@ and ``peer_grading_show_problem``.
 
 **Event Source**: Browser
 
-``event`` **Member Fields**: 
+``event`` **Member Fields**:
 
 .. list-table::
    :widths: 15 15 60
@@ -4673,7 +4673,7 @@ and ``peer_grading_show_problem``.
 ``staff_grading_hide_question`` and ``staff_grading_show_question``
 ********************************************************************
 
-The browser emits ``staff_grading_hide_question`` and 
+The browser emits ``staff_grading_hide_question`` and
 ``staff_grading_show_question`` events when the user hides or redisplays a
 problem that is staff graded.
 
@@ -4684,7 +4684,7 @@ and ``staff_grading_show_problem``.
 
 **Event Source**: Browser
 
-``event`` **Member Fields**: 
+``event`` **Member Fields**:
 
 .. list-table::
    :widths: 15 15 60
@@ -4725,12 +4725,12 @@ For more information about the common fields, see :ref:`common`.
 Course team events that have additional ``context`` or ``event`` member fields
 follow.
 
-.. contents:: Section Contents 
+.. contents:: Section Contents
   :local:
   :depth: 1
 
 ======================================================
-``add_instructor`` and ``remove_instructor`` 
+``add_instructor`` and ``remove_instructor``
 ======================================================
 
 .. previously a comma-separated list; "Rows identical after the second column" (which means the name and description columns) were combined
@@ -4739,7 +4739,7 @@ follow.
 
 **Event Source**: Server
 
-``event`` **Member Fields**: 
+``event`` **Member Fields**:
 
 .. list-table::
    :widths: 40 40
@@ -4763,7 +4763,7 @@ follow.
 
 **Event Source**: Server
 
-``event`` **Member Fields**: 
+``event`` **Member Fields**:
 
 .. list-table::
    :widths: 40 40
@@ -4781,7 +4781,7 @@ follow.
 .. _edx.instructor.report.downloaded:
 
 ======================================================
-``edx.instructor.report.downloaded`` 
+``edx.instructor.report.downloaded``
 ======================================================
 
 The browser emits an  ``edx.instructor.report.downloaded`` event when the user
@@ -4793,7 +4793,7 @@ clicks a report link on the Instructor Dashboard to download a report.
 
 **Event Source**: Browser
 
-``event`` **Member Fields**: 
+``event`` **Member Fields**:
 
 .. list-table::
    :widths: 20 20 40
@@ -4804,16 +4804,16 @@ clicks a report link on the Instructor Dashboard to download a report.
      - Details
    * - ``report_url``
      - string
-     - The URL to the report file.  
+     - The URL to the report file.
 
 .. _edx.instructor.report.requested:
 
 ======================================================
-``edx.instructor.report.requested`` 
+``edx.instructor.report.requested``
 ======================================================
 
 The server emits an  ``edx.instructor.report.requested`` event when the user
-clicks to request the generation of a report on the Instructor Dashboard. 
+clicks to request the generation of a report on the Instructor Dashboard.
 
 **History**: Added 8 May 2015.
 
@@ -4821,7 +4821,7 @@ clicks to request the generation of a report on the Instructor Dashboard.
 
 **Event Source**: Server
 
-``event`` **Member Fields**: 
+``event`` **Member Fields**:
 
 .. list-table::
    :widths: 20 20 40
@@ -4838,14 +4838,14 @@ clicks to request the generation of a report on the Instructor Dashboard.
 .. _progress:
 
 ======================================================
-``get-student-progress-page`` 
+``get-student-progress-page``
 ======================================================
 
 **Component**: Instructor Dashboard
 
 **Event Source**: Server
 
-``event`` **Member Fields**: 
+``event`` **Member Fields**:
 
 .. list-table::
    :widths: 40 40
@@ -4871,7 +4871,7 @@ clicks to request the generation of a report on the Instructor Dashboard.
 
 **Event Source**: Server
 
-``event`` **Member Fields**: 
+``event`` **Member Fields**:
 
 .. list-table::
    :widths: 40 40
@@ -4881,7 +4881,7 @@ clicks to request the generation of a report on the Instructor Dashboard.
      - Type
    * - ``course``
      - string
-   * - ``problem`` 
+   * - ``problem``
      - string
 
 
@@ -4895,7 +4895,7 @@ clicks to request the generation of a report on the Instructor Dashboard.
 
 **Event Source**: Server
 
-``event`` **Member Fields**: 
+``event`` **Member Fields**:
 
 .. list-table::
    :widths: 40 40
@@ -4908,7 +4908,7 @@ clicks to request the generation of a report on the Instructor Dashboard.
    * - ``old_attempts``
      - string
    * - ``problem``
-     - string 
+     - string
    * - ``student``
      - string
 
@@ -4933,7 +4933,7 @@ List Discussion Team Events
 
 **Event Source**: Server
 
-``event`` **Member Fields**: 
+``event`` **Member Fields**:
 
 .. list-table::
    :widths: 40 40
@@ -4947,7 +4947,7 @@ List Discussion Team Events
 .. _forum:
 
 ======================================================
-Manage Discussion Team Events   
+Manage Discussion Team Events
 ======================================================
 
 .. previously a comma-separated list; "Rows identical after the second column" (which means the name and description columns) were combined
@@ -4968,7 +4968,7 @@ Manage Discussion Team Events
 
 **Event Source**: Server
 
-``event`` **Member Fields**: 
+``event`` **Member Fields**:
 
 .. list-table::
    :widths: 40 40
@@ -4991,7 +4991,7 @@ Manage Discussion Team Events
 
 **Event Source**: Server
 
-``event`` **Member Fields**: 
+``event`` **Member Fields**:
 
 .. list-table::
    :widths: 40 40
@@ -5005,14 +5005,14 @@ Manage Discussion Team Events
 .. _user_group:
 
 ======================================================
-``add-or-remove-user-group``   
+``add-or-remove-user-group``
 ======================================================
 
 **Component**: Instructor Dashboard
 
 **Event Source**: Server
 
-``event`` **Member Fields**: 
+``event`` **Member Fields**:
 
 .. list-table::
    :widths: 40 40

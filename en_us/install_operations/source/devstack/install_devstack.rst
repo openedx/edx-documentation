@@ -37,7 +37,7 @@ Devstack includes the following edX components:
 * edX Studio
 * Discussion Forums
 * Open Response Assessments (ORA)
-  
+
 Devstack also includes a demo edX course.
 
 **************************
@@ -67,8 +67,8 @@ software.
 
 * A Network File System (NFS) client, if your operating system does not include
   one. Devstack uses VirtualBox Guest Editions to share folders through NFS.
-  
-.. _Install DevStack:  
+
+.. _Install DevStack:
 
 **************************
 Install DevStack
@@ -86,20 +86,20 @@ computer.
 #. Ensure the ``nfsd`` client is running.
 
 #. Create the ``devstack`` directory and navigate to it in the command prompt.
-   
+
    .. code-block:: bash
 
      mkdir devstack
      cd devstack
 
 #. Download the Devstack Vagrant file.
-   
+
    .. code-block:: bash
 
      curl -L https://raw.github.com/edx/configuration/master/vagrant/release/devstack/Vagrantfile > Vagrantfile
 
 #. Install the Vagrant ``vbguest`` plugin.
-   
+
    .. code-block:: bash
 
      vagrant plugin install vagrant-vbguest
@@ -162,7 +162,7 @@ To resolve the error, follow these steps.
 
 #. Stop the VPN.
 #. Type ``vagrant halt``.
-#. Open Virtualbox.   
+#. Open Virtualbox.
 #. Navigate to **Preferences > Network > Host-only Networks** and remove the
    most-recently-created host-only network.
 #. Type ``vagrant up``.

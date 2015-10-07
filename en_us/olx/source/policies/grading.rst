@@ -11,7 +11,7 @@ course.
 Create the Grading Policy File
 *******************************
 
-You define policies for your course in the ``grading_policy.json`` file. 
+You define policies for your course in the ``grading_policy.json`` file.
 
 Save the ``grading_policy.json`` file in the ``policy/<course-name>``
 directory.
@@ -50,20 +50,20 @@ Example Grading Policy File
 .. code-block:: json
 
     {
-        "GRADE_CUTOFFS": {"Pass": 0.6}, 
+        "GRADE_CUTOFFS": {"Pass": 0.6},
         "GRADER": [
                     {
-                        "min_count": 3, 
-                        "weight": 0.75, 
-                        "type": "Homework", 
-                        "drop_count": 1, 
+                        "min_count": 3,
+                        "weight": 0.75,
+                        "type": "Homework",
+                        "drop_count": 1,
                         "short_label": "Ex"
-                    }, 
+                    },
                     {
-                        "short_label": "", 
-                        "min_count": 1, 
-                        "type": "Exam", 
-                        "drop_count": 0, 
+                        "short_label": "",
+                        "min_count": 1,
+                        "type": "Exam",
+                        "drop_count": 0,
                         "weight": 0.25
                     }
                   ]

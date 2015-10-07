@@ -33,7 +33,7 @@ Top-level Directory
 ************************
 
 Starting out, it is easiest to create your courseware structure in a
-single file, the ``course.xml file``. 
+single file, the ``course.xml file``.
 
 This file can contain your entire course, but in most cases, it is convenient
 to split out large chunks of content into individual files. This is typically
@@ -41,7 +41,7 @@ done either at the level of large components, such as problems or homework
 assignments.
 
 Currently, when Studio exports a course, it places each component in its own
-file. 
+file.
 
 For example, the edX Platform contains a directory called
 `manual-testing-complete`_ that contains a course with all component
@@ -67,7 +67,7 @@ course does not contain html files, or if they are all embedded in
 their top-level components, you do not need to create an ``html``
 directory.
 
-For information about several examples of these directories, see: 
+For information about several examples of these directories, see:
 
 See :ref:`HTML Components` for more information.
 See :ref:`Problems` for more information.
@@ -125,7 +125,7 @@ The ``policies`` directory contains:
 * ``policy.json``, which defines various settings in the course.
 
 * ``assets.json``, which defines all files used in the course, such as images.
-  
+
 See :ref:`Course Policies` for more information.
 
 ====================

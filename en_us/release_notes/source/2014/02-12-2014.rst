@@ -35,7 +35,7 @@ Accessibility Improvements
 
 * Updates to unit pages now make navigation more accessible to screen readers.
 
-* Modal dialog boxes and script templates are now hidden from screen readers. 
+* Modal dialog boxes and script templates are now hidden from screen readers.
 
 * Mathjax messages that are specific to Internet Explorer are no longer shown when students are using a different browser.
 
@@ -43,7 +43,7 @@ Accessibility Improvements
 
 * The character set meta tag was added to the main course template.
 
-* The DOCTYPE declaration was added to the top of the main course template.	
+* The DOCTYPE declaration was added to the top of the main course template.
 
 
 

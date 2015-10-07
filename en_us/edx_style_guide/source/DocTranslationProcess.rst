@@ -43,13 +43,13 @@ The basic process for translating edX documentation consists of these steps.
 
 	* Save changes in the source files without renaming or moving the files.
 
-	* Commit changes back to Github. 
+	* Commit changes back to Github.
 
 	* Create pull requests in Github for review purposes.
 
 4. Build draft output and verify that everything renders as it should in both
    HTML and PDF formats. For information, see the "Verify Output" topic on this
-   wiki page: 
+   wiki page:
 
    https://openedx.atlassian.net/wiki/display/DOC/Instructions+for+Updating+Documentation
 

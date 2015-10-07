@@ -17,7 +17,7 @@ edX Studio
 edX Website
 ***************************************
 
-* On the edX.org sign-up page, the **Public Username** field is now above the **Password** field. 
+* On the edX.org sign-up page, the **Public Username** field is now above the **Password** field.
 
 * In the student dashboard, the appearance of the user profile area in the left pane has changed.
 

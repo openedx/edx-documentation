@@ -11,16 +11,16 @@ create your first course.
  :local:
  :depth: 1
 
-If you are using an instance of Open edX, some specifics in this section might 
+If you are using an instance of Open edX, some specifics in this section might
 not apply.
 
-.. _What is Studio?:        
-            
+.. _What is Studio?:
+
 ***************
 What is Studio?
 ***************
 
-Studio is the edX tool you use to build your courses. 
+Studio is the edX tool you use to build your courses.
 
 You use Studio to create course content, problems, videos, and other resources
 for students.
@@ -51,9 +51,9 @@ You must then request access to create courses.
 
 EdX evaluates your request. When course creation permissions are granted,
 you are notified by email.
-  
-.. _Create Your First Course:  
-  
+
+.. _Create Your First Course:
+
 ***************************
 Create Your First Course
 ***************************
@@ -70,9 +70,9 @@ Select **Create Your First Course** and follow instructions in ths
 :ref:`Creating a New Course` section.
 
 When you've created the course, you can view it on Edge.
-  
+
 .. _View Your Course on Edge:
-    
+
 ************************
 View Your Course on Edge
 ************************

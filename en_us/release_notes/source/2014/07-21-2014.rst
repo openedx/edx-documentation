@@ -18,7 +18,7 @@ edX Studio
 
   * New URL:
     https://studio.edx.org/unit/i4x://MITx/7.00x/vertical/Coming_Soon_Explore_a_Protein
-  
+
   This change does not affect student-visible URLs.
 
 * In open response assessments, you can now create assignments that allow students to upload an image file as well as write a text response. For more information, see Creating Peer Assessments.
@@ -30,7 +30,7 @@ edX Studio
 ***************************************
 edX Learning Management System
 ***************************************
-   
+
 * The Instructor Dashboard **Analytics** tab now includes the number of students who interacted with the course by visiting pages, playing videos, contributing to discussions, submitting answers to problems, or completing other course activites. The active student count is updated each week.
 
 * Some links on the right side of the course wiki appeared to be disabled. This has been fixed. (LMS-1308)

@@ -20,7 +20,7 @@ Discussions
 
 
 * Course staff can now delete comments made on discussion responses.
-  
+
 
 
 

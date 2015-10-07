@@ -10,7 +10,7 @@ You can now add feedback, hints, or both to the following problem types.
 * Multiple choice
 * Numerical input
 * Text input
-  
+
 In Studio, you can use new templates to add sample problems that use the
 feedback and hint syntax.
 

@@ -63,7 +63,7 @@ automated retries.
 Course teams can track the status of each video file on the Studio **Video
 Uploads** page as the videos go through automated processing.
 
-.. note:: The edX automation process does not include captioning services. 
+.. note:: The edX automation process does not include captioning services.
  Your course teams use your institution's current workflow to generate
  transcripts for your video files, and then add them to the video in Studio.
  For more information, see :ref:`Add a Video Transcript`.

@@ -13,12 +13,12 @@ The following documentation is available for edX Partners.
 * :ref:`data:edX Research Guide`
 
 The following documentation is available for Open edX users.
-  
+
 * :ref:`openreleasenotes:Open edX Release Notes`
-  
+
 * :ref:`installation:Installing, Configuring, and Running the Open edX
   Platform`
-  
+
 * :ref:`opencoursestaff:Building and Running an Open edX Course`
 
 * :ref:`openlearners:Open edX Learner's Guide`
@@ -32,7 +32,7 @@ The following documentation is available for Open edX users.
 * :ref:`olx:edX Open Learning XML Guide`
 
 * :ref:`openplatformapi:Open edX Platform APIs`
-  
+
 * :ref:`opendataapi:Open edX Data Analytics API`
 
 

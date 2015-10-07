@@ -6,7 +6,7 @@ Video Components
 
 You can add video components to any container in your course (such as
 a vertical or sequential). Studio places all video components inside
-verticals (which it calls units). 
+verticals (which it calls units).
 
 See:
 
@@ -19,15 +19,15 @@ See:
 Create the XML File for a Video Component
 **********************************************
 
-To add a video component to your course, add it to the course XML tree as: 
+To add a video component to your course, add it to the course XML tree as:
 
 .. code-block:: xml
 
-  <video 
-    youtube="1.00:o2pLltkrhGM" 
-    url_name="Introduction_Lecture" 
-    display_name="Introduction Lecture" 
-    youtube_id_1_0="o2pLltkrhGM" 
+  <video
+    youtube="1.00:o2pLltkrhGM"
+    url_name="Introduction_Lecture"
+    display_name="Introduction Lecture"
+    youtube_id_1_0="o2pLltkrhGM"
   </video>
 
 If you would prefer to break this out into its own file, you create an
@@ -40,7 +40,7 @@ The name of the XML file must match the value of the @url_name attribute of the
 For example, if the vertical XML file contains:
 
 .. code-block:: xml
-  
+
    <vertical display_name="Lesson_1_Unit_1">
       <video url_name="Introduction_Lecture"/>
       . . .
@@ -51,9 +51,9 @@ component.
 
 *************************************
 Video Component XML File Elements
-************************************* 
+*************************************
 
-The root element of the XML file for the HTML component is file is ``video``. 
+The root element of the XML file for the HTML component is file is ``video``.
 
 The ``video`` element contains a single ``source`` element.
 
@@ -109,7 +109,7 @@ The ``source`` element contains one attribute:
      - The YouTube ID for the video that plays at 125% normal speed.
    * - ``youtube_id_1_5``
      - The YouTube ID for the video that plays at 150% normal speed.
-       
+
 
 *************************************
 Example Video Component XML File
@@ -118,18 +118,18 @@ Example Video Component XML File
 The following example shows an XML file for a discussion component:
 
 .. code-block:: xml
-  
-  <video 
-    youtube="0.75:xGKlr7nT_Zw,1.00:o2pLltkrhGM,1.25:XGsB9bA6rGU,1.50:_HuIF16HdTA" 
-    url_name="Introduction_Lecture" 
-    display_name="Introduction Lecture" 
-    download_video="true" 
-    html5_sources="[&quot;https://s3.amazonaws.com/edx-course-videos/school/DemoCourseIntroductionVideo.mov&quot;]" 
-    source="" 
-    youtube_id_0_75="xGKlr7nT_Zw" 
-    youtube_id_1_0="o2pLltkrhGM" 
-    youtube_id_1_25="XGsB9bA6rGU" 
+
+  <video
+    youtube="0.75:xGKlr7nT_Zw,1.00:o2pLltkrhGM,1.25:XGsB9bA6rGU,1.50:_HuIF16HdTA"
+    url_name="Introduction_Lecture"
+    display_name="Introduction Lecture"
+    download_video="true"
+    html5_sources="[&quot;https://s3.amazonaws.com/edx-course-videos/school/DemoCourseIntroductionVideo.mov&quot;]"
+    source=""
+    youtube_id_0_75="xGKlr7nT_Zw"
+    youtube_id_1_0="o2pLltkrhGM"
+    youtube_id_1_25="XGsB9bA6rGU"
     youtube_id_1_5="_HuIF16HdTA">
-  
+
     <source src="https://s3.amazonaws.com/edx-course-videos/mit-6002x/6002-Tutorial-00010_100.mov"/>
   </video>

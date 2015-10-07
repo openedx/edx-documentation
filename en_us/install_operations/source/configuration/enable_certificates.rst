@@ -24,7 +24,7 @@ To enable this feature on your instance of Open edX, you must enable the
 feature flag in both Studio and the Learning Management System and perform the
 configuration tasks described in this topic.
 
-.. Note::  
+.. Note::
   Before proceeding, review :ref:`Guidelines for Updating the edX Platform`.
 
 *****************************************************************
@@ -42,7 +42,7 @@ Enable Certificates in Studio and the Learning Management System
 #. Save the ``/cms/envs/common.py`` and ``/lms/envs/common.py`` files.
 
 #. If it does not exist already, create the folder ``/tmp/certificates`` owned by
-   the user and group ``www-data``. Depending on your configuration, this folder 
+   the user and group ``www-data``. Depending on your configuration, this folder
    might not survive reboots, and so might need to be created by script.
 
 #. Run database migrations.
@@ -69,7 +69,7 @@ Configure Certificates for Your Open edX Instance
  * ``company_verified_certificate_url``
  * ``logo_src``
  * ``logo_url``
-  
+
 
    For each course mode, such as "honor" or "verified", define
    ``certificate_type``, ``certificate_title`` and
@@ -81,7 +81,7 @@ Configure Certificates for Your Open edX Instance
     {
         "default": {
             "accomplishment_class_append": "accomplishment-certificate",
-            "platform_name": "YourPlatformName", 
+            "platform_name": "YourPlatformName",
             "company_about_url":"http://www.YourOrganization.com/about-us",
             "company_privacy_url": "http://www.YourOrganization.com/our-privacy-policy",
             "company_tos_url": "http://www.YourOrganization.com/our-terms-service",
@@ -109,7 +109,7 @@ Configure Certificates for Your Open edX Instance
             "certificate_title": "Distinguished Certificate of Achievement",
             "document_body_class_append": "is-distinguished"
         }
-    }   
+    }
 
 4. Save the configuration parameters and exit the Django Administration website.
 
@@ -136,7 +136,7 @@ Assets for HTML certificates exist in the following locations.
   main certificate .html files
 
 * **lms/static/certificates** - subfolders of this folder contain assets used in
-  creating certificates, such as images, fonts, and sass/css files. 
+  creating certificates, such as images, fonts, and sass/css files.
 
   .. note:: The organization logo on a certificate is uploaded in Studio. For
      details, see :ref:`opencoursestaff:Setting Up Course Certificates` in
@@ -167,20 +167,20 @@ for eligible learners.
    certificates. When you view course content in your browser, the course ID
    appears as part of the URL. For example, in the URL
    ``http://www.edx.org/course/course-v1:edX+demoX_Demo_2015``, the course ID
-   is ``course-v1:edX+demoX_Demo_2015``. For some courses, the course ID 
-   contains slashes. For example, ``edX/Demox/Demo_2014``. 
+   is ``course-v1:edX+demoX_Demo_2015``. For some courses, the course ID
+   contains slashes. For example, ``edX/Demox/Demo_2014``.
 
 #. Run ``manage.py`` with the following settings, replacing ``{CourseID}``
    with the actual course ID. Do not include beginning or trailing slashes.
 
    ``./manage.py lms --settings=aws ungenerated_certs -c {CourseID}``
 
-   For example, 
+   For example,
 
    ``./manage.py lms --settings=aws ungenerated_certs -c course-v1:edX+demoX_Demo_2015``.
-   
-   .. Note:: 
-     If the LMS is running on a server that does not have https support 
+
+   .. Note::
+     If the LMS is running on a server that does not have https support
      (such as a locally run fullstack for testing) you will need to use the ``--insecure``
      flag so that the certificate generation service contacts the lms on http instead of
      https.

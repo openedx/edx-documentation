@@ -56,7 +56,7 @@ Bug Fixes
 ============================
 
 * Learners aged 26 years are now correctly included in the 26-40 age range.
-  
+
 * The Section Submissions report for Ungraded Problems now reports the number
   of problems in each section. Previously, the number of subsections in the
   section was reported in error.

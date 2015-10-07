@@ -28,7 +28,7 @@ Data Package Files
 **********************
 
 A data package consists of different files that contain event data and database
-data. 
+data.
 
 .. note:: In all file names, the date is in {YYYY}-{MM}-{DD} format.
 
@@ -88,7 +88,7 @@ Data package files are located at the following Amazon S3 destinations:
 
 * The **s3://edx-course-data/{org}** folder contains the daily
   ``{org}-{site}-events-{date}.log.gz.gpg`` files of course event data.
-  
+
 * The **s3://course-data** bucket contains the weekly ``{org}-{date}.zip``
   database snapshot.
 
@@ -137,14 +137,14 @@ Download Weekly Database Files
     bucket and the **s3://edx-course-data/{org}** folder. You might need to
     disconnect from Amazon S3 and then reconnect to the other destination.
 
-#. To download a weekly database data file, connect to the edX 
-   **s3://course-data** bucket on Amazon S3 using the AWS Command Line 
+#. To download a weekly database data file, connect to the edX
+   **s3://course-data** bucket on Amazon S3 using the AWS Command Line
    Interface or a third-party tool.
 
    For information about providing your credentials to connect to Amazon S3,
    see :ref:`Access Amazon S3`.
 
-2. Download the ``{org}-{date}.zip`` database data file from the 
+2. Download the ``{org}-{date}.zip`` database data file from the
    **s3://course-data** bucket.
 
 

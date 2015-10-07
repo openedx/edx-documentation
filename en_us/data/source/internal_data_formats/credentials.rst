@@ -41,7 +41,7 @@ GNU Privacy Guard (GnuPG or GPG). Essentially, you install a cryptographic
 application on your local computer and then supply your email address and a
 secret passphrase (a password).
 
-.. important:: 
+.. important::
 
  * The email address that you supply when you create your keys must be your
    official email address at your edX partner institution.
@@ -69,9 +69,9 @@ Create Keys: Windows
 #. Go to the Gpg4win_ website and download the most recent version of Gpg4win.
 
 #. Install Gpg4win and then open the Kleopatra Gpg4win application. A wizard
-   presents a series of dialog boxes to collect information from you and 
+   presents a series of dialog boxes to collect information from you and
    generate your public key (called a certificate in Kleopatra).
-    
+
    a. When you are prompted to specify the type of key pair you want, click
       **Create personal OpenPGP key pair**.
 
@@ -92,7 +92,7 @@ Create Keys: Windows
 #. Optionally, click **Make a Backup Copy of Your Key Pair** to store both of
    the keys on a removable data storage device.
 
-.. important:: Do not reveal your passphrase, or share your private key, with 
+.. important:: Do not reveal your passphrase, or share your private key, with
  anyone else. If you need another person to be able to transfer and decrypt
  files, work with edX to set her or him up as an additional data czar. Data
  czars must create and use their own passphrases.
@@ -124,12 +124,12 @@ Create Keys: Macintosh
 #. To send only your public key to your edX Partner Manager, click the key and
    then click **Export**. A dialog box opens.
 
-  a. Specify a file name and location to save the file. 
-     
+  a. Specify a file name and location to save the file.
+
   b. Make sure that **Format** is set to ASCII.
-  
+
   c. Make sure that **Allow secret key export** is cleared.
-  
+
   When you click **Save**, only the public key is saved in the resulting .asc
   file. Do not share your private key with edX or any third party.
 
@@ -173,12 +173,12 @@ To work with an encrypted .gpg file, you use the same GNU Privacy Guard program
 that you used to create your public/private key pair. You use your private key
 to decrypt the Amazon S3 credentials file and the files in your data packages.
 
-#. Save the encrypted file in an accessible location. 
+#. Save the encrypted file in an accessible location.
 
 #. On a Windows computer, open Windows Explorer. On a Macintosh, open Finder.
 
-#. Navigate to the file and right-click it. 
-   
+#. Navigate to the file and right-click it.
+
 #. On a Windows computer, select **Decrypt and verify**, and then click
    **Decrypt/Verify**. Do not change any other setting.
 
@@ -186,13 +186,13 @@ to decrypt the Amazon S3 credentials file and the files in your data packages.
    File**.
 
 #. Enter your passphrase. The GNU Privacy Guard program decrypts the file.
-   
+
 For example, when you decrypt the credentials.csv.gpg file the result is a
 credentials.csv file. Open the decrypted credentials.csv file to see that it
 contains your email address, your Access Key, and your Secret Key.
 
  .. image:: ../Images/AWS_Credentials.png
-  :alt: A csv file, open in Notepad, with the Access Key value and the Secret 
+  :alt: A csv file, open in Notepad, with the Access Key value and the Secret
         Key value underlined
 
 .. _Access Amazon S3:
@@ -213,7 +213,7 @@ Browser. Alternatively, you can use the `AWS Command Line Interface`_.
 #. Open your decrypted ``credentials.csv`` file. This file contains your AWS
    Access Key and your AWS Secret Key.
 
-#. Open the third-party tool. 
+#. Open the third-party tool.
 
 #. Enter information to connect to the S3 account.
 
@@ -222,13 +222,13 @@ Browser. Alternatively, you can use the `AWS Command Line Interface`_.
    Key, and your Secret Key. For more information, see the documentation
    provided for the tool that you selected.
 
-5. To access the database data files, specify or select ``s3://course-data``. 
-   
+5. To access the database data files, specify or select ``s3://course-data``.
+
    To access the event data files, specify or select ``s3://edx-course-
    data/{org}/``. You must include the identifier for your organization after
    the name of the bucket.
 
-   .. note:: If you are using a third-party tool to connect to Amazon S3, you 
+   .. note:: If you are using a third-party tool to connect to Amazon S3, you
     might not be able to navigate directly between ``s3://course-data`` and
     ``s3://edx-course-data/{org}/``. You might need to disconnect from Amazon
     S3 and then reconnect to specify the other destination.

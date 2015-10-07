@@ -1,6 +1,6 @@
 
 * If you include cohorts in your course, you can now assign different course
-  content to different cohorts. See :ref:`partnercoursestaff:Cohorted Courseware Overview` for more details.  
+  content to different cohorts. See :ref:`partnercoursestaff:Cohorted Courseware Overview` for more details.
 
 * All courses created after 14 Jan 2015 now use the :ref:`key
   introspection API` format for internal course identifiers and the course URL.

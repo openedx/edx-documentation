@@ -33,7 +33,7 @@ edX Studio
 
 * The protein builder tool now correctly uses font sizing set by user browser
   preferences. (TNL-256)
-  
+
 **************************
 edX Data & Analytics
 **************************

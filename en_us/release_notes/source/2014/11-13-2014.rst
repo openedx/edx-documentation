@@ -12,7 +12,7 @@ edX Studio
 
 * The **Course Export** page now includes a warning that exported data includes
   sensitive information such as MATLAB API keys and LTI passports. (DOC-1138)
-  
+
 ******************************
 edX Learning Management System
 ******************************
@@ -27,4 +27,4 @@ edX Learning Management System
 
 * A problem with the spacing in the **Discussion** page search box in Arabic
   has been fixed. (OSPR-183)
-  
+

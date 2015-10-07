@@ -26,7 +26,7 @@ http://openbadges.org/.
 Enabling the badges feature on your instance of Open edX involves the
 following set up and configuration tasks.
 
-.. Note::  
+.. Note::
   Before proceeding, review :ref:`Guidelines for Updating the edX Platform`.
 
 *****************************************************************
@@ -76,7 +76,7 @@ Enable Badges in Studio and the Learning Management System
      'ENABLE_OPENBADGES': True,
 
 #. In ``/lms/envs/common.py``, set the values for the following parameters.
-  
+
    * ``BADGR_API_TOKEN`` - a string containing the API token for the Badgr
      superuser account. Obtain the token from the /v1/user/auth-token page
      while logged in to the API as the superuser.
@@ -88,7 +88,7 @@ Enable Badges in Studio and the Learning Management System
      The slug can be obtained from the URL of the Badgr Server page that
      displays the issuer. For example, in the URL
      ``http://exampleserver.com/issuer /test-issuer``, the issuer slug is
-     ``test-issuer``.    
+     ``test-issuer``.
 
    .. code-block:: bash
 
@@ -133,7 +133,7 @@ Configure Badges and Badge Images for Your Open edX Instance
 
 #. Optionally, define a default image for any course modes that do not have an
    explicitly specified badge image. Select **Default** in the badge image
-   configuration. 
+   configuration.
 
    .. note:: You can specify only one default badge image.
 

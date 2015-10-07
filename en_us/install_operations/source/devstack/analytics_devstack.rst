@@ -71,8 +71,8 @@ deploy itself. To make use of these tools, follow these steps.
 The system is now ready to start running tasks on the Analytics Devstack
 using the ``remote-task`` tool.
 
-  
-.. _Install the Analytics Devstack:  
+
+.. _Install the Analytics Devstack:
 
 ******************************
 Install the Analytics Devstack
@@ -83,14 +83,14 @@ follow these steps.
 
 #. Create the ``analyticstack`` directory and navigate to it in the command
    prompt.
-   
+
    .. code-block:: bash
 
      $ mkdir analyticstack
      $ cd analyticstack
 
 2. Download the Analytics Devstack Vagrant file.
-   
+
    .. code-block:: bash
 
      $ curl -L https://raw.github.com/edx/configuration/master/vagrant/release/analyticstack/Vagrantfile > Vagrantfile
@@ -111,21 +111,21 @@ Run the Open edX LMS
 ====================
 
 #. Log in to the Analytics Devstack.
-   
+
    .. code-block:: bash
 
      $ vagrant ssh
 
 2. Switch to the ``edxapp`` user.
-   
+
    .. code-block:: bash
 
      $ sudo su edxapp
 
 3. Start the LMS.
-   
+
    .. code-block:: bash
-     
+
      $ paver devstack lms
 
 ===================================
@@ -133,19 +133,19 @@ Run the Open edX Analytics Data API
 ===================================
 
 #. Log in to the Analytics Devstack.
-   
+
    .. code-block:: bash
 
      $ vagrant ssh
 
 2. Switch to the ``analytics_api`` user.
-   
+
    .. code-block:: bash
 
      $ sudo su analytics_api
 
 3. Start the Data API.
-   
+
    .. code-block:: bash
 
      $ ~/venvs/analytics_api/bin/python ~/analytics_api/manage.py runserver 0.0.0.0:8100 --insecure
@@ -155,13 +155,13 @@ Run Open edX Insights
 =====================
 
 #. Log in to the Analytics Devstack.
-   
+
    .. code-block:: bash
 
      $ vagrant ssh
 
 2. Switch to the ``insights`` user.
-   
+
    .. code-block:: bash
 
      $ sudo su insights
@@ -174,14 +174,14 @@ Run Open edX Insights
      $ ~/venvs/insights/bin/python ~/edx_analytics_dashboard/manage.py switch enable_course_api on --create
 
 4. Start Insights.
-   
+
    .. code-block:: bash
 
      $ ~/venvs/insights/bin/python ~/edx_analytics_dashboard/manage.py runserver 0.0.0.0:8110 --insecure
 
-5. Open the URL ``http://127.0.0.1:8110`` in a browser on the host. 
+5. Open the URL ``http://127.0.0.1:8110`` in a browser on the host.
 
-   .. important:: Be sure to use the IP address ``127.0.0.1`` instead of 
+   .. important:: Be sure to use the IP address ``127.0.0.1`` instead of
      ``localhost``. Using ``localhost`` will prevent you from logging in.
 
 ===================================
@@ -194,13 +194,13 @@ Run the Open edX Analytics Pipeline
 
 #. Navigate to the location where edx-analytics-pipeline project was cloned on
    the host.
-   
+
    .. code-block:: bash
 
      $ cd edx-analytics-pipeline
 
 4. Run the enrollment task.
-   
+
    .. code-block:: bash
 
      $ export WHEEL_URL=http://edx-wheelhouse.s3-website-us-east-1.amazonaws.com/Ubuntu/precise

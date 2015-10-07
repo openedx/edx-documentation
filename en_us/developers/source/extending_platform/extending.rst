@@ -18,7 +18,7 @@ This section of the developers' documentation lists and explains the different w
    :widths: 10 10 10 10 10 10
    :header-rows: 1
 
-   * - 
+   * -
      - Custom |br|
        JavaScript |br|
        Applications*

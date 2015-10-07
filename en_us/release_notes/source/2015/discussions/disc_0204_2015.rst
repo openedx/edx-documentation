@@ -1,6 +1,6 @@
 
 ============================
-Accessibility Improvements 
+Accessibility Improvements
 ============================
 
 * The current discussion conversation now receives

@@ -16,17 +16,17 @@ edX Studio
      :width: 500
      :alt: Video with a transcript file that acts as a table of contents
 
-* Course teams can now set the Matlab API key globally in the advanced settings for the course. 
+* Course teams can now set the Matlab API key globally in the advanced settings for the course.
 
 ***************************************
 edX Learning Management System
 ***************************************
-   
+
 * Mandarin Chinese has been added as a language option.
 
 * When you search a discussion forum, the search engine now retrieves common misspellings and alternate spellings of the search term. (FOR-591)
 
-* When a course has no content, users who try to access the course see a "No content has been added to this course" message rather than a 404 or 500 error message. 
-  
+* When a course has no content, users who try to access the course see a "No content has been added to this course" message rather than a 404 or 500 error message.
+
 * The edX user ID is now included in student profile information. (LMS-2791)
 

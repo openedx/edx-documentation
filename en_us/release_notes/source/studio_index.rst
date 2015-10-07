@@ -4,7 +4,7 @@
 EdX Studio
 ####################################
 
-The following information describes what is new in edX Studio. 
+The following information describes what is new in edX Studio.
 
 .. contents::
   :local:

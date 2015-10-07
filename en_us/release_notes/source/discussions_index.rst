@@ -4,7 +4,7 @@
 EdX Discussions
 ####################################
 
-The following information describes what is new in edX discussions. 
+The following information describes what is new in edX discussions.
 
 .. contents::
   :local:

@@ -16,7 +16,7 @@ Overview
 ************************
 
 *Split Mongo* is the term used for the new edX modulestore. Split Mongo is
-built on mongoDB. For information about mongoDB, see the `mongoDB website`_. 
+built on mongoDB. For information about mongoDB, see the `mongoDB website`_.
 
 The "split" in Split Mongo refers to how a course is split into three types of
 information:
@@ -40,7 +40,7 @@ In the Split Mongo data model, edX courses are split into three collections:
 * :ref:`Structures`
 * `XBlock Definitions`_
 
-.. Structures link is a workaround; "Course Structures" as label is already taken 
+.. Structures link is a workaround; "Course Structures" as label is already taken
 
 =============
 Course Index
@@ -69,7 +69,7 @@ In the edX Platform:
       about page, course updates, other course pages, sections or subsections,
       the draft branch is automatically published; that is, it becomes the
       published branch.
-   
+
    *  For units and components, changes are saved in the draft branch. The user
       must publish the unit to change the draft branch to the published branch.
       When the user begins another set of changes, the draft branch is updated.
@@ -102,7 +102,7 @@ definition.
 Course structures, and each block within a structure, are versioned. That is,
 when a course author changes a course, or a block in the course, a new course
 structure is saved; the previous course structure, and previous versions of
-blocks within the structure, remain in the database and are not modified. 
+blocks within the structure, remain in the database and are not modified.
 
 ==========================
 XBlock Definitions
@@ -129,7 +129,7 @@ enable:
 * `Multiple Course Branches`_
 * `Versioning`_
 * `Content Reuse`_
-  
+
 While these capabilities are not fully implemented in the edX Platform, Split
 Mongo is designed to allow future enhancements that enable these content
 management capabilities.

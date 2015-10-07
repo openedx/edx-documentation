@@ -1,6 +1,6 @@
 
 ============================
-Accessibility Improvements 
+Accessibility Improvements
 ============================
 
 * The LMS now includes a aria-live region to contain HTML for problems.

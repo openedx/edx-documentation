@@ -25,17 +25,17 @@ OLX:
 * A chapter contains one or more children which correspond to
   top-level pages in the course. In Studio, these are called 'subsections' and
   are currently restricted to ``sequential`` elements at this
-  level. OLX supports any XBlock at this level. 
+  level. OLX supports any XBlock at this level.
 
 * Courses are composed of structural elements, such as ``sequential``
   and ``vertical``, and leaf-nodes or content elements, such as
   ``html`` or ``problem``. Studio has a fixed hierarchy where children
   of ``sequential`` elements are ``vertical`` elements (called units),
-  and children of ``vertical`` elements are leaf elements (called modules). 
+  and children of ``vertical`` elements are leaf elements (called modules).
 
   * :ref:`Course Components`
   * :ref:`Problems`
-    
+
 For more information, see :ref:`The Courseware Structure`.
 
 ****************************

@@ -21,7 +21,7 @@ edX Studio
 ***************************************
 edX Learning Management System
 ***************************************
-   
+
 * In Internet Explorer, an "Only secure content is displayed" security warning
   sometimes appeared in courseware. This bug has been fixed. (LMS-2892)
 

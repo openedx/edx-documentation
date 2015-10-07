@@ -4,7 +4,7 @@ Documentation for edX Partners
 
 Building and Running an edX Course
 **********************************
- 
+
 The new :ref:`partnercoursestaff:Specific Student View` section provides
 instructions for course teams to view the course as a specific student.
 
@@ -14,7 +14,7 @@ Documentation for Open edX Users
 
 Building and Running an Open edX Course
 ****************************************
- 
+
 The new :ref:`opencoursestaff:Specific Student View` section
 provides instructions for course teams to view the course as a specific
 student.

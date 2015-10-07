@@ -8,9 +8,9 @@ EdX measures and evaluates accessibility using the World Wide Web Consortium's
 `Web Content Accessibility Guidelines (WCAG) 2.0 <http://www.w3.org/TR/WCAG/>`_
 (Dec. 11, 2008). All features that you merge into edX repositories are expected
 to `conform <http://www.w3.org/TR/WCAG20/#conformance>`_ to `Level AA
-<http://www.w3.org/TR/WCAG20/#cc1>`_ of this specification and to satisfy the 
-requirements outlined in the edX `Website Accessibility Policy 
-<http://www.edx.org/accessibility>`_. 
+<http://www.w3.org/TR/WCAG20/#cc1>`_ of this specification and to satisfy the
+requirements outlined in the edX `Website Accessibility Policy
+<http://www.edx.org/accessibility>`_.
 
 The **edX Accessibility Guidelines** are intended to extend the guidance
 available in WCAG 2.0, with a focus on features frequently found in the Open edX
@@ -26,7 +26,7 @@ any user interfaces that are developed for the Open edX platform to be usable by
 everyone, regardless of any physical limitations that they might have. The Open
 edX platform is used every day by people who might not be able to see or hear,
 or who might not be able to use traditional modes of computer interaction such
-as the mouse or keyboard. 
+as the mouse or keyboard.
 
 Understanding a few core concepts about how people with disabilities use the web
 and web applications should give you more context for applying the guidance in
@@ -75,7 +75,7 @@ develop user interfaces that are WCAG 2.0 compliant.
 * :ref:`Avoid using CSS to add content`
 * :ref:`Include title attributes for all iframe elements`
 * :ref:`Make sure form elements have labels`
-  
+
 * :ref:`Include link and control labels that make sense out of context`
 
 * :ref:`Use WAI ARIA to create accessible widgets`
@@ -205,31 +205,31 @@ determine what would be most useful to the user.
     action that will be performed. For example, a "Play" icon should have a text
     alternative such as "Play the 'Introduction to Linux' course video", rather
     than "Right-pointing triangle".
-    
+
 * Does your image contain text? The vast majority of images of text should
   include the verbatim text as the value of the ``alt`` attribute. Here are some
   examples of exceptions.
-  
+
     * If yes, and if the same text appears adjacent to or near the image in the
       DOM, use a NULL value in the ``alt`` attribute, otherwise a screen reader is
       exposed to the same content twice.
-    
+
     * If yes, and if the text within the image is there simply for visual effect
       (such as a skewed screenshot of computer code), use a NULL value in the
       ``alt`` attribute.
-    
+
 * Does your image contribute meaning to the current page or context?
-  
+
     * If yes, and if the image is a simple graphic or photograph, the ``alt``
       attribute should briefly describe the image in a way that conveys the same
       meaning that a sighted person would obtain from viewing the image. Context
       is important. A detailed description of a photograph is rarely useful to
       the user, unless it is in the context of a photography or art class.
-    
+
     * If yes, and if the image is a graph or complex piece of information,
       include the information contained in the image elsewhere on the page. The
       ``alt`` attribute value should give a general description of the complex image. You can programmatically link the image with the detailed information using ``aria-describedby``.
-  
+
 A pragmatic guide on providing useful text alternatives is included in the
 `HTML5 specification (4.7.1.1) <http://www.w3.org/TR/html5/embedded-
 content-0.html#alt>`_. It provides a variety of example images and appropriate
@@ -262,7 +262,7 @@ Content injected into the DOM using JavaScript is more accessible than content a
 When adding images that represent important navigational or information
 elements, use ``<img>`` elements with appropriate ``alt`` attributes. For more
 information about making images accessible, see :ref:`Make images accessible`.
-   
+
 
 .. _Include title attributes for all iframe elements:
 
@@ -335,7 +335,7 @@ Use WAI-ARIA to create accessible widgets or enhance native elements
 In some cases, native HTML5 elements will not provide the behavior or style
 options that you want. If you develop custom HTML or JavaScript widgets, make
 sure you add all necessary role, state, and property information for each
-widget, so that it can be used by users of assistive technology. 
+widget, so that it can be used by users of assistive technology.
 
 `WAI-ARIA <http://www.w3.org/TR/wai-aria>`_ (Web Accessibility Initiative -
 Accessible Rich Internet Applications) is a technical specification published by
@@ -349,7 +349,7 @@ controls are accessible, and consider the following points.
   identified?
 
 * Can a user focus on and interact with your widget using the keyboard alone?
-  
+
 * When the state or some other property of your widget changes, are those
   changes conveyed using ARIA attributes to users of assistive technology?
 
@@ -384,15 +384,15 @@ Example: Adding descriptive labels to HTML5 structural elements
 	<nav aria-label="Main">
 	...
 	</nav>
-	
+
 	<nav aria-label="Unit">
 	...
 	</nav>
-	
+
 	<div role="search" aria-label="Site">
 	...
 	</div>
-	
+
 	<div role="search" aria-label="Course">
 	...
 	</div>
@@ -407,14 +407,14 @@ WAI-ARIA.
 
 * Setting ``role="presentation"`` strips away all of the semantics from a native
   element.
-  
+
 * Setting ``role="application"`` on an element passes all keystrokes to the
   browser for handling by scripts. In this case, all keyboard shortcuts   provided
   by screen readers are disabled. You should only use ``role="application"`` if
   you can provide support for all of the application's functions via the
   keyboard as well as the roles, states, and properties for all of its child
   elements.
-  
+
 * Setting ``aria-hidden="true"`` removes an element from the Accessibility API,
   making it invisible to a user of assistive technology. For elements that you
   intend to hide from all users, setting the CSS property ``display:none;`` is
@@ -438,7 +438,7 @@ practices/#accessiblewidget>`_.
 
 Specific considerations for common widgets are covered in `WAI-ARIA 1.0
 Authoring Practices - Design Patterns <http://www.w3.org/TR/2013/WD-wai-aria-
-practices-20130307/#aria_ex>`_. 
+practices-20130307/#aria_ex>`_.
 
 A quick reference list of Required and Supported ARIA attributes by role is
 available in the `ARIA Role, State, and Property Quick Reference
@@ -487,7 +487,7 @@ Hide or expose content to targeted audiences
 Content that enhances the experience for one audience might be confusing or
 encumber a different audience. For instance, a **Close** button that looks like
 ``X`` will be read by a screen reader as the letter X, unless you hide it from
-the Accessibility API. 
+the Accessibility API.
 
 To visibly hide content that should be read by screen readers, edX makes a CSS
 ``class="sr"`` available to expose content only to screen reader users. In the
@@ -497,7 +497,7 @@ hears only "Close".
 ::
 
   <a href="#">
-  <span aria-hidden="true">X</span> 
+  <span aria-hidden="true">X</span>
   <span class="sr">Close</span>
   </a>
 
@@ -517,7 +517,7 @@ available free online.
 .. _Test your code for accessibility:
 
 ********************************
-Test your code for accessibility  
+Test your code for accessibility
 ********************************
 
 The only way to determine if your feature is fully accessible is to manually
@@ -527,44 +527,44 @@ report false positives and might not catch every possible error, but they are a
 quick and easy way to detect the most common mistakes.
 
 These are some automated tools for accessibility testing.
-   
+
 * `WAVE Accessibility Toolbar <http://wave.webaim.org/toolbar/>`_. This toolbar
   provides access to web accessibility evaluation tools that you can run in
   Firefox. A Chrome extension is available.
-  
+
 * `Web Developer Toolbar <https://addons.mozilla.org/en-US/firefox/addon/web-developer/>`_. This toolbar provides various web developer tools for Firefox.
 
 * `Chrome Accessibility Developer Tools <https://chrome.google.com/webstore/detail/accessibility-developer-t/fpkknkljclfencbdbgkenhalefipecmb>`_. This extension adds an accessibility audit and tools to Chrome Developer Tools.
 
 * Your keyboard. For information about using your keyboard to test for
   accessibility, see `<http://webaim.org/techniques/keyboard/>`_.
-  
+
 .. note:: By default, the Mac OSX operating system is configured to move keyboard
    focus to **Text boxes and lists only**.  This setting also applies to browsing web
-   pages using Safari or Firefox with a keyboard.  To effectively test 
+   pages using Safari or Firefox with a keyboard.  To effectively test
    keyboard accessibility using a Mac, you should configure your computer
-   to focus on **All controls**.  Open **System Preferences**, and then select **Keyboard**. 
-   On the **Shortcuts** tab, for Full Keyboard Access select **All controls**. You can also 
-   toggle this setting with Control+F7.  
-   
-   If you are a Chrome user, this behavior is controlled in a browser setting and is 
-   enabled by default.  However, if you find that you cannot move focus to links while 
-   using Chrome you might need to change your browser configuration. Open **Settings**, 
-   then click **Show advanced settings**.  Under **Web content**, confirm that the 
+   to focus on **All controls**.  Open **System Preferences**, and then select **Keyboard**.
+   On the **Shortcuts** tab, for Full Keyboard Access select **All controls**. You can also
+   toggle this setting with Control+F7.
+
+   If you are a Chrome user, this behavior is controlled in a browser setting and is
+   enabled by default.  However, if you find that you cannot move focus to links while
+   using Chrome you might need to change your browser configuration. Open **Settings**,
+   then click **Show advanced settings**.  Under **Web content**, confirm that the
    **Pressing Tab on a web page highlights links, as well as form fields** checkbox is selected.
 
 To test your feature using a screen reader, you can use the following
 options.
 
 * `Voiceover <https://www.apple.com/accessibility/osx/voiceover>`_ is a free, built-in screen reader for Mac.
-  
+
 * `ChromeVox <http://www.chromevox.com>`_ is a free screen reader for Chrome.
-  
+
 * `NVDA <http://www.nvaccess.org/download/>`_ is a free screen reader for
   Windows.
-  
+
 * `JAWS <http://www.freedomscientific.com/Downloads/ProductDemos>`_ is a screen
   reader for Windows. It is a commercial product but free to use in a limited-time
   demo mode.
-  
+
 
