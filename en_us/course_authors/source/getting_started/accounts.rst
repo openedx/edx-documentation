@@ -26,7 +26,7 @@ For information about enrolling students in a course, see
 edx.org and edX Edge
 *************************
 
-To explore edX courses, you can register an account on the edx.org_ website,
+To explore edX courses, you can register an account on the `edx.org`_ website,
 the `edX Edge`_ website, or both. These sites are visually and functionally
 similar, but their content and purposes are different.
 
