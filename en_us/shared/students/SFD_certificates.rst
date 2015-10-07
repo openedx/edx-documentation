@@ -316,6 +316,11 @@ certificate, you see the following message at the top of the course
 You can request your certificate at any time after you have qualified for the
 certificate. 
 
+.. Caution:: 
+ The grade that you see on your dashboard reflects your grade at that time you
+ requested the certificate. If you complete more assignments to raise your
+ grade, the grade listed on your dashboard is not updated.
+
 .. _Request Download Certificate:
 
 ====================================
