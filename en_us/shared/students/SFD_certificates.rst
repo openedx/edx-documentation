@@ -19,6 +19,10 @@ Overview
   Nearly every course on edx.org offers a certificate when you complete the
   course successfully. 
 
+  A certificate includes your name, the name of the course, and the edX partner
+  university that created the course. Verified certificates also include the
+  names of one or more members of the course team.
+
   .. note:: 
     A small number of edX courses do not offer certificates. For evidence that
     you completed the course, you can print a copy of the **Progress** page in
@@ -29,9 +33,6 @@ Overview
   Your course might be set up to issue certificates as evidence that you
   successfully completed the course.
 
-A certificate includes your name, the name of the course, and the edX partner
-university that created the course. Verified certificates also include the
-names of one or more members of the course team.
 
 ===========================
 Certificates and Your Name
@@ -49,10 +50,11 @@ Certificates, Grades, and Credit
 =================================
 
 Certificate do not include grades or specify the number of credit hours
-that the course might earn at a university. In addition, transcripts are not
-available for edX course work.
+that the course might earn at a university. 
 
 .. only:: Partners
+
+In addition, transcripts are not available for edX course work.
 
   .. Note:: 
     Some edX courses offer academic credit. These courses have different
@@ -337,11 +339,9 @@ You can request your certificate at any time after you have qualified for the
 certificate. 
 
 .. Caution:: 
-  If you request your certificate before the end of the course, the grade that
-  you see on your dashboard no longer updates automatically as you complete
-  coursework. Your **Progress** page continues to reflect your current grade.
-  To update your grade on your dashboard, request your certificate again.
-
+ The grade that you see on your dashboard reflects your grade at that time you
+ requested the certificate. If you complete more assignments to raise your
+ grade, the grade listed on your dashboard is not updated.
 
 .. _Request Download Certificate:
 
