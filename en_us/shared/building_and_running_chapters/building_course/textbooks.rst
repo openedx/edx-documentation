@@ -1,7 +1,7 @@
 .. _Adding Textbooks:
 
 ###########################
-Adding Textbooks
+Textbooks
 ###########################
 
 You can add PDF textbooks to your course.  
