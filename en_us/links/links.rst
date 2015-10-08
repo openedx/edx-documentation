@@ -38,6 +38,7 @@
 
 .. GitHub Links
 
+.. _EdX Search: https://github.com/edx/edx-search/
 
 .. _GitHub Flow: https://github.com/blog/1557-github-flow-in-the-browser
 
@@ -50,7 +51,7 @@
 .. _VirtualEnv: http://www.virtualenv.org/en/latest/
 
 .. _VirtualEnv Installation: https://virtualenv.pypa.io/en/latest/installation.html
-         
+
 .. _VirtualEnvWrapper: http://virtualenvwrapper.readthedocs.org/en/latest
 
 .. _XBlock SDK: https://github.com/edx/xblock-sdk
@@ -100,14 +101,6 @@
 .. _S3.py: https://github.com/edx/edx-ora2/blob/a4ce7bb00190d7baff60fc90fb613229565ca7ef/openassessment/fileupload/backends/s3.py
 
 .. EDX VMs
-
-.. _Birch Devstack BitTorrent: https://s3.amazonaws.com/edx-static/vagrant-images/birch-2-devstack.box?torrent
-
-.. _Birch Fullstack BitTorrent: https://s3.amazonaws.com/edx-static/vagrant-images/birch-2-fullstack.box?torrent
-
-.. _Birch Devstack: https://s3.amazonaws.com/edx-static/vagrant-images/birch-2-devstack.box
-
-.. _Birch Fullstack: https://s3.amazonaws.com/edx-static/vagrant-images/birch-2-fullstack.box
 
 .. _iOS: http://github.com/edx/edx-app-ios
 .. _Android: http://github.com/edx/edx-app-android
@@ -197,7 +190,7 @@
 
 .. _Proctoring Software System Requirements: http://clientportal.softwaresecure.com/support/index.php?/Knowledgebase/Article/View/252/0/system-requirements-remote-proctor-now
 
-.. _Proctoring Software System Requirements: http://clientportal.softwaresecure.com/support/index.php?/Knowledgebase/Article/View/252/0/system-requirements-remote-proctor-now 
+.. _Proctoring Software System Requirements: http://clientportal.softwaresecure.com/support/index.php?/Knowledgebase/Article/View/252/0/system-requirements-remote-proctor-now
 
 .. _Vagrant's documentation on boxes: http://docs.vagrantup.com/v2/boxes.html
 
@@ -223,8 +216,6 @@
 .. _VirtualBox: https://www.virtualbox.org/wiki/Downloads
 
 .. _Vagrant: http://www.vagrantup.com/downloads.html
-
-.. _Torrent: https://s3.amazonaws.com/edx-static/vagrant-images/20141118-lavash-devstack.box?torrent
 
 .. _VirtualBox Guest Editions: http://www.virtualbox.org/manual/ch04.html
 

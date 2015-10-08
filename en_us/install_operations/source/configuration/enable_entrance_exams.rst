@@ -25,7 +25,8 @@ For information about entrance exams, see the *Building and Running an
 Open edX Course* and *Open edX Learner's* guides.
 
 .. Note::  
-  Before proceeding, review :ref:`Guidelines for Updating the edX Platform`.
+  Before proceeding, review :ref:`Guidelines for Updating the Open edX
+  Platform`.
 
 .. include:: configure_milestone_app.rst
 

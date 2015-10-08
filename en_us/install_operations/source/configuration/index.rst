@@ -19,7 +19,9 @@ configuration options.
    enable_certificates
    enable_badging
    enable_ccx
+   enable_socialsharing_icons
    tpa/index
    lti/index
    youtube_api
    ora2_uploads
+

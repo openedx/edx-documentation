@@ -12,6 +12,9 @@ Change Log
 
    * - Date
      - Change
+   * - 8 Oct 2015
+     - Updated the :ref:`Certificates` topic to include information about
+       :ref:`printing web certificates <Print a Web Certificate>`.
    * - 2 Sep 2015
      - Updated :ref:`Certificates` to include information about web
        certificates.
