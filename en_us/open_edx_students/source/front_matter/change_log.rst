@@ -2,6 +2,20 @@
 Change Log
 ############
 
+*****************
+October 2015
+*****************
+
+.. list-table::
+   :widths: 15 70
+   :header-rows: 1
+
+   * - Date
+     - Change
+   * - 8 Oct 2015
+     - Updated the :ref:`Certificates` topic to include information about
+       :ref:`printing web certificates <Print a Web Certificate>`.
+
 
 *****************
 August 2015
