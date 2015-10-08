@@ -12,6 +12,12 @@ October 2015
 
    * - Date
      - Change
+   * - 8 October 2015
+     - Added information about deleting textbooks and chapters to :ref:`Adding
+       Textbooks`.
+   * - 
+     - Added notes about viewing courseware as a learner in :ref:`Testing Your
+       Course Content`.
    * - 1 October 2015
      - Added information about awarding partial credit for the following
        problems.

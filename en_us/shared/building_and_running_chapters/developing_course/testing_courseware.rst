@@ -184,12 +184,20 @@ answer other than the correct one gets a red X for incorrect.
 Student View
 ============
 
+.. note::
+  If your course has not started, you cannot see your courseware when you use
+  the **Student** view. To see your courseware before the course has started,
+  add yourself as a beta tester on the Instructor Dashboard. Make sure to set
+  the course start date and the **Days Early for Beta** setting so that you
+  can see the content that you want. For more information, see
+  :ref:`Beta_Testing`.
+
 In the LMS, to see the course content in your live course that is intended for
 all students, use the **Student** view.
 
 .. note:: If you have enabled your course for cohorts and have designated some
   content as visible only to certain content groups, you can select a content
-  group from the **View Course As** drop down list to see the content exactly
+  group from the **View Course As** dropdown list to see the content exactly
   as a student in a cohort associated with that content group will see it. For
   details, see :ref:`Preview Cohort Specific Courseware`.
 
@@ -197,9 +205,9 @@ To switch to the **Student** view, click **View this course as** and select
 **Student** from the drop down list.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/test-view-as-student.png
- :alt: Image of the "View Course As" dropdown list with Staff, Student, and
+ :width: 250
+ :alt: The "View Course As" dropdown list with Staff, Student, and
   named content group options shown.
-
 
 * You do not see sections or subsections that have not yet been released.
 
@@ -220,6 +228,14 @@ To switch to the **Student** view, click **View this course as** and select
 =====================
 Specific Student View
 =====================
+
+.. note::
+  If your course has not started, you cannot see your courseware when you use
+  the **Specific student** view. To see your courseware before the course has
+  started, add yourself as a beta tester on the Instructor Dashboard. Make
+  sure to set the course start date and the **Days Early for Beta** setting so
+  that you can see the content that you want. For more information, see
+  :ref:`Beta_Testing`.
 
 In the LMS, the course content in your live course as one particular student
 would see it, use the **Specific student** view.
