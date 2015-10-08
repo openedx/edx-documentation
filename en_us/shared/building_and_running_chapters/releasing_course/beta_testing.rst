@@ -15,7 +15,7 @@ Overview
 ****************************
 
 When you are designing a course in Studio, you can select **View Live** to
-assess test your work work, find gaps and errors, and mimic the learner
+test your work work, find gaps and errors, and mimic the learner
 experience. To gather information about the overall experience of taking a
 course, you can also conduct a beta test of the course.
 
@@ -168,19 +168,19 @@ than other students.
    * - 
      - Yes
      - No
-   * - Before the Course Enrollment Date
+   * - Before the course enrollment date
      - X
      -
-   * - Before the Course Start Date
+   * - Before the course start date
      - X
      -
-   * - Before the section Release Day
+   * - Before the section release day
      - X
      -
-   * - Before the subsection Release Day
+   * - Before the subsection release day
      - X
      -
-   * - Before the unit is Published
+   * - Before the unit is published
      - 
      - X
    * - Before a draft replaces a live unit
@@ -225,23 +225,23 @@ Users** = 20 and 2 sections:
 .. list-table::
    :widths: 60 40
 
-   * - Course Enrollment Date = 31 August
+   * - Course enrollment date = 31 August
      - 31 August; earlier if enrolled by course team
-   * - Course Start Date = 15 September
+   * - Course start date = 15 September
      - 26 August
-   * - section 1 Release Day = 15 September
+   * - Section 1 release day = 15 September
      - 26 August
-   * - section 2 Release Day = 22 September
+   * - section 2 release day = 22 September
      - 2 September
-   * - subsection 1 Release Day = 22 September
+   * - Subsection 1 release day = 22 September
      - 2 September
-   * - subsection 2 Release Day = 24 September
+   * - Subsection 2 release day = 24 September
      - 4 September
-   * - subsection 2, unit 1 Visibility = Public
+   * - Subsection 2, unit 1 visibility = public
      - 4 September
-   * - subsection 2, unit 2 Visibility = Public; draft in progress
-     - 4 September for Public version; No access to draft
-   * - subsection 2, unit 3 Visibility = Private
+   * - Subsection 2, unit 2 visibility = public; draft in progress
+     - 4 September for public version; no access to draft
+   * - Subsection 2, unit 3 visibility = private
      - No access
 
 In this example, the beta testers cannot access all of the courseware when the
@@ -308,10 +308,14 @@ To add multiple beta testers:
    email** selected. An example of the message that is sent to a beta tester
    who is not enrolled in the course follows.
 
-   .. image:: ../../../shared/building_and_running_chapters/Images/Beta_tester_email.png
-     :alt: "You have been invited to be a beta tester for {course name} at
-         {URL}. Visit {link} to join the course and begin the beta test."
-      :width: 600
+   ::
+      Dear betatester,
+
+      You have been invited to be a beta tester for *course* at edge.edx.org
+      by a member of the course team.
+
+      Visit https://edge.edx.org/courses/course-name/about to join the course
+      and begin the beta test.
 
 #. Select **Add beta testers**.
 

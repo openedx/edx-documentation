@@ -4,7 +4,7 @@
 Course Launching Activities 
 ##############################
 
-This topic describes steps you should take to launch your course.
+This topic describes steps to launch your course.
 
 .. contents:: 
   :local:
