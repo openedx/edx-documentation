@@ -25,7 +25,7 @@ October 2015
    * - 8 October 2015
      - Added information about deleting textbooks and chapters to :ref:`Adding
        Textbooks`.
-     - 
+   * - 
      - Added notes about viewing courseware as a learner in :ref:`Testing Your
        Course Content`.
    * - 5 October 2015
