@@ -214,9 +214,9 @@ When your certificate is ready, your dashboard shows your final grade as well
 as a link to your certificate. You can access either a `web-based <Web
 Certificates>`_ or `PDF-based <PDF Certificates>`_ certificate.
 
-========================
+*************************
 Web Certificates
-========================
+*************************
 
 Newer edX courses issue web-based certificates. You access your web-based
 certificate from your dashboard.
@@ -228,10 +228,11 @@ The following example shows the link to a certificate in the dashboard.
    :alt: Dashboard with course name, grade, and link to the web certificate.
 
 Select **View Certificate** to open the certificate in your browser. You can
-then print the certificate or save it as a PDF if needed.
+then share and print the certificate.
 
+============================
 Share Your Web Certificates
-****************************
+============================
 
 You can share your web certificates on Facebook, LinkedIn, and Twitter.
 
@@ -243,9 +244,28 @@ Select the social icons at the top of each certificate.
 A dialog for the social site you selected opens, with the certificate URL
 entered. Complete the steps for the social site to post your certificate.
 
-=================
+.. _Print a Web Certificate:
+
+============================
+Print a Web Certificate
+============================
+
+To print a web certificate, open the certificate and select **Print
+Certificate** in the certificate header.
+
+To print your certificate in the most professional looking format, note the
+following guidelines.
+
+* Do not print the header or footer. Depending on your system, you might need
+  to clear this option.
+
+* Set the margins to the minimum space available. Depending on your system, you
+  might need to select the **Minimum** option for the margins.
+
+
+*************************
 PDF Certificates
-=================
+*************************
 
 Older edX courses issued PDF certificates. You can access your PDF certificates
 from the your dashboard.
@@ -261,11 +281,11 @@ Select **Download Certificate (PDF)** to open the PDF certificate in your
 browser. You can then print the certificate or save it to your computer if
 needed.
 
-
+========================================
 Share Your PDF Certificates on LinkedIn
-****************************************
+========================================
 
-You can share your PDF certificate on LinkedIn, and Twitter.
+You can share your PDF certificate on LinkedIn.
 
 Select **Add to profile** beneath the course in your dashboard.
 
