@@ -20,27 +20,6 @@ What's New?
 See released changes for a particular edX :ref:`product by date<By Product>`,
 or by :ref:`date across products<By Date>`.
 
-.. _By Product:
-
-==================
-By Product
-==================
-
-.. toctree::
-   :maxdepth: 1
-
-   analytics_index
-   discussions_index
-   doc_index
-   insights_index
-   lms_index
-   mobile_index
-   openedx_index
-   ORA_index
-   studio_index
-   website_index
-   xblocks_index
-
 .. _By Date:
 
 ==================
@@ -64,6 +43,27 @@ By Date
    :maxdepth: 1
 
    2014/index
+
+.. _By Product:
+
+==================
+By Product
+==================
+
+.. toctree::
+   :maxdepth: 1
+
+   analytics_index
+   discussions_index
+   doc_index
+   insights_index
+   lms_index
+   mobile_index
+   openedx_index
+   ORA_index
+   studio_index
+   website_index
+   xblocks_index
 
 
 
