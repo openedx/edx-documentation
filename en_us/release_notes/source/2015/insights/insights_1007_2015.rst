@@ -19,16 +19,10 @@ particular part of the video, or skip over a part of the video.
  :alt: A chart showing significant increases in the number of replays during
      the 20 seconds in the middle of the video.
 
-While you review data for a video in Insights, you can select **Expand
-Preview** to open the video player directly above the chart.
-
-.. image:: /Images/insights_replayed_video_preview.png
- :width: 800
- :alt: The video player showing the part of the video that had the highest
-   number of replays, above the chart.
-
-Using the viewing patterns revealed by Insights, you can investigate specific
-segments of your course videos, make deductions about causes, and take action.
+While you review data for a video in Insights, you can select **View Live** to
+open the video component in the LMS. Using the viewing patterns revealed by
+Insights, you can investigate specific segments of your course videos, and then
+make deductions about causes and take action.
 
 For more information, see the :ref:`insights:Engagement_Video` section in the
 *Using edX Insights* guide.

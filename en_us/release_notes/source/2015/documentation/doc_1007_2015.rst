@@ -8,8 +8,8 @@ Using edX Insights
 The video engagement feature in edX Insights is now available for courses
 running on edx.org and edX Edge. Updated the :ref:`insights:Engagement_Video`
 section to change the computation of this data from weekly to daily, and from
-aggregate view counts to average view counts at the section, subsection and
-unit levels.
+aggregate view counts to average view counts at the section and subsection
+levels.
 
 Building and Running an edX Course
 **********************************
