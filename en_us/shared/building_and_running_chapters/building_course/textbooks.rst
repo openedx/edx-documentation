@@ -28,23 +28,72 @@ the textbook by chapter.
 Add a Textbook
 *****************
 
+.. note::
+   When you add a textbook to your course, Studio automatically adds each PDF
+   file that you upload to the **Files & Uploads** page.
+
 #. Prepare PDFs of your textbook on your computer.
 
-#. From the **Content** menu, select **Textbooks**.
+#. On the **Content** menu, select **Textbooks**.
 
-#. Select **New Textbook**. The following screen opens:
+#. Select either **Add your first textbook** or **New Textbook**. 
 
-   .. image:: ../../../shared/building_and_running_chapters/Images/textbook_new.png
-    :alt: Image of the New Textbook page.
-    :width: 600
+#. On the page that opens, enter the **Textbook Name**.
 
-#. Enter the **Textbook Name**.
+#. Enter the **Chapter Name**.
 
-#. Enter the first **Chapter Name**.
+#. Next to **Chapter Asset**, select **Upload PDF** to upload a PDF from your
+   computer, and then follow the prompts to upload your file.
 
-#. To upload a PDF from your computer, select **Upload PDF**.  Follow the
-   prompts to upload your file.
-
-#. To add more chapters, select **Add a Chapter** and repeat steps 3 and 4.
+#. To add more chapters, select **Add a Chapter** and repeat steps 5 and 6.
 
 #. Select **Save**.
+
+.. _Delete a Textbook:
+
+*****************
+Delete a Textbook
+*****************
+
+.. note:: 
+   This method deletes the entire textbook. To delete an individual chapter,
+   see :ref:`Delete a Chapter`.
+
+#. On the **Content** menu, select **Textbooks**.
+
+#. On the **Textbooks** page, hover the cursor over the textbook that you want
+   to delete, and then select the trash can icon.
+
+#. In the confirmation dialog box, select **Delete**.
+
+.. note::
+   When you add a textbook to your course, Studio adds each PDF file that you
+   upload to the **Files & Uploads** page. After you delete your textbook on
+   the **Textbooks** page, edX strongly recommends that you :ref:`lock<Lock a
+   File>` or :ref:`delete<Delete a File>` the PDF files for the textbook on
+   the **Files & Uploads** page to avoid copyright issues.
+
+.. _Delete a Chapter:
+
+*****************
+Delete a Chapter
+*****************
+
+#. On the **Content** menu, select **Textbooks**.
+
+#. On the **Textbooks** page, hover the cursor over the textbook that contains
+   the chapter that you want to delete, and then select **Edit**.
+
+#. On the textbook editing page, locate the chapter that you want to delete,
+   and then select the X icon next to that chapter.
+
+   .. image:: ../../../shared/building_and_running_chapters/Images/DeleteChapter.png
+	:width: 500
+	:alt: Textbook editing page with a callout for the X icon
+
+.. note::
+   When you add a textbook to your course, Studio adds each PDF file that you
+   upload to the **Files & Uploads** page. After you delete a chapter on the
+   **Textbooks** page, edX strongly recommends that you :ref:`lock<Lock a
+   File>` or :ref:`delete<Delete a File>` the PDF file for the chapter on the
+   **Files & Uploads** page to avoid copyright issues.
