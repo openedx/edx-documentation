@@ -1,7 +1,7 @@
 .. _Documentation Index:
 
 ####################################
-edX Documentation
+EdX Documentation
 ####################################
 
 The following information describes what is new in edX documentation. 
@@ -9,6 +9,12 @@ The following information describes what is new in edX documentation.
 .. contents::
   :local:
   :depth: 2
+
+**************************
+8 October 2015
+**************************
+
+.. include:: 2015/documentation/doc_1007_2015.rst
 
 **************************
 25 August 2015

@@ -11,6 +11,12 @@ The following information describes what is new in edX Insights.
   :depth: 2
 
 ******************
+8 October 2015
+******************
+
+.. include:: 2015/insights/insights_1007_2015.rst
+
+******************
 23 September 2015
 ******************
 
