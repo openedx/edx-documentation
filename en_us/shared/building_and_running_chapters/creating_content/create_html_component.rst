@@ -62,6 +62,13 @@ You can work with HTML in two ways.
   use custom formatting or scripts in your content, you should use the raw HTML
   editor.
 
+.. note:: 
+    If you copy text from another source and paste it into the HTML editor, be
+    sure to proofread the result carefully. Some applications automatically
+    change quotation marks and apostrophes from the "straight" version to the
+    "smart" version. The HTML editor requires "straight" quotation marks and
+    apostrophes.
+    
 ======================================
 Set the Editor for an HTML Component
 ======================================
