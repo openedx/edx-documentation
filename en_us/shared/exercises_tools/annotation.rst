@@ -15,39 +15,28 @@ responses.
 .. image:: ../../../shared/building_and_running_chapters/Images/AnnotationExample.png
   :alt: An example annotation problem.
 
+.. contents::
+  :local:
+  :depth: 2
+
+***************************************************
+Enable the Annotation Problem
+***************************************************
+
+Before you can add annotation problems to your course, you must enable
+annotation problems in Studio.
+
+To enable annotation problems in Studio, you add the ``"annotatable"`` key to
+the **Advanced Module List** on the **Advanced Settings** page. For more
+information, see :ref:`Enable Additional Exercises and Tools`.
+
 ****************************
 Create an Annotation Problem
 ****************************
 
-To create an annotation problem, you add the Annotation advanced component to
-your course, add the **Instructions** and **Guided Discussion** segments of the
-problem, and then the **Annotation problem** segment of the problem.
-
-=================================
-Add the Annotation Component 
-=================================
-
-To add the Annotation advanced component, follow these steps.
-
-#. From the **Settings** menu select **Advanced Settings**.
-
-#. In the field for the **Advanced Module List** policy key, place your cursor
-   between the brackets.
-
-#. Enter the following value. Make sure to include the quotation marks.
-
-   ``"annotatable"``
-
-4. At the bottom of the page, select **Save Changes**.
-
-   The page refreshes automatically. At the top of the page, you see a
-   notification that your changes have been saved.
-
-5. Return to the unit where you want to add the specialized problem. The list
-   of possible components now contains an Advanced component.
-
-   .. image:: ../../../shared/building_and_running_chapters/Images/AdvancedComponent.png
-      :alt: The Add a New Component panel with the Advanced component option.
+To create an annotation problem, you add the **Instructions** and **Guided
+Discussion** segments of the problem, and then the **Annotation problem**
+segment of the problem.
 
 ============================================
 Add Instructions and Guided Discussion
@@ -75,7 +64,7 @@ To add the **Annotation problem** segment of the problem, follow these steps.
 
 #. Under the Annotation component, create a new blank Advanced Problem
    component.
-       
+
 #. Paste the following code in the Advanced Problem component, replacing
    placeholders with your own information.
 

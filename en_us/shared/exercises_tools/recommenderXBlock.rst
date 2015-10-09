@@ -10,6 +10,14 @@ The Recommender provides learners with a list of online resources related to
 the course content. These resources are jointly managed by course team members
 and the learners.
 
+.. contents::
+  :local:
+  :depth: 2
+
+***********
+Overview
+***********
+
 The most common use of the Recommender is for remediation of errors and
 misconceptions, followed by providing additional, more advanced resources.
 
@@ -46,29 +54,16 @@ assure that they are accessible before making them available through your
 course. For more information, see :ref:`Accessibility Best Practices for Course
 Content Development`.
 
-*******************************************************
-Add Recommender to the Advanced Module List Policy Key
-*******************************************************
+**************************************************
+Enable the Recommender Tool
+**************************************************
 
-#. From the Studio **Settings** menu, select **Advanced Settings**.
+Before you can add a recommender component to your course, you must enable the
+Recommender tool in Studio.
 
-#. In the **Advanced Module List** field, place your cursor between the
-   brackets.
-
-#. Enter ``"recommender"``. Be sure to include the quotation marks, but not the
-   period. The text in the **Advanced Module List** field should resemble the
-   following.
-
-   ``["recommender"]``
-
-   If the **Advanced Module List** field already contains text, place your
-   cursor directly after the closing quotation mark for the final item, and
-   then enter a comma followed by ``"recommender"`` (again, make sure that you
-   include the quotation marks).
-
-   ``["word_cloud","recommender"]``
-
-4. At the bottom of the page, select **Save Changes**.
+To enable the Recommender tool in Studio, you add the ``"recommender"`` key to
+the **Advanced Module List** on the **Advanced Settings** page. For more
+information, see :ref:`Enable Additional Exercises and Tools`.
 
 ********************************
 Add a Recommender
@@ -80,20 +75,26 @@ To add a Recommender to a course, follow these steps.
    RecommenderXBlock.
 
 #. Under **Add New Component**, select **Advanced**.
+
 #. Select **recommender**.
+
 #. In the component that appears, select **Edit**, and then specify settings as
    needed.
 
-   * Whether to take users on an introduction tour when they see the tool the
-     first time. If selected, the first time (and only the first time) a user
-     sees the RecommenderXBlock, there will be a short guided tutorial.
-   * Whether to disable the user interface functions which are under
-     development. Because these are untested and under development, please
-     leave these disabled unless otherwise advised by edX staff.
-   * How many resources you want to show in each page of the resource list.
-   * How many page icons you want to show in the pagination control (that
-     is, the page range). The icons for pages from (current page - page range)
-     to (current page + page range) will be shown.
+  * Whether to take users on an introduction tour when they see the tool the
+    first time. If selected, the first time (and only the first time) a user
+    sees the RecommenderXBlock, there will be a short guided tutorial.
+
+  * Whether to disable the user interface functions which are under
+    development. Because these are untested and under development, please leave
+    these disabled unless otherwise advised by edX staff.
+
+  * How many resources you want to show in each page of the resource list.
+
+  * How many page icons you want to show in the pagination control (that is,
+    the page range). The icons for pages from (current page - page range) to
+    (current page + page range) will be shown.
 
 #. Select **Save**.
+
 #. Optionally, open the unit in the LMS and suggest some resources.

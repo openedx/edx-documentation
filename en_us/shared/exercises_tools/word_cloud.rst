@@ -6,63 +6,55 @@ Word Cloud Tool
 
 .. note:: EdX offers provisional support for this tool.
 
-In a word cloud tool, students enter words into a field in response
-to a question or prompt. The words all the students have entered then
+In a word cloud, students enter words into a field in response
+to a question or prompt. The words that all of the students enter then
 appear instantly as a colorful graphic, with the most popular responses
 appearing largest. The graphic becomes larger as more students answer.
 Students can both see the way their peers have answered and contribute
 their thoughts to the group.
 
-
 For example, the following word cloud was created from students'
 responses to a question in a HarvardX course.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/WordCloudExample.png
-  :alt: Image of a word cloud problem
+  :alt: Image of a word cloud problem.
+
+.. contents::
+   :local:
+   :depth: 2
+
+************************************************
+Enable the Word Cloud Tool
+************************************************
+
+Before you can add a word cloud to your course, you must enable the Word Cloud
+tool.
+
+To enable the Word Cloud tool in Studio, you add the ``"word_cloud"`` key to
+the **Advanced Module List** on the **Advanced Settings** page. For more
+information, see :ref:`Enable Additional Exercises and Tools`.
 
 ****************************
-Create a Word Cloud Tool
+Create a Word Cloud
 ****************************
 
-To create a word cloud tool:
+To create a word cloud, follow these steps.
 
-#. Add the Word Cloud advanced component. 
-
-    #. On the **Settings** menu, click **Advanced Settings**.
-
-    #. In the field for the **Advanced Module List** policy key, place your
-       cursor between the brackets.
-
-    #. Enter the following value. Make sure to include the quotation marks.
-
-       ``"word_cloud"``
-
-    4. At the bottom of the page, click **Save Changes**.
-
-       The page refreshes automatically. At the top of the page, you see a
-       notification that your changes have been saved.
-
-    5. Return to the unit where you want to add the specialized problem. The
-       list of possible components now contains an Advanced component.
-
-#. In the unit where you want to create the problem, click **Advanced**
+#. In the unit where you want to create the problem, select **Advanced**
    under **Add New Component**.
-#. In the list of problem types, click **Word Cloud**.
-#. In the component that appears, click **Edit**.
+#. In the list of problem types, select **Word Cloud**.
+#. In the component that appears, select **Edit**.
 #. In the component editor, specify the settings that you want. You can
    leave the default value for everything except **Display Name**.
 
-   -  **Display Name**: This name appears as a heading above the problem and
-      as a tooltip in the learning sequence at the top of the **Courseware**
-      page.
-   -  **Inputs**: The number of text boxes into which students can enter
-      words, phrases, or sentences.
-   -  **Maximum Words**: The maximum number of words that the word cloud
-      displays. If students enter 300 different words but the maximum is
-      set to 250, only the 250 most commonly entered words appear in the
-      word cloud.
-   -  **Show Percents**: The number of times that students have entered
-      a given word as a percentage of all words entered appears near
-      that word.
+  -  **Display Name**: This name appears as a heading above the problem and as
+     a tooltip in the learning sequence at the top of the **Courseware** page.
+  -  **Inputs**: The number of text boxes into which students can enter words,
+     phrases, or sentences.
+  -  **Maximum Words**: The maximum number of words that the word cloud
+     displays. If students enter 300 different words but the maximum is set to
+     250, only the 250 most commonly entered words appear in the word cloud.
+  -  **Show Percents**: The number of times that students have entered a given
+     word as a percentage of all words entered appears near that word.
 
-#. Click **Save**.
+#. Select **Save**.
