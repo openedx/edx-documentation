@@ -511,22 +511,25 @@ change is unavoidable, you can make the following adjustments.
 
 * Rescore the submitted answer to reevaluate student work on a problem. You
   can rescore a problem for a single learner or for all of the students
-  enrolled in the course. See :ref:`rescore`.
+  enrolled in the course. 
+
+  Note that you cannot rescore problems in some cases if your problem has
+  multiple answer fields. For more information, see :ref:`rescore`.
 
 * Reset the number of times a learner has attempted to answer a problem to
   zero so that he can try again. You can reset the number of attempts for a
-  single learner or for all learners enrolled in the course. See
-  :ref:`reset_attempts`.
+  single learner or for all learners enrolled in the course. For more
+  information, see :ref:`reset_attempts`.
 
 * Delete a learner's database history, or "state", completely for a problem.
-  You can only delete learner state for one learner at a time. For example, you
-  realize that a problem needs to be rewritten after only a few of your
-  students have answered it. To resolve this situation, you rewrite the problem
-  and then delete learner state only for the affected students so that they can
-  try again. See :ref:`delete_state`.
+  You can only delete learner state for one learner at a time. For example,
+  you realize that a problem needs to be rewritten after only a few of your
+  students have answered it. To resolve this situation, you rewrite the
+  problem and then delete learner state only for the affected students so that
+  they can try again. For more information, see :ref:`delete_state`.
 
 To make adjustments to learner grades, you need the unique location identifier
-of the modified problem. See :ref:`find_URL`.
+of the modified problem. For more information, see :ref:`find_URL`.
 
 .. _find_URL:
 
@@ -580,9 +583,18 @@ change to these values, you can rescore any responses that were already
 submitted. For a specified problem, you can rescore the work submitted by a
 single student, or rescore the submissions made by every enrolled student.
 
-.. note:: You can only rescore problems that have a correct answer entered in 
+.. note:: 
+ You can only rescore problems that have a correct answer entered in 
  edX Studio. This procedure cannot be used to rescore problems that are scored
  by an external grader.
+
+ Additionally, you cannot rescore a problem if the problem has multiple
+ response fields and you have performed any of the following actions.
+
+ * You removed a response field.
+ * You added a response field.
+ * You reordered any of the response fields.
+
 
 Rescore a Submission for an Individual Student
 -----------------------------------------------
