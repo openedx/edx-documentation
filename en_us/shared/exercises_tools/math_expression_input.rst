@@ -4,6 +4,8 @@
 Math Expression Input Problems
 ####################################
 
+.. note:: EdX offers full support for this problem type.
+
 In math expression input problems, learners enter text that represents a
 mathematical expression. The text is converted to a symbolic expression that
 appears below the response field. Unlike numerical input problems, which only

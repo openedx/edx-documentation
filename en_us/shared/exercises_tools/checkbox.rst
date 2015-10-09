@@ -4,6 +4,8 @@
 Checkbox Problem
 ##################
 
+.. note:: EdX offers full support for this problem type.
+
 .. contents::
   :local:
   :depth: 1

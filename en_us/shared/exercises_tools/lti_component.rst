@@ -4,6 +4,8 @@
 LTI Component
 ###############
 
+.. note:: EdX offers full support for this tool.
+
 You can integrate remote learning tools, such as applications and textbooks,
 into your course with the learning tools interoperability (LTI) component. The
 LTI component is based on the `IMS Global Learning Tools Interoperability™ 

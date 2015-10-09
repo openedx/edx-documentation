@@ -6,6 +6,8 @@ External Grader
 
 .. _External Grader Overview:
 
+.. note:: EdX offers provisional support for this tool.
+
 *******************
 Overview
 *******************

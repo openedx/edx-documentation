@@ -4,6 +4,8 @@
 Poll Tool
 ###################
 
+.. note:: EdX offers full support for this tool.
+
 This section describes how to include polls in your course. 
 
 .. contents::

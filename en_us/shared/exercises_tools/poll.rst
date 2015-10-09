@@ -5,6 +5,8 @@
 Poll Tool for OLX
 ##################
 
+.. note:: EdX offers provisional support for this tool.
+
 You can run polls in your course so that your students can share opinions on different questions.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/PollExample.png

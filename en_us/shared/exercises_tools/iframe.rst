@@ -4,6 +4,8 @@
 IFrame Tool
 ##################
 
+.. note:: EdX offers provisional support for this tool.
+
 An IFrame allows you to integrate ungraded exercises and tools from any Internet site into the body of your course. The IFrame appears inside an HTML component, and the exercise or tool appears inside the IFrame. IFrames can include your own tools or third-party tools. 
 
 .. image:: ../../../shared/building_and_running_chapters/Images/IFrame_1.png

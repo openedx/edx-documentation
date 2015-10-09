@@ -4,6 +4,8 @@
 Full Screen Image Tool
 ######################
 
+.. note:: EdX offers full support for this tool.
+
 Some large images are difficult for students to view in the courseware.  The full screen image tool allows students to enlarge the image, so they can see all the detail in context.
 
 ****************************************
