@@ -1,15 +1,21 @@
 .. _Bulk Email:
 
 ##############################
-Bulk Email 
+Bulk Email
 ##############################
 
-For courses on edx.org, you can send bulk email messages to course participants
-directly from the Instructor Dashboard. Messages can use HTML styling, and can
-include links to videos, social media pages for the course, and other material.
-All course contributors who are assigned the Staff or Admin role
-can use bulk emails to communicate with course participants before, during, and
-after the course run. 
+For courses on edx.org, you can send bulk email messages to course
+participants directly from the Instructor Dashboard. Messages can use HTML
+styling, and can include links to videos, social media pages for the course,
+and other material. All course contributors who are assigned the Staff or
+Admin role can use bulk emails to communicate with course participants before,
+during, and after the course run.
+
+.. note::
+  Some courses use third party services such as MailChimp to send bulk email.
+  Do not use both a third party service and the edX bulk email service. If you
+  use more than one service to send email, your messages are more likely to be
+  be marked as spam, and learners might not see them.
 
 This chapter contains the following topics.
 
@@ -20,7 +26,6 @@ This chapter contains the following topics.
 * `Review Sent Messages`_
 * `Email Task History Report`_
 * `Example Messages to Students`_
-
 
 *************************
 Message Addressing
@@ -33,12 +38,12 @@ recipients by selecting one of these predefined groups.
 * **Staff and admins**, to contact other members of the course
   team.
 * **All (students, staff and admins)**, to communicate with currently
-  enrolled students and the course team. 
+  enrolled students and the course team.
 
   Email messages are sent to all enrolled students with these exceptions:
 
   * Students who have not replied to the account activation email message
-    that is sent when they registered on edx.org. 
+    that is sent when they registered on edx.org.
   * Students who have opted out of receiving email messages through the **Email
     Settings** link, which is present for each course on the **Current
     Courses** dashboard.
@@ -69,7 +74,7 @@ To send an email message to course participants:
 
 4. Enter a **Subject** for the message. A subject is required.
 
-#. Enter the text for the message. Message text is required. 
+#. Enter the text for the message. Message text is required.
 
    To include an image in your message, use the **Files & Uploads** page in
    Studio to add the file to your course, then click the **Insert/edit image**
@@ -105,7 +110,7 @@ send the message, a value that is specific to the each recipient is substituted
 for the keyword. For example, when you use the ``%%USER_FULLNAME%%`` keyword,
 each message contains the name of the recipient.
 
-.. note:: 
+.. note::
   Do not use keywords in the Subject line of a message. The keyword in the
   subject will not be assigned a value, and the recipient will see the keyword
   text.
@@ -145,9 +150,9 @@ Message Workflow States
 When you click **Send Email** for a message, the server begins to process a
 bulk email task. The server assigns a series of different workflow states to
 the task.
-  
+
 .. image:: ../../../shared/building_and_running_chapters/Images/Bulk_email_states.png
-       :alt: Flowchart of the possible states of a bulk email task 
+       :alt: Flowchart of the possible states of a bulk email task
 
 The workflow states for a bulk email task are:
 
@@ -155,7 +160,7 @@ The workflow states for a bulk email task are:
   processing.
 * Pending: The task is queued and is waiting to run.
 * Started: Background processing is in progress to create emailing subtasks.
-* Progress: The emailing subtasks are in progress. 
+* Progress: The emailing subtasks are in progress.
 * Success: All emailing subtasks are complete. Note that the bulk email task
   can be in this state even if some or all of its emailing subtasks failed.
 * Failure: An error occurred and task processing did not complete successfully.
@@ -165,7 +170,7 @@ gotten in the workflow by checking the **Pending Tasks** section on
 the **Email** page.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/Bulk_email_pending.png
-       :alt: Information about an email message, including who submitted it 
+       :alt: Information about an email message, including who submitted it
              and when, in tabular format
 
 When the bulk email task is complete, you can find its final state by checking
@@ -184,21 +189,21 @@ message text.
 
 #. View the live version of your course.
 
-#. Click **Instructor** then click **Email**. 
+#. Click **Instructor** then click **Email**.
 
 #. In the **Email Task History** section of the page, click **Sent Email
    History**. The list of sent messages displays.
 
    .. image:: ../../../shared/building_and_running_chapters/Images/Bulk_email_list.png
-    :alt: A tabular list of sent messages, with columns for subject, sent by,  
+    :alt: A tabular list of sent messages, with columns for subject, sent by,
           time sent, and number sent
 
 4. To review additional information for a message, click its subject. The
    message opens in a dialog box.
- 
+
    .. image:: ../../../shared/building_and_running_chapters/Images/Bulk_email_sent.png
-    :alt: A dialog box with the subject, sent by, date and time sent, sent to, 
-          and message for an email message, and an option to Copy Email 
+    :alt: A dialog box with the subject, sent by, date and time sent, sent to,
+          and message for an email message, and an option to Copy Email
           to Editor
 
 5. Optionally, use the message as the basis for a new message: click **Copy
@@ -232,7 +237,7 @@ To produce the Email Task History report:
 
 #. View the live version of your course.
 
-#. Click **Instructor** then click **Email**. 
+#. Click **Instructor** then click **Email**.
 
 #. In the **Email Task History** section of the page, click **Show Email Task
    History**. A report like the following example displays on the Instructor
@@ -262,7 +267,7 @@ interpret this message, note that:
 
 * The final number ("out of") indicates the number of users in the set of
   recipients you selected who were enrolled in the course (and had activated
-  their user accounts) when you sent the email message. 
+  their user accounts) when you sent the email message.
 
   Note that the **Total number of enrollees** shown on the **Course Info** page
   includes all currently enrolled students, regardless of account activation
@@ -274,10 +279,10 @@ If the "recipients" and "out of" numbers are the same, the message reads
 Other **Task Progress** messages for tasks with a **State** of Success indicate
 that some or all of the emailing subtasks did not successfully send email:
 
-* "Message emailed for {number succeeded} of {number attempted} recipients" 
+* "Message emailed for {number succeeded} of {number attempted} recipients"
 * "Message failed to be emailed for any of {number attempted} recipients"
 * "Unable to find any recipients to be emailed"
-  
+
 No **Task Progress** messages display for tasks that have a **State** of
 Failure.
 
@@ -305,8 +310,8 @@ information in a course discussion topic or on the **Course Info** page. To use
 :ref:`keywords <Use Keywords in Messages>`, you must send email messages;
 keywords are not supported in discussion topics or the **Course Info** page.
 
-.. important:: 
- Revise these message templates carefully to include facts for 
+.. important::
+ Revise these message templates carefully to include facts for
  your own course, meet the needs of your students, and reflect your own
  objectives and personality. Search for the "{" and "}" characters to locate
  prompts and replace them with course-specific values.
@@ -316,7 +321,7 @@ keywords are not supported in discussion topics or the **Course Info** page.
  substituted for the keywords when you send the messages. Ensure you are using
  keywords appropriately for your course and objectives.
 
-.. _Prelaunch Reminder: 
+.. _Prelaunch Reminder:
 
 ====================
 Pre-launch Reminder
@@ -340,7 +345,7 @@ to deliver. Replace values enclosed by {braces} with information that applies
 to your course. In addition, check that you are using :ref:`keywords <Use
 Keywords in Messages>` appropriately.
 
-:: 
+::
 
   Subject: {course number} Starts Soon!
 
@@ -376,7 +381,7 @@ students to two of the course pages to encourage exploration and discovery, and
 personally introduces the course team leader. Search for the values enclosed by
 {braces} in this template and replace them with information for your course.
 
-:: 
+::
 
   Subject: {course number} Starts Today!
 
@@ -415,7 +420,7 @@ appropriately.
 
   Subject: Earn an edX verified certificate for {course name}!
 
-  Dear %%USER_FULLNAME%%, 
+  Dear %%USER_FULLNAME%%,
 
   Interested in using an edX certificate to bolster a college application or to
   advance your career? With an edX verified certificate, you can demonstrate to
@@ -474,7 +479,7 @@ using :ref:`keywords <Use Keywords in Messages>` appropriately.
   * Please continue to share your stories of urban stream restoration - there
     are many great examples here of what is possible! {Link to the Discussion}
 
-  See you next week, 
+  See you next week,
   {name} and the {course number} staff
 
 
@@ -495,7 +500,7 @@ starting point for your own messages; search for the values enclosed by
 addition, check that you are using :ref:`keywords <Use Keywords in Messages>`
 appropriately.
 
-:: 
+::
 
   Subject: {course name} Announcements
 
@@ -514,7 +519,7 @@ appropriately.
 
   * Week {number} on {subject} is now available on the Courseware page.
 
-  * Problem set {number} is also available. It is due on {date} at {time} UTC. 
+  * Problem set {number} is also available. It is due on {date} at {time} UTC.
 
   * Remember that the due dates for problem sets and exams are in UTC (the GMT
     time zone). See the current UTC time here {add link}. Please convert the
@@ -553,7 +558,7 @@ Be sure to search for the values enclosed by {braces} and replace them with
 information for your course. In addition, check that you are using
 :ref:`keywords <Use Keywords in Messages>` appropriately.
 
-:: 
+::
 
   Subject: {course number} Exam Info
 
@@ -645,7 +650,7 @@ a course survey, answer questions about certificates, and provide information
 about future access to course materials. Be sure to replace values enclosed by
 {braces} with information for your course.
 
-:: 
+::
 
   Subject: {course number} Final Remarks
 
@@ -700,7 +705,7 @@ experiences, build excitement, and encourage re-enrollment.
 This message template offers students who did not complete the course, or who
 did not previously choose the verified certificate track, the opportunity to do
 so. It also invites students to share the course with colleagues and and
-friends. 
+friends.
 
 When preparing a message from this template, search for values enclosed by
 {braces} and replace them with information that applies to your course.
@@ -715,7 +720,7 @@ When preparing a message from this template, search for values enclosed by
   to share this news with you, the students who made the earlier run{s} of
   {course number} so successful.
 
-  {Success story from the previous run.} 
+  {Success story from the previous run.}
 
   {New content or features for the upcoming run.}
 
