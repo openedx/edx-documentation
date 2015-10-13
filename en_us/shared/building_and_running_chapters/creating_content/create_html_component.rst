@@ -58,10 +58,17 @@ You can work with HTML in two ways.
 
 * :ref:`The Raw HTML Editor`
 
-  With the raw HTML Editor, you work directly with HTML code. If you need to
+  With the raw HTML editor, you work directly with HTML code. If you need to
   use custom formatting or scripts in your content, you should use the raw HTML
   editor.
 
+.. note:: 
+    If you copy text from another source and paste it into either the visual
+    or raw HTML editor, be sure to proofread the result carefully. Some
+    applications automatically change quotation marks and apostrophes from the
+    "straight" version to the "smart" version. The HTML editor requires
+    "straight" quotation marks and apostrophes.
+    
 ======================================
 Set the Editor for an HTML Component
 ======================================
@@ -137,7 +144,7 @@ descriptions.
 .. _Work with HTML code:
 
 =========================================
-Work with HTML code in the Visual editor
+Work with HTML code in the visual editor
 =========================================
 
 To work with HTML source code for the content you create in the visual editor,

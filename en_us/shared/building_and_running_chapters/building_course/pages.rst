@@ -80,6 +80,13 @@ purpose. More examples of pages you can add follow.
    For more information about using the editor, see :ref:`Options for Editing
    HTML Components`.
 
+   .. note:: 
+    If you copy text from another source and paste it into the HTML editor, be
+    sure to proofread the result carefully. Some applications automatically
+    change quotation marks and apostrophes from the "straight" version to the
+    "smart" version. The HTML editor requires "straight" quotation marks and
+    apostrophes.
+
 #. Select **Settings** to edit the **Display Name**. The display name is the
    name of the page visible to learners in the course.
 

@@ -37,6 +37,13 @@ To add a course update, follow these steps.
     the **Course Info** page. However, the update is visible to all enrolled
     learners as soon as you post it.
 
+.. note:: 
+  If you copy text from another source and paste it into the HTML editor, be
+  sure to proofread the result carefully. Some applications automatically
+  change quotation marks and apostrophes from the "straight" version to the
+  "smart" version. The HTML editor requires "straight" quotation marks and
+  apostrophes.
+
 .. The following step allows installations that use the edX mobile apps to send a push notification to the app when an update is added. 
 .. Alison, DOC-1814, June 2015
 

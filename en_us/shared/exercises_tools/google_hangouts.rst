@@ -149,6 +149,13 @@ To create an instant hangout in your course:
 
 #. In either a page or an HTML component, open the HTML editor.
 
+   .. note:: 
+    If you copy text from another source and paste it into the HTML editor, be
+    sure to proofread the result carefully. Some applications automatically
+    change quotation marks and apostrophes from the "straight" version to the
+    "smart" version. The HTML editor requires "straight" quotation marks and
+    apostrophes.
+
 #. On the first line, add the JavaScript file you uploaded in a <script> tag,
    making sure you use full opening and closing tags.
    
