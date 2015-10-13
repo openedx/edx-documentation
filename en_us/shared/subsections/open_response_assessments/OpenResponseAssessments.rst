@@ -4,6 +4,8 @@
 Open Response Assessments
 #########################
 
+.. note:: EdX offers full support for this problem type.
+
 The topics in this section provide an overview and details about open response
 assessments.
 

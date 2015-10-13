@@ -4,6 +4,8 @@
 Chemical Equation Problem
 ################################
 
+.. note:: EdX offers full support for this problem type.
+
 The chemical equation problem type allows the student to enter text that represents a chemical equation into a text box. The system converts that text into a chemical equation below the text box. The grader evaluates the student's response by using a Python script that you create and embed in the problem.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/ChemicalEquationExample.png

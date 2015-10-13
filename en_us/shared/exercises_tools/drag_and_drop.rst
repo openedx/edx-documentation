@@ -4,6 +4,8 @@
 Drag and Drop Problem
 ##########################
 
+.. note:: EdX offers provisional support for this problem type.
+
 In drag and drop problems, students respond to a question by dragging text or
 objects to a specific location on an image.
 

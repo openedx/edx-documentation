@@ -4,6 +4,8 @@
 Custom JavaScript Problem
 ###########################
 
+.. note:: EdX offers full support for this problem type.
+
 Custom JavaScript display and grading problems (also called *custom JavaScript problems*
 or *JS Input problems*) allow you to create a custom problem or tool that uses JavaScript
 and then add the problem or tool directly into Studio. When you create a JS Input problem,

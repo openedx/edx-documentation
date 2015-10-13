@@ -4,6 +4,8 @@
 Conditional Module
 ####################
 
+.. note:: EdX offers provisional support for this problem type.
+
 ********************
 Format description
 ********************

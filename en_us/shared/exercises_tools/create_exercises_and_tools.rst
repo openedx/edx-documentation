@@ -40,7 +40,13 @@ instructions that you need to create the exercise or tool.
 General Exercises and Tools
 ****************************
 
-.. note: student notes tool not in table, only for open edx.
+.. only:: Open_edX
+
+  .. note:: In addition to the following exercises and tools, Open edX offers 
+   the :ref:`Notes tool<Notes Tool>`. The Notes tool allows learners to
+   highlight and make notes about what they read in the courseware. This tool
+   is not available for courses on edx.org.
+
 .. list-table::
    :widths: 25 60 20
    :header-rows: 1
@@ -144,14 +150,14 @@ General Exercises and Tools
        problems, the grader uses a Python script that you create and embed in
        the problem to evaluates a student's response or provide hints. These
        problems can be any type.
-     - Provisional support  
+     - Provisional support
    * - :ref:`RecommenderXBlock`
      - RecommenderXBlock can hold a list of resources for misconception
        remediation, additional reading, and so on. This tool allows the 
        course team and students to work together to maintain the list of
        resources. For example, team members and students can suggest new
        resources, vote for useful ones, or flag abuse and spam.
-     - Provisional support  
+     - Provisional support
 
 ********************************
 Image-Based Exercises and Tools

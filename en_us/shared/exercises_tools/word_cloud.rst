@@ -4,6 +4,7 @@
 Word Cloud Tool
 ##################
 
+.. note:: EdX offers provisional support for this tool.
 
 In a word cloud tool, students enter words into a field in response
 to a question or prompt. The words all the students have entered then

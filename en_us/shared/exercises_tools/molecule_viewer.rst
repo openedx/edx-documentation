@@ -4,6 +4,8 @@
 Molecule Viewer Tool
 #######################
 
+.. note:: EdX does not support this tool.
+
 Studio offers two tools that you can use in discussions of molecules:
 
 * With the **molecule viewer** tool, you can create three-dimensional representations of molecules for students to view. 

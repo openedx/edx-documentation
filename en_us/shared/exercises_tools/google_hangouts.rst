@@ -4,6 +4,8 @@
 Google Instant Hangout Tool
 ###########################################
 
+.. note:: EdX offers provisional support for this tool.
+
 This topic describes how you can use instant hangouts in your course. See:
 
 * :ref:`Hangouts_Overview`

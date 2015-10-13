@@ -4,6 +4,8 @@
 Annotation Problem
 ###################
 
+.. note:: EdX offers provisional support for this problem type.
+
 In an annotation problem, you highlight specific text inside a larger text
 block and then ask questions about that text. The questions appear when
 students move their cursors over the highlighted text. The questions also
