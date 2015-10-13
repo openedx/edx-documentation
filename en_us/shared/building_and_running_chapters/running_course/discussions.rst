@@ -18,7 +18,7 @@ sections.
 .. contents::
  :local:
  :depth: 1
-  
+
 For information about how using cohorts in your course affects how your course
 team might moderate course discussions, see :ref:`Moderating Discussions for
 Cohorts`.
@@ -52,20 +52,20 @@ are three hierarchical levels of interaction.
 * A comment is the third level of interaction. A comment is often a
   clarification or side note made to a specific response, rather than to the
   post as a whole.
- 
+
 The dialog created by a post, its responses, and the comments on those
 responses is sometimes called a thread. Discussion threads are saved as part
 of the course history.
 
 All course team members and enrolled learners can add posts, responses, and
 comments, and view all of the posts, responses, and comments made by other
-course participants. 
+course participants.
 
 Members of the course community, learners as well as the course team, can be
 given permission to moderate or administer course discussions through a set of
 discussion administration roles.
 
-.. note:: The course team members that you set up in Studio or on the 
+.. note:: The course team members that you set up in Studio or on the
  Instructor Dashboard in the LMS are not granted discussion administration
  roles automatically. Only people who have a discussion administration role can
  view all of the discussion contributions, for example in courses using
@@ -117,7 +117,7 @@ Discussions in these topics can begin as soon as your course is available.
 
 To create a course-wide discussion topic, follow these steps.
 
-#. Open your course in Studio. 
+#. Open your course in Studio.
 
 #. Select **Settings**, then **Advanced Settings**.
 
@@ -131,7 +131,7 @@ To create a course-wide discussion topic, follow these steps.
    them above the closing brace character (``}``).
 
  .. image:: ../../../shared/building_and_running_chapters/Images/Discussion_Add_paste.png
-  :alt: Policy value of {"General": {"id": "i4x-edX-Open-edx_demo_course"} 
+  :alt: Policy value of {"General": {"id": "i4x-edX-Open-edx_demo_course"}
         "General": {"id": "i4x-edX-Open-edx_demo_course"}}.
 
 5. Replace the second "General" with the quoted name of your new topic.
@@ -145,7 +145,7 @@ To create a course-wide discussion topic, follow these steps.
 7. Add a comma after the first closing brace (``},``).
 
  .. image:: ../../../shared/building_and_running_chapters/Images/Discussion_Add_name.png
-  :alt: Policy value of {"General": {"id": "i4x-edX-Open-edx_demo_course"}, 
+  :alt: Policy value of {"General": {"id": "i4x-edX-Open-edx_demo_course"},
         "Course Q&A": {"id": "i4x-edX-Open-edx_demo_course_faq"}}.
 
 8. Select **Save Changes**. Studio resequences and reformats your entry. Scroll
@@ -176,7 +176,7 @@ To create a content-specific discussion topic, you add a discussion component
 to a unit. Typically, you do this while you are designing and creating your
 course in Studio. Follow the instructions in :ref:`Working with Discussion
 Components`. The result is a discussion topic associated with a unit and its
-content. 
+content.
 
 .. warning:: Follow the recommended steps to add discussion components. Do not
    create discussion topics by using the **Duplicate** button in Studio, and
@@ -199,14 +199,14 @@ topics, see :ref:`Visibility of Discussion Topics`.
 .. _Assigning_discussion_roles:
 
 *************************************************
-Assign Discussion Administration Roles 
+Assign Discussion Administration Roles
 *************************************************
 
 You can designate a team of people to help you run course discussions. Team
 members who have a discussion administration role have additional options for
 working with posts, responses, and comments.
 
-.. important:: The course team members that you set up in Studio or on the 
+.. important:: The course team members that you set up in Studio or on the
  Instructor Dashboard are not automatically granted discussion administration
  roles.
 
@@ -220,7 +220,7 @@ the following roles.
 
 * Discussion moderators can edit and delete messages at any level, review
   messages flagged for misuse, close and reopen posts, pin posts, and endorse
-  responses. 
+  responses.
 
   Posts made by moderators are marked as "By: Staff" in the list of
   posts. Responses and comments made by moderators have a colored "Staff"
@@ -231,7 +231,7 @@ the following roles.
 .. course is cohorted, see posts from all cohorts
 
 * Discussion community TAs have the same options for working with discussions
-  as moderators. 
+  as moderators.
 
   Posts made by community TAs are marked as "By: Community TA"
   in the list of posts on the **Discussion** page. Responses and comments made
@@ -240,7 +240,7 @@ the following roles.
 
 * Discussion admins have the same options for working with discussions as
   moderators, and their posts, responses, and comments have the same "Staff"
-  identifiers. 
+  identifiers.
 
   This role can be reserved for assignment to course team members
   who have the Admin role only: the discussion admins can then both
@@ -252,7 +252,7 @@ the following roles.
 
 .. only:: Open_edX
 
-  .. note:: The options for working with discussions described above are only 
+  .. note:: The options for working with discussions described above are only
     available when members of the discussion administration team work in a web
     browser. The edX mobile apps do not currently offer the additional options.
 
@@ -282,7 +282,7 @@ author or an Admin.
    **Discussion Moderators**, or **Discussion Community TAs**.
 
 #. Under the list of users who currently have that role, enter an email address
-   or username, and then select **Add** for the role type. 
+   or username, and then select **Add** for the role type.
 
 
 ==============
@@ -315,7 +315,7 @@ the course has started and the unit is released.
 However, "seed" posts that you create in content-specific discussion topics
 before a course starts, or before the unit is released, are immediately visible
 on the **Discussion** page, even though the containing category or subcategory
-names are not visible. EdX recommends that you do not create posts in 
+names are not visible. EdX recommends that you do not create posts in
 content-specific discussion topics before a unit is released. For more
 information about release dates and the visibility of components, see
 :ref:`Controlling Content Visibility`.
@@ -371,7 +371,7 @@ Seed Discussion Topics
 
 To help learners learn how to get the most out of course discussions, and find
 the best discussion topic to use for their questions and conversations, you can
-seed discussion topics in course-wide discussion topics before the course starts. 
+seed discussion topics in course-wide discussion topics before the course starts.
 Some examples follow.
 
 * In the General topic (which is included in every course by default), add an
@@ -435,7 +435,7 @@ discussion.
 
 .. only:: Open_edX
 
-    .. note:: You can only pin posts and mark questions as answered when you 
+    .. note:: You can only pin posts and mark questions as answered when you
       work in a web browser. You cannot complete these activities when you work
       in an edX mobile app.
 
@@ -549,13 +549,13 @@ Find Questions and Discussions
 
 When learners create posts, they specify the type of post to indicate whether
 they are asking for concrete information (a question) or starting an open-ended
-conversation (a discussion). 
+conversation (a discussion).
 
 On the **Discussion** page, a question mark image identifies posts that ask
 questions, and a conversation bubble image identifies posts that start
 discussions. When an answer is provided and marked as correct for a question, a
-check or tick mark image replaces the question mark image. For more information, see :ref:`Answer
-Questions`.
+check or tick mark image replaces the question mark image. For more
+information, see :ref:`Answer Questions`.
 
 In addition to these visual cues, filters can help you find questions and
 discussions that need review. Above the list of posts on the **Discussion**
@@ -581,8 +581,8 @@ edited quickly to remove text, images, or links.
 
 .. only:: Open_edX
 
-  .. note:: You can only edit messages in a web browser. You cannot edit 
-   messages when you work in an edX mobile app. 
+  .. note:: You can only edit messages in a web browser. You cannot edit
+   messages when you work in an edX mobile app.
 
 #. Log in to the site and then select the course on your **Current Courses**
    dashboard.
@@ -601,7 +601,7 @@ edited quickly to remove text, images, or links.
    violates the honor code."
 
 ==================
-Delete Messages 
+Delete Messages
 ==================
 
 Discussion moderators, community TAs, and discussion admins can delete the
@@ -613,7 +613,7 @@ language may need to be deleted, rather than edited.
 
 .. only:: Open_edX
 
-  .. note:: You can only delete messages in a web browser. You cannot delete 
+  .. note:: You can only delete messages in a web browser. You cannot delete
    messages when you work in an edX mobile app.
 
 #. Log in to the site and then select the course on your **Current Courses**
@@ -630,7 +630,7 @@ language may need to be deleted, rather than edited.
 
 .. how to communicate with the poster?
 
-.. important:: If a message is threatening or indicates serious harmful 
+.. important:: If a message is threatening or indicates serious harmful
  intent, contact campus security at your institution. Report the incident
  before taking any other action.
 
@@ -647,7 +647,7 @@ flagged in this way and edit or delete them as needed.
 
 .. only:: Open_edX
 
-  .. note:: You can only respond to reports of misuse in a web browser. You 
+  .. note:: You can only respond to reports of misuse in a web browser. You
    cannot edit, delete, or remove the report flag from messages when you work
    in an edX mobile app.
 
@@ -686,7 +686,7 @@ When you close the discussions for a course, all of the discussion topics in
 course units and all of the course-wide topics are affected.
 
 * Existing discussion contributions remain available for review.
-  
+
 * Learners cannot add posts, respond to posts, or comment on responses.
   However, learners can continue to vote on existing threads, follow threads,
   or report messages for misuse.
@@ -696,9 +696,11 @@ course units and all of the course-wide topics are affected.
   close the discussions for a course. Users with these roles can continue to
   add to discussions.
 
-.. note:: To make sure your learners understand why they cannot add to 
+.. note:: To make sure your learners understand why they cannot add to
   discussions, you can add the dates that discussions are closed to the
   **Course Info** page and post them to a General discussion.
+
+.. _Start-End Date Format Specification:
 
 =====================================
 Start-End Date Format Specification
@@ -717,7 +719,7 @@ where:
   Date Time Zone Converter
   <http://www.timeanddate.com/worldclock/converter.html>`_
 
-* You enter an actual letter **T** between the numeric date and time values. 
+* You enter an actual letter **T** between the numeric date and time values.
 
 * The first date and time indicate when you want course discussions to close.
 
@@ -736,9 +738,14 @@ where:
   space separate each pair.
 
 For example, to close course discussions temporarily for a final exam period in
-July, and then permanently on 9 August 2014, you enter:
+July, you enter these start and end dates.
 
-``["2014-07-22T08:00", "2014-07-25T18:00"], ["2014-08-09T00:00", "2099-08-09T00:00"]``
+``["2016-07-22T08:00", "2016-07-25T18:00"]``
+
+To add a blackout date that closes course discussions permanently on 9 August
+2016, you add these start and end dates.
+
+``["2016-07-22T08:00", "2016-07-25T18:00"], ["2016-08-09T00:00", "2099-08-09T00:00"]``
 
 You enter these values between an additional pair of square brackets which are
 supplied for you in Studio.
@@ -748,33 +755,39 @@ Define When Discussions Are Closed
 ============================================
 
 To define when discussions are closed to new contributions and when they
-reopen:
+reopen, follow these steps.
 
-#. Open your course in Studio. 
+#. Open your course in Studio.
 
-#. Select **Settings**, then **Advanced Settings**.
+#. Select **Settings**, and then select **Advanced Settings**.
 
-#. Scroll down to the **Discussion Blackout Dates** policy key. 
+#. Locate the **Discussion Blackout Dates** field.
 
-#. In the field for the value, place your cursor between the supplied square
-   brackets. Use the required date format specification to enter the start and
-   end dates for each time period during which you want discussions to be
-   closed.
+#. If the **Discussion Blackout Dates** field is empty, place your cursor
+   between the brackets ``([ ])``.
 
-   When you enter the dates and times from the example above, the value field
-   looks like the following example.
+   If the field already contains one or more blackout dates, place your cursor
+   before the final bracket ``(])``.
 
-   .. image:: ../../../shared/building_and_running_chapters/Images/Discussion_blackout_unformatted.png
-     :alt: Policy value of [["2014-07-22T08:00", "2014-07-25T18:00"],
-         ["2014-08-09T00:00", "2099-08-09T00:00"]].
+#. Enter the start and end date for the time period during which you want
+   discussions to be closed. Be sure to use the required :ref:`date format
+   specification <Start-End Date Format Specification>`.
 
-5. Select **Save Changes**.
+  * To define the temporary blackout period in the example above, the field
+    contains start and end dates in the following format.
 
-   Studio reformats your entry to add line feeds and indentation, like this:
+    ``[["2016-07-22T08:00", "2016-07-25T18:00"]]``
 
-   .. image:: ../../../shared/building_and_running_chapters/Images/Discussion_blackout_formatted.png
-     :alt: Same policy value but with a line feed after each bracket and comma,
-         and an indent before each date.
+  * To add the dates that close the discussions permanently, the field contains
+    a second pair of start and end dates in the following format.
+
+    ``[["2016-07-22T08:00", "2016-07-25T18:00"], ["2016-08-09T00:00", "2099-08-09T00:00"]]``
+
+#. Select **Save Changes**.
+
+   Studio checks the syntax of your entry and reformats your entry to add line
+   feeds and indentation. A message lets you know whether your changes were
+   saved successfully.
 
 For examples of email messages that you can send to let learners know when the
 course discussions are closed (or open), see :ref:`Example Messages to
