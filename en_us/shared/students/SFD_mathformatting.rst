@@ -7,7 +7,7 @@ Entering Mathematical and Scientific Expressions
 For some math, science, and other problems, you'll enter a numerical or math
 expression, such as a formula, into a response field. You enter your response as
 plain text, and the edX system then converts your text into numbers and symbols
-that appear below the response field:
+that appear below the response field.
 
 .. image:: ../../shared/students/Images/Math5.png
  :width: 150
@@ -25,39 +25,43 @@ that appear below the response field:
  :width: 150
  :alt: Image of a numerical input probem rendered by the parser
 
-
-Additionally, some edX courses have a built-in calculator tool that you can use
-while you work through the course. If the course has a calculator, the
+Additionally, some edX courses have a built-in calculator tool that you can
+use while you work through the course. If the course has a calculator, the
 calculator appears as a small icon in the lower-right corner of all pages in the
 courseware.
 
-.. image:: ../../shared/students/Images/Calc_Locate.png
+.. image:: ../../shared/building_and_running_chapters/Images/Calc_Closed.png
   :width: 600
   :alt: Courseware page with an arrow pointing to the calculator
 
-When you select the icon, the calculator opens along the lower edge of the
-browser window. You can close the calculator by selecting the X just above the
-upper-right corner of the calculator.
+When you select the calculator icon, the calculator opens along the lower edge
+of the browser window. To close the calculator, select the X just above the
+calculator.
 
-.. image:: ../../shared/students/Images/Calc_Showing.png
+.. image:: ../../shared/building_and_running_chapters/Images/Calc_Open.png
   :width: 600
   :alt: Courseware page with the calculator visible along the edge of the browser
-
-Both the calculator and the response fields in math problems accept a selection
-of characters that represent numbers, operators, constants, functions, and other
-mathematical concepts. You may recognize parts of this system if you've used
-math programs before.
-
-.. note:: You can select the circled ``i`` icon on the right side of the 
-  calculator input field to see a pop-up hint that has an abbreviated list of
-  these characters.
 
 ****************************
 Entering Math Expressions
 ****************************
 
+Both the calculator and the response fields in math problems accept a
+selection of characters that represent numbers, operators, constants,
+functions, and other mathematical concepts. You may recognize parts of this
+system if you've used math programs before.
+
+.. note::
+  The calculator includes an information page that shows an abbreviated version
+  of the information in this topic. To see the information page, select the
+  circled ``i`` icon next to the input field.
+
+  .. image:: ../../shared/building_and_running_chapters/Images/Calc_Open_InfoPage.png
+    :width: 600
+    :alt: Courseware page with the calculator visible and showing the information page
+
 When you enter your plain text into the calculator or the response field,
-follow these guidelines:
+follow these guidelines.
 
 * **Arithmetical operations**: Use standard characters for addition (+),
   subtraction (-), multiplication (*), and division (/).

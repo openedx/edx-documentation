@@ -19,6 +19,7 @@ Course Content Index`.
    
    create_exercises_and_tools
    annotation
+   calculator
    checkbox
    chemical_equation
    circuit_schematic_builder

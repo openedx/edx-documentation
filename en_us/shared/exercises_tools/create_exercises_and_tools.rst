@@ -54,6 +54,13 @@ General Exercises and Tools
        student hovers the mouse over the highlighted text so that students can
        think about the question as they read.
      - Provisional support  
+   * - :ref:`Calculator`
+     - The calculator is a built-in tool that you can enable on the **Advanced
+       Settings** page in Studio. Learners can enter input that includes Greek
+       letters, trigonometric functions, scientific or ``e`` notation in
+       addition to common operators. The calculator includes a "cheat sheet"
+       to help learners enter input.
+     - Full support
    * - :ref:`Conditional Module`
      - You can create a conditional module to control versions of content that
        groups of students see. For example, students who answer "Yes" to a poll
