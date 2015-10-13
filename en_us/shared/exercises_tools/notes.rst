@@ -4,6 +4,9 @@
 Notes Tool
 ##############################
 
+.. note:: EdX offers provisional support for this tool. This tool is available 
+ on the Open edX platform. It is not available for courses on edx.org.
+
 The Notes tool allows learners to highlight and make notes about what
 they read in the courseware.
 
@@ -28,5 +31,5 @@ of the notes in the courseware.
   :alt: The Notes page listing all the notes a learner has made in the
       course.
 
-For detailed information about the ways learners can use notes, see `Notes 
-<http://edx.readthedocs.org/projects/open-edx-learner-guide/en/latest/SFD_notes.html>`_.
+For detailed information about the ways learners can use notes, see
+:ref:`openlearners:SFD Notes`.

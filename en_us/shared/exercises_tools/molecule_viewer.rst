@@ -4,7 +4,7 @@
 Molecule Viewer Tool
 #######################
 
-.. note:: EdX does not offer support for this tool.
+.. note:: EdX does not support this tool.
 
 Studio offers two tools that you can use in discussions of molecules:
 

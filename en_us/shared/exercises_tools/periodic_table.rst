@@ -4,7 +4,7 @@
 Periodic Table Tool
 #####################
 
-.. note:: EdX does not offer support for this tool.
+.. note:: EdX does not support this tool.
 
 You can create an interactive periodic table of the elements to help your students learn about various elements' properties. In the table below, detailed information about each element appears as the student moves the mouse over the element.
 

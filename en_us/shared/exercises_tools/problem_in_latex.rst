@@ -4,7 +4,7 @@
 Problem Written in LaTeX
 ############################
 
-.. note:: EdX does not offer support for this problem type.
+.. note:: EdX does not support this problem type.
 
 .. warning:: This problem type is a prototype, and is not supported. By
  default, the ability to create these problems is not enabled in Studio. You

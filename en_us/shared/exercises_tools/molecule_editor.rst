@@ -4,7 +4,7 @@
 Molecule Editor Tool
 #######################
 
-.. note:: EdX does not offer support for this tool.
+.. note:: EdX does not support this tool.
 
 Students can use the molecule editor to learn how to create molecules. The molecule editor allows students to draw molecules that follow the rules for covalent bond formation and formal charge, even if the molecules are chemically impossible, are unstable, or do not exist in living systems. The molecule editor warns students if they try to submit a structure that is chemically impossible.
 

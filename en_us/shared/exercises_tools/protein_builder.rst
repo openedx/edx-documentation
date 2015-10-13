@@ -4,7 +4,7 @@
 Protex Protein Builder Tool
 ############################
 
-.. note:: EdX does not offer support for this tool.
+.. note:: EdX does not support this tool.
 
 The Protex protein builder asks students to create specified protein shapes by stringing together amino acids. In the example below, the goal protein shape is a simple line. 
 
