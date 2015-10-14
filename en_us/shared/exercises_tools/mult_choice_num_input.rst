@@ -16,12 +16,10 @@ but also provide more specific information, if necessary.
 .. note:: 
  Currently, students can only enter numerals in the text field. Students
  cannot enter words or mathematical expressions, which might be confusing to
- students used to normal edX numerical inputs.
+ students who are accustomed to other edX numerical input fields.
 
- EdX provides a calculator in the LMS that learners can use. The calculator is
- available in every course, but it is invisible by default. For more
- information about the calculator, including how to make the calculator
- visible, see :ref:`Calculator Tool`.
+ You can make a calculator available to your learners on every courseware
+ page. For more information, see :ref:`Calculator`.
 
 .. _Create an MCNI Problem:
 

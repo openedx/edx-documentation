@@ -22,6 +22,15 @@ October 2015
 
    * - Date
      - Change
+   * - 14 October 2015
+     - Added a note with support information to the beginning of each exercise
+       or tool topic.
+   * -
+     - Added :ref:`Calculator Tool` topic to :ref:`Create Exercises`.
+   * -
+     - Added a note about the calculator tool to the :ref:`Chemical Equation`,
+       :ref:`Custom JavaScript`, :ref:`Math Expression Input`, :ref:`Multiple
+       Choice and Numerical Input`, and :ref:`Numerical Input` topics.
    * - 8 October 2015
      - Added information about deleting textbooks and chapters to :ref:`Adding
        Textbooks`.

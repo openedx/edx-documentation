@@ -43,10 +43,8 @@ problems so that learners' responses do not have to be exact. You can
 specify a correct answer explicitly or use a Python script.
 
 .. note::
-  EdX provides a calculator in the LMS that learners can use. The calculator
-  is available in every course, but it is invisible by default. For more
-  information about the calculator, including how to make the calculator
-  visible, see :ref:`Calculator Tool`.
+  You can make a calculator available to your learners on every courseware
+  page. For more information, see :ref:`Calculator`.
 
 **************************************************
 Analyzing Performance on Numerical Input Problems
