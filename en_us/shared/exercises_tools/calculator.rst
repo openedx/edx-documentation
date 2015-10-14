@@ -4,6 +4,8 @@
 Calculator Tool
 ##################
 
+.. note:: EdX offers provisional support for this problem type.
+
 .. contents::
   :local:
   :depth: 1
@@ -12,7 +14,7 @@ Calculator Tool
 Overview
 **********
 
-The edX calculator is a built-in tool that learners can use to perform simple
+Learners can use the edX calculator tool to perform simple
 and complex calculations. Learners can enter input including numbers,
 operators, Greek letters, affixes, trigonometric functions, and more.
 
@@ -25,21 +27,21 @@ bottom of every courseware page.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/Calc_Closed.png
   :width: 600
-  :alt: Courseware page with an arrow pointing to the calculator
+  :alt: Courseware page with an arrow pointing to the calculator.
 
-When you select the calculator icon, the calculator opens along the lower edge
-of the browser window. 
+When learners select the calculator icon, the calculator opens along the lower
+edge of the browser window.
 
-The calculator includes an information page that
-learners can use if they have questions about entering input in the
-calculator. To open the calculator's information page, select the
-``i`` icon next to the input field.
+The calculator includes an information page that learners can use if they have
+questions about entering input in the calculator. Learners access the
+calculator's information page by selecting the ``i`` icon next to the input
+field.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/Calc_Open_InfoPage.png
   :width: 600
-  :alt: Courseware page with the calculator visible along the edge of the browser
+  :alt: Courseware page with the calculator visible along the edge of the browser.
 
-To close the calculator, select the X just above the calculator.
+Learners close the calculator by selecting the X.
 
 
 ************************************
@@ -50,4 +52,4 @@ To enable the calculator tool, follow these steps.
 
 #. In Studio, on the **Settings**  menu, select **Advanced Settings**.
 #. In the **Show Calculator** field, change ``false`` to ``true``.
-#. At the bottom of the page, select **Save Changes**.
+#. Select **Save Changes**.

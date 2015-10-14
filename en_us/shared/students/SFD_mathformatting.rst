@@ -25,17 +25,15 @@ that appear below the response field.
  :width: 150
  :alt: Image of a numerical input probem rendered by the parser
 
-Additionally, some edX courses have a built-in calculator tool that you can
-use while you work through the course. If the course has a calculator, the
-calculator appears as a small icon in the lower-right corner of all pages in the
-courseware.
+Additionally, some edX courses offer a calculator tool that you can use while
+you work through the course. If the course has a calculator, the calculator
+appears as a small icon on all courseware pages.
 
 .. image:: ../../shared/building_and_running_chapters/Images/Calc_Closed.png
   :width: 600
   :alt: Courseware page with an arrow pointing to the calculator
 
-When you select the calculator icon, the calculator opens along the lower edge
-of the browser window. To close the calculator, select the X just above the
+To use the calculator, select the calculator icon. To close the calculator, select the X just above the
 calculator.
 
 .. image:: ../../shared/building_and_running_chapters/Images/Calc_Open.png
@@ -48,8 +46,8 @@ Entering Math Expressions
 
 Both the calculator and the response fields in math problems accept a
 selection of characters that represent numbers, operators, constants,
-functions, and other mathematical concepts. You may recognize parts of this
-system if you've used math programs before.
+functions, and other mathematical concepts. You might recognize parts of this
+system if you have used math programs before.
 
 .. note::
   The calculator includes an information page that shows an abbreviated version
