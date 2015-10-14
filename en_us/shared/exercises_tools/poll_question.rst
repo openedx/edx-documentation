@@ -6,26 +6,27 @@ Poll Tool
 
 .. note:: EdX offers full support for this tool.
 
-This section describes how to include polls in your course. 
+This section describes how to include polls in your course.
 
 .. contents::
    :local:
-   :depth: 1
+   :depth: 2
 
 *********
-Overview 
+Overview
 *********
 
 You can include polls in your course to gather learners' opinions on various
-questions. 
+questions.
 
 For a poll, you configure one question and multiple possible
-answers.  If you need to ask multiple questions, use the :ref:`Survey Tool`.
+answers. If you need to ask multiple questions, use the :ref:`Survey Tool`.
 
 The following example poll has four possible answers to the question.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/poll_tool.png
-    :alt: A poll asking if the learner's favorite color is red, green, blue, or other.
+    :alt: A poll asking if the learner's favorite color is red, green, blue, or
+     other.
     :width: 400
 
 After learners submit their answers to the poll question, they see the poll
@@ -43,29 +44,11 @@ Enable the Poll Tool
 Before you can add a poll to your course, you must enable the poll tool in
 Studio or OLX.
 
-To enable the Poll tool in your course, you add ``"poll"`` to the **Advanced
-Modules List** in Advanced Settings.
+To enable the Poll tool in Studio, you add the ``"poll"`` key to the **Advanced
+Module List** on the **Advanced Settings** page. For more information, see
+:ref:`Enable Additional Exercises and Tools`.
 
-.. _Enable the Poll Tool in Studio:
-
-======================================
-Enable the Poll Tool in Studio
-======================================
-
-#. From the **Settings** menu, select **Advanced Settings**.
-
-#. In the **Advanced Module List** field, place your cursor between the
-   supplied pair of square brackets, and then type ``"poll"``. If you see other
-   values in this field, add a comma after the closing quotation mark for the
-   last value, and then type ``"poll"``.
-   
-   .. image:: ../../../shared/building_and_running_chapters/Images/survey_poll_advanced_setting.png
-    :alt: Advanced modules setting for poll
-    :width: 400
-
-#. Select **Save Changes**.
-
-Studio reformats the policy key you just entered to indent it on a new line.
+Alternatively, you can use OLX to enable the poll tool.
 
 ======================================
 Enable the Poll Tool in OLX
@@ -81,8 +64,8 @@ For example, the following XML code enables polls in a course.
 
 .. code-block:: xml
 
-  <course advanced_modules="[&quot;survey&quot;, 
-      &quot;poll&quot;]" display_name="Sample Course" 
+  <course advanced_modules="[&quot;survey&quot;,
+      &quot;poll&quot;]" display_name="Sample Course"
       start="2015-01-01T00:00:00Z">
       ...
   </course>
@@ -97,7 +80,7 @@ you add the component.
 #. On the Course Outline page, open the unit where you want to add the poll.
 
 #. Under **Add New Component** click **Advanced**, and then select **Poll**.
-   
+
    The new component is added to the unit, with the default poll that contains
    three answer fields.
 
@@ -106,7 +89,7 @@ you add the component.
     :width: 600
 
 #. In the new component, select **Edit**.
-   
+
 #. In the **Display Name** field, enter the name for the component.
 
 #. In the **Question/Prompt** field, enter text that learners see above the
@@ -123,7 +106,7 @@ you add the component.
    times that you want to allow learners to submit responses. Enter **0** to
    allow unlimited responses.
 
-   .. note:: 
+   .. note::
     If you allow learners to submit responses more than once, you should set
     **Private Results** to **True**. Otherwise, learners will be able to change
     their responses after seeing others' responses.
@@ -131,7 +114,7 @@ you add the component.
 #. Configure answers for the poll.
 
    #. In each **Answer** field, enter the answer text that learners see.
-      
+
    #. You must enter either text or an image path, or both, for each answer.
       To enter an image, use the :ref:`Studio URL <File URLs>` for the image.
 
@@ -160,39 +143,39 @@ The following example shows the OLX definition for a poll with four answers.
 
 .. code-block:: xml
 
-  <poll url_name="f4ae7de0006f426aa4eed4b0b8112da5" xblock-family="xblock.v1" 
-    feedback="Feedback" 
-    display_name="Poll" 
-    private_results="false" 
-    question="What is your favorite color?" 
-    max_submissions="1" 
+  <poll url_name="f4ae7de0006f426aa4eed4b0b8112da5" xblock-family="xblock.v1"
+    feedback="Feedback"
+    display_name="Poll"
+    private_results="false"
+    question="What is your favorite color?"
+    max_submissions="1"
     answers="[
-               [&quot;R&quot;,  
-                 {    
-                   &quot;img&quot;: &quot;/static/image.png&quot;,    
-                   &quot;img_alt&quot;: &quot;Alt 1&quot;,    
-                   &quot;label&quot;: &quot;Red&quot;  
+               [&quot;R&quot;,
+                 {
+                   &quot;img&quot;: &quot;/static/image.png&quot;,
+                   &quot;img_alt&quot;: &quot;Alt 1&quot;,
+                   &quot;label&quot;: &quot;Red&quot;
                  }
                ],
-               [&quot;B&quot;,  
+               [&quot;B&quot;,
                  {
-                   &quot;img&quot;: &quot;/static/image.png&quot;,    
-                   &quot;img_alt&quot;: &quot;Alt 2&quot;,    
-                   &quot;label&quot;: &quot;Blue&quot;  
+                   &quot;img&quot;: &quot;/static/image.png&quot;,
+                   &quot;img_alt&quot;: &quot;Alt 2&quot;,
+                   &quot;label&quot;: &quot;Blue&quot;
                  }
                ],
-               [&quot;G&quot;,  
+               [&quot;G&quot;,
                  {
-                   &quot;img&quot;: &quot;/static/image.png&quot;,    
-                   &quot;img_alt&quot;: &quot;Alt3&quot;,    
-                   &quot;label&quot;: &quot;Green&quot;  
+                   &quot;img&quot;: &quot;/static/image.png&quot;,
+                   &quot;img_alt&quot;: &quot;Alt3&quot;,
+                   &quot;label&quot;: &quot;Green&quot;
                  }
                ],
-               [&quot;O&quot;,  
+               [&quot;O&quot;,
                  {
-                   &quot;img&quot;: &quot;/static/image.png&quot;,    
-                   &quot;img_alt&quot;: &quot;Alt 4&quot;,    
-                   &quot;label&quot;: &quot;Other&quot;  
+                   &quot;img&quot;: &quot;/static/image.png&quot;,
+                   &quot;img_alt&quot;: &quot;Alt 4&quot;,
+                   &quot;label&quot;: &quot;Other&quot;
                  }
                ]
              ]
@@ -235,7 +218,7 @@ The following table describes the attributes of the ``poll`` element.
          * ``img``, the static URL of the answer image.
          * ``img_alt``, the alternative text for the image.
          * ``label``, the answer text.
-           
+
          Each answer must have a value for ``img`` or ``label``, or both.
 
 ***************************
