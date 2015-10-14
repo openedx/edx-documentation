@@ -42,6 +42,10 @@ You can specify a margin of error, or tolerance, for the answers to these
 problems so that learners' responses do not have to be exact. You can 
 specify a correct answer explicitly or use a Python script.
 
+.. note::
+  You can make a calculator available to your learners on every courseware
+  page. For more information, see :ref:`Calculator`.
+
 **************************************************
 Analyzing Performance on Numerical Input Problems
 **************************************************

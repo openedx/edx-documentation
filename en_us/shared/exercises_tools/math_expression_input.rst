@@ -19,6 +19,10 @@ include unknown variables and more complicated symbolic expressions.
 For more information about how learners enter expressions, see `Math Response
 Formatting for Students`_.
 
+.. note::
+  You can make a calculator available to your learners on every courseware
+  page. For more information, see :ref:`Calculator`.
+
 For the math expression input problems in your course, you can use edX
 Insights to review aggregated learner performance data and examine
 submitted answers. For more information, see `Using edX Insights`_.
