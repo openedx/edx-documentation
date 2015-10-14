@@ -4,22 +4,23 @@
 Adding the Google Drive and Google Calendar XBlock
 ######################################################
 
-In the Open edX Birch release, course teams can embed Google calendars and
-Google Drive files in courseware.
+Beginning with the Open edX Birch release, course teams can embed Google
+calendars and Google Drive files in courseware.
 
-To enable this feature on your instance of Open edX, you install the `Google Drive XBlock`_.
+To enable this feature on your instance of Open edX, you install the
+`Google Drive XBlock`_.
 
 For information about using Google calendars and Google Drive files in courses,
 see the *Building and Running an Open edX Course* guide.
 
-.. Note::  
+.. Note::
   Before proceeding, review :ref:`Guidelines for Updating the Open edX
   Platform`.
 
 To install the Google Drive XBlock, follow these steps.
 
-#. In the edX Platform installation directory, edit the file
-   ``requirements/edx/github.txt``
+#. In the edX Platform installation directory, edit the
+   ``requirements/edx/github.txt`` file.
 
 #. Add a line to include the XBlock utilities.
 
@@ -29,7 +30,7 @@ To install the Google Drive XBlock, follow these steps.
      utils.git@349d6e05dbd553e1f18d3ad1f7ca02c0497f39d7#egg=xblock-utils
 
 #. Add a line to add the Google Drive XBlock.
-   
+
    .. code-block:: bash
 
      git+https://github.com/edx-solutions/xblock-google-drive.
@@ -37,8 +38,12 @@ To install the Google Drive XBlock, follow these steps.
 
 #. Save the ``requirements/edx/github.txt`` file.
 
-After you configure the edX Platform, to use Google Drive files or a Google
-Calendar in a course, you must add the XBlock to the advanced settings for the
-course. See  * :ref:`opencoursestaff:Enable Additional Exercises and Tools`.
+After you configure the edX Platform to use Google Drive files or a Google
+Calendar, each course team that wants to use it must enable the tool for their
+course. For more information, see these references.
+
+* :ref:`opencoursestaff:Enable the Google Drive Files Tool`
+* :ref:`opencoursestaff:Enable the Google Calendars Tool`
+
 
 .. include:: ../../../links/links.rst
