@@ -32,6 +32,12 @@ create your JS Input problem.
     this option in the problem component, a **Show Answer** button appears in
     the LMS, but the button does not work.
 
+.. note::
+  EdX provides a calculator in the LMS that learners can use. The calculator
+  is available in every course, but it is invisible by default. For more
+  information about the calculator, including how to make the calculator
+  visible, see :ref:`Calculator Tool`.
+
 ************************************************************
 Create a Custom JavaScript Display and Grading Problem
 ************************************************************
@@ -44,18 +50,21 @@ Create a Custom JavaScript Display and Grading Problem
 #. In the component that appears, click **Edit**.
 #. In the component editor, modify the example code according to your problem.
 
-   - All problems have more than one element. Most problems conform to the same-origin
-     policy (SOP), meaning that all elements have the same protocol, host, and port.
-     For example, **http**://**store.company.com**:**81**/subdirectory_1/JSInputElement.html and
-     **http**://**store.company.com**:**81**/subdirectory_2/JSInputElement.js have the same protocol
-     (http), host (store.company.com), and port (81).
+   - All problems have more than one element. Most problems conform to the
+     same-origin policy (SOP), meaning that all elements have the same
+     protocol, host, and port. For example, **http**://**store.company.com**:*
+     *81**/subdirectory_1/JSInputElement.html and
+     **http**://**store.company.com**:**81**/subdirectory_2/JSInputElement.js
+     have the same protocol (http), host (store.company.com), and port (81).
 
-     If any elements of your problem use a different protocol, host, or port, you need to
-     bypass the SOP. For example, **https**://**info.company.com**/JSInputElement2.html
-     uses a different protocol, host, and port. To bypass the SOP, change
-     **sop="false"** in line 8 of the example code to **sop="true"**. For more information, see the same-origin policy
-     page on the `Mozilla Developer Network <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Same_origin_policy_for_JavaScript>`_
-     or on `Wikipedia <http://en.wikipedia.org/wiki/Same_origin_policy>`_.
+     If any elements of your problem use a different protocol, host, or port,
+     you need to bypass the SOP. For example,
+     **https**://**info.company.com**/JSInputElement2.html uses a different
+     protocol, host, and port. To bypass the SOP, change **sop="false"** in
+     line 8 of the example code to **sop="true"**. For more information, see
+     the same-origin policy page on the `Mozilla Developer Network
+     <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Same_origin_policy_for_JavaScript>`_ or on
+     `Wikipedia <http://en.wikipedia.org/wiki/Same_origin_policy>`_.
 #. If you want your problem to have a **Save** button, click the **Settings** tab, and then set
    **Maximum Attempts** to a number larger than zero.
 #. Click **Save**.

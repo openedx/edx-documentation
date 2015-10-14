@@ -19,6 +19,12 @@ include unknown variables and more complicated symbolic expressions.
 For more information about how learners enter expressions, see `Math Response
 Formatting for Students`_.
 
+.. note::
+  EdX provides a calculator in the LMS that learners can use. The calculator
+  is available in every course, but it is invisible by default. For more
+  information about the calculator, including how to make the calculator
+  visible, see :ref:`Calculator Tool`.
+
 For the math expression input problems in your course, you can use edX
 Insights to review aggregated learner performance data and examine
 submitted answers. For more information, see `Using edX Insights`_.

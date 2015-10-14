@@ -42,6 +42,12 @@ You can specify a margin of error, or tolerance, for the answers to these
 problems so that learners' responses do not have to be exact. You can 
 specify a correct answer explicitly or use a Python script.
 
+.. note::
+  EdX provides a calculator in the LMS that learners can use. The calculator
+  is available in every course, but it is invisible by default. For more
+  information about the calculator, including how to make the calculator
+  visible, see :ref:`Calculator Tool`.
+
 **************************************************
 Analyzing Performance on Numerical Input Problems
 **************************************************

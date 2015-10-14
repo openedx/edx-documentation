@@ -6,20 +6,32 @@ Chemical Equation Problem
 
 .. note:: EdX offers full support for this problem type.
 
-The chemical equation problem type allows the student to enter text that represents a chemical equation into a text box. The system converts that text into a chemical equation below the text box. The grader evaluates the student's response by using a Python script that you create and embed in the problem.
+The chemical equation problem type allows the student to enter text that
+represents a chemical equation into a text box. The system converts that text
+into a chemical equation below the text box. The grader evaluates the
+student's response by using a Python script that you create and embed in the
+problem.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/ChemicalEquationExample.png
  :alt: Image of a chemical equation response problem
+
+.. note::
+  EdX provides a calculator in the LMS that learners can use. The calculator
+  is available in every course, but it is invisible by default. For more
+  information about the calculator, including how to make the calculator
+  visible, see :ref:`Calculator Tool`.
 
 ************************************
 Create the Chemical Equation Problem
 ************************************
 
-Chemical equation problems use MathJax to create formulas. For more information about using MathJax in Studio, see :ref:`MathJax in Studio`.
+Chemical equation problems use MathJax to create formulas. For more
+information about using MathJax in Studio, see :ref:`MathJax in Studio`.
 
 To create the above chemical equation problem:
 
-#. In the unit where you want to create the problem, click **Problem** under **Add New Component**, and then click the **Advanced** tab.
+#. In the unit where you want to create the problem, click **Problem** under
+   **Add New Component**, and then click the **Advanced** tab.
 #. Click **Blank Advanced Problem**.
 #. In the component that appears, click **Edit**.
 #. In the component editor, paste the code from below.
@@ -109,13 +121,16 @@ Template
 Tags
 ======
 
-* ``<customresponse>``: Indicates that this problem has a custom response. 
-* ``<chemicalequationinput>``: Specifies that the answer to this problem is a chemical equation. 
-* ``<answer type=loncapa/python>``: Contains the Python script that grades the problem.
+* ``<customresponse>``: Indicates that this problem has a custom response.
+* ``<chemicalequationinput>``: Specifies that the answer to this problem is a
+  chemical equation.
+* ``<answer type=loncapa/python>``: Contains the Python script that grades the
+  problem.
 
 **Tag:** ``<customresponse>``
 
-Indicates that this problem has a custom response. The ``<customresponse>`` tags must surround the ``<chemicalequation>`` tags.
+Indicates that this problem has a custom response. The ``<customresponse>``
+tags must surround the ``<chemicalequation>`` tags.
 
   Attributes
 
@@ -128,7 +143,8 @@ Indicates that this problem has a custom response. The ``<customresponse>`` tags
 
 **Tag:** ``<chemicalequationinput>``
 
-Indicates that the answer to this problem is a chemical equation and creates a response field where the student enters an answer.
+Indicates that the answer to this problem is a chemical equation and creates a
+response field where the student enters an answer.
 
   Attributes
 
