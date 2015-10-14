@@ -4,8 +4,8 @@
 Creating Exercises and Tools
 ############################
 
-Use the chapters in this section to understand how to create exercises and
-tools in your course.
+Use the topics in this section to understand how to add exercises and
+tools to your course.
 
 For information on how to develop your course content in the Studio Outline
 page, see :ref:`Developing Your Course Index`.
@@ -44,6 +44,7 @@ Course Content Index`.
    mult_choice_num_input
    numerical_input
    open_response_assessments/index
+   oppia
    periodic_table
    poll_question
    poll

@@ -22,6 +22,11 @@ October 2015
 
    * - Date
      - Change
+   * - 21 October 2015
+     - Added information to the :ref:`PA Allow Images` topic about specifying
+       additional file types for learners to upload.
+   * -
+     - Added the :ref:`Oppia Exploration Tool` topic.
    * - 14 October 2015
      - Added a note with support information to the beginning of each exercise
        or tool topic.
@@ -34,7 +39,7 @@ October 2015
    * - 8 October 2015
      - Added information about deleting textbooks and chapters to :ref:`Adding
        Textbooks`.
-   * - 
+   * -
      - Added notes about viewing courseware as a learner in :ref:`Testing Your
        Course Content`.
    * - 5 October 2015
@@ -43,15 +48,15 @@ October 2015
    * - 1 October 2015
      - Added information about awarding partial credit for the following
        problems.
-       
+
        * :ref:`Awarding Partial Credit for a Problem`
        * :ref:`Awarding Partial Credit in a Checkbox Problem`
-       * :ref:`Awarding Partial Credit in a Multiple Choice Problem` 
+       * :ref:`Awarding Partial Credit in a Multiple Choice Problem`
        * :ref:`Awarding Partial Credit in a Numerical Input Problem`
        * :ref:`Awarding Partial Credit in a Write Your Own Grader
          Problem<Award Partial Credit>`
 
-   * - 
+   * -
      - Added information about including text after the response field in
        :ref:`Numerical Input` and :ref:`Text Input`.
 
@@ -76,7 +81,7 @@ September 2015
      - Added the :ref:`View the Course Structure API for the Usage ID` topic.
    * -
      - Added the :ref:`Setting Up Course Certificates` topic.
-   * - 
+   * -
      - Updated the :ref:`Student_Answer_Submission` section to include topics
        about the downloadable student state report and the submission history
        report.
@@ -97,7 +102,7 @@ August 2015
    * - 25 August 2015
      - Updated the :ref:`Course Data` topic to include descriptions of newly
        added values.
-   * - 
+   * -
      - Updated the :ref:`Enrollment` section to remove references to enrollment
        counts on the Instructor Dashboard. Course enrollment data is available
        in edX Insights.
@@ -124,7 +129,7 @@ July 2015
      - Updated the :ref:`Review_Answers` section to remove references to
        features on the Analytics page of the Instructor Dashboard. Course data
        is available in edX Insights.
-   * -  
+   * -
      - Added the :ref:`View Specific Student Assigned Problems from Randomized
        Content Block` and :ref:`Adjust Grades for a Problem from a Randomized
        Content Block` sections. Also updated information in the :ref:`Preview
@@ -132,7 +137,7 @@ July 2015
        reflect the ability to preview the courseware as a specific student.
    * - 17 July 2015
      - Added the :ref:`Best Practices for ORA` and :ref:`PA Scoring` sections.
-   * - 
+   * -
      - Updated this guide to use the course team "Admin" and "Staff" role names
        consistently. For more information, see the :ref:`Course_Staffing`
        section.
@@ -141,17 +146,17 @@ July 2015
    * - 1 July 2015
      - Several additions were made to provide information about using feedback
        and hints in common problems.
-       
+
        * :ref:`Adding Feedback and Hints to a Problem`
        * :ref:`Use Feedback in a Checkbox Problem`
        * :ref:`Use Hints in a Checkbox Problem`
-       * :ref:`Use Feedback in a Dropdown Problem` 
+       * :ref:`Use Feedback in a Dropdown Problem`
        * :ref:`Use Hints in a Dropdown Problem`
-       * :ref:`Use Feedback in a Multiple Choice Problem` 
+       * :ref:`Use Feedback in a Multiple Choice Problem`
        * :ref:`Use Hints in a Multiple Choice Problem`
-       * :ref:`Use Feedback in a Numerical Input Problems` 
+       * :ref:`Use Feedback in a Numerical Input Problems`
        * :ref:`Use Hints in a Numerical Input Problem`
-       * :ref:`Use Feedback in a Text Input Problem` 
+       * :ref:`Use Feedback in a Text Input Problem`
        * :ref:`Use Hints in a Text Input Problem`
 
 ****************
@@ -195,9 +200,9 @@ May 2015
      - Added the :ref:`Scheduling Your Course` section.
    * -
      - Added :ref:`Enrollment End Date and Time`.
-   * - 
+   * -
      - Updated :ref:`Code for Dynamic HTML Schedule`.
-   * - 
+   * -
      - Added :ref:`Whitelisting Your Domain for Google Hangouts`.
    * -
      - Added :ref:`Hiding Graded Content`.
@@ -212,9 +217,9 @@ May 2015
      - Updated :ref:`Create a Code Response Problem` to include the base URL
        that external graders must access.
    * - 12 May 2015
-     - Updated the :ref:`Access_grades` section to describe new 
+     - Updated the :ref:`Access_grades` section to describe new
        certificate-related and enrollment track columns in the grade report.
-   * - 
+   * -
      - Updated the :ref:`Preview Course Content` section to reflect that course
        teams can now use **Preview** to preview course changes before a course
        is released.
@@ -238,9 +243,9 @@ April 2015
    * - 22 Apr 2015
      - Updated the :ref:`Working with Video Components` section to reflect a
        field label change.
-   * -   
+   * -
      - Added the :ref:`SFD Dashboard Settings Profile` topic with profile and
-       account settings information.     
+       account settings information.
    * - 16 Apr 2015
      - In the :ref:`Create Exercises` section, added a column to the tables to
        indicate level of support for each exercise or tool.
@@ -267,23 +272,23 @@ March 2015
    * - 25 Mar 2015
      - Added the **Video Available on Web Only** :ref:`advanced setting<Video
        Advanced Options>` to the :ref:`Working with Video Components` chapter.
-   * - 
+   * -
      - Added documentation for :ref:`renaming<Renaming a Cohort>` and
-       :ref:`changing the assignment method<Changing the Assignment Method 
+       :ref:`changing the assignment method<Changing the Assignment Method
        of a Cohort>` for cohorts.
    * -
      - Modified topics relating to :ref:`cohorts<Cohorts Overview>`,
        :ref:`cohort configuration<Enabling and Configuring Cohorts>` and
        :ref:`cohorted discussions<Set up Discussions in Cohorted Courses>` to
-       reflect that cohort management is now done on the Instructor Dashboard 
+       reflect that cohort management is now done on the Instructor Dashboard
        in the LMS.
    * - 18 Mar 2015
      - Added the :ref:`Content Libraries` and :ref:`Randomized Content
        Blocks` sections to reflect support for libraries in Studio.
-   * - 
+   * -
      - Updated :ref:`Open Response Assessments` to reflect support for multiple
        prompts in a single ORA assignment.
-   * - 
+   * -
      - Added the :ref:`Use Keywords in Messages` section to the :ref:`Bulk
        Email` chapter.
    * - 11 Mar 2015
@@ -305,10 +310,10 @@ February 2015
      - Change
    * - 2/26/15
      - Updated the :ref:`Cohorted Courseware Overview` section to reflect the
-       ability to delete content groups and view their usage in a course.      
+       ability to delete content groups and view their usage in a course.
    * - 2/19/15
      - Updated ORA documentation to reflect ability to :ref:`Remove a learner response from peer grading`
-   * - 
+   * -
      - Updated ORA documentation to indicate that course teams can use learner
        usernames to :ref:`access learner information<Access Learner
        Information>`. They no longer need to obtain an anonymized learner ID.
@@ -337,13 +342,13 @@ January 2015
      - Added the :ref:`Cohorted Courseware Overview` section.
    * - 1/14/15
      - Added sections for :ref:`Content Libraries` and :ref:`Randomized Content
-       Blocks`.       
-   * - 
+       Blocks`.
+   * -
      - Added a section for :ref:`Cohorted Courseware Overview`.
-   * -      
+   * -
      - Updated the :ref:`Add Files to a Course` section with information about
        filtering the list of uploaded files by file type.
-   * - 
+   * -
      - Added the :ref:`Google Calendar Tool` and :ref:`Google Drive Files
        Tool` chapters.
    * - 1/7/15

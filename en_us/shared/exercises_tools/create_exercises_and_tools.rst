@@ -1,7 +1,7 @@
 .. _Create Exercises:
 
 ############################
-Creating Exercises and Tools
+Exercises and Tools
 ############################
 
 You can add a wide variety of different types of exercises and tools to your
@@ -133,6 +133,10 @@ General Exercises and Tools
        responses of varying lengths as well as image files that the students
        upload. Open response assessments include self assessment and peer
        assessment.
+     - Full support
+   * - :ref:`Oppia Exploration Tool`
+     - You can embed Oppia explorations in your course so that learners can
+       interact with them directly in the courseware.
      - Full support
    * - :ref:`Poll Tool`
      - You can include polls in your course to gather learners' opinions on
