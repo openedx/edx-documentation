@@ -33,6 +33,6 @@ Building and Running an Open edX Course
   :ref:`opencoursestaff:Numerical Input` sections have clearer
   information about using the **Randomization** setting.
 
-* The ref:`opencoursestaff:Review_Answers` section no longer contains
+* The :ref:`opencoursestaff:Review_Answers` section no longer contains
   references to features on the **Analytics** page of the Instructor Dashboard.
   Course data is available in edX Insights.
