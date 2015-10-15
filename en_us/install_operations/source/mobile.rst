@@ -53,6 +53,8 @@ To enable the mobile application features, follow these steps.
            "ENABLE_COMBINED_LOGIN_REGISTRATION": true
        }
 
+  If you are running in a non-SSL environment, you can set ``"OAUTH_ENFORCE_SECURE": false``. This should never be disabled in anything other than a development environment.
+
 #. Save the ``edx/app/edxapp/lms.env.json`` file.
 
 #. Restart the server.
