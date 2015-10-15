@@ -35,46 +35,52 @@ For the multiple choice problems in your course, you can use edX Insights to
 review aggregated learner performance data and examine the submitted answers.
 For more information, see `Using edX Insights`_.
 
-
 ********************************************************
 Pedagogical Considerations for Multiple Choice Questions
 ********************************************************
 
-edX recommends the use, whenever possible, of authentic assessments 
-rather than multiple choice questions for graded problems. Authentic
-assessments in online courses tend to lead to better learning
-outcomes. In addition, authentic assessments allow for infinite
-attempts, mastery learning, and more intellectual risk taking, both
-of which lead to substantially better learning outcomes.
+EdX recommends the use, whenever possible, of authentic assessments rather than
+multiple choice questions for graded problems. Authentic assessments in online
+courses tend to lead to better learning outcomes. In addition, authentic
+assessments allow for infinite attempts, mastery learning, and more
+intellectual risk taking, which lead to substantially better learning outcomes.
 
-Multiple choice questions do have several helpful uses:
+Multiple choice questions do have these helpful uses.
 
-* Ungraded multiple choice questions can help students think about a concept 
-   in the context of knowledge transfer.
-* For many subject areas, authentic assessments are either unavailable
-   or prohibitively complex to use. In such courses, multiple choice
-   questions can act as the only available fallback.
+* Ungraded multiple choice questions can help students think about a concept in
+  the context of knowledge transfer.
 
-Fortunately, multiple choice questions are among the best studied in
-assessment literature. A few guidelines for the creation of such
-questions:
+* For many subject areas, authentic assessments are either unavailable or
+  prohibitively complex to use. In such courses, multiple choice questions can
+  act as the only available fallback.
 
-* Organize the set of answers logically. Use consistent phrasing
-   between answers, and when possible, parallel structure. 
-* Place as many of the words in the stem, and keep the answers
-   as concise as possible.
-* The distractors should not be substantially shorter, longer,
-   or use different structure than the answer. The answers should
-   be as consistent in structure, length, and phrasing as possible.
-* Avoid negatives (and especially double negatives)
-* Test higher-order thinking (comprehension and critical thinking). 
-   Avoid simple recall.
-* If there is a finite number of attempts, avoid trick questions
-   and try to keep wording clear and unambiguous. 
+Fortunately, multiple choice questions are among the best studied in assessment
+literature. A few guidelines for the creation of such questions follow.
+
+* Organize the set of answers logically. Use consistent phrasing for the
+  answers, and when possible, parallel structure.
+
+* Place as many of the words in the stem as possible, and keep the answers as
+  concise as possible.
+
+* The distractors should not be substantially shorter, longer, or use different
+  structure than the correct answer. The answer options should be as consistent
+  in structure, length, and phrasing as possible.
+
+* Avoid using negatives (and especially double negatives) in the question and
+  the answers.
+
+* Test higher order thinking (comprehension and critical thinking). Avoid
+  simple recall.
+
+* If you specify a finite number of attempts, avoid trick questions and try to
+  keep wording clear and unambiguous.
+
 * Make all distractors plausible.
-* Use "All of the above" and "None of the above" with caution. If a 
-   learner can identify at least two correct answers, it can give away
-   the answer with only partial comprehension. 
+
+* Use "All of the above" and "None of the above" answer options with caution.
+  If a learner can identify at least two correct answers, it can give away the
+  answer with only partial comprehension.
 
 ****************************************
 Creating a Multiple Choice Problem
@@ -99,16 +105,16 @@ follow these steps.
 #. In the unit where you want to create the problem, under **Add New
    Component** select **Problem**.
 #. Select one of the two multiple choice problem templates.
-   
-  * From the list of **Common Problem Types**, select **Multiple Choice**. 
-   
+
+  * From the list of **Common Problem Types**, select **Multiple Choice**.
+
   * From the list of **Common Problems with Hints and Feedback**, select
     **Multiple Choice with Hints and Feedback**. For more information, see `Use
     Feedback in a Multiple Choice Problem`_.
 
     Studio adds the problem to the unit.
 
-3. Select **Edit**. The Simple Editor opens. 
+3. Select **Edit**. The Simple Editor opens.
 #. Replace the sample problem text with your own text.
 #. Determine the text that describes the question you want learners to answer,
    and surround that text with two pairs of angle brackets (``>>question<<``).
@@ -118,7 +124,7 @@ follow these steps.
    the toolbar. A pair of parentheses appears next to each answer choice.
 #. To identify the correct answer, add an **x** between the parentheses for
    that option.
-#. To provide an explanation, select the explanation text and then select 
+#. To provide an explanation, select the explanation text and then select
    **Explanation** from the toolbar. ``[explanation]`` appears before
    and after the explanation text.
 #. Select **Settings** and provide an identifying **Display Name** for the
@@ -136,13 +142,13 @@ the problem component.
 
     ( ) is a property of touch sensation, referring to the ability of crabs
     to detect nearby predators.
-    ( ) is a property of hearing, referring to the ability of crabs to detect 
+    ( ) is a property of hearing, referring to the ability of crabs to detect
     low frequency noises.
-    (x) is a property of vision, referring to the ability of crabs' eyes to 
+    (x) is a property of vision, referring to the ability of crabs' eyes to
     enhance contrasts.
-    ( ) has to do with the ability of crabs to use sonar to detect fellow 
+    ( ) has to do with the ability of crabs to use sonar to detect fellow
     horseshoe crabs nearby.
-    ( ) has to do with a weighting system in the crab's skeleton that allows 
+    ( ) has to do with a weighting system in the crab's skeleton that allows
     it to balance in turbulent water.
 
     [Explanation]
@@ -155,7 +161,7 @@ the problem component.
     [Explanation]
 
 ========================================================================
-Use the Advanced Editor to Edit a Multiple Choice Problem 
+Use the Advanced Editor to Edit a Multiple Choice Problem
 ========================================================================
 
 To use the :ref:`Advanced Editor<Advanced Editor>` to edit a multiple choice
@@ -173,15 +179,15 @@ problem, follow these steps.
   <multiplechoiceresponse>
     <choicegroup type="MultipleChoice" label="Lateral inhibition, as was first discovered
       in the horseshoe crab">
-      <choice correct="false">is a property of touch sensation, referring to the ability 
+      <choice correct="false">is a property of touch sensation, referring to the ability
       of crabs to detect nearby predators.</choice>
       <choice correct="false">is a property of hearing, referring to the ability of crabs
       to detect low frequency noises.</choice>
-      <choice correct="false">is a property of vision, referring to the ability of crabs' 
+      <choice correct="false">is a property of vision, referring to the ability of crabs'
       eyes to enhance contrasts.</choice>
       <choice correct="true">has to do with the ability of crabs to use sonar to detect
       fellow horseshoe crabs nearby.</choice>
-      <choice correct="false">has to do with a weighting system in the crab's skeleton 
+      <choice correct="false">has to do with a weighting system in the crab's skeleton
       that allows it to balance in turbulent water.</choice>
     </choicegroup>
   </multiplechoiceresponse>
@@ -212,7 +218,7 @@ In multiple choice problems, you can provide feedback for each option that a
 learner can select. Use the following guidelines when providing feedback.
 
 * Use feedback for the incorrect answers to target common misperceptions and
-  mistakes. 
+  mistakes.
 
 * Ensure feedback provides some guidance to the learner about how to arrive at
   the correct answer.
@@ -240,14 +246,14 @@ For example, the following problem has feedback for each possible answer.
 ::
 
   >>Which of the following is an example of a vegetable?<<
-  ( ) apple {{An apple is the fertilized ovary that comes from an apple tree 
+  ( ) apple {{An apple is the fertilized ovary that comes from an apple tree
   and contains seeds classifying it as a fruit.}}
-  ( ) pumpkin {{A pumpkin is the fertilized ovary of a squash plant and 
+  ( ) pumpkin {{A pumpkin is the fertilized ovary of a squash plant and
   contains seeds classifying it as a fruit.}}
-  (x) potato {{A potato is an edible part of a plant in tuber form and is 
+  (x) potato {{A potato is an edible part of a plant in tuber form and is
   classified as a vegetable}}
-  ( ) tomato {{Many people mistakenly think a tomato is a vegetable. However, 
-  because a tomato is the fertilized ovary of a tomato plant and contains 
+  ( ) tomato {{Many people mistakenly think a tomato is a vegetable. However,
+  because a tomato is the fertilized ovary of a tomato plant and contains
   seeds it is classified as a fruit.}}
 
 =========================================
@@ -271,27 +277,27 @@ For example, the following problem has feedback for each answer.
 .. code-block:: xml
 
   <multiplechoiceresponse>
-    <choicegroup label="Which of the following is an example of a vegetable?" 
+    <choicegroup label="Which of the following is an example of a vegetable?"
       type="MultipleChoice">
-      <choice correct="false">apple 
-        <choicehint>An apple is the fertilized 
-          ovary that comes from an apple tree and contains seeds classifying 
+      <choice correct="false">apple
+        <choicehint>An apple is the fertilized
+          ovary that comes from an apple tree and contains seeds classifying
           it as a fruit.
         </choicehint>
       </choice>
       <choice correct="false">pumpkin
-        <choicehint>A pumpkin is the fertilized 
+        <choicehint>A pumpkin is the fertilized
           ovary of a squash plant and contains seeds classifying it as a fruit.
         </choicehint>
       </choice>
-      <choice correct="true">potato 
-        <choicehint>A potato is an edible part of a plant in tuber form and is 
+      <choice correct="true">potato
+        <choicehint>A potato is an edible part of a plant in tuber form and is
           classified as a vegetable.
         </choicehint>
       </choice>
-      <choice correct="false">tomato 
-        <choicehint>Many people mistakenly think a tomato is a vegetable. 
-         However, because a tomato is the fertilized ovary of a tomato plant 
+      <choice correct="false">tomato
+        <choicehint>Many people mistakenly think a tomato is a vegetable.
+         However, because a tomato is the fertilized ovary of a tomato plant
          and contains seeds it is classified as a fruit.
         </choicehint>
       </choice>
@@ -337,8 +343,8 @@ For example, the following feedback is configured to use a custom label.
 
 ::
 
-  ( ) tomato {{Not Quite:: Many people mistakenly think a tomato is a 
-  vegetable. However, because a tomato is the fertilized ovary of a tomato 
+  ( ) tomato {{Not Quite:: Many people mistakenly think a tomato is a
+  vegetable. However, because a tomato is the fertilized ovary of a tomato
   plant and contains seeds, it is a fruit.}}
 
 Customize Feedback Labels in the Advanced Editor
@@ -349,7 +355,7 @@ labels with the following syntax.
 
 .. code-block:: xml
 
-    <choice correct="true or fale">Answer 
+    <choice correct="true or fale">Answer
       <choicehint label="Custom Label">
         Feedback for learners who select this answer.
       </choicehint>
@@ -360,10 +366,10 @@ For example, the following feedback is configured to use a custom label.
 .. code-block:: xml
 
   <choice correct="false">
-    tomato 
+    tomato
     <choicehint label="Not Quite">
-      Many people mistakenly think a tomato is a vegetable. However, because 
-      a tomato is the fertilized ovary of a tomato plant and contains seeds, 
+      Many people mistakenly think a tomato is a vegetable. However, because
+      a tomato is the fertilized ovary of a tomato plant and contains seeds,
       it is a fruit.
     </choicehint>
   </choice>
@@ -392,8 +398,8 @@ Editor <Use the Advanced Editor to Edit a Multiple Choice Problem>`_ to
 configure partial credit.
 
 .. only:: Partners
- 
- .. note:: 
+
+ .. note::
     Support for partial credit problems in courses on edx.org and edX
     Edge is provisional. Ensure that you test such problems thoroughly before
     releasing them to learners. For more information, contact your edX program
@@ -424,7 +430,7 @@ answer, you add the following attributes to the problem XML.
   ``<multiplechoiceresponse>`` element.
 
 * For each answer that you intend to award partial credit, add the
-  ``correct="partial"`` attribute to the ``<choice>`` element. 
+  ``correct="partial"`` attribute to the ``<choice>`` element.
 
 * Optionally, define the percentage of the problem score to award for
   each answer. In the ``point_values`` attribute for the ``<choice>`` element,
@@ -440,7 +446,7 @@ updated to provide partial credit for the first answer.
 .. code-block:: xml
 
   <multiplechoiceresponse partial_credit="points">
-    <choicegroup label="Which of the following countries has the largest 
+    <choicegroup label="Which of the following countries has the largest
         population?" type="MultipleChoice">
       <choice correct="partial" point_value="0.25">Brazil</choice>
       <choice correct="false">Germany</choice>
@@ -453,7 +459,7 @@ updated to provide partial credit for the first answer.
 .. _Multiple Choice Problem XML:
 
 ******************************
-Multiple Choice Problem XML 
+Multiple Choice Problem XML
 ******************************
 
 ================
@@ -549,11 +555,11 @@ Indicates the beginning of the list of options.
 
   Children
 
-  * ``<choice>`` 
+  * ``<choice>``
 
 **Tag:** ``<choice>``
 
-Lists an answer option. 
+Lists an answer option.
 
   Attributes
 
@@ -564,16 +570,16 @@ Lists an answer option.
      * - Attribute
        - Description
      * - correct (at least one required)
-       - Indicates a correct, incorrect, or partially correct answer. 
-         
-         * When set to "true", the choice is a correct answer. 
-         * When set to "false", the choice is an incorrect answer. 
+       - Indicates a correct, incorrect, or partially correct answer.
+
+         * When set to "true", the choice is a correct answer.
+         * When set to "false", the choice is an incorrect answer.
          * When set to "partial", the learner receives partial credit for
            selecting the answer.
-         
+
          You can specify more than one correct or partially correct answer,
          but learners can select only once choice to submit as their answer.
-     
+
      * - point_value
        - When ``correct="partial"``, indicates the percentage, as a decimal, of
          the points the learner receives for selecting this option. If
@@ -583,7 +589,7 @@ Lists an answer option.
        - A unique name that is used internally to refer to the choice.
 
   Children
-  
+
   ``<choicehint>``
 
 **Tag:** ``<choicehint>``
@@ -595,7 +601,7 @@ Specifies a hint for the answer.
 Specifies hints available to the learner.
 
   Children
-  
+
   ``<hint>``
 
 **Tag:** ``<hint>``
@@ -603,7 +609,7 @@ Specifies hints available to the learner.
 Specifies a hint available to the learner.
 
   Children
-  
+
   (none)
 
 .. _Multiple Choice Advanced Options:
@@ -704,7 +710,7 @@ You can combine symbols within the parentheses as necessary. For example, to
 show the correct answer in a fixed location, you can use both ``x`` and ``@``.
 
 ::
- 
+
   (x@) The iPod
 
 Use the Advanced Editor to Shuffle Answers
@@ -815,7 +821,7 @@ For example, the XML for the multiple choice problem follows.
     </choicegroup>
    </multiplechoiceresponse>
    ...
- 
+
 This is followed by XML that defines the targeted feedback.
 
 .. code-block:: xml
@@ -869,7 +875,7 @@ views.
 Use the Advanced Editor to Configure Answer Pools
 **************************************************
 
-You configure the problem to provide answer pools by editing XML in the 
+You configure the problem to provide answer pools by editing XML in the
 :ref:`Advanced Editor`.
 
 Follow these XML guidelines:
@@ -886,7 +892,7 @@ Follow these XML guidelines:
   value that maps back to a correct answer. For example, ``<solution
   explanation-id="iPod">``.
 
-.. note:: If the choices include only one correct answer, you do not have to 
+.. note:: If the choices include only one correct answer, you do not have to
  use the ``explanation-id`` in either the ``choice`` or ``<solution>``
  element. You do still use the ``<solutionset>`` element to wrap the
  ``<solution>`` element.
