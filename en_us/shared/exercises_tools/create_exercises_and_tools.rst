@@ -79,12 +79,12 @@ General Exercises and Tools
        think about the question as they read.
      - Provisional support
    * - :ref:`Calculator`
-     - The calculator is a built-in tool that you can enable on the **Advanced
-       Settings** page in Studio. Learners can enter input that includes Greek
-       letters, trigonometric functions, scientific or ``e`` notation in
-       addition to common operators. The calculator includes a "cheat sheet"
-       to help learners enter input.
-     - Full support
+     - The calculator tool is available for every course through the course
+       advanced settings. When the calculator tool is enabled, it appears on
+       every courseware page. Learners can enter input that includes Greek
+       letters, trigonometric functions, and scientific or ``e`` notation in
+       addition to common operators.
+     - Provisional support
    * - :ref:`Conditional Module`
      - You can create a conditional module to control versions of content that
        groups of students see. For example, students who answer "Yes" to a poll
