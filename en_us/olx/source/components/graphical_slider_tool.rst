@@ -4,7 +4,7 @@
 Graphical Slider Tool
 *********************************************
 
-.. module:: xml_format_gst
+.. note:: EdX does not support this tool.
 
 
 Format description
@@ -28,8 +28,9 @@ Render tag can contain usual html tags mixed with some GST specific tags::
     <plot/> - represents Flot JS plot element
 
 Also GST will track all elements inside ``<render></render>`` where ``id``
-attribute is set, and a corresponding parameter referencing that ``id`` is present
-in the configuration section below. These will be referred to as dynamic elements.
+attribute is set, and a corresponding parameter referencing that ``id`` is
+present in the configuration section below. These will be referred to as
+dynamic elements.
 
 The contents of the <render> section will be shown to the user after
 all occurrences of::
@@ -70,13 +71,13 @@ Slider tag must have ``var`` attribute and optional ``style`` attribute::
 
     <slider var='a' style="width:400px;float:left;" />
 
-After processing, slider tags will be replaced by jQuery UI sliders with applied
-``style`` attribute.
+After processing, slider tags will be replaced by jQuery UI sliders with
+applied ``style`` attribute.
 
 ``var`` attribute must correspond to a parameter. Parameters can be used in any
 of the ``function`` tags in ``functions`` tag. By moving slider, value of
-parameter ``a`` will change, and so result of function, that depends on parameter
-``a``, will also change.
+parameter ``a`` will change, and so result of function, that depends on
+parameter ``a``, will also change.
 
 
 Textbox tag
@@ -86,14 +87,14 @@ Texbox tag must have ``var`` attribute and optional ``style`` attribute::
 
     <textbox var="b" style="width:50px; float:left; margin-left:10px;" />
 
-After processing, textbox tags will be replaced by html text inputs with applied
-``style`` attribute. If you want a readonly text input, then you should use a
-dynamic element instead (see section below "HTML tagsd with ID").
+After processing, textbox tags will be replaced by html text inputs with
+applied ``style`` attribute. If you want a readonly text input, then you should
+use a dynamic element instead (see section below "HTML tagsd with ID").
 
 ``var`` attribute must correspond to a parameter. Parameters can be used in any
-of the ``function`` tags in ``functions`` tag. By changing the value on the text input,
-value of parameter ``a`` will change, and so result of function, that depends on
-parameter ``a``, will also change.
+of the ``function`` tags in ``functions`` tag. By changing the value on the
+text input, value of parameter ``a`` will change, and so result of function,
+that depends on parameter ``a``, will also change.
 
 
 Plot tag
@@ -110,9 +111,9 @@ After processing plot tags will be replaced by Flot JS plot with applied
 HTML tags with ID (dynamic elements)
 ....................................
 
-Any HTML tag with ID, e.g. ``<span id="answer_span_1">`` can be used as a
-place where result of function can be inserted. To insert function result to
-an element, element ID must be included in ``function`` tag as ``el_id`` attribute
+Any HTML tag with ID, e.g. ``<span id="answer_span_1">`` can be used as a place
+where result of function can be inserted. To insert function result to an
+element, element ID must be included in ``function`` tag as ``el_id`` attribute
 and ``output`` value must be ``"element"``::
 
     <function output="element" el_id="answer_span_1">
@@ -132,8 +133,8 @@ The configuration tag contains parameter settings, graph
 settings, and function definitions which are to be plotted on the
 graph and that use specified parameters.
 
-Configuration tag contains two mandatory tag ``functions`` and ``parameters`` and
-may contain another ``plot`` tag.
+Configuration tag contains two mandatory tag ``functions`` and ``parameters``
+and may contain another ``plot`` tag.
 
 
 Parameters tag
@@ -322,15 +323,15 @@ Optional parameters::
 When specifying ``el_id``, it is essential to set "output" to one of
     element - GST will invoke the function, and the return of it will be
               inserted into a HTML element with id specified by ``el_id``.
-    none    - GST will simply invoke the function. It is left to the course 
-              team member who writes the JavaScript function body to update 
-              all necessary HTML elements inside the function before it 
-              exits. This is done so that extra steps can be performed after 
-              an HTML element has been updated with a value. Note that because 
-              the return value from this function is not actually used, it 
-              will be tempting to omit the "return" statement. However, in 
-              this case, the attribute "disable_auto_return" must be set to 
-              "true" in order to prevent GST from inserting a "return" 
+    none    - GST will simply invoke the function. It is left to the course
+              team member who writes the JavaScript function body to update
+              all necessary HTML elements inside the function before it
+              exits. This is done so that extra steps can be performed after
+              an HTML element has been updated with a value. Note that because
+              the return value from this function is not actually used, it
+              will be tempting to omit the "return" statement. However, in
+              this case, the attribute "disable_auto_return" must be set to
+              "true" in order to prevent GST from inserting a "return"
               statement automatically.
     plot_label - GST will process all plot labels (which are strings), and
                  will replace the all instances of substrings specified by
@@ -453,7 +454,7 @@ Optional parameters::
                in a nice graph, however, sometimes you need to fine
                grain the controls. For example, when you want to show
                a fixed area of the Cartesian space, even when the data
-               set changes. On it's own, Flot will recalculate the
+               set changes. On its own, Flot will recalculate the
                ticks, which will result in a different graph each time.
                By specifying the xticks, yticks configurations, only
                the plotted data will change - the axes (ticks) will
@@ -535,6 +536,7 @@ Optional parameters::
 Example
 =======
 
+The following examples are for reference only.
 
 Plotting, sliders and inputs
 ----------------------------
