@@ -1,10 +1,10 @@
 .. _Certificates:
 
-##############################
+#############
 Certificates
-##############################
+#############
 
-This section describes edX certificates and how you access them.
+This topic describes edX certificates and how you access them.
 
 .. contents::
  :local:
@@ -258,11 +258,20 @@ Certificate** in the certificate header.
 To print your certificate in the most professional looking format, note the
 following guidelines.
 
-* Do not print the header or footer. Depending on your system, you might need
-  to clear this option.
+* Print the certificate in landscape orientation. 
 
-* Set the margins to the minimum space available. Depending on your system, you
-  might need to select the **Minimum** option for the margins.
+  To set landscape orientation in Firefox browsers, from the **File** menu,
+  select **Page Setup**. Then select the landscape orientation icon and select
+  **OK**.
+
+* Do not print the header or footer. 
+
+* Set the margins to the minimum space available. 
+
+* Print background graphics.
+
+Depending on your system, you might need to set these options when printing
+your certificate.
 
 
 *************************
