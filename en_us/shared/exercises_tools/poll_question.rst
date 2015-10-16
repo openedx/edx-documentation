@@ -74,8 +74,8 @@ For example, the following XML code enables polls in a course.
 Add a Poll in edX Studio
 ***************************
 
-You must :ref:`enable the poll <Enable the Poll Tool in Studio>` tool before
-you add the component.
+You must :ref:`enable the poll <Enable Additional Exercises and Tools>` tool
+before you add the component.
 
 #. On the Course Outline page, open the unit where you want to add the poll.
 
