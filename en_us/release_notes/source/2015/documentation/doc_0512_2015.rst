@@ -9,7 +9,7 @@ certificate statuses. For more information, see
 :ref:`partnercoursestaff:Interpret the Grade Report`.
 
 ==================================
-edX Platform APIs
+Open edX Platform APIs
 ==================================
 
 * Updated the :ref:`openplatformapi:edX Platform User API` to

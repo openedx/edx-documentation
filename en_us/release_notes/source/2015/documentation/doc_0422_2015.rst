@@ -19,7 +19,7 @@ new column in the tables indicates the level of support that edX provides for
 each exercise or tool.
 
 ==================================
-edX Research Guide
+EdX Research Guide
 ==================================
 
 New columns were added to the ``auth_userprofile`` table and a new

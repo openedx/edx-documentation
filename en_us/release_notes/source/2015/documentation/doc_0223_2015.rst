@@ -1,6 +1,6 @@
 
 =================================
-edX Developer's Guide
+Open edX Developer's Guide
 =================================
 
 This guide now includes a new section containing guidelines and tips for

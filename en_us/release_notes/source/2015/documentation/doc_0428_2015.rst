@@ -10,7 +10,7 @@ Building and Running an edX Course
   profile and account settings information.
 
 ==================================
-edX Platform APIs
+EdX Platform APIs
 ==================================
 
 * Updated the example responses in the :ref:`openplatformapi:edX Platform

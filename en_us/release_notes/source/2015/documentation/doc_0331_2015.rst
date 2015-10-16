@@ -7,7 +7,7 @@ Building and Running an edX Course
   :ref:`partnercoursestaff:Working with Video Components` chapter.
 
 =======================
-edX Guide for Students
+EdX Learner's Guide
 =======================
 
 Added registration and enrollment to :ref:`learners:SFD Mobile`

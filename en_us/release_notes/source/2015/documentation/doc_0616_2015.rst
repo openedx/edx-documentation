@@ -1,6 +1,6 @@
 
 ========================
-EdX Platform APIs
+Open EdX Platform APIs
 ========================
 
 In the *EdX Platform APIs* guide, the :ref:`openplatformapi:edX Platform

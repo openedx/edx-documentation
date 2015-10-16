@@ -1,6 +1,6 @@
 
 ==================================
-edX Research Guide
+EdX Research Guide
 ==================================
 
 The :ref:`data:Tracking Logs` chapter now contains descriptions of these

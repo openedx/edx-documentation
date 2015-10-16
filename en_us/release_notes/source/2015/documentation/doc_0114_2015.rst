@@ -1,6 +1,6 @@
 
 ============================
-edX Enrollment API
+EdX Enrollment API
 ============================
 
  Version 1 of the *Open edX Enrollment API* guide is now available.
