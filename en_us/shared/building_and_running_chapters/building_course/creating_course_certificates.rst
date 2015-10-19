@@ -45,13 +45,13 @@ Certificate Design
 
   The design of certificates for your course, including your institution's
   logo, are configured on your instance of Open edX. For more information, see
-  `Configuring Certificates`_ in *Installing, Configuring, and Running the
-  Open edX Platform*.
+  :ref:`installation:Enable Certificates` in *Installing, Configuring, and
+  Running the Open edX Platform*.
 
 .. only:: Partners
 
   The design of certificates for your course, including your institution's
-  logo, are configured on edx.org by edX.  Contact your Partner Manager for
+  logo, are configured by edX. Contact your Partner Manager for
   more information.
 
 
@@ -85,9 +85,13 @@ To create a certificate for your course, follow these steps.
    new certificate**.
 
 #. Optionally, specify an alternative course title to use on the certificate
-   instead of the official course title. You might want to use a different
-   title on your course certificates if, for example, the official course
-   name is too long to fit well on the certificate.
+   in the **Course Title Override** field. 
+
+   You might want to use a different title on your course certificates if, for
+   example, the official course name is too long to fit on the certificate.
+
+   To specify an alternative course number, see `Set a Course Number
+   Override`_.
 
 #. Add a signatory for each person associated with the course or organization
    whose name and title you want to appear on the certificate, up to a maximum
@@ -155,6 +159,31 @@ To edit a certificate, follow these steps.
    a Certificate>` to make sure it appears as you want it to. You then need to
    :ref:`activate the certificate configuration<Activate a Certificate>`
    before certificates can be issued.
+
+.. _Set a Course Number Override:
+
+******************************
+Set a Course Number Override
+******************************
+
+Optionally, you can specify an alternative course number to use on the
+certificate.
+
+You might want to use a different number on your course certificates if, for
+example, the official course number is meaningful only within your institution.
+
+#. In Studio, select **Settings**, and then **Advanced Settings**.
+
+#. Locate the **Course Number Display String** field. This field contains the
+   course number you set to override the official course number on
+   certificates.
+
+#. Between quotation marks (``" "``), enter the course number you want
+   displayed on certificates.
+
+#. Select **Save Changes**.
+
+   A message lets you know whether your changes were saved successfully.
 
 
 .. _Delete a Certificate:
@@ -327,6 +356,3 @@ manually remove unused images. For information, see
 
   To enable badging for your course if it has previously been disabled, change
   the value of the key to ``True``.
-
-
-.. _Configuring Certificates: http://edx.readthedocs.org/projects/edx-installing-configuring-and-running/en/latest/configuration/enable_certificates.html
