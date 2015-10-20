@@ -1,14 +1,13 @@
 .. _Configuring your Installation as a SAML Service Provider:
 
 ###############################################################
-Configuring your Installation as a SAML Service Provider 
+Configuring your Installation as a SAML Service Provider
 ###############################################################
 
-The first step in configuring your Open edX installation to act as a SAML SP
-(service provider) is to create a credential key pair to ensure secure data
-transfers with identity providers. To complete the configuration procedure, you
-configure your Open edX installation as a SAML service provider which creates
-your metadata XML file.
+The first step in configuring your Open edX installation to act as a SAML SP is
+to create a credential key pair to ensure secure data transfers with identity
+providers. To complete the configuration procedure, you configure your Open edX
+installation as a SAML SP, which creates your metadata XML file.
 
 .. contents::
    :local:
@@ -27,13 +26,83 @@ To generate the keys for your Open edX installation, follow these steps.
 
 #. On your local computer or on the server, open Terminal or a Command Prompt
    and run the following command.
-   
+
    ``openssl req -new -x509 -days 3652 -nodes -out saml.crt -keyout saml.key``
 
-#. Provide information at each prompt. 
-   
+#. Provide information at each prompt.
+
 Two files, ``saml.crt`` and ``saml.key``, are created in the directory where
 you ran the command.
+
+.. _Add Keys to the LMS Configuration File:
+
+**************************************************
+Add Keys to the LMS Configuration File
+**************************************************
+
+.. note:: Configuration settings added to the ``lms.auth.json`` file are reset
+ to their default values when you use Ansible to update edx-platform.
+
+To configure your Open edX installation with your public and private SAML keys,
+follow these steps.
+
+#. Open the ``edx/app/edxapp/lms.auth.json`` file in your text editor.
+
+#. Edit the file to add a section for the SAML keys. For example,
+   ``# SAML KEYS``.
+
+#. In the new section, add the ``SOCIAL_AUTH_SAML_SP_PUBLIC_CERT`` parameter
+   followed by a colon (:), a space, and the YAML literal style indicator (|).
+
+   .. code:: json
+
+    # SAML KEYS
+    SOCIAL_AUTH_SAML_SP_PUBLIC_CERT: |
+
+#. Open the ``saml.crt`` file, copy its entire contents, and then paste them
+   onto the line after the ``SOCIAL_AUTH_SAML_SP_PUBLIC_CERT`` parameter.
+
+   .. code:: json
+
+    # SAML KEYS
+    SOCIAL_AUTH_SAML_SP_PUBLIC_CERT: |
+    -----BEGIN CERTIFICATE-----
+    SWP6P/C1ypaYkmS...
+       ...j9+hjvbBf3szk=
+    -----END CERTIFICATE-----
+
+#. Add the ``SOCIAL_AUTH_SAML_SP_PRIVATE_KEY`` parameter followed by a colon
+   (:), a space, and the YAML literal style indicator (|).
+
+   .. code:: json
+
+    # SAML KEYS
+    SOCIAL_AUTH_SAML_SP_PUBLIC_CERT: |
+    -----BEGIN CERTIFICATE-----
+    SWP6P/C1ypaYkmS...
+       ...j9+hjvbBf3szk=
+    -----END CERTIFICATE-----
+    SOCIAL_AUTH_SAML_SP_PRIVATE_KEY: |
+
+#. Open the ``saml.key`` file, copy its entire contents, and then paste them
+   onto the line after the ``SOCIAL_AUTH_SAML_SP_PRIVATE_KEY`` parameter.
+
+   .. code:: json
+
+    # SAML KEYS
+    SOCIAL_AUTH_SAML_SP_PUBLIC_CERT: |
+    -----BEGIN CERTIFICATE-----
+    SWP6P/C1ypaYkmS...
+       ...j9+hjvbBf3szk=
+    -----END CERTIFICATE-----
+    SOCIAL_AUTH_SAML_SP_PRIVATE_KEY: |
+    -----BEGIN RSA PRIVATE KEY-----
+    W1icmlkZN+FtM5h...
+       ...s/psgLDn38Q==
+    -----END RSA PRIVATE KEY-----
+
+#. Save and close the ``lms.env.json`` file.
+
 
 **************************************************
 Configure your Installation as a Service Provider
@@ -52,21 +121,15 @@ these steps.
 
 #. Enter the following information.
 
-  - **Private key**: Use a text editor to open the ``saml.key`` file, and then
-    copy the RSA private key into this field.
-  
-  - **Public key**: Use a text editor to open the ``saml.crt`` file, and then
-    copy the certificate into this field.
-  
   - **Entity ID**: Enter a URI for the server. To ensure that this value
     uniquely identifies your site, the naming convention that edX recommends is
     to include the server's domain name. For example,
     ``http://saml.mydomain.com/``.
-  
+
   - **Organization Info**: Use the format in the example that follows to
     specify a language and locale code and identifying information for your
     installation.
-    
+
     .. code:: json
 
      {
@@ -78,19 +141,25 @@ these steps.
      }
 
   - **Other config str**: Define the security settings for the IdP metadata
-    files. For more information about the security settings, see the `Python SAML Toolkit`_. An example follows.
-    
+    files. For more information about the security settings, see the
+    `Python SAML Toolkit`_. An example follows.
+
     .. code:: json
 
-     { 
+     {
         "SECURITY_CONFIG": {
-          "signMetadata": false, 
+          "signMetadata": false,
           "metadataCacheDuration": ""
         }
      }
 
-5. Select **Save** at the bottom of the page. You can direct identity providers
-   to ``{your LMS URL}/auth/saml/metadata.xml`` for your metadata file.
+#. Optionally, you can save your public and private keys in the Django
+   administration console. Because this procedure saves your credentials in the
+   database, edX recommends that you use the ``lms.auth.json`` file instead.
+   For more information, see :ref:`Add Keys to the LMS Configuration File`.
+
+#. Select **Save**. You can direct identity providers to
+   ``{your LMS URL}/auth/saml/metadata.xml`` for your metadata file.
 
 *******************************************************
 Ensure that the SAML Authentication Backend is Loaded

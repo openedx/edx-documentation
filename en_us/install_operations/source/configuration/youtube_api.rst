@@ -92,8 +92,8 @@ To set your YouTube API key by editing JSON files, complete the following
 steps.
 
 #. Find the `edx-platform`_ repository on your Open edX server. If you are
-   running Devstack or Fullstack, the directory is ``/edx/app/edxapp/edx-
-   platform``.
+   running Devstack or Fullstack, the directory is
+   ``/edx/app/edxapp/edx-platform``.
 
 #. In the directory *above* your repository, there should be several JSON
    files, including ``lms.auth.json`` and ``cms.auth.json``. If you are running
@@ -102,10 +102,11 @@ steps.
 #. Open the ``lms.auth.json`` file in your text editor.
 
 #. Find the line for the YouTube API key.
+
    ``"YOUTUBE_API_KEY": "PUT_YOUR_API_KEY_HERE",``
 
-   Replace ``PUT_YOUR_API_KEY_HERE`` with your YouTube API key. Ensure
-   that the YouTube API key is within by quotation marks.
+   Replace ``PUT_YOUR_API_KEY_HERE`` with your YouTube API key. Verify
+   that the YouTube API key is between the quotation marks.
 
 #. Save and close the file.
 
