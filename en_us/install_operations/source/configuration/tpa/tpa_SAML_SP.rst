@@ -101,7 +101,7 @@ follow these steps.
        ...s/psgLDn38Q==
     -----END RSA PRIVATE KEY-----
 
-#. Save and close the ``lms.env.json`` file.
+#. Save and close the ``lms.auth.json`` file.
 
 
 **************************************************
