@@ -8,6 +8,13 @@ Change Log
 
    * - Date
      - Change
+   * - 23 October 2015
+     - Updated all topics in :ref:`Configuring the Open edX Platform` to
+       instruct users to modify the ``lms.env.json`` and ``cms.env.json``
+       files, not the corresponding Python files.
+   * -
+     - Removed the instructions to install the Google Drive XBlock, as it is
+       now included by default in the Open edX Platform.
    * - 20 October 2015
      - Added the :ref:`Add Keys to the LMS Configuration File` topic.
    * - 5 October 2015

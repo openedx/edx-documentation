@@ -5,14 +5,14 @@
 Configure the Milestones Application
 ************************************
 
-#. Set the value of ``MILESTONES_APP`` in the ``/cms/envs/common.py`` and
-   ``/lms/envs/common.py`` files to ``True``.
+#. Set the value of ``MILESTONES_APP`` in the ``lms.env.json`` and
+   ``cms.env.json`` files to ``True``.
    
    .. code-block:: bash
 
        # Milestones application flag
        'MILESTONES_APP': True,
 
-#. Save the ``/cms/envs/common.py`` and ``/lms/envs/common.py`` files.
+#. Save the the ``lms.env.json`` and ``cms.env.json`` files.
 
 #. Run database migrations.

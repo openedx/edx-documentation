@@ -4,7 +4,7 @@
 Enabling Course and Video Licensing
 ####################################
 
-This section describes how to enable licensing in your instance of Open edX.
+This topic describes how to enable licensing in your instance of Open edX.
 
 .. contents::
    :local:
@@ -36,10 +36,12 @@ in both Studio and the Learning Management System.
 Enable Licensing in Studio
 *****************************
 
-#. In the edX Platform installation directory, edit the file
-   ``/cms/envs/common.py``
+To enable licensing, you modify the ``lms.env.json`` and
+``cms.env.json`` files, which are located one level above the ``edx-platform``
+directory.
 
-#. In the ``FEATURES`` dictionary, add ``'LICENSING':True``:
+#. In the ``lms.env.json`` and ``cms.env.json`` files, in the ``FEATURES``
+   dictionary, add ``'LICENSING':True``:
    
    .. code-block:: bash
 
@@ -47,23 +49,6 @@ Enable Licensing in Studio
           'LICENSING': True,
           . . .
 
-#. Save the ``/cms/envs/common.py`` file.
-   
-**********************************************************
-Enable Licensing in the Learning Management System
-**********************************************************
-
-#. In the edX Platform installation directory, edit the file
-   ``/lms/envs/common.py``
-
-#. In the ``FEATURES`` dictionary, add ``'LICENSING':True``:
-   
-   .. code-block:: bash
-
-      FEATURES = {
-          'LICENSING': True,
-          . . .
-
-#. Save the ``/lms/envs/common.py`` file.
+#. Save the ``lms.env.json`` and ``cms.env.json`` files.
 
 .. include:: ../../../links/links.rst

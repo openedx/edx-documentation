@@ -4,7 +4,7 @@
 Setting Up the YouTube API Key
 ###############################
 
-This section describes how to set the YouTube API key for your instance of
+This topic describes how to set the YouTube API key for your instance of
 Open edX.
 
 .. contents::

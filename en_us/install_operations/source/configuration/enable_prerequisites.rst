@@ -4,7 +4,7 @@
 Enabling Course Prerequisites
 #############################
 
-This section describes how to enable course prerequisites in your instance of
+This topic describes how to enable course prerequisites in your instance of
 Open edX.
 
 .. contents::
@@ -35,15 +35,19 @@ Open edX Course* and *Open edX Learner's* guides.
 Enable Prerequisite Courses in Studio and the Learning Management System
 *************************************************************************
 
+To enable prerequisite courses, you modify the ``lms.env.json`` and
+``cms.env.json`` files, which are located one level above the ``edx-platform``
+directory.
+
 #. Set the value of ``ENABLE_PREREQUISITE_COURSES`` in the
-   ``/cms/envs/common.py`` and ``/lms/envs/common.py`` files to ``True``.
+   ``lms.env.json`` and ``cms.env.json`` files to ``True``.
 
    .. code-block:: python
 
        # Prerequisite courses feature flag
        'ENABLE_PREREQUISITE_COURSES': True,
 
-#. Save the the ``/cms/envs/common.py`` and ``/lms/envs/common.py`` files.
+#. Save the the ``lms.env.json`` and ``cms.env.json`` files.
 
 .. include:: ../../../links/links.rst
 

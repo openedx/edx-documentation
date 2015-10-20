@@ -4,7 +4,7 @@
 Enabling Certificates
 #######################
 
-This section describes how to enable certificates in your instance of Open edX.
+This topic describes how to enable certificates in your instance of Open edX.
 
 .. contents::
    :local:
@@ -32,19 +32,24 @@ configuration tasks described in this topic.
 Enable Certificates in Studio and the Learning Management System
 *****************************************************************
 
-#. In the ``/cms/envs/common.py`` and ``/lms/envs/common.py`` files, set the
-   value of ``CERTIFICATES_HTML_VIEW``  to ``True``.
+To enable certificates, you modify the ``lms.env.json`` and
+``cms.env.json`` files, which are located one level above the ``edx-platform``
+directory.
+
+#. In the ``lms.env.json`` and ``cms.env.json`` files, set the value of
+   ``CERTIFICATES_HTML_VIEW``  to ``True``.
 
    .. code-block:: bash
 
      # Certificates Web/HTML Views
      'CERTIFICATES_HTML_VIEW': True,
 
-#. Save the ``/cms/envs/common.py`` and ``/lms/envs/common.py`` files.
+#. Save the ``lms.env.json`` and ``cms.env.json`` files.
 
-#. If it does not exist already, create the folder ``/tmp/certificates`` owned by
-   the user and group ``www-data``. Depending on your configuration, this folder 
-   might not survive reboots, and so might need to be created by script.
+#. If it does not exist already, create the folder ``/tmp/certificates`` owned
+   by the user and group ``www-data``. Depending on your configuration, this
+   folder might not survive reboots, and so might need to be created by a
+   script.
 
 #. Run database migrations.
 
