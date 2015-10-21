@@ -4,7 +4,7 @@
 Recommender
 ##################
 
-.. note:: EdX offers full support for this tool.
+.. note:: EdX offers provisional support for this tool.
 
 The Recommender provides learners with a list of online resources related to
 the course content. These resources are jointly managed by course team members
