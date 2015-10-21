@@ -23,10 +23,10 @@ October 2015
    * - Date
      - Change
    * - 21 October 2015
-     - Added information to the :ref:`PA Allow Images` topic about specifying
-       additional file types for learners to upload.
-   * -
      - Added the :ref:`Oppia Exploration Tool` topic.
+   * -
+     - Added information about specifying additional file types for learners to
+       upload to the :ref:`PA Allow Images` topic.
    * - 14 October 2015
      - Added a note with support information to the beginning of each exercise
        or tool topic.
