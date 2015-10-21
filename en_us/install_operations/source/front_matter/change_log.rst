@@ -8,9 +8,6 @@ Change Log
 
    * - Date
      - Change
-   * - 21 October 2015
-     - Added the :ref:`Configuring ORA2 to Prohibit Submission of File Types`
-       section.
    * - 20 October 2015
      - Added the :ref:`Add Keys to the LMS Configuration File` topic.
    * - 5 October 2015
