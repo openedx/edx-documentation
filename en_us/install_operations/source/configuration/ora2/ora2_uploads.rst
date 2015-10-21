@@ -1,8 +1,10 @@
+.. include:: ../../../../links/links.rst
+
 .. _Configuring ORA2 to Upload Files to Alternative Storage Systems:
 
-################################################################
+###############################################################
 Configuring ORA2 to Upload Files to Alternative Storage Systems
-################################################################
+###############################################################
 
 By default, the Open Response Assessment (ORA2) application stores files that
 learners upload in an Amazon S3 bucket.
@@ -31,4 +33,3 @@ must complete the following steps.
 
 .. to do - used shared file with cypress release notes
 
-.. include:: ../../../links/links.rst
