@@ -182,7 +182,7 @@ General Exercises and Tools
        course team and students to work together to maintain the list of
        resources. For example, team members and students can suggest new
        resources, vote for useful ones, or flag abuse and spam.
-     - Provisional support
+     - Full support
 
 ********************************
 Image-Based Exercises and Tools
