@@ -27,6 +27,9 @@ October 2015
    * -
      - Added information about specifying additional file types for learners to
        upload to the :ref:`PA Allow Images` topic.
+   * - 
+     - Added the section :ref:`Set a Course Number Override`.
+
    * - 14 October 2015
      - Added a note with support information to the beginning of each exercise
        or tool topic.
