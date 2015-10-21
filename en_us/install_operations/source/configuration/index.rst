@@ -23,4 +23,5 @@ configuration options.
    tpa/index
    lti/index
    youtube_api
-   ora2/index
+   ora2_uploads
+
