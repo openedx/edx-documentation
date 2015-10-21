@@ -13,14 +13,14 @@ Building and Running an edX Course
   that the visual editor is not supported for course handouts.
 
 ==================================
-edX Research Guide
+EdX Research Guide
 ==================================
 
 Updated information is available for video events that the edX mobile app
 emits. See the :ref:`data:Tracking Logs` chapter.
 
 ======================================
-edX Data Analytics API
+EdX Data Analytics API
 ======================================
 
 The initial, version 0 Alpha of the :ref:`opendataapi:Open edX Data Analytics

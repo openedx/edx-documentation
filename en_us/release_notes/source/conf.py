@@ -12,7 +12,7 @@ html_theme_path = ['../../_themes']
 html_favicon = '../../_themes/edx_theme/static/css/favicon.ico'
 
 # General information about the project.
-project = u'edX Release Notes'
+project = u'EdX Release Notes'
 
 #remove directory when content is first added to it, and add to index
 exclude_patterns = ['links.rst', 'reusables/*', '2015/analytics/*2015.rst', 

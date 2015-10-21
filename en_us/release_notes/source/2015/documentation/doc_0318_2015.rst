@@ -10,7 +10,7 @@ Building and Running an edX Course
   available in the "Creating Exercises and Tools" chapter.
 
 ==================================
-edX Research Guide
+EdX Research Guide
 ==================================
 
 The :ref:`data:Tracking Logs` chapter now includes events for student

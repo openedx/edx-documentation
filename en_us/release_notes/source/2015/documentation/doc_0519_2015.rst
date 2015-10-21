@@ -7,7 +7,7 @@ This guide includes many changes in the past week. For details, see the
 :ref:`partnercoursestaff:Change Log for 2015`.
 
 ==================================
-edX Research Guide
+EdX Research Guide
 ==================================
 
 * This guide includes updated descriptions of the ``pause_video``,
@@ -21,7 +21,7 @@ edX Research Guide
   * :ref:`data:edx.instructor.report.requested`
 
 ==================================
-edX Data Analytics API
+EdX Data Analytics API
 ==================================
 
 This guide now includes information on the :ref:`opendataapi:Video Data API`.

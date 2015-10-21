@@ -8,7 +8,7 @@ The following documentation is available for edX Partners.
 
 * :ref:`learners:edX Learner's Guide`
 
-* :ref:`insights:Overview`
+* :ref:`insights:Using edX Insights`
 
 * :ref:`data:edX Research Guide`
 

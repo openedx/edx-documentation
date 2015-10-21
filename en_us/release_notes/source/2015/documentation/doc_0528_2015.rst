@@ -7,7 +7,7 @@ The new :ref:`partnercoursestaff:Licensing a Course` topic provides information
 about course licensing options.
 
 ==================================
-edX Guide for Students
+EdX Learner's Guide
 ==================================
 
 The new :ref:`learners:Course and Video Licenses` topic describes the visual

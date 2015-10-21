@@ -153,6 +153,8 @@
 
 .. THIRD PARTY LINKS
 
+.. _Oppia XBlock: https://github.com/oppia/xblock
+
 .. _Durham University Alt Text Checker: https://www.dur.ac.uk/cis/web/accessibility/tools/alttext/
 
 .. _Web Accessibility Evaluation Tool: http://wave.webaim.org/

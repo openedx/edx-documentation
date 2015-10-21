@@ -8,7 +8,7 @@ Building and Running an edX Course
 The :ref:`partnercoursestaff:Working with Video Components` section now
 includes an :ref:`partnercoursestaff:Adding a Pre-Roll Video` topic.
 
-edX Research Guide
+EdX Research Guide
 **********************************
 
 * The new :ref:`data:pre-roll` topic describes the
@@ -77,7 +77,7 @@ Open edX Learner's Guide
   highlight and make notes about course content.
 
 ========================
-EdX Platform APIs
+Open EdX Platform APIs
 ========================
 
 A new section of the *EdX Platform APIs* guide is now available for the
