@@ -17,9 +17,9 @@ explorations in your course.
   :depth: 2
 
 Before you make content from an external site available through your course, be
-sure to review the content to ensure that it is accessible. For more
-information, see :ref:`Accessibility Best Practices for Course Content
-Development`.
+sure to review the content to ensure that it is accessible to people with
+disabilities. For more information, see :ref:`Accessibility Best Practices for
+Course Content Development`.
 
 *********
 Overview

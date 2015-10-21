@@ -16,6 +16,14 @@ specifications.
    :local:
    :depth: 2
 
+Before you make tools from an external site available through your course, be
+sure to review the tools to ensure that they are accessible to people with
+disabilities. For example, in addition to testing the LTI components that you
+add to your course, you can ask third party providers to confirm that a tool is
+accessible, and, if available, contact your on campus accessibility support
+services for additional guidance. For more information, see :ref:`Accessibility
+Best Practices for Course Content Development`.
+
 *********************
 Overview
 *********************
