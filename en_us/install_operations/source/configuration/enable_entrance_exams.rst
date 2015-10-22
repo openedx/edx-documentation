@@ -4,7 +4,7 @@
 Enabling Entrance Exams
 ########################
 
-This section describes how to enable entrance exams in your instance of Open
+This topic describes how to enable entrance exams in your instance of Open
 edX.
 
 .. contents::
@@ -34,15 +34,18 @@ Open edX Course* and *Open edX Learner's* guides.
 Enable Entrance Exams in Studio and the Learning Management System
 *************************************************************************
 
-#. Set the value of ``ENTRANCE_EXAMS`` in the
-   ``/cms/envs/common.py`` and ``/lms/envs/common.py`` files to ``True``.
+To enable entrance exams, you modify the ``lms.env.json`` and
+``cms.env.json`` files, which are located one level above the ``edx-platform``
+directory.
+
+#. Set the value of ``ENTRANCE_EXAMS`` in the ``lms.env.json`` and
+   ``cms.env.json`` files to ``True``.
    
    .. code-block:: bash
 
      # Entrance exams feature flag
      'ENTRANCE_EXAMS': True,
 
-#. Save the ``/cms/envs/common.py`` and ``/lms/envs/common.py`` files.
+#. Save the ``lms.env.json`` and ``cms.env.json`` files.
 
 .. include:: ../../../links/links.rst
-

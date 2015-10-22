@@ -11,7 +11,6 @@ configuration options.
    :maxdepth: 2
 
    updating_platform
-   install_google_drive
    enable_prerequisites
    enable_entrance_exams
    enable_licensing

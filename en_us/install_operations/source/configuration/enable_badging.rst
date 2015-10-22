@@ -4,7 +4,7 @@
 Enabling Badging
 ##################
 
-This section describes how to enable badging in your instance of Open edX.
+This topic describes how to enable badging in your instance of Open edX.
 
 .. contents::
    :local:
@@ -68,7 +68,11 @@ For information about issuing Open Badges, see https://wiki.mozilla.org/Badges
 Enable Badges in Studio and the Learning Management System
 *****************************************************************
 
-#. In the ``/cms/envs/common.py`` and ``/lms/envs/common.py`` files, set the
+To enable badges, you modify the ``lms.env.json`` and
+``cms.env.json`` files, which are located one level above the ``edx-platform``
+directory.
+
+#. In the ``lms.env.json`` and ``cms.env.json`` files, set the
    value of ``ENABLE_OPENBADGES``  to ``True``.
 
    .. code-block:: bash
@@ -76,7 +80,7 @@ Enable Badges in Studio and the Learning Management System
      # Enable OpenBadge support. See the BADGR_* settings later in this file.
      'ENABLE_OPENBADGES': True,
 
-#. In ``/lms/envs/common.py``, set the values for the following parameters.
+#. In ``lms.env.json``, set the values for the following parameters.
   
    * ``BADGR_API_TOKEN`` - a string containing the API token for the Badgr
      superuser account. Obtain the token from the /v1/user/auth-token page
@@ -101,7 +105,7 @@ Enable Badges in Studio and the Learning Management System
      BADGR_ISSUER_SLUG = "test-issuer"
 
 
-#. Save the ``/cms/envs/common.py`` and ``/lms/envs/common.py`` files.
+#. Save the ``lms.env.json`` and ``cms.env.json`` files.
 
 #. Run database migrations.
 
@@ -151,4 +155,3 @@ on again using an advanced setting in Studio. For details, see
 edX Course*.
 
 .. include:: ../../../links/links.rst
-
