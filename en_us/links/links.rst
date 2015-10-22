@@ -41,7 +41,9 @@
 
 .. _edx-analytics-configuration: https://github.com/edx/edx-analytics-configuration
 
+
 .. _edX Partner Support: https://partners.edx.org/edx_zendesk
+
 
 .. _edX pattern library: http://ux.edx.org/elements/colors/
 
