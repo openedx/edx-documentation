@@ -25,7 +25,6 @@ teams, and developers.  See the Open edX Release Notes for more details.
  There are several new features in the Birch release that are available, but
  not configured in new installations.  For details, see the following topics.
 
- * :ref:`Add the Google Drive and Google Calendar XBlock`.
  * :ref:`Enable Course Prerequisites`
  * :ref:`Enable Entrance Exams`
 
