@@ -4,6 +4,16 @@
 The edX Mobile App
 ########################
 
+This topic describes how to use the mobile app to take edX courses.
+
+.. contents::
+  :local:
+  :depth: 1
+
+********************************************************
+Overview of the edX Mobile App
+********************************************************
+
 .. The following paragraph describes the features of the edX mobile app for partners/edx.org (video only)
 .. Alison, DOC-1840, June 2015
 
@@ -27,12 +37,8 @@ The edX Mobile App
   assignments. To complete an entire course, you use a web browser on a
   computer.
 
-The is currently an edX mobile app for Android smartphones and another for
+There is currently an edX mobile app for Android smartphones and another for
 iPhones.
-
-.. contents::
-  :local:
-  :depth: 1
 
 .. The following general Q&A applies to the edX mobile app for partners/edx.org only
 .. Alison, DOC-1840, June 2015
@@ -276,7 +282,4 @@ connection and then try to view or download the video again.
 If problems persist, let us know. On the **My Courses** page, select the
 "menu" icon, and then select **Submit Feedback**.
 
-
-.. _Google Play: https://play.google.com/store/apps/details?id=org.edx.mobile
-.. _App Store: https://itunes.apple.com/us/app/edx/id945480667?mt=8
-.. _edx.org: https://edx.org
+.. include:: ../../links/links.rst

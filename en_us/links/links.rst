@@ -16,6 +16,13 @@
 
 .. _edX Demo course: https://www.edx.org/course/edx/edx-edxdemo101-edx-demo-1038
 
+.. _information about open response assessments: https://courses.edx.org/courses/edX/DemoX.1/2014/courseware/70a1e3505d83411bb72393048ac4afd8/1e5cd9f233a2453f83731ccbd863b731/
+
+.. _example peer assessment: https://courses.edx.org/courses/edX/DemoX.1/2014/courseware/70a1e3505d83411bb72393048ac4afd8/1e5cd9f233a2453f83731ccbd863b731/2
+
+.. _Videos on edX: https://courses.edx.org/courses/edX/DemoX.1/2014/courseware/0af8db2309474971bfa70cda98668a30/ec 3364075f2845baa625bfecd5970410/2
+
+
 .. _edX Edge: http://edge.edx.org
 
 .. _Studio: https://studio.edge.edx.org
@@ -157,6 +164,17 @@
 
 
 .. THIRD PARTY LINKS
+
+.. _Google Play: https://play.google.com/store/apps/details?id=org.edx.mobile
+.. _App Store: https://itunes.apple.com/us/app/edx/id945480667?mt=8
+
+.. _Creative Commons website: http://creativecommons.org/licenses
+
+.. _Time and Date Time Zone Converter: http://www.timeanddate.com/worldclock/converter.html
+
+.. _Time Zone Converter: http://www.timezoneconverter.com/cgi-bin/tzc.tzc
+
+.. _Google Calendar website: https://www.google.com/calendar
 
 .. _Oppia XBlock: https://github.com/oppia/xblock
 

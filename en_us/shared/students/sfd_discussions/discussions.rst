@@ -1,8 +1,8 @@
 .. _Course Discussions:
 
-####################
-Course Discussions
-####################
+#######################################
+Introduction to Course Discussions
+#######################################
 
 Course discussions give you the opportunity to start conversations with other
 students, ask questions that other students or the course team can answer, and
@@ -20,4 +20,3 @@ participation more effective:
 * :ref:`Keep Up with New Activity`
 
 * :ref:`Provide Feedback`
-

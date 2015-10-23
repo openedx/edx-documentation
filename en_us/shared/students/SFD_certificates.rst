@@ -213,8 +213,7 @@ course name on your dashboard.
   will be available shortly.
 
 When your certificate is ready, your dashboard shows your final grade as well
-as a link to your certificate. You can access either a `web-based <Web
-Certificates>`_ or `PDF-based <PDF Certificates>`_ certificate.
+as a link to your certificate. You can access either a web or PDF certificate.
 
 *************************
 Web Certificates
