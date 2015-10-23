@@ -1,29 +1,40 @@
 .. _Math Formatting:
 
-#####################################################################
+################################################
 Entering Mathematical and Scientific Expressions
-#####################################################################
+################################################
 
-For some math, science, and other problems, you'll enter a numerical or math
-expression, such as a formula, into a response field. You enter your response as
-plain text, and the edX system then converts your text into numbers and symbols
-that appear below the response field.
+This topic describes how to enter mathematical and scientific expressions for
+problems in your edX course.
+
+.. contents::
+  :local:
+  :depth: 1
+
+********************************************************
+Overview of Mathematical and Scientific Expressions
+********************************************************
+
+For some math, science, and other problems, you must enter a numerical or math
+expression, such as a formula, into a response field. You enter your response
+as plain text, and the edX system then converts your text into numbers and
+symbols that appear below the response field.
 
 .. image:: ../../shared/students/Images/Math5.png
  :width: 150
- :alt: Image of a numerical input probem rendered by the parser
+ :alt: Image of a numerical input probem rendered by the parser.
 .. image:: ../../shared/students/Images/Math3.png
  :width: 150
- :alt: Image of a numerical input probem rendered by the parser
+ :alt: Image of a numerical input probem rendered by the parser.
 .. image:: ../../shared/students/Images/Math2.png
  :width: 150
- :alt: Image of a numerical input probem rendered by the parser
+ :alt: Image of a numerical input probem rendered by the parser.
 .. image:: ../../shared/students/Images/Math1.png
  :width: 150
- :alt: Image of a numerical input probem rendered by the parser
+ :alt: Image of a numerical input probem rendered by the parser.
 .. image:: ../../shared/students/Images/Math4.png
  :width: 150
- :alt: Image of a numerical input probem rendered by the parser
+ :alt: Image of a numerical input probem rendered by the parser.
 
 Additionally, some edX courses offer a calculator tool that you can use while
 you work through the course. If the course has a calculator, the calculator
@@ -31,14 +42,14 @@ appears as a small icon on all courseware pages.
 
 .. image:: ../../shared/building_and_running_chapters/Images/Calc_Closed.png
   :width: 600
-  :alt: Courseware page with an arrow pointing to the calculator
+  :alt: Courseware page with an arrow pointing to the calculator.
 
-To use the calculator, select the calculator icon. To close the calculator, select the X just above the
-calculator.
+To use the calculator, select the calculator icon. To close the calculator,
+select the X.
 
 .. image:: ../../shared/building_and_running_chapters/Images/Calc_Open.png
   :width: 600
-  :alt: Courseware page with the calculator visible along the edge of the browser
+  :alt: Courseware page with the calculator visible along the edge of the browser.
 
 ****************************
 Entering Math Expressions
@@ -56,7 +67,7 @@ system if you have used math programs before.
 
   .. image:: ../../shared/building_and_running_chapters/Images/Calc_Open_InfoPage.png
     :width: 600
-    :alt: Courseware page with the calculator visible and showing the information page
+    :alt: Courseware page with the calculator visible and showing the information page.
 
 When you enter your plain text into the calculator or the response field,
 follow these guidelines.
@@ -72,20 +83,29 @@ follow these guidelines.
   operations and to make your expression as clear as possible. Use curved
   parentheses (``( )``) only. Do not use brackets (``[ ]``) or braces (``{
   }``).
+
 * **Exponents or superscripts**: Insert a caret (^) before an exponent or
   superscript. If the exponent or superscript includes multiple characters or
   is an expression, surround the expression with parentheses. For example, you
   can enter ``x^n`` or ``x^(n-1)``.
+
 * **Subscripts**: Insert an underscore (_) before a subscript to indicate a
   subscript. If the subscript has multiple characters, type the characters
   without a space. For example, you can enter ``v_IN-v_OUT``. Note, however,
   that subscripts cannot currently include operators or parentheses.
+
 * Avoid whitespace.
+
 * Don't use equal signs (=).
+
 * Because the system is case-sensitive, make sure you use uppercase and
   lowercase letters carefully.
 
 For more information about the types of characters you can use, see below.
+
+.. contents::
+  :local:
+  :depth: 1
 
 .. note:: The edX system accepts both constants and metric affixes. Be 
   careful to distinguish between constants and metric affixes. Constants stand
@@ -111,10 +131,10 @@ Numbers
 
 You can use the following types of numbers:
 
-- Integers: 2520
-- Fractions: 2/3
-- Normal floats: 3.14
-- Floats with no integer part: .98
+* Integers: 2520
+* Fractions: 2/3
+* Normal floats: 3.14
+* Floats with no integer part: .98
 
 The largest number you can use is **1.7977e+308**, which is the largest float
 possible in the Python programming language. 
@@ -130,7 +150,8 @@ very small numbers. For scientific notation, you can type either a caret (^) or
 the letter ``e`` followed by a number to indicate an exponent. You can use both
 positive and negative exponents.
 
-For example, to indicate ``0.012``, you can enter either of the following expressions:
+For example, to indicate ``0.012``, you can enter either of the following
+expressions:
 
 * ``1.2^-2``
 * ``1.2e-2``
@@ -218,7 +239,6 @@ You can use several different constants in your mathematical expressions.
   ``2c`` and ``-4*i`` instead of ``-4i``.
 
 .. Should I include another example in the note?
-
 
 .. list-table::
   :widths: 10 60
@@ -340,6 +360,9 @@ You can use the following functions:
 
 * Factorials: Enter factorials as ``fact(3)`` or ``factorial(3)``. You must use
   integers. For example, you can't enter ``fact(1.5)``.
+
 * A "parallel resistors" operator (``||``). For example, ``1 || 2`` represents
   the resistance of a pair of parallel resistors (of resistance 1 and 2 ohms),
   evaluating to 2/3 (ohms).
+
+.. include:: ../../links/links.rst

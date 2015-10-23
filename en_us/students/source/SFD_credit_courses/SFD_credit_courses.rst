@@ -4,6 +4,16 @@
 Academic Course Credit
 #########################
 
+This topic describes taking an edX course for academic credit.
+
+.. contents:: 
+  :local:
+  :depth: 1
+
+******************************
+Overview of Academic Credit
+******************************
+
 Some edX courses allow you to purchase academic credit that you can apply
 toward a degree at a college or university. When a course offers academic
 credit, you see an "Earn Credit" indication for the course in the edX list of
@@ -18,11 +28,6 @@ verifying your identity several times during your course or taking proctored
 exams. After you meet the requirements, you can purchase academic credit for a
 specific time after the course ends (usually one year).
 
-For more information, see the following sections.
-
-.. contents:: 
-  :local:
-  :depth: 1
 
 *****************************
 Enroll for Academic Credit
@@ -32,6 +37,7 @@ To receive academic credit for a course, you must enroll in the verified track
 for the course. 
 
 For more information about enrolling, see :ref:`SFD Enrolling in a Course`.
+
 
 *****************************
 Complete Identity Checks
@@ -50,8 +56,7 @@ reverification inside the course and proctored exams.
   similar to the way you verified your identity at the beginning of the
   course. You must use a computer that has a webcam to reverify your identity.
 
-  For more information, see :ref:`SFD In Course Identity
-  Reverification`.
+  For more information, see :ref:`SFD In Course Identity Reverification`.
 
 * Proctored exams are exams that use both time limits and online proctoring
   software. To pass a proctored exam, you must receive both a passing grade
@@ -103,12 +108,10 @@ To purchase academic credit, follow these steps.
    purchase credit from appears, and then select **Checkout** or **Checkout
    with PayPal**.
 
-.. Yes, I know the last two instances of "Checkout" should be "Check Out".
-.. Long story.
-
-3. Follow the instructions to complete the payment process. When the payment
+#. Follow the instructions to complete the payment process. When the payment
    process is complete, a confirmation page opens, and you receive an email
    message.
+
 #. On the payment confirmation page, a notification informs you if the
    organization requires you to complete additional steps to receive credit.
    If the organization has additional requirements, select **Complete Credit**
@@ -121,4 +124,3 @@ email that indicates whether you have received academic credit for the course.
 
 If you do not receive credit for the course, contact the organization that
 issues the credit directly.
-
