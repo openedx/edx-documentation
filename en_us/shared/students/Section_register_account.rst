@@ -1,9 +1,9 @@
 #. Optionally, select one of your existing accounts.
 
-   * On edx.org, you can select your Facebook or Google account.
+   * On `edx.org`_, you can select your Facebook or Google account.
 
-   * On Edge, you can select your Facebook or Google account, or use your
-     credentials for a campus or institution account.
+   * On `edX Edge`_, you can select your Facebook or Google account, or use
+     your credentials for a campus or institution account.
 
    These options link your new edx.org or Edge account to the account you have
    with the selected signin partner. After your accounts are linked, whenever
@@ -24,9 +24,11 @@
 #. In the activation email message, select the link to complete the activation.
    Your browser opens to an "Activation Complete" page that contains a link to
    your dashboard.
-   
+
    If you chose to link your account to an account with a signin partner, this
    email activation step might not be required.
 
 You can modify your account information, reset your password, and link or
-unlink accounts on the :ref:`account settings<SFD Account Settings>` page. 
+unlink accounts on the :ref:`account settings<SFD Account Settings>` page.
+
+.. include:: ../../links/links.rst

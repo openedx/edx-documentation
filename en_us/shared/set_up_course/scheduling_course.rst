@@ -10,6 +10,9 @@ This section describes how to schedule your course in Studio.
    :local:
    :depth: 1
 
+For information about providing other information for your course, see
+:ref:`Setting Details About Your Course`.
+
 **********
 Overview
 **********
@@ -17,55 +20,34 @@ Overview
 The start and end dates you set for your course and for course enrollment are
 important for prospective and current learners. As soon as enrollment starts,
 prospective learners can see your course in the course catalog, view the
-course About page, and enroll in the course. Current learners see your course
-start or end date on their dashboards.
+course **About** page, and enroll in the course. Current learners see your
+course start or end date on their dashboards.
 
-.. _View Start and End Dates:
+.. only:: Partners
 
-***************************************
-View Start and End Dates as a Learner
-***************************************
-
-.. or "The Learner View of Start and End Dates"?
-
-Your course start date is visible to both prospective and current learners if
-the course has not started or is in progress. The course end date is visible
-to enrolled learners after the course ends.
-
-Learners who have not yet enrolled in your course see the course start date on
-the About page (sometimes also called the course summary page).
-
-.. image:: ../../../shared/images/about-page-course-start.png
- :alt: The course About page, showing the start date.
- :width: 600
-
-Learners who enroll in your course see the start or end date for your course on
-their dashboards, depending on whether the course has ended. If the course
-has not started or is in progress, learners see the start date. If the course
-has ended, learners see the course end date.
-
-.. image:: ../../../shared/images/dashboard-course-start-and-end.png
- :alt: The student dashboard with one course not started, one in progress, and one ended.
- :width: 600
+   .. note:: Only edX staff members can define the enrollment dates for
+    courses on edx.org.
 
 .. _Determine Start and End Dates:
 
 *******************************************
-Determine Start and End Dates
+Determining Start and End Dates
 *******************************************
 
-EdX recommends that you consider your course and enrollment start and end
-dates carefully. After you determine the dates for your course, you set these
-dates and times on the **Schedule & Details** page in Studio. EdX recommends
-that you verify all important dates in Studio one week before you plan to
-start the course.
+EdX recommends that you consider your course start and end dates, and its
+enrollment start and end dates, carefully. After you determine the dates for
+your course, you set these dates and times on the **Schedule & Details** page
+in Studio. EdX recommends that you verify all important dates in Studio one
+week before you plan to start the course.
+
+.. contents::
+  :local:
+  :depth: 1
 
 .. only:: Partners
 
-  .. note::
-    For courses on edX.org, you must communicate the course start and end dates
-    and times to your edX partner manager to ensure the information is accurate
-    on the course About page.
+   .. note:: Only edX staff members can define the enrollment dates for
+    courses on edx.org.
 
 ============================
 Course Start Date and Time
@@ -91,7 +73,7 @@ topics as soon as they enroll in your course. For more information, see
 .. note::
   You can set a different advertised start date for your course. You might
   want to do this if there is uncertainty about the exact start date. For
-  example, you could advertise the start date as Spring 2015. For more
+  example, you could advertise the start date as "Coming Soon". For more
   information, see :ref:`Advertise a Different Start Date`.
 
 ============================
@@ -126,11 +108,12 @@ the course. Ensure that the enrollment end date is late enough to allow
 learners adequate time to enroll. The enrollment end date cannot be later than
 the course end date.
 
-.. important::
-  For partner courses on edx.org, when the enrollment end date passes,
-  the course is no longer listed in the course catalog. EdX encourages you to
-  keep enrollment open as long as possible. For more information, contact your
-  edX partner manager.
+.. only:: Partners
+
+  .. important::
+    For partner courses running on edx.org, when the enrollment end date
+    passes, the course is no longer listed in the course catalog. EdX
+    encourages you to keep enrollment open as long as possible.
 
 .. _Set Start and End Dates:
 
@@ -138,23 +121,23 @@ the course end date.
 Set Course and Enrollment Dates and Times
 *******************************************
 
-You set dates and times for the course and for course enrollment in Studio.
+To set dates and times for the course and for course enrollment in Studio,
+follow these steps.
 
-#. From the **Settings** menu, select **Schedule and Details**.
+#. From the **Settings** menu, select **Schedule & Details**.
 
-#. Locate the **Course Schedule** section of the **Schedule & Details** page,
-   and replace the placeholder dates and times with your own information.
+#. In the **Course Schedule** section, replace the placeholder dates and times
+   with your own information.
 
-   When you make changes, a **Save Changes** button appears in the lower right
-   corner of the page.
+   When you make changes on this page, a panel with options to save or cancel
+   your work appears.
 
-#. When you finish entering your dates and times, select **Save Changes**.
+#. Select **Save Changes**.
 
 .. note:: The times that you set, and the times that learners see, are in
  Coordinated Universal Time (UTC). You might want to verify that you have
  specified the times that you intend by using a time zone converter such as
- `Time and Date Time Zone Converter
- <http://www.timeanddate.com/worldclock/converter.html>`_
+ `Time and Date Time Zone Converter`_.
 
 EdX recommends that you verify that all important dates are correct one week
 before you plan to start the course.
@@ -166,30 +149,76 @@ Advertise a Different Start Date
 ====================================
 
 You can advertise a start date for your course that is different from the
-course start date you set in the **Schedule and Details** page. You might want
-to do this if there is uncertainty about the exact start date. For example, you
-could advertise the start date as **Spring, 2015**.
+course start date you set in the **Schedule & Details** page. You might want
+to do this if there is uncertainty about the exact start date.
+
+You can enter a specific date or a description. For example, you could
+advertise the start date as either "10/15/2016" or "Anytime, self-paced".
 
 To set an advertised start date in Studio, follow these steps.
 
 #. From the **Settings** menu, select **Advanced Settings**.
-#. Find the **Course Advertised Start Date** policy key. The default value is
-   **null**.
-#. Enter the value you want to display as the advertised start date. You can
-   use any string, enclosed in double quotation marks. If you format the string
-   as a date (for example, as 02/01/2015), the value is parsed and presented to
-   learners as as a date.
 
-   .. image:: ../../../shared/images/advertised_start.png
-     :alt: Image of the advertised start date policy key with a value of "anytime, self-paced".
-     :width: 600
+#. Locate the **Course Advertised Start Date** field. The default value is
+   ``null``.
 
-#. Select **Save Changes** at the bottom of the page.
+#. Enter the start date that you want learners to see for your course.
 
-Learners now see the value of the **Course Advertised Start Date** policy key
-as the course start date on their dashboards.
+   A date value entered in MM/DD/YYYY format appears to learners in DD Mon YYYY
+   format. For example, 10/15/2016 appears as 15 Oct 2016
 
-If you do not change the default course start date (01/01/2030), and the
-**Course Advertised Start Date** policy value is ``null``, then the
-dashboard does not list a start date for the course. Learners just see that
-the course has not yet started.
+#. Add quotation marks (``" "``) before and after the start date value. An
+   example follows.
+
+   ::
+
+     "Anytime, self-paced"
+
+#. Select **Save Changes**.
+
+   A message lets you know whether your changes were saved successfully.
+
+.. note:: If you do not change the default course start date (01/01/2030),
+ and the **Course Advertised Start Date** policy value is ``null``, then no
+ start date appears for the course. Learners just see that the course has not
+ yet started.
+
+.. _View Start and End Dates:
+
+***************************************
+View Start and End Dates as a Learner
+***************************************
+
+Learners can view the start date for a course on the course **About** page,
+and, after they enroll in the course, on their dashboard.
+
+.. image:: ../../../shared/building_and_running_chapters/Images/about-page-course-start.png
+ :alt: The course About page, showing the start date.
+ :width: 800
+
+.. only:: Open_edX
+
+  To find the URL of your course's **About** page in Studio, select
+  **Settings** and then **Schedule & Details**.
+
+After learners enroll in your course, the course appears on their course
+dashboards. To access the dashboard, learners select their usernames and then
+**Dashboard**.
+
+.. image:: ../../../shared/building_and_running_chapters/Images/dashboard-course-start-and-end.png
+ :alt: The learner dashboard with a course in progress, one that has ended, one
+  that is self-paced and can be started any time, and one that has not
+  started.
+ :width: 800
+
+For a course that is in progress or has not yet started, the start date is
+shown. For a course that has ended, the course end date is shown.
+
+.. only:: Partners
+
+  .. note:: These sample images are from the edX Edge website. They show
+   an **About** page and a learner dashboard on an instance powered by Open
+   edX. On the `edx.org`_ website these pages present the same information, but
+   are styled differently.
+
+.. include:: ../../../links/links.rst
