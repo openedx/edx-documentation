@@ -68,6 +68,7 @@ course.
 
 #. At the bottom of the page, select **Save Changes**.
 
+.. _Create a Certificate:
 
 *********************
 Create a Certificate
@@ -94,8 +95,8 @@ To create a certificate for your course, follow these steps.
    Override`_.
 
 #. Add a signatory for each person associated with the course or organization
-   whose name and title you want to appear on the certificate, up to a maximum
-   of four signatories. You must specify at least one signatory.
+   whose name and title you want to appear on the certificate. You must specify
+   at least one signatory. You can add as many signatories as needed.
 
 .. only:: Partners
 
