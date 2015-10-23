@@ -18,4 +18,5 @@ Running Your Course
    course_student
    course_answers
    course_grades
+   certificate_data
    checking_student_progress
