@@ -27,7 +27,7 @@ most recent release of Open edX is :ref:`Cypress <Open edX Cypress Release>`.
    devstack/analytics_devstack
    fullstack/install_fullstack
    configuration/index
-   analytics/install_analytics
+   analytics/index
    mobile
    glossary
 
