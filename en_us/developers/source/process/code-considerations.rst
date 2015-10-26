@@ -137,7 +137,7 @@ Analytics
   * Are you increasing the amount of logging in any major way?
 
 * Are you sending appropriate/enough information to MixPanel,
-  Google Analytics, Segment IO?
+  Google Analytics, Segment?
 
 Collaboration
 =============

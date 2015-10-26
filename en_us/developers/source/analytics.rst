@@ -372,18 +372,19 @@ platform will transmit a variety of metrics to data dog. Running ``git grep
 dog_stats_api`` will give a pretty good overview of the usage of data dog to
 track operational metrics.
 
-Segment.IO
+Segment
 *****************
 
-A selection of events can be transmitted to segment.io in order to take
+A selection of events can be transmitted to `Segment`_ in order to take
 advantage of a wide variety of analytics-related third party services such as
-Mixpanel and Chartbeat. It is enabled in the LMS if the ``SEGMENT_IO_LMS``
-feature flag is enabled and the ``SEGMENT_IO_LMS_KEY`` key is set to a valid
-segment.io API key in the ``lms.auth.json`` file. Additionally, the setting
-``EVENT_TRACKING_SEGMENTIO_EMIT_WHITELIST`` in the ``lms.auth.json`` file can be
-used to specify event names that should be emitted to segment.io from normal
-`tracker.emit()` calls. Events specified in this whitelist will be sent to both
-the tracking logs and segment.io.
+Mixpanel and Chartbeat. It is enabled in the LMS if the ``SEGMENT_KEY``
+key is set to a valid Segment API key in the ``lms.auth.json`` file. Additionally, 
+the setting ``EVENT_TRACKING_SEGMENTIO_EMIT_WHITELIST`` in the ``lms.auth.json`` 
+file can be used to specify event names that should be emitted to Segment 
+from normal ``tracker.emit()`` calls. Events specified in this whitelist will be 
+sent to both the tracking logs and Segment.  Similarly, it is enabled in Studio 
+if the ``SEGMENT_KEY`` key is set to a valid Segment API key in the
+``cms.auth.json`` file.
 
 Google Analytics
 *****************
@@ -408,3 +409,4 @@ continue to be supported.
 .. _event-tracking documentation: http://event-tracking.readthedocs.org/en/latest/overview.html#event-tracking
 .. _data dog: http://www.datadoghq.com/
 .. _dogapi: http://pydoc.datadoghq.com/en/latest/
+.. _Segment: https://segment.com/

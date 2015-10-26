@@ -1009,7 +1009,7 @@ Example: Mobile App-Emitted ``edx.video.played`` Event
         "component": "videoplayer",
         "received_at": "2014-12-09T03:57:56.373000+00:00",
         "course_id": "edX/DemoX/Demo_Course",
-        "path": "/segmentio/event",
+        "path": "/segment/event",
         "user_id": 99999999,
         "org_id": "edX",
         "application": {
