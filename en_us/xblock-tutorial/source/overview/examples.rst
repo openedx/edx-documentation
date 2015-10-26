@@ -22,7 +22,7 @@ The Google Drive and Calendar XBlock is created and stored in a separate Github
 repository. You can explore the contents of this XBlock repository to learn how
 it is structured and developed.
 
-Instructions are provided so that you can to install the XBlock on your Open
+Instructions are provided so that you can install the XBlock on your Open
 edX system. For more information, see :ref:`XBlocks and the edX Platform`.
 
 ================================
