@@ -262,7 +262,7 @@
 .. _GitHub Flow: https://github.com/blog/1557-github-flow-in-the-browser
 .. _RST: http://docutils.sourceforge.net/rst.html
 
-.. _edX Insights: http://insights.edx.org
+.. _edX Insights: https://insights.edx.org
 
 .. _edX Status: http://status.edx.org/
 

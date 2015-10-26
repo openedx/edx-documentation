@@ -3,6 +3,20 @@ Change Log
 ############
 
 ****************
+November 2015
+****************
+
+.. list-table::
+   :widths: 30 70
+   :header-rows: 1
+
+   * - Date
+     - Change
+   * - 2 November 2015
+     - Updated the format of course component location identifiers throughout
+       this guide.
+
+****************
 October 2015
 ****************
 
