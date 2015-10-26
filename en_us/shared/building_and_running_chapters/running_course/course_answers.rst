@@ -14,7 +14,7 @@ download an answer distribution report for course problems.
  :depth: 1
 
 Student answer distribution data, including both charts and reports, is also
-available from edX Insights. For more information, see `Using edX Insights`_.
+available from edX Insights. For more information, see :ref:`insights:Using edX Insights`.
 
 .. _Student_Answer_Submission:
 
@@ -89,8 +89,8 @@ to view.
 
   {
     "input_state": {
-      "i4x-edx-DemoX-problem-2363f9b08ed04be5a21e5a32511dd30a_2_1": {}
-    }, 
+      "e58b639b86db44ca89652b30ea566830_2_1": {}
+    },
     "seed": 1
   }
 
@@ -109,9 +109,11 @@ record does not contain the actual answer submitted.
 
   {
     "input_state": {
-      "i4x-edx-DemoX-problem-2363f9b08ed04be5a21e5a32511dd30a_2_1": {}
-    }, 
-    "seed": 1
+      "e58b639b86db44ca89652b30ea566830_2_1": {}
+    },
+    "seed": 1,
+    "student_answers": {
+      "e58b639b86db44ca89652b30ea566830_2_1": "choice_1"
   }
 
 
@@ -129,26 +131,26 @@ after the student submitted the answer. This record includes
   Score: 0.0 / 1.0
 
   {
-    "attempts": 1, 
+    "attempts": 1,
     "correct_map": {
-      "i4x-edx-DemoX-problem-2363f9b08ed04be5a21e5a32511dd30a_2_1": {
-        "answervariable": null, 
-        "correctness": "incorrect", 
-        "hint": "", 
-        "hintmode": null, 
-        "msg": "", 
-        "npoints": null, 
+      "e58b639b86db44ca89652b30ea566830_2_1": {
+        "answervariable": null,
+        "correctness": "incorrect",
+        "hint": "",
+        "hintmode": null,
+        "msg": "",
+        "npoints": null,
         "queuestate": null
       }
-    }, 
-    "done": true, 
+    },
+    "done": true,
     "input_state": {
-      "i4x-edx-DemoX-problem-2363f9b08ed04be5a21e5a32511dd30a_2_1": {}
-    }, 
-    "last_submission_time": "2015-09-03T18:15:10Z", 
-    "seed": 1, 
+      "e58b639b86db44ca89652b30ea566830_2_1": {}
+    },
+    "last_submission_time": "2015-09-03T18:15:10Z",
+    "seed": 1,
     "student_answers": {
-      "i4x-edx-DemoX-problem-2363f9b08ed04be5a21e5a32511dd30a_2_1": "Nanjing"
+      "e58b639b86db44ca89652b30ea566830_2_1": "choice_1"
     }
   }
 
@@ -175,26 +177,26 @@ reported ``Score`` and the values for ``student_answers``, ``attempts``, and
   Score: 1.0 / 1.0
 
   {
-    "attempts": 2, 
+    "attempts": 2,
     "correct_map": {
-      "i4x-edx-DemoX-problem-2363f9b08ed04be5a21e5a32511dd30a_2_1": {
-        "answervariable": null, 
-        "correctness": "correct", 
-        "hint": "", 
-        "hintmode": null, 
-        "msg": "", 
-        "npoints": null, 
+      "e58b639b86db44ca89652b30ea566830_2_1": {
+        "answervariable": null,
+        "correctness": "correct",
+        "hint": "",
+        "hintmode": null,
+        "msg": "",
+        "npoints": null,
         "queuestate": null
       }
-    }, 
-    "done": true, 
+    },
+    "done": true,
     "input_state": {
-      "i4x-edx-DemoX-problem-2363f9b08ed04be5a21e5a32511dd30a_2_1": {}
-    }, 
-    "last_submission_time": "2015-09-03T18:15:17Z", 
-    "seed": 1, 
+      "e58b639b86db44ca89652b30ea566830_2_1": {}
+    },
+    "last_submission_time": "2015-09-03T18:15:17Z",
+    "seed": 1,
     "student_answers": {
-      "i4x-edx-DemoX-problem-2363f9b08ed04be5a21e5a32511dd30a_2_1": "Nanjing University"
+      "e58b639b86db44ca89652b30ea566830_2_1": "choice_2"
     }
   }
 
@@ -210,7 +212,7 @@ the :ref:`unique identifier<find_URL>` of the problem that you want to
 investigate.
 
 To download a report of the answers submitted for a problem by every student,
-follow these steps.
+called the Student State report, follow these steps.
 
 #. View the live version of your course.
 
@@ -219,11 +221,11 @@ follow these steps.
 #. In the **Reports** section, enter the **Problem location** . For capa
    problems, you can use the **Staff Debug Info** option to :ref:`find this
    identifier<find_URL>` for a problem.
-   
+
 #. Select **Download a CSV of problem responses**.
 
 #. At the bottom of the page, select the
-   ``{course_id}_student_state_from_{problem_location}_{date}.csv`` file. 
+   ``{course_id}_student_state_from_{problem_location}_{date}.csv`` file.
 
 #. Use a text editor or spreadsheet application to open the file. For more
    information, see :ref:`Interpret the Student State Report`.
@@ -243,7 +245,7 @@ When you open the report, the value in the **State** column appears on a single
 line. This value is a record in JSON format. An example record for a text input
 capa problem follows.
 
-``{"correct_map": {"2363f9b08ed04be5a21e5a32511dd30a_2_1": {"hint": "", "hintmode": null, "correctness": "correct", "msg": "", "answervariable": null, "npoints": null, "queuestate": null}}, "input_state": {"2363f9b08ed04be5a21e5a32511dd30a_2_1": {}}, "last_submission_time": "2015-09-03T18:15:17Z", "attempts": 2, "seed": 1, "done": true, "student_answers": {"2363f9b08ed04be5a21e5a32511dd30a_2_1": "Nanjing University"}}``
+``{"correct_map": {"e58b639b86db44ca89652b30ea566830_2_1": {"hint": "", "hintmode": null, "correctness": "correct", "msg": "", "answervariable": null, "npoints": null, "queuestate": null}}, "input_state": {"e58b639b86db44ca89652b30ea566830_2_1": {}}, "last_submission_time": "2015-10-26T17:32:20Z", "attempts": 3, "seed": 1, "done": true, "student_answers": {"e58b639b86db44ca89652b30ea566830_2_1": "choice_2"}}``
 
 You can use a JSON "pretty print" tool or script to make the value in the
 **State** column more readable, as in the following example.
@@ -252,7 +254,7 @@ You can use a JSON "pretty print" tool or script to make the value in the
 
   {
     "correct_map": {
-      "2363f9b08ed04be5a21e5a32511dd30a_2_1": {
+      "e58b639b86db44ca89652b30ea566830_2_1": {
         "hint": "",
         "hintmode": null,
         "correctness": "correct",
@@ -263,16 +265,16 @@ You can use a JSON "pretty print" tool or script to make the value in the
       }
     },
     "input_state": {
-      "2363f9b08ed04be5a21e5a32511dd30a_2_1": {
-      
+      "e58b639b86db44ca89652b30ea566830_2_1": {
+
       }
     },
-    "last_submission_time": "2015-09-03T18:15:17Z",
-    "attempts": 2,
+    "last_submission_time": "2015-10-26T17:32:20Z",
+    "attempts": 3,
     "seed": 1,
     "done": true,
     "student_answers": {
-      "2363f9b08ed04be5a21e5a32511dd30a_2_1": "Nanjing University"
+      "e58b639b86db44ca89652b30ea566830_2_1": "choice_2"
     }
   }
 
@@ -284,7 +286,7 @@ see :ref:`Interpret a Student Submission History`.
 A **State** value that appears as follows indicates a learner who has viewed a
 capa problem, but not yet submitted an answer.
 
-  ``{"seed": 1, "input_state": {"i4x-edX-DemoX_1-problem-05c289c5ad3d47d48a77622c4a81ec36_2_1": {}}}``
+  ``{"seed": 1, "input_state": {"e58b639b86db44ca89652b30ea566830_2_1": {}}}``
 
 For open response assessment problems, the **State** value appears as follows
 for learners who have submitted an answer.
@@ -390,7 +392,7 @@ To download the most recent file of student answer data, follow these steps.
 Frequently Asked Questions about the Student Answer Distribution Report
 ==========================================================================
 
-Answers to questions about the student answer distribution report follow.   
+Answers to questions about the student answer distribution report follow.
 
 **My course doesn't have a student answer distribution report. How can I
 generate it?**
@@ -510,7 +512,7 @@ answers to a multiple choice question, you move the **AnswerValue** and
 report cells that contain the data you want to chart, you select the Charts
 toolbar and then select the type of chart you want.
 
-.. note:: Refer to the help for the spreadsheet application that you use for 
+.. note:: Refer to the help for the spreadsheet application that you use for
  information on using these options. You may have to make changes to your
  spreadsheet, such as reordering columns. Save a copy of the file you
  originally downloaded as a backup before you begin.
@@ -518,7 +520,3 @@ toolbar and then select the type of chart you want.
 You can adjust your course content based on common student mistakes. While most
 students in this example selected the correct answer, the number of incorrect
 answer(s) can guide future changes to the courseware.
-
-
-.. _Using edX Insights: http://edx-insights.readthedocs.org/en/latest/
-.. _Problem Interaction Events: http://edx.readthedocs.org/projects/devdata/en/latest/internal_data_formats/tracking_logs.html#problem
