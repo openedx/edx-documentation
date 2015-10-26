@@ -12,6 +12,11 @@ your course.
    :local:
    :depth: 1
 
+For more information, see the following other topics about certificates.
+
+* :ref:`Setting Up Course Certificates`
+* :ref:`Reporting Certificate Data`
+
 ****************************************
 Overview
 ****************************************
@@ -26,23 +31,52 @@ grades after the **Course End Date** and **Time** have passed. See
 The learner's final grade and the grading configuration you set in Studio are
 used to determine whether the learner has earned a certificate for the course.
 
-.. note:: You set up certificates when you are building your course. For more
-  information, see :ref:`Setting Up Course Certificates`.
-
 
 ****************************************
 On-Demand Certificates
 ****************************************
 
-If you have a self-paced course, you can allow your learners to download their
+If you have a self-paced course, you can allow your learners to request their
 certificates as soon as they have completed enough of the course with a high
-enough grade to qualify for a certificate. 
+enough grade to qualify for a certificate. Learners might want to request a
+certificate right away, or they might wait until they have completed the
+course.
 
-Learners can request a certificate at any time after they qualify. Learners may
-want to request a certificate right away, or they may wait until they have
-completed the course. For more information, see `On-Demand Certificates
-<http://edx.readthedocs.org/projects/edx-guide-for-
-students/en/latest/SFD_certificates.html#on-demand-certificates>`_.
+========================================
+Allow Learners to Request Certificates
+========================================
+
+To allow learners to request certificates from the **Progress** page, follow
+these steps.
+
+#. View the live version of your course.
+
+#. Select **Instructor**, and then select **Certificates**.
+
+#. Select **Enable Student-Generated Certificates**.
+
+   When they have qualified, learners can request their certificates from the
+   Progress page.
+
+   To prevent learners from requesting certificates, select **Disable Student-
+   Generated Certificates**.
+
+.. only:: Partners
+
+  For information about how learners request certificates, see
+  :ref:`learners:SFD On Demand Certificates`.
+
+.. only:: Open_edX
+
+  For information about how learners request certificates, see
+  :ref:`openlearners:SFD On Demand Certificates`.
+
+.. note:: If you do not allow learners to request certificates, you must
+  `generate certificates`_.
+
+=====================================================
+Communicate to Learners abut Requesting Certificates
+=====================================================
 
 If your course offers on-demand certificates, we encourage you to include this
 information on your course About page, on the **Course Info** page, and in
@@ -57,8 +91,9 @@ communication with your learners.
 Allow Learners to Download Certificates when they Qualify
 ==============================================================
 
-To allow learners to download certificates when they qualify for them, you must
-modify the **Certificates Display Behavior** advanced setting in Studio.
+To allow learners to download certificates from the dashboard when they qualify
+for them, you must modify the **Certificates Display Behavior** advanced
+setting in Studio.
 
 #. From the **Settings** menu, select **Advanced Settings**.
 
@@ -68,3 +103,22 @@ modify the **Certificates Display Behavior** advanced setting in Studio.
    Be sure that you include the double quotation marks.
 
 #. Select **Save Changes**.
+
+
+***********************
+Generate Certificates
+***********************
+
+Unless you `allow learners to request certificates`_ in a self-paced course,
+you must generate certificates.
+
+To generate certificates, follow these steps.
+
+#. View the live version of your course.
+
+#. Select **Instructor**, and then select **Certificates**.
+
+#. Select **Generate Certificates**.
+
+   Learners who have qualified can now view their certificates on the
+   dashboards.

@@ -13,14 +13,18 @@ Studio.
    :local:
    :depth: 1
 
+For more information, see the following other topics about certificates.
+
+* :ref:`Reporting Certificate Data`
+* :ref:`Checking Student Progress and Issuing Certificates`
+
 .. _Overview:
   
 ***********
 Overview
 ***********
 
-Using Studio, you create certificates that learners can earn in your
-course. 
+Using Studio, you create certificates that learners can earn in your course.
 
 .. Course start date not published for partners at this time, pending review.
 
