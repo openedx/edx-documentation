@@ -10,6 +10,7 @@ The following pages describe what is new in 2015.
 .. toctree::
    :maxdepth: 1
 
+   10-27-2015
    10-21-2015
    10-07-2015
    10-01-2015

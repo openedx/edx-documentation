@@ -11,6 +11,12 @@ The following information describes what is new in edX documentation.
   :depth: 2
 
 **************************
+27 October 2015
+**************************
+
+.. include:: 2015/documentation/doc_1027_2015.rst
+
+**************************
 21 October 2015
 **************************
 

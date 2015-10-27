@@ -10,6 +10,11 @@ The following information describes what is new in edX analytics.
   :local:
   :depth: 2
 
+******************
+27 October 2015
+******************
+
+.. include:: 2015/analytics/analytics_1027_2015.rst
 
 ******************
 1 October 2015

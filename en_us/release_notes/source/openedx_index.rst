@@ -10,6 +10,11 @@ The following information describes what is new in Open edX.
   :local:
   :depth: 1
 
+******************
+27 October 2015
+******************
+
+.. include:: 2015/openedx/openedx_1027_2015.rst
 
 ******************
 16 September 2015
