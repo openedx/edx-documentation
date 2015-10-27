@@ -20,10 +20,44 @@ account. You also provide the following information.
 * Your name.
 * The username that will identify you to course teams and to other learners.
 * A password.
-* Your country or region. 
+* Your country or region.
 
 After you create your account, you can find courses that interest you and
 enroll in them.
+
+
+===========================================
+How do I create or edit my user profile?
+===========================================
+
+After you have created and activated your edX account, you can edit your user
+profile. Your edX profile allows you to share information about yourself with
+the edX community. Course teams and other learners in your courses can view
+your profile when they select your linked username in forums. You can share
+either a limited profile or a full profile.
+
+Your profile always includes your username. A limited profile shares only your
+username and an optional profile picture. A full profile includes biographical
+information in addition to your username and profile image.
+
+.. note:: If you are under 13 years of age, you can only share a limited
+   profile, and you cannot share a profile picture.
+
+To create or edit your profile details in the mobile app, select your username
+or profile picture. Select **Edit** to edit your profile details. In your profile
+details, select **Change** next to the camera icon to change your profile
+picture.
+
+If you are over 13 years of age, you can share more information about yourself
+by changing your limited profile to a full profile. You can indicate your
+primary language and location and, in the **About Me** section, you can add
+additional details such as your learning goals and other interests. To share a
+full profile, select **Full Profile**.
+
+.. note:: You must specify your birth year before you can share a full
+   profile. If you are under 13 years of age, you cannot create a full
+   profile.
+
 
 ==================================================
 How do I find courses to take?

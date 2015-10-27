@@ -158,7 +158,6 @@ information.
 
 * **Education Completed**: The highest level of education that you have
   completed.
-
 * **Gender**: The gender you identify as.
 
 * **Year of Birth**: The year that you were born.
@@ -174,6 +173,7 @@ To view or change this information, follow these steps.
    (optional)** section, and then make your changes.
 
 EdX saves your changes automatically.
+
 
 ==========================================
 Link or Unlink a Social Media Account
@@ -202,32 +202,41 @@ Exploring the Profile Page
 *************************************
 
 Your edX profile allows you to share information about yourself with the edX
-community. Your profile can include an image that identifies you on the edX
-site as well as your location and other biographical information. Course teams
-and other learners in your courses can view your profile.
+community. Course teams and other learners in your courses can view your
+profile. You can share either a limited profile or a full profile.
 
-You can share a limited profile or a full profile.
+Your profile always includes your username. Optionally, and if you are over 13
+years of age, you can also share a profile picture, your location, and other
+biographical information.
 
-.. note:: Learners under 13 years of age can only share a limited profile.
+A limited profile shares only your username and an optional profile picture.
 
-A limited profile can include only your username and an image.
+.. note:: If you are under 13 years of age, you can only share a limited
+   profile and you cannot share a profile picture.
 
 .. image:: ../../../shared/images/SFD_Prof_Limited.png
  :width: 400
  :alt: A learner's limited profile showing only username and image.
 
-A full profile can include biographical information.
+A full profile includes biographical information in addition to your username
+and profile image.
 
 .. image:: ../../../shared/images/SFD_Prof_Full.png
  :width: 500
  :alt: A learner's full profile with location, language, and short
      biographical paragraph.
 
+
+.. _Create or Edit a Limited Profile:
+
 ================================
 Create or Edit a Limited Profile
 ================================
 
 A limited profile includes only your username and, optionally, an image.
+
+.. note:: If you are under 13 years of age, your limited profile only includes
+   your username. You cannot add a profile picture.
 
 To create or edit a limited profile, follow these steps.
 
@@ -259,8 +268,8 @@ Create or Edit a Full Profile
 ================================
 
 .. note:: You must specify your year of birth on the **Account Settings** page
-     before you share a full profile. If you are under age 13, you can only
-     share a limited profile.
+   before you share a full profile. If you are under 13 years of age, you
+   can share only a :ref:`limited profile <Create or Edit a Limited Profile>`.
 
 A full profile can include the following information. Your username and
 country or region are required.
@@ -332,4 +341,5 @@ username on the **Active Threads** page, and the learner's profile page.
   :width: 600
   :alt: Image of a discussion with a learner's username circled, an image of
       that learner's active threads page in the course discussions, and an
-      image of the learner's profile.
+      image of the learner's profile
+
