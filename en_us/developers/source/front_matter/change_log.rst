@@ -10,6 +10,10 @@ Change Log
 
    * - Date
      - Change
+   * - 27 Oct 2015
+     - Updated the description of the Segment tracking system in the
+       :ref:`analytics` section to reflect changes to the service's name 
+       and the configuration steps.
    * - 15 Sep 2015
      - Added a topic with guidelines for :ref:`contributing to the
        documentation for your open source feature<Contributing to the
@@ -29,4 +33,4 @@ Change Log
    * - 13 Jan 2015
      - Moved document to edx-documentation repo and created separate project in
        edx-platform repo for internal docstrings.
-   
+
