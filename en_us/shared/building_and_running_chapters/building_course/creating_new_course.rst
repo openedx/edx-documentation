@@ -4,7 +4,7 @@
 Creating a New Course
 ###########################
 
-This topic describes how to create and set up your course with Studio.
+This topic describes how to create a course with Studio.
 
 .. contents:: Section Contents
   :local:
@@ -16,11 +16,9 @@ Another way to create a course is to re-run an existing course. See
 You can also :ref:`Export a Course` and :ref:`Import a Course` through Studio.
 You can do this when you need to edit the course in XML.
 
-.. _Edge: http://edge.edx.org
-.. _edXorg: http://edx.org
 
 .. _Create a New Course:
-  
+
 *******************
 Create a New Course
 *******************
@@ -30,12 +28,9 @@ Create a New Course
 #. Enter course information as needed and select **Create**.
 
   .. note::  Enter new course information carefully. This information becomes
-   part of the URL for your course. For courses on edx.org and edX Edge, to
-   change the URL after the course is created, you must contact edX through the
-   Help site (http://help.edge.edx.org). Additionally, because this information
-   becomes part of your course URL, the total number of characters in the
-   following four fields must be 65 or fewer.
-   
+   part of the URL for your course. As part of your course URL, the total
+   number of characters in the following four fields must be 65 or fewer.
+
   .. image:: ../../../shared/building_and_running_chapters/Images/new_course_info.png
      :width: 600
      :alt: Image of the course creation page in Studio.
@@ -64,6 +59,11 @@ Create a New Course
     that you define for the course. For more information, see :ref:`Scheduling
     Your Course`.
 
+  .. only:: Partners
+
+    .. note::
+      For courses on edx.org and edX Edge, to change the URL after the course
+      is created, you must contact edX through the `Partner Portal`_.
 
 4. Select **Save.**
 
@@ -85,7 +85,7 @@ team privileges.
 .. image:: ../../../shared/building_and_running_chapters/Images/open_course.png
   :width: 600
   :alt: Image of the course on the Studio dashboard
- 
+
 To open a course, select the course name. The Studio **Course Outline** page
 appears.
 
@@ -115,7 +115,7 @@ As shown in the example above, for the **Add Course Team Members** task, if you
 hover over a task, a button is displayed that takes you to the page to complete
 that task.
 
-You can expand and collapse sections of the checklist as needed.
+You can expand and collapse the sections of the checklist as needed.
 
 You can check tasks as you complete them. Studio saves your changes
 automatically. Other members of the course team can see your changes.
@@ -150,9 +150,9 @@ To add a course team member:
 #. Ensure that the new team member has registered and activated an account.
 #. In Studio, from the **Settings** menu, select **Course Team**.
 #. Select **Add a New Team Member**.
-#. Enter the new team member's email address, then select **ADD USER**. 
+#. Enter the new team member's email address, then select **ADD USER**.
 
-The new team member can now work on the course in Studio. 
+The new team member can now work on the course in Studio.
 
 * To preview the course in the LMS, the team member must enroll in the course.
 
@@ -172,3 +172,6 @@ moderate and manage its discussions by assigning other LMS roles. The beta
 testers and discussion administrators must be enrolled in your course, but
 they do not need to have Staff or Admin access. For more information, see
 :ref:`Beta_Testing` and :ref:`Assigning_discussion_roles`.
+
+.. _Partner Portal: https://partners.edx.org/edx_zendesk
+

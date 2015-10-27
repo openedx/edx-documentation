@@ -14,7 +14,7 @@ goals, and solve problems, edX provides a variety of information resources.
 To help you find what you need, browse the edX offerings in the following
 categories.
 
-.. contents:: 
+.. contents::
  :local:
  :depth: 1
 
@@ -64,7 +64,7 @@ to Open edX. In addition, the Open edX Portal provides product announcements,
 the Open edX blog, and other rich community resources.
 
 All users can view content on the Open edX Portal without creating an account
-and logging in.  
+and logging in.
 
 To comment on blog posts or the edX roadmap, or subscribe to email updates, you
 must create an account and log in. If you do not have an account, follow these
@@ -89,11 +89,11 @@ announcements on the `Open edX Portal`_.
 #. Under **Announcement Type** in the **Subscriptions** block, select the type
    of announcements that you want to receive through email.
 #. Select **Save**.
-   
+
 You will now receive email messages when new announcements of the types you
 selected are posted.
 
-.. note:: 
+.. note::
  EdX partners can complete the same steps on the **Announcements** page in the
  `edX Partner Portal`_.
 
@@ -156,7 +156,7 @@ These guides open in your web browser. The left side of each page includes a
 a PDF version, select **v: latest** at the lower right of the page, then select
 **PDF**.
 
-.. note:: If you use the Safari browser, be aware that it does not support the 
+.. note:: If you use the Safari browser, be aware that it does not support the
  search feature for `edX documentation`_. This is a known limitation.
 
 ======
@@ -180,7 +180,7 @@ The edX product team maintains public product roadmaps on :ref:`the Open edX
 Portal<The Open edX Portal>` and :ref:`the edX Partner Portal<The edX Partner
 Portal>`.
 
-The `edX Author Support`_ site for edX partners hosts discussions that are
+The `edX Partner Support`_ site for edX partners hosts discussions that are
 monitored by edX staff.
 
 .. _Resources for Researchers:
@@ -204,15 +204,15 @@ that guide's contents on the left side of each page. To open or save a PDF
 version, select **v: latest** at the lower right of the page, and then select
 **PDF**.
 
-.. note:: If you use the Safari browser, be aware that it does not support the 
+.. note:: If you use the Safari browser, be aware that it does not support the
  search feature for `edX documentation`_. This is a known limitation.
 
 ======
 Email
 ======
 
-To receive and share information by email, researchers can join the 
-`openedx-analytics`_ Google group to ask questions and participate in 
+To receive and share information by email, researchers can join the
+`openedx-analytics`_ Google group to ask questions and participate in
 discussions with peers at other edX partner organizations and edX staffers.
 
 ======
@@ -266,7 +266,7 @@ Documentation for developers is available on the docs.edx.org web page.
   to view course information and videos and work with user and enrollment
   data.
 
-.. note:: If you use the Safari browser, be aware that it does not support the 
+.. note:: If you use the Safari browser, be aware that it does not support the
  search feature for `edX documentation`_. This is a known limitation.
 
 ======
@@ -294,15 +294,15 @@ To receive and share information by email, developers can join these Google
 groups to ask questions and participate in discussions with peers and edX
 staffers.
 
-* For conversations about the code in Open edX, join `edx-code`_.  
-* For conversations about running Open edX, join `openedx-ops`_. 
-* For conversations about globalization and translation, 
+* For conversations about the code in Open edX, join `edx-code`_.
+* For conversations about running Open edX, join `openedx-ops`_.
+* For conversations about globalization and translation,
   join `openedx-translation`_.
 
 Additional Google groups are occasionally formed for individual projects.
 
-.. note:: 
- Please do not report security issues in public. If you have a concern, 
+.. note::
+ Please do not report security issues in public. If you have a concern,
  please email security@edx.org.
 
 EdX engineers often monitor the Freenode #edx-code IRC channel.
@@ -376,7 +376,7 @@ is available.
   to view course information and videos and work with user and enrollment
   data.
 
-.. note:: If you use the Safari browser, be aware that it does not support the 
+.. note:: If you use the Safari browser, be aware that it does not support the
  search feature for `edX documentation`_. This is a known limitation.
 
 .. _Resources for Students:
@@ -436,7 +436,7 @@ edX Global Community meetup_ group.
 .. _docs@edx.org: docs@edx.org
 .. _edx101: https://www.edx.org/course/overview-creating-edx-course-edx-edx101#.VIIJbWTF_yM
 .. _Demo: http://www.edx.org/course/edx/edx-edxdemo101-edx-demo-1038
-.. _edX Author Support: http://help.edge.edx.org/home
+.. _edX Partner Support: https://partners.edx.org/edx_zendesk
 .. _edx-code: http://groups.google.com/forum/#!forum/edx-code
 .. _edx/configuration: http://github.com/edx/configuration/wiki
 .. _edX Data Analytics API: http://edx.readthedocs.org/projects/edx-data-analytics-api/en/latest/index.html
