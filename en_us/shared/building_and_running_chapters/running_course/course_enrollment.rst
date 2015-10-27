@@ -58,8 +58,10 @@ have registered and activated user accounts can enroll themselves in
 Course creators, Admins, and Staff, however, can enroll learners in a course
 either before or after the learners register their user accounts.
 
-.. important:: To work on a course, every course team member must register and
- activate a user account and enroll.
+.. important:: Course team members are not automatically enrolled in courses,
+   although they can access content in Studio, the LMS, and Insights. To work
+   on a course, every course team member must register, activate a user
+   account, and enroll in the course.
 
 .. _enroll_student:
 
