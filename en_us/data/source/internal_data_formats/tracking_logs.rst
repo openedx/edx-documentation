@@ -3717,7 +3717,7 @@ course, see :ref:`partnercoursestaff:Oppia Exploration Tool`.
 
 **Event Source**: Server
 
-**History**: Added 21 Oct 2015.
+**History**: Added 27 Oct 2015.
 
 ``event`` **Member Fields**:
 
@@ -3739,7 +3739,7 @@ Tool`.
 
 **Event Source**: Server
 
-**History**: Added 21 Oct 2015.
+**History**: Added 27 Oct 2015.
 
 ``event`` **Member Fields**:
 
@@ -3762,7 +3762,7 @@ see :ref:`partnercoursestaff:Oppia Exploration Tool`.
 
 **Event Source**: Server
 
-**History**: Added 21 Oct 2015.
+**History**: Added 27 Oct 2015.
 
 ``event`` **Member Fields**:
 
