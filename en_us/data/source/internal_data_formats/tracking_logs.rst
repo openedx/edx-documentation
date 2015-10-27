@@ -2175,7 +2175,7 @@ information about interactions with problems.
 
 These events were designed for the problem types implemented in the edX
 platform by the ``capa_module.py`` XBlock. Problem types that are implemented
-by other XBlocks, such as :ref:`open response assessments<ora2>` or :ref:`polls
+by other XBlocks, such as :ref:`open response assessments<ora2>`, :ref:`polls
 and surveys<Poll and Survey Events>`, are instrumented with different events.
 
 For more information about designing problems to include hints, feedback, or
@@ -3644,23 +3644,21 @@ Third-Party Content Events
 
 This section includes descriptions of the following events.
 
-* ``edx.googlecomponent.calendar.displayed``
-* ``edx.googlecomponent.document.displayed``
+.. contents::
+  :local:
+  :depth: 1
 
 EdX courses can include components that present content that is hosted by a
 third party. The server emits events when third-party content is shown to
 students.
 
-``edx.googlecomponent.calendar.displayed`` and ``edx.googlecomponent.document.displayed``
-*********************************************************************************************
+``edx.googlecomponent.calendar.displayed``
+***********************************************
 
 The server emits an ``edx.googlecomponent.calendar.displayed`` event when a
-Google Calendar component is shown in the LMS. The server emits an
-``edx.googlecomponent.document.displayed`` event when a Google Drive file,
-such as a document, spreadsheet, or image, is shown in the LMS.
-
-For more information about adding Google calendars or Google Drive files
-to a course, see :ref:`partnercoursestaff:Create Exercises`.
+Google Calendar component is shown in the LMS. For more information about
+adding Google calendars to a course, see :ref:`partnercoursestaff:Google
+Calendar Tool`.
 
 **Event Source**: Server
 
@@ -3677,14 +3675,119 @@ to a course, see :ref:`partnercoursestaff:Create Exercises`.
      - Details
    * - ``displayed_in``
      - string
-     - 'img' for Google Drive image files.
-
-       'iframe' for Google Calendars and for Google Drive files of other
+     - 'iframe' for Google Calendars and for Google Drive files of other
        types.
+
+       'img' for Google Drive image files.
 
    * - ``url``
      - string
      - The URL of the image file or of the file loaded by the iFrame.
+
+
+``edx.googlecomponent.document.displayed``
+************************************************
+
+The server emits an ``edx.googlecomponent.document.displayed`` event when a
+Google Drive file, such as a document, spreadsheet, or image, is shown in the
+LMS. For more information about adding Google Drive files to a course, see
+:ref:`partnercoursestaff:Google Drive Files Tool`.
+
+**Event Source**: Server
+
+**History**: Added 5 Mar 2015.
+
+``event`` **Member Fields**:
+
+The ``edx.googlecomponent.document.displayed`` events include the following
+``event`` member fields. These fields serve the same purpose for events of this
+type as for the ``edx.googlecomponent.calendar.displayed`` events.
+
+* ``displayed_in``
+* ``url``
+
+
+``oppia.exploration.completed``
+***********************************************
+
+The server emits an ``oppia.exploration.completed`` event when a user completes
+an interaction with an Oppia exploration component. Oppia explorations do not
+emit grading events. For more information about adding Oppia explorations to a
+course, see :ref:`partnercoursestaff:Oppia Exploration Tool`.
+
+**Event Source**: Server
+
+**History**: Added 21 Oct 2015.
+
+``event`` **Member Fields**:
+
+The ``oppia.exploration.completed`` events include the following ``event``
+member fields. These fields serve the same purpose for events of this type as
+for the ``oppia.exploration.state.changed`` events.
+
+* ``exploration_id``
+* ``exploration_version``
+
+
+``oppia.exploration.loaded``
+***********************************************
+
+The server emits an ``oppia.exploration.loaded`` event when an Oppia
+exploration component is shown in the LMS. For more information about adding
+Oppia explorations to a course, see :ref:`partnercoursestaff:Oppia Exploration
+Tool`.
+
+**Event Source**: Server
+
+**History**: Added 21 Oct 2015.
+
+``event`` **Member Fields**:
+
+The ``oppia.exploration.loaded`` events include the following ``event`` member
+fields. These fields serve the same purpose for events of this type as for the
+``oppia.exploration.state.changed`` events.
+
+* ``exploration_id``
+* ``exploration_version``
+
+
+``oppia.exploration.state.changed``
+***********************************************
+
+The server emits an ``oppia.exploration.state.changed`` event when a user
+interacts with an Oppia exploration component by submitting an answer. Answers
+are not incorrect or correct. All answer submissions change the state of the
+exploration. For more information about adding Oppia explorations to a course,
+see :ref:`partnercoursestaff:Oppia Exploration Tool`.
+
+**Event Source**: Server
+
+**History**: Added 21 Oct 2015.
+
+``event`` **Member Fields**:
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+   * - ``exploration_id``
+     - string
+     - The unique identifier of the Oppia exploration.
+   * - ``exploration_version``
+     - string
+     - The version number for the Oppia exploration.
+   * - ``new_state_name``
+     - string
+     - The name of the state that the exploration was changed to by the
+       submitted answer.
+   * - ``old_state_name``
+     - string
+     - The name of the state the exploration was in when the user submitted an
+       answer.
+
 
 .. _AB_Event_Types:
 

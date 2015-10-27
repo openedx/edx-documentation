@@ -5,6 +5,20 @@ Change Log
 ###########
 
 
+**********************
+October-December 2015
+**********************
+
+.. list-table::
+   :widths: 20 70
+   :header-rows: 1
+
+   * - Date
+     - Change
+   * - 27 Oct 2015
+     - Added new events for interactions with :ref:`Oppia
+       explorations<content>` to the Events in the Tracking Logs section.
+
 
 **********************
 July-September 2015
@@ -18,7 +32,7 @@ July-September 2015
      - Change
    * - 16 Sept 2015
      - Added new events for :ref:`teams<student_teams_events>` to the
-       :ref:`Tracking Logs` section.
+       Events in the Tracking Logs section.
    * - 2 Sept 2015
      - Added new events for :ref:`digital certificates <certificate_events>`.
    * - 6 Aug 2015
@@ -26,10 +40,10 @@ July-September 2015
        the files in data packages.
    * - 8 Jul 2015
      - Added new events for :ref:`polls and surveys<Poll and Survey Events>` to
-       the :ref:`Tracking Logs` section.
+       the Events in the Tracking Logs section.
    * - 1 Jul 2015
      - Added new events for :ref:`problem hints<problem>` to the
-       :ref:`Tracking Logs` section.
+       Events in the Tracking Logs section.
 
 
 **********************
@@ -47,12 +61,12 @@ April-June 2015
        the :ref:`Tracking Logs` section.
    * - 8 Jun 2015
      - Added descriptions of the ``video_show_cc_menu`` and
-       ``video_hide_cc_menu`` events to the 
+       ``video_hide_cc_menu`` events to the
        :ref:`video interaction events<video>` section.
    * - 19 May 15
      - Added information about new course team report events to the
        :ref:`Tracking Logs` section.
-   * - 11 May 2015 
+   * - 11 May 2015
      - Updated the descriptions of the ``pause_video``, ``play_video``, and
        ``stop_video`` :ref:`video interaction events<video>` to include the
        effects of a **Video Start Time** or **Video Stop Time**.
@@ -85,7 +99,7 @@ January-March 2015
    * - 5 Mar 2015
      - Added new events for contributions to discussion forums to the
        :ref:`Tracking Logs` section.
-   * - 
+   * -
      - Added events for the display of :ref:`Google components<content>` to the
        Tracking Logs section.
    * - 3 Mar 2015
@@ -134,7 +148,7 @@ October-December 2014
    * - 10/23/14
      - Added examples of the format used to identify course components to the
        :ref:`Student_Info` and :ref:`Tracking Logs` sections.
-   * - 
+   * -
      - Updated the ``child_render`` event to reflect the name change for the
        ``child_id`` member field. See :ref:`Tracking Logs`.
    * - 10/20/14
@@ -146,7 +160,7 @@ October-December 2014
    * - 10/07/14
      - Added new student and course team events relating to cohort use to the
        :ref:`Tracking Logs` section.
-   * - 
+   * -
      - Removed information about XML course formats. See the :ref:`olx:edX Open
        Learning XML Guide` for information about building XML courses.
 
@@ -204,9 +218,9 @@ April-June 2014
    * - 06/27/14
      - Made a correction to the ``edx.forum.searched`` event name in the
        :ref:`Tracking Logs` section.
-   * - 
+   * -
      - Added the ``stop_video`` event to the :ref:`Tracking Logs` section.
-   * - 
+   * -
      - Updated the ``seek_video`` event in the :ref:`Tracking Logs` section.
    * - 06/23/14
      - Added a :ref:`Preface` with resources for course teams, developers,
@@ -217,11 +231,11 @@ April-June 2014
    * - 05/22/14
      - Added descriptions of five video- and problem-related events to the
        :ref:`Tracking Logs` section.
-   * - 
+   * -
      - Added the new ``edx.forum.searched`` event to the
        :ref:`Tracking Logs` section.
    * - 05/06/14
-     - Added enrollment event types to the :ref:`Tracking Logs` section. 
+     - Added enrollment event types to the :ref:`Tracking Logs` section.
    * - 05/05/14
      - Removed information on the Poll module. See
        :ref:`partnercoursestaff:Poll` in *Building and Running an edX Course*.
@@ -229,11 +243,11 @@ April-June 2014
      - Removed information on the Word Cloud tool. See
        :ref:`partnercoursestaff:Word Cloud` in *Building and Running an edX
        Course*.
-   * - 
+   * -
      - Removed information on CustomResponse XML and Python Script. See
        :ref:`partnercoursestaff:Write Your Own Grader` in the  *Building and
        Running an edX Course* guide.
-   * - 
+   * -
      - Removed information on Formula Equation Input. See
        `partnercoursestaff:Math Expression Input` in the *Building and Running
        an edX Course* guide.
@@ -243,7 +257,7 @@ April-June 2014
    * - 04/25/14
      - Added new event types to the :ref:`Tracking Logs` section for
        interactions with PDF files.
-       
+
 
 **********************
 January-March 2014
