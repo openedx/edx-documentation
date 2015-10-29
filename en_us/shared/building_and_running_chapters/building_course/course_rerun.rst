@@ -75,9 +75,9 @@ Using Re-Run to Create a Course
 
 .. only:: Partners
 
-  Only edX Partner Managers have the permissions needed to re-run a course. To
+  Only edX Program Managers have the permissions needed to re-run a course. To
   re-run a course that is hosted on the `edx.org`_ or `edX Edge`_ websites,
-  contact your edX Partner Manager. After your Partner Manager creates the new
+  contact your edX Program Manager. After your Program Manager creates the new
   course using the re-run feature, you can complete the steps to
   :ref:`update the new course<Update the New Course>`.
 
