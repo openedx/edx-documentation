@@ -31,7 +31,7 @@ Step 1. Create the Component
 To create the component for your open response assessment, complete these steps.
 
 #. In Studio, open the unit where you want to create the open response
-   assessment.   
+   assessment.
 #. Under **Add New Component**, select **Problem**, select the **Advanced** tab,
    and then select **Peer Assessment**.
 #. In the Problem component that appears, select **Edit**.
@@ -84,15 +84,15 @@ To allow learners to submit an image with a response, complete these steps.
 #. In the open response assessment component editor, select the **Settings** tab.
 #. For **Allow Image Responses**, select **True**.
 
-.. note:: 
- 
+.. note::
+
    * The image file must be a .jpg or .png file, and it must be smaller than 5
-     MB in size. 
+     MB in size.
    * Currently, course teams cannot see any of the images that
      learners submit. Images are not visible in the body of the assignment in
      the courseware, and they are not included in the course data package.
    * You can allow learners to upload an image, but you cannot require it.
-   * Learners can only submit one image with each response.     
+   * Learners can only submit one image with each response.
    * All responses must contain text. Learners cannot submit a response that
      contains only an image.
 
@@ -185,7 +185,7 @@ assessment feature.
   Time Zone Converter <http://www.timeanddate.com/worldclock/converter.html>`_
 
 To specify a name for the assignment as well as start and due dates for all
-student responses, complete these steps.
+learner responses, complete these steps.
 
 #. In the component editor, select the **Settings** tab.
 
@@ -204,7 +204,7 @@ student responses, complete these steps.
 Step 5. Select Assignment Steps
 ****************************************
 
-Open response assessment assignments can include learner training, peer assessment, and self assessment steps. 
+Open response assessment assignments can include learner training, peer assessment, and self assessment steps.
 
 .. note:: If you include a learner training step, you must also include a peer
    assessment step. The learner training step must come before peer or self
@@ -221,16 +221,16 @@ To add steps to the open response assignment, complete these actions.
 
 #. Locate the following headings.
 
-   * **Step: Student Training**
+   * **Step: Learner Training**
    * **Step: Peer Assessment**
    * **Step: Self Assessment**
 
-   Select the check boxes for the steps that you want the assignment to include. 
+   Select the check boxes for the steps that you want the assignment to include.
 
 #. (optional) To change the order of the steps, drag the steps into the order
    that you want.
 
-.. note:: If you include a student training step, make sure it is the first
+.. note:: If you include a learner training step, make sure it is the first
    step in the assignment.
 
 .. _PA Specify Step Settings:
@@ -246,25 +246,27 @@ steps.
    that step, the step will no longer be part of the assignment and your
    changes will not be saved.
 
-.. _PA Student Training Step:
+.. _PA Learner Training Step:
 
 ========================
-Student Training
+Learner Training
 ========================
 
-For the student training step, you enter one or more responses that you have
+For the learner training step, you enter one or more responses that you have
 created, then select an option for each criterion in your rubric.
 
 .. note:: You must enter your complete rubric on the **Rubric** tab before you
-   can select options for the student training responses. If you later change one
-   of your criteria or any of its options, you must also update the student
+   can select options for the learner training responses. If you later change
+   one of your criteria or any of its options, you must also update the learner
    training step.
 
-To add and score student training responses, follow these steps.
+To add and score learner training responses, follow these steps.
 
-#. Under **Step: Student Training**, locate the first **Scored Response** section.
+#. Under **Step: Learner Training**, locate the first **Scored Response**
+   section.
 #. In the **Response** field, enter the text of your example response.
-#. Under **Response Score**, for each criterion, select the option that you want.
+#. Under **Response Score**, for each criterion, select the option that you
+   want.
 
 For more information, see :ref:`PA Learner Training Assessments`.
 
@@ -293,7 +295,7 @@ To specify peer assessment settings, follow these steps.
 #. Next to **Due Date** and **Due Time**, enter the date and time by which all
    peer assessments must be complete.
 
-  .. note:: The times that you set, and the times that learners see, are in
+  .. note:: The times that you set, and the times that learners see, use
    Coordinated Universal Time (UTC). You might want to verify that you have
    specified the times that you intend by using a time zone converter such as
    `Time and Date Time Zone Converter
@@ -306,10 +308,10 @@ Self Assessment
 For the self assessment step, you specify when the step starts and ends.
 
 #. Locate the **Step: Self Assessment** heading.
-   
+
 #. Next to **Start Date** and **Start Time**, enter the date and time when
    learners can begin assessing their peers' responses.
-   
+
 #. Next to **Due Date** and **Due Time**, enter the date and time by which all
    peer assessments must be complete.
 
@@ -329,7 +331,7 @@ To allow learners to see the top-scoring responses for the assignment, you
 specify a number on the **Settings** tab.
 
 #. In the component editor, select the **Settings** tab.
-   
+
 #. In the **Top Responses** field, specify the number of responses that you
    want to appear in the **Top Responses** section below the learner's final
    score. If you do not want this section to appear, set the number to 0. The
