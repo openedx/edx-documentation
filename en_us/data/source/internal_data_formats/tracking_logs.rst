@@ -186,7 +186,7 @@ more information, see the HTTP/1.1 header field definition for
 ``context`` Field
 ===================
 
-**Type:** dictionary
+**Type:** object
 
 **Details:**
 
@@ -223,7 +223,7 @@ The following member fields are present in the ``context`` field for all events.
      - string
      - The URL that generated the event.
    * - ``user_id``
-     - integer
+     - number
      - Identifies the individual who is performing the action.
 
 
@@ -241,21 +241,20 @@ fields to provide additional information.
      - Type
      - Details
    * - ``course_user_tags``
-     - dictionary
+     - object
      - Contains the key(s) and value(s) from the ``user_api_usercoursetag``
        table for the user. See :ref:`user_api_usercoursetag`.
    * - ``module``
-     - dictionary
-     - Contains a dictionary that identifies the components involved in a
+     - object
+     - Provides identifying information for the components involved in a
        server event.
 
        For example, in a server ``problem_check`` event, the ``module`` field
        indicates the problem component that the server checked successfully.
-       The member fields of this dictionary are ``display_name`` and
-       ``usage_key``.
+       The member fields are ``display_name`` and ``usage_key``.
 
        For modules that are used in a course to present content from a
-       library, this dictionary also includes the ``original_usage_key`` and
+       library, ``module`` also includes the ``original_usage_key`` and
        ``original_usage_version`` fields. These member fields provide a
        consistent way to identify components that are sourced from a library,
        and can be used to identify the source library.
@@ -271,7 +270,7 @@ event fields may duplicate this data. Added 23 Oct 2013.
 ``event`` Field
 ===================
 
-**Type:** dictionary
+**Type:** object
 
 **Details:** This field includes member fields that identify specifics of each
 triggered event. Different member fields are supplied for different events.
@@ -475,7 +474,7 @@ that result in these events, see :ref:`instructor_enrollment`.
      - 'audit', 'honor', 'professional', 'verified'. Identifies the student's
        enrollment mode.
    * - ``user_id``
-     - integer
+     - number
      - Identifies the student who was enrolled or unenrolled.
 
 Example
@@ -537,7 +536,7 @@ different mode is complete.
      - 'audit', 'honor', 'professional', verified'. Identifies the student's
        new enrollment mode.
    * - ``user_id``
-     - integer
+     - number
      - Identifies the student whose enrollment mode changed.
 
 ``edx.course.enrollment.upgrade.clicked``
@@ -655,17 +654,17 @@ All of these navigational events have the same ``event`` member fields.
      - Type
      - Details
    * - ``id``
-     - integer
+     - number
      - The edX ID of the sequence.
    * - ``new``
-     - integer
+     - number
      - For ``seq_goto``, the index of the unit being jumped to.
 
        For ``seq_next`` and ``seq_prev``, the index of the unit being navigated
        to.
 
    * - ``old``
-     - integer
+     - number
      - For ``seq_goto``, the index of the unit being jumped from.
 
        For ``seq_next`` and ``seq_prev``, the index of the unit being navigated
@@ -897,12 +896,12 @@ fields, see :ref:`Example Mobile App Event`.
      - Type
      - Details and Member Fields
    * - ``application``
-     - dictionary
+     - object
      - Includes ``name`` and ``version`` member fields to identify the edX
        mobile app.
    * - ``client``
-     - dictionary
-     - Includes member dictionaries and fields with device-specific data.
+     - object
+     - Includes member objects and fields with device-specific data.
 
        The ``client`` data is gathered by the event collection library, which
        is provided by a third party.
@@ -913,7 +912,7 @@ fields, see :ref:`Example Mobile App Event`.
      - string
      - 'videoplayer'
    * - ``received_at``
-     - float
+     - number
      - Indicates the time at which the event collection library received the
        event.
 
@@ -944,7 +943,7 @@ fields, see :ref:`Example Mobile App Event`.
        For videos played by the edX mobile app, 'mobile'.
 
    * - ``currentTime``
-     - float
+     - number
      - The time in the video at which the event was emitted.
    * - ``id``
      - string
@@ -1122,15 +1121,15 @@ The following additional ``event`` member fields apply specifically to
      - Type
      - Details
    * - ``new_time``
-     - integer
+     - number
      - The time in the video, in seconds, that the user selected as the
        destination point.
    * - ``old_time``
-     - integer
+     - number
      - The time in the video, in seconds, at which the user chose to go to a
        different point in the file.
    * - ``requested_skip_interval``
-     - integer
+     - number
      - Applies only to events with an  ``event_source`` of 'mobile'. The number
        of seconds that the user moved backward (expressed as a negative) or
        forward in the file.
@@ -1203,14 +1202,14 @@ selected either the same speed or a different speed.
      - Type
      - Details
    * - ``current_time``
-     - integer
+     - number
      - The time in the video that the user chose to change the playing speed.
    * - ``new_speed``
-     - float
+     - number
      - The speed that the user selected for the video to play: '0.75', '1.0',
        '1.25', '1.50'.
    * - ``old_speed``
-     - float
+     - number
      - The speed at which the video was playing.
 
 ``stop_video``/``edx.video.stopped``
@@ -1400,10 +1399,10 @@ video, the browser emits an ``edx.video.bumper.played`` event.
      - string
      - Contains the value 'html5'. All pre-roll videos are non-YouTube videos.
    * - ``currentTime``
-     - float
+     - number
      - The time in the file at which the video played.
    * - ``duration``
-     - integer
+     - number
      - The length of the video file, in seconds.
    * - ``host_component_id``
      - string
@@ -1629,10 +1628,10 @@ fields ``name`` and ``chapter``.
 
        **History**: Added for events produced by the PDF Viewer on 16 Apr 2014.
    * - ``new``
-     - integer
+     - number
      - Destination page number.
    * - ``old``
-     - integer
+     - number
      - The original page number. Applies to 'gotopage' event types only.
    * - ``type``
      - string
@@ -1671,7 +1670,7 @@ on the icon to show or hide page thumbnails.
      - string
      - ``textbook.pdf.thumbnails.toggled``
    * -  ``page``
-     -  integer
+     -  number
      -  The number of the page that is open when the user clicks this icon.
 
 ``textbook.pdf.thumbnail.navigated``
@@ -1702,7 +1701,7 @@ clicks on a thumbnail image to navigate to a page.
      - string
      - ``textbook.pdf.thumbnail.navigated``
    * - ``page``
-     - integer
+     - number
      - The page number of the thumbnail clicked.
    * - ``thumbnail_title``
      - string
@@ -1737,7 +1736,7 @@ the outline icon to show or hide a list of the book's chapters.
      - string
      - ``textbook.pdf.outline.toggled``
    * - ``page``
-     - integer
+     - number
      - The number of the page that is open when the user clicks this link.
 
 ``textbook.pdf.chapter.navigated``
@@ -1799,7 +1798,7 @@ enters a page number.
      - string
      - ``textbook.pdf.page.navigated``
    * - ``page``
-     - integer
+     - number
      - The destination page number entered by the user.
 
 ``textbook.pdf.zoom.buttons.changed``
@@ -1833,7 +1832,7 @@ clicks either the Zoom In or Zoom Out icon.
      - string
      - ``textbook.pdf.zoom.buttons.changed``
    * - ``page``
-     - integer
+     - number
      - The number of the page that is open when the user clicks the icon.
 
 ``textbook.pdf.zoom.menu.changed``
@@ -1868,7 +1867,7 @@ a magnification setting.
      - string
      - ``textbook.pdf.zoom.menu.changed``
    * - ``page``
-     - integer
+     - number
      - The number of the page that is open when the user selects this value.
 
 ``textbook.pdf.display.scaled``
@@ -1903,7 +1902,7 @@ magnification setting from the zoom menu or resizes the browser window.
      - string
      - ``textbook.pdf.display.scaled``
    * - ``page``
-     - integer
+     - number
      - The number of the page that is open when the scaling takes place.
 
 ``textbook.pdf.display.scrolled``
@@ -1937,7 +1936,7 @@ displayed page changes while a user scrolls up or down.
      - string
      - ``textbook.pdf.display.scrolled``
    * - ``page``
-     - integer
+     - number
      - The number of the page that is open when the scrolling takes place.
 
 ``textbook.pdf.search.executed``
@@ -1984,7 +1983,7 @@ within 500ms of each other.
      - string
      - ``textbook.pdf.search.executed``
    * - ``page``
-     - integer
+     - number
      - The number of the page that is open when the search takes place.
    * - ``query``
      - string
@@ -2042,7 +2041,7 @@ clicks on the Find Next or Find Previous icons for an entered search string.
      - string
      - ``textbook.pdf.search.navigatednext``
    * - ``page``
-     - integer
+     - number
      - The number of the page that is open when the search takes place.
    * - ``query``
      - string
@@ -2094,7 +2093,7 @@ selects or clears the **Highlight All** option for a search.
      - string
      - ``textbook.pdf.search.highlight.toggled``
    * - ``page``
-     - integer
+     - number
      - The number of the page that is open when the search takes place.
    * - ``query``
      - string
@@ -2146,7 +2145,7 @@ user selects or clears the **Match Case** option for a search.
      - string
      - ``textbook.pdf.search.casesensitivity.toggled``
    * - ``page``
-     - integer
+     - number
      - The number of the page that is open when the search takes place.
    * - ``query``
      - string
@@ -2204,11 +2203,11 @@ hint.
      - Type
      - Details
    * - ``hint_index``
-     - integer
+     - number
      - Identifier for the hint that was displayed to the user. The first hint
        defined for a problem is identified with ``hint_index: 0``.
    * - ``hint_len``
-     - integer
+     - number
      - The total number of hints defined for this problem.
    * - ``hint_text``
      - string
@@ -2315,7 +2314,7 @@ checked.
 
 **History**:
 
-* On 5 Mar 2014, the ``submission`` dictionary was added to the ``event`` field
+* On 5 Mar 2014, the ``submission`` object was added to the ``event`` field
   and  ``module`` was added to the ``context`` field.
 
 * Prior to 15 Oct 2013, this server-emitted event was named
@@ -2338,38 +2337,38 @@ field.
      - Type
      - Details
    * - ``answers``
-     - dictionary
+     - object
      - The problem ID and the internal answer identifier in a name/value pair.
        For a component with multiple problems, lists every problem and
        answer.
    * - ``attempts``
-     - integer
+     - number
      - The number of times the user attempted to answer the problem.
    * - ``correct_map``
-     - dictionary
+     - object
      - For each problem ID value listed by ``answers``, provides:
 
        * ``correctness``: string; 'correct', 'incorrect'
        * ``hint``: string; Gives optional hint. Nulls allowed.
        * ``hintmode``: string; None, 'on_request', 'always'. Nulls allowed.
        * ``msg``: string; Gives extra message response.
-       * ``npoints``: integer; Points awarded for this ``answer_id``. Nulls
+       * ``npoints``: number; Points awarded for this ``answer_id``. Nulls
          allowed.
-       * ``queuestate``: dictionary; None when not queued, else ``{key:'',
+       * ``queuestate``: object; None when not queued, else ``{key:'',
          time:''}`` where ``key`` is a secret string dump of a DateTime object
          in the form '%Y%m%d%H%M%S'. Nulls allowed.
 
    * - ``grade``
-     - integer
+     - number
      - Current grade value.
    * - ``max_grade``
-     - integer
+     - number
      - Maximum possible grade value.
    * - ``problem_id``
      - string
      - ID of the problem that was checked.
    * - ``state``
-     - dictionary
+     - object
      - Current problem state.
    * - ``submission``
      - object
@@ -2389,7 +2388,7 @@ field.
        * ``response_type``: string; The type of problem. Based on the XML
          element names used in the Advanced  Editor. Examples include
          'choiceresponse', 'optionresponse', and 'multiplechoiceresponse'.
-       * ``variant``: integer; For problems that use problem randomization
+       * ``variant``: number; For problems that use problem randomization
          features such as answer pools or choice shuffling, contains the unique
          ID of the variant that was presented to this user.
 
@@ -2420,7 +2419,7 @@ successfully.
      - Type
      - Details
    * - ``answers``
-     - dictionary
+     - object
      -
    * - ``failure``
      - string
@@ -2429,7 +2428,7 @@ successfully.
      - string
      - ID of the problem being checked.
    * - ``state``
-     - dictionary
+     - object
      - Current problem state.
 
 ``problem_graded``
@@ -2481,28 +2480,28 @@ rescored.
      - Type
      - Details
    * - ``attempts``
-     - integer
+     - number
      -
    * - ``correct_map``
-     - dictionary
+     - object
      - See the fields for the ``problem_check`` server event above.
    * - ``new_score``
-     - integer
+     - number
      -
    * - ``new_total``
-     - integer
+     - number
      -
    * - ``orig_score``
-     - integer
+     - number
      -
    * - ``orig_total``
-     - integer
+     - number
      -
    * - ``problem_id``
      - string
      - ID of the problem being rescored.
    * - ``state``
-     - dictionary
+     - object
      - Current problem state.
    * - ``success``
      - string
@@ -2534,7 +2533,7 @@ successfully rescored.
      - string
      - ID of the problem being checked.
    * - ``state``
-     - dictionary
+     - object
      - Current problem state.
 
 
@@ -2633,10 +2632,10 @@ successfully.
      - Type
      - Details
    * - ``new_state``
-     - dictionary
+     - object
      - New problem state.
    * - ``old_state``
-     - dictionary
+     - object
      - The state of the problem before the reset was performed.
    * - ``problem_id``
      - string
@@ -2665,7 +2664,7 @@ successfully.
      - string
      - 'closed', 'not_done'
    * - ``old_state``
-     - dictionary
+     - object
      - The state of the problem before the reset was requested.
    * - ``problem_id``
      - string
@@ -2691,7 +2690,7 @@ successfully.
      - Type
      - Details
    * - ``answers``
-     - dictionary
+     - object
      -
    * - ``failure``
      - string
@@ -2700,7 +2699,7 @@ successfully.
      - string
      - ID of the problem being saved.
    * - ``state``
-     - dictionary
+     - object
      - Current problem state.
 
 ``save_problem_success``
@@ -2723,13 +2722,13 @@ successfully.
      - Type
      - Details
    * - ``answers``
-     -  dictionary
+     -  object
      -
    * - ``problem_id``
      - string
      - ID of the problem being saved.
    * - ``state``
-     - dictionary
+     - object
      - Current problem state.
 
 ``show_answer``
@@ -2823,13 +2822,13 @@ delivered for the first time.
      - string
      - Identifies the randomized content block component.
    * - ``max_count``
-     - integer
+     - number
      - The **Count** specified by a course team member in Studio. Defines the
        number of library components to deliver. This number is greater than
        the number of library components listed by the ``result`` field only
        when the library has too few matching blocks available.
    * - ``previous_count``
-     - integer
+     - number
      - The number of components assigned to this student before this event.
        The first time the user views the randomized content block, this value
        is 0.
@@ -2999,7 +2998,7 @@ purpose for comments as they do for threads or responses.
      - Type
      - Details
    * - ``response``
-     - dictionary
+     - object
      - Contains a member ``id`` field with the unique identifier of the
        response that the user added this comment to.
 
@@ -3045,7 +3044,7 @@ The following additional ``event`` member field applies specifically to
      - Type
      - Details
    * - ``discussion``
-     - dictionary
+     - object
      - Contains a member ``id`` field with the unique identifier of the thread
        that the user responded to.
 
@@ -3085,7 +3084,7 @@ Jun 2014. The ``group_id`` field was added 7 October 2014.
        Otherwise, this field is null.
 
    * - ``group_id``
-     - integer
+     - number
      - The numeric ID of the cohort to which the user's search is
        restricted, or ``null`` if the search is not restricted in this way.
 
@@ -3098,7 +3097,7 @@ Jun 2014. The ``group_id`` field was added 7 October 2014.
        search.
 
    * - ``page``
-     - integer
+     - number
      - Results are returned in sets of 20 per page.
 
        Identifies the page of results requested by the user.
@@ -3107,7 +3106,7 @@ Jun 2014. The ``group_id`` field was added 7 October 2014.
      - string
      - The text entered into the search box by the user.
    * - ``total_results``
-     - integer
+     - number
      - The total number of results matching the query.
 
 .. _forum_thread:
@@ -3195,7 +3194,7 @@ complete, the server emits an ``edx.forum.thread.created`` event.
        ``edx.forum.comment.created`` events.
 
    * - ``options``
-     - dictionary
+     - object
      - Contains the ``followed`` Boolean, which identifies whether the user
        elected to track the responses that others make to this post.
 
@@ -3357,7 +3356,7 @@ peer's response or submits a self-assessment of her own response.
        possible`` is 0 and the ``option`` field is not included.
 
    * - ``rubric``
-     - dictionary
+     - object
      - This field contains the member field ``contenthash``, which identifies
        the rubric that the student used to assess the response.
    * - ``scored_at``
@@ -3425,7 +3424,7 @@ assessment.
      - Type
      - Details
    * - ``answer``
-     - dictionary
+     - object
      - This field contains a ``text`` (string) member field for the response.
 
        For responses that also include an image file, this field contains a
@@ -3434,7 +3433,7 @@ assessment.
        service. This key is provided for reference only.
 
    * - ``attempt_number``
-     - int
+     - number
      - This value is currently always set to 1.
    * - ``created_at``
      - datetime
@@ -3467,7 +3466,7 @@ save responses before they submit them for assessment.
      - Type
      - Details
    * - ``saved_response``
-     - dictionary
+     - object
      - This field contains a ``text`` (string) member field for the response.
 
        For responses that also include an image file, this field contains a
@@ -3538,7 +3537,7 @@ the response.
      - The name of the uploaded file, as stored on the student's client
        machine.
    * - ``fileSize``
-     - int
+     - number
      - The size of the uploaded file in bytes. Reported by the student's
        browser.
    * - ``fileType``
@@ -3869,15 +3868,15 @@ If the student does not yet have an assignment, the server emits an
      - Type
      - Details
    * - ``group_id``
-     - integer
+     - number
      - Identifier of the group.
    * - ``group_name``
      - string
      - Name of the group.
    * - ``partition_id``
-     - integer
+     - number
      - Identifier for the partition, in the format
-       ``xblock.partition_service.partition_ID`` where ID is an integer.
+       ``xblock.partition_service.partition_ID`` where ID is a number.
    * - ``partition_name``
      - string
      - Name of the partition.
@@ -3953,7 +3952,7 @@ Instructor Dashboard to create a cohort. See
      - Type
      - Details
    * - ``cohort_id``
-     - integer
+     - number
      - The numeric ID of the cohort.
    * - ``cohort_name``
      - string
@@ -3987,13 +3986,13 @@ Instructor Dashboard to add a user to a cohort. See
      - Type
      - Details
    * - ``cohort_id``
-     - integer
+     - number
      - The numeric ID of the cohort.
    * - ``cohort_name``
      - string
      - The display name of the cohort.
    * - ``user_id``
-     - integer
+     - number
      - The numeric ID (from ``auth_user.id``) of the added user.
 
 ``edx.cohort.user_removed``
@@ -4016,13 +4015,13 @@ Instructor Dashboard, the server emits an ``edx.cohort.user_removed`` event.
      - Type
      - Details
    * - ``cohort_id``
-     - integer
+     - number
      - The numeric ID of the cohort.
    * - ``cohort_name``
      - string
      - The display name of the cohort.
    * - ``user_id``
-     - integer
+     - number
      - The numeric ID (from ``auth_user.id``) of the removed user.
 
 
@@ -4342,7 +4341,7 @@ event type also includes the following ``event`` member fields.
      - Type
      - Details
    * - ``number_of_results``
-     - integer
+     - number
      - The count of results that matched the search text.
    * - ``search_text``
      - string
@@ -4404,7 +4403,7 @@ event type also includes the following ``event`` member fields.
            - Type
            - Details
          * - ``assertion_id``
-           - integer
+           - number
            - The unique ID of the BadgeAssertion object.
          * - ``assertion_image_url``
            - string
@@ -4424,7 +4423,7 @@ event type also includes the following ``event`` member fields.
            - string
            - The URL of the badge issuer's web site.
          * - ``user_id``
-           - integer
+           - number
            - The numeric ID of the learner who earned this badge.
 
 
@@ -4560,7 +4559,7 @@ When a certificate is generated, a record is created in the
        course by a batch command, or whether a learner generated her own
        certificate. Possible values are "batch" and "self".
    * - ``user_id``
-     - integer
+     - number
      - The numeric ID of the learner who earned this certificate.
 
 
@@ -4708,13 +4707,13 @@ user hides or redisplays a combined open-ended problem.
      - Type
      - Details
    * - ``category``
-     - integer
+     - number
      - Rubric category selected.
    * - ``location``
      - string
      - The location of the question whose rubric is being selected.
    * - ``selection``
-     - integer
+     - number
      - Value selected on rubric.
 
 ``oe_show_full_feedback`` and ``oe_show_respond_to_feedback``
@@ -4743,7 +4742,7 @@ user hides or redisplays a combined open-ended problem.
      - Type
      - Details
    * - ``value``
-     - integer
+     - number
      - Value selected in the feedback response form.
 
 ``peer_grading_hide_question`` and ``peer_grading_show_question``
@@ -5195,7 +5194,7 @@ event.
      - Type
      - Details
    * - ``cohort_id``
-     - integer
+     - number
      - The numeric ID of the cohort.
    * - ``cohort_name``
      - string
@@ -5223,13 +5222,13 @@ uploading a .csv file of student cohort assignments.
      - Type
      - Details
    * - ``cohort_id``
-     - integer
+     - number
      - The numeric ID of the cohort.
    * - ``cohort_name``
      - string
      - The display name of the cohort.
    * - ``previous_cohort_id``
-     - integer
+     - number
      - The numeric ID of the cohort that the user was previously assigned to.
 
        Null if the user was not previously assigned to a cohort.
@@ -5241,7 +5240,7 @@ uploading a .csv file of student cohort assignments.
        Null if the user was not previously assigned to a cohort.
 
    * - ``user_id``
-     - integer
+     - number
      - The numeric ID (from ``auth_user.id``) of the added user.
 
 
