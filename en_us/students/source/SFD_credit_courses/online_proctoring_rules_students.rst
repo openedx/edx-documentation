@@ -114,11 +114,12 @@ The Computer You are Taking the Test With
 #. Before starting your proctored exam, close all other programs or windows on
    your testing computer.
 
-#. The following tools should not be during your proctored exam.
+#. The following tools should not be used during your proctored exam. 
 
- * Programs such as Excel, Word, Powerpoint.
- * Any website other than edX.org.
- * Communication programs such as Skype.
+   * Programs such as Excel, Word, Powerpoint.
+   * Any website other than edX.org.
+   * Communication programs such as Skype.
+
 
 ==========================================
 Your Personal Behavior
