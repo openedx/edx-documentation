@@ -22,10 +22,11 @@ November 2015
 
    * - Date
      - Change
+   * - 3 November 2015
+     - Added the :ref:`Timed Exams` topic.
    * - 2 November 2015
      - Updated the format of course component location identifiers throughout
        this guide.
-
 
 ****************
 October 2015

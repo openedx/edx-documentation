@@ -120,9 +120,10 @@ Know the Rules and Requirements for Online Proctoring
 
 * You must be on certain versions of the Windows or Mac operating systems for
   the proctoring software to work. Check the `Proctoring Software System
-  Requirements`_ to make sure you are using a supported operating system
-  version and that your computer meets the minimum system requirements for
-  running the remote proctoring software.
+  Requirements <http://clientportal.softwaresecure.com/support/index.php?/Knowledgebase/
+  Article/View/252/0/system-requirements-remote-proctor-now>`_ to make sure you are using
+  a supported operating system version and that your computer meets the minimum system 
+  requirements for running the remote åproctoring software.
 
 * You must be using one of the browser versions supported by edX. Check the
   :ref:`list of edX supported browsers <Browsers>` to make sure you are using
@@ -136,6 +137,7 @@ Know the Rules and Requirements for Online Proctoring
 ===============================================
 Request Additional Time or Special Allowances
 ===============================================
+<<<<<<< HEAD
 
 If you need more time to complete your proctored exam or require exemption
 from particular exam policies, ask your course team or instructor about this
@@ -761,12 +763,13 @@ means for your credit eligibility.
    achieve on your exam. It is possible for you to receive a **Satisfactory**
    result on the proctoring review, but not earn enough points to qualify for
    a passing grade on the exam. Conversely, you might receive a passing grade
-   on the exam questions, but you the proctoring review results might be
+   on the exam questions, but the proctoring review results might be
    **Unsatisfactory**.
 
    Any Unsatisfactory result on the proctoring review means that you cannot
    apply for credit for the course, regardless of the grade you achieved in the
    exam or in the course.
+
 
 =========================================
 Credit Eligibility on Your Progress Page
