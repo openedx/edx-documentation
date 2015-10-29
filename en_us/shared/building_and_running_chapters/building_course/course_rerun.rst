@@ -73,10 +73,6 @@ For more information, see :ref:`Use Re-Run to Create a Course` and
 Using Re-Run to Create a Course
 ********************************************
 
-Before you re-run a course, make sure that its settings and content are
-complete. Additions and changes that you make to the original course after you
-create the new course are not propagated to the new course.
-
 .. only:: Partners
 
   Only edX Partner Managers have the permissions needed to re-run a course. To
@@ -91,6 +87,12 @@ create the new course are not propagated to the new course.
   a course. To re-run a course, contact your system administrator. After your
   system administrator creates a new course using the re-run feature, you can
   complete the steps to :ref:`update the new course<Update the New Course>`.
+
+Before you re-run a course, make sure that its settings and content are
+complete. Additions and changes that you make to the original course after you
+create the new course are not propagated to the new course.
+
+.. commented out
 
   #. Log in to Studio. Your dashboard lists the courses that you have access
      to as a course team member.
