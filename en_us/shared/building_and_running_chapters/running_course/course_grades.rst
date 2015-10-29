@@ -71,7 +71,7 @@ Generate a Grade Report for Enrolled Learners (All Courses)
 ***********************************************************
 
 For any course, you can generate grades and then download a file with the
-results for each enrolled learner. 
+results for each enrolled learner.
 
 When you initiate calculations to grade student work, a process starts on the
 edX servers. The complexity of your grading configuration and the number of
@@ -110,7 +110,7 @@ enrolled in your course, follow these steps.
    reports appear at the top of the list.
 
 5. To open or save a grade report file, locate and click the link for the
-   grade report you requested. 
+   grade report you requested.
 
    You can open .csv files in a spreadsheet application to sort, graph, and
    compare data.
@@ -155,7 +155,7 @@ additional columns indicating the name of the cohort or experiment group that
 each learner belongs to.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/Grade_Report.png
-  :alt: A course grade report, opened in Excel, showing the grades achieved by 
+  :alt: A course grade report, opened in Excel, showing the grades achieved by
         students on several homework assignments and the midterm
 
 The grade report .csv file contains one row of data for each learner, and
@@ -305,7 +305,7 @@ provide the following information.
 * For each problem (identified by assignment, subsection, and problem name), a
   column showing the number of points actually earned by each learner. If a
   learner has not viewed a problem, the value in this column is "N/A". If
-  a learner has not answered a problem, the value in this column is "0".  
+  a learner has not answered a problem, the value in this column is "0".
 
 * For each problem (identified by assignment, subsection, and problem name), a
   column showing the number of points that it is possible to earn for the
@@ -320,7 +320,7 @@ Review Grades for Enrolled Learners (Small Courses)
 ********************************************************
 
 For courses with enrollments of up to 200 learners, you can review a gradebook
-on the Instructor Dashboard. 
+on the Instructor Dashboard.
 
 #. View the live version of your course.
 
@@ -397,8 +397,8 @@ To view the **Progress** page for a learner, follow these steps.
    reflect any cohort or experiment group assignments.
 
    .. image:: ../../../shared/building_and_running_chapters/Images/Student_Progress.png
-    :alt: Progress page chart for a learner: includes a column graph with the 
-          score achieved for each assignment 
+    :alt: Progress page chart for a learner: includes a column graph with the
+          score achieved for each assignment
 
    To learn more about a particular assignment, move the cursor onto the value
    in the chart. A brief description displays.
@@ -413,8 +413,8 @@ To view the **Progress** page for a learner, follow these steps.
    problem scores display.
 
    .. image:: ../../../shared/building_and_running_chapters/Images/Student_Progress_list.png
-    :alt: Bottom portion of a Progress page for the same student with the 
-          score achieved for each problem in the first course subsection 
+    :alt: Bottom portion of a Progress page for the same student with the
+          score achieved for each problem in the first course subsection
 
 =============================================
 Interpret the Student Progress Page
@@ -429,7 +429,7 @@ In this example grade report, the indicated learner has a current grade of 0.43
 (43%).
 
 .. image:: ../../../shared/building_and_running_chapters/Images/Grade_Report_example.png
- :alt: A course grade report with a single student's information indicated by 
+ :alt: A course grade report with a single student's information indicated by
        a rectangle
 
 * On each of the first four homework assignments the learner scored 1 (100%),
@@ -447,14 +447,14 @@ On the learner's **Progress** page, you see the same information graphically
 represented; however, the student's "total" of 43% is on the far right.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/Student_Progress.png
- :alt: Progress page for a student also included on the grade report: includes 
-       a column graph with the grade achieved for each assignment 
+ :alt: Progress page for a student also included on the grade report: includes
+       a column graph with the grade achieved for each assignment
 
 The chart on the **Progress** page includes y-axis labels for the grade ranges
 defined for the course. In this example, Pass is set to 60%, so at the end of
 the course, learners with a grade of 0.60 or higher can receive certificates.
 
-.. note:: Learner scores on the **Progress** page are a snapshot of the 
+.. note:: Learner scores on the **Progress** page are a snapshot of the
  current state of the problem score database. They can, at times, be out of
  sync with actual problem scores. For example, asynchronicities can occur if
  the weight of a live problem was changed during an assignment, and not all
@@ -472,11 +472,11 @@ displays at the top of this page, above the subsection scores. Progress is
 visualized as a chart with entries for all the assignments, total percentage
 earned in the course so far, and percent needed for each grade cutoff. Here is
 an example of a learner's progress through edX101.
- 
+
 .. image:: ../../../shared/building_and_running_chapters/Images/StudentView_GradeCutoffs.png
  :alt: Image of a student's Course Progress page with the grade cutoffs legend
        highlighted
- 
+
 The learner can see from this page that edX101 was graded as a Pass/Fail
 course with a cutoff of 34% and that the grading rubric contained one
 assignment type, called Learning Sequence, consisting of 11 assignments total.
@@ -484,15 +484,15 @@ Furthermore, this particular learner has only submitted correct responses to
 two assignments, and her current total percent grade in the course is 6%. By
 hovering over each progress bar, learners can get further statistics of how
 much each assignment was counted as.
- 
+
 Further down on the **Progress** page is a list of all the subsections in the
 course, with the scores recorded for the learner for all problems in the
 course. Here is the **Progress** page for the learner in the example above:
- 
+
 .. image:: ../../../shared/building_and_running_chapters/Images/StudentView_Problems.png
    :width: 800
    :alt: Image of a student's Course Progress page with problems highlighted
- 
+
 Note that point scores from graded sections are called "Problem Scores",
 while point scores from ungraded sections are called "Practice Scores".
 
@@ -511,22 +511,25 @@ change is unavoidable, you can make the following adjustments.
 
 * Rescore the submitted answer to reevaluate student work on a problem. You
   can rescore a problem for a single learner or for all of the students
-  enrolled in the course. See :ref:`rescore`.
+  enrolled in the course.
+
+  In some cases, errors occur when you rescore problems if your problem has
+  multiple answer fields. For more information, see :ref:`rescore`.
 
 * Reset the number of times a learner has attempted to answer a problem to
   zero so that he can try again. You can reset the number of attempts for a
-  single learner or for all learners enrolled in the course. See
-  :ref:`reset_attempts`.
+  single learner or for all learners enrolled in the course. For more
+  information, see :ref:`reset_attempts`.
 
 * Delete a learner's database history, or "state", completely for a problem.
-  You can only delete learner state for one learner at a time. For example, you
-  realize that a problem needs to be rewritten after only a few of your
-  students have answered it. To resolve this situation, you rewrite the problem
-  and then delete learner state only for the affected students so that they can
-  try again. See :ref:`delete_state`.
+  You can only delete learner state for one learner at a time. For example,
+  you realize that a problem needs to be rewritten after only a few of your
+  students have answered it. To resolve this situation, you rewrite the
+  problem and then delete learner state only for the affected students so that
+  they can try again. For more information, see :ref:`delete_state`.
 
 To make adjustments to learner grades, you need the unique location identifier
-of the modified problem. See :ref:`find_URL`.
+of the modified problem. For more information, see :ref:`find_URL`.
 
 .. _find_URL:
 
@@ -538,12 +541,12 @@ When you create each of the problems for a course, edX assigns a unique
 location to it. To make grading adjustments for a problem, or to view data
 about it, you need to specify the problem location.
 
-Location identifiers for problems can be in one of these formats. 
+Location identifiers for problems can be in one of these formats.
 
 * ``location = block-v1:{org}+{course}+{run}+type@problem+block@{id}``, for
   example, ``location = block-v1:edX+BlendedX+1T2015+type@problem+block@72e0f73cdf5c4d648ebec0022854f18b``
 
-* ``location = i4x://{org}/{course}/problem/{id}``, for example, 
+* ``location = i4x://{org}/{course}/problem/{id}``, for example,
   ``location = i4x://edX/edX101/problem/680cc746e8ee473490841334f0235635``
 
 Courses created since Fall 2014 typically have usage IDs in the first format,
@@ -571,7 +574,7 @@ viewer.
 .. _rescore:
 
 ==========================================
-Rescore Student Submissions for a Problem 
+Rescore Student Submissions for a Problem
 ==========================================
 
 Each problem that you define for your course includes a correct answer, and may
@@ -580,9 +583,18 @@ change to these values, you can rescore any responses that were already
 submitted. For a specified problem, you can rescore the work submitted by a
 single student, or rescore the submissions made by every enrolled student.
 
-.. note:: You can only rescore problems that have a correct answer entered in 
+.. note::
+ You can only rescore problems that have a correct answer entered in
  edX Studio. This procedure cannot be used to rescore problems that are scored
  by an external grader.
+
+ Additionally, errors occur if you rescore a problem that has multiple response
+ fields and you have completed any of the following actions.
+
+ * You removed a response field.
+ * You added a response field.
+ * You reordered any of the response fields.
+
 
 Rescore a Submission for an Individual Student
 -----------------------------------------------
@@ -613,7 +625,7 @@ See :ref:`find_URL`. To rescore a problem:
 
 #. View the live version of your course.
 
-#. Click **Instructor**, then click **Student Admin**. 
+#. Click **Instructor**, then click **Student Admin**.
 
 #. In the **Course-Specific Grade Adjustment** section of the page, enter the
    unique problem location, and then click **Rescore ALL students' problem
@@ -631,7 +643,7 @@ See :ref:`find_URL`. To rescore a problem:
 
    A table displays the status of the rescore process for each student or problem.
 
-.. note:: You can use a similar procedure to rescore the submission for a 
+.. note:: You can use a similar procedure to rescore the submission for a
  problem by a single student. You work in the **Student-Specific Grade
  Adjustment** section of the page to enter both the student's email address or
  username and the unique problem identifier, and then click **Rescore Student
@@ -640,7 +652,7 @@ See :ref:`find_URL`. To rescore a problem:
 .. _reset_attempts:
 
 =====================================
-Reset Student Attempts for a Problem 
+Reset Student Attempts for a Problem
 =====================================
 
 When you create a problem, you can limit the number of times that a student can
@@ -680,7 +692,7 @@ attempts for all students:
 
 #. View the live version of your course.
 
-#. Click **Instructor**, then click **Student Admin**. 
+#. Click **Instructor**, then click **Student Admin**.
 
 #. To reset the number of attempts for all enrolled students, you work in the
    **Course-Specific Grade Adjustment** section of the page. Enter the unique
@@ -699,7 +711,7 @@ attempts for all students:
    A table displays the status of the reset process for each student or
    problem.
 
-.. note:: You can use a similar procedure to reset problem attempts for a 
+.. note:: You can use a similar procedure to reset problem attempts for a
  single student. You work in the **Student-Specific Grade Adjustment** section
  of the page to enter both the student's email address or username and the
  unique problem identifier, and then click **Reset Student Attempts**.
@@ -711,9 +723,9 @@ Delete Student State for a Problem
 ==================================
 
 To delete a student's entire history for a problem from the database, you need
-that student's username or email address. 
+that student's username or email address.
 
-.. important:: Student state is deleted permanently by this process. This 
+.. important:: Student state is deleted permanently by this process. This
  action cannot be undone.
 
 You can use either the Staff Debug viewer or the Instructor Dashboard to delete
@@ -739,9 +751,9 @@ To use the Staff Debug viewer:
 To use the Instructor Dashboard, you need the unique identifier of the problem.
 See :ref:`find_URL`.
 
-#. Click **Instructor**, then click **Student Admin**. 
+#. Click **Instructor**, then click **Student Admin**.
 
 #. In the **Student-Specific Grade Adjustment** section of the page, enter both
    the student's email address or username and the unique problem identifier,
    and then click **Delete Student State for Problem**.
-   
+
