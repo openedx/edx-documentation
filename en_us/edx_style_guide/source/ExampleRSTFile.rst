@@ -94,7 +94,11 @@ Use asterisks for bulleted lists.
 * What topics and concepts are covered in your course?
 * Why should a learner enroll in your course?
 
+<<<<<<< HEAD
 To create a bulleted list inside a numbered list, make sure that you indent
+=======
+If you have a bulleted list inside a numbered list, make sure that you indent
+>>>>>>> Proctoring Doc
 the bulleted list only two spaces instead of three. The bulleted list cannot
 be flush with the text in the numbered list, or it will appear as a numbered
 list.

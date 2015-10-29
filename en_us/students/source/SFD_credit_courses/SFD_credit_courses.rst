@@ -62,6 +62,10 @@ reverification inside the course and proctored exams.
   software. To pass a proctored exam, you must receive both a passing grade
   for the exam itself and a Pass result when the recording of your proctoring
   session is reviewed. 
+* Proctored exams are exams with time limits that you complete while online
+  proctoring software monitors your computer. To pass a proctored exam, you
+  must receive both a passing grade for the exam itself and a **Satisfactory** 
+  result when the recording of your proctoring session is reviewed.
 
   For more information about proctored exams, see :ref:`SFD_ProctoredExams`.
 
