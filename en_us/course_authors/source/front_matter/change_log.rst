@@ -22,7 +22,10 @@ October 2015
 
    * - Date
      - Change
-   * - 26 October 2014
+   * - 29 October 2015
+     - Added the :ref:`Offering Academic Course Credit` section, including
+       topics about :ref:`CA_ProctoredExams`.
+   * - 26 October 2015
      - Added the :ref:`Reporting Certificate Data` topic.
    * - 21 October 2015
      - Added the :ref:`Oppia Exploration Tool` topic.
