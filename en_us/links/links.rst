@@ -283,9 +283,11 @@
 
 .. _Oppia User Documentation: https://oppia.github.io/
 
+.. _Office Mix: http://www.mixforteachers.com/what-is-office-mix.html
 
+.. _Office Mix gallery: https://mix.office.com/Gallery
 
-
+.. _Office Mix Knowledge Base: https://officemix.uservoice.com/knowledgebase
 
 
 
