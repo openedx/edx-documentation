@@ -4,6 +4,18 @@
 Course Prerequisites
 ######################
 
+
+This topic describes how to take prerequisites, if required, in your edX
+course.
+
+.. contents:: 
+  :local: 
+  :depth: 1
+
+**************************
+Overview of Prerequisites
+**************************
+
 Some edX courses require that you have a particular set of skills or knowledge
 before you begin the course. Many courses include information about these
 general requirements on their About page.
@@ -76,3 +88,5 @@ left pane, and you can access all available course materials.
 The course team can allow students to skip the entrance exam. If a course team
 member allows you to skip the entrance exam, you do not see the entrance exam
 when you access the course.
+
+.. include:: ../../links/links.rst

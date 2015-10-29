@@ -4,7 +4,7 @@
 Getting Started
 ###################
 
-This section describes the steps you take before you begin your first edX
+This topic describes the steps you take before you begin your first edX
 course.
 
 .. contents:: 

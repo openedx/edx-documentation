@@ -4,15 +4,22 @@
 Course and Video Licenses
 ##########################
 
-The course author can specify licensing options for course content as well as
-for each video in the course.
-
-The course and video licenses specify whether and how you can reuse course
+This topic describes licenses in your course and restrictions on using course
 content.
 
 .. contents::
   :local:
   :depth: 1
+
+****************************
+Overview of Licenses
+****************************
+
+The course author can specify licensing options for course content as well as
+for each video in the course.
+
+The course and video licenses specify whether and how you can reuse course
+content.
 
 ****************************
 All Rights Reserved
@@ -59,7 +66,6 @@ A Creative Commons license has one or more of the following options.
 
 For more information, see the `Creative Commons website`_.
 
-.. _Creative Commons website: http://creativecommons.org/licenses
 
 *************************************
 Viewing Licenses
@@ -81,3 +87,5 @@ the license at the bottom right of the video player.
 
 For a license that reserves some, but not all, rights, you can select the
 license to get see information about your rights.
+
+.. include:: ../../links/links.rst

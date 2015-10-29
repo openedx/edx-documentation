@@ -5,22 +5,18 @@
 Add, Edit, or Delete a Post, Response, or Comment
 #########################################################
 
-You can add, edit, or delete contributions to discussions from inside the course
-or from the **Discussion** page.
+This topic describes how to add, edit, and delete contributions to discussions
+from inside the course or from the **Discussion** page.
 
-* :ref:`Add a Post`
-* :ref:`Add Response`
-* :ref:`Edit or Delete`
-
-************************************
-Add a Post, Response, or Comment
-************************************
+.. contents:: 
+  :local:
+  :depth: 1
 
 .. _Add a Post:
 
-==============
+***********
 Add a Post
-==============
+***********
 
 When you add a post to a discussion in your course, you decide what type of
 post to make and the topic of the post. You then add the post either directly
@@ -65,11 +61,11 @@ Determine the Post Topic
 *************************
 
 Every post in the course discussions has an associated topic. The course team
-creates the list of discussion topics for each course, and you'll choose a topic
-from the list when you create your post. Before you add a post, you should look
-through the list of topics in the course discussions so that you can decide
-which topic is the most appropriate for your post. For more information, see
-:ref:`Explore Posts`.
+creates the list of discussion topics for each course, and you'll choose a
+topic from the list when you create your post. Before you add a post, you
+should look through the list of topics in the course discussions so that you
+can decide which topic is the most appropriate for your post. For more
+information, see :ref:`Explore Posts`.
 
 After you've decided on a post type and topic, you can add your post on the
 **Discussion** page or in the body of the course.
@@ -81,26 +77,25 @@ Add a Post on the Discussion Page
 You can add a post for course-wide or content-specific discussion
 topics on the **Discussion** page.
 
-#. Click the **Discussion** page.
+#. Select the **Discussion** page.
 
-#. In the upper-right corner, click **New Post**.
+#. In the upper-right corner, select **New Post**.
 
-#. Click **Question** or **Discussion** to select the type of post that you want
-   to create.
+#. Select **Question** or **Discussion** to select the type of post that you
+   want to create.
 
 #. Select the most appropriate discussion topic for your post.
 
-  .. image:: ../../../shared/students/Images/Discussion_course_wide_post.png
+   .. image:: ../../../shared/students/Images/Discussion_course_wide_post.png
     :width: 300 
-    :alt: Selecting the topic for a new post on the Discussion page 
+    :alt: Selecting the topic for a new post on the Discussion page.
 
-5. In the **Title** box, supply a short, descriptive title. The title is the
+#. In the **Title** box, enter a short, descriptive title. The title is the
    part of your post that others see when they are browsing on the
    **Discussion** page or scrolling through one of the content-specific topics.
 
 #. Enter the complete text of your post. To format the text or add links or
-   images, click the buttons above the text field.
-
+   images, select the buttons above the text field.
 
 In a few courses, you can add posts, responses, and comments anonymously. If
 this is the case, you'll see a **Post Anonymously** check box under the field
@@ -116,25 +111,25 @@ you know where in the course a particular discussion originates, you can add a
 post for that discussion right from the unit in your course. This only applies
 to content-specific discussions.
 
-#. Click **Courseware**.
+#. Select **Courseware**.
 
 #. Open the unit in the course that includes the discussion topic that you want
    to add to.
 
-#. Click **Show Discussion** to read what others have already contributed to the
-   conversation.
+#. Select **Show Discussion** to read what others have already contributed to
+   the conversation.
 
    You can scroll through the posts that have already been added: the title and
    the first sentence or two of each post appear. To read an entire post, view
-   the responses to it, and see any comments, click **Expand discussion**.
+   the responses to it, and see any comments, select **Expand discussion**.
   
-4. Click **New Post** to add a post.
+#. Select **New Post** to add a post.
 
    .. image:: ../../../shared/students/Images/Discussion_content_specific_post.png
      :width: 500
-     :alt: Adding a post about specific course content
+     :alt: Adding a post about specific course content.
 
-5. Click **Question** or **Discussion** to select the type of post you want to
+#. Select **Question** or **Discussion** to select the type of post you want to
    create.
 
 #. In the **Title** field, enter a short, descriptive identifier for your post.
@@ -142,9 +137,8 @@ to content-specific discussions.
    the **Discussion** page or scrolling through one of the content-specific
    topics.
 
-#. Enter the complete text of your post. Click the buttons above the text field
-   to see options for formatting the text and for adding links or images.
-
+#. Enter the complete text of your post. Select the buttons above the text
+   field to see options for formatting the text and for adding links or images.
 
 In a few courses, you can add posts, responses, and comments anonymously. If
 this is the case, you'll see a **Post Anonymously** check box under the field
@@ -156,7 +150,6 @@ team can see your username, but other students cannot.
 ==============================
 Add a Response or Comment
 ==============================
-
 
 To participate in an ongoing discussion, you reply to the initial post by
 adding a response, or expand on a particular response by adding a comment.
@@ -180,16 +173,16 @@ topics on the **Discussion** page.
 
 #. Add a response or comment.
 
- - To add a response to the post, click **Add A Response**. When your response
-   is complete, click **Submit**.
+   * To add a response to the post, select **Add A Response**. When your
+     response is complete, select **Submit**.
 
-  .. image:: ../../../shared/students/Images/Discussion_add_response.png
-    :width: 500
-    :alt: The **Add A Response** button located between a post and its 
-          responses 
+     .. image:: ../../../shared/students/Images/Discussion_add_response.png
+       :width: 500
+       :alt: The **Add A Response** button located between a post and its 
+          responses.
 
- - To add a comment to a response, click inside the **Add a comment** field below
-   the response. When your comment is complete, click **Submit**.  
+   * To add a comment to a response, select inside the **Add a comment** field
+     below the response. When your comment is complete, select **Submit**.
 
 *******************************************
 Add a Response or Comment in a Course Unit
@@ -199,24 +192,24 @@ You can add a response or comment to a content-specific discussion
 topic inside the course.
 
 #. In the unit that contains the discussion topic where you want to make
-   your contribution, click **Show Discussion**. 
+   your contribution, select **Show Discussion**. 
 
 #. Scroll to the post that you want to contribute to. To help you decide
    where to add your thoughts, review the current responses and their comments.
 
-#. Under the text of the post, click **Expand discussion**.
+#. Under the text of the post, select **Expand discussion**.
    
-  .. image:: ../../../shared/students/Images/Discussion_expand.png
+   .. image:: ../../../shared/students/Images/Discussion_expand.png
     :width: 500
     :alt: The **Expand discussion** link under a post
 
-4. Add a response or comment.
+#. Add a response or comment.
 
- - To add a response to the post, click **Add A Response**. When your response
-   is complete, click **Submit**.
+   * To add a response to the post, select **Add A Response**. When your
+     response is complete, select **Submit**.
 
- - To add a comment to a response, click inside the **Add a comment** field below
-   the response. When your comment is complete, click **Submit**.
+   * To add a comment to a response, select inside the **Add a comment** field
+     below the response. When your comment is complete, select **Submit**.
 
 .. _Edit or Delete:
 
@@ -230,20 +223,20 @@ cannot edit or delete contributions from other students.
 #. Locate the contribution that you want to edit or delete, either in the body
    of the course or on the **Discussion** page.
 
-#. In the upper-right corner of the contribution, click the "More" icon (...). A
-   menu opens.
+#. In the upper-right corner of the contribution, select the "More" icon (...).
+   A menu opens.
 
    .. image:: ../../../shared/students/Images/Disc_EditDelete.png
     :width: 500
-    :alt: Response with the "More" menu expanded, showing Edit, Delete, and Report options
+    :alt: Response with the "More" menu expanded, showing Edit, Delete, and
+        Report options.
 
 #. Edit or delete the contribution.
 
- - To edit the contribution, click **Edit**, make the changes that you want in
-   the text editor that opens, and then click **Update Response**. For posts,
-   you can change the post topic and the post type as well as the text of the
-   post.
+   * To edit the contribution, select **Edit**, make the changes that you want
+     in the text editor that opens, and then select **Update Response**. For
+     posts, you can change the post topic and the post type as well as the text
+     of the post.
 
- - To delete the contribution, click **Delete**, and then click **OK** in the
-   pop-up confirmation box.
-
+   * To delete the contribution, select **Delete**, and then select **OK** in
+     the pop-up confirmation box.
