@@ -92,7 +92,9 @@ Before you re-run a course, make sure that its settings and content are
 complete. Additions and changes that you make to the original course after you
 create the new course are not propagated to the new course.
 
-.. commented out
+.. Commented out the procedure to create rerun, since only Global Admins can
+   do this (edX internal or if assigned in Django for OS). Done as part of DOC-2236 (CT, Sept 11, 2015)
+   To re-run a course, follow these steps.
 
   #. Log in to Studio. Your dashboard lists the courses that you have access
      to as a course team member.
