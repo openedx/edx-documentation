@@ -20,17 +20,17 @@ You can enable learners to share courses and certificates that they earn on
 social media sites such as Facebook and Twitter.
 
 To use this feature on your instance of Open edX, you must configure social
-sharing settings. 
+sharing settings.
 
 Optionally, you can also enable course teams to set custom URLs for social
 sharing. If a course team sets a custom course URL, posts to the social sharing
 site can include a link back to that URL. If you do not enable custom course
 URLS, a link to the course About page in the LMS is used.
 
-.. note::  
+.. note::
    Before proceeding, review :ref:`Guidelines for Updating the Open edX
    Platform`.
-   
+
 *******************************
 Configure Social Sharing
 *******************************
@@ -40,7 +40,7 @@ file, which is located one level above the ``edx-platform`` directory.
 
 #. In the ``lms.env.json`` file, modify the ``SOCIAL_SHARING_SETTINGS``
    dictionary as needed.
-   
+
    .. code-block:: bash
 
         SOCIAL_SHARING_SETTINGS = {
@@ -56,7 +56,7 @@ file, which is located one level above the ``edx-platform`` directory.
 
    a. For each social sharing icon that you want to enable, set the value of
       the setting to ``True``.
- 
+
    b. If you set ``DASHBOARD_TWITTER`` or ``CERTIFICATE_TWITTER`` to ``True``,
       you can also specify default text that learners will see in the Twitter
       sharing dialog and that can be included in their tweet. Set the default
@@ -102,7 +102,7 @@ file, which is located one level above the ``edx-platform`` directory.
             "icon": "fa-linkedin-square",
             "action": _("Follow {platform_name} on LinkedIn")
         }
-     }   
+     }
 
 #. Save the ``lms.env.json`` file.
 
@@ -126,7 +126,7 @@ parameter is the only social sharing setting.
 When finished, save the ``lms.env.json`` and ``cms.env.json`` files.
 
 =================================
-Set a Custom URL for a Course 
+Set a Custom URL for a Course
 =================================
 
 When you enable custom course URLs in your instance of Open edX, course teams
@@ -139,7 +139,7 @@ This URL is provided to the social sharing site for linking back to a course
 location. This URL is used only if you have enabled custom URLs in your
 instance of Open edX.
 
-.. note:: If custom URLs are enabled but a course team does not provide a  
+.. note:: If custom URLs are enabled but a course team does not provide a
   value in the **Social Media Sharing URL** advanced setting in Studio,
   social sharing icons are not visible in the LMS for that course.
 

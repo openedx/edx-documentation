@@ -20,13 +20,13 @@ For more information about the authentication flows that are available, see
    :depth: 1
 
 **************************************************
-Configure Open edX User Authentication for LTI 
+Configure Open edX User Authentication for LTI
 **************************************************
 
 To configure Open edX user authentication between your Open edX installation
 and an LTI tool consumer, follow these steps.
 
-.. note:: A consumer key and secret are required. The Django administration 
+.. note:: A consumer key and secret are required. The Django administration
  console provides a hexadecimal string for the secret, but does not provide a
  hexadecimal string for the key. You must use an external tool to generate the
  key.
@@ -63,17 +63,17 @@ and an LTI tool consumer, follow these steps.
 6. Enter the following information.
 
   - **Lti consumer key**: Enter the hexadecimal string of the key.
-  
+
   - **Lti consumer secret**: The system generates a hexadecimal string value
     for this field. Alternatively, you can replace it with a secret generated
     by an external tool.
 
 7. Optionally, change the default value for the **Lti max timestamp age**.
 
-#. Select **Save** at the bottom of the page. 
+#. Select **Save** at the bottom of the page.
 
 *******************************************
-Test LTI Authentication 
+Test LTI Authentication
 *******************************************
 
 To verify the sign in process for an LTI provider configuration, follow these
@@ -91,10 +91,10 @@ steps.
 
 #. Copy the **Lti consumer key** value, and then on the IMS LTI 1.1 Consumer
    Launch page paste it in as the **Key**.
-   
+
 #. Copy the **Lti consumer secret** value, and then on the IMS LTI 1.1 Consumer
    Launch page paste it in as the **Secret**.
-   
+
 #. Optionally, change the default values in the **Launch Data** section of the
    **IMS LTI 1.1 Consumer Launch** page to match the set of values that the
    tool consumer is configured to supply.
@@ -132,8 +132,4 @@ steps.
    **Unlink** next to the LTI provider configuration name.
 
 
-
-
-
 .. include:: ../../../../links/links.rst
-

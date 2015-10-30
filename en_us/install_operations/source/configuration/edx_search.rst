@@ -62,7 +62,7 @@ EdX Search requires the following applications.
 Install edX Search
 *************************
 
-EdX Search is included in Open edX Platform Github requirements and is
+EdX Search is included in Open edX Platform GitHub requirements and is
 installed automatically when you install the Open edX Platform.
 
 For existing installations, you must install edX Search manually.
@@ -82,13 +82,13 @@ Then install edX Search using one of the three following options.
 Option 1 – Add Requirement
 ==========================
 
-Add the Github link to edx-search to the ``requirements/edx/github.txt`` file.
+Add the GitHub link to edx-search to the ``requirements/edx/github.txt`` file.
 
 .. code-block:: bash
 
   -e git+https://github.com/edx/edx-search.git@ae459ead41962c656ce794619f58cdae46eb7896#egg=edx-search
 
-Then reinstall Github requirements.
+Then reinstall GitHub requirements.
 
 .. code-block:: bash
 
@@ -98,7 +98,7 @@ Then reinstall Github requirements.
 Option 2 – Install Locally
 ==========================
 
-Checkout the ``edx-search`` Github repository.
+Checkout the ``edx-search`` GitHub repository.
 
 Then in the ``edx-search`` directory, run the following command.
 
@@ -107,10 +107,10 @@ Then in the ``edx-search`` directory, run the following command.
   pip install -e ./
 
 ==============================
-Option 3 – Install from Github
+Option 3 – Install from GitHub
 ==============================
 
-Run ``pip`` with a Github link.
+Run ``pip`` with a GitHub link.
 
 .. code-block:: bash
 
@@ -130,6 +130,7 @@ reindex procedure.
 
 You can also reindex the course manually through the **Reindex** button in the
 **Course Overview** page.
+
 
 ==============================
 Which Data Gets Indexed
@@ -188,11 +189,11 @@ LMS
 
 * ``ENABLE_COURSE_DISCOVERY``: Enables/disables Course Discovery feature (over
   courses searching and facet filtering)
- 
-* ``COURSE_DISCOVERY_FILTERS``: If provided, overrides the list of facets 
+
+* ``COURSE_DISCOVERY_FILTERS``: If provided, overrides the list of facets
   that are used in Course Discovery feature to filter the results.
   By default, all facets will be displayed. List of available facets includes:
-  
+
   * Course organization: ``"org"``
   * Course type: ``"modes"``
   * Course language: ``"language"``

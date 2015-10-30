@@ -20,11 +20,11 @@ grades back to the external LMS.
 By default, the edX system aggregates grades for units and subsections every 15
 minutes.
 
-To change the interval for returning aggregated grades, follow these steps. 
+To change the interval for returning aggregated grades, follow these steps.
 
 #. In ``edx/app/edxapp/lms.env.json``, change the value for the following
    parameter.
-   
+
    ``LTI_AGGREGATE_SCORE_PASSBACK_DELAY = 15 * 60``
 
    You specify a time value in seconds.

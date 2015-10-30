@@ -19,22 +19,20 @@ services on a single server.
 
 See the `Vagrant documentation`_ for more information.
 
-
 ********************
 Components
 ********************
 
 Open edX Fullstack includes the following edX components.
 
-* The Learning Management System (LMS)
-* edX Studio
-* XQueue, the queuing server that uses `RabbitMQ`_ for external graders
-* Discussion Forums
-* Open Response Assessor (ORA)
+* The Learning Management System (LMS).
+* edX Studio.
+* XQueue, the queuing server that uses `RabbitMQ`_ for external graders.
+* Discussion Forums.
+* Open Response Assessor (ORA).
 * `Discern`_, the machine-learning-based automated textual classification API
   service.
 * `Ease`_, a library for the classification of textual content.
-  
 
 **************************
 Knowledge Prerequisites
@@ -49,7 +47,6 @@ To use Fullstack, you should meeting the following knowledge requirements.
 * Understand Vagrant commands. See the `Vagrant Getting Started`_ guide for
   more information.
 
-
 **************************
 Software Prerequisites
 **************************
@@ -63,7 +60,7 @@ software.
 
 * A Network File System (NFS) client, if your operating system does not include
   one. Fullstack uses VirtualBox Guest Editions to share folders through NFS.
-  
+
 .. _Install Open edX Fullstack:
 
 *********************************
@@ -80,20 +77,20 @@ allow users to access code directories directly from your computer.
 #. Ensure the ``nfsd`` client is running.
 
 #. Create the ``fullstack`` directory and navigate to it in the command prompt.
-   
+
    .. code-block:: bash
 
      mkdir fullstack
      cd fullstack
 
 #. Download the fullstack Vagrant file.
-   
+
    .. code-block:: bash
 
      curl -L https://raw.githubusercontent.com/edx/configuration/master/vagrant/release/fullstack/Vagrantfile > Vagrantfile
 
 #. Install the Vagrant ``hostsupdater`` plugin.
-   
+
    .. code-block:: bash
 
      vagrant plugin install vagrant-hostsupdater
@@ -115,15 +112,11 @@ allow users to access code directories directly from your computer.
 Browser Login to Open edX Fullstack
 **********************************************
 
-#. In your browser, go to Go to ``preview.localhost``, which is an alias entry
-   for 192.168.33.10 that was created in your ``/etc/hosts`` file.
-   
-   The latest version of fullstack has the demo course pre-loaded and a set of
-   dummy accounts.
+In your browser, go to ``preview.localhost``, which is an alias entry for
+192.168.33.10 that was created in your ``/etc/hosts`` file.
 
-   * staff@example.com / edx
-   * verified@example.com / edx
-   * audit@example.com / edx
-   * honor@example.com / edx
+The latest version of fullstack is preloaded with the demonstration course and
+the same set of :ref:`default user accounts<Default Accounts on Devstack>` that
+is created for Devstack.
 
 .. include:: ../../../links/links.rst
