@@ -7,8 +7,8 @@ Embedded Files and Calendars
 This topic describes how to work with files and calendars in your edX
 course.
 
-.. contents:: 
-  :local: 
+.. contents::
+  :local:
   :depth: 1
 
 *********************************************
@@ -20,7 +20,7 @@ and a calendar. Your course team uses Google to create and maintain these files
 and calendars. They appear in the body of your course just like any other
 course content.
 
-.. note:: Google services are not available in some regions and countries. 
+.. note:: Google services are not available in some regions and countries.
  If Google services are not available in your area, you might see an "image
  unavailable" message in the place of the Google file or calendar. The course
  team might provide alternative resources if Google services are not available

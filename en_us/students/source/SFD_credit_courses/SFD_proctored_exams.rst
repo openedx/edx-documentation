@@ -13,7 +13,7 @@ proctoring software, and steps involved in taking proctored exams.
 
 For information about rules you must follow when you take proctored exams, see
 :ref:`Online Proctoring Rules`.
- 
+
 .. _SFD Proctored Exams Overview:
 
 ****************************
@@ -39,7 +39,6 @@ Proctored exams are indicated in the courseware with a pencil icon and a
  :width: 200
  :alt: Courseware navigation in the LMS showing an exam with a pencil icon and
      a "Proctored Option Available" label.
-
 
 .. note:: Proctored exams are visible only if you are enrolled in the verified
    track for your course. If you are not in the verified track, you take the
@@ -84,7 +83,7 @@ several example problems that you can try to answer. For more information, see
 
  * :ref:`Online Proctoring Rules`
 
- * `Proctoring Software System Requirements <http://clientportal.softwaresecure.com/support/index.php?/Knowledgebase/Article/View/252/0/system-requirements-remote-proctor-now>`_
+ * `Proctoring Software System Requirements`_
 
 To satisfy the proctored exam requirement for credit eligibility, you must
 take the exam as a proctored exam and receive a **Satisfactory** result for
@@ -95,7 +94,6 @@ Course Credit`.
 If you are not ready to take the exam right now, you can return to it and make
 your choice later, although you should give yourself enough time to take it
 before the due date.
-
 
 .. _SFD Before Taking Proctored Exam:
 
@@ -117,23 +115,21 @@ Proctoring Rules <Online Proctoring Rules>`.
 .. _Know Rules for Online Proctoring:
 
 ==============================================================
-Know the Rules and Requirements for Online Proctoring   
+Know the Rules and Requirements for Online Proctoring
 ==============================================================
 
 * You must be on certain versions of the Windows or Mac operating systems for
   the proctoring software to work. Check the `Proctoring Software System
-  Requirements <http://clientportal.softwaresecure.com/support/index.php?/Knowledgebase/
-  Article/View/252/0/system-requirements-remote-proctor-now>`_ to make sure you are using
-  a supported operating system version and that your computer meets the minimum system 
-  requirements for running the remote åproctoring software.
+  Requirements`_ to make sure you are using a supported operating system
+  version and that your computer meets the minimum system requirements for
+  running the remote proctoring software.
 
 * You must be using one of the browser versions supported by edX. Check the
   :ref:`list of edX supported browsers <Browsers>` to make sure you are using
-  a supported browser. 
+  a supported browser.
 
 * Read the rules and requirements that are covered in the :ref:`Online
-  Proctoring Rules <Online Proctoring Rules>`. 
-
+  Proctoring Rules`.
 
 .. _Request Additional Time:
 
@@ -147,7 +143,7 @@ possibility before making your choice to take the exam as a proctored exam.
 They will need to approve your request and make any adjustments before you
 start your exam.
 
-.. _Steps in Taking Proctored Exams: 
+.. _Steps in Taking Proctored Exams:
 
 **********************************
 Steps in Taking Proctored Exams
@@ -183,7 +179,6 @@ the proctoring software and take your exam. If you decline to take the exam
 with proctoring, you take the exam as a regular exam, without proctoring and
 without a time limit.
 
-
 .. _Proceed With Proctored Exam:
 
 =======================================
@@ -204,7 +199,6 @@ unique to your edX account and to this exam. You should not share it, and you
 can use the code only once. You will be asked for this code later, during the
 proctoring set up.
 
-
 .. _Perform System Checks:
 
 ======================
@@ -215,17 +209,17 @@ When you click **install and set up the proctoring software**, the online
 proctoring software opens in a new browser window.
 
 Select **Start System Check** to allow the proctoring software to check that
-you have a working camera and microphone, and test your internet bandwidth.
+you have a working camera and microphone, and test your Internet bandwidth.
 These checks make sure that a proctoring session can be successfully recorded
 on your system before you install the software.
 
 .. image:: /Images/Proctoring_SS_StartSystemCheck.png
  :width: 600
- :alt: The proctoring software welcome window with a "Start System Check" button.
+ :alt: The proctoring software welcome window with a "Start System Check"
+  button.
 
 Follow the instructions on each page. If the system checks are successful, you
 see a link for downloading the online proctoring software.
-
 
 .. _Install Remote Proctoring Software:
 
@@ -244,7 +238,6 @@ operating system, you would see the page shown.
 .. note:: Even if you have previously installed this software, for example if
    you installed it for a practice proctored exam, you must install it again,
    to make sure you have the most up to date version.
-
 
 .. _Enter Unique Exam Code:
 
@@ -275,13 +268,12 @@ then if you agree to them, select **I agree**.
 
 .. image:: /Images/Proctoring_SS_TermsofUse.png
  :width: 600
- :alt: The proctoring software "Terms of Use" page. 
+ :alt: The proctoring software "Terms of Use" page.
 
 .. note:: If you do not want to agree to the terms, select **I don't agree**.
    You can then quit the online proctoring software and return to the edX
    courseware where you can choose to take the exam as an open exam, and
    not be eligible for credit.
-
 
 ======================================
 Read the Pre-Exam Advisory Information
@@ -297,7 +289,7 @@ page of Pre-Exam Advisory Information.
 Read the information, then select **Next**.
 
 The software will detect any prohibited programs (such as Skype) and will
-prompt you to close them if necessary. 
+prompt you to close them if necessary.
 
 If you encounter any issues, click the **Contact Support** button in the
 proctoring software window to contact technical support.
@@ -305,7 +297,6 @@ proctoring software window to contact technical support.
 .. image:: /Images/Proctoring_SS_ContactSupportButton.png
  :width: 500
  :alt: The proctoring software's "Contact Support" button.
-
 
 .. _Take ID Photo:
 
@@ -328,10 +319,10 @@ the frame. When you are ready to take the photo, click **Take Photo**.
  :width: 600
  :alt: The "Take ID Photo" step of proctoring verification.
 
-Preview and confirm the photo of your ID. 
+Preview and confirm the photo of your ID.
 
 If you are satisfied that the photo ID picture is clear and legible, select
-the checkbox and select **Confirm Photo ID**. 
+the checkbox and select **Confirm Photo ID**.
 
 If you are not satisfied that picture is clear, click **Retake** to try again.
 
@@ -365,7 +356,7 @@ your desk as well as under your desk, then pan around the room.
 Select **Stop Room Scan** when you have finished providing a video capture of
 the requested areas.
 
-Preview and confirm the room and desk scan. 
+Preview and confirm the room and desk scan.
 
 .. image:: /Images/Proctoring_SS_RoomScanConfirm.png
  :width: 600
@@ -410,7 +401,6 @@ If you are satisfied that your photo is clear, select the checkbox and select
 If you are not satisfied that picture is clear, select **Retake User Photo** to
 try again.
 
-
 =================================================
 Return to the edX Browser and Start Your Exam
 =================================================
@@ -433,7 +423,6 @@ Return to the browser window where you were accessing the exam on edx.org, and
 For information about taking a practice exam, see :ref:`SFD Taking a Practice
 Exam`.
 
-
 .. _SFD Taking a Practice Exam:
 
 **********************************
@@ -444,14 +433,13 @@ Your course might include an optional practice proctored exam that you can
 take to make sure you can complete the proctoring setup steps on your
 computer. It usually includes several example problems that you can try to
 answer.
- 
+
 Practice exams let you follow the steps to set up the proctoring software,
 perform the required identity and environment scans, and experience taking an
 exam with online proctoring, but your proctoring session is not reviewed.
 
 .. note:: Practice exams do not affect your grade or your eligibility for
   credit.
-
 
 To take a practice proctored exam, follow these steps.
 
@@ -472,7 +460,7 @@ To take a practice proctored exam, follow these steps.
    to enter it later, when you are prompted to do so during the proctoring
    software setup.
 
-   .. image:: /Images/Proctoring_YouHaveChosenToTake.png  
+   .. image:: /Images/Proctoring_YouHaveChosenToTake.png
     :width: 600
     :alt: After you agree to take an exam with proctoring you receive a unique
          exam code on the "You Have Chosen to Take a Proctored Exam" page.
@@ -483,7 +471,7 @@ To take a practice proctored exam, follow these steps.
    code to your clipboard.
 
 #. Select the **install and set up the proctoring software** link in Step 1 on
-   the page. 
+   the page.
 
    Follow the instructions to install the proctoring software and perform
    system and identity checks. For more information, see :ref:`Steps in Taking
@@ -517,24 +505,23 @@ To take a practice proctored exam, follow these steps.
    exam. Because this is a practice exam, your proctoring session is not
    reviewed. For a practice exam, you will see two possible results.
 
-   *  **Your practice proctored exam is complete** -- This status indicates
-      that you completed the exam and experienced no issues with the proctoring
-      software.
+  *  **Your practice proctored exam is complete** -- This status indicates that
+     you completed the exam and experienced no issues with the proctoring
+     software.
 
-   *  **Your practice proctored exam failed** -- This status indicates that you
-      completed the exam, but there were issues with the proctoring software.
-      Some parts of the proctoring checks might have failed, or the proctoring
-      software window might have been closed before the exam ended.
+  *  **Your practice proctored exam failed** -- This status indicates that you
+     completed the exam, but there were issues with the proctoring software.
+     Some parts of the proctoring checks might have failed, or the proctoring
+     software window might have been closed before the exam ended.
 
 You can retry a practice exam as many times as you want to. If you received a
 **Failed** result on your practice exam, you should try to fix any issues and
 take the practice exam again until you achieve a **Completed** result. Doing
 so will help you to make sure you can successfully take an actual proctored
-exam in the course. 
+exam in the course.
 
 If you continue to have issue with the proctoring software, select **Contact
 Support** in the proctoring software window.
-
 
 .. _SFD Taking a Proctored Exam:
 
@@ -580,11 +567,11 @@ To take a proctored exam, follow these steps.
    to enter it later, when you are prompted to do so during the proctoring
    software setup.
 
-   .. image:: /Images/Proctoring_YouHaveChosenToTake.png  
+   .. image:: /Images/Proctoring_YouHaveChosenToTake.png
     :width: 600
     :alt: After you agree to take an exam with proctoring you receive a unique
           exam code on the "You Have Chosen to Take a Proctored Exam" page.
-  
+
 #. Select **Select exam code** to select the entire exam code, then use
    keyboard combinations such at ``Ctrl + C`` or ``command + C`` to copy the
    code to your clipboard.
@@ -624,7 +611,7 @@ To take a proctored exam, follow these steps.
       this.
 
 #. When you have completed the questions, if the exam timer has not reached
-   00:00, select **End my exam**. 
+   00:00, select **End my exam**.
 
    .. image:: /Images/Proctoring_EndMyExam.png
     :width: 600
@@ -643,7 +630,7 @@ To take a proctored exam, follow these steps.
     :alt: The "End My Exam" button on the edX exam timer bar.
 
 #. In the browser window for the edX exam, you see the result page for your
-   exam. 
+   exam.
 
    You can come back to this page to check for your proctoring session
    review results.
@@ -668,7 +655,6 @@ complete your exam.
 Check your **Progress** page for full details of your credit eligibility
 status.
 
-
 .. _SFD Technical Difficulties During Exam:
 
 ===============================================================
@@ -684,26 +670,24 @@ any failed attempt are not kept.
 Here are some situations that you might encounter while you are taking a
 proctored exam.
 
-
 The Proctoring Software Terminates Unexpectedly
 +++++++++++++++++++++++++++++++++++++++++++++++++++
 
 If the proctoring software crashes, the edX exam automatically stops the exam.
 You should contact edX Support in this situation.
 
-
 The edX Browser Terminates Unexpectedly
 +++++++++++++++++++++++++++++++++++++++++++++++++++
 
 If the browser in which the edX exam is running crashes, the exam timer for
 each learner continues to run. You should make sure the proctoring software is
-still running, then open a new browser window and navigate back to your edX exam.
-You should be able to continue your exam but you will have lost time while the
-browser was closed. If your proctoring software also crashed, contact edX Support.
-
+still running, then open a new browser window and navigate back to your edX
+exam. You should be able to continue your exam but you will have lost time
+while the browser was closed. If your proctoring software also crashed, contact
+edX Support.
 
 You Accidentally Close the Proctoring Software Window
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 If you accidentally close your proctoring software windows before you have
 completed a proctored exam, you see alert messages warning you that you are
@@ -715,7 +699,6 @@ grading, but the proctoring session recording might not be completely
 uploaded. You should contact edX Support in this situation. Depending on the
 circumstances, your course team will have to decide whether your proctored
 exam attempt is valid.
-
 
 You Accidentally Close the edX Exam Window
 +++++++++++++++++++++++++++++++++++++++++++++
@@ -729,7 +712,6 @@ while the browser was closed. If your proctoring software was also stopped,
 contact edX Support. Depending on the circumstances, your course team will
 have to decide whether your proctored exam attempt is valid.
 
-
 **********************************
 Completing a Proctored Exam
 **********************************
@@ -737,7 +719,7 @@ Completing a Proctored Exam
 When you finish a proctored exam before the count down timer reaches 00:00,
 select **Submit** to submit your responses. The exam stops, and the data from
 your proctoring session is uploaded to the online proctoring service for
-review. 
+review.
 
 ====================================
 Proctoring Session Review Results
@@ -753,7 +735,6 @@ your proctoring review result is **Satisfactory** or **Unsatisfactory**.
 This table summarizes the possible outcomes of a proctored exam, and what this
 means for your credit eligibility.
 
-
 .. list-table::
    :widths: 20 70
    :header-rows: 1
@@ -765,7 +746,8 @@ means for your credit eligibility.
    * - Satisfactory
      - Your proctoring session data was reviewed and there were no issues. You
        are eligible to purchase credit for this course if you complete all
-       required exams in the course and also achieve a final grade that meets the credit requirements for the course.
+       required exams in the course and also achieve a final grade that meets
+       the credit requirements for the course.
    * - Unsatisfactory
      - Your proctoring session data was reviewed and there were either issues
        with your identity verification or evidence of suspicious activity
@@ -785,7 +767,6 @@ means for your credit eligibility.
    Any Unsatisfactory result on the proctoring review means that you cannot
    apply for credit for the course, regardless of the grade you achieved in the
    exam or in the course.
-
 
 =========================================
 Credit Eligibility on Your Progress Page

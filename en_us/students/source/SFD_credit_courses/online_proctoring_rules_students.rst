@@ -7,7 +7,7 @@ Online Proctoring Rules for Learners
 This topic describes the procotoring rules for learners taking an edX course
 for credit.
 
-.. contents:: 
+.. contents::
   :local:
   :depth: 1
 
@@ -47,7 +47,7 @@ register on edX.org.
 Test Environment Requirements
 *****************************
 
-To pass a proctored exam, students must make sure that the environment in
+To pass a proctored exam, learners must make sure that the environment in
 which they take the exam meets the following requirements.
 
 =====================================
@@ -70,10 +70,10 @@ The Room You are Taking the Test In
    following tools should not be on your desk or used during your proctored
    exam.
 
-   * Phones.
-   * Programs such as Excel, Word, Powerpoint.
-   * Any website other than edX.org.
-   * Communication programs such as Skype.
+ * Phones.
+ * Programs such as Excel, Word, Powerpoint.
+ * Any website other than edX.org.
+ * Communication programs such as Skype.
 
 #. Make sure there is no writing visible on the desk or on the walls around
    you.
@@ -102,7 +102,6 @@ The Room You are Taking the Test In
 #. Do not move to another room during the exam. The exam must be completed in
    the same room that the proctoring webcam scan is performed in.
 
-
 ==========================================
 The Computer You are Taking the Test With
 ==========================================
@@ -115,12 +114,11 @@ The Computer You are Taking the Test With
 #. Before starting your proctored exam, close all other programs or windows on
    your testing computer.
 
-#. The following tools should not be during your proctored exam. 
+#. The following tools should not be during your proctored exam.
 
-   * Programs such as Excel, Word, Powerpoint.
-   * Any website other than edX.org.
-   * Communication programs such as Skype.
-
+ * Programs such as Excel, Word, Powerpoint.
+ * Any website other than edX.org.
+ * Communication programs such as Skype.
 
 ==========================================
 Your Personal Behavior
@@ -145,7 +143,6 @@ Your Personal Behavior
 
 #. While you are taking the proctored exam, no other person is allowed to
    enter the room in which you are taking the exam.
-
 
 ************************************
 Consequences of Violating the Policy

@@ -41,25 +41,27 @@ For more information, see the following topics.
   peer assessment, and access your score.
 * :ref:`Course Discussions Index` - Provides information about how to
   participate in the discussions for your course, including how to add a post,
-  respond to a post, and comment on another student's response.
+  respond to a post, and comment on another learner's response.
 * :ref:`SFD Wiki` - Covers information about an edX course wiki.
 
 This guide is still under development, and we encourage you to submit feedback
-to `docs@edx.org <mailto://docs@edx.org>`_.
+to docs@edx.org.
 
 .. _Time Zones:
 
 ************************
-A Note about Time Zones 
+A Note about Time Zones
 ************************
 
-As you work through your course, you'll see dates and times when new materials
-are released and when homework assignments and exams are due. It's important to
-remember that edX lists all times in Coordinated Universal Time (UTC). When you
-see a time in your course, we recommend that you use a time zone converter to
-convert the UTC time to your local time. You can use any converter that you
-want, including one of the following time zone converters.
+As you work through your course, you will see dates and times when new
+materials are released and when homework assignments and exams are due. It is
+important to remember that edX lists all times in Coordinated Universal Time
+(UTC). When you see a time in your course, we recommend that you use a time
+zone converter to convert the UTC time to your local time. You can use any
+converter that you want, including one of the following time zone converters.
 
-`Time and Date Time Zone Converter <http://www.timeanddate.com/worldclock/converter.html>`_
+`Time and Date Time Zone Converter`_
 
-`Time Zone Converter <http://www.timezoneconverter.com/cgi-bin/tzc.tzc>`_
+`Time Zone Converter`_
+
+.. include:: ../../links/links.rst

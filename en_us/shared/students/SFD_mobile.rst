@@ -154,7 +154,7 @@ To download videos, you must be connected to the Internet. Select the
   .. image:: ../../shared/students/Images/Mob_DownloadIcon_openedX.png
     :width: 300
     :alt: List of subsections with the "download" icon circled.
-  
+
 To download videos, you must be connected to the Internet. After you download a
 video, you can watch it at any time.
 
@@ -168,9 +168,9 @@ if you intend to watch or download a lot of videos. The edX mobile apps have a
 **Download only on Wi-Fi** setting that is enabled by default to help you avoid
 using your cellular network accidentally.
 
-========================================================================
+==========================================================
 What are the numbers to the right of subsection names?
-========================================================================
+==========================================================
 
 The number to the right of a subsection name indicates the number of videos in
 that subsection.
@@ -194,7 +194,7 @@ You can change video speeds on the iPhone app. While a video plays, select
 **Settings** (the "gear" icon) at the lower right, and then select **Video
 Speed**.
 
-On the Android app, videos currently play only at their original speeds. 
+On the Android app, videos currently play only at their original speeds.
 
 ========================================
 How do I change my download settings?
@@ -207,18 +207,18 @@ How do I change my download settings?
       :alt: Mobile "My Courses" page with an arrow pointing to the menu in the
         upper left corner.
 
-#. Select **My Settings**. 
+#. Select **My Settings**.
 
 #. Change the **Wi-Fi only download** setting.
 
-.. note:: By default, the apps are set so that they only download content, 
-  including videos, if you are on a Wi-Fi network. If you change this setting, 
+.. note:: By default, the apps are set so that they only download content,
+  including videos, if you are on a Wi-Fi network. If you change this setting,
   you might exceed the data allowance for your cellular plan.
 
 ==================================
 How do I delete downloaded videos?
 ==================================
- 
+
 #. On the **My Courses** page, select the menu in the upper left corner.
 
 #. Select **My Videos**.

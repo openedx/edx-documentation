@@ -6,7 +6,7 @@ Academic Course Credit
 
 This topic describes taking an edX course for academic credit.
 
-.. contents:: 
+.. contents::
   :local:
   :depth: 1
 
@@ -28,16 +28,14 @@ verifying your identity several times during your course or taking proctored
 exams. After you meet the requirements, you can purchase academic credit for a
 specific time after the course ends (usually one year).
 
-
 *****************************
 Enroll for Academic Credit
 *****************************
 
 To receive academic credit for a course, you must enroll in the verified track
-for the course. 
+for the course.
 
 For more information about enrolling, see :ref:`SFD Enrolling in a Course`.
-
 
 *****************************
 Complete Identity Checks
@@ -47,7 +45,7 @@ When you take a course for academic credit, you have to complete a
 number of identity checks. Identity checks include periodic identity
 reverification inside the course and proctored exams.
 
-.. note:: **To be eligible for academic credit, you must complete all identity 
+.. note:: **To be eligible for academic credit, you must complete all identity
  checks.** If you choose not to complete an identity check at any time, you
  are no longer eligible for credit. You can still receive a verified
  certificate in the course.
@@ -61,10 +59,11 @@ reverification inside the course and proctored exams.
 * Proctored exams are exams that use both time limits and online proctoring
   software. To pass a proctored exam, you must receive both a passing grade
   for the exam itself and a Pass result when the recording of your proctoring
-  session is reviewed. 
+  session is reviewed.
+
 * Proctored exams are exams with time limits that you complete while online
   proctoring software monitors your computer. To pass a proctored exam, you
-  must receive both a passing grade for the exam itself and a **Satisfactory** 
+  must receive both a passing grade for the exam itself and a **Satisfactory**
   result when the recording of your proctoring session is reviewed.
 
   For more information about proctored exams, see :ref:`SFD_ProctoredExams`.
@@ -100,7 +99,7 @@ When you purchase credit, you submit a payment to edX, and then complete any
 additional steps that the specific organization that grants the credit
 requires.
 
-.. note:: More than one organization might offer credit for the same course. 
+.. note:: More than one organization might offer credit for the same course.
  If this is the case, you select the organization that you want when you
  purchase credit for the course.
 
