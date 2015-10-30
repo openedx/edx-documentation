@@ -6,8 +6,8 @@ Notes
 
 This topic describes how to work with notes in your edX course.
 
-.. contents:: 
-  :local: 
+.. contents::
+  :local:
   :depth: 1
 
 ******************
@@ -16,9 +16,9 @@ Overview of Notes
 
 As you work through an edX course, you may want to highlight a particular
 passage or make a note about what you have read. In some edX courses, you can
-highlight passages and make notes right in the courseware. 
+highlight passages and make notes right in the courseware.
 
-.. note:: You can create notes for most text in the courseware. 
+.. note:: You can create notes for most text in the courseware.
  However, notes are currently not available for exercises, videos, or PDF
  textbooks.
 
@@ -35,7 +35,6 @@ Your notes can contain text as well as tags that help you organize and find
 your notes. You can see individual notes inside the course content, or you can
 see all of your notes at once on the **Notes** page. For more information, see
 :ref:`The Notes Page`.
-
 
 .. _SFD SN Add Note:
 
@@ -65,19 +64,19 @@ steps.
    add. You can also save the highlight for the passage without entering a
    note or tag.
 
-   * To highlight a passage without adding a note or tag, select **Save** or
-     press Enter. When you move your cursor over the highlighted text, the note field
-     contains the words "no comment".
+  * To highlight a passage without adding a note or tag, select **Save** or
+    press Enter. When you move your cursor over the highlighted text, the note
+    field contains the words "no comment".
 
-   * To enter a note, select **Comments**, and then type the text of your note.
-     Your note can contain as many words as you want.
+  * To enter a note, select **Comments**, and then type the text of your note.
+    Your note can contain as many words as you want.
 
-   * To add one or more tags, select **Add some tags here**, and then type any
-     tags that you want to add. 
+  * To add one or more tags, select **Add some tags here**, and then type any
+    tags that you want to add.
 
-     Tags cannot contain spaces. If you want to add a tag that has more than
-     one word, type multiple words as one word with no spaces, or use hyphens
-     (-) or underscores (_) to separate words in the tag.
+    Tags cannot contain spaces. If you want to add a tag that has more than one
+    word, type multiple words as one word with no spaces, or use hyphens (-)
+    or underscores (_) to separate words in the tag.
 
      .. image:: ../../shared/students/Images/SFD_SN_NoteEditor.png
       :width: 400
@@ -93,7 +92,7 @@ steps.
 View Notes
 ***************************
 
-You can view your course notes in two places. 
+You can view your course notes in two places.
 
 * You can view individual notes on the page where you created
   the notes. To see your notes, go to the unit that contains your note and
@@ -132,7 +131,7 @@ in Course**, and **Tags**.
   created or edited them, with the most recently modified first.
 
 * When you select **Location in Course**, notes are sorted sequentially by the
-  location of the note in the courseware. 
+  location of the note in the courseware.
 
 * When you select **Tags**, notes are sorted by the tags you have added.
 
@@ -222,16 +221,14 @@ You can use keyboard shortcuts to create, edit, and delete your notes.
 
   * Internet Explorer and Firefox support caret browsing by default. To enable
     caret browsing in Firefox, press F7.
-  
+
   * Safari supports caret browsing when VoiceOver is turned on. For more
-    information about VoiceOver, see the `Apple website
-    <https://www.apple.com/accessibility/osx/voiceover/>`_.
-  
+    information about VoiceOver, see the `VoiceOver for OS X`_ website.
+
   * Chrome does not support caret browsing.
 
 Before you use the following keyboard shortcuts, you must make sure that notes
-are visible. To show or hide notes, press Ctrl + Shift + left bracket
-(``[``). 
+are visible. To show or hide notes, press Ctrl + Shift + left bracket (``[``).
 
 =======================================
 Create a Note Using the Keyboard

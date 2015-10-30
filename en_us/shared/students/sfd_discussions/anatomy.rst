@@ -2,12 +2,12 @@
 .. _Anatomy of edX Course Discussions:
 
 #######################################
-Anatomy of edX Course Discussions 
+Anatomy of edX Course Discussions
 #######################################
 
 This topic describes how course discussions are organized in an edX course.
 
-.. contents:: 
+.. contents::
   :local:
   :depth: 1
 
@@ -19,12 +19,12 @@ Discussions are made up of *posts*, *responses*, and *comments*. Together,
 posts, responses, and comments are known as *contributions*, and a post
 together with its responses and comments is an *exchange*.
 
-* *Posts* initiate a conversation by asking a question or making a statement
+* Posts initiate a conversation by asking a question or making a statement
   for learners to consider.
 
-* *Responses* reply directly to the post.
+* Responses reply directly to the post.
 
-* *Comments*, in turn, reply to specific responses.
+* Comments, in turn, reply to specific responses.
 
 The following conversation shows each of these contributions:
 
@@ -41,7 +41,7 @@ The following conversation shows each of these contributions:
     - Response: "Hi from Johannesburg! I am taking the course to prepare for my
       matric exams."
 
-You can see posts, comments, and responses, as well as other information about 
+You can see posts, comments, and responses, as well as other information about
 the course discussions and individual posts, on the **Discussion** page.
 
 **********************************
@@ -52,7 +52,7 @@ When you go to the **Discussion** page in your course, you see a page that
 looks like the following image. You can select the image to enlarge it.
 
 .. image:: ../../../shared/students/Images/DiscussionHomeCallouts.png
-   :width: 800 
+   :width: 800
    :alt: Discussion home page with a topics pane on the left side and "How to
        use edX discussions" pane on the right.
 
@@ -108,7 +108,7 @@ Right Pane
 
 When you select the **Discussion** tab, the right pane opens to a home page
 that lists ways that you can interact with posts. Each of these interactions is
-covered later in this topic. For more information, see the following sections:
+covered later in this topic. For more information, see the following sections.
 
 * :ref:`Explore Posts`
 * :ref:`Follow Posts`
@@ -151,7 +151,7 @@ contribution. (For more information, see :ref:`Provide Feedback`.)
   :width: 450
   :alt: A single post with the option icons on the right circled
 
-The icons that you see may include the following:
+The icons that you see might include the following options.
 
 * A plus sign (+), together with the number of votes the post has received.
   Select this icon to vote for the post or response. For more information, see
@@ -171,10 +171,10 @@ The icons that you see may include the following:
     response, or comment. You can change the text of your contribution, or, for
     posts, you can change the type of post. For more information, see
     :ref:`Edit or Delete`.
-  
+
   * **Delete**. This option is only visible if you are the author of the post,
     response, or comment. For more information, see :ref:`Edit or Delete`.
-  
+
   * **Report**. You can use this option to report an inappropriate post,
     response, or comment. For more information, see :ref:`Report Discussion
     Misuse`.

@@ -7,8 +7,8 @@ Getting Started
 This topic describes the steps you take before you begin your first edX
 course.
 
-.. contents:: 
-  :local: 
+.. contents::
+  :local:
   :depth: 1
 
 *********************************
@@ -26,7 +26,7 @@ EdX hosts courses on the `edx.org`_ and `edX Edge`_ websites.
   enrollment. Edge does not have a course catalog, so you must receive an
   invitation to enroll and participate in a course on Edge.
 
-.. note:: 
+.. note::
  The user accounts on edx.org and edX Edge are separate. If you take courses on
  both websites, you must complete the account registration process on both
  sites.

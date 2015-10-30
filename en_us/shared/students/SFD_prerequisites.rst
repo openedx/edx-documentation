@@ -4,12 +4,11 @@
 Course Prerequisites
 ######################
 
-
 This topic describes how to take prerequisites, if required, in your edX
 course.
 
-.. contents:: 
-  :local: 
+.. contents::
+  :local:
   :depth: 1
 
 **************************

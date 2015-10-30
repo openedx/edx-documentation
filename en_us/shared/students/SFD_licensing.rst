@@ -52,9 +52,8 @@ A Creative Commons license has one or more of the following options.
        option is always selected for edX courses and videos under a Creative
        Commons license.
    * - **Noncommercial**
-     - This option allows you to distribute, display, and perform work
-       -- and derivative works based upon it -- but for non-commercial purposes
-       only.
+     - This option allows you to distribute, display, and perform work--and
+       derivative works based upon it--but for non-commercial purposes only.
    * - **No Derivatives**
      - This option allows you to distribute, display, and perform only verbatim
        copies of the work, not derivative works based upon it. This option
@@ -65,7 +64,6 @@ A Creative Commons license has one or more of the following options.
        cannot be in use with the **No Derivatives** option.
 
 For more information, see the `Creative Commons website`_.
-
 
 *************************************
 Viewing Licenses

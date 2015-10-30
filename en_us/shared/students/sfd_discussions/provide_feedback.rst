@@ -7,8 +7,8 @@ Provide Feedback on Contributions
 
 This topic describes how to provide feedback on discussion contributions.
 
-.. contents:: 
-  :local: 
+.. contents::
+  :local:
   :depth: 1
 
 *********
@@ -37,7 +37,7 @@ appears.
 
 .. image:: ../../../shared/students/Images/Discussion_options_mouseover.png
  :width: 300
- :alt: The icons at top right of a post, shown before the cursor is 
+ :alt: The icons at top right of a post, shown before the cursor is
       placed over each one and with the Vote, Follow, and More labels.
 
 When you select the "More" icon, a menu of available options opens. Options
@@ -46,7 +46,7 @@ on whether you are a student or a member of the discussion team.
 
 .. image:: ../../../shared/students/Images/Discussion_More_menu.png
  :width: 300
- :alt: The More icon expanded to show a menu with one option and a menu with 
+ :alt: The More icon expanded to show a menu with one option and a menu with
        three options.
 
 .. _Vote for Posts or Responses:
@@ -68,7 +68,7 @@ votes**.
 
 .. image:: ../../../shared/students/Images/Disc_SortByVotes.png
  :width: 300
- :alt: The list of posts with the "by most votes" sorting option and the 
+ :alt: The list of posts with the "by most votes" sorting option and the
        number of votes for the post circled
 
 You can see the number of votes that each post has received in the list of
@@ -103,7 +103,7 @@ Following**.
 .. _Answer Questions:
 
 ********************************************************
-Answer Questions and Mark Questions as Answered 
+Answer Questions and Mark Questions as Answered
 ********************************************************
 
 Anyone in a course can answer questions. Just add a response with your answer
@@ -125,7 +125,7 @@ replaces the question mark image for the post in the list of posts.
  :alt: The list of posts with images identifying unanswered and answered
      questions and discussions.
 
-.. note:: The discussion moderation team can mark any response as correct. 
+.. note:: The discussion moderation team can mark any response as correct.
  Students can only mark responses as correct for their own posts.
 
 .. _Report Discussion Misuse:
@@ -140,6 +140,6 @@ review: view the contribution, select the "More" icon, and then select
 
 .. image:: ../../../shared/students/Images/Discussion_reportmisuse.png
  :width: 500
- :alt: A post and a response with the "Report" link circled
+ :alt: A post and a response with the "Report" link circled.
 
 .. Future: DOC-121 As a course author, I need a template of discussion guidelines to give to students

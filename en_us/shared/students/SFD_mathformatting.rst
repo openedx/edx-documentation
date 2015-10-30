@@ -67,18 +67,19 @@ system if you have used math programs before.
 
   .. image:: ../../shared/building_and_running_chapters/Images/Calc_Open_InfoPage.png
     :width: 600
-    :alt: Courseware page with the calculator visible and showing the information page.
+    :alt: Courseware page with the calculator visible and showing the
+     information page.
 
 When you enter your plain text into the calculator or the response field,
 follow these guidelines.
 
 * **Arithmetical operations**: Use standard characters for addition (+),
   subtraction (-), multiplication (*), and division (/).
-  
+
   * **Multiplication**: Be sure to indicate multiplication explicitly. That is,
     instead of ``mc^2`` type ``m*c^2``, and instead of ``5a+4b+3c`` type
     ``5*a+4*b+3*c``.
-    
+
 * **Operation order**: Use parentheses (``( )``) to specify the order of
   operations and to make your expression as clear as possible. Use curved
   parentheses (``( )``) only. Do not use brackets (``[ ]``) or braces (``{
@@ -107,7 +108,7 @@ For more information about the types of characters you can use, see below.
   :local:
   :depth: 1
 
-.. note:: The edX system accepts both constants and metric affixes. Be 
+.. note:: The edX system accepts both constants and metric affixes. Be
   careful to distinguish between constants and metric affixes. Constants stand
   alone, while metric affixes must be combined with numbers.
 
@@ -137,7 +138,7 @@ You can use the following types of numbers:
 * Floats with no integer part: .98
 
 The largest number you can use is **1.7977e+308**, which is the largest float
-possible in the Python programming language. 
+possible in the Python programming language.
 
 .. _Scientific Notation:
 
@@ -176,7 +177,7 @@ scientific notation, and with ``e`` notation.
     - 1d (deci)
     - 10^-1
     - 1e-1
-    - 
+    -
   * - 0.01
     - 1c (centi)
     - 10^-2
@@ -186,44 +187,44 @@ scientific notation, and with ``e`` notation.
     - 1m (milli)
     - 10^-3
     - 1e-3
-    - 
+    -
   * - 0.000001
     - 1u (micro)
     - 10^-6
     - 1e-6
-    - 
+    -
   * - 0.000000001
     - 1n (nano)
     - 10^-9
     - 1e-9
-    - 
+    -
   * - 0.000000000001
     - 1p (pico)
     - 10^-12
     - 1e-12
-    - 
+    -
   * - 1000
     - 1k (kilo)
     - 10^3
     - 1e3
-    - 
+    -
   * - 1,000,000
     - 1M (mega)
     - 10^6
     - 1e6
-    - 
+    -
   * - 1,000,000,000
     - 1G (giga)
     - 10^9
     - 1e9
-    - 
+    -
   * - 1,000,000,000,000
     - 1T (tera)
     - 10^12
     - 1e12
-    - 
+    -
 
-.. note:: When you use metric affixes or ``e`` notation, make sure you do not 
+.. note:: When you use metric affixes or ``e`` notation, make sure you do not
   include spaces between the number and the metric affix or the ``e``.
 
 .. _Constants:
@@ -234,7 +235,7 @@ Constants
 
 You can use several different constants in your mathematical expressions.
 
-.. note:: When you enter constants multiplied by a number, make sure to 
+.. note:: When you enter constants multiplied by a number, make sure to
   indicate the multiplication explicitly. For example, enter ``2*c`` instead of
   ``2c`` and ``-4*i`` instead of ``-4i``.
 
@@ -246,7 +247,7 @@ You can use several different constants in your mathematical expressions.
 
   * - Constant
     - Value
-  * - ``c`` 
+  * - ``c``
     - The speed of light in m/s (2.998^8)
   * - ``e``
     - Euler's number (2.718...)
@@ -302,12 +303,11 @@ calculator or the response field.
      - chi
    * - psi
      - omega
-     - 
-     - 
+     -
+     -
 
-.. note:: ``epsilon`` is the lunate version, whereas ``varepsilon`` looks 
+.. note:: ``epsilon`` is the lunate version, whereas ``varepsilon`` looks
   like a backward 3.
-
 
 ============
 Functions
@@ -317,9 +317,9 @@ To use a function, type the letters that represent the function, and then
 surround the expression in that function with parentheses. For example, to
 represent the square root of ``4*a+b``, type ``sqrt(4*a+b)``.
 
-You can use the following functions:
+You can use the following functions.
 
-* Common functions 
+* Common functions
 
   * sqrt
   * log10
@@ -330,7 +330,7 @@ You can use the following functions:
 
 * Trigonometric functions and their inverses
 
-  * sin 
+  * sin
   * cos
   * tan
   * sec
