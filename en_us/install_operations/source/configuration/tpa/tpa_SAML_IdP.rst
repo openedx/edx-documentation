@@ -14,7 +14,7 @@ many educational institutions.
    :depth: 1
 
 ******************
-Exchange Metadata 
+Exchange Metadata
 ******************
 
 SAML metadata is an XML file that contains the information necessary for secure
@@ -37,7 +37,7 @@ To add and enable a SAML 2.0 identity provider, follow these steps.
 #. In the **Third_Party_Auth** section, next to **Provider Configuration
    (SAML IdPs)** select **Add**.
 
-   .. note:: If you want to change the configuration of an existing provider, 
+   .. note:: If you want to change the configuration of an existing provider,
     next to **Provider Configuration (SAML IdPs)** select **Change**, and then
     select **Update** for the provider that you want to configure.
 
@@ -109,7 +109,7 @@ optional fields on the Add Provider Configuration (SAML IdP) page.
   By default, uses ``userid``, ``urn:oid:0.9.2342.19200300.100.1.1``.
 
 * Optional user attributes: You can indicate specific URN values for the
-  following user attributes. 
+  following user attributes.
 
   By default, the registration form includes all of the following attributes if
   they are sent by the IdP.
@@ -117,14 +117,14 @@ optional fields on the Add Provider Configuration (SAML IdP) page.
   * **Full Name Attribute**: ``commonName``, ``urn:oid:2.5.4.3``
   * **First Name Attribute**: ``givenName``, ``urn:oid:2.5.4.42``
   * **Last Name Attribute**: ``surname``, ``urn:oid:2.5.4.4``
-  * **Username Hint Attribute**: ``userid``, 
+  * **Username Hint Attribute**: ``userid``,
     ``urn:oid:0.9.2342.19200300.100.1.1``
   * **Email Attribute**: ``mail``, ``urn:oid:0.9.2342.19200300.100.1.3``
 
   If the identity provider sends a value that you do not want to be included on
   the the registration form, you can enter a value such as "DISABLED" or
   "IGNORE" in that field.
-  
+
 .. _Test an Enabled SAML Provider:
 
 *******************************************
@@ -149,7 +149,7 @@ steps.
    correctly and is running. You can also manually trigger an update by running
    the management command ``./manage.py lms saml pull --settings=aws`` on
    Fullstack or ``./manage.py lms saml pull --settings=devstack`` on Devstack.
-   
+
 3. For additional information about the data fetched from the IdP, on the
    Django administration console select **SAML Provider Data**, and then select
    the provider. The page that opens reports data fetched from the metadata
@@ -164,7 +164,7 @@ steps.
 
 5. Select **Use my institutional/campus credentials**. The list of providers
    that appears should include the IdP that you enabled.
-   
+
    .. image:: ../../Images/tpa_inst_list.png
      :alt: Screen shot of the list of enabled IdPs. Each IdP name is linked to
          the sign in page for the corresponding authentication system.

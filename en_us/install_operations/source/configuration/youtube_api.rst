@@ -23,7 +23,7 @@ The Open edX Platform uses the `YouTube Data API v3`_, which requires that
 the application uses an API key.
 
 *************************
-Get a YouTube API key
+Get a YouTube API Key
 *************************
 
 To get the YouTube API key, follow YouTube's `instructions for obtaining
@@ -36,7 +36,7 @@ Open edX.
   Platform`.
 
 ******************************************
-Install the YouTube API key in Open edX
+Install the YouTube API Key in Open edX
 ******************************************
 
 After you obtain a YouTube API key, you must install that key into your

@@ -19,8 +19,8 @@ teams, and developers. See the Open edX Release Notes for more details.
 
 .. Note::
  There are several new features in the Cypress release that are available, but
- not enabled by default in new installations.  For details,
- see the following topics.
+ not enabled by default in new installations. For details, see the following
+ topics.
 
  * :ref:`Enable edX Search`
  * :ref:`Enable Badging`
@@ -34,7 +34,7 @@ What is the Cypress Git Tag?
 The Git tag for the Cypress release is ``named-release/cypress``. You use this
 tag to identify the version of Open edX code that is the Cypress release.
 
-The following Open edX Git repositories have the Git tag 
+The following Open edX Git repositories have the Git tag
 ``named-release/cypress``.
 
 * edx-platform
@@ -72,6 +72,7 @@ For new installations, follow these steps.
      Vagrant box you need.
 
 #. `Set the OPENEDX_RELEASE Environment Variable`_.
+
 #. `Install the Vagrant Box`_.
 
 =========================

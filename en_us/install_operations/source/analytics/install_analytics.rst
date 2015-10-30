@@ -21,7 +21,7 @@ Course teams use edX Insights to access data gathered from active courses. In
 edX Insights, course teams can display charts, summary statistics, and data
 tables.
 
-The Learning Management System (LMS) gathers data about student activity. This
+The Learning Management System (LMS) gathers data about learner activity. This
 data is aggregated by the edX Analytics Pipeline. The aggregated data is
 exposed by the edX Analytics Data API. EdX Insights reads the data from the edX
 Analytics Data API and presents the data to course team members.
@@ -46,11 +46,11 @@ Components
 LMS
 ***
 
-The LMS records student actions in tracking log files. The standard
+The LMS records learner actions in tracking log files. The standard
 ``logrotate`` utility periodically compresses and copies these files into a
 file system that can be read by the edX Analytics Pipeline. The LMS also
 captures a lot of information in a MySQL database. The edX Analytics Pipeline
-connects directly to this database to extract information about students.
+connects directly to this database to extract information about learners.
 
 edX Analytics Pipeline
 **********************
