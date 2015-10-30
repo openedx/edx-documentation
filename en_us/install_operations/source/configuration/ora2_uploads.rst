@@ -8,8 +8,8 @@ By default, the Open Response Assessment (ORA2) application stores files that
 learners upload in an Amazon S3 bucket.
 
 With the Cypress release, you can configure ORA2 to store files in an alternate
-system. To have learners' files stored in a system other than Amazon S3, you
-must complete the following steps.
+system. To have learners' files stored in a system other than Amazon S3, follow
+these steps.
 
 #. In the ORA-2 repository, implement the ``BaseBackend`` class defined in the
    `base.py`_ file.

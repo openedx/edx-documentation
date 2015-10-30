@@ -24,7 +24,7 @@ To enable this feature on your instance of Open edX, you must enable the
 feature flag in both Studio and the Learning Management System and perform the
 configuration tasks described in this topic.
 
-.. Note::  
+.. Note::
   Before proceeding, review :ref:`Guidelines for Updating the Open edX
   Platform`.
 
@@ -32,9 +32,8 @@ configuration tasks described in this topic.
 Enable Certificates in Studio and the Learning Management System
 *****************************************************************
 
-To enable certificates, you modify the ``lms.env.json`` and
-``cms.env.json`` files, which are located one level above the ``edx-platform``
-directory.
+To enable certificates, you modify the ``lms.env.json`` and ``cms.env.json``
+files, which are located one level above the ``edx-platform`` directory.
 
 #. In the ``lms.env.json`` and ``cms.env.json`` files, set the value of
    ``CERTIFICATES_HTML_VIEW``  to ``True``.
@@ -52,7 +51,6 @@ directory.
    script.
 
 #. Run database migrations.
-
 
 **********************************************************
 Configure Certificates for Your Open edX Instance
@@ -75,7 +73,6 @@ Configure Certificates for Your Open edX Instance
  * ``company_verified_certificate_url``
  * ``logo_src``
  * ``logo_url``
-  
 
    For each course mode, such as "honor" or "verified", define
    ``certificate_type``, ``certificate_title`` and
@@ -87,7 +84,7 @@ Configure Certificates for Your Open edX Instance
     {
         "default": {
             "accomplishment_class_append": "accomplishment-certificate",
-            "platform_name": "YourPlatformName", 
+            "platform_name": "YourPlatformName",
             "company_about_url":"http://www.YourOrganization.com/about-us",
             "company_privacy_url": "http://www.YourOrganization.com/our-privacy-policy",
             "company_tos_url": "http://www.YourOrganization.com/our-terms-service",
@@ -115,13 +112,13 @@ Configure Certificates for Your Open edX Instance
             "certificate_title": "Distinguished Certificate of Achievement",
             "document_body_class_append": "is-distinguished"
         }
-    }   
+    }
 
-4. Save the configuration parameters and exit the Django Administration website.
+4. Save the configuration parameters and exit the Django Administration
+   website.
 
 #. Restart the Studio and Learning Management System processes so that the
    updated environment configurations are loaded.
-
 
 ******************************************************
 Customize Certificate Templates For Your Organization
@@ -135,19 +132,18 @@ fonts and colors that are used on certificates.
 
 Assets for HTML certificates exist in the following locations.
 
-* **lms/templates/certificates** - this folder contains .html files for
+* ``lms/templates/certificates`` - this folder contains .html files for
   certificates. The file ``valid.html`` is an example of a certificate file.
-  Files with names starting with an underscore, such as
-  ``_certificate_footer.html`` are partial files that can be referenced in the
+  Files with names that start with an underscore, such as
+  ``_certificate_footer.html``, are partial files that can be referenced in the
   main certificate .html files
 
-* **lms/static/certificates** - subfolders of this folder contain assets used in
-  creating certificates, such as images, fonts, and sass/css files. 
+* ``lms/static/certificates`` - subfolders of this folder contain assets used
+  in creating certificates, such as images, fonts, and sass/css files.
 
   .. note:: The organization logo on a certificate is uploaded in Studio. For
      details, see :ref:`opencoursestaff:Setting Up Course Certificates` in
      *Building and Running an Open edX Course*.
-
 
 *****************************************
 Configure Certificates Within Each Course
@@ -158,7 +154,6 @@ certificate configuration that is used to generate certificates for their
 course, including adding signatories and images for organization logo and
 signature images for signatories. For details, :ref:`opencoursestaff:Setting Up
 Course Certificates` in *Building and Running an Open edX Course*.
-
 
 *****************************************
 Generate Certificates For a Course
@@ -173,25 +168,26 @@ for eligible learners.
    certificates. When you view course content in your browser, the course ID
    appears as part of the URL. For example, in the URL
    ``http://www.edx.org/course/course-v1:edX+demoX_Demo_2015``, the course ID
-   is ``course-v1:edX+demoX_Demo_2015``. For some courses, the course ID 
-   contains slashes. For example, ``edX/Demox/Demo_2014``. 
+   is ``course-v1:edX+demoX_Demo_2015``. For some courses, the course ID
+   contains slashes. For example, ``edX/Demox/Demo_2014``.
 
 #. Run ``manage.py`` with the following settings, replacing ``{CourseID}``
    with the actual course ID. Do not include beginning or trailing slashes.
 
    ``./manage.py lms --settings=aws ungenerated_certs -c {CourseID}``
 
-   For example, 
+   For example,
 
    ``./manage.py lms --settings=aws ungenerated_certs -c course-v1:edX+demoX_Demo_2015``.
-   
-   .. Note:: 
-     If the LMS is running on a server that does not have https support 
-     (such as a locally run fullstack for testing) you will need to use the ``--insecure``
-     flag so that the certificate generation service contacts the lms on http instead of
-     https.
 
-3. View the certificate generation status for a course using ``gen_cert_report``. For example,
+   .. Note::
+     If the LMS is running on a server that does not have https support (such
+     as a locally run fullstack for testing) you will need to use the
+     ``--insecure`` flag so that the certificate generation service contacts
+     the LMS on http instead of on https.
+
+3. View the certificate generation status for a course using
+   ``gen_cert_report``. An example follows.
 
    ``./manage.py lms --settings=aws gen_cert_report -c course-v1:edX+demoX_Demo_2015``.
 

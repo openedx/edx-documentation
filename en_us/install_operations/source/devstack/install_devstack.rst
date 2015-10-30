@@ -31,14 +31,14 @@ See the `Vagrant documentation`_ for more information.
 Components
 ********************
 
-Devstack includes the following edX components:
+Devstack includes the following edX components.
 
 * The Learning Management System (LMS)
 * edX Studio
 * Discussion Forums
 * Open Response Assessments (ORA)
 
-Devstack also includes a demo edX course.
+Devstack also includes a demonstration edX course.
 
 **************************
 Knowledge Prerequisites
@@ -53,7 +53,6 @@ To use Devstack, you should meet the following knowledge requirements.
 * Understand Vagrant commands. See the `Vagrant Getting Started`_ guide for
   more information.
 
-
 **************************
 Software Prerequisites
 **************************
@@ -61,9 +60,9 @@ Software Prerequisites
 To install and run Devstack, you must first install the following required
 software.
 
-* `VirtualBox`_ 4.3.12 or higher
+* `VirtualBox`_ 4.3.12 or higher.
 
-* `Vagrant`_ 1.6.5 or higher
+* `Vagrant`_ 1.6.5 or higher.
 
 * A Network File System (NFS) client, if your operating system does not include
   one. Devstack uses VirtualBox Guest Editions to share folders through NFS.
@@ -123,7 +122,6 @@ Stack` to begin using Devstack.
 For help with the Devstack installation, see :ref:`Troubleshooting the Devstack
 Installation`.
 
-
 *****************************************
 Install Devstack using the Torrent file
 *****************************************
@@ -142,7 +140,6 @@ the Vagrant file with curl, do this:
     .. code-block:: bash
 
      vagrant box add box-name path-to-box-file
-
 
 .. _Troubleshooting the Devstack Installation:
 

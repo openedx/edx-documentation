@@ -1,4 +1,3 @@
-
 .. _Using Elastic MapReduce on AWS:
 
 ******************************************

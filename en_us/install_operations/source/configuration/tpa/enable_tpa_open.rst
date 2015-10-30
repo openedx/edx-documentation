@@ -19,5 +19,3 @@ enable this feature, follow these steps.
        }
 
 #. Save the ``edx/app/edxapp/lms.env.json`` file.
-
-

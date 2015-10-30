@@ -28,7 +28,7 @@ they can reuse course content.
 To enable this feature on your instance of Open edX, you must enable licensing
 in both Studio and the Learning Management System.
 
-.. Note::  
+.. Note::
   Before proceeding, review :ref:`Guidelines for Updating the Open edX
   Platform`.
 
@@ -36,13 +36,12 @@ in both Studio and the Learning Management System.
 Enable Licensing in Studio
 *****************************
 
-To enable licensing, you modify the ``lms.env.json`` and
-``cms.env.json`` files, which are located one level above the ``edx-platform``
-directory.
+To enable licensing, you modify the ``lms.env.json`` and ``cms.env.json``
+files, which are located one level above the ``edx-platform`` directory.
 
 #. In the ``lms.env.json`` and ``cms.env.json`` files, in the ``FEATURES``
    dictionary, add ``'LICENSING':True``:
-   
+
    .. code-block:: bash
 
       FEATURES = {

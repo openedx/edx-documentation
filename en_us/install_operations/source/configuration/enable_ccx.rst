@@ -7,7 +7,7 @@ Enabling Custom Courses
 To enable designated users to create custom courses (CCX) on your instance of
 Open edX, you must configure the ``server-vars.yml`` file in the edX platform.
 
-.. Note::  
+.. Note::
   Before proceeding, review :ref:`Guidelines for Updating the Open edX
   Platform`.
 

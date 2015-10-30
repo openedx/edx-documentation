@@ -36,10 +36,10 @@ the custom configuration file of each mobile application.
 Enable Mobile Application Features
 ====================================
 
-.. note:: Configuration settings added to the ``lms.env.json`` file are reset 
- to their default values when you use Ansible to update edx-platform. 
+.. note:: Configuration settings added to the ``lms.env.json`` file are reset
+ to their default values when you use Ansible to update edx-platform.
 
-To enable the mobile application features, follow these steps. 
+To enable the mobile application features, follow these steps.
 
 #. In the ``edx/app/edxapp/lms.env.json`` file, add the following lines to the
    features section.
@@ -53,7 +53,9 @@ To enable the mobile application features, follow these steps.
            "ENABLE_COMBINED_LOGIN_REGISTRATION": true
        }
 
-  If you are running in a non-SSL environment, you can set ``"OAUTH_ENFORCE_SECURE": false``. This should never be disabled in anything other than a development environment.
+  If you are running in a non-SSL environment, you can set
+  ``"OAUTH_ENFORCE_SECURE": false``. This configuration setting should never be
+  disabled in anything other than a development environment.
 
 #. Save the ``edx/app/edxapp/lms.env.json`` file.
 
@@ -80,7 +82,7 @@ To create your OAuth clients, follow these steps.
 #. Log in to the Django administration console for your base URL. For example,
    ``http://{your_URL}/admin``.
 
-#. In the **Oauth2** section, select **Clients**. 
+#. In the **Oauth2** section, select **Clients**.
 
 #. Select **Add client**. A dialog box opens with the **Client id** and
    **Client secret** populated for the new client.
@@ -96,7 +98,7 @@ To create your OAuth clients, follow these steps.
 
 #. Select **Save and add another**.
 
-#. Repeat steps 4-6 for the second application, and then select **Save**. 
+#. Repeat steps 4-6 for the second application, and then select **Save**.
 
 ================================================
 Configure the Applications with OAuth Client IDs
@@ -105,28 +107,28 @@ Configure the Applications with OAuth Client IDs
 The procedure that follows assumes that you have a different OAuth client ID
 for each edX mobile application.
 
-To configure each edX mobile application with its OAuth client ID, you add a setting
-to its corresponding custom configuration .yaml file. For information about
-how to set up custom configuration directories and files, see the GitHub
+To configure each edX mobile application with its OAuth client ID, you add a
+setting to its corresponding custom configuration .yaml file. For information
+about how to set up custom configuration directories and files, see the GitHub
 repositories for `iOS`_ and `Android`_.
 
 #. Obtain the OAuth client id for the first application from your Django
    administration console. For more information, see :ref:`Create the OAuth
    Clients`.
- 
+
 #. In your custom GitHub configuration directory, edit the .yaml file for the
    edX mobile application for iOS. For example, edit your ``ios.yaml`` file.
 
-#. Add the following line to the .yaml file. 
-   
+#. Add the following line to the .yaml file.
+
    ::
 
     OAUTH_CLIENT_ID: '{client_id_for_iOS_app}'
-   
+
 #. Save the file.
 
 #. Repeat steps 1-4 for the edX mobile application for Android.
-   
+
 ************************************
 Configuring Video Modules for Mobile
 ************************************
@@ -142,8 +144,9 @@ includes the video in the course structure.
 
 * To configure a video module in edX Studio, you edit the video component. On
   the **Advanced** tab, in the **Video File URLs** field, enter the URL to the
-  mobile-targeted video as the first URL in the list. For more information,
-  see :ref:`opencoursestaff:Working with Video Components` in *Building and Running an Open edX Course*.
+  mobile-targeted video as the first URL in the list. For more information, see
+  :ref:`opencoursestaff:Working with Video Components` in *Building and Running
+  an Open edX Course*.
 
 * To configure a video module by editing the course XML, enter the URL to the
   mobile-targeted video as the first URL in the list of ``html5_sources``. For
@@ -161,10 +164,10 @@ The procedures that follow assume that you have obtained an application ID,
 REST API key, and client key from Parse.
 
 ============================================
-Enable Push Notification on the Server  
+Enable Push Notification on the Server
 ============================================
 
-To enable the push notification feature, follow these steps. 
+To enable the push notification feature, follow these steps.
 
 #. In the ``edx/app/edxapp/cms.auth.json`` file, add the following lines.
 
@@ -182,9 +185,9 @@ To enable the push notification feature, follow these steps.
 #. Log in to the Django administration console for your Studio URL. For
    example, ``http://studio.{your_URL}/admin``.
 
-#. In the **Contentstore** section, select **Push notification configs**. 
+#. In the **Contentstore** section, select **Push notification configs**.
 
-#. Select **Add push notification config**. 
+#. Select **Add push notification config**.
 
 #. Verify that **Enabled** is selected, and then select **Save**.
 
@@ -213,7 +216,7 @@ directories and files, see the GitHub repositories for `iOS`_ and `Android`_.
       CLIENT_KEY: {your client key}
 
     PUSH_NOTIFICATIONS: true
-   
+
 #. Save the file.
 
 .. include:: ../../links/links.rst

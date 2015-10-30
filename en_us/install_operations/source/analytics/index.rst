@@ -4,7 +4,7 @@
 Installing and Configuring edX Insights
 ##############################################
 
-The following sections provide information about running `edX Insights`_ and
+The following topics provide information about running `edX Insights`_ and
 its dependencies in a production environment.
 
 .. toctree::
