@@ -7,8 +7,8 @@ Explore Posts
 
 This topic describes how to explore discussion posts in your edX course.
 
-.. contents:: 
-  :local: 
+.. contents::
+  :local:
   :depth: 1
 
 *********
@@ -60,12 +60,12 @@ discussions to find one that you're interested in.
 
 Discussion topics for edX courses can be *course-wide* or *content-specific*.
 
-* *Course-wide* discussion topics cover matters that affect the entire course,
-  and may include topics such as "Frequently Asked Questions" and
+* Course-wide discussion topics cover matters that affect the entire course,
+  and can include topics such as "Frequently Asked Questions" and
   "Troubleshooting".
 
-* *Content-specific* discussion topics cover specific video lectures, reading
-  assignments, homework problems, or other course content. 
+* Content-specific discussion topics cover specific video lectures, reading
+  assignments, homework problems, or other course content.
 
 =======================================
 View Topics on the Discussion Page
@@ -101,7 +101,7 @@ contains the topic. To see the discussion, select **Show Discussion**.
        identified by a "Show Discussion" link.
 
 You can also use the **Discussion** page to access a discussion in the unit
-where that topic is located. 
+where that topic is located.
 
 #. In the list of topics, select the topic that you want.
 

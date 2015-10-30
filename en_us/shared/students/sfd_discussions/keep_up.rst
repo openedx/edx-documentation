@@ -8,8 +8,8 @@ Keep Up with New Activity
 This topic describes how to keep up with discussion activity in your edX
 course.
 
-.. contents:: 
-  :local: 
+.. contents::
+  :local:
   :depth: 1
 
 .. _Read New or Updated Posts:
@@ -40,8 +40,8 @@ activity** or **by most activity**. This is the default view when you open the
 * A **blue callout image on a white background** indicates that you have not
   yet read the post.
 
-.. image:: ../../../shared/students/Images/Discussion_colorcoding.png 
-  :alt: The list of posts with posts showing differently colored backgrounds 
+.. image:: ../../../shared/students/Images/Discussion_colorcoding.png
+  :alt: The list of posts with posts showing differently colored backgrounds
         and callout images.
 
 The number in each callout image indicates the total number of contributions in
@@ -51,7 +51,7 @@ image.
 
 .. image:: ../../../shared/students/Images/Discussion_mouseover.png
  :width: 300
- :alt: A post with 4 contributions total and a popup that shows only two are 
+ :alt: A post with 4 contributions total and a popup that shows only two are
        unread.
 
 ==================
@@ -70,7 +70,6 @@ Posts or Responses`.
   :width: 300
   :alt: A list of posts sorted by votes, with the number of votes to the right
       of the post title.
-
 
 ****************************
 Receive Daily Digests

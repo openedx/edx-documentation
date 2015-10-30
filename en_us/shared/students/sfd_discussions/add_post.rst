@@ -8,7 +8,7 @@ Add, Edit, or Delete a Post, Response, or Comment
 This topic describes how to add, edit, and delete contributions to discussions
 from inside the course or from the **Discussion** page.
 
-.. contents:: 
+.. contents::
   :local:
   :depth: 1
 
@@ -32,10 +32,10 @@ To make sure that other students and the course team can find and respond to
 your post, decide what type of post you want to make: either question or
 discussion.
 
-* A *question* post raises an issue so that the discussion moderation team or
+* A question post raises an issue so that the discussion moderation team or
   community can provide answers.
 
-* A *discussion* post starts a conversation by sharing thoughts and
+* A discussion post starts a conversation by sharing thoughts and
   reflections, and inviting community participation.
 
 If you have any difficulty deciding which type of post you want to add, think
@@ -52,7 +52,7 @@ bubble image identifies posts that start discussions.
 .. note:: You can change the post type from discussion to question or vice
    versa at any time after you add your post. For more information, see
    :ref:`Edit or Delete`.
-   
+
 
 .. _Determine Post Topic:
 
@@ -87,7 +87,7 @@ topics on the **Discussion** page.
 #. Select the most appropriate discussion topic for your post.
 
    .. image:: ../../../shared/students/Images/Discussion_course_wide_post.png
-    :width: 300 
+    :width: 300
     :alt: Selecting the topic for a new post on the Discussion page.
 
 #. In the **Title** box, enter a short, descriptive title. The title is the
@@ -122,7 +122,7 @@ to content-specific discussions.
    You can scroll through the posts that have already been added: the title and
    the first sentence or two of each post appear. To read an entire post, view
    the responses to it, and see any comments, select **Expand discussion**.
-  
+
 #. Select **New Post** to add a post.
 
    .. image:: ../../../shared/students/Images/Discussion_content_specific_post.png
@@ -173,16 +173,16 @@ topics on the **Discussion** page.
 
 #. Add a response or comment.
 
-   * To add a response to the post, select **Add A Response**. When your
-     response is complete, select **Submit**.
+  * To add a response to the post, select **Add A Response**. When your
+    response is complete, select **Submit**.
 
      .. image:: ../../../shared/students/Images/Discussion_add_response.png
        :width: 500
-       :alt: The **Add A Response** button located between a post and its 
+       :alt: The **Add A Response** button located between a post and its
           responses.
 
-   * To add a comment to a response, select inside the **Add a comment** field
-     below the response. When your comment is complete, select **Submit**.
+  * To add a comment to a response, select inside the **Add a comment** field
+    below the response. When your comment is complete, select **Submit**.
 
 *******************************************
 Add a Response or Comment in a Course Unit
@@ -192,24 +192,24 @@ You can add a response or comment to a content-specific discussion
 topic inside the course.
 
 #. In the unit that contains the discussion topic where you want to make
-   your contribution, select **Show Discussion**. 
+   your contribution, select **Show Discussion**.
 
 #. Scroll to the post that you want to contribute to. To help you decide
    where to add your thoughts, review the current responses and their comments.
 
 #. Under the text of the post, select **Expand discussion**.
-   
+
    .. image:: ../../../shared/students/Images/Discussion_expand.png
     :width: 500
     :alt: The **Expand discussion** link under a post
 
 #. Add a response or comment.
 
-   * To add a response to the post, select **Add A Response**. When your
-     response is complete, select **Submit**.
+  * To add a response to the post, select **Add A Response**. When your
+    response is complete, select **Submit**.
 
-   * To add a comment to a response, select inside the **Add a comment** field
-     below the response. When your comment is complete, select **Submit**.
+  * To add a comment to a response, select inside the **Add a comment** field
+    below the response. When your comment is complete, select **Submit**.
 
 .. _Edit or Delete:
 
@@ -233,10 +233,10 @@ cannot edit or delete contributions from other students.
 
 #. Edit or delete the contribution.
 
-   * To edit the contribution, select **Edit**, make the changes that you want
-     in the text editor that opens, and then select **Update Response**. For
-     posts, you can change the post topic and the post type as well as the text
-     of the post.
+  * To edit the contribution, select **Edit**, make the changes that you want
+    in the text editor that opens, and then select **Update Response**. For
+    posts, you can change the post topic and the post type as well as the text
+    of the post.
 
-   * To delete the contribution, select **Delete**, and then select **OK** in
-     the pop-up confirmation box.
+  * To delete the contribution, select **Delete**, and then select **OK** in
+    the pop-up confirmation box.

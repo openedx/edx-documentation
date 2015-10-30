@@ -167,7 +167,7 @@
 
 .. _Google Play: https://play.google.com/store/apps/details?id=org.edx.mobile
 .. _App Store: https://itunes.apple.com/us/app/edx/id945480667?mt=8
-
+.. _VoiceOver for OS X: https://www.apple.com/accessibility/osx/voiceover/
 .. _Creative Commons website: http://creativecommons.org/licenses
 
 .. _Time and Date Time Zone Converter: http://www.timeanddate.com/worldclock/converter.html
@@ -226,8 +226,6 @@
 
 
 .. _RST: http://docutils.sourceforge.net/rst.html
-
-.. _Proctoring Software System Requirements: http://clientportal.softwaresecure.com/support/index.php?/Knowledgebase/Article/View/252/0/system-requirements-remote-proctor-now
 
 .. _Proctoring Software System Requirements: http://clientportal.softwaresecure.com/support/index.php?/Knowledgebase/Article/View/252/0/system-requirements-remote-proctor-now
 
