@@ -124,35 +124,83 @@ To create a course-wide discussion topic, follow these steps.
 #. Scroll down to the **Discussion Topic Mapping** policy key. By default, its
    value looks like this.
 
- .. image:: ../../../shared/building_and_running_chapters/Images/Discussion_Add_initial.png
-  :alt: Policy value of {"General": {"id": "i4x-edX-Open-edx_demo_course"}}.
+   ::
+
+     {
+         "General": {
+             "id": "course"
+         }
+     }
 
 4. Copy the three lines provided for the General topic and paste
    them above the closing brace character (``}``).
 
- .. image:: ../../../shared/building_and_running_chapters/Images/Discussion_Add_paste.png
-  :alt: Policy value of {"General": {"id": "i4x-edX-Open-edx_demo_course"}
-        "General": {"id": "i4x-edX-Open-edx_demo_course"}}.
 
-5. Replace the second "General" with the quoted name of your new topic.
+   ::
 
-#. Change the value for the second "id" to a unique identifier. For example,
+     {
+         "General": {
+             "id": "course"
+         }
+         "General": {
+             "id": "course"
+         }
+     }
+
+
+5. Replace the second "General" with the quoted name of your new topic. For
+   example, name the new topic "Questions about the Course".
+
+   ::
+
+     {
+        "General": {
+            "id": "course"
+        }
+        "Questions about the Course": {
+             "id": "course"
+        }
+     }
+
+6. Change the value for the second "id" to a unique identifier. For example,
    append a reference to the name of the topic.
 
-.. note:: In discussion topic IDs, you can use only alphanumeric characters
-   and these special characters: underscore, hyphen, and period.
+   ::
+
+     {
+        "General": {
+            "id": "course"
+        }
+        "Questions about the Course": {
+             "id": "course_q"
+        }
+     }
+
+   .. note:: In discussion topic IDs, you can use only alphanumeric characters
+     and these special characters: underscore, hyphen, and period.
 
 7. Add a comma after the first closing brace (``},``).
 
- .. image:: ../../../shared/building_and_running_chapters/Images/Discussion_Add_name.png
-  :alt: Policy value of {"General": {"id": "i4x-edX-Open-edx_demo_course"},
-        "Course Q&A": {"id": "i4x-edX-Open-edx_demo_course_faq"}}.
+   ::
 
-8. Select **Save Changes**. Studio resequences and reformats your entry. Scroll
-   back to the **Discussion Topic Mapping** field to verify that your entry was
-   saved as you expect. Entries that do not contain all of the required
-   punctuation characters revert to the previous value when you save, and no
-   warning is presented.
+     {
+        "General": {
+            "id": "course"
+        },
+        "Questions about the Course": {
+             "id": "course_q"
+        }
+     }
+
+#. Select **Save Changes**.
+
+   Studio checks the syntax of your entry and reformats your entry to add line
+   feeds and indentation.
+
+#. Scroll back to the **Discussion Topic Mapping** field to verify that your
+   entry was saved as you expect. Entries that do not contain all of the
+   required punctuation characters revert to the previous value when you save,
+   and no warning is presented.
 
 When learners select the **Discussion** page for your course, the drop-down
 Discussion list now includes the topic you added.
@@ -163,8 +211,8 @@ Discussion list now includes the topic you added.
 .. note:: In courses that use cohorts, the course-wide discussion topics that
    you add are unified. All posts can be read and responded to by every
    learner, regardless of the cohort that they belong to. You can optionally
-   configure these topics to be divided by cohort. For more information, see :ref:`Coursewide
-   Discussion Topics and Cohorts`.
+   configure these topics to be divided by cohort. For more information, see
+   :ref:`Coursewide Discussion Topics and Cohorts`.
 
 .. _Create ContentSpecific Discussion Topics:
 
