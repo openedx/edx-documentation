@@ -69,13 +69,13 @@ Configure Certificates for Your Open edX Instance
 #. Modify the configuration parameters. You must set the following
    certificates-related parameters for your Open edX instance.
 
- * ``platform_name``
- * ``company_about_url``
- * ``company_privacy_url``
- * ``company_tos_url``
- * ``company_verified_certificate_url``
- * ``logo_src``
- * ``logo_url``
+   * ``platform_name``
+   * ``company_about_url``
+   * ``company_privacy_url``
+   * ``company_tos_url``
+   * ``company_verified_certificate_url``
+   * ``logo_src``
+   * ``logo_url``
 
    For each course mode, such as "honor" or "verified", define
    ``certificate_type``, ``certificate_title`` and
@@ -117,7 +117,7 @@ Configure Certificates for Your Open edX Instance
         }
     }
 
-4. Save the configuration parameters and exit the Django Administration
+#. Save the configuration parameters and exit the Django Administration
    website.
 
 #. Restart the Studio and Learning Management System processes so that the
@@ -189,7 +189,7 @@ for eligible learners.
      ``--insecure`` flag so that the certificate generation service contacts
      the LMS on http instead of on https.
 
-3. View the certificate generation status for a course using
+#. View the certificate generation status for a course using
    ``gen_cert_report``. An example follows.
 
    ``./manage.py lms --settings=aws gen_cert_report -c course-v1:edX+demoX_Demo_2015``.

@@ -14,7 +14,7 @@ environment to support paid courses.
 
 For more information, see the following sections.
 
-.. contents:: 
+.. contents::
    :depth: 1
    :local:
 
@@ -50,14 +50,14 @@ with the following information. You will add this information to one of the
 
 * An access key.
 * A profile ID.
-* A purchase endpoint URL. 
+* A purchase endpoint URL.
 * A secret key.
 
 
 .. _Add Configuration Code:
 
 ========================
-Add Configuration Code 
+Add Configuration Code
 ========================
 
 To enable users to pay for your course, you must add the following
@@ -65,7 +65,7 @@ configuration code in your Open edX environment.
 
 * Add the following code to the lms.env.json file.
 
-  .. code:: json
+  .. code-block:: json
 
     ...
     "FEATURES": {
@@ -78,19 +78,19 @@ configuration code in your Open edX environment.
 
 * Add the following code to the lms.auth.json file.
 
-  .. code:: json
+  .. code-block:: json
 
     ...
         "CC_PROCESSOR": {
             "CyberSource2": {
-                "ACCESS_KEY": "{access key provided by CyberSource}", 
-                "PROFILE_ID": "{profile ID provided by CyberSource}", 
-                "PURCHASE_ENDPOINT": "{purchase endpoint URL provided by CyberSource}", 
+                "ACCESS_KEY": "{access key provided by CyberSource}",
+                "PROFILE_ID": "{profile ID provided by CyberSource}",
+                "PURCHASE_ENDPOINT": "{purchase endpoint URL provided by CyberSource}",
                 "SECRET_KEY": "{secret key provided by CyberSource}"
             }
-        }, 
+        },
         "CC_PROCESSOR_NAME": "CyberSource2",
-    ... 
+    ...
 
 .. _Add Course Mode:
 
@@ -176,7 +176,7 @@ When a user has the Sales Admin or Finance Admin role, that user can see an
 **E-Commerce** page on the Instructor Dashboard. The **E-Commerce** page
 includes the following sections. The Finance Admin role can see all sections.
 The Sales Admin role can see all sections except the **Course Seat Purchases**
-section. 
+section.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/ECommercePage.png
  :width: 500
@@ -239,7 +239,7 @@ Admin or Finance Admin role. For information, see :ref:`Assign Admin Roles`.
 
 Your coupon code can be any combination of uppercase and lowercase letters
 numbers, and special characters. For example, your coupon code could be
-Holiday_10, MYDISCOUNT, or ZYX321. 
+Holiday_10, MYDISCOUNT, or ZYX321.
 
 .. note:: The coupon code must have 16 or fewer characters.
 
@@ -249,7 +249,7 @@ To create coupon codes, follow these steps.
    select the **Coupon Code List** section.
 #. On the right side of the page, select **Add Coupon Code**.
 #. In the **Add Coupon Code** dialog box, enter your information in the **Code**
-   and **Discount Percentage** fields. 
+   and **Discount Percentage** fields.
 #. (optional) In the **Description** field, enter a description for your
    coupon code.
 #. (optional) Select **Expiration Date**, and then select a date from the
@@ -270,7 +270,7 @@ To see information about a particular coupon code, follow these steps.
 #. In the **Coupon Codes** list, locate the coupon code that you want to see.
 
    The **Coupon Codes** list has the following information.
-   
+
    * **Code**: The name of the code.
    * **Description**: A brief description of the code, if the creator entered
      one.
@@ -288,7 +288,7 @@ You edit or delete coupon codes on the **E-Commerce** page on the Instructor
 Dashboard. To see the **E-Commerce** page, you must have either the Sales
 Admin or Finance Admin role. For information, see :ref:`Assign Admin Roles`.
 
-.. note:: You can only edit the description of a coupon code. You cannot 
+.. note:: You can only edit the description of a coupon code. You cannot
  edit the code, discount percentage, course ID, or expiration date.
 
 #. On the Instructor Dashboard, select the **E-Commerce** page, and then
@@ -301,12 +301,12 @@ Admin or Finance Admin role. For information, see :ref:`Assign Admin Roles`.
 
    To delete the coupon code, select the ``[x]`` in the **Actions** column.
    The coupon code moves to the end of the list and appears crossed out with a
-   light red background.   
+   light red background.
 
 .. _Create and Manage Enrollment Codes:
 
 ******************************************
-Create and Manage Enrollment Codes 
+Create and Manage Enrollment Codes
 ******************************************
 
 If an organization wants to purchase enrollment for multiple seats in your
@@ -333,15 +333,15 @@ or Finance Admin role. For information, see :ref:`Assign Admin Roles`.
 #. When the **Create Enrollment Codes** form opens, complete the form. The
    following fields are required.
 
- * Organization name
- * Organization contact
- * Organization contact email 
- * Organization billing address
- * Invoice recipient
- * Number of seats
- * Price per seat
+   * Organization name
+   * Organization contact
+   * Organization contact email
+   * Organization billing address
+   * Invoice recipient
+   * Number of seats
+   * Price per seat
 
-4. At the bottom of the form, select **Create Enrollment Codes**.
+#. At the bottom of the form, select **Create Enrollment Codes**.
 
 When you select **Create Enrollment Codes**, the system automatically creates a
 comma-separated values (.csv) file and downloads the .csv file to your computer.
@@ -369,7 +369,7 @@ To change the default email, follow these steps.
 #. In your Open edX repository, go to the **edx-
    platform/lms/templates/emails** folder.
 
-#. In a text editor, open the following three files. 
+#. In a text editor, open the following three files.
 
    * **registration_codes_sale_email.txt**: The confirmation email to send to
      the purchasing organization. This email can include a sample message that
@@ -398,7 +398,7 @@ Manage Enrollment Codes
 You manage individual enrollment codes in the **Enrollment Codes** section of
 the **E-Commerce** page. To see the **E-Commerce** page, you must have either
 the Sales Admin or Finance Admin role. For information, see :ref:`Assign Admin
-Roles`. 
+Roles`.
 
 In the **Enrollment Codes** section, you can perform the following
 transactions.
@@ -424,7 +424,7 @@ To cancel, restore, or mark an enrollment code as unused, follow these steps.
     :alt: The Enrollment Code Status dialog box, listing a used enrollment
         code and the available actions for that code.
 
-.. note:: After you cancel an enrollment code, the learner who used 
+.. note:: After you cancel an enrollment code, the learner who used
  that enrollment code  is no longer enrolled in the course and cannot see any
  course content.
 
@@ -446,13 +446,13 @@ To cancel or resubmit an invoice, follow these steps.
 #. Select the action that you want to complete.
 
   * To cancel an invoice, enter the invoice number in the **Invoice Number**
-    field, and then select **Cancel Invoice**. 
+    field, and then select **Cancel Invoice**.
   * To resubmit an invoice, enter the invoice number in the **Invoice
     Number** field, and then select **Resubmit Invoice**. You can find the
     invoice number in the .csv file that the system creates and downloads to
     your computer when you create enrollment codes.
 
-.. note:: After you cancel an invoice, learners who have used any of the 
+.. note:: After you cancel an invoice, learners who have used any of the
  enrollment codes on the invoice are no longer enrolled in the course and
  cannot see any course content.
 

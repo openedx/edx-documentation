@@ -102,9 +102,9 @@ videos. Learners see the license at the bottom of all pages in the courseware.
 
 #. Select the license option for your course.
 
-  * To grant learners to right to share and use course content, select
-    **Creative Commons**. The Creative Commons options are displayed.
-   
+   * To grant learners to right to share and use course content, select
+     **Creative Commons**. The Creative Commons options are displayed.
+
      .. image:: ../../../shared/building_and_running_chapters/Images/creative-commons-license-course.png
       :alt: The Creative Commons license options.
       :width: 600
@@ -112,9 +112,9 @@ videos. Learners see the license at the bottom of all pages in the courseware.
      Select the :ref:`Creative Commons license options <Creative Commons
      License>` to apply.
 
-  * To reserve all course content rights, select **All Rights Reserved**.
+   * To reserve all course content rights, select **All Rights Reserved**.
 
-4. Select **Save** at the bottom of the page to save your changes.
+#. Select **Save** at the bottom of the page to save your changes.
 
 .. _Set Video Licensing:
 

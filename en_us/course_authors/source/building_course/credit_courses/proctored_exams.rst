@@ -130,7 +130,7 @@ Learners who are not ready to make the choice or take the exam immediately can
 defer their decision and return to the exam again at some other time before
 the due date.
 
-.. Question for Griff or Julia 
+.. Question for Griff or Julia
 
 .. Do we want to give advice to course staff about planning an adequate due date?  e.g. allow more time than normal for allow proctoring results to come back? Allow time for administrative tasks, especially as edX support needs to be involved in creating extra time allowances. Course staff need to allow enough time to get confirmations back from Support and also to notify students. If resolution of any technical difficulty disputes is needed, students also need adequate time to retake the exam.
 
@@ -187,7 +187,7 @@ earning credit.
 
 Explain what proctored exams are, and provide learners with links to the
 Learner's Guide topics about proctored exams, and to edX's :ref:`Online
-Proctoring Rules <Online Proctoring Rules>`. 
+Proctoring Rules <Online Proctoring Rules>`.
 
 .. note:: Course staff should familiarize themselves with edX's :ref:`Online
    Proctoring Rules <Online Proctoring Rules>`, which reflect our proctoring
@@ -265,11 +265,11 @@ To enable proctored exams in your course, follow these steps.
 
 #. Change the value of the setting to ``true``.
 
-  .. image:: ../../../../shared/building_and_running_chapters/Images/Proctoring_AdvancedSetting.png
-     :alt: The "Enable Timed and Proctored Exams" advanced setting with a value of "true".
-     :width: 500
+   .. image:: ../../../../shared/building_and_running_chapters/Images/Proctoring_AdvancedSetting.png
+      :alt: The "Enable Timed and Proctored Exams" advanced setting with a value of "true".
+      :width: 500
 
-4. Select **Save Changes** at the bottom of the page. You can now create
+#. Select **Save Changes** at the bottom of the page. You can now create
    proctored exams in your course.
 
 When you have enabled this setting for your course, you can perform the
@@ -321,7 +321,7 @@ Create a Practice Proctored Exam
 You can add a practice proctored exam to your course so that learners can
 confirm that their systems are compatible with the proctoring software and
 familiarize themselves with the steps to perform the identity and environment
-checks. 
+checks.
 
 .. note:: Unlike actual proctored exams, practice exams are visible to all
    learners, regardless of the track that they are enrolled in.
@@ -329,7 +329,7 @@ checks.
 Practice exams are not linked to credit eligibility requirements and
 no monitoring by the proctoring software is actually done, but learners will
 be guided through the same steps as in a real proctored exam, to install the
-proctoring software, perform the identify checks and room scan. 
+proctoring software, perform the identify checks and room scan.
 
 Learners who have performed the proctoring software installation for a
 practice exam are required to perform the same installation step when they
@@ -341,7 +341,7 @@ To create a practice exam, follow these steps.
 
 .. note:: Make sure you create the practice exam as an ungraded exam.
 
-#. In Studio, in your course outline, add a subsection for the practice exam. 
+#. In Studio, in your course outline, add a subsection for the practice exam.
 
 #. Give a name to the exam that clearly identifies it as a practice exam.
 
@@ -369,7 +369,7 @@ To create a practice exam, follow these steps.
    add a few dummy questions to the exam.
 
 The practice exam is added to the courseware, and is visible to all learners
-regardless of their enrollment track. 
+regardless of their enrollment track.
 
 
 .. _Respond to Learner Concerns about Proctored Exams:
@@ -390,7 +390,7 @@ arise that require an action by edX Support.
 .. _Requests for Additional Time:
 
 ===================================
-Handle Requests for Additional Time 
+Handle Requests for Additional Time
 ===================================
 
 In some situations, for example to accommodate learners with disabilities,
@@ -458,7 +458,7 @@ Handle Requests for Retaking a Proctored Exam
 
 Course teams might have to manage situations where learners experienced
 technical difficulties with online proctoring, or other reasons for requesting
-a chance to retake a proctored exam. 
+a chance to retake a proctored exam.
 
 .. note:: Deleting a learner's exam attempt clears all submitted answers, and
    the learner experiences the exam as if for the first time, including making
@@ -543,7 +543,7 @@ steps.
 #. Select **Generate Proctored Exam Results Report**.
 
    .. image:: ../../../../shared/building_and_running_chapters/Images/Proctoring_GenerateCSVExamResults.png
-     :alt: The "Generate Proctored Exam Results Report" button in the LMS. 
+     :alt: The "Generate Proctored Exam Results Report" button in the LMS.
      :width: 400
 
    A status message indicates that the report generation process is in
@@ -563,7 +563,7 @@ steps.
    requested.
 
    .. image:: ../../../../shared/building_and_running_chapters/Images/Proctoring_CSVExamResultsLink.png
-     :alt: The link for a generated proctored exam results report in the instructor dashboard. 
+     :alt: The link for a generated proctored exam results report in the instructor dashboard.
      :width: 600
 
    You can open .csv files in a spreadsheet application to sort, graph, and
@@ -598,9 +598,9 @@ learners' proctoring sessions contains the following fields.
    * - Exam Name
      - The name of the proctored exam in the courseware.
    * - Allowed Time
-     - The amount of time in minutes that this learner was allotted for 
+     - The amount of time in minutes that this learner was allotted for
        completing the exam.
-   * - Is Sample Attempt  
+   * - Is Sample Attempt
      - Indicates whether this exam attempt was for a practice exam.
    * - Started At
      - The date and time that the learner started to take the proctored exam.
@@ -611,7 +611,7 @@ learners' proctoring sessions contains the following fields.
        ``created``, ``ready to start``, ``started``, ``timed out``,
        ``completed``, ``submitted``, ``verified``, ``rejected``, and
        ``error``. For an explanation of each status, see the table below.
-  
+
 
 The following table describes the possible values in the Status column.
 
@@ -676,7 +676,7 @@ Running Out Of Time In an Exam
 
 If the timer reaches 00.00 before a learner has completed the exam, the exam
 ends, and all answers that the learner has submitted up to that point in time
-are submitted for grading. 
+are submitted for grading.
 
 The proctoring software detects that the edX exam has ended, and prompts
 learners to confirm that they want to quit their proctoring session. Learners
