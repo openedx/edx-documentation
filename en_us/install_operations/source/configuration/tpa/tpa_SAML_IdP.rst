@@ -41,33 +41,33 @@ To add and enable a SAML 2.0 identity provider, follow these steps.
     next to **Provider Configuration (SAML IdPs)** select **Change**, and then
     select **Update** for the provider that you want to configure.
 
-3. Enter the following information for the provider.
+#. Enter the following information for the provider.
 
- - **Icon class**: Specifies a `Font Awesome`_ image for the button that users
-   will select to access the sign in page for this IdP. The **fa-sign-in** icon
-   is used by default. For university or institutional providers, a suggested
-   alternative is **fa-university**.
+   - **Icon class**: Specifies a `Font Awesome`_ image for the button that users
+     will select to access the sign in page for this IdP. The **fa-sign-in** icon
+     is used by default. For university or institutional providers, a suggested
+     alternative is **fa-university**.
 
- - **Name**: The name of the IdP as you want it to appear on the sign in page.
+   - **Name**: The name of the IdP as you want it to appear on the sign in page.
 
- - **Secondary**: Select this option to include the IdP in an intermediary list
-   of providers that users access from a **Use my institution/campus
-   credentials** button on the sign in page.
+   - **Secondary**: Select this option to include the IdP in an intermediary list
+     of providers that users access from a **Use my institution/campus
+     credentials** button on the sign in page.
 
- - **Backend name**: The default, **tpa-saml**, is optimized for use with Open
-   edX and works with most SAML providers. Select a different option only
-   if you have added a custom backend that provides additional functionality.
+   - **Backend name**: The default, **tpa-saml**, is optimized for use with Open
+     edX and works with most SAML providers. Select a different option only
+     if you have added a custom backend that provides additional functionality.
 
- - **IdP slug**: A short, unique name to identify this IdP in the URL. The slug
-   becomes part of a URL, so the value that you enter cannot include spaces.
+   - **IdP slug**: A short, unique name to identify this IdP in the URL. The slug
+     becomes part of a URL, so the value that you enter cannot include spaces.
 
- - **Entity ID**: The URI that identifies the IdP. This ID must match
-   the value specified in the metadata XML file.
+   - **Entity ID**: The URI that identifies the IdP. This ID must match
+     the value specified in the metadata XML file.
 
- - **Metadata source**: The URL of the XML file that contains this provider's
-   metadata.
+   - **Metadata source**: The URL of the XML file that contains this provider's
+     metadata.
 
-4. Specify your selections for any of the other, optional configuration
+#. Specify your selections for any of the other, optional configuration
    options. For more information about these options, see :ref:`Configuration
    Options for SAML Providers`.
 

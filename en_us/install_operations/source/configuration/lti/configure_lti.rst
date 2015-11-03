@@ -39,19 +39,19 @@ follow these steps.
 
 #. Enter the following information.
 
-  - **Consumer Name**: An identifying name for the tool consumer.
+   - **Consumer Name**: An identifying name for the tool consumer.
 
-  - **Consumer Key**: The console generates a unique key value for this
-    tool consumer. Alternatively, you can use an external application to
-    generate the key, and then enter it here.
+   - **Consumer Key**: The console generates a unique key value for this
+     tool consumer. Alternatively, you can use an external application to
+     generate the key, and then enter it here.
 
-  - **Consumer Secret**: The console generates a unique secret value for this
-    tool consumer. Alternatively, you can use an external application to
-    generate the secret, and then enter it here.
+   - **Consumer Secret**: The console generates a unique secret value for this
+     tool consumer. Alternatively, you can use an external application to
+     generate the secret, and then enter it here.
 
-  .. important:: Do not supply a value for the **Instance guid** field. The
-   tool consumer generates and supplies a globally unique identifier.
+   .. important:: Do not supply a value for the **Instance guid** field. The
+      tool consumer generates and supplies a globally unique identifier.
 
-4. Select **Save** at the bottom of the page.
+#. Select **Save** at the bottom of the page.
 
 .. include:: ../../../../links/links.rst

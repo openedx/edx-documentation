@@ -19,7 +19,7 @@ your learners to cohorts: automated assignment, manual assignment, or a hybrid
 approach. For more information, see :ref:`Options for Assigning Learners to
 Cohorts`.
 
-.. note:: Although you can change the assignment method for cohorts at any 
+.. note:: Although you can change the assignment method for cohorts at any
   time, you should have a strategy in mind as you design your course, and only
   make changes to cohorts while the course is running if absolutely necessary.
 
@@ -32,7 +32,7 @@ configuration steps (as applicable).
 #. :ref:`Enable cohorts<Enable Cohorts>`.
 
 #. Determine the method you want to use to assign students to cohorts.
-   
+
   * :ref:`Implement an automated assignment strategy<Implementing the Automated
     Assignment Strategy>`
 
@@ -44,7 +44,7 @@ configuration steps (as applicable).
 
 3. Optionally, identify the discussion topics that you want to be divided by
    cohort.
-   
+
   * Course-wide discussion topics are unified by default, but you can specify
     that they are :ref:`divided by cohort<Specify Whether CourseWide Discussion
     Topics are Cohorted>`.
@@ -100,7 +100,7 @@ already assigned to a cohort, she is randomly assigned to one of the automated
 cohorts. If no automated cohorts exist, the system creates a :ref:`Default
 Cohort Group` and assigns the learner to this default cohort.
 
-.. note:: The default cohort is created to ensure that every learner is 
+.. note:: The default cohort is created to ensure that every learner is
    assigned to a cohort. To avoid having to re-assign learners from the default
    cohort to other cohorts, make sure you create the automated cohorts that you
    want before the course starts.
@@ -135,10 +135,10 @@ Enabling Cohorts in your Course
 
 To enable cohorts in your course, follow these steps.
 
-#. In the LMS, select **Instructor**, then select **Cohorts**. 
+#. In the LMS, select **Instructor**, then select **Cohorts**.
 
 #. Select **Enable Cohorts**.
-   
+
 You can now :ref:`add cohorts<Add Cohorts>` to your course.
 
 .. warning:: Be very careful in deciding to enable the cohort feature in a live
@@ -164,21 +164,21 @@ After you enable the cohorts feature for your course, you can add cohorts.
 
 #. Enter a name for the cohort.
 
-.. note:: Learners can see the name of the cohort they are assigned to. The
-   message "This post is visible only to {cohort name}" appears with each post
-   in discussion topics that are divided by cohort. See :ref:`Read the Cohort
-   Indicator in Posts`.
+   .. note:: Learners can see the name of the cohort they are assigned to. The
+      message "This post is visible only to {cohort name}" appears with each post
+      in discussion topics that are divided by cohort. See :ref:`Read the Cohort
+      Indicator in Posts`.
 
-4. Specify whether learners are automatically or manually assigned to this
+#. Specify whether learners are automatically or manually assigned to this
    cohort.
-   
+
 #. Optionally, select **Select a Content Group** to associate the cohort with a
    :ref:`content group<About Content Groups>`. For information about creating
    cohort-specific courseware by associating cohorts with content groups, see
    :ref:`Cohorted Courseware Overview`.
 
-#. Select **Save**. 
-   
+#. Select **Save**.
+
 Continue implementing your cohort strategy by creating additional cohorts as
 applicable, and specifying the assignment method for each cohort.
 
@@ -206,14 +206,14 @@ learner, review the learner profile information for your course. See
 Assign Learners to Cohorts Manually
 ***********************************
 
-.. note:: Manual assignments should be as complete as possible before your 
+.. note:: Manual assignments should be as complete as possible before your
  course starts. If enrollment continues after your course starts, you
- should continue to assign new learners to cohorts. 
+ should continue to assign new learners to cohorts.
 
 #. View the live version of your course. For example, in Studio click **View
    Live**.
 
-#. Select **Instructor**, then select **Cohorts**. 
+#. Select **Instructor**, then select **Cohorts**.
 
 #. Scroll to the **Cohort Management** section at the bottom.
 
@@ -257,7 +257,7 @@ running. To understand the effects of changing cohort assignments after your
 course has started, see :ref:`Altering Cohort Configuration`.
 
 .. note:: Be aware that the contents of the .csv file are processed row by row,
-  from top to bottom, and each row is treated independently. 
+  from top to bottom, and each row is treated independently.
 
   For example, if your .csv file contains conflicting information such as
   Student A being first assigned to Cohort 1, then later in the spreadsheet
@@ -276,50 +276,50 @@ The requirements for the .csv file are summarized in this table.
       - **Notes**
     * - Valid .csv file
 
-      - The file must be a properly formatted comma-separated values file: 
+      - The file must be a properly formatted comma-separated values file:
 
         * The file extension is .csv.
         * Every row must have the same number of commas, whether or not there
-          are values in each cell. 
+          are values in each cell.
     * - File size
-      - The file size of .csv files for upload is limited to a maximum of 2MB.               
+      - The file size of .csv files for upload is limited to a maximum of 2MB.
     * - UTF-8 encoded
-      
+
       - You must save the file with UTF-8 encoding so that Unicode characters
-        display correctly. 
+        display correctly.
 
         See :ref:`Creating a Unicode Encoded CSV File`.
 
     * - Header row
-      - You must include a header row, with column names that exactly match those 
+      - You must include a header row, with column names that exactly match those
         specified in "Columns" below.
-    * - One or two columns identifying students      
-      - You must include at least one column identifying students: 
-        either "email" or "username", or both. 
+    * - One or two columns identifying students
+      - You must include at least one column identifying students:
+        either "email" or "username", or both.
 
         If both the username and an email address are provided for a student,
-        the email address has precedence. 
-        
+        the email address has precedence.
+
         In other words, if an email address is present, an incorrect or non-
         matching username is ignored.
 
     * - One column identifying the cohort
-            
+
       - You must include one column named "cohort" to identify the cohort
         to which you are assigning each student.
 
         The specified cohorts must already exist in Studio.
 
-    * -                        
+    * -
       - Columns with headings other than "email", "username" and "cohort" are
         ignored.
 
 Follow these steps to assign learners to cohorts by uploading a .csv file.
-      
+
 #. View the live version of your course. For example, in Studio, select **View
    Live**.
 
-#. Select **Instructor**, then select **Cohorts**. 
+#. Select **Instructor**, then select **Cohorts**.
 
 #. From the **Select a cohort** list, select the cohort to which you are adding
    students.
@@ -330,14 +330,14 @@ Follow these steps to assign learners to cohorts by uploading a .csv file.
 #. Select **Upload File and Assign Students**. A status message is displayed
    above the **Browse** button.
 
-#. Verify your upload results on the **Data Download** page. 
+#. Verify your upload results on the **Data Download** page.
 
    Under **Reports Available for Download**, locate the link to a .csv file
    with "cohort_results" and the date and time of your upload in the filename.
    The list of available reports is sorted chronologically, with the most
    recently generated files at the top.
 
-The results file provides the following information:  
+The results file provides the following information:
 
 .. list-table::
     :widths: 15 30
@@ -347,18 +347,18 @@ The results file provides the following information:
     * - Cohort
       - The name of the cohort to which you are assigning learners.
     * - Exists
-      - Whether the cohort was found in the system. TRUE/FALSE. 
-      
+      - Whether the cohort was found in the system. TRUE/FALSE.
+
         If the cohort was not found (value is FALSE), no action is taken for students you assigned to that cohort in the .csv file.
 
     * - Students Added
       - The number of learners added to the cohort during the row by row
-        processing of the .csv file.             
+        processing of the .csv file.
     * - Students Not Found
       - A list of email addresses or usernames (if email addresses were not
         supplied) of learners who could not be matched by either email address
         or username and who were therefore not added to the cohort.
-             
+
 For a report that includes the cohort assignment for every enrolled learner,
 review the learner profile information for your course. See :ref:`View and
 download student data`.
@@ -372,7 +372,7 @@ Creating a Unicode-encoded .csv File
 Make sure the .csv files that you upload are encoded as UTF-8, so that any
 Unicode characters are correctly saved and displayed.
 
-.. note:: Some spreadsheet applications (for example, MS Excel) do not allow 
+.. note:: Some spreadsheet applications (for example, MS Excel) do not allow
    you to specify encoding when you save a spreadsheet as a .csv file. To
    ensure that you are able to create a .csv file that is UTF-8 encoded, use a
    spreadsheet application such as Google Sheets, LibreOffice, or Apache
@@ -391,7 +391,7 @@ running.
 
 If you decide that you must alter cohort configuration after your course starts
 and activity in the course discussion begins, be sure that you understand the
-consequences of these actions. 
+consequences of these actions.
 
 * :ref:`Changing Student Cohort Assignments`
 * :ref:`Renaming a Cohort`
@@ -442,7 +442,7 @@ To rename a cohort, follow these steps.
 #. View the live version of your course. For example, in Studio select **View
    Live**.
 
-#. Select **Instructor**, then select **Cohorts**. 
+#. Select **Instructor**, then select **Cohorts**.
 
 #. From the **Select a cohort** list, select the cohort whose name you want to
    change.
@@ -494,7 +494,7 @@ To change the assignment method of a cohort, follow these steps.
 #. View the live version of your course. For example, in Studio select **View
    Live**.
 
-#. Select **Instructor**, then select **Cohorts**. 
+#. Select **Instructor**, then select **Cohorts**.
 
 #. From the **Select a cohort** list, select the cohort whose assignment method
    you want to change.
@@ -503,9 +503,9 @@ To change the assignment method of a cohort, follow these steps.
    the assignment method by selecting the other option, either **Automatic** or
    **Manual**.
 
-#. Select **Save**. 
+#. Select **Save**.
 
-   The cohort assignment method is updated. 
+   The cohort assignment method is updated.
 
 .. note:: Changing the cohort assignment method has no effect on learners who
    are already assigned to this and other cohorts. Learners who access the
@@ -531,9 +531,9 @@ Disable Cohorts in Your Course
 
 To disable cohorts in your course, follow these steps.
 
-#. In the LMS, select **Instructor**, then select **Cohorts**. 
+#. In the LMS, select **Instructor**, then select **Cohorts**.
 
 #. Clear the **Enable Cohorts** option.
-   
+
 All course content and discussion posts that were previously divided by cohort
 immediately become visible to all students.

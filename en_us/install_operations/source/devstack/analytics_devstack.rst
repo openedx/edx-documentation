@@ -54,19 +54,19 @@ deploy itself. To make use of these tools, follow these steps.
 
 #. Clone the repository on your host, not on the Virtual Machine.
 
-  .. code-block:: bash
+   .. code-block:: bash
 
-     $ git clone https://github.com/edx/edx-analytics-pipeline
+      $ git clone https://github.com/edx/edx-analytics-pipeline
 
 
-2. Install the project dependencies into a virtualenv on your host.
+#. Install the project dependencies into a virtualenv on your host.
 
-  .. code-block:: bash
+   .. code-block:: bash
 
-     $ cd edx-analytics-pipeline
-     $ virtualenv venv
-     $ source venv/bin/activate
-     $ make bootstrap
+      $ cd edx-analytics-pipeline
+      $ virtualenv venv
+      $ source venv/bin/activate
+      $ make bootstrap
 
 The system is now ready to start running tasks on the Analytics Devstack
 using the ``remote-task`` tool.
@@ -89,13 +89,13 @@ follow these steps.
      $ mkdir analyticstack
      $ cd analyticstack
 
-2. Download the Analytics Devstack Vagrant file.
+#. Download the Analytics Devstack Vagrant file.
 
    .. code-block:: bash
 
      $ curl -L https://raw.github.com/edx/configuration/master/vagrant/release/analyticstack/Vagrantfile > Vagrantfile
 
-3. Create the Analytics Devstack virtual machine.
+#. Create the Analytics Devstack virtual machine.
 
    .. code-block:: bash
 
@@ -115,13 +115,13 @@ Run the Open edX LMS
 
      $ vagrant ssh
 
-2. Switch to the ``edxapp`` user.
+#. Switch to the ``edxapp`` user.
 
    .. code-block:: bash
 
      $ sudo su edxapp
 
-3. Start the LMS.
+#. Start the LMS.
 
    .. code-block:: bash
 
@@ -137,13 +137,13 @@ Run the Open edX Analytics Data API
 
      $ vagrant ssh
 
-2. Switch to the ``analytics_api`` user.
+#. Switch to the ``analytics_api`` user.
 
    .. code-block:: bash
 
      $ sudo su analytics_api
 
-3. Start the Data API.
+#. Start the Data API.
 
    .. code-block:: bash
 
@@ -159,26 +159,26 @@ Run Open edX Insights
 
      $ vagrant ssh
 
-2. Switch to the ``insights`` user.
+#. Switch to the ``insights`` user.
 
    .. code-block:: bash
 
      $ sudo su insights
 
-3. Enable features that are disabled by default.
+#. Enable features that are disabled by default.
 
    .. code-block:: bash
 
      $ ~/venvs/insights/bin/python ~/edx_analytics_dashboard/manage.py switch display_verified_enrollment on --create
      $ ~/venvs/insights/bin/python ~/edx_analytics_dashboard/manage.py switch enable_course_api on --create
 
-4. Start Insights.
+#. Start Insights.
 
    .. code-block:: bash
 
      $ ~/venvs/insights/bin/python ~/edx_analytics_dashboard/manage.py runserver 0.0.0.0:8110 --insecure
 
-5. Open the URL ``http://127.0.0.1:8110`` in a browser on the host.
+#. Open the URL ``http://127.0.0.1:8110`` in a browser on the host.
 
    .. important:: Be sure to use the IP address ``127.0.0.1`` instead of
      ``localhost``. Using ``localhost`` will prevent you from logging in.
@@ -198,7 +198,7 @@ Run the Open edX Analytics Pipeline
 
      $ cd edx-analytics-pipeline
 
-4. Run the enrollment task.
+#. Run the enrollment task.
 
    .. code-block:: bash
 
@@ -207,20 +207,20 @@ Run the Open edX Analytics Pipeline
      $ remote-task --vagrant-path <path to `analyticstack`> --remote-name devstack --override-config ${PWD}/config/devstack.cfg --wheel-url $WHEEL_URL --wait \
         ImportEnrollmentsIntoMysql --local-scheduler --interval-end $(date +%Y-%m-%d -d "tomorrow") --n-reduce-tasks 1
 
-5. Run the answer distribution task.
+#. Run the answer distribution task.
 
    .. code-block:: bash
 
-    $ export WHEEL_URL=http://edx-wheelhouse.s3-website-us-east-1.amazonaws.com/Ubuntu/precise
-    $ export UNIQUE_NAME=$(date +%Y-%m-%dT%H_%M_%SZ)
-    $ remote-task --vagrant-path <path to `analyticstack`> --remote-name devstack --override-config ${PWD}/config/devstack.cfg --wheel-url $WHEEL_URL --wait \
-        AnswerDistributionWorkflow --local-scheduler \
-          --src hdfs://localhost:9000/data/ \
-          --include '*tracking.log*' \
-          --dest hdfs://localhost:9000/edx-analytics-pipeline/output/answer_distribution_raw/$UNIQUE_NAME/data \
-          --name $UNIQUE_NAME \
-          --output-root hdfs://localhost:9000/edx-analytics-pipeline/output/answer_distribution/ \
-          --marker hdfs://localhost:9000/edx-analytics-pipeline/output/answer_distribution_raw/$UNIQUE_NAME/marker \
-          --n-reduce-tasks 1
+     $ export WHEEL_URL=http://edx-wheelhouse.s3-website-us-east-1.amazonaws.com/Ubuntu/precise
+     $ export UNIQUE_NAME=$(date +%Y-%m-%dT%H_%M_%SZ)
+     $ remote-task --vagrant-path <path to `analyticstack`> --remote-name devstack --override-config ${PWD}/config/devstack.cfg --wheel-url $WHEEL_URL --wait \
+         AnswerDistributionWorkflow --local-scheduler \
+           --src hdfs://localhost:9000/data/ \
+           --include '*tracking.log*' \
+           --dest hdfs://localhost:9000/edx-analytics-pipeline/output/answer_distribution_raw/$UNIQUE_NAME/data \
+           --name $UNIQUE_NAME \
+           --output-root hdfs://localhost:9000/edx-analytics-pipeline/output/answer_distribution/ \
+           --marker hdfs://localhost:9000/edx-analytics-pipeline/output/answer_distribution_raw/$UNIQUE_NAME/marker \
+           --n-reduce-tasks 1
 
 .. include:: ../../../links/links.rst

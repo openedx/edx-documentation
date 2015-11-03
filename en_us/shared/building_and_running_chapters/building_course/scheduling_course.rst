@@ -77,7 +77,7 @@ course content. By default, the course start date and time are set to
 before you intend it to. You must change this setting to the correct date and
 time for your course.
 
-.. note::  
+.. note::
   If your course is configured to issue certificates, you cannot start the
   course until the required certificates are activated. For more information,
   see :ref:`Activate a Certificate`.
@@ -93,7 +93,7 @@ example, they can see your **Course Info** page and course-wide discussion
 topics as soon as they enroll in your course. For more information, see
 :ref:`Create CourseWide Discussion Topics`.
 
-.. note:: 
+.. note::
   You can set a different advertised start date for your course. You might
   want to do this if there is uncertainty about the exact start date. For
   example, you could advertise the start date as Spring 2015. For more
@@ -108,7 +108,7 @@ toward certificates. Learners can continue to complete coursework, but cannot
 earn credit after the course ends. Learners who have earned certificates can
 view the certificates soon after the course end date.
 
-.. important:: 
+.. important::
   If you do not set a course end date, learners cannot access earned
   certificates.
 
@@ -131,7 +131,7 @@ the course. Ensure that the enrollment end date is late enough to allow
 learners adequate time to enroll. The enrollment end date cannot be later than
 the course end date.
 
-.. important:: 
+.. important::
   For partner courses on edx.org, when the enrollment end date passes,
   the course is no longer listed in the course catalog. EdX encourages you to
   keep enrollment open as long as possible. For more information, contact your
@@ -155,7 +155,7 @@ You set dates and times for the course and for course enrollment in Studio.
 
 #. When you finish entering your dates and times, select **Save Changes**.
 
-.. note:: The times that you set, and the times that learners see, are in 
+.. note:: The times that you set, and the times that learners see, are in
  Coordinated Universal Time (UTC). You might want to verify that you have
  specified the times that you intend by using a time zone converter such as
  `Time and Date Time Zone Converter
@@ -185,16 +185,16 @@ To set an advertised start date in Studio, follow these steps.
    as a date (for example, as 02/01/2015), the value is parsed and presented to
    learners as as a date.
 
-  .. image:: ../../../shared/building_and_running_chapters/Images/advertised_start.png
-   :alt: Image of the advertised start date policy key with a value of "anytime, self-paced".
-   :width: 600
+   .. image:: ../../../shared/building_and_running_chapters/Images/advertised_start.png
+     :alt: Image of the advertised start date policy key with a value of "anytime, self-paced".
+     :width: 600
 
-4. Select **Save Changes** at the bottom of the page.
+#. Select **Save Changes** at the bottom of the page.
 
 Learners now see the value of the **Course Advertised Start Date** policy key
 as the course start date on their dashboards.
 
 If you do not change the default course start date (01/01/2030), and the
-**Course Advertised Start Date** policy value is ``null``, then the 
+**Course Advertised Start Date** policy value is ``null``, then the
 dashboard does not list a start date for the course. Learners just see that
 the course has not yet started.
