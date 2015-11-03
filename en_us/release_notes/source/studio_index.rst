@@ -4,17 +4,11 @@
 EdX Studio
 ####################################
 
-The following information describes what is new in edX Studio.
+The following information describes what is new in edX Studio. 
 
 .. contents::
   :local:
   :depth: 2
-
-******************
-3 November 2015
-******************
-
-.. include:: 2015/studio/studio_1103_2015.rst
 
 ******************
 21 October 2015
@@ -25,7 +19,7 @@ The following information describes what is new in edX Studio.
 ******************
 1 October 2015
 ******************
-
+ 
 .. include:: 2015/studio/studio_1001_2015.rst
 
 ******************
