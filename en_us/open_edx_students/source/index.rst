@@ -11,6 +11,7 @@ Open edX Learner's Guide
    front_matter/index
    SFD_introduction
    sfd_dashboard_profile/index
+   SFD_self_paced
    SFD_licensing
    SFD_course_search
    SFD_video_player
