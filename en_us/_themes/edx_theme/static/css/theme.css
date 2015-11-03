@@ -2642,7 +2642,7 @@ code.code-large, .rst-content tt.code-large {
 	line-height: 24px;
 	margin-bottom: 12px
 }
-.wy-plain-list-decimal li, .rst-content .section ol li, .rst-content ol.arabic li {
+.wy-plain-list-decimal > li, .rst-content .section ol > li, .rst-content ol.arabic > li {
 	list-style: decimal;
 	margin-left: 24px;
 	margin-bottom: 6px
