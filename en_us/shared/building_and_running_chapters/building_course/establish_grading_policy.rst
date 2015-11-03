@@ -199,6 +199,9 @@ For more information, see :ref:`Developing Course Subsections`.
 For instructions on designating a subsection as a graded assignment, see
 :ref:`Set the Assignment Type and Due Date for a Subsection`.
 
+For more information about how to designate a subsection as a timed exam, see
+:ref:`Timed Exams`.
+
 Within a graded subsection, you create problems of the type designated for that
 subsection. You cannot not mix problems of different assignment types in the
 same subsection.

@@ -282,6 +282,8 @@ To set the assignment type and due date for a subsection, follow these steps.
      `Time and Date Time Zone Converter
      <http://www.timeanddate.com/worldclock/converter.html>`_
 
+#. Optionally, set the subsection to be a :ref:`timed exam <Timed Exams>`.
+
 #. Select **Save**.
 
 For more information, see :ref:`Establish a Grading Policy`.

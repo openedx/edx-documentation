@@ -22,10 +22,17 @@ authenticity of the certificate.
 Certificates do not include a grade or specify a number of credit hours that
 the course might earn in a university.
 
+<<<<<<< HEAD
 .. note:: Your certificate lists the full name that appears on your dashboard.
   Before your course ends, make sure that the name on your dashboard is
   correct. To change your full name, go to your dashboard, and then select
   **edit** under **Full Name** in the left pane.
+=======
+.. note:: Your certificate lists the full name that appears on your dashboard. 
+  Before your course ends, make sure that the name on your dashboard is correct. 
+  To change your full name, go to your dashboard, and then select **edit** under 
+  **Full Name** in the left pane.
+>>>>>>> Timed Exams for Course Authors
 
 .. contents::
    :depth: 1
@@ -42,8 +49,13 @@ when you enroll in a course.
 For more information about enrolling in a course, see :ref:`SFD Enrolling in a
 Course`.
 
+<<<<<<< HEAD
 Honor code and verified certificates show that you have completed a single
 honor code or verified course.
+=======
+Honor code and verified certificates show that you have completed a single honor
+code or verified course. 
+>>>>>>> Timed Exams for Course Authors
 
 The type of certificate appears in a color-coded tag under the course image on
 your dashboard:
@@ -53,18 +65,34 @@ your dashboard:
   :alt: Dashboard with color indications for audit, honor code, and verified
    courses
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> Timed Exams for Course Authors
 .. note:: Some courses might not offer certificates. If you want evidence that
   you completed the course, you can print a copy of the **Progress** page in
   the course.
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> Timed Exams for Course Authors
 =========================
 Honor Code Certificates
 =========================
 
+<<<<<<< HEAD
 Honor code certificates are free of charge to all learners and are available
 for all except a few specific courses. When you audit a course, or you take a
 course that does not offer verified certificates, you automatically receive an
 honor code certificate if you meet the requirements to pass the course.
+=======
+Honor code certificates are free of charge to all students and are available for
+all except a few specific courses. When you audit a course, or you take a course
+that doesn't offer verified certificates, you'll automatically receive an honor
+code certificate if you meet the requirements to pass the course.
+>>>>>>> Timed Exams for Course Authors
 
 .. image:: /Images/SFD_HCCert.png
    :width: 500
@@ -101,6 +129,10 @@ During the course, you may be asked to use the same method to re-verify your
 identity periodically. If your computer does not have a webcam, you must
 register for the verified certificate on a computer that has a webcam.
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> Timed Exams for Course Authors
 ****************************
 Changing a Certificate Type
 ****************************
@@ -112,14 +144,20 @@ change the certificate type until registration for verified certificates ends
 for your course, usually two or more weeks after the course starts.
 
 * To upgrade to a verified certificate, go to your dashboard, and then select
+<<<<<<< HEAD
   **Challenge Yourself!** under the name of your course. Then, follow the
   on screen instructions to register for a verified certificate.
+=======
+  **Challenge Yourself!** under the name of your course. You'll then follow the
+  onscreen instructions to register for a verified certificate.
+>>>>>>> Timed Exams for Course Authors
 
   If registration for verified certificates has closed, you can't change your
   certificate type. Registration for verified certificates typically closes two
   weeks after the course has started, or after at least one assignment due date
   has passed.
 
+<<<<<<< HEAD
 * To change from a verified certificate to an honor code certificate, go to
   your dashboard, and then select **Unregister** under the name of your course.
   The edX support team will contact you with information about a refund. You
@@ -130,6 +168,18 @@ for your course, usually two or more weeks after the course starts.
   certificates has closed. Registration for verified certificates typically
   closes two weeks after the course has started, or after at least one
   assignment due date has passed.
+=======
+* To change from a verified certificate to an honor code certificate, go to your
+  dashboard, and then select **Unregister** under the name of your course. The
+  edX support team will contact you with information about a refund. You must
+  change to an honor code certificate before verified certificate registration
+  closes for your course if you want to receive a refund.
+
+  If you don't see the **Unregister** button, registration for verified
+  certificates has closed. Registration for verified certificates typically
+  closes two weeks after the course has started, or after at least one
+  assignment due date has passed. 
+>>>>>>> Timed Exams for Course Authors
 
 
 *************************
@@ -156,10 +206,17 @@ If you want a paper copy of your certificate, you can select **View
 Certificate** to view your certificate. You can then print the certificate
 from the certificate web page.
 
+<<<<<<< HEAD
 .. note:: Your certificate lists the full name that appears on your dashboard.
   Before your course ends, make sure that the name on your dashboard is
   correct. To change your full name, go to your dashboard, and then select
   **edit** under **Full Name** in the left pane.
+=======
+.. note:: Your certificate lists the full name that appears on your dashboard. 
+  Before your course ends, make sure that the name on your dashboard is correct. 
+  To change your full name, go to your dashboard, and then select **edit** under 
+  **Full Name** in the left pane.
+>>>>>>> Timed Exams for Course Authors
 
 =============================================
 Receiving Certificates for Self-Paced Courses
@@ -175,12 +232,21 @@ and the final exam (if applicable), a certificate is generated automatically.
 You don't have to complete any additional steps to obtain your certificate.
 
 Be aware, however, that different self-paced courses issue certificates at
+<<<<<<< HEAD
 different intervals. Some courses issue certificates once a month, and others
 issue certificates less frequently. For more information about your course's
 specific certificate schedule, see the About page or the **Course Info** tab
 for your course.
 
 .. _SFD On Demand Certificates:
+=======
+different intervals. Some courses issue certificates once a month, and others issue
+certificates less frequently. For more information about your course's specific
+certificate schedule, see the About page or the **Course Info** tab for your
+course.
+
+.. _SFD On Demand Certificates: 
+>>>>>>> Timed Exams for Course Authors
 
 On-Demand Certificates
 *********************************
@@ -226,6 +292,7 @@ have qualified for the certificate, follow these steps.
 
    .. image:: /Images/SFD_Certs_CertificateAvailable.png
     :width: 500
+<<<<<<< HEAD
     :alt: Image of a message indicating "Your certificate is available" with a
      View Certificate button that takes learners to the certificate web page
 
@@ -236,6 +303,18 @@ have qualified for the certificate, follow these steps.
 
   * To access your certificate from your dashboard, select **View Certificate**
     next to the name of your course.
+=======
+    :alt: Image of a message indicating "Your certificate is available" with a View Certificate button that takes learners to the certificate web page
+
+#. Access your certificate from the **Progress** page or from your dashboard.
+
+   * To access your certificate from the **Progress** page, select
+     **View Certificate** in the upper right corner of the page.
+
+   * To access your certificate from your dashboard, select **View
+     Certificate** next to the name of your course.
+
+>>>>>>> Timed Exams for Course Authors
 
 Update Your Certificate
 ========================
@@ -247,6 +326,10 @@ certificate. If you want to change the name on the certificate, make sure that
 you change your full name on the **Account Settings** page before you request
 the new certificate.
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> Timed Exams for Course Authors
 .. _Sharing Your Certificate:
 
 ****************************
@@ -258,6 +341,10 @@ achievement in several ways. You can :ref:`download and print your
 certificate<Request Download Certificate>`, share the certificate on LinkedIn,
 or share a badge to a badging site such as Mozilla Backpack.
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> Timed Exams for Course Authors
 ===================================
 Share Your Certificates on LinkedIn
 ===================================
@@ -286,6 +373,10 @@ share your certificate to your LinkedIn profile, follow these steps.
 
 .. I have not seen this working
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> Timed Exams for Course Authors
 ===================================
 Upload a Badge to Mozilla Backpack
 ===================================
@@ -317,6 +408,12 @@ To share your badge on Mozilla Backpack, follow these steps.
    share your badge.
 
    .. image:: /Images/SFD_MozillaBackpackShareDialog.png
+<<<<<<< HEAD
     :width: 500
     :alt: Dialog with instructions that opens when you select the Mozilla
      Backpack share icon.
+=======
+    :width: 500 
+    :alt: Dialog with instructions that opens when you select the Mozilla Backpack share icon.
+
+>>>>>>> Timed Exams for Course Authors

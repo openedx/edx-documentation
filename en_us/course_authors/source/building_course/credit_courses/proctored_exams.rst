@@ -249,7 +249,7 @@ The following list represents only some of the requirements listed in the
   listening equipment.
 
 
-.. _Enabling Timed or Proctored Exams:
+.. _Enabling Proctored Exams:
 
 **************************************************
 Enabling Proctored Exams in Your Course
@@ -294,17 +294,17 @@ To create an exam that includes online proctoring, follow these steps.
 
 #. Select the Settings icon to open the settings for the exam.
 
-#. Select the **This exam is timed** option.
+#. In the **Additional Options** section of the dialog box, select
+   **Proctored**.
 
 #. Specify the allotted time for the exam in hours and minutes.
 
-#. Select the **This exam is proctored** option.
+   .. image:: ../../../../shared/building_and_running_chapters/Images/Proctoring_StudioSetProctoredExam.png
+     :alt: The Studio subsection settings dialog showing selections for a timed
+         and proctored final exam.
+     :width: 600
 
-  .. image:: ../../../../shared/building_and_running_chapters/Images/Proctoring_StudioSetProctoredExam.png
-     :alt: The Studio subsection settings dialog showing selections for a timed and proctored final exam. 
-     :width: 400
-
-6. Select **Save**.
+#. Select **Save**.
 
 For information about how learners experience a proctored exam, see
 :ref:`CA_LearnerExperience_Proctored Exams`. For information about creating a
@@ -349,7 +349,8 @@ To create a practice exam, follow these steps.
 
 #. Make sure the exam is specified as **Not Graded**.
 
-#. Select the **This exam is timed** option.
+#. In the **Additional Options** section of the dialog box, select
+   **Practice Proctored**.
 
 #. Specify the allotted time for the exam in hours and minutes.
 
@@ -357,15 +358,11 @@ To create a practice exam, follow these steps.
    duration that is appropriate for the number of example problems you
    include.
 
-#. Select the **This exam is proctored** option.   
-
-#. Select the **This exam is a practice exam** option.
-
-  .. image:: ../../../../shared/building_and_running_chapters/Images/Proctoring_StudioSetPracticeExam.png
+   .. image:: ../../../../shared/building_and_running_chapters/Images/Proctoring_StudioSetPracticeExam.png
      :alt: The Studio subsection settings dialog, showing settings for an ungraded practice proctored exam.
-     :width: 400
+     :width: 600
 
-9. Select **Save**.
+#. Select **Save**.
 
 #. Optionally, add a text component to the exam to provide learners with
    information about the proctored exam in your course. You might also want to

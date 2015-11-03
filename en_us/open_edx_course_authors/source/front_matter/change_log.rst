@@ -12,6 +12,8 @@ November 2015
 
    * - Date
      - Change
+   * - 3 November 2015
+     - Added the :ref:`Timed Exams` topic.
    * - 2 November 2015
      - Updated the format of course component location identifiers throughout
        this guide.
@@ -26,7 +28,7 @@ October 2015
 
    * - Date
      - Change
-   * - 26 October 2014
+   * - 26 October 2015
      - Added the :ref:`Reporting Certificate Data` topic.
    * - 21 October 2015
      - Added the :ref:`Oppia Exploration Tool` topic.
