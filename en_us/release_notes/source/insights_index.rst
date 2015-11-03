@@ -4,17 +4,11 @@
 EdX Insights
 ####################################
 
-The following information describes what is new in edX Insights.
+The following information describes what is new in edX Insights. 
 
 .. contents::
   :local:
   :depth: 2
-
-******************
-4 November 2015
-******************
-
-.. include:: 2015/insights/insights_1104_2015.rst
 
 ******************
 8 October 2015
