@@ -23,4 +23,5 @@ configuration options.
    lti/index
    youtube_api
    ora2_uploads
+   install_xblock
 
