@@ -71,7 +71,7 @@ components in the other.
    To edit an existing video component, locate the video component window and
    then click **Edit**. The Editing: Video popup opens to the Basic tab.
 
-3. For the **Component Display Name**, enter the identifying name that you
+#. For the **Component Display Name**, enter the identifying name that you
    want learners to see for this video.
 
 #. At the top of the Editing: Video popup click **Advanced**. Additional fields
