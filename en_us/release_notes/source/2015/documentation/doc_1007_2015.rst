@@ -13,7 +13,7 @@ levels.
 
 Building and Running an edX Course
 **********************************
- 
+
 * Added the :ref:`partnercoursestaff:Using edX as an LTI Tool Provider`
   section.
 
@@ -80,6 +80,6 @@ Installing, Configuring, and Running the Open edX Platform
 
 * Added the :ref:`installation:Options for LTI Authentication and User
   Provisioning` section.
-  
+
 * Added the :ref:`installation:Enabling Social Sharing of Courses and
   Certificates` section.
