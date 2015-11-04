@@ -15,6 +15,10 @@ October-December 2015
 
    * - Date
      - Change
+   * - 4 Nov 2015
+     - Updates made throughout this guide to replace Python terminology
+       (dictionary, integer, float) with JSON terminology (object, number)
+       where appropriate.
    * - 27 Oct 2015
      - Added new events for interactions with :ref:`Oppia
        explorations<content>` to the Events in the Tracking Logs section.
