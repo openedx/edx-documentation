@@ -102,7 +102,7 @@ problem, follow these steps.
 #. Determine the text that describes the question you want learners to answer,
    and surround that text with two pairs of angle brackets (``>>question<<``).
    This question text is the accessible label for the problem.
-   question text is the accessible label for the problem.
+
 #. To identify the problem's answer, select the answer text and then select
    **Numerical Input** from the toolbar. An equals sign appears
    next to the answer.
