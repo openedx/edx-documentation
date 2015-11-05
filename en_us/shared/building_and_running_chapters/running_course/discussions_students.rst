@@ -10,21 +10,17 @@ community. If you have not previously participated in an online discussion
 forum, see the introductory :ref:`"anatomy"<Anatomy of edX Course Discussions>`
 section.
 
-This chapter also describes features of edX discussions that can make your
-participation more effective. These include ways to:
+This section also describes features of edX discussions that can make your
+participation more effective.
 
-* :ref:`Find Posts`
-
-* :ref:`Add a Post`
-
-* :ref:`Keep Up with New Activity`
-
-* :ref:`React to Contributions`
+.. contents::
+  :local:
+  :depth: 1
 
 .. _Anatomy of edX Course Discussions:
 
 **********************************
-Anatomy of edX Course Discussions 
+Anatomy of edX Course Discussions
 **********************************
 
 ====================================
@@ -62,7 +58,7 @@ discussion topics are included in a course, they typically appear below the
 content they apply to.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/Discussion_content_specific.png
- :alt: A discussion topic that appears below a video in the course, identified 
+ :alt: A discussion topic that appears below a video in the course, identified
        by a "Show Discussion" link.
 
 Most courses also include one or more topics for course-wide discussions, such
@@ -71,15 +67,15 @@ on the **Discussion** page of the course: select the **All Discussions**
 drop-down.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/Discussion_course_wide.png
- :alt: Discussion topics are listed on the Discussion page when you select the 
+ :alt: Discussion topics are listed on the Discussion page when you select the
        drop-down list at the left side of the page.
 
 When you visit the **Discussion** page, you can read and add to any of the
-discussion topics. 
+discussion topics.
 
 * Course-wide topics do not have other topics indented below them.
 
-* Content-specific topics are indented under an identifying category name. 
+* Content-specific topics are indented under an identifying category name.
 
 Notice that you can access content-specific topics both on the **Discussion**
 page and also while you are navigating through course content on the
@@ -103,8 +99,8 @@ as either a question or a discussion.
 * A discussion post starts a conversation by sharing thoughts and reflections,
   and inviting community participation.
 
-When you add a post to a discussion topic, you must specify whether it is a question
-or a discussion. 
+When you add a post to a discussion topic, you must specify whether it is a
+question or a discussion.
 
 After you make your post, on the **Discussion** page for your course, a
 question mark image identifies posts that ask questions and a conversation
@@ -165,7 +161,7 @@ down list. (**All Discussions** is selected by default.) Only posts about the
 topic you select appear in the list of posts.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/Discussion_filters.png
- :alt: The list of posts with callouts to identify the top filter to select 
+ :alt: The list of posts with callouts to identify the top filter to select
        one topic and the filter below it to select by state.
 
 =======================================
@@ -209,7 +205,7 @@ Add a Post to a Content-Specific Discussion Topic
    You can scroll through the posts that have already been added: the title and
    the first sentence or two of each post appear. To read an entire post, view
    the responses to it, and see any comments, select **Expand discussion**.
-  
+
 4. To add a post, select **New Post**.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/Discussion_content_specific_post.png
@@ -299,7 +295,7 @@ Add a Response or Comment to a Content-Specific Discussion Topic
 #. Scroll to the post where you want to add your thoughts.
 
 #. Select **Expand discussion**.
-   
+
   .. image:: ../../../shared/building_and_running_chapters/Images/Discussion_expand.png
     :alt: The **Expand discussion** link under a post.
 
@@ -328,7 +324,7 @@ content-specific discussion topics.
    is complete, select **Submit**.
 
   .. image:: ../../../shared/building_and_running_chapters/Images/Discussion_add_response.png
-    :alt: The **Add A Response** button located between a post and its 
+    :alt: The **Add A Response** button located between a post and its
           responses.
 
  - To add a comment to a response, enter text in the **Add a comment** field
@@ -353,12 +349,12 @@ completely.
 
 * Posts that you have read, but with responses or comments that you have not
   read yet, have a white callout image.
- 
+
 * Exchanges that you have read completely have a gray callout image and
   background.
 
  .. image:: ../../../shared/building_and_running_chapters/Images/Discussion_colorcoding.png
-  :alt: The list of posts with posts showing differently colored backgrounds 
+  :alt: The list of posts with posts showing differently colored backgrounds
         and callout images.
 
 The total number of contributions in the exchange (the post and its responses
@@ -411,14 +407,14 @@ response, or comment. When you move your cursor over these icons a label
 appears.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/Discussion_options_mouseover.png
- :alt: The icons at top right of a post, shown before the cursor is 
+ :alt: The icons at top right of a post, shown before the cursor is
       placed over each one and with the Vote, Follow, and More labels.
 
 When you select the "More" icon, a menu of the options that currently apply
 appears.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/Discussion_More_menu.png
- :alt: The More icon expanded to show a menu with one option and a menu with 
+ :alt: The More icon expanded to show a menu with one option and a menu with
        three options.
 
 .. _Vote for Posts or Responses:
@@ -438,7 +434,7 @@ the top: select the drop-down list of sorting options and select **by most
 votes**.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/Discussion_sortvotes.png
- :alt: The list of posts with the "by most votes" sorting option and the 
+ :alt: The list of posts with the "by most votes" sorting option and the
        number of votes for the post circled.
 
 The number of votes that each post has received displays in the list of posts.
@@ -470,7 +466,7 @@ topic they apply to, select the drop-down Discussion list and select
 .. _Answer Questions:
 
 ============================================================
-Answer Questions and Mark Questions as Answered 
+Answer Questions and Mark Questions as Answered
 ============================================================
 
 Anyone in a course can answer questions. Just add a response to the question

@@ -18,9 +18,9 @@ For more information, see the following other topics about certificates.
 
 .. _Access Certificate Data:
 
-****************************
+**************************
 Access Certificate Data
-****************************
+**************************
 
 From the Instructor Dashboard, you can view data about the certificates that
 have been issued for your course. You can also download a .csv (comma-separated

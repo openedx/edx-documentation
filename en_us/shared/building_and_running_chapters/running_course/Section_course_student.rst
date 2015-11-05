@@ -18,6 +18,10 @@ The server generates a new learner engagement report every day for the
 previous day's activity. On Mondays, an additional report is generated to
 summarize activity during the previous week (Monday through Sunday).
 
+.. contents::
+  :local:
+  :depth: 2
+
 ===================================================
 Understanding the Learner Engagement Report
 ===================================================
@@ -63,7 +67,7 @@ The learner engagement report .csv files contain the following columns.
    * - Course ID
      - The identifier for the course run.
    * - Username
-     - The unique username for an edX account. 
+     - The unique username for an edX account.
    * - Email
      - The unique email address for an edX account.
    * - Cohort
@@ -77,7 +81,7 @@ The learner engagement report .csv files contain the following columns.
        during the week that the learner visited any page (URL) in the course.
    * - Unique Problems Attempted
      - The number of unique problems for which the learner selected **Check**
-       to submit an answer. 
+       to submit an answer.
    * - Total Problem Attempts
      - The number of times the learner selected **Check** to submit answers,
        regardless of the particular problem attempted.
@@ -97,7 +101,7 @@ The learner engagement report .csv files contain the following columns.
      - The number of comments the learner made on responses in the course
        discussions.
    * - Textbook Pages Viewed
-     - The number of pages in a .pdf textbook that the learner viewed. 
+     - The number of pages in a .pdf textbook that the learner viewed.
    * - URL of Last Subsection Viewed
      - The URL of the last subsection the learner visited.
 
@@ -116,9 +120,9 @@ To download a learner engagement report, follow these steps.
 
 #. View the live version of your course.
 
-#. Click **Instructor**, then click **Data Download**.
+#. Select **Instructor**, then select **Data Download**.
 
-#. At the bottom of the page, click the
+#. At the bottom of the page, select the
    ``student_engagement_daily_{date}.csv`` or ``student_engagement_weekly_{end
    date}.csv`` file name. You might have to scroll down to find a specific
    file.

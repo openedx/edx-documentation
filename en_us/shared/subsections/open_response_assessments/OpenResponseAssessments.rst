@@ -13,7 +13,6 @@ assessments.
    :depth: 1
    :local:
 
-
 *****************************************
 Introduction to Open Response Assessments
 *****************************************
@@ -51,15 +50,11 @@ by step instructions, see the following sections.
 * :ref:`PA Create an ORA Assignment`
 * :ref:`Accessing ORA Assignment Information`
 
-
 For information about viewing metrics and learner responses for released open
 response assessments, see :ref:`Accessing ORA Assignment Information`.
 
 For information about the learner experience with open response assessments,
-see `Open Response Assessments <http://edx-guide-for-
-students.readthedocs.org/en/latest/SFD_ORA.html>`_ in the `edX Guide for
-Learners <http://edx-guide-for-
-students.readthedocs.org/en/latest/index.html>`_.
+see :ref:`learners:SFD_ORA` in the *edX Guide for Learners*.
 
 
 .. _Best Practices for ORA:

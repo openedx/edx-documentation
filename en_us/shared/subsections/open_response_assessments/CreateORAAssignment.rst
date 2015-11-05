@@ -246,7 +246,7 @@ steps.
    that step, the step will no longer be part of the assignment and your
    changes will not be saved.
 
-.. _PA Learner Training Step:
+.. _PA Student Training Step:
 
 ========================
 Learner Training
