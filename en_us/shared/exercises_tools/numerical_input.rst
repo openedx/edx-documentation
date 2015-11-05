@@ -39,7 +39,7 @@ For more information about how learners enter expressions, see `Math Response
 Formatting for Students`_.
 
 You can specify a margin of error, or tolerance, for the answers to these
-problems so that learners' responses do not have to be exact. You can 
+problems so that learners' responses do not have to be exact. You can
 specify a correct answer explicitly or use a Python script.
 
 .. note::
@@ -55,14 +55,14 @@ review aggregated learner performance data and examine submitted answers. For
 more information, see `Using edX Insights`_.
 
 ***********************************
-Creating a Numerical Input Problem 
+Creating a Numerical Input Problem
 ***********************************
 
 You can create numerical problems in the Simple Editor or in the Advanced
-Editor. 
+Editor.
 
 * If the text of your problem does not include any italics, bold formatting,
-  or special characters, you can create the problem in the Simple Editor. 
+  or special characters, you can create the problem in the Simple Editor.
 * If the text of your problem contains special formatting or characters, or if
   your problem contains a Python script, you use the Advanced Editor.
 
@@ -88,42 +88,42 @@ problem, follow these steps.
 #. In the unit where you want to create the problem, under **Add New
    Component** select **Problem**.
 #. Select one of the two numerical input problem templates.
-   
-  * From the list of **Common Problem Types**, select **Numerical Input**. 
-   
-  * From the list of **Common Problems with Hints and Feedback**, select
-    **Numerical Input with Hints and Feedback**. For more information, see
-    `Use Feedback in a Numerical Input Problems`_.
 
-    Studio adds the problem to the unit.
+   * From the list of **Common Problem Types**, select **Numerical Input**.
 
-3. Select **Edit**. The Simple Editor opens. 
+   * From the list of **Common Problems with Hints and Feedback**, select
+     **Numerical Input with Hints and Feedback**. For more information, see
+     `Use Feedback in a Numerical Input Problems`_.
+
+     Studio adds the problem to the unit.
+
+#. Select **Edit**. The Simple Editor opens.
 #. Replace the sample problem text with your own text.
 #. Determine the text that describes the question you want learners to answer,
    and surround that text with two pairs of angle brackets (``>>question<<``).
    This question text is the accessible label for the problem.
-   question text is the accessible label for the problem.
+
 #. To identify the problem's answer, select the answer text and then select
    **Numerical Input** from the toolbar. An equals sign appears
    next to the answer.
 #. Optionally, specify a margin of error, or tolerance. You can specify a
    percentage, number, or range.
-   
-  * To specify a percentage on either side of the correct answer, after the
-    answer add **+-{number}%**. For example, to include a 2% tolerance, add
-    **+-2%**.
 
-  * To specify a number on either side of the correct answer, after the answer
-    add **+-{number}**. For example, to include a tolerance of 5, add **+-5**.
+   * To specify a percentage on either side of the correct answer, after the
+     answer add **+-{number}%**. For example, to include a 2% tolerance, add
+     **+-2%**.
 
-  * To specify a range, you provide the starting and ending values separated
-    by a comma and then surround the range with brackets [] or parentheses ().
-    A bracket includes the number next to it in the range, and a parenthesis
-    excludes the number from the range. For example, if you specify **[5,8)**,
-    correct answers can be 5, 6, and 7, but not 8. Likewise, if you specify
-    **(5,8]**, correct answers can be 6, 7, and 8, but not 5.
+   * To specify a number on either side of the correct answer, after the answer
+     add **+-{number}**. For example, to include a tolerance of 5, add **+-5**.
 
-8. To provide an explanation, select the explanation text and then select 
+   * To specify a range, you provide the starting and ending values separated
+     by a comma and then surround the range with brackets [] or parentheses ().
+     A bracket includes the number next to it in the range, and a parenthesis
+     excludes the number from the range. For example, if you specify **[5,8)**,
+     correct answers can be 5, 6, and 7, but not 8. Likewise, if you specify
+     **(5,8]**, correct answers can be 6, 7, and 8, but not 5.
+
+#. To provide an explanation, select the explanation text and then select
    **Explanation** from the toolbar. ``[explanation]`` appears before
    and after the explanation text.
 #. Select **Settings** and provide an identifying **Display Name** for the
@@ -140,20 +140,20 @@ component appears as follows.
    >>What base is the decimal numeral system in?<<
 
    = 10
-    
+
    [explanation]
    The decimal numeral system is base ten.
    [explanation]
 
 ========================================================================
-Use the Advanced Editor to Create a Numerical Input Problem 
+Use the Advanced Editor to Create a Numerical Input Problem
 ========================================================================
 
 For a more complex problem, such as the one that follows, you use the Advanced
 Editor.
 
 #. Follow the steps for creating the problem in the :ref:`Simple Editor<Use
-   the Simple Editor to Create a Numerical Input Problem>`. 
+   the Simple Editor to Create a Numerical Input Problem>`.
 #. Select **Advanced Editor**, and then edit the XML to add the tags and
    attributes you want. An example follows.
 
@@ -213,9 +213,9 @@ You can add feedback in a numerical input problem using the simple editor
 or the advanced editor. For an overview of feedback in problems, see
 :ref:`Adding Feedback and Hints to a Problem`.
 
-In numerical input problems, you can provide feedback for correct answers. 
+In numerical input problems, you can provide feedback for correct answers.
 
-.. note:: 
+.. note::
   You cannot provide feedback for incorrect answers in numerical input
   problems.
 
@@ -239,7 +239,7 @@ For example, the following problem has feedback for each possible answer.
 
 ::
 
-  >>What is the arithmetic mean for the following set of numbers? 
+  >>What is the arithmetic mean for the following set of numbers?
     (1, 5, 6, 3, 5)<<
 
   = 4 {{The mean for this set of numbers is 20 / 5 which equals 4.}}
@@ -249,7 +249,7 @@ Configure Feedback in the Advanced Editor
 =========================================
 
 In the :ref:`Advanced Editor<Advanced Editor>`, you configure answer feedback
-with the following syntax.   
+with the following syntax.
 
 .. code-block:: xml
 
@@ -265,7 +265,7 @@ For example, the following problem has feedback for the correct answer.
 .. code-block:: xml
 
   <numericalresponse answer="4">
-    <formulaequationinput label="What is the arithmetic mean for the following 
+    <formulaequationinput label="What is the arithmetic mean for the following
       set of numbers? (1, 5, 6, 3, 5)" />
     <correcthint>
       The mean for this set of numbers is 20 / 5 which equals 4.
@@ -357,7 +357,7 @@ Input Problem>`_ to configure partial credit.
 
 .. only:: Partners
 
- .. note:: 
+ .. note::
     Support for partial credit problems in courses on edx.org and edX
     Edge is provisional. Ensure that you test such problems thoroughly before
     releasing them to learners. For more information, contact your edX program
@@ -428,7 +428,7 @@ updated to provide partial credit for close answers.
 .. code-block:: xml
 
   <numericalresponse answer="9.3*10^7" partial_credit="close">
-    <formulaequationinput label="How many miles away from Earth is the sun? 
+    <formulaequationinput label="How many miles away from Earth is the sun?
       Use scientific notation to answer." />
     <responseparam type="tolerance" default="1%" partial_range="3"/>
   </numericalresponse>
@@ -467,7 +467,7 @@ updated to provide partial credit for a different answer.
 .. code-block:: xml
 
   <numericalresponse answer="93*10^7" partial_credit="list">
-    <formulaequationinput label="How many miles away from Earth is the sun? 
+    <formulaequationinput label="How many miles away from Earth is the sun?
       Use scientific notation to answer." />
     <responseparam partial_answers="150*10^6"/>
   </numericalresponse>
@@ -495,24 +495,24 @@ To add text after the answer field, add the ``trailing_text`` attribute
 together with the text that you want to use inside the
 ``formulaequationinput`` element. Several examples follow.
 
-.. note:: You can use MathJax inside the ``trailing_text`` attribute, as the 
+.. note:: You can use MathJax inside the ``trailing_text`` attribute, as the
  third example shows. You cannot use HTML inside this attribute.
 
 ::
 
   <numericalresponse answer="12.87">
-    <formulaequationinput label="How far is 8 miles in kilometers?" 
+    <formulaequationinput label="How far is 8 miles in kilometers?"
     trailing_text="km" />
   </numericalresponse>
 
-  <numericalresponse answer="91"> 
+  <numericalresponse answer="91">
     <formulaequationinput label="According to the Pew Research Center's Internet
-    and American Life Project, what percentage of the world's population has a 
+    and American Life Project, what percentage of the world's population has a
     cellular phone as of May 2013?" trailing_text="%" />
   </numericalresponse>
 
-  <numericalresponse answer="9.81"> 
-    <formulaequationinput label="What is the strength of Earth's gravity, to 
+  <numericalresponse answer="9.81">
+    <formulaequationinput label="What is the strength of Earth's gravity, to
     two decimal places?" trailing_text="\(m/s^{2}\)" />
   </numericalresponse>
 
@@ -556,7 +556,7 @@ Problem with a Decimal Tolerance
 .. code-block:: xml
 
   <problem>
-   
+
     <legend>TEXT OF PROBLEM</legend>
     <numericalresponse answer="ANSWER (NUMBER)">
       <responseparam type="tolerance" default="NUMBER (DECIMAL, e.g., .02)" />
@@ -565,7 +565,7 @@ Problem with a Decimal Tolerance
         Feedback for the correct answer.
       </correcthint>
     </numericalresponse>
-   
+
     <solution>
       <div class="detailed-solution">
         <p>TEXT OF SOLUTION</p>
@@ -579,7 +579,7 @@ Problem with a Percentage Tolerance
 .. code-block:: xml
 
   <problem>
-   
+
     <legend>TEXT OF PROBLEM</legend>
     <numericalresponse answer="ANSWER (NUMBER)">
       <responseparam type="tolerance" default="NUMBER (PERCENTAGE, e.g., 3%)" />
@@ -641,7 +641,7 @@ Tags
 
 * ``<script>`` (optional)
 
-.. note:: Some older problems use the ``<textline math="1" />`` tag instead 
+.. note:: Some older problems use the ``<textline math="1" />`` tag instead
  of the ``<formulaequationinput />`` tag. However, the ``<textline math="1"
  />`` tag has been deprecated. All new problems should use the
  ``<formulaequationinput />`` tag.
@@ -667,7 +667,7 @@ the ``<numericalresponse>`` tag does not allow unspecified variables.
        - Specifies the type of partial credit given. ``close``, ``list``, or a
          combination of both in any order separated by a comma (,).
 
-  .. note:: If you include a variable name preceded with a dollar sign 
+  .. note:: If you include a variable name preceded with a dollar sign
    ($) in the problem, you can include a script in the problem that computes
    the expression in terms of that variable.
 
@@ -678,7 +678,7 @@ the ``<numericalresponse>`` tag does not allow unspecified variables.
   "1/3" and "sin(pi/5)".
 
   Children
-  
+
   * ``<responseparam>``
   * ``<formulaequationinput>``
   * ``<correcthint>``
@@ -694,12 +694,12 @@ Creates a response field in the LMS where learners enter a response.
      :header-rows: 1
 
      * - Attribute
-       - Description     
+       - Description
      * - label (required)
        - Specifies the name of the response field.
      * - size (optional)
        - Defines the width, in characters, of the response field in the LMS.
-  
+
   Children
 
   (none)
@@ -728,7 +728,7 @@ Specifies a tolerance, or margin of error, for an answer.
          values that are to receive 50% credit.
 
   Children
-  
+
   (none)
 
 **Tag:** ``<correcthint>``
@@ -757,7 +757,7 @@ XML.
        - Must be set to "loncapa/python".
 
   Children
-  
+
   (none)
 
 **Tag:** ``<demandhint>``
@@ -765,7 +765,7 @@ XML.
 Specifies hints available to the learner.
 
   Children
-  
+
   ``<hint>``
 
 **Tag:** ``<hint>``
@@ -773,7 +773,7 @@ Specifies hints available to the learner.
 Specifies a hint available to the learner.
 
   Children
-  
+
   (none)
 
 .. _Math Response Formatting for Students: http://edx-guide-for-students.readthedocs.org/en/latest/SFD_mathformatting.html

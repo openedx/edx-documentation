@@ -78,28 +78,27 @@ which are located one level above the ``edx-platform`` directory.
 
 #. In ``lms.env.json``, set the values for the following parameters.
 
-  * ``BADGR_API_TOKEN``: A string containing the API token for the Badgr
-    superuser account. Obtain the token from the /v1/user/auth-token page while
-    logged in to the API as the superuser.
+   * ``BADGR_API_TOKEN``: A string containing the API token for the Badgr
+     superuser account. Obtain the token from the /v1/user/auth-token page while
+     logged in to the API as the superuser.
 
-  * ``BADGR_BASE_URL``: A string containing the base URL for Badgr Server. The
-    Badgr Server must be installed at a publicly accessible IP address.
+   * ``BADGR_BASE_URL``: A string containing the base URL for Badgr Server. The
+     Badgr Server must be installed at a publicly accessible IP address.
 
-  * ``BADGR_ISSUER_SLUG``: A string that is the slug for the Badgr issuer. The
-    slug can be obtained from the URL of the Badgr Server page that displays
-    the issuer. For example, in the URL ``http://exampleserver.com/issuer/test-issuer``, the issuer slug is ``test-issuer``.
+   * ``BADGR_ISSUER_SLUG``: A string that is the slug for the Badgr issuer. The
+     slug can be obtained from the URL of the Badgr Server page that displays
+     the issuer. For example, in the URL ``http://exampleserver.com/issuer/test-issuer``, the issuer slug is ``test-issuer``.
 
-   .. code-block:: bash
+     .. code-block:: bash
 
-     ############## Badgr OpenBadges generation ##############
+       ############## Badgr OpenBadges generation ##############
 
-     BADGR_API_TOKEN = None
-     # Do not add the trailing slash here.
-     BADGR_BASE_URL = "http://localhost:8005"
-     BADGR_ISSUER_SLUG = "test-issuer"
+       BADGR_API_TOKEN = None
+       # Do not add the trailing slash here.
+       BADGR_BASE_URL = "http://localhost:8005"
+       BADGR_ISSUER_SLUG = "test-issuer"
 
-
-3. Save the ``lms.env.json`` and ``cms.env.json`` files.
+#. Save the ``lms.env.json`` and ``cms.env.json`` files.
 
 #. Run database migrations.
 
@@ -127,13 +126,13 @@ Configure Badges and Badge Images for Your Open edX Instance
 
 #. For each badge image configuration, set these parameters.
 
-  * Course Mode
-  * Icon: The badge image to use for the specified course mode.
+   * Course Mode
+   * Icon: The badge image to use for the specified course mode.
 
    .. important:: Be sure to replace the default badge images with your
-    organization's own badge images before any badges are issued.
+      organization's own badge images before any badges are issued.
 
-4. Optionally, define a default image for any course modes that do not have an
+#. Optionally, define a default image for any course modes that do not have an
    explicitly specified badge image. Select **Default** in the badge image
    configuration.
 

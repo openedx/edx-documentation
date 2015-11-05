@@ -16,17 +16,17 @@ Open edX, you must configure the ``server-vars.yml`` file in the edX platform.
 #. Create or update the file ``/edx/app/edx_ansible/server-vars.yml`` to
    include the CCX feature flag.
 
-  .. code-block:: yaml
+   .. code-block:: yaml
 
-    EDXAPP_FEATURES:
-      CUSTOM_COURSES_EDX: true
+     EDXAPP_FEATURES:
+       CUSTOM_COURSES_EDX: true
 
-3. Run the command ``/edx/bin/update``.
+#. Run the command ``/edx/bin/update``.
 
-  .. code-block:: bash
+   .. code-block:: bash
 
-     sudo /edx/bin/update edx-platform <your-branch-name>
+      sudo /edx/bin/update edx-platform <your-branch-name>
 
-4. Restart the LMS server.
+#. Restart the LMS server.
 
 .. include:: ../../../links/links.rst
