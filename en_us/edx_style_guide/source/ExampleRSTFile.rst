@@ -17,7 +17,7 @@ Heading Levels
 ::
 
  #############
- Heading 1 
+ Heading 1
  #############
 
  *************
@@ -25,7 +25,7 @@ Heading Levels
  *************
 
  ===========
- Heading 3 
+ Heading 3
  ===========
 
  Heading 4
@@ -41,7 +41,7 @@ Heading Levels
 Internal Table of Contents
 ***************************
 
-.. contents:: 
+.. contents::
   :local:
   :depth: 1
 
@@ -51,7 +51,7 @@ Paragraph Text and Commented Text
 
 This is an example of regular text in paragraph form. There are no indents. As
 a best practice, break lines at about 80 characters, so that each line has its
-own line number for commenting in reviews. 
+own line number for commenting in reviews.
 
 .. warning:: Throughout text and code examples, make sure double quotation
    marks and apostrophes are straight (") or ('), not curly quotatation marks
@@ -65,7 +65,7 @@ Italics are rarely used. Text surrounded by single asterisks is rendered in
 *italics*.
 
 Monospace text is used for ``code examples``. Text surrounded by double grave
-accent characters is rendered in monospace font. 
+accent characters is rendered in monospace font.
 
 ``.. comments can be added in a file by starting a line with 2 periods and a space.``
 
@@ -75,18 +75,23 @@ In English source files, look for comments addressed to translators from writers
 
 
 ***************************************
-Numbered and Bulleted Lists
+Ordered and Unordered Lists
 ***************************************
 
-Use hash symbols for numbered lists.
+Use hash symbols for ordered lists.
+
 ::
 
 #. Select **Advanced Settings**.
-#. Find the **Course Advertised Start Date** policy key.   
-#. Enter the value you want to display. 
+#. Find the **Course Advertised Start Date** policy key.
+#. Enter the value you want to display.
 
+.. note::
+ Ordered lists usually use numerals. Nested ordered lists (ordered lists inside
+ other ordered lists) use letters.
 
-Use asterisks for bulleted lists.
+Use asterisks for unordered (bulleted) lists.
+
 ::
 
 * Who is teaching the course?
@@ -94,29 +99,136 @@ Use asterisks for bulleted lists.
 * What topics and concepts are covered in your course?
 * Why should a learner enroll in your course?
 
-<<<<<<< HEAD
-To create a bulleted list inside a numbered list, make sure that you indent
-=======
-If you have a bulleted list inside a numbered list, make sure that you indent
->>>>>>> Proctoring Doc
-the bulleted list only two spaces instead of three. The bulleted list cannot
-be flush with the text in the numbered list, or it will appear as a numbered
-list.
+=======================
+Nested Lists or Content
+=======================
+
+You can include content including additional lists and code examples inside
+lists.
+
+Unordered List inside Ordered List
+***************************************
+
+To include an unordered list inside an ordered list, indent the unordered list
+three spaces. The first bullet in the unordered list must be flush with the
+text in the ordered list.
 
 ::
 
-  To enroll in a course, follow these steps.
+  #. Review your entry to verify that the key is accurate and that it is
+     surrounded by quotation marks. If there is a list of keys, they must be
+     comma separated.
 
-  #. On the edX home page, select the course that you want.
-  #. When the About page for the course opens, select **Enroll Now** in the
-     upper right corner of the page.
+     * In this example, the key for the Annotation Problem tool is the only
+       value in the list.
 
-    * If your course only offers honor code certificates, you are enrolled in
-      the course after you select **Enroll Now**.
+     * In this example, the key for the Annotation Problem tool is added at
+       the beginning of a list of other keys.
 
-    * If your course offers both honor code certificates and verified
-      certificates, you must select the type of certificate you want after you
-      select **Enroll Now**.
+  #. Select **Save Changes**.
+
+.. image:: /Images/Lists_UL_inside_OL.png
+ :width: 500
+ :alt: An unordered (bulleted) list inside an ordered (numbered) list.
+
+Ordered List inside Unordered List
+***************************************
+
+To include an ordered list inside an unordered list, indent the ordered list
+two spaces. The first number or letter of the ordered list must be flush with
+the text in the unordered list.
+
+::
+
+  * Review your entry to verify that the key is accurate and that it is
+    surrounded by quotation marks. If there is a list of keys, they must be comma
+    separated.
+
+    #. In this example, the key for the Annotation Problem tool is the only
+       value in the list.
+
+    #. In this example, the key for the Annotation Problem tool is added at the
+       beginning of a list of other keys.
+
+  * Select **Save Changes**.
+
+.. There isn't a screen shot of the above example yet because these lists don't
+.. render correctly locally, and searching for an example in the built docs
+.. online was taking too much time.
+
+Unordered List inside Unordered List
+***************************************
+
+To include an unordered list inside another unordered list, indent the second
+unordered list two spaces. The first bullet of the second unordered list must
+be flush with the text in the unordered list.
+
+::
+
+  * Review your entry to verify that the key is accurate and that it is
+    surrounded by quotation marks. If there is a list of keys, they must be
+    comma separated.
+
+    #. In this example, the key for the Annotation Problem tool is the only
+       value in the list.
+
+    #. In this example, the key for the Annotation Problem tool is added at the
+       beginning of a list of other keys.
+
+  * Select **Save Changes**.
+
+.. image:: /Images/Lists_UL_inside_UL.png
+ :width: 500
+ :alt: An ordered (numbered) list inside an unordered (bulleted) list.
+
+Ordered List inside Ordered List
+***************************************
+
+To include another ordered list inside an ordered list, indent the second
+ordered list three spaces. The second ordered list must be flush with the text
+in the numbered list. The first ordered list uses numerals, and the second
+uses letters.
+
+::
+
+  #. Review your entry to verify that the key is accurate and that it is
+     surrounded by quotation marks. If there is a list of keys, they must be
+     comma separated.
+
+     #. In this example, the key for the Annotation Problem tool is the only
+        value in the list.
+
+     #. In this example, the key for the Annotation Problem tool is added at
+        the beginning of a list of other keys.
+
+  #. Select **Save Changes**.
+
+.. There isn't a screen shot of the above example yet because these lists don't
+.. render correctly locally, and searching for an example in the built docs
+.. online was taking too much time.
+
+Code, Images, and Other Content inside Lists
+*********************************************
+
+To include content such as code or an image inside a list, position the code or
+image directive flush with the text in the list. That is, indent three spaces
+for ordered lists and two spaces for unordered lists.
+
+::
+
+  #. In the ``lms.env.json`` and ``cms.env.json`` files, set the value of
+     ``CERTIFICATES_HTML_VIEW`` within the ``FEATURES`` object  to ``true``.
+
+     .. code-block:: bash
+
+       "FEATURES": {
+           ...
+           'CERTIFICATES_HTML_VIEW': true,
+           ...
+       }
+
+  #. Save the ``lms.env.json`` and ``cms.env.json`` files.
+
 
 ***************************************
 Conditional Text
@@ -124,7 +236,7 @@ Conditional Text
 
 To conditionalize a single paragraph, use either the ``only:: Partners`` or
 the ``only:: Open_edX`` directive, and indent the paragraph under the
-directive. You can add the conditional text as regular text or as a note. 
+directive. You can add the conditional text as regular text or as a note.
 
 Make sure to indent the paragraph under the directive.
 
@@ -136,7 +248,7 @@ Make sure to indent the paragraph under the directive.
    Insights from the Instructor Dashboard for your live course: after you select
    **Instructor**, follow the link in the banner at the top of each page. For
    more information, see `Using edX Insights`_.
-   
+
   .. only:: Open_edX
 
       .. note::
@@ -163,31 +275,33 @@ Notes and Warnings
 
 ::
 
-  .. note:: This is note text. If note text runs over a line, make sure the
-    lines wrap and are indented to the same level as the note tag. If
-    formatting is incorrect, the entire note might not render in the HTML
-    output.
-    
+ .. note::
+    This is note text. If note text runs over a line, make sure the lines wrap
+    and are indented to the same level as the note tag. If formatting is
+    incorrect, part of the note might not render in the HTML output.
+
     Notes can have more than one paragraph. Successive paragraphs must indent
-    to the same level as the rest of the note. 
+    to the same level as the rest of the note.
 
-.. note:: This is note text. If note text runs over a line, make sure the
-   lines wrap and are indented to the same level as the note tag. If
-   formatting is incorrect, the entire note might not render in the HTML
-   output.
+.. note::
+   This is note text. If note text runs over a line, make sure the lines wrap
+   and are indented to the same level as the note tag. If formatting is
+   incorrect, part of the note might not render in the HTML output.
 
-   Notes can have more than one paragraph. Successive paragraphs must indent
-   to the same level as the rest of the note.
+   Notes can have more than one paragraph. Successive paragraphs must indent to
+   the same level as the rest of the note.
 
 
 ::
 
-  .. warning:: Warnings are formatted in the same way as notes. In the same way,
-     lines must be broken and indented under the warning tag.
+  .. warning::
+     Warnings are formatted in the same way as notes. In the same way, lines
+     must be broken and indented under the warning tag.
 
 
-.. warning:: Warnings are formatted in the same way as notes. In the same way,
-   lines must be broken and indented under the warning tag.
+.. warning::
+   Warnings are formatted in the same way as notes. In the same way, lines must
+   be broken and indented under the warning tag.
 
 
 ****************************
@@ -242,7 +356,7 @@ Cross references to external web pages
 This example also includes specific link text before the URL.
 ::
 
-  `Create a Problem <http://site.Create_Problem.html>`_ 
+  `Create a Problem <http://site.Create_Problem.html>`_
 
 ============================================
 Cross references to edX101 demo course pages
@@ -263,7 +377,7 @@ Cross references to edX101 demo course pages
 Image References
 ****************************
 
-Image references look like this. 
+Image references look like this.
 ::
 
   .. image:: /Images/Course_Outline_LMS.png
@@ -290,18 +404,18 @@ Style Guide).
 Example of a table with an empty cell
 ======================================
 
-The empty cell is the second column in the first row of this table. 
+The empty cell is the second column in the first row of this table.
 ::
- 
+
   .. list-table::
      :widths: 25 25 50
 
    * - Annotation Problem
-     - 
+     -
      - Annotation problems ask students to respond to questions about a
        specific block of text. The question appears above the text when the
        student hovers the mouse over the highlighted text so that students can
-       think about the question as they read.   
+       think about the question as they read.
    * - Example Poll
      - Conditional Module
      - You can create a conditional module to control versions of content that
@@ -319,11 +433,11 @@ The empty cell is the second column in the first row of this table.
    :widths: 25 25 50
 
    * - Annotation Problem
-     - 
+     -
      - Annotation problems ask students to respond to questions about a
        specific block of text. The question appears above the text when the
        student hovers the mouse over the highlighted text so that students can
-       think about the question as they read.   
+       think about the question as they read.
    * - Example Poll
      - Conditional Module
      -  You can create a conditional module to control versions of content that
@@ -335,7 +449,7 @@ The empty cell is the second column in the first row of this table.
      - Custom JavaScript display and grading problems (also called *custom
        JavaScript problems* or *JS Input problems*) allow you to create a
        custom problem or tool that uses JavaScript and then add the problem or
-       tool directly into Studio.       
+       tool directly into Studio.
 
 ====================================
 Example of a table with a header row
@@ -346,7 +460,7 @@ Example of a table with a header row
   .. list-table::
      :widths: 15 15 70
      :header-rows: 1
- 
+
      * - First Name
        - Last Name
        - Residence
@@ -361,7 +475,7 @@ Example of a table with a header row
 .. list-table::
    :widths: 15 15 70
    :header-rows: 1
- 
+
    * - First Name
      - Last Name
      - Residence
@@ -370,7 +484,7 @@ Example of a table with a header row
      - Longbourne
    * - Fitzwilliam
      - Darcy
-     - Pemberley       
+     - Pemberley
 
 
 ===============================================
@@ -382,7 +496,7 @@ Example of a table with a boldface first column
   .. list-table::
      :widths: 15 15 70
      :stub-columns: 1
- 
+
      * - First Name
        - Elizabeth
        - Fitzwilliam
@@ -397,7 +511,7 @@ Example of a table with a boldface first column
 .. list-table::
    :widths: 15 15 70
    :stub-columns: 1
- 
+
    * - First Name
      - Elizabeth
      - Fitzwilliam
@@ -406,13 +520,13 @@ Example of a table with a boldface first column
      - Darcy
    * - Residence
      - Longboure
-     - Pemberley       
+     - Pemberley
 
 ==============================================================
-Example of a table with a cell that includes a bulleted list
+Example of a table with a cell that includes an unordered list
 ==============================================================
 
-The blank lines before and after the bulleted list are critical for the list
+The blank lines before and after the unordered list are critical for the list
 to render correctly.
 
 ::
@@ -427,19 +541,19 @@ to render correctly.
      * - ``correct_map``
        - dict
        - For each problem ID value listed by ``answers``, provides:
-       
+
          * ``correctness``: string; 'correct', 'incorrect'
-         * ``hint``: string; Gives optional hint. Nulls allowed. 
-         * ``hintmode``: string; None, 'on_request', 'always'. Nulls allowed. 
+         * ``hint``: string; Gives optional hint. Nulls allowed.
+         * ``hintmode``: string; None, 'on_request', 'always'. Nulls allowed.
          * ``msg``: string; Gives extra message response.
          * ``npoints``: integer; Points awarded for this ``answer_id``. Nulls allowed.
          * ``queuestate``: dict; None when not queued, else ``{key:'', time:''}``
            where ``key`` is a secret string dump of a DateTime object in the form
-           '%Y%m%d%H%M%S'. Nulls allowed. 
+           '%Y%m%d%H%M%S'. Nulls allowed.
 
      * - ``grade``
        - integer
-       - Current grade value. 
+       - Current grade value.
      * - ``max_grade``
        - integer
        - Maximum possible grade value.
@@ -455,19 +569,19 @@ to render correctly.
    * - ``correct_map``
      - dict
      - For each problem ID value listed by ``answers``, provides:
-       
+
        * ``correctness``: string; 'correct', 'incorrect'
-       * ``hint``: string; Gives optional hint. Nulls allowed. 
-       * ``hintmode``: string; None, 'on_request', 'always'. Nulls allowed. 
+       * ``hint``: string; Gives optional hint. Nulls allowed.
+       * ``hintmode``: string; None, 'on_request', 'always'. Nulls allowed.
        * ``msg``: string; Gives extra message response.
        * ``npoints``: integer; Points awarded for this ``answer_id``. Nulls allowed.
        * ``queuestate``: dict; None when not queued, else ``{key:'', time:''}``
          where ``key`` is a secret string dump of a DateTime object in the form
-         '%Y%m%d%H%M%S'. Nulls allowed. 
+         '%Y%m%d%H%M%S'. Nulls allowed.
 
    * - ``grade``
      - integer
-     - Current grade value. 
+     - Current grade value.
    * - ``max_grade``
      - integer
      - Maximum possible grade value.
@@ -493,7 +607,7 @@ Code blocks
 
 To set text in a code block, end the previous paragaph with 2 colons, leave
 one line before the intended code block, and make sure the code block is
-indented beyond the first colon. 
+indented beyond the first colon.
 ::
 
  For example, this is the introductory paragraph
@@ -506,7 +620,7 @@ Alternatively, use the code-block tag. Optionally, indicate the type of code
 after the 2 colons in the tag, which results in the tags within the code block
 being displayed in different colors.
 ::
-  
+
  .. code-block:: xml
 
           <problem>
@@ -515,17 +629,17 @@ being displayed in different colors.
                     <text>PLACEHOLDER: Text of annotation</text>
                       <comment>PLACEHOLDER: Text of question</comment>
                       <comment_prompt>PLACEHOLDER: Type your response below:</comment_prompt>
-                      <tag_prompt>PLACEHOLDER: In your response to this question, which tag below 
+                      <tag_prompt>PLACEHOLDER: In your response to this question, which tag below
                       do you choose?</tag_prompt>
                     <options>
-                      <option choice="incorrect">PLACEHOLDER: Incorrect answer (to make this 
-                      option a correct or partially correct answer, change choice="incorrect" 
+                      <option choice="incorrect">PLACEHOLDER: Incorrect answer (to make this
+                      option a correct or partially correct answer, change choice="incorrect"
                       to choice="correct" or choice="partially-correct")</option>
-                      <option choice="correct">PLACEHOLDER: Correct answer (to make this option 
-                      an incorrect or partially correct answer, change choice="correct" to 
+                      <option choice="correct">PLACEHOLDER: Correct answer (to make this option
+                      an incorrect or partially correct answer, change choice="correct" to
                       choice="incorrect" or choice="partially-correct")</option>
-                      <option choice="partially-correct">PLACEHOLDER: Partially correct answer 
-                      (to make this option a correct or partially correct answer, 
+                      <option choice="partially-correct">PLACEHOLDER: Partially correct answer
+                      (to make this option a correct or partially correct answer,
                       change choice="partially-correct" to choice="correct" or choice="incorrect")
                       </option>
                     </options>
@@ -535,7 +649,4 @@ being displayed in different colors.
                 <p>PLACEHOLDER: Detailed explanation of solution</p>
               </solution>
             </problem>
-
-
-
 
