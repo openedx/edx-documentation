@@ -28,18 +28,18 @@ If you use cohorts in your course, you define a set of cohorts that reflect
 communities of learners, then select a strategy for :ref:`assigning learners to
 cohorts<Options for Assigning Learners to Cohorts>`.
 
-.. note::    
+.. note::
    * Every learner must be assigned to a cohort. This ensures that
      every learner has the ability to read and contribute to course discussion
      topics.
 
-   * Each learner can be in one and only one cohort. 
+   * Each learner can be in one and only one cohort.
 
    To provide learners with a consistent experience throughout the course run,
    do not change cohort configuration or a learner's cohort assignment after
    your course begins.
 
-For more information about using cohorts, see:
+For more information about using cohorts, see the following topics.
 
 * :ref:`Enabling and Configuring Cohorts`
 
@@ -75,7 +75,7 @@ combination of automated and manual cohorts. Typically, your purpose in
 including the cohort feature determines which assignment option you use for
 your course.
 
-.. note:: You can add learners manually to any cohort, whether it was created 
+.. note:: You can add learners manually to any cohort, whether it was created
    as an automated cohort or a manual cohort.
 
 .. note:: Although you can change the assignment method of a cohort at any time
@@ -126,7 +126,7 @@ automated cohorts to define for your course.
   include between 200 and 500 members.
 
 * For every 10,000 students who enroll, approximately 200 to 400 students
-  remain active in the discussions throughout the course run. 
+  remain active in the discussions throughout the course run.
 
 * Divide the estimated total enrollment of the course run by 10,000.
 
@@ -162,7 +162,7 @@ that your learners already belong to. You enable cohorts and then create
 assign each learner to a cohort. Every learner who enrolls, including those who
 enroll after the course starts, must be assigned to a cohort.
 
-.. note:: To ensure that every learner is assigned to a cohort, you can set up 
+.. note:: To ensure that every learner is assigned to a cohort, you can set up
    a single automated cohort, as described for the :ref:`hybrid assignment
    strategy<Hybrid Assignment>`. If you do not create an automated cohort, the
    system automatically creates a :ref:`default cohort<Default Cohort Group>`
@@ -231,7 +231,7 @@ cohort, you can change its name. For details about renaming cohorts, see
 :ref:`Renaming a Cohort`.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/post_visible_default.png
- :alt: A discussion topic post with "This post is visible to Default Group" 
+ :alt: A discussion topic post with "This post is visible to Default Group"
        above the title.
  :width: 600
 

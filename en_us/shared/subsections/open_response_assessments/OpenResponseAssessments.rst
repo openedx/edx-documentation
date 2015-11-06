@@ -51,9 +51,9 @@ by step instructions, see the following sections.
 * :ref:`PA Create an ORA Assignment`
 * :ref:`Accessing ORA Assignment Information`
 
-  
+
 For information about viewing metrics and learner responses for released open
-response assessments, see :ref:`Accessing ORA Assignment Information`.  
+response assessments, see :ref:`Accessing ORA Assignment Information`.
 
 For information about the learner experience with open response assessments,
 see `Open Response Assessments <http://edx-guide-for-
@@ -93,7 +93,7 @@ open response assessments in your courses.
 
 * Provide an ungraded practice ORA assignment prior to the first graded ORA
   assignment in the course, so that learners can understand the peer grading
-  process and get the most out of the eventual graded ORA assignment. 
+  process and get the most out of the eventual graded ORA assignment.
 
 * Consider using ungraded ORA assignments to generate learner interaction and
   feedback without affecting grades.
@@ -144,7 +144,7 @@ elements:
 
 * The :ref:`rubric <PA Rubric>`. One rubric is used to grade all the prompts in
   the assessment.
-  
+
 * One or more :ref:`assessment steps <PA Assessment Steps>`. Assignments can
   include a learner training step, a peer assessment step, and a self
   assessment step.
@@ -167,7 +167,7 @@ near the top of the page, followed by a field where the learner enters a
 response. You can require your learners to enter text as a response, or you can
 allow your learners to both enter text and upload an image.
 
-.. note:: If learners upload an image, the image file must be a .jpg or .png 
+.. note:: If learners upload an image, the image file must be a .jpg or .png
  file, and it must be smaller than 5 MB in size.
 
 .. image:: ../../../../shared/building_and_running_chapters/Images/PA_QandRField.png
@@ -176,7 +176,7 @@ allow your learners to both enter text and upload an image.
 
 When you write each question, you can include helpful information for your
 learners, such as what they can expect after they submit responses, or the
-approximate number of words or sentences that their response should have. 
+approximate number of words or sentences that their response should have.
 
 .. note:: Each learner is limited to a total word count of 10,000 for all
    responses in an ORA assignment.
@@ -214,7 +214,7 @@ grading. Learners compare their peers' responses to the rubric.
 
 Rubrics consist of *criteria* and *options*.
 
-* Each criterion has a *name*, a *prompt*, and one or more *options*. 
+* Each criterion has a *name*, a *prompt*, and one or more *options*.
 
    * The name is a very short summary of the criterion, such as "Ideas" or
      "Content". Criterion names generally have just one word. Because the system
@@ -226,7 +226,7 @@ Rubrics consist of *criteria* and *options*.
      .. image:: ../../../../shared/building_and_running_chapters/Images/PA_CriterionName.png
         :alt: A final score page with call-outs for the criterion names
 
-   * The prompt is a description of the criterion. 
+   * The prompt is a description of the criterion.
 
    * Options describe how well the response satisfies the criterion.
 
@@ -288,10 +288,10 @@ points possible)
        dynastic disagreement between Edward III and Philip VI, leading to the
        Hundred Years' War.
 
-.. note:: For peer grading, the most effective rubrics are as concrete 
-   and specific as possible. Many novice learners will be unqualified 
+.. note:: For peer grading, the most effective rubrics are as concrete
+   and specific as possible. Many novice learners will be unqualified
    to make the types of value judgments required for more holistic
-   rubrics. In addition, edX suggests using clear, simple language in 
+   rubrics. In addition, edX suggests using clear, simple language in
    rubrics.
 
 
@@ -324,7 +324,7 @@ self assessments ("Assess Your Response").
   :width: 600
 
 
-.. _PA Learner Training Assessments:
+.. _PA Student Training Step:
 
 
 Learner Training Step
@@ -365,7 +365,7 @@ above the response.
 
   Learning to Assess Responses
   Your assessment differs from the instructor's assessment of this response. Review the
-  response and consider why the instructor may have assessed it differently. Then, try 
+  response and consider why the instructor may have assessed it differently. Then, try
   the assessment again.
 
 For each of the criteria, the learner sees one of the following two messages,
@@ -604,7 +604,7 @@ in height in the list. (For longer responses, learners can scroll to see the
 entire response.) EdX recommends that you specify 20 or fewer responses to
 prevent the page from becoming too long.
 
-.. note:: It may take up to an hour for a high-scoring response to appear in 
+.. note:: It may take up to an hour for a high-scoring response to appear in
  the **Top Responses** list.
 
    If a high-scoring response is :ref:`removed from peer assessment<Remove a

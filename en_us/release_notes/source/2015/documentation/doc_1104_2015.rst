@@ -33,5 +33,5 @@ Added the :ref:`opencoursestaff:Timed Exams` section.
 Installing, Configuring, and Running the Open edX Platform
 ************************************************************
 
-Added the :ref:`installation:Installing an XBlock Topic` to provide guidance
+Added the :ref:`installation:Installing an XBlock` topic to provide guidance
 about expanding the Open edX platform by adding XBlocks.
