@@ -12,6 +12,9 @@ November 2015
 
    * - Date
      - Change
+   * - 6 November 2015
+     - Updated the :ref:`Rerun a Course` topic to clarify that cohorts must be
+       redefined in a course created by the re-run feature.
    * - 3 November 2015
      - Added the :ref:`Timed Exams` topic.
    * - 2 November 2015
