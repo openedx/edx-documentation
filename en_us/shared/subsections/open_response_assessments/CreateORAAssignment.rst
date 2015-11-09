@@ -268,7 +268,7 @@ To add and score learner training responses, follow these steps.
 #. Under **Response Score**, for each criterion, select the option that you
    want.
 
-For more information, see :ref:`PA Learner Training Assessments`.
+For more information, see :ref:`PA Learner Training Step`.
 
 
 ============================

@@ -133,12 +133,13 @@ inappropriate response, it is counted as one of the submissions they have
 graded.
 
 .. note:: After you remove an inappropriate response from peer assessment, you
-   decide whether the learner who submitted that response is allowed to submit a
-   replacement response. If you do not want to allow the learner to submit a
+   decide whether the learner who submitted that response is allowed to submit
+   a replacement response. If you do not want to allow the learner to submit a
    replacement response, you do not need to take any additional action. The
    learner receives a grade of zero for the entire submission. To allow the
-   learner to resubmit a response for a cancelled submission, :ref:`reset the
-   learner's attempts for the problem<reset_attempts>`.
+   learner to resubmit a response for a cancelled submission, you must delete
+   the learner's state for the problem. For information, see
+   :ref:`delete_state`.
 
 Remove a submission from peer assessment by completing these steps.
 
