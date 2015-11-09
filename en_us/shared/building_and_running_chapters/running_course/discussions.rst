@@ -408,8 +408,8 @@ the discussions more effectively.
 
 When a post is created its type must be selected: either "question" or
 "discussion". Members of the discussion team should be thoughtful when
-selecting the type for their posts, and encourage learners to do the same. For more information, see
-:ref:`Find Question Posts and Discussion Posts`.
+selecting the type for their posts, and encourage learners to do the same. For
+more information, see :ref:`Find Question Posts and Discussion Posts`.
 
 .. future: changing the type of a post, maybe resequence or separate  conventions from post types
 
@@ -512,8 +512,8 @@ View Profile Information for Discussion Participants
 ====================================================
 
 If you want to find out more about a specific discussion participant, you can
-view that learner's edX profile. Learners can have either a limited profile or a
-full profile.
+view that learner's edX profile. Learners can have either a limited profile or
+a full profile.
 
 To view a learner's profile, follow these steps.
 
@@ -531,8 +531,8 @@ username on the **Active Threads** page, and the learner's profile page.
       that learner's active threads page in the course discussions, and an
       image of the learner's profile.
 
-For more information, or to create your own profile, see `View, Create, or
-Edit an edX Profile <http://edx-guide-for-students.readthedocs.org/en/latest/sfd_your_information.html#sfd_profile_page>`_.
+For more information, or to create your own profile, see :ref:`SFD Profile
+Page`.
 
 ========================================
 Provide Guidelines for Learners
@@ -764,8 +764,7 @@ where:
 * The dates and times that you enter are in Coordinated Universal Time (UTC),
   not in your local time zone. You might want to verify that you have specified
   the times that you intend by using a time zone converter such as `Time and
-  Date Time Zone Converter
-  <http://www.timeanddate.com/worldclock/converter.html>`_
+  Date Time Zone Converter`_
 
 * You enter an actual letter **T** between the numeric date and time values.
 
@@ -840,3 +839,7 @@ reopen, follow these steps.
 For examples of email messages that you can send to let learners know when the
 course discussions are closed (or open), see :ref:`Example Messages to
 Students`.
+
+.. include:: ../../../links/links.rst
+
+
