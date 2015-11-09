@@ -10,6 +10,7 @@ The following information describes what is new in the edX LMS.
   :local:
   :depth: 2
 
+
 **************************
 4 November 2015
 **************************

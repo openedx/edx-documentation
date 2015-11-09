@@ -11,6 +11,12 @@ The following information describes what is new in edX Studio.
   :depth: 2
 
 ******************
+9 November 2015
+******************
+
+.. include:: 2015/studio/studio_1109_2015.rst
+
+******************
 4 November 2015
 ******************
 
