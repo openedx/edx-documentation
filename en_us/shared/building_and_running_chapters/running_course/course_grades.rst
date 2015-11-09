@@ -361,6 +361,71 @@ The gradebook includes the following features.
   usernames that match your entry.
 
 
+.. _ generate_student_responses:
+
+************************************************************************
+Generate a Student Responses Report for All Problems (All Courses)
+************************************************************************
+
+For any course, you can generate a report that shows learner response for problems in the course. The sutdent responses report for a course shows 
+.
+
+To generate and download the student responses report for your course, follow
+these steps.
+
+.. important:: Because the student responses report file contains
+   confidential, personally identifiable data which might be subject to the
+   Family Educational Rights and Privacy Act (FERPA), be sure to follow your
+   institution's data stewardship policies when you open or save this file.
+
+#. View the live version of your course.
+
+#. Click **Instructor**, then click **Data Download**.
+
+#. To start the problem grading process, click **Generate Student Responses
+   Report**.
+
+   A status message indicates that the report generation is in progress. This
+   process can take some time to complete, but you can navigate away from this
+   page and do other work while it runs.
+
+4. To check the progress of the report generation process, reload the page in your
+   browser and scroll down to the **Pending Instructor Tasks** section. The
+   status of active tasks is shown in the table.
+
+
+.. _Interpret the Student Responses Report:
+
+======================================
+Interpret the Student Responses Report
+======================================
+
+A student responses report for your course is a time-stamped .csv file that
+identifies each enrolled learner by ID, email address, and username, and
+shows each learner's response for each problem in the course.
+
+
+
+.. image:: ../../../shared/building_and_running_chapters/Images/FileName.png
+
+  :alt: 
+
+The .csv file contains one row of data for each problem per learner, and
+columns that identify the problems in the course (section, subsection, unit,
+and so on). Learners who have not submitted any responses are not included in
+the report.
+
+* **Section** - the name of the section containing the problem
+* **Subsection** - the name of the subsection containing the problem
+* **Unit** - the name of the unit containing the problem
+* **Problem Display Name** - the display name of the problem
+* **Order in Course** - an integer that represents the order in which each
+  problem appears in the course, starting from 1. You can sort by this
+  column to compare student responses to a specific problem.
+* **Location** -- the location ID of the problem within the course.
+* **Response** -- the response that the student in this row submitted for this problem.
+
+
 .. _check_student_progress:
 
 ****************************************
