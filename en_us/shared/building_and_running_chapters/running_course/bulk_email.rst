@@ -671,8 +671,8 @@ about future access to course materials. Be sure to replace values enclosed by
     to generate all of the course certificates.
 
   * As an enrolled student, you will have access to the lecture videos even
-    after the course ends. The problem sets and exams will be removed from the
-    course when it is archived.
+    after the course ends. Assessments will remain, but you will no longer be
+    able to submit answers to any problem sets or exams with due dates.
 
   * The {course number} discussions close on {date} at {time} UTC. You will not
     be able to add to the discussions after that time, but you will be able to
