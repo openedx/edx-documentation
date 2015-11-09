@@ -8,6 +8,8 @@ Change Log
 
    * - Date
      - Change
+   * - 9 November 2015
+     - Added :ref:`Feature Flag Index` page.
    * - 4 November 2015
      - Added the :ref:`Installing an XBlock` topic.
    * - 26 October 2015
