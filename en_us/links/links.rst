@@ -26,6 +26,9 @@
 
 .. _Videos on edX: https://courses.edx.org/courses/edX/DemoX.1/2014/courseware/0af8db2309474971bfa70cda98668a30/ec3364075f2845baa625bfecd5970410/2
 
+.. _AA Introduction to Music Theory: https://studio.edge.edx.org/course/sylviaX/TEST10/2014_T3
+
+.. _La Tierra Centroamericana: https://studio.edge.edx.org/course/edX/GEO101/2014_T1>
 
 .. _edX Edge: http://edge.edx.org
 
@@ -188,7 +191,7 @@
 .. _App Store: https://itunes.apple.com/us/app/edx/id945480667?mt=8
 .. _VoiceOver for OS X: https://www.apple.com/accessibility/osx/voiceover/
 .. _Creative Commons website: http://creativecommons.org/licenses
-
+.. _Google Fonts: https://www.google.com/fonts#UsePlace:use/Collection:Open+Sans
 .. _Time and Date Time Zone Converter: http://www.timeanddate.com/worldclock/converter.html
 
 .. _Time Zone Converter: http://www.timezoneconverter.com/cgi-bin/tzc.tzc
