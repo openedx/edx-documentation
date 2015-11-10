@@ -2573,13 +2573,12 @@ The browser emits ``problem_save`` events when a user saves a problem.
 ``event`` **Member Fields**: None
 
 ``problem_show``
-*********************************
+********************
 
-.. no sample to check
+The browser emits ``problem_show`` events when the answer to a problem is
+shown; that is, the user selected **Show Answer**.
 
-The browser emits ``problem_show`` events when a problem is shown.
-
-.. %%
+.. note:: This event does not indicate when a problem was shown to a user.
 
 **Event Source**: Browser
 
