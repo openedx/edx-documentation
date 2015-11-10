@@ -2577,7 +2577,8 @@ The browser emits ``problem_save`` events when a user saves a problem.
 
 .. no sample to check
 
-The browser emits ``problem_show`` events when a problem is shown.
+The browser emits ``problem_show`` events when the answer to a problem is shown, i.e. the "show answer" button is clicked by the user.
+Note that despite its suggestive name, this event does not indicate when a problem has been shown.  
 
 .. %%
 
