@@ -15,6 +15,9 @@ October-December 2015
 
    * - Date
      - Change
+   * - 10 Nov 2015
+     - Corrected the description for the ``problem_show`` event in the
+       :ref:`problem` section.
    * - 4 Nov 2015
      - Updates made throughout this guide to replace Python terminology
        (dictionary, integer, float) with JSON terminology (object, number)
