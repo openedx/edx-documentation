@@ -38,8 +38,6 @@ Team members with the **Staff** role can complete these tasks.
 
 * Access student grades.
 
-* Reset student attempts to answer a question correctly.
-
 * See course HTML errors.
 
 * Send email messages to course participants.
@@ -47,6 +45,8 @@ Team members with the **Staff** role can complete these tasks.
 Team members with the **Admin** role have access to all of the same options for
 running the course as team members with the Staff role. They can also complete
 these tasks.
+
+* Reset student attempts to answer a question correctly.
 
 * Add and remove Staff.
 
