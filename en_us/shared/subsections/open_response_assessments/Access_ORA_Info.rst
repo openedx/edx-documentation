@@ -6,16 +6,18 @@ Accessing Assignment and Learner Metrics
 
 After your open response assessment assignment has been released, you can access
 information about the number of learners in each step of the assignment or the
-performance of individual learners. This information is available in the **Staff
-Info** and **Staff Tools** sections at the end of each assignment.
+performance of individual learners. This information is available in the
+**Course Staff Information** section at the end of each assignment. To access
+learner information, open the assignment in the courseware, scroll to the bottom of the
+assignment, and then select the black **Course Staff Information** banner.
 
 .. image:: ../../../../shared/building_and_running_chapters/Images/PA_CourseStaffInfo_Collapsed.png
-   :alt: The Staff Info banner at the bottom of the peer assessment
+   :alt: The Course Staff Information banner at the bottom of the peer assessment
 
-When you access a specific learner's information for an open response assessment
-using **Staff Tools**, you can view his responses and, if necessary,
-:ref:`cancel the learner's submission<Remove a learner response from peer
-grading>` so that it is not included in peer assessments.
+When you access a specific learner's information for an open response
+assessment, you can view his responses and, if necessary, :ref:`cancel the
+learner's submission<Remove a learner response from peer grading>` so that it is
+not included in peer assessments.
 
 .. _PA View Metrics for Individual Steps:
 
@@ -30,13 +32,14 @@ working through, the following steps:
 * Completed peer assessments.
 * Waiting to assess responses or receive grades.
 * Completed self assessments.
-* Completed the entire assignment.
+* Completed the entire assignment. 
 
 To find this information, open the assignment in the courseware, scroll to the
-bottom of the assignment, and then select **Staff Info**.
+bottom of the assignment, and then select **Course Staff Information**.
 
-The **Staff Info** section expands, and you can see the number of learners who
-are currently working through (but have not completed) each step of the problem.
+The **Course Staff Information** section expands, and you can see the number
+of learners who are currently working through (but have not completed) each
+step of the problem.
 
 .. image:: ../../../../shared/building_and_running_chapters/Images/PA_CourseStaffInfo_Expanded.png
    :alt: The Course Staff Information box expanded, showing problem status
@@ -50,7 +53,7 @@ Access Information for a Specific Learner
 You can access information about an individual learner's performance on a peer
 assessment assignment, including:
 
-* The learner's response.
+* The learner's response. 
 * The peer assessments that other learners performed on the learner's
   response, including feedback on individual criteria and on the overall
   response.
@@ -87,17 +90,18 @@ Access a Specific Learner's Information
 =======================================
 
 #. In the LMS, go to the peer assessment assignment that you want to see.
+   
+#. Scroll to the bottom of the problem, and select the black **Course Staff
+   Information** banner.
+   
+#. In the **Get Student Info** box, enter the learner's username, and select
+   **Submit**.
 
-#. Scroll to the bottom of the problem, and select **Staff Tools**.
-
-#. In **Staff Tools**, enter the learner's username or email address, then
-   select **Submit**.
-
-The learner's information appears.
+The learner's information appears below the **Get Student Info** box.
 
 The following example shows:
 
-* The learner's response.
+* The learner's response. 
 * The two peer assessments for the response.
 * The two peer assessments the learner completed.
 * The learner's self assessment.
@@ -123,7 +127,7 @@ specific ORA submission>` and cancel the submission. Doing so removes the
 inappropriate response from peer assessments so that it is no longer shown to
 other learners.
 
-.. note:: Removing a learner's submission is an irreversible action.
+.. note:: Removing a learner's submission is an irreversible action. 
 
 When you cancel an inappropriate submission, the response is immediately removed
 from the pool of submissions available for peer assessment. If the inappropriate
@@ -145,25 +149,26 @@ Remove a submission from peer assessment by completing these steps.
 
 #. In the LMS, go to the peer assessment assignment that contains the submission
    you want to remove.
+   
+#. Scroll to the bottom of the problem, then select the black **Course Staff
+   Information** banner.
+   
+#. Scroll down to the **Get Student Info** box, enter the learner's username in
+   the box, and select **Submit**. 
 
-#. Scroll to the bottom of the problem, then select **Staff Tools**.
-
-#. In **Staff Tools**, enter the learner's username or email address, then
-   select **Submit**.
-
-   The learner's information appears.
-
-#. Scroll down to the **Learner Response** section and locate the submission you
+   The learner's information appears below the **Get Student Info** box.
+   
+#. Scroll down to the **Student Response** section and locate the submission you
    want to remove.
 
 .. image:: ../../../../shared/building_and_running_chapters/Images/ORA_RemoveSubmission.png
    :alt: Dialog allowing comments to be entered when removing a learner submission
-
+   
 5. Enter a comment to document or explain the removal. This comment appears to
    the learner when she views her response in the open response assessment
    problem.
-
-#. Click **Remove submission**.
+   
+#. Click **Remove submission**. 
 
    The inappropriate submission is removed from peer assessment. When you access
    this learner's information again, instead of the response, you see a note
@@ -172,9 +177,9 @@ Remove a submission from peer assessment by completing these steps.
 
    Removed submissions are also removed from the list of Top Responses if they
    were previously listed.
-
+   
 .. image:: ../../../../shared/building_and_running_chapters/Images//ORA_CancelledStudentResponse.png
-   :alt: The date, time and comment for removal of a learner response is shown instead of the original response.
+   :alt: The date, time and comment for removal of a learner response is shown instead of the original response.  
 
 
 .. _Locate a specific ORA submission:
@@ -190,7 +195,7 @@ grading>`, locate the specific submission by following these steps.
 #. Ask the person who reported the incident to send you a sample of text from
    the inappropriate post.
 
-#. Contact your edX Program Manager to request a data download of ORA
+#. Contact your edX Partner Manager to request a data download of ORA
    responses for your course.
 
    You will receive the download as a spreadsheet or in .csv file format.

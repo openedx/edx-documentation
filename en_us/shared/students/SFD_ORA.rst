@@ -7,12 +7,12 @@ Open Response Assessments
 This topic describes how to work with open response assessments in your edX
 course.
 
-.. contents::
-  :local:
+.. contents:: 
+  :local: 
   :depth: 1
 
 *********************************************
-Overview of Open Response Assessments
+Overview of Embedded Files and Calendars
 *********************************************
 
 In an open response assessment, you provide written responses to questions that
@@ -45,9 +45,9 @@ responses for the assignment and the scores that these responses received. If
 your course team creates this section, you can see it below your score after
 you complete each step of the assignment.
 
-****************************
-Instructions for Learners
-****************************
+************************
+Student Instructions
+************************
 
 When you come to an open response assessment in the course, you will see the
 questions and a response field for each question. After you submit your
@@ -60,12 +60,12 @@ assignment includes below each response field.
    :width: 550
 
 Here, we will walk you through the process of completing an open response
-assessment that includes a learner training step, a peer assessment, and a self
+assessment that includes a student training step, a peer assessment, and a self
 assessment.
 
 #. Submit your responses to the questions.
 #. Learn to assess responses.
-#. Assess responses that other learners have submitted.
+#. Assess responses that other students have submitted.
 #. Assess your own responses to the questions.
 #. Receive your score and provide feedback on the peer assessment.
 
@@ -76,7 +76,7 @@ example, you might see the following message:
 
 .. code-block:: xml
 
-  Not Completed
+  Not Completed 
 
   You have not completed the peer assessment step and self
   assessment step of this problem.
@@ -105,12 +105,12 @@ to start grading right away. If you want to stop working and come back later,
 just refresh or reopen your browser when you come back. New peer responses will
 be available for you to grade.
 
-If no other learners have submitted responses yet, you see the following
+If no other students have submitted responses yet, you see the following
 message.
 
 .. code-block:: xml
 
-  Waiting for Peer Responses
+  Waiting for Peer Responses 
 
   All submitted peer responses have been assessed.
   Check back later to see if more students have submitted responses. You'll
@@ -140,7 +140,7 @@ any text.
 .. note:: The image file must be a .jpg or .png file, and it must be smaller
    than 5 MB in size.
 
-.. image:: ../../shared/students/Images/PA_Upload_ChooseFile.png
+.. image:: ../../shared/students/Images/PA_Upload_ChooseFile.png 
    :alt: Open response assessment example with Choose File and Upload Your
        Image buttons circled.
    :width: 500
@@ -189,7 +189,7 @@ then select **Compare your selections with the instructor's selections**.
 
 .. code-block:: xml
 
-  Learning to Assess Responses
+  Learning to Assess Responses 
 
   Your assessment differs from the instructor's
   assessment of this response. Review the response and consider why the
@@ -208,7 +208,7 @@ on whether your selections matched those defined by the course team.
   Selected Options Differ
   The option you selected is not the option that the instructor selected.
 
-In the following example, the learner chose one correct option and one
+In the following example, the student chose one correct option and one
 incorrect option.
 
 .. image:: ../../shared/students/Images/PA_TrainingAssessment_Scored.png
@@ -226,7 +226,7 @@ Assess Peer Responses
 =====================
 
 When the peer assessment step starts, you see each original question, another
-learner's responses, and the rubric for the assignment. Above the responses you
+student's responses, and the rubric for the assignment. Above the responses you
 can see how many responses you are expected to assess and how many you have
 already assessed.
 
@@ -234,12 +234,12 @@ already assessed.
    :alt: An in-progress peer assessment.
    :width: 500
 
-You assess other learners' responses by selecting options in the rubric, in the
+You assess other students' responses by selecting options in the rubric, in the
 same way you assessed the sample responses in the "learn to assess responses"
 step. Additionally, this step has a field below the rubric where you can
-provide comments about the learner's responses.
+provide comments about the student's responses.
 
-.. note:: Some assessments have an additional **Comments** field for one or
+.. note:: Some assessments have an additional **Comments** field for one or 
   more of the assessment's individual criteria. You can enter up to 300
   characters in these fields. In the following image, both criteria have a
   **Comments** field. There is also a field for overall comments on the
@@ -253,11 +253,11 @@ After you have selected options in the rubric and provided additional comments
 about the responses, select **Submit your assessment and move to response
 #<number>**.
 
-When you submit your assessment of the first learner's responses, another set
+When you submit your assessment of the first student's responses, another set
 of responses opens for you. Assess these responses in the same way that you
-assessed the first learner's responses, and then submit your assessment. You
+assessed the first student's responses, and then submit your assessment. You
 will repeat these steps until you have assessed the required number of
-responses. The number in the upper right corner of the step is updated as you
+responses. The number in the upper-right corner of the step is updated as you
 assess each set of responses.
 
 Assess Additional Peer Responses
@@ -293,7 +293,7 @@ Your Assessment**.
 Receive Your Score and Provide Feedback
 ==========================================
 
-After you submit your self assessment, if other learners are still assessing
+After you submit your self assessment, if other students are still assessing
 your responses, you see the following message under the **Assess Your
 Response** step.
 
@@ -313,7 +313,7 @@ of your peers, as well as your self assessment. You can also see any additional
 comments that your peers have provided.
 
 .. image:: ../../shared/students/Images/PA_AllScores.png
-   :alt: A learner's response with peer and self assessment scores.
+   :alt: A student's response with peer and self assessment scores.
    :width: 550
 
 If you want to, you can provide feedback on the scores that you received under
@@ -335,7 +335,7 @@ Peer Assessment Scoring
 Peer assessments are scored by criteria. An individual criterion's score is the
 *median*, not average, of the scores that each peer assessor gave that
 criterion. For example, if the Ideas criterion in a peer assessment receives a
-10 from one learner, a 7 from a second learner, and an 8 from a third learner,
+10 from one student, a 7 from a second student, and an 8 from a third student,
 the Ideas criterion's score is 8.
 
 Your final score for a peer assessment is the sum of the median scores for each
