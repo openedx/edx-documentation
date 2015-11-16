@@ -27,11 +27,9 @@ Configure the Course
 Configuring your Open edX environment to support paid courses has several
 steps.
 
-#. :ref:`Obtain a merchant account with CyberSource<Obtain CyberSource
-   Merchant Account>`.
-#. :ref:`Add configuration code<Add Configuration Code>`.
-#. :ref:`Add a course mode in Django<Add Course Mode>`.
-#. :ref:`Assign privileged roles to course team members<Assign Admin Roles>`.
+.. contents::
+   :depth: 1
+   :local:
 
 .. _Obtain CyberSource Merchant Account:
 
@@ -248,8 +246,8 @@ To create coupon codes, follow these steps.
 #. On the Instructor Dashboard, select the **E-Commerce** page, and then
    select the **Coupon Code List** section.
 #. On the right side of the page, select **Add Coupon Code**.
-#. In the **Add Coupon Code** dialog box, enter your information in the **Code**
-   and **Discount Percentage** fields.
+#. In the **Add Coupon Code** dialog box, enter your information in the
+   **Code** and **Discount Percentage** fields.
 #. (optional) In the **Description** field, enter a description for your
    coupon code.
 #. (optional) Select **Expiration Date**, and then select a date from the
@@ -295,8 +293,8 @@ Admin or Finance Admin role. For information, see :ref:`Assign Admin Roles`.
    select the **Coupon Code List** section.
 #. In the **Coupon Codes** list, locate the coupon code that you want to
    edit or delete.
-#. To edit the coupon code, select **Edit** in the **Actions** column, edit
-   the description of the coupon code in the **Edit Coupon Code** dialog box, and
+#. To edit the coupon code, select **Edit** in the **Actions** column, edit the
+   description of the coupon code in the **Edit Coupon Code** dialog box, and
    then select **Update Coupon Code**.
 
    To delete the coupon code, select the ``[x]`` in the **Actions** column.
@@ -344,15 +342,15 @@ or Finance Admin role. For information, see :ref:`Assign Admin Roles`.
 #. At the bottom of the form, select **Create Enrollment Codes**.
 
 When you select **Create Enrollment Codes**, the system automatically creates a
-comma-separated values (.csv) file and downloads the .csv file to your computer.
-In addition to information about your course and the transaction, such as the
-invoice number, the .csv file contains course enrollment codes and URLs. Each
-enrollment code has a separate URL, and only one student can use each enrollment
-code.
+comma-separated values (.csv) file and downloads the .csv file to your
+computer. In addition to information about your course and the transaction,
+such as the invoice number, the .csv file contains course enrollment codes and
+URLs. Each enrollment code has a separate URL, and only one learner can use
+each enrollment code.
 
 The system also sends a confirmation email to the purchasing organization. The
 email instructs the purchasing organization to distribute enrollment codes to
-students and includes a template that the organization can use. The email has
+learners and includes a template that the organization can use. The email has
 two attachments: an invoice and a .csv file. The .csv file contains only the
 enrollment codes and their associated URLs. It does not contain additional
 information about your course or the transaction.

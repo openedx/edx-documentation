@@ -5,14 +5,18 @@ Enrollment
 ##########################
 
 Learners can enroll themselves in a course during its defined enrollment
-period. For a ``www.edx.org`` course, enrollment is publicly available to
+period. For a course running on `edx.org`_, enrollment is publicly available to
 anyone who registers an edX account. For other courses, such as those on
-``edge.edx.org``, enrollment is limited to learners who know the course URL
+`edx Edge`_, enrollment is limited to learners who know the course URL
 and learners you explicitly enroll.
 
 The course creator and course team members with the Staff and Admin roles can
 enroll learners in a course. These course team members can also unenroll
 learners.
+
+.. contents::
+  :local:
+  :depth: 1
 
 .. Feature availability on the instructor dash applies to open edX installations only.
 .. DOC-2218 A. Hodges 24 Aug 2015
@@ -23,10 +27,6 @@ learners.
   from Insights. For more information, see :ref:`Report Learners Not Yet
   Enrolled`.
 
-.. contents::
-  :local:
-  :depth: 1
-
 .. Feature has been turned off for edx.org and Edge (the data is available in Insights instead).
 .. DOC-2218 A. Hodges 24 Aug 2015
 
@@ -35,7 +35,7 @@ learners.
   Data about course enrollment is available from edX Insights. You can access
   Insights from the Instructor Dashboard for your live course: after you select
   **Instructor**, follow the link in the banner at the top of each page. For
-  more information, see `Using edX Insights`_.
+  more information, see :ref:`insights:Using edX Insights`.
 
 .. _registration_enrollment:
 
@@ -102,7 +102,7 @@ When you enroll people in a course, you have the following options.
   **Notify students by email** were selected.
 
   .. image:: ../../../shared/building_and_running_chapters/Images/Course_Enrollment_Email.png
-        :alt: Email message inviting a student to enroll in an edx.org course
+        :alt: Email message inviting a student to enroll in an edx.org course.
 
 *********************************
 Enroll Learners in a Course
@@ -112,7 +112,7 @@ To enroll learners or course team members, follow these steps.
 
 #. View the live version of your course.
 
-#. Select **Instructor**, and then select **Membership**. 
+#. Select **Instructor**, and then select **Membership**.
 
 #. In the **Batch Enrollment** section of the page, enter the username or email
    address of the learner, or enter multiple names or addresses separated by
@@ -134,7 +134,7 @@ See :ref:`Student Data`.
 
 .. only:: Open_edX
 
-  .. note:: If your course has a fee, and an organization wants to purchase 
+  .. note:: If your course has a fee, and an organization wants to purchase
     enrollment for multiple seats in your course at one time, you can create
     enrollment codes for the organization. The organization then distributes
     these enrollment codes to its learners to simplify the enrollment process.
@@ -192,11 +192,11 @@ information, see :ref:`Scheduling Your Course`.
    learner's state remains in the database and is reinstated if the learner
    does re-enroll.
 
-To unenroll learners, you supply the email addresses of enrolled learners. 
+To unenroll learners, you supply the email addresses of enrolled learners.
 
 #. View the live version of your course.
 
-#. Select **Membership**. 
+#. Select **Membership**.
 
 #. In the **Batch Enrollment** section of the page, enter a username or an
    email address, or multiple names or addresses separated by commas or new
@@ -208,9 +208,8 @@ To unenroll learners, you supply the email addresses of enrolled learners.
    .. note:: The **Auto Enroll** option has no effect when you select
      **Unenroll**.
 
-5. Select **Unenroll**. The course is no longer listed on the learners'
+#. Select **Unenroll**. The course is no longer listed on the learners'
    **Current Courses** dashboards, and the learners can no longer access the
    courseware or contribute to discussions or the wiki.
 
-
-.. _Using edX Insights: http://edx-insights.readthedocs.org/en/latest/
+.. include:: ../../../links/links.rst

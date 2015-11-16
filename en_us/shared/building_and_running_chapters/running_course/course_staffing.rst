@@ -4,9 +4,18 @@
 Staffing
 ##########################
 
-You can designate a team of people to help you run your course. Two roles are
-available to give team members access to additional options for working with
-students, grades, and other members of the staff.
+You can designate a team of people to help you run your course.
+
+.. contents::
+  :local:
+  :depth: 1
+
+**************************************
+About the Course Team Roles
+**************************************
+
+To give team members access to Studio, the Instructor Dashboard in the LMS, and
+Insights, you assign one of these course team roles to them.
 
 * Staff
 
@@ -32,11 +41,11 @@ Staff role or the Admin role.
 
 Team members with the **Staff** role can complete these tasks.
 
-* View the course before the Course Start Date. 
+* View the course before the Course Start Date.
 
-* Enroll and unenroll students.
+* Enroll and unenroll learners.
 
-* Access student grades.
+* Access learner grades.
 
 * See course HTML errors.
 
@@ -46,7 +55,7 @@ Team members with the **Admin** role have access to all of the same options for
 running the course as team members with the Staff role. They can also complete
 these tasks.
 
-* Reset student attempts to answer a question correctly.
+* Reset learner attempts to answer a question correctly.
 
 * Add and remove Staff.
 
@@ -57,12 +66,12 @@ these tasks.
 * Add and remove Discussion Admins, Discussion Moderators, and Discussion
   Community TAs.
 
-  .. note:: To moderate course discussions, team members must have one 
+  .. note:: To moderate course discussions, team members must have one
    of these discussion roles assigned to them *in addition to* the Staff or
    Admin role. For more information, see :ref:`Assigning_discussion_roles`.
 
 *************************
-Assign Course Team Roles 
+Assign Course Team Roles
 *************************
 
 Before you can assign the Staff or Admin role to a team member, you must meet
@@ -70,7 +79,7 @@ these prerequisites.
 
 * You must have the Admin role.
 
-* You need the email address or username of each team member you want to add. 
+* You need the email address or username of each team member you want to add.
 
 * Each of those team members must register a user account for that email
   address or username, activate the account, and enroll in your course.
@@ -88,4 +97,3 @@ To assign a privileged role to a course team member, follow these steps.
 
 To remove an assigned role, view the list of users and then select **Revoke
 access**.
-

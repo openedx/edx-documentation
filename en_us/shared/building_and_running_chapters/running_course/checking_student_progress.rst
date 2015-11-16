@@ -25,12 +25,11 @@ As you prepare for the end of your course, you can send learners a :ref:`course
 farewell<Course Farewell and Certificates>` email message.
 
 To assign a final grade to each learner enrolled in a course, you generate
-grades after the **Course End Date** and **Time** have passed. See
-:ref:`Access_grades`.
- 
+grades after the **Course End Date** and **Time** have passed. For more
+information, see :ref:`Access_grades`.
+
 The learner's final grade and the grading configuration you set in Studio are
 used to determine whether the learner has earned a certificate for the course.
-
 
 ****************************************
 On-Demand Certificates
@@ -103,7 +102,6 @@ setting in Studio.
    Be sure that you include the double quotation marks.
 
 #. Select **Save Changes**.
-
 
 ***********************
 Generate Certificates

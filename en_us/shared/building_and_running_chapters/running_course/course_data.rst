@@ -5,8 +5,24 @@ Course Data
 ############################
 
 After you create a course in Studio, you can access information about it from
-the Instructor Dashboard. On the Course Info page, you can find the following
-information.
+the Instructor Dashboard.
+
+.. contents::
+  :local:
+  :depth: 1
+
+Additional data about the course and its learners is available from other pages
+in the Instructor Dashboard, and from edX Insights.
+
+To access the data visualizations, metrics, and reports of Insights from the
+Instructor Dashboard, select the link in the banner at the top of each page.
+For more information, see :ref:`insights:Using edX Insights`.
+
+*************************************************
+Review Course Data
+*************************************************
+
+On the Course Info page, you can find the following information.
 
 * Identifying information about the course.
 
@@ -16,18 +32,7 @@ information.
 
 * The defined grade cutoff for passing or failing.
 
-Additional data about the course and its learners is available from other pages
-in the Instructor Dashboard, and from edX Insights.
-
-You can also access Insights from the Instructor Dashboard: select the link in
-the banner at the top of each page. For more information, see `Using edX
-Insights`_.
-
-*************************************************
-Review Course Data
-*************************************************
-
-To view course data, follow these steps.
+To view this course data, follow these steps.
 
 #. View the live version of your course.
 
@@ -57,7 +62,7 @@ Studio, or derived from data that you define in Studio.
   labeled **Course Run**.
 
 * **Course Display Name**: Specified in Studio when you create the course. In
-  Studio, this field is labeled **Course Name**. 
+  Studio, this field is labeled **Course Name**.
 
   This name can be changed in Studio (not recommended if your course is live):
   From the **Settings** menu select **Advanced Settings**. The value for the
@@ -92,9 +97,6 @@ Studio, or derived from data that you define in Studio.
   or other settings that affect whether learners have access to the sections.
 
 * **Grade Cutoffs**: Specified in Studio when you define the cutoff for a
-  failing grade. Students who earn exactly the cutoff value pass the course.
-  Grading can be changed in Studio (not recommended if your course is live). For more information, see :ref:`Set the Grade Range`.
-
-
-
-.. _Using edX Insights: http://edx-insights.readthedocs.org/en/latest/
+  failing grade. Learners who earn exactly the cutoff value pass the course.
+  Grading can be changed in Studio (not recommended if your course is live).
+  For more information, see :ref:`Set the Grade Range`.

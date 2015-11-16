@@ -30,7 +30,6 @@ Cohorts`.
    Discussion Forum Before?" post that includes the information you think will
    be most useful to them.
 
-
 .. _Overview_discussions:
 
 ********************************
@@ -472,8 +471,8 @@ discussion.
   **Close** to close it.
 
 * Provide post/response/comment guidelines. You can post information from the
-  :ref:`overview<Overview_discussions>` in this chapter, or the :ref:`anatomy
-  of edX discussions<Anatomy of edX Course Discussions>` in the next chapter,
+  :ref:`overview<Overview_discussions>` in this section, or the :ref:`anatomy
+  of edX discussions<Anatomy of edX Course Discussions>` in the next section,
   in a course-wide discussion topic (such as General) to provide guidance about
   when to start a new thread by adding a post, responding to an existing post,
   or commenting on a response.
@@ -531,8 +530,8 @@ username on the **Active Threads** page, and the learner's profile page.
       that learner's active threads page in the course discussions, and an
       image of the learner's profile.
 
-For more information, or to create your own profile, see :ref:`SFD Profile
-Page`.
+For more information, or to create your own profile, see
+:ref:`openlearners:SFD Dashboard Settings Profile`.
 
 ========================================
 Provide Guidelines for Learners
@@ -543,7 +542,7 @@ them available to learners as a course handout file or on a defined page in
 your course. These guidelines can define your expectations and optionally
 introduce features of edX discussions.
 
-You can also share the :ref:`Discussions for Students and Staff` chapter with
+You can also share the :ref:`Discussions for Students and Staff` section with
 your learners. It describes features that are available to all discussion
 participants, and may be useful to learners who are new to online discussion
 forums.
@@ -755,7 +754,7 @@ Start-End Date Format Specification
 =====================================
 
 To close course discussions, you supply a start date and time and an end date
-and time in Studio. You enter the values in this format:
+and time in Studio. You enter the values in the following format.
 
 ``["YYYY-MM-DDTHH:MM", "YYYY-MM-DDTHH:MM"]``
 
@@ -764,7 +763,7 @@ where:
 * The dates and times that you enter are in Coordinated Universal Time (UTC),
   not in your local time zone. You might want to verify that you have specified
   the times that you intend by using a time zone converter such as `Time and
-  Date Time Zone Converter`_
+  Date Time Zone Converter`_.
 
 * You enter an actual letter **T** between the numeric date and time values.
 
@@ -841,5 +840,3 @@ course discussions are closed (or open), see :ref:`Example Messages to
 Students`.
 
 .. include:: ../../../links/links.rst
-
-

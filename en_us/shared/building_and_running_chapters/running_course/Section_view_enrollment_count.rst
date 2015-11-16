@@ -19,7 +19,7 @@ computed.
   course team members. It is not a historical count of everyone who has ever
   enrolled in the course.
 
-  .. note:: Learners can unenroll from courses, and course Admins and Staff 
+  .. note:: Learners can unenroll from courses, and course Admins and Staff
    can unenroll learners when necessary.
 
 The total number of current enrollees is shown as the sum of the number of
@@ -30,9 +30,8 @@ To view the enrollment count for a course, follow these steps.
 
 #. View the live version of your course.
 
-#. Select **Instructor**, and then select **Course Info** if necessary. 
+#. Select **Instructor**, and then select **Course Info** if necessary.
 
    The **Enrollment Information** section of the page that opens shows the
    number of people who are currently enrolled in your course and in each of
    the certification tracks.
-

@@ -7,7 +7,7 @@ Learner Data
 You can access data about the individuals who are enrolled in your course at
 any time after you create the course.
 
-.. contents:: 
+.. contents::
   :local:
   :depth: 2
 
@@ -57,7 +57,7 @@ of birth, and highest level of education completed. Because this information is
 optional, not all of the learners who are enrolled in your course provide it.
 
 After learners create an account, they can enroll in as many individual courses
-as they choose. 
+as they choose.
 
 * The learner data that is available from the Instructor Dashboard reflects the
   set of live, current enrollments. Data for the course team, wha are also
@@ -117,7 +117,7 @@ team member and the following columns.
      - For courses that include learner cohorts, reports the cohort group that
        is assigned to each learner.
 
-.. note:: The columns for language and location that are included in this 
+.. note:: The columns for language and location that are included in this
  report are present for backward compatibility only. This data is no longer
  collected during account creation. Selections that learners make for language
  and country on the **Account Settings** page are not included on this report.
@@ -142,31 +142,31 @@ To download learner data, follow these steps.
 
 #. Select **Instructor**, and then select **Data Download**.
 
-#. To download data about enrolled learners in a CSV file, select **Download
+#. To download data about enrolled learners in a .csv file, select **Download
    profile information as a CSV**.
 
-  A status message indicates that report generation is in progress. The number
-  of learners enrolled in your course, and whether your course has the cohort
-  feature enabled, affect how long this process takes. This process can take
-  some time to complete, but you can navigate away from this page and do other
-  work while it runs.
+   A status message indicates that report generation is in progress. The number
+   of learners enrolled in your course, and whether your course has the cohort
+   feature enabled, affect how long this process takes. This process can take
+   some time to complete, but you can navigate away from this page and do other
+   work while it runs.
 
-  To track the progress of the report process, reload the page in your browser
-  and scroll down to the **Pending Tasks** section.
+   To track the progress of the report process, reload the page in your browser
+   and scroll down to the **Pending Tasks** section.
 
-4. To open or save a student profile report, select the
+#. To open or save a student profile report, select the
    ``{course_id}_student_profile_info_{date}.csv`` file name at the bottom of
    the page.
 
-  All learner-supplied data is included in this file without truncation. For
-  more information, see :ref:`Columns in the Student Profile Report`.
+   All learner-supplied data is included in this file without truncation. For
+   more information, see :ref:`Columns in the Student Profile Report`.
 
 View Learner Data
 ***********************
 
 To view learner data, follow these steps.
 
-.. note:: This option is available only for courses with an enrollment of less 
+.. note:: This option is available only for courses with an enrollment of less
  than 200.
 
 #. View the live version of your course.
@@ -174,7 +174,7 @@ To view learner data, follow these steps.
 #. Select **Instructor**, and then select **Data Download**.
 
 #. To display data about enrolled learners, select **List enrolled students'
-   profile information**. 
+   profile information**.
 
    A table of profile data displays, with one row for each enrolled learner.
    Longer values, such as goals, are truncated. For more information, see
