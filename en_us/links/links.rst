@@ -309,12 +309,9 @@
 
 .. _edX roadmap: https://open.edx.org/features-roadmap/all
 
-
-
 .. _MathJax 2.4: http://docs.mathjax.org/en/latest/whats-new-2.4.html#whats-new-2-4
 
 .. _MathJax 2.3: http://docs.mathjax.org/en/latest/whats-new-2.3.html#whats-new-2-3
-
 
 
 .. _Open edX wiki page for Dogwood: https://openedx.atlassian.net/wiki/display/OPEN/Dogwood
@@ -322,3 +319,22 @@
 .. _Open edX Conference: http://con.openedx.org/
 
 .. _Registration: http://www.eventbrite.com/e/open-edx-con-2015-tickets-17211056734?aff=relnotes
+
+.. _Django 1.5: https://docs.djangoproject.com/en/1.8/releases/1.5
+
+.. _Django 1.6: https://docs.djangoproject.com/en/1.8/releases/1.6
+
+.. _Django 1.7: https://docs.djangoproject.com/en/1.8/releases/1.7
+
+.. _Django 1.8: https://docs.djangoproject.com/en/1.8/releases/1.8
+
+.. _Django website: https://www.djangoproject.com
+
+.. _Database Transactions: https://docs.djangoproject.com/en/1.8/topics/db/transactions
+
+.. _Django 1.8 Upgrade Release Notes: https://openedx.atlassian.net/wiki/display/TNL/Django+1.8+Upgrade+Release+Notes
+
+.. _Django 1.8 pull request: https://github.com/edx/edx-platform/pull/10401
+
+.. _app_label: https://docs.djangoproject.com/en/1.8/ref/models/options/#app-label
+
