@@ -387,7 +387,7 @@ option.
 The learner continues to try scoring the sample response until the learner's
 scoring for all criteria matches the scoring defined by the course team.
 
-For more information, see :ref:`PA Student Training Step`.
+For more information, see :ref:`PA Student Training`.
 
 .. _Peer Assessment Step:
 
