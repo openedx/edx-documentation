@@ -14,13 +14,13 @@ This section introduces XBlocks.
 Overview
 ***************
 
-The XBlock specification is a component architecture developped by edX to 
-make it easier to create new online educational experiences. While it was 
-created by an organization with a focus in education, the technology has applications
-for any web app that needs to use multiple independent components that are displayed on 
-a single web page. 
+The XBlock specification is a component architecture designed to 
+make it easier to create new online educational experiences. 
+XBlock was developed by edX, which has a focus in education, but the technology 
+can be used in web applications that need to use multiple independent 
+components and display those components on a single web page. 
 
-From edX's perspective, an XBlock developer 
+An XBlock developer 
 does not need to download and run the entire edx-platform developer stack 
 or to know anything about the technolgies that edX uses provide the XBlock 
 runtime. Instead, XBlock developers writing with edX in mind can work from the 
@@ -33,12 +33,13 @@ allowing an XBlock developer to control the display of other XBlocks to compose
 lessons, sections, and entire courses.
 
 *****************************
-XBlock Specification and Runtimes
+XBlock API and Runtimes
 *****************************
 
-A web-app can turn itself into an :ref:`XBlock runtime<XBlock Runtimes>` by 
-implementing the XBlock specification. XBlock runtimes can compose web 
-pages out of XBlocks that were developped by programmers who do not need 
+Any web application can be an :ref:`XBlock runtime<XBlock Runtimes>` by 
+implementing the XBlock API. Note that the XBlock API is not a RESTful API.
+XBlock runtimes can compose web 
+pages out of XBlocks that were developed by programmers who do not need 
 to know anything about the other components a web page might be using or 
 displaying. 
 
@@ -65,6 +66,12 @@ edX Platform`.
 ***********************
 XBlocks for Developers
 ***********************
+
+Developers can select from functionality developed by the openedX community by 
+installing an XBlock on their instance of openedX. Developers can integrate 
+new or propriety functionality for use in XBlock runtimes by developing a 
+new XBlock using the supported XBlock API.
+
 
 XBlocks are like miniature web applications: they maintain state in a storage
 layer, render themselves through views, and process user actions through
