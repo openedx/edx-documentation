@@ -4,11 +4,17 @@
 Open edX
 ####################################
 
-The following information describes what is new in Open edX. 
+The following information describes what is new in Open edX.
 
 .. contents::
   :local:
   :depth: 1
+
+******************
+17 November 2015
+******************
+
+.. include:: 2015/openedx/openedx_1117_2015.rst
 
 ******************
 27 October 2015
@@ -73,7 +79,7 @@ The following information describes what is new in Open edX.
 ******************
 
 .. include:: 2015/openedx/openedx_0128_2015.rst
-   
+
 
 
 .. include:: ../../links/links.rst
