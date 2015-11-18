@@ -6,8 +6,7 @@ Running Your Course
 
 .. toctree::
    :maxdepth: 2
-   
-   course_staffing
+
    course_enrollment
    discussions
    discussions_students

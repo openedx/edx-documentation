@@ -1,10 +1,10 @@
-.. _Setting up Your Course Index:
+.. _Building Course Index:
 
 ##########################
-Setting Up Your Course
+Building Your Course
 ##########################
 
-Use the topics in this section to create and build your course.
+Use the topics in this section to build your course.
 
 For information on how to develop your course content in the Studio Outline,
 see :ref:`Developing Your Course Index`.
@@ -12,17 +12,11 @@ see :ref:`Developing Your Course Index`.
 .. toctree::
    :maxdepth: 2
 
-   creating_new_course
-   scheduling_course
-   setting_up_student_view
-   licensing_course
    course_files
    handouts_updates
    pages
    textbooks
    establish_grading_policy
-   creating_course_certificates
    credit_courses/index
    course_rerun
    export_import_course
-   lti/index

@@ -17,6 +17,7 @@ Building and Running an edX Course
    getting_started/index
    reaching_learners/index
    accessibility/index
+   set_up_course/index
    building_course/index
    developing_course/index
    creating_content/index
