@@ -22,7 +22,7 @@ components and display those components on a single web page.
 
 An XBlock developer 
 does not need to download and run the entire edx-platform developer stack 
-or to know anything about the technolgies that edX uses provide the XBlock 
+or to know anything about the technologies that edX uses provide the XBlock 
 runtime. Instead, XBlock developers writing with edX in mind can work from the 
 xblock-sdk and deploy their work on any platform that is compatible with XBlocks. 
 
@@ -67,8 +67,8 @@ edX Platform`.
 XBlocks for Developers
 ***********************
 
-Developers can select from functionality developed by the openedX community by 
-installing an XBlock on their instance of openedX. Developers can integrate 
+Developers can select from functionality developed by the Open edX community by 
+installing an XBlock on their instance of Open edX. Developers can integrate 
 new or propriety functionality for use in XBlock runtimes by developing a 
 new XBlock using the supported XBlock API.
 
