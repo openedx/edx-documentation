@@ -12,11 +12,6 @@ see :ref:`Developing Your Course Index`.
 .. toctree::
    :maxdepth: 2
 
-   course_files
-   handouts_updates
-   pages
-   textbooks
    establish_grading_policy
-   credit_courses/index
    course_rerun
    export_import_course

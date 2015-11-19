@@ -12,5 +12,12 @@ html_theme_path = ['../../_themes']
 
 html_favicon = '../../_themes/edx_theme/static/css/favicon.ico'
 
+tags.add('OLX')
+
+product = 'OLX'
+
+def setup(app):
+    app.add_config_value('product', '', True)
+
 # General information about the project.
 project = u'edX Open Learning XML Guide - Alpha Version'

@@ -12,7 +12,6 @@ Running Your Course
    discussions_students
    discussion_guidance_moderators
    bulk_email
-   course_wiki
    course_data
    course_student
    course_answers
