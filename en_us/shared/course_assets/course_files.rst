@@ -42,18 +42,18 @@ manager.
 *******************
 Upload a File
 *******************
- 
+
 You upload the files in Studio on the **Files & Uploads** page.
 
-.. note:: 
+.. note::
  Ensure that you obtain copyright permissions for files and images you upload
  to your course, and that you cite sources appropriately.
 
 To upload files:
- 
+
 #. Create or locate the file on your computer.
-   
-   .. note:: 
+
+   .. note::
     When URLs are generated for uploaded files, the file name becomes part of
     the URL and is visible to students when they access the file. Avoid using
     file names that contain information about the file contents that should not
@@ -64,7 +64,7 @@ To upload files:
 #. Select **Upload New File**.
 
 #. In the **Upload New File** dialog box, select **Choose File**.
-   
+
 #. In the **Open** dialog box, select one or more files to upload, then select
    **Open**.
 
@@ -99,13 +99,13 @@ Provide a link to the file or image from outside the course.
   from within your course.
 
 * Use the **Web URL** to:
-  
+
   * Add a file or image to a bulk email message in the LMS. For more
     information, see :ref:`Send_Bulk_Email`.
 
   * To provide a link to the file or image from outside the course.
 
-.. note:: 
+.. note::
   You can lock a file if you do not want anyone outside your course to view the
   file. When you lock a file, the web URL only allows file access to learners
   who are signed in to edX and enrolled in the course. For more information,
@@ -147,17 +147,17 @@ is visible. The list remains in the current sort order.
      - **File Types Include**
    * - Images
      - .gif, .ico, .jpg, .jpeg, .png, .tif, or .tiff
-   * - Documents 
+   * - Documents
      - .pdf, .txt, Microsoft Office and Open Office documents, presentations,
        or spreadsheets
    * - Other
      - Files not included in the other types, such as .html, .js, or .sjson
 
 To filter the list of files by type:
- 
+
 #. On the **Files & Uploads** page, select the **Type** column header.
 
-#. In the drop-down list, select the type of file that you want to view. 
+#. In the drop-down list, select the type of file that you want to view.
 
 The list refreshes to show only the type of file you selected, and the column
 header changes to reflect the type of file that you have filtered by.
@@ -186,12 +186,12 @@ You can navigate through the pages in these ways.
   Select the number to place your cursor in the field, then enter the page
   number you want to jump to.
 
-  .. image:: ../../../shared/building_and_running_chapters/Images/file_pagination.png
+  .. image:: ../../../shared/Images/file_pagination.png
    :width: 250
    :alt: Image showing page navigation on the Files & Uploads page.
 
 .. _Lock a File:
- 
+
 *******************
 Lock a File
 *******************
@@ -202,7 +202,7 @@ file by locking the file. When you lock a file, the web URL only allows
 learners who are enrolled in your course and signed in to edX to access the
 file.
 
-To lock a file, select the lock icon in the right column. 
+To lock a file, select the lock icon in the right column.
 
 .. _Delete a File:
 
@@ -213,7 +213,7 @@ Delete a File
 To delete a file, select the **x** icon in the row for file.  You are prompted
 to confirm the deletion.
 
-.. warning:: 
+.. warning::
   After you delete a file, links to the file from course content will be
   broken. You must update links to files that you need to delete.
- 
+

@@ -37,17 +37,17 @@ Add a Page
 ****************
 
 You can add pages to your course. Each page appears for learners in the
-navigation bar for your course. 
+navigation bar for your course.
 
 For example, the following navigation bar includes the default pages as well as
 the additional Course Schedule and Supplements & Instructor's blog pages.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/page_bar_lms.png
+.. image:: ../../../shared/Images/page_bar_lms.png
  :width: 600
  :alt: Image of the navigation bar in the LMS.
 
 You can create other pages for the grading policy, course slides, or any other
-purpose. More examples of pages you can add follow. 
+purpose. More examples of pages you can add follow.
 
 * A dynamic HTML calendar, using the template in :ref:`Code for Dynamic HTML
   Schedule`.
@@ -58,29 +58,29 @@ purpose. More examples of pages you can add follow.
    **Pages** opens. This page contains a list of the pages that appear in the
    navigation bar in your course.
 
-   .. image:: ../../../shared/building_and_running_chapters/Images/pages_page.png
+   .. image:: ../../../shared/Images/pages_page.png
     :width: 600
     :alt: Image of the Pages page.
 
 #. Select **Add a New Page**. A page with the title **Empty** is added to the
    list.
 
-   .. image:: ../../../shared/building_and_running_chapters/Images/pages_empty.png
+   .. image:: ../../../shared/Images/pages_empty.png
     :width: 600
     :alt: Image of the Pages page with a new Empty page.
 
-#. In the row for the new page, select **Edit**. The HTML editor opens.  
+#. In the row for the new page, select **Edit**. The HTML editor opens.
 
-   .. image:: ../../../shared/building_and_running_chapters/Images/pages_editor.png
+   .. image:: ../../../shared/Images/pages_editor.png
     :width: 600
     :alt: Image of the page editor.
 
-#. Enter content for your page. 
+#. Enter content for your page.
 
    For more information about using the editor, see :ref:`Options for Editing
    HTML Components`.
 
-   .. note:: 
+   .. note::
     If you copy text from another source and paste it into the HTML editor, be
     sure to proofread the result carefully. Some applications automatically
     change quotation marks and apostrophes from the "straight" version to the
@@ -90,7 +90,7 @@ purpose. More examples of pages you can add follow.
 #. Select **Settings** to edit the **Display Name**. The display name is the
    name of the page visible to learners in the course.
 
-#. Select **Save**. 
+#. Select **Save**.
 
 The new page is immediately available to learners if the course has started.
 
@@ -107,17 +107,17 @@ details, see :ref:`Course_Wiki`.
 If you do not want to use a wiki in your course, you can hide the page.
 
 In the **Pages** list, the eye icon that appears next to the **Wiki** page
-indicates that the wiki is visible in your course. 
+indicates that the wiki is visible in your course.
 
 Select the eye icon to hide the **Wiki** page. The icon changes as shown in
 this example.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/pages_wiki_off.png
+.. image:: ../../../shared/Images/pages_wiki_off.png
  :alt: Image of the Pages page with the Wiki made visible
 
 Select it again to make the **Wiki** page visible.
 
-.. note:: Content remains in the wiki when you hide the page. For example, 
+.. note:: Content remains in the wiki when you hide the page. For example,
  if a student bookmarks a wiki topic, then you hide the **Wiki** page, the
  student can still use the bookmark to access that wiki topic. All content that
  was previously posted in the wiki remains available after you hide the wiki
@@ -149,7 +149,7 @@ Delete a Page
 To delete a page that you previously added, select the trash can icon in the
 row for the page. You are prompted to confirm the deletion.
 
-.. note:: 
+.. note::
   You cannot delete the **Courseware**, **Course Info**, **Discussion**, or
   **Progress** pages. You can hide the course **Wiki** page.
 
@@ -162,7 +162,7 @@ Code for Dynamic HTML Schedule
 You can use the following code in a page to provide a dynamic HTML schedule in
 your course.
 
-.. note:: 
+.. note::
   Paste the following code into the page using either :ref:`the visual editor
   <Work with HTML code>` or the :ref:`raw HTML editor <The Raw HTML Editor>`.
   Do not paste the code directly into the visual editor.
@@ -179,18 +179,18 @@ your course.
   		<col width="10%">
   		<col width="15%">
   		<col width="10%">
-  
+
 	<!-- Headings -->
  		 <thead>
     			<td class="day"> Wk of </td>
    			<td class="topic"> Topic </td>
    			<td class="reading"> Read </td>
-    			<td class="video"> Lecture Sequence </td>	
+    			<td class="video"> Lecture Sequence </td>
     			<td class="slides"> Slides </td>
     			<td class="assignment"> HW/Q </td>
 			<td class="due"> Due </td>
   		</thead>
-  
+
 	<!-- Week 1 Row 1 -->
  		 <tr class="first">
    			<td class="day">10/22</td>
@@ -201,7 +201,7 @@ your course.
     			<td class="assignment"><a href="#">HW 1</a></td>
     			<td class="due">11/04</td>
   		</tr>
-  
+
 	<!-- Week 1 Row 2 -->
     		<tr>
     			<td class="day"> </td>
@@ -214,7 +214,7 @@ your course.
   		</tr>
 
    		 <tr> <td class="week_separator" colspan=7> <hr/> </td> </tr>
-  
+
 	<!-- Week 2 Row 1 -->
  		 <tr>
     			<td class="day">10/29</td>
@@ -225,7 +225,7 @@ your course.
     			<td class="assignment"><a href="#">Quiz 1</a></td>
     			<td class="due">11/11</td>
  		 </tr>
-  
+
 	<!-- Week 2 Row 2 -->
  		<tr>
   			<td class="day"></td>
@@ -237,7 +237,7 @@ your course.
     			<td class="due"></td>
   		</tr>
   		<tr> <td class="week_separator" colspan=7> <hr/> </td> </tr>
-  
+
 	<!-- Week 3 Row 1 -->
   		<tr>
     			<td class="day">11/05</td>
@@ -248,7 +248,7 @@ your course.
     			<td class="assignment"><a href="#">HW 2</a></td>
     			<td class="due">11/18 </td>
   		</tr>
-  
+
 	<!-- Week 3 Row 2 -->
 		<tr>
     			<td class="day"> </td>
@@ -261,7 +261,7 @@ your course.
     			<td class="due"></td>
   		</tr>
   		<tr> <td class="week_separator" colspan=7> <hr/> </td> </tr>
-  
+
 	<!-- Week 4 Row 1 -->
   		<tr>
     			<td class="day">11/12</td>
@@ -272,7 +272,7 @@ your course.
     			<td class="assignment"><!--<a href="#">Quiz 2</a>-->Quiz 2</td>
     			<td class="due"> 11/25 </td>
   		</tr>
-  
+
 	<!-- Week 4 Row 2 -->
     		<tr>
     			<td class="day"></td>
@@ -284,7 +284,7 @@ your course.
     			<td class="due"></td>
   		</tr>
   		<tr> <td class="week_separator" colspan=7> <hr/> </td> </tr>
-  
+
 	<!-- Week 5 Row 1 -->
   		<tr>
     			<td class="day">11/19</td>
@@ -295,7 +295,7 @@ your course.
     <			td class="assignment"><!--<a href="#">HW 3</a>-->HW 3</td>
     			<td class="due"> 12/02 </td>
   		</tr>
-  
+
 	<!-- Week 5 Row 2 -->
    		<tr>
     			<td class="day"></td>
@@ -307,7 +307,7 @@ your course.
     			<td class="due"></td>
   		</tr>
   		<tr> <td class="week_separator" colspan=7> <hr/> </td> </tr>
-  
+
 	<!-- Week 6 Row 1 -->
   		<tr>
     			<td class="day">11/26</td>
@@ -318,7 +318,7 @@ your course.
     			<td class="assignment"><!--<a href="#">HW 4</a>-->HW 4</td>
     			<td class="due">12/09</td>
   		</tr>
-  
+
 	<!-- Week 6 Row 2 -->
     		<tr>
 			<td class="day"> </td>

@@ -4,9 +4,9 @@
 Textbooks
 ###########################
 
-You can add PDF textbooks to your course.  
+You can add PDF textbooks to your course.
 
-.. note:: 
+.. note::
  Do not use image files (for example, .png files) as textbooks for your course,
  as they are not accessible to screen readers. For more information, review
  :ref:`Creating Accessible PDFs`.
@@ -20,7 +20,7 @@ textbook.
 When learners open the textbook page in the course, they can navigate
 the textbook by chapter.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/textbook_chapters.png
+.. image:: ../../../shared/Images/textbook_chapters.png
  :alt: Image of a textbook in a course.
  :width: 600
 
@@ -36,7 +36,7 @@ Add a Textbook
 
 #. On the **Content** menu, select **Textbooks**.
 
-#. Select either **Add your first textbook** or **New Textbook**. 
+#. Select either **Add your first textbook** or **New Textbook**.
 
 #. On the page that opens, enter the **Textbook Name**.
 
@@ -55,7 +55,7 @@ Add a Textbook
 Delete a Textbook
 *****************
 
-.. note:: 
+.. note::
    This method deletes the entire textbook. To delete an individual chapter,
    see :ref:`Delete a Chapter`.
 
@@ -87,7 +87,7 @@ Delete a Chapter
 #. On the textbook editing page, locate the chapter that you want to delete,
    and then select the X icon next to that chapter.
 
-   .. image:: ../../../shared/building_and_running_chapters/Images/DeleteChapter.png
+   .. image:: ../../../shared/Images/DeleteChapter.png
 	:width: 500
 	:alt: Textbook editing page with a callout for the X icon
 

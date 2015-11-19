@@ -6,7 +6,7 @@ Timed Exams
 
 This topic describes how to add and manage timed exams in your course.
 
-.. contents:: 
+.. contents::
   :local:
   :depth: 2
 
@@ -25,7 +25,7 @@ unsubmitted problems.
 Course teams can grant individual learners more time to complete problems in
 the subsection.
 
-.. note:: 
+.. note::
   Although you can configure an ungraded subsection to be timed, typically
   you would set a time limit on graded subsections, such as for mid-term or
   final exams.
@@ -58,14 +58,14 @@ Ensure that you have enabled timed exams in the course. Then follow these
 steps.
 
 #. :ref:`Develop the subsection <Developing Course Subsections>` as you would
-   any other subsection. 
+   any other subsection.
 
 #. Add :ref:`units <Developing Course Units>` and
    :ref:`components <Developing Course Components>` as needed.
 
 #. Select the **Configure** icon in the subsection box.
-   
-   .. image:: ../../../shared/building_and_running_chapters/Images/subsections-settings-icon.png
+
+   .. image:: ../../../shared/Images/subsections-settings-icon.png
     :alt: The subsection settings icon circled in the course outline.
     :width: 600
 
@@ -75,8 +75,8 @@ steps.
    Assignment Type and Due Date for a Subsection>`.
 
 #. In the **Additional Options** section of the dialog box, select **Timed**.
-   
-   .. image:: ../../../shared/building_and_running_chapters/Images/timed_exam_studio.png
+
+   .. image:: ../../../shared/Images/timed_exam_studio.png
     :alt: The subsection Timed Exam setting in Studio.
     :width: 600
 
@@ -88,39 +88,39 @@ steps.
    as HH:MM, where HH is hours and MM is minutes.
 
 #. Select **Save**.
-   
+
 *****************************************
 Grant Learners More Time for a Timed Exam
 *****************************************
 
 From the instructor dashboard, a course team member can grant a learner
-extra time to complete a timed exam. 
+extra time to complete a timed exam.
 
 #. View the live version of your course.
 
 #. Select **Instructor**, and then select **Special Exams**.
 
 #. Expand the **Allowance Section**.
-   
-   .. image:: ../../../shared/building_and_running_chapters/Images/inst_dash_special_exams.png
+
+   .. image:: ../../../shared/Images/inst_dash_special_exams.png
     :alt: The Allowance Section in the Instructor Dashboard.
     :width: 600
 
 #. Select **Add Allowance**.
-   
-   .. image:: ../../../shared/building_and_running_chapters/Images/   new_allowance.png
+
+   .. image:: ../../../shared/Images/new_allowance.png
     :alt: The Allowance Section in the Instructor Dashboard.
     :width: 400
 
 #. Select the subsection that contains the timed exam.
-   
+
 #. For **Allowance Type**, select **Additional Time (minutes)**.
-   
+
 #. In the **Value** field, enter the number of extra minutes that you are
    granting the learner.
 
    .. note:: Enter a whole number greater than 0.
 
 #. Enter the learner's **Username** or **Email**.
-   
+
 #. Select **Save**.

@@ -7,12 +7,12 @@ Adding Course Updates and Handouts
 You add course updates and identify handouts in Studio. Learners see the
 course updates and handouts on the **Course Info** page in your course.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/course_info.png
+.. image:: ../../../shared/Images/course_info.png
  :alt: The Course Info page as it appears to students, with a "Course Updates
        & News" section containing a dated post and a "Course Handouts" frame
        with a list of links.
 
-.. contents:: Section Contents 
+.. contents:: Section Contents
    :local:
    :depth: 1
 
@@ -23,11 +23,11 @@ Add a Course Update
 **********************
 
 You add updates to notify learners of upcoming exams or deadlines, changes in
-the course schedule, or to make other announcements. 
+the course schedule, or to make other announcements.
 
 To add a course update, follow these steps.
 
-#. From the **Content** menu, select **Updates**. 
+#. From the **Content** menu, select **Updates**.
 #. Select **New Update**.
 #. Enter your update in the HTML editor that opens.
 
@@ -37,14 +37,14 @@ To add a course update, follow these steps.
     the **Course Info** page. However, the update is visible to all enrolled
     learners as soon as you post it.
 
-.. note:: 
+.. note::
   If you copy text from another source and paste it into the HTML editor, be
   sure to proofread the result carefully. Some applications automatically
   change quotation marks and apostrophes from the "straight" version to the
   "smart" version. The HTML editor requires "straight" quotation marks and
   apostrophes.
 
-.. The following step allows installations that use the edX mobile apps to send a push notification to the app when an update is added. 
+.. The following step allows installations that use the edX mobile apps to send a push notification to the app when an update is added.
 .. Alison, DOC-1814, June 2015
 
 .. only:: Open_edX
@@ -77,7 +77,7 @@ easier.
 
 To identify a course handout, follow these steps.
 
-#. From the **Content** menu, select **Updates**. 
+#. From the **Content** menu, select **Updates**.
 #. In the **Course Handouts** panel, select **Edit**.
 #. In the editor that opens, use HTML formatting to add a link to the
    previously uploaded file. An example follows.

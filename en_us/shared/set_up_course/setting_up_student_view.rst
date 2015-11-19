@@ -26,17 +26,17 @@ The Course About Page
 
 The following example shows the course About page. Learners can see the
 About page before they enroll in the course, and may decide to enroll
-based on the content of the page. 
+based on the content of the page.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/about_page.png
+.. image:: ../../../shared/Images/about_page.png
  :alt: An image of the course About page.
  :width: 600
 
 You configure the contents of this page in Studio, as described in this topic.
 
-.. note:: Given the diversity of MOOC learners, be careful to clearly 
-   communicate the target audience, level, and prerequisites for your course. 
-   Aim for concrete, unambiguous words (for example, ``understand eigenvalue 
+.. note:: Given the diversity of MOOC learners, be careful to clearly
+   communicate the target audience, level, and prerequisites for your course.
+   Aim for concrete, unambiguous words (for example, ``understand eigenvalue
    decomposition`` rather than ``intermediate linear algebra``).
 
 
@@ -51,7 +51,7 @@ Courses** dashboard, with the course image. From the dashboard, a learner can
 open a course that has started. If the course has not started, the learner can
 see the start date, as explained in :ref:`Scheduling Your Course`.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/dashboard-course-start-and-end.png
+.. image:: ../../../shared/Images/dashboard-course-start-and-end.png
  :width: 600
  :alt: An image of two courses in the dashboard, with the start dates and
      times.
@@ -67,7 +67,7 @@ Learners see the description of your course on the course About page.
 For example, the course description is circled in the following course About
 page.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/about-page-course-description.png
+.. image:: ../../../shared/Images/about-page-course-description.png
  :alt: Image of a course summary with the description circled.
  :width: 600
 
@@ -80,14 +80,14 @@ page.
 #. Scroll down to the **Introducing Your Course** section, then locate the
    **Course Overview** field.
 
-   .. image:: ../../../shared/building_and_running_chapters/Images/course_overview.png
+   .. image:: ../../../shared/Images/course_overview.png
     :alt: Image of the HTML course description.
     :width: 600
 
 #. Overwrite the content as needed for your course, following the directions in
    the boilerplate text. Do not edit HTML tags. For a template that includes
    placeholders, see :ref:`A Template For Course Overview`.
- 
+
 #. Select **your course summary page** in the text beneath the field to test
    how the description will appear to learners.
 
@@ -109,7 +109,7 @@ dimensions so that the image appears correctly on the dashboard.
 In the following example, the course image that was added in Studio is circled
 in the dashboard.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/dashboard-course-image.png
+.. image:: ../../../shared/Images/dashboard-course-image.png
  :alt: Image of the course image in the dashboard.
  :width: 600
 
@@ -125,7 +125,7 @@ in the dashboard.
 
 #. View your dashboard to test how the image will appear to learners.
 
-.. note:: 
+.. note::
   On edX.org, the course image you add in Studio is used on the learner
   dashboard, but does not automatically appear on the course About page. Work
   directly with your edX Partner Manager to set up the About page assets and
@@ -142,7 +142,7 @@ The course video appears on the course About page.
 In the following example, the course video is circled in the course About
 page:
 
-.. image:: ../../../shared/building_and_running_chapters/Images/about-page-course-video.png
+.. image:: ../../../shared/Images/about-page-course-video.png
  :alt: Image of the course video in the course summary page.
  :width: 600
 
@@ -166,9 +166,9 @@ Specifications` and :ref:`Video Formats` guidelines as course content videos.
    between **watch?v =** and **&feature** in the URL. This code appears in the
    green box below.
 
-   .. image:: ../../../shared/building_and_running_chapters/Images/image127.png
+   .. image:: ../../../shared/Images/image127.png
     :alt: Image of a sample course video.
-    
+
 #. From the **Settings** menu, select **Schedule & Details**.
 
 #. Scroll down to the **Course Introduction Video** section.
@@ -182,7 +182,7 @@ Specifications` and :ref:`Video Formats` guidelines as course content videos.
 
 #. View your course About page to test how the video will appear to learners.
 
-.. note:: 
+.. note::
   On edX.org, you work directly with your Partner Manager to set up the course
   video in the summary page.
 
@@ -192,7 +192,7 @@ Specifications` and :ref:`Video Formats` guidelines as course content videos.
 Set Course Effort Expectations
 *******************************
 
-The estimated effort the course requires appears in the course About page. 
+The estimated effort the course requires appears in the course About page.
 
 You set the hours and minutes a week estimate in Studio.
 
@@ -222,21 +222,21 @@ Replace the placeholders in the following template with your information.
 
   <section class="about">
     <h2>About This Course</h2>
-    <p>Include your long course description here. The long course description 
+    <p>Include your long course description here. The long course description
     should contain 150-400 words.</p>
-    <p>This is paragraph 2 of the long course description. Add more paragraphs 
+    <p>This is paragraph 2 of the long course description. Add more paragraphs
     as needed. Make sure to enclose them in paragraph tags.</p>
   </section>
   <section class="prerequisites">
     <h2>Requirements</h2>
-    <p>Add information about the skills and knowledge students need to take 
+    <p>Add information about the skills and knowledge students need to take
     this course.</p>
   </section>
   <section class="course-staff">
     <h2>Course Team</h2>
     <article class="teacher">
       <div class="teacher-image">
-        <img src="/static/images/placeholder-faculty.png" align="left" 
+        <img src="/static/images/placeholder-faculty.png" align="left"
         style="margin:0 20 px 0" alt="Course Team Image #1">
       </div>
       <h3>Team Member #1</h3>
@@ -244,7 +244,7 @@ Replace the placeholders in the following template with your information.
     </article>
     <article class="teacher">
       <div class="teacher-image">
-        <img src="/static/images/placeholder-faculty.png" align="left" 
+        <img src="/static/images/placeholder-faculty.png" align="left"
         style="margin:0 20 px 0" alt="Course Team Image #2">
       </div>
       <h3>Team Member #2</h3>
@@ -256,8 +256,8 @@ Replace the placeholders in the following template with your information.
       <h2>Frequently Asked Questions</h2>
       <article class="response">
         <h3>Do I need to buy a textbook?</h3>
-        <p>No, a free online version of Chemistry: Principles, Patterns, and 
-        Applications, First Edition by Bruce Averill and Patricia Eldredge 
+        <p>No, a free online version of Chemistry: Principles, Patterns, and
+        Applications, First Edition by Bruce Averill and Patricia Eldredge
         will be available, though you can purchase a printed version (
         published by FlatWorld Knowledge) if you’d like.</p>
       </article>

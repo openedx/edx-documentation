@@ -19,7 +19,7 @@ For more information, see the following other topics about certificates.
 * :ref:`Checking Student Progress and Issuing Certificates`
 
 .. _Overview:
-  
+
 ***********
 Overview
 ***********
@@ -80,7 +80,7 @@ Create a Certificate
 
 You create one certificate for each course mode, or track. For example, if your
 course has an "honor code" track and a "verified track", you must create two
-certificates. 
+certificates.
 
 To create a certificate for your course, follow these steps.
 
@@ -90,7 +90,7 @@ To create a certificate for your course, follow these steps.
    new certificate**.
 
 #. Optionally, specify an alternative course title to use on the certificate
-   in the **Course Title Override** field. 
+   in the **Course Title Override** field.
 
    You might want to use a different title on your course certificates if, for
    example, the official course name is too long to fit on the certificate.
@@ -112,9 +112,9 @@ To create a certificate for your course, follow these steps.
 .. only:: Open_edX
 
    5. Optionally, upload an image file showing the signature of each signatory.
-      
+
       The image file must be a transparent .PNG file, 450px by 150px.
-      
+
 
 6. When you have finished creating your certificate, select **Create**.
 
@@ -131,7 +131,7 @@ To create a certificate for your course, follow these steps.
 Edit a Certificate
 ********************
 
-You can edit a certificate before it is activated. 
+You can edit a certificate before it is activated.
 
 .. only:: Open_edX
 
@@ -144,7 +144,7 @@ You can edit a certificate before it is activated.
   Contact your edX Partner Manager if you need to edit an activated
   certificate.
 
-.. caution:: 
+.. caution::
   As a best practice, do not make changes to certificates in a running course
   if it is possible that certificates have already been issued to learners,
   because different learners might be awarded certificates with different
@@ -197,9 +197,9 @@ example, the official course number is meaningful only within your institution.
 Delete a Certificate
 ***********************************
 
-You can delete a certificate that is not activated. 
+You can delete a certificate that is not activated.
 
-.. caution:: 
+.. caution::
   Do not delete a certificate after the course has started. A learner who has
   already earned a certificate will no longer be able to access it.
 
@@ -212,7 +212,7 @@ To delete a certificate, follow these steps.
 
 #. In the confirmation dialog, confirm that you want to delete the certificate.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/CertificateDeleteIcon.png
+.. image:: ../../../shared/Images/CertificateDeleteIcon.png
    :width: 500
    :alt: Top portion of the certificate form showing the delete icon in the upper right corner.
 
@@ -236,7 +236,7 @@ will appear to a learner taking the course in the selected mode.
    You see the web view for the certificate, as a learner in the selected
    course mode would see it.
 
-   .. image:: ../../../shared/building_and_running_chapters/Images/PreviewCertificate.png
+   .. image:: ../../../shared/Images/PreviewCertificate.png
      :width: 350
      :alt: The Preview button on the Certificates page in Studio.
 
@@ -270,7 +270,7 @@ Activate a Certificate
 
   #. On the Certificates page, select **Activate**.
 
-     .. image:: ../../../shared/building_and_running_chapters/Images/ActivateCertificate.png
+     .. image:: ../../../shared/Images/ActivateCertificate.png
        :width: 350
        :alt: The Activate button on the Certificates page in Studio.
 
@@ -285,7 +285,7 @@ Deactivate a Certificate
 ********************************************
 
 In some situations, after having made a certificate active, you
-might need to deactivate the certificate to make changes. 
+might need to deactivate the certificate to make changes.
 
 As a best practice, do not make changes to certificates in a running course if
 it is possible that certificates have already been issued to learners.
@@ -343,7 +343,7 @@ manually remove unused images. For information, see
   badges to a badging site such as Mozilla Backpack.
 
   The Open edX platform supports Open Badges, an open standard developed by the
-  Mozilla Foundation. For more information about Open Badges, see the 
+  Mozilla Foundation. For more information about Open Badges, see the
   `Open Badges web site <http://openbadges.org/>`_.
 
   If badging is enabled for your platform, badges are enabled by default for
