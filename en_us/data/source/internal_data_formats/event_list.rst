@@ -90,9 +90,13 @@ D, E, F
      - :ref:`forum_events`
    * - ``edx.forum.response.created``
      - :ref:`forum_events`
+   * - ``edx.forum.response.voted``
+     - :ref:`forum_events`
    * - ``edx.forum.searched``
      - :ref:`forum_events`
    * - ``edx.forum.thread.created``
+     - :ref:`forum_events`
+   * - ``edx.forum.thread.voted``
      - :ref:`forum_events`
    * - ``edx.googlecomponent.calendar.displayed``
      - :ref:`content`
