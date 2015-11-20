@@ -9,9 +9,9 @@ Poll Tool for OLX
 
 You can run polls in your course so that your students can share opinions on different questions.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/PollExample.png
+.. image:: ../../../shared/Images/PollExample.png
 
-.. note:: Creating a poll requires you to export your course, edit some of your course's XML files in a text editor, and then re-import your course. We recommend that you create a backup copy of your course before you create the poll. We also recommend that you only edit the files that will contain polls in the text editor if you're very familiar with editing XML. 
+.. note:: Creating a poll requires you to export your course, edit some of your course's XML files in a text editor, and then re-import your course. We recommend that you create a backup copy of your course before you create the poll. We also recommend that you only edit the files that will contain polls in the text editor if you're very familiar with editing XML.
 
 **************
 Terminology
@@ -52,7 +52,7 @@ Create a Poll
 
    - For information about how to do this on a Mac, see the `Mac OS X <http://www.ofzenandcomputing.com/how-to-open-tar-gz-files/#mac-os-x>`_ section of the `How to Open .tar.gz Files <http://www.ofzenandcomputing.com/how-to-open-tar-gz-files/>`_ page.
 
-#. In the list of folders and files, open the **Vertical** folder. 
+#. In the list of folders and files, open the **Vertical** folder.
 
    .. note:: If your unit is not published, open the **Drafts** folder, and then open the **Vertical** folder in the **Drafts** folder.
 
@@ -61,7 +61,7 @@ Create a Poll
    The file contains a list of all the components in the unit, together with the URL names of the components. For example, the following file contains an HTML component followed by a Discussion component.
 
    .. code-block:: xml
-     
+
        <vertical display_name="Test Unit">
         <html url_name="b59c54e2f6fc4cf69ba3a43c49097d0b"/>
         <discussion url_name="8320c3d511484f3b96bdedfd4a44ac8b"/>
@@ -70,7 +70,7 @@ Create a Poll
 #. Add the following poll code in the location where you want the poll. Change the text of the prompt to the text that you want.
 
    .. code-block:: xml
-      
+
     <poll_question display_name="Poll Question">
       <p>Text of the prompt</p>
       <answer id="yes">Yes</answer>
@@ -104,8 +104,8 @@ Create a Poll
 .. note::
 
   * Although polls render correctly in Studio, you cannot edit them in Studio. You will need to follow the export/import process outlined above to make any edits to your polls.
-  
-  * A .csv file that contains student responses to the problem is not currently available for polls. However, you can obtain the aggregate data directly in the problem.  
+
+  * A .csv file that contains student responses to the problem is not currently available for polls. However, you can obtain the aggregate data directly in the problem.
 
 *********************
 Format description

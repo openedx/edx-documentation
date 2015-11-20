@@ -42,7 +42,7 @@ submissions. When a learner enters Python code for the problem and selects
 tests, the grader returns the score and a string indicating that the solution
 is correct.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/external-grader-correct.png
+.. image:: ../../../shared/Images/external-grader-correct.png
  :alt: Image of a learner's view of a programming problem that uses an external grader, with a correct result.
  :width: 600
 
@@ -51,8 +51,8 @@ by selecting **See full output**. This can be particularly useful when the
 solution is not correct and you want to return information about the failed
 tests. For example:
 
-.. image:: ../../../shared/building_and_running_chapters/Images/external-grader-incorrect.png
- :alt: Image of a learner's view of a programming problem that uses an external grader, with an incorrect result 
+.. image:: ../../../shared/Images/external-grader-incorrect.png
+ :alt: Image of a learner's view of a programming problem that uses an external grader, with an incorrect result
 
 .. _External Graders and XQueue:
 
@@ -102,7 +102,7 @@ The XQueue Name
 ==================
 
 Your course will use a specific XQueue name. You use this name when you create
-problems in Studio. 
+problems in Studio.
 
 EdX partners who are using external graders should use the base URL
 ``https://xqueue.edx.org`` as the XQueue name.
@@ -121,7 +121,7 @@ The XQueue Interface
 The learner submission sent from XQueue to the grader, and the response sent
 from the grader to XQueue, are JSON objects, as described below.
 
-.. note:: 
+.. note::
   XQueue does not send the the learner ID to the external grader. Your grader
   cannot access IDs or associate learner IDs with submissions.
 
@@ -147,7 +147,7 @@ For example::
  {
    "xqueue_body":
    "{
-     "student_response": "def double(x):\n return 2*x\n", 
+     "student_response": "def double(x):\n return 2*x\n",
      "grader_payload": "problem_2"
     }"
  }
@@ -164,10 +164,10 @@ the tests create.
 In the following example, the learner's submission was correct, the score was
 1, and the tests created a brief message::
 
- { 
-  "correct": true, 
-  "score": 1, 
-  "msg": "<p>The code passed all tests.</p>" 
+ {
+  "correct": true,
+  "score": 1,
+  "msg": "<p>The code passed all tests.</p>"
  }
 
 .. _Building an External Grader:
@@ -291,7 +291,7 @@ Note the following details about the XML definition.
   for more information. You must use this exact name in order for the problem
   to communicate with the correct XQueue.
 
-  .. note:: 
+  .. note::
     For edX partners, the base URL that graders must access is
     ``https://xqueue.edx.org``.
 

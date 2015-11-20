@@ -9,10 +9,10 @@ Drag and Drop Problem
 In drag and drop problems, students respond to a question by dragging text or
 objects to a specific location on an image.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/DragAndDropProblem.png
+.. image:: ../../../shared/Images/DragAndDropProblem.png
  :alt: Image of a drag and drop problem
 
-.. note:: 
+.. note::
 
  * **Drag and drop problems are not accessible for learners with some
    disabilities, and they do not work correctly on mobile phones.** If you use
@@ -52,7 +52,7 @@ then create a Problem component.
    attribute with the text of the label you want students to drag. For example,
    if you want students to drag the word "Iceland" onto your image, the new tag
    would resemble the following:
-   
+
    ``<draggable id="1" label="Iceland"/>``
 
 8. Repeat the previous step for all the labels that you want to use. Make sure
@@ -75,7 +75,7 @@ then create a Problem component.
                 '1':    [[50, 50], 75]
                 '2':    [[550, 350], 75]}
 
-    .. note:: Make sure the code contains the closing curly brace (**}**). 
+    .. note:: Make sure the code contains the closing curly brace (**}**).
 #. Click **Save**.
 
 ==========================================
@@ -124,14 +124,14 @@ page, and then add the code for the problem to a Problem component.
         <target id="0" h="53" w="66" y="55.100006103515625" x="131.5"/>
         <target id="1" h="113" w="55" y="140.10000610351562" x="181.5"/>
       </drag_and_drop_input>
-      <answer type="loncapa/python"> 
-  correct_answer = [ 
-      {'draggables': ['2'], 'targets': ['0' ], 'rule':'unordered_equal' }, 
-      {'draggables': ['none'], 'targets': ['1' ], 'rule':'unordered_equal' }] 
-  if draganddrop.grade(submission[0], correct_answer): 
-      correct = ['correct'] 
-  else: 
-      correct = ['incorrect'] 
+      <answer type="loncapa/python">
+  correct_answer = [
+      {'draggables': ['2'], 'targets': ['0' ], 'rule':'unordered_equal' },
+      {'draggables': ['none'], 'targets': ['1' ], 'rule':'unordered_equal' }]
+  if draganddrop.grade(submission[0], correct_answer):
+      correct = ['correct']
+  else:
+      correct = ['incorrect']
       </answer>
     </customresponse>
     <solution>
@@ -150,7 +150,7 @@ Drag and Drop Problem XML
 
  <problem>
      <customresponse>
-         <p>Drag each word in the scrollbar to the bucket that matches the number of 
+         <p>Drag each word in the scrollbar to the bucket that matches the number of
          letters in the word.</p>
          <drag_and_drop_input img="https://studio.edx.org/c4x/edX/DemoX/asset/L9_buckets.png">
              <draggable id="1" label="a"/>
@@ -192,7 +192,7 @@ Drag and Drop Problem XML
      <customresponse>
          <p>Label the hydrogen atoms connected with the left carbon atom.</p>
          <drag_and_drop_input img="https://studio.edx.org/c4x/edX/DemoX/asset/ethglycol.jpg"
-         target_outline="true" one_per_target="true" no_labels="true" 
+         target_outline="true" one_per_target="true" no_labels="true"
          label_bg_color="rgb(222, 139, 238)">
              <draggable id="1" label="Hydrogen" />
              <draggable id="2" label="Hydrogen" />
@@ -248,11 +248,11 @@ Tags
      * - img (required)
        - Relative path to an image that will be the base image. All draggables
          can be dragged onto it.
-     * - target_outline 
+     * - target_outline
        - Specifies whether an outline (gray dashed line) should be drawn around
          targets (if they are specified). It can be either 'true' or 'false'.
          If not specified, the targets do not have outlines.
-     * - one_per_target 
+     * - one_per_target
        - Specify whether to allow more than one draggable to be placed onto a
          single target. It can be either 'true' or 'false'. If not specified,
          the default value is 'true'.
@@ -296,7 +296,7 @@ For the grader to work, each draggable must have a unique ID.
          multiple times.
 
   Children
-  
+
   (none)
 
 **Tag:** ``<target>``
@@ -440,7 +440,7 @@ Wrong (for draggable id 7)::
       'rule': 'anyof'
     }]
 
-The values for ``rule`` follow. 
+The values for ``rule`` follow.
 
 * ``exact``: Targets for draggable IDs in ``user_answer`` are the same as
   targets from the correct answer. For example, for draggables 7 and 8, the

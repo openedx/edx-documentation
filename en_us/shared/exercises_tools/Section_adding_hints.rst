@@ -4,7 +4,7 @@
 Adding Feedback and Hints to a Problem
 ***************************************
 
-You can add feedback, hints, or both to the following problem types. 
+You can add feedback, hints, or both to the following problem types.
 
 * :ref:`Checkbox`
 * :ref:`Dropdown`
@@ -14,18 +14,18 @@ You can add feedback, hints, or both to the following problem types.
 
 By using hints and feedback, you can provide learners with guidance and help as
 they work on problems.
-  
+
 ==========================================
 Feedback in Response to Attempted Answers
 ==========================================
 
-You can add feedback that is displayed to learners when they submit an answer. 
+You can add feedback that is displayed to learners when they submit an answer.
 
 For example, the following multiple choice problem provides feedback in
 response to the selected option when the learner selects **Check**. In this
 case, feedback is given for an incorrect answer.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/multiple_choice_feedback.png
+.. image:: ../../../shared/Images/multiple_choice_feedback.png
  :alt: Image of a multiple choice problem with feedback.
  :width: 600
 
@@ -62,14 +62,14 @@ multiple hints by selecting **Hint** multiple times.
 For example, in the following multiple choice problem, the learner selects
 **Hint** before attempting the answer.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/multiple_choice_hint.png
+.. image:: ../../../shared/Images/multiple_choice_hint.png
  :alt: Image of a multiple choice problem with the first hint.
  :width: 600
 
 The hint indicates that it is the first of two hints. The learner selects
 **Hint** a second time.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/multiple_choice_hint2.png
+.. image:: ../../../shared/Images/multiple_choice_hint2.png
  :alt: Image of a multiple choice problem with the second hint.
  :width: 600
 
@@ -82,9 +82,9 @@ levels of understanding, you should provide multiple hints with different
 levels of detail.
 
 For example, the first hint can orient the learner to the problem and help
-those struggling to better understand what is being asked.  
+those struggling to better understand what is being asked.
 
-The second hint can then take the learner further towards the answer. 
+The second hint can then take the learner further towards the answer.
 
 In problems that are not graded, the third and final hint can explain the
 solution for learners who are still confused.
@@ -100,7 +100,7 @@ While editing a unit, in the **Add New Component** panel, select **Problem**.
 In the list that opens, select the  **Common Problem Types** tab. Templates for
 problems with feedback and hints are listed.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/hints_feedback_problem_templates.png
+.. image:: ../../../shared/Images/hints_feedback_problem_templates.png
  :alt: Image of the templates with hints and feedback in Studio.
  :width: 600
 

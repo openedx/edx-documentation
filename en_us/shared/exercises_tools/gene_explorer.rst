@@ -6,7 +6,7 @@ Gene Explorer Tool
 
 .. note:: EdX offers provisional support for this tool.
 
-The Gene Explorer (GeneX), from the biology department at `UMB <http://www.umb.edu/>`_, simulates the transcription, splicing, processing, and translation of a small hypothetical eukaryotic gene. GeneX allows students to make specific mutations in a gene sequence, and it then calculates and displays the effects of the mutations on the mRNA and protein. 
+The Gene Explorer (GeneX), from the biology department at `UMB <http://www.umb.edu/>`_, simulates the transcription, splicing, processing, and translation of a small hypothetical eukaryotic gene. GeneX allows students to make specific mutations in a gene sequence, and it then calculates and displays the effects of the mutations on the mRNA and protein.
 
 Specifically, the Gene Explorer does the following:
 
@@ -17,7 +17,7 @@ Specifically, the Gene Explorer does the following:
 #. Finds the start codon
 #. Translates the mRNA
 
-.. image:: ../../../shared/building_and_running_chapters/Images/GeneExplorer.png
+.. image:: ../../../shared/Images/GeneExplorer.png
   :alt: Image of the Gene Explorer
 
 For more information about the Gene Explorer, see `The Gene Explorer <http://intro.bio.umb.edu/GX/>`_.
@@ -47,5 +47,5 @@ In this code:
 
 * **width** and **height** specify the dimensions of the application, in pixels.
 * **genex_dna_sequence** is the default DNA sequence that appears when the problem opens.
-* **dna_sequence** contains the application's state and the student's answer. This value must be the same as **genex_dna_sequence**. 
+* **dna_sequence** contains the application's state and the student's answer. This value must be the same as **genex_dna_sequence**.
 * **genex_problem_number** specifies the number of the problem. This number is based on the five gene editor problems in the MITx 7.00x course--for example, if you want this problem to look like the second gene editor problem in the 7.00x course, you would set the **genex_problem_number** value to 2. The number must be 1, 2, 3, 4, or 5.

@@ -15,7 +15,7 @@ include a link to a problem component that is part of an edX course. The
 problem is included as one of the course's assignments, and appears in Canvas
 like other content.
 
-.. image:: ../../../../shared/building_and_running_chapters/Images/lti_canvas_example.png
+.. image:: ../../../../shared/Images/lti_canvas_example.png
   :alt: An edX molecule builder problem shown as part of a course running on a
       Canvas system.
 
@@ -23,7 +23,7 @@ This section provides background information on different aspects of the
 experience that learners and course team members have when interacting with edX
 content in the context of an external LMS.
 
-.. contents:: 
+.. contents::
    :local:
    :depth: 1
 
@@ -48,9 +48,9 @@ Learner Identification and Single Sign On
 
 .. only:: Partners
 
-  .. note:: Different configuration options are available for how an external 
+  .. note:: Different configuration options are available for how an external
    LMS and edX Edge authenticate users. Your DevOps team is likely to have
-   additional information about the specific authentication process used by 
+   additional information about the specific authentication process used by
    your institution.
 
 Learners do not need to navigate to a different website, or sign in to any

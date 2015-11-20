@@ -35,7 +35,7 @@ to enrolled learners after the course ends.
 Learners who have not yet enrolled in your course see the course start date on
 the About page (sometimes also called the course summary page).
 
-.. image:: ../../../shared/building_and_running_chapters/Images/about-page-course-start.png
+.. image:: ../../../shared/Images/about-page-course-start.png
  :alt: The course About page, showing the start date.
  :width: 600
 
@@ -44,7 +44,7 @@ their dashboards, depending on whether the course has ended. If the course
 has not started or is in progress, learners see the start date. If the course
 has ended, learners see the course end date.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/dashboard-course-start-and-end.png
+.. image:: ../../../shared/Images/dashboard-course-start-and-end.png
  :alt: The student dashboard with one course not started, one in progress, and one ended.
  :width: 600
 
@@ -185,7 +185,7 @@ To set an advertised start date in Studio, follow these steps.
    as a date (for example, as 02/01/2015), the value is parsed and presented to
    learners as as a date.
 
-   .. image:: ../../../shared/building_and_running_chapters/Images/advertised_start.png
+   .. image:: ../../../shared/Images/advertised_start.png
      :alt: Image of the advertised start date policy key with a value of "anytime, self-paced".
      :width: 600
 

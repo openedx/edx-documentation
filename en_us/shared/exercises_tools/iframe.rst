@@ -11,7 +11,7 @@ Internet site into the body of your course. The IFrame appears inside an HTML
 component, and the exercise or tool appears inside the IFrame. IFrames can
 include your own tools or third-party tools.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/IFrame_1.png
+.. image:: ../../../shared/Images/IFrame_1.png
   :alt: IFrame tool showing a Euler line exercise
   :width: 500
 
@@ -132,7 +132,7 @@ elements below affect the IFrame.
 
       <p><iframe src="https://studio.edx.org/c4x/edX/DemoX/asset/eulerLineDemo.html" width="442" height="200" marginwidth="20" marginheight="20" frameborder="1" scrolling="yes">You need an iFrame capable browser to view this.</iframe></p>
 
-.. image:: ../../../shared/building_and_running_chapters/Images/IFrame_3.png
+.. image:: ../../../shared/Images/IFrame_3.png
    :alt: IFrame with only top half showing and vertical scroll bar on the side
    :width: 500
 
@@ -140,7 +140,7 @@ elements below affect the IFrame.
 
       <p><iframe src="https://studio.edx.org/c4x/edX/DemoX/asset/eulerLineDemo.html" width="550" height="250" marginwidth="30" marginheight="60" frameborder="1" scrolling="no">You need an iFrame capable browser to view this.</iframe></p>
 
-.. image:: ../../../shared/building_and_running_chapters/Images/IFrame_4.png
+.. image:: ../../../shared/Images/IFrame_4.png
    :alt:
    :width: 500
 

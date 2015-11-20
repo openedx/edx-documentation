@@ -18,7 +18,7 @@ student's grade, change the assignment type of the subsection that contains the
 problems.
 
 This section covers the basics of problem components: what they look like to
-you and your students, and the options that every problem component has. 
+you and your students, and the options that every problem component has.
 For more information, see the following topics.
 
 * `The Student View of a Problem`_
@@ -34,8 +34,8 @@ The Student View of a Problem
 
 All problems on the edX platform have several component parts.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/AnatomyOfExercise1.png
- :alt: Image of a problem from a student's point of view, with callouts for 
+.. image:: ../../../shared/Images/AnatomyOfExercise1.png
+ :alt: Image of a problem from a student's point of view, with callouts for
        elements of the problem
 
 #. **Problem text.** The problem text can contain any standard HTML formatting.
@@ -70,14 +70,14 @@ All problems on the edX platform have several component parts.
    for individual problems defaults to that number, and cannot be set to
    unlimited.
 
-   .. image:: ../../../shared/building_and_running_chapters/Images/AnatomyOfExercise2.png
-    :alt: Image of a problem from a student's point of view, with callouts for 
+   .. image:: ../../../shared/Images/AnatomyOfExercise2.png
+    :alt: Image of a problem from a student's point of view, with callouts for
           attempts and showing the answer
 
 #. **Feedback.** After a student clicks **Check**, all problems return a
    green check mark or a red X.
 
-   .. image:: ../../../shared/building_and_running_chapters/Images/AnatomyofaProblem_Feedback.png
+   .. image:: ../../../shared/Images/AnatomyofaProblem_Feedback.png
     :alt: Image of feedback checkmark and x from a student's point of view
 
 #. **Correct answer.** Most problems require that you specify
@@ -96,20 +96,20 @@ All problems on the edX platform have several component parts.
 
 #. **Hide Answer button.**
 
-   .. image:: ../../../shared/building_and_running_chapters/Images/AnatomyOfExercise3.png
+   .. image:: ../../../shared/Images/AnatomyOfExercise3.png
     :alt: Image of a problem in the left pane
 
 #. **Grading.** You can specify whether a group of problems
    is graded. If a group of problems is graded, a clock icon appears for
    that assignment in the left pane.
 
-   .. image:: ../../../shared/building_and_running_chapters/Images/clock_icon.png
+   .. image:: ../../../shared/Images/clock_icon.png
 
 #. **Due date.** The date that the problem is due. A problem that is
    past due does not have a **Check** button. It also does not accept
    answers or provide feedback.
 
-.. note:: Problems can be **open** or **closed.** Closed problems do not 
+.. note:: Problems can be **open** or **closed.** Closed problems do not
           have a **Check** button. Students can still see questions, solutions,
           and revealed explanations, but they cannot check their work, submit
           responses, or change an earlier score.
@@ -154,7 +154,7 @@ This setting indicates the name of your problem. This name appears as a
 heading above the problem and as a tooltip in the learning sequence at the top
 of the **Courseware** page.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/ProbComponent_LMS_DisplayName.png
+.. image:: ../../../shared/Images/ProbComponent_LMS_DisplayName.png
  :alt: Image of the problem in a unit page from a student's point of view
 
 The display name is also used in edX Insights reports.
@@ -162,7 +162,7 @@ The display name is also used in edX Insights reports.
 You set the display name as an attribute of the ``problem`` element.
 
 .. code-block:: xml
-  
+
   <problem display_name="Checkboxes" . . . >
 
 
@@ -177,14 +177,14 @@ problems is unlimited. If the course-wide **Maximum Attempts** setting is
 changed to a specific number, the **Maximum Attempts** setting for individual
 problems defaults to that number, and cannot be set to unlimited.
 
-.. note:: Only questions that have a **Maximum Attempts** setting of 1 or 
+.. note:: Only questions that have a **Maximum Attempts** setting of 1 or
  higher are included on the Student Answer Distribution report that you can
  download during your course.
 
 You set the maximum attempts as an attribute of the ``problem`` element.
 
 .. code-block:: xml
-  
+
   <problem max_attempts="3" . . . >
 
 
@@ -194,15 +194,15 @@ You set the maximum attempts as an attribute of the ``problem`` element.
 Problem Weight
 ==============================
 
-.. note:: The LMS stores scores for all problems, but scores only count 
+.. note:: The LMS stores scores for all problems, but scores only count
           toward a student's final grade if they are in a subsection that is
           graded.
 
 This setting specifies the maximum number of points possible for the
 problem. The problem weight appears next to the problem title.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/ProblemWeight_DD.png
- :alt: Image of a problem from a student's point of view, with the possible 
+.. image:: ../../../shared/Images/ProblemWeight_DD.png
+ :alt: Image of a problem from a student's point of view, with the possible
        points circled
 
 By default, each response field, or "answer space", in a problem component is
@@ -214,7 +214,7 @@ You set a different component weight as an attribute of the ``problem``
 element.
 
 .. code-block:: xml
-  
+
   <problem weight="2.0" . . . >
 
 Computing Scores
@@ -273,8 +273,8 @@ a different student accesses the problem, or each time a single student tries
 to answer the problem. For example, the highlighted values in the problem below
 change each time a student submits an answer to the problem.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/Rerandomize.png
- :alt: The same problem shown twice, with color highlighting on values that 
+.. image:: ../../../shared/Images/Rerandomize.png
+ :alt: The same problem shown twice, with color highlighting on values that
        can change
 
 If you want to change, or "randomize," specific values in your problem, you
@@ -283,9 +283,9 @@ have to do both of the following:
 * Make sure that your problem contains a Python script that randomizes the
   values that you want.
 
-* Enable randomization in the Problem component. 
+* Enable randomization in the Problem component.
 
-.. note:: Note that specifying this **Randomization** setting is different 
+.. note:: Note that specifying this **Randomization** setting is different
  from *problem randomization*. The **Randomization** setting randomizes
  variables within a single problem. Problem randomization offers different
  problems or problem versions to different students. For more information, see
@@ -317,7 +317,7 @@ This setting has the following options.
 You set value randomization as an attribute of the ``problem`` element.
 
 .. code-block:: xml
-  
+
   <problem rerandomize="always" . . . >
 
 .. note:: The edX Platform has a 20-seed limit for randomization.
@@ -389,7 +389,7 @@ This setting has the following options.
 You set the show answer preference as an attribute of the ``problem`` element.
 
 .. code-block:: xml
-  
+
   <problem showanswer="correct_or_past_due"  . . . >
 
 .. _Show Reset Button:
@@ -413,7 +413,7 @@ You set the show reset button preference as an attribute of the ``problem``
 element.
 
 .. code-block:: xml
-  
+
   <problem show_reset_button="true"  . . . >
 
 .. include:: ../../../shared/exercises_tools/Section_adding_hints.rst
@@ -426,7 +426,7 @@ element.
 Modifying a Released Problem
 *********************************
 
-.. warning:: Be careful when you modify problems after they have been 
+.. warning:: Be careful when you modify problems after they have been
  released! Changes that you make to published problems can affect the student
  experience in the course and analysis of course data.
 
@@ -494,7 +494,7 @@ student to be able to check the answers to many problems at one time. To do
 this, you can include multiple problems inside a single ``problem`` element.
 The problems can be different types.
 
-.. note:: 
+.. note::
   You cannot use a :ref:`Custom JavaScript` in a component that contains more
   than one problem. Each custom JavaScript problem must be in its own
   component.
@@ -549,7 +549,7 @@ Create Randomized Problems
    four ``problem`` elements.
 
    .. code-block:: xml
-     
+
        <vertical display_name="Test Unit">
           <problem url_name="random_problem_1"/>
           <problem url_name="random_problem_2"/>
@@ -561,7 +561,7 @@ Create Randomized Problems
    that you want to randomize.
 
    .. code-block:: xml
-      
+
        <vertical display_name="Test Unit">
          <randomize>
             <problem url_name="d9d0ceb3ffc74eacb29501183e26ad6e"/>
@@ -571,6 +571,6 @@ Create Randomized Problems
          </randomize>
        </vertical>
 
-.. include:: ../../../shared/exercises_tools/Section_adding_tooltip.rst       
+.. include:: ../../../shared/exercises_tools/Section_adding_tooltip.rst
 
 .. include:: ../../../links/links.rst

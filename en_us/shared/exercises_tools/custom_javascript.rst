@@ -17,11 +17,11 @@ The JS Input problem that you create must use HTML, JavaScript, and cascading st
 (CSS). You can use any application creation tool, such as the Google Web Toolkit (GWT), to
 create your JS Input problem.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/JavaScriptInputExample.png
+.. image:: ../../../shared/Images/JavaScriptInputExample.png
  :alt: Image of a JavaScript Input problem
 
-.. caution:: 
-  
+.. caution::
+
   * You cannot use a custom JavaScript problem in a component that contains
     more than one problem. Each custom JavaScript problem must be in its own
     component. See :ref:`Multiple Problems in One Component` for more
@@ -48,7 +48,7 @@ Create a Custom JavaScript Display and Grading Problem
 #. In the component that appears, select **Edit**.
 #. In the component editor, modify the example code according to your problem.
 
-   All problems have more than one element. Most problems conform to the 
+   All problems have more than one element. Most problems conform to the
    same-origin policy (SOP), meaning that all elements have the same protocol,
    host, and port. For example,
    ``http://store.company.com:81/subdirectory_1/JSInputElement.html`` and
@@ -81,7 +81,7 @@ To re-create the example problem above, you'll need the following files.
 
 To download these files in a .zip archive, go to http://files.edx.org/JSInput.zip.
 
-.. note:: If you need to bypass the SOP, you'll also need the **jschannel.js** file, 
+.. note:: If you need to bypass the SOP, you'll also need the **jschannel.js** file,
  and your webGLDemo.html file will be slightly different. To download all
  these files in a .zip archive, go to
  http://files.edx.org/JSInput_BypassSOP.zip.
@@ -167,7 +167,7 @@ JavaScript Input Problem Code
 .. _JS Input Problem XML:
 
 ******************************
-JavaScript Input Problem XML 
+JavaScript Input Problem XML
 ******************************
 
 JSInput allows problem authors to turn stand-alone HTML files into problems
@@ -191,7 +191,7 @@ The following is the basic format of a JSInput problem:
  def all_true(exp, ans): return ans == "hi"
         </script>
         <customresponse cfn="all_true">
-            <jsinput gradefn="gradefn" 
+            <jsinput gradefn="gradefn"
                 height="500"
                 get_statefn="getstate"
                 set_statefn="setstate"

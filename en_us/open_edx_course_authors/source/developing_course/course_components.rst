@@ -1,2 +1,2 @@
-.. include:: ../../../shared/building_and_running_chapters/developing_course/course_components.rst
+.. include:: ../../../shared/developing_course/course_components.rst
 

@@ -12,11 +12,13 @@ Building and Running an Open edX Course
    getting_started/index
    accessibility/index
    set_up_course/index
-   building_course/index
    developing_course/index
-   creating_content/index
+   course_components/index
    exercises_tools/index
-   content_experiments/index
-   cohorts/index
+   course_assets/index
+   course_features/index
+   grading/index
    releasing_course/index
-   running_course/index
+   manage_live_course/index
+   rerun_course/index
+   edit_course/index

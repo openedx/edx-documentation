@@ -19,7 +19,7 @@ purposes, among others.
   instructions for software required for the course.
 
 * Allowing students to create and share resources, perhaps as part of a
-  collaborative exercise. 
+  collaborative exercise.
 
 * Sharing errors and corrections for the course.
 
@@ -40,7 +40,7 @@ that are set for the wiki.
 * :ref:`Manage versions of a wiki article<Managing Versions of a Wiki
   Article>`.
 
-.. include:: ../../shared/running_course/wiki_tasks.rst 
+.. include:: ../../shared/course_assets/wiki_tasks.rst
 
 The wiki for each course is a "child" wiki of the edX-wide wiki. From within
 any course wiki, selecting the top level **Wiki** link in the breadcrumb trail

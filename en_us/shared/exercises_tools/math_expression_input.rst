@@ -12,7 +12,7 @@ appears below the response field. Unlike numerical input problems, which only
 allow integers and a few select constants, math expression input problems can
 include unknown variables and more complicated symbolic expressions.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/MathExpressionInputExample.png
+.. image:: ../../../shared/Images/MathExpressionInputExample.png
  :alt: A problem requesting the symbolic expression and numerical evaluation
      of N(x) for a sleeved cylinder
 
@@ -37,7 +37,7 @@ When you create a math expression input problem in Studio, you use `MathJax
 For more information about how to use MathJax in Studio, see :ref:`MathJax in
 Studio`.
 
-.. note:: Math expression input problems currently cannot include negative 
+.. note:: Math expression input problems currently cannot include negative
  numbers raised to fractional powers, such as (-1)^(1/2). Math expression
  input problems can include complex numbers raised to fractional powers, or
  positive non-complex numbers raised to fractional powers.
@@ -53,7 +53,7 @@ To create a math expression input problem, follow these steps.
 #. Select **Advanced**.
 #. Select **Math Expression Input**. Studio adds an example math expression
    input problem to the unit.
-#. Select **Edit**. The Advanced Editor opens. 
+#. Select **Edit**. The Advanced Editor opens.
 #. Replace the sample problem XML with your own marked up text. To
    practice, you can use the example problem that follows.
 #. Select **Settings** and provide an identifying **Display Name** for the
@@ -111,7 +111,7 @@ Templates
   <problem>
     <p>Write an expression for the product of R_1, R_2, and the inverse of R_3.</p>
     <formularesponse type="ci" samples="R_1,R_2,R_3@1,2,3:3,4,5#10" answer="R_1*R_2/R_3">
-      <responseparam type="tolerance" default="0.00001"/> 
+      <responseparam type="tolerance" default="0.00001"/>
       <formulaequationinput size="40"  label="Enter the equation" />
     </formularesponse>
   </problem>
@@ -211,7 +211,7 @@ learner's response for grading.
          learners enter answers.
 
   Children
-  
+
   (none)
 
 **Tag:** ``<responseparam>``
@@ -236,7 +236,7 @@ approximate a test for equality.
        - "tolerance", which defines a tolerance for a number.
 
   Children
-  
+
   (none)
 
 .. _Math Response Formatting for Students: http://edx-guide-for-students.readthedocs.org/en/latest/SFD_mathformatting.html

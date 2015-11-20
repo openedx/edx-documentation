@@ -43,7 +43,7 @@ You can use an LTI component in several ways.
 For example, the following LTI component integrates a Cerego tool that learners
 interact with into the LMS for a course.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/LTIExample.png
+.. image:: ../../../shared/Images/LTIExample.png
    :alt: A page in the LMS showing the Cerego music player and a question for
     learners to answer about it.
 

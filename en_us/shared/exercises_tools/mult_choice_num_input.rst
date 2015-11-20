@@ -10,10 +10,10 @@ You can create a problem that combines a multiple choice and numerical input
 problems. Students not only select a response from options that you provide,
 but also provide more specific information, if necessary.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/MultipleChoice_NumericalInput.png
+.. image:: ../../../shared/Images/MultipleChoice_NumericalInput.png
   :alt: Image of a multiple choice and numerical input problem
 
-.. note:: 
+.. note::
  Currently, students can only enter numerals in the text field. Students
  cannot enter words or mathematical expressions, which might be confusing to
  students who are accustomed to other edX numerical input fields.

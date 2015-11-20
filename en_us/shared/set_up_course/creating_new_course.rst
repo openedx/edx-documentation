@@ -31,7 +31,7 @@ Create a New Course
       part of the URL for your course. As part of your course URL, the total
       number of characters in the following four fields must be 65 or fewer.
 
-   .. image:: ../../../shared/building_and_running_chapters/Images/new_course_info.png
+   .. image:: ../../../shared/Images/new_course_info.png
       :width: 600
       :alt: Image of the course creation page in Studio.
 
@@ -82,7 +82,7 @@ When you return to Studio later, the Studio **My Courses** dashboard page lists
 the courses that you created as well as any courses for which you have course
 team privileges.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/open_course.png
+.. image:: ../../../shared/Images/open_course.png
   :width: 600
   :alt: Image of the course on the Studio dashboard
 
@@ -107,7 +107,7 @@ Categories of tasks in the Course Checklist include:
 
 From the **Tools** menu, select **Checklists**.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/checklist.png
+.. image:: ../../../shared/Images/checklist.png
   :width: 600
   :alt: Image of the course checklist in Studio.
 
