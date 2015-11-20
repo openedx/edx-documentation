@@ -19,7 +19,7 @@ Building and Running an edX Course
    accessibility/index
    set_up_course/index
    developing_course/index
-   creating_content/index
+   course_components/index
    video/index
    exercises_tools/index
    course_assets/index

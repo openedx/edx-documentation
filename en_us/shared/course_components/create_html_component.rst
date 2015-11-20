@@ -31,7 +31,7 @@ HTML components to add and format text, links, images, and more. You can choose
 to create HTML components directly in HTML code, or in a visual editor that
 hides the HTML code details, as described below.
 
-.. note:: 
+.. note::
  Review :ref:`Developing Your Course Index` and :ref:`Best Practices for HTML
  Markup` before you start working with HTML components.
 
@@ -47,7 +47,7 @@ Options for Editing HTML Components
 You can work with HTML in two ways.
 
 * :ref:`The Visual Editor`
-  
+
   With the visual editor you can create, edit, and format content in a word
   processing-like interface, without using HTML code directly. With the visual
   editor, you can more easily format your content, and add links and images.
@@ -62,27 +62,27 @@ You can work with HTML in two ways.
   use custom formatting or scripts in your content, you should use the raw HTML
   editor.
 
-.. note:: 
+.. note::
     If you copy text from another source and paste it into either the visual
     or raw HTML editor, be sure to proofread the result carefully. Some
     applications automatically change quotation marks and apostrophes from the
     "straight" version to the "smart" version. The HTML editor requires
     "straight" quotation marks and apostrophes.
-    
+
 ======================================
 Set the Editor for an HTML Component
 ======================================
 
 You set the editor for an HTML component in the **Settings** tab.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/set_html_editor.png
+.. image:: ../../../shared/Images/set_html_editor.png
  :alt: The Editor selection dropdown list in the HTML Component Settings tab.
  :width: 600
 
 Select **Visual** or **Raw**. When you change the editor, you must select
 **Save** and re-open the component to begin using the new editor.
 
-.. warning:: 
+.. warning::
  If you work with content in the raw HTML editor, then switch to the visual
  editor, you may lose custom HTML that you created. Therefore, it is
  recommended that you start by using the visual editor, then switch to the raw
@@ -98,18 +98,18 @@ The visual editor provides a "what you see is what you get" (WYSIWYG) interface
 that allows you to format text by selecting the formatting buttons at the top
 of the editor.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/HTMLEditor.png
+.. image:: ../../../shared/Images/HTMLEditor.png
  :alt: An image of the HTML component editor in Studio.
  :width: 600
 
-.. note:: 
+.. note::
   The visual editor is not available for :ref:`course handouts <Adding Course
   Updates and Handouts>`.
 
 The following image shows call-outs for the editing options and is followed by
 descriptions.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/HTML_VisualView_Toolbar.png
+.. image:: ../../../shared/Images/HTML_VisualView_Toolbar.png
   :alt: An image of the HTML editor in Studio, with call-outs for formatting buttons.
   :width: 600
 
@@ -150,11 +150,11 @@ Work with HTML code in the visual editor
 To work with HTML source code for the content you create in the visual editor,
 select **HTML**  in the editor toolbar. The HTML source code editor opens.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/HTML_source_code.png
+.. image:: ../../../shared/Images/HTML_source_code.png
  :alt: An image HTML source code editor available in the visual editor in Studio.
  :width: 600
 
-Edit the HTML code as needed. 
+Edit the HTML code as needed.
 
 You should not add custom styles or scripts in the HTML code view in the
 visual editor. Use the raw HTML editor instead.
@@ -164,7 +164,7 @@ visual editor. The visual editor then attempts to ensure the underlying HTML
 code is valid; for example, if you do not close a paragraph tag, the editor
 adds a closing tag for you.
 
-.. warning:: 
+.. warning::
  Selecting **OK** in the source code editor does not save your changes to the
  HTML component. You return to the component editor, where your changes are
  applied. You must then also select **Save** to save your changes and close the
@@ -180,7 +180,7 @@ The Raw HTML Editor
 When you select the raw editor for the HTML component, you edit your content in
 a text editor.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/raw_html_editor.png
+.. image:: ../../../shared/Images/raw_html_editor.png
  :alt: The raw HTML editor
  :width: 600
 
@@ -195,7 +195,7 @@ HTML Component Templates
 
 When you create a new HTML component, you select from a list of templates.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/html_templates.png
+.. image:: ../../../shared/Images/html_templates.png
  :alt: The list of HTML Component templates in the Studio unit page.
  :width: 200
 
@@ -213,18 +213,18 @@ Create an HTML Component
 
 #. Under **Add New Component**, select **HTML**.
 
-   .. image:: ../../../shared/building_and_running_chapters/Images/NewComponent_HTML.png
+   .. image:: ../../../shared/Images/NewComponent_HTML.png
     :alt: An image of the controls in the Studio unit page to add a new component.
     :width: 400
 
-#. Select the template. 
+#. Select the template.
 
    The rest of these instructions assume that you selected **Text**, which
    creates an empty HTML component with the visual editor selected.
 
    An empty HTML component appears at the bottom of the unit.
 
-   .. image:: ../../../shared/building_and_running_chapters/Images/HTMLComponent_Edit.png
+   .. image:: ../../../shared/Images/HTMLComponent_Edit.png
     :alt: An image of an empty HTML component in the Studio unit page.
     :width: 600
 
@@ -232,7 +232,7 @@ Create an HTML Component
 
    The HTML component opens in the visual editor.
 
-   .. image:: ../../../shared/building_and_running_chapters/Images/HTMLEditor_empty.png
+   .. image:: ../../../shared/Images/HTMLEditor_empty.png
     :alt: An image of the HTML component in the visual editor.
     :width: 600
 
@@ -261,7 +261,7 @@ Add a Link in an HTML Component
 When using the visual editor, to add a link to a website, course unit, or file
 in an HTML component, you work with the **Insert link** dialog box.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/HTML_Insert-EditLink_DBox.png
+.. image:: ../../../shared/Images/HTML_Insert-EditLink_DBox.png
  :alt: An image of the Insert link dialog box used in an HTML component.
  :width: 400
 
@@ -284,7 +284,7 @@ Add a Link to a Website
 #. In the **Insert link** dialog box, enter the URL of the website that is the
    destination for your link.
 
-   .. image:: ../../../shared/building_and_running_chapters/Images/HTML_Insert-EditLink_Website.png
+   .. image:: ../../../shared/Images/HTML_Insert-EditLink_Website.png
     :alt: An image of of the Insert link dialog box with a link to edx.org and the link text edX Website.
     :width: 400
 
@@ -306,14 +306,14 @@ Add a Link to a Website
 Add a Link to a Course Unit
 =========================================
 
-.. note:: To link to another component, the unit of that destination component 
+.. note:: To link to another component, the unit of that destination component
   must be published for the link to work.
 
 #. Obtain the unit identifier of the unit you want to link to. To do this, open
    the unit page in Studio, and copy the unit ID from the **Unit Identifier**
    field under **Unit Location** in the right pane.
-   
-   .. image:: ../../../shared/building_and_running_chapters/Images/UnitIdentifier.png
+
+   .. image:: ../../../shared/Images/UnitIdentifier.png
     :alt: An image of the unit page with the unit identifier circled.
     :width: 600
 
@@ -331,7 +331,7 @@ Add a Link to a Course Unit
    unit identifier that you copied in step 1, and make sure to include both
    forward slashes (/).
 
-   .. image:: ../../../shared/building_and_running_chapters/Images/HTML_Insert-EditLink_CourseUnit.png
+   .. image:: ../../../shared/Images/HTML_Insert-EditLink_CourseUnit.png
     :alt: An image of the Insert link dialog box with a link to a unit identifier.
     :width: 400
 
@@ -359,18 +359,18 @@ You can add a link in an HTML component to any file that is uploaded for the
 course. For more information about uploading files, see :ref:`Add Files to a
 Course`.
 
-.. tip:: 
+.. tip::
  When adding links to files, open the HTML component and the **Files &
  Uploads** page in separate browser windows. You can then more quickly copy and
  paste file URLs.
 
 #. On the **Files & Uploads** page, copy the **Studio** URL of the file.
 
-  .. image:: ../../../shared/building_and_running_chapters/Images/HTML_Link_File.png
+  .. image:: ../../../shared/Images/HTML_Link_File.png
    :alt: An image of Files and Uploads page with the Studio URL field circled.
    :width: 600
-  
-  .. note:: 
+
+  .. note::
    You must use the **Studio** URL to link to the file, not the **Web** URL.
 
 2. In the HTML component where you want to add the link, select the text that
@@ -385,7 +385,7 @@ Course`.
 
    Make sure to include both forward slashes (/).
 
-   .. image:: ../../../shared/building_and_running_chapters/Images/HTML_Insert-EditLink_File.png
+   .. image:: ../../../shared/Images/HTML_Insert-EditLink_File.png
     :alt: An image of the Insert link dialog box with a link to a file and the link text Syllabus.
     :width: 400
 
@@ -410,14 +410,14 @@ images, see :ref:`Add Files to a Course`.
 Review :ref:`Best Practices for Describing Images` before you add images to
 HTML components.
 
-.. note:: 
+.. note::
  Ensure that you obtain copyright permissions for images you use in
  your course, and that you cite sources appropriately.
 
 To add an image, you need the URL of the image that you uploaded to the
 course. You then create a link to the image in the HTML component.
 
-.. tip:: 
+.. tip::
  When adding images, open the HTML component and the **Files &
  Uploads** page in separate browser windows. You can then more quickly copy and
  paste image URLs.
@@ -425,7 +425,7 @@ course. You then create a link to the image in the HTML component.
 #. On the **Files & Uploads** page, copy the **Studio** URL of the image that
    you want. For an example illustration, see :ref:`Add a Link to a File`.
 
-  .. note:: 
+  .. note::
    You must use the **Studio** URL to add the image, not the **Web** URL.
 
 2. In the HTML component where you want to add the link, select the image icon
@@ -438,7 +438,7 @@ course. You then create a link to the image in the HTML component.
 
    Make sure to include both forward slashes (/).
 
-   .. image:: ../../../shared/building_and_running_chapters/Images/HTML_Insert-Edit_Image.png
+   .. image:: ../../../shared/Images/HTML_Insert-Edit_Image.png
     :alt: An image of the Insert image dialog box with a reference to an image file.
     :width: 400
 
@@ -448,15 +448,15 @@ course. You then create a link to the image in the HTML component.
    more information.
 
 #. As needed, customize the image dimensions. Keep **Constrain proportions**
-   selected to ensure the image keeps the same width and height proportions. 
+   selected to ensure the image keeps the same width and height proportions.
 
    With **Constrain proportions** selected, you only change one dimension. When
    you tab out of the field, the other dimension changes to a value that
    maintains the same image proportions.
 
-#. To change the spacing and border of the image, select the **Advanced** tab. 
+#. To change the spacing and border of the image, select the **Advanced** tab.
 
-   .. image:: ../../../shared/building_and_running_chapters/Images/HTML_Insert-Edit_Image_Advanced.png
+   .. image:: ../../../shared/Images/HTML_Insert-Edit_Image_Advanced.png
     :alt: An image of the Insert image dialog box Advanced tab.
 
 #. Enter the **Vertical space**, **Horizontal space**, and **Border** as
@@ -476,11 +476,11 @@ Import LaTeX Code into an HTML Component
 You can import LaTeX code into an HTML component. You might do this, for
 example, if you want to create "beautiful math" such as the following.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/HTML_LaTeX_LMS.png
+.. image:: ../../../shared/Images/HTML_LaTeX_LMS.png
  :alt: An image of math formulas created with LaTeX in an HTML component.
  :width: 600
 
-.. warning:: 
+.. warning::
  The LaTeX processor that Studio uses to convert LaTeX code to XML is a third-
  party tool. We recommend that you use this feature with caution. If you do use
  it, make sure to work with your Partner Manager.
@@ -510,14 +510,14 @@ contains LaTeX code.
 
 #. Select **Edit** to open the new component. The component editor opens.
 
-   .. image:: ../../../shared/building_and_running_chapters/Images/latex_component.png
+   .. image:: ../../../shared/Images/latex_component.png
     :alt: An image of the HTML component editor with the LaTeX compiler.
     :width: 600
 
 #. In the component editor, select **Launch Latex Source Compiler**. The LaTeX
    editor opens.
 
-   .. image:: ../../../shared/building_and_running_chapters/Images/HTML_LaTeXEditor.png
+   .. image:: ../../../shared/Images/HTML_LaTeXEditor.png
     :alt: An image of the LaTeX editor.
     :width: 600
 
@@ -529,7 +529,7 @@ contains LaTeX code.
 
    The component editor closes. You can see the way your LaTeX content looks.
 
-   .. image:: ../../../shared/building_and_running_chapters/Images/HTML_LaTeX_CompEditor.png
+   .. image:: ../../../shared/Images/HTML_LaTeX_CompEditor.png
     :alt: An image of the compontent with LaTeX code.
     :width: 600
 

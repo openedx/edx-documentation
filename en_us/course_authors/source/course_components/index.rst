@@ -1,10 +1,10 @@
-.. _Creating Course Content Index:
+.. _Course Components Index:
 
 ############################
-Creating Course Content
+Adding Course Components
 ############################
 
-Use the sections in this part to understand how to create course content.
+Use the topics in this section to understand how to create course content.
 
 For information on creating exercises and tools, see :ref:`Exercises and Tools
 Index`.
@@ -17,7 +17,7 @@ Outline page, see :ref:`Developing Your Course Index`.
 
 .. toctree::
    :maxdepth: 2
-   
+
    create_html_component
    create_video
    create_discussion

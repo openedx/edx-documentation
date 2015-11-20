@@ -1,7 +1,7 @@
 .. _Content Libraries:
 
 ##############################
-Working with Content Libraries 
+Working with Content Libraries
 ##############################
 
 This section describes how to work with content libraries in Studio.
@@ -47,13 +47,13 @@ Create a New Library
 ********************
 
 Use :ref:`content libraries<Content Libraries>` to build a pool of components
-that can be used in randomized assignments in your courses. 
+that can be used in randomized assignments in your courses.
 
 To create a new library, follow these steps.
 
-#. Log in to Studio. 
-   
-#. Select **New Library**. 
+#. Log in to Studio.
+
+#. Select **New Library**.
 
 #. Enter the required information for your new library, then select **Create**.
 
@@ -62,7 +62,7 @@ To create a new library, follow these steps.
       number of characters in the **Library Name**, **Organization**, and
       **Library Code** fields must be 65 or fewer.
 
-   .. image:: ../../../shared/building_and_running_chapters/Images/ContentLibrary_NewCL.png
+   .. image:: ../../../shared/Images/ContentLibrary_NewCL.png
       :alt: Image of the library creation page.
       :width: 600
 
@@ -108,12 +108,12 @@ To change the name of a library, follow these steps.
 #. Log in to Studio.
 
 #. Select **Libraries**, then select the library whose name you want to edit.
-   
+
 #. Select the **Edit** icon next to the library name.
-   
+
    The library name field becomes editable.
-   
-   .. image:: ../../../shared/building_and_running_chapters/Images/ContentLibrary_EditName.png
+
+   .. image:: ../../../shared/Images/ContentLibrary_EditName.png
      :alt: The Edit icon to the right of the Library Name.
      :width: 300
 
@@ -191,7 +191,7 @@ You can navigate through the pages in the following ways.
   Select the number to place your cursor in the field, then enter the page
   number you want to jump to.
 
-  .. image:: ../../../shared/building_and_running_chapters/Images/file_pagination.png
+  .. image:: ../../../shared/Images/file_pagination.png
      :alt: Image showing a pair of page numbers with the first number circled.
      :width: 300
 
@@ -199,7 +199,7 @@ To view the list of matching components in the library, see :ref:`View the
 Matching Components in a Randomized Content Block`.
 
 To view the randomized content that was assigned to a specific learner, see
-:ref:`Specific Student View`. 
+:ref:`Specific Student View`.
 
 
 .. _Edit Components in a Library:
@@ -282,7 +282,7 @@ To grant a user initial **User** access to a library, follow these steps.
 .. note:: Only library users with the **Admin** level of access can add users
    to the library.
 
-#. Ensure that the new library member has an active Studio account.   
+#. Ensure that the new library member has an active Studio account.
 
 #. On the Studio home page, select the **Libraries** tab and locate the library
    to which you are adding this user.
@@ -292,7 +292,7 @@ To grant a user initial **User** access to a library, follow these steps.
 #. On the **User Access** page, select **Add a New User**.
 
 #. Enter the new user's email address, then select **ADD USER**.
-   
+
    The new user is added to the list of library members with the **User** level
    of access.
 
@@ -305,19 +305,19 @@ access that they have.
 
 To remove a user from the library, follow these steps.
 
-#. In Studio, select the **Libraries** tab and locate your library. 
+#. In Studio, select the **Libraries** tab and locate your library.
 
-#. From the **Settings** menu select **User Access**. 
-   
+#. From the **Settings** menu select **User Access**.
+
 #. On the **User Access** page, locate the user that you want to remove.
 
 #. Hover over the user's box and select the trash can icon.
-    
+
    You are prompted to confirm the deletion.
 
-#. Select **Delete**. 
+#. Select **Delete**.
 
-  The user is removed from the library. 
+  The user is removed from the library.
 
 =========================
 Add Staff or Admin Access
@@ -331,14 +331,14 @@ to people who already have the **Staff** level of access.
 To give a library member a higher level of access to the library, follow these
 steps.
 
-#. In Studio, select the **Libraries** tab and locate your library. 
+#. In Studio, select the **Libraries** tab and locate your library.
 
-#. From the **Settings** menu select **User Access**. 
-   
+#. From the **Settings** menu select **User Access**.
+
 #. On the **User Access** page, locate the user to whom you are giving
-   additional privileges. 
+   additional privileges.
 
-  - If he currently has **User** access, select **Add Staff Access**.  
+  - If he currently has **User** access, select **Add Staff Access**.
   - If he currently has **Staff** access, select **Add Admin Access**.
 
   The user's display listing is updated to indicate the new level of access. In
@@ -359,17 +359,17 @@ After you have granted users **Staff** or **Admin** access, you (or other
 To remove **Staff** or **Admin** access from a library user, follow these
 steps.
 
-#. In Studio, select the **Libraries** tab and locate your library. 
+#. In Studio, select the **Libraries** tab and locate your library.
 
-#. From the **Settings** menu select **User Access**. 
-   
+#. From the **Settings** menu select **User Access**.
+
 #. On the **User Access** page, locate the user whose access level you are
-   changing. 
+   changing.
 
-  - If she currently has **Staff** access, select **Remove Staff Access**. 
+  - If she currently has **Staff** access, select **Remove Staff Access**.
   - If she currently has **Admin** access, select **Remove Admin Access**.
 
-   The user's display listing is updated to indicate the new role. 
+   The user's display listing is updated to indicate the new role.
 
 .. note:: There must always be at least one Admin for a library. If there is
    only one user with the Admin role, you cannot remove him or her from the
@@ -428,8 +428,8 @@ outside of Studio, or if you want to overwrite a problematic or outdated
 version of the library.
 
 .. warning:: When you import a library, the imported library completely
-  replaces the existing library and its contents. You cannot undo a library 
-  import. Before you proceed, we recommend that you export the current 
+  replaces the existing library and its contents. You cannot undo a library
+  import. Before you proceed, we recommend that you export the current
   library, so that you have a backup copy of it.
 
 The library file that you import must be a .tar.gz file (that is, a .tar file
@@ -437,22 +437,22 @@ compressed using GNU Zip). This .tar.gz file must contain a library.xml file.
 
 To import a library, follow these steps.
 
-#. In Studio, select the **Libraries** tab. 
-   
+#. In Studio, select the **Libraries** tab.
+
 #. Locate the library to which you want to import the new library content.
-    
+
 #. From the **Tools** menu, select **Import**.
-   
+
 #. Select **Choose a File to Import** and select the .tar.gz file that you want
    to import.
 
 #. Select **Replace my library with the selected file**.
-   
+
    .. warning:: The import process has five stages. During the first two stages
-     (Uploading and Unpacking), do not navigate away from the 
-     **Library Import** page. Doing so causes the import process to end. You 
-     can leave the page only after the Unpacking stage completes. We recommend 
-     that you do not make important changes to the library until all stages of 
+     (Uploading and Unpacking), do not navigate away from the
+     **Library Import** page. Doing so causes the import process to end. You
+     can leave the page only after the Unpacking stage completes. We recommend
+     that you do not make important changes to the library until all stages of
      the import process have finished.
 
 #. When the import process finishes, select **View Updated Library** to view
@@ -464,4 +464,4 @@ To import a library, follow these steps.
    about updating library components used in your course to match the latest
    version in the content library, see :ref:`Get the Latest Version of Library
    Content`.
-   
+

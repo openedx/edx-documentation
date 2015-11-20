@@ -5,7 +5,7 @@ Working with Problem Components
 ################################
 
 This section covers the basics of problem components: what they look like to
-you and your learners, and the options that every problem component has. 
+you and your learners, and the options that every problem component has.
 
 .. contents::
  :local:
@@ -27,7 +27,7 @@ Graded Problems
 ******************************
 
 All problems receive a point score, but, by default, problems do not count
-toward a learner's grade. 
+toward a learner's grade.
 
 To have problems to count toward the grade, change the assignment type of the
 subsection that contains the problems. For more information, see :ref:`Set the
@@ -41,8 +41,8 @@ The Learner View of a Problem
 
 All problems on the edX platform have several component parts.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/AnatomyOfExercise1.png
- :alt: An image of a problem from a learner's point of view, with callouts for 
+.. image:: ../../../shared/Images/AnatomyOfExercise1.png
+ :alt: An image of a problem from a learner's point of view, with callouts for
        elements of the problem.
   :width: 500
 
@@ -78,25 +78,25 @@ All problems on the edX platform have several component parts.
    for individual problems defaults to that number, and cannot be set to
    unlimited.
 
-   .. image:: ../../../shared/building_and_running_chapters/Images//AnatomyOfExercise2.png
-    :alt: An image of a problem from a learners's point of view, with 
+   .. image:: ../../../shared/Images//AnatomyOfExercise2.png
+    :alt: An image of a problem from a learners's point of view, with
        callouts for attempts and showing the answer.
     :width: 500
 
 #. **Feedback.** After a learner selects **Check**, all problems return a
    green check mark or a red X.
 
-   .. image:: ../../../shared/building_and_running_chapters/Images//AnatomyofaProblem_Feedback.png
+   .. image:: ../../../shared/Images//AnatomyofaProblem_Feedback.png
     :alt: An image of a feedback checkmark and x from a learner's point of view.
 
-#. **Correct answer.** Most problems require that you specify 
+#. **Correct answer.** Most problems require that you specify
    a single correct answer.
 
 #. **Explanation.** You can include an explanation that
    appears when a learner selects **Show Answer**.
 
 #. **Reset button.** Learners can select **Reset** to clear any input that has
-   not yet been submitted, and try again to answer the question. 
+   not yet been submitted, and try again to answer the question.
 
   - If the learner has already submitted an answer, selecting **Reset** clears
     the submission and, if the problem includes a Python script to randomize
@@ -107,7 +107,7 @@ All problems on the edX platform have several component parts.
 
 #. **Hide Answer button.**
 
-   .. image:: ../../../shared/building_and_running_chapters/Images//AnatomyOfExercise3.png
+   .. image:: ../../../shared/Images//AnatomyOfExercise3.png
     :alt: An image of a graded assignment shown in the left pane of the LMS for a course.
     :width: 200
 
@@ -115,14 +115,14 @@ All problems on the edX platform have several component parts.
    is graded. If a group of problems is graded, a clock icon appears for
    that assignment in the left pane.
 
-   .. image:: ../../../shared/building_and_running_chapters/Images//clock_icon.png
+   .. image:: ../../../shared/Images//clock_icon.png
     :alt: An image of the clock icon, signifying that the problems are graded.
 
 #. **Due date.** The date that the problem is due. A problem that is
    past due does not have a **Check** button. It also does not accept
    answers or provide feedback.
 
-.. note:: Problems can be **open** or **closed.** Closed problems do not 
+.. note:: Problems can be **open** or **closed.** Closed problems do not
           have a **Check** button. Learners can still see questions, solutions,
           and revealed explanations, but they cannot check their work, submit
           responses, or change an earlier score.
@@ -154,7 +154,7 @@ All problems are written in XML. However, Studio offers two interfaces for
 editing problem components: the Simple Editor and the Advanced Editor.
 
 *  The Simple Editor allows you to edit problems visually, without
-   having to work with XML. 
+   having to work with XML.
 
 *  The Advanced Editor converts the problem to edX's XML standard and
    allows you to edit that XML directly.
@@ -193,8 +193,8 @@ preformatted example problem.
 The following image shows an example multiple choice problem in the Simple
 Editor.
 
-.. image:: ../../../shared/building_and_running_chapters/Images//MultipleChoice_SimpleEditor.png
- :alt: An image of the simple editor with numbered callouts for options and an 
+.. image:: ../../../shared/Images//MultipleChoice_SimpleEditor.png
+ :alt: An image of the simple editor with numbered callouts for options and an
    example multiple choice problem to demonstrate the formatting.
  :width: 450
 
@@ -240,7 +240,7 @@ Editor.
 The following image shows the multiple choice problem above in the Advanced
 Editor instead of the Simple Editor.
 
-.. image:: ../../../shared/building_and_running_chapters/Images//MultipleChoice_AdvancedEditor.png
+.. image:: ../../../shared/Images//MultipleChoice_AdvancedEditor.png
  :alt: An image of a problem in the advanced editor.
  :width: 450
 
@@ -296,7 +296,7 @@ This setting indicates the name of your problem. This name appears for learners
 as a heading above the problem and as a tooltip in the learning sequence at the
 top of the **Courseware** page.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/ProbComponent_LMS_DisplayName.png
+.. image:: ../../../shared/Images/ProbComponent_LMS_DisplayName.png
  :alt: An image of the problem in a unit page from a learners's point of view.
  :width: 500
 
@@ -339,7 +339,7 @@ Problem Weight
 This setting specifies the total number of points possible for the
 problem. The problem weight appears next to the problem's display name.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/ProblemWeight_DD.png
+.. image:: ../../../shared/Images/ProblemWeight_DD.png
  :alt: An image of a problem from a learner's point of view, with the possible
        number of points, 3, circled.
  :width: 500
@@ -408,14 +408,14 @@ setting specifies how frequently the values in the problem change: each time a
 different learner accesses the problem, each time a single learner tries to
 answer the problem, both, or never.
 
-.. note:: This setting should only be set to an option other than **Never** 
+.. note:: This setting should only be set to an option other than **Never**
  for problems that are configured to do random number generation.
 
 For example, in this problem, the highlighted values change each time a learner
 submits an answer to the problem.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/Rerandomize.png
- :alt: An image of the same problem shown twice, with color highlighting on 
+.. image:: ../../../shared/Images/Rerandomize.png
+ :alt: An image of the same problem shown twice, with color highlighting on
    values that change.
  :width: 800
 
@@ -423,13 +423,13 @@ If you want to randomize numeric values in a problem, you complete both of
 these steps.
 
 * Make sure that you edit your problem to include a Python script that randomly
-  generates numbers. 
+  generates numbers.
 
 ..  For more information, see :ref:`Use Randomization in a
   Numerical Input Problem`.
-.. ^^ add back when DOC-2175 gets done - Alison 30 Jul 15  
+.. ^^ add back when DOC-2175 gets done - Alison 30 Jul 15
 
-* Select an option other than **Never** for the **Randomization** setting. 
+* Select an option other than **Never** for the **Randomization** setting.
 
 .. note:: The **Randomization** setting serves a different purpose from
  "problem randomization". The **Randomization** setting affects how numeric
@@ -449,8 +449,8 @@ to detect common incorrect answers and usage patterns for such answers.
 For more information, see :ref:`Student_Answer_Distribution` in this guide, or
 `Review Answers to Graded Problems`_ or `Review Answers to Ungraded Problems`_
 in *Using edX Insights*.
- 
-.. important:: Whenever you choose an option other than **Never** for a 
+
+.. important:: Whenever you choose an option other than **Never** for a
  problem, the computations for the Answer Distribution report and edX Insights
  include up to 20 variants for the problem, even if the problem was not
  actually configured to include randomly generated values. This can make data
@@ -466,13 +466,13 @@ You can choose the following options for the **Randomization** setting.
 
    * - Option
      - Description
-   * - **Always** 
+   * - **Always**
      - Learners see a different version of the problem each time they select
        Check.
-   * - **On Reset** 
+   * - **On Reset**
      - Learners see a different version of the problem each time they select
        Reset.
-   * - **Never** 
+   * - **Never**
      - All learners see the same version of the problem. For most courses, this
        option is supplied by default. Select this option for every problem in
        your course that does not include a Python script to generate random
@@ -493,21 +493,21 @@ the following options
 
 .. list-table::
    :widths: 15 70
-   
-   * - **Always** 
+
+   * - **Always**
      - Always show the answer when the learner selects the **Show Answer**
        button.
-   * - **Answered** 
-     - Show the answer after the learner tries to answer the problem. 
-       
+   * - **Answered**
+     - Show the answer after the learner tries to answer the problem.
+
        If the question can be, and is, reset, the answer is not shown until the
        learner tries the problem again. (When a learner answers a question, the
        question is considered to be both attempted and answered. When the
        question is reset, the question is still attempted, but not yet
        answered.)
-   * - **Attempted** 
+   * - **Attempted**
      - Show the answer after the learner tries to answer the problem.
-       
+
        If the question can be, and is, reset, the answer continues to show.
        (When a learner answers a question, the question is considered to be
        both attempted and answered. When the question is reset, the question is
@@ -536,11 +536,11 @@ Show Reset Button
 This setting defines whether a **Reset** button is visible on the problem.
 
 Learners can select **Reset** to clear any input that has not yet been
-submitted, and try again to answer the problem. 
+submitted, and try again to answer the problem.
 
 If the learner has already submitted an answer, selecting **Reset** clears the
 submission and, if the problem contains randomized variables and randomization
-is set to **On Reset**, changes the values in the problem. 
+is set to **On Reset**, changes the values in the problem.
 
 If the number of Maximum Attempts that was set for this problem has been
 reached, the **Reset** button is not visible.
@@ -573,7 +573,7 @@ seconds remaining."
 Modifying a Released Problem
 *********************************
 
-.. warning:: Be careful when you modify problems after they have been 
+.. warning:: Be careful when you modify problems after they have been
  released. Changes that you make to published problems can affect the learner
  experience in the course and analysis of course data.
 
@@ -588,7 +588,7 @@ not automatically updated.
 For example, you release a problem and specify that its answer is 3.
 After some learner have submitted responses, you notice that the answer
 should be 2 instead of 3. When you update the problem with the correct
-answer, the LMS does not update scores for learners who originally answered 
+answer, the LMS does not update scores for learners who originally answered
 2 for the problem and received the wrong score.
 
 For another example, you change the number of response fields to
@@ -635,7 +635,7 @@ want a learner to be able to check the answers to many problems at one time. To
 do this, you can include multiple problems inside a single problem component.
 The problems can be different types.
 
-.. note:: 
+.. note::
   You cannot use a :ref:`Custom JavaScript` in a component that contains more
   than one problem. Each custom JavaScript problem must be in its own
   component.
@@ -741,7 +741,7 @@ Create Randomized Problems
 
 #. In the list of directories and files, open the **Vertical** directory.
 
-   .. note:: If your unit is not published, open the **Drafts** directory, and 
+   .. note:: If your unit is not published, open the **Drafts** directory, and
     then open the **Vertical** directory in the **Drafts** folder.
 
 #. In the **Vertical** folder, locate the .xml file that has the same name as
@@ -755,7 +755,7 @@ Create Randomized Problems
    four problem components.
 
    .. code-block:: xml
-     
+
        <vertical display_name="Test Unit">
           <problem url_name="d9d0ceb3ffc74eacb29501183e26ad6e"/>
           <problem url_name="ea66d875f4bf4a9898d8e6d2cc9f3d6f"/>
@@ -767,7 +767,7 @@ Create Randomized Problems
    that you want to randomize.
 
    .. code-block:: xml
-      
+
        <vertical display_name="Test Unit">
          <randomize>
             <problem url_name="d9d0ceb3ffc74eacb29501183e26ad6e"/>
@@ -798,7 +798,7 @@ Create Randomized Problems
     the problems in a text editor, and then re-import the course. The same
     procedure applies to all course team members, regardless of their assigned
     roles.
-  
+
   * A .csv file for learner responses contains the responses to each of the
     problems in the problem bank.
 

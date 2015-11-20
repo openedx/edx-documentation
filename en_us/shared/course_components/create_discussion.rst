@@ -29,7 +29,7 @@ For more information about discussions, see these topics.
 .. _Create a Discussion Component:
 
 *****************************
-Create a Discussion Component 
+Create a Discussion Component
 *****************************
 
 .. note:: We recommend that you add an HTML component before each discussion
@@ -46,15 +46,15 @@ Create a Discussion Component
      different discussions.
 
 #. In the discussion component that appears, select **Edit**.
-  
-   .. image:: ../../../shared/building_and_running_chapters/Images/Disc_Create_Edit.png
+
+   .. image:: ../../../shared/Images/Disc_Create_Edit.png
     :alt: An image of the discussion component with the Edit button circled.
     :width: 600
 
 #. Follow the guidelines in the editor to fill in the **Category**, the
    optional **Display Name**, and the **Subcategory** fields.
-   
-   .. image:: ../../../shared/building_and_running_chapters/Images/DiscussionComponentEditor.png
+
+   .. image:: ../../../shared/Images/DiscussionComponentEditor.png
     :alt: An image of the discussion component editor with a category of "Getting Graded" and a subcategory of "Answering More Than Once".
     :width: 600
 
@@ -66,10 +66,10 @@ Create a Discussion Component
    .. note:: Each **Category**/**Subcategory** pair for the discussion topics
       in your course must be unique.
 
-   .. image:: ../../../shared/building_and_running_chapters/Images/Discussion_category_subcategory.png
+   .. image:: ../../../shared/Images/Discussion_category_subcategory.png
     :alt: A list of discussions with the "Answering More Than Once" topic indented under "Getting Graded".
     :width: 400
-  
+
 #. Select **Save**.
 
 .. note:: On the **Discussion** tab, you cannot see category and subcategory
@@ -80,13 +80,13 @@ Create a Discussion Component
 .. _A Students View of the Discussion:
 
 **********************************
-A Learner's View of the Discussion 
+A Learner's View of the Discussion
 **********************************
 
 For learners, the display name for the discussion component appears in the
 learning sequence at the top of the page.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/DiscussionComponent_LMS_Ribbon.png
+.. image:: ../../../shared/Images/DiscussionComponent_LMS_Ribbon.png
  :alt: An image of a unit from a learners's point of view, with the component list showing a discussion component.
  :width: 600
 
@@ -97,13 +97,13 @@ or "Hide discussion" on the left, and a blue **New Post** button on the right.
 In the following example, the discussion component follows video and HTML
 components.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/DiscussionComponent_LMS.png
+.. image:: ../../../shared/Images/DiscussionComponent_LMS.png
   :alt: An image of a video component followed by a discussion component.
   :width: 600
 
 In the **Discussion** tab at the top of the page, learners can find the
 category and subcategory of the discussion in the left pane.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/Discussion_category_subcategory.png
+.. image:: ../../../shared/Images/Discussion_category_subcategory.png
  :alt: An image of the Discussion page from a learner's point of view.
  :width: 400
