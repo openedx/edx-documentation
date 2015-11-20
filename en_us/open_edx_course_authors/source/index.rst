@@ -20,3 +20,4 @@ Building and Running an Open edX Course
    course_features/index
    releasing_course/index
    running_course/index
+   edit_course/index

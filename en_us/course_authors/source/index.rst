@@ -27,5 +27,6 @@ Building and Running an edX Course
    course_features/index
    releasing_course/index
    running_course/index
+   edit_course/index
    students/index
    glossary
