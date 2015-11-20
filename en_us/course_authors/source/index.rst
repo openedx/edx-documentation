@@ -26,7 +26,7 @@ Building and Running an edX Course
    course_features/index
    grading/index
    releasing_course/index
-   running_course/index
+   manage_live_course/index
    edit_course/index
    rerun_course/index
    students/index
