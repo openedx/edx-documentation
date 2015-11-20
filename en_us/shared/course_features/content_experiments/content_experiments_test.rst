@@ -27,17 +27,20 @@ component and video that is part of Group 0 is displayed.
    :alt: An Image of a unit page in the LMS, with Group 0 selected.
    :width: 800
 
+
 .. only:: Partners
 
   .. image:: ../../../../shared/images/a-b-test-lms-group-0.png
    :alt: An Image of a unit page in the LMS, with Group 0 selected.
    :width: 800
 
+
 .. only:: Open_edX
 
   .. image:: ../../../../shared/images/a-b-test-lms-group-0.png
    :alt: An Image of a unit page in the LMS, with Group 0 selected.
    :width: 800
+
 
 You can change the experiment group selection to view the content that a
 different experiment group of learners sees.
@@ -48,17 +51,20 @@ different experiment group of learners sees.
    :alt: An image of a unit page in the LMS, with Group 1 selected.
    :width: 800
 
+
 .. only:: Partners
 
   .. image:: ../../../../shared/images/a-b-test-lms-group-2.png
    :alt: An image of a unit page in the LMS, with Group 1 selected.
    :width: 800
 
+
 .. only:: Open edX
 
   .. image:: ../../../../shared/images/a-b-test-lms-group-2.png
    :alt: An image of a unit page in the LMS, with Group 1 selected.
    :width: 800
+
 
 .. note:: The example course content in this section uses content experiment
  terminology ("Welcome to Group A", for example) to make the functionality
