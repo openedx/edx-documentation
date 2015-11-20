@@ -8,6 +8,9 @@ Change Log
 
    * - Date
      - Change
+   * - 20 November 2015
+     - Updated the manual command that can be used to :ref:`test an enabled
+       SAML provider<Test an Enabled SAML Provider>`.
    * - 9 November 2015
      - Added :ref:`Feature Flag Index` page.
    * - 4 November 2015
