@@ -1,10 +1,10 @@
-.. _Building Course Index:
+.. _Rerunning Your Course Index:
 
 ##########################
-Building Your Course
+Re-running Your Course
 ##########################
 
-Use the topics in this section to build your course.
+Use the topics in this section to learn about re-running your course.
 
 For information on how to develop your course content in the Studio Outline,
 see :ref:`Developing Your Course Index`.
@@ -13,4 +13,5 @@ see :ref:`Developing Your Course Index`.
    :maxdepth: 2
 
    course_rerun
+
 
