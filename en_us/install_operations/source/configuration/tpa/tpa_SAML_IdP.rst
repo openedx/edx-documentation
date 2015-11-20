@@ -43,26 +43,29 @@ To add and enable a SAML 2.0 identity provider, follow these steps.
 
 #. Enter the following information for the provider.
 
-   - **Icon class**: Specifies a `Font Awesome`_ image for the button that users
-     will select to access the sign in page for this IdP. The **fa-sign-in** icon
-     is used by default. For university or institutional providers, a suggested
-     alternative is **fa-university**.
+   - **Icon class**: Specifies a `Font Awesome`_ image for the button that
+     users will select to access the sign in page for this IdP. The **fa-sign-
+     in** icon is used by default. For university or institutional providers, a
+     suggested alternative is **fa-university**.
 
-   - **Name**: The name of the IdP as you want it to appear on the sign in page.
+   - **Name**: The name of the IdP as you want it to appear on the sign in
+     page.
 
-   - **Secondary**: Select this option to include the IdP in an intermediary list
-     of providers that users access from a **Use my institution/campus
+   - **Secondary**: Select this option to include the IdP in an intermediary
+     list of providers that users access from a **Use my institution/campus
      credentials** button on the sign in page.
 
-   - **Backend name**: The default, **tpa-saml**, is optimized for use with Open
-     edX and works with most SAML providers. Select a different option only
-     if you have added a custom backend that provides additional functionality.
+   - **Backend name**: The default, **tpa-saml**, is optimized for use with
+     Open edX and works with most SAML providers. Select a different option
+     only if you have added a custom backend that provides additional
+     functionality.
 
-   - **IdP slug**: A short, unique name to identify this IdP in the URL. The slug
-     becomes part of a URL, so the value that you enter cannot include spaces.
+   - **IdP slug**: A short, unique name to identify this IdP in the URL. The
+     slug becomes part of a URL, so the value that you enter cannot include
+     spaces.
 
-   - **Entity ID**: The URI that identifies the IdP. This ID must match
-     the value specified in the metadata XML file.
+   - **Entity ID**: The URI that identifies the IdP. This ID must match the
+     value specified in the metadata XML file.
 
    - **Metadata source**: The URL of the XML file that contains this provider's
      metadata.
@@ -147,10 +150,11 @@ steps.
 
    If the check mark does not appear, make sure that celery is configured
    correctly and is running. You can also manually trigger an update by running
-   the management command ``./manage.py lms saml pull --settings=aws`` on
-   Fullstack or ``./manage.py lms saml pull --settings=devstack`` on Devstack.
+   the management command ``./manage.py lms saml --pull --settings=aws`` on
+   Fullstack or ``./manage.py lms saml --pull --settings=devstack`` on
+   Devstack.
 
-3. For additional information about the data fetched from the IdP, on the
+#. For additional information about the data fetched from the IdP, on the
    Django administration console select **SAML Provider Data**, and then select
    the provider. The page that opens reports data fetched from the metadata
    source URL and the date and time it was fetched.
@@ -162,7 +166,7 @@ steps.
      :alt: Screen shot of an LMS sign in page with a button labeled "Use my
          institutional/campus credentials" circled at the bottom.
 
-5. Select **Use my institutional/campus credentials**. The list of providers
+#. Select **Use my institutional/campus credentials**. The list of providers
    that appears should include the IdP that you enabled.
 
    .. image:: ../../Images/tpa_inst_list.png
