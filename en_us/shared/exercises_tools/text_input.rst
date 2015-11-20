@@ -6,7 +6,7 @@ Text Input Problem
 
 .. note:: EdX offers full support for this problem type.
 
-.. contents:: 
+.. contents::
   :local:
   :depth: 1
 
@@ -21,7 +21,7 @@ instructor's specified answer exactly, including spelling and punctuation, we
 recommend that you specify more than one correct answer for text input
 problems to allow for differences in capitalization and typographical errors.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/TextInputExample.png
+.. image:: ../../../shared/Images/TextInputExample.png
  :alt: An example text input problem.
 
 **************************************************
@@ -55,16 +55,16 @@ follow these steps.
 #. In the unit where you want to create the problem, under **Add New
    Component** select **Problem**.
 #. Select one of the two text input problem templates.
-   
-  * From the list of **Common Problem Types**, select **Text Input**. 
-   
+
+  * From the list of **Common Problem Types**, select **Text Input**.
+
   * From the list of **Common Problems with Hints and Feedback**, select **Text
     Input with Hints and Feedback**. For more information, see `Use Feedback in
     a Text Input Problem`_.
 
     Studio adds the problem to the unit.
 
-3. Select **Edit**. The Simple Editor opens. 
+3. Select **Edit**. The Simple Editor opens.
 #. Replace the sample problem text with your own text.
 #. Determine the text that describes the question you want learners to answer,
    and surround that text with two pairs of angle brackets (``>>question<<``).
@@ -75,7 +75,7 @@ follow these steps.
    You can identfy more than one correct answer. For more information, see
    :ref:`Multiple Responses in Text Input Problems`.
 
-7. To provide an explanation, select the explanation text and then select 
+7. To provide an explanation, select the explanation text and then select
    **Explanation** from the toolbar. ``[explanation]`` appears before
    and after the explanation text.
 #. Select **Settings** and provide an identifying **Display Name** for the
@@ -89,7 +89,7 @@ problem component.
 
 ::
 
-    >>What was the first post-secondary school in China to allow both male and 
+    >>What was the first post-secondary school in China to allow both male and
     female students?<<
 
     = Nanjing Higher Normal Institute
@@ -101,13 +101,13 @@ problem component.
     [explanation]
 
 ========================================================================
-Use the Advanced Editor to Edit a Text Input Problem 
+Use the Advanced Editor to Edit a Text Input Problem
 ========================================================================
 
 To use the Advanced Editor to edit a text input problem, follow these steps.
 
 #. Follow the steps for creating the problem in the :ref:`Simple Editor<Use
-   the Simple Editor to Create a Text Input Problem>`. 
+   the Simple Editor to Create a Text Input Problem>`.
 #. Select **Advanced Editor**, and then edit the XML to add the tags and
    attributes you want. An example follows.
 
@@ -115,19 +115,19 @@ To use the Advanced Editor to edit a text input problem, follow these steps.
 
 .. code-block:: xml
 
-  <problem> 
+  <problem>
     <p>What was the first post-secondary school in China to allow both male and female students?</p>
 
     <stringresponse answer="Nanjing Higher Normal Institute" type="ci" >
       <additional_answer>National Central University</additional_answer>
-      <additional_answer>Nanjing University</additional_answer> 
-      <textline label="What was the first post-secondary school in China to 
-        allow both male and female students?" size="20"/> 
+      <additional_answer>Nanjing University</additional_answer>
+      <textline label="What was the first post-secondary school in China to
+        allow both male and female students?" size="20"/>
     </stringresponse>
     <solution>
       <div class="detailed-solution">
         <p>Explanation</p>
-        <p>Nanjing Higher Normal Institute first admitted female students in 
+        <p>Nanjing Higher Normal Institute first admitted female students in
         1920.</p>
       </div>
     </solution>
@@ -144,10 +144,10 @@ or the advanced editor. For an overview of feedback in problems, see
 :ref:`Adding Feedback and Hints to a Problem`.
 
 In text input problems, you can provide feedback for each option that a
-learner can select. 
+learner can select.
 
 Use feedback on correct answers to reinforce why the answer is
-correct. 
+correct.
 
 Use feedback on incorrect answers as an opportunity to address common learner
 misconceptions. Feedback for text input questions should also provide guidance
@@ -212,20 +212,20 @@ common incorrect answers.
     <p>What was the first post-secondary school in China to allow both male and female students?</p>
     <stringresponse answer="Alaska" type="ci" >
       <correcthint>
-        Alaska is the largest state in the U.S. in terms of not only land 
-        area, but also total area and water area. Alaska is 576,400 square 
-        miles, more than double the land area of the second largest state, 
+        Alaska is the largest state in the U.S. in terms of not only land
+        area, but also total area and water area. Alaska is 576,400 square
+        miles, more than double the land area of the second largest state,
         Texas.
       </correcthint>
       <stringequalhint answer="Texas">
-        While many people think Texas is the largest state in terms of land 
-        area, it is actually the second largest of the 50 U.S. states 
+        While many people think Texas is the largest state in terms of land
+        area, it is actually the second largest of the 50 U.S. states
         containing 261,797 square miles.
       </stringequalhint>
       <stringequalhint answer="California">
-        California is the third largest state in the U.S. in terms of land 
+        California is the third largest state in the U.S. in terms of land
         area containing 155,959 square miles.</stringequalhint>
-      <textline label="What is the largest state in the U.S. in terms of land 
+      <textline label="What is the largest state in the U.S. in terms of land
         area?" size="20"/>
     </stringresponse>
   </problem>
@@ -238,14 +238,14 @@ By default, the feedback labels shown to learners are **Correct** and
 **Incorrect**. If you do not define feedback labels, learners see these terms
 when they submit an answer, as in the following example.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/text_input_feedback.png
+.. image:: ../../../shared/Images/text_input_feedback.png
  :alt: Image of text input feedback with the standard label.
  :width: 600
 
 You can configure the problem to override the default labels. For example, you
 can configure a custom label for a specific wrong answer.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/text_input_feedback_custom_label.png
+.. image:: ../../../shared/Images/text_input_feedback_custom_label.png
  :alt: Image of text input feedback with a custom label.
  :width: 600
 
@@ -269,7 +269,7 @@ For example, the following feedback is configured to use a custom label.
 
 ::
 
-  not=Texas {{Close but wrong:: While many people think Texas is the largest 
+  not=Texas {{Close but wrong:: While many people think Texas is the largest
   state in terms of land area, it is actually the second largest of the 50 U.S.
   states, containing 261,797 square miles.}}
 
@@ -290,8 +290,8 @@ For example, the following feedback is configured to use a custom label.
 .. code-block:: xml
 
     <stringequalhint answer="Texas" label="Close but wrong">
-      While many people think Texas is the largest state in terms of land 
-      area, it is actually the second largest of the 50 U.S. states containing 
+      While many people think Texas is the largest state in terms of land
+      area, it is actually the second largest of the 50 U.S. states containing
       261,797 square miles.
     </stringequalhint>
 
@@ -328,7 +328,7 @@ before each additional correct response.
 
 ::
 
-    >>What African-American led the United States civil rights movement during 
+    >>What African-American led the United States civil rights movement during
     the 1960s?<<
     = Dr. Martin Luther King, Jr.
     or= Dr. Martin Luther King, Junior
@@ -348,12 +348,12 @@ closing ``<stringresponse>`` tags.
   <problem>
 
   <p>What African-American led the United States civil rights movement during the 1960s?</p>
-    
+
   <stringresponse answer="Dr. Martin Luther King, Jr." type="ci" >
     <additional_answer>Dr. Martin Luther King, Junior</additional_answer>
     <additional_answer>Martin Luther King, Jr.</additional_answer>
     <additional_answer>Martin Luther King</additional_answer>
-    <textline label="What African-American led the United States civil rights 
+    <textline label="What African-American led the United States civil rights
       movement during the 1960s?" size="20"/>
   </stringresponse>
   </problem>
@@ -365,7 +365,7 @@ Add Text after the Text Response Field
 You might want to include a word, phrase, or sentence after the answer field
 in a text input problem to help guide your students or resolve ambiguity.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/MC_trailing_text.png
+.. image:: ../../../shared/Images/MC_trailing_text.png
  :width: 500
  :alt: Multiple choice problem with the word "Institute" after the answer field.
 
@@ -378,7 +378,7 @@ element. An example follows.
 ::
 
   <stringresponse answer="Ashmun" type="ci" >
-    <textline label="What Pennsylvania school was founded in 1854 to provide 
+    <textline label="What Pennsylvania school was founded in 1854 to provide
      educational opportunities for African-Americans?" size="20" />
   </stringresponse>
 
@@ -461,7 +461,7 @@ You can configure a text input problem to allow a regular expression as an
 answer. To do this, you modify the problem's XML in the Advanced Editor.
 
 The regular expression that the learner enters must contain the part of the
-answer that the course team specifies. For example, if you 
+answer that the course team specifies. For example, if you
 specify  ``<answer="example answer" type="regexp">``, correct answers
 include ``example answered``, ``two example answers``, or even ``==example
 answer==``, but not ``examples`` or ``example anser``.
@@ -542,7 +542,7 @@ Indicates that the problem is a text input problem.
          the value in this attribute exactly.
      * - type (optional)
        - Specifies whether the problem requires a case sensitive response and
-         if it allows regular expressions. 
+         if it allows regular expressions.
 
          * If the ``<stringresponse>`` tag includes ``type="ci"``, the problem
            is not case sensitive.
@@ -562,9 +562,9 @@ Indicates that the problem is a text input problem.
   * ``<additional_answer>`` (optional)
   * ``<correcthint>`` (optional)
   * ``<stringequalhint>`` (optional)
-    
+
 **Tag:** ``<textline />``
- 
+
 Creates a response field in the LMS where the learner enters a response.
 
   Attributes
@@ -586,7 +586,7 @@ Creates a response field in the LMS where the learner enters a response.
        - Adds the text that you specify after the response field.
 
   Children
-  
+
   (none)
 
 **Tag:** ``<additional_answer>``
@@ -612,7 +612,7 @@ answers.
   (none)
 
   Children
-  
+
   (none)
 
 **Tag:** ``<stringequalhint>``
@@ -645,7 +645,7 @@ the correct answer.
   Children
 
 **Tag:** ``<hint>``
- 
+
 Contains the text of a hint. The LMS shows each of the defined hints to the
 learners in the order that the ``<hint>`` tags  are included within the
 ``<demandhint>`` tag.

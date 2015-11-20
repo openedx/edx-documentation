@@ -110,7 +110,7 @@ component.
     problem to be drawn from the library. Select **Any Type** if you do not want
     to specify a particular type of problem.
 
-    .. image:: ../../../shared/building_and_running_chapters/Images/ContentLibraries_RCBSelectProblemType.png
+    .. image:: ../../../shared/Images/ContentLibraries_RCBSelectProblemType.png
      :alt: Problem type dropdown list in randomized content block settings.
 
   - For **Scored**, from the drop down list select **True** or **False** to
@@ -152,7 +152,7 @@ student.
 #. In the randomized content block, select **View**.
 
 
-   .. image:: ../../../shared/building_and_running_chapters/Images/ContentLibraries_ViewMatching.png
+   .. image:: ../../../shared/Images/ContentLibraries_ViewMatching.png
       :alt: The View button for a randomized content block
 
    You see all components that match the specifications in the randomized
@@ -191,7 +191,7 @@ You can also reset a component's settings to the library default. If a
 component's settings have been changed from the default settings in the
 library, a **Clear** icon is shown next to the setting field.
 
- .. image:: ../../../shared/building_and_running_chapters/Images/ContentLibraries_ResetComponentField.png
+ .. image:: ../../../shared/Images/ContentLibraries_ResetComponentField.png
     :alt: Clear button in the course component field reverts value to library value.
 
 Select **Clear** to restore the library default setting for that field.
@@ -223,7 +223,7 @@ with the version in the library.
   outline, you see a message indicating that the component is out of date in
   comparison with the library.
 
-  .. image:: ../../../shared/building_and_running_chapters/Images/ContentLibraries_ComponentUpdateNow.png
+  .. image:: ../../../shared/Images/ContentLibraries_ComponentUpdateNow.png
      :alt: Error message shown when the source library has changed, with the
       Update Now link circled.
 
@@ -241,7 +241,7 @@ with the version in the library.
   **Editor** page of components in a randomized content block are lost if you
   select **Update now** to get the latest library version.
 
-  .. image:: ../../../shared/building_and_running_chapters/Images/ContentLibraries_ResetComponentField.png
+  .. image:: ../../../shared/Images/ContentLibraries_ResetComponentField.png
      :alt: Clear icon in the course component field reverts value to library
          value.
 

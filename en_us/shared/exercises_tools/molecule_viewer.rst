@@ -8,20 +8,20 @@ Molecule Viewer Tool
 
 Studio offers two tools that you can use in discussions of molecules:
 
-* With the **molecule viewer** tool, you can create three-dimensional representations of molecules for students to view. 
+* With the **molecule viewer** tool, you can create three-dimensional representations of molecules for students to view.
 * With the **molecule editor** problem type, you can allow students to draw their own molecules. For more information about this tool, see :ref:`Molecule Editor`.
 
 Both tools use **JSmol**, a JavaScript-based molecular viewer from Jmol. (You don't need to download this tool; Studio uses it automatically.) For more information about JSmol, see `JSmol <http://sourceforge.net/projects/jsmol/>`_.
 
 The following image shows the molecule viewer tool in a course:
 
-.. image:: ../../../shared/building_and_running_chapters/Images/MoleculeViewer.png
+.. image:: ../../../shared/Images/MoleculeViewer.png
    :width: 500
    :alt: Image of molecule viewer showing a molecule of Ciprofloxacin
 
 
 
-.. note:: To create a molecule viewer tool, you must have permission to upload files to a third-party file hosting site such as Amazon Web Services Simple Storage Service (AWS S3). When you create the molecule viewer, you'll upload a folder that contains a large number of files to the file hosting site. 
+.. note:: To create a molecule viewer tool, you must have permission to upload files to a third-party file hosting site such as Amazon Web Services Simple Storage Service (AWS S3). When you create the molecule viewer, you'll upload a folder that contains a large number of files to the file hosting site.
 
 .. _Create the Molecule Viewer:
 
@@ -76,7 +76,7 @@ Upload Files to a Hosting Site
    * js (folder)
    * MoleculeViewer.html (file): Earlier, you changed line 19 in this file.
 
-2. Upload the entire **MoleculeViewerFiles** folder to your file hosting site. 
+2. Upload the entire **MoleculeViewerFiles** folder to your file hosting site.
 
    .. note:: Because this folder contains many files, uploading the folder may take several minutes, even over a fast connection.
 

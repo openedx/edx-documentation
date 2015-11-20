@@ -20,10 +20,10 @@ the options that are correct answers, and none of the options that are
 incorrect. The course team must set up each checkbox problem to have at least
 one correct answer.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/CheckboxExample.png
+.. image:: ../../../shared/Images/CheckboxExample.png
  :alt: A checkbox problem with four options, two of which are correct.
 
-.. note:: 
+.. note::
    Make sure that all of the answer choices are unambiguous, and avoid trick
    questions. Checkbox problems with ambiguity can be frustrating to learners,
    especially if the problems have a limited number of attempts.
@@ -60,16 +60,16 @@ follow these steps.
 #. In the unit where you want to create the problem, under **Add New
    Component** select **Problem**.
 #. Select one of the two checkbox problem templates.
-   
-  * From the list of **Common Problem Types**, select **Checkboxes**. 
-   
+
+  * From the list of **Common Problem Types**, select **Checkboxes**.
+
   * From the list of **Common Problems with Hints and Feedback**, select
     **Checkboxes with Hints and Feedback**. For more information, see `Use
     Feedback in a Checkbox Problem`_.
 
     Studio adds the checkbox problem to the unit.
 
-3. Select **Edit**. The Simple Editor opens. 
+3. Select **Edit**. The Simple Editor opens.
 #. Replace the sample problem text with your own text.
 #. Determine the text that describes the question you want learners to answer,
    and surround that text with two pairs of angle brackets (``>>question<<``).
@@ -79,7 +79,7 @@ follow these steps.
    toolbar. A pair of brackets appears next to each answer choice.
 #. To identify each correct answer, add an **x** between the brackets for that
    option.
-#. To provide an explanation, select the explanation text and then select 
+#. To provide an explanation, select the explanation text and then select
    **Explanation** from the toolbar. ``[explanation]`` appears before
    and after the explanation text.
 #. Select **Settings** and provide an identifying **Display Name** for the
@@ -93,13 +93,13 @@ problem component.
 
 ::
 
-    Learning about the benefits of preventative healthcare can be particularly 
+    Learning about the benefits of preventative healthcare can be particularly
     difficult. >>Check all of the reasons below why this may be the case.<<
 
-    [x] A large amount of time passes between undertaking a preventative measure and seeing the result. 
-    [ ] Non-immunized people will always fall sick. 
-    [x] If others are immunized, fewer people will fall sick regardless of a particular individual's choice to get immunized or not. 
-    [x] Trust in healthcare professionals and government officials is fragile. 
+    [x] A large amount of time passes between undertaking a preventative measure and seeing the result.
+    [ ] Non-immunized people will always fall sick.
+    [x] If others are immunized, fewer people will fall sick regardless of a particular individual's choice to get immunized or not.
+    [x] Trust in healthcare professionals and government officials is fragile.
 
 .. please do not line wrap this text.
 
@@ -108,7 +108,7 @@ problem component.
     [explanation]
 
 ========================================================================
-Use the Advanced Editor to Edit a Checkbox Problem 
+Use the Advanced Editor to Edit a Checkbox Problem
 ========================================================================
 
 To use the :ref:`Advanced Editor<Advanced Editor>` to edit a checkbox
@@ -185,7 +185,7 @@ options.
 * B, C
 * A, C
 * A, B, C
-  
+
 For problems with more than three options, providing specific feedback for each
 combination can become difficult. For such problems, you can define compound
 feedback for more likely combinations of option or for combinations of option
@@ -210,7 +210,7 @@ following syntax.
 
 ::
 
-  [x] answer  {{ selected: Feedback when learner selects this option. }, 
+  [x] answer  {{ selected: Feedback when learner selects this option. },
   {unselected: Feedback when the learner does not select this option.}}
 
 .. note:: You can use ``S`` for ``selected`` and ``U`` for unselected.
@@ -258,7 +258,7 @@ options **A, B, and D** or **A, B, C, and D**.
 ::
 
   {{ ((A B D)) An apple, pumpkin, and tomato are all fruits as they are all the
-  fertilized ovaries of a plant and contain seeds. }} 
+  fertilized ovaries of a plant and contain seeds. }}
 
   {{ ((A B C D)) You are correct that an apple, pumpkin, and tomato are all
   fruits as they are all the fertilized ovaries of a plant and contain seeds.
@@ -293,44 +293,44 @@ For example, the following problem has feedback for each option.
 
 .. code-block:: xml
 
-  <choiceresponse> 
+  <choiceresponse>
     <checkboxgroup label="Which of the following is an example
     of a fruit? Check all that apply." direction="vertical">
       <choice correct="true">apple
-        <choicehint selected="true">You are correct that an apple is a fruit 
-          because it is the fertilized ovary that comes from an apple tree and 
+        <choicehint selected="true">You are correct that an apple is a fruit
+          because it is the fertilized ovary that comes from an apple tree and
           contains seeds.
         </choicehint>
-        <choicehint selected="false">Remember that an apple is also a 
+        <choicehint selected="false">Remember that an apple is also a
           fruit.
         </choicehint>
       </choice>
       <choice correct="true">pumpkin
-        <choicehint selected="true">You are correct that a pumpkin is a fruit 
-          because it is the fertilized ovary of a squash plant and contains 
+        <choicehint selected="true">You are correct that a pumpkin is a fruit
+          because it is the fertilized ovary of a squash plant and contains
           seeds.
         </choicehint>
-        <choicehint selected="false">Remember that a pumpkin is also a 
+        <choicehint selected="false">Remember that a pumpkin is also a
           fruit.
         </choicehint>
       </choice>
       <choice correct="false">potato
-        <choicehint selected="true">A potato is a vegetable, not a fruit, 
-          because it does not come from the flower on a plant or tree and does 
+        <choicehint selected="true">A potato is a vegetable, not a fruit,
+          because it does not come from the flower on a plant or tree and does
           not contain seeds.
         </choicehint>
-        <choicehint selected="false">You are correct that a potato is 
-          classified as a vegetable because it is an edible part of a plant in 
+        <choicehint selected="false">You are correct that a potato is
+          classified as a vegetable because it is an edible part of a plant in
           tuber form.
         </choicehint>
       </choice>
       <choice correct="true">tomato
-        <choicehint selected="true">You are correct that a tomato is 
-          classified as a fruit because it is the fertilized ovary of a tomato 
+        <choicehint selected="true">You are correct that a tomato is
+          classified as a fruit because it is the fertilized ovary of a tomato
           plant and contains seeds.
         </choicehint>
-        <choicehint selected="false">Many people mistakenly think a tomato is 
-          a vegetable. However, because a tomato is the fertilized ovary of a 
+        <choicehint selected="false">Many people mistakenly think a tomato is
+          a vegetable. However, because a tomato is the fertilized ovary of a
           tomato plant and contains seeds it is classified as a fruit.
         </choicehint>
       </choice>
@@ -354,12 +354,12 @@ options **A, B, and D** or **A, B, C, and D**.
 
 .. code-block:: xml
 
-  <compoundhint value="A B D">An apple, pumpkin, and tomato are all fruits as 
+  <compoundhint value="A B D">An apple, pumpkin, and tomato are all fruits as
     they all are fertilized ovaries of a plant and contain seeds.
   </compoundhint>
-  <compoundhint value="A B C D">You are correct that an apple, pumpkin, and 
-    tomato are all fruits as they all are fertilized ovaries of a plant and 
-    contain seeds. However, a potato is not a fruit as it is an edible part of 
+  <compoundhint value="A B C D">You are correct that an apple, pumpkin, and
+    tomato are all fruits as they all are fertilized ovaries of a plant and
+    contain seeds. However, a potato is not a fruit as it is an edible part of
     a plant in tuber form and is classified as a vegetable.
   </compoundhint>
 
@@ -388,7 +388,7 @@ credit.
 
 .. only:: Partners
 
- .. note:: 
+ .. note::
     Support for partial credit problems in courses on edx.org and edX
     Edge is provisional. Ensure that you test such problems thoroughly before
     releasing them to learners. For more information, contact your edX program
@@ -401,7 +401,7 @@ to award partial credit for every correct answer selected and every incorrect
 answer left unselected (known as `every decision counts`_), the learner earned
 80% of the points for this problem.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/checkbox_partial_credit.png
+.. image:: ../../../shared/Images/checkbox_partial_credit.png
  :alt: A checkbox choice problem with partial credit for two out of
      three answers.
  :width: 600
@@ -459,7 +459,7 @@ problem.
        - B, C
        - 50%
      * - C, D
-       - 
+       -
        - A, B, C, D
        - 0%
 
@@ -520,11 +520,11 @@ different submissions for a Halves problem.
        - B, C
        - 0%
      * - C, D
-       - 
+       -
        - A, B, C, D
        - 0%
 
-.. note:: 
+.. note::
   For half of the remaining points to be deducted, the problem must have more
   than twice the number of options than the number of incorrect answers in the
   learner's response. Otherwise, the learner receives no credit for the
@@ -558,7 +558,7 @@ updated to provide partial credit.
 .. _Checkbox Problem XML:
 
 ****************************
-Checkbox Problem XML 
+Checkbox Problem XML
 ****************************
 
 ============
@@ -635,7 +635,7 @@ Tags
   of answers.
 
 * ``<choice>`` (required): Designates an answer option.
-  
+
 * ``<demandhint>`` (optional): Specifies hints for the learner.
 
 **Tag:** ``<choiceresponse>``
@@ -673,7 +673,7 @@ Specifies that the problem is a checkbox problem.
   Children
 
   ``<choice>``
-  ``<compoundhint>`` 
+  ``<compoundhint>``
 
 **Tag:** ``<choice>``
 
@@ -693,7 +693,7 @@ Designates an answer option.
        - Indicates an incorrect answer.
 
   Children
-  
+
   ``<choicehint>``
 
 **Tag:** ``<choicehint>``
@@ -712,7 +712,7 @@ Specifies a hint for the answer option.
          option is selected, or when it is not selected.
 
   Children
-  
+
   (none)
 
 **Tag:** ``<compoundhint>``
@@ -731,7 +731,7 @@ Designates feedback for a specific combination of answers.
          feedback.
 
   Children
-  
+
   (none)
 
 **Tag:** ``<demandhint>``
@@ -739,7 +739,7 @@ Designates feedback for a specific combination of answers.
 Specifies hints available to the learner.
 
   Children
-  
+
   ``<hint>``
 
 **Tag:** ``<hint>``
@@ -747,7 +747,7 @@ Specifies hints available to the learner.
 Specifies a hint available to the learner.
 
   Children
-  
+
   (none)
 
 .. _Using edX Insights: http://edx.readthedocs.org/projects/edx-insights/en/latest/

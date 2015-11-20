@@ -7,16 +7,16 @@ Qualtrics Survey Tool
 .. note:: EdX offers full support for this tool.
 
 You can administer Qualtrics surveys to your learners in your edX course. The
-Qualtrics survey appears in an IFrame in the courseware. 
+Qualtrics survey appears in an IFrame in the courseware.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/Qualtrics.png
+.. image:: ../../../shared/Images/Qualtrics.png
   :width: 500
   :alt: A Qualtrics survey with several responses filled in.
 
 Course staff can view the overall results of the survey as well as responses
 from individual learners.
 
-.. note:: To use a Qualtrics survey, you must have a Qualtrics license. Qualtrics 
+.. note:: To use a Qualtrics survey, you must have a Qualtrics license. Qualtrics
  licenses are available for a fee at the `Qualtrics website
  <http://www.qualtrics.com>`_. If you want to include a survey but you do not
  have a Qualtrics license, you can use the :ref:`edX survey tool<Survey
@@ -49,11 +49,11 @@ component in Studio <Create the HTML Component in Studio>`.
 Create the Qualtrics Survey
 ==============================
 
-.. note:: Because Qualtrics is a third-party tool, the following steps might 
+.. note:: Because Qualtrics is a third-party tool, the following steps might
  change without notice. See the `Qualtrics website
  <http://www.qualtrics.com>`_ for the most up-to-date Qualtrics documentation.
 
-#. Using your Qualtrics account, create your survey. 
+#. Using your Qualtrics account, create your survey.
 #. Add the statements and options that you want the survey to include.
 #. Add the **user ID** element. This element imports data from your course
    into Qualtrics.
@@ -74,7 +74,7 @@ Create the Qualtrics Survey
    Anonymous Survey Link**. You will add this URL to the HTML component for
    your survey in Studio.
 
-   .. note:: If you need to find this URL in the future, open your survey 
+   .. note:: If you need to find this URL in the future, open your survey
     in Qualtrics, and then select the **Distribute Survey** tab at the top of
     the page.
 
@@ -93,11 +93,11 @@ Create the HTML Component in Studio
    replace the placeholder values with the values for your survey. The IFrame element starts with the following text.
 
    ``<iframe title="Euler Line Demo"``
-  
+
   * In the ``title`` attribute, replace ``Euler Line Demo`` with the title of
     your survey.
   * In the ``src`` attribute, replace the placeholder URL with the URL from
-    step 6 in :ref:`Create the Qualtrics Survey`. 
+    step 6 in :ref:`Create the Qualtrics Survey`.
   * In the ``src`` attribute, add the following value to the end of the URL.
 
     ``&uid=%%USER_ID%%``
@@ -167,7 +167,7 @@ For more information about accessing learner data, see :ref:`Student Data`.
 Download Data from Qualtrics
 *******************************
 
-.. note:: Because Qualtrics is a third-party tool, the following steps might 
+.. note:: Because Qualtrics is a third-party tool, the following steps might
  change without notice. See the `Qualtrics website
  <http://www.qualtrics.com>`_ for the most up-to-date Qualtrics documentation.
 

@@ -14,17 +14,17 @@ The Student View of a Full Screen Image
 
 The student sees the full screen image in a unit page. When the student hovers the mouse pointer over the image, the **Fullscreen** button appears:
 
-.. image:: ../../../shared/building_and_running_chapters/Images/image-modal.png
+.. image:: ../../../shared/Images/image-modal.png
  :alt: Image of the full screen image tool with the Full Screen button.
 
 When the student clicks **Fullscreen**, the image opens and expands in the full browser window.  The buttons **Close**, **Zoom In**, and **Zoom Out** appear:
 
-.. image:: ../../../shared/building_and_running_chapters/Images/image-modal-window.png
+.. image:: ../../../shared/Images/image-modal-window.png
  :alt: Image of the Image Modal tool with the Full Screen button.
 
 The student can then zoom in on the image, and drag the image to view the desired part of it:
 
-.. image:: ../../../shared/building_and_running_chapters/Images/image-modeal-zoomed.png
+.. image:: ../../../shared/Images/image-modeal-zoomed.png
  :alt: Image of the Image Modal tool with the Full Screen button.
 
 ******************************
@@ -48,7 +48,7 @@ Create a Full Screen Image
      **<a href="/static/Image1.jpg" class="modal-content">**
 
    * Replace the value of the <img> element's src attribute with the path to your image. For example:
-     
+
      **<img alt="Full screen image" src="/static/Image1.jpg"/>**
 
    * Ensure that the value of the href and src attributes are the same, and that you do not change the class attribute. Your sample code should look like the following:

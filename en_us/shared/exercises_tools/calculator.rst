@@ -25,7 +25,7 @@ advanced settings.
 When the calculator is visible in a course, the calculator icon appears at the
 bottom of every courseware page.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/Calc_Closed.png
+.. image:: ../../../shared/Images/Calc_Closed.png
   :width: 600
   :alt: Courseware page with an arrow pointing to the calculator.
 
@@ -37,7 +37,7 @@ questions about entering input in the calculator. Learners access the
 calculator's information page by selecting the ``i`` icon next to the input
 field.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/Calc_Open_InfoPage.png
+.. image:: ../../../shared/Images/Calc_Open_InfoPage.png
   :width: 600
   :alt: Courseware page with the calculator visible along the edge of the browser.
 

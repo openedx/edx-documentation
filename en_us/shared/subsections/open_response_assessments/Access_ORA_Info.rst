@@ -9,7 +9,7 @@ information about the number of learners in each step of the assignment or the
 performance of individual learners. This information is available in the **Staff
 Info** and **Staff Tools** sections at the end of each assignment.
 
-.. image:: ../../../../shared/building_and_running_chapters/Images/PA_CourseStaffInfo_Collapsed.png
+.. image:: ../../../../shared/Images/PA_CourseStaffInfo_Collapsed.png
    :alt: The Staff Info banner at the bottom of the peer assessment
 
 When you access a specific learner's information for an open response assessment
@@ -38,7 +38,7 @@ bottom of the assignment, and then select **Staff Info**.
 The **Staff Info** section expands, and you can see the number of learners who
 are currently working through (but have not completed) each step of the problem.
 
-.. image:: ../../../../shared/building_and_running_chapters/Images/PA_CourseStaffInfo_Expanded.png
+.. image:: ../../../../shared/Images/PA_CourseStaffInfo_Expanded.png
    :alt: The Course Staff Information box expanded, showing problem status
 
 .. _Access Information for a Specific Learner:
@@ -64,7 +64,7 @@ learner. This learner's response received one peer assessment, and the learner
 completed a peer assessment on one other learner's response. The learner also
 completed a self assessment.
 
-.. image:: ../../../../shared/building_and_running_chapters/Images/PA_SpecificStudent.png
+.. image:: ../../../../shared/Images/PA_SpecificStudent.png
    :width: 500
    :alt: Report showing information about a learner's response
 
@@ -105,7 +105,7 @@ The following example shows:
 For a larger view, select the image so that it opens by itself in the browser
 window, and then click anywhere on the image that opens.
 
-.. image:: ../../../../shared/building_and_running_chapters/Images/PA_SpecificStudent_long.png
+.. image:: ../../../../shared/Images/PA_SpecificStudent_long.png
    :width: 250
    :alt: Report showing information about a learner's response
 
@@ -156,7 +156,7 @@ Remove a submission from peer assessment by completing these steps.
 #. Scroll down to the **Learner Response** section and locate the submission you
    want to remove.
 
-.. image:: ../../../../shared/building_and_running_chapters/Images/ORA_RemoveSubmission.png
+.. image:: ../../../../shared/Images/ORA_RemoveSubmission.png
    :alt: Dialog allowing comments to be entered when removing a learner submission
 
 5. Enter a comment to document or explain the removal. This comment appears to
@@ -173,7 +173,7 @@ Remove a submission from peer assessment by completing these steps.
    Removed submissions are also removed from the list of Top Responses if they
    were previously listed.
 
-.. image:: ../../../../shared/building_and_running_chapters/Images//ORA_CancelledStudentResponse.png
+.. image:: ../../../../shared/Images//ORA_CancelledStudentResponse.png
    :alt: The date, time and comment for removal of a learner response is shown instead of the original response.
 
 

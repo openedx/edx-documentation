@@ -11,11 +11,11 @@ cursors over a tooltip icon.
 The following example problem includes two tooltips. The tooltip that provides
 a definition for "ROI" is being shown.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/tooltip.png
+.. image:: ../../../shared/Images/tooltip.png
  :alt: An example of a tooltip from a learner's point of view.
  :width: 500
 
-.. note:: 
+.. note::
   For learners using a screen reader, the tooltip expands to make its
   associated text accessible when the screen reader focuses on the tooltip
   icon.
@@ -28,9 +28,9 @@ tooltips.
 
   <problem>
       <text>
-          <p>Given the data in Table 7 <clarification>Table 7: "Example PV 
-            Installation Costs", Page 171 of Roberts textbook</clarification>, 
-            compute the ROI <clarification><strong>ROI</strong>: Return on 
+          <p>Given the data in Table 7 <clarification>Table 7: "Example PV
+            Installation Costs", Page 171 of Roberts textbook</clarification>,
+            compute the ROI <clarification><strong>ROI</strong>: Return on
             Investment</clarification> over 20 years.
           </p>
-       . . .                    
+       . . .

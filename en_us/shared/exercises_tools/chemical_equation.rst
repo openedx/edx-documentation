@@ -12,7 +12,7 @@ into a chemical equation below the text box. The grader evaluates the
 student's response by using a Python script that you create and embed in the
 problem.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/ChemicalEquationExample.png
+.. image:: ../../../shared/Images/ChemicalEquationExample.png
  :alt: Image of a chemical equation response problem
 
 .. note::
@@ -44,7 +44,7 @@ Sample Chemical Equation Problem Code
   <problem>
     <startouttext/>
     <p>Some problems may ask for a particular chemical equation. Practice by writing out the following reaction in the box below.</p>
-    
+
   \( \text{H}_2\text{SO}_4 \longrightarrow \text { H}^+ + \text{ HSO}_4^-\)
 
     <customresponse>
@@ -67,7 +67,7 @@ Sample Chemical Equation Problem Code
     </ul>
 
     <endouttext/>
-  
+
    <solution>
    <div class="detailed-solution">
    <p>Solution</p>
@@ -106,7 +106,7 @@ Template
     </customresponse>
 
     <endouttext/>
-  
+
    <solution>
    <div class="detailed-solution">
    <p>Solution or Explanation Header</p>
@@ -151,13 +151,13 @@ response field where the student enters an answer.
 
      * - Attribute
        - Description
-     * - size 
+     * - size
        - Specifies the size of the response field, in characters.
      * - label (required)
        - Contains the text of the principal question in the problem.
 
   Children
-  
+
   (none)
 
 **Tag:** ``<answer>``
@@ -171,10 +171,10 @@ Contains the Python script that grades the problem.
 
      * - Attribute
        - Description
-     * - type (required) 
+     * - type (required)
        - Must be "loncapa/python".
 
   Children
-  
+
   (none)
-     
+

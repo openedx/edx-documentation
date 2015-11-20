@@ -35,7 +35,7 @@ You can embed a Google Drive file in your course so that learners see the file
 in the courseware. For example, you can share a Google spreadsheet with
 learners.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/google-spreadsheet.png
+.. image:: ../../../shared/Images/google-spreadsheet.png
   :width: 600
   :alt: A Google spreadsheet in courseware.
 
@@ -112,13 +112,13 @@ file to the web and obtain the embed code for the file.
 #. Open the Google Drive file.
 #. From the **File** menu, select **Publish to the web**.
 
-   .. image:: ../../../shared/building_and_running_chapters/Images/google-publish-to-web.png
+   .. image:: ../../../shared/Images/google-publish-to-web.png
     :alt: The Google Drive file Publish to the web dialog box.
 
 #. Select **Publish**, and then select **OK** to confirm the action.
 #. Select the **Embed** tab.
 
-   .. image:: ../../../shared/building_and_running_chapters/Images/google-embed.png
+   .. image:: ../../../shared/Images/google-embed.png
     :alt: The Google Drive file Publish to web Embed tab
 
 #. Copy the complete string in the **Embed** field, including the ``<iframe>``
@@ -158,12 +158,12 @@ To add a Google Drive file component, follow these steps.
    The new component is added to the unit, with the default Google presentation
    embedded.
 
-   .. image:: ../../../shared/building_and_running_chapters/Images/google-document-studio.png
+   .. image:: ../../../shared/Images/google-document-studio.png
     :alt: The Google Drive file component in a unit page
 
 #. In the new component, select **Edit**.
 
-   .. image:: ../../../shared/building_and_running_chapters/Images/google-document-edit-studio.png
+   .. image:: ../../../shared/Images/google-document-edit-studio.png
     :alt: The Google Drive file editor.
 
 #. In the **Display Name** field, enter the name for the component.

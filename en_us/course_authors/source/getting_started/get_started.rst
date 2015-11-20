@@ -11,16 +11,16 @@ create your first course.
  :local:
  :depth: 1
 
-If you are using an instance of Open edX, some specifics in this section might 
+If you are using an instance of Open edX, some specifics in this section might
 not apply.
 
-.. _What is Studio?:        
-            
+.. _What is Studio?:
+
 ***************
 What is Studio?
 ***************
 
-Studio is the edX tool you use to build your courses. 
+Studio is the edX tool you use to build your courses.
 
 You use Studio to create course content, problems, videos, and other resources
 for students.
@@ -51,9 +51,9 @@ You must then request access to create courses.
 
 EdX evaluates your request. When course creation permissions are granted,
 you are notified by email.
-  
-.. _Create Your First Course:  
-  
+
+.. _Create Your First Course:
+
 ***************************
 Create Your First Course
 ***************************
@@ -62,7 +62,7 @@ When you receive notice that you can create courses, log in to Studio_.
 
 You see the following page, which is your **My Courses** dashboard:
 
-.. image:: ../../../shared/building_and_running_chapters/Images/first_course.png
+.. image:: ../../../shared/Images/first_course.png
  :width: 600
  :alt: The Studio home page where you create your first course.
 
@@ -70,9 +70,9 @@ Select **Create Your First Course** and follow instructions in ths
 :ref:`Creating a New Course` section.
 
 When you've created the course, you can view it on Edge.
-  
+
 .. _View Your Course on Edge:
-    
+
 ************************
 View Your Course on Edge
 ************************
@@ -86,7 +86,7 @@ Edge.
 You can also go directly to `edX Edge`_. Log in if prompted. You see the course you
 just created listed on your **My Courses** dashboard:
 
-.. image:: ../../../shared/building_and_running_chapters/Images/new_course.png
+.. image:: ../../../shared/Images/new_course.png
  :width: 600
  :alt: The Edge Dashboard.
 

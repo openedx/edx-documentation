@@ -23,7 +23,7 @@ problem to evaluate a learner's response or provide hints. These problems can
 be any type. Numerical input and text input problems are the most common
 write-your-own-grader problems.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/CustomPythonExample.png
+.. image:: ../../../shared/Images/CustomPythonExample.png
  :alt: An image of a write-your-own-grader problem.
 
 You can create a Python-evaluated input problem in :ref:`answer tag format
@@ -61,7 +61,7 @@ Script Tag Format
 
 The script tag format encloses a Python script that contains a "check function"
 in a ``<script>`` tag, and adds the ``cfn`` attribute of the
-``<customresponse>`` tag to reference that function. 
+``<customresponse>`` tag to reference that function.
 
 This section contains the following information about using the ``<script>``
 tag.
@@ -84,7 +84,7 @@ The ``check`` function in a ``<script>`` tag accepts two arguments.
 
     * The value of the answer the learner provided, if the problem only has one
       response field.
-    
+
     * An ordered list of answers the learner provided, if the problem has
       multiple response fields.
 
@@ -106,12 +106,12 @@ whether the learner's answer is correct:
   marked correct. If it is set to ``False``, all response fields are marked
   incorrect. If it is set to ``"Partial"``, the learner receives 50% of the
   problem points. The ``msg`` is displayed below all response fields, and it
-  can contain XHTML markup. 
+  can contain XHTML markup.
 
-* A dictionary of the form 
+* A dictionary of the form
 
-  .. code-block:: xml     
-    
+  .. code-block:: xml
+
     { 'overall_message': 'Overall message',
         'input_list': [
             { 'ok': True, 'msg': 'Feedback for input 1'},
@@ -165,7 +165,7 @@ tag.
   <solution>
     <div class="detailed-solution">
       <p>Explanation</p>
-      <p>Any set of integers on the line \(y = 10 - x\) and \(y = 20 - x\) 
+      <p>Any set of integers on the line \(y = 10 - x\) and \(y = 20 - x\)
          satisfies these constraints.</p>
       <p>You can also add images within the solution clause, like so:</p>
       <img src="/static/images/placeholder-image.png"/>
@@ -174,7 +174,7 @@ tag.
 
   </problem>
 
-.. Important:: 
+.. Important::
  Python honors indentation. Within the ``<script>`` tag, the ``def
  check_func(expect, ans):`` line must have no indentation.
 
@@ -272,13 +272,13 @@ To create a custom Python-evaluated input problem using a ``<script>`` tag:
   <solution>
       <div class="detailed-solution">
           <p>Explanation</p>
-          <p>For part 1, any two numbers of the form <i>n</i> and <i>10-n</i>, 
-          where <i>n</i> is any integer, will work. One possible answer would 
+          <p>For part 1, any two numbers of the form <i>n</i> and <i>10-n</i>,
+          where <i>n</i> is any integer, will work. One possible answer would
           be the pair 0 and 10.</p>
           <p>For part 2, any pair <i>x</i> and <i>20-x</i> will work, where <i>
-          x</i> is any real number with a finite decimal representation. Both 
-          numbers have to be entered either in standard decimal notation or in 
-          scientific exponential notation. One possible answer would be the 
+          x</i> is any real number with a finite decimal representation. Both
+          numbers have to be entered either in standard decimal notation or in
+          scientific exponential notation. One possible answer would be the
           pair 0.5 and 19.5. Another way to write this would be 5e-1 and 1.95e1.</p>
       </div>
   </solution>
@@ -358,8 +358,8 @@ percentage of points. For more information, see the following sections.
 * :ref:`Award a Percentage of Credit`
 
 .. only:: Partners
- 
- .. note:: 
+
+ .. note::
     Support for partial credit problems in courses on edx.org and edX
     Edge is provisional. Ensure that you test such problems thoroughly before
     releasing them to learners. For more information, contact your edX program
@@ -380,14 +380,14 @@ following ways.
 
 * Return the value ``"Partial"`` in the dictionary that is returned, in the
   following form.
-  
-  ``{ 'ok': 'Partial', 'msg': 'Message' }`` 
+
+  ``{ 'ok': 'Partial', 'msg': 'Message' }``
 
 * Return the value ``"Partial"`` as part of the input list for multi-part
   problems.
 
-  .. code-block:: xml     
-    
+  .. code-block:: xml
+
     { 'overall_message': 'Overall message',
         'input_list': [
             { 'ok': True, 'msg': 'Feedback for input 1'},
@@ -412,7 +412,7 @@ half credit<Award Half Credit>`.
 
 In the following example, the learner's score equals the answer divided by 100.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/partial-credit-python-problem.png
+.. image:: ../../../shared/Images/partial-credit-python-problem.png
  :alt: An image of a write-your-own-grader problem that provides partial
      credit.
 
@@ -421,12 +421,12 @@ The following code shows the configuration of this problem.
 .. code-block:: xml
 
   <problem>
-  <p>In the following problem, the learner receives a score that equals the 
-     answer / 100. If the learner's answer is greater than 100 or less than 0, 
+  <p>In the following problem, the learner receives a score that equals the
+     answer / 100. If the learner's answer is greater than 100 or less than 0,
      the score equals 0.</p>
- 
+
   <script type="loncapa/python">
- 
+
   def give_partial_credit(expect, ans):
     ans = float(ans)
     if ans > 100 or ans < 0:
@@ -436,10 +436,10 @@ The following code shows the configuration of this problem.
     return {
         'input_list': [
            { 'ok': True, 'msg': 'Your grade is ' + str(ans) + '%', 'grade_decimal':grade},
-        ] 
+        ]
     }
   </script>
- 
+
   <p>Enter a number beween 0 and 100.</p>
   <customresponse cfn="give_partial_credit">
     <textline points="100" size="40" label="Ans1"/><br/>
@@ -455,7 +455,7 @@ In this example:
   100, and if so divides the learner's answer by 100 to determine the grade.
 
 * The ``input_list`` that is returned specifies that:
-  
+
   * The answer is acceptable and can receive partial or full credit, with the
     item ``'ok': True``.
 
@@ -474,9 +474,9 @@ Create a Randomized Custom Python-Evaluated Input Problem
 ===========================================================
 
 You can create a custom Python-evaluated input problem that randomizes
-variables in the Python code. 
+variables in the Python code.
 
-.. note:: 
+.. note::
   In the problem settings, you must set the **Randomization** value to
   something other than **Never** to have Python variables randomized. See
   :ref:`Randomization` for more information.
@@ -492,8 +492,8 @@ input problem.
 
   <problem>
     <p>Some problems in the course will utilize randomized parameters.
-       For such problems, after you check your answer you will have the option 
-       of resetting the question, which reconstructs the problem with a new 
+       For such problems, after you check your answer you will have the option
+       of resetting the question, which reconstructs the problem with a new
        set of parameters.</p>
   <script type="loncapa/python">
   x1 = random.randint(0, 100)
@@ -502,7 +502,7 @@ input problem.
   </script>
   <p>Let (x_1 = $x1) and (x_2 = $x2). What is the value of (x_1+x_2)?</p>
   <numericalresponse answer="$y">
-    <responseparam type="tolerance" default="0.01%" name="tol" 
+    <responseparam type="tolerance" default="0.01%" name="tol"
       description="Numerical Tolerance"/>
     <textline size="10"/>
   </numericalresponse>
@@ -533,7 +533,7 @@ example.
       overall_message = 'Please try again'
   </answer>
 
-.. important:: 
+.. important::
   Python honors indentation. Within the ``<answer>`` tag, you must begin your
   script with no indentation.
 
@@ -589,6 +589,6 @@ Create a Custom Python-Evaluated Input Problem in Answer Tag Format
         </answer>
     </problem>
 
-.. important:: 
+.. important::
   Python honors indentation. Within the ``<answer>`` tag, you must begin your
   script with no indentation.
