@@ -7,7 +7,7 @@ Developing Course Sections
 To develop sections in your course, you must first understand the following
 topics.
 
-.. contents:: 
+.. contents::
   :local:
   :depth: 2
 
@@ -26,7 +26,7 @@ Viewing Sections in the Outline
 The following example shows four sections, all collapsed, in the course
 outline.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/sections-outline.png
+.. image:: ../../../shared/Images/sections-outline.png
  :alt: Four sections in the outline.
 
 ******************************
@@ -37,7 +37,7 @@ Learners see sections in the **Courseware** tab. Learners can expand one
 section at a time to see its contents. In the following example, three sections
 are circled, and the third one is expanded to show its subsections.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/sections_student.png
+.. image:: ../../../shared/Images/sections_student.png
  :alt: The learner view of the course with two sections circled.
 
 ************************************************
@@ -85,7 +85,7 @@ default release date is the course start date.
 The following example shows how an unscheduled section displays in the
 outline, summarized with a gray bar.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/section-unscheduled.png
+.. image:: ../../../shared/Images/section-unscheduled.png
  :alt: An unscheduled section.
 
 To make the content available to learners, you must schedule the release date.
@@ -101,7 +101,7 @@ content within the section, the entire section will not visible to learners.
 The following example shows how a section that is scheduled for release
 displays in the outline, summarized with a green bar.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/section-future.png
+.. image:: ../../../shared/Images/section-future.png
  :alt: A section scheduled to release in the future.
 
 The scheduled date must pass for the section to be visible to learners.
@@ -117,7 +117,7 @@ published.
 The following example shows how a released section displays in the outline,
 summarized with a blue bar.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/section-released.png
+.. image:: ../../../shared/Images/section-released.png
  :alt: A released section.
 
 ==================================
@@ -127,11 +127,11 @@ Released with Unpublished Changes
 If you change a unit in a released section but do not publish the changes,
 learners see the last published version of the modified unit.
 
-The following example shows how a released section with unpublished changes 
+The following example shows how a released section with unpublished changes
 displays in the outline, with a yellow bar. The section is expanded to show
 the unit with unpublished changes.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/section-unpublished-changes.png
+.. image:: ../../../shared/Images/section-unpublished-changes.png
  :alt: A section with unpublished changes.
 
 You must publish the unit for learners to see the updates.
@@ -147,7 +147,7 @@ regardless of the release date of the section or subsection.
 The following example shows how a section that contains a unit that is hidden
 from learners displays in the outline, summarized with a black bar.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/section-hidden-unit.png
+.. image:: ../../../shared/Images/section-hidden-unit.png
  :alt: A section with a hidden unit.
 
 
@@ -159,12 +159,12 @@ Create a Section
 
 If you do not change the :ref:`course start date<Set Start and End Dates>`
 default value, ``1/1/2030``, when you create a new section, its release date
-will be ``Unscheduled``. 
+will be ``Unscheduled``.
 
 If you have modified the course start date, when you create a new section, the
 default release date is the course start date.
 
-.. caution:: 
+.. caution::
  If the course start date is in the past, newly created sections are
  immediately visible to learners.
 
@@ -172,7 +172,7 @@ To create a new section, follow these steps.
 
 #. On the **Course Outline** page, select **New Section**. This option appears
    at both the top of the page and below the current sections in the outline.
-   
+
    A new section appears at the end of the course content, with the section
    name selected.
 
@@ -181,7 +181,7 @@ To create a new section, follow these steps.
    you analyze performance in edX Insights.
 
 #. :ref:`Add subsections<Create a Subsection>` to the new section as needed.
-   
+
 It is recommended that you :ref:`test course content <Testing Your Course
 Content>` as you create new sections.
 
@@ -192,7 +192,7 @@ Change a Section Name
 To edit a section name, move your cursor over the section name to show the
 **Edit** icon.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/section-edit-icon.png
+.. image:: ../../../shared/Images/section-edit-icon.png
   :alt: The Edit Section Name icon.
 
 Select the **Edit** icon next to the section name. The name field becomes
@@ -208,13 +208,13 @@ Set a Section Release Date
 To set the section release date, follow these steps.
 
 #. Select the **Configure** icon in the section box.
-   
-   .. image:: ../../../shared/building_and_running_chapters/Images/section-settings-box.png
+
+   .. image:: ../../../shared/Images/section-settings-box.png
     :alt: The section settings icon circled.
 
    The **Settings** dialog box opens.
 
-#. Enter the release date and time for the section. 
+#. Enter the release date and time for the section.
 
   .. note:: The time that you set, and the time that learners see, is in
    Coordinated Universal Time (UTC). You might want to verify that you have
@@ -235,10 +235,10 @@ Publish all Units in a Section
 To publish all new and changed units in a section, select the **Publish** icon
 in the box for the section.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/outline-publish-icon-section.png
+.. image:: ../../../shared/Images/outline-publish-icon-section.png
  :alt: Publishing icon for a section.
 
-.. note:: 
+.. note::
  The **Publish** icon only appears when there is new or changed content within
  the section.
 
@@ -259,8 +259,8 @@ For more information, see :ref:`Content Hidden from Students`.
 To hide a section from learners, follow these steps.
 
 #. Select the **Configure** icon in the section box.
-   
-   .. image:: ../../../shared/building_and_running_chapters/Images/section-settings-box.png
+
+   .. image:: ../../../shared/Images/section-settings-box.png
     :alt: The section settings icon circled.
 
    The **Settings** dialog box opens.
@@ -288,7 +288,7 @@ Delete a Section
 When you delete a section, you delete all subsections and units within the
 section.
 
-.. warning::  
+.. warning::
  You cannot restore course content after you delete it. To ensure you do not
  delete content you may need later, you can move any unused content to a
  section in your course that you set to never release.
@@ -297,7 +297,7 @@ To delete a section, follow these steps.
 
 #. Select the **Delete** icon in the section that you want to delete.
 
-  .. image:: ../../../shared/building_and_running_chapters/Images/section-delete.png
+  .. image:: ../../../shared/Images/section-delete.png
    :alt: The section with Delete icon circled.
 
 2. When you receive the confirmation prompt, select **Yes, delete this

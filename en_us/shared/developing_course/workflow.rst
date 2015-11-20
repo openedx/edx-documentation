@@ -43,15 +43,15 @@ Creating New Course Content
 ****************************************
 
 Once you understand the way edX courses are structured, you can start
-organizing your content and entering it into Studio. 
+organizing your content and entering it into Studio.
 
 You create :ref:`sections<Create a Section>`, :ref:`subsections<Create a
 Subsection>`, and :ref:`units<Create a Unit>` in the :ref:`course
-outline<Developing Your Course Outline>`. 
+outline<Developing Your Course Outline>`.
 
 For graded subsections, you also
 :ref:`set the assignment type and due date<Set the Assignment Type and Due Date
-for a Subsection>`. 
+for a Subsection>`.
 
 You :ref:`create components<Add a Component>` in the unit
 page.
@@ -61,7 +61,7 @@ Visibility>` by setting release dates on the outline and publishing units.
 
 The following diagram summarizes the content creation workflow:
 
-.. image:: ../../../shared/building_and_running_chapters/Images/workflow-create-content.png
+.. image:: ../../../shared/Images/workflow-create-content.png
  :alt: Diagram of the content creation process
 
 It is recommended that you :ref:`test course content <Testing Your Course
@@ -74,7 +74,7 @@ Making Course Content Visible to Students
 ******************************************************
 
 When you create your content, you'll also specify if and when students will be
-able to see it. Content visibility depends on several factors: 
+able to see it. Content visibility depends on several factors:
 
 * The :ref:`course start date <Set Start and End Dates>`
 * The release dates of the :ref:`section<Set a Section Release Date>` and
@@ -82,7 +82,7 @@ able to see it. Content visibility depends on several factors:
 * The :ref:`publishing status<Hide a Unit from Students>` of the unit
 * The :ref:`Hide content from students<Hide a Unit from Students>` setting
 * The use of :ref:`Content Groups`
-  
+
 For more information, see :ref:`Controlling Content Visibility`.
 
 .. _Making Course Content Searchable:
@@ -93,11 +93,11 @@ Making Course Content Searchable
 
 Learners can search course text in :ref:`HTML components<Working with HTML
 Components>` and video transcripts by using the **Search** box in the upper-left
-corner of the **Courseware** tab. 
+corner of the **Courseware** tab.
 
 Before learners can search your course, Studio must index the content. Studio
 indexes all new course content automatically when you :ref:`publish<Publish a
-Unit>` the content. 
+Unit>` the content.
 
 If necessary, you can manually reindex all of the content in your course at any
 time. Typically, you would only manually reindex your course content if learners
@@ -111,7 +111,7 @@ usually takes less than 30 seconds.
 Revising Content
 ****************************
 
-You can revise your course content at any time. 
+You can revise your course content at any time.
 
 * When you :ref:`reorganize sections, subsections, and units<Reorganize the
   Course Outline>` in the outline, the new order is immediately visible to
@@ -124,7 +124,7 @@ You can revise your course content at any time.
 The following diagram summarizes the content revision workflow and content
 visibility:
 
-.. image:: ../../../shared/building_and_running_chapters/Images/workflow-revise-content.png
+.. image:: ../../../shared/Images/workflow-revise-content.png
  :alt: Diagram of the content creation process
 
 It is recommended that you :ref:`test course content <Testing Your Course

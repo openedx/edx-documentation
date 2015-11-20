@@ -7,7 +7,7 @@ Developing Course Subsections
 To develop subsections in your course, you must first understand the
 following topics.
 
-.. contents:: 
+.. contents::
   :local:
   :depth: 2
 
@@ -26,7 +26,7 @@ Viewing Subsections in the Outline
 The following example shows three subsections in a section, all collapsed, in
 the course outline.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/subsections.png
+.. image:: ../../../shared/Images/subsections.png
  :alt: Three collapsed subsections in the outline.
 
 *********************************
@@ -37,7 +37,7 @@ Learners see subsections on the **Courseware** page, listed beneath the
 expanded section. In the following example, seven subsections are circled, and
 the first is open.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/subsections_student.png
+.. image:: ../../../shared/Images/subsections_student.png
  :alt: The learner view of the outline.
 
 ************************************************
@@ -87,7 +87,7 @@ subsection is visible to learners at the date and time the section is released.
 The following example shows how a subsection in the Scheduled with Section
 state displays in the outline, summarized with a green bar.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/subsection-scheduled.png
+.. image:: ../../../shared/Images/subsection-scheduled.png
  :alt: A subsection scheduled to release with the section.
 
 You can change the release date for a subsection to be different from the
@@ -107,7 +107,7 @@ in an unscheduled subsection is visible to learners.
 The following example shows how an unscheduled subsection displays in the
 outline, summarized with a gray bar.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/subsection-unscheduled.png
+.. image:: ../../../shared/Images/subsection-unscheduled.png
  :alt: An unscheduled subsection.
 
 Content in the subsection is not visible to learners until you set a release
@@ -117,7 +117,7 @@ date and the date passes.
 Scheduled Later than the Section
 ===================================
 
-You can set a subsection to release on a date after the section releases. 
+You can set a subsection to release on a date after the section releases.
 
 Content in a subsection that is scheduled for release on a future date is not
 visible to learners, even if some or all of the units in the subsection are
@@ -126,7 +126,7 @@ published.
 The following example shows the way that a subsection that will release after
 its parent subsection displays in the course outline.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/subsection-scheduled-different.png
+.. image:: ../../../shared/Images/subsection-scheduled-different.png
  :alt: A subsection scheduled to release later than the section.
 
 The scheduled date must pass for the subsection to be visible to learners.
@@ -136,7 +136,7 @@ Scheduled with Unpublished Changes
 ==================================
 
 You can make changes to a published unit before its parent subsection
-is released. 
+is released.
 
 In this situation, when the release date for the subsection passes, the last
 published version of units within the subsection are made visible to learners.
@@ -145,7 +145,7 @@ The changes in units are not visible to learners until you publish them.
 The following example shows how a scheduled subsection with unpublished changes
 displays in the outline, summarized with a yellow bar.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/section-scheduled-with-changes.png
+.. image:: ../../../shared/Images/section-scheduled-with-changes.png
  :alt: A scheduled subsection with unpublished changes.
 
 ==================================
@@ -158,7 +158,7 @@ visible to students until you publish them.
 The following example shows how a released section that has unpublished changes
 displays in the outline, summarized with a yellow bar.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/section-released-with-changes.png
+.. image:: ../../../shared/Images/section-released-with-changes.png
  :alt: A released subsection with unpublished changes.
 
 ===========================
@@ -171,7 +171,7 @@ only units within the subsection that are published.
 The following example shows how a released subsection displays in the
 outline, summarized with a blue bar.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/subsection-released.png
+.. image:: ../../../shared/Images/subsection-released.png
  :alt: A released subsection.
 
 ===========================
@@ -186,7 +186,7 @@ The following example shows how a section with a subsection that contains a
 unit with staff only content displays in the outline, summarized with a black
 bar.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/section-hidden-unit.png
+.. image:: ../../../shared/Images/section-hidden-unit.png
  :alt: A subsection with a hidden unit.
 
 .. _Create a Subsection:
@@ -206,7 +206,7 @@ To create a new subsection, follow these steps.
    locate content in the courseware. It can also help you select content when
    you analyze performance in edX Insights.
 #. :ref:`Add units<Create a Unit>` to the new subsection as needed.
-   
+
 It is recommended that you :ref:`test course content <Testing Your Course
 Content>` as you create new subsections.
 
@@ -227,8 +227,8 @@ Set a Subsection Release Date
 To set the subsection release date, follow these steps.
 
 #. Select the **Configure** icon in the subsection box.
-   
-   .. image:: ../../../shared/building_and_running_chapters/Images/subsections-settings-icon.png
+
+   .. image:: ../../../shared/Images/subsections-settings-icon.png
     :alt: The subsection settings icon circled.
 
    The **Settings** dialog box opens.
@@ -251,7 +251,7 @@ For more information, see :ref:`Release Dates`.
 Set the Assignment Type and Due Date for a Subsection
 ********************************************************
 
-You set the assignment type for problems at the subsection level. 
+You set the assignment type for problems at the subsection level.
 
 When you set the assignment type for a subsection, all problems within the
 subsection are graded and weighted as a single type. For example, if you
@@ -265,8 +265,8 @@ problem types in that subsection are graded as homework.
 To set the assignment type and due date for a subsection, follow these steps.
 
 #. Select the **Configure** icon in the subsection box.
-   
-   .. image:: ../../../shared/building_and_running_chapters/Images/subsections-settings-icon.png
+
+   .. image:: ../../../shared/Images/subsections-settings-icon.png
     :alt: The subsection settings icon circled.
 
    The Settings dialog box opens.
@@ -297,10 +297,10 @@ Publish All Units in a Subsection
 To publish all new and changed units in a subsection, select the **Publish**
 icon in the box for the subsection.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/outline-publish-icon-subsection.png
+.. image:: ../../../shared/Images/outline-publish-icon-subsection.png
  :alt: Publishing icon for a subsection
 
-.. note:: 
+.. note::
  The **Publish** icon only appears when there is new or changed content within
  the subsection.
 
@@ -321,8 +321,8 @@ For more information, see :ref:`Content Hidden from Students`.
 To hide a subsection from learners, follow these steps.
 
 #. Select the **Configure** icon in the subsection box.
-   
-   .. image:: ../../../shared/building_and_running_chapters/Images/subsections-settings-icon.png
+
+   .. image:: ../../../shared/Images/subsections-settings-icon.png
      :alt: The subsection settings icon circled.
 
    The **Settings** dialog box opens.
@@ -351,7 +351,7 @@ Delete a Subsection
 
 When you delete a subsection, you delete all units within the subsection.
 
-.. warning::  
+.. warning::
  You cannot restore course content after you delete it. To ensure you do not
  delete content you may need later, you can move any unused content to a
  section in your course that you set to never release.
@@ -360,7 +360,7 @@ To delete a subsection, follow these steps.
 
 #. Select the **Delete** icon in the subsection that you want to delete.
 
-  .. image:: ../../../shared/building_and_running_chapters/Images/subsection-delete.png
+  .. image:: ../../../shared/Images/subsection-delete.png
    :alt: The subsection with Delete icon circled.
 
 2. When you receive the confirmation prompt, select **Yes, delete this

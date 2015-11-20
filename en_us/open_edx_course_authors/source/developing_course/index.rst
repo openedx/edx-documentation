@@ -4,7 +4,7 @@
 Developing Your Course
 ##########################
 
-Use the chapters in this section to understand how to develop your course
+Use the topics in this section to understand how to develop your course
 content in the Studio Outline page.
 
 For information on building specific course component types, see :ref:`Creating
