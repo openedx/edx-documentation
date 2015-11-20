@@ -12,6 +12,5 @@ see :ref:`Developing Your Course Index`.
 .. toctree::
    :maxdepth: 2
 
-   establish_grading_policy
    course_rerun
 

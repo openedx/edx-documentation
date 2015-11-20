@@ -1,10 +1,11 @@
-.. _Building Your Course Index:
+.. _Grading Index:
 
 ##########################
-Building Your Course
+Grading Your Course
 ##########################
 
-Use the topics in this section to build your course.
+Use the topics in this section to learn about setting up grading for your
+course.
 
 For information on how to develop your course content in the Studio Outline,
 see :ref:`Developing Your Course Index`.
@@ -12,6 +13,6 @@ see :ref:`Developing Your Course Index`.
 .. toctree::
    :maxdepth: 2
 
-   course_rerun
+   establish_grading_policy
 
 

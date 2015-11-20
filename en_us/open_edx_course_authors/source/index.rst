@@ -18,6 +18,7 @@ Building and Running an Open edX Course
    exercises_tools/index
    course_assets/index
    course_features/index
+   grading/index
    releasing_course/index
    running_course/index
    edit_course/index
