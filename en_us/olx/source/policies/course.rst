@@ -6,6 +6,10 @@ Course Policies
 
 You create a course policy file to specify metadata about your course.
 
+.. contents::
+  :local:
+  :depth: 1
+
 *******************************
 Create the Course Policy File
 *******************************
@@ -16,7 +20,6 @@ Save the ``policy.json`` file in the ``policy/<course-name>`` directory.
 
 The ``<course-name>`` directory  must match the value of the ``url_name``
 attribute in the ``course.xml`` file.
-
 
 ************************************
 Course Policy JSON Objects
@@ -41,7 +44,8 @@ Course Policy JSON Objects
      * - ``end``
        - The end date for the course.  For example: ``"2012-11-05T12:00"``.
      * - ``end_of_course_survey_url``
-       - The url for an end of course survey. The link is shown after the course is over, next to certificate download links.
+       - The url for an end of course survey. The link is shown after the
+         course is over, next to certificate download links.
      * - ``tabs``
        - Custom pages, or tabs, in the courseware.  See below for details.
      * - ``discussion_blackouts``

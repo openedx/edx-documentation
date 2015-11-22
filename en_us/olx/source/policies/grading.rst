@@ -7,16 +7,20 @@ Grading Policy
 You create a grading policy file to specify how problems are graded in your
 course.
 
+.. contents::
+  :local:
+  :depth: 1
+
 *******************************
 Create the Grading Policy File
 *******************************
 
-You define policies for your course in the ``grading_policy.json`` file. 
+You define policies for your course in the ``grading_policy.json`` file.
 
 Save the ``grading_policy.json`` file in the ``policy/<course-name>``
 directory.
 
-The ``<course-name>`` directory  must match the value of the ``url_name``
+The ``<course-name>`` directory must match the value of the ``url_name``
 attribute in the ``course.xml`` file.
 
 ************************************
@@ -33,7 +37,7 @@ Course Policy JSON Objects
      * - ``GRADER``
        - For each assignment type:
 
-         * ``min_count``:???
+         * ``min_count``: TBD
          * ``weight``: The percentage of the total grade determined by
             assignments of this type. The total value for all assignment types
             must equal 1.0.
@@ -50,20 +54,20 @@ Example Grading Policy File
 .. code-block:: json
 
     {
-        "GRADE_CUTOFFS": {"Pass": 0.6}, 
+        "GRADE_CUTOFFS": {"Pass": 0.6},
         "GRADER": [
                     {
-                        "min_count": 3, 
-                        "weight": 0.75, 
-                        "type": "Homework", 
-                        "drop_count": 1, 
+                        "min_count": 3,
+                        "weight": 0.75,
+                        "type": "Homework",
+                        "drop_count": 1,
                         "short_label": "Ex"
-                    }, 
+                    },
                     {
-                        "short_label": "", 
-                        "min_count": 1, 
-                        "type": "Exam", 
-                        "drop_count": 0, 
+                        "short_label": "",
+                        "min_count": 1,
+                        "type": "Exam",
+                        "drop_count": 0,
                         "weight": 0.25
                     }
                   ]

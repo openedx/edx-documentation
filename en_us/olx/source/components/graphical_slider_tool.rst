@@ -14,20 +14,23 @@ Graphical slider tool (GST) main tag is::
 
     <graphical_slider_tool> BODY </graphical_slider_tool>
 
-``graphical_slider_tool`` tag must have two children tags: ``render``
-and ``configuration``.
+The ``graphical_slider_tool`` tag must have two child tags, ``render`` and
+``configuration``.
 
 
 Render tag
 ----------
 
-Render tag can contain usual html tags mixed with some GST specific tags::
+The ``render`` tag can contain the usual HTML tags mixed with some GST-specific
+tags.
+
+::
 
     <slider/> - represents jQuery slider for changing a parameter's value
     <textbox/> - represents a text input field for changing a parameter's value
     <plot/> - represents Flot JS plot element
 
-Also GST will track all elements inside ``<render></render>`` where ``id``
+Also, GST will track all elements inside ``<render></render>`` where ``id``
 attribute is set, and a corresponding parameter referencing that ``id`` is
 present in the configuration section below. These will be referred to as
 dynamic elements.
@@ -63,19 +66,21 @@ input - they are optional.
 You can put only one ``<plot>`` in the ``<render>`` section. It is not
 required.
 
-
 Slider tag
 ..........
 
-Slider tag must have ``var`` attribute and optional ``style`` attribute::
+The ``slider`` tag must include the ``var`` attribute, and can include the
+optional ``style`` attribute.
+
+::
 
     <slider var='a' style="width:400px;float:left;" />
 
-After processing, slider tags will be replaced by jQuery UI sliders with
+After processing, ``slider`` tags will be replaced by jQuery UI sliders with
 applied ``style`` attribute.
 
-``var`` attribute must correspond to a parameter. Parameters can be used in any
-of the ``function`` tags in ``functions`` tag. By moving slider, value of
+The ``var`` attribute must correspond to a parameter. Parameters can be used in
+any of the ``function`` tags in ``functions`` tag. By moving slider, value of
 parameter ``a`` will change, and so result of function, that depends on
 parameter ``a``, will also change.
 
@@ -83,16 +88,19 @@ parameter ``a``, will also change.
 Textbox tag
 ...........
 
-Texbox tag must have ``var`` attribute and optional ``style`` attribute::
+The ``textbox`` tag must include the ``var`` attribute, and can include the
+optional ``style`` attribute.
+
+::
 
     <textbox var="b" style="width:50px; float:left; margin-left:10px;" />
 
-After processing, textbox tags will be replaced by html text inputs with
+After processing, ``textbox`` tags will be replaced by html text inputs with
 applied ``style`` attribute. If you want a readonly text input, then you should
 use a dynamic element instead (see section below "HTML tagsd with ID").
 
-``var`` attribute must correspond to a parameter. Parameters can be used in any
-of the ``function`` tags in ``functions`` tag. By changing the value on the
+The ``var`` attribute must correspond to a parameter. Parameters can be used in
+any of the ``function`` tags in ``functions`` tag. By changing the value on the
 text input, value of parameter ``a`` will change, and so result of function,
 that depends on parameter ``a``, will also change.
 
@@ -100,19 +108,21 @@ that depends on parameter ``a``, will also change.
 Plot tag
 ........
 
-Plot tag may have optional ``style`` attribute::
+The ``plot`` tag can include the optional ``style`` attribute.
+
+::
 
     <plot style="width:50px; float:left; margin-left:10px;" />
 
-After processing plot tags will be replaced by Flot JS plot with applied
+After processing, ``plot`` tags will be replaced by Flot JS plot with applied
 ``style`` attribute.
 
 
 HTML tags with ID (dynamic elements)
 ....................................
 
-Any HTML tag with ID, e.g. ``<span id="answer_span_1">`` can be used as a place
-where result of function can be inserted. To insert function result to an
+Any HTML tag with ID, e.g. ``<span id="answer_span_1">``, can be used as a
+place where result of function can be inserted. To insert function result to an
 element, element ID must be included in ``function`` tag as ``el_id`` attribute
 and ``output`` value must be ``"element"``::
 
@@ -129,72 +139,71 @@ and ``output`` value must be ``"element"``::
 Configuration tag
 -----------------
 
-The configuration tag contains parameter settings, graph
-settings, and function definitions which are to be plotted on the
-graph and that use specified parameters.
+The ``configuration`` tag contains parameter settings, graph settings, and
+function definitions which are to be plotted on the graph and that use
+specified parameters.
 
-Configuration tag contains two mandatory tag ``functions`` and ``parameters``
-and may contain another ``plot`` tag.
+The ``configuration`` tag has two mandatory tags, ``functions`` and
+``parameters``, and can include the ``plot`` tag.
 
 
 Parameters tag
 ..............
 
-``Parameters`` tag contains ``parameter`` tags. Each ``parameter`` tag must have
-``var``, ``max``, ``min``, ``step`` and ``initial`` attributes::
+The ``parameters`` tag contains ``parameter`` tags. Each ``parameter`` tag must
+include the ``var``, ``max``, ``min``, ``step`` and ``initial`` attributes.
+
+::
 
         <parameters>
                 <param var="a" min="-10.0" max="10.0" step="0.1" initial="0" />
                 <param var="b" min="-10.0" max="10.0" step="0.1" initial="0" />
         </parameters>
 
-``var`` attribute links min, max, step and initial values to parameter name.
+The ``var`` attribute links min, max, step and initial values to parameter
+name.
 
-``min`` attribute is the minimal value that a parameter can take. Slider and input
-values can not go below it.
+The ``min`` attribute is the minimum value that a parameter can take. Slider
+and input values cannot be less than the value of the ``min`` attribute.
 
-``max`` attribute is the maximal value that a parameter can take. Slider and input
-values can not go over it.
+The ``max`` attribute is the maximum value that a parameter can take. Slider
+and input values cannot be greater than the value of the ``max`` attribute.
 
-``step`` attribute is value of slider step. When a slider increase or decreases
-the specified parameter, it will do so by the amount specified with 'step'
+The ``step`` attribute is value of slider step. When a slider increase or
+decreases the specified parameter, it will do so by the amount specified with
+``step``.
 
-``initial`` attribute is the initial value that the specified parameter should be
-set to. Sliders and inputs will initially show this value.
+The ``initial`` attribute is the initial value that the specified parameter
+should be set to. Sliders and inputs will initially show this value.
 
-The parameter's name is specified by the ``var`` property. All occurrences
-of sliders and/or text inputs that specify a ``var`` property, will be
-connected to this parameter - i.e. they will reflect the current
-value of the parameter, and will be updated when the parameter
-changes.
+The parameter's name is specified by the ``var`` property. All occurrences of
+sliders and/or text inputs that specify a ``var`` property will be connected to
+this parameter. That is, they will reflect the current value of the parameter,
+and will be updated when the parameter changes.
 
-If at lest one of these attributes is not set, then the parameter
-will not be used, slider's and/or text input elements that specify
-this parameter will not be activated, and the specified functions
-which use this parameter will not return a numeric value. This means
-that neglecting to specify at least one of the attributes for some
-parameter will have the result of the whole GST instance not working
-properly.
-
+If at least one of these attributes is not set, then the parameter will not be
+used, sliders and/or text input elements that specify this parameter will not
+be activated, and the specified functions which use this parameter will not
+return a numeric value. This means that neglecting to specify at least one of
+the attributes for some parameter will have the result of the whole GST
+instance not working properly.
 
 Functions tag
 .............
 
-For the GST to do something, you must defined at least one
-function, which can use any of the specified parameter values. The
-function expects to take the ``x`` value, do some calculations, and
-return the ``y`` value. I.e. this is a 2D plot in Cartesian
-coordinates. This is how the default function is meant to be used for
-the graph.
+For the GST to do something, you must define at least one function, which can
+use any of the specified parameter values. The function expects to take the
+``x`` value, do some calculations, and return the ``y`` value. That is, this
+is a 2D plot in Cartesian coordinates. This is how the default function is
+meant to be used for the graph.
 
-There are other special cases of functions. They are used mainly for
-outputting to elements, plot labels, or for custom output. Because
-the return a single value, and that value is meant for a single element,
-these function are invoked only with the set of all of the parameters.
-I.e. no ``x`` value is available inside them. They are useful for
-showing the current value of a parameter, showing complex static
-formulas where some parameter's value must change, and other useful
-things.
+There are other special cases of functions. They are used mainly for outputting
+to elements, plot labels, or for custom output. Because they return a single
+value, and that value is meant for a single element, these function are invoked
+only with the set of all of the parameters. That is, no ``x`` value is
+available inside them. They are useful for showing the current value of a
+parameter, showing complex static formulas where some parameter's value must
+change, and other useful things.
 
 The different style of function is specified by the ``output`` attribute.
 
@@ -342,16 +351,15 @@ When specifying ``el_id``, it is essential to set "output" to one of
                  to "element", and including a HTML element in the label.
 
 The above values for "output" will tell GST that the function is meant for an
-HTML element (not for graph), and that it should not get an 'x' parameter (along
-with some value).
+HTML element (not for graph), and that it should not get an 'x' parameter
+(along with some value).
 
 
 [Note on MathJax and labels]
 ............................
 
-Independently of this module, will render all TeX code
-within the ``<render>`` section into nice mathematical formulas. Just
-remember to wrap it in one of::
+Independently of this module, will render all TeX code within the ``<render>``
+section into nice mathematical formulas. Just remember to wrap it in one of::
 
     \(  and  \)  -  for inline formulas (formulas surrounded by
                   standard text)
@@ -403,7 +411,8 @@ be called so that the new text will be re-rendered by MathJax. For example::
 Plot tag
 ........
 
-``Plot`` tag inside ``configuration`` tag defines settings for plot output.
+The ``plot`` tag, inside the ``configuration`` tag, defines settings for plot
+output.
 
 Required parameters::
 

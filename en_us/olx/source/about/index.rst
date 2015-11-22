@@ -4,8 +4,8 @@
 The Course About Pages
 #################################
 
-Use the chapters in this section to create the information prospective students
-will see about your course.
+Use the topics in this section to create the information that prospective
+learners will see about your course.
 
 .. toctree::
    :maxdepth: 2

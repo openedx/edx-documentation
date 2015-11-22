@@ -4,7 +4,7 @@
 Organizing Courseware
 ##################################
 
-Use the chapters in this section to organize your courseware with OLX.
+Use the topics in this section to organize your courseware with OLX.
 
 .. toctree::
    :maxdepth: 2

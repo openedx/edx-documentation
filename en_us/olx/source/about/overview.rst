@@ -4,26 +4,27 @@
 Course Overview
 #################################
 
-Each course must have an overview page. Students see the overview page when
+Each course must have an overview page. Learners see the overview page when
 searching and registering for the course.
 
 *********************************************
 Create the Overview File
 *********************************************
 
-You create an HTML file called ``overview.html`` in the ``overview`` directory.
+In the ``overview`` directory, you create an HTML file called
+``overview.html``.
 
 *********************************************
 Overview Sections
 *********************************************
 
-The ``overview.html`` must contain specific sections. 
+The ``overview.html`` must contain specific sections.
 
 Each section is wrapped in ``section`` tags. The value of the ``class``
 attribute specifies what the section is for and how it is displayed to
-students. Within the ``section`` tags, you use valid HTML.
+learners. Within the ``section`` tags, you use valid HTML.
 
-The overview must contain sections named the following:
+The overview must contain sections with the following names.
 
 * ``about``
 * ``prerequisites``
@@ -35,9 +36,9 @@ The overview must contain sections named the following:
 .. _A Template For Course Overview:
 
 ************************************************
- A Template For Your Course Overview
+A Template For Your Course Overview
 ************************************************
-  
+
 Replace the placeholders in the following template with your information.
 
 .. code-block:: html
@@ -76,11 +77,9 @@ Replace the placeholders in the following template with your information.
     <section class="responses">
       <h2>Frequently Asked Questions</h2>
       <article class="response">
-        <h3>Do I need to buy a textbook?</h3>
-        <p>No, a free online version of Chemistry: Principles, Patterns, and
-          Applications, First Edition by Bruce Averill and Patricia Eldredge
-          will be available, though you can purchase a printed version
-          (published by FlatWorld Knowledge) if you'd like.</p>
+        <h3>What web browser should I use?</h3>
+        <p>The Open edX platform works best with current versions of Chrome, Firefox or Safari, or with Internet Explorer version 9 and above.</p>
+        <p>See our <a href="http://edx.readthedocs.org/en/latest/browsers.html">list of supported browsers</a> for the most up-to-date information.</p>
       </article>
       <article class="response">
         <h3>Question 2?</h3>
