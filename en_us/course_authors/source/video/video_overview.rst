@@ -40,6 +40,8 @@ After these services are set up, course teams use Studio to upload one file to
 the edX servers for each of the videos that they want to include in their
 course. For more information, see :ref:`Uploading Videos in Studio`.
 
+.. _Video Encoding and Hosting Overview:
+
 ************************************
 Video Encoding and Hosting Overview
 ************************************

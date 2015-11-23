@@ -229,7 +229,7 @@ The encoding and hosting process assigns these statuses to video files.
 Statuses of **Invalid Token** or **Unknown** indicate a configuration
 problem. Inform your edX Partner Manager if these statuses appear.
 
-.. add an xref to the TBD overview section on the edX transcode-and-host process
+For more information, see :ref:`Video Encoding and Hosting Overview`.
 
 .. _Reporting Video Status:
 
