@@ -16,3 +16,4 @@ see :ref:`Developing Your Course Index`.
    content_experiments/index
    credit_courses/index
    timed_exams
+   lti/index

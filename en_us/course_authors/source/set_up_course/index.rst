@@ -18,4 +18,3 @@ see :ref:`Developing Your Course Index`.
    setting_up_student_view
    course_staffing
    creating_course_certificates
-   lti/index

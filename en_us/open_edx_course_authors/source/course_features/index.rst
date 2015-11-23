@@ -15,3 +15,4 @@ see :ref:`Developing Your Course Index`.
    cohorts/index
    content_experiments/index
    timed_exams
+   lti/index
