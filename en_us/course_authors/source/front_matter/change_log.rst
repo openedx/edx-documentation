@@ -13,6 +13,22 @@ This section lists changes in this document in 2015.
 For older changes, see :ref:`Change Log 2014`.
 
 ****************
+December 2015
+****************
+
+.. list-table::
+   :widths: 30 70
+   :header-rows: 1
+
+   * - Date
+     - Change
+   * - 2 December 2015
+     - Topics within this guide have been reorganized. New top level sections
+       include :ref:`Course Assets Index`, :ref:`Course Features Index`,
+       :ref:`Grading Index`, and :ref:`Manage Student Progress Index`.
+
+
+****************
 November 2015
 ****************
 

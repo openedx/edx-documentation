@@ -1,8 +1,8 @@
 .. _Manage Student Progress Index:
 
-##################################
-Manage Student Progress and Grades
-##################################
+####################################
+Managing Learner Progress and Grades
+####################################
 
 Use the topics in this section to learn about accessing learner data and
 managing learners' answers and grades in your course.

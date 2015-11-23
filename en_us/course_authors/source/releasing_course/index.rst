@@ -9,3 +9,4 @@ Releasing Your Course
 
    beta_testing
    course_launching
+   export_import_course

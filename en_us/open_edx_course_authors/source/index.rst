@@ -23,4 +23,3 @@ Building and Running an Open edX Course
    manage_live_course/index
    student_progress/index
    rerun_course/index
-   edit_course/index
