@@ -55,10 +55,20 @@ Be sure to review all supplemental materials to assure that they are accessible
 before making them available through your course. For more information, see
 :ref:`Accessibility Best Practices for Course Content Development`.
 
+You can also integrate content from a course into a remote learning management
+system such as Canvas or Blackboard.
 
-.. Alison Make this link V available when you add new LTI section to open source - Alison 14 Sept 15
+.. only:: Partners
 
-.. You can also integrate content from an edX course into a remote learning management system such as Canvas or Blackboard. For more information about how to use Studio as an LTI tool provider, see :ref:`TBD`.
+  For more information about how to use Studio as an LTI tool provider, see
+  :ref:`Using edX as an LTI Tool Provider`.
+
+.. only:: Open_edX
+
+  For more information about how to use Studio as an LTI tool provider, see
+  :ref:`Using Open edX as an LTI Tool Provider`.
+
+.. note the slightly different destination links ^. Alison 23 Nov 2015
 
 .. _LTI Information:
 
