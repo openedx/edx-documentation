@@ -21,4 +21,3 @@ see :ref:`Developing Your Course Index`.
    course_staffing
    creating_course_certificates
    custom_courses
-   lti/index
