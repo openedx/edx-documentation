@@ -212,4 +212,4 @@ the ``{course_id}_student_profile_info_{date}.csv`` file of learner data or the
 
 .. only:: Open_edX
 
-    .. include:: ../../../shared/manage_live_course/Section_course_student.rst
+    .. include:: ../../../shared/student_progress/Section_course_student.rst
