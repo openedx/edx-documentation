@@ -421,11 +421,9 @@ Enrollment Events
 
 This section includes descriptions of the following events.
 
-* ``edx.course.enrollment.activated``
-* ``edx.course.enrollment.deactivated``
-* ``edx.course.enrollment.mode_changed``
-* ``edx.course.enrollment.upgrade.clicked``
-* ``edx.course.enrollment.upgrade.succeeded``
+.. contents::
+  :local:
+  :depth: 1
 
 ``edx.course.enrollment.activated`` and ``edx.course.enrollment.deactivated``
 *****************************************************************************
@@ -609,10 +607,9 @@ Navigational Events
 
 This section includes descriptions of the following events.
 
-* ``page_close``
-* ``seq_goto``
-* ``seq_next``
-* ``seq_prev``
+.. contents::
+  :local:
+  :depth: 1
 
 ``page_close``
 **************
@@ -683,16 +680,9 @@ list, the original name, which is present in the ``event_type`` field for all
 events, is followed by a newer, revised name. The revised name is present in
 the ``name`` field only for events that have an ``event_source`` of 'mobile'.
 
-* ``hide_transcript``/``edx.video.transcript.hidden``
-* ``load_video``/``edx.video.loaded``
-* ``pause_video``/``edx.video.paused``
-* ``play_video``/``edx.video.played``
-* ``seek_video``/``edx.video.position.changed``
-* ``show_transcript``/``edx.video.transcript.shown``
-* ``speed_change_video``
-* ``stop_video``/``edx.video.stopped``
-* ``video_hide_cc_menu``
-* ``video_show_cc_menu``
+.. contents::
+  :local:
+  :depth: 1
 
 A browser or the edX mobile app emits video interaction events when a user
 interacts with a video.
@@ -1573,20 +1563,9 @@ Textbook Interaction Events
 
 This section includes descriptions of the following events.
 
-* ``book``
-* ``textbook.pdf.thumbnails.toggled``
-* ``textbook.pdf.thumbnail.navigated``
-* ``textbook.pdf.outline.toggled``
-* ``textbook.pdf.chapter.navigated``
-* ``textbook.pdf.page.navigated``
-* ``textbook.pdf.zoom.buttons.changed``
-* ``textbook.pdf.zoom.menu.changed``
-* ``textbook.pdf.display.scaled``
-* ``textbook.pdf.display.scrolled``
-* ``textbook.pdf.search.executed``
-* ``textbook.pdf.search.navigatednext``
-* ``textbook.pdf.search.highlight.toggled``
-* ``textbook.pdf.search.casesensitivity.toggled``
+.. contents::
+  :local:
+  :depth: 1
 
 ``book``
 *********************************
@@ -1905,10 +1884,10 @@ magnification setting from the zoom menu or resizes the browser window.
      - number
      - The number of the page that is open when the scaling takes place.
 
-``textbook.pdf.display.scrolled``
+``textbook.pdf.page.scrolled``
 *********************************
 
-The browser emits ``textbook.pdf.display.scrolled`` events each time the
+The browser emits ``textbook.pdf.page.scrolled`` events each time the
 displayed page changes while a user scrolls up or down.
 
 **Component**: PDF Viewer
@@ -1934,7 +1913,7 @@ displayed page changes while a user scrolls up or down.
      - 'up', 'down'
    * - ``name``
      - string
-     - ``textbook.pdf.display.scrolled``
+     - ``textbook.pdf.page.scrolled``
    * - ``page``
      - number
      - The number of the page that is open when the scrolling takes place.
@@ -2105,10 +2084,10 @@ selects or clears the **Highlight All** option for a search.
        Blank for successful search strings.
 
 
-``textbook.pdf.search.casesensitivity.toggled``
+``textbook.pdf.searchcasesensitivity.toggled``
 ************************************************
 
-The browser emits ``textbook.pdf.search.casesensitivity.toggled`` events when a
+The browser emits ``textbook.pdf.searchcasesensitivity.toggled`` events when a
 user selects or clears the **Match Case** option for a search.
 
 **Component**: PDF Viewer
@@ -2143,7 +2122,7 @@ user selects or clears the **Match Case** option for a search.
 
    * - ``name``
      - string
-     - ``textbook.pdf.search.casesensitivity.toggled``
+     - ``textbook.pdf.searchcasesensitivity.toggled``
    * - ``page``
      - number
      - The number of the page that is open when the search takes place.
@@ -2165,7 +2144,7 @@ Problem Interaction Events
 
 This section includes descriptions of the following events.
 
-.. contents:: Section Contents
+.. contents::
   :local:
   :depth: 1
 
@@ -2617,8 +2596,6 @@ shown; that is, the user selected **Show Answer**.
 The server emits ``reset_problem`` events when a problem has been reset
 successfully.
 
-.. %%what is the difference between reset_problem and problem_reset?
-
 **Event Source**: Server
 
 ``event`` **Member Fields**:
@@ -2730,18 +2707,14 @@ successfully.
      - object
      - Current problem state.
 
-``show_answer``
+``showanswer``
 *********************************
 
 .. no sample to check
 
-The server emits ``show_answer`` events when the answer to a problem is shown.
+The server emits ``showanswer`` events when the answer to a problem is shown.
 
 **Event Source**: Server
-
-**History**: The original name for this event was ``showanswer``.
-
-.. **Question** is this renaming info correct?
 
 ``event`` **Member Fields**:
 
@@ -2764,8 +2737,9 @@ Library Interaction Events
 
 This section includes descriptions of the following events.
 
-* ``edx.librarycontentblock.content.assigned``
-* ``edx.librarycontentblock.content.removed``
+.. contents::
+  :local:
+  :depth: 1
 
 Course teams in an organization can collaboratively contribute to libraries of
 content, such as a collection of problem components for a particular subject.
@@ -2924,10 +2898,9 @@ Discussion Forums Events
 
 This section includes descriptions of the following events.
 
-* ``edx.forum.comment.created``
-* ``edx.forum.response.created``
-* ``edx.forum.searched``
-* ``edx.forum.thread.created``
+.. contents::
+  :local:
+  :depth: 1
 
 The server emits discussion forums events when a user interacts with a course
 discussion. This section presents the discussion forum events alphabetically.
@@ -3795,8 +3768,9 @@ Testing Events for Content Experiments
 
 This section includes descriptions of the following events.
 
-* ``assigned_user_to_partition``
-* ``child_render``
+.. contents::
+  :local:
+  :depth: 1
 
 Course authors can configure course content to present modules that contain
 other modules. Content experiments, also known as A/B or split tests, use this
@@ -3833,8 +3807,8 @@ courses, see :ref:`partnercoursestaff:Add Content Experiments to Your Course`.
 
 **History**: These events were added on 12 Mar 2014.
 
-``assigned_user_to_partition``
-*********************************
+``xmodule.partitions.assigned_user_to_partition``
+*************************************************
 
 When a student views a module that is set up to test different child modules,
 the server checks the ``user_api_usercoursetag`` table for the student's
@@ -3845,7 +3819,7 @@ assignment to the relevant partition, and to a group for that partition.
 * The group ID is the ``user_api_usercoursetag.value``.
 
 If the student does not yet have an assignment, the server emits an
-``assigned_user_to_partition`` event and adds a row to the
+``xmodule.partitions.assigned_user_to_partition`` event and adds a row to the
 ``user_api_usercoursetag`` table for the student. See
 :ref:`user_api_usercoursetag`.
 
@@ -3880,12 +3854,12 @@ If the student does not yet have an assignment, the server emits an
      - string
      - Name of the partition.
 
-``child_render``
-*********************************
+``xblock.split_test.child_render``
+***********************************
 
 When a student views a module that is set up to test different content using
-child modules, the server emits a ``child_render`` event to identify
-the child module that was shown to the student.
+child modules, the server emits a ``xblock.split_test.child_render`` event to
+identify the child module that was shown to the student.
 
 **Component**: Split Test
 
@@ -3915,9 +3889,9 @@ Student Cohort Events
 
 This section includes descriptions of the following events.
 
-* ``edx.cohort.created``
-* ``edx.cohort.user_added``
-* ``edx.cohort.user_removed``
+.. contents::
+  :local:
+  :depth: 1
 
 For information about including student cohorts in a course, see
 :ref:`partnercoursestaff:Cohorts Overview` in the *Building and Running an edX
@@ -3960,12 +3934,12 @@ Instructor Dashboard to create a cohort. See
 ``edx.cohort.user_added``
 *********************************
 
-When a user is added to a cohort, the server emits an
-``edx.cohort.user_added`` event. Members of the course team can add users to
-cohorts individually or by uploading a .csv file of student cohort
-assignments. The system automatically adds a user to the default cohort or a
-cohort included in the course's ``auto_cohort_groups`` setting if a user who
-has not yet been assigned to a cohort accesses course content.
+When a user is added to a cohort, the server emits an ``edx.cohort.user_added``
+event. Members of the course team can add users to cohorts individually or by
+uploading a .csv file of student cohort assignments. The system automatically
+adds a user to the default cohort or a cohort included in the course's
+``auto_cohort_groups`` setting if a user who has not yet been assigned to a
+cohort accesses course content.
 
 Additional events are emitted when members of the course team interact with the
 Instructor Dashboard to add a user to a cohort. See
@@ -4226,7 +4200,6 @@ This field serves the same purpose for this event as it does for the
 :ref:`edx_team_activity_updated` event.
 
 
-
 ``edx.team.learner_removed``
 *********************************
 
@@ -4275,9 +4248,9 @@ This field serves the same purpose for this event as it does for the
 *********************************
 
 When a user views any page with a unique URL under the **Teams** page in the
-courseware, the server emits an ``edx.team.page_viewed`` event.
+courseware, the browser emits an ``edx.team.page_viewed`` event.
 
-**Event Source**: Server
+**Event Source**: Browser
 
 **History** Added 16 Sept 2015.
 
@@ -4511,10 +4484,9 @@ Certificate Events
 This section includes descriptions of the events related to certificates, which
 are awarded to qualified learners when they complete a course.
 
-* ``edx.certificate.created``
-* ``edx.certificate.shared``
-* ``edx.certificate.evidence_visited``
-
+.. contents::
+  :local:
+  :depth: 1
 
 ``edx.certificate.created``
 *********************************
@@ -4821,17 +4793,19 @@ to all events follow.
 * ``list-staff``
 * ``list-students``
 
+**Event Source**: Server
+
 For more information about the common fields, see :ref:`common`.
 
 Course team events that have additional ``context`` or ``event`` member fields
 follow.
 
-.. contents:: Section Contents
+.. contents::
   :local:
   :depth: 1
 
 ======================================================
-``add_instructor`` and ``remove_instructor``
+``add-instructor`` and ``remove-instructor``
 ======================================================
 
 .. previously a comma-separated list; "Rows identical after the second column" (which means the name and description columns) were combined
@@ -5026,9 +5000,9 @@ List Discussion Team Events
 
 * ``list-forum-admins``
 
-* ``list-forum-mods``
-
 * ``list-forum-community-TAs``
+
+* ``list-forum-mods``
 
 **Component**: Instructor Dashboard
 
@@ -5055,15 +5029,15 @@ Manage Discussion Team Events
 
 * ``add-forum-admin``
 
-* ``remove-forum-admin``
+* ``add-forum-community-TA``
 
 * ``add-forum-mod``
 
-* ``remove-forum-mod``
-
-* ``add-forum-community-TA``
+* ``remove-forum-admin``
 
 * ``remove-forum-community-TA``
+
+* ``remove-forum-mod``
 
 **Component**: Instructor Dashboard
 
@@ -5085,12 +5059,15 @@ Manage Discussion Team Events
 .. _histogram:
 
 ======================================================
-``psychometrics-histogram-generation``
+``psychometrics-histogram-generation`` (Deprecated)
 ======================================================
 
 **Component**: Instructor Dashboard
 
 **Event Source**: Server
+
+**History**: The chart feature intended to emit these events was never enabled
+on the edX Edge or edx.org Instructor Dashboard.
 
 ``event`` **Member Fields**:
 

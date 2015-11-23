@@ -4,7 +4,6 @@
 Change Log
 ###########
 
-
 **********************
 October-December 2015
 **********************
@@ -15,6 +14,9 @@ October-December 2015
 
    * - Date
      - Change
+   * - 23 Nov 2015
+     - Updated the :ref:`Tracking Logs` section and the :ref:`event_list` to
+       correct the names of several events.
    * - 10 Nov 2015
      - Corrected the description for the ``problem_show`` event in the
        :ref:`problem` section.

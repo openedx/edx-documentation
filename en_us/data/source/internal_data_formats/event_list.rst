@@ -30,14 +30,9 @@ A, B, C
      - :ref:`Instructor_Event_Types`
    * - ``add-or-remove-user-group``
      - :ref:`Instructor_Event_Types`
-   * - ``assigned_user_to_partition``
-     - :ref:`AB_Event_Types`
    * - ``book``
      - :ref:`pdf`
-   * - ``calculate_grades_csv``
-     - :ref:`Instructor_Event_Types`
-   * - ``child_render``
-     - :ref:`AB_Event_Types`
+
 
 .. _DEF:
 
@@ -176,20 +171,10 @@ G, H, I
 
    * - Event
      - Description
-   * - ``get_anon_ids``
-     - :ref:`Instructor_Event_Types`
-   * - ``get_student_progress_page``
-     - :ref:`Instructor_Event_Types`
-   * - ``get_student_progress_url``
-     - :ref:`Instructor_Event_Types`
-   * - ``get_students_features``
-     - :ref:`Instructor_Event_Types`
-   * - ``get_students_features/csv``
+   * - ``get-student-progress-page``
      - :ref:`Instructor_Event_Types`
    * - ``hide_transcript``
      - :ref:`video`
-   * - ``instructor``
-     - :ref:`Instructor_Event_Types`
 
 .. _JKL:
 
@@ -232,8 +217,6 @@ M, N, O
 
    * - Event
      - Description
-   * - ``modify_access``
-     - :ref:`Instructor_Event_Types`
    * - ``openassessmentblock.create_submission``
      - :ref:`ora2`
    * - ``openassessmentblock.get_peer_submission``
@@ -279,16 +262,18 @@ P, Q, R
      - :ref:`problem`
    * - ``problem_check_fail``
      - :ref:`problem`
+   * - ``problem_graded``
+     - :ref:`problem`
    * - ``problem_rescore``
      - :ref:`problem`
    * - ``problem_rescore_fail``
+     - :ref:`problem`
+   * - ``problem_reset``
      - :ref:`problem`
    * - ``problem_save``
      - :ref:`problem`
    * - ``problem_show``
      - :ref:`problem`
-   * - ``psychometrics-histogram-generation``
-     - :ref:`Instructor_Event_Types`
    * - ``remove-forum-admin``
      - :ref:`Instructor_Event_Types`
    * - ``remove-forum-community-TA``
@@ -334,7 +319,7 @@ S, T
      - :ref:`navigational`
    * - ``seq_prev``
      - :ref:`navigational`
-   * - ``show_answer``
+   * - ``showanswer``
      - :ref:`problem`
    * - ``show_transcript``
      - :ref:`video`
@@ -346,13 +331,13 @@ S, T
      - :ref:`pdf`
    * - ``textbook.pdf.display.scaled``
      - :ref:`pdf`
-   * - ``textbook.pdf.display.scrolled``
-     - :ref:`pdf`
    * - ``textbook.pdf.outline.toggled``
      - :ref:`pdf`
    * - ``textbook.pdf.page.navigated``
      - :ref:`pdf`
-   * - ``textbook.pdf.search.casesensitivity.toggled``
+   * - ``textbook.pdf.page.scrolled``
+     - :ref:`pdf`
+   * - ``textbook.pdf.searchcasesensitivity.toggled``
      - :ref:`pdf`
    * - ``textbook.pdf.search.executed``
      - :ref:`pdf`
@@ -360,7 +345,7 @@ S, T
      - :ref:`pdf`
    * - ``textbook.pdf.search.navigatednext``
      - :ref:`pdf`
-   * - ``textbook.pdf.thumbnails.navigated``
+   * - ``textbook.pdf.thumbnail.navigated``
      - :ref:`pdf`
    * - ``textbook.pdf.thumbnails.toggled``
      - :ref:`pdf`
@@ -381,8 +366,6 @@ U, V, W, X, Y, Z
 
    * - Event
      - Description
-   * - ``update_forum_role_membership``
-     - :ref:`Instructor_Event_Types`
    * - ``video_hide_cc_menu``
      - :ref:`video`
    * - ``video_show_cc_menu``
@@ -391,14 +374,12 @@ U, V, W, X, Y, Z
      - :ref:`Poll and Survey Events`
    * - ``xblock.poll.view_results``
      - :ref:`Poll and Survey Events`
+   * - ``xblock.split_test.child_render``
+     - :ref:`AB_Event_Types`
    * - ``xblock.survey.submitted``
      - :ref:`Poll and Survey Events`
    * - ``xblock.survey.view_results``
      - :ref:`Poll and Survey Events`
+   * - ``xmodule.partitions.assigned_user_to_partition``
+     - :ref:`AB_Event_Types`
 
-
-
-..   * - ``problem_graded``
-..     - :ref:`problem`
-..   * - ``problem_reset``
-..     - :ref:`problem`
