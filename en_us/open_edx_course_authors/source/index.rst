@@ -10,6 +10,7 @@ Building and Running an Open edX Course
 
    front_matter/index
    getting_started/index
+   reaching_learners/index
    accessibility/index
    set_up_course/index
    developing_course/index
