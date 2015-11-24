@@ -1,0 +1,35 @@
+=========================================
+TPA Sign In Without Account Activation
+=========================================
+
+This release further streamlines the account registration and sign in
+experience for learners at institutions that enable third party authentication
+(TPA) between an institutional authentication system and an implementation of
+the edX platform.
+
+Learners who register and sign in to the edX site with their campus or
+institutional credentials are no longer required to activate their new user
+accounts by following a link received by email. A reminder message appears on
+the learner dashboard until account activation takes place.
+
+A learner who enters an incorrect email address, and therefore does not receive
+the activation email message, can correct the email address by selecting the
+menu next to their username, and then selecting **Account**.
+
+=========================================
+Command Change for SAML Testing
+=========================================
+
+The recent edX platform upgrade to Django 1.8 required a change to the
+management command used when :ref:`installation:testing an enabled SAML
+identity provider<Test an Enabled SAML Provider>`. This command now uses the
+syntax ``lms saml --pull`` instead of ``lms saml pull``.
+
+=========================================
+Upgrade to Django 1.8.7
+=========================================
+
+As a follow up to the upgrade of the edX platform to Django 1.8.5, this release
+upgrades the edX platform to Django 1.8.7.
+
+For more information, see the Django release notes for `1.8.6`_ and `1.8.7`_.

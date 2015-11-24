@@ -12,6 +12,12 @@ The following information describes what is new in edX documentation.
 
 
 **************************
+1 December 2015
+**************************
+
+.. include:: 2015/documentation/doc_1201_2015.rst
+
+**************************
 10 November 2015
 **************************
 

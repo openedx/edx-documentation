@@ -1,10 +1,8 @@
 
-The following features are now available for the edX mobile app on iPhones.
+The edX mobile app for iPhones and Android phones can now be used to access
+the following basic assessment types: checkbox, dropdown, multiple choice,
+numerical input, and text input problems. Learners should be cautious in
+completing graded assignments using the mobile app, as not all problem types
+are fully supported in the mobile app.
 
-* New visitors can now use the edX mobile app to register edX user accounts.
-* New visitors have the option to use their Google or Facebook accounts when
-  they sign up for edX user accounts.
-* The edX mobile app can now be used to find and enroll in courses.
-
-These features are also available in the edX mobile app for Android
-smartphones. For more information, see :ref:`learners:SFD Mobile`.
+For more information, see :ref:`learners:SFD Mobile`.

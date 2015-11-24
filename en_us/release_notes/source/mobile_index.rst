@@ -4,11 +4,18 @@
 EdX Mobile App
 ####################################
 
-The following information describes what is new in the edX mobile apps. 
+The following information describes what is new in the edX mobile apps.
 
 .. contents::
   :local:
   :depth: 2
+
+******************
+1 December 2015
+******************
+
+.. include:: 2015/mobile/mobile_1201_2015.rst
+
 
 ******************
 22 April 2015
@@ -53,6 +60,6 @@ The following information describes what is new in the edX mobile apps.
 .. include:: 2015/mobile/mobile_0108_2015.rst
 
 
-  
+
 
 .. include:: ../../links/links.rst
