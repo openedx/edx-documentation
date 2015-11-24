@@ -3335,10 +3335,11 @@ This section includes descriptions of the following events.
   :depth: 1
 
 In an open response assessment, students review a question and then submit a
-text response and, optionally, an image file. To evaluate their own and one or
-more other students' responses to the questions, students use a scoring rubric
-designed by the course team. For more information about open response
-assessments, see :ref:`partnercoursestaff:PA Create an ORA Assignment`.
+text response and, optionally, an image, .pdf, or other file. To evaluate their
+own and one or more other students' responses to the questions, students use a
+scoring rubric designed by the course team. For more information about open
+response assessments, see :ref:`partnercoursestaff:PA Create an ORA
+Assignment`.
 
 **Component**: Open Response Assessments
 
@@ -3500,10 +3501,10 @@ assessment.
      - object
      - This field contains a ``text`` (string) member field for the response.
 
-       For responses that also include an image file, this field contains a
-       ``file_upload_key`` (string) member field with the AWS S3 key that
-       identifies the location of the image file on the Amazon S3 storage
-       service. This key is provided for reference only.
+       For responses that also include an image, .pdf, or other file, this
+       field contains a ``file_upload_key`` (string) member field with the AWS
+       S3 key that identifies the location of the uploaded file on the Amazon
+       S3 storage service. This key is provided for reference only.
 
    * - ``attempt_number``
      - number
@@ -3542,10 +3543,10 @@ save responses before they submit them for assessment.
      - object
      - This field contains a ``text`` (string) member field for the response.
 
-       For responses that also include an image file, this field contains a
-       ``file_upload_key`` (string) member field with the AWS S3 key that
-       identifies the location of the image file on the Amazon S3 storage
-       service.
+       For responses that also include an image, .pdf, or other file, this
+       field contains a ``file_upload_key`` (string) member field with the AWS
+       S3 key that identifies the location of the uploaded file on the Amazon
+       S3 storage service. This key is provided for reference only.
 
 
 ``openassessment.student_training_assess_example``
@@ -3588,9 +3589,9 @@ scored differently than the course team.
 ``openassessment.upload_file``
 *********************************
 
-The browser emits this event when a student successfully uploads an image file
-as part of a response. Students complete the upload process before they submit
-the response.
+The browser emits this event when a student successfully uploads an image,
+.pdf, or other file as part of a response. Students complete the upload process
+before they submit the response.
 
 **Event Source**: Browser
 
