@@ -11,9 +11,9 @@ Building and Running an edX Course
 
 * Added the :ref:`partnercoursestaff:Office Mix Tool` section.
 
-* Added information about additional file types that learners can upload in
-  open response assessments to the :ref:`partnercoursestaff:PA Allow Images`
-  topic.
+* Added information about specifying additional file types that learners can
+  upload for open response assessments to the :ref:`partnercoursestaff:PA Allow
+  Images` topic.
 
 EdX Learner's Guide
 ******************************
@@ -58,5 +58,5 @@ Added information about additional file types that learners can upload to the
 Installing, Configuring, and Running the Open edX Platform
 ***********************************************************
 
-Added the :ref:`install:Configuring ORA2 to Prohibit Submission of File Types`
-topic.
+Added the :ref:`installation:Configuring ORA2 to Prohibit Submission of File
+Types` topic.

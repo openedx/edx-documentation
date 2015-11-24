@@ -16,7 +16,6 @@ The following information describes what is new in the edX mobile apps.
 
 .. include:: 2015/mobile/mobile_0422_2015.rst
 
-
 ******************
 31 March 2015
 ******************
