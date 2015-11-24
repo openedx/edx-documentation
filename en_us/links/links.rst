@@ -335,6 +335,10 @@
 
 .. _Django 1.8: https://docs.djangoproject.com/en/1.8/releases/1.8
 
+.. _1.8.6: https://docs.djangoproject.com/en/1.8/releases/1.8.6/
+
+.. _1.8.7: https://docs.djangoproject.com/en/1.8/releases/1.8.7/
+
 .. _Django website: https://www.djangoproject.com
 
 .. _Database Transactions: https://docs.djangoproject.com/en/1.8/topics/db/transactions

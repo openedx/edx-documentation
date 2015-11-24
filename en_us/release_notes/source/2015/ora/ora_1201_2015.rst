@@ -1,0 +1,31 @@
+
+Open response assessments are enhanced in this release to allow course teams to
+specify, and learners to submit, additional types of files along with their
+text responses. To take advantage of this feature, when course teams add an
+open response assessment component to a course, they can now edit the component
+in Studio to allow file uploads. Options are then available to select one of
+these file types.
+
+* Image files in .jpg, .gif, or .png format.
+
+* The image file formats listed above, and also files in .pdf format.
+
+* A custom set of one or more file formats, specified by the course team.
+
+To protect learners from the transmission of potentially harmful files during
+the peer review stage of the assessment, this enhancement also gives system
+administrators the ability to configure a list of file types that learners
+cannot upload.
+
+For more information, see the following guides.
+
+* EdX Partner Course Teams: :ref:`partnercoursestaff:PA Allow Images`
+
+* EdX Learners: :ref:`learners:Submit a File with Your Response`
+
+* Open edX Course Teams: :ref:`opencoursestaff:PA Allow Images`
+
+* Open edX Learners: :ref:`openlearners:Submit a File with Your Response`
+
+* Open edX System Administrators: :ref:`installation:Configuring ORA2 to
+  Prohibit Submission of File Types`
