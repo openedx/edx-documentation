@@ -1,8 +1,8 @@
 .. _Grading Index:
 
-###########################################
-Establish a Grading Policy For Your Course
-###########################################
+#############################################
+Establishing a Grading Policy For Your Course
+#############################################
 
 Use the topics in this section to learn about setting up grading for your
 course. Establishing a grading policy requires several steps, including

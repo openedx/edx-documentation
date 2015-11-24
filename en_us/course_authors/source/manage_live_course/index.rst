@@ -1,7 +1,7 @@
 .. _Managing Live Course Index:
 
 ##########################
-Manage a Running Course
+Managing a Running Course
 ##########################
 
 Use the topics in this section to learn about managing a course that is

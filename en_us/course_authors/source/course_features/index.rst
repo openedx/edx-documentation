@@ -1,10 +1,11 @@
 .. _Course Features Index:
 
-#################################
-Choosing Features For Your Course
-#################################
+###############################################
+Choosing Enhanced Capabilities For Your Course
+###############################################
 
-Use the topics in this section to learn about features you can use in your course.
+Use the topics in this section to learn about options for enhancing your course
+experience for learners.
 
 For information on how to develop your course content in the Studio Outline,
 see :ref:`Developing Your Course Index`.

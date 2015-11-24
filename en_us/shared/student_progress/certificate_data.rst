@@ -1,7 +1,7 @@
 .. _Reporting Certificate Data:
 
 ############################
-Reporting Certificate Data
+Obtaining Certificate Data
 ############################
 
 This topic describes how to access data about certificates that have been

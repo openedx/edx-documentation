@@ -1,7 +1,7 @@
 .. _Course Assets Index:
 
 ##########################
-Course Assets
+Adding Course Assets
 ##########################
 
 Use the topics in this section to learn about managing assets in your course.

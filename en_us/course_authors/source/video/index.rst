@@ -1,7 +1,7 @@
 .. _Processing Video Files Index:
 
 ############################
-Processing Video Files
+Adding Video Content
 ############################
 
 This section describes the workflow for creating videos and uploading them for
