@@ -3,6 +3,20 @@ Change Log
 ############
 
 *****************
+December 2015
+*****************
+
+.. list-table::
+   :widths: 15 70
+   :header-rows: 1
+
+   * - Date
+     - Change
+   * - 1 Dec 2015
+     - Added information about uploading additional file types to the
+       :ref:`Submit a File with Your Response` topic.
+
+*****************
 October 2015
 *****************
 
@@ -48,9 +62,9 @@ June 2015
    * - 8 Jun 2015
      - Added a section for frequently asked questions about the edX mobile
        applications, :ref:`SFD Mobile`.
-   * - 
+   * -
      - Added :ref:`SFD Search` and :ref:`SFD Notes` sections.
-   * - 
+   * -
      - Updated the :ref:`Certificates` section to include information on
        sharing certificates, including sharing digital badges.
 
