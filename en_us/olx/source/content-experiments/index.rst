@@ -4,7 +4,7 @@
 Content Experiments
 #################################
 
-Use the chapters in this section to configure and create content experiments.
+Use the topics in this section to configure and create content experiments.
 
 .. toctree::
    :maxdepth: 2

@@ -7,25 +7,23 @@ The Courseware Structure
 You develop the courseware structure in the ``course.xml`` file, in the top-
 level directory.
 
-See:
+.. contents::
+  :local:
+  :depth: 1
 
-* `The course.xml File`_
-* `Course Chapters`_
-* `Course Sequentials`_
-* `Course Verticals`_
-
-For an example of an ``course.xml`` file, see :ref:`The edX-Insider course.xml File`.
+For an example of a ``course.xml`` file, see :ref:`The edX-Insider course.xml
+File`.
 
 *************************************
 The ``course.xml`` File
 *************************************
 
-The root element of the ``course.xml`` file is ``course``. 
+The root element of the ``course.xml`` file is ``course``.
 
-For example, the ``course.xml`` file may contain:
+An example of the contents of a ``course.xml`` file follows.
 
 .. code-block:: xml
-  
+
   <course advanced_modules="[&quot;concept&quot;, &quot;done&quot;,
       &quot;profile&quot;, &quot;recommender&quot;]" course="edX_Insider"
       course_image="code.png" display_name="edX Demo"
@@ -66,16 +64,16 @@ For example, the ``course.xml`` file may contain:
 ============================================================
 
 The attributes of the ``course`` element are used to construct URLs in the
-course.  The following course URL shows where these values are used:
+course.  The following course URL shows where these values are used.
 
 .. code-block:: html
-  
+
   http://my-edx-server.org/courses/<@org value>/<@course value>/<@url_name value>/info
 
 For example:
 
 .. code-block:: html
-  
+
   http://my-edx-server.org/courses/edX/DemoX/Demo_Course/info
 
 *******************************
@@ -90,12 +88,12 @@ using the ``chrome`` option. It is possible to associate chapters with
 different elements of the tabset with the ``default_tab`` option. It is
 possible to hide them from the navigation using the ``hide_from_toc`` option.
 
-For example, if the course outline file contains:
+For example, the course outline is defined by elements in the following format.
 
 .. code-block:: xml
-  
-    <course> 
-      <chapter display_name="Exam Review" url_name="exam_review"> 
+
+    <course>
+      <chapter display_name="Exam Review" url_name="exam_review">
       . . .
     </course>
 
@@ -120,20 +118,21 @@ For example, if the course outline file contains:
 ``chapter`` Children
 =========================
 
-The ``chapter`` element contains one or more children. Studio uses ``sequential`` elements for all children of chapters, and calls these ``subsections``.
+The ``chapter`` element contains one or more children. Studio uses
+``sequential`` elements for all children of chapters, and calls these
+``subsections``.
 
-The following example shows a chapter with two sequentials, or subsections. :
+The following example shows a chapter with two sequentials, or subsections.
 
 .. code-block:: xml
-  
+
   <chapter display_name="Example Week 2: Get Interactive">
-      <sequential display_name="Simulations" url_name="simulations"> 
+      <sequential display_name="Simulations" url_name="simulations">
           . . .
-      <sequential display_name="Graded Simulations" 
-          url_name="graded_simulations"> 
+      <sequential display_name="Graded Simulations"
+          url_name="graded_simulations">
           . . .
   </chapter>
-
 
 *******************************
 Course Sequentials
@@ -142,12 +141,12 @@ Course Sequentials
 You create a course sequential with the ``sequential`` element, for each
 subsection in the chapter.
 
-For example, the course may contain:
+For example, the course can contain a sequential in this format.
 
 .. code-block:: xml
-  
-    <course> 
-        <chapter url_name="exam_review"> 
+
+    <course>
+        <chapter url_name="exam_review">
             <sequential display_name="Simulations" url_name="simulations">
                 . . .
             </sequential>
@@ -178,26 +177,27 @@ For example, the course may contain:
    * - ``graceperiod``
      - If the sequential is graded, the number of seconds in the grace period.
    * - ``rerandomize``
-     - TBP
+     - TBD
    * - ``showanswer``
-     - TBP
+     - TBD
    * - ``xqa_key``
-     - TBP
+     - TBD
 
 ==============================================
 ``sequential`` Children
-============================================== 
+==============================================
 
-The ``sequential`` element contains one or more child ``vertical`` elements. 
+The ``sequential`` element contains one or more child ``vertical`` elements.
 
 The ``veritical`` element references a vertical, or unit, in the course.
 
-The following example shows a chapter with a sequential that has three verticals, or units. :
+The following example shows a chapter with a sequential that has three
+verticals, or units.
 
 .. code-block:: xml
-  
-    <course> 
-        <chapter url_name="exam_review"> 
+
+    <course>
+        <chapter url_name="exam_review">
             <sequential display_name="Simulations" url_name="simulations">
                 <vertical display_name: "Unit 1" url_name="Lesson_1_Unit_1">
                     . . . .
@@ -208,12 +208,11 @@ The following example shows a chapter with a sequential that has three verticals
         . . .
     </course>
 
-
 *******************************
 Course Verticals
 *******************************
 
-A course vertical:
+In the course structure, a course vertical serves the following functions.
 
 * Defines the display name for the vertical, or unit.
 * Organizes components and other verticals in the vertical.
@@ -221,12 +220,12 @@ A course vertical:
 You create a course vertical with the ``vertical`` element, for each
 unit in the subsection.
 
-For example, the course may contain:
+For example, the course can contain a vertical in this format.
 
 .. code-block:: xml
-  
-    <course> 
-        <chapter url_name="exam_review"> 
+
+    <course>
+        <chapter url_name="exam_review">
             <sequential display_name="Simulations" url_name="simulations">
                 <vertical display_name="Unit 1" url_name="Lesson_1_Unit_1"/>
                     . . .
@@ -249,29 +248,28 @@ For example, the course may contain:
      - The value that is displayed to students as the name of the sequential,
        or subsection.
 
-
 ==============================
 ``vertical`` Children
-============================== 
+==============================
 
 The ``vertical`` element contains one or more child elements for each component
 in the vertical, or unit.
 
-note:: 
-  You can embed the content of components in the ``course.xml`` file, as
-  child elements of the ``vertical`` element. Hoever, you may want to store
+.. note::
+  You can embed the content of components in the ``course.xml`` file, as child
+  elements of the ``vertical`` element. However, you might want to store
   components in separate files, to better enable content reuse across courses.
 
 A vertical element can also contain a vertical element. You can nest
 verticals, or units, recursively.
 
-Child elements of ``vertical`` refer to components in your course.  The edX
+Child elements of ``vertical`` refer to components in your course. The edX
 Platform supports a wide range of components, including custom XBlocks.
 
-The following example shows a vertical with two components:
+The following example shows a vertical with two components.
 
 .. code-block:: xml
-  
+
   <vertical display_name="Lesson_1_Unit_1">
       <html url_name="Introduction"/>
       <video url_name="Unit_1_Video"/>
