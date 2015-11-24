@@ -25,6 +25,9 @@ December 2015
    * - 1 December 2015
      - Added the :ref:`Office Mix Tool` topic.
    * -
+     - Added information about specifying additional file types for learners to
+       upload to the :ref:`PA Allow Images` topic.
+   * -
      - Topics within this guide have been reorganized. New top level sections
        include :ref:`Course Assets Index`, :ref:`Course Features Index`,
        :ref:`Grading Index`, and :ref:`Manage Student Progress Index`.
@@ -70,6 +73,7 @@ October 2015
      - Added the :ref:`Oppia Exploration Tool` topic.
    * -
      - Added the section :ref:`Set a Course Number Override`.
+
    * - 14 October 2015
      - Added a note with support information to the beginning of each exercise
        or tool topic.

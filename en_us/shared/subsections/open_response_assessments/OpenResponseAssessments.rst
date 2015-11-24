@@ -21,7 +21,8 @@ Open response assessments allow the course team to assign questions that might
 not have definite answers, such as text responses or short essays. Learners
 submit responses to questions, then each learner and the learner's  peers
 compare the responses to a rubric that you create. You can also allow learners
-to upload an image to accompany a text response.
+to upload an image, a .pdf file, or another file of a type that you specify
+to accompany a text response.
 
 Open response assessments can include both peer assessments and self
 assessments. In peer assessments, learners compare their peers' responses to a
@@ -56,7 +57,6 @@ response assessments, see :ref:`Accessing ORA Assignment Information`.
 For information about the learner experience with open response assessments,
 see :ref:`learners:SFD_ORA` in the *edX Guide for Learners*.
 
-
 .. _Best Practices for ORA:
 
 *********************************************
@@ -66,11 +66,11 @@ Best Practices for Open Response Assessments
 Open response assessments can be a powerful teaching tool, but they are more
 effective in some situations than in others. In general, open response
 assessments are best suited to open-ended or project-based assignments with
-subjective essay answers and discussion. For example, open response
-assessments work well in humanities assignments where learners are encouraged
-to make subjective assessments of text or images, but they might not be the
-ideal tool in chemistry assignments where there are definitively correct or
-incorrect answers to questions.
+subjective essay answers and discussion. For example, open response assessments
+work well in humanities assignments where learners are encouraged to make
+subjective assessments of text, images, or other contributions, but they might
+not be the ideal tool in chemistry assignments where there are definitively
+correct or incorrect answers to questions.
 
 EdX suggests that you follow these guidelines and best practices when you use
 open response assessments in your courses.
@@ -160,14 +160,15 @@ Prompts
 Each **prompt**, or question, that you want your learners to answer, appears
 near the top of the page, followed by a field where the learner enters a
 response. You can require your learners to enter text as a response, or you can
-allow your learners to both enter text and upload an image.
+allow your learners to both enter text and upload another file, such as an
+image or document.
 
-.. note:: If learners upload an image, the image file must be a .jpg or .png
- file, and it must be smaller than 5 MB in size.
+.. note:: Uploaded files must be smaller than 5 MB in size. If learners upload
+ an image, the file must be in .jpg, .gif, or .png format.
 
 .. image:: ../../../../shared/images/PA_QandRField.png
    :width: 500
-   :alt: Single ORA question and its corresponding blank response field
+   :alt: Single ORA question and its corresponding blank response field.
 
 When you write each question, you can include helpful information for your
 learners, such as what they can expect after they submit responses, or the
@@ -178,24 +179,79 @@ approximate number of words or sentences that their response should have.
 
 For more information, see :ref:`PA Add Prompt`.
 
+.. _Asking Learners to Upload Other Files in Responses:
 
-Asking Learners to Upload Images in Responses
-***********************************************
+Asking Learners to Upload Other Files in Responses
+*******************************************************
 
-In open response assessments, you can ask your learners to upload an image as
-part of their response. If you do this, however, keep the following points in
-mind.
+For an open response assessment, you can ask your learners to upload an image,
+a .pdf file, or a file of another type as a part of their responses. Other
+learners evaluate the responses and their accompanying files during the peer
+assessment. Offering the option to upload a file in addition to a text response
+can give learners the opportunity to use tools and develop skills that are
+relevant to your course.
 
-* You cannot require your learners to upload an image. You can only allow it.
+Before you decide to ask learners to upload other files along with their text
+responses, however, you should be aware of the following limitations and best
+practices.
 
-* All responses must include some text. Learners cannot submit a response that
-  contains only an image.
+* During the peer review process, learners download the files that other
+  learners uploaded. To reduce the potential for problems from files with
+  malicious content, learners cannot upload files with certain file extensions.
+  For a complete list, see :ref:`Prohibited File Extensions`.
 
-* Learners can submit only one image with each response.
+* Course teams can only access uploaded files for one learner at a time.
+  Uploaded file content is not included in the reports of answer submissions
+  available from the Instructor Dashboard, and course data packages do not
+  include any of the uploaded files.
 
-.. note:: Currently, course teams cannot see any of the images that learners
-   submit. Images are not visible in the body of the assignment in the
-   courseware, and they are not included in the course data package.
+* You cannot require your learners to upload files. You can only give them the
+  option to do so.
+
+* All responses must include some response text. Learners cannot submit a
+  response that contains only an uploaded file.
+
+* Learners can submit only one file with each response.
+
+* Files must be smaller than 5MB in size.
+
+* Image files must be in .jpg, .gif, or .png format.
+
+For more information, see :ref:`PA Allow Images`.
+
+.. _Prohibited File Extensions:
+
+Prohibited File Extensions
+***************************
+
+This topic lists the file extensions for the set of file types that learners
+are prohibited from uploading as part of an open response assessment on edx.org
+or edX Edge. When you define a set of custom file types for learners to upload
+with their responses, you cannot specify these file types. The extensions on
+this list are selected and maintained by the development operations team at
+edX, and are subject to change.
+
+.. only:: Open_edX
+
+  This set of file extensions is provided as the default for Open edX
+  installations. Open edX system administrators can update this list. For more
+  information, see :ref:`installation:Configuring ORA2 to Prohibit Submission
+  of File Types`.
+
+.. list-table::
+   :widths: 15 75
+
+   * - A through I
+     - .action, .apk, .app, .application, .bat, .bin, .cmd, .com, .command,
+       .cpl, .csh, .dmg, .exe, .gadget, .hta, .inf, .ins, .inx, .ipa,
+       .isu
+   * - J through P
+     - .jar, .job, .jse, .lnk., msc, .msh, .msh1, .msh2, .mshxml, .msh1xml,
+       .msh2xml, .msi, .msp, .mst, .osx, .out, .paf, .pif, .prg, psc1, .psc2,
+       .ps1, .ps1xml, .ps2, .ps2xml
+   * - Q through Z
+     - .reg, .rgs, .run, .scf, .scr, .sct, .shb, .shs, .u3p, .vb, .vbe, .vbs,
+       .vbscript, .workflow .ws, .wsc, .wsf, .wsh
 
 .. _PA Rubric:
 
@@ -212,11 +268,11 @@ Rubrics consist of *criteria* and *options*.
 * Each criterion has a *name*, a *prompt*, and one or more *options*.
 
    * The name is a very short summary of the criterion, such as "Ideas" or
-     "Content". Criterion names generally have just one word. Because the system
-     uses criterion names for identification, **the name for each criterion must
-     be unique.** Criterion names do not appear in the rubric that learners see
-     when they are completing peer assessments, but they do appear on the page
-     that shows the learner's final grade.
+     "Content". Criterion names generally have just one word. Because the
+     system uses criterion names for identification, **the name for each
+     criterion must be unique.** Criterion names do not appear in the rubric
+     that learners see when they are completing peer assessments, but they do
+     appear on the page that shows the learner's final grade.
 
      .. image:: ../../../../shared/images/PA_CriterionName.png
         :alt: A final score page with call-outs for the criterion names
@@ -227,14 +283,17 @@ Rubrics consist of *criteria* and *options*.
 
 * Each option has a *name*, an *explanation*, and a *point value*.
 
-  .. image:: ../../../../shared/images/PA_Rubric_LMS.png
-     :alt: Image of a rubric in the LMS with call-outs for the criterion prompt and option names, explanations, and points
+  .. image:: ../../../../shared/Images/PA_Rubric_LMS.png
+     :alt: Image of a rubric in the LMS with call-outs for the criterion prompt
+         and option names, explanations, and points.
 
 Different criteria in the same assignment can have different numbers of
 options. For example, in the image above, the first criterion has three options
 and the second criterion has four options.
 
-.. note:: You can also include criteria that do not have options, but that do include a field where learners can enter feedback. For more information, see :ref:`PA Criteria Comment Field Only`.
+.. note:: You can also include criteria that do not have options, but that do
+ include a field where learners can enter feedback. For more information, see
+ :ref:`PA Criteria Comment Field Only`.
 
 You can see both criterion and option names when you access assignment
 information for an individual learner. For more information, see
@@ -242,7 +301,8 @@ information for an individual learner. For more information, see
 
 .. image:: ../../../../shared/images/PA_Crit_Option_Names.png
    :width: 600
-   :alt: Learner-specific assignment information with call-outs for criterion and option names.
+   :alt: Learner-specific assignment information with call-outs for criterion
+       and option names.
 
 When you create your rubric, decide how many points each option will receive,
 and make sure that the explanation for each option is as specific as possible.
@@ -289,9 +349,7 @@ points possible)
    rubrics. In addition, edX suggests using clear, simple language in
    rubrics.
 
-
 For more information, see :ref:`PA Add Rubric`.
-
 
 .. _PA Assessment Steps:
 
@@ -318,9 +376,7 @@ self assessments ("Assess Your Response").
   :alt: A peer assessment with assessment steps and status labeled.
   :width: 600
 
-
 .. _PA Student Training Step:
-
 
 Learner Training Step
 *****************************
@@ -354,7 +410,6 @@ next sample response opens automatically.
 If any of the learner's selections differ from those specified by the course
 team, the learner sees the response again, and the following message appears
 above the response.
-
 
 .. code-block:: xml
 
@@ -440,7 +495,8 @@ image, both criteria have a comment field. There is also a field for overall
 comments on the response.
 
 .. image:: ../../../../shared/images/PA_CriterionAndOverallComments.png
-   :alt: Rubric with comment fields under each criterion and under overall response.
+   :alt: Rubric with comment fields under each criterion and under overall
+       response.
    :width: 600
 
 For more information, see :ref:`PA Add Rubric` and :ref:`PA Criteria Comment
@@ -463,7 +519,8 @@ learner can then select **Continue Assessing Peers**.
 
 .. image:: ../../../../shared/images/PA_ContinueGrading.png
    :width: 500
-   :alt: The peer assessment step expanded so that "Continue Assessing Peers" is visible.
+   :alt: The peer assessment step expanded so that "Continue Assessing Peers"
+       is visible.
 
 
 =====================
@@ -496,7 +553,7 @@ assignment's final grade is equivalent to the self assessment score.
    recommends that you make ORA assignments count towards only a small
    percentage of a course's final grade.
 
-The following sections detail how the scores for peer assessments and self
+The following topics detail how the scores for peer assessments and self
 assessments are calculated.
 
 
@@ -557,10 +614,9 @@ given for each criterion, as follows.
    individual assessor. Therefore, the score for the response is not the median
    of the scores that each individual peer assessor gave the response.
 
-For information on grades for learner submissions that you have cancelled and
-removed from peer assessment, refer to :ref:`Remove a learner response from peer
-grading`.
-
+For information on grades for learner submissions that you have canceled and
+removed from peer assessment, refer to :ref:`Remove a learner response from
+peer grading`.
 
 =======================
 Self Assessment Scoring
@@ -589,8 +645,9 @@ scores for those responses. The **Top Responses** section appears below the
 learner's score information after the learner finishes every step in the
 assignment.
 
-.. image:: ../../../../shared/images/PA_TopResponses.png
-   :alt: Section that shows the text and scores of the top three responses for the assignment.
+.. image:: ../../../../shared/Images/PA_TopResponses.png
+   :alt: Section that shows the text and scores of the top three responses for
+       the assignment.
    :width: 500
 
 You can allow the **Top Responses** section to show between 1 and 100
