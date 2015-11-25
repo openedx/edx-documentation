@@ -41,6 +41,7 @@ Word List
        with the content on that page.
    * - Partner Manager
      - Use to refer to partners' main edX contact, not Program Manager.
+       Capitalize both words.
    * - plug-in
      - Use instead of plugin.
    * - privilege
