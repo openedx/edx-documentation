@@ -127,7 +127,7 @@ The following tables store data gathered about the teams in a course.
 * :ref:`teams_courseteammembership`
 
 .. note:: The Teams feature is in limited release. For more information,
-   contact your edX Partner Manager. For Open edX sites, contact your system
+   contact your edX partner manager. For Open edX sites, contact your system
    administrator.
 
 .. _auth_user:
@@ -251,7 +251,7 @@ is_staff
   It does not indicate that the person is a member of the course team for any
   given course.
 
-  Generally, users with this flag set to 1 are either edX Partner Managers
+  Generally, users with this flag set to 1 are either edX partner managers
   responsible for course delivery, or edX developers who need access for
   testing and debugging purposes. Users who have ``is_staff`` = 1 have
   Admin privileges on all courses and can see additional debug
@@ -989,7 +989,7 @@ Columns in the teams_courseteam Table
 This table stores information about the teams in a course.
 
 .. note:: The Teams feature is in limited release. For more information,
-   contact your edX Partner Manager. For Open edX sites, contact your system
+   contact your edX partner manager. For Open edX sites, contact your system
    administrator.
 
 **History**: Added September 15 2015
@@ -1156,7 +1156,7 @@ Columns in the teams_courseteammembership Table
 This table stores information about learners who are members of a team.
 
 .. note:: The Teams feature is in limited release. For more information,
-   contact your edX Partner Manager. For Open edX sites, contact your system
+   contact your edX partner manager. For Open edX sites, contact your system
    administrator.
 
 **History**: Added September 15 2015.
