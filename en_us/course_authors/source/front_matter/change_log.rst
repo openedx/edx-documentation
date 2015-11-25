@@ -117,7 +117,7 @@ September 2015
        :ref:`Drag and Drop` and :ref:`Custom JavaScript`.
    * - 15 September 2015
      - Updated the :ref:`Rerun a Course` section to make it clear that only
-       edX Partner Managers can rerun a course.
+       edX partner managers can rerun a course.
    * - 9 September 2015
      - Added the :ref:`View the Course Structure API for the Usage ID` topic.
    * -

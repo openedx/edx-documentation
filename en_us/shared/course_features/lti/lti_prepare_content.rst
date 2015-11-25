@@ -16,11 +16,11 @@ Preparing to Reuse Course Content
 .. only:: Open_edX
 
   Before you begin work to reuse the content in an Open edX course, check with
-  your development operations (DevOps) team for information about the 
+  your development operations (DevOps) team for information about the
   website to use. At some sites, a completely separate Open edX instance, with
   a different Studio website, is set up to be the LTI tool provider.
 
-.. contents:: 
+.. contents::
    :local:
    :depth: 1
 
@@ -32,7 +32,7 @@ Planning for Content Reuse
 
 When you create links to edX course content in your external LMS, you can link
 to components individually, to all of the content in a unit, or to all of the
-content in a subsection. 
+content in a subsection.
 
 As you plan which parts of the course you want to reuse, note the following
 considerations.
@@ -72,7 +72,7 @@ Create the Duplicate Course
 .. only:: Partners
 
   Before you create a duplicate course, be sure to check with your DevOps team
-  or your edX Partner Manager to determine the website that hosts your
+  or your edX partner manager to determine the website that hosts your
   organization's courses for LTI use.
 
 .. only:: Open_edX
@@ -84,11 +84,11 @@ To create the duplicate course, follow these steps.
 
 #. In Studio, export the original course. For more information, see
    :ref:`Export a Course`.
-   
+
 #. In Studio on your organization's host site for LTI courses, create a course.
    This is the duplicate course.
-   
-   .. note:: If your organization uses the same site as the host for both the 
+
+   .. note:: If your organization uses the same site as the host for both the
     original course and for LTI courses, be sure to give the duplicate course a
     different name or run.
 
@@ -159,7 +159,7 @@ Verify Content Status
 
 Only edX course content that is published appears in an external LMS.
 
-.. note:: The **Hide from students** setting for sections, subsections, 
+.. note:: The **Hide from students** setting for sections, subsections,
  and units does not affect the visibility of content in an external LMS. Only
  the publication status of a unit can prevent content from being included.
 

@@ -39,8 +39,9 @@ Word List
        deliver content to learners. In Studio, course teams can rename default
        pages and add pages. In the LMS, learners select {name of page} and work
        with the content on that page.
-   * - Partner Manager
-     - Use to refer to partners' main edX contact, not Program Manager.
+   * - partner manager
+     - Use to refer to partners' main edX contact, not program manager.
+       Do not capitalize either word.
    * - plug-in
      - Use instead of plugin.
    * - privilege

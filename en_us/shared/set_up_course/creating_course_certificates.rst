@@ -55,7 +55,7 @@ Certificate Design
 .. only:: Partners
 
   The design of certificates for your course, including your institution's
-  logo, are configured by edX. Contact your Partner Manager for
+  logo, are configured by edX. Contact your partner manager for
   more information.
 
 
@@ -141,7 +141,7 @@ You can edit a certificate before it is activated.
 
 .. only:: Partners
 
-  Contact your edX Partner Manager if you need to edit an activated
+  Contact your edX partner manager if you need to edit an activated
   certificate.
 
 .. caution::
@@ -253,7 +253,7 @@ Activate a Certificate
 
 .. only:: Partners
 
-  When you have verified your certificates, contact your edX Partner Manager to
+  When you have verified your certificates, contact your edX partner manager to
   activate your certificates.
 
 .. only:: Open_edX
@@ -292,7 +292,7 @@ it is possible that certificates have already been issued to learners.
 
 .. only:: Partners
 
-  Contact your edX Partner Manager if you need to modify an activated
+  Contact your edX partner manager if you need to modify an activated
   certificate.
 
 .. only:: Open_edX

@@ -483,7 +483,7 @@ example, if you want to create "beautiful math" such as the following.
 .. warning::
  The LaTeX processor that Studio uses to convert LaTeX code to XML is a third-
  party tool. We recommend that you use this feature with caution. If you do use
- it, make sure to work with your Partner Manager.
+ it, make sure to work with your partner manager.
 
 Enable the LaTeX Processor
 **************************
