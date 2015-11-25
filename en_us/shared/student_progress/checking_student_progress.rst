@@ -84,7 +84,7 @@ communication with your learners.
 .. only:: Partners
 
    Course teams should also discuss additional self-paced settings with their
-   edX Partner Manager during the course announcement process.
+   edX partner manager during the course announcement process.
 
 ==============================================================
 Allow Learners to Download Certificates when they Qualify
