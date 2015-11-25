@@ -37,7 +37,7 @@ experiential learning.
 The following example shows an Oppia exploration as learners see it in the edX
 LMS.
 
-.. image:: ../../../shared/Images/oppia.png
+.. image:: ../../../shared/images/oppia.png
   :alt: An Oppia exploration in courseware.
   :width: 800
 
@@ -74,7 +74,7 @@ of the website that hosts that exploration and its ID.
 
 #. In the new component, select **Edit**.
 
-   .. image:: ../../../shared/Images/oppia_studio.png
+   .. image:: ../../../shared/images/oppia_studio.png
      :alt: The Edit component dialog box for an Oppia exploration in Studio.
      :width: 600
 

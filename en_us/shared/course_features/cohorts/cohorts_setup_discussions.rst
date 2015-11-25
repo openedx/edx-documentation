@@ -142,7 +142,7 @@ steps.
    The list of course-wide discussion topics is updated to show which topics
    are divided by cohort, and which are unified.
 
-   .. image:: ../../../../shared/Images/CohortDiscussionsCourseWide.png
+   .. image:: ../../../../shared/images/CohortDiscussionsCourseWide.png
      :alt: Two course-wide discussion topics in list, one cohorted and one
        unified.
      :width: 400
@@ -189,7 +189,7 @@ You can confirm this setting on the Instructor Dashboard **Cohorts** tab.
 
 #. Select **Specify whether discussion topics are divided by cohort**.
 
-  .. image:: ../../../../shared/Images/CohortDiscussionsSpecifyLink.png
+  .. image:: ../../../../shared/images/CohortDiscussionsSpecifyLink.png
     :alt: The link in the UI to specify whether content specific discussion
         topics are divided by cohort.
     :width: 800
@@ -201,7 +201,7 @@ All content-specific discussion topics in your course are divided by cohort,
 and you cannot change the cohort settings of individual content-specific
 discussion topics.
 
-.. image:: ../../../../shared/Images/CohortDiscussionsAlwaysCohort.png
+.. image:: ../../../../shared/images/CohortDiscussionsAlwaysCohort.png
  :alt: Content specific discussion topics controls with the "Always cohort
   content specific discussion topics" option selected.
  :width: 500
@@ -245,7 +245,7 @@ divided by cohort, follow these steps.
 
 #. Select **Specify whether discussion topics are divided by cohort**.
 
-   .. image:: ../../../../shared/Images/CohortDiscussionsSpecifyLink.png
+   .. image:: ../../../../shared/images/CohortDiscussionsSpecifyLink.png
     :alt: The link in the UI to specify whether content specific discussion
         topics are divided by cohort.
     :width: 800
@@ -264,7 +264,7 @@ divided by cohort, follow these steps.
 #. Select the checkbox next to each content-specific discussion topic that you
    want to divide by cohort.
 
-   .. image:: ../../../../shared/Images/CohortDiscussionsCohortSelected.png
+   .. image:: ../../../../shared/images/CohortDiscussionsCohortSelected.png
      :alt: Content specific discussion topics controls with the "Cohort
       selected content specific discussion topics" option selected.
      :width: 500

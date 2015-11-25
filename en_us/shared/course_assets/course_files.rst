@@ -186,7 +186,7 @@ You can navigate through the pages in these ways.
   Select the number to place your cursor in the field, then enter the page
   number you want to jump to.
 
-  .. image:: ../../../shared/Images/file_pagination.png
+  .. image:: ../../../shared/images/file_pagination.png
    :width: 250
    :alt: Image showing page navigation on the Files & Uploads page.
 

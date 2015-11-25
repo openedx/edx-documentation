@@ -8,7 +8,7 @@ Periodic Table Tool
 
 You can create an interactive periodic table of the elements to help your students learn about various elements' properties. In the table below, detailed information about each element appears as the student moves the mouse over the element.
 
-.. image:: ../../../shared/Images/Periodic_Table.png
+.. image:: ../../../shared/images/Periodic_Table.png
   :alt: Image of the interactive periodic table
 
 .. _Create the Periodic Table:

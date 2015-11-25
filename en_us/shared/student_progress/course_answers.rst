@@ -463,12 +463,12 @@ Microsoft Excel for Mac than in OpenOffice Calc.
 
   Answer Values in Microsoft Excel for Mac:
 
-   .. image:: ../../../shared/Images/student_answer_excel.png
+   .. image:: ../../../shared/images/student_answer_excel.png
      :alt: A spreadsheet that replaces accented French characters with underscores.
 
   Answer Values in OpenOffice Calc:
 
-   .. image:: ../../../shared/Images/student_answer_calc.png
+   .. image:: ../../../shared/images/student_answer_calc.png
      :alt: A spreadsheet that displays accented French characters correctly.
 
 If you notice characters that do not display as expected in a spreadsheet, try
@@ -488,7 +488,7 @@ correct answer, "Warfarin". When you produce the Student Answer Distribution
 report, you verify that this answer was in fact marked correct: there is a 1 in
 the **Correct Answer** column for this **AnswerValue**.
 
-.. image:: ../../../shared/Images/SAD_Answer_Review.png
+.. image:: ../../../shared/images/SAD_Answer_Review.png
     :alt: In Excel, 5 rows show 5 answer values, 4 of which show comprehension
      of the question, but only 1 answer is marked as correct.
 
@@ -503,7 +503,7 @@ Many spreadsheet applications offer data visualization options, such as charts
 or graphs. Charts can help make your learners' common misconceptions easier to
 identify.
 
-.. image:: ../../../shared/Images/SAD_Column_Chart.png
+.. image:: ../../../shared/images/SAD_Column_Chart.png
     :alt: In Excel, AnswerValue and Count columns next to each other, values
         for 4 rows selected, and a column chart of the count for the 4 answers.
 

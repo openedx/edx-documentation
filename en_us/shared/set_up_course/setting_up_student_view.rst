@@ -28,7 +28,7 @@ The following example shows the course About page. Learners can see the
 About page before they enroll in the course, and may decide to enroll
 based on the content of the page.
 
-.. image:: ../../../shared/Images/about_page.png
+.. image:: ../../../shared/images/about_page.png
  :alt: An image of the course About page.
  :width: 600
 
@@ -51,7 +51,7 @@ Courses** dashboard, with the course image. From the dashboard, a learner can
 open a course that has started. If the course has not started, the learner can
 see the start date, as explained in :ref:`Scheduling Your Course`.
 
-.. image:: ../../../shared/Images/dashboard-course-start-and-end.png
+.. image:: ../../../shared/images/dashboard-course-start-and-end.png
  :width: 600
  :alt: An image of two courses in the dashboard, with the start dates and
      times.
@@ -67,7 +67,7 @@ Learners see the description of your course on the course About page.
 For example, the course description is circled in the following course About
 page.
 
-.. image:: ../../../shared/Images/about-page-course-description.png
+.. image:: ../../../shared/images/about-page-course-description.png
  :alt: Image of a course summary with the description circled.
  :width: 600
 
@@ -80,7 +80,7 @@ page.
 #. Scroll down to the **Introducing Your Course** section, then locate the
    **Course Overview** field.
 
-   .. image:: ../../../shared/Images/course_overview.png
+   .. image:: ../../../shared/images/course_overview.png
     :alt: Image of the HTML course description.
     :width: 600
 
@@ -109,7 +109,7 @@ dimensions so that the image appears correctly on the dashboard.
 In the following example, the course image that was added in Studio is circled
 in the dashboard.
 
-.. image:: ../../../shared/Images/dashboard-course-image.png
+.. image:: ../../../shared/images/dashboard-course-image.png
  :alt: Image of the course image in the dashboard.
  :width: 600
 
@@ -142,7 +142,7 @@ The course video appears on the course About page.
 In the following example, the course video is circled in the course About
 page:
 
-.. image:: ../../../shared/Images/about-page-course-video.png
+.. image:: ../../../shared/images/about-page-course-video.png
  :alt: Image of the course video in the course summary page.
  :width: 600
 
@@ -166,7 +166,7 @@ Specifications` and :ref:`Video Formats` guidelines as course content videos.
    between **watch?v =** and **&feature** in the URL. This code appears in the
    green box below.
 
-   .. image:: ../../../shared/Images/image127.png
+   .. image:: ../../../shared/images/image127.png
     :alt: Image of a sample course video.
 
 #. From the **Settings** menu, select **Schedule & Details**.

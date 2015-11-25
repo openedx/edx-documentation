@@ -101,7 +101,7 @@ When you enroll people in a course, you have the following options.
   a registered and activated edx.org account, and both **Auto Enroll** and
   **Notify students by email** were selected.
 
-  .. image:: ../../../shared/Images/Course_Enrollment_Email.png
+  .. image:: ../../../shared/images/Course_Enrollment_Email.png
         :alt: Email message inviting a student to enroll in an edx.org course.
 
 *********************************

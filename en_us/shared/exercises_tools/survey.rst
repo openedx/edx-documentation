@@ -26,7 +26,7 @@ only one question, use the :ref:`Poll Tool`.
 The following example survey has three questions, each with the same three
 possible answers.
 
-.. image:: ../../../shared/Images/survey.png
+.. image:: ../../../shared/images/survey.png
     :alt: A survey asking multiple questions about the learner's view of the course.
     :width: 600
 
@@ -34,7 +34,7 @@ After learners submit their answers to the survey, they see the survey
 results that have been gathered at this time, unless the survey has been
 configured to hide results.
 
-.. image:: ../../../shared/Images/survey_results.png
+.. image:: ../../../shared/images/survey_results.png
     :alt: The results of a survey asking multiple questions about the learner's view of the course.
     :width: 600
 
@@ -87,7 +87,7 @@ the component.
    The new component is added to the unit, with the default survey that
    contains three answer fields and three questions.
 
-   .. image:: ../../../shared/Images/survey_studio.png
+   .. image:: ../../../shared/images/survey_studio.png
     :alt: The survey component in Studio.
     :width: 600
 
@@ -272,12 +272,12 @@ survey in the courseware.
 
 Select **View results** in the survey.
 
-.. image:: ../../../shared/Images/survey_view_results.png
+.. image:: ../../../shared/images/survey_view_results.png
     :alt: A survey with the View Results button for course staff.
     :width: 600
 
 The results of the survey are then displayed.
 
-.. image:: ../../../shared/Images/survey_results.png
+.. image:: ../../../shared/images/survey_results.png
     :alt: The results of a survey asking multiple questions about the learner's view of the course.
     :width: 600

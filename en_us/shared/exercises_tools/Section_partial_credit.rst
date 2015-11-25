@@ -38,7 +38,7 @@ to award 25% of the possible points (instead of 0 points) for one of the
 incorrect answer options. The learner selected this incorrect option, and
 received 25% of the possible points.
 
-.. image:: ../../../shared/Images/partial_credit_multiple_choice.png
+.. image:: ../../../shared/images/partial_credit_multiple_choice.png
  :alt: Image of a multiple choice problem with partial credit for an incorrect
      answer.
  :width: 500

@@ -47,14 +47,14 @@ learners' grades.
    A list of the assignment types in your course displays. In this example,
    Homework is weighted as 0.3 (30%) of the grade.
 
-   .. image:: ../../../shared/Images/Grading_Configuration.png
+   .. image:: ../../../shared/images/Grading_Configuration.png
      :alt: XML of course assignment types and weights for grading.
 
    In Studio, you define this information by selecting **Settings** and then
    **Grading**. For more information, see :ref:`Configure the Assignment
    Types`.
 
-   .. image:: ../../../shared/Images/Grading_Configuration_Studio.png
+   .. image:: ../../../shared/images/Grading_Configuration_Studio.png
      :alt: Studio example of homework assignment type and grading weight.
 
 .. important:: Any changes that you make to the course grading policy, to
@@ -153,7 +153,7 @@ experiments<Overview of Content Experiments>`, the grade report includes
 additional columns indicating the name of the cohort or experiment group that
 each learner belongs to.
 
-.. image:: ../../../shared/Images/Grade_Report.png
+.. image:: ../../../shared/images/Grade_Report.png
   :alt: A course grade report, opened in Excel, showing the grades achieved by
         learners on several homework assignments and the midterm.
 
@@ -282,7 +282,7 @@ final exam problem, there is one column for earned points, and one column for
 possible points. In addition, the report shows the final grade score for each
 learner, expressed as a decimal.
 
-.. image:: ../../../shared/Images/Problem_Grade_Report_Example.png
+.. image:: ../../../shared/images/Problem_Grade_Report_Example.png
   :alt: An example problem grade report shown in Excel, showing the decimal
     final grade for learners as well as the earned vs possible points that they
     each achieved on several quiz assignments. A column for a midterm is only
@@ -326,7 +326,7 @@ on the Instructor Dashboard.
 
 #. Select **View Gradebook**. Grades are calculated and the gradebook displays.
 
-   .. image:: ../../../shared/Images/Student_Gradebook.png
+   .. image:: ../../../shared/images/Student_Gradebook.png
      :alt: Course gradebook with rows for learners and columns for assignment
          types.
 
@@ -393,14 +393,14 @@ To view the **Progress** page for a learner, follow these steps.
    course, and the total grade earned for the course to date. The chart does
    not reflect any cohort or experiment group assignments.
 
-   .. image:: ../../../shared/Images/Student_Progress.png
+   .. image:: ../../../shared/images/Student_Progress.png
     :alt: Progress page chart for a learner: includes a column graph with the
           score achieved for each assignment.
 
    To learn more about a particular assignment, move the cursor onto the value
    in the chart. A brief description displays.
 
-   .. image:: ../../../shared/Images/Student_Progress_mouseover.png
+   .. image:: ../../../shared/images/Student_Progress_mouseover.png
     :alt: Progress page with a tooltip for the X that was graphed for the last
           homework assignment, which indicates that the lowest homework score
           is dropped.
@@ -409,7 +409,7 @@ To view the **Progress** page for a learner, follow these steps.
    contain assignments are listed on the right. The learner's individual
    problem scores display.
 
-   .. image:: ../../../shared/Images/Student_Progress_list.png
+   .. image:: ../../../shared/images/Student_Progress_list.png
     :alt: Bottom portion of a Progress page for the same learner with the
           score achieved for each problem in the first course subsection.
 
@@ -425,7 +425,7 @@ on the **Progress** page.
 In this example grade report, the indicated learner has a current grade of 0.43
 (43%).
 
-.. image:: ../../../shared/Images/Grade_Report_example.png
+.. image:: ../../../shared/images/Grade_Report_example.png
  :alt: A course grade report with a single learner's information indicated by
        a rectangle.
 
@@ -443,7 +443,7 @@ In this example grade report, the indicated learner has a current grade of 0.43
 On the learner's **Progress** page, you see the same information graphically
 represented; however, the learner's "total" of 43% is on the far right.
 
-.. image:: ../../../shared/Images/Student_Progress.png
+.. image:: ../../../shared/images/Student_Progress.png
  :alt: Progress page for a learner also included on the grade report: includes
        a column graph with the grade achieved for each assignment.
 
@@ -470,7 +470,7 @@ visualized as a chart with entries for all the assignments, total percentage
 earned in the course so far, and percent needed for each grade cutoff. Here is
 an example of a learner's progress through edX101.
 
-.. image:: ../../../shared/Images/StudentView_GradeCutoffs.png
+.. image:: ../../../shared/images/StudentView_GradeCutoffs.png
  :alt: Image of a learner's Course Progress page with the grade cutoffs legend
        highlighted.
 
@@ -486,7 +486,7 @@ Further down on the **Progress** page is a list of all the subsections in the
 course, with the scores recorded for the learner for all problems in the
 course. Here is the **Progress** page for the learner in the example above:
 
-.. image:: ../../../shared/Images/StudentView_Problems.png
+.. image:: ../../../shared/images/StudentView_Problems.png
    :width: 800
    :alt: Image of a learner's Course Progress page with problems highlighted.
 

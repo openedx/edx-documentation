@@ -27,7 +27,7 @@ unit can contain one or more components.
 A learner can view the names of all components in a unit by moving the cursor
 over each unit in the learning sequence at the top of the page.
 
-.. image:: ../../../shared/Images/ComponentNames_CourseRibbon.png
+.. image:: ../../../shared/images/ComponentNames_CourseRibbon.png
  :alt: Image of the component list for a unit.
 
 By default, Studio includes four types of components for you to add to your
@@ -53,7 +53,7 @@ Add a Component
 To add a component to the unit, select the component type that you want under
 **Add New Component**.
 
-.. image:: ../../../shared/Images/AddNewComponent.png
+.. image:: ../../../shared/images/AddNewComponent.png
   :alt: Image of adding a new component
 
 For more information, see the documentation for the specific component type
@@ -75,7 +75,7 @@ Edit a Component
 
 To edit a component, you select the **Edit** icon.
 
-.. image:: ../../../shared/Images/unit-edit.png
+.. image:: ../../../shared/images/unit-edit.png
   :alt: Image of a unit with Edit icon circled
 
 Then, follow instructions for the type of component you are editing.
@@ -97,7 +97,7 @@ To set the display name for a component, follow these steps.
 #. Select **Configure**.
 #. Edit the **Display Name** field.
 
-  .. image:: ../../../shared/Images/display-name.png
+  .. image:: ../../../shared/images/display-name.png
    :alt: Image of the Display Name field for a component.
 
 4. Select **Save**.
@@ -119,7 +119,7 @@ content.
 To duplicate a component, select the **Duplicate** icon in the component
 header.
 
-.. image:: ../../../shared/Images/unit-dup.png
+.. image:: ../../../shared/images/unit-dup.png
   :alt: Image of a unit with Duplicate icon circled.
 
 Then, follow instructions for the type of component you are editing.
@@ -142,7 +142,7 @@ To delete a component, follow these steps.
 
 #. Select the **Delete** icon in the component header.
 
-.. image:: ../../../shared/Images/unit-delete.png
+.. image:: ../../../shared/images/unit-delete.png
   :alt: Image of a unit with Delete icon circled.
 
 2. When you receive the confirmation prompt, select **Yes, delete this
@@ -168,7 +168,7 @@ the contained components are referred to as children.
 In the unit page, a parent component appears with the display name and a
 **View** link. For example:
 
-.. image:: ../../../shared/Images/component_container.png
+.. image:: ../../../shared/images/component_container.png
  :alt: Image of a unit page with a parent component.
 
 
@@ -195,13 +195,13 @@ When you select **View** in the parent component, the parent component page
 opens, showing all child components. In this example, Child Component A
 contains an HTML component and a video.
 
-.. image:: ../../../shared/Images/child-components-a.png
+.. image:: ../../../shared/images/child-components-a.png
  :alt: Image of an expanded child component.
 
 Select the arrow next to a child component name to collapse it and hide the
 component's contents.
 
-.. image:: ../../../shared/Images/child-components.png
+.. image:: ../../../shared/images/child-components.png
  :alt: Image of a child component page.
 
 Select the arrow again to expand the component.
@@ -224,7 +224,7 @@ To add a child component, open and expand the parent component. Then, select
 the component type that you want under **Add New Component** within the parent
 component.
 
-.. image:: ../../../shared/Images/AddNewComponent.png
+.. image:: ../../../shared/images/AddNewComponent.png
   :alt: Image of adding a new component.
 
 For more information, see the section for the specific component type that you
@@ -297,7 +297,7 @@ The Learner View of Nested Components
 For learners, all parent and child components appear on the unit page.
 The following example shows the learner view of the unit described above.
 
-.. image:: ../../../shared/Images/nested_components_student_view.png
+.. image:: ../../../shared/images/nested_components_student_view.png
  :alt: Image of the learner's view of nested components.
 
 .. note::
@@ -322,7 +322,7 @@ drag it into Child Component B. Select the video component, and as you drag it
 into Child Component B, release the mouse button when a dashed outline of the
 component you are moving appears in the new location.
 
-.. image:: ../../../shared/Images/drag_child_component.png
+.. image:: ../../../shared/images/drag_child_component.png
  :alt: Image of dragging a child component to a new location
 
 You can also drag a child component outside of a parent, so that the child

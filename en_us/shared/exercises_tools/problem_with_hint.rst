@@ -11,7 +11,7 @@ student feedback or a hint based on that response so that the student is more
 likely to answer correctly on the next attempt. These problems can be text
 input problems or multiple choice problems.
 
-.. image:: ../../../shared/Images/ProblemWithAdaptiveHintExample.png
+.. image:: ../../../shared/images/ProblemWithAdaptiveHintExample.png
  :alt: Image of a problem with an adaptive hint
 
 ******************************************

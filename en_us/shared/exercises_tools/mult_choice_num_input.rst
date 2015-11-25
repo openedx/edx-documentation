@@ -10,7 +10,7 @@ You can create a problem that combines a multiple choice and numerical input
 problems. Students not only select a response from options that you provide,
 but also provide more specific information, if necessary.
 
-.. image:: ../../../shared/Images/MultipleChoice_NumericalInput.png
+.. image:: ../../../shared/images/MultipleChoice_NumericalInput.png
   :alt: Image of a multiple choice and numerical input problem
 
 .. note::

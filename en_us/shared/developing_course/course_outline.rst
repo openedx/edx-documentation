@@ -36,7 +36,7 @@ select **Outline**.
 
 The first time you view an outline for a course, it contains no content.
 
-.. image:: ../../../shared/Images/outline_empty.png
+.. image:: ../../../shared/images/outline_empty.png
  :alt: An empty course outline.
 
 You must :ref:`create the first section<Create a Section>`.
@@ -49,7 +49,7 @@ The following example shows a sample course in the outline, with indications
 for sections, subsections, and units. As you develop your course, it will begin
 to look like this example.
 
-.. image:: ../../../shared/Images/outline-callouts.png
+.. image:: ../../../shared/images/outline-callouts.png
  :alt: An outline with callouts for sections, subsections, and units.
 
 As this example shows, the course is organized into the following levels.
@@ -72,7 +72,7 @@ The content you see in the outline in Studio is displayed to learners in the
 **Courseware** page in the LMS. The following image shows how a learner sees
 your course content.
 
-.. image:: ../../../shared/Images/Course_Outline_LMS.png
+.. image:: ../../../shared/images/Course_Outline_LMS.png
  :alt: Course content from learner's point of view.
 
 .. _Navigating the Course Outline:
@@ -85,12 +85,12 @@ In Studio, you navigate the course outline by expanding and collapsing sections
 and subsections. Use the "drop-down" icon next to a section or subsection name
 to expand or collapse its contents.
 
-.. image:: ../../../shared/Images/outline-expand-collapse.png
+.. image:: ../../../shared/images/outline-expand-collapse.png
  :alt: The outline with expand and collapse icons circled.
 
 When you expand a subsection, all units in the subsection are visible.
 
-.. image:: ../../../shared/Images/outline-with-units.png
+.. image:: ../../../shared/images/outline-with-units.png
  :alt: The outline with an expanded subsection.
 
 Select the name of a unit to open the :ref:`unit page<Developing Course
@@ -111,13 +111,13 @@ You add sections, subsections, and units directly in the outline.
 *  To add a subsection to the end of the section, expand the section and select
    **New Subsection**.
 
-   .. image:: ../../../shared/Images/outline-new-subsection.png
+   .. image:: ../../../shared/images/outline-new-subsection.png
      :alt: The outline with the New Subsection button circled.
 
 * To add a unit to the end of a subsection, expand the subsection and select
   **New Unit**.
 
-  .. image:: ../../../shared/Images/outline-new-unit.png
+  .. image:: ../../../shared/images/outline-new-unit.png
     :alt: The outline with the New Subsection button circled.
 
   The :ref:`unit<Developing Course Units>` page opens.
@@ -152,7 +152,7 @@ To modify settings for a section, subsection, or unit, select the **Configure**
 icon for that object. In the following example, the **Configure** icon is
 circled for a section, a subsection, and two units.
 
-.. image:: ../../../shared/Images/settings-icons.png
+.. image:: ../../../shared/images/settings-icons.png
  :alt: Configure icons in the course outline.
 
 For more information, see the links above.
@@ -171,7 +171,7 @@ To publish new and changed units, select the **Publish** icon for a section,
 subsection, or unit. In the following example, the **Publish** icon is circled
 for a section, subsection, and unit.
 
-.. image:: ../../../shared/Images/outline-publish-icons.png
+.. image:: ../../../shared/images/outline-publish-icons.png
  :alt: Publishing icons in the course outline.
 
 .. note::
@@ -199,7 +199,7 @@ right of the object's box until the cursor changes to a four-headed arrow. For
 example, in the image below, the handle for the subsection Lesson 1 - Getting
 Started is selected.
 
-.. image:: ../../../shared/Images/outline-drag-select.png
+.. image:: ../../../shared/images/outline-drag-select.png
  :alt: A subsection handle selected to drag it.
 
 Then, click and drag the object to the location that you want.
@@ -210,7 +210,7 @@ release the mouse button. For example, in the image below, the subsection
 Lesson 1 - Getting Started is being moved to the end of the section
 Introduction.
 
-.. image:: ../../../shared/Images/outline-drag-new-location.png
+.. image:: ../../../shared/images/outline-drag-new-location.png
  :alt: A subsection being dragged to a new section.
 
 If you did not expand the section or subsection you are moving the object to,
@@ -219,7 +219,7 @@ object to a valid location. You can then release the mouse button. For example,
 in the image below, the subsection Lesson 1 - Getting Started is being moved to
 the collapsed section Introduction.
 
-.. image:: ../../../shared/Images/outline-drag-new-location-collapsed.png
+.. image:: ../../../shared/images/outline-drag-new-location-collapsed.png
   :alt: A subsection being dragged to a new section.
 
 .. note:: When you move a subsection to a different section, the release date
@@ -240,7 +240,7 @@ You delete sections, subsections, and units from the course outline.
 
 Select the **Delete** icon in the box for the object you want to delete.
 
-.. image:: ../../../shared/Images/outline-delete.png
+.. image:: ../../../shared/images/outline-delete.png
  :alt: The outline with Delete icons circled.
 
 You are prompted to confirm the deletion.

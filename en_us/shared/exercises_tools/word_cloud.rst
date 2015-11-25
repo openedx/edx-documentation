@@ -16,7 +16,7 @@ their thoughts to the group.
 For example, the following word cloud was created from students'
 responses to a question in a HarvardX course.
 
-.. image:: ../../../shared/Images/WordCloudExample.png
+.. image:: ../../../shared/images/WordCloudExample.png
   :alt: Image of a word cloud problem.
 
 .. contents::

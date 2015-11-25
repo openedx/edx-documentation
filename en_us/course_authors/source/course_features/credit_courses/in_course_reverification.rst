@@ -137,7 +137,7 @@ you want from the list.
 #. Under **Make visible to**, select **Specific Content Groups**, and then
    select the verification checkpoint that you want.
 
-   .. image:: ../../../../shared/Images/ICRV_CompSettings.png
+   .. image:: ../../../../shared/images/ICRV_CompSettings.png
     :width: 250
     :alt: The settings editor for a component, showing the list of
       verification checkpoints.
@@ -164,7 +164,7 @@ select the verification checkpoint that you want from the list.
 #. Under **Verification Checkpoint**, select the name of the verification
    checkpoint that you want.
 
-   .. image:: ../../../../shared/Images/ICRV_UnitSettings.png
+   .. image:: ../../../../shared/images/ICRV_UnitSettings.png
     :width: 250
     :alt: The settings editor for a unit, showing the list of verification
       checkpoints.
@@ -218,7 +218,7 @@ When learners arrive at the assessment in the courseware, the introductory
 text and the verification checkpoint are visible. The assessment content in
 the third component in the unit is not visible.
 
-.. image:: ../../../../shared/Images/ICRV_Checkpoint.png
+.. image:: ../../../../shared/images/ICRV_Checkpoint.png
  :width: 500
  :alt: A verification checkpoint showing a message that the learner must
      perform identity verification.
@@ -226,7 +226,7 @@ the third component in the unit is not visible.
 After learners pass the checkpoint, a message indicates that they can now
 access assessment content, and the assessment content is visible.
 
-.. image:: ../../../../shared/Images/ICRV_Checkpoint_Passed.png
+.. image:: ../../../../shared/images/ICRV_Checkpoint_Passed.png
  :width: 500
  :alt: A verification checkpoint showing a message that the learner can
      continue to the assessment.
@@ -240,7 +240,7 @@ Additionally, learners who must complete in-course reverification see the
 verification checkpoints for their course in the list of course credit
 requirements on their **Progress** pages.
 
-.. image:: ../../../../shared/Images/SFD_Credit_ReqList.png
+.. image:: ../../../../shared/images/SFD_Credit_ReqList.png
  :width: 350
  :alt: Learner's Progress page with a list of credit requirements below the
      progress graph.

@@ -265,7 +265,7 @@ To enable proctored exams in your course, follow these steps.
 
 #. Change the value of the setting to ``true``.
 
-   .. image:: ../../../../shared/Images/Proctoring_AdvancedSetting.png
+   .. image:: ../../../../shared/images/Proctoring_AdvancedSetting.png
       :alt: The "Enable Timed and Proctored Exams" advanced setting with a value of "true".
       :width: 500
 
@@ -299,7 +299,7 @@ To create an exam that includes online proctoring, follow these steps.
 
 #. Specify the allotted time for the exam in hours and minutes.
 
-   .. image:: ../../../../shared/Images/Proctoring_StudioSetProctoredExam.png
+   .. image:: ../../../../shared/images/Proctoring_StudioSetProctoredExam.png
      :alt: The Studio subsection settings dialog showing selections for a timed
          and proctored final exam.
      :width: 600
@@ -358,7 +358,7 @@ To create a practice exam, follow these steps.
    duration that is appropriate for the number of example problems you
    include.
 
-   .. image:: ../../../../shared/Images/Proctoring_StudioSetPracticeExam.png
+   .. image:: ../../../../shared/images/Proctoring_StudioSetPracticeExam.png
      :alt: The Studio subsection settings dialog, showing settings for an ungraded practice proctored exam.
      :width: 600
 
@@ -542,7 +542,7 @@ steps.
 
 #. Select **Generate Proctored Exam Results Report**.
 
-   .. image:: ../../../../shared/Images/Proctoring_GenerateCSVExamResults.png
+   .. image:: ../../../../shared/images/Proctoring_GenerateCSVExamResults.png
      :alt: The "Generate Proctored Exam Results Report" button in the LMS.
      :width: 400
 
@@ -562,7 +562,7 @@ steps.
 #. To open or save a report file, locate and click the link for the report you
    requested.
 
-   .. image:: ../../../../shared/Images/Proctoring_CSVExamResultsLink.png
+   .. image:: ../../../../shared/images/Proctoring_CSVExamResultsLink.png
      :alt: The link for a generated proctored exam results report in the instructor dashboard.
      :width: 600
 

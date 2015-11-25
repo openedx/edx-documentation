@@ -62,7 +62,7 @@ To create a new library, follow these steps.
       number of characters in the **Library Name**, **Organization**, and
       **Library Code** fields must be 65 or fewer.
 
-   .. image:: ../../../shared/Images/ContentLibrary_NewCL.png
+   .. image:: ../../../shared/images/ContentLibrary_NewCL.png
       :alt: Image of the library creation page.
       :width: 600
 
@@ -113,7 +113,7 @@ To change the name of a library, follow these steps.
 
    The library name field becomes editable.
 
-   .. image:: ../../../shared/Images/ContentLibrary_EditName.png
+   .. image:: ../../../shared/images/ContentLibrary_EditName.png
      :alt: The Edit icon to the right of the Library Name.
      :width: 300
 
@@ -191,7 +191,7 @@ You can navigate through the pages in the following ways.
   Select the number to place your cursor in the field, then enter the page
   number you want to jump to.
 
-  .. image:: ../../../shared/Images/file_pagination.png
+  .. image:: ../../../shared/images/file_pagination.png
      :alt: Image showing a pair of page numbers with the first number circled.
      :width: 300
 

@@ -12,7 +12,7 @@ appears below the response field. Unlike numerical input problems, which only
 allow integers and a few select constants, math expression input problems can
 include unknown variables and more complicated symbolic expressions.
 
-.. image:: ../../../shared/Images/MathExpressionInputExample.png
+.. image:: ../../../shared/images/MathExpressionInputExample.png
  :alt: A problem requesting the symbolic expression and numerical evaluation
      of N(x) for a sleeved cylinder
 

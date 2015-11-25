@@ -22,7 +22,7 @@ You can require that your students pass a particular edX course before they
 enroll in your course. Students see information about course prerequisites on
 the course About page.
 
-.. image:: ../../../shared/Images/PrereqAboutPage.png
+.. image:: ../../../shared/images/PrereqAboutPage.png
   :width: 500
   :alt: A course About page with prerequisite course information circled.
 
@@ -32,7 +32,7 @@ other courses, the Student Dashboard does not provide a link to the courseware.
 The Student Dashboard includes a link to the About page for the prerequisite
 course. Students can enroll in the prerequisite course from the About page.
 
-.. image:: ../../../shared/Images/Prereq_StudentDashboard.png
+.. image:: ../../../shared/images/Prereq_StudentDashboard.png
   :width: 500
   :alt: The Student Dashboard with an available course and a course that is
       unavailable because it has a prerequisite.
@@ -62,7 +62,7 @@ course materials. If you include an entrance exam, students who enroll in your
 course see only the **Course Updates & News** page and an **Entrance Exam** tab
 until they pass the exam.
 
-.. image:: ../../../shared/Images/EntEx_LandingPage.png
+.. image:: ../../../shared/images/EntEx_LandingPage.png
   :width: 500
   :alt: The Course Updates & News page with the Entrance Exam tab circled on
    the left.

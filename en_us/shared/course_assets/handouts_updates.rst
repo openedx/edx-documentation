@@ -7,7 +7,7 @@ Adding Course Updates and Handouts
 You add course updates and identify handouts in Studio. Learners see the
 course updates and handouts on the **Course Info** page in your course.
 
-.. image:: ../../../shared/Images/course_info.png
+.. image:: ../../../shared/images/course_info.png
  :alt: The Course Info page as it appears to students, with a "Course Updates
        & News" section containing a dated post and a "Course Handouts" frame
        with a list of links.

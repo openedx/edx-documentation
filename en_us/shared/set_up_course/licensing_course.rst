@@ -96,7 +96,7 @@ videos. Learners see the license at the bottom of all pages in the courseware.
 #. Scroll to the bottom of the page to view the **Course Content License**
    section.
 
-   .. image:: ../../../shared/Images/course_license.png
+   .. image:: ../../../shared/images/course_license.png
       :alt: The Course Content License section of the Schedule & Details page.
       :width: 600
 
@@ -105,7 +105,7 @@ videos. Learners see the license at the bottom of all pages in the courseware.
    * To grant learners to right to share and use course content, select
      **Creative Commons**. The Creative Commons options are displayed.
 
-     .. image:: ../../../shared/Images/creative-commons-license-course.png
+     .. image:: ../../../shared/images/creative-commons-license-course.png
       :alt: The Creative Commons license options.
       :width: 600
 
@@ -141,14 +141,14 @@ Learners' View of Licenses
 When they view content in the **Courseware** tab, learners see the license that
 you set for the course at the bottom of the page.
 
-.. image:: ../../../shared/Images/learner_course_license.png
+.. image:: ../../../shared/images/learner_course_license.png
   :alt: A course unit page with a pointer to the license.
   :width: 600
 
 If the video has a different license than the course as a whole, learners see
 the license at the bottom right of the video player.
 
-.. image:: ../../../shared/Images/learner_video_license.png
+.. image:: ../../../shared/images/learner_video_license.png
  :alt: A video with a pointer to the license.
  :width: 600
 

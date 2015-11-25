@@ -166,7 +166,7 @@ to download transcripts, the video player includes a **Download transcript**
 option. Learners can then select either **SubRip (.srt) file** or **Text (.txt)
 file** to download the .srt or .txt transcript.
 
-.. image:: ../../../shared/Images/Video_DownTrans_srt-txt.png
+.. image:: ../../../shared/images/Video_DownTrans_srt-txt.png
    :width: 500
    :alt: Video status bar showing .srt and .txt transcript download options.
 
@@ -291,7 +291,7 @@ To add a video and its transcript to your course, follow these steps.
 #. When the new video component appears, select **Edit**. The video editor
    opens to the **Basic** page.
 
-   .. image:: ../../../shared/Images/VideoComponentEditor.png
+   .. image:: ../../../shared/images/VideoComponentEditor.png
     :alt: Image of the video component editor.
     :width: 600
 
@@ -506,7 +506,7 @@ To add a table of contents, you work with a third-party service to create an
 .srt file. Then, you use the **Transcript Languages** setting in the video
 component to associate the .srt file with the video.
 
-.. image:: ../../../shared/Images/VideoTOC.png
+.. image:: ../../../shared/images/VideoTOC.png
    :alt: A video with a transcript that has links to different parts of the
     video.
    :width: 500
@@ -535,7 +535,7 @@ Transcript Allowed** to **True**. **Download Transcript** appears below the
 video, and learners see the .srt and .txt options when they move the cursor
 over that option.
 
-.. image:: ../../../shared/Images/Video_DownTrans_srt-txt.png
+.. image:: ../../../shared/images/Video_DownTrans_srt-txt.png
    :width: 500
    :alt: Video status bar showing .srt and .txt transcript download options.
 
@@ -545,7 +545,7 @@ When you do this, **Download Handout** appears to the right of the **Download
 Transcript** in the video player, and learners can download the .srt, .txt, or
 handout version of the transcript.
 
-.. image:: ../../../shared/Images/Video_DownTrans_srt-handout.png
+.. image:: ../../../shared/images/Video_DownTrans_srt-handout.png
    :width: 500
    :alt: Video status bar showing .srt, .txt, and handout transcript download
     options.
@@ -601,7 +601,7 @@ To add the transcripts to a video component, follow these steps.
 When your learners view the video, they can select **CC** to select a
 language.
 
-.. image:: ../../../shared/Images/Video_LanguageTranscripts_LMS.png
+.. image:: ../../../shared/images/Video_LanguageTranscripts_LMS.png
    :alt: Video playing with language options visible.
 
 .. _Steps for sjson files:

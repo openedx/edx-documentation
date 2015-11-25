@@ -18,7 +18,7 @@ To use edX course content in the Blackboard LMS, you add a new app to the course
 #. Open a **Content Area** page, and from the **Build Content** menu select
    **Web Link**.
 
-   .. image:: ../../../../shared/Images/lti_blackboard_contentarea.png
+   .. image:: ../../../../shared/images/lti_blackboard_contentarea.png
      :alt: An image of the Blackboard navigation choices from Content Area to
          Build Content to Web Link.
 
@@ -28,7 +28,7 @@ To use edX course content in the Blackboard LMS, you add a new app to the course
    The **URL** is the LTI URL that you determined for the edX course content,
    such as ``https://edx-lti.org/lti_provider/courses/course-v1:edX+DemoX+2014/block-1:edX+DemoX+Demo_Course+type@problem+block@d2e35c1d294b4ba0b3b1048615605d2a``.
 
-   .. image:: ../../../../shared/Images/lti_blackboard_create_link.png
+   .. image:: ../../../../shared/images/lti_blackboard_create_link.png
      :alt: The Blackboard Create Web Link page with example name and URL
          values.
 
@@ -36,7 +36,7 @@ To use edX course content in the Blackboard LMS, you add a new app to the course
 
 #. Review the content to verify that it appears as you expect.
 
-   .. image:: ../../../../shared/Images/lti_blackboard_example.png
+   .. image:: ../../../../shared/images/lti_blackboard_example.png
      :alt: An edX drag and drop problem shown as part of a course running on a
       Blackboard system.
 

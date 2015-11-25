@@ -212,7 +212,7 @@ To delete a certificate, follow these steps.
 
 #. In the confirmation dialog, confirm that you want to delete the certificate.
 
-.. image:: ../../../shared/Images/CertificateDeleteIcon.png
+.. image:: ../../../shared/images/CertificateDeleteIcon.png
    :width: 500
    :alt: Top portion of the certificate form showing the delete icon in the upper right corner.
 
@@ -236,7 +236,7 @@ will appear to a learner taking the course in the selected mode.
    You see the web view for the certificate, as a learner in the selected
    course mode would see it.
 
-   .. image:: ../../../shared/Images/PreviewCertificate.png
+   .. image:: ../../../shared/images/PreviewCertificate.png
      :width: 350
      :alt: The Preview button on the Certificates page in Studio.
 
@@ -270,7 +270,7 @@ Activate a Certificate
 
   #. On the Certificates page, select **Activate**.
 
-     .. image:: ../../../shared/Images/ActivateCertificate.png
+     .. image:: ../../../shared/images/ActivateCertificate.png
        :width: 350
        :alt: The Activate button on the Certificates page in Studio.
 

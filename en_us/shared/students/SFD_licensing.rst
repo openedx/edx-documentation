@@ -72,14 +72,14 @@ Viewing Licenses
 If the course author has set a license for the course, you see the license a
 the bottom of the page when you view content in the **Courseware** tab.
 
-.. image:: ../../shared/Images/learner_course_license.png
+.. image:: ../../shared/images/learner_course_license.png
   :alt: A course unit page with a pointer to the license.
   :width: 600
 
 If a video has a different license than the course as a whole, you see
 the license at the bottom right of the video player.
 
-.. image:: ../../shared/Images/learner_video_license.png
+.. image:: ../../shared/images/learner_video_license.png
  :alt: A video with a pointer to the license.
  :width: 600
 

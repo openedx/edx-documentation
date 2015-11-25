@@ -42,7 +42,7 @@ submissions. When a learner enters Python code for the problem and selects
 tests, the grader returns the score and a string indicating that the solution
 is correct.
 
-.. image:: ../../../shared/Images/external-grader-correct.png
+.. image:: ../../../shared/images/external-grader-correct.png
  :alt: Image of a learner's view of a programming problem that uses an external grader, with a correct result.
  :width: 600
 
@@ -51,7 +51,7 @@ by selecting **See full output**. This can be particularly useful when the
 solution is not correct and you want to return information about the failed
 tests. For example:
 
-.. image:: ../../../shared/Images/external-grader-incorrect.png
+.. image:: ../../../shared/images/external-grader-incorrect.png
  :alt: Image of a learner's view of a programming problem that uses an external grader, with an incorrect result
 
 .. _External Graders and XQueue:

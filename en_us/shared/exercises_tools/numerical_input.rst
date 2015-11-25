@@ -19,7 +19,7 @@ simple mathematical expressions to answer a question. The text that the
 learners enter is converted to a symbolic expression that appears below the
 response field.
 
-.. image:: ../../../shared/Images/NumericalInputExample.png
+.. image:: ../../../shared/images/NumericalInputExample.png
  :alt: A problem with two questions, one answered correctly and one
      incorrectly.
 
@@ -31,7 +31,7 @@ trigonometric functions and their inverses, such as sine (sin) and arcsine
 mathematical symbols. The following example shows a response entered by a
 learner and the numerical expression that results.
 
-.. image:: ../../../shared/Images/Math5.png
+.. image:: ../../../shared/images/Math5.png
  :alt: A learner typed n*x^(n-1) to enter the symbolic expression n times x to
      the n minus 1 power.
 
@@ -68,7 +68,7 @@ Editor.
 
 For example, you must use the Advanced Editor to define the following problems.
 
-.. image:: ../../../shared/Images/NumericalInput_Complex.png
+.. image:: ../../../shared/images/NumericalInput_Complex.png
  :alt: A problem that requires a square root as the answer.
 
 In this example, the question uses a Python script to compute the square root.
@@ -280,14 +280,14 @@ By default, the feedback label for correct answers is **Correct** . If you do
 not define a feedback label, learners see this term when they submit a correct
 answer, as in the following example.
 
-.. image:: ../../../shared/Images/numerical_input_feedback.png
+.. image:: ../../../shared/images/numerical_input_feedback.png
  :alt: Numerical input feedback with the standard label.
  :width: 600
 
 You can configure the problem to override the default labels. For example, you
 can configure a custom label for the answer.
 
-.. image:: ../../../shared/Images/numerical_input_feedback_custom_label.png
+.. image:: ../../../shared/images/numerical_input_feedback_custom_label.png
  :alt: Numerical input feedback with a custom label.
  :width: 600
 
@@ -366,7 +366,7 @@ Input Problem>`_ to configure partial credit.
 In the following example, the learner entered an answer that was close to the
 correct answer and received partial credit.
 
-.. image:: ../../../shared/Images/partial_credit_numerical_input.png
+.. image:: ../../../shared/images/partial_credit_numerical_input.png
  :alt: A numerical input problem with partial credit for a close answer.
  :width: 600
 
@@ -479,7 +479,7 @@ Add Text after the Numeric Response Field
 You might want to include a word, phrase, or sentence after the answer field
 in a numerical input problem to help guide your students or resolve ambiguity.
 
-.. image:: ../../../shared/Images/NI_trailing_text.png
+.. image:: ../../../shared/images/NI_trailing_text.png
  :width: 500
  :alt: Three numerical input problems with text after the response field:
      "km", a percent sign, and a symbol for meters per second squared.

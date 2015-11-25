@@ -10,7 +10,7 @@ In an image mapped input problem, also known as a "pointing on a picture"
 problem, students click inside a defined region in an image. You define this
 region by including coordinates in the body of the problem.
 
-.. image:: ../../../shared/Images/ImageMappedInput-Simple.png
+.. image:: ../../../shared/images/ImageMappedInput-Simple.png
  :width: 500
  :alt: Problem that asks learners to click inside Egypt on a map of Africa
 
@@ -157,7 +157,7 @@ Specify Multiple Rectangular Regions
 
 You can specify more than one rectangular region in an image.
 
-.. image:: ../../../shared/Images/ImgMapInput_Mult.png
+.. image:: ../../../shared/images/ImgMapInput_Mult.png
  :width: 350
  :alt: Problem that asks students to click inside one of three rectangles
 
@@ -200,7 +200,7 @@ Specify an Irregular Region
 
 You can specify one non-rectangular region.
 
-.. image:: ../../../shared/Images/ImgMapInput_Irreg.png
+.. image:: ../../../shared/images/ImgMapInput_Irreg.png
   :width: 500
   :alt: Problem that asks learners to click inside a pentagon
 

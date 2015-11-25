@@ -11,7 +11,7 @@ cursors over a tooltip icon.
 The following example problem includes two tooltips. The tooltip that provides
 a definition for "ROI" is being shown.
 
-.. image:: ../../../shared/Images/tooltip.png
+.. image:: ../../../shared/images/tooltip.png
  :alt: An example of a tooltip from a learner's point of view.
  :width: 500
 

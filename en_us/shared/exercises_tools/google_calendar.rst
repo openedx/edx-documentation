@@ -35,7 +35,7 @@ You can embed a Google calendar in your course so that learners see the
 calendar in the courseware. You can use a Google calendar to share quiz dates,
 office hours, or other schedules of interest to learners. For example:
 
-.. image:: ../../../shared/Images/google-calendar.png
+.. image:: ../../../shared/images/google-calendar.png
   :alt: A Google calendar in courseware.
 
 *******************************************
@@ -114,7 +114,7 @@ Make the Google Calendar Public
 #. Select the **Share this Calendar** tab, and then select **Make this calendar
    public**.
 
-  .. image:: ../../../shared/Images/google-calendar-settings.png
+  .. image:: ../../../shared/images/google-calendar-settings.png
    :alt: Google calendar settings.
 
 7. Select **Save**.
@@ -134,7 +134,7 @@ Obtain the Google Calendar ID
    colored **XML**, **ICAL**, and **HTML** buttons. In parentheses, you can see
    the calendar ID.
 
-   .. image:: ../../../shared/Images/google-calendar-address.png
+   .. image:: ../../../shared/images/google-calendar-address.png
      :width: 600
      :alt: Image of Calendar Address label with the calendar ID to the right.
 
@@ -173,13 +173,13 @@ To add a Google calendar component, follow these steps.
    The new component is added to the unit, with the default edX Google calendar
    embedded.
 
-   .. image:: ../../../shared/Images/google-calendar-studio.png
+   .. image:: ../../../shared/images/google-calendar-studio.png
     :width: 600
     :alt: The Google calendar component in a unit page.
 
 #. In the new component, select **Edit**.
 
-   .. image:: ../../../shared/Images/google-calendar-edit.png
+   .. image:: ../../../shared/images/google-calendar-edit.png
     :width: 600
     :alt: The Google calendar editor.
 

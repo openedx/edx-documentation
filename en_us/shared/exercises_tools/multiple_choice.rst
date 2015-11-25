@@ -19,7 +19,7 @@ options. Unlike :ref:`dropdown<Dropdown>` problems, whose answer choices
 do not appear until the learner clicks the dropdown arrow, answer choices for
 multiple choice problems are always visible directly below the question.
 
-.. image:: ../../../shared/Images/MultipleChoiceExample.png
+.. image:: ../../../shared/images/MultipleChoiceExample.png
  :alt: A multiple choice problem
  :width: 600
 
@@ -312,14 +312,14 @@ By default, the feedback labels shown to learners are **Correct** and
 **Incorrect**. If you do not define feedback labels, learners see these terms
 when they submit an answer, as in the following example.
 
-.. image:: ../../../shared/Images/multiple_choice_feedback.png
+.. image:: ../../../shared/images/multiple_choice_feedback.png
  :alt: Multiple choice feedback with the standard label.
  :width: 600
 
 You can configure the problem to override the default labels. For example, you
 can configure a custom label for a specific wrong answer.
 
-.. image:: ../../../shared/Images/multiple_choice_feedback_custom_label.png
+.. image:: ../../../shared/images/multiple_choice_feedback_custom_label.png
  :alt: Multiple choice feedback with a custom label.
  :width: 600
 
@@ -408,7 +408,7 @@ configure partial credit.
 In the following example, the learner selected a wrong answer and received
 partial credit.
 
-.. image:: ../../../shared/Images/partial_credit_multiple_choice.png
+.. image:: ../../../shared/images/partial_credit_multiple_choice.png
  :alt: A multiple choice problem with partial credit for an incorrect answer.
  :width: 600
 

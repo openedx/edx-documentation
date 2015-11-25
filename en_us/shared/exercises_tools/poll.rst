@@ -9,7 +9,7 @@ Poll Tool for OLX
 
 You can run polls in your course so that your students can share opinions on different questions.
 
-.. image:: ../../../shared/Images/PollExample.png
+.. image:: ../../../shared/images/PollExample.png
 
 .. note:: Creating a poll requires you to export your course, edit some of your course's XML files in a text editor, and then re-import your course. We recommend that you create a backup copy of your course before you create the poll. We also recommend that you only edit the files that will contain polls in the text editor if you're very familiar with editing XML.
 
