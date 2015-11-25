@@ -19,11 +19,13 @@ Overview of the edX Mobile App
 
 .. only:: Partners
 
-  The edX mobile apps are companions to the `edx.org`_ website. You can use the
-  apps to download course videos so that you can watch them whenever you want
-  to, even without an Internet connection. To access the rest of the course,
-  including course discussions, homework, and quizzes, you use a web browser on
-  a computer.
+  The edX mobile apps are companions to the `edx.org`_ website. You can use
+  the apps to download course videos so that you can watch them whenever you
+  want to, even without an Internet connection. When you have an Internet
+  connection, you can also view course announcements and content, and do some,
+  but not all, of the problems in your assignments. To complete an entire
+  course and participate in course discussions, you use a web browser on a
+  computer.
 
 .. The following paragraph describes the features of the edX mobile app for Open edX (adds notifications, assessments, discussions)
 .. Alison, DOC-1840, June 2015
@@ -33,7 +35,7 @@ Overview of the edX Mobile App
   You can use the edX mobile apps to download course videos so that you can
   watch them whenever you want to, even without an Internet connection. When
   you have an Internet connection, you can also read course announcements,
-  participate in discussions, and get started on homework and other
+  participate in course discussions, and get started on homework and other
   assignments. To complete an entire course, you use a web browser on a
   computer.
 
@@ -72,26 +74,12 @@ Courseware Questions
 Can I take a course entirely on my mobile device?
 ========================================================
 
-.. The following paragraph describes the features of the edX mobile app for partners/edx.org (video only)
-.. Alison, DOC-1840, June 2015
-
-.. only:: Partners
-
-  Not at this time. With the edX mobile app, you can download course videos to
-  watch when you do not have an Internet connection. To complete other work,
-  including readings, homework problems, and exams, use a computer.
-
-.. The following paragraph describes the features of the edX mobile app for Open edX (adds notifications, assessments, discussions)
-.. Alison, DOC-1840, June 2015
-
-.. only:: Open_edX
-
-  Not entirely. With the edX mobile app, you can download course videos to
-  watch when you do not have an Internet connection. When you have an Internet
-  connection, you can also read course announcements and content, participate
-  in discussions, and do some, but not all, of the problems in your
-  assignments. To complete an entire course, you use a web browser on a
-  computer.
+Not entirely. With the edX mobile app, you can download course videos to watch
+when you do not have an Internet connection. When you have an Internet
+connection, you can also read course announcements and content, and do some,
+but not all, of the problems in your assignments. To complete an entire
+course, including participating in course discussions, you use a web browser
+on a computer.
 
 ========================================================
 How do I post questions on the discussion board?

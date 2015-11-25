@@ -169,7 +169,7 @@ General Exercises and Tools
      - In text input problems, students enter text into a response field. The
        response can include numbers, letters, and special characters such as
        punctuation marks.
-     - Full support
+     - Full support; mobile-ready
    * - :ref:`Word Cloud`
      - Word clouds arrange text that students enter - for example, in response
        to a question - into a colorful graphic that students can see.
@@ -234,26 +234,27 @@ Multiple Choice Exercises and Tools
      - In checkbox problems, the student selects one or more options from a
        list of possible answers. The student must select all the options that
        apply to answer the problem correctly.
-     - Full support
+     - Full support; mobile-ready
    * - :ref:`Dropdown`
      - Dropdown problems allow the student to choose from a collection of
        answer options, presented as a dropdown list. Unlike multiple choice
        problems, whose answers are always visible directly below the question,
        dropdown problems don't show answer choices until the student clicks the
        dropdown arrow.
-     - Full support
+     - Full support; mobile-ready
    * - :ref:`Multiple Choice`
      - In multiple choice problems, students select one option from a list of
        answer options. Unlike with dropdown problems, whose answer choices
        don't appear until the student clicks the drop-down arrow, answer
        choices for multiple choice problems are always visible directly below
        the question.
-     - Full support
+     - Full support; mobile-ready  
    * - :ref:`Multiple Choice and Numerical Input`
      - You can create a problem that combines a multiple choice and numerical
        input problems. Students not only select a response from options that
        you provide, but also provide more specific information, if necessary.
-     - Provisional support
+     - Provisional support; mobile-ready
+
 
 ********************************
 STEM Exercises and Tools
@@ -309,7 +310,7 @@ STEM Exercises and Tools
        integers and a few select constants. You can specify a margin of error,
        and you can specify a correct answer either explicitly or by using a
        Python script.
-     - Full support
+     - Full support; mobile-ready  
    * - :ref:`Periodic Table`
      - An interactive periodic table of the elements shows detailed information
        about each element as the student moves the mouse over the element.
@@ -319,14 +320,9 @@ STEM Exercises and Tools
        shapes by stringing together amino acids.
      - No support
 
-.. The following section lists the types of problems that learners can interact with in the edX mobile app.
-.. Alison, DOC-1840, June 2015
 
-.. only:: Open_edX
+*********************************
+Mobile-Ready Problem Types
+*********************************
 
-  *********************************
-  Mobile-Ready Problem Types
-  *********************************
-
-  .. include:: ../../../shared/exercises_tools/Section_mobile_problems.rst
-
+.. include:: ../../../shared/exercises_tools/Section_mobile_problems.rst
