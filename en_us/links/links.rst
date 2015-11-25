@@ -277,6 +277,9 @@
 
 .. _IMS LTI 1.1 Consumer Launch: http://www.imsglobal.org/developers/LTI/test/v1p1/lms.php
 
+.. _IMS Global Learning Tools Interoperability: http://www.imsglobal.org/LTI/v1p1p1/ltiIMGv1p1p1.html
+
+
 .. _Issuing Badges: https://wiki.mozilla.org/Badges/Onboarding-Issuer#Issuing_Badges
 
 .. _Oppia: https://www.oppia.org

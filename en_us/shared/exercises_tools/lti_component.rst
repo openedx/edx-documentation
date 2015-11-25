@@ -1,3 +1,5 @@
+.. include:: ../../../links/links.rst
+
 .. _LTI Component:
 
 ###############
@@ -8,9 +10,8 @@ LTI Component
 
 You can integrate remote learning tools, such as applications and textbooks,
 into your course with the learning tools interoperability (LTI) component. The
-LTI component is based on the `IMS Global Learning Tools Interoperability™
-<http://www.imsglobal.org/LTI/v1p1p1/ltiIMGv1p1p1.html>`_ version 1.1.1
-specifications.
+LTI component is based on the `IMS Global Learning Tools Interoperability`_
+version 1.1.1 specifications.
 
 .. contents::
    :local:
@@ -61,12 +62,12 @@ system such as Canvas or Blackboard.
 .. only:: Partners
 
   For more information about how to use Studio as an LTI tool provider, see
-  :ref:`Using edX as an LTI Tool Provider`.
+  :ref:`partnercoursestaff:Using edX as an LTI Tool Provider`.
 
 .. only:: Open_edX
 
   For more information about how to use Studio as an LTI tool provider, see
-  :ref:`Using Open edX as an LTI Tool Provider`.
+  :ref:`opencoursestaff:Using Open edX as an LTI Tool Provider`.
 
 .. note the slightly different destination links ^. Alison 23 Nov 2015
 
@@ -174,7 +175,7 @@ key to the course's advanced settings.
           "book_lti_provider_from_new_york:b289378-f88d-2929-ctools.company.com:yt4984yr8"
       ]
 
-4. At the bottom of the page, select **Save Changes**.
+#. At the bottom of the page, select **Save Changes**.
 
 The page refreshes automatically and reformats your entry in the **LTI
 Passports** field. At the top of the page, you see a notification that your
@@ -190,7 +191,7 @@ Add the LTI Component to a Unit
 #. In the component that appears, select **Edit**.
 
 #. In the component editor, specify the settings that you want. For more
-   information about each setting, see :ref:`LTI Component Settings`.
+   information about each setting, see :ref:`LTI Component settings`.
 
 #. Select **Save**.
 
