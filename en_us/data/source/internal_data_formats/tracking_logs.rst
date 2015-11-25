@@ -4017,7 +4017,7 @@ first event produced when teams are included in a course is the
 ``edx.team.created`` event.
 
 .. note:: The Teams feature is in limited release. For more information,
-   contact your edX Partner Manager. For Open edX sites, contact your system
+   contact your edX partner manager. For Open edX sites, contact your system
    administrator.
 
 .. contents::
