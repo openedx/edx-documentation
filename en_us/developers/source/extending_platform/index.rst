@@ -9,3 +9,4 @@ Extending the edX Platform
     xblocks
     javascript
     js_template_example
+    badges
