@@ -18,8 +18,8 @@ types of problems in OLX.
 
 All problems receive a point score, but, by default, problems do not count
 toward a learner's grade. If you want the problems to count toward the
-learner's grade, change the assignment type of the subsection that contains the
-problems.
+learner's grade, change the assignment type of the subsection that contains
+the problems.
 
 This section covers the basics of problem components: what they look like to
 you and your learners, and the options that every problem component has.
@@ -32,7 +32,7 @@ The Learner View of a Problem
 
 All problems on the edX platform have several component parts.
 
-.. image:: ../../../shared/Images/AnatomyOfExercise1.png
+.. image:: ../../../shared/images/AnatomyOfExercise1.png
  :alt: Image of a problem from a learner's point of view, with callouts for
        elements of the problem.
 
@@ -68,14 +68,14 @@ All problems on the edX platform have several component parts.
    for individual problems defaults to that number, and cannot be set to
    unlimited.
 
-   .. image:: ../../../shared/Images/AnatomyOfExercise2.png
+   .. image:: ../../../shared/images/AnatomyOfExercise2.png
     :alt: Image of a problem from a learner's point of view, with callouts for
-          attempts and showing the answer.
+          attempts and showing the answer
 
 #. **Feedback.** After a learner selects **Check**, all problems return a green
    check mark or a red X.
 
-   .. image:: ../../../shared/Images/AnatomyofaProblem_Feedback.png
+   .. image:: ../../../shared/images/AnatomyofaProblem_Feedback.png
     :alt: Image of feedback checkmark and x from a learner's point of view.
 
 #. **Correct answer.** Most problems require that you specify
@@ -85,25 +85,24 @@ All problems on the edX platform have several component parts.
    appears when a learner selects **Show Answer**.
 
 #. **Reset button.** Learners can select **Reset** to clear any input that has
-   not yet been submitted, and try again to answer the question. If the learner
-   has already submitted an answer, selecting **Reset** clears the submission
-   and, if the problem contains randomized variables and randomization is set
-   to **On Reset**, changes the values the learner sees in the problem. If the
-   number of maximum attempts that was set for this problem has been reached,
-   the **Reset** button is not visible.
+   not yet been submitted, and try again to answer the question.
 
-#. **Hide Answer button.**
+  - If the learner has already submitted an answer, selecting **Reset** clears
+    the submission and, if the problem includes a Python script to randomize
+    variables and the randomization setting is **On Reset**, changes the values
+    the learner sees in the problem.
+  - If the number of Maximum Attempts that was set for this problem has been
+    reached, the **Reset** button is not visible.
 
-   .. image:: ../../../shared/Images/AnatomyOfExercise3.png
-    :alt: Image of a problem in the left pane
+12. **Hide Answer button.**
 
 #. **Grading.** You can specify whether a group of problems is graded. If a
    group of problems is graded, an icon of a pen and a piece of paper appears
-   for that assignment in the left pane.
+   or that assignment in the left pane.
 
-#. **Due date.** The date that the problem is due. A problem that is
-   past due does not have a **Check** button. It also does not accept
-   answers or provide feedback.
+#. **Due date.** The date that the problem is due. A problem that is past due
+   does not have a **Check** button. It also does not accept answers or
+   provide feedback.
 
 .. note:: Problems can be **open** or **closed.** Closed problems do not
           have a **Check** button. Learners can still see questions, solutions,
@@ -146,8 +145,10 @@ This setting indicates the name of your problem. This name appears as a
 heading above the problem and as a tooltip in the learning sequence at the top
 of the **Courseware** page.
 
-.. image:: ../../../shared/Images/ProbComponent_LMS_DisplayName.png
+
+.. image:: ../../../shared/images/ProbComponent_LMS_DisplayName.png
  :alt: Image of the problem in a unit page from a learner's point of view.
+
 
 The display name is also used in edX Insights reports.
 
@@ -193,7 +194,8 @@ Problem Weight
 This setting specifies the maximum number of points possible for the
 problem. The problem weight appears next to the problem title.
 
-.. image:: ../../../shared/Images/ProblemWeight_DD.png
+
+.. image:: ../../../shared/images/ProblemWeight_DD.png
  :alt: Image of a problem from a learner's point of view, with the possible
        points circled
 
@@ -265,7 +267,7 @@ a different learner accesses the problem, or each time a single learner tries
 to answer the problem. For example, the highlighted values in the problem below
 change each time a learner submits an answer to the problem.
 
-.. image:: ../../../shared/Images/Rerandomize.png
+.. image:: ../../../shared/images/Rerandomize.png
  :alt: The same problem shown twice, with color highlighting on values that
        can change
 

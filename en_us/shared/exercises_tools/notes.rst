@@ -10,7 +10,7 @@ Notes Tool
 The Notes tool allows learners to highlight and make notes about what
 they read in the courseware.
 
-.. image:: ../../../shared/Images/SFD_SN_bodyexample.png
+.. image:: ../../../shared/images/SFD_SN_bodyexample.png
   :width: 500
   :alt: Image of a course page that includes highlighted text and a note.
 
@@ -26,7 +26,7 @@ Learners can access their notes either in the body of the course or on a
 she has made during the course. The page also contains links to the location
 of the notes in the courseware.
 
-.. image:: ../../../shared/Images/SFD_SN_NotesPage.png
+.. image:: ../../../shared/images/SFD_SN_NotesPage.png
   :width: 500
   :alt: The Notes page listing all the notes a learner has made in the
       course.

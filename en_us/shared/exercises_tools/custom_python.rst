@@ -23,7 +23,7 @@ problem to evaluate a learner's response or provide hints. These problems can
 be any type. Numerical input and text input problems are the most common
 write-your-own-grader problems.
 
-.. image:: ../../../shared/Images/CustomPythonExample.png
+.. image:: ../../../shared/images/CustomPythonExample.png
  :alt: An image of a write-your-own-grader problem.
 
 You can create a Python-evaluated input problem in :ref:`answer tag format
@@ -412,7 +412,7 @@ half credit<Award Half Credit>`.
 
 In the following example, the learner's score equals the answer divided by 100.
 
-.. image:: ../../../shared/Images/partial-credit-python-problem.png
+.. image:: ../../../shared/images/partial-credit-python-problem.png
  :alt: An image of a write-your-own-grader problem that provides partial
      credit.
 

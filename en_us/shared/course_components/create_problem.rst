@@ -41,7 +41,7 @@ The Learner View of a Problem
 
 All problems on the edX platform have several component parts.
 
-.. image:: ../../../shared/Images/AnatomyOfExercise1.png
+.. image:: ../../../shared/images/AnatomyOfExercise1.png
  :alt: An image of a problem from a learner's point of view, with callouts for
        elements of the problem.
   :width: 500
@@ -78,7 +78,7 @@ All problems on the edX platform have several component parts.
    for individual problems defaults to that number, and cannot be set to
    unlimited.
 
-   .. image:: ../../../shared/Images//AnatomyOfExercise2.png
+   .. image:: ../../../shared/images/AnatomyOfExercise2.png
     :alt: An image of a problem from a learners's point of view, with
        callouts for attempts and showing the answer.
     :width: 500
@@ -86,7 +86,7 @@ All problems on the edX platform have several component parts.
 #. **Feedback.** After a learner selects **Check**, all problems return a
    green check mark or a red X.
 
-   .. image:: ../../../shared/Images//AnatomyofaProblem_Feedback.png
+   .. image:: ../../../shared/images/AnatomyofaProblem_Feedback.png
     :alt: An image of a feedback checkmark and x from a learner's point of view.
 
 #. **Correct answer.** Most problems require that you specify
@@ -105,22 +105,15 @@ All problems on the edX platform have several component parts.
   - If the number of Maximum Attempts that was set for this problem has been
     reached, the **Reset** button is not visible.
 
-#. **Hide Answer button.**
+12. **Hide Answer button.**
 
-   .. image:: ../../../shared/Images//AnatomyOfExercise3.png
-    :alt: An image of a graded assignment shown in the left pane of the LMS for a course.
-    :width: 200
+#. **Grading.** You can specify whether a group of problems is graded. If a
+   group of problems is graded, an icon of a pen and a piece of paper appears
+   or that assignment in the left pane.
 
-#. **Grading.** You can specify whether a group of problems
-   is graded. If a group of problems is graded, a clock icon appears for
-   that assignment in the left pane.
-
-   .. image:: ../../../shared/Images//clock_icon.png
-    :alt: An image of the clock icon, signifying that the problems are graded.
-
-#. **Due date.** The date that the problem is due. A problem that is
-   past due does not have a **Check** button. It also does not accept
-   answers or provide feedback.
+#. **Due date.** The date that the problem is due. A problem that is past due
+   does not have a **Check** button. It also does not accept answers or
+   provide feedback.
 
 .. note:: Problems can be **open** or **closed.** Closed problems do not
           have a **Check** button. Learners can still see questions, solutions,
@@ -193,7 +186,7 @@ preformatted example problem.
 The following image shows an example multiple choice problem in the Simple
 Editor.
 
-.. image:: ../../../shared/Images//MultipleChoice_SimpleEditor.png
+.. image:: ../../../shared/images/MultipleChoice_SimpleEditor.png
  :alt: An image of the simple editor with numbered callouts for options and an
    example multiple choice problem to demonstrate the formatting.
  :width: 450
@@ -240,7 +233,7 @@ Editor.
 The following image shows the multiple choice problem above in the Advanced
 Editor instead of the Simple Editor.
 
-.. image:: ../../../shared/Images//MultipleChoice_AdvancedEditor.png
+.. image:: ../../../shared/images/MultipleChoice_AdvancedEditor.png
  :alt: An image of a problem in the advanced editor.
  :width: 450
 
@@ -296,7 +289,7 @@ This setting indicates the name of your problem. This name appears for learners
 as a heading above the problem and as a tooltip in the learning sequence at the
 top of the **Courseware** page.
 
-.. image:: ../../../shared/Images/ProbComponent_LMS_DisplayName.png
+.. image:: ../../../shared/images/ProbComponent_LMS_DisplayName.png
  :alt: An image of the problem in a unit page from a learners's point of view.
  :width: 500
 
@@ -339,7 +332,7 @@ Problem Weight
 This setting specifies the total number of points possible for the
 problem. The problem weight appears next to the problem's display name.
 
-.. image:: ../../../shared/Images/ProblemWeight_DD.png
+.. image:: ../../../shared/images/ProblemWeight_DD.png
  :alt: An image of a problem from a learner's point of view, with the possible
        number of points, 3, circled.
  :width: 500
@@ -414,7 +407,7 @@ answer the problem, both, or never.
 For example, in this problem, the highlighted values change each time a learner
 submits an answer to the problem.
 
-.. image:: ../../../shared/Images/Rerandomize.png
+.. image:: ../../../shared/images/Rerandomize.png
  :alt: An image of the same problem shown twice, with color highlighting on
    values that change.
  :width: 800

@@ -46,7 +46,7 @@ middle of the figure shows a list of resources and several gadgets for users to
 work on the resources. The bottom portion shows additional information about a
 given resource on mouse-over event.
 
-.. image:: ../../../shared/Images/RecommenderXBlockExample.png
+.. image:: ../../../shared/images/RecommenderXBlockExample.png
   :alt: An overview of the RecommenderXBlock.
 
 Course team members should be sure to review all supplemental materials to

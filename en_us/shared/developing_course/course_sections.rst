@@ -26,7 +26,7 @@ Viewing Sections in the Outline
 The following example shows four sections, all collapsed, in the course
 outline.
 
-.. image:: ../../../shared/Images/sections-outline.png
+.. image:: ../../../shared/images/sections-outline.png
  :alt: Four sections in the outline.
 
 ******************************
@@ -37,7 +37,7 @@ Learners see sections in the **Courseware** tab. Learners can expand one
 section at a time to see its contents. In the following example, three sections
 are circled, and the third one is expanded to show its subsections.
 
-.. image:: ../../../shared/Images/sections_student.png
+.. image:: ../../../shared/images/sections_student.png
  :alt: The learner view of the course with two sections circled.
 
 ************************************************
@@ -85,7 +85,7 @@ default release date is the course start date.
 The following example shows how an unscheduled section displays in the
 outline, summarized with a gray bar.
 
-.. image:: ../../../shared/Images/section-unscheduled.png
+.. image:: ../../../shared/images/section-unscheduled.png
  :alt: An unscheduled section.
 
 To make the content available to learners, you must schedule the release date.
@@ -101,7 +101,7 @@ content within the section, the entire section will not visible to learners.
 The following example shows how a section that is scheduled for release
 displays in the outline, summarized with a green bar.
 
-.. image:: ../../../shared/Images/section-future.png
+.. image:: ../../../shared/images/section-future.png
  :alt: A section scheduled to release in the future.
 
 The scheduled date must pass for the section to be visible to learners.
@@ -117,7 +117,7 @@ published.
 The following example shows how a released section displays in the outline,
 summarized with a blue bar.
 
-.. image:: ../../../shared/Images/section-released.png
+.. image:: ../../../shared/images/section-released.png
  :alt: A released section.
 
 ==================================
@@ -131,7 +131,7 @@ The following example shows how a released section with unpublished changes
 displays in the outline, with a yellow bar. The section is expanded to show
 the unit with unpublished changes.
 
-.. image:: ../../../shared/Images/section-unpublished-changes.png
+.. image:: ../../../shared/images/section-unpublished-changes.png
  :alt: A section with unpublished changes.
 
 You must publish the unit for learners to see the updates.
@@ -147,7 +147,7 @@ regardless of the release date of the section or subsection.
 The following example shows how a section that contains a unit that is hidden
 from learners displays in the outline, summarized with a black bar.
 
-.. image:: ../../../shared/Images/section-hidden-unit.png
+.. image:: ../../../shared/images/section-hidden-unit.png
  :alt: A section with a hidden unit.
 
 
@@ -192,7 +192,7 @@ Change a Section Name
 To edit a section name, move your cursor over the section name to show the
 **Edit** icon.
 
-.. image:: ../../../shared/Images/section-edit-icon.png
+.. image:: ../../../shared/images/section-edit-icon.png
   :alt: The Edit Section Name icon.
 
 Select the **Edit** icon next to the section name. The name field becomes
@@ -209,7 +209,7 @@ To set the section release date, follow these steps.
 
 #. Select the **Configure** icon in the section box.
 
-   .. image:: ../../../shared/Images/section-settings-box.png
+   .. image:: ../../../shared/images/section-settings-box.png
     :alt: The section settings icon circled.
 
    The **Settings** dialog box opens.
@@ -235,7 +235,7 @@ Publish all Units in a Section
 To publish all new and changed units in a section, select the **Publish** icon
 in the box for the section.
 
-.. image:: ../../../shared/Images/outline-publish-icon-section.png
+.. image:: ../../../shared/images/outline-publish-icon-section.png
  :alt: Publishing icon for a section.
 
 .. note::
@@ -260,7 +260,7 @@ To hide a section from learners, follow these steps.
 
 #. Select the **Configure** icon in the section box.
 
-   .. image:: ../../../shared/Images/section-settings-box.png
+   .. image:: ../../../shared/images/section-settings-box.png
     :alt: The section settings icon circled.
 
    The **Settings** dialog box opens.
@@ -297,7 +297,7 @@ To delete a section, follow these steps.
 
 #. Select the **Delete** icon in the section that you want to delete.
 
-  .. image:: ../../../shared/Images/section-delete.png
+  .. image:: ../../../shared/images/section-delete.png
    :alt: The section with Delete icon circled.
 
 2. When you receive the confirmation prompt, select **Yes, delete this

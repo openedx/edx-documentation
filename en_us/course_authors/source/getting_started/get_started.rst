@@ -62,7 +62,7 @@ When you receive notice that you can create courses, log in to Studio_.
 
 You see the following page, which is your **My Courses** dashboard:
 
-.. image:: ../../../shared/Images/first_course.png
+.. image:: ../../../shared/images/first_course.png
  :width: 600
  :alt: The Studio home page where you create your first course.
 
@@ -86,7 +86,7 @@ Edge.
 You can also go directly to `edX Edge`_. Log in if prompted. You see the course you
 just created listed on your **My Courses** dashboard:
 
-.. image:: ../../../shared/Images/new_course.png
+.. image:: ../../../shared/images/new_course.png
  :width: 600
  :alt: The Edge Dashboard.
 

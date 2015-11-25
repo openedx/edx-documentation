@@ -78,7 +78,7 @@ appears on that page. The following example shows the control in a course unit.
 The control shows that the learner can start the hangout and be the first
 participant.
 
-.. image:: ../../../shared/Images/hangout_unit.png
+.. image:: ../../../shared/images/hangout_unit.png
  :alt: Image of the instant hangout control on a unit.
  :width: 600
 
@@ -90,7 +90,7 @@ The following example shows the control in a page when a hangout has already
 started. The control has a **Join the Hangout** button, and shows that one
 other learner is already in the hangout.
 
-.. image:: ../../../shared/Images/hangout_static_page.png
+.. image:: ../../../shared/images/hangout_static_page.png
  :alt: Image of the instant hangout control on a page.
  :width: 600
 
@@ -98,7 +98,7 @@ To join the hangout, the learner selects **Join the Hangout**.
 
 If not already logged in, the learner is prompted to log in to Google:
 
-.. image:: ../../../shared/Images/google_login.png
+.. image:: ../../../shared/images/google_login.png
  :alt: Image of the Google login page.
  :width: 400
 
@@ -107,7 +107,7 @@ Learners who do not have a Google account can create one from the login page.
 After the learner has logged in to Google, the hangout opens in a separate
 browser window:
 
-.. image:: ../../../shared/Images/GoogleHangout_WithPeople.png
+.. image:: ../../../shared/images/GoogleHangout_WithPeople.png
  :alt: Image of the instant hangout.
  :width: 600
 

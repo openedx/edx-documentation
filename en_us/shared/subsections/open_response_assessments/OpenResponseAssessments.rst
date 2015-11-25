@@ -165,7 +165,7 @@ allow your learners to both enter text and upload an image.
 .. note:: If learners upload an image, the image file must be a .jpg or .png
  file, and it must be smaller than 5 MB in size.
 
-.. image:: ../../../../shared/Images/PA_QandRField.png
+.. image:: ../../../../shared/images/PA_QandRField.png
    :width: 500
    :alt: Single ORA question and its corresponding blank response field
 
@@ -218,7 +218,7 @@ Rubrics consist of *criteria* and *options*.
      when they are completing peer assessments, but they do appear on the page
      that shows the learner's final grade.
 
-     .. image:: ../../../../shared/Images/PA_CriterionName.png
+     .. image:: ../../../../shared/images/PA_CriterionName.png
         :alt: A final score page with call-outs for the criterion names
 
    * The prompt is a description of the criterion.
@@ -227,7 +227,7 @@ Rubrics consist of *criteria* and *options*.
 
 * Each option has a *name*, an *explanation*, and a *point value*.
 
-  .. image:: ../../../../shared/Images/PA_Rubric_LMS.png
+  .. image:: ../../../../shared/images/PA_Rubric_LMS.png
      :alt: Image of a rubric in the LMS with call-outs for the criterion prompt and option names, explanations, and points
 
 Different criteria in the same assignment can have different numbers of
@@ -240,7 +240,7 @@ You can see both criterion and option names when you access assignment
 information for an individual learner. For more information, see
 :ref:`Accessing ORA Assignment Information`.
 
-.. image:: ../../../../shared/Images/PA_Crit_Option_Names.png
+.. image:: ../../../../shared/images/PA_Crit_Option_Names.png
    :width: 600
    :alt: Learner-specific assignment information with call-outs for criterion and option names.
 
@@ -314,7 +314,7 @@ self assessments ("Assess Your Response").
    assessment steps. If you include both peer and self assessment steps, edX
    recommends that you place the peer assessment before the self assessment.
 
-.. image:: ../../../../shared/Images/PA_AsmtWithResponse.png
+.. image:: ../../../../shared/images/PA_AsmtWithResponse.png
   :alt: A peer assessment with assessment steps and status labeled.
   :width: 600
 
@@ -342,7 +342,7 @@ sample responses that you created, along with the rubric. The scores that you
 gave the response do not appear. The learner also sees the number of sample
 responses that he or she will assess.
 
-.. image:: ../../../../shared/Images/PA_TrainingAssessment.png
+.. image:: ../../../../shared/images/PA_TrainingAssessment.png
    :alt: Sample training response, unscored.
    :width: 500
 
@@ -380,7 +380,7 @@ depending on whether the learner's selections matched those of the course team.
 For example, the following learner chose one correct option and one incorrect
 option.
 
-.. image:: ../../../../shared/Images/PA_TrainingAssessment_Scored.png
+.. image:: ../../../../shared/images/PA_TrainingAssessment_Scored.png
    :alt: Sample training response, scored.
    :width: 500
 
@@ -439,7 +439,7 @@ The comment field appears below the options for the criterion. In the following
 image, both criteria have a comment field. There is also a field for overall
 comments on the response.
 
-.. image:: ../../../../shared/Images/PA_CriterionAndOverallComments.png
+.. image:: ../../../../shared/images/PA_CriterionAndOverallComments.png
    :alt: Rubric with comment fields under each criterion and under overall response.
    :width: 600
 
@@ -454,14 +454,14 @@ Learners can assess more than the required number of responses. After a learner
 completes the peer assessment step, the step "collapses" so that only the
 **Assess Peers** heading is visible.
 
-.. image:: ../../../../shared/Images/PA_PAHeadingCollapsed.png
+.. image:: ../../../../shared/images/PA_PAHeadingCollapsed.png
    :width: 500
    :alt: The peer assessment step with just the heading visible.
 
 If the learner selects the **Assess Peers** heading, the step expands. The
 learner can then select **Continue Assessing Peers**.
 
-.. image:: ../../../../shared/Images/PA_ContinueGrading.png
+.. image:: ../../../../shared/images/PA_ContinueGrading.png
    :width: 500
    :alt: The peer assessment step expanded so that "Continue Assessing Peers" is visible.
 
@@ -589,7 +589,7 @@ scores for those responses. The **Top Responses** section appears below the
 learner's score information after the learner finishes every step in the
 assignment.
 
-.. image:: ../../../../shared/Images/PA_TopResponses.png
+.. image:: ../../../../shared/images/PA_TopResponses.png
    :alt: Section that shows the text and scores of the top three responses for the assignment.
    :width: 500
 

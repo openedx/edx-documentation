@@ -65,7 +65,7 @@ steps.
 
 #. Select the **Configure** icon in the subsection box.
 
-   .. image:: ../../../shared/Images/subsections-settings-icon.png
+   .. image:: ../../../shared/images/subsections-settings-icon.png
     :alt: The subsection settings icon circled in the course outline.
     :width: 600
 
@@ -76,7 +76,7 @@ steps.
 
 #. In the **Additional Options** section of the dialog box, select **Timed**.
 
-   .. image:: ../../../shared/Images/timed_exam_studio.png
+   .. image:: ../../../shared/images/timed_exam_studio.png
     :alt: The subsection Timed Exam setting in Studio.
     :width: 600
 
@@ -102,13 +102,13 @@ extra time to complete a timed exam.
 
 #. Expand the **Allowance Section**.
 
-   .. image:: ../../../shared/Images/inst_dash_special_exams.png
+   .. image:: ../../../shared/images/inst_dash_special_exams.png
     :alt: The Allowance Section in the Instructor Dashboard.
     :width: 600
 
 #. Select **Add Allowance**.
 
-   .. image:: ../../../shared/Images/new_allowance.png
+   .. image:: ../../../shared/images/new_allowance.png
     :alt: The Allowance Section in the Instructor Dashboard.
     :width: 400
 

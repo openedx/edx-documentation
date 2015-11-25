@@ -12,7 +12,7 @@ into a chemical equation below the text box. The grader evaluates the
 student's response by using a Python script that you create and embed in the
 problem.
 
-.. image:: ../../../shared/Images/ChemicalEquationExample.png
+.. image:: ../../../shared/images/ChemicalEquationExample.png
  :alt: Image of a chemical equation response problem
 
 .. note::

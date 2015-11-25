@@ -102,7 +102,7 @@ Using Re-Run to Create a Course
    #. Move your cursor over each row in the list of courses. The **Re-Run
       Course** and **View Live** options appear for each course.
 
-      .. image:: ../../../shared/Images/Rerun_link.png
+      .. image:: ../../../shared/images/Rerun_link.png
         :alt: A course listed on the dashboard with the Re-run Course and View
            Live options shown
         :width: 600
@@ -111,7 +111,7 @@ Using Re-Run to Create a Course
       **Create a re-run of a course** page opens with values already supplied
       in the **Course Name**, **Organization**, and **Course Number** fields.
 
-      .. image:: ../../../shared/Images/rerun_course_info.png
+      .. image:: ../../../shared/images/rerun_course_info.png
         :alt: The course creation page for a rerun, with the course name,
            organization, and course number supplied.
         :width: 600

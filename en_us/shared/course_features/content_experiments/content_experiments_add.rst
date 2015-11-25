@@ -57,7 +57,7 @@ Create the Content Experiment
 
    A new content experiment is added to the unit.
 
-   .. image:: ../../../../shared/Images/content_experiment_block.png
+   .. image:: ../../../../shared/images/content_experiment_block.png
     :width: 800
     :alt: An image showing the content experiment component in a unit page in
         Studio.
@@ -68,7 +68,7 @@ Create the Content Experiment
 #. Select either **Select a Group Configuration** or **Edit** to open the
    content experiment component.
 
-   .. image:: ../../../../shared/Images/content_experiment_editor.png
+   .. image:: ../../../../shared/images/content_experiment_editor.png
     :alt: An image of the content experiment editor in Studio.
     :width: 800
 
@@ -99,7 +99,7 @@ each group that is defined in the group configuration you selected. For
 example, if you select a group configuration that defines Group A and Group B,
 you see the following page.
 
-.. image:: ../../../../shared/Images/content_experiment_container.png
+.. image:: ../../../../shared/images/content_experiment_container.png
  :alt: An image of the content experiment page in Studio, with two groups.
  :width: 800
 
@@ -108,7 +108,7 @@ container page. For more information, see :ref:`Components that Contain Other Co
 
 For example, you can add an HTML component and a video to Group A.
 
-.. image:: ../../../../shared/Images/a_b_test_child_expanded.png
+.. image:: ../../../../shared/images/a_b_test_child_expanded.png
  :alt: An image of an expanded content experiment component with an HTML and
      video component.
  :width: 800
@@ -135,7 +135,7 @@ create new components.
 
 #. In the content experiment component, select **Edit**.
 
-   .. image:: ../../../../shared/Images/content_experiment_editor_group2.png
+   .. image:: ../../../../shared/images/content_experiment_editor_group2.png
     :alt: An image of the content experiment editor in Studio, with a group
         configuration selected.
     :width: 800
@@ -151,7 +151,7 @@ create new components.
    that you had added to groups in the previous configuration are now moved to
    a section called **Inactive Groups**.
 
-   .. image:: ../../../../shared/Images/inactive_groups.png
+   .. image:: ../../../../shared/images/inactive_groups.png
     :alt: An image of a content experiment in Studio, with components in an
         inactive group.
     :width: 800

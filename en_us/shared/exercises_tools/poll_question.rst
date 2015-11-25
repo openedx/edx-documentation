@@ -24,7 +24,7 @@ answers. If you need to ask multiple questions, use the :ref:`Survey Tool`.
 
 The following example poll has four possible answers to the question.
 
-.. image:: ../../../shared/Images/poll_tool.png
+.. image:: ../../../shared/images/poll_tool.png
     :alt: A poll asking if the learner's favorite color is red, green, blue, or
      other.
     :width: 400
@@ -33,7 +33,7 @@ After learners submit their answers to the poll question, they see the poll
 results that have been gathered at this time, unless the poll has been
 configured to hide results.
 
-.. image:: ../../../shared/Images/poll_with_results.png
+.. image:: ../../../shared/images/poll_with_results.png
     :alt: A poll showing results after the learner has submitted a response.
     :width: 400
 
@@ -84,7 +84,7 @@ before you add the component.
    The new component is added to the unit, with the default poll that contains
    three answer fields.
 
-   .. image:: ../../../shared/Images/poll_studio.png
+   .. image:: ../../../shared/images/poll_studio.png
     :alt: The poll component in Studio.
     :width: 600
 
@@ -248,12 +248,12 @@ poll in the courseware.
 
 Select **View results** in the poll.
 
-.. image:: ../../../shared/Images/poll_view_results.png
+.. image:: ../../../shared/images/poll_view_results.png
     :alt: A poll with the View Results button for course staff.
     :width: 400
 
 The results of the poll are then displayed.
 
-.. image:: ../../../shared/Images/poll_with_results.png
+.. image:: ../../../shared/images/poll_with_results.png
     :alt: A poll showing results after the learner has submitted a response.
     :width: 400

@@ -47,7 +47,7 @@ When you create an edX account or enroll in an edX course, you automatically
 go to your dashboard. You can also access your dashboard at any time by
 selecting your username in the upper right corner of any edX page.
 
-.. image:: ../../../shared/Images/SFD_Dashboard.png
+.. image:: ../../../shared/images/SFD_Dashboard.png
  :width: 500
  :alt: The learner dashboard with two current courses and two archived courses
      listed.
@@ -212,13 +212,13 @@ You can share a limited profile or a full profile.
 
 A limited profile can include only your username and an image.
 
-.. image:: ../../../shared/Images/SFD_Prof_Limited.png
+.. image:: ../../../shared/images/SFD_Prof_Limited.png
  :width: 400
  :alt: A learner's limited profile showing only username and image.
 
 A full profile can include biographical information.
 
-.. image:: ../../../shared/Images/SFD_Prof_Full.png
+.. image:: ../../../shared/images/SFD_Prof_Full.png
  :width: 500
  :alt: A learner's full profile with location, language, and short
      biographical paragraph.
@@ -291,7 +291,7 @@ To create or edit your profile, follow these steps.
    If you have not added information to the field, the field appears
    highlighted and surrounded by a dashed line.
 
-   .. image:: ../../../shared/Images/SFD_Prof_Add_Info.png
+   .. image:: ../../../shared/images/SFD_Prof_Add_Info.png
     :width: 300
     :alt: A profile page with the "Add language" field highlighted and
         surrounded by a dashed line.
@@ -299,7 +299,7 @@ To create or edit your profile, follow these steps.
    If the field already has information, the field appears highlighted, and a
    pencil icon appears in the upper right corner.
 
-   .. image:: ../../../shared/Images/SFD_Prof_Edit_Info.png
+   .. image:: ../../../shared/images/SFD_Prof_Edit_Info.png
     :width: 500
     :alt: A profile page with the "About Me" field highlighted.
 
@@ -328,7 +328,7 @@ You view other learners' profiles through the course discussions.
 The following image shows a learner's username in a post, the learner's
 username on the **Active Threads** page, and the learner's profile page.
 
-.. image:: ../../../shared/Images/SFD_Prof_from_Disc.png
+.. image:: ../../../shared/images/SFD_Prof_from_Disc.png
   :width: 600
   :alt: Image of a discussion with a learner's username circled, an image of
       that learner's active threads page in the course discussions, and an

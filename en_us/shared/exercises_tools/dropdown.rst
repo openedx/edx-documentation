@@ -20,7 +20,7 @@ Choice>` problems, which have answers that are always visible directly below
 the question, dropdown problems do not show answer choices until the learner
 clicks the dropdown arrow.
 
-.. image:: ../../../shared/Images/DropdownExample.png
+.. image:: ../../../shared/images/DropdownExample.png
  :alt: A problem component with 3 dropdown problems, 2 marked correct and 1
      incorrect.
  :width: 600
@@ -257,14 +257,14 @@ By default, the feedback labels shown to learners are **Correct** and
 **Incorrect**. If you do not define feedback labels, learners see these terms
 when they submit an answer, as in the following example.
 
-.. image:: ../../../shared/Images/dropdown_feedback.png
+.. image:: ../../../shared/images/dropdown_feedback.png
  :alt: Image of multiple choice feedback with the standard label.
  :width: 600
 
 You can configure the problem to override the default labels. For example, you
 can configure a custom label for a specific wrong answer.
 
-.. image:: ../../../shared/Images/dropdown_feedback_custom_label.png
+.. image:: ../../../shared/images/dropdown_feedback_custom_label.png
  :alt: Image of multiple choice feedback with a custom label.
  :width: 600
 

@@ -20,7 +20,7 @@ textbook.
 When learners open the textbook page in the course, they can navigate
 the textbook by chapter.
 
-.. image:: ../../../shared/Images/textbook_chapters.png
+.. image:: ../../../shared/images/textbook_chapters.png
  :alt: Image of a textbook in a course.
  :width: 600
 
@@ -87,7 +87,7 @@ Delete a Chapter
 #. On the textbook editing page, locate the chapter that you want to delete,
    and then select the X icon next to that chapter.
 
-   .. image:: ../../../shared/Images/DeleteChapter.png
+   .. image:: ../../../shared/images/DeleteChapter.png
 	:width: 500
 	:alt: Textbook editing page with a callout for the X icon
 

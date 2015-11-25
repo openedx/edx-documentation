@@ -51,7 +51,7 @@ successfully, the automated encoding and hosting process starts. This process
 creates additional file formats and transfers the files to YouTube and AWS
 accounts to ensure optimal playback quality for course videos.
 
-.. image:: ../../../shared/Images/encoding_process.png
+.. image:: ../../../shared/images/encoding_process.png
  :alt: Flowchart of course team uploading a video, followed by edX assigning a
      video ID and then transcoding it into four formats and transferring the
      results to two host sites
@@ -80,7 +80,7 @@ servers successfully, it is given a status of Ready and the course team can
 add its video ID to a video component in the course outline. For more
 information, see :ref:`Adding Videos to a Course`.
 
-.. image:: ../../../shared/Images/add_video_process.png
+.. image:: ../../../shared/images/add_video_process.png
  :alt: Flowchart of course team uploading a video, followed by edX assigning a
      video ID and then transcoding it into four formats and transferring the
      results to two host sites

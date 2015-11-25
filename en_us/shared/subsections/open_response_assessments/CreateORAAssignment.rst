@@ -69,7 +69,7 @@ component, and leave the text field in the **Prompt** tab blank. The
 instructions for the peer assessment still appear above the **Your Response**
 field.
 
-.. image:: ../../../../shared/Images/PA_HTMLComponent.png
+.. image:: ../../../../shared/images/PA_HTMLComponent.png
       :alt: A peer assessment that has an image in an HTML component
       :width: 500
 
@@ -149,7 +149,7 @@ options for the criterion. You can also provide a comment field, but no options.
 
 In the following image, the first criterion has a comment field but no options. The second includes options, but does not have a comment field.
 
-.. image:: ../../../../shared/Images/PA_0_Option_Criteria.png
+.. image:: ../../../../shared/images/PA_0_Option_Criteria.png
 
 To provide a comment field without options, complete these steps.
 

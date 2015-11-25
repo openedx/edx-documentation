@@ -20,7 +20,7 @@ the options that are correct answers, and none of the options that are
 incorrect. The course team must set up each checkbox problem to have at least
 one correct answer.
 
-.. image:: ../../../shared/Images/CheckboxExample.png
+.. image:: ../../../shared/images/CheckboxExample.png
  :alt: A checkbox problem with four options, two of which are correct.
 
 .. note::
@@ -401,7 +401,7 @@ to award partial credit for every correct answer selected and every incorrect
 answer left unselected (known as `every decision counts`_), the learner earned
 80% of the points for this problem.
 
-.. image:: ../../../shared/Images/checkbox_partial_credit.png
+.. image:: ../../../shared/images/checkbox_partial_credit.png
  :alt: A checkbox choice problem with partial credit for two out of
      three answers.
  :width: 600

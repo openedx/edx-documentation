@@ -75,7 +75,7 @@ Set the Editor for an HTML Component
 
 You set the editor for an HTML component in the **Settings** tab.
 
-.. image:: ../../../shared/Images/set_html_editor.png
+.. image:: ../../../shared/images/set_html_editor.png
  :alt: The Editor selection dropdown list in the HTML Component Settings tab.
  :width: 600
 
@@ -98,7 +98,7 @@ The visual editor provides a "what you see is what you get" (WYSIWYG) interface
 that allows you to format text by selecting the formatting buttons at the top
 of the editor.
 
-.. image:: ../../../shared/Images/HTMLEditor.png
+.. image:: ../../../shared/images/HTMLEditor.png
  :alt: An image of the HTML component editor in Studio.
  :width: 600
 
@@ -109,7 +109,7 @@ of the editor.
 The following image shows call-outs for the editing options and is followed by
 descriptions.
 
-.. image:: ../../../shared/Images/HTML_VisualView_Toolbar.png
+.. image:: ../../../shared/images/HTML_VisualView_Toolbar.png
   :alt: An image of the HTML editor in Studio, with call-outs for formatting buttons.
   :width: 600
 
@@ -150,7 +150,7 @@ Work with HTML code in the visual editor
 To work with HTML source code for the content you create in the visual editor,
 select **HTML**  in the editor toolbar. The HTML source code editor opens.
 
-.. image:: ../../../shared/Images/HTML_source_code.png
+.. image:: ../../../shared/images/HTML_source_code.png
  :alt: An image HTML source code editor available in the visual editor in Studio.
  :width: 600
 
@@ -180,7 +180,7 @@ The Raw HTML Editor
 When you select the raw editor for the HTML component, you edit your content in
 a text editor.
 
-.. image:: ../../../shared/Images/raw_html_editor.png
+.. image:: ../../../shared/images/raw_html_editor.png
  :alt: The raw HTML editor
  :width: 600
 
@@ -195,7 +195,7 @@ HTML Component Templates
 
 When you create a new HTML component, you select from a list of templates.
 
-.. image:: ../../../shared/Images/html_templates.png
+.. image:: ../../../shared/images/html_templates.png
  :alt: The list of HTML Component templates in the Studio unit page.
  :width: 200
 
@@ -213,7 +213,7 @@ Create an HTML Component
 
 #. Under **Add New Component**, select **HTML**.
 
-   .. image:: ../../../shared/Images/NewComponent_HTML.png
+   .. image:: ../../../shared/images/NewComponent_HTML.png
     :alt: An image of the controls in the Studio unit page to add a new component.
     :width: 400
 
@@ -224,7 +224,7 @@ Create an HTML Component
 
    An empty HTML component appears at the bottom of the unit.
 
-   .. image:: ../../../shared/Images/HTMLComponent_Edit.png
+   .. image:: ../../../shared/images/HTMLComponent_Edit.png
     :alt: An image of an empty HTML component in the Studio unit page.
     :width: 600
 
@@ -232,7 +232,7 @@ Create an HTML Component
 
    The HTML component opens in the visual editor.
 
-   .. image:: ../../../shared/Images/HTMLEditor_empty.png
+   .. image:: ../../../shared/images/HTMLEditor_empty.png
     :alt: An image of the HTML component in the visual editor.
     :width: 600
 
@@ -261,7 +261,7 @@ Add a Link in an HTML Component
 When using the visual editor, to add a link to a website, course unit, or file
 in an HTML component, you work with the **Insert link** dialog box.
 
-.. image:: ../../../shared/Images/HTML_Insert-EditLink_DBox.png
+.. image:: ../../../shared/images/HTML_Insert-EditLink_DBox.png
  :alt: An image of the Insert link dialog box used in an HTML component.
  :width: 400
 
@@ -284,7 +284,7 @@ Add a Link to a Website
 #. In the **Insert link** dialog box, enter the URL of the website that is the
    destination for your link.
 
-   .. image:: ../../../shared/Images/HTML_Insert-EditLink_Website.png
+   .. image:: ../../../shared/images/HTML_Insert-EditLink_Website.png
     :alt: An image of of the Insert link dialog box with a link to edx.org and the link text edX Website.
     :width: 400
 
@@ -313,7 +313,7 @@ Add a Link to a Course Unit
    the unit page in Studio, and copy the unit ID from the **Unit Identifier**
    field under **Unit Location** in the right pane.
 
-   .. image:: ../../../shared/Images/UnitIdentifier.png
+   .. image:: ../../../shared/images/UnitIdentifier.png
     :alt: An image of the unit page with the unit identifier circled.
     :width: 600
 
@@ -331,7 +331,7 @@ Add a Link to a Course Unit
    unit identifier that you copied in step 1, and make sure to include both
    forward slashes (/).
 
-   .. image:: ../../../shared/Images/HTML_Insert-EditLink_CourseUnit.png
+   .. image:: ../../../shared/images/HTML_Insert-EditLink_CourseUnit.png
     :alt: An image of the Insert link dialog box with a link to a unit identifier.
     :width: 400
 
@@ -366,7 +366,7 @@ Course`.
 
 #. On the **Files & Uploads** page, copy the **Studio** URL of the file.
 
-  .. image:: ../../../shared/Images/HTML_Link_File.png
+  .. image:: ../../../shared/images/HTML_Link_File.png
    :alt: An image of Files and Uploads page with the Studio URL field circled.
    :width: 600
 
@@ -385,7 +385,7 @@ Course`.
 
    Make sure to include both forward slashes (/).
 
-   .. image:: ../../../shared/Images/HTML_Insert-EditLink_File.png
+   .. image:: ../../../shared/images/HTML_Insert-EditLink_File.png
     :alt: An image of the Insert link dialog box with a link to a file and the link text Syllabus.
     :width: 400
 
@@ -438,7 +438,7 @@ course. You then create a link to the image in the HTML component.
 
    Make sure to include both forward slashes (/).
 
-   .. image:: ../../../shared/Images/HTML_Insert-Edit_Image.png
+   .. image:: ../../../shared/images/HTML_Insert-Edit_Image.png
     :alt: An image of the Insert image dialog box with a reference to an image file.
     :width: 400
 
@@ -456,7 +456,7 @@ course. You then create a link to the image in the HTML component.
 
 #. To change the spacing and border of the image, select the **Advanced** tab.
 
-   .. image:: ../../../shared/Images/HTML_Insert-Edit_Image_Advanced.png
+   .. image:: ../../../shared/images/HTML_Insert-Edit_Image_Advanced.png
     :alt: An image of the Insert image dialog box Advanced tab.
 
 #. Enter the **Vertical space**, **Horizontal space**, and **Border** as
@@ -476,7 +476,7 @@ Import LaTeX Code into an HTML Component
 You can import LaTeX code into an HTML component. You might do this, for
 example, if you want to create "beautiful math" such as the following.
 
-.. image:: ../../../shared/Images/HTML_LaTeX_LMS.png
+.. image:: ../../../shared/images/HTML_LaTeX_LMS.png
  :alt: An image of math formulas created with LaTeX in an HTML component.
  :width: 600
 
@@ -510,14 +510,14 @@ contains LaTeX code.
 
 #. Select **Edit** to open the new component. The component editor opens.
 
-   .. image:: ../../../shared/Images/latex_component.png
+   .. image:: ../../../shared/images/latex_component.png
     :alt: An image of the HTML component editor with the LaTeX compiler.
     :width: 600
 
 #. In the component editor, select **Launch Latex Source Compiler**. The LaTeX
    editor opens.
 
-   .. image:: ../../../shared/Images/HTML_LaTeXEditor.png
+   .. image:: ../../../shared/images/HTML_LaTeXEditor.png
     :alt: An image of the LaTeX editor.
     :width: 600
 
@@ -529,7 +529,7 @@ contains LaTeX code.
 
    The component editor closes. You can see the way your LaTeX content looks.
 
-   .. image:: ../../../shared/Images/HTML_LaTeX_CompEditor.png
+   .. image:: ../../../shared/images/HTML_LaTeX_CompEditor.png
     :alt: An image of the compontent with LaTeX code.
     :width: 600
 

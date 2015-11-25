@@ -40,14 +40,14 @@ Additionally, some edX courses offer a calculator tool that you can use while
 you work through the course. If the course has a calculator, the calculator
 appears as a small icon on all courseware pages.
 
-.. image:: ../../shared/Images/Calc_Closed.png
+.. image:: ../../shared/images/Calc_Closed.png
   :width: 600
   :alt: Courseware page with an arrow pointing to the calculator.
 
 To use the calculator, select the calculator icon. To close the calculator,
 select the X.
 
-.. image:: ../../shared/Images/Calc_Open.png
+.. image:: ../../shared/images/Calc_Open.png
   :width: 600
   :alt: Courseware page with the calculator visible along the edge of the browser.
 
@@ -65,7 +65,7 @@ system if you have used math programs before.
   of the information in this topic. To see the information page, select the
   circled ``i`` icon next to the input field.
 
-  .. image:: ../../shared/Images/Calc_Open_InfoPage.png
+  .. image:: ../../shared/images/Calc_Open_InfoPage.png
     :width: 600
     :alt: Courseware page with the calculator visible and showing the
      information page.

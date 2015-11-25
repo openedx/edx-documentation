@@ -75,14 +75,14 @@ Every post includes a sentence that identifies whether everyone can see and
 contribute to it, or only the members of a cohort in the course. Examples
 follow.
 
-.. image:: ../../../../shared/Images/post_visible_all.png
+.. image:: ../../../../shared/images/post_visible_all.png
  :alt: A discussion topic post with "This post is visible to everyone" above
        the title.
  :width: 600
 
 .. extra line
 
-.. image:: ../../../../shared/Images/post_visible_cohort.png
+.. image:: ../../../../shared/images/post_visible_cohort.png
  :alt: A discussion topic post with "This post is visible to" and a cohort name
        above the title.
  :width: 600
@@ -105,7 +105,7 @@ sensitive about the privacy of their conversations.
 For example, you add "(everyone)" to the names of the unified course-wide
 discussion topics in your course.
 
-.. image:: ../../../../shared/Images/discussion_category_names.png
+.. image:: ../../../../shared/images/discussion_category_names.png
  :alt: An image showing the names you supply for course-wide topics in Studio
    on the dropdown list of discussion topics in the live course.
  :width: 800
@@ -127,7 +127,7 @@ discussion topics that you add as Discussion components in Studio. For example,
 you could include an identifier like "(private)" or "(small group)" in the
 **Subcategory** name of every Discussion component that you add.
 
-.. image:: ../../../../shared/Images/discussion_topic_names.png
+.. image:: ../../../../shared/images/discussion_topic_names.png
  :alt: An image showing the Subcategory name that you supply for a Discussion
        component in Studio on the dropdown lists of discussion topics in the
        live course.
@@ -148,7 +148,7 @@ above the **Title** field.
 This example shows a new post being added to a content-specific
 discussion topic.
 
-.. image:: ../../../../shared/Images/visible_to_contentspecific.png
+.. image:: ../../../../shared/images/visible_to_contentspecific.png
  :alt: The fields and controls that appear when a team member clicks
        New Post for a content-specific topic
 
@@ -208,7 +208,7 @@ as shown in the illustration on the left. To limit the list so that you can
 view the same set of posts as the members of a cohort, select the name
 of that cohort as shown on the right.
 
-.. image:: ../../../../shared/Images/viewing_all_or_cohort.png
+.. image:: ../../../../shared/images/viewing_all_or_cohort.png
  :alt: An image showing the list of posts on the Discussion page, first showing
   all posts then showing only posts that members of the University Alumni
   cohort can see.

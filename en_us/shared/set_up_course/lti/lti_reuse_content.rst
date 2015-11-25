@@ -15,7 +15,7 @@ include a link to a problem component that is part of an edX course. The
 problem is included as one of the course's assignments, and appears in Canvas
 like other content.
 
-.. image:: ../../../../shared/Images/lti_canvas_example.png
+.. image:: ../../../../shared/images/lti_canvas_example.png
   :alt: An edX molecule builder problem shown as part of a course running on a
       Canvas system.
 

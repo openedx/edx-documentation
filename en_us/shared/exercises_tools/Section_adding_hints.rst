@@ -25,7 +25,7 @@ For example, the following multiple choice problem provides feedback in
 response to the selected option when the learner selects **Check**. In this
 case, feedback is given for an incorrect answer.
 
-.. image:: ../../../shared/Images/multiple_choice_feedback.png
+.. image:: ../../../shared/images/multiple_choice_feedback.png
  :alt: Image of a multiple choice problem with feedback.
  :width: 600
 
@@ -62,14 +62,14 @@ multiple hints by selecting **Hint** multiple times.
 For example, in the following multiple choice problem, the learner selects
 **Hint** before attempting the answer.
 
-.. image:: ../../../shared/Images/multiple_choice_hint.png
+.. image:: ../../../shared/images/multiple_choice_hint.png
  :alt: Image of a multiple choice problem with the first hint.
  :width: 600
 
 The hint indicates that it is the first of two hints. The learner selects
 **Hint** a second time.
 
-.. image:: ../../../shared/Images/multiple_choice_hint2.png
+.. image:: ../../../shared/images/multiple_choice_hint2.png
  :alt: Image of a multiple choice problem with the second hint.
  :width: 600
 
@@ -100,7 +100,7 @@ While editing a unit, in the **Add New Component** panel, select **Problem**.
 In the list that opens, select the  **Common Problem Types** tab. Templates for
 problems with feedback and hints are listed.
 
-.. image:: ../../../shared/Images/hints_feedback_problem_templates.png
+.. image:: ../../../shared/images/hints_feedback_problem_templates.png
  :alt: Image of the templates with hints and feedback in Studio.
  :width: 600
 

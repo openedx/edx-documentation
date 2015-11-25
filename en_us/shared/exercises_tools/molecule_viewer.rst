@@ -15,7 +15,7 @@ Both tools use **JSmol**, a JavaScript-based molecular viewer from Jmol. (You do
 
 The following image shows the molecule viewer tool in a course:
 
-.. image:: ../../../shared/Images/MoleculeViewer.png
+.. image:: ../../../shared/images/MoleculeViewer.png
    :width: 500
    :alt: Image of molecule viewer showing a molecule of Ciprofloxacin
 

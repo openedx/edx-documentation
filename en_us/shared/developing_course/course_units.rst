@@ -36,7 +36,7 @@ Viewing Units in the Outline
 To view units in the outline, you :ref:`expand<Navigating the Course Outline>`
 the parent section and subsection.
 
-.. image:: ../../../shared/Images/outline-callouts.png
+.. image:: ../../../shared/images/outline-callouts.png
  :alt: An outline with callouts for sections, subsections, and units.
 
 ****************************
@@ -48,7 +48,7 @@ When you select a unit name in the outline, the **Unit** page opens.
 The following example shows a unit page with two components, with circles and
 text to show different areas and controls in the page.
 
-.. image:: ../../../shared/Images/unit-page.png
+.. image:: ../../../shared/images/unit-page.png
  :alt: The Unit page.
 
 ****************************
@@ -63,7 +63,7 @@ sequence.
 The following image shows a subsection that has five units, which are circled
 in the learning sequence above the video, with the first unit open.
 
-.. image:: ../../../shared/Images/Units_LMS.png
+.. image:: ../../../shared/images/Units_LMS.png
  :alt: Image of units from the learner's point of view.
 
 .. _The Unit Workflow:
@@ -89,7 +89,7 @@ After you publish the unit, you can complete these steps.
 
 The following diagram shows the typical unit development workflow.
 
-.. image:: ../../../shared/Images/workflow-create-unit.png
+.. image:: ../../../shared/images/workflow-create-unit.png
  :alt: Diagram of the unit development workflow.
 
 As you work through these steps, the **publishing status** of the unit changes.
@@ -145,7 +145,7 @@ Draft (Never published)
 When you create a new unit and add components to it, the unit's publishing
 status is **Draft (Never Published)**, as shown in the status panel.
 
-.. image:: ../../../shared/Images/unit-never-published.png
+.. image:: ../../../shared/images/unit-never-published.png
  :alt: Status panel of a unit that has never been published.
 
 In Studio, you see the version of the content that you're working on. Learners
@@ -167,7 +167,7 @@ The release date for the section and subsection have passed. You've published
 the unit and haven't made any changes to it. You and learners both see the
 current version of the unit.
 
-.. image:: ../../../shared/Images/unit-published.png
+.. image:: ../../../shared/images/unit-published.png
  :alt: Status panel of a unit that is published.
 
 .. _Published Not Yet Released:
@@ -179,7 +179,7 @@ Published (not yet released)
 You published the unit, but the release date is still in the future. Learners
 cannot see this unit until the release date passes.
 
-.. image:: ../../../shared/Images/unit-published_unreleased.png
+.. image:: ../../../shared/images/unit-published_unreleased.png
  :alt: Status panel of a unit that is published but not released.
 
 .. _Draft (Unpublished Changes):
@@ -192,7 +192,7 @@ When you edit a published unit, whether or not it is released, the unit's
 publishing status changes to **Draft (Unpublished Changes)**, as shown in the
 status panel.
 
-.. image:: ../../../shared/Images/unit-pending-changes.png
+.. image:: ../../../shared/images/unit-pending-changes.png
  :alt: Status panel of a unit that has pending changes.
 
 In Studio, you see the draft of the content that you're working on. If the
@@ -221,7 +221,7 @@ Subsection from Students>` from learners.
 Learners never see a unit with this status, even if it has been published and
 the release date has passed.
 
-.. image:: ../../../shared/Images/unit-unpublished.png
+.. image:: ../../../shared/images/unit-unpublished.png
  :alt: Status panel of a unit that has pending changes.
 
 .. _Create a Unit:
@@ -248,7 +248,7 @@ To create a new unit from a unit page, follow these steps.
 
 #. In the **Unit Location** panel, select **New Unit**.
 
-   .. image:: ../../../shared/Images/unit_location.png
+   .. image:: ../../../shared/images/unit_location.png
     :alt: The Unit Location panel in the Unit page.
 
    The unit page for the new unit opens automatically.
@@ -286,7 +286,7 @@ Edit the Unit Name
 
 To edit a unit name, select the **Edit** icon next to the name.
 
-.. image:: ../../../shared/Images/unit-edit-icon.png
+.. image:: ../../../shared/images/unit-edit-icon.png
   :alt: The Edit Unit Name icon.
 
 The name field becomes editable. Enter the new name, and then tab or click
@@ -303,7 +303,7 @@ To move a component, hover over the handle on the right of the component's box
 until the cursor changes to a four-headed arrow. For example, in the image
 below, the handle for the discussion component is selected.
 
-.. image:: ../../../shared/Images/unit-drag-selected.png
+.. image:: ../../../shared/images/unit-drag-selected.png
   :alt: A discussion component selected to drag it.
 
 Then, click and drag the component to the location that you want.
@@ -312,7 +312,7 @@ A dashed outline indicates where the component will land when you release the
 mouse button. For example, in the image below, the discussion component is
 being moved to the top of the unit.
 
-.. image:: ../../../shared/Images/unit-drag-moved.png
+.. image:: ../../../shared/images/unit-drag-moved.png
  :alt: A component being dragged to a new location.
 
 .. _Preview a Unit:
@@ -331,12 +331,12 @@ the unit.
 
 To preview the unit, in the unit page, select **Preview**.
 
-.. image:: ../../../shared/Images/preview_changes.png
+.. image:: ../../../shared/images/preview_changes.png
  :alt: A course unit page, with the Preview button circled.
 
 The unit opens in preview mode.
 
-.. image:: ../../../shared/Images/preview_mode.png
+.. image:: ../../../shared/images/preview_mode.png
  :alt: The unit in preview mode in the LMS.
 
 When you are revising a previously published unit, it is helpful to preview
@@ -367,7 +367,7 @@ Use the Unit Page to Publish a Unit
 
 To publish the unit, select **Publish** in the status panel.
 
-.. image:: ../../../shared/Images/unit-publish-button.png
+.. image:: ../../../shared/images/unit-publish-button.png
  :alt: Unit status panel with Publish button circled.
 
 
@@ -378,7 +378,7 @@ Use the Outline to Publish a Unit
 To publish a unit from the outline, select the **Publish** icon in the box for
 the unit.
 
-.. image:: ../../../shared/Images/outline-publish-icon-unit.png
+.. image:: ../../../shared/images/outline-publish-icon-unit.png
  :alt: Publishing icon for a unit.
 
 .. note::
@@ -401,7 +401,7 @@ published version of the unit.
 To discard changes and revert the Studio version of the unit to the last
 published version, select **Discard Changes** in the status panel.
 
-.. image:: ../../../shared/Images/unit-discard-changes.png
+.. image:: ../../../shared/images/unit-discard-changes.png
  :alt: Unit status panel with Discard Changes circled.
 
 .. caution::
@@ -418,7 +418,7 @@ View a Published Unit
 To view the last published version of a unit in the LMS, select **View Live
 Version**.
 
-.. image:: ../../../shared/Images/unit_view_live_button.png
+.. image:: ../../../shared/images/unit_view_live_button.png
  :alt: Unit page with View Live Version button circled.
 
 The unit page opens in the LMS in Staff view. You might be prompted to log in
@@ -449,7 +449,7 @@ Use the Unit Page to Hide a Unit
 
 Select the **Hide from students** check box in the status panel.
 
-.. image:: ../../../shared/Images/unit-hide.png
+.. image:: ../../../shared/images/unit-hide.png
  :alt: Unit status panel with Hide from Students checked.
 
 For more information, see :ref:`Controlling Content Visibility`.
@@ -460,14 +460,14 @@ Use the Outline to Hide a Unit
 
 #. Select the **Configure** icon in the unit box.
 
-   .. image:: ../../../shared/Images/outline-unit-settings.png
+   .. image:: ../../../shared/images/outline-unit-settings.png
       :alt: The unit settings icon circled.
 
    The **Settings** dialog box opens.
 
 #. Check **Hide from students**.
 
-   .. image:: ../../../shared/Images/outline-unit-settings-dialog.png
+   .. image:: ../../../shared/images/outline-unit-settings-dialog.png
       :alt: The unit hide from students setting.
 
 #. Select **Save**.
@@ -510,7 +510,7 @@ To delete a unit, follow these steps.
 
 #. Select the **Delete** icon in the box for the unit you want to delete.
 
-.. image:: ../../../shared/Images/section-delete.png
+.. image:: ../../../shared/images/section-delete.png
  :alt: The section with Delete icon circled.
 
 2. When you receive the confirmation prompt, select **Yes, delete this

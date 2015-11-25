@@ -8,7 +8,7 @@ After a grading policy is in place, learners can view both their problem scores
 and the percent completed and current grade in the **Progress** tab for the
 course.
 
-  .. image:: ../../../shared/Images/Progress_tab.png
+  .. image:: ../../../shared/images/Progress_tab.png
     :alt: Image of the student Progress tab.
 
 Each item in the X axis of the chart is for a graded subsection. Graded

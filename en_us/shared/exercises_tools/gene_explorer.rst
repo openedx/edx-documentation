@@ -17,7 +17,7 @@ Specifically, the Gene Explorer does the following:
 #. Finds the start codon
 #. Translates the mRNA
 
-.. image:: ../../../shared/Images/GeneExplorer.png
+.. image:: ../../../shared/images/GeneExplorer.png
   :alt: Image of the Gene Explorer
 
 For more information about the Gene Explorer, see `The Gene Explorer <http://intro.bio.umb.edu/GX/>`_.

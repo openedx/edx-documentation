@@ -204,7 +204,7 @@ To create a course-wide discussion topic, follow these steps.
 When learners select the **Discussion** page for your course, the drop-down
 Discussion list now includes the topic you added.
 
- .. image:: ../../../shared/Images/NewCategory_Discussion.png
+ .. image:: ../../../shared/images/NewCategory_Discussion.png
   :alt: Image of a new topic named Course Q&A in the list of discussions.
 
 .. note:: In courses that use cohorts, the course-wide discussion topics that
@@ -452,13 +452,13 @@ discussion.
   see and respond to pinned posts. You can write your own post and then pin it,
   or pin a post by any author. Select the "More" icon and then **Pin**.
 
-    .. image:: ../../../shared/Images/Pin_Discussion.png
+    .. image:: ../../../shared/images/Pin_Discussion.png
      :alt: Image of the pin icon for discussion posts.
 
 * Endorse a response. Endorsing a response indicates that it provides value to
   the discussion. Select the "check mark" (or tick mark) icon for the response.
 
-    .. image:: ../../../shared/Images/Endorse_Discussion.png
+    .. image:: ../../../shared/images/Endorse_Discussion.png
      :alt: Image of the Endorse button for discussion posts.
 
 * Mark a question as answered. You use the same procedure to mark a response as
@@ -524,7 +524,7 @@ To view a learner's profile, follow these steps.
 The following image shows a learner's username in a post, the learner's
 username on the **Active Threads** page, and the learner's profile page.
 
-.. image:: ../../../shared/Images/SFD_Prof_from_Disc.png
+.. image:: ../../../shared/images/SFD_Prof_from_Disc.png
   :width: 600
   :alt: Image of a discussion with a learner's username circled, an image of
       that learner's active threads page in the course discussions, and an

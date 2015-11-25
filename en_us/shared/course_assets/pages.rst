@@ -42,7 +42,7 @@ navigation bar for your course.
 For example, the following navigation bar includes the default pages as well as
 the additional Course Schedule and Supplements & Instructor's blog pages.
 
-.. image:: ../../../shared/Images/page_bar_lms.png
+.. image:: ../../../shared/images/page_bar_lms.png
  :width: 600
  :alt: Image of the navigation bar in the LMS.
 
@@ -58,20 +58,20 @@ purpose. More examples of pages you can add follow.
    **Pages** opens. This page contains a list of the pages that appear in the
    navigation bar in your course.
 
-   .. image:: ../../../shared/Images/pages_page.png
+   .. image:: ../../../shared/images/pages_page.png
     :width: 600
     :alt: Image of the Pages page.
 
 #. Select **Add a New Page**. A page with the title **Empty** is added to the
    list.
 
-   .. image:: ../../../shared/Images/pages_empty.png
+   .. image:: ../../../shared/images/pages_empty.png
     :width: 600
     :alt: Image of the Pages page with a new Empty page.
 
 #. In the row for the new page, select **Edit**. The HTML editor opens.
 
-   .. image:: ../../../shared/Images/pages_editor.png
+   .. image:: ../../../shared/images/pages_editor.png
     :width: 600
     :alt: Image of the page editor.
 
@@ -112,7 +112,7 @@ indicates that the wiki is visible in your course.
 Select the eye icon to hide the **Wiki** page. The icon changes as shown in
 this example.
 
-.. image:: ../../../shared/Images/pages_wiki_off.png
+.. image:: ../../../shared/images/pages_wiki_off.png
  :alt: Image of the Pages page with the Wiki made visible
 
 Select it again to make the **Wiki** page visible.

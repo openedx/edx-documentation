@@ -38,14 +38,14 @@ When you receive notice that you can create courses, log in to Studio.
 
 You see the following page, which is your **My Courses** dashboard:
 
-.. image:: ../../../shared/Images/first_course.png
+.. image:: ../../../shared/images/first_course.png
  :width: 600
  :alt: Image of the Studio home page where you create your first course
 
 #. Click **Create Your First Course**.
 #. Enter course information as needed and click **Create**.
 
-  .. image:: ../../../shared/Images/new_course_info.png
+  .. image:: ../../../shared/images/new_course_info.png
    :width: 600
    :alt: Image of the Create New Course page
 

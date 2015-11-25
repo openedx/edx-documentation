@@ -176,7 +176,7 @@ includes the following sections. The Finance Admin role can see all sections.
 The Sales Admin role can see all sections except the **Course Seat Purchases**
 section.
 
-.. image:: ../../../shared/Images/ECommercePage.png
+.. image:: ../../../shared/images/ECommercePage.png
  :width: 500
  :alt: The E-Commerce page on the Instructor Dashboard with all sections
      showing and "Course Price" expanded.
@@ -220,7 +220,7 @@ section of the **E-Commerce** page on the Instructor Dashboard. You can also
 see information such as the discount amount and the number that have been
 used.
 
-.. image:: ../../../shared/Images/CouponList.png
+.. image:: ../../../shared/images/CouponList.png
  :width: 500
  :alt: Coupon code list showing active, expired, and deleted coupon codes.
 
@@ -417,7 +417,7 @@ To cancel, restore, or mark an enrollment code as unused, follow these steps.
    you can see the possible actions for that enrollment code under
    **Actions**. Select the action that you want to take.
 
-   .. image:: ../../../shared/Images/EnrollCode_ChangeStatus.png
+   .. image:: ../../../shared/images/EnrollCode_ChangeStatus.png
     :width: 350
     :alt: The Enrollment Code Status dialog box, listing a used enrollment
         code and the available actions for that code.

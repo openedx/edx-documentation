@@ -12,7 +12,7 @@ To set the grade range, from the **Settings** menu, select **Grading**.
 
 The control for the grade range is at the top of the Grading page.
 
-.. image:: ../../../shared/Images/grade_range.png
+.. image:: ../../../shared/images/grade_range.png
   :alt: Image of the Grade Range control.
   :width: 600
 
@@ -27,7 +27,7 @@ You can adjust the grade range as needed.
   if you add a grade in the default setting, the grade range changes to **F**
   (0 to 50), **B** (50 to 75), and **A** (75 to 100):
 
-  .. image:: ../../../shared/Images/grade_range_b.png
+  .. image:: ../../../shared/images/grade_range_b.png
     :alt: Image of an altered Grade Range control.
     :width: 600
 

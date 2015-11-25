@@ -41,7 +41,7 @@ To view this course data, follow these steps.
    The **Basic Course Information** section of the page that opens lists
    information about the course.
 
-    .. image:: ../../../shared/Images/Instructor_Dash_Course_Info.png
+    .. image:: ../../../shared/images/Instructor_Dash_Course_Info.png
      :alt: The basic course information section of the Instructor Dashboard.
 
 *************************************************
@@ -73,7 +73,7 @@ Studio, or derived from data that you define in Studio.
   for a new course, side-by-side with the same information as it appears on the
   **Course Info** page of the Instructor Dashboard.
 
-.. image:: ../../../shared/Images/Course_Info_Comparison.png
+.. image:: ../../../shared/images/Course_Info_Comparison.png
    :alt: The Course Name in Studio and the Course Display Name in the LMS are
        boxed; the Course Run in Studio and the Course Name in the LMS are
        circled.

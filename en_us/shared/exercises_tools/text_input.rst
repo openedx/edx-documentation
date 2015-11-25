@@ -21,7 +21,7 @@ instructor's specified answer exactly, including spelling and punctuation, we
 recommend that you specify more than one correct answer for text input
 problems to allow for differences in capitalization and typographical errors.
 
-.. image:: ../../../shared/Images/TextInputExample.png
+.. image:: ../../../shared/images/TextInputExample.png
  :alt: An example text input problem.
 
 **************************************************
@@ -238,14 +238,14 @@ By default, the feedback labels shown to learners are **Correct** and
 **Incorrect**. If you do not define feedback labels, learners see these terms
 when they submit an answer, as in the following example.
 
-.. image:: ../../../shared/Images/text_input_feedback.png
+.. image:: ../../../shared/images/text_input_feedback.png
  :alt: Image of text input feedback with the standard label.
  :width: 600
 
 You can configure the problem to override the default labels. For example, you
 can configure a custom label for a specific wrong answer.
 
-.. image:: ../../../shared/Images/text_input_feedback_custom_label.png
+.. image:: ../../../shared/images/text_input_feedback_custom_label.png
  :alt: Image of text input feedback with a custom label.
  :width: 600
 
@@ -365,7 +365,7 @@ Add Text after the Text Response Field
 You might want to include a word, phrase, or sentence after the answer field
 in a text input problem to help guide your students or resolve ambiguity.
 
-.. image:: ../../../shared/Images/MC_trailing_text.png
+.. image:: ../../../shared/images/MC_trailing_text.png
  :width: 500
  :alt: Multiple choice problem with the word "Institute" after the answer field.
 

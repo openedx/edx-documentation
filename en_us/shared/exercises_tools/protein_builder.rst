@@ -9,7 +9,7 @@ Protex Protein Builder Tool
 The Protex protein builder asks students to create specified protein shapes by stringing together amino acids. In the example below, the goal protein shape is a simple line.
 
 
-.. image:: ../../../shared/Images/ProteinBuilder.png
+.. image:: ../../../shared/images/ProteinBuilder.png
   :alt: Image of the protein builder
 
 .. _Create the Protein Builder:

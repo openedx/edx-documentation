@@ -129,7 +129,7 @@ You can create a group configuration at any time.
 #. On the **Group Configurations** page, under **Experiment Groups**, select
    **New Experiment Group**. The following page opens:
 
-   .. image:: ../../../../shared/Images/create-group-config.png
+   .. image:: ../../../../shared/images/create-group-config.png
     :width: 800
     :alt: An image of the Create a New Group Configuration page in Studio.
 
@@ -156,7 +156,7 @@ The group configuration is then listed in the page. You can see the number of
 groups that the configuration contains, as well as whether the configuration is
 in use in the course:
 
-.. image:: ../../../../shared/Images/group_configurations_one_listed.png
+.. image:: ../../../../shared/images/group_configurations_one_listed.png
  :width: 800
  :alt: The Group Configurations page with one group configuration listed.
 
@@ -174,14 +174,14 @@ Edit a Group Configuration
 #. On the **Group Configurations** page, hover over the group configuration and
    select **Edit**.
 
-   .. image:: ../../../../shared/Images/group_configurations_edit.png
+   .. image:: ../../../../shared/images/group_configurations_edit.png
     :alt: An image of the Group Configurations page with Edit button
         highlighted.
     :width: 800
 
    The following page opens:
 
-   .. image:: ../../../../shared/Images/save-group-config.png
+   .. image:: ../../../../shared/images/save-group-config.png
     :alt: An image of the Edit a Group Configuration page.
     :width: 800
 
@@ -206,7 +206,7 @@ Delete a Group Configuration
 #. On the **Group Configurations** page, hover over the group configuration and
    select the Delete icon.
 
-   .. image:: ../../../../shared/Images/group-configuration-delete.png
+   .. image:: ../../../../shared/images/group-configuration-delete.png
     :alt: An image of the Edit a Group Configuration page.
     :width: 800
 
@@ -223,7 +223,7 @@ You can view the experiments that use each of your group configurations.
 On the **Group Configurations** page, select the name of a group to see its
 details. You see links to experiments that use the group configuration:
 
-.. image:: ../../../../shared/Images/group_configurations_experiments.png
+.. image:: ../../../../shared/images/group_configurations_experiments.png
  :alt: An image of a group configuration with the experiments using the
      configuration circled.
  :width: 800
@@ -240,7 +240,7 @@ configuration used by that experiment in two ways:
 * In a unit that contains a content experiment, in the content experiment
   block, select the name of the group configuration.
 
-  .. image:: ../../../../shared/Images/content_experiment_group_config_link.png
+  .. image:: ../../../../shared/images/content_experiment_group_config_link.png
    :alt: An image of the content experiment in the unit page with the group
      configuration link circled
    :width: 800
@@ -248,14 +248,14 @@ configuration used by that experiment in two ways:
 * At the top of the content experiment page, select the name of the group
   configuration.
 
-  .. image:: ../../../../shared/Images/content_experiment_page_group_config_link.png
+  .. image:: ../../../../shared/images/content_experiment_page_group_config_link.png
    :alt: An image of the content experiment page with the group configuration
        link circled.
    :width: 800
 
 In both cases, the group configuration opens:
 
-.. image:: ../../../../shared/Images/group_configurations_experiments.png
+.. image:: ../../../../shared/images/group_configurations_experiments.png
  :alt: An image of the Group Configuration page with the experiments using it
      circled.
  :width: 800

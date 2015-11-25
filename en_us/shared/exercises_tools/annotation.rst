@@ -12,7 +12,7 @@ students move their cursors over the highlighted text. The questions also
 appear in a section below the text block, along with space for students'
 responses.
 
-.. image:: ../../../shared/Images/AnnotationExample.png
+.. image:: ../../../shared/images/AnnotationExample.png
   :alt: An example annotation problem.
 
 .. contents::
