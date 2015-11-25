@@ -74,7 +74,7 @@ Configure User Attributes
 You work with edX to ensure that your identity provider will assert the user
 information that you want learners to see during initial sign in on edX Edge.
 When you :ref:`send your Shibboleth configuration data<Send Shibboleth
-Configuration Data to edX>` to your institution's edX Partner Manager, you
+Configuration Data to edX>` to your institution's edX partner manager, you
 include any customizations to the attributes that will be asserted.
 
 Selecting User Attributes to Assert
@@ -122,7 +122,7 @@ Send Shibboleth Configuration Data to edX
 ======================================================
 
 To complete the integration between your Shibboleth system and Edge, send
-the following information to your institution's edX Partner Manager.
+the following information to your institution's edX partner manager.
 
 * Metadata: The URL for your Shibboleth IdP metadata XML file.
 
@@ -135,7 +135,7 @@ the following information to your institution's edX Partner Manager.
   For more information about how you can work with edX to configure user
   attributes effectively, see :ref:`Configure User Attributes`.
 
-Your edX Partner Manager notifies you when integration with your IdP is
+Your edX partner manager notifies you when integration with your IdP is
 complete.
 
 ========================
