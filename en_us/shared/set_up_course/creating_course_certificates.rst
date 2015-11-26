@@ -13,10 +13,15 @@ Studio.
    :local:
    :depth: 1
 
-For more information, see the following other topics about certificates.
+For more information about certificates, see these additional topics.
 
 * :ref:`Reporting Certificate Data`
 * :ref:`Checking Student Progress and Issuing Certificates`
+
+.. only:: Open_edX
+
+  For information about awarding badges for your course, see :ref:`Enable or
+  Disable Badges for Your Course<Enable Badges in Course>`.
 
 .. _Overview:
 
@@ -38,8 +43,8 @@ Using Studio, you create certificates that learners can earn in your course.
     course until the required certificates are :ref:`activated<Activate a
     Certificate>`.
 
-    For information on starting the course, see :ref:`Determine Start and End
-    Dates`.
+    For information about starting the course, see :ref:`Determine Start and
+    End Dates`.
 
 **********************
 Certificate Design
@@ -331,33 +336,33 @@ manually remove unused images. For information, see
 
 .. only:: Open_edX
 
-  .. _Enable Badges in Course:
+ .. _Enable Badges in Course:
 
-  *****************************************
-  Enable or Disable Badges for Your Course
-  *****************************************
+ *****************************************
+ Enable or Disable Badges for Your Course
+ *****************************************
 
-  Badges provide a way for learners to share their course achievements. For
-  courses that have badges enabled, learners receive a badge at the same time
-  as they receive a course certificate, and have the option of sharing their
-  badges to a badging site such as Mozilla Backpack.
+ Badges provide a way for learners to share their course achievements. For
+ courses that have course completion badges enabled, learners receive a badge  at
+ the same time as they receive a course certificate, and have the option of
+ sharing their badges to a badging site such as Mozilla Backpack.
 
-  The Open edX platform supports Open Badges, an open standard developed by the
-  Mozilla Foundation. For more information about Open Badges, see the
-  `Open Badges web site <http://openbadges.org/>`_.
+ The Open edX platform supports Open Badges, an open standard developed by the
+ Mozilla Foundation. For more information about Open Badges, see the
+ `Open Badges web site <http://openbadges.org/>`_.
 
-  If badging is enabled for your platform, badges are enabled by default for
-  your course. If you are unsure whether badging is enabled for your platform,
-  contact your platform administrator.
+ If badging is enabled for your platform, course completion badges are enabled by
+ default for your course. If you are unsure whether badging is enabled for your
+ platform, or if you need help with configuring your course badges, contact your
+ platform administrator.
 
-  To stop issuing badges in your course, follow these steps.
+ To stop issuing badges in your course, follow these steps.
 
-  #. In Studio, from the **Settings** menu, select **Advanced Settings**.
+ #. In Studio, from the **Settings** menu, select **Advanced Settings**.
 
-  #. Locate the **Issue Open Badges** policy key. The default value is
-     ``True``.
+ #. Locate the **Issue Open Badges** policy key. The default value is ``True``.
 
-  #. Change the setting to ``False`` and save your changes.
+ #. Change the setting to ``False`` and save your changes.
 
-  To enable badging for your course if it has previously been disabled, change
-  the value of the key to ``True``.
+ To enable badging for your course if it was previously disabled, change the
+ value of the key to ``True``.
