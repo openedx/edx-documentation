@@ -8,7 +8,7 @@ are available to your learners immediately, and do not require you to make any
 changes to your courses.
 
 * The user interface controls for the player now appear only after a learner
-  selects play for a video, and take up less screen space.
+  selects **play** for a video, and take up less screen space.
 
 * New icon designs are now used for the **full screen** and **show transcript**
   options.
