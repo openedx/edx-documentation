@@ -168,9 +168,11 @@ These badges can be customized with your own images and descriptions. To set the
    example, this might be ``https://YourOrganization.org/admin``
 
 #. Under **Site Administration** > **Badges** select **Badge Classes**, define some Badge 
-   Classes. You will want to make note of the slugs you set, and set the issuing component
-   to ``edx__course`` so that they will be recognized by the configuration later. You may
-   fill the display name, description and criteria as you wish, though it would be helpful 
+   Classes. You must set the "issuing component" to edx_course so that this badge class will 
+   be compatible with the built in badge events. The "slug" is a short unique identifier for 
+   this badge which is all lowercase and only contains letters, numbers, underscores, and 
+   dashes. Make a note of what you decide to use as the slug since you will need it in the next step.
+   You may fill the display name, description and criteria as you wish, though it would be helpful 
    to convey which of the events the badge is for. An example might be:
    
    * ``slug``: ``enrolled_three``
