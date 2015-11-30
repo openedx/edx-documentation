@@ -10,16 +10,17 @@ changes to your courses.
 * The user interface controls for the player now appear only after a learner
   selects play for a video, and take up less screen space.
 
-* A new option, to play the video in high definition, is now available.
-
 * New icon designs are now used for the **full screen** and **show transcript**
   options.
 
-* The language menu, if available for a video, is indicated by a menu icon next
-  to the **show transcript** icon.
+* The language menu, for video with transcript in multiple languages, is now
+  indicated by a drop-down menu icon next to the **show transcript** icon.
 
 * To improve accessibility, all options now use an icon font method that
   streamlines delivery.
+
+* To enhance the experience of learners who use screen readers, changes that
+  improve spoken announcements and simplify navigation are also included.
 
 The following illustration shows the new video player controls.
 
