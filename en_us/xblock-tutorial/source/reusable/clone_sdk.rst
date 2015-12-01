@@ -25,7 +25,7 @@ requirements. To do this, complete the following steps at a command prompt.
 
    .. code-block:: bash
   
-      (venv) $ pip install -r requirements.txt
+      (venv) $ pip install -r requirements/base.txt
 
 #. Run the following command to return to the ``xblock_development`` directory,
    where you will perform the rest of your work.
