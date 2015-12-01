@@ -556,11 +556,13 @@ O
 
 **Open Response Assessment**
 
-  A type of assignment that allows learners to answer using text and,
-  optionally, an image, as in a short essay. Learners then evaluate each
+  A type of assignment that allows learners to answer with text, as in a short
+  essay and, optionally, an image or other file. Learners then evaluate each
   others' work by comparing each response to a rubric created by the course
-  team. These assignments can also include a self assessment, in which
-  learners compare their own responses to the rubric.
+  team.
+
+  These assignments can also include a self assessment, in which learners
+  compare their own responses to the rubric.
 
   For more information, see `Open Response Assessments`_.
 

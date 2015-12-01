@@ -4,17 +4,12 @@
 Create an Open Response Assessment Assignment
 #############################################
 
+Creating an open response assessment is a multi-step process. This section
+covers each step in detail.
 
-Creating an open response assessment is a multi-step process. Each step is covered in detail below.
-
-* :ref:`PA Create Component`
-* :ref:`PA Add Prompt`
-* :ref:`PA Add Rubric`
-* :ref:`PA Specify Name and Dates`
-* :ref:`PA Select Assignment Steps`
-* :ref:`PA Specify Step Settings`
-* :ref:`PA Show Top Responses`
-* :ref:`PA Test Assignment`
+.. contents::
+  :local:
+  :depth: 2
 
 For more information about the components of an open response assessment, see
 :ref:`Open Response Assessments 2`. For information about viewing metrics and
@@ -28,13 +23,23 @@ ORA Assignment Information`.
 Step 1. Create the Component
 ******************************
 
-To create the component for your open response assessment, complete these steps.
+To create the component for your open response assessment, complete these
+steps.
 
 #. In Studio, open the unit where you want to create the open response
    assessment.
-#. Under **Add New Component**, select **Problem**, select the **Advanced** tab,
-   and then select **Peer Assessment**.
-#. In the Problem component that appears, select **Edit**.
+
+#. Under **Add New Component**, select **Problem**.
+
+#. Select **Advanced**, and then select **Peer Assessment**.
+
+#. In the problem component that appears, select **Edit**.
+
+   You use this component editor to add prompts and the rubric, and to specify
+   other settings for the open response assessment component.
+
+#. Select **Save** each time you complete an editing session. You can continue
+   to edit the problem until you publish the unit.
 
 .. note:: After you publish an ORA assignment, you can no longer change the
    structure of the rubric or the point values associated with each criterion
@@ -52,49 +57,61 @@ Step 2. Add Prompts
 
 To add prompts, or questions, complete these steps.
 
-#. In the open response assessment component editor, select the **Prompt** tab.
+.. note:: If you want to add text formatting to the prompt, or include an
+ image, see :ref:`Add Formatting or Images to a Prompt`.
+
+#. In the open response assessment component editor, select **Prompt**.
 #. Add the text of your question in the text field. Replace any default text if
    necessary.
 #. Select **Add a Prompt** to add another prompt in the problem.
 
+.. _Add Formatting or Images to a Prompt:
 
 ========================================
 Add Formatting or Images to a Prompt
 ========================================
 
-Currently, you cannot add text formatting or images inside the Peer Assessment
-component. To include formatting or images within the text of a prompt, you
-can add an HTML component that contains your text above the Peer Assessment
-component, and leave the text field in the **Prompt** tab blank. The
-instructions for the peer assessment still appear above the **Your Response**
-field.
+Currently, you cannot format text or add images inside the Peer Assessment
+component. To include formatting or images in a prompt, you can add an HTML
+component that contains your text above the Peer Assessment component, and
+leave the text field in the **Prompt** tab blank. The instructions for the peer
+assessment still appear above the **Your Response** field.
 
 .. image:: ../../../../shared/images/PA_HTMLComponent.png
-      :alt: A peer assessment that has an image in an HTML component
+      :alt: A peer assessment that has an image in an HTML component.
       :width: 500
 
 .. _PA Allow Images:
 
 ============================================
-Allow Learners to Submit Images (optional)
+Allow Learners to Submit Files (optional)
 ============================================
 
-To allow learners to submit an image with a response, complete these steps.
+Before you enable this feature for your open response assessment, be sure to
+read about its limitations and best practices. For more information, see
+:ref:`Asking Learners to Upload Other Files in Responses`.
 
-#. In the open response assessment component editor, select the **Settings** tab.
-#. For **Allow Image Responses**, select **True**.
+To allow learners to submit a file along with their text responses, follow
+these steps.
 
-.. note::
+#. In the open response assessment component editor, select **Settings**.
 
-   * The image file must be a .jpg or .png file, and it must be smaller than 5
-     MB in size.
-   * Currently, course teams cannot see any of the images that
-     learners submit. Images are not visible in the body of the assignment in
-     the courseware, and they are not included in the course data package.
-   * You can allow learners to upload an image, but you cannot require it.
-   * Learners can only submit one image with each response.
-   * All responses must contain text. Learners cannot submit a response that
-     contains only an image.
+#. Set **Allow File Upload** to one of these options.
+
+  * **Image File**
+  * **PDF or Image File**
+  * **Custom File Types**
+
+#. If you select **Custom File Types**, the **File Types** field appears. Enter
+   the file extensions, separated by commas, of the types of files that
+   you want learners to submit.
+
+   .. note:: To reduce the potential for problems from files with malicious
+    content, learners cannot upload certain file types. For more information,
+    see :ref:`Asking Learners to Upload Other Files in Responses`.
+
+#. Verify that the text of the prompt describes the file type or types that
+   learners can upload.
 
 .. _PA Add Rubric:
 
@@ -114,21 +131,38 @@ For each step below, replace any default text with your own text.
    individual criteria. See step 2.4 below for instructions. For more
    information, see :ref:`Feedback Options`.
 
-To add the rubric, complete these steps.
+To add the rubric, follow these steps.
 
 #. In the open response assessment component editor, select the **Rubric** tab.
-#. In the first **Criterion** section, enter the name and prompt text of your first criterion.
-#. In the first **Option** section, enter the name, explanation, and point value for the first option.
-#. In the next **Option** section, enter the name, explanation, and point value for the next option.
-#. Repeat step 4 for each option. If you need to add more options, select **Add Option**.
-#. Next to **Feedback for This Criterion**, select a value in the dropdown list.
 
-   * If you do not want learners to provide feedback for this individual criterion, select **None**.
-   * If you want to require learners to provide feedback, select **Required**.
-   * If you want to allow learners to provide feedback, but not require it, select **Optional**.
+#. In the first **Criterion** section, enter the name and prompt text of your
+   first criterion.
 
-7. Follow the instructions in steps 2-6 to add your remaining criteria. If you need to add more criteria, select **Add Criterion** at the end of the list of criteria.
-#. Include instructions for learners to provide overall written feedback on their peers' responses. You can leave the default text in the **Feedback Instructions** field or replace it with your own text.
+#. In the first **Option** section, enter the name, explanation, and point
+   value for the first option.
+
+#. In the next **Option** section, enter the name, explanation, and point value
+   for the next option.
+
+#. Repeat step 4 for each option. If you need to add more options, select **Add
+   Option**.
+
+#. Next to **Feedback for This Criterion**, select a value in the dropdown
+   list.
+
+  * If you do not want learners to provide feedback for this individual
+    criterion, select **None**.
+  * If you want to require learners to provide feedback, select **Required**.
+  * If you want to allow learners to provide feedback, but not require it,
+    select **Optional**.
+
+#. Follow the instructions in steps 2-6 to add your remaining criteria. If you
+   need to add more criteria, select **Add Criterion** at the end of the list
+   of criteria.
+
+#. Include instructions for learners to provide overall written feedback on
+   their peers' responses. You can leave the default text in the **Feedback
+   Instructions** field or replace it with your own text.
 
 .. note:: After you publish an ORA assignment, you can no longer change the
    structure of the rubric or the point values associated with each criterion
@@ -144,17 +178,21 @@ To add the rubric, complete these steps.
 Provide Only Comment Fields for Individual Criteria
 ==========================================================
 
-When you add a comment field to a criterion, the comment field appears below the
-options for the criterion. You can also provide a comment field, but no options.
+When you add a comment field to a criterion, the comment field appears below
+the options for the criterion. You can also provide a comment field, but no
+options.
 
-In the following image, the first criterion has a comment field but no options. The second includes options, but does not have a comment field.
+In the following image, the first criterion has a comment field but no options.
+The second includes options, but does not have a comment field.
 
 .. image:: ../../../../shared/images/PA_0_Option_Criteria.png
+  :alt: Examples of criteria with and without a comment field.
 
 To provide a comment field without options, complete these steps.
 
 #. In the criterion, select **Remove** to remove, or delete, all the options.
-#. Next to **Feedback for This Criterion**, select **Required** in the dropdown list.
+#. Next to **Feedback for This Criterion**, select **Required** in the dropdown
+   list.
 
 
 .. _PA Specify Name and Dates:
@@ -204,7 +242,8 @@ learner responses, complete these steps.
 Step 5. Select Assignment Steps
 ****************************************
 
-Open response assessment assignments can include learner training, peer assessment, and self assessment steps.
+Open response assessment assignments can include learner training, peer
+assessment, and self assessment steps.
 
 .. note:: If you include a learner training step, you must also include a peer
    assessment step. The learner training step must come before peer or self
@@ -225,7 +264,8 @@ To add steps to the open response assignment, complete these actions.
    * **Step: Peer Assessment**
    * **Step: Self Assessment**
 
-   Select the check boxes for the steps that you want the assignment to include.
+   Select the check boxes for the steps that you want the assignment to
+   include.
 
 #. (optional) To change the order of the steps, drag the steps into the order
    that you want.
@@ -351,9 +391,9 @@ Step 8. Test the Assignment
 ******************************
 
 To test your assignment, set up the assignment in your course, set the section
-or subsection date in the future, and ask a group of beta users to submit
+or subsection date in the future, and ask a group of beta testers to submit
 responses and grade each other. The beta testers can then let you know if they
-found the question and the rubric easy to understand or if they had any problems
-with the assignment.
+found the question and the rubric easy to understand or if they had any
+problems with the assignment.
 
 For more information about beta testing, see :ref:`Beta_Testing`.

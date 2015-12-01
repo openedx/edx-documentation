@@ -122,7 +122,7 @@ Know the Rules and Requirements for Online Proctoring
   the proctoring software to work. Check the `Proctoring Software System
   Requirements <http://clientportal.softwaresecure.com/support/index.php?/Knowledgebase/
   Article/View/252/0/system-requirements-remote-proctor-now>`_ to make sure you are using
-  a supported operating system version and that your computer meets the minimum system 
+  a supported operating system version and that your computer meets the minimum system
   requirements for running the remote åproctoring software.
 
 * You must be using one of the browser versions supported by edX. Check the
@@ -137,7 +137,6 @@ Know the Rules and Requirements for Online Proctoring
 ===============================================
 Request Additional Time or Special Allowances
 ===============================================
-<<<<<<< HEAD
 
 If you need more time to complete your proctored exam or require exemption
 from particular exam policies, ask your course team or instructor about this

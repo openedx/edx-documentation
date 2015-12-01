@@ -16,6 +16,9 @@ December 2015
    * - 1 December 2015
      - Added the :ref:`Office Mix Tool` topic.
    * -
+     - Added information about specifying additional file types for learners to
+       upload to the :ref:`PA Allow Images` topic.
+   * -
      - Topics within this guide have been reorganized. New top level sections
        include :ref:`Course Assets Index`, :ref:`Course Features Index`,
        :ref:`Grading Index`, and :ref:`Manage Student Progress Index`.
