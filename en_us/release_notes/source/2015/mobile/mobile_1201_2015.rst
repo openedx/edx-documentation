@@ -1,8 +1,0 @@
-
-The edX mobile apps for iOS and Android now provide a much more complete course
-experience for learners who access edX courses using these apps. Learners can
-now use the edX mobile apps to view HTML and text components, and also to
-complete assignments that consist of the basic assessment types (checkbox,
-dropdown, multiple choice, and text or numerical input).
-
-For more information, see :ref:`learners:SFD Mobile`.

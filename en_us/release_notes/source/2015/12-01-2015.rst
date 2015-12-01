@@ -43,11 +43,6 @@ EdX Analytics
 
 .. include:: analytics/analytics_1201_2015.rst
 
-*************
-EdX Mobile
-*************
-
-.. include:: mobile/mobile_1201_2015.rst
 
 **************************
 EdX Documentation
