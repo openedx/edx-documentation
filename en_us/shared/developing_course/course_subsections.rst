@@ -286,7 +286,7 @@ To set the assignment type and due date for a subsection, follow these steps.
 
 #. Select **Save**.
 
-For more information, see :ref:`Establish a Grading Policy`.
+For more information, see :ref:`Grading Index`.
 
 .. _Publish all Units in a Subsection:
 

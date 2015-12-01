@@ -170,7 +170,7 @@ would see it, use **Staff View**.
   Course Content`.
 
 * You can access the Instructor Dashboard, which has features and reports that
-  help you :ref:`run your course<Running Your Course Index>`.
+  help you :ref:`run your course<Managing Live Course Index>`.
 
 When you view your course in **Staff View**, you can execute tests to make sure
 that your course works the way you intend. For example,  before the release
@@ -295,7 +295,7 @@ Studio directly.
         in Studio button
 
   For information about the tasks you can complete on the Instructor Dashboard,
-  see :ref:`Running Your Course Index`.
+  see :ref:`Managing Live Course Index`.
 
 * In the **Course Progress** page, click **View Grading in Studio** to open the
   Grading page.

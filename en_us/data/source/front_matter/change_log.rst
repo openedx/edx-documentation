@@ -207,7 +207,7 @@ July-September 2014
        for Comments.
    * - 08/25/14
      - Removed information on course grading. See
-       :ref:`partnercoursestaff:Establish a Grading Policy` in *Building and
+       :ref:`partnercoursestaff:Grading Index` in *Building and
        Running an edX Course*.
    * -
      - Removed information on the XML for drag and drop. See
