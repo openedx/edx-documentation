@@ -14,6 +14,12 @@ October-December 2015
 
    * - Date
      - Change
+   * - 1 Dec 2015
+     - Added new events for :ref:`discussion forum<forum_events>` voting to the
+       Events in the Tracking Logs section.
+   * -
+     - Added new events for interactions with :ref:`Office Mixes<content>` to
+       the Events in the Tracking Logs section.
    * - 23 Nov 2015
      - Updated the :ref:`Tracking Logs` section and the :ref:`event_list` to
        correct the names of several events.

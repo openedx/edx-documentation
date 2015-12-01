@@ -2893,7 +2893,7 @@ The following additional ``event`` member fields apply specifically to
 .. _forum_events:
 
 ==========================
-Discussion Forums Events
+Discussion Forum Events
 ==========================
 
 This section includes descriptions of the following events.
@@ -2902,7 +2902,7 @@ This section includes descriptions of the following events.
   :local:
   :depth: 1
 
-The server emits discussion forums events when a user interacts with a course
+The server emits discussion forum events when a user interacts with a course
 discussion. This section presents the discussion forum events alphabetically.
 However, several of these events have hierarchical or sequential
 relationships.
@@ -2917,17 +2917,16 @@ relationships.
   a clarification to the student answer, the server emits an
   :ref:`forum_comment` event.
 
-These events are included in the daily event logs in addition to the MongoDB
-discussion forums database data that is included in the weekly database data
-files. For information about the discussion forums database, see
+These events are emitted and included in daily event logs in addition to
+the MongoDB discussion forums database data that is included in the weekly
+database data files. For information about the discussion forums database, see
 :ref:`Discussion Forums Data`.
 
 If a thread, response, or comment was part of a team discussion within a
-course, a ``team_id`` field is included in the ``edx.forum.thread.created``,
-``edx.forum.response.created``, or ``edx.forum.comment.created`` event to
-identify the team in which the discussion event was triggered. For more
-information about events for teams, see :ref:`student_teams_events`.
-
+course, a ``team_id`` field is also included in events for creation or voting
+interactions. The ``team_id`` identifies the team that triggered the discussion
+event. For more information about events for teams, see
+:ref:`student_teams_events`.
 
 .. _forum_comment:
 
@@ -3023,6 +3022,42 @@ The following additional ``event`` member field applies specifically to
        Also present for ``edx.forum.comment.created`` events.
 
 
+``edx.forum.response.voted``
+*********************************
+
+Users can indicate interest in a response by selecting a "Vote" icon. The
+"Vote" icon is a toggle, so users can also clear a vote made previously. When
+either of these actions is complete, the server emits an
+``edx.forum.response.voted`` event.
+
+In these events, the user who voted for the response is identified in the
+``username`` and ``context.user_id`` fields, and the user who originally posted
+the thread is identified in the ``event.target_username`` field.
+
+**Component**: Discussion
+
+**Event Source**: Server
+
+**History**: Added 1 Dec 2015.
+
+``event`` **Member Fields**:
+
+The ``edx.forum.response.voted`` events include the same ``event`` member
+fields as :ref:`edx.forum.thread.voted` events. The following member fields
+serve the same purpose for votes on a response as they do for votes on a
+thread.
+
+* ``commentable_id``
+* ``id``
+* ``target_username``
+* ``team_id``
+* ``undo_vote``
+* ``url``
+* ``user_course_roles``
+* ``user_forums_roles``
+* ``vote_value``
+
+
 ``edx.forum.searched``
 *********************************
 
@@ -3105,7 +3140,6 @@ complete, the server emits an ``edx.forum.thread.created`` event.
    * - Field
      - Type
      - Details
-
    * - ``anonymous``
      - Boolean
      - Applies only to courses that allow discussion posts that are anonymous
@@ -3216,10 +3250,77 @@ complete, the server emits an ``edx.forum.thread.created`` event.
      - array
      - Identifies a user who does not have discussion management privileges as
        a 'Student'. Identifies users who have discussion management privileges
-       as a course 'Community TA', 'Moderator', or 'Administrator'. Also
-       present for ``edx.forum.response.created`` and
+       as a course 'Community TA', 'Moderator', or 'Administrator'.
+
+       Also present for ``edx.forum.response.created`` and
        ``edx.forum.comment.created`` events.
 
+.. _edx.forum.thread.voted:
+
+``edx.forum.thread.voted``
+*********************************
+
+Users can indicate interest in a thread by selecting a "Vote" icon. The "Vote"
+icon is a toggle, so users can also clear a vote made previously. When either
+of these actions is complete, the server emits an ``edx.forum.thread.voted``
+event.
+
+In these events, the user who voted for the thread is identified in the
+``username`` and ``context.user_id`` fields, and the user who originally posted
+the thread is identified in the ``event.target_username`` field.
+
+**Component**: Discussion
+
+**Event Source**: Server
+
+**History**: Added 1 Dec 2015.
+
+``event`` **Member Fields**:
+
+The ``edx.forum.thread.voted`` events include many of the same ``event``
+member fields that are described for :ref:`forum_thread` events. The following
+member fields serve the same purpose for votes on a thread as they do for
+thread creation.
+
+* ``commentable_id``
+* ``id``
+* ``team_id``
+* ``url``
+* ``user_course_roles``
+* ``user_forums_roles``
+
+The following additional ``event`` member fields apply to
+``edx.forum.thread.voted`` events.
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+   * - ``target_username``
+     - string
+     - Identifies the user who originally posted the thread.
+
+       Also present for ``edx.forum.response.voted`` events, where it indicates
+       the user who originally made the response.
+
+   * - ``undo_vote``
+     - Boolean
+     - 'true' if the user clears selection of the "Vote" icon made previously.
+
+       'false' if the user selects the "Vote" icon.
+
+       Also present for ``edx.forum.response.voted`` events.
+
+   * - ``vote_value``
+     - string
+     - Set to 'up' for all ``edx.forum.thread.voted`` events. In the user
+       interface, users can only vote for ("up vote") a thread or clear a
+       previous vote. They cannot vote against ("down vote") a thread.
+
+       Also present for ``edx.forum.response.voted`` events
 
 .. _ora2:
 
