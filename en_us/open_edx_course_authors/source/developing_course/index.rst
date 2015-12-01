@@ -7,8 +7,8 @@ Developing Your Course
 Use the topics in this section to understand how to develop your course
 content in the Studio Outline page.
 
-For information on building specific course component types, see :ref:`Creating
-Course Content Index`.
+For information on building specific course component types, see :ref:`Course
+Components Index`.
 
 For information on creating exercises and tools, see :ref:`Exercises and Tools
 Index`.

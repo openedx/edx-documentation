@@ -4,7 +4,7 @@ Documentation for edX Partners
 
 Building and Running an edX Course
 **********************************
- 
+
 * Added the section :ref:`partnercoursestaff:Set a Course Number Override` to
   the topic Setting Up Course Certificates.
 
@@ -15,7 +15,7 @@ Building and Running an edX Course
 * Added the :ref:`partnercoursestaff:Calculator` section.
 
 * Added a note about the calculator tool to the following topics.
-  
+
   * :ref:`opencoursestaff:Chemical Equation`
   * :ref:`opencoursestaff:Custom JavaScript`
   * :ref:`opencoursestaff:Math Expression Input`

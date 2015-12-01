@@ -235,8 +235,8 @@ edX, and are subject to change.
 
   This set of file extensions is provided as the default for Open edX
   installations. Open edX system administrators can update this list. For more
-  information, see :ref:`installation:Configuring ORA2 to Prohibit Submission
-  of File Types`.
+  information, see
+  :ref:`installation:Configuring ORA2 to Prohibit Submission of File Types`.
 
 .. list-table::
    :widths: 15 75

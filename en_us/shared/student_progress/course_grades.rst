@@ -20,7 +20,7 @@ learners. You can also review answer distribution data for all of the problems.
 See :ref:`Review_Answers`.
 
 For information about how you establish a grading policy and work with the
-Problem components in your course, see :ref:`Establish a Grading Policy` or
+Problem components in your course, see :ref:`Grading Index` or
 :ref:`Working with Problem Components`.
 
 .. _Review_grades:

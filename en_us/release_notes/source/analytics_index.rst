@@ -4,11 +4,18 @@
 EdX Analytics
 ####################################
 
-The following information describes what is new in edX analytics. 
+The following information describes what is new in edX analytics.
 
 .. contents::
   :local:
   :depth: 2
+
+
+******************
+1 December 2015
+******************
+
+.. include:: 2015/analytics/analytics_1201_2015.rst
 
 ******************
 27 October 2015

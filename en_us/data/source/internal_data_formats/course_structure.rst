@@ -341,8 +341,8 @@ component.
 
 * The other ``metadata`` member fields reflect settings specific to each
   component type. For information about the settings that course teams can
-  define for components, see :ref:`partnercoursestaff:Creating Course Content
-  Index` in the *Building and Running an edX Course* guide.
+  define for components, see :ref:`partnercoursestaff:Course Components Index`
+  in the *Building and Running an edX Course* guide.
 
 ======================================
 Course Component Data Sample

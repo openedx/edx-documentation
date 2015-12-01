@@ -117,7 +117,7 @@ Create an Entrance Exam from the Course Outline
 
 You create your course entrance exam from the course outline in Studio.
 Creating entrance exam content is just like creating other course content. For
-more information, see :ref:`Creating Course Content Index`.
+more information, see :ref:`Course Components Index`.
 
 ==================================
 Adjust Scores in the Entrance Exam

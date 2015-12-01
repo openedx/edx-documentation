@@ -12,7 +12,7 @@ This section describes how you develop course components.
 
 For more information about specific component types, see the following topics.
 
-* :ref:`Creating Course Content Index`
+* :ref:`Course Components Index`
 * :ref:`Exercises and Tools Index`
 
 .. _What is a Component:

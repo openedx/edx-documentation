@@ -10,8 +10,8 @@ tools to your course.
 For information on how to develop your course content in the Studio Outline
 page, see :ref:`Developing Your Course Index`.
 
-For information on building specific course component types, see :ref:`Creating
-Course Content Index`.
+For information on building specific course component types, see :ref:`Course
+Components Index`.
 
 
 .. toctree::

@@ -168,7 +168,7 @@ You remove a submission from peer assessment by completing these steps.
 
 #. Select **Remove Submission from Peer Grading**.
 
-.. image:: ../../../../shared/building_and_running_chapters/Images/ORA_RemoveSubmission.png
+.. image:: ../../../../shared/images/ORA_RemoveSubmission.png
    :alt: Dialog allowing comments to be entered when removing a learner
        submission.
 

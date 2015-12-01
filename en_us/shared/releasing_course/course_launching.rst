@@ -1,12 +1,12 @@
 .. _Launch:
 
 ##############################
-Course Launching Activities 
+Course Launching Activities
 ##############################
 
 This topic describes steps to launch your course.
 
-.. contents:: 
+.. contents::
   :local:
   :depth: 1
 
@@ -41,7 +41,7 @@ starts follow.
 * Check the course start date and time in Studio. See :ref:`Scheduling Your
   Course`.
 * Review the grading policy, and set a grace period for homework assignment
-  due dates. See :ref:`Establish a Grading Policy`.
+  due dates. See :ref:`Grading Index`.
 * Confirm that any optional features that you want your course to include, such
   as learner cohorts, are enabled and configured. See :ref:`Cohorts Overview`.
 
@@ -84,7 +84,7 @@ starts follow.
   Europe", "Introduce Yourself: North America", etc. See
   :ref:`Running_discussions`.
 * On the course start date, prepare and send a launch email message to
-  currently enrolled learners. See :ref:`Launch Day Welcome`. 
+  currently enrolled learners. See :ref:`Launch Day Welcome`.
 
 **Prepare the Course Team**
 
