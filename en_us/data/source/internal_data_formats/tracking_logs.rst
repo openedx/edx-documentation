@@ -3718,19 +3718,32 @@ This section includes descriptions of the following events.
 
 .. contents::
   :local:
-  :depth: 1
+  :depth: 2
 
 EdX courses can include components that present content that is hosted by a
-third party. The server emits events when third-party content is shown to
-students.
+third party. The server emits events when users interact with the third-party
+content.
+
+Google Component Events
+***************************
+
+Course teams use the Google Calendar and Google Drive Files tools in Studio to
+embed Google calendars and Google drive files, such as documents, spreadsheets,
+and images, in a course. When users interact with the files in the LMS, the
+server emits the following events.
+
+.. contents::
+  :local:
+  :depth: 1
+
+For more information about these tools, see :ref:`partnercoursestaff:Google
+Calendar Tool` or :ref:`partnercoursestaff:Google Drive Files Tool`.
 
 ``edx.googlecomponent.calendar.displayed``
-***********************************************
+==============================================
 
 The server emits an ``edx.googlecomponent.calendar.displayed`` event when a
-Google Calendar component is shown in the LMS. For more information about
-adding Google calendars to a course, see :ref:`partnercoursestaff:Google
-Calendar Tool`.
+Google Calendar component is shown in the LMS.
 
 **Event Source**: Server
 
@@ -3758,12 +3771,11 @@ Calendar Tool`.
 
 
 ``edx.googlecomponent.document.displayed``
-************************************************
+============================================
 
 The server emits an ``edx.googlecomponent.document.displayed`` event when a
 Google Drive file, such as a document, spreadsheet, or image, is shown in the
-LMS. For more information about adding Google Drive files to a course, see
-:ref:`partnercoursestaff:Google Drive Files Tool`.
+LMS.
 
 **Event Source**: Server
 
@@ -3778,14 +3790,27 @@ type as for the ``edx.googlecomponent.calendar.displayed`` events.
 * ``displayed_in``
 * ``url``
 
+Oppia Exploration Events
+***************************
+
+Course teams can embed short, interactive tutorials created using Oppia in
+their courses with the Oppia exploration tool. When users interact with the
+Oppia tutorials, called explorations, in the LMS, the server emits the
+following events.
+
+.. contents::
+  :local:
+  :depth: 1
+
+For more information about adding Oppia explorations to a course, see
+:ref:`partnercoursestaff:Oppia Exploration Tool`.
 
 ``oppia.exploration.completed``
-***********************************************
+============================================
 
 The server emits an ``oppia.exploration.completed`` event when a user completes
 an interaction with an Oppia exploration component. Oppia explorations do not
-emit grading events. For more information about adding Oppia explorations to a
-course, see :ref:`partnercoursestaff:Oppia Exploration Tool`.
+emit grading events.
 
 **Event Source**: Server
 
@@ -3802,12 +3827,10 @@ for the ``oppia.exploration.state.changed`` events.
 
 
 ``oppia.exploration.loaded``
-***********************************************
+============================================
 
 The server emits an ``oppia.exploration.loaded`` event when an Oppia
-exploration component is shown in the LMS. For more information about adding
-Oppia explorations to a course, see :ref:`partnercoursestaff:Oppia Exploration
-Tool`.
+exploration component is shown in the LMS.
 
 **Event Source**: Server
 
@@ -3824,13 +3847,12 @@ fields. These fields serve the same purpose for events of this type as for the
 
 
 ``oppia.exploration.state.changed``
-***********************************************
+============================================
 
 The server emits an ``oppia.exploration.state.changed`` event when a user
 interacts with an Oppia exploration component by submitting an answer. Answers
 are not incorrect or correct. All answer submissions change the state of the
-exploration. For more information about adding Oppia explorations to a course,
-see :ref:`partnercoursestaff:Oppia Exploration Tool`.
+exploration.
 
 **Event Source**: Server
 
@@ -3859,6 +3881,156 @@ see :ref:`partnercoursestaff:Oppia Exploration Tool`.
      - string
      - The name of the state the exploration was in when the user submitted an
        answer.
+
+Microsoft Office Mix Events
+***************************
+
+Course teams can use Office Mix to turn Microsoft PowerPoint presentations in
+to interactive online lessons, called mixes. They can then use the Office Mix
+tool in Studio to include mixes in a course. When users interact with the
+Office Mix player in the LMS, the server emits the following events.
+
+.. contents::
+  :local:
+  :depth: 1
+
+For more information about adding mixes to a course, see
+:ref:`partnercoursestaff:Office Mix Tool`.
+
+``microsoft.office.mix.loaded``
+==================================
+
+The server emits a ``microsoft.office.mix.loaded`` event when a mix is fully
+loaded and ready to play in the Office Mix player in the LMS.
+
+**Event Source**: Server
+
+**History**: Added 1 Dec 2015.
+
+``event`` **Member Fields**:
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+   * - ``duration``
+     - number
+     - The total length of the mix, in seconds.
+   * - ``total_slides``
+     - number
+     - The total number of slides in the mix.
+   * - ``url``
+     - string
+     - The URL of the embedded mix, in the format
+       "https://mix.office.com/embed/10g8h9rvi1yg8".
+
+``microsoft.office.mix.paused``
+==================================
+
+The server emits a ``microsoft.office.mix.paused`` event when a user selects
+**pause** for an Office Mix.
+
+**Event Source**: Server
+
+**History**: Added 1 Dec 2015.
+
+``event`` **Member Fields**:
+
+The ``microsoft.office.mix.paused`` events include the following ``event``
+member field. This field serves the same purpose for events of this type as
+for the ``microsoft.office.mix.loaded`` events.
+
+* ``url``
+
+The following additional ``event`` member fields apply specifically to
+``microsoft.office.mix.paused`` events.
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+   * - ``current_slide``
+     - number
+     - The slide presented to the user when the user chose to pause the mix.
+   * - ``current_time``
+     - number
+     - The relative time in the video, in seconds, when the user chose to pause
+       the mix.
+
+
+``microsoft.office.mix.played``
+============================================
+
+The server emits a ``microsoft.office.mix.played`` event when a user selects
+**play** for an Office Mix.
+
+**Event Source**: Server
+
+**History**: Added 1 Dec 2015.
+
+``event`` **Member Fields**:
+
+The ``microsoft.office.mix.played`` events include the following ``event``
+member fields. These fields serve the same purpose for events of this type as
+for the ``microsoft.office.mix.paused`` events.
+
+* ``current_slide``
+* ``current_time``
+* ``url``
+
+
+``microsoft.office.mix.slide.loaded``
+============================================
+
+The server emits a ``microsoft.office.mix.slide.loaded`` event each time the
+Office Mix player changes the slide that is presented to the user.
+
+``event`` **Member Fields**:
+
+The ``microsoft.office.mix.slide.loaded`` events include the following
+``event`` member field. This field serves the same purpose for events of this
+type as for the ``microsoft.office.mix.loaded`` events.
+
+* ``url``
+
+The following additional ``event`` member field applies specifically to
+``microsoft.office.mix.slide.loaded`` events.
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+   * - ``slide``
+     - number
+     - The slide presented to the user.
+
+
+``microsoft.office.mix.stopped``
+============================================
+
+The server emits an ``microsoft.office.mix.stopped`` event when the Office Mix
+player reaches the end of a mix and automatically stops.
+
+**Event Source**: Server
+
+**History**: Added 1 Dec 2015.
+
+``event`` **Member Fields**:
+
+The ``microsoft.office.mix.stopped`` events include the following ``event``
+member field. This field serves the same purpose for events of this type as for
+the ``microsoft.office.mix.loaded`` events.
+
+* ``url``
 
 
 .. _AB_Event_Types:

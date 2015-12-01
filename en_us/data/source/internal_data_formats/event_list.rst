@@ -221,6 +221,16 @@ M, N, O
 
    * - Event
      - Description
+   * - ``microsoft.office.mix.loaded``
+     - :ref:`content`
+   * - ``microsoft.office.mix.paused``
+     - :ref:`content`
+   * - ``microsoft.office.mix.played``
+     - :ref:`content`
+   * - ``microsoft.office.mix.slide.loaded``
+     - :ref:`content`
+   * - ``microsoft.office.mix.stopped``
+     - :ref:`content`
    * - ``openassessmentblock.create_submission``
      - :ref:`ora2`
    * - ``openassessmentblock.get_peer_submission``
