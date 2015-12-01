@@ -20,6 +20,9 @@ October-December 2015
    * -
      - Added new events for interactions with :ref:`Office Mixes<content>` to
        the Events in the Tracking Logs section.
+   * -
+     - Updated events in the :ref:`ora2` topic to reflect the addition of file
+       types other than images.
    * - 23 Nov 2015
      - Updated the :ref:`Tracking Logs` section and the :ref:`event_list` to
        correct the names of several events.
