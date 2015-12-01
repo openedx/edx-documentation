@@ -8,6 +8,9 @@ Change Log
 
    * - Date
      - Change
+   * - 1 December 2015
+     - Added the :ref:`Configuring ORA2 to Prohibit Submission of File Types`
+       section.
    * - 20 November 2015
      - Updated the manual command that can be used to :ref:`test an enabled
        SAML provider<Test an Enabled SAML Provider>`.
@@ -79,3 +82,4 @@ Change Log
      - The initial release of this guide, with the sections :ref:`Installing
        the Open edX Developer Stack` and :ref:`Running the Open edX Developer
        Stack`.
+
