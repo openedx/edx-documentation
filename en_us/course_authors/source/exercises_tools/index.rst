@@ -43,6 +43,7 @@ Course Content Index`.
    multiple_choice
    mult_choice_num_input
    numerical_input
+   office_mix
    open_response_assessments/index
    oppia
    periodic_table

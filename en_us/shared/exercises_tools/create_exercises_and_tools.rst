@@ -128,6 +128,10 @@ General Exercises and Tools
      - LTI components allow you to add an external learning application or non-
        PDF textbook to Studio.
      - Full support
+   * - :ref:`Office Mix Tool`
+     - You can embed interactive lessons created from PowerPoint files so that
+       learners can experience them directly in the courseware.
+     - Full support
    * - :ref:`Open Response Assessments 2`
      - In open response assessments, students receive feedback on written
        responses of varying lengths as well as image files that the students
