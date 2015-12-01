@@ -42,7 +42,7 @@ specific grade that learners must receive to earn credit for your course.
    Credit-Eligible Grade** box. This grade must be greater than or equal to
    the passing grade for the course.
 
-For more information about grading, see :ref:`Establish a Grading Policy`.
+For more information about grading, see :ref:`Grading Index`.
 
 
 .. _Add Identity Checks:
