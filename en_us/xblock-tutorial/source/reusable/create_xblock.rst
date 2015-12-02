@@ -11,7 +11,7 @@ follow these steps at a command prompt.
    
    .. code-block:: bash
 
-      (venv) $ xblock-sdk/script/startnew.py
+      (venv) $ xblock-sdk/bin/workbench-make-xblock
 
    Instructions in the command window instruct you to determine a short name
    and a class name. Follow the guidelines in the command window to determine

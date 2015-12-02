@@ -12,6 +12,8 @@ June 2015
 
    * - Date
      - Change
+   * - 2 December 2015
+     - Corrected some details of using the SDK to create a new XBlock.
    * - 21 July 2015
      - Initial release of tutorial. 
        
