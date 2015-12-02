@@ -16,6 +16,7 @@ edX Learner's Guide
    SFD_credit_courses/index
    SFD_licensing
    SFD_video_player
+   SFD_bookmarks
    SFD_google_docs
    SFD_certificates
    SFD_mobile
