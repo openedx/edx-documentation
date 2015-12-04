@@ -111,7 +111,24 @@ instead::
     message = _("Welcome!")
 
 "Translators" comments will work in these places too, so don't be shy about
-providing clarifying comments to the translators.
+providing clarifying comments to the translators. When writing translators
+comments though, beware of a quirk in the Python parser: the message string
+has to be on the very next line after the comment.  This won't do what you
+want::
+
+    # Translators: this comment won't be properly harvested!
+    message = _(
+        "Long message "
+        "on a few lines."
+    )
+
+Do this instead::
+
+    message = _(
+        # Translators: this comment will be properly harvested!
+        "Long message "
+        "on a few lines."
+    )
 
 
 Django template files
