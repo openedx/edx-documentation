@@ -39,7 +39,7 @@ To enable content experiments in your course, you add ``split_test`` to the
    .. code-block:: json
 
      [
-       "lti",
+       "lti_consumer",
        "word_cloud",
        "split_test"
      ]
