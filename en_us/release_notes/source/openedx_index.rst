@@ -12,6 +12,12 @@ The following information describes what is new in Open edX.
 
 
 ******************
+8 December 2015
+******************
+
+.. include:: 2015/openedx/openedx_1208_2015.rst
+
+******************
 1 December 2015
 ******************
 
