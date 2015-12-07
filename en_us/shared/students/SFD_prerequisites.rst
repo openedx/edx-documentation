@@ -17,7 +17,7 @@ Overview of Prerequisites
 
 Some edX courses require that you have a particular set of skills or knowledge
 before you begin the course. Many courses include information about these
-general requirements on their About page.
+general requirements on their **About** pages.
 
 In addition to requiring general skills and knowledge, some courses require
 learners to pass a specific prerequisite edX course or pass an entrance exam.
@@ -29,7 +29,7 @@ Prerequisite edX Course
 **************************
 
 When a course has a prerequisite edX course, you can see information about the
-prerequisite course on the About page for the course that you want to take.
+prerequisite course on the **About** page for the course that you want to take.
 
 .. image:: ../../shared/students/Images/PrereqAboutPage.png
   :width: 500
@@ -46,7 +46,7 @@ prerequisite course, as well as a link to that course.
   :alt: The Student Dashboard with an available course and a course that is
       unavailable because it has a prerequisite.
 
-When you select the link, the About page for the prerequisite course opens.
+When you select the link, the **About** page for the prerequisite course opens.
 You can then enroll in the prerequisite course.
 
 After you successfully complete the prerequisite course, the other course
