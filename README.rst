@@ -2,15 +2,18 @@
 EdX Documentation
 ###################
 
-The edx-documentation repo contains source files for most of the documentation
-for edX partners and the Open edX community. This repo is managed by the edX
-Documentation team.
+The edx-documentation repository contains source files for most of the
+documentation for edX partners and the Open edX community. This repo is managed
+by the edX Documentation team.
 
-API documentation that includes docstrings from code files is stored in the
-repository of that module.
+* API documentation that includes docstrings from code files is stored in the
+  repository of that module.
+
+* Documentation source files for Insights is in the edx-analytics-dashboard
+  repository.
 
 Documentation for developers, researchers, course staff, and students is
-located in the language-specific subdirectories. 
+located in the language-specific subdirectories.
 
 ******************************
 View Published Documentation
@@ -38,7 +41,7 @@ Contribute to edX Documentation
 
 You, the user community, can help update and revise edX documentation.
 
-EdX documentation is created using `RST`_ files and `Sphinx`_.
+EdX documentation is published from `RST`_ source files using `Sphinx`_.
 
 .. _RST: http://docutils.sourceforge.net/rst.html
 .. _Sphinx: http://sphinx-doc.org
@@ -52,25 +55,40 @@ Flow`_.
 All pull requests need approval from edX. For more information, contact edX at
 docs@edx.org.
 
-Before submitting a pull request, it is recommend you run the test suite on
-your contribution to ensure it can be compiled without errors.
+============================================
+Supplying Information with a Pull Request
+============================================
 
-To run a test compilation of a contribution, first install the prerequisites:
+The edX documentation team created a `template`_ for pull request descriptions
+that you are encouraged to use. You can find it on the team wiki.
+
+.. _template: https://openedx.atlassian.net/wiki/display/DOC/Doc+Team+Pull+Request+Template
+
+======================
+Testing a Contribution
+======================
+
+Before submitting a pull request, it is recommended you run the test suite on
+your contribution to ensure it can be compiled into HTML format without errors.
+
+To run a test compilation of a contribution, first install the prerequisites.
 
 .. code::
-  
+
   pip install -r shared/travis_requirements.txt
 
-Then run the tests:
+Then run the tests.
 
 .. code::
 
   ./run_tests.sh
 
-Additionally, you can run tests for a single project:
+Additionally, you can run tests for a single project. For example, to build an
+HTML version of the *Installing, Configuring, and Running the Open edX
+Platform* guide, you run this test.
 
 .. code::
-  
+
   ./run_tests.sh en_us/install_operations/
 
 A convenience script is provided to help you develop new documentation. To use
@@ -81,7 +99,7 @@ it you must first install the optional tools, and then run the script.
   pip install -r shared/tools.txt
   ./develop.sh en_us/install_operations/
 
-It will output a line of text that looks like this:
+It will output a line of text that looks like this.
 
 ::
 
