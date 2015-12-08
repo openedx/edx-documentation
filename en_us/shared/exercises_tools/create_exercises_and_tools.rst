@@ -22,6 +22,7 @@ future.
   :local:
   :depth: 1
 
+
 ************************************
 Introduction to Exercises and Tools
 ************************************
@@ -53,6 +54,8 @@ can use in an XML editor are also provided.
    Accessible labels generally include the text of the main question in your
    problem. Instructions for adding labels appear in the page for each
    individual problem.
+
+.. _General Exercises and Tools:
 
 ****************************
 General Exercises and Tools
@@ -252,7 +255,7 @@ Multiple Choice Exercises and Tools
        don't appear until the student clicks the drop-down arrow, answer
        choices for multiple choice problems are always visible directly below
        the question.
-     - Full support; mobile-ready  
+     - Full support; mobile-ready
    * - :ref:`Multiple Choice and Numerical Input`
      - You can create a problem that combines a multiple choice and numerical
        input problems. Students not only select a response from options that
@@ -314,7 +317,7 @@ STEM Exercises and Tools
        integers and a few select constants. You can specify a margin of error,
        and you can specify a correct answer either explicitly or by using a
        Python script.
-     - Full support; mobile-ready  
+     - Full support; mobile-ready
    * - :ref:`Periodic Table`
      - An interactive periodic table of the elements shows detailed information
        about each element as the student moves the mouse over the element.
