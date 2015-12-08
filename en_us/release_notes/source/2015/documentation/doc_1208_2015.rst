@@ -9,9 +9,8 @@ Building and Running an edX Course
   (``lti_consumer``) and about configuring the way that LTI components launch to
   the :ref:`partnercoursestaff:LTI Component` topic.
 
-* Added "mobile-ready" to the **Support** column in the
-  :ref:`partnercoursestaff:General Exercises and Tools` topic to indicate
-  exercises and tools that are supported in the edX mobile apps.
+* Added "mobile-ready" to the **Support** column in the table of exercises and
+  tools in the :ref:`partnercoursestaff:Create Exercises` section.
 
 ==================================
 Documentation for Open edX Users
