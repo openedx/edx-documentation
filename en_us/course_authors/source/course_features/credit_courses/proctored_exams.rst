@@ -521,7 +521,7 @@ Viewing Proctored Session Results
 =================================
 
 At any time after learners have taken the proctored exam in your course, you
-can download a .CSV file that displays the status of the proctoring session
+can download a .csv file that displays the status of the proctoring session
 for participating learners.
 
 .. note:: The Proctored Session Results report only shows the result of
@@ -582,7 +582,7 @@ steps.
 Understanding the Proctored Session Results File
 =================================================
 
-The .CSV file that you can download to view the status and results of
+The .csv file that you can download to view the status and results of
 learners' proctoring sessions contains the following fields.
 
 
@@ -592,21 +592,25 @@ learners' proctoring sessions contains the following fields.
 
    * - Column
      - Description
-   * - User/Email
+   * - user_email
      - The username or email address that identifies the learner taking the
        proctored exam.
-   * - Exam Name
+   * - exam_name
      - The name of the proctored exam in the courseware.
-   * - Allowed Time
+   * - attempt_code
+     - An identifier for the exam attempt. The attempt code is an
+       internal identifier and is included in the report for use in
+       troubleshooting.
+   * - allowed_time_limit_mins
      - The amount of time in minutes that this learner was allotted for
        completing the exam.
-   * - Is Sample Attempt
+   * - is_sample_attempt
      - Indicates whether this exam attempt was for a practice exam.
-   * - Started At
+   * - started_at
      - The date and time that the learner started to take the proctored exam.
-   * - Completed At
+   * - completed_at
      - The date and time that the learner submitted the proctored exam.
-   * - Status
+   * - status
      - The status of the proctoring session review. Possible values are
        ``created``, ``ready to start``, ``started``, ``timed out``,
        ``completed``, ``submitted``, ``verified``, ``rejected``, and
