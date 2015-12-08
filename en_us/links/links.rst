@@ -358,3 +358,10 @@
 
 .. _Certificates Blog: http://blog.edx.org/news-about-edx-certificates?track=blog
 
+.. _News About edX Certificates: http://blog.edx.org/news-about-edx-certificates?track=blog
+
+.. _edX course catalog: https://www.edx.org/course-list/allschools/verified/allcourses`
+
+.. _Verified Certificates: https://www.edx.org/verified-certificate
+
+.. _XSeries Programs: https://www.edx.org/xseries

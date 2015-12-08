@@ -15,8 +15,6 @@ For more information, see the following topics.
 * :ref:`SFD Dashboard Settings Profile` - Provides an overview of the learner
   dashboard and includes information about how to change account settings and
   create a profile.
-* :ref:`SFD Enrolling in a Course` - Describes how to enroll in a course,
-  including how to verify your identity for a verified course.
 * :ref:`Course and Video Licenses` - Explains the different kinds of licenses
   that may apply to your course.
 * :ref:`SFD Search` - Describes how to search content inside your course.

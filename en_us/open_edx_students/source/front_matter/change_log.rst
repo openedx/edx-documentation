@@ -12,6 +12,8 @@ December 2015
 
    * - Date
      - Change
+   * - 8 Dec 2015
+     - Updated the :ref:`Certificates` section.
    * - 1 Dec 2015
      - Added information about uploading additional file types to the
        :ref:`Submit a File with Your Response` topic.
