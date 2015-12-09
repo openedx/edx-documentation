@@ -90,6 +90,7 @@ for project in "${projects[@]}"; do
     fi
 
     if [ $num_warnings -gt 0 ]; then
+        project_build_status=1
         SPHINX_WARNINGS=$((SPHINX_WARNINGS + num_warnings))
     fi
 
@@ -106,7 +107,7 @@ echo OTHER BUILD ERRORS: $BUILD_ERRORS
 
 EXIT_STATUS=0
 if [ ${#FAILED_BUILDS[@]} -gt 0 ]; then
-    echo "There were errors while building the following projects:"
+    echo "There were problems while building the following projects:"
     for project in "${FAILED_BUILDS[@]}"; do
         echo $project
     done
