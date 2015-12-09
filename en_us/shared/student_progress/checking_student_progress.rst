@@ -65,11 +65,6 @@ these steps.
   For information about how learners request certificates, see
   :ref:`learners:SFD On Demand Certificates`.
 
-.. only:: Open_edX
-
-  For information about how learners request certificates, see
-  :ref:`openlearners:SFD On Demand Certificates`.
-
 .. note:: If you do not allow learners to request certificates, you must
   `generate certificates`_.
 
