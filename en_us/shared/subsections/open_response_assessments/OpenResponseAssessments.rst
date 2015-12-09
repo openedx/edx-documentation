@@ -283,7 +283,7 @@ Rubrics consist of *criteria* and *options*.
 
 * Each option has a *name*, an *explanation*, and a *point value*.
 
-  .. image:: ../../../../shared/Images/PA_Rubric_LMS.png
+  .. image:: ../../../../shared/images/PA_Rubric_LMS.png
      :alt: Image of a rubric in the LMS with call-outs for the criterion prompt
          and option names, explanations, and points.
 
@@ -645,7 +645,7 @@ scores for those responses. The **Top Responses** section appears below the
 learner's score information after the learner finishes every step in the
 assignment.
 
-.. image:: ../../../../shared/Images/PA_TopResponses.png
+.. image:: ../../../../shared/images/PA_TopResponses.png
    :alt: Section that shows the text and scores of the top three responses for
        the assignment.
    :width: 500
