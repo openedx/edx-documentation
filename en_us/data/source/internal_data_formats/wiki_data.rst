@@ -4,32 +4,47 @@
 Wiki Data
 ##############################
 
-The following sections detail how edX stores wiki data internally, and is useful for developers and researchers who are examining database exports. 
+The following topics describe how edX stores wiki data internally, and is
+useful for developers and researchers who are examining database exports.
 
-EdX currently uses an external application called django-wiki for wiki functionality within courses. 
+.. contents::
+  :local:
+  :depth: 1
 
-In the data package, wiki data is delivered in two SQL files: 
+EdX currently uses an external application called django-wiki for wiki
+functionality within courses.
 
-* The wiki_article file is a container for each article that is added to the wiki. The full name of this file also includes the organization and course, and indicates a source of either prod (edX) or edge, in this format: edX-*organization*-*course*-wiki_article-*source*-analytics.sql. 
+In the data package, wiki data is delivered in two .sql files.
 
-* The wiki_articlerevision file stores data about the articles, including data about changes and deletions. The full name of this file is in this format: edX-*organization*-*course*-wiki_articlerevision-*source*-analytics.sql.
+* The wiki_article file is a container for each article that is added to the
+  wiki. The full name of this file also includes the organization and course,
+  and indicates a source of either prod (edX) or edge, in this format:
+  ``{org}-{course}-{date}-wiki_article-{site}-analytics.sql``.
+
+* The wiki_articlerevision file stores data about the articles, including data
+  about changes and deletions. The full name of this file is in this format:
+  ``{org}-{course}-{date}-wiki_articlerevision-{site}-analytics.sql``.
+
+The same :ref:`conventions<Conventions>` apply to wiki data as to student data.
 
 .. _wiki_article:
 
-***********************************
-Fields in the wiki_article file
-***********************************
+************************************
+Fields in the ``wiki_article`` File
+************************************
 
-The header row of the wiki_article SQL file, and a row of sample data, follow.
+The header row of the ``wiki_article`` SQL file, and a row of sample data,
+follow.
 
 .. code-block:: json
 
-    id  current_revision_id created modified  owner_id  group_id  group_read  group_write 
+    id  current_revision_id created modified  owner_id  group_id  group_read  group_write
     other_read  other_write
 
-    1437  29819 2013-07-17 21:53:57 2014-01-26 14:48:02 NULL  NULL  1 1 1 1 
+    1437  29819 2013-07-17 21:53:57 2014-01-26 14:48:02 NULL  NULL  1 1 1 1
 
-The table that follows provides a reference to each field in this file. A description of each field follows the table.
+The table that follows provides a reference to each field in this file. A
+description of each field follows the table.
 
 +-----------------------+--------------------+--------------+--------------+
 | Field                 | Type               | Null         | Key          |
@@ -57,8 +72,8 @@ The table that follows provides a reference to each field in this file. A descri
 
 id
 ----
-  The primary key. 
-  
+  The primary key.
+
 current_revision_id
 ------------------------------
    The ID of the revision that displays for this article.
@@ -70,16 +85,16 @@ created
 modified
 ------------
     The date the article properties were last modified.
-    
+
 owner_id
 ------------
     The owner of the article, usually the creator. The owner always has both read and write access.
-    
+
 group_id
 ------------
-    As in a UNIX file system, permissions can be given to a user according to group membership. 
+    As in a UNIX file system, permissions can be given to a user according to group membership.
     Groups are handled through the Django authentication system.
-    
+
 group_read
 ------------
     Defines whether the group has read access to the article. 1 if so, 0 if not.
@@ -98,21 +113,23 @@ other_write
 
 .. _wiki_articlerevision:
 
-******************************************************
-Fields in the wiki_articlerevision file 
-******************************************************
+*************************************************
+Fields in the ``wiki_articlerevision`` File
+*************************************************
 
-The header row of the wiki_articlerevision SQL file, and a row of sample data, follow.
+The header row of the ``wiki_articlerevision`` SQL file, and a row of sample
+data, follow.
 
 .. code-block:: json
 
-    id  revision_number user_message  automatic_log ip_address  user_id modified  created 
+    id  revision_number user_message  automatic_log ip_address  user_id modified  created
     previous_revision_id  deleted locked  article_id  content title
-    
-    17553 1 Course page automatically created.    NULL  NULL  2013-07-17 21:53:57 2013-07-17 
+
+    17553 1 Course page automatically created.    NULL  NULL  2013-07-17 21:53:57 2013-07-17
     21:53:57 NULL  0 0 1437  This is the wiki for edX's edX Demonstration Course.  DemoX
 
-The table that follows provides a reference to the characteristics of each field in this file. Descriptions of the fields follow the table. 
+The table that follows provides a reference to the characteristics of each
+field in this file. Descriptions of the fields follow the table.
 
 .. list-table::
      :widths: 15 15 10 10
@@ -123,13 +140,13 @@ The table that follows provides a reference to the characteristics of each field
        - Null
        - Key
      * - id
-       - int(11) 
+       - int(11)
        - NO
        - PRI
      * - revision_number
        - int(11)
        - NO
-       - 
+       -
      * - user_message
        - longtext
        - NO
@@ -141,7 +158,7 @@ The table that follows provides a reference to the characteristics of each field
      * - ip_address
        - char(15)
        - YES
-       - 
+       -
      * - user_id
        - int(11)
        - YES
@@ -149,11 +166,11 @@ The table that follows provides a reference to the characteristics of each field
      * - modified
        - datetime
        - NO
-       - 
+       -
      * - created
        - datetime
        - NO
-       - 
+       -
      * - previous_revision_id
        - int(11)
        - YES
@@ -161,11 +178,11 @@ The table that follows provides a reference to the characteristics of each field
      * - deleted
        - tinyint(1)
        - NO
-       - 
+       -
      * - locked
        - tinyint(1)
        - NO
-       - 
+       -
      * - article_id
        - int(11)
        - NO
@@ -173,15 +190,15 @@ The table that follows provides a reference to the characteristics of each field
      * - content
        - longtext
        - NO
-       - 
+       -
      * - title
        - varchar(512)
        - NO
-       - 
-     
+       -
+
 id
 ----
-   The primary key. 
+   The primary key.
 
 revision_number
 --------------------
@@ -206,7 +223,7 @@ user_id
 modified
 ------------
     The date the article was last modified.
-    
+
 created
 ------------
     The date the article was created.
@@ -222,7 +239,7 @@ deleted
 locked
 ------------
     Defines whether the revision is locked.
-    
+
 article_id
 --------------------
    The ID of the revision that displays data for this article.
@@ -230,9 +247,7 @@ article_id
 content
 ------------
     The content of the article revision.
-    
+
 title
 ----------
    The title of the article revision.
-
-

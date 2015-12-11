@@ -5,28 +5,48 @@ Student Info and Progress Data
 ##############################
 
 The following sections detail how edX stores stateful data for students
-internally, and is useful for developers and researchers who are examining
-database exports.
+internally. This information can be useful for developers and researchers who
+are examining database exports.
 
 .. contents::
   :local:
   :depth: 1
 
-Data for students is presented in these categories.
+EdX also uses the Django Python Web framework. Tables that are built into the
+Django Web framework are documented here only if they are used in
+unconventional ways.
+
+.. _Conventions:
 
 ***************
 Conventions
 ***************
 
-* EdX uses MySQL 5.1 relational database system with InnoDb storage engine.
-* All strings are stored as UTF-8.
-* All datetimes are stored as UTC (Coordinated Universal Time).
-* The .sql files in edX data packages are tab separated.
+EdX uses MySQL 5.1 relational database system with InnoDb storage engine.
 
-.. note::
-     EdX also uses the Django Python Web framework. Tables that are built into
-     the Django Web framework are documented here only if they are used in
-     unconventional ways.
+The following conventions apply to most of the .sql output files. The exception
+is the ``courseware_studentmodule`` table, which is created by a different
+process than the other edX SQL tables.
+
+* Output files are stored as UTF-8.
+
+* Datetimes are stored as UTC (Coordinated Universal Time), and appear without
+  trailing zeros.
+
+* The .sql files are tab separated. Embedded tabs are replaced by the two
+  character sequence ``\t``.
+
+* Records are delimited by newlines. Embedded newlines are replaced by the two
+  character sequence ``\n``.
+
+* Embedded carriage returns are replaced by the two character sequence ``\r``.
+
+* Backslash characters (``\``) are escaped as ``\\``.
+
+ .. note:: The ``submission`` table for open response assessments stores raw
+  text that is JSON encoded. When the last four of these conventions are
+  applied to the ``submission.raw_answer`` column, the result is doubly encoded
+  values.
 
 Descriptions of the tables and columns that store student data follow, first
 in summary form with field types and constraints, and then with a detailed
@@ -58,7 +78,8 @@ Type
      * - smallint
        - 2 byte integer, sometimes used for enumerated values.
      * - tinyint
-       - 1 byte integer, usually used to indicate a Boolean with 0 = False and 1 = True.
+       - 1 byte integer, usually used to indicate a Boolean with 0 = False and
+         1 = True.
      * - varchar
        - String, typically short and indexable. The length is the number of
          chars, not bytes, to support multi-byte character sets.
@@ -662,7 +683,7 @@ allow_certificate
 ----------------------
 country
 ----------------------
-  Stores a two-digit country code based on the selection made by the student
+  Stores a two digit country code based on the selection made by the student
   during registration. Set to an empty string for students who do not select a
   country.
 
@@ -695,9 +716,9 @@ profile_image_uploaded_at
 
 .. _student_courseenrollment:
 
-==================================================
+=================================================
 Columns in the ``student_courseenrollment`` Table
-==================================================
+=================================================
 
 A row in this table represents a student's enrollment for a particular course
 run.
@@ -1389,6 +1410,11 @@ The ``courseware_studentmodule`` table has the following columns.
 +-------------+--------------+------+-----+---------+----------------+
 | course_id   | varchar(255) | NO   | MUL | NULL    |                |
 +-------------+--------------+------+-----+---------+----------------+
+
+.. note:: The output in the ``courseware_studentmodule`` table is the result
+ of a different process than the other SQL tables in the edX data packages. As
+ a result, not all of the data :ref:`conventions<Conventions>` apply to this
+ table.
 
 ----
 id
