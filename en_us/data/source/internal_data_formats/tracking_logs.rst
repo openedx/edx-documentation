@@ -3047,6 +3047,8 @@ fields as :ref:`edx.forum.thread.voted` events. The following member fields
 serve the same purpose for votes on a response as they do for votes on a
 thread.
 
+* ``category_id``
+* ``category_name``
 * ``commentable_id``
 * ``id``
 * ``target_username``
@@ -3168,16 +3170,18 @@ complete, the server emits an ``edx.forum.thread.created`` event.
      - Identifier for the specific discussion component or top-level,
        course-wide discussion.
 
-       Also present for ``edx.forum.response.created`` and
-       ``edx.forum.comment.created`` events.
+       Also present for ``edx.forum.response.created``,
+       ``edx.forum.comment.created``, ``edx.forum.response.voted``, and
+       ``edx.forum.thread.voted``  events.
 
    * - ``category_name``
      - string
      - The display name for the specific discussion component or top-level,
        course-wide discussion.
 
-       Also present for ``edx.forum.response.created`` and
-       ``edx.forum.comment.created`` events.
+       Also present for ``edx.forum.response.created``,
+       ``edx.forum.comment.created``, ``edx.forum.response.voted``, and
+       ``edx.forum.thread.voted``  events.
 
    * - ``commentable_id``
      - string
@@ -3282,6 +3286,8 @@ member fields that are described for :ref:`forum_thread` events. The following
 member fields serve the same purpose for votes on a thread as they do for
 thread creation.
 
+* ``category_id``
+* ``category_name``
 * ``commentable_id``
 * ``id``
 * ``team_id``
