@@ -3347,6 +3347,9 @@ scoring rubric designed by the course team. For more information about open
 response assessments, see :ref:`partnercoursestaff:PA Create an ORA
 Assignment`.
 
+For more information about the SQL tables that store data for open assessment
+problems, see :ref:`ORA2 Data`.
+
 **Component**: Open Response Assessments
 
 **History:** The open response assessment feature was released in August 2014;

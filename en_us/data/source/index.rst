@@ -19,6 +19,7 @@ into their courses and students.
    internal_data_formats/sql_schema.rst
    internal_data_formats/course_structure.rst
    internal_data_formats/discussion_data.rst
+   internal_data_formats/ora2_data.rst
    internal_data_formats/wiki_data.rst
    internal_data_formats/institution_data.rst
    internal_data_formats/event_list.rst

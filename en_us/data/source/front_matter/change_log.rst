@@ -14,6 +14,13 @@ October-December 2015
 
    * - Date
      - Change
+   * - 15 Dec 2015
+     - Added descriptions of the :ref:`open response assessment<ORA2 Data>` and
+       :ref:`course specific anonymized ID<student_anonymoususerid>` SQL tables
+       that are now included in data packages.
+   * -
+     - Updated the :ref:`conventions<Conventions>` for SQL tables to reflect
+       additional data cleaning steps now applied to most .sql output files.
    * - 14 Dec 2015
      - Corrected the events for :ref:`discussion forum<forum_events>` voting to
        include the ``category_id`` and ``category_name`` event member fields.
