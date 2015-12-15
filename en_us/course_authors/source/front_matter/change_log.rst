@@ -22,6 +22,9 @@ December 2015
 
    * - Date
      - Change
+   * - 16 December 2015
+     - Removed the "Use the Course Checklist" topic. This feature is no longer
+       available in Studio.
    * - 1 December 2015
      - Added the :ref:`Office Mix Tool` topic.
    * -

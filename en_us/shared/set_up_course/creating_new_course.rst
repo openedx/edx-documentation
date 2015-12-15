@@ -6,7 +6,7 @@ Creating a New Course
 
 This topic describes how to create a course with Studio.
 
-.. contents:: Section Contents
+.. contents::
   :local:
   :depth: 1
 
@@ -49,7 +49,7 @@ Create a New Course
      characters in the course number.
 
      .. note:: If your course will be open to the world, be sure to include the
-        "x". If it is exclusively an on-campus offering, do not include the "x".*
+        "x". If it is exclusively an on-campus offering, do not include the "x".
 
    * For **Course Run**, enter the term in which your course will run. For
      example, enter 2014SOND or T2_2014. Do not include spaces or special
@@ -88,37 +88,6 @@ team privileges.
 
 To open a course, select the course name. The Studio **Course Outline** page
 appears.
-
-.. _Use the Course Checklist:
-
-************************
-Use the Course Checklist
-************************
-
-You can use a Course Checklist within Studio to help you work through the tasks
-of building a course.
-
-Categories of tasks in the Course Checklist include:
-
-* Getting Started with Studio
-* Draft a Rough Course Outline
-* Explore edX's Support Tools
-* Draft Your Course About Page
-
-From the **Tools** menu, select **Checklists**.
-
-.. image:: ../../../shared/images/checklist.png
-  :width: 600
-  :alt: Image of the course checklist in Studio.
-
-As shown in the example above, for the **Add Course Team Members** task, if you
-hover over a task, a button is displayed that takes you to the page to complete
-that task.
-
-You can expand and collapse the sections of the checklist as needed.
-
-You can check tasks as you complete them. Studio saves your changes
-automatically. Other members of the course team can see your changes.
 
 
 .. _Partner Portal: https://partners.edx.org/edx_zendesk
