@@ -14,6 +14,9 @@ October-December 2015
 
    * - Date
      - Change
+   * - 14 Dec 2015
+     - Corrected the events for :ref:`discussion forum<forum_events>` voting to
+       include the ``category_id`` and ``category_name`` event member fields.
    * - 1 Dec 2015
      - Added new events for :ref:`discussion forum<forum_events>` voting to the
        Events in the Tracking Logs section.
