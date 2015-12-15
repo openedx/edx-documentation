@@ -130,7 +130,7 @@ specifications are recommended but not required.
 Supported Video Formats
 =======================
 
-The edX video player supports videos in .mp4, .webm, .mpeg, and .ogg format.
+The edX video player supports videos in .mp4, .mpeg, .webm, and .ogg format.
 However, to help make sure all standard browsers can play your video, edX
 strongly recommends that you use the **.mp4 format**.
 
@@ -243,7 +243,7 @@ You can use any video backup site that you want. However, keep in mind that the
 site where you post the videos might need to handle high traffic volume.
 
 .. note:: The URL for the video that you post on a third-party site must end
- in .mp4, .webm, .mpeg, or .ogg. (To help make sure all standard browsers can
+ in .mp4, .mpeg, .webm, or .ogg. (To help make sure all standard browsers can
  play your video, edX **strongly** recommends that you use .mp4 format.) EdX
  cannot support videos that you post on sites such as Vimeo.
 
@@ -251,9 +251,8 @@ If you (or your beta testers or learners) encounter an error when you view a
 course video, it might be the result of one of these browser-related problems.
 
 * Verify that the viewer's browser is up to date. For example, some older
-  versions of the Mozilla Firefox browser did not play .mp4 video files, and
-  some older versions of the Firefox browser did not play .webm video files.
-  These problems do not occur in more recent versions of these browsers.
+  versions of the Mozilla Firefox browser did not play .mp4 video files. These
+  problems do not occur in more recent browser versions.
 
   For more information, see `Media formats supported by the HTML audio and
   video elements`_.
@@ -261,7 +260,7 @@ course video, it might be the result of one of these browser-related problems.
 * Verify that file metadata, particularly the MIME type, is correctly set on
   the host site. Internet Explorer 10 browsers do not play videos if the MIME
   type is not set. For example, make sure that the HTTP header ``Content-Type``
-  is set to video/mp4 for an .mp4 file, or to video/webm for a .webm file.
+  is set to video/mp4 for an .mp4 file.
 
   As an example of how you might set metadata on a video backup site, the
   *Console User Guide* for the Amazon Simple Storage Service provides this
@@ -310,7 +309,6 @@ To add a video and its transcript to your course, follow these steps.
       http://youtu.be/OEoXaMPEzfM
       http://www.youtube.com/watch?v=OEoXaMPEzfM
       https://s3.amazonaws.com/edx-course-videos/edx-edx101/EDXSPCPJSP13-G030300.mp4
-      https://s3.amazonaws.com/edx-videos/edx101/video4.webm
 
 .. note:: To be sure that all learners can access a video, you can
     create multiple versions that use different encodings or hosting services.
@@ -445,7 +443,7 @@ The following options appear on the **Advanced** page of the video component.
         at least one non-YouTube URL in the **Video File URLs** field.
     * - **Video File URLs**
       - The URL or URLs where you posted non-YouTube versions of the video.
-        Every URL should end in .mp4, .webm, .mpeg, or .ogg and cannot be a
+        Every URL should end in .mp4, .mpeg, .webm, or .ogg and cannot be a
         YouTube URL. Each learners will be able to view the first listed video
         that is compatible with the his or her computer. To allow learners to
         download these videos, you must set **Video Download Allowed** to

@@ -55,24 +55,26 @@ Create a Discussion Component
    optional **Display Name**, and the **Subcategory** fields.
 
    .. image:: ../../../shared/images/DiscussionComponentEditor.png
-    :alt: An image of the discussion component editor with a category of "Getting Graded" and a subcategory of "Answering More Than Once".
+    :alt: An image of the discussion component editor with a category of
+     "Getting Graded" and a subcategory of "Answering More Than Once".
     :width: 600
 
    The value in the **Display Name** field identifies the discussion in the
    course content. The values in the **Category** and **Subcategory** fields
    are visible to learners in the list of discussion topics on the
-   **Discussion** tab.
+   **Discussion** page.
 
    .. note:: Each **Category**/**Subcategory** pair for the discussion topics
       in your course must be unique.
 
    .. image:: ../../../shared/images/Discussion_category_subcategory.png
-    :alt: A list of discussions with the "Answering More Than Once" topic indented under "Getting Graded".
+    :alt: A list of discussions with the "Answering More Than Once" topic
+     indented under "Getting Graded".
     :width: 400
 
 #. Select **Save**.
 
-.. note:: On the **Discussion** tab, you cannot see category and subcategory
+.. note:: On the **Discussion** page, you cannot see category and subcategory
    names of discussion components that you created until after the course has
    started and the unit is released. For more details about when discussion
    topics are visible, see :ref:`Visibility of Discussion Topics`.
@@ -87,12 +89,13 @@ For learners, the display name for the discussion component appears in the
 learning sequence at the top of the page.
 
 .. image:: ../../../shared/images/DiscussionComponent_LMS_Ribbon.png
- :alt: An image of a unit from a learners's point of view, with the component list showing a discussion component.
+ :alt: An image of a unit from a learners's point of view, with the component
+  list showing a discussion component.
  :width: 600
 
 The discussion space appears under other components in the unit. It does not
 have a label in the body of the unit. Instead, learners see "Show discussion"
-or "Hide discussion" on the left, and a blue **New Post** button on the right.
+or "Hide discussion" on the left, and **New Post** on the right.
 
 In the following example, the discussion component follows video and HTML
 components.
@@ -101,8 +104,8 @@ components.
   :alt: An image of a video component followed by a discussion component.
   :width: 600
 
-In the **Discussion** tab at the top of the page, learners can find the
-category and subcategory of the discussion in the left pane.
+On the **Discussion** page, learners can find the category and subcategory of
+the discussion in the left pane.
 
 .. image:: ../../../shared/images/Discussion_category_subcategory.png
  :alt: An image of the Discussion page from a learner's point of view.
