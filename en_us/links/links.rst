@@ -164,7 +164,7 @@
 
 .. _Open edX Releases Wiki page: https://openedx.atlassian.net/wiki/display/DOC/Open+edX+Releases
 
-.. _Release Pages: https://openedx.atlassian.net/wiki/display/ENG/Release+Pages
+.. _Release Pages: https://openedx.atlassian.net/wiki/pages/viewpage.action?pageId=12550314
 
 .. _Discern: http://code.edx.org/discern/
 
