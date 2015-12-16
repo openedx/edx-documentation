@@ -1,3 +1,5 @@
+.. _i18n:
+
 ######################################
 Internationalization coding guidelines
 ######################################
@@ -167,7 +169,7 @@ in an HTML page, they must be HTML escaped. Our versions of ugettext and
 ungettext escape HTML by default, which means that the HTML 
 tags in the translated string will show up as angle brackets (i.e. not an 
 HTML tag). You can use string formatting to insert HTML into a translated 
-string as follows::
+string.::
 
     <%! from util.markup import HTML, ugettext as _ %>
 
@@ -178,7 +180,7 @@ string as follows::
 
 You can nest the formatting further.  The rule is, any string which is HTML
 should be wrapped in the HTML() function, and any string which is not wrapped
-in HTML() will be escaped as needed to be displayed as regular text::
+in HTML() will be escaped as needed to be displayed as regular text.::
 
     ${_("Click over to {link_start}the home page{link_end}.").format(
             link_start=HTML('<a href="{}">').format(home_page_link),
@@ -186,12 +188,12 @@ in HTML() will be escaped as needed to be displayed as regular text::
         )}
 
 If you have a variable containing HTML, use the ``|n,encode`` filter to insert 
-it into the page without escaping::
+it into the page without escaping.::
 
     ${welcome_html | n,encode}
 
 If you have a variable containing nothing but plain text (i.e. no HTML), use the
-``| h`` filter to escape it and insert it into the page ::
+``| h`` filter to escape it and insert it into the page.::
 
     ${welcome | h}
 
