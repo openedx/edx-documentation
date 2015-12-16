@@ -5,8 +5,8 @@ Formatting and Content Layout
 #############################
 
 For an .rst file that contains examples of the markup used by the
-documentation team, see the 
-edx-documentation/en_us/edx_style_guide/source/Format Cheat 
+documentation team, see the
+edx-documentation/en_us/edx_style_guide/source/Format Cheat
 Sheet.rstnouse file.
 
 .. list-table::
@@ -36,13 +36,13 @@ Sheet.rstnouse file.
 
       For longer examples, such as XML templates, which include text that can
       be translated, use the code block markup and include a comment for
-      translators with explicit instructions. 
+      translators with explicit instructions.
 
       .. Translators: In the following XML code block, do not translate any
       .. text that is between the < > characters.
 
       .. code-block:: xml
-      
+
           <problem display_name="webGLDemo">
           In the image below, click the cone.
 
@@ -73,14 +73,14 @@ Sheet.rstnouse file.
       put it in **bold** like other UI elements.
   * - New term
     - link to glossary definition
-    - 
+    -
     - Add new terms to the glossary. If you want to be sure that people
       understand how you are using the term, provide a link to the glossary
       definition.
   * - UI item
     - **bold**
-    - From the **Tools** menu, select **Checklists**.
-      
+    - From the **Tools** menu, select **Import**.
+
       In the left pane, select **Filter messages like this**.
 
     - A UI item is anything that the user views, clicks, selects, or interacts
@@ -89,22 +89,22 @@ Sheet.rstnouse file.
 
       Translator guidance is that strings in boldface font should be
       translated.
-      
+
   * - User input
     - ``monospace``
     - In the **Show Calculator** field, type ``true``.
     - Follow the same rules as for code samples. The assumption is that values
-      presented in monospace font must be entered exactly as documented, and that translated versions of the value are not acceptable. 
-      
+      presented in monospace font must be entered exactly as documented, and that translated versions of the value are not acceptable.
+
       If the user input value can be translated, add a "Translator:" comment
       to that effect.
-      
+
       Inline if the user input is short (one line); indented if more than one
       line.
 
   * - Variables
-    - Surround with braces ({}). 
-    - 
+    - Surround with braces ({}).
+    -
     - Avoid angle brackets (< >) because rST interprets angle brackets as
       setting off XML examples.
 
