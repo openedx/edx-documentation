@@ -587,7 +587,7 @@ gender
        * - m
          - Male
        * - o
-         - Other
+         - Other/Prefer Not to Say
        * - (blank)
          - User did not specify a gender.
        * - NULL
@@ -642,9 +642,9 @@ level_of_education
        * - el
          - Elementary/primary school.
        * - none
-         - None.
+         - No Formal Education.
        * - other
-         - Other.
+         - Other Education.
        * - (blank)
          - User did not specify level of education.
        * - p_se
