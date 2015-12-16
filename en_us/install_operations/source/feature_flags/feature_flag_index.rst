@@ -121,7 +121,7 @@ platform.
      - TRUE
    * - ENABLE_INSTRUCTOR_LEGACY_DASHBOARD
      - Deprecated
-     - TRUE
+     - FALSE
    * - ENABLE_LMS_MIGRATION
      - Deprecated
      - FALSE
