@@ -3,7 +3,7 @@ Change Log
 ############
 
 ****************
-December 2015
+January 2016
 ****************
 
 .. list-table::
@@ -12,8 +12,9 @@ December 2015
 
    * - Date
      - Change
-   * - 17 December 2015
-     - Use of the Graphical Slider Tool is no longer supported.
+   * - 6 January 2016
+     - Removed the "Graphical Slider Tool" topic. This feature is no longer
+       available.
 
 ****************
 November 2015
