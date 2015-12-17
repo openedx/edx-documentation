@@ -56,7 +56,7 @@ Choosing to Take a Proctored Exam
 =================================
 
 You have the choice to take exams with online proctoring only if you are
-enrolled in the verified track. If you are enrolled in the honor code track,
+enrolled in the verified track. If you are not enrolled in the verified track,
 you see proctored exams as open exams.
 
 .. note:: You do not have to agree to take an exam as a proctored exam; you
@@ -81,9 +81,9 @@ several example problems that you can try to answer. For more information, see
    proctored exam, and make sure your computer and browser version are
    compatible with the online proctoring software.
 
- * :ref:`Online Proctoring Rules`
+* :ref:`Online Proctoring Rules`
 
- * `Proctoring Software System Requirements`_
+* `Proctoring Software System Requirements`_
 
 To satisfy the proctored exam requirement for credit eligibility, you must
 take the exam as a proctored exam and receive a **Satisfactory** result for

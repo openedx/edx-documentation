@@ -23,3 +23,4 @@ edX Learner's Guide
    SFD_ORA
    sfd_discussions/index
    SFD_wiki
+   timed_exams
