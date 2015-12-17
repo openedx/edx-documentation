@@ -8,6 +8,11 @@ The following information describes what is new on edx.org and Edge.
   :local:
   :depth: 1
 
+**************************
+6 January 2016
+**************************
+
+.. include:: 2016/website/website_0106_2016.rst
 
 **************************
 8 December 2015
