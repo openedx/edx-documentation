@@ -3,6 +3,19 @@ Change Log
 ############
 
 ****************
+December 2015
+****************
+
+.. list-table::
+   :widths: 30 70
+   :header-rows: 1
+
+   * - Date
+     - Change
+   * - 17 December 2015
+     - Use of the Graphical Slider Tool is no longer supported.
+
+****************
 November 2015
 ****************
 
