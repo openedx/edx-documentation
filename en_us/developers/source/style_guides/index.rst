@@ -8,3 +8,4 @@ edX Style Guidelines
     :maxdepth: 2
 
     ios
+    python_guidelines
