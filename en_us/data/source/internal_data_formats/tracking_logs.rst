@@ -5235,8 +5235,11 @@ event type also includes the following ``event`` member fields.
        performed.
 
 
-
-.. Commenting out badging events; add back when Badging supported on edx.org
+.. Commenting out badging events; never published
+.. Adding additional fields for badging v2 Dec 2015; leave entire badging events
+.. section commented out until released on edx.org. When we release on edx.org,
+.. update the "History" dates in this section with the release date. (CTong, Dec
+.. 22, 2015)
 
   .. _badging_events:
 
@@ -5255,15 +5258,16 @@ event type also includes the following ``event`` member fields.
        * What the badge represents (for example, course identifier, enrollment mode).
        * Who issued the badge (the issuing organization).
 
-      When learners earn badges, they can download a badge image and share it on
-      social networks or on badge display sites such as Mozilla Backpack. When
-      other parties visit the shared badge links, they can view information that
-      gives evidence of the learner's achievement.
+  When learners earn badges, they can download a badge image and share it on
+  social networks or on badge display sites such as Mozilla Backpack. When
+  other parties visit the shared badge links, they can view information that
+  gives evidence of the learner's achievement.
 
+  **History** These badging events were added xx January 2016.
 
-      * ``edx.badge.assertion.created``
-      * ``edx.badge.assertion.shared``
-      * ``edx.badge.assertion.evidence_visited``
+  * ``edx.badge.assertion.created``
+  * ``edx.badge.assertion.shared``
+  * ``edx.badge.assertion.evidence_visited``
 
 
       ``edx.badge.assertion.created``
@@ -5273,8 +5277,6 @@ event type also includes the following ``event`` member fields.
       achievement, the server emits an ``edx.badge.assertion.created`` event.
 
       **Event Source**: Server
-
-      **History** Added 8 June 2015.
 
       ``event`` **Member Fields**:
 
@@ -5291,20 +5293,42 @@ event type also includes the following ``event`` member fields.
          * - ``assertion_image_url``
            - string
            - The URL of an image file of the badge that includes badge assertion
-             information in the header. These files can serve to verify the user's
-             accomplishment and can be easily shared.
+             information in the header. These files can serve to verify the
+             user's accomplishment and can be easily shared.
          * - ``assertion_json_url``
            - string
-           - The URL of a JSON object containing the badge assertion information.
+           - The URL of a JSON object containing the badge assertion
+             information.
+         * - ``badge_generator``
+           - string
+           - The class name of the badge generator that was used to create the
+             BadgeAssertion object. By default the value is ``BadgrBackend``,
+             unless you create your own badge generator.
+         * - ``badge_name``
+           - string
+           - A descriptive name for the badge.
+         * - ``badge_slug``
+           - string
+           - The unique identifier for the badge, consisting of a combination
+             of the ``slug`` and ``issuing_component`` values in a
+             BadgeClass model.
          * - ``course_id``
            - string
-           - The course associated with this badge.
+           - The course associated with this badge, if applicable. This value is
+             used for badges associated with a single course, such as course
+             completion badges. This value is empty for badges with a scope that
+             is greater than a single course; for example, a badge that is
+             awarded for completing several courses.
          * - ``enrollment_mode``
            - string
-           - The course enrollment mode associated with this badge.
+           - The course enrollment mode associated with this badge, if applicable.
          * - ``issuer``
            - string
            - The URL of the badge issuer's web site.
+         * - ``issuing_component``
+           - string
+           - The software component responsible for issuing this badge. Based on
+             the``issuing_component`` field in the BadgeClass model.
          * - ``user_id``
            - number
            - The numeric ID of the learner who earned this badge.
@@ -5319,8 +5343,6 @@ event type also includes the following ``event`` member fields.
 
       **Event Source**: Browser
 
-      **History** Added 8 June 2015.
-
       ``event`` **Member Fields**:
 
       The ``edx.badge.assertion.shared`` event includes many of the same ``event``
@@ -5332,9 +5354,13 @@ event type also includes the following ``event`` member fields.
       * ``assertion_id``
       * ``assertion_image_url``
       * ``assertion_json_url``
+      * ``badge_generator``
+      * ``badge_name``
+      * ``badge_slug``
       * ``course_id``
       * ``enrollment_mode``
       * ``issuer``
+      * ``issuing_component``
       * ``user_id``
 
 
@@ -5367,8 +5393,6 @@ event type also includes the following ``event`` member fields.
 
       **Event Source**: Browser
 
-      **History** Added 8 June 2015.
-
       ``event`` **Member Fields**:
 
       The ``edx.badge.assertion.evidence_visited`` event includes all of the same
@@ -5380,9 +5404,13 @@ event type also includes the following ``event`` member fields.
       * ``assertion_id``
       * ``assertion_image_url``
       * ``assertion_json_url``
+      * ``badge_generator``
+      * ``badge_name``
+      * ``badge_slug``
       * ``course_id``
       * ``enrollment_mode``
       * ``issuer``
+      * ``issuing_component``
       * ``user_id``
 
 
