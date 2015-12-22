@@ -77,11 +77,6 @@ course content. By default, the course start date and time are set to
 before you intend it to. You must change this setting to the correct date and
 time for your course.
 
-.. note::
-  If your course is configured to issue certificates, you cannot start the
-  course until the required certificates are activated. For more information,
-  see :ref:`Activate a Certificate`.
-
 EdX recommends that you set the start time of your course early in the day,
 generally 00:00 UTC or earlier. Learners often expect the course to be
 available on the start date in their own time zones and try to access course
