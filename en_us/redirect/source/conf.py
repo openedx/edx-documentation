@@ -5,19 +5,19 @@ sys.path.append('../../../')
 
 from shared.conf import *
 
-html_theme = 'edx_theme'
+# html_theme = 'edx_theme'
 
-html_theme_path = ['../../_themes']
+# html_theme_path = ['../../_themes']
 
-html_favicon = '../../_themes/edx_theme/static/css/favicon.ico'
+# html_favicon = '../../_themes/edx_theme/static/css/favicon.ico'
 
-project = u'edX Learner\'s Guide'
+# project = u'edX Learner\'s Guide'
 
 templates_path = ["templates"]
 
-tags.add('Partners')
+# tags.add('Partners')
 
-product = 'Partners'
+# product = 'Partners'
 
-def setup(app):
-    app.add_config_value('product', '', True)
+# def setup(app):
+#     app.add_config_value('product', '', True)
