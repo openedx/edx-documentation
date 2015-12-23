@@ -120,10 +120,10 @@ Know the Rules and Requirements for Online Proctoring
 
 * You must be on certain versions of the Windows or Mac operating systems for
   the proctoring software to work. Check the `Proctoring Software System
-  Requirements <http://clientportal.softwaresecure.com/support/index.php?/Knowledgebase/
-  Article/View/252/0/system-requirements-remote-proctor-now>`_ to make sure you are using
-  a supported operating system version and that your computer meets the minimum system
-  requirements for running the remote åproctoring software.
+  Requirements <http://clientportal.softwaresecure.com/support/index.php?/Knowledgebase/Article/View/252/0/system-requirements-remote-proctor-now>`_
+  to make sure you are using a supported operating system version and that
+  your computer meets the minimum system requirements for running the remote
+  proctoring software.
 
 * You must be using one of the browser versions supported by edX. Check the
   :ref:`list of edX supported browsers <Browsers>` to make sure you are using
@@ -206,7 +206,7 @@ proctoring set up.
 Perform System Checks
 ======================
 
-When you click **install and set up the proctoring software**, the online
+When you select **install and set up the proctoring software**, the online
 proctoring software opens in a new browser window.
 
 Select **Start System Check** to allow the proctoring software to check that
@@ -292,7 +292,7 @@ Read the information, then select **Next**.
 The software will detect any prohibited programs (such as Skype) and will
 prompt you to close them if necessary.
 
-If you encounter any issues, click the **Contact Support** button in the
+If you encounter any issues, select **Contact Support** in the
 proctoring software window to contact technical support.
 
 .. image:: /Images/Proctoring_SS_ContactSupportButton.png
@@ -314,7 +314,7 @@ your full name, and that can be used to confirm your identity.
    eligible to purchase academic credit for the course.
 
 Follow the instructions to hold your card up to the webcam and position it in
-the frame. When you are ready to take the photo, click **Take Photo**.
+the frame. When you are ready to take the photo, select **Take Photo**.
 
 .. image:: /Images/Proctoring_SS_TakeIDPhoto.png
  :width: 600
@@ -325,7 +325,7 @@ Preview and confirm the photo of your ID.
 If you are satisfied that the photo ID picture is clear and legible, select
 the checkbox and select **Confirm Photo ID**.
 
-If you are not satisfied that picture is clear, click **Retake** to try again.
+If you are not satisfied that picture is clear, select **Retake** to try again.
 
 .. image:: /Images/Proctoring_SS_ConfirmIDPhoto.png
  :width: 600

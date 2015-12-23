@@ -61,13 +61,13 @@ Determine the Post Topic
 *************************
 
 Every post in the course discussions has an associated topic. The course team
-creates the list of discussion topics for each course, and you'll choose a
-topic from the list when you create your post. Before you add a post, you
+creates the list of discussion topics for each course, and you choose a
+topic from that list when you create your post. Before you add a post, you
 should look through the list of topics in the course discussions so that you
 can decide which topic is the most appropriate for your post. For more
 information, see :ref:`Explore Posts`.
 
-After you've decided on a post type and topic, you can add your post on the
+After you decide on a post type and topic, you can add your post on the
 **Discussion** page or in the body of the course.
 
 ************************************
@@ -98,7 +98,7 @@ topics on the **Discussion** page.
    images, select the buttons above the text field.
 
 In a few courses, you can add posts, responses, and comments anonymously. If
-this is the case, you'll see a **Post Anonymously** check box under the field
+this is the case, a **Post Anonymously** check box appears under the field
 where you enter your text. When you post anonymously, the discussion moderation
 team can see your username, but other students cannot.
 
@@ -141,7 +141,7 @@ to content-specific discussions.
    field to see options for formatting the text and for adding links or images.
 
 In a few courses, you can add posts, responses, and comments anonymously. If
-this is the case, you'll see a **Post Anonymously** check box under the field
+this is the case, a **Post Anonymously** check box appears under the field
 where you enter your text. When you post anonymously, the discussion moderation
 team can see your username, but other students cannot.
 

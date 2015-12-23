@@ -26,9 +26,9 @@ exam, your course staff will let you know. If you are not told about any
 different proctoring exam rules, make sure you adhere to the "Closed Book
 Exam" rules that are described in the following sections.
 
-Students are responsible for testing their systems with the proctoring
+Learners are responsible for testing their systems with the proctoring
 software well in advance of all online proctored exams in their courses, so
-that any troubleshooting that is required can be accomplished. Students might
+that any troubleshooting that is required can be accomplished. Learners might
 be able to take practice proctored exams in their course, or can refer to the
 free Demo Course on edX.org, where they can experience a sample proctored
 exam.

@@ -20,7 +20,7 @@ before you begin the course. Many courses include information about these
 general requirements on their About page.
 
 In addition to requiring general skills and knowledge, some courses require
-students to pass a specific prerequisite edX course or pass an entrance exam.
+learners to pass a specific prerequisite edX course or pass an entrance exam.
 
 .. _Prerequisite edX Course:
 
@@ -35,7 +35,7 @@ prerequisite course on the About page for the course that you want to take.
   :width: 500
   :alt: A course About page with prerequisite course information circled.
 
-It is possible to enroll in the course even if you haven't taken the
+It is possible to enroll in the course even if you have not taken the
 prerequisite course. When you enroll in the course, the course appears on your
 Student Dashboard. However, you cannot select the course to access the
 course content. Below the name of the course, you can see the name of the
@@ -84,7 +84,7 @@ After you pass the entrance exam, in addition to the message at the top
 of the page, you can see all currently available course sections in the
 left pane, and you can access all available course materials.
 
-The course team can allow students to skip the entrance exam. If a course team
+The course team can allow learners to skip the entrance exam. If a course team
 member allows you to skip the entrance exam, you do not see the entrance exam
 when you access the course.
 
