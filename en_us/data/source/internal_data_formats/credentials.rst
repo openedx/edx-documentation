@@ -8,6 +8,14 @@ EdX transfers course data to the data czars at our partner institutions in
 regularly generated data packages. Data packages can only be accessed by a
 single contact at each university, referred to as the "data czar".
 
+.. contents::
+  :local:
+  :depth: 2
+
+*************************************
+Key Set Up and Exchange Overview
+*************************************
+
 The data czar who is selected at each institution sets up keys for securely
 transferring files from edX to the partner institution. Meanwhile, the
 Analytics team at edX sets up credentials so that the data czar can log in to
@@ -72,7 +80,7 @@ Create Keys: Windows
    presents a series of dialog boxes to collect information from you and
    generate your public key (called a certificate in Kleopatra).
 
-   a. When you are prompted to specify the type of key pair you want, click
+   a. When you are prompted to specify the type of key pair you want, select
       **Create personal OpenPGP key pair**.
 
    b.  When you are prompted for your email address, be sure to enter *your
@@ -86,10 +94,10 @@ Create Keys: Windows
       decrypt your data packages.
 
 3. When Kleopatra presents the **Key Pair Successfully Created** dialog box,
-   click **Send Certificate by EMail** to send the public key (and only the
+   select **Send Certificate by EMail** to send the public key (and only the
    public key) to your edX partner manager.
 
-#. Optionally, click **Make a Backup Copy of Your Key Pair** to store both of
+#. Optionally, select **Make a Backup Copy of Your Key Pair** to store both of
    the keys on a removable data storage device.
 
 .. important:: Do not reveal your passphrase, or share your private key, with
@@ -103,9 +111,9 @@ Create Keys: Macintosh
 =======================
 
 #. Go to the `GPG Tools`_ website. Scroll down to the **GPG Suite** section of
-   the page and click **Download GPG Suite**.
+   the page and select **Download GPG Suite**.
 
-#. When the download is complete, click the .dmg file to begin the
+#. When the download is complete, select the .dmg file to begin the
    installation.
 
    When installation is complete, GPG Keychain Access opens a web page with
@@ -115,14 +123,14 @@ Create Keys: Macintosh
    university or institution email address*. EdX cannot use public keys that
    are based on personal or other non-official email addresses to encrypt data.
 
-#. Click **Generate key**. A dialog box opens to prompt you for a passphrase.
+#. Select **Generate key**. A dialog box opens to prompt you for a passphrase.
 
 #. Enter a strong passphrase. Be sure to select a passphrase that you can
    remember, or use a secure method of retaining it for reuse in the future:
    you use this passphrase when you decrypt your data packages.
 
-#. To send only your public key to your edX partner manager, click the key and
-   then click **Export**. A dialog box opens.
+#. To send only your public key to your edX partner manager, select the key and
+   then select **Export**. A dialog box opens.
 
   a. Specify a file name and location to save the file.
 
@@ -130,7 +138,7 @@ Create Keys: Macintosh
 
   c. Make sure that **Allow secret key export** is cleared.
 
-  When you click **Save**, only the public key is saved in the resulting .asc
+  When you select **Save**, only the public key is saved in the resulting .asc
   file. Do not share your private key with edX or any third party.
 
 7. Compose an e-mail message to your edX partner manager. Attach the .asc
@@ -179,10 +187,10 @@ to decrypt the Amazon S3 credentials file and the files in your data packages.
 
 #. Navigate to the file and right-click it.
 
-#. On a Windows computer, select **Decrypt and verify**, and then click
+#. On a Windows computer, select **Decrypt and verify**, and then select
    **Decrypt/Verify**. Do not change any other setting.
 
-   On a Macintosh, select **Services**, and then click **OpenPGP: Decrypt
+   On a Macintosh, select **Services**, and then select **OpenPGP: Decrypt
    File**.
 
 #. Enter your passphrase. The GNU Privacy Guard program decrypts the file.
