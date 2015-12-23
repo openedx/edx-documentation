@@ -121,21 +121,33 @@ moderators, and others who contribute to the creation and delivery of courses
 on edx.org or edX Edge.
 
 ======================================
-edX101: Overview of Creating a Course
+The edX Learning Series
 ======================================
 
-The `edX101`_ course was built in Studio and is available for enrollment on
-edx.org. This course takes one to two hours to complete, and is designed to
-provide a high-level overview of the course creation and delivery process. It
-also highlights the extensive capabilities of the edX platform.
+The courses in the edX Learning Series provide foundational knowledge about
+using the edX platform. These courses are available on edx.org.
 
-=============================================
+edX101: Overview of Creating a Course
+**************************************
+
+The `edX101`_ course is designed to provide a high-level overview of the course
+creation and delivery process using Studio and the edX LMS. It also highlights
+the extensive capabilities of the edX platform.
+
 StudioX: Creating a Course with edX Studio
-=============================================
+*************************************************
 
 After you complete edX101, `StudioX`_ provides more detail about using Studio
 to create a course, add different types of content, and configure your course
 to provide an optimal on-line learning experience.
+
+VideoX: Creating Video for the edX Platform
+*************************************************
+
+`VideoX`_ presents strategies for creating videos for course content and course
+marketing. The course provides step-by-step instructions for every stage of
+video creation, and includes links to exemplary sample videos created by edX
+partner institutions.
 
 ==============
 Documentation
@@ -154,12 +166,8 @@ Documentation for course teams is available on the `docs.edx.org`_ web page.
   .csv files that course teams can use to gain information about student
   background and activity.
 
-* `edX Release Notes`_ summarize the changes in each new version of deployed
-  software.
-
-* `edX Open Learning XML Guide`_ provides guidelines for building edX courses
-  with Open Learning XML (OLX). Note that this guide is currently an alpha
-  version.
+* The `edX Release Notes`_ summarize the changes in each new version of
+  deployed software.
 
 These guides open in your web browser. The left side of each page includes a
 **Search docs** field and links to the contents of that guide. To open or save
@@ -452,6 +460,7 @@ edX Global Community meetup_ group.
 .. _docs@edx.org: docs@edx.org
 .. _edx101: https://www.edx.org/course/overview-creating-edx-course-edx-edx101#.VIIJbWTF_yM
 .. _StudioX: https://www.edx.org/course/creating-course-edx-studio-edx-studiox#.VRLYIJPF8kR
+.. _VideoX: https://www.edx.org/course/creating-video-edx-platform-edx-videox
 .. _Demo: http://www.edx.org/course/edx/edx-edxdemo101-edx-demo-1038
 .. _edX Partner Support: https://partners.edx.org/edx_zendesk
 .. _edx-code: http://groups.google.com/forum/#!forum/edx-code
