@@ -8,9 +8,9 @@ A data czar is the single representative at a partner institution who has the
 credentials to download and decrypt edX data packages. The data czar is
 responsible for transferring data securely to researchers and other interested
 parties after it is received. Due to the sensitivity of this data, the
-responsibility for these activities is restricted to one individual. 
+responsibility for these activities is restricted to one individual.
 
-.. important:: As a best practice for working with student data, edX strongly 
+.. important:: As a best practice for working with student data, edX strongly
  recommends a single data czar at each partner institution. However, if an
  additional individual is given this responsibility at your institution, be
  sure to work with edX to set up individual credentials for that additional
@@ -19,16 +19,20 @@ responsibility for these activities is restricted to one individual.
 At each partner institution, the data czar is the primary point of contact for
 information about edX data.
 
-* :ref:`Skills_Experience_Data_Czar`
+.. contents::
+   :local:
+   :depth: 2
 
-* :ref:`Resources_Information`
+**************************************
+Data Czars and Research Teams
+**************************************
 
 At some institutions, only the data czar works on research projects that use
 the course data in edX data packages. At other institutions, the data czar
 works with a team of additional contributors, or is responsible only for
 making a secure transfer of the data to the research team. Typically, the data
 team includes members in the following roles (or a data czar with these skill
-sets):
+sets).
 
 * Database administrators work with the SQL and NoSQL data files and write
   queries on the data.
@@ -38,7 +42,7 @@ sets):
 * Educational researchers pose questions and interpret the results of queries
   on the data.
 
-See :ref:`Skills_Experience_Contributors`.
+For more information, see :ref:`Skills_Experience_Contributors`.
 
 All of the individuals who are permitted to access the data should be trained
 in, and comply with, their institution's secure data handling protocols.
@@ -79,7 +83,7 @@ Technical Skills
 
 - Familiarity with SQL and noSQL (Mongo) databases.
 
-- Familiarity with CSV and JSON file formats. 
+- Familiarity with CSV and JSON file formats.
 
 - Experience copying, moving, and storing large files in bulk.
 
@@ -134,7 +138,7 @@ Technical Skills
 
 - Familiarity with CSV, MongoDB, JSON, Unicode, XML, HTML.
 
-- Ability to set up, query, and administer both SQL and noSQL databases. 
+- Ability to set up, query, and administer both SQL and noSQL databases.
 
 - Experience with console/bash scripts.
 
