@@ -97,7 +97,7 @@ follow these guidelines.
 
 * Avoid whitespace.
 
-* Don't use equal signs (=).
+* Do not use equal signs (=).
 
 * Because the system is case-sensitive, make sure you use uppercase and
   lowercase letters carefully.
@@ -113,7 +113,7 @@ For more information about the types of characters you can use, see below.
   alone, while metric affixes must be combined with numbers.
 
   For example, ``c`` can be a constant representing the speed of light or a
-  metric affix meaning "centi". When you use ``c`` as a metric affix, don't
+  metric affix meaning "centi". When you use ``c`` as a metric affix, do not
   include a space between ``c`` and the number. When you use ``c`` as a
   constant, indicate multiplication explicitly. The following examples show the
   difference:
@@ -359,7 +359,7 @@ You can use the following functions.
   * arccoth
 
 * Factorials: Enter factorials as ``fact(3)`` or ``factorial(3)``. You must use
-  integers. For example, you can't enter ``fact(1.5)``.
+  integers. For example, you cannot enter ``fact(1.5)``.
 
 * A "parallel resistors" operator (``||``). For example, ``1 || 2`` represents
   the resistance of a pair of parallel resistors (of resistance 1 and 2 ohms),
