@@ -41,7 +41,7 @@ if on_rtd:
 
 # General information about the project.
 
-copyright = u'2015, edX'
+copyright = u'2016, edX'
 
 # Example configuration for intersphinx: refer to the Python standard library.
 intersphinx_mapping = {
