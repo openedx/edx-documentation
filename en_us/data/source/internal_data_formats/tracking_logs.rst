@@ -204,7 +204,8 @@ information.
 ``context`` Member Fields Common to All Events
 ***********************************************
 
-The following member fields are present in the ``context`` field for all events.
+The following member fields are present in the ``context`` field for all
+events.
 
 .. list-table::
    :widths: 15 15 60
@@ -226,6 +227,11 @@ The following member fields are present in the ``context`` field for all events.
      - number
      - Identifies the individual who is performing the action.
 
+.. note:: Occasionally, an event is recorded with a missing or blank
+ ``context.user_id`` value. This can occur when a user logs out, or the login
+ session times out, while a browser window remains open. Subsequent actions are
+ logged, but the system cannot supply the user identifier. EdX recommends that
+ you ignore these events during analysis.
 
 ``context`` Member Fields for Applicable Events
 ******************************************************
@@ -385,8 +391,13 @@ include a session value.
 
 **Type:** string
 
-**Details:** The username of the user who caused the event to be emitted. This
-string is empty for anonymous events, such as when the user is not logged in.
+**Details:** The username of the user who caused the event to be emitted.
+
+.. note:: Occasionally, an event is recorded with a blank ``username``
+ value. This can occur when a user logs out, or the login session times out,
+ while a browser window remains open. Subsequent actions are logged, but the
+ system cannot supply the user identifier. EdX recommends that you ignore these
+ events during analysis.
 
 .. _Student_Event_Types:
 
