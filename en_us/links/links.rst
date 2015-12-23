@@ -16,6 +16,8 @@
 
 .. _XML file: https://edge.edx.org/auth/saml/metadata.xml
 
+.. _test metadata file: https://courses.stage.edx.org/auth/saml/metadata.xml
+
 .. _edX Demo course: https://www.edx.org/course/edx/edx-edxdemo101-edx-demo-1038
 
 .. _information about open response assessments: https://courses.edx.org/courses/edX/DemoX.1/2014/courseware/70a1e3505d83411bb72393048ac4afd8/1e5cd9f233a2453f83731ccbd863b731/
