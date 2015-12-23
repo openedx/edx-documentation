@@ -11,4 +11,4 @@ html_theme_path = ['../../_themes']
 
 html_favicon = '../../_themes/edx_theme/static/css/favicon.ico'
 
-project = u'edX Documentation Resources'
+project = u'EdX Documentation Resources'

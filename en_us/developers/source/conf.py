@@ -11,6 +11,6 @@ html_theme_path = ['../../_themes']
 
 html_favicon = '../../_themes/edx_theme/static/css/favicon.ico'
 
-project = u'edX Developers Guide'
+project = u'EdX Developer\'s Guide'
 
 exclude_patterns = ['i18n.rst', 'i18n_translators_guide.rst']
