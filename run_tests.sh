@@ -34,11 +34,12 @@ projects=($@)
 if [ ${#projects[@]} -eq 0 ]
 then
     projects=(
-        "en_us/course_authors" 
+        "en_us/course_authors"
         "en_us/data"
         "en_us/developers"
         "en_us/edx_style_guide"
         "en_us/install_operations"
+        "en_us/landing_page"
         "en_us/olx"
         "en_us/open_edx_course_authors"
         "en_us/open_edx_release_notes"
@@ -59,7 +60,7 @@ for project in "${projects[@]}"; do
     err_log_dir=$BASE_DIR/test_root/$project
     err_log_file=$err_log_dir/err.log
     mkdir -p $err_log_dir
-    
+
     # Generate html docs.
     # -w writes warnings and errors to the specified file in
     #    addition to stderr.
@@ -67,7 +68,7 @@ for project in "${projects[@]}"; do
     # -E Don’t use a saved environment (the structure caching all
     #    cross-references), but rebuild it completely.
     make html SPHINXOPTS="-E -n -w $err_log_file"
-    
+
     if [ $? -gt 0 ]; then
         project_build_status=1
         BUILD_ERRORS=$((BUILD_ERRORS + 1))
@@ -78,7 +79,7 @@ for project in "${projects[@]}"; do
 
     num_errors=`echo ${error_log[@]} | grep -o 'ERROR:' | wc -l`
     num_warnings=`echo ${error_log[@]} | grep -o 'WARNING:' | wc -l`
-    
+
     echo SPHINX ERRORS: $num_errors
     echo SPHINX WARNINGS: $num_warnings
     echo
