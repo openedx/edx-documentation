@@ -5,19 +5,6 @@ sys.path.append('../../../')
 
 from shared.conf import *
 
-# html_theme = 'edx_theme'
+def setup(app): app.add_javascript('file.js')
 
-# html_theme_path = ['../../_themes']
-
-# html_favicon = '../../_themes/edx_theme/static/css/favicon.ico'
-
-# project = u'edX Learner\'s Guide'
-
-templates_path = ["templates"]
-
-# tags.add('Partners')
-
-# product = 'Partners'
-
-# def setup(app):
-#     app.add_config_value('product', '', True)
+html_static_path = ['_static/file.js']
