@@ -7,13 +7,11 @@ Enabling Third Party Authentication with edX Edge
 Institutions that have partner memberships with edX can enable third party
 authentication between their campus or institutional authentication systems and
 the edX Edge site. Learners at sites that enable third party authentication can
-use their campus credentials to authenticate into edX Edge. These procedures
-require collaboration between members of the DevOps (development operations) or
-IT teams at your partner institution and edX, facilitated by your edX Partner
-Manager.
+use their campus credentials to authenticate into edX Edge.
 
-.. future: add xref to section that describes complete open edX procedures
-.. Alison 15 Jul 2015
+These procedures require collaboration between members of the DevOps
+(development operations) or IT teams at your partner institution and the
+DevOps team at edX, facilitated by your edX Partner Manager.
 
 .. contents::
    :local:
@@ -33,27 +31,54 @@ institution is an identity provider (IdP) that securely asserts the identity
 and access rights of a set of users. EdX is the service provider (SP) that
 allows the users access on the basis of those credentials.
 
-These procedures should be performed by a member of your institution's IT team
-who is familiar with your institutional Shibboleth system.
+All procedures described in this section should be performed by a member of
+your institution's IT team who is familiar with your institutional Shibboleth
+system. The designated IT contact must have access to test and production
+accounts, and be able to make configuration changes.
 
 =======================================
-Obtain edX Edge SAML Metadata
+Validate Integration
 =======================================
 
-The service provider SAML metadata for Edge is available in an `XML file`_ on
-the Edge website. This file contains the information necessary for interaction
-between Edge as service provider and your campus Shibboleth system as identity
-provider.
+Integrating an institutional IdP with edX Edge requires a preliminary
+validation phase.
+
+#. All procedures are completed between a test Shibboleth account at the
+   partner institution and the edX staging instance ("edX stage").
+
+#. After validation, all procedures are completed between the partner's
+   production system and edX Edge.
+
+Your designated IT contact must set up or identify a Shibboleth test account,
+and securely transmit its credentials to edX, before integration testing can
+begin.
+
+.. note:: The edX DevOps team prefers PGP encryption of account credentials.
+ Other secure methods for transmitting credentials can be accommodated if
+ necessary.
+
+=======================================
+Obtain edX SAML Metadata
+=======================================
+
+During the testing phase, you use a `test metadata file`_ to obtain the
+information necessary for interaction between edX stage and your test account.
+
+When testing is complete, you access the service provider SAML metadata for
+Edge in an `XML file`_ on the Edge website. This file contains the information
+necessary for interaction between Edge as service provider and your campus
+production Shibboleth system as identity provider.
 
 ============================================
-Add edX Edge as a Service Provider
+Add edX as a Service Provider
 ============================================
 
 On your Shibboleth system, use the SAML metadata obtained from the XML file to
-add edX Edge to your whitelist of authorized service providers.
+add edX stage, and then edX Edge, to your whitelist of authorized service
+providers.
 
 For example, you might add the following information to your
-``$IDP_HOME/conf/relying-party.xml`` file.
+``$IDP_HOME/conf/relying-party.xml`` file for edX Edge.
 
 .. code:: xml
 
@@ -121,19 +146,20 @@ currently matriculated students to sign in to Edge, but not alumni. The
 Send Shibboleth Configuration Data to edX
 ======================================================
 
-To complete the integration between your Shibboleth system and Edge, send
-the following information to your institution's edX partner manager.
+To complete the integration between a Shibboleth system and an edX system, you
+send a copy of the assertion document with the following information to your
+institution's edX partner manager.
 
 * Metadata: The URL for your Shibboleth IdP metadata XML file.
-
-* Entity ID: The URI that identifies the Identity Provider. This ID must match
-  the value specified in the metadata XML.
 
 * User Attributes: A list of the values that you want your Shibboleth system to
   assert when users sign in to edX Edge.
 
   For more information about how you can work with edX to configure user
   attributes effectively, see :ref:`Configure User Attributes`.
+
+You send this information for both your test and production accounts so that
+integration can be validated.
 
 Your edX partner manager notifies you when integration with your IdP is
 complete.
