@@ -6,10 +6,6 @@ To access all of the edX guides, visit the `docs.edx.org`_ website.
 
 Links to the most frequently visited edX guides follow.
 
-.. contents::
-  :local:
-  :depth: 1
-
 Have feedback? EdX welcomes your comments on and requests for documentation.
 Just email us at docs@edx.org.
 
