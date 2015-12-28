@@ -193,7 +193,8 @@ more information, see the HTTP/1.1 header field definition for
 The ``context`` field includes member fields that provide contextual
 information.
 
-* This field contains a core set of member fields that are common to all events.
+* This field contains a core set of member fields that are common to all
+  events.
 * For certain events with additional contextual requirements, this field
   contains a set of additional member fields that are common to those events
   only.
@@ -2163,10 +2164,12 @@ information about interactions with problems.
 
 These events were designed for the problem types implemented in the edX
 platform by the ``capa_module.py`` XBlock. Problem types that are implemented
-by other XBlocks, such as :ref:`open response assessments<ora2>`, :ref:`polls
-and surveys<Poll and Survey Events>`, are instrumented with different events.
+by other XBlocks, such as :ref:`open response assessments<ora2>`,
+:ref:`peer instruction assessments<Peer Instruction Events>`, or
+:ref:`polls and surveys<Poll and Survey Events>`, are instrumented with
+different events.
 
-For more information about designing problems to include hints, feedback, or
+For information about designing problems to include hints, feedback, or
 both, see :ref:`partnercoursestaff:Adding Feedback and Hints to a Problem` in
 the *Building and Running an edX Course* guide.
 
@@ -3891,6 +3894,90 @@ before they submit the response.
    * - ``fileType``
      - string
      - The MIME type of the uploaded file. Reported by the learner's browser.
+
+
+.. _Peer Instruction Events:
+
+=============================
+Peer Instruction Events
+=============================
+
+This section describes events emitted by the peer instruction XBlock. The peer
+instruction XBlock presents a multiple choice question and a set of possible
+answer choices. Learners select one of the choices and also explain why they
+selected that choice. After learners submit a response, the XBlock presents a
+set of the answers selected by other learners, and their explanations, for
+review. Learners then have a second opportunity to select an answer and provide
+a revised explanation.
+
+.. contents::
+  :local:
+  :depth: 1
+
+For more information, see :ref:`partnercoursestaff:UBC Peer Instruction`.
+
+**History**: Added 15 Dec 2015.
+
+``ubc.peer_instruction.accessed``
+************************************
+
+The server emits this event when a peer instruction question and its set of
+answer choices is shown to a learner.
+
+**Event Source**: Server
+
+``event`` **Member Fields**: None
+
+
+``ubc.peer_instruction.original_submitted``
+*******************************************
+
+The server emits this event when learners submit their initial responses. These
+events record the answer choice the learner selected and the explanation given
+for why that selection was made.
+
+**Event Source**: Server
+
+``event`` **Member Fields**:
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+   * - ``answer``
+     - integer
+     - The index assigned to the answer choice selected by the learner.
+   * - ``rationale``
+     - string
+     - The text entered by the learner to explain why they selected that
+       answer choice.
+   * - ``truncated``
+     - Boolean
+     - 'true' only if the ``rationale`` was longer than 12,500 characters,
+       which is the maximum included in the event.
+
+
+``ubc.peer_instruction.revised_submitted``
+*******************************************
+
+The server emits this event when learners submit their revised responses. These
+events record the answer choice selected by the learner and the explanation for
+why that selection was made.
+
+**Event Source**: Server
+
+``event`` **Member Fields**:
+
+The ``ubc.peer_instruction.revised_submitted`` events include the following
+``event`` member fields. These fields serve the same purpose for events of this
+type as for ``ubc.peer_instruction.original_submitted`` events.
+
+* ``answer``
+* ``rationale``
+* ``truncated``
 
 
 .. _Poll and Survey Events:
