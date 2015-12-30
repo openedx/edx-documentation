@@ -9,14 +9,9 @@ course by using Studio, and then you add links to the files in the course
 content. You can also use uploaded files in bulk email messages sent from the
 Instructor Dashboard.
 
-* :ref:`File Size`
-* :ref:`Upload a File`
-* :ref:`File URLs`
-* :ref:`Sort Files`
-* :ref:`Filter Files`
-* :ref:`Find Files`
-* :ref:`Lock a File`
-* :ref:`Delete a File`
+.. contents::
+  :local:
+  :depth: 1
 
 .. _File Size:
 
@@ -43,30 +38,28 @@ manager.
 Upload a File
 *******************
 
-You upload the files in Studio on the **Files & Uploads** page.
+You upload files on the **Files & Uploads** page in Studio.
 
 .. note::
  Ensure that you obtain copyright permissions for files and images you upload
  to your course, and that you cite sources appropriately.
 
-To upload files:
+To upload a file, follow these steps.
 
 #. Create or locate the file on your computer.
 
    .. note::
     When URLs are generated for uploaded files, the file name becomes part of
     the URL and is visible to students when they access the file. Avoid using
-    file names that contain information about the file contents that should not
-    be shared, such as ``Answerkey.pdf``.
+    file names that contain information about the file contents that you do not
+    want to share, such as ``Answerkey.pdf``.
 
 #. From the **Content** menu, select **Files & Uploads**.
 
 #. Select **Upload New File**.
 
-#. In the **Upload New File** dialog box, select **Choose File**.
-
-#. In the **Open** dialog box, select one or more files to upload, then select
-   **Open**.
+#. Select **Choose File**, and then select the file or files that you want to
+   upload.
 
    .. note::
       If you upload a file that has the same name as an existing course file,
@@ -75,7 +68,7 @@ To upload files:
 #. To upload additional files, select **Load Another File** and repeat the
    previous step.
 
-#. To close the dialog box, select the **X** in the top right corner.
+   When you are finished, select the **X** to close the window.
 
 The **Files & Uploads** page refreshes to show the uploaded file.
 

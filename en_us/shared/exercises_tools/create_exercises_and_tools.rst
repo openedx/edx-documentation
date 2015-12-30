@@ -146,14 +146,19 @@ General Exercises and Tools
      - You can embed Oppia explorations in your course so that learners can
        interact with them directly in the courseware.
      - Full support
+   * - :ref:`UBC Peer Instruction`
+     - This tool offers the experience of the Peer Instruction learning system
+       within your online course.
+     - Full support
    * - :ref:`Poll Tool`
      - You can include polls in your course to gather learners' opinions on
        various questions. You can use the Poll Tool in Studio.
      - Full support
    * - :ref:`Poll`
      - You can run polls in your course so that your students can share
-       opinions on different questions. You can use this type of poll only in
-       OLX, not Studio.
+       opinions on different questions. You can only add this type of poll to a
+       course by using :ref:`OLX<olx:edX Open Learning XML Guide>`. Support for
+       this tool in Studio is not available.
      - Provisional support
    * - :ref:`Problem with Adaptive Hint`
      - A problem with an adaptive hint evaluates a student's response, then
