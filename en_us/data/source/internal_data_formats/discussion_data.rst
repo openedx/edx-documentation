@@ -266,7 +266,7 @@ course_id
   and run. This value can be seen in the URL when browsing the courseware
   section. Example: ``BerkeleyX/Stat2.1x/2013_Spring``.
 
-.. 12 Feb 14, Sarina: not yet relevant but with splitmongo changes course_id conventions will change. may be worth discussing with Don et al as to when we expect these changes to land and how to document.
+.. 12 Feb 14, Sarina: not yet relevant but with splitmongo changes course_id conventions will change. may be worth discussing with Don et al. as to when we expect these changes to land and how to document.
 
 --------------------
 created_at
@@ -300,9 +300,9 @@ votes
   * count = total votes cast.
   * point = net vote, now always equal to up_count.
 
-A user only has one vote per ``Comment`` or ``CommentThread``. Though it's
-still written to the database, the UI no longer displays an option to downvote
-anything.
+A user only has one vote per ``Comment`` or ``CommentThread``. Although a
+downvote can still be written to the database, the UI no longer displays a
+downvote option.
 
 **************************
 CommentThread Fields
@@ -336,11 +336,10 @@ commentable_id
   A course team can attach a discussion to any piece of content in the course,
   or to top level categories like "General" and "Troubleshooting". When the
   discussion is a top level category it is specified in the course's policy
-  file, and the ``commentable_id`` is formatted like this:
-  "i4x-edX-edX101-course-How_to_Create_an_edX_Course".
-  When the discussion is a specific component in the course, the
-  ``commentable_id`` identifies that component:
-  "d9f970a42067413cbb633f81cfb12604".
+  file, and the ``commentable_id`` uses the format
+  ``i4x-{org}-{course}-{run}-{name}``. When the discussion is a specific
+  component in the course, the ``commentable_id`` identifies that component;
+  for example, "d9f970a42067413cbb633f81cfb12604".
 
 --------------------
 last_activity_at
@@ -378,9 +377,9 @@ The following fields are specific to ``Comment`` objects. A ``Comment`` is
 either a response to a ``CommentThread`` (such as an answer to the question),
 or a reply to another ``Comment`` (a comment about somebody's answer).
 
-**History**: It used to be the case that ``Comment`` replies could nest much
-more deeply, but this was later capped at just these three levels (post,
-response, comment) much in the way that StackOverflow does.
+**History**: In earlier versions of the edX platform, ``Comment`` replies could
+nest much more deeply. However, edX later restricted participation to three
+levels (post, response, comment), similar to the practice on StackOverflow.
 
 --------------------
 visible
@@ -390,8 +389,8 @@ visible
 --------------------
 abuse_flaggers
 --------------------
-  Records the user id of each user who selects the **Report Misuse** flag for a
-  ``Comment`` in the user interface. Stores an array of user ids if more than
+  Records the user ID of each user who selects the **Report Misuse** flag for a
+  ``Comment`` in the user interface. Stores an array of user IDs if more than
   one user flags the ``Comment``. This is empty if no users flag the
   ``Comment``.
 
