@@ -13,7 +13,7 @@ single contact at each university, referred to as the "data czar".
   :depth: 2
 
 *************************************
-Key Set Up and Exchange Overview
+Overview of Key Setup and Exchange
 *************************************
 
 The data czar who is selected at each institution sets up keys for securely
