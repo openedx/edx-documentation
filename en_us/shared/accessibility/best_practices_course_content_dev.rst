@@ -54,8 +54,8 @@ Provide Alternatives for Time-Based Media
 =================================================
 
 For time-based media, including pre-recorded audio or video content, provide
-alternative equivalent information, such as captions, audio description or pre-
-recorded sign language interpretation. For more information, see
+alternative equivalent information, such as captions, audio description or
+pre-recorded sign language interpretation. For more information, see
 :ref:`Creating Accessible Media`.
 
 =================================================
@@ -166,7 +166,7 @@ Use Best Practices for Describing Images
 
 When you use images (including diagrams, maps, charts, or icons) in your
 course content, you must provide text alternatives that provide information
-equivalent to the visual content, or that identify the purpose of such 
+equivalent to the visual content, or that identify the purpose of such
 non-text content.
 
 The text alternative for an image depends on the image's context and purpose,
@@ -181,7 +181,7 @@ when the link is activated.
 
 The primary mechanism for providing a text alternative for an image in HTML is
 the ``alt`` attribute. The text value of this attribute is what screen reader
-users hear when they encounter the image in your content. 
+users hear when they encounter the image in your content.
 
 .. note:: All images *must* include an ``alt`` attribute. There are some
    cases, noted below, when an empty ``alt`` attribute (``alt=""``) is
@@ -226,7 +226,8 @@ acceptable.  Doing so effectively "hides" the image from screen reader users.
    the user and often results in a poor user experience.
 
 If the text contained in the image is for decorative purposes only and adds no
-value to the content of the page, an empty ``alt`` attribute is also acceptable.
+value to the content of the page, an empty ``alt`` attribute is also
+acceptable.
 
 ===================================================================
 Images That Contribute Meaning or Additional Context to the Page
@@ -238,11 +239,11 @@ describe the image in a way that conveys that context.
 
 Consider the following examples of meaningful alt attributes for a photo of
 the famous stone bridge, Ponte Vecchio in Florence, Italy.
- 
+
 * For a representative image of the bridge included on a page about Florence,
   a meaningful ``alt`` attribute would be "Photo of Ponte Vecchio, a famous
   bridge and shopping center in Florence, Italy."
-  
+
 * If the context of the page is about the bridge itself a meaningful ``alt``
   attribute would be more specific: "Photo of Ponte Vecchio showing its three
   stone arches which span the Arno River."
@@ -276,8 +277,8 @@ element includes the long description.
 
 Alternatively, provide long descriptions by creating an additional unit or
 downloadable file that contains the descriptive text and providing a link to
-the unit or file below the image. 
- 
+the unit or file below the image.
+
   ``<img src="image.jpg" alt="Illustration of Ponte Vecchio"> <p><a href="description.html">Description of Ponte Vecchio Illustration</a></p>``
 
 =============================================================
@@ -299,11 +300,11 @@ that reads "Course Syllabus (EPUB)" does not need alternative text.
 
 For non-informative images that should be skipped by screen reading software,
 include an ``alt`` attribute but leave it with an empty value (also known as a
-NULL ``alt`` attribute). 
+NULL ``alt`` attribute).
 
    ``<img src="image.jpg" alt="">``
-   
-.. note:: While it is appropriate to have an empty ``alt`` attribute, it is 
+
+.. note:: While it is appropriate to have an empty ``alt`` attribute, it is
   never acceptable to omit the ``alt`` attribute entirely. If image elements do
   not include an ``alt`` attribute at all, a screen reader will read the path
   to the image, or, in the case of a linked image, announce the linked URL.
@@ -347,7 +348,7 @@ Accessible Images Resources
 * W3C `Resources on Alternative Text for Images <http://www.w3.org/WAI/alt/>`_
 
 * `W3C WAI Images Tutorial <http://www.w3.org/WAI/tutorials/images/>`_
-    
+
 * `HTML5 - Requirements for providing text to act as an alternative for images
   <http://www.w3.org/TR/html5/embedded-content-0.html#alt>`_
 
@@ -357,7 +358,7 @@ Accessible Images Resources
 * `The DIAGRAM Center <http://www.diagramcenter.org/webinars.html>`_,
   established by the US Department of Education (Office of Special Education
   Programs), provides guidance on ways to make it easier, faster, and more
-  cost effective to create and use accessible images.  
+  cost effective to create and use accessible images.
 
 .. _Creating Accessible Course Materials:
 
@@ -474,7 +475,7 @@ Best Practices for Authoring Accessible PDF Documents
 
 * If your document includes tables, verify that table headers for rows and
   columns are properly defined.
-  
+
 .. note:: When you export Microsoft Office documents as PDF, use the **Save
    as PDF** option. Make sure the **Document Structure Tags for Accessibility**
    option is selected (consult your software documentation for more details).
@@ -515,7 +516,7 @@ Accessible PDF Resources
   of one-page `"cheat sheets" on accessible document authoring <http://ncdae.org/resources/cheatsheets/>`_.
 
 * The Accessible Digital Office Document (ADOD) Project provides guidance on
-  `creating accessible Office documents <http://adod.idrc.ocad.ca/>`_. 
+  `creating accessible Office documents <http://adod.idrc.ocad.ca/>`_.
 
 =====================================================
 Creating Accessible Word Documents
@@ -569,7 +570,7 @@ authoring data tables in HTML also apply to creating Excel spreadsheets.
   <https://support.office.com/en-us/article/Creating-accessible-Excel-
   workbooks-6CC05FC5-1314-48B5-8EB3-683E49B3E593#__toc271205010>`_.
 
-* `Column and row headings should be programmatically identified <https://support.office.com/en-us/article/Creating-accessible-Excel-workbooks-6CC05FC5-1314-48B5-8EB3-683E49B3E593#__toc271205011>`_. 
+* `Column and row headings should be programmatically identified <https://support.office.com/en-us/article/Creating-accessible-Excel-workbooks-6CC05FC5-1314-48B5-8EB3-683E49B3E593#__toc271205011>`_.
 
 * `Hyperlinks in spreadsheets should be meaningful <https://support.office.com/en-us/article/Creating-accessible-Excel-workbooks-6CC05FC5-1314-48B5-8EB3-683E49B3E593#__toc271197281>`_ and describe the destination.
 
@@ -676,10 +677,10 @@ directly in LaTeX using the `LaTeX Source Compiler
 ======================================================
 Accessible Mathematical Content Resources
 ======================================================
-  
+
 * `The MathJax website <http://www.mathjax.org>`_ provides guidance on creating
   accessible pages using their display engine.
-  
+
 * The `DO-IT project <http://www.washington.edu/doit/are-there-guidelines-creating-accessible-math?465=>`_ from the University of Washington provides guidance on creating accessible math content.
 
 * `The AccessSTEM website <http://www.washington.edu/doit/programs/accessstem/overview>`_
@@ -746,7 +747,7 @@ and other accommodations might not be practical or feasible.
 
   If so, and if this content is critical to the nature of the simulation, take
   these steps.
- 
+
   * Do not make using the simulation a requirement for a graded assessment
     activity.
 
@@ -898,7 +899,7 @@ Accessible Media Resources
 ************************************************
 Use Best Practices for HTML Markup
 ************************************************
- 
+
 HTML is the best format for creating accessible content. It is well supported
 and adaptable across browsers and devices. Also, the information in HTML
 markup helps assistive technologies, such as screen reader software, to
@@ -913,18 +914,25 @@ Editor" or "HTML" views.
 
 Keep the following guidelines in mind when you create HTML content.
 
-* Use HTML tags to describe your content's meaning rather than its appearance.
-  For example, you should tag a title with the appropriate heading level (for
-  example ``<h2>``) rather than making the heading simply appear like a heading
-  by using visual elements such as bold text and a larger font size. Format
-  list items as a list rather than using images of bullets or indents. Using
-  HTML to describe your content's meaning is valuable for learners who use
-  screen readers, which, for example, can read through all headings of a
-  specific level or announce the number of items in a list.
+* Use HTML tags to describe the meaning of content, rather than changing its
+  appearance. For example, you should tag a section title with the appropriate
+  heading level (such as ``<h3>``) rather than making the text appear like
+  a heading by applying visual elements such as bold text and a larger font
+  size. Format list items into a list rather than using images of bullets or
+  indents. Using HTML to describe your content's meaning is valuable for
+  learners who use screen readers, which, for example, can read through all
+  headings of a specific level or announce the number of items in a list.
 
 * Use HTML heading levels in sequential order to represent the structure of a
   document. Well-structured headings help learners and screen reader users to
   navigate a page and efficiently find what they are looking for.
+
+  In your :ref:`HTML components<Working with HTML Components>`, be sure to
+  apply only heading levels 3 through 6 to your content. Because HTML
+  components are part of a complete page, and heading levels 1 and 2 are in use
+  by other elements on the page, any text with a heading 1 or 2 style within an
+  HTML component can interfere with the functionality of tools such as screen
+  readers.
 
 * Use HTML list elements to group related items and make content easier to skim
   and read. HTML offers three kinds of lists.
@@ -949,13 +957,14 @@ Keep the following guidelines in mind when you create HTML content.
 HTML Markup Resources
 ====================================================
 
-* `Creating Semantic Structure <http://webaim.org/techniques/semanticstructure/>`_ provides guidance on reflecting the semantic structure of a web page in 
+* `Creating Semantic Structure <http://webaim.org/techniques/semanticstructure/>`_
+  provides guidance on reflecting the semantic structure of a web page in
   the underlying markup (WebAIM).
- 
+
 * `Creating Accessible Tables <http://webaim.org/techniques/tables/data>`_
   provides specific guidance on creating data tables with the appropriate
   semantic structure so that screen readers can correctly present the
-  information (WebAIM).  
+  information (WebAIM).
 
 .. _Universal Design for Learning:
 
@@ -987,7 +996,7 @@ guidelines.
 * Provide multiple ways for learners to engage with information and demonstrate
   their knowledge. This is particularly important to keep in mind as you design
   activities and assessments.
- 
+
 * Identify activities that require specific sensory or physical capability and
   for which it might be difficult or impossible to accommodate the
   accessibility needs of learners. For example, an activity that requires
@@ -999,7 +1008,7 @@ guidelines.
   learners who encounter barriers. If there is no justification for the
   requirements, edX recommends that you redesign the learning activities to be
   more flexible and broadly accessible.
- 
+
 =======================================
 Universal Design for Learning Resources
 =======================================
@@ -1007,5 +1016,5 @@ Universal Design for Learning Resources
 * `Delivering Accessible Digital Learning (JISC Techdis) <http://www.jisctechdis.ac.uk/techdis/resources/accessiblecontent>`_ provides a useful overview of an inclusive approach to course design.
 
 * `The National Center on Universal Design for Learning <http://www.udlcenter.org/implementation/postsecondary>`_ provides a helpful overview on Universal Design for Learning.
- 
+
 
