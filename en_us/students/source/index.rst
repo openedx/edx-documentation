@@ -1,7 +1,7 @@
 .. _edX Learner's Guide:
 
 ###################
-edX Learner's Guide
+EdX Learner's Guide
 ###################
 
 .. toctree::

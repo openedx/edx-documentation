@@ -46,7 +46,7 @@ activity** or **by most activity**. This is the default view when you open the
 
 The number in each callout image indicates the total number of contributions in
 the exchange (the post and its responses and comments). To see the number of
-contributions that you haven't read yet, move your cursor over the callout
+contributions that you have not read yet, move your cursor over the callout
 image.
 
 .. image:: ../../../shared/students/Images/Discussion_mouseover.png

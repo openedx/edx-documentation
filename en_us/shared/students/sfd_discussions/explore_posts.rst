@@ -56,7 +56,7 @@ View Discussions about a Specific Topic
 Every post in the course discussions has an associated topic. When a
 participant creates a post, the participant selects a topic from a list of
 topics that the course team has provided. You can look through topics in the
-discussions to find one that you're interested in.
+discussions to find one that interests you.
 
 Discussion topics for edX courses can be *course-wide* or *content-specific*.
 

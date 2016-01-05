@@ -49,7 +49,7 @@ For more information, see the following topics.
 
 * :ref:`Course Discussions Index` - Provides information about how to
   participate in the discussions for your course, including how to add a post,
-  respond to a post, and comment on another student's response.
+  respond to a post, and comment on another learner's response.
 
 * :ref:`SFD Wiki` - Covers information about an edX course wiki.
 
@@ -59,7 +59,7 @@ to `docs@edx.org`_.
 .. _Time Zones:
 
 ************************
-A Note about Time Zones 
+A Note about Time Zones
 ************************
 
 As you work through your course, you'll see dates and times when new materials
