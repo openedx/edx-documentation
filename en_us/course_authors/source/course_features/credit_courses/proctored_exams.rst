@@ -75,12 +75,10 @@ exam, and edX's :ref:`Online Proctoring Rules <Online Proctoring Rules>`, see
    paper, calculators, or reference books.
 
    If a particular exam in your course has a less stringent exam policy, or if
-   you want to allow a particular tool (for example, a calculator or pencil
-   and paper), contact your edX Program Manager. It is important that the
-   rules for your exam, if different from the "Closed Book" rules, are
-   communicated to the proctored exam reviewers so that learners are not
-   unknowingly failed for using an item that you have allowed in your exam,
-   but that is listed as forbidden in the proctoring rules.
+   you want to allow a particular tool (for example, a calculator or pencil and
+   paper), you can enter custom rules or rule exceptions for your exam. It is
+   important that the rules for your exam, if different from the "closed book"
+   rules, are communicated to the proctored exam reviewers so that learners' exam attempts are not incorrectly disqualified. For more information, see :ref:`specifying_exam_rules_and_exceptions`.
 
 
 .. _Proctored Exam Session Results:
@@ -196,12 +194,10 @@ Proctoring Rules <Online Proctoring Rules>`.
    paper, calculators, or reference books.
 
    If a particular exam in your course has a less stringent exam policy, or if
-   you want to allow a particular tool (for example, a calculator or pencil
-   and paper), contact your edX Program Manager. It is important that the
-   rules for your exam, if different from the "Closed Book" rules, are
-   communicated to the proctored exam reviewers so that learners are not
-   unknowingly failed for using an item that you have allowed in your exam,
-   but that is listed as forbidden in the proctoring rules.
+   you want to allow a particular tool (for example, a calculator or pencil and
+   paper), you can enter custom rules or rule exceptions for your exam. It is
+   important that the rules for your exam, if different from the "closed book"
+   rules, are communicated to the proctored exam reviewers so that learners' exam attempts are not incorrectly disqualified. For more information, see :ref:`specifying_exam_rules_and_exceptions`.
 
 Emphasize that learners must be aware of the requirements before taking the
 exam, and that some of the requirements might take some preparation.
@@ -266,7 +262,8 @@ To enable proctored exams in your course, follow these steps.
 #. Change the value of the setting to ``true``.
 
    .. image:: ../../../../shared/images/Proctoring_AdvancedSetting.png
-      :alt: The "Enable Timed and Proctored Exams" advanced setting with a value of "true".
+      :alt: The "Enable Timed and Proctored Exams" advanced setting with a
+          value of "true".
       :width: 500
 
 #. Select **Save Changes** at the bottom of the page. You can now create
@@ -292,17 +289,25 @@ To create an exam that includes online proctoring, follow these steps.
 
 #. In Studio, in your course outline, add a subsection for your exam.
 
-#. Select the Settings icon to open the settings for the exam.
+#. Select the settings icon. Set the release date, grading, and student
+   visibility options for the exam.
 
-#. In the **Additional Options** section of the dialog box, select
-   **Proctored**.
+.. This should include a reference to a general explanation of these settings.
+.. The settings are not specific to proctored exams.
 
-#. Specify the allotted time for the exam in hours and minutes.
+#. Select the **Advanced** tab of the **Exam Settings** screen.
 
-   .. image:: ../../../../shared/images/Proctoring_StudioSetProctoredExam.png
-     :alt: The Studio subsection settings dialog showing selections for a timed
-         and proctored final exam.
-     :width: 600
+#. Select **Proctored**. Specify the length of time allowed for the exam in the
+   **Time Allotted (HH:MM)** field. Specify the length of time in hours and
+   minutes.
+
+#. If you allow learners to use tools and techniques that are prohibited by the
+   default rules for proctored exams, specify the custom rules and rule
+   exceptions for the proctored exam review team. For more information, see
+   :ref:`specifying_exam_rules_and_exceptions`.
+
+   For more information about the default rules for proctored exams, see
+   :ref:`Online Proctoring Rules <Online Proctoring Rules>`.
 
 #. Select **Save**.
 
@@ -336,31 +341,31 @@ practice exam are required to perform the same installation step when they
 prepare to take an actual proctored exam, to ensure that they are using the
 latest version of the proctoring software.
 
+.. note:: Make sure you create the practice exam as an ungraded exam.
 
 To create a practice exam, follow these steps.
-
-.. note:: Make sure you create the practice exam as an ungraded exam.
 
 #. In Studio, in your course outline, add a subsection for the practice exam.
 
 #. Give a name to the exam that clearly identifies it as a practice exam.
 
-#. Select the Settings icon to open the settings for the exam.
+#. Select the settings icon. Set the release date, grading, and student
+   visibility options for the exam.
 
-#. Make sure the exam is specified as **Not Graded**.
+   Make sure you select **Not Graded** in the **Grade as** control.
 
-#. In the **Additional Options** section of the dialog box, select
-   **Practice Proctored**.
+.. This should include a reference to a general explanation of these settings.
+.. The settings are not specific to proctored exams.
 
-#. Specify the allotted time for the exam in hours and minutes.
+#. Select the **Advanced** tab of the **Exam Settings** screen.
+
+#. Select **Practice Proctored**. Specify the length of time allowed for the
+   exam in the **Time Allotted (HH:MM)** field. Specify the length of time in
+   hours and minutes.
 
    For a practice exam, edX recommends that you specify a relatively short
    duration that is appropriate for the number of example problems you
    include.
-
-   .. image:: ../../../../shared/images/Proctoring_StudioSetPracticeExam.png
-     :alt: The Studio subsection settings dialog, showing settings for an ungraded practice proctored exam.
-     :width: 600
 
 #. Select **Save**.
 
@@ -371,6 +376,46 @@ To create a practice exam, follow these steps.
 The practice exam is added to the courseware, and is visible to all learners
 regardless of their enrollment track.
 
+.. _specifying_exam_rules_and_exceptions:
+
+====================================
+Specifying Exam Rules and Exceptions
+====================================
+
+You can provide custom rules and rule exceptions to the team of reviewers who
+determine whether learners' exam attempts conform to the rules for proctored
+exams. If your course allows learners to use tools and techniques that are
+prohibited by the default rules for proctored exams, you must describe the
+exceptions to the reviewers.
+
+For more information about the default rules for proctored exams, see
+:ref:`Online Proctoring Rules <Online Proctoring Rules>`.
+
+To specify custom proctored exam rules and rule exceptions, follow these steps.
+
+#. In Studio, open your course outline and select the subsection for the exam.
+
+#. Select the settings icon to open the **Exam Settings** screen.
+
+#. Select the **Advanced** tab.
+
+#. Describe any additional rules or rule exceptions in the **Review Rules**
+   field.
+
+   Write clear, English-language descriptions of your exam rules. For example,
+   you could enter the following rules.
+
+   ``Allow one blank sheet of paper and a pencil or pen. Allow a hand-held
+   calculator on the desk.``
+
+#. Select **Save**.
+
+.. note::
+   Your description of the additional rules and rule exceptions must be as
+   clear, specific, and easy to understand as possible. If the reviewers do not
+   understand your rules and exceptions, they may incorrectly disqualify exam
+   attempts. Use uncomplicated sentences and words that a global English-
+   speaking audience will understand.
 
 .. _Respond to Learner Concerns about Proctored Exams:
 
@@ -378,8 +423,8 @@ regardless of their enrollment track.
 Responding to Learners' Concerns about Proctored Exams
 **********************************************************
 
-In addition to questions that can be answered in the FAQs on edx.org, or by
-the :ref:`Online Proctoring Rules <Online Proctoring Rules>`, situations might
+In addition to questions that can be answered in the FAQs on edx.org, or by the
+:ref:`Online Proctoring Rules <Online Proctoring Rules>`, situations might
 arise that require an action by edX Support.
 
 .. contents::
@@ -399,8 +444,8 @@ your organization's Disability Services resources to decide whether and how a
 learner with specific needs can be accommodated for a timed exam.
 
 .. note:: Make sure the learner who has requested additional time does not
-   start taking the proctored exam before the additional time has been
-   approved and set up.
+   start taking the proctored exam before the additional time has been approved
+   and set up.
 
 If it is confirmed that additional time should be allowed for a specific
 student to take the exam, follow these steps.
@@ -497,13 +542,13 @@ Two results are possible for proctoring session reviews.
    learner has not passed the proctoring review.
 
 Some learner behavior that is listed in the Online Proctoring Rules is
-discouraged but does not impact the integrity of the exam. Violations in
-these cases might be flagged but learners with such flags can still receive a
-**Satisfactory** result. For example, a learner is discouraged from playing music
-or having a TV on in the background while they take their exam, but if their
-session recording shows such behavior, it is still possible for them to
-receive a **Satisfactory** result for their proctoring session results, as long as
-there are no instances of suspicious activity that do seem to indicate
+discouraged but does not impact the integrity of the exam. Violations in these
+cases might be flagged but learners with such flags can still receive a
+**Satisfactory** result. For example, a learner is discouraged from playing
+music or having a TV on in the background while they take their exam, but if
+their session recording shows such behavior, it is still possible for them to
+receive a **Satisfactory** result for their proctoring session results, as long
+as there are no instances of suspicious activity that do seem to indicate
 cheating.
 
 Activities that would cause learners to fail their proctoring session review
@@ -717,7 +762,8 @@ each learner continues to run. Learners can reopen their exam in a new browser
 window and continue their exam, but they will have lost time while the browser
 was closed.
 
-.. Question for Chris: how does the proctoring software view such a break in taking the exam?
+.. Question for Chris: how does the proctoring software view such a break in
+.. taking the exam?
 
 
 Learners Close the Proctoring Software Window
