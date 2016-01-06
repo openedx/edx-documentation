@@ -1,0 +1,3 @@
+
+* The latest course in the edX Learning Series, :ref:`Creating Video for the edX
+  Platform`, is now available.
