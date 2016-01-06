@@ -6,6 +6,11 @@ Open edX Cypress Release
 
 This page lists the highlights of the Cypress release.
 
+.. note::
+ With the :ref:`Open edX Dogwood Release`, the Cypress release is no longer
+ supported. This page remains in these release notes as a record of when new
+ features were included in Open edX.
+
 .. contents::
  :depth: 1
  :local:
