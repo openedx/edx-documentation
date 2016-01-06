@@ -78,7 +78,9 @@ exam, and edX's :ref:`Online Proctoring Rules <Online Proctoring Rules>`, see
    you want to allow a particular tool (for example, a calculator or pencil and
    paper), you can enter custom rules or rule exceptions for your exam. It is
    important that the rules for your exam, if different from the "closed book"
-   rules, are communicated to the proctored exam reviewers so that learners' exam attempts are not incorrectly disqualified. For more information, see :ref:`specifying_exam_rules_and_exceptions`.
+   rules, are communicated to the proctored exam reviewers so that learners'
+   exam attempts are not incorrectly disqualified. For more information, see
+   :ref:`specifying_exam_rules_and_exceptions`.
 
 
 .. _Proctored Exam Session Results:
@@ -130,7 +132,13 @@ the due date.
 
 .. Question for Griff or Julia
 
-.. Do we want to give advice to course staff about planning an adequate due date?  e.g. allow more time than normal for allow proctoring results to come back? Allow time for administrative tasks, especially as edX support needs to be involved in creating extra time allowances. Course staff need to allow enough time to get confirmations back from Support and also to notify students. If resolution of any technical difficulty disputes is needed, students also need adequate time to retake the exam.
+.. Do we want to give advice to course staff about planning an adequate due
+.. date?  e.g. allow more time than normal for allow proctoring results to come
+.. back? Allow time for administrative tasks, especially as edX support needs
+.. to be involved in creating extra time allowances. Course staff need to allow
+.. enough time to get confirmations back from Support and also to notify
+.. students. If resolution of any technical difficulty disputes is needed,
+.. students also need adequate time to retake the exam.
 
 
 Taking a proctored exam
@@ -197,7 +205,9 @@ Proctoring Rules <Online Proctoring Rules>`.
    you want to allow a particular tool (for example, a calculator or pencil and
    paper), you can enter custom rules or rule exceptions for your exam. It is
    important that the rules for your exam, if different from the "closed book"
-   rules, are communicated to the proctored exam reviewers so that learners' exam attempts are not incorrectly disqualified. For more information, see :ref:`specifying_exam_rules_and_exceptions`.
+   rules, are communicated to the proctored exam reviewers so that learners'
+   exam attempts are not incorrectly disqualified. For more information, see
+   :ref:`specifying_exam_rules_and_exceptions`.
 
 Emphasize that learners must be aware of the requirements before taking the
 exam, and that some of the requirements might take some preparation.
@@ -608,7 +618,8 @@ steps.
    requested.
 
    .. image:: ../../../../shared/images/Proctoring_CSVExamResultsLink.png
-     :alt: The link for a generated proctored exam results report in the instructor dashboard.
+     :alt: The link for a generated proctored exam results report in the
+         instructor dashboard.
      :width: 600
 
    You can open .csv files in a spreadsheet application to sort, graph, and
@@ -790,4 +801,5 @@ to run. If learners reopen their exam in a new browser window, they can
 continue their exam, but they will have lost time while the browser was
 closed.
 
-.. Question for Chris: how does the proctoring software view such a break in taking the exam?
+.. Question for Chris: how does the proctoring software view such a break in
+.. taking the exam?
