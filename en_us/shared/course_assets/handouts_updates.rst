@@ -29,20 +29,22 @@ To add a course update, follow these steps.
 
 #. From the **Content** menu, select **Updates**.
 #. Select **New Update**.
-#. Enter your update in the HTML editor that opens.
+#. Enter your update in the text editor that opens.
 
-  * You must use HTML to format your update. The :ref:`visual editor<The Visual
-    Editor>` is not provided.
+  * This editor is like the :ref:`raw HTML editor<The Raw HTML Editor>` that is
+    provided for HTML components. To format your update, you must supply HTML
+    tags. The :ref:`visual editor<The Visual Editor>` is not provided.
+
   * If you change the supplied date, the new date appears above the update on
     the **Course Info** page. However, the update is visible to all enrolled
     learners as soon as you post it.
 
 .. note::
-  If you copy text from another source and paste it into the HTML editor, be
+  If you copy text from another source and paste it into the text editor, be
   sure to proofread the result carefully. Some applications automatically
   change quotation marks and apostrophes from the "straight" version to the
-  "smart" version. The HTML editor requires "straight" quotation marks and
-  apostrophes.
+  "smart" or "curly" version. The editor requires "straight" quotation marks
+  and apostrophes.
 
 .. The following step allows installations that use the edX mobile apps to send a push notification to the app when an update is added.
 .. Alison, DOC-1814, June 2015

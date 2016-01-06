@@ -84,8 +84,8 @@ purpose. More examples of pages you can add follow.
     If you copy text from another source and paste it into the HTML editor, be
     sure to proofread the result carefully. Some applications automatically
     change quotation marks and apostrophes from the "straight" version to the
-    "smart" version. The HTML editor requires "straight" quotation marks and
-    apostrophes.
+    "smart" or "curly" version. The HTML editor requires "straight" quotation
+    marks and apostrophes.
 
 #. Select **Settings** to edit the **Display Name**. The display name is the
    name of the page visible to learners in the course.
@@ -163,9 +163,8 @@ You can use the following code in a page to provide a dynamic HTML schedule in
 your course.
 
 .. note::
-  Paste the following code into the page using either :ref:`the visual editor
-  <Work with HTML code>` or the :ref:`raw HTML editor <The Raw HTML Editor>`.
-  Do not paste the code directly into the visual editor.
+  To paste the following code into a page, use the :ref:`raw HTML editor <The
+  Raw HTML Editor>`. Do not paste the code directly into the visual editor.
 
 .. code-block:: html
 
