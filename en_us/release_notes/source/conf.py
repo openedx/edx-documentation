@@ -15,16 +15,10 @@ html_favicon = '../../_themes/edx_theme/static/css/favicon.ico'
 project = u'EdX Release Notes'
 
 #remove directory when content is first added to it, and add to index
-exclude_patterns = ['links.rst', 'reusables/*', '2016/analytics/*2016.rst',
-                    '2016/discussions/*2016.rst', '2016/documentation/*2016.rst',
-                    '2016/insights/*2016.rst', '2016/lms/*2016.rst',
-                    '2016/mobile/*2016.rst', '2016/openedx/*2016.rst',
-                    '2016/ora/*2016.rst', '2016/studio/*2016.rst',
-                    '2016/website/*2016.rst', '2016/xblocks/*2016.rst',
-                    '2015/analytics/*2015.rst',
-                    '2015/discussions/*2015.rst', '2015/documentation/*2015.rst',
-                    '2015/insights/*2015.rst', '2015/lms/*2015.rst',
-                    '2015/mobile/*2015.rst', '2015/openedx/*2015.rst',
-                    '2015/ora/*2015.rst', '2015/studio/*2015.rst',
-                    '2015/website/*2015.rst', '2015/xblocks/*2015.rst']
+exclude_patterns = ['links.rst', 'reusables/*', '20??/analytics/*20??.rst',
+                    '20??/discussions/*20??.rst', '20??/documentation/*20??.rst',
+                    '20??/insights/*20??.rst', '20??/lms/*20??.rst',
+                    '20??/mobile/*20??.rst', '20??/openedx/*20??.rst',
+                    '20??/ora/*20??.rst', '20??/studio/*20??.rst',
+                    '20??/website/*20??.rst', '20??/xblocks/*20??.rst']
 
