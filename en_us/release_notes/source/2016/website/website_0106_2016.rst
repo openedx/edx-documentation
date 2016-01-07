@@ -1,3 +1,4 @@
 
-* The latest course in the edX Learning Series, :ref:`Creating Video for the edX
-  Platform`, is now available.
+The latest course in the edX Learning Series is now available. You can enroll
+in the `Creating Video for the edX Platform`_ course on edx.org.
+
