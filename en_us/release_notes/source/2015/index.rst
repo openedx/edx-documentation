@@ -4,7 +4,7 @@
 edX Release Notes 2015
 ####################################
 
-The following pages describe what is new in 2015.
+The following pages summarize what was new in 2015.
 
 
 .. toctree::
