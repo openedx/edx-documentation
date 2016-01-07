@@ -127,8 +127,8 @@ Submit Your Response
 =====================
 
 #. Read each question carefully. Some course teams include important information
-in the question, such as how long a response must be, or specific topics your
-response must cover.
+in the question, such as how long a response must be, or specific topics that
+your response must cover.
 
 .. note:: The total word count for all responses within the assessment cannot
  be more than 10,000 words (approximately the equivalent of 20 pages of 8.5x11
@@ -142,29 +142,16 @@ response must cover.
    If you need more time, you can select **Save Your Progress** to save a
    draft of your responses, and then come back and submit them later.
 
-After you submit your responses, if other learners have already submitted
-responses, the peer assessment step starts immediately. However, you do not
-have to start grading right away. If you want to stop working and come back
-later, just refresh or reopen your browser when you come back. New peer
-responses will be available for you to grade.
+After you submit your responses, the next step, usually either an assessment
+training step or a peer assessment step, starts immediately. However, you do not
+have to start the next step right away. If you want to stop working and come
+back later, just refresh or reopen your browser when you come back.
 
-If no other learners have submitted responses yet, you see the following
-message.
-
-.. code-block:: xml
-
-  Waiting for Peer Responses
-
-  All submitted peer responses have been assessed. Check back later to see if
-  more learners have submitted responses. You will receive your grade after you
-  complete the peer assessment and self assessment steps, and after your peers
-  have assessed your response.
-
-Note that you can view your own responses at any time after you submit them. To
-do this, for the response you want to view, select the **Your Response**
-heading to expand the response field. Your response appears, along with the
-status of your response, and information about additional steps you have to
-complete before you receive your grade.
+.. note:: You can view your own responses at any time after you submit them. To
+   do this, for the response you want to view, select the **Your Response**
+   heading to expand the response field. Your response appears, along with the
+   status of your response, and information about additional steps you have to
+   complete before you receive your grade.
 
 .. image:: ../../shared/students/Images/PA_S_ReviewResponse.png
    :alt: Image of the Response field collapsed and then expanded.
@@ -303,12 +290,16 @@ After you have selected options in the rubric and provided additional comments
 about the responses, select **Submit your assessment and move to response
 #<number>**.
 
-When you submit your assessment of the first learner's responses, another set
-of responses opens for you. Assess these responses in the same way that you
+When you submit your assessment of the first learner's responses, the next set of responses opens for you. Assess these responses in the same way that you
 assessed the first learner's responses, and then submit your assessment. You
 will repeat these steps until you have assessed the required number of
 responses. The number in the upper right corner of the step is updated as you
 assess each set of responses.
+
+If there are no new submitted responses available for grading, you see a status
+message indicating that you are waiting for peer responses and that you should
+check back later.
+
 
 =================================================
 Assess Additional Peer Responses (optional)
