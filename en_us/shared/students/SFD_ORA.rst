@@ -127,12 +127,12 @@ Submit Your Response
 =====================
 
 #. Read each question carefully. Some course teams include important information
-in the question, such as how long a response must be, or specific topics that
-your response must cover.
+   in the question, such as how long a response must be, or specific topics that
+   your response must cover.
 
-.. note:: The total word count for all responses within the assessment cannot
- be more than 10,000 words (approximately the equivalent of 20 pages of 8.5x11
- inch paper, with text single-spaced).
+   .. note:: The total word count for all responses within the assessment cannot
+      be more than 10,000 words (approximately the equivalent of 20 pages of
+      8.5x11 inch paper, with text single-spaced).
 
 #. For each question, enter your response into the field under **Your Response**.
 
