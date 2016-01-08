@@ -8,8 +8,9 @@ edX Objective-C Style Guide
 
 This section describes the requirements and conventions for contributing Objective-C programming to the edX platform.
 
-.. toctree:
-  :maxdepth: 2
+.. contents::
+ :local:
+ :depth: 2
 
 **********
 Principles
