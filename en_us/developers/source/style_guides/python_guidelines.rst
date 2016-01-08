@@ -1,16 +1,34 @@
 ..  _edx_python_guidelines:
 
-###########################
-General Python
-###########################
+######################
+edX Python Style Guide
+######################
+
+This section describes the requirements and conventions used to contribute
+Python programming to the edX platform.
+
+.. contents::
+ :local:
+ :depth: 2
+
+**********
+Principles
+**********
 
 Generally, don't edit files just to change the style.  But do aim for this style with new or modified code.
 
-See also http://edx-developer-guide.readthedocs.org/en/latest/testing/code-quality.html
+See also :ref:`code_quality`.
 
-********************
-Follow `PEP 8`_
-********************
+.. contents::
+ :local:
+ :depth: 2
+
+
+***********************
+Syntax and Organization
+***********************
+
+Follow `PEP 8`_.
 
 * 4-space indents (no tabs)
 * Names like this:  modules_and_packages, functions_and_methods, local_variables, GLOBALS, CONSTANTS, MultiWordClasses
@@ -18,9 +36,13 @@ Follow `PEP 8`_
 * Trailing commas are good: they prevent having to edit the last line in a list when adding a new last line.  You can use them in lists, dicts, function calls, etc.
 * EXCEPT: we aren't (yet) limiting code lines to 79 characters.  Use 120 as a limit for code.  Please use 79 chars as a limit for docstring lines though, so that the text remains readable.
 
-=======================================
+.. contents::
+ :local:
+ :depth: 2
+
+===================
 Breaking long lines
-=======================================
+===================
 
 Follow these guidelines:
 
@@ -55,9 +77,9 @@ Important points:
 * Closing paren should be on a line by itself, indented the same as the first line.
 * The first line ends with the open paren.
 
-=======================================
+=============
 Imports Order
-=======================================
+=============
 
 PEP 8 recommends a most-general to most-specific import order, which means this order:
 
@@ -68,9 +90,84 @@ PEP 8 recommends a most-general to most-specific import order, which means this 
 * Other edX repo imports
 * Local imports
 
-=======================================
-Follow `PEP 257`_
-=======================================
+*******************************
+Pylint Guidelines and Practices
+*******************************
+
+* For unused args, you can prefix the arguments with _ to mark them as unused (as convention), and pylint will accept that.
+* Adding a TODO in one place requires you to make a pylint fix in another (just to force us to clean up more code)
+* No bare except clauses. ``except:`` should be ``except Exception:``, which will prevent it from catching system-exiting exceptions, which we probably shouldn't be doing anyway. If we need to, we can catch ``BaseException`` (There's no point in catching ``BaseException``, that includes the exceptions we didn't want to catch with ``except:`` in the first place.)  (ref: http://docs.python.org/2/library/exceptions.html#bltin-exceptions). Catching ``Exception``, however, will still generate a pylint warning "W0703: catching too general exception."  If you still feel that catching ``Exception`` is justified, silence the pylint warning with a pragma: "# pylint: disable=broad-except"
+* Although we try to be vigilant and resolve all quality violations, some Pylint violations are just too challenging to resolve, so we opt to ignore them via use of a pragma. A pragma tells Pylint to ignore the violation in the given line. An example is::
+
+    self.assertEquals(msg, form._errors['course_id'][0])  # pylint: disable=protected-access
+
+The pragma starts with a ``#`` two spaces after the end of the line. We prefer that you use the full name of the error (``pylint: disable=unused-argument`` as opposed to ``pylint: disable=W0613``), so it's more clear what you're disabling in the line.
+
+=======================
+Classes vs Dictionaries
+=======================
+
+.. FIXME: Is this really a subsection of the Pylint section? Should it be
+.. promoted or a part of a different section?
+
+It's better to use a class or a ``namedtuple`` to pass around data that has a fixed shape than to use a ``dict``. It makes it easier to debug (because there is a fixed, named set of attributes), and it helps prevent accidental errors of either setting new attributes into the dictionary (which might, for instance, get serialized unexpectedly), or might be typos.
+
+**********************************
+Write a Good repr() for Each Class
+**********************************
+
+.. FIXME: This was a section under "General Python" in the wiki. It's not
+.. really syntax or organization. So I promoted it. Does this make sense on its
+.. own here?
+
+Each class should have a `__repr__() method <https://docs.python.org/2/reference/datamodel.html#object.__repr__>`_ defined, so that calling `repr()` on an instance of the class returns something meaningful that distinguishes objects from each other to a human being. This is useful for debugging purposes.
+
+*********************
+Django Good Practices
+*********************
+
+.. contents::
+ :local:
+ :depth: 2
+
+=======
+Imports
+=======
+
+Always import from the root of the project::
+
+    from lms.djangoapps.hologram.models import 3DExam    # GOOD
+    from .models import 3DExam                           # GOOD
+    from hologram.models import 3DExam                   # BAD!
+
+The second form (relative import) only works correctly if the importing module is itself imported correctly.  As long as there are no instances of the third form, everything should work.  Don't forget that there are other places that mention import paths::
+
+    url(r'^api/3d/', include('lms.djangoapps.hologram.api_urls')),   # GOOD
+    url(r'^api/3d/', include('hologram.api_urls')),                  # BAD!
+
+    @patch('lms.djangoapps.hologram.models.Key', new=MockKey)        # GOOD
+    @patch('hologram.models.Key', new=MockKey)                       # BAD!
+
+    INSTALLED_APPS = [
+        'lms.djangoapps.hologram',    # GOOD
+        'hologram',                   # BAD!
+    ]
+
+======
+Design
+======
+
+.. FIXME: This doesn't look like it was completed. What do we need to say about
+.. these?
+
+* Fat Models, Helper Modules, Thin Views, Stupid Templates
+
+
+***********************
+Docstrings
+***********************
+
+Follow `PEP 257`_.
 
 * Write docstrings for all modules, classes, and functions.
 * Use three double-quotes for all docstrings.
@@ -139,68 +236,16 @@ Not like this::
     def foo(a, b):
         """Computes the foo of a and b.""" # NO NO NO
 
-=======================================
-Write a Good repr() for Each Class
-=======================================
+*************
+Writing Tests
+*************
 
-Each class should have a `__repr__() method <https://docs.python.org/2/reference/datamodel.html#object.__repr__>`_ defined, so that calling `repr()` on an instance of the class returns something meaningful that distinguishes objects from each other to a human being. This is useful for debugging purposes.
+.. FIXME: The IOS style guide covers writing tests. Do we have guidance about
+.. writing Python tests?
 
-*******************************
-Pylint Guidelines and Practices
-*******************************
-
-* For unused args, you can prefix the arguments with _ to mark them as unused (as convention), and pylint will accept that.
-* Adding a TODO in one place requires you to make a pylint fix in another (just to force us to clean up more code)
-* No bare except clauses. ``except:`` should be ``except Exception:``, which will prevent it from catching system-exiting exceptions, which we probably shouldn't be doing anyway. If we need to, we can catch ``BaseException`` (There's no point in catching ``BaseException``, that includes the exceptions we didn't want to catch with ``except:`` in the first place.)  (ref: http://docs.python.org/2/library/exceptions.html#bltin-exceptions). Catching ``Exception``, however, will still generate a pylint warning "W0703: catching too general exception."  If you still feel that catching ``Exception`` is justified, silence the pylint warning with a pragma: "# pylint: disable=broad-except"
-* Although we try to be vigilant and resolve all quality violations, some Pylint violations are just too challenging to resolve, so we opt to ignore them via use of a pragma. A pragma tells Pylint to ignore the violation in the given line. An example is::
-
-    self.assertEquals(msg, form._errors['course_id'][0])  # pylint: disable=protected-access
-
-The pragma starts with a ``#`` two spaces after the end of the line. We prefer that you use the full name of the error (``pylint: disable=unused-argument`` as opposed to ``pylint: disable=W0613``), so it's more clear what you're disabling in the line.
-
-=======================================
-Classes vs Dictionaries
-=======================================
-
-It's better to use a class or a ``namedtuple`` to pass around data that has a fixed shape than to use a ``dict``. It makes it easier to debug (because there is a fixed, named set of attributes), and it helps prevent accidental errors of either setting new attributes into the dictionary (which might, for instance, get serialized unexpectedly), or might be typos.
-
-
-*******************************
-Django Good Practices
-*******************************
-
-=======================================
-Imports
-=======================================
-
-Always import from the root of the project::
-
-    from lms.djangoapps.hologram.models import 3DExam    # GOOD
-    from .models import 3DExam                           # GOOD
-    from hologram.models import 3DExam                   # BAD!
-
-The second form (relative import) only works correctly if the importing module is itself imported correctly.  As long as there are no instances of the third form, everything should work.  Don't forget that there are other places that mention import paths::
-
-    url(r'^api/3d/', include('lms.djangoapps.hologram.api_urls')),   # GOOD
-    url(r'^api/3d/', include('hologram.api_urls')),                  # BAD!
-
-    @patch('lms.djangoapps.hologram.models.Key', new=MockKey)        # GOOD
-    @patch('hologram.models.Key', new=MockKey)                       # BAD!
-
-    INSTALLED_APPS = [
-        'lms.djangoapps.hologram',    # GOOD
-        'hologram',                   # BAD!
-    ]
-
-=======================================
-Design
-=======================================
-
-* Fat Models, Helper Modules, Thin Views, Stupid Templates
-
-*******************************
+**********
 References
-*******************************
+**********
 
 * `PEP 8`_
 * `PEP 257`_
@@ -211,3 +256,14 @@ References
 
 .. _PEP 8: http://www.python.org/dev/peps/pep-0008/
 .. _PEP 257: http://www.python.org/dev/peps/pep-0257/
+
+
+
+
+
+
+
+
+
+
+
