@@ -6,7 +6,7 @@ Working with edX Documentation Source Files
 
 This section provides information about the tools used to create edX
 documentation, and gives guidelines for translating or updating documentation
-in the edx-documentation Github repository.
+in the edx-documentation GitHub repository.
 
 For information, see the following topics.
 
@@ -34,7 +34,7 @@ to basic information that we provide about working with our source files, you
 can find resources online, including the `restructuredText Primer <http
 ://sphinx-doc.org/rest.html>`_ and http://docutils.sourceforge.net/rst.html#user-documentation.
 
-Our documentation source files reside in a github repository: edx-documentation. 
+Our documentation source files reside in a GitHub repository: edx-documentation.
 The folder structure within the repository is critical to our process and
 should not be modified. Each .rst file results in one page of HTML output.
 
@@ -75,7 +75,7 @@ important. Text that is on the same line as an .rst tag and text that is
 indented to the same level on following lines are interpreted as being part of
 the same block.
 
- 
+
 .. _Headings:
 
 ========
@@ -85,7 +85,7 @@ Headings
 The level of a heading is indicated by a series of characters above and below
 the heading text.
 
-* H1: pound symbols (#) 
+* H1: pound symbols (#)
 * H2: asterisk (*)
 * H3: equals symbol (=)
 
@@ -121,8 +121,8 @@ Create automatic numbered lists using the hash symbol
 followed by a period, for each item in the numbered list. For example,
 
 #. Select **Advanced Settings**.
-#. Find the **Course Advertised Start Date** policy key.   
-#. Enter the value you want to display. 
+#. Find the **Course Advertised Start Date** policy key.
+#. Enter the value you want to display.
 
 In some cases, for example if an automatic numbered list is interrupted by
 multiple paragraphs or a nested list, you need to enter a number in place of
@@ -162,7 +162,7 @@ Special Tags
 ============
 
 Special tagging for notes, warnings, tables, and code blocks is achieved using
-lines beginning with 2 periods, followed by additional syntax. 
+lines beginning with 2 periods, followed by additional syntax.
 
 ``.. note::``
 
@@ -194,7 +194,7 @@ that is useful to someone who might not be able to see the image. ::
 
 .. important:: When you translate existing content, make sure you do not
    change the filepath portion of the image reference. You should only
-   translate the alternative text. 
+   translate the alternative text.
 
    If you replace any original source images with localized images, make sure
    the replacement image files have exactly the same filenames, and replace
@@ -217,18 +217,18 @@ and the hyphens indicating each column must also align. Empty cells must be
 accounted for, so that each column in a row is always marked, even if there is
 no content in the table cell. An example of an empty cell is the second column
 in the first row of the following example. ::
- 
+
   .. list-table::
      :widths: 25 25 50
 
    * - .. image:: ../../../shared/building_and_running_chapters/Images/AnnotationExample.png
           :width: 100
           :alt: Example annotation problem
-     - 
+     -
      - Annotation problems ask students to respond to questions about a
        specific block of text. The question appears above the text when the
        student hovers the mouse over the highlighted text so that students can
-       think about the question as they read.   
+       think about the question as they read.
    * - .. image:: ../../../shared/building_and_running_chapters/Images/PollExample.png
           :width: 100
           :alt: Example poll
@@ -300,7 +300,7 @@ Cross references using specified link text
 
 For cross references that use specific link text rather than substituting the
 actual target heading text, enter your own text followed by the anchor text in
-angle brackets. For example, 
+angle brackets. For example,
 ::
 
   For more information, see :ref:`the introductory section on
@@ -345,17 +345,17 @@ the code-block tag. Here is a code block. For examples, see
                     <text>PLACEHOLDER: Text of annotation</text>
                       <comment>PLACEHOLDER: Text of question</comment>
                       <comment_prompt>PLACEHOLDER: Type your response below:</comment_prompt>
-                      <tag_prompt>PLACEHOLDER: In your response to this question, which tag below 
+                      <tag_prompt>PLACEHOLDER: In your response to this question, which tag below
                       do you choose?</tag_prompt>
                     <options>
-                      <option choice="incorrect">PLACEHOLDER: Incorrect answer (to make this 
-                      option a correct or partially correct answer, change choice="incorrect" 
+                      <option choice="incorrect">PLACEHOLDER: Incorrect answer (to make this
+                      option a correct or partially correct answer, change choice="incorrect"
                       to choice="correct" or choice="partially-correct")</option>
-                      <option choice="correct">PLACEHOLDER: Correct answer (to make this option 
-                      an incorrect or partially correct answer, change choice="correct" to 
+                      <option choice="correct">PLACEHOLDER: Correct answer (to make this option
+                      an incorrect or partially correct answer, change choice="correct" to
                       choice="incorrect" or choice="partially-correct")</option>
-                      <option choice="partially-correct">PLACEHOLDER: Partially correct answer 
-                      (to make this option a correct or partially correct answer, 
+                      <option choice="partially-correct">PLACEHOLDER: Partially correct answer
+                      (to make this option a correct or partially correct answer,
                       change choice="partially-correct" to choice="correct" or choice="incorrect")
                       </option>
                     </options>

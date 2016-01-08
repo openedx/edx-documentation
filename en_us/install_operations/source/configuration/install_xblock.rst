@@ -14,13 +14,13 @@ Open edX platform, both of the following tasks must be completed.
 
 * Course teams enable the XBlock in the specific courses that will use it.
 
-.. Future: link to an XBlock reference that would let people explore what's available and get both the Github commit string and the key. - Alison 22 Oct 2015
+.. Future: link to an XBlock reference that would let people explore what's available and get both the GitHub commit string and the key. - Alison 22 Oct 2015
 
 To install an XBlock, follow these steps.
 
-#. Obtain the Github location and commit for the XBlock.
+#. Obtain the GitHub location and commit for the XBlock.
 
-#. Run ``pip`` with a Github link to the XBlock.
+#. Run ``pip`` with a GitHub link to the XBlock.
 
    An example that installs the Oppia XBlock follows.
 
