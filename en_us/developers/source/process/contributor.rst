@@ -39,11 +39,11 @@ Once you’re ready to submit your changes in a pull request, check the followin
 list of requirements to be sure that your pull request is ready to be reviewed:
 
 #. Prepare a :doc:`pull request cover letter <cover-letter>`. When you open
-   up your pull request, put your cover letter into the "Description" field on Github.
+   up your pull request, put your cover letter into the "Description" field on GitHub.
 
 #. The code should be clear and understandable.
    Comments in code, detailed docstrings, and good variable naming conventions
-   are expected. The `edx-platform Github wiki`_ contains many great links to
+   are expected. The `edx-platform GitHub wiki`_ contains many great links to
    style guides for Python, Javascript, and internationalization (i18n) conventions.
 
 #. The pull request should be as small as possible.
@@ -76,7 +76,7 @@ list of requirements to be sure that your pull request is ready to be reviewed:
    the new feature.
 
 #. For pull requests that make changes to the user interface,
-   please include screenshots of what you changed. Github will allow
+   please include screenshots of what you changed. GitHub will allow
    you to upload images directly from your computer.
    In the future, the core committers will produce a style guide that
    contains more requirements around how pages should appear and how
@@ -129,11 +129,11 @@ If you open up your pull request with a solid description, following the
 :doc:`pull request cover letter <cover-letter>` guidelines, the product owners will be able
 to quickly understand your change and prioritize it for review. However, they may have
 some questions about your intention, need, and/or approach that they will ask about
-on the JIRA ticket. A community manager will ping you on Github to clarify these questions if
+on the JIRA ticket. A community manager will ping you on GitHub to clarify these questions if
 they arise; you are not required to monitor the JIRA discussion.
 
 Once the product team has sent your pull request to the engineering teams for review, all
-technical discussion regarding your change will occur on Github, inline with your code.
+technical discussion regarding your change will occur on GitHub, inline with your code.
 
 Further Information
 -------------------
@@ -147,6 +147,6 @@ links:
 * `Python Guidelines <https://github.com/edx/edx-platform/wiki/Python-Guidelines>`_
 * `Javascript Guidelines <https://github.com/edx/edx-platform/wiki/Javascript-Guidelines>`_
 
-.. _edx-platform Github wiki: https://github.com/edx/edx-platform/wiki#development
+.. _edx-platform GitHub wiki: https://github.com/edx/edx-platform/wiki#development
 .. _contributor's agreement with edX: http://open.edx.org/sites/default/files/wysiwyg/individual-contributor-agreement.pdf
 .. _compatible licenses: https://github.com/edx/edx-platform/wiki/Licensing

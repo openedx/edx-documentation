@@ -87,4 +87,6 @@ Word List
        result as the staff view or student view.
    * - XBlock
      - Use instead of "Xblock" or "xBlock".
+   * - GitHub
+     - The "H" is always capitalized.
 

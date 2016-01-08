@@ -4,7 +4,7 @@ Community Manager
 
 Community managers handle the first part of the process of responding to pull
 requests, before they are reviewed by core committers. Community managers are
-responsible for monitoring the Github project so that they are aware of incoming
+responsible for monitoring the GitHub project so that they are aware of incoming
 pull requests. For each pull request, a community manager should:
 
 #. Read the description of the pull request to understand the idea behind it
