@@ -669,8 +669,9 @@ learners' proctoring sessions contains the following fields.
    * - status
      - The status of the proctoring session review. Possible values are
        ``created``, ``ready to start``, ``started``, ``timed out``,
-       ``completed``, ``submitted``, ``verified``, ``rejected``, and
-       ``error``. For an explanation of each status, see the table below.
+       ``completed``, ``submitted``, ``second review required``, ``verified``,
+       ``rejected``, and ``error``. For an explanation of each status, see the
+       table below.
 
 
 The following table describes the possible values in the Status column.
@@ -696,6 +697,10 @@ The following table describes the possible values in the Status column.
    * - Submitted
      - The learner has completed the proctored exam and results have been
        submitted for review.
+   * - Second Review Required
+     - The exam attempt has been reviewed and the review team has
+       determined that it requires additional evaluation. The review team will
+       perform the second review. Course teams do not need to take any action.
    * - Satisfactory
      - The proctoring session review has been completed, and has passed.
    * - Unsatisfactory
