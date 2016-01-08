@@ -14,12 +14,12 @@ understanding of reStructuredText and formatting in .rst files. For more
 information, see :ref:`Work with edX Documentation Source Files`.
 
 In addition, you or another person on the translation team should understand
-Github repositories and the Github pull request process. For more information
-about using Github, see https://help.github.com.
+GitHub repositories and the GitHub pull request process. For more information
+about using GitHub, see https://help.github.com.
 
 The basic process for translating edX documentation consists of these steps.
 
-#. Use Github to clone the ``edx-documentation`` repository to a location on
+#. Use GitHub to clone the ``edx-documentation`` repository to a location on
    your local file system.
 
 #. Locate the target language folder that we have set up for you. This is your
@@ -32,7 +32,7 @@ The basic process for translating edX documentation consists of these steps.
       references.
 
 #. Create a working branch or branches off master to make translation changes.
-   Follow best practices for Github use. For information, see
+   Follow best practices for GitHub use. For information, see
    https://help.github.com.
 
    * Before making new branches, check that your local version of edx-
@@ -43,13 +43,13 @@ The basic process for translating edX documentation consists of these steps.
 
 	* Save changes in the source files without renaming or moving the files.
 
-	* Commit changes back to Github. 
+	* Commit changes back to GitHub.
 
-	* Create pull requests in Github for review purposes.
+	* Create pull requests in GitHub for review purposes.
 
 4. Build draft output and verify that everything renders as it should in both
    HTML and PDF formats. For information, see the "Verify Output" topic on this
-   wiki page: 
+   wiki page:
 
    https://openedx.atlassian.net/wiki/display/DOC/Instructions+for+Updating+Documentation
 

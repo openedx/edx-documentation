@@ -13,7 +13,7 @@ Kicking Off Builds
 ==================
 
 Jenkins has the ability to automatically detect new pull requests and changed
-pull requests on Github, and it can automatically run builds in response to
+pull requests on GitHub, and it can automatically run builds in response to
 these events. We have Jenkins configured to automatically run builds for all
 pull requests from core committers; however, Jenkins will *not* automatically
 run builds for new contributors, so a community manager will need to manually

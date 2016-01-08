@@ -7,7 +7,7 @@ Testing is something that we take very seriously at edX: we even have a
 infrastructure even more awesome.
 
 This file is currently a stub: to find out more about our testing infrastructure,
-check out the `testing.md`_ file on Github.
+check out the `testing.md`_ file on GitHub.
 
 .. toctree::
     :maxdepth: 2
