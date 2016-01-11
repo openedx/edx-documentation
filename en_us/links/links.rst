@@ -55,6 +55,10 @@
 
 .. GitHub Links
 
+.. _GitHub: http://github.com
+
+.. _custom_form_app: https://github.com/open-craft/custom-form-app
+
 .. _EdX Search: https://github.com/edx/edx-search/
 
 .. _GitHub Flow: https://github.com/blog/1557-github-flow-in-the-browser
@@ -346,6 +350,8 @@
 .. _1.8.7: https://docs.djangoproject.com/en/1.8/releases/1.8.7/
 
 .. _Django website: https://www.djangoproject.com
+
+.. _Django Forms: https://docs.djangoproject.com/en/1.8/ref/forms/
 
 .. _Database Transactions: https://docs.djangoproject.com/en/1.8/topics/db/transactions
 
