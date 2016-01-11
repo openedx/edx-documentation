@@ -8,6 +8,8 @@ Change Log
 
    * - Date
      - Change
+   * - 12 January 2016
+     - Added the :ref:`Customize Registration Page` topic.
    * - 16 December 2015
      - Updated the default value for the ``ENABLE_INSTRUCTOR_LEGACY_DASHBOARD``
        feature flag in the :ref:`Feature Flag Index`.
