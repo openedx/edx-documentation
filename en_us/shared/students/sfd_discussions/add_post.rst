@@ -110,7 +110,7 @@ you know where in the course a particular discussion originates, you can add a
 post for that discussion right from the unit in your course. This only applies
 to content-specific discussions.
 
-#. Select **Courseware**.
+#. Select **Course**.
 
 #. Open the unit in the course that includes the discussion topic that you want
    to add to.

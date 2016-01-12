@@ -7,7 +7,7 @@ Qualtrics Survey Tool
 .. note:: EdX offers full support for this tool.
 
 You can administer Qualtrics surveys to your learners in your edX course. The
-Qualtrics survey appears in an IFrame in the courseware.
+Qualtrics survey appears in an IFrame inside the course.
 
 .. image:: ../../../shared/images/Qualtrics.png
   :width: 500

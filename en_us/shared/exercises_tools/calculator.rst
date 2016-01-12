@@ -23,11 +23,11 @@ default. To make the calculator visible, you must enable it in the course
 advanced settings.
 
 When the calculator is visible in a course, the calculator icon appears at the
-bottom of every courseware page.
+bottom of every unit page.
 
 .. image:: ../../../shared/images/Calc_Closed.png
   :width: 600
-  :alt: Courseware page with an arrow pointing to the calculator.
+  :alt: Course page with an arrow pointing to the calculator.
 
 When learners select the calculator icon, the calculator opens along the lower
 edge of the browser window.
@@ -39,7 +39,7 @@ field.
 
 .. image:: ../../../shared/images/Calc_Open_InfoPage.png
   :width: 600
-  :alt: Courseware page with the calculator visible along the edge of the browser.
+  :alt: Course page with the calculator visible along the edge of the browser.
 
 Learners close the calculator by selecting the X.
 

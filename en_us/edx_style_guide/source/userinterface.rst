@@ -5,7 +5,7 @@ Documenting the User Interface
 ###############################
 
 In describing UI interactions, we refer to labels alone, rather than include
-specific descriptions of the UI controls. 
+specific descriptions of the UI controls.
 
 * Incorrect: In the **Randomization** drop-down list, click the **Never** option.
 
@@ -29,52 +29,52 @@ To do: Add images to table
    :widths: 20 80
 
    * - box
-     - 
+     -
    * - button
-     - 
+     -
    * - checkbox
      - One word. Users can select more than one checkbox at a time. See also
-       "radio button". 
+       "radio button".
 
        Users "select" or "clear"  a checkbox. They do not "check" or
        "deselect" them.
 
    * - component editor
-     - 
+     -
    * - control
-     - 
+     -
    * - course accordion
      - Do not use. Use "left pane." Formerly the list of sections and
-       subsections in the left pane of the **Courseware** page in the LMS.
+       subsections in the left pane of the **Course** page in the LMS.
    * - course pages
-     - 
+     -
    * - course tabs
-     - 
+     -
    * - dialog box
      - A small box that opens temporarily when a user performs an action. The
        user interacts with elements in the dialog box, which then disappears.
        A dialog box might just have cancel/OK buttons, or it may ask a user to
        specify a file.
    * - dropdown menu or list
-     - 
+     -
    * - field
      - A box that a user types or pastes text into. Preferred over "text box".
    * - heading
-     - 
+     -
    * - icon
      - A UI control that has an image for a label instead of words. Named
        icons have a mouseover tip that is used for identification. Unnamed
        icons, such as icons in a smartphone app, must be described.
    * - learning sequence, the
-     - The strip at the top of the **Courseware** page in the LMS that lists
+     - The strip at the top of the **Course** page in the LMS that lists
        the units in a subsection. Learning sequence is preferred over the
        previous term, "course ribbon".
    * - left pane
      - For an unnamed panel on the left side of the screen.
    * - page
-     - 
+     -
    * - pane
-     - 
+     -
    * - panel
      - A field on the right or left that doesn't extend for the entire length
        of the page.
@@ -82,7 +82,7 @@ To do: Add images to table
      - A list of related options that opens when a user performs an action.
        The menu disappears after the user selects an option.
    * - publishing status panel
-     - 
+     -
    * - radio button
      - A circular control that allows users to select only one of a list of
        options. See also "checkbox".
@@ -91,7 +91,7 @@ To do: Add images to table
    * - screen
      - Larger than a dialog box, with more options.
    * - window
-     - 
+     -
 
 
 ****************************

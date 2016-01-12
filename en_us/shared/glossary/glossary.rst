@@ -171,19 +171,10 @@ C
 
 **Course Handouts**
 
-  Course handouts are files you make available to students in the Course Info
+  Course handouts are files you make available to students on the **Home**
   page.
 
   For more information, see `Add Course Handouts`_.
-
-
-.. _Course Info Page:
-
-**Course Info Page**
-
-  The page that opens first every time students access your course. You can
-  post announcements on the Course Info page. The Course Handouts sidebar
-  appears in the right pane of this page.
 
 
 .. _Run:
@@ -194,14 +185,25 @@ C
   place. You set the course run when you create your course. For more
   information, see `Create a New Course`_.
 
-.. _Courseware:
+.. _Course Page:
 
-
-**Courseware**
+**Course Page**
 
   The page where students access the primary instructional materials for your
   course. Sections, subsections, units, and components are all accessed from
-  the Courseware page.
+  the **Course** page. This page was formerly called the **Courseware** page.
+
+.. _Courseware:
+
+**Courseware**
+
+  In Open Learning XML (OLX) and in data packages, "courseware" refers to the
+  main content of your course, consisting mainly of lessons and assessments.
+  Courseware is organized into sections, subsections, units, and components.
+  Courseware does not include handouts, the syllabus, or other course
+  materials.
+
+  Note that the **Course** page was formerly called the **Courseware** page.
 
 **Course-Wide Discussion Topic**
 
@@ -354,6 +356,15 @@ G
 H
 ****
 
+.. _Home Page:
+
+**Home Page**
+
+  The page that opens first every time students access your course. You can
+  post announcements on the **Home** page. The **Course Handouts** sidebar
+  appears in the right pane of this page. This page was formerly called the
+  **Course Info** page.
+
 .. _HTML Component:
 
 **HTML Component**
@@ -439,14 +450,14 @@ L
 
 **Learning Sequence**
 
-  The horizontal navigation bar that appears at the top of the **Courseware**
+  The horizontal navigation bar that appears at the top of the **Course**
   page in the LMS. The learning sequence contains an icon for each unit in the
   selected subsection. When a learner moves the cursor over one of these
   icons, the names of each component in that unit appear.
 
 **Left Pane**
 
-  The navigation frame that appears at the left side of the **Courseware**
+  The navigation frame that appears at the left side of the **Course**
   page in the LMS. The left pane shows the sections in the course. When you
   click a section, the section expands to show subsections.
 
@@ -514,7 +525,7 @@ M
 **Module**
 
   An item of course content, created in an XBlock, that appears on the
-  **Courseware** page in the edX learning management system. Examples of
+  **Course** page in the edX learning management system. Examples of
   modules include videos, HTML-formatted text, and problems.
 
   Module is also used to refer to the structural components that organize
@@ -577,7 +588,7 @@ P
 **Pages**
 
   Pages organize course materials into categories that students select in the
-  learning management system. Pages provide access to the courseware and to
+  learning management system. Pages provide access to the course content and to
   tools and uploaded files that supplement the course. Each page appears in
   your course's navigation bar.
 
@@ -819,7 +830,7 @@ XYZ
 
 **XBlock**
 
-  EdX's component architecture for writing courseware components: XBlocks are
+  EdX's component architecture for writing course components: XBlocks are
   the components that deliver course content to learners.
 
   Third parties can create components as web applications that can run within

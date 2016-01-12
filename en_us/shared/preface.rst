@@ -356,7 +356,7 @@ is available.
 
 * `Open edX Learner's Guide`_ helps students use the Open edX LMS to take
   courses. This guide is available on the docs.edx.org web page. Because
-  learners are currently only guided to this resource through the courseware,
+  learners are currently only guided to this resource through the course,
   we encourage course teams to provide learners with links to this guide as
   needed in course updates or discussions.
 
@@ -401,7 +401,7 @@ Documentation
 
 The `EdX Learner's Guide`_ and the `Open edX Learner's Guide`_ are available
 on the docs.edx.org web page. Because learners are currently only guided to
-this resource through the courseware, we encourage course teams to provide
+this resource through the course, we encourage course teams to provide
 learners with links to these guides as needed in course updates or discussions.
 
 ==============
@@ -415,7 +415,7 @@ Many courses also offer a wiki for additional resources and materials: select
 
 Other resources might also be available, such as a course-specific Facebook
 page or Twitter feed, or opportunities for Google Hangouts. Be sure to check
-the **Course Info** page for your course as well as the **Discussion** and
+the **Home** page for your course as well as the **Discussion** and
 **Wiki** pages.
 
 From time to time, the course team might send email messages to all students.

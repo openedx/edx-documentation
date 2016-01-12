@@ -242,8 +242,8 @@ Certificates for Self-Paced Courses
 ***********************************
 
 While most edX courses have specific start and end dates, a few courses are
-self-paced. You can start these courses anytime and work through the
-courseware at your own pace.
+self-paced. You can start these courses anytime and work through them at your
+own pace.
 
 Receiving a certificate for a self-paced course is similar to receiving a
 certificate for a regular course. After you have completed all course
@@ -253,7 +253,7 @@ complete any additional steps to obtain your certificate.
 Be aware, however, that different self-paced courses issue certificates at
 different intervals. Some courses issue certificates once a month, and others
 issue certificates less frequently. For more information about your course's
-specific certificate schedule, see the About page or the **Course Info** tab
+specific certificate schedule, see the About page or the **Home** page
 for your course.
 
 .. _SFD On Demand Certificates:

@@ -189,7 +189,7 @@ Run the Open edX Analytics Pipeline
 
 #. In the Devstack LMS, register a new user and enroll in the demo course.
 
-#. Navigate to the courseware and submit answers to a few problems.
+#. Navigate to the course body and submit answers to a few problems.
 
 #. Navigate to the location where edx-analytics-pipeline project was cloned on
    the host.

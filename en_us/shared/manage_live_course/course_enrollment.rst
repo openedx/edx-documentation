@@ -210,6 +210,6 @@ To unenroll learners, you supply the email addresses of enrolled learners.
 
 #. Select **Unenroll**. The course is no longer listed on the learners'
    **Current Courses** dashboards, and the learners can no longer access the
-   courseware or contribute to discussions or the wiki.
+   course content or contribute to discussions or the wiki.
 
 .. include:: ../../../links/links.rst

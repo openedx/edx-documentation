@@ -244,7 +244,7 @@ user can click the image in the document to enlarge it.
 
   * - Full screen width
     - 600
-  * - Courseware pane
+  * - Course pane
     - 500
   * - Component editor
     - 450
@@ -262,7 +262,7 @@ Full screen width
   :width: 600
   :alt: 600-pixel-wide image.
 
-Courseware pane or Course Outline page
+Course pane or Course Outline page
 
 .. image:: Images/Units_LMS.png
   :width: 500

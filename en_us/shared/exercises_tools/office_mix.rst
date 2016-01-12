@@ -64,7 +64,7 @@ This topic describes how to embed PowerPoint (.ppt) format mixes in your
 course. The following example shows a mix as learners see it in the edX LMS.
 
 .. image:: ../../../shared/images/office_mix.png
-  :alt: An Office mix in courseware.
+  :alt: An Office mix in the course.
   :width: 800
 
 For information about how to create mixes, see the `Office Mix Knowledge
@@ -156,7 +156,7 @@ the mix that you want to add and obtain its URL.
 
 #. In the **Component Display Name** field, enter an identifying name for the
    component. This name appears to learners as a tooltip in the learning
-   sequence at the top of the **Courseware** page.
+   sequence at the top of the **Course** page.
 
 #. In the **Office Mix URL** field, enter the complete URL for the mix that you
    want to add. For example, ``https://mix.office.com/watch/1otxpj7hz6kbx``.

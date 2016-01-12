@@ -18,7 +18,7 @@ You can add discussion components to a unit to pose questions related to the
 unit and give learners a chance to respond and interact on a specific subject.
 
 Discussion topics that you create by adding discussion components in your
-courseware are known as content-specific discussion topics.
+course are known as content-specific discussion topics.
 
 For more information about discussions, see these topics.
 

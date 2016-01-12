@@ -133,7 +133,7 @@ repositories for `iOS`_ and `Android`_.
 Configuring Video Modules for Mobile
 ************************************
 
-Courseware videos must be specifically prepared to ensure that they are in
+Course videos must be specifically prepared to ensure that they are in
 mobile accessible formats. Video modules in mobile-available courses should
 have low resolution encodings that are readily accessible by mobile
 devices.

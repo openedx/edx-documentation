@@ -32,11 +32,11 @@ Overview
 *********
 
 You can embed a Google calendar in your course so that learners see the
-calendar in the courseware. You can use a Google calendar to share quiz dates,
+calendar in the course body. You can use a Google calendar to share quiz dates,
 office hours, or other schedules of interest to learners. For example:
 
 .. image:: ../../../shared/images/google-calendar.png
-  :alt: A Google calendar in courseware.
+  :alt: A Google calendar in the course body.
 
 *******************************************
 Embedding a Google Calendar in Your Course
@@ -107,7 +107,7 @@ Make the Google Calendar Public
 #. Select the **Calendars** tab.
 
    You might have multiple calendars on the **Calendars** tab. Find the
-   calendar that you want to share in your courseware.
+   calendar that you want to share in your course.
 
 #. In the row for the calendar to share, in the **Sharing** column, select
    **Edit Settings**.
@@ -145,13 +145,13 @@ Obtain the Google Calendar ID
    Select and copy the calendar ID. You use this value to configure the Google
    calendar component in your course.
 
-.. _Add a Google Calendar in the Courseware:
+.. _Add a Google Calendar in the Course Body:
 
 ========================================
-Add a Google Calendar in the Courseware
+Add a Google Calendar in the Course Body
 ========================================
 
-To add a Google calendar in the courseware, you create an advanced component
+To add a Google calendar in the course body, you create an advanced component
 in Studio or create a Google calendar XBlock in OLX.
 
 .. _Add a Google Calendar Component in edX Studio:

@@ -378,7 +378,7 @@ In contrast, :ref:`course-wide discussion topics<Create CourseWide Discussion
 Topics>` that you create on the **Advanced Settings** page in Studio,
 including the default "General" discussion topic, are immediately visible,
 regardless of whether the course has started. They are not associated with any
-particular section or subsection of the courseware, and are not subject to
+particular section or subsection of the course, and are not subject to
 release dates.
 
 
@@ -590,7 +590,7 @@ interactions to make their influence positive and their time productive.
   and use it to respond to the redundant threads.
 
 * Publicize issues raised in the discussions: add questions and their answers
-  to an FAQ topic, or announce them on the Course Info page.
+  to an FAQ topic, or announce them on the **Home** page.
 
 For a template that you can use to develop guidelines for your course
 moderators, see :ref:`Guidance for Discussion Moderators`.
@@ -752,7 +752,7 @@ course units and all of the course-wide topics are affected.
 
 .. note:: To make sure your learners understand why they cannot add to
   discussions, you can add the dates that discussions are closed to the
-  **Course Info** page and post them to a General discussion.
+  **Home** page and post them to a General discussion.
 
 .. _Start-End Date Format Specification:
 

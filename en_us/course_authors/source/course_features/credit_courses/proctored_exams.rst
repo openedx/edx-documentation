@@ -101,7 +101,7 @@ result. After their proctoring sessions are available, learners can receive
 either a **Satisfactory** or **Unsatisfactory** result.
 
 Learners can check their proctoring session results by returning to the
-proctored exam in the courseware. Their proctoring session review results are
+proctored exam in the course. Their proctoring session review results are
 updated there when results are received. In addition, learners can go to their
 **Progress** pages, where they can check their proctored exam results as a
 part of their overall credit eligibility status.
@@ -152,14 +152,13 @@ see :ref:`SFD Before Taking Proctored Exam` in the *edX Learner's Guide*.
 
 After learners successfully complete the checks, the proctoring session starts.
 Learners are reminded not to close the proctoring software window. They are
-prompted to return to the browser window where the courseware is open, and to
+prompted to return to the browser window where the course is open, and to
 start taking the exam.
 
-A countdown timer is visible at the top of the courseware page during the
-exam. Warnings are displayed when there is 20% and 5% of allotted time
-remaining. For example, if the allowed time in the exam is 60 minutes,
-learners see a warning when there are 12 minutes left, and again when there
-are 3 minutes left.
+A countdown timer is visible at the top of the page during the exam. Warnings
+are displayed when there is 20% and 5% of allotted time remaining. For example,
+if the allowed time in the exam is 60 minutes, learners see a warning when
+there are 12 minutes left, and again when there are 3 minutes left.
 
 For information about scenarios that learners might encounter while taking
 proctored exams, see :ref:`Respond to Learner Concerns about Proctored Exams`
@@ -176,7 +175,7 @@ uploading the captured session data.
 
 On the proctored exam page in the LMS, learners see a status of "Pending" for
 their proctoring session results until their session data has been reviewed.
-They can return to this page in the courseware or check their **Progress**
+They can return to this page in the course or check their **Progress**
 pages in the LMS for updates to their proctoring review results.
 
 
@@ -383,7 +382,7 @@ To create a practice exam, follow these steps.
    information about the proctored exam in your course. You might also want to
    add a few dummy questions to the exam.
 
-The practice exam is added to the courseware, and is visible to all learners
+The practice exam is added to the course, and is visible to all learners
 regardless of their enrollment track.
 
 .. _specifying_exam_rules_and_exceptions:
@@ -651,7 +650,7 @@ learners' proctoring sessions contains the following fields.
      - The username or email address that identifies the learner taking the
        proctored exam.
    * - exam_name
-     - The name of the proctored exam in the courseware.
+     - The name of the proctored exam in the body of the course.
    * - attempt_code
      - An identifier for the exam attempt. The attempt code is an
        internal identifier and is included in the report for use in

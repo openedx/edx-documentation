@@ -69,7 +69,7 @@ starts follow.
 * Two months before the course start date, prepare and send a welcome email
   message to currently enrolled learners. See :ref:`Prelaunch Reminder` and
   :ref:`Send_Bulk_Email`.
-* Compose a welcome message and add it to the **Course Info** page. See
+* Compose a welcome message and add it to the **Home** page. See
   :ref:`Add a Course Update`.
 * Verify that a syllabus and other references are available on the **Course
   Handouts** page. See :ref:`Add Course Handouts`.

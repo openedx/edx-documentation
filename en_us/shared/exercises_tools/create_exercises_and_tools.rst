@@ -66,7 +66,7 @@ General Exercises and Tools
 
   .. note:: In addition to the following exercises and tools, Open edX offers
    the :ref:`Notes tool<Notes Tool>`. The Notes tool allows learners to
-   highlight and make notes about what they read in the courseware. This tool
+   highlight and make notes about what they read in the course. This tool
    is not available for courses on edx.org.
 
 .. list-table::
@@ -85,7 +85,7 @@ General Exercises and Tools
    * - :ref:`Calculator`
      - The calculator tool is available for every course through the course
        advanced settings. When the calculator tool is enabled, it appears on
-       every courseware page. Learners can enter input that includes Greek
+       every unit page. Learners can enter input that includes Greek
        letters, trigonometric functions, and scientific or ``e`` notation in
        addition to common operators.
      - Provisional support
@@ -119,12 +119,12 @@ General Exercises and Tools
      - Provisional support
    * - :ref:`Google Calendar Tool`
      - You can embed a Google calendar in your course so that students see the
-       calendar in the courseware. You can use a Google calendar to share quiz
+       calendar in the course body. You can use a Google calendar to share quiz
        dates, office hours, or other schedules of interest to students.
      - Full support
    * - :ref:`Google Drive Files Tool`
      - You can embed a Google Drive file, such as a document, spreadsheet, or
-       image, in your course so that students see the file in the courseware.
+       image, in your course so that students see the file in the course body.
      - Full support
    * - :ref:`Google Instant Hangout`
      - You can add the ability for students to participate in instant hangouts
@@ -142,7 +142,7 @@ General Exercises and Tools
      - Full support
    * - :ref:`Office Mix Tool`
      - You can embed interactive lessons created from PowerPoint files so that
-       learners can experience them directly in the courseware.
+       learners can experience them directly in the course body.
      - Full support
    * - :ref:`Open Response Assessments 2`
      - In open response assessments, students receive feedback on written
@@ -152,7 +152,7 @@ General Exercises and Tools
      - Full support
    * - :ref:`Oppia Exploration Tool`
      - You can embed Oppia explorations in your course so that learners can
-       interact with them directly in the courseware.
+       interact with them directly in the course body.
      - Full support
    * - :ref:`UBC Peer Instruction`
      - This tool offers the experience of the Peer Instruction learning system

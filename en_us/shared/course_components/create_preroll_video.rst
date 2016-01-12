@@ -14,7 +14,7 @@ videos in your course. For example, a pre-roll video might provide learners
 with information about your organization, or about the next course in an
 XSeries. One pre-roll video can be included in each course.
 
-.. contents:: 
+.. contents::
   :local:
   :depth: 1
 
@@ -22,7 +22,7 @@ XSeries. One pre-roll video can be included in each course.
 How Learners Experience a Pre-Roll Video
 =========================================
 
-When a learner selects any video in the courseware, the defined course pre-roll
+When a learner selects any video in the course, the defined course pre-roll
 video might automatically begin to play before the selected video plays. The
 pre-roll video does not play every time a learner plays any of the course
 videos. Instead, it plays on an infrequent schedule.
@@ -32,7 +32,7 @@ options for learners to select.
 
 * **Skip**: The pre-roll video immediately stops playing and the course video
   selected by the learner begins playing.
- 
+
 * **Do not show again**: The learner opts out of viewing the pre-roll video.
   The pre-roll video does not play for that learner again.
 
@@ -50,8 +50,8 @@ Preparing the Pre-Roll Video
 
 To include a pre-roll video in your course, you prepare the video file and its
 transcript file or files and upload them to Studio. Because the pre-roll video
-is not part of the courseware defined in the course outline, you do not use a
-video component to add the pre-roll video to your course.
+is not part of the course that is defined in the course outline, you do not use
+a video component to add the pre-roll video to your course.
 
 Guidelines for Creating Pre-Roll Videos
 *********************************************
@@ -80,7 +80,7 @@ as many learners as possible.
 * Before you create a pre-roll video, be sure to review :ref:`Creating
   Accessible Media`.
 
-* The video must have at least one accompanying transcript. 
+* The video must have at least one accompanying transcript.
 
 * The video must be in .mp4 or .mov format. For more information, see
   `Specifications for Successful Video Files`_ in the *Processing Video Files*
@@ -97,8 +97,8 @@ the *Processing Video Files* guide.
 Prepare Pre-Roll Video Transcript Files
 **********************************************************
 
-You must provide at least one transcript file for your pre-roll video. You 
-can provide additional transcript files in multiple languages. 
+You must provide at least one transcript file for your pre-roll video. You
+can provide additional transcript files in multiple languages.
 
 * If you have transcript files in more than one language, edX recommends that
   you include identifying `ISO 639-1 codes`_ in your transcript file names.
@@ -120,7 +120,7 @@ To prepare transcript files for a pre-roll video, follow these steps.
    code as part of the file name. Example file names follow.
 
    ::
-   
+
     edx_preroll_en.srt
     edx_preroll_fr.srt
     edx_preroll_ru.srt
@@ -129,12 +129,12 @@ To prepare transcript files for a pre-roll video, follow these steps.
 Upload Pre-Roll Video Transcript Files
 **********************************************************
 
-To upload transcript files for a pre-roll video into Studio, follow these 
+To upload transcript files for a pre-roll video into Studio, follow these
 steps.
 
 #. Open your course in Studio.
 
-#. Select **Content**, and then **Files & Uploads**. 
+#. Select **Content**, and then **Files & Uploads**.
 
 #. Upload the files. For more information, see :ref:`Add Files to a Course`.
 
@@ -144,10 +144,10 @@ Configuring a Pre-Roll Video for Your Course
 
 To configure a pre-roll video and its transcript files for your course, you use
 an advanced setting in Studio. Because the pre-roll video is not part of the
-courseware defined in the course outline, you do not use a video component to
-add the pre-roll video.
+course that is defined in the course outline, you do not use a video component
+to add the pre-roll video.
 
-You can identify only one file as the pre-roll video at a time, but you can 
+You can identify only one file as the pre-roll video at a time, but you can
 replace the file with a new one, or delete the file, at any time.
 
 Identify the Pre-Roll Video and Its Transcripts
@@ -180,19 +180,19 @@ To identify the pre-roll video for your course, follow these steps.
 
      {"video_id": "83cef264-d6f5-4cf2-ad9d-0178ab8c92cd"}
 
-#. After the closing quotation mark, add a comma and a space. 
+#. After the closing quotation mark, add a comma and a space.
 
    ::
 
      {"video_id": "83cef264-d6f5-4cf2-ad9d-0178ab8c92cd", }
 
-#. After the comma and the space, enter ``"transcripts": {}``. 
+#. After the comma and the space, enter ``"transcripts": {}``.
 
 #. Inside the pair of braces for the transcripts, you enter a value pair to
    identify the language of the transcript file and then its file name from
    the **Files & Uploads** page.
 
-   .. note:: You identify the language of each transcript file with an 
+   .. note:: You identify the language of each transcript file with an
     ISO 639-1 code or with zh_HANS or zh_HANT. If your transcript file names do
     not already include a language code, you will need a reference such as this
     list of `ISO 639-1 codes`_.
@@ -200,7 +200,7 @@ To identify the pre-roll video for your course, follow these steps.
    ::
 
      {"video_id": "83cef264-d6f5-4cf2-ad9d-0178ab8c92cd", "transcripts": {"en": "edx_preroll_en.srt"}}
- 
+
    You add the language code in quotation marks, followed by a colon and a
    space, and then add the file name in quotation marks. To identify
    transcript files in Chinese, you can include ``"zh_HANS"`` for Simplified
@@ -214,7 +214,7 @@ To identify the pre-roll video for your course, follow these steps.
 
       {"video_id": "83cef264-d6f5-4cf2-ad9d-0178ab8c92cd", "transcripts": {"en": "edx_preroll_en.srt", "zh_HANS": "edx_preroll_zh_HANS.srt", "zh_HANT": "edx_preroll_zh_HANT.srt"}}
 
- 
+
 #. Select **Save Changes**. Studio resequences and reformats your entry.
     Scroll back to **Video Pre-roll** to verify that your entry was saved as
     you expect. Entries that do not contain all of the required punctuation
@@ -235,12 +235,12 @@ To identify the pre-roll video for your course, follow these steps.
 Replace the Pre-Roll Video and Its Transcripts
 ***********************************************
 
-You can change the pre-roll video for your course at any time. 
+You can change the pre-roll video for your course at any time.
 
-.. Note:: The replacement pre-roll video is not shown to learners who have 
+.. Note:: The replacement pre-roll video is not shown to learners who have
  already selected the **Do not show again** option.
 
-To replace the pre-roll video for your course, follow these steps. 
+To replace the pre-roll video for your course, follow these steps.
 
 #. Add the new pre-roll video file to your course on the **Video Uploads**
    page.
@@ -255,24 +255,24 @@ To replace the pre-roll video for your course, follow these steps.
 #. Replace the previous transcript file names with the new names. If needed, be
    sure to update the language codes for the transcripts.
 
-#. Select **Save Changes**. 
+#. Select **Save Changes**.
 
 
 Remove the Pre-Roll Video
 ****************************
 
-To remove the pre-roll file from your course, follow these steps. 
+To remove the pre-roll file from your course, follow these steps.
 
 #. On the **Advanced Settings** page, delete the contents of the **Video
    Pre-roll** field.
 
-#. Enter a pair of braces in the field. 
-   
+#. Enter a pair of braces in the field.
+
    ::
 
     {}
 
-#. Select **Save Changes**. 
+#. Select **Save Changes**.
 
 
 .. _Processing Video Files: http://processing-video-files.readthedocs.org/en/latest/

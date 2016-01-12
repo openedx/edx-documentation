@@ -65,10 +65,10 @@ iPhones.
 
     .. include:: ../../shared/students/Section_mobile_gettingstarted.rst
 
-.. _Courseware Questions:
+.. _Course Questions:
 
 *************************
-Courseware Questions
+Course Questions
 *************************
 
 ========================================================

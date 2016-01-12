@@ -84,7 +84,7 @@ content during the day. If you do not specify a start time for your course,
 learners see the default start time, 00:00 Coordinated Universal Time (UTC).
 
 Learners can see some parts of the course before the course start date. For
-example, they can see your **Course Info** page and course-wide discussion
+example, they can see your **Home** page and course-wide discussion
 topics as soon as they enroll in your course. For more information, see
 :ref:`Create CourseWide Discussion Topics`.
 
