@@ -48,6 +48,8 @@ For information about how to enable this tool in Studio and add mixes to a
 course, see :ref:`opencoursestaff:Office Mix Tool` in *Building and Running an
 Open edX Course*.
 
+.. _LTI XBlock:
+
 LTI XBlock
 ***********
 
@@ -290,43 +292,24 @@ The following features are deprecated as of the Open edX Dogwood release.
 
 
 "shoppingcart" functional should be considered deprecated as of Dogwood and will be removed in a future release. Similar services will be provided by "Otto" going forward
-ORA1 code is completely removed
 
-Legacy instructor dash is turned off by default, and will be removed entirely in Eucalyptus
-
-
-* Support has ended for the "legacy" Instructor Dashboard. The LMS now
-  presents a single version of the Instructor Dashboard. The **Revert to
-  Legacy Dashboard** option is no longer available.
-
-  The :ref:`installation:Feature Flag Index` in the *Installing, Configuring,
-  and Running the edX Platform* guide is updated to reflect this change.
-
-
-* The **Data Download** page in the Instructor Dashboard now includes an option
-  to download a report of all learner submissions for a specified problem.
-  Previously, you downloaded this report from the Legacy Instructor Dashboard.
 
 
 Old code has been removed:
 Admin dashboard
 abtest_module
-Psychometrics
-"Licenses" djangoapp
-FoldIt XModule
-Studio course checklists
+
+
 Removed support for the outdated ispublic field on the Course Module, including its corresponding ACCESS_REQUIRE_STAFF_FOR_COURSE feature flag.  Instead, operators should use COURSE_CATALOG_VISIBILITY_PERMISSION and COURSE_ABOUT_VISIBILITY_PERMISSION settings.
-The "graphical_slider_tool" is deprecated, and will no longer be available starting in in Eucalyptus (the code has been removed from Master).
 
-Several unused and deprecated items have been removed from the edX Platform, including the FoldIt protein simulator XModule and the first version of open response assessments (ORA 1). Courses that used ORA 1 continue to have access to associated data.
 
-Several unused and deprecated items have been removed from the edX Platform, including several Django elements. The following list includes some of these items.
-The first version of open response assessments (ORA 1). Courses that used ORA 1 continue to have access to associated data.
+Several unused and deprecated items have been removed from the edX Platform.
+
+The following list includes some of these items.
+
 The Checklist page previously available from the Studio Tools menu.
-The FoldIt protein simulator XModule.
-The Psychometrics Django app.
-The Licenses Django app.
-The “legacy” Instructor Dashboard, including a Django admin dashboard for analytics reports, which were available by view from the legacy Instructor Dashboard.
+
+
 
 ==================================
 Original ORA Problems Deprecated
@@ -340,14 +323,46 @@ A newer version of the open response assessments feature (ORA 2) was released
 over a year ago, and the ability to add ORA 1 problems was removed from Studio
 in May 2014.
 
+
+============================
+Legacy Instructor Dashboard
+============================
+
+Support has ended for the "legacy" Instructor Dashboard. The Legacy Instructor
+Dashboard is now disabled by default, and the LMS presents a single version of
+the Instructor Dashboard. The **Revert to Legacy Dashboard** option is no
+longer available.
+
+Code for the Legacy Instructor Dashboard will be removed entirely in the Open
+edX Eucalyptus release.
+
+The **Data Download** page in the Instructor Dashboard now includes an option
+to download a report of all learner submissions for a specified problem.
+Previously, this report was available only from the Legacy Instructor Dashboard
+through a view on a Django app.
+
+============================
+XModules and Tools
+============================
+
+The following XModules and tools are deprecated in the Dogwood release.
+
+* The FoldIt protein simulator XModule.
+
+* The LTI XModule. This XModule has been replaced by the :ref:`LTI XBlock`.
+
+* Support has now ended for the graphical_slider_tool. Code for this tool will
+  be removed entirely in the Open edX Eucalyptus release.
+
 ============
-LTI
+Django Apps
 ============
 
-LTI XModule replaced by LTI XBlock.
+The following Django apps are deprecated in the Dogwood release.
 
+* The Psychometrics Django app.
 
-
+* The Licenses Django app.
 
 ************************************************
 Supported Browser Changes
@@ -375,17 +390,14 @@ of Open edX.
 
 
 
-
-
-
-
 ===================
 Django 1.8 Upgrade
 ===================
 
-The upgrade from Django 1.4 to Django 1.8 includes the following changes as well as several additional
-changes. For more information, see the `Django 1.8 Upgrade Release Notes`_ page
-on the edX wiki or the `Django 1.8 pull request`_ in GitHub.
+The edX platform was upgraded from Django 1.4 to Django 1.8.7. This section
+summarizes the effects of this upgrade. For more information, see the `Django
+1.8 Upgrade Release Notes`_ page on the edX wiki or the `Django 1.8 pull
+request`_ in GitHub.
 
 Transactions
 *********************
@@ -419,8 +431,8 @@ Pip
 * To avoid errors, you must always specify a version number in a URL-based
   requirements file line.
 
-* New dependencies should use the "editable" (``-e``) prefix only when necessary.
-
+* New dependencies should use the "editable" (``-e``) prefix only when
+  necessary.
 
 Model Migrations
 *********************
@@ -447,13 +459,3 @@ resources.
 * `Django 1.6`_
 * `Django 1.7`_
 * `Django 1.8`_
-
-=========================================
-Upgrade to Django 1.8.7
-=========================================
-
-As a follow up to the upgrade of the edX platform to Django 1.8.5, this release
-upgrades the edX platform to Django 1.8.7.
-
-For more information, see the Django release notes for `1.8.6`_ and `1.8.7`_.
-
