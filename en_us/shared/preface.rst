@@ -307,28 +307,14 @@ Additional repositories are used for other projects. Our contributor agreement,
 contributor guidelines and coding conventions, and other resources are
 available in these repositories.
 
-===============
-Email and Slack
-===============
+======================
+Community Discussions
+======================
 
-To receive and share information by email, developers can join these Google
-groups to ask questions and participate in discussions with peers and edX
-staffers.
+The `Community Discussions`_ page in the Open edX Portal lists different
+ways that you can ask, and answer, questions.
 
-* For conversations about the code in Open edX, join `edx-code`_.
-* For conversations about running Open edX, join `openedx-ops`_.
-* For conversations about globalization and translation,
-  join `openedx-translation`_.
-
-Additional Google groups are occasionally formed for individual projects.
-
-.. note::
- Please do not report security issues in public. If you have a concern,
- please email security@edx.org.
-
-For real-time conversation about Open edX, the edX open source community
-managers run a Slack team. To join the team, get an `invitation to
-Slack`_ and follow the instructions.
+.. _Community Discussions: https://open.edx.org/resources/community-discussions
 
 ====================
 Wikis and Web Sites
@@ -479,7 +465,6 @@ edX Global Community meetup_ group.
 .. _edX Status: http://status.edx.org/
 .. _edx-tools: https://github.com/edx/edx-tools/wiki
 .. _frequently asked questions: http://www.edx.org/student-faq
-.. _invitation to Slack: https://openedx-slack-invite.herokuapp.com/
 .. _Installing, Configuring, and Running the edX Platform: http://edx.readthedocs.org/projects/edx-installing-configuring-and-running/en/latest/
 .. _meetup: http://www.meetup.com/edX-Global-Community/
 .. _openedx-analytics: http://groups.google.com/forum/#!forum/openedx-analytics
