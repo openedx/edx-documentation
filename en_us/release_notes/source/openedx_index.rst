@@ -10,6 +10,12 @@ The following information describes what is new in Open edX.
   :local:
   :depth: 1
 
+***********************
+Week of 11 January 2016
+***********************
+
+.. include:: 2016/openedx/openedx_0111_2016.rst
+
 ******************
 16 December 2015
 ******************
