@@ -1,0 +1,3 @@
+
+An error that prevented the "View as a specific student" feature from
+presenting course content has been resolved. (TNL-3556)
