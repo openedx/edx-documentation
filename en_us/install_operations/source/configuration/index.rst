@@ -11,6 +11,7 @@ configuration options.
    :maxdepth: 2
 
    updating_platform
+   customize_registration_page
    enable_prerequisites
    enable_entrance_exams
    enable_licensing
