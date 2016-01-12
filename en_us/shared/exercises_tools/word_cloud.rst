@@ -48,7 +48,7 @@ To create a word cloud, follow these steps.
    leave the default value for everything except **Display Name**.
 
   -  **Display Name**: This name appears as a heading above the problem and as
-     a tooltip in the learning sequence at the top of the **Courseware** page.
+     a tooltip in the learning sequence at the top of the **Course** page.
   -  **Inputs**: The number of text boxes into which students can enter words,
      phrases, or sentences.
   -  **Maximum Words**: The maximum number of words that the word cloud

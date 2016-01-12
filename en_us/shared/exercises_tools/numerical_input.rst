@@ -43,7 +43,8 @@ problems so that learners' responses do not have to be exact. You can
 specify a correct answer explicitly or use a Python script.
 
 .. note::
-  You can make a calculator available to your learners on every courseware
+  You can make a calculator available to your learners on every unit
+
   page. For more information, see :ref:`Calculator`.
 
 **************************************************

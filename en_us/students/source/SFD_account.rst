@@ -1,8 +1,8 @@
 .. _Getting Started_account:
 
-###################
-Getting Started
-###################
+#######################
+Getting Started on edX
+#######################
 
 This topic describes the steps you take before you begin your first edX
 course.

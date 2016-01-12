@@ -18,8 +18,8 @@ sure to review the content to ensure that it is accessible to people with
 disabilities. For more information, see :ref:`Accessibility Best Practices for
 Course Content Development`.
 
-You can also use :ref:`Google calendars<Google Calendar Tool>` in courseware.
-For more information, see :ref:`Google Calendar Tool`.
+You can also use :ref:`Google calendars<Google Calendar Tool>` in the course
+body. For more information, see :ref:`Google Calendar Tool`.
 
 .. note:: Google services are not available in some regions and countries. If
   Google services are not available in a learner's area, the learner might see
@@ -32,12 +32,12 @@ Overview
 *********
 
 You can embed a Google Drive file in your course so that learners see the file
-in the courseware. For example, you can share a Google spreadsheet with
+in the course body. For example, you can share a Google spreadsheet with
 learners.
 
 .. image:: ../../../shared/images/google-spreadsheet.png
   :width: 600
-  :alt: A Google spreadsheet in courseware.
+  :alt: A Google spreadsheet in the course body.
 
 You can embed the following types of Google Drive files.
 
@@ -136,7 +136,7 @@ file to the web and obtain the embed code for the file.
 Add a Google Drive File to Your Course
 ========================================
 
-To add a Google Drive file in the courseware, you create an advanced
+To add a Google Drive file in the course body, you create an advanced
 component in Studio or create a Google Document XBlock in OLX.
 
 .. _Add a Google Drive File Component in edX Studio:

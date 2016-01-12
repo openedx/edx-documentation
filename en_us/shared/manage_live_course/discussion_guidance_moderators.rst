@@ -46,7 +46,7 @@ Responsibilities
   impact. These learners can be promoted to community TA role and publicly
   acknowledged.
 
-* Add helpful items to the FAQ or Course Info page.
+* Add helpful items to the FAQ or **Home** page.
 
 ***************************************
 Qualities of Good Discussion Moderators
@@ -75,7 +75,7 @@ Best Practices for Discussion Moderation
 * Encourage discussion between learners. Actively thank learners who answer
   the questions of others.
 
-* Use the course's FAQ and Course Info pages as resources. Provide links to
+* Use the course's FAQ and **Home** pages as resources. Provide links to
   these pages in your responses when appropriate. Suggest that information be
   added to these resources when necessary to respond to a common question or
   fix confusion.

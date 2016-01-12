@@ -95,7 +95,7 @@ Making Course Content Searchable
 
 Learners can search course text in :ref:`HTML components<Working with HTML
 Components>` and video transcripts by using the **Search** box in the upper-left
-corner of the **Courseware** tab.
+corner of the **Course** tab.
 
 Before learners can search your course, Studio must index the content. Studio
 indexes all new course content automatically when you :ref:`publish<Publish a

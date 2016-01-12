@@ -73,7 +73,7 @@ Communicate to Learners abut Requesting Certificates
 =====================================================
 
 If your course offers on-demand certificates, we encourage you to include this
-information on your course About page, on the **Course Info** page, and in
+information on your course About page, on the **Home** page, and in
 communication with your learners.
 
 .. only:: Partners

@@ -179,7 +179,7 @@ Specify that All Content-Specific Discussion Topics are Cohorted
 
 The default behavior for content-specific discussion topics is that they are
 divided by cohort when you first :ref:`add them<Create ContentSpecific
-Discussion Topics>` in your courseware. If you want all content-specific
+Discussion Topics>` in your course. If you want all content-specific
 discussion topics in your course to be divided by cohort, you do not need to
 take any action.
 
@@ -218,7 +218,7 @@ Specify that Some Content-Specific Discussion Topics are Divided by Cohort
 
 The default behavior for content-specific discussion topics is that they are
 divided by cohort when you first :ref:`add them<Create ContentSpecific
-Discussion Topics>` in your courseware.
+Discussion Topics>` in your course.
 
 To make only a few of your content-specific discussion topics divided by
 cohort, you change the cohort settings for content-specific discussion topics

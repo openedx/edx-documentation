@@ -180,7 +180,7 @@ Course Data Sample
           },
           {
             "name": "Course Info",
-            "type": "course_info"
+            "type": "course info"
           },
           {
             "name": "Discussion",

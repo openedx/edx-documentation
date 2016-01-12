@@ -73,7 +73,8 @@ Create a Full Screen Image
      <img alt="Full screen image" src="/static/Image1.jpg"/>
      </a>
 
-   .. note:: You can use this same HTML code in any HTML component, not just
-    those components you created as full screen images.
+   .. note::
+     You can use this same HTML code in any HTML component, not just those
+     components you created as full screen images.
 
 #. Select **Save**.

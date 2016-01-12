@@ -45,8 +45,8 @@ Create a Verification Checkpoint
 To require learners to verify their identities before a specific assessment,
 you add a verification checkpoint component to a unit in that assessment. After
 you create a checkpoint component, the checkpoint appears on the **Progress**
-pages and in the courseware for learners who must complete in-course identity
-reverification.
+pages and in the body of the course for learners who must complete in-course
+identity reverification.
 
 .. note:: Make sure that you add verification checkpoints only before assessments.
 
@@ -214,7 +214,7 @@ To create this assessment, you would follow these steps.
 Example Assessment: Learner View
 =================================================
 
-When learners arrive at the assessment in the courseware, the introductory
+When learners arrive at the assessment in the course, the introductory
 text and the verification checkpoint are visible. The assessment content in
 the third component in the unit is not visible.
 

@@ -69,7 +69,7 @@ View the Course Organization as a Learner
 ********************************************************
 
 The content you see in the outline in Studio is displayed to learners in the
-**Courseware** page in the LMS. The following image shows how a learner sees
+**Course** page in the LMS. The following image shows how a learner sees
 your course content.
 
 .. image:: ../../../shared/images/Course_Outline_LMS.png

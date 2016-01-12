@@ -89,7 +89,7 @@ in Studio.
 
 The license options that you select apply to all course content, including
 videos, unless you explicitly specify different licensing options for your
-videos. Learners see the license at the bottom of all pages in the courseware.
+videos. Learners see the license at the bottom of all pages in the course.
 
 #. From the **Settings** menu, select **Schedule & Details**.
 
@@ -138,7 +138,7 @@ need to set the license for the video.
 Learners' View of Licenses
 *************************************
 
-When they view content in the **Courseware** tab, learners see the license that
+When they view content in the **Course** tab, learners see the license that
 you set for the course at the bottom of the page.
 
 .. image:: ../../../shared/images/learner_course_license.png

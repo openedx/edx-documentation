@@ -138,7 +138,7 @@ assignment.
 
 #. In the component editor, replace the default component display name with an
    identifying name. This name appears to learners as a tooltip in the learning
-   sequence at the top of the **Courseware** page.
+   sequence at the top of the **Course** page.
 
    Unique, descriptive display names can help you identify individual
    assignments quickly and accurately for analysis.

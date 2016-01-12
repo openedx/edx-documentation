@@ -242,7 +242,7 @@ LTI Component Settings
    * - Display Name
      - Specifies the name of the component. This name appears as a heading
        above the problem and as a tooltip in the learning sequence at the top
-       of the **Courseware** page. Unique, descriptive display names help you
+       of the **Course** page. Unique, descriptive display names help you
        identify problems quickly and accurately for analysis.
 
    * - LTI Application Information

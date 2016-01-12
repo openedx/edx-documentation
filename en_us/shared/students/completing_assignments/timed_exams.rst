@@ -17,12 +17,12 @@ Timed Exam Overview
 Timed exams are sets of problems that you must complete in a limited amount of
 time. The score you receive becomes part of your course progress record.
 
-Timed exams are indicated in the courseware by a clock icon and the
+Timed exams are indicated in the left pane by a clock icon and the
 label **Timed Exam**.
 
 .. image:: ../../../shared/students/Images/timed-exam-icon.png
  :width: 252
- :alt: Courseware navigation in the LMS showing an exam with a clock icon and
+ :alt: Course navigation in the LMS showing an exam with a clock icon and
      the label "Timed Exam."
 
 After you begin taking a timed exam, a timer on the course page displays the
@@ -46,7 +46,7 @@ Taking a Timed Exam
 
 To take a timed exam, follow these steps.
 
-#. Open the timed exam page in the courseware.
+#. Open the timed exam page in the course.
 
 #. Find the length of the time limit on the exam page. Make sure that you have
    enough time available to complete the exam.

@@ -18,7 +18,7 @@ you design, test, and run your course.
 
 * Display names are critical for navigating through courses on smartphones. As
   you create course content, make sure you replace the default display names
-  for every component with useful courseware component names.
+  for every component with useful course component names.
 
 * Keep display names and labels concise. Long display names and labels might
   wrap on smaller screens, or might not be easily viewable. For example, if
@@ -46,13 +46,13 @@ you design, test, and run your course.
   downloading the images. If you have a large image that requires zooming to
   view the full detail, in addition to providing an image that can be easily
   downloaded, link to a full resolution copy that can be opened separately
-  from the courseware.
+  from the course.
 
 * When you make choices about the problem types to use for graded and ungraded
   assignments in your course, or which problem types to present in a single
   unit, keep the mobile experience in mind. Whenever possible, use mobile-
-  ready assessment types. If you use assessment types that are not supported
-  on smartphones, notify learners in your courseware that they will not be
+  ready assessment types. If you use assessment types that are not supported on
+  smartphones, notify learners in the body of your course that they will not be
   able to complete assignments that contain unsupported assessment types using
   the edX iPhone and Android mobile apps.
 
@@ -79,7 +79,7 @@ customized the way course content displays, edX recommends that you test your
 course for multiple devices and displays.
 
 To test the mobile experience of your course, sign in to your course using the
-edX Android or iPhone app, and view each courseware unit to make sure that it
+edX Android or iPhone app, and view each course unit to make sure that it
 renders as you expect it to.
 
 

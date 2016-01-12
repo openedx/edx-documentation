@@ -1,8 +1,8 @@
 .. _Cohorted Courseware Overview:
 
-###################################
-Creating Cohort-Specific Courseware
-###################################
+###########################################
+Creating Cohort-Specific Course Content
+###########################################
 
 This section provides information about setting up content for specific
 cohorts.
@@ -36,7 +36,7 @@ In Studio
 
 #. :ref:`Enable cohorts in your course<Enabling and Configuring Cohorts>`.
 #. :ref:`Create content groups<Creating Content Groups>`.
-#. :ref:`Specify components in courseware as visible only to particular content
+#. :ref:`Specify course components as visible only to particular content
    groups<Specify Components in Courseware as Visible Only to Certain Content
    Groups>`.
 
@@ -46,19 +46,19 @@ In the LMS
    Cohorts>`.
 #. :ref:`Associate one or more cohorts with a content group<Associate Cohorts
    with Content Groups>`.
-#. :ref:`Preview cohort-specific courseware<Preview Cohort Specific
+#. :ref:`Preview cohort-specific course content<Preview Cohort Specific
    Courseware>`.
 
 .. _Cohorted Courseware Example:
 
-***********************************
-Example: Cohort-Specific Courseware
-***********************************
+*****************************************
+Example: Cohort-Specific Course Content
+*****************************************
 
 Suppose that you create two :ref:`cohorts<Cohorts Overview>` in your course:
 University Alumni and Current University Students. Learners who are not in
 either of these cohorts are automatically placed into a third cohort, the
-default cohort, when they access the courseware or discussion tabs in the
+default cohort, when they access the **Course** or **Discussion** tabs in the
 course. For more information about enabling cohorts in your course and
 assigning students to cohorts, see :ref:`Enabling and Configuring Cohorts`.
 
@@ -116,8 +116,8 @@ designated certain course content as visible to a content group, and in
 addition have associated that content group with one or more cohorts, then
 those cohorts will see the designated content.
 
-For an example of using content groups to create cohort-specific courseware,
-see :ref:`Cohorted Courseware Example`.
+For an example of using content groups to create cohort-specific course
+content, see :ref:`Cohorted Courseware Example`.
 
 .. _Creating Content Groups:
 
@@ -199,9 +199,9 @@ Delete Content Groups
 
 .. _Specify Components in Courseware as Visible Only to Certain Content Groups:
 
-*****************************************************************************
-Specify Components in Courseware as Visible Only to Particular Content Groups
-*****************************************************************************
+******************************************************************
+Specify Components as Visible Only to Particular Content Groups
+******************************************************************
 
 After you create at least one content group, you can edit your course in Studio
 and modify the visibility settings of components that you want to make visible
@@ -269,7 +269,7 @@ Courseware`.
 .. note:: In addition to visibility settings for content groups, a learner's
    ability to see a course component also depends on whether it is hidden from
    students, whether the unit is published, and the course's release date. For
-   details about previewing courseware in general, see :ref:`Preview Course
+   details about previewing course content in general, see :ref:`Preview Course
    Content`.
 
 .. _Associate Cohorts with Content Groups:
@@ -312,23 +312,23 @@ To associate a cohort with a content group, follow these steps:
 You can associate additional cohorts with the same or a different content group
 by repeating steps 3 to 7.
 
-For an example of using content groups to create cohort-specific courseware,
-see :ref:`Cohorted Courseware Example`.
+For an example of using content groups to create cohort-specific course
+content, see :ref:`Cohorted Courseware Example`.
 
 .. _Preview Cohort Specific Courseware:
 
-*************************************
-Preview Cohort-Specific Courseware
-*************************************
+**************************************
+Preview Cohort-Specific Course Content
+**************************************
 
 After you designate components as being visible only to certain content groups,
-you can preview your courseware to ensure that each group correctly sees the
-content intended for them.
+you can preview your course content to ensure that each group correctly sees
+the content intended for them.
 
 .. note:: In addition to visibility settings for content groups, a learner's
    ability to see a course component also depends on whether it is hidden from
    students, whether the unit is published, and the course's release date. For
-   details about previewing courseware in general, see :ref:`Preview Course
+   details about previewing course content in general, see :ref:`Preview Course
    Content`.
 
 You can view the course as a member of these groups.
@@ -353,7 +353,7 @@ You can view the course as a member of these groups.
         as any content specifically set to be visible to this content group.
 
 #. In Studio, in the course outline, select **Preview**. You see your
-   course section in the **Courseware** section of the LMS.
+   course section in the **Course** section of the LMS.
 
 #. In the navigation bar at the top of the page, select one of the options in
    the **View this course as** drop down list, as described in the table above.

@@ -10,9 +10,9 @@ the course. For example, you might be required to verify your identity before
 you take each exam.
 
 When you must verify your identity, you receive an "Identity verification
-required" message in the courseware. You cannot complete any further work in
-the course until you either verify your identity or specifically decline to
-verify your identity.
+required" message in the body of the course. You cannot complete any further
+work in the course until you either verify your identity or specifically
+decline to verify your identity.
 
 To verify your identity, follow these steps.
 

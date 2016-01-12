@@ -6,8 +6,8 @@ Searching the Course
 
 This topic describes how to search for edX course content.
 
-.. contents:: 
-  :local: 
+.. contents::
+  :local:
   :depth: 1
 
 *************************
@@ -19,10 +19,12 @@ title, description, text, and video transcripts. You can search for a term in
 an individual course, or you can search for that term in all of the courses
 that you are enrolled in, whether the course is active or archived. When the
 search engine returns results, either for an individual course or across all
-courses, you can select any search result to view that result in the
-courseware.
+courses, you can select any search result to view that result inside the
+course.
 
-.. note:: Course exercises and problems, including homework and exam problems, 
+.. note::
+ You can search for most content that you see on the **Course** page.
+ However,course exercises and problems, including homework and exam problems,
  are not currently searchable.
 
 The search engine returns not only exact matches for search terms, but also
@@ -34,7 +36,7 @@ and "graded", but a search for "graded" would not return "grade" or "grades".
 Search a Single Course
 *************************
 
-To search for a term in a single course, go to the **Courseware** page for
+To search for a term in a single course, go to the **Course** page for
 that course, enter your search term in the **Search** field in the upper left
 corner of the page, and then press Enter. Your search term can contain more
 than one word.
@@ -49,7 +51,7 @@ search results include the following items.
 To view your search term in the body of the course, select **View** to the
 right of the search result.
 
-.. note:: You cannot use the **Search** field on the **Courseware** tab to 
+.. note:: You cannot use the **Search** field on the **Course** tab to
  search course discussions. To search course discussions, use the **Search all
  posts** field on the **Discussions** tab. For more information, see
  :ref:`Course Discussions Index`.

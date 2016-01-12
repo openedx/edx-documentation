@@ -33,11 +33,12 @@ the course outline.
 The Learner View of a Subsection
 *********************************
 
-Learners see subsections on the **Courseware** page, listed beneath the
-expanded section. In the following example, seven subsections are circled, and
+Learners see subsections on the **Course** page, listed beneath the
+expanded section. In the following example, two subsections are circled, and
 the first is open.
 
 .. image:: ../../../shared/images/subsections_student.png
+ :width: 500
  :alt: The learner view of the outline.
 
 ************************************************
@@ -203,8 +204,8 @@ To create a new subsection, follow these steps.
    subsection appears at the end of the section, with the subsection name
    selected.
 #. Enter the name for the new subsection. A descriptive name can help learners
-   locate content in the courseware. It can also help you select content when
-   you analyze performance in edX Insights.
+   locate content in the course. It can also help you select content when you
+   analyze performance in edX Insights.
 #. :ref:`Add units<Create a Unit>` to the new subsection as needed.
 
 It is recommended that you :ref:`test course content <Testing Your Course

@@ -61,8 +61,8 @@ learners' grades.
    graded subsections, or to graded components after the course begins will
    affect learners' experiences in the course as well as analysis of its data.
    EdX recommends that you announce any unavoidable changes learners by using,
-   for example, the **Course Info** page. You should also carefully track
-   these changes for researchers.
+   for example, the **Home** page. You should also carefully track these
+   changes for researchers.
 
 .. _Access_grades:
 
@@ -558,7 +558,7 @@ To find the unique location identifier for a problem, follow these steps.
 
 #. View the live version of your course.
 
-#. Select **Courseware**, and then navigate to the unit that contains the
+#. Select **Course**, and then navigate to the unit that contains the
    problem.
 
 #. Display the problem, and find the **Submission History** and **Staff Debug
@@ -606,7 +606,7 @@ email address.
 
 #. View the live version of your course.
 
-#. Select **Courseware** and navigate to the component that contains the
+#. Select **Course** and navigate to the component that contains the
    problem you want to rescore.
 
 #. Display the problem, and then select **Staff Debug Info**. The Staff Debug
@@ -673,7 +673,7 @@ username or email address.
 
 #. View the live version of your course.
 
-#. Select **Courseware** and navigate to the component that contains the
+#. Select **Course** and navigate to the component that contains the
    problem you want to reset.
 
 #. Display the problem, and then select **Staff Debug Info**. The Staff Debug
@@ -740,7 +740,7 @@ To use the Staff Debug viewer, follow these steps.
 
 #. View the live version of your course.
 
-#. Select **Courseware** and navigate to the component that contains the
+#. Select **Course** and navigate to the component that contains the
    problem.
 
 #. Display the problem, and then select **Staff Debug Info**. The Staff Debug
