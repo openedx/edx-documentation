@@ -21,7 +21,7 @@ material, showing experiments, and reducing cognitive load for complex
 content.
 
 =====================
-When to use a Video
+When to Use a Video
 =====================
 
 Before creating video content, figure out whether video is the best medium by
