@@ -54,12 +54,13 @@ LTI XBlock
 ***********
 
 A new LTI XBlock is now available. This XBlock is intended to replace the
-existing LTI xModule. In addition to all of the functionality previously offered by the xModules, the LTI XBlock also offers course teams the ability to
+existing LTI XModule. In addition to all of the functionality previously
+offered by the XModules, the LTI XBlock also offers course teams the ability to
 configure the way that learning tools interoperability (LTI) components open
 when learners use them: in a modal window, in a separate web browser window, or
 embedded in a course page.
 
-.. note:: The LTI xModule continues to work, but does not provide the new
+.. note:: The LTI XModule continues to work, but does not provide the new
   launching behavior options.
 
 For more information, see :ref:`opencoursestaff:LTI Component` in the *Building
@@ -112,20 +113,9 @@ Platform* guide.
 Insights
 ========
 
+TBD
+
 .. Insights has a version marked that is compatible with Dogwood, but we don't provide installation or support.
-
-===============
-Timed Exams
-===============
-
-Course teams can now configure a course subsection so that learners have a
-specific period of time to complete and submit all problems in that subsection.
-Individual learners can be granted more time to complete problems.
-
-For more information, see :ref:`opencoursestaff:Timed Exams` in the *Building
-and Running an Open edX Course* guide.
-
-.. To enable this feature for your installation, the ``ENABLE_SPECIAL_EXAMS`` must be set to true (where? turns on proctoring too)
 
 =========================================
 Initial Version of Comprehensive Theming
@@ -382,7 +372,7 @@ You can also find `release announcements`_ on open.edx.org, which list changes
 in each release on edx.org. You can subscribe to have release announcements
 sent to your email account.
 
-Changes listed on TBD and before are included in the Dogwood release
+Changes listed on 16 December 2015 and before are included in the Dogwood release
 of Open edX.
 
 .. include:: ../links.rst
@@ -421,18 +411,6 @@ Transactions
         except IntegrityError:
             # Model has already been created.
             log.warning("Something...")
-
-Pip
-****
-
-* The ``egg_name`` value in each GitHub-based ``requirements.txt`` line must
-  match the ``name`` value in the ``setup.py`` file of the repository.
-
-* To avoid errors, you must always specify a version number in a URL-based
-  requirements file line.
-
-* New dependencies should use the "editable" (``-e``) prefix only when
-  necessary.
 
 Model Migrations
 *********************
