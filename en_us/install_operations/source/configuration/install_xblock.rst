@@ -18,16 +18,25 @@ Open edX platform, both of the following tasks must be completed.
 
 To install an XBlock, follow these steps.
 
-#. Obtain the GitHub location and commit for the XBlock.
+#. Obtain the GitHub location and commit, or PyPi package name and version,
+   for the XBlock.
 
-#. Run ``pip`` with a GitHub link to the XBlock.
+#. Run ``pip`` along with either the GitHub link to the XBlock or the PyPi
+   package name.
 
-   An example that installs the Oppia XBlock follows.
+   An example of the GitHub link that installs the Oppia XBlock follows.
 
    .. code-block:: bash
 
      pip install git+https://github.com/oppia/xblock.git@9f6b95b7eb7dbabb96b77198a3202604f96adf65#egg=oppia-xblock==0.0.0
 
+
+   An example of the PyPi package name that installs the Peer Instruction
+   XBlock follows.
+
+   .. code-block:: bash
+
+     pip install ubcpi-xblock==0.4.4
 
 The course teams that want to include components that use the XBlock can then
 enable the XBlock for their courses. To do so, they add the name specified in
