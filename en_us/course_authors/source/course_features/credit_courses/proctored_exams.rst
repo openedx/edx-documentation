@@ -488,21 +488,21 @@ learner with specific needs can be accommodated.
    start taking the proctored exam before the exemption has been approved and
    set up.
 
-If it is confirmed that some special allowance should be made to the exam
+If it is confirmed that a special allowance should be made to the exam
 policy for a particular learner, follow these steps.
 
-#. Contact edX Support to ask them to set up a special allowance for the
-   learner.
+#. Contact edX Support and ask the support team to set up a special allowance
+   for the learner.
 
-#. Provide edX Support with the learner's username or email address, and the
-   special allowance that the learner is allowed. For example, "Allow 2nd
-   person in room while taking exam".
+#. Provide edX Support with the learner's username or email address and the
+   exception to the standard exam policy. For example, "Learner cannot
+   see. Allow an additional person in the room to act as a scribe."
 
 #. When the allowance has been set up, let the learner know that their special
    allowance has been granted.
 
-   When this learner's proctored exam results are reviewed, the reviewer is
-   aware of the special allowance and takes that into account in their review.
+   When the learner's proctored exam results are reviewed, the reviewer is
+   aware of the special allowance and takes that into account.
 
 
 .. _Requests for Retaking a Proctored Exam:
@@ -511,24 +511,23 @@ policy for a particular learner, follow these steps.
 Handle Requests for Retaking a Proctored Exam
 =====================================================
 
-Course teams might have to manage situations where learners experienced
-technical difficulties with online proctoring, or other reasons for requesting
-a chance to retake a proctored exam.
+Course teams might have to assist learners who have experienced technical
+difficulties with online proctoring, or have other reasons to request
+permission to retake a proctored exam. Learners can contact edX support to
+request that their proctored exam attempts be cleared. Clearing a proctored
+exam attempt allows a learner to retake a proctored exam.
 
 .. note:: Deleting a learner's exam attempt clears all submitted answers, and
    the learner experiences the exam as if for the first time, including making
    the choice to take the exam with online proctoring, obtaining an exam code,
    going through the proctoring software setup, and so on.
 
-If a learner's request for retaking a proctored exam is valid, and you want to
-delete the record of their exam attempt so that they can retake the exam,
-follow these steps.
+If a learner needs to retake a proctored exam, follow these steps.
 
-#. Contact edX Support to ask them to delete the exam attempt for the learner.
+#. Instruct the learner to contact edX Support and request that the support
+   team delete the exam attempt.
 
-#. Provide edX Support with the learner's username or email address.
-
-#. When the exam attempt has been deleted, let the learner know that they can
+#. When the exam attempt has been deleted, instruct the learner to
    retake the exam.
 
 
