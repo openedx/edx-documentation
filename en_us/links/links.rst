@@ -201,7 +201,7 @@
 
 .. _Referer: http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.36
 
-..  _mongodb: http://docs.mongodb.org/manual/
+.. _mongodb: http://docs.mongodb.org/manual/
 
 .. _AWS Command Line Interface: http://aws.amazon.com/cli/
 
