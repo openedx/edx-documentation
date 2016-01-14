@@ -375,9 +375,6 @@ sent to your email account.
 Changes listed on 16 December 2015 and before are included in the Dogwood release
 of Open edX.
 
-.. include:: ../links.rst
-
-
 
 
 ===================
@@ -437,3 +434,6 @@ resources.
 * `Django 1.6`_
 * `Django 1.7`_
 * `Django 1.8`_
+
+.. include:: links.rst
+.. include:: ../../links/links.rst
