@@ -166,8 +166,11 @@ For some assignments, you might be asked to submit a file along with your text
 response. Those assignments include **Choose File** and **Upload your file**
 options below the response field. Note the following requirements.
 
-* A text response is always required. You cannot submit a response that
-  contains only an uploaded file.
+* A text response is always required. If you upload a file in your response,
+  also include a text response that describes the file you have uploaded in such
+  a way that a reviewer who cannot access the uploaded file can still assess the
+  text content of your response using a screen reader or other text parsing
+  tool.
 
 * You can upload only one file to submit with your response.
 
@@ -290,15 +293,16 @@ After you have selected options in the rubric and provided additional comments
 about the responses, select **Submit your assessment and move to response
 #<number>**.
 
-When you submit your assessment of the first learner's responses, the next set of responses opens for you. Assess these responses in the same way that you
+When you submit your assessment of the first learner's responses, the next set
+of responses opens for you. Assess these responses in the same way that you
 assessed the first learner's responses, and then submit your assessment. You
 will repeat these steps until you have assessed the required number of
 responses. The number in the upper right corner of the step is updated as you
 assess each set of responses.
 
-If there are no new submitted responses available for grading, you see a status
-message indicating that you are waiting for peer responses and that you should
-check back later.
+If there are no new submitted responses available for grading, you see a
+status message indicating that you are waiting for peer responses to assess,
+and that you should check back later.
 
 
 =================================================
