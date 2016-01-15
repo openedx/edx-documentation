@@ -66,7 +66,7 @@
 
 .. _EdX Search: https://github.com/edx/edx-search/
 
-.. _GitHub Flow: https://github.com/blog/1557-github-flow-in-the-browser
+.. _Otto: https://github.com/edx/ecommerce
 
 .. _GitHub Flow: https://github.com/blog/1557-github-flow-in-the-browser
 
@@ -121,6 +121,8 @@
 .. _Devstack wiki: https://github.com/edx/configuration/wiki/edX-Developer-Stack
 
 .. _Developing on Devstack: https://github.com/edx/edx-platform/wiki/Developing-on-the-edX-Developer-Stack
+
+.. _forum migration described on the Open edX wiki: https://openedx.atlassian.net/wiki/display/TNL/Migrating+the+Discussion+Forums+to+Support+Teams+Discussion+Filtering
 
 .. _Google Drive XBlock: https://github.com/edx-solutions/xblock-google-drive
 
@@ -208,7 +210,7 @@
 
 .. _Referer: http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.36
 
-..  _mongodb: http://docs.mongodb.org/manual/
+.. _mongodb: http://docs.mongodb.org/manual/
 
 .. _AWS Command Line Interface: http://aws.amazon.com/cli/
 

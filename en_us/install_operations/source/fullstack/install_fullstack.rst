@@ -26,7 +26,7 @@ Components
 Open edX Fullstack includes the following edX components.
 
 * The Learning Management System (LMS).
-* edX Studio.
+* EdX Studio.
 * XQueue, the queuing server that uses `RabbitMQ`_ for external graders.
 * Discussion Forums.
 * Open Response Assessor (ORA).
