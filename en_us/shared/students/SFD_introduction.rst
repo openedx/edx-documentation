@@ -1,7 +1,7 @@
 .. _Introduction:
 
 #################
-Introduction
+Welcome!
 #################
 
 Welcome to edX! We're glad you're taking a course with us and we hope you're as
@@ -12,7 +12,7 @@ The guide answers common questions about topics like earning certificates,
 getting started, participating in course discussions, and completing some of
 the exercises you may see in your course.
 
-This guide is still under development, and we encourage you to submit feedback
+This guide is always under development, and we encourage you to submit feedback
 to `docs@edx.org`_.
 
 .. _Time Zones:

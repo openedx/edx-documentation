@@ -1,8 +1,8 @@
 .. _taking_timed_exams:
 
-###########
-Timed Exams
-###########
+####################
+Taking a Timed Exam
+####################
 
 This section describes timed exams and explains how to complete them.
 

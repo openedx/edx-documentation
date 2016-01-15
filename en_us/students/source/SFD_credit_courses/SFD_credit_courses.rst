@@ -1,8 +1,8 @@
 .. _SFD Academic Course Credit:
 
-#########################
-Academic Course Credit
-#########################
+###################################
+Taking a Course for Academic Credit
+###################################
 
 This topic describes taking an edX course for academic credit.
 

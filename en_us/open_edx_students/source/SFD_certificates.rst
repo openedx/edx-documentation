@@ -1,8 +1,8 @@
 .. _Certificates:
 
-#############
-Certificates
-#############
+#############################
+Getting a Course Certificate
+#############################
 
 .. The edX Learner's Guide also includes a Certificates topic, but it has no
 .. shared content with this topic and there is no "Certificates" file in the

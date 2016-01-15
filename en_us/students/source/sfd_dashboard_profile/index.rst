@@ -1,8 +1,8 @@
 .. _Dashboard Index:
 
-######################################
-Your Dashboard, Settings, and Profile
-######################################
+###################################################
+Working with Your Dashboard, Settings, and Profile
+###################################################
 
 .. toctree::
    :maxdepth: 3

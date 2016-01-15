@@ -1,8 +1,8 @@
 .. _SFD Bookmarks:
 
-##############################
-Bookmarks
-##############################
+###########################
+Bookmarking Course Content
+###########################
 
 To mark course content so that you can come back to it later, you can bookmark
 any course page, up to a limit of 100 bookmarks for one course.

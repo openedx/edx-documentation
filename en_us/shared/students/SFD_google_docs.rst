@@ -1,8 +1,8 @@
 .. _Google Drive:
 
-####################################
-Embedded Files and Calendars
-####################################
+#####################################################
+Using Google Files and Calendars in an edX Course
+#####################################################
 
 This topic describes how to work with files and calendars in your edX
 course.

@@ -1,8 +1,8 @@
 .. _SFD Notes:
 
-##############################
-Notes
-##############################
+#################################
+Taking Notes in an edX Course
+#################################
 
 This topic describes how to work with notes in your edX course.
 

@@ -1,11 +1,11 @@
 .. _SFD Prerequisites:
 
-######################
-Course Prerequisites
-######################
+###############################
+Completing Course Prerequisites
+###############################
 
-This topic describes how to take prerequisites, if required, in your edX
-course.
+This topic describes how to complete any prerequisites that might be required
+in your edX course.
 
 .. contents::
   :local:
