@@ -281,23 +281,21 @@ The following features are deprecated as of the Open edX Dogwood release.
  :local:
 
 
-"shoppingcart" functional should be considered deprecated as of Dogwood and will be removed in a future release. Similar services will be provided by "Otto" going forward
+.. These notes will be cleaned up for the final release:
 
+ "shoppingcart" functional should be considered deprecated as of Dogwood and will be removed in a future release. Similar services will be provided by "Otto" going forward
 
+ Old code has been removed:
+ Admin dashboard
+ abtest_module
 
-Old code has been removed:
-Admin dashboard
-abtest_module
+ Removed support for the outdated ispublic field on the Course Module, including its corresponding ACCESS_REQUIRE_STAFF_FOR_COURSE feature flag.  Instead, operators should use COURSE_CATALOG_VISIBILITY_PERMISSION and COURSE_ABOUT_VISIBILITY_PERMISSION settings.
 
+ Several unused and deprecated items have been removed from the edX Platform.
 
-Removed support for the outdated ispublic field on the Course Module, including its corresponding ACCESS_REQUIRE_STAFF_FOR_COURSE feature flag.  Instead, operators should use COURSE_CATALOG_VISIBILITY_PERMISSION and COURSE_ABOUT_VISIBILITY_PERMISSION settings.
+ The following list includes some of these items.
 
-
-Several unused and deprecated items have been removed from the edX Platform.
-
-The following list includes some of these items.
-
-The Checklist page previously available from the Studio Tools menu.
+ The Checklist page previously available from the Studio Tools menu.
 
 
 
