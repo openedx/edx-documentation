@@ -148,8 +148,15 @@ Upgrading from Cypress to Dogwood
 *********************************
 
 You can upgrade an Open edX instance that is running the Cypress release to the
-Dogwood release, by using the ``migrate.sh`` script in the configuration
-repository, `available here
+Dogwood release.  EdX provides the ``migrate.sh`` script if you have a simple
+Cypress install and want to upgrade it automatically.   If you have a more complex
+or customized install, you may need to upgrade manually.
+
+===================
+Automatic Upgrading
+===================
+
+The ``migrate.sh`` script is in the configuration repository, `available here
 <https://github.com/edx/configuration/blob/master/util/vagrant/migrate.sh>`_.
 
 .. note::
@@ -177,6 +184,74 @@ cleans up extra files and directories when it finishes running.
 
 After upgrading Open edX to the Dogwood release, start the LMS and Studio and
 verify that course content and data was migrated correctly.
+
+
+================
+Manual Upgrading
+================
+
+Upgrading Cypress to Dogwood is more involved than most Open edX named release
+upgrades:
+
+* Dogwood upgrades the Django framework from version 1.4 to 1.8, which changed
+  the database migration technique.  When upgrading from Cypress to Dogwood,
+  it's important to take special care with the database migrations.
+
+* Dogwood upgrades Python from 2.7.3 to 2.7.10.  This will require re-creating
+  your virtualenvs.
+
+Reading the ``migrate.sh`` script from the previous section will help you to
+understand the required steps.  The details below use default such as the
+locations of virtualenv that may need to be changed for your installation.
+
+To upgrade from Cypress to Dogwood:
+
+#. Update edx-platform to the release-2015-11-09 tag.  This is the last
+   released version that used Django 1.4.
+
+#. Migrate the database::
+
+    /edx/bin/edxapp-migrate-lms
+    /edx/bin/edxapp-migrate-cms
+
+#. Update edx-platform to the dogwood-first-18 tag.  This is the first version
+   that used Django 1.8.
+
+#. Apply all the initial migrations with the following command.  This gets your
+   database ready to use the new Django 1.8 migration mechanism.  Do this for 
+   both "lms" and "cms".
+
+::
+
+    sudo -u edxapp \
+    /edx/app/edxapp/venvs/edxapp/bin/python \
+    /edx/app/edxapp/edx-platform/manage.py lms-or-cms migrate \
+    --settings=aws --noinput --fake-initial
+
+#. Update edx-platform to the named-release/dogwood.rc branch.
+
+#. Run database migrations::
+
+    /edx/bin/edxapp-migrate-lms
+    /edx/bin/edxapp-migrate-cms
+
+
+If you are using xqueue, you will also need to carefully migrate its database.
+
+#. Update the xqueue code to the dogwood-first-18 tag.
+
+#. Apply the initial Django migrations to the xqueue database.
+
+::
+
+    sudo -u xqueue \
+    SERVICE_VARIANT=xqueue \
+    /edx/app/xqueue/venvs/xqueue/bin/python \
+    /edx/app/xqueue/xqueue/manage.py migrate \
+    --settings=xqueue.aws_settings --noinput --fake-initial
+
+#. Update the xqueue code to the named-release/dogwood.rc tag.  There's no need
+   to migrate the database again.
 
 
 .. include:: ../../links/links.rst
