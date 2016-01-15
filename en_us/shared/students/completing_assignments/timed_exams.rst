@@ -20,7 +20,7 @@ time. The score you receive becomes part of your course progress record.
 Timed exams are indicated in the courseware by a clock icon and the
 label **Timed Exam**.
 
-.. image:: ../../shared/students/Images/timed-exam-icon.png
+.. image:: ../../../shared/students/Images/timed-exam-icon.png
  :width: 252
  :alt: Courseware navigation in the LMS showing an exam with a clock icon and
      the label "Timed Exam."
