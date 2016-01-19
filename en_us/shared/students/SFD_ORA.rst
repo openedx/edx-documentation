@@ -33,16 +33,16 @@ questions in the assignment, open response assessments have several steps that
 can include assessment training steps, peer assessments, self assessments, and
 staff assessments.
 
-* In training steps, you perform assessments of sample responses provided by
-  the course team. The goal is to give the sample response the same grade that
-  a member of the course team would have given. For more information, see
+* In training steps, you perform assessments of sample responses that the
+  course team provides. The goal is to give the sample response the same grade
+  that a member of the course team would have given. For more information, see
   :ref:`Learn to Assess Responses`.
 
 * In peer assessments, you perform assessments of responses that other
   learners in the course have submitted, and other learners in the course also
-  assess your responses. The number of peer assessments that you have to
-  perform is decided for each assignment by your course team. For more
-  information, see :ref:`Assess Peer Responses`.
+  assess your responses. For each assignment, your course team decides the
+  number of peer assessments that you have to perform. For more information,
+  see :ref:`Assess Peer Responses`.
 
 * In self assessments, you assess your own responses. For more information,
   see :ref:`Assess Your Response`.
@@ -50,23 +50,31 @@ staff assessments.
 * In staff assessments, members of the course team assess your responses. For
   more information, see :ref:`Staff Grade`.
 
+  .. note:: Course staff can grade your open response assignment even if a
+     staff assessment step is not included in the assignment. This might
+     happen if, for example, you receive peer assessments of your response
+     that are inappropriate. In such cases, course staff can perform an
+     assessment of your response that overrides any peer assessment grades.
+
+
 ==========================================
 The Rubric, Criteria, and Options
 ==========================================
 
-Every open response assessment has a rubric provided by the course team, to be
-used as guidance for grading. The rubric is a list of expectations that the
+Every open response assessment has a rubric that the course team provides, to
+be used as guidance for grading. The rubric is a list of expectations that the
 responses should meet. Grading for all the types of assessments in an open
-response assessment is done by comparing each response against the same rubric.
+response assessment is done by comparing each response against the same
+rubric.
 
 Rubrics consist of criteria and options.
 
 * Criteria describe characteristics that each response should have, such as
   concepts that a response should cover, or the amount of supporting
-  information that is included for a response.
+  information that a response must include.
 
 * Each criterion has options, which describe how well each response satisfies
-  the criterion. These are usually a range of ratings, for example, "Fair",
+  the criterion. These are usually a range of ratings, for example "Fair",
   "Good", or "Excellent".
 
 The following image shows a rubric with two criteria. Each of the criteria has
@@ -125,6 +133,8 @@ example, you might see the following message.
 =====================
 Submit Your Response
 =====================
+
+To submit your response, follow these steps.
 
 #. Read each question carefully. Some course teams include important information
    in the question, such as how long a response must be, or specific topics that
@@ -272,10 +282,10 @@ already assessed.
    :alt: An in-progress peer assessment.
    :width: 500
 
-You assess other learners' responses by selecting options in the rubric, in
-the same way you assessed the sample responses in the :ref:`learn to assess
-responses<Learn to Assess Responses>` step. Additionally, this step has a
-field below the rubric where you can provide comments about the learner's
+You assess other learners' responses by selecting options in the rubric. This
+process will be familiar to you if your assignment included the :ref:`learn to
+assess responses<Learn to Assess Responses>` step. Additionally, this step has
+a field below the rubric where you can provide comments about the learner's
 responses.
 
 .. note:: Some assessments might have a **Comments** field for one or
@@ -300,9 +310,9 @@ will repeat these steps until you have assessed the required number of
 responses. The number in the upper right corner of the step is updated as you
 assess each set of responses.
 
-If there are no new submitted responses available for grading, you see a
-status message indicating that you are waiting for peer responses to assess,
-and that you should check back later.
+If there are no new submitted responses available for grading, a status
+message indicates that no peer responses are currently available for you to
+assess, and that you should check back later.
 
 
 =================================================
@@ -317,9 +327,9 @@ visible.
    :width: 500
    :alt: The peer assessment step with just the heading visible.
 
-If you want to, you can assess more peer responses than required. To assess
-more responses, select the **Assess Peers** heading to expand the step, and
-then select **Continue Assessing Peers**.
+If you want to, you can assess more peer responses than the assignment
+requires. To assess more responses, select the **Assess Peers** heading to
+expand the step, and then select **Continue Assessing Peers**.
 
 .. image:: ../../shared/students/Images/PA_ContinueGrading.png
    :width: 500
@@ -349,13 +359,16 @@ this step. The status of the **Staff Grade** step changes to **Complete** when
 a member of the course team has completed grading your response.
 
 If a **Staff Grade** step exists in your assignment, you receive your final
-assignment grade when staff grading is complete, even if you have not received
-the required number of peer assessments.
+assignment grade when staff grading is complete, even if your response has not been assessed by the required number of peer reviewers.
 
-.. note:: A **Staff Grade** section also appears as a step in the assignment
-   if a member of the course team has performed override grading on your
-   response. A staff grade that is added in this way also overrides any peer
-   assessment scores, and becomes the final grade for your assignment.
+.. note:: Course staff can grade your open response assignment even if a staff
+   assessment step is not included in the assignment. This might happen if
+   for example you receive peer assessments of your response that are
+   inappropriate. In such cases, course staff can perform an assessment of
+   your response that overrides any peer assessment grades. If a member of the
+   course staff has graded your response, a **Staff Grade** section appears in
+   the grading details for your assignment.
+
 
 ==========================================
 Receive Your Score and Provide Feedback
@@ -370,16 +383,16 @@ Response** step.
   Your Grade: Waiting for Peer Assessment
 
   Your response is still undergoing peer assessment. After your peers have
-  assessed your response, you'll see their feedback and receive your final
+  assessed your response, you will see their feedback and receive your final
   grade.
 
 If you see this message, keep checking back periodically until the peer
 assessments of your work are complete.
 
-When peer assessment is complete, and if there is no staff assessment step in
-the assignment, you can see the scores you received from all of the peers who
-scored your work, as well as your self assessment. You can also see any
-additional comments that your peers have provided.
+When peer assessment is complete, and if the assignment does not include a
+staff assessment step, you can see the scores you received from all of the
+peers who scored your work, as well as your self assessment. You can also see
+any additional comments that your peers have provided.
 
 If you want to, you can provide feedback on the peer scores that you received,
 under **Provide Feedback on Peer Assessments**.
@@ -389,9 +402,10 @@ under **Provide Feedback on Peer Assessments**.
    :width: 550
 
 If the assignment included a staff assessment step, you receive your final
-grade when a member of the course team has graded your response. If there is a
-staff assessment step, peer assessments are not taken into account in the
-grading; the staff grade is always equivalent to your final grade.
+grade when a member of the course team has graded your response. If a staff
+assessment step is included in the assignment, peer assessment grades and
+comments are included in the assignment grade details, but the staff grade
+becomes the final grade.
 
 
 ***********************
@@ -400,9 +414,9 @@ Peer Assessment Scoring
 
 .. note:: If a staff grade is provided in the assignment, either because a
    staff assessment step was included or because a member of the course team
-   provided a staff grade as an override grade, peer assessments are not taken
-   into account in the grading. If a staff grade exists, it is always
-   equivalent to your final grade.
+   graded your response to override inappropriate peer assessments, peer
+   assessments are not taken into account in the grading. If a staff grade
+   exists, it is always your final grade.
 
 Peer assessments are scored by criteria. An individual criterion's score is the
 median, not the average, of the scores that each peer assessor gave that
