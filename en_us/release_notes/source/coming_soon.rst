@@ -1,10 +1,44 @@
-####################################
+#############
 Coming Soon
-####################################
+#############
 
 This topic describes features that are in development and that edX expects to
 release in the near future. After these features are released, the release
 notes will include links to related documentation.
+
+****************************************
+Notetaking Feature for Learners
+****************************************
+
+A feature that gives learners the ability to highlight course content and make
+notes while they take a course will soon be enabled for all courses on the
+edx.org and edge.edx.org websites. Learners who use this feature will be able
+to review their notes either in the course content or listed on a new, separate
+**Notes** page in the course.
+
+************************
+Peer Instruction Tool
+************************
+
+Course teams will soon be able to use Studio to enable the Peer Instruction
+tool and add peer instruction components to a course. Peer instruction
+assignments emulate the classroom experience of the Peer Instruction learning
+system for learners in an online course by providing opportunities to discuss
+questions and arrive at a deeper understanding of concepts.
+
+****************************************
+End of Support for Internet Explorer 10
+****************************************
+
+EdX support for the Internet Explorer 10 browser will end soon. Testing of the
+edX platform on the Microsoft Edge browser is in progress.
+
+EdX currently supports use of the edX platform on the latest versions of these
+browsers.
+
+* `Chrome`_
+* `Safari`_
+* `Firefox`_
 
 
 .. include:: ../../links/links.rst

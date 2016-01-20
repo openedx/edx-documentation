@@ -11,6 +11,8 @@ Assessments.
   :local:
   :depth: 2
 
+.. doc team please discontinue use of this category in favor of LMS/Studio beginning in 2016
+
 ******************
 16 December 2015
 ******************
