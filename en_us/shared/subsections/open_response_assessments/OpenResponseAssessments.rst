@@ -13,21 +13,26 @@ assessments.
    :depth: 1
    :local:
 
+For additional information, see :ref:`PA Create an ORA Assignment`,
+:ref:`Managing ORA Assignments`, and :ref:`Accessing ORA Assignment
+Information`.
+
 *****************************************
 Introduction to Open Response Assessments
 *****************************************
 
 Open response assessments allow the course team to assign questions that might
 not have definite answers, such as text responses or short essays. Learners
-submit responses to questions, then each learner and the learner's  peers
+submit responses to questions, then each learner and the learner's peers
 compare the responses to a rubric that you create. You can also allow learners
-to upload an image, a .pdf file, or another file of a type that you specify
-to accompany a text response.
+to upload an image, a .pdf file, or another file of a type that you specify,
+to accompany their text responses.
 
-Open response assessments can include both peer assessments and self
-assessments. In peer assessments, learners compare their peers' responses to a
-rubric that you create. In self assessments, learners compare their own
-responses to the rubric.
+Open response assessments can include self assessments, peer assessments, and
+staff assessments. In self assessments, learners compare their own responses to
+a rubric that you create. In peer assessments, learners compare their peers'
+responses to the rubric. In staff assessments, a member of the course team
+evaluates the learner's responses using the rubric.
 
 In open response assessments, learners usually only see their own responses
 and any peer responses they assess. You can also allow learners to see the top
@@ -98,6 +103,11 @@ open response assessments in your courses.
   to perform too many peer assessments can have a negative impact on learners'
   course completion rates.
 
+* For a manageable experience, use staff assessment steps only in assignments
+  that are available to a limited number of learners. For example, in courses
+  that have cohorts enabled, you make the assignment containing the staff
+  assessment step available only to members of one or more cohorts.
+
 * Set the **Must Grade** number higher than the **Graded By** number to
   minimize the chance that some responses will not be peer assessed. EdX
   recommends a setting such as **Must Grade** = 4 and **Graded By** = 3.
@@ -119,11 +129,12 @@ open response assessments in your courses.
   If learners raise concerns about ORA assignments in course discussions,
   course team members can perform actions such as :ref:`deleting a learner's
   history, or "state" <Adjust_grades>` for a problem so that he can submit his
-  assignment again, or :ref:`removing a learner response <Remove a learner
+  assignment again, :ref:`overriding a learner's grade<Override a learner
+  assessment grade>`, or :ref:`removing a learner response <Remove a learner
   response from peer grading>` from peer grading. If there are more widespread
   issues with peer grading, the course team can reduce the weight of the peer
-  assessment within the final course grade or allow learners to drop the lowest
-  graded assignment from their grades.
+  assessment within the final course grade or allow learners to drop the
+  lowest graded assignment from their grades.
 
 
 .. _PA Elements:
@@ -133,7 +144,7 @@ Elements of an Open Response Assessment
 ******************************************
 
 When you create an open response assessment assignment, you include several
-elements:
+elements.
 
 * One or more :ref:`prompts <PA Prompts>`, or questions.
 
@@ -141,12 +152,13 @@ elements:
   the assessment.
 
 * One or more :ref:`assessment steps <PA Assessment Steps>`. Assignments can
-  include a learner training step, a peer assessment step, and a self
-  assessment step.
+  include a learner training step, a peer assessment step, a self
+  assessment step, and a staff assessment step.
 
 .. note:: If you include a learner training step, you must also include a peer
    assessment step. The learner training step must come first, before the peer
-   and self assessment steps.
+   and self assessment steps. If you include a staff assessment step, it should
+   be the final step in the assignment.
 
 For step-by-step instructions for creating an open response assessment, see
 :ref:`PA Create an ORA Assignment`.
@@ -195,7 +207,7 @@ Before you decide to ask learners to upload other files along with their text
 responses, however, you should be aware of the following limitations and best
 practices.
 
-* During the peer review process, learners download the files that other
+* During the peer assessment step, learners download the files that other
   learners uploaded. To reduce the potential for problems from files with
   malicious content, learners cannot upload files with certain file extensions.
   For a complete list, see :ref:`Prohibited File Extensions`.
@@ -260,8 +272,9 @@ Rubric
 =======
 
 Your assignment must include a **rubric** that you design. The same rubric is
-used for peer and self assessments, and the rubric appears when learners begin
-grading. Learners compare their peers' responses to the rubric.
+used for all the types of assessments (self, peer, or staff). The person
+performing the assessment sees the rubric when she begins grading, and
+compares the submitted response to the rubric.
 
 Rubrics consist of *criteria* and *options*.
 
@@ -292,8 +305,8 @@ options. For example, in the image above, the first criterion has three options
 and the second criterion has four options.
 
 .. note:: You can also include criteria that do not have options, but that do
- include a field where learners can enter feedback. For more information, see
- :ref:`PA Criteria Comment Field Only`.
+   include a field where learners or staff can enter feedback. For more
+   information, see  :ref:`PA Criteria Comment Field Only`.
 
 You can see both criterion and option names when you access assignment
 information for an individual learner. For more information, see
@@ -358,19 +371,24 @@ Assessment Steps
 =================
 
 In your assignment, you also specify the **assessment steps**. You can set the
-assignment to include a learner training step, a peer assessment step, and a
-self assessment step.
+assignment to include some combination of the following steps.
+
+.. contents::
+   :depth: 1
+   :local:
+
+.. note:: If you include a learner training step, you must also include a peer
+   assessment step. The learner training step must come before peer or self
+   assessment steps. If you include both peer and self assessment steps, edX
+   recommends that you place the peer assessment before the self assessment.
+   If you include a staff assessment step, it should be the final step in the
+   assignment.
 
 You can see the type and order of the assessments when you look at the
 assignment. In the following example, after learners submit a response, they
 complete a learner training step ("Learn to Assess Responses"), complete peer
 assessments on other learners' responses ("Assess Peers"), and then complete
 self assessments ("Assess Your Response").
-
-.. note:: If you include a learner training step, you must also include a peer
-   assessment step. The learner training step must come before peer or self
-   assessment steps. If you include both peer and self assessment steps, edX
-   recommends that you place the peer assessment before the self assessment.
 
 .. image:: ../../../../shared/images/PA_AsmtWithResponse.png
   :alt: A peer assessment with assessment steps and status labeled.
@@ -381,15 +399,14 @@ self assessments ("Assess Your Response").
 Learner Training Step
 *****************************
 
-When you create a peer assessment assignment, you can include one or more
-learner training assessments to help learners learn to perform their own
-assessments. A learner training assessment contains one or more sample
-responses that you write, together with the scores that you would give the
-sample responses. Learners review these responses and try to score them the way
-that you scored them.
+Learner training steps teach learners to perform their own assessments. A
+learner training assessment contains one or more sample responses that you
+write, together with the scores that you would give the sample responses.
+Learners review these responses and try to score them the way that you scored
+them.
 
 .. note:: If you include a learner training step, you must also include a peer
-   assessment step. The learner training step must come before peer and self
+   assessment step. The learner training step must come before any peer and self
    assessment steps.
 
 In a learner training assessment, the **Learn to Assess Responses** step opens
@@ -436,7 +453,7 @@ For example, the following learner chose one correct option and one incorrect
 option.
 
 .. image:: ../../../../shared/images/PA_TrainingAssessment_Scored.png
-   :alt: Sample training response, scored.
+   :alt: Sample training response, with one correct and one incorrect option.
    :width: 500
 
 The learner continues to try scoring the sample response until the learner's
@@ -449,22 +466,25 @@ For more information, see :ref:`PA Student Training`.
 Peer Assessment Step
 *****************************
 
-In the peer assessment step, learners review other learners' responses. For
-each response, they select an option for each criterion in your rubric based on
-the response. Learners can also provide text feedback, or comments, on each
-response.
+In the peer assessment step, learners review the responses of other learners
+in the course. For each response, they select an option for each criterion in
+your rubric based on the response. Learners can also provide text feedback, or
+comments, on each response.
 
 If you include both peer and self assessment steps, edX recommends that you
 place the peer assessment before the self assessment.
 
+For information about how peer assessments affect a learner's assignment grade,
+see :ref:`PA Scoring`.
+
 
 Number of Responses and Assessments
-************************************
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-When you specify a peer assessment step, you specify the number of responses
-that each learner has to assess (**Must Grade**) and the number of peer
-assessments that each response has to receive (**Graded By**) before the
-assignment is complete.
+When you include a peer assessment step, you specify the number of responses
+that each learner must assess (**Must Grade**) and the number of peer
+assessments that each response must receive (**Graded By**) before the
+step is considered complete.
 
 .. note:: Because some learners might submit a response without performing any
    peer assessments, some responses might not receive the required number of
@@ -475,20 +495,21 @@ assignment is complete.
    assessments, you could require each learner to assess five responses.
 
 If all responses have received assessments, but some learners have not
-completed the required number of peer assessments, those learners can assess
-responses that other learners have already assessed. The learner who submitted
-the response sees the additional peer assessments when he sees his score.
-However, the additional peer assessments do not count toward the score that the
-response receives.
+completed the required number of peer assessments, those learners can perform
+peer assessments on responses that have already been assessed by other
+learners. The learner who submitted the response sees the additional peer
+assessments when he sees his score. However, the additional peer assessments
+do not count toward the score that the response receives.
 
 .. _Feedback Options:
 
 Feedback Options
-****************
+^^^^^^^^^^^^^^^^
 
-By default, learners see a single comment field below the entire rubric. You
-can also add a comment field to an individual criterion or to several
-individual criteria. This comment field can contain up to 300 characters.
+By default, in peer assessment steps, learners see a single comment field
+below the entire rubric. You can also add a comment field to an individual
+criterion or to several individual criteria. This comment field can contain up
+to 300 characters.
 
 The comment field appears below the options for the criterion. In the following
 image, both criteria have a comment field. There is also a field for overall
@@ -504,18 +525,19 @@ Field Only`.
 
 
 Assessing Additional Responses
-********************************
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Learners can assess more than the required number of responses. After a learner
-completes the peer assessment step, the step "collapses" so that only the
-**Assess Peers** heading is visible.
+Learners can assess more than the required number of responses. After a
+learner completes the peer assessment step, the step "collapses" so that only
+the **Assess Peers** heading is visible.
 
 .. image:: ../../../../shared/images/PA_PAHeadingCollapsed.png
    :width: 500
    :alt: The peer assessment step with just the heading visible.
 
-If the learner selects the **Assess Peers** heading, the step expands. The
-learner can then select **Continue Assessing Peers**.
+If the learner selects the **Assess Peers** heading, the step expands again.
+The learner can then select **Continue Assessing Peers** to perform additional
+peer assessments.
 
 .. image:: ../../../../shared/images/PA_ContinueGrading.png
    :width: 500
@@ -523,31 +545,68 @@ learner can then select **Continue Assessing Peers**.
        is visible.
 
 
-=====================
-Self Assessment Step
-=====================
+.. _Self Assessment Step:
 
-In self assessments, the learner sees his response followed by your rubric. As
-with peer assessments, the learner compares the rubric to his response and
-selects an option for each of the criteria.
+Self Assessment Step
+*****************************
+
+In self assessment steps, the learner sees her own response followed by the rubric.
+As with peer assessments, the learner evaluates the response using the rubric,
+selecting an option for each criterion.
 
 If you include both peer and self assessments, edX recommends that you include
 the peer assessment before the self assessment.
 
 
+.. _Staff Assessment Step:
+
+Staff Assessment Step
+*****************************
+
+In staff assessment steps, a member of the course team performs an evaluation
+of the learner's response. Course team members grade the response using the
+problem's rubric, in the same way that self and peer assessments are done, and
+can include comments in their assessment.
+
+.. note:: If a staff assessment step is included in an assignment, learners do
+   not receive final grades until the staff assessment step has been completed.
+   The scores that you give learners in staff assessment steps override
+   scores from any other assessment type in the assignment, including peer
+   assessments that are completed after the staff assessment.
+
+Including a staff assessment step in an ORA assignment is best for courses with
+smaller groups of learners. For example, in a course with cohorts, you might
+create an ORA assignment that has both peer assessment and staff assessment
+steps, and make it available only to the members of one or more specific
+cohorts. For the members of the remaining cohorts, you create an ORA assignment
+that has only the peer assessment step. For details about creating different
+course experiences for learners in different cohorts, see :ref:`Cohorted
+Courseware Overview`.
+
+For details about performing grading in staff assessment steps, see
+:ref:`Perform a Staff Assessment`.
+
+
 .. _PA Scoring:
 
-******************************************
-How Open Response Assessments Are Scored
-******************************************
+*******************************************************
+How Scores for Open Response Assessments Are Calculated
+*******************************************************
 
-In open response assessments that contain both peer assessment and self
-assessments, only the peer assessment score counts toward the assignment's
-final grade. The self assessment score is not taken into account. There is no
-option for weighting the peer and self assessment portions independently.
+In open response assessments that contain staff assessments, staff assessments
+can be performed more than once, and the most recent staff assessment score is
+equivalent to the assignment's final score. Peer and self assessment scores are
+not taken into account, although learners can see scores and comments from all
+assessments that were performed on their response.
+
+In open response assessments that do not contain staff assessments but do
+contain both peer assessment and self assessments, only the peer assessment
+score counts toward the assignment's final score. The self assessment score is
+not taken into account. There is no option for weighting the peer and self
+assessment portions independently.
 
 In open response assessments that include only self assessments, the
-assignment's final grade is equivalent to the self assessment score.
+assignment's final score is equivalent to the self assessment score.
 
 .. note:: Given the high level of subjectivity in peer assessments, edX
    recommends that you make ORA assignments count towards only a small
@@ -561,9 +620,10 @@ assessments are calculated.
 Peer Assessment Scoring
 =======================
 
-.. note:: If an open response assessment includes both peer and self
-   assessments, only the peer assessment score counts towards the assignment's
-   final grade. The self assessment score is not taken into account.
+.. note:: If an open response assessment includes peer and self assessments
+   but not staff assessments, only the peer assessment score counts towards
+   the assignment's final score. The self assessment score is not taken into
+   account.
 
 Peer assessments are scored by criteria. A number of peer assessors rate a
 learner's response by each of the required criteria. The learner's score for a
@@ -614,7 +674,7 @@ given for each criterion, as follows.
    individual assessor. Therefore, the score for the response is not the median
    of the scores that each individual peer assessor gave the response.
 
-For information on grades for learner submissions that you have canceled and
+For information on scores for learner submissions that you have canceled and
 removed from peer assessment, refer to :ref:`Remove a learner response from
 peer grading`.
 
@@ -627,11 +687,19 @@ Self Assessment Scoring
    grade.
 
 If an open response assessment includes only self assessments, the
-assignment's final grade is equivalent to the self assessment score.
+assignment's final score is equivalent to the self assessment score.
 
 Self assessments are scored by criteria. Each learner rates herself on each
 criterion, using the rubric. The learner's final score on a response is the
 total number of earned points, out of the total possible points.
+
+========================
+Staff Assessment Scoring
+========================
+
+If an open response assessment includes a staff assessment step, the score
+that is given in the staff assessment step overrides all other scores in the
+assignment.
 
 .. _PA Top Responses:
 
@@ -639,7 +707,7 @@ total number of earned points, out of the total possible points.
 Top Responses
 *****************************
 
-You can include a **Top Responses** section that shows the top-scoring
+You can include a **Top Responses** section that shows the top scoring
 responses that learners have submitted for the assignment, along with the
 scores for those responses. The **Top Responses** section appears below the
 learner's score information after the learner finishes every step in the
@@ -656,7 +724,7 @@ in height in the list. (For longer responses, learners can scroll to see the
 entire response.) EdX recommends that you specify 20 or fewer responses to
 prevent the page from becoming too long.
 
-.. note:: It may take up to an hour for a high-scoring response to appear in
+.. note:: It can take up to an hour for a high-scoring response to appear in
  the **Top Responses** list.
 
    If a high-scoring response is :ref:`removed from peer assessment<Remove a
