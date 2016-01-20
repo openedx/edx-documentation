@@ -27,6 +27,27 @@ system for learners in an online course. The components provide opportunities
 for learners to discuss questions and arrive at a deeper understanding of
 concepts.
 
+***********************************
+LMS Page Renaming and Resequencing
+***********************************
+
+A change is coming to the learner experience. Instead of the existing **Course
+Info** and **Courseware** pages in the LMS, learners will soon see **Home** and
+**Course** pages.
+
+* The **Home** page replaces the **Course Info** page. It will open
+  automatically when the learner signs in and selects a course. In addition to
+  course updates and news, the **Home** page will feature important course
+  dates. **Home** is now the first page option for learners.
+
+* **Course** is the new name for the **Courseware** page. It will be located to
+  the right of the **Home** page.
+
+.. image::  images/courseware_change.png
+ :alt: The existing page names and locations overlaid with the new names and
+  locations.
+
+
 ****************************************
 End of Support for Internet Explorer 10
 ****************************************
