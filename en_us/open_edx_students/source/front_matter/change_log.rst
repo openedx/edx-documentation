@@ -2,6 +2,19 @@
 Change Log
 ############
 
+**********************
+2016
+**********************
+
+.. list-table::
+   :widths: 15 70
+   :header-rows: 1
+
+   * - Date
+     - Change
+   * - 18 January 2016
+     - Added the :ref:`SFD Self Paced` topic.
+
 *****************
 December 2015
 *****************

@@ -15,6 +15,7 @@ see :ref:`Developing Your Course Index`.
    creating_new_course
    licensing_course
    scheduling_course
+   setting_pacing
    course_prerequisites
    search_course
    setting_up_student_view

@@ -15,6 +15,7 @@ see :ref:`Developing Your Course Index`.
    creating_new_course
    licensing_course
    scheduling_course
+   setting_pacing
    setting_up_student_view
    course_staffing
    creating_course_certificates
