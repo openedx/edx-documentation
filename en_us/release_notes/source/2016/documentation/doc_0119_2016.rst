@@ -10,7 +10,7 @@ audiences use edX websites and software effectively.
 
 As of 1 January 2016, the edX documentation team no longer maintains an
 individual change log for each guide. These release notes provide a weekly
-summary of software changes, and include links to more complete documentation
+summary of platform changes, and include links to more complete documentation
 when it is available. If you are interested in detailed information about every
 change made to the edX documentation set, the `edx-documentation`_ repository
 on GitHub provides a complete record.
