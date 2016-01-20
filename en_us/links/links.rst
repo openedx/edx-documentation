@@ -67,6 +67,8 @@
 
 .. _GitHub Help: https://help.github.com/articles/set-up-git
 
+.. _edx-documentation: https://github.com/edx/edx-documentation
+
 .. _PyEnv: https://github.com/yyuu/pyenv
 
 .. _VirtualEnv: http://www.virtualenv.org/en/latest/

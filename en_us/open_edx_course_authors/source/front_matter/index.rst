@@ -9,6 +9,5 @@ For Your Information
 
    read_me
    preface
-   change_log_2016
-   change_log
    browsers
+   change_log
