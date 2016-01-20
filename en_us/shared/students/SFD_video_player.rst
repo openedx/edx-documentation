@@ -1,8 +1,8 @@
 .. _Video Player:
 
-#####################
-The edX Video Player
-#####################
+#######################################
+Watching Videos on the edX Video Player
+#######################################
 
 All edX courses include videos, and edX has its own video player. Most of the
 controls on the player will be familiar to you if you have watched online

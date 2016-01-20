@@ -1,9 +1,9 @@
 
 .. _Explore Posts:
 
-#########################
-Explore Posts
-#########################
+###########################
+Exploring Discussion Posts
+###########################
 
 This topic describes how to explore discussion posts in your edX course.
 

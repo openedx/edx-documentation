@@ -2,7 +2,7 @@
 .. _Keep Up with New Activity:
 
 ################################
-Keep Up with New Activity
+Keeping Up with New Activity
 ################################
 
 This topic describes how to keep up with discussion activity in your edX

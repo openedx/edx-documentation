@@ -1,8 +1,8 @@
 .. _SFD Academic Course Credit Index:
 
-######################################
-Academic Course Credit
-######################################
+#################################
+Receiving Academic Course Credit
+#################################
 
 .. toctree::
    :maxdepth: 3

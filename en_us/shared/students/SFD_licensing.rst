@@ -1,8 +1,8 @@
 .. _Course and Video Licenses:
 
-##########################
-Course and Video Licenses
-##########################
+##################################################
+Understanding How Courses and Videos Are Licensed
+##################################################
 
 This topic describes licenses in your course and restrictions on using course
 content.
