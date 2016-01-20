@@ -379,3 +379,11 @@
 .. _Verified Certificates: https://www.edx.org/verified-certificate
 
 .. _XSeries Programs: https://www.edx.org/xseries
+
+.. Browsers
+
+.. _Chrome: https://www.google.com/chrome
+
+.. _Safari: https://www.apple.com/safari
+
+.. _Firefox: https://mozilla.org/firefox

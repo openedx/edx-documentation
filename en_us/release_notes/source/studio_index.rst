@@ -4,11 +4,18 @@
 EdX Studio
 ####################################
 
-The following information describes what is new in edX Studio.
+The following information summarizes what is new in edX Studio during the
+listed week.
 
 .. contents::
   :local:
   :depth: 2
+
+******************
+19 January 2016
+******************
+
+.. include:: 2016/studio/studio_0119_2016.rst
 
 ******************
 6 January 2016

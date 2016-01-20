@@ -14,15 +14,21 @@ you are interested in additional information about every change in a release,
 create a user account for the wiki and review the dated release pages.
 
 *************
+EdX Studio
+*************
+
+.. include:: studio/studio_0119_2016.rst
+
+*************
 EdX LMS
 *************
 
 .. include:: lms/lms_0119_2016.rst
 
 *************
-Open edX
+Documentation
 *************
 
-.. include:: openedx/openedx_0119_2016.rst
+.. include:: documentation/doc_0119_2016.rst
 
 .. include:: ../../../links/links.rst
