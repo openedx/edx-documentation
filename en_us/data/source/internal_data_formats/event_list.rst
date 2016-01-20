@@ -243,11 +243,15 @@ M, N, O
      - :ref:`ora2`
    * - ``openassessmentblock.get_peer_submission``
      - :ref:`ora2`
+   * - ``openassessmentblock.get_submission_for_staff_grading``
+     - :ref:`ora2`
    * - ``openassessmentblock.peer_assess``
      - :ref:`ora2`
    * - ``openassessmentblock.save_submission``
      - :ref:`ora2`
    * - ``openassessmentblock.self_assess``
+     - :ref:`ora2`
+   * - ``openassessmentblock.staff_assess``
      - :ref:`ora2`
    * - ``openassessmentblock.submit_feedback_on_assessments``
      - :ref:`ora2`
