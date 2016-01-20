@@ -6,6 +6,12 @@ Open edX Dogwood Release
 
 This page lists the highlights of the Dogwood release.
 
+.. important::
+
+    Dogwood is pre-release software and may not yet be stable. These release
+    notes are a draft.
+
+
 .. contents::
  :depth: 1
  :local:
