@@ -25,22 +25,17 @@ learning about, courses on the `edx.org`_ or edge.edx.org websites.
 Building and Running an edX Course
 ************************************
 
-Another use case for Office Mix has been added to the description of the
-:ref:`partnercoursestaff:Office Mix Tool`. In this use case, after you create a
-mix you export the presentation to video and then include it in your course
-using the video component.
+* A topic on :ref:`partnercoursestaff:Setting Course Pacing` is now available.
 
+* A topic on :ref:`partnercoursestaff:Managing ORA Assignments` is now
+  available.
 
-EdX Learner's Guide
-********************
+* A topic on :ref:`partnercoursestaff:CA_Teams_Overview` is now available.
 
-
-
-EdX Research Guide
-*********************
-
-
-
+* Another use case for Office Mix has been added to the description of the
+  :ref:`partnercoursestaff:Office Mix Tool`. In this use case, after you
+  create a mix you export the presentation to video and then include it in
+  your course using the video component.
 
 ==================================
 Documentation for Open edX Users
@@ -49,10 +44,8 @@ Documentation for Open edX Users
 Guides described in this section are intended for audiences that are using, or
 learning about, courses on an Open edX instance.
 
-
 Building and Running an Open edX Course
 ******************************************
 
-
-
+A topic on :ref:`opencoursestaff:Setting Course Pacing` is now available.
 
