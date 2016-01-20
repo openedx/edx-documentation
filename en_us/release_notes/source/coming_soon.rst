@@ -20,18 +20,19 @@ to review their notes either in the course content or listed on a new, separate
 Peer Instruction Tool
 ************************
 
-Course teams will soon be able to use Studio to enable the Peer Instruction
+Course teams will soon be able to use Studio to enable the peer instruction
 tool and add peer instruction components to a course. Peer instruction
 assignments emulate the classroom experience of the Peer Instruction learning
-system for learners in an online course by providing opportunities to discuss
-questions and arrive at a deeper understanding of concepts.
+system for learners in an online course. The components provide opportunities
+for learners to discuss questions and arrive at a deeper understanding of
+concepts.
 
 ****************************************
 End of Support for Internet Explorer 10
 ****************************************
 
-EdX support for the Internet Explorer 10 browser will end soon. Testing of the
-edX platform on the Microsoft Edge browser is in progress.
+EdX support for the Microsoft Internet Explorer 10 browser will end soon.
+Testing of the edX platform on the Microsoft Edge browser is in progress.
 
 EdX currently supports use of the edX platform on the latest versions of these
 browsers.
