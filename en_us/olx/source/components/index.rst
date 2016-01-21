@@ -18,7 +18,6 @@ Use the topics in this section to create course components.
    google_calendar
    google_docs
    google_hangout
-   graphical_slider_tool
    iframe
    lti_component
    open_response_assessments/index
