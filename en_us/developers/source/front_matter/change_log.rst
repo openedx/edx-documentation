@@ -3,6 +3,14 @@
 Change Log
 **********
 
+The edX documentation team no longer maintains a change log for each guide. For
+a weekly summary of platform changes, refer to the *EdX Release Notes* on the
+`docs.edx.org`_ website.
+
+For information about changes made to the edX documentation set, the
+`edx-documentation`_ repository on GitHub provides a complete record.
+
+.. include:: ../../../links/links.rst
 
 .. list-table::
    :widths: 15 75
@@ -17,7 +25,7 @@ Change Log
        multi-line string literals.
    * - 27 Oct 2015
      - Updated the description of the Segment tracking system in the
-       :ref:`analytics` section to reflect changes to the service's name 
+       :ref:`analytics` section to reflect changes to the service's name
        and the configuration steps.
    * - 15 Sep 2015
      - Added a topic with guidelines for :ref:`contributing to the
