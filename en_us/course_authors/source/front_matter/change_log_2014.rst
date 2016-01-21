@@ -6,7 +6,7 @@ Change Log for 2013 through 2014
 
 This section lists changes in this document from 2013 and 2014.
 
-For changes in 2015, see :ref:`Change Log for 2015`.
+For changes in 2015, see :ref:`Change Log 2015`.
 
 .. contents::
  :local:
