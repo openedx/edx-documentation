@@ -8,7 +8,7 @@ This section describes how to install the Open edX Dogwood release.
 
 .. important::
     Dogwood is pre-release software, and may be unstable.  These instructions
-    are a draft.  We welcome feedback.
+    are a draft, for Dogwood RC3.  We welcome feedback.
 
 
 .. contents::
@@ -39,11 +39,11 @@ for more details.
 What is the Dogwood Git Tag?
 ******************************
 
-The Git tag for the Dogwood release is ``named-release/dogwood``. You use this
+The Git tag for the Dogwood release is ``named-release/dogwood.rc3``. You use this
 tag to identify the version of Open edX code that is the Dogwood release.
 
 The following Open edX Git repositories have the Git tag
-``named-release/dogwood``.
+``named-release/dogwood.rc3``.
 
 * edx-platform
 * configuration
@@ -144,7 +144,7 @@ release. To do so, use the Linux ``export`` command.
 
 .. code-block:: bash
 
-  export OPENEDX_RELEASE="named-release/dogwood"
+  export OPENEDX_RELEASE="named-release/dogwood.rc3"
 
 =========================
 Install the Vagrant Box
@@ -183,9 +183,9 @@ The ``migrate.sh`` script is in the configuration repository, `available here
 On the computer or virtual machine that is running the Cypress release of Open
 edX, run the upgrade script for your type of installation:
 
-* For Devstack, run ``./migrate.sh -c devstack -t named-release/dogwood``.
+* For Devstack, run ``./migrate.sh -c devstack -t named-release/dogwood.rc3``.
 
-* For Fullstack, run ``./migrate.sh -c fullstack -t named-release/dogwood``.
+* For Fullstack, run ``./migrate.sh -c fullstack -t named-release/dogwood.rc3``.
 
 * You can also run ``./migrate.sh -h`` to see which other options the script
   accepts.
