@@ -219,13 +219,18 @@ You can use keyboard shortcuts to create, edit, and delete your notes.
  However, you can only use these keyboard shortcuts on browsers that support
  caret browsing.
 
-  * Internet Explorer and Firefox support caret browsing by default. To enable
-    caret browsing in Firefox, press F7.
+.. * Microsoft Edge, Internet Explorer 11, and (add back with DOC-2629)
+
+  * Firefox supports caret browsing by
+    default. To enable or disable caret browsing, press F7.
 
   * Safari supports caret browsing when VoiceOver is turned on. For more
     information about VoiceOver, see the `VoiceOver for OS X`_ website.
 
   * Chrome does not support caret browsing.
+
+..    However, Google does offer a `Caret
+    Browsing extension`_ that you can install and enable with F7. (add back with DOC-2628)
 
 Before you use the following keyboard shortcuts, you must make sure that notes
 are visible. To show or hide notes, press Ctrl + Shift + left bracket (``[``).
