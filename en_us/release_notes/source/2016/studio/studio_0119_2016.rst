@@ -1,7 +1,7 @@
 
-******************************************************
+===================================================
 Self-Paced or Instructor-Paced Course Configuration
-******************************************************
+===================================================
 
 Course teams can now select the way a course is delivered to learners: the
 **Schedule & Details** page in Studio now includes a setting for either
@@ -17,9 +17,9 @@ For more information, see :ref:`partnercoursestaff:Setting Course Pacing` in
 *Building and Running an edX Course* or :ref:`opencoursestaff:Setting Course
 Pacing` in *Building and Running an Open edX Course*.
 
-****************************************************
+===================================================
 Staff Grading Options for Open Response Assessments
-****************************************************
+===================================================
 
 The latest enhancement to open response assessments is the ability for course
 staff to grade learner responses. Course staff now have two options to grade
@@ -34,9 +34,9 @@ learner responses in open response assessments.
 For more information, see :ref:`partnercoursestaff:Managing ORA Assignments` in
 *Building and Running an edX Course*.
 
-******
+=====
 Teams
-******
+=====
 
 Using teams to divide learners into smaller groups is an effective way to
 provide small group interactions and projects in your course.
@@ -50,9 +50,9 @@ take part in group activities within the chosen topic.
 For more information see :ref:`partnercoursestaff:CA_Teams_Overview` in
 *Building and Running an edX Course*.
 
-***********************
+=============
 Other Changes
-***********************
+=============
 
 An error that prevented LaTeX (MathJax) formatted equations entered in the Raw
 HTML editor from rendering correctly has been resolved. (TNL-3968)
