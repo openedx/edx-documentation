@@ -18,6 +18,7 @@ most recent release of Open edX is :ref:`Cypress <Open edX Cypress Release>`.
    :maxdepth: 2
 
    front_matter/index
+   dogwood
    cypress
    birch
    install_options
