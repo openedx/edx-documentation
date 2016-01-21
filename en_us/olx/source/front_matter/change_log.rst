@@ -3,20 +3,6 @@ Change Log
 ############
 
 ****************
-January 2016
-****************
-
-.. list-table::
-   :widths: 30 70
-   :header-rows: 1
-
-   * - Date
-     - Change
-   * - 6 January 2016
-     - Removed the "Graphical Slider Tool" topic. This feature is no longer
-       available.
-
-****************
 November 2015
 ****************
 
