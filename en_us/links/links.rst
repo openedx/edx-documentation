@@ -45,8 +45,6 @@
 
 .. _Announcements: https://open.edx.org/announcements
 
-.. _edx-analytics-configuration: https://github.com/edx/edx-analytics-configuration
-
 
 .. _edX Partner Support: https://partners.edx.org/edx_zendesk
 
@@ -56,6 +54,10 @@
 .. GitHub Links
 
 .. _GitHub: http://github.com
+
+.. _edx-analytics-configuration: https://github.com/edx/edx-analytics-configuration
+
+.. _edx-documentation: https://github.com/edx/edx-documentation
 
 .. _custom_form_app: https://github.com/open-craft/custom-form-app
 
@@ -379,3 +381,11 @@
 .. _Verified Certificates: https://www.edx.org/verified-certificate
 
 .. _XSeries Programs: https://www.edx.org/xseries
+
+.. Browsers
+
+.. _Chrome: https://www.google.com/chrome
+
+.. _Safari: https://www.apple.com/safari
+
+.. _Firefox: https://mozilla.org/firefox

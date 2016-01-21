@@ -4,15 +4,22 @@
 EdX Documentation
 ####################################
 
-The following information describes what is new in edX documentation.
+The following information provides a weekly summary of what is new in edX
+documentation.
 
 .. contents::
   :local:
   :depth: 2
 
-******************
-6 January 2016
-******************
+**************************
+Week of 18 January 2016
+**************************
+
+.. include:: 2016/documentation/doc_0119_2016.rst
+
+**************************
+Week of 6 January 2016
+**************************
 
 .. include:: 2016/documentation/doc_0106_2016.rst
 

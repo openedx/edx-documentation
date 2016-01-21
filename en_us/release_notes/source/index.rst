@@ -6,14 +6,7 @@ edX Release Notes
    :maxdepth: 2
 
    front_matter/index
-
-.. There is no coming soon information in the 2016-01-11 notes.
-.. Remove coming_soon.rst from the exclude_patterns array in
-.. conf.py when re-enabling this toctree.
-.. .. toctree::
-..   :maxdepth: 2
-
-..   coming_soon.rst
+   coming_soon.rst
 
 
 ******************
