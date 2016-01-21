@@ -186,7 +186,7 @@ October, 2014
        :ref:`Video Components` chapters to explain the option to embed content
        in container objects.
    * - 10/07/14
-     - Added pages for the :ref:`Graphical Slider Tool` and
+     - Added pages for the Graphical Slider Tool and
        :ref:`Symbolic Response` to the :ref:`Problems` section.
 
 *****************
