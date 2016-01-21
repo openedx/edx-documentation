@@ -8,6 +8,8 @@
 
 .. _Entity Relationship Diagram for ORA Data: https://openedx.atlassian.net/wiki/display/AN/Entity+Relationship+Diagram+for+ORA+Data
 
+.. _edX Enrollment API: http://edx.readthedocs.org/projects/edx-platform-api/en/latest/enrollment/index.html
+
 .. _course-data: http://groups.google.com/a/edx.org/forum/#!forum/course-data
 
 .. _edx.org: http://edx.org
@@ -62,6 +64,8 @@
 .. _PyEnv: https://github.com/yyuu/pyenv
 
 .. _VirtualEnv: http://www.virtualenv.org/en/latest/
+
+.. _Virtual Environments: http://docs.python-guide.org/en/latest/dev/virtualenvs/
 
 .. _VirtualEnv Installation: https://virtualenv.pypa.io/en/latest/installation.html
 
@@ -174,6 +178,24 @@
 
 .. THIRD PARTY LINKS
 
+.. _Oscar: https://github.com/django-oscar/django-oscar
+.. _Ecommerce service: https://github.com/edx/ecommerce
+.. _Transifex: https://www.transifex.com/
+.. _configure the Transifex client: http://docs.transifex.com/client/config/
+.. _Communications API: http://django-oscar.readthedocs.org/en/latest/howto/how_to_customise_oscar_communications.html#communications-api
+.. _django-compressor: http://django-compressor.readthedocs.org/
+.. _RequireJS: http://requirejs.org/
+.. _OpenID Connect: http://openid.net/specs/openid-connect-core-1_0.html
+.. _devstack: https://github.com/edx/configuration/wiki/edX-Developer-Stack
+.. _Testing in Django: https://docs.djangoproject.com/en/1.8/topics/testing/
+.. _Django sites framework: https://docs.djangoproject.com/en/1.8/ref/contrib/sites
+.. _Jasmine: http://jasmine.github.io/2.3/introduction.html
+.. _edX JavaScript standards: https://github.com/edx/edx-platform/wiki/Javascript-standards-for-the-edx-platform
+.. _JSHint: http://www.jshint.com/
+.. _jscs: https://www.npmjs.org/package/jscs
+.. _Waffle: http://waffle.readthedocs.org/en/latest
+.. _Waffle documentation: http://waffle.readthedocs.org/en/latest
+.. _Segment: https://segment.com
 .. _Google Play: https://play.google.com/store/apps/details?id=org.edx.mobile
 .. _App Store: https://itunes.apple.com/us/app/edx/id945480667?mt=8
 .. _VoiceOver for OS X: https://www.apple.com/accessibility/osx/voiceover/

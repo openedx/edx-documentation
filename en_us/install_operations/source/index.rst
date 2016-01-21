@@ -26,6 +26,7 @@ of Open edX is :ref:`Dogwood <Open edX Dogwood Release>`.
    fullstack/install_fullstack
    theming/index
    configuration/index
+   ecommerce/index
    analytics/index
    mobile
    feature_flags/feature_flag_index
