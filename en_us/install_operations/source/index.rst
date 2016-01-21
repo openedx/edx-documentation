@@ -27,6 +27,7 @@ most recent release of Open edX is :ref:`Cypress <Open edX Cypress Release>`.
    fullstack/install_fullstack
    theming/index
    configuration/index
+   ecommerce/index
    analytics/index
    mobile
    feature_flags/feature_flag_index
