@@ -6,6 +6,11 @@ Open edX Dogwood Release
 
 This section describes how to install the Open edX Dogwood release.
 
+.. important::
+    Dogwood is pre-release software, and may be unstable.  These instructions
+    are a draft.  We welcome feedback.
+
+
 .. contents::
  :local:
  :depth: 1
@@ -15,17 +20,20 @@ What's Included in Dogwood
 ******************************
 
 The Open edX Dogwood release contains several new features for learners, course
-teams, and developers. See the Open edX Release Notes for more details.
+teams, and developers. See the :ref:`openreleasenotes:Open edX Release Notes`
+for more details.
 
-.. Note::
- There are several new features in the Dogwood release that are available, but
- not enabled by default in new installations. For details, see the following
- topics.
+.. TBD: fix this up for Dogwood...
+  .. Note::
+   There are several new features in the Dogwood release that are available, but
+   not enabled by default in new installations. For details, see the following
+   topics.
 
- * :ref:`Enable edX Search`
- * :ref:`Enable Badging`
- * :ref:`Enable CCX`
- * :ref:`Enable Licensing`
+   * :ref:`Enable edX Search`
+   * :ref:`Enable Badging`
+   * :ref:`Enable CCX`
+   * :ref:`Enable Licensing`
+
 
 ******************************
 What is the Dogwood Git Tag?
@@ -40,12 +48,17 @@ The following Open edX Git repositories have the Git tag
 * edx-platform
 * configuration
 * cs_comments_service
-* notifier
-* edx-certificates
 * xqueue
-* edx-documentation
-* edx-ora2
 * XBlock
+* notifier
+* edx-ora2
+* edx-documentation
+* edx-certificates
+* edx-analytics-data-api-client
+* edx-analytics-configuration
+* edx-analytics-dashboard
+* edx-analytics-data-api
+* edx-analytics-pipeline
 
 ******************************
 Installing the Dogwood Release
@@ -57,7 +70,7 @@ You can install the Open edX Dogwood release using
 
 Review the prerequisites and instructions for each option, and then choose the
 option that best meets your needs. Ensure that you install the
-required software to run the edX Platform.
+required software to run the edX platform.
 
 If you are upgrading from the Cypress release, see `Upgrading from Cypress to
 Dogwood`_.
@@ -112,16 +125,14 @@ Vagrant before continuing with the installation process.
 
    .. code-block:: bash
 
-     $ vagrant box add /path-to-downloaded-box/name-of-vagrant-box --name
-       dogwood-devstack
+     $ vagrant box add /{path-to-downloaded-box}/{name-of-vagrant-box} --name dogwood-devstack
 
 
 * For Fullstack installations, run the following command.
 
    .. code-block:: bash
 
-     $ vagrant box add /path-to-downloaded-box/name-of-vagrant-box --name
-       dogwood-fullstack
+     $ vagrant box add /{path-to-downloaded-box}/{name-of-vagrant-box} --name dogwood-fullstack
 
 ============================================
 Set the OPENEDX_RELEASE Environment Variable
@@ -129,7 +140,7 @@ Set the OPENEDX_RELEASE Environment Variable
 
 Before installing the Vagrant box, you must set the value of the
 ``OPENEDX_RELEASE`` environment variable to the Git tag for the Dogwood
-release. Use the Linux ``export`` command.
+release. To do so, use the Linux ``export`` command.
 
 .. code-block:: bash
 
@@ -149,8 +160,8 @@ Upgrading from Cypress to Dogwood
 
 You can upgrade an Open edX instance that is running the Cypress release to the
 Dogwood release.  EdX provides the ``migrate.sh`` script if you have a simple
-Cypress install and want to upgrade it automatically.   If you have a more complex
-or customized install, you may need to upgrade manually.
+Cypress installation and want to upgrade it automatically.   If you have a more
+complex or customized installation, you may need to upgrade manually.
 
 ===================
 Automatic Upgrading
@@ -196,7 +207,7 @@ this process if your installation is customized in some way, or if you need to
 diagnose problems during the upgrade.
 
 Upgrading Cypress to Dogwood is more involved than most Open edX release
-upgrades:
+upgrades.
 
 * Dogwood upgrades the Django framework from version 1.4 to 1.8, which changed
   the database migration tool from South to Django.  When upgrading from
@@ -206,7 +217,7 @@ upgrades:
 * Dogwood upgrades Python from 2.7.3 to 2.7.10.  This means virtualenvs have to
   be recreated.
 
-The upgrade from Cypress to Dogwood:
+The upgrade from Cypress to Dogwood includes these steps.
 
 #. Updates edx-platform to the ``release-2015-11-09`` tag.  This is the last
    released version that used Django 1.4.
@@ -229,7 +240,7 @@ The upgrade from Cypress to Dogwood:
 #. Runs Django database migrations.
 
 
-Similar steps are followed for other repositories such as xqueue.
+Similar steps are followed to upgrade other repositories such as xqueue.
 
 
 .. include:: ../../links/links.rst
