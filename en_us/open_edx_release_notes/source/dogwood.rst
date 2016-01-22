@@ -271,10 +271,57 @@ Accessibility Updates
 ************************************************
 
 In keeping with edX's commitment to creating accessible content for everyone,
-everywhere, the Open edX Dogwood release contains several accessibility
-enhancements in the Open edX LMS and discussions.
+everywhere, the Open edX Dogwood release contains numerous accessibility
+enhancements and improvements to readability and navigability.
 
-* TBD
+* In Studio, changes to the **Unit** page make it easier to use a keyboard to
+  navigate to the options in the **Add New Component** section of this page. It
+  is also easier to use a keyboard to make selections from the list of choices
+  that appears when you select the **Advanced** option.
+
+* On course pages in the LMS, options for actions that course team members can
+  take, such as **View Unit in Studio** and **Staff Debug Info**, are now pink
+  instead of blue. This change increases the contrast between the text and the
+  gray background when these options are in a default state.
+
+* In the LMS, the list of topics on the **Discussion** page now uses colors
+  that meet WCAG AA guidelines for contrast. As a result, the background color
+  of the selected topic is now white instead of light blue.
+
+* The calculator now has a background color that contrasts with the foreground
+  on the input label.
+
+* Alert notifications for course wiki articles have been updated to increase
+  contrast between the background color and the alert text.
+
+* The left navigation menu presented by the **Courseware** page was
+  re-engineered. Navigating through sections, subsections and units using the
+  course navigation menu is now significantly improved for keyboard and screen
+  reader users.
+
+* Keyboard navigation in open response assessments was improved by restoring
+  keyboard focus outline indicators.
+
+===================================
+Design Updates to the Video Player
+===================================
+
+This release includes several updates to the edX video player.
+
+* The user interface controls for the player appear only after a learner
+  selects **play** for a video, and take up less screen space.
+
+* New icon designs are used for the **full screen** and **show transcript**
+  options.
+
+* The language menu, for video with transcript in multiple languages, is
+  indicated by a drop-down menu icon next to the **show transcript** icon.
+
+* To improve accessibility, all options use an icon font method that
+  streamlines delivery.
+
+* To enhance the experience of learners who use screen readers, changes that
+  improve spoken announcements and simplify navigation are also included.
 
 ************************************************
 Deprecated Features
@@ -316,7 +363,6 @@ displays the message, "This course uses features that are no longer supported."
 A newer version of the open response assessments feature (ORA 2) was released
 over a year ago, and the ability to add ORA 1 problems was removed from Studio
 in May 2014.
-
 
 ============================
 Legacy Instructor Dashboard
