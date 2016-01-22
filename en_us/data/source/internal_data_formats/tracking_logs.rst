@@ -4701,16 +4701,11 @@ This section presents teams-related events alphabetically. Typically, the
 first event produced when teams are included in a course is the
 ``edx.team.created`` event.
 
-.. note:: The Teams feature is in limited release. For more information,
-   contact your edX partner manager. For Open edX sites, contact your system
-   administrator.
+**History** Teams-related events were added on 16 Sept 2015.
 
 .. contents::
   :local:
   :depth: 1
-
-
-.. NOT in live doc yet For information about including teams in a course, see Teams Setup in the *Building and Running an edX Course* guide.
 
 
 .. _edx_team_activity_updated:
@@ -4726,8 +4721,6 @@ The definition of activity that would trigger this event does not include
 changes in team membership.
 
 **Event Source**: Server
-
-**History** Added 16 Sept 2015.
 
 ``event`` **Member Fields**:
 
@@ -4756,8 +4749,6 @@ When a team's information is edited, the server emits one
 ``edx.team.team_changed`` event for each modified field.
 
 **Event Source**: Server
-
-**History** Added 16 Sept 2015.
 
 ``event`` **Member Fields**:
 
@@ -4809,8 +4800,6 @@ server emits an ``edx.team.created`` event.
 
 **Event Source**: Server
 
-**History** Added 16 Sept 2015.
-
 ``event`` **Member Fields**:
 
 In addition to the :ref:`common<context>` ``context`` member fields, this
@@ -4831,8 +4820,6 @@ team members who have any of the **Staff**, **Admin**, **Discussion Admin**,
 
 **Event Source**: Server
 
-**History** Added 16 Sept 2015.
-
 ``event`` **Member Fields**:
 
 In addition to the :ref:`common<context>` ``context`` member fields, this
@@ -4851,8 +4838,6 @@ When a user joins a team or is added by someone else, the server emits an
 ``edx.team.learner_added`` event.
 
 **Event Source**: Server
-
-**History** Added 16 Sept 2015.
 
 ``event`` **Member Fields**:
 
@@ -4898,8 +4883,6 @@ learners from teams.
 
 **Event Source**: Server
 
-**History** Added 16 Sept 2015.
-
 ``event`` **Member Fields**:
 
 In addition to the :ref:`common<context>` ``context`` member fields, this
@@ -4936,8 +4919,6 @@ When a user views any page with a unique URL under the **Teams** page in the
 courseware, the browser emits an ``edx.team.page_viewed`` event.
 
 **Event Source**: Browser
-
-**History** Added 16 Sept 2015.
 
 ``event`` **Member Fields**:
 
@@ -4982,8 +4963,6 @@ When a user performs a search for teams from the topic view under the
 event.
 
 **Event Source**: Server
-
-**History** Added 16 Sept 2015.
 
 ``event`` **Member Fields**:
 
