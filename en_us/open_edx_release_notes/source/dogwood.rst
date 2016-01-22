@@ -48,7 +48,7 @@ Office Mix XBlock
 
 With `Office Mix`_, course teams can turn PowerPoint presentations into
 interactive online lessons that are called mixes. With the Office Mix XBlock,
-course teams can embed  mixes in courses.
+course teams can embed mixes in their courses.
 
 For information about how to enable this tool in Studio and add mixes to a
 course, see :ref:`opencoursestaff:Office Mix Tool` in *Building and Running an
@@ -61,13 +61,13 @@ LTI XBlock
 
 A new LTI XBlock is now available. This XBlock is intended to replace the
 existing LTI XModule. In addition to all of the functionality previously
-offered by the XModules, the LTI XBlock also offers course teams the ability to
+offered by the XModule, the LTI XBlock also offers course teams the ability to
 configure the way that learning tools interoperability (LTI) components open
 when learners use them: in a modal window, in a separate web browser window, or
 embedded in a course page.
 
-.. note:: The LTI XModule continues to work, but does not provide the new
-  launching behavior options.
+.. note:: The LTI XModule continues to function in courses that include it,
+ but it does not provide the new launching behavior options.
 
 For more information, see :ref:`opencoursestaff:LTI Component` in the *Building
 and Running an Open edX Course* guide.
@@ -115,13 +115,13 @@ For more information, see :ref:`installation:Installing the Open edX Analytics
 Developer Stack` in the *Installing, Configuring, and Running the Open edX
 Platform* guide.
 
-========
-Insights
-========
+==========
+Analytics
+==========
 
-TBD
-
-.. Insights has a version marked that is compatible with Dogwood, but we don't provide installation or support.
+A new version of the Analytics Devstack is now available that is compatible
+with the Dogwood release. EdX does not currently provide installation or
+support of Insights for Open edX installations.
 
 =========================================
 Initial Version of Comprehensive Theming
