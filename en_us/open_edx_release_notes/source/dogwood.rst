@@ -405,12 +405,6 @@ The following Django apps are deprecated in the Dogwood release.
 * The Licenses Django app.
 
 ************************************************
-Supported Browser Changes
-************************************************
-
-TBD
-
-************************************************
 More Information on Dogwood Release Changes
 ************************************************
 
