@@ -154,7 +154,7 @@ positive and negative exponents.
 For example, to indicate ``0.012``, you can enter either of the following
 expressions:
 
-* ``1.2^-2``
+* ``1.2*10^-2``
 * ``1.2e-2``
 
 To indicate ``-440,000``, you can enter either of the following expressions:
