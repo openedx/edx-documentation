@@ -1,7 +1,7 @@
 .. _SFD_Teams:
 
 ##########################################
-Teamwork in Courses
+Working on Team Projects and Activities
 ##########################################
 
 In some courses, you might be assigned activities or projects that require

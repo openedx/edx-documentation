@@ -1,12 +1,12 @@
 .. _SFD Self Paced:
 
-##################
-Self-Paced Courses
-##################
+###########################
+Taking a Self-Paced Course
+###########################
 
-Most edX courses are *instructor-paced*: they follow a schedule that the
+Most edX courses are instructor-paced: they follow a schedule that the
 instructor sets, with assignments and exams that have specific due dates. EdX
-also offers a number of *self-paced* courses, which allow you to progress
+also offers a number of self-paced courses, which allow you to progress
 through the course at your own speed.
 
 On the edx.org home page, an indication next to the course start date lets you
