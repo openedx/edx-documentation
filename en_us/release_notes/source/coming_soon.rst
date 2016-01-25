@@ -43,7 +43,7 @@ Info** and **Courseware** pages in the LMS, learners will soon see **Home** and
 * **Course** is the new name for the **Courseware** page. It will be located to
   the right of the **Home** page.
 
-.. image::  images/courseware_change.png
+.. image::  Images/courseware_change.png
  :alt: The existing page names and locations overlaid with the new names and
   locations.
 
