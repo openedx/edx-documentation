@@ -1798,12 +1798,18 @@ status
 
        * - Value
          - Description
+       * - audit_notpassing
+         - The learner enrolled in the audit track and did not earn a passing
+           grade. **History**: Added 26 January 2016.
+       * - audit_passing
+         - The learner enrolled in the audit track and received a passing
+           grade. **History**: Added 26 January 2016.
        * - deleted
          - The certificate has been deleted.
        * - deleting
          - A request has been made to delete a certificate.
        * - downloadable
-         - The student passed the course and a certificate is available for
+         - The learner passed the course and a certificate is available for
            download.
        * - error
          - An error ocurred during certificate generation.
@@ -1811,7 +1817,8 @@ status
          - A request has been made to generate a certificate but it has not
            yet been generated.
        * - notpassing
-         - The student's grade is not a passing grade.
+         - The learner enrolled in a certificate track, but did not earn a
+           passing grade.
        * - regenerating
          - A request has been made to regenerate a certificate but it has not
            yet been generated.
@@ -1823,9 +1830,11 @@ status
          - No entry, typically because the student has not yet been graded for
            certificate generation.
 
-  After a course has been graded and certificates have been issued, status is
-  one of these values.
+  After a course has been graded and certificates have been issued, the status
+  is one of these values.
 
+  * audit_notpassing
+  * audit_passing
   * downloadable
   * notpassing
 
