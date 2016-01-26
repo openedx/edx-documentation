@@ -4,7 +4,7 @@
 EdX XBlocks
 ####################################
 
-The following information describes what is new in edX XBlocks. 
+The following information describes what is new in edX XBlocks.
 
 .. contents::
   :local:
@@ -21,6 +21,6 @@ The following information describes what is new in edX XBlocks.
 ******************
 
 .. include:: 2015/xblocks/xblocks_0128_2015.rst
-  
+
 
 .. include:: ../../links/links.rst

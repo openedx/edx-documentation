@@ -16,17 +16,6 @@ edx.org and edge.edx.org websites. Learners who use this feature will be able
 to review their notes either in the course content or listed on a new, separate
 **Notes** page in the course.
 
-************************
-Peer Instruction Tool
-************************
-
-Course teams will soon be able to use Studio to enable the peer instruction
-tool and add peer instruction components to a course. Peer instruction
-assignments emulate the classroom experience of the Peer Instruction learning
-system for learners in an online course. The components provide opportunities
-for learners to discuss questions and arrive at a deeper understanding of
-concepts.
-
 ***********************************
 LMS Page Renaming and Resequencing
 ***********************************
