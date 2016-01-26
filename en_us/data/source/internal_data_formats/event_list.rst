@@ -392,6 +392,12 @@ U, V, W, X, Y, Z
 
    * - Event
      - Description
+   * - ``ubc.peer_instruction.accessed``
+     - :ref:`Peer Instruction Events`
+   * - ``ubc.peer_instruction.original_submitted``
+     - :ref:`Peer Instruction Events`
+   * - ``ubc.peer_instruction.revised_submitted``
+     - :ref:`Peer Instruction Events`
    * - ``video_hide_cc_menu``
      - :ref:`video`
    * - ``video_show_cc_menu``
