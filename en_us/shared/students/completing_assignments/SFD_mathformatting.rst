@@ -9,7 +9,7 @@ problems in your edX course.
 
 .. contents::
   :local:
-  :depth: 1
+  :depth: 2
 
 ********************************************************
 Overview of Mathematical and Scientific Expressions
@@ -20,19 +20,19 @@ expression, such as a formula, into a response field. You enter your response
 as plain text, and the edX system then converts your text into numbers and
 symbols that appear below the response field.
 
-.. image:: ../../shared/students/Images/Math5.png
+.. image:: ../../../shared/students/Images/Math5.png
  :width: 150
  :alt: Image of a numerical input probem rendered by the parser.
-.. image:: ../../shared/students/Images/Math3.png
+.. image:: ../../../shared/students/Images/Math3.png
  :width: 150
  :alt: Image of a numerical input probem rendered by the parser.
-.. image:: ../../shared/students/Images/Math2.png
+.. image:: ../../../shared/students/Images/Math2.png
  :width: 150
  :alt: Image of a numerical input probem rendered by the parser.
-.. image:: ../../shared/students/Images/Math1.png
+.. image:: ../../../shared/students/Images/Math1.png
  :width: 150
  :alt: Image of a numerical input probem rendered by the parser.
-.. image:: ../../shared/students/Images/Math4.png
+.. image:: ../../../shared/students/Images/Math4.png
  :width: 150
  :alt: Image of a numerical input probem rendered by the parser.
 
@@ -40,14 +40,14 @@ Additionally, some edX courses offer a calculator tool that you can use while
 you work through the course. If the course has a calculator, the calculator
 appears as a small icon on all courseware pages.
 
-.. image:: ../../shared/images/Calc_Closed.png
+.. image:: ../../../shared/images/Calc_Closed.png
   :width: 600
   :alt: Courseware page with an arrow pointing to the calculator.
 
 To use the calculator, select the calculator icon. To close the calculator,
 select the X.
 
-.. image:: ../../shared/images/Calc_Open.png
+.. image:: ../../../shared/images/Calc_Open.png
   :width: 600
   :alt: Courseware page with the calculator visible along the edge of the browser.
 
@@ -65,7 +65,7 @@ system if you have used math programs before.
   of the information in this topic. To see the information page, select the
   circled ``i`` icon next to the input field.
 
-  .. image:: ../../shared/images/Calc_Open_InfoPage.png
+  .. image:: ../../../shared/images/Calc_Open_InfoPage.png
     :width: 600
     :alt: Courseware page with the calculator visible and showing the
      information page.
@@ -130,7 +130,7 @@ For more information about the types of characters you can use, see below.
 Numbers
 ============
 
-You can use the following types of numbers:
+You can use the following types of numbers.
 
 * Integers: 2520
 * Fractions: 2/3
@@ -365,4 +365,4 @@ You can use the following functions.
   the resistance of a pair of parallel resistors (of resistance 1 and 2 ohms),
   evaluating to 2/3 (ohms).
 
-.. include:: ../../links/links.rst
+.. include:: ../../../links/links.rst

@@ -22,8 +22,7 @@ EdX Learner's Guide
    SFD_certificates
    SFD_teams
    SFD_mobile
-   SFD_mathformatting
+   completing_assignments/index
    SFD_ORA
    sfd_discussions/index
    SFD_wiki
-   timed_exams
