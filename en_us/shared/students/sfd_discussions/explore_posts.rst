@@ -81,7 +81,7 @@ while content-specific topics are indented under a category name. For content-
 specific topics, you can select either the category name to see all the posts
 in that category, or you can select an individual topic name.
 
-  .. image:: ../../../shared/students/Images/Disc_TopicList.png
+  .. image:: ../../../shared/students/images/Disc_TopicList.png
      :width: 400
      :alt: Discussion topic list expanded, showing all course discussion topics
 
@@ -95,7 +95,7 @@ typically appear below the content they apply to.
 You can access a content-specific topic by viewing the unit that
 contains the topic. To see the discussion, select **Show Discussion**.
 
-.. image:: ../../../shared/students/Images/Discussion_content_specific.png
+.. image:: ../../../shared/students/images/Discussion_content_specific.png
    :width: 500
    :alt: A discussion topic that appears below text inside the course,
        identified by a "Show Discussion" link.
@@ -110,7 +110,7 @@ where that topic is located.
 #. In the right pane, select the name of the discussion topic below the text of
    the post to go to the discussion inside the unit.
 
-.. image:: ../../../shared/students/Images/Disc_LinkToCourse.png
+.. image:: ../../../shared/students/images/Disc_LinkToCourse.png
     :width: 800
     :alt: Post on the Discussion page with a link back to the course unit.
 
@@ -128,7 +128,7 @@ default.
 * To list only question posts that do not yet have any responses marked as
   answers, select **Unanswered**.
 
-.. image:: ../../../shared/students/Images/Disc_Unread.png
+.. image:: ../../../shared/students/images/Disc_Unread.png
  :width: 300
  :alt: List of unread topics with the "Unread" filter circled.
 
@@ -142,7 +142,7 @@ any part of the course, such as a particular video or problem. The pinned post
 may originate from anyone in the course, including students and the discussion
 moderation team, but only members of the moderation team can pin posts.
 
-.. image:: ../../../shared/students/Images/Disc_Pinned.png
+.. image:: ../../../shared/students/images/Disc_Pinned.png
  :width: 300
  :alt: Short list of posts with the "pinned" identifier circled
 
@@ -175,7 +175,7 @@ about the participant.
   comments or responses on any post, select **View Discussion** below the post
   to open the discussion on the **Discussion** page.
 
-.. image:: ../../../shared/students/Images/Disc_UserContributions.png
+.. image:: ../../../shared/students/images/Disc_UserContributions.png
  :width: 800
  :alt: Page that lists the posts that a user has added or contributed to.
 

@@ -40,7 +40,7 @@ activity** or **by most activity**. This is the default view when you open the
 * A **blue callout image on a white background** indicates that you have not
   yet read the post.
 
-.. image:: ../../../shared/students/Images/Discussion_colorcoding.png
+.. image:: ../../../shared/students/images/Discussion_colorcoding.png
   :alt: The list of posts with posts showing differently colored backgrounds
         and callout images.
 
@@ -49,7 +49,7 @@ the exchange (the post and its responses and comments). To see the number of
 contributions that you have not read yet, move your cursor over the callout
 image.
 
-.. image:: ../../../shared/students/Images/Discussion_mouseover.png
+.. image:: ../../../shared/students/images/Discussion_mouseover.png
  :width: 300
  :alt: A post with 4 contributions total and a popup that shows only two are
        unread.
@@ -66,7 +66,7 @@ If you sort by most votes, the number of votes that the post has received
 appears in place of the callouts. For more information, see :ref:`Vote for
 Posts or Responses`.
 
-.. image:: ../../../shared/students/Images/Disc_SortByVotes.png
+.. image:: ../../../shared/students/images/Disc_SortByVotes.png
   :width: 300
   :alt: A list of posts sorted by votes, with the number of votes to the right
       of the post title.
@@ -80,6 +80,6 @@ discussion activity for the posts you are following. To receive this daily
 digest, select **Discussion** to go to the discussions home page, and then
 select the **Receive updates** check box in the right pane.
 
-.. image:: ../../../shared/students/Images/Disc_RecUpdatesBox.png
+.. image:: ../../../shared/students/images/Disc_RecUpdatesBox.png
   :width: 500
   :alt: Discussion home page with the Receive Updates check box circled

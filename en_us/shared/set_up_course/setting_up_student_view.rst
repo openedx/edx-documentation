@@ -36,7 +36,7 @@ prerequisites, requirements, and the team biographies. Learners can see the
 **About** page before they enroll in the course, and might decide to enroll
 based on the content of the page.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/about_page.png
+.. image:: ../../../shared/building_and_running_chapters/images/about_page.png
  :alt: An image of the course About page on the edX Edge site.
  :width: 800
 
@@ -53,7 +53,7 @@ dashboard. From the dashboard, a learner can access the courseware for a course
 that has started. If the course has not started, or has already ended, the
 dashboard shows the start or end date.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/dashboard-course-start-and-end.png
+.. image:: ../../../shared/building_and_running_chapters/images/dashboard-course-start-and-end.png
  :width: 800
  :alt: An image of two courses in the dashboard, with the start dates and
      times.
@@ -70,7 +70,7 @@ Learners see the description of your course on the course **About** page. For
 example, the course description is circled in the following course **About**
 page.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/about-page-course-description.png
+.. image:: ../../../shared/building_and_running_chapters/images/about-page-course-description.png
  :alt: A course About page with the description circled.
  :width: 600
 
@@ -176,7 +176,7 @@ Learners access the course video from the course **About** page. In this
 example, the video **play** option appears over the course image. When learners
 select **play**, the video player opens and the course video plays.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/  about-page-course-video.png
+.. image:: ../../../shared/building_and_running_chapters/images/about-page-course-video.png
  :alt: Image of the course video in the course summary page.
  :width: 600
 
@@ -186,7 +186,7 @@ To add a course video, follow these steps.
    between ``watch?v=`` and ``&feature`` in the URL. This code appears in the
    green box below.
 
-   .. image:: ../../../shared/building_and_running_chapters/Images/youtube_video_id.png
+   .. image:: ../../../shared/building_and_running_chapters/images/youtube_video_id.png
     :alt: Image of a sample course video.
 
 #. From the **Settings** menu, select **Schedule & Details**.

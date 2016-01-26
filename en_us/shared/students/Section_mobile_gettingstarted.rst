@@ -20,7 +20,7 @@ account. You also provide the following information.
 * Your name.
 * The username that will identify you to course teams and to other learners.
 * A password.
-* Your country or region. 
+* Your country or region.
 
 After you create your account, you can find courses that interest you and
 enroll in them.
@@ -35,7 +35,7 @@ list, select **Find a Mobile-Friendly Course**.
 
 You can also use the menu at the top of the page. Select **Find Courses**.
 
-   .. image:: ../../shared/students/Images/Mob_Menu.png
+   .. image:: ../../shared/students/images/Mob_Menu.png
       :width: 300
       :alt: Mobile "My Courses" page with an arrow pointing to the menu in the
         upper left corner.

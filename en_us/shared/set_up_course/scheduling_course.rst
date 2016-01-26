@@ -192,7 +192,7 @@ View Start and End Dates as a Learner
 Learners can view the start date for a course on the course **About** page,
 and, after they enroll in the course, on their dashboard.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/about-page-course-start.png
+.. image:: ../../../shared/building_and_running_chapters/images/about-page-course-start.png
  :alt: The course About page, showing the start date.
  :width: 800
 
@@ -205,7 +205,7 @@ After learners enroll in your course, the course appears on their course
 dashboards. To access the dashboard, learners select their usernames and then
 **Dashboard**.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/dashboard-course-start-and-end.png
+.. image:: ../../../shared/building_and_running_chapters/images/dashboard-course-start-and-end.png
  :alt: The learner dashboard with a course in progress, one that has ended, one
   that is self-paced and can be started any time, and one that has not
   started.
