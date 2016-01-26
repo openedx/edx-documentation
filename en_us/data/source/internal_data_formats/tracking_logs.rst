@@ -4070,6 +4070,56 @@ submits survey responses.
 
 ``event`` **Member Fields**: None
 
+
+.. _Course Content Completion Events:
+
+====================================
+Course Content Completion Event
+====================================
+
+This section describes the event emitted by the completion XBlock, which adds
+a toggle control in course content. This toggle allows learners to mark the
+associated section of course content as complete.
+
+EdX recommends using the completion XBlock primarily for progress tracking of
+ungraded activities, such as reading assigned texts, watching videos, or
+participating in course discussions.
+
+Learners are not limited in the number of times that they can toggle the
+control between the default incomplete state and the completed state. For more
+information, see :ref:`partnercoursestaff:completion` in the *Building and
+Running an edX Course* guide.
+
+.. contents::
+  :local:
+  :depth: 1
+
+**History**: Added 27 Jan 2016.
+
+``edx.done.toggled``
+************************************
+
+Both the browser and the server emit the ``edx.done.toggled`` event when the
+control added by the Completion XBlock is toggled. The ``event_source`` field
+indicates whether the event was emitted by the client or the server.
+
+``event`` **Member Fields**:
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+   * - ``done``
+     - Boolean
+     - Indicates the state of the Completion toggle at the time the event is
+       emitted. Possible values are ``true`` (a learner has completed the
+       associated content) and ``false`` (a learner has not completed the
+       associated content).
+
+
 .. _content:
 
 ===========================

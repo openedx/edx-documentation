@@ -13,6 +13,7 @@ Use the topics in this section to create course components.
    discussion-components
    video-components
    annotation
+   completion
    conditional_module
    full_screen_image
    google_calendar

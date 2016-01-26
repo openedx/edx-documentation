@@ -94,6 +94,8 @@ D, E, F
      - :ref:`enrollment`
    * - ``edx.course.enrollment.upgrade.succeeded``
      - :ref:`enrollment`
+   * - ``edx.done.toggled``
+     - :ref:`Course Content Completion Events`
    * - ``edx.forum.comment.created``
      - :ref:`forum_events`
    * - ``edx.forum.response.created``

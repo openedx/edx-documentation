@@ -95,6 +95,14 @@ General Exercises and Tools
        question then see a different block of text from the students who answer
        "No" to that question.
      - Provisional support
+   * - :ref:`completion`
+     - This tool allows learners to mark sections of course content as
+       completed. It helps learners to track their progress through sections of
+       the course (including for ungraded activities such as reading text,
+       watching video, or participating in course discussions), and gives them a
+       way to indicate to both themselves and course staff that they completed
+       the required activities.
+     - Full support
    * - :ref:`Custom JavaScript`
      - Custom JavaScript display and grading problems (also called *custom
        JavaScript problems* or *JS Input problems*) allow you to create a
