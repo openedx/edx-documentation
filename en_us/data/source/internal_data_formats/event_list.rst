@@ -124,6 +124,88 @@ D, E, F
      - :ref:`problem`
    * - ``edx.problem.hint.feedback_displayed``
      - :ref:`problem`
+   * - ``edx.special_exam.practice.allowance.created``
+     - :ref:`special_exam_development_events`
+   * - ``edx.special_exam.practice.allowance.deleted``
+     - :ref:`special_exam_development_events`
+   * - ``edx.special_exam.practice.allowance.updated``
+     - :ref:`special_exam_development_events`
+   * - ``edx.special_exam.practice.attempt.created``
+     - :ref:`special_exam_events`
+   * - ``edx.special_exam.practice.attempt.deleted``
+     - :ref:`special_exam_events`
+   * - ``edx.special_exam.practice.attempt.download_software_clicked``
+     - :ref:`special_exam_events`
+   * - ``edx.special_exam.practice.attempt.error``
+     - :ref:`special_exam_events`
+   * - ``edx.special_exam.practice.attempt.ready_to_start``
+     - :ref:`special_exam_events`
+   * - ``edx.special_exam.practice.attempt.ready_to_submit``
+     - :ref:`special_exam_events`
+   * - ``edx.special_exam.practice.attempt.started``
+     - :ref:`special_exam_events`
+   * - ``edx.special_exam.practice.attempt.submitted``
+     - :ref:`special_exam_events`
+   * - ``edx.special_exam.practice.created``
+     - :ref:`special_exam_development_events`
+   * - ``edx.special_exam.practice.updated``
+     - :ref:`special_exam_development_events`
+   * - ``edx.special_exam.proctored.allowance.created``
+     - :ref:`special_exam_development_events`
+   * - ``edx.special_exam.proctored.allowance.deleted``
+     - :ref:`special_exam_development_events`
+   * - ``edx.special_exam.proctored.allowance.updated``
+     - :ref:`special_exam_development_events`
+   * - ``edx.special_exam.proctored.attempt.created``
+     - :ref:`special_exam_events`
+   * - ``edx.special_exam.proctored.attempt.declined``
+     - :ref:`special_exam_events`
+   * - ``edx.special_exam.proctored.attempt.deleted``
+     - :ref:`special_exam_events`
+   * - ``edx.special_exam.proctored.attempt.download_software_clicked``
+     - :ref:`special_exam_events`
+   * - ``edx.special_exam.proctored.attempt.error``
+     - :ref:`special_exam_events`
+   * - ``edx.special_exam.proctored.attempt.ready_to_start``
+     - :ref:`special_exam_events`
+   * - ``edx.special_exam.proctored.attempt.ready_to_submit``
+     - :ref:`special_exam_events`
+   * - ``edx.special_exam.proctored.attempt.rejected``
+     - :ref:`special_exam_events`
+   * - ``edx.special_exam.proctored.attempt.review-received``
+     - :ref:`special_exam_events`
+   * - ``edx.special_exam.proctored.attempt.started``
+     - :ref:`special_exam_events`
+   * - ``edx.special_exam.proctored.attempt.submitted``
+     - :ref:`special_exam_events`
+   * - ``edx.special_exam.proctored.attempt.verified``
+     - :ref:`special_exam_events`
+   * - ``edx.special_exam.proctored.created``
+     - :ref:`special_exam_development_events`
+   * - ``edx.special_exam.proctored.option-presented``
+     - :ref:`special_exam_events`
+   * - ``edx.special_exam.proctored.updated``
+     - :ref:`special_exam_development_events`
+   * - ``edx.special_exam.timed.allowance.created``
+     - :ref:`special_exam_development_events`
+   * - ``edx.special_exam.timed.allowance.deleted``
+     - :ref:`special_exam_development_events`
+   * - ``edx.special_exam.timed.allowance.updated``
+     - :ref:`special_exam_development_events`
+   * - ``edx.special_exam.timed.attempt.created``
+     - :ref:`special_exam_events`
+   * - ``edx.special_exam.timed.attempt.deleted``
+     - :ref:`special_exam_events`
+   * - ``edx.special_exam.timed.attempt.ready_to_submit``
+     - :ref:`special_exam_events`
+   * - ``edx.special_exam.timed.attempt.started``
+     - :ref:`special_exam_events`
+   * - ``edx.special_exam.timed.attempt.submitted``
+     - :ref:`special_exam_events`
+   * - ``edx.special_exam.timed.created``
+     - :ref:`special_exam_development_events`
+   * - ``edx.special_exam.timed.updated``
+     - :ref:`special_exam_development_events`
    * - ``edx.team.activity_updated``
      - :ref:`student_teams_events`
    * - ``edx.team.changed``
