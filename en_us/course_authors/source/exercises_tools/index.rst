@@ -43,6 +43,7 @@ Components Index`.
    molecule_viewer
    multiple_choice
    mult_choice_num_input
+   notes
    numerical_input
    office_mix
    open_response_assessments/index

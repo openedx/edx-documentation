@@ -22,6 +22,7 @@ highlight passages and make notes right in the course.
  However, notes are currently not available for exercises, videos, or PDF
  textbooks.
 
+
 When a course includes the notes feature, every page has a **Notes** page at
 the top and a pencil icon in the lower right corner.
 
@@ -33,7 +34,7 @@ the top and a pencil icon in the lower right corner.
 
 Your notes can contain text as well as tags that help you organize and find
 your notes. You can see individual notes inside the course content, or you can
-see all of your notes at once on the **Notes** page. For more information, see
+see a list of your notes on the **Notes** page. For more information, see
 :ref:`The Notes Page`.
 
 .. _SFD SN Add Note:
@@ -94,14 +95,13 @@ View Notes
 
 You can view your course notes in two places.
 
-* You can view individual notes on the page where you created
-  the notes. To see your notes, go to the unit that contains your note and
-  move your cursor over or select the highlighted text. When you select the
-  highlighted text, your note remains open until you move outside the
-  highlighted text.
+* You can view individual notes on the page where you created the notes. To see
+  your notes, go to the unit that contains your note and move your cursor over
+  or select the highlighted text. When you select the highlighted text, your
+  note remains open until you move outside the highlighted text.
 
-* You can view all the notes you have made in the course on the **Notes** page.
-  You can also search your notes on this page.
+* You can view a list of the notes you have made in the course on the **Notes**
+  page. You can also search your notes and tags on this page.
 
 .. _The Notes Page:
 
@@ -109,42 +109,23 @@ You can view your course notes in two places.
 The Notes Page
 ================
 
-On the **Notes** page, you can see all the notes you have made in your course
-in one place. You can also search the text of your notes.
+On the **Notes** page, you can see a list of the notes you have made in your
+course. You can also search the text of your notes or the tags that you added
+to your notes.
 
-.. image:: ../../shared/images/SFD_SN_NotesPage.png
+.. image:: ../../shared/students/Images/SFD_SN_NotesPage.png
   :width: 500
-  :alt: Notes page showing a list of notes ordered by recent activity.
+  :alt: Notes page showing a list of notes.
 
-The **Notes** page shows you both the text that you selected and the note that
-you made. You can also see the following information next to each note.
+The **Notes** page lists your notes by the date you created or edited them,
+with the most recently modified first. The page shows you both the text that
+you selected and the note that you made. You can also see the following
+information next to each note.
 
 * A link to the location in the course that contains the highlighted text and
   your note. To go to that location, select the link under **Noted in**.
 * The time and date when you last edited the note.
 * Any tags that you added.
-
-The **Notes** page has three different views: **Recent Activity**, **Location
-in Course**, and **Tags**.
-
-* When you select **Recent Activity**, notes are sorted by the date you
-  created or edited them, with the most recently modified first.
-
-* When you select **Location in Course**, notes are sorted sequentially by the
-  location of the note in the course body.
-
-* When you select **Tags**, notes are sorted by the tags you have added.
-
-  * The most frequently used tags are at the top of the list. The number of
-    notes that have a particular tag appears in parentheses after the tag.
-  * If some tags have the same number of notes, those tags are sorted
-    alphabetically.
-  * Notes without tags are at the bottom of the list.
-
-  .. image:: ../../shared/students/Images/SFD_SN_TagsView.png
-   :width: 500
-   :alt: The Tags view on the Notes page showing tags sorted by number, then
-     alphabetically.
 
 .. _SFD SN Edit Note:
 
@@ -199,11 +180,12 @@ Search Notes
 
 To search your notes, follow these steps.
 
-#. At the top of any page in the course body, select **Notes** to open the
-   **Notes** page.
+#. At the top of any course page, select **Notes** to open the **Notes**
+   page.
 
 #. In the upper right corner of the page, type a search term in the **Search
-   notes for** field.
+   notes for** field. You can search for the text of a note, or you can search
+   for a tag you created.
 
 #. Select the magnifying glass icon or press Enter.
 
