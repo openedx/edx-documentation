@@ -31,4 +31,4 @@
 You can modify your account information, reset your password, and link or
 unlink accounts on the :ref:`account settings<SFD Account Settings>` page.
 
-.. include:: ../../links/links.rst
+.. include:: ../../../links/links.rst

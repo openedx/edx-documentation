@@ -16,8 +16,8 @@ how to create your first course.
  :depth: 1
 
 If you are creating a course to run on `edx.org`_ or `edX Edge`_, see
-:ref:`coursestaff:Getting Started with Studio` in the *Building and Running
-an edX Course* guide.
+:ref:`partnercoursestaff:Getting Started with Studio` in the *Building and
+Running an edX Course* guide.
 
 .. _What is Studio?:
 
