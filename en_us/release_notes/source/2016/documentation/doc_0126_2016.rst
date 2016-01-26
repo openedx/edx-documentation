@@ -25,17 +25,23 @@ learning about, courses on the `edx.org`_ or edge.edx.org websites.
 Building and Running an edX Course
 ************************************
 
-* The :ref:`partnercoursestaff:Setting Course Pacing` topic is now available.
+The :ref:`partnercoursestaff:UBC Peer Instruction` topic is now available.
 
-* The :ref:`partnercoursestaff:Managing ORA Assignments` topic is now
-  available.
+edX Learner's Guide
+**********************************
 
-* The :ref:`partnercoursestaff:CA_Teams_Overview` topic is now available.
+The :ref:`learners:interactive_multiple_choice` topic is now available.
 
-* Another use case for Office Mix has been added to the description of the
-  :ref:`Office Mix tool <partnercoursestaff:Office Mix Tool>`. In this use
-  case, after you create a mix you export the presentation to video and
-  then include it in your course using the video component.
+EdX Research Guide
+*********************
+
+* The :ref:`data:Peer Instruction Events` section now lists events that
+  identify when a peer instruction component is accessed, and when an initial
+  answer or a final answer is submitted.
+
+* Information about the new ``audit_notpassing`` and ``audit_passing`` statuses
+  has been added to the *EdX Research Guide*. For more information, see
+  ref:`data:certificates_generatedcertificate`.
 
 ==================================
 Documentation for Open edX Users
@@ -47,5 +53,10 @@ learning about, courses on an Open edX instance.
 Building and Running an Open edX Course
 ******************************************
 
-The :ref:`opencoursestaff:Setting Course Pacing` topic is now available.
+The :ref:`partnercoursestaff:UBC Peer Instruction` topic is now available.
+
+Open edX Learner's Guide
+**********************************
+
+The :ref:`openlearners:interactive_multiple_choice` topic is now available.
 

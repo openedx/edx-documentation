@@ -12,6 +12,12 @@ documentation.
   :depth: 2
 
 **************************
+Week of 26 January 2016
+**************************
+
+.. include:: 2016/documentation/doc_0126_2016.rst
+
+**************************
 Week of 18 January 2016
 **************************
 
