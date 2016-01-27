@@ -26,3 +26,4 @@ EdX Learner's Guide
    SFD_ORA
    sfd_discussions/index
    SFD_wiki
+   SFD_mathformatting
