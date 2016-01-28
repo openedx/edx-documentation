@@ -215,6 +215,7 @@
 .. _Waffle: http://waffle.readthedocs.org/en/latest
 .. _Waffle documentation: http://waffle.readthedocs.org/en/latest
 .. _Segment: https://segment.com
+.. _CourseTalk: https://www.coursetalk.com/
 .. _Google Play: https://play.google.com/store/apps/details?id=org.edx.mobile
 .. _App Store: https://itunes.apple.com/us/app/edx/id945480667?mt=8
 .. _VoiceOver for OS X: https://www.apple.com/accessibility/osx/voiceover/

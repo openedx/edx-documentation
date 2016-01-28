@@ -13,6 +13,7 @@ configuration options.
    updating_platform
    customize_registration_page
    config_allowed_regis_emails
+   add_coursetalk_widget
    edx_search
    enable_badging
    enable_certificates
