@@ -1792,6 +1792,12 @@ status
 --------
   The status can be one of these states.
 
+  .. note::
+   The ``audit_notpassing`` and ``audit_passing`` statuses identify audit
+   learners who were graded after 26 January 2016. These audit learners are not
+   eligible to receive a certificate. Audit learners who were graded before 26
+   January 2016 have a status of ``downloadable`` or ``notpassing``.
+
   .. list-table::
        :widths: 15 80
        :header-rows: 1
@@ -1800,10 +1806,10 @@ status
          - Description
        * - audit_notpassing
          - The learner enrolled in the audit track and did not earn a passing
-           grade. **History**: Added 26 January 2016.
+           grade. **History**: Added 26 January 2016. See the note above.
        * - audit_passing
          - The learner enrolled in the audit track and received a passing
-           grade. **History**: Added 26 January 2016.
+           grade. **History**: Added 26 January 2016. See the note above.
        * - deleted
          - The certificate has been deleted.
        * - deleting
