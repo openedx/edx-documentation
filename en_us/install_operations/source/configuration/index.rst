@@ -12,6 +12,7 @@ configuration options.
 
    updating_platform
    customize_registration_page
+   config_allowed_regis_emails
    enable_prerequisites
    enable_entrance_exams
    enable_licensing
