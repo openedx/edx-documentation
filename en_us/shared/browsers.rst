@@ -6,122 +6,18 @@
 edX Browser Support
 ####################
 
-The edX Platform runs on the following browsers.
+The edX platform runs on the following browsers.
 
-* `Chrome <https://www.google.com/chrome>`_
-* `Safari <https://www.apple.com/safari>`_
-* `Firefox <https://mozilla.org/firefox>`_
-* `Internet Explorer <https://microsoft.com/ie>`_
+* `Chrome`_
+* `Safari`_
+* `Firefox`_
+* `Microsoft Edge`_ and `Microsoft Internet Explorer`_ 11
 
-.. note:: If you use the Safari browser, be aware that it does not support the 
- search feature for the `edX documentation`_. This is a known limitation.
+The edX platform is routinely tested and verified on the current version and
+the previous version of each of these browsers. We generally encourage the use
+of, and fully support only, the latest version.
 
-The edX Platform is routinely tested and verified on the current
-and previous version of each of these browsers. We generally encourage the
-use of and fully support only the latest version.
+.. note:: If you use the Safari browser, be aware that it does not support the
+ search feature for the guides on `docs.edx.org`_. This is a known limitation.
 
-This information is updated as new major operating system and browser versions
-are released. All point releases are supported unless noted; occasional
-exceptions are based on specific bug fixes or feature updates.
-
-***********************************
-edX Learning Management System
-***********************************
-
-The following table shows operating system and browser support for the edX
-learning management system (LMS), which learners and course teams use to
-interact with course content. 
-
-.. list-table::
-   :widths: 20 10 10 10 10 10
-   :header-rows: 1
-
-   * -
-     - Chrome
-     - Safari
-     - Firefox
-     - IE 11
-     - IE 10
-   * - Windows 8
-     - Yes
-     - N/A
-     - Yes
-     - Yes
-     - Yes
-   * - Mac OSX Mavericks or Yosemite
-     - Yes
-     - Yes
-     - Yes
-     - N/A
-     - N/A
-
-For more information about the LMS, see `Building and Running an edX Course`_. 
-
-***********************************
-edX Studio
-***********************************
-
-The following table shows operating system and browser support for edX Studio,
-which course teams use to build a course.
-
-.. list-table::
-   :widths: 20 10 10 10 10 10
-   :header-rows: 1
-
-   * -
-     - Chrome
-     - Safari
-     - Firefox
-     - IE 11
-     - IE 10
-   * - Windows 8
-     - Yes
-     - N/A
-     - Yes
-     - Provisional
-     - Provisional
-   * - Mac OSX Mavericks or Yosemite
-     - Yes
-     - Yes
-     - Yes
-     - N/A
-     - N/A
-
-For more information about Studio, see `Building and Running an edX Course`_. 
-
-***********************************
-edX Insights
-***********************************
-
-The following table shows operating system and browser support for edX
-Insights, which course teams use to review and download data about their
-courses and learners.
-
-.. list-table::
-   :widths: 20 10 10 10 10 10
-   :header-rows: 1
-
-   * -
-     - Chrome
-     - Safari
-     - Firefox
-     - IE 11
-     - IE 10
-   * - Windows 8
-     - Yes
-     - N/A
-     - Yes
-     - Provisional
-     - Provisional
-   * - Mac OSX Mavericks or Yosemite
-     - Yes
-     - Yes
-     - Yes
-     - N/A
-     - N/A
-
-For more information about edX Insights, see `Using edX Insights`_.
-
-.. _edX documentation: http://docs.edx.org
-.. _Building and Running an edX Course: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/
-.. _Using edX Insights: http://edx-insights.readthedocs.org/en/latest/
+.. include:: ../../../links/links.rst

@@ -258,9 +258,9 @@ course video, it might be the result of one of these browser-related problems.
   video elements`_.
 
 * Verify that file metadata, particularly the MIME type, is correctly set on
-  the host site. Internet Explorer 10 browsers do not play videos if the MIME
-  type is not set. For example, make sure that the HTTP header ``Content-Type``
-  is set to video/mp4 for an .mp4 file.
+  the host site. For example, when edX offered support for Internet Explorer 10
+  browsers, it was found that videos did not play if the MIME type was not set.
+  The HTTP header ``Content-Type`` had to be set to video/mp4 for an .mp4 file.
 
   As an example of how you might set metadata on a video backup site, the
   *Console User Guide* for the Amazon Simple Storage Service provides this
