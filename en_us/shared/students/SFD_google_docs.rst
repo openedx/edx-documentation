@@ -40,7 +40,7 @@ Your course might include the following types of Google Drive files.
 
 For example, your course might include a spreadsheet that resembles this one.
 
-.. image:: ../../shared/students/Images/google-spreadsheet.png
+.. image:: ../../shared/students/images/google-spreadsheet.png
   :width: 500
   :alt: A Google spreadsheet in a course.
 
@@ -56,7 +56,7 @@ Google Calendars
 If your course includes a Google calendar, you see that calendar in the body of
 the course. You can also add it to your own Google calendar.
 
-.. image:: ../../shared/students/Images/google-calendar.png
+.. image:: ../../shared/students/images/google-calendar.png
   :width: 500
   :alt: A Google calendar in a course.
 
@@ -77,7 +77,7 @@ course to it. After you add a calendar, you see that calendar whenever you
 view your personal calendar, even if you are not signed in to your edX
 account. The course information appears together with your own information.
 
-.. image:: ../../shared/students/Images/google_cal_integrated.png
+.. image:: ../../shared/students/images/google_cal_integrated.png
   :width: 500
   :alt: A course calendar integrated with a personal Google calendar.
 

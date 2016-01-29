@@ -28,7 +28,8 @@ A
   The course page that provides potential students with a course summary,
   prerequisites, a course video and image, and important dates.
 
-  For more information, see `The Course Summary Page`_.
+  For more information, see :ref:`opencoursestaff:Setting Details About Your
+  Course`.
 
 **Accessible Label**
 
@@ -832,7 +833,7 @@ XYZ
 
   For more information, see https://www.edx.org/xseries.
 
-.. _The Course Summary Page: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/building_course/setting_up_student_view.html#the-course-summary-page
+
 .. _Creating Exercises and Tools: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/create_exercises_and_tools.html
 .. _The Advanced Editor: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/creating_content/create_problem.html#advanced-editor
 .. _Establishing a Grading Policy: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/building_course/establish_grading_policy.html

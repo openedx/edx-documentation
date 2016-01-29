@@ -5,18 +5,22 @@ Setting Details About Your Course
 ######################################################
 
 This topic describes how to set details about your course in Studio. The
-details you set affect the information learners see on their dashboards. For
-more information, see :ref:`SFD Dashboard Settings Profile`.
+details you set affect the information that learners see on the course
+**About** page and on their dashboards. You configure the contents of these
+pages in Studio.
 
-.. contents:: Section Contents
+.. contents::
   :local:
   :depth: 1
 
-For information about setting important dates, see :ref:`Scheduling Your
-Course`.
+For information about setting the start and end dates for your course, see
+:ref:`Scheduling Your Course`.
 
 For information about setting the course license, see :ref:`Licensing a
 Course`.
+
+For information about the learner dashboard, see :ref:`SFD Dashboard
+Settings Profile`.
 
 .. _The Course About Page:
 
@@ -24,21 +28,19 @@ Course`.
 The Course About Page
 ***********************************
 
-The following example shows the course About page. Learners can see the
-About page before they enroll in the course, and may decide to enroll
+The course **About** page, sometimes called the course summary page, provides
+information about your course to learners. In addition to the course
+:ref:`start and end dates<Scheduling Your Course>` and an overview of course
+objectives, the **About** page can include a course description with course
+prerequisites, requirements, and the team biographies. Learners can see the
+**About** page before they enroll in the course, and might decide to enroll
 based on the content of the page.
 
 .. image:: ../../../shared/images/about_page.png
- :alt: An image of the course About page.
- :width: 600
+ :alt: An image of the course About page on the edX Edge site.
+ :width: 800
 
-You configure the contents of this page in Studio, as described in this topic.
-
-.. note:: Given the diversity of MOOC learners, be careful to clearly
-   communicate the target audience, level, and prerequisites for your course.
-   Aim for concrete, unambiguous words (for example, ``understand eigenvalue
-   decomposition`` rather than ``intermediate linear algebra``).
-
+For more information, see :ref:`View Start and End Dates`.
 
 .. _The Learner Dashboard:
 
@@ -46,15 +48,17 @@ You configure the contents of this page in Studio, as described in this topic.
 The Learner Dashboard
 ***********************************
 
-If a learner enrolls in your course, the course is then listed on the **Current
-Courses** dashboard, with the course image. From the dashboard, a learner can
-open a course that has started. If the course has not started, the learner can
-see the start date, as explained in :ref:`Scheduling Your Course`.
+After a learner enrolls in a course, the course is listed on that learner's
+dashboard. From the dashboard, a learner can access the courseware for a course
+that has started. If the course has not started, or has already ended, the
+dashboard shows the start or end date.
 
 .. image:: ../../../shared/images/dashboard-course-start-and-end.png
- :width: 600
+ :width: 800
  :alt: An image of two courses in the dashboard, with the start dates and
      times.
+
+For more information, see :ref:`View Start and End Dates`.
 
 .. _Describe Your Course:
 
@@ -62,23 +66,32 @@ see the start date, as explained in :ref:`Scheduling Your Course`.
 Describe Your Course
 ************************
 
-Learners see the description of your course on the course About page.
-
-For example, the course description is circled in the following course About
+Learners see the description of your course on the course **About** page. For
+example, the course description is circled in the following course **About**
 page.
 
 .. image:: ../../../shared/images/about-page-course-description.png
- :alt: Image of a course summary with the description circled.
+ :alt: A course About page with the description circled.
  :width: 600
 
-.. note:: For courses on edX.org, you must communicate the course description
- to your edX partner manager, to ensure the content is accurate on the course
- About page.
+.. only:: Partners
+
+  .. note:: For courses running on edX.org, you must communicate the course
+   description to your edX Partner Manager to ensure the content is accurate
+   on the course **About** page.
+
+Given the diversity of online learners, be sure to review your course
+description to ensure that it clearly communicates the target audience, level,
+and prerequisites for your course. Use concrete, unambiguous phrasing, such as
+a prerequisite of "understand eigenvalue decomposition" rather than
+"intermediate linear algebra".
+
+To provide a description for your course, follow these steps.
 
 #. From the **Settings** menu, select **Schedule & Details**.
 
-#. Scroll down to the **Introducing Your Course** section, then locate the
-   **Course Overview** field.
+#. In the **Introducing Your Course** section, locate the **Course Overview**
+   field.
 
    .. image:: ../../../shared/images/course_overview.png
     :alt: Image of the HTML course description.
@@ -88,12 +101,13 @@ page.
    the boilerplate text. Do not edit HTML tags. For a template that includes
    placeholders, see :ref:`A Template For Course Overview`.
 
-#. Select **your course summary page** in the text beneath the field to test
-   how the description will appear to learners.
+   When you make changes on this page, a panel with options to save or cancel
+   your work appears.
 
-#. When you make changes, a **Save Changes** button appears at the bottom right
-   of the page. Select **Save Changes** when you have completed the course
-   description.
+#. To test how the description will appear to learners, select **your course
+   summary page** from the text that follows the **Course Overview** field.
+
+#. Select **Save Changes**.
 
 .. _Add a Course Image:
 
@@ -101,9 +115,10 @@ page.
 Add a Course Image
 ************************
 
-The course image that you add in Studio appears on the dashboard. It should be
-a minimum of 378 pixels in width by 225 pixels in height, and in .jpg or .png
-format. Make sure the image that you upload maintains the aspect ratio of those
+The course image is an image file that you upload to Studio. The course image
+appears on the learner dashboard. The image file should be a minimum of 378
+pixels in width by 225 pixels in height, and must be in .jpg or .png format.
+Make sure the image that you upload maintains the aspect ratio of those
 dimensions so that the image appears correctly on the dashboard.
 
 In the following example, the course image that was added in Studio is circled
@@ -115,21 +130,25 @@ in the dashboard.
 
 #. From the **Settings** menu, select **Schedule & Details**.
 
-#. Scroll down to the **Course Image** section.
+#. In the **Course Image** section, select **Upload Course Image**, and then
+   follow the prompts to find and upload your image. To specify an image that
+   has already been :ref:`added to the course<Add Files to a Course>`, select
+   **files & uploads**.
 
-#. To select an image from your computer, click **Upload Course Image**, then
-   follow the prompts to find and upload your image.
+   When you make changes on this page, a panel with options to save or cancel
+   your work appears.
 
-#. When you make changes, a **Save Changes** button appears at the bottom right
-   of the page. Select **Save Changes** when you have added the course image.
+#. Select **Save Changes**.
 
 #. View your dashboard to test how the image will appear to learners.
 
-.. note::
-  On edX.org, the course image you add in Studio is used on the learner
-  dashboard, but does not automatically appear on the course About page. Work
-  directly with your edX partner manager to set up the About page assets and
-  course image for the course summary page.
+.. only:: Partners
+
+  .. note::
+    For courses running on edX.org, the course image you add in Studio is used
+    on the learner dashboard, but does not automatically appear on the course
+    **About** page. Work directly with your edX Partner Manager to set up the
+    **About** page assets and course image for the course summary page.
 
 .. _Add a Course Video:
 
@@ -137,22 +156,13 @@ in the dashboard.
 Add a Course Video
 *********************************
 
-The course video appears on the course About page.
-
-In the following example, the course video is circled in the course About
-page:
-
-.. image:: ../../../shared/images/about-page-course-video.png
- :alt: Image of the course video in the course summary page.
- :width: 600
-
 The course video should excite and entice potential learners to enroll, and
 reveal some of the personality that the course team brings to the course.
 
-The video should answer these key questions:
+The video should answer these key questions.
 
 * Who is teaching the course?
-* What university or college is the course affiliated with?
+* What university or institution is the course affiliated with?
 * What topics and concepts are covered in your course?
 * Why should a learner enroll in your course?
 
@@ -162,29 +172,44 @@ time of less than 2 minutes.
 Ensure your course introduction video follows the same :ref:`Compression
 Specifications` and :ref:`Video Formats` guidelines as course content videos.
 
+Learners access the course video from the course **About** page. In this
+example, the video **play** option appears over the course image. When learners
+select **play**, the video player opens and the course video plays.
+
+.. image:: ../../../shared/images/about-page-course-video.png
+ :alt: Image of the course video in the course summary page.
+ :width: 600
+
+To add a course video, follow these steps.
+
 #. Upload the course video to YouTube. Make note of the code that appears
-   between **watch?v =** and **&feature** in the URL. This code appears in the
+   between ``watch?v=`` and ``&feature`` in the URL. This code appears in the
    green box below.
 
-   .. image:: ../../../shared/images/image127.png
+   .. image:: ../../../shared/images/youtube_video_id.png
     :alt: Image of a sample course video.
 
 #. From the **Settings** menu, select **Schedule & Details**.
 
-#. Scroll down to the **Course Introduction Video** section.
+#. In the **Course Introduction Video** section, locate the field below the
+   video box.
 
-#. In the field below the video box, enter the YouTube video ID (the code you
-   copied in step 1). When you add the code, the video automatically loads in
-   the video box.
+#. Enter the YouTube video ID (the code you copied in step 1). When you add the
+   code, the video automatically loads in the video box.
 
-#. When you make changes, a **Save Changes** button appears at the bottom right
-   of the page. Select **Save Changes** when you have added the course video.
+   When you make changes on this page, a panel with options to save or cancel
+   your work appears.
 
-#. View your course About page to test how the video will appear to learners.
+#. Select **Save Changes**.
 
-.. note::
-  On edX.org, you work directly with your partner manager to set up the course
-  video in the summary page.
+#. View your course **About** page to test how the video will appear to
+   learners.
+
+.. only:: Partners
+
+  .. note::
+    For courses running on edX.org, you work directly with your Partner Manager
+    to set up the course video in the summary page.
 
 .. _Set Course Effort Expectations:
 
@@ -192,28 +217,31 @@ Specifications` and :ref:`Video Formats` guidelines as course content videos.
 Set Course Effort Expectations
 *******************************
 
-The estimated effort the course requires appears in the course About page.
+The estimated effort that the course requires appears in the course **About**
+page.
 
-You set the hours and minutes a week estimate in Studio.
+To set the hours and minutes a week estimate in Studio, follow these steps.
 
 #. From the **Settings** menu, select **Schedule & Details**.
 
-#. Scroll down to the **Requirements** section.
+#. In the **Requirements** section, locate the **Hours of Effort per Week**
+   field.
 
-#. In the **Hours of Effort per Week** field, enter the number of hours you
-   expect learners to work on this course each week.
+#. Enter the number of hours you expect learners to work on this course each
+   week.
 
-#. When you make changes, a **Save Changes** button appears at the bottom right
-   of the page. Select **Save Changes** when you have added the estimated
-   effort.
+   When you make changes on this page, a panel with options to save or cancel
+   your work appears.
 
-#. View your course About page to test how the requirements will appear to
+#. Select **Save Changes**.
+
+#. View your course **About** page to test how the requirements will appear to
    learners.
 
 .. _A Template For Course Overview:
 
 ************************************************
- A Template For Your Course Overview
+Course Overview Template
 ************************************************
 
 Replace the placeholders in the following template with your information.
@@ -255,11 +283,9 @@ Replace the placeholders in the following template with your information.
     <section class="responses">
       <h2>Frequently Asked Questions</h2>
       <article class="response">
-        <h3>Do I need to buy a textbook?</h3>
-        <p>No, a free online version of Chemistry: Principles, Patterns, and
-        Applications, First Edition by Bruce Averill and Patricia Eldredge
-        will be available, though you can purchase a printed version (
-        published by FlatWorld Knowledge) if you’d like.</p>
+        <h3>What web browser should I use?</h3>
+        <p>The Open edX platform works best with current versions of Chrome, Firefox or Safari, or with Internet Explorer version 9 and above.</p>
+        <p>See our <a href="http://edx.readthedocs.org/en/latest/browsers.html">list of supported browsers</a> for the most up-to-date information.</p>
       </article>
       <article class="response">
         <h3>Question #2</h3>

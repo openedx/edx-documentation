@@ -20,17 +20,17 @@ Specify Prerequisite Courses
 
 You can require that your students pass a particular edX course before they
 enroll in your course. Students see information about course prerequisites on
-the course About page.
+the course **About** page.
 
 .. image:: ../../../shared/images/PrereqAboutPage.png
   :width: 500
   :alt: A course About page with prerequisite course information circled.
 
 If students have not completed the prerequisite course, they can enroll in your
-course and then see your course on the Student Dashboard. However, unlike with
-other courses, the Student Dashboard does not provide a link to the courseware.
-The Student Dashboard includes a link to the About page for the prerequisite
-course. Students can enroll in the prerequisite course from the About page.
+course and then see your course on their learner dashboards. However, unlike
+with other courses, the dashboard does not provide a link to the courseware.
+The dashboard includes a link to the **About** page for the prerequisite
+course. Students can enroll in the prerequisite course from the **About** page.
 
 .. image:: ../../../shared/images/Prereq_StudentDashboard.png
   :width: 500
@@ -95,8 +95,9 @@ students have a positive experience with entrance exams.
   your other course content.
 
 * Make sure that you mention the entrance exam in the course description on
-  your course About page. Otherwise, students will not know about the entrance
-  exam before they enroll in your course and try to access course content.
+  your course **About** page. Otherwise, students will not know about the
+  entrance exam before they enroll in your course and try to access course
+  content.
 
 * Add an anouncement at the top of the **Course Updates & News** page that
   contains information and instructions for students who need to take the exam.

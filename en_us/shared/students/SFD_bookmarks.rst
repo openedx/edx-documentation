@@ -26,7 +26,7 @@ You can bookmark any page in the course. To bookmark a page, select
 
 .. note:: You can add up to 100 bookmarks in a course.
 
-.. image:: ../../shared/students/Images/SFD_Bkmk_UnitButton.png
+.. image:: ../../shared/students/images/SFD_Bkmk_UnitButton.png
  :width: 500
  :alt: A course page showing the "Bookmark" button in the upper right
      corner
@@ -35,7 +35,7 @@ After you add a bookmark, the **Bookmark** button changes color, and an
 indicator for the bookmark appears in the learning sequence at the top of the
 page.
 
-.. image:: ../../shared/students/Images/SFD_Bkmk_PgsBkmkd.png
+.. image:: ../../shared/students/images/SFD_Bkmk_PgsBkmkd.png
  :width: 500
  :alt: A course page showing the changed Bookmark button and a bookmark
      icon in the learning sequence
@@ -57,7 +57,7 @@ the bookmarks that you have made in the course on the **My Bookmarks** page.
 To access the **My Bookmarks** page, select **Bookmarks** in the upper left
 corner of the page.
 
-.. image:: ../../shared/students/Images/SFD_Bkmk_BookmarksButton.png
+.. image:: ../../shared/students/images/SFD_Bkmk_BookmarksButton.png
  :width: 500
  :alt: A course page with the "Bookmarks" button in the upper left corner
      and showing several bookmark icons in the learning sequence
@@ -66,7 +66,7 @@ The **My Bookmarks** page lists all of your bookmarks in the course, with the
 most recently created ones at the top. The page includes the location of the
 bookmark in the course and the date that you added the bookmark.
 
-.. image:: ../../shared/students/Images/SFD_Bkmk_MyBookmarksPage.png
+.. image:: ../../shared/students/images/SFD_Bkmk_MyBookmarksPage.png
  :width: 500
  :alt: The "My Bookmarks" page showing four bookmarks
 

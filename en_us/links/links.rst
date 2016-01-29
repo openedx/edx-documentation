@@ -45,9 +45,7 @@
 
 .. _Announcements: https://open.edx.org/announcements
 
-
 .. _edX Partner Support: https://partners.edx.org/edx_zendesk
-
 
 .. _edX pattern library: http://ux.edx.org/elements/colors/
 
@@ -62,8 +60,6 @@
 .. _custom_form_app: https://github.com/open-craft/custom-form-app
 
 .. _EdX Search: https://github.com/edx/edx-search/
-
-.. _GitHub Flow: https://github.com/blog/1557-github-flow-in-the-browser
 
 .. _GitHub Flow: https://github.com/blog/1557-github-flow-in-the-browser
 
@@ -206,6 +202,10 @@
 .. _Referer: http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.36
 
 ..  _mongodb: http://docs.mongodb.org/manual/
+
+.. _Time and Date Time Zone Converter: http://www.timeanddate.com/worldclock/converter.html
+
+.. _Time Zone Converter: http://www.timezoneconverter.com/cgi-bin/tzc.tzc
 
 .. _AWS Command Line Interface: http://aws.amazon.com/cli/
 

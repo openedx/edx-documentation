@@ -85,7 +85,7 @@ topics on the **Discussion** page.
 
 #. Select the most appropriate discussion topic for your post.
 
-   .. image:: ../../../shared/students/Images/Discussion_course_wide_post.png
+   .. image:: ../../../shared/students/images/Discussion_course_wide_post.png
     :width: 300
     :alt: Selecting the topic for a new post on the Discussion page.
 
@@ -124,7 +124,7 @@ to content-specific discussions.
 
 #. Select **New Post** to add a post.
 
-   .. image:: ../../../shared/students/Images/Discussion_content_specific_post.png
+   .. image:: ../../../shared/students/images/Discussion_content_specific_post.png
      :width: 500
      :alt: Adding a post about specific course content.
 
@@ -175,7 +175,7 @@ topics on the **Discussion** page.
   * To add a response to the post, select **Add A Response**. When your
     response is complete, select **Submit**.
 
-     .. image:: ../../../shared/students/Images/Discussion_add_response.png
+     .. image:: ../../../shared/students/images/Discussion_add_response.png
        :width: 500
        :alt: The **Add A Response** button located between a post and its
           responses.
@@ -198,7 +198,7 @@ topic inside the course.
 
 #. Under the text of the post, select **Expand discussion**.
 
-   .. image:: ../../../shared/students/Images/Discussion_expand.png
+   .. image:: ../../../shared/students/images/Discussion_expand.png
     :width: 500
     :alt: The **Expand discussion** link under a post
 
@@ -225,7 +225,7 @@ cannot edit or delete contributions from other students.
 #. In the upper-right corner of the contribution, select the "More" icon (...).
    A menu opens.
 
-   .. image:: ../../../shared/students/Images/Disc_EditDelete.png
+   .. image:: ../../../shared/students/images/Disc_EditDelete.png
     :width: 500
     :alt: Response with the "More" menu expanded, showing Edit, Delete, and
         Report options.
