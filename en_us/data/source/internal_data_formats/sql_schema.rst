@@ -811,13 +811,14 @@ mode
 
   **History**:
 
-  * On 26 Jan 2016, the "audit" value was again added. This value now
-    identifies learners who do not choose a certificate-bearing enrollment
-    option.
+  * On 1 Dec 2015, the "audit" value was reintroduced. This value now
+    identifies learners who do choose an enrollment option that is not
+    certificate-eligible.
 
   * On 23 Oct 2014, the "audit" value was deprecated.
 
-  * On 29 Sep 2014, the "professional" value was added for courses on edx.org.
+  * On 29 Sep 2014, the "professional" and "no-id-professional" values were
+    added for courses on edx.org.
 
   * On 20 Aug 2013, the "audit" and "verified" values were added.
 
@@ -1799,10 +1800,10 @@ status
   After a course has been graded and certificates have been issued, the status
   is one of these string values.
 
-  * audit_notpassing
-  * audit_passing
   * downloadable
+  * audit_passing
   * notpassing
+  * audit_notpassing
 
   The table that follows describes these values and the other workflow states
   that can apply during certificate generation process.
@@ -1818,7 +1819,8 @@ status
            value of "audit" in ``student_courseenrollment.mode``. No
            certificate is generated for these learners.
 
-           **History**: Added 26 Jan 2016.
+           **History**: Added 26 Jan 2016 for audit enrollments created after 1
+           Dec 2015.
 
        * - audit_passing
          - Applies to learners who earned a passing grade and who have a value
@@ -1826,7 +1828,8 @@ status
            completed the course succesfully, but no certificate is generated
            for these learners.
 
-           **History**: Added 26 Jan 2016.
+           **History**: Added 26 Jan 2016 for audit enrollments created after 1
+           Dec 2015.
 
        * - deleted
          - The certificate has been deleted.
@@ -1857,7 +1860,7 @@ status
          - No longer used.
 
            **History**: Specified when ``userprofile.allow_certificate`` was
-           set to false: to indicate that the student was on the restricted
+           set to false to indicate that the learner was on the restricted
            embargo list.
 
        * - unavailable
