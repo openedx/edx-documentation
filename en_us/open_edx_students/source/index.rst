@@ -19,6 +19,7 @@ Open edX Learner's Guide
    SFD_notes
    SFD_google_docs
    SFD_certificates
+   SFD_teams
    SFD_mobile
    SFD_prerequisites
    completing_assignments/index
