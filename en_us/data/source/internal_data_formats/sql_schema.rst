@@ -812,8 +812,8 @@ mode
   **History**:
 
   * On 1 Dec 2015, the "audit" value was reintroduced. This value now
-    identifies learners who do choose an enrollment option that is not
-    certificate-eligible.
+    identifies learners who choose an enrollment option that is not
+    certificate eligible.
 
   * On 23 Oct 2014, the "audit" value was deprecated.
 
