@@ -228,7 +228,7 @@ JavaScript::
     `// Translators: this will help the translator.`
     message = gettext('Hey there!')
     # Interpolation has to be done in JavaScript, not Coffeescript:
-    message = gettext("Error getting student progress url for '<%= student_id %>'.")
+    message = gettext("Error getting student progress url for '<%- student_id %>'.")
     full_message = _.template(message, {student_id: unique_student_identifier})
 
 But because we extract strings from the compiled .js files, there are some
