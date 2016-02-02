@@ -37,19 +37,4 @@ Info** and **Courseware** pages in the LMS, learners will soon see **Home** and
   locations.
 
 
-****************************************
-End of Support for Internet Explorer 10
-****************************************
-
-EdX support for the Microsoft Internet Explorer 10 browser will end soon.
-Testing of the edX platform on the Microsoft Edge browser is in progress.
-
-EdX currently supports use of the edX platform on the latest versions of these
-browsers.
-
-* `Chrome`_
-* `Safari`_
-* `Firefox`_
-
-
 .. include:: ../../links/links.rst
