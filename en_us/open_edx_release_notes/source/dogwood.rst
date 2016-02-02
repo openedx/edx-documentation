@@ -21,37 +21,10 @@ The following new features are included in the Open edX Dogwood release.
  :local:
 
 ==============
-New XBlocks
+New LTI XBlock
 ==============
 
-Oppia XBlock
-************
-
-`Oppia`_ explorations are short, interactive tutorials. With the Oppia XBlock,
-course teams can embed Oppia explorations in courses.
-
-For information about how to install the `Oppia XBlock`_, see the *Installing,
-Configuring, and Running the Open edX Platform* guide.
-
-For information about how to enable this tool in Studio and add Oppia
-explorations, see :ref:`opencoursestaff:Oppia Exploration Tool` in the
-*Building and Running an Open edX Course* guide.
-
-Office Mix XBlock
-******************
-
-With `Office Mix`_, course teams can turn PowerPoint presentations into
-interactive online lessons that are called mixes. With the Office Mix XBlock,
-course teams can embed  mixes in courses.
-
-For information about how to enable this tool in Studio and add mixes to a
-course, see :ref:`opencoursestaff:Office Mix Tool` in *Building and Running an
-Open edX Course*.
-
 .. _LTI XBlock:
-
-LTI XBlock
-***********
 
 A new LTI XBlock is now available. This XBlock is intended to replace the
 existing LTI XModule. In addition to all of the functionality previously
