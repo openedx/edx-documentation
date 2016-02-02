@@ -9,10 +9,10 @@ visible to learners and when.
 
 You control content visibility through these features in Studio.
 
-.. contents:: 
+.. contents::
   :local:
   :depth: 1
-  
+
 These features work together to control content visibility for learners.
 
 .. _Release Dates:
@@ -36,13 +36,13 @@ Prior to release, content is visible to course team members by
 :ref:`previewing the course <Preview Course Content>` or :ref:`viewing the live
 course as staff<View Your Live Course>`.
 
-.. note:: The release times that you set, and the times that learners see, 
+.. note:: The release times that you set, and the times that learners see,
    are in Coordinated Universal Time (UTC). You might want to verify that you
    have specified the times that you intend by using a time zone converter such
    as `Time and Date Time Zone Converter
    <http://www.timeanddate.com/worldclock/converter.html>`_
 
-For more information about setting release dates, see the following topics. 
+For more information about setting release dates, see the following topics.
 
 * :ref:`Set a Section Release Date`
 * :ref:`Set a Subsection Release Date`
@@ -126,3 +126,55 @@ groups of learners.
 
 For details, see :ref:`About Content Groups` and :ref:`Cohorted Courseware
 Overview`.
+
+.. _configuring_prerequisite_content:
+
+********************************
+Configuring Prerequisite Content
+********************************
+
+You can hide subsections of your course until learners complete other,
+prerequisite subsections. If a subsection has a prerequisite, it will not be
+visible in the course navigation until a learner has earned a minimum score in
+the prerequisite subsection.
+
+.. _enabling_subsection_gating:
+
+==========================
+Enabling Subsection Gating
+==========================
+
+To enable subsection gating in a course, follow these steps.
+
+#. From the **Settings** menu, select **Advanced Settings**.
+
+#. In the **Enable Subsection Gating** field, enter ``true``.
+
+#. At the bottom of the page, select **Save Changes**.
+
+.. _creating_a_prerequisite_subsection:
+
+==================================
+Creating a Prerequisite Subsection
+==================================
+
+To prevent learners from seeing a subsection of your course until they have
+earned a minimum score in a prerequisite subsection, follow these steps.
+
+#. Enable subsection gating for your course. For more information, see
+   :ref:`enabling_subsection_gating`.
+
+#. Select the **Configure** icon for the prerequisite subsection.
+
+   .. image:: ../../../shared/images/subsections-settings-icon.png
+     :alt: The subsection settings icon circled.
+
+#. Select the **Access** tab of the subsections settings screen.
+
+#. Select **Yes, set this as a prerequisite which can be used to limit access
+   to other content** in the **Use this as a Prerequisite** section.
+
+#. Select the **Configure** icon for the subsection that will be hidden until the prerequisite is complete.
+
+
+
