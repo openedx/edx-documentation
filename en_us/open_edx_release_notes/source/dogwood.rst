@@ -48,7 +48,7 @@ Office Mix XBlock
 
 With `Office Mix`_, course teams can turn PowerPoint presentations into
 interactive online lessons that are called mixes. With the Office Mix XBlock,
-course teams can embed  mixes in courses.
+course teams can embed mixes in their courses.
 
 For information about how to enable this tool in Studio and add mixes to a
 course, see :ref:`opencoursestaff:Office Mix Tool` in *Building and Running an
@@ -61,13 +61,13 @@ LTI XBlock
 
 A new LTI XBlock is now available. This XBlock is intended to replace the
 existing LTI XModule. In addition to all of the functionality previously
-offered by the XModules, the LTI XBlock also offers course teams the ability to
+offered by the XModule, the LTI XBlock also offers course teams the ability to
 configure the way that learning tools interoperability (LTI) components open
 when learners use them: in a modal window, in a separate web browser window, or
 embedded in a course page.
 
-.. note:: The LTI XModule continues to work, but does not provide the new
-  launching behavior options.
+.. note:: The LTI XModule continues to function in courses that include it,
+ but it does not provide the new launching behavior options.
 
 For more information, see :ref:`opencoursestaff:LTI Component` in the *Building
 and Running an Open edX Course* guide.
@@ -115,13 +115,13 @@ For more information, see :ref:`installation:Installing the Open edX Analytics
 Developer Stack` in the *Installing, Configuring, and Running the Open edX
 Platform* guide.
 
-========
-Insights
-========
+==========
+Analytics
+==========
 
-TBD
-
-.. Insights has a version marked that is compatible with Dogwood, but we don't provide installation or support.
+A new version of the Analytics Devstack is now available that is compatible
+with the Dogwood release. EdX does not currently provide installation or
+support of Insights for Open edX installations.
 
 =========================================
 Initial Version of Comprehensive Theming
@@ -271,10 +271,57 @@ Accessibility Updates
 ************************************************
 
 In keeping with edX's commitment to creating accessible content for everyone,
-everywhere, the Open edX Dogwood release contains several accessibility
-enhancements in the Open edX LMS and discussions.
+everywhere, the Open edX Dogwood release contains numerous accessibility
+enhancements and improvements to readability and navigability.
 
-* TBD
+* In Studio, changes to the **Unit** page make it easier to use a keyboard to
+  navigate to the options in the **Add New Component** section of this page. It
+  is also easier to use a keyboard to make selections from the list of choices
+  that appears when you select the **Advanced** option.
+
+* On course pages in the LMS, options for actions that course team members can
+  take, such as **View Unit in Studio** and **Staff Debug Info**, are now pink
+  instead of blue. This change increases the contrast between the text and the
+  gray background when these options are in a default state.
+
+* In the LMS, the list of topics on the **Discussion** page now uses colors
+  that meet WCAG AA guidelines for contrast. As a result, the background color
+  of the selected topic is now white instead of light blue.
+
+* The calculator now has a background color that contrasts with the foreground
+  on the input label.
+
+* Alert notifications for course wiki articles have been updated to increase
+  contrast between the background color and the alert text.
+
+* The left navigation menu presented by the **Courseware** page was
+  re-engineered. Navigating through sections, subsections and units using the
+  course navigation menu is now significantly improved for keyboard and screen
+  reader users.
+
+* Keyboard navigation in open response assessments was improved by restoring
+  keyboard focus outline indicators.
+
+===================================
+Design Updates to the Video Player
+===================================
+
+This release includes several updates to the edX video player.
+
+* The user interface controls for the player appear only after a learner
+  selects **play** for a video, and take up less screen space.
+
+* New icon designs are used for the **full screen** and **show transcript**
+  options.
+
+* The language menu, for video with transcript in multiple languages, is
+  indicated by a drop-down menu icon next to the **show transcript** icon.
+
+* To improve accessibility, all options use an icon font method that
+  streamlines delivery.
+
+* To enhance the experience of learners who use screen readers, changes that
+  improve spoken announcements and simplify navigation are also included.
 
 ************************************************
 Deprecated Features
@@ -317,7 +364,6 @@ A newer version of the open response assessments feature (ORA 2) was released
 over a year ago, and the ability to add ORA 1 problems was removed from Studio
 in May 2014.
 
-
 ============================
 Legacy Instructor Dashboard
 ============================
@@ -357,12 +403,6 @@ The following Django apps are deprecated in the Dogwood release.
 * The Psychometrics Django app.
 
 * The Licenses Django app.
-
-************************************************
-Supported Browser Changes
-************************************************
-
-TBD
 
 ************************************************
 More Information on Dogwood Release Changes
