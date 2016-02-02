@@ -148,7 +148,7 @@ To enable subsection gating in a course, follow these steps.
 
 #. From the **Settings** menu, select **Advanced Settings**.
 
-#. In the **Enable Subsection Gating** field, enter ``true``.
+#. In the **Enable Subsection Prerequisites** field, enter ``true``.
 
 #. At the bottom of the page, select **Save Changes**.
 
@@ -164,17 +164,35 @@ earned a minimum score in a prerequisite subsection, follow these steps.
 #. Enable subsection gating for your course. For more information, see
    :ref:`enabling_subsection_gating`.
 
-#. Select the **Configure** icon for the prerequisite subsection.
+#. Select the **Configure** icon for the subsection that must be completed
+   first. This is the prerequisite subsection.
 
    .. image:: ../../../shared/images/subsections-settings-icon.png
      :alt: The subsection settings icon circled.
 
 #. Select the **Access** tab of the subsections settings screen.
 
-#. Select **Yes, set this as a prerequisite which can be used to limit access
-   to other content** in the **Use this as a Prerequisite** section.
+#. Select **Make this subsection available as a prerequisite to other content**
+   in the **Use as a Prerequisite** section.
 
-#. Select the **Configure** icon for the subsection that will be hidden until the prerequisite is complete.
+#. Select **Save**.
 
+#. Select the **Configure** icon for the subsection that will be hidden until
+   the prerequisite is complete.
 
+#. Select the **Access** tab of the subsections settings screen.
 
+#. In the **Limit Access** section, select the name of the prerequisite
+   subsection in the **Prerequisite** menu.
+
+#. In the **Limit Access** section, enter the percent of the total score that
+   learners must earn in the **Minimum Score** field. A learner's score for all
+   problems in the prerequisite subsection must be equal to or greater than
+   this percentage in order to satisfy the prerequisite and display the current
+   subsection.
+
+   For example, if the prerequisite subsection includes four problems and each
+   problem is worth the same number of points, set the **Minimum Score** to 75
+   in order to require at least three correct answers.
+
+#. Select **Save**.
