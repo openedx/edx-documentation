@@ -811,12 +811,18 @@ mode
 
   **History**:
 
-  * All enrollments prior to 20 Aug 2013 are "honor", when the "audit" and
-    "verified" values were added.
+  * On 1 Dec 2015, the "audit" value was reintroduced. This value now
+    identifies learners who choose an enrollment option that is not
+    certificate eligible.
 
-  * The "professional" value was added for courses on edx.org on 29 Sep 2014.
+  * On 23 Oct 2014, the "audit" value was deprecated.
 
-  * The "audit" value was deprecated on 23 Oct 2014.
+  * On 29 Sep 2014, the "professional" and "no-id-professional" values were
+    added for courses on edx.org.
+
+  * On 20 Aug 2013, the "audit" and "verified" values were added.
+
+  * All enrollments prior to 20 Aug 2013 were "honor".
 
   .. _user_api_usercoursetag:
 
@@ -1790,13 +1796,17 @@ distinction
 --------
 status
 --------
-  The status can be one of these states.
 
-  .. note::
-   The ``audit_notpassing`` and ``audit_passing`` statuses identify audit
-   learners who were graded after 26 January 2016. These audit learners are not
-   eligible to receive a certificate. Audit learners who were graded before 26
-   January 2016 have a status of ``downloadable`` or ``notpassing``.
+  After a course has been graded and certificates have been issued, the status
+  is one of these string values.
+
+  * downloadable
+  * audit_passing
+  * notpassing
+  * audit_notpassing
+
+  The table that follows describes these values and the other workflow states
+  that can apply during certificate generation process.
 
   .. list-table::
        :widths: 15 80
@@ -1805,44 +1815,58 @@ status
        * - Value
          - Description
        * - audit_notpassing
-         - The learner enrolled in the audit track and did not earn a passing
-           grade. **History**: Added 26 January 2016. See the note above.
+         - Applies to learners who did not earn a passing grade and who have a
+           value of "audit" in ``student_courseenrollment.mode``. No
+           certificate is generated for these learners.
+
+           **History**: Added 26 Jan 2016 for audit enrollments created after 1
+           Dec 2015.
+
        * - audit_passing
-         - The learner enrolled in the audit track and received a passing
-           grade. **History**: Added 26 January 2016. See the note above.
+         - Applies to learners who earned a passing grade and who have a value
+           of "audit" in ``student_courseenrollment.mode``. These learners
+           completed the course succesfully, but no certificate is generated
+           for these learners.
+
+           **History**: Added 26 Jan 2016 for audit enrollments created after 1
+           Dec 2015.
+
        * - deleted
          - The certificate has been deleted.
        * - deleting
          - A request has been made to delete a certificate.
        * - downloadable
-         - The learner passed the course and a certificate is available for
-           download.
+         - A certificate is available for download.
+
+           Applies to learners who earned a passing grade and who have a
+           certificate-bearing value in ``student_courseenrollment.mode``.
+
        * - error
          - An error ocurred during certificate generation.
        * - generating
-         - A request has been made to generate a certificate but it has not
-           yet been generated.
+         - A request has been made to generate a certificate but it has not yet
+           been generated.
        * - notpassing
-         - The learner enrolled in a certificate track, but did not earn a
-           passing grade.
+         - The learner did not earn a passing grade.
+
+           Applies to learners who have a certificate-bearing value in
+           ``student_courseenrollment.mode``. No certificate is generated for
+           these learners.
+
        * - regenerating
          - A request has been made to regenerate a certificate but it has not
            yet been generated.
        * - restricted
-         - No longer used. **History**: Specified when
-           ``userprofile.allow_certificate`` was set to false: to indicate
-           that the student was on the restricted embargo list.
+         - No longer used.
+
+           **History**: Specified when ``userprofile.allow_certificate`` was
+           set to false to indicate that the learner was on the restricted
+           embargo list.
+
        * - unavailable
          - No entry, typically because the student has not yet been graded for
            certificate generation.
 
-  After a course has been graded and certificates have been issued, the status
-  is one of these values.
-
-  * audit_notpassing
-  * audit_passing
-  * downloadable
-  * notpassing
 
 -------------
 verify_uuid
@@ -1881,7 +1905,7 @@ error_reason
 ---------------
 mode
 ---------------
-  Contains the value found in the ``enrollment.mode`` field for a student and
-  course at the time the certificate was generated: blank, audit, honor, or
-  verified. This value is not updated if the student's ``enrollment.mode``
-  changes after certificates are generated.
+  Contains the value found in the ``student_courseenrollment.mode`` field for a
+  student and course at the time the certificate was generated: audit, honor,
+  verified, or blank. This value is not updated if the value of the student's
+  ``student_courseenrollment.mode`` changes after certificates are generated.
