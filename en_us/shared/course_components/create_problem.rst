@@ -79,7 +79,7 @@ All problems on the edX platform have several component parts.
    unlimited.
 
    .. image:: ../../../shared/images/AnatomyOfExercise2.png
-    :alt: An image of a problem from a learners's point of view, with
+    :alt: An image of a problem from a learner's point of view, with
        callouts for attempts and showing the answer.
     :width: 500
 
@@ -290,7 +290,7 @@ as a heading above the problem and as a tooltip in the learning sequence at the
 top of the **Courseware** page.
 
 .. image:: ../../../shared/images/ProbComponent_LMS_DisplayName.png
- :alt: An image of the problem in a unit page from a learners's point of view.
+ :alt: An image of the problem in a unit page from a learner's point of view.
  :width: 500
 
 In addition, edX Insights uses the display name to identify each problem.
@@ -516,7 +516,7 @@ the following options
        the problem due date has passed.
    * - **Past Due**
      - Show the answer after the due date for the problem has passed.
-   * - **Past Due**
+   * - **Never**
      - Never show the answer. In this case, a **Show Answer** button does not
        appear next to the problem in Studio or in the LMS.
 
