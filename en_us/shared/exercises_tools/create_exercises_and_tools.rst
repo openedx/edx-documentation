@@ -9,14 +9,40 @@ course outline. By default, a core set of exercises is available for you to add
 to your course. There are also numerous additional exercises and tools that you
 can review and add to your course.
 
-The level of support that edX provides for each tool varies. The description of
-each exercise and tool indicates the level of support: full, provisional or no
-support.
+************************************
+Levels of Support for Tools
+************************************
 
-Exercises and tools with provisional support might lack the robustness of
-functionality that courses you build using edX require. Exercises and tools
-with no support are not maintained by edX, and might be deprecated in the
-future.
+The level of support that edX provides for each tool varies. The description
+of each exercise and tool in the following sections indicates the level of
+support designated for each tool: full, provisional, or no support. This table
+provides the definition for each level of support.
+
+.. list-table::
+   :widths: 25 60
+   :header-rows: 1
+
+   * - Level of Support
+     - Description
+   * - Full support
+     - Fully supported tools and features are available on edx.org, are fully
+       tested, have user interfaces where applicable, and are documented in the
+       official edX guides that are available on docs.edx.org.
+   * - Provisional support
+     - Provisionally supported tools and features are available on edx.org,
+       but might lack the robustness of functionality that your courses
+       require. You should test provisionally supported tools thoroughly
+       before using them in your course, especially in graded sections.
+       Complete documentation might not be available for provisionally
+       supported tools, or documentation might be available from sources other
+       than the official edX guides.
+   * - Not supported
+     - Exercises and tools with no support are not maintained by edX, and
+       might be deprecated in the future. They are not recommended for use in
+       courses due to non-compliance with one or more of the base
+       requirements, such as testing, accessibility, internationalization, and
+       documentation.
+
 
 .. contents::
   :local:
