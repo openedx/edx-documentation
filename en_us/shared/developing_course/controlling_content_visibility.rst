@@ -129,9 +129,9 @@ Overview`.
 
 .. _configuring_prerequisite_content:
 
-********************************
-Configuring Prerequisite Content
-********************************
+*******************************************
+Configuring Prerequisite Course Subsections
+*******************************************
 
 You can hide subsections of your course until learners complete other,
 prerequisite subsections. If a subsection has a prerequisite, it will not be
@@ -140,11 +140,12 @@ the prerequisite subsection.
 
 .. _enabling_subsection_gating:
 
-==========================
-Enabling Subsection Gating
-==========================
+=================================
+Enabling Subsection Prerequisites
+=================================
 
-To enable subsection gating in a course, follow these steps.
+To make it possible to configure prerequisite subsections in a course, follow
+these steps.
 
 #. From the **Settings** menu, select **Advanced Settings**.
 
@@ -164,21 +165,21 @@ earned a minimum score in a prerequisite subsection, follow these steps.
 #. Enable subsection gating for your course. For more information, see
    :ref:`enabling_subsection_gating`.
 
-#. Select the **Configure** icon for the subsection that must be completed
-   first. This is the prerequisite subsection.
+#. Select the configuration icon (an image of gear) for the subsection that
+   must be completed first. This is the prerequisite subsection.
 
    .. image:: ../../../shared/images/subsections-settings-icon.png
      :alt: The subsection settings icon circled.
 
 #. Select the **Access** tab of the subsections settings screen.
 
-#. Select **Make this subsection available as a prerequisite to other content**
-   in the **Use as a Prerequisite** section.
+#. In the **Use as a Prerequisite** section, select **Make this subsection
+   available as a prerequisite to other content**.
 
 #. Select **Save**.
 
-#. Select the **Configure** icon for the subsection that will be hidden until
-   the prerequisite is complete.
+#. Select the configuration icon (an image of gear) for the subsection that
+   will be hidden until the prerequisite is complete.
 
 #. Select the **Access** tab of the subsections settings screen.
 
@@ -192,7 +193,19 @@ earned a minimum score in a prerequisite subsection, follow these steps.
    subsection.
 
    For example, if the prerequisite subsection includes four problems and each
-   problem is worth the same number of points, set the **Minimum Score** to 75
-   in order to require at least three correct answers.
+   problem is worth the same number of points, set the **Minimum Score** to
+   ``75`` in order to require at least three correct answers.
 
 #. Select **Save**.
+
+#. The course outline will display the prerequisite for the subsection
+   underneath its name.
+
+.. note::
+    Make sure that you configure subsection prerequisites in the sequential
+    order that you intend for learners. The prerequisite configuration controls
+    will not prevent you from creating a circular chain of prerequisites that
+    will permanently hide them from learners. You can check the prerequisite
+    for each subsection in the course outline and alter the configuration of prerequisites if needed.
+
+
