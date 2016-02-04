@@ -4,7 +4,7 @@
 Understanding Course Content Availability and Scheduling
 ########################################################
 
-When you begin a course you see the sections of the course content in the left
+When you begin a course, you see the sections of the course content in the left
 pane of the course window. You can use the left pane to view the sections and
 subsections of the course canyon and to open them in the course page.
 
@@ -18,9 +18,9 @@ complete first.
 If you are taking an instructor-paced course, the course team schedules the
 dates on which the sections of the course content become available to you. On
 the date that the course team chooses, the course content appears in the left
-pane. In self-paced courses, all of the course content is visible at all times.
-For more information about self-paced and instructor-paced courses, see
-:ref:`SFD Self Paced`.
+pane. In self-paced courses, course content does not become available according
+to a schedule. For more information about self-paced and instructor-paced
+courses, see :ref:`SFD Self Paced`.
 
 Some sections of course content have prerequisite sections that you must
 complete before they become available. Your course team sets a minimum score
