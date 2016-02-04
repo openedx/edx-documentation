@@ -384,6 +384,12 @@ Exporting and Importing a Library
 You can :ref:`export<Export a Library>` and :ref:`import<Import a Library>` a
 content library in Studio.
 
+.. warning:: When you import a library, the imported library completely
+  replaces the existing library and its contents. You cannot undo a library
+  import. Before you proceed, we recommend that you export the current
+  library, so that you have a backup copy of it.
+
+
 .. _Export a Library:
 
 ================
