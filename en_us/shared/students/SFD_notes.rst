@@ -112,7 +112,7 @@ The Notes Page
 On the **Notes** page, you can see all the notes you have made in your course
 in one place. You can also search the text of your notes.
 
-.. image:: ../../shared/students/Images/SFD_SN_NotesPage.png
+.. image:: ../../shared/images/SFD_SN_NotesPage.png
   :width: 500
   :alt: Notes page showing a list of notes ordered by recent activity.
 
