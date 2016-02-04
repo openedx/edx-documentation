@@ -32,8 +32,8 @@ the assignment or exam.
  :alt: Part of the left pane in an instructor-paced course, with due dates
      visible for homework.
 
-Self-paced courses do not follow a set schedule. All course materials are
-available as soon as the course begins. Assignments and exams do not have start
+Self-paced courses do not follow a set schedule. Course materials do not become
+available according to a schedule. Assignments and exams do not have start
 or due dates. The course shows indicators for homework assignments, but not due
 dates.
 
@@ -44,3 +44,4 @@ dates.
 
 In self-paced courses, you can submit an assignment or exam at any time before
 the course end date.
+
