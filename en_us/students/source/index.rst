@@ -15,6 +15,7 @@ EdX Learner's Guide
    SFD_self_paced
    SFD_enrolling
    SFD_credit_courses/index
+   SFD_content_availability
    SFD_licensing
    SFD_video_player
    SFD_bookmarks
