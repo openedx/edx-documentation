@@ -1,3 +1,4 @@
+.. _html_heading_levels:
 
 * In the HTML component visual editor, the Heading 1 and Heading 2 options have
   been removed. The Heading 3 option remains available, and the Heading 4,
