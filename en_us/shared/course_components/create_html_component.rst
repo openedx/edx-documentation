@@ -456,10 +456,10 @@ course. You then create a link to the image in the HTML component.
 #. On the **Files & Uploads** page, copy the **Studio** URL of the image that
    you want. For an example illustration, see :ref:`Add a Link to a File`.
 
-  .. note::
-   You must use the **Studio** URL to add the image, not the **Web** URL.
+   .. note::
+     You must use the **Studio** URL to add the image, not the **Web** URL.
 
-2. In the HTML component where you want to add the link, select the image icon
+#. In the HTML component where you want to add the link, select the image icon
    in the toolbar.
 
 #. In the **Insert image** dialog box, enter the Studio URL for the file in the
