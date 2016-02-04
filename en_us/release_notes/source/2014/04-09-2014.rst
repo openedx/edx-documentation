@@ -13,9 +13,6 @@ edX Studio
 
   The HTML editor you use for HTML components, as well as Pages, was upgraded to improve usability.
 
-  .. image:: images/HTMLEditor.png
-   :alt: Image of the new HTML Editor
-
   For instructions on using the new editor to add text, images, and links, see Working with HTML Components.
 
 ***************************************
@@ -36,6 +33,6 @@ For more information, see Go to Studio from Your Live Course.
 * Video transcripts are now displayed in their source language. (BLD-935)
 
 * Video transcripts are now available for all video speeds in Firefox. (BLD-958)
-  
+
 
 

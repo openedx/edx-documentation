@@ -63,7 +63,7 @@ Example: conditional depends on poll
     <conditional sources="i4x://MITx/0.000x/poll_question/first_real_poll_seq_with_reset" poll_answer="man"
     message="{link} must be answered for this to become visible.">
         <html>
-            <h2>You see this because your vote value for "First question" was "man"</h2>
+            <h3>You see this because your vote value for "First question" was "man"</h3>
         </html>
     </conditional>
 

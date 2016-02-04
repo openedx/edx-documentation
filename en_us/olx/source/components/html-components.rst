@@ -100,7 +100,7 @@ file for the edX Demo course:
 
 .. code-block:: html
 
-    <h2>Lesson 2: Let's Get INTERACTIVE!</h2>
+    <h3>Lesson 2: Let's Get INTERACTIVE!</h3>
     <p>
     <img
     src="/static/interactive_x250.png" alt="Interactive" width="250"
