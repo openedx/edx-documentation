@@ -219,6 +219,9 @@ upgrades.
 
 The upgrade from Cypress to Dogwood includes these steps.
 
+#. Applies a `forum migration described on the Open edX wiki`_ to support teams
+   discussion filtering.
+
 #. Updates edx-platform to the ``release-2015-11-09`` tag.  This is the last
    released version that used Django 1.4.
 
@@ -235,6 +238,9 @@ The upgrade from Cypress to Dogwood includes these steps.
 #. Applies all the initial Django migrations.  This gets your database ready to
    use the new Django 1.8 migration mechanism.
 
+#. Runs the forum migration again. This is to process any discussion topics
+   that may have been created during the running of the script.
+
 #. Updates edx-platform to the desired final version.
 
 #. Runs Django database migrations.
@@ -242,5 +248,7 @@ The upgrade from Cypress to Dogwood includes these steps.
 
 Similar steps are followed to upgrade other repositories such as xqueue.
 
+
+.. _forum migration described on the Open edX wiki: https://openedx.atlassian.net/wiki/display/TNL/Migrating+the+Discussion+Forums+to+Support+Teams+Discussion+Filtering
 
 .. include:: ../../links/links.rst
