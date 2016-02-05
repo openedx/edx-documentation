@@ -33,9 +33,9 @@ the assignment or exam.
      visible for homework.
 
 Self-paced courses do not follow a set schedule. Course materials do not become
-available according to a schedule. Assignments and exams do not have start
-or due dates. The course shows indicators for homework assignments, but not due
-dates.
+available according to a schedule, but are completely available as soon as the
+course begins. Assignments and exams do not have start or due dates. The course
+shows indicators for homework assignments, but not due dates.
 
 .. image:: ../../shared/students/Images/Pacing_Self.png
  :width: 200
