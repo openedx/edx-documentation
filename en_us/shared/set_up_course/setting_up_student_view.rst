@@ -160,10 +160,17 @@ Before you upload a course about video, make sure that it follows the same
 :ref:`Compression Specifications` and :ref:`Video Formats` guidelines as your
 course content videos.
 
-.. note:: If you upload both a course image and a course about video, the
-  course image appears on learner dashboards with a **play** icon superimposed
-  on it. If you upload only a course video, the first frame of the the video
-  file appears with the **play** icon.
+.. note::
+
+  * If you upload both a course image and a course about video, the course
+    image appears on learner dashboards with a **play** icon superimposed on
+    it. If you upload only a course video, the first frame of the the video
+    file appears with the **play** icon.
+
+  * The process for adding a course about video is different than the process
+    for including videos as part of the content of your course. For more
+    information about including video content, see :ref:`Working with Video
+    Components`.
 
 .. the "only" directives between these comments introduce the instructions that all open edX sites, and that partners adding a video to Edge, must complete. - Alison 1 Feb 2016
 

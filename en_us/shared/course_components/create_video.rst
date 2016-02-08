@@ -4,11 +4,16 @@
 Working with Video Components
 #############################
 
-This section describes how to work with videos for your course.
+This section describes how to include videos as part of the content of your
+course.
 
 .. contents::
  :local:
  :depth: 1
+
+You can also include an "about" video for your course. A course about video
+appears on learner dashboards to market your course. For more information, see
+:ref:`Add a Course Video`.
 
 ************************
 Overview
