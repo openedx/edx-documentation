@@ -147,6 +147,10 @@ the Vagrant file with curl, do this:
 Troubleshooting the Devstack Installation
 *****************************************
 
+=========================
+VPN and NFS server errors
+=========================
+
 In some cases, you see an error when you attempt to create the Devstack virtual
 machine (``vagrant up``). For example:
 
@@ -154,8 +158,8 @@ machine (``vagrant up``). For example:
 
 This error situation arises because Vagrant uses a host-only network in
 Virtualbox to communicate with your computer. If a network does not exist, one
-is created on ``vagrant up``. If this network is created with the VPN up, it
-will not work. You must recreate the network with the VPN down.
+is created on ``vagrant up``. If this network is created with a VPN up, it
+may not work. You should recreate the network with the VPN down.
 
 To resolve the error, follow these steps.
 
@@ -165,5 +169,27 @@ To resolve the error, follow these steps.
 #. Navigate to **Preferences > Network > Host-only Networks** and remove the
    most-recently-created host-only network.
 #. Type ``vagrant up``.
+
+================================
+paver test .. No locks available
+================================
+
+When running Ubuntu 15.10 Wily (and probably other Operating Systems as well), ``paver test``
+mail fail with `IOError: [Errno 37] No locks available <https://openedx.atlassian.net/browse/TE-1173>`_.
+As of February 2016, the following installation procedure is known to not suffer from that problem and
+can be used as a workardound:
+
+# provision a new hardware with Ubuntu 14.04
+# wget https://releases.hashicorp.com/vagrant/1.8.1/vagrant_1.8.1_x86_64.deb
+# apt-get install -y virtualbox virtualbox-dkms linux-headers-generic nfs-server
+# dpkg -i vagrant_1.8.1_x86_64.deb
+# mkdir devstack
+# cd devstack
+# wget https://raw.githubusercontent.com/edx/configuration/named-release/dogwood.rc/vagrant/release/devstack/Vagrantfile
+# vagrant plugin install vagrant-vbguest
+# OPENEDX_RELEASE="named-release/dogwood.rc" vagrant up
+# vagrant ssh # the password to login is vagrant
+# sudo su edxapp
+# paver test
 
 .. include:: ../../../links/links.rst
