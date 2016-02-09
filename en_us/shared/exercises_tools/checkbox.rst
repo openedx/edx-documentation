@@ -295,7 +295,7 @@ For example, the following problem has feedback for each option.
 
   <choiceresponse>
     <checkboxgroup label="Which of the following is an example
-    of a fruit? Check all that apply." direction="vertical">
+    of a fruit? Check all that apply.">
       <choice correct="true">apple
         <choicehint selected="true">You are correct that an apple is a fruit
           because it is the fertilized ovary that comes from an apple tree and
