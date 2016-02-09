@@ -151,7 +151,7 @@ these steps.
 
 #. In the **Enable Subsection Prerequisites** field, enter ``true``.
 
-#. At the bottom of the page, select **Save Changes**.
+#. SSelect **Save Changes**.
 
 .. _creating_a_prerequisite_subsection:
 
@@ -162,6 +162,13 @@ Creating a Prerequisite Subsection
 To prevent learners from seeing a subsection of your course until they have
 earned a minimum score in a prerequisite subsection, follow these steps.
 
+.. note::
+    Make sure that you configure subsection prerequisites in the order that you
+    intend for learners to encounter them in the course content. The
+    prerequisite configuration controls do not prevent you from creating a
+    circular chain of prerequisites that will permanently hide them from
+    learners.
+
 #. Enable subsection prerequisites for your course. For more information, see
    :ref:`enabling_subsection_gating`.
 
@@ -169,7 +176,7 @@ earned a minimum score in a prerequisite subsection, follow these steps.
    must be completed first. This is the prerequisite subsection.
 
    .. image:: ../../../shared/images/subsections-settings-icon.png
-     :alt: The subsection settings icon circled.
+     :alt: The subsection configuration icon circled.
 
 #. Select the **Access** tab.
 
@@ -179,7 +186,7 @@ earned a minimum score in a prerequisite subsection, follow these steps.
 #. Select **Save**.
 
 #. Select the **Configure** icon for the subsection that
-   will be hidden until the prerequisite is complete.
+   will be hidden until the prerequisite is met.
 
 #. Select the **Access** tab.
 
@@ -200,11 +207,6 @@ earned a minimum score in a prerequisite subsection, follow these steps.
 #. In the course outline, if a subsection has a prerequisite, the prerequisite
    name appears under the subsection name.
 
-.. note::
-    Make sure that you configure subsection prerequisites in the order that you
-    intend for learners to encounter them in the course content. The
-    prerequisite configuration controls do not prevent you from creating a
-    circular chain of prerequisites that will permanently hide them from
-    learners.
+
 
 
