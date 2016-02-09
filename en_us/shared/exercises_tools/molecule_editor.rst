@@ -59,7 +59,7 @@ HTML Component Code
 
 .. code-block:: xml
 
-  <h2>Molecule Editor</h2>
+  <h3>Molecule Editor</h3>
   <p>The molecule editor makes creating and visualizing molecules easy. A chemistry professor may have you build and submit a molecule as part of an exercise.</p>
   <div>
   <script type="text/javascript">// <![CDATA[
