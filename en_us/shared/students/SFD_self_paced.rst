@@ -24,8 +24,8 @@ Differences between Instructor- and Self-Paced Courses
 Instructor-paced courses follow a set schedule. Course materials become
 available at specific times as the course progresses. Assignments have due
 dates, and exams have start and end dates. During the course, indicators show
-you when you have a homework assignment or exam, as well as the due date for
-the assignment or exam.
+when you have a graded assignment, as well as the due date for
+the assignment.
 
 .. image:: ../../shared/students/Images/Pacing_Inst.png
  :width: 200
