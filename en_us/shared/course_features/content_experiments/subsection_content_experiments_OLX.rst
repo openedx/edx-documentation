@@ -49,8 +49,8 @@ different sets of content.
 
 .. code-block:: xml
 
-    <split_test url_name="AB_Test.xml" display_name="A/B Test" user_partition_id="0" 
-                group_id_to_child='{"0": "i4x://path-to-course/vertical/group_a", 
+    <split_test url_name="AB_Test.xml" display_name="A/B Test" user_partition_id="0"
+                group_id_to_child='{"0": "i4x://path-to-course/vertical/group_a",
                                     "1": "i4x://path-to-course/vertical/group_b"}'>
         <vertical url_name="group_a" display_name="Group A">
            <html>Welcome to group A.</html>
@@ -59,10 +59,10 @@ different sets of content.
         <vertical url_name="group_b" display_name="Group B">
             <html>Welcome to group B.</html>
             <problem display_name="Checkboxes">
-                <p>A checkboxes problem presents checkbox buttons for learner input. 
+                <p>A checkboxes problem presents checkbox buttons for learner input.
                    Learners can select more than one option presented.</p>
                 <choiceresponse>
-                    <checkboxgroup direction="vertical" label="Select the answer that matches">
+                    <checkboxgroup label="Select the answer that matches">
                         <choice correct="true">correct</choice>
                         <choice correct="false">incorrect</choice>
                         <choice correct="true">correct</choice>
