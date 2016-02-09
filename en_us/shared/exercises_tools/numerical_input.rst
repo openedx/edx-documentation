@@ -35,8 +35,8 @@ learner and the numerical expression that results.
  :alt: A learner typed n*x^(n-1) to enter the symbolic expression n times x to
      the n minus 1 power.
 
-For more information about how learners enter expressions, see `Math Response
-Formatting for Students`_.
+For more information about how learners enter expressions, see
+:ref:`openlearners:Math Formatting`.
 
 You can specify a margin of error, or tolerance, for the answers to these
 problems so that learners' responses do not have to be exact. You can
@@ -52,7 +52,7 @@ Analyzing Performance on Numerical Input Problems
 
 For the numerical input problems in your course, you can use edX Insights to
 review aggregated learner performance data and examine submitted answers. For
-more information, see `Using edX Insights`_.
+more information, see :ref:`insights:Using edX Insights`.
 
 ***********************************
 Creating a Numerical Input Problem
@@ -168,7 +168,6 @@ Editor.
       <numericalresponse answer="10">
           <formulaequationinput label="What base is the decimal numeral system in?"/>
       </numericalresponse>
-  </p>
 
     <legend>What is the value of the standard gravity constant <i>g</i>, measured in m/s<sup>2</sup>? Give your answer to at least two decimal places.</legend>
     <numericalresponse answer="9.80665">
@@ -776,6 +775,4 @@ Specifies a hint available to the learner.
 
   (none)
 
-.. _Math Response Formatting for Students: http://edx-guide-for-students.readthedocs.org/en/latest/SFD_mathformatting.html
 
-.. _Using edX Insights: http://edx.readthedocs.org/projects/edx-insights/en/latest/
