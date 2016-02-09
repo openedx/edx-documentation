@@ -151,7 +151,7 @@ these steps.
 
 #. In the **Enable Subsection Prerequisites** field, enter ``true``.
 
-#. SSelect **Save Changes**.
+#. Select **Save Changes**.
 
 .. _creating_a_prerequisite_subsection:
 
