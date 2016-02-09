@@ -304,13 +304,15 @@ LTI Component Settings
        **Inline**.
 
    * - Modal Height
-     - Specifies the on-screen height of the LTI content window in pixels.
+     - Specifies the on-screen height of the LTI content window as a percentage
+       of the visible web browser window height. Enter the percentage in whole numbers.
 
        This setting is only applied if the **LTI Launch Target** control is set
        to **Modal**.
 
    * - Modal Width
-     - Specifies the on-screen width of the LTI content window in pixels.
+     - Specifies the on-screen width of the LTI content window as a percentage
+       of the web browser window width. Enter the percentage in whole numbers.
 
        This setting is only applied if the **LTI Launch Target** control is set
        to **Modal**.
