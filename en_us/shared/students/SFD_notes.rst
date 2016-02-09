@@ -16,9 +16,9 @@ Overview of Notes
 
 As you work through an edX course, you may want to highlight a particular
 passage or make a note about what you have read. In some edX courses, you can
-highlight passages and make notes right in the courseware.
+highlight passages and make notes right in the course.
 
-.. note:: You can create notes for most text in the courseware.
+.. note:: You can create notes for most text in the body of the course.
  However, notes are currently not available for exercises, videos, or PDF
  textbooks.
 
@@ -112,7 +112,7 @@ The Notes Page
 On the **Notes** page, you can see all the notes you have made in your course
 in one place. You can also search the text of your notes.
 
-.. image:: ../../shared/students/Images/SFD_SN_NotesPage.png
+.. image:: ../../shared/images/SFD_SN_NotesPage.png
   :width: 500
   :alt: Notes page showing a list of notes ordered by recent activity.
 
@@ -131,7 +131,7 @@ in Course**, and **Tags**.
   created or edited them, with the most recently modified first.
 
 * When you select **Location in Course**, notes are sorted sequentially by the
-  location of the note in the courseware.
+  location of the note in the course body.
 
 * When you select **Tags**, notes are sorted by the tags you have added.
 
@@ -154,7 +154,7 @@ Edit or Delete a Note or Highlight
 
 To edit a note, follow these steps.
 
-#. In the courseware, move your cursor over the highlighted text until your
+#. In the course body, move your cursor over the highlighted text until your
    note appears.
 #. When the note appears, select the pencil icon in the upper right corner to
    open the note editor.
@@ -199,8 +199,8 @@ Search Notes
 
 To search your notes, follow these steps.
 
-#. At the top of any courseware page, select **Notes** to open the **Notes**
-   page.
+#. At the top of any page in the course body, select **Notes** to open the
+   **Notes** page.
 
 #. In the upper right corner of the page, type a search term in the **Search
    notes for** field.

@@ -234,8 +234,8 @@ you have questions, please contact us at docs@edx.org.
    * Will the course team have access to a new tool or page in Studio, or see
      changes or additions to the Studio user interface?
 
-   * How will learners experience the change in the courseware? What learning
-     outcomes can be expected?
+   * How will learners experience the change in the course content? What
+     learning outcomes can be expected?
 
    * How will course team members experience the change in the LMS, on the
      Instructor Dashboard as well as in the course content?

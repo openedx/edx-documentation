@@ -33,7 +33,7 @@ create your JS Input problem.
     the LMS, but the button does not work.
 
 .. note::
-  You can make a calculator available to your learners on every courseware
+  You can make a calculator available to your learners on every unit
   page. For more information, see :ref:`Calculator`.
 
 ************************************************************

@@ -44,7 +44,7 @@ To review a response submitted by a learner, follow these steps.
 
 #. View the live version of your course.
 
-#. Select **Courseware** and navigate to the unit that contains the problem
+#. Select **Course** and navigate to the unit that contains the problem
    you want to review.
 
 #. Display the problem, and then select **Submission History** below the
@@ -481,7 +481,7 @@ Interpret the Student Answer Distribution Report
 
 You can use the Student Answer Distribution report to review learner responses
 to assignments, which can then help you evaluate the structure and completeness
-of your courseware and problem components.
+of your course content and problem components.
 
 As an example, you define a text input question in Studio to have a single
 correct answer, "Warfarin". When you produce the Student Answer Distribution
@@ -521,4 +521,4 @@ toolbar and then select the type of chart you want.
 
 You can adjust your course content based on common mistakes. While most
 learners in this example selected the correct answer, the number of incorrect
-answer(s) can guide future changes to the courseware.
+answer(s) can guide future changes to the course content.

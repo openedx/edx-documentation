@@ -39,13 +39,15 @@ and any peer responses they assess. You can also allow learners to see the top
 scoring responses that their peers have submitted. For more information, see
 :ref:`PA Top Responses`.
 
-.. note:: Open response assessments that are visible to all learners do not
-   respect cohorts. In other words, it is possible for learners in one cohort
-   to be asked to grade responses for learners in another cohort. If you want
-   to make an open response assessment divided by cohort, you must create that
-   assessment in a course component that is defined as cohort-specific. For
-   more information about cohorts and creating cohort-specific courseware, see
-   :ref:`Cohorts Overview` and :ref:`Cohorted Courseware Overview`.
+.. note::
+  Open response assessments that are visible to all learners do not respect
+  cohorts. In other words, it is possible for learners in one cohort to be
+  asked to grade responses for learners in another cohort. If you want to make
+  an open response assessment divided by cohort, you must create that
+  assessment in a course component that is defined as cohort-specific. For more
+  information about cohorts and creating cohort-specific course content, see
+  :ref:`Cohorts Overview` and :ref:`Cohorted Courseware Overview`.
+
 
 For more information about creating open response assessments, including step
 by step instructions, see the following sections.
@@ -580,8 +582,8 @@ create an ORA assignment that has both peer assessment and staff assessment
 steps, and make it available only to the members of one or more specific
 cohorts. For the members of the remaining cohorts, you create an ORA assignment
 that has only the peer assessment step. For details about creating different
-course experiences for learners in different cohorts, see :ref:`Cohorted
-Courseware Overview`.
+course experiences for learners in different cohorts, see
+:ref:`Cohorted Courseware Overview`.
 
 For details about performing grading in staff assessment steps, see
 :ref:`Perform a Staff Assessment`.

@@ -12,7 +12,7 @@ announce and when, and whether to send notifications to the mobile app.
 Where can I read all of the announcements for my course?
 ========================================================
 
-You can use the edX mobile app or a web browser to visit the **Course Info**
+You can use the edX mobile app or a web browser to visit the **Home**
 page and read all of the announcements.
 
 ==================================================================
@@ -20,7 +20,7 @@ How do I turn off course notifications (or turn them back on)?
 ==================================================================
 
 You can turn notifications off, or on, for each of your courses. In the edX
-mobile app, select the course and visit its **Course Info** page to change the
+mobile app, select the course and visit its **Home** page to change the
 notification setting.
 
 ===========================================================

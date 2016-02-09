@@ -154,7 +154,7 @@ The following flags are supported in the CMS and LMS applications.
 CMS
 ===
 
-* ``ENABLE_COURSEWARE_INDEX``: Enables/disables courseware content and course
+* ``ENABLE_COURSEWARE_INDEX``: Enables/disables course content and course
   info indexing.
 
 * ``ENABLE_LIBRARY_INDEX``: Enables/disables library content indexing.
@@ -181,7 +181,7 @@ CMS
 LMS
 ===
 
-* ``ENABLE_COURSEWARE_SEARCH``: Enables/disables Courseware Search feature (in
+* ``ENABLE_COURSEWARE_SEARCH``: Enables/disables Course Search feature (in
   course searching)
 
 * ``ENABLE_DASHBOARD_SEARCH``: Enables/disables Dashboard Search feature (in

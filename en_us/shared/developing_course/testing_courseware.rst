@@ -45,7 +45,7 @@ configured in Studio. You see content in units with the publishing status
    designate content as visible only to particular groups, see :ref:`Preview
    Cohort Specific Courseware`.
 
-.. note:: If you use randomized content blocks in your courseware, you cannot
+.. note:: If you use randomized content blocks in your course, you cannot
    preview unpublished units that contain content from randomized content
    blocks, because the randomized content is not assigned until after the unit
    is published. For information about viewing the actual content that has
@@ -86,7 +86,7 @@ In the live course, students continue to see the existing content, without the
 multiple choice question, until you :ref:`publish the change<Publish a Unit>`.
 
 .. note:: When the unit's state is :ref:`Published and Live`, the preview and
-   the live version of the courseware are exactly the same. Selecting either
+   the live version of the course are exactly the same. Selecting either
    of **View Live** or **Preview** gives you the same view.
 
 
@@ -128,7 +128,8 @@ You can view the course as a member of these groups.
 To switch to your live course and see how it appears to members of the groups
 in the table above, follow these steps.
 
-#. From the course outline page in Studio, click **View Live** or, from a unit page in Studio, click **View Live Version**.
+#. From the course outline page in Studio, click **View Live** or, from a unit
+   page in Studio, click **View Live Version**.
 
   .. image:: ../../../shared/images/test-outline-view-live.png
    :alt: View live button on the outline
@@ -157,7 +158,7 @@ In the LMS, to view your live course as anyone with the role of **Staff**
 would see it, use **Staff View**.
 
 .. image:: ../../../shared/images/Live_Course_Staff_View.png
- :alt: Image of the Courseware page in a live course with Staff View indicated
+ :alt: Image of the Course page in a live course with Staff View indicated
   at top right and a View Unit in Studio button
 
 * You see all units that are :ref:`Published and Live`. For units that are
@@ -185,11 +186,11 @@ Student View
 ============
 
 .. note::
-  If your course has not started, you cannot see your courseware when you use
-  the **Student** view. To see your courseware before the course has started,
-  add yourself as a beta tester on the Instructor Dashboard. Make sure to set
-  the course start date and the **Days Early for Beta** setting so that you
-  can see the content that you want. For more information, see
+  If your course has not started, you cannot see the content on the **Course**
+  page when you use the **Student** view. To see this content before the course
+  has started, add yourself as a beta tester on the Instructor Dashboard. Make
+  sure to set the course start date and the **Days Early for Beta** setting so
+  that you can see the content that you want. For more information, see
   :ref:`Beta_Testing`.
 
 In the LMS, to see the course content in your live course that is intended for
@@ -230,11 +231,12 @@ Specific Student View
 =====================
 
 .. note::
-  If your course has not started, you cannot see your courseware when you use
-  the **Specific student** view. To see your courseware before the course has
-  started, add yourself as a beta tester on the Instructor Dashboard. Make
-  sure to set the course start date and the **Days Early for Beta** setting so
-  that you can see the content that you want. For more information, see
+  If your course has not started, you cannot see the content on the **Course**
+  page when you use the **Specific student** view. To see this content before
+  the course has started, add yourself as a beta tester on the Instructor
+  Dashboard. Make sure to set the course start date and the **Days Early for
+  Beta** setting so that you can see the content that you want. For more
+  information, see
   :ref:`Beta_Testing`.
 
 In the LMS, the course content in your live course as one particular student
@@ -243,14 +245,14 @@ would see it, use the **Specific student** view.
 Seeing the content in your live course as a specific student sees it is useful
 in some situations. For example, to adjust a grade or reset the attempts for a
 problem that was assigned from a randomized content block, you will need to
-view the courseware as a specific student to see the actual problems that they
+view the course as a specific student to see the actual problems that they
 were assigned. For details about adjusting grades or resetting attempts, see
 :ref:`Adjust_grades`.
 
 
 To switch to the **Specific student** view, click **View this course as**.
 Select **Specific student** from the drop down list, and enter the username or
-the email address of the specific student that you want to view the courseware
+the email address of the specific student that you want to view the course
 as.
 
 .. image:: ../../../shared/images/ViewCourseAsSpecificStudent.png

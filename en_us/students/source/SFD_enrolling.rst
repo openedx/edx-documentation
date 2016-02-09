@@ -59,9 +59,9 @@ To enroll in a course, follow these steps.
    your dashboard opens, verify that the new course appears in your list of
    courses.
 
-If you select **View Course** on your dashboard, the **Course Info** page for
+If you select **View Course** on your dashboard, the **Home** page for
 the course opens. If the course has already started, you can select the
-**Courseware** page to access released course materials.
+**Course** page to access released course materials.
 
 .. note:: Course instructors occasionally enroll learners directly in a
  course. If this is the case, you receive an email that contains a link to the

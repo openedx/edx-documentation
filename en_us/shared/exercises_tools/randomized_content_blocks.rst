@@ -283,15 +283,15 @@ Adjust Grades for a Problem from a Randomized Content Block
 ***********************************************************
 
 To adjust a grade or reset the attempts for a problem that was assigned from a
-randomized content block, you can view the courseware as a specific student to
+randomized content block, you can view the course as a specific student to
 see the actual problems that they were assigned.
 
 Obtain the username or email address for the learner whose grades you want to
 adjust, and follow the steps described in the :ref:`Specific Student View`
-topic to view the actual problems in the courseware that this student was
+topic to view the actual problems in the course that this student was
 assigned.
 
-In the **Specific student** courseware view in the LMS for the student whose
+In the **Specific student** course view in the LMS for the student whose
 username or email you entered, locate the components from the randomized
 content block. Follow the steps described in :ref:`Adjust_grades` to rescore
 the learner's submission, reset attempts, or delete the learner's state for a

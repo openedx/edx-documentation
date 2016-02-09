@@ -18,7 +18,7 @@ but also provide more specific information, if necessary.
  cannot enter words or mathematical expressions, which might be confusing to
  students who are accustomed to other edX numerical input fields.
 
- You can make a calculator available to your learners on every courseware
+ You can make a calculator available to your learners on every unit
  page. For more information, see :ref:`Calculator`.
 
 .. _Create an MCNI Problem:

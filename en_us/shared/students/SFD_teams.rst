@@ -47,7 +47,7 @@ Browse Topics and Find a Team to Join
 
 To browse topics and find a team to join, follow these steps.
 
-#. In the courseware, select the **Teams** page.
+#. In the course, select the **Teams** page.
 #. Select the **Browse** tab.
 #. On the **Browse** page, view the list of available topics.
 
@@ -102,7 +102,7 @@ interests.
 
 To get a list of teams that match your search keywords, follow these steps.
 
-#. In the courseware, select the **Teams** tab.
+#. In the course, select the **Teams** tab.
 
 #. On the **Teams** page, select **Browse**, then select the topic in which
    you want to find a team.
@@ -196,7 +196,7 @@ automatically added as a member.
 
 To create a team, follow these steps.
 
-#. On the **Teams** page in the courseware, find a topic that you are
+#. On the **Teams** page in the course, find a topic that you are
    interested in.
 
 #. Select the topic's arrow button to see the teams that exist in that topic.

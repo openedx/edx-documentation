@@ -38,18 +38,18 @@ symbols that appear below the response field.
 
 Additionally, some edX courses offer a calculator tool that you can use while
 you work through the course. If the course has a calculator, the calculator
-appears as a small icon on all courseware pages.
+appears as a small icon on all pages in the body of the course.
 
 .. image:: ../../../shared/images/Calc_Closed.png
   :width: 600
-  :alt: Courseware page with an arrow pointing to the calculator.
+  :alt: Course page with an arrow pointing to the calculator.
 
 To use the calculator, select the calculator icon. To close the calculator,
 select the X.
 
 .. image:: ../../../shared/images/Calc_Open.png
   :width: 600
-  :alt: Courseware page with the calculator visible along the edge of the browser.
+  :alt: Course page with the calculator visible along the edge of the browser.
 
 ****************************
 Entering Math Expressions
@@ -67,7 +67,7 @@ system if you have used math programs before.
 
   .. image:: ../../../shared/images/Calc_Open_InfoPage.png
     :width: 600
-    :alt: Courseware page with the calculator visible and showing the
+    :alt: Course page with the calculator visible and showing the
      information page.
 
 When you enter your plain text into the calculator or the response field,

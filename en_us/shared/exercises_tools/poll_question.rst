@@ -244,7 +244,7 @@ View Poll Results
 ***************************
 
 When you view the poll as a course staff member, you can view results of the
-poll in the courseware.
+poll inside the course.
 
 Select **View results** in the poll.
 

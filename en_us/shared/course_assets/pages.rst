@@ -21,8 +21,8 @@ Default Pages
 
 By default, your course includes these pages.
 
-* Courseware
-* Course Info
+* Home
+* Course
 * Discussion
 * Wiki
 * Progress
@@ -138,7 +138,7 @@ To move a page, hover over the element handle on the right side of the page
 row until the mouse pointer changes to a four-headed arrow. Then select and
 drag the page to the location that you want.
 
-.. note:: You cannot reorder the **Courseware** or **Course Info** pages.
+.. note:: You cannot reorder the **Home** or **Course** pages.
 
 .. _Delete a Page:
 
@@ -150,7 +150,7 @@ To delete a page that you previously added, select the trash can icon in the
 row for the page. You are prompted to confirm the deletion.
 
 .. note::
-  You cannot delete the **Courseware**, **Course Info**, **Discussion**, or
+  You cannot delete the **Home**, **Course**, **Discussion**, or
   **Progress** pages. You can hide the course **Wiki** page.
 
 .. _Code for Dynamic HTML Schedule:

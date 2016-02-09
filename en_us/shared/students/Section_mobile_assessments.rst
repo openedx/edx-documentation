@@ -13,7 +13,7 @@ For example, you can use the edX app to answer multiple choice questions, but
 you cannot use it to draw molecules or design circuits. To complete problems
 that require complex actions, you must use a web browser.
 
-.. note:: EdX recommends that you complete all of your graded assignments in 
+.. note:: EdX recommends that you complete all of your graded assignments in
  a web browser on a computer.
 
 ========================================================
@@ -31,14 +31,14 @@ ways.
 * Text input
 * Numerical input
 
-EdX is working to add more types of problems to this list. 
+EdX is working to add more types of problems to this list.
 
 ==================================================================
 Can I read all of the questions for my assignments in the app?
 ==================================================================
 
-No. After you select the **Full Course** option, the courseware list includes
-every section in the course. After you select a section, a "readable" (piece of
+No. After you select the **Full Course** option, the list includes every
+section in the course. After you select a section, a "readable" (piece of
 paper) icon or a "web only" (PC) icon appears next to each piece of content.
 
 When you select a readable assignment, you can read and answer questions in the

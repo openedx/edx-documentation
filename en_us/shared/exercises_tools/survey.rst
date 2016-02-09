@@ -268,7 +268,7 @@ View Survey Results
 ***************************
 
 When you view the survey as a course staff member, you can view results of the
-survey in the courseware.
+survey inside the course.
 
 Select **View results** in the survey.
 

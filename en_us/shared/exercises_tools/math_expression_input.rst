@@ -20,7 +20,7 @@ For more information about how learners enter expressions, see `Math Response
 Formatting for Students`_.
 
 .. note::
-  You can make a calculator available to your learners on every courseware
+  You can make a calculator available to your learners on every unit
   page. For more information, see :ref:`Calculator`.
 
 For the math expression input problems in your course, you can use edX

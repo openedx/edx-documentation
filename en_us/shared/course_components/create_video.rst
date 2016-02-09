@@ -303,7 +303,7 @@ To add a video and its transcript to your course, follow these steps.
 
 3. In the **Component Display Name** field, enter an identifying name for this
    video. This name appears as a heading above the video and as a tooltip in
-   the learning sequence at the top of the **Courseware** page. It also
+   the learning sequence at the top of the **Course** page. It also
    identifies the video for you in Insights.
 
 #. In the **Default Video URL** field, enter the URL of the video. Example

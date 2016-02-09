@@ -16,8 +16,8 @@ problem.
  :alt: Image of a chemical equation response problem
 
 .. note::
-  You can make a calculator available to your learners on every courseware
-  page. For more information, see :ref:`Calculator`.
+  You can make a calculator available to your learners on every
+  unit page. For more information, see :ref:`Calculator`.
 
 ************************************
 Create the Chemical Equation Problem
