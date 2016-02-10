@@ -53,7 +53,7 @@
 
 .. _EdX Search: https://github.com/edx/edx-search/
 
-.. _GitHub Flow: https://github.com/blog/1557-github-flow-in-the-browser
+.. _Otto: https://github.com/edx/ecommerce
 
 .. _GitHub Flow: https://github.com/blog/1557-github-flow-in-the-browser
 
