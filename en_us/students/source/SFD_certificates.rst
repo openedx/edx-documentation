@@ -162,6 +162,9 @@ course name on your dashboard.
 When your certificate is ready, your dashboard shows your final grade as well
 as a link to your certificate. You can access either a web or PDF certificate.
 
+
+.. the following Web Certificates topic and its subtopics were copied and then pasted into the Open edX learner's SFD_certificates.rst for Dogwood. 10 Feb 16, A Hodges, no time to do this right.
+
 ==================
 Web Certificates
 ==================
@@ -188,7 +191,7 @@ certificate.
 
 Select the social icons at the top of each certificate.
 
-A dialog for the social site you selected opens, with the certificate URL
+A dialog box for the social site you selected opens, with the certificate URL
 entered. Complete the steps for the social site to post your certificate.
 
 .. _Print a Web Certificate:
@@ -199,8 +202,8 @@ Print a Web Certificate
 To print a web certificate, open the certificate and select **Print
 Certificate** in the certificate header.
 
-To print your certificate in the most professional looking format, note the
-following guidelines.
+To print your certificate in the most professional looking format, follow these
+guidelines.
 
 * Do not print the header or footer. Depending on your system, you might need
   to clear this option.
