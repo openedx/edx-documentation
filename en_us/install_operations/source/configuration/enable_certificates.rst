@@ -17,11 +17,12 @@ Overview
 Organizations and course teams can now generate certificates for learners who
 have completed courses. Learners can view, print, or share their certificates.
 
-For information about certificates, see the *Building and Running an Open edX
-Course* and *Open edX Learner's* guides.
+For information about certificates, see :ref:`opencoursestaff:Setting Up Course
+Certificates` in *Building and Running an Open edX Course* or
+:ref:`openlearners:Print a Web Certificate` in the *Open edX Learner's Guide*.
 
-To enable this feature on your instance of Open edX, you must enable the
-feature flag in both Studio and the Learning Management System and perform the
+To enable this feature on your instance of Open edX, you must enable a
+feature flag in both Studio and the Learning Management System and complete the
 configuration tasks described in this topic.
 
 .. Note::
@@ -80,7 +81,7 @@ Configure Certificates for Your Open edX Instance
    For each course mode, such as "honor" or "verified", define
    ``certificate_type``, ``certificate_title`` and
    ``document_body_class_append``. The mode name should match your course mode
-   name exactly.
+   name exactly. An example follows.
 
    .. code-block:: bash
 
@@ -139,7 +140,7 @@ Assets for HTML certificates exist in the following locations.
   certificates. The file ``valid.html`` is an example of a certificate file.
   Files with names that start with an underscore, such as
   ``_certificate_footer.html``, are partial files that can be referenced in the
-  main certificate .html files
+  main certificate .html files.
 
 * ``lms/static/certificates`` - subfolders of this folder contain assets used
   in creating certificates, such as images, fonts, and sass/css files.
