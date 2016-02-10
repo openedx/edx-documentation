@@ -232,19 +232,21 @@ The upgrade from Cypress to Dogwood includes these steps.
 
 #. Uninstalls South so that it won't interfere with the new Django migrations.
 
-#. Updates edx-platform to the dogwood-first-18 tag.  This is the first version
-   of the code that used Django 1.8.
+#. Updates edx-platform to the ``dogwood-first-18`` tag.  This is the first
+   version of the code that used Django 1.8.
 
 #. Applies all the initial Django migrations.  This gets your database ready to
    use the new Django 1.8 migration mechanism.
 
-#. Runs the forum migration again. This is to process any discussion topics
-   that may have been created during the running of the script.
-
-#. Updates edx-platform to the desired final version.
+#. Updates edx-platform to Dogwood.
 
 #. Runs Django database migrations.
 
+#. Runs two management commands to update records in the database:
+   ``generate_course_overview`` and ``post_cohort_membership_fix``.
+
+#. Runs the forum migration again. This is to process any discussion topics
+   that may have been created during the running of the script.
 
 Similar steps are followed to upgrade other repositories such as xqueue.
 
