@@ -107,6 +107,8 @@
 
 .. _Developing on Devstack: https://github.com/edx/edx-platform/wiki/Developing-on-the-edX-Developer-Stack
 
+.. _forum migration described on the Open edX wiki: https://openedx.atlassian.net/wiki/display/TNL/Migrating+the+Discussion+Forums+to+Support+Teams+Discussion+Filtering
+
 .. _Google Drive XBlock: https://github.com/edx-solutions/xblock-google-drive
 
 .. _init file: https://github.com/edx/edx-ora2/blob/a4ce7bb00190d7baff60fc90fb613229565ca7ef/openassessment/fileupload/backends/__init__.py
