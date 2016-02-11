@@ -5,7 +5,6 @@ Accessing Metrics for ORA Assignments
 ######################################
 
 After you release an open response assessment assignment, you can access
-<<<<<<< 82cbe34e009d53c3abc7d792a4594512287af304
 various metrics for the assignment. For example, you can view the number of
 learners in each step of the assignment or in possible states such as
 "Waiting" or "Completed" within the assignment. In addition to viewing metrics
