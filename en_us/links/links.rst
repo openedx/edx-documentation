@@ -397,3 +397,9 @@
 
 .. _Microsoft Internet Explorer: http://windows.microsoft.com/internet-explorer/download-ie
 
+.. Peer Instruction
+
+.. _Mazur Group: http://mazur.harvard.edu/research/detailspage.php?ed=1&rowid=8
+
+.. _Turn to Your Neighbor: https://blog.peerinstruction.net/
+

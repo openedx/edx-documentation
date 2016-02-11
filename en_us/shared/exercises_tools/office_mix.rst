@@ -130,8 +130,9 @@ Enable the Office Mix Tool
 Before you can add a mix to your course, you must enable this tool in Studio.
 
 To enable the Office Mix tool in Studio, you add the ``"officemix"`` key to the
-**Advanced Module List** on the **Advanced Settings** page. For more
-information, see :ref:`Enable Additional Exercises and Tools`.
+**Advanced Module List** on the **Advanced Settings** page. (Be sure to
+include the quotation marks around the key value.) For more information, see
+:ref:`Enable Additional Exercises and Tools`.
 
 ==============================
 Add a Mix in Studio
