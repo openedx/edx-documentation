@@ -82,10 +82,10 @@ Preferred Usage
       Dashboard." If necessary, explain the file type. For example: "A Word
       (.doc) file."
   * - Headings
-    - For sections that contain concepts and procedures, use a gerund to start
-      the title. For concepts, use a gerund to start the title. For
-      procedures, use an imperative verb to start the title. Do not use nouns
-      or noun phrases.
+    - Use a gerund to start the title of top level section headings. For topics
+      that introduce a concept, use a gerund to start the title. For topics
+      that describe a procedure, use an imperative verb to start the title. Do
+      not use nouns or noun phrases.
   * - Hyphenation
     - Minimize the use of hyphenation and present combinations as either two
       separate words or a single word. Use hyphens only when the meaning is
