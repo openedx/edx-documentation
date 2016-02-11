@@ -59,7 +59,8 @@ Calendars tool in Studio or OLX.
 
 To enable the Google Calendars tool in Studio, you add the ``"google-
 calendar"`` key to the **Advanced Module List** on the **Advanced Settings**
-page. For more information, see :ref:`Enable Additional Exercises and Tools`.
+page. (Be sure to include the quotation marks around the key value.) For more
+information, see :ref:`Enable Additional Exercises and Tools`.
 
 Alternatively, you can use OLX to enable the Google Calendars tool.
 

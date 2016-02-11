@@ -62,8 +62,9 @@ Before you can add a recommender component to your course, you must enable the
 Recommender tool in Studio.
 
 To enable the Recommender tool in Studio, you add the ``"recommender"`` key to
-the **Advanced Module List** on the **Advanced Settings** page. For more
-information, see :ref:`Enable Additional Exercises and Tools`.
+the **Advanced Module List** on the **Advanced Settings** page. (Be sure to
+include the quotation marks around the key value.) For more information, see
+:ref:`Enable Additional Exercises and Tools`.
 
 ********************************
 Add a Recommender

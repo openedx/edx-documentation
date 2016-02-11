@@ -17,6 +17,9 @@ learners in an online course.
   :local:
   :depth: 2
 
+For more information about the Peer Instruction learning system, consult the
+resources of the `Mazur Group`_ or the `Turn to Your Neighbor`_ blog.
+
 *********************
 Assignment Overview
 *********************
@@ -80,6 +83,17 @@ for the exercise.
 After your design is complete, you use Studio to add the assignment to your
 course.
 
+.. note:: You might consider including an HTML component before the peer
+ instruction component to describe the workflow that learners will experience
+ in this assessment type. You might also consider including a content-specific
+ discussion component after the peer instruction component to give learners an
+ opportunity to continue the conversation.
+
+ For more information about how learners experience peer instruction
+ assignments, see :ref:`learners:interactive_multiple_choice` in the *EdX
+ Learner's Guide* or :ref:`openlearners:interactive_multiple_choice` in the
+ *Open edX Learner's Guide*.
+
 .. _Enable the Peer Instruction Tool:
 
 ==================================
@@ -90,8 +104,9 @@ Before you can add a component to your course structure for a Peer Instruction
 assignment, you must enable the Peer Instruction tool for your course.
 
 To enable the Peer Instruction tool in Studio, you add the ``"ubcpi"`` key to
-the **Advanced Module List** on the **Advanced Settings** page. For more
-information, see :ref:`Enable Additional Exercises and Tools`.
+the **Advanced Module List** on the **Advanced Settings** page. (Be sure to
+include the quotation marks around the key value.) For more information, see
+:ref:`Enable Additional Exercises and Tools`.
 
 .. note:: This tool was developed and contributed to the edX platform by the
  University of British Columbia.
@@ -250,8 +265,8 @@ learner's initial answer and response, and final answer and response, follow.
 
 As soon as 10 learners complete the assignment, the peer instruction tool
 displays a pair of class breakdown histograms. These histograms show how
-frequently learners selected each of the options, before and after they review
-the responses submitted by other class participants.
+frequently learners selected each of the options, before and after they
+reviewed the responses submitted by other class participants.
 
    .. image:: ../../../shared/images/peer_instruction_histogram.png
      :alt: Class breakdown histograms showing an increase in correct answer

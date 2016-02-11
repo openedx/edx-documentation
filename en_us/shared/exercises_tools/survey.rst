@@ -48,8 +48,9 @@ Before you can add a survey to your course, you must enable the Survey tool in
 Studio or OLX.
 
 To enable the Survey tool in Studio, you add the ``"survey"`` key to the
-**Advanced Module List** on the **Advanced Settings** page. For more
-information, see :ref:`Enable Additional Exercises and Tools`.
+**Advanced Module List** on the **Advanced Settings** page. (Be sure to
+include the quotation marks around the key value.) For more information, see
+:ref:`Enable Additional Exercises and Tools`.
 
 Alternatively, you can use OLX to enable the poll tool.
 
