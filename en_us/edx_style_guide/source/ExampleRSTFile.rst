@@ -305,7 +305,7 @@ Notes and Warnings
 
 
 ****************************
-Cross-references
+Cross-References
 ****************************
 
 Cross-references use anchors that are placed above the heading for the target
@@ -320,7 +320,7 @@ Anchor text is never visible in output. It is always replaced either by the
 text of the anchored topic heading, or by the specified link text.
 
 =================================================
-Example of cross-reference using anchor only
+Example of Cross-Reference Using Anchor Only
 =================================================
 
 For cross-references that use the actual text of the target topic’s heading,
@@ -336,7 +336,7 @@ anchors that exist somewhere in the files that make up the guide. In output,
 the actual text of the associated headings is substituted.
 
 =======================================================
-Example of cross-reference using specified link text
+Example of Cross-Reference Using Specified Link Text
 =======================================================
 
 ::
@@ -350,16 +350,49 @@ is your preferred link text.
 
 
 ============================================
-Cross references to external web pages
+Cross-References to External Web Pages
 ============================================
 
-This example also includes specific link text before the URL.
-::
+To reference an external web page, you decide what text to use for the cross-
+reference, such as the title of the web page, and add that text using markup.
+Then, you add that same text to the links.rst file along with the actual URL.
+An example follows.
 
-  `Create a Problem <http://site.Create_Problem.html>`_
+#. In the paragraph where you want the cross-reference, create an anchor that
+   represents the text that you want to use for the cross-reference.
+
+   ::
+
+      The edX engineering wiki `Release Pages`_ provide access to detailed
+      information about every change made to the edx-platform GitHub
+      repository. If you are interested in additional information about every
+      change in a release, create a user account for the wiki and review the
+      dated release pages.
+
+#. If the file that contains the cross-reference does not already have one, add
+   an ``include`` directive that links to the ``edx-
+   documentation/en_us/links/links.rst`` file. These links are typically at the
+   end of the file.
+
+   ::
+
+      .. include:: ../../links/links.rst
+
+   .. note::
+
+      The path to the links.rst file depends on the location of the file where
+      you are creating the link. For example, the path might be
+      ``../../../links/links.rst`` or ``../links/links.rst``.
+
+#. In the ``edx-documentation/en_us/links/links.rst`` file, add an entry for
+   the anchor and URL.
+
+    ::
+
+      .. _Release Pages: https://openedx.atlassian.net/wiki/display/ENG/Release+Pages
 
 ============================================
-Cross references to edX101 demo course pages
+Cross-References to edX101 Course Pages
 ============================================
 
 ::
@@ -650,3 +683,4 @@ being displayed in different colors.
               </solution>
             </problem>
 
+.. include:: ../../links/links.rst
