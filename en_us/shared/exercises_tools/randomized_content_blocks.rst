@@ -107,8 +107,8 @@ component.
   - For **Library**, select the library from which you want to draw problems.
 
   - For **Problem Type**, from the drop down list select a specific type of
-    problem to be drawn from the library. Select **Any Type** if you do not want
-    to specify a particular type of problem.
+    problem to be drawn from the library. Select **Any Type** if you do not
+    want to specify a particular type of problem.
 
     .. image:: ../../../shared/images/ContentLibraries_RCBSelectProblemType.png
      :alt: Problem type dropdown list in randomized content block settings.
@@ -116,12 +116,12 @@ component.
   - For **Scored**, from the drop down list select **True** or **False** to
     indicate whether the assignment should be graded.
 
-.. note:: Grading is subject to the setting of this unit's subsection or
+  .. note:: Grading is subject to the setting of this unit's subsection or
    section. If the subsection or section is not graded, selecting **True** here
    has no impact. Selecting **False** means that this assignment is not graded
    even if the subsection or section is graded.
 
-7. Select **Save** when you have finished specifying the details of your
+#. Select **Save** when you have finished specifying the details of your
    randomized content block.
 
 To view the list of components in the source library that match your filter
@@ -192,7 +192,8 @@ component's settings have been changed from the default settings in the
 library, a **Clear** icon is shown next to the setting field.
 
  .. image:: ../../../shared/images/ContentLibraries_ResetComponentField.png
-    :alt: Clear button in the course component field reverts value to library value.
+    :alt: Clear button in the course component field reverts value to library
+     value.
 
 Select **Clear** to restore the library default setting for that field.
 
@@ -227,7 +228,8 @@ with the version in the library.
      :alt: Error message shown when the source library has changed, with the
       Update Now link circled.
 
-  To update your randomized content block components to the latest versions in the content library, select **Update now**.
+  To update your randomized content block components to the latest versions in
+  the content library, select **Update now**.
 
   The randomized content block is brought up to date with the latest contents
   of the library that it references.

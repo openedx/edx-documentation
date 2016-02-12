@@ -186,8 +186,7 @@ in Studio.
 
 To enable the LTI tool in Studio, add the ``"lti_consumer"`` module to the
 **Advanced Module List** on the **Advanced Settings** page. For more
-information, see
-:ref:`Enable Additional Exercises and Tools`.
+information, see :ref:`Enable Additional Exercises and Tools`.
 
 .. note::
   The ``lti_consumer`` module replaces a previous version of the LTI component.

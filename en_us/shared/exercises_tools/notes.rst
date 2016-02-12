@@ -7,14 +7,14 @@ Notes Tool
 .. note:: EdX offers provisional support for this tool. This tool is available
  on the Open edX platform. It is not available for courses on edx.org.
 
-The Notes tool allows learners to highlight and make notes about what
+The notes tool allows learners to highlight and make notes about what
 they read in the body of the course.
 
 .. image:: ../../../shared/images/SFD_SN_bodyexample.png
   :width: 500
   :alt: Image of a course page that includes highlighted text and a note.
 
-.. note:: The Notes tool is available for text, including text in
+.. note:: The notes tool is available for text, including text in
  HTML components. However, the tool is currently not available for discussions,
  exercises, video transcripts, or PDF documents.
 
@@ -28,7 +28,7 @@ of the notes in the course body.
 
 .. image:: ../../../shared/images/SFD_SN_NotesPage.png
   :width: 500
-  :alt: The Notes page listing all the notes a learner has made in the
+  :alt: The Notes page listing all of the notes a learner has taken for a
       course.
 
 For detailed information about the ways learners can use notes, see

@@ -44,7 +44,6 @@ specify a correct answer explicitly or use a Python script.
 
 .. note::
   You can make a calculator available to your learners on every unit
-
   page. For more information, see :ref:`Calculator`.
 
 **************************************************
@@ -59,15 +58,15 @@ more information, see :ref:`insights:Using edX Insights`.
 Creating a Numerical Input Problem
 ***********************************
 
-You can create numerical problems in the Simple Editor or in the Advanced
-Editor.
+You can create numerical problems in the simple editor or in the advanced
+editor.
 
 * If the text of your problem does not include any italics, bold formatting,
-  or special characters, you can create the problem in the Simple Editor.
+  or special characters, you can create the problem in the simple editor.
 * If the text of your problem contains special formatting or characters, or if
-  your problem contains a Python script, you use the Advanced Editor.
+  your problem contains a Python script, you use the advanced editor.
 
-For example, you must use the Advanced Editor to define the following problems.
+For example, you must use the advanced editor to define the following problems.
 
 .. image:: ../../../shared/images/NumericalInput_Complex.png
  :alt: A problem that requires a square root as the answer.
@@ -83,7 +82,7 @@ For more information about including a Python script in your problem, see
 Use the Simple Editor to Create a Numerical Input Problem
 ========================================================================
 
-To the :ref:`Simple Editor<Simple Editor>` to create a numerical input
+To the :ref:`simple editor<Simple Editor>` to create a numerical input
 problem, follow these steps.
 
 #. In the unit where you want to create the problem, under **Add New
@@ -98,7 +97,7 @@ problem, follow these steps.
 
      Studio adds the problem to the unit.
 
-#. Select **Edit**. The Simple Editor opens.
+#. Select **Edit**. The simple editor opens.
 #. Replace the sample problem text with your own text.
 #. Determine the text that describes the question you want learners to answer,
    and surround that text with two pairs of angle brackets (``>>question<<``).
@@ -146,14 +145,16 @@ component appears as follows.
    The decimal numeral system is base ten.
    [explanation]
 
+.. _Use the Advanced Editor to Create a Numerical Input Problem:
+
 ========================================================================
 Use the Advanced Editor to Create a Numerical Input Problem
 ========================================================================
 
-For a more complex problem, such as the one that follows, you use the Advanced
-Editor.
+For a more complex problem, such as the one that follows, you use the advanced
+editor.
 
-#. Follow the steps for creating the problem in the :ref:`Simple Editor<Use
+#. Follow the steps for creating the problem in the :ref:`simple editor<Use
    the Simple Editor to Create a Numerical Input Problem>`.
 #. Select **Advanced Editor**, and then edit the XML to add the tags and
    attributes you want. An example follows.
@@ -226,7 +227,7 @@ the numerical value.
 Configure Feedback in the Simple Editor
 =======================================
 
-In the :ref:`Simple Editor<Simple Editor>`, you configure answer feedback with
+In the :ref:`simple editor<Simple Editor>`, you configure answer feedback with
 the following syntax. When you create a new numerical input problem, select the
 template  **Numerical Input with Hints and Feedback**. This template has
 example feedback syntax that you can replace.
@@ -248,7 +249,7 @@ For example, the following problem has feedback for each possible answer.
 Configure Feedback in the Advanced Editor
 =========================================
 
-In the :ref:`Advanced Editor<Advanced Editor>`, you configure answer feedback
+In the :ref:`advanced editor<Advanced Editor>`, you configure answer feedback
 with the following syntax.
 
 .. code-block:: xml
@@ -299,7 +300,7 @@ can configure a custom label for the answer.
 Customize Feedback Labels in the Simple Editor
 ***********************************************
 
-In the :ref:`Simple Editor<Simple Editor>`, you configure a custom feedback
+In the :ref:`simple editor<Simple Editor>`, you configure a custom feedback
 label with the following syntax.
 
 ::
@@ -315,7 +316,7 @@ For example, the following feedback is configured to use a custom label.
 Customize Feedback Labels in the Advanced Editor
 *************************************************
 
-In the :ref:`Advanced Editor<Advanced Editor>`, you configure custom feedback
+In the :ref:`advanced editor<Advanced Editor>`, you configure custom feedback
 labels with the following syntax.
 
 .. code-block:: xml
@@ -350,10 +351,10 @@ or the advanced editor. For an overview of hints in problems, see
 Awarding Partial Credit in a Numerical Input Problem
 *****************************************************
 
-You can configure a numerical input problem to award partial credit to
-learners who submit an answer that is close or related to the correct answer.
-You must use the `Advanced Editor <Use the Advanced Editor to Edit a Numerical
-Input Problem>`_ to configure partial credit.
+You can configure a numerical input problem to award partial credit to learners
+who submit an answer that is close or related to the correct answer. You must
+use the :ref:`advanced editor<Use the Advanced Editor to Create a Numerical
+Input Problem>` to configure partial credit.
 
 .. only:: Partners
 
@@ -484,9 +485,9 @@ in a numerical input problem to help guide your students or resolve ambiguity.
  :alt: Three numerical input problems with text after the response field:
      "km", a percent sign, and a symbol for meters per second squared.
 
-To do this, you must use the :ref:`Advanced Editor<Advanced Editor>`.
+To do this, you must use the :ref:`advanced editor<Advanced Editor>`.
 
-After you open the problem in the Advanced Editor, locate the
+After you open the problem in the advanced editor, locate the
 ``formulaequationinput`` element. This element creates the response field for
 the problem. The ``formulaequationinput`` element is a child of the
 ``numericalresponse`` element.

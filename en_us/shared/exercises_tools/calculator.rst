@@ -4,7 +4,7 @@
 Calculator Tool
 ##################
 
-.. note:: EdX offers provisional support for this problem type.
+.. note:: EdX offers provisional support for this tool.
 
 .. contents::
   :local:

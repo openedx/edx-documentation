@@ -10,6 +10,10 @@ Some large images are difficult for learners to view in the courseware. The
 full screen image tool allows learners to enlarge the image, so they can see
 all the detail in context.
 
+.. contents::
+  :local:
+  :depth: 1
+
 ****************************************
 The Learner View of a Full Screen Image
 ****************************************
@@ -39,17 +43,18 @@ Create a Full Screen Image
 #. Upload your image file to the **Files & Uploads** page. For more
    information, see :ref:`Add Files to a Course`.
 
-#. Under **Add New Component**, select **html**, and then select **Full Screen
-   Image**.
+#. Under **Add New Component**, select **HTML**, and then select **Full Screen
+   Image Tool**.
 
 #. In the new component that appears, select **Edit**.
 
 #. In the component editor, replace the default title, remove the instructional
    paragraph, and add text as needed.
 
-#. Switch to the **HTML** tab.
+#. Select **HTML** from the toolbar to edit the HTML source code.
 
-#. Replace the following placeholders with your own content.
+#. Scroll down in the file, and then replace the following placeholders with
+   your own content.
 
    * Replace the value of the ``<a>`` element's ``href`` attribute with the
      path to your image. Do not change the value of the class attribute. For

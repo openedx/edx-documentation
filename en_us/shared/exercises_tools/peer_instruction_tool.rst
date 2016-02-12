@@ -10,7 +10,7 @@ Peer Instruction Tool
 
 The Peer Instruction learning system provides students with in class
 opportunities to discuss questions and arrive at a deeper understanding of
-concepts. The Peer Instruction tool emulates this classroom experience for the
+concepts. The peer instruction tool emulates this classroom experience for the
 learners in an online course.
 
 .. contents::
@@ -24,7 +24,7 @@ resources of the `Mazur Group`_ or the `Turn to Your Neighbor`_ blog.
 Assignment Overview
 *********************
 
-Assignments created with the Peer Instruction tool present learners with a
+Assignments created with the peer instruction tool present learners with a
 multiple choice question, and then guide the learners through these stages of
 the exercise.
 
@@ -47,7 +47,7 @@ initially and after reviewing peer responses.
 Designing an Online Peer Instruction Assignment
 ===============================================
 
-Before you use the Peer Instruction tool in Studio, you design the assignment.
+Before you use the peer instruction tool in Studio, you design the assignment.
 You prepare the assignment question and its answer choices in the same way that
 you would for classroom students. The question and the answer choices can
 include text, images, or both.
@@ -100,10 +100,10 @@ course.
 Enable the Peer Instruction Tool
 ==================================
 
-Before you can add a component to your course structure for a Peer Instruction
-assignment, you must enable the Peer Instruction tool for your course.
+Before you can add a component to your course structure for a peer instruction
+assignment, you must enable the peer instruction tool for your course.
 
-To enable the Peer Instruction tool in Studio, you add the ``"ubcpi"`` key to
+To enable the peer instruction tool in Studio, you add the ``"ubcpi"`` key to
 the **Advanced Module List** on the **Advanced Settings** page. (Be sure to
 include the quotation marks around the key value.) For more information, see
 :ref:`Enable Additional Exercises and Tools`.
@@ -128,14 +128,14 @@ Upload Images (Optional)
 If the question or an answer choice in an assignment includes an image, you
 :ref:`upload the image file<Upload a File>` on the **Files & Uploads** page.
 The **Studio URL** for the image can then be added to the question or
-answer choice in the Peer Instruction component.
+answer choice in the peer instruction component.
 
 ============================================
 Add a Peer Instruction Component
 ============================================
 
-After you :ref:`enable the Peer Instruction tool <Enable the Peer Instruction
-Tool>` for your course, you can add the component for a Peer Instruction
+After you :ref:`enable the peer instruction tool <Enable the Peer Instruction
+Tool>` for your course, you can add the component for a peer instruction
 assignment.
 
 #. On the **Course Outline** page, locate the subsection where you want to add
@@ -146,7 +146,7 @@ assignment.
    to supply a sample question, answers, and so on.
 
    .. image:: ../../../shared/images/peer_instruction_studio.png
-     :alt: A Peer Instruction assignment in Studio that uses the template.
+     :alt: A peer instruction assignment in Studio that uses the template.
      :width: 600
 
 #. Select **Edit**.

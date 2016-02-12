@@ -6,12 +6,22 @@ Molecule Editor Tool
 
 .. note:: EdX does not support this tool.
 
-Students can use the molecule editor to learn how to create molecules. The molecule editor allows students to draw molecules that follow the rules for covalent bond formation and formal charge, even if the molecules are chemically impossible, are unstable, or do not exist in living systems. The molecule editor warns students if they try to submit a structure that is chemically impossible.
+Students can use the molecule editor to learn how to create molecules. The
+molecule editor allows students to draw molecules that follow the rules for
+covalent bond formation and formal charge, even if the molecules are chemically
+impossible, are unstable, or do not exist in living systems. The molecule
+editor warns students if they try to submit a structure that is chemically
+impossible.
 
-The molecule editor incorporates two tools: the JSME molecule editor created by Peter Erl and Bruno Bienfait, and JSmol, a JavaScript-based molecular viewer from Jmol. (You don't need to download either of these tools--Studio uses them automatically.) For more information about the JSME molecule editor, see `JSME Molecule Editor <http://peter-ertl.com/jsme/index.html>`_. For more information about JSmol, see `JSmol <http://sourceforge.net/projects/jsmol/>`_.
+The molecule editor incorporates two tools: the JSME molecule editor created by
+Peter Erl and Bruno Bienfait, and JSmol, a JavaScript-based molecular viewer
+from Jmol. (You don't need to download either of these tools--Studio uses them
+automatically.) For more information about the JSME molecule editor, see `JSME
+Molecule Editor <http://peter-ertl.com/jsme/index.html>`_. For more information
+about JSmol, see `JSmol <http://sourceforge.net/projects/jsmol/>`_.
 
 .. image:: ../../../shared/images/Molecule_Editor.png
-  :alt: Image of the molecule editor
+  :alt: Image of the molecule editor.
 
 .. _Create the Molecule Editor:
 
@@ -19,31 +29,42 @@ The molecule editor incorporates two tools: the JSME molecule editor created by 
 Create the Molecule Editor
 ******************************
 
-To create a molecule editor, you need the following files:
+To create a molecule editor, you need the following files.
 
 * MoleculeAnswer.png
 * MoleculeEditor_HTML.png
 * dopamine.mol
 
-To download all of these files in a .zip archive, go to http://files.edx.org/MoleculeEditorFiles.zip.
+To download all of these files in a .zip archive, go to
+http://files.edx.org/MoleculeEditorFiles.zip.
 
-.. note:: The molecule that appears when the tool starts is a dopamine molecule. To use a different molecule, download the .mol file for that molecule from the `list of molecules <http://www.biotopics.co.uk/jsmol/molecules/>`_ on the `BioTopics <http://www.biotopics.co.uk/>`_ website. Then, upload the .mol file to the **Files & Uploads** page for your course in Studio, and change "dopamine.mol" in the example code to the name of your .mol file.
+.. note:: The molecule that appears when the tool starts is a dopamine
+ molecule. To use a different molecule, download the .mol file for that
+ molecule from the `list of molecules
+ <http://www.biotopics.co.uk/jsmol/molecules/>`_ on the `BioTopics
+ <http://www.biotopics.co.uk/>`_ website. Then, upload the .mol file to the
+ **Files & Uploads** page for your course in Studio, and change "dopamine.mol"
+ in the example code to the name of your .mol file.
 
-To create the molecule editor that appears in the image above, you need an HTML component followed by a Problem component.
+To create the molecule editor that appears in the image above, you need an HTML
+component followed by a problem component.
 
-#. Upload all of the files listed above to the **Files & Uploads** page in your course.
+#. Upload all of the files listed above to the **Files & Uploads** page in your
+   course.
 #. Create the HTML component.
 
-  #. In the unit where you want to create the problem, click **HTML** under **Add New Component**, and then click **HTML**.
+  #. In the unit where you want to create the problem, click **HTML** under
+     **Add New Component**, and then click **HTML**.
   #. In the component that appears, click **Edit**.
   #. In the component editor, paste the HTML component code from below.
   #. Make any changes that you want, and then click **Save**.
 
-3. Create the Problem component.
+#. Create the problem component.
 
-  #. Under the HTML component, click **Problem** under **Add New Component**, and then click **Blank Advanced Problem**.
+  #. Under the HTML component, click **Problem** under **Add New Component**,
+     and then click **Blank Advanced Problem**.
   #. In the component that appears, click **Edit**.
-  #. In the component editor, paste the Problem component code from below.
+  #. In the component editor, paste the problem component code from below.
   #. Click **Save**.
 
 .. _EMC Problem Code:
@@ -52,7 +73,7 @@ To create the molecule editor that appears in the image above, you need an HTML 
 Molecule Editor Code
 ========================
 
-To create the molecule editor, you need an HTML component and a Problem component.
+To create the molecule editor, you need an HTML component and a problem component.
 
 HTML Component Code
 ***************************

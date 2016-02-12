@@ -11,7 +11,7 @@ Overview
 
 
 You can include custom JavaScript applications (also called custom JavaScript
-problems or JS Input problems) in a course. You add the application directly
+problems or JS input problems) in a course. You add the application directly
 into edX Studio.
 
 When you create a JavaScript application, Studio embeds the problem in an inline
@@ -31,9 +31,9 @@ information about the template application built in to edX Studio.
 Course teams should see the following sections of the `Building and Running an
 edX Course <http://edx.readthedocs.org/projects/ca/en/latest/>`_ guide.
 
-* `Custom JavaScript Display and Grading <http://edx.readthedocs.org/projects/ca/en/latest/problems_tools/advanced_problems.html#custom-javascript-display-and-grading>`_ 
+* `Custom JavaScript Display and Grading <http://edx.readthedocs.org/projects/ca/en/latest/problems_tools/advanced_problems.html#custom-javascript-display-and-grading>`_
 
-* `Establishing a Grading Policy <http://edx.readthedocs.org/projects/ca/en/latest/building_course/establish_grading_policy.html>`_ 
+* `Establishing a Grading Policy <http://edx.readthedocs.org/projects/ca/en/latest/building_course/establish_grading_policy.html>`_
 
 The rest of this section provides more information for developers who are
 creating JavaScript applications for courses on the edX platform.
@@ -77,7 +77,7 @@ optionally to provide feedback as a formative assessment.
 
 #. In edX Studio, upload an HTML file that contains the JavaScript you want to
    show students.
-#. Copy the **Embed URL** of the file. 
+#. Copy the **Embed URL** of the file.
 #. `Create a Custom JavaScript Display and Grading Problem <http://edx.readthedocs.org/projects/ca/en/latest/problems_tools/advanced_problems.html#custom-javascript-display-and-grading>`_. The template
    for the problem contains the definition for a sample JavaScript application
    that requires and grades student interaction.
@@ -208,7 +208,7 @@ function and determines if the student's submission is correct or not.
 
 In the Python code, you must:
 
-* Enclose all code in a ``script`` element of type ``loncapa/python``. 
+* Enclose all code in a ``script`` element of type ``loncapa/python``.
 
 * Import ``json``
 
@@ -235,7 +235,7 @@ The structure of the Python code in the problem is:
                 '''
         </script>
         <customresponse cfn="vglcfn">
-        . . . . 
+        . . . .
     </problem>
 
 
@@ -258,13 +258,13 @@ JavaScript application has the following structure:
                 '''
         </script>
         <customresponse cfn="vglcfn">
-            <jsinput 
-                gradefn="JSObject.getGrade" 
-                get_statefn="JSObject.getState" 
-                set_statefn="JSObject.setState" 
-                width="100%" 
-                height="360" 
-                html_file="/static/file-name.html" 
+            <jsinput
+                gradefn="JSObject.getGrade"
+                get_statefn="JSObject.getState"
+                set_statefn="JSObject.setState"
+                width="100%"
+                height="360"
+                html_file="/static/file-name.html"
                 sop="false"/>
         </customresponse>
     </problem>
@@ -299,16 +299,16 @@ The following table describes the attributes of the ``jsinput`` element.
      - A JSON string representing the initial state, if any, of the objects.
      - '{"selectedObjects":{"cube":true,"cylinder":false}}'
    * - width
-     - The width of the IFrame in which your JavaScript application will be
+     - The width of the iframe in which your JavaScript application will be
        displayed, in pixels.
      - 400
    * - height
-     - The height of the IFrame in which your JavaScript application will be
+     - The height of the iframe in which your JavaScript application will be
        displayed, in pixels.
      - 400
    * - html_file
      - The name of the HTML file containing your JavaScript application that
-       will be loaded in the IFrame.
+       will be loaded in the iframe.
      - /static/webGLDemo.html
    * - sop
      - The same-origin policy (SOP), meaning that all elements have the same

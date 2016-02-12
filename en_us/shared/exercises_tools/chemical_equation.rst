@@ -9,24 +9,28 @@ Chemical Equation Problem
 The chemical equation problem type allows the learner to enter text that
 represents a chemical equation into a text box. The system converts that text
 into a chemical equation below the text box. The grader evaluates the
-student's response by using a Python script that you create and embed in the
+learner's response by using a Python script that you create and embed in the
 problem.
 
 .. image:: ../../../shared/images/ChemicalEquationExample.png
- :alt: Image of a chemical equation response problem
+ :alt: Image of a chemical equation response problem.
+
+.. contents::
+  :local:
+  :depth: 1
 
 .. note::
   You can make a calculator available to your learners on every
   unit page. For more information, see :ref:`Calculator`.
 
-************************************
-Create the Chemical Equation Problem
-************************************
+**********************************************
+Create a Chemical Equation Problem
+**********************************************
 
 Chemical equation problems use MathJax to create formulas. For more
 information about using MathJax in Studio, see :ref:`MathJax in Studio`.
 
-To create the above chemical equation problem:
+To create the above chemical equation problem, follow these steps.
 
 #. In the unit where you want to create the problem, select **Problem** under
    **Add New Component**, and then select the **Advanced** tab.
@@ -142,7 +146,7 @@ tags must surround the ``<chemicalequation>`` tags.
 **Tag:** ``<chemicalequationinput>``
 
 Indicates that the answer to this problem is a chemical equation and creates a
-response field where the student enters an answer.
+response field where the learner enters an answer.
 
   Attributes
 

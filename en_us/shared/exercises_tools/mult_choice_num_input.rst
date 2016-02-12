@@ -27,7 +27,7 @@ but also provide more specific information, if necessary.
 Create a Multiple Choice and Numerical Input Problem
 ********************************************************
 
-To create a multiple choice and numerical input problem:
+To create a multiple choice and numerical input problem, follow these steps.
 
 #. In the unit where you want to create the problem, click **Problem** under
    **Add New Component**, and then click the **Advanced** tab.
