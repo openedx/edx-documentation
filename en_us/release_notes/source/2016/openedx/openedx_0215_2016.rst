@@ -18,5 +18,3 @@
   displaying a list of status messages has been corrected.
   ``ConfigurationModelAdmin.get_readonly_fields`` now returns
   ``coursemessage_set`` as a field name. (TNL-4048)
-
-.. include:: ../../../../links/links.rst

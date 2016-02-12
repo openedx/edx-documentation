@@ -1,12 +1,12 @@
 .. _RecommenderXBlock:
 
 ##################
-Recommender
+Recommender Tool
 ##################
 
 .. note:: EdX offers full support for this tool.
 
-The Recommender provides learners with a list of online resources related to
+The recommender provides learners with a list of online resources related to
 the course content. These resources are jointly managed by course team members
 and the learners.
 
@@ -18,16 +18,16 @@ and the learners.
 Overview
 ***********
 
-The most common use of the Recommender is for remediation of errors and
+The most common use of the recommender is for remediation of errors and
 misconceptions, followed by providing additional, more advanced resources.
 
-For example, if a learner is working through a physics problem, the Recommender
+For example, if a learner is working through a physics problem, the recommender
 could be used to show links to concepts used in the problem on Wikipedia, PhET,
-and OpenStax, as well as in the course itself. The Recommender can help fill
+and OpenStax, as well as in the course itself. The recommender can help fill
 complex knowledge gaps and help move learners in the right direction.
 
 Learners and course team members can complete the following tasks with the
-Recommender.
+recommender.
 
 * Add new resources.
 * Edit existing resources and work jointly to improve the quality of resources
@@ -37,11 +37,11 @@ Recommender.
 
 Course team members can endorse useful resources or remove irrelevant entries.
 
-If you use the Recommender, you should inform learners through course content
+If you use the recommender, you should inform learners through course content
 or :ref:`course updates <Adding Course Updates and Handouts>` about the tool.
 
-An example of a Recommender in a course follows. The upper part of the figure
-illustrates a question in a problem set where the Recommender is attached. The
+An example of a recommender in a course follows. The upper part of the figure
+illustrates a question in a problem set where the recommender is attached. The
 middle of the figure shows a list of resources and several gadgets for users to
 work on the resources. The bottom portion shows additional information about a
 given resource on mouse-over event.
@@ -59,9 +59,9 @@ Enable the Recommender Tool
 **************************************************
 
 Before you can add a recommender component to your course, you must enable the
-Recommender tool in Studio.
+recommender tool in Studio.
 
-To enable the Recommender tool in Studio, you add the ``"recommender"`` key to
+To enable the recommender tool in Studio, you add the ``"recommender"`` key to
 the **Advanced Module List** on the **Advanced Settings** page. (Be sure to
 include the quotation marks around the key value.) For more information, see
 :ref:`Enable Additional Exercises and Tools`.
@@ -70,10 +70,10 @@ include the quotation marks around the key value.) For more information, see
 Add a Recommender
 ********************************
 
-To add a Recommender to a course, follow these steps.
+To add a recommender to a course, follow these steps.
 
 #. Go to the unit in the course outline where you want to add the
-   RecommenderXBlock.
+   recommender.
 
 #. Under **Add New Component**, select **Advanced**.
 
@@ -84,7 +84,7 @@ To add a Recommender to a course, follow these steps.
 
   * Whether to take users on an introduction tour when they see the tool the
     first time. If selected, the first time (and only the first time) a user
-    sees the RecommenderXBlock, there will be a short guided tutorial.
+    sees the recommender, there will be a short guided tutorial.
 
   * Whether to disable the user interface functions which are under
     development. Because these are untested and under development, please leave

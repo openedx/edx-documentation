@@ -12,7 +12,7 @@ region by including coordinates in the body of the problem.
 
 .. image:: ../../../shared/images/ImageMappedInput-Simple.png
  :width: 500
- :alt: Problem that asks learners to click inside Egypt on a map of Africa
+ :alt: Problem that asks learners to click inside Egypt on a map of Africa.
 
 You can specify the following types of regions.
 
@@ -48,7 +48,7 @@ To create an image mapped input problem, you need the following elements.
 
    * The height and width of the image in pixels.
    * Coordinate pairs that define the region or regions where you want
-     students to click.
+     learners to click.
 
 To collect the information you need about your image, use an image editing
 tool such as Microsoft Paint.
@@ -72,9 +72,9 @@ tool such as Microsoft Paint.
 
 .. _Create an IMI Problem in Studio:
 
-=================================
-Create the Problem in Studio
-=================================
+================================================
+Create an Image Mapped Input Problem in Studio
+================================================
 
 #. In Studio, upload your image to the **Files & Uploads** page, and make a
    note of the file path for the image. For more information, see :ref:`Add
@@ -83,7 +83,8 @@ Create the Problem in Studio
    under **Add New Component**, and then click the **Advanced** tab.
 #. Click **Image Mapped Input**.
 #. In the component that appears, click **Edit**.
-#. In the component editor, replace the example problem text with your own text.
+#. In the component editor, replace the example problem text with your own
+   text.
 #. In the ``<imageinput>`` element, follow these steps.
 
    #. Replace the example file path in the ``src`` attribute with the file
@@ -159,10 +160,10 @@ You can specify more than one rectangular region in an image.
 
 .. image:: ../../../shared/images/ImgMapInput_Mult.png
  :width: 350
- :alt: Problem that asks students to click inside one of three rectangles
+ :alt: Problem that asks learners to click inside one of three rectangles
 
-To specify multiple rectangular regions, edit the ``rectangle`` attribute in the
-``<imageinput>`` element.
+To specify multiple rectangular regions, edit the ``rectangle`` attribute in
+the ``<imageinput>`` element.
 
 * Specify the coordinate pair for the upper-left and lower-right corners of
   each rectangle, separating the x and y values with a comma.
@@ -202,7 +203,7 @@ You can specify one non-rectangular region.
 
 .. image:: ../../../shared/images/ImgMapInput_Irreg.png
   :width: 500
-  :alt: Problem that asks learners to click inside a pentagon
+  :alt: Problem that asks learners to click inside a pentagon.
 
 To specify an irregular region, edit the ``rectangle`` attribute in the
 ``<imageinput>`` element.
@@ -267,8 +268,10 @@ Template
 Tags
 =====
 
-* ``<imageresponse>``: Indicates that the problem is an image mapped input problem.
-* ``<imageinput>``: Specifies the image file and the region in the file that the student must click.
+* ``<imageresponse>``: Indicates that the problem is an image mapped input
+  problem.
+* ``<imageinput>``: Specifies the image file and the region in the file that
+  the learner must click.
 
 **Tag:** ``<imageresponse>``
 
@@ -284,7 +287,7 @@ Indicates that the problem is an image mapped input problem.
 
 **Tag:** ``<imageinput>``
 
-Specifies the image file and the region in the file where students must click.
+Specifies the image file and the region in the file where learners must click.
 
   Attributes
 
@@ -301,7 +304,7 @@ Specifies the image file and the region in the file where students must click.
         - The width of the image, in pixels
       * - ``rectangle`` (required) (or, for irregular regions, ``region``)
         - An attribute with two or more coordinate pairs that define the region
-          where students should click
+          where learners should click
       * - ``alt`` (required)
         - A description of the image, used for accessibility
 

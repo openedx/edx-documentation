@@ -8,7 +8,7 @@ When you use LTI to reuse edX course content, learners who are already familiar
 with an external learning management system or other consumer application
 (external LMS) see content from edX that is seamlessly integrated into a
 familiar context. Only the content that you specify from edX appears in the
-external LMS, typically within an IFrame on a page.
+external LMS, typically within an iframe on a page.
 
 For example, you can set up a course on an external LMS, such as Canvas, to
 include a link to a problem component that is part of an edX course. The
