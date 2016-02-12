@@ -19,6 +19,9 @@ from within edX Platform applications. Searching is accomplished by creating an
 index of documents, and then searching within that index for matching
 information.
 
+When you install the Open edX developer stack, edX search is enabled by
+default. You must enable this feature to use it with Open edX full stack.
+
 .. Note::
   Before proceeding, review :ref:`Guidelines for Updating the Open edX
   Platform`.
@@ -138,7 +141,7 @@ Which Data Gets Indexed
 
 Which data gets indexed is determined by the module ``index_dictionary()``
 function implementation. Modules supporting this method are ``Sequence``,
-``Vertical``, ``Video`` and ``HTML Block``. You can add support to any module
+``Vertical``, ``Video``, and ``HTML Block``. You can add support to any module
 type.
 
 Course metadata, including the name, description, and start and end dates are
@@ -154,20 +157,20 @@ The following flags are supported in the CMS and LMS applications.
 CMS
 ===
 
-* ``ENABLE_COURSEWARE_INDEX``: Enables/disables course content and course
-  info indexing.
+* ``ENABLE_COURSEWARE_INDEX``: Enables and disables courseware content and
+  course info indexing.
 
-* ``ENABLE_LIBRARY_INDEX``: Enables/disables library content indexing.
+* ``ENABLE_LIBRARY_INDEX``: Enables and disables library content indexing.
 
-* ``SEARCH_ENGINE``: Sets used search engine. There are 2 predefined values,
-  but more can be added:
+* ``SEARCH_ENGINE``: Sets the search engine to use. There are two predefined
+  values.
 
   * ``"search.elastic.ElasticSearchEngine"``
   * ``"search.tests.mock_search_engine.MockSearchEngine"``
 
 * ``ELASTIC_FIELD_MAPPINGS``: Sets any additional field mappings that elastic
   search should be aware of. For example, the following code includes the
-  course start date:
+  course start date.
 
   .. code-block:: bash
 
@@ -181,32 +184,32 @@ CMS
 LMS
 ===
 
-* ``ENABLE_COURSEWARE_SEARCH``: Enables/disables Course Search feature (in
-  course searching)
+* ``ENABLE_COURSEWARE_SEARCH``: Enables and disables Courseware Search feature
+  (in course searching).
 
-* ``ENABLE_DASHBOARD_SEARCH``: Enables/disables Dashboard Search feature (in
-  enrolled courses searching)
+* ``ENABLE_DASHBOARD_SEARCH``: Enables and disables Dashboard Search feature
+  (in enrolled courses searching).
 
-* ``ENABLE_COURSE_DISCOVERY``: Enables/disables Course Discovery feature (over
-  courses searching and facet filtering)
+* ``ENABLE_COURSE_DISCOVERY``: Enables and disables Course Discovery feature
+  (over courses searching and facet filtering).
 
-* ``COURSE_DISCOVERY_FILTERS``: If provided, overrides the list of facets
-  that are used in Course Discovery feature to filter the results.
-  By default, all facets will be displayed. List of available facets includes:
+* ``COURSE_DISCOVERY_FILTERS``: If provided, overrides the list of facets that
+  are used in the Course Discovery feature to filter the results. By default,
+  all facets will be displayed. The list of available facets includes:
 
   * Course organization: ``"org"``
   * Course type: ``"modes"``
   * Course language: ``"language"``
 
-* ``SEARCH_ENGINE``: Sets used search engine. There are 2 predefined values,
-  but more can be added:
+* ``SEARCH_ENGINE``: Sets the search engine to use. The following values are
+  predefined.
 
   * ``"search.elastic.ElasticSearchEngine"``
   * ``"search.tests.mock_search_engine.MockSearchEngine"``
 
-* ``SEARCH_INITIALIZER``: Used to set custom
-  SearchInitializer.SearchInitializer provides an extension to achieve
-  masquerade and other presearch environmental settings.
+* ``SEARCH_INITIALIZER``: Used to set custom SearchInitializer.
+  SearchInitializer provides an extension to achieve masquerade and other
+  presearch environmental settings.
 
   * default: ``SearchInitializer``
   * LMS implementation:
