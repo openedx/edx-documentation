@@ -73,8 +73,8 @@ must enable the Completion tool in Studio.
 
 To enable the Completion tool in Studio, add the ``"done"`` key to the
 **Advanced Module List** on the **Advanced Settings** page, then select **Save
-Changes**. For more information, see :ref:`Enable Additional Exercises and
-Tools`.
+Changes**. (Be sure to include the quotation marks around the key value.) For
+more information, see :ref:`Enable Additional Exercises and Tools`.
 
 *************************************
 Add the Completion Tool to a Course
@@ -83,8 +83,8 @@ Add the Completion Tool to a Course
 After you have enabled the Completion tool in Studio, to add the Completion
 toggle control to a unit in a course, follow these steps.
 
-#. In the course outline in Studio, locate the unit to which you want to add the
-   Completion toggle control.
+#. In the course outline in Studio, locate the unit to which you want to add
+   the Completion toggle control.
 #. Under **Add New Component**, select **Advanced**.
 #. Select **Completion**.
    The Completion toggle control is added to the unit.

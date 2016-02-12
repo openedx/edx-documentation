@@ -109,9 +109,12 @@ team.
 Step 5. Compare Answers
 ==========================
 
-Use the graphs to compare the percentage of learners who selected each answer,
-initially and in the final response. Compare your own choices, and the correct
-one, to your peers'.
+Use the graphs to compare the percentage of your fellow learners who selected
+each answer. The first graph shows the percentage of learners who selected each
+answer initially, and the second graph shows the percentage of learners who
+selected each answer after they had the opportunity to review the explantions
+that other learners provided. Compare your own choices, and the correct one, to
+your peers'.
 
 This step might be just as thought provoking as the other steps.
 

@@ -54,8 +54,9 @@ Before you can add an Oppia exploration to your course, you must enable this
 tool in Studio.
 
 To enable the Oppia exploration tool in Studio, you add the ``"oppia"`` key to
-the **Advanced Module List** on the **Advanced Settings** page. For more
-information, see :ref:`Enable Additional Exercises and Tools`.
+the **Advanced Module List** on the **Advanced Settings** page. (Be sure to
+include the quotation marks around the key value.) For more information, see
+:ref:`Enable Additional Exercises and Tools`.
 
 ***********************************
 Add an Oppia Exploration in Studio

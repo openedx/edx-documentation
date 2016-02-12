@@ -27,8 +27,10 @@ Before you can add annotation problems to your course, you must enable
 annotation problems in Studio.
 
 To enable annotation problems in Studio, you add the ``"annotatable"`` key to
-the **Advanced Module List** on the **Advanced Settings** page. For more
-information, see :ref:`Enable Additional Exercises and Tools`.
+the **Advanced Module List** on the **Advanced Settings** page. (Be sure to
+include the quotation marks around the key value.) For more information, see
+:ref:`Enable Additional Exercises and Tools`.
+
 
 ****************************
 Create an Annotation Problem
