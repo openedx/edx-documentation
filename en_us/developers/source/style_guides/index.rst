@@ -1,8 +1,8 @@
 .. _edX Style Guidelines:
 
-###########################
-edX Style Guidelines
-###########################
+#####################################
+Programming Language Style Guidelines
+#####################################
 
 .. toctree::
     :maxdepth: 2
