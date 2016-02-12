@@ -18,7 +18,7 @@
 .. _EdX XBlock Tutorial: http://edx.readthedocs.org/projects/xblock-tutorial/en/latest/
 
 .. _EdX XBlock API Guide: http://edx.readthedocs.org/projects/xblock/en/latest/
-  
+
 .. _EdX Open Learning XML Guide: http://edx.readthedocs.org/projects/edx-open-learning-xml/en/latest/
 
 .. _Open edX Platform APIs: http://edx.readthedocs.org/projects/edx-platform-api/en/latest/
@@ -38,6 +38,14 @@
 .. _User API Version 1.0: http://edx.readthedocs.org/projects/edx-platform-api/en/latest/user/index.html
 
 .. _Profile Images API Version 1.0: http://edx.readthedocs.org/projects/edx-platform-api/en/latest/profile_images/index.html
+
+.. Dogwood doc links:
+
+.. _Installing, Configuring, and Running the Open edX Platform Dogwood Release: http://edx.readthedocs.org/projects/open-edx-icr/en/dogwood/
+
+.. _Building and Running an Open edX Course for Dogwood: http://edx.readthedocs.org/projects/open-edx-ca/en/dogwood/
+
+.. _Open edX Learner's Guide for Dogwood: http://edx.readthedocs.org/projects/open-edx-learner-guide/en/dogwood/
 
 .. Cypress Doc Links
 
