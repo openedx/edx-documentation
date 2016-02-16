@@ -14,10 +14,10 @@ This topic describes how to beta test your course.
 Overview
 ****************************
 
-When you are designing a course in Studio, you can select **View Live** to
-test your work work, find gaps and errors, and mimic the learner
-experience. To gather information about the overall experience of taking a
-course, you can also conduct a beta test of the course.
+When you are designing a course in Studio, you can select **View Live** to test
+your work, find gaps and errors, and mimic the learner experience. To
+gather information about the overall experience of taking a course, you can
+also conduct a beta test of the course.
 
 .. _Beta_Process:
 
@@ -76,7 +76,7 @@ testers do not receive certificates when they complete a course.
  course, she must create a separate user account with a different username and
  email address. She can then use that separate, non-privileged user account to
  enroll in the course and repeat the work, completing assignments and exams
- when they are available to all students.
+ when they are available to all learners.
 
 ==================================
 Qualities of Good Beta Testers
@@ -152,14 +152,23 @@ How Beta Testers See Course Content
 
 To beta test a course, you:
 
-* Define a number of days before section and subsection release days for
-  testing to begin.
+* Define a number of days before content releases for testing to begin.
+
+    * For instructor-paced courses, this number applies to the release date for
+      each section and subsection. Beta testers can only access course content
+      the number of days you specify before each section or subsection is
+      released.
+
+    * For self-paced courses, this number applies to the course start date.
+      Because sections and subsections for self-paced courses do not have
+      individual release dates, beta testers can access all course content when
+      the beta test begins.
 
 * Identify beta testers.
 
-Designated beta testers see course content before students can. The matrix
+Designated beta testers see course content before learners can. The matrix
 that follows shows the course content that beta testers can access earlier
-than other students.
+than other learners in an example instructor-paced course.
 
 .. list-table::
    :widths: 60 20 20
@@ -201,14 +210,14 @@ Define When the Beta Test Starts
 ================================
 
 To define the start of the beta test, you use Studio to specify a number of
-days before the release day that is defined for each section and subsection in
-your course.
+days before the course start date for self-paced courses or before the section
+and subsection release dates for instructor-paced courses. For more
+information, see :ref:`How_Testers_See_Course`.
 
-#. In Studio, from the **Settings** menu select **Advanced Settings**.
+#. In Studio, from the **Settings** menu, select **Advanced Settings**.
 
 #. In the field for the **Days Early for Beta Users** policy key, enter the
-   number of days before each section and subsection release day for beta
-   testers to have access.
+   number of days before content releases for beta testers to have access.
 
 #. Select **Save Changes**.
 
@@ -218,8 +227,8 @@ Example
 
 .. Is this example helpful? how can we assess whether it is frightening/confusing to course team, or helpful?
 
-Beta tester access to course content for a course with **Days Early for Beta
-Users** = 20 and 2 sections:
+Beta tester access to course content for an instructor-paced course with **Days
+Early for Beta Users** = 20 and 2 sections:
 
 
 .. list-table::
