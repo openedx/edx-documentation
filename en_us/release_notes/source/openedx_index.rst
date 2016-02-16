@@ -4,11 +4,17 @@
 Open edX
 ####################################
 
-The following information describes what is new in Open edX.
+The following information summarizes what is new in Open edX.
 
 .. contents::
   :local:
   :depth: 1
+
+*************************
+Week of 15 February 2016
+*************************
+
+.. include:: 2016/openedx/openedx_0215_2016.rst
 
 ***********************
 Week of 11 January 2016

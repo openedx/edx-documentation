@@ -4,11 +4,17 @@
 EdX Learning Management System
 ####################################
 
-The following information describes what is new in the edX LMS.
+The following information summarizes what is new in the edX LMS.
 
 .. contents::
   :local:
   :depth: 2
+
+*************************
+Week of 15 February 2016
+*************************
+
+.. include:: 2016/lms/lms_0215_2016.rst
 
 **************************
 Week of 8 February 2016

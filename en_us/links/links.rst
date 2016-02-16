@@ -342,6 +342,8 @@
 
 .. _Open edX wiki page for Dogwood: https://openedx.atlassian.net/wiki/display/OPEN/Dogwood
 
+.. _Dogwood blog post: https://open.edx.org/blog/newest-open-edx-release-dogwood-now-available
+
 .. _Open edX Conference: http://con.openedx.org/
 
 .. _Registration: http://www.eventbrite.com/e/open-edx-con-2015-tickets-17211056734?aff=relnotes
