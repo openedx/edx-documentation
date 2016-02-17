@@ -13,16 +13,17 @@ configuration options.
    updating_platform
    customize_registration_page
    config_allowed_regis_emails
-   enable_prerequisites
-   enable_entrance_exams
-   enable_licensing
    edx_search
-   enable_certificates
    enable_badging
+   enable_certificates
    enable_ccx
+   enable_entrance_exams
+   ora2/index
+   enable_prerequisites
+   enable_licensing
+   lti/index
    enable_socialsharing_icons
    tpa/index
-   lti/index
+   enable_timed_exams
    youtube_api
-   ora2/index
    install_xblock
