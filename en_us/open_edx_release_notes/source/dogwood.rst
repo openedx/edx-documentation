@@ -173,6 +173,11 @@ and submit all problems in that subsection.
 For more information, see  the :ref:`opencoursestaff:Timed Exams` section in
 the *Building and Running an Open edX Course* guide.
 
+.. note::
+   Another special exam feature, proctoring, is available for courses on the
+   edx.org website. The proctoring feature is not supported for Open edX
+   installations at this time.
+
 .. _Otto Ecommerce Service:
 
 =======================
