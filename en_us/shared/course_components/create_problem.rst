@@ -187,9 +187,9 @@ The following image shows an example multiple choice problem in the Simple
 Editor.
 
 .. image:: ../../../shared/images/MultipleChoice_SimpleEditor.png
- :alt: An image of the simple editor with numbered callouts for options and an
-   example multiple choice problem to demonstrate the formatting.
- :width: 450
+ :alt: An image of the simple editor with numbered callouts for each option,
+  and an example multiple choice problem to demonstrate the formatting.
+ :width: 600
 
 The Simple Editor includes a toolbar with options that provide the required
 formatting for different types of problems. When you select an option from the
@@ -199,26 +199,42 @@ of the toolbar options.
 
 Descriptions of the toolbar options follow.
 
-  1. **Heading 1**: Format text as a first level heading.
-  2. **Multiple Choice**: Identify the text on each selected line as an answer
-     option for a multiple choice problem.
-  3. **Checkboxes**: Identify the text on each selected line as an answer
-     option for a checkboxes problem.
-  4. **Text Input**: Identify the correct answer for a text input problem.
-  5. **Numerical Input**: Identify the correct answer, with an optional
-     tolerance, for a numerical input problem.
-  6. **Dropdown**: Identify a comma-separated list as the answer options for a
-     dropdown problem.
-  7. **Explanation**: Format text as an explanation that appears when learners
-     select **Show Answer**.
-  8. Open the problem in the Advanced Editor.
-  9. Open a list of formatting hints.
-  10. **Accessible Label**: Identify the question as the problem's accessible
-      label. No toolbar option is available, but when you surround text with
-      two pairs of angle brackets pointing inward (``>>question<<``), screen
-      readers use that text as the accessible label for the problem. In
-      addition, edX Insights uses the accessible label to identify the question
-      in each problem. For more information, see `Using edX Insights`_.
+#. **Heading**: Formats text as a title or heading.
+
+#. **Multiple Choice**: Identifies text as an answer option for a multiple
+   choice question.
+
+#. **Checkboxes**: Identifies text as an answer option for a checkboxes
+   problem.
+
+#. **Text Input**: Identifies text as the correct answer for a text input
+   problem.
+
+#. **Numerical Input**: Identifies the correct answer, with an optional
+   tolerance, for a numerical input problem.
+
+#. **Dropdown**: Identifies a comma-separated list as correct and incorrect
+   answer options for a dropdown problem.
+
+#. **Explanation**: Formats text as an explanation that appears after learners
+   select **Show Answer**.
+
+#. Opens the problem in the Advanced Editor.
+
+#. Opens a list of formatting hints.
+
+#. **Accessible Label**: Identifies the question that learners will answer by
+   selecting the options that follow, or by entering a text or numeric
+   response. The toolbar does not have an option that provides this formatting,
+   so you type two angle brackets on either side of the question text pointing
+   inward. For example, ``>>Is this the question text?<<``.
+
+   * Screen readers read all of the text that you supply for the problem, but
+     then repeat the text that is identified with this formatting immediately
+     before reading the answer choices for the problem.
+
+   * EdX Insights uses the text with this formatting to identify the question
+     for each problem. For more information, see `Using edX Insights`_.
 
 .. _Advanced Editor:
 
@@ -235,7 +251,7 @@ Editor instead of the Simple Editor.
 
 .. image:: ../../../shared/images/MultipleChoice_AdvancedEditor.png
  :alt: An image of a problem in the advanced editor.
- :width: 450
+ :width: 600
 
 The following problem templates open in the Advanced Editor.
 
