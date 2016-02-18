@@ -102,7 +102,7 @@ problems with feedback and hints are listed.
 
 .. image:: ../../../shared/images/hints_feedback_problem_templates.png
  :alt: Image of the templates with hints and feedback in Studio.
- :width: 600
+ :width: 250
 
 Add the problem type you need to the unit, then edit the component.  The exact
 syntax you use to configure hints and feedback depends on the problem type.
