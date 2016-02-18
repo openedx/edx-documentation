@@ -33,14 +33,14 @@ To enable additional exercises and tools, follow these steps.
    surrounded by quotation marks. If there is a list of keys, they must be
    comma separated.
 
-   * In this example, the key for the Annotation Problem tool is the only value
+   * In this example, the key for the annotation problem tool is the only value
      in the list.
 
      ::
 
        ["annotatable"]
 
-   * In this example, the key for the Annotation Problem tool is added at
+   * In this example, the key for the annotation problem tool is added at
      the beginning of a list of other keys.
 
      ::

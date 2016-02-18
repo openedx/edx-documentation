@@ -6,7 +6,9 @@ Protex Protein Builder Tool
 
 .. note:: EdX does not support this tool.
 
-The Protex protein builder asks students to create specified protein shapes by stringing together amino acids. In the example below, the goal protein shape is a simple line.
+The Protex protein builder asks students to create specified protein shapes by
+stringing together amino acids. In the example below, the goal protein shape is
+a simple line.
 
 
 .. image:: ../../../shared/images/ProteinBuilder.png
@@ -18,11 +20,13 @@ The Protex protein builder asks students to create specified protein shapes by s
 Create the Protein Builder Tool
 ********************************
 
-To create the protein builder:
+To create the protein builder, follow these steps.
 
-#. Under **Add New Component**, click **Problem**, and then click **Blank Advanced Problem**.
+#. Under **Add New Component**, click **Problem**, and then click **Blank
+   Advanced Problem**.
 #. In the component that appears, click **Edit**.
-#. In the component editor, paste the Problem component code from below.
+#. In the component editor, paste the problem component code from the section
+   that follows.
 #. Make any changes that you want, and then click **Save**.
 
 .. _Protein Builder Code:
@@ -67,8 +71,12 @@ Protein Builder Tool Code
 
 In this code:
 
-* **width** and **height** specify the dimensions of the application, in pixels.
-* **target_shape** lists the amino acids that, combined in the order specified, create the shape you've asked students to create. The list can only include the following letters, which correspond to the one-letter code for each amino acid. (This list appears in the upper-left corner of the protein builder.)
+* **width** and **height** specify the dimensions of the application, in
+  pixels.
+* **target_shape** lists the amino acids that, combined in the order specified,
+  create the shape you've asked students to create. The list can only include
+  the following letters, which correspond to the one-letter code for each amino
+  acid. (This list appears in the upper-left corner of the protein builder.)
 
   .. list-table::
      :widths: 15 15 15 15

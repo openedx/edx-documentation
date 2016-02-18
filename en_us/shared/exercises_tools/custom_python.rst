@@ -49,7 +49,8 @@ Create a Custom Python-Evaluated Input Problem Studio
 
 #. In the component that appears, select **Edit**.
 
-#. In the component editor, edit the problem in `answer tag format`_ or `script tag format`_.
+#. In the component editor, edit the problem in `answer tag format`_ or
+   `script tag format`_.
 
 #. Select **Save**.
 
@@ -70,9 +71,9 @@ tag.
    :local:
    :depth: 1
 
-===================
-The check Function
-===================
+=======================
+The ``check`` Function
+=======================
 
 The ``check`` function in a ``<script>`` tag accepts two arguments.
 
@@ -178,9 +179,9 @@ tag.
  Python honors indentation. Within the ``<script>`` tag, the ``def
  check_func(expect, ans):`` line must have no indentation.
 
-====================================================
-Example of the Check Function Returning a Dictionary
-====================================================
+========================================================
+Example of the ``check`` Function Returning a Dictionary
+========================================================
 
  The following example shows a ``check`` function that returns a dictionary.
 
@@ -349,7 +350,7 @@ sure to set **Show Answer** to **Never** in the problem component.
 Award Partial Credit
 ====================
 
-You can configure a custom Pythyon-evaluated input problem so that learners
+You can configure a custom Python-evaluated input problem so that learners
 who give a partially correct answer receive partial credit for the problem.
 You can award 50% of the points for the problem, or you can award a different
 percentage of points. For more information, see the following sections.
@@ -407,8 +408,8 @@ Award a Percentage of Credit
 ******************************
 
 You can configure a problem to return a percent value as a grade. This method
-provides greater flexibility in assigning the learner a score than :ref:`awarding
-half credit<Award Half Credit>`.
+provides greater flexibility in assigning the learner a score than
+:ref:`awarding half credit<Award Half Credit>`.
 
 In the following example, the learner's score equals the answer divided by 100.
 
@@ -448,8 +449,8 @@ The following code shows the configuration of this problem.
 
 In this example:
 
-* The ``points`` attribute of the ``<customresponse>`` element specifies that the
-  question is worth 100 points.
+* The ``points`` attribute of the ``<customresponse>`` element specifies that
+  the question is worth 100 points.
 
 * The ``give_partial_credit`` function checks that the answer is between 0 and
   100, and if so divides the learner's answer by 100 to determine the grade.

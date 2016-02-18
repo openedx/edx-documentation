@@ -2374,11 +2374,11 @@ field.
        * ``correct``: Boolean; 'true', 'false'
        * ``input_type``: string; The type of value that the student supplies
          for the ``response_type``. Based on the XML element names used in the
-         Advanced Editor. Examples include 'checkboxgroup', 'radiogroup',
+         advanced editor. Examples include 'checkboxgroup', 'radiogroup',
          'choicegroup', and 'textline'.
        * ``question``: string; Provides the text of the question.
        * ``response_type``: string; The type of problem. Based on the XML
-         element names used in the Advanced  Editor. Examples include
+         element names used in the advanced editor. Examples include
          'choiceresponse', 'optionresponse', and 'multiplechoiceresponse'.
        * ``variant``: number; For problems that use problem randomization
          features such as answer pools or choice shuffling, contains the unique

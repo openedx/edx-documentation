@@ -44,7 +44,7 @@ Enable the Poll Tool
 Before you can add a poll to your course, you must enable the poll tool in
 Studio or OLX.
 
-To enable the Poll tool in Studio, you add the ``"poll"`` key to the **Advanced
+To enable the poll tool in Studio, you add the ``"poll"`` key to the **Advanced
 Module List** on the **Advanced Settings** page. (Be sure to include the
 quotation marks around the key value.) For more information, see
 :ref:`Enable Additional Exercises and Tools`.

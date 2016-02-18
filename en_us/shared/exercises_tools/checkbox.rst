@@ -8,7 +8,7 @@ Checkbox Problem
 
 .. contents::
   :local:
-  :depth: 1
+  :depth: 2
 
 **********
 Overview
@@ -34,19 +34,18 @@ Analyzing Performance on Checkbox Problems
 
 For the checkbox problems in your course, you can use edX Insights to review
 aggregated learner performance data and examine submitted answers. For more
-information, see `Using edX Insights`_.
+information, see :ref:`insights:Using edX Insights`.
 
-
-****************************
+**************************************
 Creating a Checkbox Problem
-****************************
+**************************************
 
-You can create checkbox problems in the Simple Editor or in the Advanced
-Editor. You can set up a problem in the Simple Editor, and then switch to the
-Advanced Editor to add more configuration options in XML. However, you cannot
-switch back to the Simple Editor from the Advanced Editor. Therefore, you
+You can create checkbox problems in the simple editor or in the advanced
+editor. You can set up a problem in the simple editor, and then switch to the
+advanced editor to add more configuration options in XML. However, you cannot
+switch back to the simple editor from the advanced editor. Therefore, you
 might want to format the problem as completely as possible before you begin to
-use the Advanced Editor.
+use the advanced editor.
 
 .. _Use the Simple Editor to Create a Checkbox Problem:
 
@@ -54,7 +53,7 @@ use the Advanced Editor.
 Use the Simple Editor to Create a Checkbox Problem
 ======================================================
 
-To use the :ref:`Simple Editor<Simple Editor>` to create a checkbox problem,
+To use the :ref:`simple editor<Simple Editor>` to create a checkbox problem,
 follow these steps.
 
 #. In the unit where you want to create the problem, under **Add New
@@ -69,7 +68,7 @@ follow these steps.
 
     Studio adds the checkbox problem to the unit.
 
-3. Select **Edit**. The Simple Editor opens.
+#. Select **Edit**. The simple editor opens.
 #. Replace the sample problem text with your own text.
 #. Determine the text that describes the question you want learners to answer,
    and surround that text with two pairs of angle brackets (``>>question<<``).
@@ -111,10 +110,10 @@ problem component.
 Use the Advanced Editor to Edit a Checkbox Problem
 ========================================================================
 
-To use the :ref:`Advanced Editor<Advanced Editor>` to edit a checkbox
+To use the :ref:`advanced editor<Advanced Editor>` to edit a checkbox
 problem, follow these steps.
 
-#. Follow the steps for creating the problem in the :ref:`Simple Editor<Use
+#. Follow the steps for creating the problem in the :ref:`simple editor<Use
    the Simple Editor to Create a Checkbox Problem>`.
 #. Select **Advanced Editor**, and then edit the XML to add the tags and
    attributes you want. An example follows.
@@ -197,8 +196,8 @@ individual selections.
 Configure Feedback in the Simple Editor
 =======================================
 
-You can configure individual option and compound feedback in the :ref:`Simple
-Editor<Simple Editor>`. When you create a new checkbox problem, select the
+You can configure individual option and compound feedback in the :ref:`simple
+editor<Simple Editor>`. When you create a new checkbox problem, select the
 template **Checkboxes with Hints and Feedback**. This template has example
 feedback syntax that you can replace.
 
@@ -382,7 +381,7 @@ Awarding Partial Credit in a Checkbox Problem
 *********************************************
 
 You can configure a checkbox problem to award partial credit to learners
-who submit an answer that is partly correct. You must use the `Advanced Editor
+who submit an answer that is partly correct. You must use the `advanced editor
 <Use the Advanced Editor to Edit a Checkbox Problem>`_ to configure partial
 credit.
 
@@ -750,4 +749,3 @@ Specifies a hint available to the learner.
 
   (none)
 
-.. _Using edX Insights: http://edx.readthedocs.org/projects/edx-insights/en/latest/

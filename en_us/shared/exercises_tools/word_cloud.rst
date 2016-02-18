@@ -27,10 +27,10 @@ responses to a question in a HarvardX course.
 Enable the Word Cloud Tool
 ************************************************
 
-Before you can add a word cloud to your course, you must enable the Word Cloud
+Before you can add a word cloud to your course, you must enable the word cloud
 tool.
 
-To enable the Word Cloud tool in Studio, you add the ``"word_cloud"`` key to
+To enable the word cloud tool in Studio, you add the ``"word_cloud"`` key to
 the **Advanced Module List** on the **Advanced Settings** page. (Be sure to
 include the quotation marks around the key value.) For more information, see
 :ref:`Enable Additional Exercises and Tools`.

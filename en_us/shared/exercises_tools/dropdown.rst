@@ -31,18 +31,18 @@ Analyzing Performance on Dropdown Problems
 
 For the dropdown problems in your course, you can use edX Insights to review
 aggregated learner performance data and examine submitted answers. For
-more information, see `Using edX Insights`_.
+more information, see :ref:`insights:Using edX Insights`.
 
 ********************************
 Creating a Dropdown Problem
 ********************************
 
-You can create dropdown problems in the Simple Editor or in the Advanced
-Editor. You can set up a problem in the Simple Editor, and then switch to the
-Advanced Editor to add more configuration options in XML. However, you cannot
-switch back to the Simple Editor from the Advanced Editor. Therefore, you
+You can create dropdown problems in the simple editor or in the advanced
+editor. You can set up a problem in the simple editor, and then switch to the
+advanced editor to add more configuration options in XML. However, you cannot
+switch back to the simple editor from the advanced editor. Therefore, you
 might want to format the problem as completely as possible before you begin to
-use the Advanced Editor.
+use the advanced editor.
 
 .. _Use the Simple Editor to Create a Dropdown Problem:
 
@@ -50,7 +50,7 @@ use the Advanced Editor.
 Use the Simple Editor to Create a Dropdown Problem
 ========================================================================
 
-To use the :ref:`Simple Editor<Simple Editor>` to create a dropdown problem,
+To use the :ref:`simple editor<Simple Editor>` to create a dropdown problem,
 follow these steps.
 
 #. In the unit where you want to create the problem, under **Add New
@@ -65,7 +65,7 @@ follow these steps.
 
     Studio adds the problem to the unit.
 
-3. Select **Edit**. The Simple Editor opens.
+#. Select **Edit**. The simple editor opens.
 #. Replace the sample problem text with your own text.
 #. Determine the text that describes the question you want learners to answer,
    and surround that text with two pairs of angle brackets (``>>question<<``).
@@ -104,9 +104,9 @@ the problem component.
 Use the Advanced Editor to Edit a Dropdown Problem
 ========================================================================
 
-To use the Advanced Editor to edit a dropdown problem, follow these steps.
+To use the advanced editor to edit a dropdown problem, follow these steps.
 
-#. Follow the steps for creating the problem in the :ref:`Simple Editor<Use
+#. Follow the steps for creating the problem in the :ref:`simple editor<Use
    the Simple Editor to Create a Dropdown Problem>`.
 #. Select **Advanced Editor**, and then edit the XML to add the tags and
    attributes you want. An example follows.
@@ -167,7 +167,7 @@ learner can select. Use the following guidelines when providing feedback.
 Configure Feedback in the Simple Editor
 =======================================
 
-In the :ref:`Simple Editor<Simple Editor>`, you configure answer feedback with
+In the :ref:`simple editor<Simple Editor>`, you configure answer feedback with
 the following syntax. When you create a new dropdown problem, select the
 template **Dropdown with Hints and Feedback**. This template has example
 feedback syntax that you can replace.
@@ -199,7 +199,7 @@ For example, the following problem has feedback for each possible answer.
 Configure Feedback in the Advanced Editor
 =========================================
 
-In the :ref:`Advanced Editor<Advanced Editor>`, you configure answer feedback
+In the :ref:`advanced editor<Advanced Editor>`, you configure answer feedback
 with the following syntax.
 
 .. code-block:: xml
@@ -277,7 +277,7 @@ can configure a custom label for a specific wrong answer.
 Customize Feedback Labels in the Simple Editor
 ***********************************************
 
-In the :ref:`Simple Editor<Simple Editor>`, you configure custom feedback
+In the :ref:`simple editor<Simple Editor>`, you configure custom feedback
 labels with the following syntax.
 
 ::
@@ -295,7 +295,7 @@ For example, the following feedback is configured to use a custom label.
 Customize Feedback Labels in the Advanced Editor
 *************************************************
 
-In the :ref:`Advanced Editor<Advanced Editor>`, you configure custom feedback
+In the :ref:`advanced editor<Advanced Editor>`, you configure custom feedback
 labels with the following syntax.
 
 .. code-block:: xml
@@ -436,5 +436,3 @@ Specifies a hint available to the learner.
   Children
 
   (none)
-
-.. _Using edX Insights: http://edx.readthedocs.org/projects/edx-insights/en/latest/

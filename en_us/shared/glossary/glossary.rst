@@ -41,7 +41,7 @@ A
 
 **Advanced Editor**
 
-  An XML-only editor in a problem component that allows you to can create and
+  An XML-only editor in a problem component that allows you to create and
   edit any type of problem. For more information, see `The Advanced Editor`_.
 
 

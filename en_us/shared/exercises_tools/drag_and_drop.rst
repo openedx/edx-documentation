@@ -6,7 +6,7 @@ Drag and Drop Problem
 
 .. note:: EdX offers provisional support for this problem type.
 
-In drag and drop problems, students respond to a question by dragging text or
+In drag and drop problems, learners respond to a question by dragging text or
 objects to a specific location on an image.
 
 .. image:: ../../../shared/images/DragAndDropProblem.png
@@ -32,9 +32,9 @@ objects to a specific location on an image.
 Creating a Drag and Drop Problem
 *********************************
 
-To create a simple drag and drop problem in which students drag labels onto an
-image, you'll upload the image that you want students to drag labels onto, and
-then create a Problem component.
+To create a simple drag and drop problem in which learners drag labels onto an
+image, you upload the image that you want learners to drag labels onto, and
+then create a problem component.
 
 #. On the **Files & Uploads** page, upload your image file. For more
    information about uploading files, see :ref:`Add Files to a Course`.
@@ -49,8 +49,8 @@ then create a Problem component.
    of your image file on the **Files & Uploads** page (for example,
    **/static/Image.png**).
 #. For at least one ``<draggable>`` tag, replace the text of the **label**
-   attribute with the text of the label you want students to drag. For example,
-   if you want students to drag the word "Iceland" onto your image, the new tag
+   attribute with the text of the label you want learners to drag. For example,
+   if you want learners to drag the word "Iceland" onto your image, the new tag
    would resemble the following:
 
    ``<draggable id="1" label="Iceland"/>``
@@ -64,7 +64,7 @@ then create a Problem component.
     ``'id':    [[x coordinate, y coordinate], radius]``
 
     For example, if your image is 600 pixels wide and 400 pixels high, and you
-    want your students to drag the Iceland label to an area in the upper-left
+    want your learners to drag the Iceland label to an area in the upper-left
     part of the image and drag a Sweden label near the lower-right part of your
     image, the code would resemble the following (where 2 is the ID for the
     Sweden label):
@@ -82,9 +82,9 @@ then create a Problem component.
 Sample Drag and Drop Problem Code
 ==========================================
 
-To create the drag and drop problem that appears in the image above, you'll
-download two files from edX, upload these files to to the **Files & Uploads**
-page, and then add the code for the problem to a Problem component.
+To create the drag and drop problem that appears in the image above, you
+download two files from edX, upload these files to the **Files & Uploads**
+page, and then add the code for the problem to a problem component.
 
 #. Download the following files from edX:
 
@@ -94,7 +94,7 @@ page, and then add the code for the problem to a Problem component.
   To download both these files in a .zip archive, click
   http://files.edx.org/DragAndDropProblemFiles.zip.
 
-2. Upload the Allopurinol.gif and AllopurinolAnswer.gif files to the **Files &
+#. Upload the Allopurinol.gif and AllopurinolAnswer.gif files to the **Files &
    Uploads** page.
 #. In the unit where you want to create the problem, click **Problem** under
    **Add New Component**, and then click the **Advanced** tab.
@@ -230,7 +230,7 @@ Tags
   problem.
 * ``<drag_and_drop_input>``: Indicates the custom response problem is a drag
   and drop problem.
-* ``<draggable>``: Specifies a single object that a student will drag onto the
+* ``<draggable>``: Specifies a single object that a learner will drag onto the
   base image.
 * ``<target>``: Specifies the location on the base image where a draggable must
   be dropped.
@@ -257,9 +257,10 @@ Tags
          single target. It can be either 'true' or 'false'. If not specified,
          the default value is 'true'.
      * - no_labels (required)
-       - The default is false. In default behavior, if label is not set, label is
-         obtained from id. If no_labels is true, labels are not automatically
-         populated from id, and one cannot set labels and obtain only icons.
+       - The default is false. In default behavior, if label is not set, label
+         is obtained from id. If no_labels is true, labels are not
+         automatically populated from id, and one cannot set labels and obtain
+         only icons.
 
   Children
 
@@ -301,15 +302,15 @@ For the grader to work, each draggable must have a unique ID.
 
 **Tag:** ``<target>``
 
-Specifies the location on the base image where a student must drop a draggable
+Specifies the location on the base image where a learner must drop a draggable
 item. By design, if the center of a draggable lies within the target (i.e. in
 the rectangle defined by [[x, y], [x + w, y + h]],  it is within the target.
 Otherwise, it is outside.
 
-If you specify at least one target, and a student drops a draggable item on a
+If you specify at least one target, and a learner drops a draggable item on a
 location that is outside a target, the draggable item returns to the slider.
 
-If you don't specify a target, a student can drop a draggable item anywhere on
+If you don't specify a target, a learner can drop a draggable item anywhere on
 the base image.
 
   Attributes
@@ -370,7 +371,7 @@ Limitations of targets on draggables
 * Currently there is a limitation to the level of nesting of targets.
 
   Even though you can pile up a large number of draggables on targets that
-  themselves are on draggables, the Drag and Drop problem will be graded only
+  themselves are on draggables, the drag and drop problem will be graded only
   if there is a maximum of two levels of targets. The first level are the
   `base` targets. They are attached to the base image. The second level are the
   targets defined on draggables.
@@ -455,7 +456,7 @@ The values for ``rule`` follow.
 
 
 * ``unordered_equal``: Allows draggables be dragged to targets unordered. For
-  students to drag 7 to target1 or target2 and 8 to target2 or target1 and 7
+  learners to drag 7 to target1 or target2 and 8 to target2 or target1 and 7
   and 8 must be in different targets, then correct answer must be::
 
     correct_answer = [
@@ -466,7 +467,7 @@ The values for ``rule`` follow.
     }]
 
 
-* ``anyof``: Allows draggables to be dragged to any target. For students to
+* ``anyof``: Allows draggables to be dragged to any target. For learners to
   drag 7 and 8 to target1 or target2, any of these are correct with the `anyof`
   rule::
 
@@ -500,7 +501,7 @@ target5 and target2.::
           'rule': 'unordered_equal'
         }]
 
-Sometimes you want to allow students to drag only two ``b`` draggables. In this
+Sometimes you want to allow learners to drag only two ``b`` draggables. In this
 case you should use the ``anyof+number`` or ``unordered_equal+number`` rule::
 
     correct_answer = [
@@ -582,7 +583,7 @@ included in more than one chain.
 Grading logic
 *************
 
-#. The student's answer and the correct answer are parsed to the same format.
+#. The learner's answer and the correct answer are parsed to the same format.
    ::
 
     group_id: group_draggables, group_targets, group_rule
@@ -597,7 +598,7 @@ Grading logic
     user_draggables[group_0] are all draggables t1 and t2 from the user answer:
     [t1] or [t1, t2] or [t1, t2, t2] etc..
 
-2. For every group from the user answer, for that group's draggables, if
+#. For every group from the user answer, for that group's draggables, if
    ``number`` is in the group rule, set() is applied. If ``number`` is not in
    rule, set is not applied::
 
@@ -605,7 +606,7 @@ Grading logic
 
   For every group, at this step, draggables lists are equal.
 
-3. For every group, lists of targets are compared using the rule for that
+#. For every group, lists of targets are compared using the rule for that
    group.
 
 ==========================

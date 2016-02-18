@@ -6,16 +6,17 @@ Custom JavaScript Problem
 
 .. note:: EdX offers full support for this problem type.
 
-Custom JavaScript display and grading problems (also called *custom JavaScript problems*
-or *JS Input problems*) allow you to create a custom problem or tool that uses JavaScript
-and then add the problem or tool directly into Studio. When you create a JS Input problem,
-Studio embeds the problem in an inline frame (IFrame) so that your students can interact with
-it in the LMS. You can grade your students’ work using JavaScript and some basic Python, and
-the grading is integrated into the edX grading system.
+Custom JavaScript display and grading problems (also called custom JavaScript
+problems or JS input problems) allow you to create a custom problem or tool
+that uses JavaScript and then add the problem or tool directly into Studio.
+When you create a JS input problem, Studio embeds the problem in an inline
+frame (an HTML iframe element) so that your learners can interact with it in
+the LMS. You can grade your learners’ work using JavaScript and some basic
+Python, and the grading is integrated into the edX grading system.
 
-The JS Input problem that you create must use HTML, JavaScript, and cascading style sheets
-(CSS). You can use any application creation tool, such as the Google Web Toolkit (GWT), to
-create your JS Input problem.
+The JS input problem that you create must use HTML, JavaScript, and cascading
+style sheets (CSS). You can use any application creation tool, such as the
+Google Web Toolkit (GWT), to create your JS input problem.
 
 .. image:: ../../../shared/images/JavaScriptInputExample.png
  :alt: Image of a JavaScript Input problem
@@ -27,7 +28,7 @@ create your JS Input problem.
     component. See :ref:`Multiple Problems in One Component` for more
     information.
 
-  * The **Show Answer** button does not work for JS Input problems. By
+  * The **Show Answer** button does not work for JS input problems. By
     default, the **Show Answer** option is set to **Never**. If you change
     this option in the problem component, a **Show Answer** button appears in
     the LMS, but the button does not work.
@@ -40,10 +41,10 @@ create your JS Input problem.
 Create a Custom JavaScript Display and Grading Problem
 ************************************************************
 
-#. Create your JavaScript application, and then upload all files associated with
-   that application to the **Files & Uploads** page.
-#. In the unit where you want to create the problem, select **Problem**
-   under **Add New Component**, and then select the **Advanced** tab.
+#. Create your JavaScript application, and then upload all files associated
+   with that application to the **Files & Uploads** page.
+#. In the unit where you want to create the problem, under **Add New
+   Component** select **Problem** , and then select **Advanced**.
 #. Select **Custom JavaScript Display and Grading**.
 #. In the component that appears, select **Edit**.
 #. In the component editor, modify the example code according to your problem.
@@ -64,35 +65,37 @@ Create a Custom JavaScript Display and Grading Problem
    <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Same_origin_policy_for_JavaScript>`_ or on
    `Wikipedia <http://en.wikipedia.org/wiki/Same_origin_policy>`_.
 
-#. If you want your problem to have a **Save** button, select the **Settings** tab, and then set
-   **Maximum Attempts** to a number larger than zero.
+#. If you want your problem to have a **Save** button, select **Settings**, and
+   then set **Maximum Attempts** to a number larger than zero.
 #. Select **Save**.
 
 ================================
-Re-create the Example Problem
+Recreate the Example Problem
 ================================
 
-To re-create the example problem above, you'll need the following files.
+To recreate the example problem above, you need the following files.
 
    - webGLDemo.html
    - webGLDemo.js
    - webGLDemo.css
    - three.min.js
 
-To download these files in a .zip archive, go to http://files.edx.org/JSInput.zip.
+To download these files in a .zip archive, go to
+http://files.edx.org/JSInput.zip.
 
-.. note:: If you need to bypass the SOP, you'll also need the **jschannel.js** file,
- and your webGLDemo.html file will be slightly different. To download all
- these files in a .zip archive, go to
- http://files.edx.org/JSInput_BypassSOP.zip.
+.. note:: If you need to bypass the SOP, you also need the
+  ``jschannel.js`` file, and your webGLDemo.html file will be slightly
+  different. To download all of these files in a .zip archive, go to
+  http://files.edx.org/JSInput_BypassSOP.zip.
 
 #. Download and unpackage the files in either the JSInput.zip file or the
    JSInput_BypassSOP.zip file.
 #. On the **Files & Uploads** page, upload all the files from the .zip file.
 #. Create a new custom JavaScript display and grading problem component.
-#. On the **Settings** tab, set **Maximum Attempts** to a number larger than
-   zero.
-#. In the problem component editor, replace the example code with the code below.
+#. Select **Settings**, and then set **Maximum Attempts** to a number larger
+   than zero.
+#. In the problem component editor, replace the example code with the code
+   below.
 #. Select **Save**.
 
 ================================
@@ -150,7 +153,7 @@ JavaScript Input Problem Code
    have to define these functions if you want to conserve the state of the
    problem.
 
- - **Width** and **height** represent the dimensions of the IFrame that holds
+ - **Width** and **height** represent the dimensions of the iframe that holds
    the application.
 
  - When the problem opens, the cone and the cube are both blue, or
@@ -174,7 +177,7 @@ JSInput allows problem authors to turn stand-alone HTML files into problems
 that can be integrated into the edX platform. Since its aim is flexibility, it
 can be seen as the input and client-side equivalent of **CustomResponse**.
 
-A JSInput exercise creates an IFrame in a static HTML page, and passes the
+A JSInput exercise creates an iframe in a static HTML page, and passes the
 return value of author-specified functions to the enclosing response type
 (generally **CustomResponse**). JSInput can also store and retrieve state.
 
@@ -182,7 +185,7 @@ return value of author-specified functions to the enclosing response type
 Template
 ========
 
-The following is the basic format of a JSInput problem:
+The following is the basic format of a JSInput problem.
 
 .. code-block:: xml
 
@@ -218,11 +221,11 @@ Required Attributes
 
 * **html_file**
 
-  The **html_file** attribute specifies the HTML file that the IFrame will
+  The **html_file** attribute specifies the HTML file that the iframe will
   point to. The HTML file must be located in the content directory.
 
-  The IFrame is created using the sandbox attribute. Although pop-ups,
-  scripts, and pointer locks are allowed, the IFrame cannot access its
+  The iframe is created using the sandbox attribute. Although pop-ups,
+  scripts, and pointer locks are allowed, the iframe cannot access its
   parent's attributes.
 
   The HTML file must contain a **gradefn** function that the JSInput file can
@@ -241,21 +244,21 @@ Required Attributes
 * **gradefn**
 
   The **gradefn** attribute specifies the name of the function that will be
-  called when a user selects **Check**, and that returns the student's answer.
+  called when a user selects **Check**, and that returns the learner's answer.
   Unless both the **get_statefn** and **set_statefn** attributes are also
   used, this answer is passed as a string to the enclosing response type. In
   the **customresponse** example above, this means **cfn** will be passed this
   answer as ``ans``.
 
-  If the **gradefn** function throws an exception when a student attempts to
-  submit a problem, the submission is aborted, and the student receives a
-  generic alert. The alert can be customised by making the exception name
+  If the **gradefn** function throws an exception when a learner attempts to
+  submit a problem, the submission is aborted, and the learner receives a
+  generic alert. The alert can be customized by making the exception name
   ``Waitfor Exception``; in that case, the alert message will be the exception
   message.
 
-  .. important:: To make sure the student's latest answer is passed correctly,
+  .. important:: To make sure the learner's latest answer is passed correctly,
     make sure that the **gradefn** function is not asynchronous. Additionally,
-    make sure that the function returns promptly. Currently the student has no
+    make sure that the function returns promptly. Currently the learner has no
     indication that her answer is being calculated or produced.
 
 ========================
@@ -264,12 +267,12 @@ Optional Attributes
 
 * **set_statefn**
 
-  Sometimes a problem author will want information about a student's previous
+  Sometimes a problem author will want information about a learner's previous
   answers ("state") to be saved and reloaded. If the attribute **set_statefn**
   is used, the function given as its value will be passed the state as a
-  string argument whenever there is a state, and the student returns to a
+  string argument whenever there is a state, and the learner returns to a
   problem. The function has the responsibility to then use this state
-  approriately.
+  appropriately.
 
   The state that is passed is:
 
@@ -283,7 +286,7 @@ Optional Attributes
 * **get_statefn**
 
   Sometimes the state and the answer are quite different. For instance, a
-  problem that involves using a javascript program that allows the student to
+  problem that involves using a javascript program that allows the learner to
   alter a molecule may grade based on the molecule's hydrophobicity, but from
   the hydrophobicity it might be incapable of restoring the state. In that
   case, a *separate* state may be stored and loaded by **set_statefn**. Note
@@ -303,7 +306,7 @@ Optional Attributes
 * **height** and **width**
 
   The **height** and **width** attributes are straightforward: they specify
-  the height and width of the IFrame. Both are limited by the enclosing DOM
+  the height and width of the iframe. Both are limited by the enclosing DOM
   elements, so for instance there is an implicit max-width of around 900.
 
   In the future, JSInput may attempt to make these dimensions match the HTML

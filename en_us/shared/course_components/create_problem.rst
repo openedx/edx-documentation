@@ -144,18 +144,18 @@ The Studio View of a Problem
 ************************************
 
 All problems are written in XML. However, Studio offers two interfaces for
-editing problem components: the Simple Editor and the Advanced Editor.
+editing problem components: the simple editor and the advanced editor.
 
-*  The Simple Editor allows you to edit problems visually, without
+*  The simple editor allows you to edit problems visually, without
    having to work with XML.
 
-*  The Advanced Editor converts the problem to edX's XML standard and
+*  The advanced editor converts the problem to edX's XML standard and
    allows you to edit that XML directly.
 
-You can switch at any time from the Simple Editor to the Advanced Editor by
-selecting **Advanced Editor** in the top right corner of the Simple Editor
-interface. However, after you save a problem in the Advanced Editor, you cannot
-open it again in the Simple Editor.
+You can switch at any time from the simple editor to the advanced editor by
+selecting **Advanced Editor** in the top right corner of the simple editor
+interface. However, after you save a problem in the advanced editor, you cannot
+open it again in the simple editor.
 
 .. _Simple Editor:
 
@@ -163,7 +163,7 @@ open it again in the Simple Editor.
 The Simple Editor
 =================
 
-When you select the following problem types, the Simple Editor opens with a
+When you select the following problem types, the simple editor opens with a
 preformatted example problem.
 
 *  :ref:`Checkbox`: In checkbox problems, learners select one or more options
@@ -191,9 +191,9 @@ Editor.
   and an example multiple choice problem to demonstrate the formatting.
  :width: 600
 
-The Simple Editor includes a toolbar with options that provide the required
+The simple editor includes a toolbar with options that provide the required
 formatting for different types of problems. When you select an option from the
-toolbar, formatted sample text appears in the Simple Editor. Alternatively,
+toolbar, formatted sample text appears in the simple editor. Alternatively,
 you can apply formatting to your own text by selecting the text and then one
 of the toolbar options.
 
@@ -247,13 +247,13 @@ such as drag and drop and math expression input open directly in the Advanced
 Editor.
 
 The following image shows the multiple choice problem above in the Advanced
-Editor instead of the Simple Editor.
+Editor instead of the simple editor.
 
 .. image:: ../../../shared/images/MultipleChoice_AdvancedEditor.png
  :alt: An image of a problem in the advanced editor.
  :width: 600
 
-The following problem templates open in the Advanced Editor.
+The following problem templates open in the advanced editor.
 
 * :ref:`Circuit Schematic Builder` In circuit schematic problems, learners
   create and modify circuits on an interactive grid and submit computer-

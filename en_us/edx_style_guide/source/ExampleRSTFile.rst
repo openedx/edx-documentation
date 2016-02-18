@@ -458,7 +458,7 @@ The empty cell is the second column in the first row of this table.
    * - Example JavaScript Problem
      - Custom JavaScript
      - Custom JavaScript display and grading problems (also called *custom
-       JavaScript problems* or *JS Input problems*) allow you to create a
+       JavaScript problems* or *JS input problems*) allow you to create a
        custom problem or tool that uses JavaScript and then add the problem or
        tool directly into Studio.
 
@@ -480,7 +480,7 @@ The empty cell is the second column in the first row of this table.
    * - Exampel JavaScript Problem
      - Custom JavaScript
      - Custom JavaScript display and grading problems (also called *custom
-       JavaScript problems* or *JS Input problems*) allow you to create a
+       JavaScript problems* or *JS input problems*) allow you to create a
        custom problem or tool that uses JavaScript and then add the problem or
        tool directly into Studio.
 

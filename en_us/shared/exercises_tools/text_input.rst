@@ -30,18 +30,18 @@ Analyzing Performance on Multiple Choice Problems
 
 For the text input problems in your course, you can use edX Insights to review
 aggregated learner performance data and examine submitted answers. For more
-information, see `Using edX Insights`_.
+information, see :ref:`insights:Using edX Insights`.
 
 ******************************
 Creating a Text Input Problem
 ******************************
 
-You can create text input problems in the Simple Editor or in the Advanced
-Editor. You can set up a problem in the Simple Editor, and then switch to the
-Advanced Editor to add more configuration options in XML. However, you cannot
-switch back to the Simple Editor from the Advanced Editor. Therefore, you
+You can create text input problems in the simple editor or in the advanced
+editor. You can set up a problem in the simple editor, and then switch to the
+advanced editor to add more configuration options in XML. However, you cannot
+switch back to the simple editor from the advanced editor. Therefore, you
 might want to format the problem as completely as possible before you begin to
-use the Advanced Editor.
+use the advanced editor.
 
 .. _Use the Simple Editor to Create a Text Input Problem:
 
@@ -49,7 +49,7 @@ use the Advanced Editor.
 Use the Simple Editor to Create a Text Input Problem
 ========================================================================
 
-To use the :ref:`Simple Editor<Simple Editor>` to create a text input problem,
+To use the :ref:`simple editor<Simple Editor>` to create a text input problem,
 follow these steps.
 
 #. In the unit where you want to create the problem, under **Add New
@@ -64,7 +64,7 @@ follow these steps.
 
     Studio adds the problem to the unit.
 
-3. Select **Edit**. The Simple Editor opens.
+#. Select **Edit**. The simple editor opens.
 #. Replace the sample problem text with your own text.
 #. Determine the text that describes the question you want learners to answer,
    and surround that text with two pairs of angle brackets (``>>question<<``).
@@ -75,7 +75,7 @@ follow these steps.
    You can identfy more than one correct answer. For more information, see
    :ref:`Multiple Responses in Text Input Problems`.
 
-7. To provide an explanation, select the explanation text and then select
+#. To provide an explanation, select the explanation text and then select
    **Explanation** from the toolbar. ``[explanation]`` appears before
    and after the explanation text.
 #. Select **Settings** and provide an identifying **Display Name** for the
@@ -104,9 +104,9 @@ problem component.
 Use the Advanced Editor to Edit a Text Input Problem
 ========================================================================
 
-To use the Advanced Editor to edit a text input problem, follow these steps.
+To use the advanced editor to edit a text input problem, follow these steps.
 
-#. Follow the steps for creating the problem in the :ref:`Simple Editor<Use
+#. Follow the steps for creating the problem in the :ref:`simple editor<Use
    the Simple Editor to Create a Text Input Problem>`.
 #. Select **Advanced Editor**, and then edit the XML to add the tags and
    attributes you want. An example follows.
@@ -157,7 +157,7 @@ to the learner on how to arrive at the correct answer.
 Configure Feedback in the Simple Editor
 =======================================
 
-In the :ref:`Simple Editor<Simple Editor>`, you configure answer feedback with
+In the :ref:`simple editor<Simple Editor>`, you configure answer feedback with
 the following syntax. When you create a new text input problem, select the
 template  **Text Input with Hints and Feedback**. This template has example
 feedback syntax that you can replace.
@@ -190,7 +190,7 @@ common incorrect answers.
 Configure Feedback in the Advanced Editor
 =========================================
 
-In the :ref:`Advanced Editor<Advanced Editor>`, you configure answer feedback
+In the :ref:`advanced editor<Advanced Editor>`, you configure answer feedback
 with the following syntax.
 
 .. code-block:: xml
@@ -258,7 +258,7 @@ can configure a custom label for a specific wrong answer.
 Customize Feedback Labels in the Simple Editor
 ***********************************************
 
-In the :ref:`Simple Editor<Simple Editor>`, you configure custom feedback
+In the :ref:`simple editor<Simple Editor>`, you configure custom feedback
 labels with the following syntax.
 
 ::
@@ -276,7 +276,7 @@ For example, the following feedback is configured to use a custom label.
 Customize Feedback Labels in the Advanced Editor
 *************************************************
 
-In the :ref:`Advanced Editor<Advanced Editor>`, you configure custom feedback
+In the :ref:`advanced editor<Advanced Editor>`, you configure custom feedback
 labels with the following syntax.
 
 .. code-block:: xml
@@ -316,14 +316,14 @@ Multiple Responses in Text Input Problems
 You can specify more than one correct response for text input problems. For
 example, instead of requiring learners to enter "Dr. Martin Luther King,
 Junior" exactly, you can also allow answers of "Martin Luther King," "Doctor
-Martin Luther King," and other variations. To do this, you can use the Simple
-Editor or the Advanced Editor.
+Martin Luther King," and other variations. To do this, you can use the simple
+editor or the advanced editor.
 
 ==============
 Simple Editor
 ==============
 
-To specify additional correct responses in the Simple Editor, include``or= ``
+To specify additional correct responses in the simple editor, include``or= ``
 before each additional correct response.
 
 ::
@@ -339,7 +339,7 @@ before each additional correct response.
 Advanced Editor
 =====================
 
-To specify additional correct responses in the Advanced Editor, add an
+To specify additional correct responses in the advanced editor, add an
 ``<additional_answer>`` for each correct response inside the opening and
 closing ``<stringresponse>`` tags.
 
@@ -367,9 +367,10 @@ in a text input problem to help guide your students or resolve ambiguity.
 
 .. image:: ../../../shared/images/MC_trailing_text.png
  :width: 500
- :alt: Multiple choice problem with the word "Institute" after the answer field.
+ :alt: Multiple choice problem with the word "Institute" after the answer
+  field.
 
-To do this, you must use the :ref:`Advanced Editor<Advanced Editor>`.
+To do this, you must use the :ref:`advanced editor<Advanced Editor>`.
 
 In the problem, locate the ``textline`` element. This element creates the
 response field for the problem and is a child of the ``stringresponse``
@@ -403,7 +404,7 @@ can change this and require a case sensitive answer.
 To make a text input response case sensitive, you must use :ref:`Advanced
 Editor`.
 
-In the Advanced Editor, you see that the ``type`` attribute of the
+In the advanced editor, you see that the ``type`` attribute of the
 ``stringresponse`` element equals ``ci``, for "case insensitive". An example
 follows.
 
@@ -433,9 +434,9 @@ field accommodates the correct answer, and provides extra space for possible
 incorrect answers.
 
 If the default response field length is not sufficient, you can change it
-using :ref:`Advanced Editor`.
+using the :ref:`advanced editor<Advanced Editor>`.
 
-In the Advanced Editor, in the XML block for the answer, you see that the
+In the advanced editor, in the XML block for the answer, you see that the
 ``size`` attribute of the ``textline`` element equals ``20``.
 
 ::
@@ -691,4 +692,3 @@ documented above.
     </solution>
   </problem>
 
-.. _Using edX Insights: http://edx.readthedocs.org/projects/edx-insights/en/latest/

@@ -6,25 +6,29 @@ Circuit Schematic Builder Problem
 
 .. note:: EdX offers provisional support for this problem type.
 
-In circuit schematic builder problems, students can arrange circuit elements such as voltage sources, capacitors, resistors, and MOSFETs on an interactive grid. They then submit a DC, AC, or transient analysis of their circuit to the system for grading.
+In circuit schematic builder problems, students can arrange circuit elements
+such as voltage sources, capacitors, resistors, and MOSFETs on an interactive
+grid. They then submit a DC, AC, or transient analysis of their circuit to the
+system for grading.
 
 .. image:: ../../../shared/images/CircuitSchematicExample.png
- :alt: Image of a circuit schematic builder
+ :alt: Image of a circuit schematic builder.
 
 *********************************************
 Create a Circuit Schematic Builder Problem
 *********************************************
 
-#. In the unit where you want to create the problem, click **Problem**
-   under **Add New Component**, and then click the **Advanced** tab.
-#. Click **Circuit Schematic Builder**.
-#. In the component that appears, click **Edit**.
+#. In the unit where you want to create the problem, under **Add New
+   Component** select **Problem**, and then select **Advanced**.
+#. Select **Circuit Schematic Builder**.
+#. In the component that appears, select **Edit**.
 #. In the component editor, replace the example code with your own code.
-#. Click **Save**.
+#. Select **Save**.
 
 **Problem Code**
 
-To create the problem in the image above, paste the following code into the Advanced Editor.
+To create the problem in the image above, paste the following code into the
+advanced editor.
 
 .. code-block:: xml
 
