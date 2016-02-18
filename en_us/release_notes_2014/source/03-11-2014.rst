@@ -24,7 +24,7 @@ edX Learning Management System
 
 * Students can now download transcripts as .srt or .txt files. A student selects the format below the video:
 
- .. image:: images/transcript-download.png
+ .. image:: Images/transcript-download.png
   :alt: Image of the transcript download format selection.
 
  The student selects the format, then clicks **Download transcript**. For more information, see Create or Obtain a Video Transcript (BLD-844)

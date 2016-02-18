@@ -11,25 +11,25 @@ The following information reflects what is new in the edX Platform as of August
 edX Studio
 ***************************************
 
-* This release includes a redesigned user experience for publishing. 
-  
+* This release includes a redesigned user experience for publishing.
+
   *  The process for creating, releasing, and updating content has been
      streamlined and simplified.
 
-     .. image:: images/techdocworkflows(v2)_New-workflow.png
+     .. image:: Images/techdocworkflows(v2)_New-workflow.png
        :alt: Flowchart showing the process of creating a unit on the Course Outline page, adding components on the Unit page, and then publishing the content. Modifications made on a Unit page can be published immediately.
 
   *  Visual cues are now present on the **Course Outline** page and on
      individual unit pages to indicate whether your content is published and
      whether students can see it.
-  
-      .. image:: images/PubChange_NewOutline.png
+
+      .. image:: Images/PubChange_NewOutline.png
         :alt: The Course Outline page with release dates indicated and callouts for the "Settings" icons that allows you to change it
 
   *  You can select the **Hide from students** check box on a unit page at any
      time to immediately remove that unit from student view.
-  
-      .. image:: images/Hide_from_Students.png
+
+      .. image:: Images/Hide_from_Students.png
         :alt: The unit page indicating the new check box on the right side of the page
 
   For more details and a comparison between the new publishing workflow and the
@@ -37,16 +37,16 @@ edX Studio
   Newsletter.
 
 * A graphical user interface is now available for creating and maintaining open
-  response assessment problems. 
+  response assessment problems.
 
   You now define the open response assessment rubric in the following page:
 
-  .. image:: images/PeerRubricGUI.png
+  .. image:: Images/PeerRubricGUI.png
    :alt: The Open Response Assessment editor Rubric tab
 
   You now define settings for the open response assessment in the following page:
-  
-  .. image:: images/PeerAssessmentSettingsGUI.png
+
+  .. image:: Images/PeerAssessmentSettingsGUI.png
    :alt: The Open Response Assessment editor Settings tab
 
 

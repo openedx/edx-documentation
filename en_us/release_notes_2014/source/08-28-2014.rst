@@ -17,7 +17,7 @@ edX Studio
     subsection in a single step: on the **Course Outline** page, click the
     "Publish" icon.
 
-     .. image:: images/outline-publish-icons.png
+     .. image:: Images/outline-publish-icons.png
        :alt: The Course Outline page showing an expanded section and subsection
            with a unit that contains unpublished content.
 
@@ -28,7 +28,7 @@ edX Studio
     the **Course Outline** page. To ensure that students cannot see a part of
     the course, select the "Settings" icon and in the dialog that opens select
     **Hide from students**. The same feature is available for individual units.
-  
+
   For more details, see our most recent edX Product and Engineering
   Newsletter.
 
@@ -50,11 +50,11 @@ edX Learning Management System
 * When you click **Sent Email History** on the Instructor Dashboard **Email**
   page, a new **Sent By** column in the list of messages identifies the sender
   of each message.
-  
+
 * The Instructor Dashboard no longer displays instructions for accessing the
   older version of the dashboard. However, users can still select **Revert to
   Legacy Dashboard** to access the older version.
-  
+
 * The computations for demographic distributions that are reported on the
   **Analytics** page of the Instructor Dashboard have been updated. The level
   of education and gender distributions are now computed for currently enrolled
@@ -65,7 +65,7 @@ edX Learning Management System
 
 .. **************************
 .. edX Data & Analytics
-.. ************************** 
+.. **************************
 
 **************************
 Coming Soon
@@ -77,11 +77,11 @@ weeks:
 * In addition to the existing Discussion post type, course discussions will
   soon include a new Question post type. Students and course teams will also be
   able to filter posts to find unanswered questions easily.
-  
+
 * A new design for course discussions is coming! New controls will provide
   consistent ways to take action on posts. Additionally, a set of colorful
   badges will make identifying posts easier.
-  
+
 * To make the process of registering faster and easier, students will soon be
   able to both register and log in to the edX.org and edX Edge web sites with
   their existing Google or Facebook accounts.
