@@ -68,7 +68,7 @@ edX Studio
 * In HTML text components, the default font now appears as an option in the
   **Font** menu. (TNL-147)
 
-  .. image:: images/HTMLDefaultFont.png
+  .. image:: Images/HTMLDefaultFont.png
     :width: 300
     :alt: HTML component editor with Font menu open to show Default option
 
