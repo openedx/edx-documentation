@@ -74,11 +74,14 @@ Implementing an Automated Assignment Strategy
 
 To implement an automated assignment strategy of learners to cohorts, you
 :ref:`enable the cohort feature<Enable Cohorts>` for your course, and
-:ref:`create cohorts<Add Cohorts>` that have the **Automatic** :ref:`assignment
-method<Changing the Assignment Method of a Cohort>`. To add learners to these
-cohorts, you do not need to take any action: the system automatically and
-randomly assigns learners to the available automatic cohorts when they first
-access any course content or discussion topic.
+:ref:`create cohorts<Add Cohorts>` that have the **Automatic**
+:ref:`assignment method<Changing the Assignment Method of a Cohort>`. To
+add learners to these cohorts, you do not need to take any action: the
+system automatically and randomly assigns learners to the available automatic
+cohorts when they first access any course content or discussion on the
+**Course** or **Discussion** pages. Learners who access the **Home** page or
+other course pages such as a **Textbook** page do not receive a cohort
+assignment until they view course content or discussions.
 
 .. note:: You can :ref:`add learners manually<Assign Learners to Cohorts
    Manually>` to any cohort, whether it was created as an automated cohort or a
@@ -94,11 +97,11 @@ assignment to cohorts, see :ref:`Hybrid Assignment`.
 Automated Cohorts
 =================
 
-The first time a learner views any course content, including the course
-**Discussion** page or content-specific discussion topics, if she is not
-already assigned to a cohort, she is randomly assigned to one of the automated
-cohorts. If no automated cohorts exist, the system creates a :ref:`Default
-Cohort Group` and assigns the learner to this default cohort.
+The first time a learner views course content on the **Course** or
+**Discussion** page, if she is not already assigned to a cohort, she is
+randomly assigned to one of the automated cohorts. If no automated cohorts
+exist, the system creates a :ref:`Default Cohort Group` and assigns the learner
+to this default cohort.
 
 .. note:: The default cohort is created to ensure that every learner is
    assigned to a cohort. To avoid having to re-assign learners from the default
