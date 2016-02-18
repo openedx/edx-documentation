@@ -206,12 +206,12 @@ Add a Post to a Content-Specific Discussion Topic
    the first sentence or two of each post appear. To read an entire post, view
    the responses to it, and see any comments, select **Expand discussion**.
 
-4. To add a post, select **New Post**.
+#. To add a post, select **New Post**.
 
 .. image:: ../../../shared/images/Discussion_content_specific_post.png
   :alt: Adding a post about specific course content.
 
-5. Select the type of post: select **Question** or **Discussion**.
+#. Select the type of post: **Question** or **Discussion**.
 
 #. Enter a short, descriptive identifier for your post in the **Title** field.
    The title is the part of your post that others see when they are browsing on

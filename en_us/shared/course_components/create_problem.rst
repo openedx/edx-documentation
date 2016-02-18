@@ -46,10 +46,11 @@ All problems on the edX platform have several component parts.
        elements of the problem.
   :width: 500
 
-#. **Problem text.** The problem text can contain any standard HTML formatting.
+#. **Problem text.** The problem text, or question, can contain any standard
+   HTML formatting.
 
 #. **Response field with the learner's answer.** Learners enter answers
-   in *response fields*. The appearance of the response field depends on
+   in response fields. The appearance of the response field depends on
    the type of the problem.
 
 #. **Rendered answer.** For some problem types, Studio uses MathJax to
@@ -57,8 +58,8 @@ All problems on the edX platform have several component parts.
 
 #. **Check button.** The learner selects **Check** to submit a response or find
    out if his answer is correct. If the answer is correct, a green check mark
-   appears. If it is incorrect, a red X appears. When the learner selects the
-   **Check** button, the Learning Management System saves the grade and current
+   appears. If it is incorrect, a red X appears. When the learner selects
+   **Check**, the Learning Management System saves the grade and current
    state of the problem.
 
 #. **Save button.** The learner can select **Save** to save her current
@@ -78,12 +79,12 @@ All problems on the edX platform have several component parts.
    for individual problems defaults to that number, and cannot be set to
    unlimited.
 
-   .. image:: ../../../shared/images/AnatomyOfExercise2.png
+.. image:: ../../../shared/images/AnatomyOfExercise2.png
     :alt: An image of a problem from a learner's point of view, with
        callouts for attempts and showing the answer.
     :width: 500
 
-#. **Feedback.** After a learner selects **Check**, all problems return a
+8. **Feedback.** After a learner selects **Check**, all problems return a
    green check mark or a red X.
 
    .. image:: ../../../shared/images/AnatomyofaProblem_Feedback.png
@@ -98,18 +99,23 @@ All problems on the edX platform have several component parts.
 #. **Reset button.** Learners can select **Reset** to clear any input that has
    not yet been submitted, and try again to answer the question.
 
-  - If the learner has already submitted an answer, selecting **Reset** clears
-    the submission and, if the problem includes a Python script to randomize
-    variables and the randomization setting is **On Reset**, changes the values
-    the learner sees in the problem.
-  - If the number of Maximum Attempts that was set for this problem has been
-    reached, the **Reset** button is not visible.
+   - If the learner has already submitted an answer, selecting **Reset** clears
+     the submission and, if the problem includes a Python script to randomize
+     variables and the randomization setting is **On Reset**, changes the
+     values the learner sees in the problem.
+   - If the maximum number of attempts that was set for this problem has been
+     reached, the **Reset** button is not visible.
 
-12. **Hide Answer button.**
+#. **Hide Answer button.**
 
-#. **Grading.** You can specify whether a group of problems is graded. If a
-   group of problems is graded, an icon of a pen and a piece of paper appears
-   or that assignment in the left pane.
+.. image:: ../../../shared/images/AnatomyOfExercise3.png
+    :alt: An image of a course section in the left pane of the LMS, with
+     callouts for the icon for graded content and for the due date.
+    :width: 200
+
+13. **Grading.** You can specify whether a group of problems is graded. If a
+    group of problems is graded, an icon of a pen and a piece of paper appears
+    for that assignment in the left pane.
 
 #. **Due date.** The date that the problem is due. A problem that is past due
    does not have a **Check** button. It also does not accept answers or
