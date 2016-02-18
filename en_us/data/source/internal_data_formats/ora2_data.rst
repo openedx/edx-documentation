@@ -13,7 +13,7 @@ This section describes the data schema for the edX open response assessment
 
 The schema includes a number of tables, and the ORA system offers a range of
 uses. As a result, the data can be complex. EdX recommends that you set up a
-course on a Devstack instance so that you can create assessments and test the
+course on a devstack instance so that you can create assessments and test the
 possible learner interactions.
 
 * For more information about how course teams can set up open response
@@ -22,7 +22,7 @@ possible learner interactions.
 * For more information about how learners respond to these assessments, see
   :ref:`learners:SFD_ORA`.
 
-* For more information about setting up a Devstack Vagrant instance, see
+* For more information about setting up a devstack Vagrant instance, see
   :ref:`installation:Installing the Open edX Developer Stack`.
 
 **History**:  These tables were added to the ``ora`` subdirectory of the

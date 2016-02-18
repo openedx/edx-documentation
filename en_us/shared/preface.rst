@@ -265,8 +265,8 @@ Documentation for developers is available on the `docs.edx.org`_ web page.
   the edX public sandboxes, instrumenting analytics, and testing.
 
 * `Installing, Configuring, and Running the edX Platform`_ provides procedures
-  for getting an edX developer stack (Devstack) and production stack
-  (Fullstack) operational.
+  for getting an edX developer stack (devstack) and production stack
+  (fullstack) operational.
 
 * `Open edX XBlock Tutorial`_ guides developers through the process of
   creating an XBlock, and explains the concepts and anatomy of XBlocks.
@@ -361,7 +361,7 @@ is available.
   needed in course updates or discussions.
 
 * `Installing, Configuring, and Running the edX Platform`_ provides
-  information about installing and using Devstack and Fullstack.
+  information about installing and using devstack and fullstack.
 
 * The `edX Platform Developer's Guide`_ includes guidelines for
   contributing to Open edX, options for extending the Open edX platform, using
