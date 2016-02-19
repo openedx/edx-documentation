@@ -18,10 +18,10 @@ edX Studio
 
 * The **Course Outline** page is updated to include several design improvements. The new Course Outline appears as in the following example:
 
-  .. image::  images/course_outline.png
+  .. image::  Images/course_outline.png
     :alt: The Course Outline
 
-  To see the changes, view your course in Studio or see Organizaing Your Course Content.
+  To see the changes, view your course in Studio or see Organizing Your Course Content.
 
 * A template for custom JavaScript display and grading problems (also called JSInput problems) is now available. For more informatoin, see Custom JavaScript Problem. (BLD-523) (BLD-556)
 

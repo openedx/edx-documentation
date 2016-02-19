@@ -19,20 +19,20 @@ the top of every page: click the **visit edX Insights** link to view data about
 your course.
 
 EdX Insights uses visualizations, key metrics, and tables to present data about
-who your students are and what they do while interacting with your course. 
+who your students are and what they do while interacting with your course.
 
 For example, the Weekly Student Engagement chart displays the number of
 students who engaged in different activities over time.
 
-.. image:: images/Engagement_Chart.png
+.. image:: Images/Engagement_Chart.png
    :alt: A line graph with three lines showing ongoing, differing levels of
          student activity of any kind, students who watched a video, and
          students who tried a problem.
 
 To report where your students are, edX Insights shows a color-coded map.
 
-.. image:: images/Geography.png
-   :alt: A world map; countries with darker shading have a higher number of 
+.. image:: Images/Geography.png
+   :alt: A world map; countries with darker shading have a higher number of
          students than those with lighter shading.
 
 You can use the data that is available from edX Insights to monitor activity,

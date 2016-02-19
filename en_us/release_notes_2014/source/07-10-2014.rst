@@ -21,7 +21,7 @@ edX Studio
 ***************************************
 edX Learning Management System
 ***************************************
-   
+
 * In Internet Explorer, an "Only secure content is displayed" security warning
   sometimes appeared in courseware. This bug has been fixed. (LMS-2892)
 
@@ -33,5 +33,5 @@ edX Learning Management System
   staff-initiated threads in the discussion list, as shown in the following
   example:
 
-  .. image:: images/discussion_labels.png
+  .. image:: Images/discussion_labels.png
    :alt: Image of discussions with Pinned and By: Staff labels

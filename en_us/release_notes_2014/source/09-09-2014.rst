@@ -15,7 +15,7 @@ edX Website
   register and log in to edX.org and edX Edge with their existing Google or
   Facebook accounts.
 
-  .. image:: images/login-auth.png
+  .. image:: Images/login-auth.png
    :alt: The login screen, with Google and Facebook login buttons
 
 *******************************
@@ -25,7 +25,7 @@ edX Learning Management System
 * The styling of LTI components is updated to better show links to external
   resources, as shown in the following example:
 
-  .. image:: images/LTI-link.png
+  .. image:: Images/LTI-link.png
    :alt: The external resource link in an LTI component
 
 
