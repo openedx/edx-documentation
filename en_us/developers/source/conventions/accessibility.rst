@@ -1,8 +1,8 @@
 .. _Accessibility Guidelines for Developers:
 
-****************************
+#############################
 edX Accessibility Guidelines
-****************************
+#############################
 
 EdX measures and evaluates accessibility using the World Wide Web Consortium's
 `Web Content Accessibility Guidelines (WCAG) 2.0 <http://www.w3.org/TR/WCAG/>`_
