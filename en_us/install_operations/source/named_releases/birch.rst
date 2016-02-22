@@ -10,7 +10,7 @@ This section describes how to install the Open edX Birch release.
  :local:
  :depth: 1
 
-.. note:: 
+.. note::
   Now that the Open edX Cypress release is available, edX no longer
   supports the Birch release.
 
@@ -175,4 +175,4 @@ cleans up extra files and directories when it finishes running.
 After upgrading Open edX to the Birch release, run the edX Platform and verify
 that course content and data was migrated correctly.
 
-.. include:: ../../links/links.rst
+.. include:: ../../../links/links.rst

@@ -1,8 +1,8 @@
-.. _Installing and Configuring edX Insights:
+.. _Running edX Insights:
 
-##############################################
-Installing and Configuring edX Insights
-##############################################
+#######################
+Running edX Insights
+#######################
 
 The following topics provide information about running `edX Insights`_ and
 its dependencies in a production environment.
@@ -10,7 +10,7 @@ its dependencies in a production environment.
 .. toctree::
    :maxdepth: 1
 
-   install_analytics
+   install_insights
    elastic_mapreduce
 
 Work to prepare complete installation procedures for edX Insights is in

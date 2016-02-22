@@ -4,74 +4,20 @@
 Installing the Open edX Developer Stack
 ########################################
 
-This section describes how to install the Open edX Developer Stack.
+This section describes how to install the Open edX developer stack (Devstack).
 
 .. contents::
    :local:
    :depth: 1
 
-**********
-Overview
-**********
-
-The Open edX Developer Stack, known as **Devstack**, is a Vagrant instance
-designed for local development.
-
-Devstack uses the same system requirements as :ref:`Open edX Fullstack
-<Installing Open edX Fullstack>`. This allows you to discover and fix system
-configuration issues early in development.
-
-Devstack simplifies certain production settings to make development more
-convenient. For example, `nginx`_ and `gunicorn`_ are disabled in Devstack;
-Devstack uses Django's runserver instead.
-
-See the `Vagrant documentation`_ for more information.
-
-********************
-Components
-********************
-
-Devstack includes the following edX components.
-
-* The Learning Management System (LMS)
-* edX Studio
-* Discussion Forums
-* Open Response Assessments (ORA)
-* EdX Search
-
-Devstack also includes a demonstration edX course.
-
-**************************
-Knowledge Prerequisites
-**************************
-
-To use Devstack, you should meet the following knowledge requirements.
-
-* Understand basic terminal usage. If you are using a Mac computer, see
-  `Introduction to the Mac OS X Command Line`_. If you are using a Windows
-  computer, see `Windows Command Line Reference`_.
-
-* Understand Vagrant commands. See the `Vagrant Getting Started`_ guide for
-  more information.
-
-**************************
-Software Prerequisites
-**************************
-
-To install and run Devstack, you must first install the following required
-software.
-
-* `VirtualBox`_ 4.3.12 or higher.
-
-* `Vagrant`_ 1.6.5 or higher.
-
-* A Network File System (NFS) client, if your operating system does not include
-  one. Devstack uses VirtualBox Guest Editions to share folders through NFS.
+.. note::
+ Before you install Devstack, make sure that you have met the
+ :ref:`installation prerequisites<Installation Prerequisites>`.
 
 .. _Install DevStack:
 
 **************************
-Install DevStack
+Install Devstack
 **************************
 
 To install Devstack directly from the command line, follow the instructions
@@ -142,6 +88,46 @@ the Vagrant file with curl, do this:
 
      vagrant box add box-name path-to-box-file
 
+*************************
+Installation Options
+*************************
+
+When you install Devstack, you can customize the environment.
+
+================================================
+Set Up Ability to Preview Units (Mac/Linux Only)
+================================================
+
+If you are installing Devstack on a Linux or Macintosh computer, you must
+configure your installation to use the preview feature in edX Studio.
+
+#. :ref:`Connect to the Devstack virtual machine<Connect to Devstack VM>`.
+
+#. In the ``etc/hosts`` file, add the following line.
+
+  .. code-block:: bash
+
+    192.168.33.10 preview.localhost
+
+
+
+===================================
+Customize the Source Code Location
+===================================
+
+You can customize the location of the edX source code that gets cloned when you
+provision Devstack. You may want to do this to have Devstack work with source
+code that already exists on your computer.
+
+By default, the source code location is the directory in which you run
+``vagrant up``. To change this location, follow these steps.
+
+#. :ref:`Connect to the Devstack virtual machine<Connect to Devstack VM>`.
+
+#. Set the ``VAGRANT_MOUNT_BASE`` environment variable to set the base
+   directory for the ``edx-platform`` and ``cs_comments_service`` source code
+   directories.
+
 .. _Troubleshooting the Devstack Installation:
 
 *****************************************
@@ -167,4 +153,4 @@ To resolve the error, follow these steps.
    most-recently-created host-only network.
 #. Type ``vagrant up``.
 
-.. include:: ../../../links/links.rst
+.. include:: ../../../../links/links.rst

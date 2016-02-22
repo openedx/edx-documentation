@@ -18,17 +18,10 @@ most recent release of Open edX is :ref:`Dogwood <Open edX Dogwood Release>`.
    :maxdepth: 2
 
    front_matter/index
-   dogwood
-   cypress
-   birch
-   install_options
-   devstack/install_devstack
-   devstack/run_devstack
-   devstack/analytics_devstack
-   fullstack/install_fullstack
-   theming/index
+   named_releases/index
+   installation/index
    configuration/index
-   analytics/index
+   insights/index
    mobile
    feature_flags/feature_flag_index
    glossary
