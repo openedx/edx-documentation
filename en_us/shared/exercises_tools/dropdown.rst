@@ -69,7 +69,7 @@ follow these steps.
 #. Replace the sample problem text with your own text.
 #. Determine the text that describes the question you want learners to answer,
    and surround that text with two pairs of angle brackets (``>>question<<``).
-   This question text is the accessible label for the problem.
+   This text identifies the question for screen readers and Insights.
 #. Edit your text to place all of the possible answers on the same line,
    separated by commas.
 #. Select all of the answer options, and then select **Dropdown** from

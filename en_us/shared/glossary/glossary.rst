@@ -32,10 +32,19 @@ A
 
 **Accessible Label**
 
-  The descriptive, identifying name that you supply when you add a problem
-  component to your course. All problems require accessible labels.
+  In a problem component, you identify the specific question that learners will
+  answer by selecting options or entering text or numeric response with
+  special formatting. For example, ``>>Is this the question text?<<``.
 
-  For more information, see `Creating Exercises and Tools`_.
+  This text is referred to as the accessible label because screen readers read
+  all of the text that you supply for the problem and then repeat the text that
+  is identified with this formatting immediately before reading the answer
+  choices for the problem. This text is also used by Insights to identify the
+  question for each problem.
+
+  All problems require accessible labels.
+
+  For more information, see `Simple Editor`_.
 
 .. _Advanced Editor_g:
 

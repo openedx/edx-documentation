@@ -159,9 +159,9 @@ editing problem components: the simple editor and the advanced editor.
    allows you to edit that XML directly.
 
 You can switch at any time from the simple editor to the advanced editor by
-selecting **Advanced Editor** in the top right corner of the simple editor
-interface. However, after you save a problem in the advanced editor, you cannot
-open it again in the simple editor.
+selecting **Advanced Editor** from the simple editor's toolbar. However, after
+you save a problem in the advanced editor, you cannot open it again in the
+simple editor.
 
 .. _Simple Editor:
 
@@ -189,8 +189,8 @@ preformatted example problem.
 *  :ref:`Text Input`: In text input problems, learners enter a short text
    answer to a question.
 
-The following image shows an example multiple choice problem in the Simple
-Editor.
+The following image shows an example multiple choice problem in the simple
+editor.
 
 .. image:: ../../../shared/images/MultipleChoice_SimpleEditor.png
  :alt: An image of the simple editor with numbered callouts for each option,
@@ -225,7 +225,7 @@ Descriptions of the toolbar options follow.
 #. **Explanation**: Formats text as an explanation that appears after learners
    select **Show Answer**.
 
-#. Opens the problem in the Advanced Editor.
+#. Opens the problem in the advanced editor.
 
 #. Opens a list of formatting hints.
 
@@ -235,11 +235,14 @@ Descriptions of the toolbar options follow.
    so you type two angle brackets on either side of the question text pointing
    inward. For example, ``>>Is this the question text?<<``.
 
-   * Screen readers read all of the text that you supply for the problem, but
-     then repeat the text that is identified with this formatting immediately
+   * Screen readers read all of the text that you supply for the problem, and
+     then repeat the text that you identify with this formatting immediately
      before reading the answer choices for the problem.
 
-   * EdX Insights uses the text with this formatting to identify the question
+   * The :ref:`Student_Answer_Distribution` report uses the text with this
+     formatting to identify the question for each problem.
+
+   * Insights also uses the text with this formatting to identify the question
      for each problem. For more information, see `Using edX Insights`_.
 
 .. _Advanced Editor:
@@ -248,12 +251,12 @@ Descriptions of the toolbar options follow.
 The Advanced Editor
 ===================
 
-The **Advanced Editor** opens a problem in XML. Templates for problems such as
-such as drag and drop and math expression input open directly in the Advanced
-Editor.
+The advanced editor opens a problem in XML. Templates for problems such as
+such as drag and drop and math expression input open directly in the advanced
+editor.
 
-The following image shows the multiple choice problem above in the Advanced
-Editor instead of the simple editor.
+The following image shows the multiple choice problem above in the advanced
+editor instead of the simple editor.
 
 .. image:: ../../../shared/images/MultipleChoice_AdvancedEditor.png
  :alt: An image of a problem in the advanced editor.

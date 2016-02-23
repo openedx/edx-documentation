@@ -68,7 +68,7 @@ follow these steps.
 #. Replace the sample problem text with your own text.
 #. Determine the text that describes the question you want learners to answer,
    and surround that text with two pairs of angle brackets (``>>question<<``).
-   This question text is the accessible label for the problem.
+   This text identifies the question for screen readers and Insights.
 #. Select the text of the problem's answer, and then select **Text Input** from
    the toolbar. An equals signe (=) appears next to the answer.
 

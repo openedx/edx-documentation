@@ -362,10 +362,10 @@ The .csv file contains the following columns.
    * - Problem Display Name
      - The **Display Name** defined for the problem.
    * - Question
-     - The accessible label that appears above the answer choices or the text
-       entry field for the problem. In Studio's Simple Editor, this text is
-       surrounded by two pairs of angle brackets (>>Question<<). Blank for
-       questions that do not have an accessible label defined.
+     - The text that you identified as the question for the problem. In
+       Studio's :ref:`Simple Editor`, this text is surrounded by two pairs of
+       angle brackets. Blank for questions that do not have an accessible label
+       defined.
 
 Entries are sorted by the value in each column, starting with the ModuleID on
 the left and continuing through the columns to the right.
@@ -422,9 +422,9 @@ identifiers, such as choice_1 and choice_2, for those answers.
 
 **Why don't I see a Question for some of my problems?**
 
-The value in the **Question** column is the accessible label for the problem.
-For more information about how to set up labels for problems, see :ref:`Create
-Exercises`.
+The value in the **Question** column is the question text that you identified
+for the problem with the accessible label formatting. For more information
+about how to set up labels for problems, see :ref:`Simple Editor`.
 
 Also, for problems that use the **Randomization** setting in Studio, if a
 particular answer has not been selected since early March 2014, the
