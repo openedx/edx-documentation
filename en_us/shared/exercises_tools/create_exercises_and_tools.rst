@@ -55,19 +55,20 @@ Introduction to Exercises and Tools
 ************************************
 
 "Exercises and tools" is a general way to refer to the robust variety of
-content that you can integrate into an online course. The graded and ungraded
-assessments in your course use different types of exercises or problems, while
-various tools deliver different types of course content. Software developers
-use the XBlock component architecture to contribute new exercises and tools to
-the Open edX platform and provide new and varied options for reaching learners.
+content that you can integrate into an online course. You create the graded and
+ungraded assessments in your course with different exercises or problem types,
+while various tools deliver different types of course content. Software
+developers use the XBlock component architecture to contribute new exercises
+and tools to the Open edX platform and provide new and varied options for
+reaching learners.
 
 * You might need to explicitly enable an exercise or tool that you want to use
   in your course. For more information, see :ref:`Enable Additional Exercises
   and Tools`.
 
 * After you enable an exercise or tool for use with your course, when you add a
-  component to a unit, that exercise or tool might be listed as an
-  **Advanced**, **HTML**, or **Problem** option for the component.
+  component to a unit, that exercise or tool might be listed as one of the
+  **Advanced**, **HTML**, or **Problem** options.
 
 The topics in this section describe different exercises and tools. Information
 about how to enable specific exercises and tools is provided, followed by
@@ -76,12 +77,6 @@ to your course. For many of the exercises and tools, when you add a component
 Studio presents a template for you to use as a starting point for your work.
 XML examples and descriptions of the attributes, tags, and elements that you
 can use in an XML editor are also provided.
-
-.. note:: When you create problems, you must include labels for accessibility.
-   Accessible labels generally include the text of the main question in your
-   problem. Instructions for adding labels appear in the page for each
-   individual problem.
-
 
 .. _General Exercises and Tools:
 
