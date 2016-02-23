@@ -7,13 +7,11 @@ release in the near future. After these features are released, the release
 notes will include links to related documentation.
 
 ****************************************
-Notetaking Feature for Learners
+New Drag and Drop Problem Template
 ****************************************
 
-A feature that gives learners the ability to highlight course content and make
-notes while they take a course will soon be enabled for all courses on the
-edx.org and edge.edx.org websites. Learners who use this feature will be able
-to review their notes either in the course content or listed on a new, separate
-**Notes** page in the course.
+A new template for drag and drop problems is currently under development. This
+template will make drag and drop problems much easier to create and will
+eventually replace the current drag and drop problem template.
 
 .. include:: ../../links/links.rst

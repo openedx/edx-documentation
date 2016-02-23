@@ -1,0 +1,16 @@
+
+* A problem that caused a status of "Published, not yet released" to be visible
+  for sections in self-paced courses has been fixed. (ECOM-3615)
+
+
+
+
+
+
+
+
+
+
+
+
+

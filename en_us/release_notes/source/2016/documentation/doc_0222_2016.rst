@@ -10,11 +10,9 @@ audiences use edX websites and software effectively.
 Release Notes for 2013-2014
 ==================================
 
-Release notes for 2013 and 2014 are now located in a separate guide, `EdX
-Release Notes 2013-2014`_. Release notes for 2015 and 2016 are still at
-:ref:`document index`.
-
-.. Q to Carol about relative link for 2013-14 RN
+Release notes for 2013 and 2014 are now located in a separate guide,
+:ref:`2014releasenotes:document index`_. Release notes for 2015 and 2016 are
+still available at :ref:`document index`.
 
 ==================================
 Documentation for edx.org Users
