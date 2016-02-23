@@ -2752,6 +2752,10 @@ The server emits ``showanswer`` events when the answer to a problem is shown.
          Studio, including the display name, problem text, and choices or response field
          labels.
 
+.. Including the special exam (timed and proctored) events doc in a separate
+.. file because it is very long.
+
+.. include:: special_exam_events.rst
 
 .. _bookmark_events:
 
@@ -5882,6 +5886,11 @@ uploading a .csv file of student cohort assignments.
    * - ``user_id``
      - number
      - The numeric ID (from ``auth_user.id``) of the added user.
+
+.. Including the special exam (timed and proctored) developmnent events doc in
+.. a separate file because it is very long.
+
+.. include:: special_exam_development_events.rst
 
 
 .. include:: ../../../links/links.rst
