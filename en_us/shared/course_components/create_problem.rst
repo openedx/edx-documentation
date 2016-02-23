@@ -87,7 +87,8 @@ All problems on the edX platform have several component parts.
    green check mark or a red X.
 
    .. image:: ../../../shared/images/AnatomyofaProblem_Feedback.png
-    :alt: An image of a feedback checkmark and x from a learner's point of view.
+    :alt: An image of a feedback checkmark and x from a learner's point of
+     view.
 
 #. **Correct answer.** Most problems require that you specify
    a single correct answer.
@@ -123,10 +124,16 @@ All problems on the edX platform have several component parts.
 .. note:: Problems can be **open** or **closed.** Closed problems do not
           have a **Check** button. Learners can still see problem text,
           solutions, and revealed explanations, but they cannot check their
-          work, submit responses, or change an earlier score.
+          work, submit responses, or change earlier scores.
 
 There are also some attributes of problems that are not immediately
 visible. You can set these attributes in Studio.
+
+* **Accessible Label.** In the problem text, you can identify the text that is,
+  specifically, the question that learners need to answer. The text that is
+  labeled as the question is used by screen readers, reports, and Insights. For
+  more information, see
+  :ref:`Simple Editor`.
 
 * **Randomization.** In certain types of problems, you can include a Python
   script to randomize the values that are presented to learners. You use
@@ -135,11 +142,6 @@ visible. You can set these attributes in Studio.
 
 * **Weight.** Different problems in a particular problem set can be given
   different weights. For more information, see :ref:`Problem Weight`.
-
-* **Accessible Label.** In the problem text, you can add formatting to identify
-  the specific question that learners need to answer. This question text is
-  used by screen readers, reports, and Insights.  For more information, see
-  :ref:`Simple Editor`.
 
 .. _Problem Studio View:
 

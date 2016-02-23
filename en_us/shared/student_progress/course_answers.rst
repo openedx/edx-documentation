@@ -362,10 +362,11 @@ The .csv file contains the following columns.
    * - Problem Display Name
      - The **Display Name** defined for the problem.
    * - Question
-     - The text that you identified as the question for the problem. In
-       Studio's :ref:`Simple Editor`, this text is surrounded by two pairs of
-       angle brackets. Blank for questions that do not have an accessible label
-       defined.
+     - The text in the problem that is identified with accessible label
+       formatting. In Studio's :ref:`Simple Editor`, this text appears with two
+       angle brackets on either side pointing inward. For example, ``>>Is this
+       the question text?<<``. This column does not include a value for
+       problems that do not have an accessible label defined.
 
 Entries are sorted by the value in each column, starting with the ModuleID on
 the left and continuing through the columns to the right.
@@ -423,8 +424,10 @@ identifiers, such as choice_1 and choice_2, for those answers.
 **Why don't I see a Question for some of my problems?**
 
 The value in the **Question** column is the question text that you identified
-for the problem with the accessible label formatting. For more information
-about how to set up labels for problems, see :ref:`Simple Editor`.
+for the problem with the accessible label formatting. If you did not identify
+question text for the problem, you will not see a question. For more
+information about how to set up accessible labels for problems, see
+:ref:`Simple Editor`.
 
 Also, for problems that use the **Randomization** setting in Studio, if a
 particular answer has not been selected since early March 2014, the
@@ -464,7 +467,8 @@ Microsoft Excel for Mac than in OpenOffice Calc.
   Answer Values in Microsoft Excel for Mac:
 
    .. image:: ../../../shared/images/student_answer_excel.png
-     :alt: A spreadsheet that replaces accented French characters with underscores.
+     :alt: A spreadsheet that replaces accented French characters with
+      underscores.
 
   Answer Values in OpenOffice Calc:
 
