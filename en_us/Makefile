@@ -61,7 +61,7 @@ html:
 	@cd $(CURDIR)/open_edx_students && make html $(Q_FLAG)
 	@echo edX Release notes
 	@cd $(CURDIR)/release_notes && make html $(Q_FLAG)
-    @echo edX 2014 Release notes
+	@echo edX 2014 Release notes
 	@cd $(CURDIR)/release_notes_2014 && make html $(Q_FLAG)
 	@echo edX Students
 	@cd $(CURDIR)/students && make html $(Q_FLAG)
