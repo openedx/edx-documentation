@@ -4,7 +4,7 @@
 Installing Open edX Fullstack
 ####################################
 
-This section describes how to install the Open edX Fullstack.
+This section describes how to install the Open edX fullstack.
 
 .. contents::
    :local:
@@ -14,7 +14,7 @@ This section describes how to install the Open edX Fullstack.
 Overview
 **********
 
-Open edX Fullstack is a Vagrant instance designed for deploying all Open edX
+Open edX fullstack is a Vagrant instance designed for deploying all Open edX
 services on a single server.
 
 See the `Vagrant documentation`_ for more information.
@@ -23,7 +23,7 @@ See the `Vagrant documentation`_ for more information.
 Components
 ********************
 
-Open edX Fullstack includes the following edX components.
+Open edX fullstack includes the following edX components.
 
 * The Learning Management System (LMS).
 * EdX Studio.
@@ -38,7 +38,7 @@ Open edX Fullstack includes the following edX components.
 Knowledge Prerequisites
 **************************
 
-To use Fullstack, you should meet the following knowledge requirements.
+To use fullstack, you should meet the following knowledge requirements.
 
 * Understand basic terminal usage. If you are using a Mac computer, see
   `Introduction to the Mac OS X Command Line`_. If you are using a Windows
@@ -51,7 +51,7 @@ To use Fullstack, you should meet the following knowledge requirements.
 Software Prerequisites
 **************************
 
-To install and run Open edX Fullstack, you must first install the following
+To install and run Open edX fullstack, you must first install the following
 software.
 
 * `VirtualBox`_ 4.3.12 or higher
@@ -67,7 +67,7 @@ software.
 Install Open edX Fullstack
 *********************************
 
-To install Open edX Fullstack directly from the command line, follow the
+To install Open edX fullstack directly from the command line, follow the
 instructions below.
 
 Before beginning the installation, ensure that you have your local computer's
@@ -95,13 +95,13 @@ allow users to access code directories directly from your computer.
 
      vagrant plugin install vagrant-hostsupdater
 
-#. Create the Fullstack virtual machine.
+#. Create the fullstack virtual machine.
 
    .. code-block:: bash
 
      vagrant up
 
-   The first time you create the Fullstack virtual machine, Vagrant downloads
+   The first time you create the fullstack virtual machine, Vagrant downloads
    the base box, which has a file size of about 4GB. If you destroy and
    recreate the virtual machine, Vagrant re-uses the box it downloaded. See
    `Vagrant's documentation on boxes`_ for more information.
@@ -117,6 +117,6 @@ In your browser, go to ``preview.localhost``, which is an alias entry for
 
 The latest version of fullstack is preloaded with the demonstration course and
 the same set of :ref:`default user accounts<Default Accounts on Devstack>` that
-is created for Devstack.
+is created for devstack.
 
 .. include:: ../../../links/links.rst

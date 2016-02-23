@@ -14,14 +14,14 @@ This section describes how to run the Open edX Developer Stack.
 Connect to the Devstack Virtual Machine
 ****************************************
 
-#. To connect to the Devstack virtual machine, use the SSH command from the
+#. To connect to the devstack virtual machine, use the SSH command from the
    `devstack` directory.
 
    .. code-block:: bash
 
      vagrant ssh
 
-#. To use Devstack and perform any of the tasks described in this section, you
+#. To use devstack and perform any of the tasks described in this section, you
    must connect as the user **edxapp**.
 
    .. code-block:: bash
@@ -39,7 +39,7 @@ Connect to the Devstack Virtual Machine
 Set Up Ability to Preview Units (Mac/Linux Only)
 ****************************************************
 
-If you are installing Devstack on a Linux or Macintosh computer, in order to
+If you are installing devstack on a Linux or Macintosh computer, in order to
 use the preview feature in edX Studio, you must add the following line to the
 ``etc/hosts`` file.
 
@@ -52,7 +52,7 @@ Customize the Source Code Location
 ************************************
 
 You can customize the location of the edX source code that gets cloned when you
-provision Devstack. You may want to do this to have Devstack work with source
+provision devstack. You may want to do this to have devstack work with source
 code that already exists on your computer.
 
 By default, the source code location is the directory in which you run
@@ -66,13 +66,13 @@ cs_comments_service source code directories.
 Run the LMS on Devstack
 ************************************
 
-When you run the LMS on Devstack, the command updates requirements and
+When you run the LMS on devstack, the command updates requirements and
 compiles assets, unless you use the ``fast`` option.
 
 The command uses the file ``lms/envs/devstack.py``. This file
 overrides production settings for the LMS.
 
-To run the LMS on Devstack, follow these steps.
+To run the LMS on devstack, follow these steps.
 
 #. `Connect to the Devstack Virtual Machine`_.
 
@@ -99,13 +99,13 @@ To run the LMS on Devstack, follow these steps.
 Run Studio on Devstack
 ************************************
 
-When you run Studio on Devstack, the command updates requirements and compiles
+When you run Studio on devstack, the command updates requirements and compiles
 assets, unless you use the ``fast`` option.
 
-You run Studio on Devstack with the file ``cms/envs/devstack.py``. This file
+You run Studio on devstack with the file ``cms/envs/devstack.py``. This file
 overrides production settings for Studio.
 
-To run Studio on Devstack, follow these steps.
+To run Studio on devstack, follow these steps.
 
 #. `Connect to the Devstack Virtual Machine`_.
 
@@ -143,7 +143,7 @@ To view all available commands for Studio, enter the following command.
 Run Discussion Forums on Devstack
 ************************************
 
-To run discussion forums on Devstack, follow these steps.
+To run discussion forums on devstack, follow these steps.
 
 #. `Connect to the Devstack Virtual Machine`_.
 
@@ -180,7 +180,7 @@ at ``http://localhost:18080/``.
 Default Accounts on Devstack
 ************************************
 
-When you install Devstack, the following accounts are created.
+When you install devstack, the following accounts are created.
 
   .. list-table::
    :widths: 20 60
