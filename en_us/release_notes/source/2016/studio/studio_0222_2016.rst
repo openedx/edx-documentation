@@ -2,15 +2,12 @@
 * A problem that caused a status of "Published, not yet released" to be visible
   for sections in self-paced courses has been fixed. (ECOM-3615)
 
+* The Randomize component is now deprecated and can no longer be added in
+  Studio. When you access a course that still uses the Randomize component,
+  Studio displays the message “This course uses features that are no longer
+  supported.” If your course uses the deprecated Randomize component, you
+  should replace any instances with randomized content blocks.
 
-
-
-
-
-
-
-
-
-
-
-
+  To provide randomized content, you can use randomized content blocks in
+  content libraries. For more information, see
+  :ref:`partnercoursestaff:Randomized Content Blocks`.

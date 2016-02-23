@@ -12,7 +12,7 @@ Release Notes for 2013-2014
 
 Release notes for 2013 and 2014 are now located in a separate guide,
 :ref:`2014releasenotes:document index`_. Release notes for 2015 and 2016 are
-still available at :ref:`document index`.
+still available at :ref:`partnerreleasenotes:document index` and :ref:`openreleasenotes:document index`.
 
 ==================================
 Documentation for edx.org Users

@@ -17,18 +17,31 @@ account for the wiki and review the dated release pages.
 EdX Studio
 *************
 
-.. include:: studio/studio_0215_2016.rst
+.. include:: studio/studio_0222_2016.rst
 
 *************
 EdX LMS
 *************
 
-.. include:: lms/lms_0215_2016.rst
+.. include:: lms/lms_0222_2016.rst
 
 *************
-Open edX
+Analytics
 *************
 
-.. include:: openedx/openedx_0215_2016.rst
+.. include:: analytics/analytics_0222_2016.rst
+
+*************
+Mobile
+*************
+
+.. include:: mobile/mobile_0222_2016.rst
+
+*************
+Documentation
+*************
+
+.. include:: documentation/doc_0222_2016.rst
+
 
 .. include:: ../../../links/links.rst
