@@ -28,6 +28,7 @@ Components Index`.
    completion
    custom_javascript
    drag_and_drop
+   drag_and_drop_deprecated
    dropdown
    external_graders
    full_screen_image

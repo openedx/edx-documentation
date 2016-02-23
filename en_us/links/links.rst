@@ -82,6 +82,8 @@
 
 .. _PyEnv: https://github.com/yyuu/pyenv
 
+.. _example CSS file for drag and drop problems: https://github.com/edx-solutions/xblock-drag-and-drop-v2/blob/master/drag_and_drop_v2/public/themes/apros.css
+
 .. _VirtualEnv: http://www.virtualenv.org/en/latest/
 
 .. _Virtual Environments: http://docs.python-guide.org/en/latest/dev/virtualenvs/
@@ -345,6 +347,8 @@
 .. _Office Mix Knowledge Base: https://officemix.uservoice.com/knowledgebase
 
 .. _How to add Closed Captions to an Office Mix: https://officemix.uservoice.com/knowledgebase/articles/505262-how-to-add-closed-captions-to-an-office-mix
+
+.. _W3C CSS color specification: https://www.w3.org/TR/css3-color/
 
 .. Release Notes
 
