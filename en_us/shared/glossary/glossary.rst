@@ -43,7 +43,7 @@ A
 
   All problems require accessible labels.
 
-  For more information, see `Simple Editor`_.
+  For more information, see :ref:`Simple Editor`.
 
 .. _Advanced Editor_g:
 
