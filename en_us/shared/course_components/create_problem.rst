@@ -46,8 +46,7 @@ All problems on the edX platform have several component parts.
        elements of the problem.
   :width: 500
 
-#. **Problem text.** The problem text, or question, can contain any standard
-   HTML formatting.
+#. **Problem text.** The problem text can contain any standard HTML formatting.
 
 #. **Response field with the learner's answer.** Learners enter answers
    in response fields. The appearance of the response field depends on
@@ -88,7 +87,8 @@ All problems on the edX platform have several component parts.
    green check mark or a red X.
 
    .. image:: ../../../shared/images/AnatomyofaProblem_Feedback.png
-    :alt: An image of a feedback checkmark and x from a learner's point of view.
+    :alt: An image of a feedback checkmark and x from a learner's point of
+     view.
 
 #. **Correct answer.** Most problems require that you specify
    a single correct answer.
@@ -97,7 +97,7 @@ All problems on the edX platform have several component parts.
    appears when a learner selects **Show Answer**.
 
 #. **Reset button.** Learners can select **Reset** to clear any input that has
-   not yet been submitted, and try again to answer the question.
+   not yet been submitted, and try again to answer the problem.
 
    - If the learner has already submitted an answer, selecting **Reset** clears
      the submission and, if the problem includes a Python script to randomize
@@ -122,12 +122,18 @@ All problems on the edX platform have several component parts.
    provide feedback.
 
 .. note:: Problems can be **open** or **closed.** Closed problems do not
-          have a **Check** button. Learners can still see questions, solutions,
-          and revealed explanations, but they cannot check their work, submit
-          responses, or change an earlier score.
+          have a **Check** button. Learners can still see problem text,
+          solutions, and revealed explanations, but they cannot check their
+          work, submit responses, or change earlier scores.
 
 There are also some attributes of problems that are not immediately
 visible. You can set these attributes in Studio.
+
+* **Accessible Label.** In the problem text, you can identify the text that is,
+  specifically, the question that learners need to answer. The text that is
+  labeled as the question is used by screen readers, reports, and Insights. For
+  more information, see
+  :ref:`Simple Editor`.
 
 * **Randomization.** In certain types of problems, you can include a Python
   script to randomize the values that are presented to learners. You use
@@ -136,12 +142,6 @@ visible. You can set these attributes in Studio.
 
 * **Weight.** Different problems in a particular problem set can be given
   different weights. For more information, see :ref:`Problem Weight`.
-
-* **Label.** To improve accessibility for learners who have disabilities, each
-  problem needs a descriptive label. The label typically contains part or all
-  of the text of the question in the problem. Most templates include a space
-  for a label. You can find example labels in the documentation for each
-  problem or tool type, in the :ref:`Create Exercises` section.
 
 .. _Problem Studio View:
 
@@ -159,9 +159,9 @@ editing problem components: the simple editor and the advanced editor.
    allows you to edit that XML directly.
 
 You can switch at any time from the simple editor to the advanced editor by
-selecting **Advanced Editor** in the top right corner of the simple editor
-interface. However, after you save a problem in the advanced editor, you cannot
-open it again in the simple editor.
+selecting **Advanced Editor** from the simple editor's toolbar. However, after
+you save a problem in the advanced editor, you cannot open it again in the
+simple editor.
 
 .. _Simple Editor:
 
@@ -178,19 +178,18 @@ preformatted example problem.
 *  :ref:`Dropdown`: In dropdown problems, learners select one answer from a
    dropdown list.
 
-*  :ref:`Multiple Choice`: Multiple choice problems require learners to
-   select one answer from a list of choices that appear directly below
-   the question.
+*  :ref:`Multiple Choice`: Multiple choice problems require learners to select
+   one answer from a list of choices that appear below the problem text.
 
 *  :ref:`Numerical Input`: Numerical input problems require answers that
    include only integers, fractions, and a few common constants and
    operators.
 
 *  :ref:`Text Input`: In text input problems, learners enter a short text
-   answer to a question.
+   answer.
 
-The following image shows an example multiple choice problem in the Simple
-Editor.
+The following image shows an example multiple choice problem in the simple
+editor.
 
 .. image:: ../../../shared/images/MultipleChoice_SimpleEditor.png
  :alt: An image of the simple editor with numbered callouts for each option,
@@ -208,7 +207,7 @@ Descriptions of the toolbar options follow.
 #. **Heading**: Formats text as a title or heading.
 
 #. **Multiple Choice**: Identifies text as an answer option for a multiple
-   choice question.
+   choice problem.
 
 #. **Checkboxes**: Identifies text as an answer option for a checkboxes
    problem.
@@ -225,22 +224,26 @@ Descriptions of the toolbar options follow.
 #. **Explanation**: Formats text as an explanation that appears after learners
    select **Show Answer**.
 
-#. Opens the problem in the Advanced Editor.
+#. Opens the problem in the advanced editor.
 
 #. Opens a list of formatting hints.
 
-#. **Accessible Label**: Identifies the question that learners will answer by
-   selecting the options that follow, or by entering a text or numeric
-   response. The toolbar does not have an option that provides this formatting,
-   so you type two angle brackets on either side of the question text pointing
-   inward. For example, ``>>Is this the question text?<<``.
+#. **Accessible Label**: Identifies the part of the problem text that is the
+   specific question that learners will answer by selecting the options that
+   follow, or by entering a text or numeric response. The toolbar does not have
+   an option that provides this formatting, so you type two angle brackets on
+   either side of the question text pointing inward. For example, ``>>Is this
+   the question text?<<``.
 
-   * Screen readers read all of the text that you supply for the problem, but
-     then repeat the text that is identified with this formatting immediately
+   * Screen readers read all of the text that you supply for the problem, and
+     then repeat the text that you identify with this formatting immediately
      before reading the answer choices for the problem.
 
-   * EdX Insights uses the text with this formatting to identify the question
-     for each problem. For more information, see `Using edX Insights`_.
+   * The :ref:`Student_Answer_Distribution` report uses the text with this
+     formatting to identify each problem.
+
+   * Insights also uses the text with this formatting to identify each problem.
+     For more information, see `Using edX Insights`_.
 
 .. _Advanced Editor:
 
@@ -248,12 +251,12 @@ Descriptions of the toolbar options follow.
 The Advanced Editor
 ===================
 
-The **Advanced Editor** opens a problem in XML. Templates for problems such as
-such as drag and drop and math expression input open directly in the Advanced
-Editor.
+The advanced editor opens a problem in XML. Templates for problems such as
+such as drag and drop and math expression input open directly in the advanced
+editor.
 
-The following image shows the multiple choice problem above in the Advanced
-Editor instead of the simple editor.
+The following image shows the multiple choice problem above in the advanced
+editor instead of the simple editor.
 
 .. image:: ../../../shared/images/MultipleChoice_AdvancedEditor.png
  :alt: An image of a problem in the advanced editor.
@@ -335,9 +338,9 @@ problems defaults to that number, and cannot be set to unlimited.
    encourages risk taking and experimentation, both of which lead to improved
    learning outcomes. Allowing for unlimited attempts might be impossible in
    some courses, such as those where grading is primarily based on multiple
-   choice questions.
+   choice problems.
 
-.. note:: Only questions that have a **Maximum Attempts** setting of 1 or
+.. note:: Only problems that have a **Maximum Attempts** setting of 1 or
    higher are included in the answer distribution computations used in edX
    Insights and the Student Answer Distribution report.
 
@@ -515,17 +518,17 @@ the following options
    * - **Answered**
      - Show the answer after the learner tries to answer the problem.
 
-       If the question can be, and is, reset, the answer is not shown until the
-       learner tries the problem again. (When a learner answers a question, the
-       question is considered to be both attempted and answered. When the
-       question is reset, the question is still attempted, but not yet
+       If the problem can be, and is, reset, the answer is not shown until the
+       learner tries the problem again. (When a learner answers a problem, the
+       problem is considered to be both attempted and answered. When the
+       problem is reset, the problem is still attempted, but not yet
        answered.)
    * - **Attempted**
      - Show the answer after the learner tries to answer the problem.
 
-       If the question can be, and is, reset, the answer continues to show.
-       (When a learner answers a question, the question is considered to be
-       both attempted and answered. When the question is reset, the question is
+       If the problem can be, and is, reset, the answer continues to show.
+       (When a learner answers a problem, the problem is considered to be
+       both attempted and answered. When the problem is reset, the problem is
        still attempted, but not yet answered.)
    * - **Closed**
      - Show the answer after the learner has used up all his attempts to answer
@@ -645,7 +648,7 @@ Multiple Problems in One Component
 
 You might want to create a problem that has more than one response type. For
 example, you might want to create a numerical input problem and then include a
-multiple choice question about that numerical input problem. Or, you might
+multiple choice problem about that numerical input problem. Or, you might
 want a learner to be able to check the answers to many problems at one time. To
 do this, you can include multiple problems inside a single problem component.
 The problems can be different types.
