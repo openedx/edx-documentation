@@ -421,6 +421,13 @@ answers, the learner's score is 0.5 out of 2 points.
 Randomization
 ===============
 
+.. note:: The **Randomization** setting serves a different purpose from
+ "problem randomization". The **Randomization** setting affects how numeric
+ values are randomized within a single problem and requires the inclusion of a
+ Python script. Problem randomization offers different problems or problem
+ versions to different learners. For more information, see :ref:`Problem
+ Randomization`.
+
 For problems that include a Python script to generate numbers randomly, this
 setting specifies how frequently the values in the problem change: each time a
 different learner accesses the problem, each time a single learner tries to
@@ -443,18 +450,10 @@ these steps.
 * Make sure that you edit your problem to include a Python script that randomly
   generates numbers.
 
-..  For more information, see :ref:`Use Randomization in a
-  Numerical Input Problem`.
-.. ^^ add back when DOC-2175 gets done - Alison 30 Jul 15
-
 * Select an option other than **Never** for the **Randomization** setting.
 
-.. note:: The **Randomization** setting serves a different purpose from
- "problem randomization". The **Randomization** setting affects how numeric
- values are randomized within a single problem and requires the inclusion of a
- Python script. Problem randomization offers different problems or problem
- versions to different learners. For more information, see :ref:`Problem
- Randomization`.
+..  For more information, see :ref:`Use Randomization in a Numerical Input Problem`.
+..  ^^ add back to first bullet when DOC-2175 gets done - Alison 30 Jul 15
 
 The edX Platform has a 20-seed maximum for randomization. This means that
 learners see up to 20 different problem variants for every problem that has
@@ -677,6 +676,7 @@ answers for all the problems in the component appear.
 
 .. include:: ../../../shared/exercises_tools/Section_partial_credit.rst
 
+
 .. _Problem Randomization:
 
 ***********************************
@@ -686,22 +686,17 @@ Problem Randomization
 Presenting different learners with different problems or with different
 versions of the same problem is referred to as "problem randomization".
 
-To use problem randomization, you first create a problem component in Studio
-for each of the problems or versions you want to include. You then edit your
-course outside of Studio, using OLX, to randomize the problem that learners
-see. For more information, see :ref:`Create Randomized Problems`.
+You can provide different learners with different problems by using randomized
+content blocks, which randomly draw problems from pools of problems stored in
+content libraries. For more information, see :ref:`Randomized Content Blocks`.
 
-Note that problem randomization is different from the **Randomization**
-setting in Studio. Problem randomization offers different problems or problem
-versions to different learners, whereas the **Randomization** setting controls
-when a Python script randomizes the variables within a single problem. For
-more information about the **Randomization** setting, see
-:ref:`Randomization`.
+.. note:: Problem randomization is different from the **Randomization** setting
+   in Studio. Problem randomization offers different problems or problem
+   versions to different learners, whereas the **Randomization** setting
+   controls when a Python script randomizes the variables within a single
+   problem. For more information about the **Randomization** setting, see
+   :ref:`Randomization`.
 
-Another method of providing different learners with different problems is to
-use randomized content blocks, which randomly draw problems from pools of
-problems stored in content libraries. For more information, see
-:ref:`Randomized Content Blocks`.
 
 
 ============================================
@@ -739,91 +734,15 @@ contains. To find a unit, look in the **Vertical** directory.
 Create Randomized Problems
 ==========================
 
-.. note:: Creating problems with versions that can be randomized requires you
-   to export your course, edit some of your course's XML files in a text
-   editor, and then re-import your course. We recommend that you create a
-   backup copy of your course before you do this. We also recommend that you
-   edit your course files in the text editor only if you are very familiar
-   with editing XML.
+.. note:: Creating randomized problems by exporting your course and editing
+   some of your course's XML files is no longer supported.
 
-#. In the unit where you want to create a randomized problem, create a separate
-   problem component for each version or problem that you want to randomize.
-   For example, if you want to offer four versions or problems, create
-   four separate problem components. Make a note of the 32-digit unit ID that
-   appears in the **Unit Identifier** field under **Unit Location**.
+You can provide different learners with different problems by using randomized
+content blocks, which randomly draw problems from pools of problems stored in
+content libraries. For more information, see
+:ref:`partnercoursestaff:Randomized Content Blocks`.
 
-#. Export your course. For more information, see
-   :ref:`Exporting and Importing a Course`. Save and extract the .tar.gz file
-   that contains your course in a memorable location so that you can find
-   it easily.
-
-#. In the list of directories and files, open the **Vertical** directory.
-
-   .. note:: If your unit is not published, open the **Drafts** directory, and
-    then open the **Vertical** directory in the **Drafts** folder.
-
-#. In the **Vertical** folder, locate the .xml file that has the same name as
-   the unit ID that you noted in step 1, and then open the file in a text
-   editor such as Sublime. For example, if the unit ID is
-   ``e461de7fe2b84ebeabe1a97683360d31``, open the
-   ``e461de7fe2b84ebeabe1a97683360d31.xml`` file.
-
-   The file contains a list of all the components in the unit, together with
-   the URL names of the components. For example, the following file contains
-   four problem components.
-
-   .. code-block:: xml
-
-       <vertical display_name="Test Unit">
-          <problem url_name="d9d0ceb3ffc74eacb29501183e26ad6e"/>
-          <problem url_name="ea66d875f4bf4a9898d8e6d2cc9f3d6f"/>
-          <problem url_name="2616cd6324704f85bc315ec46521485d"/>
-          <problem url_name="88987707294d4ff0ba3b86921438d0c0"/>
-       </vertical>
-
-#. Add ``<randomize> </randomize>`` tags around the components for the problems
-   that you want to randomize.
-
-   .. code-block:: xml
-
-       <vertical display_name="Test Unit">
-         <randomize>
-            <problem url_name="d9d0ceb3ffc74eacb29501183e26ad6e"/>
-            <problem url_name="ea66d875f4bf4a9898d8e6d2cc9f3d6f"/>
-            <problem url_name="2616cd6324704f85bc315ec46521485d"/>
-            <problem url_name="88987707294d4ff0ba3b86921438d0c0"/>
-         </randomize>
-       </vertical>
-
-#. After you add the ``<randomize> </randomize>`` tags, save and close the .xml
-   file.
-
-#. Re-package your course as a .tar.gz file.
-
-   For information about how to do this on a Mac, see `How to Create a Tar GZip
-   File from the Command Line <http://osxdaily.com/2012/04/05/create-tar-gzip/>`_.
-
-   For information about how to do this on a Windows computer, see `How to Make
-   a .tar.gz on Windows <http://stackoverflow.com/questions/12774707/how-to-make-a-tar-gz-on-windows>`_.
-
-#. In Studio, re-import your course.
-
-.. note::
-
-  * After you implement randomization, you can only see one of the versions or
-    problems in Studio. You can edit that single problem directly in Studio,
-    but to edit any of the other problems, you must export your course, edit
-    the problems in a text editor, and then re-import the course. The same
-    procedure applies to all course team members, regardless of their assigned
-    roles.
-
-  * A .csv file for learner responses contains the responses to each of the
-    problems in the problem bank.
 
 .. include:: ../../../shared/exercises_tools/Section_adding_tooltip.rst
 
-.. _Using edX Insights: http://edx.readthedocs.org/projects/edx-insights/en/latest/
-
-.. _Review Answers to Graded Problems: http://edx.readthedocs.org/projects/edx-insights/en/latest/performance/Performance_Answers.html#review-answers-to-graded-problems
-
-.. _Review Answers to Ungraded Problems: http://edx.readthedocs.org/projects/edx-insights/en/latest/performance/Performance_Ungraded.html#review-answers-to-ungraded-problems
+.. include:: ../../../links/links.rst
