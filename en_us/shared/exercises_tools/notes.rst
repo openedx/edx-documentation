@@ -4,8 +4,7 @@
 Notes Tool
 ##############################
 
-.. note:: EdX offers provisional support for this tool. This tool is available
- on the Open edX platform. It is not available for courses on edx.org.
+.. note:: EdX offers full support for this tool.
 
 The notes tool allows learners to highlight and make notes about what
 they read in the body of the course.
@@ -18,18 +17,31 @@ they read in the body of the course.
  HTML components. However, the tool is currently not available for discussions,
  exercises, video transcripts, or PDF documents.
 
-This tool is enabled by default. You do not have to do anything before
-learners can use this tool.
-
 Learners can access their notes either in the body of the course or on a
 **Notes** page. On the **Notes** page, a learner can see all the notes that
 she has made during the course. The page also contains links to the location
 of the notes in the course body.
 
-.. image:: ../../../shared/images/SFD_SN_NotesPage.png
+.. image:: ../../../shared/images/SN_NotesPage.png
   :width: 500
-  :alt: The Notes page listing all of the notes a learner has taken for a
+  :alt: The Notes page, listing the notes a learner has made in the
       course.
 
-For detailed information about the ways learners can use notes, see
-:ref:`openlearners:SFD Notes`.
+You must enable the Notes tool before learners can use it. To enable the Notes
+tool, follow these steps.
+
+#. In Studio, select **Settings**, and then **Advanced Settings**.
+
+#. In the **Enable Notes** field, enter ``true``.
+
+#. Select **Save Changes**.
+
+.. only:: Partners
+
+ For more information about the ways learners can use notes, see
+ `ref:`learners:SFD Notes`.
+
+.. only:: Open_edX
+
+ For more information about the ways learners can use notes, see
+ :ref:`openlearners:SFD Notes`.
