@@ -34,8 +34,8 @@ The :ref:`learners:SFD Notes` topic is now available.
 EdX Research Guide
 *********************
 
-* The :ref:`data:notes` section lists the seven new events that are included
-  with the new Notes tool.
+The :ref:`data:notes` section lists the seven new events that are included with
+the new Notes tool.
 
 
 ==================================
