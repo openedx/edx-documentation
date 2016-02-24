@@ -1,0 +1,55 @@
+==================================
+EdX Documentation Resources
+==================================
+
+EdX publishes documentation on the `docs.edx.org`_ website. Guides are
+available to help learners, course teams, researchers, developers, and other
+audiences use edX websites and software effectively.
+
+==================================
+Release Notes for 2013-2014
+==================================
+
+Release notes for 2013 and 2014 are now located in a separate guide,
+:ref:`2014releasenotes:document index`. Release notes for 2015 and 2016 are
+still available at :ref:`partnerreleasenotes:document index`.
+
+==================================
+Documentation for edx.org Users
+==================================
+
+Guides described in this section are intended for audiences that are using, or
+learning about, courses on the `edx.org`_ or edge.edx.org websites.
+
+Building and Running an edX Course
+************************************
+
+The :ref:`partnercoursestaff:Notes Tool` topic is now available.
+
+edX Learner's Guide
+**********************************
+
+The :ref:`learners:SFD Notes` topic is now available.
+
+EdX Research Guide
+*********************
+
+* The :ref:`data:notes` section lists the seven new events that are included
+  with the new Notes tool.
+
+
+==================================
+Documentation for Open edX Users
+==================================
+
+Guides described in this section are intended for audiences that are using, or
+learning about, courses on an Open edX instance.
+
+
+
+Installing, Configuring, and Running the Open edX Platform
+************************************************************
+
+The :ref:`installation:Configure OAuth Token Expiration Days` topic is now
+available.
+
