@@ -385,6 +385,9 @@ who submit an answer that is partly correct. You must use the `advanced editor
 <Use the Advanced Editor to Edit a Checkbox Problem>`_ to configure partial
 credit.
 
+For an overview of partial credit in problems, see :ref:`Awarding Partial
+Credit for a Problem`.
+
 .. only:: Partners
 
  .. note::
@@ -405,8 +408,6 @@ answer left unselected (known as `every decision counts`_), the learner earned
      three answers.
  :width: 600
 
-For an overview of partial credit in problems, see
-:ref:`Awarding Partial Credit for a Problem`.
 
 There are two ways to award partial credit in a checkbox problem.
 
@@ -432,10 +433,8 @@ For example, if there are four options, each one is worth 25% of the total
 score. If a learner's response is wrong for one option, she receives 75% of the
 points for the problem.
 
-To expand on this example, take a checkbox problem with four options, A, B, C,
-and D. Options A and B are correct, and C and D are incorrect. The following
-table describes the learner's score for different submissions for an EDC
-problem.
+The following table describes the learner's score for different submissions
+for EDC problems with a variety of correct answer options.
 
 .. list-table::
      :widths: 20 20 20 20
@@ -486,50 +485,149 @@ updated to provide partial credit.
 Using the Halves Style
 =======================
 
-You can configure a checkbox problem so that for every option a learner gets
-wrong, either by not selecting a correct option or selecting an incorrect
-option, half of the remaining points are subtracted from the problem. This is
-known as scoring by "halves".
+You can configure a checkbox problem so that for every option that a learner
+gets wrong, either by not selecting a correct option or by selecting an
+incorrect option, half of the remaining points are deducted from the learner's
+score. This is known as scoring by "halves".
 
-For example, if a learner gets one out of four options wrong, he receives 50%
-of the points for the problem.
+.. note:: By design, partial credit by halves requires the number of answer
+   options to be more than twice the number of incorrect answers. In addition,
+   partial credit is not given for more than two wrong answers, regardless of
+   the total number of answer options. In other words, two wrong answers is
+   scored at 25% only if there are at least 5 answer options. Three or more
+   wrong answers is always scored at 0%, regardless of the number of total
+   answer options.
 
-To expand on the example above, in which options A and B are correct, and C and
-D are incorrect, the following table describes the learner's score for
-different submissions for a Halves problem.
+Partial credit using the halves method is calculated as follows.
+
+* If a learner makes no errors, she receives full credit for the problem.
+
+* If a learner makes one error, she receives 50% of the possible points, as long
+  as there are three or more choices in the problem. If a learner makes one
+  error and there are only two choices in the problem, no credit is given.
+
+* If a learner makes two errors, she receives 25% of the possible points, as
+  long as there are five or more choices in the problem. If a learner makes two
+  errors and there are only three choices or four choices in the problem, no
+  credit is given.
+
+* If a learner makes three errors, she receives no credit for the problem,
+  regardless of how many answer options there are.
+
+The following tables illustrate partial credit score using the halves method,
+for problems with an increasing number of total answer options.
 
 .. list-table::
-     :widths: 20 20 20 20
+     :widths: 30 30 30
      :header-rows: 1
 
-     * - Learner's Selections
-       - Correct Answers
-       - Incorrect Answers
-       - Score
-     * - A, B, C
-       - A, B, D
-       - C
-       - 50%
-     * - A
-       - A, C, D
-       - B
-       - 50%
-     * - A, C
-       - A, D
-       - B, C
-       - 0%
-     * - C, D
-       -
-       - A, B, C, D
-       - 0%
+     * - Number of Incorrect Answers
+       - Number of Answer Options
+       - Credit Given (%)
+     * - 0
+       - 2
+       - 100
+     * - 1
+       - 2
+       - 0
+     * - 2
+       - 2
+       - 0
 
-.. note::
-  For half of the remaining points to be deducted, the problem must have more
-  than twice the number of options than the number of incorrect answers in the
-  learner's response. Otherwise, the learner receives no credit for the
-  problem. For example, if the learner gets two out of four options wrong, he
-  receives no credit for the problem. If he gets two out of five options wrong,
-  he gets 25% of the points.
+.. list-table::
+     :widths: 30 30 30
+     :header-rows: 1
+
+     * - Number of Incorrect Answers
+       - Number of Answer Options
+       - Credit Given (%)
+     * - 0
+       - 3
+       - 100
+     * - 1
+       - 3
+       - 0
+     * - 2
+       - 3
+       - 0
+     * - 3
+       - 3
+       - 0
+
+.. list-table::
+     :widths: 30 30 30
+     :header-rows: 1
+
+     * - Number of Incorrect Answers
+       - Number of Answer Options
+       - Credit Given (%)
+     * - 0
+       - 4
+       - 100
+     * - 1
+       - 4
+       - 50
+     * - 2
+       - 4
+       - 0
+     * - 3
+       - 4
+       - 0
+     * - 4
+       - 4
+       - 0
+
+.. list-table::
+     :widths: 30 30 30
+     :header-rows: 1
+
+     * - Number of Incorrect Answers
+       - Number of Answer Options
+       - Credit Given (%)
+     * - 0
+       - 5
+       - 100
+     * - 1
+       - 5
+       - 50
+     * - 2
+       - 5
+       - 25
+     * - 3
+       - 5
+       - 0
+     * - 4
+       - 5
+       - 0
+     * - 5
+       - 5
+       - 0
+
+.. list-table::
+     :widths: 30 30 30
+     :header-rows: 1
+
+     * - Number of Incorrect Answers
+       - Number of Answer Options
+       - Credit Given (%)
+     * - 0
+       - 7
+       - 100
+     * - 1
+       - 7
+       - 50
+     * - 2
+       - 7
+       - 25
+     * - 3
+       - 7
+       - 0
+     * - 4
+       - 7
+       - 0
+     * - 5
+       - 7
+       - 0
 
 
 Configure a Halves Checkbox Problem
