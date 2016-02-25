@@ -169,6 +169,8 @@ To configure the number of days before OAuth tokens expire, follow these steps.
    values defined in ``lms/envs/common.py``.
 
 
+.. _Configuring Video Modules for Mobile:
+
 ************************************
 Configuring Video Modules for Mobile
 ************************************
