@@ -86,10 +86,11 @@ information, see :ref:`Adding Videos to a Course`.
      results to two host sites
 
 When a learner uses the edX video player or the edX mobile app to access a
-course video, the video ID is what provides the connection to the URLs that host
-each differently-encoded version of the original video file. For information
-about ensuring that your videos are available for learners using the edX mobile
-apps, see :ref:`installation:Configuring Video Modules for Mobile`.
+course video, the video ID is what provides the connection to the URLs that
+host each differently-encoded version of the original video file. For
+information about ensuring that your videos are available to learners who use
+the edX mobile apps, see :ref:`installation:Configuring Video Modules for
+Mobile`.
 
 The course team can add a video to their course as soon as its unique video ID
 is assigned, and the video plays in the LMS as soon as its status is Ready.
