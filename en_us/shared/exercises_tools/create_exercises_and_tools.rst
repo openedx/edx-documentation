@@ -9,6 +9,10 @@ course outline. By default, a core set of exercises is available for you to add
 to your course. There are also numerous additional exercises and tools that you
 can review and add to your course.
 
+.. contents::
+  :local:
+  :depth: 2
+
 ************************************
 Levels of Support for Tools
 ************************************
@@ -42,13 +46,6 @@ provides the definition for each level of support.
        courses due to non-compliance with one or more of the base
        requirements, such as testing, accessibility, internationalization, and
        documentation.
-
-
-.. contents::
-  :local:
-  :depth: 1
-
-Exercises and tools are listed alphabetically in each of these sections.
 
 ************************************
 Introduction to Exercises and Tools
@@ -84,6 +81,9 @@ can use in an XML editor are also provided.
 General Exercises and Tools
 ****************************
 
+Exercises and tools with a wide range of uses are listed alphabetically in this
+table.
+
 .. only:: Open_edX
 
   .. note:: In addition to the following exercises and tools, Open edX offers
@@ -111,20 +111,20 @@ General Exercises and Tools
        letters, trigonometric functions, and scientific or ``e`` notation in
        addition to common operators.
      - Provisional support
+   * - :ref:`completion`
+     - This tool allows learners to mark sections of course content as
+       completed. It helps learners to track their progress through sections of
+       the course (including for ungraded activities such as reading text,
+       watching video, or participating in course discussions), and gives them
+       a way to indicate to both themselves and course staff that they
+       completed the required activities.
+     - Full support
    * - :ref:`Conditional Module`
      - You can create a conditional module to control versions of content that
        groups of learners see. For example, learners who answer "Yes" to a poll
        question then see a different block of text from the learners who answer
        "No" to that question.
      - Provisional support
-   * - :ref:`completion`
-     - This tool allows learners to mark sections of course content as
-       completed. It helps learners to track their progress through sections of
-       the course (including for ungraded activities such as reading text,
-       watching video, or participating in course discussions), and gives them a
-       way to indicate to both themselves and course staff that they completed
-       the required activities.
-     - Full support
    * - :ref:`Custom JavaScript`
      - Custom JavaScript display and grading problems (also called custom
        JavaScript problems or JS input problems) allow you to create a
@@ -204,6 +204,13 @@ General Exercises and Tools
      - You can import surveys that you have created in Qualtrics. The survey
        appears inside an iframe in your course.
      - Full support
+   * - :ref:`RecommenderXBlock`
+     - RecommenderXBlock can hold a list of resources for misconception
+       remediation, additional reading, and so on. This tool allows the
+       course team and learners to work together to maintain the list of
+       resources. For example, team members and learners can suggest new
+       resources, vote for useful ones, or flag abuse and spam.
+     - Full support
    * - :ref:`Survey Tool`
      - You can include surveys in your course to collect learner responses to
        multiple questions. You can use the survey tool in Studio.
@@ -223,17 +230,13 @@ General Exercises and Tools
        the problem to evaluates a learner's response or provide hints. These
        problems can be any type.
      - Provisional support
-   * - :ref:`RecommenderXBlock`
-     - RecommenderXBlock can hold a list of resources for misconception
-       remediation, additional reading, and so on. This tool allows the
-       course team and learners to work together to maintain the list of
-       resources. For example, team members and learners can suggest new
-       resources, vote for useful ones, or flag abuse and spam.
-     - Full support
 
 ********************************
 Image-Based Exercises and Tools
 ********************************
+
+Exercises and tools that involve image files are listed alphabetically in
+this table.
 
 .. list-table::
    :widths: 25 60 20
@@ -265,6 +268,9 @@ Image-Based Exercises and Tools
 ************************************
 Multiple Choice Exercises and Tools
 ************************************
+
+Exercises and tools that provide ways for learners to select from
+several options are listed alphabetically in this table.
 
 .. list-table::
    :widths: 25 60 20
@@ -302,6 +308,9 @@ Multiple Choice Exercises and Tools
 ********************************
 STEM Exercises and Tools
 ********************************
+
+Exercises and tools that are most suitable for use in science, technology,
+engineering, or math courses are listed alphabetically in this table.
 
 .. list-table::
    :widths: 25 60 20
