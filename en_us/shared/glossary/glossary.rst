@@ -708,6 +708,16 @@ Q
 R
 ****
 
+**Research Data Exchange (RDX)**
+
+  An edX program that allows participating partner institutions to request data
+  for completed edx.org courses to further approved educational research
+  projects. Only partner institutions that choose to participate in RDX
+  contribute data to the program, and only researchers at those institutions
+  can request data from the program.
+
+  For more information, see :ref:`data:Research Data Exchange`.
+
 .. _Rubric_g:
 
 **Rubric**

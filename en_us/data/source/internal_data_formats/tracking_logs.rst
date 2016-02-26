@@ -2277,32 +2277,20 @@ selects **Check**.
        For more information, see :ref:`partnercoursestaff:Adding Feedback and
        Hints to a Problem` in the *Building and Running an edX Course* guide.
 
-
-``problem_check`` (Browser)
+``problem_check``
 *********************************
 
 .. no sample to check
-
-Both browser interactions and server requests produce ``problem_check`` events.
-The browser emits ``problem_check`` events when a user checks a problem.
-
-**Event Source**: Browser
-
-``event`` **Member Fields**: For browser-emitted ``problem_check`` events, the
-``event`` field contains the values of all input fields from the problem being
-checked, styled as GET parameters.
-
-``problem_check`` (Server)
-*********************************
-
-.. no sample to check
-
-Both browser interactions and server requests produce ``problem_check`` events.
 
 The server emits ``problem_check`` events when a problem is successfully
 checked.
 
 **Event Source**: Server
+
+Both browser interactions and server requests produce ``problem_check`` events,
+so your data package can also contain events with an event source of browser.
+Events emitted by the browser contain all of the GET parameters. Only events
+emitted by the server are useful for most purposes.
 
 **History**:
 
@@ -2428,8 +2416,15 @@ successfully.
 
 .. return Logger.log('problem_graded', [_this.answers, response.contents], _this.id);
 
-The server emits a ``problem_graded`` event each time a user clicks **Check**
+The server emits a ``problem_graded`` event each time a user selects **Check**
 for a problem and it is graded successfully.
+
+**Event Source**: Server
+
+Both browser interactions and server requests produce ``problem_graded``
+events, so your data package can also contain events with an event source of
+browser. Events emitted by the browser contain all of the GET parameters. Only
+events emitted by the server are useful for most purposes.
 
 ``event`` **Member Fields**:
 
@@ -2532,12 +2527,18 @@ successfully rescored.
 ``problem_reset``
 *********************************
 
-The browser emits ``problem_reset`` events when a user clicks **Reset** to
-reset the answer to a problem.
+The server emits ``problem_reset`` events after a user selects **Reset** and
+the answer to a problem is reset.
 
 .. return Logger.log('problem_reset', [_this.answers, response.contents], _this.id);
 
-**Event Source**: Browser
+**Event Source**: Server
+
+Both browser interactions and server requests produce ``problem_reset``
+events, so your data package can also contain events with an event source of
+browser. Events emitted by the browser contain all of the GET parameters. Only
+events emitted by the server are useful for most purposes.
+
 
 ``event`` **Member Fields**:
 
@@ -2558,9 +2559,14 @@ reset the answer to a problem.
 
 .. no sample to check
 
-The browser emits ``problem_save`` events when a user saves a problem.
+The server emits ``problem_save`` events after a user saves a problem.
 
-**Event Source**: Browser
+**Event Source**: Server
+
+Both browser interactions and server requests produce ``problem_save``
+events, so your data package can also contain events with an event source of
+browser. Events emitted by the browser contain all of the GET parameters. Only
+events emitted by the server are useful for most purposes.
 
 ``event`` **Member Fields**: None
 
