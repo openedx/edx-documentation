@@ -117,9 +117,9 @@ component.
     indicate whether the assignment should be graded.
 
   .. note:: Grading is subject to the setting of this unit's subsection or
-   section. If the subsection or section is not graded, selecting **True** here
-   has no impact. Selecting **False** means that this assignment is not graded
-   even if the subsection or section is graded.
+     section. If the subsection or section is not graded, selecting **True**
+     here has no impact. If the subsection or section is graded, this assignment
+     is graded, even if you have selected **False**.
 
 #. Select **Save** when you have finished specifying the details of your
    randomized content block.
