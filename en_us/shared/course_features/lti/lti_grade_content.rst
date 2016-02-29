@@ -4,6 +4,11 @@
 Grading Remote Content
 #####################################
 
+.. only:: Partners
+
+  .. note:: Support for this feature is provisional. EdX is currently working
+   with a limited number of partners to test this feature on edX Edge.
+
 When you include the problem components in a graded edX subsection in an
 external LMS, the edX system grades the learner responses to those problems.
 The edX system then transfers the learner scores back to the external LMS. This

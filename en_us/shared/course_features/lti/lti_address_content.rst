@@ -4,6 +4,11 @@
 Determining Content Addresses
 #####################################
 
+.. only:: Partners
+
+  .. note:: Support for this feature is provisional. EdX is currently working
+   with a limited number of partners to test this feature on edX Edge.
+
 To include the content of an existing course in another system, you use the edX
 LMS to find the location identifiers for the content you want to include. You
 then format the identifiers into an LTI URL.
