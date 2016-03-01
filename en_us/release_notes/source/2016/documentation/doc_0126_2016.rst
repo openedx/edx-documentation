@@ -1,10 +1,3 @@
-==================================
-EdX Documentation Resources
-==================================
-
-EdX publishes documentation on the `docs.edx.org`_ website. Guides are
-available to help learners, course teams, researchers, developers, and other
-audiences use edX websites and software effectively.
 
 .. remove the following week of 1 Feb:
 
