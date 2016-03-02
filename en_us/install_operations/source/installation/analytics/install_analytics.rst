@@ -4,11 +4,11 @@
 Installing the Open edX Analytics Developer Stack
 #################################################
 
-This section describes how to install and run the Open edX Analytics Developer
-Stack.
+This section describes how to install and run the Open edX Analytics developer
+stack.
 
 .. note::
- Before you install Open edX Fullstack, make sure that you have met
+ Before you install the Analytics developer stack, make sure that you have met
  the :ref:`installation prerequisites<Installation Prerequisites>`.
 
 .. contents::
@@ -20,9 +20,10 @@ Stack.
 Install the Software Prerequisites
 ***********************************
 
-In addition to the :ref:`software prerequisites<Software Prerequisites>` that Fullstack and Devstack require,
-for the Analytics Devstack, you must install a tool that the Open edX Analytics
-Pipeline uses to deploy itself. To install this tool, follow these steps.
+In addition to the :ref:`software prerequisites<Software Prerequisites>` that
+Fullstack and Devstack require, for the Analytics Devstack, you must install a
+tool that the Open edX Analytics Pipeline uses to deploy itself. To install
+this tool, follow these steps.
 
 #. Clone the repository on your host, not on the virtual machine.
 

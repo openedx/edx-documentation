@@ -1,11 +1,11 @@
-.. _Running edX Insights:
+.. _Adding edX Insights:
 
-#######################
-Running edX Insights
-#######################
+#####################################
+Adding edX Insights for Course Teams
+#####################################
 
-The following topics provide information about running `edX Insights`_ and
-its dependencies in a production environment.
+The following topics provide information about installing, configuring, and
+running `edX Insights`_ and its dependencies in a production environment.
 
 .. toctree::
    :maxdepth: 1

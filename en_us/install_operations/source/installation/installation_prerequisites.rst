@@ -4,14 +4,14 @@
 Installation Prerequisites
 ######################################################
 
-To use Fullstack, Devstack, or Analytics Devstack, you must meet the
+To use Devstack, Fullstack, or Analytics Devstack, you must meet the
 following knowledge and software requirements.
 
 **************************
 Knowledge Prerequisites
 **************************
 
-Fullstack, Devstack, and Analytics Devstack require an understanding of the
+Devstack, Fullstack, and Analytics Devstack require an understanding of the
 following items.
 
 * Basic terminal usage. If you are using a Mac computer, see
@@ -27,7 +27,7 @@ following items.
 Software Prerequisites
 **************************
 
-Fullstack, Devstack, and Analytics Devstack require the following software.
+Devstack, Fullstack, and Analytics Devstack require the following software.
 
 * `VirtualBox`_ 4.3.12 or later.
 
