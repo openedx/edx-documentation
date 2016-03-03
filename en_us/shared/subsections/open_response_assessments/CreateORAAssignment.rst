@@ -32,6 +32,9 @@ Step 1. Create the Component
 To create the component for your open response assessment, complete these
 steps.
 
+.. note:: Do not add more than one ORA component in a course unit. Multiple ORA
+   assignments in a unit cause errors when learners submit their assessments.
+
 #. In Studio, open the unit where you want to create the open response
    assessment.
 
