@@ -3,7 +3,7 @@
 .. _edX Objective-C Style Guide:
 
 ###########################
-edX Objective-C Style Guide
+EdX Objective-C Style Guide
 ###########################
 
 This section describes the requirements and conventions for contributing Objective-C programming to the edX platform.

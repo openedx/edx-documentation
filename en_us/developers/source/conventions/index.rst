@@ -8,4 +8,5 @@ Coding Conventions
     :maxdepth: 2
 
     accessibility
+    django
 

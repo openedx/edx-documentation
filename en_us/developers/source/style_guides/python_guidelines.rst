@@ -1,7 +1,7 @@
 ..  _edx_python_guidelines:
 
 ######################
-edX Python Style Guide
+EdX Python Style Guide
 ######################
 
 This section describes the requirements and conventions used to contribute
@@ -15,13 +15,19 @@ Python programming to the edX platform.
 Principles
 **********
 
-Generally, don't edit files just to change the style.  But do aim for this style with new or modified code.
+Generally, do not edit files just to change the style.  But do aim for this style with new or modified code.
 
 See also :ref:`code_quality`.
 
-.. contents::
- :local:
- :depth: 2
+==================================
+Write a Good repr() for Each Class
+==================================
+
+.. FIXME: This was a section under "General Python" in the wiki. It's not
+.. really syntax or organization. So I promoted it. Does this make sense on its
+.. own here?
+
+Each class should have a `__repr__() method <https://docs.python.org/2/reference/datamodel.html#object.__repr__>`_ defined, so that calling `repr()` on an instance of the class returns something meaningful that distinguishes objects from each other to a human being. This is useful for debugging purposes.
 
 
 ***********************
@@ -41,7 +47,7 @@ Follow `PEP 8`_.
  :depth: 2
 
 ===================
-Breaking long lines
+Breaking Long Lines
 ===================
 
 Follow these guidelines:
@@ -73,7 +79,7 @@ Follow these guidelines:
 
 Important points:
 
-* Don't over-indent to make things line up with punctuation on the first line.
+* Do not over-indent to make things line up with punctuation on the first line.
 * Closing paren should be on a line by itself, indented the same as the first line.
 * The first line ends with the open paren.
 
@@ -103,65 +109,14 @@ Pylint Guidelines and Practices
 
 The pragma starts with a ``#`` two spaces after the end of the line. We prefer that you use the full name of the error (``pylint: disable=unused-argument`` as opposed to ``pylint: disable=W0613``), so it's more clear what you're disabling in the line.
 
-=======================
-Classes vs Dictionaries
-=======================
+===========================
+Classes Versus Dictionaries
+===========================
 
 .. FIXME: Is this really a subsection of the Pylint section? Should it be
 .. promoted or a part of a different section?
 
 It's better to use a class or a ``namedtuple`` to pass around data that has a fixed shape than to use a ``dict``. It makes it easier to debug (because there is a fixed, named set of attributes), and it helps prevent accidental errors of either setting new attributes into the dictionary (which might, for instance, get serialized unexpectedly), or might be typos.
-
-**********************************
-Write a Good repr() for Each Class
-**********************************
-
-.. FIXME: This was a section under "General Python" in the wiki. It's not
-.. really syntax or organization. So I promoted it. Does this make sense on its
-.. own here?
-
-Each class should have a `__repr__() method <https://docs.python.org/2/reference/datamodel.html#object.__repr__>`_ defined, so that calling `repr()` on an instance of the class returns something meaningful that distinguishes objects from each other to a human being. This is useful for debugging purposes.
-
-*********************
-Django Good Practices
-*********************
-
-.. contents::
- :local:
- :depth: 2
-
-=======
-Imports
-=======
-
-Always import from the root of the project::
-
-    from lms.djangoapps.hologram.models import 3DExam    # GOOD
-    from .models import 3DExam                           # GOOD
-    from hologram.models import 3DExam                   # BAD!
-
-The second form (relative import) only works correctly if the importing module is itself imported correctly.  As long as there are no instances of the third form, everything should work.  Don't forget that there are other places that mention import paths::
-
-    url(r'^api/3d/', include('lms.djangoapps.hologram.api_urls')),   # GOOD
-    url(r'^api/3d/', include('hologram.api_urls')),                  # BAD!
-
-    @patch('lms.djangoapps.hologram.models.Key', new=MockKey)        # GOOD
-    @patch('hologram.models.Key', new=MockKey)                       # BAD!
-
-    INSTALLED_APPS = [
-        'lms.djangoapps.hologram',    # GOOD
-        'hologram',                   # BAD!
-    ]
-
-======
-Design
-======
-
-.. FIXME: This doesn't look like it was completed. What do we need to say about
-.. these?
-
-* Fat Models, Helper Modules, Thin Views, Stupid Templates
-
 
 ***********************
 Docstrings
@@ -235,13 +190,6 @@ Not like this::
 
     def foo(a, b):
         """Computes the foo of a and b.""" # NO NO NO
-
-*************
-Writing Tests
-*************
-
-.. FIXME: The IOS style guide covers writing tests. Do we have guidance about
-.. writing Python tests?
 
 **********
 References
