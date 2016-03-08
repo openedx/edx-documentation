@@ -189,10 +189,8 @@ course for release.
   Cohorts>`, set up the cohorts and select a strategy for assigning learners to
   the cohorts.
 
-You can use the :ref:`course checklists<Use the Course Checklist>` to work
-through the course and verify that it is ready for release. You can also refer
-to the :ref:`Launch` topic for tools and ideas that help you prepare the
-course for launch.
+You can refer to the :ref:`Launch` topic for tools and ideas that help you
+prepare the course for launch.
 
 .. note::
   Changes you make in the new course are not propagated to the original course.

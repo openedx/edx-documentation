@@ -10,6 +10,23 @@ The following information describes what is new in edX documentation.
   :local:
   :depth: 2
 
+******************
+6 January 2016
+******************
+
+.. include:: 2016/documentation/doc_0106_2016.rst
+
+**************************
+16 December 2015
+**************************
+
+.. include:: 2015/documentation/doc_1216_2015.rst
+
+**************************
+8 December 2015
+**************************
+
+.. include:: 2015/documentation/doc_1208_2015.rst
 
 **************************
 1 December 2015

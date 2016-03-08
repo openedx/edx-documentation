@@ -6,6 +6,8 @@
 
 .. _Open edX Analytics wiki: http://edx-wiki.atlassian.net/wiki/display/OA/Open+edX+Analytics+Home
 
+.. _Entity Relationship Diagram for ORA Data: https://openedx.atlassian.net/wiki/display/AN/Entity+Relationship+Diagram+for+ORA+Data
+
 .. _course-data: http://groups.google.com/a/edx.org/forum/#!forum/course-data
 
 .. _edx.org: http://edx.org
@@ -14,13 +16,15 @@
 
 .. _XML file: https://edge.edx.org/auth/saml/metadata.xml
 
+.. _test metadata file: https://courses.stage.edx.org/auth/saml/metadata.xml
+
 .. _edX Demo course: https://www.edx.org/course/edx/edx-edxdemo101-edx-demo-1038
 
 .. _information about open response assessments: https://courses.edx.org/courses/edX/DemoX.1/2014/courseware/70a1e3505d83411bb72393048ac4afd8/1e5cd9f233a2453f83731ccbd863b731/
 
 .. _example peer assessment: https://courses.edx.org/courses/edX/DemoX.1/2014/courseware/70a1e3505d83411bb72393048ac4afd8/1e5cd9f233a2453f83731ccbd863b731/2
 
-.. _Videos on edX: https://courses.edx.org/courses/edX/DemoX.1/2014/courseware/0af8db2309474971bfa70cda98668a30/ec 3364075f2845baa625bfecd5970410/2
+.. _Videos on edX: https://courses.edx.org/courses/edX/DemoX.1/2014/courseware/0af8db2309474971bfa70cda98668a30/ec3364075f2845baa625bfecd5970410/2
 
 
 .. _edX Edge: http://edge.edx.org
@@ -32,6 +36,8 @@
 .. _docs@edx.org: docs@edx.org
 
 .. _Overview of Creating an edX Course: https://www.edx.org/course/overview-creating-edx-course-edx-edx101#.VHKBz76d9BV
+
+.. _Creating Video for the edX Platform: https://www.edx.org/course/creating-video-edx-platform-edx-videox
 
 .. _Open edX Portal: http://open.edx.org/
 
@@ -162,7 +168,7 @@
 
 .. _Open edX Releases Wiki page: https://openedx.atlassian.net/wiki/display/DOC/Open+edX+Releases
 
-.. _Release Pages: https://openedx.atlassian.net/wiki/display/ENG/Release+Pages
+.. _Release Pages: https://openedx.atlassian.net/wiki/pages/viewpage.action?pageId=12550314
 
 .. _Discern: http://code.edx.org/discern/
 
@@ -349,3 +355,19 @@
 
 .. _app_label: https://docs.djangoproject.com/en/1.8/ref/models/options/#app-label
 
+.. _Sass: http://sass-lang.com/
+.. _Sass variables: http://sass-lang.com/documentation/file.SASS_REFERENCE.html#variables_
+.. _Sass partials: http://sass-lang.com/documentation/file.SASS_REFERENCE.html#partials
+.. _the documentation for Sass partials: http://sass-lang.com/documentation/file.SASS_REFERENCE.html#partials
+.. _the documentation for Sass variable defaults: http://sass-lang.com/documentation/file.SASS_REFERENCE.html#variable_defaults_
+.. _Sass/CSS Styleguide: https://github.com/edx/ux-pattern-library/wiki/Styleguide:-Sass-&-CSS
+
+.. _Certificates Blog: http://blog.edx.org/news-about-edx-certificates?track=blog
+
+.. _News About edX Certificates: http://blog.edx.org/news-about-edx-certificates?track=blog
+
+.. _edX course catalog: https://www.edx.org/course-list/allschools/verified/allcourses`
+
+.. _Verified Certificates: https://www.edx.org/verified-certificate
+
+.. _XSeries Programs: https://www.edx.org/xseries

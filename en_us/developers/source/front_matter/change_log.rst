@@ -10,6 +10,11 @@ Change Log
 
    * - Date
      - Change
+   * - 16 Dec 2015
+     - Added a section about new :ref:`i18n` translation markup helpers.
+   * - 4 Dec 2015
+     - Added information about i18n translator comments getting lost when using
+       multi-line string literals.
    * - 27 Oct 2015
      - Updated the description of the Segment tracking system in the
        :ref:`analytics` section to reflect changes to the service's name 

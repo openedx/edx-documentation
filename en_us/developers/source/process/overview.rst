@@ -118,7 +118,7 @@ before you even start changing code, the better the whole process
 will go.
 
 Follow the guidelines in this document for a high-quality pull request: include a detailed
-description of your pull request when you open it on Github (we recommend using a
+description of your pull request when you open it on GitHub (we recommend using a
 :doc:`pull request cover letter <cover-letter>` to guide your description),
 keep the code clear and readable, make sure the tests pass, be responsive to code review comments.
 Small pull requests are easier to review than large pull requests, so

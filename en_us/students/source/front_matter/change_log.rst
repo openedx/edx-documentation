@@ -12,6 +12,9 @@ Change Log
 
    * - Date
      - Change
+   * - 8 Dec 2015
+     - Updated the :ref:`SFD Enrolling in a Course` and :ref:`Certificates`
+       sections to reflect new edX certificate policy.
    * - 1 Dec 2015
      - Added information about uploading additional file types to the
        :ref:`Submit a File with Your Response` topic.

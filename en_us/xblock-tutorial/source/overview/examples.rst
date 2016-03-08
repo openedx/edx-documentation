@@ -18,7 +18,7 @@ Google Drive and Calendar XBlock
 Course teams can use the `Google Drive and Calendar XBlock`_ to embed Google
 documents and calendars in their courseware.
 
-The Google Drive and Calendar XBlock is created and stored in a separate Github
+The Google Drive and Calendar XBlock is created and stored in a separate GitHub
 repository. You can explore the contents of this XBlock repository to learn how
 it is structured and developed.
 
@@ -43,10 +43,10 @@ Course teams or developers can also add a Google calendar using OLX.
 
 .. code-block:: xml
 
-  <google-calendar 
+  <google-calendar
     url_name="4115e717366045eaae7764b2e1f25e4c"
     calendar_id="abcdefghijklmnop1234567890@group.calendar.google.com"
-    default_view="1" 
+    default_view="1"
     display_name="Class Schedule"
   />
 

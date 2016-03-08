@@ -131,15 +131,15 @@ different unit.
 Create the Instant Hangout
 **************************************************
 
-To create an instant hangout in your course:
+To create an instant hangout in your course, follow these steps.
 
 #. Get the `instant hangout JavaScript file from GitHub
    <https://raw.github.com/google/instant-
    hangouts/master/instanthangouts-0.1.0.js>`_.
 
 #. Copy the text of this file into a text editor on your computer, and save the
-   file as a JavaScript file (that is, when you save the file, change the
-   extension from .txt to .js).
+   file as a JavaScript file. That is, when you save the file, change the
+   extension from .txt to .js.
 
    .. note::
      Make sure that you copy the raw GitHub file, which does not contain
@@ -155,23 +155,26 @@ To create an instant hangout in your course:
     If you copy text from another source and paste it into the HTML editor, be
     sure to proofread the result carefully. Some applications automatically
     change quotation marks and apostrophes from the "straight" version to the
-    "smart" version. The HTML editor requires "straight" quotation marks and
-    apostrophes.
+    "smart" or "curly" version. The HTML editor requires "straight" quotation
+    marks and apostrophes.
 
 #. On the first line, add the JavaScript file you uploaded in a <script> tag,
    making sure you use full opening and closing tags.
 
-   For example, if your JavaScript file is named **instanthangouts-0.1.0.js**, you would enter the following::
+   For example, if your JavaScript file is named ``instanthangouts-0.1.0.js``,
+   you enter the following script information. ::
 
-    <script src='/static/instanthangouts-0.1.0.js'></script>
+     <script src='/static/instanthangouts-0.1.0.js'></script>
 
-#. After the <script> tag, add::
+#. After the <script> tag, add this tag. ::
 
     <div class='instanthangouts'/>
 
 #. Add any additional text and tags that you want.
 
-   For example, the complete HTML could be::
+   For example, the complete content could look like this example.
+
+   ::
 
     <p>Join an instant hangout by selecting the button below. You can use the
     hangout to have live video discussions with other learners.</p>
@@ -185,8 +188,8 @@ To create an instant hangout in your course:
 Updating the JavaScript File
 =============================
 
-Google will periodically update the instant hangouts JavaScript file. To
-receive update notifications, go to the `instant hangouts repository page
+Google periodically updates the instant hangouts JavaScript file. To receive
+update notifications, go to the `instant hangouts repository page
 <https://github.com/google/instant-hangouts/>`_, and then select **Watch** in
 the upper-right area of the page.
 

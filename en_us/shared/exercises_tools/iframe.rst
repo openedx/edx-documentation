@@ -23,9 +23,10 @@ confirm that a tool is accessible, and, if available, contact your on campus
 accessibility support services for additional guidance. For more information,
 see :ref:`Accessibility Best Practices for Course Content Development`.
 
-IFrames are well-suited for tools that demonstrate a concept but that won't be
-graded or store student data. If you want to add a graded tool or exercise, add
-the tool as a :ref:`custom JavaScript problem<Custom JavaScript>` or an
+IFrames are well-suited for tools that demonstrate a concept, but that are not
+graded or used to store student data. If you want to add a graded tool or
+exercise, add the tool as a :ref:`custom JavaScript problem<Custom JavaScript>`
+or an
 :ref:`LTI component<LTI Component>`.
 
 For more information about IFrames, see the `IFrame specification
@@ -35,7 +36,7 @@ For more information about IFrames, see the `IFrame specification
 Create an IFrame Tool
 ****************************
 
-To add an exercise or tool in an IFrame, you'll create an IFrame HTML component
+To add an exercise or tool in an IFrame, you create an IFrame HTML component
 and add the URL of the page that contains the exercise or tool to the
 component. You can also add text and images both before and after the IFrame.
 
@@ -48,7 +49,7 @@ component. You can also add text and images both before and after the IFrame.
 
 #. In the new component, select **Edit**.
 
-#. In the component editor toolbar, select **HTML**.
+#. In the visual editor toolbar, select **HTML**.
 
 #. In the HTML source code editor, locate the following HTML (line 7). This
    HTML includes the ``<iframe>`` element.
@@ -57,8 +58,8 @@ component. You can also add text and images both before and after the IFrame.
 
       <p><iframe src="https://studio.edx.org/c4x/edX/DemoX/asset/eulerLineDemo.html" width="402" height="402" marginwidth="0" marginheight="0" frameborder="0" scrolling="no">You need an iFrame capable browser to view this.</iframe></p>
 
-5. Replace the default URL in the ``src`` attribute
-   (https://studio.edx.org/c4x/edX/DemoX/asset/eulerLineDemo.html) with the
+#. Replace the default URL in the ``src`` attribute
+   (``https://studio.edx.org/c4x/edX/DemoX/asset/eulerLineDemo.html``) with the
    URL of the page that contains the exercise or tool. **This URL must start
    with https**. Make sure that you do not delete the quotation marks that
    surround the URL.
@@ -69,10 +70,10 @@ component. You can also add text and images both before and after the IFrame.
    ``<iframe>`` tags. Learners see this text only when they use a browser that
    does not support IFrames.
 
-#. Select **OK** to close the HTML source code editor and return to the Visual
-   editor.
+#. Select **OK** to close the HTML source code editor and return to the
+   :ref:`visual editor<The Visual Editor>`.
 
-#. In the Visual editor, replace the default text with your own text.
+#. In the visual editor, replace the default text with your own text.
 
 #. Select **Save**.
 

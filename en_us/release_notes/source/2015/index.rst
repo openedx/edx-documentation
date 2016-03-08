@@ -4,12 +4,14 @@
 edX Release Notes 2015
 ####################################
 
-The following pages describe what is new in 2015.
+The following pages summarize what was new in 2015.
 
 
 .. toctree::
    :maxdepth: 1
 
+   12-16-2015
+   12-08-2015
    12-01-2015
    11-17-2015
    11-10-2015

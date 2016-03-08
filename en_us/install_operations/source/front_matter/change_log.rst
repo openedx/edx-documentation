@@ -8,6 +8,11 @@ Change Log
 
    * - Date
      - Change
+   * - 16 December 2015
+     - Updated the default value for the ``ENABLE_INSTRUCTOR_LEGACY_DASHBOARD``
+       feature flag in the :ref:`Feature Flag Index`.
+   * - 8 December 2015
+     - Added the :ref:`Changing the Way Open edX Looks` section.
    * - 1 December 2015
      - Added the :ref:`Configuring ORA2 to Prohibit Submission of File Types`
        section.

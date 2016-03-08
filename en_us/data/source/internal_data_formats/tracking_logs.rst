@@ -204,7 +204,8 @@ information.
 ``context`` Member Fields Common to All Events
 ***********************************************
 
-The following member fields are present in the ``context`` field for all events.
+The following member fields are present in the ``context`` field for all
+events.
 
 .. list-table::
    :widths: 15 15 60
@@ -226,6 +227,11 @@ The following member fields are present in the ``context`` field for all events.
      - number
      - Identifies the individual who is performing the action.
 
+.. note:: Occasionally, an event is recorded with a missing or blank
+ ``context.user_id`` value. This can occur when a user logs out, or the login
+ session times out, while a browser window remains open. Subsequent actions are
+ logged, but the system cannot supply the user identifier. EdX recommends that
+ you ignore these events during analysis.
 
 ``context`` Member Fields for Applicable Events
 ******************************************************
@@ -385,8 +391,13 @@ include a session value.
 
 **Type:** string
 
-**Details:** The username of the user who caused the event to be emitted. This
-string is empty for anonymous events, such as when the user is not logged in.
+**Details:** The username of the user who caused the event to be emitted.
+
+.. note:: Occasionally, an event is recorded with a blank ``username``
+ value. This can occur when a user logs out, or the login session times out,
+ while a browser window remains open. Subsequent actions are logged, but the
+ system cannot supply the user identifier. EdX recommends that you ignore these
+ events during analysis.
 
 .. _Student_Event_Types:
 
@@ -401,7 +412,6 @@ other than the Instructor Dashboard.
 .. contents::
   :local:
   :depth: 1
-
 
 The descriptions that follow include what each event represents, the system
 component it originates from, the history of any changes made to the event
@@ -2728,6 +2738,173 @@ The server emits ``showanswer`` events when the answer to a problem is shown.
    * - ``problem_id``
      - string
      - EdX ID of the problem being shown.
+   * - ``[answers, contents]``
+     - array
+     - The array includes each problem in a problem component that has multiple
+       problems.
+
+       * ``answers`` provides the value checked by the user.
+
+       * ``contents`` delivers HTML using data entered for the problem in
+         Studio, including the display name, problem text, and choices or response field
+         labels.
+
+
+.. _bookmark_events:
+
+==========================
+Bookmark Events
+==========================
+
+This section includes descriptions of the following events.
+
+.. contents::
+ :local:
+ :depth: 1
+
+Users can add bookmarks to course units for easy access in the future. The
+browser emits these events when users view, add, use, or delete bookmarks.
+
+.. _edx_bookmark_accessed:
+
+``edx.bookmark.accessed``
+*********************************
+
+The browser emits this event when a user accesses a bookmark by selecting a
+link on the **My Bookmarks** page in the LMS.
+
+``event`` **Member Fields**:
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+   * - ``bookmark_id``
+     - string
+     - The unique internal identifier for the bookmark.
+   * - ``component_type``
+     - string
+     - The component type of the bookmarked XBlock. For more information, see
+       :ref:`Course Structure Category Field`.
+   * - ``component_usage_id``
+     - string
+     - The unique usage identifier of the bookmarked XBlock. This ID
+       corresponds to the ``courseware_studentmodule.module_id``. For more
+       information, see :ref:`module_id`.
+
+**Event Source**: Browser
+
+**History**: Added 4 Jan 2016.
+
+.. _edx_bookmark_added:
+
+``edx.bookmark.added``
+*********************************
+
+The browser emits this event when a user bookmarks a page.
+
+``event`` **Member Fields**:
+
+The ``edx.course.bookmark.added`` events include the same event member fields
+that are described for :ref:`edx_bookmark_accessed`. The following
+member fields serve the same purpose for accessed bookmarks, added bookmarks,
+and removed bookmarks.
+
+* ``bookmark_id``
+* ``component_type``
+* ``component_usage_id``
+
+The following ``event`` member field applies specifically to
+``edx.course.bookmark.added`` and ``edx.course.bookmark.removed`` events.
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+   * - ``course_id``
+     - string
+     - The identifier of the course that includes the bookmark.
+
+**Event Source**: Browser
+
+**History**: Added 4 Jan 2016.
+
+``edx.bookmark.listed``
+*********************************
+
+The browser emits this event when a user selects **My Bookmarks** in the LMS
+to list previously bookmarked pages. If the number of bookmarked events
+exceeds the defined page length, the browser emits an additional
+``edx.course.bookmark.listed`` event each time the user navigates to a
+different page of results.
+
+``event`` **Member Fields**:
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+   * - ``bookmarks_count``
+     - integer
+     - The number of pages a learner has bookmarked. If the ``course_id`` is
+       specified, this value is the number of pages a learner has bookmarked
+       in that course.
+   * - ``course_id``
+     - string
+     - The identifier of the course that includes the bookmark. This is an optional
+       field that is present only if the value for ``list_type`` is ``per_course``.
+
+       * ``per_course`` indicates that all listed bookmarks are in a single course.
+       * ``all_courses`` indicates that the listed bookmarks can be in any
+         course that the learner is enrolled in.
+
+   * - ``list_type``
+     - string
+     - Possible values are 'per_course' or 'all_courses'.
+   * - ``page_number``
+     - integer
+     - The current page number in the list of bookmarks.
+   * - ``page_size``
+     - integer
+     - The number of bookmarks on the current page.
+
+**Event Source**: Browser
+
+**History**: Added 4 Jan 2016.
+
+``edx.bookmark.removed``
+*********************************
+
+The browser emits this event when a user removes a bookmark from a page.
+
+``event`` **Member Fields**:
+
+The ``edx.course.bookmark.removed`` event includes the same event member
+fields that are described for :ref:`edx_bookmark_accessed`, and it also
+includes the ``course_id`` field that is described for
+:ref:`edx_bookmark_added`.
+
+The ``edx.course.bookmark.removed`` event includes the following event member
+fields.
+
+* ``bookmark_id``
+* ``component_type``
+* ``component_usage_id``
+* ``course_id``
+
+**Event Source**: Browser
+
+**History**: Added 4 Jan 2016.
+
 
 .. _library_events:
 
@@ -2902,6 +3079,7 @@ This section includes descriptions of the following events.
   :local:
   :depth: 1
 
+
 The server emits discussion forum events when a user interacts with a course
 discussion. This section presents the discussion forum events alphabetically.
 However, several of these events have hierarchical or sequential
@@ -3047,6 +3225,8 @@ fields as :ref:`edx.forum.thread.voted` events. The following member fields
 serve the same purpose for votes on a response as they do for votes on a
 thread.
 
+* ``category_id``
+* ``category_name``
 * ``commentable_id``
 * ``id``
 * ``target_username``
@@ -3168,16 +3348,18 @@ complete, the server emits an ``edx.forum.thread.created`` event.
      - Identifier for the specific discussion component or top-level,
        course-wide discussion.
 
-       Also present for ``edx.forum.response.created`` and
-       ``edx.forum.comment.created`` events.
+       Also present for ``edx.forum.response.created``,
+       ``edx.forum.comment.created``, ``edx.forum.response.voted``, and
+       ``edx.forum.thread.voted``  events.
 
    * - ``category_name``
      - string
      - The display name for the specific discussion component or top-level,
        course-wide discussion.
 
-       Also present for ``edx.forum.response.created`` and
-       ``edx.forum.comment.created`` events.
+       Also present for ``edx.forum.response.created``,
+       ``edx.forum.comment.created``, ``edx.forum.response.voted``, and
+       ``edx.forum.thread.voted``  events.
 
    * - ``commentable_id``
      - string
@@ -3282,6 +3464,8 @@ member fields that are described for :ref:`forum_thread` events. The following
 member fields serve the same purpose for votes on a thread as they do for
 thread creation.
 
+* ``category_id``
+* ``category_name``
 * ``commentable_id``
 * ``id``
 * ``team_id``
@@ -3340,6 +3524,9 @@ own and one or more other students' responses to the questions, students use a
 scoring rubric designed by the course team. For more information about open
 response assessments, see :ref:`partnercoursestaff:PA Create an ORA
 Assignment`.
+
+For more information about the SQL tables that store data for open assessment
+problems, see :ref:`ORA2 Data`.
 
 **Component**: Open Response Assessments
 
@@ -5492,7 +5679,6 @@ uploading a .csv file of student cohort assignments.
    * - ``user_id``
      - number
      - The numeric ID (from ``auth_user.id``) of the added user.
-
 
 
 .. include:: ../../../links/links.rst

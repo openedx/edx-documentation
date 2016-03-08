@@ -20,4 +20,4 @@ def setup(app):
     app.add_config_value('product', '', True)
 
 # General information about the project.
-project = u'edX Open Learning XML Guide - Alpha Version'
+project = u'EdX Open Learning XML Guide - Alpha Version'

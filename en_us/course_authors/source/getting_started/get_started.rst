@@ -83,8 +83,8 @@ any content.
 In the Course Outline in Studio, select **View Live**. The course opens on
 Edge.
 
-You can also go directly to `edX Edge`_. Log in if prompted. You see the course you
-just created listed on your **My Courses** dashboard:
+You can also go directly to `edX Edge`_. Sign in if prompted. You see the
+course you just created listed on your **My Courses** dashboard.
 
 .. image:: ../../../shared/images/new_course.png
  :width: 600
@@ -104,16 +104,15 @@ it, you must enroll in your course. You can then view it on the LMS.
 
 #. In Studio, create your course and add content.
 
-#. On the **Course Outline** page, select the blue **View
-   Live** button in the upper right corner of the page.
+#. On the **Course Outline** page, select **View Live**.
 
    Your course enrollment page opens in a new tab on the LMS.
 
-#. Select the blue **Enroll** button to enroll in your course. After you enroll
-   in your course, it opens in the LMS.
+#. Select **Enroll** to enroll in your course. After you enroll in your course,
+   it opens in the LMS.
 
-#. To continue working on your course, in your browser, switch back to the tab
-   that shows Studio. You will still be on the **Course Outline** page.
+#. To continue working on your course, in your browser, switch back to the
+   browser tab that shows Studio. The **Course Outline** page displays.
 
 .. include:: ../../../links/links.rst
 

@@ -28,7 +28,7 @@ Data Package Files
 **********************
 
 A data package consists of different files that contain event data and database
-data. 
+data.
 
 .. note:: In all file names, the date is in {YYYY}-{MM}-{DD} format.
 
@@ -62,7 +62,7 @@ Database Data
 
 The ``{org}-{date}.zip`` file contains views on database tables. This file
 includes data as of the time of the export, for all of an organization's
-courses on both the edx.org and edge.edx.org. sites. A new file is available
+courses on both the edx.org and edge.edx.org sites. A new file is available
 every week, representing the database at that point in time.
 
 For a partner organization named UniversityX, each weekly file is identified by
@@ -88,7 +88,7 @@ Data package files are located at the following Amazon S3 destinations:
 
 * The **s3://edx-course-data/{org}** folder contains the daily
   ``{org}-{site}-events-{date}.log.gz.gpg`` files of course event data.
-  
+
 * The **s3://course-data** bucket contains the weekly ``{org}-{date}.zip``
   database snapshot.
 
@@ -122,7 +122,7 @@ Download Daily Event Files
    The event logs in the ``{year}`` folder are in compressed, encrypted
    files named ``{org}-{site}-events-{date}.log.gz.gpg``.
 
-3. Download the ``{org}-{site}-events-{date}.log.gz.gpg`` file.
+#. Download the ``{org}-{site}-events-{date}.log.gz.gpg`` file.
 
    If your organization has courses running on both edx.org and edge.edx.org,
    separate log files are available for the "prod" site and the "edge" site.
@@ -137,14 +137,14 @@ Download Weekly Database Files
     bucket and the **s3://edx-course-data/{org}** folder. You might need to
     disconnect from Amazon S3 and then reconnect to the other destination.
 
-#. To download a weekly database data file, connect to the edX 
-   **s3://course-data** bucket on Amazon S3 using the AWS Command Line 
+#. To download a weekly database data file, connect to the edX
+   **s3://course-data** bucket on Amazon S3 using the AWS Command Line
    Interface or a third-party tool.
 
    For information about providing your credentials to connect to Amazon S3,
    see :ref:`Access Amazon S3`.
 
-2. Download the ``{org}-{date}.zip`` database data file from the 
+#. Download the ``{org}-{date}.zip`` database data file from the
    **s3://course-data** bucket.
 
 
@@ -191,69 +191,141 @@ The result of extracting and decrypting the ``{org}-{date}.zip`` file is the
 following set of .sql, .csv, and .mongo files. Note that the .sql files are
 tab separated.
 
-``{org}-{course}-{date}-auth_user-{site}-analytics.sql``
+.. contents::
+   :local:
+   :depth: 1
 
-  Information about the users who are authorized to access the course. See
-  :ref:`auth_user`.
+``{org}-{course}-{run}-auth_user-{site}-analytics.sql``
+************************************************************
 
-``{org}-{course}-{date}-auth_userprofile-{site}-analytics.sql``
+Information about the users who are authorized to access the course. See
+:ref:`auth_user`.
 
-  Demographic data provided by users during site registration. See
-  :ref:`auth_userprofile`.
+``{org}-{course}-{run}-auth_userprofile-{site}-analytics.sql``
+***************************************************************
 
-``{org}-{course}-{date}-certificates_generatedcertificate-{site}-analytics.sql``
+Demographic data provided by users during site registration. See
+:ref:`auth_userprofile`.
 
-  The final grade and certificate status for students (populated after course
-  completion). See :ref:`certificates_generatedcertificate`.
+``{org}-{course}-{run}-certificates_generatedcertificate-{site}-analytics.sql``
+*********************************************************************************
 
-``{org}-{course}-{date}-course_structure-{site}-analytics.json``
+The final grade and certificate status for students (populated after course
+completion). See :ref:`certificates_generatedcertificate`.
 
-  This file documents the structure of a course at a point in time. The file
-  includes data for the course, including important dates, pages, and course-
-  wide discussion topics. It also identifies each item of course content
-  defined in the course outline. A separate file is included for each course
-  on the site. For more information, see :ref:`course_structure`.
+``{org}-{course}-{run}-course_structure-{site}-analytics.json``
+*****************************************************************
 
-``{org}-{course}-{date}-courseware_studentmodule-{site}-analytics.sql``
+This file documents the structure of a course at a point in time. The file
+includes data for the course, including important dates, pages, and course-
+wide discussion topics. It also identifies each item of course content
+defined in the course outline. A separate file is included for each course
+on the site. For more information, see :ref:`course_structure`.
 
-  The courseware state for each student, with a separate row for each item in
-  the course content that the student accesses. No file is produced for courses
-  that do not have any records in this table (for example, recently created
-  courses). See :ref:`courseware_studentmodule`.
+``{org}-{course}-{run}-courseware_studentmodule-{site}-analytics.sql``
+***********************************************************************
+
+The courseware state for each student, with a separate row for each item in
+the course content that the student accesses. No file is produced for courses
+that do not have any records in this table (for example, recently created
+courses). See :ref:`courseware_studentmodule`.
 
 ``{org}-email_opt_in-{site}-analytics.csv``
+***********************************************
 
-  This file reports the email preference selected by students who are enrolled
-  in any of your institution's courses. See :ref:`Institution_Data`.
+This file reports the email preference selected by students who are enrolled
+in any of your institution's courses. See :ref:`Institution_Data`.
 
-``{org}-{course}-{date}-student_courseenrollment-{site}-analytics.sql``
+``{org}-{course}-{run}-student_courseenrollment-{site}-analytics.sql``
+************************************************************************
 
-  The enrollment status and type of enrollment selected by each student in the
-  course. See :ref:`student_courseenrollment`.
+The enrollment status and type of enrollment selected by each student in the
+course. See :ref:`student_courseenrollment`.
 
-``{org}-{course}-{date}-user_api_usercoursetag-{site}-analytics.sql``
+``{org}-{course}-{run}-user_api_usercoursetag-{site}-analytics.sql``
+**********************************************************************
 
-  Metadata that describes different types of student participation in the
-  course. See :ref:`user_api_usercoursetag`.
+Metadata that describes different types of student participation in the
+course. See :ref:`user_api_usercoursetag`.
 
-``{org}-{course}-{date}-user_id_map-{site}-analytics.sql``
+``{org}-{course}-{run}-user_id_map-{site}-analytics.sql``
+************************************************************
 
-   A mapping of user IDs to site-wide obfuscated IDs. See :ref:`user_id_map`.
+A mapping of user IDs to site-wide obfuscated IDs. See :ref:`user_id_map`.
 
-``{org}-{course}-{date}-{site}.mongo``
+``{org}-{course}-{run}-{site}.mongo``
+*****************************************
 
-  The content and characteristics of course discussion interactions. See
-  :ref:`Discussion Forums Data`.
+The content and characteristics of course discussion interactions. See
+:ref:`Discussion Forums Data`.
 
-``{org}-{course}-{date}-wiki_article-{site}-analytics.sql``
+``ora`` Subdirectory
+**********************
 
-  Information about the articles added to the course wiki. See
-  :ref:`wiki_article`.
+The ``ora`` subdirectory contains SQL tables for data relating to any open
+response assessment (ORA) problems in your organization's courses. For more
+information, see :ref:`ORA2 Data`.
 
-``{org}-{course}-{date}-wiki_articlerevision-{site}-analytics.sql``
+* ``{org}-{course}-{run}-assessment_assessment-prod-analytics.sql.gpg``
 
-  Changes and deletions affecting course wiki articles. See
-  :ref:`wiki_articlerevision`.
+* ``{org}-{course}-{run}-assessment_assessmentfeedback-prod-analytics.sql.gpg``
+
+* ``{org}-{course}-{run}-assessment_assessmentfeedback_assessments-prod-analytics.sql.gpg``
+
+* ``{org}-{course}-{run}-assessment_assessmentfeedback_options-prod-analytics.sql.gpg``
+
+* ``{org}-{course}-{run}-assessment_assessmentfeedbackoption-prod-analytics.sql.gpg``
+
+* ``{org}-{course}-{run}-assessment_assessmentpart-prod-analytics.sql.gpg``
+
+* ``{org}-{course}-{run}-assessment_criterion-prod-analytics.sql.gpg``
+
+* ``{org}-{course}-{run}-assessment_criterionoption-prod-analytics.sql.gpg``
+
+* ``{org}-{course}-{run}-assessment_peerworkflow-prod-analytics.sql.gpg``
+
+* ``{org}-{course}-{run}-assessment_peerworkflowitem-prod-analytics.sql.gpg``
+
+* ``{org}-{course}-{run}-assessment_rubric-prod-analytics.sql.gpg``
+
+* ``{org}-{course}-{run}-assessment_studenttrainingworkflow-prod-analytics.sql.gpg``
+
+* ``{org}-{course}-{run}-assessment_studenttrainingworkflowitem-prod-analytics.sql.gpg``
+
+* ``{org}-{course}-{run}-assessment_trainingexample-prod-analytics.sql.gpg``
+
+* ``{org}-{course}-{run}-assessment_trainingexample_options_selected-prod-analytics.sql.gpg``
+
+* ``{org}-{course}-{run}-submissions_score-prod-analytics.sql.gpg``
+
+* ``{org}-{course}-{run}-submissions_scoresummary-prod-analytics.sql.gpg``
+
+* ``{org}-{course}-{run}-submissions_studentitem-prod-analytics.sql.gpg``
+
+* ``{org}-{course}-{run}-submissions_submission-prod-analytics.sql.gpg``
+
+* ``{org}-{course}-{run}-workflow_assessmentworkflow-prod-analytics.sql.gpg``
+
+* ``{org}-{course}-{run}-workflow_assessmentworkflowstep-prod-analytics.sql.gpg``
+
+``{org}-{course}-{run}-student_anonymoususerid-prod-analytics.sql.gpg``
+*************************************************************************
+
+A mapping of user IDs to the course specific anonymous IDs used by open
+response assessment tables. See :ref:`student_anonymoususerid`.
+
+
+``{org}-{course}-{run}-wiki_article-{site}-analytics.sql``
+************************************************************
+
+Information about the articles added to the course wiki. See
+:ref:`wiki_article`.
+
+``{org}-{course}-{run}-wiki_articlerevision-{site}-analytics.sql``
+*******************************************************************
+
+Changes and deletions affecting course wiki articles. See
+:ref:`wiki_articlerevision`.
 
 
 .. include:: ../../../links/links.rst

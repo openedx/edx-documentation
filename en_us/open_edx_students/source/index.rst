@@ -11,10 +11,10 @@ Open edX Learner's Guide
    front_matter/index
    SFD_introduction
    sfd_dashboard_profile/index
-   SFD_enrolling
    SFD_licensing
    SFD_course_search
    SFD_video_player
+   SFD_bookmarks
    SFD_notes
    SFD_google_docs
    SFD_certificates
@@ -24,3 +24,4 @@ Open edX Learner's Guide
    SFD_ORA
    sfd_discussions/index
    SFD_wiki
+   timed_exams

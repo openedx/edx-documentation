@@ -10,12 +10,29 @@ The following information describes what is new in edX Studio.
   :local:
   :depth: 2
 
+******************
+6 January 2016
+******************
+
+.. include:: 2016/studio/studio_0106_2016.rst
+
+******************
+16 December 2015
+******************
+
+.. include:: 2015/studio/studio_1216_2015.rst
+
+******************
+8 December 2015
+******************
+
+.. include:: 2015/studio/studio_1208_2015.rst
 
 ******************
 1 December 2015
 ******************
 
-.. include:: 2015/studio/studio_1110_2015.rst
+.. include:: 2015/studio/studio_1201_2015.rst
 
 ******************
 10 November 2015
@@ -161,7 +178,6 @@ The following information describes what is new in edX Studio.
 ******************
 
 .. include:: 2015/studio/studio_0302_2015.rst
-
 
 ******************
 12 February 2015

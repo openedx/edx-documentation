@@ -1,7 +1,7 @@
 .. _edX Learner's Guide:
 
 ###################
-edX Learner's Guide
+EdX Learner's Guide
 ###################
 
 .. toctree::
@@ -16,6 +16,7 @@ edX Learner's Guide
    SFD_credit_courses/index
    SFD_licensing
    SFD_video_player
+   SFD_bookmarks
    SFD_google_docs
    SFD_certificates
    SFD_mobile
@@ -23,3 +24,4 @@ edX Learner's Guide
    SFD_ORA
    sfd_discussions/index
    SFD_wiki
+   timed_exams

@@ -1,6 +1,5 @@
 .. _Working with HTML Components:
 
-
 #############################
 Working with HTML Components
 #############################
@@ -27,9 +26,9 @@ HTML Components
 ===================
 
 HTML components are the basic building blocks of your course content. You use
-HTML components to add and format text, links, images, and more. You can choose
-to create HTML components directly in HTML code, or in a visual editor that
-hides the HTML code details, as described below.
+HTML components to add and format text, links, images, and more. You can work
+with your HTML components in a "visual" or WYSIWYG editor that hides the HTML
+code details, or in a "raw" editor that requires you to mark up your content.
 
 .. note::
  Review :ref:`Developing Your Course Index` and :ref:`Best Practices for HTML
@@ -44,49 +43,59 @@ Hangout`.
 Options for Editing HTML Components
 ********************************************
 
-You can work with HTML in two ways.
+You can use two different editing interfaces to work with an HTML component.
 
 * :ref:`The Visual Editor`
 
-  With the visual editor you can create, edit, and format content in a word
-  processing-like interface, without using HTML code directly. With the visual
-  editor, you can more easily format your content, and add links and images.
-  The visual editor provides access to HTML code so you can make small changes
-  to formatting, if required. However, the HTML view in the visual editor does
-  not provide the detailed control you can get with the raw HTML editor, and
-  does not support custom formatting or scripts.
+  With the visual editor you create, edit, and format content in a word
+  processing-like interface, without using HTML markup directly. With the
+  visual editor, you can more easily format your content, and add links and
+  images. The visual editor includes an **HTML** option for you to review the
+  HTML markup and make small formatting changes to your content. However, this
+  HTML option does not provide the detailed control you can get with the raw
+  HTML editor, and does not support custom formatting or scripts.
+
+  If you add an HTML component and select **Text**, when you select **Edit**
+  the visual editor opens by default.
 
 * :ref:`The Raw HTML Editor`
 
-  With the raw HTML editor, you work directly with HTML code. If you need to
-  use custom formatting or scripts in your content, you should use the raw HTML
-  editor.
+  If you prefer to mark up your content directly with HTML markup, you can use
+  the raw HTML editor. If you need to include custom formatting or scripts in
+  your content, you must use the raw HTML editor.
+
+  If you add an HTML component and select **Raw HTML**, when you select
+  **Edit** the raw HTML editor opens by default.
+
+You can switch back and forth between these two editing interfaces at any time.
+For more information, see :ref:`Set the Editor for an HTML Component`.
 
 .. note::
-    If you copy text from another source and paste it into either the visual
-    or raw HTML editor, be sure to proofread the result carefully. Some
+    If you copy text from another source and paste it into either the visual or
+    raw HTML editor, be sure to proofread the result carefully. Some
     applications automatically change quotation marks and apostrophes from the
-    "straight" version to the "smart" version. The HTML editor requires
+    "straight" version to the "smart" or "curly" version. Both editors require
     "straight" quotation marks and apostrophes.
+
+.. _Set the Editor for an HTML Component:
 
 ======================================
 Set the Editor for an HTML Component
 ======================================
 
-You set the editor for an HTML component in the **Settings** tab.
+#. Add or locate the HTML component in your course.
 
-.. image:: ../../../shared/images/set_html_editor.png
- :alt: The Editor selection dropdown list in the HTML Component Settings tab.
- :width: 600
+#. Select **Edit**, and then select **Settings**.
 
-Select **Visual** or **Raw**. When you change the editor, you must select
-**Save** and re-open the component to begin using the new editor.
+#. Select **Visual** or **Raw**.
+
+#. Select **Save**, and then reopen the component to use the new editor.
 
 .. warning::
  If you work with content in the raw HTML editor, then switch to the visual
- editor, you may lose custom HTML that you created. Therefore, it is
- recommended that you start by using the visual editor, then switch to the raw
- HTML editor when you need to create custom HTML.
+ editor, custom HTML can be lost. If you need to create custom HTML, edX
+ recommends that you start by using the visual editor, and then switch to the
+ raw HTML editor when you are ready to add the custom HTML.
 
 .. _The Visual Editor:
 
@@ -95,81 +104,99 @@ The Visual Editor
 *****************************************
 
 The visual editor provides a "what you see is what you get" (WYSIWYG) interface
-that allows you to format text by selecting the formatting buttons at the top
+that allows you to format text by selecting options at the top
 of the editor.
 
-.. image:: ../../../shared/images/HTMLEditor.png
- :alt: An image of the HTML component editor in Studio.
- :width: 600
+The following image shows callouts for the editing options and is followed by
+descriptions.
+
+.. image:: ../../../shared/images/HTML_VisualView_Toolbar.png
+  :alt: An image of the visual editor toolbar, with numbers next to each of the
+   formatting buttons.
+  :width: 600
+
+#. Choose a formatting style for the selected text, such as paragraph,
+   ``preformatted`` (monospace), or a heading level. The heading levels
+   available for an HTML component begin with Heading 3. Because HTML
+   components are part of a complete page, and heading levels 1 and 2 are in
+   use by other elements on the page, any text with a heading 1 or 2 style
+   within an HTML component can interfere with the functionality of tools such
+   as screen readers.
+
+#. Choose a font family for selected text, such as Arial, Courier New, or Times
+   New Roman.
+
+#. Format the selected text in bold, or remove bolding. The editor inserts
+   ``<strong>`` tags around the selected text.
+
+#. Format the selected text in italics, or remove italicization. The editor
+   inserts ``<em>`` tags around the selected text.
+
+#. Underline the selected text, or remove underlining. The editor encloses the
+   selected text in the tag ``<span style="text-decoration: underline;">``.
+
+#. Apply a color to the selected text. The editor encloses the selected text in
+   the tag ``<span style="color: color-hex-code;">``.
+
+#. Format the selected text as a code block, or remove this formatting. The
+   editor inserts ``<code>`` tags around the selected text, which is then
+   displayed in a monospace font.
+
+#. Create a bulleted list, or remove this formatting. The editor inserts
+   ``<ul>`` tags around the selected text, and encloses each paragraph in
+   ``<li>`` tags.
+
+#. Create a numbered list, or remove this formatting. The editor inserts
+   ``<ol>`` tags around the selected text, and encloses each paragraph in
+   ``<li>`` tags.
+
+#. Decrease and increased the indentation of the selected paragraph.
+
+#. Format the selected paragraph as a blockquote. The editor inserts
+   ``<blockquote>`` tags around the selected text, which is then displayed as a
+   separate paragraph in a monospace font.
+
+#. Create a hypertext link from the selected text. See :ref:`Add a Link in an
+   HTML Component`.
+
+#. Remove a hypertext link from the selected text.
+
+#. Insert an image at the cursor. See :ref:`Add an Image to an HTML Component`.
+
+#. Review the HTML markup.
 
 .. note::
   The visual editor is not available for :ref:`course handouts <Adding Course
   Updates and Handouts>`.
 
-The following image shows call-outs for the editing options and is followed by
-descriptions.
-
-.. image:: ../../../shared/images/HTML_VisualView_Toolbar.png
-  :alt: An image of the HTML editor in Studio, with call-outs for formatting buttons.
-  :width: 600
-
-#. Choose a formatting style for the selected paragraph, such as heading 1,
-   heading 2, or paragraph.
-#. Choose a font family for selected text, such as Arial, Courier New, or Times
-   New Roman.
-#. Format selected text in bold. The editor inserts ``<strong>`` tags around
-   the selected text.
-#. Format selected text in italics. The editor inserts ``<em>`` tags around the
-   selected text.
-#. Underline the selected text. The editor encloses the selected text in
-   the tag ``<span style="text-decoration: underline;">``.
-#. Apply a color to the selected text. The editor encloses the selected text in
-   the tag ``<span style="color: color-hex-code;">``.
-#. Format selected text as a code block. The editor inserts ``<code>`` tags
-   around the selected text, which is then displayed in a monospace font.
-#. Create a bulleted list. The editor inserts ``<ul>`` tags
-   around the selected text, and encloses each paragraph in ``<li>`` tags.
-#. Create a numbered list. The editor inserts ``<ol>`` tags
-   around the selected text, and encloses each paragraph in ``<li>`` tags.
-#. Decrease and increased the indentation of the selected paragraph.
-#. Format the selected paragraph as a blockquote. The editor inserts
-   ``<blockquote>`` tags around the selected text, which is then displayed as a
-   separate paragraph in a monospace font.
-#. Create a link from the selected text. See :ref:`Add a Link in an HTML
-   Component`.
-#. Delete the current link.
-#. Insert an image at the cursor. See :ref:`Add an Image to an HTML Component`.
-#. Work with HTML source code, described below.
-
 .. _Work with HTML code:
 
 =========================================
-Work with HTML code in the visual editor
+Review HTML Markup in the Visual Editor
 =========================================
 
-To work with HTML source code for the content you create in the visual editor,
-select **HTML**  in the editor toolbar. The HTML source code editor opens.
+To review the HTML markup added to  content in the visual editor, select
+**HTML** from the visual editor's toolbar. The HTML source code editor opens.
 
 .. image:: ../../../shared/images/HTML_source_code.png
- :alt: An image HTML source code editor available in the visual editor in Studio.
+ :alt: The HTML source code editor for the visual editor in Studio.
  :width: 600
 
-Edit the HTML code as needed.
+You can edit text and the HTML markup in this editor. However, you cannot add
+custom styles or scripts in this editor. Use the
+:ref:`raw HTML editor<The Raw HTML Editor>` instead.
 
-You should not add custom styles or scripts in the HTML code view in the
-visual editor. Use the raw HTML editor instead.
+Select **OK** to return to the visual editor. The visual editor attempts to
+correct any problems with the markup that you entered. For example, if you do
+not provide a close paragraph tag, the editor adds the tag for you.
 
-Select **OK** to close the source code editor and apply your changes in the
-visual editor. The visual editor then attempts to ensure the underlying HTML
-code is valid; for example, if you do not close a paragraph tag, the editor
-adds a closing tag for you.
+You can then continue working in the visual editor.
 
 .. warning::
  Selecting **OK** in the source code editor does not save your changes to the
- HTML component. You return to the component editor, where your changes are
- applied. You must then also select **Save** to save your changes and close the
- component. If you select **Cancel**, the changes you made in the HTML source
- code are lost.
+ HTML component. To save your changes and close the component, select **Save**
+ in the visual editor. If you select **Cancel**, the changes you made in the
+ HTML source code editor are discarded.
 
 .. _The Raw HTML Editor:
 
@@ -177,15 +204,22 @@ adds a closing tag for you.
 The Raw HTML Editor
 *****************************
 
-When you select the raw editor for the HTML component, you edit your content in
-a text editor.
+The raw HTML editor is a text editor. It does not offer a toolbar with
+formatting options.
 
 .. image:: ../../../shared/images/raw_html_editor.png
- :alt: The raw HTML editor
+ :alt: The raw HTML editor.
  :width: 600
 
-You must enter valid HTML. The raw HTML editor does not validate your HTML
-code. Therefore you should thoroughly test the HTML content in your course.
+When you use this editor, you must supply valid HTML. The raw HTML editor does
+not validate your HTML code. If you use this editor, you should thoroughly test
+the HTML content in your course.
+
+.. important:: Because HTML components are part of a complete page, any
+   text with a heading 1 or 2 style within an HTML component can interfere
+   with the functionality of tools such as screen readers. Be sure that the
+   headings you add to an HTML component are Heading 3 ``<h3>`` through Heading
+   6 ``<h6>``, and not ``<h1>`` or ``<h2>``.
 
 .. _HTML Component Templates:
 
@@ -193,17 +227,16 @@ code. Therefore you should thoroughly test the HTML content in your course.
 HTML Component Templates
 *****************************
 
-When you create a new HTML component, you select from a list of templates.
+When you create an HTML component, you select from a list of templates.
 
 .. image:: ../../../shared/images/html_templates.png
  :alt: The list of HTML Component templates in the Studio unit page.
  :width: 200
 
-The raw HTML template is set to use the raw HTML editor. All other templates
-use the visual editor.
-
-For any HTML component, you can change the editor, regardless of the template
-used to create the component. See `Set the Editor for an HTML Component`_.
+The raw HTML template uses the raw HTML editor by default. All of the other
+templates use the visual editor by default. You can switch between the editors
+in any HTML component. For more information, see :ref:`Set the Editor for an
+HTML Component`.
 
 .. _Create an HTML Component:
 
@@ -213,38 +246,33 @@ Create an HTML Component
 
 #. Under **Add New Component**, select **HTML**.
 
-   .. image:: ../../../shared/images/NewComponent_HTML.png
-    :alt: An image of the controls in the Studio unit page to add a new component.
-    :width: 400
-
 #. Select the template.
 
    The rest of these instructions assume that you selected **Text**, which
-   creates an empty HTML component with the visual editor selected.
+   creates an empty HTML component with the :ref:`visual editor<The Visual
+   Editor>` selected.
 
    An empty HTML component appears at the bottom of the unit.
-
-   .. image:: ../../../shared/images/HTMLComponent_Edit.png
-    :alt: An image of an empty HTML component in the Studio unit page.
-    :width: 600
 
 #. In the component, select **Edit**.
 
    The HTML component opens in the visual editor.
 
-   .. image:: ../../../shared/images/HTMLEditor_empty.png
+#. Enter and format your content. You can :ref:`review the HTML markup<Work
+   with HTML code>` if needed.
+
+   .. image:: ../../../shared/images/HTMLEditor.png
     :alt: An image of the HTML component in the visual editor.
     :width: 600
 
-#. Enter and format your content. You can :ref:`Work with HTML code` if needed.
+#. Enter a display name for the component. The display name identifies the
+   component for learners, so it should describe the content effectively. To
+   do so, select **Settings**, and then enter text in the **Display Name**
+   field.
 
-#. Enter a display name (the name that you want learners to see). To do this,
-   select **Settings** in the upper right corner of the component editor, and
-   then enter text in the **Display Name** field.
+   To return to the visual editor, select **Editor**.
 
-   To return to the text editor, select **Editor** in the upper right corner.
-
-#. Select **Save** to save the HTML component.
+#. Select **Save**.
 
 When using the visual editor, you can also perform the following tasks.
 
@@ -285,7 +313,8 @@ Add a Link to a Website
    destination for your link.
 
    .. image:: ../../../shared/images/HTML_Insert-EditLink_Website.png
-    :alt: An image of of the Insert link dialog box with a link to edx.org and the link text edX Website.
+    :alt: An image of of the Insert link dialog box with a link to edx.org and
+     the link text edX Website.
     :width: 400
 
 #. If you want the link to open in a new window, select the dropdown arrow
@@ -332,7 +361,8 @@ Add a Link to a Course Unit
    forward slashes (/).
 
    .. image:: ../../../shared/images/HTML_Insert-EditLink_CourseUnit.png
-    :alt: An image of the Insert link dialog box with a link to a unit identifier.
+    :alt: An image of the Insert link dialog box with a link to a unit
+     identifier.
     :width: 400
 
   .. caution::
@@ -341,7 +371,7 @@ Add a Link to a Course Unit
     not use ``/jump_to_id/<unit identifier>``, the link will be broken if you
     export then import the course.
 
-6. If you want the link to open in a new window, select the dropdown arrow
+#. If you want the link to open in a new window, select the dropdown arrow
    next to the **Target** field, and then select **New Window**. If not, you
    can leave the default value.
 
@@ -386,7 +416,8 @@ Course`.
    Make sure to include both forward slashes (/).
 
    .. image:: ../../../shared/images/HTML_Insert-EditLink_File.png
-    :alt: An image of the Insert link dialog box with a link to a file and the link text Syllabus.
+    :alt: An image of the Insert link dialog box with a link to a file and the
+     link text Syllabus.
     :width: 400
 
 #. If you want the link to open in a new window, select the dropdown arrow
@@ -439,7 +470,8 @@ course. You then create a link to the image in the HTML component.
    Make sure to include both forward slashes (/).
 
    .. image:: ../../../shared/images/HTML_Insert-Edit_Image.png
-    :alt: An image of the Insert image dialog box with a reference to an image file.
+    :alt: An image of the Insert image dialog box with a reference to an image
+     file.
     :width: 400
 
 #. Enter alternative text in the **Image description** field. This text becomes
