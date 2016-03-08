@@ -18,6 +18,6 @@ edX Developer's Guide
    analytics.rst
    deploy-new-service
    internationalization/index
-   accessibility
+   conventions/index
    style_guides/index
    glossary

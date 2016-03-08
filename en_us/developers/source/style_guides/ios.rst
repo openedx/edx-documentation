@@ -3,8 +3,14 @@
 .. _edX Objective-C Style Guide:
 
 ###########################
-edX Objective-C Style Guide
+EdX Objective-C Style Guide
 ###########################
+
+This section describes the requirements and conventions for contributing Objective-C programming to the edX platform.
+
+.. contents::
+ :local:
+ :depth: 2
 
 **********
 Principles
@@ -57,7 +63,7 @@ Syntax and Organization
     #. Header for current file (only if in a .m file)
     #. Project headers
 
-    For example, 
+    For example,
 
     .. code-block:: objc
 
@@ -71,24 +77,24 @@ Syntax and Organization
         #import “OEXSomething.h”
         #import “OEXWhatever.h”
 
-        
+
 * Avoid ``#import`` in headers where possible. This makes dependencies more
   explicit and results in fewer headers included. This improves compilation
   speeds. Instead use the ``@class`` and ``@protocol`` forward declarations.
-    
+
     .. code-block:: objc
 
         // Good
         @class SomeClass;
-        
+
         @interface OtherClass
         - (instancetype)initWithSomeClass:(SomeClass*)object;
         @end
-        
-        
+
+
         // Bad
         #import "SomeClass.h"
-        
+
         @interface OtherClass
         - (instancetype)initWithSomeClass:(SomeClass*)object;
         @end
@@ -97,7 +103,7 @@ Syntax and Organization
   accessible to the compiler. For example, "Quick Open" does not work with
   macros. Additionally, macro functions are error prone and hard to debug.
   Some examples follow:
-    
+
     .. code-block:: objc
 
         extern NSString* const OEXExampleKey = @"OEXExampleKey";
@@ -117,18 +123,18 @@ Syntax and Organization
 
         // Good
         @interface SomeClass
-        
+
         @property (strong, nonatomic) NSString* foo;
-        
+
         @end
 
-        
+
         // Bad
         @interface SomeClass {
             NSString* _foo;
         }
         @end
-        
+
         // Worse
         @interface SomeClass {
             NSString* foo;
@@ -156,15 +162,15 @@ Syntax and Organization
 
 * Follow the standard Cocoa file naming conventions:
    *  Class ``Example`` should be in ``OEXExample.[hm]``
-   *  Category ``SomethingAdditions`` on class ``OEXExample``  should be in 
+   *  Category ``SomethingAdditions`` on class ``OEXExample``  should be in
       ``OEXExample+SomethingAdditions.[hm]``
-   *  A view controller for the ``Example`` screen should be in 
+   *  A view controller for the ``Example`` screen should be in
       ``OEXExampleViewController.[hm]``
    *  A view that displays an ``Example`` should be in ``OEXExampleView.[hm]``
 
 *  Categories should be named for the functionality they provide.
     .. code-block:: objc
-    
+
         // Good
         @interface NSString (OEXFormattingAdditions)
         //... functions that control formatting
@@ -187,7 +193,7 @@ Syntax and Organization
         @interface SomeClassDelegate
         - (void)tabView:(TabView*)tabView choseTabAtIndex:(NSUInteger)index;
         @end
-        
+
 
         // Bad
         @interface SomeClassDelegate
@@ -227,7 +233,7 @@ Syntax and Organization
     advantage for the cost of decreased determinism.
 
 * Avoid Key Value Observing. It is occasionally the only way to observe
-  something, but do not design interfaces that use it. It is an `error prone API`_. 
+  something, but do not design interfaces that use it. It is an `error prone API`_.
 
 * Do not use exceptions for control flow. They should only be for top level
   failure conditions indicating programmer error. ARC is not thread safe by
@@ -264,7 +270,7 @@ Syntax and Organization
         // Good
         SomeObject* object = ...;
         if(object == null) {
-        
+
 
         // Bad
         SomeObject* object = ...;
@@ -298,7 +304,7 @@ Syntax and Organization
   hard about the threading behavior of this property and very intentionally
   decided that it should work through ``atomic`` properties and not by
   isolating access to a queue.
-     
+
 * Declare memory semantics. All properties should be marked ``strong``,
   ``weak``, or ``assign``. There are defaults for different types that are
   usually right, but making it explicit forces you to think about whether
@@ -342,9 +348,9 @@ Writing Tests
   what appears to the user as a button, such as gesture recognizers and
   overriding ``touchesBegan:``, so exposing a ``t_loginButton`` method
   returning a ``UIButton`` would violate this rule.
-  
+
 * Do not redeclare a method as public inside the test. This is fragile since
-  changes will not be caught by the compiler. 
+  changes will not be caught by the compiler.
 
     .. code-block:: objc
 
@@ -352,11 +358,11 @@ Writing Tests
         // SomeClass.h
         @interface SomeClass
         @end
-        
+
         @interface SomeClass (Testing)
         - (BOOL)t_isVisible;
         @end
-        
+
         // SomeClass.m
         @implementation SomeClass (Testing)
         - (BOOL)t_isVisible {
