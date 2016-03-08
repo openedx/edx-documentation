@@ -25,6 +25,7 @@ Components Index`.
    chemical_equation
    circuit_schematic_builder
    conditional_module
+   completion
    custom_javascript
    drag_and_drop
    dropdown
@@ -46,6 +47,7 @@ Components Index`.
    office_mix
    open_response_assessments/index
    oppia
+   peer_instruction_tool
    periodic_table
    poll_question
    poll

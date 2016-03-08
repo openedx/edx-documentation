@@ -40,13 +40,13 @@ To enable prerequisite courses, you modify the ``lms.env.json`` and
 directory.
 
 #. Set the value of ``ENABLE_PREREQUISITE_COURSES`` in the
-   ``lms.env.json`` and ``cms.env.json`` files to ``True``.
+   ``lms.env.json`` and ``cms.env.json`` files to ``true``.
 
    .. code-block:: python
 
        # Prerequisite courses feature flag
-       'ENABLE_PREREQUISITE_COURSES': True,
+       'ENABLE_PREREQUISITE_COURSES': true,
 
-#. Save the the ``lms.env.json`` and ``cms.env.json`` files.
+#. Save the ``lms.env.json`` and ``cms.env.json`` files.
 
 .. include:: ../../../links/links.rst

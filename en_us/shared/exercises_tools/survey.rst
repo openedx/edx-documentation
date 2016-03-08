@@ -27,7 +27,8 @@ The following example survey has three questions, each with the same three
 possible answers.
 
 .. image:: ../../../shared/images/survey.png
-    :alt: A survey asking multiple questions about the learner's view of the course.
+    :alt: A survey asking multiple questions about the learner's view of the
+     course.
     :width: 600
 
 After learners submit their answers to the survey, they see the survey
@@ -35,7 +36,8 @@ results that have been gathered at this time, unless the survey has been
 configured to hide results.
 
 .. image:: ../../../shared/images/survey_results.png
-    :alt: The results of a survey asking multiple questions about the learner's view of the course.
+    :alt: The results of a survey asking multiple questions about the
+     learner's view of the course.
     :width: 600
 
 .. _Enable the Survey Tool:
@@ -44,20 +46,21 @@ configured to hide results.
 Enable the Survey Tool
 *********************************************
 
-Before you can add a survey to your course, you must enable the Survey tool in
+Before you can add a survey to your course, you must enable the survey tool in
 Studio or OLX.
 
-To enable the Survey tool in Studio, you add the ``"survey"`` key to the
-**Advanced Module List** on the **Advanced Settings** page. For more
-information, see :ref:`Enable Additional Exercises and Tools`.
+To enable the survey tool in Studio, you add the ``"survey"`` key to the
+**Advanced Module List** on the **Advanced Settings** page. (Be sure to
+include the quotation marks around the key value.) For more information, see
+:ref:`Enable Additional Exercises and Tools`.
 
-Alternatively, you can use OLX to enable the poll tool.
+Alternatively, you can use OLX to enable the survey tool.
 
 ======================================
 Enable the Survey Tool in OLX
 ======================================
 
-To enable enable the survey tool, you edit the XML file that defines the course
+To enable the survey tool, you edit the XML file that defines the course
 structure.
 
 Open the XML file for the course in the ``course`` directory. In the ``course``
@@ -162,7 +165,7 @@ The following example shows the OLX definition for a survey with two questions.
 .. code-block:: xml
 
   <survey
-    url_name="unique identfier for the survey"
+    url_name="unique identifier for the survey"
     xblock-family="xblock.v1"
     questions="[
                  [&quot;unique code for question 1&quot;,
@@ -268,7 +271,7 @@ View Survey Results
 ***************************
 
 When you view the survey as a course staff member, you can view results of the
-survey in the courseware.
+survey inside the course.
 
 Select **View results** in the survey.
 
@@ -279,5 +282,6 @@ Select **View results** in the survey.
 The results of the survey are then displayed.
 
 .. image:: ../../../shared/images/survey_results.png
-    :alt: The results of a survey asking multiple questions about the learner's view of the course.
+    :alt: The results of a survey asking multiple questions about the
+     learner's view of the course.
     :width: 600

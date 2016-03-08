@@ -28,9 +28,10 @@ the course About page.
 
 If students have not completed the prerequisite course, they can enroll in your
 course and then see your course on the Student Dashboard. However, unlike with
-other courses, the Student Dashboard does not provide a link to the courseware.
-The Student Dashboard includes a link to the About page for the prerequisite
-course. Students can enroll in the prerequisite course from the About page.
+other courses, the Student Dashboard does not provide a link to the course
+content. The Student Dashboard includes a link to the About page for the
+prerequisite course. Students can enroll in the prerequisite course from the
+About page.
 
 .. image:: ../../../shared/images/Prereq_StudentDashboard.png
   :width: 500

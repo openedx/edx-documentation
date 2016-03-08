@@ -6,7 +6,7 @@ Beta Testing a Course
 
 This topic describes how to beta test your course.
 
-.. contents:: 
+.. contents::
   :local:
   :depth: 1
 
@@ -14,10 +14,10 @@ This topic describes how to beta test your course.
 Overview
 ****************************
 
-When you are designing a course in Studio, you can select **View Live** to
-test your work work, find gaps and errors, and mimic the learner
-experience. To gather information about the overall experience of taking a
-course, you can also conduct a beta test of the course.
+When you are designing a course in Studio, you can select **View Live** to test
+your work, find gaps and errors, and mimic the learner experience. To
+gather information about the overall experience of taking a course, you can
+also conduct a beta test of the course.
 
 .. _Beta_Process:
 
@@ -56,7 +56,7 @@ course.
 .. _Qualities_Testers:
 
 ***************************************
-The Beta Testing Role 
+The Beta Testing Role
 ***************************************
 
 Beta testers have early access to the course. Beta testers are not members of
@@ -72,11 +72,11 @@ discussions are not open before the course start date, so beta testers cannot
 participate in community conversations. As a result of these differences, beta
 testers do not receive certificates when they complete a course.
 
-.. note:: If one of your beta testers wishes to earn a certificate for the 
+.. note:: If one of your beta testers wishes to earn a certificate for the
  course, she must create a separate user account with a different username and
  email address. She can then use that separate, non-privileged user account to
  enroll in the course and repeat the work, completing assignments and exams
- when they are available to all students.
+ when they are available to all learners.
 
 ==================================
 Qualities of Good Beta Testers
@@ -91,7 +91,7 @@ however, you may find these skills and characteristics to be helpful.
 
 * Attention to detail for identifying problems and inconsistencies.
 
-* Solid communication skills for reporting problems to the course team. 
+* Solid communication skills for reporting problems to the course team.
 
 Your beta testers should also have varying levels of knowledge about the course
 content:
@@ -108,7 +108,7 @@ native languages, or who have varying levels of familiarity with computer
 software.
 
 =========================================
-Using Course Team Members as Beta Testers 
+Using Course Team Members as Beta Testers
 =========================================
 
 The course team can provide valuable feedback about your course. However, they
@@ -130,7 +130,7 @@ only when she signs in to edX using the beta tester account.
 What to Test
 *********************************
 
-Beta testers should interact with everything in the course. 
+Beta testers should interact with everything in the course.
 
 * Select all links.
 
@@ -138,7 +138,7 @@ Beta testers should interact with everything in the course.
 
 * Download video transcripts and other files.
 
-* Complete all problems. 
+* Complete all problems.
 
 Beta testers can use a desktop computer to access an edX website, the edX
 mobile app on a smartphone, or both to complete their tests. As they work,
@@ -150,22 +150,31 @@ beta testers log issues and questions for the course team.
 How Beta Testers See Course Content
 ******************************************
 
-To beta test a course, you: 
+To beta test a course, you:
 
-* Define a number of days before section and subsection release days for
-  testing to begin.
+* Define a number of days before content releases for testing to begin.
+
+    * For instructor-paced courses, this number applies to the release date for
+      each section and subsection. Beta testers can only access course content
+      the number of days you specify before each section or subsection is
+      released.
+
+    * For self-paced courses, this number applies to the course start date.
+      Because sections and subsections for self-paced courses do not have
+      individual release dates, beta testers can access all course content when
+      the beta test begins.
 
 * Identify beta testers.
 
-Designated beta testers see course content before students can. The matrix
+Designated beta testers see course content before learners can. The matrix
 that follows shows the course content that beta testers can access earlier
-than other students.
+than other learners in an example instructor-paced course.
 
 .. list-table::
    :widths: 60 20 20
    :header-rows: 1
 
-   * - 
+   * -
      - Yes
      - No
    * - Before the course enrollment date
@@ -181,17 +190,17 @@ than other students.
      - X
      -
    * - Before the unit is published
-     - 
+     -
      - X
    * - Before a draft replaces a live unit
-     - 
+     -
      - X
 
 The course team can continue to add content in Studio after the beta test
 begins. When new content is ready for testing, be sure to :ref:`publish the
 unit<Publish a Unit>`.
 
-.. important:: When you set up the beta test and define when it starts, verify 
+.. important:: When you set up the beta test and define when it starts, verify
  that the first section, subsection, and unit in your course are available to
  be tested. If that first unit is not available, an error occurs when testers
  attempt to access any other content in the course.
@@ -201,14 +210,14 @@ Define When the Beta Test Starts
 ================================
 
 To define the start of the beta test, you use Studio to specify a number of
-days before the release day that is defined for each section and subsection in
-your course.
+days before the course start date for self-paced courses or before the section
+and subsection release dates for instructor-paced courses. For more
+information, see :ref:`How_Testers_See_Course`.
 
-#. In Studio, from the **Settings** menu select **Advanced Settings**.
+#. In Studio, from the **Settings** menu, select **Advanced Settings**.
 
 #. In the field for the **Days Early for Beta Users** policy key, enter the
-   number of days before each section and subsection release day for beta
-   testers to have access.
+   number of days before content releases for beta testers to have access.
 
 #. Select **Save Changes**.
 
@@ -218,8 +227,8 @@ Example
 
 .. Is this example helpful? how can we assess whether it is frightening/confusing to course team, or helpful?
 
-Beta tester access to courseware for a course with **Days Early for Beta
-Users** = 20 and 2 sections:
+Beta tester access to course content for an instructor-paced course with **Days
+Early for Beta Users** = 20 and 2 sections:
 
 
 .. list-table::
@@ -244,26 +253,26 @@ Users** = 20 and 2 sections:
    * - Subsection 2, unit 3 visibility = private
      - No access
 
-In this example, the beta testers cannot access all of the courseware when the
-beta test starts on 26 August: they can access section 1 but not section 2. You
-may want to provide a schedule of section availability to your testers so that
-they can plan their time appropriately. Future release dates do not display to
-the beta testers in the courseware.
+In this example, the beta testers cannot access all of the content on the
+**Course** page when the beta test starts on 26 August: they can access section
+1 but not section 2. You may want to provide a schedule of section availability
+to your testers so that they can plan their time appropriately. Future release
+dates do not display to the beta testers in the course.
 
 .. _Add_Testers:
 
 *********************************
-Adding Beta Testers 
+Adding Beta Testers
 *********************************
 
 Before you can add beta testers:
 
-* You need the email address or username of each beta tester. 
+* You need the email address or username of each beta tester.
 
 * Each beta tester must register and activate a user account for that email
   address/username.
 
-When you add beta testers, note the following. 
+When you add beta testers, note the following.
 
 * If the beta test starts before the course **Enrollment Start Date**, testers
   cannot enroll themselves in your course. However, you can enroll the beta
@@ -294,12 +303,12 @@ To add multiple beta testers:
 
 #. View the live version of your course.
 
-#. Select **Instructor**, and then select **Membership**. 
+#. Select **Instructor**, and then select **Membership**.
 
 #. In the **Batch Beta Tester Addition** section of the page, enter one or more
    addresses or usernames separated by commas or line feeds (the Enter key).
    You can also copy data from a CSV file of email addresses and paste it here.
- 
+
 #. To enroll the beta testers in your course, leave **Auto Enroll** selected.
    If the beta test starts before the course **Enrollment Start Date**, testers
    cannot enroll themselves in your course.
@@ -321,9 +330,9 @@ To add multiple beta testers:
 
 To remove the Beta Tester role from one or more users, enter their email
 addresses in the **Batch Add Beta Testers** field and then select **Remove beta
-testers**. 
+testers**.
 
-.. note:: The **Auto Enroll** option has no effect when you select **Remove 
+.. note:: The **Auto Enroll** option has no effect when you select **Remove
  beta testers**. The user's role as a beta tester is removed; course
  enrollment is not affected.
 
@@ -339,7 +348,7 @@ Add Beta Testers Individually
    select **Beta Testers**.
 
 #. Under the list of users who currently have that role, enter an email address
-   or username and click **Add Beta Tester**. 
+   or username and click **Add Beta Tester**.
 
    If the beta test starts before the **Enrollment Start Date** of your course,
    you can also enroll the beta tester. See :ref:`Enrollment`.
@@ -361,4 +370,4 @@ problems, questions, and issues can occur while a course is running.
   discussion moderation team can watch for posts that indicate problems.
 
 * To let learners know the best way to report problems, you can post
-  information on the **Course Info** page or post it in a discussion.
+  information on the **Home** page or post it in a discussion.

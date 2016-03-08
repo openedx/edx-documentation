@@ -2,12 +2,23 @@
 Change Log
 ############
 
+The edX documentation team no longer maintains a change log for each guide. For
+a weekly summary of platform changes, refer to the *EdX Release Notes* on the
+`docs.edx.org`_ website.
+
+For information about changes made to the edX documentation set, the
+`edx-documentation`_ repository on GitHub provides a complete record.
+
+.. include:: ../../../links/links.rst
+
 .. list-table::
    :widths: 30 70
    :header-rows: 1
 
    * - Date
      - Change
+   * - 12 January 2016
+     - Added the :ref:`Customize Registration Page` topic.
    * - 16 December 2015
      - Updated the default value for the ``ENABLE_INSTRUCTOR_LEGACY_DASHBOARD``
        feature flag in the :ref:`Feature Flag Index`.

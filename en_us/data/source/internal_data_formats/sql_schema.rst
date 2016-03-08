@@ -134,16 +134,13 @@ Key
 User Data
 ****************
 
-Data for students is gathered during site registration, course
-enrollment, and as other activities, such as responding to a particular type of problem or joining a team, take place.
+Data for students is gathered during site registration, course enrollment, and
+as other activities, such as responding to a particular type of problem or
+joining a team, take place.
 
 .. contents::
   :local:
   :depth: 1
-
-.. note:: The Teams feature is in limited release. For more information,
-   contact your edX partner manager. For Open edX sites, contact your system
-   administrator.
 
 .. _auth_user:
 
@@ -813,14 +810,21 @@ mode
 
   **History**:
 
-  * All enrollments prior to 20 Aug 2013 are "honor", when the "audit" and
-    "verified" values were added.
+  * On 1 Dec 2015, the "audit" value was reintroduced. This value now
+    identifies learners who choose an enrollment option that is not
+    certificate eligible.
 
-  * The "professional" value was added for courses on edx.org on 29 Sep 2014.
+  * On 23 Oct 2014, the "audit" value was deprecated.
 
-  * The "audit" value was deprecated on 23 Oct 2014.
+  * On 29 Sep 2014, the "professional" and "no-id-professional" values were
+    added for courses on edx.org.
 
-  .. _user_api_usercoursetag:
+  * On 20 Aug 2013, the "audit" and "verified" values were added.
+
+  * All enrollments prior to 20 Aug 2013 were "honor".
+
+
+.. _user_api_usercoursetag:
 
 ===============================================
 Columns in the ``user_api_usercoursetag`` Table
@@ -1079,7 +1083,6 @@ code
   The language code. Most codes are ISO 639-1 codes, with the addition of
   codes for simplified and traditional Chinese.
 
-
 .. _teams_courseteam:
 
 ==============================================
@@ -1087,10 +1090,6 @@ Columns in the ``teams_courseteam`` Table
 ==============================================
 
 This table stores information about the teams in a course.
-
-.. note:: The Teams feature is in limited release. For more information,
-   contact your edX partner manager. For Open edX sites, contact your system
-   administrator.
 
 **History**: Added September 15 2015
 
@@ -1239,13 +1238,11 @@ last_activity_at
   this field includes team creation, and the creation of posts, comments, and
   responses in the team's discussions.
 
-
 --------------------
 team_size
 --------------------
 
   The current count of the number of members in the team.
-
 
 .. _teams_courseteammembership:
 
@@ -1254,10 +1251,6 @@ Columns in the ``teams_courseteammembership`` Table
 ===================================================
 
 This table stores information about learners who are members of a team.
-
-.. note:: The Teams feature is in limited release. For more information,
-   contact your edX partner manager. For Open edX sites, contact your system
-   administrator.
 
 **History**: Added September 15 2015.
 
@@ -1330,6 +1323,84 @@ last_activity_at
   posts. If the user has not yet participated in the team's discussion, the
   ``last_activity_at`` date/time reflects the timestamp when the user joined
   the team.
+
+.. _verify_student_verificationstatus:
+
+=======================================================
+Columns in the verify_student_verificationstatus Table
+=======================================================
+
+The ``verify_student_verificationstatus`` table shows learner re-verification
+attempts and outcomes.
+
+**History**: Added 5 August 2015.
+
+A sample of the heading row and a data row in the
+verify_student_verificationstatus table follow.
+
+.. code-block:: sql
+
+    timestamp  status course_id checkpoint_name user_id
+    2015-04-28 12:13:22 submitted edX/DemoX/Demo_Course Final 9999999
+
+
+The ``verify_student_verificationstatus`` table has the following columns.
+
++----------------------+--------------+------+-----+---------+----------------+
+| Field                | Type         | Null | Key | Default | Extra          |
++----------------------+--------------+------+-----+---------+----------------+
+| timestamp            | datetime     | NO   |     | NULL    |                |
++----------------------+--------------+------+-----+---------+----------------+
+| status               | varchar(32)  | NO   | MUL | NULL    |                |
++----------------------+--------------+------+-----+---------+----------------+
+| course_id            | varchar(255) | NO   | MUL | NULL    |                |
++----------------------+--------------+------+-----+---------+----------------+
+| checkpoint_location  | varchar(255) | NO   |     | NULL    |                |
++----------------------+--------------+------+-----+---------+----------------+
+| user_id              | int(11)      | NO   | MUL | NULL    |                |
++----------------------+--------------+------+-----+---------+----------------+
+
+---------
+timestamp
+---------
+
+  The date and time at which the user's verification status changed, in UTC.
+
+---------
+status
+---------
+
+  This column can have one of the following values.
+
+  * ``submitted``: The user has submitted photos for re-verification.
+  * ``approved``: The verification service successfully verified the user's
+    identity.
+  * ``denied``: The verification service determined that the user's re-
+    verification photo does not match the photo on the ID that the user
+    submitted at the start of the course.
+  * ``error``: An error occurred during the verification process.
+
+---------
+course_id
+---------
+
+  The ID of the course run that the user is re-verifying for.
+
+--------------------
+checkpoint_location
+--------------------
+
+  The point in the course at which the user was prompted to re-verify his or
+  her identity. As of August 2015, course authors can define these checkpoints
+  when they create the course. Because these checkpoints typically occur
+  before exams, examples of expected values are ``final`` and ``midterm``.
+
+--------
+user_id
+--------
+
+  Student's ID in ``auth_user.id``. Identifies the student who is re-verifying
+  his or her identity.
 
 
 .. _Courseware_Progress:
@@ -1802,7 +1873,17 @@ distinction
 --------
 status
 --------
-  The status can be one of these states.
+
+  After a course has been graded and certificates have been issued, the status
+  is one of these string values.
+
+  * downloadable
+  * audit_passing
+  * notpassing
+  * audit_notpassing
+
+  The table that follows describes these values and the other workflow states
+  that can apply during certificate generation process.
 
   .. list-table::
        :widths: 15 80
@@ -1810,36 +1891,59 @@ status
 
        * - Value
          - Description
+       * - audit_notpassing
+         - Applies to learners who did not earn a passing grade and who have a
+           value of "audit" in ``student_courseenrollment.mode``. No
+           certificate is generated for these learners.
+
+           **History**: Added 26 Jan 2016 for audit enrollments created after 1
+           Dec 2015.
+
+       * - audit_passing
+         - Applies to learners who earned a passing grade and who have a value
+           of "audit" in ``student_courseenrollment.mode``. These learners
+           completed the course succesfully, but no certificate is generated
+           for these learners.
+
+           **History**: Added 26 Jan 2016 for audit enrollments created after 1
+           Dec 2015.
+
        * - deleted
          - The certificate has been deleted.
        * - deleting
          - A request has been made to delete a certificate.
        * - downloadable
-         - The student passed the course and a certificate is available for
-           download.
+         - A certificate is available for download.
+
+           Applies to learners who earned a passing grade and who have a
+           certificate-bearing value in ``student_courseenrollment.mode``.
+
        * - error
          - An error ocurred during certificate generation.
        * - generating
-         - A request has been made to generate a certificate but it has not
-           yet been generated.
+         - A request has been made to generate a certificate but it has not yet
+           been generated.
        * - notpassing
-         - The student's grade is not a passing grade.
+         - The learner did not earn a passing grade.
+
+           Applies to learners who have a certificate-bearing value in
+           ``student_courseenrollment.mode``. No certificate is generated for
+           these learners.
+
        * - regenerating
          - A request has been made to regenerate a certificate but it has not
            yet been generated.
        * - restricted
-         - No longer used. **History**: Specified when
-           ``userprofile.allow_certificate`` was set to false: to indicate
-           that the student was on the restricted embargo list.
+         - No longer used.
+
+           **History**: Specified when ``userprofile.allow_certificate`` was
+           set to false to indicate that the learner was on the restricted
+           embargo list.
+
        * - unavailable
          - No entry, typically because the student has not yet been graded for
            certificate generation.
 
-  After a course has been graded and certificates have been issued, status is
-  one of these values.
-
-  * downloadable
-  * notpassing
 
 -------------
 verify_uuid
@@ -1878,7 +1982,7 @@ error_reason
 ---------------
 mode
 ---------------
-  Contains the value found in the ``enrollment.mode`` field for a student and
-  course at the time the certificate was generated: blank, audit, honor, or
-  verified. This value is not updated if the student's ``enrollment.mode``
-  changes after certificates are generated.
+  Contains the value found in the ``student_courseenrollment.mode`` field for a
+  student and course at the time the certificate was generated: audit, honor,
+  verified, or blank. This value is not updated if the value of the student's
+  ``student_courseenrollment.mode`` changes after certificates are generated.

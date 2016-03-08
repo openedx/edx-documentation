@@ -38,7 +38,7 @@ The following example shows an Oppia exploration as learners see it in the edX
 LMS.
 
 .. image:: ../../../shared/images/oppia.png
-  :alt: An Oppia exploration in courseware.
+  :alt: An Oppia exploration in the course.
   :width: 800
 
 For information about how to create Oppia explorations, see the `Oppia User
@@ -54,8 +54,9 @@ Before you can add an Oppia exploration to your course, you must enable this
 tool in Studio.
 
 To enable the Oppia exploration tool in Studio, you add the ``"oppia"`` key to
-the **Advanced Module List** on the **Advanced Settings** page. For more
-information, see :ref:`Enable Additional Exercises and Tools`.
+the **Advanced Module List** on the **Advanced Settings** page. (Be sure to
+include the quotation marks around the key value.) For more information, see
+:ref:`Enable Additional Exercises and Tools`.
 
 ***********************************
 Add an Oppia Exploration in Studio
@@ -80,7 +81,7 @@ of the website that hosts that exploration and its ID.
 
 #. In the **Component Display Name** field, enter an identifying name for the
    component. This name appears to learners as a tooltip in the learning
-   sequence at the top of the **Courseware** page.
+   sequence at the top of the **Course** page.
 
 #. In the **Oppia Exploration ID** field, enter the identifier assigned to the
    exploration you want to add. For example, ``qG6kclSxlWZn`` or

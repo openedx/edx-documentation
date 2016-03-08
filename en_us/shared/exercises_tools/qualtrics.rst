@@ -7,7 +7,7 @@ Qualtrics Survey Tool
 .. note:: EdX offers full support for this tool.
 
 You can administer Qualtrics surveys to your learners in your edX course. The
-Qualtrics survey appears in an IFrame in the courseware.
+Qualtrics survey appears in an iframe inside the course.
 
 .. image:: ../../../shared/images/Qualtrics.png
   :width: 500
@@ -16,11 +16,11 @@ Qualtrics survey appears in an IFrame in the courseware.
 Course staff can view the overall results of the survey as well as responses
 from individual learners.
 
-.. note:: To use a Qualtrics survey, you must have a Qualtrics license. Qualtrics
- licenses are available for a fee at the `Qualtrics website
+.. note:: To use a Qualtrics survey, you must have a Qualtrics license.
+ Qualtrics licenses are available for a fee at the `Qualtrics website
  <http://www.qualtrics.com>`_. If you want to include a survey but you do not
- have a Qualtrics license, you can use the :ref:`edX survey tool<Survey
- Tool>` or a :ref:`Google form<Google Drive Files Tool>`.
+ have a Qualtrics license, you can use the :ref:`edX survey tool<Survey Tool>`
+ or a :ref:`Google form<Google Drive Files Tool>`.
 
 For more information, see the following sections.
 
@@ -32,8 +32,6 @@ Be sure to review all supplemental materials to make sure that they are
 accessible before making them available through your course. For more
 information, see
 :ref:`Accessibility Best Practices for Course Content Development`.
-
-
 
 *************************************
 Add a Qualtrics Survey to Your Course
@@ -89,8 +87,9 @@ Create the HTML Component in Studio
    Tool**.
 #. Select **Edit** to open the component editor, and then select **HTML** in
    the menu bar.
-#. At the end of the instructions, locate the example IFrame element, and
-   replace the placeholder values with the values for your survey. The IFrame element starts with the following text.
+#. At the end of the instructions, locate the example iframe element, and
+   replace the placeholder values with the values for your survey. The iframe
+   element starts with the following text.
 
    ``<iframe title="Euler Line Demo"``
 
@@ -117,7 +116,7 @@ Create the HTML Component in Studio
   * Leave the other default values, and then select **OK** at the bottom
     of the HTML source code editor to return to the component editor.
 
-5. In the component editor, delete all of the default instructional text, or
+#. In the component editor, delete all of the default instructional text, or
    replace it with introductory text for your Qualtrics survey.
 #. Select **Save**.
 
@@ -125,7 +124,8 @@ Create the HTML Component in Studio
 View Survey Responses
 *******************************
 
-You can view both overall survey responses and responses for individual learners.
+You can view both overall survey responses and responses for individual
+learners.
 
 =======================
 View Overall Responses
@@ -153,7 +153,8 @@ Download Data from the Instructor Dashboard
 
    ``<course name>_<course number>_<year>_<term>_anon-ids.csv``
 
-   For more information about anonymized student IDs, see :ref:`Access_anonymized`.
+   For more information about anonymized student IDs, see
+   :ref:`Access_anonymized`.
 
 #. Under **Reports**, select **Download profile information as a CSV**.
 #. When the profile information report appears in the list under **Reports
@@ -182,7 +183,8 @@ Download Data from Qualtrics
 Review the Data
 ******************
 
-To associate learners' responses with their learner profiles, open the three .csv files that you have downloaded in a program such as Microsoft Excel.
+To associate learners' responses with their learner profiles, open the three
+.csv files that you have downloaded in a program such as Microsoft Excel.
 
 * The Qualtrics file has a **uid** column that contains each learner's
   anonymized ID, as well as columns that contain each learner's answers to the

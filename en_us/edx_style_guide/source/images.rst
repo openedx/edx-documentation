@@ -8,10 +8,6 @@ Because the user interface can change rapidly and frequently, and because it is
 very expensive for translation teams to localize screen shots, the
 documentation team uses screen shot images sparingly.
 
-.. contents:: Section Contents
-   :local:
-   :depth: 1
-
 ***************
 Resources
 ***************
@@ -19,9 +15,9 @@ Resources
 These resources for screen captures (existing dummy courses with good
 data) are available on edX Edge.
 
-* `AA Introduction to Music Theory <https://studio.edge.edx.org/course/sylviaX/TEST10/2014_T3>`_
+* `AA Introduction to Music Theory`_
 
-* `La Tierra Centroamericana <https://studio.edge.edx.org/course/edX/GEO101/2014_T1>`_
+* `La Tierra Centroamericana`_
 
 *****************
 Guidelines
@@ -167,6 +163,19 @@ are ready to add the text, create a layer in the image specifically for the
 text, and only text. Be sure to leave 30% extra surrounding space for
 expansion.
 
+Text in annotations uses the Open Sans font. To install the Open Sans font,
+follow these steps.
+
+#. Visit the `Google Fonts`_ page for Open Sans.
+#. Under **Choose the styles you want**, select **Normal 400**.
+#. (optional) Under **Choose the character sets you want**, select any
+   character sets.
+#. On the right side of the page, click the Download icon. Choose the .zip file
+   option in the dialog box that opens.
+#. Copy all of the unzipped .ttf files and move them to the Macintosh
+   HD/Library/Fonts directory.
+#. Close and reopen any application that you want to use the font in.
+
 **************************
 Adding Images to Files
 **************************
@@ -237,14 +246,14 @@ user can click the image in the document to enlarge it.
 
   .. image:: Images/descriptive_image_name.png
        :width: 600
-       :alt:
+       :alt: Alt text in punctuated sentences or phrases.
 
 
 .. list-table::
 
   * - Full screen width
     - 600
-  * - Courseware pane
+  * - Course pane
     - 500
   * - Component editor
     - 450
@@ -262,7 +271,7 @@ Full screen width
   :width: 600
   :alt: 600-pixel-wide image.
 
-Courseware pane or Course Outline page
+Course pane or Course Outline page
 
 .. image:: Images/Units_LMS.png
   :width: 500

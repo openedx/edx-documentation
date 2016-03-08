@@ -20,7 +20,7 @@ do not appear until the learner clicks the dropdown arrow, answer choices for
 multiple choice problems are always visible directly below the question.
 
 .. image:: ../../../shared/images/MultipleChoiceExample.png
- :alt: A multiple choice problem
+ :alt: A multiple choice problem.
  :width: 600
 
 Multiple choice problems can also have several advanced options, such as
@@ -33,7 +33,7 @@ Analyzing Performance on Multiple Choice Problems
 
 For the multiple choice problems in your course, you can use edX Insights to
 review aggregated learner performance data and examine the submitted answers.
-For more information, see `Using edX Insights`_.
+For more information, see :ref:`insights:Using edX Insights`.
 
 ********************************************************
 Pedagogical Considerations for Multiple Choice Questions
@@ -86,12 +86,12 @@ literature. A few guidelines for the creation of such questions follow.
 Creating a Multiple Choice Problem
 ****************************************
 
-You can create multiple choice problems in the Simple Editor or in the
-Advanced Editor. You can set up a problem in the Simple Editor, and then
-switch to the Advanced Editor to add more configuration options in XML.
-However, you cannot switch back to the Simple Editor from the Advanced Editor.
+You can create multiple choice problems in the simple editor or in the
+advanced editor. You can set up a problem in the simple editor, and then
+switch to the advanced editor to add more configuration options in XML.
+However, you cannot switch back to the simple editor from the advanced editor.
 Therefore, you might want to format the problem as completely as possible
-before you begin to use the Advanced Editor.
+before you begin to use the advanced editor.
 
 .. _Use the Simple Editor to Create a Multiple Choice Problem:
 
@@ -99,7 +99,7 @@ before you begin to use the Advanced Editor.
 Use the Simple Editor to Create a Multiple Choice Problem
 ================================================================
 
-To use the :ref:`Simple Editor<Simple Editor>` to create a checkbox problem,
+To use the :ref:`simple editor<Simple Editor>` to create a checkbox problem,
 follow these steps.
 
 #. In the unit where you want to create the problem, under **Add New
@@ -114,11 +114,11 @@ follow these steps.
 
     Studio adds the problem to the unit.
 
-3. Select **Edit**. The Simple Editor opens.
+#. Select **Edit**. The simple editor opens.
 #. Replace the sample problem text with your own text.
 #. Determine the text that describes the question you want learners to answer,
    and surround that text with two pairs of angle brackets (``>>question<<``).
-   This question text is the accessible label for the problem.
+   This text identifies the question for screen readers, reports, and Insights.
 #. Edit your text to place each answer option on a separate line.
 #. Select your set of answer options, and then select **Multiple Choice** from
    the toolbar. A pair of parentheses appears next to each answer choice.
@@ -164,10 +164,10 @@ the problem component.
 Use the Advanced Editor to Edit a Multiple Choice Problem
 ========================================================================
 
-To use the :ref:`Advanced Editor<Advanced Editor>` to edit a multiple choice
+To use the :ref:`advanced editor<Advanced Editor>` to edit a multiple choice
 problem, follow these steps.
 
-#. Follow the steps for creating the problem in the :ref:`Simple Editor<Use
+#. Follow the steps for creating the problem in the :ref:`simple editor<Use
    the Simple Editor to Create a Multiple Choice Problem>`.
 #. Select **Advanced Editor**, and then edit the XML to add the tags and
    attributes you want. An example follows.
@@ -232,7 +232,7 @@ learner can select. Use the following guidelines when providing feedback.
 Configure Feedback in the Simple Editor
 =======================================
 
-In the :ref:`Simple Editor<Simple Editor>`, you configure answer feedback with
+In the :ref:`simple editor<Simple Editor>`, you configure answer feedback with
 the following syntax.  When you create a new multiple choice problem, select
 the template **Multiple Choice with Hints and Feedback**. This template has
 example feedback syntax that you can replace.
@@ -260,7 +260,7 @@ For example, the following problem has feedback for each possible answer.
 Configure Feedback in the Advanced Editor
 =========================================
 
-In the :ref:`Advanced Editor<Advanced Editor>`, you configure answer feedback
+In the :ref:`advanced editor<Advanced Editor>`, you configure answer feedback
 with the following syntax.
 
 .. code-block:: xml
@@ -332,7 +332,7 @@ can configure a custom label for a specific wrong answer.
 Customize Feedback Labels in the Simple Editor
 ***********************************************
 
-In the :ref:`Simple Editor<Simple Editor>`, you configure custom feedback
+In the :ref:`simple editor<Simple Editor>`, you configure custom feedback
 labels with the following syntax.
 
 ::
@@ -350,7 +350,7 @@ For example, the following feedback is configured to use a custom label.
 Customize Feedback Labels in the Advanced Editor
 *************************************************
 
-In the :ref:`Advanced Editor<Advanced Editor>`, you configure custom feedback
+In the :ref:`advanced editor<Advanced Editor>`, you configure custom feedback
 labels with the following syntax.
 
 .. code-block:: xml
@@ -393,8 +393,8 @@ Awarding Partial Credit in a Multiple Choice Problem
 ****************************************************
 
 You can configure a multiple choice problem so that specific incorrect answers
-award learners partial credit for the problem. You must use the `Advanced
-Editor <Use the Advanced Editor to Edit a Multiple Choice Problem>`_ to
+award learners partial credit for the problem. You must use the `advanced
+editor <Use the Advanced Editor to Edit a Multiple Choice Problem>`_ to
 configure partial credit.
 
 .. only:: Partners
@@ -432,13 +432,13 @@ answer, you add the following attributes to the problem XML.
 * For each answer that you intend to award partial credit, add the
   ``correct="partial"`` attribute to the ``<choice>`` element.
 
-* Optionally, define the percentage of the problem score to award for
-  each answer. In the ``point_values`` attribute for the ``<choice>`` element,
-  enter the value as a decimal. For example, you can add ``point_value="0.25"``
-  to award 25% of the points to learners who select that answer. The percentage
+* Optionally, define the percentage of the problem score to award for each
+  answer. In the ``point_values`` attribute for the ``<choice>`` element, enter
+  the value as a decimal. For example, you can add ``point_value="0.25"`` to
+  award 25% of the points to learners who select that answer. The percentage
   awarded should reflect how close the learner has gotten to a full
-  understanding of the concept. If you do not add the ``point_value`` attribute,
-  the system uses a value of 50%.
+  understanding of the concept. If you do not add the ``point_value``
+  attribute, the system uses a value of 50%.
 
 For example, the following XML shows the multiple choice problem template
 updated to provide partial credit for the first answer.
@@ -663,14 +663,15 @@ You can also have some answers shuffled, but not others. For example, you might
 want to include the answer "All of the Above" and have it always appear at the
 end of the list, but shuffle the other answers.
 
-You can configure the problem to shuffle answers using the Simple Editor or
-Advanced Editor.
+You can configure the problem to shuffle answers using the simple editor or
+advanced editor.
 
 
 Use the Simple Editor to Shuffle Answers
 *********************************************
 
-You can configure the problem to shuffle answers in :ref:`Simple Editor`.
+You can configure the problem to shuffle answers in the
+:ref:`simple editor<Simple Editor>`.
 
 For example, the following text defines a multiple choice problem before
 shuffling is enabled. The ``(x)`` indicates the correct answer.
@@ -717,7 +718,7 @@ Use the Advanced Editor to Shuffle Answers
 *********************************************
 
 You can configure the problem to shuffle answers by editing XML in the
-:ref:`Advanced Editor`.
+:ref:`advanced editor<Advanced Editor>`.
 
 For example, the following XML defines a multiple choice problem before
 shuffling is enabled.
@@ -790,7 +791,7 @@ Use the Advanced Editor to Configure Targeted Feedback
 ********************************************************
 
 You configure the problem to provide targeted feedback by editing XML in the
-:ref:`Advanced Editor`.
+:ref:`advanced editor<Advanced Editor>`.
 
 Follow these XML guidelines.
 
@@ -866,19 +867,19 @@ You can configure a multiple choice problem so that a random subset of choices
 are shown to each learner. For example, you can add 10 possible choices to the
 problem, and each learner views a set of five choices.
 
-The answer pool must have at least one correct answer. It can have more than one
-correct answer. In each set of choices shown to a learner, one correct answer is
-included. For example, you can configure two correct answers in the set of
-choices. One of the two correct answers is included in each set that a learner
-views.
+The answer pool must have at least one correct answer. It can have more than
+one correct answer. In each set of choices shown to a learner, one correct
+answer is included. For example, you can configure two correct answers in the
+set of choices. One of the two correct answers is included in each set that a
+learner views.
 
 Use the Advanced Editor to Configure Answer Pools
 **************************************************
 
 You configure the problem to provide answer pools by editing XML in the
-:ref:`Advanced Editor`.
+:ref:`advanced editor<Advanced Editor>`.
 
-Follow these XML guidelines:
+Follow these XML guidelines.
 
 * In the ``<choicegroup>`` element, add the ``answer-pool`` attribute, with
   the numerical value indicating the number of possible answers in the set.
@@ -935,5 +936,3 @@ explanation ID.
  </problem>
 
 
-
-.. _Using edX Insights: http://edx.readthedocs.org/projects/edx-insights/en/latest/

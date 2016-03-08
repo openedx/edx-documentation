@@ -1,7 +1,7 @@
 .. _Course Discussions:
 
 #######################################
-Introduction to Course Discussions
+Overview of Course Discussions
 #######################################
 
 Course discussions give you the opportunity to start conversations with other
@@ -10,8 +10,8 @@ participate in the course community. If you have not previously participated in
 an online discussion forum, see the introductory :ref:`Anatomy of edX Course
 Discussions` section.
 
-This chapter also describes features of edX discussions that can make your
-participation more effective:
+This section also describes features of edX discussions that can make your
+participation more effective.
 
 * :ref:`Explore Posts`
 

@@ -49,7 +49,7 @@ All problems on the edX platform have several component parts.
 #. **Problem text.** The problem text can contain any standard HTML formatting.
 
 #. **Response field with the learner's answer.** Learners enter answers
-   in *response fields*. The appearance of the response field depends on
+   in response fields. The appearance of the response field depends on
    the type of the problem.
 
 #. **Rendered answer.** For some problem types, Studio uses MathJax to
@@ -57,8 +57,8 @@ All problems on the edX platform have several component parts.
 
 #. **Check button.** The learner selects **Check** to submit a response or find
    out if his answer is correct. If the answer is correct, a green check mark
-   appears. If it is incorrect, a red X appears. When the learner selects the
-   **Check** button, the Learning Management System saves the grade and current
+   appears. If it is incorrect, a red X appears. When the learner selects
+   **Check**, the Learning Management System saves the grade and current
    state of the problem.
 
 #. **Save button.** The learner can select **Save** to save her current
@@ -78,16 +78,17 @@ All problems on the edX platform have several component parts.
    for individual problems defaults to that number, and cannot be set to
    unlimited.
 
-   .. image:: ../../../shared/images/AnatomyOfExercise2.png
-    :alt: An image of a problem from a learners's point of view, with
+.. image:: ../../../shared/images/AnatomyOfExercise2.png
+    :alt: An image of a problem from a learner's point of view, with
        callouts for attempts and showing the answer.
     :width: 500
 
-#. **Feedback.** After a learner selects **Check**, all problems return a
+8. **Feedback.** After a learner selects **Check**, all problems return a
    green check mark or a red X.
 
    .. image:: ../../../shared/images/AnatomyofaProblem_Feedback.png
-    :alt: An image of a feedback checkmark and x from a learner's point of view.
+    :alt: An image of a feedback checkmark and x from a learner's point of
+     view.
 
 #. **Correct answer.** Most problems require that you specify
    a single correct answer.
@@ -96,32 +97,43 @@ All problems on the edX platform have several component parts.
    appears when a learner selects **Show Answer**.
 
 #. **Reset button.** Learners can select **Reset** to clear any input that has
-   not yet been submitted, and try again to answer the question.
+   not yet been submitted, and try again to answer the problem.
 
-  - If the learner has already submitted an answer, selecting **Reset** clears
-    the submission and, if the problem includes a Python script to randomize
-    variables and the randomization setting is **On Reset**, changes the values
-    the learner sees in the problem.
-  - If the number of Maximum Attempts that was set for this problem has been
-    reached, the **Reset** button is not visible.
+   - If the learner has already submitted an answer, selecting **Reset** clears
+     the submission and, if the problem includes a Python script to randomize
+     variables and the randomization setting is **On Reset**, changes the
+     values the learner sees in the problem.
+   - If the maximum number of attempts that was set for this problem has been
+     reached, the **Reset** button is not visible.
 
-12. **Hide Answer button.**
+#. **Hide Answer button.**
 
-#. **Grading.** You can specify whether a group of problems is graded. If a
-   group of problems is graded, an icon of a pen and a piece of paper appears
-   or that assignment in the left pane.
+.. image:: ../../../shared/images/AnatomyOfExercise3.png
+    :alt: An image of a course section in the left pane of the LMS, with
+     callouts for the icon for graded content and for the due date.
+    :width: 200
+
+13. **Grading.** You can specify whether a group of problems is graded. If a
+    group of problems is graded, an icon of a pen and a piece of paper appears
+    for that assignment in the left pane.
 
 #. **Due date.** The date that the problem is due. A problem that is past due
    does not have a **Check** button. It also does not accept answers or
    provide feedback.
 
 .. note:: Problems can be **open** or **closed.** Closed problems do not
-          have a **Check** button. Learners can still see questions, solutions,
-          and revealed explanations, but they cannot check their work, submit
-          responses, or change an earlier score.
+          have a **Check** button. Learners can still see problem text,
+          solutions, and revealed explanations, but they cannot check their
+          work, submit responses, or change earlier scores.
 
 There are also some attributes of problems that are not immediately
 visible. You can set these attributes in Studio.
+
+* **Accessible Label.** In the problem text, you can identify the text that is,
+  specifically, the question that learners need to answer. The text that is
+  labeled as the question is used by screen readers, reports, and Insights. For
+  more information, see
+  :ref:`Simple Editor`.
 
 * **Randomization.** In certain types of problems, you can include a Python
   script to randomize the values that are presented to learners. You use
@@ -131,12 +143,6 @@ visible. You can set these attributes in Studio.
 * **Weight.** Different problems in a particular problem set can be given
   different weights. For more information, see :ref:`Problem Weight`.
 
-* **Label.** To improve accessibility for learners who have disabilities, each
-  problem needs a descriptive label. The label typically contains part or all
-  of the text of the question in the problem. Most templates include a space
-  for a label. You can find example labels in the documentation for each
-  problem or tool type, in the :ref:`Create Exercises` section.
-
 .. _Problem Studio View:
 
 ************************************
@@ -144,18 +150,18 @@ The Studio View of a Problem
 ************************************
 
 All problems are written in XML. However, Studio offers two interfaces for
-editing problem components: the Simple Editor and the Advanced Editor.
+editing problem components: the simple editor and the advanced editor.
 
-*  The Simple Editor allows you to edit problems visually, without
+*  The simple editor allows you to edit problems visually, without
    having to work with XML.
 
-*  The Advanced Editor converts the problem to edX's XML standard and
+*  The advanced editor converts the problem to edX's XML standard and
    allows you to edit that XML directly.
 
-You can switch at any time from the Simple Editor to the Advanced Editor by
-selecting **Advanced Editor** in the top right corner of the Simple Editor
-interface. However, after you save a problem in the Advanced Editor, you cannot
-open it again in the Simple Editor.
+You can switch at any time from the simple editor to the advanced editor by
+selecting **Advanced Editor** from the simple editor's toolbar. However, after
+you save a problem in the advanced editor, you cannot open it again in the
+simple editor.
 
 .. _Simple Editor:
 
@@ -163,7 +169,7 @@ open it again in the Simple Editor.
 The Simple Editor
 =================
 
-When you select the following problem types, the Simple Editor opens with a
+When you select the following problem types, the simple editor opens with a
 preformatted example problem.
 
 *  :ref:`Checkbox`: In checkbox problems, learners select one or more options
@@ -172,53 +178,72 @@ preformatted example problem.
 *  :ref:`Dropdown`: In dropdown problems, learners select one answer from a
    dropdown list.
 
-*  :ref:`Multiple Choice`: Multiple choice problems require learners to
-   select one answer from a list of choices that appear directly below
-   the question.
+*  :ref:`Multiple Choice`: Multiple choice problems require learners to select
+   one answer from a list of choices that appear below the problem text.
 
 *  :ref:`Numerical Input`: Numerical input problems require answers that
    include only integers, fractions, and a few common constants and
    operators.
 
 *  :ref:`Text Input`: In text input problems, learners enter a short text
-   answer to a question.
+   answer.
 
-The following image shows an example multiple choice problem in the Simple
-Editor.
+The following image shows an example multiple choice problem in the simple
+editor.
 
 .. image:: ../../../shared/images/MultipleChoice_SimpleEditor.png
- :alt: An image of the simple editor with numbered callouts for options and an
-   example multiple choice problem to demonstrate the formatting.
- :width: 450
+ :alt: An image of the simple editor with numbered callouts for each option,
+  and an example multiple choice problem to demonstrate the formatting.
+ :width: 600
 
-The Simple Editor includes a toolbar with options that provide the required
+The simple editor includes a toolbar with options that provide the required
 formatting for different types of problems. When you select an option from the
-toolbar, formatted sample text appears in the Simple Editor. Alternatively,
+toolbar, formatted sample text appears in the simple editor. Alternatively,
 you can apply formatting to your own text by selecting the text and then one
 of the toolbar options.
 
 Descriptions of the toolbar options follow.
 
-  1. **Heading 1**: Format text as a first level heading.
-  2. **Multiple Choice**: Identify the text on each selected line as an answer
-     option for a multiple choice problem.
-  3. **Checkboxes**: Identify the text on each selected line as an answer
-     option for a checkboxes problem.
-  4. **Text Input**: Identify the correct answer for a text input problem.
-  5. **Numerical Input**: Identify the correct answer, with an optional
-     tolerance, for a numerical input problem.
-  6. **Dropdown**: Identify a comma-separated list as the answer options for a
-     dropdown problem.
-  7. **Explanation**: Format text as an explanation that appears when learners
-     select **Show Answer**.
-  8. Open the problem in the Advanced Editor.
-  9. Open a list of formatting hints.
-  10. **Accessible Label**: Identify the question as the problem's accessible
-      label. No toolbar option is available, but when you surround text with
-      two pairs of angle brackets pointing inward (``>>question<<``), screen
-      readers use that text as the accessible label for the problem. In
-      addition, edX Insights uses the accessible label to identify the question
-      in each problem. For more information, see `Using edX Insights`_.
+#. **Heading**: Formats text as a title or heading.
+
+#. **Multiple Choice**: Identifies text as an answer option for a multiple
+   choice problem.
+
+#. **Checkboxes**: Identifies text as an answer option for a checkboxes
+   problem.
+
+#. **Text Input**: Identifies text as the correct answer for a text input
+   problem.
+
+#. **Numerical Input**: Identifies the correct answer, with an optional
+   tolerance, for a numerical input problem.
+
+#. **Dropdown**: Identifies a comma-separated list as correct and incorrect
+   answer options for a dropdown problem.
+
+#. **Explanation**: Formats text as an explanation that appears after learners
+   select **Show Answer**.
+
+#. Opens the problem in the advanced editor.
+
+#. Opens a list of formatting hints.
+
+#. **Accessible Label**: Identifies the part of the problem text that is the
+   specific question that learners will answer by selecting the options that
+   follow, or by entering a text or numeric response. The toolbar does not have
+   an option that provides this formatting, so you type two angle brackets on
+   either side of the question text pointing inward. For example, ``>>Is this
+   the question text?<<``.
+
+   * Screen readers read all of the text that you supply for the problem, and
+     then repeat the text that you identify with this formatting immediately
+     before reading the answer choices for the problem.
+
+   * The :ref:`Student_Answer_Distribution` report uses the text with this
+     formatting to identify each problem.
+
+   * Insights also uses the text with this formatting to identify each problem.
+     For more information, see `Using edX Insights`_.
 
 .. _Advanced Editor:
 
@@ -226,18 +251,18 @@ Descriptions of the toolbar options follow.
 The Advanced Editor
 ===================
 
-The **Advanced Editor** opens a problem in XML. Templates for problems such as
-such as drag and drop and math expression input open directly in the Advanced
-Editor.
+The advanced editor opens a problem in XML. Templates for problems such as
+such as drag and drop and math expression input open directly in the advanced
+editor.
 
-The following image shows the multiple choice problem above in the Advanced
-Editor instead of the Simple Editor.
+The following image shows the multiple choice problem above in the advanced
+editor instead of the simple editor.
 
 .. image:: ../../../shared/images/MultipleChoice_AdvancedEditor.png
  :alt: An image of a problem in the advanced editor.
- :width: 450
+ :width: 600
 
-The following problem templates open in the Advanced Editor.
+The following problem templates open in the advanced editor.
 
 * :ref:`Circuit Schematic Builder` In circuit schematic problems, learners
   create and modify circuits on an interactive grid and submit computer-
@@ -287,10 +312,10 @@ Display Name
 
 This setting indicates the name of your problem. This name appears for learners
 as a heading above the problem and as a tooltip in the learning sequence at the
-top of the **Courseware** page.
+top of the **Course** page.
 
 .. image:: ../../../shared/images/ProbComponent_LMS_DisplayName.png
- :alt: An image of the problem in a unit page from a learners's point of view.
+ :alt: An image of the problem in a unit page from a learner's point of view.
  :width: 500
 
 In addition, edX Insights uses the display name to identify each problem.
@@ -313,9 +338,9 @@ problems defaults to that number, and cannot be set to unlimited.
    encourages risk taking and experimentation, both of which lead to improved
    learning outcomes. Allowing for unlimited attempts might be impossible in
    some courses, such as those where grading is primarily based on multiple
-   choice questions.
+   choice problems.
 
-.. note:: Only questions that have a **Maximum Attempts** setting of 1 or
+.. note:: Only problems that have a **Maximum Attempts** setting of 1 or
    higher are included in the answer distribution computations used in edX
    Insights and the Student Answer Distribution report.
 
@@ -396,6 +421,13 @@ answers, the learner's score is 0.5 out of 2 points.
 Randomization
 ===============
 
+.. note:: The **Randomization** setting serves a different purpose from
+ "problem randomization". The **Randomization** setting affects how numeric
+ values are randomized within a single problem and requires the inclusion of a
+ Python script. Problem randomization offers different problems or problem
+ versions to different learners. For more information, see :ref:`Problem
+ Randomization`.
+
 For problems that include a Python script to generate numbers randomly, this
 setting specifies how frequently the values in the problem change: each time a
 different learner accesses the problem, each time a single learner tries to
@@ -418,18 +450,10 @@ these steps.
 * Make sure that you edit your problem to include a Python script that randomly
   generates numbers.
 
-..  For more information, see :ref:`Use Randomization in a
-  Numerical Input Problem`.
-.. ^^ add back when DOC-2175 gets done - Alison 30 Jul 15
-
 * Select an option other than **Never** for the **Randomization** setting.
 
-.. note:: The **Randomization** setting serves a different purpose from
- "problem randomization". The **Randomization** setting affects how numeric
- values are randomized within a single problem and requires the inclusion of a
- Python script. Problem randomization offers different problems or problem
- versions to different learners. For more information, see :ref:`Problem
- Randomization`.
+..  For more information, see :ref:`Use Randomization in a Numerical Input Problem`.
+..  ^^ add back to first bullet when DOC-2175 gets done - Alison 30 Jul 15
 
 The edX Platform has a 20-seed maximum for randomization. This means that
 learners see up to 20 different problem variants for every problem that has
@@ -493,17 +517,17 @@ the following options
    * - **Answered**
      - Show the answer after the learner tries to answer the problem.
 
-       If the question can be, and is, reset, the answer is not shown until the
-       learner tries the problem again. (When a learner answers a question, the
-       question is considered to be both attempted and answered. When the
-       question is reset, the question is still attempted, but not yet
+       If the problem can be, and is, reset, the answer is not shown until the
+       learner tries the problem again. (When a learner answers a problem, the
+       problem is considered to be both attempted and answered. When the
+       problem is reset, the problem is still attempted, but not yet
        answered.)
    * - **Attempted**
      - Show the answer after the learner tries to answer the problem.
 
-       If the question can be, and is, reset, the answer continues to show.
-       (When a learner answers a question, the question is considered to be
-       both attempted and answered. When the question is reset, the question is
+       If the problem can be, and is, reset, the answer continues to show.
+       (When a learner answers a problem, the problem is considered to be
+       both attempted and answered. When the problem is reset, the problem is
        still attempted, but not yet answered.)
    * - **Closed**
      - Show the answer after the learner has used up all his attempts to answer
@@ -516,7 +540,7 @@ the following options
        the problem due date has passed.
    * - **Past Due**
      - Show the answer after the due date for the problem has passed.
-   * - **Past Due**
+   * - **Never**
      - Never show the answer. In this case, a **Show Answer** button does not
        appear next to the problem in Studio or in the LMS.
 
@@ -623,7 +647,7 @@ Multiple Problems in One Component
 
 You might want to create a problem that has more than one response type. For
 example, you might want to create a numerical input problem and then include a
-multiple choice question about that numerical input problem. Or, you might
+multiple choice problem about that numerical input problem. Or, you might
 want a learner to be able to check the answers to many problems at one time. To
 do this, you can include multiple problems inside a single problem component.
 The problems can be different types.
@@ -652,6 +676,7 @@ answers for all the problems in the component appear.
 
 .. include:: ../../../shared/exercises_tools/Section_partial_credit.rst
 
+
 .. _Problem Randomization:
 
 ***********************************
@@ -661,22 +686,17 @@ Problem Randomization
 Presenting different learners with different problems or with different
 versions of the same problem is referred to as "problem randomization".
 
-To use problem randomization, you first create a problem component in Studio
-for each of the problems or versions you want to include. You then edit your
-course outside of Studio, using OLX, to randomize the problem that learners
-see. For more information, see :ref:`Create Randomized Problems`.
+You can provide different learners with different problems by using randomized
+content blocks, which randomly draw problems from pools of problems stored in
+content libraries. For more information, see :ref:`Randomized Content Blocks`.
 
-Note that problem randomization is different from the **Randomization**
-setting in Studio. Problem randomization offers different problems or problem
-versions to different learners, whereas the **Randomization** setting controls
-when a Python script randomizes the variables within a single problem. For
-more information about the **Randomization** setting, see
-:ref:`Randomization`.
+.. note:: Problem randomization is different from the **Randomization** setting
+   in Studio. Problem randomization offers different problems or problem
+   versions to different learners, whereas the **Randomization** setting
+   controls when a Python script randomizes the variables within a single
+   problem. For more information about the **Randomization** setting, see
+   :ref:`Randomization`.
 
-Another method of providing different learners with different problems is to
-use randomized content blocks, which randomly draw problems from pools of
-problems stored in content libraries. For more information, see
-:ref:`Randomized Content Blocks`.
 
 
 ============================================
@@ -714,91 +734,15 @@ contains. To find a unit, look in the **Vertical** directory.
 Create Randomized Problems
 ==========================
 
-.. note:: Creating problems with versions that can be randomized requires you
-   to export your course, edit some of your course's XML files in a text
-   editor, and then re-import your course. We recommend that you create a
-   backup copy of your course before you do this. We also recommend that you
-   edit your course files in the text editor only if you are very familiar
-   with editing XML.
+.. note:: Creating randomized problems by exporting your course and editing
+   some of your course's XML files is no longer supported.
 
-#. In the unit where you want to create a randomized problem, create a separate
-   problem component for each version or problem that you want to randomize.
-   For example, if you want to offer four versions or problems, create
-   four separate problem components. Make a note of the 32-digit unit ID that
-   appears in the **Unit Identifier** field under **Unit Location**.
+You can provide different learners with different problems by using randomized
+content blocks, which randomly draw problems from pools of problems stored in
+content libraries. For more information, see
+:ref:`partnercoursestaff:Randomized Content Blocks`.
 
-#. Export your course. For more information, see
-   :ref:`Exporting and Importing a Course`. Save and extract the .tar.gz file
-   that contains your course in a memorable location so that you can find
-   it easily.
-
-#. In the list of directories and files, open the **Vertical** directory.
-
-   .. note:: If your unit is not published, open the **Drafts** directory, and
-    then open the **Vertical** directory in the **Drafts** folder.
-
-#. In the **Vertical** folder, locate the .xml file that has the same name as
-   the unit ID that you noted in step 1, and then open the file in a text
-   editor such as Sublime. For example, if the unit ID is
-   ``e461de7fe2b84ebeabe1a97683360d31``, open the
-   ``e461de7fe2b84ebeabe1a97683360d31.xml`` file.
-
-   The file contains a list of all the components in the unit, together with
-   the URL names of the components. For example, the following file contains
-   four problem components.
-
-   .. code-block:: xml
-
-       <vertical display_name="Test Unit">
-          <problem url_name="d9d0ceb3ffc74eacb29501183e26ad6e"/>
-          <problem url_name="ea66d875f4bf4a9898d8e6d2cc9f3d6f"/>
-          <problem url_name="2616cd6324704f85bc315ec46521485d"/>
-          <problem url_name="88987707294d4ff0ba3b86921438d0c0"/>
-       </vertical>
-
-#. Add ``<randomize> </randomize>`` tags around the components for the problems
-   that you want to randomize.
-
-   .. code-block:: xml
-
-       <vertical display_name="Test Unit">
-         <randomize>
-            <problem url_name="d9d0ceb3ffc74eacb29501183e26ad6e"/>
-            <problem url_name="ea66d875f4bf4a9898d8e6d2cc9f3d6f"/>
-            <problem url_name="2616cd6324704f85bc315ec46521485d"/>
-            <problem url_name="88987707294d4ff0ba3b86921438d0c0"/>
-         </randomize>
-       </vertical>
-
-#. After you add the ``<randomize> </randomize>`` tags, save and close the .xml
-   file.
-
-#. Re-package your course as a .tar.gz file.
-
-   For information about how to do this on a Mac, see `How to Create a Tar GZip
-   File from the Command Line <http://osxdaily.com/2012/04/05/create-tar-gzip/>`_.
-
-   For information about how to do this on a Windows computer, see `How to Make
-   a .tar.gz on Windows <http://stackoverflow.com/questions/12774707/how-to-make-a-tar-gz-on-windows>`_.
-
-#. In Studio, re-import your course.
-
-.. note::
-
-  * After you implement randomization, you can only see one of the versions or
-    problems in Studio. You can edit that single problem directly in Studio,
-    but to edit any of the other problems, you must export your course, edit
-    the problems in a text editor, and then re-import the course. The same
-    procedure applies to all course team members, regardless of their assigned
-    roles.
-
-  * A .csv file for learner responses contains the responses to each of the
-    problems in the problem bank.
 
 .. include:: ../../../shared/exercises_tools/Section_adding_tooltip.rst
 
-.. _Using edX Insights: http://edx.readthedocs.org/projects/edx-insights/en/latest/
-
-.. _Review Answers to Graded Problems: http://edx.readthedocs.org/projects/edx-insights/en/latest/performance/Performance_Answers.html#review-answers-to-graded-problems
-
-.. _Review Answers to Ungraded Problems: http://edx.readthedocs.org/projects/edx-insights/en/latest/performance/Performance_Ungraded.html#review-answers-to-ungraded-problems
+.. include:: ../../../links/links.rst

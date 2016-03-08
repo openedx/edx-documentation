@@ -18,8 +18,8 @@ sure to review the content to ensure that it is accessible to people with
 disabilities. For more information, see :ref:`Accessibility Best Practices for
 Course Content Development`.
 
-You can also use :ref:`Google calendars<Google Calendar Tool>` in courseware.
-For more information, see :ref:`Google Calendar Tool`.
+You can also use :ref:`Google calendars<Google Calendar Tool>` in the course
+body. For more information, see :ref:`Google Calendar Tool`.
 
 .. note:: Google services are not available in some regions and countries. If
   Google services are not available in a learner's area, the learner might see
@@ -32,12 +32,12 @@ Overview
 *********
 
 You can embed a Google Drive file in your course so that learners see the file
-in the courseware. For example, you can share a Google spreadsheet with
+in the course body. For example, you can share a Google spreadsheet with
 learners.
 
 .. image:: ../../../shared/images/google-spreadsheet.png
   :width: 600
-  :alt: A Google spreadsheet in courseware.
+  :alt: A Google spreadsheet in the course body.
 
 You can embed the following types of Google Drive files.
 
@@ -63,7 +63,7 @@ To embed a Google Drive file in your course, follow these steps.
 Enable the Google Drive Files Tool
 ==================================================
 
-Before you can add Google drive files to your course, you must enable the
+Before you can add Google Drive files to your course, you must enable the
 Google Drive tool in Studio or OLX.
 
 To enable the Google Drive tool in Studio, you add the ``"google-document"``
@@ -93,7 +93,8 @@ also enables Google calendars.
       ...
   </course>
 
-For more information, see `The Courseware Structure`_.
+For more information, see :ref:`olx:OLX Course Building Blocks` in the
+*EdX Open Learning XML Guide*.
 
 .. _Obtain the Google Drive File Embed Code:
 
@@ -136,7 +137,7 @@ file to the web and obtain the embed code for the file.
 Add a Google Drive File to Your Course
 ========================================
 
-To add a Google Drive file in the courseware, you create an advanced
+To add a Google Drive file in the course body, you create an advanced
 component in Studio or create a Google Document XBlock in OLX.
 
 .. _Add a Google Drive File Component in edX Studio:
@@ -187,7 +188,8 @@ element in the ``vertical`` element, or you can create the
 ``google-document`` element as a stand-alone file that you reference
 in the vertical.
 
-For more information, see `The Courseware Structure`_.
+For more information, see :ref:`olx:OLX Course Building Blocks` in the
+*EdX Open Learning XML Guide*.
 
 For example:
 
@@ -215,5 +217,3 @@ When you edit and save a Google Drive file that is embedded in your course,
 learners see the updates immediately. You make changes to files with the
 Google user interface. You do not need to edit the Google Document component.
 
-
-.. _The Courseware Structure: http://edx.readthedocs.org/projects/edx-open-learning-xml/en/latest/organizing-course/course-xml-file.html

@@ -5,10 +5,10 @@ Adding Course Updates and Handouts
 ######################################################
 
 You add course updates and identify handouts in Studio. Learners see the
-course updates and handouts on the **Course Info** page in your course.
+course updates and handouts on the **Home** page in your course.
 
 .. image:: ../../../shared/images/course_info.png
- :alt: The Course Info page as it appears to students, with a "Course Updates
+ :alt: The Home page as it appears to students, with a "Course Updates
        & News" section containing a dated post and a "Course Handouts" frame
        with a list of links.
 
@@ -36,7 +36,7 @@ To add a course update, follow these steps.
     tags. The :ref:`visual editor<The Visual Editor>` is not provided.
 
   * If you change the supplied date, the new date appears above the update on
-    the **Course Info** page. However, the update is visible to all enrolled
+    the **Home** page. However, the update is visible to all enrolled
     learners as soon as you post it.
 
 .. note::
@@ -55,12 +55,12 @@ To add a course update, follow these steps.
        the edX mobile app.
 
       * Learners can choose to turn off notifications for individual courses or
-        for all courses. The **Course Info** page continues to show all
+        for all courses. The **Home** page continues to show all
         updates.
-      * All updates appear on the **Course Info** page, even if you do not send
+      * All updates appear on the **Home** page, even if you do not send
         notifications.
 
-#. Select **Post**. Your update appears on your course's **Course Info** page
+#. Select **Post**. Your update appears on your course's **Home** page
    immediately.
 
 .. _Add Course Handouts:
@@ -70,7 +70,7 @@ Identify a Course Handout
 ***************************
 
 You can identify previously uploaded files as handouts for your course.
-Learners see a link on the **Course Info** page for each course handout.
+Learners see a link on the **Home** page for each course handout.
 
 Before you identify a course handout, you :ref:`add the file<Add Files to a
 Course>` to your course and copy its Studio URL. You can open the Studio

@@ -61,8 +61,8 @@ learners' grades.
    graded subsections, or to graded components after the course begins will
    affect learners' experiences in the course as well as analysis of its data.
    EdX recommends that you announce any unavoidable changes learners by using,
-   for example, the **Course Info** page. You should also carefully track
-   these changes for researchers.
+   for example, the **Home** page. You should also carefully track these
+   changes for researchers.
 
 .. _Access_grades:
 
@@ -148,10 +148,11 @@ certificate (determined by whether he has earned a passing grade at the time
 the report was requested), whether a certificate has been generated, and the
 type of certificate earned.
 
-If your course includes :ref:`cohorts<Cohorts Overview>` or :ref:`content
-experiments<Overview of Content Experiments>`, the grade report includes
-additional columns indicating the name of the cohort or experiment group that
-each learner belongs to.
+If your course includes :ref:`cohorts<Cohorts Overview>`, :ref:`content
+experiments<Overview of Content Experiments>`, or
+:ref:`teams<CA_Teams_Overview>`, the grade report includes additional columns
+indicating the name of the cohort, experiment group, or team that each learner
+belongs to.
 
 .. image:: ../../../shared/images/Grade_Report.png
   :alt: A course grade report, opened in Excel, showing the grades achieved by
@@ -187,6 +188,10 @@ columns that provide the following information.
   is empty for learners who are not assigned to an experiment group. If you
   have more than one experiment group configuration in your course, you see one
   column for each group configuration.
+
+* If :ref:`teams<CA_Teams_Overview>` are enabled in the course, a **Team
+  Name** column indicates the name of the team that each learner belongs to. The
+  column is empty for learners who have not joined a team.
 
 * The **Enrollment Track** column indicates whether each learner is enrolled in
   the course in the honor code, verified, or professional education track.
@@ -553,7 +558,7 @@ To find the unique location identifier for a problem, follow these steps.
 
 #. View the live version of your course.
 
-#. Select **Courseware**, and then navigate to the unit that contains the
+#. Select **Course**, and then navigate to the unit that contains the
    problem.
 
 #. Display the problem, and find the **Submission History** and **Staff Debug
@@ -601,7 +606,7 @@ email address.
 
 #. View the live version of your course.
 
-#. Select **Courseware** and navigate to the component that contains the
+#. Select **Course** and navigate to the component that contains the
    problem you want to rescore.
 
 #. Display the problem, and then select **Staff Debug Info**. The Staff Debug
@@ -668,7 +673,7 @@ username or email address.
 
 #. View the live version of your course.
 
-#. Select **Courseware** and navigate to the component that contains the
+#. Select **Course** and navigate to the component that contains the
    problem you want to reset.
 
 #. Display the problem, and then select **Staff Debug Info**. The Staff Debug
@@ -735,7 +740,7 @@ To use the Staff Debug viewer, follow these steps.
 
 #. View the live version of your course.
 
-#. Select **Courseware** and navigate to the component that contains the
+#. Select **Course** and navigate to the component that contains the
    problem.
 
 #. Display the problem, and then select **Staff Debug Info**. The Staff Debug

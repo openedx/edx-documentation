@@ -1,8 +1,8 @@
 .. _SFD Wiki:
 
-########################
-The Course Wiki
-########################
+#################################
+Using the Course Wiki
+#################################
 
 Some courses include a wiki, which provides a public forum for both students
 and the course team to access, share, and collaboratively edit information

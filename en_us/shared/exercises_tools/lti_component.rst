@@ -186,8 +186,7 @@ in Studio.
 
 To enable the LTI tool in Studio, add the ``"lti_consumer"`` module to the
 **Advanced Module List** on the **Advanced Settings** page. For more
-information, see
-:ref:`Enable Additional Exercises and Tools`.
+information, see :ref:`Enable Additional Exercises and Tools`.
 
 .. note::
   The ``lti_consumer`` module replaces a previous version of the LTI component.
@@ -242,7 +241,7 @@ LTI Component Settings
    * - Display Name
      - Specifies the name of the component. This name appears as a heading
        above the problem and as a tooltip in the learning sequence at the top
-       of the **Courseware** page. Unique, descriptive display names help you
+       of the **Course** page. Unique, descriptive display names help you
        identify problems quickly and accurately for analysis.
 
    * - LTI Application Information
@@ -304,13 +303,15 @@ LTI Component Settings
        **Inline**.
 
    * - Modal Height
-     - Specifies the on-screen height of the LTI content window in pixels.
+     - Specifies the on-screen height of the LTI content window as a percentage
+       of the visible web browser window height. Enter the percentage in whole numbers.
 
        This setting is only applied if the **LTI Launch Target** control is set
        to **Modal**.
 
    * - Modal Width
-     - Specifies the on-screen width of the LTI content window in pixels.
+     - Specifies the on-screen width of the LTI content window as a percentage
+       of the web browser window width. Enter the percentage in whole numbers.
 
        This setting is only applied if the **LTI Launch Target** control is set
        to **Modal**.

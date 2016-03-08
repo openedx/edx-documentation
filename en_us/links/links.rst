@@ -4,6 +4,12 @@
 
 .. EdX Links
 
+.. _Using edX Insights: http://edx.readthedocs.org/projects/edx-insights/en/latest/
+
+.. _Review Answers to Graded Problems: http://edx.readthedocs.org/projects/edx-insights/en/latest/performance/Performance_Answers.html#review-answers-to-graded-problems
+
+.. _Review Answers to Ungraded Problems: http://edx.readthedocs.org/projects/edx-insights/en/latest/performance/Performance_Ungraded.html#review-answers-to-ungraded-problems
+
 .. _Open edX Analytics wiki: http://edx-wiki.atlassian.net/wiki/display/OA/Open+edX+Analytics+Home
 
 .. _Entity Relationship Diagram for ORA Data: https://openedx.atlassian.net/wiki/display/AN/Entity+Relationship+Diagram+for+ORA+Data
@@ -26,6 +32,9 @@
 
 .. _Videos on edX: https://courses.edx.org/courses/edX/DemoX.1/2014/courseware/0af8db2309474971bfa70cda98668a30/ec3364075f2845baa625bfecd5970410/2
 
+.. _AA Introduction to Music Theory: https://studio.edge.edx.org/course/sylviaX/TEST10/2014_T3
+
+.. _La Tierra Centroamericana: https://studio.edge.edx.org/course/edX/GEO101/2014_T1>
 
 .. _edX Edge: http://edge.edx.org
 
@@ -45,8 +54,6 @@
 
 .. _Announcements: https://open.edx.org/announcements
 
-.. _edx-analytics-configuration: https://github.com/edx/edx-analytics-configuration
-
 
 .. _edX Partner Support: https://partners.edx.org/edx_zendesk
 
@@ -55,13 +62,23 @@
 
 .. GitHub Links
 
+.. _GitHub: http://github.com
+
+.. _edx-analytics-configuration: https://github.com/edx/edx-analytics-configuration
+
+.. _edx-documentation: https://github.com/edx/edx-documentation
+
+.. _custom_form_app: https://github.com/open-craft/custom-form-app
+
 .. _EdX Search: https://github.com/edx/edx-search/
 
-.. _GitHub Flow: https://github.com/blog/1557-github-flow-in-the-browser
+.. _Otto: https://github.com/edx/ecommerce
 
 .. _GitHub Flow: https://github.com/blog/1557-github-flow-in-the-browser
 
 .. _GitHub Help: https://help.github.com/articles/set-up-git
+
+.. _edx-documentation: https://github.com/edx/edx-documentation
 
 .. _PyEnv: https://github.com/yyuu/pyenv
 
@@ -110,6 +127,8 @@
 .. _Devstack wiki: https://github.com/edx/configuration/wiki/edX-Developer-Stack
 
 .. _Developing on Devstack: https://github.com/edx/edx-platform/wiki/Developing-on-the-edX-Developer-Stack
+
+.. _forum migration described on the Open edX wiki: https://openedx.atlassian.net/wiki/display/TNL/Migrating+the+Discussion+Forums+to+Support+Teams+Discussion+Filtering
 
 .. _Google Drive XBlock: https://github.com/edx-solutions/xblock-google-drive
 
@@ -180,7 +199,7 @@
 .. _App Store: https://itunes.apple.com/us/app/edx/id945480667?mt=8
 .. _VoiceOver for OS X: https://www.apple.com/accessibility/osx/voiceover/
 .. _Creative Commons website: http://creativecommons.org/licenses
-
+.. _Google Fonts: https://www.google.com/fonts#UsePlace:use/Collection:Open+Sans
 .. _Time and Date Time Zone Converter: http://www.timeanddate.com/worldclock/converter.html
 
 .. _Time Zone Converter: http://www.timezoneconverter.com/cgi-bin/tzc.tzc
@@ -197,7 +216,7 @@
 
 .. _Referer: http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.36
 
-..  _mongodb: http://docs.mongodb.org/manual/
+.. _mongodb: http://docs.mongodb.org/manual/
 
 .. _AWS Command Line Interface: http://aws.amazon.com/cli/
 
@@ -329,6 +348,8 @@
 
 .. _Open edX wiki page for Dogwood: https://openedx.atlassian.net/wiki/display/OPEN/Dogwood
 
+.. _Dogwood blog post: https://open.edx.org/blog/newest-open-edx-release-dogwood-now-available
+
 .. _Open edX Conference: http://con.openedx.org/
 
 .. _Registration: http://www.eventbrite.com/e/open-edx-con-2015-tickets-17211056734?aff=relnotes
@@ -346,6 +367,8 @@
 .. _1.8.7: https://docs.djangoproject.com/en/1.8/releases/1.8.7/
 
 .. _Django website: https://www.djangoproject.com
+
+.. _Django Forms: https://docs.djangoproject.com/en/1.8/ref/forms/
 
 .. _Database Transactions: https://docs.djangoproject.com/en/1.8/topics/db/transactions
 
@@ -371,3 +394,22 @@
 .. _Verified Certificates: https://www.edx.org/verified-certificate
 
 .. _XSeries Programs: https://www.edx.org/xseries
+
+.. Browsers
+
+.. _Chrome: https://www.google.com/chrome
+
+.. _Safari: https://www.apple.com/safari
+
+.. _Firefox: https://mozilla.org/firefox
+
+.. _Microsoft Edge: https://www.microsoft.com/microsoft-edge
+
+.. _Microsoft Internet Explorer: http://windows.microsoft.com/internet-explorer/download-ie
+
+.. Peer Instruction
+
+.. _Mazur Group: http://mazur.harvard.edu/research/detailspage.php?ed=1&rowid=8
+
+.. _Turn to Your Neighbor: https://blog.peerinstruction.net/
+

@@ -13,7 +13,7 @@ This section describes the data schema for the edX open response assessment
 
 The schema includes a number of tables, and the ORA system offers a range of
 uses. As a result, the data can be complex. EdX recommends that you set up a
-course on a Devstack instance so that you can create assessments and test the
+course on a devstack instance so that you can create assessments and test the
 possible learner interactions.
 
 * For more information about how course teams can set up open response
@@ -22,12 +22,14 @@ possible learner interactions.
 * For more information about how learners respond to these assessments, see
   :ref:`learners:SFD_ORA`.
 
-* For more information about setting up a Devstack Vagrant instance, see
+* For more information about setting up a devstack Vagrant instance, see
   :ref:`installation:Installing the Open edX Developer Stack`.
 
 **History**:  These tables were added to the ``ora`` subdirectory of the
 ``{org}-{date}.zip`` database data file in data packages beginning with the 13
-Dec 2015 export.
+Dec 2015 export. The data in these tables is for the current, fully supported
+version of the open response assessment feature. Data for the initial
+version (which was deprecated in May 2014) is not included.
 
 ********************
 Workflow Tables
@@ -86,6 +88,10 @@ Submission, StudentItem, and Score Tables
 The ``Submission`` table represents the responses made by a learner for a given
 component in a given course. Depending on the configuration of the ORA
 component, a learner can contribute multiple submissions for a given problem.
+
+.. note:: The ``Submission`` table includes only text responses. The data
+  package does not include files uploaded by learners to accompany their text
+  responses.
 
 The ``StudentItem`` table identifies a learner and the ORA component in the
 course. Rows in this table are linked to all submissions made by that learner

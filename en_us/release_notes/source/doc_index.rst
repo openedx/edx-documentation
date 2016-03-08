@@ -4,15 +4,45 @@
 EdX Documentation
 ####################################
 
-The following information describes what is new in edX documentation.
+EdX publishes documentation on the `docs.edx.org`_ website. Guides are
+available to help learners, course teams, researchers, developers, and other
+audiences use edX websites and software effectively.
+
+The following information provides a weekly summary of what is new in edX
+documentation.
 
 .. contents::
   :local:
   :depth: 2
 
-******************
-6 January 2016
-******************
+**************************
+Week of 3 March 2016
+**************************
+
+.. include:: 2016/documentation/doc_0303_2016.rst
+
+
+**************************
+Week of 22 February 2016
+**************************
+
+.. include:: 2016/documentation/doc_0222_2016.rst
+
+**************************
+Week of 26 January 2016
+**************************
+
+.. include:: 2016/documentation/doc_0126_2016.rst
+
+**************************
+Week of 18 January 2016
+**************************
+
+.. include:: 2016/documentation/doc_0119_2016.rst
+
+**************************
+Week of 6 January 2016
+**************************
 
 .. include:: 2016/documentation/doc_0106_2016.rst
 

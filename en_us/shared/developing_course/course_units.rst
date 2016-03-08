@@ -57,7 +57,7 @@ Viewing Units as a Learner
 
 To a learner using the edX Learning Management System, each unit in the
 subsection appears as a link in the learning sequence at the top of the
-**Courseware** page. The contents of the active unit appear below the learning
+**Course** page. The contents of the active unit appear below the learning
 sequence.
 
 The following image shows a subsection that has five units, which are circled
@@ -240,7 +240,7 @@ To create a unit from the outline, follow these steps.
 #. Select **New Unit** at the bottom of the expanded subsection. A new
    page opens for you to add components to the unit.
 #. On the unit page, the unit name is selected. Supply an identifying name. A
-   descriptive name can help learners locate content in the courseware. It can
+   descriptive name can help learners locate content in the course. It can
    also help you select content when you analyze performance in edX Insights.
 #. :ref:`Add components<Add a Component>` to the new unit as needed.
 
@@ -254,7 +254,7 @@ To create a new unit from a unit page, follow these steps.
    The unit page for the new unit opens automatically.
 
 #. On the unit page, the unit name is selected. Supply an identifying name. A
-   descriptive name can help learners locate content in the courseware. It can
+   descriptive name can help learners locate content in the course. It can
    also help you select content when you analyze performance in edX Insights.
 
 #. :ref:`Add components<Add a Component>` to the new unit as needed.
@@ -343,7 +343,7 @@ When you are revising a previously published unit, it is helpful to preview
 your changes in one window and :ref:`view the published unit<View a Published
 Unit>` in a second window.
 
-For more information about previewing courseware, see :ref:`Preview Course
+For more information about previewing course content, see :ref:`Preview Course
 Content`.
 
 .. _Publish a Unit:

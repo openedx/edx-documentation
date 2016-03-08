@@ -6,12 +6,9 @@ Adding Pages to a Course
 
 This topic describes how to add pages, or tabs, to your course.
 
-* :ref:`Default Pages`
-* :ref:`Add Page`
-* :ref:`Show or Hide the Course Wiki Page`
-* :ref:`Reorder Pages`
-* :ref:`Delete a Page`
-* :ref:`Code for Dynamic HTML Schedule`
+.. contents::
+  :local:
+  :depth: 1
 
 .. _Default Pages:
 
@@ -21,8 +18,8 @@ Default Pages
 
 By default, your course includes these pages.
 
-* Courseware
-* Course Info
+* Home
+* Course
 * Discussion
 * Wiki
 * Progress
@@ -40,7 +37,8 @@ You can add pages to your course. Each page appears for learners in the
 navigation bar for your course.
 
 For example, the following navigation bar includes the default pages as well as
-the additional Course Schedule and Supplements & Instructor's blog pages.
+the additional **Introduction to Music Theory**, **Course Schedule**, and
+**Supplements** pages.
 
 .. image:: ../../../shared/images/page_bar_lms.png
  :width: 600
@@ -54,26 +52,16 @@ purpose. More examples of pages you can add follow.
 
 * An instant hangout. See :ref:`Google Instant Hangout` for more information.
 
+To add a page, follow these steps.
+
 #. In Studio, from the **Content** menu, select **Pages**. A page titled
    **Pages** opens. This page contains a list of the pages that appear in the
    navigation bar in your course.
 
-   .. image:: ../../../shared/images/pages_page.png
-    :width: 600
-    :alt: Image of the Pages page.
-
 #. Select **Add a New Page**. A page with the title **Empty** is added to the
    list.
 
-   .. image:: ../../../shared/images/pages_empty.png
-    :width: 600
-    :alt: Image of the Pages page with a new Empty page.
-
 #. In the row for the new page, select **Edit**. The HTML editor opens.
-
-   .. image:: ../../../shared/images/pages_editor.png
-    :width: 600
-    :alt: Image of the page editor.
 
 #. Enter content for your page.
 
@@ -138,7 +126,7 @@ To move a page, hover over the element handle on the right side of the page
 row until the mouse pointer changes to a four-headed arrow. Then select and
 drag the page to the location that you want.
 
-.. note:: You cannot reorder the **Courseware** or **Course Info** pages.
+.. note:: You cannot reorder the **Home** or **Course** pages.
 
 .. _Delete a Page:
 
@@ -150,7 +138,7 @@ To delete a page that you previously added, select the trash can icon in the
 row for the page. You are prompted to confirm the deletion.
 
 .. note::
-  You cannot delete the **Courseware**, **Course Info**, **Discussion**, or
+  You cannot delete the **Home**, **Course**, **Discussion**, or
   **Progress** pages. You can hide the course **Wiki** page.
 
 .. _Code for Dynamic HTML Schedule:

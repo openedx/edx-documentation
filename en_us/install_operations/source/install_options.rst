@@ -14,12 +14,12 @@ This section describes the Open edX installation options.
 Open edX Developer Stack
 ***************************
 
-The Open edX Developer Stack, known as **Devstack**, is a Vagrant instance
+The Open edX Developer Stack, known as **devstack**, is a Vagrant instance
 designed for local development.
 
 Devstack is in the `edx configuration repository`_ on GitHub.
 
-This guide includes the following sections about Devstack:
+This guide includes the following sections about devstack:
 
 * :ref:`Installing the Open edX Developer Stack`
 
@@ -28,8 +28,8 @@ This guide includes the following sections about Devstack:
 Additional sections are planned for future versions of this guide.
 
 See the `edx configuration repository wiki`_ for information from edX and the
-Open edX community about Devstack and other installation and configuration
-options. This wiki contains pages with more information about Devstack.
+Open edX community about devstack and other installation and configuration
+options. This wiki contains pages with more information about devstack.
 
 * `Devstack wiki`_
 * `Developing on Devstack`_
@@ -45,7 +45,7 @@ analytics devstack:
 Open edX Fullstack
 *********************
 
-Open edX Fullstack, known as **Fullstack**, is a Vagrant instance designed for
+Open edX fullstack, known as **fullstack**, is a Vagrant instance designed for
 deploying all edX services on a single server.
 
 Fullstack is in the `edx configuration repository`_ on GitHub.
@@ -53,14 +53,14 @@ Fullstack is in the `edx configuration repository`_ on GitHub.
 This guide includes :ref:`Installing Open edX Fullstack`.
 
 See the `edx configuration repository wiki`_ for information from edX and the
-Open edX community on Fullstack and other installation and configuration
+Open edX community on fullstack and other installation and configuration
 options.
 
 ==================
 Ubuntu 12.04 64
 ==================
 
-You can install Fullstack on a single Ubuntu 12.04 64-bit server.
+You can install fullstack on a single Ubuntu 12.04 64-bit server.
 
 Ubuntu information is planned for future versions of this guide.
 

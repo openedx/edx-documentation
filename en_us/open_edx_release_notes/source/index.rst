@@ -12,6 +12,7 @@ The *Open edX Release Notes* provide information about the Open edX releases.
 
    front_matter/index
    os_documentation
+   dogwood
    cypress
    birch
 

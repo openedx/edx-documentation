@@ -18,7 +18,7 @@ input problems or multiple choice problems.
 Create a Problem with an Adaptive Hint
 ******************************************
 
-To create the above problem:
+To create the problem illustrated above, follow these steps.
 
 #. In the unit where you want to create the problem, click **Problem**
    under **Add New Component**, and then click the **Advanced** tab.
@@ -111,7 +111,8 @@ Template
 	  </text>
 	</problem>
 
-.. note:: If the hints that you supply include characters, the letters must be lowercase.
+.. note:: If the hints that you supply include characters, the letters must be
+ lowercase.
 
 ========
 Tags
@@ -119,7 +120,8 @@ Tags
 
 * ``<text>``: Surrounds the script and text in the problem.
 * ``<customresponse>``: Indicates that this problem has a custom response.
-* ``<textline>``: Creates a response field in the LMS where the student enters a response.
+* ``<textline>``: Creates a response field in the LMS where the student enters
+  a response.
 * ``<hintgroup>``: Specifies that the problem contains at least one hint.
 
 **Tag:** ``<customresponse>``
@@ -170,5 +172,6 @@ Tags
      * - Attribute
        - Description
      * - hintfn
-       - Must be set to **hint_fn** (that is, the tag must appear as ``<hintgroup hintfn="hint_fn"/>``).
+       - Must be set to **hint_fn** (that is, the tag must appear as
+         ``<hintgroup hintfn="hint_fn"/>``).
 

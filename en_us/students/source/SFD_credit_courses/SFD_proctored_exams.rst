@@ -32,12 +32,12 @@ cheating or using a false identity. Your course might require you to take
 and pass at least one proctored exam to be eligible to purchase academic
 credit.
 
-Proctored exams are indicated in the courseware with a pencil icon and a
+Proctored exams are indicated in the course with a pencil icon and a
 "Proctored Option Available" label.
 
 .. image:: /Images/Proctoring_PencilIcon.png
  :width: 200
- :alt: Courseware navigation in the LMS showing an exam with a pencil icon and
+ :alt: Course navigation in the LMS showing an exam with a pencil icon and
      a "Proctored Option Available" label.
 
 .. note:: Proctored exams are visible only if you are enrolled in the verified
@@ -273,7 +273,7 @@ then if you agree to them, select **I agree**.
 
 .. note:: If you do not want to agree to the terms, select **I don't agree**.
    You can then quit the online proctoring software and return to the edX
-   courseware where you can choose to take the exam as an open exam, and
+   course, where you can choose to take the exam as an open exam. You will
    not be eligible for credit.
 
 ======================================
@@ -444,7 +444,7 @@ exam with online proctoring, but your proctoring session is not reviewed.
 
 To take a practice proctored exam, follow these steps.
 
-#. In the courseware, open the practice exam.
+#. In the course, open the practice exam.
 
    .. image:: /Images/Proctoring_ChooseProctoringPractice.png
     :width: 600
@@ -532,7 +532,7 @@ Taking a Proctored Exam
 
 All proctored exams are timed exams, in which you have a time limit to
 complete the exam. When a proctored exam starts, a countdown timer at the top
-of the edX courseware page also starts.
+of the edX course page also starts.
 
 The countdown timer provides a warning when 20% of the time is left and again
 when 5% of the time is left. For example, if you have 60 minutes to complete
@@ -546,7 +546,7 @@ a passing grade with the answers you have submitted.
 
 To take a proctored exam, follow these steps.
 
-#. In the courseware, open the proctored exam.
+#. In the course, open the proctored exam.
 
    .. image:: /Images/Proctoring_ChooseProctoring.png
     :width: 600
@@ -598,7 +598,7 @@ To take a proctored exam, follow these steps.
         you have finished setting up the proctoring software.
 
 #. Start answering your exam questions. The timer at the upper right of the
-   courseware page shows the time that you have remaining in the exam.
+   page shows the time that you have remaining in the exam.
 
    .. note:: After you start a proctored exam, you must not close the
       proctoring software window, although you can minimize it.

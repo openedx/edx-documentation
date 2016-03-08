@@ -74,11 +74,14 @@ Implementing an Automated Assignment Strategy
 
 To implement an automated assignment strategy of learners to cohorts, you
 :ref:`enable the cohort feature<Enable Cohorts>` for your course, and
-:ref:`create cohorts<Add Cohorts>` that have the **Automatic** :ref:`assignment
-method<Changing the Assignment Method of a Cohort>`. To add learners to these
-cohorts, you do not need to take any action: the system automatically and
-randomly assigns learners to the available automatic cohorts when they first
-access any course content or discussion topic.
+:ref:`create cohorts<Add Cohorts>` that have the **Automatic**
+:ref:`assignment method<Changing the Assignment Method of a Cohort>`. To
+add learners to these cohorts, you do not need to take any action: the
+system automatically and randomly assigns learners to the available automatic
+cohorts when they first access any course content or discussion on the
+**Course** or **Discussion** pages. Learners who access the **Home** page or
+other course pages such as a **Textbook** page do not receive a cohort
+assignment until they view course content or discussions.
 
 .. note:: You can :ref:`add learners manually<Assign Learners to Cohorts
    Manually>` to any cohort, whether it was created as an automated cohort or a
@@ -94,11 +97,11 @@ assignment to cohorts, see :ref:`Hybrid Assignment`.
 Automated Cohorts
 =================
 
-The first time a learner views any course content, including the course
-**Discussion** page or content-specific discussion topics, if she is not
-already assigned to a cohort, she is randomly assigned to one of the automated
-cohorts. If no automated cohorts exist, the system creates a :ref:`Default
-Cohort Group` and assigns the learner to this default cohort.
+The first time a learner views course content on the **Course** or
+**Discussion** page, if she is not already assigned to a cohort, she is
+randomly assigned to one of the automated cohorts. If no automated cohorts
+exist, the system creates a :ref:`Default Cohort Group` and assigns the learner
+to this default cohort.
 
 .. note:: The default cohort is created to ensure that every learner is
    assigned to a cohort. To avoid having to re-assign learners from the default
@@ -143,7 +146,7 @@ You can now :ref:`add cohorts<Add Cohorts>` to your course.
 
 .. warning:: Be very careful in deciding to enable the cohort feature in a live
    course, because doing so affects the course experience for learners.
-   Learners might no longer have access to courseware and discussion topics
+   Learners might no longer have access to course and discussion topics
    that were previously visible to them.
 
    If you must make changes to cohort configuration while your course is
@@ -164,18 +167,19 @@ After you enable the cohorts feature for your course, you can add cohorts.
 
 #. Enter a name for the cohort.
 
-   .. note:: Learners can see the name of the cohort they are assigned to. The
-      message "This post is visible only to {cohort name}" appears with each post
-      in discussion topics that are divided by cohort. See :ref:`Read the Cohort
-      Indicator in Posts`.
+   .. note::
+    Learners can see the name of the cohort they are assigned to. The message
+    "This post is visible only to {cohort name}" appears with each post in
+    discussion topics that are divided by cohort. See :ref:`Read the Cohort
+    Indicator in Posts`.
 
 #. Specify whether learners are automatically or manually assigned to this
    cohort.
 
 #. Optionally, select **Select a Content Group** to associate the cohort with a
    :ref:`content group<About Content Groups>`. For information about creating
-   cohort-specific courseware by associating cohorts with content groups, see
-   :ref:`Cohorted Courseware Overview`.
+   cohort-specific course content by associating cohorts with content groups,
+   see :ref:`Cohorted Courseware Overview`.
 
 #. Select **Save**.
 
@@ -451,7 +455,7 @@ To rename a cohort, follow these steps.
    the cohort.
 
 #. Select **Save**. The name for the cohort is updated throughout the LMS and
-   the courseware, including learner-visible views.
+   the course, including learner-visible views.
 
 .. _Deleting a Cohort:
 
@@ -464,7 +468,7 @@ Cohort>`, :ref:`change its assignment method<Changing the Assignment Method of
 a Cohort>`, or move learners to other cohorts.
 
 If you decide that you must alter cohort configuration after your course starts
-and learners begin viewing the courseware and discussion topics, be sure that
+and learners begin viewing the course and the discussion topics, be sure that
 you understand the consequences of these actions. For more details, see
 :ref:`Altering Cohort Configuration`.
 
@@ -521,8 +525,8 @@ Disable Cohorts in Your Course
 
 .. warning:: Be very careful in deciding to disable the cohort feature if you
    previously had it enabled in a live course, because doing so affects the
-   course experience for learners. Courseware and discussion posts that were
-   shared only with members of particular cohorts are now visible to all
+   course experience for learners. Course materials and discussion posts that
+   were shared only with members of particular cohorts are now visible to all
    learners in the course.
 
    If you must make changes to the way you have configured cohorts while your

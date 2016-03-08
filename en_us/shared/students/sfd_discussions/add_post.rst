@@ -1,12 +1,11 @@
 
 .. _Add or Edit a Contribution:
 
-#########################################################
-Add, Edit, or Delete a Post, Response, or Comment
-#########################################################
+#######################################
+Participating in Course Discussions
+#######################################
 
-This topic describes how to add, edit, and delete contributions to discussions
-from inside the course or from the **Discussion** page.
+This topic describes how to add, edit, and delete contributions to discussions.
 
 .. contents::
   :local:
@@ -111,7 +110,7 @@ you know where in the course a particular discussion originates, you can add a
 post for that discussion right from the unit in your course. This only applies
 to content-specific discussions.
 
-#. Select **Courseware**.
+#. Select **Course**.
 
 #. Open the unit in the course that includes the discussion topic that you want
    to add to.

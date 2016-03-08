@@ -6,6 +6,11 @@ Conditional Module
 
 .. note:: EdX offers provisional support for this problem type.
 
+A conditional module controls the content that learners see after a response
+that they make meets a certain condition. For example, learners who answer
+"Yes" to a poll question see a different block of text from the learners who
+answered "No" to the same question.
+
 ********************
 Format description
 ********************
@@ -16,7 +21,7 @@ The main tag of conditional module input is ``conditional``.
 
     <conditional> ... </conditional>
 
-``conditional`` can include any number of any xmodule tags (``html``,
+``conditional`` can include any number of any Xmodule tags (``html``,
 ``video``, ``poll``, etc.) or ``show`` tags.
 
 ====================
@@ -43,7 +48,7 @@ following attributes can be specified for this tag.
 ``show`` Tag
 ============
 
-Symlink to some set of xmodules. The following attribute can be specified for
+Symlink to some set of Xmodules. The following attribute can be specified for
 this tag.
 
 .. code-block:: xml
@@ -63,7 +68,7 @@ Example: conditional depends on poll
     <conditional sources="i4x://MITx/0.000x/poll_question/first_real_poll_seq_with_reset" poll_answer="man"
     message="{link} must be answered for this to become visible.">
         <html>
-            <h2>You see this because your vote value for "First question" was "man"</h2>
+            <h3>You see this because your vote value for "First question" was "man"</h3>
         </html>
     </conditional>
 

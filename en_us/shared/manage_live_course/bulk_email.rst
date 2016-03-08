@@ -266,7 +266,7 @@ interpret this message, note that:
   recipients you selected who were enrolled in the course (and had activated
   their user accounts) when you sent the email message.
 
-  Note that the **Total number of enrollees** shown on the **Course Info** page
+  Note that the **Total number of enrollees** shown on the **Home** page
   includes all currently enrolled learners, regardless of account activation
   status, and as a result can be different than this number.
 
@@ -297,9 +297,9 @@ milestones, as models for your own course communications.
   :depth: 1
 
 These messages are styled as email messages, but you could also post this
-information in a course discussion topic or on the **Course Info** page. To use
+information in a course discussion topic or on the **Home** page. To use
 :ref:`keywords <Use Keywords in Messages>`, you must send email messages;
-keywords are not supported in discussion topics or the **Course Info** page.
+keywords are not supported in discussion topics or the **Home** page.
 
 .. important::
  Revise these message templates carefully to include facts for
@@ -380,10 +380,10 @@ personally introduces the course team leader. Search for the values enclosed by
 
   At this time, edX course {course number} is available from your Dashboard
   {add link}, and the staff would like to officially welcome you to the course!
-  You'll find materials for the first week on the Courseware page,
+  You'll find materials for the first week on the Course page,
   including both video lectures and problem sets.
 
-  Please take some time to go to the Course Info page to read the handouts
+  Please take some time to go to the Home page to read the handouts
   and get familiar with course policies and philosophy.
 
   I will be your course lead and I hope you will all have a great time learning
@@ -499,16 +499,16 @@ appropriately.
 
   We hope that you are learning a lot in {course number}! Remember that problem
   set {number} is due on {date} at {time} UTC. You can always check the
-  schedule {add link} on the Course Info page to plan ahead.
+  schedule {add link} on the Home page to plan ahead.
 
   The contributions to the course discussions have been amazing. You'll also
-  see on the Course Info page that we have made several of you community
+  see on the Home page that we have made several of you community
   TAs to thank you for your thoughtful contributions. Keep those conversations
   going!
 
   We have a few additional announcements.
 
-  * Week {number} on {subject} is now available on the Courseware page.
+  * Week {number} on {subject} is now available on the Course page.
 
   * Problem set {number} is also available. It is due on {date} at {time} UTC.
 
@@ -591,7 +591,7 @@ information for your course. In addition, check that you are using
     open, add a post to the General discussion topic and include [EXAM] in
     the subject line.
 
-  * Check the Course Info page periodically. It is the fastest way the
+  * Check the Home page periodically. It is the fastest way the
     staff has to communicate any delays, corrections, or changes.
 
   Good luck!
@@ -653,8 +653,9 @@ about future access to course materials. Be sure to replace values enclosed by
   hope that you enjoyed learning {subject} through edX. With or without a
   certificate, you should be proud of your accomplishments.
 
-  * Please take a few minutes to answer the exit survey, now available under
-    Courseware. We will use your responses to improve the course in the future.
+  * Please take a few minutes to answer the exit survey, now available on the
+    Course page. We will use your responses to improve the course in the
+    future.
 
   * If you qualify for a certificate (overall score {number}% or higher), the
     edX dashboard will include a link to your certificate in the near future.

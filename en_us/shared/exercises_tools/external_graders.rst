@@ -4,9 +4,13 @@
 External Grader
 ###########################
 
-.. _External Grader Overview:
-
 .. note:: EdX offers provisional support for this tool.
+
+.. contents::
+  :local:
+  :depth: 1
+
+.. _External Grader Overview:
 
 *******************
 Overview
@@ -16,14 +20,6 @@ An external grader is a service that receives learner responses to a problem,
 processes those responses, and returns feedback and a problem grade to the edX
 platform. You build and deploy an external grader separately from the edX
 platform.
-
-See the following sections for more information:
-
-* :ref:`External Grader Example`
-* :ref:`External Graders and XQueue`
-* :ref:`The XQueue Interface`
-* :ref:`Building an External Grader`
-* :ref:`Create a Code Response Problem`
 
 .. _External Grader Example:
 
@@ -256,7 +252,8 @@ Create a Code Response Problem
 ********************************
 
 You create a code response problem in edX Studio by adding a common blank
-problem, then editing the XML problem definition in the :ref:`Advanced Editor`.
+problem, then editing the XML problem definition in the
+:ref:`advanced editor<Advanced Editor>`.
 
 See :ref:`Working with Problem Components` for more information.
 

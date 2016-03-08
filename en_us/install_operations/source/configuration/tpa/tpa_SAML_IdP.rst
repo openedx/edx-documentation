@@ -151,8 +151,8 @@ steps.
    If the check mark does not appear, make sure that celery is configured
    correctly and is running. You can also manually trigger an update by running
    the management command ``./manage.py lms saml --pull --settings=aws`` on
-   Fullstack or ``./manage.py lms saml --pull --settings=devstack`` on
-   Devstack.
+   fullstack or ``./manage.py lms saml --pull --settings=devstack`` on
+   devstack.
 
 #. For additional information about the data fetched from the IdP, on the
    Django administration console select **SAML Provider Data**, and then select

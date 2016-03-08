@@ -17,7 +17,7 @@ Accessing the Source Code
 
 There are currently two edX mobile applications, one for iOS and one for
 Android. You can find the source code and additional documentation for each
-application here.
+application in the following repositories.
 
 * iOS: http://github.com/edx/edx-app-ios
 
@@ -28,9 +28,9 @@ Configuring Mobile Application Features
 *****************************************
 
 For the mobile API and authentication to work correctly with the edX mobile
-applications, you enable them in the ``lms.env.json`` file. You then complete
-the setup for authentication by creating OAuth clients and adding their IDs to
-the custom configuration file of each mobile application.
+applications, you enable them in the ``edx/app/edxapp/lms.env.json`` file. You
+then complete the setup for authentication by creating OAuth clients and
+adding their IDs to the custom configuration file of each mobile application.
 
 ====================================
 Enable Mobile Application Features
@@ -55,7 +55,7 @@ To enable the mobile application features, follow these steps.
 
   If you are running in a non-SSL environment, you can set
   ``"OAUTH_ENFORCE_SECURE": false``. This configuration setting should never be
-  disabled in anything other than a development environment.
+  set to ``false`` in anything other than a development environment.
 
 #. Save the ``edx/app/edxapp/lms.env.json`` file.
 
@@ -87,7 +87,7 @@ To create your OAuth clients, follow these steps.
 #. Select **Add client**. A dialog box opens with the **Client id** and
    **Client secret** populated for the new client.
 
-#. Enter a **Url** and **Redirect Url** for the first application. For
+#. Enter a **Url** and **Redirect Url** for the first mobile application. For
    example, ``https://{your_URL}/api/mobile/{version}/?app=ios``. While the
    console requires values for these fields, they are not used by the edX
    mobile applications. You can enter the same value in both fields.
@@ -98,7 +98,8 @@ To create your OAuth clients, follow these steps.
 
 #. Select **Save and add another**.
 
-#. Repeat steps 4-6 for the second application, and then select **Save**.
+#. Repeat steps 4-6 for the second mobile application, and then select
+   **Save**.
 
 ================================================
 Configure the Applications with OAuth Client IDs
@@ -108,16 +109,17 @@ The procedure that follows assumes that you have a different OAuth client ID
 for each edX mobile application.
 
 To configure each edX mobile application with its OAuth client ID, you add a
-setting to its corresponding custom configuration .yaml file. For information
-about how to set up custom configuration directories and files, see the GitHub
-repositories for `iOS`_ and `Android`_.
+setting to its custom configuration .yaml file. For information about how to
+set up custom configuration directories and files, see the GitHub repositories
+for `iOS`_ and `Android`_.
 
-#. Obtain the OAuth client id for the first application from your Django
-   administration console. For more information, see :ref:`Create the OAuth
-   Clients`.
+#. Obtain the OAuth client ID for the first mobile application from your
+   Django administration console. For more information, see :ref:`Create the
+   OAuth Clients`.
 
 #. In your custom GitHub configuration directory, edit the .yaml file for the
-   edX mobile application for iOS. For example, edit your ``ios.yaml`` file.
+   first mobile application. For example, for the edX mobile application for
+   iOS, edit your ``ios.yaml`` file.
 
 #. Add the following line to the .yaml file.
 
@@ -127,13 +129,53 @@ repositories for `iOS`_ and `Android`_.
 
 #. Save the file.
 
-#. Repeat steps 1-4 for the edX mobile application for Android.
+#. Repeat steps 1-4 for the second mobile application.
+
+
+
+.. _Configure OAuth Token Expiration Days:
+
+==================================
+Configure OAuth Token Expiration
+==================================
+
+When OAuth tokens expire, learners who use the mobile apps to access your site
+must log in again.
+
+The ``lms/envs/common.py`` file includes the default configuration settings for
+the number of days before OAuth tokens expire for confidential clients and
+public clients. Instead of modifying the defaults in ``lms/envs/common.py``, add
+the configuration settings to the ``lms.env.json`` file and set values that will
+override the default settings.
+
+To configure the number of days before OAuth tokens expire, follow these steps.
+
+#. In the ``edx/app/edxapp/lms.env.json`` file, add the following lines to
+   specify the number of days that OAuth tokens remain valid for confidential
+   or public clients.
+
+   .. note:: Make sure you add these lines at the top level of the JSON
+      dictionary, and not inside any other declarations.
+
+
+   .. code-block:: json
+
+      "OAUTH_EXPIRE_CONFIDENTIAL_CLIENT_DAYS" : 365
+      "OAUTH_EXPIRE_PUBLIC_CLIENT_DAYS" : 30
+
+#. Save the ``lms.env.json`` file, then restart the edxapp app.
+
+   The values that you defined in ``lms.env.json`` override the default
+   values defined in ``lms/envs/common.py``.
+
+
+.. _Configuring Video Modules for Mobile:
 
 ************************************
 Configuring Video Modules for Mobile
 ************************************
 
-Courseware videos must be specifically prepared to ensure that they are in
+Course videos must be specifically prepared to ensure that they are in
 mobile accessible formats. Video modules in mobile-available courses should
 have low resolution encodings that are readily accessible by mobile
 devices.

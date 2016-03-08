@@ -101,7 +101,7 @@ result. After their proctoring sessions are available, learners can receive
 either a **Satisfactory** or **Unsatisfactory** result.
 
 Learners can check their proctoring session results by returning to the
-proctored exam in the courseware. Their proctoring session review results are
+proctored exam in the course. Their proctoring session review results are
 updated there when results are received. In addition, learners can go to their
 **Progress** pages, where they can check their proctored exam results as a
 part of their overall credit eligibility status.
@@ -152,14 +152,13 @@ see :ref:`SFD Before Taking Proctored Exam` in the *edX Learner's Guide*.
 
 After learners successfully complete the checks, the proctoring session starts.
 Learners are reminded not to close the proctoring software window. They are
-prompted to return to the browser window where the courseware is open, and to
+prompted to return to the browser window where the course is open, and to
 start taking the exam.
 
-A countdown timer is visible at the top of the courseware page during the
-exam. Warnings are displayed when there is 20% and 5% of allotted time
-remaining. For example, if the allowed time in the exam is 60 minutes,
-learners see a warning when there are 12 minutes left, and again when there
-are 3 minutes left.
+A countdown timer is visible at the top of the page during the exam. Warnings
+are displayed when there is 20% and 5% of allotted time remaining. For example,
+if the allowed time in the exam is 60 minutes, learners see a warning when
+there are 12 minutes left, and again when there are 3 minutes left.
 
 For information about scenarios that learners might encounter while taking
 proctored exams, see :ref:`Respond to Learner Concerns about Proctored Exams`
@@ -176,7 +175,7 @@ uploading the captured session data.
 
 On the proctored exam page in the LMS, learners see a status of "Pending" for
 their proctoring session results until their session data has been reviewed.
-They can return to this page in the courseware or check their **Progress**
+They can return to this page in the course or check their **Progress**
 pages in the LMS for updates to their proctoring review results.
 
 
@@ -383,7 +382,7 @@ To create a practice exam, follow these steps.
    information about the proctored exam in your course. You might also want to
    add a few dummy questions to the exam.
 
-The practice exam is added to the courseware, and is visible to all learners
+The practice exam is added to the course, and is visible to all learners
 regardless of their enrollment track.
 
 .. _specifying_exam_rules_and_exceptions:
@@ -488,21 +487,21 @@ learner with specific needs can be accommodated.
    start taking the proctored exam before the exemption has been approved and
    set up.
 
-If it is confirmed that some special allowance should be made to the exam
+If it is confirmed that a special allowance should be made to the exam
 policy for a particular learner, follow these steps.
 
-#. Contact edX Support to ask them to set up a special allowance for the
-   learner.
+#. Contact edX Support and ask the support team to set up a special allowance
+   for the learner.
 
-#. Provide edX Support with the learner's username or email address, and the
-   special allowance that the learner is allowed. For example, "Allow 2nd
-   person in room while taking exam".
+#. Provide edX Support with the learner's username or email address and the
+   exception to the standard exam policy. For example, "Learner cannot
+   see. Allow an additional person in the room to act as a scribe."
 
 #. When the allowance has been set up, let the learner know that their special
    allowance has been granted.
 
-   When this learner's proctored exam results are reviewed, the reviewer is
-   aware of the special allowance and takes that into account in their review.
+   When the learner's proctored exam results are reviewed, the reviewer is
+   aware of the special allowance and takes that into account.
 
 
 .. _Requests for Retaking a Proctored Exam:
@@ -511,24 +510,23 @@ policy for a particular learner, follow these steps.
 Handle Requests for Retaking a Proctored Exam
 =====================================================
 
-Course teams might have to manage situations where learners experienced
-technical difficulties with online proctoring, or other reasons for requesting
-a chance to retake a proctored exam.
+Course teams might have to assist learners who have experienced technical
+difficulties with online proctoring, or have other reasons to request
+permission to retake a proctored exam. Learners can contact edX support to
+request that their proctored exam attempts be cleared. Clearing a proctored
+exam attempt allows a learner to retake a proctored exam.
 
 .. note:: Deleting a learner's exam attempt clears all submitted answers, and
    the learner experiences the exam as if for the first time, including making
    the choice to take the exam with online proctoring, obtaining an exam code,
    going through the proctoring software setup, and so on.
 
-If a learner's request for retaking a proctored exam is valid, and you want to
-delete the record of their exam attempt so that they can retake the exam,
-follow these steps.
+If a learner needs to retake a proctored exam, follow these steps.
 
-#. Contact edX Support to ask them to delete the exam attempt for the learner.
+#. Instruct the learner to contact edX Support and request that the support
+   team delete the exam attempt.
 
-#. Provide edX Support with the learner's username or email address.
-
-#. When the exam attempt has been deleted, let the learner know that they can
+#. When the exam attempt has been deleted, instruct the learner to
    retake the exam.
 
 
@@ -652,7 +650,7 @@ learners' proctoring sessions contains the following fields.
      - The username or email address that identifies the learner taking the
        proctored exam.
    * - exam_name
-     - The name of the proctored exam in the courseware.
+     - The name of the proctored exam in the body of the course.
    * - attempt_code
      - An identifier for the exam attempt. The attempt code is an
        internal identifier and is included in the report for use in
@@ -669,8 +667,9 @@ learners' proctoring sessions contains the following fields.
    * - status
      - The status of the proctoring session review. Possible values are
        ``created``, ``ready to start``, ``started``, ``timed out``,
-       ``completed``, ``submitted``, ``verified``, ``rejected``, and
-       ``error``. For an explanation of each status, see the table below.
+       ``completed``, ``submitted``, ``second review required``, ``verified``,
+       ``rejected``, and ``error``. For an explanation of each status, see the
+       table below.
 
 
 The following table describes the possible values in the Status column.
@@ -696,6 +695,10 @@ The following table describes the possible values in the Status column.
    * - Submitted
      - The learner has completed the proctored exam and results have been
        submitted for review.
+   * - Second Review Required
+     - The exam attempt has been reviewed and the review team has
+       determined that it requires additional evaluation. The review team will
+       perform the second review. Course teams do not need to take any action.
    * - Satisfactory
      - The proctoring session review has been completed, and has passed.
    * - Unsatisfactory

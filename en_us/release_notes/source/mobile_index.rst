@@ -10,6 +10,18 @@ The following information describes what is new in the edX mobile apps.
   :local:
   :depth: 2
 
+**************************
+Week of 22 February 2016
+**************************
+
+.. include:: 2016/mobile/mobile_0222_2016.rst
+
+******************
+3 February 2016
+******************
+
+.. include:: 2016/mobile/mobile_0202_2016.rst
+
 ******************
 6 January 2016
 ******************

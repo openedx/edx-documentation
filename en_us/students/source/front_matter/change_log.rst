@@ -2,12 +2,34 @@
 Change Log
 ############
 
+The edX documentation team no longer maintains a change log for each guide. For
+a weekly summary of platform changes, refer to the *EdX Release Notes* on the
+`docs.edx.org`_ website.
+
+For information about changes made to the edX documentation set, the
+`edx-documentation`_ repository on GitHub provides a complete record.
+
+.. include:: ../../../links/links.rst
+
+**********************
+2016
+**********************
+
+.. list-table::
+   :widths: 15 70
+   :header-rows: 1
+
+   * - Date
+     - Change
+   * - 18 January 2016
+     - Added the :ref:`SFD Self Paced` topic.
+
 **********************
 2015
 **********************
 
 .. list-table::
-   :widths: 20 70
+   :widths: 15 70
    :header-rows: 1
 
    * - Date
@@ -56,7 +78,7 @@ Change Log
 **********************
 
 .. list-table::
-   :widths: 10 70
+   :widths: 15 70
    :header-rows: 1
 
    * - Date

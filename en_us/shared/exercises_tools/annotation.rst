@@ -8,8 +8,8 @@ Annotation Problem
 
 In an annotation problem, you highlight specific text inside a larger text
 block and then ask questions about that text. The questions appear when
-students move their cursors over the highlighted text. The questions also
-appear in a section below the text block, along with space for students'
+learners move their cursors over the highlighted text. The questions also
+appear in a section below the text block, along with space for learners'
 responses.
 
 .. image:: ../../../shared/images/AnnotationExample.png
@@ -17,18 +17,19 @@ responses.
 
 .. contents::
   :local:
-  :depth: 2
+  :depth: 1
 
-***************************************************
-Enable the Annotation Problem
-***************************************************
+*****************************
+Enable Annotation Problems
+*****************************
 
 Before you can add annotation problems to your course, you must enable
 annotation problems in Studio.
 
 To enable annotation problems in Studio, you add the ``"annotatable"`` key to
-the **Advanced Module List** on the **Advanced Settings** page. For more
-information, see :ref:`Enable Additional Exercises and Tools`.
+the **Advanced Module List** on the **Advanced Settings** page. (Be sure to
+include the quotation marks around the key value.) For more information, see
+:ref:`Enable Additional Exercises and Tools`.
 
 ****************************
 Create an Annotation Problem
@@ -62,10 +63,10 @@ Add Annotation Problem
 
 To add the **Annotation problem** segment of the problem, follow these steps.
 
-#. Under the Annotation component, create a new blank Advanced Problem
+#. Under the annotation component, create a new blank advanced problem
    component.
 
-#. Paste the following code in the Advanced Problem component, replacing
+#. Paste the following code in the advanced problem component, replacing
    placeholders with your own information.
 
    .. code-block:: xml
@@ -90,4 +91,4 @@ To add the **Annotation problem** segment of the problem, follow these steps.
            </solution>
          </problem>
 
-3. Select **Save**.
+#. Select **Save**.

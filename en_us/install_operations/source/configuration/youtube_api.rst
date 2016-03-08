@@ -53,7 +53,7 @@ edX.
 To set your YouTube API key in Ansible's configuration file, complete the following steps.
 
 #. Find the `configuration`_ repository on your Open edX server. If you are
-   running Devstack or Fullstack, the directory is
+   running devstack or fullstack, the directory is
    ``/edx/app/edx_ansible/edx_ansible``.
 
 #. In that repository, open the ``playbooks/roles/edxapp/defaults/main.yml``
@@ -92,12 +92,12 @@ To set your YouTube API key by editing JSON files, complete the following
 steps.
 
 #. Find the `edx-platform`_ repository on your Open edX server. If you are
-   running Devstack or Fullstack, the directory is
+   running devstack or fullstack, the directory is
    ``/edx/app/edxapp/edx-platform``.
 
 #. In the directory *above* your repository, there should be several JSON
    files, including ``lms.auth.json`` and ``cms.auth.json``. If you are running
-   Devstack or Fullstack, the directory is ``/edx/app/edxapp``.
+   devstack or fullstack, the directory is ``/edx/app/edxapp``.
 
 #. Open the ``lms.auth.json`` file in your text editor.
 

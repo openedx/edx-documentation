@@ -6,14 +6,9 @@ Google Instant Hangout Tool
 
 .. note:: EdX offers provisional support for this tool.
 
-This topic describes how you can use instant hangouts in your course. See:
-
-* :ref:`Hangouts_Overview`
-* :ref:`Whitelisting Your Domain for Google Hangouts`
-* :ref:`Instant Hangouts in Your Course`
-* :ref:`The Learner Experience`
-* :ref:`Limitations`
-* :ref:`Create the Instant Hangout`
+.. contents::
+  :local:
+  :depth: 1
 
 .. _Hangouts_Overview:
 
@@ -44,7 +39,7 @@ Whitelisting Your Domain for Google Hangouts
 *********************************************
 
 If you are running an Open edX site, you must ensure that Google whitelists the
-site's domain as a referrer for Google Hangouts to work.
+site's domain as a referer for Google Hangouts to work.
 
 .. _Instant Hangouts in Your Course:
 

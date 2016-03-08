@@ -6,6 +6,9 @@ Preparing to Reuse Course Content
 
 .. only:: Partners
 
+  .. note:: Support for this feature is provisional. EdX is currently working
+   with a limited number of partners to test this feature on edX Edge.
+
   To make the content of an existing edX course reusable in an external LMS,
   you create a duplicate version of the course. You use the duplicate course
   specifically as a source of content for your external LMS. Based on

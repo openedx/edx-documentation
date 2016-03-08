@@ -1,8 +1,8 @@
 .. _Course and Video Licenses:
 
-##########################
-Course and Video Licenses
-##########################
+##################################################
+Understanding How Courses and Videos Are Licensed
+##################################################
 
 This topic describes licenses in your course and restrictions on using course
 content.
@@ -70,7 +70,7 @@ Viewing Licenses
 *************************************
 
 If the course author has set a license for the course, you see the license a
-the bottom of the page when you view content in the **Courseware** tab.
+the bottom of the page when you view content in the **Course** tab.
 
 .. image:: ../../shared/images/learner_course_license.png
   :alt: A course unit page with a pointer to the license.

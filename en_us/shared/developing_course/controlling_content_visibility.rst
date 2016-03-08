@@ -9,10 +9,10 @@ visible to learners and when.
 
 You control content visibility through these features in Studio.
 
-.. contents:: 
+.. contents::
   :local:
   :depth: 1
-  
+
 These features work together to control content visibility for learners.
 
 .. _Release Dates:
@@ -36,13 +36,13 @@ Prior to release, content is visible to course team members by
 :ref:`previewing the course <Preview Course Content>` or :ref:`viewing the live
 course as staff<View Your Live Course>`.
 
-.. note:: The release times that you set, and the times that learners see, 
+.. note:: The release times that you set, and the times that learners see,
    are in Coordinated Universal Time (UTC). You might want to verify that you
    have specified the times that you intend by using a time zone converter such
    as `Time and Date Time Zone Converter
    <http://www.timeanddate.com/worldclock/converter.html>`_
 
-For more information about setting release dates, see the following topics. 
+For more information about setting release dates, see the following topics.
 
 * :ref:`Set a Section Release Date`
 * :ref:`Set a Subsection Release Date`
@@ -126,3 +126,87 @@ groups of learners.
 
 For details, see :ref:`About Content Groups` and :ref:`Cohorted Courseware
 Overview`.
+
+.. _configuring_prerequisite_content:
+
+*******************************************
+Configuring Prerequisite Course Subsections
+*******************************************
+
+You can hide subsections of your course until learners complete other,
+prerequisite subsections. If a subsection has a prerequisite, it is not
+visible in the course navigation unless a learner has earned a minimum score in
+the prerequisite subsection.
+
+.. _enabling_subsection_gating:
+
+=================================
+Enabling Subsection Prerequisites
+=================================
+
+To enable prerequisite subsections in a course, follow
+these steps.
+
+#. From the **Settings** menu, select **Advanced Settings**.
+
+#. In the **Enable Subsection Prerequisites** field, enter ``true``.
+
+#. Select **Save Changes**.
+
+.. _creating_a_prerequisite_subsection:
+
+==================================
+Creating a Prerequisite Subsection
+==================================
+
+To prevent learners from seeing a subsection of your course until they have
+earned a minimum score in a prerequisite subsection, follow these steps.
+
+.. note::
+    Make sure that you configure subsection prerequisites in the order that you
+    intend for learners to encounter them in the course content. The
+    prerequisite configuration controls do not prevent you from creating a
+    circular chain of prerequisites that will permanently hide them from
+    learners.
+
+#. Enable subsection prerequisites for your course. For more information, see
+   :ref:`enabling_subsection_gating`.
+
+#. Select the **Configure** icon for the subsection that
+   must be completed first. This is the prerequisite subsection.
+
+   .. image:: ../../../shared/images/subsections-settings-icon.png
+     :alt: The subsection configuration icon circled.
+
+#. Select the **Access** tab.
+
+#. Select **Use as a Prerequisite** > **Make this subsection
+   available as a prerequisite to other content**.
+
+#. Select **Save**.
+
+#. Select the **Configure** icon for the subsection that
+   will be hidden until the prerequisite is met.
+
+#. Select the **Access** tab.
+
+#. In the **Limit Access** > **Prerequisite** menu, select the name of the
+   subsection you want to specify as the prerequisite.
+
+#. Enter the percent of the total score that learners must earn in the
+   **Minimum Score** field. A learner's score for all problems in the
+   prerequisite subsection must be equal to or greater than this percentage in
+   order to satisfy the prerequisite and display the current subsection.
+
+   For example, if the prerequisite subsection includes four problems and each
+   problem is worth the same number of points, set the **Minimum Score** to
+   ``75`` to require at least three correct answers.
+
+#. Select **Save**.
+
+#. In the course outline, if a subsection has a prerequisite, the prerequisite
+   name appears under the subsection name.
+
+
+
+

@@ -193,7 +193,8 @@ more information, see the HTTP/1.1 header field definition for
 The ``context`` field includes member fields that provide contextual
 information.
 
-* This field contains a core set of member fields that are common to all events.
+* This field contains a core set of member fields that are common to all
+  events.
 * For certain events with additional contextual requirements, this field
   contains a set of additional member fields that are common to those events
   only.
@@ -2163,10 +2164,12 @@ information about interactions with problems.
 
 These events were designed for the problem types implemented in the edX
 platform by the ``capa_module.py`` XBlock. Problem types that are implemented
-by other XBlocks, such as :ref:`open response assessments<ora2>`, :ref:`polls
-and surveys<Poll and Survey Events>`, are instrumented with different events.
+by other XBlocks, such as :ref:`open response assessments<ora2>`,
+:ref:`peer instruction assessments<Peer Instruction Events>`, or
+:ref:`polls and surveys<Poll and Survey Events>`, are instrumented with
+different events.
 
-For more information about designing problems to include hints, feedback, or
+For information about designing problems to include hints, feedback, or
 both, see :ref:`partnercoursestaff:Adding Feedback and Hints to a Problem` in
 the *Building and Running an edX Course* guide.
 
@@ -2371,11 +2374,11 @@ field.
        * ``correct``: Boolean; 'true', 'false'
        * ``input_type``: string; The type of value that the student supplies
          for the ``response_type``. Based on the XML element names used in the
-         Advanced Editor. Examples include 'checkboxgroup', 'radiogroup',
+         advanced editor. Examples include 'checkboxgroup', 'radiogroup',
          'choicegroup', and 'textline'.
        * ``question``: string; Provides the text of the question.
        * ``response_type``: string; The type of problem. Based on the XML
-         element names used in the Advanced  Editor. Examples include
+         element names used in the advanced editor. Examples include
          'choiceresponse', 'optionresponse', and 'multiplechoiceresponse'.
        * ``variant``: number; For problems that use problem randomization
          features such as answer pools or choice shuffling, contains the unique
@@ -3518,12 +3521,14 @@ This section includes descriptions of the following events.
   :local:
   :depth: 1
 
-In an open response assessment, students review a question and then submit a
-text response and, optionally, an image, .pdf, or other file. To evaluate their
-own and one or more other students' responses to the questions, students use a
-scoring rubric designed by the course team. For more information about open
-response assessments, see :ref:`partnercoursestaff:PA Create an ORA
-Assignment`.
+In an open response assessment, learners review a question and then submit a
+text response and, optionally, an image, .pdf, or other file. To evaluate
+their own and one or more other learners' responses to the questions, learners
+use a scoring rubric designed by the course team. Course team members with
+staff privileges can also evaluate learners' responses, either in a staff
+assessment step included in the assignment, or by overriding an existing
+assignment score. For more information about open response assessments, see
+:ref:`partnercoursestaff:Open Response Assessments 2`.
 
 For more information about the SQL tables that store data for open assessment
 problems, see :ref:`ORA2 Data`.
@@ -3531,14 +3536,17 @@ problems, see :ref:`ORA2 Data`.
 **Component**: Open Response Assessments
 
 **History:** The open response assessment feature was released in August 2014;
-limited release of this feature began in April 2014.
+limited release of this feature began in April 2014. The ability for course
+team members to either include a staff assessment step in the assignment, or
+to perform a staff override grade was added in January 2016.
+
 
 ``openassessmentblock.get_peer_submission``
 ********************************************
 
-After students submit their own responses for evaluation, they use the scoring
+After learners submit their own responses for evaluation, they use the scoring
 rubric to evaluate the responses of other course participants. The server emits
-this event when a response is delivered to a student for evaluation.
+this event when a response is delivered to a learner for evaluation.
 
 **Event Source**: Server
 
@@ -3555,33 +3563,65 @@ this event when a response is delivered to a student for evaluation.
      - Details
    * - ``course_id``
      - string
-     - The identifier of the course that includes this assessment. For open
-       response assessment problems, the course ID is stated in
-       {org}/{course}/{run} format.
-
-       (For courses created after mid-2014, the course ID is converted to this
-       format for open response assessment problems only.)
-
+     - The identifier of the course that includes this assessment.
    * - ``item_id``
      - string
-     - The i4x:// style locator that identifies the problem in the course.
+     - The locator string that identifies the problem in the course.
    * - ``requesting_student_id``
      - string
-     - The course-specific anonymized user ID of the student who requested the
-       response.
+     - The course-specific anonymized user ID of the learner who retrieved the
+       response for peer assessment.
    * - ``submission_returned_uuid``
      - string
-     - The unique identifier of the response that the student retrieved for
-       assessment.
+     - The unique identifier of the response that was retrieved for assessment.
 
        If no assessment is available, this is set to "None".
 
 
-``openassessmentblock.peer_assess`` and ``openassessmentblock.self_assess``
-****************************************************************************
+``openassessmentblock.get_submission_for_staff_grading``
+********************************************************
 
-The server emits this event when a student either submits an assessment of a
-peer's response or submits a self-assessment of her own response.
+If a staff assessment step exists in the open response assessment, a member of
+the course staff evaluates a learner's response using the same rubric that is
+used for self and peer assessments.
+
+When a course team member retrieves a learner's response for grading in the
+staff assessment step, the server emits an
+``openassessmentblock.get_submission_for_staff_grading`` event.
+
+**Event Source**: Server
+
+**History**: Added 20 Jan 2016.
+
+``event`` **Member Fields**:
+
+This event type includes the same ``context`` and ``event`` member fields as the
+``openassessmentblock.get_peer_submission`` event and also includes the
+following ``event`` member fields.
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+   * - ``requesting_staff_id``
+     - string
+     - The course-specific anonymized user ID of the course team member who
+       is retrieved the response for grading.
+   * - ``type``
+     - string
+     - Indicates the type of staff grading that is being performed. Currently,
+       the only valid value is "full-grade", which indicates that staff
+       grading is being done in a staff assessment step.
+
+
+``openassessmentblock.peer_assess``
+***********************************
+
+The server emits this event when a learner submits an assessment of a
+peer's response.
 
 **Event Source**: Server
 
@@ -3598,12 +3638,12 @@ peer's response or submits a self-assessment of her own response.
      - Details
    * - ``feedback``
      - string
-     - The student's comments about the submitted response.
+     - The learner's comments about the submitted response.
    * - ``parts: [criterion, option, feedback]``
      - array
      - The ``parts`` field contains member fields for each ``criterion`` in the
-       rubric, the ``option`` that the student selected for it, and any
-       ``feedback`` comments that the student supplied.
+       rubric, the ``option`` that the learner selected for it, and any
+       ``feedback`` comments that the learner supplied.
 
        These member fields are repeated in an array to include all of the
        rubric's criteria.
@@ -3613,31 +3653,80 @@ peer's response or submits a self-assessment of her own response.
        * ``option`` (string).
        * ``feedback`` (string).
 
-       When the only criterion in the rubric is student feedback, ``points
+       When the only criterion in the rubric is learner feedback, ``points
        possible`` is 0 and the ``option`` field is not included.
 
    * - ``rubric``
      - object
      - This field contains the member field ``contenthash``, which identifies
-       the rubric that the student used to assess the response.
+       the rubric that the learner used to assess the response.
    * - ``scored_at``
      - datetime
      - Timestamp for when the assessment was submitted.
    * - ``scorer_id``
      - string
-     - The course-specific anonymized user ID of the student who submitted this
+     - The course-specific anonymized user ID of the learner who submitted this
        assessment.
    * - ``score_type``
      - string
-     - "PE" for a peer evaluation, "SE" for a self evaluation.
+     - Possible values are "PE" for a peer assessment, "SE" for a self
+       assessment, or "ST" for a staff assessment.
    * - ``submission_uuid``
      - string
      - The unique identifier for the submitted response.
 
+
+``openassessmentblock.self_assess``
+***********************************
+
+The server emits this event when a learner submits a self-assessment of her own
+response.
+
+**Event Source**: Server
+
+**History**: Added 3 April 2014.
+
+``event`` **Member Fields**:
+
+This event type includes the same ``context`` and ``event`` member fields as the
+``openassessmentblock.peer_assess`` event.
+
+
+``openassessmentblock.staff_assess``
+************************************
+
+The server emits this event when a course team member submits an assessment of a
+learner's response.
+
+**Event Source**: Server
+
+**History**: Added 20 January 2016.
+
+``event`` **Member Fields**:
+
+This event type includes the same ``context`` and ``event`` member fields as the
+``openassessmentblock.peer_assess`` event.
+
+In addition, this event type includes this ``event`` member field.
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+   * - ``type``
+     - string
+     - Indicates the type of staff grading that is being performed. Possible
+       values are "regrade" in the case of a grade override, or "full-grade"
+       in the case of an included staff assessment step.
+
+
 ``openassessmentblock.submit_feedback_on_assessments``
 ******************************************************************
 
-The server emits this event when a student submits a suggestion, opinion, or
+The server emits this event when a learner submits a suggestion, opinion, or
 other feedback about the assessment process.
 
 **Event Source**: Server
@@ -3655,20 +3744,21 @@ other feedback about the assessment process.
      - Details
    * - ``feedback_text``
      - string
-     - The student's comments about the assessment process.
+     - The learner's comments about the assessment process.
    * - ``options``
      - array
-     - The label of each check box option that the student selected to evaluate
+     - The label of each check box option that the learner selected to evaluate
        the assessment process.
    * - ``submission_uuid``
      - string
      - The unique identifier of the feedback.
 
+
 ``openassessmentblock.create_submission``
 ******************************************
 
-The server emits this event when a student submits a response. The same event
-is emitted when a student submits a response for peer assessment or for self
+The server emits this event when a learner submits a response. The same event
+is emitted when a learner submits a response for peer assessment or for self
 assessment.
 
 **Event Source**: Server
@@ -3698,10 +3788,10 @@ assessment.
      - This value is currently always set to 1.
    * - ``created_at``
      - datetime
-     - Timestamp for when the student submitted the response.
+     - Timestamp for when the learner submitted the response.
    * - ``submitted_at``
      - datetime
-     - Timestamp for when the student submitted the response. This value is
+     - Timestamp for when the learner submitted the response. This value is
        currently always the same as ``created_at``.
    * - ``submission_uuid``
      - string
@@ -3710,8 +3800,8 @@ assessment.
 ``openassessmentblock.save_submission``
 ****************************************
 
-The server emits this event when a student saves a response. Students
-save responses before they submit them for assessment.
+The server emits this event when a learner saves a response. Learners can save
+responses before they submit them for assessment.
 
 **Event Source**: Server
 
@@ -3739,11 +3829,11 @@ save responses before they submit them for assessment.
 ``openassessment.student_training_assess_example``
 ******************************************************************
 
-The server emits this event when a student submits an assessment for an
-example response. To assess the example, the student uses a scoring rubric
-provided by the course team. These events record the options the student
-selected to assess the example and identifies any criteria that the student
-scored differently than the course team.
+The server emits this event when a learner submits an assessment for an
+example response within a training step. To assess the example, the learner
+uses a scoring rubric provided by the course team. These events record the
+options that the learner selected to assess the example, and identify any
+criteria that the learner scored differently than the course team.
 
 **Event Source**: Server
 
@@ -3760,24 +3850,24 @@ scored differently than the course team.
      - Details
    * - ``corrections``
      - object
-     - A set of name/value pairs that identify criteria for which the student
+     - A set of name/value pairs that identify criteria for which the learner
        selected a different option than the course team, in the format
        ``criterion_name: course-team-defined_option_name``.
    * - ``options_selected``
      - object
-     - A set of name/value pairs that identify the option that the student
+     - A set of name/value pairs that identify the option that the learner
        selected for each criterion in the rubric, in the format
        ``'criterion_name': 'option_name'``.
    * - ``submission_uuid``
      - string
-     - The unique identifier of the response. Identifies the student who
+     - The unique identifier of the response. Identifies the learner who
        is undergoing training.
 
 ``openassessment.upload_file``
 *********************************
 
-The browser emits this event when a student successfully uploads an image,
-.pdf, or other file as part of a response. Students complete the upload process
+The browser emits this event when a learner successfully uploads an image,
+.pdf, or other file as part of a response. Learners complete the upload process
 before they submit the response.
 
 **Event Source**: Browser
@@ -3795,15 +3885,99 @@ before they submit the response.
      - Details
    * - ``fileName``
      - string
-     - The name of the uploaded file, as stored on the student's client
+     - The name of the uploaded file, as stored on the learner's client
        machine.
    * - ``fileSize``
      - number
-     - The size of the uploaded file in bytes. Reported by the student's
+     - The size of the uploaded file in bytes. Reported by the learner's
        browser.
    * - ``fileType``
      - string
-     - The MIME type of the uploaded file. Reported by the student's browser.
+     - The MIME type of the uploaded file. Reported by the learner's browser.
+
+
+.. _Peer Instruction Events:
+
+=============================
+Peer Instruction Events
+=============================
+
+This section describes events emitted by the peer instruction XBlock. The peer
+instruction XBlock presents a multiple choice question and a set of possible
+answer choices. Learners select one of the choices and also explain why they
+selected that choice. After learners submit a response, the XBlock presents a
+set of the answers selected by other learners, and their explanations, for
+review. Learners then have a second opportunity to select an answer and provide
+a revised explanation.
+
+.. contents::
+  :local:
+  :depth: 1
+
+For more information, see :ref:`partnercoursestaff:UBC Peer Instruction`.
+
+**History**: Added 15 Dec 2015.
+
+``ubc.peer_instruction.accessed``
+************************************
+
+The server emits this event when a peer instruction question and its set of
+answer choices is shown to a learner.
+
+**Event Source**: Server
+
+``event`` **Member Fields**: None
+
+
+``ubc.peer_instruction.original_submitted``
+*******************************************
+
+The server emits this event when learners submit their initial responses. These
+events record the answer choice the learner selected and the explanation given
+for why that selection was made.
+
+**Event Source**: Server
+
+``event`` **Member Fields**:
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+   * - ``answer``
+     - integer
+     - The index assigned to the answer choice selected by the learner.
+   * - ``rationale``
+     - string
+     - The text entered by the learner to explain why they selected that
+       answer choice.
+   * - ``truncated``
+     - Boolean
+     - 'true' only if the ``rationale`` was longer than 12,500 characters,
+       which is the maximum included in the event.
+
+
+``ubc.peer_instruction.revised_submitted``
+*******************************************
+
+The server emits this event when learners submit their revised responses. These
+events record the answer choice selected by the learner and the explanation for
+why that selection was made.
+
+**Event Source**: Server
+
+``event`` **Member Fields**:
+
+The ``ubc.peer_instruction.revised_submitted`` events include the following
+``event`` member fields. These fields serve the same purpose for events of this
+type as for ``ubc.peer_instruction.original_submitted`` events.
+
+* ``answer``
+* ``rationale``
+* ``truncated``
 
 
 .. _Poll and Survey Events:
@@ -3895,6 +4069,56 @@ submits survey responses.
 **Event Source**: Server
 
 ``event`` **Member Fields**: None
+
+
+.. _Course Content Completion Events:
+
+====================================
+Course Content Completion Event
+====================================
+
+This section describes the event emitted by the completion XBlock, which adds
+a toggle control in course content. This toggle allows learners to mark the
+associated section of course content as complete.
+
+EdX recommends using the completion XBlock primarily for progress tracking of
+ungraded activities, such as reading assigned texts, watching videos, or
+participating in course discussions.
+
+Learners are not limited in the number of times that they can toggle the
+control between the default incomplete state and the completed state. For more
+information, see :ref:`partnercoursestaff:completion` in the *Building and
+Running an edX Course* guide.
+
+.. contents::
+  :local:
+  :depth: 1
+
+**History**: Added 27 Jan 2016.
+
+``edx.done.toggled``
+************************************
+
+Both the browser and the server emit the ``edx.done.toggled`` event when the
+control added by the Completion XBlock is toggled. The ``event_source`` field
+indicates whether the event was emitted by the client or the server.
+
+``event`` **Member Fields**:
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+   * - ``done``
+     - Boolean
+     - Indicates the state of the Completion toggle at the time the event is
+       emitted. Possible values are ``true`` (a learner has completed the
+       associated content) and ``false`` (a learner has not completed the
+       associated content).
+
 
 .. _content:
 
@@ -4477,16 +4701,11 @@ This section presents teams-related events alphabetically. Typically, the
 first event produced when teams are included in a course is the
 ``edx.team.created`` event.
 
-.. note:: The Teams feature is in limited release. For more information,
-   contact your edX partner manager. For Open edX sites, contact your system
-   administrator.
+**History** Teams-related events were added on 16 Sept 2015.
 
 .. contents::
   :local:
   :depth: 1
-
-
-.. NOT in live doc yet For information about including teams in a course, see Teams Setup in the *Building and Running an edX Course* guide.
 
 
 .. _edx_team_activity_updated:
@@ -4502,8 +4721,6 @@ The definition of activity that would trigger this event does not include
 changes in team membership.
 
 **Event Source**: Server
-
-**History** Added 16 Sept 2015.
 
 ``event`` **Member Fields**:
 
@@ -4532,8 +4749,6 @@ When a team's information is edited, the server emits one
 ``edx.team.team_changed`` event for each modified field.
 
 **Event Source**: Server
-
-**History** Added 16 Sept 2015.
 
 ``event`` **Member Fields**:
 
@@ -4585,8 +4800,6 @@ server emits an ``edx.team.created`` event.
 
 **Event Source**: Server
 
-**History** Added 16 Sept 2015.
-
 ``event`` **Member Fields**:
 
 In addition to the :ref:`common<context>` ``context`` member fields, this
@@ -4607,8 +4820,6 @@ team members who have any of the **Staff**, **Admin**, **Discussion Admin**,
 
 **Event Source**: Server
 
-**History** Added 16 Sept 2015.
-
 ``event`` **Member Fields**:
 
 In addition to the :ref:`common<context>` ``context`` member fields, this
@@ -4627,8 +4838,6 @@ When a user joins a team or is added by someone else, the server emits an
 ``edx.team.learner_added`` event.
 
 **Event Source**: Server
-
-**History** Added 16 Sept 2015.
 
 ``event`` **Member Fields**:
 
@@ -4674,8 +4883,6 @@ learners from teams.
 
 **Event Source**: Server
 
-**History** Added 16 Sept 2015.
-
 ``event`` **Member Fields**:
 
 In addition to the :ref:`common<context>` ``context`` member fields, this
@@ -4712,8 +4919,6 @@ When a user views any page with a unique URL under the **Teams** page in the
 courseware, the browser emits an ``edx.team.page_viewed`` event.
 
 **Event Source**: Browser
-
-**History** Added 16 Sept 2015.
 
 ``event`` **Member Fields**:
 
@@ -4758,8 +4963,6 @@ When a user performs a search for teams from the topic view under the
 event.
 
 **Event Source**: Server
-
-**History** Added 16 Sept 2015.
 
 ``event`` **Member Fields**:
 

@@ -10,12 +10,6 @@ responsible for transferring data securely to researchers and other interested
 parties after it is received. Due to the sensitivity of this data, the
 responsibility for these activities is restricted to one individual.
 
-.. important:: As a best practice for working with student data, edX strongly
- recommends a single data czar at each partner institution. However, if an
- additional individual is given this responsibility at your institution, be
- sure to work with edX to set up individual credentials for that additional
- data czar.
-
 At each partner institution, the data czar is the primary point of contact for
 information about edX data.
 
@@ -55,10 +49,16 @@ Skills and Experience of Data Czars
 
 The individuals who are selected by a partner institution to be edX data czars
 typically have experience working with sensitive student data, are familiar
-with encryption/decryption and file transfer protocols, and can validate,
-copy, move, and store large files. The data czar is responsible for ensuring
-compliance with your institution's and country's regulations with respect to
-the sharing of this data.
+with encryption, decryption, and file transfer protocols, and can validate,
+copy, move, and store large files.
+
+Depending on the size of your institution and the number of contributors in the
+research team, the data czar might need to be a qualified research and
+analytics team lead, a senior research manager, or direct the research and
+analytics program.
+
+The data czar is responsible for ensuring compliance with your institution's
+and country's regulations with respect to the sharing of this data.
 
 =====================
 General Skills
@@ -78,6 +78,9 @@ Technical Skills
 
 - Ability to download large files from Amazon Web Service (AWS) Simple Storage
   Service (S3).
+
+- Ability to set up a secure internal data distribution pipeline and run
+  scripts to download files in bulk from AWS S3.
 
 - Experience working with archive files in TAR, GZ, and ZIP formats.
 

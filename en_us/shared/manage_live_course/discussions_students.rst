@@ -79,7 +79,7 @@ discussion topics.
 
 Notice that you can access content-specific topics both on the **Discussion**
 page and also while you are navigating through course content on the
-**Courseware** page. However, you can only access the course-wide topics on the
+**Course** page. However, you can only access the course-wide topics on the
 **Discussion** page.
 
 Before you add a post, look through the topics. When you add your post to the
@@ -194,7 +194,7 @@ your post, determine the type for your post: either question or discussion.
 Add a Post to a Content-Specific Discussion Topic
 **************************************************
 
-#. Select **Courseware**.
+#. Select **Course**.
 
 #. Open the part of the course that includes the discussion topic that you want
    to add to.
@@ -206,12 +206,12 @@ Add a Post to a Content-Specific Discussion Topic
    the first sentence or two of each post appear. To read an entire post, view
    the responses to it, and see any comments, select **Expand discussion**.
 
-4. To add a post, select **New Post**.
+#. To add a post, select **New Post**.
 
 .. image:: ../../../shared/images/Discussion_content_specific_post.png
   :alt: Adding a post about specific course content.
 
-5. Select the type of post: select **Question** or **Discussion**.
+#. Select the type of post: **Question** or **Discussion**.
 
 #. Enter a short, descriptive identifier for your post in the **Title** field.
    The title is the part of your post that others see when they are browsing on
@@ -285,7 +285,7 @@ available for responses and comments as for posts.
 Add a Response or Comment to a Content-Specific Discussion Topic
 ****************************************************************
 
-#. Select **Courseware**.
+#. Select **Course**.
 
 #. Open the part of the course with the discussion topic where you want to make
    your contribution.

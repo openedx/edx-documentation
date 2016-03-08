@@ -18,7 +18,7 @@ but also provide more specific information, if necessary.
  cannot enter words or mathematical expressions, which might be confusing to
  students who are accustomed to other edX numerical input fields.
 
- You can make a calculator available to your learners on every courseware
+ You can make a calculator available to your learners on every unit
  page. For more information, see :ref:`Calculator`.
 
 .. _Create an MCNI Problem:
@@ -27,7 +27,7 @@ but also provide more specific information, if necessary.
 Create a Multiple Choice and Numerical Input Problem
 ********************************************************
 
-To create a multiple choice and numerical input problem:
+To create a multiple choice and numerical input problem, follow these steps.
 
 #. In the unit where you want to create the problem, click **Problem** under
    **Add New Component**, and then click the **Advanced** tab.

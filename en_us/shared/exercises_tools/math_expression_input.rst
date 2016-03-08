@@ -6,6 +6,14 @@ Math Expression Input Problems
 
 .. note:: EdX offers full support for this problem type.
 
+.. contents::
+  :local:
+  :depth: 1
+
+***********
+Overview
+***********
+
 In math expression input problems, learners enter text that represents a
 mathematical expression. The text is converted to a symbolic expression that
 appears below the response field. Unlike numerical input problems, which only
@@ -16,16 +24,17 @@ include unknown variables and more complicated symbolic expressions.
  :alt: A problem requesting the symbolic expression and numerical evaluation
      of N(x) for a sleeved cylinder
 
-For more information about how learners enter expressions, see `Math Response
-Formatting for Students`_.
+For more information about how learners enter expressions, see
+:ref:`learners:Math Formatting` in the *EdX Learner's Guide* or
+:ref:`openlearners:Math Formatting` in the *Open edX Learner's Guide*.
 
 .. note::
-  You can make a calculator available to your learners on every courseware
+  You can make a calculator available to your learners on every unit
   page. For more information, see :ref:`Calculator`.
 
-For the math expression input problems in your course, you can use edX
-Insights to review aggregated learner performance data and examine
-submitted answers. For more information, see `Using edX Insights`_.
+For the math expression input problems in your course, you can use edX Insights
+to review aggregated learner performance data and examine submitted answers.
+For more information, see :ref:`insights:Using edX Insights`.
 
 For math expression input problems, the grader uses numerical sampling to
 determine whether a learner's response matches the math expression that you
@@ -53,7 +62,7 @@ To create a math expression input problem, follow these steps.
 #. Select **Advanced**.
 #. Select **Math Expression Input**. Studio adds an example math expression
    input problem to the unit.
-#. Select **Edit**. The Advanced Editor opens.
+#. Select **Edit**. The advanced editor opens.
 #. Replace the sample problem XML with your own marked up text. To
    practice, you can use the example problem that follows.
 #. Select **Settings** and provide an identifying **Display Name** for the
@@ -62,7 +71,9 @@ To create a math expression input problem, follow these steps.
    :ref:`Problem Settings`.
 #. Select **Save**.
 
-**Example Problem Code**
+*********************
+Example Problem Code
+*********************
 
 .. code-block:: xml
 
@@ -239,6 +250,3 @@ approximate a test for equality.
 
   (none)
 
-.. _Math Response Formatting for Students: http://edx-guide-for-students.readthedocs.org/en/latest/SFD_mathformatting.html
-
-.. _Using edX Insights: http://edx.readthedocs.org/projects/edx-insights/en/latest/

@@ -2,6 +2,15 @@
 Change Log
 ############
 
+The edX documentation team no longer maintains a change log for each guide. For
+a weekly summary of platform changes, refer to the *EdX Release Notes* on the
+`docs.edx.org`_ website.
+
+For information about changes made to the edX documentation set, the
+`edx-documentation`_ repository on GitHub provides a complete record.
+
+.. include:: ../../../links/links.rst
+
 ****************
 November 2015
 ****************
@@ -177,7 +186,7 @@ October, 2014
        :ref:`Video Components` chapters to explain the option to embed content
        in container objects.
    * - 10/07/14
-     - Added pages for the :ref:`Graphical Slider Tool` and
+     - Added pages for the Graphical Slider Tool and
        :ref:`Symbolic Response` to the :ref:`Problems` section.
 
 *****************

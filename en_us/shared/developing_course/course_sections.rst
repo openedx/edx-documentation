@@ -33,12 +33,13 @@ outline.
 The Learner View of a Section
 ******************************
 
-Learners see sections in the **Courseware** tab. Learners can expand one
+Learners see sections in the **Course** page. Learners can expand one
 section at a time to see its contents. In the following example, three sections
 are circled, and the third one is expanded to show its subsections.
 
 .. image:: ../../../shared/images/sections_student.png
- :alt: The learner view of the course with two sections circled.
+ :width: 500
+ :alt: The learner view of the course with three sections circled.
 
 ************************************************
 Sections and Visibility to Learners
@@ -177,7 +178,7 @@ To create a new section, follow these steps.
    name selected.
 
 #. Enter the name for the new section. A descriptive name can help learners
-   locate content in the courseware. It can also help you select content when
+   locate content in the course. It can also help you select content when
    you analyze performance in edX Insights.
 
 #. :ref:`Add subsections<Create a Subsection>` to the new section as needed.

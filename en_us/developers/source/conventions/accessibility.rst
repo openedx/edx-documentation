@@ -570,4 +570,3 @@ options.
   reader for Windows. It is a commercial product but free to use in a limited-time
   demo mode.
 
-

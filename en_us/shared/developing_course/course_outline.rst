@@ -58,7 +58,8 @@ As this example shows, the course is organized into the following levels.
 #. :ref:`Subsections<Developing Course Subsections>`
 #. :ref:`Units<Developing Course Units>`
 
-:ref:`Components<Developing Course Components>` are not shown in the outline. You add or access components by selecting the units that contain them.
+:ref:`Components<Developing Course Components>` are not shown in the outline.
+You add or access components by selecting the units that contain them.
 
 Use the links above for more information and instructions on working with each
 type of object in the course. The topics in the rest of this section provides
@@ -69,11 +70,19 @@ View the Course Organization as a Learner
 ********************************************************
 
 The content you see in the outline in Studio is displayed to learners in the
-**Courseware** page in the LMS. The following image shows how a learner sees
+**Course** page in the LMS. The following image shows how a learner sees
 your course content.
 
 .. image:: ../../../shared/images/Course_Outline_LMS.png
  :alt: Course content from learner's point of view.
+
+#. Sections are listed in the left pane. Learners can expand the sections to
+   see the subsections and units that they contain, or collapse for a compact
+   overview.
+#. Subsections and units appear in the left pane when learners expand a
+   section.
+#. Components in the selected unit appear in the learning sequence. Learners
+   select the icons in the learning sequence to access content.
 
 .. _Navigating the Course Outline:
 

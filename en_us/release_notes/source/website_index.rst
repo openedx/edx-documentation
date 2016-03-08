@@ -8,6 +8,7 @@ The following information describes what is new on edx.org and Edge.
   :local:
   :depth: 1
 
+
 **************************
 6 January 2016
 **************************

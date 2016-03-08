@@ -167,6 +167,9 @@ platform.
    * - ENABLE_SHOPPING_CART
      - Supported
      - FALSE
+   * - ENABLE_SPECIAL_EXAMS
+     - Supported
+     - False
    * - ENABLE_STUDENT_HISTORY_VIEW
      - Supported
      - TRUE

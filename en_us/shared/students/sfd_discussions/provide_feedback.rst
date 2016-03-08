@@ -2,7 +2,7 @@
 .. _Provide Feedback:
 
 ###############################################
-Provide Feedback on Contributions
+Providing Feedback on Contributions
 ###############################################
 
 This topic describes how to provide feedback on discussion contributions.

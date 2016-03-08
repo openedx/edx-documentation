@@ -5,15 +5,15 @@ Setting Details About Your Course
 ######################################################
 
 This topic describes how to set details about your course in Studio. The
-details you set affect the information learners see on their dashboards. For
-more information, see :ref:`SFD Dashboard Settings Profile`.
+details you set affect the information learners see about the course on their
+dashboards. For more information, see :ref:`SFD Dashboard Settings Profile`.
 
-.. contents:: Section Contents
+.. contents::
   :local:
   :depth: 1
 
-For information about setting important dates, see :ref:`Scheduling Your
-Course`.
+For information about setting important dates for the course, see
+:ref:`Scheduling Your Course`.
 
 For information about setting the course license, see :ref:`Licensing a
 Course`.
@@ -36,9 +36,9 @@ You configure the contents of this page in Studio, as described in this topic.
 
 .. note:: Given the diversity of MOOC learners, be careful to clearly
    communicate the target audience, level, and prerequisites for your course.
-   Aim for concrete, unambiguous words (for example, ``understand eigenvalue
-   decomposition`` rather than ``intermediate linear algebra``).
-
+   Aim for concrete, unambiguous words. For example, your description of a
+   course prerequisite might include ``understand eigenvalue decomposition``
+   rather than ``intermediate linear algebra``).
 
 .. _The Learner Dashboard:
 
@@ -46,10 +46,10 @@ You configure the contents of this page in Studio, as described in this topic.
 The Learner Dashboard
 ***********************************
 
-If a learner enrolls in your course, the course is then listed on the **Current
-Courses** dashboard, with the course image. From the dashboard, a learner can
-open a course that has started. If the course has not started, the learner can
-see the start date, as explained in :ref:`Scheduling Your Course`.
+After a learner enrolls in your course, the course is listed on that learner's
+**Current Courses** dashboard with the course image. From the dashboard, a
+learner can open a course that has started. If the course has not started, the
+learner can see the start date, as explained in :ref:`Scheduling Your Course`.
 
 .. image:: ../../../shared/images/dashboard-course-start-and-end.png
  :width: 600
@@ -64,11 +64,10 @@ Describe Your Course
 
 Learners see the description of your course on the course About page.
 
-For example, the course description is circled in the following course About
-page.
+An example of a course description, titled "About this course", follows.
 
 .. image:: ../../../shared/images/about-page-course-description.png
- :alt: Image of a course summary with the description circled.
+ :alt: Image of a course summary with a description.
  :width: 600
 
 .. note:: For courses on edX.org, you must communicate the course description
@@ -106,8 +105,7 @@ a minimum of 378 pixels in width by 225 pixels in height, and in .jpg or .png
 format. Make sure the image that you upload maintains the aspect ratio of those
 dimensions so that the image appears correctly on the dashboard.
 
-In the following example, the course image that was added in Studio is circled
-in the dashboard.
+An example of a course on the dashboard with a course image follows.
 
 .. image:: ../../../shared/images/dashboard-course-image.png
  :alt: Image of the course image in the dashboard.
@@ -134,22 +132,21 @@ in the dashboard.
 .. _Add a Course Video:
 
 *********************************
-Add a Course Video
+Adding a Course About Video
 *********************************
 
-The course video appears on the course About page.
+The course "about" video appears on the course **About** page.
 
-In the following example, the course video is circled in the course About
-page:
+An example of the dashboard for a course with an about video follows.
 
 .. image:: ../../../shared/images/about-page-course-video.png
- :alt: Image of the course video in the course summary page.
+ :alt: Image of the course about video in the course summary page.
  :width: 600
 
-The course video should excite and entice potential learners to enroll, and
+The purpose of the about video is to entice potential learners to enroll, and
 reveal some of the personality that the course team brings to the course.
 
-The video should answer these key questions:
+An about video should answer these key questions.
 
 * Who is teaching the course?
 * What university or college is the course affiliated with?
@@ -159,15 +156,45 @@ The video should answer these key questions:
 The video should deliver your message as concisely as possible and have a run
 time of less than 2 minutes.
 
-Ensure your course introduction video follows the same :ref:`Compression
-Specifications` and :ref:`Video Formats` guidelines as course content videos.
+Before you upload a course about video, make sure that it follows the same
+:ref:`Compression Specifications` and :ref:`Video Formats` guidelines as your
+course content videos.
 
-#. Upload the course video to YouTube. Make note of the code that appears
-   between **watch?v =** and **&feature** in the URL. This code appears in the
-   green box below.
+.. note::
 
-   .. image:: ../../../shared/images/image127.png
-    :alt: Image of a sample course video.
+  * If you upload both a course image and a course about video, the course
+    image appears on learner dashboards with a **play** icon superimposed on
+    it. If you upload only a course video, the first frame of the the video
+    file appears with the **play** icon.
+
+  * The process for adding a course about video is different than the process
+    for including videos as part of the content of your course. For more
+    information about including video content, see :ref:`Working with Video
+    Components`.
+
+.. the "only" directives between these comments introduce the instructions that all open edX sites, and that partners adding a video to Edge, must complete. - Alison 1 Feb 2016
+
+.. only:: Open_edX
+
+  To upload a course about video, follow these steps.
+
+.. only:: Partners
+
+  ================================
+  Add a Course About Video to Edge
+  ================================
+
+  To upload a course about video for the `edX Edge`_ website, follow these steps.
+
+.. the following procedure applies to both audiences.
+
+#. Upload the video file to YouTube. Make note of the code that appears
+   between **watch?v=** and **&feature** in the URL. This code appears in
+   the green box below.
+
+   .. image:: ../../../shared/images/youtube_vequals_URL.png
+    :alt: A YouTube video with the code between watch?v= and &feature
+     indicated.
 
 #. From the **Settings** menu, select **Schedule & Details**.
 
@@ -177,14 +204,47 @@ Specifications` and :ref:`Video Formats` guidelines as course content videos.
    copied in step 1). When you add the code, the video automatically loads in
    the video box.
 
-#. When you make changes, a **Save Changes** button appears at the bottom right
-   of the page. Select **Save Changes** when you have added the course video.
+#. When you make changes, a **Save Changes** option appears at the bottom
+   right of the page. Select **Save Changes** after you add the course
+   video.
 
-#. View your course About page to test how the video will appear to learners.
+#. View your course **About** page to test how the video will appear to
+   learners.
 
-.. note::
-  On edX.org, you work directly with your partner manager to set up the course
-  video in the summary page.
+.. only:: Partners
+
+  ===================================
+  Add a Course About Video to edx.org
+  ===================================
+
+  For courses running on `edx.org`_ only, follow these steps.
+
+  #. Locate the video file on your computer. For example, on a Mac,
+     open Finder and go to the directory that contains the video file.
+
+  #. In your browser, go to the edX/Veda video upload page at
+     http://veda.edx.org/upload/.
+
+  #. Enter a title for the video that includes the course number and name. For
+     example, ``edx101: Creating an edX Course``.
+
+     You can abbreviate the full name of the course. However, the information
+     that you enter should clearly identify your course.
+
+  #. Enter the Studio URL for the course. For example,
+     ``https://studio.edx.org/course/course-v1:edX+edX101x+2015``.
+
+  #. Select **Submit**.
+
+  #. Drag the video file from the local directory into the **Drop files here to
+     upload** field. You can also click inside this field to browse to the
+     file.
+
+     The file upload process begins immediately.
+
+     .. important:: Do not close the browser tab or window, or use it to go to
+      another URL while the file is uploading. When the upload process is
+      complete, the message "File Upload Complete" appears.
 
 .. _Set Course Effort Expectations:
 
@@ -267,3 +327,6 @@ Replace the placeholders in the following template with your information.
       </article>
     </section>
   </section>
+
+.. include:: ../../../links/links.rst
+

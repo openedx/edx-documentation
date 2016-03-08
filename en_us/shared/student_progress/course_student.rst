@@ -116,11 +116,15 @@ team member and the following columns.
    * - cohort
      - For courses that include learner cohorts, reports the cohort group that
        is assigned to each learner.
+   * - team
+     - For courses that include teams, reports the team name that the learner
+       belongs to. If a learner has not joined a team, this column is empty.
 
 .. note:: The columns for language and location that are included in this
  report are present for backward compatibility only. This data is no longer
  collected during account creation. Selections that learners make for language
  and country on the **Account Settings** page are not included on this report.
+
 
 .. _View and download student data:
 

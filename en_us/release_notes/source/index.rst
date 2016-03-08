@@ -1,3 +1,5 @@
+.. _document index:
+
 ####################################
 edX Release Notes
 ####################################
@@ -6,10 +8,6 @@ edX Release Notes
    :maxdepth: 2
 
    front_matter/index
-
-.. toctree::
-   :maxdepth: 2
-
    coming_soon.rst
 
 
@@ -35,15 +33,22 @@ By Date
 
    2016/index
 
-+++++++++++++++++
-2015 and earlier
-+++++++++++++++++
++++++++
+2015
++++++++
 
 .. toctree::
    :maxdepth: 1
 
    2015/index
-   2014/index
+
++++++++++++++++++++++
+2014 and earlier
++++++++++++++++++++++
+
+
+* :ref:`2014releasenotes:document index`
+
 
 .. _By Product:
 

@@ -927,12 +927,13 @@ Keep the following guidelines in mind when you create HTML content.
   document. Well-structured headings help learners and screen reader users to
   navigate a page and efficiently find what they are looking for.
 
-  In your :ref:`HTML components<Working with HTML Components>`, be sure to
-  apply only heading levels 3 through 6 to your content. Because HTML
-  components are part of a complete page, and heading levels 1 and 2 are in use
-  by other elements on the page, any text with a heading 1 or 2 style within an
-  HTML component can interfere with the functionality of tools such as screen
-  readers.
+  In your :ref:`HTML<Working with HTML Components>` and
+  :ref:`problem<Working with Problem Components>` components, be sure to apply
+  only heading levels 3 through 6 to your content. Because the components
+  that you add are part of a complete page, and heading levels 1 and 2 are
+  already in use by other elements on the page, any text with a heading 1
+  or 2 style within an HTML or problem component can interfere with the
+  functionality of tools such as screen readers.
 
 * Use HTML list elements to group related items and make content easier to skim
   and read. HTML offers three kinds of lists.

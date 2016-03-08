@@ -112,9 +112,10 @@ more likely to foster community feeling.
 
 If you use the automated assignment strategy, you create several "auto"
 (automated) cohorts. Learners are automatically and randomly assigned to one of
-the auto cohorts when they first view any course content, including the course
-**Discussion** page or content-specific discussion topics. In this way, each
-learner in your course is assigned to a cohort; no learner is unassigned.
+the auto cohorts when they first view any course content on the **Course** or
+**Discussion** page. In this way, each learner who engages with the course
+content or its discussion community is assigned to a cohort. No learner who
+particpates in these ways remains unassigned.
 
 The following guidelines are based on the experiences of MOOC teams that have
 used cohorts in this way. They are suggested to help you determine how many

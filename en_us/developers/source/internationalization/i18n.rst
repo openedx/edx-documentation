@@ -154,7 +154,7 @@ In Mako template files (`templates/*.html`), you can use all of the tools
 available to python programmers. Just make sure to import the relevant
 functions first. Here's a Mako template example::
 
-    <%! from util.markup import ugettext as _ %>
+    <%! from openedx.core.djangolib.markup import ugettext as _ %>
  
     ## Translators: message to the translator. This comment may
     ## wrap on to multiple lines if needed, as long as they are
@@ -171,7 +171,7 @@ tags in the translated string will show up as angle brackets (i.e. not an
 HTML tag). You can use string formatting to insert HTML into a translated 
 string.::
 
-    <%! from util.markup import HTML, ugettext as _ %>
+    <%! from openedx.core.djangolib.markup import HTML, ugettext as _ %>
 
     ${_("Click over to {link_start}the home page{link_end}.").format(
             link_start=HTML('<a href="/home">'),
@@ -229,7 +229,7 @@ JavaScript::
     message = gettext('Hey there!')
     # Interpolation has to be done in JavaScript, not Coffeescript:
     message = gettext("Error getting student progress url for '<%= student_id %>'.")
-    full_message = _.template(message, {student_id: unique_student_identifier})
+    full_message = _.escape(_.template(message, {student_id: unique_student_identifier}))
 
 But because we extract strings from the compiled .js files, there are some
 native Coffeescript features that break the extraction from the .js files:
@@ -398,8 +398,8 @@ Good::
     message = _("Welcome to the {platform_name} dashboard.").format(platform_name=settings.PLATFORM_NAME)
 
 
-Please note that you cannot concatenate within the gettext call at all. For example,
-this does not work:
+Please note that you cannot concatenate (+) within the gettext call at all. The
+following example does not work.
 
 Bad::
 
@@ -420,6 +420,15 @@ Good (Python only!)::
 However, in Javascript and other languages, the gettext call cannot be broken up over
 multiple lines. You will have to live with long lines on gettext calls, and we make a
 style exception for this.
+
+Bad::
+
+    message = gettext('Here is a really really long message that is' +
+        'incorrectly broken over two lines.')
+
+Good (JavaScript)::
+
+    message = gettext('Here is a really really long message that is correctly left on a single line.')
 
 Use named placeholders
 ======================
@@ -512,7 +521,7 @@ When translating strings in templated files, you have to be careful of nested
 syntax.  For example, consider this JavaScript fragment in a Mako template::
 
     <script>
-    var feeling = '${_("I love you.")';
+    var feeling = '${_("I love you.")}';
     </script>
 
 When rendered for a French speaker, it will produce this::

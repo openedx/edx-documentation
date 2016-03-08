@@ -94,6 +94,8 @@ D, E, F
      - :ref:`enrollment`
    * - ``edx.course.enrollment.upgrade.succeeded``
      - :ref:`enrollment`
+   * - ``edx.done.toggled``
+     - :ref:`Course Content Completion Events`
    * - ``edx.forum.comment.created``
      - :ref:`forum_events`
    * - ``edx.forum.response.created``
@@ -243,11 +245,15 @@ M, N, O
      - :ref:`ora2`
    * - ``openassessmentblock.get_peer_submission``
      - :ref:`ora2`
+   * - ``openassessmentblock.get_submission_for_staff_grading``
+     - :ref:`ora2`
    * - ``openassessmentblock.peer_assess``
      - :ref:`ora2`
    * - ``openassessmentblock.save_submission``
      - :ref:`ora2`
    * - ``openassessmentblock.self_assess``
+     - :ref:`ora2`
+   * - ``openassessmentblock.staff_assess``
      - :ref:`ora2`
    * - ``openassessmentblock.submit_feedback_on_assessments``
      - :ref:`ora2`
@@ -388,6 +394,12 @@ U, V, W, X, Y, Z
 
    * - Event
      - Description
+   * - ``ubc.peer_instruction.accessed``
+     - :ref:`Peer Instruction Events`
+   * - ``ubc.peer_instruction.original_submitted``
+     - :ref:`Peer Instruction Events`
+   * - ``ubc.peer_instruction.revised_submitted``
+     - :ref:`Peer Instruction Events`
    * - ``video_hide_cc_menu``
      - :ref:`video`
    * - ``video_show_cc_menu``

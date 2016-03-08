@@ -57,22 +57,17 @@ the following ways.
   problem indicate that the answer was correct. Specifically, the
   ``correctness`` field has a value of ``correct``.
 
-  For more information about events, see `Problem Check Event`_ in
-  the *EdX Research Guide*.
+  For more information about events, see :ref:`data:problem_check
+  (server)<problem>` in the *EdX Research Guide*.
 
 * The **AnswerValue** in the :ref:`Student_Answer_Distribution` report is
   **1**, for correct.
 
-* The edX Insights `student performance reports`_ count the answer as
-  correct.
+* The edX Insights :ref:`insights:student performance reports<Performance
+  Index>` count the answer as correct.
 
 Course teams can see that a learner received partial credit for a problem in
 the learner's submission history. The submission history shows the score that
 the learner received out of the total available score, and the value in the
 ``correctness`` field is ``partially-correct``.  For more information, see
 :ref:`Student_Answer_Submission`.
-
-
-.. _Problem Check Event: http://edx.readthedocs.org/projects/devdata/en/latest/internal_data_formats/tracking_logs.html#problem-check-server
-
-.. _student performance reports: http://edx.readthedocs.org/projects/edx-insights/en/latest/performance/index.html

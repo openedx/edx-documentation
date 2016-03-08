@@ -4,11 +4,16 @@
 Working with Video Components
 #############################
 
-This section describes how to work with videos for your course.
+This section describes how to include videos as part of the content of your
+course.
 
 .. contents::
  :local:
  :depth: 1
+
+You can also include an "about" video for your course. A course about video
+appears on learner dashboards to market your course. For more information, see
+:ref:`Add a Course Video`.
 
 ************************
 Overview
@@ -21,7 +26,7 @@ material, showing experiments, and reducing cognitive load for complex
 content.
 
 =====================
-When to use a Video
+When to Use a Video
 =====================
 
 Before creating video content, figure out whether video is the best medium by
@@ -258,9 +263,9 @@ course video, it might be the result of one of these browser-related problems.
   video elements`_.
 
 * Verify that file metadata, particularly the MIME type, is correctly set on
-  the host site. Internet Explorer 10 browsers do not play videos if the MIME
-  type is not set. For example, make sure that the HTTP header ``Content-Type``
-  is set to video/mp4 for an .mp4 file.
+  the host site. For example, when edX offered support for Internet Explorer 10
+  browsers, it was found that videos did not play if the MIME type was not set.
+  The HTTP header ``Content-Type`` had to be set to video/mp4 for an .mp4 file.
 
   As an example of how you might set metadata on a video backup site, the
   *Console User Guide* for the Amazon Simple Storage Service provides this
@@ -298,7 +303,7 @@ To add a video and its transcript to your course, follow these steps.
 
 3. In the **Component Display Name** field, enter an identifying name for this
    video. This name appears as a heading above the video and as a tooltip in
-   the learning sequence at the top of the **Courseware** page. It also
+   the learning sequence at the top of the **Course** page. It also
    identifies the video for you in Insights.
 
 #. In the **Default Video URL** field, enter the URL of the video. Example

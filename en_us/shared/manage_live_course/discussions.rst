@@ -253,14 +253,21 @@ You can designate a team of people to help you run course discussions. Team
 members who have a discussion administration role have additional options for
 working with posts, responses, and comments.
 
+
 .. important:: The course team members that you set up in Studio or on the
  Instructor Dashboard are not automatically granted discussion administration
  roles.
 
- Discussion administration roles must be explicitly granted to members of the
- course team for them to moderate or administer course discussions. The course
- author and team members with Admin access (Studio) or Instructors (LMS
- Instructor Dashboard) can grant discussion administration roles.
+
+.. note:: The members of the course team that you set up in Studio or on the
+   Instructor Dashboard in the LMS are not automatically granted discussion
+   administration roles.
+
+   Discussion administration roles must be explicitly granted to members of the
+   course team for them to be able to moderate or administer course discussions.
+   The course author and any team members who have the Admin role can grant
+   discussion administration roles.
+
 
 Different options for working with discussions are available through
 the following roles.
@@ -371,7 +378,7 @@ In contrast, :ref:`course-wide discussion topics<Create CourseWide Discussion
 Topics>` that you create on the **Advanced Settings** page in Studio,
 including the default "General" discussion topic, are immediately visible,
 regardless of whether the course has started. They are not associated with any
-particular section or subsection of the courseware, and are not subject to
+particular section or subsection of the course, and are not subject to
 release dates.
 
 
@@ -583,7 +590,7 @@ interactions to make their influence positive and their time productive.
   and use it to respond to the redundant threads.
 
 * Publicize issues raised in the discussions: add questions and their answers
-  to an FAQ topic, or announce them on the Course Info page.
+  to an FAQ topic, or announce them on the **Home** page.
 
 For a template that you can use to develop guidelines for your course
 moderators, see :ref:`Guidance for Discussion Moderators`.
@@ -745,7 +752,7 @@ course units and all of the course-wide topics are affected.
 
 .. note:: To make sure your learners understand why they cannot add to
   discussions, you can add the dates that discussions are closed to the
-  **Course Info** page and post them to a General discussion.
+  **Home** page and post them to a General discussion.
 
 .. _Start-End Date Format Specification:
 
