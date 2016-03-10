@@ -11,7 +11,7 @@ use their campus credentials to authenticate into edX Edge.
 
 These procedures require collaboration between members of the DevOps
 (development operations) or IT teams at your partner institution and the
-DevOps team at edX, facilitated by your edX Partner Manager.
+DevOps team at edX, facilitated by your edX partner manager.
 
 .. contents::
    :local:
