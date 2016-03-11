@@ -23,4 +23,3 @@ data if one of your usual processors is unavailable.
 .. Moved globalization.rst to desktop/Works In Progress folder, pending
 .. possible move to ICRV.
 
-.. Moved coupons.rst to desktop/WIP folder.
