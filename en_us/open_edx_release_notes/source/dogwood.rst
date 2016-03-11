@@ -187,8 +187,8 @@ Otto Ecommerce Service
 Open edX installations can now add an ecommerce service. `Otto`_ is an extended
 Django application that manages and handles orders for product catalogs.
 
-Documentation about how to install and set up Otto, configure partners and
-sites, add assets, and fulfill orders will be available shortly.
+For more information about how to install and set up Otto, configure partners
+and sites, add assets, and fulfill orders, see .
 
 =========================================
 TPA Sign In Without Account Activation
