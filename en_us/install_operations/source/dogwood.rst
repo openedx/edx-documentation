@@ -19,14 +19,14 @@ teams, and developers. See the release notes for the
 :ref:`openreleasenotes:Open edX Dogwood Release` for more details.
 
 ******************************
-What is the Dogwood Git Tag?
+What Is the Dogwood Git Tag?
 ******************************
 
-The Git tag for the Dogwood release is ``named-release/dogwood``. You use
-this tag to identify the version of Open edX code that is the Dogwood release.
+A Git tag identifies the version of Open edX code that is the Dogwood release.
+You can find the most up-to-date Git tag for the current Open edX release on
+the `Open edX Releases Wiki page`_.
 
-The following Open edX Git repositories have the Git tag
-``named-release/dogwood``.
+The following Open edX Git repositories have the Dogwood Git tag.
 
 * edx-platform
 * configuration
@@ -62,7 +62,7 @@ For new installations, follow these steps.
 #. `Download the Vagrant Box`_ or `Download the BitTorrent File`_.
 
    .. caution::
-     The Vagrant boxes have a large file size (between 4 and 5 Gb). If you have
+     The Vagrant boxes have a large file size (between 4 and 5 GB). If you have
      a slow or unreliable Internet connection, use BitTorrent to download the
      Vagrant box you need.
 
@@ -79,10 +79,11 @@ Vagrant box directly or by running ``vagrant up`` when you install
 :ref:`Devstack <Installing the Open edX Developer Stack>` or
 :ref:`Fullstack <Installing Open edX Fullstack>`.
 
-See the `Open edX Releases Wiki page`_ to access the latest Vagrant
-boxes.
+To access the latest Vagrant boxes, see the `Open edX Releases Wiki
+page`_.
 
-See `Vagrant's documentation on boxes`_ for more information.
+For more information about working with vagrant boxes, see `Vagrant's
+documentation on boxes`_.
 
 =============================
 Download the BitTorrent File
@@ -95,26 +96,28 @@ connection is temporarily lost while you are downloading the Vagrant box
 through BitTorrent, you can later continue the download without data loss or
 corruption.
 
-See the `Open edX Releases Wiki page`_ to access the latest Vagrant
-boxes.
+To access the latest Vagrant box torrents, see the `Open edX Releases Wiki
+page`_.
 
-See `BitTorrent`_ for more information.
+For more information about downloading BitTorrent files, see `BitTorrent`_.
 
 If you download the Vagrant box through BitTorrent, you must add the box to
 Vagrant before continuing with the installation process.
 
-* For devstack installations, run the following command.
+Be sure to verify that you have the most up-to-date Git tag for the Open edX
+releases on the `Open edX Releases Wiki page`_.
+
+* For Devstack installations, run the following command.
 
    .. code-block:: bash
 
-     $ vagrant box add /{path-to-downloaded-box}/{name-of-vagrant-box} --name dogwood-devstack
+     $ vagrant box add /{path-to-downloaded-box}/{vagrant-box-name} --name {Git-tag}
 
-
-* For fullstack installations, run the following command.
+* For Fullstack installations, run the following command.
 
    .. code-block:: bash
 
-     $ vagrant box add /{path-to-downloaded-box}/{name-of-vagrant-box} --name dogwood-fullstack
+     $ vagrant box add /{path-to-downloaded-box}/{vagrant-box-name} --name {Git-tag}
 
 ============================================
 Set the OPENEDX_RELEASE Environment Variable
@@ -126,7 +129,7 @@ release. To do so, use the Linux ``export`` command.
 
 .. code-block:: bash
 
-  export OPENEDX_RELEASE="named-release/dogwood"
+  export OPENEDX_RELEASE="{Git tag}"
 
 =========================
 Install the Vagrant Box
@@ -142,15 +145,14 @@ Upgrading from Cypress to Dogwood
 
 You can upgrade an Open edX instance that is running the Cypress release to the
 Dogwood release.  EdX provides the ``migrate.sh`` script if you have a simple
-Cypress installation and want to upgrade it automatically.   If you have a more
+Cypress installation and want to upgrade it automatically. If you have a more
 complex or customized installation, you may need to upgrade manually.
 
 ===================
 Automatic Upgrading
 ===================
 
-The ``migrate.sh`` script is in the configuration repository, `available here
-<https://github.com/edx/configuration/blob/master/util/vagrant/migrate.sh>`_.
+`The migrate.sh script`_ is in the edX configuration repository on GitHub.
 
 .. note::
   The upgrade scripts provided are verified only for upgrading instances
@@ -163,22 +165,23 @@ The ``migrate.sh`` script is in the configuration repository, `available here
   backup files.
 
 On the computer or virtual machine that is running the Cypress release of Open
-edX, run the upgrade script for your type of installation:
+edX, run the upgrade script for your type of installation.
 
-* For devstack, run ``./migrate.sh -c devstack -t named-release/dogwood``.
+* For Devstack, run ``./migrate.sh -c devstack -t {Git tag}``.
 
-* For fullstack, run
-  ``./migrate.sh -c fullstack -t named-release/dogwood``.
+* For Fullstack, run ``./migrate.sh -c fullstack -t {Git tag}``.
 
-* You can also run ``./migrate.sh -h`` to see which other options the script
-  accepts.
+You can find the most up-to-date Git tag for the current Open edX release on
+the `Open edX Releases Wiki page`_.
+
+You can also run ``./migrate.sh -h`` to see which other options the script
+accepts.
 
 The script creates a temporary directory in which it upgrades Open edX, then
 cleans up extra files and directories when it finishes running.
 
 After upgrading Open edX to the Dogwood release, start the LMS and Studio and
 verify that course content and data was migrated correctly.
-
 
 ========================
 Upgrade Process Overview
@@ -193,11 +196,11 @@ Upgrading Cypress to Dogwood is more involved than most Open edX release
 upgrades.
 
 * Dogwood upgrades the Django framework from version 1.4 to 1.8, which changed
-  the database migration tool from South to Django.  When upgrading from
-  Cypress to Dogwood, it's important to take special care with the database
+  the database migration tool from South to Django. When you upgrade from
+  Cypress to Dogwood, it is important to take special care with the database
   migrations.
 
-* Dogwood upgrades Python from 2.7.3 to 2.7.10.  This means virtualenvs have to
+* Dogwood upgrades Python from 2.7.3 to 2.7.10. This means virtualenvs have to
   be recreated.
 
 The upgrade from Cypress to Dogwood includes these steps.
@@ -210,15 +213,16 @@ The upgrade from Cypress to Dogwood includes these steps.
 
 #. Recreates the virtualenvs to use Python 2.7.10 instead of 2.7.3.
 
-#. Migrates the database.  This makes the database current with the last 1.4
+#. Migrates the database. This makes the database current with the last 1.4
    code.
 
-#. Uninstalls South so that it won't interfere with the new Django migrations.
+#. Uninstalls South so that it does not interfere with the new Django
+   migrations.
 
-#. Updates edx-platform to the ``dogwood-first-18`` tag.  This is the first
+#. Updates edx-platform to the ``dogwood-first-18`` tag. This is the first
    version of the code that used Django 1.8.
 
-#. Applies all the initial Django migrations.  This gets your database ready to
+#. Applies all the initial Django migrations. This gets your database ready to
    use the new Django 1.8 migration mechanism.
 
 #. Updates edx-platform to Dogwood.
@@ -228,8 +232,8 @@ The upgrade from Cypress to Dogwood includes these steps.
 #. Runs two management commands to update records in the database:
    ``generate_course_overview`` and ``post_cohort_membership_fix``.
 
-#. Runs the forum migration again. This is to process any discussion topics
-   that may have been created during the running of the script.
+#. Runs the forum migration again. This step processes any discussion topics
+   created during the running of the script.
 
 Similar steps are followed to upgrade other repositories such as xqueue.
 

@@ -122,6 +122,8 @@
 
 .. _edx configuration repository wiki: https://github.com/edx/configuration/wiki
 
+.. _The migrate.sh script: https://github.com/edx/configuration/blob/master/util/vagrant/migrate.sh
+
 .. _Devstack wiki: https://github.com/edx/configuration/wiki/edX-Developer-Stack
 
 .. _Developing on Devstack: https://github.com/edx/edx-platform/wiki/Developing-on-the-edX-Developer-Stack
