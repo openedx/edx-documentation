@@ -1,12 +1,14 @@
 .. _coding_conventions:
 
-###########################
-Coding Conventions
-###########################
+##################
+Writing Good Code
+##################
 
 .. toctree::
     :maxdepth: 2
 
     accessibility
+    internationalization/index
+    safe_templates
     django
 
