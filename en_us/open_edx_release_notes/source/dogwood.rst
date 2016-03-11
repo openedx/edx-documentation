@@ -175,8 +175,10 @@ the *Building and Running an Open edX Course* guide.
 
 .. note::
    Another special exam feature, proctoring, is available for courses on the
-   edx.org website. The proctoring feature is not supported for Open edX
-   installations at this time.
+   edx.org website. The proctoring feature can be enabled in Open edX, but it
+   is not supported for the Dogwood release. This feature requires additional
+   configuration and the services of a third-party proctoring vendor such as
+   Software Secure to be used effectively.
 
 .. _Otto Ecommerce Service:
 
