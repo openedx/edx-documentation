@@ -200,6 +200,8 @@ columns that provide the following information.
   in the verified or professional tracks. The value in this column indicates
   whether the verified or professional education learner has verified her
   identity to edX by using a webcam to submit her photo and an official ID.
+  The value is "N/A" for learners who are not in the verified or professional
+  tracks.
 
 * The **Certificate Eligible** column indicates whether a learner is eligible
   for a certificate for your course. The value in this column is "Y" for
