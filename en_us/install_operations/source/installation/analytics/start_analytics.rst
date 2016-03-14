@@ -1,7 +1,7 @@
 .. _Starting the Open edX Analytics Developer Stack:
 
 #################################################
-Starting the Open edX Analytics Developer Stack
+Starting Open edX Analytics Devstack
 #################################################
 
 This section describes how to start the Open edX Analytics developer
@@ -12,7 +12,7 @@ stack (analytics devstack).
    :depth: 1
 
 ****************************
-Start the Open edX LMS
+Starting the Open edX LMS
 ****************************
 
 #. Log in to analytics devstack.
@@ -33,9 +33,9 @@ Start the Open edX LMS
 
      $ paver devstack lms
 
-***************************************
-Start the Open edX Analytics Data API
-***************************************
+****************************************
+Starting the Open edX Analytics Data API
+****************************************
 
 #. Log in to analytics devstack.
 
@@ -55,9 +55,9 @@ Start the Open edX Analytics Data API
 
      $ ~/venvs/analytics_api/bin/python ~/analytics_api/manage.py runserver 0.0.0.0:8100 --insecure
 
-************************
-Start Open edX Insights
-************************
+**************************
+Starting Open edX Insights
+**************************
 
 #. Log in to analytics devstack.
 
@@ -90,7 +90,7 @@ Start Open edX Insights
      ``localhost``. Using ``localhost`` will prevent you from logging in.
 
 ************************************************
-Start the Open edX Analytics Pipeline
+Starting the Open edX Analytics Pipeline
 ************************************************
 
 #. In the Devstack LMS, register a new user and enroll in the demo course.

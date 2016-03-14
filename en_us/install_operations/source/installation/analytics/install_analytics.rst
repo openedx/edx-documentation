@@ -1,7 +1,7 @@
 .. _Installing the Open edX Analytics Developer Stack:
 
 #################################################
-Installing the Open edX Analytics Developer Stack
+Installing Open edX Analytics Devstack
 #################################################
 
 This section describes how to install and run the Open edX Analytics developer
@@ -16,9 +16,9 @@ stack.
    :depth: 1
 
 
-***********************************
-Install the Software Prerequisites
-***********************************
+*************************************
+Installing the Software Prerequisites
+*************************************
 
 In addition to the :ref:`software prerequisites<Software Prerequisites>` that
 fullstack and devstack require, for analytics devstack, you must install a
@@ -48,7 +48,7 @@ using the ``remote-task`` tool.
 .. _Install the Analytics Devstack:
 
 ******************************
-Install Analytics Devstack
+Installing Analytics Devstack
 ******************************
 
 To install analytics devstack extensions directly from the command line,

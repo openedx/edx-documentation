@@ -32,7 +32,7 @@ devstack**).
 .. _Info Devstack:
 
 ==============================
-Open edX Developer Stack
+Open edX Devstack
 ==============================
 
 Devstack is a Vagrant instance designed for local development. Devstack has
@@ -89,7 +89,7 @@ optionsfrom edX and the Open edX community, see the
 .. _Info Analytics Devstack:
 
 ========================================
-Open edX Analytics Developer Stack
+Open edX Analytics Devstack
 ========================================
 
 Some users might want to develop Analytics features on their instance of the

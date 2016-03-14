@@ -1,11 +1,11 @@
 .. _Starting the Open edX Developer Stack:
 
 #######################################
-Starting the Open edX Developer Stack
+Starting Open edX Devstack
 #######################################
 
 This section describes how to start the components in the Open edX developer
-stack. To do this, you must connect to the devstack virtual machine, and then
+stack (devstack). To do this, you must connect to the devstack virtual machine, and then
 start each component.
 
 .. contents::
@@ -15,7 +15,7 @@ start each component.
 .. _Connect to Devstack VM:
 
 ********************************************
-Connect to the Devstack Virtual Machine
+Connecting to the Devstack Virtual Machine
 ********************************************
 
 #. To connect to the devstack virtual machine, use the following SSH command
@@ -39,15 +39,15 @@ Connect to the Devstack Virtual Machine
    repository (``/edx/app/edxapp/edx-platform``).
 
 ***********************
-Start the Component
+Starting the Components
 ***********************
 
 After you connect to the devstack virtual machine as the **edxapp** user, you
 can start the individual components.
 
-===============
-Start the LMS
-===============
+================
+Starting the LMS
+================
 
 When you run the LMS on devstack, the command updates requirements and
 compiles assets, unless you use the ``fast`` option.
@@ -79,7 +79,7 @@ To run the LMS on devstack, follow these steps.
    Vagrant forwards port 8000 to the LMS server running in the virtual machine.
 
 ===============
-Start Studio
+Starting Studio
 ===============
 
 When you run Studio on devstack, the command updates requirements and compiles
@@ -113,7 +113,7 @@ To run Studio on devstack, follow these steps.
    machine.
 
 
-View Available Studio Commands
+Viewing Available Studio Commands
 ************************************
 
 
@@ -124,7 +124,7 @@ To view all available commands for Studio, enter the following command.
   ./manage.py cms -h --settings=devstack
 
 =================================
-Start Course Discussions
+Starting Course Discussions
 =================================
 
 To run course discussions on devstack, follow these steps.

@@ -19,8 +19,8 @@ from within edX Platform applications. Searching is accomplished by creating an
 index of documents, and then searching within that index for matching
 information.
 
-When you install the Open edX developer stack, edX search is enabled by
-default. You must enable this feature to use it with Open edX full stack.
+When you install the Open edX devstack, edX search is enabled by
+default. You must enable this feature to use it with Open edX fullstack.
 
 .. Note::
   Before proceeding, review :ref:`Guidelines for Updating the Open edX

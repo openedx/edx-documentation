@@ -17,7 +17,7 @@ This section describes how to install the Open edX full stack (fullstack).
 .. _Install Open edX Fullstack:
 
 *********************************
-Install Open edX Fullstack
+Installing Open edX Fullstack
 *********************************
 
 To install fullstack directly from the command line, follow these steps.
@@ -61,7 +61,7 @@ allow users to access code directories directly from your computer.
 #. When prompted, enter the administrator password for your local computer.
 
 *****************************************
-Start Open edX Fullstack in a Browser
+Starting Open edX Fullstack in a Browser
 *****************************************
 
 In your browser, go to ``preview.localhost``, which is an alias entry for
