@@ -108,7 +108,7 @@ See `BitTorrent`_ for more information.
 If you download the Vagrant box through BitTorrent, you must add the box to
 Vagrant before continuing with the installation process.
 
-* For Devstack installations, run the following command.
+* For devstack installations, run the following command.
 
    .. code-block:: bash
 
@@ -116,7 +116,7 @@ Vagrant before continuing with the installation process.
        cypress-devstack
 
 
-* For Fullstack installations, run the following command.
+* For fullstack installations, run the following command.
 
    .. code-block:: bash
 
@@ -165,9 +165,9 @@ repository, `available here
 On the computer or virtual machine that is running the Birch release of Open
 edX, run the upgrade script for your type of installation:
 
-* For Devstack, run ``./migrate.sh -c devstack``.
+* For devstack, run ``./migrate.sh -c devstack``.
 
-* For Fullstack, run ``./migrate.sh -c fullstack``.
+* For fullstack, run ``./migrate.sh -c fullstack``.
 
 * You can also run ``./migrate.sh -h`` to see which other options the script
   accepts.

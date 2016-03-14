@@ -15,9 +15,9 @@ each option includes.
 Platform Options
 ********************
 
-You can install the Open edX full stack (**Fullstack**), the Open edX developer
-stack (**Devstack**), or the Open edX Analytics developer stack (**Analytics
-Devstack**).
+You can install the Open edX developer stack (**devstack**), the Open edX full
+stack (**fullstack**), or the Open edX analytics developer stack (**analytics
+devstack**).
 
 * Devstack is a Vagrant instance designed for local development. For more
   information, see :ref:`Info Devstack`.
@@ -25,8 +25,8 @@ Devstack**).
 * Fullstack is a Vagrant instance designed for deploying all edX services on a
   single server. For more information, see :ref:`Info Fullstack`.
 
-* The Analytics Devstack is a modified version of the Open edX developer stack
-  (Devstack) that allows you to run edX Analytics. For more information, see
+* Analytics devstack is a modified version of the Open edX developer stack
+  (devstack) that allows you to run edX Analytics. For more information, see
   :ref:`Info Analytics Devstack`.
 
 .. _Info Devstack:
@@ -41,14 +41,14 @@ Fullstack>`. This allows you to discover and fix system configuration issues
 early in development.
 
 Devstack simplifies certain production settings to make development more
-convenient. For example, `nginx`_ and `gunicorn`_ are disabled in Devstack;
-Devstack uses Django's runserver instead.
+convenient. For example, `nginx`_ and `gunicorn`_ are disabled in devstack;
+devstack uses Django's runserver instead.
 
 Devstack is in the `edx configuration repository`_ on GitHub.
 
-For information about Devstack and other installation and configuration options
+For information about devstack and other installation and configuration options
 from edX and the Open edX community, see the `edx configuration repository
-wiki`_. Specifically, the following pages have more information about Devstack.
+wiki`_. Specifically, the following pages have more information about devstack.
 
 * `Devstack wiki`_
 * `Developing on Devstack`_
@@ -70,7 +70,7 @@ Open edX Fullstack
 Fullstack is a Vagrant instance designed for deploying all edX services on a
 single server. Fullstack is in the `edx configuration repository`_ on GitHub.
 
-For information about Fullstack and other installation and configuration
+For information about fullstack and other installation and configuration
 options from edX and the Open edX community, see the
 `edx configuration repository wiki`_.
 
@@ -79,7 +79,7 @@ For more information about Vagrant, see the `Vagrant documentation`_.
 Ubuntu 12.04 64
 *********************
 
-You can install Fullstack on a single Ubuntu 12.04 64-bit server. More Ubuntu
+You can install fullstack on a single Ubuntu 12.04 64-bit server. More Ubuntu
 information is planned for future versions of this guide.
 
 For information about Ubuntu and other installation and configuration
@@ -95,11 +95,11 @@ Open edX Analytics Developer Stack
 Some users might want to develop Analytics features on their instance of the
 Open edX platform. Because of the large number of dependencies needed to
 develop extensions to Analytics, edX has created a separate developer stack,
-known as the Analytics Devstack. We strongly recommend that you install the
+known as analytics devstack. We strongly recommend that you install the
 Analytics Devstack instead of adding Analytics extensions to an instance of
-Devstack.
+devstack.
 
-Analytics Devstack is a modified version of the :ref:`Open edX developer
+Analytics devstack is a modified version of the :ref:`Open edX developer
 stack<Info Devstack>`. This development environment provides all of the
 services and tools needed to modify the Open edX Analytics Pipeline, Data API,
 and Insights projects.
@@ -108,7 +108,7 @@ and Insights projects.
 Components
 ********************
 
-Fullstack, Devstack, and the Analytics Devstack all include the following edX
+Fullstack, devstack, and analytics devstack all include the following edX
 components.
 
 * The Learning Management System (LMS).
@@ -128,7 +128,7 @@ Fullstack also includes the following edX components.
   service.
 * `Ease`_, a library for the classification of textual content.
 
-Analytics Devstack also includes the following edX components.
+Analytics devstack also includes the following edX components.
 
 * edX Analytics Data API.
 * edX Insights.
@@ -142,7 +142,7 @@ Analytics Devstack also includes the following edX components.
 Default Accounts
 =========================
 
-When you install Fullstack, Devstack, or the Analytics Devstack, the following
+When you install devstack, fullstack, or analytics devstack, the following
 user accounts are created by default.
 
   .. list-table::

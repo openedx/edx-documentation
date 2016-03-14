@@ -5,7 +5,7 @@ Starting the Open edX Analytics Developer Stack
 #################################################
 
 This section describes how to start the Open edX Analytics developer
-stack (Analytics Devstack).
+stack (analytics devstack).
 
 .. contents::
    :local:
@@ -16,7 +16,7 @@ stack (Analytics Devstack).
 Start the Open edX LMS
 ****************************
 
-#. Log in to the Analytics Devstack.
+#. Log in to analytics devstack.
 
    .. code-block:: bash
 
@@ -38,7 +38,7 @@ Start the Open edX LMS
 Start the Open edX Analytics Data API
 ***************************************
 
-#. Log in to the Analytics Devstack.
+#. Log in to analytics devstack.
 
    .. code-block:: bash
 
@@ -60,7 +60,7 @@ Start the Open edX Analytics Data API
 Start Open edX Insights
 ************************
 
-#. Log in to the Analytics Devstack.
+#. Log in to analytics devstack.
 
    .. code-block:: bash
 

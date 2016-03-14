@@ -8,7 +8,7 @@ This section describes how to install and run the Open edX Analytics developer
 stack.
 
 .. note::
- Before you install the Analytics developer stack, make sure that you have met
+ Before you install analytics developer stack, make sure that you have met
  the :ref:`installation prerequisites<Installation Prerequisites>`.
 
 .. contents::
@@ -21,7 +21,7 @@ Install the Software Prerequisites
 ***********************************
 
 In addition to the :ref:`software prerequisites<Software Prerequisites>` that
-Fullstack and Devstack require, for the Analytics Devstack, you must install a
+fullstack and devstack require, for analytics devstack, you must install a
 tool that the Open edX Analytics Pipeline uses to deploy itself. To install
 this tool, follow these steps.
 
@@ -41,17 +41,17 @@ this tool, follow these steps.
       $ source venv/bin/activate
       $ make bootstrap
 
-The system is now ready to start running tasks on the Analytics Devstack
+The system is now ready to start running tasks on analytics devstack
 using the ``remote-task`` tool.
 
 
 .. _Install the Analytics Devstack:
 
 ******************************
-Install the Analytics Devstack
+Install Analytics Devstack
 ******************************
 
-To install the Analytics Devstack extensions directly from the command line,
+To install analytics devstack extensions directly from the command line,
 follow these steps.
 
 #. Create the ``analyticstack`` directory and navigate to it in the command
@@ -62,13 +62,13 @@ follow these steps.
      $ mkdir analyticstack
      $ cd analyticstack
 
-#. Download the Analytics Devstack Vagrant file.
+#. Download the analytics devstack Vagrant file.
 
    .. code-block:: bash
 
      $ curl -L https://raw.github.com/edx/configuration/master/vagrant/release/analyticstack/Vagrantfile > Vagrantfile
 
-#. Create the Analytics Devstack virtual machine.
+#. Create the analytics devstack virtual machine.
 
    .. code-block:: bash
 

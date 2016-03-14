@@ -5,7 +5,7 @@ Starting the Open edX Developer Stack
 #######################################
 
 This section describes how to start the components in the Open edX developer
-stack. To do this, you must connect to the Devstack virtual machine, and then
+stack. To do this, you must connect to the devstack virtual machine, and then
 start each component.
 
 .. contents::
@@ -18,7 +18,7 @@ start each component.
 Connect to the Devstack Virtual Machine
 ********************************************
 
-#. To connect to the Devstack virtual machine, use the following SSH command
+#. To connect to the devstack virtual machine, use the following SSH command
    from the ``devstack`` directory.
 
    .. code-block:: bash
@@ -42,20 +42,20 @@ Connect to the Devstack Virtual Machine
 Start the Component
 ***********************
 
-After you connect to the Devstack virtual machine as the **edxapp** user, you
+After you connect to the devstack virtual machine as the **edxapp** user, you
 can start the individual components.
 
 ===============
 Start the LMS
 ===============
 
-When you run the LMS on Devstack, the command updates requirements and
+When you run the LMS on devstack, the command updates requirements and
 compiles assets, unless you use the ``fast`` option.
 
 The command uses the file ``lms/envs/devstack.py``. This file
 overrides production settings for the LMS.
 
-To run the LMS on Devstack, follow these steps.
+To run the LMS on devstack, follow these steps.
 
 #. :ref:`Connect to the Devstack virtual machine<Connect to Devstack VM>`.
 
@@ -82,13 +82,13 @@ To run the LMS on Devstack, follow these steps.
 Start Studio
 ===============
 
-When you run Studio on Devstack, the command updates requirements and compiles
+When you run Studio on devstack, the command updates requirements and compiles
 assets, unless you use the ``fast`` option.
 
-You run Studio on Devstack with the file ``cms/envs/devstack.py``. This file
+You run Studio on devstack with the file ``cms/envs/devstack.py``. This file
 overrides production settings for Studio.
 
-To run Studio on Devstack, follow these steps.
+To run Studio on devstack, follow these steps.
 
 #. :ref:`Connect to the Devstack virtual machine<Connect to Devstack VM>`.
 
@@ -127,7 +127,7 @@ To view all available commands for Studio, enter the following command.
 Start Course Discussions
 =================================
 
-To run course discussions on Devstack, follow these steps.
+To run course discussions on devstack, follow these steps.
 
 #. :ref:`Connect to the Devstack virtual machine<Connect to Devstack VM>`.
 

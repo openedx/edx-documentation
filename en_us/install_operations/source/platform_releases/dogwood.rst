@@ -103,14 +103,14 @@ See `BitTorrent`_ for more information.
 If you download the Vagrant box through BitTorrent, you must add the box to
 Vagrant before continuing with the installation process.
 
-* For Devstack installations, run the following command.
+* For devstack installations, run the following command.
 
    .. code-block:: bash
 
      $ vagrant box add /{path-to-downloaded-box}/{name-of-vagrant-box} --name dogwood-devstack
 
 
-* For Fullstack installations, run the following command.
+* For fullstack installations, run the following command.
 
    .. code-block:: bash
 
@@ -165,9 +165,9 @@ The ``migrate.sh`` script is in the configuration repository, `available here
 On the computer or virtual machine that is running the Cypress release of Open
 edX, run the upgrade script for your type of installation:
 
-* For Devstack, run ``./migrate.sh -c devstack -t named-release/dogwood``.
+* For devstack, run ``./migrate.sh -c devstack -t named-release/dogwood``.
 
-* For Fullstack, run
+* For fullstack, run
   ``./migrate.sh -c fullstack -t named-release/dogwood``.
 
 * You can also run ``./migrate.sh -h`` to see which other options the script

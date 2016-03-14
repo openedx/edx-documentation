@@ -15,3 +15,5 @@ latest version of the Open edX platform.
    devstack/index
    fullstack/install_fullstack
    analytics/index
+   configuration
+   troubleshooting

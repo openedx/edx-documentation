@@ -4,14 +4,14 @@
 Installing and Starting Open edX Fullstack
 ##############################################
 
-This section describes how to install the Open edX full stack (Fullstack).
+This section describes how to install the Open edX full stack (fullstack).
 
 .. contents::
    :local:
    :depth: 1
 
 .. note::
- Before you install Open edX Fullstack, make sure that you have met
+ Before you install Open edX fullstack, make sure that you have met
  the :ref:`installation prerequisites<Installation Prerequisites>`.
 
 .. _Install Open edX Fullstack:
@@ -20,7 +20,7 @@ This section describes how to install the Open edX full stack (Fullstack).
 Install Open edX Fullstack
 *********************************
 
-To install Fullstack directly from the command line, follow these steps.
+To install fullstack directly from the command line, follow these steps.
 
 Before beginning the installation, ensure that you have your local computer's
 administrator's password. The password is needed so that NFS can be set up to
@@ -47,13 +47,13 @@ allow users to access code directories directly from your computer.
 
      vagrant plugin install vagrant-hostsupdater
 
-#. Create the Fullstack virtual machine.
+#. Create the fullstack virtual machine.
 
    .. code-block:: bash
 
      vagrant up
 
-   The first time you create the Fullstack virtual machine, Vagrant downloads
+   The first time you create the fullstack virtual machine, Vagrant downloads
    the base box, which has a file size of about 4GB. If you destroy and
    recreate the virtual machine, Vagrant re-uses the box it downloaded. See
    `Vagrant's documentation on boxes`_ for more information.
