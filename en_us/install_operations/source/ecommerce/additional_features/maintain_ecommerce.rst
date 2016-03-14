@@ -5,11 +5,12 @@ Maintaining the E-Commerce Service
 ####################################
 
 Most of the time, you do not have to perform maintenance on the E-Commerce
-service. However, E-Commerce creates **basket** objects to track products that users want to purchase before users place an order. As
-more baskets and orders are created, the baskets table can grow large.
-Depending on your database backend, a large table can become difficult to
-manage and migrate. After an order is placed, you can delete the corresponding
-basket from the baskets table.
+service. However, E-Commerce creates **basket** objects to track products that
+users want to purchase before users place an order. As more baskets and orders
+are created, the baskets table can grow large. Depending on your database
+backend, a large table can become difficult to manage and migrate. After an
+order is placed, you can delete the corresponding basket from the baskets
+table.
 
 To delete one or more baskets, follow these steps.
 
