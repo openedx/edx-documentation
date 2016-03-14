@@ -4,7 +4,9 @@
 Virtual Machine Installation Options
 ****************************************
 
-When you install devstack, fullstack, or the analytics devstack you can customize the environment. This section provides information about configuration options for edX virtual machines.
+When you install devstack, fullstack, or analytics devstack you can customize
+the environment. This section provides information about configuration options
+for edX virtual machines.
 
 ================================================
 Set Up Ability to Preview Units (Mac/Linux Only)
