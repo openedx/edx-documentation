@@ -487,6 +487,24 @@ sent to your email account.
 Changes listed for 16 December 2015 and before are included in the Dogwood
 release of Open edX.
 
+**************
+Patch Releases
+**************
+
+.. list-table::
+   :widths: 30 70
+   :header-rows: 1
+
+   * - Date
+     - Change
+   * - 9 March 2016
+     - An update to the release packaging was made.
+   * -
+     - The help links in Studio now open topics in the correct version of the
+       *Building and Running an Open edX Course* guide.
+
+
+
 
 .. include:: links.rst
 .. include:: ../../links/links.rst

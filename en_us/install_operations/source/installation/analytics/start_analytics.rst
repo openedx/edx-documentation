@@ -11,7 +11,6 @@ stack (analytics devstack).
    :local:
    :depth: 1
 
-
 ****************************
 Start the Open edX LMS
 ****************************

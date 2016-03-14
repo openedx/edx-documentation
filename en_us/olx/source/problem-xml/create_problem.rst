@@ -112,9 +112,10 @@ All problems on the edX platform have several component parts.
 There are also some attributes of problems that are not immediately
 visible. You can set these attributes in Studio.
 
-*  **Randomization.** For some problems, you can specify
-   whether a problem will use randomly generated numbers that vary from
-   learner to learner.
+*  **Randomization.** In certain types of problems, you can include a Python
+   script to randomize the values that are presented to learners. You use this
+   setting to define when values are randomized. For more information, see
+   :ref:`Randomization`.
 
 *  **Weight.** Different problems in a particular problem set can be
    given different weights.
@@ -262,50 +263,75 @@ answers, the learner's score is 0.5 out of 2 points.
 Randomization
 ===============
 
-This setting specifies whether certain values in your problem change each time
-a different learner accesses the problem, or each time a single learner tries
-to answer the problem. For example, the highlighted values in the problem below
-change each time a learner submits an answer to the problem.
+.. note:: The **Randomization** setting serves a different purpose from
+ "problem randomization". The **Randomization** setting affects how numeric
+ values are randomized within a single problem and requires the inclusion of a
+ Python script. Problem randomization offers different problems or problem
+ versions to different learners. For more information, see :ref:`Problem
+ Randomization`.
+
+For problems that include a Python script to generate numbers randomly, this
+setting specifies how frequently the values in the problem change: each time a
+different learner accesses the problem, each time a single learner tries to
+answer the problem, both, or never.
+
+.. note:: This setting should only be set to an option other than **Never**
+ for problems that are configured to do random number generation.
+
+For example, in this problem, the highlighted values change each time a learner
+submits an answer to the problem.
 
 .. image:: ../../../shared/images/Rerandomize.png
- :alt: The same problem shown twice, with color highlighting on values that
-       can change
+ :alt: An image of the same problem shown twice, with color highlighting on
+   values that change.
+ :width: 800
 
-If you want to change, or "randomize," specific values in your problem, you
-have to complete both of the following settings.
+If you want to randomize numeric values in a problem, you complete both of
+these steps.
 
-* Make sure that your problem contains a Python script that randomizes the
-  values that you want.
+* Make sure that you edit your problem to include a Python script that randomly
+  generates numbers.
 
-* Enable randomization in the Problem component.
+* Select an option other than **Never** for the **Randomization** setting.
 
-.. note:: Note that specifying this **Randomization** setting is different
- from *problem randomization*. The **Randomization** setting randomizes
- variables within a single problem. Problem randomization offers different
- problems or problem versions to different learners. For more information, see
- :ref:`Problem Randomization`.
+..  For more information, see :ref:`Use Randomization in a Numerical Input Problem`.
+..  ^^ add back to first bullet when DOC-2175 gets done - Alison 30 Jul 15
 
-To enable randomization, select an option for the **Randomization** setting.
-This setting has the following options.
+The edX Platform has a 20-seed maximum for randomization. This means that
+learners see up to 20 different problem variants for every problem that has
+**Randomization** set to an option other than **Never**. It also means that
+every answer for the 20 different variants is reported by the Answer
+Distribution report and edX Insights. Limiting the number of variants to a
+maximum of 20 allows for better analysis of learner submissions by allowing you
+to detect common incorrect answers and usage patterns for such answers.
 
-+-------------------+--------------------------------------+
-| **Always**        | Learners see a different version of  |
-|                   | the problem each time they select    |
-|                   | **Check**.                           |
-+-------------------+--------------------------------------+
-| **On Reset**      | Learners see a different version of  |
-|                   | the problem each time they select    |
-|                   | **Reset**.                           |
-+-------------------+--------------------------------------+
-| **Never**         | All learners see the same version    |
-|                   | of the problem. This is the default. |
-+-------------------+--------------------------------------+
-| **Per Student**   | Individual learners see the same     |
-|                   | version of the problem each time     |
-|                   | they look at it, but that version    |
-|                   | is different from the version that   |
-|                   | other learners see.                  |
-+-------------------+--------------------------------------+
+For more information, see :ref:`Student_Answer_Distribution` in this guide, and
+`Review Answers to Graded Problems`_ or `Review Answers to Ungraded Problems`_
+in *Using edX Insights*.
+
+You can choose the following options for the **Randomization** setting.
+
+.. list-table::
+   :widths: 15 70
+   :header-rows: 1
+
+   * - Option
+     - Description
+   * - **Always**
+     - Learners see a different version of the problem each time they select
+       Check.
+   * - **On Reset**
+     - Learners see a different version of the problem each time they select
+       Reset.
+   * - **Never**
+     - All learners see the same version of the problem. For most courses, this
+       option is supplied by default. Select this option for every problem in
+       your course that does not include a Python script to generate random
+       numbers.
+   * - **Per Student**
+     - Individual learners see the same version of the problem each time they
+       look at it, but that version is different from the version that other
+       learners see.
 
 
 You set value randomization as an attribute of the ``problem`` element.
@@ -314,7 +340,7 @@ You set value randomization as an attribute of the ``problem`` element.
 
   <problem rerandomize="always" . . . >
 
-.. note:: The edX Platform has a 20-seed limit for randomization.
+
 
 .. _Show Answer:
 
@@ -511,60 +537,38 @@ answers for all the problems in the component appear.
 
 .. _Problem Randomization:
 
-===========================
+***********************************
 Problem Randomization
-===========================
+***********************************
 
-You can present different learners with different problems, or different
-versions of the same problem. To do this, you create a ``problem`` element for
-each problem or version in Studio, and then edit your course outside of Studio
-to randomize the problem that learners see.
+Presenting different learners with different problems or with different
+versions of the same problem is referred to as "problem randomization".
 
-Note that *problem randomization* is different from the **Randomization**
-setting in Studio. The **Randomization** setting randomizes variables within a
-single problem. Problem randomization offers different problems or problem
-versions to different learners.
+You can provide different learners with different problems by using randomized
+content blocks, which randomly draw problems from pools of problems stored in
+content libraries. For more information, see :ref:`Randomized Content Blocks`.
+
+.. note:: Problem randomization is different from the **Randomization** setting
+   in Studio. Problem randomization offers different problems or problem
+   versions to different learners, whereas the **Randomization** setting
+   controls when a Python script randomizes the variables within a single
+   problem. For more information about the **Randomization** setting, see
+   :ref:`Randomization`.
 
 
 .. _Create Randomized Problems:
 
+====================================
 Create Randomized Problems
-****************************
+====================================
 
-#. Create a separate ``problem`` element component for each version or problem
-   that you want to randomize. For example, if you want to offer four versions
-   or problems, you'll create four separate ``problem`` elements. Make a note
-   of the 32-digit unit ID that appears in the **Unit Identifier** field under
-   **Unit Location**.
+.. note:: Creating randomized problems by exporting your course and editing
+   some of your course's XML files is no longer supported.
 
-#. Open the ``vertical`` element that contains the randomized problems.
-
-   The file contains a list of all the components in the unit, together with
-   the URL names of the components. For example, the following file contains
-   four ``problem`` elements.
-
-   .. code-block:: xml
-
-       <vertical display_name="Test Unit">
-          <problem url_name="random_problem_1"/>
-          <problem url_name="random_problem_2"/>
-          <problem url_name="random_problem_3"/>
-          <problem url_name="random_problem_4"/>
-       </vertical>
-
-#. Add ``<randomize> </randomize>`` tags around the components for the problems
-   that you want to randomize.
-
-   .. code-block:: xml
-
-       <vertical display_name="Test Unit">
-         <randomize>
-            <problem url_name="d9d0ceb3ffc74eacb29501183e26ad6e"/>
-            <problem url_name="ea66d875f4bf4a9898d8e6d2cc9f3d6f"/>
-            <problem url_name="2616cd6324704f85bc315ec46521485d"/>
-            <problem url_name="88987707294d4ff0ba3b86921438d0c0"/>
-         </randomize>
-       </vertical>
+You can provide different learners with different problems by using randomized
+content blocks, which randomly draw problems from pools of problems stored in
+content libraries. For more information, see
+:ref:`partnercoursestaff:Randomized Content Blocks`.
 
 .. include:: ../../../shared/exercises_tools/Section_adding_tooltip.rst
 

@@ -58,5 +58,7 @@ intersphinx_mapping = {
     'opendevelopers' : ('http://edx.readthedocs.org/projects/edx-developer-guide/en/latest/', None),
     'openplatformapi' : ('http://edx.readthedocs.org/projects/edx-platform-api/en/latest/', None),
     'opendataapi' : ('http://edx.readthedocs.org/projects/edx-data-analytics-api/en/latest/', None),
-    'openreleasenotes' : ('http://edx.readthedocs.org/projects/open-edx-release-notes/en/latest/', None)
+    'openreleasenotes' : ('http://edx.readthedocs.org/projects/open-edx-release-notes/en/latest/', None),
+    'partnerreleasenotes': ('http://edx.readthedocs.org/projects/edx-release-notes/en/latest/', None),
+    '2014releasenotes' : ('http://edx.readthedocs.org/projects/edx-2013-2014-release-notes/en/latest/', None)
 }

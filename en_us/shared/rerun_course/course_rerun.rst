@@ -75,10 +75,10 @@ Using Re-Run to Create a Course
 
 .. only:: Partners
 
-   Only edX Program Managers have the permissions needed to re-run a course.
-   To re-run a course that is hosted on the `edx.org`_ or `edX Edge`_
-   sites, contact your edX Program Manager. After your Program Manager creates
-   the new course using the re-run feature, you can complete the steps to
+   Only edX staff members have the permissions needed to re-run a course. To
+   re-run a course that is hosted on the `edx.org`_ or `edX Edge`_ sites,
+   contact your edX partner manager. After your partner manager creates the new
+   course using the re-run feature, you can complete the steps to
    :ref:`update the new course<Update the New Course>`.
 
 .. only:: Open_edX
@@ -96,7 +96,7 @@ Using Re-Run to Create a Course
 .. edX internal can do this) Done as part of DOC-2236 (CT, Sept 11, 2015)
    To re-run a course, follow these steps.
 
-   #. Log in to Studio. Your dashboard lists the courses that you have access
+   #. Sign in to Studio. Your dashboard lists the courses that you have access
       to as a course team member.
 
    #. Move your cursor over each row in the list of courses. The **Re-Run
@@ -104,7 +104,7 @@ Using Re-Run to Create a Course
 
       .. image:: ../../../shared/images/Rerun_link.png
         :alt: A course listed on the dashboard with the Re-run Course and View
-           Live options shown
+           Live options shown.
         :width: 600
 
    #. Locate the course you want to re-run and select **Re-Run Course**. The
@@ -124,8 +124,8 @@ Using Re-Run to Create a Course
    characters used for the name, organization, number, and run must be 65 or
    fewer.
 
-   5. Select **Create Re-Run**. Your **My Courses** dashboard opens with a status
-   message about the course creation process.
+   #. Select **Create Re-Run**. Your **My Courses** dashboard opens with a
+      status message about the course creation process.
 
    Duplication of the course structure and content takes several minutes. You
    can work in other parts of Studio or in the LMS, or on other web sites,

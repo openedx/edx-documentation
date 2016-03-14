@@ -7,4 +7,4 @@
 
 * The ``audit_notpassing`` and ``audit_passing`` statuses have been added to
   the ``certificates_generatedcertificate`` table. For more information, see
-  ref:`data:certificates_generatedcertificate`.
+  :ref:`data:certificates_generatedcertificate`.

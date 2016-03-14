@@ -32,10 +32,19 @@ A
 
 **Accessible Label**
 
-  The descriptive, identifying name that you supply when you add a problem
-  component to your course. All problems require accessible labels.
+  In a problem component, you use special formatting to identify the specific
+  question that learners will answer by selecting options or entering text or
+  numeric responses.
 
-  For more information, see `Creating Exercises and Tools`_.
+  This text is referred to as the accessible label because screen readers read
+  all of the text that you supply for the problem and then repeat the text that
+  is identified with this formatting immediately before reading the answer
+  choices for the problem. This text is also used by reports and Insights to
+  identify each problem.
+
+  All problems require accessible labels.
+
+  For more information, see :ref:`Simple Editor`.
 
 .. _Advanced Editor_g:
 
@@ -298,6 +307,17 @@ E
   The edX tool that you use to build your courses.
 
   For more information, see `What is Studio?`_.
+
+.. _embargo:
+
+**Embargo**
+
+  An embargo is an official ban on trade or commercial activity with a
+  particular country. For example, due to U.S. federal regulations, edX cannot
+  offer certain courses (for example, particular advanced STEM courses) on the
+  edx.org website to learners in embargoed countries. Learners cannot access
+  restricted courses from an embargoed country. In some cases, depending on the
+  terms of the embargo, learners cannot access any edX courses at all.
 
 
 .. _Exercises:
@@ -807,6 +827,21 @@ V
 W
 ****
 
+.. _Whitelist:
+
+**Whitelist**
+
+  In edX courses, a whitelist is a list of learners who are being provided with
+  a particular privilege. For example, whitelisted learners can be specified as
+  being eligible to receive a certificate in a course, regardless of whether
+  they would otherwise have qualified based on their grade.
+
+  In the grade report for a course, whitelisted learners have a value of "Yes"
+  in the **Certificate Eligible** column, regardless of the grades they
+  attained. For information about the grade report, see `Interpret the Grade
+  Report`_.
+
+
 .. _Wiki:
 
 **Wiki**
@@ -895,3 +930,4 @@ XYZ
 .. _LON-CAPA: http://www.lon-capa.org/
 .. _Open Response Assessments: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/open_response_assessments/OpenResponseAssessments.html
 .. _Adding a Pre-Roll Video: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/creating_content/create_video.html#adding-a-pre-roll-video
+.. _Interpret the Grade Report: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/running_course/course_grades.html#access-grades

@@ -4,7 +4,10 @@
 Other edX Resources
 ####################
 
-.. Doc team! Be sure that when you make any changes to this file that you also make them to the mirrored file in the edx-analytics-dashboard/docs repository. - Alison 19 Aug 14
+.. Doc team! Be sure that when you make any changes to this file that you also make them to the mirrored files in these other locations.
+.. edx-analytics-dashboard/docs/en_us/dashboard/source/front_matter
+.. edx-platform/docs/en_us/shared
+.. Alison 19 Aug 14
 
 Course teams, researchers, developers, learners: the edX community includes
 groups with a range of reasons for using the platform and objectives to
@@ -264,9 +267,9 @@ Documentation for developers is available on the `docs.edx.org`_ web page.
   contributing to Open edX, options for extending the Open edX platform, using
   the edX public sandboxes, instrumenting analytics, and testing.
 
-* `Installing, Configuring, and Running the edX Platform`_ provides procedures
-  for getting an edX developer stack (Devstack) and production stack
-  (Fullstack) operational.
+* `Installing, Configuring, and Running the Open edX Platform`_ provides procedures
+  for getting an edX developer stack (devstack) and production stack
+  (fullstack) operational.
 
 * `Open edX XBlock Tutorial`_ guides developers through the process of
   creating an XBlock, and explains the concepts and anatomy of XBlocks.
@@ -326,10 +329,6 @@ The edX Engineering team maintains an `open Confluence wiki`_, which
 provides insights into the plans, projects, and questions that the edX Open
 Source team is working on with the community.
 
-The pull request dashboard_  is a visualization of the count and age of the
-pull requests (PRs) assigned to teams at edX. Select the bars in this chart to
-get more information about the PRs.
-
 The `edx-tools`_ wiki lists publicly shared tools for working with the edX
 platform, including scripts and helper utilities.
 
@@ -360,8 +359,8 @@ is available.
   we encourage course teams to provide learners with links to this guide as
   needed in course updates or discussions.
 
-* `Installing, Configuring, and Running the edX Platform`_ provides
-  information about installing and using Devstack and Fullstack.
+* `Installing, Configuring, and Running the Open edX Platform`_ provides
+  information about installing and using devstack and fullstack.
 
 * The `edX Platform Developer's Guide`_ includes guidelines for
   contributing to Open edX, options for extending the Open edX platform, using
@@ -440,9 +439,8 @@ For opportunities to meet others who are interested in edX courses, check the
 edX Global Community meetup_ group.
 
 .. _Building and Running an edX Course: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/
-.. _Building and Running an Open edX Course: http://edx.readthedocs.org/projects/open-edx-building-and-running-a-course/en/named-release-birch/
+.. _Building and Running an Open edX Course: http://edx.readthedocs.org/projects/open-edx-building-and-running-a-course/en/latest/
 .. _Building and Running an Open edX Course - latest: http://edx.readthedocs.org/projects/open-edx-building-and-running-a-course/en/latest/
-.. _dashboard: http://dash.openedx.org/age.html
 .. _docs@edx.org: docs@edx.org
 .. _edx101: https://www.edx.org/course/overview-creating-edx-course-edx-edx101#.VIIJbWTF_yM
 .. _StudioX: https://www.edx.org/course/creating-course-edx-studio-edx-studiox#.VRLYIJPF8kR
@@ -465,7 +463,7 @@ edX Global Community meetup_ group.
 .. _edX Status: http://status.edx.org/
 .. _edx-tools: https://github.com/edx/edx-tools/wiki
 .. _frequently asked questions: http://www.edx.org/student-faq
-.. _Installing, Configuring, and Running the edX Platform: http://edx.readthedocs.org/projects/edx-installing-configuring-and-running/en/latest/
+.. _Installing, Configuring, and Running the Open edX Platform: http://edx.readthedocs.org/projects/edx-installing-configuring-and-running/en/latest/
 .. _meetup: http://www.meetup.com/edX-Global-Community/
 .. _openedx-analytics: http://groups.google.com/forum/#!forum/openedx-analytics
 .. _Open edX Analytics: http://edx-wiki.atlassian.net/wiki/display/OA/Open+edX+Analytics+Home

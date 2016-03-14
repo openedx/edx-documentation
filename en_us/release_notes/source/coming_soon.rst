@@ -7,13 +7,14 @@ release in the near future. After these features are released, the release
 notes will include links to related documentation.
 
 ****************************************
-Notetaking Feature for Learners
+New Drag and Drop Problem Type
 ****************************************
 
-A feature that gives learners the ability to highlight course content and make
-notes while they take a course will soon be enabled for all courses on the
-edx.org and edge.edx.org websites. Learners who use this feature will be able
-to review their notes either in the course content or listed on a new, separate
-**Notes** page in the course.
+A new drag and drop problem type is currently under development. The new drag
+and drop problem type is much easier to create, is more flexible and
+accessible, and works on mobile devices. The new problem type will eventually
+replace the current drag and drop problem type for new course content. The new
+drag and drop problem type will not affect existing courses that include drag
+and drop problems created using the older problem type.
 
 .. include:: ../../links/links.rst

@@ -79,6 +79,9 @@ subjective assessments of text, images, or other contributions, but they might
 not be the ideal tool in chemistry assignments where there are definitively
 correct or incorrect answers to questions.
 
+.. note:: Do not add more than one ORA component in a course unit. Multiple ORA
+   assignments in a unit cause errors when learners submit their assessments.
+
 EdX suggests that you follow these guidelines and best practices when you use
 open response assessments in your courses.
 

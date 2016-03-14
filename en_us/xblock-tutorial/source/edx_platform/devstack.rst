@@ -4,13 +4,13 @@
 Deploy Your XBlock in Devstack
 ###############################
 
-This section provides instructions for deploying your XBlock in Devstack.
+This section provides instructions for deploying your XBlock in devstack.
 
 .. contents::
  :local:
  :depth: 1
 
-For more information about Devstack, see the :ref:`installation:Installing,
+For more information about devstack, see the :ref:`installation:Installing,
 Configuring, and Running the Open edX Platform`.
 
 *******************
@@ -24,23 +24,23 @@ requirements are met.
   the Open edX Developer Stack`.
 
 * Ensure you have the XBlock directory in a location you can access from the
-  Devstack Vagrant instance.
+  devstack Vagrant instance.
 
 *******************
 Install the XBlock
 *******************
 
-#. Use SSH to access the Devstack Vagrant instance.
-      
+#. Use SSH to access the devstack Vagrant instance.
+
    .. code-block:: bash
 
       $ vagrant ssh
 
 #. Install the XBlock.
-   
+
    .. code-block:: bash
 
-      vagrant@precise64:~$ sudo -u edxapp /edx/bin/pip.edxapp install /path/to/your/block 
+      vagrant@precise64:~$ sudo -u edxapp /edx/bin/pip.edxapp install /path/to/your/block
 
 **************************************
 Enable the XBlock in the edX Platform
@@ -57,25 +57,25 @@ Enable the XBlock in the edX Platform
    are not commented out::
 
      from xmodule.x_module import prefer_xmodules
-     XBLOCK_SELECT_FUNCTION = prefer_xmodules 
+     XBLOCK_SELECT_FUNCTION = prefer_xmodules
 
 #. In ``edx-platform/cms/envs/common.py``, change the
    ``'ALLOW_ALL_ADVANCED_COMPONENTS'`` value to ``True``.::
 
-     'ALLOW_ALL_ADVANCED_COMPONENTS': True, 
+     'ALLOW_ALL_ADVANCED_COMPONENTS': True,
 
 ************************
 Start the LMS and Studio
 ************************
 
 #. Start the LMS server.
-      
+
    .. code-block:: bash
 
       edxapp@precise64:~$ paver devstack lms
 
 #. Start the Studio server.
-      
+
    .. code-block:: bash
 
       edxapp@precise64:~$ paver devstack studio
@@ -89,11 +89,11 @@ You must enable the XBlock in each course in which you intend to use it.
 #.  Log in to Studio.
 
 #.  Open the course.
-    
+
 #. From the **Settings** menu, select **Advanced Settings**.
 
 #. In the **Advanced Module List** field, place your cursor between the braces,
-   and then type the exact name of the XBlock. 
+   and then type the exact name of the XBlock.
 
    .. note::
      The name you enter must match exactly the name specified in your XBlock's
@@ -101,7 +101,7 @@ You must enable the XBlock in each course in which you intend to use it.
 
    If you see other values in the **Advanced Module List** field, add a comma
    after the closing quotation mark for the last value, and then type the name
-   of your XBlock.   
+   of your XBlock.
 
 #. At the bottom of the page, select **Save Changes**.
 
@@ -111,7 +111,7 @@ Add an Instance of the XBlock to a Unit
 
 You can add instances of the XBlock in any unit in the course.
 
-On the unit page, under **Add New Component**, select **Advanced**. 
+On the unit page, under **Add New Component**, select **Advanced**.
 
 Your XBlock is listed as one of the types you can add.
 
