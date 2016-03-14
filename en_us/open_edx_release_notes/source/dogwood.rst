@@ -185,8 +185,8 @@ E-commerce Service
 =======================
 
 Open edX installations can now add an e-commerce service. The edX
-`e-commerce service`_ is an extended Django application that manages
-and handles orders for product catalogs.
+`e-commerce service`_ is a Django application that manages and handles
+orders for product catalogs.
 
 For more information about how to install and set up the edX e-commerce
 service, configure partners and sites, add assets, and fulfill orders, see
