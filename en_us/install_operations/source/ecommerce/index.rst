@@ -18,7 +18,7 @@ use the Ecommerce service with the Open edX platform.
    manage_orders
    test_features
    test_ecommerce
-   additional_features/index
+   ecom_additional_features/index
 
 To complete the procedures that this section describes, you use both the Django
 administration site and the Course Administration Tool (CAT). The CAT is a web
