@@ -74,8 +74,6 @@
 
 .. _EdX Search: https://github.com/edx/edx-search/
 
-.. _Otto: https://github.com/edx/ecommerce
-
 .. _GitHub Help: https://help.github.com/articles/set-up-git
 
 .. _edx-documentation: https://github.com/edx/edx-documentation
@@ -371,6 +369,8 @@
 .. _Open edX wiki page for Dogwood: https://openedx.atlassian.net/wiki/display/OPEN/Dogwood
 
 .. _Dogwood blog post: https://open.edx.org/blog/newest-open-edx-release-dogwood-now-available
+
+.. _Adding E-Commerce to the Open edX Platform (Dogwood): http://edx.readthedocs.org/projects/edx-installing-configuring-and-running/en/named-release-dogwood.rc/ecommerce/index.html
 
 .. _Open edX Conference: http://con.openedx.org/
 
