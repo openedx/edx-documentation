@@ -183,14 +183,17 @@ the *Building and Running an Open edX Course* guide.
 .. _Otto Ecommerce Service:
 
 =======================
-Otto Ecommerce Service
+E-commerce Service
 =======================
 
-Open edX installations can now add an ecommerce service. `Otto`_ is an extended
-Django application that manages and handles orders for product catalogs.
+Open edX installations can now add an e-commerce service. The edX
+`e-commerce service`_ is a Django application that manages and handles
+orders for product catalogs.
 
-Documentation about how to install and set up Otto, configure partners and
-sites, add assets, and fulfill orders will be available shortly.
+For more information about how to install and set up the edX e-commerce
+service, configure partners and sites, add assets, and fulfill orders, see
+`Adding E-Commerce to the Open edX Platform (Dogwood)`_ in the *Installing,
+Configuring, and Running the Open edX Platform* guide.
 
 =========================================
 TPA Sign In Without Account Activation
