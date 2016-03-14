@@ -200,7 +200,7 @@
 .. THIRD PARTY LINKS
 
 .. _Oscar: https://github.com/django-oscar/django-oscar
-.. _Ecommerce service: https://github.com/edx/ecommerce
+.. _E-Commerce service: https://github.com/edx/ecommerce
 .. _Transifex: https://www.transifex.com/
 .. _configure the Transifex client: http://docs.transifex.com/client/config/
 .. _Communications API: http://django-oscar.readthedocs.org/en/latest/howto/how_to_customise_oscar_communications.html#communications-api
