@@ -39,6 +39,8 @@ To create and register a new OIDC client, follow these steps.
 #. For **Client Type**, select **Confidential (Web applications)**.
 #. Select **Save**.
 
+.. _Designate the Client as Trusted:
+
 ====================================
 Designate the Client as Trusted
 ====================================

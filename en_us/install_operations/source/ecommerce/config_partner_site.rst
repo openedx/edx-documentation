@@ -1,8 +1,8 @@
-.. _Configure Partner Site:
+.. _Configure Ecom Partner Site:
 
-######################################
-Configure a Partner and Site
-######################################
+###########################################
+Configure an E-Commerce Partner and Site
+###########################################
 
 To use the E-Commerce service, you must configure both a partner and a site for
 the service to use. To configure a partner and a site, you use the Django
@@ -14,22 +14,22 @@ administration panel.
  partner. When you configure a site, make sure that only one partner is
  associated with that site.
 
-.. _Partner Configuration:
+.. _Ecom Partner Configuration:
 
-**************************
-Configuring a Partner
-**************************
+**************************************
+Configuring an E-Commerce Partner
+**************************************
 
 When you configure a partner, you specify a short code that serves as a unique
 identifier for that partner. The system creates a **partner** object that
 the Open edX platform uses when you perform tasks such as specifying a theme
 for a site in the ``SiteConfiguration`` model.
 
-.. _Configure Partner:
+.. _Configure Ecom Partner:
 
-=================================
-Create and Configure a Partner
-=================================
+==============================================
+Create and Configure an E-Commerce Partner
+==============================================
 
 To configure a new partner, follow these steps.
 
@@ -46,27 +46,30 @@ To configure a new partner, follow these steps.
 #. Select **Save**.
 
 
-.. _Site Configuration:
+.. _Ecom Site Configuration:
 
-**************************
-Configuring a Site
-**************************
+******************************
+Configuring an E-Commerce Site
+******************************
 
 To configure a site, you use the edX ``SiteConfiguration`` model that extends
-the `Django sites framework`_. With this model, you map domains to a Site
+the `Django sites framework`_. With this model, you map domains to a **site**
 object, which consists of an ID and a name. You can also add and update themes
 and payment processors for a site.
 
 The edX E-Commerce service supports multitenancy. The multitenant
 implementation has one site per partner.
 
-=============================
-Create and Configure a Site
-=============================
+.. _Configure Ecom Site:
 
-To configure a site, follow these steps.
+==========================================
+Create and Configure an E-Commerce Site
+==========================================
 
-#. Make sure that you have created and configured a partner for the site. For more information, see :ref:`Configure Partner`.
+To configure an E-Commerce site, follow these steps.
+
+#. Make sure that you have created and configured a partner for the site. For
+   more information, see :ref:`Configure Ecom Partner`.
 #. In a browser, go to ``http://localhost:8002/admin/core/siteconfiguration``
    to open the **Site configurations** page in the Django administration panel.
 #. On the **Site configurations** page, select **Add site configuration**.
@@ -82,10 +85,12 @@ To configure a site, follow these steps.
 #. For **Path to custom site theme**, enter a path.
 
    This field is required. If you do not have a custom site theme, enter
-   placeholder text in this field. For example, you could enter ``sass/themes/default.scss``.
+   placeholder text in this field. For example, you could enter
+   ``sass/themes/default.scss``.
 
 #. For **Payment processors**, enter the names of the payment processor or
    processors for your site.
+#. Select **Save**.
 
 
 .. include:: ../../../links/links.rst

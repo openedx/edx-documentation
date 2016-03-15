@@ -4,8 +4,8 @@
 Create Products
 ####################
 
-After you :ref:`configure a partner <Partner Configuration>` and
-:ref:`configure at least one site <Site Configuration>` for the E-Commerce
+After you :ref:`configure a partner <Ecom Partner Configuration>` and
+:ref:`configure at least one site <Ecom Site Configuration>` for the E-Commerce
 service to use, and you have compiled and moved your static assests, you can
 create products.
 

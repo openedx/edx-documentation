@@ -31,6 +31,8 @@ information, see :ref:`Access_grades`.
 The learner's final grade and the grading configuration you set in Studio are
 used to determine whether the learner has earned a certificate for the course.
 
+.. _On Demand Certificates:
+
 ****************************************
 On-Demand Certificates
 ****************************************

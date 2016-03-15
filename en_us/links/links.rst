@@ -199,6 +199,7 @@
 
 .. THIRD PARTY LINKS
 
+.. _Amazon S3 storage backend: http://django-storages.readthedocs.org/en/latest/backends/amazon-S3.html
 .. _Oscar: https://github.com/django-oscar/django-oscar
 .. _Ecommerce service: https://github.com/edx/ecommerce
 .. _Transifex: https://www.transifex.com/

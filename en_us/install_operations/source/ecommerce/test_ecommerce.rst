@@ -169,10 +169,10 @@ You use the CAT to finish configuring the two courses in your LMS instance.
      can use that same ``private.py`` file.
 
 
-.. _Configure Acceptance Tests:
+.. _Configure Ecommerce Acceptance Tests:
 
-Configure Acceptance Tests
-*********************************
+Configure E-Commerce Acceptance Tests
+****************************************
 
 You configure acceptance tests by using the settings in the
 ``ecommerce/blob/master/acceptance_tests/config.py`` file. You can use the
