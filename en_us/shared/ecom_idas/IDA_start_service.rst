@@ -1,10 +1,6 @@
-.. _Run Migrations and Start the Server:
 
-************************************
-Run Migrations and Start the Server
-************************************
 
-To complete the installation and start the E-Commerce service, follow these
+To complete the installation and start the service, follow these
 steps.
 
 .. note::
@@ -33,7 +29,4 @@ steps.
 
      $ python manage.py runserver 8002
 
-   .. note::
-     If you use a different port, make sure you update the OIDC client by using
-     the Django administration panel in the LMS. For more information about
-     configuring the OIDC client, see :ref:`Configure OIDC`.
+

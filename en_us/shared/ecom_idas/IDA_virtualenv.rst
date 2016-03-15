@@ -1,8 +1,4 @@
-.. _Set Up a Virtual Environment:
 
-******************************
-Set Up a Virtual Environment
-******************************
 
 #. Create or activate a Python virtual environment. You execute all of the
    commands described in this section within the virtualenv (unless otherwise

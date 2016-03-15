@@ -16,16 +16,65 @@ following steps.
  run the E-Commerce service locally on your computer instead of on the virtual
  machine (VM) that devstack uses, see :ref:`Development Outside Devstack`.
 
+.. _ECommerce Set Up a Virtual Environment:
+
+******************************
+Set Up a Virtual Environment
+******************************
 
 .. include:: ../../../shared/ecom_idas/IDA_virtualenv.rst
 
+
+.. _ECommerce Configure OIDC:
+
+************************************************
+Configure edX OpenID Connect (OIDC)
+************************************************
+
 .. include:: ../../../shared/ecom_idas/IDA_oidc.rst
 
-.. include:: ../../../shared/ecom_idas/IDA_start_server.rst
+
+.. _ECommerce Create Register Client:
+
+====================================
+Create and Register a Client
+====================================
+
+.. include:: ../../../shared/ecom_idas/IDA_oidc_create_client.rst
 
 
+.. _ECommerce Designate the Client as Trusted:
 
-.. _Development Outside Devstack:
+====================================
+Designate the Client as Trusted
+====================================
+
+.. include:: ../../../shared/ecom_idas/IDA_oidc_designate_trusted.rst
+
+
+.. _ECommerce Update Django Settings:
+
+====================================
+Update Django Settings
+====================================
+
+.. include:: ../../../shared/ecom_idas/IDA_oidc_update_django.rst
+
+
+.. _ECommerce Run Migrations and Start the Service:
+
+************************************
+Run Migrations and Start the Service
+************************************
+
+.. include:: ../../../shared/ecom_idas/IDA_start_service.rst
+
+   .. note::
+     If you use a different port, make sure you update the OIDC client by using
+     the Django administration panel in the LMS. For more information about
+     configuring the OIDC client, see :ref:`Ecommerce Configure OIDC`.
+
+.. _Ecommerce Development Outside Devstack:
 
 *******************************
 Development Outside Devstack

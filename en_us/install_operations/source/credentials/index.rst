@@ -10,7 +10,7 @@ Introduction to credentials...
    install_credentials
    manage_credentials
    test_credentials
-   gate_credentials
+   cred_additional_features/index
 
 
 .. include:: ../../../links/links.rst

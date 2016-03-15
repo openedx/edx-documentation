@@ -1,5 +1,3 @@
-.. _Gating Features:
-
 
 You can release new service features and functionality behind a
 feature gate. This project uses the `Waffle`_ library for feature gating.
@@ -68,4 +66,3 @@ If you want to make a feature permanent, remove its feature gate from relevant
 code and tests, and delete the gate from the database.
 
 .. include:: ../../../../links/links.rst
-

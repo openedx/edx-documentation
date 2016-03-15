@@ -95,8 +95,8 @@ To configure the LMS, follow these steps.
 
 #. In the Django administration panel, verify that these OAuth2 clients are
    designated as trusted clients. If this isn't already the case,
-   :ref:`designate these clients as trusted clients <Designate the Client as
-   Trusted>`.
+   :ref:`designate these clients as trusted clients <Credentials Designate
+   the Client as Trusted>`.
 
 #. In the Django administration panel, create a new access token for the
    superuser account. Set the client to the OAuth2 client for credentials.
@@ -110,9 +110,8 @@ To configure the LMS, follow these steps.
    generate a certificate. You may have to allow on-demand certificate
    generation for the course.
 
-   For more information, see :ref:`opencoursestaff:On Demand Certificates`.
-
-For more information, see :ref:`opencoursestaff:Checking Student Progress and Issuing Certificates`.
+   For more information, see :ref:`opencoursestaff:Checking Student Progress
+   and Issuing Certificates`.
 
 .. _Configure Credentials Acceptance Tests:
 
