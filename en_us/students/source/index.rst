@@ -19,6 +19,7 @@ EdX Learner's Guide
    SFD_licensing
    SFD_video_player
    SFD_bookmarks
+   SFD_notes
    SFD_google_docs
    SFD_check_progress
    SFD_certificates

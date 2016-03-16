@@ -94,6 +94,20 @@ D, E, F
      - :ref:`enrollment`
    * - ``edx.course.enrollment.upgrade.succeeded``
      - :ref:`enrollment`
+   * - ``edx.course.student_notes.added``
+     - :ref:`notes`
+   * - ``edx.course.student_notes.deleted``
+     - :ref:`notes`
+   * - ``edx.course.student_notes.edited``
+     - :ref:`notes`
+   * - ``edx.course.student_notes.notes_page_viewed``
+     - :ref:`notes`
+   * - ``edx.course.student_notes.searched``
+     - :ref:`notes`
+   * - ``edx.course.student_notes.used_unit_link``
+     - :ref:`notes`
+   * - ``edx.course.student_notes.viewed``
+     - :ref:`notes`
    * - ``edx.done.toggled``
      - :ref:`Course Content Completion Events`
    * - ``edx.forum.comment.created``
