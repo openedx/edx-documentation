@@ -19,6 +19,10 @@ submissions for a specific problem, either for a selected learner or for all
 learners. You can also review answer distribution data for all of the problems.
 See :ref:`Review_Answers`.
 
+For open response assessments, you can generate an ORA data report that
+provides details of each learner's response and of assessments that were
+performed on each response. For details, see :ref:`Generate ORA Report`.
+
 For information about how you establish a grading policy and work with the
 Problem components in your course, see :ref:`Grading Index` or
 :ref:`Working with Problem Components`.
