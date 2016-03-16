@@ -493,17 +493,66 @@ encumber a different audience. For instance, a **Close** button that looks like
 the Accessibility API.
 
 To visibly hide content that should be read by screen readers, edX makes a CSS
-``class="sr"`` available to expose content only to screen reader users. In the
-following example, a sighted user sees only the X, while a screen reader user
-hears only "Close".
+``class="sr"`` available to expose content only to non-visual users. This is
+achieved by displaying the content beyond the bounds of the viewport so that it 
+is not displayed visually, but still accessible in the DOM.  This is sometimes
+referred to as displaying content "offscreen". In the following example, a
+visual user sees only the X, while a screen reader user hears only "Close".
 
 ::
 
   <a href="#">
-  <span aria-hidden="true">X</span>
-  <span class="sr">Close</span>
+    <span aria-hidden="true">X</span>   <!-- hidden from screen reader users -->
+    <span class="sr">Close</span>       <!-- exposed only to screen reader users -->
   </a>
+  
+The choice to show or hide content for a specific audience should not be taken
+lightly. Extensive use of offscreen content often indicates poor design or 
+accessibility. The following questions should help you decide if one of the above 
+techniques is appropriate or not:
 
+Would all users benefit from the content displayed offscreen?
+  If the additional content considered for display offscreen could also be useful for 
+  visual users as well, consider finding a way to make the content work visually.
+  
+Is important context being provided only visually?
+  Consider a standard sidebar navigation. It is common to visually indicate the
+  current page or section by differentiating it visually from other pages or
+  sections in the navigation.  To a visual user, it is clear that the item in 
+  the list that looks different than all the others is the page they are currently
+  viewing. Offscreen text is an effective way to make this visual context available 
+  to non-visual users. The following example demonstrates this.  *Note the non-breaking
+  space in the offscreen text span.  Without it, a screen reader would read this text
+  as "About UsCurrent page."*
+  
+::
+
+  <a href="/" class="inactive">Home</a>
+  <a href="about/" class="active">About Us<span class="sr">&nbsp;Current page</span></a>
+  
+Does the content displayed offscreen contain any interactive elements?
+  Offscreen content should never contain interactive elements, like links, 
+  buttons, or form inputs.  This would have a negative impact on sighted 
+  keyboard-only users who require visual focus indicators to understand what 
+  element has focus and will be the target of keyboard events.
+  
+Is offscreen content being used to label an interactive element?
+  It may be tempting to use offscreen text to improve the usability of an interactive
+  element for non-visual users. Offscreen text is included in the Accessibility API
+  which is used by screen readers.  However, screen readers are not the only 
+  assistive technology that use the Accessibility API. Speech input software will
+  also use the Accessibility API to identify interactive controls.  In the 
+  following example, a screen reader user will hear "Type your First Name", but a
+  sighted user will see only "First Name."  A user who relies on speech input to
+  interact with their computer will move focus to this element by saying "Focus on
+  First Name" (the visual label).  However, the Accessible label for this element is
+  "Type your First Name."
+  
+::
+
+  <label><span class="sr">Type your&nbsp;</span>First Name
+    <input type="text" />
+  </label>
 
 .. _Choose colors that meet minimum contrast ratios:
 
