@@ -1,80 +1,28 @@
 .. _Installing the Open edX Developer Stack:
 
 ########################################
-Installing the Open edX Developer Stack
+Installing Open edX Devstack
 ########################################
 
-This section describes how to install the Open edX Developer Stack.
+This section describes how to install the Open edX developer stack (devstack).
 
 .. contents::
    :local:
    :depth: 1
 
-**********
-Overview
-**********
-
-The Open edX Developer Stack, known as **devstack**, is a Vagrant instance
-designed for local development.
-
-Devstack uses the same system requirements as :ref:`Open edX Fullstack
-<Installing Open edX Fullstack>`. This allows you to discover and fix system
-configuration issues early in development.
-
-Devstack simplifies certain production settings to make development more
-convenient. For example, `nginx`_ and `gunicorn`_ are disabled in devstack;
-devstack uses Django's runserver instead.
-
-See the `Vagrant documentation`_ for more information.
-
-********************
-Components
-********************
-
-Devstack includes the following edX components.
-
-* The Learning Management System (LMS)
-* edX Studio
-* Discussion Forums
-* Open Response Assessments (ORA)
-* EdX Search
-
-Devstack also includes a demonstration edX course.
-
-**************************
-Knowledge Prerequisites
-**************************
-
-To use devstack, you should meet the following knowledge requirements.
-
-* Understand basic terminal usage. If you are using a Mac computer, see
-  `Introduction to the Mac OS X Command Line`_. If you are using a Windows
-  computer, see `Windows Command Line Reference`_.
-
-* Understand Vagrant commands. See the `Vagrant Getting Started`_ guide for
-  more information.
-
-**************************
-Software Prerequisites
-**************************
-
-To install and run devstack, you must first install the following required
-software.
-
-* `VirtualBox`_ 4.3.12 or higher.
-
-* `Vagrant`_ 1.6.5 or higher.
-
-* A Network File System (NFS) client, if your operating system does not include
-  one. Devstack uses VirtualBox Guest Editions to share folders through NFS.
+.. note::
+ Before you install devstack, make sure that you have met the
+ :ref:`installation prerequisites<Installation Prerequisites>`.
 
 .. _Install DevStack:
 
 **************************
-Install Devstack
+Installing Devstack
 **************************
 
-To install devstack directly from the command line, follow these steps.
+To install devstack directly from the command line, follow the instructions
+below. You can also install DevStack using a Torrent file, as explained in the
+next section.
 
 .. note::
 
@@ -154,7 +102,7 @@ Installation`.
 .. _install_devstack_with_torrent_file:
 
 *****************************************
-Install Devstack Using a Torrent File
+Installing Devstack Using a Torrent File
 *****************************************
 
 You can use a BitTorrent client to download the Vagrant box file. Downloading
@@ -256,29 +204,4 @@ Stack` to begin using devstack.
 For help with the devstack installation, see :ref:`Troubleshooting the Devstack
 Installation`.
 
-.. _Troubleshooting the Devstack Installation:
-
-*****************************************
-Troubleshooting the Devstack Installation
-*****************************************
-
-In some cases, you see an error when you attempt to create the devstack virtual
-machine (``vagrant up``). For example:
-
-``mount.nfs: mount to NFS server '192.168.33.1:/path/to/edx-platform' failed: timed out, giving up``
-
-This error situation arises because Vagrant uses a host-only network in
-Virtualbox to communicate with your computer. If a network does not exist, one
-is created on ``vagrant up``. If this network is created with the VPN up, it
-will not work. You must recreate the network with the VPN down.
-
-To resolve the error, follow these steps.
-
-#. Stop the VPN.
-#. Type ``vagrant halt``.
-#. Open Virtualbox.
-#. Navigate to **Preferences > Network > Host-only Networks** and remove the
-   most-recently-created host-only network.
-#. Type ``vagrant up``.
-
-.. include:: ../../../links/links.rst
+.. include:: ../../../../links/links.rst
