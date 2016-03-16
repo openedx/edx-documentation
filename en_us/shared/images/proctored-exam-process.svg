@@ -1,0 +1,687 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="16in"
+   height="24in"
+   viewBox="0 0 1440 2160"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="proctored-exam-process.svg"
+   inkscape:export-filename="/Users/peterdesjardins/work/exam-events/edx-documentation/en_us/shared/images/proctored-exam-process.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs4">
+    <marker
+       inkscape:stockid="Arrow1Sstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker5901"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path5903"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#b0b0b0;stroke-width:1pt;stroke-opacity:1;fill:#b0b0b0;fill-opacity:1"
+         transform="scale(0.2) translate(6,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker5837"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path5839"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#b0b0b0;stroke-width:1pt;stroke-opacity:1;fill:#b0b0b0;fill-opacity:1"
+         transform="scale(0.4) translate(10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Sstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Sstart"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path4509"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         style="fill:#b0b0b0;fill-opacity:1;fill-rule:evenodd;stroke:#b0b0b0;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(0.2,0,0,0.2,1.2,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mstart"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path4503"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         style="fill:#d9f1fd;fill-opacity:1;fill-rule:evenodd;stroke:#b0b0b0;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(0.4,0,0,0.4,4,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Lstart"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path4515"
+         style="fill:#d9f1fd;fill-opacity:1;fill-rule:evenodd;stroke:#b0b0b0;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(1.1,0,0,1.1,1.1,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Sstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker5901-6"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5903-4"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         style="fill:#b0b0b0;fill-opacity:1;fill-rule:evenodd;stroke:#b0b0b0;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(0.2,0,0,0.2,1.2,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Sstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Sstart-2"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path4509-8"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         style="fill:#b0b0b0;fill-opacity:1;fill-rule:evenodd;stroke:#b0b0b0;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(0.2,0,0,0.2,1.2,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Sstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker5901-5"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5903-7"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         style="fill:#b0b0b0;fill-opacity:1;fill-rule:evenodd;stroke:#b0b0b0;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(0.2,0,0,0.2,1.2,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Sstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker5901-5-4"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5903-7-4"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         style="fill:#b0b0b0;fill-opacity:1;fill-rule:evenodd;stroke:#b0b0b0;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(0.2,0,0,0.2,1.2,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Sstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker5901-5-5"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5903-7-0"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         style="fill:#b0b0b0;fill-opacity:1;fill-rule:evenodd;stroke:#b0b0b0;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(0.2,0,0,0.2,1.2,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Sstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker5901-5-7"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5903-7-1"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         style="fill:#b0b0b0;fill-opacity:1;fill-rule:evenodd;stroke:#b0b0b0;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(0.2,0,0,0.2,1.2,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Sstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker5901-5-2"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5903-7-7"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         style="fill:#b0b0b0;fill-opacity:1;fill-rule:evenodd;stroke:#b0b0b0;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(0.2,0,0,0.2,1.2,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Sstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker5901-5-59"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5903-7-8"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         style="fill:#b0b0b0;fill-opacity:1;fill-rule:evenodd;stroke:#b0b0b0;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(0.2,0,0,0.2,1.2,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Sstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Sstart-2-7"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path4509-8-1"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         style="fill:#b0b0b0;fill-opacity:1;fill-rule:evenodd;stroke:#b0b0b0;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(0.2,0,0,0.2,1.2,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Sstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Sstart-3"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path4509-3"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         style="fill:#b0b0b0;fill-opacity:1;fill-rule:evenodd;stroke:#b0b0b0;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(0.2,0,0,0.2,1.2,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Sstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker5901-0"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5903-1"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         style="fill:#b0b0b0;fill-opacity:1;fill-rule:evenodd;stroke:#b0b0b0;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(0.2,0,0,0.2,1.2,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Sstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker5901-2"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5903-6"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         style="fill:#b0b0b0;fill-opacity:1;fill-rule:evenodd;stroke:#b0b0b0;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(0.2,0,0,0.2,1.2,0)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.36341681"
+     inkscape:cx="540.04787"
+     inkscape:cy="1158.876"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="in"
+     inkscape:window-width="1330"
+     inkscape:window-height="1229"
+     inkscape:window-x="1149"
+     inkscape:window-y="27"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,1107.6379)">
+    <g
+       id="g10679">
+      <g
+         transform="translate(-231.13956,38.523259)"
+         id="g10585">
+        <g
+           id="g10563"
+           transform="translate(-1.6452141,0)">
+          <path
+             inkscape:connector-curvature="0"
+             id="path5835-4"
+             d="m 953.40202,-749.55554 0,-111.53333"
+             style="fill:none;fill-rule:evenodd;stroke:#b0b0b0;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker5901-0)" />
+          <path
+             inkscape:connector-curvature="0"
+             id="path5835-1"
+             d="m 953.40202,-582.22376 0,-111.53333"
+             style="fill:none;fill-rule:evenodd;stroke:#b0b0b0;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker5901-2)" />
+        </g>
+        <path
+           style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#b0b0b0;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Sstart-2-7)"
+           d="m 520.00895,-850.77938 175.10254,0"
+           id="path4491-0-6"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#b0b0b0;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Sstart-2)"
+           d="m 849.5672,-850.77938 -175.10254,0"
+           id="path4491-0"
+           inkscape:connector-curvature="0" />
+        <g
+           id="g8768"
+           transform="translate(0.60805948,0)">
+          <path
+             inkscape:connector-curvature="0"
+             id="path5835-6"
+             d="m 683.43359,-918.83305 0,-111.53335"
+             style="fill:none;fill-rule:evenodd;stroke:#b0b0b0;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker5901-5)" />
+          <path
+             inkscape:connector-curvature="0"
+             id="path5835-6-5"
+             d="m 683.43359,-751.55554 0,-111.53335"
+             style="fill:none;fill-rule:evenodd;stroke:#b0b0b0;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker5901-5-4)" />
+          <path
+             inkscape:connector-curvature="0"
+             id="path5835-6-4"
+             d="m 683.43359,-583.19661 0,-111.53335"
+             style="fill:none;fill-rule:evenodd;stroke:#b0b0b0;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker5901-5-5)" />
+          <path
+             inkscape:connector-curvature="0"
+             id="path5835-6-3"
+             d="m 683.43359,-414.64876 0,-111.53335"
+             style="fill:none;fill-rule:evenodd;stroke:#b0b0b0;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker5901-5-7)" />
+          <path
+             inkscape:connector-curvature="0"
+             id="path5835-6-8"
+             d="m 683.43359,-246.83054 0,-111.53335"
+             style="fill:none;fill-rule:evenodd;stroke:#b0b0b0;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker5901-5-2)" />
+          <path
+             inkscape:connector-curvature="0"
+             id="path5835-6-37"
+             d="m 683.43359,-79.498757 0,-111.533353"
+             style="fill:none;fill-rule:evenodd;stroke:#b0b0b0;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker5901-5-59)" />
+        </g>
+        <path
+           style="fill:none;fill-rule:evenodd;stroke:#b0b0b0;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker5901)"
+           d="m 416.32652,-750.5528 0,-111.53333"
+           id="path5835"
+           inkscape:connector-curvature="0" />
+        <g
+           id="g6176"
+           transform="translate(-306.06456,-104.78264)">
+          <rect
+             style="fill:#349fdd;fill-opacity:1"
+             y="-805.62689"
+             x="627.01331"
+             height="119.26031"
+             width="190.75554"
+             id="rect4136-2-5" />
+          <flowRoot
+             transform="translate(-30.425331,-1116.4532)"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             id="flowRoot6131-6"
+             xml:space="preserve"><flowRegion
+               id="flowRegion6133-7"><rect
+                 style="text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1"
+                 y="332.66995"
+                 x="669.55603"
+                 height="79.402473"
+                 width="167.38896"
+                 id="rect6135-6" /></flowRegion><flowPara
+               id="flowPara6137-7">Learner requests allowance</flowPara></flowRoot>        </g>
+        <g
+           id="g6199"
+           transform="translate(-306.06456,63.175745)">
+          <rect
+             id="rect4136-2-0"
+             width="190.75554"
+             height="119.26031"
+             x="627.01331"
+             y="-805.62689"
+             style="fill:#349fdd;fill-opacity:1" />
+          <flowRoot
+             xml:space="preserve"
+             id="flowRoot6131-8"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             transform="translate(-30.348183,-1116.3214)"><flowRegion
+               id="flowRegion6133-0"><rect
+                 id="rect6135-0"
+                 width="165.24295"
+                 height="76.183456"
+                 x="669.55603"
+                 y="332.66995"
+                 style="text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1" /></flowRegion><flowPara
+               id="flowPara6137-4">Course team grants or denies allowance</flowPara></flowRoot>        </g>
+        <g
+           id="g6421"
+           transform="translate(59.015389,-27.52617)">
+          <rect
+             style="fill:#349fdd;fill-opacity:1"
+             y="-882.88336"
+             x="797.36365"
+             height="119.26031"
+             width="190.75554"
+             id="rect4136-2-06" />
+          <flowRoot
+             transform="translate(135.29025,-1193.4021)"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             id="flowRoot6131-4"
+             xml:space="preserve"><flowRegion
+               id="flowRegion6133-93"><rect
+                 style="text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1"
+                 y="332.66995"
+                 x="669.55603"
+                 height="81.548485"
+                 width="173.827"
+                 id="rect6135-1" /></flowRegion><flowPara
+               id="flowPara6137-3">Learner chooses non-proctored exam</flowPara></flowRoot>        </g>
+        <g
+           transform="translate(229.36573,63.175745)"
+           id="g6444">
+          <rect
+             style="fill:#349fdd;fill-opacity:1"
+             y="-805.62689"
+             x="627.01331"
+             height="119.26031"
+             width="190.75554"
+             id="rect4136-2-3" />
+          <flowRoot
+             transform="translate(-37.313026,-1118.3917)"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             id="flowRoot6131-1"
+             xml:space="preserve"><flowRegion
+               id="flowRegion6133-935"><rect
+                 style="text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1"
+                 y="332.66995"
+                 x="669.55603"
+                 height="78.32946"
+                 width="179.19202"
+                 id="rect6135-8" /></flowRegion><flowPara
+               id="flowPara6137-2">Learner completes exam problems</flowPara></flowRoot>        </g>
+        <g
+           transform="translate(484.74128,46.57707)"
+           id="g6139-8">
+          <g
+             transform="translate(-255.37555,184.55711)"
+             id="g6467">
+            <rect
+               style="fill:#349fdd;fill-opacity:1"
+               y="-805.62689"
+               x="627.01331"
+               height="119.26031"
+               width="190.75554"
+               id="rect4136-2-32" />
+            <flowRoot
+               transform="translate(-38.278847,-1116.1456)"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+               id="flowRoot6131-81"
+               xml:space="preserve"><flowRegion
+                 id="flowRegion6133-99"><rect
+                   style="text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1"
+                   y="332.66995"
+                   x="669.55603"
+                   height="82.621506"
+                   width="180.26501"
+                   id="rect6135-4" /></flowRegion><flowPara
+                 id="flowPara6137-38">Learner submits exam or time runs out</flowPara></flowRoot>          </g>
+        </g>
+        <g
+           id="g6794"
+           transform="translate(20.923645,0)">
+          <g
+             transform="translate(4.8831175,-10.730065)"
+             id="g6124">
+            <rect
+               id="rect4136"
+               width="190.75554"
+               height="119.26031"
+               x="562.85712"
+               y="-1067.6378"
+               style="fill:#349fdd;fill-opacity:1" />
+            <flowRoot
+               xml:space="preserve"
+               id="flowRoot5520"
+               style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+               transform="translate(417.27105,-1656.1517)"><flowRegion
+                 id="flowRegion5522"><rect
+                   id="rect5524"
+                   width="108.33653"
+                   height="53.539658"
+                   x="187.14285"
+                   y="622.85712"
+                   style="text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1" /></flowRegion><flowPara
+                 style="font-size:20px"
+                 id="flowPara5526">Exam created</flowPara></flowRoot>          </g>
+          <g
+             transform="translate(-59.273071,-104.78264)"
+             id="g6139">
+            <rect
+               id="rect4136-2"
+               width="190.75554"
+               height="119.26031"
+               x="627.01331"
+               y="-805.62689"
+               style="fill:#349fdd;fill-opacity:1" />
+            <flowRoot
+               xml:space="preserve"
+               id="flowRoot6131"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+               transform="translate(-32.914612,-1105.7598)"><flowRegion
+                 id="flowRegion6133"><rect
+                   id="rect6135"
+                   width="169.53499"
+                   height="59.015343"
+                   x="669.55603"
+                   y="332.66995"
+                   style="text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1" /></flowRegion><flowPara
+                 id="flowPara6137">Learner opens exam page</flowPara></flowRoot>          </g>
+          <g
+             transform="translate(-59.273071,41.715601)"
+             id="g6139-7">
+            <g
+               id="g6222">
+              <rect
+                 style="fill:#349fdd;fill-opacity:1"
+                 y="-784.16675"
+                 x="627.01331"
+                 height="119.26031"
+                 width="190.75554"
+                 id="rect4136-2-4" />
+              <flowRoot
+                 transform="translate(-36.786659,-1107.4931)"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+                 id="flowRoot6131-9"
+                 xml:space="preserve"><flowRegion
+                   id="flowRegion6133-9"><rect
+                     style="text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1"
+                     y="332.66995"
+                     x="669.55603"
+                     height="99.789597"
+                     width="178.119"
+                     id="rect6135-5" /></flowRegion><flowPara
+                   id="flowPara6137-73">Learner configures proctoring software</flowPara></flowRoot>            </g>
+          </g>
+          <g
+             id="g6444-7"
+             transform="translate(-59.273072,231.13418)">
+            <rect
+               id="rect4136-2-3-0"
+               width="190.75554"
+               height="119.26031"
+               x="627.01331"
+               y="-805.62689"
+               style="fill:#349fdd;fill-opacity:1" />
+            <flowRoot
+               xml:space="preserve"
+               id="flowRoot6131-1-1"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+               transform="translate(-37.313026,-1118.3917)"><flowRegion
+                 id="flowRegion6133-935-4"><rect
+                   id="rect6135-8-7"
+                   width="179.19202"
+                   height="78.32946"
+                   x="669.55603"
+                   y="332.66995"
+                   style="text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1" /></flowRegion><flowPara
+                 id="flowPara6137-2-7">Learner completes exam problems</flowPara></flowRoot>          </g>
+          <g
+             id="g6139-8-9"
+             transform="translate(196.10248,214.53555)">
+            <g
+               id="g6467-0"
+               transform="translate(-255.37555,184.55711)">
+              <rect
+                 id="rect4136-2-32-8"
+                 width="190.75554"
+                 height="119.26031"
+                 x="627.01331"
+                 y="-805.62689"
+                 style="fill:#349fdd;fill-opacity:1" />
+              <flowRoot
+                 xml:space="preserve"
+                 id="flowRoot6131-81-0"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+                 transform="translate(-38.278847,-1116.1456)"><flowRegion
+                   id="flowRegion6133-99-7"><rect
+                     id="rect6135-4-5"
+                     width="180.26501"
+                     height="82.621506"
+                     x="669.55603"
+                     y="332.66995"
+                     style="text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1" /></flowRegion><flowPara
+                   id="flowPara6137-38-5">Learner submits exam or time runs out</flowPara></flowRoot>            </g>
+          </g>
+          <g
+             transform="translate(-59.273072,567.05115)"
+             id="g6558">
+            <rect
+               style="fill:#349fdd;fill-opacity:1"
+               y="-805.62689"
+               x="627.01331"
+               height="119.26031"
+               width="190.75554"
+               id="rect4136-2-32-8-3" />
+            <flowRoot
+               transform="translate(-38.278847,-1116.1456)"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+               id="flowRoot6131-81-0-2"
+               xml:space="preserve"><flowRegion
+                 id="flowRegion6133-99-7-3"><rect
+                   style="text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1"
+                   y="332.66995"
+                   x="669.55603"
+                   height="82.621506"
+                   width="180.26501"
+                   id="rect6135-4-5-0" /></flowRegion><flowPara
+                 id="flowPara6137-38-5-1">Proctoring service team reviews exam record</flowPara></flowRoot>          </g>
+          <g
+             id="g6139-8-9-0"
+             transform="translate(196.10248,550.45231)">
+            <g
+               id="g6588">
+              <rect
+                 id="rect4136-2-32-8-6"
+                 width="190.75554"
+                 height="119.26031"
+                 x="371.63776"
+                 y="-621.06976"
+                 style="fill:#349fdd;fill-opacity:1" />
+              <flowRoot
+                 xml:space="preserve"
+                 id="flowRoot6131-81-0-9"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+                 transform="translate(-293.04502,-944.08846)"><flowRegion
+                   id="flowRegion6133-99-7-4"><rect
+                     id="rect6135-4-5-1"
+                     width="179.192"
+                     height="109.44666"
+                     x="669.55603"
+                     y="332.66995"
+                     style="text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1" /></flowRegion><flowPara
+                   id="flowPara6137-38-5-5">Proctoring service returns review result to course team</flowPara></flowRoot>            </g>
+          </g>
+        </g>
+      </g>
+      <rect
+         y="-1057.0173"
+         x="67.591949"
+         height="1161.3562"
+         width="770.6203"
+         id="rect10677"
+         style="fill:none;fill-opacity:1;stroke:#4f595d;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+  </g>
+</svg>
