@@ -19,8 +19,7 @@ into the LaTeX editor, you make a few adjustments.
           in problems that you haven't yet written, use any of the other
           problem templates together with `MathJax <http://www.mathjax.org>`_.
           For more information about how to create mathematical expressions in
-          Studio using MathJax, see *A Brief Introduction to MathJax in
-          Studio*.
+          Studio using MathJax, see :ref:`MathJax in Studio`.
 
 .. image:: ../../../shared/images/ProblemWrittenInLaTeX.png
  :alt: Image of a problem written in LaTeX

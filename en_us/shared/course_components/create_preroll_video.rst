@@ -1,4 +1,4 @@
-.. _Adding a Pre-Roll Video:
+.. _Adding a PreRoll Video:
 
 *******************************************
 Adding a Pre-Roll Video to Your edX Course

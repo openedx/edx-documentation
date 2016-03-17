@@ -20,6 +20,8 @@
 
 .. _edx.org: http://edx.org
 
+.. _Edge: http://edge.edx.org
+
 .. _Edge registration: http://edge.edx.org/register
 
 .. _XML file: https://edge.edx.org/auth/saml/metadata.xml
@@ -266,6 +268,7 @@
 
 .. _Wikipedia XML entry: http://en.wikipedia.org/wiki/XML
 
+.. _LON-CAPA: http://www.lon-capa.org/
 
 .. _LON-CAPA XML format: https://s1.lite.msu.edu/adm/help/Authoring_XML_Intro.hlp#Authoring_XML_Intro
 
@@ -273,7 +276,6 @@
 .. _Sphinx: http://sphinx-doc.org/
 
 .. _LaTeX: http://www.latex-project.org/
-
 
 .. _RST: http://docutils.sourceforge.net/rst.html
 
@@ -349,7 +351,6 @@
 
 
 .. _Sphinx: http://sphinx-doc.org/
-.. _LaTeX: http://www.latex-project.org/
 .. _GitHub Flow: https://github.com/blog/1557-github-flow-in-the-browser
 .. _RST: http://docutils.sourceforge.net/rst.html
 
