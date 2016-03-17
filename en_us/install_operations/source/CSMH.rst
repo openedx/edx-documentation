@@ -68,10 +68,6 @@ named ``student_module_history``. The software available on the master branch
 of the edx-platform repository as of 16 March 2016 writes records to this
 database and table.
 
-To avoid data loss, the system continues to read the records in both tables,
-the original in the default database and the extended table in the
-``student_module_history`` database.
-
 =======================
 Migrating Table Data
 =======================
@@ -79,6 +75,10 @@ Migrating Table Data
 To migrate the data from the original table to the extended table, you enable a
 feature flag, ``ENABLE_CSMH_EXTENDED``. This change starts the migration
 script.
+
+To avoid data loss during the migration, the system reads the records in both
+the original table in the default database and the extended table in the
+``student_module_history`` database.
 
 When the migration is complete, you enable another feature flag,
 ``READ_ONLY_FROM_CSMHE``, so that new records are written only to the extended
