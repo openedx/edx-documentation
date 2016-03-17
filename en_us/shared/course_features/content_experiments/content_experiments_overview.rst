@@ -20,10 +20,14 @@ experiments enable you to research and compare the performance of learners in
 different groups to gain insight into the relative effectiveness of your course
 content.
 
-Information on analyzing events from content experiments is included in the
-`edX Researcher Guide`_.
+If your course uses content experiments, the grade report that you generate
+from the Instructor Dashboard includes a column identifying the experiment
+group that each learner has been assigned to. For more information, see
+:ref:`Interpret the Grade Report`.
 
-.. _edX Researcher Guide: http://edx.readthedocs.org/projects/devdata/en/latest/internal_data_formats/tracking_logs.html#a-b-testing-events
+For information about analyzing events from content experiments, see
+:ref:`data:AB_Event_Types` in the *EdX Research Guide*.
+
 
 .. _Courses with Multiple Content Experiments:
 
