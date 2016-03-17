@@ -107,13 +107,13 @@ Vagrant before continuing with the installation process.
 Be sure to verify that you have the most up-to-date Git tag for the Open edX
 releases on the `Open edX Releases Wiki page`_.
 
-* For Devstack installations, run the following command.
+* For devstack installations, run the following command.
 
    .. code-block:: bash
 
      $ vagrant box add /{path-to-downloaded-box}/{vagrant-box-name} --name {Git-tag}
 
-* For Fullstack installations, run the following command.
+* For fullstack installations, run the following command.
 
    .. code-block:: bash
 
@@ -167,9 +167,10 @@ Automatic Upgrading
 On the computer or virtual machine that is running the Cypress release of Open
 edX, run the upgrade script for your type of installation.
 
-* For Devstack, run ``./migrate.sh -c devstack -t {Git tag}``.
+* For devstack, run ``./migrate.sh -c devstack -t named-release/dogwood``.
 
-* For Fullstack, run ``./migrate.sh -c fullstack -t {Git tag}``.
+* For fullstack, run
+  ``./migrate.sh -c fullstack -t named-release/dogwood``.
 
 You can find the most up-to-date Git tag for the current Open edX release on
 the `Open edX Releases Wiki page`_.
@@ -238,4 +239,4 @@ The upgrade from Cypress to Dogwood includes these steps.
 Similar steps are followed to upgrade other repositories such as xqueue.
 
 
-.. include:: ../../links/links.rst
+.. include:: ../../../links/links.rst

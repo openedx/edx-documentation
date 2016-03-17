@@ -1,115 +1,21 @@
-.. _Installing the Open edX Analytics Developer Stack:
+.. _Starting the Open edX Analytics Developer Stack:
 
 #################################################
-Installing the Open edX Analytics Developer Stack
+Starting Open edX Analytics Devstack
 #################################################
 
-This section describes how to install and run the Open edX analytics developer
-Stack.
+This section describes how to start the Open edX Analytics developer
+stack (analytics devstack).
 
 .. contents::
    :local:
    :depth: 1
 
-**********
-Overview
-**********
-
-The Open edX analytics developer stack, known as the analytics devstack, is a
-modified version of the :ref:`Open edX Developer Stack<Installing the Open edX
-Developer Stack>`.
-
-It provides all of the services and tools needed to modify the Open
-edX Analytics Pipeline, Data API, and Insights projects.
-
-********************
-Components
-********************
-
-The analytics devstack includes the following additional components.
-
-* edX Analytics Data API
-* edX Insights
-
-The analytics devstack also includes all of the components needed to run the
-Open edX Analytics Pipeline, which is the primary ETL (extract, transform, and
-load) tool that extracts and analyzes data from the other Open edX services.
-
-***********************************
-Install the Software Prerequisites
-***********************************
-
-To install and run the analytics devstack, you must first install the following
-required software.
-
-* `VirtualBox`_ 4.3.12 or higher.
-
-* `Vagrant`_ 1.6.5 or higher.
-
-* A Network File System (NFS) client, if your operating system does not already
-  include one. Devstack uses VirtualBox Guest Editions to share folders through NFS.
-
-Additionally, the Open edX Analytics Pipeline includes a tool that is used to
-deploy itself. To make use of these tools, follow these steps.
-
-#. Clone the repository on your host, not on the Virtual Machine.
-
-   .. code-block:: bash
-
-      $ git clone https://github.com/edx/edx-analytics-pipeline
-
-
-#. Install the project dependencies into a virtualenv on your host.
-
-   .. code-block:: bash
-
-      $ cd edx-analytics-pipeline
-      $ virtualenv venv
-      $ source venv/bin/activate
-      $ make bootstrap
-
-The system is now ready to start running tasks on the analytics devstack
-using the ``remote-task`` tool.
-
-
-.. _Install the Analytics Devstack:
-
-******************************
-Install the Analytics Devstack
-******************************
-
-To install the analytics devstack extensions directly from the command line,
-follow these steps.
-
-#. Create the ``analyticstack`` directory and navigate to it in the command
-   prompt.
-
-   .. code-block:: bash
-
-     $ mkdir analyticstack
-     $ cd analyticstack
-
-#. Download the analytics devstack Vagrant file.
-
-   .. code-block:: bash
-
-     $ curl -L https://raw.github.com/edx/configuration/master/vagrant/release/analyticstack/Vagrantfile > Vagrantfile
-
-#. Create the analytics devstack virtual machine.
-
-   .. code-block:: bash
-
-     $ vagrant up
-
 ****************************
-Using the Analytics Devstack
+Starting the Open edX LMS
 ****************************
 
-====================
-Run the Open edX LMS
-====================
-
-#. Log in to the analytics devstack.
+#. Log in to analytics devstack.
 
    .. code-block:: bash
 
@@ -127,11 +33,11 @@ Run the Open edX LMS
 
      $ paver devstack lms
 
-===================================
-Run the Open edX Analytics Data API
-===================================
+****************************************
+Starting the Open edX Analytics Data API
+****************************************
 
-#. Log in to the analytics devstack.
+#. Log in to analytics devstack.
 
    .. code-block:: bash
 
@@ -149,11 +55,11 @@ Run the Open edX Analytics Data API
 
      $ ~/venvs/analytics_api/bin/python ~/analytics_api/manage.py runserver 0.0.0.0:8100 --insecure
 
-=====================
-Run Open edX Insights
-=====================
+**************************
+Starting Open edX Insights
+**************************
 
-#. Log in to the analytics devstack.
+#. Log in to analytics devstack.
 
    .. code-block:: bash
 
@@ -183,9 +89,9 @@ Run Open edX Insights
    .. important:: Be sure to use the IP address ``127.0.0.1`` instead of
      ``localhost``. Using ``localhost`` will prevent you from logging in.
 
-===================================
-Run the Open edX Analytics Pipeline
-===================================
+************************************************
+Starting the Open edX Analytics Pipeline
+************************************************
 
 #. In the Devstack LMS, register a new user and enroll in the demo course.
 
@@ -223,4 +129,4 @@ Run the Open edX Analytics Pipeline
            --marker hdfs://localhost:9000/edx-analytics-pipeline/output/answer_distribution_raw/$UNIQUE_NAME/marker \
            --n-reduce-tasks 1
 
-.. include:: ../../../links/links.rst
+.. include:: ../../../../links/links.rst
