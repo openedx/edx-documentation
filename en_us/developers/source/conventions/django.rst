@@ -1,3 +1,5 @@
+.. _Django Good Practices:
+
 *********************
 Django Good Practices
 *********************

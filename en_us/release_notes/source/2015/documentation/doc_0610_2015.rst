@@ -6,7 +6,7 @@ Building and Running an edX Course
 **********************************
 
 The :ref:`partnercoursestaff:Working with Video Components` section now
-includes an :ref:`partnercoursestaff:Adding a Pre-Roll Video` topic.
+includes an :ref:`partnercoursestaff:Adding a PreRoll Video` topic.
 
 EdX Research Guide
 **********************************
