@@ -25,9 +25,9 @@ The philosophy behind the recommendations in this section is to make things as
 simple as possible for developers. Protecting against XSS vulnerabilities
 typically requires properly escaping user-provided data before it is placed on
 the page. Rather than trying to determine if data is user-provided and could
-be compromised, you should play it safe and escape everything. Unfortunately,
-because there are many different rules for escaping, you still must choose the
-proper type of escaping.
+be compromised, we will play it safe and escape data whether it is user-provided
+or not. Unfortunately, because there are many different rules for escaping, you
+still must choose the proper type of escaping.
 
 Here are some general rules.
 
@@ -56,6 +56,13 @@ Here are some general rules.
 
 Types of Context and Escaping
 *****************************
+
+.. contents::
+   :depth: 1
+   :local:
+
+Overview of Contexts
+====================
 
 The following diagram provides a high-level overview of the relationship
 between the different templates, different contexts of DOM creation and
@@ -115,8 +122,14 @@ Descriptions of each numbered arrow in the diagram follow.
    attributes are being written any plain text must be properly HTML-escaped.
 
 
-How Escaping Makes Templates Safe
-*********************************
+HTML Context and Escaping
+=========================
+
+The outtermost context of an HTML file is HTML. In an HTML context inside an
+HTML file, data is kept safe by HTML-escaping.
+
+How HTML-Escaping Makes HTML Safe
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. highlight:: mako
 
@@ -150,7 +163,7 @@ potential to do something much more malicious than simply displaying a pop-up.
 An example might be to steal and email the user's cookies.
 
 In Mako, you can introduce HTML-escaping for all expressions on a page using
-the page directive with the ``h`` filter.  Here is an example of an expression
+the page directive with the ``h`` filter. Here is an example of an expression
 that is properly HTML-escaped.
 
 .. code-block:: mako
@@ -168,8 +181,19 @@ The resulting safe page source is as follows.
 This time, the browser will not interpret the ``<script>`` tag as a JavaScript
 context, and instead simply displays the original string in the page.
 
-Now, let's review an example of an expression used in a valid JavaScript context
-created using a ``<script>`` tag inside a Mako template.
+
+JavaScript Context and Escaping
+===============================
+
+The outtermost context of a JavaScript file is JavaScript. An HTML file also
+contains a JavaScript context inside any `<script>` tag. Inside a JavaScript
+context, data is kept safe by JavaScript-escaping.
+
+How JavaScript-Escaping Makes HTML Safe
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Here is an example of an expression used in a valid JavaScript context created
+using a ``<script>`` tag inside a Mako template.
 
 .. code-block:: mako
 
@@ -178,7 +202,8 @@ created using a ``<script>`` tag inside a Mako template.
        ...
     </script>
 
-For this example, imagine that someone set the course name as shown here.
+For this example, imagine that someone uses Studio to set the course name as
+shown here.
 
 .. code-block:: mako
 
@@ -199,7 +224,7 @@ into executing the malicious JavaScript in the context of JavaScript. There
 are several reasons why you do not want to use the default HTML-escaping here.
 
 #. JavaScript-escaping will also escape all characters that are special
-   characters in HTML, such as  ``<``. However, JavaScript-escaping will
+   characters in HTML, such as ``<``. However, JavaScript-escaping will
    escape ``<`` to ``\u003C``, rather than to ``&lt;``. This will still keep
    the browser from finding an HTML tag where it does not belong.
 
@@ -226,6 +251,60 @@ The code above would produce the following safe page source.
        var courseName = "\u0022\u003Balert(\u0027XSS attack!\u0027)\u003B\u0022\u0022\u003B";
        ...
     </script>
+
+
+CSS Context and Escaping
+========================
+
+The browser will treat any code inside a ``<style>`` tag or ``style`` attribute
+in an HTML page as a CSS context, or something that requires CSS parsing. CSS
+parsing has its own rules, and requires CSS-escaping.
+
+In a CSS context, user supplied data has some additional constraints required
+for keeping it safe:
+
+* User supplied data can only appear as the value of a style property. In other
+  words, never allow a user to supply the entire contents of the style tag or
+  style property, or anything outside of the limited scope of an individual
+  property value.
+
+* User supplied urls must use a whitelisted or acceptable protocol (e.g. http).
+  This is to avoid users being able to supply a url that uses the "javascript"
+  protocol as an example.
+
+* User supplied style property values must not contain ``expression(...)`` due
+  to an IE feature that would enable arbitrary JavaScript to run.
+
+There are no existing helper functions for this in the platform. If you need to
+use user supplied data in a CSS context you must work with edX to help expand
+the suite of available helpers.
+
+For more information, see
+`OWASP: CSS and XSS <https://www.owasp.org/index.php/XSS_(Cross_Site_Scripting)_Prevention_Cheat_Sheet#RULE_.234_-_CSS_Escape_And_Strictly_Validate_Before_Inserting_Untrusted_Data_into_HTML_Style_Property_Values>`_.
+
+
+URL Context and Escaping
+========================
+
+URLs must be URL-escaped. For example, use URL-escaping in the ``href``
+attribute of an anchor tag (``<a>``). After the url is URL-escaped, it would
+next need to be properly JavaScript-escaped or HTML-escaped, depending on the
+context.
+
+To properly URL-escape, you can use the following helpers.
+
+* Use `urllib
+  <https://docs.python.org/2/library/urllib.html#utility-functions>`_ for
+  URL-escaping in Python, or
+* Use the ``encodeURI`` or ``encodeURIComponent`` functions `available in JavaScript
+  <http://www.w3schools.com/jsref/jsref_obj_global.asp>`_.
+
+If the URL itself is user supplied, and not just the query parameters, you must
+also validate the URL to ensure it uses a whitelisted or acceptable protocol
+(e.g. http). This is to avoid users being able to supply a url that uses
+the "javascript" protocol as an example.
+
+For more information, see `oWASP: URL Escape <https://www.owasp.org/index.php/XSS_(Cross_Site_Scripting)_Prevention_Cheat_Sheet#RULE_.235_-_URL_Escape_Before_Inserting_Untrusted_Data_into_HTML_URL_Parameter_Values>`_.
 
 
 Editing Template Files
@@ -297,14 +376,14 @@ For more of a step-by-step set of instructions for converting a legacy Mako
 template file to be safe by default, see
 :ref:`Making Mako Templates Safe By Default`.
 
-.. _HTML-escape Mako by Default:
+.. _HTML-Escape Mako by Default:
 
-HTML-escape by Default in Mako
+HTML-Escape by Default in Mako
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. highlight:: mako
 
-For Mako templates, all expressions will use HTML-escaping by default.  This is
+For Mako templates, all expressions will use HTML-escaping by default. This is
 accomplished by adding the following directive to the very top of each
 template. ::
 
@@ -317,15 +396,15 @@ HTML-escaped expression. ::
     ...
     ${data}
 
-If you need to disable the default filters, you must use the ``n`` filter as
 the first filter. This can be seen in some of the examples below.
 
+If you need to disable the default filters, you must use the ``n`` filter as
 For more information, see `Mako: Expression Filtering <http://docs.makotemplates.org/en/latest/filtering.html>`_.
 
 Determining the Context in Mako
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Most of the Mako template files are in an HTML context.  That is why
+Most of the Mako template files are in an HTML context. That is why
 HTML-escaping is a good default option.
 
 A JavaScript context can either appear explicitly through the use of a
@@ -333,9 +412,10 @@ A JavaScript context can either appear explicitly through the use of a
 which itself sets up the ``<script>`` context.
 
 When converting a Python object to JSON, there are two very similar filters
-named ``dump_html_escaped_json`` and ``dump_js_escaped_json``.  It is important
+named ``dump_html_escaped_json`` and ``dump_js_escaped_json``. It is important
 to first know the context you are in to properly choose the ``html`` or ``js``
 version.
+
 
 .. _HTML Context in Mako:
 
@@ -343,7 +423,7 @@ HTML Context in Mako
 ~~~~~~~~~~~~~~~~~~~~
 
 Most Mako expressions in an HTML context will already be properly HTML-escaped.
-See :ref:`HTML-escape Mako by Default`.
+See :ref:`HTML-Escape Mako by Default`.
 
 When you need to dump JSON in the context of HTML (for example, into a data
 attribute), you must use ``dump_html_escaped_json``. This same filter can be
@@ -388,7 +468,7 @@ For more details about translating strings and ensuring proper escaping, see
 :ref:`i18n`.
 
 There are times where a block of HTML is retrieved using a function in a Mako
-expression.  For example, review the following Mako expression.
+expression. For example, review the following Mako expression.
 
 .. code-block:: mako
 
@@ -402,15 +482,6 @@ function as HTML and turn off the default HTML-escaping. Using the ``HTML()``
 function by itself can be very dangerous, unless you make sure that the
 function returning the HTML has itself properly escaped any plain text.
 
-Another case to consider is using Mako ``%block``s.  A Mako ``%block`` must be
-escaped for use in a single context. Typically, this context will be HTML. Here
-is an example.
-
-.. code-block:: mako
-
-    <%page expression_filter="h"/>
-    ...
-    <%block name="title">${display_name}</%block>
 
 .. _JavaScript Context in Mako:
 
@@ -454,15 +525,11 @@ context of JavaScript in a Mako template.
         });
     </%static:require_module>
 
-If you have a string that already contains JSON and might contain user
-provided data, the way to ensure it is safe in a JavaScript context is to use
-``json.loads`` and then use ``dump_js_escaped_json``. In many cases, it would be
-better to remove the call to ``json.dumps`` from the Python file feeding the
-Mako template, where it can then be properly converted to a string using
-``dump_js_escaped_json``.
+If you have a string that already contains JSON, rather than a Python object,
+see :ref:`Strings with JSON` for how to resolve this situation.
 
 In general, the JavaScript code inside a Mako template file should be succinct,
-simply providing a bridge to a JavaScript file.  For best practices for
+simply providing a bridge to a JavaScript file. For best practices for
 any JavaScript code outside of the Mako expressions, see
 :ref:`Safe JavaScript Files`.
 
@@ -470,7 +537,7 @@ Mako Defs
 ~~~~~~~~~
 
 In a Mako ``%def`` we encounter one of the rare cases where we need to turn off
-default HTML-escaping using ``| n, unicode``.  In the example below, this is
+default HTML-escaping using ``| n, unicode``. In the example below, this is
 done because the expression assumes that the required JavaScript-escaping was
 already performed by the caller.
 
@@ -513,7 +580,7 @@ elements have a ``text()`` method (in addition to the ``html()`` method) to
 add plain text to the DOM by first HTML-escaping the text.
 
 In the case of Backbone.js models, although attributes can be retrieved using
-the  ``get()`` or ``escape()`` methods, you should avoid using the
+the ``get()`` or ``escape()`` methods, you should avoid using the
 ``escape()`` method, which will HTML-escape the retrieved value. It is
 preferable to use the ``get()`` method and delay escaping until the time of
 rendering, which is handled using an Underscore.js template.
@@ -561,7 +628,7 @@ Making Legacy Mako Templates Safe by Default
 .. highlight:: mako
 
 This topic provides a step-by-step set of instructions for making our Mako
-templates safe by default.  For all best practices for writing a new Mako
+templates safe by default. For all best practices for writing a new Mako
 template, see :ref:`Safe Mako Template Files`.
 
 By default, our Mako templates perform no escaping for expressions.
@@ -726,7 +793,7 @@ Fix Downstream JavaScript and Underscore.js Templates
 =====================================================
 
 Because Mako templates only generate the initial page source, you should
-ensure that any downstream JavaScript files or Underscore.js templates  also
+ensure that any downstream JavaScript files or Underscore.js templates also
 follow the best practices.
 
 It can be difficult to trace through all these dependencies. One tip that is
@@ -747,6 +814,123 @@ Files` and :ref:`Safe Underscorejs Template Files`.
 
 For information about internationalized strings found in JavaScript, see
 :ref:`i18n`.
+
+
+Advanced Topics
+***************
+
+The following advanced topics provides details that may be useful for those
+interested in a deeper understanding or an understanding of more rare
+situations.
+
+.. contents::
+   :depth: 1
+   :local:
+
+
+Why both ``js_escaped_string`` or ``dump_js_escaped_json``?
+===========================================================
+
+In Mako templates, why don't we just use ``dump_js_escaped_json`` to escape
+strings as well, rather than using ``js_escaped_string``?
+
+* The ``js_escaped_string`` function provides the additional benefit of
+  returning an empty string in the case of None.
+* The ``js_escaped_string`` and wrapping quotes makes the expected type more
+  declarative.
+
+Mako Filter Ordering and the ``n`` filter
+=========================================
+
+Mako executes any default filter before any filter that is added inside an
+expression. Additionally, one of the default filters is the ``unicode`` filter.
+This filter is used to decode to utf8, but only if the Python object is not
+already unicode.
+
+Let's take the following example Mako expression.
+
+.. code-block:: mako
+
+    ${data | h}
+
+When Mako compiles this to Python, it gets translated to the following Python
+code.
+
+.. code-block:: python
+
+    __M_writer(filters.html_escape(filters.decode.utf8(data)))
+
+From the Python line above, you can see that the default ``unicode`` filter is
+applied before the the ``h`` filter which was supplied inside the expression.
+
+The ``n`` filter can be used to turn off all default filters, including the
+``unicode`` filter. Here is an example Mako expression.
+
+.. code-block:: mako
+
+    ${data | n}
+
+In this case, when Mako compiles this to Python we get the following Python.
+
+.. code-block:: python
+
+    __M_writer(data)
+
+For more information, see `Mako: Expression Filtering <http://docs.makotemplates.org/en/latest/filtering.html>`_.
+
+
+Mako Blocks
+===========
+
+A Mako ``%block`` can sometimes create tricky situations where the context is
+not clear. In these cases, it would be best to provide the context (e.g. HTML or
+JavaScript) in the name of the block.
+
+Take the following Mako ``%block`` definition as an example.
+
+.. code-block:: mako
+
+    <%page expression_filter="h"/>
+    ...
+    <%block name="html_title">${display_name}</%block>
+
+Based on the above ``%block`` definition, only the name of the block tells us
+that it is HTML-escaped, and only usable in an HTML context. You could not use
+this same ``%block`` in a JavaScript context.
+
+Here is this same ``%block`` above, as it is actually used to display the title.
+
+.. code-block:: mako
+
+    <title>
+        <%block name="html_title"></%block>
+    </title>
+
+For more information, see `Mako: Defs and Blocks
+<http://docs.makotemplates.org/en/latest/defs.html>`_.
+
+
+.. _Strings with JSON:
+
+Strings Containing JSON in Mako
+===============================
+
+In a Mako template, it is better to work with Python objects, rather than
+strings containing JSON.
+
+If you find yourself with a string that contains JSON inside a Mako template,
+try to remove the call to ``json.dumps`` that created the JSON string in the
+Python file feeding the Mako template.
+
+In the rare case that you can't avoid having a string that contains JSON, and it
+might contain user provided data, you must ensure it is safe by parsing it and
+then dumping it again. Here is an example.
+
+.. code-block:: mako
+
+    <script>
+        var options = ${json.loads(options_json_string) | n, dump_js_escaped_json};
+    </script>
 
 
 .. _Safe Templates Additional Resources:
