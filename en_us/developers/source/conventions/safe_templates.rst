@@ -839,24 +839,41 @@ Because Mako templates only generate the initial page source, you should
 ensure that any downstream JavaScript files or Underscore.js templates also
 follow the best practices.
 
-It can be difficult to trace through all these dependencies. One tip that is
-useful is to know that ``-tpl`` is often appended to the name of an
-Underscore.js template name inside the JavaScript code.
-
-For example, when you see the following line of JavaScript:
-
-.. code-block:: javascript
-
-    _.template($("#show-textbook-tpl").text());
-
-You will find the template code in a file named ``show-textbook.underscore``.
-
 When you have found the proper downstream JavaScript and Underscore.js template
 files, you can follow the best practices as detailed in :ref:`Safe JavaScript
 Files` and :ref:`Safe Underscorejs Template Files`.
 
 For information about internationalized strings found in JavaScript, see
 :ref:`i18n`.
+
+Navigating JavaScript and Underscore.js Templates
+=================================================
+
+TODO: Move this to Confluence and link from here.
+
+It can be difficult to trace through all of the JavaScript dependencies in some
+of our legacy code.
+
+One tip that is useful for our legacy code is knowing that ``-tpl`` is often
+appended to the name of an Underscore.js template name inside the JavaScript
+code. For example, you might see the following line of JavaScript.
+
+.. code-block:: javascript
+
+    _.template($("#show-textbook-tpl").text());
+
+The above code would indicate you will find the template code in a file named
+``show-textbook.underscore``.
+
+Newer code uses RequireJS to manage the JavaScript dependencies.  You may see
+code like the following.
+
+.. code-block:: javascript
+
+    require(['js/models/course'], function(Course) {
+
+This would indicate that you'll find a JavaScript file in
+``js/models/course.js``.
 
 
 Run Safe Template Linter
@@ -889,6 +906,7 @@ strings as well, rather than using ``js_escaped_string``?
   returning an empty string in the case of None.
 * The ``js_escaped_string`` and wrapping quotes makes the expected type more
   declarative.
+
 
 Mako Filter Ordering and the ``n`` filter
 =========================================
