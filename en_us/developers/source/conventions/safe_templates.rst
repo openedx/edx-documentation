@@ -987,7 +987,7 @@ then dumping it again. Here is an example.
 .. _Safe Template Linter:
 
 Safe Template Linter
-====================
+********************
 
 The safe template linter is a tool to help ensure best practices are being
 followed.
