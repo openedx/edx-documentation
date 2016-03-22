@@ -52,8 +52,8 @@ Installing the Cypress Release
 ******************************
 
 You can install the Open edX Cypress release using
-:ref:`Devstack <Install DevStack>` or
-:ref:`Fullstack <Install Open edX Fullstack>`.
+:ref:`Devstack <Installing the Open edX Developer stack>` or
+:ref:`Fullstack <Installing Open edX Fullstack>`.
 
 Review the prerequisites and instructions for each option, and then choose the
 option that best meets your needs. Ensure that you install the

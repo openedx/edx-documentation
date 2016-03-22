@@ -1,4 +1,4 @@
-.. _Installing the Open edX Developer Stack:
+.. _Installing the Open edX Developer stack:
 
 ########################################
 Installing Open edX Devstack
@@ -76,8 +76,9 @@ computer.
 
       export OPENEDX_RELEASE="named-release/dogwood"
 
-    If you do not set this environment variable, Vagrant will install the
-    most recent snapshot version of the Open edX platform. The snapshot version is not a supported release.
+    If you do not set this environment variable, Vagrant will install the most
+    recent snapshot version of the Open edX platform. The snapshot version is
+    not a supported release.
 
 #. Create and start the devstack virtual machine.
 
@@ -92,11 +93,11 @@ computer.
 
    When prompted, enter the administrator password for your local computer.
 
-When you have completed these steps, see :ref:`Running the Open edX Developer
+When you have completed these steps, see :ref:`Starting the Open edX Developer
 Stack` to begin using devstack.
 
-For help with the devstack installation, see :ref:`Troubleshooting the Devstack
-Installation`.
+For help with the devstack installation, see
+:ref:`troubleshooting_devstack_installation`.
 
 .. _install_devstack_with_torrent_file:
 
@@ -197,10 +198,10 @@ client, follow these steps.
 
    When prompted, enter the administrator password for your local computer.
 
-When you have completed these steps, see :ref:`Running the Open edX Developer
+When you have completed these steps, see :ref:`Starting the Open edX Developer
 Stack` to begin using devstack.
 
-For help with the devstack installation, see :ref:`Troubleshooting the Devstack
-Installation`.
+For help with the devstack installation, see
+:ref:`troubleshooting_devstack_installation`.
 
 .. include:: ../../../../links/links.rst
