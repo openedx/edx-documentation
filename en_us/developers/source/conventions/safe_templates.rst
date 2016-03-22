@@ -464,13 +464,25 @@ string, continue to use the default ``h`` filter.
         data-course-is-great='${course.is_great | n, dump_html_escaped_json}'
     ></div>
 
-There are also special methods useful for properly escaping and translating
-strings. To mix plain text and HTML using ``format()``, you must use the
-``HTML()`` and ``Text()`` functions. Use the ``HTML()`` function when you have
-a replacement string that contains HTML tags. For the ``HTML()`` function to
-work, you must first use the ``Text()`` function to wrap the plain text
-translated string. Both the ``HTML()`` and ``Text()`` functions must be closed
-before any calls to ``format()``.
+For translations that contain no HTML tags, the default HTML-escaping is
+enough. See the following simple example.
+
+.. code-block:: mako
+
+    <%page expression_filter="h"/>
+    <%!
+    from django.utils.translation import ugettext as _
+    %>
+    ...
+    ${_("Course Outline")}
+
+For more complicated examples of translations that mix plain text and HTML, use
+the the ``HTML()``, ``Text()``, and ``format()`` functions. Use the ``HTML()``
+function when you have a replacement string that contains HTML tags. For the
+``HTML()`` function to work, you must first use the ``Text()`` function to wrap
+the plain text translated string. Both the ``HTML()`` and ``Text()`` functions
+must be closed before any calls to ``format()``.  You will not use the ``Text``
+function where you don't need the ``HTML()`` function.
 
 .. code-block:: mako
 
@@ -485,6 +497,7 @@ before any calls to ``format()``.
         link_start=HTML('<a href="/home">'),
         link_end=HTML('</a>'),
     )}
+
 
 For more details about translating strings and ensuring proper escaping, see
 :ref:`i18n`.
@@ -731,7 +744,9 @@ the use of ``<%static:require_module>``.
 
 Check that all Mako expressions (``${}``) in these JavaScript contexts are
 using either ``| n, dump_js_escaped_json`` or ``| n, js_escaped_string``, as
-detailed in :ref:`JavaScript Context in Mako`.
+detailed in :ref:`JavaScript Context in Mako`.  For strings, use
+``js_escaped_string`` with quotes around the expression, rather than
+``dump_js_escaped_json``.
 
 If the template was using the ``escapejs`` function, replace it with ``| n,
 js_escaped_string``, which will also make sure that the string is unicode and
