@@ -859,6 +859,14 @@ For information about internationalized strings found in JavaScript, see
 :ref:`i18n`.
 
 
+Run Safe Template Linter
+========================
+
+Follow instructions for the :ref:`_Safe Template Linter`. Search for any rule
+violations in the files you are working on. Since accuracy and completeness is
+not guaranteed, this should just be used to check your work.
+
+
 Advanced Topics
 ***************
 
@@ -974,6 +982,26 @@ then dumping it again. Here is an example.
     <script>
         var options = ${json.loads(options_json_string) | n, dump_js_escaped_json};
     </script>
+
+
+.. _Safe Template Linter:
+
+Safe Template Linter
+====================
+
+The safe template linter is a tool to help ensure best practices are being
+followed.
+
+The linter should be used in addition to following all documented best
+practices. It does not yet cover all rules. Additionally, for rules it
+does cover, it may output false positives. This is especially true with the
+Underscore.js template expressions.
+
+For help running the linter, use the following command.
+
+.. code-block:: bash
+
+    edxapp@precise64:~/edx-platform$ ./scripts/safe_template_linter.py --help
 
 
 .. _Safe Templates Additional Resources:
