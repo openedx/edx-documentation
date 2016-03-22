@@ -43,7 +43,7 @@ Here are some general rules.
 
 #. **Escape appropriately.** Know what kind of data you have (HTML, plain text,
    JSON, etc.) and where it is going (HTML, JavaScript, etc.). Choose the
-   proper escaping method based on these details.
+   proper escaping function based on these details.
 
 #. **Validation is not sufficient.** Validating inputs does not replace the
    need to properly escape. In some cases, this may reduce the likelihood of
@@ -295,7 +295,7 @@ There are many special characters that are meaningful in a URL. For example,
 both `&` and `=` are used to designate parts of the query string. If data is
 being provided as a query parameter, and it may contain special characters, it
 must be fully URL-escaped. This is especially true with user provided data which
-could contain any character. Using the JavaScript URL-escaping methods as an
+could contain any character. Using the JavaScript URL-escaping functions as an
 example, you would use the ``encodeURIComponent`` function on the data which
 will URL-escape all special characters.  Here is an example.
 
@@ -624,23 +624,114 @@ JavaScript Files
 .. highlight:: javascript
 
 JavaScript files are often used to perform DOM manipulation, and must properly
-HTML-escape text before inserting it into the DOM. In general, you should use
-an Underscore.js template and follow the best practices for doing so.
+HTML-escape text before inserting it into the DOM.
 
-If there is a strong reason why you cannot use an Underscore.js template, or
-if you are reviewing legacy code, you can use the ``_.escape()`` function
-provided by Underscore.js to create HTML-escaped plain text. Also, jQuery
-elements have a ``text()`` method (in addition to the ``html()`` method) to
-add plain text to the DOM by first HTML-escaping the text.
+The UI Toolkit has introduced various ``StringUtils`` and ``HtmlUtils`` that are
+handy for handling escaping in JavaScript.  You can declare ``StringUtils`` and
+``HtmlUtils`` as dependencies using RequireJS ``define`` as seen in the following
+example.
+
+.. code-block:: javascript
+
+    define(['backbone',
+            'underscore',
+            'gettext',
+            'edx-ui-toolkit/js/utils/string-utils',
+            'edx-ui-toolkit/js/utils/html-utils'],
+        function (Backbone, _, gettext, StringUtils, HtmlUtils) {
+            ...
+
+The following ``HtmlUtils`` functions all make use of ``HtmlUtils.HtmlSnippet``.
+An HTML snippet is used to communicate to other functions that the string it
+represents contains HTML that has been safely escaped as necessary.
+
+The ``HtmlUtils.ensureHtml()`` function will ensure you have properly escaped
+HTML by HTML-escaping any plain text string, or simply returning any HTML
+snippet provided to it.
+
+If you must do string interpolation and translation, and your string does not
+contain any HTML, then use the plain text ``StringUtils.interpolate()``
+function as follows. This function will not escape, and follows the best
+practice of delaying escaping as late as possible. Since the result is a plain
+text string, it would properly be treated as unescaped text by any of the
+``HtmlUtils`` functions.
+
+.. code-block:: javascript
+
+    StringUtils.interpolate(
+        gettext('You are enrolling in {courseName}'),
+        {
+            courseName: 'Rock & Roll 101'
+        }
+    );
+
+If you are performing string interpolation and translation with a mix of plain
+text and HTML, then you must perform HTML-escaping early and the result can be
+represented by an HTML snippet.  Use the ``HtmlUtils.HTML()`` function to wrap
+any string that is already HTML and must not be HTML-escaped. The function
+``HtmlUtils.interpolateHtml()`` will perform the interpolations and will
+HTML-escape any plain text and not HTML-escape anything wrapped with
+``HtmlUtils.HTML()``. See the following example.
+
+.. code-block:: javascript
+
+    HtmlUtils.interpolateHtml(
+        gettext('You are enrolling in {spanStart}{courseName}{spanEnd}'),
+        {
+            courseName: 'Rock & Roll 101',
+            spanStart: HtmlUtils.HTML('<span class="course-title">'),
+            spanEnd: HtmlUtils.HTML('</span>')
+        }
+    );
+
+You can also use ``HtmlUtils.joinHtml()`` to join together a mix of HTML
+snippets and plain text strings into a larger HTML snippet where each part will
+be properly HTML-escaped as necessary.  See the following example.
+
+.. code-block:: javascript
+
+    HtmlUtils.joinHtml(
+        HtmlUtils.HTML('<p>'),
+        gettext('This is the best course.'),
+        HtmlUtils.HTML('</p>')
+    )
+
+Often, much of the preparation of HTML in JavaScript can be written using an
+Underscore.js template. The function ``HtmlUtils.template()`` provides
+some enhancements for escaping.  First, it makes ``HtmlUtils`` available inside
+the template automatically. Also, it returns an Html snippet so that other
+``HtmlUtils`` functions know not to HTML-escape its results. It is assumed that
+any HTML-escaping required will take place inside the Underscore.js template.
+Follow the best practices detailed in :ref:`Safe Underscorejs Template Files`.
+
+The final step of DOM manipulation in JavaScript often happens using JQuery.
+There are some JQuery functions like ``$.text()``, ``$.attr()`` and ``$.val()``
+that expect plain text strings and take care of HTML-escaping its input for you.
+
+There are other JQuery functions like ``$.html()``, ``$.append()`` and
+``$.prepend()`` that expect HTML and adds it into the DOM. However, these
+functions don't know whether or not they are being provided properly escaped
+HTML as represented by an HTML snippet. In place of these functions, you will
+use ``HtmlUtils.setHtml()``, ``HtmlUtils.append()`` and ``HtmlUtils.prepend()``
+respectively. These ``HtmlUtils`` JQuery wrappers respect HTML snippets, and can
+be used as seen in the following example.
+
+.. code-block:: javascript
+
+    HtmlUtils.setHtml(
+        this.$el.html,
+        HtmlUtils.joinHtml(
+            HtmlUtils.HTML('<p>'),
+            gettext('This is the best course.'),
+            HtmlUtils.HTML('</p>')
+        )
+    );
 
 In the case of Backbone.js models, although attributes can be retrieved using
-the ``get()`` or ``escape()`` methods, you should avoid using the
-``escape()`` method, which will HTML-escape the retrieved value. It is
-preferable to use the ``get()`` method and delay escaping until the time of
-rendering, which is handled using an Underscore.js template.
-
-Additionally, be aware that you should not HTML-escape text where you are
-setting an input's value, typically using jQuery's ``val()`` function.
+the ``get()`` or ``escape()`` functions, you should avoid using the
+``escape()`` function, which will HTML-escape the retrieved value. It is
+preferable to use the ``get()`` function and delay escaping until the time of
+rendering, which is often handled using an Underscore.js template.
 
 To properly URL-escape, you can use the `JavaScript functions
 <http://www.w3schools.com/jsref/jsref_obj_global.asp>`_ ``encodeURI`` and
@@ -662,7 +753,8 @@ CoffeeScript Files
 .. highlight:: coffeescript
 
 For CoffeeScript files, follow the same guidelines as provided for
-:ref:`JavaScript files <Safe JavaScript Files>`.
+:ref:`JavaScript files <Safe JavaScript Files>`, but using the CoffeeScript
+syntax.
 
 
 .. _Safe Underscorejs Template Files:
@@ -676,13 +768,23 @@ The best way to HTML-escape expressions in an Underscore.js template is to use
 the ``<%-`` tag, which will perform the HTML-escaping.
 
 There are some exceptions where you must use a combination of ``<%=``, which
-does not escape, and ``_.escape()``, which also performs HTML-escaping.
-However, wherever possible, the HTML tags should be part of the template
-outside of the expression, and ``<%-`` should be used for the expression.
+does not escape, and one of the UI Toolkit ``HtmlUtils`` functions. One example
+is when using the ``HtmlUtils.interpolateHtml()`` function to translate strings
+that are mixed plain text and HTML. You can easily gain access to the
+``HtmlUtils`` object inside a template by creating rendering the Underscore.js
+template using the ``HtmlUtils.template()`` function.
 
-One case where this exception can occur is with translatable strings, when you
-need to interpolate actual HTML tags to keep the entire string intact. There
-will soon be a helper method that can more elegantly handle this situation.
+If you need to pass an HTML snippet to a template, which has already been
+HTML-escaped, you should name the variable with an ``_html`` suffix, and use
+``HtmlUtils.ensureHtml()`` to ensure it was in fact properly HTML-escaped. See
+the following example.
+
+.. code-block:: javascript
+
+    <%= HtmlUtils.ensureHtml(nameHtml) %>
+
+For more details on using the ``HtmlUtils`` utility functions, see
+:ref:`Safe JavaScript Files`.
 
 
 .. _Making Mako Templates Safe By Default:
@@ -807,7 +909,7 @@ Fix Translations That Contain HTML Tags
 
 Search the page for calls to ``_()`` that have replacement strings that
 contain actual HTML tags (such as ``<strong>``). For these cases, you must use
-both the ``HTML()`` and ``Text()`` methods as documented in :ref:`i18n`.
+both the ``HTML()`` and ``Text()`` functions as documented in :ref:`i18n`.
 
 
 Remove Calls to ``display_name_with_default_escaped``
