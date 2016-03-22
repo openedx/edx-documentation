@@ -252,6 +252,7 @@ The code above would produce the following safe page source.
        ...
     </script>
 
+.. _CSS Context:
 
 CSS Context and Escaping
 ========================
@@ -268,8 +269,8 @@ for keeping it safe:
   style property, or anything outside of the limited scope of an individual
   property value.
 
-* User supplied urls must use a whitelisted or acceptable protocol (e.g. http).
-  This is to avoid users being able to supply a url that uses the "javascript"
+* User supplied URLs must use a whitelisted or acceptable protocol (e.g. http).
+  This is to avoid users being able to supply a URL that uses the "javascript"
   protocol as an example.
 
 * User supplied style property values must not contain ``expression(...)`` due
@@ -282,27 +283,45 @@ the suite of available helpers.
 For more information, see
 `OWASP: CSS and XSS <https://www.owasp.org/index.php/XSS_(Cross_Site_Scripting)_Prevention_Cheat_Sheet#RULE_.234_-_CSS_Escape_And_Strictly_Validate_Before_Inserting_Untrusted_Data_into_HTML_Style_Property_Values>`_.
 
+.. _URL Context:
 
 URL Context and Escaping
 ========================
 
-URLs must be URL-escaped. For example, use URL-escaping in the ``href``
-attribute of an anchor tag (``<a>``). After the url is URL-escaped, it would
-next need to be properly JavaScript-escaped or HTML-escaped, depending on the
-context.
+URLs require multiple types of escaping. This typically involves both
+URL-escaping, in addition to either HTML-escaping or JavaScript-escaping.
 
-To properly URL-escape, you can use the following helpers.
+There are many special characters that are meaningful in a URL. For example,
+both `&` and `=` are used to designate parts of the query string. If data is
+being provided as a query parameter, and it may contain special characters, it
+must be fully URL-escaped. This is especially true with user provided data which
+could contain any character. Using the JavaScript URL-escaping methods as an
+example, you would use the ``encodeURIComponent`` function on the data which
+will URL-escape all special characters.  Here is an example.
 
-* Use `urllib
-  <https://docs.python.org/2/library/urllib.html#utility-functions>`_ for
-  URL-escaping in Python, or
-* Use the ``encodeURI`` or ``encodeURIComponent`` functions `available in JavaScript
-  <http://www.w3schools.com/jsref/jsref_obj_global.asp>`_.
+.. code-block:: javascript
 
-If the URL itself is user supplied, and not just the query parameters, you must
-also validate the URL to ensure it uses a whitelisted or acceptable protocol
-(e.g. http). This is to avoid users being able to supply a url that uses
-the "javascript" protocol as an example.
+    var url = "http://test.com/?data=" + encodeURIComponent(userData)
+
+URL-escaping is susceptible to double-escaping, meaning you must URL-escape its
+parts exactly once. It is best to perform the URL-escaping at the time the URL
+is being assembled.
+
+Additionally, you will typically HTML-escape or JavaScript-escape a URL
+following the same rules for any other data added to the page, since a properly
+URL-escaped URL may still contain characters that are meaningful in an HTML
+context, like ``&`` and ``'``.
+
+For example, when adding a URL to the ``href`` attribute of an anchor tag
+(``<a>``), it should already be properly URL-escaped, and would need to be
+HTML-escaped at the time it is added to the HTML.
+
+.. note:: If the entire URL is user provided, additional validation is required.
+
+When an entire URL is user provided, and not just some query parameters, you
+must also validate the URL to ensure it uses a whitelisted or acceptable
+protocol (e.g. https). This is to avoid users being able to supply a URL that
+uses the "javascript" protocol as an example.
 
 For more information, see `oWASP: URL Escape <https://www.owasp.org/index.php/XSS_(Cross_Site_Scripting)_Prevention_Cheat_Sheet#RULE_.235_-_URL_Escape_Before_Inserting_Untrusted_Data_into_HTML_URL_Parameter_Values>`_.
 
@@ -416,6 +435,9 @@ named ``dump_html_escaped_json`` and ``dump_js_escaped_json``. It is important
 to first know the context you are in to properly choose the ``html`` or ``js``
 version.
 
+Additionally, make sure you follow the best practices for :ref:`_URL Context`
+when working with URLs, and :ref:`_CSS Context` when in the context of a
+``<style>`` tag or style attribute.
 
 .. _HTML Context in Mako:
 
@@ -533,6 +555,16 @@ simply providing a bridge to a JavaScript file. For best practices for
 any JavaScript code outside of the Mako expressions, see
 :ref:`Safe JavaScript Files`.
 
+
+URL Context in Mako
+~~~~~~~~~~~~~~~~~~~
+
+To properly URL-escape in Python, you can use `urllib
+<https://docs.python.org/2/library/urllib.html#utility-functions>`_.
+
+For more details URLs, see :ref:`_URL Context`.
+
+
 Mako Defs
 ~~~~~~~~~
 
@@ -587,6 +619,17 @@ rendering, which is handled using an Underscore.js template.
 
 Additionally, be aware that you should not HTML-escape text where you are
 setting an input's value, typically using jQuery's ``val()`` function.
+
+To properly URL-escape, you can use the `JavaScript functions
+<http://www.w3schools.com/jsref/jsref_obj_global.asp>`_ ``encodeURI`` and
+``encodeURIComponent``.  For example, to properly URL-escape user provided data
+before it is used as a query parameter, you could do the following.
+
+.. code-block:: javascript
+
+    var url = "http://test.com/?data=" + encodeURIComponent(userData)
+
+For more details on URLs, see :ref:`_URL Context`.
 
 
 .. _Safe CoffeeScript Files:
