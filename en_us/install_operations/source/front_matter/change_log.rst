@@ -96,6 +96,6 @@ For information about changes made to the edX documentation set, the
      - Added the section :ref:`Installing Open edX Fullstack`.
    * - 21 May 2014
      - The initial release of this guide, with the sections :ref:`Installing
-       the Open edX Developer Stack` and :ref:`Running the Open edX Developer
+       the Open edX Developer Stack` and :ref:`Starting the Open edX Developer
        Stack`.
 

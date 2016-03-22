@@ -1,7 +1,3 @@
-*************************************************
-Troubleshooting Virtual Machine Installations
-*************************************************
-
 In some cases, you see an error when you attempt to create an edX virtual
 machine (``vagrant up``). For example:
 

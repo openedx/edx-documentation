@@ -47,8 +47,8 @@ The following Open edX Git repositories have the Dogwood Git tag.
 Installing the Dogwood Release
 ******************************
 
-You can install the Open edX Dogwood release using :ref:`Devstack <Install
-DevStack>` or :ref:`Fullstack <Install Open edX Fullstack>`.
+You can install the Open edX Dogwood release using :ref:`Devstack <Installing
+the Open edX Developer stack>` or :ref:`Fullstack <Installing Open edX Fullstack>`.
 
 Review the prerequisites and instructions for each option, and then choose the
 option that best meets your needs. Ensure that you install the

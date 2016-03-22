@@ -20,7 +20,7 @@ Prerequisites
 Before proceeding with the steps to deploy your XBlock, ensure the following
 requirements are met.
 
-* Devstack is running. For instructions, see the :ref:`installation:Running
+* Devstack is running. For instructions, see the :ref:`installation:Starting
   the Open edX Developer Stack`.
 
 * Ensure you have the XBlock directory in a location you can access from the
