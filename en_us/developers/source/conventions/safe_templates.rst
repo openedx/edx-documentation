@@ -388,12 +388,18 @@ safe by default (i.e. use HTML-escaping by default).
 Mako Template Files
 ===================
 
-This topic covers best practices for protecting Mako template files from XSS
+This topic covers the best practices for protecting Mako template files from XSS
 vulnerabilities.
 
-For more of a step-by-step set of instructions for converting a legacy Mako
-template file to be safe by default, see
-:ref:`Making Mako Templates Safe By Default`.
+If you need to convert a legacy Mako template to be safe by default, it is
+recommended that you do the following:
+
+* First read through the following subtopics and become familiar with the
+  current best practices.
+
+* Next, follow the step-by-step instructions detailed in
+  :ref:`Making Mako Templates Safe By Default`, which will often refer back to
+  this topic.
 
 .. _HTML-Escape Mako by Default:
 
@@ -435,8 +441,8 @@ named ``dump_html_escaped_json`` and ``dump_js_escaped_json``. It is important
 to first know the context you are in to properly choose the ``html`` or ``js``
 version.
 
-Additionally, make sure you follow the best practices for :ref:`_URL Context`
-when working with URLs, and :ref:`_CSS Context` when in the context of a
+Additionally, make sure you follow the best practices for :ref:`URL Context`
+when working with URLs, and :ref:`CSS Context` when in the context of a
 ``<style>`` tag or style attribute.
 
 .. _HTML Context in Mako:
@@ -450,7 +456,8 @@ See :ref:`HTML-Escape Mako by Default`.
 When you need to dump JSON in the context of HTML (for example, into a data
 attribute), you must use ``dump_html_escaped_json``. This same filter can be
 used for numbers and booleans in addition to dicts and lists. If you have a
-string, continue to use the default ``h`` filter.
+string, continue to use the default ``h`` filter. You must import and use
+``dump_html_escaped_json`` as seen in the following example.
 
 .. code-block:: mako
 
@@ -465,7 +472,8 @@ string, continue to use the default ``h`` filter.
     ></div>
 
 For translations that contain no HTML tags, the default HTML-escaping is
-enough. See the following simple example.
+enough. You must only import and use ``ugettext`` as shown in the following
+simple example.
 
 .. code-block:: mako
 
@@ -482,7 +490,8 @@ function when you have a replacement string that contains HTML tags. For the
 ``HTML()`` function to work, you must first use the ``Text()`` function to wrap
 the plain text translated string. Both the ``HTML()`` and ``Text()`` functions
 must be closed before any calls to ``format()``.  You will not use the ``Text``
-function where you don't need the ``HTML()`` function.
+function where you don't need the ``HTML()`` function.  See the following
+example for how to import and use these functions.
 
 .. code-block:: mako
 
@@ -539,8 +548,8 @@ The JavaScript context can either appear explicitly through the use of a
 ``<script>`` tag, or implicitly through the use of ``<%static:require_module>``,
 which itself sets up the ``<script>`` context.
 
-Here is an example of ``js_escaped_string`` and ``dump_js_escaped_json`` in the
-context of JavaScript in a Mako template.
+Here is an example of how to import and use ``js_escaped_string`` and
+``dump_js_escaped_json`` in the context of JavaScript in a Mako template.
 
 .. code-block:: mako
 
@@ -575,7 +584,7 @@ URL Context in Mako
 To properly URL-escape in Python, you can use `urllib
 <https://docs.python.org/2/library/urllib.html#utility-functions>`_.
 
-For more details URLs, see :ref:`_URL Context`.
+For more details about URLs, see :ref:`URL Context`.
 
 
 Mako Defs
@@ -642,7 +651,7 @@ before it is used as a query parameter, you could do the following.
 
     var url = "http://test.com/?data=" + encodeURIComponent(userData)
 
-For more details on URLs, see :ref:`_URL Context`.
+For more details about URLs, see :ref:`URL Context`.
 
 
 .. _Safe CoffeeScript Files:
@@ -894,7 +903,7 @@ This would indicate that you'll find a JavaScript file in
 Run Safe Template Linter
 ========================
 
-Follow instructions for the :ref:`_Safe Template Linter`. Search for any rule
+Follow instructions for the :ref:`Safe Template Linter`. Search for any rule
 violations in the files you are working on. Since accuracy and completeness is
 not guaranteed, this should just be used to check your work.
 
