@@ -839,6 +839,23 @@ edX portal .
    :depth: 1
    :local:
 
+Find Downstream Mako Templates
+==============================
+
+You must search your template to find all other Mako templates that are included
+using the following code.
+
+.. code-block:: mako
+
+    <%include file="some-file.html" />
+
+All such Mako template files must be converted to safe by default at the same
+time.
+
+This is not the case when using ``<%inherit file="..." />``. You can convert a
+Mako template file without having converted the file it inherits from, and you
+can convert a base Mako template file that other files inherit without having to
+update those files at the same time.
 
 .. _Set HTML Escaping Filter as Default:
 
