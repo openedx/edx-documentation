@@ -43,8 +43,8 @@ core templates with your own themed templates, as well as replacing some or
 all of the core assets with your own themed assets.
 
 There is no limit to the number of themes you can have installed on
-your Open edX servers, but only one can be active at a time. Multitenancy
-(the ability to have different themes active in different contexts) is not yet
+your Open edX servers, and some or all of these themes can be active at a time. Multitenancy
+(the ability to have different themes active in different contexts) is also
 supported.
 
 What Can Be Themed?
@@ -54,12 +54,12 @@ Currently, the LMS and Studio can be themed. All other parts of the Open edX
 software do not yet support theming. This includes Insights, XBlocks,
 certificates, notification emails, and so on.
 
-Within the LMS and Studio, only a few templates and assets are currently
-supported for theming. All templates and assets *can* be themed, but unsupported
-templates and assets may be renamed or used differently in the future, and
-these changes may occur without notice. The following pages describe the
-currently supported templates and assets.
+Within the LMS and Studio, all templates and assets *can* be themed, but make sure to
+follow existing html tag and attribute structure (e.g. class names, ids etc.) to avoid unexpected behavior.
+Templates and assets may be renamed or used differently in future edx releases so make
+sure to read release notes carefully before updating Open edX. The following pages give details on
+overriding templates and assets.
 
-* :ref:`Supported Themable Templates`
-* :ref:`Supported Themable Assets`
-* :ref:`Supported Themable Sass Variables`
+* :ref:`Theming Templates`
+* :ref:`Theming Assets`
+* :ref:`Theming Sass Variables`
