@@ -532,8 +532,23 @@ function returning the HTML has itself properly escaped any plain text.
 JavaScript Context in Mako
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Special filters are required for working with Mako expressions when in a
-JavaScript context.
+As a general guideline, JavaScript in Mako templates should be kept to an
+absolute minimum for a number of reasons.
+
+* It is very hard to mix syntax appropriately, which can lead to bugs, some of
+  which might lead to security issues.
+
+* The JavaScript code cannot easily be tested.
+
+* The JavaScript code does not get included for code coverage.
+
+The only JavaScript code in Mako that is appropriate is the minimal RequireJS
+code and Factory setup code that is used to pass data from the server side to
+client side code. This topic will show this example.
+
+In coding this glue between server side and client side code, special Mako
+filters are required for working with Mako expressions when in a JavaScript
+context.
 
 When you need to dump JSON in the context of JavaScript, you must use either the
 ``js_escaped_string`` or ``dump_js_escaped_json`` filters. These are the
@@ -699,7 +714,7 @@ be properly HTML-escaped as necessary.  See the following example.
 Often, much of the preparation of HTML in JavaScript can be written using an
 Underscore.js template. The function ``HtmlUtils.template()`` provides
 some enhancements for escaping.  First, it makes ``HtmlUtils`` available inside
-the template automatically. Also, it returns an Html snippet so that other
+the template automatically. Also, it returns an HTML snippet so that other
 ``HtmlUtils`` functions know not to HTML-escape its results. It is assumed that
 any HTML-escaping required will take place inside the Underscore.js template.
 Follow the best practices detailed in :ref:`Safe Underscorejs Template Files`.
@@ -775,7 +790,7 @@ that are mixed plain text and HTML. You can easily gain access to the
 template using the ``HtmlUtils.template()`` function.
 
 If you need to pass an HTML snippet to a template, which has already been
-HTML-escaped, you should name the variable with an ``_html`` suffix, and use
+HTML-escaped, you should name the variable with an ``Html`` suffix, and use
 ``HtmlUtils.ensureHtml()`` to ensure it was in fact properly HTML-escaped. See
 the following example.
 
