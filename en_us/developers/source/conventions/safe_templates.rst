@@ -424,7 +424,9 @@ HTML-escaped expression. ::
 the first filter. This can be seen in some of the examples below.
 
 If you need to disable the default filters, you must use the ``n`` filter as
-For more information, see `Mako: Expression Filtering <http://docs.makotemplates.org/en/latest/filtering.html>`_.
+the first filter. This can be seen in some of the examples below.
+
+For a more in depth understanding, see :ref:`n Filter`.
 
 Determining the Context in Mako
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -434,16 +436,14 @@ HTML-escaping is a good default option.
 
 A JavaScript context can either appear explicitly through the use of a
 ``<script>`` tag, or implicitly through the use of ``<%static:require_module>``,
-which itself sets up the ``<script>`` context.
+which itself sets up the ``<script>`` context. There are some exceptions where
+a ``<script>`` tag uses a different ``type`` that should be treated as an HTML
+context rather than a JavaScript context, like in
+``<script type="text/template">`.
 
-When converting a Python object to JSON, there are two very similar filters
-named ``dump_html_escaped_json`` and ``dump_js_escaped_json``. It is important
-to first know the context you are in to properly choose the ``html`` or ``js``
-version.
-
-Additionally, make sure you follow the best practices for :ref:`URL Context`
-when working with URLs, and :ref:`CSS Context` when in the context of a
-``<style>`` tag or style attribute.
+Also, make sure you follow the best practices for :ref:`URL Context` when
+working with URLs, and :ref:`CSS Context` when in the context of a ``<style>``
+tag or style attribute.
 
 .. _HTML Context in Mako:
 
@@ -453,22 +453,16 @@ HTML Context in Mako
 Most Mako expressions in an HTML context will already be properly HTML-escaped.
 See :ref:`HTML-Escape Mako by Default`.
 
-When you need to dump JSON in the context of HTML (for example, into a data
-attribute), you must use ``dump_html_escaped_json``. This same filter can be
-used for numbers and booleans in addition to dicts and lists. If you have a
-string, continue to use the default ``h`` filter. You must import and use
-``dump_html_escaped_json`` as seen in the following example.
+The default HTML-escaping is all that is required, even when passing JSON to a
+data attribute that may later be read by JavaScript. See the following example.
 
 .. code-block:: mako
 
     <%page expression_filter="h"/>
-    <%! from openedx.core.djangolib.js_utils import dump_html_escaped_json %>
     ...
     <div
         data-course-name='${course.name}'
-        data-course-options='${course.options | n, dump_html_escaped_json}'
-        data-course-max-students='${course.max_students | n, dump_html_escaped_json}'
-        data-course-is-great='${course.is_great | n, dump_html_escaped_json}'
+        data-course-options='${json.dumps(course.options)}'
     ></div>
 
 For translations that contain no HTML tags, the default HTML-escaping is
@@ -507,6 +501,8 @@ example for how to import and use these functions.
         link_end=HTML('</a>'),
     )}
 
+For a deeper understanding of why you must use ``Text()`` when using ``HTML()``,
+see :ref:`Why Text() with HTML()`.
 
 For more details about translating strings and ensuring proper escaping, see
 :ref:`i18n`.
@@ -551,9 +547,7 @@ filters are required for working with Mako expressions when in a JavaScript
 context.
 
 When you need to dump JSON in the context of JavaScript, you must use either the
-``js_escaped_string`` or ``dump_js_escaped_json`` filters. These are the
-JavaScript-escaping equivalents of ``h`` and ``dump_html_escaped_json``
-respectively.
+``js_escaped_string`` or ``dump_js_escaped_json`` filters.
 
 With ``js_escaped_string`` you must supply the enclosing quotes. When ``None``
 is supplied to ``js_escaped_string``, it results in an empty string for
@@ -885,25 +879,6 @@ check that it is being properly escaped. It might not be, because it would
 have caused a double-escaping issue as it was.
 
 
-Replace Calls to ``json.dumps``
-===============================
-
-Mako templates should not include calls to ``json.dumps``. Instead, you must
-use the ``dump_js_escaped_json`` or ``dump_html_escaped_json`` filters as
-detailed in :ref:`Safe Mako Template Files`. You must understand whether the
-template is writing HTML or JavaScript in order to choose the correct filter.
-
-Additionally, if you find a case where your string already contains JSON, it
-is likely that ``json.dumps`` was called prematurely in Python before passing
-the data to Mako. In this case, you should refactor to pass the data in its
-original form, and then once again use one of the provided filters in the Mako
-template.
-
-Finally, if there is no way around having to work with a string that is already
-JSON, the only way to ensure that any potential user-provided data is safe is
-to use ``json.loads`` and then use one of the provided filters.
-
-
 Remove All ``h`` Filters
 ========================
 
@@ -1048,6 +1023,7 @@ strings as well, rather than using ``js_escaped_string``?
 * The ``js_escaped_string`` and wrapping quotes makes the expected type more
   declarative.
 
+.. _n Filter:
 
 Mako Filter Ordering and the ``n`` filter
 =========================================
@@ -1125,22 +1101,85 @@ For more information, see `Mako: Defs and Blocks
 Strings Containing JSON in Mako
 ===============================
 
-In a Mako template, it is better to work with Python objects, rather than
-strings containing JSON.
+In the same way that we wait as late as possible to escape, once we know the
+context, we also recommend waiting before converting from Python to JSON as late
+as possible. Mako templates are often the place where the Python object should
+finally be dumped to JSON.
 
-If you find yourself with a string that contains JSON inside a Mako template,
-try to remove the call to ``json.dumps`` that created the JSON string in the
-Python file feeding the Mako template.
+If you find yourself with a string that already contains JSON inside a Mako
+template, and you need to use it in a JavaScript context, you have the following
+two options.
 
-In the rare case that you can't avoid having a string that contains JSON, and it
-might contain user provided data, you must ensure it is safe by parsing it and
-then dumping it again. Here is an example.
+* Where appropriate, you could attempt to refactor the code to move the call
+  to ``json.dumps`` from the Python file feeding the Mako template, into the
+  Mako template, replacing that call with ``dump_js_escaped_json``.
+
+* You can call ``json.loads`` before dumping it to ensure it is parseable, as
+  in the following example.
 
 .. code-block:: mako
 
     <script>
         var options = ${json.loads(options_json_string) | n, dump_js_escaped_json};
     </script>
+
+
+.. _Why Text() with HTML():
+
+Why Do I Need Text() with HTML()?
+=================================
+
+You may wonder why the ``Text()`` function is required in Mako templates to
+make the ``HTML()`` function work.
+
+The magic behind the ``Text()`` and ``HTML()`` is a library called
+``markupsafe`` and its ``Markup`` class which designates that a string is HTML
+markup and no longer needs to be HTML-escaped.  The difference between
+``Text()`` and ``HTML()`` is that ``Text()`` HTML-escapes before it becomes
+``Markup``, where ``HTML()`` simply marks a string as ``Markup``.
+
+The magic of ``Markup`` is that any string that is formatted into it is
+HTML-escaped during that process.  Note how the ``&`` is HTML-escaped in the
+following example.
+
+.. code-block:: python
+
+    >>> from markupsafe import Markup
+    >>> Markup('<div>{}</div>').format('Rock & Roll')
+    Markup(u'<div>Rock &amp; Roll</div>')
+
+For the next example, when ``Markup`` is formatted into a ``Markup`` object, and
+it understands that it should not be HTML-escaped and thus the ``&`` will remain
+unchanged.
+
+.. code-block:: python
+
+    >>> Markup('<div>{}</div>').format(Markup('Rock & Roll'))
+    Markup(u'<div>Rock & Roll</div>')
+
+A problem arises when we use format on a plain string. Since a string doesn't
+know anything about ``Markup``, the result of this is a plain string again,
+rather than a ``Markup`` object.  Thus, the result has lost its ``Markup``
+magic.
+
+.. code-block:: python
+
+    >>> '<div>{}</div>'.format(Markup('Rock & Roll'))
+    '<div>Rock & Roll</div>'
+
+In Mako, we are adding page-level HTML-escaping by default, which also uses
+the ``markupsafe`` library. Mako expressions will therefore respect ``Markup``
+objects and not double escape.
+
+.. code-block:: mako
+
+    <%page expression_filter="h"/>
+    ...
+    ${data}
+
+Therefore, the problem with using ``HTML()`` without the initial ``Text()`` is
+that the ``Markup`` object becomes a plain old string and it ends up getting
+HTML-escaped, when your intention was to keep the HTML from being HTML-escaped.
 
 
 .. _Safe Template Linter:
