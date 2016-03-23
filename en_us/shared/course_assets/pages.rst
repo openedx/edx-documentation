@@ -4,11 +4,13 @@
 Adding Pages to a Course
 ###########################
 
-This topic describes how to add pages, or tabs, to your course.
+This topic describes the pages, or tabs, that are included in your course by
+default, how you can modify them, and how you can add more pages to your
+course.
 
 .. contents::
   :local:
-  :depth: 1
+  :depth: 2
 
 .. _Default Pages:
 
@@ -24,13 +26,14 @@ By default, your course includes these pages.
 * Wiki
 * Progress
 
-You can change the order of the **Discussion**, **Wiki**, and **Progress**
-pages, and you can hide the **Wiki** page.
+You can :ref:`change the order<Reorder Pages>` of the **Discussion**, **Wiki**,
+and **Progress** pages, and you can :ref:`hide<Show or Hide the Course Wiki
+Page>` the **Wiki** and **Progress** pages. You can also add more pages.
 
 .. _Add Page:
 
 ****************
-Add a Page
+New Pages
 ****************
 
 You can add pages to your course. Each page appears for learners in the
@@ -51,6 +54,10 @@ purpose. More examples of pages you can add follow.
   Schedule`.
 
 * An instant hangout. See :ref:`Google Instant Hangout` for more information.
+
+==============
+Add a Page
+==============
 
 To add a page, follow these steps.
 
@@ -84,34 +91,57 @@ The new page is immediately available to learners if the course has started.
 
 .. _Show or Hide the Course Wiki Page:
 
-************************************************
-Hide or Show the Course Wiki Page
-************************************************
+********************************************
+Hiding or Showing the Wiki or Progress Page
+********************************************
 
-By default, your course includes a wiki page. Learners and the course team can
-use the wiki to post content as well as comment on other people's content. For
-details, see :ref:`Course_Wiki`.
+By default, your course includes a **Wiki** page and a **Progress** page. For
+more information about how you can use these pages in a course, see
+:ref:`Course_Wiki` or :ref:`A Students View`.
 
-If you do not want to use a wiki in your course, you can hide the page.
+As part of your course design, you can decide whether you want to learners to
+have access to these pages. You can hide the pages, and if you change your
+mind, you can show the pages again.
 
-In the **Pages** list, the eye icon that appears next to the **Wiki** page
-indicates that the wiki is visible in your course.
+.. note:: The information on the **Progress** page can be motivating for
+  learners, particularly in courses that include graded subsections, but also
+  for courses that include only ungraded exercises. Before choosing to hide the
+  **Progress** page for your course, consider the possible effect on learner
+  engagement.
 
-Select the eye icon to hide the **Wiki** page. The icon changes as shown in
-this example.
+As a best practice, you should avoid changing the visibility of these pages
+after your course starts. For example, your course includes the **Wiki** page
+when it starts. A learner adds a page to the course wiki, and bookmarks the new
+page. If you then hide the **Wiki** page, the learner's bookmark will continue
+to provide access to the course wiki.
 
-.. image:: ../../../shared/images/pages_wiki_off.png
- :alt: Image of the Pages page with the Wiki made visible
+=======================================
+Hide or Show the Wiki or Progress Pages
+=======================================
 
-Select it again to make the **Wiki** page visible.
+To hide or show the **Wiki** or **Progress** pages, follow these steps.
 
-.. note:: Content remains in the wiki when you hide the page. For example,
- if a student bookmarks a wiki topic, then you hide the **Wiki** page, the
- student can still use the bookmark to access that wiki topic. All content that
- was previously posted in the wiki remains available after you hide the wiki
- page, and any students logged in to edX can access the content if they know
- the URL.
+#. Select **Content**, and then **Pages**.
 
+   On the list of pages, each page that you can hide includes a **Show/hide
+   page** icon.
+
+   .. image:: ../../../shared/images/pages_wiki_on.png
+    :alt: The list of default course pages, with a show/hide icon for the Wiki
+      and Progress pages only.
+
+   .. note:: The options to show or hide a page are available only for the
+     **Wiki** and **Progress** pages.
+
+#. Select the **Show/hide page** icon to hide a page. The appearance of the
+   icon changes to indicate that the page is now hidden, as shown in this
+   example.
+
+   .. image:: ../../../shared/images/pages_wiki_off.png
+    :alt: The default wiki page on the list of course pages, with the show/hide
+     icon indicating that the page is currently hidden.
+
+#. Select the **Show/hide page** icon again to make the page visible.
 
 .. _Reorder Pages:
 
@@ -120,13 +150,13 @@ Reorder Pages
 ****************
 
 To reorder the pages in your course you can drag a page to different location
-in the navigation bar and drop it there.
+in the list of pages and drop it there.
 
-To move a page, hover over the element handle on the right side of the page
-row until the mouse pointer changes to a four-headed arrow. Then select and
-drag the page to the location that you want.
+To move a page, move your pointer over the **Drag to reorder** icon for the
+page. Your pointer changes to a four-headed arrow. Then select and drag the
+page to the location that you want.
 
-.. note:: You cannot reorder the **Home** or **Course** pages.
+.. note:: You cannot change the order of the **Home** or **Course** pages.
 
 .. _Delete a Page:
 
@@ -134,17 +164,19 @@ drag the page to the location that you want.
 Delete a Page
 ****************
 
-To delete a page that you previously added, select the trash can icon in the
-row for the page. You are prompted to confirm the deletion.
+You can only delete a page that the course team added to the course. To delete
+a page, select the **Delete** icon for the page. You are prompted to confirm
+the deletion.
 
 .. note::
-  You cannot delete the **Home**, **Course**, **Discussion**, or
-  **Progress** pages. You can hide the course **Wiki** page.
+  You cannot delete any of the :ref:`default pages<Default Pages>`. However,
+  you can :ref:`hide<Show or Hide the Course Wiki Page>` the **Wiki** and the
+  **Progress** pages.
 
 .. _Code for Dynamic HTML Schedule:
 
 ********************************
-Code for Dynamic HTML Schedule
+Code for a Dynamic HTML Schedule
 ********************************
 
 You can use the following code in a page to provide a dynamic HTML schedule in
