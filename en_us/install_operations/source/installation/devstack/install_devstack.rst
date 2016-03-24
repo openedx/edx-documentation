@@ -20,8 +20,9 @@ This section describes how to install the Open edX developer stack (devstack).
 Installing Devstack with a Direct Vagrant Box Download
 ******************************************************
 
-To install devstack, follow the instructions
-below. During the installation, the Vagrant virtual machine management tool will download an Open edX virtual maching ``box`` file.
+To install devstack, follow these instructions. During the installation,
+the Vagrant virtual machine management tool will download an Open edX virtual
+machine ``box`` file.
 
 .. note::
 
@@ -108,7 +109,7 @@ You can use a BitTorrent client to download the Vagrant box file. Downloading
 the box file and installing it in your Vagrant environment will prevent Vagrant
 from downloading the box file directly when you start it for the first time.
 This may be useful if you have a limited  or intermittent connection to the
-internet and cannot download a large file.
+Internet and cannot download a large file.
 
 To install devstack using a box file that you download with a BitTorrent
 client, follow these steps.
