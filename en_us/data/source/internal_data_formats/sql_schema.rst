@@ -1515,10 +1515,11 @@ module_type
      * - course
        - The top level course module of which all course content is descended.
      * - crowdsource_hinter
-       - Not currently used.
+       - Not used.
 
-         **History**: This ``module_type`` was included in
-         a single course on a test basis and then deprecated.
+         **History**: This ``module_type`` was included in a single course on a
+         test basis. It has not been used since July 2013, and was removed
+         on 16 March 2016.
 
      * - lti
        - Learning Tools Interoperability component that adds an external
