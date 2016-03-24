@@ -291,7 +291,7 @@ its destination.
   column will remain empty, even after the encoding and hosting process is
   complete.
 
-* **mobile_low URL**: The AWS location of a 320p resolution video file. This
+* **mobile_low URL**: The AWS location of a 360p resolution video file. This
   file is delivered to learners who download and view course videos on mobile
   devices.
 
