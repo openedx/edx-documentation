@@ -41,7 +41,8 @@ if on_rtd:
 
 # General information about the project.
 
-copyright = u'2016, edX Inc. All rights reserved. This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License'
+copyright = u'2016, edX Inc. and licensed under a Creative Commons Attribution-ShareAlike 4.0 International License unless otherwise specified'
+
 
 
 # Example configuration for intersphinx: refer to the Python standard library.
