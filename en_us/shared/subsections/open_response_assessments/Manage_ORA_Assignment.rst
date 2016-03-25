@@ -173,10 +173,10 @@ To perform an override assessment for a particular learner, complete these steps
 
    The **Manage Individual Learners** dialog updates with expandable sections
    for each of the assessment steps in the assignment and other actions you
-   can take on the learner's response. 
+   can take on the learner's response.
 
 #. Select **Submit Assessment Grade Override**.
-   
+
 #. Perform an assessment of the learner's response using the problem's rubric.
 
 #. When you have finished the assessment, select **Submit assessment**.
@@ -219,12 +219,13 @@ already graded the inappropriate response, it is counted as one of the
 submissions they have graded.
 
 .. note:: After you remove an inappropriate response from peer assessment, you
-   decide whether the learner who submitted that response is allowed to submit
-   a replacement response. If you do not want to allow the learner to submit a
+   decide whether the learner who submitted that response is allowed to submit a
+   replacement response. If you do not want to allow the learner to submit a
    replacement response, you do not need to take any additional action. The
    learner receives a grade of zero for the entire submission. To allow the
-   learner to resubmit a response for a cancelled submission, :ref:`reset the
-   learner's attempts for the problem<reset_attempts>`.
+   learner to resubmit a response for a cancelled submission, you must delete
+   the learner's state for the problem. For more information, see
+   :ref:`delete_state`.
 
 To remove a submission from peer assessment, complete these steps.
 
@@ -240,7 +241,7 @@ To remove a submission from peer assessment, complete these steps.
 
    The **Manage Individual Learners** dialog updates with expandable sections
    for each of the assessment steps in the assignment and other actions you
-   can take on the learner's response. 
+   can take on the learner's response.
 
 #. Select **Remove Submission from Peer Grading**.
 

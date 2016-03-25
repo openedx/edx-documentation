@@ -514,30 +514,21 @@ If you modify a problem or its settings after learners have attempted to answer
 it, learners' grades can be affected. For information about making changes to
 problems in Studio, see :ref:`Modifying a Released Problem`.
 
-To recalculate the grades of affected learners when a correction or other
-change is unavoidable, you can make the following adjustments.
+To make adjustments to learner grades, you need the unique location identifier of the modified problem. For more information, see :ref:`find_URL`.
 
-* Rescore the submitted answer to reevaluate learner work on a problem. You
-  can rescore a problem for a single learner or for all of the learners
-  enrolled in the course.
+The following sections describe the various ways in which you can adjust
+learners' grades when a correction or other change is unavoidable.
 
-  In some cases, errors occur when you rescore problems if your problem has
-  multiple answer fields. For more information, see :ref:`rescore`.
+.. contents::
+ :local:
+ :depth: 1
 
-* Reset the number of times a learner has attempted to answer a problem to
-  zero so that he can try again. You can reset the number of attempts for a
-  single learner or for all learners enrolled in the course. For more
-  information, see :ref:`reset_attempts`.
 
-* Delete a learner's database history, or "state", completely for a problem.
-  You can only delete learner state for one learner at a time. For example,
-  you realize that a problem needs to be rewritten after only a few of your
-  learners have answered it. To resolve this situation, you rewrite the
-  problem and then delete learner state only for the affected learners so that
-  they can try again. For more information, see :ref:`delete_state`.
 
-To make adjustments to learner grades, you need the unique location identifier
-of the modified problem. For more information, see :ref:`find_URL`.
+
+
+
+
 
 .. _find_URL:
 
@@ -585,23 +576,27 @@ viewer.
 Rescore Learner Submissions for a Problem
 ==========================================
 
-Each problem that you define for your course includes a correct answer, and may
-also include a tolerance or acceptable alternatives. If you decide to make a
-change to these values, you can rescore any responses that were already
-submitted. For a specified problem, you can rescore the work submitted by a
-single learner, or rescore the submissions made by every enrolled learner.
+Each problem that you create for your course includes the definition of a
+correct answer, and might also include a tolerance or acceptable alternatives.
+If you decide to make a change to the answers for a problem, you can also
+rescore any responses that were already submitted. For a specified problem,
+you can rescore the work submitted by a single learner, or rescore the
+submissions made by every enrolled learner.
 
-.. note::
- You can only rescore problems that have a correct answer entered in
- edX Studio. This procedure cannot be used to rescore problems that are scored
- by an external grader.
+.. note:: You can only rescore problems that have a correct answer defined in
+   edX Studio. This procedure cannot be used to rescore open response
+   assessment problems, or problems that are scored by an external grader.
 
- Additionally, errors occur if you rescore a problem that has multiple response
- fields and you have completed any of the following actions.
+   Additionally, errors might occur if you rescore a problem that has multiple
+   response fields and you have completed any of the following actions.
 
- * You removed a response field.
- * You added a response field.
- * You reordered any of the response fields.
+   * You removed a response field.
+   * You added a response field.
+   * You reordered any of the response fields.
+
+.. note:: Do not use this method to rescore open response assessment (ORA)
+   problems. For ORA problems, you can :ref:`override a learner assessment
+   grade<Override a learner assessment grade>` in Studio.
 
 
 Rescore a Submission for an Individual Learner
@@ -664,12 +659,16 @@ See :ref:`find_URL`. To rescore a problem:
 Reset Learner Attempts for a Problem
 =====================================
 
-When you create a problem, you can limit the number of times that a learner can
-try to answer that problem correctly. If unexpected issues occur for a problem,
-you can reset the value for one particular learner's attempts back to zero so
-that the learner can begin work over again. If the unexpected behavior affects
-all of the learners in your course, you can reset the number of attempts for
-all learners to zero.
+When you create a problem, you can limit the number of times that a learner
+can try to answer that problem correctly. If unexpected issues occur for a
+problem, you can reset the value for one particular learner's attempts back to
+zero so that the learner can begin work over again. If the unexpected behavior
+affects all of the learners in your course, you can reset the number of
+attempts for all learners to zero.
+
+.. note:: You cannot use this method with open response assessment (ORA)
+   problems. To allow a learner to start an ORA problem again and resubmit
+   responses, you must :ref:`delete the learner's state<delete_state>`.
 
 Reset Attempts for an Individual Learner
 ---------------------------------------------
@@ -733,11 +732,24 @@ To reset attempts for all learners, follow these steps.
 Delete a Learner's State for a Problem
 =======================================
 
+You can completely delete a learner's database history, or "state", for a
+problem. You can only delete learner state for one learner at a time.
+
+For example, you realize that a problem needs to be rewritten after only a few
+of your learners have answered it. To resolve this situation, you rewrite the
+problem and then delete learner state only for the affected learners so that
+they can try again.
+
 To delete a learner's entire history for a problem from the database, you need
 that learner's username or email address.
 
 .. important:: Learner state is deleted permanently by this process. This
- action cannot be undone.
+   action cannot be undone.
+
+   When you delete a learner's state for an open response assessment (ORA)
+   problem, the learner will have to start the assignment from the beginning,
+   including submitting responses and going through the required assessment
+   steps.
 
 You can use either the Staff Debug viewer or the Instructor Dashboard to delete
 learner state.
