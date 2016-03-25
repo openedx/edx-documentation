@@ -314,7 +314,8 @@ context, like ``&`` and ``'``.
 
 For example, when adding a URL to the ``href`` attribute of an anchor tag
 (``<a>``), it should already be properly URL-escaped, and would need to be
-HTML-escaped at the time it is added to the HTML.
+HTML-escaped at the time it is added to the HTML. When you see ``&`` between
+query parameters as an ``&amp;`` in your HTML page source, you can rest easy.
 
 .. note:: If the entire URL is user provided, additional validation is required.
 
@@ -363,6 +364,11 @@ Django Template Files
 Django templates are considered "safe by default", meaning that expressions
 are HTML-escaped by default. HTML-escaping is not always the right choice for
 escaping, for example, with embedded JavaScript.
+
+If you need to do special escaping for internationalization or a JavaScript
+context in a Django template, you will need to follow the patterns detailed in
+:ref:`Safe Mako Template Files`, but we don't currently offer documented helper
+functions or syntax for Django templates.
 
 
 .. _Safe Mako Template Calls:
@@ -421,7 +427,8 @@ HTML-escaped expression. ::
     ...
     ${data}
 
-the first filter. This can be seen in some of the examples below.
+.. note:: Mako templates can only have a single ``<%page>`` tag. If there is
+   already a ``<%page>`` used for args, you must combine the two.
 
 If you need to disable the default filters, you must use the ``n`` filter as
 the first filter. This can be seen in some of the examples below.
@@ -434,12 +441,12 @@ Determining the Context in Mako
 Most of the Mako template files are in an HTML context. That is why
 HTML-escaping is a good default option.
 
-A JavaScript context can either appear explicitly through the use of a
-``<script>`` tag, or implicitly through the use of ``<%static:require_module>``,
-which itself sets up the ``<script>`` context. There are some exceptions where
-a ``<script>`` tag uses a different ``type`` that should be treated as an HTML
-context rather than a JavaScript context, like in
-``<script type="text/template">`.
+A JavaScript context is often setup implicitly through the use of the tag
+``<%static:require_module>``. In our legacy code, you may also see explict
+``<script>`` or ``<script type="text/javascript">`` tags initiating a JavaScript
+context. There are some exceptions where a ``<script>`` tag uses a different
+``type`` that should be treated as an HTML context rather than a JavaScript
+context, like in ``<script type="text/template">``.
 
 Also, make sure you follow the best practices for :ref:`URL Context` when
 working with URLs, and :ref:`CSS Context` when in the context of a ``<style>``
@@ -538,13 +545,12 @@ absolute minimum for a number of reasons.
 
 * The JavaScript code does not get included for code coverage.
 
-The only JavaScript code in Mako that is appropriate is the minimal RequireJS
-code and Factory setup code that is used to pass data from the server side to
-client side code. This topic will show this example.
+For new code, the only JavaScript code in Mako that is appropriate is the
+minimal RequireJS code used to glue the server side and client side code. Often
+this is done with factory setup code to pass data to the client.
 
-In coding this glue between server side and client side code, special Mako
-filters are required for working with Mako expressions when in a JavaScript
-context.
+Special Mako filters are required for working with Mako expressions inside a
+JavaScript context, such as this RequireJS code.
 
 When you need to dump JSON in the context of JavaScript, you must use either the
 ``js_escaped_string`` or ``dump_js_escaped_json`` filters.
@@ -553,9 +559,10 @@ With ``js_escaped_string`` you must supply the enclosing quotes. When ``None``
 is supplied to ``js_escaped_string``, it results in an empty string for
 convenience.
 
-The JavaScript context can either appear explicitly through the use of a
-``<script>`` tag, or implicitly through the use of ``<%static:require_module>``,
-which itself sets up the ``<script>`` context.
+Often, the JavaScript context is setup implicitly through the use of
+``<%static:require_module>``. In our legacy code, you may also see explict
+``<script>`` or ``<script type="text/javascript">`` tags initiating a JavaScript
+context.
 
 Here is an example of how to import and use ``js_escaped_string`` and
 ``dump_js_escaped_json`` in the context of JavaScript in a Mako template.
@@ -582,9 +589,9 @@ If you have a string that already contains JSON, rather than a Python object,
 see :ref:`Strings with JSON` for how to resolve this situation.
 
 In general, the JavaScript code inside a Mako template file should be succinct,
-simply providing a bridge to a JavaScript file. For best practices for
-any JavaScript code outside of the Mako expressions, see
-:ref:`Safe JavaScript Files`.
+simply providing a bridge to a JavaScript file. For legacy code with more
+complicated JavaScript code, you'll need to additionally follow the best
+practices documented for :ref:`Safe JavaScript Files`.
 
 
 URL Context in Mako
@@ -718,12 +725,22 @@ There are some JQuery functions like ``$.text()``, ``$.attr()`` and ``$.val()``
 that expect plain text strings and take care of HTML-escaping its input for you.
 
 There are other JQuery functions like ``$.html()``, ``$.append()`` and
-``$.prepend()`` that expect HTML and adds it into the DOM. However, these
+``$.prepend()`` that expect HTML and add it into the DOM. However, these
 functions don't know whether or not they are being provided properly escaped
-HTML as represented by an HTML snippet. In place of these functions, you will
-use ``HtmlUtils.setHtml()``, ``HtmlUtils.append()`` and ``HtmlUtils.prepend()``
-respectively. These ``HtmlUtils`` JQuery wrappers respect HTML snippets, and can
-be used as seen in the following example.
+HTML as represented by an HTML snippet.
+
+If you are working with a Backbone.js element, as represented by ``el`` or
+``$el``, you can use the JQuery methods directly, as in the following example.
+
+.. code-block:: javascript
+
+    this.parentElement.append(this.$el);
+
+However, if you are creating the element through one of the other ``HtmlUtils``
+functions, you must use ``HtmlUtils.setHtml()``, ``HtmlUtils.append()`` and
+``HtmlUtils.prepend()`` in place of the JQuery equivalents. These ``HtmlUtils``
+JQuery wrappers respect HTML snippets, and can be used as seen in the following
+example.
 
 .. code-block:: javascript
 
@@ -871,23 +888,20 @@ Add the following line to the very top of your template.
 If this line has already been added, the process of making the template safe
 by default might have been already completed.
 
+Be careful not to have multiple ``<%page>`` tags in a Mako template.
 
 Search for JavaScript Contexts
 ==============================
 
 Search for any JavaScript contexts in the Mako template. These might appear
-either explicitly through the use of a ``<script>`` tag, or implicitly through
-the use of ``<%static:require_module>``.
+implicitly through the use of ``<%static:require_module>``, or in legacy code,
+explicitly through the use of a ``<script>`` tag.
 
 Check that all Mako expressions (``${}``) in these JavaScript contexts are
 using either ``| n, dump_js_escaped_json`` or ``| n, js_escaped_string``, as
 detailed in :ref:`JavaScript Context in Mako`.  For strings, use
 ``js_escaped_string`` with quotes around the expression, rather than
 ``dump_js_escaped_json``.
-
-If the template was using the ``escapejs`` function, replace it with ``| n,
-js_escaped_string``, which will also make sure that the string is unicode and
-will replace ``None`` with an empty string.
 
 Take note of any expression that was mistakenly using ``| h`` in a JavaScript
 context. Although you likely just fixed a bug, you will want to pay extra
@@ -909,6 +923,10 @@ Before::
 After::
 
     ${data}
+
+Pay special attention when you are removing ``| h`` in a JavaScript context
+because you will likely need to add this escaping back in a downstream
+JavaScript file or Underscore.js template.
 
 
 Fix Translations That Contain HTML Tags
@@ -973,40 +991,11 @@ ensure that any downstream JavaScript files or Underscore.js templates also
 follow the best practices.
 
 When you have found the proper downstream JavaScript and Underscore.js template
-files, you can follow the best practices as detailed in :ref:`Safe JavaScript
-Files` and :ref:`Safe Underscorejs Template Files`.
+files, you can follow the best practices as detailed in
+:ref:`Safe JavaScript Files` and :ref:`Safe Underscorejs Template Files`.
 
-For information about internationalized strings found in JavaScript, see
-:ref:`i18n`.
-
-Navigating JavaScript and Underscore.js Templates
-=================================================
-
-TODO: Move this to Confluence and link from here.
-
-It can be difficult to trace through all of the JavaScript dependencies in some
-of our legacy code.
-
-One tip that is useful for our legacy code is knowing that ``-tpl`` is often
-appended to the name of an Underscore.js template name inside the JavaScript
-code. For example, you might see the following line of JavaScript.
-
-.. code-block:: javascript
-
-    _.template($("#show-textbook-tpl").text());
-
-The above code would indicate you will find the template code in a file named
-``show-textbook.underscore``.
-
-Newer code uses RequireJS to manage the JavaScript dependencies.  You may see
-code like the following.
-
-.. code-block:: javascript
-
-    require(['js/models/course'], function(Course) {
-
-This would indicate that you'll find a JavaScript file in
-``js/models/course.js``.
+For help navigating our client side code, see
+`Navigating JavaScript and Underscore.js Templates <https://openedx.atlassian.net/wiki/x/9QHqAw>`_
 
 
 Run Safe Template Linter
@@ -1015,6 +1004,26 @@ Run Safe Template Linter
 Follow instructions for the :ref:`Safe Template Linter`. Search for any rule
 violations in the files you are working on. Since accuracy and completeness is
 not guaranteed, this should just be used to check your work.
+
+
+.. _Safe Template Linter:
+
+Safe Template Linter
+********************
+
+The safe template linter is a tool to help ensure best practices are being
+followed.
+
+The linter should be used in addition to following all documented best
+practices. It does not yet cover all rules. Additionally, for rules it
+does cover, it may output false positives. This is especially true with the
+Underscore.js template expressions.
+
+For help running the linter, use the following command.
+
+.. code-block:: bash
+
+    edxapp@precise64:~/edx-platform$ ./scripts/safe_template_linter.py --help
 
 
 Advanced Topics
@@ -1197,26 +1206,6 @@ objects and not double escape.
 Therefore, the problem with using ``HTML()`` without the initial ``Text()`` is
 that the ``Markup`` object becomes a plain old string and it ends up getting
 HTML-escaped, when your intention was to keep the HTML from being HTML-escaped.
-
-
-.. _Safe Template Linter:
-
-Safe Template Linter
-********************
-
-The safe template linter is a tool to help ensure best practices are being
-followed.
-
-The linter should be used in addition to following all documented best
-practices. It does not yet cover all rules. Additionally, for rules it
-does cover, it may output false positives. This is especially true with the
-Underscore.js template expressions.
-
-For help running the linter, use the following command.
-
-.. code-block:: bash
-
-    edxapp@precise64:~/edx-platform$ ./scripts/safe_template_linter.py --help
 
 
 .. _Safe Templates Additional Resources:
