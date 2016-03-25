@@ -230,7 +230,8 @@ To set the subsection release date, follow these steps.
 #. Select the **Configure** icon in the subsection box.
 
    .. image:: ../../../shared/images/subsections-settings-icon.png
-    :alt: The subsection settings icon circled.
+    :alt: A subsection in the course outline with the configure icon indicated.
+    :width: 600
 
    The **Settings** dialog box opens.
 
@@ -268,9 +269,10 @@ To set the assignment type and due date for a subsection, follow these steps.
 #. Select the **Configure** icon in the subsection box.
 
    .. image:: ../../../shared/images/subsections-settings-icon.png
-    :alt: The subsection settings icon circled.
+    :alt: A subsection in the course outline with the configure icon indicated.
+    :width: 600
 
-   The Settings dialog box opens.
+   The **Settings** dialog box opens.
 
 #. In the **Grading** section, select the assignment type for this subsection
    in the **Grade as** field.
@@ -283,7 +285,8 @@ To set the assignment type and due date for a subsection, follow these steps.
      `Time and Date Time Zone Converter
      <http://www.timeanddate.com/worldclock/converter.html>`_
 
-#. Optionally, set the subsection to be a :ref:`timed exam <Timed Exams>`.
+#. Optionally, for a course that has the timed exam feature enabled, select the
+   **Advanced** tab to set the subsection to be :ref:`timed<Timed Exams>`.
 
 #. Select **Save**.
 
@@ -324,7 +327,9 @@ To hide a subsection from learners, follow these steps.
 #. Select the **Configure** icon in the subsection box.
 
    .. image:: ../../../shared/images/subsections-settings-icon.png
-     :alt: The subsection settings icon circled.
+     :alt: A subsection in the course outline with the configure icon
+      indicated.
+     :width: 600
 
    The **Settings** dialog box opens.
 
@@ -364,5 +369,5 @@ To delete a subsection, follow these steps.
   .. image:: ../../../shared/images/subsection-delete.png
    :alt: The subsection with Delete icon circled.
 
-2. When you receive the confirmation prompt, select **Yes, delete this
+2. When the confirmation prompt appears, select **Yes, delete this
    subsection**.

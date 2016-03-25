@@ -32,7 +32,7 @@ the subsection.
 
 .. only:: Partners
 
-  Timed exams are different than :ref:`proctored exams <CA_ProctoredExams>`.
+  Timed exams are different than :ref:`proctored exams<CA_ProctoredExams>`.
   While both types of exams have a time limit, learners are only monitored
   during proctored exams.
 
@@ -57,33 +57,31 @@ Set a Subsection to be Timed
 Ensure that you have enabled timed exams in the course. Then follow these
 steps.
 
-#. :ref:`Develop the subsection <Developing Course Subsections>` as you would
-   any other subsection.
+#. Add and :ref:`develop a subsection <Developing Course Subsections>` as you
+   would any other subsection.
 
-#. Add :ref:`units <Developing Course Units>` and
-   :ref:`components <Developing Course Components>` as needed.
-
-#. Select the **Configure** icon in the subsection box.
+#. Select the **Configure** icon for the subsection.
 
    .. image:: ../../../shared/images/subsections-settings-icon.png
-    :alt: The subsection settings icon circled in the course outline.
+    :alt: A subsection in the course outline with the configure icon indicated.
     :width: 600
 
-   The **Settings** dialog box opens.
+   The **Settings** dialog box opens to the **Basic** tab.
 
-#. :ref:`Set the assignment type and due date for the subsection <Set the
-   Assignment Type and Due Date for a Subsection>`.
+#. In the **Grading** section, set the :ref:`assignment type and due date<Set
+   the Assignment Type and Due Date for a Subsection>` for the subsection.
 
-#. In the **Additional Options** section of the dialog box, select **Timed**.
+#. Select the **Advanced** tab.
 
-   .. image:: ../../../shared/images/timed_exam_studio.png
-    :alt: The subsection Timed Exam setting in Studio.
-    :width: 600
+#. In the **Set as a Special Exam** section, select **Timed**.
 
-   .. note:: This dialog box might also show options for :ref:`proctored exams
-     <CA_ProctoredExams>`.
+   .. only:: Partners
 
-#. In the **Time Allotted** field, enter the amount of time that you want
+     If your course has the proctored exam feature enabled, the
+     **Advanced** tab also shows options for :ref:`proctored and practice
+     proctored exams<CA_ProctoredExams>`.
+
+#. In the **Time Allotted** field, enter the length of time that you want
    learners to have to complete the problems in the subsection. Enter the time
    as HH:MM, where HH is hours and MM is minutes.
 

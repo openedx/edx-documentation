@@ -265,20 +265,14 @@ To enable proctored exams in your course, follow these steps.
 
 #. In Studio, select **Settings**, then select **Advanced Settings**.
 
-#. Scroll down to locate the **Enable Proctored Exams** policy key. The
-   default value is ``false``.
+#. Locate the **Enable Proctored Exams** policy key. The default value is
+   ``false``.
 
 #. Change the value of the setting to ``true``.
 
-   .. image:: ../../../../shared/images/Proctoring_AdvancedSetting.png
-      :alt: The "Enable Timed and Proctored Exams" advanced setting with a
-          value of "true".
-      :width: 500
+#. Select **Save Changes**. You can now create proctored exams in your course.
 
-#. Select **Save Changes** at the bottom of the page. You can now create
-   proctored exams in your course.
-
-When you have enabled this setting for your course, you can perform the
+After you enable this setting for your course, you can perform the
 following tasks.
 
 .. contents::
@@ -296,27 +290,31 @@ To create an exam that includes online proctoring, follow these steps.
 
 .. note:: Proctored exams are always timed exams.
 
-#. In Studio, in your course outline, add a subsection for your exam.
+#. Add and :ref:`develop a subsection <Developing Course Subsections>` as you
+   would any other subsection.
 
-#. Select the settings icon. Set the release date, grading, and student
-   visibility options for the exam.
+#. Select the **Configure** icon for the subsection.
 
-.. This should include a reference to a general explanation of these settings.
-.. The settings are not specific to proctored exams.
+   .. image:: ../../../../shared/images/subsections-settings-icon.png
+    :alt: A subsection in the course outline with the configure icon indicated.
+    :width: 600
 
-#. Select the **Advanced** tab of the **Exam Settings** screen.
+   The **Settings** dialog box opens to the **Basic** tab.
 
-#. Select **Proctored**. Specify the length of time allowed for the exam in the
-   **Time Allotted (HH:MM)** field. Specify the length of time in hours and
-   minutes.
+#. In the **Grading** section, set the :ref:`assignment type and due date<Set
+   the Assignment Type and Due Date for a Subsection>` for the subsection.
 
-#. If you allow learners to use tools and techniques that are prohibited by the
-   default rules for proctored exams, specify the custom rules and rule
-   exceptions for the proctored exam review team. For more information, see
-   :ref:`specifying_exam_rules_and_exceptions`.
+#. Select the **Advanced** tab.
 
-   For more information about the default rules for proctored exams, see
-   :ref:`Online Proctoring Rules <Online Proctoring Rules>`.
+#. In the **Set as a Special Exam** section, select **Proctored**.
+
+#. In the **Time Allotted** field, enter the length of time that you want
+   learners to have to complete the problems in the subsection. Enter the time
+   as HH:MM, where HH is hours and MM is minutes.
+
+#. Optionally, in the **Review Rules** field, enter any additions or exceptions
+   to the :ref:`default rules for proctored exams<Online Proctoring Rules>`.
+   For more information, see :ref:`specifying_exam_rules_and_exceptions`.
 
 #. Select **Save**.
 
@@ -354,33 +352,37 @@ latest version of the proctoring software.
 
 To create a practice exam, follow these steps.
 
-#. In Studio, in your course outline, add a subsection for the practice exam.
+#. Add and :ref:`develop a subsection <Developing Course Subsections>` as you
+   would any other subsection.
 
-#. Give a name to the exam that clearly identifies it as a practice exam.
+#. Select the **Configure** icon for the subsection.
 
-#. Select the settings icon. Set the release date, grading, and student
-   visibility options for the exam.
+   .. image:: ../../../../shared/images/subsections-settings-icon.png
+    :alt: A subsection in the course outline with the configure icon indicated.
+    :width: 600
 
-   Make sure you select **Not Graded** in the **Grade as** control.
+   The **Settings** dialog box opens to the **Basic** tab.
 
-.. This should include a reference to a general explanation of these settings.
-.. The settings are not specific to proctored exams.
+#. In the **Grading** section, set the :ref:`assignment type and due date<Set
+   the Assignment Type and Due Date for a Subsection>` for the subsection.
 
-#. Select the **Advanced** tab of the **Exam Settings** screen.
+#. Select the **Advanced** tab.
 
-#. Select **Practice Proctored**. Specify the length of time allowed for the
-   exam in the **Time Allotted (HH:MM)** field. Specify the length of time in
-   hours and minutes.
+#. In the **Set as a Special Exam** section, select **Practice Proctored**.
+
+#. In the **Time Allotted** field, enter the length of time that you want
+   learners to have to complete the problems in the subsection. Enter the time
+   as HH:MM, where HH is hours and MM is minutes.
 
    For a practice exam, edX recommends that you specify a relatively short
    duration that is appropriate for the number of example problems you
-   include.
+   include in the subsection.
 
 #. Select **Save**.
 
-#. Optionally, add a text component to the exam to provide learners with
-   information about the proctored exam in your course. You might also want to
-   add a few dummy questions to the exam.
+#. Optionally, add a unit with a text component to the practice exam
+   subsection. You can use the text component to provide learners with
+   information about the proctored exam in your course.
 
 The practice exam is added to the course, and is visible to all learners
 regardless of their enrollment track.
@@ -404,12 +406,12 @@ To specify custom proctored exam rules and rule exceptions, follow these steps.
 
 #. In Studio, open your course outline and select the subsection for the exam.
 
-#. Select the settings icon to open the **Exam Settings** screen.
+#. Select the **Configure** icon to open the **Settings** dialog box.
 
 #. Select the **Advanced** tab.
 
-#. Describe any additional rules or rule exceptions in the **Review Rules**
-   field.
+#. In the **Review Rules**
+   field, describe any additional rules or rule exceptions.
 
    Write clear, English-language descriptions of your exam rules. For example,
    you could enter the following rules.
