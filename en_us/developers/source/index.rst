@@ -1,8 +1,8 @@
 .. _edX Developer's Guide:
 
-#########################
-edX Developer's Guide
-#########################
+############################
+Open edX Developer's Guide
+############################
 
 .. toctree::
    :numbered:
