@@ -12,10 +12,6 @@ edX Studio
 
 * For videos, you can now create a transcript file that functions as a table of contents. The file contains links to different parts of the video. (BLD-933)
 
-  .. image:: Images/VideoTOC.png
-     :width: 500
-     :alt: Video with a transcript file that acts as a table of contents
-
 * Course teams can now set the Matlab API key globally in the advanced settings for the course.
 
 ***************************************

@@ -25,11 +25,15 @@ effective for a number of purposes, such as presenting motivating
 material, showing experiments, and reducing cognitive load for complex
 content.
 
+For more information about how learners can interact with course videos, see
+:ref:`learners:Video Player` in the *EdX Learner's Guide* or
+:ref:`openlearners:Video Player` in the *Open edX Learner's Guide*.
+
 =====================
 When to Use a Video
 =====================
 
-Before creating video content, figure out whether video is the best medium by
+Before creating video content, decide whether video is the best medium by
 asking the following questions.
 
 * Should the content be conveyed through text?
@@ -145,16 +149,21 @@ strongly recommends that you use the **.mp4 format**.
 Step 2. Create or Obtain a Video Transcript
 *********************************************
 
-Transcripts are required for your videos. Transcripts are required for deaf or
-hard of hearing learners to understand audio content, and helpful for learners
+Transcripts are required for your videos. Transcripts help learners with
+hearing impairments understand audio content, and they are helpful for learners
 who speak other languages. You can allow learners to download transcripts so
 that they can read them offline. You associate a transcript with a video when
 you create the video component.
 
-Timed transcripts in the SubRip Text (.srt) format are strongly recommended. A
-transcript in the .srt format appears next to its associated video and
-automatically scrolls as the video plays. A learner can select a word in the
+Timed transcripts in the SubRip Text (.srt) format are strongly recommended.
+Learners can select the **Show transcript** (") icon in the video player's
+control bar to show the transcript next to the video. The transcript
+automatically scrolls as the video plays, and learners can select a line in the
 transcript to jump to the point in the video where that word is spoken.
+
+Learners can also choose to show the transcript file as overlaid closed
+captions for the video by selecting the **Closed caption** (CC) icon in the
+video player's control bar.
 
 To create or obtain a transcript in .srt format, you can work with a company
 that provides captioning services.
@@ -379,9 +388,9 @@ The following options appear on the **Advanced** page of the video component.
       - The name that you want your learners to see. This is the same as the
         **Display Name** field on the **Basic** tab.
     * - **Default Timed Transcript**
-      -  The name of the transcript file that was specified in the **Default
-         Timed Transcript** field on the **Basic** page. You do not have to
-         change this setting.
+      - The name of the transcript file that was specified in the **Default
+        Timed Transcript** field on the **Basic** page. You do not have to
+        change this setting.
     * - **Download Transcript Allowed**
       - Specifies whether you want to allow learners to download the timed
         transcript. If you select **True**, a link to download the
@@ -427,7 +436,7 @@ The following options appear on the **Advanced** page of the video component.
           a Course`.
 
     * - **Show Transcript**
-      - Specifies whether the transcript plays along with the video by default.
+      - Specifies whether the transcript appears next to the video by default.
     * - **Transcript Languages**
       - The transcript files for any additional languages. For more
         information, see :ref:`Transcripts in Additional Languages`.
@@ -494,38 +503,6 @@ collateral to accompany the video.
   :local:
   :depth: 1
 
-.. _Video TOC:
-
-==============================
-Add a Video Table of Contents
-==============================
-
-You can add a table of contents for your video by adding an .srt file that
-contains links to different parts of the video. When your learners view the
-video, they can select **CC** to switch between the main transcript for the
-video and the table of contents.
-
-To add a table of contents, you work with a third-party service to create an
-.srt file. Then, you use the **Transcript Languages** setting in the video
-component to associate the .srt file with the video.
-
-.. image:: ../../../shared/images/VideoTOC.png
-   :alt: A video with a transcript that has links to different parts of the
-    video.
-   :width: 500
-
-#. After you obtain the .srt file that will function as the table of contents,
-   open the video component for the video.
-
-#. On the **Advanced** tab, scroll down to **Transcript Languages**, and then
-   select **Add**.
-
-#. Select **Table of Contents**.
-
-#. Select **Upload**, browse to the .srt file, and then select **Open**.
-
-#. In the **Upload translation** dialog box, select **Upload**.
-
 .. _Additional Transcripts:
 
 ============================================================
@@ -569,22 +546,24 @@ To add a downloadable transcript, follow these steps.
 Add a Transcript in Another Language
 ============================================================
 
-You can provide transcripts for your video in other languages. To do this,
-you work with a third-party service to obtain an .srt transcript file for
+You can provide transcripts for your video in more than one language. To do
+this, you work with a third-party service to obtain an .srt transcript file for
 each language, and then associate the .srt file with the video in Studio.
 
-Before you add transcript files, make sure that each one has a unique name. If
-you use the same transcript name in more than one video component, the same
-transcript will play for each video. To avoid this problem, you could name
-your foreign language transcript files according to the video's file name and
-the transcript language.
+Before you add a transcript file, make sure that each file has a unique name.
+If you use the same transcript name more than once, only the most recently
+added transcript will appear for every video component that is set up to use a
+transcript with that name. To avoid this problem, a best practice is to name
+additional transcript files by appending the transcript's language to the video
+file name.
 
-For example, you have two videos, named video1.mp4 and video2.mp4. Each video
-has a Russian transcript and a Spanish transcript. You can name the
-transcripts for the first video video1_RU.srt and video1_ES.srt, and name the
-transcripts for the second video video2_RU.srt and video2_ES.srt.
+For example, you have two videos, named video1.mp4 and video2.mp4, and their
+original transcripts are named video1.srt and video2.srt. When you add Spanish
+transcripts for these videos, you name them video1_ES.srt and video2_ES.srt.
+Later, when you add Russian transcripts for the videos, you name them
+video1_RU.srt and video2_RU.srt.
 
-To add the transcripts to a video component, follow these steps.
+To add a transcript to a video component, follow these steps.
 
 #. After you obtain the .srt files for additional languages, open the
    video component for the video.
@@ -594,24 +573,25 @@ To add the transcripts to a video component, follow these steps.
 
 #. Select the language for the transcript that you want to add.
 
-#. Select **Upload**, browse to the .srt file for the language that you want,
-   and then select **Open**.
+#. Select **Upload**, browse to the .srt file for the transcript in that
+   language, and then select **Open**.
 
 #. In the **Upload translation** dialog box, select **Upload**.
 
 #. Repeat steps 2 - 5 for any additional languages.
 
-When your learners view the video, they can select **CC** to select a
-language.
+When your learners view the video, they can select the **Language menu** to
+select a language.
 
 .. image:: ../../../shared/images/Video_LanguageTranscripts_LMS.png
-   :alt: Video playing with language options visible.
+   :alt: The video player with the language menu selected to show English and
+    Spanish as transcript options
 
 .. _Steps for sjson files:
 
-==============================
-Steps for .sjson Files
-==============================
+==================================
+Upload an .sjson File (Deprecated)
+==================================
 
 If your course uses .sjson files, you upload the .sjson file for the video
 to the **Files & Uploads** page, and then specify the name of the .sjson file
@@ -628,7 +608,7 @@ in the video component.
    For example, if the name of your video is **Lecture1a**, the name of your
    .sjson file must be **subs_Lecture1a.srt.sjson**.
 
-3. Upload the .sjson file for your video to the **Files & Uploads** page.
+#. Upload the .sjson file for your video to the **Files & Uploads** page.
 #. Edit or create the video component.
 #. Select **Advanced**.
 #. In the **Default Timed Transcript** field, enter the file name of your
