@@ -99,6 +99,21 @@ video files in your course, see :ref:`Working with Video Components`.
   For more information about video processing for courses that run on the
   edx.org site, see :ref:`partnercoursestaff:Video Processing Overview`.
 
+=============================================
+Adding Captions to Office Mix Presentations
+=============================================
+
+Typically, mixes include audio, video, or both. Mixes that include audio or
+video are likely to qualify as time-based media, and as a result, they require
+captions or a transcript to make all content accessible to all learners.
+
+For more information about how to add captions to a mix, see the Microsoft
+documentation for Office Mix, including the `How to add Closed Captions to an
+Office Mix`_ knowledge base article.
+
+For more information about making time-based media accessible, see
+:ref:`Accessibility Best Practices for Course Content Development`.
+
 ******************************
 Add an Office Mix to a Course
 ******************************
