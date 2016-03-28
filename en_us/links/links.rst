@@ -341,7 +341,7 @@
 
 .. _Office Mix Knowledge Base: https://officemix.uservoice.com/knowledgebase
 
-
+.. _How to add Closed Captions to an Office Mix: https://officemix.uservoice.com/knowledgebase/articles/505262-how-to-add-closed-captions-to-an-office-mix
 
 .. Release Notes
 
