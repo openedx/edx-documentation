@@ -60,8 +60,9 @@ The Room You are Taking the Test In
 
    * Phones.
    * Programs such as Excel, Word, Powerpoint.
-   * Any website other than edX.org.
    * Communication programs such as Skype.
+   * Any website page other than the exam window in your course, including
+     other content on edX.org.
 
 #. Make sure there is no writing visible on the desk or on the walls around
    you.
@@ -106,9 +107,9 @@ The Computer You are Taking the Test With
 #. The following tools should not be used during your proctored exam.
 
    * Programs such as Excel, Word, Powerpoint.
-   * Any website other than edX.org.
    * Communication programs such as Skype.
-
+   * Any website page other than the exam window in your course, including
+     other content on edX.org.
 
 ==========================================
 Your Personal Behavior
