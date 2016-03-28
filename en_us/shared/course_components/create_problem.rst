@@ -55,11 +55,11 @@ All problems on the edX platform have several component parts.
 #. **Rendered answer.** For some problem types, Studio uses MathJax to
    render plain text as "beautiful math".
 
-#. **Check button.** The learner selects **Check** to submit a response or find
-   out if his answer is correct. If the answer is correct, a green check mark
-   appears. If it is incorrect, a red X appears. When the learner selects
-   **Check**, the Learning Management System saves the grade and current
-   state of the problem.
+#. **Check button.** After entering or selecting an answer, a learner can
+   select **Check** to find out if his answer is correct. If the answer is
+   correct, a green check mark appears. If it is incorrect, a red X appears.
+   When the learner selects **Check**, the Learning Management System saves
+   the grade and current state of the problem.
 
 #. **Save button.** The learner can select **Save** to save her current
    response without submitting it for a grade. This allows the learner to
