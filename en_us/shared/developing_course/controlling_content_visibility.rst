@@ -144,8 +144,7 @@ the prerequisite subsection.
 Enabling Subsection Prerequisites
 =================================
 
-To enable prerequisite subsections in a course, follow
-these steps.
+To enable prerequisite subsections in a course, follow these steps.
 
 #. From the **Settings** menu, select **Advanced Settings**.
 
@@ -172,11 +171,13 @@ earned a minimum score in a prerequisite subsection, follow these steps.
 #. Enable subsection prerequisites for your course. For more information, see
    :ref:`enabling_subsection_gating`.
 
-#. Select the **Configure** icon for the subsection that
-   must be completed first. This is the prerequisite subsection.
+#. Select the **Configure** icon for the subsection that must be completed
+   first. This is the prerequisite subsection.
 
    .. image:: ../../../shared/images/subsections-settings-icon.png
-     :alt: The subsection configuration icon circled.
+     :alt: A subsection in the course outline with the configure icon
+      indicated.
+     :width: 600
 
 #. Select the **Access** tab.
 
@@ -206,7 +207,3 @@ earned a minimum score in a prerequisite subsection, follow these steps.
 
 #. In the course outline, if a subsection has a prerequisite, the prerequisite
    name appears under the subsection name.
-
-
-
-
