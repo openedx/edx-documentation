@@ -1030,6 +1030,26 @@ For help with running the linter, use the following command.
 
     edxapp@precise64:~/edx-platform$ ./scripts/safe_template_linter.py --help
 
+Disabling Violations
+====================
+
+If you need to disable a violation, you can add the following disable pragma
+to a comment at the start of the line before the violation, or at the end of the
+first line of the violation.  Use the comment syntax appropriate to the file you
+are editing.
+
+Here is sample syntax for a Mako template.
+
+.. code-block:: mako
+
+    ## safe-lint: disable=mako-invalid-js-filter,mako-js-string-missing-quotes
+
+Here is sample syntax for an Underscores.js template.
+
+.. code-block:: javascript
+
+    <% // safe-lint: disable=underscore-not-escaped %>
+
 
 Advanced Topics
 ***************
