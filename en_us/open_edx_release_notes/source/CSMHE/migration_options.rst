@@ -1,9 +1,12 @@
-.. _Options for Migrating Your Open edX Instances:
+.. _Options for Updating Your Open edX Instances:
 
 ##############################################
-Options for Migrating Your Open edX Instances
+Options for Updating Your Open edX Instances
 ##############################################
 
+Because Open edX installations really do come in all shapes and sizes, this
+topic outlines different options for updating your Open edX instances to use
+the new database and table configuration.
 
 .. contents::
    :local:
@@ -11,45 +14,57 @@ Options for Migrating Your Open edX Instances
 
 
 
-================
-Migrate Devstack
-================
+**************
+Reprovision
+**************
 
-To migrate a devstack that is used for development and that has a small
-database, you replace your devstack with an up to date devstack.
+.. note:: This option is only suitable for devstacks. You can use this option,
+ or either of the other options, to update a devstack.
+
+To update devstack with the new database and SQL table, you can replace
+your devstack with an up to date version.
 
    .. code-block:: bash
 
      vagrant provision
 
-This procedure adds a devstack with the new ``edxapp_csmh`` database and its
-``courseware_studentmodulehistoryextended`` table. The feature flags relevant
-to the migration have the following settings.
+No further migration or configuration procedures are required.
 
-``ENABLE_CSMH_EXTENDED``: true
-``READ_ONLY_FROM_CSMHE``: false
+Reprovisioning updates your devstack with the new ``edxapp_csmh`` database and
+its ``courseware_studentmodulehistoryextended`` table.
 
-After you provision the new devstack instance, no further migration or
-configuration procedures are required. With these settings, the system writes
-only to the new ``courseware_studentmodulehistoryextended`` table, but it reads
-from both the new table and the ``courseware_studentmodulehistory`` table in
-the ``edxapp`` database.
+The feature flags that are added to ``lms.env.json`` to control system use of
+the ``courseware_studentmodulehistoryextended`` table have the following
+settings.
+
+   .. code-block:: bash
+
+     "ENABLE_CSMH_EXTENDED": true
+     "ENABLE_READING_FROM_MULTIPLE_HISTORY_TABLES": false
+
+With this configuration, the system writes only to the new
+``courseware_studentmodulehistoryextended`` table, but it reads from both the
+new table and the ``courseware_studentmodulehistory`` table in the ``edxapp``
+database. For most devstacks, the performance overhead of querying two
+databases is not a significant consideration.
+
+********************************************
+Keep and Query Both Tables
+********************************************
+
+.. note:: This option is only suitable for instances with small databases,
+ such as a fullstack or small production instance.
+
+
 
 Due to the performance overhead of doing lookups in two databases, this option
 is most suitable for development environments with small databases.
 
-For more information, see TBD
+**********************************************
+Keep One Table, Truncate the Other
+**********************************************
 
-====================================================
-Migrate Fullstack or a Small Production Installation
-====================================================
-
-
-
-==========================================
-Migrate a Large Production Installation
-==========================================
-
+Large production instances
 
 
 Create the ``edxapp_csmh`` Database

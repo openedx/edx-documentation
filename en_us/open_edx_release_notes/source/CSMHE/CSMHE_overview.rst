@@ -1,18 +1,17 @@
-.. _Migrating CSMH:
+.. _CSMH Overview:
 
 ##########################################################################
-Overview of the ``courseware_studentmodulehistory`` Table Migration
+Overview of the ``courseware_studentmodulehistory`` Table
 ##########################################################################
 
-This topic provides background information about why a migration is needed.
+This topic provides background information about why a new database configuration is needed.
 
 .. contents::
    :local:
    :depth: 1
 
 For procedures about how to complete the upgrade for Open edX instances that
-are following the master version of the platform, see
-:ref:`Migrating CSMH`.
+are following master, see :ref:`CSMHE Migration Procedures`.
 
 ****************************************************************
 What Is the ``courseware_studentmodulehistory`` Table?
@@ -25,7 +24,7 @@ an ``id`` column with a type of 32-bit signed integer, and therefore has a
 maximum capacity of 2,147,483,647 records.
 
 ********************************
-Why Is a Migration Needed?
+Why Is That a Problem?
 ********************************
 
 Typically, ``courseware_studentmodulehistory`` is the largest table in the
@@ -36,9 +35,9 @@ On the edx.org site, two records are written to this table every second. Before
 this table for edx.org reached even half of its maximum capacity, edX began to
 strategize a replacement with a higher capacity form.
 
-*************************
-What Is the New Table?
-*************************
+*******************************
+What Is the Replacement Table?
+*******************************
 
 The new database table, ``courseware_studentmodulehistoryextended``, uses a
 custom Django field type to give the ``id`` column a type of 64-bit unsigned
@@ -53,19 +52,17 @@ The ``courseware_studentmodulehistoryextended`` table must be created in a new
 database, ``edxapp_csmh``, which will coexist alongside the existing ``edxapp``
 database.
 
-EdX included the new database in the migration design to address several
+EdX designed this change to include a new database to address several
 requirements.
 
 * System performance during the actual data migration process.
-*
+* Load balancing between the databases on AWS.
 * The storage capacity of the new ``courseware_studentmodulehistoryextended``
   table.
 
-The software available on the master branch of the edx-platform repository as
-of 16 March 2016 writes records to this database and table.
+.. ^^ guessing. Useful?
 
-.. ^^ this is really unclear
-
+The edx-platform repository master branch writes records to this database and table as of TBD.
 
 
 .. include:: ../../../links/links.rst

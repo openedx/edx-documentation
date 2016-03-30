@@ -24,7 +24,6 @@ most recent release of Open edX is :ref:`Dogwood <Open edX Dogwood Release>`.
    insights/index
    ecommerce/index
    mobile
-   CSMHE/index
    feature_flags/feature_flag_index
    glossary
 
