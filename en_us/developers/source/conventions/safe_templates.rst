@@ -1033,18 +1033,18 @@ For help with running the linter, use the following command.
 Disabling Violations
 ====================
 
-If you need to disable a violation, you can add the following disable pragma
-to a comment at the start of the line before the violation, or at the end of the
-first line of the violation.  Use the comment syntax appropriate to the file you
+If you need to disable a violation, add the following disable pragma to a
+comment at the start of the line before the violation, or at the end of the
+first line of the violation. Use the comment syntax appropriate to the file you
 are editing.
 
-Here is sample syntax for a Mako template.
+Here is example syntax for a Mako template.
 
 .. code-block:: mako
 
     ## safe-lint: disable=mako-invalid-js-filter,mako-js-string-missing-quotes
 
-Here is sample syntax for an Underscores.js template.
+Here is example syntax for an Underscore.js template.
 
 .. code-block:: javascript
 
