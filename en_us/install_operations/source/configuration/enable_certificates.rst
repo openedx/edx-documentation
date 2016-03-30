@@ -14,8 +14,8 @@ This topic describes how to enable certificates in your instance of Open edX.
 Overview
 *********
 
-Organizations and course teams can now generate certificates for learners who
-have completed courses. Learners can view, print, or share their certificates.
+Organizations and course teams can generate certificates for learners who pass
+a course. Learners can view, print, or share their certificates.
 
 For information about certificates, see :ref:`opencoursestaff:Setting Up Course
 Certificates` in *Building and Running an Open edX Course* or
@@ -79,7 +79,7 @@ Configure Certificates for Your Open edX Instance
    * ``logo_url``
 
    For each course mode, such as "honor" or "verified", define
-   ``certificate_type``, ``certificate_title`` and
+   ``certificate_type``, ``certificate_title``, and
    ``document_body_class_append``. The mode name should match your course mode
    name exactly. An example follows.
 
@@ -123,6 +123,37 @@ Configure Certificates for Your Open edX Instance
 
 #. Restart the Studio and Learning Management System processes so that the
    updated environment configurations are loaded.
+
+.. _Discontinue Audit Certificates:
+
+=====================================
+Discontinue Audit Track Certificates
+=====================================
+
+Organizations that offer certificates to audit track learners who pass a
+course can discontinue generation of this type of certificate. For example,
+your organization makes a strategic decision to offer certificates only to
+learners who select an enrollment mode other than "audit". Learners can
+continue to audit courses, but they no longer receive certificates.
+
+An outline of the steps you might take if your organization decides to stop
+offering certificates for learners in the audit track follows.
+
+#. Stop advertising audit track certificates for new courses.
+
+#. Identify running courses that offer an audit track certificate and, for
+   those courses, determine the course end date that is furthest in the future.
+
+#. Select a cutoff date for generating audit track certificates that is after
+   the last course end date identified in step 2.
+
+#. Set ``AUDIT_CERT_CUTOFF_DATE`` to a date in YYYY-MM-DD format. Specifying
+   this date ensures that certificates are not generated for audit track
+   learners in any course after the specified date.
+
+The ``AUDIT_CERT_CUTOFF_DATE`` feature flag affects only the generation of
+audit certificates. Learners who audit courses continue to receive grades,
+which are shown on the course **Progress** page.
 
 ******************************************************
 Customize Certificate Templates For Your Organization
