@@ -1,4 +1,4 @@
-.. _CSMHE Migration Procedures:
+.. _CSMHE Procedures:
 
 ##############################################
 Procedures for Migrating Open edX Instances
@@ -17,10 +17,6 @@ Migrate Devstack
 
 To migrate a devstack that is used for development and that has a small
 database, you replace your devstack with an up to date devstack.
-
-   .. code-block:: bash
-
-     vagrant provision
 
 This procedure adds a devstack with the new ``edxapp_csmh`` database and its
 ``courseware_studentmodulehistoryextended`` table. The feature flags relevant

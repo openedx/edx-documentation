@@ -4,7 +4,7 @@
 Open edX Release Notes
 ####################################
 
-The *Open edX Release Notes* provide information about Open edX releases.
+The *Open edX Release Notes* provide information about releases, migrations, and other changes and updates to the Open edX platform.
 
 .. toctree::
    :numbered:

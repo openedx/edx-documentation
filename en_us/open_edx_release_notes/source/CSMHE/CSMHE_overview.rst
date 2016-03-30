@@ -1,31 +1,33 @@
 .. _CSMH Overview:
 
 ##########################################################################
-Overview of the ``courseware_studentmodulehistory`` Table
+Overview of the ``courseware_studentmodulehistory`` Migration
 ##########################################################################
 
-This topic provides background information about why a new database configuration is needed.
+This topic provides background information about the
+``courseware_studentmodulehistory`` table and why a new database configuration
+is needed.
 
 .. contents::
    :local:
    :depth: 1
 
-For procedures about how to complete the upgrade for Open edX instances that
-are following master, see :ref:`CSMHE Migration Procedures`.
+For procedures about how to upgrade all Open edX instances that follow master,
+see :ref:`CSMHE Migration Procedures`.
 
 ****************************************************************
 What Is the ``courseware_studentmodulehistory`` Table?
 ****************************************************************
 
 The ``courseware_studentmodulehistory`` database table contains a record for
-each attempt that learners make to answer ``problem`` type XBlocks correctly.
+each attempt that learners make to answer ``problem`` XBlocks correctly.
 This database table is a standard ``StudentModuleHistory`` Django model. It has
 an ``id`` column with a type of 32-bit signed integer, and therefore has a
 maximum capacity of 2,147,483,647 records.
 
-********************************
-Why Is That a Problem?
-********************************
+************************
+What Is the Issue?
+************************
 
 Typically, ``courseware_studentmodulehistory`` is the largest table in the
 database. It can be twice as large as the next largest table,
@@ -48,12 +50,11 @@ integer, which offers an exponentially larger storage capacity than the
 Why Is A New Database Needed?
 ********************************
 
-The ``courseware_studentmodulehistoryextended`` table must be created in a new
-database, ``edxapp_csmh``, which will coexist alongside the existing ``edxapp``
-database.
+By design, the ``courseware_studentmodulehistoryextended`` table must be
+created in a new database, ``edxapp_csmh``. The new database will coexist
+alongside the existing ``edxapp`` database.
 
-EdX designed this change to include a new database to address several
-requirements.
+EdX chose to set up a new database to address several requirements.
 
 * System performance during the actual data migration process.
 * Load balancing between the databases on AWS.
@@ -62,7 +63,8 @@ requirements.
 
 .. ^^ guessing. Useful?
 
-The edx-platform repository master branch writes records to this database and table as of TBD.
+The edx-platform repository master branch writes records to this database and
+table as of TBD.
 
 
 .. include:: ../../../links/links.rst
