@@ -270,8 +270,8 @@ user supplied data safe.
   style property, or anything outside of the limited scope of an individual
   property value.
 
-* User supplied URLs must use a whitelisted or acceptable protocol (e.g.
-  http). Doing so prevents users from being able to supply a URL that uses the
+* User supplied URLs must use one of these safe protocols: "http:", "https:",
+  or "". Doing so prevents users from being able to supply a URL that uses the
   "javascript" protocol as an example.
 
 * User supplied style property values must not contain ``expression(...)`` due
