@@ -5,9 +5,9 @@ Testing Your Course Content
 ###########################
 
 The way your course looks in Studio is different from the way that learners
-will see and experience it when it is live.
+will see and experience it when it is live in the LMS.
 
-It is recommended that you test your content continually as you build your
+As a best practice, you should test content continually as you build your
 course, so you can interact with your course from a learner's point of view.
 
 .. contents::
@@ -21,17 +21,15 @@ course, so you can interact with your course from a learner's point of view.
 For information about setting up a beta test for your course, see
 :ref:`Beta_Testing`.
 
-
-
 .. _Preview Course Content:
 
 *************************
 Preview Course Content
 *************************
 
-You can preview course content before a course is live or before you publish
-specific units, to test how content will appear to students when it is
-released.
+You can preview course content before the course is live, or before you publish
+specific units in a live course, to test how content will appear to students
+when it is released.
 
 When you preview course content, you see the latest course content that is
 configured in Studio. You see content in units with the publishing status
@@ -52,35 +50,34 @@ configured in Studio. You see content in units with the publishing status
    been assigned to a particular student from a randomized content block in a
    live course, see :ref:`Specific Student View`.
 
-For example, you :ref:`publish a unit<Publish a Unit>` with a video and a
-discussion.
+For example, you :ref:`publish a unit<Publish a Unit>` that includes a video
+component and a discussion component.
 
 .. image:: ../../../shared/images/test-unit-studio.png
- :alt: A unit in Studio with a video and discussion
+ :alt: A unit in Studio with video and discussion components.
+ :width: 600
 
 Students see the same content in the LMS.
 
 .. image:: ../../../shared/images/test-unit-lms.png
- :alt: A unit in the LMS with a video and discussion
+ :alt: The unit in the LMS.
+ :width: 600
 
-You later decide to add a multiple choice problem to the unit, before the
-discussion. Before you publish this change, you can see how the question will
-look to students by previewing the unit in the LMS.
+You later decide to add a knowledge check problem to the unit, between the
+video and the discussion. Before you publish this change, you can see how the
+question will look to students by previewing the unit in the LMS.
 
-.. image:: ../../../shared/images/test-unit-studio-added-comp.png
- :alt: A unit in Studio with a video and multiple choice problem. (The
-   discussion component below the multiple choice problem is not included in
-   the screen capture).
-
-When you click **Preview** and select to view the course as a **Student**, you
+When you select **Preview** and select to view the course as a **Student**, you
 see the unit in the LMS with the multiple choice question. This preview shows
 how students will experience the unit after you :ref:`publish the
 change<Publish a Unit>`.
 
+.. I am getting different results. If the content is not published, I can Preview, but if I change to student view I get thrown out of the course. I think that the "View As" control in LMS is not useful with Preview, only with View Live. Opened DOC-2825  Alison 27 Mar 2016
+
 .. image:: ../../../shared/images/test-unit-lms-added-comp.png
- :alt: A unit in the LMS with "View as Student" selected, showing a video and
-  a multiple choice problem. (The discussion component below the multiple
-  choice problem is not included in the screen capture).
+ :alt: The unit in the LMS, showing a video, a problem, and a discussion
+  component.
+ :width: 600
 
 In the live course, students continue to see the existing content, without the
 multiple choice question, until you :ref:`publish the change<Publish a Unit>`.
@@ -97,12 +94,12 @@ multiple choice question, until you :ref:`publish the change<Publish a Unit>`.
 View Your Live Course
 ******************************************
 
-While you are working in Studio, you can test your live course by viewing it
-in the LMS as all students, or a particular student, would see it. You can see
-your course in `Staff View`_, `Student View`_, or `Specific Student View`_. If
-you are using content groups to designate specific content as visible only to
-particular content groups, you can see your course as a content group would
-see it.
+While you are working in Studio, you can test your live course by viewing it in
+the LMS as all students, or a particular student, would see it. You can see
+your course in ref:`Staff View`, :ref:`Student View`, or :ref:`Specific Student
+View`. If you are using content groups to designate specific content as visible
+only to particular content groups, you can see your course as a content group
+would see it.
 
 You can view the course as a member of these groups.
 
@@ -113,39 +110,33 @@ You can view the course as a member of these groups.
     * - Role
       - When You "View As" This Role
     * - Staff
-      - You see all content in the course, including content
-        that is hidden from students.
+      - You see all content in the course, including content that is hidden
+        from students.
     * - Student
-      - You see any content that is intended for all
-        students.
+      - You see any content that is intended for all students.
     * - Specific Student
       - You see content that is intended for the student whose email or
         username you specify.
     * - Student in <Content Group Name>
-      - You see content that is intended for all students, as well
-        as any content specifically set to be visible to this content group.
+      - You see content that is intended for all students, as well as any
+        content specifically set to be visible to this content group.
 
 To switch to your live course and see how it appears to members of the groups
 in the table above, follow these steps.
 
-#. From the course outline page in Studio, click **View Live** or, from a unit
-   page in Studio, click **View Live Version**.
+#. From the Studio **Course Outline** page, select **View Live**.
+   Alternatively, from a unit page, select **View Live Version**.
 
-  .. image:: ../../../shared/images/test-outline-view-live.png
-   :alt: View live button on the outline
+   A separate browser tab opens for the course in the LMS.
 
-  .. image:: ../../../shared/images/test-unit-view-live.png
-   :alt: View Live Version button on the unit page
+#. In the LMS, select one of the **View this course as** options, as described
+   in the table above.
 
-#. In the live view of the course in the LMS, from the navigation bar at the
-   top of the page, select one of the options in the **View this course as**
-   drop down list, as described in the table above.
+The course view refreshes to present course content as a member of the selected
+group would see it.
 
-The course view refreshes and the content is presented as a member of the
-selected group would see it.
-
-For details about each view, see `Staff View`_, `Student View`_, or `Specific
-Student View`_.
+For details about each view, see :ref:`Staff View`, :ref:`Student View`, or
+:ref:`Specific Student View`.
 
 
 .. _Staff View:
@@ -154,12 +145,13 @@ Student View`_.
 Staff View
 =================
 
-In the LMS, to view your live course as anyone with the role of **Staff**
-would see it, use **Staff View**.
+In the LMS, to view your live course as any member of the course team
+would see it, from **View this course as** select **Staff**.
 
 .. image:: ../../../shared/images/Live_Course_Staff_View.png
  :alt: Image of the Course page in a live course with Staff View indicated
   at top right and a View Unit in Studio button
+ :width: 600
 
 * You see all units that are :ref:`Published and Live`. For units that are
   :ref:`Draft (Unpublished Changes)` or :ref:`Visible to Staff Only`, you
@@ -170,8 +162,9 @@ would see it, use **Staff View**.
   see these units, you must use Preview mode as described in :ref:`Preview
   Course Content`.
 
-* You can access the Instructor Dashboard, which has features and reports that
-  help you :ref:`run your course<Managing Live Course Index>`.
+* You can select **Instructor** to access the instructor dashboard, which has
+  options and reports that help you :ref:`run your course<Managing Live Course
+  Index>`.
 
 When you view your course in **Staff View**, you can execute tests to make sure
 that your course works the way you intend. For example,  before the release
@@ -185,6 +178,9 @@ answer other than the correct one gets a red X for incorrect.
 Student View
 ============
 
+In the LMS, to view your live course as learners see it, from **View this
+course as** select **Student**.
+
 .. note::
   If your course has not started, you cannot see the content on the **Course**
   page when you use the **Student** view. To see this content before the course
@@ -193,22 +189,14 @@ Student View
   that you can see the content that you want. For more information, see
   :ref:`Beta_Testing`.
 
-In the LMS, to see the course content in your live course that is intended for
-all students, use the **Student** view.
-
 .. note:: If you have enabled your course for cohorts and have designated some
   content as visible only to certain content groups, you can select a content
   group from the **View Course As** dropdown list to see the content exactly
   as a student in a cohort associated with that content group will see it. For
-  details, see :ref:`Preview Cohort Specific Courseware`.
+  more information, see :ref:`Preview Cohort Specific Courseware`.
 
-To switch to the **Student** view, click **View this course as** and select
-**Student** from the drop down list.
-
-.. image:: ../../../shared/images/test-view-as-student.png
- :width: 250
- :alt: The "View Course As" dropdown list with Staff, Student, and
-  named content group options shown.
+When you view content as a student does, you can test the following aspects of
+your course.
 
 * You do not see sections or subsections that have not yet been released.
 
@@ -220,9 +208,6 @@ To switch to the **Student** view, click **View this course as** and select
   :ref:`Visible to Staff Only`. To see these units, you must switch back to
   Instructor view or use Preview mode as described in :ref:`Preview Course
   Content`.
-
-* You can access the Instructor Dashboard, which has features and reports that
-  help you run your course.
 
 .. _Specific Student View:
 
@@ -236,29 +221,20 @@ Specific Student View
   the course has started, add yourself as a beta tester on the Instructor
   Dashboard. Make sure to set the course start date and the **Days Early for
   Beta** setting so that you can see the content that you want. For more
-  information, see
-  :ref:`Beta_Testing`.
+  information, see :ref:`Beta_Testing`.
 
-In the LMS, the course content in your live course as one particular student
-would see it, use the **Specific student** view.
+In the LMS, to view your live course as one particular learner sees it, from
+**View this course as** select **Specific student**. You must then enter that
+learner's username or email address.
 
-Seeing the content in your live course as a specific student sees it is useful
-in some situations. For example, to adjust a grade or reset the attempts for a
-problem that was assigned from a randomized content block, you will need to
-view the course as a specific student to see the actual problems that they
-were assigned. For details about adjusting grades or resetting attempts, see
-:ref:`Adjust_grades`.
+When you view content as a specific student does, you can test the following
+aspects of your course.
 
-
-To switch to the **Specific student** view, click **View this course as**.
-Select **Specific student** from the drop down list, and enter the username or
-the email address of the specific student that you want to view the course
-as.
-
-.. image:: ../../../shared/images/ViewCourseAsSpecificStudent.png
- :alt: Image of the "View Course As" dropdown list with Staff, Student, and
-  Specific student options shown, and the field that is used to specify the student's username or email address.
-
+* In courses with randomized content blocks, you see the actual problem that
+  was assigned to a specific learner. This view allows you to evaluate a
+  request to adjust a grade or reset the number of attempts for a problem. For
+  details about adjusting grades or resetting attempts, see
+  :ref:`Adjust_grades`.
 
 * You do not see sections or subsections that have not yet been released.
 
@@ -271,9 +247,6 @@ as.
   :ref:`Visible to Staff Only`. To see these units, you must switch back to
   Staff view or use Preview mode as described in :ref:`Preview Course Content`.
 
-* You can access the Instructor Dashboard, which has features and reports that
-  help you run your course.
-
 
 *************************************
 Open Studio from Your Live Course
@@ -282,29 +255,22 @@ Open Studio from Your Live Course
 When you are viewing your course in the LMS as **Staff View**, you can open
 Studio directly.
 
-* In a unit page, click **View Unit in Studio**.
-
-  .. image:: ../../../shared/images/Live_Studio_from_LMS_Unit.png
-   :alt: The View Unit in Studio button in an LMS unit
+* In a unit page, select **View Unit in Studio**.
 
   The unit page opens in Studio.
 
-* In the Instructor Dashboard, click **View Course in Studio** to open the
+* In the instructor dashboard, select **View Course in Studio** to open the
   course outline.
 
-  .. image:: ../../../shared/images/Live_Course_Instructor_Dashboard.png
-    :alt: Image of the Instructor Dashboard in a live course with a View Course
-        in Studio button
+  For information about the tasks you can complete from the instructor
+  dashboard, see :ref:`Managing Live Course Index`.
 
-  For information about the tasks you can complete on the Instructor Dashboard,
-  see :ref:`Managing Live Course Index`.
-
-* In the **Course Progress** page, click **View Grading in Studio** to open the
-  Grading page.
+* In the **Course Progress** page, select **View Grading in Studio** to open
+  the **Grading** page.
 
   .. image:: ../../../shared/images/Student_Progress.png
-     :alt: Image of the Course Progress page for a student with a View  Grading
-         in Studio button
+     :alt: The Progress page in a course with a View Grading in Studio option.
+     :width: 600
 
   For information about checking a student's progress, see
   :ref:`Review_grades`.

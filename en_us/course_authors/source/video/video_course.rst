@@ -168,8 +168,8 @@ To associate a transcript with a video, follow these steps.
 
 #. Select **Save**.
 
-To test the transcript with the video, select **CC** in the video player's
-control bar to turn on captions. The transcript file scrolls while the video
+To test the transcript with the video, select the **Show transcript** (") icon
+in the video player's control bar. The transcript file scrolls while the video
 file plays.
 
 ============================
