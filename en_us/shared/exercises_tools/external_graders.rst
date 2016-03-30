@@ -128,7 +128,7 @@ repository <https://github.com/edx/xqueue/blob/master/queue/urls.py>`_.
 Inputs to the External Grader
 ======================================================
 
-The grader receives a submission as a JSON object that has three keys:
+The grader receives a submission as a JSON object that has the following keys:
 
 * **xqueue_header**: A dictionary that contains information that is required
   for xqueue to link results to the corresponding submission.
@@ -137,22 +137,23 @@ The grader receives a submission as a JSON object that has three keys:
   submitted by the learner. The dictionary is structured such that the
   filename is the key and the location of the file is the value.
 
-* **xqueue_body**: A dictionary that contains the actual submission as JSON
+* **xqueue_body**: A dictionary that contains the actual submission as JSON.
 
-  * **student_info**: A dictionary that contains three keys with additional
-    information about the student in relation to this submission
+  * **student_info**: A dictionary that contains the following
+    information about the student in relation to this submission.
 
-    * **anonymous_student_id**: Anonymized identifier of the student
+    * **anonymous_student_id**: A string that contains an anonymized identifier
+      of the student.
 
     * **submission_time**: A string that contains a timestamp with the time
-      of submission (yyyymmddhhmmss)
+      of submission (yyyymmddhhmmss).
 
     * **random_seed**: An integer that contains the seed that was used to
-      initialize the randomization script that may be attached to the problem
+      initialize the randomization script that may be attached to the problem.
         
   * **student_response**: A string that contains the learner's code
-    submission. The string comes from either input the learner enters in the
-    edX Learning Management System or a file the learner attaches.
+    submission. A learner can submit code by entering a string in the LMS or by
+    attaching a file.
 
   * **grader_payload**: An optional string that you can specify when you
     create the problem. For more information, see the section
