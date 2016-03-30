@@ -6,8 +6,12 @@ For features with user-facing impact, please make sure you've also read the
 guidelines for :ref:`Contributing to the Documentation for your Open Source
 Feature`.
 
-When opening up a pull request, please prepare a "cover letter" to place into
-the "Description" field on GitHub. A good cover letter concisely answers as
+When opening up a pull request, a cover letter template will be prepopulated
+for you. It has some items marked with **TODO**. These are indications of actions
+that you should take before (or as part of) submitting the pull request, and
+then can be deleted.
+
+A good cover letter concisely answers as
 many of the following questions as possible. Not all pull requests will have
 answers to every one of these questions, which is okay!
 
