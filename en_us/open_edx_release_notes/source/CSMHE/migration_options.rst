@@ -1,8 +1,8 @@
 .. _Options for Updating Your Open edX Instances:
 
-##############################################
-Options for Updating Your Open edX Instances
-##############################################
+##########################################################
+Options for Updating ``courseware_studentmodulehistory``
+##########################################################
 
 This topic outlines the options for updating to the new database and
 table configuration required by the ``courseware_studentmodulehistory`` change.
@@ -24,8 +24,10 @@ Migrate All Data to One Table
 
 For instances with relatively large databases, you set up the new database and
 table and then migrate all existing data to the new table. When the process is
-complete, the system uses only the new table. An outline of the steps you
-complete follows.
+complete, the system uses only the new table. This is the procedure that edX
+followed for edx.org and edX Edge.
+
+An outline of the steps you complete follows.
 
 #. Create the ``edxapp_csmh`` database.
 
@@ -87,7 +89,7 @@ For more information, see :ref:`CSMHE Procedures`.
 Reinstall
 **************
 
-.. note:: This option is suitable for Devstacks only.
+.. note:: This option is suitable only for Devstacks.
 
 To set up Devstack with the new database and SQL table, you can reprovision.
 If you choose this option for updating Devstack, no further configuration
@@ -95,12 +97,13 @@ or migration procedures are required.
 
    .. code-block:: bash
 
+     cd devstack
      vagrant provision
 
 Reprovisioning adds the ``edxapp_csmh`` database and its
 ``courseware_studentmodulehistoryextended`` table. The ``lms.env.json`` feature
-flags that control ``courseware_studentmodulehistoryextended`` use have the
-following settings.
+flags that control use of the ``courseware_studentmodulehistoryextended`` table
+have the following settings.
 
    .. code-block:: bash
 
@@ -111,5 +114,6 @@ A system with this configuration writes to the new
 ``courseware_studentmodulehistoryextended`` table only, but queries both
 tables.
 
+.. ^^ is that how devstacks should be configured?
 
 .. include:: ../../../links/links.rst

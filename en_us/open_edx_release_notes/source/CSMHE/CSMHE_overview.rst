@@ -1,7 +1,7 @@
 .. _CSMH Overview:
 
 ##########################################################################
-Overview of the ``courseware_studentmodulehistory`` Migration
+Overview of ``courseware_studentmodulehistory`` Changes
 ##########################################################################
 
 This topic provides background information about the
