@@ -14,20 +14,20 @@ Preferred Usage
 
 * Do not use "the following" as a noun or to introduce a list.
 
-* Use "have to," "must," or "we recommend" rather than "should."
+* Use "have to," "must," or "EdX recommends" rather than "should."
 
 * Avoid redundancy in phrases.
 
-  * Create a new NOUN --> prefer Create a NOUN
+  * Create a new {noun} --> prefer Create a {noun}
 
-  * Delete or edit an existing NOUN --> prefer Delete or edit a NOUN
+  * Delete or edit an existing {noun} --> prefer Delete or edit a {noun}
 
 
 .. list-table::
   :widths: 20 80
 
   * - Abbreviations
-    - Only use for standards of measurement, such as kb.
+    - Only use for standards of measurement, such as kB.
 
       Do not use Latin abbreviations. For example, replace "etc." with "and so
       on".
@@ -36,9 +36,9 @@ Preferred Usage
       edX mobile app" is the correct term.
 
   * - Active voice
-    - Use active voice as much as possible. For example, rephrase "These
-      events are emitted by the browser when you click **Save**." as "The
-      browser emits these events when you click **Save**."
+    - Use active voice as much as possible. For example, rephrase "These events
+      are emitted by the browser when a user selects **Save**." as "The browser
+      emits these events when a user select **Save**."
 
   * - Acronyms
     - Always spell out the term, then follow it with the acronym in
@@ -68,7 +68,7 @@ Preferred Usage
       checklist<Course Launch Checklist>``` to verify that the course is
       ready for release."
 
-      To promote a better experience for screenreaders, provide the title of
+      To promote a better experience for screen readers, provide the title of
       the destination in each cross-reference link, and not just a URL. In
       addition, avoid including multiple links to the same destination on a
       single HTML page.
@@ -92,8 +92,8 @@ Preferred Usage
       unclear without them. For exceptions to this rule, see the :ref:`word
       list<Word List>`.
   * - Images
-    - Minimize use of screenshots and other graphics. For more information,
-      see :ref:`Images`.
+    - Minimize use of screen shots. For more information, see :ref:`Images`.
+
   * - Lists
     - Introduce an unordered list with a complete sentence that ends in a
       period. See also "steps."
