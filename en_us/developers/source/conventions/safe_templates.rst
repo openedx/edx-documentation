@@ -661,6 +661,11 @@ using RequireJS ``define``, as seen in the following example.
         function (Backbone, _, gettext, StringUtils, HtmlUtils) {
             ...
 
+If you are working with code that does not use RequireJS, then this approach
+will not be possible. In this situation you can access these functions from
+the global ``edx`` namespace instead. For more information, see
+:ref:`JavaScript edx Namespace`.
+
 The following ``HtmlUtils`` functions all make use of ``HtmlUtils.HtmlSnippet``.
 An HTML snippet is used to communicate to other functions that the string it
 represents contains HTML that has been safely escaped as necessary.
@@ -774,6 +779,20 @@ user provided data before it is used as a query parameter.
 
 For more information about URLs, see :ref:`URL Context`.
 
+.. _JavaScript edx Namespace:
+
+JavaScript ``edx`` Namespace
+============================
+
+If you are working with code that does not use RequireJS, then it is not
+possible to import the ``StringUtils`` and ``HtmlUtils`` functions in
+the regular way. In this situation you can access these functions instead
+from the global ``edx`` namespace, as follows:
+
+.. code-block:: javascript
+
+    edx.StringUtils.interpolate(...);
+    edx.HtmlUtils.setHtml(...);
 
 .. _Safe CoffeeScript Files:
 
