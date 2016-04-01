@@ -514,18 +514,20 @@ often an indicator of a user experience that relies too heavily on visual
 context. The following questions should help you decide whether it is
 appropriate to hide content from screen readers or display it offscreen.
 
-Would all users benefit from the content displayed offscreen?
-  If the content you are considering displaying offscreen might be useful not only
-  for non-visual users but other users too, find a way to make the content work
-  visually, and expose it for all users.
+* Would all users benefit from the content displayed offscreen?
+
+  * If the content you are considering displaying offscreen might be useful not only
+    for non-visual users but other users too, find a way to make the content work
+    visually, and expose it for all users.
   
-Are you using only visual cues to provide important context?
-  In standard sidebar navigation, it is common practice to indicate the user's
-  current page or section by differentiating it visually from other pages or sections
-  in the sidebar. To visual users, it is clear that the item in the list that looks
-  different than all the others is the page that they are currently viewing. You can
-  make this visual context available to non-visual users with offscreen text, as
-  demonstrated in the following example.
+* Are you using only visual cues to provide important context?
+  
+  * In standard sidebar navigation, it is common practice to indicate the user's
+    current page or section by differentiating it visually from other pages or sections
+    in the sidebar. To visual users, it is clear that the item in the list that looks
+    different than all the others is the page that they are currently viewing. You can
+    make this visual context available to non-visual users with offscreen text, as
+    demonstrated in the following example.
   
 ::
 
@@ -535,23 +537,25 @@ Are you using only visual cues to provide important context?
 .. note:: In the code example above, the non-breaking space prevents a screen reader 
   from reading the text as “About UsCurrent Page”.
   
-Does the content displayed offscreen contain any interactive elements?
-  Never include interactive elements such as links, buttons, or form inputs, in
-  offscreen content. Doing so negatively impacts sighted keyboard-only users, who
-  require visual focus indicators to understand what element has focus and will be
-  the target of keyboard events.
+* Does the content displayed offscreen contain any interactive elements?
+
+  * Never include interactive elements such as links, buttons, or form inputs, in
+    offscreen content. Doing so negatively impacts sighted keyboard-only users, who
+    require visual focus indicators to understand what element has focus and will be
+    the target of keyboard events.
   
-Are you including interactive elements in offscreen content?
-  It can be tempting to use offscreen text to improve the usability of an interactive
-  element for non-visual users. Offscreen text is included in the Accessibility API
-  which is used by screen readers. However, screen readers are not the only 
-  assistive technology that use the Accessibility API. Speech input software also
-  uses the Accessibility API to identify interactive controls. In the 
-  following example, screen reader users will hear "Type your First Name", but
-  sighted users will see only "First Name." Users who rely on speech input to
-  interact with their computer will move focus to this element by saying "Focus on
-  First Name" (the visual label). However, the accessible label for this element is
-  "Type your First Name."
+* Are you including interactive elements in offscreen content?
+
+  * It can be tempting to use offscreen text to improve the usability of an interactive
+    element for non-visual users. Offscreen text is included in the Accessibility API
+    which is used by screen readers. However, screen readers are not the only 
+    assistive technology that use the Accessibility API. Speech input software also
+    uses the Accessibility API to identify interactive controls. In the 
+    following example, screen reader users will hear "Type your First Name", but
+    sighted users will see only "First Name." Users who rely on speech input to
+    interact with their computer will move focus to this element by saying "Focus on
+    First Name" (the visual label). However, the accessible label for this element is
+    "Type your First Name."
   
 ::
 
