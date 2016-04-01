@@ -4,7 +4,7 @@
 Open edX Release Notes
 ####################################
 
-The *Open edX Release Notes* provide information about the Open edX releases.
+The *Open edX Release Notes* provide information about releases, migrations, and other changes and updates to the Open edX platform.
 
 .. toctree::
    :numbered:
@@ -12,6 +12,7 @@ The *Open edX Release Notes* provide information about the Open edX releases.
 
    front_matter/index
    os_documentation
+   CSMHE/index
    dogwood
    cypress
    birch
