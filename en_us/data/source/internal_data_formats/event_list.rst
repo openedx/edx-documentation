@@ -110,6 +110,16 @@ D, E, F
      - :ref:`notes`
    * - ``edx.done.toggled``
      - :ref:`Course Content Completion Events`
+   * - ``edx.drag_and_drop_v2.feedback.closed``
+     - :ref:`Drag and Drop Events`
+   * - ``edx.drag_and_drop_v2.feedback.opened``
+     - :ref:`Drag and Drop Events`
+   * - ``edx.drag_and_drop_v2.item.dropped``
+     - :ref:`Drag and Drop Events`
+   * - ``edx.drag_and_drop_v2.item.picked_up``
+     - :ref:`Drag and Drop Events`
+   * - ``edx.drag_and_drop_v2.loaded``
+     - :ref:`Drag and Drop Events`
    * - ``edx.forum.comment.created``
      - :ref:`forum_events`
    * - ``edx.forum.response.created``

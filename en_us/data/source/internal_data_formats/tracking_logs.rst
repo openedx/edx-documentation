@@ -2165,7 +2165,8 @@ information about interactions with problems.
 These events were designed for the problem types implemented in the edX
 platform by the ``capa_module.py`` XBlock. Problem types that are implemented
 by other XBlocks, such as :ref:`open response assessments<ora2>`,
-:ref:`peer instruction assessments<Peer Instruction Events>`, or
+:ref:`peer instruction assessments<Peer Instruction Events>`,
+:ref:`drag and drop problems<Drag and Drop Events>`, or
 :ref:`polls and surveys<Poll and Survey Events>`, are instrumented with
 different events.
 
@@ -2753,7 +2754,7 @@ The server emits ``showanswer`` events when the answer to a problem is shown.
          response field labels.
 
 .. Including the special exam (timed and proctored) events doc in a separate
-.. file because it is very long.
+.. file because it is very long. - Peter March 2016
 
 .. include:: special_exam_events.rst
 
@@ -4141,6 +4142,177 @@ before they submit the response.
    * - ``fileType``
      - string
      - The MIME type of the uploaded file. Reported by the learner's browser.
+
+
+.. _Drag and Drop Events:
+
+=======================
+Drag and Drop Events
+=======================
+
+This section describes events emitted by the drag and drop problem XBlock. The
+drag and drop problem XBlock presents a background image and a set of draggable
+items. Learners select an item and move it into a target zone on the background
+image. Drag and drop problems can also require that learners enter number input
+for each item that they drag into a target zone. A drag and drop problem is
+complete when each draggable item that matches a target zone is correctly
+placed on its zone.
+
+For more information about how course teams set up a drag and drop problem, see
+:ref:`partnercoursestaff:drag_and_drop_problem`.
+
+.. contents::
+  :local:
+  :depth: 1
+
+This section presents the drag and drop events alphabetically. Typically, an
+interaction with these problems begins with a :ref:`drag_and_drop_v2_loaded`
+event.
+
+**History**: Added 24 Feb 2016.
+
+``edx.drag_and_drop_v2.feedback.closed``
+****************************************
+
+The server emits this event when a pop up feedback message closes in a drag and
+drop problem.
+
+**Event Source**: Server
+
+``context`` **Member Fields**:
+
+This event type includes the :ref:`common<context>` ``context.module`` member
+field.
+
+``event`` **Member Fields**:
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+   * - ``content``
+     - string
+     - The text of the success or error feedback message in the pop up.
+   * - ``manually``
+     - Boolean
+     - 'true' if the learner manually closed the pop up dialog box,
+       'false' if the browser closed the dialog box.
+   * - ``truncated``
+     - Boolean
+     - 'true' only if the ``content`` was longer than 12,500 characters,
+       which is the maximum included in the event.
+
+``edx.drag_and_drop_v2.feedback.opened``
+****************************************
+
+The server emits this event when a pop up feedback message opens in a drag and
+drop problem.
+
+**Event Source**: Server
+
+``context`` **Member Fields**:
+
+This event type includes the :ref:`common<context>` ``context.module`` member
+field.
+
+``event`` **Member Fields**:
+
+The ``edx.drag_and_drop_v2.feedback.opened`` events include the following
+``event`` member fields. These fields serve the same purpose for events of this
+type as for ``edx.drag_and_drop_v2.feedback.closed`` events.
+
+* ``content``
+* ``truncated``
+
+``edx.drag_and_drop_v2.item.dropped``
+**************************************
+
+The server emits this event when a learner releases a draggable item into a
+target zone in a drag and drop problem. For problems that also require a number
+input, this event is also emitted after the learner submits the number input.
+
+**Event Source**: Server
+
+``context`` **Member Fields**:
+
+This event type includes the :ref:`common<context>` ``context.module`` member
+field.
+
+``event`` **Member Fields**:
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+   * - ``input``
+     - integer
+     - The number input value entered by the learner.
+   * - ``item_id``
+     - integer
+     - The index assigned to the draggable item selected by the learner.
+   * - ``is_correct``
+     - Boolean
+     - For problems that do not require a number input, 'true' if the item is
+       in the correct zone, or 'false' if it is not in a correct zone. For
+       problems that require a number input, 'true' only if both the item is
+       dropped in the correct zone and the number input is correct.
+   * - ``is_correct_location``
+     - Boolean
+     - 'true' if the draggable item is in the correct target zone. 'false' if
+       the item is not in the correct zone. For problems that do not require a
+       number input, ``is_correct`` and ``is_correct_location`` are equivalent.
+   * - ``location``
+     - string
+     - The text identifier for the target zone in which the learner placed the
+       item.
+
+``edx.drag_and_drop_v2.item.picked_up``
+***************************************
+
+The server emits this event when a learner selects a draggable item in a drag
+and drop problem.
+
+**Event Source**: Server
+
+``context`` **Member Fields**:
+
+This event type includes the :ref:`common<context>` ``context.module`` member
+field.
+
+``event`` **Member Fields**:
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+   * - ``item_id``
+     - integer
+     - The index assigned to the draggable item selected by the learner.
+
+.. _drag_and_drop_v2_loaded:
+
+``edx.drag_and_drop_v2.loaded``
+********************************
+
+The server emits this event after a drag and drop problem is shown in the LMS.
+
+**Event Source**: Server
+
+``context`` **Member Fields**:
+
+This event type includes the :ref:`common<context>` ``context.module`` member
+field.
+
+``event`` **Member Fields**: None
 
 
 .. _Peer Instruction Events:
