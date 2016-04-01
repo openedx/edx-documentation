@@ -14,7 +14,6 @@ use the E-Commerce service with the Open edX platform.
    :maxdepth: 2
 
    install_ecommerce
-   config_partner_site
    manage_assets
    create_products
    manage_orders

@@ -1,8 +1,8 @@
 .. _Install and Start ECommerce:
 
-############################################
+########################################
 Install and Start the E-Commerce Service
-############################################
+########################################
 
 To install and start the edX E-Commerce service, you must complete the
 following steps.
@@ -18,9 +18,9 @@ following steps.
 
 .. _Set Up a Virtual Environment:
 
-******************************
+****************************
 Set Up a Virtual Environment
-******************************
+****************************
 
 #. Create or activate a Python virtual environment. You execute all of the
    commands described in this section within the virtualenv (unless otherwise
@@ -39,11 +39,32 @@ Set Up a Virtual Environment
    ``ecommerce/settings/private.py``. The ``ecommerce/settings/local.py`` file
    reads the values in this file, but Git ignores the file.
 
+.. _Run Migrations:
+
+**************
+Run Migrations
+**************
+
+To set up the ``ecommerce`` database, you must run migrations.
+
+.. note::
+    Local installations use SQLite by default. If you use another database
+    backend, make sure you update your settings and create the database, if
+    necessary, before you run migrations.
+
+#. To run migrations, execute the following command.
+
+   .. code-block:: bash
+
+      $ make migrate
+
+When you run migrations, the E-Commerce service adds a default site to your installation.
+
 .. _Configure OIDC:
 
-************************************************
+***********************************
 Configure edX OpenID Connect (OIDC)
-************************************************
+***********************************
 
 The E-Commerce service relies on the edX `OpenID Connect`_ (OIDC)
 authentication provider for login. OIDC is built on top of OAuth 2.0.
@@ -58,9 +79,9 @@ procedures.
 
 .. _Create Register Client:
 
-====================================
+============================
 Create and Register a Client
-====================================
+============================
 
 To create and register a new OIDC client, follow these steps.
 
@@ -80,9 +101,9 @@ To create and register a new OIDC client, follow these steps.
 #. For **Client Type**, select **Confidential (Web applications)**.
 #. Select **Save**.
 
-====================================
+===============================
 Designate the Client as Trusted
-====================================
+===============================
 
 After you create your client, designate it as trusted. Trusted clients
 bypass the user consent form that usually appears after the system validates
@@ -96,16 +117,19 @@ To designate your client as trusted, follow these steps.
    that you just created.
 #. Select **Save**.
 
-.. _Update Django Settings:
+.. _Configure a Site, Partner, and SiteConfiguration:
 
-====================================
-Update Django Settings
-====================================
+*************************************************
+Configure a Site, Partner, and Site Configuration
+*************************************************
 
-To finish creating and configuring your OIDC client, add the client credentials
-to the Django settings for your project.
-
-In the ``ecommerce/settings/local.py`` file, update the following settings.
+To finish creating and configuring your OIDC client, you must configure a partner,
+site, and site configuration for the E-Commerce service to use. The site that you
+configure is the default site that the E-Commerce service adds when you run
+migrations. You must update this default site to match the domain that you will
+use to access the E-Commerce service. You must also set up a site configuration
+that contains an ``oauth_settings`` JSON field that stores your OIDC client's settings,
+as follows.
 
 .. list-table::
    :widths: 25 60 20
@@ -116,24 +140,102 @@ In the ``ecommerce/settings/local.py`` file, update the following settings.
      - Value
    * - ``SOCIAL_AUTH_EDX_OIDC_KEY``
      - OAuth 2.0 client key
-     - Enter the value from the **Client ID** field in the :ref:`Create
+     - The **Client ID** field in the :ref:`Create
        Register Client` section.
    * - ``SOCIAL_AUTH_EDX_OIDC_SECRET``
      - OAuth 2.0 client secret
-     - Enter the value from the **Client Secret** field in the :ref:`Create
+     - The value from the **Client Secret** field in the :ref:`Create
        Register Client` section.
    * - ``SOCIAL_AUTH_EDX_OIDC_URL_ROOT``
      - OAuth 2.0 authentication URL
-     - Enter ``http://127.0.0.1:8000/oauth2``.
+     - For example, ``http://127.0.0.1:8000/oauth2``.
    * - ``SOCIAL_AUTH_EDX_OIDC_ID_TOKEN_DECRYPTION_KEY``
      - OIDC ID token decryption key, used to validate the ID
        token
-     - Set this to the same value as ``SOCIAL_AUTH_EDX_OIDC_SECRET``.
+     - The same value as ``SOCIAL_AUTH_EDX_OIDC_SECRET``.
 
+To configure your default site, partner, and site configuration, use the appropriate settings module
+for your environment (``ecommerce.settings.devstack`` for Devstack, ``ecommerce.settings.production``
+for Fullstack) to run the following Django management command. This command updates the default site
+and creates a new partner and site configuration with the specified options.
 
-************************************
-Run Migrations and Start the Server
-************************************
+    .. code-block:: bash
+
+      $ sudo su ecommerce
+      $ python manage.py create_or_update_site --site-id=1 --site-domain=127.0.0.1:8002 --partner-code=edX --partner-name='Open edX' --lms-url-root=http://127.0.0.1:8000 --theme-scss-path=sass/themes/edx.scss --payment-processors=cybersource,paypal --client-id=[change to OIDC client ID] --client-secret=[change to OIDC client secret]
+
+.. _Add Another Site, Partner, and Site Configuration:
+
+=================================================
+Add Another Site, Partner, and Site Configuration
+=================================================
+
+If you want to add more sites, partners, and site configurations, you can use the ``create_or_update_site``
+command. The following options are available for this command.
+
+.. list-table::
+   :widths: 25 20 60 20
+   :header-rows: 1
+
+   * - Option
+     - Required
+     - Description
+     - Example
+   * - ``--site-id``
+     - No
+     - Database ID of a site you want to update.
+     - ``--site-id=1``
+   * - ``--site-domain``
+     - Yes
+     - Domain by which you will access
+       the E-Commerce service.
+     - ``--site-domain=ecommerce.example.com``
+   * - ``--site-name``
+     - No
+     - Name of the E-Commerce site.
+     - ``--site-name='Example E-Commerce'``
+   * - ``--partner-code``
+     - Yes
+     - Short code of the partner.
+     - ``--partner-code=edX``
+   * - ``--partner-name``
+     - No
+     - Name of the partner.
+     - ``--partner-name='Open edX'``
+   * - ``--lms-url-root``
+     - Yes
+     - URL root of the Open edX LMS instance.
+     - ``--lms-url-root=https://example.com``
+   * - ``--theme-scss-path``
+     - No
+     - ``STATIC_ROOT`` relative path of the site's SCSS file.
+     - ``--theme-scss-path=sass/themes/edx.scss``
+   * - ``--payment-processors``
+     - No
+     - Comma-delimited list of payment processors used on the site.
+     - ``--payment-processors=cybersource,paypal``
+   * - ``--client-id``
+     - Yes
+     - OIDC client ID.
+     - ``--client-id=ecommerce-key``
+   * - ``--client-secret``
+     - Yes
+     - OIDC client secret.
+     - ``--client-id=ecommerce-secret``
+
+To add another site, use the appropriate settings module for your environment
+(``ecommerce.settings.devstack`` for Devstack, ``ecommerce.settings.production``
+for Fullstack) to run the following Django management command. This command creates
+a new site, partner, and site configuration with the options that you specify.
+
+    .. code-block:: bash
+
+      $ sudo su ecommerce
+      $ python manage.py create_or_update_site --site-domain=[change me] --partner-code=[change me] --partner-name=[change me] --lms-url-root=[change me] --client-id=[OIDC client ID] --client-secret=[OIDC client secret]
+
+****************
+Start the Server
+****************
 
 To complete the installation and start the E-Commerce service, follow these
 steps.
@@ -152,12 +254,6 @@ steps.
       $ sudo su ecommerce
       $ make devserve
 
-#. To run migrations, execute the following command.
-
-   .. code-block:: bash
-
-      $ make migrate
-
 #. To run the server, execute the following command.
 
    .. code-block:: bash
@@ -173,9 +269,9 @@ steps.
 
 .. _Development Outside Devstack:
 
-*******************************
+****************************
 Development Outside Devstack
-*******************************
+****************************
 
 If you are running the LMS in `devstack`_ but would prefer to run the
 E-Commerce service on your host, set up a reverse port-forward. This reverse
