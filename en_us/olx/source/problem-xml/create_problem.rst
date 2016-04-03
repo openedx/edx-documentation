@@ -265,21 +265,20 @@ Randomization
 
 .. note:: The **Randomization** setting serves a different purpose from
  "problem randomization". The **Randomization** setting affects how numeric
- values are randomized within a single problem and requires the inclusion of a
- Python script. Problem randomization offers different problems or problem
- versions to different learners. For more information, see :ref:`Problem
- Randomization`.
+ values or multiple choice options are randomized within a single problem.
+ Problem randomization offers different problems or problem versions to
+ different learners. For more information, see :ref:`Problem Randomization`.
 
-For problems that include a Python script to generate numbers randomly, this
-setting specifies how frequently the values in the problem change: each time a
-different learner accesses the problem, each time a single learner tries to
-answer the problem, both, or never.
+For numerical input problems that include a Python script to generate numbers
+randomly, or multiple choice problems that are set up to shuffle answers, this
+setting specifies when problem appearance changes.
 
 .. note:: This setting should only be set to an option other than **Never**
- for problems that are configured to do random number generation.
+ for problems that are configured to do random number generation or shuffle
+ multiple choice answers.
 
-For example, in this problem, the highlighted values change each time a learner
-submits an answer to the problem.
+For example, in this problem, the highlighted values change every time a
+learner selects **Check** for this problem.
 
 .. image:: ../../../shared/images/Rerandomize.png
  :alt: An image of the same problem shown twice, with color highlighting on
@@ -292,7 +291,17 @@ these steps.
 * Make sure that you edit your problem to include a Python script that randomly
   generates numbers.
 
-* Select an option other than **Never** for the **Randomization** setting.
+* Select **Edit** and then **Settings** for the problem to specify an option
+  other than **Never** for the **Randomization** setting.
+
+If you want to shuffle answers in a multiple choice problem, you complete both
+of these steps.
+
+* Use the simple or advanced editor to set up your problem to :ref:`shuffle
+  answers<Shuffle Answers in a Multiple Choice Problem>`.
+
+* Select **Edit** and then **Settings** for the problem to specify an option
+  other than **Never** for the **Randomization** setting.
 
 ..  For more information, see :ref:`Use Randomization in a Numerical Input Problem`.
 ..  ^^ add back to first bullet when DOC-2175 gets done - Alison 30 Jul 15
