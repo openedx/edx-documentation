@@ -496,18 +496,14 @@ release of Open edX.
 Patch Releases
 **************
 
-.. list-table::
-   :widths: 30 70
-   :header-rows: 1
+=======================
+9 March 2016: Dogwood.1
+=======================
 
-   * - Date
-     - Change
-   * - 9 March 2016
-     - An update to the release packaging was made.
-   * -
-     - The help links in Studio now open topics in the correct version of the
-       *Building and Running an Open edX Course* guide.
+* An update to the release packaging was made.
 
+* The help links in Studio now open topics in the correct version of the
+  *Building and Running an Open edX Course* guide.
 
 
 
