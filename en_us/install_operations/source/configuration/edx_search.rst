@@ -4,6 +4,11 @@
 Enabling Open edX Search
 #########################
 
+You can add a search feature to your Open edX site so that prospective learners
+can find courses more easily. When a learner searches for a key word or words,
+the search feature returns a list of the courses that are currently open for
+enrollment and that match the entered key words.
+
 This section describes how to enable search in your instance of Open edX.
 
 .. contents::
@@ -134,6 +139,11 @@ reindex procedure.
 You can also reindex the course manually through the **Reindex** button in the
 **Course Overview** page.
 
+.. note:: The search feature only returns results for courses that are
+ currently open for enrollment. Course teams can set the enrollment start and
+ end dates for their courses in Studio. For more information, see
+ :ref:`opencoursestaff:Determine Start and End Dates` in the *Building and
+ Running an Open edX Course* guide.
 
 ==============================
 Which Data Gets Indexed
