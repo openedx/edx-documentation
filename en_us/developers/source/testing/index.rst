@@ -13,3 +13,4 @@ infrastructure even more awesome.
     code-coverage
     code-quality
     running-tests
+    internationalization
