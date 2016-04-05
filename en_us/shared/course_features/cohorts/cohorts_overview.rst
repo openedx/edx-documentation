@@ -43,6 +43,8 @@ For more information about using cohorts, see the following topics.
 
 * :ref:`Enabling and Configuring Cohorts`
 
+* :ref:`Verified Track Cohorts`
+
 * :ref:`Setting Up Discussions in Courses with Cohorts<Set up Discussions in
   Cohorted Courses>`
 
