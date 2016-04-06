@@ -123,6 +123,8 @@
 
 .. _edX Analytics Installation: https://openedx.atlassian.net/wiki/display/OpenOPS/edX+Analytics+Installation
 
+.. _Open edX Native Installation: https://openedx.atlassian.net/wiki/x/bgCXAw
+
 
 .. EDX VMs
 
