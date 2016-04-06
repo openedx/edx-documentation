@@ -105,7 +105,7 @@ These are examples of how to run a single test and get `stdout` and get coverage
 
 Use this command to generate coverage report.
 
-    ``coverage report
+    ``coverage report``
 
 Use this command to generate an HTML report.
 
@@ -179,8 +179,7 @@ To run JavaScript tests in a browser, run these commands.
 To debug these tests on devstack in a local browser, perform the following steps.
 
 * run the appropriate ``test_js_dev`` command from above which will open a browser using XQuartz
-* open the same URL in your browser but change the IP address to 192.168.33.10, e.g.
-http://192.168.33.10:TEST_PORT/suite/cms
+* open the same URL in your browser but change the IP address to 192.168.33.10, e.g. http://192.168.33.10:TEST_PORT/suite/cms
 * this will run all the tests and show you the results including details of any failures
 * you can click on an individually failing test and/or suite to re-run it by itself
 * you can now use the browser's developer tools to debug as you would any other JavaScript code
@@ -194,7 +193,7 @@ These paver commands call through to a custom test runner. For more info, see `j
 
 
 Bok Choy
-=======
+========
 
 We use `Bok Choy`_ for acceptance testing. Bok Choy is a UI-level acceptance test
 framework for writing robust `Selenium`_ tests in `Python`_. Bok Choy makes your acceptance

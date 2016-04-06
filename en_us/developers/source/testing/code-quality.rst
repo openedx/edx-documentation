@@ -75,3 +75,5 @@ Two tools are available for evaluating complexity of edx-platform code.
 .. _coverage.py: https://pypi.python.org/pypi/coverage
 .. _pylint: http://pylint.org/
 .. _diff-quality: https://github.com/Bachmann1234/diff-cover
+.. _radon: https://radon.readthedocs.org/en/latest/
+.. _plato: https://github.com/es-analysis/plato
