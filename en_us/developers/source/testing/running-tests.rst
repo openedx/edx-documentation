@@ -361,30 +361,11 @@ When you connect to the LMS, you need to use the public ip. Use ifconfig to figu
 Acceptance Testing Techniques
 =============================
 
-* Element existence on the page: Do not use splinter's built-in browser methods directly f
-or determining if elements exist. Use the world.is_css_present and world.is_css_not_present
-wrapper functions instead. Otherwise errors can arise if checks for the css are performed
-before the page finishes loading. Also these wrapper functions are optimized for the amount
-of wait time spent in both cases of positive and negative expectation.
-* Dealing with alerts: Chrome can hang on JavaScript alerts. If a
-JavaScript alert/prompt/confirmation is expected, use the step 'I will confirm all alerts',
-'I will cancel all alerts' or 'I will answer all prompts with "(.*)"' before the step that
-causes the alert in order to properly deal with it.
-* Dealing with stale element reference exceptions: These exceptions happen if any part of
-the page is refreshed in between finding an element and accessing the element. When possible,
-use any of the css functions in ``common/djangoapps/terrain/ui_helpers.py`` as they will retry
-the action in case of this exception. If the functionality is not there, wrap the function
-with world.retry_on_exception. This function takes in a function and will retry and return
-the result of the function if there was an exception.
-* Scenario Level Constants: If you want an object to be available for the entire scenario,
-it can be stored in world.scenario_dict. This object is a dictionary that gets refreshed at
-the beginning on the scenario. Currently, the current logged in user and the current created
-course are stored under 'COURSE' and 'USER'. This will help prevent strings from being hard
-coded so the acceptance tests can become more flexible.
-* Internal edX Jenkins considerations: Acceptance tests are run in Jenkins as part of the
-edX development workflow. They are broken into shards and split across workers. Therefore
-if you add a new .feature file, you need to define what shard they should be run in or else
-they will not get executed. See someone from TestEng to help you determine where they should go.
+* Element existence on the page: Do not use splinter's built-in browser methods directly for determining if elements exist. Use the world.is_css_present and world.is_css_not_present wrapper functions instead. Otherwise errors can arise if checks for the css are performed before the page finishes loading. Also these wrapper functions are optimized for the amount of wait time spent in both cases of positive and negative expectation.
+* Dealing with alerts: Chrome can hang on JavaScript alerts. If a JavaScript alert/prompt/confirmation is expected, use the step 'I will confirm all alerts', 'I will cancel all alerts' or 'I will answer all prompts with "(.*)"' before the step that causes the alert in order to properly deal with it.
+* Dealing with stale element reference exceptions: These exceptions happen if any part of the page is refreshed in between finding an element and accessing the element. When possible, use any of the css functions in ``common/djangoapps/terrain/ui_helpers.py`` as they will retry the action in case of this exception. If the functionality is not there, wrap the function with world.retry_on_exception. This function takes in a function and will retry and return the result of the function if there was an exception.
+* Scenario Level Constants: If you want an object to be available for the entire scenario, it can be stored in world.scenario_dict. This object is a dictionary that gets refreshed at the beginning on the scenario. Currently, the current logged in user and the current created course are stored under 'COURSE' and 'USER'. This will help prevent strings from being hard coded so the acceptance tests can become more flexible.
+* Internal edX Jenkins considerations: Acceptance tests are run in Jenkins as part of the edX development workflow. They are broken into shards and split across workers. Therefore if you add a new .feature file, you need to define what shard they should be run in or else they will not get executed. See someone from TestEng to help you determine where they should go.
 
 Also, the test results are rolled up in Jenkins for ease of understanding, with the
 acceptance tests under the top level of "CMS" and "LMS" when they follow this convention:
