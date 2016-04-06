@@ -239,4 +239,34 @@ The upgrade from Cypress to Dogwood includes these steps.
 Similar steps are followed to upgrade other repositories such as xqueue.
 
 
+************************************
+Upgrading to a Dogwood point release
+************************************
+
+Occasionally, we will release updates to Dogwood.  The first of these is named
+Dogwood.1, then Dogwood.2, and so on.  Once you have installed Dogwood,
+updating to a new point release is a simple process.  The steps differ based
+on your original installation method.
+
+================================
+Upgrading a Vagrant installation
+================================
+
+Devstack and Fullstack are installed using Vagrant.  To upgrade to a Dogwood
+point release, follow these steps in the host operating system: set
+``OPENEDX_RELEASE`` to the desired Dogwood tag, and re-provision.
+
+.. code-block:: bash
+
+    $ export OPENEDX_RELEASE=named-release/dogwood.2
+    $ vagrant provision
+
+===============================
+Upgrading a native installation
+===============================
+
+If you installed Open edX using the `Open edX Native Installation`_, re-run
+those steps with a new value for ``OPENEDX_RELEASE``.
+
+
 .. include:: ../../../links/links.rst
