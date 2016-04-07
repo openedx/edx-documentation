@@ -240,33 +240,33 @@ Similar steps are followed to upgrade other repositories such as xqueue.
 
 
 ************************************
-Upgrading to a Dogwood point release
+Upgrading to a Dogwood Point Release
 ************************************
 
-Occasionally, we will release updates to Dogwood.  The first of these is named
-Dogwood.1, then Dogwood.2, and so on.  Once you have installed Dogwood,
-updating to a new point release is a simple process.  The steps differ based
-on your original installation method.
+Occasionally, we release updates to Dogwood.  The first of these is named
+Dogwood.1, then Dogwood.2, and so on.  The steps differ based on your original
+installation method.  You will need to know the name of the Dogwood tag you
+want to install, for example ``named-release/dogwood.2``.
 
 ================================
-Upgrading a Vagrant installation
+Upgrading a Vagrant Installation
 ================================
 
 Devstack and Fullstack are installed using Vagrant.  To upgrade to a Dogwood
-point release, follow these steps in the host operating system: set
-``OPENEDX_RELEASE`` to the desired Dogwood tag, and re-provision.
+point release, follow these steps in the host operating system.
 
 .. code-block:: bash
 
-    $ export OPENEDX_RELEASE=named-release/dogwood.2
+    $ export OPENEDX_RELEASE={desired-dogwood-tag}
     $ vagrant provision
 
 ===============================
-Upgrading a native installation
+Upgrading a Native Installation
 ===============================
 
 If you installed Open edX using the `Open edX Native Installation`_, re-run
-those steps with a new value for ``OPENEDX_RELEASE``.
+those steps using your desired Dogwood tag as the new value for
+``OPENEDX_RELEASE``.
 
 
 .. include:: ../../../links/links.rst
