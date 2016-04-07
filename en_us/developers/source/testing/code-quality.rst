@@ -7,6 +7,9 @@ Code Quality
 In order to keep our code as clear and readable as possible, we use various
 tools to assess the quality of pull requests:
 
+Python
+------
+
 * We use the `pep8`_ tool to follow `PEP-8`_ guidelines
 * We use `pylint`_ for static analysis and uncovering trouble spots in our code
 
@@ -20,10 +23,12 @@ in the process of introducing other changes.
 To check the quality of your pull request, just go to the top level of the
 edx-platform codebase and run::
 
-    $ paver run_quality
+    ``$ paver run_quality``
 
-You can also use the `paver run_pep8`` and ``paver run_pylint`` commands to run just pep8 or
-pylint.
+You can also use the following commands individually to run each set of tests respectively.
+
+    ``paver run_pep8``
+    ``paver run_pylint``
 
 This will print a report of the quality violations that your branch has made.
 
@@ -32,15 +37,43 @@ violations are just too challenging to resolve, so we opt to ignore them via
 use of a pragma. A pragma tells Pylint to ignore the violation in the given
 line. An example is::
 
-    self.assertEquals(msg, form._errors['course_id'][0])  # pylint: disable=protected-access
+    ``self.assertEquals(msg, form._errors['course_id'][0])  # pylint: disable=protected-access``
 
 The pragma starts with a ``#`` two spaces after the end of the line. We prefer
 that you use the full name of the error (``pylint: disable=unused-argument`` as
 opposed to ``pylint: disable=W0613``), so it's more clear what you're disabling
 in the line.
 
+JavaScript
+----------
+
+To view JavaScript code style quality run this command.
+
+    ``paver run_jshint``
+
+This command also comes with a ``--limit`` switch, this is an example of that switch.
+
+    ``paver run_jshint --limit=700``
+
+Overall Complexity
+------------------
+
+Two tools are available for evaluating complexity of edx-platform code.
+
+* `radon`_ for Python code complexity.
+  * To obtain complexity, run
+
+    ``paver run_complexity``
+
+* `plato`_ for JavaScript code complexity. Several options are available on the command line; see documentation.
+  * Below, the following command will produce an html report in a subdirectory called "jscomplexity"
+
+    ``plato -q -x common/static/js/vendor/ -t common -l .jshintrc -r -d jscomplexity common/static/js/``
+
 .. _PEP-8: http://legacy.python.org/dev/peps/pep-0008/
 .. _pep8: https://pypi.python.org/pypi/pep8
 .. _coverage.py: https://pypi.python.org/pypi/coverage
 .. _pylint: http://pylint.org/
 .. _diff-quality: https://github.com/Bachmann1234/diff-cover
+.. _radon: https://radon.readthedocs.org/en/latest/
+.. _plato: https://github.com/es-analysis/plato
