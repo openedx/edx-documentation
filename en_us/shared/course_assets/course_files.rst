@@ -31,7 +31,6 @@ use the Files & Uploads page to add these files to your course. If you are an
 edX partner and you need to store large data sets, contact your edX program
 manager.
 
-
 .. _Upload a File:
 
 *******************
@@ -52,7 +51,7 @@ To upload a file, follow these steps.
     When URLs are generated for uploaded files, the file name becomes part of
     the URL and is visible to students when they access the file. Avoid using
     file names that contain information about the file contents that you do not
-    want to share, such as ``Answerkey.pdf``.
+    want to share, such as "Answerkey.pdf".
 
 #. From the **Content** menu, select **Files & Uploads**.
 
@@ -78,30 +77,23 @@ The **Files & Uploads** page refreshes to show the uploaded file.
 Use File URLs to Reference Uploaded Files
 ********************************************
 
-After you upload a file, you can use the URLs listed for it. On the **Files &
-Uploads** page, the **URL** column lists a Studio URL and web URL for each
-file.
+To use an uploaded file for your course, you add a reference to one of the URLs
+that is assigned to it. On the **Files & Uploads** page, the **URL** column
+lists a **Studio** URL and a **Web** URL for each file you upload.
 
-Use the web URL if you want to perform either of the following actions.
-Add a file or image to a bulk email message...
-Provide a link to the file or image from outside the course.
+* To add a file or image to a component, a course update, or a course handout,
+  you use the **Studio** URL. For more information, see :ref:`Add an Image to
+  an HTML Component`.
 
-* You use the **Studio URL** to add a file or image to a component, a course
-  update, or course handouts. For more information, see :ref:`Add an Image to
-  an HTML Component`. You cannot use the web URL to link to a file or image
-  from within your course.
-
-* Use the **Web URL** to:
-
-  * Add a file or image to a bulk email message in the LMS. For more
-    information, see :ref:`Send_Bulk_Email`.
-
-  * To provide a link to the file or image from outside the course.
+* To provide a link to the file or image from outside the course, including in
+  the body of an email message that you send to course participants from the
+  LMS, you use the **Web** URL. For more information about sending email
+  messages, see :ref:`Send_Bulk_Email`.
 
 .. note::
-  You can lock a file if you do not want anyone outside your course to view the
-  file. When you lock a file, the web URL only allows file access to learners
-  who are signed in to edX and enrolled in the course. For more information,
+  You can lock a file if you do not want to allow access to a file from outside
+  your course. When you lock a file, the web URL only allows file access to
+  learners who are signed in and enrolled in your course. For more information,
   see :ref:`Lock a File`.
 
 To copy a URL from the file list, select the URL in the **URL** column
@@ -110,7 +102,7 @@ and copy it.
 .. _Sort Files:
 
 *********************
-Sort Files
+Sort Uploaded Files
 *********************
 
 On the **Files & Uploads** page, you can sort your files by any column that has
@@ -127,7 +119,7 @@ sort column header is underlined.
 .. _Filter Files:
 
 *********************
-Filter Files
+Filter Listed Files
 *********************
 
 You can filter the list of files by type so that only a selected type of file
@@ -146,7 +138,7 @@ is visible. The list remains in the current sort order.
    * - Other
      - Files not included in the other types, such as .html, .js, or .sjson
 
-To filter the list of files by type:
+To filter the list of files by type, follow these steps.
 
 #. On the **Files & Uploads** page, select the **Type** column header.
 
@@ -161,7 +153,7 @@ To reset the list and view files of all types, select **Show All** in the
 .. _Find Files:
 
 *******************
-Find Files
+Find a File
 *******************
 
 The **Files & Uploads** page lists up to 50 files.  If your course has more
@@ -172,16 +164,14 @@ shown at the top of the page.
 
 You can navigate through the pages in these ways.
 
-* Select the **<** and **>** buttons at the top and bottom of the list to
-  navigate to the previous and next pages.
+* Select the **<** or **>** control to navigate to the previous or next
+  page.
 
-* At the bottom of the page, you can edit the first number in the page range.
-  Select the number to place your cursor in the field, then enter the page
-  number you want to jump to.
+* Specify the number of the page you want to view.
 
   .. image:: ../../../shared/images/file_pagination.png
    :width: 250
-   :alt: Image showing page navigation on the Files & Uploads page.
+   :alt: Page navigation controls on the Files & Uploads page.
 
 .. _Lock a File:
 
@@ -203,10 +193,9 @@ To lock a file, select the lock icon in the right column.
 Delete a File
 *******************
 
-To delete a file, select the **x** icon in the row for file.  You are prompted
+To delete a file, select the **X** in the row for file.  You are prompted
 to confirm the deletion.
 
 .. warning::
   After you delete a file, links to the file from course content will be
   broken. You must update links to files that you need to delete.
-
