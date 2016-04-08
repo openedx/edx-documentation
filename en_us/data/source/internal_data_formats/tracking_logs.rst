@@ -713,6 +713,8 @@ interacts with a video.
 
 This section presents the video interaction events alphabetically. Typically,
 an interaction with the video player begins with a :ref:`play_video` event.
+For more information about how learners can interact with course videos, see
+:ref:`learners:Video Player` in the *EdX Learner's Guide*.
 
 For courses that include a pre-roll video, user interactions with the pre-roll
 video result in different events. For more information, see :ref:`pre-roll`.
@@ -727,8 +729,9 @@ of the video events on 23 Dec 2014.
 ``hide_transcript``/``edx.video.transcript.hidden``
 ***************************************************
 
-When a user selects **CC** to suppress display of the video transcript, the
-browser or mobile app emits a ``hide_transcript`` event.
+When a user selects the **Closed caption** (CC) or **Show transcript** (")
+icons to suppress display of the video transcript, the browser or mobile app
+emits a ``hide_transcript`` event.
 
 In addition to the identifying ``event_type`` of ``hide_transcript``, events
 that the edX mobile app emits also include a ``name`` field with a value of
@@ -736,9 +739,10 @@ that the edX mobile app emits also include a ``name`` field with a value of
 
 **Event Source**: Browser or Mobile
 
-**History**: Updated 25 Feb 2015 to include events emitted by the edX mobile
-app for iOS. Updated 23 Dec 2014 to include events emitted by the edX mobile
-app for Android.
+**History**: Updated 16 Jan 2016 to include events triggered by the new **Show
+transcript** icon. Updated 25 Feb 2015 to include events emitted by the edX
+mobile app for iOS. Updated 23 Dec 2014 to include events emitted by the edX
+mobile app for Android.
 
 ``context`` **Member Fields**:
 
@@ -1149,8 +1153,9 @@ The following additional ``event`` member fields apply specifically to
 ``show_transcript``/``edx.video.transcript.shown``
 **************************************************
 
-When a user selects **CC** to display the video transcript, the browser or
-mobile app emits a ``show_transcript`` event.
+When a user selects the **Closed caption** (CC) or **Show transcript** (")
+icons to display the video transcript, the browser or mobile app emits a
+``show_transcript`` event.
 
 In addition to the identifying ``event_type`` of ``show_transcript``, events
 that the edX mobile app emits also include a ``name`` field with a value of
@@ -1158,9 +1163,10 @@ that the edX mobile app emits also include a ``name`` field with a value of
 
 **Event Source**: Browser or Mobile
 
-**History**: Updated 25 Feb 2015 to include events emitted by the edX mobile
-app for iOS. Updated 23 Dec 2014 to include events emitted by the edX mobile
-app for Android.
+**History**: Updated 16 Jan 2016 to include events triggered by the new **Show
+transcript** icon. Updated 25 Feb 2015 to include events emitted by the edX
+mobile app for iOS. Updated 23 Dec 2014 to include events emitted by the edX
+mobile app for Android.
 
 ``context`` **Member Fields**:
 
@@ -1269,13 +1275,15 @@ this type as for the :ref:`play_video` events.
 ``video_hide_cc_menu``
 ************************************************
 
-When a user selects a language from the **CC** menu for a video that
+When a user selects a language from the **Language menu** icon for a video that
 has transcripts in multiple languages, the browser emits a
 ``video_hide_cc_menu`` event.
 
 **Event Source**: Browser
 
-**History**: Added 17 Feb 2015.
+**History**: Updated 16 Jan 2016 to include events triggered by the
+**Language menu** icon, which now applies to both timed transcripts shown to
+one side of the video player and pop-on closed captions. Added 17 Feb 2015.
 
 ``event`` **Member Fields**:
 
@@ -1289,13 +1297,15 @@ fields. These fields serve the same purpose for events of this type as for
 ``video_show_cc_menu``
 ************************************************
 
-When a user selects **CC** for a video that has transcripts in multiple
-languages, the browser emits a ``video_show_cc_menu`` event. This event is
-emitted in addition to the ``show_transcript`` event.
+When a user selects **Language menu** for a video that has transcripts in
+multiple languages, the browser emits a ``video_show_cc_menu`` event. This
+event is emitted in addition to the ``show_transcript`` event.
 
 **Event Source**: Browser
 
-**History**: Added 17 Feb 2015.
+**History**: Updated 16 Jan 2016 to include events triggered by the
+**Language menu** icon, which now applies to both timed transcripts shown to
+one side of the video player and pop-on closed captions. Added 17 Feb 2015.
 
 ``event`` **Member Fields**:
 
@@ -1486,10 +1496,14 @@ fields. These fields serve the same purpose for events of this type as for the
 ``edx.video.bumper.transcript.hidden``
 **************************************
 
-When a user selects **CC** to suppress display of the transcript for a pre-roll
-video, the browser emits a ``edx.video.bumper.transcript.hidden`` event.
+When a user selects the **Closed caption** (CC) or **Show transcript** (")
+icons to suppress display of the transcript for a pre-roll video, the browser
+emits a ``edx.video.bumper.transcript.hidden`` event.
 
 **Event Source**: Browser
+
+**History**: Updated 16 Jan 2016 to include events triggered by the new **Show
+transcript** icon. Added 10 Jun 2015.
 
 ``event`` **Member Fields**:
 
@@ -1506,11 +1520,15 @@ type as for the :ref:`edx.video.bumper.played` events.
 ``edx.video.bumper.transcript.menu.hidden``
 ************************************************
 
-When a user selects a language from the **CC** menu for a pre-roll video that
-has transcripts in multiple languages, the browser emits an
+When a user selects a language from the **Language menu** for a pre-roll video
+that has transcripts in multiple languages, the browser emits an
 ``edx.video.bumper.transcript.menu.hidden`` event.
 
 **Event Source**: Browser
+
+**History**: Updated 16 Jan 2016 to include events triggered by the
+**Language menu** icon, which now applies to both timed transcripts shown to
+one side of the video player and pop-on closed captions. Added 10 Jun 2015.
 
 ``event`` **Member Fields**:
 
@@ -1528,12 +1546,16 @@ type as for the :ref:`edx.video.bumper.played` events.
 ``edx.video.bumper.transcript.menu.shown``
 ************************************************
 
-When a user selects **CC** for a pre-roll video that has transcripts in
-multiple languages, the browser emits an
+When a user selects the **Language menu** for a pre-roll video that has
+transcripts in multiple languages, the browser emits an
 ``edx.video.bumper.transcript.menu.shown`` event. This event is emitted in
 addition to the ``edx.video.bumper.transcript.shown`` event.
 
 **Event Source**: Browser
+
+**History**: Updated 16 Jan 2016 to include events triggered by the
+**Language menu** icon, which now applies to both timed transcripts shown to
+one side of the video player and pop-on closed captions. Added 10 Jun 2015.
 
 ``event`` **Member Fields**:
 
@@ -1551,10 +1573,16 @@ type as for the :ref:`edx.video.bumper.played` events.
 ``edx.video.bumper.transcript.shown``
 **************************************
 
-When a user selects **CC** to display the transcript for a pre-roll video, the
-browser emits a ``edx.video.bumper.transcript.shown`` event. If the video has
-more than one transcript file, the ``edx.video.bumper.transcript.menu.shown``
-event is also emitted.
+When a user selects the **Closed caption** (CC) or **Show transcript** (")
+icons to display the transcript for a pre-roll video, the browser emits a
+``edx.video.bumper.transcript.shown`` event. If the video has more than one
+transcript file, the ``edx.video.bumper.transcript.menu.shown`` event is also
+emitted.
+
+**History**: Updated 16 Jan 2016 to include events triggered by the new **Show
+transcript** icon. Added 10 Jun 2015.
+
+``event`` **Member Fields**:
 
 The ``edx.video.bumper.transcript.shown`` events include the following
 ``event`` member fields. These fields serve the same purpose for events of this
