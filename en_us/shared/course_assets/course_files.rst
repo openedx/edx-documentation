@@ -6,8 +6,8 @@ Adding Files to a Course
 
 To use images and other files in your course, you upload the files to your
 course by using Studio, and then you add links to the files in the course
-content. You can also use uploaded files in bulk email messages sent from the
-Instructor Dashboard.
+content. You can also use uploaded files in the bulk email messages that you
+send from the LMS using the instructor dashboard.
 
 .. contents::
   :local:
@@ -96,8 +96,8 @@ lists a **Studio** URL and a **Web** URL for each file you upload.
   learners who are signed in and enrolled in your course. For more information,
   see :ref:`Lock a File`.
 
-To copy a URL from the file list, select the URL in the **URL** column
-and copy it.
+To copy a URL from the file list, select the URL in the **URL** column and copy
+it.
 
 .. _Sort Files:
 
@@ -164,8 +164,7 @@ shown at the top of the page.
 
 You can navigate through the pages in these ways.
 
-* Select the **<** or **>** control to navigate to the previous or next
-  page.
+* Select the **<** or **>** control to navigate to the previous or next page.
 
 * Specify the number of the page you want to view.
 
@@ -193,8 +192,8 @@ To lock a file, select the lock icon in the right column.
 Delete a File
 *******************
 
-To delete a file, select the **X** in the row for file.  You are prompted
-to confirm the deletion.
+To delete a file, select the **X** in the row for file.  You are prompted to
+confirm the deletion.
 
 .. warning::
   After you delete a file, links to the file from course content will be
