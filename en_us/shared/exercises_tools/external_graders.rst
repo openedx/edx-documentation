@@ -128,21 +128,54 @@ repository <https://github.com/edx/xqueue/blob/master/queue/urls.py>`_.
 Inputs to the External Grader
 ======================================================
 
-The grader receives a submission as a JSON object that has two keys:
+The grader receives a submission as a JSON object that has the following keys:
 
-* **student_response**: A string that contains the learner's code submission.
-  The string comes from either input the learner enters in the edX Learning
-  Management System or a file the learner attaches.
+* **xqueue_header**: A dictionary that contains information that is required
+  for xqueue to link results to the corresponding submission.
 
-* **grader_payload**: An optional string that you can specify when you create
-  the problem. For more information, see the section :ref:`Create a Code
-  Response Problem`.
+* **xqueue_files**: A dictionary that contains a list of files that were
+  submitted by the learner. The dictionary is structured such that the
+  filename is the key and the location of the file is the value.
+
+* **xqueue_body**: A dictionary that contains the actual submission as JSON.
+
+  * **student_info**: A dictionary that contains the following
+    information about the student in relation to this submission.
+
+    * **anonymous_student_id**: A string that contains an anonymized identifier
+      of the student.
+
+    * **submission_time**: A string that contains a timestamp with the time
+      of submission (yyyymmddhhmmss).
+
+    * **random_seed**: An integer that contains the seed that was used to
+      initialize the randomization script that may be attached to the problem.
+        
+  * **student_response**: A string that contains the learner's code
+    submission. A learner can submit code by entering a string in the LMS or by
+    attaching a file.
+
+  * **grader_payload**: An optional string that you can specify when you
+    create the problem. For more information, see the section
+    :ref:`Create a Code Response Problem`.
 
 For example::
 
  {
+   "xqueue_header": {
+     "submission_id": 12,
+     "submission_key": "280587728458c29e1e66ae0c54a806f4"
+   }
+   "xqueue_files": {
+     "helloworld.c": "http://download.location.com/helloworld.c"
+   }
    "xqueue_body":
    "{
+     "student_info": {
+       "anonymous_student_id": "106ecd878f4148a5cabb6bbb0979b730",
+       "submission_time": "20160324104521",
+       "random_seed": 334
+     },
      "student_response": "def double(x):\n return 2*x\n",
      "grader_payload": "problem_2"
     }"
