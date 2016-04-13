@@ -664,8 +664,9 @@ want to include the answer "All of the Above" and have it always appear at the
 end of the list, but shuffle the other answers.
 
 You can configure the problem to shuffle answers using the simple editor or
-advanced editor.
-
+advanced editor. To shuffle the answers, you also edit the problem to set
+**Randomization** to a value other than **Never**. For more information, see
+:ref:`Randomization`.
 
 Use the Simple Editor to Shuffle Answers
 *********************************************
@@ -714,6 +715,10 @@ show the correct answer in a fixed location, you can use both ``x`` and ``@``.
 
   (x@) The iPod
 
+When you complete problem setup in the simple editor, select **Edit** and then
+**Settings** to specify an option other than **Never** for the
+**Randomization** setting.
+
 Use the Advanced Editor to Shuffle Answers
 *********************************************
 
@@ -761,7 +766,7 @@ To fix an answer's location in the list, add ``fixed="true"`` to the
 
 .. code-block:: xml
 
- <problem>
+ <problem rerandomize="always">
   <p>What Apple device competed with the portable CD player?</p>
   <multiplechoiceresponse>
    <choicegroup type="MultipleChoice" shuffle="true">
@@ -773,6 +778,10 @@ To fix an answer's location in the list, add ``fixed="true"`` to the
    </choicegroup>
   </multiplechoiceresponse>
  </problem>
+
+You can set value randomization as an attribute of the ``problem`` element, as
+shown in this example, or select **Edit** and then **Settings** to specify an
+option other than **Never** for the **Randomization** setting.
 
 .. _Targeted Feedback in a Multiple Choice Problem:
 
