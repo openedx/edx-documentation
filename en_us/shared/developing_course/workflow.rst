@@ -4,16 +4,15 @@
 Getting Started with Course Content Development
 ###############################################
 
-When you are done :ref:`setting up your course<Setting up your Course Index>`,
-you are ready to build your course content.
+When you have finished :ref:`setting up your course<Setting up your Course
+Index>`, you are ready to build your course content.
 
-This chapter provides an outline of the steps involved in developing your
-course content, with links to more details. See:
+This section provides an outline of the steps involved in developing your
+course content, with links to more details.
 
-* `Understanding Course Building Blocks`_
-* `Creating New Course Content`_
-* `Making Course Content Visible to Students`_
-* `Revising Content`_
+.. contents::
+  :local:
+  :depth: 1
 
 .. _Understanding Course Building Blocks:
 

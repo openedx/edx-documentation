@@ -78,12 +78,15 @@ To create a course, follow these steps.
 #. Enter the :ref:`identifying course information<Identifying the Course>`, and
    then select **Create**.
 
-  .. image:: ../../../shared/images/new_course_info.png
+   .. image:: ../../../shared/images/new_course_info.png
      :width: 600
-     :alt: Image of the course creation page in Studio.
+     :alt: The course creation page in Studio, showing the fields required for
+      creating a new course: Course Name, Organization, Course Number, and
+      Course Run.
 
-#. Select **Save**. The :ref:`Course Outline<Developing Your Course Outline>`
-   page opens.
+   The :ref:`Course Outline<Developing Your Course Outline>` page opens. You
+   can start developing course content. For more information, see
+   :ref:`Getting Started with Course Content Development`.
 
 .. _Edit Your Course:
 

@@ -42,12 +42,12 @@ The first time you view an outline for a course, it contains no content.
 You must :ref:`create the first section<Create a Section>`.
 
 ********************************************************
-Example of a Developed Course in the Outline
+Understanding a Course Outline in Studio
 ********************************************************
 
-The following example shows a sample course in the outline, with indications
-for sections, subsections, and units. As you develop your course, it will begin
-to look like this example.
+The following example shows a partial course outline in Studio, with
+indications for sections, subsections, and units. As you develop your course,
+it will begin to look like this example.
 
 .. image:: ../../../shared/images/outline-callouts.png
  :alt: An outline with callouts for sections, subsections, and units.
@@ -82,7 +82,10 @@ your course content.
 #. Subsections and units appear in the left pane when learners expand a
    section.
 #. Components in the selected unit appear in the learning sequence. Learners
-   select the icons in the learning sequence to access content.
+   select icons in the learning sequence to access specific components in the
+   current unit. They can also use the left and right arrow buttons at either
+   end of the learning sequence to move back to the previous unit or forward to
+   the next unit.
 
 .. _Navigating the Course Outline:
 
