@@ -446,14 +446,13 @@ these steps.
 #. When you have finished defining the badge class, select **Save**.
 
 #. Next, you create a new course event badge configuration that defines all of
-   the course event badges that you want to issue.
+   the course event badges that you want to issue. Select **Site
+   Administration** > **Badges** > **Course event badges configurations** >
+   **Add course event badges configuration**.
 
-.. important:: You can create more than one course event badge configuration,
-   but you can only mark one configuration as **Enabled**. Only the most
-   recently activated course event badge configuration is used.
-
-#. Select **Site Administration** > **Badges** > **Course event badges
-   configurations** > **Add course event badges configuration**.
+   .. important:: You can create more than one course event badge configuration,
+      but you can only mark one configuration as **Enabled**. Only the most
+      recently activated course event badge configuration is used.
 
 #. Within the new course event badge configuration, set the following
    parameters.
