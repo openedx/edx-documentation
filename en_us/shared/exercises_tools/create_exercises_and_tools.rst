@@ -248,7 +248,7 @@ this table.
    * - :ref:`drag_and_drop_problem`
      - In drag and drop problems, learners respond to a question by dragging
        text or objects to a specific location on an image.
-     - Provisional support
+     - Provisional support; mobile-ready
    * - :ref:`Full Screen Image`
      - The full screen image tool allows a learner to enlarge an image in the
        whole browser window. This is useful when the image contains a large
@@ -344,7 +344,7 @@ engineering, or math courses are listed alphabetically in this table.
        answer a question. These problems can include unknown variables and more
        complex symbolic expressions. You can specify a correct answer either
        explicitly or by using a Python script.
-     - Full support
+     - Full support; mobile-ready
    * - :ref:`Molecule Editor`
      - The molecule editor allows learners to draw molecules that follow the
        rules for covalent bond formation and formal charge, even if the
