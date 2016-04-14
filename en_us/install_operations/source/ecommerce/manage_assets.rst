@@ -4,11 +4,11 @@
 Manage Static Assets
 ##############################
 
-After you :ref:`configure a partner <Partner Configuration>` and
-:ref:`configure at least one site <Site Configuration>` for the
-E-Commerce system to use, you must compile all static assets and move
-them to the correct location to be served. The edX E-Commerce service
-uses `django-compressor`_ and `RequireJS`_ to manage static assets.
+After you :ref:`configure a partner and at least one site <Configure a Site
+Partner and Site Configuration>` for the E-Commerce system to use, you must
+compile all static assets and move them to the correct location to be served.
+The edX E-Commerce service uses `django-compressor`_ and `RequireJS`_ to manage
+static assets.
 
 * django-compressor compiles and minifies CSS and JavaScript files,
   and names files to facilitate cache busting after new file deployment.

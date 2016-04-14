@@ -4,10 +4,9 @@
 Create Products
 ####################
 
-After you :ref:`configure a partner <Partner Configuration>` and
-:ref:`configure at least one site <Site Configuration>` for the E-Commerce
-service to use, and you have compiled and moved your static assests, you can
-create products.
+After you :ref:`configure a partner and at least one site <Configure a Site
+Partner and Site Configuration>` for the E-Commerce service to use, and you
+have compiled and moved your static assests, you can create products.
 
 EdX products are "course seats" that represent enrollment types. Each course
 seat has an associated set of attributes, such as price and certificate
