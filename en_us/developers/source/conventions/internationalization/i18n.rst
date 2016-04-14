@@ -234,8 +234,22 @@ Then, in JavaScript files (`*.js`)::
     // Translators: this will help the translator.
     var message = gettext('Welcome!');
 
+For interpolation with translated strings, you must use
+``StringUtils.interpolate`` or ``HtmlUtils.interpolateHtml``, as shown in the
+following example. ::
+
+    var message = StringUtils.interpolate(
+        gettext('You are enrolling in {courseName}'),
+        {
+            courseName: 'Rock & Roll 101'
+        }
+    )
+
+For more details on how to use ``StringUtils`` and ``HtmlUtils``, see :ref:`Safe
+JavaScript Files <Safe JavaScript Files>`.
+
 Note that JavaScript embedded in HTML in a Mako template file is handled
-differently. There, you use the Mako syntax even within the JavaScript.
+differently. There, you must use the Mako syntax even within the JavaScript.
 
 
 .. _i18n CoffeeScript Files:
@@ -251,15 +265,23 @@ for translation and add translator comments mostly as you would in
 
     `// Translators: this will help the translator.`
     message = gettext('Hey there!')
-    # Interpolation has to be done in JavaScript, not CoffeeScript:
-    message = gettext("Error getting student progress url for '<%= student_id %>'.")
-    full_message = _.escape(_.template(message, {student_id: unique_student_identifier}))
 
-However, because strings are extracted from the compiled .js files, some
-native CoffeeScript features break the extraction from the .js files. Be aware of the following rules.
+    # Interpolation must use JavaScript, not CoffeeScript interpolation
+    var message = StringUtils.interpolate(
+        gettext('You are enrolling in {courseName}'),
+        {
+            courseName: 'Rock & Roll 101'
+        }
+    )
+
+However, because strings are extracted from the compiled .js files, some native
+CoffeeScript features break the extraction from the .js files. Be aware of the
+following rules.
 
 #. Do not use CoffeeScript string interpolation. Doing so results in string
-   concatenation in the .js file, preventing string extraction.
+   concatenation in the .js file, preventing string extraction. Instead, use
+   ``StringUtils.interpolate`` and ``HtmlUtils.interpolateHtml`` as documented
+   in :ref:`Safe JavaScript Files <Safe JavaScript Files>`.
 
 #. Do not use CoffeeScript comments for translator comments. They are not
    passed through to the JavaScript files.
@@ -268,7 +290,7 @@ native CoffeeScript features break the extraction from the .js files. Be aware o
 
     # DO NOT do this:
     # Translators: this won't get to the translators!
-    message = gettext("Welcome, #{student_name}!")  # This won't work!
+    message = gettext("This won't work")
 
     # YES do this:
     `// Translators: this will get to the translators.`
@@ -292,27 +314,52 @@ techniques that are used for localization in :ref:`Javascript <i18n JavaScript
 Files>` are used for Underscore template files.
 
 Make sure that the i18n JavaScript library has already been loaded, and then
-use the regular i18n functions such as ``gettext`` and ``interpolate`` from
-your template, as shown in this example. ::
+use the i18n function ``gettext`` and the ``StringUtils`` function
+``StringUtils.interpolate`` in your template, as shown in this example.
+
+.. code-block:: javascript
 
     <%-
-        interpolate(
-            gettext('This post is visible only to %(group_name)s.'),
-                {group_name: group.group_name},
-                true
+        StringUtils.interpolate(
+            gettext('You are enrolling in {courseName}'),
+            {
+                courseName: 'Rock & Roll 101'
+            }
         )
     %>
 
-.. note:: You should use ``<%-`` for all translated strings as this will HTML-
-   escape the string before including it in the page. Doing so ensures that
-   translations are free to use non-HTML characters.
-
 .. important:: Due to a bug in the underlying underscore extraction library,
-   when ```interpolate``` and ```gettext``` are on the same line, the library
-   will not work properly. In such cases, the library will extract the word
-   ```gettext``` rather than the actual string that needs to be extracted.
-   Make sure to separate ```interpolate``` and ```gettext``` into two
+   when ``StringUtils.interpolate`` and ``gettext`` are on the same line, the
+   library will not work properly. In such cases, the library will extract the
+   word ``gettext`` rather than the actual string that needs to be extracted.
+   Make sure to separate ``StringUtils.interpolate`` and ``gettext`` into two
    different lines, as shown in the example above.
+
+.. note:: You must use ``<%-`` for all translated strings that do not include
+   HTML tags, as this will HTML-escape the strings before including them in the
+   page.
+
+If you have a translated string that includes a mix of HTML and plain text,
+you must use ``HtmlUtils.interpolateHtml`` along with ``<%=``. Using ``<%=``
+is only acceptable when you use an ``HtmlUtils`` function.
+
+.. code-block:: javascript
+
+    <%=
+        HtmlUtils.interpolateHtml(
+            gettext('You are enrolling in {spanStart}{courseName}{spanEnd}'),
+            {
+                courseName: 'Rock & Roll 101',
+                spanStart: HtmlUtils.HTML('<span class="course-title">'),
+                spanEnd: HtmlUtils.HTML('</span>')
+            }
+        )
+    %>
+
+You can access ``HtmlUtils`` and ``StringUtils`` from inside a template that is
+processed using ``HtmlUtils.template()``. For more details regarding the use of
+``StringUtils`` and ``HtmlUtils``, see :ref:`Safe JavaScript Files <Safe
+JavaScript Files>`.
 
 Currently, translator comments are not supported in underscore template files,
 because the underlying library does not parse them out. You should add
