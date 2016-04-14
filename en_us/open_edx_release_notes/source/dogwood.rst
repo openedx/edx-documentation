@@ -518,6 +518,8 @@ Patch Releases
   see :ref:installation:Discontinue Audit Certificates: in the *Installing,
   Configuring, and Running the Open edX Platform* guide.
 
+* A number of installation issues are fixed.
+
 * A number of security issues are fixed.
 
 
