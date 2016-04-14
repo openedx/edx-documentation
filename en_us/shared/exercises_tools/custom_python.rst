@@ -26,8 +26,6 @@ write-your-own-grader problems.
 .. image:: ../../../shared/images/CustomPythonExample.png
  :alt: An image of a write-your-own-grader problem.
 
-You can create a Python-evaluated input problem in :ref:`answer tag format
-<Answer Tag Format>` or :ref:`script tag format <Script Tag Format>`.
 
 Custom Python-evaluated input problems can include the following advanced
 problem types.
@@ -49,10 +47,10 @@ Create a Custom Python-Evaluated Input Problem Studio
 
 #. In the component that appears, select **Edit**.
 
-#. In the component editor, edit the problem in `answer tag format`_ or
-   `script tag format`_.
+#. In the component editor, edit the problem in :ref:`Script Tag Format`.
 
 #. Select **Save**.
+
 
 .. _Script Tag Format:
 
@@ -81,7 +79,7 @@ The ``check`` function in a ``<script>`` tag accepts two arguments.
   If ``expect`` is not provided as an argument, the function must have another
   way to determine if the answer is correct.
 
-* ``answer`` is either:
+* ``answer`` is one of the following two options.
 
     * The value of the answer the learner provided, if the problem only has one
       response field.
@@ -89,8 +87,8 @@ The ``check`` function in a ``<script>`` tag accepts two arguments.
     * An ordered list of answers the learner provided, if the problem has
       multiple response fields.
 
-The ``check`` function can return any of the following value to indicate
-whether the learner's answer is correct:
+The ``check`` function can return any of the following values to indicate
+whether the learner's answer is correct.
 
 * ``True``: Indicates that the learner answered correctly for all response
   fields.
@@ -102,7 +100,7 @@ whether the learner's answer is correct:
   default, the learner receives 50% of the points for the problem. For more
   information, see `Award Half Credit`_.
 
-* A dictionary of the form: ``{ 'ok': True, 'msg': 'Message' }`` If the
+* A dictionary of the form ``{ 'ok': True, 'msg': 'Message' }``. If the
   dictionary's value for ``ok`` is set to ``True``, all response fields are
   marked correct. If it is set to ``False``, all response fields are marked
   incorrect. If it is set to ``"Partial"``, the learner receives 50% of the
@@ -131,6 +129,11 @@ Example with the Script Tag
 In the following example, ``<customresponse>`` tags reference the
 ``test_add_to_ten`` and ``test_add`` functions that are in the ``<script>``
 tag.
+
+.. Important::
+ Python honors indentation. Within the ``<script>`` tag, the ``def
+ check_func(expect, ans):`` line must have no indentation.
+
 
 .. code-block:: xml
 
@@ -175,9 +178,6 @@ tag.
 
   </problem>
 
-.. Important::
- Python honors indentation. Within the ``<script>`` tag, the ``def
- check_func(expect, ans):`` line must have no indentation.
 
 ========================================================
 Example of the ``check`` Function Returning a Dictionary
@@ -230,7 +230,8 @@ preceding example.
 Create a Custom Python-Evaluated Input Problem in Script Tag Format
 ========================================================================
 
-To create a custom Python-evaluated input problem using a ``<script>`` tag:
+To create a custom Python-evaluated input problem using a ``<script>`` tag,
+follow these steps.
 
 #. In the component editor, modify the example as needed.
 
@@ -447,7 +448,7 @@ The following code shows the configuration of this problem.
   </customresponse>
   </problem>
 
-In this example:
+This example illustrates the following points.
 
 * The ``points`` attribute of the ``<customresponse>`` element specifies that
   the question is worth 100 points.
@@ -511,85 +512,3 @@ input problem.
     <p><b>Explanation:</b></p>
   </solution>
   </problem>
-
-.. _Answer Tag Format:
-
-**************************
-Answer Tag Format
-**************************
-
-The answer tag format encloses the Python script in an ``<answer>`` tag,
-instead of using a Python function with a ``<script>`` tag, as in the following
-example.
-
-.. code-block:: xml
-
-  <answer>
-  if answers[0] == expect:
-      correct[0] = 'correct'
-      overall_message = 'Good job!'
-  else:
-      correct[0] = 'incorrect'
-      messages[0] = 'This answer is incorrect'
-      overall_message = 'Please try again'
-  </answer>
-
-.. important::
-  Python honors indentation. Within the ``<answer>`` tag, you must begin your
-  script with no indentation.
-
-The Python script interacts with these variables in the global context:
-
-* ``answers``: An ordered list of answers the learner provided. For example, if
-  the learner answered ``6``, ``answers[0]`` would equal ``6``.
-
-* ``expect``: The value of the ``expect`` attribute of ``<customresponse>`` (if
-  provided).
-
-* ``correct``: An ordered list of strings indicating whether the learner
-  answered the question correctly.  Valid values are ``"correct"``,
-  ``"incorrect"``, and ``"unknown"``.  You can set these values in the script.
-
-* ``messages``: An ordered list of messages that appear under each response
-  field in the problem. You can use this to provide hints to users. For
-  example, if you include ``messages[0] = "The capital of California is
-  Sacramento"``, that message appears under the first response field in the
-  problem.
-
-* ``overall_message``: A message that appears below the entire problem. You
-  can use this to provide a hint that applies to the entire problem rather than
-  a particular response field.
-
-========================================================================
-Create a Custom Python-Evaluated Input Problem in Answer Tag Format
-========================================================================
-
-#. In the component editor, modify the example as to use  the``<answer>`` tag
-   instead of ``<script>``. You can copy the sample code below.
-
-#. Select **Save**.
-
-
-.. code-block:: xml
-
-    <problem>
-        <p>What is the sum of 2 and 3?</p>
-
-        <customresponse expect="5">
-        <textline math="1" />
-        </customresponse>
-
-        <answer>
-    if answers[0] == expect:
-        correct[0] = 'correct'
-        overall_message = 'Good job!'
-    else:
-        correct[0] = 'incorrect'
-        messages[0] = 'This answer is incorrect'
-        overall_message = 'Please try again'
-        </answer>
-    </problem>
-
-.. important::
-  Python honors indentation. Within the ``<answer>`` tag, you must begin your
-  script with no indentation.
