@@ -506,9 +506,9 @@ Patch Releases
   *Building and Running an Open edX Course* guide.
 
 
-=======================
-6 April 2016: Dogwood.2
-=======================
+========================
+14 April 2016: Dogwood.2
+========================
 
 * Django is updated to version 1.8.12.
 
@@ -517,6 +517,8 @@ Patch Releases
   to control when audit certificates are discontinued. For more information,
   see :ref:installation:Discontinue Audit Certificates: in the *Installing,
   Configuring, and Running the Open edX Platform* guide.
+
+* A number of installation issues are fixed.
 
 * A number of security issues are fixed.
 
