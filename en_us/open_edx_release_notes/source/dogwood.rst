@@ -506,9 +506,9 @@ Patch Releases
   *Building and Running an Open edX Course* guide.
 
 
-=======================
-6 April 2016: Dogwood.2
-=======================
+========================
+14 April 2016: Dogwood.2
+========================
 
 * Django is updated to version 1.8.12.
 
