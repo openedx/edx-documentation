@@ -95,8 +95,7 @@ To create and register a new OIDC client, follow these steps.
    This is the OIDC client endpoint.
 
    The system automatically generates values in the **Client ID** and **Client
-   Secret** fields. You use these values when you :ref:`update Django
-   settings<Update Django Settings>`.
+   Secret** fields.
 
 #. For **Client Type**, select **Confidential (Web applications)**.
 #. Select **Save**.
@@ -117,19 +116,19 @@ To designate your client as trusted, follow these steps.
    that you just created.
 #. Select **Save**.
 
-.. _Configure a Site, Partner, and SiteConfiguration:
+.. _Configure a Site Partner and Site Configuration:
 
 *************************************************
 Configure a Site, Partner, and Site Configuration
 *************************************************
 
-To finish creating and configuring your OIDC client, you must configure a partner,
-site, and site configuration for the E-Commerce service to use. The site that you
-configure is the default site that the E-Commerce service adds when you run
-migrations. You must update this default site to match the domain that you will
-use to access the E-Commerce service. You must also set up a site configuration
-that contains an ``oauth_settings`` JSON field that stores your OIDC client's settings,
-as follows.
+To finish creating and configuring your OIDC client, you must configure a
+partner, site, and site configuration for the E-Commerce service to use. The
+site that you configure is the default site that the E-Commerce service adds
+when you run migrations. You must update this default site to match the domain
+that you will use to access the E-Commerce service. You must also set up a site
+configuration that contains an ``oauth_settings`` JSON field that stores your
+OIDC client's settings, as follows.
 
 .. list-table::
    :widths: 25 60 20
@@ -154,24 +153,27 @@ as follows.
        token
      - The same value as ``SOCIAL_AUTH_EDX_OIDC_SECRET``.
 
-To configure your default site, partner, and site configuration, use the appropriate settings module
-for your environment (``ecommerce.settings.devstack`` for Devstack, ``ecommerce.settings.production``
-for Fullstack) to run the following Django management command. This command updates the default site
-and creates a new partner and site configuration with the specified options.
+To configure your default site, partner, and site configuration, use the
+appropriate settings module for your environment
+(``ecommerce.settings.devstack`` for Devstack,
+``ecommerce.settings.production`` for Fullstack) to run the following Django
+management command. This command updates the default site and creates a new
+partner and site configuration with the specified options.
 
     .. code-block:: bash
 
       $ sudo su ecommerce
       $ python manage.py create_or_update_site --site-id=1 --site-domain=127.0.0.1:8002 --partner-code=edX --partner-name='Open edX' --lms-url-root=http://127.0.0.1:8000 --theme-scss-path=sass/themes/edx.scss --payment-processors=cybersource,paypal --client-id=[change to OIDC client ID] --client-secret=[change to OIDC client secret]
 
-.. _Add Another Site, Partner, and Site Configuration:
+.. _Add Another Site Partner and Site Configuration:
 
 =================================================
 Add Another Site, Partner, and Site Configuration
 =================================================
 
-If you want to add more sites, partners, and site configurations, you can use the ``create_or_update_site``
-command. The following options are available for this command.
+If you want to add more sites, partners, and site configurations, you can use
+the ``create_or_update_site`` command. The following options are available for
+this command.
 
 .. list-table::
    :widths: 25 20 60 20
@@ -224,9 +226,10 @@ command. The following options are available for this command.
      - ``--client-id=ecommerce-secret``
 
 To add another site, use the appropriate settings module for your environment
-(``ecommerce.settings.devstack`` for Devstack, ``ecommerce.settings.production``
-for Fullstack) to run the following Django management command. This command creates
-a new site, partner, and site configuration with the options that you specify.
+(``ecommerce.settings.devstack`` for Devstack,
+``ecommerce.settings.production`` for Fullstack) to run the following Django
+management command. This command creates a new site, partner, and site
+configuration with the options that you specify.
 
     .. code-block:: bash
 
