@@ -5,7 +5,7 @@ Bulk Email
 ##############################
 
 For courses on edx.org, you can send bulk email messages to course
-participants directly from the Instructor Dashboard. Messages can use HTML
+participants directly from the instructor dashboard. Messages can use HTML
 styling, and can include links to videos, social media pages for the course,
 and other material. All course contributors who are assigned the Staff or
 Admin role can use bulk emails to communicate with course participants before,
@@ -27,7 +27,7 @@ This section contains the following topics.
 Message Addressing
 *************************
 
-When you send an email message from the Instructor Dashboard, you choose its
+When you send an email message from the instructor dashboard, you choose its
 recipients by selecting one of these predefined groups.
 
 * **Myself**, to test out a message before sending it to a larger group.
@@ -49,10 +49,60 @@ canceled** after they are sent. If you plan to send a message to all course
 participants, be sure to review each draft carefully, and send the message to
 yourself first for thorough testing.
 
+.. _Options for Email Message Text:
+
+*******************************
+Composing Email Messages
+*******************************
+
+When you compose an email message, you can use the following options.
+
+.. contents::
+  :local:
+  :depth: 1
+
+=======
+Styling
+=======
+
+Messages can include HTML styling, including text formatting and links. The
+email message editor offers the same formatting options as the HTML component
+editor in Studio.
+
+For more information, see :ref:`Working with HTML Components`.
+
+======
+Images
+======
+
+Messages can include images. To include an image, you must first add the file
+to your course on the **Files & Uploads** page. For an email message, you copy
+the **Web** URL that the system assigns to the image. Then, in the email
+message editor, you select the **Insert/edit image** icon to add the web URL.
+
+To ensure that your course assets are transmitted securely, add the
+``https://`` preface to the web URL. An example follows.
+
+::
+
+    https://courses.edx.org/asset-v1:{course}.x+{run}+type@asset+block@{image}.jpg
+
+For more information, see :ref:`Add Files to a Course`.
+
+=========
+Keywords
+=========
+
+Messages can include variables that represent values that are specific to each
+message recipient, such as learner name or user ID. The LMS substitutes these
+variables, called keywords, with actual values when it sends a message.
+
+For more information, see :ref:`Use Keywords in Messages`.
+
 .. _Send_Bulk_Email:
 
 **************************************************
-Send Email Messages to Course Participants
+Send an Email Message to Course Participants
 **************************************************
 
 To send an email message to course participants, follow these steps.
@@ -64,26 +114,20 @@ To send an email message to course participants, follow these steps.
 #. Select who you want to send the message to from the **Send to** drop-down
    list. You select from the following options.
 
-  * **Myself**
-  * **Staff and admins**
-  * **All (students, staff and admins)**
+   * **Myself**
+   * **Staff and admins**
+   * **All (students, staff and admins)**
 
-4. Enter a **Subject** for the message. A subject is required.
+   .. note:: Errors in bulk email messages can be very visible. As a best
+    practice, be sure to send the message to yourself first for review and
+    testing.
+
+#. Enter a **Subject** for the message. A subject is required.
 
 #. Enter the text for the message. Message text is required.
 
-   To include an image in your message, use the **Files & Uploads** page in
-   Studio to add the file to your course, and then select the **Insert/edit
-   image** icon. For more information, see :ref:`Add Files to a Course`.
-
-   Messages can use HTML styling, including text formatting and links. The
-   email message editor offers the same formatting options as the HTML
-   component editor in Studio. For more information, see :ref:`Working with
-   HTML Components`.
-
-   You can use keywords in messages, to have values that are specific to each
-   recipient substituted in the content when messages are sent. For more
-   information, see :ref:`Use Keywords in Messages`.
+   For more information about options for composing your message, see
+   :ref:`Options for Email Message Text`.
 
 #. Select **Send Email**. You can perform other tasks on the Instructor
    Dashboard or navigate to other pages while you wait for your message to be
@@ -195,7 +239,7 @@ message text.
     :alt: A tabular list of sent messages, with columns for subject, sent by,
           time sent, and number sent.
 
-4. To review additional information for a message, select its subject. The
+#. To review additional information for a message, select its subject. The
    message opens in a dialog box.
 
    .. image:: ../../../shared/images/Bulk_email_sent.png
@@ -203,7 +247,7 @@ message text.
           and message for an email message, and an option to Copy Email
           to Editor.
 
-5. Optionally, use the message as the basis for a new message: select **Copy
+#. Optionally, use the message as the basis for a new message: select **Copy
    Email to Editor**. The dialog box closes and you can edit the text, links,
    and formatting that were duplicated into the **Subject** and **Message**
    fields.
@@ -292,7 +336,7 @@ Example Messages to Learners
 You can use these example messages, prepared for delivery before typical course
 milestones, as models for your own course communications.
 
-.. contents:: Section Contents
+.. contents::
   :local:
   :depth: 1
 
