@@ -146,7 +146,7 @@ To run course discussions on devstack, follow these steps.
    .. note::
      If you get a message for entering a password to install the bundled
      RubyGems to the system, you can safely exit by entering ``control+c`` on a
-     Macintosh or ``Ctrl+C`` on Windows. The RubyGems will still be installed
+     Mac or ``Ctrl+C`` on Windows. The RubyGems will still be installed
      correctly for the forum user.
 
 #. Start the discussion forums server.
