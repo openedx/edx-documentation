@@ -315,7 +315,9 @@ as a heading above the problem and as a tooltip in the learning sequence at the
 top of the **Course** page.
 
 .. image:: ../../../shared/images/ProbComponent_LMS_DisplayName.png
- :alt: An image of the problem in a unit page from a learner's point of view.
+ :alt: A problem in a unit page from a learner's point of view, with the
+     display name appearing first in the component and as a tooltip for an icon
+     in the learning sequence.
  :width: 500
 
 In addition, edX Insights uses the display name to identify each problem.

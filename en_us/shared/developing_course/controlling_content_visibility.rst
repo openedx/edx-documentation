@@ -21,9 +21,14 @@ These features work together to control content visibility for learners.
 Release Dates
 ***********************
 
-You specify release dates and times for sections and subsections. By defining
-release dates, you ensure that content is available to learners on a planned
-schedule, without requiring manual intervention while the course is running.
+You specify release dates and times for the sections and subsections in an
+instructor-paced course. By defining release dates, you ensure that content is
+available to learners on a planned schedule, without requiring manual
+intervention while the course is running.
+
+.. note:: Self-paced courses do not have release dates for sections and
+  subsections. For more information about instructor-paced and self-paced
+  courses, see :ref:`Setting Course Pacing`.
 
 By default, a subsection inherits the release date and time of the section it
 is in. You can change the release date of the subsection to another date.
@@ -42,7 +47,8 @@ course as staff<View Your Live Course>`.
    as `Time and Date Time Zone Converter
    <http://www.timeanddate.com/worldclock/converter.html>`_
 
-For more information about setting release dates, see the following topics.
+For more information about setting release dates in an instructor-paced course,
+see the following topics.
 
 * :ref:`Set a Section Release Date`
 * :ref:`Set a Subsection Release Date`
@@ -51,12 +57,13 @@ For more information about setting release dates, see the following topics.
 Unit Publishing Status
 ***********************
 
-You publish units to make them visible to learners. Learners see the last
-published version of a unit if the section and subsection it is in are
-released.
+You publish units to make them visible to learners. In both instructor-paced
+and self-paced courses, units must be published to be visible to learners.
+Learners see the last published version of a unit if the section and subsection
+it is in are released.
 
 Learners do not see units that have never been published, and they do not see
-unpublished changes to units or components within units.  Therefore, you can
+unpublished changes to units or components within units. Therefore, you can
 make changes to units in released subsections without disrupting the learner
 experience.
 
@@ -77,8 +84,9 @@ the following topics.
 Content Hidden from Learners
 *****************************
 
-You can hide content from learners. Such content is never visible to learners,
-regardless of the release and publishing status.
+You can hide content from learners. You can hide content in both
+instructor-paced and self-paced courses. Such content is never visible to
+learners, regardless of the release and publishing status.
 
 You might hide a unit from learners, for example, when that unit contains an
 answer to a problem in another unit of that subsection. After the problem's due
@@ -121,7 +129,7 @@ Content Groups
 **************
 
 If you have cohorts enabled in your course, you can use content groups to
-designate  particular components in your course as visible only to specific
+designate particular components in your course as visible only to specific
 groups of learners.
 
 For details, see :ref:`About Content Groups` and :ref:`Cohorted Courseware
@@ -141,7 +149,7 @@ the prerequisite subsection.
 .. _enabling_subsection_gating:
 
 =================================
-Enabling Subsection Prerequisites
+Enable Subsection Prerequisites
 =================================
 
 To enable prerequisite subsections in a course, follow these steps.
@@ -155,7 +163,7 @@ To enable prerequisite subsections in a course, follow these steps.
 .. _creating_a_prerequisite_subsection:
 
 ==================================
-Creating a Prerequisite Subsection
+Create a Prerequisite Subsection
 ==================================
 
 To prevent learners from seeing a subsection of your course until they have

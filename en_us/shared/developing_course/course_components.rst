@@ -50,14 +50,15 @@ course.
 Add a Component
 ********************
 
-To add a component to the unit, select the component type that you want under
-**Add New Component**.
+To add a component to the unit, under **Add New Component** select a component
+type.
 
 .. image:: ../../../shared/images/AddNewComponent.png
-  :alt: Image of adding a new component
+  :alt: The controls for the default component types you can add: Discussion,
+      HTML, Problem, and Video.
 
 For more information, see the documentation for the specific component type
-that you want:
+that you want to work with.
 
 - :ref:`Working with Discussion Components`
 - :ref:`Working with HTML Components`
@@ -76,7 +77,8 @@ Edit a Component
 To edit a component, you select the **Edit** icon.
 
 .. image:: ../../../shared/images/unit-edit.png
-  :alt: Image of a unit with Edit icon circled
+  :alt: A component with the Edit icon indicated in the toolbar.
+  :width: 400
 
 Then, follow instructions for the type of component you are editing.
 
@@ -87,20 +89,39 @@ After you edit a component, the changes are not visible to learners until you
 Set the Display Name for a Component
 =====================================
 
-Each component has a display name that shows in the component header when you
-can edit the component. The display name also shows to learners when they move
-the cursor over the unit icon in the learning sequence.
+Each component has a display name that appears as the title or heading for the
+component. The display names of each component in a unit also appear to
+learners when they move their mouse pointers over the unit icons in the
+learning sequence.
+
+.. image:: ../../../shared/images/ProbComponent_LMS_DisplayName.png
+   :alt: A problem in a unit page from a learner's point of view, with the
+     display name appearing first in the component and as a tooltip for an icon
+     in the learning sequence.
+   :width: 500
+
+In addition, edX Insights uses the display name to identify components. Unique,
+descriptive display names help you identify components quickly and accurately
+for analysis. For more information, see `Using edX Insights`_.
 
 To set the display name for a component, follow these steps.
 
-#. Edit the component.
-#. Select **Configure**.
+#. Edit the component. A dialog box opens.
+
+   * For a discussion or video component, the dialog box opens to the list of
+     settings, including the **Display Name** field.
+
+   * For an HTML or problem component, the dialog box opens to an editing view.
+     Select **Settings** to show the list of settings, including the **Display
+     Name** field.
+
 #. Edit the **Display Name** field.
 
   .. image:: ../../../shared/images/display-name.png
-   :alt: Image of the Display Name field for a component.
+   :alt: The settings dialog box for an HTML component.
+   :width: 600
 
-4. Select **Save**.
+#. Select **Save**.
 
 Different types of components have different fields in the **Settings** dialog
 box, but all of them have the **Display Name** field.
@@ -330,3 +351,5 @@ moves to the same level as the parent.
 .. note::
   For content experiments, you cannot drag a child component outside of a test
   group.
+
+.. include:: ../../../links/links.rst
