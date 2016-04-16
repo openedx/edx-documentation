@@ -14,12 +14,20 @@ Knowledge Prerequisites
 Devstack, fullstack, and analytics devstack require an understanding of the
 following items.
 
-* Basic terminal usage. If you are using a Macintosh computer, see
+* Basic terminal usage. If you are using a Mac computer, see
   `Introduction to the Mac OS X Command Line`_. If you are using a Windows
   computer, see `Windows Command Line Reference`_.
 
 * Vagrant commands. See the `Vagrant Getting Started`_ guide for
   more information.
+
+* Diagnosing and fixing failures may involve many different technologies and
+  skills. It will help to know these things.
+
+  - The basics of how Python applications are built, installed and deployed.
+
+  - How to manage a Linux system, including supervisor.
+
 
 .. _Software Prerequisites:
 

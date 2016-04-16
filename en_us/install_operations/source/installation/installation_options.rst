@@ -78,14 +78,14 @@ options from edX and the Open edX community, see the
 
 For more information about Vagrant, see the `Vagrant documentation`_.
 
-Ubuntu 12.04 64
-*********************
+Ubuntu 12.04 64-bit
+*******************
 
 You can install fullstack on a single Ubuntu 12.04 64-bit server. More Ubuntu
 information is planned for future versions of this guide.
 
 For information about Ubuntu and other installation and configuration
-optionsfrom edX and the Open edX community, see the
+options from edX and the Open edX community, see the
 `edx configuration repository wiki`_.
 
 .. _Info Analytics Devstack:
@@ -184,7 +184,7 @@ for edX virtual machines.
 Set Up Ability to Preview Units (Mac/Linux Only)
 ================================================
 
-If you are installing an edX virtual machine on a Linux or Macintosh computer,
+If you are installing an edX virtual machine on a Linux or Mac computer,
 you must configure your installation to use the preview feature in edX Studio.
 
 #. :ref:`Connect to the Devstack virtual machine<Connect to Devstack VM>`.
