@@ -8,6 +8,9 @@ Dogwood Release Change Log
 
    * - Date
      - Change
+   * - 14 Apr 2016
+     - Added instructions for :ref:`discontinuing generation of audit track
+       certificates<Discontinue Audit Certificates>`.
    * - 9 Mar 2016
      - Updated installation instructions for Dogwood.
    * - 17 Feb 2016
@@ -15,4 +18,3 @@ Dogwood Release Change Log
    * - 11 Feb 2016
      - Initial release of Dogwood.
 
-.. Ned do you remember any other releases of this document?
