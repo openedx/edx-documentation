@@ -11,6 +11,12 @@ The following information summarizes what is new in the edX LMS.
   :depth: 2
 
 *************************
+Week of 18 April 2016
+*************************
+
+.. include:: 2016/lms/lms_0418_2016.rst
+
+*************************
 Week of 11 April 2016
 *************************
 
