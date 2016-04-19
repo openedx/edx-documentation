@@ -47,8 +47,9 @@ by an explanation of each option or control on the video player.
    your keyboard or select this control again.
 
 8. **Closed caption**: You can show an overlaid transcript of the audio portion
-   of the file by selecting this control. Select this control again to hide the
-   captions.
+   of the file by selecting this control. If you show the captions, you can
+   move them to different areas on the video screen by dragging and dropping
+   them. To hide the captions, select this control again.
 
 9. **Show transcript**: You can show a complete, scrolling transcript of the
    audio portion of the file to the right of the video by selecting this

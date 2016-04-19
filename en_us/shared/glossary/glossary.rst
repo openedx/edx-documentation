@@ -128,7 +128,11 @@ C
 
 **Closed Captions**
 
-  See :ref:`Transcript<T>`.
+  The spoken part of the transcript for a video file, which is overlaid on the
+  video as it plays. You can move closed captions to different areas on the
+  video screen by dragging and dropping them.
+
+  For more information, see :ref:`learners:Video Player`.
 
 .. _Cohort:
 
