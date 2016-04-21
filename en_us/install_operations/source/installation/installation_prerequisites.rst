@@ -24,9 +24,12 @@ following items.
 * Diagnosing and fixing failures may involve many different technologies and
   skills. It will help to know these things.
 
-  - The basics of how Python applications are built, installed and deployed.
+  - The basics of how Python web applications are built, installed and deployed.
 
   - How to manage a Linux system, including supervisor.
+
+  - The basics of configuration management and automation.  We use `Ansible`_
+    to automate the installation process.
 
 
 .. _Software Prerequisites:
