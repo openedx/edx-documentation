@@ -727,7 +727,7 @@ of the video events on 23 Dec 2014.
 ``hide_transcript``/``edx.video.transcript.hidden``
 ***************************************************
 
-When a user selects **CC** to suppress display of the video transcript, the
+When a user toggles **Show Transcript** to suppress display of the video transcript, the
 browser or mobile app emits a ``hide_transcript`` event.
 
 In addition to the identifying ``event_type`` of ``hide_transcript``, events
@@ -759,6 +759,64 @@ events of this type as for the :ref:`play_video` events.
 * ``currentTime``: The point in the video file at which the transcript was
   hidden.
 * ``id``
+
+``edx.video.closed_captions.hidden``
+*************************************************************
+
+When a user toggles **Closed Captions** to suppress display of the overlay captioning, the
+browser or mobile app emits an ``edx.video.closed_captions.hidden`` event.
+
+**Event Source**: Browser or Mobile
+
+**History**: Added on 5 May 2016 to include this new event.
+
+``context`` **Member Fields**:
+
+Only video interaction events with an ``event_source`` of 'mobile' include
+additional ``context`` member fields in addition to the :ref:`common<context>`
+member fields. The same set of additional context fields are added for
+``edx.video.closed_captions.hidden`` events as for the
+:ref:`play_video` events. For an example of an event with these fields, see
+:ref:`Example Mobile App Event`.
+
+``event`` **Member Fields**:
+
+The ``edx.video.closed_captions.hidden`` events include the
+following ``event`` member fields. These fields serve the same purpose for
+events of this type as for the :ref:`play_video` events.
+
+* ``code``
+* ``id``
+* ``current_time``
+
+``edx.video.closed_captions.shown``
+************************************************************
+
+When a user toggles **Closed Captions** to display the closed captions, the browser or
+mobile app emits an ``edx.video.closed_captions.shown`` event.
+
+**Event Source**: Browser or Mobile
+
+**History**: Added on 5 May 2016 to include this new event.
+
+``context`` **Member Fields**:
+
+Only video interaction events with an ``event_source`` of 'mobile' include
+additional ``context`` member fields in addition to the :ref:`common<context>`
+member fields. The same set of additional context fields are added for
+``edx.video.closed_captions.shown`` events as for
+:ref:`play_video`. For an example of an event with these fields, see
+:ref:`Example Mobile App Event`.
+
+``event`` **Member Fields**:
+
+The ``edx.video.closed_captions.shown`` events include the
+following ``event`` member fields. These fields serve the same purpose for
+events of this type as for the :ref:`play_video` events.
+
+* ``code``
+* ``id``
+* ``current_time``
 
 ``load_video``/``edx.video.loaded``
 ***********************************
@@ -1149,7 +1207,7 @@ The following additional ``event`` member fields apply specifically to
 ``show_transcript``/``edx.video.transcript.shown``
 **************************************************
 
-When a user selects **CC** to display the video transcript, the browser or
+When a user toggles **Show Transcript** to display the video transcript, the browser or
 mobile app emits a ``show_transcript`` event.
 
 In addition to the identifying ``event_type`` of ``show_transcript``, events
@@ -1181,6 +1239,7 @@ events of this type as for the :ref:`play_video` events.
 * ``currentTime``: The point in the video file at which the transcript was
   opened.
 * ``id``
+
 
 ``speed_change_video``
 *********************************
@@ -1266,42 +1325,60 @@ this type as for the :ref:`play_video` events.
 * ``id``
 
 
-``video_hide_cc_menu``
-************************************************
+``video_hide_cc_menu``/``edx.video.language_menu.hidden``
+*********************************************************
 
-When a user selects a language from the **CC** menu for a video that
+When a user closes the **Language Menu** for a video that
 has transcripts in multiple languages, the browser emits a
 ``video_hide_cc_menu`` event.
 
+In addition to the identifying ``event_type`` of ``video_hide_cc_menu``, events
+that the edX mobile app emits also include a ``name`` field with a value of
+``edx.video.language_menu.hidden`` and the selected language is included in the 
+event.
+
 **Event Source**: Browser
 
-**History**: Added 17 Feb 2015.
+**History**: Updated 5 May 2016 to include the ``name`` value. Note that older
+tracking logs will only utilize the ``event_type`` value. Also note that from
+Fall 2015 until 5 May 2016, this event was emitted incorrectly. Events may
+have been emitted even when the language menu was not triggered.
+Added 17 Feb 2015.
 
 ``event`` **Member Fields**:
 
-The ``video_hide_cc_menu`` events include the following ``event`` member
-fields. These fields serve the same purpose for events of this type as for
-:ref:`play_video`.
+The ``video_hide_cc_menu``/``edx.video.language_menu.hidden`` events include the
+following ``event`` member fields. These fields serve the same purpose for events of
+this type as for :ref:`play_video`.
 
 * ``code``
 * ``id``
+* ``language``: The selected language of the current video trascript.
 
-``video_show_cc_menu``
-************************************************
+``video_show_cc_menu``/``edx.video.language_menu.shown``
+********************************************************
 
-When a user selects **CC** for a video that has transcripts in multiple
-languages, the browser emits a ``video_show_cc_menu`` event. This event is
-emitted in addition to the ``show_transcript`` event.
+When a user opens the **Language Menu** for a video that
+has transcripts in multiple languages, the browser emits a
+``video_show_cc_menu`` event.
+
+In addition to the identifying ``event_type`` of ``video_show_cc_menu``, events
+that the edX mobile app emits also include a ``name`` field with a value of
+``edx.video.language_menu.shown``.
 
 **Event Source**: Browser
 
-**History**: Added 17 Feb 2015.
+**History**: Updated 5 May 2016 to include the ``name`` value. Note that older
+tracking logs will only utilize the ``event_type`` value. Also note that from
+Fall 2015 until 5 May 2016, this event was emitted incorrectly. Events may
+have been emitted even when the language menu was not triggered.
+Added 17 Feb 2015.
 
 ``event`` **Member Fields**:
 
-The ``video_show_cc_menu`` events include the following ``event`` member
-fields. These fields serve the same purpose for events of this type as for
-:ref:`play_video`.
+The ``video_show_cc_menu``/``edx.video.language_menu.shown`` events include the
+following ``event`` member fields. These fields serve the same purpose for events
+of this type as for :ref:`play_video`.
 
 * ``code``
 * ``id``

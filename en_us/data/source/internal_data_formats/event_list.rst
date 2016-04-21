@@ -248,6 +248,14 @@ D, E, F
      - :ref:`pre-roll`
    * - ``edx.video.bumper.transcript.shown``
      - :ref:`pre-roll`
+   * - ``edx.video.closed_captions.hidden``
+     - :ref:`video`
+   * - ``edx.video.closed_captions.shown``
+     - :ref:`video`
+   * - ``edx.video.language_menu.hidden``
+     - :ref:`video`, see ``video_hide_cc_menu``
+   * - ``edx.video.language_menu.shown``
+     - :ref:`video`, see ``video_show_cc_menu``
    * - ``edx.video.loaded``
      - :ref:`video`, see ``load_video``
    * - ``edx.video.paused``
@@ -490,10 +498,6 @@ U, V, W, X, Y, Z
      - :ref:`Peer Instruction Events`
    * - ``ubc.peer_instruction.revised_submitted``
      - :ref:`Peer Instruction Events`
-   * - ``video_hide_cc_menu``
-     - :ref:`video`
-   * - ``video_show_cc_menu``
-     - :ref:`video`
    * - ``xblock.poll.submitted``
      - :ref:`Poll and Survey Events`
    * - ``xblock.poll.view_results``
@@ -506,4 +510,3 @@ U, V, W, X, Y, Z
      - :ref:`Poll and Survey Events`
    * - ``xmodule.partitions.assigned_user_to_partition``
      - :ref:`AB_Event_Types`
-
