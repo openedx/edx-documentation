@@ -41,6 +41,9 @@ if on_rtd:
     html_context["github_project"] = 'edx-documentation'
 
 FEEDBACK_FORM_FMT = "https://docs.google.com/forms/d/1gGBVXUS84Q8jVEJdlpYYIkOQmaCg5JnzBTG1x4ASWKM/viewform?entry.930288665&entry.672882205={url}"
+OPEN_HELP = "http://open.edx.org/help"              # JUST A PLACEHOLDER
+PARTNER_HELP = "http://partners.edx.org/help"       # DON'T FREAK, JUST ANOTHER PLACEHOLDER
+GENERIC_HELP = "http://help.com"                    # OBVIOUSLY A JOKE
 
 def feedback_form_url(project, page):
     """Create a URL for feedback on a particular page in a project."""
@@ -48,7 +51,16 @@ def feedback_form_url(project, page):
 
 html_context['feedback_form_url'] = feedback_form_url
 
-html_context['help_url'] = 'http://open.edx.org'
+
+html_context['help_url'] = GENERIC_HELP
+
+def set_audience(tag):
+    """Used from specific conf.py files to set the audience for a book."""
+    if tag == "Open_edX":
+        html_context['help_url'] = OPEN_HELP
+    elif tag == "Partners":
+        html_context['help_url'] = PARTNER_HELP
+
 
 # General information about the project.
 
