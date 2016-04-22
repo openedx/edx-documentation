@@ -523,5 +523,13 @@ Patch Releases
 * A number of security issues are fixed.
 
 
+========================
+25 April 2016: Dogwood.3
+========================
+
+An update to the release packaging was made to fix errors during installations
+and upgrades.
+
+
 .. include:: links.rst
 .. include:: ../../links/links.rst
