@@ -483,5 +483,13 @@ Changes listed for 16 December 2015 and before are included in the Dogwood
 release of Open edX.
 
 
+========================
+25 April 2016: Dogwood.3
+========================
+
+An update to the release packaging was made to fix errors during installations
+and upgrades.
+
+
 .. include:: links.rst
 .. include:: ../../links/links.rst
