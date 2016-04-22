@@ -1,11 +1,10 @@
 <ul class="wy-breadcrumbs">
   <li><a href="{{ pathto(master_doc) }}">Table of Contents</a> &raquo;</li>
   <li><a href="">{{ title }}</a></li>
-  {% if display_github %}
-    <li class="wy-breadcrumbs-aside">
-      <a href="https://github.com/{{ github_user }}/{{ github_repo }}/blob/{{ github_version }}{{ conf_py_path }}{{ pagename }}.rst" class="icon icon-github"> Edit on GitHub</a>
-    </li>
-  {% endif %}
+  <li class="wy-breadcrumbs-aside">
+    <a href="{{ help_url }}" target="_blank">Need Help?</a> |
+    <a href="{{ feedback_form_url(project, pagename) }}" target="_blank">Feedback</a>
+  </li>
 </ul>
 <hr/>
 

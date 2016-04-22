@@ -1,5 +1,6 @@
+# Shared configuration for edX docs.
 
-import sys, os
+import sys, os, urllib
 
 # on_rtd is whether we are on readthedocs.org, this line of code grabbed from docs.readthedocs.org
 on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
@@ -30,14 +31,24 @@ source_suffix = '.rst'
 # The master toctree document.
 master_doc = 'index'
 
+html_context = {}
+
 if on_rtd:
-    html_context = {
-       "on_rtd" : on_rtd,
-       "google_analytics_id" : '',
-       "disqus_shortname" : 'edx',
-       "github_base_account" : 'edx',
-       "github_project" : 'edx-documentation',
-    }
+    html_context["on_rtd"] = on_rtd
+    html_context["google_analytics_id"] = ''
+    html_context["disqus_shortname"] = 'edx'
+    html_context["github_base_account"] = 'edx'
+    html_context["github_project"] = 'edx-documentation'
+
+FEEDBACK_FORM_FMT = "https://docs.google.com/forms/d/1gGBVXUS84Q8jVEJdlpYYIkOQmaCg5JnzBTG1x4ASWKM/viewform?entry.930288665&entry.672882205={url}"
+
+def feedback_form_url(project, page):
+    """Create a URL for feedback on a particular page in a project."""
+    return FEEDBACK_FORM_FMT.format(url=urllib.quote("{}: {}".format(project, page)))
+
+html_context['feedback_form_url'] = feedback_form_url
+
+html_context['help_url'] = 'http://open.edx.org'
 
 # General information about the project.
 
