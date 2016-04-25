@@ -11,11 +11,11 @@ and other material. All course contributors who are assigned the Staff or
 Admin role can use bulk emails to communicate with course participants before,
 during, and after the course run.
 
-.. note::
-  Some courses use third party services such as MailChimp to send bulk email.
-  Do not use both a third party service and the edX bulk email service. If you
-  use more than one service to send email, your messages are more likely to be
-  be marked as spam, and learners might not see them.
+.. note::   Some courses use third party services such as MailChimp to send
+   bulk email. Do not use both a third party service as well as the edX bulk
+   email service. If you use more than one service to send email message, your
+   messages are more likely to be be marked as spam, and learners might not
+   see them.
 
 This section contains the following topics.
 
@@ -27,27 +27,42 @@ This section contains the following topics.
 Message Addressing
 *************************
 
-When you send an email message from the instructor dashboard, you choose its
-recipients by selecting one of these predefined groups.
+When you send a bulk email message from the instructor dashboard, you choose
+its recipients by selecting a **Send to** option. You can select one or more
+recipient groups for each message.
+
+When you send a bulk email message to more than one recipient group, duplicate
+recipients are filtered out, so that someone who belongs to more than one of
+the recipient groups (for example, a course team member who is also enrolled
+in the course) only receives one copy of the message.
 
 * **Myself**, to test out a message before sending it to a larger group.
-* **Staff and admins**, to contact other members of the course
-  team.
-* **All (learners, staff and admins)**, to communicate with currently
-  enrolled learners and the course team.
 
-  Email messages are sent to all enrolled learners with these exceptions.
+* **Staff and Administrators**, to send a message to members of the course
+  team who have staff and admin privileges. For information about course
+  team member privileges, see :ref:`Course_Staffing`.
+
+* **All Learners**, to send a message to all currently enrolled learners. This
+  recipient group also includes members of the course team if they are
+  enrolled in the course.
+
+  Email messages are sent to all enrolled learners, with these exceptions.
 
   * Learners who have not replied to the account activation email message
     that is sent when they registered on edx.org.
+
   * Learners who have opted out of receiving email messages through the **Email
     Settings** link, which is present for each course on the **Current
     Courses** dashboard.
 
-Before you use the bulk email feature, consider that messages **cannot be
-canceled** after they are sent. If you plan to send a message to all course
-participants, be sure to review each draft carefully, and send the message to
-yourself first for thorough testing.
+To send an email message to all course team members as well as all learners,
+select both **Staff and Administrators** and **All Learners**. Recipients who
+are in both groups will receive only one copy of the email message.
+
+.. Important:: You cannot cancel bulk email messages after you send them.
+   Before you send a message to a wide audience, review your draft carefully.
+   You can send the message only to yourself to make sure it displays as you
+   intend it to, and that any links or media function correctly.
 
 .. _Options for Email Message Text:
 
@@ -111,16 +126,20 @@ To send an email message to course participants, follow these steps.
 
 #. Select **Instructor**, and then select **Email**.
 
-#. Select who you want to send the message to from the **Send to** drop-down
-   list. You select from the following options.
+#. Select email recipients from the **Send to** option. If applicable, select
+   more than one option.
 
-   * **Myself**
-   * **Staff and admins**
-   * **All (students, staff and admins)**
+  * **Myself**
+  * **Staff and Administrators**
+  * **All Learners**
+
+
+4. Enter a **Subject** for the message. A subject is required.
+
 
    .. note:: Errors in bulk email messages can be very visible. As a best
-    practice, be sure to send the message to yourself first for review and
-    testing.
+      practice, before sending your message to a wider audience, be sure to
+      send the message only to yourself first, for review and testing.
 
 #. Enter a **Subject** for the message. A subject is required.
 
@@ -129,15 +148,15 @@ To send an email message to course participants, follow these steps.
    For more information about options for composing your message, see
    :ref:`Options for Email Message Text`.
 
-#. Select **Send Email**. You can perform other tasks on the Instructor
-   Dashboard or navigate to other pages while you wait for your message to be
+#. Select **Send Email**. You can perform other tasks on the instructor
+   dashboard or navigate to other pages while you wait for your message to be
    sent.
 
-After you send a message, a bulk email task is queued for processing.
-Multiple courses use the same queue to complete these tasks, so it can take
-some time for your message to be sent to all of its recipients. If your course
-is a MOOC, consider limiting the number of messages that you send to all
-course participants to no more than one per week.
+After you send a message, a bulk email task is queued for processing. Multiple
+courses use the same queue to complete these tasks, so it can take some time
+for your message to be sent to all of its recipients. Consider limiting the
+number of messages that you send to all course participants to no more than
+one per week.
 
 .. _Use Keywords in Messages:
 
@@ -281,8 +300,8 @@ To produce the Email Task History report, follow these steps.
 #. Select **Instructor**, and then select **Email**.
 
 #. In the **Email Task History** section of the page, select **Show Email Task
-   History**. A report like the following example displays on the Instructor
-   Dashboard.
+   History**. A report like the following example displays on the instructor
+   dashboard.
 
 .. image:: ../../../shared/images/Bulk_email_history.png
        :width: 800
