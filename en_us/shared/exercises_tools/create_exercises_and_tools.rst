@@ -248,7 +248,7 @@ this table.
    * - :ref:`drag_and_drop_problem`
      - In drag and drop problems, learners respond to a question by dragging
        text or objects to a specific location on an image.
-     - Provisional support; mobile-ready
+     - Full support; mobile-ready
    * - :ref:`Full Screen Image`
      - The full screen image tool allows a learner to enlarge an image in the
        whole browser window. This is useful when the image contains a large
