@@ -16,6 +16,10 @@ To make the course experience for mobile learners as rewarding as it is for
 learners using desktop computers, keep the following best practices in mind as
 you design, test, and run your course.
 
+* Course updates that you make might take longer to appear in the edX mobile
+  apps than on the edX site. In particular, newly published content can take up
+  to an hour to update on the Android app.
+
 * Display names are critical for navigating through courses on smartphones. As
   you create course content, make sure you replace the default display names
   for every component with useful course component names.
@@ -26,8 +30,8 @@ you design, test, and run your course.
   differ only after that, learners using smartphones to access your course
   might have difficulty distinguishing between components.
 
-* Do not use Flash, which is not supported on mobile platforms, to create course
-  content.
+* Do not use Flash, which is not supported on mobile platforms, to create
+  course content.
 
 * Only use iFrames in course content where necessary, because iFrame content
   might not be responsive and cannot be optimized for viewing on a range of
@@ -82,4 +86,7 @@ To test the mobile experience of your course, sign in to your course using the
 edX Android or iPhone app, and view each course unit to make sure that it
 renders as you expect it to.
 
+.. note:: Keep in mind that course updates that you make might not be
+   immediately reflected in the edX mobile apps. In particular, newly
+   published content can take up to an hour to update on the Android app.
 
