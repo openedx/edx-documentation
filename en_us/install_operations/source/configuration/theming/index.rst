@@ -19,4 +19,5 @@ how it works.
    supported_assets
    supported_templates
    supported_sass
+   drag_and_drop_problem_styling
    glossary

@@ -245,7 +245,7 @@ this table.
    * - Type
      - Description
      - Support
-   * - :ref:`Drag and Drop`
+   * - :ref:`drag_and_drop_problem`
      - In drag and drop problems, learners respond to a question by dragging
        text or objects to a specific location on an image.
      - Provisional support
