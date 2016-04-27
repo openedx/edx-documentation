@@ -40,27 +40,44 @@ if on_rtd:
     html_context["github_base_account"] = 'edx'
     html_context["github_project"] = 'edx-documentation'
 
+# Help and Feedback links.  These are customized for the category and audience
+# of the book.  Add a line to the book's conf.py like this:
+#
+#   set_audience(PARTNER, COURSE_TEAMS)
+#
+
+# Categories
+PARTNER = object()
+OPENEDX = object()
+
+# Audiences
+COURSE_TEAMS = object()
+LEARNERS = object()
+RESEARCHERS = object()
+DEVELOPERS = object()
+
+HELP_LINKS = {
+    (PARTNER, COURSE_TEAMS): None, #"https://partners.edx.org/forums/partner-forums",
+    (PARTNER, LEARNERS): None, #"https://support.edx.org",
+    (PARTNER, RESEARCHERS): "http://edx.readthedocs.org/projects/devdata/en/latest/front_matter/preface.html#resources-for-researchers",
+    (PARTNER, DEVELOPERS): "https://open.edx.org/resources/e-mail-lists",
+    (OPENEDX, COURSE_TEAMS): "https://open.edx.org/resources/e-mail-lists",
+    (OPENEDX, DEVELOPERS): "https://open.edx.org/resources/e-mail-lists",
+}
+
+html_context['help_url'] = None
+
+def set_audience(category, audience):
+    """Used from specific conf.py files to set the audience for a book."""
+    html_context['help_url'] = HELP_LINKS.get((category, audience))
+
 FEEDBACK_FORM_FMT = "https://docs.google.com/forms/d/1gGBVXUS84Q8jVEJdlpYYIkOQmaCg5JnzBTG1x4ASWKM/viewform?entry.930288665&entry.672882205={url}"
-OPEN_HELP = "http://open.edx.org/help"              # JUST A PLACEHOLDER
-PARTNER_HELP = "http://partners.edx.org/help"       # DON'T FREAK, JUST ANOTHER PLACEHOLDER
-GENERIC_HELP = "http://help.com"                    # OBVIOUSLY A JOKE
 
 def feedback_form_url(project, page):
     """Create a URL for feedback on a particular page in a project."""
     return FEEDBACK_FORM_FMT.format(url=urllib.quote("{}: {}".format(project, page)))
 
 html_context['feedback_form_url'] = feedback_form_url
-
-
-html_context['help_url'] = GENERIC_HELP
-
-def set_audience(tag):
-    """Used from specific conf.py files to set the audience for a book."""
-    if tag == "Open_edX":
-        html_context['help_url'] = OPEN_HELP
-    elif tag == "Partners":
-        html_context['help_url'] = PARTNER_HELP
-
 
 # General information about the project.
 

@@ -13,7 +13,8 @@ html_favicon = '../../_themes/edx_theme/static/css/favicon.ico'
 
 project = u'Building and Running an edX Course'
 
-set_audience('Partners')
+tags.add('Partners')
+set_audience(PARTNER, COURSE_TEAMS)
 
 product = 'Partners'
 
