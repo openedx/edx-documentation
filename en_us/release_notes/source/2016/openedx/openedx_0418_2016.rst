@@ -18,5 +18,5 @@ The Dogwood.2 patch release is now available. This release includes fixes for
 several security and installation issues, updates Django to version 1.8.12, and
 adds a control for discontinuing audit certificates.
 
-For more information, see the :ref:`openreleasenotes:Open edX release
-notes<Open edX Dogwood Release>` for Dogwood.
+For more information, see the :ref:`Open edX release
+notes for Dogwood <openreleasenotes:Open edX Dogwood Release>`.
