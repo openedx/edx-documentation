@@ -90,11 +90,10 @@ Imports Order
 PEP 8 recommends a most-general to most-specific import order, which means this order:
 
 * Standard library imports
-* Third Party Library imports
-* Core Django imports
-* Third party Django app imports
-* Other edX repo imports
+* Third party library imports
 * Local imports
+
+Each group of imports should be alphabetized; and, you should put a blank line between each group.
 
 *******************************
 Pylint Guidelines and Practices
