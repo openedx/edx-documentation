@@ -27,8 +27,8 @@ for the course platform that you are taking a course on.
 Accessing a Certificate
 ***********************
 
-Some courses issue web-based certificates. You can access a web-based
-certificate from your dashboard.
+If your course offers certificates, you can access certificates that you have
+earned from your dashboard.
 
 The following example from the edx.org website shows the **View Certificate**
 option on a learner dashboard.
@@ -37,7 +37,7 @@ option on a learner dashboard.
    :width: 600
    :alt: Dashboard with course name, grade, and link to the web certificate.
 
-To open a web certificate in your browser, select **View Certificate**. You can
+To open a certificate in your browser, select **View Certificate**. You can
 then share or print your web certificate.
 
 ============================
