@@ -8,7 +8,6 @@ edX Release Notes
    :maxdepth: 2
 
    front_matter/index
-   coming_soon.rst
 
 
 ******************
