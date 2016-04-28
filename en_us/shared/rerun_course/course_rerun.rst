@@ -60,9 +60,9 @@ Data Duplicated When You Re-Run a Course
      - No.
 
 After you re-run a course, modifications to the original course and the re-run
-course are independent. Changes to either course are not propagated to the
-other course. Therefore, you should ensure that the original course content is
-as complete as possible before you re-run the course.
+course are independent. Changes to either course have no effect on the other
+course. Therefore, you should ensure that the original course content is as
+complete as possible before you re-run the course.
 
 For more information, see :ref:`Use Re-Run to Create a Course` and
 :ref:`Update the New Course`.
@@ -90,7 +90,7 @@ Using Re-Run to Create a Course
 
 .. note:: Before you re-run a course, make sure that its settings and content
   are complete. Additions and changes that you make to the original course
-  after you create the new course are not propagated to the new course.
+  after you create the new course have no effect on the new course.
 
 .. Comment out the procedure to create rerun, since only Global Admin (i.e.
 .. edX internal can do this) Done as part of DOC-2236 (CT, Sept 11, 2015)
@@ -118,19 +118,19 @@ Using Re-Run to Create a Course
 
    #. Supply a **Course Run** to indicate when the new course will be offered.
 
-   Together, the course number, the organization, and the course run are used
-   to create the URL for the new course. The combination of these three values
-   must be unique for the new course. In addition, the total number of
-   characters used for the name, organization, number, and run must be 65 or
-   fewer.
+      Together, the course number, the organization, and the course run are
+      used to create the URL for the new course. The combination of these three
+      values must be unique for the new course. In addition, the total number
+      of characters used for the name, organization, number, and run must be 65
+      or fewer.
 
    #. Select **Create Re-Run**. Your **My Courses** dashboard opens with a
       status message about the course creation process.
 
-   Duplication of the course structure and content takes several minutes. You
-   can work in other parts of Studio or in the LMS, or on other web sites,
-   while the process runs. The new course appears on your **My Courses**
-   dashboard in Studio when configuration is complete.
+      Duplication of the course structure and content takes several minutes.
+      You can work in other parts of Studio or in the LMS, or on other web
+      sites, while the process runs. The new course appears on your **My
+      Courses** dashboard in Studio when configuration is complete.
 
 
 .. _Update the New Course:
@@ -189,10 +189,16 @@ course for release.
   Cohorts>`, set up the cohorts and select a strategy for assigning learners to
   the cohorts.
 
-You can refer to the :ref:`Launch` topic for tools and ideas that help you
+* For a course that includes drag and drop problems, replace any problems
+  created prior to April 2016, with the newer drag and drop problem component,
+  which is accessible and mobile ready. For more information about enabling the
+  new drag and drop problem type and adding these problems to your course, see
+  :ref:`drag_and_drop_problem`.
+
+You can also refer to the :ref:`Launch` topic for tools and ideas that help you
 prepare the course for launch.
 
 .. note::
-  Changes you make in the new course are not propagated to the original course.
+  Changes you make in the new course have no effect on the original course.
 
 .. include:: ../../../links/links.rst
