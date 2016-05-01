@@ -150,7 +150,7 @@ The grader receives a submission as a JSON object that has the following keys:
 
     * **random_seed**: An integer that contains the seed that was used to
       initialize the randomization script that may be attached to the problem.
-        
+
   * **student_response**: A string that contains the learner's code
     submission. A learner can submit code by entering a string in the LMS or by
     attaching a file.
@@ -191,13 +191,17 @@ that indicates whether the submission was correct, the score, and any message
 the tests create.
 
 In the following example, the learner's submission was correct, the score was
-1, and the tests created a brief message::
+1, and the tests created a brief message.
 
- {
-  "correct": true,
-  "score": 1,
-  "msg": "<p>The code passed all tests.</p>"
- }
+.. Translators: The "msg" text that is included between the paragraph <p></p> tags can be translated.
+
+::
+
+  {
+   "correct": true,
+   "score": 1,
+   "msg": "<p>The code passed all tests.</p>"
+  }
 
 .. _Building an External Grader:
 

@@ -5,7 +5,7 @@ Images
 #######
 
 Because the user interface can change rapidly and frequently, and because it is
-very expensive for translation teams to localize screen shots, the
+very expensive for translation teams to localize screen shots, the edX
 documentation team uses screen shot images sparingly.
 
 ***************
@@ -19,9 +19,9 @@ data) are available on edX Edge.
 
 * `La Tierra Centroamericana`_
 
-*****************
-Guidelines
-*****************
+****************************
+Guidelines for Adding Images
+****************************
 
 ==========
 Messages
@@ -29,7 +29,11 @@ Messages
 
 Avoid using a screen shot to show an error, warning, or informational
 message. Instead, just include the text of the message as part of the procedure
-or concept.
+or concept. Message text should be enclosed in quotation marks.
+
+If you choose to show message text in a code block, you must include a
+translator note in a comment immediately before that element. For more
+information and an example, see :ref:`Documentation Translation Guidelines`.
 
 =========================
 Colors
@@ -42,11 +46,14 @@ Browser Width
 ====================
 
 Before you take a screen shot, reduce the window width to avoid extra white
-space. Usually this means you narrow until page is no longer responsive (unless
-this will make screen shot too long).
+space. Usually this means you narrow the width of your browser until the page
+is no longer responsive. However, you do have the aesthetic control over when
+reducing the width of the intended image will have the effect of making the
+screen shot too long.
 
-The following image has a lot of white space inside the component editor,
-which narrowing the window will correct.
+The following image has a lot of white space inside the component editor. To
+produce a better illustration of the component editor, make the browser
+narrower.
 
 .. image:: Images/DiscussionComponentEditor.png
   :width: 450
@@ -64,12 +71,13 @@ Capturing Screen Shots
 
 You can use any tool you like to capture images.
 
-With SnagIt, you can configure preferences to include a timing delay and
+If you use SnagIt, you can configure preferences to include a timing delay and
 specific on-screen objects, including the cursor, as well as setting keyboard
-shortcuts for different configurations.
+shortcuts for different configurations. References to the edX documentation
+team's SnagIt Style Gallery follow.
 
-You can also use the Mac's built-in screen capture functionality to take screen
-shots. To capture part of the screen, follow these steps.
+If you use a Mac computer, you can use the built-in screen capture application
+to take screen shots. To capture part of the screen, follow these steps.
 
 .. note:: This method does not capture the positioning of the cursor.
 
@@ -82,34 +90,34 @@ shots. To capture part of the screen, follow these steps.
 Editing Images
 *****************
 
-You can use any tool you like to edit images. Some guidelines for SnagIt and
-Adobe Photoshop are included here.
+You can use any tool you like to edit images. Some guidelines for SnagIt are
+included here.
 
 =========================
 SnagIt Style Gallery
 =========================
 
 SnagIt 3.3.5 has a Style Gallery feature that saves the customizations that you
-make to borders, arrows, etc. for easy reuse.
+make to borders, arrows, and so on for easy reuse.
 
 If you use SnagIt, note that the following .snagstyles files are included in
 the Images directory of this guide.
 
-* arrows.snagstyles (adds arrows in three edX base colors)
-* color_fill.snagstyles (adds three edX base colors)
-* outline_shapes.snagstyles (adds three outline shapes in each of the
-  three edX base colors)
-* numbered_callouts.snagstyles (adds numbered callouts in three edX base
-  colors)
+* ``arrows.snagstyles`` adds arrows in three edX base colors.
+* ``color_fill.snagstyles`` adds three edX base colors.
+* ``outline_shapes.snagstyles`` adds three outline shapes in each of the three
+  edX base colors.
+* ``numbered_callouts.snagstyles`` adds numbered callouts in three edX base
+  colors.
 
-To add edX SnagIt styles to your SnagIt application, drag a .snagstyles file
-onto the SnagIt icon in the toolbar of your Mac.
+To add these edX SnagIt styles to your SnagIt application, drag each
+.snagstyles file onto the SnagIt icon in the toolbar of your computer.
 
-=========================
-Border
-=========================
+========
+Borders
+========
 
-To every image, add a border with the following characteristics.
+Add a border with the following characteristics to every image.
 
 (In SnagIt: Effects > Border; In Photoshop: Cmd + a, Edit > Stroke)
 
@@ -119,7 +127,7 @@ To every image, add a border with the following characteristics.
 
 In SnagIt, the first time you make these selections for a border, a new tile
 appears in the Style Gallery with these characteristics. Save that new style
-(select the + icon) so that you can reuse it in the future.
+(select its + icon) so that you can reuse it in the future.
 
 =========================
 File Size and Format
@@ -177,10 +185,11 @@ follow these steps.
 #. Close and reopen any application that you want to use the font in.
 
 **************************
-Adding Images to Files
+Adding an Image to a File
 **************************
 
-When you add an image to a file, include three lines.
+When you add an image to a file, include a directive with the following
+information.
 
 * The image directive
 * The image width
@@ -198,8 +207,8 @@ Alt Text for Accessibility
 ===========================
 
 The purpose of alt text is to serve as a functional equivalent for an image.
-Every image added to the documentation must have alt text that makes the
-purpose of the image clear to those who are using screen readers.
+Every image that you add to the edX documentation must have alt text that makes
+the purpose of the image clear to those who are using screen readers.
 
 The following examples are of useful alt text.
 
@@ -236,8 +245,8 @@ When you write alt text, follow these guidelines.
 Image Sizes
 ===========================
 
-Save the screen shot as the original size. Set size in document. This way a
-user can click the image in the document to enlarge it.
+When you save a screen shot, do not reduce it in size. You can define the image width in the rst file.
+
 
 .. note that this only seems to control size in HTML output, not in PDFs.
 .. - Alison 25 Sept 2015

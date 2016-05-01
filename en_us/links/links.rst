@@ -62,7 +62,7 @@
 .. _edX Partner Support: https://partners.edx.org/edx_zendesk
 
 
-.. _edX pattern library: http://ux.edx.org/elements/colors/
+.. _edX pattern library: http://ux.edx.org/design_elements/colors/
 
 .. GitHub Links
 

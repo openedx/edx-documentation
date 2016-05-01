@@ -4,31 +4,30 @@
 {Using this Concept Template}
 ###############################
 
-{Replace this sentence, and all subsequent values in braces ({}), with your
-own text.}
+{Replace or remove this sentence, and all subsequent values within and
+including braces ({}), with your own text.}
 
 {Place the introductory statement here.}
 
-{Optional: include an additional paragraph with a link to a related topic.
-Alternative: include a list of links to related topics.}
+{Include a contents directive. This directive resolves to a set of
+linked cross references to the next level headings in this file.}
 
-* {link}
-* {link}
-
-******************************
-{Optional Example}
-******************************
-
-{Description}
+.. contents::
+  :local:
+  :depth: 1
 
 ******************************
-{Optional Subheading} 
+{Optional Overview}
 ******************************
 
 {Description}
 
 ******************************
-{Optional Subheading}
+{Optional Procedure}
 ******************************
 
-{Description}
+Before you {complete task, list its prerequisites if any}.
+
+To {complete task}, follow these steps.
+
+#. {first step}.

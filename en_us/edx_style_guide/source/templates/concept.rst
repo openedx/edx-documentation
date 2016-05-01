@@ -14,11 +14,11 @@ while additions might be needed to support new options and their use cases,
 they tend to require less rewriting than task topics.
 
 Concept topics are typically followed by at least one task topic. When they
-introduce complex features, they are followed by a set of additional concept
+introduce complex features, they can be followed by a set of additional concept
 topics and related task topics.
 
 ******************************
-Structure of a Concept Topic
+Structuring a Concept Topic
 ******************************
 
 At a minimum, a concept topic includes the following components.
@@ -38,7 +38,7 @@ For more information, see the :ref:`Concept Template`.
 Example Concept Topics
 ******************************
 
-The :ref:`partnercoursestaff:document index` guide contains these examples of
+The *Building and Running an edX Course* guide contains these examples of
 concept topics.
 
 * :ref:`partnercoursestaff:Cohorts Overview` introduces a complex
@@ -54,13 +54,6 @@ concept topics.
 * :ref:`partnercoursestaff:Course_Wiki` introduces a section of related
   concepts and tasks. It defines a wiki in the context of an edX course, and
   provides example uses.
-
-The :ref:`partnercoursestaff:Processing Video Files Index` guide contains these
-examples.
-
-* :ref:`partnercoursestaff:Video Processing Overview` introduces the entire
-  guide. It describes the purpose, and value, of the video pipeline to course
-  teams and media specialists at edX member partner organizations.
 
 * :ref:`partnercoursestaff:Add a Video Transcript` introduces a series of
   tasks.
