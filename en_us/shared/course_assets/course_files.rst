@@ -82,19 +82,23 @@ that is assigned to it. On the **Files & Uploads** page, the **URL** column
 lists a **Studio** URL and a **Web** URL for each file you upload.
 
 * To add a file or image to a component, a course update, or a course handout,
-  you use the **Studio** URL. For more information, see :ref:`Add an Image to
-  an HTML Component`.
+  you use the **Studio** URL.
+
+  For more information, see :ref:`Add an Image to an HTML Component`.
 
 * To provide a link to the file or image from outside the course, including in
   the body of an email message that you send to course participants from the
-  LMS, you use the **Web** URL. For more information about sending email
-  messages, see :ref:`Send_Bulk_Email`.
+  LMS, you use the **Web** URL. Be sure that you do not use the ``/static/``
+  URL in an email message.
+
+  For more information about sending email messages, see
+  :ref:`Send_Bulk_Email`.
 
 .. note::
-  You can lock a file if you do not want to allow access to a file from outside
-  your course. When you lock a file, the web URL only allows file access to
-  learners who are signed in and enrolled in your course. For more information,
-  see :ref:`Lock a File`.
+  You can lock a file if you do not want to allow access to that file from
+  outside your course. When you lock a file, the web URL only allows file
+  access to learners who are signed in and enrolled in your course. For more
+  information, see :ref:`Lock a File`.
 
 To copy a URL from the file list, select the URL in the **URL** column and copy
 it.
