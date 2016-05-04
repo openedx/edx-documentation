@@ -4,6 +4,10 @@
 
 .. EdX Links
 
+.. _change log for the Backbone.js library: https://github.com/jashkenas/backbone/blob/master/index.html#L4299
+
+.. _Coming Soon Programs Page: https://open.edx.org/announcements/coming-soon-xseries-programs-page
+
 .. _Using edX Insights: http://edx.readthedocs.org/projects/edx-insights/en/latest/
 
 .. _Review Answers to Graded Problems: http://edx.readthedocs.org/projects/edx-insights/en/latest/performance/Performance_Answers.html#review-answers-to-graded-problems
