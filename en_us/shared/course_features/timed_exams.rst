@@ -122,3 +122,35 @@ extra time to complete a timed exam.
 #. Enter the learner's **Username** or **Email**.
 
 #. Select **Save**.
+
+
+*****************************************
+Hide a Timed Exam After Its Due Date
+*****************************************
+
+Timed exams are hidden from learners after they complete and submit their
+exams, but are available again for viewing after the exam due date has passed.
+You can configure a timed exam to remain hidden even after the exam due date
+has passed.
+
+.. note:: This setting applies only to timed exams. It has no effect on other
+   types of special exams, including proctored or practice exams.
+
+
+#. In Studio, select the **Configure** icon for the timed exam (subsection)
+   that you want to configure.
+
+   The **Settings** dialog box opens to the **Basic** tab.
+
+#. Select the **Advanced** tab.
+
+#. In the **Set as a Special Exam** section, make sure **Timed** is selected.
+
+#. Select **Hide Exam After Due Date**.
+
+   .. image:: ../../../shared/images/timed_exam_hide_after_due_date.png
+    :alt: The Hide Exam After Due Date option in the Settings dialog box.
+    :width: 400
+
+#. Select **Save**.
+
