@@ -125,6 +125,8 @@ Docstrings
 Follow `PEP 257`_.
 
 * Write docstrings for all modules, classes, and functions.
+* Always format docstrings using the multi-line convention, even if there's only
+  one line of content (see below).
 * Use three double-quotes for all docstrings.
 * Start with a one-line summary.  If you can't fit a summary in one line, think harder, or refactor the code.
 * Write in Sphinx-friendly prose style.  Put backquotes around code names (variables, parameters, methods, etc).
@@ -190,6 +192,12 @@ Not like this::
 
     def foo(a, b):
         """Computes the foo of a and b.""" # NO NO NO
+
+We intentionally stray from `PEP 257`_ in this case.  The formatting
+inconsistency between single and multi-line docstrings can result in merge
+conflicts when upstream and downstream branches change the same docstring.  See
+this `GitHub comment <https://github.com/edx/edx-documentation/pull/999#issuecomment-215537490>`_
+for more context.
 
 **********
 References
