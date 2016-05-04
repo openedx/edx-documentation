@@ -1,5 +1,5 @@
 ###################################
-Week of 25 April 2016
+Week of 2 May 2016
 ###################################
 
 The following information summarizes what is new in the edX platform this week.
