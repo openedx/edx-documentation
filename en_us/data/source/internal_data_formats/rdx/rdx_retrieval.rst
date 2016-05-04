@@ -99,14 +99,15 @@ each ``{org}_{course}_{run}.tar.gz.gpg`` file in the RDX package.
    follows this pattern.
 
    ::
-     metadata_file.json
-       /events
-         {org}_{course}_{run}-events-CCYY-MM-dd.log.gz
-         ...
-       /state
-         /CCYY-MM-dd
-           {org}_{course}_{run}-{suffix}
-           ...
+
+      metadata_file.json
+        /events
+          {org}_{course}_{run}-events-CCYY-MM-dd.log.gz
+          ...
+        /state
+          /CCYY-MM-dd
+            {org}_{course}_{run}-{suffix}
+            ...
 
    The ``metadata_file.json`` file provides information about the version of
    the edX analytics pipeline that was in use when edX obfuscated PII and other
