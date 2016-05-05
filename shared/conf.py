@@ -1,5 +1,6 @@
+# Shared configuration for edX docs.
 
-import sys, os
+import sys, os, urllib
 
 # on_rtd is whether we are on readthedocs.org, this line of code grabbed from docs.readthedocs.org
 on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
@@ -30,14 +31,53 @@ source_suffix = '.rst'
 # The master toctree document.
 master_doc = 'index'
 
+html_context = {}
+
 if on_rtd:
-    html_context = {
-       "on_rtd" : on_rtd,
-       "google_analytics_id" : '',
-       "disqus_shortname" : 'edx',
-       "github_base_account" : 'edx',
-       "github_project" : 'edx-documentation',
-    }
+    html_context["on_rtd"] = on_rtd
+    html_context["google_analytics_id"] = ''
+    html_context["disqus_shortname"] = 'edx'
+    html_context["github_base_account"] = 'edx'
+    html_context["github_project"] = 'edx-documentation'
+
+# Help and Feedback links.  These are customized for the category and audience
+# of the book.  Add a line to the book's conf.py like this:
+#
+#   set_audience(PARTNER, COURSE_TEAMS)
+#
+
+# Categories
+PARTNER = object()
+OPENEDX = object()
+
+# Audiences
+COURSE_TEAMS = object()
+LEARNERS = object()
+RESEARCHERS = object()
+DEVELOPERS = object()
+
+HELP_LINKS = {
+    (PARTNER, COURSE_TEAMS): None, #"https://partners.edx.org/forums/partner-forums",
+    (PARTNER, LEARNERS): None, #"https://support.edx.org",
+    (PARTNER, RESEARCHERS): "http://edx.readthedocs.org/projects/devdata/en/latest/front_matter/preface.html#resources-for-researchers",
+    (PARTNER, DEVELOPERS): "https://open.edx.org/resources/e-mail-lists",
+    (OPENEDX, COURSE_TEAMS): "https://open.edx.org/resources/e-mail-lists",
+    (OPENEDX, DEVELOPERS): "https://open.edx.org/resources/e-mail-lists",
+}
+
+html_context['help_url'] = None
+
+def set_audience(category, audience):
+    """Used from specific conf.py files to set the audience for a book."""
+    html_context['help_url'] = HELP_LINKS.get((category, audience))
+
+FEEDBACK_FORM_FMT = "https://docs.google.com/forms/d/1T5QGnYb_QnQoMO7T_eatq02miPTY40WVe3cgGphNAdY/viewform?entry.1952574704&entry.241692674={pageid}"
+
+def feedback_form_url(project, page):
+    """Create a URL for feedback on a particular page in a project."""
+    return FEEDBACK_FORM_FMT.format(pageid=urllib.quote("{}: {}".format(project, page)))
+
+html_context['feedback_form_url'] = feedback_form_url
 
 # General information about the project.
 

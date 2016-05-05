@@ -14,6 +14,7 @@ html_favicon = '../../_themes/edx_theme/static/css/favicon.ico'
 
 # General information about the project.
 project = u'Open edX XBlock Tutorial'
+set_audience(OPENEDX, DEVELOPERS)
 
 #remove directory when content is first added to it, and add to index
 exclude_patterns = ['reusable/*']

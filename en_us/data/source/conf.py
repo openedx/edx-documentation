@@ -12,6 +12,7 @@ html_theme_path = ['../../_themes']
 html_favicon = '../../_themes/edx_theme/static/css/favicon.ico'
 
 project = u'EdX Research Guide'
+set_audience(PARTNER, RESEARCHERS)
 
 # Do not attempt to publish .rst files if they are included in
 # other .rst files. This suppresses WARNINGs about documents not
