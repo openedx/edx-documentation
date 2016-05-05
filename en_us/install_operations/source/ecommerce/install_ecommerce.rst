@@ -223,7 +223,7 @@ this command.
    * - ``--client-secret``
      - Yes
      - OIDC client secret.
-     - ``--client-id=ecommerce-secret``
+     - ``--client-secret=ecommerce-secret``
 
 To add another site, use the appropriate settings module for your environment
 (``ecommerce.settings.devstack`` for Devstack,
