@@ -185,7 +185,7 @@ use the ``Text()`` function to wrap the plain text translated string. Both the
     <%!
     from django.utils.translation import ugettext as _
 
-    from openedx.core.djangolib.markup import Text, HTML
+    from openedx.core.djangolib.markup import HTML, Text
     %>
     ...
     ${Text(_("Click over to {link_start}the home page{link_end}.")).format(
@@ -206,7 +206,7 @@ any call to ``format()``.
     <%!
     from django.utils.translation import ugettext as _
 
-    from openedx.core.djangolib.markup import Text, HTML
+    from openedx.core.djangolib.markup import HTML, Text
     %>
     ...
     ${Text(_("Click over to {link_start}the home page{link_end}.")).format(
