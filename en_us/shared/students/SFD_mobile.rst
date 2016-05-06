@@ -82,6 +82,27 @@ but not all, of the problems in your assignments. To complete an entire
 course, including participating in course discussions, you use a web browser
 on a computer.
 
+.. only:: Open_edX
+
+ ==================================================
+ How do I share a link to a course I am taking?
+ ==================================================
+
+ After you enroll in a course, you can let family and friends know about the
+ course by sharing a link to it on a connected social account, or in an email
+ message.
+
+ From a course's main page, select the **Share** icon in the course's title
+ display.
+
+   .. image:: ../../shared/students/Images/SFD_Mobile_Course_Share.png
+      :width: 300
+      :alt: A course page on the mobile app, with the Share icon.
+
+ On the page that opens, select how you want to share the link. For example,
+ select **Facebook** to post a link to the course on your Facebook wall.
+
+
 ========================================================
 How do I post questions on the discussion board?
 ========================================================
