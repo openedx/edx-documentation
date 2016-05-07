@@ -4,7 +4,7 @@
 edX Research Guide
 ######################
 
-This document is intended for researchers, data czars, and administrative
+This document is intended for data czars, researchers, and administrative
 teams at edX partner institutions who use the edX data exports to gain insight
 into their courses and students.
 
@@ -13,9 +13,9 @@ into their courses and students.
    :maxdepth: 2
 
    front_matter/index
-   internal_data_formats/data_czar.rst
-   internal_data_formats/credentials.rst
-   internal_data_formats/package.rst
+   data_czars/data_czar.rst
+   data_czars/credentials.rst
+   data_czars/package.rst
    internal_data_formats/sql_schema.rst
    internal_data_formats/course_structure.rst
    internal_data_formats/discussion_data.rst
@@ -24,5 +24,5 @@ into their courses and students.
    internal_data_formats/institution_data.rst
    internal_data_formats/event_list.rst
    internal_data_formats/tracking_logs.rst
-   internal_data_formats/rdx/index.rst
+   rdx/index.rst
    glossary.rst
