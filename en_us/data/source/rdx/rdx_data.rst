@@ -803,4 +803,4 @@ obfuscated when present for any event.
 For more information about how edX changes the data in these fields, see
 :ref:`Data Obfuscation Methods`.
 
-.. include:: ../../../../links/links.rst
+.. include:: ../../../links/links.rst
