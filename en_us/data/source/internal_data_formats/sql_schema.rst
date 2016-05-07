@@ -4,15 +4,15 @@
 Student Info and Progress Data
 ##############################
 
-The following sections detail how edX stores stateful data for students
-internally. This information can be useful for developers and researchers who
-are examining database exports.
+This section details how edX stores stateful data for students internally. This
+information can be useful for developers and researchers who are examining
+database exports.
 
 .. contents::
   :local:
   :depth: 1
 
-EdX also uses the Django Python Web framework. Tables that are built into the
+EdX also uses the Django® Python Web framework. Tables that are built into the
 Django Web framework are documented here only if they are used in
 unconventional ways.
 
@@ -22,7 +22,7 @@ unconventional ways.
 Conventions
 ***************
 
-EdX uses MySQL 5.1 relational database system with InnoDb storage engine.
+EdX uses MySQL™ 5.1 relational database system with InnoDb storage engine.
 
 The following conventions apply to most of the .sql output files. The exception
 is the ``courseware_studentmodule`` table, which is created by a different
