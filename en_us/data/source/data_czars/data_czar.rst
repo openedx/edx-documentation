@@ -65,17 +65,17 @@ General Skills
 Technical Skills
 =====================
 
-* Familiarity with PGP and GPG encryption and decryption.
+* Familiarity with PGP™ security software and GPG encryption and decryption.
 
-* Ability to download large files from Amazon Web Service (AWS) Simple Storage
-  Service (S3).
+* Ability to download large files from Amazon Simple Storage Service™ (Amazon
+  S3™).
 
 * Ability to set up a secure internal data distribution pipeline and run
-  scripts to download files in bulk from AWS S3.
+  scripts to download files in bulk from Amazon S3.
 
 * Experience working with archive files in TAR, GZ, and ZIP formats.
 
-* Familiarity with SQL and noSQL (Mongo) databases.
+* Familiarity with SQL and noSQL databases.
 
 * Familiarity with CSV and JSON file formats.
 
@@ -117,15 +117,16 @@ General Skills
 Technical Skills
 =====================
 
-* Familiarity with CSV, MongoDB, JSON, Unicode, XML, HTML.
+* Familiarity with CSV files, MongoDB® collections, JSON documents, Unicode,
+  XML, and HTML.
 
 * Ability to set up, query, and administer both SQL and noSQL databases.
 
 * Experience with console/bash scripts.
 
-* Basic or advanced scripting (for example, using Python or Ruby) to convert,
-  join, and aggregate data from different data sources, handle JSON
-  serialization, and Unicode specificities.
+* Basic or advanced scripting (for example, using the Python™ or Ruby
+  programming language) to convert, join, and aggregate data from different
+  data sources, handle JSON serialization, and Unicode specificities.
 
 * Experience with data mining and data aggregation across a rich, varied data
   set.
@@ -139,8 +140,8 @@ Technical Skills
 Resources for Data Czars and Teams
 **************************************************
 
-The edX Analytics team adds every data czar to a Google Group and mailing
-list called `course-data`_.
+The edX Analytics team adds every data czar to a Google Groups™ discussion
+forum and mailing list called `course-data`_.
 
 EdX also hosts an `Open edX Analytics wiki`_ that is available to the
 public. The wiki provides links to the engineering roadmap, information about
