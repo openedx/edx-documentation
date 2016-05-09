@@ -5,6 +5,10 @@ import sys, os, urllib
 # on_rtd is whether we are on readthedocs.org, this line of code grabbed from docs.readthedocs.org
 on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 
+# OK, this is gross: I don't know of a way to find out what builder is running,
+# so let's examine the command line, and take the word after -b.
+the_builder = sys.argv[sys.argv.index("-b") + 1]
+
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
@@ -77,7 +81,10 @@ def feedback_form_url(project, page):
     """Create a URL for feedback on a particular page in a project."""
     return FEEDBACK_FORM_FMT.format(pageid=urllib.quote("{}: {}".format(project, page)))
 
-html_context['feedback_form_url'] = feedback_form_url
+# We want the feedback_form_url function available in HTML templates, but it
+# makes html_context un-JSON-able, so don't add it if we are doing JSON.
+if the_builder != "json":
+    html_context['feedback_form_url'] = feedback_form_url
 
 # General information about the project.
 
