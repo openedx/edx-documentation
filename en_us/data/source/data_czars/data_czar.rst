@@ -1,25 +1,16 @@
-.. _Data_Czar:
+.. _Data Czar and Data Team Selection and Responsibilities:
 
-####################################################
-Data Czar/Data Team Selection and Responsibilities
-####################################################
-
-A data czar is the single representative at a partner institution who has the
-credentials to download and decrypt edX data packages. The data czar is
-responsible for transferring data securely to researchers and other interested
-parties after it is received. Due to the sensitivity of this data, the
-responsibility for these activities is restricted to one individual.
-
-At each partner institution, the data czar is the primary point of contact for
-information about edX data.
+##################################################
+Data Czar and Team Selection and Responsibilities
+##################################################
 
 .. contents::
    :local:
    :depth: 2
 
-**************************************
-Data Czars and Research Teams
-**************************************
+**********************************
+Data Czars and Other Team Members
+**********************************
 
 At some institutions, only the data czar works on research projects that use
 the course data in edX data packages. At other institutions, the data czar
@@ -64,52 +55,39 @@ and country's regulations with respect to the sharing of this data.
 General Skills
 =====================
 
-- Ability to set up and manage data access.
+* Ability to set up and manage data access.
 
-- Knowledgeable of general data privacy and security best practices.
+* Knowledgeable of general data privacy and security best practices.
 
-- Experience with management of sensitive student data.
+* Experience with management of sensitive student data.
 
 =====================
 Technical Skills
 =====================
 
-- Familiarity with PGP and GPG encryption and decryption.
+* Familiarity with PGP and GPG encryption and decryption.
 
-- Ability to download large files from Amazon Web Service (AWS) Simple Storage
+* Ability to download large files from Amazon Web Service (AWS) Simple Storage
   Service (S3).
 
-- Ability to set up a secure internal data distribution pipeline and run
+* Ability to set up a secure internal data distribution pipeline and run
   scripts to download files in bulk from AWS S3.
 
-- Experience working with archive files in TAR, GZ, and ZIP formats.
+* Experience working with archive files in TAR, GZ, and ZIP formats.
 
-- Familiarity with SQL and noSQL (Mongo) databases.
+* Familiarity with SQL and noSQL (Mongo) databases.
 
-- Familiarity with CSV and JSON file formats.
+* Familiarity with CSV and JSON file formats.
 
-- Experience copying, moving, and storing large files in bulk.
+* Experience copying, moving, and storing large files in bulk.
 
-- Ability to validate the data and files received and distributed.
-
-.. _Resources_Information:
-
-**************************************
-Resources and Information
-**************************************
-
-The edX Analytics team adds every data czar to a Google Group and mailing
-list called `course-data`_.
-
-EdX also hosts an `Open edX Analytics wiki`_ that is available to the
-public. The wiki provides links to the engineering roadmap, information about
-operational issues, and release notes describing past releases.
+* Ability to validate the data and files received and distributed.
 
 .. _Skills_Experience_Contributors:
 
-*************************************************
-Skills and Experience of Other Contributors
-*************************************************
+*********************************************
+Skills and Experience of Other Team Members
+*********************************************
 
 In addition to the data czar, each partner institution assembles a team of
 contributors to their research projects. This team can include database
@@ -123,36 +101,52 @@ spreadsheets, or other desired formats.
 General Skills
 =====================
 
-- Attention to detail.
+* Attention to detail.
 
-- Experience setting up and testing a data conversion pipeline.
+* Experience setting up and testing a data conversion pipeline.
 
-- Ability to identify interesting features in a complex and rich data set.
+* Ability to identify interesting features in a complex and rich data set.
 
-- Familiarity with anonymization and obfuscation techniques.
+* Familiarity with anonymization and obfuscation techniques.
 
-- Familiarity with data privacy and security best practices.
+* Familiarity with data privacy and security best practices.
 
-- Experience managing sensitive student data.
+* Experience managing sensitive student data.
 
 =====================
 Technical Skills
 =====================
 
-- Familiarity with CSV, MongoDB, JSON, Unicode, XML, HTML.
+* Familiarity with CSV, MongoDB, JSON, Unicode, XML, HTML.
 
-- Ability to set up, query, and administer both SQL and noSQL databases.
+* Ability to set up, query, and administer both SQL and noSQL databases.
 
-- Experience with console/bash scripts.
+* Experience with console/bash scripts.
 
-- Basic or advanced scripting (for example, using Python or Ruby) to convert,
+* Basic or advanced scripting (for example, using Python or Ruby) to convert,
   join, and aggregate data from different data sources, handle JSON
   serialization, and Unicode specificities.
 
-- Experience with data mining and data aggregation across a rich, varied data
+* Experience with data mining and data aggregation across a rich, varied data
   set.
 
-- Ability to write parsing scripts that properly handle JSON serialization and
+* Ability to write parsing scripts that properly handle JSON serialization and
   Unicode.
+
+.. _Resources_Information:
+
+**************************************************
+Resources for Data Czars and Teams
+**************************************************
+
+The edX Analytics team adds every data czar to a Google Group and mailing
+list called `course-data`_.
+
+EdX also hosts an `Open edX Analytics wiki`_ that is available to the
+public. The wiki provides links to the engineering roadmap, information about
+operational issues, and release notes describing past releases.
+
+Additional resources are also available. For more information, see
+:ref:`Resources for Researchers`.
 
 .. include:: ../../../links/links.rst

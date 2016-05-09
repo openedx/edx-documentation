@@ -4,9 +4,9 @@
 Student Info and Progress Data
 ##############################
 
-The following sections detail how edX stores stateful data for students
-internally. This information can be useful for developers and researchers who
-are examining database exports.
+This section details how edX stores stateful data for students internally. This
+information can be useful for developers and researchers who are examining
+database exports.
 
 .. contents::
   :local:
