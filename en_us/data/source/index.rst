@@ -1,7 +1,7 @@
 .. _edX Research Guide:
 
 ######################
-edX Research Guide
+EdX Research Guide
 ######################
 
 This document is intended for data czars, researchers, and administrative

@@ -4,7 +4,7 @@
 Data Reference
 ######################
 
-The following sections of the *EdX Reference Guide* provide reference
+The following sections of the *EdX Research Guide* provide reference
 information about the data stored in SQL and NoSQL databases.
 
 .. toctree::
