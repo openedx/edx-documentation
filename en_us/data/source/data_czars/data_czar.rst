@@ -57,9 +57,9 @@ General Skills
 
 * Ability to set up and manage data access.
 
-* Knowledgeable of general data privacy and security best practices.
+* Knowledgeable about general data privacy and security best practices.
 
-* Experience with management of sensitive student data.
+* Experience with managing sensitive student data.
 
 =====================
 Technical Skills
@@ -111,7 +111,7 @@ General Skills
 
 * Familiarity with data privacy and security best practices.
 
-* Experience managing sensitive student data.
+* Experience with managing sensitive student data.
 
 =====================
 Technical Skills
