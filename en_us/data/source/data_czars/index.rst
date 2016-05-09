@@ -1,26 +1,21 @@
-.. _Research Data Exchange:
+.. _Data_Czar:
 
-######################
-Research Data Exchange
-######################
+###################################
+Data Czars at Partner Institutions
+###################################
 
-The edX research data exchange (RDX) program enables researchers at
-participating partner institutions to request data for completed edx.org
-courses.
+A data czar is the single representative at a partner institution who has the
+credentials to download and decrypt edX data packages. The data czar is
+responsible for transferring data securely to researchers and other interested
+parties after it is received. Due to the sensitivity of this data, the
+responsibility for these activities is restricted to one individual.
 
-The RDX program is a mutual exchange: only partner institutions that
-choose to participate in RDX contribute data to the program, and only
-researchers at those institutions can request data from the program.
-
-Researchers at participating partner institutions must propose, and be approved
-for, a specific educational research project to receive RDX data.
+At each partner institution, the data czar is the primary point of contact for
+information about edX data.
 
 .. toctree::
    :maxdepth: 2
 
-   rdx_data
-   rdx_retrieval
-
-.. For information about joining the RDX program or proposing an educational
- research project, see {portal URL TBD}.
-
+   data_czar.rst
+   credentials.rst
+   package.rst
