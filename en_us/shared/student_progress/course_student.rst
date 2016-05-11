@@ -110,7 +110,8 @@ team member and the following columns.
        :ref:`data:auth_userprofile` table's level_of_education column in the
        *EdX Research Guide*.
    * - mailing_address
-     - This value is optional and is supplied only at registration.
+     - No longer collected during registration. Previously, this value was
+       optional and was supplied only at registration.
    * - goals
      - This value is optional and is supplied only at registration.
    * - cohort
