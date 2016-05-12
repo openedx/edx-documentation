@@ -5,8 +5,8 @@ Keys and Credentials for Data Transfers
 ####################################################
 
 EdX transfers course data to the data czars at our partner institutions in
-regularly generated data packages. Data packages can only be accessed by a
-single contact at each university, referred to as the "data czar".
+regularly generated data packages. Data packages can only be accessed by the
+data czar at each university.
 
 .. contents::
   :local:

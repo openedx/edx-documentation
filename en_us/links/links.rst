@@ -16,6 +16,8 @@
 
 .. _Open edX Analytics wiki: http://edx-wiki.atlassian.net/wiki/display/OA/Open+edX+Analytics+Home
 
+.. _openedx-analytics: http://groups.google.com/forum/#!forum/openedx-analytics
+
 .. _Entity Relationship Diagram for ORA Data: https://openedx.atlassian.net/wiki/display/AN/Entity+Relationship+Diagram+for+ORA+Data
 
 .. _edX Enrollment API: http://edx.readthedocs.org/projects/edx-platform-api/en/latest/enrollment/index.html
