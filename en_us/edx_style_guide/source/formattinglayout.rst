@@ -39,8 +39,8 @@ documentation team, see the
       be translated, use the code block markup and include a comment for
       translators with explicit instructions.
 
-      ``.. Translators: In the following XML code block, do not translate any
-        .. text that is between the < > characters.``
+      ``.. Translators: In the following XML code block, do not translate any``
+      ``.. text that is between the < > characters.``
 
       .. code-block:: xml
 
