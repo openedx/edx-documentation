@@ -4,9 +4,15 @@
 Data Czar and Team Selection and Responsibilities
 ##################################################
 
+This section describes the skills and experience that are likely to be used by
+data czars and research team members.
+
 .. contents::
    :local:
    :depth: 2
+
+For more information about data security policies and procedures, see
+:ref:`Data Security Guidelines`.
 
 **********************************
 Data Czars and Other Team Members
