@@ -83,6 +83,8 @@ Technical Skills
 
 * Ability to validate the data and files received and distributed.
 
+* Ability to run scripts to process large files and do data analysis.
+
 .. _Skills_Experience_Contributors:
 
 *********************************************
@@ -140,14 +142,8 @@ Technical Skills
 Resources for Data Czars and Teams
 **************************************************
 
-The edX Analytics team adds every data czar to a Google Groups™ discussion
-forum and mailing list called `course-data`_.
-
-EdX also hosts an `Open edX Analytics wiki`_ that is available to the
-public. The wiki provides links to the engineering roadmap, information about
-operational issues, and release notes describing past releases.
-
-Additional resources are also available. For more information, see
-:ref:`Resources for Researchers`.
+For discussions, edX hosts the `openedx-analytics`_ Google Group™, which is
+open to the public. Additional resources are also available. For more
+information, see :ref:`Resources for Researchers`.
 
 .. include:: ../../../links/links.rst
