@@ -224,6 +224,11 @@ this command.
      - Yes
      - OIDC client secret.
      - ``--client-secret=ecommerce-secret``
+   * - ``--from-email``
+     - Yes
+     - Address from which email messages are sent.
+     - ``--from-email=notifications@example.com``
+
 
 To add another site, use the appropriate settings module for your environment
 (``ecommerce.settings.devstack`` for Devstack,
@@ -234,7 +239,7 @@ configuration with the options that you specify.
     .. code-block:: bash
 
       $ sudo su ecommerce
-      $ python manage.py create_or_update_site --site-domain=[change me] --partner-code=[change me] --partner-name=[change me] --lms-url-root=[change me] --client-id=[OIDC client ID] --client-secret=[OIDC client secret]
+      $ python manage.py create_or_update_site --site-domain=[change me] --partner-code=[change me] --partner-name=[change me] --lms-url-root=[change me] --client-id=[OIDC client ID] --client-secret=[OIDC client secret] --from-email=[from email]
 
 ****************
 Start the Server
