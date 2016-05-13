@@ -11,6 +11,7 @@ EdX Course Catalog API User Guide
 #####################################
 
 .. toctree::
+    :numbered:
     :maxdepth: 2
 
     intro_edx_apis
