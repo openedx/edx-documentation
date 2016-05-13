@@ -17,7 +17,8 @@ What Is a Subsection?
 
 Sections are divided into subsections, which in turn contain one or more units.
 A subsection may represent a topic in your course, or another organizing
-principle. Subsections are sometimes called "lessons" or "learning sequences".
+principle. Subsections are sometimes called "lessons" or they might represent a
+week's worth of material.
 
 ***********************************
 Viewing Subsections in the Outline
@@ -35,7 +36,7 @@ The Learner View of a Subsection
 
 Learners see subsections on the **Course** page, listed beneath the
 expanded section. In the following example, two subsections are circled, and
-the first is open.
+the first one is open in the LMS.
 
 .. image:: ../../../shared/images/subsections_student.png
  :width: 500

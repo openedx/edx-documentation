@@ -76,16 +76,20 @@ your course content.
 .. image:: ../../../shared/images/Course_Outline_LMS.png
  :alt: Course content from learner's point of view.
 
-#. Sections are listed in the left pane. Learners can expand the sections to
-   see the subsections and units that they contain, or collapse for a compact
-   overview.
-#. Subsections and units appear in the left pane when learners expand a
-   section.
-#. Components in the selected unit appear in the learning sequence. Learners
-   select icons in the learning sequence to access specific components in the
-   current unit. They can also use the left and right arrow buttons at either
-   end of the learning sequence to move back to the previous unit or forward to
-   the next unit.
+#. Sections are listed in the course navigation pane. Learners select a section
+   to see the subsections that it contains.
+
+#. Subsections are listed in the course navigation pane after a learner expands
+   a section.
+
+#. Units appear in the unit navigation bar, represented by icons, after
+   learners select a subsection. A tooltip with the unit's name appears when
+   learners move the pointer onto an icon.
+
+   Learners select icons in the unit navigation bar to access course units.
+   They can also use the left and right arrow buttons at either end of the unit
+   navigation bar to move back to the previous unit or forward to the next
+   unit.
 
 .. _Navigating the Course Outline:
 

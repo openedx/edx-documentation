@@ -33,16 +33,26 @@ The LMS requires XBlocks to have the following properties.
 * A class property named ``has_score`` with a value of ``True`` if the XBlock
   is to be graded.
 
-* A method named ``get_progress`` that . . . TBD (
-  x_module.py:XModuleMixin.get_progress)
+.. * A method named ``get_progress`` that . . . TBD (  x_module.py:XModuleMixin.get_progress)
 
-* A class property named ``icon_class``, which controls the icon that is
-  displayed to learners in the learning sequence header in courseware when the
-  XBlock is in that unit.  The variable must have one of the following values.
+* A class property named ``icon_class``, which controls the icon that displays
+  to learners in the unit navigation bar on the **Course** page when the XBlock
+  is in that unit. The variable must have one of the following values.
 
-  * ``problem``
-  * ``video``
-  * ``other``
+  .. list-table::
+     :header-rows: 1
+
+     * - Value
+       - Icon
+     * - ``problem``
+       - .. image:: ../Images/icon_class_problem.png
+            :alt: The icon for an assessment of any type.
+     * - ``video``
+       - .. image:: ../Images/icon_class_video.png
+            :alt: The icon for a video.
+     * - ``other``
+       - .. image:: ../Images/icon_class_other.png
+            :alt: The icon for any other type of course content.
 
 ****************************
 Internationalization Support
@@ -128,7 +138,7 @@ Adding Translated Strings to your XBlock
    * ``../my_xblock/translations/ar/LC_MESSAGES/text.mo``
    * ``../my_xblock/translations/ar/LC_MESSAGES/text.po``
 
-The resulting directory/file structure should look like this:
+The resulting directory/file structure should look like this.
 
 .. code-block:: text
 
@@ -152,13 +162,15 @@ The resulting directory/file structure should look like this:
                 ├── text.mo
                 └── text.po
 
-You can now run the LMS and update your preferred language via Account Settings in order to observe the translated
-strings for your chosen locale.
+You can now run the LMS and update your preferred language via Account Settings
+in order to observe the translated strings for your chosen locale.
 
-.. note:: In the absence of an available language locale and domain file, the LMS XBlock runtime will attempt to match
-    strings marked for translation within your XBlock using its own set of language locales and domains.  However, it
-    is not recommended that you rely on the LMS mechanism for internationalization support.  There is no guarantee your
-    strings will be matched by the LMS, and even if matches are found, the translations may be incorrect in the context
-    of your specific XBlock.
+.. note:: In the absence of an available language locale and domain file, the
+    LMS XBlock runtime will attempt to match strings marked for translation
+    within your XBlock using its own set of language locales and domains.
+    However, it is not recommended that you rely on the LMS mechanism for
+    internationalization support.  There is no guarantee your strings will be
+    matched by the LMS, and even if matches are found, the translations may be
+    incorrect in the context of your specific XBlock.
 
 .. include:: ../../../links/links.rst

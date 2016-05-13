@@ -14,8 +14,10 @@ This section describes how to work with discussion components in Studio.
 Overview
 *******************
 
-You can add discussion components to a unit to pose questions related to the
-unit and give learners a chance to respond and interact on a specific subject.
+You can add discussion components to a unit to pose questions about other
+components, such as videos or text, in the unit. A discussion component gives
+learners a chance to respond to and interact with each other about a specific
+subject.
 
 Discussion topics that you create by adding discussion components in your
 course are known as content-specific discussion topics.
@@ -32,7 +34,7 @@ For more information about discussions, see these topics.
 Create a Discussion Component
 *****************************
 
-.. note:: We recommend that you add an HTML component before each discussion
+.. note:: EdX recommends that you add an HTML component before each discussion
    component to introduce the topic that you want learners to discuss. The
    discussion component itself does not contain any text and can be easy for
    learners to overlook.
@@ -52,7 +54,7 @@ Create a Discussion Component
     :width: 600
 
 #. Follow the guidelines in the editor to fill in the **Category**, the
-   optional **Display Name**, and the **Subcategory** fields.
+   **Display Name**, and the **Subcategory** fields.
 
    .. image:: ../../../shared/images/DiscussionComponentEditor.png
     :alt: An image of the discussion component editor with a category of
@@ -85,28 +87,25 @@ Create a Discussion Component
 A Learner's View of the Discussion
 **********************************
 
-For learners, the display name for the discussion component appears in the
-learning sequence at the top of the page.
-
-.. image:: ../../../shared/images/DiscussionComponent_LMS_Ribbon.png
- :alt: An image of a unit from a learners's point of view, with the component
-  list showing a discussion component.
- :width: 600
-
-The discussion space appears under other components in the unit. It does not
-have a label in the body of the unit. Instead, learners see "Show discussion"
-or "Hide discussion" on the left, and **New Post** on the right.
+When you add a content-specific discussion topic to a unit, learners see only
+the **Show Discussion** and **New Post** options. EdX recommends that you add
+an HTML component before each discussion component to introduce the topic that
+you want learners to discuss.
 
 In the following example, the discussion component follows video and HTML
 components.
 
 .. image:: ../../../shared/images/DiscussionComponent_LMS.png
-  :alt: An image of a video component followed by a discussion component.
+  :alt: A video component followed by a descriptive HTML component and then a
+      discussion component.
   :width: 600
 
+Learners must select **Show Discussion** to expand the discussion space and
+read the contributions, or select **New Post** to post their own contributions.
+
 On the **Discussion** page, learners can find the category and subcategory of
-the discussion in the left pane.
+the discussion in the discussion thread list.
 
 .. image:: ../../../shared/images/Discussion_category_subcategory.png
- :alt: An image of the Discussion page from a learner's point of view.
+ :alt: The Discussion page from a learner's point of view.
  :width: 400
