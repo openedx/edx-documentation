@@ -52,9 +52,10 @@ Learner-Reported Data
 
 When learners create, or register, their user accounts, they select a public
 username and supply their full names and email addresses. Learners also have
-the option to provide personal demographic information, including gender, year
-of birth, and highest level of education completed. Because this information is
-optional, not all of the learners who are enrolled in your course provide it.
+the option to provide personal demographic information, including highest
+level of education completed, gender, year of birth, and preferred language.
+Because this information is optional, not all of the learners who are enrolled
+in your course provide it.
 
 After learners create an account, they can enroll in as many individual courses
 as they choose.
@@ -81,6 +82,13 @@ Columns in the Student Profile Report
 The student profile report includes a row for each enrolled learner or course
 team member and the following columns.
 
+.. only:: Open_edX
+
+ The descriptions of columns in the following table apply to edx.org. Required
+ or optional fields shown to learners during registration and available for
+ editing in **Account Settings** might vary for Open edX sites.
+
+
 .. list-table::
    :widths: 30 70
    :header-rows: 1
@@ -98,6 +106,16 @@ team member and the following columns.
    * - email
      - The email address entered by the learner. An email address is required.
        Learners can update this value on the **Account Settings** page.
+   * - language
+     - This column is included for backward compatibility only. This data is
+       no longer collected during account creation. The selection that a
+       learner makes for language on the **Account Settings** page is not
+       included in this report.
+   * - location
+     - This column is included for backward compatibility only. The selection
+       that a learner makes for **Country** during registration or for
+       **Country or Region** on the **Account Settings** page is displayed in
+       the "country" column of this report.
    * - year_of_birth
      - This value is optional and can be updated on the **Account Settings**
        page.
@@ -114,16 +132,19 @@ team member and the following columns.
    * - goals
      - This value is optional and is supplied only at registration.
    * - cohort
-     - For courses that include learner cohorts, reports the cohort group that
-       is assigned to each learner.
+     - This column is included only if the course has cohorts enabled. For
+       courses that include learner cohorts, shows the name of the cohort group
+       that is assigned to the learner. If a learner is not assigned to a
+       cohort, the value is ``[unassigned]``.
    * - team
-     - For courses that include teams, reports the team name that the learner
-       belongs to. If a learner has not joined a team, this column is empty.
-
-.. note:: The columns for language and location that are included in this
- report are present for backward compatibility only. This data is no longer
- collected during account creation. Selections that learners make for language
- and country on the **Account Settings** page are not included on this report.
+     - This column is included only if the course has teams enabled. For courses
+       that include teams, shows the name of the team that the learner belongs
+       to. If a learner has not joined a team, the value is ``[unavailable]``.
+   * - city
+     - Data for this column is not currently collected on edx.org.
+   * - country
+     - Learners are required to specify **Country** during registration, and can
+       update this value on the **Account Settings** page.
 
 
 .. _View and download student data:
