@@ -133,6 +133,10 @@ exams, but are available again for viewing after the exam due date has passed.
 You can configure a timed exam to remain hidden even after the exam due date
 has passed.
 
+When you keep a timed exam hidden after its due date, learners cannot see the
+content of the exam, but the grades that they received on the exam are not
+affected, and their scores for the exam remain visible on the **Progress** page.
+
 .. note:: This setting applies only to timed exams. It has no effect on other
    types of special exams, including proctored or practice exams.
 

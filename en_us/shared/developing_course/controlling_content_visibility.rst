@@ -84,9 +84,9 @@ the following topics.
 Content Hidden from Learners
 *****************************
 
-You can hide content from learners. You can hide content in both
-instructor-paced and self-paced courses. Such content is never visible to
-learners, regardless of the release and publishing status.
+You can hide content from learners in both instructor-paced and self-paced
+courses. Such content is never visible to learners, regardless of the release
+and publishing status.
 
 You might hide a unit from learners, for example, when that unit contains an
 answer to a problem in another unit of that subsection. After the problem's due
@@ -96,6 +96,12 @@ You could also hide a unit from learners if you wanted to use that unit to
 provide instructions or guidance meant only for the course team. Only course
 team members would see that unit in the course.
 
+.. note:: As a best practice, do not hide sections, subsections, or units that
+   contain graded content. When the platform performs grading for any learner,
+   the grading process does not include problems that a learner does not have
+   access to, in other words, any content that is hidden from that learner.
+   For more details, see :ref:`Hiding Graded Content`.
+
 You can hide content at different levels, as described in the following topics.
 
 * :ref:`Sections<Hide a Section from Students>`
@@ -104,11 +110,12 @@ You can hide content at different levels, as described in the following topics.
 
 .. note::
  When you make a previously hidden section or subsection visible to learners,
- some content in the section or subsection may remain hidden. If you have
+ some content in the section or subsection might remain hidden. If you have
  explicitly set a subsection or unit to be hidden from learners, this
  subsection or unit remains hidden even when you change the visibility of the
  parent section or subsection. Unpublished units remain unpublished, and
  changes to published units remain unpublished.
+
 
 .. _Hiding Graded Content:
 
@@ -116,11 +123,15 @@ You can hide content at different levels, as described in the following topics.
 Hiding Graded Content
 =====================
 
-If you hide a section, subsection, or unit that contains graded problems,
-grading is not affected. The hidden problems are still counted when the edX
-platform calculates grades. If a problem was visible at one time, and learners
-submitted answers for it, they still receive the credit they earned if you
-later hide the problem.
+Grading is affected if you hide a section, subsection, or unit that contains
+graded problems. When the platform performs grading for any learner, the grading
+process does not include problems that the learner does not have access to, in
+other words, any content that is hidden from that learner.
+
+.. note:: Grading is not affected for timed exams when you select the setting to
+   keep timed exam content hidden from learners even after the exam due date has
+   passed. For more information, see :ref:`Timed Exams`.
+
 
 .. _Content Groups:
 
