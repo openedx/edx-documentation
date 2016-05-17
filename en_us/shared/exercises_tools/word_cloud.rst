@@ -48,14 +48,13 @@ To create a word cloud, follow these steps.
 #. In the component editor, specify the settings that you want. You can
    leave the default value for everything except **Display Name**.
 
-  -  **Display Name**: This name appears as a heading above the problem and as
-     a tooltip in the learning sequence at the top of the **Course** page.
-  -  **Inputs**: The number of text boxes into which students can enter words,
+   * **Display Name**: This name appears as a heading above the problem.
+   * **Inputs**: The number of text boxes into which students can enter words,
      phrases, or sentences.
-  -  **Maximum Words**: The maximum number of words that the word cloud
+   * **Maximum Words**: The maximum number of words that the word cloud
      displays. If students enter 300 different words but the maximum is set to
      250, only the 250 most commonly entered words appear in the word cloud.
-  -  **Show Percents**: The number of times that students have entered a given
+   * **Show Percents**: The number of times that students have entered a given
      word as a percentage of all words entered appears near that word.
 
 #. Select **Save**.

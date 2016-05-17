@@ -68,16 +68,17 @@ Viewing Units as a Learner
 ****************************
 
 To a learner using the edX learning management system (LMS), each unit in the
-subsection appears as a link in the learning sequence at the top of the
-**Course** page. The contents of the active unit appear below the learning
-sequence.
+subsection is represented by an icon in the unit navigation bar at the top of
+the **Course** page. The components in the selected unit appear below the unit
+navigation bar.
 
-The following image shows a subsection with four units in the LMS. The first
-unit is open. Each unit is represented by an icon in the learning sequence.
+The following image shows a subsection with five units in the LMS. The fourth
+unit is open.
 
 .. image:: ../../../shared/images/Units_LMS.png
- :alt: Image of a unit in a subsection in the LMS, with all of the units in the
-  learning sequence indicated.
+ :alt: A unit in the LMS, with all of the unit icons in the unit navigation bar
+  indicated.
+ :width: 500
 
 .. _The Unit Workflow:
 

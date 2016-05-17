@@ -10,8 +10,8 @@ Glossary
 - :ref:`S` - :ref:`T` - :ref:`V` - :ref:`W` - :ref:`XYZ<X>`
 
 .. note:: Most of the links to documentation provided in this glossary are to
-   the :ref:`partnercoursestaff:document index` guide, for edX partners. Many of
-   the same topics are available in the Open edX version of this guide,
+   the :ref:`partnercoursestaff:document index` guide, for edX partners. Many
+   of the same topics are available in the Open edX version of this guide,
    :ref:`opencoursestaff:Building and Running an Open edX Course`.
 
 .. _A:
@@ -167,7 +167,7 @@ C
 
 **Content Library**
 
-See :ref:`Library<Library_g>`.
+  See :ref:`Library<Library_g>`.
 
 
 .. _Content Specific Discussion Topic_g:
@@ -201,10 +201,18 @@ See :ref:`Library<Library_g>`.
 
 **Course Handouts**
 
-  Course handouts are files you make available to learners on the **Home** page.
-  For more information, see :ref:`partnercoursestaff:Adding Course Updates and
-  Handouts`.
+  Course handouts are files you make available to learners on the **Home**
+  page. For more information, see :ref:`partnercoursestaff:Adding Course
+  Updates and Handouts`.
 
+**Course Navigation Pane**
+
+  The navigation frame that appears at one side of the **Course** page in the
+  LMS. The course navigation pane shows the sections in the course. When you
+  select a section, the section expands to show subsections. When you select a
+  subsection, the first unit in that subsection appears on the course page.
+
+  See also :ref:`Unit Navigation Bar<U>`.
 
 .. _Run:
 
@@ -279,14 +287,12 @@ D
 
   For more information, see the :ref:`data:edX Research Guide`.
 
-
 **Discussion**
 
   The set of topics defined to promote course-wide or unit-specific dialog.
   Learners use the discussion topics to communicate with each other and the
   course team in threaded exchanges. For more information, see
   :ref:`partnercoursestaff:Discussions`.
-
 
 .. _Discussion Component:
 
@@ -296,11 +302,20 @@ D
   video component can be followed by a discussion component so that learners
   can discuss the video content without having to leave the page. When you add
   a discussion component to a unit, you create a content-specific discussion
-  topic. See also
-  :ref:`Content Specific Discussion Topic <Content Specific Discussion Topic_g>`.
+  topic. See also :ref:`Content Specific Discussion Topic <Content Specific
+  Discussion Topic_g>`.
 
   For more information, see :ref:`partnercoursestaff:Working with Discussion
   Components`.
+
+**Discussion Thread List**
+
+  The navigation frame that appears at one side of the **Discussion** page in
+  the LMS. The discussion thread list shows the discussion categories and
+  subcategories in the course. When you select a category, the list shows all
+  of the posts in that category. When you select a subcategory, the list shows
+  all of the posts in that subcategory. Select a post to read it and its
+  responses and comments, if any.
 
 .. _Dropdown_g:
 
@@ -416,8 +431,8 @@ H
 **Home Page**
 
   The page that opens first every time learners access your course. You can
-  post announcements on the **Home** page. The **Course Handouts** sidebar
-  appears in the right pane of this page. This page was formerly called the
+  post announcements on the **Home** page. The handout navigation sidebar
+  appears at the side of this page. This page was formerly called the
   **Course Info** page.
 
 .. _HTML Component:
@@ -499,16 +514,11 @@ L
 
 **Learning Sequence**
 
-  The horizontal navigation bar that appears at the top of the **Course**
-  page in the LMS. The learning sequence contains an icon for each unit in the
-  selected subsection. When a learner moves the cursor over one of these
-  icons, the names of each component in that unit appear.
+  See :ref:`Unit Navigation Bar<U>`.
 
 **Left Pane**
 
-  The navigation frame that appears at the left side of the **Course**
-  page in the LMS. The left pane shows the sections in the course. When you
-  click a section, the section expands to show subsections.
+  See :ref:`Course Navigation Pane<C>`.
 
 .. _Library_g:
 
@@ -640,8 +650,7 @@ P
 
   Pages organize course materials into categories that learners select in the
   learning management system. Pages provide access to the course content and to
-  tools and uploaded files that supplement the course. Each page appears in
-  your course's navigation bar.
+  tools and uploaded files that supplement the course. Links to each page appear in the course material navigation bar.
 
   For more information, see :ref:`partnercoursestaff:Adding Pages to a
   Course`.
@@ -835,6 +844,15 @@ U
 
   For more information, see :ref:`partnercoursestaff:Developing Course Units`.
 
+**Unit Navigation Bar**
+
+  The horizontal control that appears at the top of the **Course** page in the
+  LMS. The unit navigation bar contains an icon for each unit in the selected
+  subsection. When you move your pointer over one of these icons, the name of
+  the unit appears. If you have bookmarked a unit, the unit navigation bar
+  includes an identifying flag above that unit's icon.
+
+  See also :ref:`Course Navigation Pane<C>`.
 
 .. _V:
 
