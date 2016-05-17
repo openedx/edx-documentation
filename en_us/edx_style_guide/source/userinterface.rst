@@ -24,6 +24,8 @@ a different type of control.
 List of edX UI Elements
 ***********************
 
+The edX documentation team makes an effort to use the aria-label values that
+identify elements of the user interface in the document object model (DOM).
 This table lists edX-specific terms and exceptions to Microsoft style.
 
 .. list-table::
@@ -39,25 +41,42 @@ This table lists edX-specific terms and exceptions to Microsoft style.
    * - component editor
      - Present in lower case.
    * - course accordion
-     - Do not use. Previously used to describe the navigation frame that shows
-       course sections and subsections at the left side of the **Course** page
-       in the LMS. Use "left pane."
+     - Do not use. Previously used to describe the course navigation pane.
+   * - course navigation pane
+     - On the **Courses** page, the navigation frame for selecting sections and
+       subsections.
+   * - course ribbon
+     - Do not use. Previously used to describe the unit navigation bar.
    * - dialog box
      - Do not use "dialog" alone to refer to the user interface control. Do not
        use "modal" or "modal dialog".
+   * - discussion navigation pane
+     - On the **Discussion** page, the navigation frame for selecting and
+       filtering discussion categories, subcategories, and posts.
    * - field
      - A control that accepts user input that is typed or pasted in. Use in
        place of "text box".
+   * - filmstrip
+     - Do not use.
+   * - handout navigation sidebar
+     - On the **Home** page, the navigation frame for selecting course
+       materials added as handouts.
    * - icon
      - A user interface control that has an image for a label instead of text.
        To identify icons, use the mouseover help text as the icon label. If the
        icon does not have help text, such as an icon in a mobile app, it must
        be described.
-   * - learning sequence, the
-     - The horizontal navigation frame that appears above course content on
-       the **Course** page in the LMS. An icon appears in the learning sequence
-       for each unit in the selected subsection. Use learning sequence instead
-       of "course ribbon" or "filmstrip".
+   * - learning sequence
+     - Do not use. Previously used to describe the unit navigation bar.
+   * - left pane
+     - Do not use. On the **Courses** page, the navigation frame for selecting
+       sections and subsections is called the course navigation pane. On the
+       **Discussion** page, the navigation frame for selecting categories and
+       subcategories is called the discussion navigation pane.
+   * - unit navigation bar
+     - The navigation frame on the **Course** page with icons for each unit in
+       the selected subsection, and with **Previous** and **Next** options on
+       either end.
 
 
 ***********************************

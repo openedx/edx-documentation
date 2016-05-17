@@ -158,7 +158,7 @@ start taking the exam.
 A countdown timer is visible at the top of the page during the exam. Warnings
 are displayed when there is 20% and 5% of allotted time remaining. For example,
 if the allowed time in the exam is 60 minutes, learners see a warning when
-there are 12 minutes left, and again when there are 3 minutes left.
+there are 12 minutes remaining, and again when there are 3 minutes remaining.
 
 For information about scenarios that learners might encounter while taking
 proctored exams, see :ref:`Respond to Learner Concerns about Proctored Exams`

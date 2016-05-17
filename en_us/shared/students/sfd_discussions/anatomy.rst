@@ -11,9 +11,9 @@ This topic describes how course discussions are organized in an edX course.
   :local:
   :depth: 1
 
-********************************************************************
+**********************************************
 Basic Elements: Posts, Responses, and Comments
-********************************************************************
+**********************************************
 
 Discussions are made up of *posts*, *responses*, and *comments*. Together,
 posts, responses, and comments are known as *contributions*, and a post
@@ -44,88 +44,90 @@ The following conversation shows each of these contributions:
 You can see posts, comments, and responses, as well as other information about
 the course discussions and individual posts, on the **Discussion** page.
 
-**********************************
+********************
 The Discussion Page
-**********************************
+********************
 
 When you go to the **Discussion** page in your course, you see a page that
 looks like the following image. You can select the image to enlarge it.
 
 .. image:: ../../../shared/students/Images/DiscussionHomeCallouts.png
    :width: 800
-   :alt: Discussion home page with a topics pane on the left side and "How to
-       use edX discussions" pane on the right.
+   :alt: Discussion home page with the discussion navigation pane to one side
+       of the "How to use edX discussions" pane. Numbered callouts indicate the
+       elements on this page.
 
-=============
-List of Posts
-=============
+===========================
+Discussion Navigation Pane
+===========================
 
-The list of posts in the left pane lists titles and information for all the
-individual posts in the course. The list of posts also has filters that you can
-use to sort discussions by topic, status, and activity.
+The discussion navigation pane shows titles and information for all the
+individual posts in the course. The discussion navigation pane also has filters
+that you can use to sort discussions by topic, status, and activity.
 
-The list of posts includes the following elements.
+The discussion navigation pane includes the following elements.
 
-* The drop-down Discussion list. When you select this list, you can see all of
-  the topics in the course discussions, or you can view only the posts that you
-  are following. For more information about discussion topics, see
-  :ref:`Discussion Topics`. For more information about following posts, see
-  :ref:`Follow Posts`.
+#. The drop-down discussion list. When you select this list, you can see all of
+   the topics in the course discussions, or you can view only the posts that
+   you are following. For more information about discussion topics, see
+   :ref:`Discussion Topics`. For more information about following posts, see
+   :ref:`Follow Posts`.
 
-* The status filter. You can filter discussions that you have not read yet, or
-  that contain unanswered questions. For more information, see :ref:`Answer
-  Questions`.
+#. The status filter. You can filter discussions that you have not read yet, or
+   that contain unanswered questions. For more information, see :ref:`Answer
+   Questions`.
 
-* Specific identifiers. If a moderator has pinned a post, if you chose to
-  follow a post, or if the person who created the post is a community TA,
-  moderator, or administrator, you see a colored identifier with this
-  information.
+#. Specific identifiers. If a moderator has pinned a post so that it is at the
+   top of the list, if you chose to follow a post, or if the person who created
+   the post is a community TA, moderator, or administrator, you see a colored
+   identifier with this information.
 
-* The title of the post. The title lets you know what the post is about.
+#. The title of the post. The title lets you know what the post is about.
 
-* The post type. A post can be a question or a discussion. For more
-  information, see :ref:`Determine Post Type`.
+#. The post type icon. A post can be a discussion or a question. For more
+   information, see :ref:`Determine Post Type`.
 
-* A "correct answer" status indicator. The green check mark indicates that one
-  of the responses to the post correctly answers the question that the post
-  asks.
+#. An icon that indicates a "correct answer". The green check mark icon
+   indicates that one of the responses to the post correctly answers the
+   question that the post asks.
 
-* The post search box. You can search all posts, responses, and comments for
-  individual words or phrases. For more information, see :ref:`Search
-  Discussions`.
+#. The post search box. You can search all posts, responses, and comments for
+   individual words or phrases. For more information, see :ref:`Search
+   Discussions`.
 
-* The activity sorting control. You can sort discussions by recent activity,
-  most activity, or most votes. For more information, see :ref:`Keep Up with
-  New Activity`.
+#. The activity sorting control. You can sort listed posts by recent activity,
+   most activity, or most votes. For more information, see :ref:`Keep Up with
+   New Activity`.
 
-* Status indicators. These indicators show whether you have read a post and the
-  responses and comments for that post. For more information, see
-  :ref:`Keep Up with New Activity`.
+#. Status indicator icons. These indicators show whether you have read a post
+   and the number of responses and comments for that post. For more
+   information, see :ref:`Keep Up with New Activity`.
 
-===========
-Right Pane
-===========
+===========================
+How to Use edX Discussions
+===========================
 
-When you select the **Discussion** tab, the right pane opens to a home page
-that lists ways that you can interact with posts. Each of these interactions is
-covered later in this topic. For more information, see the following sections.
+When you select the **Discussion** page, information about how to use edX
+discussions appears with information about how you can interact with posts.
+Each of these interactions is covered later in this topic. For more
+information, see the following sections.
 
 * :ref:`Explore Posts`
 * :ref:`Follow Posts`
 * :ref:`Provide Feedback`
 
-On the home page, you can also specify that you want to receive an email
-message each day that summarizes discussion activity for the posts you are
-following. To receive this daily digest, select the **Receive updates** check
-box.
+On this page, you can also specify that you want to receive an email message
+each day that summarizes discussion activity for the posts you are following.
+To receive this daily digest, select **Receive updates**.
 
 .. image:: ../../../shared/students/Images/Disc_ReceiveUpdates.png
   :width: 400
-  :alt: The right pane with the Receive Updates check box circled
+  :alt: The How to Use edX Discussions pane with the Receive Updates check box
+      circled.
 
-After you select the title of a post, the right pane shows the original post,
+After you select the title of a post, this area of the page shows the post,
 responses to the post, and comments on responses. The page is formatted to help
-distinguish between posts, responses, and comments:
+you distinguish posts, responses, and comments.
 
 * The post and its title appear at the top of the page.
 
@@ -140,16 +142,16 @@ it.
 
 .. image:: ../../../shared/students/Images/Disc_PostsEtc.png
    :width: 600
-   :alt: Discussion page with a specific post selected in the left pane and the
-       post, responses, and comments in the right pane.
+   :alt: Discussion page with a specific post selected in the discussion
+       navigation pane and the post, responses, and comments next to it.
 
-Additionally, in the upper-right corner of every post, response, and comment,
-you can see several option icons. The icons that you see depend on the type of
+Additionally, there are several option icons available for every post,
+response, and comment. The option icons that appear depend on the type of
 contribution. (For more information, see :ref:`Provide Feedback`.)
 
 .. image:: ../../../shared/students/Images/Disc_OptionIcons.png
   :width: 450
-  :alt: A single post with the option icons on the right circled
+  :alt: A single post with the option icons indicated.
 
 The icons that you see might include the following options.
 

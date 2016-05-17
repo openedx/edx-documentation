@@ -107,7 +107,8 @@ question mark image identifies posts that ask questions and a conversation
 bubble image identifies posts that start discussions.
 
 .. image:: ../../../shared/images/Post_types_in_list.png
- :alt: The list of posts with images identifying questions and discussions.
+ :alt: The discussion navigation pane with images identifying questions and
+     discussions.
 
 If you have any difficulty deciding which type of post you want to add, think
 about whether you want to get concrete information (a question) or start an
@@ -134,8 +135,8 @@ Search the Discussions
 =======================
 
 To search for text, select **Discussion**, and then enter a phrase, a word, or
-part of a word in the **Search all posts** field above the list of posts. When
-you press Enter, the search tries to find:
+part of a word in the **Search all posts** field in the discussion navigation
+pane. When you press Enter, the search tries to find:
 
 * A match or close match to your text in any post, response, or comment. The
   display updates to show a list of the posts that have a match at any level of
@@ -158,19 +159,19 @@ Review Posts About a Single Topic
 To review posts about a particular part of the course or type of issue, select
 **Discussion** at the top of the page and then select a topic from the drop-
 down list. (**All Discussions** is selected by default.) Only posts about the
-topic you select appear in the list of posts.
+topic you select appear in the discussion navigation pane.
 
 .. image:: ../../../shared/images/Discussion_filters.png
- :alt: The list of posts with callouts to identify the top filter to select
-       one topic and the filter below it to select by state.
+ :alt: The discussion navigation pane with callouts to identify the top filter
+       to select one topic and the filter below it to select by state.
 
 =======================================
 Review Only Unread or Unanswered Posts
 =======================================
 
 To limit the posts shown on the **Discussion** page, you can select one of the
-filter options. Above the list of posts, the **Show all** filter is selected
-by default.
+filter options. The **Show all** filter in the discussion navigation pane is
+selected by default.
 
 * To list only the discussions and questions that you have not yet viewed,
   select **Unread**.
@@ -340,10 +341,10 @@ Keep Up with New Activity
 Read New or Updated Posts
 ==============================
 
-The list of posts on the **Discussion** page provides visual cues to help you
-identify posts that are new, or that have responses or comments that you have
-not read yet, and to distinguish them from exchanges that you have already read
-completely.
+The discussion navigation pane on the **Discussion** page provides visual cues
+to help you identify posts that are new, or that have responses or comments
+that you have not read yet, and to distinguish them from exchanges that you
+have already read completely.
 
 * Posts that you have not read yet have a blue callout image.
 
@@ -354,8 +355,8 @@ completely.
   background.
 
  .. image:: ../../../shared/images/Discussion_colorcoding.png
-  :alt: The list of posts with posts showing differently colored backgrounds
-        and callout images.
+  :alt: The discussion navigation pane with posts showing differently colored
+        backgrounds and callout images.
 
 The total number of contributions in the exchange (the post and its responses
 and comments) appears in each callout image. To see the number of contributions
@@ -365,11 +366,11 @@ that you haven't read yet, move your cursor over the callout image.
  :alt: A post with four contributions total, and a popup that shows that only
    two are unread.
 
-The color-coded callout images appear when you sort the list of posts **by
-recent activity** or **by most activity**. If you sort the list of posts by
-most votes instead, the number of votes that the post has received appears in
-place of the callouts. For more information, see :ref:`Vote for Posts or
-Responses`.
+The color-coded callout images appear when you sort the list of posts in the
+discussion navigation pane **by recent activity** or **by most activity**. If
+you sort the list of posts by most votes instead, the number of votes that the
+post has received appears in place of the callouts. For more information, see
+:ref:`Vote for Posts or Responses`.
 
 ==============================
 Receive Daily Digests
@@ -429,16 +430,16 @@ post or response and select the "Vote" icon at top right.
 .. image:: ../../../shared/images/Discussion_vote.png
  :alt: A post with the Vote icon circled.
 
-You can sort the list of posts so that the posts with the most votes appear at
-the top: select the drop-down list of sorting options and select **by most
-votes**.
+You can sort the list of posts in the discussion navigation pane so that the
+posts with the most votes appear at the top: select the drop-down list of
+sorting options and select **by most votes**.
 
 .. image:: ../../../shared/images/Discussion_sortvotes.png
- :alt: The list of posts with the "by most votes" sorting option and the
-       number of votes for the post circled.
+ :alt: The discussion navigation pane with the "by most votes" sorting option
+       and the number of votes for the post circled.
 
-The number of votes that each post has received displays in the list of posts.
-(Votes for responses are not included in the number.)
+The number of votes that each post has received displays in the discussion
+navigation pane. (Votes for responses are not included in the number.)
 
 .. _Follow Posts:
 
@@ -460,8 +461,8 @@ topic they apply to, select the drop-down Discussion list and select
 **Posts I'm Following**.
 
 .. image:: ../../../shared/images/Discussion_filterfollowing.png
- :alt: The list of posts with the "Posts I'm Following" filter selected. Every
-       post in the list shows the following indicator.
+ :alt: The discussion navigation pane with the "Posts I'm Following" filter
+       selected. Every post in the list shows the following indicator.
 
 .. _Answer Questions:
 
@@ -492,8 +493,8 @@ replaces the question mark image for the post in the list on the **Discussion**
 page.
 
 .. image:: ../../../shared/images/Discussion_answers_in_list.png
- :alt: The list of posts with images identifying unanswered and answered
-     questions and discussions.
+ :alt: The discussion navigation pane with images identifying unanswered and
+     answered questions and discussions.
 
 .. _Report Discussion Misuse:
 

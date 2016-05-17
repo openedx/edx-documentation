@@ -80,9 +80,9 @@ The message at the top of the page tells you if you have passed the exam. If
 you refresh the page before you answer all the questions in the exam, the
 message tells you your current score.
 
-After you pass the entrance exam, in addition to the message at the top
-of the page, you can see all currently available course sections in the
-left pane, and you can access all available course materials.
+After you pass the entrance exam, in addition to the message at the top of the
+page, you can see all of the currently available course sections in the course
+navigation pane, and you can access all available course materials.
 
 The course team can allow learners to skip the entrance exam. If a course team
 member allows you to skip the entrance exam, you do not see the entrance exam

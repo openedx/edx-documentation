@@ -33,7 +33,7 @@ To add the CourseTalk widget, follow these steps.
 
 #. Sign in to the Django administration console for your base URL. For example,
    go to ``http://{your_URL}/admin``.
-#. In the left pane, locate **Coursetalk**, and then select **Course talk
+#. In the navigation pane, locate **Coursetalk**, and then select **Course talk
    widget configurations**.
 #. On the **Select course talk widget configuration to change** page, select
    **Add course talk widget configuration**.

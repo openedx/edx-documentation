@@ -29,8 +29,8 @@ Search the Discussions
 ******************************
 
 To search for text, select **All Discussions** and enter a phrase, a word, or
-part of a word in the **Search all posts** field above the list of posts. When
-you press Enter, the search tries to find:
+part of a word in the **Search all posts** field in the discussion navigation
+pane. When you press Enter, the search tries to find:
 
 * A match or close match to your text in any post, response, or comment. The
   display updates to show a list of the posts that have a match at any level of
@@ -72,18 +72,18 @@ View Topics on the Discussion Page
 =======================================
 
 On the **Discussion** page, you can view both course-wide and content-specific
-discussions. Select **All Discussions** in the upper left corner of the left
-pane to see all discussion topics in the course. To see all the discussions in
+discussions. Select **All Discussions** in the discussion navigation pane to see all of the discussion topics in the course. To see all of the posts in
 an individual topic, select the topic name.
 
 Note that course-wide topics do not have other topics indented below them,
-while content-specific topics are indented under a category name. For content-
-specific topics, you can select either the category name to see all the posts
-in that category, or you can select an individual topic name.
+while content-specific topics are indented under a category name. For
+content-specific topics, you can select either the category name to see all
+of the posts in that category, or you can select an individual topic name.
 
-  .. image:: ../../../shared/students/Images/Disc_TopicList.png
-     :width: 400
-     :alt: Discussion topic list expanded, showing all course discussion topics
+.. image:: ../../../shared/students/Images/Disc_TopicList.png
+  :width: 400
+  :alt: Discussion topic list expanded, showing all course discussion
+         topics.
 
 =======================================
 View Topics in a Course Unit
@@ -105,10 +105,11 @@ where that topic is located.
 
 #. In the list of topics, select the topic that you want.
 
-#. Select the name of a post to open the post in the right pane.
+#. Select a post title to open the complete post and its responses and comments
+   next to the above the discussion navigation pane.
 
-#. In the right pane, select the name of the discussion topic below the text of
-   the post to go to the discussion inside the unit.
+#. In the text of a post, select the name of the discussion topic to go to the
+   discussion inside the unit.
 
 .. image:: ../../../shared/students/Images/Disc_LinkToCourse.png
     :width: 800
@@ -119,8 +120,8 @@ View Only Unread or Unanswered Posts
 *****************************************
 
 To limit the posts shown on the **Discussion** page, you can select one of the
-filter options. Above the list of posts, the **Show all** filter is selected by
-default.
+filter options. The **Show all** filter in the discussion navigation pane is
+selected by default.
 
 * To list only the discussions and questions that you have not yet viewed,
   select **Unread**.
@@ -136,15 +137,16 @@ default.
 View Pinned Posts
 *****************************************
 
-Pinned posts appear at the top of the list of posts when you view all
-discussions. Pinned posts can contain important information about the course or
-any part of the course, such as a particular video or problem. The pinned post
-may originate from anyone in the course, including students and the discussion
-moderation team, but only members of the moderation team can pin posts.
+Pinned posts appear at the top of the list of posts in the discussion
+navigation pane when you view all discussions. Pinned posts can contain
+important information about the course or any part of the course, such as a
+particular video or problem. The pinned post can originate from anyone in the
+course, including other learners or members of the discussion moderation team,
+but only members of the moderation team can pin a post.
 
 .. image:: ../../../shared/students/Images/Disc_Pinned.png
  :width: 300
- :alt: Short list of posts with the "pinned" identifier circled
+ :alt: Short list of posts with the "pinned" identifier circled.
 
 .. _View from Participant:
 
@@ -170,10 +172,11 @@ about the participant.
 
 * A list of all the posts that contain a contribution from the participant,
   whether the participant created the original post or contributed a response
-  or comment to a different post. The list of posts includes the title of the
-  post and the username of the participant who created the post. To see the
-  comments or responses on any post, select **View Discussion** below the post
-  to open the discussion on the **Discussion** page.
+  or comment to a different post. The list of posts in the discussion
+  navigation pane includes the title of the post and the username of the
+  participant who created the post. To see the comments or responses on any
+  post, select **View Discussion** below the post to open the discussion on the
+  **Discussion** page.
 
 .. image:: ../../../shared/students/Images/Disc_UserContributions.png
  :width: 800

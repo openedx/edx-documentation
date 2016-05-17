@@ -83,7 +83,7 @@ documentation team, see the
     - ``**bold**``
     - From the **Tools** menu, select **Import**.
 
-      In the left pane, select **Filter messages like this**.
+      In the discussion navigation pane, select **Filter messages like this**.
 
     - For more information about user interface controls in edX products, see
       :ref:`Documenting the User Interface`.

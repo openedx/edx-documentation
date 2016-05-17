@@ -93,8 +93,8 @@ the name of the XML file in the ``chapter`` directory.  For example, the first
 ``a64a6f63f75d430aa71e6ce113c5b4d2``, matches
 ``a64a6f63f75d430aa71e6ce113c5b4d2.xml`` in the ``chapter`` directory.
 
-Learners see the chapters that the ``course.xml`` file defines in the course
-accordion in the learning management system:
+Learners see the chapters that the ``course.xml`` file defines in the LMS on
+the **Course** page in the course navigation pane.
 
 .. Image:: ../Images/courseware-chapters.png
  :alt: Chapters in the learner's courseware.
@@ -126,8 +126,8 @@ the first ``sequential`` element's ``url_name`` attribute,
 ``7d631967807476485aa26ba0c39a992``, matches
 ``7d631967807476485aa26ba0c39a992.xml`` in the ``sequential`` directory.
 
-Learners see the sequentials that the chapter file defines in the left pane of
-the learning management system.
+Learners see the sequentials that the chapter file defines in the LMS on the
+**Course** page in the course navigation pane.
 
 .. Image:: ../Images/courseware-sequentials.png
  :alt: Sequentials in the learner's courseware.
@@ -154,9 +154,9 @@ the ``vertical`` element's ``url_name`` attribute,
 ``e81c7ddcf5434387a2a6163ca973520c``, matches
 ``e81c7ddcf5434387a2a6163ca973520c.xml`` in the ``vertical`` directory.
 
-Learners see the verticals that the sequential file defines in the courseware.
-The following example shows a sequential with one vertical, which
-has one XBlock.
+Learners see the verticals that the sequential file defines in the LMS on the
+**Course** page in the unit navigation bar. The following example shows a
+sequential with one vertical, which has one XBlock.
 
 .. Image:: ../Images/courseware-vertical.png
  :alt: A vertical in the learner's courseware.
@@ -180,8 +180,7 @@ For example, the following vertical contains one problem:
 Each ``vertical`` element contains a child element for each XBlock in the
 vertical.
 
-Learners see the XBlocks that the vertical file defines in the learning
-management system.
+Learners see the XBlocks that the vertical file defines in the LMS.
 
 For each XBlock, the value of the ``url_name`` attribute matches the name of
 the XML file in the XBlock directory.  The XBlock directory name is specific to
@@ -228,8 +227,8 @@ Learners see the problem in the vertical (or unit) page as follows.
 Platform Directories
 ********************
 
-The `Manual Testing`_ course includes platform directories to support non-
-courseware parts of the OLX course. For more information, see :ref:`edX
-Platform Directories`.
+The `Manual Testing`_ course includes platform directories to support
+non-courseware parts of the OLX course. For more information, see
+:ref:`edX Platform Directories`.
 
 .. include:: ../../../links/links.rst

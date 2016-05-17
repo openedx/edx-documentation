@@ -92,8 +92,8 @@ Each post that you follow appears with a "Following" indicator in the list of
 posts.
 
 To list only the posts that you are following, regardless of the discussion
-topic they apply to, select the drop-down Discussion list and select **Posts I'm
-Following**.
+topic they apply to, select the drop-down Discussion list and select **Posts
+I'm Following**.
 
 .. image:: ../../../shared/students/Images/Disc_Following.png
  :width: 300
@@ -118,7 +118,8 @@ select **Mark as Answer**.
  :alt: A question and a response, with the Mark as Answer icon circled.
 
 After at least one response is marked as the answer, a check or tick mark image
-replaces the question mark image for the post in the list of posts.
+replaces the question mark image for the post in the discussion navigation
+pane.
 
 .. image:: ../../../shared/students/Images/Disc_AnsweredInList.png
  :width: 300

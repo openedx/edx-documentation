@@ -2,7 +2,7 @@
 
 
 #########################
-Managing Team Discussions 
+Managing Team Discussions
 #########################
 
 EdX recommends that you designate course staff and optionally student TAs to
@@ -30,9 +30,8 @@ Team members can edit their own posts, reply to posts and comments, follow and
 flag posts, and so on.
 
 Posts made by discussion community TAs are marked as "By: Community TA" in the
-list of posts, and those made by discussion moderators or discussion admins
-are marked as "By: Staff".
-
+discussion navigation pane, and those made by discussion moderators or
+discussion admins are marked as "By: Staff".
 
 ***********************************
 Ability to Edit or Delete Posts

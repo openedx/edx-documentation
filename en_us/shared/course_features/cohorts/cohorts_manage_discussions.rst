@@ -202,16 +202,16 @@ posts.
    privileges in addition to their course team privileges to be able to view
    posts that are divided by cohort.
 
-Above the list of posts on the **Discussion** page, the **in all cohorts**
-filter is selected by default. You see every post when you make this selection,
-as shown in the illustration on the left. To limit the list so that you can
-view the same set of posts as the members of a cohort, select the name
+Above the discussion navigation pane on the **Discussion** page, the **in all
+cohorts** filter is selected by default. You see every post when you make this
+selection, as shown in the illustration on the left. To limit the list so that
+you can view the same set of posts as the members of a cohort, select the name
 of that cohort as shown on the right.
 
 .. image:: ../../../../shared/images/viewing_all_or_cohort.png
- :alt: An image showing the list of posts on the Discussion page, first showing
-  all posts then showing only posts that members of the University Alumni
-  cohort can see.
+ :alt: An image showing the discussion navigation pane on the Discussion page,
+  first showing all posts then showing only posts that members of the
+  University Alumni cohort can see.
  :width: 800
 
 Note that both of these lists include posts that are visible to
