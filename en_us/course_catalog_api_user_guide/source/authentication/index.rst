@@ -99,7 +99,7 @@ Obtain EdX User Account and Sign In
 ===================================
 
 To obtain an edX user account, contact the edX marketing team. The team will
-send you an account username and a temporary password.
+send you an account username and instructions for setting your password.
 
 To sign in to edX and change your password, go to
 https://courses.edx.org/login.
