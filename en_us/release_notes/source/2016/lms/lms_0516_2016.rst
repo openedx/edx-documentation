@@ -29,6 +29,6 @@
 
 * A UTF-8 character encoding error that prevented some course teams from
   downloading the CSV file of certificates issued on the instructor dashboard
-  has been corrected. (CRI-57)
+  has been corrected. (:jira:`CRI-57`)
 
 .. _XSeries Programs Page: https://partners.edx.org/announcements/coming-soon-xseries-programs-page
