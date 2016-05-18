@@ -302,10 +302,10 @@ the following roles.
 * Discussion community TAs have the same options for working with discussions
   as moderators.
 
-  Posts made by community TAs are marked as "By: Community TA"
-  in the list of posts on the **Discussion** page. Responses and comments made
-  by community TAs have a colored "Community TA" identifier. This role is often
-  given to learners.
+  Posts made by community TAs are marked as "By: Community TA" on the
+  **Discussion** page in the discussion navigation pane. Responses and comments
+  made by community TAs have a colored "Community TA" identifier. This role is
+  often given to learners.
 
 * Discussion admins have the same options for working with discussions as
   moderators, and their posts, responses, and comments have the same "Staff"
@@ -464,10 +464,11 @@ discussion.
       work in a web browser. You cannot complete these activities when you work
       in an edX mobile app.
 
-* Pin a post. Pinning a post makes it appear at the top of the list of posts on
-  the **Discussion** page. As a result, it is more likely that learners will
-  see and respond to pinned posts. You can write your own post and then pin it,
-  or pin a post by any author. Select the "More" icon and then **Pin**.
+* Pin a post. Pinning a post makes it appear at the top of the list of posts in
+  the discussion navigation pane on the **Discussion** page. As a result, it is
+  more likely that learners will see and respond to pinned posts. You can write
+  your own post and then pin it, or pin a post by any author. Select the "More"
+  icon and then **Pin**.
 
     .. image:: ../../../shared/images/Pin_Discussion.png
      :alt: Image of the pin icon for discussion posts.
@@ -614,8 +615,9 @@ check or tick mark image replaces the question mark image. For more
 information, see :ref:`Answer Questions`.
 
 In addition to these visual cues, filters can help you find questions and
-discussions that need review. Above the list of posts on the **Discussion**
-page, the **Show all** filter is selected by default. You can also select:
+discussions that need review. In the discussion navigation pane on the
+**Discussion** page, the **Show all** filter is selected by default. You can
+also select:
 
 * **Unread**, to list only the discussions and questions that you have not yet
   viewed.
@@ -696,8 +698,8 @@ flagged in this way and edit or delete them as needed.
 #. View the live version of your course and select **Discussion** at the top of
    the page.
 
-#. In the list of posts on the left side of the page, use the filter drop-down
-   list (set to **Show all** by default) to select **Flagged**.
+#. In the discussion navigation pane at the side of the page, use the filter
+   drop-down list (set to **Show all** by default) to select **Flagged**.
 
 #. Review listed posts. A post is listed if it or any of its responses or
    comments has been reported. The reported contribution includes a

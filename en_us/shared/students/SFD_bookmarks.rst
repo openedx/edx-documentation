@@ -7,9 +7,9 @@ Bookmarking Course Content
 To mark course content so that you can come back to it later, you can bookmark
 any course page, up to a limit of 100 bookmarks for one course.
 
-Your bookmarked pages are flagged in the learning sequence at the top of the
-**Course** page, or you can see a list of all of your bookmarks on the **My
-Bookmarks** page.
+The course material that you bookmark is identified in the unit navigation bar
+on the **Course** page, or you can see a list of all of your bookmarks on the
+**My Bookmarks** page.
 
 .. note:: You can add up to 100 bookmarks in a course.
 
@@ -31,13 +31,13 @@ You can bookmark any page in the course. To bookmark a page, select
  :alt: A course page showing the Bookmark control.
 
 After you add a bookmark, the **Bookmark** control changes color, and an
-indicator for the bookmark appears in the learning sequence at the top of the
+indicator for the bookmark appears in the unit navigation bar at the top of the
 page.
 
 .. image:: ../../shared/students/Images/SFD_Bkmk_PgsBkmkd.png
  :width: 500
  :alt: A course page showing the dark-colored Bookmark control and a bookmark
-     icon in the learning sequence.
+     icon in the unit navigation bar.
 
 To remove a bookmark from a page, select **Bookmark** again.
 
@@ -50,16 +50,16 @@ View Your Bookmarks
 ***************************
 
 As you go through the course, you can see which pages are bookmarked in the
-learning sequence on the **Course** page. You can also see a list of all of
+unit navigation bar on the **Course** page. You can also see a list of all of
 your bookmarks on the **My Bookmarks** page.
 
-To access the **My Bookmarks** page, select **Bookmarks** in the upper left
-corner of the page.
+To access the **My Bookmarks** page, select **Bookmarks** above the course
+navigation pane.
 
 .. image:: ../../shared/students/Images/SFD_Bkmk_BookmarksButton.png
  :width: 600
- :alt: A course page with the "Bookmarks" button in the upper left corner
-     and showing several bookmark icons in the learning sequence
+ :alt: A course page that shows the Bookmarks option above the course
+     navigation pane and units with bookmark icons in the unit navigation bar.
 
 The **My Bookmarks** page lists all of your bookmarks in the course, with the
 most recently created ones at the top. The page includes the location of the

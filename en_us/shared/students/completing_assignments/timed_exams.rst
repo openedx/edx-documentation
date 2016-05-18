@@ -17,7 +17,7 @@ Timed Exam Overview
 Timed exams are sets of problems that you must complete in a limited amount of
 time. The score you receive becomes part of your course progress record.
 
-Timed exams are indicated in the left pane by a clock icon and the
+Timed exams are indicated in the course navigation pane by a clock icon and the
 label **Timed Exam**.
 
 .. image:: ../../../shared/students/Images/timed-exam-icon.png
@@ -25,10 +25,12 @@ label **Timed Exam**.
  :alt: Course navigation in the LMS showing an exam with a clock icon and
      the label "Timed Exam."
 
+.. is it still a clock for a timed exam? or pen and paper? ^^
+
 After you begin taking a timed exam, a timer on the course page displays the
-amount of time that you have left to complete the exam. You cannot pause or
-reset a timed exam. When the time runs out, the course page automatically
-submits your exam.
+amount of time that you have remaining to complete the exam. You cannot pause
+or reset a timed exam. When there is no time remaining, the course page
+automatically submits your exam.
 
 The time limit for an exam applies to all of the units in an exam section. If
 an exam includes problems on multiple unit pages, you must complete the

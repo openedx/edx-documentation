@@ -64,8 +64,7 @@ until they pass the exam.
 
 .. image:: ../../../shared/images/EntEx_LandingPage.png
   :width: 500
-  :alt: The Course Updates & News page with the Entrance Exam tab circled on
-   the left.
+  :alt: The Course Updates & News page with the Entrance Exam tab indicated.
 
 After learners pass the exam, they can access all released materials in your
 course.

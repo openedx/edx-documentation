@@ -87,8 +87,8 @@ your course content.
    learners move the pointer onto an icon.
 
    Learners select icons in the unit navigation bar to access course units.
-   They can also use the left and right arrow buttons at either end of the unit
-   navigation bar to move back to the previous unit or forward to the next
+   They can also use the **Previous** and **Next** options at either end of the
+   unit navigation bar to move back to the previous unit or forward to the next
    unit.
 
 .. _Navigating the Course Outline:

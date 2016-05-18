@@ -18,9 +18,10 @@ course.
 Read New or Updated Posts
 ****************************
 
-The list of posts on the **Discussion** page provides visual cues to help you
-distinguish posts that are new, or that have responses or comments that you
-have not read yet, from exchanges that you have already read completely.
+The list of posts in the discussion navigation pane on the **Discussion** page
+provides visual cues to help you distinguish posts that are new, or that have
+responses or comments that you have not read yet, from exchanges that you have
+already read completely.
 
 ==================
 Sort by Activity
@@ -41,8 +42,8 @@ activity** or **by most activity**. This is the default view when you open the
   yet read the post.
 
 .. image:: ../../../shared/students/Images/Discussion_colorcoding.png
-  :alt: The list of posts with posts showing differently colored backgrounds
-        and callout images.
+  :alt: The discussion navigation pane with posts showing differently colored
+        backgrounds and callout images.
 
 The number in each callout image indicates the total number of contributions in
 the exchange (the post and its responses and comments). To see the number of
@@ -58,9 +59,9 @@ image.
 Sort by Votes
 ==================
 
-You can also sort the list of posts by number of votes. To do this, select the
-sorting list in the upper-right corner of the list of posts, and then select
-**by most votes**.
+You can also sort the posts in by the number of votes received. To do this,
+select the sorting list in the discussion navigation pane, and then select **by
+most votes**.
 
 If you sort by most votes, the number of votes that the post has received
 appears in place of the callouts. For more information, see :ref:`Vote for

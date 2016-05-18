@@ -534,10 +534,10 @@ All proctored exams are timed exams, in which you have a time limit to
 complete the exam. When a proctored exam starts, a countdown timer at the top
 of the edX course page also starts.
 
-The countdown timer provides a warning when 20% of the time is left and again
-when 5% of the time is left. For example, if you have 60 minutes to complete
-the exam, you will see a warning when there are 12 minutes left, and again
-when there are 3 minutes left.
+The countdown timer provides a warning when 20% of the time remains, and again
+when 5% of the time remains. For example, if you have 60 minutes to complete
+the exam, you will see a warning when there are 12 minutes remaining, and again
+when there are 3 minutes remaining.
 
 If time runs out before you have completed the exam, the proctoring review is
 still submitted, and any answers that you have completed up to that time are

@@ -434,7 +434,8 @@ the following options
        the problem or the due date has passed.
    * - **Finished**
      - Show the answer after the learner has answered the problem correctly,
-       the learner has no attempts left, or the problem due date has passed.
+       the learner has no attempts remaining, or the problem due date has
+       passed.
    * - **Correct or Past Due**
      - Show the answer after the learner has answered the problem correctly or
        the problem due date has passed.
