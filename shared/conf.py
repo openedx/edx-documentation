@@ -24,7 +24,16 @@ html_use_smartypants = True
 
 # Add any Sphinx extension module names here, as strings. They can be extensions
 # coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
-extensions = ['sphinx.ext.autodoc', 'sphinx.ext.doctest', 'sphinx.ext.intersphinx', 'sphinx.ext.coverage', 'sphinx.ext.pngmath', 'sphinx.ext.mathjax', 'sphinx.ext.ifconfig']
+extensions = [
+    'sphinx.ext.autodoc',
+    'sphinx.ext.doctest',
+    'sphinx.ext.intersphinx',
+    'sphinx.ext.coverage',
+    'sphinx.ext.pngmath',
+    'sphinx.ext.mathjax',
+    'sphinx.ext.ifconfig',
+    'sphinx.ext.extlinks',
+]
 
 # The suffix of source filenames.
 source_suffix = '.rst'
@@ -110,4 +119,9 @@ intersphinx_mapping = {
     'openreleasenotes' : ('http://edx.readthedocs.org/projects/open-edx-release-notes/en/latest/', None),
     'partnerreleasenotes': ('http://edx.readthedocs.org/projects/edx-release-notes/en/latest/', None),
     '2014releasenotes' : ('http://edx.readthedocs.org/projects/edx-2013-2014-release-notes/en/latest/', None)
+}
+
+extlinks = {
+    # :jira:`TNL-4904` becomes: <a href='https://openedx.atlassian.net/browse/TNL-4904'>TNL-4904</a>
+    'jira': ('https://openedx.atlassian.net/browse/%s', ''),
 }
