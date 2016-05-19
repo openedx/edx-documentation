@@ -18,19 +18,25 @@
 # C1MQH7NLG944:~ peterdesjardins$ ./build-rtd-documents.sh
 
 
-DOC_IDS="edx \
-         edx-partner-course-staff \
-         edx-insights \
-         devdata \
-         edx-guide-for-students \
-         edx-installing-configuring-and-running \
-         open-edx-building-and-running-a-course \
-         open-edx-learner-guide \
-         edx-developer-guide \
-         edx-open-learning-xml \
-         xblock-tutorial \
-         edx-release-notes
-         "
+if [ -z ${1} ]
+then
+   DOC_IDS="edx
+            edx-partner-course-staff
+            edx-insights
+            devdata
+            edx-guide-for-students
+            edx-installing-configuring-and-running
+            open-edx-building-and-running-a-course
+            open-edx-learner-guide
+            edx-developer-guide
+            edx-open-learning-xml
+            xblock-tutorial
+            edx-release-notes
+            course-catalog-api-guide
+            "
+else
+   DOC_IDS=${1}
+fi
          
 # xblock - Removed this project because it is failing local builds
 # edx-platform-api - Removed from list because of its separate repo
