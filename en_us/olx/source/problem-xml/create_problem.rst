@@ -61,7 +61,7 @@ quickly and accurately.
 For more information about metrics for your course's problem components, see
 `Using edX Insights`_.
 
-You set the display name as an attribute of the ``problem`` element.
+With OLX, you set the display name as an attribute of the ``problem`` element.
 
 .. code-block:: xml
 
@@ -83,7 +83,8 @@ problems defaults to that number, and cannot be set to unlimited.
  higher are included on the Learner Answer Distribution report that you can
  download during your course.
 
-You set the maximum attempts as an attribute of the ``problem`` element.
+With OLX, you set the maximum attempts as an attribute of the ``problem``
+element.
 
 .. code-block:: xml
 
@@ -113,8 +114,8 @@ worth one point. Any problem component can have multiple response fields. For
 example, the problem component above contains one dropdown problem that has
 three separate questions, and also has three response fields.
 
-You set a different component weight as an attribute of the ``problem``
-element.
+With OLX, you set a different component weight as an attribute of the
+``problem`` element.
 
 .. code-block:: xml
 
@@ -251,7 +252,8 @@ You can choose the following options for the **Randomization** setting.
        learners see.
 
 
-You set value randomization as an attribute of the ``problem`` element.
+With OLX, you set value randomization as an attribute of the ``problem``
+element.
 
 .. code-block:: xml
 
@@ -323,7 +325,8 @@ This setting has the following options.
 |                   | or in the LMS.                       |
 +-------------------+--------------------------------------+
 
-You set the show answer preference as an attribute of the ``problem`` element.
+With OLX, you set the show answer preference as an attribute of the
+``problem`` element.
 
 .. code-block:: xml
 
@@ -347,8 +350,8 @@ is not visible.
 This problem-level setting overrides the course-level **Show Reset Button for
 Problems** setting.
 
-You set the show reset button preference as an attribute of the ``problem``
-element.
+With OLX, you set the show reset button preference as an attribute of the
+``problem`` element.
 
 .. code-block:: xml
 
