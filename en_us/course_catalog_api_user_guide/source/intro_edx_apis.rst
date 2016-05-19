@@ -14,12 +14,13 @@ return the results you want.
 Accessing the edX Course Catalog API
 ******************************************
 
-The edX Course Catalog API is a set of representational state transfer (REST)
-web services. To access the edX REST web services (and the Course Catalog API),
-you must authenticate as a client. When you authenticate, edX REST web services
-verify your identity as a client and associate your identity with a specific
-edx.org user. For more information about authentication, see :ref:`edX API
-Authentication`.
+The edX Course Catalog API is a representational state transfer (REST) web
+services API that uses JavaScript object notation (JSON) as the primary format
+for return data, or representation. To access the edX REST API (and the Course
+Catalog API), you must authenticate as a client. When you authenticate, the edX
+API verifies your identity as a client and associates your identity with a
+specific edx.org user. For more information about authentication, see
+:ref:`edX API Authentication`.
 
 To authenticate, you need the following items.
 
@@ -30,7 +31,7 @@ To authenticate, you need the following items.
   more information, see :ref:`getting_an_access_token`.
 
 After you have received your credentials and access token, to use the edx
-Course Catalog API, you use your access token to make REST web services
+Course Catalog API, you use your access token to make API
 requests at api.edx.org. For more information, see
 :ref:`using_an_access_token` and :ref:`Course Catalog API`.
 

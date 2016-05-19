@@ -78,7 +78,7 @@
      inkscape:cx="551.61015"
      inkscape:cy="654.8449"
      inkscape:document-units="px"
-     inkscape:current-layer="g4462"
+     inkscape:current-layer="g4808"
      showgrid="false"
      units="in"
      inkscape:window-width="1569"
@@ -205,7 +205,7 @@
            style="font-size:22.5px"
            id="flowPara6137-7-7">Authentication web service</flowPara><flowPara
            style="font-size:22.5px"
-           id="flowPara4217">https://api.edx.org/oath2/v1/access_token</flowPara><flowPara
+           id="flowPara4217">https://api.edx.org/oauth2/v1/access_token</flowPara><flowPara
            id="flowPara4203" /><flowPara
            id="flowPara4189" /></flowRoot>      <g
          id="g4221">
