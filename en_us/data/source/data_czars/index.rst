@@ -17,5 +17,6 @@ information about edX data.
    :maxdepth: 2
 
    data_czar.rst
+   data_security.rst
    credentials.rst
    package.rst
