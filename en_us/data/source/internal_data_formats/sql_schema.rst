@@ -344,7 +344,7 @@ Obsolete columns
   * display_tag_filter_strategy
   * consecutive_days_visit_count
 
-  Only users who were part of the prototype 6.002x course run in the Spring of
+  Only users who were part of the prototype 6.002x course run in Spring
   2012 have any information in these columns. Even for those users, most of
   this information was never collected. Only the columns with values that are
   automatically generated have any values in them, such as the tag-related
@@ -478,10 +478,10 @@ The ``auth_userprofile`` table has the following columns.
      -
 
 
-**History**: ``bio`` and ``profile_image_uploaded_at`` added 22 April 2015.
-``country`` and ``city`` added January 2014. The organization of this table
+**History**: ``bio`` and ``profile_image_uploaded_at`` added 22 Apr 2015.
+``country`` and ``city`` added Jan 2014. The organization of this table
 was different for the learners who signed up for the MITx prototype phase in
-the spring of 2012, than for those who signed up afterwards. The column
+Spring 2012, than for those who signed up afterwards. The column
 descriptions that follow detail the differences in the demographic data
 gathered.
 
@@ -514,7 +514,7 @@ language
   No longer used.
 
   **History**: User's preferred language, asked during the sign up process for
-  the 6.002x prototype course given in the Spring of 2012. Sometimes written
+  the 6.002x prototype course given in Spring 2012. Sometimes written
   in those languages. EdX stopped collecting this data after MITx transitioned
   to edX, but never removed the values for the first group of learners.
 
@@ -524,7 +524,7 @@ location
   No longer used.
 
   **History**: User's location, asked during the sign up process for the
-  6.002x prototype course given in the Spring of 2012. The request was not
+  6.002x prototype course given in Spring 2012. The request was not
   specific, so people tended to put the city they were in, though some just
   supplied a country and some got as specific as their street address. Again,
   sometimes romanized and sometimes written in their native language. Like
@@ -624,7 +624,7 @@ here are found as JSON attributes *inside* a given ``meta`` field, and are
   ``6002x_exit_response``
 
     Answers to a survey that was sent to learners after the prototype 6.002x
-    course in the Spring of 2012. The questions and number of questions were
+    course in Spring 2012. The questions and number of questions were
     randomly selected to measure how much survey length affected response
     rate. Only learners from this course have this field.
 
@@ -635,7 +635,7 @@ courseware
 
   **History**: This column was added for use with an A/B testing feature, but
   it has not been used for anything meaningful since the prototype course
-  concluded in the spring of 2012.
+  concluded in Spring 2012.
 
 --------
 gender
@@ -775,7 +775,7 @@ bio
   Stores one or more paragraphs of biographical information that the learner
   enters as profile information. The maximum number of characters is 3000.
 
-  **History**: Added 22 April 2015.
+  **History**: Added 22 Apr 2015.
 
 
 ------------------------------
@@ -784,7 +784,7 @@ profile_image_uploaded_at
   Stores the date and time when a learner uploaded a profile image to show with
   profile information.
 
-  **History**: Added 22 April 2015.
+  **History**: Added 22 Apr 2015.
 
 
 .. _student_courseenrollment:
@@ -849,9 +849,9 @@ course_id
   browser, the ``course_id`` appears as part of the URL. For example,
   ``http://www.edx.org/courses/course-v1:edX+DemoX+Demo_2014/info``.
 
-  **History**: In October 2014, identifiers for some new courses began to use
+  **History**: In Oct 2014, identifiers for some new courses began to use
   the format shown above. Other new courses, and all courses created prior to
-  October 2014, use the format ``{org}/{course}/{run}``,  for example,
+  Oct 2014, use the format ``{org}/{course}/{run}``,  for example,
   ``MITx/6.002x/2012_Fall``. The URL format for a course with a ``course_id``
   in this format was
   ``https://www.edx.org/courses/MITx/6.002x/2012_Fall/info``.
@@ -955,9 +955,9 @@ course_id
   The course identifier, in the format ``{key type}:{org}+{course}+{run}``. For
   example, ``course-v1:edX+DemoX+Demo_2014``.
 
-  **History**: In October 2014, identifiers for some new courses began to use
+  **History**: In Oct 2014, identifiers for some new courses began to use
   the format shown above. Other new courses, and all courses created prior to
-  October 2014, use the format ``{org}/{course}/{run}``,  for example,
+  Oct 2014, use the format ``{org}/{course}/{run}``,  for example,
   ``MITx/6.002x/2012_Fall``.
 
 ----
@@ -1125,9 +1125,11 @@ Columns in the ``student_languageproficiency`` Table
 ====================================================
 
 The ``student_languageproficiency`` table stores information about learners'
-self-reported language preferences. Learners can select only one value.
+self-reported language preferences. Learners have the option to indicate a
+preferred language on their dashboards. Learners can select only one
+value. For more information, see :ref:`partnercoursestaff:SFD Profile Page`.
 
-**History**: Added 22 April 2015.
+**History**: Added 22 Apr 2015.
 
 +-----------------+-------------+------+-----+---------+----------------+
 | Field           | Type        | Null | Key | Default | Extra          |
@@ -1165,9 +1167,10 @@ code
 Columns in the ``teams_courseteam`` Table
 ==============================================
 
-This table stores information about the teams in a course.
+This table stores information about the teams in a course. For more information
+about the teams feature, see :ref:`partnercoursestaff:Teams Setup`.
 
-**History**: Added September 15 2015
+**History**: Added 15 Sep 2015.
 
 The ``teams_courseteam`` table has the following columns.
 
@@ -1255,9 +1258,9 @@ course_id
   The course identifier, in the format ``{key type}:{org}+{course}+{run}``. For
   example, ``course-v1:edX+DemoX+Demo_2014``.
 
-  **History**: In October 2014, identifiers for some new courses began to use
+  **History**: In Oct 2014, identifiers for some new courses began to use
   the format shown above. Other new courses, and all courses created prior to
-  October 2014, use the format ``{org}/{course}/{run}``,  for example,
+  Oct 2014, use the format ``{org}/{course}/{run}``,  for example,
   ``MITx/6.002x/2012_Fall``.
 
 ---------------------
@@ -1326,9 +1329,11 @@ team_size
 Columns in the ``teams_courseteammembership`` Table
 ===================================================
 
-This table stores information about learners who are members of a team.
+This table stores information about the learners who are members of a team. For
+more information about the teams feature, see :ref:`partnercoursestaff:Teams
+Setup`.
 
-**History**: Added September 15 2015.
+**History**: Added 15 Sep 2015.
 
 The ``teams_courseteammembership`` table has the following columns.
 
@@ -1409,7 +1414,7 @@ Columns in the verify_student_verificationstatus Table
 The ``verify_student_verificationstatus`` table shows learner re-verification
 attempts and outcomes.
 
-**History**: Added 5 August 2015.
+**History**: Added 5 Aug 2015.
 
 A sample of the heading row and a data row in the
 ``verify_student_verificationstatus`` table follow.
@@ -1467,7 +1472,7 @@ checkpoint_location
 --------------------
 
   The point in the course at which the user was prompted to re-verify his or
-  her identity. As of August 2015, course authors can define these checkpoints
+  her identity. As of Aug 2015, course authors can define these checkpoints
   when they create the course. Because these checkpoints typically occur
   before exams, examples of expected values are ``final`` and ``midterm``.
 
@@ -1594,8 +1599,8 @@ module_type
        - Not used.
 
          **History**: This ``module_type`` was included in a single course on a
-         test basis. It was not used after July 2013, and was removed
-         on 16 March 2016.
+         test basis. It was not used after Jul 2013, and was removed
+         on 16 Mar 2016.
 
      * - lti
        - Learning Tools Interoperability component that adds an external
@@ -1701,9 +1706,9 @@ module_id
          module does not have a name, the system generates a hash code as its
          identifier.
 
-**History**: In October 2014, identifiers for modules in some new courses began
+**History**: In Oct 2014, identifiers for modules in some new courses began
 to use the format shown above. Other new courses, and all courses created prior
-to October 2014, use the format ``i4x://{org}/{course}/{module type}/{module
+to Oct 2014, use the format ``i4x://{org}/{course}/{module type}/{module
 name or hash code}``. For example,
 ``i4x://MITx/3.091x/problemset/Sample_Problems``. Note that this format does
 not include course run information, so the
@@ -1836,9 +1841,9 @@ course_id
   used in different courses, a learner's state is tracked separately for each
   course.
 
-  **History**: In October 2014, identifiers for some new courses began to use
+  **History**: In Oct 2014, identifiers for some new courses began to use
   the format shown above. Other new courses, and all courses created prior to
-  October 2014, use the format ``{org}/{course}/{run}``,  for example,
+  Oct 2014, use the format ``{org}/{course}/{run}``,  for example,
   ``MITx/6.002x/2012_Fall``.
 
 .. _Certificates:
