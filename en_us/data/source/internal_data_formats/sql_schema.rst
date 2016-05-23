@@ -633,9 +633,9 @@ courseware
 ------------
   No longer used.
 
-  **History**: At one point, it was part of a way to do A/B tests, but it has
-  not been used for anything meaningful since the conclusion of the prototype
-  course in the spring of 2012.
+  **History**: This column was added for use with an A/B testing feature, but
+  it has not been used for anything meaningful since the prototype course
+  concluded in the spring of 2012.
 
 --------
 gender
@@ -1511,8 +1511,9 @@ a new row is created and the state is set to an empty JSON object.
 Columns in the ``courseware_studentmodule`` Table
 ====================================================================
 
-The ``courseware_studentmodule`` table holds all courseware state for a given
-user.
+For each learner, the ``courseware_studentmodule`` table holds the most current
+course state, including the most recent problem submission and unit visited in
+each subsection.
 
 A sample of the heading row and a data row in the ``courseware_studentmodule``
 table follows.
@@ -1526,8 +1527,8 @@ table follows.
     2013-03-19 17:21:07 2014-01-07 20:18:54 NULL  na  edX/DemoX/Demo_course
 
 The table has a separate row for every piece of content that a learner
-accesses, or that is created to hold state data, making this the largest table
-in the data package.
+accesses, or that is created to hold state data. As a result, this is the
+largest table in the data package.
 
 The ``courseware_studentmodule`` table has the following columns.
 
