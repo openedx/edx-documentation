@@ -8,7 +8,6 @@ EdX Learner's Guide
    :numbered:
    :maxdepth: 2
 
-   front_matter/index
    SFD_introduction
    SFD_account
    sfd_dashboard_profile/index
@@ -16,7 +15,6 @@ EdX Learner's Guide
    SFD_enrolling
    SFD_credit_courses/index
    SFD_content_availability
-   SFD_licensing
    SFD_video_player
    SFD_bookmarks
    SFD_notes
@@ -30,3 +28,6 @@ EdX Learner's Guide
    sfd_discussions/index
    SFD_wiki
    SFD_mathformatting
+   SFD_licensing
+   front_matter/index
+
