@@ -3,8 +3,9 @@ edX Style Guide
 #########################
 
 .. toctree::
+    :numbered:
     :maxdepth: 1
-	
+
     intro.rst
     preferred.rst
     wordlist.rst
