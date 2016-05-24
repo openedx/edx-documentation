@@ -4,8 +4,7 @@
 Exploring Your Dashboard, Settings, and Profile
 ###################################################
 
-This topic describes the edX dashboard, your account settings, and your
-profile.
+This topic describes your dashboard, account settings, and profile.
 
 .. contents::
  :local:
@@ -15,8 +14,8 @@ profile.
 Overview
 **********
 
-After you create an edX account, you can view a list of your current
-courses, change your account settings, or create a profile. You can access
+After you create an edX account, you can view a list of your current courses,
+change your course or account settings, or create a profile. You can access
 course, account, or profile information from any edX page, whether you are in a
 course or browsing the course catalog.
 
@@ -39,31 +38,50 @@ course or browsing the course catalog.
 
 .. _SFD Learner Dashboard:
 
-*********************************
-Exploring the Learner Dashboard
-*********************************
+*************************
+Exploring the Dashboard
+*************************
 
-When you create an edX account or enroll in an edX course, you automatically
-go to your dashboard. You can also access your dashboard at any time by
-selecting your username in the upper right corner of any edX page.
+When you create an edX account or enroll in an edX course, you automatically go
+to your dashboard. You can also access your dashboard at any time by selecting
+your username in the upper right corner of any edX page. You can find
+information about your courses and change course settings on your dashboard.
+For more information, see :ref:`Find or Change Course Information`.
 
-.. image:: ../../../shared/images/SFD_Dashboard.png
- :width: 500
- :alt: The learner dashboard with two current courses and two archived courses
-     listed.
+.. only:: Partners
 
-.. note - The current image is a Photoshopped combination of the old and new
-.. dashboards, so it's not 100% accurate. It's good enough for now, but I plan
-.. to update it when the new dashboard releases.
+  Your dashboard has two pages.
 
-Your dashboard contains important information about your courses. You can take
-several actions on your dashboard.
+  * The **Courses** page lists all the courses you have enrolled in, whether
+    the course is current or has ended. The **Courses** page provides
+    information about your courses and allows you to change course settings. By
+    default, the dashboard opens to the **Courses** page.
+
+  * The **Programs** page lists any programs, such as XSeries programs, that
+    edX offers for courses that you are enrolled in. Programs appear on this
+    page if you are enrolled in any course that is part of that program. For
+    more information, see :ref:`Programs Page`.
+
+.. _Find or Change Course Information:
+
+==================================
+Find or Change Course Information
+==================================
+
+.. only:: Partners
+
+  You can complete the following actions on the **Courses** page on your
+  dashboard.
+
+.. only:: Open_edX
+
+  You can complete the following actions on your dashboard.
 
 * Access your current and archived courses.
 
   To access a current or archived course, select **View Course** or **View
-  Archived Course**. Note that archived courses may provide limited access to
-  content.
+  Archived Course** next to the name of the course. Note that archived courses
+  do not always provide access to all content.
 
 * See when courses start or end.
 
@@ -76,23 +94,81 @@ several actions on your dashboard.
 * Change your course email settings.
 
   #. Select the Options icon for the course, and then select **Course emails**.
+     The Options icon resembles a gear and appears next to **View Course** or
+     **View Archived Course**.
+
+     .. image:: ../../../shared/images/LearnDash_GearIcon.png
+       :width: 125
+       :alt: The Options icon next to the View Course button on the learner
+           dashboard.
+
   #. Select or clear the **Receive course emails** check box, and then select
      **Save Settings**.
 
 * Unenroll from a course.
 
   To unenroll, select the Options icon for the course, select **Unenroll**, and
-  then select **Unenroll** in the confirmation dialog box.
+  then select **Unenroll** in the confirmation dialog box. The Options icon
+  resembles a gear and appears next to **View Course** or **View Archived
+  Course**.
 
 * View your grades in courses that you have completed.
 
   Your final grade appears under the name of the course.
 
-* Download a certificate.
+* Download a course certificate.
 
-  To download a certificate, select **Download Your Certificate (PDF)** or
-  **Download Your ID Verified Certificate (PDF)**. You can then print the PDF
-  certificate.
+  To download a course certificate, select **Download Your Certificate (PDF)**
+  or **Download Your ID Verified Certificate (PDF)**. You can then print the
+  PDF certificate.
+
+.. only:: Partners
+
+  * Find out whether your ID verification is still active.
+
+    If you have enrolled in the verified certificate track for a course, your
+    ID verification status appears with the course image for that course. For
+    more information, see :ref:`learners:SFD Verify Your Identity`.
+
+
+
+  .. _Programs Page:
+
+  =======================
+  Explore edX Programs
+  =======================
+
+  The **Programs** page lists all of your programs. You see a program on this
+  page if you are enrolled in any courses that are part of that program.
+
+  EdX currently offers XSeries programs, which are groups of two to ten courses
+  that explore a specific subject in depth. You can earn a certificate for the
+  XSeries program and for the individual courses in the program. For more
+  information about XSeries programs, see `XSeries Programs`_.
+
+  On the **Programs** page, you can perform the following actions.
+
+  * Access information about a program and enroll in more of the program's
+    courses.
+
+    To access information about a program, select that program. A page opens
+    that provides more information about the program, as well as links to
+    enroll in courses in that program.
+
+  * View your progress through the program.
+
+    Under the name of the program are two indications of your progress through
+    the program. First, a message specifies the number of courses for which you
+    have earned course certificates in the program. Second, a colored bar
+    indicates the number of program courses that you have enrolled in and
+    completed.
+
+  * Access any program certificates you have earned.
+
+    In the right pane, a **Program Certificates** list shows the names of
+    programs for which you have earned certificates. For more information about
+    the program, or to view the certificate, select the name of the program.
+
 
 .. _SFD Account Settings:
 
@@ -343,3 +419,4 @@ username on the **Active Threads** page, and the learner's profile page.
       that learner's active threads page in the course discussions, and an
       image of the learner's profile
 
+.. include:: ../../../links/links.rst
