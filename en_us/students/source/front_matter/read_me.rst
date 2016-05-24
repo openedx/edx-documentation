@@ -2,7 +2,7 @@
 Read Me
 *******
 
-The *EdX Guide for Students* is created using RST_ files and Sphinx_. You, the
+The *EdX Learner's Guide* is created using RST_ files and Sphinx_. You, the
 user community, can help update and revise this documentation project on
 GitHub::
 
