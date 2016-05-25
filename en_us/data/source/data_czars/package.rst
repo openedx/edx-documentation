@@ -96,9 +96,9 @@ For information about accessing Amazon S3, see :ref:`Access Amazon S3`.
 
 .. _Download Data Packages from Amazon S3:
 
-****************************************************************
+***************************************
 Download Data Packages from Amazon S3
-****************************************************************
+***************************************
 
 You download the files in your data package from the Amazon S3 storage
 service.
@@ -162,7 +162,8 @@ Extracted Contents of ``{org}-{site}-events-{date}.log.gz.gpg``
 
 The ``{org}-{site}-events-{date}.log.gz.gpg`` file contains all event data for
 courses on a single edX site for one 24-hour period. After you download a
-``{org}-{site}-events-{date}.log.gz.gpg`` file for your institution, you:
+``{org}-{site}-events-{date}.log.gz.gpg`` file for your institution, you
+complete these steps.
 
 #. Use your private key to decrypt the file. See :ref:`Decrypt an Encrypted
    File`.
@@ -178,7 +179,7 @@ Extracted Contents of ``{org}-{date}.zip``
 ============================================
 
 After you download the ``{org}-{date}.zip`` file for your
-institution, you:
+institution, you complete these steps.
 
 #. Extract the contents of the file. When you extract (or unzip) this file, all
    of the files that it contains are placed in the same directory. All of the
@@ -208,9 +209,9 @@ Demographic data provided by users during site registration. See
 :ref:`auth_userprofile`.
 
 ``{org}-{course}-{run}-certificates_generatedcertificate-{site}-analytics.sql``
-*********************************************************************************
+*******************************************************************************
 
-The final grade and certificate status for students (populated after course
+The final grade and certificate status for learners (populated after course
 completion). See :ref:`certificates_generatedcertificate`.
 
 ``{org}-{course}-{run}-course_structure-{site}-analytics.json``
@@ -225,27 +226,45 @@ on the site. For more information, see :ref:`course_structure`.
 ``{org}-{course}-{run}-courseware_studentmodule-{site}-analytics.sql``
 ***********************************************************************
 
-The courseware state for each student, with a separate row for each item in
-the course content that the student accesses. No file is produced for courses
+The courseware state for each learner, with a separate row for each item in
+the course content that the learner accesses. No file is produced for courses
 that do not have any records in this table (for example, recently created
 courses). See :ref:`courseware_studentmodule`.
 
 ``{org}-email_opt_in-{site}-analytics.csv``
 ***********************************************
 
-This file reports the email preference selected by students who are enrolled
+This file reports the email preference selected by learners who are enrolled
 in any of your institution's courses. See :ref:`Institution_Data`.
 
 ``{org}-{course}-{run}-student_courseenrollment-{site}-analytics.sql``
 ************************************************************************
 
-The enrollment status and type of enrollment selected by each student in the
+The enrollment status and type of enrollment selected by each learner in the
 course. See :ref:`student_courseenrollment`.
+
+``{org}-{course}-{run}-student_languageproficiency-{site}-analytics.sql``
+**************************************************************************
+
+Indicates each learner's self-reported language preference. See
+:ref:`student_languageproficiency`.
+
+``{org}-{course}-{run}-teams_courseteam-{site}-analytics.sql``
+************************************************************************
+
+Identifies the teams of learners established in a course that uses the teams
+feature. See :ref:`teams_courseteam`.
+
+``{org}-{course}-{run}-teams_courseteammembership-{site}-analytics.sql``
+************************************************************************
+
+In a course that uses the teams feature, this table indicates the learners who
+are members of each team. See :ref:`teams_courseteammembership`.
 
 ``{org}-{course}-{run}-user_api_usercoursetag-{site}-analytics.sql``
 **********************************************************************
 
-Metadata that describes different types of student participation in the
+Metadata that describes different types of learner participation in the
 course. See :ref:`user_api_usercoursetag`.
 
 ``{org}-{course}-{run}-user_id_map-{site}-analytics.sql``
