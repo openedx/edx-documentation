@@ -29,6 +29,5 @@ EdX Learner's Guide
    SFD_wiki
    SFD_licensing
    SFD_mathformatting
-   SFD_licensing
    front_matter/index
 
