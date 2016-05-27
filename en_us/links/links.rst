@@ -74,6 +74,8 @@
 
 .. _GitHub: http://github.com
 
+.. _edx-documentation/shared: https://github.com/edx/edx-documentation/blob/master/shared/conf.py
+
 .. _edx-analytics-configuration: https://github.com/edx/edx-analytics-configuration
 
 .. _edx-documentation: https://github.com/edx/edx-documentation
@@ -234,7 +236,7 @@
 .. _Creative Commons website: http://creativecommons.org/licenses
 .. _Google Fonts: https://www.google.com/fonts#UsePlace:use/Collection:Open+Sans
 .. _Time and Date Time Zone Converter: http://www.timeanddate.com/worldclock/converter.html
-
+.. _Cross-referencing arbitrary locations: http://www.sphinx-doc.org/en/stable/markup/inline.html#cross-referencing-arbitrary-locations
 .. _Time Zone Converter: http://www.timezoneconverter.com/cgi-bin/tzc.tzc
 
 .. _Google Calendar website: https://www.google.com/calendar
