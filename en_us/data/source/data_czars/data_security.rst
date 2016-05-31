@@ -103,9 +103,9 @@ How Should Learner Data Be Stored?
   * Passphrases should be at least 16 characters long, using any type of
     characters, but avoiding common phrases.
 
-* Secure, locking screensavers that activate after a short period of inactivity
-  (five minutes at most) should be required of all member researchers and other
-  staff who access the learner data.
+* Secure, locking screen savers that activate after a short period of
+  inactivity (five minutes at most) should be required of all member
+  researchers and other staff who access the learner data.
 
 * Learner data should be stored in a physically secure location (that is, in an
   office with a locked door, to which only staff with approval have access).
@@ -138,8 +138,8 @@ student performance and how students learn. EdX is also interested in hearing
 about other potential areas of research.
 
 Permissible uses of learner data are subject to your membership agreement with
-edX, the edX `privacy policy`_, and the edX best practices for learner
-communications, (each as updated from time to time), and all applicable
+edX, the edX `privacy policy`_, and the edX `best practices for communicating
+with learners`_, (each as updated from time to time), and all applicable
 privacy and data security laws.
 
 * Use of learner data in academic research should be reviewed by your
@@ -175,3 +175,4 @@ privacy and data security laws.
   or others.
 
 .. _privacy policy: https://www.edx.org/edx-privacy-policy
+.. _best practices for communicating with learners: https://partners.edx.org/running-your-course/communicating-with-learners
