@@ -163,7 +163,7 @@ partner and site configuration with the specified options.
     .. code-block:: bash
 
       $ sudo su ecommerce
-      $ python manage.py create_or_update_site --site-id=1 --site-domain=127.0.0.1:8002 --partner-code=edX --partner-name='Open edX' --lms-url-root=http://127.0.0.1:8000 --theme-scss-path=sass/themes/edx.scss --payment-processors=cybersource,paypal --client-id=[change to OIDC client ID] --client-secret=[change to OIDC client secret]
+      $ python manage.py create_or_update_site --site-id=1 --site-domain=localhost:8002 --partner-code=edX --partner-name='Open edX' --lms-url-root=localhost:8000 --theme-scss-path=sass/themes/edx.scss --payment-processors=cybersource,paypal --client-id=[change to OIDC client ID] --client-secret=[change to OIDC client secret]
 
 .. _Add Another Site Partner and Site Configuration:
 
