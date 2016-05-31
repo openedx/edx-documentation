@@ -14,6 +14,7 @@ Open edX Developer's Guide
    extending_platform/index
    modulestores/index
    pavelib.rst
+   environment/index
    public_sandboxes.rst
    analytics.rst
    deploy-new-service
