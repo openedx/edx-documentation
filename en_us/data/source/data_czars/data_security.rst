@@ -16,11 +16,11 @@ periodically update these guidelines to reflect changes in best practices.
   :local:
   :depth: 1
 
-**************************
-Who Should Be Data Czar?
-**************************
+****************************
+Who Should Be the Data Czar?
+****************************
 
-The data czar should be a person on staff who is able to fulfill these
+The data czar should be a person on staff who is able to fulfill the following
 responsibilities.
 
 * Prepared to serve as the single point of contact and accountability for
@@ -29,8 +29,8 @@ responsibilities.
 * Responsible for managing the set of credentials used to decrypt learner data
   from edX.
 
-* Knowledgeable about both technical and policy related security issues related
-  to handling learner data.
+* Knowledgeable about both technical and policy oriented security issues
+  related to handling learner data.
 
 For example, some member institutions name an academic professional or director
 level researcher with security expertise, and others use their chief technical
@@ -43,9 +43,9 @@ see :ref:`Skills_Experience_Data_Czar`.
 How Should Credentials Be Managed?
 **********************************
 
-As a rule, data czars should not share the single set of credentials issued by
-edX for decrypting learner data. However, edX recognizes that a data czar may
-need to be supported or replaced by a colleague or other responsible staff
+As a rule, data czars should not share the single set of credentials issued
+by edX for decrypting learner data. However, edX recognizes that a data czar
+may need to be supported or replaced by a colleague or other responsible staff
 person on a limited and case-specific basis. Example situations in which such
 support or replacement might be needed follow.
 
@@ -61,7 +61,7 @@ following information.
 
 * The name of the person to add.
 
-* The purpose being served.
+* The reason for the request.
 
 * The expected length of time for which modified access is needed.
 
@@ -74,27 +74,30 @@ EdX handles such requests on a case-by-case basis.
 How Should Learner Data Be Stored?
 **********************************
 
-* Learner data should be stored and transferred using an Open-PGP compatible
-  encryption tool (for example, https://www.gnupg.org/download/) on all
-  applicable devices.
+EdX recommends the following procedures for storing learner data.
 
-* Learner data should only be stored on devices that employ full disk
-  encryption: FileVault on Mac®, BitLocker on Windows®, and Linux unified key
-  setup (LUKS) or similar on Linux® operating systems.
+* Store and transfer learner data using an Open-PGP compatible encryption tool
+  (for example, https://www.gnupg.org/download/) on all applicable devices.
 
-* Learner data should not be transferred to devices, accounts, or services that
-  are not owned by the member institution or where a service provider or other
-  third party may access the data or acquire any rights to use it.
+* Store learner data only on devices that employ full disk encryption:
+  FileVault on Mac®, BitLocker on Windows®, and Linux unified key setup (LUKS)
+  or similar on Linux® operating systems.
 
-* Learner data stored on a network accessible device must be protected by a
-  hardware firewall to limit network connections to authorized hosts.
+* Transfer learner data only to devices, accounts, or services that are owned
+  by the member institution. Do not transfer learner data to any device,
+  account, or service where a service provider or other third party can access
+  the data or acquire any rights to use it.
 
-* Operating system and application security updates should be applied to any
-  network connected device within 48 hours of release.
+* Protect learner data that is stored on a network accessible device with a
+  hardware firewall to ensure that only authorized hosts can create network
+  connections.
 
-* Users who access the learner data should use individual (not shared) user
-  accounts in accordance with organizational password or passphrase policies.
-  If no policy exists, edX offers these guidelines.
+* Apply operating system and application security updates to any network
+  connected device within 48 hours of release.
+
+* Individual (not shared) user accounts must be used to access the learner
+  data, in accordance with organizational password or passphrase policies. If
+  no policy exists, edX offers these guidelines.
 
   * Passwords should be at least 12 characters long and require three of the
     four following types of characters: uppercase, lowercase, numbers, special
@@ -103,24 +106,24 @@ How Should Learner Data Be Stored?
   * Passphrases should be at least 16 characters long, using any type of
     characters, but avoiding common phrases.
 
-* Secure, locking screen savers that activate after a short period of
-  inactivity (five minutes at most) should be required of all member
-  researchers and other staff who access the learner data.
+* Require all member researchers and other staff who access the learner data to
+  use secure, locking screen savers that activate after a short period of
+  inactivity (five minutes at most).
 
-* Learner data should be stored in a physically secure location (that is, in an
-  office with a locked door, to which only staff with approval have access).
+* Store learner data in a physically secure location (that is, in an office
+  with a locked door, to which only staff with approval have access).
 
-* There should be a documented practice known by the data czar (and all of the
-  member institution's researchers and other staff who access the learner data)
-  to ensure that any possible security incident that might put the learner data
-  at risk is reported to edX within twenty four (24) hours.
+* Document a practice, known by the data czar and all of the member
+  institution's researchers and other staff who access the learner data, to
+  ensure that any possible security incident that might put the learner data at
+  risk is reported to edX within twenty-four (24) hours.
 
-* There should be a documented practice known and implemented by the data czar
-  to terminate access to learner data by staff who cease to be affiliated with
-  the member institution.
+* Document a practice, known and implemented by the data czar, to terminate
+  access to learner data by staff who cease to be affiliated with the member
+  institution.
 
-* A periodic review of systems should be conducted to ensure compliance with
-  these guidelines.
+* Conduct a periodic review of systems to ensure compliance with these
+  guidelines.
 
 Third parties that are engaged to support a permissible use of learner data
 must be contractually bound to such use in accordance with security measures
@@ -153,7 +156,7 @@ privacy and data security laws.
 
 * Researchers should not re-identify or attempt to re-identify any
   de-identified learner data, including by combining them with other data sets,
-  without written permission from the institution data czar who should consult
+  without written permission from the institution data czar, who should consult
   with edX for guidance as needed.
 
 * Academic researchers should not contact any individuals whose information may
