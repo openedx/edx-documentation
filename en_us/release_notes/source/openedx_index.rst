@@ -11,6 +11,12 @@ The following information summarizes what is new in Open edX.
   :depth: 1
 
 *************************
+Week of 30 May 2016
+*************************
+
+.. include:: 2016/openedx/openedx_0530_2016.rst
+
+*************************
 Week of 23 May 2016
 *************************
 
