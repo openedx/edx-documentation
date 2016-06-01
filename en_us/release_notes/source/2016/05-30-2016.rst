@@ -1,6 +1,6 @@
-####################
-Week of 30 May 2016
-####################
+################################################
+Week of 30 May 2016 (Status: Not Yet Released)
+################################################
 
 The following information summarizes what is new in the edX platform this week.
 
