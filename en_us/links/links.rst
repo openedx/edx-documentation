@@ -156,6 +156,11 @@
 
 .. _Open edX Native Installation: https://openedx.atlassian.net/wiki/x/bgCXAw
 
+.. _ux.edx.org: http://ux.edx.org/
+
+.. _ui-toolkit.edx.org: http://ui-toolkit.edx.org/
+
+.. _edx-ui-toolkit GitHub repository: https://github.com/edx/edx-ui-toolkit
 
 .. EDX VMs
 

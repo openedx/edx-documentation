@@ -10,11 +10,12 @@ Open edX Developer's Guide
 
    front_matter/index
    process/index
-   testing/index
    extending_platform/index
    modulestores/index
+   testing/index
    pavelib.rst
    public_sandboxes.rst
+   user_interface_development
    analytics.rst
    deploy-new-service
    conventions/index
