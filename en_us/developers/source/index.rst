@@ -14,6 +14,7 @@ Open edX Developer's Guide
    modulestores/index
    testing/index
    pavelib.rst
+   environment/index
    public_sandboxes.rst
    user_interface_development
    analytics.rst
