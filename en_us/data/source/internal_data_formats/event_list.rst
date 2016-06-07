@@ -240,6 +240,10 @@ D, E, F
      - :ref:`student_teams_events`
    * - ``edx.team.searched``
      - :ref:`student_teams_events`
+   * - ``edx.ui.lms.link_clicked``
+     - :ref:`navigational`
+   * - ``edx.ui.lms.outline.selected``
+     - :ref:`navigational`
    * - ``edx.ui.lms.sequence.next_selected``
      - :ref:`navigational`
    * - ``edx.ui.lms.sequence.previous_selected``
