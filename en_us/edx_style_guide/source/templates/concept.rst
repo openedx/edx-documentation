@@ -32,7 +32,8 @@ It can also include the following additional structured information.
 * Two or more subsections, marked by subheadings.
 * A list of related topics.
 
-For more information, see the :ref:`Concept Template`.
+For more information, see  :ref:`Concept Template` or its source
+``concept_template.rst`` file.
 
 ******************************
 Example Concept Topics
