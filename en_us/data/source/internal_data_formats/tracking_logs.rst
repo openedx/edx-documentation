@@ -623,7 +623,7 @@ This section includes descriptions of the following events.
   :depth: 1
 
 
-edx.ui.lms.link_clicked
+``edx.ui.lms.link_clicked``
 ****************************
 
 The browser emits this event when a user selects any hypertext link from the
@@ -678,8 +678,8 @@ when a user selects any hypertext link from the course content.
  }
 
 
-edx.ui.lms.outline.selected
-****************************
+``edx.ui.lms.outline.selected``
+********************************
 
 The browser emits this event when a user selects a subsection in the course
 navigation pane in the LMS to open a new page. Selecting a section in the course navigation pane does not emit an event.
@@ -713,7 +713,7 @@ fields, see :ref:`common`.
 
    * - ``target_name``
      - string
-     - The display name of the subsection that the user is navigating to, 
+     - The display name of the subsection that the user is navigating to,
        on the page identified by ``target_url``.
 
    * - ``target_url``
