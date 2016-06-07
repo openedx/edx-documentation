@@ -59,10 +59,7 @@ docs@edx.org.
 Supplying Information with a Pull Request
 ============================================
 
-The edX documentation team created a `template`_ for pull request descriptions
-that you are encouraged to use. You can find it on the team wiki.
-
-.. _template: https://openedx.atlassian.net/wiki/display/DOC/Doc+Team+Pull+Request+Template
+The edX documentation team created a template that is automatically added to pull requests. You are strongly encouraged to use this template.
 
 ======================
 Testing a Contribution
