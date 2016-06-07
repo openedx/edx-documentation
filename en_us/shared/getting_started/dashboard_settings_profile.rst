@@ -105,6 +105,10 @@ Find or Change Course Information
   #. Select or clear the **Receive course emails** check box, and then select
      **Save Settings**.
 
+     .. note:: If you clear this check box, you will not receive any of the
+        email messages that course teams send to communicate with enrolled
+        learners in the course.
+
 * Unenroll from a course.
 
   To unenroll, select the Options icon for the course, select **Unenroll**, and

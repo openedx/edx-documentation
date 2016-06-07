@@ -7,15 +7,21 @@ Bulk Email
 For courses on edx.org, you can send bulk email messages to course
 participants directly from the instructor dashboard. Messages can use HTML
 styling, and can include links to videos, social media pages for the course,
-and other material. All course contributors who are assigned the Staff or
-Admin role can use bulk emails to communicate with course participants before,
+and other material. All course team members who have the Staff or Admin role
+can use bulk email messages to communicate with course participants before,
 during, and after the course run.
 
-.. note::   Some courses use third party services such as MailChimp to send
-   bulk email. Do not use both a third party service as well as the edX bulk
-   email service. If you use more than one service to send email message, your
-   messages are more likely to be be marked as spam, and learners might not
-   see them.
+Learners are less likely to read and respond to email messages from courses
+when they receive too many of them. As a best practice, do not send more than
+one email message per week to course participants, unless there is good reason
+to do so.
+
+.. note:: Some courses use third party services such as MailChimp to send bulk
+   email. Do not use both a third party service and the edX bulk email
+   service. If you use more than one service to send email message, your
+   messages are more likely to be marked as spam, and learners might not read
+   them.
+
 
 This section contains the following topics.
 
@@ -29,40 +35,104 @@ Message Addressing
 
 When you send a bulk email message from the instructor dashboard, you choose
 its recipients by selecting a **Send to** option. You can select one or more
-recipient groups for each message.
+recipient groups for each message. For details about who is included in each
+of the preset recipient groups, see :ref:`Bulk Email Who Is Included or
+Excluded`.
 
-When you send a bulk email message to more than one recipient group, duplicate
-recipients are filtered out, so that someone who belongs to more than one of
-the recipient groups (for example, a course team member who is also enrolled
-in the course) only receives one copy of the message.
+When you send a message to more than one recipient group, duplicate recipients
+are filtered out, so that someone who belongs to more than one of the
+recipient groups (for example, a course team member who is also enrolled in
+the course) only receives one copy of the message.
 
-* **Myself**, to test out a message before sending it to a larger group.
+The following preset recipient groups are available.
 
-* **Staff and Administrators**, to send a message to members of the course
-  team who have staff and admin privileges. For information about course
+* **Myself**. Send an email message only to yourself, to test and review the
+  message before sending it to a larger group.
+
+* **Staff and Administrators**. Send an email message to members of the course
+  team who have Staff or Admin privileges. For information about course
   team member privileges, see :ref:`Course_Staffing`.
 
-* **All Learners**, to send a message to all currently enrolled learners. This
-  recipient group also includes members of the course team if they are
-  enrolled in the course.
+* **All Learners**. Send an email message to all currently enrolled learners,
+  including course team members who are enrolled in the course. This group
+  does not include learners who have not activated their accounts, or who
+  have opted out of receiving email communications.
 
-  Email messages are sent to all enrolled learners, with these exceptions.
+In addition, if you have cohorts enabled in your course, each cohort is
+available as a separate recipient group. For more information, see :ref:`Bulk
+Email Cohorts`.
 
-  * Learners who have not replied to the account activation email message
-    that is sent when they registered on edx.org.
 
-  * Learners who have opted out of receiving email messages through the **Email
-    Settings** link, which is present for each course on the **Current
-    Courses** dashboard.
+.. _Bulk Email Who Is Included or Excluded:
 
-To send an email message to all course team members as well as all learners,
-select both **Staff and Administrators** and **All Learners**. Recipients who
-are in both groups will receive only one copy of the email message.
+=========================================
+Who Is Included in Each Recipient Group?
+=========================================
 
-.. Important:: You cannot cancel bulk email messages after you send them.
-   Before you send a message to a wide audience, review your draft carefully.
-   You can send the message only to yourself to make sure it displays as you
-   intend it to, and that any links or media function correctly.
+When you send a bulk email message to one of the preset recipient groups, you
+should be aware of who is included in each group.
+
+
+.. list-table::
+   :widths: 30 40 40
+   :header-rows: 1
+
+   * - Recipient Group
+     - Includes
+     - Does Not Include
+   * - Staff and Administrators
+     - * Any course team member who has the **Staff** role.
+       * Any course team member who has the **Admin** role.
+     - * Beta testers who do not also have the **Staff** or **Admin** role.
+       * Discussion moderators who do not also have the **Staff** or **Admin** role.
+       * Discussion administrators who do not also have the **Staff** or **Admin**
+         role.
+       * Discussion community TAs.
+   * - All Learners
+     - * All currently enrolled learners in your course, including those who
+         have enrolled but have not yet accessed the course.
+       * Course team members who are enrolled in your course.
+     - * Learners who have not replied to the account activation email message
+         that they received when they registered on edx.org.
+       * Learners who have opted out of receiving email messages through the
+         **Email Settings** link for the course on the learner's dashboard.
+
+.. note:: To send an email message to all course team members as well as all
+   learners, select both **Staff and Administrators** and **All Learners**.
+   Recipients who are in both groups will receive only one copy of the email
+   message.
+
+
+.. _Bulk Email Cohorts:
+
+===================================================
+Sending Email Messages to Learners in Cohorts
+===================================================
+
+If you enable cohorts in your course, each cohort is available as a separate
+recipient group. The recipient groups for individual cohorts only include
+enrolled learners who have been assigned to a cohort, whether they were
+automatically assigned when they accessed the course or manually assigned to a
+cohort by a member of the course team.
+
+The recipient groups for cohorts do not include enrolled learners who have not
+been added to a cohort. This might be the case if they have not accessed the
+course or have not been manually added to a cohort by a member of the course
+team. To make sure such learners are included in email messages that are
+intended for all enrolled learners, select the **All Learners** recipient
+group instead of selecting all of the cohort recipient groups.
+
+If a default cohort exists in your course, a recipient group named **Cohort:
+Default Group** is also available.
+
+.. note:: The default cohort is created only if you have not created at least
+   one automated assignment cohort in your course by the time the first
+   learner accesses course content. If learners access the course before you
+   have created any automated cohorts, they are automatically placed in the
+   default cohort, to ensure that all learners in the course belong to a
+   cohort. You can manually reassign learners from the default cohort to
+   another cohort. For more information, see :ref:`Default Cohort Group`.
+
 
 .. _Options for Email Message Text:
 
@@ -120,43 +190,38 @@ For more information, see :ref:`Use Keywords in Messages`.
 Send an Email Message to Course Participants
 **************************************************
 
+.. Important:: You cannot cancel bulk email messages after you send them.
+
+   Before you send a message to a wide audience, send the message only to
+   yourself to test and review it. Make sure it displays as you intend it to,
+   and that any links or media function correctly.
+
 To send an email message to course participants, follow these steps.
 
 #. View the live version of your course.
 
 #. Select **Instructor**, and then select **Email**.
 
-#. Select email recipients from the **Send to** option. If applicable, select
-   more than one option.
+#. From the **Send to** option, select one or more groups of email recipients.
 
-  * **Myself**
-  * **Staff and Administrators**
-  * **All Learners**
+   .. note:: Make sure you understand who is included or excluded when you
+      send a message to one, or a combination, of the recipient groups. For
+      details, see :ref:`Bulk Email Who Is Included or Excluded`
 
+#. In the **Subject** field, enter a subject for the message.
 
-4. Enter a **Subject** for the message. A subject is required.
+#. In the **Message** box, enter the text for the message.
 
-
-   .. note:: Errors in bulk email messages can be very visible. As a best
-      practice, before sending your message to a wider audience, be sure to
-      send the message only to yourself first, for review and testing.
-
-#. Enter a **Subject** for the message. A subject is required.
-
-#. Enter the text for the message. Message text is required.
-
-   For more information about options for composing your message, see
+   For details about options for composing your message, see
    :ref:`Options for Email Message Text`.
 
-#. Select **Send Email**. You can perform other tasks on the instructor
-   dashboard or navigate to other pages while you wait for your message to be
-   sent.
+#. Select **Send Email**. A bulk email task is queued for processing.
 
-After you send a message, a bulk email task is queued for processing. Multiple
-courses use the same queue to complete these tasks, so it can take some time
-for your message to be sent to all of its recipients. Consider limiting the
-number of messages that you send to all course participants to no more than
-one per week.
+Multiple courses use the same queue to complete these tasks, so it can take
+some time for your message to be sent to all of its recipients. You can
+perform other tasks on the instructor dashboard or navigate to other pages
+while you wait for your message to be sent.
+
 
 .. _Use Keywords in Messages:
 
