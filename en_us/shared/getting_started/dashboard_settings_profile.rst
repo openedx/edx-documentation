@@ -21,7 +21,7 @@ course or browsing the course catalog.
 
 * Your :ref:`dashboard<SFD Learner Dashboard>` gives you access to course
   information, such as start and end dates, email settings, and certificates.
-  To access your dashboard, select your usernameon on any edX page.
+  To access your dashboard, select your username on on any edX page.
 
 * On your :ref:`profile page<SFD Profile Page>`, you can create a profile that
   includes an image and biographical information. To access your profile,
@@ -29,11 +29,13 @@ course or browsing the course catalog.
   **Profile**.
 
 * The :ref:`Account Settings<SFD Account Settings>` page allows you to change
-  settings such as your email address, education level, and country or region,
-  and to link your edX account to a social media or organization account. You
-  can also view a summary of any purchases you have made. To access the
-  **Account Settings** page, select the arrow next to your username on any edX
+  settings such as your email address, education level, country or region, and
+  to set the :ref:`time zone<Time Zones>` that you want course dates to display
+  in. You can link your edX account to a social media or organization account,
+  and view a summary of any purchases you have made. To access your account
+  settings at any time, select the arrow next to your username on any edX
   page, and then select **Account**.
+
 
 .. _SFD Learner Dashboard:
 
@@ -172,7 +174,6 @@ Find or Change Course Information
     In the right pane, a **Program Certificates** list shows the names of
     programs for which you have earned certificates. For more information about
     the program, or to view the certificate, select the name of the program.
-
 
 .. _SFD Profile Page:
 
@@ -321,21 +322,24 @@ username on the **Active Threads** page, and the learner's profile page.
       that learner's active threads page in the course discussions, and an
       image of the learner's profile
 
+
 .. _SFD Account Settings:
 
 ****************************************
 Exploring the Account Settings Page
 ****************************************
 
-Your **Account Settings** page has three tabs.
+Your Account Settings page has three tabs.
 
-* The **Account Settings** tab includes basic, required information, such as
-  your username, as well as optional information, such as the level of
-  education you have completed.
-* The **Linked Accounts** tab lists social media and other accounts that you
-  can connect to your edX account.
-* The **Order History** tab lists information about payments you have made,
-  such as the fee for a verified certificate.
+* The **Account Settings** tab includes basic, required information, such as your
+  username, as well as optional information, such as the level of education
+  you have completed.
+
+* The **Linked Accounts** tab lists social media and other accounts that you can
+  connect to your edX account.
+
+* The **Order History** tab lists information about payments you have made, such
+  as the fee for a verified certificate.
 
 You can view this information at any time. You can also add or change some of
 this information.
@@ -368,6 +372,11 @@ is required for every account on edX.
 
 * **Country or Region**: The country or region that you live in.
 
+* **Time Zone**: Your local time zone. If specified, course due dates and
+  times are displayed using this time zone. If you do not specify a time
+  zone, course dates and times are displayed in Coordinated Universal Time
+  (UTC).
+
 To view or change this information, follow these steps.
 
 .. note:: You cannot change your edX username.
@@ -393,7 +402,6 @@ information.
 
 * **Education Completed**: The highest level of education that you have
   completed.
-
 * **Gender**: The gender you identify as.
 
 * **Year of Birth**: The year that you were born.
@@ -412,7 +420,6 @@ To view or change this information, follow these steps.
 
 EdX saves your changes automatically.
 
-.. _Link Accounts:
 
 ==========================================
 Link or Unlink a Social Media Account
@@ -427,13 +434,14 @@ To link your edX account with another account, follow these steps.
 #. On any edX page, select the arrow next to your username, and then select
    **Account**.
 
-#. On the **Account Settings** page, select the **Linked Accounts** tab.
+#. On the **Account Settings** page, select **Linked Accounts**.
 
-#. Under **Linked Accounts**, select **Link Your Account** under the name of
-   the account that you want to link to your edX account.
+#. On the **Linked Accounts** page, select **Link Your Account** under the
+   name of the account that you want to link to your edX account.
 
-   If you want to unlink your edX account from another social media account,
-   select **Unlink This Account** under that account name.
+   To unlink your edX account from a social media account, select **Unlink This
+   Account** under that account name.
+
 
 .. _View Order History:
 

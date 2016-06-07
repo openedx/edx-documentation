@@ -69,15 +69,16 @@ more information about subsection visibility settings, see :ref:`Hide a
 Subsection from Students`.
 
 
-.. note:: Release dates and times that you set in Studio are in Coordinated
-   Universal Time (UTC). You might want to verify that you have specified the
-   time that you intend by using a time zone converter such as `Time and Date
-   Time Zone Converter <http://www.timeanddate.com/worldclock/converter.html>`_.
+.. note:: Release dates and times that you set are in Coordinated Universal Time
+   (UTC). You might want to verify that you have specified the time that you
+   intend by using a time zone converter such as `Time and Date Time Zone
+   Converter <http://www.timeanddate.com/worldclock/converter.html>`_.
 
    Learners who have specified a time zone in their account settings see
-   course dates and times converted to their local time zone. Learners who
+   course dates and times converted to their specified time zone. Learners who
    have not specified a time zone in their account settings see course dates
    and times in UTC.
+
 
 ************************************************
 Release Statuses of Subsections

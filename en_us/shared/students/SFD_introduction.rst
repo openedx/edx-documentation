@@ -81,11 +81,16 @@ A Note about Time Zones
 ************************
 
 The dates and times that new materials are released, and when homework
-assignments and exams are due, are included throughout your course. It is
-important to be aware that edX lists all times in Coordinated Universal Time
-(UTC). When you see a time in your course, edX recommends that you use a time
-zone converter to convert the UTC time to your local time. You can use any
-converter that you want, including one of the following time zone converters.
+assignments and exams are due, are shown throughout your course.
+
+In your account settings, you can specify your local time zone so that any
+course dates and times are displayed in your local time.
+
+.. Important:: If you do not specify a time zone in your account settings, edX
+   lists all times in Coordinated Universal Time (UTC). You can use a time
+   zone converter to convert UTC time to your local time. You can use any
+   converter that you want, including one of the following time zone
+   converters.
 
 * `Time and Date Time Zone Converter`_
 
