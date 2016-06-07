@@ -623,6 +623,136 @@ This section includes descriptions of the following events.
   :depth: 1
 
 
+edx.ui.lms.link_clicked
+****************************
+
+The browser emits this event when a user selects any hypertext link from the
+course content.
+
+**History**: Added May 5 2016.
+
+**Component**: Sequence
+
+**Event Source**: Browser
+
+``event`` **Member Fields**:
+
+The ``edx.ui.lms.sequence.link_clicked`` event includes both a ``name`` field
+and an ``event_type`` field. For more information about these common fields,
+see :ref:`common`.
+
+``event`` **Member Fields**:
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+
+   * - ``current_url``
+     - string
+     - The URL of the page where the user selected the hypertext link.
+
+   * - ``target_url``
+     - string
+     - The URL of the page that the selected link leads to.
+
+
+Example ``edx.ui.lms.sequence.link_clicked`` Event
+***************************************************
+
+The following example shows the relevant fields of the event that is emitted
+when a user selects any hypertext link from the course content.
+
+.. code-block:: json
+
+ {
+     "name": "edx.ui.lms.link_clicked",
+     "event_type": "edx.ui.lms.link_clicked",
+     "event": {
+         "target_url": "http://example-website.com",
+         "current_url": "https://courses.edx.org/courses/a/course/here/some/further/info",
+         }
+ }
+
+
+edx.ui.lms.outline.selected
+****************************
+
+The browser emits this event when a user selects a subsection in the course
+navigation pane in the LMS to open a new page. Selecting a section in the course navigation pane does not emit an event.
+
+**History**: Added May 5 2016.
+
+**Component**: Sequence
+
+**Event Source**: Browser
+
+``event`` **Member Fields**:
+
+The ``edx.ui.lms.sequence.outline.selected`` event includes both a ``name``
+field and an ``event_type`` field. For more information about these common
+fields, see :ref:`common`.
+
+``event`` **Member Fields**:
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+
+   * - ``current_url``
+     - string
+     - The URL of the page where the user is viewing the course
+       navigation pane.
+
+   * - ``target_name``
+     - string
+     - The display name of the subsection that the user is navigating to, 
+       on the page identified by ``target_url``.
+
+   * - ``target_url``
+     - string
+     - The URL of the page containing the subsection that the user is
+       navigating to.
+
+   * - ``widget_placement``
+     - string
+     - Indicates the position on the page of the control that the user
+       selected.
+
+       For this event, the control is the course navigation pane at the side of
+       the course page, identified with a value of ``accordion``.
+
+
+
+
+Example ``edx.ui.lms.outline.selected`` Event
+***************************************************
+
+The following example shows the relevant fields of the event that is emitted
+when a user selects a subsection on the course navigation pane in the LMS.
+
+.. code-block:: json
+
+ {
+     "name": "edx.ui.lms.outline.selected",
+     "event_type": "edx.ui.lms.outline.selected",
+     "event": {
+         "target_name": "Lesson 3 - Be Social ",
+         "target_url": "https://courses.stage.edx.org/courses/edX/DemoX/Demo_Course/courseware/social_integration/48ecb924d7fe4b66a230137626bfa93e/",
+         "widget_placement": "accordion",
+         "current_url": "https://courses.stage.edx.org/courses/edX/DemoX/Demo_Course/courseware/graded_interactions/simulations/"
+         }
+ }
+
+
+
 ``edx.ui.lms.sequence.next_selected``
 *************************************
 
