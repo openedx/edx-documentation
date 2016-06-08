@@ -4,14 +4,6 @@
 Drag and Drop Problem (Deprecated)
 ##################################
 
-.. note:: EdX offers provisional support for this problem type.
-
-In drag and drop problems, learners respond to a question by dragging text or
-objects to a specific location on an image.
-
-.. image:: ../../../shared/images/DragAndDropProblem.png
- :alt: Image of a drag and drop problem
-
 .. note::
     This drag and drop problem type has been replaced by a newer
     drag and drop problem type. The newer drag and drop problem type includes
@@ -19,13 +11,13 @@ objects to a specific location on an image.
     development. For more information about the replacement drag and
     drop problem type, see :ref:`drag_and_drop_problem`.
 
-.. note::
+.. warning::
 
- * **Drag and drop problems are not accessible for learners with some
-   disabilities, and they do not work correctly on mobile phones.** If you use
-   this kind of problem, make sure that you include an alternative for
-   learners who cannot access drag and drop problems, or leave these problems
-   ungraded.
+ * **This deprecated drag and drop problem type is not accessible for learners
+   with some disabilities, and it does not work correctly on mobile phones and
+   other devices that use touch screen interfaces.** If you use this kind of
+   problem, make sure that you include an alternative for learners who cannot
+   access drag and drop problems, or leave these problems ungraded.
 
    For more information about creating accessible content, see
    :ref:`Accessibility Best Practices for Course Content Development`.
@@ -34,6 +26,14 @@ objects to a specific location on an image.
    default, the **Show Answer** option is set to **Never**. If you change this
    option in the problem component, a **Show Answer** button appears in the
    LMS, but the button does not work.
+
+.. note:: EdX offers provisional support for this problem type.
+
+In drag and drop problems, learners respond to a question by dragging text or
+objects to a specific location on an image.
+
+.. image:: ../../../shared/images/DragAndDropProblem.png
+ :alt: Image of a drag and drop problem
 
 *********************************
 Creating a Drag and Drop Problem
