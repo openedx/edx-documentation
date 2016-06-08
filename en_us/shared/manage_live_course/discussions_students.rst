@@ -60,6 +60,7 @@ content they apply to.
 .. image:: ../../../shared/images/Discussion_content_specific.png
  :alt: A discussion topic that appears below a video in the course, identified
        by a "Show Discussion" link.
+ :width: 800
 
 Most courses also include one or more topics for course-wide discussions, such
 as "Frequently Asked Questions" and "Troubleshooting". You access these topics
@@ -69,6 +70,7 @@ drop-down.
 .. image:: ../../../shared/images/Discussion_course_wide.png
  :alt: Discussion topics are listed on the Discussion page when you select the
        drop-down list at the left side of the page.
+ :width: 400
 
 When you visit the **Discussion** page, you can read and add to any of the
 discussion topics.
@@ -109,6 +111,7 @@ bubble image identifies posts that start discussions.
 .. image:: ../../../shared/images/Post_types_in_list.png
  :alt: The discussion navigation pane with images identifying questions and
      discussions.
+ :width: 400
 
 If you have any difficulty deciding which type of post you want to add, think
 about whether you want to get concrete information (a question) or start an
@@ -164,6 +167,7 @@ topic you select appear in the discussion navigation pane.
 .. image:: ../../../shared/images/Discussion_filters.png
  :alt: The discussion navigation pane with callouts to identify the top filter
        to select one topic and the filter below it to select by state.
+ :width: 400
 
 =======================================
 Review Only Unread or Unanswered Posts
@@ -209,8 +213,9 @@ Add a Post to a Content-Specific Discussion Topic
 
 #. To add a post, select **New Post**.
 
-.. image:: ../../../shared/images/Discussion_content_specific_post.png
-  :alt: Adding a post about specific course content.
+   .. image:: ../../../shared/images/Discussion_content_specific_post.png
+     :alt: Adding a post about specific course content.
+     :width: 800
 
 #. Select the type of post: **Question** or **Discussion**.
 
@@ -245,10 +250,11 @@ discussion topics.
 
 #. Select the most appropriate discussion topic for your post.
 
-  .. image:: ../../../shared/images/Discussion_course_wide_post.png
-    :alt: Selecting the topic for a new post on the Discussion page.
+   .. image:: ../../../shared/images/Discussion_course_wide_post.png
+     :alt: Selecting the topic for a new post on the Discussion page.
+     :width: 400
 
-5. Supply a short, descriptive **Title**. The title is the part of your post
+#. Supply a short, descriptive **Title**. The title is the part of your post
    that others see when they are browsing on the **Discussion** page or
    scrolling through one of the content-specific topics.
 
@@ -297,16 +303,16 @@ Add a Response or Comment to a Content-Specific Discussion Topic
 
 #. Select **Expand discussion**.
 
-  .. image:: ../../../shared/images/Discussion_expand.png
-    :alt: The **Expand discussion** link under a post.
+   .. image:: ../../../shared/images/Discussion_expand.png
+     :alt: The **Expand discussion** link under a post.
+     :width: 800
 
-6. Add a response or comment.
+#. Add a response or comment.
 
- - To add a response to the post, select **Add A Response**. When your response
-   is complete, select **Submit**.
+   * To add a response to the post, select **Add A Response**. When your response is complete, select **Submit**.
 
- - To add a comment to a response, enter text in the **Add a comment** field
-   below the response. When your comment is complete, select **Submit**.
+   * To add a comment to a response, enter text in the **Add a comment** field below the response. When your comment is complete, select **Submit**.
+
 
 Add a Response or Comment to a Course-Wide Discussion Topic
 ************************************************************
@@ -321,15 +327,15 @@ content-specific discussion topics.
 
 #. Add a response or comment.
 
- - To add a response to the post, select **Add A Response**. When your response
-   is complete, select **Submit**.
+   * To add a response to the post, select **Add A Response**. When your response is complete, select **Submit**.
 
-  .. image:: ../../../shared/images/Discussion_add_response.png
-    :alt: The **Add A Response** button located between a post and its
+     .. image:: ../../../shared/images/Discussion_add_response.png
+       :alt: The **Add A Response** button located between a post and its
           responses.
+       :width: 400
 
- - To add a comment to a response, enter text in the **Add a comment** field
-   below the response. When your comment is complete, select **Submit**.
+   * To add a comment to a response, enter text in the **Add a comment** field below the response. When your comment is complete, select **Submit**.
+
 
 .. _Keep Up with New Activity:
 
@@ -354,17 +360,19 @@ have already read completely.
 * Exchanges that you have read completely have a gray callout image and
   background.
 
- .. image:: ../../../shared/images/Discussion_colorcoding.png
-  :alt: The discussion navigation pane with posts showing differently colored
+  .. image:: ../../../shared/images/Discussion_colorcoding.png
+    :alt: The discussion navigation pane with posts showing differently colored
         backgrounds and callout images.
+    :width: 200
 
 The total number of contributions in the exchange (the post and its responses
-and comments) appears in each callout image. To see the number of contributions
-that you haven't read yet, move your cursor over the callout image.
+and comments) appears in each callout image. To see how many contributions are
+still unread, move your pointer over the callout image.
 
 .. image:: ../../../shared/images/Discussion_mouseover.png
  :alt: A post with four contributions total, and a popup that shows that only
    two are unread.
+ :width: 400
 
 The color-coded callout images appear when you sort the list of posts in the
 discussion navigation pane **by recent activity** or **by most activity**. If
@@ -404,12 +412,13 @@ or comment. You can provide feedback in these ways.
   to the discussion administration team.
 
 To select a feedback option, you use the icons at the top right of each post,
-response, or comment. When you move your cursor over these icons a label
+response, or comment. When you move your pointer over these icons a label
 appears.
 
 .. image:: ../../../shared/images/Discussion_options_mouseover.png
- :alt: The icons at top right of a post, shown before the cursor is
+ :alt: The icons at top right of a post, shown before the pointer is
       placed over each one and with the Vote, Follow, and More labels.
+ :width: 400
 
 When you select the "More" icon, a menu of the options that currently apply
 appears.
@@ -417,6 +426,7 @@ appears.
 .. image:: ../../../shared/images/Discussion_More_menu.png
  :alt: The More icon expanded to show a menu with one option and a menu with
        three options.
+ :width: 400
 
 .. _Vote for Posts or Responses:
 
@@ -429,6 +439,7 @@ post or response and select the "Vote" icon at top right.
 
 .. image:: ../../../shared/images/Discussion_vote.png
  :alt: A post with the Vote icon circled.
+ :width: 600
 
 You can sort the list of posts in the discussion navigation pane so that the
 posts with the most votes appear at the top: select the drop-down list of
@@ -437,6 +448,7 @@ sorting options and select **by most votes**.
 .. image:: ../../../shared/images/Discussion_sortvotes.png
  :alt: The discussion navigation pane with the "by most votes" sorting option
        and the number of votes for the post circled.
+ :width: 200
 
 The number of votes that each post has received displays in the discussion
 navigation pane. (Votes for responses are not included in the number.)
@@ -452,6 +464,7 @@ future, you can follow it: view that post and select the "Follow" icon.
 
 .. image:: ../../../shared/images/Discussion_follow.png
  :alt: A post with the Follow icon circled.
+ :width: 600
 
 Each post that you follow appears with a "Following" indicator in the list of
 posts.
@@ -463,6 +476,7 @@ topic they apply to, select the drop-down Discussion list and select
 .. image:: ../../../shared/images/Discussion_filterfollowing.png
  :alt: The discussion navigation pane with the "Posts I'm Following" filter
        selected. Every post in the list shows the following indicator.
+ :width: 200
 
 .. _Answer Questions:
 
@@ -479,6 +493,7 @@ icon that appears at upper right of the response.
 
 .. image:: ../../../shared/images/Discussion_answer_question.png
  :alt: A question and a response, with the Mark as Answer icon circled.
+ :width: 600
 
 .. The following paragraph applies to the edX mobile app for Open edX (with discussions)
 .. Alison, DOC-1815, June 2015
@@ -495,6 +510,7 @@ page.
 .. image:: ../../../shared/images/Discussion_answers_in_list.png
  :alt: The discussion navigation pane with images identifying unanswered and
      answered questions and discussions.
+ :width: 200
 
 .. _Report Discussion Misuse:
 
@@ -508,5 +524,6 @@ review: view the contribution, select the "More" icon, and then select
 
 .. image:: ../../../shared/images/Discussion_reportmisuse.png
  :alt: A post and a response with the "Report" link circled.
+ :width: 400
 
 .. Future: DOC-121 As a course author, I need a template of discussion guidelines to give to students

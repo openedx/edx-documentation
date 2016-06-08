@@ -25,7 +25,7 @@ the site where data packages are stored.
   :alt: Flowchart of data czar creating public and private keys and sending the
       public key to edX, and of edX creating data storage credentials and
       encrypting those credentials with the public key before sending them to
-      the data czar
+      the data czar.
 
 After these steps for setting up credentials are complete, the data czar can
 download data packages on an ongoing basis.
@@ -105,7 +105,6 @@ Create Keys: Windows
  files, work with edX to set her or him up as an additional data czar. Data
  czars must create and use their own passphrases.
 
-
 =======================
 Create Keys: Macintosh
 =======================
@@ -138,10 +137,10 @@ Create Keys: Macintosh
 
   c. Make sure that **Allow secret key export** is cleared.
 
-  When you select **Save**, only the public key is saved in the resulting .asc
-  file. Do not share your private key with edX or any third party.
+   When you select **Save**, only the public key is saved in the resulting .asc
+   file. Do not share your private key with edX or any third party.
 
-7. Compose an e-mail message to your edX partner manager. Attach the .asc
+#. Compose an email message to your edX partner manager. Attach the .asc
    file that you saved in the previous step to the message, then send the
    message.
 
@@ -169,17 +168,19 @@ File`_.
   :alt: Flowchart of edX collecting files for the data package and then
       encrypting, compressing, and uploading them to Amazon S3 and of data czar
       decrypting access credentials, accessing S3 bucket, and then downloading,
-      extracting, and decrypting data package files
+      extracting, and decrypting data package files.
 
 .. _Decrypt an Encrypted File:
 
-****************************************************************
+***************************
 Decrypt an Encrypted File
-****************************************************************
+***************************
 
 To work with an encrypted .gpg file, you use the same GNU Privacy Guard program
-that you used to create your public/private key pair. You use your private key
-to decrypt the Amazon S3 credentials file and the files in your data packages.
+that you used to create your public/private key pair.
+
+To use your private key to decrypt the Amazon S3 credentials file and the files
+in your data packages, follow these steps.
 
 #. Save the encrypted file in an accessible location.
 
@@ -200,8 +201,8 @@ credentials.csv file. Open the decrypted credentials.csv file to see that it
 contains your email address, your Access Key, and your Secret Key.
 
  .. image:: ../Images/AWS_Credentials.png
-  :alt: A csv file, open in Notepad, with the Access Key value and the Secret
-        Key value underlined
+  :alt: A .csv file, open in Notepad, with the Access Key value and the Secret
+        Key value underlined.
 
 .. _Access Amazon S3:
 
@@ -230,7 +231,7 @@ Browser. Alternatively, you can use the `AWS Command Line Interface`_.
    Key, and your Secret Key. For more information, see the documentation
    provided for the tool that you selected.
 
-5. To access the database data files, specify or select ``s3://course-data``.
+#. To access the database data files, specify or select ``s3://course-data``.
 
    To access the event data files, specify or select ``s3://edx-course-
    data/{org}/``. You must include the identifier for your organization after
