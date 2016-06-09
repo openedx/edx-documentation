@@ -46,10 +46,17 @@ by an explanation of each option or control on the video player.
    window by selecting this control. To return to default mode, press ESC on
    your keyboard or select this control again.
 
-8. **Closed caption**: You can show an overlaid transcript of the audio portion
-   of the file by selecting this control. If you show the captions, you can
-   move them to different areas on the video screen by dragging and dropping
-   them. To hide the captions, select this control again.
+8. **Show or hide closed captioning**: You can show an overlaid transcript of
+   the audio portion of the file by selecting this control. If you show the
+   captions, you can move them to different areas on the video screen by
+   dragging and dropping them. To hide the captions, select this control again.
+
+   .. note:: In some cases, two sets of captions can appear when you select
+    **CC**. This situation can occur if YouTube is the host service for the
+    video and your YouTube account settings for playback are set to always show
+    captions. As a result, YouTube and your course might both provide captions
+    for the video. To correct this problem, select **CC** again or change your
+    YouTube account setting.
 
 9. **Show transcript**: You can show a complete, scrolling transcript of the
    audio portion of the file to the right of the video by selecting this
