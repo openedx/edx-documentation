@@ -52,6 +52,8 @@
 
 .. _edx.org registration: https://courses.edx.org/register
 
+.. _Research & Pedagogy: https://www.edx.org/about/research-pedagogy
+
 .. _docs@edx.org: docs@edx.org
 
 .. _Overview of Creating an edX Course: https://www.edx.org/course/overview-creating-edx-course-edx-edx101#.VHKBz76d9BV
@@ -79,6 +81,8 @@
 .. _edx-analytics-configuration: https://github.com/edx/edx-analytics-configuration
 
 .. _edx-documentation: https://github.com/edx/edx-documentation
+
+.. _edx-tools wiki: https://github.com/edx/edx-tools/wiki
 
 .. _custom_form_app: https://github.com/open-craft/custom-form-app
 
@@ -243,7 +247,8 @@
 .. _Time and Date Time Zone Converter: http://www.timeanddate.com/worldclock/converter.html
 .. _Cross-referencing arbitrary locations: http://www.sphinx-doc.org/en/stable/markup/inline.html#cross-referencing-arbitrary-locations
 .. _Time Zone Converter: http://www.timezoneconverter.com/cgi-bin/tzc.tzc
-
+.. _MOOCdb project: http://moocdb.csail.mit.edu/
+.. _MOOCczar project: https://github.com/UQ-UQx
 .. _Google Calendar website: https://www.google.com/calendar
 
 .. _Oppia XBlock: https://github.com/oppia/xblock
