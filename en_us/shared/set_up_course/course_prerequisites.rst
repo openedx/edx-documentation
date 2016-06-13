@@ -59,13 +59,7 @@ Require an Entrance Exam
 
 You can require your learners to pass an entrance exam before they access your
 course materials. If you include an entrance exam, learners who enroll in your
-course see only the **Course Updates & News** page and an **Entrance Exam** tab
-until they pass the exam.
-
-.. image:: ../../../shared/images/EntEx_LandingPage.png
-  :width: 500
-  :alt: The Course Updates & News page with the Entrance Exam tab indicated.
-
+course can only access the **Entrance Exam** page until they pass the exam.
 After learners pass the exam, they can access all released materials in your
 course.
 
