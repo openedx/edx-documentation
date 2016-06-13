@@ -1150,7 +1150,7 @@ as seen in the following example.
 .. code-block:: javascript
 
     // DO this
-    messageHtml = HtmlUtils.template(messageTemplate);
+    messageHtml = HtmlUtils.template(messageTemplate)({message: message});
     this.button.after(
         HtmlUtils.ensureHtml(messageHtml).toString()
     );
