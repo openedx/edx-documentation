@@ -9,6 +9,7 @@ Open edX Developer's Guide
    :maxdepth: 2
 
    front_matter/index
+   architecture
    process/index
    extending_platform/index
    modulestores/index
