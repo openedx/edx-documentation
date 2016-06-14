@@ -29,6 +29,8 @@ This section contains the following topics.
   :local:
   :depth: 1
 
+.. _bulk_email_message_addressing:
+
 *************************
 Message Addressing
 *************************
