@@ -129,8 +129,9 @@ C
 **Closed Captions**
 
   The spoken part of the transcript for a video file, which is overlaid on the
-  video as it plays. You can move closed captions to different areas on the
-  video screen by dragging and dropping them.
+  video as it plays. To show or hide closed captions, you select the **CC**
+  icon. You can move closed captions to different areas on the video screen by
+  dragging and dropping them.
 
   For more information, see :ref:`learners:Video Player`.
 

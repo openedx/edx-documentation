@@ -1154,7 +1154,7 @@ events of this type as for the :ref:`play_video` events.
 ``edx.video.closed_captions.hidden``
 *************************************************************
 
-When a user toggles **Closed Captions** to suppress display of the overlay captioning, the
+When a user toggles **CC** to suppress display of the overlay captioning, the
 browser or mobile app emits an ``edx.video.closed_captions.hidden`` event.
 
 **Event Source**: Browser or Mobile
@@ -1183,7 +1183,7 @@ events of this type as for the :ref:`play_video` events.
 ``edx.video.closed_captions.shown``
 ************************************************************
 
-When a user toggles **Closed Captions** to display the closed captions, the browser or
+When a user toggles **CC** to display the closed captions, the browser or
 mobile app emits an ``edx.video.closed_captions.shown`` event.
 
 **Event Source**: Browser or Mobile

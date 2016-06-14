@@ -46,8 +46,8 @@ Video Length
 
 Keep videos as short as possible.
 
-Learners are much less likely to finish watching a video if it is more than
-5-10 minutes long.
+Learners are more likely to finish watching a video if it is no more than 5-10
+minutes long.
 
 ====================
 Video Accessibility
@@ -67,8 +67,8 @@ files, including YouTube videos and videos that are hosted in other locations.
 You can allow learners to download videos by selecting the **Video Download
 Allowed** option for your video components.
 
-For more information about posting
-videos to hosting sites other than YouTube, see :ref:`Post the Video Online`.
+For more information about posting videos to hosting sites other than YouTube,
+see :ref:`Post the Video Online`.
 
 For more information about options that you can set when you create a video
 component, see :ref:`Video Advanced Options` under :ref:`Create a Video
@@ -84,11 +84,10 @@ Your videos can contain whatever content you want to include in the course. The
 `Creating Videos`_ section of `edX101 Overview of Creating an edX Course`_ has
 some helpful pointers for creating good video content.
 
-When you create videos, follow `Richard Mayer's 12 Principles
-<http://hartford.edu/academics/faculty/
-fcld/data/documentation/technology/presentation/powerpoint/12_principles_mult
-imedia.pdf>`_. The principles in this document are based on extensive
-experimental research of student learning.
+When you create videos, follow Richard E. Mayer's `12 Principles of Multimedia
+Learning <http://hartford.edu/academics/faculty/fcld/data/documentation/technology/presentation/powerpoint/12_principles_multimedia.pdf>`_. The
+principles in this document are based on extensive experimental research of
+student learning.
 
 .. _Compression Specifications:
 
@@ -162,7 +161,7 @@ automatically scrolls as the video plays, and learners can select a line in the
 transcript to jump to the point in the video where that word is spoken.
 
 Learners can also choose to show the transcript file as overlaid closed
-captions for the video by selecting the **Closed caption** (CC) icon in the
+captions for the video by selecting the **CC** icon in the
 video player's control bar.
 
 To create or obtain a transcript in .srt format, you can work with a company
@@ -323,14 +322,15 @@ To add a video and its transcript to your course, follow these steps.
       http://www.youtube.com/watch?v=OEoXaMPEzfM
       https://s3.amazonaws.com/edx-course-videos/edx-edx101/EDXSPCPJSP13-G030300.mp4
 
-.. note:: To be sure that all learners can access a video, you can
-    create multiple versions that use different encodings or hosting services.
-    After you post different versions on the Internet, you add each URL below
-    the default video URL. **These URLs cannot be YouTube URLs**. To add a URL
-    for another version, select **Add URLs for additional versions**. The first
-    listed video that is compatible with the learner's computer plays.
+   .. note:: To be sure that all learners can access a video, you can
+      create multiple versions that use different encodings or hosting
+      services. After you post different versions on the Internet, you add each
+      URL below the default video URL. **These URLs cannot be YouTube URLs**.
+      To add a URL for another version, select **Add URLs for additional
+      versions**. The first listed video that is compatible with the learner's
+      computer plays.
 
-5. Next to **Default Timed Transcript**, select an option.
+#. Next to **Default Timed Transcript**, select an option.
 
    * If edX already has a transcript for this video, Studio automatically
      finds the transcript and associates the transcript with the video. This
@@ -367,7 +367,7 @@ To add a video and its transcript to your course, follow these steps.
         * If your transcript uses the .sjson format, do not use this field.
           For more information, see :ref:`Steps for sjson files`.
 
-6. Optionally, select **Advanced** to set more options for the video. For a
+#. Optionally, select **Advanced** to set more options for the video. For a
    description of each option, see :ref:`Video Advanced Options`.
 
 #. Select **Save.**
