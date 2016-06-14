@@ -665,9 +665,9 @@ Template
 .. code-block:: xml
 
   <problem>
-  <legend>Question text</legend>
+  <p>QUESTION TEXT</p>
   <choiceresponse>
-    <checkboxgroup label="label text">
+    <checkboxgroup label="QUESTION TEXT">
       <choice correct="false">
         Answer option A (incorrect)
         <choicehint selected="true">
