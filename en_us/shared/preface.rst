@@ -246,7 +246,7 @@ Discussion Forums and Email
 ==============================
 
 Researchers, edX data czars, and members of the global edX data and analytics
-community can  post and discuss questions in our public research forum: the
+community can post and discuss questions in our public research forum: the
 `openedx-analytics`_ Google group.
 
 The edX partner portal also offers community `forums`_, including a Research

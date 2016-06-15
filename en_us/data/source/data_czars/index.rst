@@ -18,5 +18,6 @@ information about edX data.
 
    data_czar.rst
    data_security.rst
+   resources.rst
    credentials.rst
    package.rst
