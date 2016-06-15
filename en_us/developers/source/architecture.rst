@@ -2,9 +2,9 @@
 Open edX Architecture
 ###########################
 
-Open edX is a web-based platform for creating, delivering, and analyzing online
-courses. It is the software that powers edx.org and many other online
-education sites.
+The Open edX project is a web-based platform for creating, delivering, and
+analyzing online courses. It is the software that powers edx.org and many other
+online education sites.
 
 This page explains the architecture of the platform at a high level, without
 getting into too many details.
@@ -20,7 +20,8 @@ The centerpiece of the Open edX architecture is `edx-platform`_, which contains
 the learning management and course authoring applications (LMS and Studio,
 respectively).
 
-This service is supported by a collection of other autonomous web services called independently deployed applications (IDAs). Over time, edX plans to
+This service is supported by a collection of other autonomous web services
+called independently deployed applications (IDAs). Over time, edX plans to
 break out more of the existing edx-platform functions into new IDAs. This
 strategy will help manage the complexity of the edx-platform code base to make
 it as easy as possible for developers to approach and contribute to the
@@ -30,8 +31,8 @@ project.
   :width: 700
   :alt: A diagram of the components and technologies that make up an edX site.
 
-Almost all of the server-side code in Open edX is in `Python`_, with `Django`_
-as the web application framework.
+Almost all of the server-side code in the Open edX project is in `Python`_,
+with `Django`_ as the web application framework.
 
 **************
 Key Components
@@ -41,8 +42,8 @@ Key Components
 Learning Management System (LMS)
 ================================
 
-The LMS is the most visible part of Open edX. Learners take courses using the
-LMS. The LMS also provides instructor dashboards.
+The LMS is the most visible part of the Open edX project. Learners take courses
+using the LMS. The LMS also provides instructor dashboards.
 
 The LMS uses a number of data stores. Courses are stored in `MongoDB`_, with
 videos served from YouTube or Amazon S3. Per-learner data is stored in MySQL.
@@ -57,14 +58,15 @@ The Django server-side code in the LMS and elsewhere uses `Mako`_ for front-end
 template generation. The browser-side code is written primarily in JavaScript
 with some `CoffeeScript`_ as well (edX is working to replace that code with
 JavaScript). Parts of the client-side code use the `Backbone.js`_ framework,
-and edX is moving more of the code base to use that framework. Open edX uses
-`Sass`_ and the `Bourbon framework`_ for CSS code.
+and edX is moving more of the code base to use that framework. The Open edX
+project uses `Sass`_ and the `Bourbon framework`_ for CSS code.
 
 Course Browsing
 ***************
 
-Open edX provides a simple front page for browsing courses. The `edx.org`_ site
-has a separate home page and course discovery site that is not open source.
+The Open edX project provides a simple front page for browsing courses. The
+`edx.org`_ site has a separate home page and course discovery site that is not
+open source.
 
 Course Structure
 ****************
@@ -113,16 +115,16 @@ notifications about updates in topics of interest.
 Mobile Apps
 ===========
 
-Open edX includes a mobile application, available for iOS and Android, that
-allows learners to watch course videos and more. EdX is actively enhancing the
-mobile app.
+The Open edX project includes a mobile application, available for iOS and
+Android, that allows learners to watch course videos and more. EdX is actively
+enhancing the mobile app.
 
 =========
 Analytics
 =========
 
 Events describing learner behavior are captured by the Open edX analytics
-pipeline. The events are stored as JSON in S3, processed using Hadoop, and
+pipeline. The events are stored as JSON in S3, processed using Hadoop, and then
 digested, aggregated results are published to MySQL. Results are made available
 via a REST API to Insights, an IDA that instructors and administrators use to
 explore data that lets them know what their learners are doing and how their
@@ -134,7 +136,7 @@ courses are being used.
       analytics architecture.
 
 ===============
-Background work
+Background Work
 ===============
 
 A number of tasks are large enough that they are performed by separate
@@ -147,23 +149,24 @@ work include:
 * Generating answer distribution reports
 * Producing end-of-course certificates
 
-Open edX includes an IDA called XQueue that can run custom graders. These are
-separate processes that run compute-intensive assessments of learners’ work.
+The Open edX project includes an IDA called XQueue that can run custom graders.
+These are separate processes that run compute-intensive assessments of
+learners’ work.
 
 ======
 Search
 ======
 
-Open edX uses `Elasticsearch`_ for searching in a multiple contexts, including
-course search and the comments service.
+The Open edX project uses `Elasticsearch`_ for searching in multiple contexts,
+including course search and the comments service.
 
 ================
-Other components
+Other Components
 ================
 
-In addition to the components detailed above, Open edX also has services for
-other capabilities, such as one that manages e-commerce functions like order
-work flows and coupons.
+In addition to the components detailed above, the Open edX project also has
+services for other capabilities, such as one that manages e-commerce functions
+like order work flows and coupons.
 
 .. _edx-platform: https://github.com/edx/edx-platform
 .. _Python: https://www.python.org/
