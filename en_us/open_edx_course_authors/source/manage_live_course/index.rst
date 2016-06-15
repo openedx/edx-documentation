@@ -16,7 +16,6 @@ course discussions.
    course_enrollment
    manage_course_fees
    discussions
-   discussions_students
    discussion_guidance_moderators
    staff_debug_info
 
