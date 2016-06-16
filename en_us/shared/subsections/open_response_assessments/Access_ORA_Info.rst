@@ -34,26 +34,35 @@ are active in each step, follow these steps.
    Statistics**.
 
    You see statistics for the assignment, including the total number of
-   responses and the location ID for the assignment. Learner progress is
-   available for the steps that exist in the current assignment. Only steps
-   that exist in the assignment are shown. For each step, you can see the
-   number of learners who are currently working through (but who have not
-   completed) that step.
+   responses and the location ID for the assignment.
 
-   You can see the number of learners who are in each of the following states
-   in the assignment.
+   In the **Learner Progress** section, for each assessment step in the
+   assignment, you can see the number of learners who are currently working
+   through (but who have not completed) that step. Only assessment types that
+   exist in the assignment are included.
 
-     * Waiting to assess responses or to receive grades
-     * Completed training, self, or peer assessments
-     * Have had their responses cancelled
+   .. note:: If a Staff Assessment step exists in the assignment, this step
+      will always show 0 active learners, because no learner actions are
+      required for that step.
 
-In addition, you can see the release and due dates for each problem step in the
-assignment.
+   In addition to learners who are active in the assessment steps of the
+   assignment, you can see the number of learners who are in the following
+   states in the assignment.
+
+     * **Waiting**: Learners who have finished the requirements for a step
+       and are waiting for their responses to be assessed by peers or staff.
+
+     * **Done**: Learners who have completed all of their required steps, and
+       have received the required number of reviews.
+
+     * **Cancelled**: Learners who have had their responses cancelled.
+
+In the **Dates** section below **Learner Progress**, the release and due dates
+for each step in the assignment are shown.
 
 .. image:: ../../../../shared/images/ORA_AssignmentStats.png
    :width: 500
-   :alt: The number of active learners in each step, and the start and due
-         dates for each step are shown on the View Assignment Statistics page.
+   :alt: The View Assignment Statistics page shows the number of active learners in each step, the number of learners in the Waiting, Done, and Cancelled states, and the start and due dates for each step.
 
 
 .. _Generate ORA Report:
