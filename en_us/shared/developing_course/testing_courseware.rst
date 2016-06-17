@@ -178,8 +178,8 @@ answer other than the correct one gets a red X for incorrect.
 Student View
 ============
 
-In the LMS, to view your live course as learners see it, from **View this
-course as** select **Student**.
+In the LMS, to view your live course as learners see it, select **Student**
+from the **View this course as** list.
 
 .. note::
   If your course has not started, you cannot see the content on the **Course**
@@ -195,8 +195,7 @@ course as** select **Student**.
   as a student in a cohort associated with that content group will see it. For
   more information, see :ref:`Preview Cohort Specific Courseware`.
 
-When you view content as a student does, you can test the following aspects of
-your course.
+When you view content as a student, be aware of the following limitations.
 
 * You do not see sections or subsections that have not yet been released.
 
@@ -223,18 +222,20 @@ Specific Student View
   Beta** setting so that you can see the content that you want. For more
   information, see :ref:`Beta_Testing`.
 
-In the LMS, to view your live course as one particular learner sees it, from
-**View this course as** select **Specific student**. You must then enter that
+In the LMS, to view your live course as one particular learner sees it, select
+**Specific student** from the **View this course as** list. Then, enter that
 learner's username or email address.
 
-When you view content as a specific student does, you can test the following
-aspects of your course.
+When you view content as a specific student, be aware of the following
+limitations.
 
 * In courses with randomized content blocks, you see the actual problem that
   was assigned to a specific learner. This view allows you to evaluate a
   request to adjust a grade or reset the number of attempts for a problem. For
   details about adjusting grades or resetting attempts, see
   :ref:`Adjust_grades`.
+
+* You cannot view open response assessment problems as a specific student.
 
 * You do not see sections or subsections that have not yet been released.
 
