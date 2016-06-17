@@ -8,10 +8,12 @@ After automated processing of an :ref:`uploaded video file<Uploading Videos in
 Studio>` begins and its status on the **Video Uploads** page is Ready, you can
 include it in your course. To do so, you :ref:`copy the unique ID<Copy the edX
 Video ID>` that is assigned to an uploaded video and then :ref:`add it to a
-video component<Add the edX Video ID to a Video Component>`.
+video component<Add the edX Video ID to a Video Component>`. A video file,
+`Adding a Video ID`_, is also available to show you how to complete this
+process.
 
-You can also :ref:`add a transcript<Add a Video Transcript>` and associate it
-with the video file in a video component.
+This section also describes how you :ref:`add a transcript<Add a Video
+Transcript>` and associate it with the video file in a video component.
 
 .. _Copy the edX Video ID:
 
