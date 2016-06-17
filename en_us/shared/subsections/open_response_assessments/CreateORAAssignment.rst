@@ -216,6 +216,9 @@ assessment feature.
   subsection due date. Due dates for each ORA assignment are set in the
   assignment's settings.
 
+* The :ref:`grace period <Set the Grace Period>` that you can set for the
+  course does not apply to ORA assignments.
+
 * EdX recommends that you set the response due date at least one week before
   the peer assessment due date and time, to allow enough time for peer
   assessments to be performed after learners have submitted their own
@@ -423,10 +426,10 @@ for an ORA assignment, see :ref:`PA Top Responses`.
 Step 8. Test the Assignment
 ******************************
 
-To test your assignment, set up the assignment in your course, set the section
-or subsection date in the future, and ask a group of beta testers to submit
-responses and grade each other. The beta testers can then let you know if they
-found the question and the rubric easy to understand or if they had any
-problems with the assignment.
+To test your ORA assignment, you can set up the assignment in your course, set
+the section or subsection date in the future, publish the unit, and ask one or
+more beta testers to submit responses and grade each other. The beta testers
+can then let you know if they found the question and the rubric easy to
+understand or if they had any problems with the assignment.
 
 For more information about beta testing, see :ref:`Beta_Testing`.
