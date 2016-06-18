@@ -26,9 +26,10 @@ For information about enrolling students in a course, see
 edx.org and edX Edge
 *************************
 
-To explore edX courses, you can register an account on the `edx.org`_ website,
-the `edX Edge`_ website, or both. These sites are visually and functionally
-similar, but their content and purposes are different.
+To explore edX courses or create edX course content, you can register an
+account on the `edx.org`_ website, the `edX Edge`_ website, or both. These
+sites are visually and functionally similar, but their content and purposes are
+different.
 
 * edx.org hosts massive open online courses (MOOCs) from edX institutional
   partners. To publish a course on edx.org, you must have an agreement with edX
@@ -49,34 +50,26 @@ similar, but their content and purposes are different.
 
   EdX Edge also hosts small private online courses (SPOCs).
 
-.. note:: 
- All course data and user accounts on Edge and edx.org are separate. If you
- want to use both edx.org and Edge, you must complete the account registration
- process on both sites.
-
 .. _Create an Account:
 
-*************************
-Create an Account
-*************************
+*******************************
+Create and Activate an Account
+*******************************
 
-Before you create, or register, your account, note the following.
+.. note::
+  All user accounts on Edge and edx.org are separate. If you want to use both
+  edx.org and Edge, you must complete the account registration process on both
+  sites.
 
-* If you are at an edX partner institution, be sure to supply your
-  institutional email address or select an existing account (such as a campus
-  account) that is set up to use your institutional email address.
-
-* Learners and other course team members will see the name that you enter as
-  your public username, not your full name. You cannot change your public
-  username after you register.
-
-To register an account on the edx.org or edX Edge website, go to the `edx.org
-registration`_ or `Edge registration`_ page, and then follow these steps.
+When you create an edx.org or edX Edge account, you associate an email
+address with your edX account. EdX strongly recommends that you use your
+organizational email address or select an existing account (such as a campus
+account) that is set up to use your organizational email address.
 
 .. include:: ../../../shared/students/Section_register_account.rst
 
-Note that you can only access the account settings page from the LMS, and not
-from Studio.
+You can only access the **Account Settings** page from the LMS. You cannot
+access this page from Studio.
 
 .. _edX101_section:
 
@@ -84,7 +77,7 @@ from Studio.
 The edX Demo Course and edX101
 ******************************
 
-EdX provides the edX Demo course and Overview of Creating an edX Course 
+EdX provides the edX Demo course and Overview of Creating an edX Course
 to help familiarize you with taking and creating edX courses.
 
 * The `edX Demo course`_ allows new students to explore and learn how to take
