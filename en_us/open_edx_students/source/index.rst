@@ -27,5 +27,4 @@ Open edX Learner's Guide
    SFD_ORA
    SFD_wiki
    SFD_licensing
-   SFD_mathformatting
    front_matter/index
