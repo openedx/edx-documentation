@@ -173,6 +173,11 @@ that provides captioning services.
   `Cielo24 <http://www.cielo24.com/>`_. `YouTube <http://www.youtube.com/>`_
   also provides captioning services.
 
+The edX video player renders transcript files as plain text. EdX recommends
+that you create or obtain transcript files that use plain text only, and that
+do not include HTML markup, character entities such as ``&nbsp;``, or styling
+such as boldface or italics.
+
 When you upload an .srt file, a .txt file is created automatically. You can
 allow learners to download these transcript files. If you allow your learners
 to download transcripts, the video player includes a **Download transcript**
