@@ -4,8 +4,8 @@
 If You Use the edX Mobile App
 ###############################
 
-This topic answers questions about how to use the edX mobile app on an Android
-smartphone or an iPhone to take edX courses.
+This topic answers questions about how you can use the edX mobile app on an
+Android smartphone or an iPhone to take edX courses.
 
 .. contents::
   :local:
@@ -15,33 +15,16 @@ smartphone or an iPhone to take edX courses.
 Overview of the edX Mobile App
 ********************************************************
 
-.. The following paragraph describes the features of the edX mobile app for partners/edx.org (video only)
-.. Alison, DOC-1840, June 2015
-
 .. only:: Partners
 
-  The edX mobile apps are companions to the `edx.org`_ website. You can use
-  the apps to download course videos so that you can watch them whenever you
-  want to, even without an Internet connection. When you have an Internet
-  connection, you can also view course announcements and content, and do some,
-  but not all, of the problems in your assignments. To complete an entire
-  course and participate in course discussions, you use a web browser on a
-  computer.
+  The edX mobile app is a companion to the `edx.org`_ website.
 
-.. The following paragraph describes the features of the edX mobile app for Open edX (adds notifications, assessments, discussions)
-.. Alison, DOC-1840, June 2015
+You can use the app to download course videos so that you can watch them
+whenever you want to, even without an Internet connection. When you have an
+Internet connection, you can also read course announcements, participate in
+course discussions, and get started on homework and other assignments. To
+complete an entire course, you use a web browser on a computer.
 
-.. only:: Open_edX
-
-  You can use the edX mobile apps to download course videos so that you can
-  watch them whenever you want to, even without an Internet connection. When
-  you have an Internet connection, you can also read course announcements,
-  participate in course discussions, and get started on homework and other
-  assignments. To complete an entire course, you use a web browser on a
-  computer.
-
-There is currently an edX mobile app for Android smartphones and another for
-iPhones.
 
 .. The following general Q&A applies to the edX mobile app for partners/edx.org only
 .. Alison, DOC-1840, June 2015
@@ -77,10 +60,10 @@ Can I take a course entirely on my mobile device?
 
 Not entirely. With the edX mobile app, you can download course videos to watch
 when you do not have an Internet connection. When you have an Internet
-connection, you can also read course announcements and content, and do some,
-but not all, of the problems in your assignments. To complete an entire
-course, including participating in course discussions, you use a web browser
-on a computer.
+connection, you can also read course announcements and content, participate in
+course discussions, and do some, but not all, of the problems in your
+assignments. To complete an entire course, you use a web browser on a computer.
+
 
 .. only:: Open_edX
 
@@ -107,24 +90,11 @@ on a computer.
 How do I post questions on the discussion board?
 ========================================================
 
-.. The following paragraph describes the features of the edX mobile app for partners/edx.org
-.. Alison, DOC-1840, June 2015
-
-.. only:: Partners
-
-  Right now, you cannot use the edX mobile apps to participate in course
-  discussions. To read or contribute to the discussions, use a web browser on
-  a computer.
-
-.. The following paragraph describes the features of the edX mobile app for Open edX (adds notifications, assessments, discussions)
-.. Alison, DOC-1840, June 2015
-
-.. only:: Open_edX
-
-  You can read and contribute to course discussions in the edX mobile apps
-  whenever you have an Internet connection. After you select your course,
-  select **Discussion**. You can then browse through different topics or search
-  for words or phrases that interest you.
+You can read and contribute to course discussions in the edX mobile apps
+whenever you have an Internet connection. In your course, select **Discussion**.
+You can then browse through different topics or search for words or phrases that
+interest you. For information about course discussions, see :ref:`Course
+Discussions`.
 
 .. _Video Questions:
 
