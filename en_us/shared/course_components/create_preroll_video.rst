@@ -95,10 +95,15 @@ an identifying video ID. For more information, see `Upload Video Files`_ in
 the *Processing Video Files* guide.
 
 Prepare Pre-Roll Video Transcript Files
-**********************************************************
+*****************************************
 
-You must provide at least one transcript file for your pre-roll video. You
-can provide additional transcript files in multiple languages.
+You must provide at least one transcript file for your pre-roll video. The edX
+video player renders transcript files as plain text. EdX recommends that you
+create or obtain transcript files that use plain text only, and that do not
+include HTML markup, character entities such as ``&nbsp;``, or styling
+such as boldface or italics.
+
+You can provide additional transcript files in multiple languages.
 
 * If you have transcript files in more than one language, edX recommends that
   you include identifying `ISO 639-1 codes`_ in your transcript file names.
@@ -127,7 +132,7 @@ To prepare transcript files for a pre-roll video, follow these steps.
     edx_preroll_zh_HANS.srt
 
 Upload Pre-Roll Video Transcript Files
-**********************************************************
+***************************************
 
 To upload transcript files for a pre-roll video into Studio, follow these
 steps.

@@ -13,6 +13,7 @@ html_favicon = '../../_themes/edx_theme/static/css/favicon.ico'
 
 project = u'EdX Learner\'s Guide'
 
+exclude_patterns = ['links.rst', 'reusables/*', 'SFD_mathformatting.rst']
 
 tags.add('Partners')
 product = 'Partners'

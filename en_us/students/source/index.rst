@@ -11,6 +11,7 @@ EdX Learner's Guide
    SFD_introduction
    SFD_account
    sfd_dashboard_profile/index
+   SFD_mobile
    SFD_enrolling
    SFD_check_progress
    SFD_certificates
@@ -19,15 +20,13 @@ EdX Learner's Guide
    SFD_content_availability
    SFD_video_player
    sfd_discussions/index
-   SFD_bookmarks
-   SFD_notes
-   SFD_google_docs
-   SFD_teams
-   SFD_mobile
    completing_assignments/index
    SFD_ORA
+   SFD_google_docs
+   SFD_teams
+   SFD_bookmarks
+   SFD_notes
    SFD_wiki
    SFD_licensing
-   SFD_mathformatting
    front_matter/index
 

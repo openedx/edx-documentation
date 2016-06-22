@@ -1,10 +1,10 @@
 .. _SFD Mobile:
 
-########################
-Using an edX Mobile App
-########################
+###############################
+If You Use the edX Mobile App
+###############################
 
-This topic answers questions about how to use an edX mobile app on an Android
+This topic answers questions about how to use the edX mobile app on an Android
 smartphone or an iPhone to take edX courses.
 
 .. contents::
