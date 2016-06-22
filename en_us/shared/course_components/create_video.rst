@@ -248,11 +248,6 @@ YouTube
 After you create your video, upload the video to `YouTube
 <http://www.youtube.com/>`_.
 
-.. note:: YouTube only hosts videos of up to 15 minutes. If you create a
- 0.75-speed option, you must make sure that your 1.0-speed video segments are
- only 11.25 minutes long so that YouTube can host all speeds. YouTube offers
- paid accounts that relax this restriction.
-
 ==================
 Other Sites
 ==================
