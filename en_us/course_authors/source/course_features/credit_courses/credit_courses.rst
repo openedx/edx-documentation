@@ -11,7 +11,7 @@ typically include periodic identity checks throughout the course as well as ID
 verification at the beginning of the course. Learners can see a list of the
 requirements on their **Progress** pages.
 
-If your course offers academic credit, your edX program manager will complete
+If your course offers academic credit, your edX partner manager will complete
 the initial setup of your course, including setting the price of credit and
 enabling your course to offer credit. You must then complete the following
 steps.
