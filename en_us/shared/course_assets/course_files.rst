@@ -28,7 +28,7 @@ that are larger than 50 MB after compression, contact your edX partner manager.
 If you have video or audio files or large data sets to share with your
 students, use YouTube or another hosting service to host these files. Do not
 use the Files & Uploads page to add these files to your course. If you are an
-edX partner and you need to store large data sets, contact your edX program
+edX partner and you need to store large data sets, contact your edX partner
 manager.
 
 .. _Upload a File:
