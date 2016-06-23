@@ -35,6 +35,7 @@ if [ ${#projects[@]} -eq 0 ]
 then
     projects=(
         "en_us/course_authors"
+        "en_us/course_catalog_api_user_guide"
         "en_us/data"
         "en_us/developers"
         "en_us/edx_style_guide"
