@@ -292,7 +292,7 @@ grading>`, locate the specific submission by following these steps.
 #. Ask the person who reported the incident to send you a sample of text from
    the inappropriate response.
 
-#. Contact your edX Program Manager to request a data download of ORA
+#. Contact your edX partner manager to request a data download of ORA
    responses for your course.
 
    You will receive the download as a spreadsheet or in .csv file format.

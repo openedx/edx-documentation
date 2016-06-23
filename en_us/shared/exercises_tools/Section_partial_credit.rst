@@ -22,10 +22,10 @@ problem type.
 .. only:: Partners
 
   .. note::
-    Support for partial credit problems in courses on edx.org and edX
-    Edge is provisional. Ensure that you test such problems thoroughly before
-    releasing them to learners. For more information, contact your edX program
-    manager.
+    Support for the partial credit feature is provisional for courses on
+    edx.org and edX Edge. Ensure that you test such problems thoroughly before
+    you publish them to learners. For more information, contact your edX
+    partner manager.
 
 ==========================================
 How Learners Receive Partial Credit
@@ -39,7 +39,7 @@ incorrect answer options. The learner selected this incorrect option, and
 received 25% of the possible points.
 
 .. image:: ../../../shared/images/partial_credit_multiple_choice.png
- :alt: Image of a multiple choice problem with partial credit for an incorrect
+ :alt: A multiple choice problem with partial credit for an incorrect
      answer.
  :width: 500
 
@@ -57,8 +57,7 @@ the following ways.
   problem indicate that the answer was correct. Specifically, the
   ``correctness`` field has a value of ``correct``.
 
-  For more information about events, see :ref:`data:problem_check
-  (server)<problem>` in the *EdX Research Guide*.
+  For more information about events, see :ref:`data:problem` in the *EdX Research Guide*.
 
 * The **AnswerValue** in the :ref:`Student_Answer_Distribution` report is
   **1**, for correct.

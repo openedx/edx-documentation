@@ -323,6 +323,11 @@ called rerandomization), there is one row for each problem-variant-answer
 combination selected by your learners. For more information, see :ref:`Problem
 Settings`.
 
+.. note:: Certain types of problems can be set up to :ref:`award partial
+  credit<Awarding Partial Credit for a Problem>`. When a learner receives
+  either the full or a partial score for a problem, this report includes that
+  answer as correct.
+
 The .csv file contains the following columns.
 
 .. list-table::
@@ -332,14 +337,18 @@ The .csv file contains the following columns.
    * - Column
      - Description
    * - ModuleID
-     - The internal identifier for the Problem component.
+     - The internal identifier for the problem component.
    * - PartID
-     - For a Problem component that contains multiple problems, the internal
-       identifier for each individual problem. For a Problem component that
+     - For a problem component that contains multiple problems, the internal
+       identifier for each individual problem. For a problem component that
        contains a single problem, the internal identifier of that problem.
    * - Correct Answer
      - 0 if this **AnswerValue** is incorrect, or 1 if this **AnswerValue** is
        correct.
+
+       For a problem that is set up to award partial credit, 1 if the
+       **AnswerValue** awards either the full or a partial score.
+
    * - Count
      - The number of times that learners entered or selected this answer as
        their most recent submission for the problem or problem variant. For
