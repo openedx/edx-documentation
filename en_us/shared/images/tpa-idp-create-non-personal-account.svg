@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="15.865514in"
+   height="9.7069788in"
+   viewBox="0 0 1427.8962 873.62814"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="tpa-idp-create-non-personal-account.svg"
+   inkscape:export-filename="/Users/peterdesjardins/work/tpa/edx-documentation/en_us/shared/images/tpa-idp-create-non-personal-account.png"
+   inkscape:export-xdpi="56.72681"
+   inkscape:export-ydpi="56.72681">
+  <defs
+     id="defs4">
+    <marker
+       inkscape:stockid="Arrow1Sstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker5901"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5903"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         style="fill:#b0b0b0;fill-opacity:1;fill-rule:evenodd;stroke:#b0b0b0;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(0.2,0,0,0.2,1.2,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Sstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker5901-4"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5903-4"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         style="fill:#b0b0b0;fill-opacity:1;fill-rule:evenodd;stroke:#b0b0b0;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(0.2,0,0,0.2,1.2,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Sstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker5901-8"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5903-7"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         style="fill:#b0b0b0;fill-opacity:1;fill-rule:evenodd;stroke:#b0b0b0;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(0.2,0,0,0.2,1.2,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Sstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker5901-7"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5903-8"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         style="fill:#b0b0b0;fill-opacity:1;fill-rule:evenodd;stroke:#b0b0b0;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(0.2,0,0,0.2,1.2,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Sstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker5901-72"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5903-9"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         style="fill:#b0b0b0;fill-opacity:1;fill-rule:evenodd;stroke:#b0b0b0;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(0.2,0,0,0.2,1.2,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Sstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker5901-72-5"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5903-9-6"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         style="fill:#b0b0b0;fill-opacity:1;fill-rule:evenodd;stroke:#b0b0b0;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(0.2,0,0,0.2,1.2,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Sstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker5901-72-2"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5903-9-0"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         style="fill:#b0b0b0;fill-opacity:1;fill-rule:evenodd;stroke:#b0b0b0;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(0.2,0,0,0.2,1.2,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Sstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker5901-72-2-6"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5903-9-0-6"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         style="fill:#b0b0b0;fill-opacity:1;fill-rule:evenodd;stroke:#b0b0b0;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(0.2,0,0,0.2,1.2,0)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.71036093"
+     inkscape:cx="754.9525"
+     inkscape:cy="527.74115"
+     inkscape:document-units="px"
+     inkscape:current-layer="g5474-9"
+     showgrid="false"
+     units="in"
+     inkscape:window-width="1900"
+     inkscape:window-height="1074"
+     inkscape:window-x="605"
+     inkscape:window-y="194"
+     inkscape:window-maximized="0"
+     showguides="false"
+     fit-margin-top="0.75"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0.75" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-322.55921,721.02036)">
+    <g
+       id="g6822"
+       transform="translate(314.59748,-898.30846)">
+      <rect
+         style="fill:none;fill-opacity:1;stroke:#349fdd;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect4469-3"
+         width="533.12634"
+         height="541.21027"
+         x="900.23163"
+         y="247.2881" />
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#349fdd;stroke-width:5.30224657;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect4469-9-9"
+         width="491.39383"
+         height="242.72801"
+         x="29.427032"
+         y="514.56799" />
+      <flowRoot
+         xml:space="preserve"
+         id="flowRoot4471-4-8"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         transform="translate(-514.08211,266.70576)"><flowRegion
+           id="flowRegion4473-0-8"><rect
+             id="rect4475-2-6"
+             width="454.26807"
+             height="68.713005"
+             x="561.53461"
+             y="262.90271"
+             style="text-align:center;text-anchor:middle" /></flowRegion><flowPara
+           id="flowPara5184-37-2"
+           style="font-size:25px">No personally identifying information transmitted to edX site</flowPara></flowRoot>      <g
+         id="g5035"
+         transform="translate(-1025.0038,28)">
+        <rect
+           style="fill:#349fdd;fill-opacity:1"
+           y="578.98718"
+           x="1070.4198"
+           height="117.89713"
+           width="459.41599"
+           id="rect4136-2-5-0-3-2-1-1" />
+        <flowRoot
+           transform="translate(382.4359,256.42132)"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           id="flowRoot6131-6-0-2-1-4-2"
+           xml:space="preserve"><flowRegion
+             id="flowRegion6133-7-1-1-0-19-8"><rect
+               style="text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1"
+               y="332.66995"
+               x="669.55603"
+               height="103.22784"
+               width="495.90439"
+               id="rect6135-6-2-2-2-7-3" /></flowRegion><flowPara
+             id="flowPara4217-9-8-1-4"
+             style="font-size:25px">username: MyEdxAlias</flowPara><flowPara
+             style="font-size:25px"
+             id="flowPara4700-9">Email: myedxalias@othermail.com</flowPara><flowPara
+             style="font-size:25px"
+             id="flowPara5460-3-2">uri://1234@some.edu</flowPara></flowRoot>      </g>
+      <flowRoot
+         xml:space="preserve"
+         id="flowRoot5014"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         transform="translate(-357.58588,-30.415621)"><flowRegion
+           id="flowRegion5016"><rect
+             id="rect5018"
+             width="537.18762"
+             height="171.37547"
+             x="892.38446"
+             y="858.71313" /></flowRegion><flowPara
+           id="flowPara5020"
+           style="font-size:25px">Learners can enter non-identifying information in their edX profiles, after the IdP directs them to the edX site. The opaque identifier sent by the IdP remains associated with the edX learner profile.  </flowPara></flowRoot>      <path
+         inkscape:connector-curvature="0"
+         id="path5835-51"
+         d="m 881.65306,384.04532 93.93254,0"
+         style="fill:none;fill-rule:evenodd;stroke:#b0b0b0;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker5901-72)" />
+      <rect
+         style="fill:none;fill-opacity:1;stroke:#349fdd;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect4469-3-6"
+         width="542.18329"
+         height="540.87183"
+         x="10.461731"
+         y="247.6086" />
+      <flowRoot
+         transform="translate(-454.10363,8.27385)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="flowRoot4471-8-6"
+         xml:space="preserve"><flowRegion
+           id="flowRegion4473-9-2"><rect
+             style="text-align:center;text-anchor:middle"
+             y="262.90271"
+             x="561.53461"
+             height="29.684443"
+             width="334.4487"
+             id="rect4475-10-0" /></flowRegion><flowPara
+           id="flowPara5184-5-0"
+           style="font-size:25px">EdX site</flowPara></flowRoot>      <flowRoot
+         transform="translate(436.11368,8.27385)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="flowRoot4471-8-6-9"
+         xml:space="preserve"><flowRegion
+           id="flowRegion4473-9-2-4"><rect
+             style="text-align:center;text-anchor:middle"
+             y="262.90271"
+             x="561.53461"
+             height="29.684443"
+             width="334.4487"
+             id="rect4475-10-0-9" /></flowRegion><flowPara
+           id="flowPara5184-5-0-2"
+           style="font-size:25px">Learner Institution</flowPara></flowRoot>      <path
+         inkscape:connector-curvature="0"
+         id="path5835-51-7"
+         d="m 533.35442,384.04532 96.22503,0"
+         style="fill:none;fill-rule:evenodd;stroke:#b0b0b0;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker5901-72-5)" />
+      <g
+         id="g5429-5"
+         transform="translate(19.624436,-157.29327)">
+        <g
+           id="g5474-9">
+          <rect
+             id="rect4136-2-5-0-3-2-4"
+             width="299.81665"
+             height="101.21002"
+             x="552.62805"
+             y="490.73358"
+             style="fill:#349fdd;fill-opacity:1" />
+          <flowRoot
+             xml:space="preserve"
+             id="flowRoot6131-6-0-2-1-3"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             transform="translate(-110.73877,159.82416)"><flowRegion
+               id="flowRegion6133-7-1-1-0-7"><rect
+                 id="rect6135-6-2-2-2-6"
+                 width="286.0347"
+                 height="98.812576"
+                 x="669.55603"
+                 y="332.66995"
+                 style="text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1" /></flowRegion><flowPara
+               style="font-size:25px"
+               id="flowPara4217-9-8-6">Non-personal identifier</flowPara><flowPara
+               id="flowPara5472-1"
+               style="font-size:25px">uri://1234@some.edu</flowPara><flowPara
+               id="flowPara4203-0-5-8"
+               style="font-size:25px" /><flowPara
+               id="flowPara4189-9-1-8"
+               style="font-size:25px" /><flowPara
+               id="flowPara5460-0"
+               style="font-size:25px" /></flowRoot>        </g>
+      </g>
+      <path
+         inkscape:connector-curvature="0"
+         id="path5835-51-1"
+         d="m 275.12395,503.47146 0,-93.93254"
+         style="fill:none;fill-rule:evenodd;stroke:#b0b0b0;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker5901-72-2)" />
+      <g
+         id="g4900"
+         transform="translate(-320.66504,146.13575)">
+        <rect
+           y="188.97136"
+           x="349.12775"
+           height="97.876434"
+           width="493.32248"
+           id="rect4469-0"
+           style="fill:#ffffff;fill-opacity:1;stroke:#349fdd;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <flowRoot
+           transform="translate(-171.64998,-56.216428)"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           id="flowRoot4471-7"
+           xml:space="preserve"><flowRegion
+             id="flowRegion4473-2"><rect
+               style="text-align:center;text-anchor:middle"
+               y="262.90271"
+               x="561.53461"
+               height="63.915867"
+               width="411.58783"
+               id="rect4475-4" /></flowRegion><flowPara
+             id="flowPara5184-1"
+             style="font-size:25px">EdX site third-party authentication service</flowPara></flowRoot>      </g>
+      <path
+         inkscape:connector-curvature="0"
+         id="path5835-51-1-3"
+         d="m 1165.3414,442.2948 0,93.9326"
+         style="fill:none;fill-rule:evenodd;stroke:#b0b0b0;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker5901-72-2-6)" />
+      <g
+         id="g4939"
+         transform="translate(-136,0)">
+        <rect
+           y="335.10712"
+           x="1054.6802"
+           height="97.876434"
+           width="493.32248"
+           id="rect4469"
+           style="fill:#ffffff;fill-opacity:1;stroke:#349fdd;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <flowRoot
+           transform="translate(508.24181,103.12123)"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           id="flowRoot4471"
+           xml:space="preserve"><flowRegion
+             id="flowRegion4473"><rect
+               style="text-align:center;text-anchor:middle"
+               y="262.90271"
+               x="561.53461"
+               height="54.321594"
+               width="461.95776"
+               id="rect4475" /></flowRegion><flowPara
+             id="flowPara5184"
+             style="font-size:25px">Identity Provider (IdP) service</flowPara></flowRoot>      </g>
+      <g
+         transform="translate(-112,22)"
+         id="g4718">
+        <rect
+           y="492.56796"
+           x="1031.6445"
+           height="242.72801"
+           width="491.39383"
+           id="rect4469-9"
+           style="fill:#ffffff;fill-opacity:1;stroke:#349fdd;stroke-width:5.30224657;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <flowRoot
+           transform="translate(485.9994,252.70576)"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           id="flowRoot4471-4"
+           xml:space="preserve"><flowRegion
+             id="flowRegion4473-0"><rect
+               style="text-align:center;text-anchor:middle"
+               y="262.90271"
+               x="561.53461"
+               height="63.915867"
+               width="457.16061"
+               id="rect4475-2" /></flowRegion><flowPara
+             id="flowPara5184-37"
+             style="font-size:25px">Personally identifying information held by institution only</flowPara></flowRoot>        <g
+           id="g4706"
+           transform="translate(4.5776367e-5,6)">
+          <rect
+             id="rect4136-2-5-0-3-2-1"
+             width="413.8432"
+             height="117.89713"
+             x="1070.4198"
+             y="578.98718"
+             style="fill:#349fdd;fill-opacity:1" />
+          <flowRoot
+             xml:space="preserve"
+             id="flowRoot6131-6-0-2-1-4"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             transform="translate(380.7601,263.10203)"><flowRegion
+               id="flowRegion6133-7-1-1-0-19"><rect
+                 id="rect6135-6-2-2-2-7"
+                 width="453.89124"
+                 height="94.919426"
+                 x="669.55603"
+                 y="332.66995"
+                 style="text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1" /></flowRegion><flowPara
+               style="font-size:25px"
+               id="flowPara4217-9-8-1">Name: Jean Smith</flowPara><flowPara
+               id="flowPara4700"
+               style="font-size:25px">Email: jsmith@institution.edu</flowPara><flowPara
+               id="flowPara4704"
+               style="font-size:25px">Identifier: 5391395224</flowPara><flowPara
+               id="flowPara4203-0-5-6"
+               style="font-size:25px" /><flowPara
+               id="flowPara4189-9-1-18"
+               style="font-size:25px" /><flowPara
+               id="flowPara5460-3"
+               style="font-size:25px" /></flowRoot>        </g>
+      </g>
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 680.8083,816.14786 508.1114,662.63946"
+         id="path5087"
+         inkscape:connector-curvature="0" />
+    </g>
+  </g>
+</svg>
