@@ -402,7 +402,7 @@ configure partial credit.
  .. note::
     Support for partial credit problems in courses on edx.org and edX
     Edge is provisional. Ensure that you test such problems thoroughly before
-    releasing them to learners. For more information, contact your edX program
+    releasing them to learners. For more information, contact your edX partner
     manager.
 
 In the following example, the learner selected a wrong answer and received
