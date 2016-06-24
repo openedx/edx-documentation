@@ -9,8 +9,12 @@ libraries (https://xblock.readthedocs.org). These features are listed below.
 * `Testing`_
 * `Deploying your XBlock`_
 
+You can also render an individual XBlock in HTML with the :ref:`XBlock
+URL<XBlock URL Dev>`.
+
+***
 LMS
----
+***
 
 Runtime Features
 ~~~~~~~~~~~~~~~~
@@ -72,8 +76,9 @@ Restrictions
 * A block can't modify the value of any field with a scope where the ``user`` property
   is ``UserScope.NONE``.
 
+******
 Studio
-------
+******
 
 Class Features
 ~~~~~~~~~~~~~~
@@ -140,10 +145,15 @@ block to your ``setup.py`` ``entry_points`` list.
 (If you are still discovering XBlocks and simply used the ``workbench-make-new.py`` script as described in the
 :ref:`xblocktutorial:Open edX XBlock Tutorial`, look in the ``setup.py`` file that was created.)
 
-
-Deploying your XBlock
----------------------
+*********************
+Deploying Your XBlock
+*********************
 
 To deploy your block to your own hosted version of edx-platform, you need to install it
 into the virtualenv that the platform is running out of, and add to the list of ``ADVANCED_COMPONENT_TYPES``
 in ``edx-platform/cms/djangoapps/contentstore/views/component.py``.
+
+
+.. _XBlock URL Dev:
+
+.. include:: ../../../shared/dev/Section_XBlock_URL.rst
