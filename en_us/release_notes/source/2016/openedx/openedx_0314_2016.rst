@@ -28,7 +28,7 @@ has not changed, and learners can continue to check out using their credit
 cards or PayPal.
 
 For more information about the edX e-commerce service, see
-:ref:`installation:Adding E-Commerce to the Open edX Platform` in the
+:ref:`installation:Adding ECommerce to Open edX` in the
 *Installing, Configuring, and Running the Open edX Platform* guide.
 
 ====================
