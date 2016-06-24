@@ -7,8 +7,9 @@ XBlock Runtimes
 An XBlock runtime is the application that hosts XBlock. For example, the XBlock
 SDK, the :ref:`edX LMS <EdX Learning Management System as an XBlock Runtime>`,
 and :ref:`edX Studio <EdX Studio as an XBlock Runtime>` are all XBlock runtime
-applications.
-   
+applications. You can also render an individual XBlock in HTML with the XBlock
+URL.
+
 .. contents::
  :local:
  :depth: 1
@@ -20,14 +21,14 @@ Runtime Functions
 An XBlock runtime application performs the following functions.
 
 * Instantiate XBlocks with the correct data access.
-  
+
 * Display the HTML returned by XBlock views.
-  
-  .. note:: 
+
+  .. note::
     Runtime applications document the view names they require of XBlocks.
-  
+
 * Bind the front-end JavaScript code to the correct DOM elements.
-  
+
 * Route handler requests from the client-side XBlock to the server-side
   handlers.
 
@@ -173,6 +174,12 @@ gets the map of child XBlocks.
 XBlock Runtime API
 ******************
 
-For more information, see the `XBlock Runtime API`_ in the *XBlock API Guide*.
+For more information, see `XBlock Runtime API`_ in the *XBlock API Guide*.
 
+.. _XBlock URL Tutorial:
+
+.. include:: ../../../shared/dev/Section_XBlock_URL.rst
+
+
+.. _XBlock Runtime API: http://edx.readthedocs.io/projects/xblock/en/latest/
 .. include:: ../../../links/links.rst
