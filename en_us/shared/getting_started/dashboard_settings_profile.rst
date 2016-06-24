@@ -412,6 +412,8 @@ To view or change this information, follow these steps.
 
 EdX saves your changes automatically.
 
+.. _Link Accounts:
+
 ==========================================
 Link or Unlink a Social Media Account
 ==========================================
