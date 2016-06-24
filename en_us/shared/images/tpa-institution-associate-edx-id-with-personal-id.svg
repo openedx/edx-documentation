@@ -260,9 +260,9 @@
      inkscape:pageshadow="2"
      inkscape:zoom="0.71036093"
      inkscape:cx="729.17646"
-     inkscape:cy="334.45495"
+     inkscape:cy="784.93018"
      inkscape:document-units="px"
-     inkscape:current-layer="g5516"
+     inkscape:current-layer="g5614"
      showgrid="false"
      units="in"
      inkscape:window-width="1900"
@@ -283,7 +283,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -599,7 +599,7 @@
            id="rect4469-0"
            style="fill:#ffffff;fill-opacity:1;stroke:#349fdd;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
         <flowRoot
-           transform="translate(-464.65695,87.496238)"
+           transform="translate(-488.98752,103.12123)"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            id="flowRoot4471-7"
            xml:space="preserve"><flowRegion
@@ -607,11 +607,11 @@
                style="text-align:center;text-anchor:middle"
                y="262.90271"
                x="561.53461"
-               height="65.323608"
-               width="248.29054"
+               height="44.207581"
+               width="297.56125"
                id="rect4475-4" /></flowRegion><flowPara
              id="flowPara5184-1"
-             style="font-size:25px">Course grading report API</flowPara></flowRoot>      </g>
+             style="font-size:25px">Course grade report</flowPara></flowRoot>      </g>
       <flowRoot
          xml:space="preserve"
          id="flowRoot8214"
