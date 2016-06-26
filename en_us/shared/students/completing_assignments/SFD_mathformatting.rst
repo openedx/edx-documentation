@@ -159,7 +159,7 @@ expressions:
 
 To indicate ``-440,000``, you can enter either of the following expressions:
 
-* ``-4.4^5``
+* ``-4.4*10^5``
 * ``-4.4e5``
 
 The following table shows how to enter numbers with metric affixes, with
