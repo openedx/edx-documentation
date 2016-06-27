@@ -106,7 +106,7 @@ Ensuring Learner Email Addresses Do Not Contain PII
 
 EdX site learners receive email messages that contain information about the
 courses they are taking. An email address is required for every edX learner
-profile. Because email addresses may be personally identifying, you might
+profile. Because email addresses can be personally identifying, you might
 choose to supply an alias email address for learners who use third-party
 authentication.
 
