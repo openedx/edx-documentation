@@ -8,13 +8,14 @@ Open edX sites and edX Edge do not require any personally identifying
 information (PII) about learners during third-party authentication. Your
 identity provider (IdP) service can send only non-personal identifiers to
 create edX site user profiles for learners. If you configure third-party
-authentication in this way, the edX site never holds any PII for your learners.
+authentication in this way, the edX site never receives PII from your
+institution.
 
 After you have configured third-party authentication at an edX site, the edX
 site log in page displays a link to your IdP service. Learners follow that
-link, log in using their authentication credentials for your institution, and the IdP
-directs them back to the edX log in page, along with an authentication token
-containing information about the learner.
+link, log in using their authentication credentials for your institution, and
+the IdP directs them back to the edX log in page, along with an authentication
+token (a SAML attribute assertion statement) containing information about the learner.
 
 The IdP authentication token includes an identifying string for a learner. This
 identifier serves as a link between the personal identifying information that
@@ -26,7 +27,7 @@ does not make the identity of the learner visible.
 When learners use third-party authentication to log into an edX site for the
 first time, they create an edX learner profile. The new edX learner profile is
 permanently associated with the identifying string included in the IdP
-authentication token. Learners may enter an edX username, email address, and
+authentication token. Learners must enter an edX username, email address, and
 other information in their profiles. The information that learners enter does
 not need to be personally identifying. For more information, see
 :ref:`creating_learner_accounts_without_pii`.
@@ -49,6 +50,9 @@ learners to the learner records that your institution maintains, you can use
 the third-party authentication ID mapping REST API to retrieve the user ID SAML
 attribute and matching edX username for a learner. For more information about
 grade reports, see :ref:`opencoursestaff:Access_grades`.
+
+.. Institutions may be able to access learner information in other ways. Make
+.. the paragraph above more general when we know of those other methods.
 
 The following diagram shows how an institution that uses third-party
 authentication can match non-personally identifying edX learner usernames with
