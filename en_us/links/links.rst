@@ -6,6 +6,8 @@
 
 .. _change log for the Backbone.js library: https://github.com/jashkenas/backbone/blob/master/index.html#L4299
 
+.. _Query string syntax: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-query-string-query.html#query-string-syntax
+
 .. _Coming Soon Programs Page: https://open.edx.org/announcements/coming-soon-xseries-programs-page
 
 .. _Using edX Insights: http://edx.readthedocs.org/projects/edx-insights/en/latest/
