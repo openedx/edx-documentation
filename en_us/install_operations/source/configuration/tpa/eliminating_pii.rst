@@ -119,10 +119,10 @@ You can include some or all of the information that will be included in an edX
 learner account in the SAML attributes of an authentication token. Doing this
 can make it less likely that learners will choose to enter PII when they enter
 that information themselves. Authentication tokens can contain a username,
-first name, last name, and username that will appear in the form fields that
-learners use to create an edX learner account. By default, learners do have an
-opportunity to edit the information that you send in the authentication token
-before creating their accounts.
+first name, last name, and email address that will appear in the form fields
+that learners use to create an edX learner account. By default, learners do
+have an opportunity to edit the information that you send in the authentication
+token before creating their accounts.
 
 You can configure third-party authentication to bypass the registration page
 that allows learners to update the non-PII information that you send in
