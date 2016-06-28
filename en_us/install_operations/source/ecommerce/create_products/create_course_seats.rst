@@ -11,7 +11,8 @@ service creates the course seats that are associated with that course.
 
 To create a course seat, follow these steps.
 
-#. Follow the steps in :ref:`Create Products` to start your E-Commerce server.
+#. Follow the steps in :ref:`Create Products Overview` to start your E-Commerce
+   server.
 #. In a browser on your E-Commerce server, go to
    ``http://localhost:8002/courses`` to access the **Courses** page.
 #. On the **Courses** page, select **Add New Course**.

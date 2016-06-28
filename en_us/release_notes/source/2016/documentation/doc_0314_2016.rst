@@ -12,6 +12,5 @@ versions of this guide are available on the `docs.edx.org`_ website.
   Configuring, and Running the Open edX Platform - Dogwood Release* guide.
 
 * Installations running the latest version of Open edX can refer to
-  :ref:`installation:Adding E-Commerce to the Open edX Platform` in the
+  :ref:`installation:Adding ECommerce to Open edX` in the
   *Installing, Configuring, and Running the Open edX Platform* guide.
-
