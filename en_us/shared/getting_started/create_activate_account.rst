@@ -1,5 +1,4 @@
-You create, or register, an edx.org or edX Edge account on the registration
-page for edx.org or edX Edge. You can create an account in different ways.
+You can create an account for edx.org or edX Edge in different ways.
 
 * You can create an entirely new edx.org or edX Edge account.
 * You can use an existing social media account, such as a Facebook or Google
@@ -14,10 +13,10 @@ page for edx.org or edX Edge. You can create an account in different ways.
   your accounts, you sign in to your edX.org or edX Edge account automatically
   whenever you sign in to the external account.
 
-Creating an edX.org or edX Edge account has two steps.
+Creating an account for edx.org or edX Edge has two steps.
 
-#. :ref:`Create the account <edX Create an Account>` on the edX.org or edX Edge
-   website.
+#. :ref:`Create an account <edX Create an Account>` on the edX.org or edX Edge
+   website, or from the edX mobile app (for edX.org accounts only).
 #. :ref:`Activate the account <edX Activate an Account>` by using an email
    message that you receive automatically after your account is created.
 
@@ -27,20 +26,21 @@ Creating an edX.org or edX Edge account has two steps.
 Create an Account
 ==================
 
-You create, or register, an edx.org or Edge account on the account registration
-page.
+You create, or register, an edx.org or edX Edge account on the account
+registration page. For edx.org, you can also register from the edX mobile app.
 
 To register an account on edx.org or edX Edge, follow these steps.
 
 .. note::
   When you register an account, you specify a username that will represent you
   throughout the edx.org or edX Edge site. Course team members and other
-  learners only see your username. You cannot change your username after you
+  learners see only your username. You cannot change your username after you
   create your account. EdX recommends that you select your username carefully.
 
 #. Go to the edx.org or edX Edge registration page.
 
-   * For edx.org, go to https://courses.edx.org/register.
+   * For edx.org, go to https://courses.edx.org/register or open the edX
+     mobile app.
    * For edX Edge, go to https://edge.edx.org/register.
    * If you received an email invitation for a course, follow the instructions
      in the email message to go to the correct registration page.
