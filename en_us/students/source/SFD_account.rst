@@ -35,6 +35,8 @@ EdX hosts courses on the `edx.org`_ and `edX Edge`_ websites.
  both websites, you must complete the account registration process on both
  sites.
 
+.. _Create and Activate an Account:
+
 ********************************
 Create and Activate an Account
 ********************************
