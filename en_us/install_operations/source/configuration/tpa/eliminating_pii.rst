@@ -109,7 +109,7 @@ personally identifying.
 For more information about configuring the information in a third-party
 authentication token, see :ref:`Configuration Options for SAML Providers`.
 
-.. _specifying_user_account_information_to_exclude_pii
+.. _specifying_user_account_information_to_exclude_pii:
 
 ******************************************************
 Specifying Non-PII User Account Information By Default
