@@ -37,7 +37,7 @@ course on the edx.org site has the following URL.
 
 This video component appears as follows in the LMS.
 
-.. image:: ../../../../images/XBlock_URL_example_before.png
+.. image:: ../../../shared/images/XBlock_URL_example_before.png
     :alt: A video component presented in the context of the edX LMS, with
         navigational options to reach all other course content.
 
@@ -48,7 +48,7 @@ To construct the XBlock URL for the same video component, you obtain its
 
 When you use this URL, the video component appears in your browser as follows.
 
-.. image:: ../../../../images/XBlock_URL_example_after.png
+.. image:: ../../../shared/images/XBlock_URL_example_after.png
     :alt: A video component presented without any options for accessing other
         course content.
 
