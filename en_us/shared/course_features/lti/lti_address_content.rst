@@ -54,6 +54,8 @@ Another example is the edX DemoX course. The URL is
 
 The same course ID applies to every item of content in the course.
 
+.. _Finding the Usage ID for Course Content:
+
 ****************************************
 Finding the Usage ID for Course Content
 ****************************************
