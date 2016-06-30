@@ -23,6 +23,7 @@ configuration options.
    ora2/index
    enable_prerequisites
    enable_licensing
+   enable_course_visibility_in_catalog
    lti/index
    enable_socialsharing_icons
    tpa/index
