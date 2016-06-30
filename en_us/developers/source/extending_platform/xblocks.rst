@@ -21,7 +21,8 @@ LMS
 Runtime Features
 ================
 
-These are properties and methods available on ``self.runtime`` when a view or handler is executed by the LMS.
+These are properties and methods available on ``self.runtime`` when a view or
+handler is executed by the LMS.
 
 * anonymous_student_id: An identifier unique to the student in the particular
   course that the block is being executed in. The same student in two different
@@ -120,9 +121,9 @@ property is not ``UserScope.NONE``.
 Testing
 -------
 
-These instructions are temporary. Once XBlocks are fully supported by edx-
-platform (both the LMS and Studio), installation and testing will be much more
-straightforward.
+These instructions are temporary. Once XBlocks are fully supported by
+edx-platform (both the LMS and Studio), installation and testing will be much
+more straightforward.
 
 To enable an XBlock for testing in your devstack
 (https://github.com/edx/configuration/wiki/edX-Developer-Stack), follow these
@@ -172,6 +173,14 @@ to add your block to your ``setup.py`` ``entry_points`` list. (If you are still
 discovering XBlocks and simply used the ``workbench-make-new.py`` script as
 described in the :ref:`xblocktutorial:Open edX XBlock Tutorial`, look in the
 ``setup.py`` file that was created.)
+
+*********************
+Deploying Your XBlock
+*********************
+
+To deploy your block to your own hosted version of edx-platform, you need to
+install it into the virtualenv that the platform is running out of, and add to
+the list of ``ADVANCED_COMPONENT_TYPES`` in ``edx-platform/cms/djangoapps/contentstore/views/component.py``.
 
 *********************
 Deploying Your XBlock
