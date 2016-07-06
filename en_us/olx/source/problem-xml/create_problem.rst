@@ -55,8 +55,11 @@ the LMS, and in Insights.
      Insights.
  :width: 800
 
-Unique, descriptive display names help you and your learners identify problems
-quickly and accurately.
+Each problem type supplies a default display name that identifies the type of
+problem component added. Changing the default to a unique, descriptive display
+name can help you and your learners identify different problems quickly and
+accurately. If you delete the default display name and do not enter your own
+identifying name, the platform supplies "problem" for you.
 
 For more information about metrics for your course's problem components, see
 `Using edX Insights`_.

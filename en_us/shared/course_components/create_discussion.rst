@@ -62,7 +62,13 @@ Create a Discussion Component
     :width: 600
 
    The value in the **Display Name** field identifies the discussion in the
-   course content. The values in the **Category** and **Subcategory** fields
+   course content. The default display name for new discussion components is
+   "Discussion".  Changing the default to a unique, descriptive display name
+   can help you and your learners identify different topics quickly and
+   accurately. If you delete the default display name and do not enter your own
+   identifying name, the platform supplies "discussion" for you.
+
+   The values in the **Category** and **Subcategory** fields
    are visible to learners in the list of discussion topics on the
    **Discussion** page.
 

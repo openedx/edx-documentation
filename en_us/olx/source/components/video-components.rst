@@ -16,7 +16,8 @@ verticals (which it calls units).
 Create the XML File for a Video Component
 **********************************************
 
-To add a video component to your course, add it to the course XML tree as follows.
+To add a video component to your course, add it to the course XML tree as
+follows.
 
 .. code-block:: xml
 
@@ -80,8 +81,9 @@ The ``source`` element contains the following attribute.
    * - Attribute
      - Meaning
    * - ``display_name``
-     - The value that is displayed to students as the name of the video
-       component.
+     - Required. The value that is displayed to students as the name of the
+       video component. If you do not supply a ``display_name`` value, "video"
+       is supplied for you.
    * - ``youtube``
      - The speed and ID pairings for the YouTube video source. The value can
        contain multiple speed:ID pairs, separated by commas.
