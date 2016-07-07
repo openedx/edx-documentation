@@ -308,6 +308,11 @@ To add a video and its transcript to your course, follow these steps.
    video. This name appears as a heading above the video in the LMS, and it
    identifies the video for you in Insights.
 
+   The default display name for new video components is "Video". Changing the
+   default to a unique, descriptive display name can help you and your learners
+   identify different videos quickly and accurately. If you delete this default
+   and do not enter an identifying name, the platform supplies "video" for you.
+
 #. In the **Default Video URL** field, enter the URL of the video. Example
    URLs follow.
 
