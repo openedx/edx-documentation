@@ -9,16 +9,16 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="15.008316in"
-   height="12.693552in"
-   viewBox="0 0 1350.7484 1142.4197"
+   width="14.608315in"
+   height="13.293551in"
+   viewBox="0 0 1314.7483 1196.4196"
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
    sodipodi:docname="tpa-institution-associate-edx-id-with-personal-id.svg"
    inkscape:export-filename="/Users/peterdesjardins/work/tpa/edx-documentation/en_us/shared/images/tpa-institution-associate-edx-id-with-personal-id.png"
-   inkscape:export-xdpi="59.610001"
-   inkscape:export-ydpi="59.610001">
+   inkscape:export-xdpi="61.610001"
+   inkscape:export-ydpi="61.610001">
   <defs
      id="defs4">
     <marker
@@ -259,8 +259,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.71036093"
-     inkscape:cx="503.93891"
-     inkscape:cy="574.54123"
+     inkscape:cx="598.55772"
+     inkscape:cy="601.54118"
      inkscape:document-units="px"
      inkscape:current-layer="g6822"
      showgrid="false"
@@ -271,10 +271,10 @@
      inkscape:window-y="64"
      inkscape:window-maximized="0"
      showguides="false"
-     fit-margin-top="0.75"
-     fit-margin-left="0.2"
-     fit-margin-right="0.2"
-     fit-margin-bottom="0.75" />
+     fit-margin-top="1.05"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="1.05" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -283,7 +283,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -291,7 +291,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-304.26887,1135.0938)">
+     transform="translate(-322.26887,1162.0938)">
     <g
        id="g6822"
        transform="translate(314.59748,-898.30846)">
