@@ -15,6 +15,12 @@ documentation.
   :local:
   :depth: 2
 
+********************
+Week of 11 July 2016
+********************
+
+.. include:: 2016/documentation/doc_0711_2016.rst
+
 *************************
 Week of 27 June 2016
 *************************
