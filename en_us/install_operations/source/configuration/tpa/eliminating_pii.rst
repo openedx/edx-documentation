@@ -7,10 +7,10 @@ Eliminating PII From Third-Party Authentication
 Open edX sites and edX Edge do not require any personally identifiable
 information (PII) about learners during third-party authentication. PII is
 information that can be used to reveal an individual's identity, such as a
-name, identification number, or email address. Your identity provider (IdP)
-service can send only non-personal identifiers to create edX site accounts for
-learners. If you configure third-party authentication in this way, the edX site
-never receives PII from your institution.
+name. Your identity provider (IdP) service can send only non-personal
+identifiers to create edX site accounts for learners. If you configure third-
+party authentication in this way, the edX site never receives PII from your
+institution.
 
 .. contents::
    :local:
@@ -18,14 +18,14 @@ never receives PII from your institution.
 
 .. note::
   The types of information that constitute PII and requirements for handling it
-  are different depending on the laws and regulations that apply to your
-  organization. The information in this documentation is intended to explain
-  how edX sites can be configured to handle learner data. You cannot rely on
-  this documentation as a source of legal guidance.
+  depend on the laws and regulations that apply to your organization. The
+  information in this documentation is intended to explain how edX sites can be
+  configured to handle learner data. You cannot rely on this documentation as a
+  source of legal guidance.
 
-*****************************************
-Creating edX Learner Accounts Without PII
-*****************************************
+******************************************************
+Creating edX Learner Accounts Without Transmitting PII
+******************************************************
 
 After you have configured third-party authentication at an edX site, the edX
 site log in page displays a link to your IdP service. Learners follow that
@@ -44,9 +44,10 @@ does not make the identity of the learner visible.
 When a learner uses third-party authentication to log into an edX site for the
 first time, the edX site creates a learner account. The new edX learner account
 is permanently associated with the identifying string included in the IdP
-authentication token. Learners enter edX usernames, email addresses, and
-other information in their accounts. The information that learners enter does
-not need to be PII. For more information, see
+authentication token. Learners will be prompted to create profiles by entering
+edX usernames, email addresses, and other information in their accounts.
+Learners can take steps to minimize the PII in their profiles. For more
+information, see
 :ref:`creating_learner_accounts_without_pii`.
 
 The following diagram shows how an IdP can direct a learner to an edX site to
@@ -60,13 +61,12 @@ create a learner account, without transmitting any PII.
 
 You can download a report containing grades for all learners in the edX courses
 that you run. The report includes the edX username for each learner enrolled in
-the course. Because the edX site does not hold any personally identifying
-information for learners, the usernames do not correspond to learner records
-that your institution maintains. If you need to match the scores for edX site
-learners to the learner records that your institution maintains, you can use
-the third-party authentication ID mapping REST API to retrieve the user ID SAML
-attribute and matching edX username for a learner. For more information about
-grade reports, see :ref:`opencoursestaff:Access_grades`.
+the course, but the usernames may not correspond to learner records that your
+institution maintains. If you need to match the scores for edX site learners to
+the learner records that your institution maintains, you can use the third-
+party authentication ID mapping REST API to retrieve the user ID SAML attribute
+and matching edX username for a learner. For more information about grade
+reports for edX courses that you run, see :ref:`opencoursestaff:Access_grades`.
 
 .. Institutions may be able to access learner information in other ways. Make
 .. the paragraph above more general when we know of those other methods.
@@ -85,20 +85,23 @@ the records that the institution holds for those learners.
 
 .. _creating_learner_accounts_without_pii:
 
-*******************************************************
-Excluding PII from Authentication Token SAML Attributes
-*******************************************************
+**********************************
+Minimizing PII in Account Profiles
+**********************************
 
 When your IdP directs a learner to an edX site for the first time, the learner
-enters information to create an edX site account. The username in a account
-identifies the learner in course discussions and in records such as course
-grades. The edX site sends course updates to the email address in a learner
-account.
+enters information to create an edX site account. The basic information
+required for an edX site account is an email address, full name, public
+username, password, and country.  Learners may also provide additional personal
+details such as gender, year of birth, and educational background.  While
+course teams have access to full registration information for learners enrolled
+in their courses, only public usernames are used to identify learners in course
+discussions and other public-facing course interactions.
 
-To avoid storing PII on an edX site, learners can enter non-personally
-identifying information in their accounts. For example, a learner can use an
-alias as a username and create a non-identifying email address to receive
-course updates.
+To minimize PII stored on an edX site, learners can limit the information in
+their edX account profiles to the basic information required for an edX site
+account.  Additionally, learners may use random or nondescript public
+usernames and create non-identifying email addresses to receive course updates.
 
 If you want to avoid transmitting PII for the edX learner accounts that use
 third-party authentication, you should not include personally identifying
@@ -125,7 +128,7 @@ have an opportunity to edit the information that you send in the authentication
 token before creating their accounts.
 
 You can configure third-party authentication to bypass the registration page
-that allows learners to update the non-PII information that you send in
+that allows learners to update any non-PII information that you send in
 authentication tokens. If you do this, you should keep in mind that if the edX
 site encounters problems creating an account with the information you supply,
 the learner will have an opportunity to update the information and correct the
