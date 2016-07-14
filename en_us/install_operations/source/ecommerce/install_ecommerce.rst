@@ -260,7 +260,7 @@ steps.
     .. code-block:: bash
 
       $ sudo su ecommerce
-      $ make devserve
+      $ make serve
 
 #. To run the server, execute the following command.
 
