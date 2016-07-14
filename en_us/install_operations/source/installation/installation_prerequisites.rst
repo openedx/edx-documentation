@@ -24,7 +24,8 @@ following items.
 * Diagnosing and fixing failures may involve many different technologies and
   skills. It will help to know these things.
 
-  - The basics of how Python web applications are built, installed and deployed.
+  - The basics of how Python web applications are built, installed, and
+    deployed.
 
   - How to manage a Linux system, including supervisor.
 
@@ -44,7 +45,8 @@ Devstack, fullstack, and analytics devstack require the following software.
 
 * `Vagrant`_ 1.6.5 or later.
 
-* A Network File System (NFS) client, if your operating system does not include
-  one. Devstack uses VirtualBox Guest Editions to share folders through NFS.
+* An NFS (network file system) client, if your operating system does not
+  include one. NFS allows devstack and fullstack virtual machines to share a
+  common file system with host computers.
 
 .. include:: ../../../links/links.rst
