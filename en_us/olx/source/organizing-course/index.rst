@@ -4,7 +4,8 @@
 Organizing Courseware
 ##################################
 
-Use the topics in this section to organize your courseware with OLX.
+The topics in this section describe how to use OLX (open learning XML) to
+organize your courseware.
 
 .. toctree::
    :maxdepth: 2

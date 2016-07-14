@@ -3,7 +3,7 @@ Read Me
 *******
 
 The *edX Open Learning XML Guide* provides the information you need to build an
-edX course through Open Learning XML (OLX) and supporting files, without using
+edX course through OLX (open learning XML) and supporting files, without using
 edX Studio.  This document is an Alpha version. We will continue to make
 significant updates to improve your ability to build XML-based courses.
 

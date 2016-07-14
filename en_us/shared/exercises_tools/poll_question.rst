@@ -42,7 +42,7 @@ Enable the Poll Tool
 *******************************************
 
 Before you can add a poll to your course, you must enable the poll tool in
-Studio or OLX.
+Studio or OLX (open learning XML).
 
 To enable the poll tool in Studio, you add the ``"poll"`` key to the **Advanced
 Module List** on the **Advanced Settings** page. (Be sure to include the

@@ -47,7 +47,7 @@ Enable the Survey Tool
 *********************************************
 
 Before you can add a survey to your course, you must enable the survey tool in
-Studio or OLX.
+Studio or OLX (open learning XML).
 
 To enable the survey tool in Studio, you add the ``"survey"`` key to the
 **Advanced Module List** on the **Advanced Settings** page. (Be sure to

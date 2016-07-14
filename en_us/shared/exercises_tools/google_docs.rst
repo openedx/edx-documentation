@@ -64,7 +64,7 @@ Enable the Google Drive Files Tool
 ==================================================
 
 Before you can add Google Drive files to your course, you must enable the
-Google Drive tool in Studio or OLX.
+Google Drive tool in Studio or OLX (open learning XML).
 
 To enable the Google Drive tool in Studio, you add the ``"google-document"``
 key to the **Advanced Module List** on the **Advanced Settings** page. For

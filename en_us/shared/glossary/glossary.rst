@@ -58,8 +58,8 @@ A
 
 **Advanced Editor**
 
-  An XML-only editor in a problem component that allows you to create and edit
-  any type of problem. For more information, see
+  An OLX (open learning XML) editor in a problem component that allows you to
+  create and edit any type of problem. For more information, see
   :ref:`partnercoursestaff:Advanced Editor`.
 
 
@@ -78,7 +78,7 @@ C
 
 **CAPA Problem**
 
-  A "Computer Assisted Personalized Approach" (CAPA) problem refers to any of
+  A CAPA (computer assisted personalized approach) problem refers to any of
   the problem types that are implemented in the edX platform by the
   ``capa_module`` XBlock. Examples range from text input, drag and drop, and
   math expression input problem types to circuit schematic builder, custom
@@ -236,7 +236,7 @@ C
 
 **Courseware**
 
-  In Open Learning XML (OLX) and in data packages, "courseware" refers to the
+  In OLX (open learning XML) and in data packages, "courseware" refers to the
   main content of your course, consisting mainly of lessons and assessments.
   Courseware is organized into sections, subsections, units, and components.
   Courseware does not include handouts, the syllabus, or other course
@@ -385,7 +385,7 @@ E
 
   A tool in edX Studio that you use to export your course or library for
   backup purposes, or so that you can edit the course or library directly in
-  XML format. See also :ref:`Import<I>`.
+  OLX format. See also :ref:`Import<I>`.
 
   For more information, see :ref:`partnercoursestaff:Export a Course` or
   :ref:`partnercoursestaff:Export a Library`.
@@ -466,7 +466,7 @@ I
 
 **Import**
 
-  A tool in edX Studio that you use to load a course or library in XML format
+  A tool in edX Studio that you use to load a course or library in OLX format
   into your existing course or library. When you use the Import tool, Studio
   replaces all of your existing course or library content with the content
   from the imported course or library. See also :ref:`Export<E>`.
@@ -622,6 +622,14 @@ N
 ****
 O
 ****
+
+**OLX**
+
+  OLX  (open learning XML) is the XML-based markup language that is used to
+  build courses on the Open edX platform.
+
+  For more information, see :ref:`olx:What is Open Learning XML?`.
+
 
 .. _Open Response Assessment_g:
 

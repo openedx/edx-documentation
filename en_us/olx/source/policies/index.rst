@@ -4,7 +4,8 @@
 Policies
 #################################
 
-Use the chapters in this section to define policies for your course.
+The topics in this section describe how to use OLX (open learning XML) to
+define policies for your course.
 
 .. toctree::
    :maxdepth: 2

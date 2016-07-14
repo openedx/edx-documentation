@@ -28,9 +28,9 @@ one correct answer.
    questions. Checkbox problems with ambiguity can be frustrating to learners,
    especially if the problems have a limited number of attempts.
 
-**************************************************
+==========================================
 Analyzing Performance on Checkbox Problems
-**************************************************
+==========================================
 
 For the checkbox problems in your course, you can use edX Insights to review
 aggregated learner performance data and examine submitted answers. For more
@@ -42,10 +42,11 @@ Creating a Checkbox Problem
 
 You can create checkbox problems in the simple editor or in the advanced
 editor. You can set up a problem in the simple editor, and then switch to the
-advanced editor to add more configuration options in XML. However, you cannot
-switch back to the simple editor from the advanced editor. Therefore, you
-might want to format the problem as completely as possible before you begin to
-use the advanced editor.
+advanced editor to change problem configuration using OLX (open learning XML).
+However, you cannot switch back to the simple editor from the advanced editor.
+Therefore, you might want to format the problem as completely as possible
+before you begin to use the advanced editor.
+
 
 .. _Use the Simple Editor to Create a Checkbox Problem:
 
@@ -115,7 +116,7 @@ problem, follow these steps.
 
 #. Follow the steps for creating the problem in the :ref:`simple editor<Use
    the Simple Editor to Create a Checkbox Problem>`.
-#. Select **Advanced Editor**, and then edit the XML to add the tags and
+#. Select **Advanced Editor**, and then edit the OLX to add the tags and
    attributes you want. An example follows.
 
 .. code-block:: xml
@@ -465,9 +466,9 @@ Configure an EDC Checkbox Problem
 **********************************
 
 To configure an EDC checkbox problem, you add the ``partial_credit="EDC"``
-attribute to the ``<choiceresponse>`` element in the problem XML.
+attribute to the ``<choiceresponse>`` element in the problem OLX.
 
-For example, the following XML shows the checkbox problem template after it is
+For example, the following OLX shows the checkbox problem template after it is
 updated to provide partial credit.
 
 .. code-block:: xml
@@ -635,10 +636,10 @@ Configure a Halves Checkbox Problem
 
 To configure a halves checkbox problem, you add the
 ``partial_credit="halves"`` attribute to the ``<choiceresponse>`` element in
-the problem XML.
+the problem OLX.
 
-For example, the following XML shows the checkbox problem template
-updated to provide partial credit.
+The following example shows the checkbox problem template updated to provide
+partial credit.
 
 .. code-block:: xml
 
@@ -655,7 +656,7 @@ updated to provide partial credit.
 .. _Checkbox Problem XML:
 
 ****************************
-Checkbox Problem XML
+Checkbox Problem OLX
 ****************************
 
 ============
