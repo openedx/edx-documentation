@@ -10,18 +10,40 @@ This section describes how to install the Open edX full stack (fullstack).
    :local:
    :depth: 1
 
-.. note::
-  Before you install Open edX fullstack, make sure that you have met the
-  :ref:`installation prerequisites<Installation Prerequisites>`.
+****************************************
+Installation Prerequisites for Fullstack
+****************************************
 
-.. note::
-  Before beginning the installation, ensure that you have your local computer's
-  administrator's password. The password is needed so that NFS can be set up to
-  allow users to access code directories directly from your computer.
+Before you install Open edX fullstack, make sure that you have met the
+:ref:`installation prerequisites<Installation Prerequisites>`.
+
+You must also ensure that you have your local computer's administrator
+password. The password is needed to set up NFS (network file system). The
+fullstack installation uses NFS to share files between the virtual fullstack
+machine and the host computer, which allows users to access code directories
+directly from your computer.
+
+******************
+Install Fullstack
+******************
 
 To install fullstack directly from the command line, follow these steps.
 
-#. Ensure the ``nfsd`` client is running.
+#. Ensure the ``nfsd`` client is running. You can use the ``nfsd status``
+   command.
+
+   .. code-block:: bash
+
+     sudo nfsd status
+     nfsd service is enabled
+     nfsd is running (pid 313, 8 threads)
+
+   If the nfsd service is not running, use the ``nfsd start`` command.
+
+   .. code-block:: bash
+
+     sudo nfsd start
+     Starting the nfsd service
 
 #. Create the ``fullstack`` directory and navigate to it in the command prompt.
 

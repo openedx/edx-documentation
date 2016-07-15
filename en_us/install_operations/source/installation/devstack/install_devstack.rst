@@ -10,32 +10,41 @@ This section describes how to install the Open edX developer stack (devstack).
    :local:
    :depth: 1
 
-.. note::
- Before you install devstack, make sure that you have met the
- :ref:`installation prerequisites<Installation Prerequisites>`.
+****************************************
+Installation Prerequisites for Devstack
+****************************************
+
+Before you install devstack, make sure that you have met the
+:ref:`installation prerequisites<Installation Prerequisites>`.
+
+You must also ensure that you have the administrator password for your local
+computer. The administrator password is needed to configure NFS (network file
+system) to allow users to access code directories directly from your computer.
 
 .. _Install DevStack:
 
 ******************************************************
-Installing Devstack with a Direct Vagrant Box Download
+Install Devstack with a Direct Vagrant Box Download
 ******************************************************
 
-To install devstack, follow the instructions
-below. During the installation, the Vagrant virtual machine management tool will download an Open edX virtual maching ``box`` file.
+During an installation of this type, the Vagrant virtual machine management
+tool downloads an Open edX virtual maching ``box`` file.
 
 .. note::
 
    The first time you start the devstack virtual machine, Vagrant downloads a
-   ``box`` file, which has a file size of approximately four gigabytes. You can
-   also install devstack using a torrent file that you download separately. For
-   more information, see :ref:`install_devstack_with_torrent_file`.
+   ``box`` file, which has a file size of approximately four gigabytes. This
+   installation method might not be suitable if your internet connection is
+   limited or intermittent.
 
-Before beginning the installation, make sure that you have the administrator
-password for your local computer. The administrator password is needed to
-configure NFS to allow users to access code directories directly from your
-computer.
+   You can also install devstack using a torrent file that you download
+   separately. For more information, see
+   :ref:`install_devstack_with_torrent_file`.
 
-#. Ensure the ``nfsd`` client is running. Use the ``nfsd status`` command.
+To install devstack with a direct Vagrant box download, follow these steps.
+
+#. Ensure the ``nfsd`` client is running. You can use the ``nfsd status``
+   command.
 
    .. code-block:: bash
 
@@ -102,13 +111,13 @@ For help with the devstack installation, see
 .. _install_devstack_with_torrent_file:
 
 *******************************************************
-Installing Devstack with a Torrent Vagrant Box Download
+Install Devstack with a Torrent Vagrant Box Download
 *******************************************************
 
 You can use a BitTorrent client to download the Vagrant box file. Downloading
 the box file and installing it in your Vagrant environment will prevent Vagrant
 from downloading the box file directly when you start it for the first time.
-This may be useful if you have a limited  or intermittent connection to the
+This may be useful if you have a limited or intermittent connection to the
 internet and cannot download a large file.
 
 To install devstack using a box file that you download with a BitTorrent
