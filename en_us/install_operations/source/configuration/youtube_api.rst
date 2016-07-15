@@ -42,6 +42,10 @@ Install the YouTube API Key in Open edX
 After you obtain a YouTube API key, you must install that key into your
 Open edX installation. There are two different ways you can do this.
 
+.. contents::
+   :local:
+   :depth: 1
+
 Option 1: Ansible (recommended)
 ===============================
 
@@ -50,7 +54,8 @@ If you set your YouTube API key in Ansible's configuration file, then Ansible
 will make sure that the YouTube API key remains in place when you update Open
 edX.
 
-To set your YouTube API key in Ansible's configuration file, complete the following steps.
+To set your YouTube API key in Ansible's configuration file, follow these
+steps.
 
 #. Find the `configuration`_ repository on your Open edX server. If you are
    running devstack or fullstack, the directory is
@@ -69,7 +74,9 @@ To set your YouTube API key in Ansible's configuration file, complete the follow
 #. Save and close the file.
 
 #. Run Ansible so that it applies your YouTube API key to your Open edX
-   installation. If you are running the Open edX Cypress release, run the
+   installation.
+
+   For example, if you are running the Open edX Cypress release, run the
    following command.
 
    .. code-block:: bash
