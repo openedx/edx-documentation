@@ -7,19 +7,19 @@ Set Up Group Configuration for OLX Courses
 ************************************************
 
 You define group configurations in the ``policy.json`` file in the ``policies``
-directory of an OLX course.
+directory of an OLX (open learning XML) course.
 
 To specify group configurations, you modify the value for the
 ``user_partitions`` policy key.
 
-.. note::  
+.. note::
   ``user_partitions`` is the internal edX Platform name for group
   configurations.
 
 The value for ``user_partitions`` is a JSON collection of group configurations,
 each of which defines the experiment groups of learners.
 
-.. note:: 
+.. note::
   Use names for group configurations that are meaningful. You select from the
   list of group configuration names when you add a content experiment.
 
@@ -92,7 +92,7 @@ experiment groups, and the second divides learners into three experiment groups.
                                      ]}
                        ]
 
-.. note:: 
+.. note::
   As this example shows, each group configuration is independent.  Group IDs
   and names must be unique within a group configuration, but not across all
   group configurations in your course.

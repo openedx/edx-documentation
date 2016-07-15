@@ -4,7 +4,8 @@
 Course Components (XBlocks)
 #################################
 
-Use the topics in this section to create course components.
+The topics in this section describe how to use OLX (open learning XML) to
+create and edit course components.
 
 .. toctree::
    :maxdepth: 2

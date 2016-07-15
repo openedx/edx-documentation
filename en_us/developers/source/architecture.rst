@@ -88,7 +88,7 @@ In addition to XBlocks, there are a few ways to extend course behavior:
 
 * JavaScript components can be integrated using `JS Input`_.
 
-* Courses can be exported and imported using Open Learning XML (OLX), an XML-
+* Courses can be exported and imported using OLX (open learning XML), an XML-
   based format for courses.
 
 ======

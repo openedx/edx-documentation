@@ -4,7 +4,7 @@
 OLX Course Structure
 ###############################################
 
-This topic describes the structure of a generic OLX course.
+This topic describes the structure of a generic OLX (open learning XML) course.
 
 .. contents::
   :local:

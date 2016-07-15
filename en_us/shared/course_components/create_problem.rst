@@ -43,16 +43,20 @@ Assignment Type and Due Date for a Subsection`.
 The Studio View of a Problem
 ************************************
 
-All problems are written in XML. However, Studio offers two interfaces for
-editing problem components: the simple editor and the advanced editor.
+The information that you specify for every problem component is saved in OLX
+(Open Learning XML), edX's XML standard. However, for many problem components
+Studio offers two different editing interfaces: the simple editor and the
+advanced editor.
 
-*  The simple editor allows you to edit problems visually, without
-   having to work with XML.
+*  The simple editor allows you to edit problems visually, and you use
+   markdown-style formatting indicators to identify elements such as the
+   question and the correct answer. You do not need to know XML or OLX (open
+   learning XML) to use this editor.
 
-*  The advanced editor converts the problem to edX's XML standard and
-   allows you to edit that XML directly.
+*  The advanced editor presents problems with their OLX markup elements and
+   attributes. You can edit problems in the advanced editor as well.
 
-You can switch at any time from the simple editor to the advanced editor by
+You can switch from the simple editor to the advanced editor at any time by
 selecting **Advanced Editor** from the simple editor's toolbar. However, after
 you save a problem in the advanced editor, you cannot open it again in the
 simple editor.
@@ -63,31 +67,28 @@ simple editor.
 The Simple Editor
 =================
 
-When you select the following problem types, the simple editor opens with a
-preformatted example problem.
+When you add one of these standard CAPA (computer assisted personalized
+approach) problem types, the simple editor opens with a preformatted example
+problem.
 
-*  :ref:`Checkbox`: In checkbox problems, learners select one or more options
-   from a list of possible answers.
+.. change to ...preformatted template.
 
-*  :ref:`Dropdown`: In dropdown problems, learners select one answer from a
-   dropdown list.
+*  :ref:`Checkbox`
 
-*  :ref:`Multiple Choice`: Multiple choice problems require learners to select
-   one answer from a list of choices that appear below the problem text.
+*  :ref:`Dropdown`
 
-*  :ref:`Numerical Input`: Numerical input problems require answers that
-   include only integers, fractions, and a few common constants and
-   operators.
+*  :ref:`Multiple Choice`
 
-*  :ref:`Text Input`: In text input problems, learners enter a short text
-   answer.
+*  :ref:`Numerical Input`
+
+*  :ref:`Text Input`
 
 The following image shows an example multiple choice problem in the simple
 editor.
 
 .. image:: ../../../shared/images/MultipleChoice_SimpleEditor.png
- :alt: An image of the simple editor with numbered callouts for each option,
-  and an example multiple choice problem to demonstrate the formatting.
+ :alt: An example multiple choice problem in the simple editor with numbered
+     callouts that demonstrate the markdown formatting.
  :width: 600
 
 The simple editor includes a toolbar with options that provide the required
@@ -145,8 +146,8 @@ Descriptions of the toolbar options follow.
 The Advanced Editor
 ===================
 
-The advanced editor opens a problem in XML. Templates for problems such as
-such as drag and drop and math expression input open directly in the advanced
+The advanced editor shows the OLX markup for a problem. Templates for some
+problem types, such as math expression input, open directly in the advanced
 editor.
 
 The following image shows the multiple choice problem above in the advanced
@@ -216,11 +217,10 @@ the LMS, and in Insights.
      Insights.
  :width: 800
 
-Each problem type supplies a default display name that identifies the type of
-problem component added. Changing the default to a unique, descriptive display
-name can help you and your learners identify different problems quickly and
-accurately. If you delete the default display name and do not enter your own
-identifying name, the platform supplies "problem" for you.
+Unique, descriptive display names help you and your learners identify problems
+quickly and accurately. If you delete the default display name and do not enter
+your own identifying name, the platform supplies "problem" for you.
+
 
 For more information about metrics for your course's problem components, see
 `Using edX Insights`_.
@@ -409,7 +409,7 @@ Show Answer
 ===============
 
 This setting defines when learners are shown the answers to a problem and has
-the following options
+the following options.
 
 .. list-table::
    :widths: 15 70
@@ -561,8 +561,8 @@ The problems can be different types.
   component.
 
 To create multiple problems in one component, create a new Blank Advanced
-problem component, and then add the XML for each problem in the component
-editor. You only need to include the XML for the problem and its answers. You
+problem component, and then add the OLX  for each problem in the component
+editor. You only need to include the OLX  for the problem and its answers. You
 do not have to include the code for other elements, such as the **Check**
 button.
 
@@ -608,7 +608,7 @@ Course Outline Terminology in Exported Files
 
 Sections, subsections, units, and components have different names in the
 **Course Outline** view and in the list of files that you will see after you
-export your course and open the .xml files for editing. The following table
+export your course and open the OLX files for editing. The following table
 lists the names of these elements in the **Course Outline** view and in a list
 of files.
 
@@ -638,7 +638,7 @@ Create Randomized Problems
 ==========================
 
 .. note:: Creating randomized problems by exporting your course and editing
-   some of your course's XML files is no longer supported.
+   some of your course's OLX files is no longer supported.
 
 You can provide different learners with different problems by using randomized
 content blocks, which randomly draw problems from pools of problems stored in

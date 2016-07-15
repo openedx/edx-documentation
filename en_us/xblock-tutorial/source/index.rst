@@ -15,6 +15,7 @@ Open edX XBlock Tutorial
     customize/index
     concepts/index
     edx_platform/index
+    glossary
 
 **********
 Appendices

@@ -115,10 +115,9 @@ To import a course, follow these steps.
 Work with the .tar.gz File
 ******************************
 
-Courses are exported and imported in .tar.gz files containing OLX, an edX
-format for open course exchange. For more information about OLX, see the `edX
-OLX Documentation <http://edx.readthedocs.org/projects/edx-open-learning-
-xml/en/latest/>`_.
+Courses are exported and imported in .tar.gz files containing OLX (open
+learning XML), the edX markup format for open course exchange. For more
+information about OLX, see the :ref:`olx:edX Open Learning XML Guide`.
 
 To extract and compress .tar.gz files, you use a third-party program.
 
@@ -132,7 +131,7 @@ If you are using Microsoft Windows, see the following resources.
 * `The gzip Home Page <http://www.gzip.org/>`_
 
 * The `Windows <http://www.ofzenandcomputing.com/how-to-open-tar-gz-files/#windows>`_ section of the `How to Open .tar.gz Files
-  <http://www.ofzenandcomputing.com /how-to-open-tar-gz-files/>`_ page
+  <http://www.ofzenandcomputing.com/how-to-open-tar-gz-files/>`_ page
 
 If you are using a Macintosh computer, see the following resource.
 
