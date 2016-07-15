@@ -1218,9 +1218,17 @@ context, so you must use one of the following safe filters.
 
 .. code-block:: mako
 
-    ## DO this
+    <%!
+    from openedx.core.djangolib.js_utils import dump_js_escaped_json
+    %>
+    ...
     ${x | n, dump_js_escaped_json}
+
     ## or
+    <%!
+    from openedx.core.djangolib.js_utils import js_escaped_string
+    %>
+    ...
     ${x | n, js_escaped_string}
 
     ## or DO this sparingly
