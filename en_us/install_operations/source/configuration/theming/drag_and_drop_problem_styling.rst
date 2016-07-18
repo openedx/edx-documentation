@@ -63,7 +63,7 @@ Python module, follow these steps.
    drop-v2`` object to the ``XBLOCK_SETTINGS`` object. Include the content
    shown in the following example.
 
-   .. code-block:: none
+   .. code-block:: json
 
            "XBLOCK_SETTINGS":{
                 "drag-and-drop-v2": {
