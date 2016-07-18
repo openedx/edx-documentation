@@ -49,7 +49,7 @@ Within that file, you must define whatever themable Sass variables you want,
 and then import the core Sass file that you wish to override.
 Your theme's ``lms-main.scss`` might look like this example.
 
-.. code-block:: sass
+.. code-block:: css
 
     // Make the background red
     $header-bg: rgb(250,0,0);
@@ -96,7 +96,7 @@ now includes the following subdirectories and files.
 Without using partials, the contents of the ``lms-main-rtl.scss`` file might
 look like this example.
 
-.. code-block:: sass
+.. code-block:: css
 
     // Make the background red
     $header-bg: rgb(250,0,0);
@@ -128,7 +128,7 @@ that the name starts with an underscore!
 In this ``_overrides.scss`` file, you can define only the overrides that should
 apply to both of the other files, like this example.
 
-.. code-block:: sass
+.. code-block:: css
 
     // Make the background red
     $header-bg: rgb(250,0,0);
@@ -136,7 +136,7 @@ apply to both of the other files, like this example.
 Now modify both of the other Sass files to import this partial. The contents
 of ``lms-main.scss`` should now look like this example.
 
-.. code-block:: sass
+.. code-block:: css
 
     // Import our theme overrides
     @import 'overrides';
@@ -146,7 +146,7 @@ of ``lms-main.scss`` should now look like this example.
 
 The contents of ``lms-main-rtl.scss`` should look like this example.
 
-.. code-block:: sass
+.. code-block:: css
 
     // Import our theme overrides
     @import 'overrides';
@@ -173,7 +173,7 @@ rule, you define it in the themed Sass file, or one of the Sass partials
 that your themed Sass file imports. For example, your ``_overrides.scss`` could
 contain the following content.
 
-.. code-block:: sass
+.. code-block:: css
 
     // Override a Sass variable
     $header-bg: rgb(250,0,0);

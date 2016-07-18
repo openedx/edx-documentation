@@ -44,7 +44,7 @@ To enable the mobile application features, follow these steps.
 #. In the ``edx/app/edxapp/lms.env.json`` file, add the following lines to the
    features section.
 
-   .. code-block:: json
+   .. code-block:: none
 
        "FEATURES" : {
            ...
@@ -158,7 +158,7 @@ To configure the number of days before OAuth tokens expire, follow these steps.
       dictionary, and not inside any other declarations.
 
 
-   .. code-block:: json
+   .. code-block:: none
 
       "OAUTH_EXPIRE_CONFIDENTIAL_CLIENT_DAYS" : 365
       "OAUTH_EXPIRE_PUBLIC_CLIENT_DAYS" : 30
@@ -213,7 +213,7 @@ To enable the push notification feature, follow these steps.
 
 #. In the ``edx/app/edxapp/cms.auth.json`` file, add the following lines.
 
-   .. code-block:: json
+   .. code-block:: none
 
     PARSE_KEYS = { 
       "APPLICATION_ID": "{app_id}", 

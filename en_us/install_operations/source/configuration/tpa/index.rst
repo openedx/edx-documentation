@@ -18,6 +18,7 @@ campus or institutional credentials.
    tpa_SAML_SP
    tpa_SAML_IdP
    enable_tpa_edge
+   eliminating_pii
 
 This section includes information for teams involved in identity management at
 Open edX installations, including DevOps (development operations) and IT. The
