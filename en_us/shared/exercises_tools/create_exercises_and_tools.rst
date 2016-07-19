@@ -187,8 +187,9 @@ table.
    * - :ref:`Poll`
      - You can run polls in your course so that your learners can share
        opinions on different questions. You can only add this type of poll to a
-       course by using OLX. Support for this tool in Studio is not available.
-       For more information, see the :ref:`olx:edX Open Learning XML Guide`.
+       course by using OLX (open learning XML). Support for this tool in Studio
+       is not available. For more information, see the :ref:`olx:edX Open
+       Learning XML Guide`.
      - Provisional support
    * - :ref:`Problem with Adaptive Hint`
      - A problem with an adaptive hint evaluates a learner's response, then

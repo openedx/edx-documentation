@@ -55,7 +55,7 @@ Enable the Google Calendars Tool
 ================================================
 
 Before you can add Google Calendars to your course, you must enable the Google
-Calendars tool in Studio or OLX.
+Calendars tool in Studio or OLX (open learning XML).
 
 To enable the Google Calendars tool in Studio, you add the
 ``"google-calendar"`` key to the **Advanced Module List** on the **Advanced

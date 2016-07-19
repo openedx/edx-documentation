@@ -10,7 +10,8 @@ This section describes the structure of the `Manual Testing`_ course.
   :local:
   :depth: 1
 
-For information about how a generic OLX course is structured, see
+For information about how a generic OLX (open learning XML) course is
+structured, see
 :ref:`OLX Directory Structure`.
 
 For information about how a non-Studio OLX course can be structured, see

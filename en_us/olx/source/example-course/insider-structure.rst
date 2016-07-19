@@ -10,8 +10,8 @@ This topic describes the structure of the `edX-Insider`_ course.
   :local:
   :depth: 1
 
-For information about how a generic OLX course is structured, see :ref:`OLX
-Directory Structure`.
+For information about how a generic OLX (open learning XML) course is
+structured, see :ref:`OLX Directory Structure`.
 
 For information about how a course exported from edX Studio is structured, see
 :ref:`Example of OLX for a Studio Course`.

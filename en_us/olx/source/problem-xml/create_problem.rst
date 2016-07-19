@@ -14,7 +14,7 @@ Overview of Problem Components
 
 The problem component allows you to add interactive, automatically
 graded exercises to your course content. You can create many different
-types of problems in OLX.
+types of problems in OLX (open learning XML).
 
 All problems receive a point score, but, by default, problems do not count
 toward a learner's grade. If you want the problems to count toward the

@@ -298,7 +298,7 @@ Documentation for developers is available on the `docs.edx.org`_ web page.
   API.
 
 * `edX Open Learning XML Guide`_ provides guidelines for building edX courses
-  with Open Learning XML (OLX). Note that this guide is currently an alpha
+  with OLX (open learning XML). Note that this guide is currently an alpha
   version.
 
 * `edX Data Analytics API`_ provides reference information for using the data

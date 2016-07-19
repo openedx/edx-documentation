@@ -29,3 +29,4 @@ configuration options.
    enable_timed_exams
    youtube_api
    install_xblock
+   static_replace/cdn
