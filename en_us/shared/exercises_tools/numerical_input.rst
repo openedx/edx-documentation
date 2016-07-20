@@ -166,12 +166,12 @@ editor.
   <problem>
     <p><b>Example Problem</b></p>
 
-  <legend>What base is the decimal numeral system in?</legend>
+  <p>What base is the decimal numeral system in?</p>
       <numericalresponse answer="10">
           <formulaequationinput label="What base is the decimal numeral system in?"/>
       </numericalresponse>
 
-    <legend>What is the value of the standard gravity constant <i>g</i>, measured in m/s<sup>2</sup>? Give your answer to at least two decimal places.</legend>
+    <p>What is the value of the standard gravity constant <i>g</i>, measured in m/s<sup>2</sup>? Give your answer to at least two decimal places.</p>
     <numericalresponse answer="9.80665">
       <responseparam type="tolerance" default="0.01" />
       <formulaequationinput label="Give your answer to at least two decimal places"/>
@@ -182,7 +182,7 @@ editor.
   computed_response = math.sqrt(math.fsum([math.pow(math.pi,2), math.pow(math.e,2)]))
   </script>
 
-  <legend>What is the distance in the plane between the points (pi, 0) and (0, e)? You can type math.</legend>
+  <p>What is the distance in the plane between the points (pi, 0) and (0, e)? You can type math.</p>
       <numericalresponse answer="$computed_response">
           <responseparam type="tolerance" default="0.0001" />
           <formulaequationinput label="What is the distance in the plane between the points (pi, 0) and (0, e)?"/>
@@ -537,7 +537,7 @@ Problem with No Tolerance
 
   <problem>
 
-    <legend>TEXT OF PROBLEM</legend>
+    <p>TEXT OF PROBLEM</p>
     <numericalresponse answer="ANSWER (NUMBER)">
       <formulaequationinput label="TEXT OF PROBLEM"/>
       <correcthint>
@@ -558,7 +558,7 @@ Problem with a Decimal Tolerance
 
   <problem>
 
-    <legend>TEXT OF PROBLEM</legend>
+    <p>TEXT OF PROBLEM</p>
     <numericalresponse answer="ANSWER (NUMBER)">
       <responseparam type="tolerance" default="NUMBER (DECIMAL, e.g., .02)" />
       <formulaequationinput label="TEXT OF PROBLEM"/>
@@ -581,7 +581,7 @@ Problem with a Percentage Tolerance
 
   <problem>
 
-    <legend>TEXT OF PROBLEM</legend>
+    <p>TEXT OF PROBLEM</p>
     <numericalresponse answer="ANSWER (NUMBER)">
       <responseparam type="tolerance" default="NUMBER (PERCENTAGE, e.g., 3%)" />
       <formulaequationinput label="TEXT OF PROBLEM"/>
@@ -609,7 +609,7 @@ Answer Created Using a Script
   computed_response = math.sqrt(math.fsum([math.pow(math.pi,2), math.pow(math.e,2)]))
   </script>
 
-    <legend>TEXT OF PROBLEM</legend>
+    <p>TEXT OF PROBLEM</p>
     <numericalresponse answer="$computed_response">
       <responseparam type="tolerance" default="0.0001" />
       <formulaequationinput label="TEXT OF PROBLEM"/>
