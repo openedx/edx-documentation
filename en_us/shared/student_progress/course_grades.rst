@@ -128,9 +128,9 @@ enrolled in your course, follow these steps.
 
 .. _Interpret the Grade Report:
 
-==========================
-Interpret the Grade Report
-==========================
+=============================
+Interpreting the Grade Report
+=============================
 
 A grade report for your course is a time-stamped .csv file that identifies
 each enrolled learner by ID, email address, and username, and provides a
@@ -278,9 +278,9 @@ currently enrolled in your course, follow these steps.
 
 .. _Interpret the Problem Grade Report:
 
-====================================
-Interpret the Problem Grade Report
-====================================
+======================================
+Interpreting the Problem Grade Report
+======================================
 
 A problem grade report for your course is a time-stamped .csv file that
 identifies each enrolled learner by ID, email address, and username, and
@@ -425,7 +425,7 @@ To view the **Progress** page for a learner, follow these steps.
           score achieved for each problem in the first course subsection.
 
 =============================================
-Interpret the Learner Progress Page
+Interpreting the Learner Progress Page
 =============================================
 
 The chart of a learner's scores on the **Progress** page and the rows of data
@@ -507,7 +507,7 @@ while point scores from ungraded sections are called "Practice Scores".
 .. _Adjust_grades:
 
 ***********************************
-Adjust Grades
+Adjusting Grades
 ***********************************
 
 If you modify a problem or its settings after learners have attempted to answer

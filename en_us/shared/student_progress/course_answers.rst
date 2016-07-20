@@ -71,7 +71,7 @@ completed both in the browser and on the server. These records appear with the
 most recent interaction at the top of the Submission History Viewer, followed
 by each previous interaction.
 
-This topic provides an example submission history for a capa problem with
+This topic provides an example submission history for a CAPA problem with
 guidelines that can help you interpret a submission history. The number and
 complexity of the records that appear in this report vary based on the type of
 problem and the settings and features defined.
@@ -219,7 +219,7 @@ submitted for a problem by every learner, follow these steps.
 
 #. Select **Instructor**, and then select **Data Download**.
 
-#. In the **Reports** section, enter the **Problem location** . For capa
+#. In the **Reports** section, enter the **Problem location** . For CAPA
    problems, you can use the **Staff Debug Info** option to :ref:`find this
    identifier<find_URL>` for a problem.
 
@@ -244,7 +244,7 @@ learner's most recently submitted answer.
 
 When you open the report, the value in the **State** column appears on a single
 line. This value is a record in JSON format. An example record for a text input
-capa problem follows.
+CAPA problem follows.
 
 ``{"correct_map": {"e58b639b86db44ca89652b30ea566830_2_1": {"hint": "", "hintmode": null, "correctness": "correct", "msg": "", "answervariable": null, "npoints": null, "queuestate": null}}, "input_state": {"e58b639b86db44ca89652b30ea566830_2_1": {}}, "last_submission_time": "2015-10-26T17:32:20Z", "attempts": 3, "seed": 1, "done": true, "student_answers": {"e58b639b86db44ca89652b30ea566830_2_1": "choice_2"}}``
 
@@ -280,12 +280,12 @@ You can use a JSON "pretty print" tool or script to make the value in the
   }
 
 When you add line breaks and spacing to the value in the **State** column for
-this capa problem, it becomes possible to recognize its similarity to the
+this CAPA problem, it becomes possible to recognize its similarity to the
 server problem check records in the Submission History. For more information,
 see :ref:`Interpret a Student Submission History`.
 
 A **State** value that appears as follows indicates a learner who has viewed a
-capa problem, but not yet submitted an answer.
+CAPA problem, but not yet submitted an answer.
 
   ``{"seed": 1, "input_state": {"e58b639b86db44ca89652b30ea566830_2_1": {}}}``
 

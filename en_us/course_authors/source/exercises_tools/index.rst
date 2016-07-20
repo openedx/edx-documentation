@@ -1,17 +1,18 @@
 .. _Exercises and Tools Index:
 
 ############################
-Creating Exercises and Tools
+Adding Exercises and Tools
 ############################
 
-Use the topics in this section to understand how to add exercises and
-tools to your course.
+Use the topics in this section to understand how to add exercises and tools to
+your course, including the various problem types that you can add using the
+:ref:`problem component<Working with Problem Components>`.
 
-For information on how to develop your course content in the Studio Outline
+For information about how to develop your course content in the Studio Outline
 page, see :ref:`Developing Your Course Index`.
 
-For information on building specific course component types, see :ref:`Course
-Components Index`.
+For information about building specific course component types, see
+:ref:`Course Components Index`.
 
 
 .. toctree::
