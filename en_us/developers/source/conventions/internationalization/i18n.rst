@@ -222,12 +222,14 @@ For more information on proper escaping, see :ref:`Safe Templates`.
 JavaScript Files
 ================
 
-.. highlight:: javascript
+.. highlight:: html
 
 To internationalize JavaScript, the HTML template (base.html) must first load
 a special JavaScript library, and Django must be configured to serve it. ::
 
     <script type="text/javascript" src="jsi18n/"></script>
+
+.. highlight:: javascript
 
 Then, in JavaScript files (`*.js`)::
 
@@ -614,7 +616,7 @@ Mako template. ::
 When the string is rendered in French, it will produce the following invalid
 JavaScript.
 
-.. code-block:: javascript
+.. code-block:: none
 
     <script>
     var feeling = 'Je t'aime.';
@@ -623,7 +625,7 @@ JavaScript.
 Avoid this issue by following the best practices detailed in :ref:`Safe
 Templates`. Here is the same example with proper escaping.
 
-.. code-block:: javascript
+.. code-block:: mako
 
     <%!
     from django.utils.translation import ugettext as _
@@ -637,7 +639,7 @@ Templates`. Here is the same example with proper escaping.
 
 The code with proper escaping produces the following JavaScript-escaped code.
 
-.. code-block:: javascript
+.. code-block:: html
 
     <script>
     var feeling = 'Je t\u0027aime.';

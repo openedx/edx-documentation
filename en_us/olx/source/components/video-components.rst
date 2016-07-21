@@ -25,7 +25,7 @@ follows.
     youtube="1.00:o2pLltkrhGM"
     url_name="Introduction_Lecture"
     display_name="Introduction Lecture"
-    youtube_id_1_0="o2pLltkrhGM"
+    youtube_id_1_0="o2pLltkrhGM">
   </video>
 
 If you prefer to place the video component in its own file, you create an XML

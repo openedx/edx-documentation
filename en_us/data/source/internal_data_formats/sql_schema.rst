@@ -163,7 +163,7 @@ generic information necessary for user login and permissions.
 
 A sample of the heading row and a data row in the ``auth_user`` table follows.
 
-.. code-block:: json
+.. code-block:: none
 
     id  username  first_name  last_name  email  password  is_staff  is_active
     is_superuser  last_login  date_joined status  email_key  avatar_typ
@@ -366,7 +366,7 @@ themselves. Every row in this table corresponds to one row in ``auth_user``.
 A sample of the heading row and a data row in the ``auth_userprofile`` table
 follows.
 
-.. code-block:: json
+.. code-block:: none
 
     id  user_id name  language  location  meta  courseware  gender
     mailing_address year_of_birth level_of_education  goals allow_certificate
@@ -1523,7 +1523,7 @@ each subsection.
 A sample of the heading row and a data row in the ``courseware_studentmodule``
 table follows.
 
-.. code-block:: sql
+.. code-block:: none
 
     id  module_type module_id student_id  state grade created modified  max_grade done
     course_id

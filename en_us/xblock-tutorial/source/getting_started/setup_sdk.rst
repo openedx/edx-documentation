@@ -4,7 +4,7 @@
 Set Up the XBlock Software Development Kit
 ###########################################
 
-Before you continue, make sure that you are familiar with the subjects in the 
+Before you continue, make sure that you are familiar with the subjects in the
 :ref:`Install XBlock Prerequisites` section.
 
 When you have installed all prerequisites, you are ready to set up the `XBlock
@@ -23,13 +23,13 @@ work, including a virtual environment, the XBlock SDK, and the XBlocks you
 develop.
 
 #. At the command prompt, run the following command to create the directory.
-   
+
    .. code-block:: bash
 
       $ mkdir xblock_development
 
 #. Change directories to the ``xblock_development`` directory.
-   
+
    .. code-block:: bash
 
       $ cd xblock_development
@@ -48,7 +48,7 @@ Then create the virtual environment in your ``xblock_development`` directory.
 
 #. At the command prompt in ``xblock_development``, run the following
    command to create the virtual environment.
-   
+
    .. code-block:: bash
 
       $ virtualenv venv
@@ -56,14 +56,14 @@ Then create the virtual environment in your ``xblock_development`` directory.
 #. Run the following command to activate the virtual environment.
 
    .. code-block:: bash
-  
+
       $ source venv/bin/activate
 
    When the virtual environment is activated, the command prompt shows the name
    of the virtual directory in parentheses.
 
-   .. code-block:: bash
-     
+   .. code-block:: none
+
       (venv) $
 
 .. include:: ../reusable/clone_sdk.rst

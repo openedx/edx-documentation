@@ -36,7 +36,7 @@ Fields in the ``wiki_article`` File
 The header row of the ``wiki_article`` SQL file, and a row of sample data,
 follow.
 
-.. code-block:: json
+.. code-block:: none
 
     id  current_revision_id created modified  owner_id  group_id  group_read  group_write
     other_read  other_write
@@ -120,7 +120,7 @@ Fields in the ``wiki_articlerevision`` File
 The header row of the ``wiki_articlerevision`` SQL file, and a row of sample
 data, follow.
 
-.. code-block:: json
+.. code-block:: none
 
     id  revision_number user_message  automatic_log ip_address  user_id modified  created
     previous_revision_id  deleted locked  article_id  content title

@@ -27,7 +27,7 @@ A sample event from an edX.log file follows. This sample was edited to remove
 personally identifiable information. Events are stored in JSON documents, which
 can be difficult to read before standard formatting is applied.
 
-.. code-block:: json
+.. code-block:: none
 
     {"agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko)
     Chrome/30.0.1599.101 Safari/537.36", "context": {"course_id": "edx/AN101/2014_T1",

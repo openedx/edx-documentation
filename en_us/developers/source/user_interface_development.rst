@@ -101,7 +101,7 @@ your Sass files at the top of your main Mako file. The following example
 declares files that are configured with the names ``style- learner-dashboard``
 and ``style-learner-dashboard-rtl``.
 
-.. code-block:: html
+.. code-block:: mako
 
     <%! main_css = "style-learner-dashboard" %>
 

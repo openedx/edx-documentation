@@ -63,7 +63,7 @@ configuration code in your Open edX environment.
 
 * Add the following code to the lms.env.json file.
 
-  .. code-block:: json
+  .. code-block:: none
 
     ...
     "FEATURES": {
@@ -76,7 +76,7 @@ configuration code in your Open edX environment.
 
 * Add the following code to the lms.auth.json file.
 
-  .. code-block:: json
+  .. code-block:: none
 
     ...
         "CC_PROCESSOR": {
