@@ -12,10 +12,10 @@ you must update the configuration scripts to install your theme onto the server,
 as well. It is up to you where to install the theme on the server, but
 a good default location is ``/edx/app/themes/my-theme``.
 
-There are three core variables that must be updated to enable  enable a
+There are three core variables that must be updated to enable a
 comprehensive theme:
 
-- ``ENABLE_COMPREHENSIVE_THEMING`` - a boolean value that enables the
+- ``ENABLE_COMPREHENSIVE_THEMING`` - a Boolean value that enables the
   comprehensive theme system.
 - ``COMPREHENSIVE_THEME_DIRS`` - specifies the location(s) of your theme folders.
 - ``DEFAULT_SITE_THEME`` - specifies the name of the default theme.
@@ -51,7 +51,7 @@ variables:
   COMPREHENSIVE_THEME_DIRS: ["/edx/app/themes", ],
   DEFAULT_SITE_THEME: "my-theme"
 
-You will then need to restart the LMS in order for it to pick up these value
+You will then need to restart the LMS in order for it to pick up these values
 from the ``lms.env.json`` file.
 
 Test that your theme is activated by visiting the LMS in your browser, and
