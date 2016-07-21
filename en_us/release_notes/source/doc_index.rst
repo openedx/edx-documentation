@@ -16,12 +16,6 @@ documentation.
   :depth: 2
 
 ********************
-Week of 18 July 2016
-********************
-
-.. include:: 2016/documentation/doc_0718_2016.rst
-
-********************
 Week of 11 July 2016
 ********************
 
