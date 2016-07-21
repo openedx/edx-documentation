@@ -73,6 +73,8 @@ your coupon, follow these steps.
 After you specify basic information for your coupon, you must specify the
 coupon code type.
 
+.. _Specify the Coupon Code Type:
+
 ===============================
 Specify the Coupon Code Type
 ===============================
@@ -101,8 +103,9 @@ To specify the coupon code type, follow these steps.
      of the discount that you want to offer, then select **Percent** or
      **Fixed**. Do not add a percent sign or a dollar sign.
 
-   * **Code** (optional): If you want to specify your own discount code,
-     such as SCHOLAR15, enter the code that you want in this field.
+   * **Code** (optional): If you want to specify your own discount code, such
+     as ``SCHOLAR15``, enter the code that you want in this field. This code
+     can have 1 to 16 characters.
 
      If you want the system to generate a discount code for you, leave this
      field empty, and then enter the number of discount codes that you want to
@@ -111,12 +114,20 @@ To specify the coupon code type, follow these steps.
 After you complete this step, you must specify the courses that you want your
 coupon to apply to.
 
+.. _Coupons Specify Courses:
+
 ==================
 Specify Courses
 ==================
 
 In addition to specifying your coupon's code type, you must specify the courses
-for your coupon. Your coupon can apply to a single course or to many courses.
+for your coupon. Your coupon can apply to a single course or to multiple
+courses.
+
+.. note::
+  If you want your coupon to apply to multiple courses, you must use the edX
+  Course Catalog API. The Course Catalog API is in beta and is not documented
+  or fully supported.
 
 To specify the courses for your coupon, follow these steps.
 
@@ -159,8 +170,12 @@ your coupon <Specify Coupon Usage Limitations>`.
 Create a Query for Multiple Courses
 *************************************
 
-The coupon administration tool uses queries to return a catalog
-of courses. The coupons that you create apply to each course in that catalog.
+.. note::
+  To create a query, you must use the edX Course Catalog API. The Course
+  Catalog API is in beta and is not documented or fully supported.
+
+The coupon administration tool uses queries to return a catalog of courses. The
+coupons that you create apply to each course in that catalog.
 
 These queries use the following syntax.
 
@@ -299,11 +314,6 @@ To specify the way you want to invoice your client, follow these steps.
    * **N/A**: Select this option if neither of the other options
      applies to your situation.
 
-#. For **Total to Invoice to Client**, enter the amount to invoice the client
-   for this coupon. You can enter the total amount or a different amount. If
-   you do not want to send an invoice to the client, you can leave this field
-   blank.
-
 
 ===============================
 Finish and Review Coupon
@@ -369,9 +379,16 @@ The .csv file for your coupon lists the following information.
        **Enrollment** and **Discount**.
    * - **URL**
      - The URL where the user redeems the coupon code.
-   * - **Course ID**
+   * - **Catalog Query** (for multi-course coupons only)
+     - The query that was used to determine which courses the coupon applies
+       to.
+   * - **Course Seat Types** (for multi-course coupons only)
+     - The seat type that the coupon applies to. For example, the seat type
+       might be "verified" or "professional". For more information about seat
+       types, see :ref:`Coupons Specify Courses`.
+   * - (for single-course coupons only) **Course ID**
      - The ID of the course that the coupon applies to.
-   * - **Organization**
+   * - (for single-course coupons only) **Organization**
      - The organization that provides the course.
    * - **Client**
      - The organization that purchased the coupon codes.
@@ -401,6 +418,8 @@ The .csv file for your coupon lists the following information.
    * - **Redeemed By Username**
      - The username of the customer who redeemed the enrollment or discount
        code.
+   * - (for multi-course coupons only) **Redeemed for Course ID**
+     - The course ID of the course for which the coupon was redeemed.
    * - **Created By**
      - The username of the user who created the coupon.
    * - **Create Date**
