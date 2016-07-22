@@ -41,7 +41,7 @@
 
 .. Dogwood doc links:
 
-.. _Installing, Configuring, and Running the Open edX Platform Dogwood Release: http://edx.readthedocs.org/projects/open-edx-icr/en/dogwood/
+.. _Installing, Configuring, and Running the Open edX Platform Dogwood Release: http://edx.readthedocs.io/projects/edx-installing-configuring-and-running/en/named-release-dogwood.rc/platform_releases/dogwood.html
 
 .. _Building and Running an Open edX Course for Dogwood: http://edx.readthedocs.org/projects/open-edx-ca/en/dogwood/
 
