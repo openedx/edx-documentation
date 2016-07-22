@@ -14,7 +14,7 @@ You can designate a team of people to help you run your course.
 About the Course Team Roles
 **************************************
 
-To give team members access to Studio, the Instructor Dashboard in the LMS, and
+To give team members access to Studio, the instructor dashboard in the LMS, and
 Insights, you assign one of these course team roles to them.
 
 * Staff
@@ -36,8 +36,8 @@ need to have the Staff or Admin role. For more information, see
 Administrative Team Roles
 ****************************
 
-To provide access to features on the LMS Instructor Dashboard, you assign the
-Staff role or the Admin role.
+To provide access to features on the instructor dashboard in the LMS, you
+assign the Staff role or the Admin role.
 
 Team members with the **Staff** role can complete these tasks.
 
@@ -123,7 +123,7 @@ adding and removing other team members and granting Admin access.
 .. note::  Any course team member can delete content created by other team
  members.
 
-To add a course team member:
+To add a course team member, follow these steps.
 
 #. Ensure you have Admin access.
 #. Ensure that the new team member has registered and activated an account.
@@ -139,7 +139,8 @@ The new team member can now work on the course in Studio.
   discussion roles. For more information, see
   :ref:`Assigning_discussion_roles`.
 
-You can also assign privileged roles to users when you work in the LMS.
+You can also assign privileged roles to users when you work in the LMS by
+selecting **Instructor** and then **Membership**.
 
 Regardless of where the role is assigned, these administrative team members can
 work on your course in Studio immediately, and use the LMS and Insights after

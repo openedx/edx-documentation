@@ -43,7 +43,8 @@ Learning Management System (LMS)
 ================================
 
 The LMS is the most visible part of the Open edX project. Learners take courses
-using the LMS. The LMS also provides instructor dashboards.
+using the LMS. The LMS also provides an instructor dashboard that users who
+have the Admin or Staff role can access by selecting **Instructor**.
 
 The LMS uses a number of data stores. Courses are stored in `MongoDB`_, with
 videos served from YouTube or Amazon S3. Per-learner data is stored in MySQL.

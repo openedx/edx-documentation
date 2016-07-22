@@ -243,7 +243,7 @@ Make sure to indent the paragraph under the directive.
   .. only:: Partners
 
    Data about course enrollment is available from edX Insights. You can access
-   Insights from the Instructor Dashboard for your live course: after you select
+   Insights from the instructor dashboard for your live course: after you select
    **Instructor**, follow the link in the banner at the top of each page. For
    more information, see `Using edX Insights`_.
 

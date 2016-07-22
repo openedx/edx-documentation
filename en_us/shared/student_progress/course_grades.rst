@@ -34,7 +34,8 @@ Review How Grading Is Configured for Your Course
 ********************************************************
 
 You can review the assignment types that are graded and their respective
-weights on the Instructor Dashboard.
+weights in the LMS by selecting **Instructor** to access the instructor
+dashboard.
 
 You establish a grading policy for your course when you create it in Studio.
 While the course is running, you can view an XML representation of the
@@ -84,7 +85,7 @@ download a report of the calculated grades in a comma-separated values (.csv)
 file when the grading process is complete.
 
 For courses with fewer than 200 learners enrolled, you also have the option to
-review learner grades on the Instructor Dashboard. For more information, see
+review learner grades on the instructor dashboard. For more information, see
 :ref:`gradebook`.
 
 To generate and download the grade report for the learners who are currently
@@ -327,12 +328,13 @@ Review Grades for Enrolled Learners (Small Courses)
 ********************************************************
 
 For courses with enrollments of up to 200 learners, you can review a gradebook
-on the Instructor Dashboard.
+on the instructor dashboard. To review grades for a small course, follow these
+steps.
 
 #. View the live version of your course.
 
 #. Select **Instructor**, and then select **Student Admin**. For courses with
-   fewer than 200 learners enrolled, this tab includes a **Student Gradebook**
+   fewer than 200 learners enrolled, this page includes a **Student Gradebook**
    section.
 
 #. Select **View Gradebook**. Grades are calculated and the gradebook displays.
@@ -751,7 +753,7 @@ that learner's username or email address.
    including submitting responses and going through the required assessment
    steps.
 
-You can use either the Staff Debug viewer or the Instructor Dashboard to delete
+You can use either the Staff Debug viewer or the instructor dashboard to delete
 learner state.
 
 To use the Staff Debug viewer, follow these steps.
@@ -771,8 +773,8 @@ To use the Staff Debug viewer, follow these steps.
 #. To close the Staff Debug viewer, click on the browser page outside of the
    viewer.
 
-To use the Instructor Dashboard, you need the unique identifier of the problem.
-See :ref:`find_URL`.
+To use the instructor dashboard, you must first obtain the unique identifier of
+the problem. See :ref:`find_URL`.
 
 #. Select **Instructor**, and then select **Student Admin**.
 

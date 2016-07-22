@@ -21,7 +21,7 @@ different groups to gain insight into the relative effectiveness of your course
 content.
 
 If your course uses content experiments, the grade report that you generate
-from the Instructor Dashboard includes a column identifying the experiment
+from the instructor dashboard includes a column identifying the experiment
 group that each learner has been assigned to. For more information, see
 :ref:`Interpret the Grade Report`.
 

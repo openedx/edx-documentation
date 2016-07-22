@@ -466,7 +466,7 @@ I
 
 **Import**
 
-  A tool in edX Studio that you use to load a course or library in OLX format
+  A tool in Studio that you use to load a course or library in OLX format
   into your existing course or library. When you use the Import tool, Studio
   replaces all of your existing course or library content with the content
   from the imported course or library. See also :ref:`Export<E>`.
@@ -474,6 +474,15 @@ I
   For more information, see :ref:`partnercoursestaff:Import a Course` or
   :ref:`partnercoursestaff:Import a Library`.
 
+**Instructor Dashboard**
+
+  A user who has the Admin or Staff role for a course can access the instructor
+  dashboard in the LMS by selecting **Instructor**. Course team members use the
+  tools, reports, and other features that are available on the pages of the
+  instructor dashboard to manage a running course.
+
+  For more information, see :ref:`partnercoursestaff:Managing Live Course
+  Index`.
 
 .. _K:
 

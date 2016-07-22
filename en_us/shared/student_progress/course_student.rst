@@ -11,12 +11,12 @@ any time after you create the course.
   :local:
   :depth: 2
 
-To supplement the learner data that is available from the Instructor Dashboard,
-you can use the charts and reports that are available from edX Insights. With
-Insights, you can review demographic and geographic distributions for enrolled
-learners. You can also monitor learner activity and review the number of
-learners who, each week, interacted with your course. For more information, see
-:ref:`Using edX Insights<insights:Overview>`.
+To supplement the learner data that is available from the instructor dashboard
+in the LMS, you can use the charts and reports that are available from edX
+Insights. With Insights, you can review demographic and geographic
+distributions for enrolled learners. You can also monitor learner activity and
+review the number of learners who, each week, interacted with your course. For
+more information, see :ref:`Using edX Insights<insights:Overview>`.
 
 .. _PII:
 
@@ -39,16 +39,17 @@ prevent public distribution or misuse of this information.
 Accessing Learner Data
 ****************************
 
-From the Instructor Dashboard, you can download data about the individuals who
-are currently enrolled in your course in a .csv (comma-separated values) file.
-For courses that have fewer than 200 learners enrolled, you can also view data
-for enrolled learners on the Instructor Dashboard.
+In the LMS, you can download data about the individuals who are currently
+enrolled in your course in a .csv (comma-separated values) file. For courses
+that have fewer than 200 learners enrolled, you can also view data for enrolled
+learners on the instructor dashboard. For more information, see :ref:`View and
+download student data`.
 
 For information about course enrollment, see :ref:`Enrollment`.
 
-======================
-Learner-Reported Data
-======================
+===========================
+About Learner-Reported Data
+===========================
 
 When learners create, or register, their user accounts, they select a public
 username and supply their full names and email addresses. Learners also have
@@ -60,7 +61,7 @@ in your course provide it.
 After learners create an account, they can enroll in as many individual courses
 as they choose.
 
-* The learner data that is available from the Instructor Dashboard reflects the
+* The learner data that is available from the instructor dashboard reflects the
   set of live, current enrollments. Data for the course team, wha are also
   enrolled in the course, is included.
 
@@ -157,7 +158,7 @@ Download or View Learner Data
 You can download a report of learner data to gain more information about the
 individuals who are enrolled in your course. For courses with fewer than 200
 learners enrolled, you also have the option to view learner data on the
-Instructor Dashboard.
+instructor dashboard.
 
 Download Learner Data
 ***********************

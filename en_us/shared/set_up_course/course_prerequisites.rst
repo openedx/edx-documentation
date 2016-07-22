@@ -117,11 +117,11 @@ Adjust Scores in the Entrance Exam
 
 If you find an error in the exam after learners have taken it, and corrections
 to the exam are unavoidable, you have several options to rescore the exam for
-individual learners. These options are available on the Instructor Dashboard.
+individual learners. These options are available on the instructor dashboard.
 
-On the Instructor Dashboard, select **Student Admin**, and then locate the
-**Entrance Exam Grade Adjustment** section. The following options are
-available.
+In the LMS, select **Instructor** to access the instructor dashboard, and then
+select **Student Admin**. In the **Entrance Exam Grade Adjustment** section,
+the following options are available.
 
 * **Reset Student Attempts**: Reset the value for one particular learner's
   attempts back to zero so that the learner can begin work over again. For more
@@ -133,7 +133,7 @@ available.
 * **Delete Student State for Problem**: Delete a learner's entire history for
   the exam from the database. For more information, see :ref:`delete_state`.
 
-Another option on the Instructor Dashboard is **Show Background Task History
+Another option on the instructor dashboard is **Show Background Task History
 for Student**. If you reset learner attempts, rescore learner submissions, or
 delete learner state, the operation runs in the background. If you want to see
 a record of all the operations that have run for the entrance exam, select
