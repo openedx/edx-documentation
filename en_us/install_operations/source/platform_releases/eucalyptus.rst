@@ -14,9 +14,9 @@ This section describes how to install the Open edX Eucalyptus release.
 What's Included in Eucalyptus
 ******************************
 
-The Open edX Eucalyptus release contains several new features for learners, course
-teams, and developers. See the release notes for the
-:ref:`openreleasenotes:Open edX Eucalyptus Release` for more details.
+The Open edX Eucalyptus release contains several new features for learners,
+course teams, and developers. For more information, see
+:ref:`openreleasenotes:Open edX Eucalyptus Release`.
 
 *******************************
 What Is the Eucalyptus Git Tag?
@@ -202,7 +202,7 @@ Upgrading to a Eucalyptus Point Release
 
 Occasionally, we release updates to Eucalyptus.  The
 ``open-release/eucalyptus/latest`` branch always refers to the latest release
-of Eucalyptus.    The steps differ based on your original installation method.  
+of Eucalyptus.    The steps differ based on your original installation method.
 
 ================================
 Upgrading a Vagrant Installation
