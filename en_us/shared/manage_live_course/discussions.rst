@@ -67,11 +67,10 @@ Members of the course community, learners as well as the course team, can be
 given permission to moderate or administer course discussions through a set of
 discussion administration roles.
 
-.. note:: The course team members that you set up in Studio or on the
-   Instructor Dashboard in the LMS are not granted discussion administration
-   roles automatically. Only people who have a discussion administration role
-   can view all of the discussion contributions, for example in courses using
-   cohorts.
+.. note:: The course team members that you set up in Studio or in the LMS are
+   not automatically granted discussion administration roles. Only people who
+   have a discussion administration role can view all of the discussion
+   contributions, for example in courses using cohorts.
 
    Discussion administration roles must be explicitly granted to members of
    the course team for them to moderate or administer course discussions. The
@@ -268,9 +267,8 @@ members who have a discussion administration role have additional options for
 working with posts, responses, and comments.
 
 
-.. important:: The course team members that you set up in Studio or on the
-   Instructor Dashboard are not automatically granted discussion
-   administration roles.
+.. important:: The course team members that you set up in Studio or in the LMS
+   are not automatically granted discussion administration roles.
 
    Discussion administration roles must be explicitly granted to members of
    the course team for them to be able to moderate or administer course
@@ -319,12 +317,13 @@ the following roles.
 Before you can assign roles to your discussion team, you need their email
 addresses or usernames.
 
-* To get this information for a course team member, on the Instructor Dashboard
-  select **Membership**, and then select either **Staff** or **Admin**.
+* To get this information for a course team member, in the LMS select
+  **Instructor** to access the instructor dashboard. Select **Membership**, and
+  then select either **Staff** or **Admin**.
 
-* To get this information for an enrolled learner, on the Instructor Dashboard
-  select **Data Download**, and then **Download profile information as a CSV**.
-
+* To get this information for an enrolled learner, in the LMS select
+  **Instructor** to access the instructor dashboard. Select **Data Download**,
+  and then **Download profile information as a CSV**.
 
 ====================================
 Assign Roles

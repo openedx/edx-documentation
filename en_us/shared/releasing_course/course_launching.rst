@@ -18,12 +18,12 @@ To launch a course, you prepare the course itself, the course team, and the
 learners. This topic includes a :ref:`course launch checklist<Course Launch
 Checklist>` to use as a model for your schedule of activities.
 
-To help you communicate to the course team or to all course participants
-before the course launches and while it is running, you can send email messages
-from the Instructor Dashboard. See :ref:`Bulk Email`. The topic on bulk email
-also includes a set of :ref:`example messages to learners<Example Messages to
-Students>` that you can use as guidelines when you write your own email
-messages.
+To help you communicate to the course team or to all course participants before
+the course launches and while it is running, you can send email messages from
+the LMS by selecting **Instructor** to access the instructor dashboard. For
+more information, see :ref:`Bulk Email`. The topic on bulk email also includes
+a set of :ref:`example messages to learners<Example Messages to Students>` that
+you can use as guidelines when you write your own email messages.
 
 .. _Course Launch Checklist:
 

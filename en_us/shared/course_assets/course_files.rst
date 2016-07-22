@@ -6,8 +6,9 @@ Adding Files to a Course
 
 To use images and other files in your course, you upload the files to your
 course by using Studio, and then you add links to the files in the course
-content. You can also use uploaded files in the bulk email messages that you
-send from the LMS using the instructor dashboard.
+content. You can also use uploaded files in the bulk email messages that course
+team members can send from the LMS by selecting **Instructor** to access the
+instructor dashboard.
 
 .. contents::
   :local:

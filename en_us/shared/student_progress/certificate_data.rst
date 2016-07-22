@@ -22,9 +22,10 @@ For more information, see the following other topics about certificates.
 Access Certificate Data
 **************************
 
-From the Instructor Dashboard, you can view data about the certificates that
-have been issued for your course. You can also download a .csv (comma-separated
-values) file with the certificate data.
+You can view data about the certificates that have been issued for your course
+in the LMS by selecting **Instructor** to access the instructor dashboard. You
+can also download a .csv (comma-separated values) file with the certificate
+data.
 
 ==========================
 View Certificate Data

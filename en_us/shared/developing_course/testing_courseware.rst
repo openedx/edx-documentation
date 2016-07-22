@@ -184,7 +184,7 @@ from the **View this course as** list.
 .. note::
   If your course has not started, you cannot see the content on the **Course**
   page when you use the **Student** view. To see this content before the course
-  has started, add yourself as a beta tester on the Instructor Dashboard. Make
+  has started, add yourself as a beta tester on the instructor dashboard. Make
   sure to set the course start date and the **Days Early for Beta** setting so
   that you can see the content that you want. For more information, see
   :ref:`Beta_Testing`.
@@ -260,14 +260,14 @@ Studio directly.
 
   The unit page opens in Studio.
 
-* In the instructor dashboard, select **View Course in Studio** to open the
-  course outline.
+* After you select **Instructor** to access the instructor dashboard, select
+  **View Course in Studio** to open the course outline in Studio.
 
   For information about the tasks you can complete from the instructor
   dashboard, see :ref:`Managing Live Course Index`.
 
 * In the **Course Progress** page, select **View Grading in Studio** to open
-  the **Grading** page.
+  the **Grading** page in Studio.
 
   .. image:: ../../../shared/images/Student_Progress.png
      :alt: The Progress page in a course with a View Grading in Studio option.
