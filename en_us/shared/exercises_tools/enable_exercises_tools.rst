@@ -1,15 +1,24 @@
 .. _Enable Additional Exercises and Tools:
 
 #########################################
-Enable Additional Exercises and Tools
+Enabling Additional Exercises and Tools
 #########################################
 
-Studio offers the same set of core exercises and tools for every course. You
-can expand the default set by enabling additional exercises and tools. After
-you enable an exercise or tool in Studio, you can add components of that type
-to your course.
+Studio includes a default set of core problem types that can be added to any
+course, including CAPA problems like text input, multiple choice, and math
+expression input. To add these problem types to a course, you select
+**Problem** on the unit page.
 
-To enable additional exercises and tools, follow these steps.
+You can expand the types of content you include in your course by enabling
+additional exercises and tools. After you enable an exercise or tool for use
+with your course, when you add a component to a unit, that type of content
+might be listed as one of the **Advanced**, **HTML**, or **Problem** options
+
+******************************************
+Enable an Exercise or Tool for Your Course
+******************************************
+
+To enable an advanced exercise or tool, follow these steps.
 
 #. In Studio, select **Settings**, and then **Advanced Settings**.
 
@@ -55,5 +64,6 @@ To enable additional exercises and tools, follow these steps.
    Studio checks the syntax of your entry and reformats your entry to add line
    feeds and indentation. A message lets you know whether your changes were
    saved successfully.
+
 
 

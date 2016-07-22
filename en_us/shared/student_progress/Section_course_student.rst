@@ -30,7 +30,7 @@ Reported Problem Types
 **********************
 
 To measure problem-related activity, the learner engagement report includes
-data for capa problems. That is, the report includes data for problems for
+data for CAPA problems. That is, the report includes data for problems for
 which learners can select **Check**, including these problem types.
 
  * Checkboxes
