@@ -219,8 +219,8 @@ practices.
 
 * Course teams can only access uploaded files for one learner at a time.
   Uploaded file content is not included in the reports of answer submissions
-  available from the Instructor Dashboard, and course data packages do not
-  include any of the uploaded files.
+  that are available from the instructor dashboard, and course data packages do
+  not include any of the uploaded files.
 
 * You cannot require your learners to upload files. You can only give them the
   option to do so.

@@ -144,8 +144,8 @@ from the Insructor Dashboard and from Qualtrics, and then review the data.
 Download Data from the Instructor Dashboard
 **********************************************
 
-#. In the LMS, go to the Instructor Dashboard.
-#. Select the **Data Download** page.
+#. In the LMS, select **Instructor**.
+#. Select **Data Download**.
 #. Under **Data Download**, select **Get Student Anonymized IDs CSV**. If you
    receive a prompt, specify the location where you want to save the file.
 

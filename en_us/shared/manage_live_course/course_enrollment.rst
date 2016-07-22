@@ -23,19 +23,19 @@ learners.
 
 .. only:: Open_edX
 
-  Data about course enrollment is available from the Instructor Dashboard and
-  from Insights. For more information, see :ref:`Report Learners Not Yet
-  Enrolled`.
+  Data about course enrollment is available in the LMS, by selecting
+  **Instructor** to access the instructor dashboard and from Insights. For more
+  information, see :ref:`Report Learners Not Yet Enrolled`.
 
-.. Feature has been turned off for edx.org and Edge (the data is available in Insights instead).
+.. Feature has been turned off for edx.org and Edge (the data is, available in Insights instead).
 .. DOC-2218 A. Hodges 24 Aug 2015
 
 .. only:: Partners
 
   Data about course enrollment is available from edX Insights. You can access
-  Insights from the Instructor Dashboard for your live course: after you select
-  **Instructor**, follow the link in the banner at the top of each page. For
-  more information, see :ref:`insights:Using edX Insights`.
+  Insights for your course from the LMS: after you select **Instructor** to
+  access the instructor dashboard, follow the link in the banner at the top of
+  each page. For more information, see :ref:`insights:Using edX Insights`.
 
 .. _registration_enrollment:
 

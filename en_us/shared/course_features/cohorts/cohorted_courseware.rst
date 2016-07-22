@@ -145,8 +145,9 @@ specify which components are visible to specific content groups. For details,
 see :ref:`Specify Components in Courseware as Visible Only to Certain Content
 Groups`.
 
-On the Instructor Dashboard, you associate each content group with one or more
-cohorts. For details, see :ref:`Associate Cohorts with Content Groups`.
+You associate each content group with one or more cohorts in the LMS, on the
+instructor dashboard. For details, see :ref:`Associate Cohorts with Content
+Groups`.
 
 .. _View Usage of a Content Group:
 
