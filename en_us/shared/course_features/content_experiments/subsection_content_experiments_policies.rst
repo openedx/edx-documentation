@@ -32,7 +32,7 @@ Example: One Group Configuration
 The following code shows an example JSON object that defines a group
 configuration with two learner segments.
 
-.. code-block:: json
+.. code-block:: none
 
     "user_partitions": [{"id": 0,
                        "name": "Name of the group configuration",
@@ -64,7 +64,7 @@ The following code shows an example JSON object that defines two group
 configurations. The first group configuration divides learners into two
 experiment groups, and the second divides learners into three experiment groups.
 
-.. code-block:: json
+.. code-block:: none
 
     "user_partitions": [{"id": 0,
                          "name": "Name of Group Configuration 1",

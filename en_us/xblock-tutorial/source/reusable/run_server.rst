@@ -2,12 +2,12 @@
 Run the XBlock SDK Server
 **************************
 
-To see the web interface of the XBlock SDK, you must run the SDK server. 
+To see the web interface of the XBlock SDK, you must run the SDK server.
 
 In the ``xblock_development`` directory, run the following command to start the
 server.
 
-   .. code-block:: bash
+   .. code-block:: none
 
       (venv) $ python xblock-sdk/manage.py runserver
 
@@ -32,7 +32,7 @@ Get Help for the XBlock SDK Server
 To get help for the XBlock SDK ``runserver`` command, run the following
 command.
 
-   .. code-block:: bash
+   .. code-block:: none
 
       (venv) $ python xblock-sdk/manage.py help
 

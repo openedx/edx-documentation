@@ -193,7 +193,7 @@ To get an access token for the edX API, follow these steps.
    The following example ``access_token`` value includes an access token
    string.
 
-   .. code-block:: json
+   .. code-block:: none
 
       "access_token": "4IHZlbCB2aXZlcnJhIGdyYXZpZGEsIHJpc3V.TG9yZW0gaXBzdW0gZG9
       sb3Igc2l0IGFtZXQsIGNvbnNlY3RldHVyIGFkaXBpc2NpbmcgZWxpdC4gRXRpYW0gdGluY2lk

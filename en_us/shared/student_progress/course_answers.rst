@@ -82,7 +82,7 @@ The first interaction, shown at the bottom of the Submission History, records
 when the server delivered the problem component to the browser for the learner
 to view.
 
-.. code-block:: json
+.. code-block:: none
 
   #1: 2015-09-04 08:34:53+00:00 (America/New_York time)
 
@@ -102,7 +102,7 @@ The next interaction shown as you scroll up from the bottom records when the
 learner selected **Check** in the browser to submit an answer. Note that this
 record does not contain the actual answer submitted.
 
-.. code-block:: json
+.. code-block:: none
 
   #2: 2015-09-04 08:35:03+00:00 (America/New_York time)
 
@@ -125,7 +125,7 @@ after the learner submitted the answer. This record includes
 ``student_answers`` with the submitted answer value, along with ``attempts``,
 ``correctness``, and other values.
 
-.. code-block:: json
+.. code-block:: none
 
   #3: 2015-09-03 18:15:10+00:00 (America/New_York time)
 
@@ -171,7 +171,7 @@ differences between values in this record and in record 3, including the
 reported ``Score`` and the values for ``student_answers``, ``attempts``, and
 ``correctness``.
 
-.. code-block:: json
+.. code-block:: none
 
   #5: 2015-09-03 18:15:17+00:00 (America/New_York time)
 

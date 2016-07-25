@@ -94,7 +94,7 @@ Replacement Example
 
 For example, a learner adds this post to a course discussion.
 
-.. code-block:: JSON
+.. code-block:: none
 
   Hi all,
     My name is Jonathan M. Doe (johndoe), and I'm excited to be in this
@@ -107,7 +107,7 @@ Assuming that the learner has values of "johndoe" in ``auth_user.username`` and
 "Jonathan Doe" in ``auth_userprofile.name``, the ``CommentThread.body`` in
 the RDX package appears as follows.
 
-.. code-block:: JSON
+.. code-block:: none
 
   Hi all,
     My name is <<FULLNAME>> M. <<FULLNAME>> (<<USERNAME>>), and I'm excited to
@@ -120,7 +120,7 @@ Another example follows, in which the learner's post does not include any
 values that the replacement method identifies or replaces. In this case, the
 ``CommentThread.body`` in the RDX package is identical to the original post.
 
-.. code-block:: JSON
+.. code-block:: none
 
   Hi everyone! My name is John, here's my info if you want to contact me!
     Email: johnmdoe (AT) gmail (DOT) com

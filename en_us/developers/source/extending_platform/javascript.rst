@@ -140,7 +140,7 @@ attribute of the ``jsinput`` element for the problem.
 
 For example:
 
-.. code-block::  xml
+.. code-block::  none
 
     <customresponse cfn="vglcfn">
         <jsinput get_statefn="JSObject.getState"
@@ -164,7 +164,7 @@ attribute of the ``jsinput`` element for the problem.
 
 For example:
 
-.. code-block::  xml
+.. code-block::  none
 
     <customresponse cfn="vglcfn">
         <jsinput set_statefn="JSObject.setState"
@@ -189,7 +189,7 @@ attribute of the ``jsinput`` element for the problem.
 
 For example:
 
-.. code-block::  xml
+.. code-block::  none
 
     <customresponse cfn="vglcfn">
         <jsinput gradefn="JSObject.getGrade"

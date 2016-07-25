@@ -68,7 +68,7 @@ With OLX, you set the display name as an attribute of the ``problem`` element.
 
 .. code-block:: xml
 
-  <problem display_name="Geography Homework" . . . >
+  <problem display_name="Geography Homework"></problem>
 
 
 ==============================
@@ -91,7 +91,7 @@ element.
 
 .. code-block:: xml
 
-  <problem max_attempts="3" . . . >
+  <problem max_attempts="3"></problem>
 
 
 .. _Problem Weight:
@@ -122,7 +122,7 @@ With OLX, you set a different component weight as an attribute of the
 
 .. code-block:: xml
 
-  <problem weight="2.0" . . . >
+  <problem weight="2.0"></problem>
 
 Computing Scores
 ****************
@@ -260,7 +260,7 @@ element.
 
 .. code-block:: xml
 
-  <problem rerandomize="always" . . . >
+  <problem rerandomize="always"></problem>
 
 
 
@@ -333,7 +333,7 @@ With OLX, you set the show answer preference as an attribute of the
 
 .. code-block:: xml
 
-  <problem showanswer="correct_or_past_due"  . . . >
+  <problem showanswer="correct_or_past_due"></problem>
 
 .. _Show Reset Button:
 
@@ -358,7 +358,7 @@ With OLX, you set the show reset button preference as an attribute of the
 
 .. code-block:: xml
 
-  <problem show_reset_button="true"  . . . >
+  <problem show_reset_button="true"></problem>
 
 .. include:: ../../../shared/exercises_tools/Section_adding_hints.rst
 

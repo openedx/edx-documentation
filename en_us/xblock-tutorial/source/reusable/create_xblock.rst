@@ -8,8 +8,8 @@ follow these steps at a command prompt.
 #. In the ``xblock_development`` directory, which contains the ``venv`` and
    ``xblock-sdk`` directories, run the following command to create the skeleton
    files for the XBlock.
-   
-   .. code-block:: bash
+
+   .. code-block:: none
 
       (venv) $ xblock-sdk/bin/workbench-make-xblock
 
@@ -17,7 +17,7 @@ follow these steps at a command prompt.
    and a class name. Follow the guidelines in the command window to determine
    the names that you want to use.
 
-   .. code-block:: bash
+   .. code-block:: none
 
       You will be prompted for two pieces of information:
 
@@ -37,14 +37,14 @@ follow these steps at a command prompt.
 
 #. At the command prompt, enter the Short Name you selected for your XBlock.
 
-   .. code-block:: bash
-  
+   .. code-block:: none
+
       $ Short name: myxblock
 
 #. At the command prompt, enter the Class name you selected for your XBlock.
 
-   .. code-block:: bash
-  
+   .. code-block:: none
+
       $ Class name: MyXBlock
 
 The skeleton files for the XBlock are created in the ``myxblock`` directory.

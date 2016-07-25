@@ -431,7 +431,7 @@ The following code shows the configuration of this problem.
 
   def give_partial_credit(expect, ans):
     ans = float(ans)
-    if ans > 100 or ans < 0:
+    if ans &gt; 100 or ans &lt; 0:
         # Assign a score of zero if the answer is less than zero or over 100.
         ans = 0
     grade = ans/100

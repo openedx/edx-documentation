@@ -572,7 +572,7 @@ JavaScript context.
 Here is an example of how to import and use ``js_escaped_string`` and
 ``dump_js_escaped_json`` in the context of JavaScript in a Mako template.
 
-.. code-block:: mako
+.. code-block:: none
 
     <%namespace name='static' file='static_content.html'/>
     <%!
