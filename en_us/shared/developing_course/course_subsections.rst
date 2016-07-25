@@ -46,21 +46,38 @@ the first one is open in the LMS.
 Subsections and Visibility to Learners
 ************************************************
 
-Learners cannot see any content in a subsection if the subsection's release
-date and time is unscheduled or has not passed.
+Learners cannot see any content in a subsection until you schedule a release
+date, and that release date has passed.
 
 If a subsection's release date has passed, learners can see content in the
-subsection if the following three conditions are met.
+subsection if the following conditions are met.
 
 * The release date of the parent section has passed.
 * The units have been published.
-* The units are not hidden from learners.
+* The subsection or the units are not hidden from learners.
 
-.. note:: The time that you set, and the time that learners see, is in
-   Coordinated Universal Time (UTC). You might want to verify that you have
-   specified the time that you intend by using a time zone converter such as
-   `Time and Date Time Zone Converter
-   <http://www.timeanddate.com/worldclock/converter.html>`_
+To control whether learners have access to the subsection and its units after
+a subsection's release date, you can apply various visibility settings.
+
+By default, the subsection and its units are available to learners, except for
+any units that you have explicitly hidden from learners.
+
+You can also choose to entirely hide a subsection so that the subsection and its
+units are not visible to learners at all in the course navigation, or you can
+hide the contents of a subsection after the subsection due date has passed. For
+more information about subsection visibility settings, see :ref:`Hide a
+Subsection from Students`.
+
+
+.. note:: Release dates and times that you set in Studio are in Coordinated
+   Universal Time (UTC). You might want to verify that you have specified the
+   time that you intend by using a time zone converter such as `Time and Date
+   Time Zone Converter <http://www.timeanddate.com/worldclock/converter.html>`_.
+
+   Learners who have specified a time zone in their account settings see
+   course dates and times converted to their local time zone. Learners who
+   have not specified a time zone in their account settings see course dates
+   and times in UTC.
 
 ************************************************
 Release Statuses of Subsections
@@ -238,11 +255,14 @@ To set the subsection release date, follow these steps.
 
 #. Enter the release date and time for the subsection.
 
-   .. note:: The time that you set, and the time that learners see, is in
-     Coordinated Universal Time (UTC). You might want to verify that you have
-     specified the time that you intend by using a time zone converter such as
-     `Time and Date Time Zone Converter
-     <http://www.timeanddate.com/worldclock/converter.html>`_
+   .. note:: The time that you set is in Coordinated Universal Time (UTC). You
+      might want to verify that you have specified the time that you intend by
+      using a time zone converter such as `Time and Date Time Zone Converter <http://www.timeanddate.com/worldclock/converter.html>`_
+
+      Learners who have specified a time zone in their account settings see
+      course dates and times converted to their local time zone. Learners who
+      have not specified a time zone in their account settings see course dates
+      and times in UTC.
 
 #. Select **Save**.
 
@@ -269,10 +289,6 @@ To set the assignment type and due date for a subsection, follow these steps.
 
 #. Select the **Configure** icon in the subsection box.
 
-   .. image:: ../../../shared/images/subsections-settings-icon.png
-    :alt: A subsection in the course outline with the configure icon indicated.
-    :width: 600
-
    The **Settings** dialog box opens.
 
 #. In the **Grading** section, select the assignment type for this subsection
@@ -280,11 +296,14 @@ To set the assignment type and due date for a subsection, follow these steps.
 
 #. Enter or select a due date and time for problems in this subsection.
 
-   .. note:: The time that you set, and the time that learners see, is in
-     Coordinated Universal Time (UTC). You might want to verify that you have
-     specified the time that you intend by using a time zone converter such as
-     `Time and Date Time Zone Converter
-     <http://www.timeanddate.com/worldclock/converter.html>`_
+   .. note:: The time that you set is in Coordinated Universal Time (UTC). You
+      might want to verify that you have specified the time that you intend by
+      using a time zone converter such as `Time and Date Time Zone Converter <http://www.timeanddate.com/worldclock/converter.html>`_
+
+       Learners who have specified a time zone in their account settings see
+       course dates and times converted to their local time zone. Learners who
+       have not specified a time zone in their account settings see course dates
+       and times in UTC.
 
 #. Optionally, for a course that has the timed exam feature enabled, select the
    **Advanced** tab to set the subsection to be :ref:`timed<Timed Exams>`.
@@ -314,16 +333,36 @@ to learners.
 
 .. _Hide a Subsection from Students:
 
-********************************
-Hide a Subsection from Learners
-********************************
+***********************************
+Hiding a Subsection from Learners
+***********************************
 
-You can hide all content in a subsection from learners, regardless of the
-status of units within the section.
+You can hide a subsection from learners in the following ways.
+
+* :ref:`Entirely hide the subsection <Entirely Hide a Subsection>` so that it
+  does not appear in course navigation. Subsections that are hidden in this
+  way are not included when grades are calculated.
+
+* :ref:`Prevent learners from accessing <Hide a Subsection After its Due
+  Date>` a subsection's contents after its due date has passed, but keep the
+  subsection visible in course navigation. Subsections that are hidden in
+  this way remain included when grades are calculated.
 
 For more information, see :ref:`Content Hidden from Students`.
 
-To hide a subsection from learners, follow these steps.
+
+.. _Entirely Hide a Subsection:
+
+========================================
+Entirely Hide a Subsection from Learners
+========================================
+
+You can completely hide a subsection and its content from learners, regardless
+of the status of units within the section. Subsections hidden in this way are
+not shown in the course navigation, and are not included when grades are
+calculated.
+
+To entirely hide a subsection from learners, follow these steps.
 
 #. Select the **Configure** icon in the subsection box.
 
@@ -332,23 +371,61 @@ To hide a subsection from learners, follow these steps.
       indicated.
      :width: 600
 
-   The **Settings** dialog box opens.
+   The **Subsection Settings** dialog box opens.
 
-#. In the **Student Visibility** section, select **Hide from students**.
+#. In the **Subsection Visibility** section, select **Hide entire subsection**.
 
 #. Select **Save**.
 
-Now, no content in the subsection is visible to learners.
+None of the content in the subsection is visible to learners. In the course
+outline, the subsection is shown with a lock icon, indicating that it is
+available only to course staff.
 
-To make the subsection visible to learners, repeat these steps and clear the
-**Hide from students** check box.
+   .. image:: ../../../shared/images/subsection-hidden.png
+     :alt: A subsection in the course outline with the lock icon
+      indicating that it is available only to staff.
+     :width: 400
 
-.. warning::
- When you clear the **Hide from students** check box for a subsection, not all
- content in the subsection is necessarily made visible to learners. If you
- explicitly set a unit to be hidden from learners, it remains hidden from
- learners. Unpublished units remain unpublished, and changes to published units
- remain unpublished.
+To make the subsection visible to learners, repeat these steps and select
+**Show entire subsection**.
+
+.. warning::  When you make a previously hidden subsection visible, not all
+   content in the subsection is necessarily made visible to learners. Units
+   that were explicitly hidden from learners remain hidden.
+
+
+.. _Hide a Subsection After its Due Date:
+
+========================================
+Hide a Subsection after its Due Date
+========================================
+
+You can make a subsection's content unavailable when its due date has passed.
+Subsections that are hidden in this way remain visible in the course
+navigation, and are included when grades are calculated. However, learners can
+no longer access the assignments or exams after the subsection due date.
+
+To hide a subsection after its due date, follow these steps.
+
+#. Select the **Configure** icon in the subsection box.
+
+   The **Subsection Settings** dialog box opens.
+
+#. In the **Subsection Visibility** section, select **Hide content after due
+   date**.
+
+#. Select **Save**.
+
+Learners who access the subsection after its due date has passed see a message
+indicating that the subsection is no longer available because the due date has
+passed.
+
+In the course outline in Studio, the subsection is shown with an indication
+that it is hidden after its due date.
+
+   .. image:: ../../../shared/images/subsection-hidden-after-due-date.png
+     :alt: A subsection in the course outline with the lock icon
+      indicating that it is hidden after its due date.
 
 .. _Delete a Subsection:
 
