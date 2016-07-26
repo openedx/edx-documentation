@@ -44,13 +44,13 @@ bucket. Then, follow these steps.
      EDXAPP_VERIFY_STUDENT:
        DAYS_GOOD_FOR: 365
        SOFTWARE_SECURE:
-     STORAGE_CLASS: "storages.example.s3.S3Storage"
-     STORAGE_KWARGS:
-       bucket: "example-certs-test"
-       custom_domain: null
-       querystring_expire: 432000
-       querystring_auth: true
-       default_acl: 'private'
+         STORAGE_CLASS: "storages.example.s3.S3Storage"
+         STORAGE_KWARGS:
+           bucket: "example-certs-test"
+           custom_domain: null
+           querystring_expire: 432000
+           querystring_auth: true
+           default_acl: 'private'
      .
      .
      .
