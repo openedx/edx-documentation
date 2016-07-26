@@ -15,6 +15,6 @@ html_favicon = '../../_themes/edx_theme/static/css/favicon.ico'
 project = u'EdX Release Notes'
 
 #remove directory when content is first added to it, and add to index
-exclude_patterns = ['links.rst', 'reusables/*', '20??/*/*20??.rst', 'coming_soon.rst']
+exclude_patterns = ['links.rst', 'reusables/*', '20??/*/*20??.rst', '20??/*/*20??-??-??.rst', 'coming_soon.rst']
 
 set_audience(PARTNER, COURSE_TEAMS)
