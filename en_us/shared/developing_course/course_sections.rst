@@ -266,21 +266,21 @@ To hide a section from learners, follow these steps.
 
    The **Settings** dialog box opens.
 
-#. In the **Student Visibility** section, select **Hide from students**.
+#. In the **Section Visibility** section, select **Hide from learners**.
 
 #. Select **Save**.
 
 Now, none of the content in the section is visible to learners.
 
-To make the section visible to students, repeat these steps and clear the
-**Hide from students** check box.
+To make the section visible to learners, repeat these steps and deselect **Hide
+from learners**.
 
-.. warning::
- When you clear the **Hide from students** check box for a section, not all
- content in the section is necessarily made visible to learners. If you
- explicitly set a subsection or unit to be hidden from learners, it remains
- hidden from learners. Unpublished units remain unpublished, and changes to
- published units remain unpublished.
+.. warning::  When you deselect **Hide from learners** for a section, not all
+   content in the section is necessarily made visible to learners. If you
+   explicitly set a subsection or unit to be hidden from learners, it remains
+   hidden from learners. Unpublished units remain unpublished, and changes to
+   published units remain unpublished.
+
 
 ********************************
 Delete a Section
