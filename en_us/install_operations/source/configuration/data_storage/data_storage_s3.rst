@@ -6,15 +6,14 @@ Use Amazon S3 for Data Storage
 
 By default, the Open edX platform uses Amazon S3 (Simple Storage Service) for
 data storage. If you need to reconfigure an instance of Open edX to use S3, you
-update the ``server-vars.yml`` file in the edX platform.
+update the ``/edx/app/edx_ansible/server-vars.yml`` file.
 
-.. Note::
-  Before proceeding, review :ref:`Guidelines for Updating the Open edX
+.. note:: Before proceeding, review :ref:`Guidelines for Updating the Open edX
   Platform`.
 
-To change your data storage configuration, you must determine the values to
-use for settings the ``server-vars.yml`` file, including your storage domain
-and bucket. Then, follow these steps.
+Before you change your data storage configuration, be sure to determine the
+values that apply to your S3 data storage service, including the name of your
+bucket. Then, follow these steps.
 
 #. Stop the LMS server.
 
@@ -33,7 +32,7 @@ and bucket. Then, follow these steps.
      EDXAPP_GRADE_STORAGE_CLASS: 'storages.backends.s3boto.S3BotoStorage'
      EDXAPP_GRADE_STORAGE_KWARGS:
        bucket: 'example-student-grades'
-       custom_domain:
+       custom_domain: null
        locations:  '{{ COMMON_ENVIRONMENT }}-{{ COMMON_DEPLOYMENT }}'
        querystring_expire: 300
        gzip: true
@@ -48,7 +47,7 @@ and bucket. Then, follow these steps.
      STORAGE_CLASS: "storages.example.s3.S3Storage"
      STORAGE_KWARGS:
        bucket: "example-certs-test"
-       custom_domain: ""
+       custom_domain: null
        querystring_expire: 432000
        querystring_auth: true
        default_acl: 'private'
@@ -65,7 +64,7 @@ and bucket. Then, follow these steps.
 
 #. Restart the LMS server.
 
-#. Repeat this procedure for each instance that you want to store data on
-   Amazon S3.
+#. Repeat this procedure for each instance that has data that you want to store
+   on Amazon S3.
 
 .. include:: ../../../links/links.rst
