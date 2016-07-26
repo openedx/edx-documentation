@@ -19,8 +19,8 @@ following system features and requirements.
 
 By default, the Open edX platform is configured to use Amazon S3 (Simple
 Storage Service) for data storage. You can change the configuration of your
-Open edX instances to use Swift (the OpenStack Object Store project) for data
-storage instead of S3.
+Open edX instances to use Swift (the OpenStack Object Store project) instead of
+S3 for data storage.
 
 .. toctree::
    :maxdepth: 1
