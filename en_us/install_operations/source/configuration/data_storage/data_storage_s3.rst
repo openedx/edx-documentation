@@ -30,13 +30,15 @@ and bucket. Then, follow these steps.
      .
      .
      .
-     EDXAPP_GRADE_STORAGE_CLASS: 'storages.example.s3.S3Storage'
+     EDXAPP_GRADE_STORAGE_CLASS: 'storages.backends.s3boto.S3BotoStorage'
      EDXAPP_GRADE_STORAGE_KWARGS:
        bucket: 'example-student-grades'
-       custom_domain: 'example-student-grades.s3.amazonaws.com'
+       custom_domain:
        locations:  '{{ COMMON_ENVIRONMENT }}-{{ COMMON_DEPLOYMENT }}'
        querystring_expire: 300
        gzip: true
+       querystring_auth: true
+       default_acl: 'private'
      .
      .
      .
@@ -46,8 +48,10 @@ and bucket. Then, follow these steps.
      STORAGE_CLASS: "storages.example.s3.S3Storage"
      STORAGE_KWARGS:
        bucket: "example-certs-test"
-       custom_domain: "example-certs-test.s3.S3Storage"
+       custom_domain: ""
        querystring_expire: 432000
+       querystring_auth: true
+       default_acl: 'private'
      .
      .
      .

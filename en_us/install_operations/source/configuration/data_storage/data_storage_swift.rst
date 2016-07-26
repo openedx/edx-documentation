@@ -24,16 +24,19 @@ and bucket. Then, follow these steps.
    Be sure to replace the example values for the settings that follow with
    values that apply to your instance.
 
+
+.. Braden or other OpenCraft SME, please supply the KWARGS for Swift below. I've include the S3 ones here as placeholders.
+
    .. code-block:: yaml
 
      COMMON_OBJECT_STORE_LOG_SYNC: true
      .
      .
      .
-     EDXAPP_GRADE_STORAGE_CLASS: 'storages.example.OpenStack.swift'
+     EDXAPP_GRADE_STORAGE_CLASS: 'swift.storage.SwiftStorage'
      EDXAPP_GRADE_STORAGE_KWARGS:
        bucket: 'example-student-grades'
-       custom_domain: 'example-student-grades.OpenStack.swift'
+       custom_domain: ''
        locations:  '{{ COMMON_ENVIRONMENT }}-{{ COMMON_DEPLOYMENT }}'
        querystring_expire: 300
        gzip: true
@@ -43,10 +46,10 @@ and bucket. Then, follow these steps.
      EDXAPP_VERIFY_STUDENT:
        DAYS_GOOD_FOR: 365
        SOFTWARE_SECURE:
-     STORAGE_CLASS: "storages.example.OpenStack.swift"
+     STORAGE_CLASS: "swift.storage.SwiftStorage"
      STORAGE_KWARGS:
        bucket: "example-certs-test"
-       custom_domain: "example-certs-test.OpenStack.swift"
+       custom_domain: ""
        querystring_expire: 432000
      .
      .
