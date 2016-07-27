@@ -1,7 +1,7 @@
 .. _Use Amazon S3 for Data Storage:
 
 ####################################
-Use Amazon S3 for Data Storage
+Using Amazon S3 for Data Storage
 ####################################
 
 By default, the Open edX platform uses Amazon S3 (Simple Storage Service) for
@@ -11,9 +11,29 @@ update the ``/edx/app/edx_ansible/server-vars.yml`` file.
 .. note:: Before proceeding, review :ref:`Guidelines for Updating the Open edX
   Platform`.
 
+**************************************************
+Preparing to Configure Amazon S3 for Data Storage
+**************************************************
+
 Before you change your data storage configuration, be sure to determine the
 values that apply to your S3 data storage service, including the name of your
-bucket. Then, follow these steps.
+bucket.
+
+If you want to ensure that the data you store on S3 is secure, and you plan to
+use timed-urls, be sure to set ``querystring_auth: true`` and ``default_acl:
+'private'``, as shown in the topic that follows. In addition, be sure to verify
+the following third-party configuration settings
+
+* Files in S3 should by private.
+
+* The timed URLs should have temporary authentication that allows private files
+  to be accessed.
+
+********************************
+Use Amazon S3 for Data Storage
+********************************
+
+To configure S3 data storage, follow these steps.
 
 #. Stop the LMS server.
 
