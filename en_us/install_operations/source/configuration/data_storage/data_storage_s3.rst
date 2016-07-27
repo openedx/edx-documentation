@@ -20,14 +20,15 @@ values that apply to your S3 data storage service, including the name of your
 bucket.
 
 If you want to ensure that the data you store on S3 is secure, and you plan to
-use timed-urls, be sure to set ``querystring_auth: true`` and ``default_acl:
-'private'``, as shown in the topic that follows. In addition, be sure to verify
-the following third-party configuration settings
+use signed URLs that are valid for only a short time, be sure to set
+``querystring_auth: true`` and ``default_acl: 'private'``, as shown in the
+topic that follows. In addition, be sure to verify the following third-party
+configuration settings.
 
-* Files in S3 should by private.
+* Files in S3 should be private.
 
-* The timed URLs should have temporary authentication that allows private files
-  to be accessed.
+* The signed URLs should have temporary authentication that allows private
+  files to be accessed.
 
 ********************************
 Use Amazon S3 for Data Storage
