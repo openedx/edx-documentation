@@ -4,12 +4,12 @@ Read Me
 
 The *edX Research Guide* is created using RST_ files and Sphinx_. You, the
 user community, can help update and revise this documentation project on
-GitHub::
+GitHub.
 
-  https://github.com/edx/edx-platform/docs/en_us/data/source
+https://github.com/edx/edx-documentation/tree/master/en_us/data/source
 
-To suggest a revision, fork the project, make changes in your fork, and submit
-a pull request back to the original project: this is known as the `GitHub Flow`_.
-All pull requests need approval from edX. For more information, contact edX at `docs@edx.org`_.
+The edX documentation team welcomes contributions from Open edX community
+members. You can find guidelines for how to `contribute to edX Documentation`_
+in the GitHub edx/edx-documentation repository.
 
 .. include:: ../../../links/links.rst
