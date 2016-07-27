@@ -4,21 +4,19 @@
 Getting Started with edX
 #############################
 
-The following topics provide an introduction to edX and instructions for
-getting started on edX websites.
+The following topics provide an introduction to edx.org and edX Edge, and describe steps for getting started on edX websites.
 
 .. contents::
  :local:
  :depth: 1
 
 This information is intended for course teams. The *EdX Learner's Guide* also
-includes information about creating an account and the edX Demo course. You
-might want to share course- or institution-specific details about the
-registration process, such as password policies or the use of campus
+includes information about creating and activating accounts and about the edX
+Demo course. You might want to share course- or institution-specific details
+about the registration process, such as password policies or the use of campus
 credentials, in your communications with prospective students.
 
-For information about enrolling students in a course, see
-:ref:`enroll_student`.
+For information about enrolling learners in a course, see :ref:`enroll_student`.
 
 .. _edX.org and edX Edge:
 
@@ -40,7 +38,8 @@ different.
 * Edge, at edge.edx.org, is a more private site. Courses on Edge are not
   published on edx.org. Any member of a partner course team can create and
   publish courses, including test courses, on Edge without receiving approval
-  from edX or a partner institution.
+  from edX or a partner institution. You can also host small private online
+  courses (SPOCs) on Edge.
 
   However, Edge does not have a course catalog, and courses cannot be found
   through search engines such as Google. Only learners whom you explicitly
@@ -48,7 +47,6 @@ different.
   Edge. Note that you can invite an unlimited number of learners to participate
   in an Edge course.
 
-  EdX Edge also hosts small private online courses (SPOCs).
 
 .. _Create an Account:
 
@@ -56,17 +54,16 @@ different.
 Create and Activate an Account
 *******************************
 
-.. note::
-  All user accounts on Edge and edx.org are separate. If you want to use both
-  edx.org and Edge, you must complete the account registration process on both
-  sites.
+.. note::  The user accounts on edx.org and edX Edge are separate. To access or
+   create courses on both websites, you must complete the account registration
+   process on each of the two sites.
 
-When you create an edx.org or edX Edge account, you associate an email
-address with your edX account. EdX strongly recommends that you use your
-organizational email address or select an existing account (such as a campus
-account) that is set up to use your organizational email address.
+   When you create an edx.org or edX Edge account, you associate an email
+   address with your edX account. EdX strongly recommends that you use your
+   organizational email address or select an existing account (such as a campus
+   account) that is set up to use your organizational email address.
 
-.. include:: ../../../shared/students/Section_register_account.rst
+.. include:: ../../../shared/getting_started/create_activate_account.rst
 
 You can only access the **Account Settings** page from the LMS. You cannot
 access this page from Studio.

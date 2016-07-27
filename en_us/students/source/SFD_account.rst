@@ -30,16 +30,16 @@ EdX hosts courses on the `edx.org`_ and `edX Edge`_ websites.
   account on Edge unless you have received an invitation to enroll in an Edge
   course.
 
-.. note::
- The user accounts on edx.org and edX Edge are separate. If you take courses on
- both websites, you must complete the account registration process on both
- sites.
+.. note::  The user accounts on edx.org and edX Edge are separate. If you take
+   courses on both websites, you must complete the account registration
+   process on each of the two sites.
 
 ********************************
 Create and Activate an Account
 ********************************
 
-.. include:: ../../shared/students/Section_register_account.rst
+.. include:: ../../shared/getting_started/create_activate_account.rst
+
 
 ******************************
 The edX Demo Course
