@@ -210,8 +210,8 @@ Enable Badges in Studio and the Learning Management System
 To enable badges, you modify the ``lms.env.json`` and ``cms.env.json`` files,
 which are located one level above the ``edx-platform`` directory.
 
-#. In the ``lms.env.json`` and ``cms.env.json`` files, set the
-   value of ``ENABLE_OPENBADGES``  to ``True``.
+#. In the ``lms.env.json`` and ``cms.env.json`` files, in the FEATURES
+   section, set the value of ``ENABLE_OPENBADGES``  to ``True``.
 
    .. code-block:: bash
 
