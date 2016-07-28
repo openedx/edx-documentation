@@ -269,6 +269,8 @@
 
 .. _mongodb: http://docs.mongodb.org/manual/
 
+.. _MongoDB® database: http://www.mongodb.com
+
 .. _AWS Command Line Interface: http://aws.amazon.com/cli/
 
 .. _AWS Documentation: http://aws.amazon.com/documentation/
