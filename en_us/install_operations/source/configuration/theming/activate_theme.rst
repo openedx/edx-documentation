@@ -45,7 +45,7 @@ To propogate this variable to the ``lms.env.json`` file, you run Ansible.
 Alternatively, the ``lms.env.json`` file can be modified directly to set these
 variables:
 
-.. code-block:: json
+.. code-block:: none
 
   ENABLE_COMPREHENSIVE_THEMING: true,
   COMPREHENSIVE_THEME_DIRS: ["/edx/app/themes", ],
