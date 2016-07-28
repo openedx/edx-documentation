@@ -78,6 +78,8 @@
 
 .. _GitHub: http://github.com
 
+.. _Contribute to edX Documentation: https://github.com/edx/edx-documentation#contribute-to-edx-documentation
+
 .. _edx-documentation/shared: https://github.com/edx/edx-documentation/blob/master/shared/conf.py
 
 .. _edx-analytics-configuration: https://github.com/edx/edx-analytics-configuration
