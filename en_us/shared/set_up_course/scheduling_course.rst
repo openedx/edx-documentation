@@ -59,17 +59,22 @@ generally 00:00 UTC or earlier. Learners often expect the course to be
 available on the start date in their own time zones and try to access course
 content during the day. If you do not specify a start time for your course,
 learners see the default start time, 00:00 Coordinated Universal Time (UTC).
-
-Learners can see some parts of the course before the course start date. For
-example, they can see your **Home** page and course-wide discussion
-topics as soon as they enroll in your course. For more information, see
-:ref:`Create CourseWide Discussion Topics`.
+The course start time and other course dates and times are displayed in
+learners' own time zones, if they have specified a time zone in account
+settings.
 
 .. note::
   You can set a different advertised start date for your course. You might do
   this if the exact start date is uncertain. For example, you could advertise
   the start date as "Coming Soon". For more information, see
   :ref:`Advertise a Different Start Date`.
+
+Although learners cannot access any part of your course before the course
+start date, course team members who are enrolled in the course and who have
+the staff, admin, or beta tester role can see published content in the course
+before the course start date. For information about testing your course
+content before the course start date, see :ref:`Beta_Testing`.
+
 
 ============================
 Course End Date and Time
