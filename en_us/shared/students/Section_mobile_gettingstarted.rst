@@ -13,9 +13,9 @@ the Internet.
 How do I create an edX account?
 ======================================
 
-When you open the edX mobile app, select **Sign up and start learning**. You
-can create an edX account using your email address or your Facebook or Google
-account. You also provide the following information.
+When you open the edX mobile app, select **Sign up and start learning**. You can
+create an edX account using your email address or a linked social media account
+such as Facebook or Google. You also provide the following information.
 
 * Your name.
 * The username that will identify you to course teams and to other learners.
@@ -23,7 +23,8 @@ account. You also provide the following information.
 * Your country or region.
 
 After you create your account, you can find courses that interest you and
-enroll in them.
+enroll in them. For more information about creating an edX account, see
+:ref:`Create and Activate an Account`.
 
 
 ===========================================
@@ -64,25 +65,40 @@ How do I find courses to take?
 ==================================================
 
 When you open the app and sign in to your edX account, you see a list of the
-mobile-friendly courses that you are currently enrolled in. At the end of the
-list, select **Find a Mobile-Friendly Course**.
+mobile-friendly courses that you are currently enrolled in.
 
-You can also use the menu at the top of the page. Select **Find Courses**.
+There are two ways to browse courses.
 
-   .. image:: ../../shared/students/Images/Mob_Menu.png
-      :width: 300
-      :alt: Mobile "My Courses" page with an arrow pointing to the menu in the
-        upper left corner.
+* Select the menu icon at the top of the page. Select **Find Courses**.
 
-To sign up for a course, select **Enroll**.
+* Scroll to the bottom of the courses that you are currently enrolled in, and
+  select **Find a Mobile-Friendly Course**.
 
 Almost all of the edX courses are offered on the edX mobile app. EdX is
 continuing to add more mobile courses, so check back regularly for newly
 available courses.
 
+When you find a course that interests you, select the course name. On the
+course page, you can view a short video about the course and find course
+information, including the duration of the course, the estimated effort to
+complete the course, the language it is offered in, and the cost, if any, of
+obtaining a certificate for the course.
+
+========================================
+How do I enroll in a course?
+========================================
+
+To enroll in a course, select **Enroll Now** from the course's **About** page.
+
+
 ========================================
 How do I unenroll from a course?
 ========================================
 
-To unenroll from a course, use a browser to go to the `edx.org`_ website. You
-unenroll from courses on your :ref:`dashboard<SFD Learner Dashboard>`.
+To unenroll from a course, use a browser to go to the `edx.org`_ website.
+
+#. On your :ref:`dashboard<SFD Learner Dashboard>`, locate the course that you
+   want to unenroll from.
+
+#. Select the **Settings** icon next to the **View Course** button and select
+   **Unenroll**.
