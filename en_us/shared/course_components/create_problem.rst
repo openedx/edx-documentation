@@ -101,6 +101,8 @@ When you edit one of the :ref:`common problem types<Adding a Problem>`, the
 simple editor opens with an example problem that you can use as a template for
 adding Markdown formatting.
 
+.. ...with a template that...^
+
 *  :ref:`Checkbox` and Checkboxes with Hints and Feedback
 
 *  :ref:`Dropdown` and Dropdown with Hints and Feedback
@@ -212,8 +214,10 @@ entities that represent them.
 The Advanced Editor
 ====================
 
-The advanced editor is an XML editor that shows the OLX markup for a problem.
-The following advanced problem types open in the advanced editor.
+When you edit one of the :ref:`advanced problem types<Adding a Problem>`, the
+advanced editor opens with an example problem. The advanced editor is an XML
+editor that shows the OLX markup for a problem. You edit the following advanced
+problem types in the advanced editor.
 
 * :ref:`Circuit Schematic Builder`
 
@@ -221,13 +225,20 @@ The following advanced problem types open in the advanced editor.
 
 * :ref:`Custom Python-Evaluated Input<Write Your Own Grader>`
 
-* :ref:`Drag and Drop<drag_and_drop_problem>`
+* :ref:`Drag and Drop<drag_and_drop_problem>` (Deprecated)
 
 * :ref:`Image Mapped Input`
 
 * :ref:`Math Expression Input`
 
-* :ref:`Problem with Adaptive Hint`
+* :ref:`Problem Written in LaTeX`
+
+* :ref:`Problem with Adaptive Hint` and Problem with Adaptive Hint in LaTex
+
+* :ref:`Molecular Structure<Molecule Editor>`
+
+For the :ref:`Peer Assessment<Open Response Assessments 2>` advanced problem
+type, a dialog box opens for problem setup.
 
 Blank advanced problems do not provide an example problem, but they also open
 in the advanced editor by default.
@@ -473,7 +484,8 @@ You can choose the following options for the **Randomization** setting.
 Show Answer
 ===============
 
-This setting adds a **Show Answer** option to the problem. The following options define when the answer is shown to learners.
+This setting adds a **Show Answer** option to the problem. The following
+options define when the answer is shown to learners.
 
 .. list-table::
    :widths: 15 70
@@ -587,14 +599,15 @@ Adding Multiple Questions to a Problem Component
 ================================================
 
 To design an assignment that includes several questions, you add one problem
-component and then edit it to add all of the questions, one after the other, in
-that component. Be sure to identify the text of every question or prompt with
-the appropriate Markdown characters (``>> <<``) or OLX markup, and include all
-of the other required elements for each question you include.
+component and then edit it to add every question and its answer options, one
+after the other, in that component. Be sure to identify the text of every
+question or prompt with the appropriate Markdown formatting (``>> <<``) or OLX
+tag, and include all of the other required elements for
+each question you include.
 
-.. info about the question separator markdown/up will go here; see if the OLX markup is always the label= attribute
+.. ``<label></label>`` insert after OLX above
 
-The questions that you include can all have the same problem type, such as a
+The questions that you include can all be of the same problem type, such as a
 series of text input questions, or you can include questions that use different
 problem types, such as both numerical input and math expression input.
 
@@ -602,6 +615,35 @@ problem types, such as both numerical input and math expression input.
   You cannot use a :ref:`Custom JavaScript` in a problem component that
   contains more than one question. Each custom JavaScript problem must be in
   its own component.
+
+.. An example of a problem component with two text input questions follows. In the
+.. simple editor, the problem has the following Markdown formatting.
+
+.. ::
+
+..  >>Who invented the Caesar salad?||Be sure to check your spelling.<<
+
+..  = Caesar Cardini
+
+..  >>In what year?<<
+
+..  = 1924
+
+.. In the advanced editor, the problem has the following OLX markup.
+
+.. ::
+
+..   <problem>
+..   <stringresponse answer="Caesar Cardini">
+..   <label>Who invented the Caesar salad?</label>
+..   <description>Be sure to check your spelling.</description>
+..   </stringresponse>
+..   <numericalresponse answer="1924">
+..   <label>In what year?</label>
+..   </numericalresponse>
+..   </problem>
+
+.. ^^placeholder, need to verify in the sandbox. - Alison 4 Aug 2016
 
 .. include:: ../../../shared/exercises_tools/Section_adding_hints.rst
 

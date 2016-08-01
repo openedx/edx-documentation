@@ -85,7 +85,8 @@ C
   JavaScript, and chemical equation problem types.
 
   Other assessment methods are also available, and implemented using other
-  XBlocks. An open response assessment is an example of a non-CAPA problem type.
+  XBlocks. An open response assessment is an example of a non-CAPA problem
+  type.
 
 .. _Certificate:
 

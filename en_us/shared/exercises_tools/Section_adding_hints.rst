@@ -97,12 +97,8 @@ You create problems with feedback and hints in Studio. Templates with feedback
 and hints configured are available to make creating your own problems easier.
 
 While editing a unit, in the **Add New Component** panel, select **Problem**.
-In the list that opens, select the  **Common Problem Types** tab. Templates for
+In the list that opens, select  **Common Problem Types**. Templates for
 problems with feedback and hints are listed.
-
-.. image:: ../../../shared/images/hints_feedback_problem_templates.png
- :alt: Image of the templates with hints and feedback in Studio.
- :width: 250
 
 Add the problem type you need to the unit, then edit the component.  The exact
 syntax you use to configure hints and feedback depends on the problem type.
