@@ -806,12 +806,16 @@ S
 
 **Single Sign-On (SSO)**
 
+<<<<<<< 30af5297875f754f998d8249c803fd73b0b5e2e2
   SSO is an authentication service that allows a user to access multiple
   related applications, such as Studio and the LMS, with the same username and
   password. The term SSO is sometimes used to refer to third party
   authentication, which is a different type of authentication system. For
   information about third party authentication, see
   :ref:`Third Party Authentication<T>`.
+=======
+  See :ref:`TPA_g`.
+>>>>>>> Adds TPA and SSO to the glossary
 
 .. _Split_Test:
 
