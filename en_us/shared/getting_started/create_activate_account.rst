@@ -1,8 +1,8 @@
-You can create an account for edx.org or edX Edge in different ways.
+You can create an account for edX or edX Edge in different ways.
 
-* You can create an entirely new edx.org or edX Edge account.
+* You can create an entirely new edX or edX Edge account.
 * You can use an existing social media account, such as a Facebook or Google
-  account, to create an edx.org or edX Edge account.
+  account, to create an edX or edX Edge account.
 * On edX Edge, if your organization provides linked accounts, you can use your
   account with that organization to create an edX Edge account.
 
@@ -10,10 +10,10 @@ You can create an account for edx.org or edX Edge in different ways.
   If you do not use an existing social media or linked organization account to
   create an edX account, you can still link these external accounts to your edX
   account later. For more information, see :ref:`Link Accounts`. If you link
-  your accounts, you sign in to your edX.org or edX Edge account automatically
+  your accounts, you sign in to your edX or edX Edge account automatically
   whenever you sign in to the external account.
 
-Creating an account for edx.org or edX Edge has two steps.
+Creating an account for edX or edX Edge has two steps.
 
 #. :ref:`Create an account <edX Create an Account>` on the edX.org or edX Edge
    website, or from the edX mobile app (for edX.org accounts only).
@@ -26,20 +26,21 @@ Creating an account for edx.org or edX Edge has two steps.
 Create an Account
 ==================
 
-You create, or register, an edx.org or edX Edge account on the account
-registration page. For edx.org, you can also register from the edX mobile app.
+You create, or register, an edX or edX Edge account on the account registration
+page. You can also use the edX mobile app to register your edX account.
 
-To register an account on edx.org or edX Edge, follow these steps.
+.. note::   When you register an account, you specify a username that will
+   represent you on edX or on edX Edge. Your username, not your full name, is
+   used to identify you to course team members and other learners. Your full
+   name is used on any certificates that you earn. You cannot change your public
+   username after you register. EdX recommends that you select your username
+   carefully.
 
-.. note::
-  When you register an account, you specify a username that will represent you
-  throughout the edx.org or edX Edge site. Course team members and other
-  learners see only your username. You cannot change your username after you
-  create your account. EdX recommends that you select your username carefully.
+To register an edX or edX Edge account, follow these steps.
 
-#. Go to the edx.org or edX Edge registration page.
+#. Go to the edX or edX Edge registration page.
 
-   * For edx.org, go to https://courses.edx.org/register or open the edX
+   * For edX, go to https://courses.edx.org/register, or open the edX
      mobile app.
    * For edX Edge, go to https://edge.edx.org/register.
    * If you received an email invitation for a course, follow the instructions
@@ -60,7 +61,7 @@ To register an account on edx.org or edX Edge, follow these steps.
    information can help course teams better understand their learners and
    improve their courses.
 
-#. Select the check box to accept the edX terms of service and honor code.
+#. Accept the edX terms of service and honor code.
 
 #. Select **Create your account**.
 
@@ -81,7 +82,7 @@ Activate an Account
 ====================
 
 .. note::
-  If you sign out of your edx.org or edX Edge account, you cannot sign in again
+  If you sign out of your edX or edX Edge account, you cannot sign in again
   until you activate your account. You also cannot enroll in any courses until
   you activate your account.
 
