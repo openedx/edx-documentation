@@ -268,9 +268,9 @@ C
 **Custom Response Problem**
 
   A custom response problem evaluates text responses from learners using an
-  embedded Python script. These problems are also called "write-your-own-
-  grader" problems. For more information, see :ref:`partnercoursestaff:Write
-  Your Own Grader`.
+  embedded Python script. These problems are also called
+  "write-your-own-grader" problems. For more information, see
+  :ref:`partnercoursestaff:Write Your Own Grader`.
 
 .. _D:
 
@@ -555,7 +555,7 @@ L
 
 **LON-CAPA**
 
-  The LearningOnline Network with Computer-Assisted Personalized Approach
+  The Learning Online Network with Computer-Assisted Personalized Approach
   e-learning platform. The structure of CAPA problem types in the edX platform
   is based on the `LON-CAPA`_ assessment system, although they are not
   compatible.
@@ -799,10 +799,19 @@ S
 
 **Simple Editor**
 
-  The graphical user interface in a problem component that contains formatting
-  buttons and is available for some problem types. For more information, see
+  The graphical user interface in a problem component that contains a toolbar
+  for adding Markdown formatting to the text you supply. The simple editor is
+  available for some problem types. For more information, see
   :ref:`partnercoursestaff:Problem Studio View`.
 
+**Single Sign-On (SSO)**
+
+  SSO is an authentication service that allows a user to access multiple
+  related applications, such as Studio and the LMS, with the same username and
+  password. The term SSO is sometimes used to refer to third party
+  authentication, which is a different type of authentication system. For
+  information about third party authentication, see
+  :ref:`Third Party Authentication<T>`.
 
 .. _Split_Test:
 
@@ -838,6 +847,18 @@ T
 
   For more information, see :ref:`partnercoursestaff:Text Input`.
 
+.. _TPA_g:
+
+**Third Party Authentication**
+
+  A system-wide configuration option that allows users who have a username and
+  password for one system, such as a campus or institutional system, to log in
+  to that system and automatically be given access to the LMS. These users do
+  not enter their system credentials in the LMS.
+
+  For more information about how system administrators can integrate an
+  instance of Open edX with a campus or institutional authentication system,
+  see :ref:`installation:Enabling Third Party Authentication`.
 
 .. _Transcript:
 
