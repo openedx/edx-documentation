@@ -11,7 +11,11 @@ these steps.
 #. Replace the guidance provided by the template to add your own text for the
    question or prompt, answer options, explanation, and so on.
 
-#. Update the OLX to use any additional tags and attributes in your problem.
+   To format equations, you can use MathJax. For more information, see
+   :ref:`MathJax in Studio`.
+
+#. Update the OLX to add optional elements and attributes required for your
+   problem.
 
 #. Select **Settings** to provide an identifying **Display Name** and define
    settings for the problem. For more information, see :ref:`Problem Settings`.
