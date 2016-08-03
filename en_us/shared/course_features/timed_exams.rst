@@ -46,6 +46,15 @@ To enable timed exams in your course, follow these steps.
 
 #. Locate the **Enable Timed Exams** field. The default value is ``false``.
 
+   .. only:: Open_edX
+
+     If you do not find the **Enable Timed Exams** field in the **Advanced
+     Settings** page for your course, timed exams might not be enabled for your
+     Open edX site. Enabling timed exams for an Open edX site is a task that is
+     usually performed by a technical administrator. For more information, see
+     :ref:`installation:Enable Timed Exams` in *Installing, Configuring, and
+     Running the Open edX Platform*.
+
 #. Change the value of the setting to ``true``.
 
 #. Select **Save Changes**. You can now create timed exams in your course.
