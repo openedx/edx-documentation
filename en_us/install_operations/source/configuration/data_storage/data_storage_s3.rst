@@ -87,5 +87,3 @@ To configure S3 data storage, follow these steps.
 
 #. Repeat this procedure for each instance that has data that you want to store
    on Amazon S3.
-
-.. include:: ../../../links/links.rst

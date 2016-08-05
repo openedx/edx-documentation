@@ -230,7 +230,3 @@ To define settings for synchronizing event log files, follow these steps.
 #. Continue on to define Swift settings for other features, or complete steps
    7-10 for :ref:`defining required Swift settings<Define Required Swift
    Settings>` to update your instance.
-
-
-
-.. include:: ../../../links/links.rst
