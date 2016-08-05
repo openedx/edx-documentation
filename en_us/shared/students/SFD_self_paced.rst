@@ -4,18 +4,14 @@
 Taking a Self-Paced Course
 ###########################
 
-Most edX courses are instructor-paced: they follow a schedule that the
-instructor sets, with assignments and exams that have specific due dates. EdX
-also offers a number of self-paced courses, which allow you to progress
-through the course at your own speed.
+Many courses are instructor-paced: they follow a schedule that the instructor
+sets, with assignments and exams that have specific due dates. In contrast,
+self-paced courses allow you to progress through the course at your own speed.
 
-On the edx.org home page, an indication next to the course start date lets you
-know if a course is self-paced.
+.. only:: Partners
 
-.. image:: ../../shared/students/Images/Pacing_Catalog.png
- :width: 450
- :alt: A self-paced course next to an instructor-paced course in the course
-     catalog.
+    On the edx.org home page, an indication next to the course start date lets
+    you know if a course is self-paced.
 
 ************************************************************
 Differences between Instructor- and Self-Paced Courses

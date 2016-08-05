@@ -182,6 +182,8 @@ your course.
   We're creating your certificate. You can keep working in your courses and a
   link to it will appear here and on your Dashboard when it is ready.
 
+.. _Receive a Certificate for a Self Paced Course:
+
 =============================================
 Receive a Certificate for a Self-Paced Course
 =============================================
