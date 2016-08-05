@@ -9,7 +9,7 @@ second level heading or lower.}
 
 {For more information about concept topics, see :ref:`Concept Topics`.}
 
-{Replace or remove this sentence, and all subsequent values within and
+{Replace or remove this sentence, and all other values within and
 including braces ({}), with your own text.}
 
 {You can duplicate and use the source ``task_template.rst`` file to provide a

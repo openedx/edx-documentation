@@ -28,6 +28,7 @@ outline.
 
 .. image:: ../../../shared/images/sections-outline.png
  :alt: Four sections in the outline.
+ :width: 600
 
 ******************************
 The Learner View of a Section
@@ -38,7 +39,7 @@ section at a time to see its contents. In the following example, three sections
 are circled, and the third one is expanded to show its subsections.
 
 .. image:: ../../../shared/images/sections_student.png
- :width: 500
+ :width: 600
  :alt: The learner view of the course with three sections circled.
 
 ************************************************
@@ -64,11 +65,9 @@ content of a section to be visible to learners, the section must be released.
 See the following topics for more information about the possible release
 statuses of sections.
 
-* `Unscheduled`_
-* `Scheduled`_
-* `Released`_
-* `Released with Unpublished Changes`_
-* `Staff Only Content`_
+.. contents::
+  :local:
+  :depth: 1
 
 ========================
 Unscheduled
@@ -83,11 +82,8 @@ the publishing status of that content.
 If you have modified the course start date, when you create a new section, the
 default release date is the course start date.
 
-The following example shows how an unscheduled section displays in the
-outline, summarized with a gray bar.
-
-.. image:: ../../../shared/images/section-unscheduled.png
- :alt: An unscheduled section.
+On the Studio **Course Outline** page, each unscheduled section appears with a
+gray bar next to the section display name.
 
 To make the content available to learners, you must schedule the release date.
 
@@ -102,8 +98,8 @@ content within the section, the entire section will not visible to learners.
 The following example shows how a section that is scheduled for release
 displays in the outline, summarized with a green bar.
 
-.. image:: ../../../shared/images/section-future.png
- :alt: A section scheduled to release in the future.
+On the Studio **Course Outline** page, each scheduled section appears with a
+green bar next to the section display name.
 
 The scheduled date must pass for the section to be visible to learners.
 
@@ -115,11 +111,8 @@ A section that is released is visible to learners; however, learners see only
 subsections within the section that are also released, and units that are
 published.
 
-The following example shows how a released section displays in the outline,
-summarized with a blue bar.
-
-.. image:: ../../../shared/images/section-released.png
- :alt: A released section.
+On the Studio **Course Outline** page, each released section appears with a
+blue bar next to the section display name.
 
 ==================================
 Released with Unpublished Changes
@@ -128,12 +121,9 @@ Released with Unpublished Changes
 If you change a unit in a released section but do not publish the changes,
 learners see the last published version of the modified unit.
 
-The following example shows how a released section with unpublished changes
-displays in the outline, with a yellow bar. The section is expanded to show
-the unit with unpublished changes.
-
-.. image:: ../../../shared/images/section-unpublished-changes.png
- :alt: A section with unpublished changes.
+On the Studio **Course Outline** page, each released section that has
+unpublished changes appears with a yellow bar next to the section display name.
+When you expand the section, the unit that has unpublished changes is visible.
 
 You must publish the unit for learners to see the updates.
 
@@ -145,12 +135,8 @@ A section can contain a unit that is hidden from learners and available to
 members of the course team only. That unit is not visible to learners,
 regardless of the release date of the section or subsection.
 
-The following example shows how a section that contains a unit that is hidden
-from learners displays in the outline, summarized with a black bar.
-
-.. image:: ../../../shared/images/section-hidden-unit.png
- :alt: A section with a hidden unit.
-
+On the Studio **Course Outline** page, each section that includes a unit with
+staff only content appears with a black bar next to the section display name.
 
 .. _Create a Section:
 
@@ -195,6 +181,7 @@ To edit a section name, move your cursor over the section name to show the
 
 .. image:: ../../../shared/images/section-edit-icon.png
   :alt: The Edit Section Name icon.
+  :width: 500
 
 Select the **Edit** icon next to the section name. The name field becomes
 editable. Enter the new name, and then tab or click outside of the field to
@@ -212,6 +199,7 @@ To set the section release date, follow these steps.
 
    .. image:: ../../../shared/images/section-settings-box.png
     :alt: The section settings icon circled.
+    :width: 500
 
    The **Settings** dialog box opens.
 
@@ -238,6 +226,7 @@ in the box for the section.
 
 .. image:: ../../../shared/images/outline-publish-icon-section.png
  :alt: Publishing icon for a section.
+ :width: 500
 
 .. note::
  The **Publish** icon only appears when there is new or changed content within
@@ -263,6 +252,7 @@ To hide a section from learners, follow these steps.
 
    .. image:: ../../../shared/images/section-settings-box.png
     :alt: The section settings icon circled.
+    :width: 500
 
    The **Settings** dialog box opens.
 
@@ -300,6 +290,7 @@ To delete a section, follow these steps.
 
   .. image:: ../../../shared/images/section-delete.png
    :alt: The section with Delete icon circled.
+   :width: 500
 
 2. When you receive the confirmation prompt, select **Yes, delete this
    section**.

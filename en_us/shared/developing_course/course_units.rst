@@ -17,7 +17,7 @@ Components>`.
 .. _What is a Unit?:
 
 ****************************
-What is a Unit?
+What Is a Unit?
 ****************************
 
 A unit is a part of a :ref:`subsection<Developing Course Subsections>` that
@@ -96,8 +96,11 @@ The typical workflow includes these steps.
 #. :ref:`Add components to the unit<Add a Component>`.
 #. :ref:`Modify components in the unit<Developing Course Components>`.
 
+.. The following image could use some re-work to make the contrast greater.
+
 .. image:: ../../../shared/images/workflow-create-unit.png
  :alt: Diagram of the unit development workflow.
+ :width: 800
 
 You :ref:`publish the unit<Publish a Unit>` after you add all of its
 components. If you make additional modifications, you must publish the unit
@@ -156,14 +159,15 @@ As a course author, you work with units that have the following statuses.
 .. _Draft (Never Published):
 
 ========================
-Draft (Never published)
+Draft (Never Published)
 ========================
 
 When you create a new unit and add components to it, the unit's publishing
 status is **Draft (Never Published)**, as shown in the status panel.
 
 .. image:: ../../../shared/images/unit-never-published.png
- :alt: Status panel of a unit that has never been published.
+ :alt: Status panel of a unit that has never been published, with "Draft (Never
+     published)" at the top.
  :width: 200
 
 .. note:: The **Release** section applies only to instructor-paced courses. It
@@ -189,7 +193,8 @@ section and subsection have passed (in an instructor-paced course). You, and
 enrolled learners, see the current version of the unit.
 
 .. image:: ../../../shared/images/unit-published.png
- :alt: Status panel of a unit that is published.
+ :alt: Status panel of a unit that is published, with "Published and Live" at
+     the top.
  :width: 200
 
 The **Release** section applies only to instructor-paced courses. It does not
@@ -206,7 +211,8 @@ You published the unit, but the release date is still in the future. Learners
 cannot see this unit until the release date passes.
 
 .. image:: ../../../shared/images/unit-published_unreleased.png
- :alt: Status panel of a unit that is published but not released.
+ :alt: Status panel of a unit that is published but not released, with
+     "Published (not yet released)" at the top.
  :width: 200
 
 This status applies only to instructor-paced courses. It does not apply to
@@ -223,7 +229,8 @@ publishing status changes to **Draft (Unpublished Changes)**, as shown in the
 status panel.
 
 .. image:: ../../../shared/images/unit-pending-changes.png
- :alt: Status panel of a unit that has pending changes.
+ :alt: Status panel of a unit that has pending changes, with "Draft
+     (Unpublished Changes)" at the top.
  :width: 200
 
 The **Release** section applies only to instructor-paced courses. It does not
@@ -255,7 +262,8 @@ Learners never see a unit with this status, even if it has been published and
 the release date has passed (in an instructor-paced course).
 
 .. image:: ../../../shared/images/unit-hide.png
- :alt: Status panel of a unit that is hidden from learners.
+ :alt: Status panel of a unit that is hidden from learners, with an icon and
+     "Hide from learners" text visible.
  :width: 200
 
 The **Release** section applies only to instructor-paced courses. It does not
@@ -344,10 +352,10 @@ headed arrow. You can then drag the component to the location that you want.
 In the image that follows, the handle for the discussion component is selected.
 
 .. image:: ../../../shared/images/unit-drag-selected.png
-  :alt: A discussion component selected to drag it.
+  :alt: A discussion component selected so that it can be dragged.
   :width: 600
 
-A dashed outline indicates where the component will land when you release the
+A blue outline indicates where the component will land when you release the
 mouse button. For example, in the image below, the discussion component is
 being moved to the top of the unit.
 
@@ -369,11 +377,8 @@ In a live course, after the unit is published and if there are no pending
 changes, previewing a unit is exactly the same as viewing the live version of
 the unit.
 
-To preview the unit, in the unit page, select **Preview**.
-
-.. image:: ../../../shared/images/preview_changes.png
- :alt: A course unit page, with the Preview button circled.
-  :width: 600
+To preview the unit, in the unit page above the status panel, select
+**Preview**.
 
 The unit opens in preview mode.
 
@@ -413,9 +418,7 @@ Use the Unit Page to Publish a Unit
 
 To publish the unit, select **Publish** in the status panel.
 
-.. image:: ../../../shared/images/unit-publish-button.png
- :alt: Unit status panel with the Publish button indicated.
- :width: 200
+
 
 =======================================
 Use the Outline to Publish a Unit
@@ -425,8 +428,9 @@ To publish a unit from the outline, select the **Publish** icon in the box for
 the unit.
 
 .. image:: ../../../shared/images/outline-publish-icon-unit.png
- :alt: The Course Outline page with the Publish icon for a unit indicated.
- :width: 400
+ :alt: The Course Outline page with an arrow pointing to the Publish icon for a
+     unit.
+ :width: 500
 
 .. note::
  The **Publish** icon only appears when there is new or changed content in the
@@ -447,10 +451,6 @@ changes so that Studio reverts to the last published version of the unit.
 To discard changes and revert the Studio version of the unit to the last
 published version, select **Discard Changes** in the status panel.
 
-.. image:: ../../../shared/images/unit-discard-changes.png
- :alt: Unit status panel with the Discard Changes option indicated.
- :width: 200
-
 .. caution::
  When you discard changes to a unit, the changes are permanently deleted. You
  cannot retrieve discarded changes or undo the action.
@@ -462,11 +462,7 @@ View a Published Unit
 ****************************
 
 To view the last published version of a unit in the LMS, select **View Live
-Version**.
-
-.. image:: ../../../shared/images/unit_view_live_button.png
- :alt: Unit page with View Live Version button circled.
- :width: 600
+Version** at the top of the page.
 
 The unit page opens in the LMS in Staff view. You might be prompted to log in
 to the LMS.
@@ -494,11 +490,7 @@ You can hide a unit from learners using the course outline or the unit page.
 Use the Unit Page to Hide a Unit
 =======================================
 
-Select **Hide from learners** in the status panel.
-
-.. image:: ../../../shared/images/unit-hide.png
- :alt: Unit status panel with Hide from Learners selected.
- :width: 200
+In the status panel, select **Hide from learners**.
 
 The **Release** section applies only to instructor-paced courses. It does not
 appear for units in self-paced courses.
@@ -514,7 +506,7 @@ Use the Outline to Hide a Unit
    .. image:: ../../../shared/images/outline-unit-settings.png
       :alt: The Course Outline page with the Configure icon for a unit
           indicated.
-      :width: 600
+      :width: 500
 
    The **Settings** dialog box opens.
 
@@ -561,8 +553,9 @@ To delete a unit, follow these steps.
 #. Select the **Delete** icon in the box for the unit you want to delete.
 
    .. image:: ../../../shared/images/unit-delete.png
-    :alt: The Course Outline page with the Delete icon for a unit indicated.
-    :width: 600
+    :alt: The Course Outline page with the Delete icons for several units
+        circled.
+    :width: 500
 
 #. When you receive the confirmation prompt, select **Yes, delete this
    unit**.
