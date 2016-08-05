@@ -62,6 +62,7 @@ The following diagram summarizes the content creation workflow:
 
 .. image:: ../../../shared/images/workflow-create-content.png
  :alt: Diagram of the content creation process
+ :width: 600
 
 It is recommended that you :ref:`test course content <Testing Your Course
 Content>` throughout the creation process, including making sure that the
@@ -89,7 +90,7 @@ able to see it. Content visibility depends on several factors.
   you configure
 * The :ref:`publishing status<Hide a Unit from Students>` of the unit
 * The :ref:`Hide content from learners<Hide a Unit from Students>` setting
-* The use of :ref:`Content Groups`
+* The use of :ref:`content groups<Content Groups>`
 
 For more information, see :ref:`Controlling Content Visibility`.
 
@@ -100,17 +101,17 @@ Making Course Content Searchable
 ***********************************
 
 Learners can search course text in :ref:`HTML components<Working with HTML
-Components>` and video transcripts by using the **Search** box in the upper-left
-corner of the **Course** tab.
+Components>` and video transcripts by using the **Search** box at the top of
+the **Course** tab.
 
 Before learners can search your course, Studio must index the content. Studio
 indexes all new course content automatically when you :ref:`publish<Publish a
 Unit>` the content.
 
 If necessary, you can manually reindex all of the content in your course at any
-time. Typically, you would only manually reindex your course content if learners
-see unexpected search results. To reindex your course content, select **Reindex
-Content** in the upper-right corner of the **Course Outline** page. Reindexing
+time. Typically, you would only manually reindex your course content if
+learners see unexpected search results. To reindex your course content, select
+**Reindex Content** at the top of the **Course Outline** page. Reindexing
 usually takes less than 30 seconds.
 
 .. _Revising Content:
@@ -134,6 +135,7 @@ visibility:
 
 .. image:: ../../../shared/images/workflow-revise-content.png
  :alt: Diagram of the content creation process
+ :width: 500
 
 It is recommended that you :ref:`test course content <Testing Your Course
 Content>` during the revision process, including making sure that the content
