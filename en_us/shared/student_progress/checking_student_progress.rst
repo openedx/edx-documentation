@@ -1,8 +1,8 @@
 .. _Checking Student Progress and Issuing Certificates:
 
-###################################################
-Assign Final Grades and Issue Certificates
-###################################################
+#####################################################
+Assign Final Grades and Enable On-Demand Certificates
+#####################################################
 .. This chapter will be renamed and expanded to include course wrap-up activities and best practices.
 
 This topic describes how to assign grades and issue certificates to learners in
@@ -55,7 +55,7 @@ these steps.
 #. Select **Enable Student-Generated Certificates**.
 
    When they have qualified, learners can request their certificates from the
-   Progress page.
+   **Progress** page.
 
    To prevent learners from requesting certificates, select **Disable Student-
    Generated Certificates**.
@@ -65,11 +65,8 @@ these steps.
   For information about how learners request certificates, see
   :ref:`learners:SFD On Demand Certificates`.
 
-.. note:: If you do not allow learners to request certificates, you must
-  `generate certificates`_.
-
 =====================================================
-Communicate to Learners abut Requesting Certificates
+Communicate to Learners about Requesting Certificates
 =====================================================
 
 If your course offers on-demand certificates, we encourage you to include this
@@ -82,7 +79,7 @@ communication with your learners.
    edX partner manager during the course announcement process.
 
 ==============================================================
-Allow Learners to Download Certificates when they Qualify
+Allow Learners to Download Certificates when They Qualify
 ==============================================================
 
 To allow learners to download certificates from the dashboard when they qualify
@@ -97,21 +94,3 @@ setting in Studio.
    Be sure that you include the double quotation marks.
 
 #. Select **Save Changes**.
-
-***********************
-Generate Certificates
-***********************
-
-Unless you `allow learners to request certificates`_ in a self-paced course,
-you must generate certificates.
-
-To generate certificates, follow these steps.
-
-#. View the live version of your course.
-
-#. Select **Instructor**, and then select **Certificates**.
-
-#. Select **Generate Certificates**.
-
-   Learners who have qualified can now view their certificates on the
-   dashboards.
