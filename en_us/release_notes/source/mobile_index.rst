@@ -11,6 +11,12 @@ The following information describes what is new in the edX mobile apps.
   :depth: 2
 
 **************************
+Week of 8 August 2016
+**************************
+
+.. include:: 2016/mobile/mobile_2016-08-08.rst
+
+**************************
 Week of 18 July 2016
 **************************
 
