@@ -5,7 +5,7 @@ Adding a Pre-Roll Video to Your edX Course
 *******************************************
 
 .. note:: Only courses that run on the edx.org website can include a pre-roll
- video. In addition, your organization must work with the edX media team to
+ video. In addition, your organization must work with edX partner support to
  encode and host your video files. For more information, see `Processing Video
  Files`_.
 

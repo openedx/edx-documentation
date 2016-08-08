@@ -31,10 +31,10 @@ multiple playback and download needs.
 Course Team Video Upload Overview
 ************************************
 
-The edX media team establishes accounts for your institution at YouTube and
-Amazon Web Services (AWS). For more information about the preliminary setup
-that your institution works with edX to complete, see :ref:`Video Getting
-Started`.
+The edX partner support team establishes accounts for your institution at
+YouTube™ and Amazon Web Services™ (AWS). For more information about the
+preliminary setup that your institution works with edX to complete, see
+:ref:`Video Getting Started`.
 
 After these services are set up, course teams use Studio to upload one file to
 the edX servers for each of the videos that they want to include in their
