@@ -6,6 +6,11 @@ Checkbox Problem
 
 .. note:: EdX offers full support for this problem type.
 
+The checkbox problem type is a core problem type that can be added to every
+course. At a minimum, checkbox problems include a question or prompt and
+several answer options. By adding hints, feedback, or both, you can give
+learners guidance and help when they work on a problem.
+
 .. contents::
   :local:
   :depth: 2
@@ -20,76 +25,25 @@ the options that are correct answers, and none of the options that are
 incorrect. The course team must set up each checkbox problem to have at least
 one correct answer.
 
+As a best practice, be sure that all of the answer choices are unambiguous, and
+avoid trick questions. Checkbox problems with ambiguity can be frustrating to
+learners, especially if the problems have a limited number of attempts.
+
+=============================
+Example Checkbox Problem
+=============================
+
+In the LMS, learners check answer options or leave answer option unchecked to
+complete a checkbox problem. An example of a completed checkbox problem
+follows.
+
 .. image:: ../../../shared/images/CheckboxExample.png
- :alt: A checkbox problem with four options, two of which are correct.
+ :alt: An incorrectly answered checkbox problem shown in the LMS. Of the
+     answer options, one of them was incorrectly checked rather than being left
+     unchecked. An explanation appears below the answer options.
 
-.. note::
-   Make sure that all of the answer choices are unambiguous, and avoid trick
-   questions. Checkbox problems with ambiguity can be frustrating to learners,
-   especially if the problems have a limited number of attempts.
-
-==========================================
-Analyzing Performance on Checkbox Problems
-==========================================
-
-For the checkbox problems in your course, you can use edX Insights to review
-aggregated learner performance data and examine submitted answers. For more
-information, see :ref:`insights:Using edX Insights`.
-
-**************************************
-Creating a Checkbox Problem
-**************************************
-
-You can create checkbox problems in the simple editor or in the advanced
-editor. You can set up a problem in the simple editor, and then switch to the
-advanced editor to change problem configuration using OLX (open learning XML).
-However, you cannot switch back to the simple editor from the advanced editor.
-Therefore, you might want to format the problem as completely as possible
-before you begin to use the advanced editor.
-
-
-.. _Use the Simple Editor to Create a Checkbox Problem:
-
-======================================================
-Use the Simple Editor to Create a Checkbox Problem
-======================================================
-
-To use the :ref:`simple editor<Simple Editor>` to create a checkbox problem,
-follow these steps.
-
-#. In the unit where you want to create the problem, under **Add New
-   Component** select **Problem**.
-#. Select one of the two checkbox problem templates.
-
-  * From the list of **Common Problem Types**, select **Checkboxes**.
-
-  * From the list of **Common Problems with Hints and Feedback**, select
-    **Checkboxes with Hints and Feedback**. For more information, see `Use
-    Feedback in a Checkbox Problem`_.
-
-    Studio adds the checkbox problem to the unit.
-
-#. Select **Edit**. The simple editor opens.
-#. Replace the sample problem text with your own text.
-#. Determine the text that describes the question you want learners to answer,
-   and surround that text with two pairs of angle brackets (``>>question<<``).
-   This text identifies the question for screen readers, reports, and Insights.
-#. Edit the text to place each answer option on a separate line.
-#. Select the set of answer options, and then select **Checkboxes** from the
-   toolbar. A pair of brackets appears next to each answer choice.
-#. To identify each correct answer, add an **x** between the brackets for that
-   option.
-#. To provide an explanation, select the explanation text and then select
-   **Explanation** from the toolbar. ``[explanation]`` appears before
-   and after the explanation text.
-#. Select **Settings** and provide an identifying **Display Name** for the
-   problem.
-#. Define additional settings for the problem. For more information, see
-   :ref:`Problem Settings`.
-#. Select **Save**.
-
-For the example problem illustrated above, the following text displays in the
-problem component.
+To add the example problem illustrated above, you enter the following text
+and markdown in the simple editor in Studio.
 
 ::
 
@@ -107,17 +61,9 @@ problem component.
     People who are not immunized against a disease may still not fall sick from the disease. If someone is trying to learn whether or not preventative measures against the disease have any impact, he or she may see these people and conclude, since they have remained healthy despite not being immunized, that immunizations have no effect. Consequently, he or she would tend to believe that immunization (or other preventative measures) have fewer benefits than they actually do.
     [explanation]
 
-========================================================================
-Use the Advanced Editor to Edit a Checkbox Problem
-========================================================================
+The OLX (open learning XML) markup for an example checkbox problem follows.
 
-To use the :ref:`advanced editor<Advanced Editor>` to edit a checkbox
-problem, follow these steps.
-
-#. Follow the steps for creating the problem in the :ref:`simple editor<Use
-   the Simple Editor to Create a Checkbox Problem>`.
-#. Select **Advanced Editor**, and then edit the OLX to add the tags and
-   attributes you want. An example follows.
+.. replace this OLX with the same example depicted above
 
 .. code-block:: xml
 
@@ -141,19 +87,109 @@ problem, follow these steps.
   </solution>
   </problem>
 
+==========================================
+Analyzing Performance on Checkbox Problems
+==========================================
+
+For the checkbox problems in your course, you can use edX Insights to review
+aggregated learner performance data and examine submitted answers. For more
+information, see :ref:`insights:Using edX Insights`.
+
+**************************
+Adding a Checkbox Problem
+**************************
+
+You add checkbox problems in Studio by selecting the **Problem** component type
+and then using either the simple editor or the advanced editor to specify the
+prompt and the answer options.
+
+.. contents::
+  :local:
+  :depth: 1
+
+.. note:: You can begin work on the problem in the simple editor, and then
+  switch to the advanced editor. However, after you save any changes you make
+  in the advanced editor, you cannot switch back to the simple editor.
+
+.. _Use the Simple Editor to Create a Checkbox Problem:
+
+======================================================
+Use the Simple Editor to Add a Checkbox Problem
+======================================================
+
+To use the :ref:`simple editor<Simple Editor>` to add a checkbox problem,
+follow these steps.
+
+#. In the unit where you want to create the problem, under **Add New
+   Component** select **Problem**.
+
+#. From the list of **Common Problem Types**, select one of these problem
+   types.
+
+  * Checkboxes
+
+  * Checkboxes with Hints and Feedback
+
+   Studio adds a problem of the selected type to the unit.
+
+#. Select **Edit**. The simple editor opens to a template that shows the
+   markdown that you can use for this problem type.
+
+#. Replace the guidance provided by the template to add your own text for the
+   prompt, answer options, explanation, and so on.
+
+#. Select **Settings** to provide an identifying **Display Name** and define
+   settings for the problem. For more information, see :ref:`Problem Settings`.
+
+#. Select **Save**.
+
+==================================================
+Use the Advanced Editor to Add a Checkbox Problem
+==================================================
+
+To use the :ref:`advanced editor<Advanced Editor>` to add a checkbox
+problem, follow these steps.
+
+#. Follow steps 1-3 for creating the problem in the :ref:`simple editor<Use
+   the Simple Editor to Create a Checkbox Problem>`.
+
+#. Select **Advanced Editor**. The advanced editor opens to a template that
+   shows the OLX markup that you can use for this problem type.
+
+#. Replace the guidance provided by the template to add your own text for the
+   prompt, answer options, explanation, and so on.
+
+#. Update the OLX to use any additional tags and attributes in your problem.
+   For more information, see :ref:`Checkbox Problem XML`.
+
+#. Select **Settings** to provide an identifying **Display Name** and define
+   settings for the problem. For more information, see :ref:`Problem Settings`.
+
+#. Select **Save**.
+
 .. _Use Feedback in a Checkbox Problem:
 
 ********************************************
-Using Feedback in a Checkbox Problem
+Adding Feedback to a Checkbox Problem
 ********************************************
 
-You can add feedback in a checkbox problem using the simple editor
-or the advanced editor. For an overview of feedback in problems, see
-:ref:`Adding Feedback and Hints to a Problem`.
+For an overview of feedback in problems, see :ref:`Adding Feedback and Hints to
+a Problem`. For checkbox problems, you can add feedback for each of the answer
+options you provide in the problem. You can also identify different
+combinations of answer options that learners are likely to select, and add
+compound feedback for those combinations.
+
+You can add feedback to a checkbox problem using the simple editor
+or the advanced editor.
+
+=========================================
+Adding Feedback for Individual Options
+=========================================
 
 In checkbox problems, you can provide feedback for each option that a learner
 can select, with distinct feedback depending on whether or not the learner
-selects that option. This means that there are four possible types of feedback.
+selects that option. This means that there are several possible types of
+feedback.
 
 * The learner selects a correct option. This type of feedback
   should indicate why the option is correct.
@@ -163,13 +199,13 @@ selects that option. This means that there are four possible types of feedback.
 
 * The learner selects an incorrect option. This type of feedback should
   indicate that the learner incorrectly checked this option and why it is
-  incorrect
+  incorrect.
 
 * The learner does not select an incorrect option. This type of feedback should
   reinforce why the learner correctly left this option unselected.
 
 =============================
-Compound Feedback
+Adding Compound Feedback
 =============================
 
 You can configure the checkbox problem to provide compound feedback.
@@ -187,15 +223,15 @@ options.
 * A, B, C
 
 For problems with more than three options, providing specific feedback for each
-combination can become difficult. For such problems, you can define compound
-feedback for more likely combinations of option or for combinations of option
-that reflect common learner misunderstandings. If you do not define feedback
-for a combination that a learner selects, the learner receives feedback for the
-individual selections.
+combination can become difficult. For such problems, you might choose to define
+compound feedback for more likely combinations of option or for combinations of
+option that reflect common learner misunderstandings. If you do not define
+feedback for a combination that a learner selects, the learner receives
+feedback for the individual selections.
 
-=======================================
-Configure Feedback in the Simple Editor
-=======================================
+==========================================
+Configuring Feedback in the Simple Editor
+==========================================
 
 You can configure individual option and compound feedback in the :ref:`simple
 editor<Simple Editor>`. When you create a new checkbox problem, select the
@@ -265,9 +301,9 @@ options **A, B, and D** or **A, B, C, and D**.
   However, a potato is not a fruit as it is an edible part of a plant in tuber
   form and is classified as a vegetable.  }}
 
-=========================================
-Configure Feedback in the Advanced Editor
-=========================================
+============================================
+Configuring Feedback in the Advanced Editor
+============================================
 
 You can configure individual option and compound feedback in the :ref:`Advanced
 Editor<Advanced Editor>`.
@@ -366,10 +402,10 @@ options **A, B, and D** or **A, B, C, and D**.
 .. _Use Hints in a Checkbox Problem:
 
 ********************************************
-Using Hints in a Checkbox Problem
+Adding Hints to a Checkbox Problem
 ********************************************
 
-You can add hints to a checkbox problem, using the simple editor
+You can add hints to a checkbox problem using the simple editor
 or the advanced editor. For an overview of hints in problems, see
 :ref:`Adding Feedback and Hints to a Problem`.
 
@@ -409,8 +445,8 @@ answer left unselected (known as `every decision counts`_), the learner earned
      three answers.
  :width: 600
 
-
-There are two ways to award partial credit in a checkbox problem.
+You can use the following methods to award partial credit in a checkbox
+problem.
 
 .. contents::
   :local:
@@ -419,11 +455,11 @@ There are two ways to award partial credit in a checkbox problem.
 .. _Every Decision Counts:
 
 ======================================
-Using the Every Decision Counts Style
+Using the Every Decision Counts Method
 ======================================
 
 You can configure a checkbox problem so that the learner's response for every
-option is evaluated and scored. This is known as "every decision counts"
+option is evaluated and scored. This is known as every decision counts
 (EDC).
 
 With EDC, for each option the learner gets wrong, either by not selecting a
@@ -482,14 +518,14 @@ updated to provide partial credit.
     </checkboxgroup>
   </choiceresponse>
 
-=======================
-Using the Halves Style
-=======================
+==========================
+Using the By Halves Method
+==========================
 
 You can configure a checkbox problem so that for every option that a learner
 gets wrong, either by not selecting a correct option or by selecting an
 incorrect option, half of the remaining points are deducted from the learner's
-score. This is known as scoring by "halves".
+score. This is known as scoring by halves.
 
 .. note:: By design, partial credit by halves requires the number of answer
    options to be more than twice the number of incorrect answers. In addition,
@@ -499,13 +535,13 @@ score. This is known as scoring by "halves".
    wrong answers is always scored at 0%, regardless of the number of total
    answer options.
 
-Partial credit using the halves method is calculated as follows.
+Partial credit using the by halves method is calculated as follows.
 
 * If a learner makes no errors, she receives full credit for the problem.
 
-* If a learner makes one error, she receives 50% of the possible points, as long
-  as there are three or more choices in the problem. If a learner makes one
-  error and there are only two choices in the problem, no credit is given.
+* If a learner makes one error, she receives 50% of the possible points, as
+  long as there are three or more choices in the problem. If a learner makes
+  one error and there are only two choices in the problem, no credit is given.
 
 * If a learner makes two errors, she receives 25% of the possible points, as
   long as there are five or more choices in the problem. If a learner makes two
@@ -631,10 +667,10 @@ for problems with an increasing number of total answer options.
        - 0
 
 
-Configure a Halves Checkbox Problem
-************************************
+Configure a By Halves Checkbox Problem
+**************************************
 
-To configure a halves checkbox problem, you add the
+To configure a by halves checkbox problem, you add the
 ``partial_credit="halves"`` attribute to the ``<choiceresponse>`` element in
 the problem OLX.
 
@@ -658,6 +694,8 @@ partial credit.
 ****************************
 Checkbox Problem OLX
 ****************************
+
+.. update the template that follows
 
 ============
 Template
