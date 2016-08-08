@@ -256,8 +256,8 @@ To specify usage limitations, follow these steps.
 
      If you select this option, the **Number of Codes** field is visible. In
      this field, specify the number of individual discount or enrollment codes
-     you want to create. The value must be 1 or greater. Make sure that you
-     create enough discount or enrollment codes so that each person receives
+     you want to create. The value must be between 1 and 1000. Make sure that
+     you create enough discount or enrollment codes so that each person receives
      one code.
 
    * **Can be used once by multiple customers** or **Can be used multiple times
