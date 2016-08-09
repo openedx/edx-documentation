@@ -6,9 +6,17 @@ Text Input Problem
 
 .. note:: EdX offers full support for this problem type.
 
+The text input problem type is a core problem type that can be added to any
+course. At a minimum, text input problems include a question or prompt and a
+response field for free form answer text. By adding hints, feedback, or both,
+you can give learners guidance and help when they work on a problem.
+
 .. contents::
   :local:
-  :depth: 1
+  :depth: 2
+
+For more information about the core problem types, see
+:ref:`Working with Problem Components`.
 
 **********
 Overview
@@ -17,155 +25,184 @@ Overview
 In text input problems, learners enter text into a response field. The
 response can include numbers, letters, and special characters such as
 punctuation marks. Because the text that the learner enters must match the
-instructor's specified answer exactly, including spelling and punctuation, we
-recommend that you specify more than one correct answer for text input
+instructor's specified answer exactly, including spelling and punctuation, edX
+recommends that you specify more than one correct answer for text input
 problems to allow for differences in capitalization and typographical errors.
 
-.. image:: ../../../shared/images/TextInputExample.png
- :alt: An example text input problem.
+=============================
+Example Text Input Problem
+=============================
 
-**************************************************
-Analyzing Performance on Multiple Choice Problems
-**************************************************
+In the LMS, learners enter a value into a response field to complete a text
+input problem. An example of a completed text input problem follows.
+
+.. image:: ../../../shared/images/TextInputExample.png
+ :alt: A correctly answered text input problem shown in the LMS. The text
+  entered by the learner exactly matches one of the acceptable answer options,
+  which appear below the response along with the explanation.
+
+To add the example problem illustrated above, in Studio you use the simple
+editor to enter the following text and Markdown formatting.
+
+::
+
+    >>What was the first post-secondary school in China to allow both male and female students?||Answer with a name from the modern period.<<
+
+    = Nanjing University
+    or= National Central University
+    or= Nanjing Higher Normal Institute
+    or= Nanking University
+
+    [explanation]
+    Nanjing University first admitted female students in 1920.
+    [explanation]
+
+The OLX (open learning XML) markup for this example text input problem follows.
+
+.. code-block:: xml
+
+  <problem>
+    <stringresponse answer="Nanjing University" type="ci">
+      <label>What was the first post-secondary school in China to allow both
+       male and female students?</label>
+      <description>Answer with a name from the modern period.</description>
+      <additional_answer answer="National Central University"/>
+      <additional_answer answer="Nanjing Higher Normal Institute"/>
+      <additional_answer answer="Nanking University"/>
+      <textline size="20"/>
+      <solution>
+        <div class="detailed-solution">
+          <p>Explanation</p>
+          <p>Nanjing University first admitted female students in 1920.</p>
+        </div>
+      </solution>
+    </stringresponse>
+  </problem>
+
+============================================
+Analyzing Performance on Text Input Problems
+============================================
 
 For the text input problems in your course, you can use edX Insights to review
 aggregated learner performance data and examine submitted answers. For more
 information, see :ref:`insights:Using edX Insights`.
 
 ******************************
-Creating a Text Input Problem
+Adding a Text Input Problem
 ******************************
 
-You can create text input problems in the simple editor or in the advanced
-editor. You can set up a problem in the simple editor, and then switch to the
-advanced editor to add more configuration options in XML. However, you cannot
-switch back to the simple editor from the advanced editor. Therefore, you
-might want to format the problem as completely as possible before you begin to
-use the advanced editor.
+You add text input problems in Studio by selecting the **Problem** component
+type and then using either the simple editor or the advanced editor to specify
+the prompt and the acceptable answer or answers.
 
-.. _Use the Simple Editor to Create a Text Input Problem:
+.. contents::
+  :local:
+  :depth: 1
 
-========================================================================
-Use the Simple Editor to Create a Text Input Problem
-========================================================================
+.. note:: You can begin work on the problem in the simple editor, and then
+  switch to the advanced editor. However, after you save any changes you make
+  in the advanced editor, you cannot switch back to the simple editor.
 
-To use the :ref:`simple editor<Simple Editor>` to create a text input problem,
-follow these steps.
+====================================================
+Use the Simple Editor to Add a Text Input Problem
+====================================================
 
-#. In the unit where you want to create the problem, under **Add New
-   Component** select **Problem**.
-#. Select one of the two text input problem templates.
+When you add a text input problem, you can choose one of these templates.
 
-  * From the list of **Common Problem Types**, select **Text Input**.
+* **Text Input**
 
-  * From the list of **Common Problems with Hints and Feedback**, select **Text
-    Input with Hints and Feedback**. For more information, see `Use Feedback in
-    a Text Input Problem`_.
+* **Text Input with Hints and Feedback**
 
-    Studio adds the problem to the unit.
+These templates include the Markdown formatting that you use in the simple
+editor to add a problem without, or with, hints and feedback.
 
-#. Select **Edit**. The simple editor opens.
-#. Replace the sample problem text with your own text.
-#. Determine the text that describes the question you want learners to answer,
-   and surround that text with two pairs of angle brackets (``>>question<<``).
-   This text identifies the question for screen readers, reports, and Insights.
-#. Select the text of the problem's answer, and then select **Text Input** from
-   the toolbar. An equals signe (=) appears next to the answer.
+.. include:: ../../../shared/exercises_tools/Section_simple_editor.rst
 
-   You can identfy more than one correct answer. For more information, see
-   :ref:`Multiple Responses in Text Input Problems`.
+=====================================================
+Use the Advanced Editor to Add a Text Input Problem
+=====================================================
 
-#. To provide an explanation, select the explanation text and then select
-   **Explanation** from the toolbar. ``[explanation]`` appears before
-   and after the explanation text.
-#. Select **Settings** and provide an identifying **Display Name** for the
-   problem.
-#. Define additional settings for the problem. For more information, see
-   :ref:`Problem Settings`.
-#. Select **Save**.
+You can use the advanced editor to identify the elements of a text input
+problem with OLX. For more information, see :ref:`Text Input Problem XML`.
 
-For the example problem illustrated above, the following text displays in the
-problem component.
+.. include:: ../../../shared/exercises_tools/Section_advanced_editor.rst
+
+.. _Multiple Responses in Text Input Problems:
+
+*********************************
+Adding Multiple Correct Responses
+*********************************
+
+You can specify more than one correct response for text input problems. For
+example, instead of requiring learners to enter an answer of "Dr. Martin Luther
+King, Junior" exactly, you can also allow answers of "Martin Luther King, Jr."
+"Doctor Martin Luther King," and other variations. To do this, you can use the
+simple editor or the advanced editor.
+
+====================================================
+Add Multiple Correct Responses in the Simple Editor
+====================================================
+
+To specify additional correct responses in the simple editor, include
+``or=`` before each additional correct response.
 
 ::
 
-    >>What was the first post-secondary school in China to allow both male and
-    female students?<<
+    >>What African-American led the United States civil rights movement during the 1960s?<<
+    =Dr. Martin Luther King, Jr.
+    or=Dr. Martin Luther King, Junior
+    or=Martin Luther King, Jr.
+    or=Martin Luther King
 
-    = Nanjing Higher Normal Institute
-    or= National Central University
-    or= Nanjing University
+======================================================
+Add Multiple Correct Responses in the Advanced Editor
+======================================================
 
-    [explanation]
-    Nanjing Higher Normal Institute first admitted female students in 1920.
-    [explanation]
-
-========================================================================
-Use the Advanced Editor to Edit a Text Input Problem
-========================================================================
-
-To use the advanced editor to edit a text input problem, follow these steps.
-
-#. Follow the steps for creating the problem in the :ref:`simple editor<Use
-   the Simple Editor to Create a Text Input Problem>`.
-#. Select **Advanced Editor**, and then edit the XML to add the tags and
-   attributes you want. An example follows.
-
-**Problem Code**:
+To specify an additional correct response in the advanced editor, within the
+``<stringresponse>`` elements add the ``<additional_answer />`` element with an
+``answer=""`` attribute value.
 
 .. code-block:: xml
 
   <problem>
-    <p>What was the first post-secondary school in China to allow both male and female students?</p>
-
-    <stringresponse answer="Nanjing Higher Normal Institute" type="ci" >
-      <additional_answer>National Central University</additional_answer>
-      <additional_answer>Nanjing University</additional_answer>
-      <textline label="What was the first post-secondary school in China to
-        allow both male and female students?" size="20"/>
+    <stringresponse answer="Dr. Martin Luther King, Jr." type="ci" >
+      <label>What African-American led the United States civil rights movement during the 1960s?</label>
+      <additional_answer answer="Dr. Martin Luther King, Junior"/>
+      <additional_answer answer="Martin Luther King, Jr."/>
+      <additional_answer answer="Martin Luther King"/>
+      <textline size="20"/>
     </stringresponse>
-    <solution>
-      <div class="detailed-solution">
-        <p>Explanation</p>
-        <p>Nanjing Higher Normal Institute first admitted female students in
-        1920.</p>
-      </div>
-    </solution>
   </problem>
 
 .. _Use Feedback in a Text Input Problem:
 
 ********************************************
-Use Feedback in a Text Input Problem
+Adding Feedback to a Text Input Problem
 ********************************************
 
-You can add feedback in a text input problem using the simple editor
-or the advanced editor. For an overview of feedback in problems, see
-:ref:`Adding Feedback and Hints to a Problem`.
+For an overview of feedback in problems, see :ref:`Adding Feedback and Hints to
+a Problem`. In text input problems, you can provide feedback for the correct
+answer or for a specified incorrect answer. Use feedback on incorrect answers
+as an opportunity to address common learner misconceptions. Feedback for text
+input questions should also provide guidance to the learner on how to arrive at
+the correct answer.
 
-In text input problems, you can provide feedback for each option that a
-learner can select.
-
-Use feedback on correct answers to reinforce why the answer is
-correct.
-
-Use feedback on incorrect answers as an opportunity to address common learner
-misconceptions. Feedback for text input questions should also provide guidance
-to the learner on how to arrive at the correct answer.
-
-=======================================
+=========================================
 Configure Feedback in the Simple Editor
-=======================================
+=========================================
 
-In the :ref:`simple editor<Simple Editor>`, you configure answer feedback with
-the following syntax. When you create a new text input problem, select the
-template  **Text Input with Hints and Feedback**. This template has example
-feedback syntax that you can replace.
+You can configure feedback in the simple editor. When you add a text input
+problem, select the template **Text Input with Hints and Feedback**. This
+template has example formatted feedback that you can replace with your own
+text.
+
+In the simple editor, you configure feedback for a text input problem with the
+following Markdown formatting.
 
 ::
 
-  = Correct Answer {{Feedback for learners who select this answer.}}
-  not= Incorrect Answer {{Feedback for learners who select this answer.}}
+  =Correct Answer {{Feedback for learners who enter this answer.}}
+  not=Incorrect Answer {{Feedback for learners who enter this answer.}}
 
 For example, the following problem has feedback for the correct answer and two
 common incorrect answers.
@@ -185,22 +222,23 @@ common incorrect answers.
   not=California {{California is the third largest state and contains 155,959
   square miles.}}
 
-
-=========================================
+===========================================
 Configure Feedback in the Advanced Editor
-=========================================
+===========================================
 
-In the :ref:`advanced editor<Advanced Editor>`, you configure answer feedback
-with the following syntax.
+In the advanced editor, you configure answer feedback with the following
+syntax.
 
 .. code-block:: xml
 
-    <stringresponse answer="Correct Answer" type="ci" >
-      <correcthint>Hint for correct answer.</correcthint>
-      <stringequalhint answer="Incorrect Anser">
-        Hint for incorrect answer.
-      </stringequalhint>
+  <problem>
+    <stringresponse answer="Correct Answer" type="ci">
+      <label>Question text</label>
+      <correcthint>Feedback for the correct answer</correcthint>
+      <stringequalhint answer="Incorrect Answer">Hint for the incorrect answer</stringequalhint>
+      <textline size="20"/>
     </stringresponse>
+  </problem>
 
 For example, the following problem has feedback for the correct answer and two
 common incorrect answers.
@@ -208,62 +246,59 @@ common incorrect answers.
 .. code-block:: xml
 
   <problem>
-
-    <p>What was the first post-secondary school in China to allow both male and female students?</p>
-    <stringresponse answer="Alaska" type="ci" >
-      <correcthint>
-        Alaska is the largest state in the U.S. in terms of not only land
-        area, but also total area and water area. Alaska is 576,400 square
-        miles, more than double the land area of the second largest state,
-        Texas.
-      </correcthint>
-      <stringequalhint answer="Texas">
-        While many people think Texas is the largest state in terms of land
-        area, it is actually the second largest of the 50 U.S. states
-        containing 261,797 square miles.
-      </stringequalhint>
-      <stringequalhint answer="California">
-        California is the third largest state in the U.S. in terms of land
-        area containing 155,959 square miles.</stringequalhint>
-      <textline label="What is the largest state in the U.S. in terms of land
-        area?" size="20"/>
+    <stringresponse answer="Alaska" type="ci">
+      <label>What is the largest state in the U.S. in terms of land area?</label>
+      <correcthint>Alaska is the largest state in the U.S. in terms of not
+       only land area, but also total area and water area. Alaska is 576,400
+       square miles, more than double the land area of the second largest
+       state, Texas.</correcthint>
+      <stringequalhint answer="Texas">While many people think Texas is the
+       largest state in terms of land area, it is actually the second
+       largest and contains 261,797 square miles.</stringequalhint>
+      <stringequalhint answer="California">California is the third largest
+       state and contains 155,959 square miles.</stringequalhint>
+      <textline size="20"/>
     </stringresponse>
   </problem>
 
-=========================
-Customize Feedback Labels
-=========================
+===========================
+Customizing Feedback Labels
+===========================
 
 By default, the feedback labels shown to learners are **Correct** and
 **Incorrect**. If you do not define feedback labels, learners see these terms
 when they submit an answer, as in the following example.
 
-.. image:: ../../../shared/images/text_input_feedback.png
- :alt: Image of text input feedback with the standard label.
- :width: 600
+::
+
+  Incorrect: California is the third largest state and contains 155,959 square
+  miles.
 
 You can configure the problem to override the default labels. For example, you
 can configure a custom label for a specific wrong answer.
 
-.. image:: ../../../shared/images/text_input_feedback_custom_label.png
- :alt: Image of text input feedback with a custom label.
- :width: 600
+::
 
-.. note::
-  The default labels **Correct** and **Incorrect** are displayed in the
-  learner's requested language. If you provide custom labels, they are
-  displayed to all users as you configure them and are not translated into
-  different languages.
+  Close but wrong: California is the third largest state and contains 155,959
+  square miles.
 
-Customize Feedback Labels in the Simple Editor
+.. note:: The default labels **Correct** and **Incorrect** display in the
+  learner's requested language. If you provide custom labels, they display as
+  you define them to all learners. They are not translated into different
+  languages.
+
+Customize a Feedback Label in the Simple Editor
 ***********************************************
 
-In the :ref:`simple editor<Simple Editor>`, you configure custom feedback
-labels with the following syntax.
+In the simple editor, you configure custom feedback labels with the following
+syntax.
 
 ::
 
   not=Answer {{Label:: Feedback}}
+
+That is, you provide the label text, followed by two colon (:) characters,
+before the feedback text.
 
 For example, the following feedback is configured to use a custom label.
 
@@ -273,155 +308,123 @@ For example, the following feedback is configured to use a custom label.
   state in terms of land area, it is actually the second largest of the 50 U.S.
   states, containing 261,797 square miles.}}
 
-Customize Feedback Labels in the Advanced Editor
+Customize a Feedback Label in the Advanced Editor
 *************************************************
 
-In the :ref:`advanced editor<Advanced Editor>`, you configure custom feedback
-labels with the following syntax.
+In the advanced editor, you configure custom feedback labels with the following
+syntax.
 
 .. code-block:: xml
 
-    <stringequalhint answer="Incorrect Anser" label="Custom Label">
-      Feedback
-    </stringequalhint>
+  <correcthint label="Custom Label">Feedback</correcthint>
+  <stringequalhint answer="Incorrect Answer" label="Custom Label">Feedback</stringequalhint>
 
-For example, the following feedback is configured to use a custom label.
+For example, the following feedback is configured to use custom labels.
 
 .. code-block:: xml
 
-    <stringequalhint answer="Texas" label="Close but wrong">
-      While many people think Texas is the largest state in terms of land
-      area, it is actually the second largest of the 50 U.S. states containing
-      261,797 square miles.
-    </stringequalhint>
+  <correcthint label="Right you are">Alaska is the largest state in the U.S.
+   in terms of not only land area, but also total area and water area. Alaska
+   is 576,400 square miles, more than double the land area of the second
+   largest state, Texas.</correcthint>
+  <stringequalhint answer="Texas" label="Close but wrong">While many people
+   think Texas is the largest state in terms of land area, it is actually the
+   second largest of the 50 U.S. states containing 261,797 square miles.</stringequalhint>
 
 .. _Use Hints in a Text Input Problem:
 
 ********************************************
-Use Hints in a Text Input Problem
+Adding Hints to a Text Input Problem
 ********************************************
 
-You can add hints in a text input problem, using the simple editor
-or the advanced editor. For an overview of hints in problems, see
+You can add hints to a text input problem using the simple editor or the
+advanced editor. For an overview of hints in problems, see
 :ref:`Adding Feedback and Hints to a Problem`.
 
 .. include:: ../../../shared/exercises_tools/Subsection_configure_hints.rst
 
-.. _Multiple Responses in Text Input Problems:
-
 ******************************************
-Multiple Responses in Text Input Problems
+Adding Text after the Response Field
 ******************************************
 
-You can specify more than one correct response for text input problems. For
-example, instead of requiring learners to enter "Dr. Martin Luther King,
-Junior" exactly, you can also allow answers of "Martin Luther King," "Doctor
-Martin Luther King," and other variations. To do this, you can use the simple
-editor or the advanced editor.
-
-==============
-Simple Editor
-==============
-
-To specify additional correct responses in the simple editor, include``or= ``
-before each additional correct response.
-
-::
-
-    >>What African-American led the United States civil rights movement during
-    the 1960s?<<
-    = Dr. Martin Luther King, Jr.
-    or= Dr. Martin Luther King, Junior
-    or= Martin Luther King, Jr.
-    or= Martin Luther King
-
-=====================
-Advanced Editor
-=====================
-
-To specify additional correct responses in the advanced editor, add an
-``<additional_answer>`` for each correct response inside the opening and
-closing ``<stringresponse>`` tags.
-
-.. code-block:: xml
-
-  <problem>
-
-  <p>What African-American led the United States civil rights movement during the 1960s?</p>
-
-  <stringresponse answer="Dr. Martin Luther King, Jr." type="ci" >
-    <additional_answer>Dr. Martin Luther King, Junior</additional_answer>
-    <additional_answer>Martin Luther King, Jr.</additional_answer>
-    <additional_answer>Martin Luther King</additional_answer>
-    <textline label="What African-American led the United States civil rights
-      movement during the 1960s?" size="20"/>
-  </stringresponse>
-  </problem>
-
-******************************************
-Add Text after the Text Response Field
-******************************************
-
-You might want to include a word, phrase, or sentence after the answer field
-in a text input problem to help guide your students or resolve ambiguity.
+You might want to include a word, phrase, or sentence after the response field
+in a text input problem to help guide your learners or resolve ambiguity.
 
 .. image:: ../../../shared/images/MC_trailing_text.png
  :width: 500
- :alt: Multiple choice problem with the word "Institute" after the answer
+ :alt: Text input problem with the word "Institute" after the response
   field.
 
-To do this, you must use the :ref:`advanced editor<Advanced Editor>`.
+To do this, you use the advanced editor.
 
 In the problem, locate the ``textline`` element. This element creates the
 response field for the problem and is a child of the ``stringresponse``
 element. An example follows.
 
-::
+.. code-block:: xml
 
-  <stringresponse answer="Ashmun" type="ci" >
-    <textline label="What Pennsylvania school was founded in 1854 to provide
-     educational opportunities for African-Americans?" size="20" />
-  </stringresponse>
+    <problem>
+      <stringresponse answer="Ashmun" type="ci">
+        <label>What Pennsylvania school was founded in 1854 to provide
+         educational opportunities for African-Americans?</label>
+        <textline size="20"/>
+      </stringresponse>
+    </problem>
 
-To add text after the answer field, add the ``trailing_text`` attribute
+To add text after the response field, add the ``trailing_text`` attribute
 together with the text that you want to use inside the ``textline`` element.
 
-::
+.. code-block:: xml
 
-  <stringresponse answer="Ashmun" type="ci" >
-    <textline label="What Pennsylvania school was founded in 1854 to provide educational
-     opportunities for African-Americans?" size="20" trailing_text="Institute" />
-  </stringresponse>
-
+    <problem>
+      <stringresponse answer="Ashmun" type="ci">
+        <label>What Pennsylvania school was founded in 1854 to provide
+         educational opportunities for African-Americans?</label>
+        <textline size="20" trailing_text="Institute"/>
+      </stringresponse>
+    </problem>
 
 ******************************************
 Case Sensitivity and Text Input Problems
 ******************************************
 
 By default, text input problems do not require a case sensitive response. You
-can change this and require a case sensitive answer.
+can change this default to require a case sensitive answer.
 
-To make a text input response case sensitive, you must use :ref:`Advanced
-Editor`.
+To make a text input response case sensitive, you use the advanced editor.
 
-In the advanced editor, you see that the ``type`` attribute of the
-``stringresponse`` element equals ``ci``, for "case insensitive". An example
-follows.
+In the advanced editor, the ``stringresponse`` element has a ``type``
+attribute. By default, the value for this attribute is set to ``ci``, for "case
+insensitive". An example follows.
 
-::
+.. code-block:: xml
 
-    <stringresponse answer="Michigan" type="ci">
-      <textline size="20"/>
-    </stringresponse>
+    <problem>
+      <stringresponse answer="Paris" type="ci">
+      .
+      .
+      .
+      </stringresponse>
+    </problem>
+
+Learners who submit an answer of either "Paris" or "paris" are scored
+as correct.
 
 To make the response case sensitive, change the value of the ``type``
 attribute to ``cs``.
 
-::
+.. code-block:: xml
 
-    <stringresponse answer="Michigan" type="cs">
-      <textline size="20"/>
-    </stringresponse>
+    <problem>
+      <stringresponse answer="Paris" type="cs">
+      .
+      .
+      .
+      </stringresponse>
+    </problem>
+
+Learners who submit an answer of "Paris" are scored as correct, but
+learners who submit an answer of "PARIS" are scored as incorrect.
 
 *************************************************
 Response Field Length in Text Input Problems
@@ -433,49 +436,78 @@ You should preview the unit to ensure that the length of the response input
 field accommodates the correct answer, and provides extra space for possible
 incorrect answers.
 
-If the default response field length is not sufficient, you can change it
-using the :ref:`advanced editor<Advanced Editor>`.
+If the default response field is not long enough, you can change it
+using the advanced editor.
 
-In the advanced editor, in the XML block for the answer, you see that the
-``size`` attribute of the ``textline`` element equals ``20``.
+In the advanced editor, the ``textline`` element has a ``size`` attribute. By
+default, the value for this attribute is set to ``20``. An example follows.
 
-::
+.. code-block:: xml
 
-    <stringresponse answer="Democratic Republic of the Congo" type="ci">
-      <textline size="20"/>
-    </stringresponse>
+    <problem>
+      <stringresponse answer="Democratic Republic of the Congo" type="ci">
+        .
+        .
+        .
+        <textline size="20"/>
+      </stringresponse>
+    </problem>
 
 To change the response field length, change the value of the ``size``
 attribute.
 
-::
+.. code-block:: xml
 
-    <stringresponse answer="Democratic Republic of the Congo" type="ci">
-      <textline size="40"/>
-    </stringresponse>
+    <problem>
+      <stringresponse answer="Democratic Republic of the Congo" type="ci">
+        .
+        .
+        .
+        <textline size="40" />
+      </stringresponse>
+    </problem>
 
-********************************************************
-Regular Expressions in Text Input Problems
-********************************************************
+***************************************************************
+Allowing Regular Expressions as Answers for Text Input Problems
+***************************************************************
 
 You can configure a text input problem to allow a regular expression as an
-answer. To do this, you modify the problem's XML in the Advanced Editor.
+answer. Allowing learners to answer with a regular expression can minimize the
+number of distinct correct responses that you need to define for the problem:
+if a learner responds with the correct answer formed as a plural instead of a
+singular noun, or a verb in the past tense instead of the present tense, the
+answer is marked as correct.
 
-The regular expression that the learner enters must contain the part of the
-answer that the course team specifies. For example, if you
-specify  ``<answer="example answer" type="regexp">``, correct answers
-include ``example answered``, ``two example answers``, or even ``==example
-answer==``, but not ``examples`` or ``example anser``.
+To do this, you use the advanced editor.
 
-You can add ``regexp`` to the value of the ``type`` attribute, for example:
-``type="ci regexp"`` or ``type="regexp"`` or ``type="regexp cs"``. In this
-case, any answers or hints are treated as regular expressions.
+In the advanced editor, the ``stringresponse`` element has a ``type``
+attribute. You can set the value for this attribute to ``regexp``, with or
+without also including ``ci`` or ``cs`` for a case insensitive or case
+sensitive answer. An example follows.
+
+.. code-block:: xml
+
+    <problem>
+      <stringresponse answer="string pattern" type="regexp ci">
+        .
+        .
+        .
+      </stringresponse>
+    </problem>
+
+The regular expression that the learner enters must contain, in whole or in
+part, the answer that you specify.
+
+In this example, learners who submit an answer of "string pattern", "String
+Patterns", "string patterned", or "STRING PATTERNING" are all scored as
+correct, but learners who submit an answer of "Strings Pattern" or "string
+patern" are scored as incorrect.
 
 .. _Text Input Problem XML:
 
-***********************
-Text Input Problem XML
-***********************
+********************************
+Text Input Problem XML Reference
+********************************
 
 ==============
 Template
@@ -484,172 +516,266 @@ Template
 .. code-block:: xml
 
   <problem>
-      <p>Problem text</p>
-      <stringresponse answer="Correct answer 1" type="ci regexp">
-          <additional_answer>Correct answer 2</additional_answer>
-          <additional_answer>Correct answer 3</additional_answer>
-          <textline size="20" label="label text"/>
-          <correcthint>Provides feedback when learners submit the correct response.</correcthint>
-          <stringequalhint answer="Incorrect answer 1">Provides feedback when learners submit the specified incorrect response.</stringequalhint>
-          <stringequalhint answer="Incorrect answer 2">Provides feedback when learners submit the specified incorrect response.</stringequalhint>
-          <textline label="Which U.S. state has the largest land area?" size="20"/>
-      </stringresponse>
-
-      <demandhint>
-        <hint>The first text string to display when learners request a hint.</hint>
-        <hint>The second text string to display when learners request a hint.</hint>
-      </demandhint>
+    <stringresponse answer="Correct answer 1" type="ci regexp">
+      <label>Question text</label>
+      <description>Optional tip</description>
+      <correcthint>Provides feedback when learners submit the correct
+       response.</correcthint>
+      <additional_answer answer="Correct answer 2"/>
+      <additional_answer answer="Correct answer 3"/>
+      <stringequalhint answer="Incorrect answer 1">Provides feedback when
+       learners submit the specified incorrect response.</stringequalhint>
+      <stringequalhint answer="Incorrect answer 2">Provides feedback when
+       learners submit the specified incorrect response.</stringequalhint>
+      <textline size="20" />
+    </stringresponse>
+    <demandhint>
+      <hint>The first text string to display when learners request a hint.</hint>
+      <hint>The second text string to display when learners request a hint.</hint>
+    </demandhint>
   </problem>
 
-=======
-Tags
-=======
+=========
+Elements
+=========
 
-* ``<stringresponse>``: Indicates that the problem is a text input problem. The
-  ``<stringresponse>`` tag has the following child tags.
+For text input problems, the ``<problem>`` element can include this
+hierarchy of child elements.
 
-  - ``<textline>``: Creates the response field in the LMS where the learner
-    enters a response.
+.. code-block:: xml
 
-  - ``<additional_answer>`` (optional): Specifies an additional correct answer
-    for the problem. A problem can contain an unlimited number of additional
-    answers.
+  <stringresponse>
+      <label>
+      <description>
+      <additional_answer>
+      <correcthint>
+      <stringequalhint>
+      <textline>
+      <solution>
+  <demandhint>
+      <hint>
 
-  - ``<correcthint>`` (optional): Specifies feedback for the correct answer.
+In addition, standard HTML tags can be used to format text.
 
-  - ``<stringequalhint>`` (optional): Specifies feedback for an incorrect
-    answer.
+``<stringresponse>``
+*********************
 
-* ``<demandhint>`` (optional): Specifies one or more hints that learners can
-  request to help them arrive at the correct answer. The ``<demandhint>`` tag
-  has a child tag of ``<hint>``.
+Required. Indicates that the problem is a text input problem.
+
+Attributes
+==========
+
+.. list-table::
+   :widths: 20 80
+   :header-rows: 1
+
+   * - Attribute
+     - Description
+   * - ``answer`` (required)
+     - Specifies the correct answer.
+
+       Note that if you do not also add the ``type`` attribute and set it to
+       ``regexp``, the learner's answer must match the value for this
+       attribute exactly.
+
+   * - ``type`` (optional)
+     - Specifies whether the problem requires a case sensitive response and
+       if it allows regular expressions.
+
+       * If ``type="ci"``, the problem is not case sensitive.
+       * If ``type="cs"``, the problem is case sensitive.
+       * If ``type="regexp"``, the problem allows regular expressions.
+
+       You can also combine these values in a space separated list. For
+       example, ``<stringresponse type="regexp cs">`` specifies that the
+       problem allows regular expressions and is case sensitive.
+
+Children
+========
+
+* ``<label>``
+* ``<description>``
+* ``<textline>``
+* ``<additional_answer>``
+* ``<correcthint>``
+* ``<stringequalhint>``
+* ``<solution>``
+
+``<label>``
+***********
+
+Required. Identifies the question or prompt.
+
+Attributes
+==========
+
+None.
+
+Children
+========
+
+None.
+
+``<description>``
+*****************
+
+Optional. Provides clarifying information about how to answer the question.
+
+Attributes
+==========
+
+None.
+
+Children
+========
+
+None.
+
+``<textline>``
+****************
+
+Required. Creates a response field in the LMS where the learner enters a text
+string.
+
+Attributes
+==========
+
+.. list-table::
+   :widths: 20 80
+   :header-rows: 1
+
+   * - Attribute
+     - Description
+   * - ``size``
+     - Optional. Specifies the size, in characters, of the response field in
+       the LMS. Defaults to 20.
+   * - ``hidden``
+     - Optional. If set to "true", learners cannot see the response field.
+   * - ``correct_answer``
+     - Optional. Lists the correct answer to the problem.
+   * - ``trailing_text``
+     - Optional. Specifies text to appear immediately after the response field.
+
+.. reviewers, note that I could not get "correct_answer" to work ^^. The answer attribute of stringresponse is required and overrides whatever I put in here. Can this attribute be removed or marked as deprecated? - Alison 10 Aug
+
+Children
+========
+
+None.
+
+``<additional_answer>``
+*************************
+
+Optional. Specifies an additional correct answer for the problem. A problem can
+contain an unlimited number of additional answers.
+
+Attributes
+==========
+
+.. list-table::
+   :widths: 20 80
+   :header-rows: 1
+
+   * - Attribute
+     - Description
+   * - ``answer``
+     - Required. The text of the alternative correct answer.
+
+Children
+========
+
+None.
+
+``<correcthint>``
+*****************
+
+Optional. Specifies feedback to appear after the learner submits a correct
+answer.
+
+Attributes
+==========
+
+.. list-table::
+   :widths: 20 80
+   :header-rows: 1
+
+   * - Attribute
+     - Description
+   * - ``label``
+     - Optional. The text of the custom feedback label.
+
+Children
+========
+
+None.
+
+``<stringequalhint>``
+*********************
+
+Optional. Specifies feedback to appear after the learner submits an incorrect
+answer.
+
+Attributes
+==========
+
+.. list-table::
+   :widths: 20 80
+   :header-rows: 1
+
+   * - Attribute
+     - Description
+   * - ``answer``
+     - Required. The text of the incorrect answer.
+   * - ``label``
+     - Optional. The text of the custom feedback label.
+
+Children
+========
+
+None.
+
+``<solution>``
+**************
+
+Optional. Identifies the explanation or solution for the problem, or for one of
+the questions in a problem that contains more than one question.
+
+This element contains an HTML division ``<div>``. The division contains one or
+more paragraphs ``<p>`` of explanatory text.
 
 
-**Tag:** ``<stringresponse>``
+``<demandhint>``
+****************
 
-Indicates that the problem is a text input problem.
+Optional. Specifies hints for the learner. For problems that include multiple
+questions, the hints apply to the entire problem.
 
-  Attributes
+Attributes
+==========
 
-  .. list-table::
-     :widths: 20 80
+None.
 
-     * - Attribute
-       - Description
-     * - answer (required)
-       - Specifies the correct answer. To designate the answer as a regular
-         expression, add "regexp" to the **type** attribute. If you do not add
-         "regexp" to the **type** attribute, the learner's answer must match
-         the value in this attribute exactly.
-     * - type (optional)
-       - Specifies whether the problem requires a case sensitive response and
-         if it allows regular expressions.
+Children
+========
 
-         * If the ``<stringresponse>`` tag includes ``type="ci"``, the problem
-           is not case sensitive.
-         * If the tag includes ``type="cs"``, the problem is case sensitive.
-         * If the tag includes ``type="regexp"``, the problem allows regular
-           expressions.
+``<hint>``
 
-         A **type** attribute in a ``<stringresponse>`` tag can also combine
-         these values. For example, ``<stringresponse type="regexp cs">``
-         specifies that the prolem allows regular expressions and is case
-         sensitive.
+``<hint>``
+**********
 
+Required. Specifies additional information that learners can access if needed.
 
-  Children
+Attributes
+==========
 
-  * ``<textline />`` (required)
-  * ``<additional_answer>`` (optional)
-  * ``<correcthint>`` (optional)
-  * ``<stringequalhint>`` (optional)
+None.
 
-**Tag:** ``<textline />``
+Children
+========
 
-Creates a response field in the LMS where the learner enters a response.
+None.
 
-  Attributes
-
-  .. list-table::
-     :widths: 20 80
-
-     * - Attribute
-       - Description
-     * - label (required)
-       - Contains the text of the problem.
-     * - size (optional)
-       - Specifies the size, in characters, of the response field in the LMS.
-     * - hidden (optional)
-       - If set to "true", learners cannot see the response field.
-     * - correct_answer (optional)
-       - Lists the correct answer to the problem.
-     * - trailing_text
-       - Adds the text that you specify after the response field.
-
-  Children
-
-  (none)
-
-**Tag:** ``<additional_answer>``
-
-Specifies an additional correct answer for the problem. A problem can contain
-an unlimited number of additional answers.
-
-  Attributes
-
-  (none)
-
-  Children
-
-  (none)
-
-**Tag:** ``<correcthint>``
-
-Indicates that the course team has provided hints for certain common incorrect
-answers.
-
-  Attributes
-
-  (none)
-
-  Children
-
-  (none)
-
-**Tag:** ``<stringequalhint>``
-
-Specifies the feedback for an incorrect answer.
-
-  Attributes
-
-  .. list-table::
-     :widths: 20 80
-
-     * - Attribute
-       - Description
-     * - answer (required)
-       - The text of the incorrect answer.
-
-  Children
-
-  (none)
-
-**Tag:** ``<demandhint>``
-
-Specifies one or more hints that learners can request to help them arrive at
-the correct answer.
-
-  Attributes
-
-  (none)
-
-  Children
-
-**Tag:** ``<hint>``
-
-Contains the text of a hint. The LMS shows each of the defined hints to the
-learners in the order that the ``<hint>`` tags  are included within the
-``<demandhint>`` tag.
+.. reviewers esp. Shelby, can we take this opportunity to remove this last section? V - Alison 10 Aug
 
 **************************
 Deprecated Hinting Method
@@ -664,31 +790,30 @@ documented above.
 .. code-block:: xml
 
   <problem>
-      <p>Problem text</p>
-      <stringresponse answer="Correct answer 1" type="ci regexp">
-          <additional_answer>Correct answer 2</additional_answer>
-          <additional_answer>Correct answer 3</additional_answer>
-          <textline size="20" label="label text"/>
-          <hintgroup>
-              <stringhint answer="Incorrect answer A" type="ci" name="hintA" />
-                <hintpart on="hintA">
-                    <startouttext />Text of hint for incorrect answer A<endouttext />
-                </hintpart >
-              <stringhint answer="Incorrect answer B" type="ci" name="hintB" />
-                <hintpart on="hintB">
-                    <startouttext />Text of hint for incorrect answer B<endouttext />
-                </hintpart >
-              <stringhint answer="Incorrect answer C" type="ci" name="hintC" />
-                <hintpart on="hintC">
-                    <startouttext />Text of hint for incorrect answer C<endouttext />
-                </hintpart >
-          </hintgroup>
-      </stringresponse>
-      <solution>
+    <stringresponse answer="Correct answer 1" type="ci regexp">
+      <label>Question text</label>
+      <additional_answer>Correct answer 2</additional_answer>
+      <additional_answer>Correct answer 3</additional_answer>
+      <textline size="20" />
+    <hintgroup>
+      <stringhint answer="Incorrect answer A" type="ci" name="hintA" />
+        <hintpart on="hintA">
+          <startouttext />Text of hint for incorrect answer A<endouttext />
+        </hintpart >
+      <stringhint answer="Incorrect answer B" type="ci" name="hintB" />
+        <hintpart on="hintB">
+          <startouttext />Text of hint for incorrect answer B<endouttext />
+        </hintpart >
+      <stringhint answer="Incorrect answer C" type="ci" name="hintC" />
+        <hintpart on="hintC">
+          <startouttext />Text of hint for incorrect answer C<endouttext />
+        </hintpart >
+    </hintgroup>
+    </stringresponse>
+    <solution>
       <div class="detailed-solution">
       <p>Explanation or Solution Header</p>
       <p>Explanation or solution text</p>
       </div>
     </solution>
   </problem>
-
