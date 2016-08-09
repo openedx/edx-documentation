@@ -130,8 +130,8 @@ To create or obtain a transcript in .srt format, you can work with a company
 that provides captioning services.
 
 To ensure quality and accuracy of transcripts, edX works with `3Play Media`_.
-To request a 3Play account at edX's discounted rate, contact your edX partner
-manager.
+To request a 3Play Media account at edX's discounted rate, contact 3Play at
+http://www.3playmedia.com/edx/.
 
 ===================================
 Associate a Transcript with a Video

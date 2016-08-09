@@ -4,7 +4,7 @@
 Uploading Videos in Studio
 ###########################
 
-After a video administrator works with the edX media team to complete
+After a video administrator works with edX partner support to complete
 :ref:`preliminary setup<Video Getting Started>` for the entire institution,
 individual course teams can begin to upload video files for their courses in
 Studio. This section describes the specifications met by successful video
@@ -58,7 +58,8 @@ succeed, you must upload videos in **.mp4** or **.mov** format.
 Compression Specifications
 ===========================
 
-For best results, your video files should have these compression specifications.
+For best results, your video files should have these compression
+specifications.
 
 .. list-table::
    :widths: 40 40
@@ -90,10 +91,10 @@ For best results, your video files should have these compression specifications.
 File Naming Conventions
 ================================
 
-Each video file must have a unique name. The edX media team recommends that
-organizations define a naming convention for video files, and apply it to
-videos for all courses. At a minimum, your naming convention should include
-these elements.
+Each video file must have a unique name. The edX partner support team
+recommends that organizations define a naming convention for video files, and
+apply it to videos for all courses. At a minimum, your naming convention should
+include these elements.
 
 * A course identifier.
 * The year of the initial course run.
@@ -119,7 +120,7 @@ parties identify and track video files over time.
 .. This procedure needs to be completed only once per course in Studio.
 
 .. #. Work with your institution's video administrator to obtain the video
-   identifier for your course. The edX media team defines a unique video
+   identifier for your course. The edX partner support team defines a unique video
    identifier for each course.
 
 .. #. Open the course in Studio.
@@ -153,7 +154,7 @@ Upload Video Files
 
 Before you can upload video files, the video upload feature must be enabled
 for the course. Your video administrator coordinates this task with the edX
-media team. See :ref:`Create YouTube Channels`.
+partner support team. See :ref:`Create YouTube Channels`.
 
 #. Open the course in Studio.
 
@@ -223,11 +224,11 @@ The encoding and hosting process assigns these statuses to video files.
   can play your original .mp4 or .mov file and that it meets the other
   specifications for successful video processing. See :ref:`Specifications for
   Successful Video Files`. Upload the file, or a replacement file, again. If
-  processing fails more than once for a file, contact the edX media team at
-  media@edx.org.
+  processing fails more than once for a file, contact edX partner support at
+  partner-support@edx.org.
 
 Statuses of **Invalid Token** or **Unknown** indicate a configuration
-problem. Inform your edX partner manager if these statuses appear.
+problem. Inform edX partner support if these statuses appear.
 
 For more information, see :ref:`Video Encoding and Hosting Overview`.
 
@@ -298,7 +299,8 @@ its destination.
 * **youtube URL**: The YouTube location of a 1080p resolution video. By
   default, the edX video player delivers this video.
 
-The edX encoding and hosting process produces these alternative formats to ensure optimal playback quality for your learners.
+The edX encoding and hosting process produces these alternative formats to
+ensure optimal playback quality for your learners.
 
 
 .. _Creating Videos: https://courses.edx.org/courses/edX/edX101/2014/courseware/c2a1714627a945afaceabdfb651088cf/9dd6e5fdf64b49a89feac208ab544760/
