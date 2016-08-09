@@ -12,9 +12,12 @@ OpenStack Object Store project) for data storage, you update the
   :local:
   :depth: 1
 
-.. Note::
-  Before proceeding, review :ref:`Guidelines for Updating the Open edX
+.. note:: Before proceeding, review :ref:`Guidelines for Updating the Open edX
   Platform`.
+
+You can define all required and optional Swift settings at one time, or you can
+update settings as needed over time. Each time you update the ``server-
+vars.yml`` file, you must run the update command and restart the LMS server.
 
 Before you change your data storage configuration, be sure to determine the
 values that apply to your Swift data storage service, including your
@@ -119,9 +122,9 @@ steps.
      EDXAPP_VERIFY_STUDENT:
        DAYS_GOOD_FOR: 365
        SOFTWARE_SECURE:
-     STORAGE_CLASS: "swift.storage.SwiftStorage"
-     STORAGE_KWARGS:
-       name_prefix: "photos/"
+         STORAGE_CLASS: "swift.storage.SwiftStorage"
+         STORAGE_KWARGS:
+           name_prefix: "photos/"
 
 #. Continue on to define Swift settings for other features, or complete steps
    7-10 for :ref:`defining required Swift settings<Define Required Swift
