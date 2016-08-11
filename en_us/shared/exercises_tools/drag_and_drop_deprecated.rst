@@ -5,10 +5,10 @@ Drag and Drop Problem (Deprecated)
 ##################################
 
 .. note::
-    This drag and drop problem type has been replaced by a newer
-    drag and drop problem type. The newer drag and drop problem type includes
-    significant improvements and you should use it for any new course
-    development. For more information about the replacement drag and
+    EdX does not support this problem type. This drag and drop problem type has
+    been replaced by a newer drag and drop problem type. The newer drag and drop
+    problem type includes significant improvements and you should use it for any
+    new course development. For more information about the replacement drag and
     drop problem type, see :ref:`drag_and_drop_problem`.
 
 .. warning::

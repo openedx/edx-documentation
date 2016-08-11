@@ -36,7 +36,6 @@ For information about building specific course component types, see
    gene_explorer
    google_calendar
    google_docs
-   google_hangouts
    iframe
    image_mapped_input
    lti_component

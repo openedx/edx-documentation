@@ -433,9 +433,8 @@ Many courses also offer a wiki for additional resources and materials: select
 **Wiki**.
 
 Other resources might also be available, such as a course-specific Facebook
-page or Twitter feed, or opportunities for Google Hangouts. Be sure to check
-the **Home** page for your course as well as the **Discussion** and
-**Wiki** pages.
+page or Twitter feed. Be sure to check the **Home** page for your course as
+well as the **Discussion** and **Wiki** pages.
 
 From time to time, the course team might send email messages to all students.
 While you can opt out of these messages, doing so means that you can miss

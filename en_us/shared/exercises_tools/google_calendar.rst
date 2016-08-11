@@ -4,7 +4,7 @@
 Google Calendar Tool
 #####################
 
-.. note:: EdX offers full support for this tool.
+.. note:: EdX offers provisional support for this tool.
 
 This topic describes how to embed Google Calendars in your course.
 

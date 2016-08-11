@@ -4,7 +4,7 @@
 Google Drive Files Tool
 ########################
 
-.. note:: EdX offers full support for this tool.
+.. note:: EdX offers provisional support for this tool.
 
 This topic describes how to embed Google Drive files, such as documents,
 spreadsheets, and images, in your course.

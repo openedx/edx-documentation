@@ -4,7 +4,7 @@
 Gene Explorer Tool
 ##################
 
-.. note:: EdX offers provisional support for this tool.
+.. note:: EdX does not support this tool.
 
 The gene explorer (GeneX), from the biology department at `UMB
 <http://www.umb.edu/>`_, simulates the transcription, splicing, processing, and

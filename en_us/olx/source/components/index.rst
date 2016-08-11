@@ -19,7 +19,6 @@ create and edit course components.
    full_screen_image
    google_calendar
    google_docs
-   google_hangout
    iframe
    lti_component
    open_response_assessments/index

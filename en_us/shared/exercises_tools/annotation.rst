@@ -4,7 +4,7 @@
 Annotation Problem
 ###################
 
-.. note:: EdX offers provisional support for this problem type.
+.. note:: EdX does not support this problem type.
 
 In an annotation problem, you highlight specific text inside a larger text
 block and then ask questions about that text. The questions appear when
