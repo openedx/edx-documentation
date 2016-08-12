@@ -14,6 +14,8 @@ additional exercises and tools.
   :local:
   :depth: 2
 
+.. _Levels of Support:
+
 ******************
 Levels of Support
 ******************
