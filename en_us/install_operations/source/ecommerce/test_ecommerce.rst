@@ -34,6 +34,14 @@ the unit test suite.)
 
      $ make validate
 
+  .. note::
+    If numerous unit tests fail with an ``OfflineGenerationError`` message, run
+    the following command, then try to run unit tests again.
+
+    .. code-block:: bash
+
+       $ DJANGO_SETTINGS_MODULE=ecommerce.settings.test make static
+
 * To run unit tests with quality checks but without migrations, run the
   following command.
 
