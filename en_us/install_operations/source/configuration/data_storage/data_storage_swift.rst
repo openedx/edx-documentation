@@ -16,8 +16,9 @@ OpenStack Object Store project) for data storage, you update the
   Platform`.
 
 You can define all required and optional Swift settings at one time, or you can
-update settings as needed over time. Each time you update the ``server-
-vars.yml`` file, you must run the update command and restart the LMS server.
+update settings as needed over time. Each time you update the
+``server-vars.yml`` file, you must run the update command and restart the LMS
+server.
 
 Before you change your data storage configuration, be sure to determine the
 values that apply to your Swift data storage service, including your
@@ -70,10 +71,6 @@ Define Required Swift Settings
 
    .. code-block:: yaml
 
-     COMMON_OBJECT_STORE_LOG_SYNC: true
-     .
-     .
-     .
      EDXAPP_GRADE_STORAGE_CLASS: 'swift.storage.SwiftStorage'
      EDXAPP_GRADE_STORAGE_KWARGS:
        name_prefix: "grades/"
@@ -223,6 +220,10 @@ To define settings for synchronizing event log files, follow these steps.
 
    .. code-block:: yaml
 
+     COMMON_OBJECT_STORE_LOG_SYNC: true
+     .
+     .
+     .
      SWIFT_LOG_SYNC_USERNAME: ""
      SWIFT_LOG_SYNC_PASSWORD: ""
      SWIFT_LOG_SYNC_TENANT_ID: ""
