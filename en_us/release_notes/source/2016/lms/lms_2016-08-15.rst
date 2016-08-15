@@ -1,0 +1,19 @@
+.. Add release notes for the lms audience in RST format here.
+.. The edX documentation team will include this file in the index 
+.. file for the upcoming release. If you add more than one note, format the
+.. notes as a bulleted list by preceding each note with an asterisk.
+.. 
+.. If your release note change is associated with a JIRA item, add the
+.. JIRA ticket number at the end of your item.
+.. 
+.. For example:
+.. 
+.. To improve the experience of learners who use screen readers, the
+.. learner dashboard now provides additional, course specific context for
+.. each of the Upgrade to Verified or View XSeries Details options that
+.. appear on this page. (:jira:`ECOM-4269`, :jira:`ECOM-4270`)
+.. 
+
+* The learner dashboard now displays related programs of any type. Course runs
+  listed on the dashboard link to related programs, and program cards are no
+  longer limited to XSeries only. (:jira:`ECOM-4638`)
