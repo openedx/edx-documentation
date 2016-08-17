@@ -75,8 +75,8 @@ Starting Open edX Insights
 
    .. code-block:: bash
 
-     $ ~/venvs/insights/bin/python ~/edx_analytics_dashboard/manage.py switch display_verified_enrollment on --create
-     $ ~/venvs/insights/bin/python ~/edx_analytics_dashboard/manage.py switch enable_course_api on --create
+     $ ~/venvs/insights/bin/python ~/edx_analytics_dashboard/manage.py waffle_switch display_verified_enrollment on --create
+     $ ~/venvs/insights/bin/python ~/edx_analytics_dashboard/manage.py waffle_switch enable_course_api on --create
 
    For a complete list of the waffle switches that are available, see
    `Feature Gating`_.
