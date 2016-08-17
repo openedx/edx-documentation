@@ -163,7 +163,7 @@ partner and site configuration with the specified options.
     .. code-block:: bash
 
       $ sudo su ecommerce
-      $ python manage.py create_or_update_site --site-id=1 --site-domain=localhost:8002 --partner-code=edX --partner-name='Open edX' --lms-url-root=localhost:8000 --theme-scss-path=sass/themes/edx.scss --payment-processors=cybersource,paypal --client-id=[change to OIDC client ID] --client-secret=[change to OIDC client secret]
+      $ python manage.py create_or_update_site --site-id=1 --site-domain=localhost:8002 --partner-code=edX --partner-name='Open edX' --partner-orgs=edx --lms-url-root=localhost:8000 --theme-scss-path=sass/themes/edx.scss --payment-processors=cybersource,paypal --client-id=[change to OIDC client ID] --client-secret=[change to OIDC client secret]
 
 .. _Add Another Site Partner and Site Configuration:
 
@@ -204,6 +204,10 @@ this command.
      - No
      - Name of the partner.
      - ``--partner-name='Open edX'``
+   * - ``--partner-orgs``
+     - No
+     - Organizations of the partner.
+     - ``--partner-orgs=foo,bar``
    * - ``--lms-url-root``
      - Yes
      - URL root of the Open edX LMS instance.
@@ -239,7 +243,7 @@ configuration with the options that you specify.
     .. code-block:: bash
 
       $ sudo su ecommerce
-      $ python manage.py create_or_update_site --site-domain=[change me] --partner-code=[change me] --partner-name=[change me] --lms-url-root=[change me] --client-id=[OIDC client ID] --client-secret=[OIDC client secret] --from-email=[from email]
+      $ python manage.py create_or_update_site --site-domain=[change me] --partner-code=[change me] --partner-name=[change me] --partner-orgs=[change me] --lms-url-root=[change me] --client-id=[OIDC client ID] --client-secret=[OIDC client secret] --from-email=[from email]
 
 ****************
 Start the Server
