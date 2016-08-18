@@ -156,8 +156,9 @@ Automatic Upgrading
 
 .. note::
   The upgrade script is only for upgrading instances running the Dogwood
-  release. If you are running any other release of the Open edX Platform,
-  follow the instructions to upgrade them to each next successive release.
+  release.  If your instance is running a release prior to the Dogwood release,
+  follow the instructions to upgrade it to each intervening release, and then
+  upgrade from Dogwood to Eucalyptus.
 
 .. caution::
   Before upgrading your Open edX instance, back up all data and configuration
@@ -167,26 +168,23 @@ Automatic Upgrading
 On the computer or virtual machine that is running the Dogwood release of Open
 edX, run the upgrade script for your type of installation.
 
-1.  Download the script.
+#.  Download the script.
 
     .. code-block:: bash
 
         $ export OPENEDX_RELEASE=open-release/eucalyptus.latest
-        $ wget -O upgrade.sh
-        https://raw.githubusercontent.com/edx/configuration/$OPENEDX_RELEASE/util/vagrant/upgrade.sh
+        $ wget -O upgrade.sh https://raw.githubusercontent.com/edx/configuration/$OPENEDX_RELEASE/util/vagrant/upgrade.sh
 
-2.  Run the script.
+#.  Run the script.
 
-    * For devstack, run
-      ``bash upgrade.sh -c devstack``.
+    * For devstack, run ``bash upgrade.sh -c devstack``.
 
-    * For fullstack, run
-      ``bash upgrade.sh -c fullstack``.
+    * For fullstack, run ``bash upgrade.sh -c fullstack``.
 
 You can find the most up-to-date Git tag for the current Open edX release on
 the `Open edX Releases Wiki page`_.
 
-You can also run ``./upgrade.sh -h`` to see which other options the script
+You can also run ``bash upgrade.sh -h`` to see which other options the script
 accepts.
 
 The script creates a temporary directory in which it upgrades Open edX, then
