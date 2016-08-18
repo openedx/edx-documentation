@@ -144,7 +144,7 @@ Upgrading from Cypress to Dogwood
 *********************************
 
 You can upgrade an Open edX instance that is running the Cypress release to the
-Dogwood release.  EdX provides the ``migrate.sh`` script if you have a simple
+Dogwood release.  EdX provides the ``upgrade.sh`` script if you have a simple
 Cypress installation and want to upgrade it automatically. If you have a more
 complex or customized installation, you may need to upgrade manually.
 
@@ -152,8 +152,8 @@ complex or customized installation, you may need to upgrade manually.
 Automatic Upgrading
 ===================
 
-The ``migrate.sh`` script is in the `edX configuration repository
-<https://github.com/edx/configuration/blob/master/util/vagrant/migrate.sh>`_ on
+The ``upgrade.sh`` script is in the `edX configuration repository
+<https://github.com/edx/configuration/blob/master/util/vagrant/upgrade.sh>`_ on
 GitHub.
 
 .. note::
@@ -169,15 +169,15 @@ GitHub.
 On the computer or virtual machine that is running the Cypress release of Open
 edX, run the upgrade script for your type of installation.
 
-* For devstack, run ``./migrate.sh -c devstack -t named-release/dogwood``.
+* For devstack, run ``./upgrade.sh -c devstack -t named-release/dogwood``.
 
 * For fullstack, run
-  ``./migrate.sh -c fullstack -t named-release/dogwood``.
+  ``./upgrade.sh -c fullstack -t named-release/dogwood``.
 
 You can find the most up-to-date Git tag for the current Open edX release on
 the `Open edX Releases Wiki page`_.
 
-You can also run ``./migrate.sh -h`` to see which other options the script
+You can also run ``./upgrade.sh -h`` to see which other options the script
 accepts.
 
 The script creates a temporary directory in which it upgrades Open edX, then
@@ -191,7 +191,7 @@ Upgrade Process Overview
 ========================
 
 This is an overview of what happens during an upgrade from Cypress to Dogwood.
-The ``migrate.sh`` script implements this process.  You may need to understand
+The ``upgrade.sh`` script implements this process.  You may need to understand
 this process if your installation is customized in some way, or if you need to
 diagnose problems during the upgrade.
 
