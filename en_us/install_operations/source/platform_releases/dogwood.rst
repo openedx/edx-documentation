@@ -153,8 +153,7 @@ Automatic Upgrading
 ===================
 
 The ``migrate.sh`` script is in the `edX configuration repository
-<https://github.com/edx/configuration/blob/master/util/vagrant/migrate.sh>`_ on
-GitHub.
+<https://github.com/edx/configuration/blob/named-release/dogwood.rc/util/vagrant/migrate.sh>`_ on GitHub.
 
 .. note::
   The upgrade scripts provided are verified only for upgrading instances
