@@ -22,6 +22,11 @@ To create a course seat, follow these steps.
    * **Course ID**
    * **Course Name**
 
+   .. note::
+
+     Course must be from one of the organization which are mention 
+     in :ref:`Configure a Site Partner and Site Configuration` section.
+
 #. For **Course Type**, select a course type and the options for that course
    type.
 
