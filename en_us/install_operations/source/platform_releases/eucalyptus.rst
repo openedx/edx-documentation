@@ -155,9 +155,9 @@ Automatic Upgrading
 `The upgrade.sh script`_ is in the edX configuration repository on GitHub.
 
 .. note::
-  The upgrade scripts provided are verified only for upgrading instances
-  running the Dogwood release. If you are running any other version of the Open
-  edX Platform, the upgrade scripts might not work.
+  The upgrade script is only for upgrading instances running the Dogwood
+  release. If you are running any other release of the Open edX Platform,
+  follow the instructions to upgrade them to each next successive release.
 
 .. caution::
   Before upgrading your Open edX instance, back up all data and configuration
@@ -167,11 +167,21 @@ Automatic Upgrading
 On the computer or virtual machine that is running the Dogwood release of Open
 edX, run the upgrade script for your type of installation.
 
-* For devstack, run
-  ``./upgrade.sh -c devstack -t open-release/eucalyptus/latest``.
+1.  Download the script.
 
-* For fullstack, run
-  ``./upgrade.sh -c fullstack -t open-release/eucalyptus/latest``.
+    .. code-block:: bash
+
+        $ export OPENEDX_RELEASE=open-release/eucalyptus.latest
+        $ wget -O upgrade.sh
+        https://raw.githubusercontent.com/edx/configuration/$OPENEDX_RELEASE/util/vagrant/upgrade.sh
+
+2.  Run the script.
+
+    * For devstack, run
+      ``bash upgrade.sh -c devstack``.
+
+    * For fullstack, run
+      ``bash upgrade.sh -c fullstack``.
 
 You can find the most up-to-date Git tag for the current Open edX release on
 the `Open edX Releases Wiki page`_.
@@ -201,7 +211,7 @@ Upgrading to a Eucalyptus Point Release
 ***************************************
 
 Occasionally, we release updates to Eucalyptus.  The
-``open-release/eucalyptus/latest`` branch always refers to the latest release
+``open-release/eucalyptus.latest`` branch always refers to the latest release
 of Eucalyptus.    The steps differ based on your original installation method.
 
 ================================
@@ -213,7 +223,7 @@ point release, follow these steps in the host operating system.
 
 .. code-block:: bash
 
-    $ export OPENEDX_RELEASE=open-release/eucalyptus/latest
+    $ export OPENEDX_RELEASE=open-release/eucalyptus.latest
     $ vagrant provision
 
 ===============================
