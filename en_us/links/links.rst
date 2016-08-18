@@ -144,7 +144,7 @@
 
 .. _edx configuration repository wiki: https://github.com/edx/configuration/wiki
 
-.. _The migrate.sh script: https://github.com/edx/configuration/blob/master/util/vagrant/migrate.sh
+.. _The migrate.sh script: https://github.com/edx/configuration/blob/named-release/dogwood.rc/util/vagrant/migrate.sh
 
 .. _The upgrade.sh script: https://github.com/edx/configuration/blob/master/util/vagrant/upgrade.sh
 
