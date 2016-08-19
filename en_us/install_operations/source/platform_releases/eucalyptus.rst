@@ -173,7 +173,7 @@ edX, run the upgrade script for your type of installation.
     .. code-block:: bash
 
         $ export OPENEDX_RELEASE=open-release/eucalyptus.latest
-        $ wget -O upgrade.sh https://raw.githubusercontent.com/edx/configuration/$OPENEDX_RELEASE/util/vagrant/upgrade.sh
+        $ curl -OL https://raw.github.com/edx/configuration/$OPENEDX_RELEASE/util/vagrant/upgrade.sh
 
 #.  Run the script.
 
