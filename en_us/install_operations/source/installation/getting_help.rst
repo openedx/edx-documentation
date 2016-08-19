@@ -15,7 +15,7 @@ Where to Find Help
 There are a number of places to get help, including mailing lists and real-time
 chat.  Please choose an appropriate venue for your question.  This helps ensure
 that you get good prompt advice, and keeps discussion focused.  For details of
-your options, see the `Community Discussions`_ page.
+your options, see the `Getting Help page`_.
 
 
 *******************************************
@@ -45,7 +45,7 @@ Stay involved in the discussion, and try to give them what they need. They know
 best what information they need to solve the problem.
 
 
-.. _Community Discussions: https://open.edx.org/resources/community-discussions
+.. _Getting Help page: https://open.edx.org/getting-help
 .. _openedx-ops: http://groups.google.com/forum/#!forum/openedx-ops
 
 .. include:: ../../../links/links.rst
