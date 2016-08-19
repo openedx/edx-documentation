@@ -57,6 +57,9 @@ your coupon, follow these steps.
    * **Valid from** and **Valid until**: The dates and times when the discount
      or enrollment code is valid for use. The time zone is set to Universal
      Coordinated Time (UTC).
+   * **Email Domains**: Optional. A list of comma separated domains. If
+     specified, only users registered with an email address that matches can
+     use the coupon. If null, any user can use the coupon.
    * **Discount Value**: The discount that you want to apply to the course fee,
      specified as a percentage between 1% and 99% or a fixed amount in U.S.
      dollars.
@@ -400,6 +403,8 @@ The .csv file for your coupon lists the following information.
        created the coupon.
    * - **Price**
      - The regular fee for the course.
+   * - **Email Domains**
+     - The email domains allowed to use this coupon.
    * - **Invoiced Amount**
      - The text, if any, that you entered in the **Total to Invoice to Client**
        field when you created the coupon.
