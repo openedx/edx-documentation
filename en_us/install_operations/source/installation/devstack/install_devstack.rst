@@ -41,7 +41,7 @@ If your internet connection is limited or intermittent, edX recommends that you
 torrent the box file. However, this step is optional.
 
 
-.. _Torrent the box file:
+.. _Torrent the Box File:
 
 ===============================
 Torrent the Box File (Optional)
