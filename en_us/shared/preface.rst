@@ -330,14 +330,14 @@ Additional repositories are used for other projects. Our contributor agreement,
 contributor guidelines and coding conventions, and other resources are
 available in these repositories.
 
-======================
-Community Discussions
-======================
+============
+Getting Help
+============
 
-The `Community Discussions`_ page in the Open edX Portal lists different
-ways that you can ask, and answer, questions.
+The `Getting Help`_ page in the Open edX Portal lists different
+ways that you can ask, and get answers to, questions.
 
-.. _Community Discussions: https://open.edx.org/resources/community-discussions
+.. _Getting Help: https://open.edx.org/getting-help
 
 ====================
 Wikis and Web Sites
