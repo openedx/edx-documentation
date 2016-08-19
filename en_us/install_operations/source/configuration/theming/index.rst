@@ -12,12 +12,5 @@ how it works.
 .. toctree::
    :maxdepth: 2
 
-   what_is_theming
-   create_theme
-   sass
-   activate_theme
-   supported_assets
-   supported_templates
-   supported_sass
+   theming/index
    drag_and_drop_problem_styling
-   glossary
