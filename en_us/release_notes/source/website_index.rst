@@ -10,6 +10,12 @@ The following information describes what is new on edx.org and Edge.
 
 
 *************************
+Week of 22 August 2016
+*************************
+
+.. include:: 2016/website/website_2016-08-22.rst
+
+*************************
 Week of 8 August 2016
 *************************
 
