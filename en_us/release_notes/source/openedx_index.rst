@@ -10,6 +10,11 @@ The following information summarizes what is new in Open edX.
   :local:
   :depth: 1
 
+*************************
+Week of 15 August 2016
+*************************
+
+.. include:: 2016/openedx/openedx_2016-08-15.rst
 
 *************************
 Week of 8 August 2016
@@ -18,7 +23,7 @@ Week of 8 August 2016
 .. include:: 2016/openedx/openedx_2016-08-08.rst
 
 *************************
-Week of 18 June 2016
+Week of 18 July 2016
 *************************
 
 .. include:: 2016/openedx/openedx_0718_2016.rst
