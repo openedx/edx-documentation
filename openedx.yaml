@@ -4,5 +4,5 @@
 nick: doc
 oeps: {}
 openedx-release: {ref: master}
-owner: MUST FILL IN OWNER
+owner: edx/docs-team
 track-pulls: true
