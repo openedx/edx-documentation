@@ -4,11 +4,29 @@
 Managing Course Discussions
 ##################################
 
-Discussions, or discussion forums, foster interaction among learners and
-between learners and the course team. You can set up different topics to guide
-these interactions when you create your course, and then run and moderate
-discussions throughout the course to encourage participation and develop course
-community. Discussions are also excellent sources of feedback and ideas for the future.
+Course discussions foster interaction among learners and between learners and
+the course team. You can set up different topics to guide these interactions
+when you create your course, and then run and moderate discussions throughout
+the course to encourage participation and develop course community.
+Discussions are also excellent sources of feedback and ideas for the future.
+
+.. only:: Partners
+
+ For information about participating in discussions, see the
+ :ref:`learners:Course Discussions Index` section in the *EdX Learner's Guide*.
+ Consider referring learners in your courses to that section, which describes
+ the structure and features of edX course discussions, and provides useful
+ information to help learners make the most of their participation in course
+ discussions.
+
+.. only:: Open_edX
+
+ For information about participating in discussions, see the
+ :ref:`openlearners:Course Discussions Index` section in the *Open edX
+ Learner's Guide*. Consider referring learners in your courses to that section,
+ which describes the structure and features of course discussions, and provides
+ useful information to help learners make the most of their participation in
+ course discussions.
 
 For information about running and moderating discussions, see the following
 sections.
@@ -17,21 +35,14 @@ sections.
  :local:
  :depth: 1
 
-.. note:: Some features of discussions are available when discussions are
-   accessed in a web browser, but not when accessed in the edX mobile apps.
-   For information about the differences between discussions on the edx.org
-   site and in the mobile apps, see :ref:`Discussions on Mobile Apps`.
+.. note:: Some features of discussions, especially moderation features, are
+   not available when discussions are accessed in the edX mobile app. For
+   information about the differences between discussions on the edx.org site
+   and in the mobile app, see :ref:`Discussions on Mobile Apps`.
 
 For information about how using cohorts in your course affects how your course
 team might moderate course discussions, see :ref:`Moderating Discussions for
 Cohorts`.
-
-.. note:: The :ref:`Discussions for Students and Staff` section describes
-   features that are available to all discussion participants, and might be
-   useful to learners who are new to online discussion forums. You can share
-   the section with your learners by, for example, adding a "Never Used a
-   Discussion Forum Before?" post that includes the information you think will
-   be most useful to them.
 
 .. _Overview_discussions:
 
@@ -40,13 +51,14 @@ Overview
 ************
 
 Learners and the course team use course discussions to share ideas, exchange
-views, consider different viewpoints, and ask questions. In a discussion, there
-are three hierarchical levels of interaction.
+views, consider different viewpoints, and ask questions. In course discussions
+there are three hierarchical levels of interaction.
 
 * A post is the first level of interaction. A post opens a new subject. Posts
   can be made as questions, to solicit a concrete answer, or as discussions,
-  to start a conversation. When you add a post, you decide whether to add it
-  as a **Question** or as a **Discussion**.
+  to start a conversation. When participants add a post, they must choose an
+  existing topic to associate it with, and decide whether to add it as a
+  **Question** or as a **Discussion**.
 
 * A response is the second level of interaction. A response is a reply made
   directly to a post to provide a solution or continue the conversation.
@@ -60,8 +72,10 @@ responses is sometimes called a thread. Discussion threads are saved as part
 of the course history.
 
 All course team members and enrolled learners can add posts, responses, and
-comments, and view all of the posts, responses, and comments made by other
-course participants.
+comments, and they can also view posts, responses, and comments made by other
+course participants. For information about cohorts and how members of cohorts
+interact in course discussions, see :ref:`Coursewide Discussion Topics and
+Cohorts` and see :ref:`Content Specific Discussion Topics and Cohorts`.
 
 Members of the course community, learners as well as the course team, can be
 given permission to moderate or administer course discussions through a set of
@@ -212,7 +226,8 @@ When learners select the **Discussion** page for your course, the drop-down
 Discussion list now includes the topic you added.
 
  .. image:: ../../../shared/images/NewCategory_Discussion.png
-  :alt: Image of a new topic named Course Q&A in the list of discussions.
+  :width: 300
+  :alt: Image of a new topic named Course Q&A in the list of discussion topics.
 
 .. note:: In courses that use cohorts, the course-wide discussion topics that
    you add are unified. All posts can be read and responded to by every
@@ -232,11 +247,6 @@ course in Studio. Follow the instructions in :ref:`Working with Discussion
 Components`. The result is a discussion topic associated with a unit and its
 content.
 
-.. note:: When learners access courses using the edX mobile apps, content-
-   specific discussion topics cannot currently be viewed "inline" as part of
-   the course content, although they can be viewed along with course-wide
-   discussions on the **Discussion** page.
-
 .. warning:: Follow the recommended steps to add discussion components. Do not
    create discussion topics by using the **Duplicate** button in Studio, and do
    not reference the same discussion ID in more than one place in your course.
@@ -253,7 +263,6 @@ topics, see :ref:`Visibility of Discussion Topics`.
    role. You can change the configuration of content-specific discussion topics
    to make them unified and available to all learners in the course. For more
    information, see :ref:`Content Specific Discussion Topics and Cohorts`.
-
 
 
 .. _Assigning_discussion_roles:
@@ -279,34 +288,32 @@ Different options for working with discussions are available through
 the following roles.
 
 .. note:: The options for moderating discussions described below are only
-    available when members of the discussion administration team work in a web
-    browser. The edX mobile apps do not currently offer moderation options.
+   available when members of the discussion administration team work in a web
+   browser. The edX mobile apps do not currently offer moderation options.
 
    For more information about differences between discussions on the edx.org
    site and on the mobile apps, see :ref:`Discussions on Mobile Apps`.
 
 * Discussion moderators can edit and delete messages at any level, review
-  messages flagged for misuse, close and reopen posts, pin posts, and endorse
-  responses.
+  messages flagged for misuse, close and reopen posts, pin posts, and mark
+  responses as correct answers.
 
-  Posts made by moderators are marked as "By: Staff" in the list of
-  posts. Responses and comments made by moderators have a colored "Staff"
-  identifier. This role is often given to course team members who already have
-  the Staff role.
+  Posts, responses, and comments made by moderators are marked with a
+  **Staff** identifier. The moderator role is often given to course team
+  members who already have the Staff role.
 
 .. removed this clause from 1st sentence per JAAkana and MHoeber: , and, if the
 .. course is cohorted, see posts from all cohorts
 
-* Discussion community TAs have the same options for working with discussions
-  as moderators.
+* Discussion community teaching assistants (TAs) have the same options for
+  working with discussions as moderators do.
 
-  Posts made by community TAs are marked as "By: Community TA" on the
-  **Discussion** page in the discussion navigation pane. Responses and comments
-  made by community TAs have a colored "Community TA" identifier. This role is
-  often given to learners.
+  Posts, responses, and comments made by community TAs are marked with a
+  **Community TA** identifier. The community TA role is often given to
+  learners.
 
 * Discussion admins have the same options for working with discussions as
-  moderators, and their posts, responses, and comments have the same "Staff"
+  moderators, and their posts, responses, and comments have the same **Staff**
   identifiers.
 
   This role can be reserved for assignment to course team members
@@ -394,9 +401,9 @@ Run a Discussion
 *********************
 
 On an ongoing basis, the members of your discussion team run the course
-discussion by making contributions, endorsing responses, marking answers as
-correct, and guiding learner messages into pertinent threads. Techniques that
-you can use throughout your course to make discussions successful follow.
+discussion by making contributions, marking answers as correct, and guiding
+learner messages into pertinent threads. Techniques that you can use
+throughout your course to make discussions successful follow.
 
 ==========================================
 Use Conventions in Discussion Subjects
@@ -454,14 +461,14 @@ Minimize Thread Proliferation
 ======================================
 
 To encourage longer, threaded discussions rather than many similar, separate
-posts, the discussion team can use these techniques. However, be aware that
-long threads (with more than 200 responses and comments) can be difficult to
-read, and can therefore result in an unsatisfactory experience in the
+posts, the discussion team can use the following techniques. However, be aware
+that long threads (with more than 200 responses and comments) can be difficult
+to read, and can therefore result in an unsatisfactory experience in the
 discussion.
 
-.. note:: You can only pin or close posts and mark questions as answered when you
-      work in a web browser. You cannot complete these activities when you work
-      in an edX mobile app.
+.. note:: You can only pin or close posts and mark questions as answered when
+   you work in a web browser. You cannot complete these activities when you work
+   in the edX mobile app.
 
 * Pin a post. Pinning a post makes it appear at the top of the list of posts in
   the discussion navigation pane on the **Discussion** page. As a result, it is
@@ -469,23 +476,35 @@ discussion.
   your own post and then pin it, or pin a post by any author. Select the "More"
   icon and then **Pin**.
 
-    .. image:: ../../../shared/images/Pin_Discussion.png
-     :alt: Image of the pin icon for discussion posts.
+  .. image:: ../../../shared/images/Discussion_Pin.png
+   :alt: The pin icon for discussion posts.
 
-* Endorse a response. Endorsing a response indicates that it provides value to
-  the discussion. Select the "check mark" (or tick mark) icon for the response.
+* Mark a response as answered or endorsed. Depending on whether a post is a
+  question or a discussion, you use the same option to mark a response either
+  as the answer to the posted question, or to endorse a response. Marking a
+  question as answered makes it easier for learners to find answers to already
+  asked questions, rather than ask the same question again. Endorsing a
+  response confirms that it adds value to a discussion.
 
-    .. image:: ../../../shared/images/Endorse_Discussion.png
-     :alt: Image of the Endorse button for discussion posts.
+  To mark a response as answered or endorsed, select the "check mark" icon.
+  You cannot mark your own responses as answers or as endorsed.
 
-* Mark a question as answered. You use the same procedure to mark a response as
-  the correct answer to a question as you do to endorse contributions to a
-  discussion: select the "check mark" (or tick mark) icon for correct answers.
+  .. image:: ../../../shared/images/Discussion_MarkAsAnswer.png
+   :alt: The "check mark" icon for marking a response as the correct answer
+         to a question.
+
+* Vote for posts or responses. Learners can sort discussions by posts with the
+  most votes, so posts and responses with many votes are more likely to be
+  read and responded to. Select the "plus" icon for the response. You cannot
+  vote for your own posts.
+
+  .. image:: ../../../shared/images/Discussion_vote.png
+   :alt: The "plus" icon for voting for discussion posts.
 
 * Close a post. You can respond to a redundant post by (optionally) pasting in
   a link to the post that you prefer learners to contribute to, and prevent
   further interaction by closing the post. Select the "More" icon and then
-  **Close** to close it.
+  **Close**.
 
 * Provide post/response/comment guidelines. You can post information from the
   :ref:`overview<Overview_discussions>` in this section, or the :ref:`anatomy
@@ -535,12 +554,12 @@ username on the **Active Threads** page, and the learner's profile page.
 
 .. image:: ../../../shared/images/SFD_Prof_from_Disc.png
   :width: 600
-  :alt: Image of a discussion with a learner's username circled, an image of
+  :alt: Image of a post with the learner's username circled, an image of
       that learner's active threads page in the course discussions, and an
       image of the learner's profile.
 
-For more information, or to create your own profile, see
-:ref:`openlearners:SFD Dashboard Settings Profile`.
+For more information about profiles, see :ref:`openlearners:SFD Dashboard
+Settings Profile`.
 
 ========================================
 Provide Guidelines for Learners
@@ -551,10 +570,21 @@ them available to learners as a course handout file or on a defined page in
 your course. These guidelines can define your expectations and optionally
 introduce features of edX discussions.
 
-You can also share the :ref:`Discussions for Students and Staff` section with
-your learners. It describes features that are available to all discussion
-participants, and may be useful to learners who are new to online discussion
-forums.
+.. only:: Partners
+
+ You can also refer learners to the :ref:`learners:Course Discussions Index`
+ section in the *EdX Learner's Guide*. Consider referring learners in your
+ courses to that section, which describes the structure and features of edX
+ course discussions, and provides useful information to help learners make the
+ most of their participation in course discussions.
+
+.. only:: Open_edX
+
+ You can also refer learners to the :ref:`openlearners:Course Discussions
+ Index` section in the *Open EdX Learner's Guide*. Consider referring learners
+ in your courses to that section, which describes the structure and features of
+ edX course discussions, and provides useful information to help learners make
+ the most of their participation in course discussions.
 
 .. For a template that you can use to develop your own guidelines, see
 .. :ref:`Discussion Forum Guidelines`.
@@ -613,16 +643,31 @@ discussions. When an answer is provided and marked as correct for a question, a
 check or tick mark image replaces the question mark image. For more
 information, see :ref:`Answer Questions`.
 
+The titles and icons of posts that you have not yet read appear in blue, with
+a blue vertical bar on the post's left side. Posts that you have read have
+dark gray titles and icons. When new responses and comments are made on posts
+that you have read, a "new" indicator displays with the number of new
+responses or comments that you have not yet read.
+
+.. image:: ../../../shared/images/Discussion_ReadUnreadNew.png
+  :width: 300
+  :alt: The discussion navigation pane, showing some unread and some read
+     posts, including a post that has been read but now has additional new
+     responses or comments.
+
 In addition to these visual cues, filters can help you find questions and
 discussions that need review. In the discussion navigation pane on the
-**Discussion** page, the **Show all** filter is selected by default. You can
-also select:
+**Discussion** page, you can also select the following options from the **Show
+all** drop-down menu.
 
 * **Unread**, to list only the discussions and questions that you have not yet
   viewed.
 
 * **Unanswered**, to list only questions that do not yet have any responses
   marked as answers.
+
+* **Flagged**, to list only posts that learners have reported as inappropriate.
+
 
 ==================
 Edit Messages
@@ -842,25 +887,21 @@ Students`.
 .. _Discussions on Mobile Apps:
 
 ***************************************
-Discussions in the edX Mobile Apps
+Discussions in the edX Mobile App
 ***************************************
 
-Learners can participate in course discussions using the edX mobile apps as
+Learners can participate in course discussions using the edX mobile app as
 they do on the edX site, but there are some differences in the actions that
-moderators can take in discussions using the mobile apps. To perform
-moderation or administrative tasks for your course discussions, you need to
-work in a web browser.
+moderators can take in discussions using the mobile app. To perform moderation
+or administrative tasks for your course discussions, you need to work in a web
+browser.
 
-* When learners access courses using the edX mobile apps, content-specific
-  discussion topics cannot currently be viewed "inline" as part of the course
-  content, although they can be viewed along with course-wide discussions on
-  the **Discussion** page.
+The following actions are not supported on the edX mobile apps.
 
-* The following actions are not supported on the edX mobile apps.
   * Pinning posts
-  * Marking questions as answered
-  * Endorsing discussions
-  * Closing discussions or posts
+  * Marking responses to question posts as answers
+  * Endorsing responses to discussion posts
+  * Closing posts
 
 
 .. include:: ../../../links/links.rst
