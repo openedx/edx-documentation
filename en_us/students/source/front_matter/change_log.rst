@@ -89,4 +89,4 @@ changes made to the edX documentation set.
      - Updated :ref:`Scientific Notation` and :ref:`Constants` in :ref:`Math
        Formatting`.
    * - 10/24/14
-     - Added :ref:`Course Discussions` section.
+     - Added :ref:`Course Discussions Index` section.
