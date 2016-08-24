@@ -52,92 +52,14 @@ the Open edX Developer stack>` or :ref:`Fullstack <Installing Open edX Fullstack
 
 Review the prerequisites and instructions for each option, and then choose the
 option that best meets your needs. Ensure that you install the
-required software to run the edX platform.
+required software to run the Open edX platform.
 
 If you are upgrading from the Dogwood release, see `Upgrading from Dogwood to
 Eucalyptus`_.
 
-For new installations, follow these steps.
+Eucalyptus releases have Git tag names like ``open-release/eucalyptus.1``.
+The available names are detailed on the `Open edX Releases Wiki page`_.
 
-#. `Download the Vagrant Box`_ or `Download the BitTorrent File`_.
-
-   .. caution::
-     The Vagrant boxes have a large file size (between 4 and 5 GB). If you have
-     a slow or unreliable Internet connection, use BitTorrent to download the
-     Vagrant box you need.
-
-#. `Set the OPENEDX_RELEASE Environment Variable`_.
-
-#. `Install the Vagrant Box`_.
-
-=========================
-Download the Vagrant Box
-=========================
-
-If you have a fast and reliable Internet connection, you can download the
-Vagrant box directly or by running ``vagrant up`` when you install
-:ref:`Devstack <Installing the Open edX Developer Stack>` or
-:ref:`Fullstack <Installing Open edX Fullstack>`.
-
-To access the latest Vagrant boxes, see the `Open edX Releases Wiki
-page`_.
-
-For more information about working with vagrant boxes, see `Vagrant's
-documentation on boxes`_.
-
-=============================
-Download the BitTorrent File
-=============================
-
-You can also download the BitTorrent file for the option you selected.
-BitTorrent is recommended if you have a slow or unreliable data connection.
-You then use the BitTorrent file to download the Vagrant box. If the Internet
-connection is temporarily lost while you are downloading the Vagrant box
-through BitTorrent, you can later continue the download without data loss or
-corruption.
-
-To access the latest Vagrant box torrents, see the `Open edX Releases Wiki
-page`_.
-
-For more information about downloading BitTorrent files, see `BitTorrent`_.
-
-If you download the Vagrant box through BitTorrent, you must add the box to
-Vagrant before continuing with the installation process.
-
-Be sure to verify that you have the most up-to-date Git tag for the Open edX
-releases on the `Open edX Releases Wiki page`_.
-
-* For devstack installations, run the following command.
-
-   .. code-block:: bash
-
-     $ vagrant box add /{path-to-downloaded-box}/{vagrant-box-name} --name {Git-tag}
-
-* For fullstack installations, run the following command.
-
-   .. code-block:: bash
-
-     $ vagrant box add /{path-to-downloaded-box}/{vagrant-box-name} --name {Git-tag}
-
-============================================
-Set the OPENEDX_RELEASE Environment Variable
-============================================
-
-Before installing the Vagrant box, you must set the value of the
-``OPENEDX_RELEASE`` environment variable to the Git tag for the Eucalyptus
-release. To do so, use the Linux ``export`` command.
-
-.. code-block:: bash
-
-  export OPENEDX_RELEASE="{Git tag}"
-
-=========================
-Install the Vagrant Box
-=========================
-
-When you have completed the previous steps, install the Eucalyptus release by
-following the installation instructions for :ref:`Devstack <Installing the Open
-edX Developer Stack>` or :ref:`Fullstack <Installing Open edX Fullstack>`.
 
 ************************************
 Upgrading from Dogwood to Eucalyptus
