@@ -117,13 +117,13 @@ To install devstack, follow these steps.
     information about the latest Open edX releases and the Git tag names for
     them, see `Open edX Releases Wiki page`_.
 
-    For example, ``open-release/eucalyptus.latest`` is the Git tag name for the
-    latest Eucalyptus release. The following command sets the value of the
-    ``OPENEDX_RELEASE`` environment variable to ``open-release/eucalyptus.latest``.
+    For example, ``open-release/eucalyptus.1`` is the Git tag name for the
+    first Eucalyptus release. The following command sets the value of the
+    ``OPENEDX_RELEASE`` environment variable to ``open-release/eucalyptus.1``.
 
     .. code-block:: bash
 
-      export OPENEDX_RELEASE="open-release/eucalyptus.latest"
+      export OPENEDX_RELEASE="open-release/eucalyptus.1"
 
     If you do not set this environment variable, Vagrant will install the most
     recent snapshot version of the Open edX platform. The snapshot version is

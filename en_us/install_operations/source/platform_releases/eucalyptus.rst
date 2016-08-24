@@ -94,7 +94,7 @@ edX, run the upgrade script for your type of installation.
 
     .. code-block:: bash
 
-        $ export OPENEDX_RELEASE=open-release/eucalyptus.latest
+        $ export OPENEDX_RELEASE=open-release/eucalyptus.1
         $ curl -OL https://raw.github.com/edx/configuration/$OPENEDX_RELEASE/util/vagrant/upgrade.sh
 
 #.  Run the script.
@@ -126,13 +126,13 @@ diagnose problems during the upgrade.
 
 TBD
 
-***************************************
-Upgrading to a Eucalyptus Point Release
-***************************************
+********************************************
+Upgrading to a Subsequent Eucalyptus Release
+********************************************
 
-Occasionally, we release updates to Eucalyptus.  The
-``open-release/eucalyptus.latest`` branch always refers to the latest release
-of Eucalyptus.    The steps differ based on your original installation method.
+Occasionally, we release updates to Eucalyptus.  For example, the second 
+release of Eucalyptus is ``open-release/eucalyptus.2``.
+The steps to upgrade differ based on your original installation method.
 
 ================================
 Upgrading a Vagrant Installation
@@ -143,7 +143,7 @@ point release, follow these steps in the host operating system.
 
 .. code-block:: bash
 
-    $ export OPENEDX_RELEASE=open-release/eucalyptus.latest
+    $ export OPENEDX_RELEASE=open-release/eucalyptus.2
     $ vagrant provision
 
 ===============================
