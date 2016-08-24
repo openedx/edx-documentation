@@ -110,4 +110,4 @@ team.
    their team discusssions without regard to the cohort they belong to.
 
 For information about course discussions and managing discussions, see
-:ref:`Discussions` and :ref:`Discussions for Students and Staff`.
+:ref:`Discussions` and :ref:`Guidance for Discussion Moderators`.

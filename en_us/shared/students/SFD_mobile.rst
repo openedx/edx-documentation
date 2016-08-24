@@ -237,7 +237,7 @@ You can read and contribute to course discussions in the edX mobile apps
 whenever you have an Internet connection. In your course, select
 **Discussion**. You can then browse through different topics or search for
 words or phrases that interest you. For information about course discussions,
-see :ref:`Course Discussions`.
+see :ref:`Course Discussions Index`.
 
 
 .. only:: Open_edX

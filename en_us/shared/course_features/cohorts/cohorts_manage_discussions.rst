@@ -20,9 +20,20 @@ read it: either all learners, or only the members of a single cohort. For
 learners, this is the only noticeable difference between discussions in
 courses that include cohorts when compared to courses that do not.
 
-You can share the examples in the :ref:`Read the Cohort Indicator in Posts`
-section with your learners, along with the :ref:`Discussions for Students and
-Staff` section of this guide.
+.. only:: Partners
+
+ You can share the examples in the :ref:`Read the Cohort Indicator in Posts`
+ section with your learners. The :ref:`learners:Course Discussions Index`
+ section in the *EdX Learner's Guide* also provides useful information to help
+ learners make the most of their participation in course  discussions.
+
+.. only:: Open_edX
+
+ You can share the examples in the :ref:`Read the Cohort Indicator in Posts`
+ section with your learners. The :ref:`openlearners:Course Discussions Index`
+ section in the *Open edX Learner's Guide* also provides useful information to
+ help learners make the most of their participation in course  discussions.
+
 
 Course team members who have the discussion admin, discussion moderator, or
 community TA role see the same indicator of who can read each post. Unlike the
@@ -218,4 +229,5 @@ Note that both of these lists include posts that are visible to
 everyone. When you filter the list by cohort, you see the same, complete
 set of posts that the members of the cohort see.
 
-For other options that you can use to view posts, see :ref:`Find Posts`.
+For other options that you can use to view posts, see
+:ref:`Moderating_discussions`.
