@@ -7,10 +7,8 @@ Replacing the ``courseware_studentmodulehistory`` Table
 This section describes a change to the ``courseware_studentmodulehistory``
 database table.
 
-.. note:: No changes are required or supported at this time for Open edX
- installations that use the **Dogwood** release. For those installations, the
- changes described in this section will be a part of the upgrade to the next
- Open edX release, Eucalyptus.
+.. note:: The changes described in this section are a part of the upgrade to
+ the Open edX Eucalyptus release.
 
 The change to the ``courseware_studentmodulehistory`` database table requires a
 new database configuration, and offers an optional data migration. This change

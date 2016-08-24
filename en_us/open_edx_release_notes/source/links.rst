@@ -39,6 +39,16 @@
 
 .. _Profile Images API Version 1.0: http://edx.readthedocs.org/projects/edx-platform-api/en/latest/profile_images/index.html
 
+.. Eucalyptus doc links
+
+.. _Installing, Configuring, and Running the Open edX Platform\: Eucalyptus Release: http://edx.readthedocs.io/projects/edx-installing-configuring-and-running/en/open-release-eucalyptus.master
+
+.. _Building and Running an Open edX Course\: Eucalyptus Release: http://edx.readthedocs.io/projects/open-edx-building-and-running-a-course/en/open-release-eucalyptus.master
+
+.. _Open edX Learner's Guide\: Eucalyptus Release: http://edx.readthedocs.io/projects/open-edx-learner-guide/en/open-release-eucalyptus.master
+
+.. _Open edX Platform APIs\: Eucalyptus Release: http://edx.readthedocs.io/projects/edx-platform-api/en/open-release-eucalyptus.master
+
 .. Dogwood doc links:
 
 .. _Installing, Configuring, and Running the Open edX Platform Dogwood Release: http://edx.readthedocs.io/projects/edx-installing-configuring-and-running/en/named-release-dogwood.rc/platform_releases/dogwood.html

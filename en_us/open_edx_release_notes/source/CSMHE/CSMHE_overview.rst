@@ -15,10 +15,8 @@ is needed.
 For procedures about how to upgrade all Open edX instances that follow master,
 see :ref:`CSMHE Procedures`.
 
-.. note:: No changes are required or supported at this time for Open edX
- installations that use the **Dogwood** release. For those installations, the
- changes described in this section will be a part of the upgrade to the next
- Open edX release, Eucalyptus.
+.. note:: The changes described in this section are a part of the upgrade to
+ the Open edX Eucalyptus release.
 
 ****************************************************************
 What Is the ``courseware_studentmodulehistory`` Table?
