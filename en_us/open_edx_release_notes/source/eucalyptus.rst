@@ -446,6 +446,33 @@ System Upgrades and Updates
 
 * JavaScript tests are now run using Karma rather than JS-Test-Tool.
 
+
+***********************
+Mobile App Updates
+***********************
+
+The Open edX Eucalyptus release supports versions 2.5.1 (Android) and 2.5.3
+(iOS) of the mobile app, and includes the following mobile app features.
+
+* Course discussions are now supported in the mobile app, including content-
+  specific discussion topics in course units. Discussions can be viewed in
+  landscape mode.
+
+* Course search. Learners can search for courses using keywords, and filter
+  courses by subject and availability.
+
+* User profiles. Learners can create and edit limited or full profile
+  information in the mobile app. In discussions, selecting the linked username
+  of the author of a post takes you to that person's profile page.
+
+* The mobile app now uses refresh tokens. Learners do not have to sign in
+  again, even after a token expires.
+
+* Mobile-ready assessments now include the drag and drop and math expression
+  input problem types as well as basic assessment types (checkbox, dropdown,
+  multiple choice, text input, and numerical input).
+
+
 *********************
 Deprecated Features
 *********************
