@@ -48,7 +48,7 @@ variables:
 .. code-block:: none
 
   ENABLE_COMPREHENSIVE_THEMING: true,
-  COMPREHENSIVE_THEME_DIRS: ["/edx/app/themes", ],
+  COMPREHENSIVE_THEME_DIRS: ["/edx/app/themes" ],
   DEFAULT_SITE_THEME: "my-theme"
 
 You will then need to restart the LMS in order for it to pick up these values
