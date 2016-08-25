@@ -192,4 +192,4 @@ Next Steps
 When you have finished creating your theme,
 :ref:`activate your theme <Activating a Theme>`.
 
-.. include:: ../../../../links/links.rst
+.. include:: ../../../../../links/links.rst
