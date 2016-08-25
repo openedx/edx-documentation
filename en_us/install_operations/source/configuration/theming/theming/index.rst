@@ -17,25 +17,28 @@ displays in the header of most LMS pages. The file path of that image is
 
 Installed on an Open edX site server, the absolute file path of the logo image might be similar to the path shown below.
 
-.. code-block::
+.. code-block:: none
 
     /edx/app/edxapp/edx-platform/lms/static/images/logo.png
 
 To use theming, you place your customized user interface files in a separate theme directory. The Open edX site looks for overridden user interface files in that directory. It uses files if they match the exact file path and file name of the default user interface files. The following example shows an absolute file path of the logo image in a theme directory. The file path after ``/my-themes/my-special-theme/`` matches the file path of that image, relative to the root of the Open edX installation directory.
 
-.. code-block::
+.. code-block:: none
 
     /my-themes/my-special-theme/lms/static/images/logo.png
 
+The following sections provide more information about using theming in your Open edX site.
 
 .. toctree::
    :maxdepth: 2
 
-   what_is_theming
-   create_theme
-   sass
-   activate_theme
-   supported_assets
-   supported_templates
-   supported_sass
-   theming_glossary
+   using_sites
+
+..   what_is_theming
+..   create_theme
+..   sass
+..   activate_theme
+..   supported_assets
+..   supported_templates
+..   supported_sass
+..   theming_glossary
