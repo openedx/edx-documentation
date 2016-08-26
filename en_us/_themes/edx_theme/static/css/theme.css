@@ -3453,7 +3453,7 @@ footer p {
 }
 .rst-content a.reference.external:after {
 	font-family: fontawesome-webfont;
-	content: " \f08e ";
+	content: "\00a0\f08e ";
 	color: #b3b3b3;
 	vertical-align: super;
 	font-size: 60%
