@@ -139,7 +139,7 @@ To install devstack, follow these steps.
 
    .. code-block:: bash
 
-     bash install_stack.sh devstack $OPENEDX_RELEASE
+     bash install_stack.sh devstack
 
    .. note:: This step downloads the box file if you did not already
       :ref:`use Torrent<Torrent the Box File>` to download and add it.
