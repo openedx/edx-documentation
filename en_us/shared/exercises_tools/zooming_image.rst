@@ -6,11 +6,10 @@ Zooming Image Tool
 
 .. note:: EdX does not support this tool.
 
-You can present information to your learners with an image. If your image
-is very large or very detailed, learners might not be able to see all the
+You can present information to your learners with an image. If your image is
+very large or very detailed, learners might not be able to see all the
 information in the image. You can use the zooming image tool to enlarge areas
-of your image as the learner moves the mouse over the image, as in the example
-below.
+of your image as the learner moves their cursor over the image.
 
 .. image:: ../../../shared/images/Zooming_Image.png
   :alt: Example zooming image tool showing a chemistry exercise.
@@ -23,24 +22,35 @@ To create a zooming image tool, you need the following files.
 
 * The image that you want learners to see when they access the unit.
 
-* The image that appears in the magnified area when a learner clicks the
+* The image that appears in the magnified area when a learner selects the
   regular image. This image can be larger than the regular image.
 
-* The **jquery.loupeAndLightbox.js** JavaScript file. Every zooming image tool
-  uses this JavaScript file, and you do not need to make any changes to it. To
-  download this file, right-click
-  http://files.edx.org/jquery.loupeAndLightbox.js, and then select **Save Link
-  As** to save the file on your computer.
+* The ``image-zoom-tool.js`` JavaScript file from ``http://files.edx.org
+  /image-zoom-tool.js``.
+
+.. note:: Earlier versions of the zooming image tool used a different
+   JavaScript file (``jquery.loupeAndLightbox.js``). Exercises that use this
+   JavaScript file continue to work, but additional features such as keyboard
+   navigation, are not available. EdX recommends that you download and use
+   ``image-zoom-tool.js`` file with your zooming image tool, so that the
+   zooming feature is available to learners who use keyboard controls instead
+   of a mouse.
+
 
 ****************************
 Create a Zooming Image Tool
 ****************************
 
-#. Upload your regular-sized image file, your small image file, and the
-   ``jquery.loupeAndLightbox.js`` file to the **Files & Uploads** page. For
-   more information about how to do this, see :ref:`Add Files to a Course`.
+#. Download the ``image-zoom-tool.js`` file by opening ``http://files.edx.org
+   /image-zoom-tool.js``. Select **Save Link As**.
 
-#. Under **Add New Component**, select **HTML**, and then select **Zooming
+#. In Studio, upload your regular-sized image file, your small image file, and
+   the ``image-zoom-tool.js`` file to the **Files & Uploads** page by
+   selecting **Content** then selecting **Files & Uploads**.. For more
+   information about how to do this, see :ref:`Add Files to a Course`.
+
+#. Add a zooming image tool to your course. In the course outline in Studio,
+   select **Add New Component**, select **HTML**, and then select **Zooming
    Image Tool**.
 
 #. In the new component that appears, select **Edit**.
@@ -69,13 +79,13 @@ Create a Zooming Image Tool
      For example, your file name and path might be ``/static/Image2.jpg``.
 
    - Replace the following name and file path with the name and path of the
-     JavaScript file for your course.
+     JavaScript file that you downloaded from ``files.edx.org``.
 
-     ``https://studio.edx.org/c4x/edX/DemoX/asset/jquery.loupeAndLightbox.js``
+     ``https://studio.edx.org/c4x/edX/DemoX/asset/image-zoom-tool.js``
 
-     Because you uploaded the ``jquery.loupeAndLightbox.js`` file to the
+     Because you uploaded the ``image-zoom-tool.js`` file to the
      **Files & Uploads** page, your file name and path is
-     ``/static/jquery.loupeAndLightbox.js``.
+     ``/static/image-zoom-tool.js``.
 
    - (Optional) If you want the magnified area to be larger or smaller, change
      the ``width`` and ``height`` values from 350 to larger or smaller numbers.
