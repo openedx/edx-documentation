@@ -10,6 +10,11 @@ This page lists the highlights of the Dogwood release.
  :depth: 1
  :local:
 
+.. note::
+ With the :ref:`Open edX Eucalyptus Release`, the Dogwood release is no longer
+ supported. This page remains in these release notes as a record of when new
+ features were included in Open edX.
+
 **************
 New Features
 **************

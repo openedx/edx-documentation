@@ -11,7 +11,9 @@ This document applies to the most recent version of the Open edX Platform; that
 is, it applies to the *master* branch of the edX Platform.
 
 This document also contains instructions for installing Open edX releases. The
-most recent release of Open edX is :ref:`Dogwood <Open edX Dogwood Release>`.
+most recent release of Open edX is :ref:`Eucalyptus <Open edX Eucalyptus
+Release>`.
+
 
 .. toctree::
    :numbered:
