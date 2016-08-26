@@ -10,18 +10,40 @@ This section describes how to install the Open edX full stack (fullstack).
    :local:
    :depth: 1
 
-.. note::
-  Before you install Open edX fullstack, make sure that you have met the
-  :ref:`installation prerequisites<Installation Prerequisites>`.
+****************************************
+Installation Prerequisites for Fullstack
+****************************************
 
-.. note::
-  Before beginning the installation, ensure that you have your local computer's
-  administrator's password. The password is needed so that NFS can be set up to
-  allow users to access code directories directly from your computer.
+Before you install Open edX fullstack, make sure that you have met the
+:ref:`installation prerequisites<Installation Prerequisites>`.
 
-To install fullstack directly from the command line, follow these steps.
 
-#. Ensure the ``nfsd`` client is running.
+===========================
+Selecting a Download Option
+===========================
+
+The Open edX virtual machine box file has a file size of approximately four
+gigabytes. To download the box file, you can use one of these methods.
+
+* Install fullstack with a direct Vagrant box download. The first time you start
+  the fullstack virtual machine, the Vagrant virtual machine management tool
+  downloads the box file.
+
+* Use a BitTorrent client to download the Vagrant box file before you
+  install fullstack. The first time you start the fullstack virtual machine, the
+  Vagrant virtual machine management tool uses the previously downloaded box
+  file.
+
+If your internet connection is limited or intermittent, edX recommends that you
+torrent the box file by following the instructions in :ref:`Torrent the Box File`.
+However, this step is optional.
+
+
+******************
+Install Fullstack
+******************
+
+To install fullstack follow these steps.
 
 #. Create the ``fullstack`` directory and navigate to it in the command prompt.
 
@@ -30,29 +52,39 @@ To install fullstack directly from the command line, follow these steps.
      mkdir fullstack
      cd fullstack
 
-#. Download the fullstack Vagrant file.
+#.  Set the ``OPENEDX_RELEASE`` environment variable to the Git tag name of the
+    release of the Open edX platform that you are installing. For
+    information about the latest Open edX releases and the Git tag names for
+    them, see the `Open edX Releases Wiki page`_.
+
+    For example, ``open-release/eucalyptus.1`` is the Git tag name for the
+    first Eucalyptus release. The following command sets the value of the
+    ``OPENEDX_RELEASE`` environment variable to ``open-release/eucalyptus.1``.
+
+    .. code-block:: bash
+
+      export OPENEDX_RELEASE="open-release/eucalyptus.1"
+
+#. Download the install script.
 
    .. code-block:: bash
 
-     curl -L https://raw.githubusercontent.com/edx/configuration/master/vagrant/release/fullstack/Vagrantfile > Vagrantfile
+     curl -OL https://raw.github.com/edx/configuration/$OPENEDX_RELEASE/util/install/install_stack.sh
 
-#. Install the Vagrant ``hostsupdater`` plugin.
-
-   .. code-block:: bash
-
-     vagrant plugin install vagrant-hostsupdater
-
-#. Create the fullstack virtual machine.
+#. Run the install script to create and start the fullstack virtual machine.
 
    .. code-block:: bash
 
-     vagrant up
+     bash install_stack.sh fullstack $OPENEDX_RELEASE
 
-   The first time you create the fullstack virtual machine, Vagrant downloads
-   the base box, which has a file size of about 4GB. If you destroy and
-   recreate the virtual machine, Vagrant re-uses the box it downloaded. See
-   `Vagrant's documentation on boxes`_ for more information.
+   .. note:: This step downloads the box file if you did not already
+      :ref:`use Torrent<Torrent the Box File>` to download and add it.
 
-#. When prompted, enter the administrator password for your local computer.
+   If you destroy and recreate the virtual machine, Vagrant reuses the box
+   file and does not download it again. See `Vagrant's documentation on
+   boxes`_ for more information.
+
+When you have completed these steps, see :ref:`Starting Open edX Fullstack`
+to begin using fullstack.
 
 .. include:: ../../../../links/links.rst

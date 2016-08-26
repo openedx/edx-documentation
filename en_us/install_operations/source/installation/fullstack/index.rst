@@ -1,7 +1,7 @@
 .. _Installing and Starting Fullstack:
 
 #################################
-Installing and Starting FullStack
+Installing and Starting Fullstack
 #################################
 
 The following sections provide information about how to install and start

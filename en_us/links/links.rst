@@ -78,6 +78,8 @@
 
 .. _GitHub: http://github.com
 
+.. _Contribute to edX Documentation: https://github.com/edx/edx-documentation#contribute-to-edx-documentation
+
 .. _edx-documentation/shared: https://github.com/edx/edx-documentation/blob/master/shared/conf.py
 
 .. _edx-analytics-configuration: https://github.com/edx/edx-analytics-configuration
@@ -142,7 +144,9 @@
 
 .. _edx configuration repository wiki: https://github.com/edx/configuration/wiki
 
-.. _The migrate.sh script: https://github.com/edx/configuration/blob/master/util/vagrant/migrate.sh
+.. _The migrate.sh script: https://github.com/edx/configuration/blob/named-release/dogwood.rc/util/vagrant/migrate.sh
+
+.. _The upgrade.sh script: https://github.com/edx/configuration/blob/master/util/vagrant/upgrade.sh
 
 .. _Devstack wiki: https://github.com/edx/configuration/wiki/edX-Developer-Stack
 
@@ -264,6 +268,8 @@
 .. _Referer: http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.36
 
 .. _mongodb: http://docs.mongodb.org/manual/
+
+.. _MongoDB® database: http://www.mongodb.com
 
 .. _AWS Command Line Interface: http://aws.amazon.com/cli/
 
@@ -444,6 +450,12 @@
 .. _Verified Certificates: https://www.edx.org/verified-certificate
 
 .. _XSeries Programs: https://www.edx.org/xseries
+
+.. _financial assistance application: https://courses.edx.org/financial-assistance
+
+.. _LinkedIn: https://www.linkedin.com/
+
+.. _Adding a Suffix or Certifications to Your Profile Name: https://www.linkedin.com/help/linkedin/answer/6545/adding-a-suffix-or-certifications-to-your-profile-name?lang=en
 
 .. Browsers
 
