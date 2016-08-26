@@ -70,10 +70,6 @@ Eucalyptus release.  EdX provides the ``upgrade.sh`` script if you have a simple
 Dogwood installation and want to upgrade it automatically. If you have a more
 complex or customized installation, you may need to upgrade manually.
 
-===================
-Automatic Upgrading
-===================
-
 `The upgrade.sh script`_ is in the edX configuration repository on GitHub.
 
 .. note::
@@ -115,16 +111,6 @@ cleans up extra files and directories when it finishes running.
 After upgrading Open edX to the Eucalyptus release, start the LMS and Studio and
 verify that course content and data was migrated correctly.
 
-========================
-Upgrade Process Overview
-========================
-
-This is an overview of what happens during an upgrade from Dogwood to Eucalyptus.
-The ``upgrade.sh`` script implements this process.  You may need to understand
-this process if your installation is customized in some way, or if you need to
-diagnose problems during the upgrade.
-
-TBD
 
 ********************************************
 Upgrading to a Subsequent Eucalyptus Release
