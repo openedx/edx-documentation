@@ -10,6 +10,13 @@ The following information describes what is new in edX analytics.
   :local:
   :depth: 2
 
+
+**************************
+Week of 29 August 2016
+**************************
+
+.. include:: 2016/analytics/analytics_2016-08-29.rst
+
 **************************
 Week of 15 August 2016
 **************************
