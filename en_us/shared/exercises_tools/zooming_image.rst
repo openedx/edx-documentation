@@ -41,8 +41,10 @@ To create a zooming image tool, you need the following files.
 Create a Zooming Image Tool
 ****************************
 
-#. Download the ``image-zoom-tool.js`` file by opening ``http://files.edx.org
-   /image-zoom-tool.js``. Select **Save Link As**.
+#. Download the ``image-zoom-tool.js`` file by right-clicking the following
+   link, then selecting **Save Link As**.
+
+   ``http://files.edx.org/image-zoom-tool.js``
 
 #. In Studio, upload your regular-sized image file, your small image file, and
    the ``image-zoom-tool.js`` file to the **Files & Uploads** page by
