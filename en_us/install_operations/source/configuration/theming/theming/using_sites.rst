@@ -10,4 +10,4 @@ configure sites independently of each other. For example, you can assign
 different themes to your Open edX sites.
 
 By default, an Open edX installation has one site. The default site is what
-users interact with when they visit your site. You do not need to
+users interact with when they visit your site. You do not need to add multiple sites to your Open edX installation. You can apply themes to the default site.
