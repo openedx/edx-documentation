@@ -21,6 +21,8 @@ for, a specific educational research project to receive RDX data.
    rdx_data
    rdx_retrieval
 
-.. For information about joining the RDX program or proposing an educational
- research project, see {portal URL TBD}.
+For information about joining the RDX program or proposing an educational
+research project, see the `Research Data Exchange section`_ of the
+partners.edx.org website.
 
+.. _Research Data Exchange section: https://partners.edx.org/research/research-data-exchange
