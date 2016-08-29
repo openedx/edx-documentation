@@ -10,7 +10,7 @@ be sure that the theme is present on the Vagrant virtual machine. If you
 are installing Open edX onto a server using the configuration scripts,
 you must update the configuration scripts to install your theme onto the server,
 as well. It is up to you where to install the theme on the server, but
-a good default location is ``/edx/app/themes/my-theme``.
+a good default location is ``/edx/app/edxapp/themes/my-theme``.
 
 There are three core variables that must be updated to enable a
 comprehensive theme:
@@ -21,18 +21,18 @@ comprehensive theme:
 - ``DEFAULT_SITE_THEME`` - specifies the name of the default theme.
 
 Once the theme is installed on the server, you can activate it by setting
-the ``COMPREHENSIVE_THEME_DIRS`` Ansible variable to contain the full paths of
+the ``EDXAPP_COMPREHENSIVE_THEME_DIRS`` Ansible variable to contain the full paths of
 your base theme directories. You can do that by adding the following value to your
 ``/edx/app/edx_ansible/server-vars.yml`` file:
 
 .. code-block:: yaml
 
-    ENABLE_COMPREHENSIVE_THEMING: True
-    COMPREHENSIVE_THEME_DIRS:
+    EDXAPP_ENABLE_COMPREHENSIVE_THEMING: True
+    EDXAPP_COMPREHENSIVE_THEME_DIRS:
       - /edx/app/themes
-    DEFAULT_SITE_THEME: my-theme
+    EDXAPP_DEFAULT_SITE_THEME: my-theme
 
-Where ``/edx/app/themes`` is the path to the base directory where you have
+Where ``/edx/app/edxapp/themes`` is the path to the base directory where you have
 installed the theme on your server, and ``my-theme`` is the name of the
 directory containing your theme.
 
