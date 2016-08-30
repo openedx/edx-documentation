@@ -4,7 +4,7 @@
 Problem with Adaptive Hint
 ################################
 
-.. note:: EdX offers provisional support for this problem type.
+.. note:: EdX does not support this problem type.
 
 A problem with an adaptive hint evaluates a student's response, then gives the
 student feedback or a hint based on that response so that the student is more

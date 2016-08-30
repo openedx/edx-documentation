@@ -6,7 +6,7 @@
 Office Mix Tool
 ##########################
 
-.. note:: EdX offers full support for this tool.
+.. note:: EdX offers provisional support for this tool.
 
 `Office Mix`_ is a third-party tool that you can use to turn Microsoft®
 PowerPoint® presentations into interactive online lessons that are called

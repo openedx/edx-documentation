@@ -4,7 +4,7 @@
 Image Mapped Input Problem
 ###########################
 
-.. note:: EdX offers provisional support for this problem type.
+.. note:: EdX does not support this problem type.
 
 In an image mapped input problem, also known as a "pointing on a picture"
 problem, students click inside a defined region in an image. You define this

@@ -4,7 +4,7 @@
 Chemical Equation Problem
 ################################
 
-.. note:: EdX offers full support for this problem type.
+.. note:: EdX does not support this problem type.
 
 The chemical equation problem type allows the learner to enter text that
 represents a chemical equation into a text box. The system converts that text

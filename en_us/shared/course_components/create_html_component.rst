@@ -34,8 +34,6 @@ code details, or in a "raw" editor that requires you to mark up your content.
  Review :ref:`Developing Your Course Index` and :ref:`Best Practices for HTML
  Markup` before you start working with HTML components.
 
-To add an instant hangout to an HTML component, see :ref:`Google Instant
-Hangout`.
 
 .. _Options for Editing HTML Components:
 

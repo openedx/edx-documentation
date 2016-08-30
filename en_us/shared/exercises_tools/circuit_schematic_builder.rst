@@ -4,7 +4,7 @@
 Circuit Schematic Builder Problem
 ##################################
 
-.. note:: EdX offers provisional support for this problem type.
+.. note:: EdX does not support this problem type.
 
 In circuit schematic builder problems, students can arrange circuit elements
 such as voltage sources, capacitors, resistors, and MOSFETs on an interactive

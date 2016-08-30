@@ -6,7 +6,7 @@
 Oppia Exploration Tool
 ##########################
 
-.. note:: EdX offers full support for this tool.
+.. note:: EdX offers provisional support for this tool.
 
 `Oppia`_ is a third-party tool that you can use to create short interactive
 tutorials, called explorations. This topic describes how to embed Oppia

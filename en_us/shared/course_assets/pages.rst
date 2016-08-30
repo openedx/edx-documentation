@@ -48,12 +48,9 @@ the additional **Introduction to Music Theory**, **Course Schedule**, and
  :alt: Image of the navigation bar in the LMS.
 
 You can create other pages for the grading policy, course slides, or any other
-purpose. More examples of pages you can add follow.
+purpose. For example, you can add a dynamic HTML calendar, using the template
+in :ref:`Code for Dynamic HTML Schedule`.
 
-* A dynamic HTML calendar, using the template in :ref:`Code for Dynamic HTML
-  Schedule`.
-
-* An instant hangout. See :ref:`Google Instant Hangout` for more information.
 
 ==============
 Add a Page

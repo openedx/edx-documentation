@@ -4,7 +4,7 @@
 Completion Tool
 ##################
 
-.. note:: EdX offers full support for this tool.
+.. note:: EdX does not support this tool.
 
 The completion tool provides learners with a way to mark sections of the
 course as completed. It helps learners to track their progress through

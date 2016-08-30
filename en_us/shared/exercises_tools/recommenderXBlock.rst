@@ -4,7 +4,7 @@
 Recommender Tool
 ##################
 
-.. note:: EdX offers full support for this tool.
+.. note:: EdX does not support this tool.
 
 The recommender provides learners with a list of online resources related to
 the course content. These resources are jointly managed by course team members

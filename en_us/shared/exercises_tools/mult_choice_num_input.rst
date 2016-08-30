@@ -4,7 +4,7 @@
 Multiple Choice and Numerical Input Problem
 ############################################
 
-.. note:: EdX offers provisional support for this problem type.
+.. note:: EdX does not support this problem type.
 
 You can create a problem that combines a multiple choice and numerical input
 problems. Students not only select a response from options that you provide,
