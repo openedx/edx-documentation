@@ -255,7 +255,7 @@ The ``audit_notpassing`` and ``audit_passing`` statuses have been added to the
 * ``audit_notpassing`` applies to learners who did not earn a passing grade and
   who have a value of "audit" in ``student_courseenrollment.mode``.
 
-* ``audit_notpassing`` applies to learners who did not earn a passing grade and
+* ``audit_passing`` applies to learners who earned a passing grade and
   who have a value of "audit" in ``student_courseenrollment.mode``.
 
 No certificate is generated for learners who have either of these statuses.
