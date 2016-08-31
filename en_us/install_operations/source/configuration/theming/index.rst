@@ -1,13 +1,10 @@
 .. _Changing the Way Open edX Looks:
 
 ######################################################
-Changing the Way Open edX Looks
+Changing the Appearance of Open edX Sites
 ######################################################
 
-Almost everyone who runs Open edX wants to change the way it looks and feels,
-to uniquely identify their website and courses. This section describes how
-to create and use themes to change how Open edX looks, without changing
-how it works.
+This section describes how to change the way Open edX sites look and feel. You can customize Open edX sites to uniquely identify them and to reflect your organization.
 
 .. toctree::
    :maxdepth: 2

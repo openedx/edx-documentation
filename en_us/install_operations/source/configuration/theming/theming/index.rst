@@ -9,7 +9,11 @@ templates, CSS styling, and assets such as images that are provided in the Open
 edX code by default. This section describes how to create and use themes to
 change how an Open edX site looks, without changing how it works.
 
-When an Open edX site overrides user interface files, it uses files that you create instead of the default files included with the Open edX source code. The files that you create must match the relative file path and file name of the default user interface files. The relative file path is from the root of the Open edX installation directory.
+When an Open edX site overrides user interface files, it uses files that you
+create instead of the default files included with the Open edX source code. The
+files that you create must match the relative file paths and file names of the
+default user interface files that they override. Relative file paths are from
+the root of the Open edX installation directory.
 
 For example, an Open edX site includes an image file named ``logo.png`` that it
 displays in the header of most LMS pages. The file path of that image is
@@ -21,7 +25,13 @@ Installed on an Open edX site server, the absolute file path of the logo image m
 
     /edx/app/edxapp/edx-platform/lms/static/images/logo.png
 
-To use theming, you place your customized user interface files in a separate theme directory. The Open edX site looks for overridden user interface files in that directory. It uses files if they match the exact file path and file name of the default user interface files. The following example shows an absolute file path of the logo image in a theme directory. The file path after ``/my-themes/my-special-theme/`` matches the file path of that image, relative to the root of the Open edX installation directory.
+To use theming, you place your customized user interface files in a separate
+theme directory. The Open edX site looks for overridden user interface files in
+that directory. It uses files if they match the exact file path and file name
+of the default user interface files. The following example shows an absolute
+file path of the logo image in a theme directory. The file path after ``/my-
+themes/my-special-theme/`` matches the file path of that image, relative to the
+root of the Open edX installation directory.
 
 .. code-block:: none
 
@@ -32,7 +42,7 @@ The following sections provide more information about using theming in your Open
 .. toctree::
    :maxdepth: 2
 
-   using_sites
+   theming_sites
 
 ..   what_is_theming
 ..   create_theme

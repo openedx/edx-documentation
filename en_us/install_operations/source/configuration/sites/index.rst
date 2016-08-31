@@ -1,7 +1,7 @@
-.. _Configuring Sites:
+.. _Configuring Open edX Sites:
 
 ######################################################
-Configuring Sites
+Configuring Open edX Sites
 ######################################################
 
 You can configure multiple sites within your Open edX installation. A site
@@ -15,8 +15,7 @@ sites to your Open edX installation. You can apply themes to the default site.
 
 Sites are hosted on separate domains or subdomains from your Open edX
 installation. You configure the domain name for a site in the Django admin site
-when you create it. Your Open edX installation uses a site when a user visits
-the domain that you configure for it. For example, you might configure one site
+when you create it. For example, you might configure one site
 with the domain name ``universityofhere.edu`` and another site with the domain
 name ``universityofthere.edu``. Or you might configure one site with the domain
 name ``arts.myuniversity.edu`` and another site with the domain name
@@ -34,7 +33,8 @@ To create an Open edX site, do the following.
 
 #. Select **Sites** to open the ``http://{hostname}/admin/sites/site`` page.
 
-#. Enter the domain name for the site.
+#. Enter the domain name for the site. This is the domain name in the URL for
+   the site. For example ``myuniversity.edu``.
 
 .. _Configuring Sites Independently:
 
@@ -65,7 +65,7 @@ To set configuration properties for an individual site, do the following.
 
 #. Enter configuration properties in the **Values** field. Structure all
    properties in valid JavaScript Object Notation (JSON) format. This section
-   includes an example
+   includes an example of site configuration properties in JSON format.
 
 #. If you want the configuration properties to affect the site immediately,
    select **Enabled**. The configuration properties will not affect the site
@@ -78,18 +78,13 @@ The following example shows a set of configuration properties for a site.
 .. code-block:: json
 
     {
-      "course_email_from_addr":"my-site@example.com",
-      "domain_prefix":"my-site",
-      "university":"Education Programs",
-      "PLATFORM_NAME":"Education Programs",
-      "platform_name":"Education Programs",
-      "show_only_org_on_student_dashboard":true,
-      "email_from_address":"my-site@example.com",
-      "payment_support_email":"payments@example.com",
-      "SITE_NAME":"my-site.org",
-      "site_domain":"my-site.org",
-      "SESSION_COOKIE_DOMAIN":"my-site.org",
-      "ALWAYS_REDIRECT_HOMEPAGE_TO_DASHBOARD_FOR_AUTHENTICATED_USER":false,
-      "ENABLE_COURSE_SORTING_BY_START_DATE":true,
+      "course_email_from_addr":"courses@onlineu.edu",
+      "university":"Online University",
+      "PLATFORM_NAME":"Online University",
+      "email_from_address":"courses@onlineu.edu",
+      "payment_support_email":"payments@onlineu.edu",
+      "SITE_NAME":"onlineu.edu",
+      "site_domain":"onlineu.edu",
+      "SESSION_COOKIE_DOMAIN":"onlineu.edu",
     }
 
