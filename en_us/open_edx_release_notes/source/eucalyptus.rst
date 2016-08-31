@@ -121,14 +121,22 @@ retrieval, the Open edX platform now uses the Django file storage API. In
 addition to S3, you can now configure an OpenStack Swift Object Store as the
 cloud storage provider for certain system features.
 
+Documentation updates for this feature are currently in progress.
+
 .. For more information, see TBD.
 
-.. ==================
-.. Updates to Theming
-.. ==================
+==========================
+Themes for Multiple Sites
+==========================
 
-.. TBD
+With this release, it is now possible to configure themes for multiple sites
+in a single installation of the Open edX platform.
 
+Documentation updates for this feature are currently in progress. For real time
+conversations about theming, join our community `Slack`_ team on the #theming
+channel.
+
+.. _Slack: https://openedx-slack-invite.herokuapp.com/
 
 .. pattern library and UI toolkit
 
