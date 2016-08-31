@@ -27,3 +27,4 @@ name ``arts.myuniversity.edu`` and another site with the domain name
    configure_site
 
 .. For more information about themes, see... TBD
+
