@@ -47,7 +47,7 @@
 
 .. _Open edX Learner's Guide\: Eucalyptus Release: http://edx.readthedocs.io/projects/open-edx-learner-guide/en/open-release-eucalyptus.master
 
-.. _Open edX Platform APIs\: Eucalyptus Release: http://edx.readthedocs.io/projects/edx-platform-api/en/open-release-eucalyptus.master
+.. _Open edX Platform APIs\: Eucalyptus Release: http://edx.readthedocs.io/projects/edx-platform-api/en/eucalyptus.1/
 
 .. Dogwood doc links:
 
