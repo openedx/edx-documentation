@@ -15,7 +15,7 @@ following system features and requirements.
 * Identity verification for a proctoring vendor.
 
   .. note:: Open edX sites can enable the proctoring feature as designed for
-   use on the edx.org website, but it is not supported.
+   use on the edx.org website, but its use is not supported.
 
 By default, the Open edX platform is configured to use Amazon S3 (Simple
 Storage Service) for data storage. You can change the configuration of your

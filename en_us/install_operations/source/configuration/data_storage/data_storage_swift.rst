@@ -82,13 +82,19 @@ Define Required Swift Settings
    You can continue on to define Swift settings for other features, or complete
    the following steps to update your instance.
 
-#. Run the ``/edx/bin/update`` command.
+#. Run the following roles.
 
    ::
 
-      sudo /edx/bin/update edx-platform <your-branch-name>
+     cd /edx/app/edx_ansible/edx_ansible/playbooks
 
-.. #. Run the openstack role (? question to Feanil about the best way to do this)
+     sudo /edx/app/edx_ansible/venvs/edx_ansible/bin/ansible-playbook -i localhost, -c local -e@/edx/app/edx_ansible/server-vars.yml run-role.yml -e 'role=edxapp' -e 'edx_platform_version=<your branch name>'
+
+     sudo /edx/app/edx_ansible/venvs/edx_ansible/bin/ansible-playbook -i localhost, -c local -e@/edx/app/edx_ansible/server-vars.yml run-role.yml -e 'celery_worker=True' -e 'role=edxapp' -e 'edx_platform_version=<your branch name>'
+
+     sudo /edx/app/edx_ansible/venvs/edx_ansible/bin/ansible-playbook -i localhost, -c local -e@/edx/app/edx_ansible/server-vars.yml run-role.yml -e 'role=edxapp' -e 'edxapp_code_dir=<path to edx-platform directory>'
+
+.. theoretically, the openstack role also gets run, but I sure don't see where
 
 #. Restart the LMS server.
 
@@ -124,8 +130,14 @@ steps.
            name_prefix: "photos/"
 
 #. Continue on to define Swift settings for other features, or complete steps
-   7-10 for :ref:`defining required Swift settings<Define Required Swift
+   7-9 for :ref:`defining required Swift settings<Define Required Swift
    Settings>` to update your instance.
+
+   Note that you only need to run the ``openstack`` role one time. If you are
+   completing these identity verification configuration steps as a separate
+   procedure, you need only run the ``edxapp`` role in step 7.
+
+.. this note assumes that an openstack role actually got run somehow
 
 ==========================================
 Define Swift Settings for Temporary URLs
@@ -152,8 +164,14 @@ To use temporary URLs for Swift, follow these steps.
      SWIFT_TEMP_URL_DURATION:
 
 #. Continue on to define Swift settings for other features, or complete steps
-   7-10 for :ref:`defining required Swift settings<Define Required Swift
+   7-9 for :ref:`defining required Swift settings<Define Required Swift
    Settings>` to update your instance.
+
+   Note that you only need to run the ``openstack`` role one time. If you are
+   completing these temporary URL configuration steps as a separate
+   procedure, you need only run the ``edxapp`` role in step 7.
+
+.. this note assumes that an openstack role actually got run somehow
 
 ==========================================
 Define Swift Settings for XQueue
@@ -187,16 +205,22 @@ steps.
      XQUEUE_UPLOAD_BUCKET: ""
      XQUEUE_UPLOAD_PATH_PREFIX: ""
 
-   You can continue on to define Swift settings for other features, or complete
-   the following steps to update your instance.
-
-#. Run the ``/edx/bin/update`` command.
+#. Run the following roles.
 
    ::
 
-      sudo /edx/bin/update edx-platform <your-branch-name>
+     cd /edx/app/edx_ansible/edx_ansible/playbooks
 
-.. #. Run the xqueue role (? question to Feanil about the best way to do this)
+     sudo /edx/app/edx_ansible/venvs/edx_ansible/bin/ansible-playbook -i localhost, -c local -e@/edx/app/edx_ansible/server-vars.yml run-role.yml -e 'role=xqueue' -e 'edx_platform_version=<your branch name>'
+
+     sudo /edx/app/edx_ansible/venvs/edx_ansible/bin/ansible-playbook -i localhost, -c local -e@/edx/app/edx_ansible/server-vars.yml run-role.yml -e 'celery_worker=True' -e 'role=xqueue' -e 'edx_platform_version=<your branch name>'
+
+     sudo /edx/app/edx_ansible/venvs/edx_ansible/bin/ansible-playbook -i localhost, -c local -e@/edx/app/edx_ansible/server-vars.yml run-role.yml -e 'role=xqueue' -e 'edxapp_code_dir=<path to edx-platform directory>'
+
+.. I just changed edxapp to xqueue in three places -- is that all that's needed?
+
+.. I left out the note assumes that about an openstack role though maybe it also needs to go here
+
 
 #. Restart the LMS server.
 
@@ -231,6 +255,10 @@ To define settings for synchronizing event log files, follow these steps.
      SWIFT_LOG_SYNC_AUTH_URL: ""
      SWIFT_LOG_SYNC_REGION_NAME: ""
 
+   .. important:: If you set ``COMMON_OBJECT_STORE_LOG_SYNC: true``, you must
+     also define valid values for the ``SWIFT_LOG_SYNC_*`` variables.
+     Otherwise, analytics log synchronization will fail.
+
 #. Continue on to define Swift settings for other features, or complete steps
-   7-10 for :ref:`defining required Swift settings<Define Required Swift
+   7-9 for :ref:`defining required Swift settings<Define Required Swift
    Settings>` to update your instance.
