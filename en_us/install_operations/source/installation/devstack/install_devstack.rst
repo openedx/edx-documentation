@@ -110,7 +110,6 @@ To install devstack, follow these steps.
    .. code-block:: bash
 
      mkdir devstack
-     cd devstack
 
 #.  Set the ``OPENEDX_RELEASE`` environment variable to the Git tag name of the
     release of the Open edX platform that you are installing. For
