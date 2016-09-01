@@ -68,7 +68,6 @@ not appear in the LMS.
   For more information about the way learners experience instructor-paced and
   self-paced courses, see :ref:`openlearners:SFD Self Paced`.
 
-
 ***************************
 Set Pacing for Your Course
 ***************************
