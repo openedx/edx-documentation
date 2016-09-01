@@ -77,7 +77,7 @@ Before you can use this feature, you have to enable it in the Django admin panel
 
 #. Log in to your Open edX Django Admin panel. 
 #. Click "Add" next to the "Self paced configurations" item under the "Self_Paced" section.
-#. Check "Enabled" and "Enable course home page improvements" checkboxes.
+#. Check the "Enabled" and "Enable course home page improvements" checkboxes.
 #. Click save.
 
 .. note::
