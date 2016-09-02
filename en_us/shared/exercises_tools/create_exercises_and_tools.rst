@@ -375,10 +375,7 @@ tools that you can add to your course.
      - Word clouds arrange text that learners enter in response to a question
        into a colorful graphic.
      - Provisional support
-   * - :ref:`Zooming Image`
-     - Learners can view sections of an image in detail. You specify the
-       sections in an image that can be enlarged.
-     - Full support
+
 
 
 .. _Unsupported Additional Exercises and Tools:
@@ -462,6 +459,10 @@ tools available in Studio. For more information, see
        team and learners to work together to maintain the list of resources.
        For example, team members and learners can suggest new resources, vote
        for useful ones, or flag abuse and spam.
+     - Not supported
+   * - :ref:`Zooming Image`
+     - Learners can view sections of an image in detail. You specify the
+       sections in an image that can be enlarged.
      - Not supported
 
 
