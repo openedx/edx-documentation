@@ -4,7 +4,7 @@
 Zooming Image Tool
 ##################
 
-.. note:: EdX offers full support for this tool.
+.. note:: EdX does not support this tool.
 
 You can present information to your learners with an image. If your image
 is very large or very detailed, learners might not be able to see all the
