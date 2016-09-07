@@ -1,62 +1,74 @@
 .. _MathJax in Studio:
 
-############################################
-A Brief Introduction to MathJax in Studio
-############################################
+##############################
+Using MathJax for Mathematics
+##############################
 
-To write clear and professional-looking symbols and equations, edX uses a
-LaTeX-like language called
-`MathJax <http://www.google.com/url?q=http%3A%2F%2Fwww.mathjax.org%2F&sa=D&sntz=1&usg=AFQjCNGef2H-mZCdmCo7-kWHfu9fUGVCfg>`_.
-Your MathJax equations can appear with other text in the paragraph (inline
-equations) or on their own lines (display equations).
+To produce clear and professional-looking symbols and equations in web browser,
+edX uses `MathJax <https://www.mathjax.org/>`_. MathJax automatically formats
+the mathematical symbols and equations that you enter in HTML and problem
+components using LaTeX notation into beautiful math.
 
-- For inline equations, you can do either of the following.
+This topic provides some pointers to get you started. Many resources for
+learning and using MathJax are available online, including the official
+`MathJax Documentation`_ . A tutorial is available on the `Mathematics meta`_
+stack exchange. Additional documentation, with a testing tool, is available on
+the `Tree of Math`_ site.
 
-  - Surround your Mathjax expression with backslashes and **parentheses**.
+A MathJax equation can appear with other text in the paragraph (inline format)
+or on its own dedicated line (display format).
+
+For inline equations, you can do either of the following.
+
+* Surround your MathJax expression with backslash and parentheses characters.
 
     ``\( equation \)``
 
-  - Surround your Mathjax expression with [mathjaxinline] tags. Note that these
-    tags use square brackets ([]).
+* Surround your MathJax expression with ``[mathjaxinline]`` tags. Note that
+  these tags use brackets (``[ ]``).
 
-    [mathjaxinline] equation [/mathjaxinline]
+    ``[mathjaxinline] equation [/mathjaxinline]``
 
-- For display equations, you can do either of the following.
+For display equations, you can do either of the following.
 
-  - Surround your Mathjax expression with backslashes and **brackets**.
+* Surround your MathJax expression with backslash and bracket characters.
 
     ``\[ equation \]``
 
-  - Surround your Mathjax expression with [mathjax] tags. Note that these tags
-    use square brackets ([]).
+* Surround your MathJax expression with ``[mathjax]`` tags. Note that these
+  tags use brackets(``[ ]``)
 
-    [mathjax] equation [/mathjax]
+    ``[mathjax] equation [/mathjax]``
 
-You can use MathJax in HTML (text) components and in problem components.
+*************************************
+Adding MathJax to HTML Components
+*************************************
 
-.. note:: Complete MathJax documentation (together with a testing tool) can be
-          found at `http://www.onemathematicalcat.org/MathJaxDocumentation/TeXSyntax.htm <http://www.google.com/url?q=http%3A%2F%2Fwww.onemathematicalcat.org%2FMathJaxDocumentation%2FTeXSyntax.htm&sa=D&sntz=1&usg=AFQjCNEV8PtCX6Csp0lW7lDKOLIKCOCkHg>`_.
-
-****************************
-HTML (Text) Components
-****************************
-
-In the HTML component editor, you can use MathJax both in Visual view and in HTML view.
+In the HTML component editor, you can use MathJax in both visual view and
+HTML view.
 
 .. image:: ../../../shared/images/MathJax_HTML.png
- :alt: Image of an HTML component with MathJax in both the Visual and HTML views.
+ :alt: A composite image of four views of the same text and MathJax markup. The
+   HTML component editor visual view and HTML view are shown at the top, with
+   the rendered text and equation on the Studio unit page and in the LMS below.
 
-*********************
-Problem Components
-*********************
+*****************************************
+Adding MathJax to Problem Components
+*****************************************
 
-In the problem component editor, you can use MathJax both in the Simple Editor
-and in the Advanced Editor.
+In the problem component editor, you can use MathJax in either the simple
+editor or advanced editor.
 
-In the example problem below, note that the Einstein equation in the
-explanation is enclosed in backslashes and parentheses, so it appears inline
-with the text. The Navier-Stokes equation is enclosed in backslashes and
-brackets, so it appears on its own line.
+In the example that follows, note that the Einstein equation in the explanation
+is enclosed in backslashes and parentheses, so it appears inline with the text.
+The Navier-Stokes equation is enclosed in backslashes and brackets, so it
+appears on its own line (display).
 
 .. image:: ../../../shared/images/MathJax_Problem.png
- :alt: Image of a problem component with MathJax in both the Visual and HTML views.
+ :alt: A composite image of four views of the same multiple choice problem. The
+     simple editor Markdown and advanced editor OLX are shown at the top, with
+     the rendered problem on the Studio unit page and in the LMS below.
+
+.. _MathJax Documentation: http://docs.mathjax.org/en/latest/index.html
+.. _Mathematics meta: http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference
+.. _Tree of Math: http://www.onemathematicalcat.org/MathJaxDocumentation/TeXSyntax.htm

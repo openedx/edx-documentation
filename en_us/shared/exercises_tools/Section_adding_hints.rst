@@ -4,7 +4,7 @@
 Adding Feedback and Hints to a Problem
 ***************************************
 
-You can add feedback, hints, or both to the following problem types.
+You can add feedback, hints, or both to the following core problem types.
 
 * :ref:`Checkbox`
 * :ref:`Dropdown`
@@ -19,7 +19,7 @@ they work on problems.
 Feedback in Response to Attempted Answers
 ==========================================
 
-You can add feedback that is displayed to learners when they submit an answer.
+You can add feedback that displays to learners after they submit an answer.
 
 For example, the following multiple choice problem provides feedback in
 response to the selected option when the learner selects **Check**. In this
