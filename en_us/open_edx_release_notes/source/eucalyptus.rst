@@ -562,9 +562,6 @@ Patch Releases
 * A problem that caused the Django Debug Toolbar to raise a "process() takes
   exactly 3 arguments (2 given)" exception has been fixed.
 
-* Fixed a problem with django-debug-toolbar raising an exception: "process() 
-  takes exactly 3 arguments (2 given)."
-
 * Course discussion performance has been improved. (:jira:`TNL-5173`)
   
 * Learners can now correctly add a comment to a response in inline course
