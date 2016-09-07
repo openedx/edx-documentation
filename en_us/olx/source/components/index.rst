@@ -13,17 +13,4 @@ create and edit course components.
    html-components
    discussion-components
    video-components
-   annotation
-   completion
-   conditional_module
-   full_screen_image
-   google_calendar
-   google_docs
-   iframe
-   lti_component
-   open_response_assessments/index
-   periodic_table
-   poll
-   word_cloud
-   zooming_image
-   recommenderXBlock
+   problem-components

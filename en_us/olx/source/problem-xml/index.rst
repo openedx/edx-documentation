@@ -1,65 +1,55 @@
 .. _Problems:
 
-#################################
-Problems
-#################################
+#####################################
+Exercises, Tools, and Problem Types
+#####################################
 
-The format for edX problems is based on the `LON-CAPA XML format`_, although
-the two are not quite compatible. In the edX variant, problems are composed of
-the following types of tags.
+This section describes the various exercises, tools, and problem types that you
+can add to your course.
 
-* ``inputtypes`` are similar to XBlocks. They define ways for users to enter
-  input into the problem.
-* ``responsetypes`` are graders. They define how inputs are mapped to grades.
-* ``hinters`` are used to provide feedback to problems.
-* Standard HTML tags are used for formatting.
+For information about the level of support that edX has designated for each
+exercise, tool, or problem type, see :ref:`Levels of Support`.
 
-OLX is designed to allow mixing and matching of ``inputtypes``,
-``responsetypes``, and ``hinters``. For example, a numerical grader could match
-7+-0.1%. Ideally, you could use this grader with any ``inputtype`` that returns
-numbers as its output, including a text box, equation input, slider, or
-multiple choice question. In practice, this does not always work. For example,
-in the example described above, a multiple choice question would not give an
-output in a format a numerical grader could handle.
-
-In addition, in many cases, there is a 1:1 mapping between graders and inputs.
-For some types of inputs (especially discipline-specific specialized ones),
-only one grader is needed.
-
-The most general grader is ``customresponse``. This grader uses Python code to
-evaluate the input. By design, this ought to work with any inputtype, although
-there are bugs mixing this with a small number of the newer inputtypes.
-
-Like LON-CAPA, OLX allows embedding of code to generate parameterized problems.
-Unlike LON-CAPA, edX supports Python (and not Perl). Otherwise, the syntax for
-parameterizing problems is approximately identical.
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
-   create_problem
+   levels_of_support
+   annotation
    checkbox
    chemical_equation
    circuit_schematic_builder
+   completion
+   conditional_module
    custom_javascript
    custom_python
    drag_and_drop
    dropdown
+   full_screen_image
    gene_explorer
+   google_calendar
+   google_docs
+   iframe
    image_mapped_input
+   lti_component
    math_expression_input
    mathjax
    molecule_editor
    mult_choice_num_input
    multiple_choice
    numerical_input
+   open_response_assessments/index
+   periodic_table
+   poll
    poll_question
    problem_in_latex
    problem_with_hint
    protein_builder
+   recommenderXBlock
    survey
    symbolic_response
    text_input
-
+   word_cloud
+   zooming_image
 
 .. include:: ../../../links/links.rst
