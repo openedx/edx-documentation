@@ -8,8 +8,8 @@ these steps.
 #. Select **Advanced Editor**. The advanced editor opens the template and
    shows the OLX markup that you can use for this problem type.
 
-#. Replace the guidance provided by the template to add your own text for the
-   question or prompt, answer options, explanation, and so on.
+#. Replace the guidance provided by the template to add your own text. For
+   example, replace the question or prompt, answer options, and explanation.
 
    To format equations, you can use MathJax. For more information, see
    :ref:`MathJax in Studio`.
