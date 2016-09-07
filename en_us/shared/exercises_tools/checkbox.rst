@@ -6,7 +6,7 @@ Checkbox Problem
 
 .. note:: EdX offers full support for this problem type.
 
-The checkbox problem type is a core problem type that can be added to every
+The checkbox problem type is a core problem type that can be added to any
 course. At a minimum, checkbox problems include a question or prompt and
 several answer options. By adding hints, feedback, or both, you can give
 learners guidance and help when they work on a problem.
@@ -14,6 +14,9 @@ learners guidance and help when they work on a problem.
 .. contents::
   :local:
   :depth: 2
+
+For more information about the core problem types, see
+:ref:`Working with Problem Components`.
 
 **********
 Overview
@@ -33,58 +36,73 @@ learners, especially if the problems have a limited number of attempts.
 Example Checkbox Problem
 =============================
 
-In the LMS, learners check answer options or leave answer option unchecked to
+In the LMS, learners both check answer options that they believe are correct
+and leave unchecked the answer options that they believe are incorrect to
 complete a checkbox problem. An example of a completed checkbox problem
 follows.
 
 .. image:: ../../../shared/images/CheckboxExample.png
- :alt: An incorrectly answered checkbox problem shown in the LMS. Of the
-     answer options, one of them was incorrectly checked rather than being left
-     unchecked. An explanation appears below the answer options.
+ :alt: An incorrectly answered checkbox problem shown in the LMS. Of the answer
+     options, only two of the three required answer options was checked. An
+     explanation appears below the answer options.
 
-To add the example problem illustrated above, you enter the following text
-and markdown in the simple editor in Studio.
+To add the example problem illustrated above, in Studio you use the simple
+editor to enter the following text and Markdown formatting.
 
 ::
 
-    Learning about the benefits of preventative healthcare can be particularly
-    difficult. >>Check all of the reasons below why this may be the case.<<
+  >>Learning about the benefits of preventative health care can be particularly difficult.||Check all of the options below that might be reasons why.<<
 
-    [x] A large amount of time passes between undertaking a preventative measure and seeing the result.
-    [ ] Non-immunized people will always fall sick.
-    [x] If others are immunized, fewer people will fall sick regardless of a particular individual's choice to get immunized or not.
-    [x] Trust in healthcare professionals and government officials is fragile.
+  [x] A large amount of time passes between undertaking a preventative measure
+  and seeing the result.
+  [ ] Non-immunized people will always fall sick.
+  [x] If others are immunized, fewer people will fall sick regardless of a
+  particular individual's choice to get immunized or not.
+  [x] Trust in health care professionals and government officials is fragile.
 
-.. please do not line wrap this text.
+  [explanation]
+  People who are not immunized against a disease might still not fall sick
+  from the disease. If someone is trying to learn whether or not preventative
+  measures against the disease have any impact, he or she might see these
+  people and conclude, since they have remained healthy despite not being
+  immunized, that immunizations have no effect. Consequently, he or she would
+  tend to believe that immunization (or other preventative measures) have
+  fewer benefits than they actually do.
+  [explanation]
 
-    [explanation]
-    People who are not immunized against a disease may still not fall sick from the disease. If someone is trying to learn whether or not preventative measures against the disease have any impact, he or she may see these people and conclude, since they have remained healthy despite not being immunized, that immunizations have no effect. Consequently, he or she would tend to believe that immunization (or other preventative measures) have fewer benefits than they actually do.
-    [explanation]
-
-The OLX (open learning XML) markup for an example checkbox problem follows.
-
-.. replace this OLX with the same example depicted above
+The OLX (open learning XML) markup for this example checkbox problem follows.
 
 .. code-block:: xml
 
   <problem>
-  <p>Learning about the benefits of preventative healthcare can be particularly difficult. Check all of the reasons below why this may be the case.</p>
-
-  <choiceresponse>
-    <checkboxgroup label="Check all of the reasons below why this may be the case">
-      <choice correct="true"><text>A large amount of time passes between undertaking a preventative measure and seeing the result.</text></choice>
-      <choice correct="false"><text>Non-immunized people will always fall sick.</text></choice>
-      <choice correct="true"><text>If others are immunized, fewer people will fall sick regardless of a particular individual's choice to get immunized or not.</text></choice>
-      <choice correct="true"><text>Trust in healthcare professionals and government officials is fragile.</text></choice>
-    </checkboxgroup>
-  </choiceresponse>
-
-  <solution>
-    <div class="detailed-solution">
-      <p>Explanation</p>
-      <p>People who are not immunized against a disease may still not fall sick from the disease. If someone is trying to learn whether or not preventative measures against the disease have any impact, he or she may see these people and conclude, since they have remained healthy despite not being immunized, that immunizations have no effect. Consequently, he or she would tend to believe that immunization (or other preventative measures) have fewer benefits than they actually do.</p>
-   </div>
-  </solution>
+    <choiceresponse>
+      <label>Learning about the benefits of preventative health care can be
+      particularly difficult.</label>
+      <description>Check all of the options below that might be reasons why.</description>
+      <checkboxgroup>
+        <choice correct="true">A large amount of time passes between
+         undertaking a preventative measure and seeing the result.</choice>
+        <choice correct="false">Non-immunized people will always fall sick.</choice>
+        <choice correct="true">If others are immunized, fewer people will fall
+         sick regardless of a particular individual's choice to get immunized
+         or not.</choice>
+        <choice correct="true">Trust in health care professionals and
+         government officials is fragile.</choice>
+      </checkboxgroup>
+      <solution>
+        <div class="detailed-solution">
+          <p>Explanation</p>
+          <p>People who are not immunized against a disease might still not
+           fall sick from the disease. If someone is trying to learn whether
+           or not preventative measures against the disease have any impact,
+           he or she might see these people and conclude, since they have
+           remained healthy despite not being immunized, that immunizations
+           have no effect. Consequently, he or she would tend to believe that
+           immunization (or other preventative measures) have fewer benefits
+           than they actually do.</p>
+        </div>
+      </solution>
+    </choiceresponse>
   </problem>
 
 ==========================================
@@ -111,61 +129,29 @@ prompt and the answer options.
   switch to the advanced editor. However, after you save any changes you make
   in the advanced editor, you cannot switch back to the simple editor.
 
-.. _Use the Simple Editor to Create a Checkbox Problem:
-
 ======================================================
 Use the Simple Editor to Add a Checkbox Problem
 ======================================================
 
-To use the :ref:`simple editor<Simple Editor>` to add a checkbox problem,
-follow these steps.
+When you add a checkbox problem, you can choose one of these templates.
 
-#. In the unit where you want to create the problem, under **Add New
-   Component** select **Problem**.
+* **Checkboxes**
 
-#. From the list of **Common Problem Types**, select one of these problem
-   types.
+* **Checkboxes with Hints and Feedback**
 
-  * Checkboxes
+These templates include the Markdown formatting that you use in the simple
+editor to add a problem without, or with, hints and feedback.
 
-  * Checkboxes with Hints and Feedback
-
-   Studio adds a problem of the selected type to the unit.
-
-#. Select **Edit**. The simple editor opens to a template that shows the
-   markdown that you can use for this problem type.
-
-#. Replace the guidance provided by the template to add your own text for the
-   prompt, answer options, explanation, and so on.
-
-#. Select **Settings** to provide an identifying **Display Name** and define
-   settings for the problem. For more information, see :ref:`Problem Settings`.
-
-#. Select **Save**.
+.. include:: ../../../shared/exercises_tools/Section_simple_editor.rst
 
 ==================================================
 Use the Advanced Editor to Add a Checkbox Problem
 ==================================================
 
-To use the :ref:`advanced editor<Advanced Editor>` to add a checkbox
-problem, follow these steps.
+You can use the advanced editor to identify the elements of a checkbox problem
+with OLX. For more information, see :ref:`Checkbox Problem XML`.
 
-#. Follow steps 1-3 for creating the problem in the :ref:`simple editor<Use
-   the Simple Editor to Create a Checkbox Problem>`.
-
-#. Select **Advanced Editor**. The advanced editor opens to a template that
-   shows the OLX markup that you can use for this problem type.
-
-#. Replace the guidance provided by the template to add your own text for the
-   prompt, answer options, explanation, and so on.
-
-#. Update the OLX to use any additional tags and attributes in your problem.
-   For more information, see :ref:`Checkbox Problem XML`.
-
-#. Select **Settings** to provide an identifying **Display Name** and define
-   settings for the problem. For more information, see :ref:`Problem Settings`.
-
-#. Select **Save**.
+.. include:: ../../../shared/exercises_tools/Section_advanced_editor.rst
 
 .. _Use Feedback in a Checkbox Problem:
 
@@ -233,16 +219,16 @@ feedback for the individual selections.
 Configuring Feedback in the Simple Editor
 ==========================================
 
-You can configure individual option and compound feedback in the :ref:`simple
+You can configure individual option or compound feedback in the :ref:`simple
 editor<Simple Editor>`. When you create a new checkbox problem, select the
 template **Checkboxes with Hints and Feedback**. This template has example
-feedback syntax that you can replace.
+formatted feedback that you can replace with your own text.
 
 Configure Feedback for Individual Options
 ******************************************
 
 In the simple editor, you configure individual option feedback with the
-following syntax.
+following Markdown formatting.
 
 ::
 
@@ -251,13 +237,14 @@ following syntax.
 
 .. note:: You can use ``S`` for ``selected`` and ``U`` for unselected.
 
-For example, the following problem has feedback for each option.
+For example, the following problem has feedback for every answer option,
+whether learners select a given option or leave it unselected.
 
 ::
 
-  >>Which of the following is an example of a fruit? Check all that apply.<<
+  >>Which of the following is an example of a fruit?||Check all that apply.<<
 
-  [x] apple  {{ selected: You are correct that an apple is a fruit because it
+  [x] apple {{ selected: You are correct that an apple is a fruit because it
   is the fertilized ovary that comes from an apple tree and contains seeds. },
   { unselected: Remember that an apple is also a fruit.}}
 
@@ -265,17 +252,16 @@ For example, the following problem has feedback for each option.
   is the fertilized ovary of a squash plant and contains seeds.}, { unselected:
   Remember that a pumpkin is also a fruit.}}
 
-  [ ] potato   {{ U: You are correct that a potato is a vegetable because it is
+  [ ] potato {{ U: You are correct that a potato is a vegetable because it is
   an edible part of a plant in tuber form.}, { S: A potato is a vegetable, not
   a fruit, because it does not come from the flower on a plant or tree and does
   not contain seeds.}}
 
-  [x] tomato  {{ S: You are correct that a tomato is a fruit because it is the
+  [x] tomato {{ S: You are correct that a tomato is a fruit because it is the
   fertilized ovary of a tomato plant and contains seeds. }, { U: Many people
   mistakenly think a tomato is a vegetable. However, because a tomato is the
   fertilized ovary of a tomato plant and contains seeds it is classified as a
   fruit.}}
-
 
 Configure Compound Feedback
 ****************************
@@ -301,12 +287,21 @@ options **A, B, and D** or **A, B, C, and D**.
   However, a potato is not a fruit as it is an edible part of a plant in tuber
   form and is classified as a vegetable.  }}
 
+.. note:: If you configure individual option feedback for every answer, and
+  you also provide compound feedback, when learners select the exact
+  combination of answer choices defined, they only see the compound feedback.
+  In this example, learners who select apple (A), pumpkin (B), and tomato (D)
+  see the message "An apple, pumpkin, and tomato are all fruits as they are all
+  the fertilized ovaries of a plant and contain seeds." They do not also see
+  the individual feedback for selecting A, B, and D, and for leaving C
+  unselected.
+
 ============================================
 Configuring Feedback in the Advanced Editor
 ============================================
 
-You can configure individual option and compound feedback in the :ref:`Advanced
-Editor<Advanced Editor>`.
+You can configure individual option and compound feedback in the advanced
+editor.
 
 Configure Individual Option Feedback
 *************************************
@@ -316,88 +311,91 @@ following syntax.
 
 .. code-block:: xml
 
-    <choice correct="true">Choice label
-      <choicehint selected="true">
-        Feedback for when learner selects this answer.
-      </choicehint>
-      <choicehint selected="false">
-        Feedback for when learner does not select this answer.
-      </choicehint>
-    </choice>
+      <choice correct="true">Choice label
+        <choicehint selected="true">Feedback for when learner selects this
+         answer.</choicehint>
+        <choicehint selected="false">Feedback for when learner does not select
+         this answer.</choicehint>
+      </choice>
 
-For example, the following problem has feedback for each option.
+For example, the following problem has feedback for each option, selected or
+unselected.
 
 .. code-block:: xml
 
-  <choiceresponse>
-    <checkboxgroup label="Which of the following is an example
-    of a fruit? Check all that apply.">
-      <choice correct="true">apple
-        <choicehint selected="true">You are correct that an apple is a fruit
-          because it is the fertilized ovary that comes from an apple tree and
-          contains seeds.
-        </choicehint>
-        <choicehint selected="false">Remember that an apple is also a
-          fruit.
-        </choicehint>
-      </choice>
-      <choice correct="true">pumpkin
-        <choicehint selected="true">You are correct that a pumpkin is a fruit
-          because it is the fertilized ovary of a squash plant and contains
-          seeds.
-        </choicehint>
-        <choicehint selected="false">Remember that a pumpkin is also a
-          fruit.
-        </choicehint>
-      </choice>
-      <choice correct="false">potato
-        <choicehint selected="true">A potato is a vegetable, not a fruit,
-          because it does not come from the flower on a plant or tree and does
-          not contain seeds.
-        </choicehint>
-        <choicehint selected="false">You are correct that a potato is
-          classified as a vegetable because it is an edible part of a plant in
-          tuber form.
-        </choicehint>
-      </choice>
-      <choice correct="true">tomato
-        <choicehint selected="true">You are correct that a tomato is
-          classified as a fruit because it is the fertilized ovary of a tomato
-          plant and contains seeds.
-        </choicehint>
-        <choicehint selected="false">Many people mistakenly think a tomato is
-          a vegetable. However, because a tomato is the fertilized ovary of a
-          tomato plant and contains seeds it is classified as a fruit.
-        </choicehint>
-      </choice>
-    </checkboxgroup>
-  </choiceresponse>
+  <problem>
+    <choiceresponse>
+      <label>Which of the following is an example of a fruit?</label>
+      <description>Check all that apply.</description>
+      <checkboxgroup>
+        <choice correct="true">apple
+          <choicehint selected="true">You are correct that an apple is a fruit
+           because it is the fertilized ovary that comes from an apple tree and
+           contains seeds.</choicehint>
+          <choicehint selected="false">Remember that an apple is also a
+           fruit.</choicehint>
+        </choice>
+        <choice correct="true">pumpkin
+          <choicehint selected="true">You are correct that a pumpkin is a fruit
+           because it is the fertilized ovary of a squash plant and contains
+           seeds.</choicehint>
+          <choicehint selected="false">Remember that a pumpkin is also a
+           fruit. </choicehint>
+        </choice>
+        <choice correct="false">potato
+          <choicehint selected="true">A potato is a vegetable, not a fruit,
+           because it does not come from the flower on a plant or tree and does
+           not contain seeds.</choicehint>
+          <choicehint selected="false">You are correct that a potato is
+           classified as a vegetable because it is an edible part of a plant in
+           tuber form.</choicehint>
+        </choice>
+        <choice correct="true">tomato
+          <choicehint selected="true">You are correct that a tomato is
+           classified as a fruit because it is the fertilized ovary of a tomato
+           plant and contains seeds.</choicehint>
+          <choicehint selected="false">Many people mistakenly think a tomato is
+           a vegetable. However, because a tomato is the fertilized ovary of a
+           tomato plant and contains seeds it is classified as a fruit.</choicehint>
+        </choice>
+      </checkboxgroup>
+    </choiceresponse>
+  </problem>
 
 Configure Compound Feedback
 ***************************
 
-In the advanced editor, you define compound feedback in the ``<compoundhint>``
-element within the ``<checkboxgroup>`` element.
+In the advanced editor, you define compound feedback by adding a
+``<compoundhint>`` element within the ``<checkboxgroup>`` element.
 
 .. code-block:: xml
 
-  <compoundhint value="Answer Combination">
-    Feedback when learner selects this combination of answers.
-  </compoundhint>}}
+          .
+          .
+          .
+        </choice>
+        <compoundhint value="Answer Combination">Feedback when learner selects
+         this combination of answers.</compoundhint>
+      </checkboxgroup>
 
 For example, the following compound feedback is used when learners select
 options **A, B, and D** or **A, B, C, and D**.
 
 .. code-block:: xml
 
-  <compoundhint value="A B D">An apple, pumpkin, and tomato are all fruits as
-    they all are fertilized ovaries of a plant and contain seeds.
-  </compoundhint>
-  <compoundhint value="A B C D">You are correct that an apple, pumpkin, and
-    tomato are all fruits as they all are fertilized ovaries of a plant and
-    contain seeds. However, a potato is not a fruit as it is an edible part of
-    a plant in tuber form and is classified as a vegetable.
-  </compoundhint>
+          .
+          .
+          .
+        </choice>
+        <compoundhint value="A B D">An apple, pumpkin, and tomato are all
+         fruits as they all are fertilized ovaries of a plant and contain
+         seeds.</compoundhint>
+        <compoundhint value="A B C D">You are correct that an apple, pumpkin,
+         and tomato are all fruits as they all are fertilized ovaries of a
+         plant and contain seeds. However, a potato is not a fruit as it is an
+         edible part of a plant in tuber form and is classified as a vegetable.
+        </compoundhint>
+      </checkboxgroup>
 
 .. _Use Hints in a Checkbox Problem:
 
@@ -459,7 +457,7 @@ Using the Every Decision Counts Method
 ======================================
 
 You can configure a checkbox problem so that the learner's response for every
-option is evaluated and scored. This is known as every decision counts
+option is evaluated and scored. This method is known as every decision counts
 (EDC).
 
 With EDC, for each option the learner gets wrong, either by not selecting a
@@ -509,14 +507,18 @@ updated to provide partial credit.
 
 .. code-block:: xml
 
-  <choiceresponse partial_credit="EDC">
-    <checkboxgroup label="Which of the following is a fruit? Check all that apply.">
-      <choice correct="true">apple</choice>
-      <choice correct="true">pumpkin</choice>
-      <choice correct="false">potato</choice>
-      <choice correct="true">tomato</choice>
-    </checkboxgroup>
-  </choiceresponse>
+  <problem>
+    <choiceresponse partial_credit="EDC">
+      <label>Which of the following is a fruit?</label>
+      <description>Check all that apply.</description>
+      <checkboxgroup>
+        <choice correct="true">apple</choice>
+        <choice correct="true">pumpkin</choice>
+        <choice correct="false">potato</choice>
+        <choice correct="true">tomato</choice>
+      </checkboxgroup>
+    </choiceresponse>
+  </problem>
 
 ==========================
 Using the By Halves Method
@@ -525,7 +527,7 @@ Using the By Halves Method
 You can configure a checkbox problem so that for every option that a learner
 gets wrong, either by not selecting a correct option or by selecting an
 incorrect option, half of the remaining points are deducted from the learner's
-score. This is known as scoring by halves.
+score. This method is known as scoring by halves.
 
 .. note:: By design, partial credit by halves requires the number of answer
    options to be more than twice the number of incorrect answers. In addition,
@@ -674,28 +676,29 @@ To configure a by halves checkbox problem, you add the
 ``partial_credit="halves"`` attribute to the ``<choiceresponse>`` element in
 the problem OLX.
 
-The following example shows the checkbox problem template updated to provide
-partial credit.
+The following example shows a checkbox problem that provides partial credit by
+halves.
 
 .. code-block:: xml
 
-  <choiceresponse partial_credit="halves">
-    <checkboxgroup label="Which of the following is a fruit? Check all that apply.">
-      <choice correct="true">apple</choice>
-      <choice correct="true">pumpkin</choice>
-      <choice correct="false">potato</choice>
-      <choice correct="true">tomato</choice>
-    </checkboxgroup>
-  </choiceresponse>
-
+  <problem>
+    <choiceresponse partial_credit="halves">
+      <label>Which of the following is a fruit?</label>
+      <description>Check all that apply.</description>
+      <checkboxgroup>
+        <choice correct="true">apple</choice>
+        <choice correct="true">pumpkin</choice>
+        <choice correct="false">potato</choice>
+        <choice correct="true">tomato</choice>
+      </checkboxgroup>
+    </choiceresponse>
+  </problem>
 
 .. _Checkbox Problem XML:
 
-****************************
-Checkbox Problem OLX
-****************************
-
-.. update the template that follows
+******************************
+Checkbox Problem OLX Reference
+******************************
 
 ============
 Template
@@ -704,185 +707,233 @@ Template
 .. code-block:: xml
 
   <problem>
-  <p>QUESTION TEXT</p>
-  <choiceresponse>
-    <checkboxgroup label="QUESTION TEXT">
-      <choice correct="false">
-        Answer option A (incorrect)
-        <choicehint selected="true">
-          Feedback for when learner selects this answer.
-        </choicehint>
-        <choicehint selected="false">
-          Feedback for when learner does not select this answer.
-        </choicehint>
-      </choice>
-      <choice correct="true">
-        Answer option B (correct)
-        <choicehint selected="true">
-          Feedback for when learner selects this answer.
-        </choicehint>
-        <choicehint selected="false">
-          Feedback for when learner does not select this answer.
-        </choicehint>
-      </choice>
-      <choice correct="false">
-        Answer option C (correct)
-        <choicehint selected="true">
-          Feedback for when learner selects this answer.
-        </choicehint>
-        <choicehint selected="false">
-          Feedback for when learner does not select this answer.
-        </choicehint>
-      </choice>
-      <compoundhint value="A B">
-        Feedback when answers A and B are selected.
-      </compoundhint>
-     <compoundhint value="A C">
-        Feedback when answers A and C are selected.
-      </compoundhint>
-    </checkboxgroup>
-  </choiceresponse>
-
-  <demandhint>
-    <hint>Hint 1</hint>
-    <hint>Hint 2</hint>
-    <hint>Hint 3</hint>
-  </demandhint>
-
-  <solution>
-    <div class="detailed-solution">
-      <p>Solution or Explanation Heading</p>
-      <p>Solution or explanation text</p>
-     </div>
-  </solution>
+    <choiceresponse>
+      <label>Question or prompt text</label>
+      <description>Information about how to answer the question</description>
+      <checkboxgroup>
+        <choice correct="false">Answer option A (incorrect)</choice>
+        <choice correct="true">Answer option B (correct)</choice>
+        <choice correct="true">Answer option C (correct)</choice>
+      </checkboxgroup>
+    <solution>
+      <div class="detailed-solution">
+        <p>Optional header for the explanation or solution</p>
+        <p>Optional explanation or solution text</p>
+      </div>
+    </solution>
+    </choiceresponse>
+    <demandhint>
+      <hint>Hint 1</hint>
+      <hint>Hint 2</hint>
+    </demandhint>
   </problem>
 
-======
-Tags
-======
+=========
+Elements
+=========
 
-* ``<choiceresponse>`` (required): Specifies that the problem contains options
-  for learners to choose from.
+For checkbox problems, the ``<problem>`` element can include this hierarchy of
+child elements.
 
-* ``<checkboxgroup>`` (required): Specifies that the problem is a checkbox
-  problem.
 
-* ``<compoundhint>`` (optional): Specifies feedback for a specific combination
-  of answers.
+.. code-block:: xml
 
-* ``<choice>`` (required): Designates an answer option.
+  <choiceresponse>
+      <label>
+      <description>
+      <checkboxgroup>
+            <choice>
+                <choicehint>
+            <compoundhint>
+      <solution>
+  <demandhint>
+      <hint>
 
-* ``<demandhint>`` (optional): Specifies hints for the learner.
+In addition, standard HTML tags can be used to format text.
 
-**Tag:** ``<choiceresponse>``
+``<choiceresponse>``
+*********************
 
-Specifies that the problem contains options for learners to choose from.
+Required. Indicates that the problem is a checkbox problem.
 
-  Attributes
+Attributes
+==========
 
-  .. list-table::
-     :widths: 20 80
+.. list-table::
+   :widths: 20 80
+   :header-rows: 1
 
-     * - Attribute
-       - Description
-     * - partial_credit (optional)
-       - Specifies the type of partial credit given. ``EDC`` or ``halves``.
+   * - Attribute
+     - Description
+   * - ``partial_credit``
+     - Optional. Specifies the type of partial credit given. ``EDC`` or
+       ``halves``.
 
-  Children
+Children
+========
 
-  ``<checkboxgroup>``
+* ``<label>``
+* ``<description>``
+* ``<checkboxgroup>``
+* ``<solution>``
 
-**Tag:** ``<checkboxgroup>``
+``<label>``
+***********
 
-Specifies that the problem is a checkbox problem.
+Required. Identifies the question or prompt.
 
-  Attributes
+Attributes
+==========
 
-  .. list-table::
-     :widths: 20 80
+None.
 
-     * - Attribute
-       - Description
-     * - label (required)
-       - Specifies the name of the response field.
+Children
+========
 
-  Children
+None.
 
-  ``<choice>``
-  ``<compoundhint>``
+``<description>``
+*****************
 
-**Tag:** ``<choice>``
+Optional. Provides clarifying information about how to answer the question.
 
-Designates an answer option.
+Attributes
+==========
 
-  Attributes
+None.
 
-  .. list-table::
-     :widths: 20 80
+Children
+========
 
-     * - Attribute
-       - Description
-     * - true (at least one required)
-       - Indicates a correct answer. For checkbox problems, one or more
-         ``<choice>`` tags can contain a correct answer.
-     * - false (at least one required)
-       - Indicates an incorrect answer.
+None.
 
-  Children
+``<checkboxgroup>``
+*******************
 
-  ``<choicehint>``
+Required. Indicates the beginning of the list of options.
 
-**Tag:** ``<choicehint>``
+Attributes
+==========
 
-Specifies a hint for the answer option.
+None.
 
-  Attributes
+Children
+========
 
-  .. list-table::
-     :widths: 20 80
+* ``<choice>``
+* ``<compoundhint>``
 
-     * - Attribute
-       - Description
-     * - selected (required)
-       - ``true`` or ``false``. Indicates if the hint is given when the answer
-         option is selected, or when it is not selected.
+``<choice>``
+************
 
-  Children
+Required. Designates an answer option.
 
-  (none)
+Attributes
+==========
 
-**Tag:** ``<compoundhint>``
+.. list-table::
+   :widths: 20 80
+   :header-rows: 1
 
-Designates feedback for a specific combination of answers.
+   * - Attribute
+     - Description
+   * - ``correct``
+     - Indicates a correct or incorrect answer.
 
-  Attributes
+       * When set to ``"true"``, the choice is a correct answer. At least one
+         required.
+       * When set to ``"false"``, the choice is an incorrect answer.
 
-  .. list-table::
-     :widths: 20 80
+Children
+========
 
-     * - Attribute
-       - Description
-     * - value (at least one required)
-       - Indicates which combination of selected answers triggers this
-         feedback.
+``<choicehint>``
 
-  Children
+``<choicehint>``
+****************
 
-  (none)
+Optional. Specifies feedback for the answer.
 
-**Tag:** ``<demandhint>``
+Attributes
+==========
 
-Specifies hints available to the learner.
+.. list-table::
+   :widths: 20 80
+   :header-rows: 1
 
-  Children
+   * - Attribute
+     - Description
+   * - ``selected``
+     -  Required. ``true`` or ``false``. Indicates if the feedback is given
+        when the answer option is selected, or when it is not selected.
 
-  ``<hint>``
+Children
+========
 
-**Tag:** ``<hint>``
+None.
 
-Specifies a hint available to the learner.
+``<compoundhint>``
+******************
 
-  Children
+Optional. Specifies feedback for a specific combination of answers.
 
-  (none)
+Attributes
+==========
+
+.. list-table::
+   :widths: 20 80
+   :header-rows: 1
+
+   * - Attribute
+     - Description
+   * - ``value`` (at least one required)
+     - Indicates the combination of selected answers that triggers this
+       feedback. Answers are identified by uppercase letters, in ascending
+       alphabetical order.
+
+Children
+========
+
+None.
+
+``<solution>``
+**************
+
+Optional. Identifies the explanation or solution for the problem, or for one of
+the questions in a problem that contains more than one question.
+
+This element contains an HTML division ``<div>``. The division contains one or
+more paragraphs ``<p>`` of explanatory text.
+
+
+``<demandhint>``
+****************
+
+Optional. Specifies hints for the learner. For problems that include multiple
+questions, the hints apply to the entire problem.
+
+Attributes
+==========
+
+None.
+
+Children
+========
+
+``<hint>``
+
+``<hint>``
+**********
+
+Required. Specifies additional information that learners can access if needed.
+
+Attributes
+==========
+
+None.
+
+Children
+========
+
+None.
 
