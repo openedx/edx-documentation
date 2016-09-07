@@ -4665,6 +4665,8 @@ input, this event is also emitted after the learner submits the number input.
 
 **Event Source**: Server
 
+**History**: ``item`` and ``location_id`` added 7 Sep 2016.
+
 ``context`` **Member Fields**:
 
 This event type includes the :ref:`common<context>` ``context.module`` member
@@ -4682,6 +4684,11 @@ field.
    * - ``input``
      - integer
      - The number input value entered by the learner.
+   * - ``item``
+     - string
+     - The display name of the draggable item selected by the learner.  For
+       items that do not have a display name, this contains the item's image
+       URL.
    * - ``item_id``
      - integer
      - The index assigned to the draggable item selected by the learner.
@@ -4700,6 +4707,11 @@ field.
      - string
      - The text identifier for the target zone in which the learner placed the
        item.
+   * - ``location_id``
+     - integer
+     - The automatically generated unique index assigned to the target zone in
+       which the learner placed the item.  The assigned index is persistent for
+       each instance.
 
 ``edx.drag_and_drop_v2.item.picked_up``
 ***************************************
