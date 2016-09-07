@@ -11,57 +11,73 @@ that they make meets a certain condition. For example, learners who answer
 "Yes" to a poll question see a different block of text from the learners who
 answered "No" to the same question.
 
-********************
-Format description
-********************
+.. contents::
+  :local:
+  :depth: 1
 
-The main tag of conditional module input is ``conditional``.
+*********************************
+Enable the Conditional Module
+*********************************
 
-.. code-block:: xml
+Before you can add a conditional component to your course, you must enable the
+conditional module.
 
-    <conditional> ... </conditional>
+To enable the conditional module in Studio, you add the `"conditional"` key to
+the **Advanced Module** List on the **Advanced Settings** page. Be sure to
+include the quotation marks around the key value. For more information, see
+:ref:`Enable Additional Exercises and Tools`.
 
-``conditional`` can include any number of any Xmodule tags (``html``,
-``video``, ``poll``, etc.) or ``show`` tags.
+============================
+Create a Conditional Module
+============================
 
-====================
-``conditional`` Tag
-====================
+To create a conditional module, follow these steps.
 
-The main container for a single instance of a conditional module. The
-following attributes can be specified for this tag.
+#. In the unit where you want to create the problem, select **Advanced** under
+   **Add New Component**.
 
-.. code-block:: xml
+#. In the list of problem types, select **Conditional**.
 
-    sources - location id of required modules, separated by ';'
-    [message | ""] - message for case, where one or more are not passed. Here you can use variable {link}, which generate link to required module.
+#. In the component that appears, select **Edit**.
 
-    [submitted] - map to `is_submitted` module method.
-    (pressing RESET button makes this function to return False.)
+#. In the component editor, specify these settings.
 
-    [correct] - map to `is_correct` module method
-    [attempted] - map to `is_attempted` module method
-    [poll_answer] - map to `poll_answer` module attribute
-    [voted] - map to `voted` module attribute
+    * **Blocked Content Message**: Optionally, enter the message that learners
+      are shown when they do not satisfy the requirements to access the
+      conditional content. To provide a link to the required component,
+      include ``{link}`` within your message. If you have specified a source
+      component in the **Source Component** field, a link to it is
+      automatically generated in your message.
 
-============
-``show`` Tag
-============
+    * **Conditional Attribute**: The attribute from the source component that
+      that is used to determine whether a learner is shown the content of this
+      conditional module.
 
-Symlink to some set of Xmodules. The following attribute can be specified for
-this tag.
+    * **Conditional Value**: The value of the conditional attribute specified in
+      the **Conditional Attribute** field that must be true for a learner to
+      be shown the content of this conditional module.
 
-.. code-block:: xml
+    * **Display Name**: This name appears in the horizontal navigation at the
+      top of the page.
 
-    sources - location id of modules, separated by ';'
+    * **Source Components**: The location IDs of the components whose
+      attributes are used to determine whether a learner is shown the
+      content of this conditional module.
 
-*********
-Examples
-*********
+#. Select **Save**.
 
-========================================
-Example: conditional depends on poll
-========================================
+
+*************
+XML Examples
+*************
+
+Examples of open learning XML (OLX) markup for several conditional modules
+follow. For more information about creating conditional modules using OLX, see
+the *edX Open Learning XML Guide - Alpha Version*.
+
+==============================================================
+Example: Conditional Module Dependent on Poll Being Answered
+==============================================================
 
 .. code-block:: xml
 
@@ -72,9 +88,11 @@ Example: conditional depends on poll
         </html>
     </conditional>
 
-========================================================
-Example: conditional depends on poll (use <show> tag)
-========================================================
+==============================================================
+Example: Conditional Module Dependent on Poll Being Answered
+==============================================================
+
+This example uses the ``<show>`` tag.
 
 .. code-block:: xml
 
@@ -85,9 +103,9 @@ Example: conditional depends on poll (use <show> tag)
         </html>
     </conditional>
 
-================================================
-Examples of conditional depends on problem
-================================================
+==============================================================
+Example: Conditional Module Dependent on Problem Attempted
+==============================================================
 
 .. code-block:: xml
 
