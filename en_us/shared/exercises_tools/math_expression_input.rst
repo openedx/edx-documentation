@@ -6,9 +6,16 @@ Math Expression Input Problems
 
 .. note:: EdX offers full support for this problem type.
 
+The math expression input problem type is a core problem type that can be added
+to any course. At a minimum, math expression problems include a question or
+prompt and a response field for a numeric answer.
+
 .. contents::
   :local:
-  :depth: 1
+  :depth: 2
+
+For more information about the core problem types, see
+:ref:`Working with Problem Components`.
 
 ***********
 Overview
@@ -20,21 +27,13 @@ appears below the response field. Unlike numerical input problems, which only
 allow integers and a few select constants, math expression input problems can
 include unknown variables and more complicated symbolic expressions.
 
-.. image:: ../../../shared/images/MathExpressionInputExample.png
- :alt: A problem requesting the symbolic expression and numerical evaluation
-     of N(x) for a sleeved cylinder
-
 For more information about how learners enter expressions, see
 :ref:`learners:Math Formatting` in the *EdX Learner's Guide* or
 :ref:`openlearners:Math Formatting` in the *Open edX Learner's Guide*.
 
 .. note::
-  You can make a calculator available to your learners on every unit
+  You can make a calculator tool available to your learners on every unit
   page. For more information, see :ref:`Calculator`.
-
-For the math expression input problems in your course, you can use edX Insights
-to review aggregated learner performance data and examine submitted answers.
-For more information, see :ref:`insights:Using edX Insights`.
 
 For math expression input problems, the grader uses numerical sampling to
 determine whether a learner's response matches the math expression that you
@@ -42,8 +41,8 @@ provide, to a specified numerical tolerance. You specify the allowed variables
 in the expression as well as the range of values for each variable.
 
 When you create a math expression input problem in Studio, you use `MathJax
-<http://www.mathjax.org>`_ to change your plain text into "beautiful math."
-For more information about how to use MathJax in Studio, see :ref:`MathJax in
+<http://www.mathjax.org>`_ to format text strings into "beautiful math." For
+more information about how to use MathJax in Studio, see :ref:`MathJax in
 Studio`.
 
 .. note:: Math expression input problems currently cannot include negative
@@ -51,202 +50,350 @@ Studio`.
  input problems can include complex numbers raised to fractional powers, or
  positive non-complex numbers raised to fractional powers.
 
-************************************************
-Create a Math Expression Input Problem
-************************************************
+======================================
+Example Math Expression Input Problem
+======================================
+
+In the LMS, learners enter a value into a response field to complete a math
+expression input problem. The following example shows a completed math
+expression input problem that contains two questions.
+
+.. image:: ../../../shared/images/MathExpressionInputExample.png
+ :alt: A problem shown in the LMS that requests the symbolic expressions for
+   displacement and for elongation of a blade. Both questions were answered
+   correctly. The solutions are not shown.
+
+The open learning XML (OLX) markup for this example math expression input
+problem follows.
+
+.. code-block:: xml
+
+  <problem>
+    <formularesponse inline="1" type="cs" samples="R,omega,E,rho,L@0.1,0.1,0.1,0.1,0.1:10,10,10,10,10#10" answer="(rho*omega^2*L^2)/E*((11*L)/48 +(3*R)/8)">
+      <label>Find a symbolic expression for the displacement of the blade mid-section, \( u_{x}(L/2) \), in terms of \(R\), \(L\), \(\rho\), \(\omega\), and \(E\).</label>
+      <description>\(u_x(L/2) = \)</description>
+      <responseparam type="tolerance" default="1%"/>
+      <textline inline="1" math="1"/>
+      <solution>
+        <div class="worked-solution">
+          <p><b>Obtaining the displacement at the mid-section \( u_{x}(x = L / 2)\):</b></p><p>According to the definition of strain,</p>
+          \[ \frac {du_{x}(x)} {dx} = \epsilon_a(x).\]
+          <p>Therefore, we can obtain the displacement field as</p>
+          \[ u_x(x) = u_x(0) + \int_0^x \epsilon_a (x') dx' = u_x(0) + \left[ \frac{\rho \omega^2}{E} \left(\frac{L^2x'}{2} - \frac{(x')^3}{6} + RLx' - \frac{R(x')^2}{2} \right) \right]_0^x\]
+          <p>Since the bar is fixed at x=0, therefore \(u_x(0)=0\). Hence we obtain</p>
+          \[\Rightarrow u_x(x) = \frac{\rho\omega^2}{E} \left( \frac{L^2x}{2} - \frac{x^3}{6} + RLx - \frac{Rx^2}{2} \right).\]
+          <p>The displacement of the bar at \(x=L/2\) is </p>
+          \[u_{x}(L/2) = \frac {\rho\omega^2L^2}{E} \left( \frac {11L}{48} + \frac {3R}{8} \right).\]
+        </div>
+      </solution>
+    </formularesponse>
+
+    <formularesponse inline="1" type="cs" samples="R,omega,E,rho,L@0.1,0.1,0.1,0.1,0.1:10,10,10,10,10#10" answer="(rho*omega^2)/E*(L^3/3 + (R*L^2)/2)">
+      <label>Find a symbolic expression for the blade elongation \( \delta \) in terms of \(R\), \(L\), \(\rho\), \(\omega\), and \(E\).</label>
+      <description>\(\delta = \)</description>
+      <responseparam type="tolerance" default="1%"/>
+      <textline inline="1" math="1"/>
+      <solution>
+        <div class="worked-solution">
+          \[  \delta = \frac {\rho \omega^2}{E} \left( \frac {L^3} {3} + \frac { RL^2} {2} \right) \]
+          <p><b>Obtaining the total elongation of the blade  \( \delta \):</b></p>
+          <p>The strain field in the bar is</p>
+          \[  \epsilon_a(x) = \frac {\mathcal{N}(x)}{EA} = \frac {\rho \omega^2 \left( \frac {L^2 - x^2}{2} + R\left(L-x\right)\right)}{E}. \]
+          <p>We can now calculate the elongation of the bar as the following.</p>
+          \[ \delta = \int_0^L \epsilon_{a}(x)dx = \int_0^L \frac {\rho \omega^2}{E} \left( \frac {L^2 - x^2}{2} + R\left(L-x\right)\right)dx. \]
+          \[ \Rightarrow \delta= \left[ \frac { \rho \omega^2}{E} \left( \frac {L^2x}{2}  - \frac {x^3}{6} + RLx - \frac {Rx^2}{2} \right)\right]_0^L.\]
+          \[ \Rightarrow \delta = \frac {\rho \omega^2}{E} \left( \frac {L^3}{2} - \frac{L^3}{6} + RL^2 - \frac {RL^2}{2} \right).\]
+          \[\Rightarrow \delta= \frac {\rho \omega^2}{E} \left( \frac {L^3}{3} + \frac {RL^2}{2} \right). \]
+        </div>
+      </solution>
+    </formularesponse>
+  </problem>
+
+========================================================
+Analyzing Performance on Math Expression Input Problems
+========================================================
+
+For the math expression input problems in your course, you can use edX Insights
+to review aggregated learner performance data and examine submitted answers.
+For more information, see :ref:`insights:Using edX Insights`.
+
+***************************************
+Adding a Math Expression Input Problem
+***************************************
+
+You add math expression input problems in Studio by selecting the **Problem**
+component type and then using the advanced editor to specify the prompt and the
+acceptable answer or answers.
 
 To create a math expression input problem, follow these steps.
 
 #. In the unit where you want to create the problem, under **Add New
    Component** select **Problem**.
+
 #. Select **Advanced**.
-#. Select **Math Expression Input**. Studio adds an example math expression
-   input problem to the unit.
-#. Select **Edit**. The advanced editor opens.
-#. Replace the sample problem XML with your own marked up text. To
-   practice, you can use the example problem that follows.
-#. Select **Settings** and provide an identifying **Display Name** for the
+
+#. From the list of **Advanced** problem types, select **Math Expression
+   Input**. Studio adds a template for the problem to the unit.
+
+#. Select **Edit**. The advanced editor opens the template and shows the OLX
+   markup that you can use for this problem type.
+
+#. Replace the guidance provided by the template to add your own text. For
+   example, replace the question or prompt, answer options, and solution.
+
+#. Update the OLX to use any additional elements and attributes in your
    problem.
-#. Define additional settings for the problem. For more information, see
-   :ref:`Problem Settings`.
+
+#. Select **Settings** to provide an identifying **Display Name** and define
+   settings for the problem. For more information, see :ref:`Problem Settings`.
+
 #. Select **Save**.
-
-*********************
-Example Problem Code
-*********************
-
-.. code-block:: xml
-
-  <problem>
-    <p>Some problems may ask for a mathematical expression. Practice creating mathematical expressions by answering the questions below.</p>
-
-    <p>Write an expression for the product of R_1, R_2, and the inverse of R_3.</p>
-    <formularesponse type="ci" samples="R_1,R_2,R_3@1,2,3:3,4,5#10" answer="$VoVi">
-      <responseparam type="tolerance" default="0.00001"/>
-      <formulaequationinput size="40" label="Enter the equation"/>
-    </formularesponse>
-
-  <script type="loncapa/python">
-  VoVi = "(R_1*R_2)/R_3"
-  </script>
-
-    <p>Let <i>x</i> be a variable, and let <i>n</i> be an arbitrary constant. What is the derivative of <i>x<sup>n</sup></i>?</p>
-  <script type="loncapa/python">
-  derivative = "n*x^(n-1)"
-  </script>
-    <formularesponse type="ci" samples="x,n@1,2:3,4#10" answer="$derivative">
-      <responseparam type="tolerance" default="0.00001"/>
-      <formulaequationinput size="40"  label="Enter the equation"/>
-    </formularesponse>
-
-    <solution>
-      <div class="detailed-solution">
-        <p>Explanation or Solution Header</p>
-        <p>Explanation or solution text</p>
-      </div>
-    </solution>
-  </problem>
 
 .. _Math Expression Input Problem XML:
 
-**********************************
-Math Expression Input Problem XML
-**********************************
+*******************************************
+Math Expression Input Problem OLX Reference
+*******************************************
 
 ============
-Templates
+Template
 ============
+
+.. note:: The following template includes a Python script. When you add a
+  script to a problem component, do not add to or change its internal
+  indentation. A "jailed code" error message appears when you save
+  the problem in Studio if the ``<script>`` element is indented.
 
 .. code-block:: xml
 
   <problem>
-    <p>Write an expression for the product of R_1, R_2, and the inverse of R_3.</p>
-    <formularesponse type="ci" samples="R_1,R_2,R_3@1,2,3:3,4,5#10" answer="R_1*R_2/R_3">
+    <formularesponse type="ci" samples="R_1,R_2,R_3@1,2,3:3,4,5#10"  answer="$computed_response">
+      <label>Problem text</label>
       <responseparam type="tolerance" default="0.00001"/>
-      <formulaequationinput size="40"  label="Enter the equation" />
-    </formularesponse>
-  </problem>
-
-.. code-block:: xml
-
-  <problem>
-    <p>Problem text</p>
-    <formularesponse type="ci" samples="VARIABLES@LOWER_BOUNDS:UPPER_BOUNDS#NUMBER_OF_SAMPLES" answer="$VoVi">
-      <responseparam type="tolerance" default="0.00001"/>
-      <formulaequationinput size="20"  label="Enter the equation" />
-    </formularesponse>
+      <formulaequationinput size="20" />
 
   <script type="loncapa/python">
-  PYTHON SCRIPT
+  computed_response = PYTHON SCRIPT
   </script>
 
-    <solution>
-      <div class="detailed-solution">
-        <p>Explanation or Solution Header</p>
-        <p>Explanation or solution text</p>
-      </div>
-    </solution>
+      <solution>
+        <div class="detailed-solution">
+          <p>Explanation or solution header</p>
+          <p>Explanation or solution text</p>
+        </div>
+      </solution>
+    </formularesponse>
   </problem>
 
-====
-Tags
-====
+This template includes a placeholder value for the ``samples`` attribute of
+``samples="R_1,R_2,R_3@1,2,3:3,4,5#10"``. You enter values for this attribute
+in the following format:
+``samples="VARIABLES@LOWER_BOUNDS:UPPER_BOUNDS#NUMBER_OF_SAMPLES"``. Additional detail follows in the description of the ``<formularesponse>``
+element.
 
-* ``<formularesponse>``
-* ``<formulaequationinput />``
-* ``<responseparam>``
-* ``<script>``
+========
+Elements
+========
 
-**Tag:** ``<formularesponse>``
+For math expression input problems, the ``<problem>`` element can include this
+hierarchy of child elements.
 
-Specifies that the problem is a math expression input problem. The
-``<formularesponse>`` tag is similar to ``<numericalresponse>``, but
+.. code-block:: xml
+
+  <problem>
+      <formularesponse>
+          <label>
+          <description>
+          <formulaequationinput>
+          <responseparam>
+          <script>
+          <solution>
+
+In addition, standard HTML tags can be used to format text.
+
+``<formularesponse>``
+************************
+
+Required. Indicates that the problem is a math expression input problem.
+
+The ``<formularesponse>`` tag is similar to the ``<numericalresponse>`` tag
+used  by :ref:`numerical input<Numerical Input>` problem types, but
 ``<formularesponse>`` allows unknown variables.
 
-  Attributes
+Attributes
+==========
 
-  ``type``: Can be "cs" for case sensitive, which is the default, or "ci" for case
-  insensitive, so that capitalization does not matter in variable names.
+.. list-table::
+   :widths: 20 80
+   :header-rows: 1
 
-  ``answer``: The correct answer to the problem, given as a mathematical
-  expression. If you precede a variable name in the problem with a dollar sign
-  ($), you can include a script in the problem that computes the expression in
-  terms of that variable.
+   * - Attribute
+     - Description
+   * - ``type``
+     - Can be ``"cs"`` for case sensitive, which is the default, or ``"ci"``
+       for case insensitive, so that capitalization does not matter in variable
+       names.
+   * - ``answer``
+     - The correct answer to the problem, given as a mathematical expression.
 
-  ``samples``: Specifies important information about the problem in the
-  following lists.
+       If you precede a variable name in the problem with a dollar sign ($),
+       you can include a script in the problem that computes the expression
+       in terms of that variable.
 
-    * ``variables``: A set of variables that learners can enter.
-    * ``lower_bounds``: For every defined variable, a lower bound on the
-      numerical tests to use for that variable.
-    * ``upper_bounds``: For every defined variable, an upper bound on the
-      numerical tests to use for that variable.
-    * ``num_samples``: The number of times to test the expression.
+   * - ``samples``
+     - Specifies important information about the problem in the following
+       lists.
 
-    Commas separate items inside each of the four individual lists. The at
-    sign (@), colon (:), and pound sign (#) characters separate the lists. An
-    example of the format follows.
+       * ``variables``: A set of variables that learners can enter.
+       * ``lower_bounds``: For every defined variable, a lower bound on the
+         numerical tests to use for that variable.
+       * ``upper_bounds``: For every defined variable, an upper bound on the
+         numerical tests to use for that variable.
+       * ``num_samples``: The number of times to test the expression.
 
-    ``"variables@lower_bounds:upper_bounds#num_samples"``
+       Commas separate items inside each of the four individual lists. The at
+       sign (@), colon (:), and hash tag (#) characters separate the lists.
+       An example of the format follows.
 
-    For example, a ``<formularesponse>`` tag that includes the ``samples``
-    attribute might look like either of the following.
+       ``"variables@lower_bounds:upper_bounds#num_samples"``
 
-    ``<formularesponse samples="x,n@1,2:3,4#10">``
+       For example, a ``<formularesponse>`` element that includes the
+       ``samples`` attribute might look like either of the following.
 
-    ``<formularesponse samples="R_1,R_2,R_3@1,2,3:3,4,5#10">``
+       ``<formularesponse samples="x,n@1,2:3,4#10">``
 
-  Children
+       ``<formularesponse samples="R_1,R_2,R_3@1,2,3:3,4,5#10">``
 
-  ``<formulaequationinput />``
+Children
+========
 
-**Tag:** ``<formulaequationinput />``
+* ``<label>``
+* ``<description>``
+* ``<formulaequationinput>``
+* ``<responseparam>``
+* ``<script>``
+* ``<solution>``
 
-Creates a response field where a learner enters an answer to the problem in
-plain text, as well as a second field below the response field where the
-learner sees a typeset version of the plain text. The parser that renders the
-learner's plain text into typeset math is the same parser that evaluates the
-learner's response for grading.
+``<label>``
+***********
 
-  Attributes
+Required. Identifies the question or prompt.
 
-  .. list-table::
-     :widths: 20 80
+Attributes
+==========
 
-     * - Attribute
-       - Description
-     * - label (required)
-       - Specifies the name of the response field.
-     * - size (optional)
-       - Specifies the width, in characters, of the response field where
-         learners enter answers.
+None.
 
-  Children
+Children
+========
 
-  (none)
+None.
 
-**Tag:** ``<responseparam>``
+``<description>``
+*****************
+
+Optional. Provides clarifying information about how to answer the question.
+
+Attributes
+==========
+
+None.
+
+Children
+========
+
+None.
+
+``<formulaequationinput>``
+**************************
+
+Required. Creates a response field in the LMS where learners enter a response.
+
+Learners also see a second field below the response field that displays a
+typeset version of the entered response. The parser that renders a learner's
+plain text into typeset math is the same parser that evaluates the response for
+grading.
+
+Attributes
+==========
+
+.. list-table::
+   :widths: 20 80
+   :header-rows: 1
+
+   * - Attribute
+     - Description
+   * - ``size``
+     - Optional. Defines the width, in characters, of the response field in
+       the LMS.
+
+Children
+========
+
+None.
+
+``<responseparam>``
+*******************
 
 Used to define an upper bound on the variance of the numerical methods used to
 approximate a test for equality.
 
-  Attributes
+Attributes
+==========
 
-  .. list-table::
-     :widths: 20 80
+.. list-table::
+   :widths: 20 80
+   :header-rows: 1
 
-     * - Attribute
-       - Description
-     * - default (required)
-       - A number or a percentage specifying how close the learner and grader
-         expressions must be. If you do not include a tolerance, the
-         expression is vulnerable to rounding errors during sampling. The
-         result of such unavoidable errors is that the grader can mark some
-         learner input as incorrect, even if it is algebraically equivalent.
-     * - type
-       - "tolerance", which defines a tolerance for a number.
+   * - Attribute
+     - Description
+   * - ``type``
+     - ``"tolerance"`` defines a tolerance for a number.
+   * - ``default``
+     - Required. A number or a percentage specifying how close the learner
+       and grader expressions must be. If you do not include a tolerance, the
+       expression is vulnerable to rounding errors during sampling. The
+       result of such unavoidable errors is that the grader can mark some
+       learner input as incorrect, even if it is algebraically equivalent.
 
-  Children
+Children
+========
 
-  (none)
+None.
 
+``<script>``
+*************
+
+Optional. Specifies a script that the grader uses to evaluate a learner's
+response. A problem behaves as if all of the code in all of the script elements
+were in a single script element. Specifically, any variables that are used in
+multiple ``<script>`` elements share a namespace and can be overridden.
+
+As with all Python code, indentation matters, even though the code is embedded
+in XML.
+
+Attributes
+==========
+
+.. list-table::
+   :widths: 20 80
+   :header-rows: 1
+
+   * - Attribute
+     - Description
+   * - ``type``
+     - Required. Must be set to ``loncapa/python``.
+
+Children
+========
+
+None.
+
+``<solution>``
+**************
+
+Optional. Identifies the explanation or solution for the problem, or for one of
+the questions in a problem that contains more than one question.
+
+This element contains an HTML division ``<div>``. The division contains one or
+more paragraphs ``<p>`` of explanatory text.
