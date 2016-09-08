@@ -37,6 +37,8 @@ supported or provisionally supported exercises, problem types, or tools are
 available for adding to your course. To add unsupported problem types and
 tools, see :ref:`Add_Unsupported_Exercises_Problems`.
 
+.. Internal note: For the OLX Guide there is a separate levels_of_support.rst file under olx/source/problem-xml that contains the levels of support info
+
 
 .. list-table::
    :widths: 25 60
