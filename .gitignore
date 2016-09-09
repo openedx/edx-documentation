@@ -21,3 +21,4 @@ autodeploy.properties
 .ws_migrations_complete
 
 *.log
+*.swp

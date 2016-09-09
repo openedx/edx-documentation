@@ -99,7 +99,7 @@ March 2015
    * - 11 Mar 2015
      - Added the secton :ref:`Adding Tooltips to a Problem`.
    * -
-     - Added the chapter :ref:`Working with Problems`.
+     - Added the chapter "Working with Problems".
    * - 5 Mar 2015
      - Updated the :ref:`Preface` to include information about the :ref:`The
        edX Partner Portal` and the :ref:`The Open edX Portal`.
