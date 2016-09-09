@@ -86,3 +86,14 @@ To enable theming for your Open edX installation, do the following.
        COMPREHENSIVE_THEME_DIRS: ["/opt/my-open-edx-themes"]
 
 #. Restart all servers.
+
+.. note::
+
+    You can create more than one themes directory for your Open edX installation. To use multiple themes directories, include the path to each directory in the ``COMPREHENSIVE_THEME_DIRS`` configuration property. The following example shows the configuration for multiple themes directories.
+
+    .. code-block:: none
+
+        "COMPREHENSIVE_THEME_DIRS": [
+            "/my-open-edx-themes",
+            "/my-other-open-edx-themes"
+        ],
