@@ -36,6 +36,13 @@ To create an Open edX site, do the following.
 #. Enter the domain name for the site. This is the domain name in the URL for
    the site. For example ``myuniversity.edu``.
 
+.. note::
+
+    If a site is available on a non-default port, and you need to enter the
+    port number in the site URL, the domain name must include the port number.
+    For example, if an LMS site is available at ``my-site.localhost:8000``, the
+    domain name for the site must be ``my-site.localhost:8000``.
+
 .. _Configuring Sites Independently:
 
 ****************************************
@@ -53,8 +60,6 @@ sites to indicate that the sites present courses for different organizations.
 To set configuration properties for an individual site, do the following.
 
 #. Log into the Django admin site for your Open edX site.
-
-.. Confirm all UI after this point in the procedure.
 
 #. Select **Site Configurations** to open the
    ``http://{hostname}/admin/site_configuration/siteconfiguration`` page.

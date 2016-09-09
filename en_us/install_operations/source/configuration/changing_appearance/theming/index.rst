@@ -68,8 +68,7 @@ The following sections provide more information about using theming in your Open
 
    enable_theming
    create_theme
-   using_default_themes
-   theming_sites
+   applying_themes.rst
 
 
 ..   what_is_theming
