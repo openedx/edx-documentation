@@ -11,10 +11,6 @@ stack.
  Before you install analytics developer stack, make sure that you have met
  the :ref:`installation prerequisites<Installation Prerequisites>`.
 
-.. contents::
-   :local:
-   :depth: 1
-
 .. _Install the Analytics Devstack:
 
 ******************************
@@ -74,7 +70,7 @@ follow these steps.
 
    .. note::
 
-      The version of edx-analytics-pipeline that you checked out on your host will be mounted at `/edx/app/analytics_pipeline/analytics_pipeline` inside the virtual machine. Vagrant directory sharing allows the code to be modified using an editor on the host machine and executed within the virtual machine.
+      The version of edx-analytics-pipeline that you checked out on your host will be mounted at ``/edx/app/analytics_pipeline/analytics_pipeline`` inside the virtual machine. Vagrant directory sharing allows the code to be modified using an editor on the host machine and executed within the virtual machine.
 
 #. Run tests and quality checks.
 
@@ -100,7 +96,7 @@ follow these steps.
 
      $ make test-acceptance-local ONLY_TESTS=edx.analytics.tasks.tests.acceptance.test_enrollments
 
-   Acceptance tests usually destroy any existing state before running, this behavior can be disabled by setting the ``DISABLE_RESET_STATE`` environment variable.
+   Acceptance tests usually destroy any existing state before running. This behavior can be disabled by setting the ``DISABLE_RESET_STATE`` environment variable.
 
    .. code-block:: bash
 
@@ -108,9 +104,9 @@ follow these steps.
 
    .. note::
 
-      Acceptance tests emulate deployment of the code to a remote Hadoop cluster. During this process it checks out a new copy of the code from the repo. For this reason, all changes must be committed before running the test.
+      Acceptance tests emulate deployment of the code to a remote Hadoop cluster. During this process the tests check out a new copy of the code from the repo. For this reason, all changes must be committed before running the test.
 
-#. Display parameters for a task. This technique can be used to see the parameters for any task.
+#. Display parameters for a task. You can use the following technique to see the parameters for any task.
 
    .. code-block:: bash
 
