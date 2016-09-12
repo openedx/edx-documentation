@@ -206,6 +206,8 @@ editor to add a problem without, or with, hints and feedback.
 
 .. include:: ../../../shared/exercises_tools/Section_simple_editor.rst
 
+.. _Use the Advanced Editor to Add a Numerical Input Problem:
+
 =========================================================
 Use the Advanced Editor to Add a Numerical Input Problem
 =========================================================
@@ -447,8 +449,8 @@ Awarding Partial Credit in a Numerical Input Problem
 
 You can configure a numerical input problem to award partial credit to learners
 who submit an answer that is close or related to the correct answer. You must
-use the :ref:`advanced editor<Use the Advanced Editor to Create a Numerical
-Input Problem>` to configure partial credit.
+use the :ref:`advanced editor<Use the Advanced Editor to Add a Numerical Input
+Problem>` to configure partial credit.
 
 .. only:: Partners
 
