@@ -27,11 +27,11 @@ to use drag and drop problems in your course.
 Overview of Drag and Drop Problems
 **********************************
 
-A drag and drop problem includes a background image and one or more draggable
-items that learners move into target zones on the background image. You can
-include as many draggable items and as many target zones as you need. You can
-include decoy items that do not have a target and you can include decoy targets
-that do not correspond to draggable items.
+A drag and drop problem includes a background image and one or more items that
+learners can drag into target zones on the background image. You can include as
+many draggable items and as many target zones as you need. You can include decoy
+items that do not have a target and you can include decoy targets that do not
+correspond to draggable items.
 
 When learners view a drag and drop problem in the LMS, the problem includes a
 top section and a bottom section. Learners drag items from the top section  on
@@ -69,8 +69,7 @@ The following image shows an example drag and drop problem.
 
 The following image shows the success feedback message that learners see when
 they match a draggable item with its target zone. Each draggable item has its
-own success feedback message. Only drag and drop problems in standard mode
-display success feedback. In assessment mode, problems do not display feedback.
+own success feedback message.
 
 .. image:: ../../../shared/images/dnd-correct-feedback.png
   :width: 400
@@ -79,9 +78,7 @@ display success feedback. In assessment mode, problems do not display feedback.
 
 The following image shows the error feedback message that learners see when
 they match a draggable item with an incorrect target zone. Each draggable item
-has its own error feedback message. Only drag and drop problems in standard
-mode display error feedback. In assessment mode, problems do not display
-feedback.
+has its own error feedback message.
 
 .. image:: ../../../shared/images/dnd-incorrect-feedback.png
   :width: 400
@@ -159,9 +156,9 @@ If you include only a text label, that label appears in the draggable item. If
 you include both a text label and an image for an item, the image appears as
 its label.
 
-==============================
-Using Image Draggable Items
-==============================
+=================================
+Using Draggable Items with Images
+=================================
 
 The following image shows draggable items with images. For examples of items
 with text, see :ref:`overview_of_drag_and_drop_problems`.
@@ -171,7 +168,7 @@ with text, see :ref:`overview_of_drag_and_drop_problems`.
   :alt: Draggable items with image labels in the item area of a drag and drop
       problem.
 
-Images for draggable items have alternate image descriptions. The alternate
+Images for draggable items have alternative image descriptions. The alternative
 description explains the image content in text. If a learner cannot access the
 visual image content, the text description helps that learner to complete the
 problem.
@@ -428,17 +425,17 @@ The following table explains the controls in the **Editing** dialog box.
      - The vertical size of a target zone in pixels.
 
    * - **Zone X**
-     - The horizontal distance between the left edge of the background image
-       and the left edge of a target zone.
+     - The horizontal distance (in pixels) between the left edge of the
+       background image and the left edge of a target zone.
 
    * - **Zone Y**
-     - The vertical distance between the top edge of the background image and
-       the top edge of a target zone.
+     - The vertical distance (in pixels) between the top edge of the background
+       image and the top edge of a target zone.
 
    * - **Zone Alignment**
      - Controls the way that the problem aligns draggable items after learners
-       drop them on a target zone. If the value is **none**, items are not
-       aligned and they remain where learners dropped them.
+       drop them on a target zone. Available options are "left", "center", and
+       "right".
 
    * - **Add a zone**
      - Adds a set of controls for a new zone to the **Editing** dialog box.
