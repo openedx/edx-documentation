@@ -27,4 +27,4 @@ partial in the edx-platform repository.
 You can only override variables that use the Sass ``!default`` flag.
 For more information, see `the documentation for Sass variable defaults`_.
 
-.. include:: ../../../../links/links.rst
+.. include:: ../../../../../links/links.rst
