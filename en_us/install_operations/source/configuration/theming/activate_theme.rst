@@ -29,7 +29,7 @@ your base theme directories. You can do that by adding the following value to yo
 
     EDXAPP_ENABLE_COMPREHENSIVE_THEMING: True
     EDXAPP_COMPREHENSIVE_THEME_DIRS:
-      - /edx/app/themes
+      - /edx/app/edxapp/themes
     EDXAPP_DEFAULT_SITE_THEME: my-theme
 
 Where ``/edx/app/edxapp/themes`` is the path to the base directory where you have
