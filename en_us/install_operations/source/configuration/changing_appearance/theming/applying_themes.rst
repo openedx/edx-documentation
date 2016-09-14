@@ -13,7 +13,7 @@ a theme to the default site. For more information about Open edX sites, see
 Apply a Theme to a Site
 ************************
 
-To apply a theme to an Open edX site, do the following.
+To apply a theme to an Open edX site, follow these steps.
 
 #. Make sure that you have enabled theming for your Open edX installation and
    that you have configured a themes directory. For more information, see
@@ -24,7 +24,7 @@ To apply a theme to an Open edX site, do the following.
    theme, within the themes directory. For more information, see :ref:`Creating
    a Theme`.
 
-#. Log into the Django admin site for your Open edX site.
+#. Log in to the Django admin site for your Open edX site.
 
 #. Select **Site themes** to open the
    ``http://{hostname}/admin/theming/sitetheme`` page.

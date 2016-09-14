@@ -4,9 +4,9 @@
 Creating a Theme
 ################
 
-To create a theme, you create a directory in the themes directory that you
-configured for your Open edX installation when you enabled theming. For more
-information about the themes directory, see :ref:`enable_theming`.
+To create a theme, you create a directory for it within the themes directory
+that you configured for your Open edX installation when you enabled theming.
+For more information about the themes directory, see :ref:`enable_theming`.
 
 .. _understanding_themeable_ui_files:
 
@@ -29,7 +29,35 @@ the default UI files in the source repository of the component you are theming.
 Customizing Images
 ==================
 
-You can override any of the images in the ``static/images`` directories for the components you are theming.
+You can override any of the images in the ``static/images`` directories for the
+components you are theming.
+
+The following table lists image assets that many Open edX sites choose to
+override.
+
+.. list-table::
+   :widths: 20 40 40
+   :header-rows: 1
+
+   * - Component
+     - Asset
+     - Description
+   * - LMS
+     - ``images/logo.png``
+     - The logo for the LMS. Displayed in the upper left corner of the LMS.
+   * - Studio
+     - ``images/studio-logo.png``
+     - The logo for Studio. Displayed in the upper left corner of Studio.
+   * - LMS
+     - ``images/profiles/default_30.png``
+       ``images/profiles/default_50.png``
+       ``images/profiles/default_120.png``
+       ``images/profiles/default_500.png``
+     - Default profile images for learner profiles.
+       The default image displays for learners until they upload their own
+       profile images. These image files are named based on their sizes:
+       30px by 30px, 50px by 50px, 120px by 120px, and 500px by 500px,
+       respectively.
 
 ========================
 Customizing Sass Styling
@@ -51,30 +79,55 @@ components you are theming.
 
 .. ^^ reviewers can you help me out here? this seems to be a copy and paste error - Alison
 
+The following table lists templates that many Open edX sites choose to
+override.
+
+.. list-table::
+   :widths: 20 40 40
+   :header-rows: 1
+
+   * - Component
+     - Template
+     - Description
+   * - LMS
+     - ``header.html``
+     - The page header for the LMS. This template is used for the top of the
+       ``<body>`` element on the page, not for the ``<head>`` element of the
+       page. EdX recommends that you start by copying the contents of the
+       ``navigation.html`` core template, and modifying it as necessary.
+   * - LMS
+     - ``footer.html``
+     - The page footer for the LMS. EdX recommends that you start by copying
+       the contents of the ``footer.html`` core template, and modifying it as
+       necessary.
+
 ***************************
-Naming the Theme Directory
+Naming a Theme Directory
 ***************************
 
-The name of the directory that you create identifies the theme. Therefore,
-to create a theme named ``my-theme``, the name of the directory in your
-comprehensive theme directory must be ``my-theme``. You include the UI files
-that you want to override in the theme directory.
+The name of the directory that you create identifies the theme. Therefore, to
+create a theme named ``my-theme``, the name of the directory in your
+comprehensive theme directory must be ``my-theme``. You put copies of the UI
+files that you want to override in that directory.
 
 .. note::
 
     If your Open edX installation is configured to use more than one theme
-    directory, you must ensure that each of the theme directory names that you
-    create is unique. The Open edX installation looks for a named theme in all
-    of the theme directories that you configure.
+    directory, you must ensure that each directory name is unique across all
+    directories. The Open edX installation looks for a named theme in all of
+    the theme directories that you configure.
 
-Because the UI files for the LMS and Studio are together in the edx-platform
-repository, you can create a theme that applies to both the LMS and Studio. You
-must create themes for Ecommerce in a separate theme directory.
+.. Maybe it's just me, but I think the distinction between the instance-wide themes directory (plural) and the site-specific theme directories (singular) is really hard to follow, and might not be accurately reflected in this draft. I'm also not understanding the multiple theme directories thing. - Alison
+
+Because the UI files for the LMS and Studio are located together in the
+edx-platform repository, you can create a theme that applies to both the LMS
+and Studio. You must create themes for the E-commerce service in a separate
+theme directory.
 
 The theme directory holds the UI files that override the corresponding
 default files.
 
-For example, if the theme directory for your site is ``/my-open-edx-themes``,
+For example, if the themes directory for your site is ``/my-open-edx-themes``,
 the files in the following example create a theme named ``my-theme``.
 
 .. code-block:: none
@@ -88,6 +141,8 @@ the files in the following example create a theme named ``my-theme``.
 
 Because the theme directory includes UI files in both the ``lms`` and ``cms``
 subdirectories, you can apply the theme to both the LMS and Studio.
+
+.. more accurate to say that the theme applies to both Studio and LMS?
 
 .. note::
 
@@ -109,13 +164,14 @@ CSS files that style your UI when you apply the theme.
 Update a Theme for the LMS or Studio
 ====================================
 
-To update a theme for the LMS or Studio, follow these steps.
+To update a theme for Studio or the LMS, follow these steps.
 
-#. Log in to the LMS and Studio server as the ``edxapp`` user.
+#. Log in to the Studio and LMS server as the ``edxapp`` user.
 
 #. Change to the ``/edx/app/edxapp/edx-platform`` directory.
 
 #. Invoke the ``paver update_assets`` command to update and apply all themes.
+
    If you want to update specific themes, use the options described in the
    following table.
 
@@ -127,24 +183,26 @@ To update a theme for the LMS or Studio, follow these steps.
       - Description
     * - ``--theme-dirs``
       - Provide a space-separated list of the theme directories that you want
-        to update. Only the themes in the theme directories that you include
+        to update. Only files in the theme directories that you include
         are updated.
     * - ``--themes``
       - Provide a space-separated list of the themes that you want to update.
         Only the themes that you include are updated.
 
-=============================
-Update a Theme for Ecommerce
-=============================
+=========================================
+Update a Theme for the E-commerce Service
+=========================================
 
-To update a theme for Ecommerce, follow these steps.
+To update a theme for the E-commerce service, follow these steps.
 
-#. Log in to the Ecommerce server as the ``ecommerce`` user.
+#. Log in to the server for the E-commerce service as the ``ecommerce`` user.
 
 #. Change to the ``/edx/app/ecommerce/ecommerce`` directory.
 
 #. Invoke the ``python manage.py update_assets`` command to update and apply
-   all themes. To specify specific themes to update or other settings, use the
+   all themes.
+
+   To specify specific themes to update or other settings, use the
    options described in the following table.
 
 .. The descriptions of these commands need testing. (per Peter)
@@ -173,7 +231,7 @@ To update a theme for Ecommerce, follow these steps.
       - Only compile the Sass files and do not deploy the resulting CSS files.
 
 .. This has the same description as skip-system in the wiki page. That doesn't
-.. seem correct to me. (per Peter)
+.. seem correct to me. (per Peter) I think he means the command on the next line. I don't know what wiki page he's referring to - Alison
 .. * - ``--enable-source-comments``
 ..   -
 

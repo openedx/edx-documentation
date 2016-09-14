@@ -6,7 +6,7 @@ Supported Themable Sass Variables
 
 There are currently no supported themable Sass variables.
 
-Sass variables in the LMS and Studio *can* be overriden, but the
+Sass variables in the LMS and Studio *can* be overridden, but the
 meaning and usage of these variables are subject to change, so they are not
 considered to be "supported". If you choose to override these Sass variables
 anyway, you can find these variables defined in a ``_variables.scss`` Sass
