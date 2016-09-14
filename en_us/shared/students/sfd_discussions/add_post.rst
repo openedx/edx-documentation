@@ -93,7 +93,7 @@ topics on the **Discussion** page.
 #. Enter the text of your post. To format the text or to add links or
    images, use the formatting options above the text box. It is a good
    practice to add an image description to the image as it is useful 
-   for users who cannot see(visually impaired or using screen readers).
+   for users who cannot see (visually impaired or using screen readers).
 
    .. note:: Any text formatting or images that you add are only visible when
       others read your post in a web browser. The edX mobile app currently does
@@ -140,7 +140,7 @@ The following steps apply only to content-specific discussions.
 #. Enter the text of your post. Select the buttons above the text field to see
    options for formatting the text and for adding links or images. It is a good 
    practice to add an image description to the image as it is useful for users who
-   cannot see(visually impaired or using screen readers).
+   cannot see (visually impaired or using screen readers).
    
 
    .. note:: Any text formatting or images that you add are only visible when
