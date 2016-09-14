@@ -434,13 +434,6 @@
 
 .. _app_label: https://docs.djangoproject.com/en/1.8/ref/models/options/#app-label
 
-.. _Sass: http://sass-lang.com/
-.. _Sass variables: http://sass-lang.com/documentation/file.SASS_REFERENCE.html#variables_
-.. _Sass partials: http://sass-lang.com/documentation/file.SASS_REFERENCE.html#partials
-.. _the documentation for Sass partials: http://sass-lang.com/documentation/file.SASS_REFERENCE.html#partials
-.. _the documentation for Sass variable defaults: http://sass-lang.com/documentation/file.SASS_REFERENCE.html#variable_defaults_
-.. _Sass/CSS Styleguide: https://github.com/edx/ux-pattern-library/wiki/Styleguide:-Sass-&-CSS
-
 .. _Certificates Blog: http://blog.edx.org/news-about-edx-certificates?track=blog
 
 .. _News About edX Certificates: http://blog.edx.org/news-about-edx-certificates?track=blog
