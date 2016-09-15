@@ -4,9 +4,12 @@
 Creating a Theme
 ################
 
-To create a theme, you create a directory for it within the themes directory
-that you configured for your Open edX installation when you enabled theming.
-For more information about the themes directory, see :ref:`enable_theming`.
+To create a theme, you create a directory for it within the installation-wide
+themes directory that you added for your Open edX installation when you enabled
+theming. For more information about the themes directory, see
+:ref:`enable_theming`. Then, you copy UI files into the theme directory and
+update them to change the appearance of the Open edX sites that will use
+that theme.
 
 .. _understanding_themeable_ui_files:
 
@@ -32,8 +35,8 @@ Customizing Images
 You can override any of the images in the ``static/images`` directories for the
 components you are theming.
 
-The following table lists image assets that many Open edX sites choose to
-override.
+The following table lists Studio and LMS image assets that many Open edX sites
+choose to override.
 
 .. list-table::
    :widths: 20 40 40
@@ -59,6 +62,8 @@ override.
        30px by 30px, 50px by 50px, 120px by 120px, and 500px by 500px,
        respectively.
 
+.. reviewers, I copied this table from the existing themes doc to give people a place to start. If there are different/additional files, or this is no longer useful, let me know. - Alison
+
 ========================
 Customizing Sass Styling
 ========================
@@ -67,8 +72,11 @@ For the LMS and Studio, you can customize any of the Sass files in the
 ``static/sass`` directories.
 
 For Ecommerce, you can customize any of the Sass files in the
-``static/sass/partials`` directory. Do not customize Sass files in the
-``static/sass/base`` directory.
+``static/sass/partials`` directory.
+
+.. note:: Do not customize Sass files in the ``static/sass/base`` directory.
+
+.. reviewers, previously NO Sass variables were supported for theming. Is that still the case, or can people change any Sass styling, as indicated here? - Alison
 
 ==========================================
 Customizing Web Application Page Templates
@@ -101,14 +109,16 @@ override.
        the contents of the ``footer.html`` core template, and modifying it as
        necessary.
 
+.. reviewers, I copied this table from the existing themes doc to give people a place to start. If there are different/additional templates, or this is no longer useful, let me know. - Alison
+
 ***************************
 Naming a Theme Directory
 ***************************
 
-The name of the directory that you create identifies the theme. Therefore, to
+The name of the directory that you create to hold your versions of the image,
+theme, and Sass styling files identifies the theme. As a result, if you want to
 create a theme named ``my-theme``, the name of the directory in your
-comprehensive theme directory must be ``my-theme``. You put copies of the UI
-files that you want to override in that directory.
+installation-wide theme directory must be ``my-theme``.
 
 .. note::
 
@@ -117,12 +127,12 @@ files that you want to override in that directory.
     directories. The Open edX installation looks for a named theme in all of
     the theme directories that you configure.
 
-.. Maybe it's just me, but I think the distinction between the instance-wide themes directory (plural) and the site-specific theme directories (singular) is really hard to follow, and might not be accurately reflected in this draft. I'm also not understanding the multiple theme directories thing. - Alison
+.. I don't understand this note ^^ at all. Maybe it's just me, but I think the distinction between the instance-wide themes directory (plural) and the site-specific theme directories (singular) is really hard to follow, and might not be accurately reflected here. - Alison
 
 Because the UI files for the LMS and Studio are located together in the
 edx-platform repository, you can create a theme that applies to both the LMS
-and Studio. You must create themes for the E-commerce service in a separate
-theme directory.
+and Studio. If you want to create a theme for the E-commerce service, you must
+add a separate theme directory for its files.
 
 The theme directory holds the UI files that override the corresponding
 default files.
@@ -142,14 +152,13 @@ the files in the following example create a theme named ``my-theme``.
 Because the theme directory includes UI files in both the ``lms`` and ``cms``
 subdirectories, you can apply the theme to both the LMS and Studio.
 
-.. more accurate to say that the theme applies to both Studio and LMS?
+.. could we add to this with an example of an ecom them file? like, would this be a reasonable example? (I can't find the logo in ecommerce) /my-open-edx-themes/my-ecom-theme/ecommerce/static/sass/partials/components/_footer.scss ?? - Alison
 
 .. note::
 
     After you create or make changes to a theme, you must update the theme.
     Updating a theme compiles Sass files to create the CSS files that style
     your UIs. For more information, see :ref:`updating_themes`.
-
 
 .. _updating_themes:
 
