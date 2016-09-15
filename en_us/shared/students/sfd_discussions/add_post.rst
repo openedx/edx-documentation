@@ -138,6 +138,7 @@ The following steps apply only to content-specific discussions.
 #. Enter the text of your post. Select the buttons above the text field to see
    options for formatting the text and for adding links or images.
 
+   .. note:: Maximum file size per upload is 1MB.
    .. note:: Any text formatting or images that you add are only visible when
       others read your post in a web browser. The edX mobile app currently does
       not currently display added formatting or images.
