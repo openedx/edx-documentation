@@ -11,6 +11,7 @@ configuration options.
    :maxdepth: 2
 
    updating_platform
+   sites/index
    theming/index
    customize_registration_page
    config_allowed_regis_emails
