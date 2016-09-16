@@ -273,7 +273,34 @@ steps.
      the Django administration panel in the LMS. For more information about
      configuring the OIDC client, see :ref:`Configure OIDC`.
 
+*****************************************
+Switch from ShoppingCart to E-Commerce
+*****************************************
 
+By default, the ShoppingCart service is enabled when you install an Open edX
+instance. To use the E-Commerce service to handle ecommerce-related tasks
+instead of ShoppingCart, follow these steps.
+
+#. Sign in to the Django administration console for your base URL. For example,
+   ``http://{your_URL}/admin``.
+
+#. In the **Commerce** section, next to **Commerce configuration**, select **Add**. 
+
+#. Select **Enabled**.
+
+#. Select **Checkout on ecommerce service**.
+
+#. (Optional) In the **Single course checkout page**  field, override the
+   default path value of ``/basket/single-item/`` with your own path value.
+
+   .. important:: If you override the default path value, you must also change
+     all of the code that relies on that path.
+
+#. Set the **Cache Time To Live** value in seconds.
+
+#. Select the site for which you want to enable the E-Commerce service.
+
+#. Select **Save**.
 
 .. _Development Outside Devstack:
 
