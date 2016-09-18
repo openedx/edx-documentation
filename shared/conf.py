@@ -1,6 +1,6 @@
 # Shared configuration for edX docs.
 
-import sys, os, urllib
+import sys, os, urllib, datetime
 
 # on_rtd is whether we are on readthedocs.org, this line of code grabbed from docs.readthedocs.org
 on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
@@ -97,7 +97,7 @@ if the_builder != "json":
 
 # General information about the project.
 
-copyright = u'2016, edX Inc.'
+copyright = '{year}, edX Inc.'.format(year=datetime.datetime.now().year)
 
 
 
