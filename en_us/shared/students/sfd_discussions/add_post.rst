@@ -105,7 +105,7 @@ topics on the **Discussion** page.
    
      .. tip::
        If having trouble with uploading file, please make sure that the 
-       size of file is smaller than 1MB as there might be a maximum size limit.
+       size of file is smaller than 1 MB as there might be a maximum size limit.
      
 
    
@@ -166,7 +166,7 @@ The following steps apply only to content-specific discussions.
    
      .. tip::
        If having trouble with uploading file, please make sure that the 
-       size of file is smaller than 1MB as there might be a maximum size limit.
+       size of file is smaller than 1 MB as there might be a maximum size limit.
      
 
    
