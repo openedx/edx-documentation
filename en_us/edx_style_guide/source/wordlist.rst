@@ -18,6 +18,9 @@ Word List
    * - drop-down, dropdown
      - The edX problem type is labeled "dropdown". If it is necessary to
        describe a particular type of user interface control, use drop-down.
+   * - The E-Commerce service
+     - The part of the edX platform that handles payments. Always use with
+       "service".
    * - edx, edX, EdX
      - The company name is presented in mixed case: edX or edX, Inc. However,
        when a sentence begins with the company name, the first letter is also
@@ -29,9 +32,14 @@ Word List
        example, prefer "Send an email message" to "Send an email". Do not use
        as a verb.
    * - ID
-     - Capitalize. Use instead of id or Id.
+     - Capitalize. Use instead of "id" or "Id".
    * - instructor dashboard
      - Lowercase both words.
+   * - The edX mobile app
+     - There is one app, available for different platforms. Do not refer to
+       edX mobile apps (plural). Refer to numbered versions for the different
+       mobile platforms. For example, "Version 2.6.2 of the edX mobile app for
+       iOS is now available." "The edX mobile app for Android now supports..."
    * - learner
      - Use instead of "student", except when referring to a UI label.
    * - page
