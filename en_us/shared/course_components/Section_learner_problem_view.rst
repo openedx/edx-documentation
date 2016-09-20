@@ -4,12 +4,14 @@
 The Learner View of a Problem
 ************************************
 
-All problems on the edX platform have several component parts.
+All problems on the edX platform have these component parts, some of which can
+be configured. For configurable options, you can specify whether and when
+an option is available in problems.
 
-.. image:: ../../../shared/images/AnatomyOfExercise1.png
+.. image:: ../../../shared/images/AnatomyOfExercise.png
   :alt: A problem from a learner's point of view, with numbered callouts for
        elements of the problem.
-  :width: 400
+  :width: 600
 
 #. **Problem text.** The problem text can contain any standard HTML formatting.
 
@@ -19,19 +21,11 @@ All problems on the edX platform have several component parts.
 #. **Rendered answer.** For some problem types, the LMS uses MathJax to render
    plain text as "beautiful math."
 
-#. **Check.** The learner selects **Check** to submit a response or find out if
-   his answer is correct. If the answer is correct, a green check mark appears.
-   If it is incorrect, a red X appears. When a learner selects **Check**, the
-   LMS saves the grade and current state of the problem.
-
-#. **Save.** The learner can select **Save** to save his current response
-   without submitting it for a grade. This allows the learner to stop working
-   on a problem and come back to it later.
-
-#. **Show Answer.** This button is optional. When the learner selects **Show
-   Answer**, the learner sees both the correct answer (see 2 above) and the
-   explanation (see 10 below). You define whether the **Show Answer** button is
-   visible.
+#. **Submit.** When a learner selects **Submit** to submit a response for a
+   problem, the LMS saves the grade and current state of the problem. The LMS
+   immediately provides feedback about whether the response is correct or
+   incorrect, as well as the problem score. The **Submit** button remains
+   available if the learner has unused attempts remaining, so that she can try to answer the problem again.
 
 #. **Attempts.** You can set a specific number of attempts or allow unlimited
    attempts for a problem. By default, the course-wide **Maximum Attempts**
@@ -40,50 +34,66 @@ All problems on the edX platform have several component parts.
    changed to a specific number, the **Maximum Attempts** setting for
    individual problems defaults to that number, and cannot be set to unlimited.
 
-   .. image:: ../../../shared/images/AnatomyOfExercise2.png
-    :alt: A problem from a learner's point of view, with numbered callouts for
-          attempts and showing the answer.
-    :width: 500
+#. **Save.** The learner can select **Save** to save his current response
+   without submitting it for grading. This allows the learner to stop working
+   on a problem and come back to it later.
 
-#. **Feedback.** After a learner selects **Check**, all problems return a green
-   check mark or a red X.
+#. **Reset.** This button is optional. You can specify whether the **Reset**
+   button is available for a problem. This setting at the problem level
+   overrides the default setting for the course in **Advanced Settings**.
 
-#. **Correct answer.** Most problems require that you specify a single correct
-   answer.
-
-#. **Explanation.** You can include an explanation that appears when a learner
-   selects **Show Answer**.
-
-#. **Reset.** Learners can select **Reset** to clear any input that has not yet
-   been submitted, and try again to answer the question.
+   If the **Reset** button is available, learners can select **Reset** to
+   clear any input that has not yet been submitted, and try again to answer
+   the question.
 
    * If the learner has already submitted an answer, selecting **Reset** clears
      the submission and, if the problem includes a Python script to randomize
      variables and the randomization setting is **On Reset**, changes the
      values the learner sees in the problem.
 
+   * If the problem has already been answered correctly, **Reset** is not
+     available.
+
    * If the number of **Maximum Attempts** that was set for this problem has
-     been reached, **Reset** is not visible.
+     been reached, **Reset** is not available.
 
-#. **Hide Answer.**
+#. **Show Answer.** This button is optional. You can specify whether this
+   button is available for a problem. If a learner selects **Show Answer**,
+   the learner sees both the correct answer and the explanation, if any, and
+   can no longer select **Submit** to submit a response to the problem.
 
-   .. image:: ../../../shared/images/AnatomyOfExercise3.png
-    :alt: A section and its subsections in the course navigation pane, with
-        numbered callouts for the graded content icon and the due date.
-    :width: 200
+   .. image:: ../../../shared/images/AnatomyOfExercise2.png
+     :alt: A problem from a learner's point of view, with callouts showing the
+           feedback elements of an answered problem.
+     :width: 600
 
-#. **Grading.** You can specify whether a group of problems is graded. If a
-   group of problems is graded, an icon of a pen and a piece of paper appears
-   or that assignment in the course navigation pane.
+9. **Feedback.** After a learner selects **Submit**, a green check mark or a
+   red X appears beside each response field or selection within a problem.
+   Underneath the problem, feedback text indicates whether the problem was
+   answered correctly, incorrectly, or partially correctly, and shows the problem
+   score.
 
-#. **Due date.** The date that the problem is due. A problem that is past due
-   does not offer a **Check** option. It also does not accept answers or
-   provide feedback.
+In addition to the items above, which are shown in the example, problems also
+have the following elements.
 
-.. note:: Problems can be **open** or **closed**. Closed problems do not
-          have a **Check** option. Learners can still see questions, solutions,
-          and revealed explanations, but they cannot check their work, submit
-          responses, or change an earlier score.
+* **Correct answer.** Most problems require that you specify a single correct
+  answer.
+
+* **Explanation.** You can include an explanation that appears when a learner
+  selects **Show Answer**.
+
+* **Grading.** You can specify whether a group of problems is graded. If a group
+  of problems is graded, an icon of a pen and a piece of paper is shown for
+  that assignment in the course navigation pane.
+
+* **Due date.** The date that the problem is due. A problem that is past due
+  does not offer a **Submit** option. It also does not accept answers or
+  provide feedback.
+
+.. note:: Problems can be **open** or **closed**. Closed problems, such as
+   problems whose due dates are in the past, do not have **Submit** or
+   **Reset** options. Learners can still see questions, solutions, and
+   revealed explanations, but they cannot submit responses or reset problems.
 
 There are also some attributes of problems that are not immediately
 visible. You can set these attributes in Studio.
@@ -93,10 +103,10 @@ visible. You can set these attributes in Studio.
   labeled as the question is used by screen readers, reports, and Insights. For
   more information, see :ref:`Simple Editor`.
 
-*  **Randomization.** In certain types of problems, you can include a Python
-   script to randomize the values that are presented to learners. You use this
-   setting to define when values are randomized. For more information, see
-   :ref:`Randomization`.
+* **Randomization.** In certain types of problems, you can include a Python
+  script to randomize the values that are presented to learners. You use this
+  setting to define when values are randomized. For more information, see
+  :ref:`Randomization`.
 
 *  **Weight.** Different problems in a particular problem set can be
-   given different weights.
+   given different weights. For more information, see :ref:`Problem Weight`.

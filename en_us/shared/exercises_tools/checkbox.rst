@@ -23,8 +23,8 @@ Overview
 **********
 
 In checkbox problems, learners select one or more options from a list of
-possible answers. To answer the problem correctly, a learner must select all of
-the options that are correct answers, and none of the options that are
+possible answers. To answer the problem correctly, a learner must select all
+of the options that are correct answers, and none of the options that are
 incorrect. The course team must set up each checkbox problem to have at least
 one correct answer.
 
@@ -36,15 +36,20 @@ learners, especially if the problems have a limited number of attempts.
 Example Checkbox Problem
 =============================
 
-In the LMS, learners both check answer options that they believe are correct
-and leave unchecked the answer options that they believe are incorrect to
-complete a checkbox problem. An example of a completed checkbox problem
-follows.
+In the LMS, learners complete a checkbox problem by selecting the answer
+options that they believe are correct as well as leaving unselected the answer
+options that they believe are incorrect. An example of a completed checkbox
+problem follows. This problem was incorrectly answered because the learner
+selected only two of the three required answer options. This example also
+shows that the learner selected **Show Answer** to reveal the correct answer
+and an explanation. Having selected **Show Answer**, he can no longer submit
+further responses.
 
 .. image:: ../../../shared/images/CheckboxExample.png
- :alt: An incorrectly answered checkbox problem shown in the LMS. Of the answer
-     options, only two of the three required answer options was checked. An
-     explanation appears below the answer options.
+ :alt: An checkbox problem shown in the LMS. This problem was incorrectly
+    answered because the learner selected only two of the three required answer
+    options. An explanation appears below the answer options because the
+    learner also selected "Show Answer".
 
 To add the example problem illustrated above, in Studio you use the simple
 editor to enter the following text and Markdown formatting.
@@ -242,7 +247,7 @@ whether learners select a given option or leave it unselected.
 
 ::
 
-  >>Which of the following is an example of a fruit?||Check all that apply.<<
+  >>Which of the following is an example of a fruit?||Select all that apply.<<
 
   [x] apple {{ selected: You are correct that an apple is a fruit because it
   is the fertilized ovary that comes from an apple tree and contains seeds. },
@@ -326,7 +331,7 @@ unselected.
   <problem>
     <choiceresponse>
       <label>Which of the following is an example of a fruit?</label>
-      <description>Check all that apply.</description>
+      <description>Select all that apply.</description>
       <checkboxgroup>
         <choice correct="true">apple
           <choicehint selected="true">You are correct that an apple is a fruit
@@ -510,7 +515,7 @@ updated to provide partial credit.
   <problem>
     <choiceresponse partial_credit="EDC">
       <label>Which of the following is a fruit?</label>
-      <description>Check all that apply.</description>
+      <description>Select all that apply.</description>
       <checkboxgroup>
         <choice correct="true">apple</choice>
         <choice correct="true">pumpkin</choice>
@@ -684,7 +689,7 @@ halves.
   <problem>
     <choiceresponse partial_credit="halves">
       <label>Which of the following is a fruit?</label>
-      <description>Check all that apply.</description>
+      <description>Select all that apply.</description>
       <checkboxgroup>
         <choice correct="true">apple</choice>
         <choice correct="true">pumpkin</choice>

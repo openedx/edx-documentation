@@ -31,12 +31,12 @@ An external grader is particularly useful for software programming courses
 where learners are asked to submit complex code. The grader can run tests that
 you define on that code and return results to a learner.
 
-For example, you define a problem that requires learners to submit Python code,
-and create a set of tests that an external grader can run to verify the
+For example, you define a problem that requires learners to submit Python
+code, and create a set of tests that an external grader can run to verify the
 submissions. When a learner enters Python code for the problem and selects
-**Check**, the code is sent to the grader for testing.  If the code passes all
-tests, the grader returns the score and a string indicating that the solution
-is correct.
+**Submit**, the code is sent to the grader for testing.  If the code passes
+all tests, the grader returns the score and a string indicating that the
+solution is correct.
 
 .. image:: ../../../shared/images/external-grader-correct.png
  :alt: Image of a learner's view of a programming problem that uses an external grader, with a correct result.
@@ -82,7 +82,7 @@ The following steps describe the complete process of an external grader
 evaluating a problem.
 
 #. The learner either enters code or attaches a file for a problem, then
-   selects **Check**.
+   selects **Submit**.
 
 #. The external grader pulls the code from XQueue.
 

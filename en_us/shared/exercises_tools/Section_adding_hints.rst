@@ -22,7 +22,7 @@ Feedback in Response to Attempted Answers
 You can add feedback that displays to learners after they submit an answer.
 
 For example, the following multiple choice problem provides feedback in
-response to the selected option when the learner selects **Check**. In this
+response to the selected option when the learner selects **Submit**. In this
 case, feedback is given for an incorrect answer.
 
 .. image:: ../../../shared/images/multiple_choice_feedback.png
@@ -60,14 +60,14 @@ access the hints by selecting **Hint** beneath the problem.  A learner can view
 multiple hints by selecting **Hint** multiple times.
 
 For example, in the following multiple choice problem, the learner selects
-**Hint** before attempting the answer.
+**Hint** after having made one incorrect attempt.
 
 .. image:: ../../../shared/images/multiple_choice_hint.png
  :alt: Image of a multiple choice problem with the first hint.
  :width: 600
 
-The hint indicates that it is the first of two hints. The learner selects
-**Hint** a second time.
+The hint text indicates that it is the first of two hints. The learner selects
+**Next Hint**.
 
 .. image:: ../../../shared/images/multiple_choice_hint2.png
  :alt: Image of a multiple choice problem with the second hint.
