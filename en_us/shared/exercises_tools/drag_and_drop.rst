@@ -103,10 +103,10 @@ The background image for a drag and drop problem is the surface that learners
 drag items onto.
 
 A target zone is a rectangular area on the background image. You can show or
-hide the borders of a zone for learners. You can add Titles for zones or leave
-the Title field empty. However, you must provide a Description for each zone.
-The Description is only exposed to screen reader users and should sufficiently
-describe the zone in relation to the background image.
+hide the borders of a zone for learners. You can add titles for zones or leave
+the **Title** field empty. However, you must fill in the **Description** field
+for each zone. The description is only used by screen readers. The description
+must sufficiently describe the position of the zone on the background image.
 
 A background image must fit within the course screen. The LMS automatically
 scales images that are too wide. If you choose a background image that is
