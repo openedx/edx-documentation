@@ -228,6 +228,19 @@ this command.
      - Yes
      - Address from which email messages are sent.
      - ``--from-email=notifications@example.com``
+   * - ``--enable-enrollment-codes``
+     - No
+     - Indication that specifies whether enrollment codes for seats can be
+       created.
+     - ``--enable-enrollment-codes=True``
+   * - ``--payment-support-email``
+     - No
+     - Email address displayed to user for payment support.
+     - ``--payment-support-email=support@example.com``
+   * - ``--payment-support-url``
+     - No
+     - URL displayed to user for payment support.
+     - ``--payment-support-url=https://example.com/support``
 
 
 To add another site, use the appropriate settings module for your environment
