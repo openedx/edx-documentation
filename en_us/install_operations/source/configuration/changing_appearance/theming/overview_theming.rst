@@ -1,7 +1,7 @@
 .. _Theming Overview:
 
 ###################
-Theming Overview
+Themes Overview
 ###################
 
 .. what to name this overview section? I kind of hate "theme" as anything but a noun - Alison
@@ -9,10 +9,11 @@ Theming Overview
 To override the files that constitute the default Open edX theme, you create
 replacements for one or more of those files, place them in file paths that are
 constructed and named in parallel to the default file locations, and then
-configure your Open edX instance to use the files in the theme's directories
-instead of the default locations. To render the website for your instance, Open
-edX looks for files in the theme directories first, and uses any file that
-matches the exact file path and file name of a default UI file.
+configure your Open edX instance to use the files in your theme's directories
+instead of the default locations. To render the website for your instance Open
+edX first looks for files in your theme directories, and uses any file that
+matches the exact file path and file name of a default UI file. If matching
+files are not found, then Open edX looks in the default location.
 
 .. I would like to add something here about what you can do to get started, along the lines of: To review the files that make up the default Open edX theme, and assess which ones you might want to replace,... look somewhere in your devstack? See :ref:`understanding_themeable_ui_files`? -- but I'm not sure what to say. The files used by the theme seem to be widely distributed, and we no longer seem to have a narrowly defined set of files that are supported for theming. - Alison
 

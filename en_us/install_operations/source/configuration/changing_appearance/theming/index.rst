@@ -9,7 +9,8 @@ logo, the color scheme, and the links in the page headers and footers are
 examples of different aspects of an Open edX site that are defined by its
 theme.
 
-Open edX provides a default theme that you can override by creating image. You
+Open edX provides a default theme that is defined by page templates, CSS
+styling, and assets such as images that are provided in the Open edX code. You
 can change the appearance of the following parts of an Open edX site.
 
 * The Studio UI, which is used by course teams.
@@ -31,4 +32,4 @@ site looks, without changing how it works.
    create_theme
    applying_themes
 
-In addition, an `example theme<https://github.com/edx/edx-platform/tree/master/themes/example/lms>`_ is available for review.
+In addition, an `example theme <https://github.com/edx/edx-sample-themes>`_ is available for review.
