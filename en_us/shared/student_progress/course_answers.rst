@@ -99,7 +99,7 @@ to view.
 **Record 2: Problem Checked (Browser)**
 
 The next interaction shown as you scroll up from the bottom records when the
-learner selected **Check** in the browser to submit an answer. Note that this
+learner selected **Submit** in the browser to submit an answer. Note that this
 record does not contain the actual answer submitted.
 
 .. code-block:: none
@@ -160,7 +160,7 @@ after the learner submitted the answer. This record includes
 
 When a problem gives learners multiple attempts at the correct answer, and the
 learner tries again, an additional record is added when a learner selects
-**Check** again. The server has not yet processed the new submission, so the
+**Submit** again. The server has not yet processed the new submission, so the
 data in the record is almost identical to the data in record 3.
 
 **Record 5: Problem Retried (Server)**

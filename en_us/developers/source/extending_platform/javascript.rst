@@ -154,7 +154,7 @@ setState() Function
 
 Your application must contain a ``setState()`` function.
 
-The ``setState()`` function is executed when the student clicks **Check**.
+The ``setState()`` function is executed when the student selects **Submit**.
 
 The function saves application's state so that the student can later return to
 the application and find it as he or she left it.
@@ -177,9 +177,9 @@ getGrade() Function
 
 Your application must contain a ``getGrade()`` function.
 
-The ``getGrade()`` function is executed when the student clicks **Check**. The
-``getState()`` function must return the state of objects on which grading is
-based as a JSON string.
+The ``getGrade()`` function is executed when the student selects **Submit**.
+The ``getState()`` function must return the state of objects on which grading
+is based as a JSON string.
 
 The JSON string returned by ``getGrade()`` is used by the Python code in the
 problem to determine the student's results, as explained below.
@@ -200,9 +200,10 @@ Grade the Student Response with Python
 ***************************************
 
 To grade a student's interaction with your JavaScript application, you must
-write Python code in the problem. When a student clicks **Check**, the Python
-code parses the JSON string returned by the application's ``getGrade()``
-function and determines if the student's submission is correct or not.
+write Python code in the problem. When a student selects **Submit**, the
+Python code parses the JSON string returned by the application's
+``getGrade()`` function and determines if the student's submission is correct
+or not.
 
 .. note:: Grading for JavaScript applications supports determining if a student's submission is correct or not. You cannot give partial credit with JavaScript applications.
 
@@ -212,8 +213,8 @@ In the Python code, you must:
 
 * Import ``json``
 
-* Define a function that is executed when the student clicks Check. This
-  function:
+* Define a function that is executed when the student selects **Submit**. This
+function:
 
   * Is placed before the ``customresponse`` element that defines the problem.
   * By default is named ``vglcfn``

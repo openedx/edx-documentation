@@ -38,7 +38,7 @@ problem. An example of a completed dropdown problem follows.
  :alt: A problem component that contains a series of three dropdown problems.
      The questions have been answered, and two are marked incorrect and one
      correct.
- :width: 600
+ :width: 400
 
 In this example, a single problem component contains multiple questions, all of
 them using the dropdown problem type. To add the example illustrated
@@ -57,7 +57,7 @@ editor in Studio.
   Continuous
   ]]
   ---
-  >>What type of data is life stage (for example, infant, child, or adult)?<<
+  >>What type of data is life stage, such as infant, child, or adult?<<
   [[(Nominal), Discrete, Continuous]]
 
 .. note:: You separate :ref:`multiple questions<Multiple Problems in
@@ -81,7 +81,7 @@ The OLX markup for this example problem follows.
        correct="Discrete"></optioninput>
       </optionresponse>
     <optionresponse>
-      <label>What type of data is life stage (for example, infant, child, or adult)?</label>
+      <label>What type of data is life stage, such as infant, child, or adult?</label>
       <optioninput options="('Nominal','Discrete','Continuous')"
        correct="Nominal"></optioninput>
     </optionresponse>

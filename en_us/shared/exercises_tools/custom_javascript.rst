@@ -1,8 +1,8 @@
 .. _Custom JavaScript:
 
-###########################
-Custom JavaScript Problem
-###########################
+##############################################
+Custom JavaScript Display and Grading Problem
+##############################################
 
 .. note:: EdX offers full support for this problem type.
 
@@ -31,7 +31,7 @@ Google Web Toolkit (GWT), to create your JS input problem.
   * The **Show Answer** button does not work for JS input problems. By
     default, the **Show Answer** option is set to **Never**. If you change
     this option in the problem component, a **Show Answer** button appears in
-    the LMS, but the button does not work.
+    the learner's view of the problem in the LMS, but the button does not work.
 
 .. note::
   You can make a calculator available to your learners on every unit
@@ -104,39 +104,42 @@ JavaScript Input Problem Code
 
 .. code-block:: xml
 
-    <problem display_name="webGLDemo">
-    In the image below, click the cone.
+  <problem>
+  <customresponse cfn="vglcfn">
+  <script type="loncapa/python">
+  <![CDATA[
+  import json
+  def vglcfn(e, ans):
+     '''
+     par is a dictionary that contains two keys, "answer" and "state".
+     The value of "answer" is the JSON string that "getGrade" returns.
+     The value of "state" is the JSON string that "getState" returns.
+     Clicking either "Submit" or "Save" registers the current state.
 
-    <script type="loncapa/python">
-    import json
-    def vglcfn(e, ans):
-        '''
-        par is a dictionary containing two keys, "answer" and "state"
-        The value of answer is the JSON string returned by getGrade
-        The value of state is the JSON string returned by getState
-        '''
-        par = json.loads(ans)
-        # We can use either the value of the answer key to grade
-        answer = json.loads(par["answer"])
-        return answer["cylinder"]  and not answer["cube"]
-        # Or we can use the value of the state key
-        '''
-        state = json.loads(par["state"])
-        selectedObjects = state["selectedObjects"]
-        return selectedObjects["cylinder"] and not selectedObjects["cube"]
-        '''
-    </script>
-    <customresponse cfn="vglcfn">
-        <jsinput
-            gradefn="WebGLDemo.getGrade"
-            get_statefn="WebGLDemo.getState"
-            set_statefn="WebGLDemo.setState"
-            width="400"
-            height="400"
-            html_file="/static/webGLDemo.html"
-        />
-    </customresponse>
-    </problem>
+     '''
+     par = json.loads(ans)
+     # You can use the value of the answer key to grade:
+     answer = json.loads(par["answer"])
+     return answer["cylinder"] and not answer["cube"]
+     '''
+     # Or you can use the value of the state key to grade:
+     state = json.loads(par["state"])
+     selectedObjects = state["selectedObjects"]
+     return selectedObjects["cylinder"] and not selectedObjects["cube"]
+     '''
+  ]]>
+  </script>
+  <p>In the image below, click the objects until the cone is yellow and the cube is blue.</p>
+      <jsinput
+          gradefn="WebGLDemo.getGrade"
+          get_statefn="WebGLDemo.getState"
+          set_statefn="WebGLDemo.setState"
+          width="400"
+          height="400"
+          html_file="https://studio.edx.org/c4x/edX/DemoX/asset/webGLDemo.html"
+      />
+  </customresponse>
+  </problem>
 
 
 .. note::    When you create this problem, keep the following in mind.
@@ -162,9 +165,9 @@ JavaScript Input Problem Code
    shape to select and unselect it.
 
  - The response is graded as correct if the cone is selected (yellow) when the
-   user selects **Check**.
+   user selects **Submit**.
 
- - Selecting **Check** or **Save** registers the problem's current state.
+ - Selecting **Submit** or **Save** registers the problem's current state.
 
 
 .. _JS Input Problem XML:
@@ -244,7 +247,7 @@ Required Attributes
 * **gradefn**
 
   The **gradefn** attribute specifies the name of the function that will be
-  called when a user selects **Check**, and that returns the learner's answer.
+  called when a user selects **Submit**, and that returns the learner's answer.
   Unless both the **get_statefn** and **set_statefn** attributes are also
   used, this answer is passed as a string to the enclosing response type. In
   the **customresponse** example above, this means **cfn** will be passed this

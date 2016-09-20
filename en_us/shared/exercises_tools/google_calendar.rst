@@ -33,10 +33,8 @@ Overview
 
 You can embed a Google Calendar in your course so that learners see the
 calendar in the course body. You can use a Google Calendar to share quiz dates,
-office hours, or other schedules of interest to learners. For example:
+office hours, or other schedules of interest to learners.
 
-.. image:: ../../../shared/images/google-calendar.png
-  :alt: A Google Calendar in the course body.
 
 *******************************************
 Embedding a Google Calendar in Your Course
@@ -175,15 +173,7 @@ To add a Google Calendar component, follow these steps.
    The new component is added to the unit, with the default edX Google Calendar
    embedded.
 
-   .. image:: ../../../shared/images/google-calendar-studio.png
-    :width: 600
-    :alt: The Google Calendar component in a unit page.
-
 #. In the new component, select **Edit**.
-
-   .. image:: ../../../shared/images/google-calendar-edit.png
-    :width: 600
-    :alt: The Google Calendar editor.
 
 #. In the **Display Name** field, type the name for the component.
 

@@ -71,11 +71,8 @@ editor to enter the following text and Markdown formatting.
 
    >>In what base is the decimal numeral system?<<
 
-   =10
+   =10 {{The decimal numeral system is in base ten.}}
 
-   [explanation]
-   The decimal numeral system is base ten.
-   [explanation]
 
 The open learning XML (OLX) markup for this example numerical input problem
 follows.
@@ -465,7 +462,7 @@ correct answer and received partial credit.
 
 .. image:: ../../../shared/images/partial_credit_numerical_input.png
  :alt: A numerical input problem with partial credit for a close answer.
- :width: 600
+
 
 For an overview of partial credit in problems, see
 :ref:`Awarding Partial Credit for a Problem`.
