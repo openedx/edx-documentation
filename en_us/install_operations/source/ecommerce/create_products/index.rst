@@ -15,5 +15,6 @@ information, see the following topics.
    create_products_overview
    create_course_seats
    create_coupons
+   create_enrollment_codes
 
 .. include:: ../../../../links/links.rst

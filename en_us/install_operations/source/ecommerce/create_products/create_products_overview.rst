@@ -4,8 +4,8 @@
 Creating Products Overview
 ###########################
 
-The edX platform offers two types of products. You create both products in
-E-Commerce web pages that are similar to the Django administration panel.
+The edX platform offers several types of products. You create these products in
+E-Commerce web pages.
 
 * Course seats represent enrollment types. Each course seat has an associated
   set of attributes, such as price and certificate availability. The edX code
@@ -15,6 +15,8 @@ E-Commerce web pages that are similar to the Django administration panel.
 * Coupons allow users to offer learners a discount, either percentage or fixed
   amount, off a course enrollment. For more information, see :ref:`Create and
   Manage Coupons`.
+
+* Enrollment codes allow users to purchase bulk enrollments for a course.
 
 ******************************
 Prepare to Create a Product
