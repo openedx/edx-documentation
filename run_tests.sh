@@ -35,20 +35,17 @@ if [ ${#projects[@]} -eq 0 ]
 then
     projects=(
         "en_us/course_authors"
-        "en_us/course_catalog_api_user_guide"
         "en_us/data"
         "en_us/developers"
         "en_us/edx_style_guide"
         "en_us/install_operations"
         "en_us/landing_page"
-        "en_us/olx"
         "en_us/open_edx_course_authors"
         "en_us/open_edx_release_notes"
         "en_us/open_edx_students"
         "en_us/ORA2"
         "en_us/release_notes"
         "en_us/students"
-        "en_us/xblock-tutorial"
     )
 fi
 
