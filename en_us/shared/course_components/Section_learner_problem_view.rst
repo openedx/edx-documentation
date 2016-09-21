@@ -28,10 +28,11 @@ All problems on the edX platform have several component parts.
    without submitting it for a grade. This allows the learner to stop working
    on a problem and come back to it later.
 
-#. **Show Answer.** This button is optional. When the learner selects **Show
-   Answer**, the learner sees both the correct answer (see 2 above) and the
-   explanation (see 10 below). You define whether the **Show Answer** button is
-   visible.
+#. **Show Answer.** This button is optional. You define whether the **Show
+   Answer** button is available for a problem. If a learner selects **Show
+   Answer**, the learner sees both the correct answer and the explanation (if
+   any), and can no longer select **Submit** to submit a response to the
+   problem.
 
 #. **Attempts.** You can set a specific number of attempts or allow unlimited
    attempts for a problem. By default, the course-wide **Maximum Attempts**
@@ -65,7 +66,6 @@ All problems on the edX platform have several component parts.
    * If the number of **Maximum Attempts** that was set for this problem has
      been reached, **Reset** is not visible.
 
-#. **Hide Answer.**
 
    .. image:: ../../../shared/images/AnatomyOfExercise3.png
     :alt: A section and its subsections in the course navigation pane, with
