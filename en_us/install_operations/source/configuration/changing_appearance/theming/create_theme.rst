@@ -10,6 +10,10 @@ installation. Then, you copy default UI files into your theme directory and
 update them to change the appearance of the Open edX site or sites that will
 use that theme.
 
+.. contents::
+   :local:
+   :depth: 1
+
 For more information about the themes directory, see
 :ref:`enable_theming`.
 
@@ -20,102 +24,32 @@ Understanding Which UI Files Can Be Themed
 ******************************************
 
 You can customize the default images, Sass, and web application template files
-for the Open edX components in your installation. The UI files are stored in
-the directories shown in the following example theme directory. You can examine
-the default UI files in the source repository of the component that you want to
-apply the theme to.
+for the Open edX components in your installation.
+
+* To replace an image, you can override any of the images in the
+  ``static/images`` directories for the components you are theming.
+
+* For the LMS and Studio, you can customize any of the Sass files in the
+  ``static/sass`` directories.
+
+* For the E-commerce service, you can customize any of the Sass files in the
+  ``static/sass/partials`` directory.
+
+  .. note:: Do not customize Sass files in the ``static/sass/base`` directory.
+
+* You can override any of the HTML templates in the ``lms/templates`` or
+  ``cms/templates`` directories for the components that you want to apply a
+  theme to.
+
+UI files for the LMS are stored in the directories shown in the following
+example theme directory. You can examine the default UI files in the source
+repository of the component that you want to apply the theme to.
 
 .. code-block:: none
 
     /my-open-edx-themes/my-theme/lms/static/images
     /my-open-edx-themes/my-theme/lms/static/sass
     /my-open-edx-themes/my-theme/lms/templates
-
-==================
-Customizing Images
-==================
-
-You can override any of the images in the ``static/images`` directories for the
-components you are theming.
-
-The following table lists some common Studio and LMS image assets that many
-Open edX sites choose to override.
-
-.. list-table::
-   :widths: 20 40 40
-   :header-rows: 1
-
-   * - Component
-     - Asset
-     - Description
-   * - LMS
-     - ``images/logo.png``
-     - The logo for the LMS. Displayed in the upper corner of the LMS.
-   * - Studio
-     - ``images/studio-logo.png``
-     - The logo for Studio. Displayed in the upper corner of Studio.
-   * - E-Commerce
-     - ``static/images/logo.png``
-     - The logo for the E-Commerce service. Displayed in the upper corner of
-       the E-Commerce service.
-   * - LMS
-     - ``images/profiles/default_30.png``
-       ``images/profiles/default_50.png``
-       ``images/profiles/default_120.png``
-       ``images/profiles/default_500.png``
-     - Default profile images for learner profiles.
-       The default image displays for learners until they upload their own
-       profile images. These image files are named based on their sizes:
-       30px by 30px, 50px by 50px, 120px by 120px, and 500px by 500px,
-       respectively.
-
-========================
-Customizing Sass Styling
-========================
-
-For the LMS and Studio, you can customize any of the Sass files in the
-``static/sass`` directories.
-
-For the E-commerce service, you can customize any of the Sass files in the
-``static/sass/partials`` directory.
-
-.. note:: Do not customize Sass files in the ``static/sass/base`` directory.
-
-==========================================
-Customizing Web Application Page Templates
-==========================================
-
-You can override any of the templates for the components that you want to apply
-a theme to.
-
-.. ^^ reviewers can you help me out here? I corrected the copy and paste error but a directory would be good to have here - Alison
-
-The following table lists some common templates that many Open edX sites choose
-to override.
-
-.. list-table::
-   :widths: 20 40 40
-   :header-rows: 1
-
-   * - Component
-     - Template
-     - Description
-   * - LMS
-     - ``header.html``
-     - The page header for the LMS. This template is used for the top of the
-       ``<body>`` element on the page, not for the ``<head>`` element of the
-       page. EdX recommends that you start by copying the contents of the
-       ``navigation.html`` core template, and modifying it as necessary.
-   * - LMS
-     - ``footer.html``
-     - The page footer for the LMS. EdX recommends that you start by copying
-       the contents of the ``footer.html`` core template, and modifying it as
-       necessary.
-   * - E-Commerce
-     - ``oscar/dashboard/index.html``
-     - TBD
-
-.. nice to have: some idea of what this file ^^ does
 
 ***************************
 Naming a Theme Directory
@@ -179,12 +113,11 @@ Update a Theme for the LMS or Studio
 
 To update a theme for Studio or the LMS, follow these steps.
 
-#. Log in to the Studio and LMS server as the ``edxapp`` user.
+#. Log in to the Open edX machine as the ``edxapp`` user.
 
 #. Change to the ``/edx/app/edxapp/edx-platform`` directory.
 
-#. On devstack, invoke the ``paver update_assets`` command to update and apply
-   all themes.
+#. Invoke the ``paver update_assets`` command to update and apply all themes.
 
    If you want to update specific themes, use the options described in the
    following table.

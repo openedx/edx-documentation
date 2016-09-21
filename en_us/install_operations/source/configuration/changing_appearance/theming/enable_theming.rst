@@ -19,14 +19,18 @@ To enable theming for your Open edX installation, follow these steps.
    the root of the file system in a directory named ``/my-open-edx-themes``.
 
 #. Set the file permissions on the themes directory, and all of its
-   subdirectories, to enable read+write permissions for Open edX server users.
-   For example, to allow the ``edxapp`` user for the LMS and Studio to read and
-   write files in the themes directory, you might use the following commands.
+   subdirectories, to enable read+write permissions for the Ubuntu user.
+
+   For example, to allow the devstack ``edxapp`` user for the LMS and Studio to
+   read and write files in the themes directory, you might use the following
+   commands.
 
    .. code-block:: bash
 
      sudo chown -R edxapp:edxapp /my-open-edx-themes
      sudo chmod -R u+rw /my-open-edx-themes
+
+   On fullstack and native installations the Unbuntu user is ``www-data``.
 
 #. For each Open edX component that you want to theme, set the
    ``ENABLE_COMPREHENSIVE_THEMING`` configuration property to ``true``.
