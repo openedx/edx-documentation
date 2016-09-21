@@ -105,8 +105,10 @@ drag items onto.
 A target zone is a rectangular area on the background image. You can show or
 hide the borders of a zone for learners. You can add titles for zones or leave
 the **Title** field empty. However, you must fill in the **Description** field
-for each zone. The description is only used by screen readers. The description
-must sufficiently describe the position of the zone on the background image.
+for each zone. The description is only exposed to screen readers. The description
+must describe the content of the zone for visually impaired learners. For
+example, a zone that includes an apple might have a description that says
+"A round, red fruit with a stem."
 
 A background image must fit within the course screen. The LMS automatically
 scales images that are too wide. If you choose a background image that is
