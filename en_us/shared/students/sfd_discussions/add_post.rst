@@ -97,9 +97,9 @@ topics on the **Discussion** page.
    text box, and choose the image you want to upload by clicking on the **Choose File**
    button. Then add a description to the image in the **Description** text box. It
    is a good practice to add an image description to the image as it is useful for 
-   users who cannot see the image. However, if you do not wish to add an image, you
-   may check the check box **This image is for decorative purposes only and does not 
-   require a description.** given below.
+   users who cannot see the image. However, if you do not wish to add an image, 
+   you may check the check box below it which states **This image is for decorative
+   purposes only and does not require a description**.
 
    .. note:: Any text formatting or images that you add are only visible when
       others read your post in a web browser. The edX mobile app currently does
