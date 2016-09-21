@@ -57,7 +57,7 @@ required software to run the Open edX platform.
 If you are upgrading from the Dogwood release, see `Upgrading from Dogwood to
 Eucalyptus`_.
 
-Eucalyptus releases have Git tag names like ``open-release/eucalyptus.1``.
+Eucalyptus releases have Git tag names like ``open-release/eucalyptus.2``.
 The available names are detailed on the `Open edX Releases Wiki page`_.
 
 
@@ -90,7 +90,7 @@ edX, run the upgrade script for your type of installation.
 
     .. code-block:: bash
 
-        $ export OPENEDX_RELEASE=open-release/eucalyptus.1
+        $ export OPENEDX_RELEASE=open-release/eucalyptus.2
         $ curl -OL https://raw.github.com/edx/configuration/$OPENEDX_RELEASE/util/vagrant/upgrade.sh
 
 #.  Run the script.
