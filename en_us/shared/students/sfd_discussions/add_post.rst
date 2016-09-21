@@ -90,10 +90,16 @@ topics on the **Discussion** page.
    part of your post that others see when they are browsing on the
    **Discussion** page or scrolling through one of the content-specific topics.
 
-#. Enter the text of your post. To format the text or to add links or
-   images, use the formatting options above the text box. It is a good
-   practice to add an image description to the image as it is useful 
-   for users who cannot see (visually impaired or using screen readers).
+#. Enter the text of your post. To format the text or to add links or images,
+   use the formatting options above the text box. 
+
+#. To add an image, you need to choose the right formatting option from the above 
+   text box, and choose the image you want to upload by clicking on the **Choose File**
+   button. Then add a description to the image in the **Description** text box. It
+   is a good practice to add an image description to the image as it is useful for 
+   users who cannot see the image. However, if you do not wish to add an image, you
+   may check the check box **This image is for decorative purposes only and does not 
+   require a description.** given below.
 
    .. note:: Any text formatting or images that you add are only visible when
       others read your post in a web browser. The edX mobile app currently does
