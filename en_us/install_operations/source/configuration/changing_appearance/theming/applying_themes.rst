@@ -8,7 +8,8 @@ You apply themes to the sites that you have configured in your Open edX
 installation. If your installation does has only one site, you apply
 a theme to the default site.
 
-.. For more information about Open edX sites, see :ref:`Configuring Open edX Sites`.
+For more information about Open edX sites, see :ref:`Configuring Open edX
+Sites`.
 
 ************************
 Apply a Theme to a Site
