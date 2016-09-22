@@ -129,12 +129,14 @@ For more information, see the `Configuring Data Storage`_ wiki page.
 Themes for Multiple Sites
 ==========================
 
-With this release, it is now possible to configure themes for multiple sites
-in a single installation of the Open edX platform.
+With this release, it is now possible to configure themes for multiple sites in
+a single installation of the Open edX platform. For more information about how
+to configure multiple sites for your installation, see
+:ref:`installation:Configuring Open edX Sites`.
 
-Documentation updates for this feature are currently in progress. For real time
-conversations about theming, join our community `Slack`_ team on the #theming
-channel.
+Documentation updates for the theming feature are currently in progress. For
+real time conversations about theming, join our community `Slack`_ team on the
+#theming channel.
 
 .. _Slack: https://openedx-slack-invite.herokuapp.com/
 
@@ -563,7 +565,7 @@ Patch Releases
   exactly 3 arguments (2 given)" exception has been fixed.
 
 * Course discussion performance has been improved. (:jira:`TNL-5173`)
-  
+
 * Learners can now correctly add a comment to a response in inline course
   discussions.  (:jira:`TNL-5389`)
 

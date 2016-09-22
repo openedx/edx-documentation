@@ -18,9 +18,9 @@ This topic describes edX certificates and how to access them.
 Overview
 **********
 
-EdX awards certificates for courses that have a verified track and for edX
-programs, such as XSeries programs. Most certificates are web certificates that
-you can save or print.
+EdX awards certificates for courses that have a verified track, as well as for
+edX programs such as XSeries and MicroMasters programs. Most certificates are
+web certificates that you can save or print.
 
 To receive a certificate, you must enroll in the verified track for a
 course, verify your identity, and earn a passing grade.
@@ -38,9 +38,9 @@ Transcripts are not available for edX course work.
 Certificate Types
 ****************************
 
-EdX currently offers the following types of certificates: a verified
-certificate for a single course, and an XSeries certificate for a series of
-courses. Not all courses offer certificates.
+EdX currently offers the following types of certificates: verified certificates
+for single courses, and program certificates for a series of courses. Not all
+courses offer certificates.
 
 .. contents::
   :local:
@@ -99,34 +99,37 @@ catalog`_.
 
 .. _SFD XSeries Certificates:
 
-=========================
-XSeries Certificates
-=========================
+=============================================
+XSeries and MicroMasters Program Certificates
+=============================================
 
-XSeries certificates show that you have successfully earned a verified
-certificate for each course in a series of courses that make up an XSeries
-program.
+Certificates for XSeries and MicroMasters programs show that you have
+successfully earned a verified certificate for each course in the series of
+courses that make up the program.
 
-XSeries certificates include the following information.
+XSeries and MicroMasters program certificates include the following
+information.
 
 * Your name.
-* The name of the XSeries program.
-* The edX partner institution that created the XSeries program.
-* The names and signatures of one or more members of the XSeries team.
+* The name of the program.
+* The edX partner institution that created the program.
+* The names and signatures of one or more members of the program team.
 * The month and year when the certificate was issued.
 * A certificate ID that others can use to validate the certificate.
 
 For more information about XSeries programs, see `XSeries Programs`_.
 
-For a list of all courses that are part of an XSeries program, see the `edX
-course catalog`_.
+For more information about MicroMasters programs, see `MicroMasters Programs`_.
+
+For a list of all courses that are part of an XSeries or MicroMasters program,
+see the `edX course catalog`_.
 
 *************************
 Receiving a Certificate
 *************************
 
 Certificates for instructor-paced courses and for many self-paced courses are
-distributed automatically after a course or XSeries ends. In this case, you do
+distributed automatically after a course or program ends. In this case, you do
 not have to complete any additional steps to receive your certificate.
 
 In an instructor-paced course, the course team sets specific due dates for
@@ -262,20 +265,21 @@ these steps.
    * To download your certificate from your dashboard, select **Download Your
      Certificate** next to the name of your course.
 
-==============================
-Receive an XSeries Certificate
-==============================
+======================================================
+Receive an XSeries or MicroMasters Program Certificate
+======================================================
 
-You receive an XSeries certificate automatically after you earn verified
-certificates in all of the individual courses in an XSeries program. XSeries
-certificates are distributed immediately after you receive the verified
-certificate for the final course in the series.
+You receive a certificate for an XSeries or MicroMasters program automatically
+after you earn verified certificates in all of the individual courses in the
+program. Program certificates are distributed immediately after you receive the
+verified certificate for the final course in the program.
 
-XSeries certificates are visible on the **Programs** tab on your dashboard
-dashboard. The list of XSeries certificates that you have earned is one side of
-the page.
+The XSeries and MicroMasters program certificates that you have earned are
+visible on one side of the **Programs** tab on your dashboard.
 
 For more information about XSeries programs, see `XSeries Programs`_.
+
+For more information about MicroMasters programs, see `MicroMasters Programs`_.
 
 .. _SFD Sharing or Printing a Certificate:
 
@@ -297,7 +301,7 @@ You can share your web certificates on social media sites such as Facebook,
 LinkedIn, and Twitter.
 
 .. note::
- You can use these steps to share course and XSeries certificates on most
+ You can use these steps to share course and program certificates on most
  social media sites. To share an XSeries certificate on LinkedIn, see
  :ref:`Share an XSeries Certificate on LinkedIn`.
 
@@ -316,6 +320,9 @@ LinkedIn, and Twitter.
 
 Share an XSeries Certificate on LinkedIn
 ****************************************
+
+.. DOC-3330 calls for an update to this topic for MicroMasters if these steps
+.. apply to MM when certs become available. - Sylvia, 9/16/16
 
 To share an XSeries certificate on LinkedIn, follow these steps.
 
@@ -343,7 +350,7 @@ To share an XSeries certificate on LinkedIn, follow these steps.
 Share a Web Certificate URL
 ===========================
 
-Both course certificates and XSeries certificates have a certificate ID that
+Both course certificates and program certificates have a certificate ID that
 others, such as schools and potential employers, can use to verify that you
 received your certificate. The certificate ID is a 32-digit series of numbers
 and letters that is found at the bottom of the certificate.
@@ -380,6 +387,17 @@ To find the certificate URL, use one of the following methods.
 
        https://credentials.edx.org/credentials/a1b2c3d4e5f6g7h8i9j10k11l12m13n1
 
+=======================
+Share a PDF Certificate
+=======================
+
+You can share your PDF certificates on LinkedIn.
+
+On your learner dashboard, select **Add to profile** under the course.
+
+Your profile page in LinkedIn opens, with a prompt to confirm the addition of
+your certificate.
+
 .. _Print a Web Certificate:
 
 =======================
@@ -408,16 +426,7 @@ guidelines.
   similar option. Select that option and follow the onscreen instructions to
   print your certificate as a PDF.
 
-=======================
-Share a PDF Certificate
-=======================
 
-You can share your PDF certificates on LinkedIn.
-
-On your learner dashboard, select **Add to profile** under the course.
-
-Your profile page in LinkedIn opens, with a prompt to confirm the addition of
-your certificate.
 
 
 

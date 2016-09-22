@@ -147,10 +147,19 @@ Find or Change Course Information
   The **Programs** page lists all of your programs. You see a program on this
   page if you are enrolled in any courses that are part of that program.
 
-  EdX currently offers XSeries programs, which are groups of two to ten courses
-  that explore a specific subject in depth. You can earn a certificate for the
-  XSeries program and for the individual courses in the program. For more
-  information about XSeries programs, see `XSeries Programs`_.
+  EdX currently offers XSeries programs and MicroMasters programs.
+
+  XSeries programs are groups of two to ten courses that explore a specific
+  subject in depth. You can earn a certificate for the XSeries program and for
+  the individual courses in the program. For more information about XSeries
+  programs, see `XSeries Programs`_.
+
+  MicroMasters programs are a series of graduate level courses that you take
+  for credit in a specific career field. After you earn a MicroMasters
+  certificate, you can apply to a university that offers credit for the
+  MicroMasters courses. If you are accepted, you can then apply your
+  MicroMasters credit toward a master's degree at that university. For more
+  information about MicroMasters programs, see `MicroMasters Programs`_.
 
   On the **Programs** page, you can perform the following actions.
 
