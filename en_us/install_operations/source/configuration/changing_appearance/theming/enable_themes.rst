@@ -42,7 +42,7 @@ To enable the use of themes for your Open edX installation, follow these steps.
      sudo chown -R edxapp:edxapp /my-open-edx-themes
      sudo chmod -R u+rw /my-open-edx-themes
 
-   On fullstack and native installations the Unbuntu user is ``www-data``.
+   On fullstack and native installations the Ubuntu user is ``www-data``.
 
 #. For each Open edX component that you want to theme, set the
    ``ENABLE_COMPREHENSIVE_THEMING`` configuration property to ``true``.
