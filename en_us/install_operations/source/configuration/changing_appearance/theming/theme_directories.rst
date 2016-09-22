@@ -4,6 +4,30 @@
 Root Directories for Theme Files
 #################################
 
+Themes are located outside of the Open edX source directories, in any location
+you like.  For example, you might make a directory called
+``/my-open-edx-themes``.
+
+Within that directory, you will have a directory for each Open edX repo you 
+are theming, ``edx-platform`` and/or ``ecommerce``.
+
+Withing those directories, you will have a directory named for your theme, such
+as ``my-theme``.  You can create a number of themes, each with their own name.
+Within the theme directory, you create directories and files to parallel the
+structure in the corresponding Open edX repo.
+
+You might have a structure like this.
+
+.. code::
+
+    my-open-edx-themes
+    ├── ecommerce
+    │   └── my-theme
+    └── edx-platform
+        └── my-theme
+            ├── cms
+            └── lms
+
 You must give the files that you create for a theme the same relative file
 paths and file names as the default files that they override. Different root
 directories for the relative paths apply to Studio, the LMS, and the E-commerce
@@ -28,8 +52,8 @@ might be at one of the following file paths.
 The following subdirectories hold the UI files that you can override.
 
 * ``static`` holds media files such as images and styling resources such as
-  syntactically awesome style sheet (Sass) files that produce cascading style
-  sheet (CSS) files.
+  Syntactically Awesome Style Sheet (Sass) files that produce Cascading Style
+  Sheet (CSS) files.
 
 * ``templates`` holds Python web application page templates that produce the
   HTML for UI pages.
