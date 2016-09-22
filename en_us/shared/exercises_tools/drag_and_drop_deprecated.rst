@@ -25,9 +25,7 @@ Drag and Drop Problem (Deprecated)
  * The **Show Answer** button does not work for drag and drop problems. By
    default, the **Show Answer** option is set to **Never**. If you change this
    option in the problem component, a **Show Answer** button appears in the
-   LMS, but the button does not work.
-
-.. note:: EdX offers provisional support for this problem type.
+   learner's view of the problem in the LMS, but the button does not work.
 
 In drag and drop problems, learners respond to a question by dragging text or
 objects to a specific location on an image.

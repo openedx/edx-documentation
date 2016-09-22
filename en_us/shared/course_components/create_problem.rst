@@ -505,36 +505,48 @@ options define when the answer is shown to learners.
    * - **Always**
      - Always show the answer when the learner selects the **Show Answer**
        button.
+
    * - **Answered**
-     - Show the answer after the learner tries to answer the problem.
+     - Show the answer only after the learner tries to answer the problem.
+
+.. Shelby - should the description for "Answered" be "only after the learner has answered the problem **correctly** or "used all available attempts"? Otherwise it seems to be the same as "Attempted".
 
        If the problem can be, and is, reset, the answer is not shown until the
-       learner tries the problem again. (When a learner answers a problem, the
-       problem is considered to be both attempted and answered. When the
-       problem is reset, the problem is still attempted, but not yet
-       answered.)
+       learner tries to answer the problem again. (When a learner answers a
+       problem, the problem is considered to be both attempted and answered.
+       When the problem is reset, the problem is still considered to have been
+       attempted, but is not considered to be answered.)
+
    * - **Attempted**
-     - Show the answer after the learner tries to answer the problem.
+     - Show the answer only after the learner tries to answer the problem.
 
        If the problem can be, and is, reset, the answer continues to show.
        (When a learner answers a problem, the problem is considered to be
        both attempted and answered. When the problem is reset, the problem is
-       still attempted, but not yet answered.)
+       still considered to have been attempted, but is not considered to be
+       answered.)
+
    * - **Closed**
      - Show the answer after the learner has used up all his attempts to answer
        the problem or the due date has passed.
+
    * - **Finished**
-     - Show the answer after the learner has answered the problem correctly,
-       the learner has no attempts remaining, or the problem due date has
-       passed.
+     - Show the answer only after the learner has answered the problem
+       correctly, if the learner has no attempts remaining, or if the problem
+       due date has passed.
+
    * - **Correct or Past Due**
-     - Show the answer after the learner has answered the problem correctly or
-       the problem due date has passed.
+     - Show the answer only after the learner has answered the problem correctly
+       or if the problem due date has passed.
+
    * - **Past Due**
-     - Show the answer after the due date for the problem has passed.
+     - Show the answer only after the due date for the problem has passed.
+
    * - **Never**
      - Never show the answer. In this case, the **Show Answer** option does not
-       appear next to the problem in Studio or in the LMS.
+       appear next to the problem in Studio or in the LMS. If your problem does
+       not include a correct answer to show to learners, make sure you select
+       **Never**.
 
 .. _Show Reset Button:
 
