@@ -274,40 +274,64 @@ To use any of the following Greek letters, type the name of the letter in the
 calculator or the response field.
 
 .. list-table::
-   :widths: 20 20 20 20
-   :header-rows: 0
+   :widths: 20 20
+   :header-rows: 1
 
+   * - Name
+     - Letter
    * - alpha
-     - beta
-     - gamma
-     - delta
+     - α
+   * - beta
+     - β
+   * - gamma
+     - γ
+   * - delta
+     - δ
    * - epsilon
-     - varepsilon
-     - zeta
-     - eta
+     - ϵ
+   * - varepsilon
+     - ε
+   * - zeta
+     - ζ
+   * - eta
+     - η
    * - theta
-     - vartheta
-     - iota
-     - kappa
+     - θ
+   * - vartheta
+     - ϑ
+   * - iota
+     - ι
+   * - kappa
+     - ϰ
    * - lambda
-     - mu
-     - nu
-     - xi
+     - λ
+   * - mu
+     - μ
+   * - nu
+     - ν
+   * - xi
+     - ξ
    * - pi
-     - rho
-     - sigma
-     - tau
+     - π
+   * - rho
+     - ρ
+   * - sigma
+     - σ
+   * - tau
+     - τ
    * - upsilon
-     - phi
-     - varphi
-     - chi
+     - υ
+   * - phi
+     - ϕ
+   * - varphi
+     - φ
+   * - chi
+     - χ
    * - psi
-     - omega
-     -
-     -
+     - ψ
+   * - omega
+     - ω
 
-.. note:: ``epsilon`` is the lunate version, whereas ``varepsilon`` looks
-  like a backward 3.
 
 ============
 Functions
@@ -328,35 +352,42 @@ You can use the following functions.
   * exp
   * abs
 
-* Trigonometric functions and their inverses
+* Trigonometric functions and their inverses, as well as hyperbolic
+  trigonometric functions and their inverses.
 
-  * sin
-  * cos
-  * tan
-  * sec
-  * csc
-  * cot
-  * arcsin
-  * arccos
-  * arctan
-  * arcsec
-  * arccsc
-  * arccot
+  .. list-table::
+     :widths: 20 20 20 20
+     :header-rows: 1
 
-* Hyperbolic trigonometric functions and their inverses
+     * - Function
+       - Inverse
+       - Hyperbolic Function
+       - Inverse
+     * - sin
+       - arcsin
+       - sinh
+       - arcsinh
+     * - cos
+       - arccos
+       - cosh
+       - arccosh
+     * - tan
+       - arctan
+       - tanh
+       - arctanh
+     * - sec
+       - arcsec
+       - sech
+       - arcsech
+     * - csc
+       - arccsc
+       - csch
+       - arccsch
+     * - cot
+       - arccot
+       - coth
+       - arccoth
 
-  * sinh
-  * cosh
-  * tanh
-  * sech
-  * csch
-  * coth
-  * arcsinh
-  * arccosh
-  * arctanh
-  * arcsech
-  * arccsch
-  * arccoth
 
 * Factorials: Enter factorials as ``fact(3)`` or ``factorial(3)``. You must use
   integers. For example, you cannot enter ``fact(1.5)``.
