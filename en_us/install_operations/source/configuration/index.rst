@@ -11,8 +11,8 @@ configuration options.
    :maxdepth: 2
 
    updating_platform
-   changing_appearance/index
    sites/index
+   changing_appearance/index
    customize_registration_page
    config_allowed_regis_emails
    add_coursetalk_widget
