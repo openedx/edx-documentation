@@ -20,7 +20,7 @@ For more information about the themes directory, see
 .. _understanding_themeable_ui_files:
 
 ******************************************
-Understanding Which UI Files Can Be Themed
+Understanding Which UI Files to Customize
 ******************************************
 
 You can customize the default images, Sass, and web application template files
@@ -50,6 +50,22 @@ repository of the component that you want to apply the theme to.
     /my-open-edx-themes/my-theme/lms/static/images
     /my-open-edx-themes/my-theme/lms/static/sass
     /my-open-edx-themes/my-theme/lms/templates
+
+***********************************
+Example File Path for a Theme File
+***********************************
+
+The default Open edX theme includes an image file named ``logo.png`` that
+appears in the header of most LMS pages. The file path of that image in the
+``edx-platform`` repository is ``lms/static/images/logo.png``.
+
+The following example shows an absolute file path of the LMS logo image in a
+theme directory. The file path after ``/my-open-edx-themes/my-theme/`` matches
+the relative file path of that image in the default directory for the LMS UI.
+
+.. code-block:: none
+
+    /my-open-edx-themes/my-theme/lms/static/images/logo.png
 
 ***************************
 Naming a Theme Directory
@@ -96,89 +112,5 @@ subdirectories, you can apply the theme to both the LMS and Studio.
 
     After you create or make changes to a theme, you must update the theme.
     Updating a theme compiles Sass files to create the CSS files that style
-    your UI. For more information, see :ref:`updating_themes`.
-
-.. _updating_themes:
-
-**************************
-Updating a Theme
-**************************
-
-When you update a theme, the process compiles the Sass files and creates the
-CSS files that style your UI when you apply the theme.
-
-====================================
-Update a Theme for the LMS or Studio
-====================================
-
-To update a theme for Studio or the LMS, follow these steps.
-
-#. Log in to the Open edX machine as the ``edxapp`` user.
-
-#. Change to the ``/edx/app/edxapp/edx-platform`` directory.
-
-#. Invoke the ``paver update_assets`` command to update and apply all themes.
-
-   If you want to update specific themes, use the options described in the
-   following table.
-
-   .. list-table::
-    :header-rows: 1
-    :widths: 30 70
-
-    * - Option
-      - Description
-    * - ``--theme-dirs``
-      - Provide a space-separated list of the theme directories that you want
-        to update. Only files in the theme directories that you include
-        are updated.
-    * - ``--themes``
-      - Provide a space-separated list of the themes that you want to update.
-        Only the themes that you include are updated.
-
-=========================================
-Update a Theme for the E-commerce Service
-=========================================
-
-To update a theme for the E-commerce service, follow these steps.
-
-#. Log in to the server for the E-commerce service as the ``ecommerce`` user.
-
-#. Change to the ``/edx/app/ecommerce/ecommerce`` directory.
-
-#. Invoke the ``python manage.py update_assets`` command to update and apply
-   all themes.
-
-   To specify specific themes to update or other settings, use the
-   options described in the following table.
-
-   .. list-table::
-    :header-rows: 1
-    :widths: 30 70
-
-    * - Option
-      - Description
-    * - ``--settings``
-      - Supply the database ID of the site for which you want to update themes.
-        For example, ``--settings=ecommerce.settings.production``.
-    * - ``--themes``
-      - Provide a space-separated list of the themes that you want to update.
-        Only the themes that you include are updated.
-    * - ``--output-style``
-      - Defines the coding style for the compiled CSS files. Possible values
-        are ``nested``, ``expanded``, ``compact``, and ``compressed``. The
-        default value is ``nested``.
-    * - ``--skip-system``
-      - Disables Sass file compilation for the default Sass files provided in
-        the Open edX software. Use this option if you have only updated the
-        Sass files in your theme.
-    * - ``--skip-collect``
-      - Only compile the Sass files and do not deploy the resulting CSS files.
-
-
-.. The descriptions of these commands need testing. (per Peter) ^^
-.. This has the same description as skip-system in the wiki page. That doesn't
-.. seem correct to me. (per Peter) I think he means the command on the next line. I don't know what wiki page he's referring to - Alison
-.. * - ``--enable-source-comments``
-..   -
+    your UI. For more information, see :ref:`Compiling a Theme`.
 

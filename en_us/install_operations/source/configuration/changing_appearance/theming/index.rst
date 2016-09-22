@@ -1,8 +1,8 @@
 .. _Theming Open edX:
 
-############################
-Changing an Open edX Theme
-############################
+#####################################
+Changing Themes for an Open edX Site
+#####################################
 
 The theme for a website defines the appearance of its user interface (UI): the
 logo, the color scheme, and the links in the page headers and footers are
@@ -27,9 +27,11 @@ site looks, without changing how it works.
 .. toctree::
    :maxdepth: 2
 
-   overview_theming
-   enable_theming
+   overview_themes
+   theme_directories
    create_theme
-   applying_themes
+   enable_themes
+   compiling_theme
 
-In addition, an `example theme <https://github.com/edx/edx-sample-themes>`_ is available for review.
+In addition, an `example theme <https://github.com/edx/edx-sample-themes>`_ is
+available for review.

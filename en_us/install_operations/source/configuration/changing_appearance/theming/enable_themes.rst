@@ -1,13 +1,25 @@
 .. _enable_theming:
 
-#############################################
-Enable Theming for Your Open edX Installation
-#############################################
+##############################
+Enabling and Applying Themes
+##############################
 
-You must enable theming for your Open edX installation before you can apply
-themes to your Open edX sites.
+You must enable the use of themes for your Open edX installation before you can
+apply themes to your Open edX sites. If your installation has only one site,
+you apply a theme to that default site.
 
-To enable theming for your Open edX installation, follow these steps.
+For more information about Open edX sites, see :ref:`Configuring Open edX
+Sites`.
+
+.. contents::
+   :local:
+   :depth: 1
+
+***************
+Enable Themes
+***************
+
+To enable the use of themes for your Open edX installation, follow these steps.
 
 #. Create an installation-wide themes directory to hold the customized UI files
    for all of the themes that you create. This directory will hold
@@ -104,3 +116,34 @@ To enable theming for your Open edX installation, follow these steps.
             "/my-open-edx-themes",
             "/my-other-open-edx-themes"
         ],
+
+
+************************
+Apply a Theme to a Site
+************************
+
+To apply a theme to an Open edX site, follow these steps.
+
+#. Make sure that you have enabled theming for your Open edX installation and
+   that you have configured an installation-wide themes directory. For more
+   information, see :ref:`enable_theming`.
+
+#. Make sure that you have created a theme and that you know the identifier of
+   the theme. The identifier of a theme is the name of the directory for that
+   theme, within your installation-wide themes directory. For more information,
+   see :ref:`Creating a Theme`.
+
+#. Sign in to the Django administration console for your base URL. For example,
+   ``http://{your_URL}/admin``.
+
+#. Select **Site themes** to open the
+   ``http://{your_URL}/admin/theming/sitetheme`` page.
+
+#. Select **Add site theme**.
+
+#. From the **Site** menu, select the site you want to apply a theme to.
+
+#. In the **Theme dir name** field, enter the identifier of the theme.
+
+#. Select **Save**.
+
