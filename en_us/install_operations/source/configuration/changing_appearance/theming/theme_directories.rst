@@ -5,18 +5,19 @@ Root Directories for Theme Files
 #################################
 
 Themes are located outside of the Open edX source directories, in any location
-you like.  For example, you might make a directory called
+you like. For example, you might make a directory called
 ``/my-open-edx-themes``.
 
-Within that directory, you will have a directory for each Open edX repo you 
-are theming, ``edx-platform`` and/or ``ecommerce``.
+Within that directory, you create a separate directory for each Open edX
+repository that you want to create a theme for, such as ``edx-platform``
+and ``ecommerce``.
 
-Withing those directories, you will have a directory named for your theme, such
-as ``my-theme``.  You can create a number of themes, each with their own name.
-Within the theme directory, you create directories and files to parallel the
-structure in the corresponding Open edX repo.
+Within each of those directories, you create another directory and name it for
+your theme, such as ``my-theme``. You can create a number of themes, each with
+their own name. Within each theme directory, you create directories and files
+to parallel the structure in the corresponding Open edX repository.
 
-You might have a structure like this.
+After you create these directories, you might have a structure like this one.
 
 .. code::
 

@@ -21,7 +21,7 @@ To update a theme for Studio or the LMS, follow these steps.
 
 #. Change to the ``/edx/app/edxapp/edx-platform`` directory.
 
-#. Invoke the ``paver update_assets`` command to update and apply all themes.
+#. Execute the ``paver update_assets`` command to update and apply all themes.
 
    If you want to update specific themes, use the options described in the
    following table.
@@ -44,17 +44,24 @@ To update a theme for Studio or the LMS, follow these steps.
 Update a Theme for the E-commerce Service
 ******************************************
 
+For the E-commerce service, commands are available for you to update and apply
+all themes at once, or to update only the themes you specify.
+
 To update a theme for the E-commerce service, follow these steps.
 
 #. Log in to the server for the E-commerce service as the ``ecommerce`` user.
 
 #. Change to the ``/edx/app/ecommerce/ecommerce`` directory.
 
-#. Invoke the ``python manage.py update_assets`` command to update and apply
-   all themes.
+#. To update and apply all themes, execute one of these commands.
 
-   To specify specific themes to update or other settings, use the
-   options described in the following table.
+   * ``make migrate``
+
+   * ``python manage.py update_assets``
+
+#. To specify a theme or set of themes to update, or other optional settings,
+   execute the ``python manage.py update_assets`` with the options described
+   in the following table.
 
    .. list-table::
     :header-rows: 1
