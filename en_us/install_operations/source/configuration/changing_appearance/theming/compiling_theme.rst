@@ -21,16 +21,16 @@ To update a theme for Studio or the LMS, follow these steps.
 
 #. Change to the ``/edx/app/edxapp/edx-platform`` directory.
 
-#. Execute the ``paver update_assets`` command to update and apply all themes.
+#. Execute the ``paver update_assets`` command to update all themes.
 
-   If you want to update specific themes, use the options described in the
+   If you want to update specific themes, use the arguments described in the
    following table.
 
    .. list-table::
     :header-rows: 1
     :widths: 30 70
 
-    * - Option
+    * - Argument
       - Description
     * - ``--theme-dirs``
       - Provide a space-separated list of the theme directories that you want
@@ -44,7 +44,7 @@ To update a theme for Studio or the LMS, follow these steps.
 Update a Theme for the E-commerce Service
 ******************************************
 
-For the E-commerce service, commands are available for you to update and apply
+For the E-commerce service, commands are available for you to update
 all themes at once, or to update only the themes you specify.
 
 To update a theme for the E-commerce service, follow these steps.
@@ -53,25 +53,26 @@ To update a theme for the E-commerce service, follow these steps.
 
 #. Change to the ``/edx/app/ecommerce/ecommerce`` directory.
 
-#. To update and apply all themes, execute one of these commands.
+#. To update all themes, execute one of these commands.
 
    * ``make migrate``
 
    * ``python manage.py update_assets``
 
-#. To specify a theme or set of themes to update, or other optional settings,
-   execute the ``python manage.py update_assets`` with the options described
-   in the following table.
+#. To specify a theme or set of themes to update, or to include optional
+   arguments, execute ``python manage.py update_assets`` with the options
+   described in the following table.
 
    .. list-table::
     :header-rows: 1
     :widths: 30 70
 
-    * - Option
+    * - Argument
       - Description
     * - ``--settings``
-      - Supply the database ID of the site for which you want to update themes.
-        For example, ``--settings=ecommerce.settings.production``.
+      - Provide the name of a Django :ref:`settings module <https://docs.djangoproject.com/en/1.10/ref/django-admin/#cmdoption--settings>`
+        in Python package syntax. For example,
+        ``--settings=ecommerce.settings.production``.
     * - ``--themes``
       - Provide a space-separated list of the themes that you want to update.
         Only the themes that you include are updated.
@@ -85,10 +86,8 @@ To update a theme for the E-commerce service, follow these steps.
         Sass files in your theme.
     * - ``--skip-collect``
       - Only compile the Sass files and do not deploy the resulting CSS files.
+    * - ``--enable-source-comments``
+      - Include the location of the source file as comments in the resulting
+        CSS files.  Enabling this argument can be useful when you are testing a
+        theme.
 
-
-.. The descriptions of these commands need testing. (per Peter) ^^
-.. This has the same description as skip-system in the wiki page. That doesn't
-.. seem correct to me. (per Peter) I think he means the command on the next line. I don't know what wiki page he's referring to - Alison
-.. * - ``--enable-source-comments``
-..   -

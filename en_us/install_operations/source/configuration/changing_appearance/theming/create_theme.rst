@@ -47,9 +47,9 @@ repository of the component that you want to apply the theme to.
 
 .. code-block:: none
 
-    /my-open-edx-themes/my-theme/lms/static/images
-    /my-open-edx-themes/my-theme/lms/static/sass
-    /my-open-edx-themes/my-theme/lms/templates
+    /my-open-edx-themes/edx-platform/my-theme/lms/static/images
+    /my-open-edx-themes/edx-platform/my-theme/lms/static/sass
+    /my-open-edx-themes/edx-platform/my-theme/lms/templates
 
 ***********************************
 Example File Path for a Theme File
@@ -60,12 +60,13 @@ appears in the header of most LMS pages. The file path of that image in the
 ``edx-platform`` repository is ``lms/static/images/logo.png``.
 
 The following example shows an absolute file path of the LMS logo image in a
-theme directory. The file path after ``/my-open-edx-themes/my-theme/`` matches
+theme directory. The file path after
+``/my-open-edx-themes/edx-platform/my-theme/`` matches
 the relative file path of that image in the default directory for the LMS UI.
 
 .. code-block:: none
 
-    /my-open-edx-themes/my-theme/lms/static/images/logo.png
+    /my-open-edx-themes/edx-platform/my-theme/lms/static/images/logo.png
 
 ***************************
 Naming a Theme Directory
@@ -73,7 +74,7 @@ Naming a Theme Directory
 
 The name of the directory that you create to hold your versions of the image,
 theme, and Sass styling files identifies the theme. As a result, if you want to
-create a theme named ``my-theme``, the name of the directory in your
+create a theme named ``my-theme``, the name of the directory within your
 installation-wide themes directory must be ``my-theme``.
 
 .. note::
@@ -95,22 +96,18 @@ the files in the following example create a theme named ``my-theme``.
 
 .. code-block:: none
 
-    /my-open-edx-themes/my-theme/lms/static/images/logo.png
-    /my-open-edx-themes/my-theme/lms/static/sass/partials/base/_variables.scss
-    /my-open-edx-themes/my-theme/lms/templates/navigation.html
-    /my-open-edx-themes/my-theme/cms/static/images/studio-logo.png
-    /my-open-edx-themes/my-theme/cms/static/images/logo.png
-    /my-open-edx-themes/my-theme/cms/templates/login.html
+    /my-open-edx-themes/edx-platform/my-theme/lms/static/images/logo.png
+    /my-open-edx-themes/edx-platform/my-theme/lms/static/sass/partials/base/_variables.scss
+    /my-open-edx-themes/edx-platform/my-theme/lms/templates/navigation.html
+    /my-open-edx-themes/edx-platform/my-theme/cms/static/images/studio-logo.png
+    /my-open-edx-themes/edx-platform/my-theme/cms/static/images/logo.png
+    /my-open-edx-themes/edx-platform/my-theme/cms/templates/login.html
 
 Because the theme directory includes UI files in both the ``lms`` and ``cms``
 subdirectories, you can apply the theme to both the LMS and Studio.
-
-.. Matt, I checked out https://github.com/edx/sample-themes/pull/1/files, but based on your explanation of needing unique directory names for each theme, I can't quite tell if that is unique *regardless* of the products that it applies to? does a theme directory for a green ecom theme have to have a different name then a theme directory for a green Studio+LMS theme? So, is this a reasonable example of an ecom theme file (note ecom in theme dir name)?
-.. my-open-edx-themes/my-ecom-theme/ecommerce/static/sass/partials/utilities/_variables.scss ? or can it have the same dir name as the other examples above, and be my-open-edx-themes/my-theme/ecommerce/static/sass/partials/utilities/_variables.scss? - Alison
 
 .. note::
 
     After you create or make changes to a theme, you must update the theme.
     Updating a theme compiles Sass files to create the CSS files that style
     your UI. For more information, see :ref:`Compiling a Theme`.
-
