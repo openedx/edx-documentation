@@ -70,7 +70,7 @@ To update a theme for the E-commerce service, follow these steps.
     * - Argument
       - Description
     * - ``--settings``
-      - Provide the name of a Django :ref:`settings module <https://docs.djangoproject.com/en/1.10/ref/django-admin/#cmdoption--settings>`
+      - Provide the name of a Django `settings module <https://docs.djangoproject.com/en/1.10/ref/django-admin/#cmdoption--settings>`_
         in Python package syntax. For example,
         ``--settings=ecommerce.settings.production``.
     * - ``--themes``
