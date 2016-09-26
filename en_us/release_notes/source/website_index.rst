@@ -8,6 +8,11 @@ The following information describes what is new on edx.org and Edge.
   :local:
   :depth: 1
 
+*************************
+Week of 19 September 2016
+*************************
+
+.. include:: 2016/website/website_2016-09-19.rst
 
 *************************
 Week of 22 August 2016

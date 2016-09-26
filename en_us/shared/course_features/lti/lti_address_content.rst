@@ -94,27 +94,20 @@ indicate subsections in a course.
 Several methods are available to help you find the usage IDs for items in your
 course.
 
-To find the usage ID for a unit or a component in an edX course, you can use
-any of these methods.
+To find the usage ID for a unit or a component in the LMS, you can use
+either of these methods.
 
-* :ref:`View staff debug info<View Staff Debug Info for the Usage ID>` for it
-  in the edX LMS.
+* :ref:`View staff debug info<View Staff Debug Info for the Usage ID>` for the
+  unit or component.
 
-* :ref:`View the page source<View the Page Source for the Usage ID>`.
+* :ref:`View the page source<View the Page Source for the Usage ID>` for the
+  unit or component.
 
-* :ref:`View the course structure<View the Course Structure API for the Usage
-  ID>`.
+To find the usage ID for a subsection, you
+:ref:`view the page source<View the Page Source for the Usage ID>`.
 
-To find the usage ID for a subsection in an edX course, you can use one of
-these methods.
-
-* :ref:`View the page source<View the Page Source for the Usage ID>`.
-
-* :ref:`View the course structure API<View the Course Structure API for the
-  Usage ID>`.
-
-.. note:: You must have the Staff or Admin role in a course to follow any
- of these procedures for finding usage IDs.
+.. note:: You must have the Staff or Admin role in a course to follow these
+  procedures for finding usage IDs.
 
 .. _View Staff Debug Info for the Usage ID:
 
@@ -202,78 +195,6 @@ search again, and find the usage ID for the second problem in the assignment,
 If you are using a spreadsheet to organize your location identifiers, you can
 select the usage ID value within the quotation marks or ``&#34;`` ISO codes,
 and then copy and paste it into the spreadsheet.
-
-.. _View the Course Structure API for the Usage ID:
-
-===============================================
-View the Course Structure API for the Usage ID
-===============================================
-
-The edX course structure API (application program interface) exposes
-information about your course, including the usage identifiers for every item
-it contains, in JSON format.
-
-To view this API for your course, you browse to a URL with the following
-format.
-
-  ``https://{host}/api/course_structure/v0/course_structures/{course_id}``
-
-You must have the Staff or Admin role for a course to view its course
-structure API.
-
-To find usage IDs for your course in the course structure API, follow these
-steps.
-
-#. In your browser, enter the URL for the course structure API.
-
-   For example, to access the course structure API for the edX Demo course,
-   you enter this URL.
-
-   ``https://edge.edx.org/api/course_structure/v0/course_structures/course-v1:edX+DemoX+Demo_Course``
-
-#. Press Enter. The course structure API appears in the browser.
-
-#. Scroll down to verify that an ``HTTP 200 OK`` message appears.
-
-   If you received a different HTTP response value, make sure that you have the
-   Staff or Admin role for the course, and that you have entered the URL
-   correctly.
-
-The API shows the ``root`` usage ID for your course, followed by the set of
-``blocks`` that the course contains. Each block provides information about one
-item in your course, using the sequential, vertical, and problem, html, or
-video identifiers. Each block includes the ``display_name`` that is defined for
-each item, which can help you locate specific subsections, units, and
-components.
-
-For example, this block is for a unit (vertical) that contains a single video
-component (indicated by the value for ``children``).
-
-.. code-block:: json
-
-  {
-      "block-v1:edX+231_LTI+Fall_2015+type@vertical+block@7b3606b362c74222ba2d0c06e433df08": {
-          "id": "block-v1:edX+231_LTI+Fall_2015+type@vertical+block@7b3606b362c74222ba2d0c06e433df08",
-          "type": "vertical",
-          "parent": null,
-          "display_name": "1st Video",
-          "graded": false,
-          "format": null,
-          "children": [
-              "block-v1:edX+231_LTI+Fall_2015+type@video+block@fe187ddccab84398aa051f6937a213a7"
-          ]
-      },
-
-The usage ID for this unit is the value for ``"id"``.
-
-  ``block-v1:edX+231_LTI+Fall_2015+type@vertical+block@7b3606b362c74222ba2d0c06e433df08``
-
-The usage ID begins with ``block-v1`` for newer courses or ``i4x://`` for
-older courses.
-
-If you are using a spreadsheet to organize your location identifiers, you
-can select the usage ID value within the quotation marks, and then copy and
-paste it into the spreadsheet.
 
 ************************
 Constructing the LTI URL

@@ -9,7 +9,7 @@
 
 # To run this script, navigate to its directory and make sure the file is executable:
 
-# C1MQH7NLG944:~ peterdesjardins$ chmod a+x build-rtd-documents.sh 
+# C1MQH7NLG944:~ peterdesjardins$ chmod a+x build-rtd-documents.sh
 # C1MQH7NLG944:~ peterdesjardins$ ls -l build-rtd-documents.sh
 # -rwxr-xr-x  1 peterdesjardins  staff  758 Feb  2 14:12 build-rtd-documents.sh
 
@@ -29,18 +29,18 @@ then
             open-edx-building-and-running-a-course
             open-edx-learner-guide
             edx-developer-guide
-            edx-open-learning-xml
-            xblock-tutorial
             edx-release-notes
-            course-catalog-api-guide
             "
 else
    DOC_IDS=${1}
 fi
-         
+
 # xblock - Removed this project because it is failing local builds
 # edx-platform-api - Removed from list because of its separate repo
 # edx-data-analytics-api - Removed from list because of its separate repo
+# edx-open-learning-xml - Removed from list, moved to Inactive status
+# course-catalog-api-guide - Removed from list, moved to Inactive status
+# xblock-tutorial - Removed from list, moved to Inactive status
 
 for DOC_ID in ${DOC_IDS}
 do
@@ -49,5 +49,5 @@ do
   echo "Building ${DOC_ID}"
   # Invoke the build API for the document ID using curl
   curl -X POST https://readthedocs.org/build/${DOC_ID}
-  
+
 done

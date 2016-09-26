@@ -451,6 +451,8 @@
 
 .. _XSeries Programs: https://www.edx.org/xseries
 
+.. _MicroMasters Programs: https://www.edx.org/micromasters
+
 .. _financial assistance application: https://courses.edx.org/financial-assistance
 
 .. _LinkedIn: https://www.linkedin.com/
