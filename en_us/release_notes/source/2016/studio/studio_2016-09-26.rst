@@ -1,0 +1,2 @@
+An issue that prevented the background image from being changed in the new Drag
+and Drop problem type has been fixed. (:JIRA:`SOL-2077`)
