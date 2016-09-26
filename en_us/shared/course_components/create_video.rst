@@ -173,15 +173,10 @@ that provides captioning services.
   `Cielo24 <http://www.cielo24.com/>`_. `YouTube <http://www.youtube.com/>`_
   also provides captioning services.
 
-When you upload an .srt file, a .txt file is created automatically. You can
-allow learners to download these transcript files. If you allow your learners
-to download transcripts, the video player includes a **Download transcript**
-option. Learners can then select either **SubRip (.srt) file** or **Text (.txt)
-file** to download the .srt or .txt transcript.
-
-.. image:: ../../../shared/images/Video_DownTrans_srt-txt.png
-   :width: 500
-   :alt: Video status bar showing .srt and .txt transcript download options.
+When you upload an .srt file, a text (.txt) file is created automatically. You
+can allow learners to download these transcript files. If you allow your
+learners to download transcripts, the video player includes an option to
+download the video transcript as either an .srt file or a .txt file.
 
 ================================
 Naming SubRip Text Files
@@ -510,26 +505,15 @@ Add a Supplemental Downloadable Transcript
 
 By default, a .txt file is created when you upload an .srt file, and learners
 can download either the .srt or .txt transcript when you set **Download
-Transcript Allowed** to **True**. **Download Transcript** appears below the
-video, and learners see the .srt and .txt options when they move the cursor
-over that option.
+Transcript Allowed** to **True**. Options to download the transcript** appear
+below the video.
 
-.. image:: ../../../shared/images/Video_DownTrans_srt-txt.png
-   :width: 500
-   :alt: Video status bar showing .srt and .txt transcript download options.
+You can provide an additional downloadable transcript in a format such as .pdf
+along with the default .srt and .txt transcripts. To do this, you upload the
+additional transcript in the video player as a handout. Learners see an option
+to download the handout below the video.
 
-To provide a downloadable transcript in a format such as .pdf along with the
-.srt and .txt transcripts, you use the **Upload Handout** advanced setting.
-When you do this, **Download Handout** appears to the right of the **Download
-Transcript** in the video player, and learners can download the .srt, .txt, or
-handout version of the transcript.
-
-.. image:: ../../../shared/images/Video_DownTrans_srt-handout.png
-   :width: 500
-   :alt: Video status bar showing .srt, .txt, and handout transcript download
-    options.
-
-To add a downloadable transcript, follow these steps.
+To add another downloadable transcript, follow these steps.
 
 #. Create or obtain your transcript as a .pdf or in another format.
 #. In the video component, select **Advanced**.

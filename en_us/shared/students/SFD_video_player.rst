@@ -74,13 +74,12 @@ by an explanation of each option or control on the video player.
 11. **Download video**: You can download the video to watch later with this
     option (if available for the video).
 
-12. **Download transcript**: You can download the video's transcript
-    with this option. You can download the transcript as a SubRip (.srt) file
-    or as a text (.txt) file. You can open files of both types in a text editor
-    such as Notepad.
+12. **Download transcript**: You can download the video's transcript as a
+    SubRip (.srt) file or as a text (.txt) file. You can open files of either
+    type in a text editor such as Notepad.
 
-13. **Transcript**: You can scroll through the transcript and select any line
-    to go to that point in the video.
+13. **Handouts**: You can download any handouts that the course team has
+    associated with the video.
 
 14. **License or Copyright**: If the course team reserves rights or specifies a
     Creative Commons license for the video that is different from the
@@ -88,12 +87,10 @@ by an explanation of each option or control on the video player.
     Creative Commons licenses, you can select the license to open a web site
     with more information about your rights.
 
-    .. image:: ../../shared/students/Images/Video_rights.png
-      :alt: A Creative Commons license with the Attribution, Noncommercial, and
-       No Derivatives options.
-      :width: 200
-
     For more information, see :ref:`Course and Video Licenses`.
+
+15. **Transcript**: You can scroll through the transcript and select any line
+    to go to that point in the video.
 
 For a demonstration of the edX video player, see `Videos on edX`_ in the edX
 DemoX course.
