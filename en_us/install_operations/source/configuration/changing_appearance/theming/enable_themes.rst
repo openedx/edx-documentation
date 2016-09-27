@@ -77,7 +77,7 @@ To enable the use of themes for your Open edX installation, follow these steps.
      .. code-block:: none
 
         "COMPREHENSIVE_THEME_DIRS": [
-            "/edx/var/my-open-edx-themes/edx-platform"
+            "/my-open-edx-themes/edx-platform"
 
         ],
 
@@ -87,7 +87,7 @@ To enable the use of themes for your Open edX installation, follow these steps.
      .. code-block:: none
 
         "COMPREHENSIVE_THEME_DIRS": [
-            "/edx/var/my-open-edx-themes/edx-platform"
+            "/my-open-edx-themes/edx-platform"
         ],
 
    * For the E-commerce service, add the path to ``COMPREHENSIVE_THEME_DIRS``
@@ -95,7 +95,7 @@ To enable the use of themes for your Open edX installation, follow these steps.
 
      .. code-block:: none
 
-       COMPREHENSIVE_THEME_DIRS: ["/edx/var/my-open-edx-themes/ecommerce"]
+       COMPREHENSIVE_THEME_DIRS: ["/my-open-edx-themes/ecommerce"]
 
 #. Restart all servers.
 
@@ -109,8 +109,8 @@ To enable the use of themes for your Open edX installation, follow these steps.
     .. code-block:: none
 
         "COMPREHENSIVE_THEME_DIRS": [
-            "/edx/var/my-open-edx-themes/edx-platform",
-            "/edx/var/my-other-open-edx-themes/edx-platform"
+            "/my-open-edx-themes/edx-platform",
+            "/my-other-open-edx-themes/edx-platform"
         ],
 
 
