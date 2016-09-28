@@ -51,6 +51,15 @@ variables:
   COMPREHENSIVE_THEME_DIRS: ["/edx/app/themes" ],
   DEFAULT_SITE_THEME: "my-theme"
 
+To apply theme you need to compile javascript and css script by run the following commands.
+
+.. code-block:: bash
+
+  sudo -H -u edxapp bash
+  source /edx/app/edxapp/edxapp_env
+  cd /edx/app/edxapp/edx-platform
+  paver update_assets lms --settings=aws
+
 You will then need to restart the LMS in order for it to pick up these values
 from the ``lms.env.json`` file.
 
