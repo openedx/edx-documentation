@@ -93,9 +93,21 @@ topics on the **Discussion** page.
 #. Enter the text of your post. To format the text or to add links or
    images, use the formatting options above the text box.
 
+
+   .. only:: Open_edX
+     .. tip:: If having trouble with uploading file, please make sure that the 
+     size of file is smaller than 1MB as there might be a maximum size limit.
+     
+     
+     
+   .. only:: Partners
+     .. note:: The maximum size for an uploaded file is 1 MB.
+
+
+
    .. note:: Any text formatting or images that you add are only visible when
       others read your post in a web browser. The edX mobile app currently does
-      not currently display text formatting or images.
+      not currently display added formatting or images.
 
 In some courses, you can add posts, responses, and comments anonymously. In such
 courses, a **Post Anonymously** check box appears under the field where you
@@ -137,6 +149,19 @@ The following steps apply only to content-specific discussions.
 
 #. Enter the text of your post. Select the buttons above the text field to see
    options for formatting the text and for adding links or images.
+   
+   .. only:: Open_edX
+   
+     .. tip:: If having trouble with uploading file, please make sure that the 
+     size of file is smaller than 1MB as there might be a maximum size limit.
+     
+     
+      
+   .. only:: Partners
+   
+     .. note:: The maximum size for an uploaded file is 1 MB.
+
+
 
    .. note:: Any text formatting or images that you add are only visible when
       others read your post in a web browser. The edX mobile app currently does
