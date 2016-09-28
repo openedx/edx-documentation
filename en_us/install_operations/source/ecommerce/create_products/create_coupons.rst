@@ -139,19 +139,20 @@ To specify the courses for your coupon, follow these steps.
 
 #. Specify the courses for your coupon.
 
-   To specify one course, follow these steps.
+   If you selected **Single Course**, follow these steps.
 
    #. For **Course ID**, enter the ID of the course that you want. To find the
       course ID, open the course administration tool at
       ``http://localhost:8002/courses``, select your course name in the list of
       courses, and then locate the **Course ID** field on the page for the
       course.
+
    #. For **Seat Type**, select the type of seat for the coupon. A "seat" is
       a single course enrollment in a specific course track. For example, the
       seat type might be "verified" or "professional". The options for this
       field appear after you enter a valid value in the **Course ID** field.
 
-   To specify multiple courses, follow these steps.
+   If you selected **Multiple Courses**, follow these steps.
 
    #. In the **Valid for** field, enter a query to retrieve the courses that
       you want. For more information about creating a query, see :ref:`Create a
@@ -161,9 +162,10 @@ To specify the courses for your coupon, follow these steps.
       query in the **Valid for** field, and then select **Preview**. A dialog
       box opens that lists the courses in your query results.
 
-#. For **Seat Types**, select **Verified**, **Professional**, or both. Note
-   that you can only select both options if your coupon applies to multiple
-   courses.
+   #. For **Seat Types**, select **Non-credit** or **Credit**.
+
+      If you select **Non-credit**, you must also select **Verified**,
+      **Professional**, or both.
 
 After you complete these steps, you must :ref:`specify usage limitations for
 your coupon <Specify Coupon Usage Limitations>`.
