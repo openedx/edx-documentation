@@ -5,7 +5,8 @@ Enrolling in a Course or Program
 #################################
 
 This topic describes how to enroll in an edX course or program, select or
-change your enrollment track, and verify your identity in an edX course.
+change your enrollment track for a course, and verify your identity for edX
+courses.
 
 .. contents::
   :local:
@@ -59,8 +60,8 @@ Verified Track
 
 Many courses offer a verified track in addition to the audit track. The
 verified track awards verified certificates to learners who successfully
-complete the course and verify their identities by using a webcam and a
-government-issued photo ID.
+complete the course and :ref:`verify their identities<SFD Verify Your
+Identity>` by using a webcam and a government-issued photo ID.
 
 When you enroll in the verified track, you must pay a fee that varies by
 course. The fee helps support edX's mission. The fee for the course is listed
@@ -89,7 +90,7 @@ For a list of all courses that currently offer verified certificates, see the
 `edX course catalog`_.
 
 For more information about verified certificates, see `Verified Certificates`_
-on edx.org.
+on the edx.org website.
 
 
 ========
@@ -253,10 +254,43 @@ support team at technical@edx.org.
 Verifying Your Identity
 ******************************
 
-.. important::
+When you enroll in the :ref:`verified track<SFD Verified Track>` for a course,
+you must use a webcam to take a photograph of yourself and of a
+government-issued photo ID. You do not have to verify your identity
+immediately, but you must verify your identity before the course ID
+verification deadline. The deadline appears below the name of the course on
+your dashboard.
 
-  You must use a webcam and a government-issued photo ID to verify your
-  identity. If you do not have a webcam, edX recommends that you find out if
+To verify your identity, you use a webcam to submit a photo of yourself and of
+a government-issued photo ID to edX's authorization service. EdX encrypts your
+photos and uses the highest levels of security available to protect your data.
+
+.. contents::
+  :local:
+  :depth: 1
+
+When you verify your identity for an edX course, that verification is effective
+for one year.
+
+* If you enroll in the verified track for another course, you must verify your
+  identity for that course separately.
+
+* If you enroll in a course that offers academic credit, you might have to
+  verify your identity periodically during the course. For more information,
+  see :ref:`SFD Academic Course Credit`.
+
+===================================
+Preparing to Verify Your Identity
+===================================
+
+When you enroll in the verified track for a course, you must use a webcam to
+take a photograph of yourself and of a government-issued photo ID. Before you
+begin the identity verification process, follow these recommendations to make
+the process as straightforward as possible.
+
+* Make sure that you have access to a webcam.
+
+  If your computer does not have a webcam, edX recommends that you find out if
   your local library has a webcam that you can use, or that you borrow a
   friend's webcam. If you have a smartphone that has a camera, you can also
   verify your identity by visiting the following page in the smartphone's
@@ -264,39 +298,43 @@ Verifying Your Identity
 
   https://courses.edx.org/verify_student/reverify
 
+  You can sign in to one computer or smartphone to verify your identity, and
+  then sign in to the computer that you typically use to complete the course.
   If you do not use a webcam to verify your identity, you cannot receive a
   verified certificate.
 
-When you enroll in the verified track for a course, you do not have to verify
-your identity immediately, but you must verify your identity before the course
-ID verification deadline. The deadline appears below the name of the course on
-your dashboard.
+* Compare the way that your name appears when you sign in to edx.org to the way
+  it appears on your ID card. Your name must be the same for both, including
+  the type of characters used (Roman or non-Roman), accented characters,
+  initials, and spelling.
 
-To verify your identity, you use a webcam to submit a photo of yourself and of
-a government-issued photo ID to edX's authorization service. We encrypt your
-photos and use the highest levels of security available to protect your data.
+  You can update your edX account name at any time on the edX :ref:`account
+  settings page<SFD Account Settings>`. You also have the opportunity to change
+  your edX account name during the identity verification process.
 
-.. note::
+* Make sure that your identification card is government issued, such as a
+  driver's license or passport.
 
-  When you verify your identity for one course, you verify your identity for
-  all edX courses. Verification is effective for one year. If you enroll in
-  another verified course within that year, you do not have to verify your
-  identity again.
+* Make sure that your name is legible, and that your name and photo are visible
+  together on a single image.
 
-  If you enroll in a course that offers academic credit, you might have to
-  verify your identity periodically during the course. For more information,
-  see :ref:`SFD Academic Course Credit`.
+  If your name and your photo are on two different pages, or on the front and
+  back of a single page, you can copy both pages onto a single piece of paper.
+  Make sure that your name is legible in the copy.
+
+* Make sure that you can adjust the lighting for the photographs.
+
+  For the webcam to focus, there needs to be enough light on your face and your
+  ID. You might need to change the position or brightness of a lamp, or change
+  your position, to improve the lighting for the photographs.
+
+=========================
+Verify Your Identity
+=========================
 
 To verify your identity, follow these steps.
 
 #. Make sure that you have a webcam and a government-issued photo ID available.
-
-   If you do not have a webcam, your local library might have a webcam, or you
-   might be able to borrow a webcam from a friend. If you have a smartphone
-   that has a camera, you can also verify your identity by visiting the
-   following page in the smartphone's browser.
-
-   https://courses.edx.org/verify_student/reverify
 
 #. Start the verification process by completing one of the following actions.
 
@@ -311,49 +349,83 @@ To verify your identity, follow these steps.
      not yet verified your identity, select **Verify Now** next to the course
      on your dashboard.
 
-#. On the **Take Your Photo** page, select the camera icon below your image to
-   take a picture of your face.
+#. At the top of your browser window, a message asks you to share the camera
+   with edx.org. To see and respond to this message every time you take or
+   retake a photograph for the verification process, select **Share Selected
+   Device**. To share the webcam throughout the process select **Always
+   Share**.
+
+#. On the **Take Your Photo** page, select the camera icon to take a photo of
+   your face.
 
    For information about how to take a good photo, review the **To take a
-   successful photo** guidelines to the right of your image.
+   successful photo** guidelines beside your image.
 
-#. Review your photo. If you are not satisfied with the photo, select **Retake
-   Photo**. When you are satisfied with your photo, select **Next: Take a
-   photo of your ID** in the lower right corner.
+#. Review your photo to make sure that it is well-lit and fills the available
+   space.
+
+   * If you are not satisfied with the photo, select **Retake Photo**.
+
+   * When you are satisfied with the photo, select **Next: Take a photo of your
+     ID**.
 
 #. On the **Take a Photo of Your ID** page, hold your government-issued photo
-   ID up to the webcam on your computer. Make sure the ID in the image is
-   legible, and then select the camera icon below the image box to take a
-   photo of your ID.
+   ID up to the webcam on your computer. Make sure that the image of your ID is
+   legible, and then select the camera icon to take a photo of your ID.
 
-#. Review your photo. If you are not satisfied with the photo, select **Retake
-   Photo**. When you are satisfied with your photo, select **Next: Review Your
-   Info** in the lower right corner.
+#. Review the photo of your ID to make sure that it is well-lit and fills the
+   available space.
+
+   * If you are not satisfied with the photo, select **Retake Photo**.
+
+   * When you are satisfied with the photo, select **Next: Review your
+     Info**.
 
 #. On the **Review Your Photos** page, review the photos of your face and of
-   your ID. Make sure that the photos meet the requirements listed under
-   **Photo requirements**, and then select **Confirm** in the lower right
-   corner.
+   your ID. Make sure that the photos meet all of the requirements listed under
+   **Photo requirements**.
 
-   .. important:: If your ID uses non-Roman characters, you must edit your edX
-    account name in this step to use non-Roman characters so that your edX
-    account name exactly matches the name on your ID. To do this, select
-    **Edit Your Name** in the list of requirements, and then enter your name
-    in non-Roman characters in the text box.
+   If the name on your ID is different from your edX account name, select
+   **Edit Your Name**. You must edit your edX account name to exactly match the
+   name on your ID.
 
-     .. image:: ../../shared/students/Images/SFD_VerifyID_NonRoman.png
+   .. image:: ../../shared/students/Images/SFD_VerifyID_NonRoman.png
       :width: 500
       :alt: The Review Your Photos page with a photo of an ID with non-Roman
         characters and a callout indicating where the learner enters his full
         name.
 
-A verification confirmation page opens and confirms that you have submitted
-your ID verification photos.
+   For example, if your ID shows your name in Chinese characters, but your edX
+   account name appears in Roman characters, you must update your edX account
+   name to match the name on your ID.
 
-After edX's authorization service examines your photo, you receive a message
-on your dashboard that informs you whether the verification process was
-successful. If the verification process was not successful, you must submit
-new verification photos. You can begin the verification process again by
-selecting **Verify Your Identity**.
+#. After you make sure that your photos meet all of the requirements listed
+   under **Photo requirements** select **Confirm**.
+
+   A message confirms that you have submitted your photos.
+
+After edX's authorization service examines your photos, a message on your
+dashboard informs you whether the verification process was successful. If the
+verification process was not successful, you must submit new verification
+photos. You can begin the verification process again by selecting **Verify Your
+Identity**.
+
+==================================================
+Troubleshooting the Identity Verification Process
+==================================================
+
+If you do have a problem during the identity verification process, these
+suggestions might help you find a resolution.
+
+* Make sure that you are using a :ref:`supported browser<learners:Browsers>`.
+
+  You can also switch from one browser, such as Internet Explorer or Safari, to
+  another browser, such as Firefox or Chrome.
+
+* To take photographs, the webcam uses `Adobe Flash Player`_. You might need to
+  install this application or update to the latest version.
+
+
+
 
 .. include:: ../../links/links.rst

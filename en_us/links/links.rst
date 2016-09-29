@@ -256,7 +256,7 @@
 .. _MOOCdb project: http://moocdb.csail.mit.edu/
 .. _MOOCczar project: https://github.com/UQ-UQx
 .. _Google Calendar website: https://www.google.com/calendar
-
+.. _Adobe Flash Player: https://get.adobe.com/flashplayer/
 .. _Oppia XBlock: https://github.com/oppia/xblock
 
 .. _Durham University Alt Text Checker: https://www.dur.ac.uk/cis/web/accessibility/tools/alttext/
