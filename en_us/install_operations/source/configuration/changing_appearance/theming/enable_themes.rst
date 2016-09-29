@@ -31,7 +31,8 @@ To enable the use of themes for your Open edX installation, follow these steps.
    the root of the file system in a directory named ``/my-open-edx-themes``.
 
 #. Set the file permissions on the themes directory, and all of its
-   subdirectories, to enable read+write permissions for the Ubuntu user.
+   subdirectories, to enable read+write permissions for the Ubuntu user that
+   runs the Open edX application.
 
    For example, to allow the devstack ``edxapp`` user for the LMS and Studio to
    read and write files in the themes directory, you might use the following
@@ -61,7 +62,7 @@ To enable the use of themes for your Open edX installation, follow these steps.
      ``ENABLE_COMPREHENSIVE_THEMING: true``.
 
    If any of these files do not exist, you can add them to define this
-   configuraiton setting.
+   configuration setting.
 
 #. For each Open edX component that you want to apply a theme to, add the
    absolute path of the themes directory to the ``COMPREHENSIVE_THEME_DIRS``
@@ -78,7 +79,6 @@ To enable the use of themes for your Open edX installation, follow these steps.
 
         "COMPREHENSIVE_THEME_DIRS": [
             "/my-open-edx-themes/edx-platform"
-
         ],
 
    * For the LMS, add the path to ``COMPREHENSIVE_THEME_DIRS`` in
@@ -132,8 +132,7 @@ To apply a theme to an Open edX site, follow these steps.
 #. Sign in to the Django administration console for your base URL. For example,
    ``http://{your_URL}/admin``.
 
-#. Select **Site themes** to open the
-   ``http://{your_URL}/admin/theming/sitetheme`` page.
+#. Select **Site themes**.
 
 #. Select **Add site theme**.
 

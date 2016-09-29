@@ -23,8 +23,8 @@ For more information about the themes directory, see
 Understanding Which UI Files to Customize
 ******************************************
 
-You can customize the default images, Sass, and web application template files
-for the Open edX components in your installation.
+You can customize the default images, Sass files, and web application template
+files for the Open edX components in your installation.
 
 * To replace an image, you can override any of the images in the
   ``static/images`` directories for the components you are theming.
