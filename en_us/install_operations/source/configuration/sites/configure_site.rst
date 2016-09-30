@@ -20,8 +20,7 @@ To set configuration properties for a site, follow these steps.
 #. Sign in to the Django administration console for your base URL. For example,
    ``http://{your_URL}/admin``.
 
-#. Select **Site Configurations** to open the
-   ``http://{hostname}/admin/site_configuration/siteconfiguration`` page.
+#. Select **Site Configurations** .
 
 #. Select **Add site configuration**.
 
@@ -42,7 +41,7 @@ To set configuration properties for a site, follow these steps.
          "payment_support_email":"payments@onlineu.edu",
          "SITE_NAME":"onlineu.edu",
          "site_domain":"onlineu.edu",
-         "SESSION_COOKIE_DOMAIN":"onlineu.edu",
+         "SESSION_COOKIE_DOMAIN":"onlineu.edu"
        }
 
    .. note:: To make courses site-specific, you set the ``course_org_filter``
@@ -59,7 +58,6 @@ To set configuration properties for a site, follow these steps.
 
 #. Select **Save**.
 
-.. do you select Save or something else on this page? - Alison (guessing that you do)
 
 *******************************
 Site Configuration Reference

@@ -12,7 +12,7 @@ configuration options.
 
    updating_platform
    sites/index
-   theming/index
+   changing_appearance/index
    customize_registration_page
    config_allowed_regis_emails
    add_coursetalk_widget

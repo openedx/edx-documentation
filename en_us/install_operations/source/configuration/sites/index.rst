@@ -26,4 +26,5 @@ name ``arts.myuniversity.edu`` and another site with the domain name
    create_site
    configure_site
 
-.. For more information about themes, see... TBD
+For more information about themes, see :ref:`Theming Open edX`.
+

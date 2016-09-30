@@ -12,10 +12,12 @@ information about drag and drop problems, see
 
 The following two methods apply CSS styling to drag and drop problems.
 
-* You can apply CSS styles to drag and drop problems using SASS theming. For
-  more information, see :ref:`Sass Theming`.
+* You can apply CSS styles to drag and drop problems by creating a theme for
+  your site and updating the Syntactically Awesome Style Sheet (Sass) files
+  that produce the CSS files. For more information, see :ref:`Creating a
+  Theme`.
 
-* You can apply CSS styles to drag and drop problems by by adding a Python
+* You can apply CSS styles to drag and drop problems by adding a Python
   programming language module that includes a CSS file to your Open edX site.
   For more information, see the instructions in this section.
 
