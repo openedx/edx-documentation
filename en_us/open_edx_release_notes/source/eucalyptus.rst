@@ -130,15 +130,14 @@ Themes for Multiple Sites
 ==========================
 
 With this release, it is now possible to configure themes for multiple sites in
-a single installation of the Open edX platform. For more information about how
-to configure multiple sites for your installation, see
-:ref:`installation:Configuring Open edX Sites`.
+a single installation of the Open edX platform.
 
-Documentation updates for the theming feature are currently in progress. For
-real time conversations about theming, join our community `Slack`_ team on the
-#theming channel.
+* For more information about how to configure multiple sites for your
+  installation, see :ref:`installation:Configuring Open edX Sites`.
 
-.. _Slack: https://openedx-slack-invite.herokuapp.com/
+* For more information about how to create themes for your sites, see
+  `Changing the Appearance of Open edX Sites <http://edx.readthedocs.io/projects/edx-installing-configuring-and-running/en/open-release-eucalyptus.master/configuration/changing_appearance/index.html>`_.
+
 
 .. pattern library and UI toolkit
 
