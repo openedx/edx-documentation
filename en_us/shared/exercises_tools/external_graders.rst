@@ -68,9 +68,11 @@ interval. When the external grader retrieves a submission, it runs the tests on
 it, then pushes the response back to XQueue through the RESTful interface.
 XQueue then delivers the response to the edX Learning Management System.
 
-For example code of an external grader that uses Pull mode, see the `Stanford-
-Online repository xqueue_pull_ref <https://github.com/Stanford-
-Online/xqueue_pull_ref>`_.
+The following repositories are examples of external graders that use Pull mode.
+
+* `xqueue_watcher <https://github.com/edx/xqueue-watcher>`_
+
+* `Stanford-Online repository xqueue_pull_ref <https://github.com/Stanford-Online/xqueue_pull_ref>`_.
 
 ============================
 External Grader Workflow
@@ -121,7 +123,7 @@ from the grader to XQueue, are JSON objects, as described below.
   XQueue does not send the the learner ID to the external grader. Your grader
   cannot access IDs or associate learner IDs with submissions.
 
-For the code for the XQueue interface, see the file `urls.py in the edX XQueue
+For the code for the XQueue interface, see the urls.py file in the `edX XQueue
 repository <https://github.com/edx/xqueue/blob/master/queue/urls.py>`_.
 
 ======================================================
@@ -292,7 +294,7 @@ You create a code response problem in edX Studio by adding a common blank
 problem, then editing the XML problem definition in the
 :ref:`advanced editor<Advanced Editor>`.
 
-See :ref:`Working with Problem Components` for more information.
+For more information, see :ref:`Working with Problem Components`.
 
 Following is a basic example of the XML definition of a problem that uses an
 external grader::
@@ -320,10 +322,10 @@ external grader::
 
 Note the following details about the XML definition.
 
-* **queuename**: The value of the queuename attribute of the ``<coderesponse>``
-  element maps to an XQueue. Partners should contact their edX partner manager
-  for more information. You must use this exact name in order for the problem
-  to communicate with the correct XQueue.
+* ``queuename``: The value of the ``queuename`` attribute of the
+  ``<coderesponse>`` element maps to an XQueue. Partners should contact their
+  edX partner manager for more information. You must use this exact name in
+  order for the problem to communicate with the correct XQueue.
 
   .. note::
     For edX partners, the base URL that graders must access is
@@ -335,7 +337,7 @@ Note the following details about the XML definition.
   the input type is ``<filesubmission>``, which enables the learner to attach
   and submit a code file in the unit.
 
-* **<grader_payload>**: You can use the ``<grader_payload>`` element to send
+* ``<grader_payload>``: You can use the ``<grader_payload>`` element to send
   information to the external grader in the form of a JSON object. For example,
   you can use ``<grader_payload>`` to tell the grader which tests to run for
   this problem.
