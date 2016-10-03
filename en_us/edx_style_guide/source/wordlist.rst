@@ -26,20 +26,22 @@ Word List
        when a sentence begins with the company name, the first letter is also
        capitalized, as in the following example. "EdX provides the edX Demo
        course..." Present the edx.org website in all lower case.
-   * - email
-     - Do not hyphenate e-mail, and use Email only at the start of a sentence
-       or when using title capitalization. Use email to modify a noun. For
-       example, prefer "Send an email message" to "Send an email". Do not use
-       as a verb.
-   * - ID
-     - Capitalize. Use instead of "id" or "Id".
-   * - instructor dashboard
-     - Lowercase both words.
    * - The edX mobile app
      - There is one app, available for different platforms. Do not refer to
        edX mobile apps (plural). Refer to numbered versions for the different
        mobile platforms. For example, "Version 2.6.2 of the edX mobile app for
        iOS is now available." "The edX mobile app for Android now supports..."
+   * - email
+     - Do not hyphenate e-mail, and use Email only at the start of a sentence
+       or when using title capitalization. Use email to modify a noun. For
+       example, prefer "Send an email message" to "Send an email". Do not use
+       as a verb.
+   * - GitHub
+     - The "H" is always capitalized.
+   * - ID
+     - Capitalize. Use instead of "id" or "Id".
+   * - instructor dashboard
+     - Lowercase both words.
    * - learner
      - Use instead of "student", except when referring to a UI label.
    * - page
@@ -87,6 +89,4 @@ Word List
      - Use instead of "user name".
    * - XBlock
      - Use instead of "Xblock" or "xBlock".
-   * - GitHub
-     - The "H" is always capitalized.
 
