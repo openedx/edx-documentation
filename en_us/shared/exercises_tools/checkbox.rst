@@ -700,6 +700,10 @@ halves.
 Checkbox Problem OLX Reference
 ******************************
 
+.. note:: You can also set attributes and options by adding a ``<script>`` element.
+ For more information, see :ref:`Using the Script Element<Using the Script
+ Element in Checkbox Problems>`.
+
 ============
 Template
 ============
@@ -937,3 +941,68 @@ Children
 
 None.
 
+**************************************
+Advanced Options for Checkbox Problems
+**************************************
+
+.. _Using the Script Element in Checkbox Problems:
+
+========================
+Using the Script Element
+========================
+
+You can use the ``<script>`` element to programmatically set attributes and
+options for your checkbox problems.  You could use this feature to display
+different questions/answers depending on variable factors, like time of day, or
+randomly generated numbers.
+
+Use the Advanced Editor to Configure the Script Element
+*******************************************************
+
+You must use the :ref:`advanced editor<Advanced Editor>` to configure a
+``<script>`` element.
+
+The contents of the ``<script>`` element must be enclosed in ``<![CDATA[`` ...
+``]]>`` markers, to indicate that the enclosed code should not be interpreted
+as XML.
+
+The code in the ``<script>`` element is run on the server before the problem is
+shown to learners.  Note that only Python script types are supported.
+
+The following OLX example uses random numbers to generate different answer
+choices for each learner, and mathematical operators to determine each choice's
+correctness.
+
+.. code-block:: xml
+
+    <problem>
+        <script type="text/python">
+        <![CDATA[
+        random.seed(anonymous_student_id)  # Use different random numbers for each student.
+        a = random.randint(1,10)
+        b = random.randint(1,10)
+        c = a + b
+
+        ok0 = c % 2 == 0 # check remainder modulo 2
+        text0 = "$a + $b is divisible by 2"
+
+        ok1 = c % 3 == 0 # check remainder modulo 3
+        text1 = "$a + $b is divisible by 3"
+
+        ok2 = c % 5 == 0 # check remainder modulo 5
+        text2 = "$a + $b is divisible by 5"
+
+        ok3 = not any([ok0, ok1, ok2])
+        text3 = "None of the above statements is true."
+        ]]>
+        </script>
+        <choiceresponse>
+          <label>Which statements about the number $a+$b are true? Select all that apply.</label>
+          <checkboxgroup direction="vertical">
+            <choice correct="$ok0">$text0 ... (should be $ok0)</choice>
+            <choice correct="$ok1">$text1 ... (should be $ok1)</choice>
+            <choice correct="$ok2">$text2 ... (should be $ok2)</choice>
+            <choice correct="$ok3">$text3 ... (should be $ok3)</choice>
+          </checkboxgroup>
+        </choiceresponse>
+    </problem>
