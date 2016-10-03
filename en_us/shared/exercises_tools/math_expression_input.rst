@@ -277,7 +277,8 @@ Children
 ``<label>``
 ***********
 
-Required. Identifies the question or prompt.
+Required. Identifies the question or prompt. You can include HTML tags within
+this element.
 
 Attributes
 ==========
@@ -292,7 +293,8 @@ None.
 ``<description>``
 *****************
 
-Optional. Provides clarifying information about how to answer the question.
+Optional. Provides clarifying information about how to answer the question. You
+can include HTML tags within this element.
 
 Attributes
 ==========
