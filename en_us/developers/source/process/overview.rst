@@ -25,7 +25,8 @@ you don't have to rearchitect it late in your development cycle. We'll help you
 understand the analytics, performance, test, accessibility, and other various
 requirements up front. We'll also be able to let you know if work you're
 planning duplicates work edX or others are doing. Finally, we'll let you know
-if your work requires `architecture council review`_.
+if your proposal, or parts of your proposal, would benefit from the `Open edX
+Proposal (OEP) process`_.
 
 You can get in touch with us using our `Community Discussions`_.
 
@@ -62,7 +63,7 @@ overview of the process is here:
    :alt: A visualization of the pull request process
    :target: ../_images/pr-process.png
 
-.. _architecture council review: https://openedx.atlassian.net/wiki/display/OPEN/OSPR%3A+Architecture+Review
+.. _Open edX Proposal (OEP) process: http://open-edx-proposals.readthedocs.io/en/latest/
 .. _The instructions here: https://github.com/edx/edx-platform/blob/master/CONTRIBUTING.rst#step-0-join-the-conversation
 .. _contribution agreement: https://github.com/edx/edx-platform/blob/master/CONTRIBUTING.rst#step-1-sign-a-contribution-agreement
 .. _edx-code mailing list: https://groups.google.com/forum/#!forum/edx-code
