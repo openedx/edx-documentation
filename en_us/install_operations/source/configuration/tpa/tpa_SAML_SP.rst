@@ -1,13 +1,13 @@
 .. _Configuring your Installation as a SAML Service Provider:
 
 ###############################################################
-Configuring your Installation as a SAML Service Provider
+Configuring your Open edX Site as a SAML Service Provider
 ###############################################################
 
-The first step in configuring your Open edX installation to act as a SAML SP is
+The first step in configuring your Open edX site to act as a SAML SP is
 to create a credential key pair to ensure secure data transfers with identity
 providers. To complete the configuration procedure, you configure your Open edX
-installation as a SAML SP, which creates your metadata XML file.
+site as a SAML SP, which creates your metadata XML file.
 
 .. contents::
    :local:
@@ -43,8 +43,8 @@ Add Keys to the LMS Configuration File
 .. note:: Configuration settings added to the ``lms.auth.json`` file are reset
  to their default values when you use Ansible to update edx-platform.
 
-To configure your Open edX installation with your public and private SAML keys,
-follow these steps.
+To configure an Open edX site with your public and private SAML keys, follow
+these steps.
 
 #. Open the ``edx/app/edxapp/lms.auth.json`` file in your text editor.
 
@@ -105,10 +105,10 @@ follow these steps.
 
 
 **************************************************
-Configure your Installation as a Service Provider
+Configure your Open edX Site as a Service Provider
 **************************************************
 
-To configure your Open edX installation as a SAML service provider, follow
+To configure your Open edX site as a SAML service provider, follow
 these steps.
 
 #. Sign in to the Django administration console for your base URL. For example,
@@ -116,6 +116,10 @@ these steps.
 
 #. In the **Third_Party_Auth** section, next to **SAML Configuration** select
    **Add**.
+
+   .. note:: If you want to change the configuration of an existing service
+    provider, next to **SAML Configuration** select **Change**, and then
+    select **Update** for the provider that you want to configure.
 
 #. Select **Enabled**.
 
@@ -125,6 +129,10 @@ these steps.
     uniquely identifies your site, the naming convention that edX recommends is
     to include the server's domain name. For example,
     ``http://saml.mydomain.com/``.
+
+  - **Site**: Specify the site that you are configuring to be a SAML service
+    provider. There can only be one SAML Service Provider per site. For more
+    information about Sites in Open edX, see :ref:`Configuring Open edX sites`.
 
   - **Organization Info**: Use the format in the example that follows to
     specify a language and locale code and identifying information for your
