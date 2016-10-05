@@ -14,3 +14,9 @@
 
 *  When learners select **Help** in an edx.org course, the :ref:`learners:edX
    Learner's Guide` now opens to a related topic.
+
+* Third Party Auth providers and SAML Configurations are now configured
+  per-Site, so a different selection of Third Party Auth SSO providers can be
+  made available to different Sites. This also means that any pre-existing SSO
+  providers are assigned automatically to the default Site in edX upon
+  upgrading to this release.
