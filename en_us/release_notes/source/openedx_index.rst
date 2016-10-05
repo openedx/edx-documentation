@@ -12,6 +12,12 @@ The following information summarizes what is new in Open edX.
 
 
 *************************
+Week of 3 October 2016
+*************************
+
+.. include:: 2016/openedx/openedx_2016-10-03.rst
+
+*************************
 Week of 5 September 2016
 *************************
 

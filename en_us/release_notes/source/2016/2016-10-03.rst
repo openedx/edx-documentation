@@ -29,6 +29,13 @@ Studio
 
 
 ************
+Open edX
+************
+
+.. include:: openedx/openedx_2016-10-03.rst
+
+
+************
 Analytics
 ************
 
