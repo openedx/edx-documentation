@@ -2625,6 +2625,11 @@ hint.
 
 **History**: This event was added on 1 Jul 2015.
 
+``context`` **Member Fields**:
+
+This event type includes the :ref:`common<context>` ``context.module`` member
+field.
+
 ``event`` **Member Fields**:
 
 .. list-table::
@@ -2655,11 +2660,16 @@ hint.
 Course teams can design problems to include feedback messages that appear after
 a user submits an answer. For problems that include feedback messages, the
 server emits an ``edx.problem.hint.feedback_displayed`` event each time a user
-selects **Check**.
+selects **Submit**.
 
 **Event Source**: Server
 
 **History**: This event was added on 1 Jul 2015.
+
+``context`` **Member Fields**:
+
+This event type includes the :ref:`common<context>` ``context.module`` member
+field.
 
 ``event`` **Member Fields**:
 
@@ -2699,7 +2709,7 @@ selects **Check**.
        the specific problem for which the user received feedback.
    * - ``question_type``
      - string
-     - The XML tag that identifies the problem type. For example,
+     - The XML element that identifies the problem type. For example,
        'stringresponse' for a text input problem.
    * - ``student_answer``
      - array
@@ -2824,8 +2834,6 @@ field.
 ``problem_check_fail``
 *********************************
 
-.. no sample to check
-
 The server emits ``problem_check_fail`` events when a problem cannot be checked
 successfully.
 
@@ -2833,6 +2841,11 @@ successfully.
 
 **History**: Prior to 15 Oct 2013, this event was named
 ``save_problem_check_fail``.
+
+``context`` **Member Fields**:
+
+This event type includes the :ref:`common<context>` ``context.module`` member
+field.
 
 ``event`` **Member Fields**:
 
@@ -2859,10 +2872,8 @@ successfully.
 ``problem_graded``
 *********************************
 
-.. return Logger.log('problem_graded', [_this.answers, response.contents], _this.id);
-
-The browser emits a ``problem_graded`` event each time a user selects **Check**
-for a problem and it is graded successfully.
+The browser emits a ``problem_graded`` event each time a user selects
+**Submit** for a problem and it is graded successfully.
 
 **Event Source**: Browser
 
@@ -2893,10 +2904,12 @@ for a problem and it is graded successfully.
 ``problem_rescore``
 *********************************
 
-.. no sample to check
-
 The server emits ``problem_rescore`` events when a problem is successfully
 rescored.
+
+In these events, the user who rescored the problem is identified in the
+``username`` and ``context.user_id`` fields, and the user who originally
+submitted the response to the problem is identified in the ``student`` field.
 
 **Event Source**: Server
 
@@ -2933,17 +2946,25 @@ rescored.
    * - ``state``
      - object
      - Current problem state.
+   * - ``student``
+     - string
+     - The username of the person whose response is being rescored.
    * - ``success``
      - string
      - 'correct', 'incorrect'
+   * - ``task_id``
+     - string
+     -
 
 ``problem_rescore_fail``
 *********************************
 
-.. no sample to check
-
 The server emits ``problem_rescore_fail`` events when a problem cannot be
 successfully rescored.
+
+In these events, the user who rescored the problem is identified in the
+``username`` and ``context.user_id`` fields, and the user who originally
+submitted the response to the problem is identified in the ``student`` field.
 
 **Event Source**: Server
 
@@ -2965,6 +2986,9 @@ successfully rescored.
    * - ``state``
      - object
      - Current problem state.
+   * - ``student``
+     - string
+     - The username of the person whose response was being rescored.
 
 
 ``problem_reset``
@@ -2972,8 +2996,6 @@ successfully rescored.
 
 The browser emits ``problem_reset`` events after a user selects **Reset** and
 the answer to a problem is reset.
-
-.. return Logger.log('problem_reset', [_this.answers, response.contents], _this.id);
 
 **Event Source**: Browser
 
@@ -2993,8 +3015,6 @@ the answer to a problem is reset.
 
 ``problem_save``
 *********************************
-
-.. no sample to check
 
 The browser emits ``problem_save`` events after a user saves a problem.
 
@@ -3042,12 +3062,15 @@ shown; that is, the user selected **Show Answer**.
 ``reset_problem``
 *********************************
 
-.. no sample to check
-
 The server emits ``reset_problem`` events when a problem has been reset
 successfully.
 
 **Event Source**: Server
+
+``context`` **Member Fields**:
+
+This event type includes the :ref:`common<context>` ``context.module`` member
+field.
 
 ``event`` **Member Fields**:
 
@@ -3071,12 +3094,15 @@ successfully.
 ``reset_problem_fail``
 *********************************
 
-.. no sample to check
-
 The server emits ``reset_problem_fail`` events when a problem cannot be reset
 successfully.
 
 **Event Source**: Server
+
+``context`` **Member Fields**:
+
+This event type includes the :ref:`common<context>` ``context.module`` member
+field.
 
 ``event`` **Member Fields**:
 
@@ -3100,12 +3126,15 @@ successfully.
 ``save_problem_fail``
 *********************************
 
-.. no sample to check
-
 The server emits ``save_problem_fail``  events when a problem cannot be saved
 successfully.
 
 **Event Source**: Server
+
+``context`` **Member Fields**:
+
+This event type includes the :ref:`common<context>` ``context.module`` member
+field.
 
 ``event`` **Member Fields**:
 
@@ -3132,12 +3161,15 @@ successfully.
 ``save_problem_success``
 *********************************
 
-.. no sample to check
-
 The server emits ``save_problem_success`` events when a problem is saved
 successfully.
 
 **Event Source**: Server
+
+``context`` **Member Fields**:
+
+This event type includes the :ref:`common<context>` ``context.module`` member
+field.
 
 ``event`` **Member Fields**:
 
