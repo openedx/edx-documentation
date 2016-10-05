@@ -78,7 +78,7 @@ The editing interface that opens depends on the type of problem you choose.
 
 * For advanced problem types (with the exception of :ref:`peer assessment<Open
   Response Assessments 2>`), the :ref:`advanced editor<Advanced Editor>` opens.
-  In this editor you use OLX (open learning XML) tags, elements, and attributes
+  In this editor you use open learning XML (OLX) elements and attributes
   to identify the elements of the problem.
 
   For peer assessment problem types, you define the problem elements and
