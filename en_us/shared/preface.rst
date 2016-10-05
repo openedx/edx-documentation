@@ -9,7 +9,7 @@ Other edX Resources
 .. edx-platform/docs/en_us/shared
 .. Alison 19 Aug 14
 
-Course teams, researchers, developers, learners: the edX community includes
+Learners, course teams, researchers, developers: the edX community includes
 groups with a range of reasons for using the platform and objectives to
 accomplish. To help members of each group learn about what edX offers, reach
 goals, and solve problems, edX provides a variety of information resources.
@@ -24,6 +24,50 @@ categories.
 All members of the edX community are encouraged to make use of the
 resources described in this preface. We welcome your feedback on these edX
 information resources. Contact the edX documentation team at `docs@edx.org`_.
+
+.. _Resources for Students:
+
+******************************
+Resources for edx.org Learners
+******************************
+
+==============
+Documentation
+==============
+
+The `EdX Learner's Guide`_ is available on the docs.edx.org web page. This
+guide is also available when you select **Help** while you are in a course, and
+from your dashboard of enrolled courses.
+
+==============
+In a Course
+==============
+
+All edX courses have a discussion page where you can ask questions and
+interact with other students and with the course team: select **Discussion**.
+Many courses also offer a wiki for additional resources and materials: select
+**Wiki**.
+
+Other resources might also be available, such as a course-specific Facebook
+page or Twitter feed. Be sure to check the **Home** page for your course as
+well as the **Discussion** and **Wiki** pages.
+
+=================================
+Resources on the edx.org Website
+=================================
+
+To help you get started with the edX learning experience, edX offers a course
+(of course!). You can find the edX Demo_ course on the edx.org website.
+
+When you are working in an edX course, you can select **Support** to access a
+help center with `frequently asked questions`_  and answers.
+
+If you still have questions or suggestions, you can get help from the edX
+support team: select **Support**, select **Contact** at the bottom of any edX
+web page, or send an email message to info@edx.org.
+
+For opportunities to meet others who are interested in edX courses, check the
+edX Global Community meetup_ group.
 
 .. _The edX Partner Portal:
 
@@ -65,10 +109,10 @@ in the Partner Portal.
 The Open edX Portal
 ***********************
 
-The `Open edX Portal`_ is the destination for all edX users to learn about the
-edX roadmap, as well as hosting, extending the edX platform, and contributing
-to Open edX. In addition, the Open edX Portal provides product announcements,
-the Open edX blog, and other rich community resources.
+The `Open edX Portal`_ is the destination for learning about hosting an Open
+edX instance, extending the edX platform, and contributing to Open edX. In
+addition, the Open edX Portal provides product announcements and other
+community resources.
 
 All users can view content on the Open edX Portal without creating an account
 and logging in.
@@ -115,20 +159,25 @@ the Twitter feed, are published on the `edX Status`_ web page.
 
 .. _Resources for Course Teams:
 
-**************************
-Resources for Course Teams
-**************************
+**********************************
+Resources for edx.org Course Teams
+**********************************
 
 Course teams include faculty, instructional designers, course staff, discussion
 moderators, and others who contribute to the creation and delivery of courses
 on edx.org or edX Edge.
 
 ======================================
-The edX Learning Series
+The edX Course Creator Series
 ======================================
 
-The courses in the edX Learning Series provide foundational knowledge about
-using the edX platform. These courses are available on edx.org.
+The courses in the edX Course Creator Series provide foundational knowledge
+about using the edX platform to deliver educational experiences. These courses
+are available on edx.org.
+
+.. contents::
+ :local:
+ :depth: 1
 
 edX101: Overview of Creating a Course
 **************************************
@@ -142,7 +191,13 @@ StudioX: Creating a Course with edX Studio
 
 After you complete edX101, `StudioX`_ provides more detail about using Studio
 to create a course, add different types of content, and configure your course
-to provide an optimal on-line learning experience.
+to provide an optimal online learning experience.
+
+BlendedX: Blended Learning with edX
+************************************
+
+In `BlendedX`_ you explore ways to blend educational technology with
+traditional classroom learning to improve educational outcomes.
 
 VideoX: Creating Video for the edX Platform
 *************************************************
@@ -158,12 +213,12 @@ Documentation
 
 Documentation for course teams is available on the `docs.edx.org`_ web page.
 
-* `Building and Running an edX Course`_ is a comprehensive guide with concepts
-  and procedures to help you build a course in edX Studio, and then use the
-  Learning Management System (LMS) to run a course.
+* `Building and Running an edX Course`_ is a comprehensive guide with
+  concepts and procedures to help you build a course in Studio and then
+  use the Learning Management System (LMS) to run a course.
 
-  When you are working in edX Studio, you can access relevant sections of this
-  guide by selecting **Help** on any page.
+  You can access this guide by selecting **Help** in Studio or from the
+  instructor dashboard in the LMS.
 
 * `Using edX Insights`_ describes the metrics, visualizations, and downloadable
   .csv files that course teams can use to gain information about student
@@ -370,9 +425,6 @@ is available.
   concepts and procedures to help you build a course in Studio, and then
   use the Learning Management System (LMS) to run a course.
 
-  When you are working in Studio, you can access relevant sections of this
-  guide by selecting **Help** on any page.
-
 * `Open edX Learner's Guide`_ helps students use the Open edX LMS to take
   courses. This guide is available on the docs.edx.org web page. Because
   learners are currently only guided to this resource through the course,
@@ -408,54 +460,6 @@ is available.
  search feature for the HTML versions of the edX guides. This is a known
  limitation.
 
-.. _Resources for Students:
-
-**************************
-Resources for Learners
-**************************
-
-==============
-Documentation
-==============
-
-The `EdX Learner's Guide`_ and the `Open edX Learner's Guide`_ are available
-on the docs.edx.org web page. Because learners are currently only guided to
-this resource through the course, we encourage course teams to provide
-learners with links to these guides as needed in course updates or discussions.
-
-==============
-In a Course
-==============
-
-All edX courses have a discussion forum where you can ask questions and
-interact with other students and with the course team: select **Discussion**.
-Many courses also offer a wiki for additional resources and materials: select
-**Wiki**.
-
-Other resources might also be available, such as a course-specific Facebook
-page or Twitter feed. Be sure to check the **Home** page for your course as
-well as the **Discussion** and **Wiki** pages.
-
-From time to time, the course team might send email messages to all students.
-While you can opt out of these messages, doing so means that you can miss
-important or time-sensitive information. To change your preferences for course
-email, select **edX** or **edX edge** at the top of any page. On your dashboard
-of current courses, locate the course and then select **Email Settings**.
-
-==========
-From edX
-==========
-
-To help you get started with the edX learning experience, edX offers a course
-(of course!). You can find the edX Demo_ course on the edX web site. EdX also
-maintains a list of `frequently asked questions`_  and answers.
-
-If you still have questions or suggestions, you can get help from the edX
-support team: select **Contact** at the bottom of any edX web page or send an
-email message to info@edx.org.
-
-For opportunities to meet others who are interested in edX courses, check the
-edX Global Community meetup_ group.
 
 .. _Building and Running an edX Course: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/
 .. _Building and Running an Open edX Course: http://edx.readthedocs.org/projects/open-edx-building-and-running-a-course/en/latest/
@@ -463,6 +467,7 @@ edX Global Community meetup_ group.
 .. _docs@edx.org: docs@edx.org
 .. _edx101: https://www.edx.org/course/overview-creating-edx-course-edx-edx101#.VIIJbWTF_yM
 .. _StudioX: https://www.edx.org/course/creating-course-edx-studio-edx-studiox#.VRLYIJPF8kR
+.. _BlendedX: https://www.edx.org/course/blended-learning-edx-edx-blendedx-1
 .. _VideoX: https://www.edx.org/course/creating-video-edx-platform-edx-videox
 .. _Demo: http://www.edx.org/course/edx/edx-edxdemo101-edx-demo-1038
 .. _edX Partner Support: https://partners.edx.org/edx_zendesk
