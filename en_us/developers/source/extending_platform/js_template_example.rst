@@ -6,7 +6,7 @@ The Custom JavaScript Display and Grading Example Template
 
 As referred to in `course team documentation <http://edx.readthedocs.org/projects/ca/en/latest/problems_tools/advanced_problems.html#custom-javascript-display-and-grading>`_, there is a built-in template in edX Studio that uses a sample JavaScript application.
 
-This sample application has students select two different shapes, a cone and a
+This sample application has learners select two different shapes, a cone and a
 cube. The correct state is when the cone is selected and the cube is not
 selected.
 
@@ -53,8 +53,8 @@ JSON string.
 Example setState() Function
 ******************************
 
-In this example, when a student selects **Submit**, the ``state`` variable is
-saved so that the student can later return to the application and find it in
+In this example, when a learner selects **Submit**, the ``state`` variable is
+saved so that the learner can later return to the application and find it in
 the same state.
 
 .. code-block:: javascript
@@ -90,8 +90,8 @@ the cylinder and cone with the user's current selections:
 Example getGrade() function
 ******************************
 
-In this example, when a student selects **Submit**, the ``getGrade()``
-function in returns the selected objects.
+In this example, when a learner selects **Submit**, the ``getGrade()``
+function returns the selected objects.
 
 .. code-block:: javascript
 
@@ -114,28 +114,28 @@ The following is the Python function ``vglcfn`` in the sample application:
     <script type="loncapa/python">
     import json
     def vglcfn(e, ans):
-        '''
+        ...
         par is a dictionary containing two keys, "answer" and "state"
         The value of answer is the JSON string returned by getGrade
         The value of state is the JSON string returned by getState
-        '''
+        ...
         par = json.loads(ans)
         # We can use either the value of the answer key to grade
         answer = json.loads(par["answer"])
         return answer["cylinder"] and not answer["cube"]
-        '''
+        ...
         # Or we could use the value of the state key
         state = json.loads(par["state"])
         selectedObjects = state["selectedObjects"]
         return selectedObjects["cylinder"] and not selectedObjects["cube"]
-        '''
+        ...
     </script>
 
 The ``ans`` parameter contains the JSON string returned by ``getGrade()``. The
 value is converted to a Python Unicode structure in the variable ``par``.
 
-In the function's first option, object(s) the student selected are stored in the
-``answer`` variable.  If the student selected the cylinder and not the cube, the
+In the function's first option, object(s) the learner selected are stored in the
+``answer`` variable.  If the learner selected the cylinder and not the cube, the
 ``answer`` variable contains only ``cylinder``, and the function returns
 ``True``, which signifies a correct answer.  Otherwise, it returns ``False`` and
 the answer is incorrect.
@@ -158,30 +158,30 @@ The XML problem for the sample template is as follows.
         <script type="loncapa/python">
             import json
             def vglcfn(e, ans):
-                '''
+                ...
                 par is a dictionary containing two keys, "answer" and "state"
                 The value of answer is the JSON string returned by getGrade
                 The value of state is the JSON string returned by getState
-                '''
+                ...
                 par = json.loads(ans)
                 # We can use either the value of the answer key to grade
                 answer = json.loads(par["answer"])
                 return answer["cylinder"] and not answer["cube"]
-                '''
+                ...
                 # Or we could use the value of the state key
                 state = json.loads(par["state"])
                 selectedObjects = state["selectedObjects"]
                 return selectedObjects["cylinder"] and not selectedObjects["cube"]
-                '''
+                ...
         </script>
         <p>
             The shapes below can be selected (yellow) or unselected (cyan).
             Clicking on them repeatedly will cycle through these two states.
         </p>
         <p>
-            If the cone is selected (and not the cube), a correct answer will be
-            generated after pressing "Submit". Clicking on either "Submit" or "Save"
-            will register the current state.
+            If the cone is selected (and not the cube), a correct answer will
+            be generated after selecting "Submit". Selecting either "Submit"
+            or "Save" will register the current state.
         </p>
         <customresponse cfn="vglcfn">
             <jsinput gradefn="WebGLDemo.getGrade"
