@@ -116,10 +116,10 @@ component.
   - For **Scored**, from the drop down list select **True** or **False** to
     indicate whether the assignment should be graded.
 
-   .. note:: Grading is subject to the setting of this unit's subsection or
-      section. If the subsection or section is not graded, selecting **True**
-      here has no impact. If the subsection or section is graded, this
-      assignment is graded, even if you have selected **False**.
+   .. note:: Grading is subject to the setting of this unit's subsection. If the
+      subsection is not graded, selecting **True** here has no impact. If the
+      subsection is graded, this assignment is graded, even if you have selected
+      **False**.
 
 7. Select **Save** when you have finished specifying the details of your
    randomized content block.

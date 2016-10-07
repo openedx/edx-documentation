@@ -21,7 +21,11 @@ Molecule Editor <http://peter-ertl.com/jsme/index.html>`_. For more information
 about JSmol, see `JSmol <http://sourceforge.net/projects/jsmol/>`_.
 
 .. image:: ../../../shared/images/Molecule_Editor.png
-  :alt: Image of the molecule editor.
+
+  :alt: An example molecule editor problem that asks learners to draw a
+      caffeine molecule using the editor. The correct answer and
+      explanation are shown.
+
   :width: 500
 
 .. _Create the Molecule Editor:

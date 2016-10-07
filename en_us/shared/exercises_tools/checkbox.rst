@@ -39,17 +39,17 @@ Example Checkbox Problem
 In the LMS, learners complete a checkbox problem by selecting the answer
 options that they believe are correct as well as leaving unselected the answer
 options that they believe are incorrect. An example of a completed checkbox
-problem follows. This problem was incorrectly answered because the learner
-selected only two of the three required answer options. This example also
-shows that the learner selected **Show Answer** to reveal the correct answer
-and an explanation. Having selected **Show Answer**, he can no longer submit
-further responses.
+problem follows.
 
 .. image:: ../../../shared/images/CheckboxExample.png
- :alt: An checkbox problem shown in the LMS. This problem was incorrectly
+ :alt: An example checkbox problem in the LMS. This problem was incorrectly
     answered because the learner selected only two of the three required answer
     options. An explanation appears below the answer options because the
     learner also selected "Show Answer".
+
+This problem was incorrectly answered because the learner selected only two of
+the three required answer options. This example also shows that the learner
+selected **Show Answer** to reveal the correct answer and an explanation.
 
 To add the example problem illustrated above, in Studio you use the simple
 editor to enter the following text and Markdown formatting.

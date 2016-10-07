@@ -110,23 +110,23 @@ JavaScript Input Problem Code
   <![CDATA[
   import json
   def vglcfn(e, ans):
-     '''
+     ...
      par is a dictionary that contains two keys, "answer" and "state".
      The value of "answer" is the JSON string that "getGrade" returns.
      The value of "state" is the JSON string that "getState" returns.
      Clicking either "Submit" or "Save" registers the current state.
 
-     '''
+     ...
      par = json.loads(ans)
      # You can use the value of the answer key to grade:
      answer = json.loads(par["answer"])
      return answer["cylinder"] and not answer["cube"]
-     '''
+     ...
      # Or you can use the value of the state key to grade:
      state = json.loads(par["state"])
      selectedObjects = state["selectedObjects"]
      return selectedObjects["cylinder"] and not selectedObjects["cube"]
-     '''
+     ...
   ]]>
   </script>
   <p>In the image below, click the objects until the cone is yellow and the cube is blue.</p>
