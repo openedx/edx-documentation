@@ -4,7 +4,7 @@
 Integrating with a SAML Identity Provider
 ##########################################
 
-You can integrate your Open edX installation with federated identity solutions
+You can integrate your Open edX site with federated identity solutions
 that use the SAML 2.0 (Security Assertion Markup Language, version 2.0)
 standard. An example is Shibboleth, a single sign on system that is used by
 many educational institutions.
@@ -19,7 +19,7 @@ Exchange Metadata
 
 SAML metadata is an XML file that contains the information necessary for secure
 interactions between identity providers and security providers. You send the
-URL of your metadata file, created when you :ref:`configured your installation
+URL of your metadata file, created when you :ref:`configured your Open edX site
 as a SAML service provider<Configuring your Installation as a SAML Service
 Provider>`, to each identity provider that you want to add. Similarly, you
 obtain the metadata URLs from identity providers before you add and enable them
@@ -59,6 +59,10 @@ To add and enable a SAML 2.0 identity provider, follow these steps.
      Open edX and works with most SAML providers. Select a different option
      only if you have added a custom backend that provides additional
      functionality.
+
+   - **Site**: Select the site that you are configuring to use this IdP. Each
+     IdP can only belong to one site at a time. For more information about
+     sites in Open edX, see :ref:`Configuring Open edX sites`.
 
    - **IdP slug**: A short, unique name to identify this IdP in the URL. The
      slug becomes part of a URL, so the value that you enter cannot include
