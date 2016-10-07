@@ -73,11 +73,13 @@ an option is available in problems.
    problem. If a learner selects **Show Answer**, the learner sees both the
    correct answer and the explanation, if any.
 
-9. **Feedback.** After a learner selects **Submit**, a green check mark or a
-   red X appears beside each response field or selection within a problem.
-   Underneath the problem, feedback text indicates whether the problem was
-   answered correctly, incorrectly, or partially correctly, and shows the problem
-   score.
+9. **Feedback.** After a learner selects **Submit**, an icon appears beside
+   each response field or selection within a problem. A green check mark
+   indicates that the response was correct, a green asterisk indicates that the
+   response was partially correct, and a red X indicates that the response was
+   incorrect. Underneath the problem, feedback text indicates whether the problem
+   was answered correctly, incorrectly, or partially correctly, and shows the
+   problem score.
 
    .. image:: ../../../shared/images/AnatomyOfExercise2.png
      :alt: A problem from a learner's point of view, with callouts showing the
@@ -97,13 +99,12 @@ have the following elements.
   group of problems is graded, an icon of a pen and a piece of paper is
   shown for that assignment in the course navigation pane.
 
-* **Due date.** The date that the problem is due. A problem that is past due
-  does not offer a **Submit** option. It also does not accept answers or
-  provide feedback.
+* **Due date.** The date that the problem is due. Learners cannot submit
+  answers for problems whose due dates have passed, although they can select
+  **Show Answer** to show the correct answer and the explanation, if any.
 
 .. note:: Problems can be **open** or **closed**. Closed problems, such as
-   problems whose due dates are in the past, do not have **Submit** or
-   **Reset** options. Learners can still see questions, solutions, and
+   problems whose due dates are in the past, do not accept further responses and cannot be reset. Learners can still see questions, solutions, and
    revealed explanations, but they cannot submit responses or reset problems.
 
 There are also some attributes of problems that are not immediately
