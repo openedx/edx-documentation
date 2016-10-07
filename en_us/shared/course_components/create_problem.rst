@@ -344,7 +344,7 @@ This setting specifies the total number of points possible for the problem. In
 the LMS, the problem weight appears near the problem's display name.
 
 .. image:: ../../../shared/images/DropdownProblemWeight.png
- :alt: A example problem that contains three questions, with the possible
+ :alt: An example problem that contains three questions, with the possible
        number of points, 3, shown near the display name.
  :width: 400
 
@@ -503,7 +503,10 @@ options define when the answer is shown to learners.
    :widths: 15 70
 
    * - **Always**
-     - Always show the answer when the learner selects **Show Answer**.
+     - Always present the **Show Answer** option.
+
+       Note: Learners can submit a response after selecting **Show Answer** to
+       see the correct answer.
 
    * - **Answered**
      - Show the answer only after the learner tries to answer the problem.
@@ -531,8 +534,8 @@ options define when the answer is shown to learners.
        if the learner has no attempts remaining, or if the problem due date has
        passed.
    * - **Correct or Past Due**
-     - Show the answer only after the learner has answered the problem correctly or
-       if the problem due date has passed.
+     - Show the answer only after the learner has answered the problem
+       correctly or if the problem due date has passed.
    * - **Past Due**
      - Show the answer only after the due date for the problem has passed.
    * - **Never**

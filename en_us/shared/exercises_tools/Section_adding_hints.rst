@@ -51,7 +51,7 @@ such as multiple choice and dropdown problems, the feedback should provide a
 reason why the selection is correct.
 
 ============================
-General Hints to a Problem
+Providing Hints for Problems
 ============================
 
 You can add one or more hints that are displayed to learners. When you add
@@ -66,8 +66,9 @@ For example, in the following multiple choice problem, the learner selects
  :alt: Image of a multiple choice problem with the first hint.
  :width: 600
 
-The hint text indicates that it is the first of two hints. The learner selects
-**Next Hint**.
+The hint text indicates that it is the first of two hints. After the learner
+selects **Next Hint**, both of the available hints appear. When all hints have
+been used, the **Hint** or **Next Hint** option is no longer available.
 
 .. image:: ../../../shared/images/multiple_choice_hint2.png
  :alt: Image of a multiple choice problem with the second hint.
