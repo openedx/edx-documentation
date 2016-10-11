@@ -232,9 +232,9 @@ The structure of the Python code in the problem is shown in this example.
         <script type="loncapa/python">
             import json
             def vglcfn(e, ans):
-                ...
+                """
                 Code that parses ans and returns True or False
-                ...
+                """
         </script>
         <customresponse cfn="vglcfn">
         . . . .
@@ -255,9 +255,9 @@ JavaScript application has the following structure.
         <script type="loncapa/python">
             import json
             def vglcfn(e, ans):
-                ...
+                """
                 Code that parses ans and returns True or False
-                ...
+                """
         </script>
         <customresponse cfn="vglcfn">
             <jsinput
