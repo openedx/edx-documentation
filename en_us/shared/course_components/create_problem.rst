@@ -505,17 +505,17 @@ options define when the answer is shown to learners.
    * - **Always**
      - Always present the **Show Answer** option.
 
-       Note: Learners can submit a response after selecting **Show Answer** to
-       see the correct answer.
+       Note: If you specify **Always**, learners can submit a response even
+       after they select **Show Answer** to see the correct answer.
 
    * - **Answered**
-     - Show the answer only after the learner tries to answer the problem.
+     - Show the answer only after the learner answers the problem correctly.
 
        If the problem can be, and is, reset, the answer is not shown until the
-       learner tries the problem again. (When a learner answers a problem, the
-       problem is considered to be both attempted and answered. When the problem
-       is reset, the problem is still considerd to have been attempted, but is
-       not considered to be answered.)
+       learner tries the problem again after resetting. (When a learner
+       answers a problem, the problem is considered to be both attempted and
+       answered. When the problem is reset, the problem is still considered to
+       have been attempted, but is not considered to be answered.)
 
    * - **Attempted**
      - Show the answer only after the learner tries to answer the problem.
