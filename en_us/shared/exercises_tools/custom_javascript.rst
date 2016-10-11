@@ -114,7 +114,6 @@ JavaScript Input Problem Code
      par is a dictionary that contains two keys, "answer" and "state".
      The value of "answer" is the JSON string that "getGrade" returns.
      The value of "state" is the JSON string that "getState" returns.
-     Clicking either "Submit" or "Save" registers the current state.
      """
      par = json.loads(ans)
      # You can use the value of the answer key to grade:
@@ -135,7 +134,7 @@ JavaScript Input Problem Code
           set_statefn="WebGLDemo.setState"
           width="400"
           height="400"
-          html_file="https://studio.edx.org/c4x/edX/DemoX/asset/webGLDemo.html"
+          html_file="/static/webGLDemo.html"
       />
   </customresponse>
   </problem>
