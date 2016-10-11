@@ -6,11 +6,11 @@ Molecule Editor Tool
 
 .. note:: EdX does not support this tool.
 
-Students can use the molecule editor to learn how to create molecules. The
-molecule editor allows students to draw molecules that follow the rules for
+Learners can use the molecule editor to learn how to create molecules. The
+molecule editor allows learners to draw molecules that follow the rules for
 covalent bond formation and formal charge, even if the molecules are chemically
 impossible, are unstable, or do not exist in living systems. The molecule
-editor warns students if they try to submit a structure that is chemically
+editor warns learners if they try to submit a structure that is chemically
 impossible.
 
 The molecule editor incorporates two tools: the JSME molecule editor created by
@@ -21,7 +21,6 @@ Molecule Editor <http://peter-ertl.com/jsme/index.html>`_. For more information
 about JSmol, see `JSmol <http://sourceforge.net/projects/jsmol/>`_.
 
 .. image:: ../../../shared/images/Molecule_Editor.png
-
   :alt: An example molecule editor problem that asks learners to draw a
     caffeine molecule using the editor. The correct answer and
     explanation are shown.
