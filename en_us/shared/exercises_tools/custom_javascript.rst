@@ -115,7 +115,6 @@ JavaScript Input Problem Code
      The value of "answer" is the JSON string that "getGrade" returns.
      The value of "state" is the JSON string that "getState" returns.
      Clicking either "Submit" or "Save" registers the current state.
-
      """
      par = json.loads(ans)
      # You can use the value of the answer key to grade:
