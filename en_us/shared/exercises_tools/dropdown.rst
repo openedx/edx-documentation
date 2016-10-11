@@ -40,10 +40,12 @@ problem. An example of a completed dropdown problem follows.
      correct.
  :width: 400
 
-In this example, a single problem component contains multiple questions, all of
-them using the dropdown problem type. To add the example illustrated
-above, you enter the following text and Markdown formatting in the simple
-editor in Studio.
+In this example, a single problem component contains multiple questions, all
+of them using the dropdown problem type. To add the example illustrated above,
+you enter the following text and Markdown formatting in the simple editor in
+Studio. Then, select **Settings** for the problem to define settings. To
+specify that each question is worth one point, leave the **Problem Weight**
+field empty.
 
 ::
 
