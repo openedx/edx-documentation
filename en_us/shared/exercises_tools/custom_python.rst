@@ -20,12 +20,8 @@ Overview
 In custom Python-evaluated input (also called "write-your-own-grader"
 problems), the grader uses a Python script that you create and embed in the
 problem to evaluate a learner's response or provide hints. These problems can
-be any type. Numerical input and text input problems are the most common
-write-your-own-grader problems.
-
-.. image:: ../../../shared/images/CustomPythonExample.png
- :alt: An image of a write-your-own-grader problem.
-
+be any type. :ref:`Numerical input<Numerical Input>` and :ref:`text input<Text
+Input>` problems are the most common write-your-own-grader problems.
 
 Custom Python-evaluated input problems can include the following advanced
 problem types.
@@ -36,9 +32,9 @@ problem types.
 * :ref:`Molecule Editor`
 * :ref:`Protein Builder`
 
-*****************************************************
-Create a Custom Python-Evaluated Input Problem Studio
-*****************************************************
+********************************************************
+Create a Custom Python-Evaluated Input Problem in Studio
+********************************************************
 
 #. In the unit where you want to create the problem, select **Problem** under
    **Add New Component**, and then select the **Advanced** tab.
@@ -98,7 +94,7 @@ whether the learner's answer is correct.
 
 * ``"Partial"``: Indicates that the learner's answer was partially correct. By
   default, the learner receives 50% of the points for the problem. For more
-  information, see `Award Half Credit`_.
+  information, see :ref:`Award Half Credit`.
 
 * A dictionary of the form ``{ 'ok': True, 'msg': 'Message' }``. If the
   dictionary's value for ``ok`` is set to ``True``, all response fields are
@@ -277,11 +273,7 @@ follow these steps.
           <p>For part 1, any two numbers of the form <i>n</i> and <i>10-n</i>,
           where <i>n</i> is any integer, will work. One possible answer would
           be the pair 0 and 10.</p>
-          <p>For part 2, any pair <i>x</i> and <i>20-x</i> will work, where <i>
-          x</i> is any real number with a finite decimal representation. Both
-          numbers have to be entered either in standard decimal notation or in
-          scientific exponential notation. One possible answer would be the
-          pair 0.5 and 19.5. Another way to write this would be 5e-1 and 1.95e1.</p>
+          <p>For part 2, any two numbers of the form <i>n</i> and <i>20-n</i>, where <i>n</i> is any integer, will work. One possible answer would be the pair 1 and 19</p>
       </div>
   </solution>
   </problem>

@@ -31,7 +31,7 @@ Reported Problem Types
 
 To measure problem-related activity, the learner engagement report includes
 data for CAPA problems. That is, the report includes data for problems for
-which learners can select **Check**, including these problem types.
+which learners can select **Submit**, including these problem types.
 
  * Checkboxes
  * Custom JavaScript
@@ -80,10 +80,10 @@ The learner engagement report .csv files contain the following columns.
      - Included only in the weekly report. Identifies the number of days
        during the week that the learner visited any page (URL) in the course.
    * - Unique Problems Attempted
-     - The number of unique problems for which the learner selected **Check**
+     - The number of unique problems for which the learner selected **Submit**
        to submit an answer.
    * - Total Problem Attempts
-     - The number of times the learner selected **Check** to submit answers,
+     - The number of times the learner selected **Submit** to submit answers,
        regardless of the particular problem attempted.
    * - Unique Problems Correct
      - The number of unique problems for which the learner submitted a correct

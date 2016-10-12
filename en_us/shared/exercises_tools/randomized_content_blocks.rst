@@ -110,7 +110,18 @@ component.
     problem to be drawn from the library. Select **Any Type** if you do not
     want to specify a particular type of problem.
 
-#. Select **Save** when you have finished specifying the details of your
+    .. image:: ../../../shared/images/ContentLibraries_RCBSelectProblemType.png
+     :alt: Problem type dropdown list in randomized content block settings.
+
+  - For **Scored**, from the drop down list select **True** or **False** to
+    indicate whether the assignment should be graded.
+
+   .. note:: Grading is subject to the setting of this unit's subsection. If the
+      subsection is not graded, selecting **True** here has no impact. If the
+      subsection is graded, this assignment is graded, even if you have selected
+      **False**.
+
+7. Select **Save** when you have finished specifying the details of your
    randomized content block.
 
 To view the list of components in the source library that match your filter
@@ -164,12 +175,13 @@ In Studio, in the course unit that uses a randomized content block, you can
 edit each component within the randomized content block in the same way as you
 do for any other component in your course.
 
-.. note:: Be aware that if you make changes on a component's **Editor** tab, if
-   you update the randomized content block with the latest version of
+.. note:: Be aware that if you make changes on a component's **Editor** tab,
+   and then you update the randomized content block with the latest version of
    components from a library, these changes are overwritten. Only changes to a
-   component's **Settings** tab are retained when you update the component. For
-   details about getting the latest versions of library content in a randomized
-   content block, see :ref:`Get the Latest Version of Library Content`.
+   component's **Settings** tab are retained when you update the component.
+   For details about getting the latest versions of library content in a
+   randomized content block, see :ref:`Get the Latest Version of Library
+   Content`.
 
 The settings of a component that is supplied in a randomized content block are
 initially inherited from the component in the content library that it is drawn

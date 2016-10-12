@@ -16,7 +16,7 @@ For information about building specific course component types, see
 
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    create_exercises_and_tools
    enable_exercises_tools

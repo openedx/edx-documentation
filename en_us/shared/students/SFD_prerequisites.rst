@@ -72,8 +72,8 @@ exam. You can begin the exam immediately.
   :width: 500
   :alt: The Entrance Exam page with the first problem visible.
 
-To take the exam, answer all the available questions, and then select **Check**
-to submit your answers.
+To take the exam, answer all the available questions, and then select
+**Submit** to submit your answers.
 
 To see your score on the exam, refresh the page after you submit your answers.
 The message at the top of the page tells you if you have passed the exam. If
