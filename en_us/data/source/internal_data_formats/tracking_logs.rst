@@ -605,7 +605,7 @@ course content.
 
 ``event`` **Member Fields**:
 
-The ``edx.ui.lms.sequence.link_clicked`` event includes both a ``name`` field
+The ``edx.ui.lms.link_clicked`` event includes both a ``name`` field
 and an ``event_type`` field. For more information about these common fields,
 see :ref:`common`.
 
@@ -628,8 +628,8 @@ see :ref:`common`.
      - The URL of the page that the selected link leads to.
 
 
-Example ``edx.ui.lms.sequence.link_clicked`` Event
-***************************************************
+Example ``edx.ui.lms.link_clicked`` Event
+*****************************************
 
 The following example shows the relevant fields of the event that is emitted
 when a user selects any hypertext link from the course content.
