@@ -110,17 +110,6 @@ component.
     problem to be drawn from the library. Select **Any Type** if you do not
     want to specify a particular type of problem.
 
-    .. image:: ../../../shared/images/ContentLibraries_RCBSelectProblemType.png
-     :alt: Problem type dropdown list in randomized content block settings.
-
-  - For **Scored**, from the drop down list select **True** or **False** to
-    indicate whether the assignment should be graded.
-
-  .. note:: Grading is subject to the setting of this unit's subsection or
-     section. If the subsection or section is not graded, selecting **True**
-     here has no impact. If the subsection or section is graded, this assignment
-     is graded, even if you have selected **False**.
-
 #. Select **Save** when you have finished specifying the details of your
    randomized content block.
 
