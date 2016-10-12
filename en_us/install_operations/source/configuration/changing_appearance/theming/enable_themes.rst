@@ -113,6 +113,30 @@ To enable the use of themes for your Open edX installation, follow these steps.
             "/my-other-open-edx-themes/edx-platform"
         ],
 
+Example Settings for Comprehensive Theme
+----------------------------------------
+
+For the following file structure:
+
+.. code::
+
+    edx
+    └── my-themes
+       └── my-theme-red
+            ├── cms
+            └── lms
+               └── static
+               └── templates
+
+set these in lms.env.json and cms.env.json:
+
+.. code:: json
+
+  "COMPREHENSIVE_THEME_DIRS": [
+      "/edx/my-themes",
+  ],
+  "THEME_NAME": "my-theme-red"
+
 
 ************************
 Apply a Theme to a Site
