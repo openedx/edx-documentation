@@ -29,12 +29,12 @@ Overview of Drag and Drop Problems
 
 A drag and drop problem includes a background image and one or more items that
 learners can drag into target zones on the background image. You can include as
-many draggable items and as many target zones as you need. You can include decoy
-items that do not have a target and you can include decoy targets that do not
-correspond to draggable items.
+many draggable items and as many target zones as you need. You can include
+decoy items that do not have a target, and you can include decoy targets that
+do not correspond to draggable items.
 
 When learners view a drag and drop problem in the LMS, the problem includes a
-top section and a bottom section. Learners drag items from the top section  on
+top section and a bottom section. Learners drag items from the top section on
 to the background image in the section below it.
 
 The way that a learner selects, or grabs, an item depends on the type of
@@ -50,8 +50,9 @@ You can configure a drag and drop problem to give learners unlimited attempts
 to match items to target zones or you can configure it to behave restrictively,
 like a test.
 
-* In standard mode, the problem gives learners unlimited attempts
-  to match items and it provides immediate feedback to indicate whether an item is matched correctly.
+* In standard mode, the problem gives learners unlimited attempts to match
+  items and it provides immediate feedback to indicate whether an item is
+  matched correctly.
 
 * In assessment mode, learners must match all of the draggable items to target
   zones and then submit the problem. The problem does not reveal
@@ -105,10 +106,10 @@ drag items onto.
 A target zone is a rectangular area on the background image. You can show or
 hide the borders of a zone for learners. You can add titles for zones or leave
 the **Title** field empty. However, you must fill in the **Description** field
-for each zone. The description is only exposed to screen readers. The description
-must describe the content of the zone for visually impaired learners. For
-example, a zone that includes an apple might have a description that says
-"A round, red fruit with a stem."
+for each zone. The description is only exposed to screen readers. The
+description must describe the content of the zone for visually impaired
+learners. For example, a zone that includes an apple might have a description
+that says "A round, red fruit with a stem."
 
 A background image must fit within the course screen. The LMS automatically
 scales images that are too wide. If you choose a background image that is
@@ -248,39 +249,11 @@ reveals which items are correctly matched and gives learners an opportunity to
 move items that are not correct. If you do not specify a limit, learners have
 unlimited attempts.
 
-.. _enabling_drag_and_drop_problem:
-
-********************************
-Enabling Drag and Drop Problems
-********************************
-
-Before you can add drag and drop problems, you must enable the drag and drop
-problem type for your course.
-
-To enable the drag and drop problem type, you add the ``"drag-and-drop-v2"``
-key to the **Advanced Module List** on the **Advanced Settings** page. (Be sure
-to include the quotation marks around the key value.) For more information, see
-:ref:`Enable Additional Exercises and Tools`.
-
-After you enable the ``drag-and-drop-v2`` problem type, **Drag and Drop**
-appears in the **Advanced** menu of the **Add New Component** screen.
-
-.. note::
-    By default, your course includes a **Drag and Drop** problem type in the
-    **Problem > Advanced** menu of the **Add New Component** screen. This is an
-    older drag and drop problem type that has been replaced by the ``drag-and-
-    drop-v2`` advanced module in the **Advanced** menu of the **Add New
-    Component** screen.
-
 .. _creating_a_drag_and_drop_problem:
 
 *********************************
 Creating a Drag and Drop Problem
 *********************************
-
-You must enable the drag and drop problem type for your course before you can
-add a drag and drop problem. For more information, see
-:ref:`enabling_drag_and_drop_problem`.
 
 To create a drag and drop problem, follow these steps.
 
@@ -332,10 +305,8 @@ To create a drag and drop problem, follow these steps.
      target zone for each item in the **Zone** field. Add a label, success
      feedback text, and error feedback text. For more information about how the
      text in these fields appears, see
-     :ref:`overview_of_drag_and_drop_problems`.  For more information about
-     draggable items, see
-     :ref:`drag_and_drop_draggable_items`.
-
+     :ref:`overview_of_drag_and_drop_problems`. For more information about
+     draggable items, see :ref:`drag_and_drop_draggable_items`.
 
 .. _drag_and_drop_editor_fields:
 
