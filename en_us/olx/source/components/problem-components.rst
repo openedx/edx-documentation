@@ -253,14 +253,14 @@ As a best practice, edX recommends that you avoid including unformatted
 paragraph text between the questions. Screen readers can skip over text that is
 inserted among multiple questions.
 
-Elements such as the **Check**, **Show Answer**, and **Reset** buttons, as well
-as the settings that you select for the problem component, apply to all of the
-problems in that component. Thus, if you set the maximum number of attempts to
-3, the learner has three attempts to answer the entire set of problems in the
-component as a whole rather than three attempts to answer each problem
-individually. If a learner selects **Check**, the LMS scores all of the
-problems in the component at once. If a learner selects **Show Answer**, the
-answers for all the problems in the component appear.
+Elements such as the **Submit**, **Show Answer**, and **Reset** buttons, as
+well as the settings that you select for the problem component, apply to all
+of the problems in that component. Thus, if you set the maximum number of
+attempts to 3, the learner has three attempts to answer the entire set of
+problems in the component as a whole rather than three attempts to answer each
+problem individually. If a learner selects **Submit**, the LMS scores all of
+the problems in the component at once. If a learner selects **Show Answer**,
+the answers for all the problems in the component appear.
 
 .. note::
   You cannot use a :ref:`Custom JavaScript` in a component that contains more

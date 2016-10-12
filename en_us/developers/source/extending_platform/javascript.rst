@@ -15,7 +15,7 @@ problems or JS input problems) in a course. You add the application directly
 into edX Studio.
 
 When you create a JavaScript application, Studio embeds the problem in an inline
-frame (HTML ``iframe`` tag) so that students can interact with it in the LMS.
+frame (HTML ``iframe`` tag) so that learners can interact with it in the LMS.
 
 See the following sections for more information:
 
@@ -39,7 +39,7 @@ The rest of this section provides more information for developers who are
 creating JavaScript applications for courses on the edX platform.
 
 .. note:: This section assumes proficiency with JavaScript and with how problems
- are constructed in edX Studio. If you intend to grade students' interactions
+ are constructed in edX Studio. If you intend to grade learners' interactions
  with your JavaScript application, you must also be proficient with Python.
 
 
@@ -49,22 +49,21 @@ Grading Options for Custom JavaScript Applications
 *******************************************************
 
 When using a JavaScript application in your course content, you have three
-options:
+options.
 
 #. A JavaScript application that visually demonstrates a concept or process. The
-   application would not require student interaction, and students would not be
+   application would not require learner interaction, and learners would not be
    graded.
 
-#. A JavaScript application that requires student interaction but does not grade
+#. A JavaScript application that requires learner interaction but does not grade
    performance. Referred to as a formative assessment, such an application
-   provides feedback to students based on their interactions.
+   provides feedback to learners based on their interactions.
 
-#. A JavaScript application that requires and grades student interaction.
+#. A JavaScript application that requires and grades learner interaction.
    Referred to as a summative assessment, such an application can be used to
-   evaluate student learning against a standard. To use the JavaScript
-   application as a summative assessment and have student performance integrated
-   into the edX grading system, you must also use basic Python code in the
-   component.
+   evaluate learning against a standard. To use the JavaScript application as a
+   summative assessment and have learner performance integrated into the edX
+   grading system, you must also use basic Python code in the component.
 
 These options are explained through examples below.
 
@@ -72,15 +71,15 @@ These options are explained through examples below.
 Use a JavaScript Application Without Grading
 *******************************************************
 
-The simplest option is to use JavaScript to show content to students, and
+The simplest option is to use JavaScript to show content to learners, and
 optionally to provide feedback as a formative assessment.
 
 #. In edX Studio, upload an HTML file that contains the JavaScript you want to
-   show students.
+   show learners.
 #. Copy the **Embed URL** of the file.
 #. `Create a Custom JavaScript Display and Grading Problem <http://edx.readthedocs.org/projects/ca/en/latest/problems_tools/advanced_problems.html#custom-javascript-display-and-grading>`_. The template
    for the problem contains the definition for a sample JavaScript application
-   that requires and grades student interaction.
+   that requires and grades learner interaction.
 #. Edit the XML of the component to remove grading information and refer to the
    HTML file you uploaded:
 
@@ -111,10 +110,10 @@ For example:
 Use a JavaScript Application for a Summative Assessment
 **************************************************************
 
-To use a JavaScript Application for a summative assessment and have student
+To use a JavaScript Application for a summative assessment and have learner
 results calculated by the edX grading system, you must:
 
-* Include required functions in the JavaScript application.
+* Include these required functions in the JavaScript application.
 
   * `getState() Function`_
   * `setState() Function`_
@@ -133,7 +132,7 @@ Your application must contain a ``getState()`` function that returns the state
 of all objects as a JSON string.
 
 The ``getState()`` function retrieves the state of objects in the application,
-so each student experiences that application in its initial or last saved state.
+so each learner experiences that application in its initial or last saved state.
 
 The name of the ``getState()`` function must be the value of the ``get_statefn``
 attribute of the ``jsinput`` element for the problem.
@@ -154,9 +153,9 @@ setState() Function
 
 Your application must contain a ``setState()`` function.
 
-The ``setState()`` function is executed when the student clicks **Check**.
+The ``setState()`` function is executed when the learner selects **Submit**.
 
-The function saves application's state so that the student can later return to
+The function saves application's state so that the learner can later return to
 the application and find it as he or she left it.
 
 The name of the ``setState()`` function must be the value of the ``set_statefn``
@@ -177,12 +176,12 @@ getGrade() Function
 
 Your application must contain a ``getGrade()`` function.
 
-The ``getGrade()`` function is executed when the student clicks **Check**. The
-``getState()`` function must return the state of objects on which grading is
-based as a JSON string.
+The ``getGrade()`` function is executed when the learner selects **Submit**.
+The ``getState()`` function must return the state of objects on which grading
+is based as a JSON string.
 
 The JSON string returned by ``getGrade()`` is used by the Python code in the
-problem to determine the student's results, as explained below.
+problem to determine the learner's results, as explained below.
 
 The name of the ``getGrade()`` function must be the value of the ``gradefn``
 attribute of the ``jsinput`` element for the problem.
@@ -199,30 +198,33 @@ For example:
 Grade the Student Response with Python
 ***************************************
 
-To grade a student's interaction with your JavaScript application, you must
-write Python code in the problem. When a student clicks **Check**, the Python
-code parses the JSON string returned by the application's ``getGrade()``
-function and determines if the student's submission is correct or not.
+To grade a learner's interaction with your JavaScript application, you must
+write Python code in the problem. When a learner selects **Submit**, the
+Python code parses the JSON string returned by the application's
+``getGrade()`` function and determines if the learner's submission is correct
+or not.
 
-.. note:: Grading for JavaScript applications supports determining if a student's submission is correct or not. You cannot give partial credit with JavaScript applications.
+.. note:: Grading for JavaScript applications supports determining if a
+   learner's submission is correct or not. You cannot give partial credit with
+   JavaScript applications.
 
-In the Python code, you must:
+In the Python code, make sure you follow these guidelines.
 
 * Enclose all code in a ``script`` element of type ``loncapa/python``.
 
 * Import ``json``
 
-* Define a function that is executed when the student clicks Check. This
-  function:
+* Define a function that is executed when the learner selects **Submit**, and
+  that meets the following requirements.
 
   * Is placed before the ``customresponse`` element that defines the problem.
   * By default is named ``vglcfn``
   * Has two parameters:  ``e`` for the submission event, and ``ans``, which is
     the JSON string returned by the JavaScript function ``getGrade()``.
-  * Must return ``True`` if the student's submission is correct, or ``False`` if
+  * Must return ``True`` if the learner's submission is correct, or ``False`` if
     it is incorrect.
 
-The structure of the Python code in the problem is:
+The structure of the Python code in the problem is shown in this example.
 
 .. code-block:: xml
 
@@ -230,9 +232,9 @@ The structure of the Python code in the problem is:
         <script type="loncapa/python">
             import json
             def vglcfn(e, ans):
-                '''
+                """
                 Code that parses ans and returns True or False
-                '''
+                """
         </script>
         <customresponse cfn="vglcfn">
         . . . .
@@ -243,8 +245,8 @@ The structure of the Python code in the problem is:
 XML for Custom JavaScript Applications
 *******************************************************
 
-The problem component XML that you define in Studio to provide students with a
-JavaScript application has the following structure:
+The problem component XML that you define in Studio to provide learners with a
+JavaScript application has the following structure.
 
 .. code-block:: xml
 
@@ -253,9 +255,9 @@ JavaScript application has the following structure:
         <script type="loncapa/python">
             import json
             def vglcfn(e, ans):
-                '''
+                """
                 Code that parses ans and returns True or False
-                '''
+                """
         </script>
         <customresponse cfn="vglcfn">
             <jsinput

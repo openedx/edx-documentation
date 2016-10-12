@@ -112,8 +112,8 @@ Create a Component in Studio
 
    ``<p><iframe name="moleculeiframe" src="https://path_to_folder/MoleculeViewerFiles/MoleculeViewer.html" width="500" height="500"></iframe></p>``
 
-#. Replace ``path_to_file`` with the URL of your file hosting site. For
-   example, the line may look like the following:
+#. Replace ``path_to_folder`` with the URL of your file hosting site. The
+   revised line might look like this example.
 
    ``<p><iframe name="moleculeiframe" src="https://myfiles.example.com/MoleculeViewerFiles/MoleculeViewer.html" width="500" height="500"></iframe></p>``
 
