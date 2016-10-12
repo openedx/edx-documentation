@@ -43,12 +43,8 @@ To create the problem illustrated above, follow these steps.
 	  ans = str(student_answers[aid]).lower()
 	  print 'hint_fn called, ans=', ans
 	  hint = ''
-	  if '10' in ans:
-	     hint = 'If the ball costs 10 cents, and the bat costs one dollar more than the ball,
-	     how much does the bat cost? If that is the cost of the bat, how much do the ball and
-	     bat cost together?'
-	  elif '.05' in ans:
-	     hint = 'Make sure to enter the number of cents as a whole number.'
+	  if '0.05' in ans:
+	     hint = 'Make sure you enter your answer in cents'
 
 	  if hint:
 	    hint = "&lt;font color='blue'&gt;Hint: {0}&lt;/font&gt;".format(hint)

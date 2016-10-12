@@ -35,10 +35,6 @@ You can embed a Google Drive file in your course so that learners see the file
 in the course body. For example, you can share a Google spreadsheet with
 learners.
 
-.. image:: ../../../shared/images/google-spreadsheet.png
-  :width: 600
-  :alt: A Google spreadsheet in the course body.
-
 You can embed the following types of Google Drive files.
 
 * Google Docs (text documents)
@@ -159,13 +155,7 @@ To add a Google Drive file component, follow these steps.
    The new component is added to the unit, with the default Google presentation
    embedded.
 
-   .. image:: ../../../shared/images/google-document-studio.png
-    :alt: The Google Drive file component in a unit page
-
 #. In the new component, select **Edit**.
-
-   .. image:: ../../../shared/images/google-document-edit-studio.png
-    :alt: The Google Drive file editor.
 
 #. In the **Display Name** field, enter the name for the component.
 

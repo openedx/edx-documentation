@@ -403,7 +403,7 @@ partial credit.
 
 .. image:: ../../../shared/images/partial_credit_multiple_choice.png
  :alt: A multiple choice problem with partial credit for an incorrect answer.
- :width: 600
+ :width: 400
 
 You can specify what percentage of the points for the problem a learner
 receives for an incorrect answer. If you do not specify the percentage, the

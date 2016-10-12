@@ -82,19 +82,19 @@ To add a recommender to a course, follow these steps.
 #. In the component that appears, select **Edit**, and then specify settings as
    needed.
 
-  * Whether to take users on an introduction tour when they see the tool the
-    first time. If selected, the first time (and only the first time) a user
-    sees the recommender, there will be a short guided tutorial.
+   * Whether to take users on an introduction tour when they see the tool the
+     first time. If selected, the first time (and only the first time) a user
+     sees the recommender, there will be a short guided tutorial.
 
-  * Whether to disable the user interface functions which are under
-    development. Because these are untested and under development, please leave
-    these disabled unless otherwise advised by edX staff.
+   * Whether to disable the user interface functions which are under
+     development. Because these are untested and under development, please leave
+     these disabled unless otherwise advised by edX staff.
 
-  * How many resources you want to show in each page of the resource list.
+   * How many resources you want to show in each page of the resource list.
 
-  * How many page icons you want to show in the pagination control (that is,
-    the page range). The icons for pages from (current page - page range) to
-    (current page + page range) will be shown.
+   * How many page icons you want to show in the pagination control (that is,
+     the page range). The icons for pages from (current page - page range) to
+     (current page + page range) will be shown.
 
 #. Select **Save**.
 
