@@ -18,7 +18,7 @@ by an explanation of each option or control on the video player.
    player in a course.
 
 .. image:: ../../shared/students/Images/Video_Intro.png
-  :width: 600
+  :width: 800
   :alt: The edX video player with numbered call-outs for every possible
       control.
 
