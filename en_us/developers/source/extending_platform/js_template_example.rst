@@ -4,7 +4,7 @@
 The Custom JavaScript Display and Grading Example Template
 ###########################################################
 
-As referred to in `course team documentation <http://edx.readthedocs.org/projects/ca/en/latest/problems_tools/advanced_problems.html#custom-javascript-display-and-grading>`_, there is a built-in template in edX Studio that uses a sample JavaScript application.
+As referred to in `course team documentation <http://edx.readthedocs.io/projects/ca/en/latest/problems_tools/advanced_problems.html#custom-javascript-display-and-grading>`_, there is a built-in template in edX Studio that uses a sample JavaScript application.
 
 This sample application has students select two different shapes, a cone and a
 cube. The correct state is when the cone is selected and the cube is not

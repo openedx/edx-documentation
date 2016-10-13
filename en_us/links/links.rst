@@ -10,11 +10,11 @@
 
 .. _Coming Soon Programs Page: https://open.edx.org/announcements/coming-soon-xseries-programs-page
 
-.. _Using edX Insights: http://edx.readthedocs.org/projects/edx-insights/en/latest/
+.. _Using edX Insights: http://edx.readthedocs.io/projects/edx-insights/en/latest/
 
-.. _Review Answers to Graded Problems: http://edx.readthedocs.org/projects/edx-insights/en/latest/performance/Performance_Answers.html#review-answers-to-graded-problems
+.. _Review Answers to Graded Problems: http://edx.readthedocs.io/projects/edx-insights/en/latest/performance/Performance_Answers.html#review-answers-to-graded-problems
 
-.. _Review Answers to Ungraded Problems: http://edx.readthedocs.org/projects/edx-insights/en/latest/performance/Performance_Ungraded.html#review-answers-to-ungraded-problems
+.. _Review Answers to Ungraded Problems: http://edx.readthedocs.io/projects/edx-insights/en/latest/performance/Performance_Ungraded.html#review-answers-to-ungraded-problems
 
 .. _Open edX Analytics wiki: http://edx-wiki.atlassian.net/wiki/display/OA/Open+edX+Analytics+Home
 
@@ -22,7 +22,7 @@
 
 .. _Entity Relationship Diagram for ORA Data: https://openedx.atlassian.net/wiki/display/AN/Entity+Relationship+Diagram+for+ORA+Data
 
-.. _edX Enrollment API: http://edx.readthedocs.org/projects/edx-platform-api/en/latest/enrollment/index.html
+.. _edX Enrollment API: http://edx.readthedocs.io/projects/edx-platform-api/en/latest/enrollment/index.html
 
 .. _course-data: http://groups.google.com/a/edx.org/forum/#!forum/course-data
 
@@ -404,7 +404,7 @@
 
 .. _Dogwood blog post: https://open.edx.org/blog/newest-open-edx-release-dogwood-now-available
 
-.. _Adding E-Commerce to the Open edX Platform (Dogwood): http://edx.readthedocs.org/projects/edx-installing-configuring-and-running/en/named-release-dogwood.rc/ecommerce/index.html
+.. _Adding E-Commerce to the Open edX Platform (Dogwood): http://edx.readthedocs.io/projects/edx-installing-configuring-and-running/en/named-release-dogwood.rc/ecommerce/index.html
 
 .. _Open edX Conference: http://con.openedx.org/
 
