@@ -90,10 +90,11 @@ your course content.
    learners select a subsection. A tooltip with the unit's name appears when
    learners move the pointer onto an icon.
 
-   Learners select icons in the unit navigation bar to access course units.
-   They can also use the **Previous** and **Next** options at either end of the
-   unit navigation bar to move back to the previous unit or forward to the next
-   unit.
+   Learners select icons in the unit navigation bar to access course units. They
+   can also use the **Previous** and **Next** options at either end of the unit
+   navigation bar to move back to the previous unit or forward to the next unit.
+   The current unit is indicated with bold underlining in the unit navigation
+   bar.
 
 .. _Navigating the Course Outline:
 
