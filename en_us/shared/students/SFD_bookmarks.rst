@@ -5,13 +5,11 @@ Bookmarking Course Content
 ###########################
 
 To mark course content so that you can come back to it later, you can bookmark
-any course page, up to a limit of 100 bookmarks for one course.
+any course page, up to a limit of 100 bookmarks for any one course.
 
 The course material that you bookmark is identified in the unit navigation bar
 on the **Course** page, or you can see a list of all of your bookmarks on the
 **My Bookmarks** page.
-
-.. note:: You can add up to 100 bookmarks in a course.
 
 For more information, see the following topics.
 
@@ -24,26 +22,24 @@ Add or Remove a Bookmark
 ***************************
 
 You can bookmark any page in the course. To bookmark a page, select
-**Bookmark** at the upper right of the page.
+**Bookmark this page** under the name of the page.
 
 .. image:: ../../shared/students/Images/SFD_Bkmk_UnitButton.png
- :width: 500
+ :width: 600
  :alt: A course page showing the Bookmark control.
 
-After you add a bookmark, the **Bookmark** control changes color, and an
-indicator for the bookmark appears in the unit navigation bar at the top of the
-page.
+After you add a bookmark, **Bookmark this page** changes to **Bookmarked**, and
+an indicator appears in the unit navigation bar.
 
 .. image:: ../../shared/students/Images/SFD_Bkmk_PgsBkmkd.png
- :width: 500
- :alt: A course page showing the dark-colored Bookmark control and a bookmark
-     icon in the unit navigation bar.
+ :width: 600
+ :alt: A course page showing "Bookmarked" and a bookmark icon in the unit
+     navigation bar.
 
-To remove a bookmark from a page, select **Bookmark** again.
+To remove a bookmark from a page, select **Bookmarked**.
 
-After you remove a bookmark, the **Bookmark** control changes back to its
-original color, and the bookmark indicator disappears from the learning
-sequence.
+After you remove a bookmark, **Bookmarked** changes back to **Bookmark this
+page** , and the indicator disappears from the unit navigation bar.
 
 ***************************
 View Your Bookmarks
@@ -57,16 +53,16 @@ To access the **My Bookmarks** page, select **Bookmarks** above the course
 navigation pane.
 
 .. image:: ../../shared/students/Images/SFD_Bkmk_BookmarksButton.png
- :width: 600
+ :width: 800
  :alt: A course page that shows the Bookmarks option above the course
      navigation pane and units with bookmark icons in the unit navigation bar.
 
-The **My Bookmarks** page lists all of your bookmarks in the course, with the
-most recently created ones at the top. The page includes the location of the
-bookmark in the course and the date that you added the bookmark.
+The **My Bookmarks** page lists all of the pages you have bookmarked in the
+course, with the most recently created ones at the top. This page includes the
+location of the bookmarked material and the date that you added the bookmark.
 
 .. image:: ../../shared/students/Images/SFD_Bkmk_MyBookmarksPage.png
- :width: 600
- :alt: The "My Bookmarks" page showing four bookmarks.
+ :width: 800
+ :alt: The "My Bookmarks" page showing bookmarks.
 
-To go to any bookmark in the course, select **View** for that bookmark.
+To go to any bookmarked page, select **View** for that bookmark.
