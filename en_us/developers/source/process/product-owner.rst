@@ -14,6 +14,23 @@ the idea is good but the implementation idea is poor, direct them to a better
 solution. If the feature is not something we can support at this time, provide
 a detailed explanation of why that is.
 
+Approving work involves more than just giving the idea a go-ahead.  There are a
+number of factors to consider.
+
+- What level of support will edX provide? Unsupported, provisional, or
+  supported?
+
+- Will edx.org use the feature? Does it need configuration support?
+
+- How much documentation is needed for the feature?  Will edX write the
+  documentation, or should the contributor provide it?
+
+- Does the work require other review, such as user experience, design,
+  accessibility, internationalization, training, or customer support? 
+
+The earlier in the process these other roles are involved, the better the
+process will work, and the better the final product will be.
+
 A product owner is responsible for prioritizing pull requests from
 contributors, and keeping them informed when prioritization slips. Pull
 requests that are ready to be prioritized in the next sprint will have a
