@@ -69,11 +69,11 @@ Viewing Units as a Learner
 
 To a learner using the edX learning management system (LMS), each unit in the
 subsection is represented by an icon in the unit navigation bar at the top of
-the **Course** page. The components in the selected unit appear below the unit
+the **Course** page. The current unit is indicated with bold underlining in the
+unit navigation bar. The components in the current unit appear below the unit
 navigation bar.
 
-The following image shows a subsection with five units in the LMS. The fourth
-unit is open.
+The following image shows a subsection in the LMS that contains several units.
 
 .. image:: ../../../shared/images/Units_LMS.png
  :alt: A unit in the LMS, with all of the unit icons in the unit navigation bar
