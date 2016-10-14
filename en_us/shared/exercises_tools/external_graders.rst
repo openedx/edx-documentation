@@ -39,16 +39,18 @@ all tests, the grader returns the score and a string indicating that the
 solution is correct.
 
 .. image:: ../../../shared/images/external-grader-correct.png
- :alt: Image of a learner's view of a programming problem that uses an external grader, with a correct result.
+ :alt: Image of a learner's view of a programming problem that uses an external
+     grader, with a correct result.
  :width: 600
 
 The external grader can return a string with results, which the learner can see
 by selecting **See full output**. This can be particularly useful when the
 solution is not correct and you want to return information about the failed
-tests. For example:
+tests. An example follows.
 
 .. image:: ../../../shared/images/external-grader-incorrect.png
- :alt: Image of a learner's view of a programming problem that uses an external grader, with an incorrect result
+ :alt: Image of a learner's view of a programming problem that uses an external
+     grader, with an incorrect result
 
 .. _External Graders and XQueue:
 
@@ -66,7 +68,7 @@ actively retrieves, or pulls, the next submission from the queue for grading.
 The external grader polls the XQueue through a RESTful interface at a regular
 interval. When the external grader retrieves a submission, it runs the tests on
 it, then pushes the response back to XQueue through the RESTful interface.
-XQueue then delivers the response to the edX Learning Management System.
+XQueue then delivers the response to the edX learning management system.
 
 The following repositories are examples of external graders that use Pull mode.
 
@@ -132,36 +134,38 @@ Inputs to the External Grader
 
 The grader receives a submission as a JSON object that has the following keys:
 
-* **xqueue_header**: A dictionary that contains information that is required
+* ``xqueue_header``: A dictionary that contains information that is required
   for xqueue to link results to the corresponding submission.
 
-* **xqueue_files**: A dictionary that contains a list of files that were
+* ``xqueue_files``: A dictionary that contains a list of files that were
   submitted by the learner. The dictionary is structured such that the
   filename is the key and the location of the file is the value.
 
-* **xqueue_body**: A dictionary that contains the actual submission as JSON.
+* ``xqueue_body``: A dictionary that contains the actual submission as JSON.
 
-  * **student_info**: A dictionary that contains the following
+  * ``student_info``: A dictionary that contains the following
     information about the student in relation to this submission.
 
-    * **anonymous_student_id**: A string that contains an anonymized identifier
+    * ``anonymous_student_id``: A string that contains an anonymized identifier
       of the student.
 
-    * **submission_time**: A string that contains a timestamp with the time
+    * ``submission_time``: A string that contains a timestamp with the time
       of submission (yyyymmddhhmmss).
 
-    * **random_seed**: An integer that contains the seed that was used to
+    * ``random_seed``: An integer that contains the seed that was used to
       initialize the randomization script that may be attached to the problem.
 
-  * **student_response**: A string that contains the learner's code
+  * ``student_response``: A string that contains the learner's code
     submission. A learner can submit code by entering a string in the LMS or by
     attaching a file.
 
-  * **grader_payload**: An optional string that you can specify when you
+  * ``grader_payload``: An optional string that you can specify when you
     create the problem. For more information, see the section
     :ref:`Create a Code Response Problem`.
 
-For example::
+An example follows.
+
+::
 
  {
    "xqueue_header": {
@@ -215,13 +219,18 @@ The course team, not edX, is responsible for building and deploying the
 external grader.
 
 In addition to creating tests that are specific to the problems you use in your
-course, there are four areas that you must plan for when you build an external
-grader:
+course, you must plan for the following requirements when you build an external
+grader.
 
-* :ref:`Scale`
-* :ref:`Security`
-* :ref:`Reliability and Recovery`
-* :ref:`Testing`
+.. contents::
+  :local:
+  :depth: 1
+
+.. note::
+  To validate your external grader and test a problem, you must view the
+  component in the LMS, in a published unit. If you attempt to test a problem
+  in Studio, the message "Error: No grader has been set up for this problem"
+  displays.
 
 .. _Scale:
 
@@ -290,37 +299,41 @@ with appropriate scores and messages.
 Create a Code Response Problem
 ********************************
 
-You create a code response problem in edX Studio by adding a common blank
-problem, then editing the XML problem definition in the
-:ref:`advanced editor<Advanced Editor>`.
+You create a code response problem in edX Studio by adding a blank advanced
+problem, and then editing the OLX for the problem definition in the
+:ref:`advanced editor<Advanced Editor>`. For more information, see
+:ref:`Working with Problem Components`.
 
-For more information, see :ref:`Working with Problem Components`.
+To validate your external grader and test a problem, you must view the
+component in the LMS, in a published unit. If you attempt to test a problem in
+Studio, the message "Error: No grader has been set up for this problem"
+displays.
 
-Following is a basic example of the XML definition of a problem that uses an
-external grader::
+Following is a basic example of the OLX definition of a problem that uses an
+external grader.
 
- <problem display_name="Problem 6">
-    <text>
-        <p>Write a program that prints "hello world".</p>
-    </text>
+::
+
+  <problem>
     <coderesponse queuename="my_course_queue">
-        <textbox rows="10" cols="80" mode="python" tabsize="4"/>
-        <codeparam>
-            <initial_display>
-              # students please write your program here
-              print ""
-            </initial_display>
-            <answer_display>
-              print "hello world"
-            </answer_display>
-            <grader_payload>
-            {"output": "hello world", "max_length": 2}
-            </grader_payload>
-        </codeparam>
+      <label>Write a program that prints "hello world".</label>
+      <textbox rows="10" cols="80" mode="python" tabsize="4"/>
+      <codeparam>
+        <initial_display>
+          # students please write your program here
+          print ""
+        </initial_display>
+        <answer_display>
+          print "hello world"
+        </answer_display>
+        <grader_payload>
+          {"output": "hello world", "max_length": 2}
+        </grader_payload>
+      </codeparam>
     </coderesponse>
- </problem>
+  </problem>
 
-Note the following details about the XML definition.
+Note the following details about the OLX definition.
 
 * ``queuename``: The value of the ``queuename`` attribute of the
   ``<coderesponse>`` element maps to an XQueue. Partners should contact their
