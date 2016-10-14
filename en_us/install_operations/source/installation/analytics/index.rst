@@ -12,4 +12,5 @@ analytics devstack.
 
    install_analytics
    start_analytics
+   example_create_task
    troubleshooting_vm_installation

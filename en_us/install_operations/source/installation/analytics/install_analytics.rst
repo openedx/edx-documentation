@@ -109,6 +109,7 @@ follow these steps.
 
    .. code-block:: bash
 
+     $ export LUIGI_CONFIG_PATH="$PWD/config/devstack.cfg"
      $ launch-task ImportEnrollmentsIntoMysql --help
 
    The `EdX Analytics Pipeline Reference Guide <http://edx-analytics-pipeline-reference.readthedocs.io/en/latest/index.html>`_ contains a more detailed list of available tasks and their parameters.
