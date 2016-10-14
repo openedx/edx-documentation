@@ -231,11 +231,23 @@ the course content that the learner accesses. No file is produced for courses
 that do not have any records in this table (for example, recently created
 courses). See :ref:`courseware_studentmodule`.
 
+``{org}-{course}-{run}-django_comment_client_role_users-{site}-analytics.sql``
+******************************************************************************
+
+This file lists the role that every enrolled user has for course discussions.
+See :ref:`django_comment_client_role_users`.
+
 ``{org}-email_opt_in-{site}-analytics.csv``
 ***********************************************
 
 This file reports the email preference selected by learners who are enrolled
 in any of your institution's courses. See :ref:`Institution_Data`.
+
+``{org}-{course}-{run}-student_courseaccessrole-{site}-analytics.sql``
+**********************************************************************
+
+This file reports the users who have a privileged role for the course. See
+:ref:`student_courseaccessrole`.
 
 ``{org}-{course}-{run}-student_courseenrollment-{site}-analytics.sql``
 ************************************************************************
