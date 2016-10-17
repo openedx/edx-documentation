@@ -1,2 +1,2 @@
-* Bug fix: In Insights, fixed an issue with internationalization that prevented
-users of certain languages from loading graphs or tables.
+In Insights, an internationalization issue that prevented users of certain
+languages from loading graphs or tables has been resolved.
