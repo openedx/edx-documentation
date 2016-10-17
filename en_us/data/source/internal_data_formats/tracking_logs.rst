@@ -4141,6 +4141,9 @@ complete, the server emits an ``edx.forum.thread.created`` event.
        Also present for ``edx.forum.response.created`` and
        ``edx.forum.comment.created`` events.
 
+       The :ref:`student_courseaccessrole` table lists all users who have a
+       privileged role for the course.
+
    * - ``user_forums_roles``
      - array
      - Identifies a user who does not have discussion management privileges as
@@ -4149,6 +4152,9 @@ complete, the server emits an ``edx.forum.thread.created`` event.
 
        Also present for ``edx.forum.response.created`` and
        ``edx.forum.comment.created`` events.
+
+       The :ref:`django_comment_client_role_users` table lists the discussion
+       role of every enrolled user.
 
 .. _edx.forum.thread.voted:
 
@@ -5711,6 +5717,9 @@ When a team is deleted, the server emits an ``edx.team.deleted`` event. Course
 team members who have any of the **Staff**, **Admin**, **Discussion Admin**,
 **Discussion Moderator**, or **Community TA** roles can delete teams.
 
+For more information about course and discussion role data, see
+:ref:`student_courseaccessrole` and :ref:`django_comment_client_role_users`.
+
 **Event Source**: Server
 
 ``event`` **Member Fields**:
@@ -5773,6 +5782,9 @@ is deleted, because all members are removed when a team is deleted.
 Course team members who have any of the **Staff**, **Admin**, **Discussion
 Admin**, **Discussion Moderator**, or **Community TA** roles can remove
 learners from teams.
+
+For more information about course and discussion role data, see
+:ref:`student_courseaccessrole` and :ref:`django_comment_client_role_users`.
 
 **Event Source**: Server
 
@@ -6691,7 +6703,10 @@ enrollment events.
   ``context.user_id`` identify the course team member who made the change, and
   the ``event.user_id`` identifies the student who was enrolled or unenrolled.
 
+The :ref:`student_courseaccessrole` table lists all users who have a privileged
+
 For details about the enrollment events, see :ref:`enrollment`.
+role for the course.
 
 .. _instructor_cohort_events:
 
