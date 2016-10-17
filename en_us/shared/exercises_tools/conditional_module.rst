@@ -46,23 +46,36 @@ To create a conditional module, follow these steps.
       are shown when they do not satisfy the requirements to access the
       conditional content. To provide a link to the required component,
       include ``{link}`` within your message. If you have specified a source
-      component in the **Source Component** field, a link to it is
-      automatically generated in your message.
+      component in the **Source Component** field, your message automatically contains a link to that component.
 
-    * **Conditional Attribute**: The attribute from the source component that
-      that is used to determine whether a learner is shown the content of this
-      conditional module.
+    * **Conditional Attribute**: The attribute of the source component that
+      determines whether a learner is shown the content of this conditional
+      module.
 
-    * **Conditional Value**: The value of the conditional attribute specified in
-      the **Conditional Attribute** field that must be true for a learner to
-      be shown the content of this conditional module.
+      For example, selecting "correct" in this field means that the
+      "correctness" attribute for a component (in combination with
+      **Conditional Value**) is used to determine whether to show a learner
+      the conditional content.
 
-    * **Display Name**: This name appears in the horizontal navigation at the
-      top of the page.
+    * **Conditional Value**: The state that the conditional attribute
+      specified in the **Conditional Attribute** field must match for a
+      learner to be shown the content of this conditional module.
 
-    * **Source Components**: The location IDs of the components whose
-      attributes are used to determine whether a learner is shown the
-      content of this conditional module.
+      For example, specifying ``True`` in this field, together with a value of
+      ``correct`` in the **Conditional Attribute** field, means that learners
+      are shown the conditional content only if their answers to the source
+      component are correct. In a similar example, to show conditional content
+      to learners if their answers to the source component are incorrect, you
+      would specify ``False`` in this field, keeping the value of ``correct``
+      in the **Conditional Attribute** field.
+
+    * **Display Name**: The name that appears in the horizontal navigation at
+      the top of the page.
+
+    * **Source Components**: The component location IDs of the components used
+      to determine whether a learner is shown the conditional content.
+      Component location IDs are located at the bottom of the settings
+      dialog of each component.
 
 #. Select **Save**.
 
