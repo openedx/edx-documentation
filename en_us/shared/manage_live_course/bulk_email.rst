@@ -790,8 +790,8 @@ about future access to course materials. Be sure to replace values enclosed by
 
   * If you qualify for a certificate (overall score {number}% or higher), the
     edX dashboard will include a link to your certificate in the near future.
-    While you may see the link in a few days, it can take up to two weeks edX
-    to generate all of the course certificates.
+    While you may see the link in a few days, it can take up to two weeks for
+    edX to generate all of the course certificates.
 
   * As an enrolled student, you will have access to the lecture videos even
     after the course ends. Assessments will remain, but you will no longer be

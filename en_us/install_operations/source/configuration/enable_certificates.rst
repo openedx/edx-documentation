@@ -190,6 +190,8 @@ course, including adding signatories and images for organization logo and
 signature images for signatories. For details, :ref:`opencoursestaff:Setting Up
 Course Certificates` in *Building and Running an Open edX Course*.
 
+.. _Generate Certificates for a Course:
+
 *****************************************
 Generate Certificates For a Course
 *****************************************

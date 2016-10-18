@@ -33,6 +33,12 @@ steps.
 Specify the Minimum Credit-Eligible Grade
 ********************************************
 
+.. note::
+  To make sure that learners' grades are correct, you must assign final grades
+  for credit courses before you create certificates for the course. You assign
+  final grades after the course end date. For more information, see
+  :ref:`Checking Student Progress and Issuing Certificates`.
+
 In addition to setting the usual grade scale for your course, you indicate a
 specific grade that learners must receive to earn credit for your course.
 
