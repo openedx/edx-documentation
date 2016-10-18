@@ -137,14 +137,19 @@ Studio, see :ref:`partnercoursestaff:document index`.
      - This field stores the value entered for **Course Start Date** on the
        Studio **Settings & Details** page.
    * - ``tabs``
-     - This array contains member objects that describe the tabs, or
-       pages, that appear for the course in the learning management system
-       (LMS). Course teams can rename most of the default pages, and add more
+     - This array contains member objects that describe the tabs, or pages,
+       that appear for the course in the learning management system (LMS).
+       Course teams can change the order of the default pages, and add custom
        pages, on the Studio **Pages** page.
 
-       The default **Courseware** page cannot be renamed. This page uses the
-       structure defined by the course building blocks to deliver the content
-       defined by the course components.
+       The default **Course** page uses the structure defined by the course
+       building blocks to deliver the content defined by the course components.
+       Similarly, the default **Home** page delivers the updates that are
+       defined on the Studio **Course Updates** page. You cannot change the
+       order of these pages.
+
+       For more information, see :ref:`partnercoursestaff:Adding Pages to a
+       Course`.
 
 ===================
 Course Data Sample
@@ -176,29 +181,38 @@ Course Data Sample
              "start":"2014-08-10T07:00:00Z",
              "tabs":[
                 {
-                   "name":"Courseware",
-                   "type":"courseware"
+                   "name":"Home",
+                   "type":"course_info",
+                   "course_staff_only": false
                 },
                 {
-                   "name":"Course Info",
-                   "type":"course info"
+                   "name":"Course",
+                   "type":"courseware",
+                   "course_staff_only": false
                 },
+
                 {
                    "name":"Discussion",
-                   "type":"discussion"
+                   "type":"discussion",
+                   "course_staff_only": false
                 },
                 {
                    "name":"edX Community",
                    "type":"static_tab",
-                   "url_slug":"67e8a9e44dde4e97b2bd33a928b9099e"
+                   "url_slug":"67e8a9e44dde4e97b2bd33a928b9099e",
+                   "course_staff_only": true
                 },
                 {
                    "name":"Progress",
+                   "is_hidden": false,
                    "type":"progress"
+                   "course_staff_only": false
                 },
                 {
                    "name":"Wiki",
-                   "type":"wiki"
+                   "is_hidden": true,
+                   "type":"wiki",
+                   "course_staff_only": false
                 }
              ]
           }

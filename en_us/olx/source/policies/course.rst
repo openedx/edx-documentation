@@ -44,7 +44,7 @@ Course Policy JSON Objects
      * - ``end``
        - The end date for the course.  For example: ``"2012-11-05T12:00"``.
      * - ``end_of_course_survey_url``
-       - The url for an end of course survey. The link is shown after the
+       - The URL for an end of course survey. The link is shown after the
          course is over, next to certificate download links.
      * - ``tabs``
        - Custom pages, or tabs, in the courseware.  See below for details.
@@ -64,9 +64,9 @@ Course Policy JSON Objects
      * - ``days_early_for_beta``
        - The number of days early that students in the beta-testers group can
          access the course.
-     * - `cohort_config`
+     * - ``cohort_config``
        -
-          * ``cohorted`` : boolean.  Set to ``true`` if this course uses
+          * ``cohorted`` : Boolean.  Set to ``true`` if this course uses
             student cohorts.  If so, all inline discussions are automatically
             cohorted, and top-level discussion topics are configurable via the
             ``cohorted_discussions`` list. Default is ``false``, not cohorted).
@@ -79,8 +79,10 @@ Course Policy JSON Objects
        - Have pdf-based textbooks on tabs in the courseware.  See below for
          details.
      * - ``html_textbooks``
-       - Have html-based textbooks on tabs in the courseware.  See below for
-         details.
+       - The addition of HTML-based textbooks on tabs in the courseware has
+         been deprecated.
+
+
 
 .. disable_policy_graph above had "SUPORTED?" after it, moved to this comment 26 Oct 2015 - Alison
 
@@ -88,30 +90,74 @@ Course Policy JSON Objects
 Example Course Policy File
 *******************************
 
+An example with a few of the settings defined in the course policy file
+follows.
+
 .. code-block:: json
 
     {
-      "course/2014":
-          {
-	          "tabs": [{"type": "courseware", "name": "Courseware"},
-	                   {"type": "course_info", "name": "Course Info"},
-	                   {"type": "discussion", "name": "Discussion"},
-	                   {"type": "wiki", "name": "Wiki"},
-	                   {"type": "progress", "name": "Progress"}],
-
-	           "display_name": "edX Demonstration Course",
-	           "discussion_topics": {"General": {"id": "course"}}
-
-                   "user_partitions": [{"id": 0,
-                                        "name": "Two Groups",
-                                        "description": "For 2-group experiments.",
-                                         "version": 1,
-                                         "groups": [{"id": 0,
-                                                     "name": "Group A",
-                                                     "version": 1},
-                                                    {"id": 2,
-                                                     "name": "Group B",
-                                                     "version": 1}]
-                                       }]
-          }
+      "course/course": {
+        "advanced_modules": [
+            "poll",
+            "survey",
+        ],
+        "discussion_blackouts": [],
+        "discussion_topics": {
+            "General": {
+                "id": "course"
+            }
+        "show_calculator": true,
+        "show_reset_button": true,
+        "start": "2017-10-01T00:30:00Z",
+        "tabs": [
+            {
+                "course_staff_only": false,
+                "name": "Home",
+                "type": "course_info"
+            },
+            {
+                "course_staff_only": false,
+                "name": "Course",
+                "type": "courseware"
+            },
+            {
+                "course_staff_only": false,
+                "name": "Discussion",
+                "type": "discussion"
+            },
+            {
+                "course_staff_only": false,
+                "is_hidden": true,
+                "name": "Wiki",
+                "type": "wiki"
+            },
+            {
+                "course_staff_only": false,
+                "name": "Progress",
+                "type": "progress"
+            },
+            {
+                "course_staff_only": true,
+                "name": "Staff only (Alison)",
+                "type": "static_tab",
+                "url_slug": "7cf2fccec33541dc81ce5e0e34e2689c"
+            }
+        ],
+        "user_partitions": [
+            {
+                "active": true,
+                "description": "The groups in this configuration can be mapped to cohort groups in the LMS.",
+                "groups": [
+                    {
+                        "id": 1124782865,
+                        "name": "Group A",
+                        "version": 1
+                    },
+                    {
+                        "id": 254579781,
+                        "name": "Group B",
+                        "version": 1
+                    }
+            }
+        ]
     }
