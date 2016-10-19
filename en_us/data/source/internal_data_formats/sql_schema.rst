@@ -916,7 +916,7 @@ A separate table, ``django_comment_client_role_users``, identifies privileges
 for course discussions. For more information, see
 :ref:`django_comment_client_role_users`.
 
-**History**: Added 15 Oct 2016.
+**History**: Added 22 Oct 2016.
 
 The ``student_courseaccessrole`` table has the following columns.
 
@@ -982,8 +982,6 @@ role
   :ref:`partnercoursestaff:Add Course Team Members` and
   :ref:`partnercoursestaff:Give Other Users Access to Your Library`.
 
-.. Diana, are the library admin and library staff access levels identified separately from the course instructor (aka staff) and course staff (aka admin) roles? See http://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/course_components/libraries.html#give-other-users-access-to-your-library
-
 .. _django_comment_client_role_users:
 
 =========================================================
@@ -997,7 +995,7 @@ A separate table, ``student_courseaccessrole``, identifies users who have
 privileged roles for a course. For more information, see
 :ref:`student_courseaccessrole`.
 
-**History**: Added 15 Oct 2016.
+**History**: Added 22 Oct 2016.
 
 The ``django_comment_client_role_users`` table has the following columns.
 
