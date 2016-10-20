@@ -9,6 +9,16 @@
 #    ./add-upcoming-release-notes-file.sh
 #
 
+platform='unknown'
+unamestr=`uname`
+if [[ "$unamestr" == 'Linux' ]]; then
+    platform='linux'
+elif [[ "$unamestr" == 'Darwin' ]]; then
+    platform='darwin'
+elif [[ "$unamestr" == 'FreeBSD' ]]; then
+    platform='freebsd'
+fi
+
 # These are the categories of release notes. If we add a new category,
 # for example, certificates, add a label to this list.
 NOTE_CATEGORIES="analytics documentation lms mobile openedx studio website"
@@ -66,13 +76,23 @@ POSSIBLE_UPCOMING_MONDAY_OFFSET=0
 while [[ -z ${UPCOMING_MONDAY_DATE} ]]
 do
     
-    POSSIBLE_UPCOMING_MONDAY_DAY_OF_WEEK=`date -v +${POSSIBLE_UPCOMING_MONDAY_OFFSET}d +%a`
+    if [[ $platform == 'linux' || $platform == 'unknown' ]]; then
+        POSSIBLE_UPCOMING_MONDAY_DAY_OF_WEEK=`date -d "+${POSSIBLE_UPCOMING_MONDAY_OFFSET} days" +%a`
+    else
+        POSSIBLE_UPCOMING_MONDAY_DAY_OF_WEEK=`date -v +${POSSIBLE_UPCOMING_MONDAY_OFFSET}d +%a`
+    fi
     
     if [[ ${POSSIBLE_UPCOMING_MONDAY_DAY_OF_WEEK} == "Mon" ]]
     then
         # This is where we set the date string format.
-        UPCOMING_MONDAY_DATE=`date -v +${POSSIBLE_UPCOMING_MONDAY_OFFSET}d +%Y-%m-%d`
-        UPCOMING_MONDAY_YEAR=`date -v +${POSSIBLE_UPCOMING_MONDAY_OFFSET}d +%Y`
+        if [[ $platform == 'linux' || $platform == 'unknown' ]]; then
+            UPCOMING_MONDAY_DATE=`date -d "+${POSSIBLE_UPCOMING_MONDAY_OFFSET} days" +%Y-%m-%d`
+            UPCOMING_MONDAY_YEAR=`date -d "+${POSSIBLE_UPCOMING_MONDAY_OFFSET} days" +%Y`
+        else
+            UPCOMING_MONDAY_DATE=`date -v +${POSSIBLE_UPCOMING_MONDAY_OFFSET}d +%Y-%m-%d`
+            UPCOMING_MONDAY_YEAR=`date -v +${POSSIBLE_UPCOMING_MONDAY_OFFSET}d +%Y`
+        fi
+
     else
         POSSIBLE_UPCOMING_MONDAY_OFFSET=`expr ${POSSIBLE_UPCOMING_MONDAY_OFFSET} + 1`
     fi
