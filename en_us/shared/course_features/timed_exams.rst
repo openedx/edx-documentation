@@ -178,3 +178,14 @@ affected, and their scores for the exam remain visible on the **Progress** page.
 
 #. Select **Save**.
 
+*****************************************
+FAQs
+*****************************************
+
+#. What happens to an exam, if a student doesn't finish it in time? Is it still saved to the student's progress bar or shown      as incomplete?
+
+   When the time runs out, the course page automatically submits the student's exam. The exam questions are no longer            available and any more submissions cannot be made. All the problems that have been completed, are graded and applied to the    progress bar. All the incomplete problems receive no points.
+
+#. Can a student go back to an exam and re-take it after the instructor adds extra time? What is the workflow for that?
+
+   A student must request for additional time **before** starting a timed exam. If the exam has already started or the student    took it and ran out of time, the course team must delete this exam attempt and allot additional time. Following this, the      student must take the exam again.
