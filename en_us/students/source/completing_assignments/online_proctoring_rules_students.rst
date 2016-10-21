@@ -4,7 +4,7 @@
 Online Proctoring Rules for Learners
 ####################################
 
-This topic describes the procotoring rules for learners taking an edX course
+This topic describes the proctoring rules for learners taking an edX course
 for credit.
 
 .. contents::
