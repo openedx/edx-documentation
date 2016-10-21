@@ -86,7 +86,7 @@ Requesting Additional Time
 **************************
 
 You can request additional time to complete a timed exam. Course teams and
-instructors can increase the time allowed for individual learners to accomodate specific needs.
+instructors can increase the time allowed for individual learners to accommodate specific needs.
 
 You can only request additional time before you begin a timed exam. After you
 start an exam, the course team cannot allow more time for that exam attempt.
