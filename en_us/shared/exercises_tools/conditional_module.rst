@@ -6,10 +6,10 @@ Conditional Module
 
 .. note:: EdX offers provisional support for this problem type.
 
-A conditional module controls the content that learners see after a response
-that they make meets a certain condition. For example, learners who answer
-"Yes" to a poll question see a different block of text from the learners who
-answered "No" to the same question.
+A conditional module controls the content that learners are shown after a
+response that they make meets a certain condition. For example, learners who
+answer "Yes" to a poll question are shown a different block of text than the
+learners who answered "No" to the same question.
 
 .. contents::
   :local:
@@ -33,10 +33,10 @@ Create a Conditional Module
 
 To create a conditional module, follow these steps.
 
-#. In the unit where you want to create the problem, select **Advanced** under
+#. In the unit where you want to create the module, select **Advanced** under
    **Add New Component**.
 
-#. In the list of problem types, select **Conditional**.
+#. In the list of advanced component types, select **Conditional**.
 
 #. In the component that appears, select **Edit**.
 
