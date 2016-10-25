@@ -159,7 +159,7 @@ Add Multiple Correct Responses in the Advanced Editor
 ======================================================
 
 To specify an additional correct response in the advanced editor, within the
-``<stringresponse>`` elements add the ``<additional_answer />`` element with an
+``<stringresponse>`` element add the ``<additional_answer />`` element with an
 ``answer=""`` attribute value.
 
 .. code-block:: xml
@@ -170,7 +170,7 @@ To specify an additional correct response in the advanced editor, within the
       <additional_answer answer="Dr. Martin Luther King, Junior"/>
       <additional_answer answer="Martin Luther King, Jr."/>
       <additional_answer answer="Martin Luther King"/>
-      <textline size="20"/>
+      <textline size="30"/>
     </stringresponse>
   </problem>
 
@@ -186,6 +186,9 @@ answer or for a specified incorrect answer. Use feedback on incorrect answers
 as an opportunity to address common learner misconceptions. Feedback for text
 input questions should also provide guidance to the learner on how to arrive at
 the correct answer.
+
+If you define multiple correct responses for the question, you can define
+feedback for each response.
 
 =========================================
 Configure Feedback in the Simple Editor
@@ -686,7 +689,7 @@ Attributes
 Children
 ========
 
-None.
+``<correcthint>``
 
 ``<correcthint>``
 *****************
