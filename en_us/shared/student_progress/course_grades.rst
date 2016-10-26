@@ -334,8 +334,8 @@ steps.
 #. View the live version of your course.
 
 #. Select **Instructor**, and then select **Student Admin**. For courses with
-   fewer than 200 learners enrolled, this page includes a **Student Gradebook**
-   section.
+   fewer than 200 learners enrolled, this page includes a **View gradebook for
+   enrolled learners** section.
 
 #. Select **View Gradebook**. Grades are calculated and the gradebook displays.
 
@@ -396,10 +396,10 @@ To view the **Progress** page for a learner, follow these steps.
 
 #. Select **Instructor**, and then select **Student Admin**.
 
-#. In the Student-Specific Grade Inspection section, enter the learner's email
-   address or username.
+#. In the **View a specific learner's grades and progress** section, enter the
+   learner's email address or username.
 
-#. Select **Student Progress Page**.
+#. Select **View Progress Page**.
 
    The **Progress** page for the learner displays a chart with the grade for
    each homework, lab, midterm, final, and any other assignment types in your
@@ -508,18 +508,25 @@ while point scores from ungraded sections are called "Practice Scores".
 
 .. _Adjust_grades:
 
-***********************************
-Adjusting Grades
-***********************************
+****************************************
+Adjust Grades for One or All Learners
+****************************************
 
-If you modify a problem or its settings after learners have attempted to answer
-it, learners' grades can be affected. For information about making changes to
-problems in Studio, see :ref:`Modifying a Released Problem`.
+If you :ref:`modify a problem or its settings<Modifying a Released Problem>`
+after learners have attempted to answer it, we recommend that you rescore the
+changed problem so that learners' grades are updated.
 
-To make adjustments to learner grades, you need the unique location identifier of the modified problem. For more information, see :ref:`find_URL`.
+You can adjust an individual learner's score for a problem using either the
+**Staff Debug Info** option in the course or on the **Student Admin** tab of
+the instructor dashboard in the LMS. To adjust the scores for all enrolled
+learners at once, you use the options on the **Student Admin** tab of the
+instructor dashboard in the LMS. If you use the options in the instructor
+dashboard, you need to :ref:`obtain the unique location identifier<find_URL>`
+of the problem.
 
 The following sections describe the various ways in which you can adjust
-learners' grades when a correction or other change is unavoidable.
+learners' scores when you cannot avoid making a correction or other change to
+a problem.
 
 .. contents::
  :local:
@@ -529,7 +536,308 @@ learners' grades when a correction or other change is unavoidable.
 
 
 
+.. _rescore:
 
+==========================================
+Rescore Learner Submissions for a Problem
+==========================================
+
+Each problem that you create for your course includes the definition of a
+correct answer, and might also include a tolerance or acceptable alternatives.
+If you make a change to the accepted answers for a problem, you can rescore any
+learner responses that were already submitted.
+
+
+.. note:: You can only rescore problems that have a correct answer defined in
+   edX Studio. This procedure cannot be used to rescore open response assessment
+   (ORA) problems, or problems that are scored by an external grader. For ORA
+   problems you can :ref:`override a learner assessment grade<Override a learner
+   assessment grade>` in Studio.
+
+   Additionally, errors might occur if you rescore a problem that has multiple
+   response fields and if you have completed any of the following actions.
+
+   * You removed a response field.
+   * You added a response field.
+   * You reordered any of the response fields.
+
+
+.. contents::
+ :local:
+ :depth: 1
+
+
+.. _rescore_only_improve:
+
+Rescore an Individual Learner's Submission Only if the Score Improves
+----------------------------------------------------------------------
+
+This method of rescoring updates a learner's score only if it improves with
+the rescoring. If the score is unchanged or might be lower after the
+rescoring, the learner's score is not updated.
+
+To rescore a problem for a single learner and update the score only if it
+improves, follow these steps.
+
+#. Obtain the username or email address of the learner whose submission you
+   are rescoring.
+
+#. View the live version of your course.
+
+#. Select **Course** and navigate to the component that contains the
+   problem you want to rescore.
+
+#. Display the problem, and then select **Staff Debug Info**. The Staff Debug
+   viewer opens.
+
+#. In the **Username** field, enter the learner's email address or username,
+   and then select **Rescore Only If Score Improves**. A message indicates a
+   successful adjustment.
+
+#. To close the Staff Debug viewer, click on the browser page outside of the
+   viewer.
+
+.. note:: You can also rescore an individual's submission in the **Adjust a
+   learner's grade for a specific problem** section on the **Student Admin**
+   tab of the instructor dashboard. To do this, you need to obtain :ref:`the
+   location ID<find_URL>` of the problem as well as the learner's username or
+   email address.
+
+
+.. _rescore_submission_individual:
+
+Rescore an Individual Learner's Submission
+-----------------------------------------------
+
+.. note:: Depending on the type of change you made to the problem, this method
+   of rescoring might decrease the learner's score. To avoid negatively
+   affecting learner scores, you can instead :ref:`rescore a learner's
+   submission only if the score improves<rescore_only_improve>`.
+
+To rescore an individual learner's submission, follow these steps.
+
+#. Obtain the username or email address of the learner whose submission you
+   are rescoring.
+
+#. View the live version of your course.
+
+#. Select **Course** and navigate to the component that contains the
+   problem you want to rescore.
+
+#. Display the problem, and then select **Staff Debug Info**. The Staff Debug
+   viewer opens.
+
+#. In the **Username** field, enter the learner's email address or username,
+   and then select **Rescore Learner's Submission**. A message indicates a
+   successful adjustment.
+
+#. To close the Staff Debug viewer, click on the browser page outside of the
+   viewer.
+
+.. note:: You can also rescore an individual's submission in the **Adjust a
+   learner's grade for a specific problem** section on the **Student Admin**
+   tab of the instructor dashboard. To do this, you need to obtain :ref:`the
+   location ID<find_URL>` of the problem as well as the learner's username or
+   email address.
+
+
+.. _rescore_all_learners_only_improve:
+
+Rescore Submissions for All Learners Only if Scores Improve
+------------------------------------------------------------
+
+This method of rescoring updates learners' scores only if they improve with
+the rescoring. Learners' scores that are unchanged or lower after the
+rescoring are not updated.
+
+To rescore a problem for all enrolled learners in your course, and update
+scores only if they improve, follow these steps.
+
+#. Obtain the location identifier for the problem that you want to rescore.
+   For information, see :ref:`find_URL`.
+
+#. View the live version of your course.
+
+#. Select **Instructor**, and then select **Student Admin**.
+
+#. In the **Adjust all enrolled learners' grades for a specific problem**
+   section of the page, enter the location of the problem, and then select
+   **Rescore Only If Scores Improve**.
+
+#. In the confirmation dialog box, select **OK** for each of the confirmation
+   and status messages.
+
+   The rescoring process can take some time to complete for all enrolled
+   learners. You can navigate away from this page and do other work while the
+   process runs in the background.
+
+#. To view the results of the rescore process, select **Show Task Status**.
+
+   A table displays the status of the rescore process.
+
+
+.. _rescore_submission_all_learners:
+
+Rescore Submissions for All Learners
+------------------------------------
+
+.. note:: Depending on the type of change you made to the problem, this method
+   of rescoring might decrease learners' scores. To avoid negatively affecting
+   learners' scores, you can instead :ref:`rescore learners' submissions only
+   if scores improve<rescore_all_learners_only_improve>`.
+
+To rescore a problem for all enrolled learners in your course, follow these
+steps.
+
+#. Obtain the location identifier for the problem that you want to rescore.
+   For information, see :ref:`find_URL`.
+
+#. View the live version of your course.
+
+#. Select **Instructor**, and then select **Student Admin**.
+
+#. In the **Adjust all enrolled learners' grades for a specific problem**
+   section of the page, enter the location of the problem, and then select
+   **Rescore All Learners' Submissions**.
+
+#. In the confirmation dialog box, select **OK** for each of the confirmation
+   and status messages.
+
+   The rescoring process can take some time to complete for all enrolled
+   learners. You can navigate away from this page and do other work while the
+   process runs in the background.
+
+#. To view the results of the rescore process, select **Show Task Status**.
+
+   A table displays the status of the rescore process.
+
+
+.. _reset_attempts:
+
+=====================================
+Reset Learner Attempts for a Problem
+=====================================
+
+When you create a problem, you can limit the number of times that a learner
+can try to answer that problem correctly. If unexpected issues occur for a
+problem, you can reset the value for one particular learner's attempts back to
+zero so that the learner can begin work over again. If the unexpected behavior
+affects all of the learners in your course, you can reset the number of
+attempts for all learners to zero.
+
+.. note:: You cannot use this method with open response assessment (ORA)
+   problems. To allow a learner to start an ORA problem again and resubmit
+   responses, you must :ref:`delete the learner's state<delete_state>`.
+
+Reset Attempts for an Individual Learner
+---------------------------------------------
+
+To reset the number of attempts for a single learner, follow these steps.
+
+#. Obtain the learner's username or email address.
+
+#. View the live version of your course.
+
+#. Select **Course** and navigate to the component that contains the
+   problem you want to reset.
+
+#. Display the problem, and then select **Staff Debug Info**. The Staff Debug
+   viewer opens.
+
+#. In the **Username** field, enter the learner's email address or username,
+   and then select **Reset Learner's Attempts to Zero**. A message indicates a
+   successful adjustment.
+
+#. To close the Staff Debug viewer, click on the browser page outside of the
+   viewer.
+
+Reset Attempts for All Learners
+------------------------------------
+
+To reset the number of attempts that all enrolled learners have for a problem, follow these steps.
+
+#. Obtain the location identifier for the problem whose attempts you are
+   resetting. For more information, see :ref:`find_URL`.
+
+#. View the live version of your course.
+
+#. Select **Instructor**, and then select **Student Admin**.
+
+#. To reset the number of attempts for all enrolled learners, you work in the
+   **Adjust all enrolled learners' grades for a specific problem** section of
+   the page. Enter the unique problem location, and then select **Reset
+   Attempts to Zero**.
+
+#. A dialog opens to indicate that the reset process is in progress. Select
+   **OK**.
+
+   This process can take some time to complete. The process runs in the
+   background, so you can navigate away from this page and do other work while
+   it runs.
+
+#. To view the results of the reset process, select **Show Task Status**.
+
+   A table displays the status of the reset process for each learner or
+   problem.
+
+.. note:: You can use a similar procedure to reset problem attempts for a
+ single learner. You work in the **Student-Specific Grade Adjustment** section
+ of the page to enter both the learner's email address or username and the
+ unique problem identifier, and then select **Reset Student Attempts**.
+
+.. _delete_state:
+
+=======================================
+Delete a Learner's State for a Problem
+=======================================
+
+You can completely delete a learner's database history, or "state", for a
+problem. You can only delete learner state for one learner at a time.
+
+For example, you realize that a problem needs to be rewritten after only a few
+of your learners have answered it. To resolve this situation, you rewrite the
+problem and then delete learner state only for the affected learners so that
+they can try again.
+
+To delete a learner's entire history for a problem from the database, you need
+that learner's username or email address.
+
+.. important:: Learner state is deleted permanently by this process. This
+   action cannot be undone.
+
+   When you delete a learner's state for an open response assessment (ORA)
+   problem, the learner will have to start the assignment from the beginning,
+   including submitting responses and going through the required assessment
+   steps.
+
+You can use either the **Staff Debug Info** option or the instructor dashboard
+to delete learner state.
+
+To use the **Staff Debug Info** option, follow these steps.
+
+#. View the live version of your course.
+
+#. Select **Course** and navigate to the component that contains the
+   problem.
+
+#. Display the problem, and then select **Staff Debug Info**. The Staff Debug
+   viewer opens.
+
+#. In the **Username** field, enter the learner's email address or username,
+   and then select **Delete Learner's State**. A message indicates a successful
+   adjustment.
+
+#. To close the Staff Debug viewer, click on the browser page outside of the
+   viewer.
+
+To use the instructor dashboard, you must first obtain the unique identifier of
+the problem. See :ref:`find_URL`.
+
+#. Select **Instructor**, and then select **Student Admin**.
+
+#. In the **Adjust a learner's grade for a specific problem** section of the
+   page, enter both the learner's email address or username and the unique
+   problem identifier, and then select **Delete Learner's State**.
 
 
 .. _find_URL:
@@ -571,213 +879,3 @@ To find the unique location identifier for a problem, follow these steps.
 
 To close the Staff Debug viewer, click on the browser page outside of the
 viewer.
-
-.. _rescore:
-
-==========================================
-Rescore Learner Submissions for a Problem
-==========================================
-
-Each problem that you create for your course includes the definition of a
-correct answer, and might also include a tolerance or acceptable alternatives.
-If you decide to make a change to the answers for a problem, you can also
-rescore any responses that were already submitted. For a specified problem,
-you can rescore the work submitted by a single learner, or rescore the
-submissions made by every enrolled learner.
-
-.. note:: You can only rescore problems that have a correct answer defined in
-   edX Studio. This procedure cannot be used to rescore open response
-   assessment problems, or problems that are scored by an external grader.
-
-   Additionally, errors might occur if you rescore a problem that has multiple
-   response fields and you have completed any of the following actions.
-
-   * You removed a response field.
-   * You added a response field.
-   * You reordered any of the response fields.
-
-.. note:: Do not use this method to rescore open response assessment (ORA)
-   problems. For ORA problems, you can :ref:`override a learner assessment
-   grade<Override a learner assessment grade>` in Studio.
-
-
-Rescore a Submission for an Individual Learner
------------------------------------------------
-
-To rescore a problem for a single learner, you need that learner's username or
-email address.
-
-#. View the live version of your course.
-
-#. Select **Course** and navigate to the component that contains the
-   problem you want to rescore.
-
-#. Display the problem, and then select **Staff Debug Info**. The Staff Debug
-   viewer opens.
-
-#. In the **Username** field, enter the learner's email address or username,
-   and then select **Rescore Student Submission**. A message indicates a
-   successful adjustment.
-
-#. To close the Staff Debug viewer, click on the browser page outside of the
-   viewer.
-
-Rescore Submissions for All Learners
-------------------------------------
-
-To specify the problem you want to rescore, you need its location identifier.
-See :ref:`find_URL`. To rescore a problem:
-
-#. View the live version of your course.
-
-#. Select **Instructor**, and then select **Student Admin**.
-
-#. In the **Course-Specific Grade Adjustment** section of the page, enter the
-   unique problem location, and then select **Rescore ALL students' problem
-   submissions**.
-
-#. When a dialog box notifies you that the rescore process is in progress,
-   select **OK**.
-
-   This process can take some time to complete for all enrolled learners. The
-   process runs in the background, so you can navigate away from this page and
-   do other work while it runs.
-
-#. To view the results of the rescore process, select either **Show Background
-   Task History for Student** or **Show Background Task History for Problem**.
-
-   A table displays the status of the rescore process for each learner or
-   problem.
-
-.. note:: You can use a similar procedure to rescore the submission for a
- problem by a single learner. You work in the **Student-Specific Grade
- Adjustment** section of the page to enter both the learner's email address or
- username and the unique problem identifier, and then select **Rescore Student
- Submission**.
-
-.. _reset_attempts:
-
-=====================================
-Reset Learner Attempts for a Problem
-=====================================
-
-When you create a problem, you can limit the number of times that a learner
-can try to answer that problem correctly. If unexpected issues occur for a
-problem, you can reset the value for one particular learner's attempts back to
-zero so that the learner can begin work over again. If the unexpected behavior
-affects all of the learners in your course, you can reset the number of
-attempts for all learners to zero.
-
-.. note:: You cannot use this method with open response assessment (ORA)
-   problems. To allow a learner to start an ORA problem again and resubmit
-   responses, you must :ref:`delete the learner's state<delete_state>`.
-
-Reset Attempts for an Individual Learner
----------------------------------------------
-
-To reset the number of attempts for a single learner, you need that learner's
-username or email address.
-
-#. View the live version of your course.
-
-#. Select **Course** and navigate to the component that contains the
-   problem you want to reset.
-
-#. Display the problem, and then select **Staff Debug Info**. The Staff Debug
-   viewer opens.
-
-#. In the **Username** field, enter the learner's email address or username,
-   and then select **Reset Student Attempts**. A message indicates a successful
-   adjustment.
-
-#. To close the Staff Debug viewer, click on the browser page outside of the
-   viewer.
-
-Reset Attempts for All Learners
-------------------------------------
-
-To reset the number of attempts that all enrolled learners have for a problem,
-you need the unique identifier of the problem. For more information, see
-:ref:`find_URL`.
-
-To reset attempts for all learners, follow these steps.
-
-#. View the live version of your course.
-
-#. Select **Instructor**, and then select **Student Admin**.
-
-#. To reset the number of attempts for all enrolled learners, you work in the
-   **Course-Specific Grade Adjustment** section of the page. Enter the unique
-   problem location, and then select **Reset ALL students' attempts**.
-
-#. A dialog opens to indicate that the reset process is in progress. Select
-   **OK**.
-
-   This process can take some time to complete. The process runs in the
-   background, so you can navigate away from this page and do other work while
-   it runs.
-
-#. To view the results of the reset process, select either **Show Background
-   Task History for Student** or **Show Background Task History for Problem**.
-
-   A table displays the status of the reset process for each learner or
-   problem.
-
-.. note:: You can use a similar procedure to reset problem attempts for a
- single learner. You work in the **Student-Specific Grade Adjustment** section
- of the page to enter both the learner's email address or username and the
- unique problem identifier, and then select **Reset Student Attempts**.
-
-.. _delete_state:
-
-=======================================
-Delete a Learner's State for a Problem
-=======================================
-
-You can completely delete a learner's database history, or "state", for a
-problem. You can only delete learner state for one learner at a time.
-
-For example, you realize that a problem needs to be rewritten after only a few
-of your learners have answered it. To resolve this situation, you rewrite the
-problem and then delete learner state only for the affected learners so that
-they can try again.
-
-To delete a learner's entire history for a problem from the database, you need
-that learner's username or email address.
-
-.. important:: Learner state is deleted permanently by this process. This
-   action cannot be undone.
-
-   When you delete a learner's state for an open response assessment (ORA)
-   problem, the learner will have to start the assignment from the beginning,
-   including submitting responses and going through the required assessment
-   steps.
-
-You can use either the Staff Debug viewer or the instructor dashboard to delete
-learner state.
-
-To use the Staff Debug viewer, follow these steps.
-
-#. View the live version of your course.
-
-#. Select **Course** and navigate to the component that contains the
-   problem.
-
-#. Display the problem, and then select **Staff Debug Info**. The Staff Debug
-   viewer opens.
-
-#. In the **Username** field, enter the learner's email address or username,
-   and then select **Delete Student State**. A message indicates a successful
-   adjustment.
-
-#. To close the Staff Debug viewer, click on the browser page outside of the
-   viewer.
-
-To use the instructor dashboard, you must first obtain the unique identifier of
-the problem. See :ref:`find_URL`.
-
-#. Select **Instructor**, and then select **Student Admin**.
-
-#. In the **Student-Specific Grade Adjustment** section of the page, enter both
-   the learner's email address or username and the unique problem identifier,
-   and then select **Delete Student State for Problem**.
