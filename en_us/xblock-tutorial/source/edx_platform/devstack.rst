@@ -59,10 +59,6 @@ Enable the XBlock in the edX Platform
      from xmodule.x_module import prefer_xmodules
      XBLOCK_SELECT_FUNCTION = prefer_xmodules
 
-#. In ``edx-platform/cms/envs/common.py``, change the
-   ``'ALLOW_ALL_ADVANCED_COMPONENTS'`` value to ``True``.::
-
-     'ALLOW_ALL_ADVANCED_COMPONENTS': True,
 
 ************************
 Start the LMS and Studio
