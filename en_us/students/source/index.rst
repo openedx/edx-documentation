@@ -13,6 +13,7 @@ EdX Learner's Guide
    sfd_dashboard_profile/index
    SFD_mobile
    SFD_enrolling
+   SFD_starting_course
    SFD_check_progress
    SFD_certificates
    SFD_self_paced

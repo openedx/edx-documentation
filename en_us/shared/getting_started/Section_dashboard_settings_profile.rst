@@ -44,7 +44,7 @@ dashboard. You can also access your dashboard by selecting the dropdown menu
 icon next to your username at the top of any edX page.
 
 .. image:: ../../../shared/images/dashboard_menu.png
- :width: 400
+ :width: 300
  :alt: The menu that appears on the edx.org website when you select the
      dropdown icon next to your username. The Dashboard option is circled, and
      the other options are Profile, Account, and Sign Out.
@@ -87,24 +87,18 @@ Find or Change Course Information
   Archived Course** next to the name of the course. Note that archived courses
   do not always provide access to all content.
 
-* See when courses start or end.
-
-  Course start and end dates appear below the name of the course.
-
-  * If a course has not yet started, you see the course start date.
-  * If a course has started but not ended, you see the course end date.
-  * If a course has ended, you see the course end date.
+* See a course :ref:`start date and duration<Start Date and Duration>`.
 
 * Change your course email settings.
 
-  #. Select the Options icon for the course, and then select **Course emails**.
-     The Options icon resembles a gear and appears next to **View Course** or
-     **View Archived Course**.
+  #. Select the course settings icon for the course, and then select **Course
+     emails**. The course settings icon resembles a gear and appears next to
+     **View Course** or **View Archived Course**.
 
      .. image:: ../../../shared/images/LearnDash_GearIcon.png
-       :width: 125
-       :alt: The Options icon next to the View Course button on the learner
-           dashboard.
+       :width: 200
+       :alt: The course settings icon next to the View Course button on the
+           learner dashboard.
 
   #. Select or clear the **Receive course emails** check box, and then select
      **Save Settings**.
@@ -113,12 +107,7 @@ Find or Change Course Information
         email messages that course teams send to communicate with enrolled
         learners in the course.
 
-* Unenroll from a course.
-
-  To unenroll, select the Options icon for the course, select **Unenroll**, and
-  then select **Unenroll** in the confirmation dialog box. The Options icon
-  resembles a gear and appears next to **View Course** or **View Archived
-  Course**.
+* :ref:`Unenroll from a course<Unenroll from a Course>`.
 
 * View your grades in courses that you have completed.
 
@@ -198,7 +187,7 @@ settings page. You access your account settings page by selecting the dropdown
 menu icon next to your username at the top of any edX page.
 
 .. image:: ../../../shared/images/account_settings_menu.png
- :width: 400
+ :width: 300
  :alt: The menu that appears on the edx.org website when you select the
      dropdown icon next to your username. The Account option is circled, and
      the other options are Dashboard, Profile, and Sign Out.
@@ -418,7 +407,6 @@ You can share either a limited profile or a full profile.
     :width: 500
     :alt: A learner's full profile with location, language, and short
      biographical paragraph.
-
 
 .. _Create or Edit a Limited Profile:
 
