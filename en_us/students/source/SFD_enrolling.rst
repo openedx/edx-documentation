@@ -308,7 +308,7 @@ these steps.
    username.
 #. Select **Account**.
 
-   .. image:: ../../shared/students/Images/account_settings_menu.png
+   .. image:: ../../shared/images/account_settings_menu.png
      :width: 400
      :alt: The dropdown menu that appears when you select the icon next to your
        username, with the Account option circled.

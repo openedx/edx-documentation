@@ -5,39 +5,52 @@ Overview
 **********
 
 After you create an edX account, you can view a list of your current courses,
-change your course or account settings, or create a profile. You can access
-course, account, or profile information from any edX page, whether you are in a
-course or browsing the course catalog.
+change your course or account settings, or create a profile.
 
-* Your :ref:`dashboard<SFD Learner Dashboard>` gives you access to course
-  information, such as start and end dates, email settings, and certificates.
-  To access your dashboard, select your username on on any edX page.
+.. contents::
+ :local:
+ :depth: 1
+
+You can access course, account, or profile information from any edX page,
+whether you are in a course or browsing the course catalog.
+
+* Your :ref:`dashboard<SFD Learner Dashboard>` gives you access to your courses
+  and to course information, such as start and end dates, email settings, and
+  certificates. To access your dashboard, select your username on any edX
+  page.
 
 * On your :ref:`profile page<SFD Profile Page>`, you can create a profile that
   includes an image and biographical information. To access your profile,
   select the arrow next to your username on any edX page, and then select
   **Profile**.
 
-* The :ref:`Account Settings<SFD Account Settings>` page allows you to change
-  settings such as your email address, education level, country or region, and
-  to set the :ref:`time zone<Time Zones>` that you want course dates to display
-  in. You can link your edX account to a social media or organization account,
-  and view a summary of any purchases you have made. To access your account
-  settings at any time, select the arrow next to your username on any edX
-  page, and then select **Account**.
-
+* On the :ref:`Account Settings<SFD Account Settings>` page you can change your
+  password or email address, set the :ref:`time zone<Time Zones>` that you want
+  course dates to display in, and keep other account information up to date.
+  You can also view a :ref:`summary of your edX purchases<View Order History>`
+  and link your edX account to a social media or organization account. To
+  access your account settings at any time, select the arrow next to your
+  username on any edX page, and then select **Account**.
 
 .. _SFD Learner Dashboard:
 
-*************************
-Exploring the Dashboard
-*************************
+******************************************
+Accessing Your Courses from the Dashboard
+******************************************
 
-When you create an edX account or enroll in an edX course, you automatically go
-to your dashboard. You can also access your dashboard by selecting your
-username on any edX page. You can find information about your courses and
-change course settings on your dashboard. For more information, see :ref:`Find
-or Change Course Information`.
+Your edX dashboard lists all of the courses that you are enrolled in. When you
+create an edX account or enroll in an edX course, you automatically go to your
+dashboard. You can also access your dashboard by selecting the dropdown menu
+icon next to your username at the top of any edX page.
+
+.. image:: ../../../shared/images/dashboard_menu.png
+ :width: 400
+ :alt: The menu that appears on the edx.org website when you select the
+     dropdown icon next to your username. The Dashboard option is circled, and
+     the other options are Profile, Account, and Sign Out.
+
+You can find information about your courses and change course settings on your
+dashboard. For more information, see :ref:`Find or Change Course Information`.
 
 .. only:: Partners
 
@@ -174,42 +187,243 @@ Find or Change Course Information
     programs for which you have earned certificates. For more information about
     the program, or to view the certificate, select the name of the program.
 
+.. _SFD Account Settings:
+
+***********************************
+Updating Your Account Information
+***********************************
+
+You can find and update information about your edX account on the account
+settings page. You access your account settings page by selecting the dropdown
+menu icon next to your username at the top of any edX page.
+
+.. image:: ../../../shared/images/account_settings_menu.png
+ :width: 400
+ :alt: The menu that appears on the edx.org website when you select the
+     dropdown icon next to your username. The Account option is circled, and
+     the other options are Dashboard, Profile, and Sign Out.
+
+The account settings page presents information in these categories.
+
+* **Account Settings** provides access to information about your edX account.
+
+  .. note:: You cannot change your edX username.
+
+* **Linked Accounts** lists social media and other accounts that you can
+  connect to your edX account.
+
+* **Order History** lists information about payments you have made, such as
+  fees for verified certificates. For more information, see
+  :ref:`View Order History`.
+
+You can view this information at any time. You can also make changes to keep
+information about yourself up to date.
+
+.. contents::
+ :local:
+ :depth: 1
+
+.. _SFD Basic Information:
+
+=======================
+Change Your Password
+=======================
+
+To change your password, follow these steps.
+
+#. At the top of any edX page, select the dropdown menu icon next to your
+   username.
+
+#. Select **Account**.
+
+#. Select **Reset Password**.
+
+   EdX sends a confirmation message to the email address in the **Email
+   Address** field.
+
+#. Select the confirmation link in the email message.
+
+==========================
+Update Your Email Address
+==========================
+
+You use your email address to sign in to your edX account. In addition,
+communications from edX and your course teams are sent to this address.
+
+To update your email address, follow these steps.
+
+#. At the top of any edX page, select the dropdown menu icon next to your
+   username.
+
+#. Select **Account**.
+
+#. In the **Email Address** field, select your current email address and
+   replace it with the new address.
+
+#. To save your changes, click anywhere on the page outside of the **Email
+   Address** field, or navigate to a different page.
+
+==========================
+Change Your Full Name
+==========================
+
+Your full name appears on the edX certificates that you earn. Other learners
+see only your username. They do not see your full name.
+
+.. only:: Partners
+
+  When you :ref:`verify your identity<SFD Verify Your Identity>`, the name on
+  your government-issued ID must match the full name for your account.
+
+To change your full name, follow these steps.
+
+#. At the top of any edX page, select the dropdown menu icon next to your
+   username.
+
+#. Select **Account**.
+
+#. In the **Full Name** field, make the revisions that you require.
+
+#. To save your changes, click anywhere on the page outside of the **Full
+   Name** field, or navigate to a different page.
+
+===================
+Select a Language
+===================
+
+You can specify the language that you want the edX site to use during your
+visits.
+
+.. note:: This setting changes the appearance of menu options, button labels,
+  and other elements of the edX user interface. It does not apply to course
+  content.
+
+To select a language, follow these steps.
+
+#. At the top of any edX page, select the dropdown menu icon next to your
+   username.
+
+#. Select **Account**.
+
+#. Select a **Language**. The edX site saves your selection immediately.
+
+   The edX website is currently available in a limited number of languages.
+
+===================================
+Specify Your Time Zone or Location
+===================================
+
+You can specify the time zone that you want course dates and times to appear
+in, and update the country or region where you live.
+
+.. note:: If you do not specify a time zone, course dates and times display
+  in Coordinated Universal Time (UTC).
+
+To specify your time zone or location, follow these steps.
+
+#. At the top of any edX page, select the dropdown menu icon next to your
+   username.
+
+#. Select **Account**.
+
+#. Select a **Time Zone**. The edX site saves your selection immediately.
+
+#. Select a **Country or Region**. The edX site saves your selection
+   immediately.
+
+
+.. _SFD Additional Info:
+
+==========================================
+Specify Additional Information
+==========================================
+
+Additional account information is optional and includes the following
+information.
+
+* **Education Completed**: The highest level of education that you have
+  completed.
+* **Gender**: The gender you identify as.
+
+* **Year of Birth**: The year that you were born.
+
+* **Preferred Language**: The language that you prefer to communicate in.
+
+To view or change this information, follow these steps.
+
+#. On any edX page, select the arrow next to your username, and then select
+   **Account**.
+
+#. On the **Account Settings** page, select **Account Information**.
+
+#. On the **Account Information** page, locate the **Additional Information**
+   section, and then make your changes.
+
+EdX saves your changes automatically.
+
+.. _Link Accounts:
+
+==========================================
+Link or Unlink a Social Media Account
+==========================================
+
+You can link your edX account to social media and other accounts, including
+Facebook, Google, school, and company accounts. When your accounts are linked,
+you can sign in to edX automatically by signing in to your other account.
+
+To link your edX account with another account, follow these steps.
+
+#. On any edX page, select the arrow next to your username, and then select
+   **Account**.
+
+#. On the **Account Settings** page, select **Linked Accounts**.
+
+#. On the **Linked Accounts** page, select **Link Your Account** under the
+   name of the account that you want to link to your edX account.
+
+   To unlink your edX account from a social media account, select **Unlink This
+   Account** under that account name.
+
+
+
 .. _SFD Profile Page:
 
-*************************************
-Exploring the Profile Page
-*************************************
+***************************
+Adding Profile Information
+***************************
 
-Your edX profile allows you to share information about yourself with the edX
-community. Course teams and other learners in your courses can view your
-profile. You can share either a limited profile or a full profile.
+Your edX profile allows you to specify information about yourself that you want
+to share  with the edX community. Adding a profile is optional. If you add
+profile information, course teams and other learners in your courses can view
+the information that you share.
 
-Your profile always includes your username. Optionally, and if you are over 13
-years of age, you can also share a profile picture, your location, and other
-biographical information.
+In addition to your username, your profile can include a picture, your
+location, and other biographical information.
 
-A limited profile shares only your username and an optional profile picture.
+You can share either a limited profile or a full profile.
 
-.. note:: If you are under 13 years of age, you can only share a limited
-   profile and you cannot share a profile picture.
+* A limited profile shares only your username and an optional profile picture.
 
-.. image:: ../../../shared/images/SFD_Prof_Limited.png
- :width: 400
- :alt: A learner's limited profile showing only username and image.
+  .. note:: If you are under 13 years of age, you can only share a limited
+     profile. You cannot share a profile picture.
 
-A full profile includes biographical information in addition to your username
-and profile image.
+   .. image:: ../../../shared/images/SFD_Prof_Limited.png
+     :width: 400
+     :alt: A learner's limited profile showing only username and image.
 
-.. image:: ../../../shared/images/SFD_Prof_Full.png
- :width: 500
- :alt: A learner's full profile with location, language, and short
+* A full profile includes biographical information in addition to your username
+  and profile image.
+
+  .. image:: ../../../shared/images/SFD_Prof_Full.png
+    :width: 500
+    :alt: A learner's full profile with location, language, and short
      biographical paragraph.
 
 
 .. _Create or Edit a Limited Profile:
 
 ================================
-Create or Edit a Limited Profile
+Add or Update a Limited Profile
 ================================
 
 A limited profile includes only your username and, optionally, an image.
@@ -217,7 +431,7 @@ A limited profile includes only your username and, optionally, an image.
 .. note:: If you are under 13 years of age, your limited profile only includes
    your username. You cannot add a profile picture.
 
-To create or edit a limited profile, follow these steps.
+To add or update a limited profile, follow these steps.
 
 #. On any edX page, select the arrow next to your username, and then select
    **Profile**.
@@ -243,7 +457,7 @@ To create or edit a limited profile, follow these steps.
 EdX saves your changes automatically.
 
 ================================
-Create or Edit a Full Profile
+Add or Update a Full Profile
 ================================
 
 .. note:: You must specify your year of birth on the **Account Settings** page
@@ -265,7 +479,7 @@ country or region are required.
   other information that you want to share. This paragraph can contain up to
   3000 characters.
 
-To create or edit your profile, follow these steps.
+To add or update your profile, follow these steps.
 
 #. On any edX page, select the arrow next to your username, and then select
    **Profile**.
@@ -321,128 +535,13 @@ username on the **Active Threads** page, and the learner's profile page.
       that learner's active threads page in the course discussions, and an
       image of the learner's profile
 
+***********************
+Deactivate Your Account
+***********************
 
-.. _SFD Account Settings:
-
-****************************************
-Exploring the Account Settings Page
-****************************************
-
-Your Account Settings page has three tabs.
-
-* The **Account Settings** tab includes basic, required information, such as your
-  username, as well as optional information, such as the level of education
-  you have completed.
-
-* The **Linked Accounts** tab lists social media and other accounts that you can
-  connect to your edX account.
-
-* The **Order History** tab lists information about payments you have made,
-  such as the fee for a verified certificate. For more information, see
-  :ref:`View Order History`.
-
-You can view this information at any time. You can also add or change some of
-this information.
-
-.. _SFD Basic Information:
-
-==========================================
-View or Change Basic Account Information
-==========================================
-
-Basic account information includes the following information. This information
-is required for every account on edX.
-
-* **Username**: The name that identifies you on edx.org. Note that you cannot
-  change your edX username.
-
-* **Full Name**: The name that appears on your edX certificates. Other learners
-  cannot see your full name.
-
-* **Email Address**: The email address you use to sign in to edX. You may
-  receive communications from edX and your courses at this address.
-
-* **Password**: Your password on edx.org. To reset your password, select
-  **Reset Password**. EdX then sends a message to the email address in the
-  **Email Address** field. You select the link in the message to finish
-  resetting your password.
-
-* **Language**: The language that the edX site uses during your visits. The edX
-  site is currently available in a limited number of languages.
-
-* **Country or Region**: The country or region that you live in.
-
-* **Time Zone**: Your local time zone. If specified, course due dates and
-  times are displayed using this time zone. If you do not specify a time
-  zone, course dates and times are displayed in Coordinated Universal Time
-  (UTC).
-
-To view or change this information, follow these steps.
-
-.. note:: You cannot change your edX username.
-
-#. On any edX page, select the arrow next to your username, and then select
-   **Account**.
-
-#. On the **Account Settings** page, select **Account Information**.
-
-#. On the **Account Information** page, locate the **Basic Account
-   Information** section, and then make your changes.
-
-EdX saves your changes automatically.
-
-.. _SFD Additional Info:
-
-==========================================
-Specify Additional Information
-==========================================
-
-Additional account information is optional and includes the following
-information.
-
-* **Education Completed**: The highest level of education that you have
-  completed.
-* **Gender**: The gender you identify as.
-
-* **Year of Birth**: The year that you were born.
-
-* **Preferred Language**: The language that you prefer to communicate in.
-
-To view or change this information, follow these steps.
-
-#. On any edX page, select the arrow next to your username, and then select
-   **Account**.
-
-#. On the **Account Settings** page, select **Account Information**.
-
-#. On the **Account Information** page, locate the **Additional Information**
-   section, and then make your changes.
-
-EdX saves your changes automatically.
-
-.. _Link Accounts:
-
-==========================================
-Link or Unlink a Social Media Account
-==========================================
-
-You can link your edX account to social media and other accounts, including
-Facebook, Google, school, and company accounts. When your accounts are linked,
-you can sign in to edX automatically by signing in to your other account.
-
-To link your edX account with another account, follow these steps.
-
-#. On any edX page, select the arrow next to your username, and then select
-   **Account**.
-
-#. On the **Account Settings** page, select **Linked Accounts**.
-
-#. On the **Linked Accounts** page, select **Link Your Account** under the
-   name of the account that you want to link to your edX account.
-
-   To unlink your edX account from a social media account, select **Unlink This
-   Account** under that account name.
-
+To deactivate your edX account, you :ref:`unenroll<Find or Change Course
+Information>` from all of your courses. You can reactivate your account at any
+time by enrolling in a new course.
 
 
 .. include:: ../../../links/links.rst
