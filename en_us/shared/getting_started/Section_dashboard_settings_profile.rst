@@ -337,8 +337,9 @@ Your Account Settings page has three tabs.
 * The **Linked Accounts** tab lists social media and other accounts that you can
   connect to your edX account.
 
-* The **Order History** tab lists information about payments you have made, such
-  as the fee for a verified certificate.
+* The **Order History** tab lists information about payments you have made,
+  such as the fee for a verified certificate. For more information, see
+  :ref:`View Order History`.
 
 You can view this information at any time. You can also add or change some of
 this information.
@@ -442,31 +443,6 @@ To link your edX account with another account, follow these steps.
    To unlink your edX account from a social media account, select **Unlink This
    Account** under that account name.
 
-
-.. _View Order History:
-
-===========================
-View Your Order History
-===========================
-
-The **Order History** tab contains information about any purchases you have
-made on edX. This information includes the following details.
-
-* The name of your course.
-* The date you placed your order.
-* The total charge for your order, in US dollars (USD).
-* The edX order number.
-* A link to a receipt for each order.
-
-To view information about your edX purchases, follow these steps.
-
-#. On any edX page, select the arrow next to your username, and then select
-   **Account**.
-
-#. On the **Account Settings** page, select **Order History**.
-
-To view information about a specific purchase, locate the transaction that you
-want, and then select **Order Details**.
 
 
 .. include:: ../../../links/links.rst

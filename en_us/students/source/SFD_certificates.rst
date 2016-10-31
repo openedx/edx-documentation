@@ -1,41 +1,41 @@
 .. _Certificates:
 
-#############################
-Receiving Your Certificate
-#############################
+###############################
+Receiving Your edX Certificate
+###############################
 
 .. The Open edX Learner's Guide also includes a Certificates topic, but it has
 .. no shared content with this topic and there is no "Certificates" file in the
 .. Shared folder.
 
-This topic describes edX certificates and how to access them.
+EdX awards certificates for courses that have a verified track and for edX
+programs such as XSeries and MicroMasters programs. Most certificates are web
+certificates that you can save, share, and print.
+
+To receive a certificate for an edX course, you enroll in the :ref:`verified
+track<SFD Verified Track>` for the course, pay the certificate fee,
+:ref:`verify your identity<SFD Verify Your Identity>` with a webcam and a
+government-issued ID, and earn a passing grade.
+
+To receive a certificate for a program, you must receive a verified certificate
+for each course in the series of courses that make up the program. Some
+programs might have additional requirements.
+
+This section describes edX certificates and how you access them.
 
 .. contents::
  :local:
  :depth: 1
 
-**********
-Overview
-**********
-
-EdX awards certificates for courses that have a verified track, as well as for
-edX programs such as XSeries and MicroMasters programs. Most certificates are
-web certificates that you can save or print.
-
-To receive a certificate, you must enroll in the verified track for a
-course, verify your identity, and earn a passing grade.
-
-Transcripts are not available for edX course work.
-
 .. note::
-    Some edX courses offer academic credit. These courses have different
-    requirements and steps for earning certificates. For more information, see
-    :ref:`SFD Academic Course Credit Index`.
+    Some edX courses offer academic credit. If you are taking a course for
+    academic credit, different requirements and steps for earning certificates
+    apply. For more information, see :ref:`SFD Academic Course Credit Index`.
 
 .. _SFD Certificate Types:
 
 ****************************
-Certificate Types
+About Certificate Types
 ****************************
 
 EdX currently offers the following types of certificates: verified certificates
@@ -50,28 +50,27 @@ courses offer certificates.
 
   In the past, edX also offered free honor code certificates. These
   certificates are no longer available for most new courses. If you earned an
-  honor code certificate in a previous course, you still have access to your
-  certificate through your dashboard.
+  honor code certificate in a previous course, you can still access your
+  certificate through your :ref:`dashboard<SFD Learner Dashboard>`.
 
   For more information, see `News About edX Certificates`_.
 
 .. _SFD Verified Certificates:
 
-======================
-Verified Certificates
-======================
+==============================
+About Verified Certificates
+==============================
 
 A verified certificate shows not only that you successfully completed your edX
-course, but also that you verified your identity by using a webcam and an
-official government-issued photo ID from your country or region.
+course, but also that you :ref:`verified your identity<SFD Verify Your
+Identity>` by using a webcam and an official government-issued photo ID.
 
 Verified certificates include the following information.
 
-* The name that you entered as your full name in your account settings.
+* The name that you entered as your full name when you created your account.
 
-  To make sure that the name on your certificate is correct, you can check the
-  name in your account settings before your course ends. For more information,
-  see :ref:`SFD Basic Information`.
+  To verify or change your full name before the course ends, check your account
+  settings. For more information, see :ref:`SFD Basic Information`.
 
 * The name of the course.
 * The edX partner institution that created the course.
@@ -88,8 +87,8 @@ Verified certificates include the following information.
   need a record of your grade, you can print your **Progress** page or
   dashboard.
 
-For more information about enrolling in a course and working toward a verified
-certificate, see :ref:`SFD Verified Track`.
+For more information about enrolling in the verified track for a course and
+working toward a verified certificate, see :ref:`Enroll in the Verified Track`.
 
 For more information about the benefits of verified certificates, and to see an
 example of a verified certificate, see `Verified Certificates`_.
@@ -99,9 +98,9 @@ catalog`_.
 
 .. _SFD XSeries Certificates:
 
-=============================================
-XSeries and MicroMasters Program Certificates
-=============================================
+=======================================================
+About XSeries and MicroMasters Program Certificates
+=======================================================
 
 Certificates for XSeries and MicroMasters programs show that you have
 successfully earned a verified certificate for each course in the series of
@@ -142,7 +141,7 @@ course work before the course ends.
 
 .. contents::
   :local:
-  :depth: 1
+  :depth: 3
 
 ====================================================
 Receive a Certificate for an Instructor-Paced Course
@@ -426,8 +425,26 @@ guidelines.
   similar option. Select that option and follow the onscreen instructions to
   print your certificate as a PDF.
 
+.. _Getting a Transcript:
 
+====================
+Getting a Transcript
+====================
 
+EdX does not provide course transcripts. EdX certificates do not include your
+final course grade.
+
+However, your final course grade appears with other course information on your
+dashboard of courses, and a complete record of your scores on all course
+assignments and exams appears on the course **Progress** page. If you need a
+record of your performance in a course, use your web browser to print one of
+these pages.
+
+* To access your dashboard, on the edx.org website select your public edX
+  username. Your dashboard opens with a list of your courses.
+
+* To access your **Progress** page for a course, select **View Course** on your
+  dashboard, and then select **Progress**.
 
 
 .. include:: ../../links/links.rst
