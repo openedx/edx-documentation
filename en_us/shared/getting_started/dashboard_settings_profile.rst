@@ -4,7 +4,8 @@
 Exploring Your Dashboard, Settings, and Profile
 ###################################################
 
-This topic describes your dashboard, account settings, and profile.
+This topic describes tasks you can complete on your dashboard, and on the
+account settings and profile pages.
 
 .. contents::
  :local:
