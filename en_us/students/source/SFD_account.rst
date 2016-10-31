@@ -5,7 +5,8 @@ Getting Started on edX
 #######################
 
 This topic provides an introduction to edx.org and edX Edge and describes the
-steps you take before you begin your first course.
+steps you take before you :ref:`begin your first course <SFD Starting a
+Course>`.
 
 .. contents::
   :local:
@@ -18,10 +19,10 @@ Introducing edx.org and edX Edge
 EdX hosts courses on the `edx.org`_ and `edX Edge`_ websites.
 
 * The edx.org website has massive open online courses (MOOCs) that are designed
-  and led by edX partner organizations. This website lists all available courses
-  publicly, and learners from around the world can find and enroll in these
-  courses. When we refer to "edX" accounts and courses we are referring to
-  accounts and courses on edx.org.
+  and led by edX partner organizations. This website lists all available
+  courses publicly, and learners from around the world can find and enroll in
+  these courses. When we refer to "edX" accounts and courses we are referring
+  to accounts and courses on edx.org.
 
 * EdX Edge has small private online courses (SPOCs), which are often created
   for use on campus or within an organization. Courses on Edge frequently limit

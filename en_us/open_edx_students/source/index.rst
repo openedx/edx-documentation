@@ -9,6 +9,7 @@ Open edX Learner's Guide
    :maxdepth: 2
 
    SFD_introduction
+   SFD_enrolling
    sfd_dashboard_profile/index
    SFD_mobile
    SFD_check_progress

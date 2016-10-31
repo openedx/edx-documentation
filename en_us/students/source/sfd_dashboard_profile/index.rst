@@ -5,6 +5,6 @@ Finding and Updating Your Account Information
 ###################################################
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
 
    SFD_dashboard_settings_profile

@@ -10,10 +10,10 @@ EdX Learner's Guide
 
    SFD_introduction
    SFD_account
-   sfd_dashboard_profile/index
-   SFD_mobile
    SFD_enrolling
+   sfd_dashboard_profile/index
    SFD_check_progress
+   SFD_mobile
    SFD_certificates
    SFD_self_paced
    SFD_credit_courses/index
