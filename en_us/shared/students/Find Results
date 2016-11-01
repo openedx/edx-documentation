@@ -1,0 +1,666 @@
+Searching 1410 files for "start date"
+
+/Users/alisonhodges/edx-documentation/en_us/course_authors/source/front_matter/change_log_2014.rst:
+  504       - Added Periodic Table and Molecule Editor.
+  505     * - 02/05/14
+  506:      - Added the Advertise a Different Start Date section.
+  507     * - 02/04/14
+  508       - Added the Student Data and Grades sections.
+  ...
+  543     * -
+  544       - Updated Scheduling Your Course to reflect change to
+  545:        default course start date to 2029.
+  546     * - 01/07/2014
+  547       - Updated Text Input with info about multiple strings.
+
+/Users/alisonhodges/edx-documentation/en_us/course_catalog_api_user_guide/source/course_catalog/catalog.rst:
+  390     * - ``start``
+  391       - datetime
+  392:      - The course start date.
+  393     * - ``end``
+  394       - datetime
+  ...
+  396     * - ``enrollment_start``
+  397       - datetime
+  398:      - The course enrollment start date.
+  399     * - ``enrollment_end``
+  400       - datetime
+
+/Users/alisonhodges/edx-documentation/en_us/data/source/internal_data_formats/course_structure.rst:
+  135         'attempted', 'closed', 'finished', 'past_due', or 'never'.
+  136     * - ``start``
+  137:      - This field stores the value entered for **Course Start Date** on the
+  138         Studio **Settings & Details** page.
+  139     * - ``tabs``
+  ...
+  270       - This field stores the value entered for the section, subsection, or
+  271         unit on the Studio **Course Outline** page. Course teams provide these
+  272:        optional start dates so that course content is released incrementally
+  273:        after the course start date.
+  274     * - ``visible_to_staff_only``
+  275       - This Boolean indicates the setting selected for the **Hide from
+
+/Users/alisonhodges/edx-documentation/en_us/edx_style_guide/source/ExampleRSTFile.rst:
+   82
+   83  #. Select **Advanced Settings**.
+   84: #. Find the **Course Advertised Start Date** policy key.
+   85  #. Enter the value you want to display.
+   86
+
+/Users/alisonhodges/edx-documentation/en_us/edx_style_guide/source/WorkingWithEdXDocSource.rst:
+  122
+  123  #. Select **Advanced Settings**.
+  124: #. Find the **Course Advertised Start Date** policy key.
+  125  #. Enter the value you want to display.
+  126
+
+/Users/alisonhodges/edx-documentation/en_us/install_operations/source/configuration/edx_search.rst:
+  181  * ``ELASTIC_FIELD_MAPPINGS``: Sets any additional field mappings that elastic
+  182    search should be aware of. For example, the following code includes the
+  183:   course start date.
+  184
+  185    .. code-block:: bash
+  ...
+  236  * ``SEARCH_FILTER_GENERATOR``: Used to set custom SearchFilterGenerator.
+  237    SearchFilterGenerator sets filters defined by current active user. Basic
+  238:   implementation sets only course start date filter.
+  239
+  240    * default: ``SearchFilterGenerator``
+
+/Users/alisonhodges/edx-documentation/en_us/install_operations/source/ecommerce/create_products/create_coupons.rst:
+  221       - The enrollment end date, in YYYY-MM-DD format.
+  222     * - ``enrollment_start``
+  223:      - The enrollment start date, in YYYY-MM-DD format.
+  224     * - ``key``
+  225       - The course run key, sometimes also called the course ID.
+  ...
+  238         ``self_paced``.
+  239     * - ``start``
+  240:      - The course run start date, in YYYY-MM-DD format.
+  241     * - ``title``
+  242       - The course title.
+  ...
+  432     * - **Create Date**
+  433       - The date the coupon was created.
+  434:    * - **Coupon Start Date**
+  435       - The first date the coupon can be used.
+  436     * - **Coupon Expiry Date**
+
+/Users/alisonhodges/edx-documentation/en_us/olx/source/policies/course.rst:
+   31
+   32       * - ``start``
+   33:        - The start date for the course.  For example: ``"2012-09-05T12:00"``.
+   34       * - ``advertised_start``
+   35:        - The start date displayed in the course listing and course about pages.
+   36           For example: ``"2012-09-05T12:00``.
+   37       * - ``disable_policy_graph``
+
+/Users/alisonhodges/edx-documentation/en_us/open_edx_release_notes/source/dogwood.rst:
+  135  This release includes several updates to web certificates.
+  136
+  137: * Course team members with the Admin or Staff role can now set the start date
+  138    for a course that is configured to issue certificates before its certificates
+  139    are activated.
+
+/Users/alisonhodges/edx-documentation/en_us/release_notes/source/2015/lms/lms_0825_2015.rst:
+    8    on the Instructor Dashboard.
+    9
+   10:   * Course Start Date, including the start time (UTC).
+   11
+   12    * Course End Date, including the end time (UTC).
+
+/Users/alisonhodges/edx-documentation/en_us/release_notes/source/2015/lms/lms_0916_2015.rst:
+   35  * In for-credit courses, credit-eligible assessments were listed on the
+   36    **Progress** page in the order that they were created. They are now sorted by
+   37:   assessment start date. (ECOM-2118)
+   38
+   39  * When learners select **Show Answer** for dropdown problems, the positioning
+
+/Users/alisonhodges/edx-documentation/en_us/release_notes/source/2015/studio/studio_0804_2015.rst:
+   16  * Formatting errors occurred when users embedded MathJax in text input problems.
+   17
+   18: * If a course used the **Course Advertised Start Date** advanced setting,
+   19:   reruns of the course automatically used the previous advertised start date
+   20:   as the start date of the course. (PLAT-295)
+   21
+   22  ====================
+
+/Users/alisonhodges/edx-documentation/en_us/release_notes/source/2015/studio/studio_1201_2015.rst:
+   13
+   14  =========================================
+   15: Start Dates for Web Certificate Courses
+   16  =========================================
+   17
+   18: Course team members who have the Admin or Staff role can now set the start date
+   19  for a course that is configured to issue certificates before its certificates
+   20  are activated.
+
+/Users/alisonhodges/edx-documentation/en_us/release_notes/source/2016/lms/lms_0215_2016.rst:
+    1
+    2  * Beta testers for self-paced courses can now access the course before the
+    3:   course start date. (ECOM-3612)
+    4
+    5  * To enhance accessibility, updates have been made to the descriptions in the
+
+/Users/alisonhodges/edx-documentation/en_us/release_notes/source/2016/studio/studio_0215_2016.rst:
+    6
+    7  * Beta testers for self-paced courses can now access the course before the
+    8:   course start date. (ECOM-3612)
+    9
+
+/Users/alisonhodges/edx-documentation/en_us/release_notes_2014/source/01-16-2014.rst:
+   16    For more information, see the Add Files to a Course.
+   17
+   18: * The default **Course Start Date** for new courses is now **01/01/2030 GMT**.  This is to ensure that your course does not start before you intend it to. You must change the course start date to the date you want students to begin using the course. (STUD-1072)
+   19
+   20:   For more information, see the The Course Start Date.
+   21
+   22  * For new courses, sections and subsections now have a default release date of **January 1, 2030**. In this case, you must adjust the release date to the day you want students to be able to view the content. (STUD-1072)
+
+/Users/alisonhodges/edx-documentation/en_us/release_notes_2014/source/02-12-2014.rst:
+   14  * The new Full Screen Image tool allows students to enlarge an image, so they can see all the detail in context. You can create a full screen image with a new HTML component template. For more information, see the Full Screen Image documentation.
+   15
+   16: * If you do not change the default course start date (01/01/2030), and the advertised_start policy value is null, then the student dashboard does not now list a start date for the course. Students just see that the course has not yet started. For more information, see the Set the Advertised Start Date documentation.
+   17
+   18
+
+/Users/alisonhodges/edx-documentation/en_us/shared/course_assets/pages.rst:
+   84  ===================
+   85
+   86: If you add a custom page to a course after its start date, the page is visible
+   87  in the LMS as soon as you save your work. As a best practice, be sure to
+   88  prepare the following aspects of your page design before you add a page.
+   ..
+  160  =======================================
+  161
+  162: If you hide or show a page after the course start date, note that the
+  163  visibility of the page in the LMS changes immediately.
+  164
+  ...
+  196    which are always presented in the first and second positions.
+  197
+  198: If you change the order of the pages after the course start date, note that the
+  199  change immediately affects the sequence of the options on the navigation bar in
+  200  the LMS.
+  ...
+  227  * To delete a page that appears for a textbook, you delete the textbook.
+  228
+  229: If you delete a page after the course start date, note that the
+  230  visibility of the page in the LMS changes immediately.
+  231
+
+/Users/alisonhodges/edx-documentation/en_us/shared/course_features/cohorts/cohort_config.rst:
+   63
+   64  For an optimal learner experience, you should make sure that configuration of
+   65: the cohort feature is as complete as possible before the start date of your
+   66  course. If you need to make changes to the way you have configured cohorts
+   67  while your course is running, be aware of the implications of your changes. For
+
+/Users/alisonhodges/edx-documentation/en_us/shared/developing_course/course_sections.rst:
+   74  ========================
+   75
+   76: If you do not change the :ref:`course start date<Set Start and End Dates>`
+   77  default value, ``1/1/2030 00:00:00 UTC``, when you create a new section, its
+   78  release date will appear as ``Unscheduled``. When the section release date is
+   ..
+   80  the publishing status of that content.
+   81
+   82: If you have modified the course start date, when you create a new section, the
+   83: default release date is the course start date.
+   84
+   85  On the Studio **Course Outline** page, each unscheduled section appears with a
+   ..
+  145  ****************************
+  146
+  147: If you do not change the :ref:`course start date<Set Start and End Dates>`
+  148  default value, ``1/1/2030``, when you create a new section, its release date
+  149  will be ``Unscheduled``.
+  150
+  151: If you have modified the course start date, when you create a new section, the
+  152: default release date is the course start date.
+  153
+  154  .. caution::
+  155:  If the course start date is in the past, newly created sections are
+  156   immediately visible to learners.
+  157
+
+/Users/alisonhodges/edx-documentation/en_us/shared/developing_course/testing_courseware.rst:
+  186    page when you use the **Student** view. To see this content before the course
+  187    has started, add yourself as a beta tester on the instructor dashboard. Make
+  188:   sure to set the course start date and the **Days Early for Beta** setting so
+  189    that you can see the content that you want. For more information, see
+  190    :ref:`Beta_Testing`.
+  ...
+  219    page when you use the **Specific student** view. To see this content before
+  220    the course has started, add yourself as a beta tester on the Instructor
+  221:   Dashboard. Make sure to set the course start date and the **Days Early for
+  222    Beta** setting so that you can see the content that you want. For more
+  223    information, see :ref:`Beta_Testing`.
+
+/Users/alisonhodges/edx-documentation/en_us/shared/developing_course/workflow.rst:
+   84  able to see it. Content visibility depends on several factors.
+   85
+   86: * The :ref:`course start date <Set Start and End Dates>`
+   87  * The release dates of the :ref:`section<Set a Section Release Date>` and
+   88    :ref:`subsection<Set a Subsection Release Date>`
+
+/Users/alisonhodges/edx-documentation/en_us/shared/getting_started/Section_dashboard_settings_profile.rst:
+   92    Course start and end dates appear below the name of the course.
+   93
+   94:   * If a course has not yet started, you see the course start date.
+   95    * If a course has started but not ended, you see the course end date.
+   96    * If a course has ended, you see the course end date.
+
+/Users/alisonhodges/edx-documentation/en_us/shared/manage_live_course/bulk_email.rst:
+  450  ====================
+  451
+  452: Pre-launch reminders raise awareness of the course start date, publicize the
+  453: course, and generate excitement. In addition to the course start date and time,
+  454  the example that follows also lets learners know that:
+  455
+  ...
+  498  ===================
+  499
+  500: On your course start date, you can send an email message that both welcomes
+  501  learners and gives them specific actions to accomplish. This example directs
+  502  learners to two of the course pages to encourage exploration and discovery, and
+
+/Users/alisonhodges/edx-documentation/en_us/shared/manage_live_course/course_data.rst:
+   79         circled.
+   80
+   81: * **Course Start Date**: The date and time that the course is scheduled to
+   82    start. This date can be changed in Studio (not recommended if your course is
+   83    live). For more information, see :ref:`Determine Start and End Dates`.
+   ..
+   87    For more information, see :ref:`Determine Start and End Dates`.
+   88
+   89: * **Has the course started**: Derived from the **Course Start Date** value and
+   90    the current date.
+   91
+
+/Users/alisonhodges/edx-documentation/en_us/shared/manage_live_course/discussions.rst:
+  798  =====================================
+  799
+  800: To close course discussions, you supply a start date and time and an end date
+  801  and time in Studio. You enter the values in the following format.
+  802
+  ...
+  821  * Quotation marks enclose each date-time value.
+  822
+  823: * A comma and a space separate the start date-time from the end date-time.
+  824
+  825  * Square brackets enclose the start-end value pair.
+
+/Users/alisonhodges/edx-documentation/en_us/shared/releasing_course/beta_testing.rst:
+   69  either. They have privileged access to the course and have more time to review
+   70  and complete the course materials than the enrolled learners do. Course
+   71: discussions are not open before the course start date, so beta testers cannot
+   72  participate in community conversations. As a result of these differences, beta
+   73  testers do not receive certificates when they complete a course.
+   ..
+  160        released.
+  161
+  162:     * For self-paced courses, this number applies to the course start date.
+  163        Because sections and subsections for self-paced courses do not have
+  164        individual release dates, beta testers can access all course content when
+  ...
+  181       - X
+  182       -
+  183:    * - Before the course start date
+  184       - X
+  185       -
+  ...
+  211
+  212  To define the start of the beta test, you use Studio to specify a number of
+  213: days before the course start date for self-paced courses or before the section
+  214  and subsection release dates for instructor-paced courses. For more
+  215  information, see :ref:`How_Testers_See_Course`.
+  ...
+  237     * - Course enrollment date = 31 August
+  238       - 31 August; earlier if enrolled by course team
+  239:    * - Course start date = 15 September
+  240       - 26 August
+  241     * - Section 1 release day = 15 September
+  ...
+  275  When you add beta testers, note the following.
+  276
+  277: * If the beta test starts before the course **Enrollment Start Date**, testers
+  278    cannot enroll themselves in your course. However, you can enroll the beta
+  279:   testers prior to the **Enrollment Start Date**.
+  280
+  281  * If you add the beta testers after the defined start of the beta test, and
+  ...
+  297  "batch add" option to add them all at once, rather than individually. With this
+  298  feature, you have options to enroll the beta testers in the course (before or
+  299: after the **Enrollment Start Date**) and send an email message to notify the
+  300  beta testers that they have been added.
+  301
+  ...
+  311
+  312  #. To enroll the beta testers in your course, leave **Auto Enroll** selected.
+  313:    If the beta test starts before the course **Enrollment Start Date**, testers
+  314     cannot enroll themselves in your course.
+  315
+  ...
+  351     or username and click **Add Beta Tester**.
+  352
+  353:    If the beta test starts before the **Enrollment Start Date** of your course,
+  354     you can also enroll the beta tester. See :ref:`Enrollment`.
+  355
+
+/Users/alisonhodges/edx-documentation/en_us/shared/releasing_course/course_launching.rst:
+   32  ****************************
+   33
+   34: As the start date for your course approaches, a checklist or time line of
+   35  activities can help you make sure that your course, and your learners, are
+   36  ready to begin. Suggestions for activities to complete before your course
+   ..
+   39  **Verify Course Settings**
+   40
+   41: * Check the course start date and time in Studio. See :ref:`Scheduling Your
+   42    Course`.
+   43  * Review the grading policy, and set a grace period for homework assignment
+   ..
+   67  **Welcome Learners**
+   68
+   69: * Two months before the course start date, prepare and send a welcome email
+   70    message to currently enrolled learners. See :ref:`Prelaunch Reminder` and
+   71    :ref:`Send_Bulk_Email`.
+   ..
+   74  * Verify that a syllabus and other references are available on the **Course
+   75    Handouts** page. See :ref:`Add Course Handouts`.
+   76: * One month before the course start date, prepare and send a welcome email
+   77    message to currently enrolled learners.
+   78: * One week before the course start date, prepare and send a welcome email
+   79    message to currently enrolled learners.
+   80  * Add an "Introduce Yourself" post to a discussion topic. For a MOOC, you may
+   ..
+   84    Europe", "Introduce Yourself: North America", etc. See
+   85    :ref:`Running_discussions`.
+   86: * On the course start date, prepare and send a launch email message to
+   87    currently enrolled learners. See :ref:`Launch Day Welcome`.
+   88
+
+/Users/alisonhodges/edx-documentation/en_us/shared/releasing_course/export_import_course.rst:
+  139
+  140  .. note::
+  141:  When you import a course, important dates, such as the course start date and
+  142   time, are overwritten. After the import is complete, you should check dates to
+  143   ensure they are set as intended. For more information, see
+
+/Users/alisonhodges/edx-documentation/en_us/shared/rerun_course/course_rerun.rst:
+   25     * - Type of Content
+   26       - Duplicated to New Course?
+   27:    * - Course start date
+   28       - No. Set to midnight on January 1, 2030 (UTC).
+   29     * - All other course dates
+   ..
+  143  review the settings and content of the new course. To assure a quality
+  144  experience for learners, be sure to test the course thoroughly before the
+  145: course start date. See :ref:`Testing Your Course Content` and
+  146  :ref:`Beta_Testing`.
+  147
+
+/Users/alisonhodges/edx-documentation/en_us/shared/set_up_course/course_staffing.rst:
+   42  Team members with the **Staff** role can complete these tasks.
+   43
+   44: * View the course before the Course Start Date.
+   45
+   46  * Enroll and unenroll learners.
+
+/Users/alisonhodges/edx-documentation/en_us/shared/set_up_course/creating_course_certificates.rst:
+   32  Using Studio, you create certificates that learners can earn in your course.
+   33
+   34: .. Course start date not published for partners at this time, pending review.
+   35
+   36  .. only:: Open_edX
+   37
+   38      ***********************************
+   39:     Certificates and Course Start Dates
+   40      ***********************************
+   41
+
+/Users/alisonhodges/edx-documentation/en_us/shared/set_up_course/creating_new_course.rst:
+   52    characters.
+   53
+   54:   The value that you enter for the run does not affect the course start date
+   55    that you define for the course. For more information, see :ref:`Scheduling
+   56    Your Course`.
+
+/Users/alisonhodges/edx-documentation/en_us/shared/set_up_course/scheduling_course.rst:
+   46
+   47  ============================
+   48: Course Start Date and Time
+   49  ============================
+   50
+   51: The course start date and time specify when learners can access published
+   52: course content. By default, the course start date and time are set to
+   53  **01/01/2030** at **00:00 UTC** to ensure that your course does not start
+   54  before you intend it to. You must change this setting to the correct date and
+   ..
+   57  EdX recommends that you set the start time of your course early in the day,
+   58  generally 00:00 UTC or earlier. Learners often expect the course to be
+   59: available on the start date in their own time zones and try to access course
+   60  content during the day. If you do not specify a start time for your course,
+   61  learners see the default start time, 00:00 Coordinated Universal Time (UTC).
+   ..
+   65
+   66  .. note::
+   67:   You can set a different advertised start date for your course. You might do
+   68:   this if the exact start date is uncertain. For example, you could advertise
+   69:   the start date as "Coming Soon". For more information, see
+   70:   :ref:`Advertise a Different Start Date`.
+   71
+   72  Although learners cannot access any part of your course before the course
+   73: start date, course team members who are enrolled in the course and who have
+   74  the staff, admin, or beta tester role can see published content in the course
+   75: before the course start date. For information about testing your course
+   76: content before the course start date, see :ref:`Beta_Testing`.
+   77
+   78
+   ..
+   91
+   92  ===============================
+   93: Enrollment Start Date and Time
+   94  ===============================
+   95
+   ..
+   99    courses on edx.org.
+  100
+  101: The enrollment start date and time specify when learners can start to enroll
+  102: in the course. Ensure that the enrollment start date is early enough to allow
+  103  learners to both enroll in and prepare for the course.
+  104
+  ...
+  153  before you plan to start the course.
+  154
+  155: .. _Advertise a Different Start Date:
+  156
+  157  ====================================
+  158: Advertise a Different Start Date
+  159  ====================================
+  160
+  161: You can advertise a start date for your course that is different from the
+  162: course start date you set in the **Schedule & Details** page. You might want
+  163: to do this if the exact start date is uncertain.
+  164
+  165  You can enter a specific date or a description. For example, you could
+  166: advertise the start date as either "15 Oct 2016" or "Anytime, self-paced".
+  167
+  168: To set an advertised start date in Studio, follow these steps.
+  169
+  170  #. From the **Settings** menu, select **Advanced Settings**.
+  171
+  172: #. Locate the **Course Advertised Start Date** field. The default value is
+  173     ``null``.
+  174
+  175: #. Enter the start date that you want learners to see for your course in
+  176     MM/DD/YYYY format.
+  177
+  ...
+  179     format. For example, 10/15/2016 appears as 15 Oct 2016.
+  180
+  181: #. Add quotation marks (``" "``) before and after the start date value. An
+  182     example follows.
+  183
+  ...
+  190     A message lets you know whether your changes were saved successfully.
+  191
+  192: .. note:: If you do not change the default course start date (01/01/2030),
+  193:  and the **Course Advertised Start Date** policy value is ``null``, then no
+  194:  start date appears for the course. Learners just see that the course has not
+  195   yet started.
+  196
+  ...
+  201  ***************************************
+  202
+  203: Learners can view the start date for a course on the course **About** page,
+  204  and, after they enroll in the course, on their dashboards.
+  205
+  206  .. image:: ../../../shared/images/about-page-course-start.png
+  207:  :alt: The course About page, showing the start date.
+  208   :width: 800
+  209
+  ...
+  223   :width: 800
+  224
+  225: For a course that is in progress or has not yet started, the start date is
+  226  shown. For a course that has ended, the course end date is shown.
+  227
+
+/Users/alisonhodges/edx-documentation/en_us/shared/set_up_course/setting_pacing.rst:
+   31
+   32  .. note::
+   33:     You cannot change the course pacing after the course start date has passed.
+   34
+   35  *****************************************
+   ..
+   86
+   87  .. note::
+   88:  You cannot change the course pacing after the course start date has passed.
+   89
+   90  To set the pacing for your course, follow these steps.
+
+/Users/alisonhodges/edx-documentation/en_us/shared/set_up_course/setting_up_student_view.rst:
+   43  .. image:: ../../../shared/images/dashboard-course-start-and-end.png
+   44   :width: 800
+   45:  :alt: An image of two courses in the dashboard, with the start dates and
+   46       times.
+   47
+
+/Users/alisonhodges/edx-documentation/en_us/shared/students/Section_start_course.rst:
+    7
+    8  =======================================
+    9: Find a Course's Start Date and Duration
+   10  =======================================
+   11
+   12: You can find the start date and course duration for each course on its course About page.
+   13
+   14: If you are registered for a course, you also see its start date and time listed next to the course on your dashboard. A course can start at any time throughout the day on its start date.
+   15
+   16  If you find your course is not immediately available, please check back later in the day.
+
+/Users/alisonhodges/edx-documentation/en_us/shared/students/SFD_self_paced.rst:
+   11  .. only:: Partners
+   12
+   13:     On the edx.org home page, an indication next to the course start date lets
+   14      you know if a course is self-paced.
+   15
+
+/Users/alisonhodges/edx-documentation/en_us/shared/subsections/open_response_assessments/CreateORAAssignment.rst:
+  240  #. Next to **Display Name**, type the name you want to give the assignment.
+  241
+  242: #. Next to **Response Start Date** and **Response Start Time**, enter the date
+  243     and time when you want learners to be able to begin submitting responses.
+  244
+  ...
+  348     response.
+  349
+  350: #. Next to **Start Date** and **Start Time**, enter the date and time when
+  351     learners can begin assessing their peers' responses.
+  352
+  ...
+  371  #. Locate the **Step: Self Assessment** heading.
+  372
+  373: #. Next to **Start Date** and **Start Time**, enter the date and time when
+  374     learners can begin assessing their peers' responses.
+  375
+
+/Users/alisonhodges/edx-documentation/en_us/students/source/SFD_enrolling.rst:
+  226  decide to pursue a verified certificate, you can upgrade to the verified track
+  227  until enrollment for verified certificates ends for the course. Enrollment in
+  228: the verified track usually ends two or more weeks after the course start date.
+  229
+  230  .. contents::
+  ...
+  338
+  339  .. important:: You can receive a refund for a certificate fee up to 14 days
+  340:    after your payment or 14 days after the course start date, whichever is
+  341     later. After these dates pass, edX cannot provide a refund.
+  342
+
+121 matches across 40 files
+
+
+Searching 1410 files for "Accessing Your Courses from the Dashboard"
+
+/Users/alisonhodges/edx-documentation/en_us/shared/getting_started/Section_dashboard_settings_profile.rst:
+   36
+   37  ******************************************
+   38: Accessing Your Courses from the Dashboard
+   39  ******************************************
+   40
+
+1 match in 1 file
+
+
+Searching 1410 files for "Options icon"
+
+/Users/alisonhodges/edx-documentation/en_us/shared/students/Section_start_course.rst:
+   36  =======================
+   37
+   38:   To unenroll, select the Options icon for the course, select **Unenroll**, and
+   39:   then select **Unenroll** in the confirmation dialog box. The Options icon
+   40    resembles a gear and appears next to **View Course** or **View Archived
+   41    Course**.
+
+2 matches in 1 file
+
+
+Searching 1410 files for "SFD Learner Dashboard"
+
+/Users/alisonhodges/edx-documentation/en_us/shared/getting_started/Section_dashboard_settings_profile.rst:
+   15  whether you are in a course or browsing the course catalog.
+   16
+   17: * Your :ref:`dashboard<SFD Learner Dashboard>` gives you access to your courses
+   18    and to course information, such as start and end dates, email settings, and
+   19    certificates. To access your dashboard, select your username on any edX
+   ..
+   33    username on any edX page, and then select **Account**.
+   34
+   35: .. _SFD Learner Dashboard:
+   36
+   37  ******************************************
+
+/Users/alisonhodges/edx-documentation/en_us/shared/students/Section_start_course.rst:
+    5  *********************
+    6
+    7: After you enroll in a course, you can :ref:`SFD Learner Dashboard`
+    8
+    9  =======================================
+
+/Users/alisonhodges/edx-documentation/en_us/shared/students/SFD_mobile.rst:
+  174
+  175   To unenroll from a course, use a browser to go to the `edx.org`_ website. You
+  176:  unenroll from courses on your :ref:`dashboard<SFD Learner Dashboard>`.
+  177
+  178
+
+/Users/alisonhodges/edx-documentation/en_us/students/source/SFD_certificates.rst:
+   52    certificates are no longer available for most new courses. If you earned an
+   53    honor code certificate in a previous course, you can still access your
+   54:   certificate through your :ref:`dashboard<SFD Learner Dashboard>`.
+   55
+   56    For more information, see `News About edX Certificates`_.
+
+5 matches across 4 files
