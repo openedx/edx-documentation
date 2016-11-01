@@ -1,4 +1,3 @@
-.. _Starting a Course:
 
 As soon as you enroll in a course, you can access information about the course
 and change course-specific settings on your :ref:`dashboard<SFD Learner
