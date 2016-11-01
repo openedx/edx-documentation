@@ -87,7 +87,7 @@ Find or Change Course Information
   Archived Course** next to the name of the course. Note that archived courses
   do not always provide access to all content.
 
-* See a course :ref:`start date and duration<Start Date and Duration>`.
+* See a course start date.
 
 * Change your course email settings.
 
@@ -107,7 +107,7 @@ Find or Change Course Information
         email messages that course teams send to communicate with enrolled
         learners in the course.
 
-* :ref:`Unenroll from a course<Unenroll from a Course>`.
+* Unenroll from a course.
 
 * View your grades in courses that you have completed.
 
