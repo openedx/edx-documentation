@@ -13,12 +13,12 @@ You can create an account for edX or edX Edge in different ways.
   your accounts, you sign in to your edX or edX Edge account automatically
   whenever you sign in to the external account.
 
-Creating an account for edX or edX Edge has two steps.
+Registering an account for edX or edX Edge has two steps.
 
 #. :ref:`Create an account <edX Create an Account>` on the edX.org or edX Edge
    website, or from the edX mobile app (for edX.org accounts only).
-#. :ref:`Activate the account <edX Activate an Account>` by using an email
-   message that you receive automatically after your account is created.
+#. :ref:`Activate the account <edX Activate an Account>` by following a link in
+   an email message that you receive after your account is created.
 
 .. _edX Create an Account:
 
@@ -26,15 +26,15 @@ Creating an account for edX or edX Edge has two steps.
 Create an Account
 ==================
 
-You create, or register, an edX or edX Edge account on the account registration
-page. You can also use the edX mobile app to register your edX account.
+When you create, or register, an account, you specify a public username that
+will represent you on edX or on edX Edge. Because your username, and not your
+full name, is used to identify you to course team members and other learners,
+edX recommends that you select your username carefully. You cannot change your
+public username after you register.
 
-.. note::   When you register an account, you specify a username that will
-   represent you on edX or on edX Edge. Your username, not your full name, is
-   used to identify you to course team members and other learners. Your full
-   name is used on any certificates that you earn. You cannot change your public
-   username after you register. EdX recommends that you select your username
-   carefully.
+You also provide your full name, which appears on any certificates that you
+earn. You can change your full name at any time. For more information, see
+:ref:`learners:SFD Basic Information`.
 
 To register an edX or edX Edge account, follow these steps.
 
@@ -56,6 +56,10 @@ To register an edX or edX Edge account, follow these steps.
 
    On Edge, if you linked your account to an organization account, some of this
    information might be provided for you.
+
+#. Verify that you entered your email address correctly. You must reply to the
+   activation message that edX sends to this address to complete the account
+   creation process.
 
 #. (Optional) Enter additional information, such as your date of birth. This
    information can help course teams better understand their learners and
@@ -92,6 +96,7 @@ when you create your account.
 #. In your email client, locate the account activation message from edX. If you
    do not see this message, your email client may have categorized the message
    as spam.
+
 #. Follow the instructions in the activation email message to activate your
    account.
 

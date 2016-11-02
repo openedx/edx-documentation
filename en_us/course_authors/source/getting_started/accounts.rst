@@ -4,7 +4,8 @@
 Getting Started with edX
 #############################
 
-The following topics provide an introduction to edx.org and edX Edge, and describe steps for getting started on edX websites.
+The following topics provide an introduction to edx.org and edX Edge, and
+describe steps for getting started on edX websites.
 
 .. contents::
  :local:
@@ -12,17 +13,19 @@ The following topics provide an introduction to edx.org and edX Edge, and descri
 
 This information is intended for course teams. The *EdX Learner's Guide* also
 includes information about creating and activating accounts and about the edX
-Demo course. You might want to share course- or institution-specific details
-about the registration process, such as password policies or the use of campus
-credentials, in your communications with prospective students.
+Demo course. You might want to share pointers to information in the *EdX
+Learner's Guide* with prospective learners, along with your own course- or
+institution-specific details about the registration process, such as password
+policies or the use of campus credentials.
 
-For information about enrolling learners in a course, see :ref:`enroll_student`.
+For information about enrolling learners in a course, see
+:ref:`enroll_student`.
 
 .. _edX.org and edX Edge:
 
-*************************
-edx.org and edX Edge
-*************************
+***********************************
+Introducing edx.org and edX Edge
+***********************************
 
 To explore edX courses or create edX course content, you can register an
 account on the `edx.org`_ website, the `edX Edge`_ website, or both. These
@@ -50,9 +53,9 @@ different.
 
 .. _Create an Account:
 
-*******************************
-Create and Activate an Account
-*******************************
+**********************************
+Creating and Activating an Account
+**********************************
 
 .. note::  The user accounts on edx.org and edX Edge are separate. To access or
    create courses on both websites, you must complete the account registration
@@ -68,26 +71,29 @@ Create and Activate an Account
 You can only access the **Account Settings** page from the LMS. You cannot
 access this page from Studio.
 
+.. include:: ../../../shared/getting_started/Section_troubleshooting_signin.rst
+
 .. _edX101_section:
 
-******************************
-The edX Demo Course and edX101
-******************************
+*********************************
+Learning About the edX Experience
+*********************************
 
-EdX provides the edX Demo course and Overview of Creating an edX Course
-to help familiarize you with taking and creating edX courses.
+EdX provides the edX Demo course and Overview of Creating an edX Course to help
+familiarize you with the experience of taking, and creating, edX courses.
 
-* The `edX Demo course`_ allows new students to explore and learn how to take
-  an edX course. We recommend that you become familiar with the way students
-  experience an edX course before you begin building your first course.
+* The `edX Demo course`_ allows learners who are new to online education, or to
+  edX, to explore different types of content and learn how to take a course.
+  EdX recommends that you become familiar with the way learners experience an
+  edX course before you begin building your first course.
 
   .. note::
     You can include information about the edX Demo course in your course
     materials, and recommend that new learners take the edX Demo course before
     proceeding with your course.
 
-* `Overview of Creating an edX Course`_ is an example of a course built with
-  Studio. It is a self-paced walk-through of planning, building, and running
-  your own online course.
+* `Overview of Creating an edX Course`_ is an example of an edX course that was
+  built with Studio. It is a self-paced walk-through of planning, building, and
+  running your own online course.
 
 .. include:: ../../../links/links.rst
