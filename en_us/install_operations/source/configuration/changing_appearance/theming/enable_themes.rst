@@ -119,7 +119,7 @@ Example Settings for Comprehensive Theme
 
 For the following file structure:
 
-.. code-block::
+.. code-block:: none
 
     edx
     └── my-themes
