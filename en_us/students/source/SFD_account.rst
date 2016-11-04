@@ -5,7 +5,8 @@ Getting Started on edX
 #######################
 
 This topic provides an introduction to edx.org and edX Edge and describes the
-steps you take before you begin your first course.
+steps you take before you :ref:`begin your first course <SFD Starting a
+Course>`.
 
 .. contents::
   :local:

@@ -4,33 +4,35 @@
 Overview
 **********
 
-After you create an edX account, you can view a list of your current courses,
-change your course or account settings, or create a profile.
+After you create an account, you can view information about your courses,
+change course or account settings, or create a profile.
 
 .. contents::
  :local:
  :depth: 1
 
-You can access course, account, or profile information from any edX page,
-whether you are in a course or browsing the course catalog.
+You can access course, account, or profile information from any page on the
+website, whether you are in a course or browsing the course catalog. Select the
+dropdown menu icon next to your username, and then choose one of the following
+menu options.
 
-* Your :ref:`dashboard<SFD Learner Dashboard>` gives you access to your courses
-  and to course information, such as start and end dates, email settings, and
-  certificates. To access your dashboard, select your username on any edX
-  page.
+* :ref:`Dashboard<SFD Learner Dashboard>` gives you access to your courses and
+  to course information, such as start and end dates, certificates, and email
+  settings.
 
-* On your :ref:`profile page<SFD Profile Page>`, you can create a profile that
-  includes an image and biographical information. To access your profile,
-  select the arrow next to your username on any edX page, and then select
-  **Profile**.
+* :ref:`Profile <SFD Profile Page>` gives you the option to provide personal
+  information about yourself for that other course participants, such as an
+  image and biographical information.
 
-* On the :ref:`Account Settings<SFD Account Settings>` page you can change your
-  password or email address, set the :ref:`time zone<Time Zones>` that you want
-  course dates to display in, and keep other account information up to date.
-  You can also view a :ref:`summary of your edX purchases<View Order History>`
-  and link your edX account to a social media or organization account. To
-  access your account settings at any time, select the arrow next to your
-  username on any edX page, and then select **Account**.
+* :ref:`Account<SFD Account Settings>` gives you access to your account
+  settings and preferences. For example, you can update your password or email
+  address and set your :ref:`time zone<Time Zones>`.
+
+  .. only:: Partners
+
+    On the **Account Settings** page, you can also view a :ref:`summary of your
+    edX purchases<View Order History>` and link your edX account to a social
+    media or organization account.
 
 .. _SFD Learner Dashboard:
 
@@ -38,14 +40,14 @@ whether you are in a course or browsing the course catalog.
 Accessing Your Courses from the Dashboard
 ******************************************
 
-Your edX dashboard lists all of the courses that you are enrolled in. When you
-create an edX account or enroll in an edX course, you automatically go to your
+Your dashboard lists all of the courses that you are enrolled in. When you
+create an account or enroll in a course, you automatically go to your
 dashboard. You can also access your dashboard by selecting the dropdown menu
-icon next to your username at the top of any edX page.
+icon next to your username at the top of any page.
 
 .. image:: ../../../shared/images/dashboard_menu.png
- :width: 400
- :alt: The menu that appears on the edx.org website when you select the
+ :width: 300
+ :alt: The menu that appears on the website when you select the
      dropdown icon next to your username. The Dashboard option is circled, and
      the other options are Profile, Account, and Sign Out.
 
@@ -66,78 +68,76 @@ dashboard. For more information, see :ref:`Find or Change Course Information`.
     page if you are enrolled in any course that is part of that program. For
     more information, see :ref:`Programs Page`.
 
+.. include:: ../../../shared/getting_started/Section_start_course.rst
+
 .. _Find or Change Course Information:
 
-==================================
-Find or Change Course Information
-==================================
+*********************************
+Updating Course-Specific Settings
+*********************************
 
-.. only:: Partners
+This section describes how you update course-specific settings.
 
-  You can complete the following actions on the **Courses** page on your
-  dashboard.
+.. contents::
+  :local:
+  :depth: 1
 
-.. only:: Open_edX
+.. _Change a Course Email Preference:
 
-  You can complete the following actions on your dashboard.
+=================================
+Change a Course Email Preference
+=================================
 
-* Access your current and archived courses.
+To change your email preference for a course, follow these steps.
 
-  To access a current or archived course, select **View Course** or **View
-  Archived Course** next to the name of the course. Note that archived courses
-  do not always provide access to all content.
+#. On your dashboard, locate the course.
 
-* See when courses start or end.
+#. Select the course settings icon. The course settings icon resembles a gear
+   and appears next to **View Course** or **View Archived Course**.
 
-  Course start and end dates appear below the name of the course.
+   .. image:: ../../../shared/images/LearnDash_GearIcon.png
+     :width: 200
+     :alt: The course settings icon next to the View Course button on the
+           learner dashboard.
 
-  * If a course has not yet started, you see the course start date.
-  * If a course has started but not ended, you see the course end date.
-  * If a course has ended, you see the course end date.
+#. Select **Course emails**.
 
-* Change your course email settings.
+#. Select or clear the **Receive course emails** check box, and then select
+   **Save Settings**.
 
-  #. Select the Options icon for the course, and then select **Course emails**.
-     The Options icon resembles a gear and appears next to **View Course** or
-     **View Archived Course**.
-
-     .. image:: ../../../shared/images/LearnDash_GearIcon.png
-       :width: 125
-       :alt: The Options icon next to the View Course button on the learner
-           dashboard.
-
-  #. Select or clear the **Receive course emails** check box, and then select
-     **Save Settings**.
-
-     .. note:: If you clear this check box, you will not receive any of the
+   .. note:: If you clear this check box, you will not receive any of the
         email messages that course teams send to communicate with enrolled
         learners in the course.
 
-* Unenroll from a course.
 
-  To unenroll, select the Options icon for the course, select **Unenroll**, and
-  then select **Unenroll** in the confirmation dialog box. The Options icon
-  resembles a gear and appears next to **View Course** or **View Archived
-  Course**.
+.. _Unenroll from a Course:
 
-* View your grades in courses that you have completed.
+========================
+Unenroll from a Course
+========================
 
-  Your final grade appears under the name of the course.
+If you find that you cannot complete a course, you can stop viewing and working
+in the course. You do not have to drop or unenroll from the course.
 
-* Download a course certificate.
+If you unenroll, the course no longer appears on your dashboard, and you
+cannot access course content or information about the grade or certificate you
+might have earned in the course.
 
-  To download a course certificate, select **Download Your Certificate (PDF)**
-  or **Download Your ID Verified Certificate (PDF)**. You can then print the
-  PDF certificate.
+To unenroll from a course, follow these steps.
 
-.. only:: Partners
+#. On your dashboard, locate the course.
 
-  * Find out whether your ID verification is still active.
+#. Select the course settings icon.
 
-    If you have enrolled in the verified certificate track for a course, your
-    ID verification status appears with the course image for that course. For
-    more information, see :ref:`learners:SFD Verify Your Identity`.
+   .. image:: ../../../shared/students/Images/settings_icon_unenroll.png
+      :width: 300
+      :alt: A learner's dashboard of courses with the course settings menu open
+          for a course. An arrow indicates the Course Settings icon, and the
+          Unenroll menu option is circled.
 
+If you change your mind before the course ends, you can enroll in the course
+again. Your status in the course, including your scores for all completed
+assignments, is available as soon as you re-enroll.
 
 .. only:: Partners
 
@@ -193,24 +193,24 @@ Find or Change Course Information
 Updating Your Account Information
 ***********************************
 
-You can find and update information about your edX account on the account
+You can find and update information about your account on the account
 settings page. You access your account settings page by selecting the dropdown
-menu icon next to your username at the top of any edX page.
+menu icon next to your username at the top of any site page.
 
 .. image:: ../../../shared/images/account_settings_menu.png
- :width: 400
- :alt: The menu that appears on the edx.org website when you select the
+ :width: 300
+ :alt: The menu that appears on the website when you select the
      dropdown icon next to your username. The Account option is circled, and
      the other options are Dashboard, Profile, and Sign Out.
 
 The account settings page presents information in these categories.
 
-* **Account Settings** provides access to information about your edX account.
+* **Account Settings** provides access to information about your account.
 
-  .. note:: You cannot change your edX username.
+  .. note:: You cannot change your username.
 
 * **Linked Accounts** lists social media and other accounts that you can
-  connect to your edX account.
+  connect to your account.
 
 * **Order History** lists information about payments you have made, such as
   fees for verified certificates. For more information, see
@@ -231,14 +231,13 @@ Change Your Password
 
 To change your password, follow these steps.
 
-#. At the top of any edX page, select the dropdown menu icon next to your
-   username.
+#. At the top of any page, select the dropdown menu icon next to your username.
 
 #. Select **Account**.
 
 #. Select **Reset Password**.
 
-   EdX sends a confirmation message to the email address in the **Email
+   The system sends a confirmation message to the email address in the **Email
    Address** field.
 
 #. Select the confirmation link in the email message.
@@ -247,12 +246,12 @@ To change your password, follow these steps.
 Update Your Email Address
 ==========================
 
-You use your email address to sign in to your edX account. In addition,
-communications from edX and your course teams are sent to this address.
+You use your email address to sign in to your account. In addition,
+communications from your course teams are sent to this address.
 
 To update your email address, follow these steps.
 
-#. At the top of any edX page, select the dropdown menu icon next to your
+#. At the top of any page, select the dropdown menu icon next to your
    username.
 
 #. Select **Account**.
@@ -267,7 +266,7 @@ To update your email address, follow these steps.
 Change Your Full Name
 ==========================
 
-Your full name appears on the edX certificates that you earn. Other learners
+Your full name appears on the certificates that you earn. Other learners
 see only your username. They do not see your full name.
 
 .. only:: Partners
@@ -277,7 +276,7 @@ see only your username. They do not see your full name.
 
 To change your full name, follow these steps.
 
-#. At the top of any edX page, select the dropdown menu icon next to your
+#. At the top of any page, select the dropdown menu icon next to your
    username.
 
 #. Select **Account**.
@@ -291,23 +290,23 @@ To change your full name, follow these steps.
 Select a Language
 ===================
 
-You can specify the language that you want the edX site to use during your
+You can specify the language that you want the site to use during your
 visits.
 
 .. note:: This setting changes the appearance of menu options, button labels,
-  and other elements of the edX user interface. It does not apply to course
+  and other elements of the site's user interface. It does not apply to course
   content.
 
 To select a language, follow these steps.
 
-#. At the top of any edX page, select the dropdown menu icon next to your
+#. At the top of any page, select the dropdown menu icon next to your
    username.
 
 #. Select **Account**.
 
-#. Select a **Language**. The edX site saves your selection immediately.
+#. Select a **Language**. The site saves your selection immediately.
 
-   The edX website is currently available in a limited number of languages.
+   The website is currently available in a limited number of languages.
 
 ===================================
 Specify Your Time Zone or Location
@@ -321,14 +320,14 @@ in, and update the country or region where you live.
 
 To specify your time zone or location, follow these steps.
 
-#. At the top of any edX page, select the dropdown menu icon next to your
+#. At the top of any page, select the dropdown menu icon next to your
    username.
 
 #. Select **Account**.
 
-#. Select a **Time Zone**. The edX site saves your selection immediately.
+#. Select a **Time Zone**. The site saves your selection immediately.
 
-#. Select a **Country or Region**. The edX site saves your selection
+#. Select a **Country or Region**. The site saves your selection
    immediately.
 
 
@@ -351,15 +350,15 @@ information.
 
 To view or change this information, follow these steps.
 
-#. On any edX page, select the arrow next to your username, and then select
-   **Account**.
+#. At the top of any page, select the dropdown menu icon next to your
+   username.
 
 #. On the **Account Settings** page, select **Account Information**.
 
 #. On the **Account Information** page, locate the **Additional Information**
    section, and then make your changes.
 
-EdX saves your changes automatically.
+The site saves your changes automatically.
 
 .. _Link Accounts:
 
@@ -367,21 +366,23 @@ EdX saves your changes automatically.
 Link or Unlink a Social Media Account
 ==========================================
 
-You can link your edX account to social media and other accounts, including
+You can link your account to social media and other accounts, including
 Facebook, Google, school, and company accounts. When your accounts are linked,
-you can sign in to edX automatically by signing in to your other account.
+you can sign in automatically by signing in to your other account.
 
-To link your edX account with another account, follow these steps.
+To link your account with another account, follow these steps.
 
-#. On any edX page, select the arrow next to your username, and then select
-   **Account**.
+#. At the top of any page, select the dropdown menu icon next to your
+   username.
+
+#. Select **Account**.
 
 #. On the **Account Settings** page, select **Linked Accounts**.
 
 #. On the **Linked Accounts** page, select **Link Your Account** under the
-   name of the account that you want to link to your edX account.
+   name of the account that you want to link to your account.
 
-   To unlink your edX account from a social media account, select **Unlink This
+   To unlink your account from a social media account, select **Unlink This
    Account** under that account name.
 
 
@@ -392,10 +393,10 @@ To link your edX account with another account, follow these steps.
 Adding Profile Information
 ***************************
 
-Your edX profile allows you to specify information about yourself that you want
-to share  with the edX community. Adding a profile is optional. If you add
-profile information, course teams and other learners in your courses can view
-the information that you share.
+Your personal profile allows you to specify information about yourself that you
+want to share  with other participants in the courses that you take. Adding a
+profile is optional. If you add profile information, course teams and other
+learners in your courses can view the information that you share.
 
 In addition to your username, your profile can include a picture, your
 location, and other biographical information.
@@ -419,7 +420,6 @@ You can share either a limited profile or a full profile.
     :alt: A learner's full profile with location, language, and short
      biographical paragraph.
 
-
 .. _Create or Edit a Limited Profile:
 
 ================================
@@ -433,13 +433,16 @@ A limited profile includes only your username and, optionally, an image.
 
 To add or update a limited profile, follow these steps.
 
-#. On any edX page, select the arrow next to your username, and then select
-   **Profile**.
 
-#. On your profile page, locate **edX learners can see my**, and then select
+#. At the top of any page, select the dropdown menu icon next to your
+   username.
+
+#. Select **Profile**.
+
+#. On your profile page, locate **learners can see my**, and then select
    **Limited Profile**.
 
-#. (optional) Add an image that you want to associate with your edX username.
+#. (optional) Add an image that you want to associate with your username.
    Your image must be a .gif, .jpg, or .png file. The image must be between
    100 bytes and 1 MB in size. If you do not add an image, the placeholder
    image appears as your profile image.
@@ -454,7 +457,7 @@ To add or update a limited profile, follow these steps.
    and then select either **Change Image** or **Remove**. When you remove your
    profile image, the placeholder image appears as your profile image.
 
-EdX saves your changes automatically.
+The site saves your changes automatically.
 
 ================================
 Add or Update a Full Profile
@@ -469,7 +472,7 @@ country or region are required.
 
 * Your username.
 
-* An image that you select to identify you on the edX site.
+* An image that you select to identify yourself.
 
 * Your country or region.
 
@@ -481,10 +484,12 @@ country or region are required.
 
 To add or update your profile, follow these steps.
 
-#. On any edX page, select the arrow next to your username, and then select
-   **Profile**.
+#. At the top of any page, select the dropdown menu icon next to your
+   username.
 
-#. Locate **edX learners can see my**, and then select **Full Profile**.
+#. Select **Profile**.
+
+#. Locate **learners can see my**, and then select **Full Profile**.
 
 #. On your profile page, move your cursor over the information that you
    want to add or change.
@@ -507,7 +512,7 @@ To add or update your profile, follow these steps.
 #. Move your cursor inside the field, and then either enter text in the field
    or select a different option from a list.
 
-EdX saves your changes automatically.
+The site saves your changes automatically.
 
 .. note:: If you change the profile type selection from **Full Profile**
  to **Limited Profile**, your location, language, and descriptive paragraph
@@ -539,7 +544,7 @@ username on the **Active Threads** page, and the learner's profile page.
 Deactivate Your Account
 ***********************
 
-To deactivate your edX account, you :ref:`unenroll<Find or Change Course
+To deactivate your account, you :ref:`unenroll<Find or Change Course
 Information>` from all of your courses. You can reactivate your account at any
 time by enrolling in a new course.
 

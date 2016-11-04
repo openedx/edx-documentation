@@ -329,6 +329,8 @@ If you have a question or an issue with your payment, contact edX at
 billing@edx.org. Include your order number, but **do not include your
 credit card information**.
 
+.. _Get a Refund:
+
 =================
 Get a Refund
 =================
@@ -337,27 +339,14 @@ Get a Refund
    after your payment or 14 days after the course start date, whichever is
    later. After these dates pass, edX cannot provide a refund.
 
-To get a refund for a certificate fee, follow these steps.
+To get a refund for a certificate fee, follow the steps for
+:ref:`learners:unenrolling from a course<Unenroll from a Course>`.
 
-#. On the edx.org website, select your public edX username in the top corner of
-   the page. Your dashboard opens with a list of your courses.
+After you unenroll, the edX support team will contact you with information
+about receiving your refund.
 
-#. Locate the course you want to unenroll from, and then select the **Course
-   Settings** icon.
-
-   .. image:: ../../shared/students/Images/settings_icon_unenroll.png
-      :width: 400
-      :alt: A learner's dashboard of courses with the course settings menu open
-          for a course. An arrow indicates the Course Settings icon, and the
-          Unenroll menu option is circled.
-
-#. Select **Unenroll**.
-
-   The edX support team will contact you with information about receiving your
-   refund.
-
-#. Optionally, you can :ref:`re-enroll in the audit track<Enroll in the Audit
-   Track>` for the course.
+Optionally, you can
+:ref:`re-enroll in the audit track<Enroll in the Audit Track>` for the course.
 
 If you have questions about changing your enrollment track, contact the edX
 support team at technical@edx.org.
