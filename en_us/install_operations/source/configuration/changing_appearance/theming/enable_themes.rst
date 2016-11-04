@@ -118,7 +118,7 @@ Example Settings for Comprehensive Theme
 
 For the following file structure:
 
-.. code::
+.. code-block::
 
     edx
     └── my-themes
@@ -132,10 +132,10 @@ set these in lms.env.json and cms.env.json:
 
 .. code:: json
 
-  "COMPREHENSIVE_THEME_DIRS": [
-      "/edx/my-themes",
-  ],
-  "THEME_NAME": "my-theme-red"
+    "COMPREHENSIVE_THEME_DIRS": [
+        "/edx/my-themes",
+    ],
+    "THEME_NAME": "my-theme-red"
 
 
 ************************
