@@ -5,11 +5,13 @@ Drag and Drop Problem (Deprecated)
 ##################################
 
 .. note::
-    EdX does not support this problem type. This drag and drop problem type has
-    been replaced by a newer drag and drop problem type. The newer drag and drop
-    problem type includes significant improvements and you should use it for any
-    new course development. For more information about the replacement drag and
-    drop problem type, see :ref:`drag_and_drop_problem`.
+    EdX does not support this problem type.
+
+This drag and drop problem type has been replaced by a newer drag and drop
+problem type. The newer drag and drop problem type includes significant
+improvements and you should use it for any new course development. For more
+information about the replacement drag and drop problem type, see
+:ref:`drag_and_drop_problem`.
 
 .. warning::
 
@@ -27,21 +29,22 @@ Drag and Drop Problem (Deprecated)
    option in the problem component, a **Show Answer** button appears in the
    LMS, but the button does not work.
 
-.. note:: EdX offers provisional support for this problem type.
-
 In drag and drop problems, learners respond to a question by dragging text or
 objects to a specific location on an image.
 
 .. image:: ../../../shared/images/DragAndDropProblem.png
- :alt: Image of a drag and drop problem
+ :alt: Image of a drag and drop problem.
 
 *********************************
-Creating a Drag and Drop Problem
+Adding a Drag and Drop Problem
 *********************************
 
-To create a simple drag and drop problem in which learners drag labels onto an
-image, you upload the image that you want learners to drag labels onto, and
-then create a problem component.
+Before you can include problems that use this deprecated problem type in your
+course, you must configure your course to :ref:`add unsupported problems
+<Add_Unsupported_Exercises_Problems>`.
+
+To create a drag and drop problem, you upload the image that you want learners
+to drag labels onto, and then create a problem component.
 
 #. On the **Files & Uploads** page, upload your image file. For more
    information about uploading files, see :ref:`Add Files to a Course`.
@@ -74,7 +77,7 @@ then create a problem component.
     want your learners to drag the Iceland label to an area in the upper-left
     part of the image and drag a Sweden label near the lower-right part of your
     image, the code would resemble the following (where 2 is the ID for the
-    Sweden label):
+    Sweden label).
 
     .. code-block:: xml
 
@@ -82,7 +85,8 @@ then create a problem component.
                 '1':    [[50, 50], 75]
                 '2':    [[550, 350], 75]}
 
-    .. note:: Make sure the code contains the closing curly brace (**}**).
+    .. note:: Make sure the code contains the closing curly brace (``}``).
+
 #. Click **Save**.
 
 ==========================================

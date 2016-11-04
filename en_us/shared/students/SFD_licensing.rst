@@ -74,7 +74,7 @@ the bottom of the page when you view content in the **Course** tab.
 
 .. image:: ../../shared/images/learner_course_license.png
   :alt: A course unit page with a pointer to the license.
-  :width: 600
+  :width: 300
 
 If a video has a different license than the course as a whole, you see
 the license at the bottom right of the video player.

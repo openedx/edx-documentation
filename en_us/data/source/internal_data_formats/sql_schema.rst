@@ -280,8 +280,11 @@ is_staff
   information in the LMS by selecting **Instructor**.
 
 .. note::
-     This designation has no bearing on a user's role in the discussion
-     forums, and confers no elevated privileges there.
+     This designation has no bearing on a user's role in the discussion forums,
+     and confers no elevated privileges there. For more information about
+     tables with course and discussion role data, see
+     :ref:`student_courseaccessrole` and
+     :ref:`django_comment_client_role_users`.
 
 -----------
 is_active
@@ -900,6 +903,157 @@ mode
   * All enrollments prior to 20 Aug 2013 were "honor".
 
 
+.. _student_courseaccessrole:
+
+==================================================
+Columns in the ``student_courseaccessrole`` Table
+==================================================
+
+This table lists the users who have a privileged role or roles for working in
+a course.
+
+A separate table, ``django_comment_client_role_users``, identifies privileges
+for course discussions. For more information, see
+:ref:`django_comment_client_role_users`.
+
+**History**: Added 22 Oct 2016.
+
+The ``student_courseaccessrole`` table has the following columns.
+
+.. list-table::
+     :widths: 15 15 15 15
+     :header-rows: 1
+
+     * - Column
+       - Type
+       - Null
+       - Key
+     * - user_id
+       - int(11)
+       - NO
+       - PRI
+     * - course_id
+       - varchar(255)
+       - NO
+       -
+     * - role
+       - varchar(255)
+       - NO
+       -
+
+---------
+user_id
+---------
+  The course team member's ID in ``auth_user.id``.
+
+-----------
+course_id
+-----------
+  The course identifier, in the format ``{key type}:{org}+{course}+{run}``. For
+  example, ``course-v1:edX+DemoX+Demo_2014``.
+
+  **History**: In Oct 2014, identifiers for some new courses began to use
+  the format shown above. Other new courses, and all courses created prior to
+  Oct 2014, use the format ``{org}/{course}/{run}``,  for example,
+  ``MITx/6.002x/2012_Fall``.
+
+-----------
+role
+-----------
+  The identifying name for the privilege level assigned to the user. The
+  ``role`` is one of the following values.
+
+  * beta_testers
+  * ccx_coach
+  * finance_admin
+  * instructor
+
+    .. note:: Course teams set this role in Studio or the LMS by selecting
+      **Staff**.
+
+  * library_user
+  * sales_admin
+  * staff
+
+    .. note:: Course teams set this role in Studio or the LMS by selecting
+      **Admin**.
+
+  For more information about the roles that you can assign in the LMS, see
+  :ref:`partnercoursestaff:Add Course Team Members` and
+  :ref:`partnercoursestaff:Give Other Users Access to Your Library`.
+
+.. _django_comment_client_role_users:
+
+=========================================================
+Columns in the ``django_comment_client_role_users`` Table
+=========================================================
+
+This table identifies the privilege role for working in course discussions for
+every user enrolled in a course.
+
+A separate table, ``student_courseaccessrole``, identifies users who have
+privileged roles for a course. For more information, see
+:ref:`student_courseaccessrole`.
+
+**History**: Added 22 Oct 2016.
+
+The ``django_comment_client_role_users`` table has the following columns.
+
+.. list-table::
+     :widths: 15 15 15 15
+     :header-rows: 1
+
+     * - Column
+       - Type
+       - Null
+       - Key
+     * - user_id
+       - int(11)
+       - NO
+       - PRI
+     * - course_id
+       - varchar(255)
+       - NO
+       -
+     * - name
+       - varchar(255)
+       - NO
+       -
+
+---------
+user_id
+---------
+  The course team member's ID in ``auth_user.id``.
+
+-----------
+course_id
+-----------
+  The course identifier, in the format ``{key type}:{org}+{course}+{run}``. For
+  example, ``course-v1:edX+DemoX+Demo_2014``.
+
+  **History**: In Oct 2014, identifiers for some new courses began to use
+  the format shown above. Other new courses, and all courses created prior to
+  Oct 2014, use the format ``{org}/{course}/{run}``,  for example,
+  ``MITx/6.002x/2012_Fall``.
+
+-----------
+name
+-----------
+  The identifying name for the privilege level that the user has in the course
+  discussions. The ``name`` is one of the following values.
+
+  * Administrator
+  * Community
+
+    .. note:: Discussion administrators set this role in the LMS by selecting
+      **Community TA**.
+
+  * Moderator
+  * Student
+
+  For more information about the discussion roles that you can assign in the
+  LMS, see :ref:`partnercoursestaff:Assigning_discussion_roles`.
+
 .. _user_api_usercoursetag:
 
 ===============================================
@@ -1407,9 +1561,9 @@ last_activity_at
 
 .. _verify_student_verificationstatus:
 
-=======================================================
-Columns in the verify_student_verificationstatus Table
-=======================================================
+==========================================================
+Columns in the ``verify_student_verificationstatus`` Table
+==========================================================
 
 The ``verify_student_verificationstatus`` table shows learner re-verification
 attempts and outcomes.

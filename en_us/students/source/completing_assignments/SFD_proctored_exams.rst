@@ -1,7 +1,7 @@
 .. _SFD_ProctoredExams:
 
 ##############################
-Proctored Exams
+Taking a Proctored Exam
 ##############################
 
 This topic describes how proctored exams work, requirements for the
@@ -780,5 +780,6 @@ eligibility status on your **Progress** page.
 
 For more information about academic course credit, see :ref:`SFD Academic
 Course Credit`.
+
 
 .. include:: ../../../links/links.rst

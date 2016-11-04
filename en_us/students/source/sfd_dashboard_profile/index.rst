@@ -1,10 +1,10 @@
 .. _Dashboard Index:
 
 ###################################################
-Working with Your Dashboard, Settings, and Profile
+Finding and Updating Your Account Information
 ###################################################
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 2
 
    SFD_dashboard_settings_profile
