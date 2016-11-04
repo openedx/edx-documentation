@@ -112,9 +112,9 @@ To enable the use of themes for your Open edX installation, follow these steps.
             "/my-open-edx-themes/edx-platform",
             "/my-other-open-edx-themes/edx-platform"
         ],
-
+****************************************
 Example Settings for Comprehensive Theme
-----------------------------------------
+****************************************
 
 For the following file structure:
 
