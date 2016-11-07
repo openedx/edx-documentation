@@ -11,6 +11,12 @@ The following information describes what is new in edX analytics.
   :depth: 2
 
 **************************
+Week of 8 November 2016
+**************************
+
+.. include:: 2016/analytics/analytics_2016-11-08.rst
+
+**************************
 Week of 24 October 2016
 **************************
 
