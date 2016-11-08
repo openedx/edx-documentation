@@ -39,7 +39,7 @@ Analytics
 Open edX
 *************
 
-.. include:: studio/studio_2016-11-08.rst
+.. include:: openedx/openedx_2016-11-08.rst
 
 
 
