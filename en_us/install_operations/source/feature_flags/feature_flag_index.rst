@@ -19,7 +19,7 @@ platform.
      - FALSE
    * - ADVANCED_SECURITY
      - Supported
-     - TRUE
+     -
    * - ALLOW_COURSE_STAFF_GRADE_DOWNLOADS
      - Supported
      - FALSE
