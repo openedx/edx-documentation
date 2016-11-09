@@ -72,7 +72,7 @@ DEVELOPERS = object()
 HELP_LINKS = {
     (PARTNER, COURSE_TEAMS): None, #"https://partners.edx.org/forums/partner-forums",
     (PARTNER, LEARNERS): None, #"https://support.edx.org",
-    (PARTNER, RESEARCHERS): "http://edx.readthedocs.org/projects/devdata/en/latest/front_matter/preface.html#resources-for-researchers",
+    (PARTNER, RESEARCHERS): "http://edx.readthedocs.io/projects/devdata/en/latest/front_matter/preface.html#resources-for-researchers",
     (PARTNER, DEVELOPERS): "https://open.edx.org/resources/e-mail-lists",
     (OPENEDX, COURSE_TEAMS): "https://open.edx.org/resources/e-mail-lists",
     (OPENEDX, DEVELOPERS): "https://open.edx.org/resources/e-mail-lists",
@@ -103,22 +103,22 @@ copyright = '{year}, edX Inc.'.format(year=datetime.datetime.now().year)
 
 # Example configuration for intersphinx: refer to the Python standard library.
 intersphinx_mapping = {
-    'opencoursestaff' : ('http://edx.readthedocs.org/projects/open-edx-building-and-running-a-course/en/latest/', None),
-    'data' : ('http://edx.readthedocs.org/projects/devdata/en/latest/', None),
-    'partnercoursestaff': ('http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/', None),
-    'insights' : ('http://edx.readthedocs.org/projects/edx-insights/en/latest/', None),
-    'xblockapi' : ('http://edx.readthedocs.org/projects/xblock/en/latest/', None),
-    'xblocktutorial' : ('http://edx.readthedocs.org/projects/xblock-tutorial/en/latest/', None),
-    'installation' : ('http://edx.readthedocs.org/projects/edx-installing-configuring-and-running/en/latest/', None),
-    'olx' : ('http://edx.readthedocs.org/projects/edx-open-learning-xml/en/latest/', None),
-    'learners' : ('http://edx.readthedocs.org/projects/edx-guide-for-students/en/latest/', None),
-    'openlearners' : ('http://edx.readthedocs.org/projects/open-edx-learner-guide/en/latest/', None),
-    'opendevelopers' : ('http://edx.readthedocs.org/projects/edx-developer-guide/en/latest/', None),
-    'openplatformapi' : ('http://edx.readthedocs.org/projects/edx-platform-api/en/latest/', None),
-    'opendataapi' : ('http://edx.readthedocs.org/projects/edx-data-analytics-api/en/latest/', None),
-    'openreleasenotes' : ('http://edx.readthedocs.org/projects/open-edx-release-notes/en/latest/', None),
-    'partnerreleasenotes': ('http://edx.readthedocs.org/projects/edx-release-notes/en/latest/', None),
-    '2014releasenotes' : ('http://edx.readthedocs.org/projects/edx-2013-2014-release-notes/en/latest/', None)
+    'opencoursestaff' : ('http://edx.readthedocs.io/projects/open-edx-building-and-running-a-course/en/latest/', None),
+    'data' : ('http://edx.readthedocs.io/projects/devdata/en/latest/', None),
+    'partnercoursestaff': ('http://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/', None),
+    'insights' : ('http://edx.readthedocs.io/projects/edx-insights/en/latest/', None),
+    'xblockapi' : ('http://edx.readthedocs.io/projects/xblock/en/latest/', None),
+    'xblocktutorial' : ('http://edx.readthedocs.io/projects/xblock-tutorial/en/latest/', None),
+    'installation' : ('http://edx.readthedocs.io/projects/edx-installing-configuring-and-running/en/latest/', None),
+    'olx' : ('http://edx.readthedocs.io/projects/edx-open-learning-xml/en/latest/', None),
+    'learners' : ('http://edx.readthedocs.io/projects/edx-guide-for-students/en/latest/', None),
+    'openlearners' : ('http://edx.readthedocs.io/projects/open-edx-learner-guide/en/latest/', None),
+    'opendevelopers' : ('http://edx.readthedocs.io/projects/edx-developer-guide/en/latest/', None),
+    'openplatformapi' : ('http://edx.readthedocs.io/projects/edx-platform-api/en/latest/', None),
+    'opendataapi' : ('http://edx.readthedocs.io/projects/edx-data-analytics-api/en/latest/', None),
+    'openreleasenotes' : ('http://edx.readthedocs.io/projects/open-edx-release-notes/en/latest/', None),
+    'partnerreleasenotes': ('http://edx.readthedocs.io/projects/edx-release-notes/en/latest/', None),
+    '2014releasenotes' : ('http://edx.readthedocs.io/projects/edx-2013-2014-release-notes/en/latest/', None)
 }
 
 extlinks = {

@@ -29,11 +29,11 @@ See :ref:`The Custom JavaScript Display and Grading Example Template` for
 information about the template application built in to edX Studio.
 
 Course teams should see the following sections of the `Building and Running an
-edX Course <http://edx.readthedocs.org/projects/ca/en/latest/>`_ guide.
+edX Course <http://edx.readthedocs.io/projects/ca/en/latest/>`_ guide.
 
-* `Custom JavaScript Display and Grading <http://edx.readthedocs.org/projects/ca/en/latest/problems_tools/advanced_problems.html#custom-javascript-display-and-grading>`_
+* `Custom JavaScript Display and Grading <http://edx.readthedocs.io/projects/ca/en/latest/problems_tools/advanced_problems.html#custom-javascript-display-and-grading>`_
 
-* `Establishing a Grading Policy <http://edx.readthedocs.org/projects/ca/en/latest/building_course/establish_grading_policy.html>`_
+* `Establishing a Grading Policy <http://edx.readthedocs.io/projects/ca/en/latest/building_course/establish_grading_policy.html>`_
 
 The rest of this section provides more information for developers who are
 creating JavaScript applications for courses on the edX platform.
@@ -77,7 +77,7 @@ optionally to provide feedback as a formative assessment.
 #. In edX Studio, upload an HTML file that contains the JavaScript you want to
    show learners.
 #. Copy the **Embed URL** of the file.
-#. `Create a Custom JavaScript Display and Grading Problem <http://edx.readthedocs.org/projects/ca/en/latest/problems_tools/advanced_problems.html#custom-javascript-display-and-grading>`_. The template
+#. `Create a Custom JavaScript Display and Grading Problem <http://edx.readthedocs.io/projects/ca/en/latest/problems_tools/advanced_problems.html#custom-javascript-display-and-grading>`_. The template
    for the problem contains the definition for a sample JavaScript application
    that requires and grades learner interaction.
 #. Edit the XML of the component to remove grading information and refer to the

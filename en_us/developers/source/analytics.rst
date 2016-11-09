@@ -319,11 +319,11 @@ of the open edX community understand your intent and use the events correctly.
 You might find the following references helpful as you prepare your PR. 
 
 * The *edX Platform Developer's Guide* provides guidelines for `contributing
-  to open edX <http://edx.readthedocs.org/projects/edx-developer-
+  to open edX <http://edx.readthedocs.io/projects/edx-developer-
   guide/en/latest/process/index.html>`_.
 
 * The `edX Research
-  Guide <http://edx.readthedocs.org/projects/devdata/en/latest/>`_ is a
+  Guide <http://edx.readthedocs.io/projects/devdata/en/latest/>`_ is a
   reference for information about emitted events that are included in the edX
   tracking logs.
 

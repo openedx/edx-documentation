@@ -282,6 +282,6 @@ you have questions, please contact us at docs@edx.org.
 
 
 
-.. _cover letter: http://edx.readthedocs.org/projects/edx-developer-guide/en/latest/process/cover-letter.html
+.. _cover letter: http://edx.readthedocs.io/projects/edx-developer-guide/en/latest/process/cover-letter.html
 .. _GitHub repository: https://github.com/edx/edx-documentation
 .. _edX documentation: http://docs.edx.org
