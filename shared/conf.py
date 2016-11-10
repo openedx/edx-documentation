@@ -1,6 +1,11 @@
 # Shared configuration for edX docs.
 
-import sys, os, urllib, datetime
+import datetime
+import os
+import sys
+import urllib
+
+import edx_theme
 
 # on_rtd is whether we are on readthedocs.org, this line of code grabbed from docs.readthedocs.org
 on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
@@ -25,6 +30,7 @@ html_use_smartypants = True
 # Add any Sphinx extension module names here, as strings. They can be extensions
 # coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
 extensions = [
+    'edx_theme',
     'sphinx.ext.autodoc',
     'sphinx.ext.doctest',
     'sphinx.ext.intersphinx',
@@ -52,6 +58,12 @@ if on_rtd:
     html_context["disqus_shortname"] = 'edx'
     html_context["github_base_account"] = 'edx'
     html_context["github_project"] = 'edx-documentation'
+
+html_theme = 'edx_theme'
+
+html_theme_path = [edx_theme.get_html_theme_path()]
+
+html_favicon = os.path.join(edx_theme.get_html_theme_path(), 'edx_theme', 'static', 'css', 'favicon.ico')
 
 # Help and Feedback links.  These are customized for the category and audience
 # of the book.  Add a line to the book's conf.py like this:

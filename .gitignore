@@ -1,6 +1,14 @@
 # .gitignore for edx-documentation.
 # There's a lot here, please try to keep it organized.
 
+### IDEs and text editors
+*~
+*.swp
+.idea/
+.project
+.pycharm_helpers/
+.pydevproject
+
 ### NFS artifacts
 .nfs*
 
