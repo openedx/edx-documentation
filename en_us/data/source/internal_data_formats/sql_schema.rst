@@ -1565,10 +1565,12 @@ last_activity_at
 Columns in the ``verify_student_verificationstatus`` Table
 ==========================================================
 
+.. note:: This table is deprecated.
+
 The ``verify_student_verificationstatus`` table shows learner re-verification
 attempts and outcomes.
 
-**History**: Added 5 Aug 2015.
+**History**: Added 5 Aug 2015. Deprecated.
 
 A sample of the heading row and a data row in the
 ``verify_student_verificationstatus`` table follow.
