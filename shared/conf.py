@@ -83,7 +83,7 @@ DEVELOPERS = object()
 
 HELP_LINKS = {
     (PARTNER, COURSE_TEAMS): None, #"https://partners.edx.org/forums/partner-forums",
-    (PARTNER, LEARNERS): None, #"https://support.edx.org",
+    (PARTNER, LEARNERS): "https://support.edx.org",
     (PARTNER, RESEARCHERS): "http://edx.readthedocs.org/projects/devdata/en/latest/front_matter/preface.html#resources-for-researchers",
     (PARTNER, DEVELOPERS): "https://open.edx.org/resources/e-mail-lists",
     (OPENEDX, COURSE_TEAMS): "https://open.edx.org/resources/e-mail-lists",
