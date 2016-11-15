@@ -144,10 +144,10 @@ follow these steps.
 
 #. Select **Save Changes**.
 
-.. note:: The times that you set, and the times that learners see, are in
- Coordinated Universal Time (UTC). You might want to verify that you have
- specified the times that you intend by using a time zone converter such as
- `Time and Date Time Zone Converter`_.
+.. note::
+  The times that you set are in Coordinated Universal Time (UTC). You might
+  want to verify that you have specified the times that you intend by using a
+  time zone converter such as `Time and Date Time Zone Converter`_.
 
 EdX recommends that you verify that all important dates are correct one week
 before you plan to start the course.

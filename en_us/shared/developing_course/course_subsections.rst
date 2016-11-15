@@ -63,10 +63,10 @@ a subsection's release date, you can apply various visibility settings.
 By default, the subsection and its units are available to learners, except for
 any units that you have explicitly hidden from learners.
 
-You can also choose to entirely hide a subsection so that the subsection and its
-units are not visible to learners at all in the course navigation, or you can
-hide the contents of a subsection after the subsection due date has passed. For
-more information about subsection visibility settings, see :ref:`Hide a
+You can also choose to entirely hide a subsection so that the subsection and
+its units are not visible to learners at all in the course navigation, or you
+can hide the contents of a subsection after the subsection due date has passed.
+For more information about subsection visibility settings, see :ref:`Hide a
 Subsection from Students`.
 
 
@@ -76,10 +76,12 @@ Subsection from Students`.
    intend by using a time zone converter such as `Time and Date Time Zone
    Converter <http://www.timeanddate.com/worldclock/converter.html>`_.
 
-   Learners who have specified a time zone in their account settings see
-   course dates and times converted to their specified time zone. Learners who
-   have not specified a time zone in their account settings see course dates
-   and times in UTC.
+   Learners who have specified a time zone in their account settings see course
+   dates and times converted to their specified time zone. Learners who have
+   not specified a time zone in their account settings see course dates and
+   times on their dashboards, in the body of the course, and on their
+   **Progress** pages in the time zone that their browsers specify. Learners
+   see other course dates and times in UTC.
 
 
 ************************************************
@@ -243,12 +245,15 @@ To set the subsection release date, follow these steps.
 
    .. note:: The time that you set is in Coordinated Universal Time (UTC). You
       might want to verify that you have specified the time that you intend by
-      using a time zone converter such as `Time and Date Time Zone Converter <http://www.timeanddate.com/worldclock/converter.html>`_
+      using a time zone converter such as `Time and Date Time Zone Converter
+      <http://www.timeanddate.com/worldclock/converter.html>`_.
 
       Learners who have specified a time zone in their account settings see
-      course dates and times converted to their local time zone. Learners who
-      have not specified a time zone in their account settings see course dates
-      and times in UTC.
+      course dates and times converted to their specified time zone. Learners
+      who have not specified a time zone in their account settings see course
+      dates and times on their dashboards, in the body of the course, and on
+      their **Progress** pages in the time zone that their browsers specify.
+      Learners see other course dates and times in UTC.
 
 #. Select **Save**.
 
@@ -284,12 +289,15 @@ To set the assignment type and due date for a subsection, follow these steps.
 
    .. note:: The time that you set is in Coordinated Universal Time (UTC). You
       might want to verify that you have specified the time that you intend by
-      using a time zone converter such as `Time and Date Time Zone Converter <http://www.timeanddate.com/worldclock/converter.html>`_
+      using a time zone converter such as `Time and Date Time Zone Converter
+      <http://www.timeanddate.com/worldclock/converter.html>`_.
 
-       Learners who have specified a time zone in their account settings see
-       course dates and times converted to their local time zone. Learners who
-       have not specified a time zone in their account settings see course dates
-       and times in UTC.
+      Learners who have specified a time zone in their account settings see
+      course dates and times converted to their specified time zone. Learners
+      who have not specified a time zone in their account settings see course
+      dates and times on their dashboards, in the body of the course, and on
+      their **Progress** pages in the time zone that their browsers specify.
+      Learners see other course dates and times in UTC.
 
 #. Optionally, for a course that has the timed exam feature enabled, select the
    **Advanced** tab to set the subsection to be :ref:`timed<Timed Exams>`.
