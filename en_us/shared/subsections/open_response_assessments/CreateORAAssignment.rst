@@ -227,10 +227,10 @@ assessment feature.
   other learners may not have time to perform peer assessments before peer
   assessments are due. For details, see :ref:`Best Practices for ORA`.
 
-* The times that you set, and the times that learners see, are in Coordinated
-  Universal Time (UTC). You might want to verify that you have specified the
-  times that you intend by using a time zone converter such as `Time and Date
-  Time Zone Converter <http://www.timeanddate.com/worldclock/converter.html>`_
+* The times that you set are in Coordinated Universal Time (UTC). You might
+  want to verify that you have specified the times that you intend by using a
+  time zone converter such as `Time and Date Time Zone Converter
+  <http://www.timeanddate.com/worldclock/converter.html>`_.
 
 To specify a name for the assignment as well as start and due dates for all
 learner responses, complete these steps.
@@ -357,7 +357,7 @@ To specify peer assessment settings, follow these steps.
    Coordinated Universal Time (UTC). You might want to verify that you have
    specified the times that you intend by using a time zone converter such as
    `Time and Date Time Zone Converter
-   <http://www.timeanddate.com/worldclock/converter.html>`_
+   <http://www.timeanddate.com/worldclock/converter.html>`_.
 
 For more information about peer assessment steps, see :ref:`Peer Assessment
 Step`.
@@ -380,7 +380,7 @@ For the self assessment step, you specify when the step starts and ends.
    Coordinated Universal Time (UTC). You might want to verify that you have
    specified the times that you intend by using a time zone converter such as
    `Time and Date Time Zone Converter
-   <http://www.timeanddate.com/worldclock/converter.html>`_
+   <http://www.timeanddate.com/worldclock/converter.html>`_.
 
 For more information about self assessment steps, see :ref:`Self Assessment
 Step`.

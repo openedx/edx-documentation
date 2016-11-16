@@ -83,17 +83,23 @@ A Note about Time Zones
 The dates and times that new materials are released, and when homework
 assignments and exams are due, are shown throughout your course.
 
-In your account settings, you can specify your local time zone so that any
+In your account settings, you can select your local time zone so that any
 course dates and times are displayed in your local time.
 
-.. Important:: If you do not specify a time zone in your account settings, edX
-   lists all times in Coordinated Universal Time (UTC). You can use a time
-   zone converter to convert UTC time to your local time. You can use any
-   converter that you want, including one of the following time zone
-   converters.
+.. Important::
+   If you do not select a time zone in your account settings, edX lists dates
+   and times on your dashboard, in the body of the course, and on your
+   **Progress** page in the time zone that your browser settings specify. Other
+   times and dates appear in Coordinated Universal Time (UTC). Dates and times
+   that use your browser time zone are in military time and are followed by a
+   time zone indicator: for example, 17:00 Sept 16, 2018 IOT. Dates and times
+   in UTC do not have a time zone indicator.
 
-* `Time and Date Time Zone Converter`_
+   To convert UTC time to your local time, you can use any time zone converter
+   that you want, including one of the following time zone converters.
 
-* `Time Zone Converter`_
+   * `Time and Date Time Zone Converter`_
+
+   * `Time Zone Converter`_
 
 .. include:: ../../links/links.rst

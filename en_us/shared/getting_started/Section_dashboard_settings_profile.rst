@@ -309,16 +309,22 @@ To select a language, follow these steps.
    The website is currently available in a limited number of languages.
 
 ===================================
-Specify Your Time Zone or Location
+Select Your Time Zone or Location
 ===================================
 
-You can specify the time zone that you want course dates and times to appear
+You can select the time zone that you want course dates and times to appear
 in, and update the country or region where you live.
 
-.. note:: If you do not specify a time zone, course dates and times display
-  in Coordinated Universal Time (UTC).
+.. note::
+  If you do not select a time zone, course dates and times in the body of the
+  course, on your **Progress** page, and on your dashboard display in the time
+  zone that your browser settings specify. Other dates and times display in
+  Coordinated Universal Time (UTC). Dates and times that use your browser time
+  zone are in military time and are followed by a time zone indicator: for
+  example, 17:00 Sept 16, 2018 IOT. Dates and times in UTC do not have a time
+  zone indicator.
 
-To specify your time zone or location, follow these steps.
+To select your time zone or location, follow these steps.
 
 #. At the top of any page, select the dropdown menu icon next to your
    username.

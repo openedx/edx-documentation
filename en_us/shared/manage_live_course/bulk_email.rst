@@ -476,9 +476,12 @@ Keywords in Messages>` appropriately.
   We are excited that you are joining us for {course number}
   %%COURSE_DISPLAY_NAME%%, offered by {organization name} through edX. Class
   begins on {day}, {date} at {time} UTC (which is {time} {local time zone}).
-  Note that edX courses use Coordinated Universal Time (UTC) for due dates and
-  release times. You might want to verify the times in the course by using a
-  time zone converter such as {link}.
+  Note that many dates and times in edX courses appear in your local time zone,
+  but some might appear in Coordinated Universal Time (UTC). Dates and times
+  that use your local time zone are followed by an indication of the time
+  zone: for example, 17:00 Sept. 5, 2016 IOT. UTC dates and times do not
+  have a time zone indicator. For UTC times, you might want to use a time zone
+  converter such as {link}.
 
   In case you haven't already found it, {course number} has its own official
   Facebook page {add link}. You can find videos and photos posted there before
