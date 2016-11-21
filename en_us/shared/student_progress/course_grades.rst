@@ -472,8 +472,8 @@ represented; however, the learner's "total" of 43% is on the far right.
        a column graph with the grade achieved for each assignment.
 
 The chart on the **Progress** page includes y-axis labels for the grade ranges
-defined for the course. In this example, Pass is set to 60%, so at the end of
-the course, learners with a grade of 0.60 or higher can receive certificates.
+defined for the course. In this example, Pass is set to 60%. At the end of the
+course, learners with a grade of 0.60 or higher can receive certificates.
 
 .. note:: Learner scores on the **Progress** page are a snapshot of the scores
    that were calculated when learners submitted answers to the problems. It is
