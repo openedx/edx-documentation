@@ -475,11 +475,19 @@ The chart on the **Progress** page includes y-axis labels for the grade ranges
 defined for the course. In this example, Pass is set to 60%, so at the end of
 the course, learners with a grade of 0.60 or higher can receive certificates.
 
-.. note:: Learner scores on the **Progress** page are a snapshot of the
- current state of the problem score database. They can, at times, be out of
- sync with actual problem scores. For example, asynchronicities can occur if
- the weight of a live problem was changed during an assignment, and not all
- learners have resubmitted their answers for that problem.
+.. note:: Learner scores on the **Progress** page are a snapshot of the scores
+   that were calculated when learners submitted answers to the problems. It is
+   possible that the scores displayed on the **Progress** page are different
+   from scores that would be obtained if you recalculated them today, if
+   changes were made to the problems.
+
+   For example, if the course team changes a released problem's total possible
+   points, learners who submitted answers to the problem before the change will
+   have grades on the **Progress** page that do not reflect the problem's new
+   number of total possible points. This asynchronicity will remain until either
+   the course team rescores the changed problem, or until affected learners
+   resubmit responses to the changed problem.
+
 
 .. _A Students View:
 
