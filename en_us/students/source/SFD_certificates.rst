@@ -127,9 +127,9 @@ see the `edX course catalog`_.
 Receiving a Certificate
 *************************
 
-Certificates for instructor-paced courses and for many self-paced courses are
-distributed automatically after a course or program ends. In this case, you do
-not have to complete any additional steps to receive your certificate.
+In instructor-paced courses and in many self-paced courses, certificates are
+distributed automatically after a course or program ends. In these cases, you
+do not have to complete any additional steps to receive your certificate.
 
 In an instructor-paced course, the course team sets specific due dates for
 assignments and exams, and you complete the course within a defined time
@@ -147,10 +147,11 @@ course work before the course ends.
 Receive a Certificate for an Instructor-Paced Course
 ====================================================
 
-Most courses distribute certificates within two weeks after the course ends.
+Most instructor-paced courses distribute certificates within two weeks after
+the course ends.
 
-When your certificate is ready, a link to your certificate is visible on your
-dashboard, along with your final grade.
+When your certificate for a course is ready, a link to the certificate and your
+final grade are visible on the course card on your dashboard.
 
 .. image:: ../../shared/students/Images/SFD_Cert_web.png
    :width: 600
@@ -160,11 +161,10 @@ Select **View Certificate** to open the certificate in your browser. You can
 then share and print the certificate. For more information, see :ref:`SFD
 Sharing or Printing a Certificate`.
 
-.. note::
-  As of September 2015, edX verified certificates are web certificates. If you
-  completed a course before September 2015, the certificate is in PDF format.
-  Instead of a **View Certificate** option, you see a **Download Certificate
-  (PDF)** option for these certificates.
+.. note::   As of September 2015, edX verified certificates are web
+   certificates. If you completed a course before September 2015, the
+   certificate is in PDF format. You see a **Download Certificate (PDF)** option
+   instead of a **View Certificate** option for PDF certificates.
 
 If your certificate is not yet ready, you see the following message under the
 course name on your dashboard.
@@ -286,34 +286,52 @@ For more information about MicroMasters programs, see `MicroMasters Programs`_.
 Sharing or Printing a Certificate
 **********************************
 
-You can share and print web certificates and PDF certificates.
+You can print your certificates and share links to them on social media.
+
+.. note:: As of September 2015, edX verified certificates are web
+   certificates. If you completed a course before September 2015, the
+   certificate is in PDF format.
 
 .. contents::
   :local:
   :depth: 1
 
-=======================================
-Share a Web Certificate on Social Media
-=======================================
+.. _Share Certificates on Social Media:
 
-You can share your web certificates on social media sites such as Facebook,
-LinkedIn, and Twitter.
+===============================================
+Share Your Certificates on Social Media
+===============================================
+
+You can share your web or PDF certificates on social media sites such as
+Facebook, LinkedIn, and Twitter.
 
 .. note::
  You can use these steps to share course and program certificates on most
  social media sites. To share an XSeries certificate on LinkedIn, see
  :ref:`Share an XSeries Certificate on LinkedIn`.
 
-#. Ensure you are logged in to the social site on which you want to share your
+#. Sign in to the social media site on which you want to share your
    certificate.
 
-#. On your dashboard, select one of the social media icons at the top of
-   each certificate.
+#. From your dashboard, find the course whose certificate you want to share.
+
+#. Select **View Certificate**, and then on the certificate page, select the
+   social media account that you want to share your certificate to.
+
+   .. note:: For PDF certificates, instead of **View Certificate**, you see
+      the **Download Certificate (PDF)** option.
+
+   To add the edX certification from a PDF certificate to your LinkedIn
+   profile, select **Add to Profile**.
 
    A dialog box for the social media site you selected opens, with the
    certificate URL entered.
 
 #. Complete the steps for the social media site to share your certificate.
+
+   For information about sharing PDF certificates on a social media account
+   other than LinkedIn, see :ref:`Share a PDF Certificate URL`.
+
 
 .. _Share an XSeries Certificate on LinkedIn:
 
@@ -332,6 +350,7 @@ To share an XSeries certificate on LinkedIn, follow these steps.
 
 #. Follow the steps on the `Adding a Suffix or Certifications to Your Profile
    Name`_ LinkedIn page to open the **Certifications** page on LinkedIn.
+
 #. On the **Certifications** page, enter information in the following fields.
 
    * For **Certification Name**, enter the name of the course.
@@ -339,7 +358,7 @@ To share an XSeries certificate on LinkedIn, follow these steps.
    * For **Certification URL**, enter the URL for your certificate. For more
      information, see :ref:`Share a Web Certificate URL`.
    * (Optional) For **Dates**, enter the month and year when you received your
-     certficiate.
+     certificate.
 
 #. Leave the other fields blank, and then select **Save**.
 
@@ -350,16 +369,16 @@ Share a Web Certificate URL
 ===========================
 
 Both course certificates and program certificates have a certificate ID that
-others, such as schools and potential employers, can use to verify that you
-received your certificate. The certificate ID is a 32-digit series of numbers
-and letters that is found at the bottom of the certificate.
+you can share with schools and potential employers so that they can verify
+that you received your certificate. The certificate ID is a 32-digit series of
+numbers and letters that is found at the bottom of the certificate.
 
 To share the certificate URL, you find the certificate URL and then distribute
 the URL using email, social media, or your method of choice.
 
 To find the certificate URL, use one of the following methods.
 
-* Use the address bar.
+* Use the browser address bar.
 
   #. Open the certificate in your browser, and then select the certificate ID.
 
@@ -367,44 +386,85 @@ To find the certificate URL, use one of the following methods.
 
   #. Copy the URL from the browser address bar.
 
+* Get the URL from the certificate ID.
+
+  #. Open the certificate in your browser, and then right-click the certificate
+     ID.
+
+  #. From the menu, select **Copy Link Location**.
+
+     The URL is copied to your computer's clipboard.
+
+  #. Paste the clipboard contents to obtain the certificate URL.
+
 * Create the URL manually.
 
-  #. Open the certificate in your browser.
+  #. Open the certificate in your browser, and then copy the certificate ID.
 
-  #. Locate, but do not select, the certificate ID.
-
-  #. Use the following URL, replacing ``certificate_ID`` with the ID on your
-     certificate.
+  #. Use the following URL, replacing ``certificate_ID`` with the certificate
+     ID that you copied.
 
      ::
 
-       https://credentials.edx.org/credentials/<certificate_ID>
+       https://courses.edx.org/certificates/<certificate_ID>
 
      For example, your certificate URL might resemble the following URL.
 
      ::
 
-       https://credentials.edx.org/credentials/a1b2c3d4e5f6g7h8i9j10k11l12m13n1
+       https://courses.edx.org/certificates/a1b2c3d4e5f6g7h8i9j10k11l12m13n1
 
-=======================
-Share a PDF Certificate
-=======================
 
-You can share your PDF certificates on LinkedIn.
+.. _Share a PDF Certificate URL:
 
-On your learner dashboard, select **Add to profile** under the course.
+============================
+Share a PDF Certificate URL
+============================
 
-Your profile page in LinkedIn opens, with a prompt to confirm the addition of
-your certificate.
+.. note:: If you completed a course before September 2015, your certificate is
+   in PDF format. For PDF certificates, you see a **Download Certificate
+   (PDF)** option instead of a **View Certificate** option.
+
+    For information about adding your edX certification from a PDF certificate to
+    LinkedIn, see :ref:`Share Certificates on Social Media`.
+
+Like web certificates, PDF certificates have a certificate URL that you can
+share with schools and potential employers so that they can verify that you
+received your certificate.
+
+To share the URL for a PDF certificate, follow these steps.
+
+#. On your learner dashboard, locate the course whose certificate you want to
+   share.
+
+#. Select **Download Certificate (PDF)**.
+
+   The certificate opens.
+
+#. Select and copy the URL near the bottom of the certificate. For example, a
+   certificate URL might resemble this one:
+
+   ``https://verify.edx.org/cert/76558cdc28204605809a99a9dd8bafaf``
+
+#. Paste this URL within social media messages or email messages to share your
+   edX achievement.
+
 
 .. _Print a Web Certificate:
 
 =======================
-Print a Web Certificate
+Print a Certificate
 =======================
 
-To print a web certificate, open the certificate and select **Print
-Certificate**.
+To print a web certificate, select **View Certificate** to open the certificate,
+then select **Print Certificate**.
+
+.. note:: If you completed a course before September 2015, your certificate is
+   in PDF format. For PDF certificates, you see a **Download Certificate
+   (PDF)** option instead of a **View Certificate** option.
+
+To print a PDF certificate, select **Download Certificate (PDF)** to open the
+certificate, then select the "Print" icon.
 
 To print your certificate in the most professional looking format, follow these
 guidelines.
@@ -424,6 +484,7 @@ guidelines.
   dialog box that opens might have an option such as **Print as PDF** or a
   similar option. Select that option and follow the onscreen instructions to
   print your certificate as a PDF.
+
 
 .. _Getting a Transcript:
 
