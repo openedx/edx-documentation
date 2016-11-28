@@ -42,6 +42,8 @@ are circled, and the third one is expanded to show its subsections.
  :width: 600
  :alt: The learner view of the course with three sections circled.
 
+.. _Sections and Visibility to Learners:
+
 ************************************************
 Sections and Visibility to Learners
 ************************************************
