@@ -11,6 +11,12 @@ The following information summarizes what is new in edX Studio.
   :depth: 2
 
 *************************
+Week of 28 November 2016
+*************************
+
+.. include:: 2016/studio/studio_2016-11-28.rst
+
+*************************
 Week of 7 November 2016
 *************************
 
