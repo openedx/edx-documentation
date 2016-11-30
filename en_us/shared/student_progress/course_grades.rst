@@ -166,20 +166,24 @@ belongs to.
 The grade report .csv file contains one row of data for each learner, and
 columns that provide the following information.
 
-* Learner identifiers, including an internal **id**, **email** address, and
-  **username**.
+* Learner identifiers, including an internal **Student ID**, **Email** address, and
+  **Username**.
 
-* The overall **grade**, with the total score a learner has currently attained
+* The overall **Grade**, with the total score a learner has currently attained
   in the course. This value is expressed as a decimal: a learner with a grade
   of 0.65 has earned 65% of the credit in the course, and a learner with a
   grade of 1 has earned 100%.
 
 * Each **{assignment type} {number}** defined in your grading configuration,
   with the score that the learner attained for that specific assignment. For
-  example, column HW 03 shows the scores for the third homework assignment.
+  example, column Homework 3 shows the scores for the third homework
+  assignment. If the learner did not attempt the assignment, the value is "Not
+  Attempted". If the assignment was not available for the learner, the value
+  is "Not Accessible".
 
-* An **{assignment type} Avg** with each learner's current average score for
-  that assignment type: for example, HW Avg.
+* An **{assignment type} (Avg)** with each learner's current average score for
+  that assignment type: for example, "Homework (Avg)". This column is not
+  included if a particular assignment type has only one assignment.
 
 * If :ref:`cohorts<Cohorts Overview>` are used in the course, a **Cohort Name**
   column indicates the name of the cohort that each learner belongs to,
@@ -306,20 +310,21 @@ provide the following information.
 * Learner identifiers, including an internal **Student ID**, **Email** address,
   and **Username**.
 
-* The **Final Grade**, with the total score that a learner has currently
+* The **Grade** column shows the total score that a learner has currently
   attained in the course. This value is expressed as a decimal: a learner with
   a grade of 0.65 has earned 65% of the credit in the course, and a learner
   with a grade of 1 has earned 100%.
 
 * For each problem (identified by assignment, subsection, and problem name), a
-  column showing the number of points actually earned by each learner. If a
-  learner has not viewed a problem, the value in this column is "N/A". If
-  a learner has not answered a problem, the value in this column is "0".
+  column showing the number of points actually earned by each learner. If the
+  learner did not attempt the assignment, the value is "Not Attempted". If the
+  assignment is not available to the learner, the value in this column is "Not
+  Accessible".
 
 * For each problem (identified by assignment, subsection, and problem name), a
   column showing the number of points that it is possible to earn for the
-  problem. If a learner has not viewed a problem, the value in this column
-  is "N/A".
+  problem. If the assignment is not available to the learner, the value in
+  this column is "Not Accessible".
 
 .. _gradebook:
 
