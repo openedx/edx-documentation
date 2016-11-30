@@ -205,12 +205,18 @@ columns that provide the following information.
 * The **Enrollment Track** column indicates whether each learner is enrolled in
   the course in the honor code, verified, or professional education track.
 
-* The **Verification Status** column applies only to learners who are enrolled
-  in the verified or professional tracks. The value in this column indicates
-  whether the verified or professional education learner has verified her
-  identity to edX by using a webcam to submit her photo and an official ID.
-  The value is "N/A" for learners who are not in the verified or professional
-  tracks.
+* The **Verification Status** column indicates whether learners who are enrolled
+  in course tracks that require ID verification have successfully verified
+  their identities to edX by submitting an official photo ID via webcam. The
+  value in this column is "N/A" for learners enrolled in course tracks that do
+  not require ID verification, such as "Audit".
+
+  A value of "Not ID Verified" in this column indicates that the learner is
+  enrolled in a course mode that requires ID verification, such as "Verified",
+  but she has not attempted ID verification, or her ID verification has failed
+  or expired. A value of "ID Verified" indicates that the learner is enrolled
+  in a course mode that requires ID verification, and her ID verification is
+  current and valid.
 
 * The **Certificate Eligible** column indicates whether a learner is eligible
   for a certificate for your course. The value in this column is "Y" for
