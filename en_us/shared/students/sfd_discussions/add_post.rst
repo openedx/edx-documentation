@@ -11,6 +11,12 @@ This topic describes how to add, edit, and delete contributions to discussions.
   :local:
   :depth: 1
 
+.. note::
+  You might want to enter mathematical or scientific expressions in a
+  discussion. For information about how to enter plain text so that it will
+  appear as a formatted mathematical expression, see `Math Formatting in Course
+  Discussions`_.
+
 .. _Add a Post:
 
 **************
@@ -92,22 +98,22 @@ topics on the **Discussion** page.
 
 #. Enter the text of your post. To format the text or to add links or
    images, use the formatting options above the text box.
-  
+
    .. only:: Partners
-   
-     .. note:: 
+
+     .. note::
        The maximum size for an uploaded file is 1 MB.
 
 
-   
+
 
    .. only:: Open_edX
-   
+
      .. tip::
        The file that you upload must typically be no larger than 1 MB.
-     
 
-   
+
+
    Any text formatting or images that you add are only visible when others
    read your post in a web browser. The edX mobile app currently does
    not display added formatting or images.
@@ -152,23 +158,23 @@ The following steps apply only to content-specific discussions.
 
 #. Enter the text of your post. Select the buttons above the text field to see
    options for formatting the text and for adding links or images.
-   
+
    .. only:: Partners
-   
-     .. note:: 
+
+     .. note::
        The maximum size for an uploaded file is 1 MB.
 
 
-   
+
 
    .. only:: Open_edX
-   
+
      .. tip::
        The file that you upload must typically be no larger than 1 MB.
-     
 
-   
-   Any text formatting or images that you add are only visible when 
+
+
+   Any text formatting or images that you add are only visible when
    others read your post in a web browser. The edX mobile app currently does
    not display added formatting or images.
 
@@ -264,3 +270,5 @@ edit or delete contributions from other learners.
 
   * To delete the contribution, select **Delete**, and then select **OK** in
     the pop-up confirmation box.
+
+.. include:: ../../../links/links.rst

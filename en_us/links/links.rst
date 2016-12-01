@@ -4,6 +4,8 @@
 
 .. EdX Links
 
+.. _Math Formatting in Course Discussions: https://courses.edx.org/courses/edX/DemoX.1/2014/wiki/edX.DemoX.1.2014/math-formatting-course-discussions/
+
 .. _change log for the Backbone.js library: https://github.com/jashkenas/backbone/blob/master/index.html#L4299
 
 .. _Query string syntax: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-query-string-query.html#query-string-syntax
