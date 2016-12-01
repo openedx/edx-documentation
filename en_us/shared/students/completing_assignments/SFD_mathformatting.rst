@@ -15,15 +15,16 @@ problems in your edX course.
 Overview of Mathematical and Scientific Expressions
 ********************************************************
 
-For some math, science, and other problems, you must enter a numerical or math
-expression, such as a formula, into a response field. You enter your response
-as plain text, and the edX system then converts your text into numbers and
-symbols that appear below the response field.
+You might want to enter a mathematical or scientific expression into an
+assignment in the body of your course, into the edX calculator tool, or into a
+course discussion.
+
+For assignments in the body of the course and for the calculator tool, you
+enter plain text, and the edX system then converts your text into numbers and
+symbols that appear below the response field. For more information, see
+:ref:`Math Expressions in Assignments`.
 
 .. image:: ../../../shared/students/Images/Math5.png
- :width: 150
- :alt: Image of a numerical input probem rendered by the parser.
-.. image:: ../../../shared/students/Images/Math3.png
  :width: 150
  :alt: Image of a numerical input probem rendered by the parser.
 .. image:: ../../../shared/students/Images/Math2.png
@@ -36,24 +37,26 @@ symbols that appear below the response field.
  :width: 150
  :alt: Image of a numerical input probem rendered by the parser.
 
-Additionally, some edX courses offer a calculator tool that you can use while
-you work through the course. If the course has a calculator, the calculator
-appears as a small icon on all pages in the body of the course.
+For course discussions, you use MathJax to format the text that you type, and
+the system then converts your text into a mathematical expression. For more
+information, see :ref:`Math Expressions in Discussions`.
 
-.. image:: ../../../shared/images/Calc_Closed.png
-  :width: 600
-  :alt: Course page with an arrow pointing to the calculator.
+.. _Math Expressions in Assignments:
 
-To use the calculator, select the calculator icon. To close the calculator,
-select the X.
+****************************************************************
+Entering Math Expressions in Assignments or the Calculator
+****************************************************************
 
-.. image:: ../../../shared/images/Calc_Open.png
-  :width: 600
-  :alt: Course page with the calculator visible along the edge of the browser.
+note::
+  If your course offers the calculator tool, the calculator appears as a small
+  icon on all pages in the body of the course.
 
-****************************
-Entering Math Expressions
-****************************
+  .. image:: ../../../shared/images/Calc_Closed.png
+    :width: 600
+    :alt: Course page with an arrow pointing to the calculator.
+
+  To use the calculator, select the calculator icon. To close the calculator,
+  select the X that appears when the calculator is open.
 
 Both the calculator and the response fields in math problems accept a
 selection of characters that represent numbers, operators, constants,
@@ -395,5 +398,18 @@ You can use the following functions.
 * A "parallel resistors" operator (``||``). For example, ``1 || 2`` represents
   the resistance of a pair of parallel resistors (of resistance 1 and 2 ohms),
   evaluating to 2/3 (ohms).
+
+.. _Math Expressions in Discussions:
+
+***********************************************
+Entering Math Expressions in Course Discussions
+***********************************************
+
+Entering math expressions in course discussions is different from entering math
+expressions in a math problem or in the calculator. In course discussions, you
+use MathJax to format the text that you type.
+
+For detailed information about how to enter math expressions in course
+discussions, see `Math Formatting in Course Discussions`_.
 
 .. include:: ../../../links/links.rst
