@@ -1,0 +1,13 @@
+* The grade report and the problem grade report now include "Not Attempted" and
+  "Not Accessible" values for assignments or problems that learners have not
+  attempted or did not have access to, respectively. For more information, see
+  :ref:`Access_grades`. (:jira:`TNL-5577`)
+
+* Permissions for the Staff role have been updated. Course team members with
+  the Staff role can now access and modify grades for individual learners.
+  Course team members with the Admin role can access and modify grades for all
+  learners in a course. For more information, see :ref:`Administrative Team
+  Roles`. (:jira:`TNL-5907`)
+
+* On the learner **Progress** page, the details in the visual chart are now
+  accessible to keyboard and screen reader users. (:jira:`TNL-5891`)
