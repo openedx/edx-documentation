@@ -57,8 +57,9 @@ Joining, Creating, or Leaving a Team
 When learners find a team that they want to join, they select **Join Team**
 and are immediately added to the team membership.
 
-.. note:: Learners can belong to only one team. If a learner already belongs to a
-   team, the **Join Team** button is not available.
+.. note:: Learners can belong to only one team. If a learner already belongs
+   to a team, the **Join Team** button is not available when they view other
+   teams. To join a new team, learners must first leave their existing team.
 
 Learners can create their own teams if they cannot find a team they want to
 join. Under the list of existing teams in a topic, learners select **create a
@@ -76,21 +77,16 @@ a team automatically becomes a member of the new team.
 .. note:: EdX recommends that you encourage learners to join existing teams
    before they create new teams.
 
-.. note:: Course team members who have the role of Admin, Discussion
-   Moderator, or Discussion Admin can create multiple teams; therefore they
-   are not automatically added to teams that they create. This is also true
-   for learners who have the community TA role.
+.. note:: Because course staff who have the role of Admin, Discussion Moderator,
+   or Discussion Admin can create multiple teams, these course staff are not
+   automatically added to teams that they create. This is also true for learners
+   who have the community TA role.
 
 At any time, learners can leave teams that they have joined, although you
 should emphasize to learners that they should try not to change teams after
 any team projects or activities have started. Learners who leave a team will
 also be unable to continue contributing to discussion threads in the team that
 they have left.
-
-Learners can only belong to one team at a time. For learners who already
-belong to a team, the **Join Team** button is not available when they view
-other teams. To join a new team, they must first leave their existing team.
-
 
 .. Add back Invite Others when available
 

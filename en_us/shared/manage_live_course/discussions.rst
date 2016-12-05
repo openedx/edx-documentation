@@ -538,25 +538,19 @@ For information on setting up moderators for your course, see
 View Profile Information for Discussion Participants
 ====================================================
 
-If you want to find out more about a specific discussion participant, you can
-view that learner's edX profile. Learners can have either a limited profile or
-a full profile.
+To find out more about a specific discussion participant, you can view that
+learner's edX profile from their linked username on discussion posts.
 
-To view a learner's profile, follow these steps.
+To access a learner's profile from a discussion post that they contributed,
+follow these steps.
 
-#. On the **Discussion** page, select a username in a post,
-   response, or comment.
-#. On the **Active Threads** page for that learner, select the
-   learner's username.
+#. On the **Discussion** page, select a username in a post, response, or
+   comment.
 
-The following image shows a learner's username in a post, the learner's
-username on the **Active Threads** page, and the learner's profile page.
+#. On the discussion page for that learner, select the linked username.
 
-.. image:: ../../../shared/images/SFD_Prof_from_Disc.png
-  :width: 600
-  :alt: Image of a post with the learner's username circled, an image of
-      that learner's active threads page in the course discussions, and an
-      image of the learner's profile.
+   The learner's account profile page opens. Learners can have either a limited
+   profile or a full profile.
 
 For more information about profiles, see :ref:`openlearners:SFD Dashboard
 Settings Profile`.
