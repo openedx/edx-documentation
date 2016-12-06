@@ -26,9 +26,10 @@ You add updates to notify learners of upcoming exams or deadlines, changes in
 the course schedule, or to make other announcements. Updates are visible to
 enrolled learners as soon as you post them.
 
-Each update requires a date for identification and sorting purposes. In the
-LMS, updates display on the **Home** page in reverse chronological order (most
-recent at the top), based on the date associated with each update.
+Each update requires a date for identification and sorting purposes. This date
+does not control when the date becomes visible to learners. In the LMS, updates
+display on the **Home** page in reverse chronological order (most recent at the
+top), based on the date associated with each update.
 
 To add a course update, follow these steps.
 
@@ -37,11 +38,17 @@ To add a course update, follow these steps.
 #. Create your update in the text editor that opens.
 
    * Enter text for the update, using HTML tags for formatting. This editor is
-     like the :ref:`raw HTML editor<The Raw HTML Editor>` that is provided for
-     HTML components. The :ref:`visual editor<The Visual Editor>` is not
-     provided.
+     like the :ref:`raw HTML editor<The Raw HTML Editor>` in HTML components.
+     The course update editor does not have a :ref:`visual editor<The Visual
+     Editor>`.
 
-     .. note:: If you copy text from another source and paste it into the text
+     .. note::
+        To make sure that your announcements are accessible, if you use
+        headings inside an announcement, make sure that you use only level 6
+        headings (``<h6>``). The structure of the course **Home** page uses
+        heading levels 1-5.
+
+        If you copy text from another source and paste it into the text
         editor, proofread the result carefully. Some applications automatically
         change quotation marks and apostrophes from the "straight" version to
         the "smart" or "curly" version. The editor requires "straight"
@@ -50,8 +57,8 @@ To add a course update, follow these steps.
    * Specify a date for this update. By default, today's date is already
      entered. You can change the date using the calendar tool, or by entering
      some other valid date. This date is used only for identification and
-     sorting purposes and does not control when the date becomes visible to
-     learners.
+     sorting purposes. This date does not control when the date becomes visible
+     to learners.
 
 #. Select **Post**. Your update appears on your course's **Home** page
    immediately.
