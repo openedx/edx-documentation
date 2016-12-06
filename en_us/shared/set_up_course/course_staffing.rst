@@ -32,6 +32,8 @@ and discussion team members must be enrolled in your course, but they do not
 need to have the Staff or Admin role. For more information, see
 :ref:`Beta_Testing` and :ref:`Assigning_discussion_roles`.
 
+.. _Administrative Team Roles:
+
 ****************************
 Administrative Team Roles
 ****************************
@@ -45,7 +47,8 @@ Team members with the **Staff** role can complete these tasks.
 
 * Enroll and unenroll learners.
 
-* Access learner grades.
+* Access and modify grades for individual learners. For example, users with the
+  Staff role can reset an individual learner's attempt to answer a question.
 
 * See course HTML errors.
 
@@ -55,7 +58,8 @@ Team members with the **Admin** role have access to all of the same options for
 running the course as team members with the Staff role. They can also complete
 these tasks.
 
-* Reset learner attempts to answer a question correctly.
+* Access and modify grades for all learners in a course. For example, users
+  with the Admin role can reset all learners' attempts to answer a question.
 
 * Add and remove Staff.
 
