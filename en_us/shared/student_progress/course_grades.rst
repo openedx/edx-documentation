@@ -166,20 +166,24 @@ belongs to.
 The grade report .csv file contains one row of data for each learner, and
 columns that provide the following information.
 
-* Learner identifiers, including an internal **id**, **email** address, and
-  **username**.
+* Learner identifiers, including an internal **Student ID**, **Email** address, and
+  **Username**.
 
-* The overall **grade**, with the total score a learner has currently attained
+* The overall **Grade**, with the total score a learner has currently attained
   in the course. This value is expressed as a decimal: a learner with a grade
   of 0.65 has earned 65% of the credit in the course, and a learner with a
   grade of 1 has earned 100%.
 
 * Each **{assignment type} {number}** defined in your grading configuration,
   with the score that the learner attained for that specific assignment. For
-  example, column HW 03 shows the scores for the third homework assignment.
+  example, column Homework 3 shows the scores for the third homework
+  assignment. If the learner did not attempt the assignment, the value is "Not
+  Attempted". If the assignment was not available for the learner, the value
+  is "Not Accessible".
 
-* An **{assignment type} Avg** with each learner's current average score for
-  that assignment type: for example, HW Avg.
+* An **{assignment type} (Avg)** with each learner's current average score for
+  that assignment type: for example, "Homework (Avg)". This column is not
+  included if a particular assignment type has only one assignment.
 
 * If :ref:`cohorts<Cohorts Overview>` are used in the course, a **Cohort Name**
   column indicates the name of the cohort that each learner belongs to,
@@ -201,12 +205,18 @@ columns that provide the following information.
 * The **Enrollment Track** column indicates whether each learner is enrolled in
   the course in the honor code, verified, or professional education track.
 
-* The **Verification Status** column applies only to learners who are enrolled
-  in the verified or professional tracks. The value in this column indicates
-  whether the verified or professional education learner has verified her
-  identity to edX by using a webcam to submit her photo and an official ID.
-  The value is "N/A" for learners who are not in the verified or professional
-  tracks.
+* The **Verification Status** column indicates whether learners who are enrolled
+  in course tracks that require ID verification have successfully verified
+  their identities to edX by submitting an official photo ID via webcam. The
+  value in this column is "N/A" for learners enrolled in course tracks that do
+  not require ID verification, such as "Audit".
+
+  A value of "Not ID Verified" in this column indicates that the learner is
+  enrolled in a course mode that requires ID verification, such as "Verified",
+  but she has not attempted ID verification, or her ID verification has failed
+  or expired. A value of "ID Verified" indicates that the learner is enrolled
+  in a course mode that requires ID verification, and her ID verification is
+  current and valid.
 
 * The **Certificate Eligible** column indicates whether a learner is eligible
   for a certificate for your course. The value in this column is "Y" for
@@ -306,20 +316,21 @@ provide the following information.
 * Learner identifiers, including an internal **Student ID**, **Email** address,
   and **Username**.
 
-* The **Final Grade**, with the total score that a learner has currently
+* The **Grade** column shows the total score that a learner has currently
   attained in the course. This value is expressed as a decimal: a learner with
   a grade of 0.65 has earned 65% of the credit in the course, and a learner
   with a grade of 1 has earned 100%.
 
 * For each problem (identified by assignment, subsection, and problem name), a
-  column showing the number of points actually earned by each learner. If a
-  learner has not viewed a problem, the value in this column is "N/A". If
-  a learner has not answered a problem, the value in this column is "0".
+  column showing the number of points actually earned by each learner. If the
+  learner did not attempt the assignment, the value is "Not Attempted". If the
+  assignment is not available to the learner, the value in this column is "Not
+  Accessible".
 
 * For each problem (identified by assignment, subsection, and problem name), a
   column showing the number of points that it is possible to earn for the
-  problem. If a learner has not viewed a problem, the value in this column
-  is "N/A".
+  problem. If the assignment is not available to the learner, the value in
+  this column is "Not Accessible".
 
 .. _gradebook:
 
