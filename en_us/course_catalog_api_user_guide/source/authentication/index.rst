@@ -215,12 +215,7 @@ the edX API authentication endpoint.
 
 .. code-block:: bash
 
-    curl -X POST \
-    -d "grant_type=client_credentials&client_id=VB1AkrAE28ArNnOizi4OEKq03UGu9oI
-    0h9DPbvwe&client_secret=wFMUqjZKQzboPEQSBLxERatup7r772hzg98xLu6fr6s7vIta5Xj
-    3MPmrKEZbfPdPjagkBdmLjQXlqu2IMC2TnaMutVLZF9AGXn9LqZv9P9oE73pAV6L4iZxzpuQBuT
-    mk&token_type=jwt" \
-    https://api.edx.org/oauth2/v1/access_token
+    curl -X POST -d "grant_type=client_credentials&client_id=VB1AkrAE28ArNnOizi4OEKq03UGu9oI0h9DPbvwe&client_secret=wFMUqjZKQzboPEQSBLxERatup7r772hzg98xLu6fr6s7vIta5Xj3MPmrKEZbfPdPjagkBdmLjQXlqu2IMC2TnaMutVLZF9AGXn9LqZv9P9oE73pAV6L4iZxzpuQBuTmk&token_type=jwt" https://api.edx.org/oauth2/v1/access_token
 
 .. _authentication_endpoint_response:
 
@@ -278,14 +273,6 @@ in the ``Authorization`` HTTP header field.
 
 .. code-block:: bash
 
-  curl -X GET \
-  -H "Authorization: JWT 4IHZlbCB2aXZlcnJhIGdyYXZpZGEsIHJpc3V.TG9yZW0gaXBzdW0gZ
-  G9sb3Igc2l0IGFtZXQsIGNvbnNlY3RldHVyIGFkaXBpc2NpbmcgZWxpdC4gRXRpYW0gdGluY2lkdW
-  50IG9kaW8gZWdldCB0aW5jaWR1bnQgcG9ydGEuIEZ1c2NlIHZlaGljdWxhIGFyY3UgdGVsbHVzLCB
-  zaXQgYW1ldCBmcmluZ2lsbGEgZXN0IHByZXRpdW0gc2VkLiBDdXJhYml0dXIgY29uc2VxdWF0IHVs
-  dHJpY2llcyB0cmlzdGlxdWUuIEluIGVzdCBwdXJ1cywgZmFjaWxpc2lzIGFjIGxlY3R1cyBxdWlzL
-  CBsdWN0dXMgdGVtcG9yIG9yY2kuIEludGVnZXIgdml0.YWUgbmVxdWUgbGlndWxhLiBVdCBjb25zZ
-  XF1YXQsIGV" \
-  https://api.edx.org/catalog/v1/catalogs/
+  curl -X GET -H "Authorization: JWT 4IHZlbCB2aXZlcnJhIGdyYXZpZGEsIHJpc3V.TG9yZW0gaXBzdW0gZG9sb3Igc2l0IGFtZXQsIGNvbnNlY3RldHVyIGFkaXBpc2NpbmcgZWxpdC4gRXRpYW0gdGluY2lkdW50IG9kaW8gZWdldCB0aW5jaWR1bnQgcG9ydGEuIEZ1c2NlIHZlaGljdWxhIGFyY3UgdGVsbHVzLCBzaXQgYW1ldCBmcmluZ2lsbGEgZXN0IHByZXRpdW0gc2VkLiBDdXJhYml0dXIgY29uc2VxdWF0IHVsdHJpY2llcyB0cmlzdGlxdWUuIEluIGVzdCBwdXJ1cywgZmFjaWxpc2lzIGFjIGxlY3R1cyBxdWlzLCBsdWN0dXMgdGVtcG9yIG9yY2kuIEludGVnZXIgdml0.YWUgbmVxdWUgbGlndWxhLiBVdCBjb25zZXF1YXQsIGV" https://api.edx.org/catalog/v1/catalogs/
 
 .. include:: ../../../links/links.rst
