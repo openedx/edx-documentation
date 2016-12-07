@@ -41,9 +41,7 @@ Example Request
 
 .. code-block:: bash
 
-   curl -X GET \
-   -H "Authorization: JWT {access token}" \
-   https://api.edx.org/catalog/v1/catalogs/
+   curl -X GET -H "Authorization: JWT {access token}" https://api.edx.org/catalog/v1/catalogs/
 
 =====================
 Response Values
@@ -166,9 +164,7 @@ Example Request
 
 .. code-block:: bash
 
-   curl -X GET \
-   -H "Authorization: JWT {access token}" \
-   https://api.edx.org/catalog/v1/catalogs/1/
+   curl -X GET -H "Authorization: JWT {access token}" https://api.edx.org/catalog/v1/catalogs/1/
 
 =====================
 Response Values
@@ -250,9 +246,7 @@ Example Request
 
 .. code-block:: bash
 
-   curl -X GET \
-   -H "Authorization: JWT {access token}" \
-   https://api.edx.org/catalog/v1/catalogs/1/courses/
+   curl -X GET -H "Authorization: JWT {access token}" https://api.edx.org/catalog/v1/catalogs/1/courses/
 
 =====================
 Response Values
@@ -783,5 +777,3 @@ many courses.
           }
        ]
     }
-
-
