@@ -99,12 +99,18 @@ topics on the **Discussion** page.
 #. Enter the text of your post. To format the text or to add links or
    images, use the formatting options above the text box.
 
+   .. note:: If you include an image with your post, include a description so
+      that learners who use screen readers to access the course can understand
+      the image's content and purpose. The description also displays in place
+      of the image if problems occur with the image file. If the image has no
+      functional purpose, leave the **Description** field empty and select
+      **This image is for decorative purposes only and does not require a
+      description**.
+
    .. only:: Partners
 
      .. note::
        The maximum size for an uploaded file is 1 MB.
-
-
 
 
    .. only:: Open_edX
@@ -158,6 +164,15 @@ The following steps apply only to content-specific discussions.
 
 #. Enter the text of your post. Select the buttons above the text field to see
    options for formatting the text and for adding links or images.
+
+   .. note:: If you include an image with your post, include a description so
+      that learners who use screen readers to access the course can understand
+      the image's content and purpose. The description also displays in place
+      of the image if problems occur with the image file. If the image has no
+      functional purpose, leave the **Description** field empty and select
+      **This image is for decorative purposes only and does not require a
+      description**.
+
 
    .. only:: Partners
 
