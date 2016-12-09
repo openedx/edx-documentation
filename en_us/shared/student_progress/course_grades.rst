@@ -166,8 +166,8 @@ belongs to.
 The grade report .csv file contains one row of data for each learner, and
 columns that provide the following information.
 
-* Learner identifiers, including an internal **Student ID**, **Email** address, and
-  **Username**.
+* Learner identifiers, including an internal **Student ID**, **Email** address,
+  and **Username**.
 
 * The overall **Grade**, with the total score a learner has currently attained
   in the course. This value is expressed as a decimal: a learner with a grade
@@ -179,11 +179,17 @@ columns that provide the following information.
   example, column Homework 3 shows the scores for the third homework
   assignment. If the learner did not attempt the assignment, the value is "Not
   Attempted". If the assignment was not available for the learner, the value
-  is "Not Accessible".
+  is "Not Available".
 
 * An **{assignment type} (Avg)** with each learner's current average score for
   that assignment type: for example, "Homework (Avg)". This column is not
   included if a particular assignment type has only one assignment.
+
+  Note that this assignment type average takes into account dropped
+  assignments. For example, if the course includes five homework assignments
+  and the course grading policy allows one homework assignment with the lowest
+  score to be dropped, the homework assignment average in this grade report is
+  calculated over four homework assignments rather than five.
 
 * If :ref:`cohorts<Cohorts Overview>` are used in the course, a **Cohort Name**
   column indicates the name of the cohort that each learner belongs to,
@@ -325,12 +331,12 @@ provide the following information.
   column showing the number of points actually earned by each learner. If the
   learner did not attempt the assignment, the value is "Not Attempted". If the
   assignment is not available to the learner, the value in this column is "Not
-  Accessible".
+  Available".
 
 * For each problem (identified by assignment, subsection, and problem name), a
   column showing the number of points that it is possible to earn for the
   problem. If the assignment is not available to the learner, the value in
-  this column is "Not Accessible".
+  this column is "Not Available".
 
 .. _gradebook:
 
@@ -383,25 +389,43 @@ The gradebook includes the following features.
 
 .. _check_student_progress:
 
-****************************************
-Check the Progress of a Single Learner
-****************************************
+**********************************************
+Check the Progress of a Specific Learner
+**********************************************
 
-To check a single learner's progress, you can locate the specific row on the
-grade report or review the learner's **Progress** page. The **Progress** page
-includes a chart that plots the score the learner has earned for every graded
-assignment and the total grade as of the current date. Below the chart, each
-assignment and the score attained are listed.
+To check a single learner's progress in your course, you can review the data
+in the :ref:`grade report<Access_grades>` or :ref:`problem grade
+report<problem_report>`, or review the learner's **Progress** page.
 
-To review a learner's **Progress** page, you supply an email address or
-username. You can check the progress for learners who are either enrolled in,
-or who have unenrolled from, the course.
+A learner's **Progress** page includes a chart that plots the score that the
+learner has earned for each graded assignment and the total grade, as of the
+current date. Below the chart, scores for every assignment by subsection,
+including ungraded assignments, are listed.
 
-Learners can view a similar chart and assignment list (of their own progress
-only) when they are logged in to the course. For more information, see :ref:`A
-Students View`.
+Both in the chart on the **Progress** page and in the :ref:`problem grade
+report<problem_report>`, learners' assignment scores are grouped by assignment
+type rather than in the order that they occur in the course. In the bar chart
+on the **Progress** page, the total score that a learner has earned for the
+course appears after the individual assignment scores, while in the problem
+grade report, the total score appears before the individual assignment scores.
 
-To view the **Progress** page for a learner, follow these steps.
+
+.. contents::
+ :local:
+ :depth: 1
+
+=======================================
+View a Specific Learner's Progress Page
+=======================================
+
+To view a specific learner's **Progress** page, you supply their email
+address or username. You can check the progress for learners who are either
+enrolled in, or who have unenrolled from, the course.
+
+Learners can view their own progress chart and assignment scores when they are
+logged in to the course.
+
+To view the **Progress** page for a specific learner, follow these steps.
 
 #. View the live version of your course.
 
@@ -414,66 +438,58 @@ To view the **Progress** page for a learner, follow these steps.
 
    The **Progress** page for the learner displays a chart with the grade for
    each homework, lab, midterm, final, and any other assignment types in your
-   course, and the total grade earned for the course to date. The chart does
-   not reflect any cohort or experiment group assignments.
+   course, and the total grade earned for the course to date.
 
-   .. image:: ../../../shared/images/Student_Progress.png
-    :alt: Progress page chart for a learner: includes a column graph with the
-          score achieved for each assignment.
 
-   To learn more about a particular assignment, move the cursor onto the value
-   in the chart. A brief description displays.
+.. _Understanding the Progress Page:
 
-   .. image:: ../../../shared/images/Student_Progress_mouseover.png
-    :alt: Progress page with a tooltip for the X that was graphed for the last
-          homework assignment, which indicates that the lowest homework score
-          is dropped.
+================================
+Understanding the Progress Page
+================================
 
-   Below the chart, subsections are listed on the left and the units that
-   contain assignments are listed on the right. The learner's individual
-   problem scores display.
-
-   .. image:: ../../../shared/images/Student_Progress_list.png
-    :alt: Bottom portion of a Progress page for the same learner with the
-          score achieved for each problem in the first course subsection.
-
-=============================================
-Interpreting the Learner Progress Page
-=============================================
-
-The chart of a learner's scores on the **Progress** page and the rows of data
-on the grade report present assignment scores in a similar order. However, the
-total, cumulative score earned for the course is placed in a different position
-on the **Progress** page.
-
-In this example grade report, the indicated learner has a current grade of 0.43
-(43%).
-
-.. image:: ../../../shared/images/Grade_Report_example.png
- :alt: A course grade report with a single learner's information indicated by
-       a rectangle.
-
-* On each of the first four homework assignments the learner scored 1 (100%),
-  but currently has a 0 (0%) on each of the remaining three assignments.
-
-  Notice, however, that the learner's current average score for homework
-  assignments is listed as 0.666666667 (67%): in this course, the homework
-  assignment with the lowest score is dropped, so this average is over six
-  assignments rather than all seven.
-
-* The learner has a score of 0.75 (75%) on the midterm, and a score of 0 (0%)
-  on the final.
-
-On the learner's **Progress** page, you see the same information graphically
-represented; however, the learner's "total" of 43% is on the far right.
+The **Progress** page for each learner displays a chart that summarizes her
+progress through the course, with entries for each graded assignment, the
+average score by assignment type, the total percentage earned in the course so
+far, and the percentage grade needed for each grade cutoff. This chart is
+essentially a graphical representation of the data in the problem grade
+report. However, the chart does not reflect any cohort or experiment group
+assignments.
 
 .. image:: ../../../shared/images/Student_Progress.png
- :alt: Progress page for a learner also included on the grade report: includes
-       a column graph with the grade achieved for each assignment.
+ :alt: Progress page chart for a learner: includes a column graph with the
+       score achieved for each assignment.
 
-The chart on the **Progress** page includes y-axis labels for the grade ranges
-defined for the course. In this example, Pass is set to 60%. At the end of the
-course, learners with a grade of 0.60 or higher can receive certificates.
+The chart's y-axis shows the range of grade percentages from 0 to 100%, and
+includes labels for the grade ranges defined for the course. For example, if a
+course is a pass/fail course with a grade of 60% required to pass, the y-axis
+displays a label "Pass" at the 60% level. If a course has grade levels "A",
+"B", and "C" defined at 90%, 70%, and 50% respectively, the y-axis displays
+labels at each of those levels.
+
+The learner's scores for each graded assignment in the course are listed along
+the x-axis, with the height of each bar indicating the percentage score for
+that assignment. Assignments are grouped by assignment type, rather than being
+listed in order of occurrence in the course. A bar for the average of each
+assignment type is included, as well a bar for the total cumulative grade that
+the learner has earned to date in the course.
+
+To learn more about a particular assignment, move the cursor onto the value in
+the chart. A brief description displays. A dropped assignment is indicated in
+the chart by an **x** above the horizontal axis.
+
+.. image:: ../../../shared/images/Student_Progress_mouseover.png
+ :alt: Progress page with a tooltip for the X that was graphed for the last
+       homework assignment, which indicates that the lowest homework score
+       is dropped.
+
+Below the chart on the **Progress** page is a list of all the subsections in
+the course, with the learner's scores for the problems in each subsection.
+Point scores from graded sections are labelled as "Problem Scores", while
+point scores from ungraded sections are called "Practice Scores".
+
+.. image:: ../../../shared/images/Student_Progress_list.png
+ :alt: Bottom portion of a Progress page for the same learner with the
+       score achieved for each problem in the first course subsection.
 
 .. note:: Learner scores on the **Progress** page are a snapshot of the scores
    that were calculated when learners submitted answers to the problems. It is
@@ -488,42 +504,6 @@ course, learners with a grade of 0.60 or higher can receive certificates.
    the course team rescores the changed problem, or until affected learners
    resubmit responses to the changed problem.
 
-
-.. _A Students View:
-
-=============================================
-A Learner's View of Course Progress
-=============================================
-
-Learners can check their progress by selecting **Progress** in the course
-navigation bar. The learner's progress through the graded part of the course
-displays at the top of this page, above the subsection scores. Progress is
-visualized as a chart with entries for all the assignments, total percentage
-earned in the course so far, and percent needed for each grade cutoff. Here is
-an example of a learner's progress through edX101.
-
-.. image:: ../../../shared/images/StudentView_GradeCutoffs.png
- :alt: Image of a learner's Course Progress page with the grade cutoffs legend
-       highlighted.
-
-The learner can see from this page that edX101 was graded as a Pass/Fail
-course with a cutoff of 34% and that the grading rubric contained one
-assignment type, called Learning Sequence, consisting of 11 assignments total.
-Furthermore, this particular learner has only submitted correct responses to
-two assignments, and her current total percent grade in the course is 6%. By
-hovering over each progress bar, learners can get further statistics of how
-much each assignment was counted as.
-
-Further down on the **Progress** page is a list of all the subsections in the
-course, with the scores recorded for the learner for all problems in the
-course. Here is the **Progress** page for the learner in the example above:
-
-.. image:: ../../../shared/images/StudentView_Problems.png
-   :width: 800
-   :alt: Image of a learner's Course Progress page with problems highlighted.
-
-Note that point scores from graded sections are called "Problem Scores",
-while point scores from ungraded sections are called "Practice Scores".
 
 .. _Adjust_grades:
 
@@ -550,9 +530,6 @@ a problem.
 .. contents::
  :local:
  :depth: 1
-
-
-
 
 
 .. _rescore:
