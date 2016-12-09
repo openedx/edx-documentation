@@ -188,11 +188,21 @@ Course Questions
 Can I take a course entirely on my mobile device?
 ========================================================
 
-Not entirely. You can download course videos to watch in the mobile app when you
-do not have an Internet connection. When you have an Internet connection, you
-can also read course announcements and content, participate in course
-discussions, and do some, but not all, of the problems in your assignments. To
-complete an entire course, you use a web browser on a computer.
+The answer depends on the types of problems that are used in the course you are
+taking. If a course contains mobile friendly problem types, you can complete
+those types of problems using the mobile app. For a list of the types of
+problems you can complete using the mobile app, see :ref:`What problems in
+mobile app`. Timed exams and proctored exams cannot be taken using the mobile
+app.
+
+You can watch course videos on the mobile app, and can also download videos to
+your mobile device for watching when you do not have an internet connection.
+When you have an internet connection, you can also read course announcements,
+participate in course discussions, and complete the mobile friendly problems
+in your assignments.
+
+To complete an entire course, you can use a web browser on a computer.
+
 
 .. _Assessment Questions:
 
@@ -212,6 +222,9 @@ that require complex actions, you must use a web browser.
 .. note:: EdX recommends that you complete all of your graded assignments in
  a web browser on a computer.
 
+
+.. _What problems in mobile app:
+
 ========================================================
 What types of problems can I do in the mobile app?
 ========================================================
@@ -227,7 +240,8 @@ ways.
 * Numerical input
 * Text input
 
-EdX is working to make more types of problems available in the mobile app.
+Timed or proctored exams cannot be taken using the mobile app.
+
 
 ========================================================
 How do I post questions on the discussion board?

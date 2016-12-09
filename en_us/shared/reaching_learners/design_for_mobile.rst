@@ -60,6 +60,8 @@ you design, test, and run your course.
   able to complete assignments that contain unsupported assessment types using
   the edX iPhone and Android mobile apps.
 
+* Timed and proctored exams cannot be completed using the mobile app.
+
 * When learners access your course using the edX Android and iPhone apps, they
   progress from component to component by swiping through them. It might seem
   useful to include an HTML component in a unit for the purpose of providing a

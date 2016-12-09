@@ -55,6 +55,8 @@ Minimum Credit Eligible Grade`.
 Learner Requirements for Taking Proctored Exams
 =====================================================
 
+.. note:: Learners cannot complete proctored exams using the edX mobile app.
+
 Learners who agree to take an exam with online proctoring must install
 proctoring software, which checks that the person taking the exam is the same
 person who is taking the course for credit, and also detects any attempts to
