@@ -96,8 +96,16 @@ topics on the **Discussion** page.
    part of your post that others see when they are browsing on the
    **Discussion** page or scrolling through one of the content-specific topics.
 
-#. Enter the text of your post. To format the text or to add links or
-   images, use the formatting options above the text box.
+#. Enter the text of your post. To format the text or to add links or images,
+   use the formatting options above the text box. 
+
+#. To add an image, you need to choose the right formatting option from the above 
+   text box, and choose the image you want to upload by clicking on the **Choose File**
+   button. Then add a description to the image in the **Description** text box. It
+   is a good practice to add an image description to the image as it is useful for 
+   users who cannot see the image. However, if you do not wish to add an image, 
+   you may check the check box below it which states **This image is for decorative
+   purposes only and does not require a description**.
 
    .. note:: If you include an image with your post, include a description so
       that learners who use screen readers to access the course can understand
@@ -163,7 +171,10 @@ The following steps apply only to content-specific discussions.
    topics.
 
 #. Enter the text of your post. Select the buttons above the text field to see
-   options for formatting the text and for adding links or images.
+   options for formatting the text and for adding links or images. It is a good 
+   practice to add an image description to the image as it is useful for users who
+   cannot see (visually impaired or using screen readers).
+   
 
    .. note:: If you include an image with your post, include a description so
       that learners who use screen readers to access the course can understand
