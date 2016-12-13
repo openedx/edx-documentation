@@ -136,6 +136,16 @@ D, E, F
      - :ref:`content`
    * - ``edx.googlecomponent.document.displayed``
      - :ref:`content`
+   * - ``edx.grades.course.grade_calculated``
+     - :ref:`grading_events`
+   * - ``edx.grades.problem.rescored``
+     - :ref:`grading_events`
+   * - ``edx.grades.problem.state_deleted``
+     - :ref:`grading_events`
+   * - ``edx.grades.problem.submitted``
+     - :ref:`grading_events`
+   * - ``edx.grades.subsection.grade_calculated``
+     - :ref:`grading_events`
    * - ``edx.instructor.report.downloaded``
      - :ref:`Instructor_Event_Types`
    * - ``edx.instructor.report.requested``

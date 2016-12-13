@@ -6557,7 +6557,272 @@ clicks to request the generation of a report on the instructor dashboard.
    * - ``student``
      - string
 
+.. _grading_events:
 
+=============================
+Grading-Related Events
+=============================
+
+Grading-related events are emitted when grades at the subsection or course
+level are updated. Changes to grades can result from a learner action such as
+submitting a response to a problem, a course team member action on the
+Instructor Dashboard such as rescoring a problem or deleting a learner's state
+for a problem, or a course-level action such as calculation of a learner's
+final grade for a course.
+
+This section presents grading-related events alphabetically.
+
+**Component**: LMS, Instructor Dashboard
+
+**Event Source**: Server
+
+**History**: Grading-related events were added on 14 Dec 2016.
+
+.. contents::
+  :local:
+  :depth: 1
+
+
+.. _edx_grades_course_grade_calculated:
+
+``edx.grades.course.grade_calculated``
+******************************************
+
+After a learner's updated subsection score is successfully saved to the
+database (which triggers an ``edx.grades.subsection.grade_calculated`` event),
+the learner's grade for the course is updated as a result. When a learner's
+updated grade for a course is successfully saved to the database, the server
+emits an ``edx.grades.course.grade_calculated`` event.
+
+**Event Source**: Server
+
+``event`` **Member Fields**:
+
+In addition to the :ref:`common<context>` ``context`` member fields, this
+event type also includes the following ``event`` member fields.
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+   * - ``course_edited_on``
+     - datetime
+     - The timestamp of the most recent edit to the course at the time the
+       grade was calculated.
+   * - ``course_version``
+     - string
+     - The version of the course for which the problem was submitted.
+   * - ``grading_policy_hash``
+     - string
+     - A hash of the grading policy at the time that the grade was calculated.
+       This field might be useful for identifying whether the course content
+       was the same for two grades.
+   * - ``letter_grade``
+     - string
+     - The string or alphabetical letter representing the learner's course
+       grade, as defined by the course's grading policy.
+   * - ``percent``
+     - float
+     - The learner's course grade, expressed as a percentage.
+   * - ``event_transaction_id``
+     - string
+     - The unique identifier for tracing transactional events back to learner
+       or instructor actions.
+   * - ``event_transaction_type``
+     - string
+     - A readable string representing the learner or course team action that
+       triggered this event. Possible values are
+       ``edx.grades.problem.submitted``, ``edx.grades.problem.rescored``,
+       ``edx.grades.problem.state_deleted``,
+       ``edx.grades.subsection.grade_calculated``, and
+       ``edx.grades.course.grade_calculated``.
+
+
+.. _edx_grades_problem_rescored:
+
+``edx.grades.problem.rescored``
+*********************************
+
+When a course team member successfully rescores a learner's problem
+submission, the server emits an ``edx.grades.problem.rescored`` event.
+
+**Event Source**: Server
+
+``event`` **Member Fields**:
+
+In addition to the :ref:`common<context>` ``context`` member fields, this
+event type also includes the following ``event`` member fields.
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+
+   * - ``instructor_id``
+     - string
+     - The identifier for the course team member who initiated the rescore.
+
+   * - ``new_weighted_earned``
+     - number
+     - The learner's weighted score for the problem, after the rescore.
+
+   * - ``new_weighted_possible``
+     - number
+     - The weighted maximum score for the problem, after the rescore.
+
+   * - ``only_if_higher``
+     - boolean
+     - Indicates whether the "rescore only if higher" option was selected when
+       the problem was rescored.
+
+   * - ``problem_id``
+     - string
+     - The identifier for the problem in the form of a serialized usage key.
+
+
+The ``edx.grades.problem.rescored`` event also includes the following
+``event`` member fields. These fields serve the same purpose for this event as
+they do for the :ref:`edx_grades_course_grade_calculated` event.
+
+* ``event_transaction_id``
+* ``event_transaction_type``
+
+
+.. _edx_grades_problem_state_deleted:
+
+``edx.grades.problem.state_deleted``
+************************************
+
+When a course team member deletes the state for a learner's problem
+submission, the server emits an ``edx.grades.problem.state_deleted`` event.
+
+**Event Source**: Server
+
+``event`` **Member Fields**:
+
+In addition to the :ref:`common<context>` ``context`` member fields, this
+event type also includes the following ``event`` member fields. These fields
+serve the same purpose for this event as they do for the
+:ref:`edx_grades_problem_rescored` event.
+
+* ``instructor_id``
+* ``problem_id``
+* ``event_transaction_id``
+* ``event_transaction_type``
+
+
+.. _edx_grades_problem_submitted:
+
+``edx.grades.problem.submitted``
+*********************************
+
+When a learner's response to a problem is submitted and successfully saved,
+the server emits an ``edx.grades.problem.submitted`` event.
+
+**Event Source**: Server
+
+``event`` **Member Fields**:
+
+In addition to the :ref:`common<context>` ``context`` member fields, this
+event type also includes the following ``event`` member fields.
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+   * - ``weight``
+     - number
+     - The weight of this problem.
+   * - ``weighted_earned``
+     - number
+     - The learner's weighted score for this problem.
+   * - ``weighted_possible``
+     - number
+     - The weighted maximum possible score for this problem.
+
+The ``edx.grades.problem.submitted`` event also includes the following
+``event`` member fields. These fields serve the same purpose for this event as
+they do for the :ref:`edx_grades_course_grade_calculated` and
+:ref:`edx_grades_problem_rescored` events.
+
+* ``problem_id``
+* ``event_transaction_id``
+* ``event_transaction_type``
+
+
+.. _edx_grades_subsection_grade_calculated:
+
+``edx.grades.subsection.grade_calculated``
+******************************************
+
+After a learner has submitted a response to a problem (which triggers the
+``edx.grades.problem.submitted`` event), the score for the subsection that
+contains the problem is recalculated. When the updated subsection score is
+successfully saved to the database, the server emits an
+``edx.grades.subsection.grade_calculated`` event.
+
+**Event Source**: Server
+
+``event`` **Member Fields**:
+
+In addition to the :ref:`common<context>` ``context`` member fields, this
+event type also includes the following ``event`` member fields.
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+   * - ``block_id``
+     - string
+     - The identifier for the subsection, in the form of a serialized usage
+       key.
+   * - ``first_attempted``
+     - datetime
+     - The timestamp of the learner's first attempt at a problem in the
+       subsection.
+   * - ``subtree_edited_on``
+     - datetime
+     - The timestamp of the latest edit to the section of the course that
+       contains the graded subsection.
+   * - ``visible_blocks_hash``
+     - string
+     - A hash of the course content that was available to this learner at the
+       time that the grade was calculated. This field might be useful for
+       identifying whether the course content was the same for two grades.
+   * - ``weighted_graded_earned``
+     - number
+     - The total weighted points earned on all graded problems in the
+       subsection.
+   * - ``weighted_graded_possible``
+     - number
+     - The total weighted possible scores for all graded problems in the
+       subsection.
+   * - ``weighted_total_earned``
+     - number
+     - The total weighted score earned on all problems in the subsection.
+   * - ``weighted_total_possible``
+     - number
+     - The total weighted scores possible on all problems in the subsection.
+
+The ``edx.grades.subsection.grade_calculated`` event also includes the
+following ``event`` member fields. These fields serve the same purpose for
+this event as they do for the :ref:`edx_grades_course_grade_calculated` event.
+
+* ``course_version``
+* ``event_transaction_id``
+* ``event_transaction_type``
 
 
 .. _list_forum:
