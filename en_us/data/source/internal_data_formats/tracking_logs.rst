@@ -6557,6 +6557,7 @@ clicks to request the generation of a report on the instructor dashboard.
    * - ``student``
      - string
 
+
 .. _grading_events:
 
 =============================
