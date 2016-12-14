@@ -104,8 +104,8 @@ Before you can add a component to your course structure for a peer instruction
 assignment, you must enable the peer instruction tool for your course.
 
 To enable the peer instruction tool in Studio, you add the ``"ubcpi"`` key to
-the **Advanced Module List** on the **Advanced Settings** page. (Be sure to
-include the quotation marks around the key value.) For more information, see
+the **Advanced Module List** on the **Advanced Settings** page. Be sure to
+include quotation marks around the key value. For more information, see
 :ref:`Enable Additional Exercises and Tools`.
 
 .. note:: This tool was developed and contributed to the edX platform by the
@@ -215,12 +215,13 @@ steps.
    * To delete an answer choice, select the **X** next to the text field for
      that answer.
 
-#. Specify which of the answer choices is the correct answer. You identify the
-   correct answer choice by its assigned number: to indicate Answer 1 you
+#. Specify which of the answer choices is the correct answer. Alternatively, you
+   can choose to not specify a correct answer by selecting "n/a". You identify
+   the correct answer choice by its assigned number: to indicate Answer 1 you
    select **Option 1**, for Answer 2 you select **Option 2**, and so on.
 
 #. Enter a text explanation that describes why the specified answer choice is
-   correct.
+   correct. This is optional if you have chosen to not specify a correct answer.
 
 #. Configure how, and how many, peer responses to show to learners after
    they submit an initial response.
@@ -251,17 +252,19 @@ steps.
 
    If **Save** is not available, an edit check has detected incomplete or
    invalid information in the component editor. Review your entries to make
-   sure that each field has an entry, and that you have provided an example
-   explanation for each answer choice. For information about the error found,
-   move your cursor over the question mark that appears next to **Save**.
+   sure that each field has an entry (as appropriate), and that you have
+   provided an example explanation for each answer choice. For information
+   about the error found, move your cursor over the question mark that
+   appears next to **Save**.
 
 ************************************************
 Reviewing a Histogram of Learner Responses
 ************************************************
 
 When learners submit their final answer choices and revised explanations, the
-peer instruction tool displays the correct answer and its explanation. The
-learner's initial answer and response, and final answer and response, follow.
+peer instruction tool displays the correct answer, if you have specified one,
+and its explanation (if applicable). The learner's initial answer and response,
+and final answer and response, follow.
 
 As soon as 10 learners complete the assignment, the peer instruction tool
 displays a pair of class breakdown histograms. These histograms show how
