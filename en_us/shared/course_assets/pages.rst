@@ -134,7 +134,7 @@ Hiding or Showing the Wiki or Progress Pages
 
 By default, your course includes a **Wiki** page and a **Progress** page. For
 more information about how you can use these pages in a course, see
-:ref:`Course_Wiki` or :ref:`A Students View`.
+:ref:`Course_Wiki` or :ref:`check_student_progress`.
 
 As part of your course design, you can decide whether you want learners to have
 access to one or both of these pages. While you cannot delete these pages
