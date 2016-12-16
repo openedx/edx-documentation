@@ -4,13 +4,16 @@
 Using Teams in Your Courses
 ##########################################
 
-This section provides conceptual and procedural information about using teams
-in your courses.
-
+This section provides information about setting up teams in your courses.
 
 .. contents::
   :local:
   :depth: 2
+
+For information about managing teams in your courses, see the following topics.
+
+* :ref:`Teams Discussions`
+* :ref:`CA Learner Experience of Teams`
 
 
 .. _CA_Teams_Overview:

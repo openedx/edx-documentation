@@ -392,7 +392,6 @@ To link your account with another account, follow these steps.
    Account** under that account name.
 
 
-
 .. _SFD Profile Page:
 
 ***************************
@@ -525,26 +524,24 @@ The site saves your changes automatically.
  are not visible on your profile page. However, this information is saved. To
  make this information visible again, select **Full Profile**.
 
+
 ================================
 View Another Learner's Profile
 ================================
 
-You view other learners' profiles through the course discussions.
+You can view other learners' profiles through their posts, responses, or
+comments in course discussions.
 
 #. On the **Discussion** page, select the username of any learner in a post, a
    response, or a comment.
 
-#. When the **Active Threads** page for that learner opens, select the
-   learner's username.
+   A page that displays the discussion activity only for the selected learner
+   opens.
 
-The following image shows a learner's username in a post, the learner's
-username on the **Active Threads** page, and the learner's profile page.
+#. On the learner's **Discussion** page, select their linked username.
 
-.. image:: ../../../shared/images/SFD_Prof_from_Disc.png
-  :width: 600
-  :alt: Image of a discussion with a learner's username circled, an image of
-      that learner's active threads page in the course discussions, and an
-      image of the learner's profile
+The learner's account profile page opens.
+
 
 ***********************
 Deactivate Your Account

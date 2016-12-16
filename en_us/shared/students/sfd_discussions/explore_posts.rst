@@ -16,6 +16,8 @@ discussion topic.
   :local:
   :depth: 1
 
+For information about finding new or updated posts in discussions, see
+:ref:`Keep Up with New Activity`.
 
 .. _Search Discussions:
 
@@ -75,12 +77,14 @@ Content-specific topics are located in specific units in the course. They
 typically appear below the content they apply to.
 
 You can access a content-specific topic by viewing the unit that contains the
-topic. To expand the discussion, select **Show Discussion**.
+topic. To show the list of posts for that content-specific discussion, select
+**Show Discussion**.
 
 .. image:: ../../../shared/students/Images/Discussion_content_specific.png
    :width: 500
-   :alt: A discussion topic that appears below text inside the course,
-       identified by a "Show Discussion" link.
+   :alt: A discussion topic that appears below text inside the course. The
+         "Show Discussion" button opens the list of posts for that
+         content-specific topic.
 
 You can also use the **Discussion** page to access a discussion in the unit
 where that topic is located.
@@ -98,14 +102,14 @@ where that topic is located.
 View Only Unread or Unanswered Posts
 *****************************************
 
-To limit the posts shown on the **Discussion** page, you can select one of the
-filter options. The **Show all** filter in the discussion navigation pane is
-selected by default.
+To limit the posts shown on the **Discussion** page or shown for a content-
+specific discussion, you can select one of the filter options. By default, the
+**Show all** option is selected.
 
-* To list only the discussions and questions that you have not yet viewed,
+* To show posts (both discussions and questions) that you have not yet viewed,
   select **Unread**.
 
-* To list only question posts that do not yet have any responses marked as
+* To show only question posts that do not yet have any responses marked as
   answers, select **Unanswered**.
 
 
