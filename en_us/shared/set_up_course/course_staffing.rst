@@ -41,9 +41,9 @@ Administrative Team Roles
 To provide access to features on the instructor dashboard in the LMS, you
 assign the Staff role or the Admin role.
 
-Team members with the **Staff** role can complete these tasks.
+Team members with the **Staff** role can complete the following tasks.
 
-* View the course before the Course Start Date.
+* View the course before the course start date.
 
 * Enroll and unenroll learners.
 
@@ -54,21 +54,23 @@ Team members with the **Staff** role can complete these tasks.
 
 * Send email messages to course participants.
 
-Team members with the **Admin** role have access to all of the same options for
-running the course as team members with the Staff role. They can also complete
-these tasks.
+* Activate course certificates.
+
+Course team members who have the **Admin** role can complete all the tasks that
+course team members who have the Staff role can complete. They can also
+complete the following tasks.
 
 * Access and modify grades for all learners in a course. For example, users
   with the Admin role can reset all learners' attempts to answer a question.
 
-* Add and remove Staff.
+* Add and remove staff.
 
-* Add and remove other Admins.
+* Add and remove other admins.
 
-* Add and remove Beta Testers.
+* Add and remove beta testers.
 
-* Add and remove Discussion Admins, Discussion Moderators, and Discussion
-  Community TAs.
+* Add and remove discussion admins, discussion moderators, and discussion
+  community TAs.
 
   .. note:: To moderate course discussions, team members must have one
    of these discussion roles assigned to them *in addition to* the Staff or

@@ -249,24 +249,21 @@ a Certificate>`.
 Activate a Certificate
 ***********************
 
-.. only:: Partners
+When you have verified your certificate, a course team member with the Admin or
+Staff role can activate the certificate.
 
-  When you have verified your certificates, contact your edX partner manager to
-  activate your certificates.
+.. note::
+  Course team members without the Admin or Staff role cannot activate a
+  certificate.
 
-.. only:: Open_edX
+To activate a certificate, follow these steps.
 
-  When you have verified your certificate, a course team member with the Admin
-  role must activate the certificate.
+#. Make sure that you have the Admin or Staff role for the course. For more
+   information, see :ref:`Course_Staffing`.
 
-  .. note:: Course team members without the Admin role cannot activate a
-     certificate.
+#. In Studio, on the **Settings** menu, select **Certificates**.
 
-  The course team administrator must complete the following steps.
-
-  #. In Studio, from the **Settings** menu, select **Certificates**.
-
-  #. On the Certificates page, select **Activate**.
+#. On the **Certificates** page, select **Activate**.
 
 After certificates are activated, learners in your course who attain a passing
 grade or otherwise qualify receive certificates.
@@ -278,29 +275,27 @@ grade or otherwise qualify receive certificates.
 Deactivate a Certificate
 ********************************************
 
-In some situations, after having made a certificate active, you
-might need to deactivate the certificate to make changes.
+In some situations, after you have activated a certificate, you might need to
+deactivate the certificate to make changes.
 
 As a best practice, do not make changes to certificates in a running course if
-it is possible that certificates have already been issued to learners.
+the course has already issued certificates to learners.
 
-.. only:: Partners
+A course team member with the Admin or Staff role can deactivate the
+certificate.
 
-  Contact your edX partner manager if you need to modify an activated
+.. note::
+  Course team members without the Admin or Staff role cannot deactivate a
   certificate.
 
-.. only:: Open_edX
+To deactivate a certificate, follow these steps.
 
-  A course team member with the Admin role must deactivate the certificate.
+#. Make sure that you have the Admin or Staff role for the course. For more
+   information, see :ref:`Course_Staffing`.
 
-  .. note:: Course team members without the Admin role cannot deactivate a
-     certificate.
+#. In Studio, on the **Settings** menu, select **Certificates**.
 
-  The course team administrator must complete the following steps.
-
-  #. In Studio, from the **Settings** menu, select **Certificates**.
-
-  #. On the Certificates page, select **Deactivate**.
+#. On the **Certificates** page, select **Deactivate**.
 
 The certificate is no longer active and the course team can edit it. No new
 certificates can be issued to learners while it is deactivated. Learners who
