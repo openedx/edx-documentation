@@ -109,6 +109,6 @@ produces HTML documentation for it. An example follows.
 
 .. _RequireJS site: http://requirejs.org/
 
-.. _JavaScript Language Rules: https://google.github.io/styleguide/javascriptguide.xml#JavaScript_Language_Rules
+.. _JavaScript Language Rules: https://google.github.io/styleguide/jsguide.html#language-features
 
-.. _Google JavaScript Style Guide: https://google.github.io/styleguide/javascriptguide.xml
+.. _Google JavaScript Style Guide: https://google.github.io/styleguide/jsguide.html
