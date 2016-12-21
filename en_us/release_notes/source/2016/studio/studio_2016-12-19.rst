@@ -1,0 +1,3 @@
+* On the **Video Uploads** page, users who try to upload files that are not in
+  .mp4 or .mov format now receive an error message.
+
