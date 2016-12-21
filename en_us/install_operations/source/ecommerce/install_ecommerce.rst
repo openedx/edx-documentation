@@ -286,9 +286,9 @@ steps.
      the Django administration panel in the LMS. For more information about
      configuring the OIDC client, see :ref:`Configure OIDC`.
 
-*****************************************
+**************************************
 Switch from ShoppingCart to E-Commerce
-*****************************************
+**************************************
 
 By default, the ShoppingCart service is enabled when you install an Open edX
 instance. To use the E-Commerce service to handle ecommerce-related tasks
@@ -314,6 +314,33 @@ instead of ShoppingCart, follow these steps.
 #. Select the site for which you want to enable the E-Commerce service.
 
 #. Select **Save**.
+
+**********************************
+Enable Client Side Checkout Basket
+**********************************
+
+The client side checkout basket enables filling out the payment form directly
+in the basket, without the need to go to the payment processor website to
+complete a purchase.
+Currently only CyberSource is supported as a client-side payment processor.
+The form requires information about the billing client (name, address etc.) and
+credit card information. Currently only AmEx, Visa, MasterCard, Diners,
+Discover, JCB and Maestro credit card types are supported.
+(note: we should probably tell the users that the credit card information is
+never saved and that it's safe to enter that data).
+
+If you want to enable client side checkout basket you need to:
+
+#. Activate the client side payment processor (eg. CyberSource) switch in the
+   admin panel.
+
+#. Set a value for the client side payment processor in the site configuration
+   (if you use CyberSource, enter 'cybersource' in the **Client-side payment
+   processor** input field).
+
+#. Edit the **enable_client_side_checkout** waffle flag to the values that you
+   need.
+
 
 .. _Development Outside Devstack:
 
