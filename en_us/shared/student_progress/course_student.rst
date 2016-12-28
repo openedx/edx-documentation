@@ -133,6 +133,26 @@ team member and the following columns.
        optional and was supplied only at registration.
    * - goals
      - This value is optional and is supplied only at registration.
+   * - enrollment_mode
+     - Indicates the enrollment track that the learner is enrolled in, such as
+       "audit" or "verified".
+   * - verification_status
+
+     - Indicates whether learners who are enrolled in course tracks that require
+       ID verification have successfully verified their identities to edX by
+       submitting an official photo ID via webcam. The value in this column is
+       "N/A" for learners enrolled in course tracks that do not require ID
+       verification.
+
+       A value of "Not ID Verified" in this column indicates that the learner is
+       enrolled in a course track that requires ID verification (such as
+       "verified") but she has not attempted ID verification, or the ID
+       verification has failed or expired.
+
+       A value of "ID Verified" indicates that the learner is enrolled in a
+       course track that requires ID verification, and her ID verification is
+       current and valid.
+
    * - cohort
      - This column is included only if the course has cohorts enabled. For
        courses that include learner cohorts, shows the name of the cohort group
@@ -147,6 +167,7 @@ team member and the following columns.
    * - country
      - Learners are required to specify **Country** during registration, and can
        update this value on the **Account Settings** page.
+
 
 
 .. _View and download student data:
