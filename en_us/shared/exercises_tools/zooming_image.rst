@@ -6,11 +6,11 @@ Zooming Image Tool
 
 .. note:: EdX does not support this tool.
 
-You can present information to your learners with an image. If your image
-is very large or very detailed, learners might not be able to see all the
-information in the image. You can use the zooming image tool to enlarge areas
-of your image as the learner moves the mouse over the image, as in the example
-below.
+If you use very large or very detailed images to present information in your
+course, learners might not be able to see all the information in the image
+without some option to zoom in to various areas of the image. You can use the
+zooming image tool to enlarge areas of your image as the learner moves the
+mouse over the image, as shown in the example below.
 
 .. image:: ../../../shared/images/Zooming_Image.png
   :alt: Example zooming image tool showing a chemistry exercise.
