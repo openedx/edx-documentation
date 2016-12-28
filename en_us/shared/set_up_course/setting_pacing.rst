@@ -41,10 +41,11 @@ set release dates for content and due dates for assignments, and assignment due
 dates are visible in the LMS. Learners cannot access course content before its
 release date, and learners must complete assignments by their due dates.
 
-In self-paced courses, learners can access all course materials when the course
-begins, and assignments do not have due dates. You do not have the option to
-set release dates for course content or due dates for assignments. Due dates do
-not appear in the LMS.
+In self-paced courses, learners can access all course materials when the
+course begins, and assignments do not have due dates. You do not have the
+option to set release dates for course content or due dates for assignments.
+The LMS shows indicators for graded assignments but no due dates. Learners can
+complete course material at any time before the course end date.
 
 .. image:: ../../../shared/images/Pacing_SubSettings.png
  :width: 500
@@ -52,11 +53,10 @@ not appear in the LMS.
      self-paced courses, showing release and due date options for the
      instructor-led course.
 
-.. note::
-    If you set due dates for assignments or exams and later change the course
-    to be self-paced, Studio stores the due dates that you have set. If you
-    change the course back to instructor-paced later, Studio restores the due
-    dates.
+.. note:: If you set due dates for assignments or exams in an instructor-led
+   course and later change the course to be self-paced, Studio stores the due
+   dates that you previously set. If you change the course back to instructor-
+   paced later, Studio restores the due dates.
 
 .. only:: Partners
 
@@ -67,6 +67,7 @@ not appear in the LMS.
 
   For more information about the way learners experience instructor-paced and
   self-paced courses, see :ref:`openlearners:SFD Self Paced`.
+
 
 ***************************
 Set Pacing for Your Course
