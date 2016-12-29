@@ -10,5 +10,4 @@ General Information
    getting_help
    preface
    browsers
-   change_log
 

@@ -10,4 +10,3 @@ General Information
    read_me
    preface
    browsers
-   change_log
