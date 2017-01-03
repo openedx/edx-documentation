@@ -239,6 +239,8 @@ The encoding and hosting process assigns these statuses to video files.
   processing. See :ref:`Specifications for Successful Video Files`. Then try
   uploading the file (or its replacement) again.
 
+* **Uploaded** files have successfully completed uploading to the edX servers.
+
 * **In Progress** files are undergoing processing to create additional file
   formats or waiting for successful transfer to the host sites.
 
