@@ -297,7 +297,8 @@ instead of ShoppingCart, follow these steps.
 #. Sign in to the Django administration console for your base URL. For example,
    ``http://{your_URL}/admin``.
 
-#. In the **Commerce** section, next to **Commerce configuration**, select **Add**. 
+#. In the **Commerce** section, next to **Commerce configuration**, select
+   **Add**.
 
 #. Select **Enabled**.
 
@@ -315,28 +316,42 @@ instead of ShoppingCart, follow these steps.
 
 #. Select **Save**.
 
-**********************************
-Enable Client Side Checkout Basket
-**********************************
+**************************************
+Enable the Client-Side Checkout Basket
+**************************************
 
-The client side checkout basket enables filling out the payment form directly
-in the basket, without the need to go to the payment processor website to
-complete a purchase.
-Currently only CyberSource is supported as a client-side payment processor.
-The form requires information about the billing client (name, address etc.) and
-credit card information. Currently only AmEx, Visa, MasterCard, Diners,
-Discover, JCB and Maestro credit card types are supported.
-(note: we should probably tell the users that the credit card information is
-never saved and that it's safe to enter that data).
+The client-side checkout basket enables users to complete the payment form and
+make a purchase directly in the basket. Users do not have to visit the payment
+processor website.
 
-If you want to enable client side checkout basket you need to:
+.. note::
+  Currently, only CyberSource is supported as a client-side payment processor.
+
+The payment form requires information about the billing client, such as the
+client's name and address, as well as credit card information. The following
+credit card types are supported.
+
+* American Express
+* Diners Club
+* Discover
+* JCB
+* Maestro
+* MasterCard
+* Visa
+
+.. note::
+  The payment processor does not save credit card information.
+
+To enable the client-side checkout basket, follow these steps.
+
+#. Sign in to the Django administration console for your base URL. For example,
+   ``http://{your_URL}/admin``.
 
 #. Activate the client side payment processor (eg. CyberSource) switch in the
    admin panel.
 
-#. Set a value for the client side payment processor in the site configuration
-   (if you use CyberSource, enter 'cybersource' in the **Client-side payment
-   processor** input field).
+#. On the **Site Configuration** page, locate the **Client-side payment
+   processor** field, and then enter ``cybersource``.
 
 #. Edit the **enable_client_side_checkout** waffle flag to the values that you
    need.
