@@ -1,12 +1,5 @@
 
 ==================================
-Building and Running an edX Course
-==================================
-
-This guide includes many changes in the past week. For details, see the
-:ref:`partnercoursestaff:Change Log 2015`.
-
-==================================
 EdX Research Guide
 ==================================
 
