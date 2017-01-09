@@ -15,7 +15,7 @@ The following information describes what is new in edX analytics.
 22 Dec 2016 to 6 Jan 2017
 *************************
 
-.. include:: 2017/analytics/analytics_2017-01-06.rst
+.. include:: 2017/analytics/analytics_2017-01-09.rst
 
 **************************
 Week of 12 December 2016
