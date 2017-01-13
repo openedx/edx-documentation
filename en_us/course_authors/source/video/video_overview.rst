@@ -27,6 +27,10 @@ multiple playback and download needs.
  courses that run on the edx.org site. For information about adding video files
  to courses that run on Edge, see :ref:`Working with Video Components`.
 
+.. contents::
+  :local:
+  :depth: 1
+
 ************************************
 Course Team Video Upload Overview
 ************************************
@@ -56,8 +60,8 @@ accounts to ensure optimal playback quality for course videos.
      video ID and then transcoding it into four formats and transferring the
      results to two host sites
 
-.. important:: The automated encoding and hosting process takes **24 hours**
- to complete.
+.. important:: The automated encoding and hosting process takes up to **24
+   hours** to complete.
 
 If a step fails to complete successfully the process includes multiple
 automated retries.

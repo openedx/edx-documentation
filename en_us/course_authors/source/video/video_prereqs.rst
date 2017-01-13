@@ -7,11 +7,9 @@ Getting Started with Video
 Before your course teams can begin to upload videos in Studio, you work with
 edX partner support to make sure that these preparatory tasks are complete.
 
-* :ref:`Identify Video Administrators`
-
-* :ref:`Establish Access to YouTube Account`
-
-* :ref:`Create YouTube Channels`
+.. contents::
+  :local:
+  :depth: 1
 
 After these tasks are complete, your course teams can :ref:`upload original
 video files<Uploading Videos in Studio>` in .mp4 or .mov format to Studio, and
@@ -205,7 +203,7 @@ Course team members who complete the activation process are channel managers.
 When they log in to YouTube at https://www.youtube.com using the email address
 that has channel manager privileges, they can manage course content.
 
-.. important:: It takes 24 hours to complete the automated encoding and
+.. important:: It takes up to 24 hours to complete the automated encoding and
  hosting process for each video file that a course team uploads in Studio.
  Channel managers cannot use YouTube to work with the resulting hosted file
  until after the process is complete.
