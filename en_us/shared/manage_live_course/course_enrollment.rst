@@ -27,7 +27,7 @@ learners.
   **Instructor** to access the instructor dashboard and from Insights. For more
   information, see :ref:`Report Learners Not Yet Enrolled`.
 
-.. Feature has been turned off for edx.org and Edge (the data is, available in Insights instead).
+.. Feature has been turned off for edx.org and Edge (the data is available in Insights instead).
 .. DOC-2218 A. Hodges 24 Aug 2015
 
 .. only:: Partners
@@ -51,7 +51,7 @@ Before a learner can enroll in a course, he or she must complete these steps.
 
 #. Activate the registered account by following the emailed instructions.
 
-As long as the course **Enrollment End Date** has not passed, learners who
+As long as the course enrollment end date has not passed, learners who
 have registered and activated user accounts can enroll themselves in
 ``www.edx.org`` courses, or can enroll in other courses if they know the URL.
 
@@ -70,9 +70,14 @@ Options for Enrolling Learners in a Course
 *******************************************
 
 You enroll learners, and other course team members, in your course by
-supplying their email addresses. After the **Enrollment End Date** for a
-course learners can no longer enroll themselves; however, you can still
+supplying their email addresses. After the enrollment end date for a
+course learners can no longer enroll themselves. However, you can still
 explicitly enroll learners.
+
+.. note::
+ When you enroll learners in a course, all learners are automatically enrolled
+ in the audit enrollment track. For more information about course enrollment
+ tracks, see :ref:`enrollment track<enrollment_track_g>`.
 
 When you enroll people in a course, you have the following options.
 
@@ -95,14 +100,6 @@ When you enroll people in a course, you have the following options.
   is automatically sent to each of the email addresses that you supply. The
   message includes the name of the course and, for learners who are not already
   enrolled, a reminder to use that same email address to enroll.
-
-  An example of the email message that a learner received when this option was
-  selected during enrollment follows. In this example, the learner already had
-  a registered and activated edx.org account, and both **Auto Enroll** and
-  **Notify students by email** were selected.
-
-  .. image:: ../../../shared/images/Course_Enrollment_Email.png
-        :alt: Email message inviting a student to enroll in an edx.org course.
 
 *********************************
 Enroll Learners in a Course
@@ -130,7 +127,12 @@ To enroll learners or course team members, follow these steps.
 #. Select **Enroll**.
 
 You can view or download a list of the people who are enrolled in the course.
-See :ref:`Student Data`.
+For more information, see :ref:`Student Data`.
+
+.. note::
+ When you enroll learners in a course, all learners are automatically enrolled
+ in the audit enrollment track. For more information about course enrollment
+ tracks, see :ref:`enrollment track<enrollment_track_g>`.
 
 .. only:: Open_edX
 
