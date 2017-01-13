@@ -1,17 +1,18 @@
 .. _Enabling Third Party Authentication Edge:
 
-##################################################
-Enabling Third Party Authentication with edX Edge
-##################################################
+####################################################
+Integrating Third Party Authentication with edX Edge
+####################################################
 
-Institutions that have partner memberships with edX can enable third party
+Institutions that have partner memberships with edX can integrate third party
 authentication between their campus or institutional authentication systems and
 the edX Edge site. Learners at sites that enable third party authentication can
 use their campus credentials to authenticate into edX Edge.
 
-These procedures require collaboration between members of the DevOps
-(development operations) or IT teams at your partner institution and the
-DevOps team at edX, facilitated by your edX partner manager.
+These procedures require collaboration between members of the development
+operations (DevOps) and information technology (IT) teams at your partner
+institution and the DevOps team at edX, facilitated by your edX partner
+manager.
 
 .. contents::
    :local:
@@ -21,7 +22,7 @@ DevOps team at edX, facilitated by your edX partner manager.
 Integrating with Shibboleth (SAML) Systems
 ***********************************************
 
-SAML 2.0 (Security Assertion Markup Language, version 2.0) is the standard that
+Security Assertion Markup Language, version 2.0 (SAML 2.0) is the standard that
 edX uses for the exchange of authentication and authorization data with
 institutional partners. Because it is built with SAML, this service
 is compatible with the Shibboleth single sign on system.
