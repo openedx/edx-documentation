@@ -206,7 +206,7 @@ earned a minimum score in a prerequisite subsection, follow these steps.
       indicated.
      :width: 600
 
-#. Select the **Access** tab.
+#. Select the **Advanced** tab.
 
 #. Select **Use as a Prerequisite** > **Make this subsection
    available as a prerequisite to other content**.
@@ -216,7 +216,7 @@ earned a minimum score in a prerequisite subsection, follow these steps.
 #. Select the **Configure** icon for the subsection that
    will be hidden until the prerequisite is met.
 
-#. Select the **Access** tab.
+#. Select the **Advanced** tab.
 
 #. In the **Limit Access** > **Prerequisite** menu, select the name of the
    subsection you want to specify as the prerequisite.
