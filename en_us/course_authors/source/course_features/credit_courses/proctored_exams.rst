@@ -626,8 +626,7 @@ To generate and download a file of proctoring session results, follow these
 steps.
 
 .. important:: Because the proctoring session results file contains
-   confidential, personally identifiable data which might be subject to the
-   Family Educational Rights and Privacy Act (FERPA), be sure to follow your
+   confidential, personally identifiable data, be sure to follow your
    institution's data stewardship policies when you open or save this file.
 
 #. View the live version of your course.
