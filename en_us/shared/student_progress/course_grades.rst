@@ -92,9 +92,8 @@ To generate and download the grade report for the learners who are currently
 enrolled in your course, follow these steps.
 
 .. important:: Because the grade report file contains confidential, personally
-   identifiable data which might be subject to the Family Educational Rights
-   and Privacy Act (FERPA), be sure to follow your institution's data
-   stewardship policies when you open or save this file.
+   identifiable data, be sure to follow your institution's data stewardship
+   policies when you open or save this file.
 
 #. View the live version of your course.
 
@@ -257,9 +256,8 @@ To generate and download the problem grade report for the learners who are
 currently enrolled in your course, follow these steps.
 
 .. important:: Because the problem grade report file contains confidential,
-   personally identifiable data which might be subject to the Family
-   Educational Rights and Privacy Act (FERPA), be sure to follow your
-   institution's data stewardship policies when you open or save this file.
+   personally identifiable data, be sure to follow your institution's data
+   stewardship policies when you open or save this file.
 
 #. View the live version of your course.
 
