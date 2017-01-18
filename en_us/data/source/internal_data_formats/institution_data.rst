@@ -38,8 +38,8 @@ The file contains data in these columns.
 user_id
 =========
 
-The learner's id in ``auth_user.id``. For more information, see 
-:ref:`column<auth_user>`.
+The learner's ID in ``auth_user.id``. For more information, see 
+:ref:`auth_user`.
 
 **History**: This column was added in Jan 2017.
 
@@ -48,7 +48,7 @@ username
 =========
 
 The learner's username in ``auth_user.username``. For more information, see 
-:ref:`column<auth_user>`. 
+:ref:`auth_user`. 
 
 **History**: This column was added in Jan 2017.
 
