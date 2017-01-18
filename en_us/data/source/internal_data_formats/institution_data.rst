@@ -31,8 +31,26 @@ The file contains data in these columns.
 
 ::
 
-  email,full_name,course_id,is_opted_in_for_email,preference_set_datetime
+  user_id,username,email,full_name,course_id,is_opted_in_for_email,preference_set_datetime
 
+
+=========
+user_id
+=========
+
+The learner's ID in ``auth_user.id``. For more information, see 
+:ref:`auth_user`.
+
+**History**: This column was added in Jan 2017.
+
+=========
+username
+=========
+
+The learner's username in ``auth_user.username``. For more information, see 
+:ref:`auth_user`. 
+
+**History**: This column was added in Jan 2017.
 
 =========
 email
