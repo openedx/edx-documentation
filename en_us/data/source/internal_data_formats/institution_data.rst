@@ -38,16 +38,19 @@ The file contains data in these columns.
 user_id
 =========
 
-The unique system generated id for the student. For more information, see 
-the ``auth_user.id`` :ref:`column<auth_user>`.
+The learner's id in ``auth_user.id``. For more information, see 
+:ref:`column<auth_user>`.
+
+**History**: This column was added in Jan 2017.
 
 =========
 username
 =========
 
-The unique username supplied by the student while registering. For more 
-information, see the ``auth_user.username``
-:ref:`column<auth_user>`.
+The learner's username in ``auth_user.username``. For more information, see 
+:ref:`column<auth_user>`. 
+
+**History**: This column was added in Jan 2017.
 
 =========
 email
