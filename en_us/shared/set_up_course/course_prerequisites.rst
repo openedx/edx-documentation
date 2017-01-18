@@ -59,7 +59,7 @@ Require an Entrance Exam
 
 You can require your learners to pass an entrance exam before they access your
 course materials. If you include an entrance exam, learners who enroll in your
-course can only access the **Entrance Exam** page until they pass the exam.
+course can access only the **Entrance Exam** page until they pass the exam.
 After learners pass the exam, they can access all released materials in your
 course.
 
@@ -69,7 +69,7 @@ To require an entrance exam, follow these steps.
 #. On the **Settings** menu, select **Schedule & Details**.
 #. On the **Schedule & Details** page, locate the **Requirements** section.
 #. Select the **Require students to pass an exam before accessing course
-   materials** check box.
+   materials** option.
 #. Select **Save Changes**.
 
 After you save your changes, Studio automatically creates an **Entrance Exam**
@@ -100,8 +100,8 @@ learners have a positive experience with entrance exams.
   * To begin the course entrance exam, learners select **Entrance Exam**.
 
   * After learners complete the entrance exam, they must select
-    **Entrance Exam** again or refresh the page in their browsers. When the
-    page refreshes, learners can see all currently available course content.
+    **Entrance Exam** again or refresh the page in their browsers. After the
+    page refreshes, learners can access all currently available course content.
 
 ================================================
 Create an Entrance Exam from the Course Outline

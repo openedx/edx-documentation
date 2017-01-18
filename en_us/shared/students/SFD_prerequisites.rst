@@ -60,13 +60,17 @@ Entrance Exam
 **************************
 
 If you enroll in a course that requires an entrance exam, the course appears on
-your Student Dashboard. However, you cannot access all released course content
-immediately.
+your dashboard. However, you cannot access all released course content before
+passing the entrance exam.
 
-The first time that you access the course, the course opens to the **Entrance
-Exam** page. At the top of the page, you can see a message that lists your
-current score and the minimum score that is required to pass the entrance
-exam. You can begin the exam immediately.
+.. note:: The course team can allow learners to skip the entrance exam. If a
+   course team member allows you to skip the entrance exam, you can access all
+   released course content without having to take the entrance exam.
+
+If you are required to take the entrance exam, the first time that you access
+the course, the course opens to the **Entrance Exam** page. At the top of the
+page, you can see a message that lists your current score and the minimum score
+that is required to pass the entrance exam. You can begin the exam immediately.
 
 .. image:: ../../shared/students/Images/EntEx_LandingPage.png
   :width: 500
@@ -84,8 +88,6 @@ After you pass the entrance exam, in addition to the message at the top of the
 page, you can see all of the currently available course sections in the course
 navigation pane, and you can access all available course materials.
 
-The course team can allow learners to skip the entrance exam. If a course team
-member allows you to skip the entrance exam, you do not see the entrance exam
-when you access the course.
+
 
 .. include:: ../../links/links.rst
