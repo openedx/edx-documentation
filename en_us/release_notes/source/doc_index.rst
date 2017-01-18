@@ -16,6 +16,12 @@ documentation.
   :depth: 2
 
 *************************
+Week Ending 13 Jan 2017
+*************************
+
+.. include:: 2017/documentation/docs_2017-01-13.rst
+
+*************************
 Week of 19 September 2016
 *************************
 
