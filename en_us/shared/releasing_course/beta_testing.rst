@@ -14,9 +14,12 @@ This topic describes how to beta test your course.
 Overview
 ****************************
 
-When you are designing a course in Studio, you can select **View Live** to test
-your work, find gaps and errors, and mimic the learner experience. To
-gather information about the overall experience of taking a course, you can
+When you are designing a course in Studio, you can use the **Preview** or
+**View Live** options to test the course content, find gaps and errors, and
+mimic the learner experience. For more information, see :ref:`Testing Your
+Course Content`.
+
+To gather information about the overall experience of taking a course, you can
 also conduct a beta test of the course.
 
 .. _Beta_Process:

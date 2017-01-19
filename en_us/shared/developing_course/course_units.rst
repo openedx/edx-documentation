@@ -141,7 +141,9 @@ The following information summarizes whether or not learners can see a unit.
   last published version of the unit if the :ref:`release dates<Release Dates>`
   for the containing section and subsection have passed.
 
-For more information, see :ref:`Controlling Content Visibility`.
+For more information, see :ref:`Controlling Content Visibility`. For
+information about testing content, see :ref:`Testing Your Course Content`.
+
 
 .. _Unit Publishing Status:
 
@@ -175,7 +177,7 @@ status is **Draft (Never Published)**, as shown in the status panel.
  instructor-paced and self-paced courses, see :ref:`Setting Course Pacing`.
 
 In Studio, you see the draft content as you develop the unit. Though you do not
-see the unit in the LMS, you can :ref:`preview the unit<Preview Course
+see the unit in the LMS, you can :ref:`preview the unit<Preview Unpublished
 Content>`.
 
 Learners never see a unit with this status, even after the release date (in an
@@ -390,8 +392,8 @@ When you are revising a previously published unit, it can be helpful to preview
 your changes in one browser window and :ref:`view the published unit<View a
 Published Unit>` in a second window.
 
-For more information about previewing course content, see :ref:`Preview Course
-Content`.
+For information about previewing and testing content, see :ref:`Testing Your
+Course Content`.
 
 .. _Publish a Unit:
 
@@ -472,6 +474,9 @@ changes in the LMS until you publish the unit again.
 
 If the unit status is `Draft (Never Published)`_, **View Live Version** is not
 enabled.
+
+For information about viewing and testing content, see :ref:`Testing Your
+Course Content`.
 
 .. _Hide a Unit from Students:
 
