@@ -15,6 +15,11 @@ process.
 This section also describes how you :ref:`add a transcript<Add a Video
 Transcript>` and associate it with the video file in a video component.
 
+.. contents::
+  :local:
+  :depth: 1
+
+
 .. _Copy the edX Video ID:
 
 ************************

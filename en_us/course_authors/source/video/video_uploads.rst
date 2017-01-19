@@ -13,11 +13,9 @@ at edX.
 
 .. removed "how course teams enable the video upload process in Studio", which is commented out below in this file.
 
-* :ref:`Specifications for Successful Video Files`
-
-* :ref:`Upload Video Files`
-
-* :ref:`Monitor Video Processing`
+.. contents::
+  :local:
+  :depth: 2
 
 The result of video processing is additional file formats that are transferred
 to multiple hosting services (YouTube CMS and Amazon AWS), ready for learners
@@ -175,10 +173,13 @@ partner support team. See :ref:`Create YouTube Channels`.
 .. important:: You must leave the **Video Uploads** page open in your
    browser until the upload process is complete for all files.
 
-When the status of an uploaded file changes to "Ready", the file upload
-process is successful. If the status of an upload is "Failed", the file upload
-process was not successful. You can monitor file progress on the **Video
-Uploads** page or download a report.
+When the status of an uploaded file changes to "Ready", the file upload process
+is successful. If the status of an upload is "Failed", the file upload process
+was not successful. The duration of a video is listed as "Pending" until the
+process determines the duration.
+
+You can monitor file progress by checking statuses on the **Video Uploads**
+page or by :ref:`downloading a report<Reporting Video Status>`.
 
 
 .. _Delete Videos from Upload Page:
@@ -217,7 +218,7 @@ Monitor Video Processing
 After your video files successfully reach the edX servers, automated
 processing begins.
 
-.. note:: Automated processing takes 24 hours to complete.
+.. note:: Automated processing takes up to 24 hours to complete.
 
 A list of every file that you attempt to upload to the edX servers appears in
 the **Previous Uploads** section of the **Video Uploads** page. The list
@@ -239,10 +240,10 @@ The encoding and hosting process assigns these statuses to video files.
   processing. See :ref:`Specifications for Successful Video Files`. Then try
   uploading the file (or its replacement) again.
 
-* **Uploaded** files have successfully completed uploading to the edX servers.
-
 * **In Progress** files are undergoing processing to create additional file
   formats or waiting for successful transfer to the host sites.
+
+* **Uploaded** files have successfully completed uploading to the edX servers.
 
 * **Ready** files are ready for inclusion in your course and for learners to
   view. See :ref:`Adding Videos to a Course`. When you click the names of
@@ -257,25 +258,28 @@ The encoding and hosting process assigns these statuses to video files.
   processing fails more than once for a file, contact edX partner support at
   partner-support@edx.org.
 
-Statuses of **Invalid Token** or **Unknown** indicate a configuration
-problem. Inform edX partner support if these statuses appear.
+* **Failed Duplicate** is the status for files that failed to upload because
+  the system identified them as duplicates.
+
+* **Invalid Token** or **Unknown** indicate a configuration problem. Inform edX
+  partner support if these statuses appear.
 
 For more information, see :ref:`Video Encoding and Hosting Overview`.
 
 .. _Reporting Video Status:
 
-================================
-Reporting Video Statuses
-================================
+==========================================
+Downloading the Available Encodings Report
+==========================================
 
-View detailed information about the video files that you upload in the
-available encodings report. The available encodings report includes the status
-of the encoding and hosting process for each video file that you upload, the
-identifier for the video, and the URLs for each encoding format. The available
-encodings report is a comma separated values (.csv) file that you can view in a
+The Available Encodings report provides detailed information about the video
+files that you have uploaded. This report includes the status of the encoding
+and hosting process for each video file that you have uploaded, the identifier
+for the video, and the URLs for each encoding format. The Available Encodings
+report is a comma separated values (.csv) file that you can view in a
 spreadsheet application or text editor.
 
-To download the available encodings report, follow these steps.
+To download the Available Encodings report, follow these steps.
 
 #. Open the course in Studio.
 
@@ -290,7 +294,7 @@ The .csv file includes the following columns.
 * The file **Name**.
 
 * The file **Duration**. If the upload process has not yet determined how long
-  the file is, **Pending** appears.
+  the file is, **Pending** appears in the **Duration** column for a video.
 
 * The **Date Added**, which shows the date and time that you uploaded the
   video file.
