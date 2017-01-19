@@ -340,9 +340,10 @@ You can hide a subsection from learners in the following ways.
   way are not included when grades are calculated.
 
 * :ref:`Prevent learners from accessing <Hide a Subsection After its Due
-  Date>` a subsection's contents after its due date has passed, but keep the
-  subsection visible in course navigation. Subsections that are hidden in
-  this way remain included when grades are calculated.
+  Date>` a subsection's contents after its due date (for instructor-led
+  courses) or the course end date (for self-paced courses) has passed, but
+  keep the subsection visible in course navigation. Subsections that are
+  hidden based on date remain included when grades are calculated.
 
 For more information, see :ref:`Content Hidden from Students`.
 
@@ -388,32 +389,40 @@ To make the subsection visible to learners, repeat these steps and select
 .. _Hide a Subsection After its Due Date:
 
 ========================================
-Hide a Subsection after Its Due Date
+Hide a Subsection Based on Date
 ========================================
 
-You can make a subsection's content unavailable when its due date has passed.
-Subsections that are hidden in this way remain visible in the course
-navigation, and are included when grades are calculated. However, learners can
-no longer access the assignments or exams after the subsection due date.
+You can make a subsection's content unavailable based on date. For example, you
+might want to make exam questions unavailable after a certain date. For
+instructor-led courses, this option uses the subsection's due date. For self-
+paced courses, this option uses the course's end date.
 
-To hide a subsection after its due date, follow these steps.
+Subsections that are hidden in this way remain visible in the course navigation,
+and are included when grades are calculated. However, learners can no longer
+access the subsection's content after the due date or the course end date.
+
+To hide a subsection based on date, follow these steps.
 
 #. Select the **Configure** icon in the subsection box.
 
    The **Subsection Settings** dialog box opens.
 
-#. In the **Subsection Visibility** section, select **Hide content after due
-   date**.
+#. In the **Subsection Visibility** section, select the appropriate option.
+
+   * In instructor-led courses, select **Hide content after due date**.
+
+   * In self-paced courses, select **Hide content after course end date**.
 
 #. Select **Save**.
 
-Learners who access the subsection after its due date has passed see a message
-indicating that the subsection is no longer available because the due date has
-passed.
+Learners who access the subsection after the due date or course end date has
+passed are shown a message indicating that the subsection is no longer
+available because the due date (or course end date) has passed.
 
 In the course outline in Studio, the subsection is shown with an icon and a
-"Subsection is hidden after due date" message under the subsection's display
-name.
+"Subsection is hidden after due date" or "Subsection is hidden after course
+end date" message under the subsection's display name.
+
 
 .. _Delete a Subsection:
 
@@ -425,7 +434,7 @@ When you delete a subsection, you delete all units within the subsection.
 
 .. warning::
  You cannot restore course content after you delete it. To ensure you do not
- delete content you may need later, you can move any unused content to a
+ delete content that you might need later, you can move any unused content to a
  section in your course that you set to never release.
 
 To delete a subsection, follow these steps.

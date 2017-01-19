@@ -16,8 +16,13 @@ was scheduled for release on a specific date, or because you completed required
 content that allowed you to proceed to further content.
 
 * In some courses, the course team schedules the dates on which the sections of
-  the course content become available to you. On the date that the course team
+  the course content are available to you. On the date that the course team
   chooses, the course content appears in the course navigation pane.
+
+* Course teams might make course content unavailable at certain points in the
+  course. For example, after an assignment's due date has passed, or after the
+  end date of a self-paced course, the assignment might no longer be
+  available.
 
 * Some courses include content that has prerequisite sections. Prerequisite
   sections require that you complete other, previous sections before they

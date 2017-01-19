@@ -81,9 +81,15 @@ Course End Date and Time
 ============================
 
 The course end date and time specify when learners can no longer earn credit
-toward certificates. Learners can continue to complete coursework, but cannot
-earn credit after the course ends. Learners who have earned certificates can
-view the certificates soon after the course end date.
+toward certificates. Learners can continue to complete available coursework,
+but cannot earn credit after the course ends. Learners who have earned
+certificates can view the certificates soon after the course end date.
+
+In self-paced courses, course teams can make certain course components
+unavailable based on the course end date. For example, course teams can make a
+final exam unavailable after the end date for a self-paced course. For more
+details, see :ref:`Hide a Subsection After its Due Date`.
+
 
 .. important::
   If you do not set a course end date, learners cannot access earned
@@ -196,12 +202,16 @@ To set an advertised start date in Studio, follow these steps.
 
 .. _View Start and End Dates:
 
-***************************************
-View Start and End Dates as a Learner
-***************************************
+************************************************
+The Learner's View of Course Start and End Dates
+************************************************
 
-Learners can view the start date for a course on the course **About** page,
-and, after they enroll in the course, on their dashboards.
+When learners browse courses, the start date for each course is shown in the
+course catalog and in the course's About page.
+
+.. image:: ../../../shared/images/course_dates.png
+ :alt: Course cards in the course catalog, showing each course's start date.
+ :width: 800
 
 .. image:: ../../../shared/images/about-page-course-start.png
  :alt: The course About page, showing the start date.
@@ -212,9 +222,11 @@ and, after they enroll in the course, on their dashboards.
   To find the URL of your course's **About** page in Studio, select
   **Settings** and then **Schedule & Details**.
 
-After learners enroll in your course, the course appears on their course
+After learners enroll in courses, the courses appear on their course
 dashboards. To access the dashboard, learners select their usernames and then
-**Dashboard**.
+**Dashboard**. For a course that is in progress or has not yet started, the
+start date is shown. For a course that has ended, the course end date is
+shown.
 
 .. image:: ../../../shared/images/dashboard-course-start-and-end.png
  :alt: The learner dashboard with a course in progress, one that has ended, one
@@ -222,14 +234,5 @@ dashboards. To access the dashboard, learners select their usernames and then
   started.
  :width: 800
 
-For a course that is in progress or has not yet started, the start date is
-shown. For a course that has ended, the course end date is shown.
-
-.. only:: Partners
-
-  .. note:: These sample images are from the edX Edge website. They show
-   an **About** page and a learner dashboard on an instance powered by Open
-   edX. On the `edx.org`_ website these pages present the same information, but
-   are styled differently.
 
 .. include:: ../../../links/links.rst
