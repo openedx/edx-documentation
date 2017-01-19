@@ -4,23 +4,25 @@
 Writing Essays
 ##############
 
-Some courses include assignments that require written responses to questions
-that might not have simple or definitive answers. To score one of these essay
-style assignments, you might be asked to do one or more of the following.
+Some courses include assignments that require you to submit written responses
+to questions that do not have simple or definitive answers. Because these
+essay assignments have a flexible design and can include different assessment
+options, they are called open response assessments.
 
+In open response assessments, after you submit an essay response to the
+question, you might be asked to do one or more of the following tasks.
+
+* Practice assessing a sample essay.
 * Assess your own work.
 * Assess the essays written by other learners.
 
-To receive your score for an essay style assignment, you might receive one or
-more of the following.
+To complete an open response assessment and receive a score, you might need to
+have your essay assessed by one or more of the following groups of people.
 
-* Assessments from other learners in the course.
-* An assessment from a member of the course team.
+* Other learners in the course.
+* A member of the course team.
 
-Because these essay assignments have a flexible design and can include
-different assessment options, they are called open response assessments.
-
-This topic describes how to work with open response assessments in your edX
+This section describes how to work with open response assessments in your edX
 course.
 
 .. contents::
@@ -385,12 +387,17 @@ been assessed by the required number of peer reviewers.
    course staff has graded your response, a **Staff Grade** section appears in
    the grading details for your assignment.
 
-==========================================
+***************************************
 Receive Your Score and Provide Feedback
-==========================================
+***************************************
 
-After you submit your self assessment, if other learners are still assessing
-your response, you see this message under the **Assess Your Response** step.
+After you have assessed the required number of peer responses and completed
+your self assessment (if a self assessment is required), you have completed
+the assignment. If your work has received the required number of peer
+assessments, you can receive your score immediately.
+
+If other learners are still assessing your response, you see the following
+message under the **Assess Your Response** step.
 
 .. code-block:: xml
 
