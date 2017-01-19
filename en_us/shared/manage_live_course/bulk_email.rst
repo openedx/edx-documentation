@@ -61,9 +61,12 @@ The following preset recipient groups are available.
   does not include learners who have not activated their accounts, or who
   have opted out of receiving email communications.
 
-In addition, if you have cohorts enabled in your course, each cohort is
-available as a separate recipient group. For more information, see :ref:`Bulk
-Email Cohorts`.
+If you have more than one enrollment track in your course, each enrollment
+track is available as a separate recipient group. For more information, see
+:ref:`Enrollment Track Recipient Groups`.
+
+If you have cohorts enabled in your course, each cohort is available as a
+separate recipient group. For more information, see :ref:`Bulk Email Cohorts`.
 
 
 .. _Bulk Email Who Is Included or Excluded:
@@ -104,6 +107,21 @@ should be aware of who is included in each group.
    learners, select both **Staff and Administrators** and **All Learners**.
    Recipients who are in both groups will receive only one copy of the email
    message.
+
+
+.. _Enrollment Track Recipient Groups:
+
+==================================================================
+Sending Email Messages to Learners in Different Enrollment Tracks
+==================================================================
+
+If you have more than one enrollment track in your course, each enrollment
+track is available as a separate recipient group. If your course includes only
+a single enrollment track, you will not have a track-based recipient group.
+
+For example, if your course includes an audit track and a verified certificate
+track, you have two additional recipient groups: **Learners in the Audit
+Track** and **Learners in the Verified Certificate Track**.
 
 
 .. _Bulk Email Cohorts:
