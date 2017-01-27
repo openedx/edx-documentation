@@ -86,6 +86,9 @@ platform.
    * - ENABLE_COURSEWARE_SEARCH
      - Supported
      - FALSE
+   * - ENABLE_CREATOR_GROUP
+     - Supported
+     - FALSE
    * - ENABLE_CREDIT_API
      - Supported
      - FALSE
