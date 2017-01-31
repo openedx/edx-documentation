@@ -46,7 +46,7 @@ In the LMS
    Cohorts>`.
 #. :ref:`Associate one or more cohorts with a content group<Associate Cohorts
    with Content Groups>`.
-#. :ref:`Preview cohort-specific course content<Preview Cohort Specific
+#. :ref:`Preview cohort-specific course content<Viewing Cohort Specific
    Courseware>`.
 
 .. _Cohorted Courseware Example:
@@ -171,7 +171,7 @@ To view the units that are visible to a content group, follow these steps.
    Components in Courseware as Visible Only to Certain Content Groups>`.
 
 For details about previewing your course to ensure that learners in a cohort
-correctly see the content intended for them, see :ref:`Preview Cohort Specific
+correctly see the content intended for them, see :ref:`Viewing Cohort Specific
 Courseware`. For details about deleting content groups, see :ref:`Delete
 Content Groups`.
 
@@ -264,14 +264,14 @@ content is visible only to particular groups.
    :width: 300
 
 For details about previewing your course to ensure that students in a cohort
-correctly see the content intended for them, see :ref:`Preview Cohort Specific
+correctly see the content intended for them, see :ref:`Viewing Cohort Specific
 Courseware`.
 
 .. note:: In addition to visibility settings for content groups, a learner's
    ability to see a course component also depends on whether it is hidden from
    students, whether the unit is published, and the course's release date. For
-   details about previewing course content in general, see :ref:`Preview Course
-   Content`.
+   details about testing course content in general, see :ref:`Testing Your
+   Course Content`.
 
 .. _Associate Cohorts with Content Groups:
 
@@ -316,57 +316,30 @@ by repeating steps 3 to 7.
 For an example of using content groups to create cohort-specific course
 content, see :ref:`Cohorted Courseware Example`.
 
-.. _Preview Cohort Specific Courseware:
+
+.. _Viewing Cohort Specific Courseware:
 
 **************************************
-Preview Cohort-Specific Course Content
+Viewing Cohort-Specific Course Content
 **************************************
 
 After you designate components as being visible only to certain content groups,
-you can preview your course content to ensure that each group correctly sees
-the content intended for them.
+you can view your course content as a member of a content group to ensure that
+members of each group correctly see the content intended for them.
 
 .. note:: In addition to visibility settings for content groups, a learner's
-   ability to see a course component also depends on whether it is hidden from
-   students, whether the unit is published, and the course's release date. For
-   details about previewing course content in general, see :ref:`Preview Course
+   ability to see a course component also depends on whether it is marked as
+   visible to staff only, whether the unit is published, and the component's
+   release date. For details about viewing course content in various publishing
+   states, see :ref:`View Published Content` and :ref:`Preview Unpublished
    Content`.
 
-You can view the course as a member of these groups.
+Depending on whether you want to view published content or unpublished content,
+you choose either **View Live** or **Preview** from the course outline in
+Studio. You can then experience the course content as a learner in a particular
+group would, by selecting the **View this course as** option for a student in
+the desired content group, as described in :ref:`Roles for Viewing Course
+Content`.
 
-.. list-table::
-    :widths: 15 30
-    :header-rows: 1
-
-    * - Role
-      - When You "View As" This Role
-    * - Staff
-      - You see all content in the course, including content that is hidden
-        from learners.
-    * - Student
-      - You see any content that is intended for all
-        students.
-    * - Specific Student
-      - You see content that is intended for the student whose email or
-        username you specify.
-    * - Student in <Content Group Name>
-      - You see content that is intended for all learners, as well
-        as any content specifically set to be visible to this content group.
-
-#. In Studio, in the course outline, select **Preview**. You see your
-   course section in the **Course** section of the LMS.
-
-#. In the navigation bar at the top of the page, select one of the options in
-   the **View this course as** drop down list, as described in the table above.
-
-   .. image:: ../../../../shared/images/Cohorts_ViewCourseAs.png
-     :alt: The "View this course as" drop down list, with a content group
-         selected.
-     :width: 400
-
-The course view refreshes and the content is presented as a member of the
-selected content group would see it.
-
-After your course is live, you can also see the live version as a learner would
-see it, by selecting **View Live** from Studio. For more information, see
-:ref:`View Your Live Course`.
+For details about testing course content, see :ref:`Testing Your Course
+Content`.

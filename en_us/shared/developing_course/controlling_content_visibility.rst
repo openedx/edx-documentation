@@ -38,9 +38,8 @@ Published units are not visible to learners until the scheduled release date
 and time. When the section and subsection have different release schedules,
 published units are not visible until both dates have passed.
 
-Prior to release, content is visible to course team members by
-:ref:`previewing the course <Preview Course Content>` or :ref:`viewing the live
-course as staff<View Your Live Course>`.
+Course team members can access content that has not been released by
+:ref:`previewing the course <Preview Unpublished Content>`.
 
 .. note::
    When you set release times in Studio, times are in Coordinated Universal
