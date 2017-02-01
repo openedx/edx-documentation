@@ -90,11 +90,15 @@ your course content.
    learners select a subsection. A tooltip with the unit's name appears when
    learners move the pointer onto an icon.
 
-   Learners select icons in the unit navigation bar to access course units. They
-   can also use the **Previous** and **Next** options at either end of the unit
-   navigation bar to move back to the previous unit or forward to the next unit.
-   The current unit is indicated with bold underlining in the unit navigation
-   bar.
+   Learners select icons in the unit navigation bar to access course units.
+   They can also use the **Previous** and **Next** options at either end of
+   the unit navigation bar to move back to the previous unit or forward to the
+   next unit. The current unit is indicated with bold underlining in the unit
+   navigation bar.
+
+As you develop your course, you can preview draft content from the learner's
+point of view. For more information, see :ref:`Testing Your Course Content`.
+
 
 .. _Navigating the Course Outline:
 
@@ -130,6 +134,8 @@ You can add content in the course outline by creating a new section,
 subsection, or unit, or by duplicating an existing unit, subsection, or
 section.
 
+For information about adding content to a unit, see :ref:`Developing Course
+Components`.
 
 .. the following note is for prerequisite exams, which are currently released in open edx only and not on edx.org.  when they are available on edx.org, this note should no longer be conditionalized.
 
@@ -174,6 +180,7 @@ original item, with the name "Duplicate of <original item name>".
    units before they are visible to learners. For more information about
    release statuses and visibility of sections to learners, see :ref:`Sections
    and Visibility to Learners`.
+
 
 .. _Modify Settings for Objects in the Course Outline:
 
@@ -239,16 +246,20 @@ Reorganize the Course Outline
 You can reorganize your course content by dragging and dropping sections,
 subsections, and units to new locations in the outline.
 
-To move a section, subsection, or unit, move your cursor over the handle on the
-right of the object's box until the cursor changes to a four-headed arrow. For
-example, in the image below, the handle for the subsection Lesson 1 - Getting
-Started is selected.
+You can reorganize components by dragging and dropping them within the same
+unit, or by moving them from one unit to another unit. For more information,
+see :ref:`Reorganizing Components`.
+
+To drag a section, subsection, or unit to another position in the course
+outline, move your cursor over the handle on the right of the object's box
+until the cursor changes to a four-headed arrow. For example, in the image
+below, the handle for the subsection Lesson 1 - Getting Started is selected.
 
 .. image:: ../../../shared/images/outline-drag-select.png
  :alt: A subsection handle selected to drag it.
  :width: 500
 
-Then, click and drag the object to the location that you want.
+Then, select and drag the object to the location that you want.
 
 If you expanded the section or subsection you are moving the object to, when
 you move the object, a blue line indicates where the object will land when you

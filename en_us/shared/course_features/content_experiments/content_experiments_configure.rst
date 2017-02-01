@@ -4,8 +4,8 @@
 Configure Your Course for Content Experiments
 #####################################################
 
-This section provides instructions to configure your course to use content
-experiments.
+This section provides instructions for configuring your course to use
+:ref:`content experiments<Overview of Content Experiments>`.
 
 .. contents::
   :local:
@@ -52,19 +52,20 @@ To enable content experiments in your course, you add ``split_test`` to the
 Overview of Group Configurations
 ****************************************
 
-Before you can create content experiments, you must specify at least one group
-configuration for your course.
+Before you can create :ref:`content experiments<Overview of Content
+Experiments>`, you must specify at least one group configuration for your
+course.
 
 A group configuration defines how many groups of learners are in an experiment.
 You can have any number of group configurations in your course. When you create
 a content experiment, you select the group configuration to use.
 
-For example, you may want to do two different experiments at different times
-during your course. In one content experiment, learners either see a video or
-complete a reading assignment. You can then include problems so that you can
-see which group learned the material more completely. For this content
-experiment, you need a group configuration that assigns your learners to two
-experiment groups.
+For example, you might want to run two different content experiments at
+different times during your course. In one content experiment, learners either
+see a video or complete a reading assignment. You can then include problems so
+that you can see which group learned the material more completely. For this
+content experiment, you need a group configuration that assigns your learners
+to two experiment groups.
 
 In the other content experiment, you can present the same question using four
 different types of problems. For this content experiment, you need a
@@ -77,7 +78,7 @@ Assigning Learners to Experiment Groups
 The edX Platform assigns learners to each experiment group in a group
 configuration.
 
-Experiment group assignments are:
+Experiment group assignments have the following characteristics.
 
 * Dynamic
 
@@ -115,8 +116,9 @@ Configurations**. The **Group Configurations** page opens.
 
 From this page you can :ref:`create<Create a Group Configuration>`,
 :ref:`edit<Edit a Group Configuration>`, and :ref:`delete<Delete a Group
-Configuration>` group configurations. You can also :ref:`view experiments that
-use a group configuration<View Experiments that Use a Group Configuration>`.
+Configuration>` group configurations. You can also :ref:`view content
+experiments that use a group configuration<View Experiments that Use a Group
+Configuration>`.
 
 .. _Create a Group Configuration:
 
@@ -185,10 +187,11 @@ Edit a Group Configuration
     :alt: An image of the Edit a Group Configuration page.
     :width: 800
 
-#. Modify the name and description as needed.
+#. On the **Edit a Group Configuration** page modify the name and description as
+   needed.
 
-#. Modify groups in the configuration as needed. See `Create a Group
-   Configuration`_ for details.
+#. Modify groups in the configuration as needed. See :ref:`Create a Group
+   Configuration` for details.
 
 #. Select **Save** to save your changes.
 
@@ -207,7 +210,7 @@ Delete a Group Configuration
    select the Delete icon.
 
    .. image:: ../../../../shared/images/group-configuration-delete.png
-    :alt: An image of the Edit a Group Configuration page.
+    :alt: The Delete icon circled for a group configuration.
     :width: 800
 
 #. When prompted to confirm the deletion, select **Delete**.
@@ -218,24 +221,26 @@ Delete a Group Configuration
 View Experiments that Use a Group Configuration
 ===============================================
 
-You can view the experiments that use each of your group configurations.
+You can view the content experiments that use each of your group
+configurations.
 
 On the **Group Configurations** page, select the name of a group to see its
-details. You see links to experiments that use the group configuration:
+details. You see links to the content experiments that use this group
+configuration.
 
 .. image:: ../../../../shared/images/group_configurations_experiments.png
- :alt: An image of a group configuration with the experiments using the
+ :alt: An image of a group configuration with the content experiments using the
      configuration circled.
  :width: 800
 
-Select a link to go to the unit page that contains the experiment.
+Select a link to go to the unit that contains the content experiment.
 
 ===============================================
 View a Group Configuration from an Experiment
 ===============================================
 
 When working with a content experiment, you can view details about the group
-configuration used by that experiment in two ways:
+configuration used by that experiment in two ways.
 
 * In a unit that contains a content experiment, in the content experiment
   block, select the name of the group configuration.
@@ -253,7 +258,7 @@ configuration used by that experiment in two ways:
        link circled.
    :width: 800
 
-In both cases, the group configuration opens:
+In both cases, the group configuration opens.
 
 .. image:: ../../../../shared/images/group_configurations_experiments.png
  :alt: An image of the Group Configuration page with the experiments using it

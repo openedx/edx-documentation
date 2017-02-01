@@ -10,6 +10,9 @@ This section provides an introduction to using content experiments.
   :local:
   :depth: 1
 
+For more information, see :ref:`Configure Your Course for Content Experiments`
+and :ref:`Add Content Experiments to Your Course`.
+
 *********
 Overview
 *********
