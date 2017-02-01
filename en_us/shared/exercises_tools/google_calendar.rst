@@ -187,8 +187,8 @@ To add a Google Calendar component, follow these steps.
 
 #. Select **Save**.
 
-You can then :ref:`Preview Course Content` to see how the unit with the Google
-Calendar will appear to learners.
+You can then :ref:`Preview Unpublished Content` to see how the unit with the
+Google Calendar will appear to learners.
 
 .. _Add a Google Calendar XBlock in OLX:
 

@@ -15,7 +15,8 @@ depends on the publishing status of the content.
 * For published and released content, use :ref:`View Live<View Published
   Content>`.
 
-* For draft and unreleased content, use :ref:`Preview<Preview Course Content>`.
+* For draft and unreleased content, use :ref:`Preview<Preview Unpublished
+  Content>`.
 
 For more information, see the following topics.
 
@@ -63,7 +64,7 @@ mode, keep the following points in mind.
 
 * You do not see units that are in :ref:`Draft (Never Published)` status. To
   see these units, you must use Preview mode, as described in :ref:`Preview
-  Course Content`.
+  Unpublished Content`.
 
 * If you view the course in a role other than **Staff**, you do not have
   access to the **Instructor** tab or to staff functions such as **View Unit in
