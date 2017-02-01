@@ -6,4 +6,4 @@ students, or as a student with access to a specific content group.
 
 Previously, **Preview Changes** did not work until the content was live.
 
-For more information, see :ref:`partnercoursestaff:Preview Course Content`.
+For more information, see :ref:`partnercoursestaff:Preview Unpublished Content`.
