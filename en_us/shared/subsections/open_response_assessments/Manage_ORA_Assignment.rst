@@ -301,12 +301,9 @@ grading>`, locate the specific submission by following these steps.
 #. Ask the person who reported the incident to send you a sample of text from
    the inappropriate response.
 
-#. Contact your edX partner manager to request a data download of ORA
-   responses for your course.
+#. :ref:`Generate an ORA data report<Generate ORA Report>`.
 
-   You will receive the download as a spreadsheet or in .csv file format.
-
-#. Search the spreadsheet for text that matches the sample text from the
+#. Search the report for text that matches the sample text from the
    inappropriate response.
 
 #. From any matching entries in the spreadsheet, locate the username of the
