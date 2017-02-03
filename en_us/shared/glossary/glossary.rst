@@ -207,6 +207,10 @@ C
   page. For more information, see :ref:`partnercoursestaff:Adding Course
   Updates and Handouts`.
 
+**course mode**
+
+  See :ref:`enrollment track<enrollment_track_g>`.
+
 **Course Navigation Pane**
 
   The navigation frame that appears at one side of the **Course** page in the
@@ -232,6 +236,9 @@ C
   course. Sections, subsections, units, and components are all accessed from
   the **Course** page. This page was formerly called the **Courseware** page.
 
+**Course Track**
+
+  See :ref:`enrollment track<enrollment_track_g>`.
 
 .. _Courseware:
 
@@ -368,6 +375,57 @@ E
   edx.org website to learners in embargoed countries. Learners cannot access
   restricted courses from an embargoed country. In some cases, depending on the
   terms of the embargo, learners cannot access any edX courses at all.
+
+**enrollment mode**
+
+  See :ref:`enrollment track<enrollment_track_g>`.
+
+.. _enrollment_track_g:
+
+**enrollment track**
+
+  Also called **course mode**, **course track**, **enrollment mode**, or
+  **seat type**.
+
+  The enrollment track specifies the following items about a course.
+
+    * The type of certificate, if any, that learners receive if they pass the
+      course.
+    * Whether learners must verify their identity to earn a certificate, using
+      a webcam and a government-issued photo ID.
+    * Whether the course requires a fee.
+
+  The edX platform offers the following enrollment tracks.
+
+  * **audit**: The default enrollment track. This track does not offer
+    certificates, does not require identity verification, and does not require
+    a course fee.
+
+  * **verified**: This enrollment track offers verified certificates to
+    learners who pass the course, verify their identities, and pay a required
+    course fee. A course that offers the verified enrollment track also
+    automatically offers a free enrollment track, either the audit track or
+    honor track.
+
+  * **honor**: This enrollment track offers an honor code certificate to
+    learners who pass the course. This track does not require identity
+    verification and does not require a fee. Note, however, that as of December
+    2015, edx.org no longer offers honor code certificates. For more
+    information, see `News About edX Certificates`_.
+
+  .. only:: Open_edX
+
+    * **professional**: This enrollment track is used for professional
+      education courses. The professional enrollment track offers certificates,
+      requires identity verification, and requires a fee. Fees for the
+      professional enrollment track are generally higher than fees for the
+      verified enrollment track. Courses that offer the professional track do
+      not offer a free enrollment track.
+
+    * **professional (no ID)**: Like the professional enrollment track, this
+      track offers certificates and requires a fee. However, this track does
+      not require identity verification. Courses that offer the professional
+      (no ID) track do not offer a free enrollment track.
 
 
 .. _Exercises:
@@ -769,6 +827,9 @@ R
 S
 ****
 
+**seat type**
+
+  See :ref:`enrollment track<enrollment_track_g>`.
 
 .. _Section_g:
 

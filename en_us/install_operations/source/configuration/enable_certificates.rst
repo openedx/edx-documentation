@@ -83,6 +83,9 @@ Configure Certificates for Your Open edX Instance
    ``document_body_class_append``. The mode name should match your course mode
    name exactly. An example follows.
 
+   For more information about course modes, sometimes called enrollment modes
+   or enrollment tracks, see :ref:`enrollment track<enrollment_track_g>`.
+
    .. code-block:: bash
 
     {
@@ -133,8 +136,11 @@ Discontinue Audit Track Certificates
 Organizations that offer certificates to audit track learners who pass a
 course can discontinue generation of this type of certificate. For example,
 your organization makes a strategic decision to offer certificates only to
-learners who select an enrollment mode other than "audit". Learners can
+learners who select an enrollment track other than "audit". Learners can
 continue to audit courses, but they no longer receive certificates.
+
+For more information about course tracks, also called enrollment modes or
+enrollment tracks, see :ref:`enrollment track<enrollment_track_g>`.
 
 An outline of the steps you might take if your organization decides to stop
 offering certificates for learners in the audit track follows.

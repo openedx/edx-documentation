@@ -100,6 +100,9 @@ Add a Course Mode in Django
 To manage course fees, you must add a mode for the course in the Django
 administration website for your Open edX instance.
 
+For more information about course modes, also called enrollment tracks, see
+:ref:`enrollment track<E>`.
+
 #. Make sure that you have "superuser" rights on your Open edX production
    stack. For more information, see `Managing the Full Stack
    <https://github.com/edx/configuration/wiki/edX-Managing-the-Full-Stack>`_.

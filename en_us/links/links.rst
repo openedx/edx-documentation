@@ -443,8 +443,6 @@
 .. _the documentation for Sass variable defaults: http://sass-lang.com/documentation/file.SASS_REFERENCE.html#variable_defaults_
 .. _Sass/CSS Styleguide: https://github.com/edx/ux-pattern-library/wiki/Styleguide:-Sass-&-CSS
 
-.. _Certificates Blog: http://blog.edx.org/news-about-edx-certificates?track=blog
-
 .. _News About edX Certificates: http://blog.edx.org/news-about-edx-certificates?track=blog
 
 .. _edX course catalog: https://www.edx.org/course-list/allschools/verified/allcourses`

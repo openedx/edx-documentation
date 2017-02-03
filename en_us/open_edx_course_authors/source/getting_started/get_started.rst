@@ -5,20 +5,20 @@ Getting Started with Studio
 ###########################
 
 This topic describes the tools you use to build an Open edX course, and how
-to create your first course.
+to view your courses.
 
 .. contents::
   :local:
   :depth: 1
 
 If you are creating a course to run on `edx.org`_ or `edX Edge`_, see
-:ref:`partnercoursestaff:Getting Started with Studio` in the *Building and
-Running an edX Course* guide.
+:ref:`partnercoursestaff:Getting Started with Studio` in *Building and
+Running an edX Course*.
 
 .. _What is Studio?:
 
 ***************
-What is Studio?
+What Is Studio?
 ***************
 
 Studio is the edX tool you use to build your courses.
@@ -32,54 +32,26 @@ course team, set the grading policy, publish your course, and more.
 You use Studio directly through your browser. You do not need any additional
 software.
 
-.. _Create Your First Course:
+****************
+What Is the LMS?
+****************
 
-***************************
-Create Your First Course
-***************************
+The LMS is the web-based tool where you view the courses you have created in
+Studio.
 
-When you log in to Studio, you see the following page, which is your **My
-Courses** dashboard.
+If you have not created a course, see :ref:`Creating a New Course`.
 
-.. image:: ../../../shared/images/first_course.png
- :width: 600
- :alt: Image of the Studio home page where you create your first course
+#. In Studio, locate your course on your dashboard and open your course.
 
-#. Select **Create Your First Course**.
+#. On the **Course Outline** page, select **View
+   Live**.
 
-#. Enter course information as needed, and then select **Create**.
+   Your course enrollment page opens in a new browser tab.
 
-  .. image:: ../../../shared/images/new_course_info.png
-   :width: 600
-   :alt: Image of the Create New Course page
+#. Select **Enroll** to enroll in your course. After you enroll in your course,
+   it opens in the edx.org LMS.
 
-  .. note::
-    Enter new course information carefully. This information becomes part of
-    the URL for your course. Because this information becomes part of your
-    course URL, the total number of characters in the following three fields
-    must be 65 or fewer.
-
-  * For **Course Name**, enter the title of your course. For example, the name
-    may be "Sets, Maps and Symmetry Groups". Use title capitalization for the
-    course title.
-
-  * For **Organization**, enter the name of your institution. Do not include
-    whitespace or special characters.
-
-  * For **Course Number**, enter both a subject abbreviation and a number. For
-    example, for public health course number 207, enter **PH207**. For math
-    course 101x, enter **Math101x**. Do not include whitespace or special
-    characters in the course number.
-
-#. Select **Save.**
-
-Your new course opens to the **Course Outline** page. Because no content has
-been added, this page is empty.
-
-In your browser's address bar, notice that the URL of your course includes the
-course organization, number, and course run.
-
-The other sections of this guide describe how you now build and run your
-course.
+#. To continue working on your course, return the browser tab that shows
+   Studio.
 
 .. include:: ../../../links/links.rst
