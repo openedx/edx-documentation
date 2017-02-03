@@ -644,6 +644,9 @@ while the browser was closed. If your proctoring software was also stopped,
 contact edX Support. Depending on the circumstances, your course team will
 have to decide whether your proctored exam attempt is valid.
 
+
+.. _Completing a Proctored Exam:
+
 **********************************
 Completing a Proctored Exam
 **********************************
@@ -652,6 +655,8 @@ When you finish a proctored exam before the count down timer reaches 00:00,
 select **Submit** to submit your responses. The exam stops, and the data from
 your proctoring session is uploaded to the online proctoring service for
 review.
+
+.. _Proctoring Session Review Results:
 
 ====================================
 Proctoring Session Review Results
