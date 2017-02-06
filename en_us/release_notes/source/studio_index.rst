@@ -10,6 +10,13 @@ The following information summarizes what is new in edX Studio.
   :local:
   :depth: 2
 
+
+*************************
+Week ending 3 Feb 2017
+*************************
+
+.. include:: 2017/studio/studio_2017-02-03.rst
+
 *************************
 Week ending 27 Jan 2017
 *************************
