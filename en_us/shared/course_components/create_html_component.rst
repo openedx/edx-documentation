@@ -342,12 +342,12 @@ Add a Link to a Course Unit
 .. note:: To link to another component, the unit of that destination component
   must be published for the link to work.
 
-#. Obtain the unit identifier of the unit you want to link to. To do this, open
-   the unit page in Studio, and copy the unit ID from the **Unit Identifier**
+#. Obtain the location ID of the unit you want to link to. To do this, open
+   the unit page in Studio, and copy the unit ID from the **Location ID**
    field under **Unit Location** in the right pane.
 
    .. image:: ../../../shared/images/UnitIdentifier.png
-    :alt: An image of the unit page with the unit identifier circled.
+    :alt: An image of the unit page with the location ID circled.
     :width: 600
 
 #. Open the HTML component where you want to add the link.
@@ -358,10 +358,10 @@ Add a Link to a Course Unit
 
 #. In the **Insert link** dialog box, enter the following in the **URL** field.
 
-   ``/jump_to_id/<unit identifier>``
+   ``/jump_to_id/<location ID>``
 
-   Make sure to replace <unit identifier> (including the brackets) with the
-   unit identifier that you copied in step 1, and make sure to include both
+   Make sure to replace <location ID> (including the brackets) with the
+   location ID that you copied in step 1, and make sure to include both
    forward slashes (/).
 
    .. image:: ../../../shared/images/HTML_Insert-EditLink_CourseUnit.png
@@ -370,9 +370,9 @@ Add a Link to a Course Unit
     :width: 400
 
   .. caution::
-    Ensure you use ``/jump_to_id/<unit identifier>`` as the URL value. Do not
+    Ensure you use ``/jump_to_id/<location ID>`` as the URL value. Do not
     use the URL of the unit that you see in the browser address bar.  If you do
-    not use ``/jump_to_id/<unit identifier>``, the link will be broken if you
+    not use ``/jump_to_id/<location ID>``, the link will be broken if you
     export then import the course.
 
 #. If you want the link to open in a new window, select the dropdown arrow
