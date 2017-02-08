@@ -137,74 +137,175 @@ Configure the LMS
 
 To configure the LMS, follow these steps.
 
-#. Verify that the following settings in ``lms.env.json`` are correct.
+#. Ensure devstack Vagrant virtual machine ("**VM**") is up and running.
 
-   .. code-block:: bash
+   .. code:: sh
 
-      "ECOMMERCE_API_URL": "http://localhost:8002/api/v2/"
-      "ECOMMERCE_PUBLIC_URL_ROOT": "http://localhost:8002/"
-      "JWT_ISSUER": "http://127.0.0.1:8000/oauth2" // Must match the E-Commerce JWT_ISSUER setting
-      "OAUTH_ENFORCE_SECURE": false
-      "OAUTH_OIDC_ISSUER": "http://127.0.0.1:8000/oauth2"
+       vagrant up
 
-#. Verify that the following settings in ``lms.auth.json`` are correct.
+#. Sign in to the VM.
 
-   .. code-block:: bash
+   .. code:: sh
 
-      "EDX_API_KEY": "replace-me" // Must match the E-Commerce EDX_API_KEY setting
-      "ECOMMERCE_API_SIGNING_KEY": "insecure-secret-key" // Must match the E-Commerce JWT_SECRET_KEY setting
+       vagrant ssh
+
+#. Become the ``edxapp`` user.
+
+   .. code:: sh
+
+      sudo su edxapp
+
+#. Verify that the following settings in ``/edx/app/edxapp/lms.env.json`` are
+   correct. ::
+
+       "ECOMMERCE_API_URL": "http://localhost:8002/api/v2/"
+       "ECOMMERCE_PUBLIC_URL_ROOT": "http://localhost:8002"
+       "JWT_ISSUER": "http://127.0.0.1:8000/oauth2" // Must match the E-Commerce JWT_ISSUER setting
+       "OAUTH_ENFORCE_SECURE": false
+       "OAUTH_OIDC_ISSUER": "http://127.0.0.1:8000/oauth2"
+
+#. Verify that the following settings in ``/edx/app/edxapp/lms.auth.json`` are
+   correct. ::
+
+       "ECOMMERCE_API_SIGNING_KEY": "lms-secret" // Must match the E-Commerce JWT_SECRET_KEY setting
+       "EDX_API_KEY": "PUT_YOUR_API_KEY_HERE" // Must match the E-Commerce EDX_API_KEY setting
 
 #. Verify that an LMS account with staff and superuser permissions exists.
 
-   By default, most devstack and fullstack LMS instances include a user account
-   that has staff permissions. This account has the username ``staff``, the
-   email address ``staff@example.com``, and the password ``edx``. Run the
-   following commands to grant the account superuser permissions.
+   By default, most devstack and fullstack LMS instances include a user
+   account that has staff permissions. This account has the username
+   ``staff``, the email address ``staff@example.com``, and the password
+   ``edx``. Run the following commands to grant the account superuser
+   permissions.
 
-   .. code-block:: bash
+   .. code:: sh
 
-       $ ``./manage.py lms shell --settings=devstack``
-       >>> from django.contrib.auth.models import User
-       >>> u = User.objects.get(username='staff')
-       >>> u.is_superuser = True
-       >>> u.save()
+       cd ~/edx-platform
+       ./manage.py lms set_superuser staff --settings=devstack
 
-#. In the Django administration panel, verify that an OAuth2 client with the
-   following attributes exists. If one does not already exist, :ref:`create a
-   new one <Create Register Client>`. The client ID and secret must match the
-   values of the E-Commerce ``SOCIAL_AUTH_EDX_OIDC_KEY`` and
-   ``SOCIAL_AUTH_EDX_OIDC_SECRET`` settings, respectively.
+#. Start the LMS.
 
-   .. code-block:: bash
+   .. code:: sh
 
-      URL:  http://localhost:8002/
-      Redirect URI: http://localhost:8002/complete/edx-oidc/
-      Client ID: 'replace-me'
-      Client Secret: 'replace-me'
-      Client Type: Confidential
+       cd ~/edx-platform
+       paver devstack lms
 
-#. In the Django administration panel, verify that the OAuth2 client referred
-   to above is designated as a trusted client. If this isn't already the case,
-   add the client created above as a new trusted client.
+#. Navigate to the Oauth2 Clients section of the Django administration console
+   (e.g. http://localhost:8000/admin/oauth2/client/). Sign in using the
+   superuser account you created earlier.
 
-#. In the Django administration panel, create a new access token for the
-   superuser account. Set the client to the OAuth2 client referred to above.
-   Make note of this token; it is required to run the acceptance tests.
+   Verify that an OAuth2 client with the following attributes exists.  If one
+   does not already exist, :ref:`create a new one <Create Register Client>`.
+   The client ID and secret must match the values of the E-Commerce
+   ``SOCIAL_AUTH_EDX_OIDC_KEY`` and ``SOCIAL_AUTH_EDX_OIDC_SECRET`` settings,
+   respectively. ::
 
-#. Make sure that the LMS instance that you will use for testing has at least
-   two courses that learners could enroll in. By default, most LMS instances
-   include the edX demonstration course. Use Studio to create a second course.
+       Name: ecommerce
+       URL: http://localhost:8002/
+       Redirect URI: http://localhost:8002/complete/edx-oidc/
+       Client ID: 'ecommerce-key'
+       Client Secret: 'ecommerce-secret'
+       Client Type: Confidential (Web applications)
+       Logout url: http://localhost:8002/logout/
+
+#. Navigate to the Edx\_Oauth2\_Provider Trusted clients section of the Django
+   administration console (e.g.
+   http://localhost:8000/admin/edx_oauth2_provider/trustedclient/).
+
+   Verify that the OAuth2 client referred to above is designated as a
+   trusted client (look for the Redirect URI). If this isn't already
+   the case, add the client created above as a new trusted client.
+
+#. In the Django administration panel, create a new access token for
+   the superuser account. Set the client to the OAuth2 client referred
+   to above. Make note of this token; it is required to run the
+   acceptance tests.
+
+#. Make sure that the LMS instance that you will use for testing has at
+   least two courses that learners could enroll in. By default, most
+   LMS instances include the edX demonstration course. Use Studio to
+   create a second course.
+
 
 Configure E-Commerce
 ********************
 
-You use the CAT to finish configuring the two courses in your LMS instance.
+You use the Course Administration Tool ("CAT") to finish configuring the
+two courses in your LMS instance.
 
-#. In your browser, go to ``http://localhost:8002/courses/`` to access the CAT.
+#. Become the ``ecommerce`` user.
 
-#. In the CAT, add both of the courses present on your LMS instance to
-   E-Commerce. Configure one as a "Free (Audit)" course, and the second as a
-   "Verified" course.
+   .. code:: sh
+
+       sudo su ecommerce
+
+#. Verify that the following keys in ``/edx/etc/ecommerce.yml`` match your
+   settings in ``/edx/app/edxapp/lms.env.json`` and
+   ``/edx/app/edxapp/lms.auth.json``.
+
+   * One of the ``JWT_AUTH:JWT_ISSUERS`` entries should match
+     ``/edx/app/edxapp/lms.env.json:JWT_ISSUER``. The default value is
+     ``http://127.0.0.1:8000/oauth2``.
+   * ``JWT_AUTH:JWT_SECRET_KEY`` should match
+     ``/edx/app/edxapp/lms.auth.json:ECOMMERCE_API_SIGNING_KEY``. The default
+     value is ``lms-secret``.
+   * ``EDX_API_KEY`` should match
+     ``/edx/app/edxapp/lms.auth.json:EDX_API_KEY``. The default value is
+     ``PUT_YOUR_API_KEY_HERE``.
+
+#. Set up the E-Commerce environment.
+
+   .. code:: sh
+
+       cd /edx/app/ecommerce/ecommerce
+       source ../ecommerce_env
+       source ../venvs/ecommerce/bin/activate
+       make requirements
+       make static
+       make migrate
+
+#. Create a new site linking to the LMS.
+
+   .. code:: sh
+
+       ./manage.py create_or_update_site \
+         --site-id=1 \
+         --site-domain=localhost:8002 \
+         --partner-code=edX \
+         --partner-name='Open edX' \
+         --lms-url-root=http://localhost:8000 \
+         --theme-scss-path=sass/themes/edx.scss \
+         --payment-processors=cybersource,paypal \
+         --client-id=ecommerce-key \
+         --client-secret=ecommerce-secret \
+         --from-email staff@example.com
+
+#. Start the E-Commerce Django development server.
+
+   .. code:: sh
+
+       ./manage.py runserver 0.0.0.0:8002
+
+#. Get the course key from the LMS by navigating to a course and examining its
+   URL. It should look something like ``course-v1:edX+DemoX+Demo_Course``.
+
+#. Navigate to the E-Commerce Courses section (e.g.
+   http://localhost:8002/courses/) and add a new course. Leave the default
+   values in all fields, with the exception of the following.
+
+   ::
+
+       Course ID: The course key from the LMS
+       Course Name: Use any name
+       Course Type: Verified
+       Include Honor Seat: No
+
+#. Navigate to the learner dashboard (e.g. http://localhost:8000/dashboard) and
+   verify the course you added in E-Commerce now has a green "Upgrade to
+   Verified" badge, which you can select.
+
+#. In the CAT, add the second course on your LMS instance to E-Commerce.
+   Configure it as a "Free (Audit)" course.
 
 #. So that you can test integration with external payment processors, update
    the contents of the ``PAYMENT_PROCESSOR_CONFIG`` dictionary found in the
@@ -217,8 +318,8 @@ You use the CAT to finish configuring the two courses in your LMS instance.
      :ref:`set up your virtual environment <Set Up a Virtual Environment>`, you
      can use that same ``private.py`` file.
 
-
 .. _Configure Acceptance Tests:
+
 
 Configure Acceptance Tests
 *********************************
