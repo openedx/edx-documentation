@@ -14,9 +14,12 @@ The guide answers common questions about topics like getting started in an
 online course, earning certificates, participating in course discussions, and
 completing some of the exercises you may see in your course.
 
-This guide is continuously being updated and expanded, so we encourage you to
-let us know what was helpful, and what was not, by selecting **Feedback** on
-any page or by sending an email message to `docs@edx.org`_.
+This guide is continuously being updated and expanded. If you have any comments
+or questions about this guide, select **Feedback** on any page.
+
+.. note::
+  If you have comments or questions about a specific course, select **Need
+  Help?** on any page.
 
 ******************
 Learning in a MOOC
