@@ -4,19 +4,19 @@ Open edX Documentation
 
 All Open edX documentation is available at `docs.edx.org`_.
 
-*********************************
-Eucalyptus Release Documentation
-*********************************
+***************************
+Ficus Release Documentation
+***************************
 
-The following documentation is available for the Open edX Dogwood release.
+The following documentation is available for the Open edX Ficus release.
 
-* `Installing, Configuring, and Running the Open edX Platform: Eucalyptus Release`_
+* `Installing, Configuring, and Running the Open edX Platform: Ficus Release`_
 
-* `Building and Running an Open edX Course: Eucalyptus Release`_
+* `Building and Running an Open edX Course: Ficus Release`_
 
-* `Open edX Learner's Guide: Eucalyptus Release`_
+* `Open edX Learner's Guide: Ficus Release`_
 
-* `Open edX Platform APIs: Eucalyptus Release`_
+* `Open edX Platform APIs: Ficus Release`_
 
 *******************************
 Latest Documentation
