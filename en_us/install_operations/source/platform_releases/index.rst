@@ -10,6 +10,7 @@ platform.
 .. toctree::
    :maxdepth: 2
 
+   ficus
    eucalyptus
    dogwood
    cypress

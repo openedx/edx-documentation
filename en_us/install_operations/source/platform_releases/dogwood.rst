@@ -268,7 +268,7 @@ point release, follow these steps in the host operating system.
 Upgrading a Native Installation
 ===============================
 
-If you installed Open edX using the `Open edX Native Installation`_, re-run
+If you installed Open edX using the `Open edX Native 12.04 Installation`_, re-run
 those steps using your desired Dogwood tag as the new value for
 ``OPENEDX_RELEASE``.
 

@@ -5,7 +5,12 @@ Open edX Platform Installation Options
 ########################################
 
 This section describes Open edX installation options and the components that
-each option includes.
+each option includes. More details about the various options are at the
+`Open edX Installation Options`_ page on the edX wiki.
+
+There are a three virtual machine options, which install the Open edX
+software in a virtual Ubuntu machine.  If you prefer, you can install into an
+Ubuntu machine of your own using the Native installation.
 
 .. contents::
  :local:
@@ -20,15 +25,14 @@ stack (**fullstack**), or the Open edX analytics developer stack (**analytics
 devstack**).
 
 * Devstack is a Vagrant virtual machine instance designed for local
-  development. For more
-  information, see :ref:`Info Devstack`.
+  development. For more information, see :ref:`Info Devstack`.
 
-* Fullstack is a Vagrant virtual machine instance designed for deploying all
-  edX services on a single server. For more information, see :ref:`Info
-  Fullstack`.
+* Fullstack is a Vagrant virtual machine instance designed for installing all
+  Open edX services on a single server in a production-like configuration. For
+  more information, see :ref:`Info Fullstack`.
 
 * Analytics devstack is a modified version of the devstack virtual machine that
-  allows you to run edX Analytics. For more information, see
+  allows you to run Open edX Analytics. For more information, see
   :ref:`Info Analytics Devstack`.
 
 .. _Info Devstack:
@@ -46,47 +50,34 @@ Devstack simplifies certain production settings to make development more
 convenient. For example, `nginx`_ and `gunicorn`_ are disabled in devstack;
 devstack uses Django's runserver instead.
 
-Devstack is in the `edx configuration repository`_ on GitHub.
-
 For information about devstack and other installation and configuration options
-from edX and the Open edX community, see the `edx configuration repository
-wiki`_. Specifically, the following pages have more information about devstack.
-
-* `Devstack wiki`_
-* `Developing on Devstack`_
+from edX and the Open edX community, see the `Open edX Installation Options`_
+page on the edX wiki.
 
 .. note::
   Because of the large number of dependencies needed to develop extensions to
   Open edX Insights, a separate development environment is available to support
-  Analytics development. For more information, see * :ref:`Installing and
+  Analytics development. For more information, see :ref:`Installing and
   Starting Analytics Devstack`.
 
 For more information about Vagrant, see the `Vagrant documentation`_.
 
 .. _Info Fullstack:
 
-====================
+==================
 Open edX Fullstack
-====================
+==================
 
-Fullstack is a Vagrant instance designed for deploying all edX services on a
-single server. Fullstack is in the `edx configuration repository`_ on GitHub.
+Fullstack is a Vagrant instance designed for installing all Open edX services
+on a single server in a production-like configuration.  Fullstack is a
+pre-packaged Native installation running in a Vagrant virtual machine.
 
 For information about fullstack and other installation and configuration
-options from edX and the Open edX community, see the
-`edx configuration repository wiki`_.
+options from edX and the Open edX community, see the `Open edX Installation
+Options`_ page on the edX wiki.
 
 For more information about Vagrant, see the `Vagrant documentation`_.
 
-Ubuntu 12.04 64-bit
-*******************
-
-You can install fullstack on a single Ubuntu 12.04 64-bit server. More Ubuntu
-information is planned for future versions of this guide.
-
-For information about Ubuntu and other installation and configuration
-options from edX and the Open edX community, see the
-`edx configuration repository wiki`_.
 
 .. _Info Analytics Devstack:
 
@@ -98,7 +89,7 @@ Some users might want to develop Analytics features on their instance of the
 Open edX platform. Because of the large number of dependencies needed to
 develop extensions to Analytics, edX has created a separate developer stack,
 known as analytics devstack. We strongly recommend that you install the
-Analytics Devstack instead of adding Analytics extensions to an instance of
+analytics devstack instead of adding Analytics extensions to an instance of
 devstack.
 
 Analytics devstack is a modified version of the :ref:`Open edX developer
@@ -106,34 +97,45 @@ stack<Info Devstack>`. This development environment provides all of the
 services and tools needed to modify the Open edX Analytics Pipeline, Data API,
 and Insights projects.
 
-**************************
-Virtual Machine Components
-**************************
 
-Fullstack, devstack, and analytics devstack all include the following edX
-components.
+*******************
+Native Installation
+*******************
+
+The Native installation installs the Open edX software on your own Ubuntu 16.04
+machine in a production-like configuration.  Details are at the `Open edX
+Native Installation`_ page on the edX wiki.
+
+
+*******************
+Software Components
+*******************
+
+All installations include the following Open edX components:
 
 * The Learning Management System (LMS).
-* edX Studio.
+* Open edX Studio.
 * Discussion Forums.
 * Open Response Assessments (ORA).
 
-Devstack also includes the following edX components.
+Devstack, fullstack and native installation also include:
 
-* A demonstration edX course.
-* EdX Search.
+* E-Commerce
+* Programs
+* A demonstration Open edX course.
+* Open edX Search.
 
-Fullstack also includes the following edX components.
+Fullstack and native also include the following Open edX components:
 
+* Open edX Analytics Data API.
+* Open edX Insights.
+* Certificates
 * XQueue, the queuing server that uses `RabbitMQ`_ for external graders.
-* `Discern`_, the machine-learning-based automated textual classification API
-  service.
-* `Ease`_, a library for the classification of textual content.
 
-Analytics devstack also includes the following edX components.
+Analytics devstack also includes the following Open edX components:
 
-* edX Analytics Data API.
-* edX Insights.
+* Open edX Analytics Data API.
+* Open edX Insights.
 * The components needed to run the Open edX Analytics Pipeline. This is the
   primary extract, transform, and load (ETL) tool that extracts and analyzes
   data from the other Open edX services.
@@ -144,8 +146,8 @@ Analytics devstack also includes the following edX components.
 Default Accounts
 ================
 
-When you install devstack, fullstack, or analytics devstack, the following
-user accounts are created by default.
+When you install an Open edX system, the following user accounts are created by
+default.
 
   .. list-table::
    :widths: 20 60
@@ -178,18 +180,18 @@ Virtual Machine Configuration Options
 
 When you install devstack, fullstack, or analytics devstack you can customize
 the environment. This section provides information about configuration options
-for edX virtual machines.
+for Open edX virtual machines.
 
 ================================================
 Set Up Ability to Preview Units (Mac/Linux Only)
 ================================================
 
-If you are installing an edX virtual machine on a Linux or Mac computer,
-you must configure your installation to use the preview feature in edX Studio.
+If you are installing an Open edX virtual machine on a Linux or Mac computer, you
+must configure your installation to use the preview feature in Open edX Studio.
 
 #. :ref:`Connect to the Devstack virtual machine<Connect to Devstack VM>`.
 
-#. In the ``etc/hosts`` file, add the following line.
+#. In the ``/etc/hosts`` file, add the following line.
 
   .. code-block:: bash
 
@@ -199,8 +201,8 @@ you must configure your installation to use the preview feature in edX Studio.
 Customize the Source Code Location
 ===================================
 
-You can customize the location of the edX source code that gets cloned when you
-provision an edX virtual machine. You may want to do this to have the edX
+You can customize the location of the Open edX source code that gets cloned
+when you provision a devstack. You may want to do this to have the Open edX
 virtual machine work with source code that already exists on your computer.
 
 By default, the source code location is the directory in which you run
