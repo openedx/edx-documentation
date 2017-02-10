@@ -17,9 +17,11 @@ completing some of the exercises you may see in your course.
 This guide is continuously being updated and expanded. If you have any comments
 or questions about this guide, select **Feedback** on any page.
 
-.. note::
-  If you have comments or questions about a specific course, select **Need
-  Help?** on any page.
+.. only:: Partners
+
+  .. note::
+    If you have comments or questions about a specific course, select **Need
+    Help?** on any page.
 
 ******************
 Learning in a MOOC
