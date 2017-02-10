@@ -5,7 +5,7 @@ sys.path.append('../../../')
 
 from shared.conf import *
 
-project = u'EdX Learner\'s Guide'
+project = u'EdX Learner\'s Guide: Ficus Release'
 
 exclude_patterns = ['links.rst', 'reusables/*', 'SFD_mathformatting.rst']
 
