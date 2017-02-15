@@ -246,3 +246,6 @@ earned a minimum score in a prerequisite subsection, follow these steps.
 
 #. In the course outline, if a subsection has a prerequisite, the prerequisite
    name appears under the subsection name.
+
+  .. note:: Prerequisite course subsection settings are not retained when
+     you :ref:`export or import a course<Exporting and Importing a Course>`, or when you :ref:`re-run a course<Rerun a Course>`.
