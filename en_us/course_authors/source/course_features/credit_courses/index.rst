@@ -5,7 +5,6 @@ Offering Academic Course Credit
 #####################################
 
 .. toctree::
-   :numbered:
    :maxdepth: 2
 
    credit_courses

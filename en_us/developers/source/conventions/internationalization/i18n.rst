@@ -394,7 +394,9 @@ code is properly internationalized, you generate a set of 'dummy'
 translations, then view those translations on your app's page to make sure
 everything (scraping and serving) is working properly.
 
-First, use the coverage tool to generate dummy files. ::
+First, use the coverage tool to generate dummy files.
+
+.. code-block:: sh
 
     $ paver i18n_dummy
 
@@ -403,13 +405,15 @@ This step creates new dummy translations in the Esperanto directory
 (edx-platform/conf/local/rtl/LC_MESSAGES). DO NOT CHECK THESE FILES IN. You
 should discard these files once you have finished testing.
 
-Next, restart the LMS and Studio to load in the new translation files. ::
+Next, restart the LMS and Studio to load in the new translation files.
+
+.. code-block:: sh
 
     $ paver devstack lms
     $ paver devstack studio
 
-Append ``/update_lang/`` to the root LMS or Studio URL and use the form to set 
-the preview language. The language code ``eo`` can be used to specify the test 
+Append ``/update_lang/`` to the root LMS or Studio URL and use the form to set
+the preview language. The language code ``eo`` can be used to specify the test
 language.
 
 Instead of plain English strings, you should see specially-accented English
