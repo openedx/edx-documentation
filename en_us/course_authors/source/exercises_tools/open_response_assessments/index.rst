@@ -5,7 +5,6 @@ Open Response Assessments
 #########################
 
 .. toctree::
-   :numbered:
    :maxdepth: 2
 
    OpenResponseAssessments
