@@ -1,26 +1,25 @@
 .. _SFD_ORA:
 
-##############
-Writing Essays
-##############
+#############################
+Completing Essay Assignments
+#############################
 
-Some courses include assignments that require you to submit written responses
-to questions that do not have simple or definitive answers. Because these
-essay assignments have a flexible design and can include different assessment
-options, they are called open response assessments.
+In some courses, you are asked to write essays in response to topics or to
+questions that do not have simple answers. These essay assignments are called
+open response assessments (ORA) because they have a flexible design, and can
+include various assessment options, including peer assessments and self
+assessments.
 
-In open response assessments, after you submit an essay response to the
-question, you might be asked to do one or more of the following tasks.
+In some assignments, you can also submit an image or other type of file. For
+information about uploading images or other files in your open response
+assessment, see :ref:`Submit a File with Your Response`.
 
-* Practice assessing a sample essay.
-* Assess your own work.
-* Assess the essays written by other learners.
+.. note::
 
-To complete an open response assessment and receive a score, you might need to
-have your essay assessed by one or more of the following groups of people.
-
-* Other learners in the course.
-* A member of the course team.
+   If you want to try an example open response assessment problem, check out
+   the edX demonstration course, `edX Demo course`_. In addition to giving you
+   a tour of a typical edX course, the edX Demo course contains `information
+   about open response assessments`_ and an `example peer assessment`_.
 
 This section describes how to work with open response assessments in your edX
 course.
@@ -29,44 +28,50 @@ course.
   :local:
   :depth: 1
 
+
+.. _Steps in an Open Response Assessment:
+
 *********************************************
-Overview of Open Response Assessments
-*********************************************
-
-In an open response assessment, you provide written responses to questions that
-might not have simple or definitive answers. For some open response
-assessments, you can submit an image or other file to accompany a written
-response.
-
-.. contents::
-  :local:
-  :depth: 1
-
-==========================================
 The Steps in an Open Response Assessment
-==========================================
+*********************************************
 
-In addition to :ref:`your own responses<Submit Your Response>` to the
-questions in the assignment, open response assessments have several steps that
-can include assessment training steps, peer assessments, self assessment, and
-staff assessments.
+Open response assessments can have several possible steps, which appear in the
+order that you must complete them. Future steps are not available until you
+complete your current step. This topic describes all of the possible steps.
+The actual steps in your assignment depend on how your course team has
+designed the assignment.
 
-* In training steps, you perform assessments of sample responses that the
-  course team provides. The goal is to give the sample response the same grade
-  that a member of the course team would have given. For more information, see
-  :ref:`Learn to Assess Responses`.
+.. image:: ../../shared/images/ORA_Steps.png
+   :alt: An example open response assessment, showing a training step, peer
+      assessment step and self assessment step.
+   :width: 550
 
-* In peer assessments, you perform assessments of responses that other
-  learners in the course have submitted, and other learners in the course also
-  assess your responses. For each assignment, your course team decides the
-  number of peer assessments that you have to perform. For more information,
-  see :ref:`Assess Peer Responses`.
+* :ref:`Your Response<Submit Your Response>`. In this first step in an open
+  response assessment, you submit your response to the assignment question.
 
-* In self assessments, you assess your own response. For more information,
-  see :ref:`Assess Your Response`.
+* :ref:`Learn to Assess Responses<Learn to Assess Responses>`. In this step
+  you practice grading some responses. You evaluate example responses
+  and then see how the grade you gave differs from the grade that a member
+  of the course team gave. The goal is to learn how to assess responses
+  similar to the way that course staff would assess them, using the same
+  rubric.
 
-* In staff assessments, members of the course team assess your response. For
-  more information, see :ref:`Staff Grade`.
+* :ref:`Assess Peers<Assess Peer Responses>`. You grade responses that other
+  learners in the course have submitted, and other learners in the course
+  grade your responses.
+
+  Your course team decides the number of peer assessments that you have to
+  perform and receive. For example, you might be required to assess the
+  responses of two of your peers, as well as receive assessments by two of
+  your peers.
+
+* :ref:`Assess Your Response<Assess Your Response>`. In this step you assess
+  your own response, using the same rubric that you used to perform peer
+  assessments.
+
+* :ref:`Staff Grade <Staff Grade>`. Members of the course team assess your
+  response. If you receive a staff grade for your assignment, it always
+  overrides any peer assessment grades that you receive.
 
   .. note:: Course staff can grade your open response assignment even if a
      staff assessment step is not included in the assignment. This might
@@ -74,60 +79,53 @@ staff assessments.
      that are inappropriate. In such cases, course staff can perform an
      assessment of your response that overrides any peer assessment grades.
 
-==========================================
-The Rubric, Criteria, and Options
-==========================================
 
-Every open response assessment has a rubric that the course team provides, to
-be used as guidance for grading. The rubric is a list of expectations that the
-response should meet. Grading for all the types of assessments in an open
-response assessment is done by comparing each response against the same
-rubric.
+.. _How Grading Is Done in ORA:
 
-Rubrics consist of criteria and options.
+*****************************************************
+How Grading Is Done In Open Response Assessments
+*****************************************************
 
-* Criteria describe characteristics that each response should have, such as
-  concepts that a response should cover, or the amount of supporting
-  information that a response must include.
+Grading for every type of assessment in an ORA assignment is done by comparing
+each response against the same set of guidelines, called a rubric. Every open
+response assessment has a rubric provided by the course team.
 
-* Each criterion has options, which describe how well each response satisfies
-  the criterion. These are usually a range of ratings, for example "Fair",
-  "Good", or "Excellent".
+A rubric consists of several criteria and a set of options for each criterion.
 
-The following image shows a rubric with two criteria. Each of the criteria has
-several options.
+The parts of the rubric in the image below are labelled as follows.
 
-.. image:: ../../shared/students/Images/PA_S_Rubric.png
-   :alt: Rubric showing criteria and options.
-   :width: 500
+#. **Criteria**. Each criterion describes characteristics that a response
+   should have, such as concepts that a response should cover, or the amount
+   of supporting information that a response must include.
 
-When you assess a response, you select the option that best describes how well
-the response met each of the criteria.
+#. **Options**. Each criterion has options which describe how well each
+   response satisfies the criterion. The options are usually a range of
+   ratings, for example "Fair", "Good", or "Excellent", with details to help
+   you decide the rating.
 
-Some open response assessments provide a **Top Responses** section that shows
-the top scoring responses for the assignment and the scores that these
-responses received. If it is provided, this section appears below your score
-after you complete each step of the assignment.
+When you assess a response, you evaluate the response, and for each criterion,
+select the option that best describes how well the response met that
+criterion.
 
-**************************************
-Completing an Open Response Assessment
-**************************************
-
-When you come to an open response assessment in the course, you see the
-questions you must answer, with a response field for each question in the
-assignment. After you enter and submit your response, you assess some of your
-peers' responses, your own response, or both, depending on the assignment.
-Below the final response field in the **Your Response** step, you can see the
-steps that your assignment includes.
-
-.. image:: ../../shared/students/Images/PA_S_AsmtWithResponse.png
-   :alt: Open response assessment example with question, response field, and
-       assessment types and status labeled.
+.. image:: ../../shared/images/ORA_Rubric.png
+   :alt: An example rubric showing criteria and options.
    :width: 550
 
-The following topics describe how you complete an open response assessment
-that includes a learner training step, a peer assessment step, a self
-assessment step, and a staff grade step.
+
+.. _Completing an Open Response Assessment:
+
+*******************************************
+Completing an Open Response Assessment
+*******************************************
+
+An open response assessment's steps are arranged in the order that you must
+complete them.
+
+The topics in this section describe how you complete an example open response
+assessment that includes a response step, an assessment training step, a peer
+assessment step, a self assessment step, and a staff grade step. Your actual
+assignment might not contain all of these steps. Possible steps are described
+in :ref:`Steps in an Open Response Assessment`.
 
 .. contents::
  :local:
@@ -135,15 +133,8 @@ assessment step, and a staff grade step.
 
 At any time during an assessment, you can see your progress at the bottom of the
 page under **Your Grade**. A message indicates the steps that must still be
-completed before you can receive your final grade for the assignment. For
-example, you might see the following message.
+completed before you can receive your final grade for the assignment.
 
-.. code-block:: xml
-
-  Not Completed
-
-  You have not completed the peer assessment step and self assessment step of
-  this problem.
 
 .. _Submit Your Response:
 
@@ -151,78 +142,100 @@ example, you might see the following message.
 Submit Your Response
 =====================
 
-To submit your response, follow these steps.
+To submit your response to an open response assessment question, follow these
+steps.
 
 #. Read each question carefully. Some course teams include important
    information in the question, such as how long a response must be, or
    specific topics that your response must cover.
 
-   .. note:: The total word count for the assessment cannot
-      be more than 10,000 words (approximately the equivalent of 20 pages of
-      8.5x11 inch paper, with text single-spaced).
+   .. note::
+
+      The total word count for your response cannot be more than 10,000 words
+      (approximately the equivalent of 20 pages of 8.5x11 inch paper, with
+      single-spaced text).
 
 #. For each question, enter your response into the field under **Your
    Response**.
 
-#. When you have completed all of the questions, select **Submit
+   .. note::
+
+      In some assignments, you can submit an image or other type of file to
+      accompany your written response. If you are allowed to upload a file in
+      your assignment, **Browse** and **Upload your file** options are
+      available below the response field.
+
+      For information about uploading images or other files in your ORA
+      assignment, see :ref:`Submit a File with Your Response`.
+
+#. When you have finished answering all of the questions, select **Submit
    your response and move to the next step**.
 
    If you need more time, you can select **Save Your Progress** to save a
    draft of your responses, and then come back and submit them later.
 
-After you submit your responses, the next step, which is usually either
-assessment training or peer assessment, starts immediately. However, you do not
+
+.. image:: ../../shared/images/ORA_1YourResponse.png
+   :alt: A response in progress in an ORA assignment.
+   :width: 550
+
+After you submit your response, the next step, which is usually either
+assessment training or peer assessment, becomes available. However, you do not
 have to start the next step right away. If you want to stop working and come
 back later, just refresh or reopen your browser when you come back.
 
-.. note:: You can view your own responses at any time after you submit them. To
-   do this, for the response you want to view, select the **Your Response**
-   heading to expand the response field. Your response appears, along with the
-   status of your response, and information about additional steps you have to
-   complete before you receive your grade.
-
-.. image:: ../../shared/students/Images/PA_S_ReviewResponse.png
-   :alt: Image of the Response field collapsed and then expanded.
-   :width: 500
 
 .. _Submit a File with Your Response:
 
 Submit a File with Your Response
 ***********************************
 
-For some assignments, you might be asked to submit a file along with your text
-response. Those assignments include **Choose File** and **Upload your file**
-options below the response field. Note the following requirements.
+If your assignment requires you to submit an image or other type of file to
+accompany your text response, you see **Browse** and **Upload your file**
+options below the response field.
 
-* A text response is always required. If you upload a file in your response,
-  also include a text response that describes the file you have uploaded in
-  such a way that a reviewer who cannot access the uploaded file can still
-  assess the text content of your response using a screen reader or other text
-  parsing tool.
+.. note::
 
-* You can upload only one file to submit with your response.
+   * You can upload only one file with your response.
 
-* The file that you upload must be smaller than 5 MB in size.
+   * The file that you upload must be smaller than 5 MB in size.
 
-* Image files can be in .jpg, .gif, or .png format.
+   * Image files can be in .jpg, .gif, or .png format.
 
-To upload your file, follow these steps.
+   * A text response is always required in open response assessments, in
+     addition to the file that you upload. Include some text in your response
+     that describes file that you uploaded, so that reviewers who cannot
+     access the uploaded file can still understand the text content of your
+     response.
 
-#. Below the response field, select **Choose File**.
+
+To upload a file in your response, follow these steps.
+
+#. Below the response field, select **Browse**.
 
 #. Select the file that you want to upload, and then select **Open**.
 
+   The name of the file that you selected for uploading appears next to **Browse**.
+
 #. Select **Upload your file**.
 
-The name of the file that you selected and uploaded appears below the response
-field.
+   Your file is uploaded and a preview image is displayed.
 
 You can replace the file that you uploaded with a different one until you
-submit your response. To do so, follow steps 1-3 again.
+submit your response. To replace your chosen file, repeat steps 1-3.
 
-.. image:: ../../shared/students/Images/PA_Upload_WithImage.png
-   :alt: Example response with an image of Paris.
-   :width: 500
+
+View Your Submitted Response
+***********************************
+
+You can view your own response at any time after you submit it.
+
+Select the **Your Response** heading in the assignment to expand the section.
+
+   Your response appears, along with the status of the response, and
+   information about additional steps you have to complete before you receive
+   your grade.
+
 
 .. _Learn to Assess Responses:
 
@@ -230,60 +243,45 @@ submit your response. To do so, follow steps 1-3 again.
 Learn to Assess Responses
 ============================
 
-As part of an open response assessment, you learn how to assess responses
-effectively by reviewing and assessing sample responses provided by the course
-team. You then try to give the sample responses the same scores that the course
-team selected.
+Some ORA assignments include a training step so that you can learn how to
+effectively assess responses for a later peer assessment step.
 
-.. note:: Not all course teams provide sample responses for training. If the
-   course team did not provide sample responses, this step is not included in
-   the assignment.
+In a training step, you evaluate example responses using a provided rubric as
+a guide for grading. After you complete the grading, you are shown how the
+grades you gave differ from the grades that a member of the course team gave.
+The goal is to learn how to assess responses similar to the way that course
+staff would assess them, using the same :ref:`rubric<How Grading Is Done in
+ORA>`.
 
-After you submit your own response, a sample response appears along with the
-rubric for the assignment. Read the sample response and the rubric carefully,
-select the options that you think best reflect the response, and then select
-**Compare your selections with the instructor's selections**.
+Complete the training step as follows.
 
-* If all of your selections are the same as the defined selections, the
-  next sample response opens automatically.
+#. Read each sample response and the rubric carefully, then for each
+   criterion, select the option that you think best reflect the response.
 
-* If any option that you select is not the same as the defined selection,
-  you see the response again, and the following message appears above the
-  response.
+#. When you are satisfied with your assessment, select **Compare your
+   selections with the instructor's selections**.
 
-.. code-block:: xml
+   * If all of your selections are the same as the instructor's selections, the
+     next sample response opens automatically.
 
-  Learning to Assess Responses
+   * If any option that you select is not the same as the instructor's
+     selection, you see the response again, with a message indicating that
+     your assessment differs from the instructor's assessment.
 
-  Your assessment differs from the instructor's
-  assessment of this response. Review the response and consider why the
-  instructor may have assessed it differently. Then, try the assessment again.
+#. If your assessment did not match the instructor's assessment, review the
+   response again and consider why the instructor assessed the response
+   differently than you did. Continue to assess the example response until the
+   options you select for all criteria match options selected by the
+   instructor.
 
-For each of the criteria, you see one of the following two messages, depending
-on whether your selections matched those defined by the course team.
+.. image:: ../../shared/images/ORA_2LearnToAssess.png
+   :alt: Example training step with one grade that matched and another grade
+    that did not match the grade that the course team gave.
+   :width: 550
 
-.. code-block:: xml
+When you have successfully assessed the sample responses, the next step in the
+assignment becomes available.
 
-  Selected Options Agree
-  The option you selected is the option that the instructor selected.
-
-.. code-block:: xml
-
-  Selected Options Differ
-  The option you selected is not the option that the instructor selected.
-
-In the following example, the learner chose one correct option and one
-incorrect option.
-
-.. image:: ../../shared/students/Images/PA_TrainingAssessment_Scored.png
-   :alt: Sample training response, with one correct and one incorrect option.
-   :width: 500
-
-You continue to assess the sample response until the options you select for all
-criteria match the options defined by the course team.
-
-When you have successfully assessed all of the sample responses, you move to
-the next step in the assignment.
 
 .. _Assess Peer Responses:
 
@@ -291,14 +289,21 @@ the next step in the assignment.
 Assess Peer Responses
 =====================
 
-When the peer assessment step starts, you can see counts of how many responses
-you are expected to assess and how many you have already assessed at the top of
-the page. Then you see each original question, another learner's response, and
-the rubric for the assignment.
+In the peer assessment step of an open response assessment, you perform
+assessments of responses that were submitted by other learners in your course.
+The course team sets the requirement for how many peer assessments each
+learner is expected to complete.
 
-.. image:: ../../shared/students/Images/PA_S_PeerAssmt.png
+At the top of the peer assessment step, you can see counts of how many
+responses you are expected to assess and how many you have already assessed.
+For example, if you are required to perform 3 peer assessments and are about
+to start your first peer assessment, the count appears as "1 of 3". Within the
+**Assess Peers** step, you see each question, a learner's response, and the
+rubric that you will use to grade the response.
+
+.. image:: ../../shared/images/ORA_3PeerAssmt.png
    :alt: An in-progress peer assessment.
-   :width: 500
+   :width: 550
 
 You assess other learners' responses by selecting options in the rubric. This
 process will be familiar to you if your assignment included the :ref:`learn to
@@ -306,52 +311,39 @@ assess responses<Learn to Assess Responses>` step. Additionally, this step has
 a field below the rubric where you can provide comments about the learner's
 response.
 
-.. note:: Some assessments might have a **Comments** field for one or
-  more of the assessment's individual criteria. You can enter up to 300
-  characters in these fields. In the following image, both criteria have a
-  **Comments** field. There is also a field for overall comments on the
-  response.
+.. note:: In addition to a field for overall comments on a learner's response,
+   some peer assessments include **Comments** fields for individual criteria
+   that allow you to enter up to 300 characters. In some assessments, you must
+   enter comments before you can submit the assessment.
 
-    .. image:: ../../shared/students/Images/PA_CriterionAndOverallComments.png
-       :alt: Rubric with comment fields under each criterion and under overall
-           response.
-       :width: 600
+After you have selected options in the rubric and provided comments about the
+response, select **Submit your assessment and move to response #{number}**.
 
-After you have selected options in the rubric and provided additional comments
-about the response, select **Submit your assessment and move to response
-#{number}**.
-
-When you submit your assessment of the first learner's response, a response
-from another learner opens for you. Assess each response in the same way that
-you assessed the first learner's responses, and submit each assessment. You
-repeat these steps until you have assessed the required number of responses.
-The count of how many responses you have assessed updates after you assess each
+After you submit each peer assessment, a response from another learner becomes
+available, until you have assessed the required number of responses. The count
+of how many responses you have assessed updates after you assess each
 response.
 
-If there are no new submitted responses available for grading, a status
-message indicates that no peer responses are currently available for you to
-assess, and that you should check back later.
+When you have completed the required number of peer assessments, the next step
+in the assignment becomes available.
+
+.. note:: If there are no submitted responses available for grading, a status
+   message indicates that no peer responses are currently available for you to
+   assess, and that you should check back later.
+
 
 =================================================
 Assess Additional Peer Responses (optional)
 =================================================
 
 If you have assessed the required number of peer responses, the peer
-assessment step "collapses" so that only the **Assess Peers** heading is
+assessment step collapses so that only the **Assess Peers** heading is
 visible.
-
-.. image:: ../../shared/students/Images/PA_PAHeadingCollapsed.png
-   :width: 500
-   :alt: The peer assessment step with just the heading visible.
 
 If you want to, you can assess more peer responses than the assignment
 requires. To assess more responses, select the **Assess Peers** heading to
 expand the step, and then select **Continue Assessing Peers**.
 
-.. image:: ../../shared/students/Images/PA_ContinueGrading.png
-   :width: 500
-   :alt: The peer assessment step expanded so that "Continue Assessing Peers"
-       is visible.
 
 .. _Assess Your Response:
 
@@ -359,10 +351,18 @@ expand the step, and then select **Continue Assessing Peers**.
 Assess Your Response
 =====================
 
-When you have completed the required number of peer assessments, your self
-assessment opens. You see your response along with the same rubric that you
-used in the peer assessment step. Assess your response, and then select
-**Submit Your Assessment**.
+When you have completed the required number of peer assessments, the self
+assessment step of the assignment becomes available. You see your response
+along with the same rubric that you used in the peer assessment step.
+
+Perform an assessment of your own response, and then select **Submit Your
+Assessment**.
+
+When you have completed assessing your own response, the next step in the
+assignment becomes available. If there are no further steps, and if you have
+received the required number of peer assessments on your own response, you can
+:ref:`receive your score<Receive Your Score and Provide Feedback>`.
+
 
 .. _Staff Grade:
 
@@ -380,24 +380,34 @@ assignment grade when staff grading is complete, even if your response has not
 been assessed by the required number of peer reviewers.
 
 .. note:: Course staff can grade your open response assignment even if a staff
-   assessment step is not included in the assignment. This might happen if
-   for example you receive peer assessments of your response that are
+   assessment step is not included in the assignment. This might happen if,
+   for example, you receive peer assessments of your response that are
    inappropriate. In such cases, course staff can perform an assessment of
    your response that overrides any peer assessment grades. If a member of the
    course staff has graded your response, a **Staff Grade** section appears in
    the grading details for your assignment.
 
+
+.. _Receive Your Score and Provide Feedback:
+
 ***************************************
 Receive Your Score and Provide Feedback
 ***************************************
 
-After you have assessed the required number of peer responses and completed
-your self assessment (if a self assessment is required), you have completed
-the assignment. If your work has received the required number of peer
-assessments, you can receive your score immediately.
+You receive your score for an open response assessment when you have completed
+the following steps.
+
+* :ref:`Submitted your response<Submit Your Response>` to the question.
+* Completed the :ref:`assessment training step<Learn to Assess Responses>` (if
+  included).
+* Performed the required number of :ref:`peer assessments<Assess Peer
+  Responses>`.
+* Performed a :ref:`self assessment<Assess Your Response>` (if included).
+* Received the required number of peer assessments of your own work.
+* Received a :ref:`staff assessment<Staff Grade>` (if included).
 
 If other learners are still assessing your response, you see the following
-message under the **Assess Your Response** step.
+message below the **Assess Your Response** step.
 
 .. code-block:: xml
 
@@ -407,19 +417,24 @@ message under the **Assess Your Response** step.
   assessed your response, you will see their feedback and receive your final
   grade.
 
-If you see this message, keep checking back periodically until the peer
-assessments of your work are complete.
+If you see this message, check back periodically until peer assessments of
+your work are complete.
+
+
+.. _View Your Score:
+
+=====================
+View Your Score
+=====================
 
 When peer assessment is complete, and if the assignment does not include a
 staff assessment step, you can see the scores you received from all of the
 peers who scored your work, as well as your self assessment. You can also see
-any additional comments that your peers have provided.
+any comments that your peers have provided.
 
-If you want to, you can provide feedback on the peer scores that you received,
-under **Provide Feedback on Peer Assessments**.
-
-.. image:: ../../shared/students/Images/PA_AllScores.png
-   :alt: A learner's response with peer and self assessment scores.
+.. image:: ../../shared/images/ORA_ViewYourScore.png
+   :alt: The "Your Grade" section of an ORA assignment shows the total grade
+     as well as a breakdown by criterion.
    :width: 550
 
 If the assignment included a staff assessment step, you receive your final
@@ -428,29 +443,67 @@ assessment step is included in the assignment, peer assessment grades and
 comments are included in the assignment grade details, but the staff grade
 becomes the final grade.
 
-***********************
-Peer Assessment Scoring
-***********************
 
-.. note:: If a staff grade is provided in the assignment, either because a
-   staff assessment step was included or because a member of the course team
-   graded your response to override inappropriate peer assessments, peer
-   assessments are not taken into account in the grading. If a staff grade
-   exists, it is always your final grade.
+.. _Provide Feedback on Peer Assessments Received:
 
-Peer assessments are scored by criteria. An individual criterion's score is the
-median, not the average, of the scores that each peer assessor gave that
-criterion. For example, if the Ideas criterion in a peer assessment receives 10
-from one learner, 9 from a second learner, and 5 from a third learner, the
-score for that criterion is 9 (the median), not 8 (the average).
+==============================================
+Provide Feedback on Peer Assessments Received
+==============================================
+
+If you want to, you can provide feedback on the peer scores that you received,
+under **Provide Feedback on Peer Assessments**.
+
+.. image:: ../../shared/images/ORA_FeedbackOnPeerScores.png
+   :alt: In the "Provide feedback on peer assessments" section, you can select
+    statements or written comments as feedback on the peer scores that you
+    received.
+   :width: 550
+
+
+.. _View Top Responses:
+
+==================================
+View Top Responses (optional)
+==================================
+
+Some open response assessments include a **Top Responses** section below your
+own score, that shows the highest scoring responses that were submitted for
+each question.
+
+If your course team included this section in your assignment, it appears only
+after you have completed all the steps of the assignment.
+
+.. image:: ../../shared/images/ORA_TopResponses.png
+   :alt: Section that shows the text and scores of the top three responses for
+       the assignment.
+   :width: 550
+
+
+.. _How Peer Assessment Scores Are Calculated:
+
+******************************************
+How Peer Assessment Scores Are Calculated
+******************************************
+
+.. note:: If a :ref:`staff grade<Staff Grade>` is provided in the assignment,
+   either because a staff assessment step was included or because a member of
+   the course team graded your response to override inappropriate peer
+   assessments, peer assessments are not taken into account in the grading. If
+   a staff grade exists, it is always your final grade.
+
+Peer assessments are scored by criteria. Each criterion's score is the median,
+not the average, of the scores that each peer assessor gave that criterion.
+For example, if the Ideas criterion in a peer assessment receives 10 from one
+learner, 9 from a second learner, and 5 from a third learner, the score for
+that criterion is 9 (the median), not 8 (the average).
 
 Your final score for a peer assessment is the sum of the median scores for each
 individual criterion.
 
-For example, a response might receive the following scores from peer assessors.
+For example, your response might receive the following scores from peer assessors.
 
 .. list-table::
-   :widths: 25 10 10 10 10
+   :widths: 25 8 8 8 12
    :stub-columns: 1
    :header-rows: 1
 
@@ -458,7 +511,7 @@ For example, a response might receive the following scores from peer assessors.
      - Peer 1
      - Peer 2
      - Peer 3
-     - Median
+     - Median for the Criterion
    * - Ideas (out of 10)
      - 10
      - 7
@@ -474,6 +527,11 @@ For example, a response might receive the following scores from peer assessors.
      - 4
      - 5
      - **4**
+   * - FINAL SCORE (out of 25)
+     -
+     -
+     -
+     - **20**
 
 To calculate the final score, the system adds the median score for each
 criterion.
@@ -482,20 +540,9 @@ criterion.
   Grammar median (4 out of 5) = final score (20 out of 25)
 
 Note, again, that your final score is not the median of the scores that each
-individual peer assessor gave the response.
+individual peer assessor gave the response. Your final score is the sum of the
+median scores for each individual criterion.
 
-==================================
-View Top Responses (optional)
-==================================
-
-If the course team included a **Top Responses** section, you can review the
-highest-scoring responses submitted for each question. This section appears
-only after you have completed all the steps of the assignment.
-
-.. image:: ../../shared/students/Images/PA_TopResponses.png
-   :alt: Section that shows the text and scores of the top three responses for
-       the assignment.
-   :width: 500
 
 ********************************
 Canceled Responses
@@ -511,13 +558,7 @@ The course team might allow you to submit a replacement response for the
 canceled one, or they might not. If they do not allow you to submit a
 replacement response, your grade is zero for the assignment.
 
-******************************************************
-Try an Example Open Response Assessment Problem
-******************************************************
 
-If you want to try an example open response assessment problem, check out the
-edX demonstration course, `edX Demo course`_. In addition to giving you a tour
-of a typical edX course, the edX Demo course contains `information about open
-response assessments`_ and an `example peer assessment`_.
+
 
 .. include:: ../../links/links.rst
