@@ -485,3 +485,40 @@
 
 .. _Adding a Video ID:  https://youtu.be/7Yc1Z8RLYxM
 
+.. _OID: https://en.wikipedia.org/wiki/Object_identifier
+
+.. _URN: https://en.wikipedia.org/wiki/Uniform_Resource_Name
+
+.. _eduPersonPrincipalName: https://www.internet2.edu/media/medialibrary/2013/09/04/internet2-mace-dir-eduperson-201203.html#eduPersonPrincipalName
+
+.. _eduPersonEntitlement: https://www.internet2.edu/media/medialibrary/2013/09/04/internet2-mace-dir-eduperson-201203.html#eduPersonEntitlement
+
+.. _eduPerson Object Class Specification: https://www.internet2.edu/media/medialibrary/2013/09/04/internet2-mace-dir-eduperson-201203.html
+
+.. _official Google instructions: https://developers.google.com/+/web/signin/#set_up_google_sign-in_for_google
+
+.. _Google Developers Console: https://console.developers.google.com/project/_/apiui/apis/library
+
+.. _Facebook for Developers: https://developers.facebook.com/apps/?action=create
+
+.. _LinkedIn Developers: https://www.linkedin.com/secure/developer
+
+.. _Microsoft Sign In: https://account.live.com
+
+.. _Azure account creation: https://azure.microsoft.com/en-us/pricing/free-trial
+
+.. _Azure sign in: https://portal.azure.com
+
+.. _AWS template file: https://github.com/edx/edx-platform/blob/b3462e5b1c3cc45ad8673f3f12e84fa17ffa6b64/lms/envs/aws.py#L586-L596
+
+.. _random and highly secure password: https://github.com/edx/edx- platform/blob/46d69eba/common/djangoapps/third_party_auth/pipeline.py#L392-L410
+
+.. _OAuth backends supported by python-social-auth v0.2.12: http://python-social-auth.readthedocs.io/en/latest/backends/index.html#social-backends
+
+.. _python-social-auth supported backend: http://python-social-auth.readthedocs.io/en/latest/backends/index.html#social-backends
+
+.. _list of python-social-auth backends: https://github.com/omab/python-social-auth/tree/master/social/backends
+
+.. _python-social-auth documentation: http://python-social-auth.readthedocs.io/en/latest/index.html
+
+.. _the default value in the aws.py file: https://github.com/edx/edx-platform/blob/b3462e5b1c3cc45ad8673f3f12e84fa17ffa6b64/lms/envs/aws.py#L586-L596

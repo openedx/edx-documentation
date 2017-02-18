@@ -5,7 +5,7 @@ Integrating with a SAML Identity Provider
 ##########################################
 
 You can integrate your Open edX site with federated identity solutions
-that use the SAML 2.0 (Security Assertion Markup Language, version 2.0)
+that use the Security Assertion Markup Language, version 2.0 (SAML 2.0)
 standard. An example is Shibboleth, a single sign on system that is used by
 many educational institutions.
 
@@ -89,11 +89,11 @@ Next, you can :ref:`test an enabled provider<Test an Enabled SAML Provider>`.
 .. _Configuration Options for SAML Providers:
 
 *************************************************
-Configuration Options for SAML Identity Providers
+Configure the SAML Identity Provider
 *************************************************
 
 To customize the registration process for IdP, you make selections for these
-optional fields on the Add Provider Configuration (SAML IdP) page.
+optional fields on the **Add Provider Configuration (SAML IdP)** page.
 
 * **Skip Registration Form**: If you select this option, users are not asked to
   confirm the user account data supplied for them by the IdP (name, email
@@ -166,15 +166,15 @@ steps.
 #. To verify that users can use the IdP for sign in, go to the sign in page for
    your LMS. The page should include the institutional sign in button.
 
-   .. image:: ../../Images/tpa_signin.png
+   .. image:: ../../../Images/tpa_signin.png
      :alt: Screen shot of an LMS sign in page with a button labeled "Use my
          institutional/campus credentials" circled at the bottom.
 
 #. Select **Use my institutional/campus credentials**. The list of providers
    that appears should include the IdP that you enabled.
 
-   .. image:: ../../Images/tpa_inst_list.png
+   .. image:: ../../../Images/tpa_inst_list.png
      :alt: Screen shot of the list of enabled IdPs. Each IdP name is linked to
          the sign in page for the corresponding authentication system.
 
-.. include:: ../../../../links/links.rst
+.. include:: ../../../../../links/links.rst
