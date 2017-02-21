@@ -28,7 +28,7 @@ View ORA Assignment Statistics
 To view metrics about learners in the assignment, including the number who
 are active in each step, follow these steps.
 
-#. Open the assignment in the course.
+#. Open the ORA assignment in the course.
 
 #. Scroll to the bottom of the assignment and select **View Assignment
    Statistics**.
@@ -80,8 +80,7 @@ follow these steps.
 
 #. In the **Reports** section, select **Generate ORA Data Report**.
 
-   A status message indicates that the ORA data report generation is in
-   progress. This process might take some time to complete, but you can
+   A status message indicates that the ORA data report is being generated. This process might take some time to complete, but you can
    navigate away from this page and do other work while it runs.
 
    To check the progress of the report generation, reload the page in your
@@ -93,8 +92,8 @@ follow these steps.
    ``{course_id}_ORA_data_{datetime}.csv``. The most recently generated
    reports appear at the top of the list.
 
-#. To open or save the generated ORA data report, locate and select the link for
-   the grade report you requested.
+#. To open or save the generated ORA data report, locate and select the link
+   for the grade report you requested.
 
    You can open .csv files in a spreadsheet application to sort, graph, and
    compare data.
@@ -120,8 +119,9 @@ following descriptions.
 
 The .csv file contains one row of data for each response from a learner.
 
-* The IDs in the **Item ID** and **Submission ID** columns uniquely identify the
-  problem within the course content and the learner's submission for that problem.
+* The IDs in the **Submission ID** and **Item ID** columns uniquely identify the
+  problem within the course content and the learner's submission for that
+  problem.
 
 * The **Anonymized Student ID** column lists an ID for each learner without
   revealing confidential, personally identifiable data such as email addresses
