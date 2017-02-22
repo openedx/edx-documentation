@@ -40,7 +40,7 @@ To better understand the learner's experience of timed exams, see
 
 .. only:: Partners
 
-  Timed exams are different than :ref:`proctored exams<CA_ProctoredExams>`.
+  Timed exams are different from :ref:`proctored exams<CA_ProctoredExams>`.
   While both types of exams have a time limit, learners are monitored only
   during proctored exams.
 
@@ -131,7 +131,7 @@ extra time to complete a timed exam.
 
    .. image:: ../../../shared/images/inst_dash_special_exams.png
     :alt: The Allowance Section in the Instructor Dashboard.
-    :width: 600
+    :width: 300
 
 #. Select **Add Allowance**.
 
@@ -143,8 +143,7 @@ extra time to complete a timed exam.
 
 #. For **Allowance Type**, select **Additional Time (minutes)**.
 
-#. In the **Value** field, enter the number of extra minutes that you are
-   granting the learner.
+#. In the **Additional Time** field, enter the number of extra minutes that you are granting the learner.
 
    .. note:: Enter a whole number greater than 0.
 
