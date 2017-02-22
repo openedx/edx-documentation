@@ -88,7 +88,7 @@ This section describes how you update course-specific settings.
 Change a Course Email Preference
 =================================
 
-To change your email preference for a course, follow these steps.
+To subscribe or unsubscribe to emails from a course, follow these steps.
 
 #. On your dashboard, locate the course.
 
@@ -100,7 +100,7 @@ To change your email preference for a course, follow these steps.
      :alt: The course settings icon next to the View Course button on the
            learner dashboard.
 
-#. Select **Course emails**.
+#. Select **Email Settings**.
 
 #. Select or clear the **Receive course emails** check box, and then select
    **Save Settings**.
