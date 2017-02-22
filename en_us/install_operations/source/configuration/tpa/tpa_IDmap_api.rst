@@ -80,7 +80,7 @@ To test the API, follow these steps.
 #. Use client credentials (from the django admin) to get the access token, as
    follows.
 
-    .. code-block:: python
+    ::
 
         curl --data "client_id=CLIENT_ID&client_secret=CLIENT_SECRET&grant_type=client_credentials" http://localhost:8000/oauth2/access_token
 
@@ -89,7 +89,7 @@ To test the API, follow these steps.
 #. Use the access token to issue requests to the API, as in the following
    examples.
 
-    .. code-block:: python
+    ::
 
         curl --header "Authorization: Bearer ACCESS_TOKEN" http://localhost:8000/api/third_party_auth/v0/providers/{provider_id}/users
 
