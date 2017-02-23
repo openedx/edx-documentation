@@ -4,7 +4,7 @@
 The Custom JavaScript Display and Grading Example Template
 ###########################################################
 
-As referred to in `course team documentation <http://edx.readthedocs.org/projects/ca/en/latest/problems_tools/advanced_problems.html#custom-javascript-display-and-grading>`_, there is a built-in template in edX Studio that uses a sample JavaScript application.
+As referred to in `course team documentation <http://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/exercises_tools/custom_javascript.html>`_, there is a built-in template in edX Studio that uses a sample JavaScript application.
 
 This sample application has learners select two different shapes, a cone and a
 cube. The correct state is when the cone is selected and the cube is not
@@ -13,7 +13,7 @@ selected.
 .. image:: ../images/JavaScriptInputExample.png
   :alt: Image of the sample JavaScript application, with the cone selected
 
-You can `download files for that application <http://files.edx.org/JSInput.zip>`_.
+You can `download files for that application <http://files.edx.io/JSInput.zip>`_.
 You must upload these files in Studio to use them in a problem.
 
 The following information steps through this example to demonstrate how to apply
@@ -189,7 +189,7 @@ The XML problem for the sample template is as follows.
             set_statefn="WebGLDemo.setState"
             width="400"
             height="400"
-            html_file="https://studio.edx.org/c4x/edX/DemoX/asset/webGLDemo.html"
+            html_file="https://studio.edx.io/c4x/edX/DemoX/asset/webGLDemo.html"
             sop="false"/>
         </customresponse>
     </problem>

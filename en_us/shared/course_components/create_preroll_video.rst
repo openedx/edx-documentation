@@ -275,7 +275,7 @@ To remove the pre-roll file from your course, follow these steps.
 #. Select **Save Changes**.
 
 
-.. _Processing Video Files: http://processing-video-files.readthedocs.org/en/latest/
-.. _Specifications for Successful Video Files: http://processing-video-files.readthedocs.org/en/latest/video_uploads.html#specifications-for-successful-video-files
-.. _Upload Video Files: http://processing-video-files.readthedocs.org/en/latest/video_uploads.html#upload-video-files
+.. _Processing Video Files: http://processing-video-files.readthedocs.io/en/latest/
+.. _Specifications for Successful Video Files: http://processing-video-files.readthedocs.io/en/latest/video_uploads.html#specifications-for-successful-video-files
+.. _Upload Video Files: http://processing-video-files.readthedocs.io/en/latest/video_uploads.html#upload-video-files
 .. _ISO 639-1 codes: http://en.wikipedia.org/wiki/List_of_ISO_639-1_codes

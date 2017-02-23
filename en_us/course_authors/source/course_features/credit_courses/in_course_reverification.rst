@@ -253,4 +253,4 @@ requirements on their **Progress** pages.
 
 For more information about the in-course identity reverification experience for
 the learner, see `In-Course Identity Reverification
-<http://edx-guide-for-students.readthedocs.org/en/latest/SFD_credit_courses/SFD_in_course_ID_reverification.html>`_.
+<http://edx-guide-for-students.readthedocs.io/en/latest/SFD_credit_courses/SFD_in_course_ID_reverification.html>`_.

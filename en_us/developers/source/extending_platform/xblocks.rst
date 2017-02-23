@@ -2,7 +2,7 @@ Integrating XBlocks with edx-platform
 =====================================
 
 The edX LMS and Studio have several features that are extensions of the core
-XBlock libraries (https://xblock.readthedocs.org). These features are listed
+XBlock libraries (https://xblock.readthedocs.io). These features are listed
 below.
 
 * `LMS`_

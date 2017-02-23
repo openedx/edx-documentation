@@ -137,7 +137,7 @@ Note: there is one exception. REST APIs created using Django REST Framework (DRF
 
 See:
 
-* http://sphinxcontrib-napoleon.readthedocs.org/en/latest/example_google.html
+* http://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html
 * https://google-styleguide.googlecode.com/svn/trunk/pyguide.html?showone=Comments#Comments
 
 Here's how you write documentation in a mostly "Google Style" manner::
@@ -206,7 +206,7 @@ References
 * `PEP 8`_
 * `PEP 257`_
 * https://docs.djangoproject.com/en/1.5/internals/contributing/writing-code/coding-style/
-* https://python-guide.readthedocs.org/en/latest/
+* https://python-guide.readthedocs.io/en/latest/
 * http://google-styleguide.googlecode.com/svn/trunk/pyguide.html
 * http://www.nilunder.com/blog/2013/08/03/pythonic-sensibilities/
 
