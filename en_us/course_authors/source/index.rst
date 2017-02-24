@@ -29,5 +29,4 @@ Building and Running an edX Course
    manage_live_course/index
    student_progress/index
    rerun_course/index
-   students/index
    glossary
