@@ -6,11 +6,11 @@ Zooming Image Tool
 
 .. note:: EdX does not support this tool.
 
-If you use very large or very detailed images to present information in your
-course, learners might not be able to see all the information in the image
-without some option to zoom in to various areas of the image. You can use the
-zooming image tool to enlarge areas of your image as the learner moves the
-mouse over the image, as shown in the example below.
+If you present information to your learners using very large or very detailed
+images, learners might not be able to clearly see all the information in the
+image. Use the zooming image tool to provide learners with the ability to zoom
+in to and enlarge selected areas of your image.
+
 
 .. image:: ../../../shared/images/Zooming_Image.png
   :alt: Example zooming image tool showing a chemistry exercise.
@@ -23,24 +23,30 @@ To create a zooming image tool, you need the following files.
 
 * The image that you want learners to see when they access the unit.
 
-* The image that appears in the magnified area when a learner clicks the
+* The image that appears in the magnified area when a learner selects the
   regular image. This image can be larger than the regular image.
 
-* The **jquery.loupeAndLightbox.js** JavaScript file. Every zooming image tool
-  uses this JavaScript file, and you do not need to make any changes to it. To
-  download this file, right-click
-  http://files.edx.org/jquery.loupeAndLightbox.js, and then select **Save Link
-  As** to save the file on your computer.
+* The ``jquery.loupeAndLightbox.js`` JavaScript file from
+  ``http://files.edx.org/jqueryloupeAndLightbox.js``.
+
 
 ****************************
 Create a Zooming Image Tool
 ****************************
 
-#. Upload your regular-sized image file, your small image file, and the
-   ``jquery.loupeAndLightbox.js`` file to the **Files & Uploads** page. For
-   more information about how to do this, see :ref:`Add Files to a Course`.
+#. Download the ``jquery.loupeAndLightbox.js`` file by right-clicking the
+   following link, and then selecting the option to save or download the linked
+   file.
 
-#. Under **Add New Component**, select **HTML**, and then select **Zooming
+   http://files.edx.org/jqueryloupeAndLightbox.js
+
+#. In Studio, select **Content** and then select **Files & Uploads** to upload
+   your regular-sized image file, your small image file, and the
+   ``jquery.loupeAndLightbox.js`` file. For more information about uploading
+   files for your course, see :ref:`Add Files to a Course`.
+
+#. Add a zooming image tool to your course. In the course outline in Studio,
+   select **Add New Component**, select **HTML**, and then select **Zooming
    Image Tool**.
 
 #. In the new component that appears, select **Edit**.
@@ -69,7 +75,7 @@ Create a Zooming Image Tool
      For example, your file name and path might be ``/static/Image2.jpg``.
 
    - Replace the following name and file path with the name and path of the
-     JavaScript file for your course.
+     JavaScript file that you downloaded from ``files.edx.org``.
 
      ``https://studio.edx.org/c4x/edX/DemoX/asset/jquery.loupeAndLightbox.js``
 
