@@ -55,6 +55,7 @@ The following data is not exported with your course.
 * Course team data
 * Discussion data
 * Certificates
+* Prerequisite course subsection settings
 
 To export your course, follow these steps.
 

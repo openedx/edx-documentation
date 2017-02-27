@@ -37,9 +37,11 @@ Data Duplicated When You Re-Run a Course
      - Yes.
    * - Pages added to the course
      - Yes, including all page content and the defined page order.
-   * - Course Updates
+   * - Course updates
      - Yes.
-   * - Advanced Settings
+   * - Prerequisite course subsection settings
+     - No.
+   * - Advanced settings
      - Yes.
    * - Grading policy
      - Yes.
@@ -205,6 +207,9 @@ who enroll in the new course run.
   For more information about the updates that you can make to improve the
   accessibility of these problem types, see the `Release Notes
   <http://edx.readthedocs.io/projects/edx-release-notes/en/latest/studio_index.html#updates-to-capa-problem-types>`_.
+
+* If your course uses prerequisite course subsections to hide course
+  subsections until learners complete other, prerequisite subsections, configure the prerequisite course subsections. See :ref:`configuring_prerequisite_content`.
 
 * If your course includes instructions for learners, verify that the
   instructions reflect the current user interface of the LMS.
