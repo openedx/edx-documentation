@@ -124,8 +124,7 @@ edx.org. To learn more about the program and its courses, select the program.
 
 .. image:: ../../shared/students/Images/SFD_MicroMastersBadge.png
    :width: 200
-   :alt: An image of the ColumbiaX Artificial Intelligence card with a
-   MicroMasters indicator.
+   :alt: An image of the ColumbiaX Artificial Intelligence card with a MicroMasters indicator.
 
 For more information about MicroMasters programs, see `MicroMasters Programs`_
 on edx.org.
