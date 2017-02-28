@@ -227,7 +227,7 @@ Discussion list now includes the topic you added.
 
  .. image:: ../../../shared/images/NewCategory_Discussion.png
   :width: 300
-  :alt: Image of a new topic named Course Q&A in the list of discussion topics.
+  :alt: A new topic named Course Q&A in the list of discussion topics.
 
 .. note:: In courses that use cohorts, the course-wide discussion topics that
    you add are unified. All posts can be read and responded to by every
@@ -394,6 +394,38 @@ particular section or subsection of the course, and are not subject to
 release dates.
 
 
+.. _Anonymous_posts:
+
+************************************
+Enabling Anonymous Discussion Posts
+************************************
+
+By default, when learners participate in a discussion, their usernames are
+visible in the discussion. You can enable learners to make their discussion
+posts anonymous, so that their usernames are not visible to other learners.
+Their usernames will still be visible to course staff.
+
+To enable anonymous discussion posts in your course, follow these steps.
+
+#. In Studio, select **Settings**, then select **Advanced Settings**.
+
+#. Locate the **Allow Anonymous Discussion Posts to Peers** field. The default
+   value is ``false``.
+
+#. Change the value of the setting to ``true``.
+
+#. Select **Save Changes**.
+
+Learners can now create discussion posts in your course that are anonymous
+to other learners.
+
+The **Advanced Settings** page in Studio also includes a field named **Allow
+Anonymous Discussion Posts**. Setting the value of that field to ``true``
+enables learners to create discussion posts that are anonymous to course
+staff, as well as to other learners. As a best practice, edX recommends
+that you do not set this field to ``true``.
+
+
 .. _Running_discussions:
 
 *********************
@@ -437,7 +469,9 @@ Seed Discussion Topics
 
 To help learners learn how to get the most out of course discussions, and find
 the best discussion topic to use for their questions and conversations, you can
-seed discussion topics in course-wide discussion topics before the course starts.
+seed discussion topics in course-wide discussion topics before the course
+starts.
+
 Some examples follow.
 
 * In the General topic (which is included in every course by default), add an
@@ -467,8 +501,8 @@ to read, and can therefore result in an unsatisfactory experience in the
 discussion.
 
 .. note:: You can only pin or close posts and mark questions as answered when
-   you work in a web browser. You cannot complete these activities when you work
-   in the edX mobile app.
+   you work in a web browser. You cannot complete these activities when you
+   work in the edX mobile app.
 
 * Pin a post. Pinning a post makes it appear at the top of the list of posts in
   the discussion navigation pane on the **Discussion** page. As a result, it is
