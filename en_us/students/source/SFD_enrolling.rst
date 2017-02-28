@@ -105,8 +105,7 @@ edx.org. To learn more about the program and its courses, select the program.
 
 .. image:: ../../shared/students/Images/SFD_XseriesBadge.png
    :width: 200
-   :alt: An image of the Systematic Program Design card with an XSeries
-       indicator.
+   :alt: An image of the Systematic Program Design card with an XSeries indicator.
 
 To complete an XSeries program, you must earn a verified certificate in each of
 the courses in the program.
@@ -114,17 +113,22 @@ the courses in the program.
 For more information about XSeries programs, see `XSeries Programs`_ on
 edx.org.
 
-MicroMasters programs are a series of graduate level courses that you take for credit in a specific career field. After you earn a MicroMasters certificate, you can apply to a university that offers credit for the MicroMasters courses. If you are accepted, you can then apply your MicroMasters credit toward a master’s degree at that university.
+MicroMasters programs are a series of graduate level courses that you take for
+credit in a specific career field. After you earn a MicroMasters certificate,
+you can apply to a university that offers credit for the MicroMasters courses.
+If you are accepted, you can then apply your MicroMasters credit toward a
+master’s degree at that university.
 
 MicroMasters programs have a "MicroMasters" indication in the course catalog on
 edx.org. To learn more about the program and its courses, select the program.
 
 .. image:: ../../shared/students/Images/SFD_MicroMastersBadge.png
    :width: 200
-   :alt: An image of the ColumbiaX Artificial Intelligence card with a MicroMasters
-       indicator.
+   :alt: An image of the ColumbiaX Artificial Intelligence card with a
+   MicroMasters indicator.
 
-For more information about MicroMasters programs, see `MicroMasters Programs`_ on edx.org.
+For more information about MicroMasters programs, see `MicroMasters Programs`_
+on edx.org.
 
 For a list of all courses that are part of an XSeries or MicroMasters program,
 see the `edX course catalog`_.
