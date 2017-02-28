@@ -18,8 +18,8 @@ Building and Running an edX Course
   Problem from a Randomized Content Block` sections have been added.
 
 * Information about previewing courseware as a specific student has been added
-  to the :ref:`partnercoursestaff:Preview Cohort Specific Courseware` and
-  :ref:`partnercoursestaff:View Your Live Course` sections.
+  to the :ref:`partnercoursestaff:Viewing Cohort Specific Courseware` and
+  :ref:`partnercoursestaff:Preview Unpublished Content` sections.
 
 
 ==================================
