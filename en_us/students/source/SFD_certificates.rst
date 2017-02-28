@@ -307,8 +307,8 @@ Facebook, LinkedIn, and Twitter.
 
 .. note::
  You can use these steps to share course and program certificates on most
- social media sites. To share an XSeries certificate on LinkedIn, see
- :ref:`Share an XSeries Certificate on LinkedIn`.
+ social media sites. To share a certificate on LinkedIn, see
+ :ref:`Share a Certificate on LinkedIn`.
 
 #. Sign in to the social media site on which you want to share your
    certificate.
@@ -333,15 +333,12 @@ Facebook, LinkedIn, and Twitter.
    other than LinkedIn, see :ref:`Share a PDF Certificate URL`.
 
 
-.. _Share an XSeries Certificate on LinkedIn:
+.. _Share a Certificate on LinkedIn:
 
-Share an XSeries Certificate on LinkedIn
+Share a Certificate on LinkedIn
 ****************************************
 
-.. DOC-3330 calls for an update to this topic for MicroMasters if these steps
-.. apply to MM when certs become available. - Sylvia, 9/16/16
-
-To share an XSeries certificate on LinkedIn, follow these steps.
+To share a course or program certificate on LinkedIn, follow these steps.
 
 .. note::
   Because LinkedIn is a third-party website, the following steps might change
@@ -353,14 +350,14 @@ To share an XSeries certificate on LinkedIn, follow these steps.
 
 #. On the **Certifications** page, enter information in the following fields.
 
-   * For **Certification Name**, enter the name of the course.
-   * For **Certification Authority**, enter ``edX``.
-   * For **Certification URL**, enter the URL for your certificate. For more
+   * For **Certification name**, enter the name of the course or program.
+   * For **Certification authority**, enter ``edX``.
+   * For **License number**, enter the URL for your certificate. For more
      information, see :ref:`Share a Web Certificate URL`.
-   * (Optional) For **Dates**, enter the month and year when you received your
-     certificate.
+   * (Optional) Select **This certification does not expire**.
+   * (Optional) For **Time period**, enter the month and year when you received your certificate.
 
-#. Leave the other fields blank, and then select **Save**.
+#. Select **Save**.
 
 .. _Share a Web Certificate URL:
 
