@@ -41,9 +41,8 @@ list of requirements to be sure that your pull request is ready to be reviewed:
    GitHub.
 
 #. The code should be clear and understandable. Comments in code, detailed
-   docstrings, and good variable naming conventions are expected. The
-   `edx-platform GitHub wiki`_ contains many great links to style guides for
-   Python, Javascript, and internationalization (i18n) conventions.
+   docstrings, and good variable naming conventions are expected. See the
+   :doc:`../style_guides/index` for more details.
 
 #. The pull request should be as small as possible. Each pull request should
    encompass only one idea: one bugfix, one feature, etc. Multiple features (or
@@ -142,9 +141,8 @@ following links:
 * :doc:`../testing/jenkins`
 * :doc:`../testing/code-coverage`
 * :doc:`../testing/code-quality`
-* `Python Guidelines <https://github.com/edx/edx-platform/wiki/Python-Guidelines>`_
-* `Javascript Guidelines <https://github.com/edx/edx-platform/wiki/Javascript-Guidelines>`_
+* :doc:`../style_guides/python_guidelines`
+* :doc:`../style_guides/javascript_guidelines`
 
-.. _edx-platform GitHub wiki: https://github.com/edx/edx-platform/wiki#development
 .. _contributor's agreement with edX: http://open.edx.org/sites/default/files/wysiwyg/individual-contributor-agreement.pdf
-.. _compatible licenses: https://github.com/edx/edx-platform/wiki/Licensing
+.. _compatible licenses: https://open.edx.org/open-edx-licensing

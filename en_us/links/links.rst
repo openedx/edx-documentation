@@ -152,7 +152,7 @@
 
 .. _Devstack wiki: https://github.com/edx/configuration/wiki/edX-Developer-Stack
 
-.. _Developing on Devstack: https://github.com/edx/edx-platform/wiki/Developing-on-the-edX-Developer-Stack
+.. _Developing on Devstack: https://openedx.atlassian.net/wiki/display/OpenOPS/Running+Devstack
 
 .. _forum migration described on the Open edX wiki: https://openedx.atlassian.net/wiki/display/TNL/Migrating+the+Discussion+Forums+to+Support+Teams+Discussion+Filtering
 
@@ -240,7 +240,7 @@
 .. _Testing in Django: https://docs.djangoproject.com/en/1.8/topics/testing/
 .. _Django sites framework: https://docs.djangoproject.com/en/1.8/ref/contrib/sites
 .. _Jasmine: http://jasmine.github.io/2.3/introduction.html
-.. _edX JavaScript standards: https://github.com/edx/edx-platform/wiki/Javascript-standards-for-the-edx-platform
+.. _edX JavaScript Style Guide: http://edx.readthedocs.io/projects/edx-developer-guide/en/latest/style_guides/javascript_guidelines.html
 .. _JSHint: http://www.jshint.com/
 .. _jscs: https://www.npmjs.org/package/jscs
 .. _Waffle: http://waffle.readthedocs.org/en/latest
