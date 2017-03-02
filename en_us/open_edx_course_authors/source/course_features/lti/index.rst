@@ -32,5 +32,5 @@ You use the topics in this section to prepare your course for reuse.
 You can also include content from an LTI provider in your Open edX courses. For
 more information, see :ref:`LTI Component`.
 
-.. _Configuring an edX Instance as an LTI Tool Provider: http://edx.readthedocs.org/projects/edx-installing-configuring-and-running/en/latest/configuration/lti/index.html
+.. _Configuring an edX Instance as an LTI Tool Provider: http://edx.readthedocs.io/projects/edx-installing-configuring-and-running/en/latest/configuration/lti/index.html
 

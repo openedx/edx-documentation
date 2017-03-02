@@ -12,11 +12,11 @@
 
 .. _Coming Soon Programs Page: https://open.edx.org/announcements/coming-soon-xseries-programs-page
 
-.. _Using edX Insights: http://edx.readthedocs.org/projects/edx-insights/en/latest/
+.. _Using edX Insights: http://edx.readthedocs.io/projects/edx-insights/en/latest/
 
-.. _Review Answers to Graded Problems: http://edx.readthedocs.org/projects/edx-insights/en/latest/performance/Performance_Answers.html#review-answers-to-graded-problems
+.. _Review Answers to Graded Problems: http://edx.readthedocs.io/projects/edx-insights/en/latest/performance/Performance_Answers.html#review-answers-to-graded-problems
 
-.. _Review Answers to Ungraded Problems: http://edx.readthedocs.org/projects/edx-insights/en/latest/performance/Performance_Ungraded.html#review-answers-to-ungraded-problems
+.. _Review Answers to Ungraded Problems: http://edx.readthedocs.io/projects/edx-insights/en/latest/performance/Performance_Ungraded.html#review-answers-to-ungraded-problems
 
 .. _Open edX Analytics wiki: http://edx-wiki.atlassian.net/wiki/display/OA/Open+edX+Analytics+Home
 
@@ -24,7 +24,7 @@
 
 .. _Entity Relationship Diagram for ORA Data: https://openedx.atlassian.net/wiki/display/AN/Entity+Relationship+Diagram+for+ORA+Data
 
-.. _edX Enrollment API: http://edx.readthedocs.org/projects/edx-platform-api/en/latest/enrollment/index.html
+.. _edX Enrollment API: http://edx.readthedocs.io/projects/edx-platform-api/en/latest/enrollment/index.html
 
 .. _course-data: http://groups.google.com/a/edx.org/forum/#!forum/course-data
 
@@ -108,7 +108,7 @@
 
 .. _VirtualEnv Installation: https://virtualenv.pypa.io/en/latest/installation.html
 
-.. _VirtualEnvWrapper: http://virtualenvwrapper.readthedocs.org/en/latest
+.. _VirtualEnvWrapper: http://virtualenvwrapper.readthedocs.io/en/latest
 
 .. _XBlock SDK: https://github.com/edx/xblock-sdk
 
@@ -232,8 +232,8 @@
 .. _E-Commerce service: https://github.com/edx/ecommerce
 .. _Transifex: https://www.transifex.com/
 .. _configure the Transifex client: http://docs.transifex.com/client/config/
-.. _Communications API: http://django-oscar.readthedocs.org/en/latest/howto/how_to_customise_oscar_communications.html#communications-api
-.. _django-compressor: http://django-compressor.readthedocs.org/
+.. _Communications API: http://django-oscar.readthedocs.io/en/latest/howto/how_to_customise_oscar_communications.html#communications-api
+.. _django-compressor: http://django-compressor.readthedocs.io/
 .. _RequireJS: http://requirejs.org/
 .. _OpenID Connect: http://openid.net/specs/openid-connect-core-1_0.html
 .. _devstack: https://github.com/edx/configuration/wiki/edX-Developer-Stack
@@ -243,8 +243,8 @@
 .. _edX JavaScript standards: https://github.com/edx/edx-platform/wiki/Javascript-standards-for-the-edx-platform
 .. _JSHint: http://www.jshint.com/
 .. _jscs: https://www.npmjs.org/package/jscs
-.. _Waffle: http://waffle.readthedocs.org/en/latest
-.. _Waffle documentation: http://waffle.readthedocs.org/en/latest
+.. _Waffle: http://waffle.readthedocs.io/en/latest
+.. _Waffle documentation: http://waffle.readthedocs.io/en/latest
 .. _Segment: https://segment.com
 .. _CourseTalk: https://www.coursetalk.com/
 .. _Google Play: https://play.google.com/store/apps/details?id=org.edx.mobile
@@ -355,7 +355,7 @@
 
 .. _Microsoft Azure: https://azure.microsoft.com/en-us/pricing/free-trial/
 
-.. _python-social-auth backend documentation: http://python-social-auth.readthedocs.org/en/latest/backends/index.html#social-backends
+.. _python-social-auth backend documentation: http://python-social-auth.readthedocs.io/en/latest/backends/index.html#social-backends
 
 .. _IMS LTI 1.1 Consumer Launch: http://www.imsglobal.org/developers/LTI/test/v1p1/lms.php
 
@@ -406,7 +406,7 @@
 
 .. _Dogwood blog post: https://open.edx.org/blog/newest-open-edx-release-dogwood-now-available
 
-.. _Adding E-Commerce to the Open edX Platform (Dogwood): http://edx.readthedocs.org/projects/edx-installing-configuring-and-running/en/named-release-dogwood.rc/ecommerce/index.html
+.. _Adding E-Commerce to the Open edX Platform (Dogwood): http://edx.readthedocs.io/projects/edx-installing-configuring-and-running/en/named-release-dogwood.rc/ecommerce/index.html
 
 .. _Open edX Conference: http://con.openedx.org/
 

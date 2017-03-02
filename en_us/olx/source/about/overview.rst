@@ -79,7 +79,7 @@ Replace the placeholders in the following template with your information.
       <article class="response">
         <h3>What web browser should I use?</h3>
         <p>The Open edX platform works best with the current versions of Chrome, Firefox, Safari, and Microsoft Edge.</p>
-        <p>See our <a href="http://edx.readthedocs.org/projects/open-edx-learner-guide/en/latest/front_matter/browsers.html">list of supported browsers</a> for the most up-to-date information.</p>
+        <p>See our <a href="http://edx.readthedocs.io/projects/open-edx-learner-guide/en/latest/front_matter/browsers.html">list of supported browsers</a> for the most up-to-date information.</p>
       </article>
       <article class="response">
         <h3>Question 2?</h3>

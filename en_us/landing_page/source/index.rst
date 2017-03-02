@@ -36,4 +36,4 @@ If you use or host an Open edX site
   Platform`.
 
 .. _docs.edx.org: https://docs.edx.org
-.. _edX Release Notes: http://edx.readthedocs.org/projects/edx-release-notes/en/latest/
+.. _edX Release Notes: http://edx.readthedocs.io/projects/edx-release-notes/en/latest/
