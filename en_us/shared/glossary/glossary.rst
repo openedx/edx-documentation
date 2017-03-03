@@ -552,7 +552,7 @@ L
   A view that allows the course team to review all published units as learners
   see them, regardless of the release dates of the section and subsection that
   contain the units. For more information, see :ref:`partnercoursestaff:View
-  Your Live Course`.
+  Published Content`.
 
 **LON-CAPA**
 
@@ -696,7 +696,8 @@ P
   them, regardless of the unit status and regardless of whether the release
   dates have passed.
 
-  For more information, see :ref:`partnercoursestaff:Preview Course Content`.
+  For more information, see :ref:`partnercoursestaff:Preview Unpublished
+  Content`.
 
 
 .. _Problem Component:

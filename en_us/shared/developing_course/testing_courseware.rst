@@ -7,8 +7,16 @@ Testing Your Course Content
 The way your course looks in Studio is different from the way that learners
 will see and experience it when it is live in the LMS.
 
-As a best practice, you should test content continually as you build your
-course, so you can interact with your course from a learner's point of view.
+The method that you choose for experiencing the course content as a learner
+depends on the publishing status of the content.
+
+* For published and released content, use :ref:`View Live<View Published
+  Content>`.
+
+* For draft and unreleased content, use :ref:`Preview<Preview Unpublished
+  Content>`.
+
+For more information, see the following topics.
 
 .. contents::
   :local:
@@ -36,12 +44,9 @@ configured in Studio. You see content in units with the publishing status
 :ref:`Draft (Never Published)`, :ref:`Draft (Unpublished Changes)`, or
 :ref:`Visible to Staff Only`.
 
-.. note:: If you use content groups and have designated components in a unit
-   as visible only to particular groups, the visibility status indicates that
-   some content in the unit is visible only to particular groups. For
-   information about previewing course content if you use content groups to
-   designate content as visible only to particular groups, see :ref:`Preview
-   Cohort Specific Courseware`.
+* You do not see units that are in :ref:`Draft (Never Published)` status. To
+  see these units, you must use Preview mode, as described in :ref:`Preview
+  Unpublished Content`.
 
 .. note:: If you use randomized content blocks in your course, you cannot
    preview unpublished units that contain content from randomized content

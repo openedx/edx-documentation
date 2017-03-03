@@ -39,6 +39,16 @@
 
 .. _Profile Images API Version 1.0: http://edx.readthedocs.org/projects/edx-platform-api/en/latest/profile_images/index.html
 
+.. Ficus doc links
+
+.. _Installing, Configuring, and Running the Open edX Platform\: Ficus Release: http://edx.readthedocs.io/projects/edx-installing-configuring-and-running/en/open-release-ficus.master
+
+.. _Building and Running an Open edX Course\: Ficus Release: http://edx.readthedocs.io/projects/open-edx-building-and-running-a-course/en/open-release-ficus.master
+
+.. _Open edX Learner's Guide\: Ficus Release: http://edx.readthedocs.io/projects/open-edx-learner-guide/en/open-release-ficus.master
+
+.. _Open edX Platform APIs\: Ficus Release: http://edx.readthedocs.io/projects/edx-platform-api/en/open-release-ficus.master
+
 .. Eucalyptus doc links
 
 .. _Installing, Configuring, and Running the Open edX Platform\: Eucalyptus Release: http://edx.readthedocs.io/projects/edx-installing-configuring-and-running/en/open-release-eucalyptus.master

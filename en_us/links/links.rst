@@ -140,11 +140,7 @@
 
 .. _edx-platform: https://github.com/edx/edx-platform
 
-.. _edx configuration repository: https://github.com/edx/configuration
-
 .. _configuration: https://github.com/edx/configuration
-
-.. _edx configuration repository wiki: https://github.com/edx/configuration/wiki
 
 .. _The migrate.sh script: https://github.com/edx/configuration/blob/named-release/dogwood.rc/util/vagrant/migrate.sh
 
@@ -166,8 +162,6 @@
 
 .. _edX Analytics Installation: https://openedx.atlassian.net/wiki/display/OpenOPS/edX+Analytics+Installation
 
-.. _Open edX Native Installation: https://openedx.atlassian.net/wiki/x/bgCXAw
-
 .. _ux.edx.org: http://ux.edx.org/
 
 .. _ui-toolkit.edx.org: http://ui-toolkit.edx.org/
@@ -178,8 +172,6 @@
 
 .. _iOS: http://github.com/edx/edx-app-ios
 .. _Android: http://github.com/edx/edx-app-android
-
-.. _Ease: https://github.com/edx/ease
 
 .. _edX Managing the Full Stack: https://github.com/edx/configuration/wiki/edX-Managing-the-Full-Stack
 
@@ -222,7 +214,11 @@
 
 .. _Release Pages: https://openedx.atlassian.net/wiki/pages/viewpage.action?pageId=12550314
 
-.. _Discern: http://code.edx.org/discern/
+.. _Open edX Installation options: https://openedx.atlassian.net/wiki/x/wwCXAw
+
+.. _Open edX Native 12.04 Installation: https://openedx.atlassian.net/wiki/x/bgCXAw
+
+.. _Open edX Native Installation: https://openedx.atlassian.net/wiki/x/g4G6C
 
 
 

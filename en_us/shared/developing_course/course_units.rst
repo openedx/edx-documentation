@@ -237,8 +237,8 @@ The **Release** section applies only to instructor-paced courses. It does not
 appear for units in self-paced courses.
 
 In Studio, you see the draft content as you develop the unit. You can
-:ref:`preview the changes to a unit<Preview Course Content>` to test how your
-changes will appear to learners after you publish the unit.
+:ref:`preview the changes to a unit<Preview Unpublished Content>` to test how
+your changes will appear to learners after you publish the unit.
 
 If the release date has passed in an instructor-paced course, learners see the
 last published version of the unit. If the release date is in the future,
