@@ -5,9 +5,9 @@
 
 .. _document index:
 
-#################################################
-Building and Running an edX Course: Ficus Release
-#################################################
+##################################
+Building and Running an edX Course
+##################################
 
 .. toctree::
    :numbered:
