@@ -23,10 +23,9 @@ courses.
  :width: 200
  :alt: A course tile showing the "Earn Credit" indication.
 
-To earn academic credit, you must meet a series of requirements, such as
-verifying your identity several times during your course or taking proctored
-exams. After you meet the requirements, you can purchase academic credit for a
-specific time after the course ends (usually one year).
+To earn academic credit, you must meet a series of requirements, such as taking
+proctored exams. After you meet the requirements, you can purchase academic
+credit for a specific time after the course ends (usually one year).
 
 *****************************
 Enroll for Academic Credit
@@ -38,30 +37,22 @@ for the course.
 For more information about enrolling, see :ref:`SFD Enrolling in a Course`.
 
 *****************************
-Complete Identity Checks
+Complete Proctored Exams
 *****************************
 
-When you take a course for academic credit, you have to complete a
-number of identity checks. Identity checks include periodic identity
-reverification inside the course and proctored exams.
+When you take a course for academic credit, you may have to complete proctored
+exams. Proctored exams are exams that have time limits and that use online
+proctoring software to monitor activity. To pass a proctored exam, you must
+receive both a passing grade for the exam itself and a Pass result when the
+recording of your proctoring session is reviewed.
+
+For more information about proctored exams, see :ref:`SFD_ProctoredExams`.
 
 .. note:: **To be eligible for academic credit, you must complete all identity
  checks.** If you choose not to complete an identity check at any time, you
  are no longer eligible for credit. You can still receive a verified
  certificate in the course.
 
-* In-course identity reverification requires you to verify your identity,
-  similar to the way you verified your identity at the beginning of the
-  course. You must use a computer that has a webcam to reverify your identity.
-
-  For more information, see :ref:`SFD In Course Identity Reverification`.
-
-* Proctored exams are exams that use both time limits and online proctoring
-  software. To pass a proctored exam, you must receive both a passing grade
-  for the exam itself and a Pass result when the recording of your proctoring
-  session is reviewed.
-
-  For more information about proctored exams, see :ref:`SFD_ProctoredExams`.
 
 *****************************
 Keep Track of Your Progress

@@ -30,7 +30,7 @@ This section describes edX certificates and how you access them.
 .. note::
     Some edX courses offer academic credit. If you are taking a course for
     academic credit, different requirements and steps for earning certificates
-    apply. For more information, see :ref:`SFD Academic Course Credit Index`.
+    apply. For more information, see :ref:`SFD Academic Course Credit`.
 
 .. _SFD Certificate Types:
 
