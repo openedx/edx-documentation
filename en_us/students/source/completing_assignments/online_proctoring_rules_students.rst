@@ -7,6 +7,17 @@ Online Proctoring Rules for Learners
 This topic describes the proctoring rules for learners taking an edX course
 for credit.
 
+.. note:: The proctoring rules listed in this topic are the basic rules that
+   most courses use for "Closed Book" exam situations. If a particular exam in
+   your course has different rules, such as allowing you to access reference
+   material or use a calculator or pen and paper during the exam, your course
+   team will let you know. The rules that your course team announce to you are
+   the rules that will be used to judge your exam.
+
+   If you are not told that your exam has different proctoring exam rules,
+   make sure that you follow the "Closed Book Exam" rules that are described
+   in the following sections.
+
 .. contents::
   :local:
   :depth: 1
@@ -15,16 +26,15 @@ for credit.
 Overview of Online Proctoring
 ******************************
 
-EdX.org uses an online proctoring service for certain exams (typically final
-exams) that are part of courses that can be made eligible for credit. Learners
-taking proctored exams are required to adhere to a set of defined rules to
-receive a **Satisfactory** result from the proctoring service.
+EdX.org uses an online proctoring service to provide monitoring for certain
+exams. Learners who take proctored exams are required to adhere to a set of
+defined rules to receive a **Satisfactory** result from the proctoring
+service.
 
-If a particular exam in your course has less stringent rules or allows you to
-use a specific tool such as a calculator or reference book during a proctored
-exam, your course staff will let you know. If you are not told about any
-different proctoring exam rules, make sure you adhere to the "Closed Book
-Exam" rules that are described in the following sections.
+The proctoring rules listed in this topic are the basic rules that most
+courses use for "Closed Book" exam situations. Your course team might decide
+on different rules for a proctored exam in your course, such as allowing you
+to access reference material or use a calculator during the exam.
 
 Learners are responsible for testing their systems with the proctoring software
 well in advance of all online proctored exams in their courses, so that any
