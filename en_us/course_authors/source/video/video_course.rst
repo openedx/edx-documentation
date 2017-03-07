@@ -5,9 +5,9 @@ Adding Videos to a Course
 #############################
 
 After automated processing of an :ref:`uploaded video file<Uploading Videos in
-Studio>` begins and its status on the **Video Uploads** page is Ready, you can
-include it in your course. To do so, you :ref:`copy the unique ID<Copy the edX
-Video ID>` that is assigned to an uploaded video and then :ref:`add it to a
+Studio>` begins and its status on the **Video Uploads** page is "Ready", you
+can include it in your course. To do so, you :ref:`copy the unique ID<Copy the
+edX Video ID>` that is assigned to an uploaded video and then :ref:`add it to a
 video component<Add the edX Video ID to a Video Component>`. A video file,
 `Adding a Video ID`_, is also available to show you how to complete this
 process.
@@ -36,21 +36,19 @@ Copy the Video ID
 #. Select the value in the **Video ID** column for the video. The video ID is
    assigned when you upload a video.
 
-#. Right-click and select **Copy**. Be sure to select and copy the entire
-   video ID value.
+#. Right-click the value, and then select **Copy**. Be sure to select and copy
+   the entire video ID value. You will paste this value into the **Video ID**
+   field for a video component. For more information, see :ref:`Add the edX
+   Video ID to a Video Component`.
 
-   Next, you paste this value into the **Video ID** field for a video
-   component. See :ref:`Add the edX Video ID to a Video Component`.
-
-   .. note:: The video ID is available for every uploaded file. However,
-    for a video component to deliver its content to learners, the status for
-    the file must be Ready on the **Video Uploads** page.
+   .. note::
+    The **Previous Uploads** list has a video ID for every uploaded video file.
+    However, for a video to play successfully, the status for the file must be
+    "Ready" on the **Video Uploads** page.
 
 You can also download a report of all uploaded videos on the **Video Uploads**
 page: select **Download available encodings (.csv)**. The report includes the
 video ID for every uploaded file.
-
-.. to come: how to download a CSV
 
 .. _Add the edX Video ID to a Video Component:
 
@@ -70,32 +68,39 @@ you begin. Alternatively, open a second browser window so that the video IDs on
 the **Video Uploads** page appear in one window while you work with video
 components in the other.
 
-#. From the **Content** menu select **Outline**. The **Course Outline** page
+#. On the **Content** menu, select **Outline**. The **Course Outline** page
    opens.
 
-#. Select or add a unit, and then select **Video** to add a video component.
+#. Add or edit a video component.
 
-   To edit an existing video component, locate the video component window, and
-   then select **Edit**. The Editing: Video dialog box opens to the **Basic**
-   tab.
+   To add a video component, select or add a unit, and then select **Video**
+   under **Add New Component**. Then, in the new component, select **Edit**.
 
-#. For the **Component Display Name**, enter the identifying name that you want
+   To edit an existing video component, locate the video component in a unit,
+   and then select **Edit**.
+
+   The **Editing: Video** dialog box opens to the **Basic** tab.
+
+#. In the **Component Display Name** field, enter the name that you want
    learners to see for this video.
 
-#. Select the **Advanced** tab for the Editing: Video dialog box.
+#. In the **Video ID** field, paste the video ID for the video file. For more
+   information, see :ref:`Copy the edX Video ID`.
 
-   Additional fields appear below the **Component Display Name** and **Default
-   Timed Transcript** fields.
+   .. note::
+     When you add a valid video ID in this field, you associate your video
+     component with files on YouTube and AWS that are optimized for viewing
+     with different devices and bandwidths. You do not need to add values to
+     the **Default Video URL**, **Video File URLs**, or **YouTube ID** fields.
+     The URLs that are associated with the video ID override any existing
+     values in those fields.
 
-#. For the **Video ID**, paste in the ID of the video file that you want
-   to play. See :ref:`Copy the edX Video ID`.
+#. In the **Editing: Video** dialog box, select the **Advanced** tab.
 
-   When you supply a valid video ID in this field, you associate your video
-   component with files on YouTube and AWS that are optimized for viewing with
-   different devices and bandwidths. You do not need to add values to the
-   **Default Video URL**, **Video File URLs**, or **YouTube ID** fields. The
-   URLs that are associated with the video ID override any existing values in
-   those fields.
+   .. note::
+     The **Component Display Name** field and the **Video ID** field are
+     present on both the **Basic** tab and the **Advanced** tab. You can enter
+     values for these fields on either tab.
 
 #. Set **Video Download Allowed** to **True** or **False** to define whether
    learners can download this video.
