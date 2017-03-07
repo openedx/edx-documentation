@@ -41,10 +41,9 @@ Discussions
   of each post, is now available on the **Discussions** and **Teams** pages and
   in inline discussions.
 
-* Improvements to the discussions UI: added learner profile pictures to
-  discussion posts, a new header area, a more intuitive topic list, and an
-  enhanced UI that indicates unread posts, comments, and responses. You can
-  also now sort discussions by votes
+* Improvements to the discussions UI: a new header area, a more intuitive topic
+  list, and an enhanced UI that indicates unread posts, comments, and
+  responses. You can also now sort discussions by votes.
 
 Studio & Course Author Tools
 ============================
