@@ -8,8 +8,8 @@ visually debugging an instance of E-Commerce on devstack.
 
 Before following the steps below, you should already have PyCharm Professional
 Edition installed and set up PyCharm to remotely debug LMS following `these
-instructions <https://github.com/edx/edx-platform/wiki/Setting-up-PyCharm-for-
-edX-development>`_ in the edx-platform wiki.
+instructions <https://openedx.atlassian.net/wiki/display/ENG/Working+with+devstack+and+PyCharm>`_
+in the edX wiki.
 
 #. If the 'ecommerce' user on devstack currently has no password, SSH into the
    devstack box and set one.
