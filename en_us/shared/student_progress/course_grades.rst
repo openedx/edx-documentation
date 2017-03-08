@@ -416,7 +416,7 @@ grade report, the total score appears before the individual assignment scores.
 View a Specific Learner's Progress Page
 =======================================
 
-To view a specific learner's **Progress** page, you supply their email
+To view a specific learner's **Progress** page, you need their email
 address or username. You can check the progress for learners who are either
 enrolled in, or who have unenrolled from, the course.
 
@@ -427,12 +427,12 @@ To view the **Progress** page for a specific learner, follow these steps.
 
 #. View the live version of your course.
 
-#. Select **Instructor**, and then select **Student Admin**.
+#. Next to **View this course as**, select **Specific student**.
 
-#. In the **View a specific learner's grades and progress** section, enter the
-   learner's email address or username.
+#. In the **Username or email** field that appears, enter the learner's
+   username or email address, and then press the Enter key on your keyboard.
 
-#. Select **View Progress Page**.
+#. Select the **Progress** page.
 
    The **Progress** page for the learner displays a chart with the grade for
    each homework, lab, midterm, final, and any other assignment types in your
