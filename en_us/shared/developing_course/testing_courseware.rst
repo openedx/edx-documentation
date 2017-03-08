@@ -93,7 +93,7 @@ the selected group would see it.
 
 For more information about each view, see :ref:`Staff View`, :ref:`Student
 View`, or :ref:`Specific Student View`. For more information about viewing
-cohort- specific course content, see :ref:`Viewing Cohort Specific Courseware`.
+cohort-specific course content, see :ref:`Viewing Cohort Specific Courseware`.
 
 
 .. _Preview Unpublished Content:
@@ -268,8 +268,9 @@ Specific Student View
 .. note:: This view is available only if your course has started, and only for
    content that has a status of :ref:`Published and Live`.
 
-Specific student view displays published content in your live course as
-the learner that you specify experiences it.
+Specific student view displays published content in your live course as the
+learner that you specify experiences it. When you view the **Progress** page,
+the page displays grades and progress for the learner that you have specified.
 
 When you view your course content as **Specific student**, be aware of the
 following limitations.
