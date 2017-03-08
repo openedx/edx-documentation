@@ -276,14 +276,12 @@ course video, it might be the result of one of these browser-related problems.
 Step 4. Create a Video Component
 ********************************
 
-.. The following note provides a cross reference to information that applies only to courses running on edx.org. - Alison 24 Jun 15
-
 .. only:: Partners
 
     .. note:: If you are building a course to run on the edx.org site, in
      place of this step, you follow the :ref:`Add the edX Video ID to a Video
-     Component` procedure. For more information, see the :ref:`Processing Video
-     Files Index` section.
+     Component` procedure. For more information, see :ref:`Processing Video
+     Files Index`.
 
 
 To add a video and its transcript to your course, follow these steps.
