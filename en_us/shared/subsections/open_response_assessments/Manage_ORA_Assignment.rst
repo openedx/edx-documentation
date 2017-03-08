@@ -4,24 +4,26 @@
 Managing Open Response Assessment Assignments
 ##############################################
 
-After you publish an open response assessment and learners start to submit
-responses and perform assessments, members of the course team can take the
-following actions.
+After you publish an open response assessment (ORA) assignment and learners
+start to submit responses and perform assessments, members of the course team
+can take the following actions.
 
 .. contents::
   :local:
   :depth: 1
 
-In addition, the following topics provide information about other aspects of
-open response assessments.
+The following topics provide additional information about open response
+assessments.
 
-* Components of an open response assessment: :ref:`Open Response Assessments 2`
+* :ref:`Best practices for ORA assignments<Best Practices for ORA>`
 
-* Instructions for creating an open response assessment: :ref:`PA Create an ORA
-  Assignment`
+* :ref:`Components of an ORA assignment<Open Response Assessments 2>`
 
-* Viewing metrics and learner responses for released open response assessments:
-  :ref:`Accessing ORA Assignment Information`
+* :ref:`Instructions for creating an ORA assignment<PA Create an ORA Assignment>`
+
+* :ref:`Viewing metrics and learner responses for released ORA
+  assignments<Accessing ORA Assignment Information>`
+
 
 .. _Access Information for a Specific Learner:
 
@@ -29,8 +31,8 @@ open response assessments.
 View a Specific Learner's Response and Assessments
 ****************************************************
 
-You can view the following information about an individual learner's
-performance in an open response assessment assignment.
+You can view the following information about an individual learner's open
+response assessment assignment.
 
 * The text of the learner's response, including any files that the learner
   uploaded.
@@ -87,6 +89,7 @@ To access information about a specific learner, follow these steps.
 
 .. image:: ../../../../shared/images/ORA_ManageIndivLearner.png
    :alt: The expandable sections on the Manage Individual Learners page.
+   :width: 500
 
 
 .. _Perform a Staff Assessment:
@@ -98,7 +101,8 @@ Perform Staff Assessments in an ORA Assignment
 When a staff assessment is included in an open response assessment assignment,
 course team members see a **Grade Available Responses** option at the end of
 the assignment in the course, and learners see a **Staff Assessment** step in
-their assignment.
+their assignment. For information about the possible assessment steps in an
+ORA assignment, see :ref:`PA Assessment Steps`.
 
 Submitting a staff assessment has the following results.
 
@@ -135,12 +139,11 @@ To perform a staff assessment in an assignment, follow these steps.
 Override a Learner's Assessment Grade
 ************************************************
 
-For any open response assessment, whether or not a staff assessment is
-already included, you can override a learner's final grade for the assignment.
-The ability to override the final grade can be useful if, for example, a
-learner's submission was inappropriately or inadequately graded by peers, or if
-there are not enough peer reviewers to complete the required number of peer
-assessments.
+For any open response assessment, whether or not a staff assessment is already
+included, you can override a learner's final grade for the assignment. The
+ability to override the final grade can be useful if, for example, a learner's
+submission was inappropriately or inadequately graded by peers, or if there are
+not enough peer reviewers to complete the required number of peer assessments.
 
 Submitting an override assessment has the following results.
 
@@ -211,11 +214,10 @@ Remove a Learner's Response
 ****************************
 
 In a course that contains assignments with peer assessment steps, learners
-might alert you to inappropriate responses that they have seen while performing
-peer assessments. In such a situation you can
-:ref:`locate<Locate a specific ORA submission>` and remove the response. Doing
-so removes the response so that it is no longer shown to other learners for
-peer assessment.
+might alert you to inappropriate responses that they have seen while
+performing peer assessments. In such a situation you can :ref:`locate<Locate a
+specific ORA submission>` and remove the response. Doing so removes the
+response so that it is no longer shown to other learners for peer assessment.
 
 .. note:: Removing a learner's response is an irreversible action.
 
@@ -227,12 +229,14 @@ response, it is counted as one of the submissions they have graded.
 
 .. note:: After you remove an inappropriate response, you can decide whether
    the learner who submitted that response is allowed to submit a replacement
-   response. If you do not want to allow the learner to submit a replacement
-   response, you do not need to take any additional action. The learner
-   receives a grade of zero for the entire submission. To allow the learner to
-   resubmit a response for a cancelled submission, you must delete the
-   learner's state for the problem. For more information, see
-   :ref:`delete_state`.
+   response.
+
+   If you do not want to allow the learner to submit a replacement response,
+   you do not need to take any additional action. The learner receives a grade
+   of zero for the entire submission.
+
+   To allow the learner to resubmit a response for a cancelled submission, you
+   must :ref:`delete the learner's state<delete_state>` for the problem.
 
 To remove a submitted response, follow these steps.
 
@@ -257,8 +261,9 @@ To remove a submitted response, follow these steps.
    when she views her response in the open response assessment problem.
 
    .. image:: ../../../../shared/images/ORA_RemoveSubmission.png
-     :alt: Dialog allowing comments to be entered when removing a learner
+      :alt: Dialog allowing comments to be entered when removing a learner
        submission.
+      :width: 500
 
 #. Select **Remove submission**.
 
@@ -270,13 +275,15 @@ To remove a submitted response, follow these steps.
    learner to submit another response. For more information, see
    :ref:`delete_state`.
 
-When you access this learner's information again by selecting **Manage
-Individual Learners**, instead of the response, you see a note showing the date
-and time that the submission was removed, and the comments that you entered.
+When you access :ref:`this learner's information<Access Learner Information>`
+again by selecting **Manage Individual Learners**, instead of the response,
+you see a note showing the date and time that the submission was removed, and
+the comments that you entered.
 
 .. image:: ../../../../shared/images/ORA_StaffViewCancelledResponse.png
    :alt: In Manage Individual Learners, the date, time and comment for removal
     of a learner response is shown instead of the original response.
+   :width: 500
 
 When the learner views the assignment in the course, she sees that all steps in
 the assignment have a status of "Cancelled". Under **Your Response**, instead
@@ -287,6 +294,7 @@ was cancelled, and the comments relating to the removal of their submission.
    :alt: In a learner's view of the assignment, all steps have a status of
     Cancelled, and the learner sees the date, time and comment given for the
     removal of his submission.
+   :width: 500
 
 .. _Locate a specific ORA submission:
 

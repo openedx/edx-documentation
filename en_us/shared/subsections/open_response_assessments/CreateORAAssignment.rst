@@ -4,8 +4,9 @@
 Create an Open Response Assessment Assignment
 #############################################
 
-Creating an open response assessment is a multi-step process. This section
-covers each step in detail.
+Creating an :ref:`open response assessment (ORA) assignment <Open Response
+Assessments 2>` is a multi-step process. This section covers each step in
+detail.
 
 .. contents::
   :local:
@@ -26,10 +27,10 @@ assessments.
 .. _PA Create Component:
 
 ******************************
-Step 1. Create the Component
+Step 1. Add the Component
 ******************************
 
-To create the component for your open response assessment, complete these
+To add the open response assessment component to your course, complete these
 steps.
 
 .. note:: Do not add more than one ORA component in a course unit. Multiple ORA
@@ -64,15 +65,16 @@ steps.
 Step 2. Add Prompts
 ******************************
 
-To add prompts, or questions, complete these steps.
+To add :ref:`prompts<PA Prompts>`, or questions, to your ORA assignment,
+complete these steps.
 
 .. note:: If you want to add text formatting to the prompt, or include an
  image, see :ref:`Add Formatting or Images to a Prompt`.
 
 #. In the open response assessment component editor, select **Prompt**.
-#. Add the text of your question in the text field. Replace any default text if
-   necessary.
-#. Select **Add a Prompt** to add another prompt in the problem.
+#. Replace the example prompt in the text field with your prompt.
+#. To add another prompt in the assignment, select **Add a Prompt**, and then
+   repeat Step 2.
 
 .. _Add Formatting or Images to a Prompt:
 
@@ -87,7 +89,8 @@ leave the text field in the **Prompt** tab blank. The instructions for the peer
 assessment still appear above the **Your Response** field.
 
 .. image:: ../../../../shared/images/PA_HTMLComponent.png
-      :alt: A peer assessment that has an image in an HTML component.
+      :alt: A peer assessment component that has an HTML component containing
+         text and an image, above the peer assessment.
       :width: 500
 
 .. _PA Allow Images:
@@ -103,7 +106,7 @@ read about its limitations and best practices. For more information, see
 To allow learners to submit a file along with their text responses, follow
 these steps.
 
-#. In the open response assessment component editor, select **Settings**.
+#. In the ORA component editor, select **Settings**.
 
 #. Set **Allow File Upload** to one of these options.
 
@@ -117,10 +120,11 @@ these steps.
 
    .. note:: To reduce the potential for problems from files with malicious
     content, learners cannot upload certain file types. For more information,
-    see :ref:`Asking Learners to Upload Other Files in Responses`.
+    see :ref:`Prohibited File Extensions`.
 
-#. Verify that the text of the prompt describes the file type or types that
-   learners can upload.
+#. Make sure the text of your prompt includes adequate instructions for
+   learners to upload the required files, including the file type or types
+   that learners can upload.
 
 .. _PA Add Rubric:
 
@@ -128,47 +132,56 @@ these steps.
 Step 3. Add the Rubric
 ******************************
 
-In this step, you add your rubric to provide guidance for assessing responses
-within the assignment. You add one rubric for each problem, regardless of the
-number of prompts in the problem.
+In this step, you add your :ref:`rubric<PA Rubric>` to provide guidance for
+assessing responses within the assignment. You add one rubric for each
+problem, regardless of the number of prompts in the problem.
+
+.. note::
+
+    The most effective rubrics for peer grading are written in clear, simple
+    language, have concrete details, and are as specific as possible. Many
+    novice learners will find it diffidult to make the types of value
+    judgments required by more holistic rubrics.
+
 
 For each step below, replace any default text with your own text.
 
 .. note:: All open response assessments include a feedback field below the
    rubric so that learners can provide written feedback on a peer's overall
    response. You can also allow or require learners to provide feedback for
-   individual criteria. See step 6 below for instructions. For more
-   information, see :ref:`Feedback Options`.
+   individual criteria. See step 4 in the following procedure for instructions.
+   For more information, see :ref:`Feedback Options`.
 
 To add the rubric, follow these steps.
 
-#. In the open response assessment component editor, select the **Rubric** tab.
+#. In the ORA component editor, select the **Rubric** tab.
 
 #. In the first **Criterion** section, enter the name and prompt text of your
    first criterion.
 
-#. In the first **Option** section, enter the name, explanation, and point
-   value for the first option.
+#. In the **Option** sections for this criterion, for each option that you
+   provide for the criterion enter a name, explanation, and point value.
 
-#. In the next **Option** section, enter the name, explanation, and point value
-   for the next option.
+   To remove options, select **Remove** at the top right of the option section.
 
-#. Repeat step 4 for each option. If you need to add more options, select **Add
-   Option**.
+   To add more options, select **Add Option**.
 
-#. Next to **Feedback for This Criterion**, select a value in the dropdown list.
+#. Next to **Feedback for This Criterion**, select a value in the dropdown
+   list.
 
    * If you do not want to allow feedback for this individual criterion,
      select **None**.
-   * If you want to require feedback, select **Required**.
-   * If you want to allow feedback, but not require it, select **Optional**.
+   * To require feedback for this criterion, select **Required**.
+   * To allow feedback, but not require it, select **Optional**.
 
-#. Repeat steps 2-6 to add your remaining criteria. If you need to add more
-   criteria, select **Add Criterion** at the end of the list of criteria.
+#. Repeat steps 2-4 to create additional criteria. To add more criteria than
+   provided for in the template, select **Add Criterion** at the end of the
+   list of criteria.
 
-#. Include instructions for learners to provide overall written feedback on
-   their peers' responses. You can leave the default text in the **Feedback
-   Instructions** field or replace it with your own text.
+#. Under **Feedback for This Response**, add instructions for learners to
+   provide overall written feedback on responses that they assess. You can
+   leave the default text in the **Feedback Instructions** and **Default
+   Feedback Text** fields, or replace it with your own text.
 
 .. note:: After you publish an ORA assignment, you can no longer change the
    structure of the rubric or the point values associated with each criterion
@@ -184,22 +197,17 @@ To add the rubric, follow these steps.
 Provide Only Comment Fields for Individual Criteria
 ==========================================================
 
-When you add a comment field to a criterion, the comment field appears below
-the options for the criterion. You can also provide a comment field, but no
-options.
-
-In the following image, the first criterion has a comment field but no
-options. The second criterion includes options, but does not have a comment
-field.
-
-.. image:: ../../../../shared/images/PA_0_Option_Criteria.png
-  :alt: Examples of criteria with and without a comment field.
+For an individual criterion, you can omit options, but if you do not include
+options, you must include the ability to add feedback comments.
 
 To provide a comment field without options, complete these steps.
 
-#. In the criterion, select **Remove** to remove, or delete, all the options.
-#. Next to **Feedback for This Criterion**, select **Required** in the dropdown
-   list.
+#. In the ORA component editor, select the **Rubric** tab.
+
+#. In the **Criterion** section for the criterion that you want to only
+   provide a comment field for, select **Remove** to remove each option.
+
+#. Next to **Feedback for This Criterion**, select **Required** from the list.
 
 
 .. _PA Specify Name and Dates:
@@ -210,34 +218,34 @@ Step 4. Specify the Assignment Name and Response Dates
 
 Before you specify the start and due dates and times for a response, be sure
 that you consider these aspects of, and best practices for, the open response
-assessment feature.
+assessment feature. For more information, see :ref:`Best Practices for ORA`.
 
 * Unlike other problem types, ORA assignments are not governed by the
-  subsection due date. Due dates for each ORA assignment are set in the
+  subsection due date. You set due dates for each ORA assignment in the
   assignment's settings.
 
 * The :ref:`grace period <Set the Grace Period>` that you can set for the
   course does not apply to ORA assignments.
 
-* EdX recommends that you set the response due date at least one week before
-  the peer assessment due date and time, to allow enough time for peer
-  assessments to be performed after learners have submitted their own
-  responses. If the response due time and peer assessment due time are close
+* Allow sufficient time for peer assessments to be performed after learners
+  have submitted their own responses. EdX recommends that you allow at least
+  one week between the due date for responses and the due date for peer
+  assessments. If the response due time and peer assessment due time are close
   together, and a learner submits a response just before responses are due,
   other learners may not have time to perform peer assessments before peer
-  assessments are due. For details, see :ref:`Best Practices for ORA`.
+  assessments are due.
 
-* The times that you set are in Coordinated Universal Time (UTC). You might
-  want to verify that you have specified the times that you intend by using a
-  time zone converter such as `Time and Date Time Zone Converter
+* The times that you set are in Coordinated Universal Time (UTC). To verify
+  that you have specified the times that you intend, use a time zone converter
+  such as `Time and Date Time Zone Converter
   <http://www.timeanddate.com/worldclock/converter.html>`_.
 
 To specify a name for the assignment as well as start and due dates for all
 learner responses, complete these steps.
 
-#. In the component editor, select the **Settings** tab.
+#. In the ORA component editor, select the **Settings** tab.
 
-#. Next to **Display Name**, type the name you want to give the assignment.
+#. Next to **Display Name**, enter the name you want to give the assignment.
 
 #. Next to **Response Start Date** and **Response Start Time**, enter the date
    and time when you want learners to be able to begin submitting responses.
@@ -255,9 +263,10 @@ Step 5. Select Assignment Steps
 Open response assessment assignments can include learner training, peer
 assessment, self assessment, and staff assessment steps.
 
-The component editor provides the steps in a sequence that works well for most
-courses. While you can change the order of the peer, self, and staff assessment
-steps, edX recommends that you include them in this order.
+The component editor provides the :ref:`steps<PA Assessment Steps>` in a
+sequence that works well for most courses. While you can change the order of
+the peer, self, and staff assessment steps, edX recommends that you include
+them in this order.
 
 .. note:: If you include a learner training step, you must also include a peer
    assessment step. The learner training step must come before peer or self
@@ -271,10 +280,9 @@ steps, edX recommends that you include them in this order.
 
 To add steps to the open response assignment, complete these actions.
 
-#. In the component editor, select the **Settings** tab.
+#. In the ORA component editor, select the **Settings** tab.
 
-#. Scroll down past the **Allow Image Responses** and **Allow Latex
-   Responses** fields.
+#. Scroll below the **Top Responses** field.
 
 #. Locate the following headings.
 
@@ -299,9 +307,11 @@ Step 6. Specify Step Settings
 After you select the steps that you want, you can specify settings for those
 steps.
 
-.. note:: If you make changes to a step, but then you clear the check box for
-   that step, the step will no longer be part of the assignment and your
-   changes will not be saved.
+.. note::
+
+   If you make changes to a step, and then clear the check box for that step,
+   the step will no longer be part of the assignment and your changes will not
+   be saved.
 
 .. _PA Student Training:
 
@@ -309,12 +319,15 @@ steps.
 Learner Training
 ========================
 
-For the learner training step, you enter one or more responses that you have
-created, then select an option for each criterion in your rubric.
+For the :ref:`learner training step<PA Student Training Step>`, you enter one
+or more example responses that you have created, then specify the expected
+option for each criterion in your rubric.
 
-.. note:: You must enter your complete rubric on the **Rubric** tab before you
-   can select options for the learner training responses. If you later change
-   one of your criteria or any of its options, you must also update the learner
+.. note::
+
+   You must enter your complete rubric on the **Rubric** tab before you can
+   select options for the learner training responses. If you later change one
+   of your criteria or any of its options, you must also update the learner
    training step.
 
 To add and score learner training responses, follow these steps.
@@ -325,24 +338,22 @@ To add and score learner training responses, follow these steps.
 #. Under **Response Score**, for each criterion, select the option that you
    want.
 
-For more information about learner training steps, see :ref:`PA Student
-Training Step`.
 
 
 ============================
 Peer Assessment
 ============================
 
-For the peer assessment step, you specify the number of responses that each
-learner must grade, the number of learners who must grade each response, and
-start and due dates. All fields are required.
+For the :ref:`peer assessment step<Peer Assessment Step>`, you specify the
+number of responses that each learner must grade, the number of learners who
+must grade each response, and start and due dates. All fields are required.
 
 To specify peer assessment settings, follow these steps.
 
 #. Locate the **Step: Peer Assessment** heading.
 
-#. Next to **Must Grade**, enter the number of responses that each learner must
-   grade.
+#. Next to **Must Grade**, enter the number of responses that each learner
+   must grade.
 
 #. Next to **Graded By**, enter the number of learners that must grade each
    response.
@@ -353,11 +364,12 @@ To specify peer assessment settings, follow these steps.
 #. Next to **Due Date** and **Due Time**, enter the date and time by which all
    peer assessments must be completed.
 
-  .. note:: The times that you set, and the times that learners see, use
-   Coordinated Universal Time (UTC). You might want to verify that you have
-   specified the times that you intend by using a time zone converter such as
-   `Time and Date Time Zone Converter
-   <http://www.timeanddate.com/worldclock/converter.html>`_.
+  .. note::
+
+     The times that you set are in Coordinated Universal Time (UTC). To verify
+     that you have specified the times that you intend, use a time zone
+     converter such as `Time and Date Time Zone Converter
+     <http://www.timeanddate.com/worldclock/converter.html>`_.
 
 For more information about peer assessment steps, see :ref:`Peer Assessment
 Step`.
@@ -366,7 +378,8 @@ Step`.
 Self Assessment
 ============================
 
-For the self assessment step, you specify when the step starts and ends.
+For the :ref:`self assessment step<Self Assessment Step>`, you specify when
+the step starts and ends.
 
 #. Locate the **Step: Self Assessment** heading.
 
@@ -382,18 +395,14 @@ For the self assessment step, you specify when the step starts and ends.
    `Time and Date Time Zone Converter
    <http://www.timeanddate.com/worldclock/converter.html>`_.
 
-For more information about self assessment steps, see :ref:`Self Assessment
-Step`.
 
 ================
 Staff Assessment
 ================
 
-For the staff assessment step, there are no additional settings after you have
-selected the step for inclusion in the assignment.
-
-For more information about staff assessment steps, see :ref:`Staff Assessment
-Step`.
+For the :ref:`staff assessment step<Staff Assessment Step>`, there are no
+additional settings to specify after you have selected the step for inclusion
+in the assignment.
 
 
 .. _PA Show Top Responses:
@@ -402,22 +411,24 @@ Step`.
 Step 7. Show Top Responses
 ******************************
 
-To allow learners to see the top scoring responses for the assignment, you
-specify a number on the **Settings** tab.
+You can specify whether learners see a section that shows the :ref:`highest
+scoring responses<PA Top Responses>` that were submitted for each question in
+the assignment. If offered, this section displays only after each learner has
+completed all steps in the assignment. You specify the number of highest
+scoring responses to show.
 
-#. In the component editor, select the **Settings** tab.
+.. note:: Because each response can be up to 300 pixels in height, we
+   recommend that you set the number of top responses lower than 20, to
+   prevent the page from becoming too long.
+
+#. In the ORA component editor, select the **Settings** tab.
 
 #. In the **Top Responses** field, specify the number of responses that you
    want to appear in the **Top Responses** section below the learner's final
-   score. If you do not want this section to appear, set the number to 0. The
+   score.
+
+   If you do not want this section to appear, set the number to 0. The
    maximum number is 100.
-
-.. note:: Because each response can be up to 300 pixels in height, we recommend
-   that you set the number of top responses to 20 or lower, to prevent the page
-   from becoming too long.
-
-For more information about the **Top Responses** section that you can include
-for an ORA assignment, see :ref:`PA Top Responses`.
 
 
 .. _PA Test Assignment:

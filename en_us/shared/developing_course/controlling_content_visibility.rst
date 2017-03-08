@@ -177,6 +177,12 @@ prerequisite subsections. If a subsection has a prerequisite, it is not
 visible in the course navigation unless a learner has earned a minimum score in
 the prerequisite subsection.
 
+.. note::
+
+   You cannot use :ref:`open response assessments<Open Response Assessments 2>`
+   as the prerequisite for other course subsections.
+
+
 .. _enabling_subsection_gating:
 
 =================================
