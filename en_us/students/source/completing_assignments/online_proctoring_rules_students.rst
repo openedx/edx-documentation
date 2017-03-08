@@ -8,7 +8,7 @@ This topic describes the proctoring rules for learners taking an edX course
 for credit.
 
 .. note:: The proctoring rules listed in this topic are the basic rules that
-   most courses use for "Closed Book" exam situations. If a particular exam in
+   most courses use for "closed book" exam situations. If a particular exam in
    your course has different rules, such as allowing you to access reference
    material or use a calculator or pen and paper during the exam, your course
    team will let you know. The rules that your course team announce to you are
@@ -32,7 +32,7 @@ defined rules to receive a **Satisfactory** result from the proctoring
 service.
 
 The proctoring rules listed in this topic are the basic rules that most
-courses use for "Closed Book" exam situations. Your course team might decide
+courses use for "closed book" exam situations. Your course team might decide
 on different rules for a proctored exam in your course, such as allowing you
 to access reference material or use a calculator during the exam.
 

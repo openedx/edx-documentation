@@ -41,7 +41,7 @@ an indicator appears in the unit navigation bar.
 To remove a bookmark from a page, select **Bookmarked**.
 
 After you remove a bookmark, **Bookmarked** changes back to **Bookmark this
-page** , and the indicator disappears from the unit navigation bar.
+page**, and the indicator disappears from the unit navigation bar.
 
 ***************************
 View Your Bookmarks
@@ -51,13 +51,12 @@ As you go through the course, you can see which pages are bookmarked in the
 unit navigation bar on the **Course** page. You can also see a list of all of
 your bookmarks on the **My Bookmarks** page.
 
-To access the **My Bookmarks** page, select **Bookmarks** in the course
-navigation pane.
+To access the **My Bookmarks** page, select **Bookmarks** on the course
+page.
 
-.. image:: ../../shared/students/Images/SFD_Bkmk_BookmarksButton.png
+.. image:: ../../shared/students/Images/SFD_Bkmk_BookmarksLink.png
  :width: 800
- :alt: A course page that shows the Bookmarks option above the course
-     navigation pane and units with bookmark icons in the unit navigation bar.
+ :alt: A course page that shows a link to the My Bookmarks page.
 
 The **My Bookmarks** page lists all of the pages you have bookmarked in the
 course, with the most recently created ones at the top. This page includes the
