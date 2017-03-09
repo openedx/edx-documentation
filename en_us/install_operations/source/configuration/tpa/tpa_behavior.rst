@@ -10,7 +10,7 @@ The following behavior applies to all three types of provider (OAuth, SAML, and 
 New Learner Registration
 ************************
 
-* When a user signs in by using insgle sign on (SSO) for the first time, their
+* When a user signs in by using single sign on (SSO) for the first time, their
   account is not normally created automatically. Instead, the user information
   sent by the provider is used to pre-fill the registration form. The user can
   then edit any of the information before finalizing the creation of their
