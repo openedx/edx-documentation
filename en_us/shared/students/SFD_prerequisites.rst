@@ -5,7 +5,7 @@ Completing Course Prerequisites
 ###############################
 
 This topic describes how to complete any prerequisites that might be required
-in your edX course.
+in your course.
 
 .. contents::
   :local:
@@ -15,20 +15,20 @@ in your edX course.
 Overview of Prerequisites
 **************************
 
-Some edX courses require that you have a particular set of skills or knowledge
+Some courses require that you have a particular set of skills or knowledge
 before you begin the course. Many courses include information about these
 general requirements on their **About** pages.
 
 In addition to requiring general skills and knowledge, some courses require
-learners to pass a specific prerequisite edX course or pass an entrance exam.
+learners to pass a specific prerequisite course or pass an entrance exam.
 
 .. _Prerequisite edX Course:
 
 **************************
-Prerequisite edX Course
+Prerequisite Course
 **************************
 
-When a course has a prerequisite edX course, you can see information about the
+When a course has a prerequisite course, you can see information about the
 prerequisite course on the **About** page for the course that you want to take.
 
 .. image:: ../../shared/students/Images/PrereqAboutPage.png
@@ -50,8 +50,8 @@ When you select the link, the **About** page for the prerequisite course opens.
 You can then enroll in the prerequisite course.
 
 After you successfully complete the prerequisite course, the other course
-becomes available on your dashboard, just like other edX courses. You can then
-select the course to access any available materials.
+becomes available on your dashboard. You can
+then select the course to access any available materials.
 
 .. _Entrance Exam:
 
