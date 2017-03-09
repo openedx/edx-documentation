@@ -81,7 +81,7 @@ Upgrading a Vagrant Installation
 ================================
 
 Devstack and Fullstack are installed using Vagrant.  To upgrade from one Ficus
-release to another, follow these steps in the host operating system:
+release to another, run the following commands in the host operating system:
 
 .. code-block:: bash
 

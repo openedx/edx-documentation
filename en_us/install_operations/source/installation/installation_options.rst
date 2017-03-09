@@ -118,7 +118,7 @@ All installations include the following Open edX components:
 * Discussion Forums.
 * Open Response Assessments (ORA).
 
-Devstack, fullstack and native installation also include:
+Devstack, fullstack and native installations also include:
 
 * E-Commerce
 * Programs

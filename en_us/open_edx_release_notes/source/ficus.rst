@@ -41,14 +41,14 @@ Discussions
   of each post, is now available on the **Discussions** and **Teams** pages and
   in inline discussions.
 
-* Improvements to the discussions UI: a new header area, a more intuitive topic
+* Improvements to the discussions UI include a new header area, a more intuitive topic
   list, and an enhanced UI that indicates unread posts, comments, and
   responses. You can also now sort discussions by votes.
 
 Studio & Course Author Tools
 ============================
 
-* Course teams can easily copy and move HTML components in Studio. 
+* Course teams can easily copy HTML components in Studio.
 
 * For rescoring, course teams can now specify that the system will only update
   a learner's score if the process improves the learner's score. For more
@@ -66,7 +66,7 @@ Studio & Course Author Tools
   * :ref:`opencoursestaff:Using the Script Element in Checkbox Problems` for
     checkbox problems.
 
-* Randomized content block components no longer have the unused Scored field.
+* Randomized content block components no longer have the unused **Scored** field.
   Because grading is set at the subsection level, this action won't affect your
   course. See :ref:`opencoursestaff:Randomized Content Blocks` for more
   information.
@@ -75,19 +75,20 @@ Studio & Course Author Tools
   Staff or Admin role can see.  See :ref:`opencoursestaff:Add Page` for more
   information.
 
-* In open response assessment (ORA) problems, course teams can override the
-  grades from peer assessments. For more information, see
-  :ref:`opencoursestaff:Override a learner assessment grade`.
+* When course teams override grades from peer assessments in open response
+  assessment (ORA) problems, the assignment is now correctly marked as
+  complete. For more information, see :ref:`opencoursestaff:Override a learner
+  assessment grade`.
 
-* Improvements to the word cloud tool include a new Instructions field and
+* Improvements to the word cloud tool include a new **Instructions** field and
   accessibility updates.
 
 * In drag and drop problems, course authors can prevent learners from receiving
   feedback until they've dropped all draggable items.
 
-* Added the ability to view a course as a member of a content group.
+* Users can now view a course as a member of a content group.
 
-* In the Student Profile report, added two columns: "enrollment mode" and
+* The Student Profile report has two added columns: "enrollment mode" and
   "verification status".
 
 
@@ -131,26 +132,27 @@ enhancements and improvements to readability and navigability.
   types, including checkbox and text input problems, have been updated to make
   identifying and responding to these problems easier.
 
-* Navigating among questions and reviewing survey results easier in the survey
+* Navigating among questions and reviewing survey results in the survey
   tool is now easier.
 
 * The contrast has been increased on the sign-in page for Open edX sites.
 
-* In Insights, the <title> element on learner pages now indicates the correct
+* In Insights, the `<title>` element on learner pages now indicates the correct
   view when you switch between learner roster view and learner view.
 
-* Reorganized the HTML structure of the Progress page to be more accessible.
+* The HTML structure of the **Progress** page has been reorganized to be more
+  accessible.
 
-* The course Home page now uses heading levels 1-5 in a way that screen readers
+* The course **Home** page now uses heading levels 1-5 in a way that screen readers
   can more easily process.
 
-* For custom JavaScript problems, the jsinput tag includes a title attribute
+* For custom JavaScript problems, the `jsinput` tag includes a `title` attribute
   that helps orient non-visual learners.
 
 * The video playback and volume sliders are now visible when learners view
   videos in high contrast mode.
 
-* Made the visual chart on the Progress page more accessible to learners who
+* Made the visual chart on the **Progress** page more accessible to learners who
   use keyboards and screen readers.
 
 
