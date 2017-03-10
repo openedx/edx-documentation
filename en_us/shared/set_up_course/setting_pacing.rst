@@ -15,12 +15,12 @@ be a self-paced course.
 Overview of Course Pacing
 ***************************
 
-When you create an edX course, you can set the schedule of the course,
-including due dates for assignments or exams, or you can allow learners to work
-at their own pace. Courses that follow a schedule that you set are known as
-instructor-paced courses. Courses that allow learners to submit assignments at
-any time before the course ends, without internal due dates, are known as self-
-paced courses.
+When you create an edX course, you can set the schedule of the course, including
+due dates for assignments or exams, or you can allow learners to work at their
+own pace. Courses that follow a schedule that you set are known as instructor-
+paced courses. Courses that allow learners to submit assignments at any time
+before the course ends, without internal due dates, are known as self- paced
+courses.
 
 An indicator for the pacing for your course appears on the **Course Outline**
 page. By default, courses are instructor-paced.
@@ -61,12 +61,12 @@ complete course material at any time before the course end date.
 .. only:: Partners
 
   For more information about the way learners experience instructor-paced and
-  self-paced courses, see :ref:`learners:SFD Self Paced`.
+  self-paced courses, see :ref:`learners:SFD Course Pacing`.
 
 .. only:: Open_edX
 
   For more information about the way learners experience instructor-paced and
-  self-paced courses, see :ref:`openlearners:SFD Self Paced`.
+  self-paced courses, see :ref:`openlearners:SFD Course Pacing`.
 
 
 ***************************
@@ -76,8 +76,9 @@ Set Pacing for Your Course
 
 .. only:: Open_edX
 
-    Before you can use this feature to set up a self-paced course, it must be enabled using the Open edX Django admin panel.
-    Follow these steps, or contact your Open edX site administrator for assistance.
+    Before you can use this feature to set up a self-paced course, it must be
+    enabled using the Open edX Django admin panel. Follow these steps, or
+    contact your Open edX site administrator for assistance.
 
     #. Log in to your Open edX Django Admin panel.
     #. In the **Self_Paced** section, locate **Self paced configurations** and then select **Add**.

@@ -12,6 +12,9 @@ certificates.
   :local:
   :depth: 1
 
+For information about the types of certificates that are available and
+accessing the certificates you earned, see :ref:`Certificates`.
+
 *******************************
 About edX Courses and Programs
 *******************************
@@ -56,21 +59,10 @@ About the Verified Track
 ************************
 
 Many courses offer a verified track in addition to the audit track. The
-verified track awards verified certificates to learners who submit payment,
-:ref:`verify their identities<SFD Verify Your Identity>` using a webcam and a
-government-issued photo ID, and pass the course.
-
-When you enroll in the verified track, you pay a fee that varies by course. The
-fee helps support edX's mission. The amount of the fee is listed on the About
-page for that course. If you are unable to pay the certificate fee, you can
-apply for financial assistance using the `financial assistance application`_.
-
-.. note::
-  When you enroll in the verified track, you must submit your payment before
-  you can see course content. You do not have to verify your identity at that
-  time. However, you must verify your identity before the deadline for
-  verification in that course. For more information, see :ref:`SFD Verify Your
-  Identity`.
+verified track awards :ref:`verified certificates<SFD Verified Certificates>`
+to learners who submit payment, :ref:`verify their identities<SFD Verify Your
+Identity>` using a webcam and a government-issued photo ID, and pass the
+course.
 
 If a course has a verified track, you see a "Verified" indication on the course
 image in the course catalog on edx.org.
@@ -79,14 +71,28 @@ image in the course catalog on edx.org.
    :width: 200
    :alt: Image of the DemoX course card with a verified indication.
 
+To :ref:`enroll in the verified track<SFD Change to the Verified Track>` for a
+course, you pay a fee that varies by course. The fee helps support edX's
+mission. The amount of the fee is listed on the About page for that course. If
+you are unable to pay the certificate fee, you can apply for financial
+assistance using the `financial assistance application`_.
+
+.. note::
+  When you enroll in the verified track, you must submit your payment before
+  you can see course content. You do not have to verify your identity at that
+  time. However, you must verify your identity before the deadline for
+  verification in that course. For more information, see :ref:`SFD Verify Your
+  Identity`.
+
+
 For more information about enrolling in the verified track for a course, see
 :ref:`SFD Enroll in a Course` or :ref:`SFD Change to the Verified Track`.
 
 For a list of all courses that currently offer verified certificates, see the
 `edX course catalog`_.
 
-For more information about verified certificates, see `Verified Certificates`_
-on the edx.org website.
+For more information about certificates, see :ref:`Certificates` and `Verified
+Certificates`_ on the edx.org website.
 
 ========
 Programs
@@ -185,8 +191,9 @@ the Verified Track>` within the deadline period specified for the course.
 Enroll in the Verified Track for a Course
 =============================================
 
-Verified track enrollment requires that you pay for the certificate and verify
-your identity with a webcam and a government-issued ID.
+Verified track enrollment requires that you pay for the :ref:`verified
+certificate<SFD Verified Certificates>` and also :ref:`verify your
+identity<SFD Verify Your Identity>` with a webcam and a government-issued ID.
 
 To pursue a verified certificate in a course, follow these steps.
 

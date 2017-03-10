@@ -99,28 +99,30 @@ steps.
 You can also view the course and open its **Progress** page to view your final
 grade, as well as your grades on all course assignments.
 
-======================
-Access a Certificate
-======================
+========================
+View Certificate Status
+========================
 
-If you earn a certificate for a course, options to access your certificate are
-available on your dashboard soon after the course ends. For more courses,
-certificates are available within two weeks.
+If you are enrolled in a certificate track for your course, updates on the
+status of your certificate, and options for accessing earned certificates, are
+available in the course card on your dashboard.
 
-To access the certificate that you have earned in a course, locate the course
-on your dashboard. Next to the course name is an option for accessing the
-certificate. For example, the option might be **View Certificate** or
-**Download Your ID Verified Certificate (PDF)**.
+For example, if you have earned a certificate and the course team has
+generated certificates for the course, you can use the **View Certificate**
+option to access your web certificate.
+
+.. image:: ../../../shared/students/Images/SFD_Cert_web.png
+   :width: 600
+   :alt: Dashboard with course name, grade, and link to the certificate.
+
 
 .. only:: Partners
 
-  For information about how to access certificates, including how to download
-  certificates, see :ref:`learners:Certificates`.
+  For information about how to access certificates, including how to view, print, and share certificates, see :ref:`learners:Certificates`.
 
 .. only:: Open_edX
 
-  For information about how to access certificates, including how to download
-  certificates, see :ref:`openlearners:Certificates`.
+  For information about how to access certificates, including how to view, print, and share certificates, see :ref:`openlearners:Certificates`.
 
 .. only:: Partners
 
