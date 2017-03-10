@@ -6,8 +6,7 @@ Setting Up Course Certificates
 
 .. This file is now for partners and open edx, with differences in conditions
 
-This section describes how to configure certificates for your course in
-Studio.
+This section describes how to create and manage certificates for your course.
 
 .. contents::
    :local:
@@ -15,8 +14,8 @@ Studio.
 
 For more information about certificates, see these additional topics.
 
-* :ref:`Reporting Certificate Data`
-* :ref:`Checking Student Progress and Issuing Certificates`
+* :ref:`Obtaining Certificate Data<Reporting Certificate Data>`
+* :ref:`Ending a Course<Checking Student Progress and Issuing Certificates>`
 
 .. only:: Open_edX
 
@@ -29,26 +28,8 @@ For more information about certificates, see these additional topics.
 Overview
 ***********
 
-Using Studio, you create certificates that learners can earn in your course.
-
-.. Course start date not published for partners at this time, pending review.
-
-.. only:: Open_edX
-
-    ***********************************
-    Certificates and Course Start Dates
-    ***********************************
-
-    If your course is configured to issue certificates, you cannot start the
-    course until the required certificates are :ref:`activated<Activate a
-    Certificate>`.
-
-    For information about starting the course, see :ref:`Determine Start and
-    End Dates`.
-
-**********************
-Certificate Design
-**********************
+Using Studio, you create and manage the certificates that learners can earn in
+your course.
 
 .. only:: Open_edX
 
@@ -63,19 +44,38 @@ Certificate Design
   logo, are configured by edX. Contact your partner manager for
   more information.
 
+.. The course start date limitation is not published for partners at this time.
+.. Confirmed March 9, 2017 that there's no hard requirement for having activated
+.. certs before edX course starts. Although there is a procedural requirement for
+.. announcing activated certs, courses are able to start if they have
+.. deactivated certs.
 
-*******************
-Enable Certificates
-*******************
+.. only:: Open_edX
 
-Before you can create certificates, you must enable certificates for your
-course.
+    .. note:: If your course is configured to issue certificates, you cannot
+       start the course until the required certificates are
+       :ref:`activated<Activate a Certificate>`.
 
-#. From the **Settings** menu, select **Advanced Settings**.
+       For information about starting the course, see :ref:`Determine Start and
+       End Dates`.
 
-#. In the **Certificate Web/HTML View Enabled** field, enter ``true``.
+    ===================
+    Enable Certificates
+    ===================
 
-#. At the bottom of the page, select **Save Changes**.
+    Before you can create certificates, you must enable certificates for your
+    course.
+
+    #. From the **Settings** menu, select **Advanced Settings**.
+
+    #. In the **Certificate Web/HTML View Enabled** field, enter ``true``.
+
+    #. At the bottom of the page, select **Save Changes**.
+
+.. Confirmed March 9, 2017: On edx.org, the Certificate Web/HTML View Enabled
+.. setting is true by default, so the "Enable" procedure isn't necessary for
+.. partners.
+
 
 .. _Create a Certificate:
 
@@ -132,24 +132,19 @@ To create a certificate for your course, follow these steps.
 Edit a Certificate
 ********************
 
-You can edit a certificate before it is activated.
+You can edit certificates before and after they are activated.
 
-.. only:: Open_edX
-
-  After a certificate is activated, only a course team member with the Admin
-  role can edit the certificate. As a best practice, the administrator should
-  `deactivate <Deactivate a Certificate>`_ the certificate before making edits.
-
-.. only:: Partners
-
-  Contact your edX partner manager if you need to edit an activated
-  certificate.
+Only course team members with the Staff or Admin role can edit activated
+certificates.
 
 .. caution::
   As a best practice, do not make changes to certificates in a running course
   if it is possible that certificates have already been issued to learners,
   because different learners might be awarded certificates with different
   details for the same course.
+
+  If you must edit an activated certificate, you should :ref:`deactivate
+  <Deactivate a Certificate>` the certificate before making changes to it.
 
 To edit a certificate, follow these steps.
 
@@ -162,8 +157,9 @@ To edit a certificate, follow these steps.
 
    After you save your changes, you can :ref:`preview the certificate<Preview
    a Certificate>` to make sure it appears as you want it to. You then need to
-   :ref:`activate the certificate configuration<Activate a Certificate>`
-   before certificates can be issued.
+   :ref:`activate the certificate<Activate a Certificate>` before certificates
+   can be issued.
+
 
 .. _Set a Course Number Override:
 
@@ -239,8 +235,8 @@ in the selected mode.
    course mode would see it.
 
 After previewing the certificate, you can :ref:`edit the certificate<Edit a
-Certificate>` further or :ref:`activate your certificate configuration<Activate
-a Certificate>`.
+Certificate>` further or :ref:`activate your certificate<Activate a
+Certificate>`.
 
 
 .. _Activate a Certificate:
