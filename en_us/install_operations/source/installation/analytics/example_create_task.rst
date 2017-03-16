@@ -28,8 +28,8 @@ Example: Word Count
    .. code-block:: python
 
      import luigi
-     from edx.analytics.tasks.url import get_target_from_url, ExternalURL
-     from edx.analytics.tasks.mapreduce import MapReduceJobTask
+     from edx.analytics.tasks.util.url import get_target_from_url, ExternalURL
+     from edx.analytics.tasks.common.mapreduce import MapReduceJobTask
      
 
      class WordCountTask(MapReduceJobTask):

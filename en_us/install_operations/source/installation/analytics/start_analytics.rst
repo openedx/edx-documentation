@@ -114,7 +114,11 @@ Starting the Open edX Analytics Pipeline
 
    .. code-block:: bash
 
-     $ launch-task ImportEnrollmentsIntoMysql --local-scheduler --interval-end $(date +%Y-%m-%d -d "tomorrow") --n-reduce-tasks 1
+     $ launch-task ImportEnrollmentsIntoMysql \
+         --local-scheduler \
+         --interval-end $(date +%Y-%m-%d -d "tomorrow") \
+         --n-reduce-tasks 1 \
+         --overwrite-n-days 1
 
 #. Run the answer distribution task.
 
