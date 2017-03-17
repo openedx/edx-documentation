@@ -10,6 +10,7 @@ The following pages summarize what is new in 2017.
 .. toctree::
    :maxdepth: 1
 
+   2017-03-10
    2017-03-03
    2017-02-17
    2017-02-10
