@@ -42,12 +42,16 @@ of 50% and higher, and a grade of A for scores 75% and higher, then there are
 markers on the vertical axis at 50% and 75%, labelled "B" and "A"
 respectively.
 
-.. Note:: In the progress chart, assigments are grouped by type. For example,
-   all homework sections are listed together, then all quizzes, then exams.
+.. Note:: In the progress chart, assignments are grouped by type. For example,
+   all homework sections are listed together, then all quizzes, then exams. A
+   bar showing the average score for each assignment type appears for each
+   group.
 
 The bar for each assignment reflects your total score for all the problems in
-that assignment. For individual problem scores, see :ref:`Grading Details`
-below the chart.
+that assignment. For individual problem scores, see :ref:`Grading Details` below
+the chart. For each of the assignment types, an "average" bar shows the current
+average of scores for assignments of that type. This average is recalculated as
+you progress through the course and complete more assignments.
 
 Some courses allow some number of graded assignments to be automatically
 dropped from your final score. For example, out of 8 quizzes, a course might
