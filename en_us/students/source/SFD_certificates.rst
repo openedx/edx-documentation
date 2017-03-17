@@ -1,27 +1,33 @@
 .. _Certificates:
 
 ###############################
-Receiving Your edX Certificate
+Receiving edX Certificates
 ###############################
 
 .. The Open edX Learner's Guide also includes a Certificates topic, but it has
 .. no shared content with this topic and there is no "Certificates" file in the
 .. Shared folder.
 
-EdX awards certificates for courses that have a verified track and for edX
-programs such as XSeries and MicroMasters programs. Most certificates are web
-certificates that you can save, share, and print.
+EdX currently offers the following types of certificates.
 
-To receive a certificate for an edX course, you enroll in the :ref:`verified
-track<SFD Verified Track>` for the course, pay the certificate fee,
-:ref:`verify your identity<SFD Verify Your Identity>` with a webcam and a
-government-issued ID, and earn a passing grade.
+* :ref:`Verified track certificates<SFD Verified Certificates>` for single courses
 
-To receive a certificate for a program, you must receive a verified certificate
-for each course in the series of courses that make up the program. Some
-programs might have additional requirements.
+* :ref:`XSeries or MicroMasters program certificates<SFD XSeries
+  Certificates>` for a series of courses
 
-This section describes edX certificates and how you access them.
+.. note::
+
+  Not all courses offer certificates. In the past, edX also offered honor code
+  certificates, which are no longer available. If you earned an honor code
+  certificate in the past, you can still access your certificate through your
+  :ref:`dashboard<SFD Learner Dashboard>`. For more information, see `News
+  About edX Certificates`_.
+
+
+EdX certificates are web certificates that you can save, :ref:`share, and
+print<SFD Sharing or Printing a Certificate>`.
+
+The following topics provide information about edX certificates.
 
 .. contents::
  :local:
@@ -32,45 +38,31 @@ This section describes edX certificates and how you access them.
     academic credit, different requirements and steps for earning certificates
     apply. For more information, see :ref:`SFD Academic Course Credit`.
 
-.. _SFD Certificate Types:
-
-****************************
-About Certificate Types
-****************************
-
-EdX currently offers the following types of certificates: verified certificates
-for single courses, and program certificates for a series of courses. Not all
-courses offer certificates.
-
-.. contents::
-  :local:
-  :depth: 1
-
-.. note::
-
-  In the past, edX also offered free honor code certificates. These
-  certificates are no longer available for most new courses. If you earned an
-  honor code certificate in a previous course, you can still access your
-  certificate through your :ref:`dashboard<SFD Learner Dashboard>`.
-
-  For more information, see `News About edX Certificates`_.
 
 .. _SFD Verified Certificates:
 
-==============================
+*******************************
 About Verified Certificates
-==============================
+*******************************
 
-A verified certificate shows not only that you successfully completed your edX
-course, but also that you :ref:`verified your identity<SFD Verify Your
-Identity>` by using a webcam and an official government-issued photo ID.
+Most, but not all, courses on edx.org offer :ref:`verified tracks<Enroll in
+the Verified Track>` of study, from which you can earn verified certificates.
+For more information about the benefits of verified certificates, and to see
+an example of a verified certificate, see `Verified Certificates`_. For a list
+of all courses that offer verified certificates, see the `edX course
+catalog`_.
+
+To earn a verified certificate from an edX course, you enroll in or upgrade to
+the verified track in the course, pay the certificate fee, :ref:`verify your
+identity<SFD Verify Your Identity>` with a webcam and a government-issued ID,
+and earn a passing grade.
 
 Verified certificates include the following information.
 
 * The name that you entered as your full name when you created your account.
 
-  To verify or change your full name before the course ends, check your account
-  settings. For more information, see :ref:`SFD Basic Information`.
+  To verify or change your full name before your certificate is issued, :ref:`check your
+  account settings<SFD Account Settings>`.
 
 * The name of the course.
 * The edX partner institution that created the course.
@@ -87,167 +79,137 @@ Verified certificates include the following information.
   need a record of your grade, you can print your **Progress** page or
   dashboard.
 
-For more information about enrolling in the verified track for a course and
-working toward a verified certificate, see :ref:`Enroll in the Verified Track`.
-
-For more information about the benefits of verified certificates, and to see an
-example of a verified certificate, see `Verified Certificates`_.
-
-For a list of all courses that offer verified certificates, see the `edX course
-catalog`_.
+For information about accessing a course certificate that you have earned,
+see :ref:`SFD Receiving a Certificate`.
 
 .. _SFD XSeries Certificates:
 
-=======================================================
+****************************************************
 About XSeries and MicroMasters Program Certificates
-=======================================================
+****************************************************
 
-Certificates for XSeries and MicroMasters programs show that you have
-successfully earned a verified certificate for each course in the series of
-courses that make up the program.
+Certificates for `XSeries Programs`_ and `MicroMasters Programs`_ show that
+you have successfully earned a verified certificate for each course in the
+series of courses that make up the program. For a list of all courses that are
+part of an XSeries or MicroMasters program, see the `edX course catalog`_.
 
 XSeries and MicroMasters program certificates include the following
 information.
 
-* Your name.
+* The name that you entered as your full name when you created your account.
+
+  To verify or change your full name before your certificate is issued, :ref:`check your
+  account settings<SFD Account Settings>`.
+
 * The name of the program.
 * The edX partner institution that created the program.
 * The names and signatures of one or more members of the program team.
 * The month and year when the certificate was issued.
 * A certificate ID that others can use to validate the certificate.
 
-For more information about XSeries programs, see `XSeries Programs`_.
 
-For more information about MicroMasters programs, see `MicroMasters Programs`_.
+For information about accessing a program certificate that you have earned,
+see :ref:`Receive a Certificate for a Program`.
 
-For a list of all courses that are part of an XSeries or MicroMasters program,
-see the `edX course catalog`_.
 
-*************************
-Receiving a Certificate
-*************************
+.. _SFD Receiving a Certificate:
 
-In instructor-paced courses and in many self-paced courses, certificates are
-distributed automatically after a course or program ends. In these cases, you
-do not have to complete any additional steps to receive your certificate.
+***************************************
+Receiving a Certificate for a Course
+***************************************
 
-In an instructor-paced course, the course team sets specific due dates for
-assignments and exams, and you complete the course within a defined time
-period, such as eight or twelve weeks.
+When you have completed the course requirements for a :ref:`verified
+certificate<SFD Verified Certificates>`, including paying the certificate fee,
+verifying your identity, and earning a passing grade in the course's verified
+track, you can access your certificate when course certificates become
+available.
 
-In a self-paced course, assignments and exams do not have due dates. You can
-complete assignments and exams at your own pace, as long as you complete all
-course work before the course ends.
-
-.. contents::
-  :local:
-  :depth: 3
-
-====================================================
-Receive a Certificate for an Instructor-Paced Course
-====================================================
-
-Most instructor-paced courses distribute certificates within two weeks after
-the course ends.
-
-When your certificate for a course is ready, a link to the certificate and your
-final grade are visible on the course card on your dashboard.
+For self-paced and instructor-paced courses that :ref:`generate certificates
+at specific times<SFD Generated Certificates>`, when your certificate for a
+course is available, a link to the certificate and your final grade are
+visible on the course card on your dashboard.
 
 .. image:: ../../shared/students/Images/SFD_Cert_web.png
    :width: 600
    :alt: Dashboard with course name, grade, and link to the certificate.
 
-Select **View Certificate** to open the certificate in your browser. You can
-then share and print the certificate. For more information, see :ref:`SFD
-Sharing or Printing a Certificate`.
+Follow these steps to access your certificate.
 
-.. note::   As of September 2015, edX verified certificates are web
-   certificates. If you completed a course before September 2015, the
-   certificate is in PDF format. You see a **Download Certificate (PDF)** option
-   instead of a **View Certificate** option for PDF certificates.
+#. On your dashboard, select **View Certificate** on the course card to open
+   the certificate in your browser.
 
-If your certificate is not yet ready, you see the following message under the
-course name on your dashboard.
+#. Print or share your certificate. For more information, see :ref:`SFD Sharing
+   or Printing a Certificate`.
 
-::
+.. note:: Different self-paced courses issue certificates at different
+   intervals. Some courses issue certificates once a month, and others issue
+   certificates less frequently. For more information about your course's
+   specific certificate schedule, see the About page or the **Home** page for
+   your course.
 
-  Final course details are being wrapped up at this time. Your final standing
-  will be available shortly.
+   A few self-paced courses offer :ref:`on-demand certificates<SFD On Demand
+   Certificates>`, allowing you to generate your own certificate as soon as
+   you qualify.
 
-Additionally, you see the following status message on the **Progress** page in
-your course.
 
-::
+.. _SFD Generated Certificates:
 
-  We're working on it...
+==================================================================
+Generated Certificates for Instructor-Paced and Self-Paced Courses
+==================================================================
 
-  We're creating your certificate. You can keep working in your courses and a
-  link to it will appear here and on your Dashboard when it is ready.
+Instructor-paced and self-paced courses generate certificates at different
+intervals determined by the course teams.
 
-.. _Receive a Certificate for a Self Paced Course:
+In most :ref:`instructor-paced courses<SFD Instructor Paced>`, which have
+specific course start and end dates, the course team generates certificates
+within two weeks of the end of the course.
 
-=============================================
-Receive a Certificate for a Self-Paced Course
-=============================================
+In most :ref:`self-paced courses<SFD Self Paced>`, which you can start and
+complete at any time, the course team generates certificates at specific
+intervals, such as once a month. You qualify for a certificate when you complete
+all course requirements and achieve a passing grade. You can access your
+certificate when it becomes available.
 
-While many edX courses have specific start and end dates, some courses are
-self-paced. You can start these courses at any time and work through them at
-your own pace.
+.. note:: Different self-paced courses issue certificates at different
+   intervals. Some courses issue certificates once a month, and others issue
+   certificates less frequently. For more information about your course's
+   specific certificate schedule, see the About page or the **Home** page for
+   your course.
 
-Most self-paced courses offer edX-generated certificates. A few self-paced
-courses offer on-demand certificates.
+   A few self-paced courses offer :ref:`on-demand certificates<SFD On Demand
+   Certificates>`, allowing you to generate your own certificate as soon as
+   you qualify.
 
-EdX-Generated Certificates
-**************************
-
-Receiving a certificate for a self-paced course is similar to receiving a
-certificate for an instructor-paced course. After you have completed all course
-requirements, a certificate is generated automatically. You do not have to
-complete any additional steps to obtain your certificate.
-
-Be aware, however, that different self-paced courses issue certificates at
-different intervals. Some courses issue certificates once a month, and others
-issue certificates less frequently. For more information about your course's
-specific certificate schedule, see the About page or the **Home** page
-for your course.
 
 .. _SFD On Demand Certificates:
 
+======================
 On-Demand Certificates
-**********************
+======================
 
-Some self-paced courses offer on-demand certificates. These certificates
-allow you to request and download your certificate as soon as you complete
-enough of the course with a high enough grade to qualify for a certificate.
-You do not have to wait until you finish the course. You can usually find out
-if a course offers on-demand certificates on the course About page.
+In some courses, as soon as you complete enough of the course with a grade that
+qualifies you for a certificate, you can request and download your certificate.
+You do not have to wait until you finish the course or until the :ref:`course
+team generates certificates<SFD Generated Certificates>`.
 
-If a course offers on-demand certificates, as soon as you have qualified for a
-certificate, you see the following message at the top of the course
-**Progress** page.
+You can usually find out if a course offers on-demand certificates on the
+course's About page.
 
-::
+For courses that offer on-demand certificates, as soon as you have achieved
+the required grade in the course, you see a message at the top of the course
+**Progress** page indicating that you have qualified for a certificate.
 
-  Congratulations, you've qualified for a certificate!
+At this point, you can keep working toward a higher grade in the course, or you
+can request your certificate immediately.
 
-  You can keep working toward a higher grade in the course, or request your
-  certificate now.
+.. Caution::  The grade that is displayed on your dashboard reflects your
+   grade at the time that you request your on-demand certificate. If you
+   complete more assignments to raise your grade, the grade on your
+   **Progress** page changes, but the grade listed on your dashboard is not
+   updated.
 
-You can request your certificate at any time after you have qualified for the
-certificate.
-
-.. Caution::
- The grade that you see on your dashboard reflects your grade at that time you
- requested the certificate. If you complete more assignments to raise your
- grade, the grade on your **Progress** page changes, but the grade listed on
- your dashboard is not updated.
-
-.. _Receive an On Demand Certificate:
-
-Receive an On-Demand Certificate
-=============================================
-
-To receive and download your certificate at any time after you qualify, follow
+To receive and download your on-demand certificate after you qualify, follow
 these steps.
 
 #. On the course **Progress** page, select **Request Certificate**.
@@ -264,21 +226,22 @@ these steps.
    * To download your certificate from your dashboard, select **Download Your
      Certificate** next to the name of your course.
 
-======================================================
-Receive an XSeries or MicroMasters Program Certificate
-======================================================
 
-You receive a certificate for an XSeries or MicroMasters program automatically
-after you earn verified certificates in all of the individual courses in the
-program. Program certificates are distributed immediately after you receive the
-verified certificate for the final course in the program.
+.. _Receive a Certificate for a Program:
+
+**************************************
+Receiving a Certificate for a Program
+**************************************
+
+You automatically receive a certificate for `XSeries Programs`_ or
+`MicroMasters Programs`_ after you earn verified certificates in all of the
+individual courses in the program. Program certificates are available
+immediately after you receive the verified certificate for the final course in
+the program.
 
 The XSeries and MicroMasters program certificates that you have earned are
 visible on one side of the **Programs** tab on your dashboard.
 
-For more information about XSeries programs, see `XSeries Programs`_.
-
-For more information about MicroMasters programs, see `MicroMasters Programs`_.
 
 .. _SFD Sharing or Printing a Certificate:
 
@@ -288,9 +251,9 @@ Sharing or Printing a Certificate
 
 You can print your certificates and share links to them on social media.
 
-.. note:: As of September 2015, edX verified certificates are web
-   certificates. If you completed a course before September 2015, the
-   certificate is in PDF format.
+.. note:: If you completed a course before September 2015, your certificate is
+   in PDF format. You see a **Download Certificate (PDF)** option instead of a
+   **View Certificate** option for PDF certificates.
 
 .. contents::
   :local:
@@ -321,8 +284,8 @@ Facebook, LinkedIn, and Twitter.
    .. note:: For PDF certificates, instead of **View Certificate**, you see
       the **Download Certificate (PDF)** option.
 
-   To add the edX certification from a PDF certificate to your LinkedIn
-   profile, select **Add to Profile**.
+      To add the edX certification from a PDF certificate to your LinkedIn
+      profile, select **Add to Profile**.
 
    A dialog box for the social media site you selected opens, with the
    certificate URL entered.
@@ -485,9 +448,9 @@ guidelines.
 
 .. _Getting a Transcript:
 
-====================
+********************
 Getting a Transcript
-====================
+********************
 
 EdX does not provide course transcripts. EdX certificates do not include your
 final course grade.
