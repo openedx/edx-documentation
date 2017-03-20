@@ -9,7 +9,8 @@ Building and Running an Open edX Course
    :maxdepth: 2
 
    front_matter/index
-   getting_started/index
+   get_started
+   CA_dashboard_profile_SectionHead
    reaching_learners/index
    accessibility/index
    set_up_course/index

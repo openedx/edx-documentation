@@ -9,21 +9,21 @@ Open edX Learner's Guide
    :maxdepth: 2
 
    SFD_introduction
-   SFD_enrolling
-   sfd_dashboard_profile/index
-   SFD_mobile
-   SFD_check_progress
-   SFD_certificates
-   SFD_self_paced
-   SFD_course_search
+   SFD_dashboard_profile_SectionHead
+   OpenSFD_enrolling
    SFD_prerequisites
    SFD_content_availability
+   SFD_start_course
+   SFD_check_progress
+   OpenSFD_certificates
+   SFD_mobile
    SFD_video_player
    sfd_discussions/index
    completing_assignments/index
    SFD_ORA
    SFD_google_docs
    SFD_teams
+   SFD_course_search
    SFD_bookmarks
    SFD_notes
    SFD_wiki
