@@ -1,3 +1,5 @@
+.. This topic is currently included only in the Open edX version of the Learner's Guide
+
 .. _SFD Prerequisites:
 
 ###############################

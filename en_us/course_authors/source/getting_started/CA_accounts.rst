@@ -12,14 +12,14 @@ describe steps for getting started on edX websites.
  :depth: 1
 
 This information is intended for course teams. The *EdX Learner's Guide* also
-includes information about creating and activating accounts and about the edX
-Demo course. You might want to share pointers to information in the *EdX
-Learner's Guide* with prospective learners, along with your own course- or
-institution-specific details about the registration process, such as password
-policies or the use of campus credentials.
+includes information about :ref:`creating and activating
+accounts<learners:Register on edX>` and about the `edX Demo course`_. You might
+want to share pointers to information in the *EdX Learner's Guide* with
+prospective learners, along with your own course- or institution-specific
+details about the registration process, such as password policies or the use of
+campus credentials.
 
-For information about enrolling learners in a course, see
-:ref:`enroll_student`.
+For information about enrolling learners in a course, see :ref:`enroll_student`.
 
 .. _edX.org and edX Edge:
 
@@ -48,14 +48,14 @@ different.
   through search engines such as Google. Only learners whom you explicitly
   invite or who have the URL for your course can participate in your course on
   Edge. Note that you can invite an unlimited number of learners to participate
-  in an Edge course.
+  in an Edge course. Edge courses do not offer certificates.
 
 
-.. _Create an Account:
+.. _CA About Accounts:
 
-**********************************
-Creating and Activating an Account
-**********************************
+************************************
+About edX.org and edX Edge Accounts
+************************************
 
 .. note::  The user accounts on edx.org and edX Edge are separate. To access or
    create courses on both websites, you must complete the account registration
@@ -66,12 +66,10 @@ Creating and Activating an Account
    organizational email address or select an existing account (such as a campus
    account) that is set up to use your organizational email address.
 
-.. include:: ../../../shared/getting_started/create_activate_account.rst
+For information about creating accounts and troubleshooting sign-in issues, see
+:ref:`learners:Register on edX` and :ref:`learners:Troubleshooting signin` in
+the *edX Learner's Guide*.
 
-You can only access the **Account Settings** page from the LMS. You cannot
-access this page from Studio.
-
-.. include:: ../../../shared/getting_started/Section_troubleshooting_signin.rst
 
 .. _edX101_section:
 

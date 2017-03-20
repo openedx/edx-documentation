@@ -1,3 +1,5 @@
+.. This file is used in both the edX and Open edX Learner's Guides
+
 .. _SFD Bookmarks:
 
 ###########################

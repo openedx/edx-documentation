@@ -1,3 +1,6 @@
+.. This file is used in both the edX and Open edX versions of the Learner's Guide. Some content is conditionalized.
+
+
 .. _SFD Starting a Course:
 
 ********************
@@ -9,13 +12,25 @@ how to change settings that apply to a specific course.
 
 As soon as you enroll in a course, you can access some information about the
 course and change course-specific settings on your :ref:`dashboard<SFD Learner
-Dashboard>`. You cannot access course lessons or assignments.
+Dashboard>`. If the course start date has not passed, you cannot access course
+lessons or assignments.
 
-After the course start date, you can start working in the course.
+
+.. only:: Partners
+
+  For information about self-paced and instructor-paced courses, see :ref:`SFD
+  Course Pacing`.
+
+
+.. only:: Open_edX
+
+  For information about availability of course content, see
+  :ref:`course_content_availability`.
 
 .. contents::
   :local:
   :depth: 1
+
 
 .. _Start Date and Duration:
 
@@ -51,6 +66,7 @@ To find the course start date, follow these steps.
 
    * For archived courses that are no longer running, "Ended" and
      the date appear.
+
 
 ===============
 Start a Course
@@ -111,7 +127,7 @@ For example, if you have earned a certificate and the course team has
 generated certificates for the course, you can use the **View Certificate**
 option to access your web certificate.
 
-.. image:: ../../../shared/students/Images/SFD_Cert_web.png
+.. image:: ../../shared/students/Images/SFD_Cert_web.png
    :width: 600
    :alt: Dashboard with course name, grade, and link to the certificate.
 
@@ -124,18 +140,5 @@ option to access your web certificate.
 
   For information about how to access certificates, including how to view, print, and share certificates, see :ref:`openlearners:Certificates`.
 
-.. only:: Partners
 
-  =====================================
-  Check Your ID Verification Status
-  =====================================
-
-  If you have enrolled in the verified certificate track for a course, your
-  dashboard provides the status of your ID verification. To check the status,
-  follow these steps.
-
-  #. On your dashboard, locate the course. Your ID verification status appears
-     with the course image for that course.
-
-  For more information, see :ref:`learners:SFD Verify Your Identity`.
 

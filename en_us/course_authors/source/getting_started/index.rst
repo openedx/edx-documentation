@@ -5,9 +5,8 @@ Getting Started
 ################
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 2
 
 
-   accounts
-   dashboard_acctsettings_profile
-   get_started
+   CA_accounts
+   CA_get_started_Studio

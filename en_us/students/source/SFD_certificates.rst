@@ -62,7 +62,7 @@ Verified certificates include the following information.
 * The name that you entered as your full name when you created your account.
 
   To verify or change your full name before your certificate is issued, :ref:`check your
-  account settings<SFD Account Settings>`.
+  account settings<SFD Update Account Settings>`.
 
 * The name of the course.
 * The edX partner institution that created the course.
@@ -99,7 +99,7 @@ information.
 * The name that you entered as your full name when you created your account.
 
   To verify or change your full name before your certificate is issued, :ref:`check your
-  account settings<SFD Account Settings>`.
+  account settings<SFD Update Account Settings>`.
 
 * The name of the program.
 * The edX partner institution that created the program.

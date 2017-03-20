@@ -15,6 +15,7 @@ Building and Running an edX Course
 
    front_matter/index
    getting_started/index
+   CA_dashboard_profile_SectionHead
    reaching_learners/index
    accessibility/index
    set_up_course/index
