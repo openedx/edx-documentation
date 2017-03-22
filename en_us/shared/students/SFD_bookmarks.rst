@@ -49,7 +49,7 @@ As you go through the course, you can see which pages are bookmarked in the
 unit navigation bar on the **Course** page. You can also see a list of all of
 your bookmarks on the **My Bookmarks** page.
 
-To access the **My Bookmarks** page, select **Bookmarks** above the course
+To access the **My Bookmarks** page, select **Bookmarks** in the course
 navigation pane.
 
 .. image:: ../../shared/students/Images/SFD_Bkmk_BookmarksButton.png
@@ -61,8 +61,4 @@ The **My Bookmarks** page lists all of the pages you have bookmarked in the
 course, with the most recently created ones at the top. This page includes the
 location of the bookmarked material and the date that you added the bookmark.
 
-.. image:: ../../shared/students/Images/SFD_Bkmk_MyBookmarksPage.png
- :width: 800
- :alt: The "My Bookmarks" page showing bookmarks.
-
-To go to any bookmarked page, select **View** for that bookmark.
+To go to any bookmarked page, click anywhere in the box for that bookmark.
