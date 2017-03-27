@@ -9,4 +9,4 @@ Offering Academic Course Credit
 
    credit_courses
    proctored_exams
-   online_proctoring_rules_students
+   CA_online_proctoring_rules_students

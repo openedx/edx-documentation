@@ -1,46 +1,35 @@
-.. _Online Proctoring Rules:
-
-####################################
-Online Proctoring Rules for Learners
-####################################
-
-EdX.org uses an online proctoring service for certain exams (typically final
-exams) that are part of courses that can be made eligible for credit. Learners
-taking proctored exams are required to adhere to a set of defined rules to
-receive a **Satisfactory** result from the proctoring service.
-
-If a particular exam in your course has less stringent rules or allows you to
-use a specific tool such as a calculator or reference book during a proctored
-exam, your course staff will let you know. If you are not told about any
-different proctoring exam rules, make sure you adhere to the "Closed Book
-Exam" rules that are described in the following sections.
-
-Learners are responsible for testing their systems with the proctoring software
-well in advance of all online proctored exams in their courses, so that any
-troubleshooting that is required can be accomplished. Some courses include
-practice proctored exams, so that learners can experience an example proctored
-exam, including the software download and system check steps.
-
-As with other ID-verified assessments and exams, learners will be asked to
-establish their identity during the proctored exam process by supplying a
-government-issued photo ID with a full name that matches the name they used to
-register on edX.org.
-
-.. note:: If you require additional time or any specific accommodations or
-   exemptions to the exam policies in order to complete a proctored exam,
-   contact your instructor or edX Support.
-
+.. This file contains the proctored exam rules. This section is included within
+.. topics in both the edX Learner's Guide and Building and Running an edX Course
+.. guide. Proctored exams are not documented in the Open edX versions of the
+.. guides.
 
 *****************************
 Test Environment Requirements
 *****************************
 
-To pass a proctored exam, students must make sure that the environment in
+To pass a proctored exam, learners must make sure that the environment in
 which they take the exam meets the following requirements.
 
 =====================================
 The Room You are Taking the Test In
 =====================================
+
+.. note:: Each time you take a proctored exam, you are asked to perform a
+   webcam scan of the room that you want to take the exam in. You do not need
+   to take all of your proctored exams in the same room, but you must take each
+   exam in the room that you scanned for that exam.
+
+#. Take the exam in the same room that you scanned during the proctoring setup
+   for the current exam.
+
+#. Do not move to another room during the exam. The exam must be started and
+   completed in the same room.
+
+#. Do not leave the room during the exam for any reason, unless you have been
+   specifically permitted to do so in posted guidelines for a particular exam.
+
+#. While you are taking the proctored exam, no other person is allowed to
+   enter the room in which you are taking the exam.
 
 #. Make sure the room is well lit. The lighting in the room must be bright
    enough to be considered "daylight" quality. Overhead lighting is preferred.
@@ -55,7 +44,8 @@ The Room You are Taking the Test In
    examination.
 
    In addition to pens, paper, calculators, textbooks, and notebooks, the
-   following tools should not be on your desk or used during your proctored exam.
+   following tools should not be on your desk or used during your proctored
+   exam.
 
    * Phones.
    * Programs such as Excel, Word, Powerpoint.
@@ -77,18 +67,6 @@ The Room You are Taking the Test In
    communicate with any other person by any means.
 
 #. Do not use a phone for any reason during the proctored exam.
-
-#. While you are taking the proctored exam, no other person is allowed to
-   enter the room in which you are taking the exam.
-
-#. The room you take the exam in must be the same room in which you performed
-   the room scan during the proctoring session setup.
-
-#. Do not leave the room during the exam for any reason, unless you have been
-   specifically permitted to do so in posted guidelines for a particular exam.
-
-#. Do not move to another room during the exam. The exam must be completed in
-   the same room that the proctoring webcam scan is performed in.
 
 
 ==========================================
@@ -119,8 +97,8 @@ Your Personal Behavior
 #. Do not leave the room during the exam for any reason, unless you have been
    specifically permitted to do so in posted guidelines for a particular exam.
 
-#. Do not move to another room during the exam. The exam must be completed in
-   the same room that the proctoring webcam scan is performed in.
+#. Do not move to another room during the exam. The exam must be started and
+   completed in the same room.
 
 #. Do not have music or television playing in the background.
 

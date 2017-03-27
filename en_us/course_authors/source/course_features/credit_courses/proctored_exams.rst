@@ -67,11 +67,11 @@ monitoring the test environment and screen activity as the learner takes the
 exam.
 
 For more information about the technical requirements for taking a proctored
-exam, and edX's :ref:`online proctoring rules <Online Proctoring Rules>`, see
+exam, and edX's :ref:`online proctoring rules <CA Online Proctoring Rules>`, see
 :ref:`Preparing Learners for Proctored Exams`.
 
 .. note:: Course staff should familiarize themselves with edX's :ref:`online
-   proctoring rules <Online Proctoring Rules>`, which reflect our proctoring
+   proctoring rules <CA Online Proctoring Rules>`, which reflect our proctoring
    software partner's "Closed Book Exam" rules. These strict rules prohibit
    learners from using any tools during the exam, including pencil and
    paper, calculators, or reference books.
@@ -95,7 +95,7 @@ When learners complete a proctored exam, either by submitting their answers or
 when the time expires for the exam, the proctoring session data is uploaded to
 the third party proctoring service provider. A team of reviewers examines the
 data to determine whether the learner complied with the :ref:`Online Proctoring
-Rules <Online Proctoring Rules>`. When the review is complete, the proctoring
+Rules <CA Online Proctoring Rules>`. When the review is complete, the proctoring
 service returns the results for each learner.
 
 Before proctoring session results are available, learners see a **Pending**
@@ -194,10 +194,10 @@ earning credit.
 
 Explain what proctored exams are, and provide learners with links to the
 Learner's Guide topics about proctored exams, and to edX's :ref:`online
-proctoring rules <Online Proctoring Rules>`.
+proctoring rules <Online Proctoring Rules>` in the *edX Learner's Guide*.
 
 .. note:: Course staff should familiarize themselves with edX's :ref:`Online
-   Proctoring Rules <Online Proctoring Rules>`, which reflect our proctoring
+   Proctoring Rules <CA Online Proctoring Rules>`, which reflect our proctoring
    software partner's "Closed Book Exam" rules. These strict rules prohibit
    learners from using any tools during the exam, including pencil and
    paper, calculators, or reference books.
@@ -225,13 +225,15 @@ Exam`.
    as that process is completed.
 
 The following list represents only some of the requirements listed in the
-:ref:`online proctoring rules <Online Proctoring Rules>`.
+:ref:`online proctoring rules <CA Online Proctoring Rules>`.
 
 * System and environment checks that learners are asked to perform for the
   proctoring session include taking a photo of a government-issued photo ID,
-  and a photo of themselves, using the webcam on their computer. In addition,
-  they must use the webcam to provide a room scan that includes the desk area,
-  the area under their desk, and a view around the whole room.
+  and a photo of themselves, using the webcam on their computer.
+
+  In addition, they must use the webcam to provide a scan of the room that
+  they will take the current exam in. The scan includes the desk area, the
+  area under their desk, and a view around the whole room.
 
 * Learners must sit at a clean desk or table that has been cleared of all
   materials such as phones, books, notebooks, pens, and papers. They cannot
@@ -315,7 +317,7 @@ To create an exam that includes online proctoring, follow these steps.
    as HH:MM, where HH is hours and MM is minutes.
 
 #. Optionally, in the **Review Rules** field, enter any additions or exceptions
-   to the :ref:`default rules for proctored exams<Online Proctoring Rules>`.
+   to the :ref:`default rules for proctored exams<CA Online Proctoring Rules>`.
    For more information, see :ref:`specifying_exam_rules_and_exceptions`.
 
 #. Select **Save**.
@@ -343,12 +345,12 @@ checks.
 Practice exams are not linked to credit eligibility requirements and
 no monitoring by the proctoring software is actually done, but learners will
 be guided through the same steps as in a real proctored exam, to install the
-proctoring software, perform the identify checks and room scan.
+proctoring software, perform the identify checks and a room scan.
 
 Learners who have performed the proctoring software installation for a
-practice exam are required to perform the same installation step when they
-prepare to take an actual proctored exam, to ensure that they are using the
-latest version of the proctoring software.
+practice exam are required to perform the same installation and setup steps
+when they prepare to take an actual proctored exam, including a webcam scan of
+the room that they intend to take the actual exam in.
 
 .. note:: Make sure you create the practice exam as an ungraded exam.
 
@@ -396,8 +398,7 @@ Specifying Exam Rules and Exceptions
 ====================================
 
 The team of reviewers who examine exam attempt records determine whether
-learners complied with the :ref:`Online Proctoring Rules <Online Proctoring
-Rules>`. By default, the team of reviewers uses the standard set of rules for
+learners complied with the :ref:`Online Proctoring Rules <CA Online Proctoring Rules>`. By default, the team of reviewers uses the standard set of rules for
 taking proctored exams.
 
 You can provide custom rules and rule exceptions if the content of an exam
@@ -474,7 +475,7 @@ Responding to Learners' Concerns about Proctored Exams
 **********************************************************
 
 In addition to questions that can be answered in the FAQs on edx.org, or by the
-:ref:`online proctoring rules <Online Proctoring Rules>`, situations might
+:ref:`online proctoring rules <CA Online Proctoring Rules>`, situations might
 arise that require an action by edX Support.
 
 .. contents::
@@ -580,8 +581,7 @@ Proctored Session Results
 The proctoring software monitors both the screen activity and webcam view of
 learners. When learners complete a proctored exam, their proctoring session
 data is uploaded for review by the proctoring service provider. Reviewers
-apply defined criteria including the :ref:`Online Proctoring Rules <Online
-Proctoring Rules>` to decide whether any observed behavior should be flagged.
+apply defined criteria including the :ref:`Online Proctoring Rules <CA Online Proctoring Rules>` to decide whether any observed behavior should be flagged.
 
 Two results are possible for proctoring session reviews.
 

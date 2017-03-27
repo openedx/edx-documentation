@@ -78,7 +78,7 @@ proctored option again for that exam.
 When you agree to take a proctored exam, you are guided through the steps to
 install and set up the proctoring software. The proctoring setup process
 includes an identity verification step and a required webcam scan of the desk
-and room in which you will take the exam.
+and room in which you will take each exam.
 
 Your course might include a practice exam that you can take to make sure you
 can complete the proctoring setup steps on your computer. It usually includes
