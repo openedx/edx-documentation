@@ -43,7 +43,7 @@ Devstack, fullstack, and analytics devstack require the following software.
 
 * `VirtualBox`_ 4.3.12 or later.
 
-* `Vagrant`_ 1.6.5 or later.
+* `Vagrant`_ 1.8.7 or later.
 
 * An NFS (network file system) client, if your operating system does not
   include one. NFS allows devstack and fullstack virtual machines to share a
