@@ -542,14 +542,16 @@ If you make a change to the accepted answers for a problem, you can rescore any
 learner responses that were already submitted.
 
 
-.. note:: You can only rescore problems that have a correct answer defined in
-   edX Studio. This procedure cannot be used to rescore open response assessment
-   (ORA) problems, or problems that are scored by an external grader. For ORA
-   problems you can :ref:`override a learner assessment grade<Override a learner
-   assessment grade>` in Studio.
+.. note::
+   You can only rescore problems that have a correct answer defined in edX
+   Studio, including CAPA problems and drag and drop problems. This procedure
+   cannot be used to rescore open response assessment (ORA) problems or
+   problems that are scored by an external grader. For ORA problems, you can
+   :ref:`override a learner assessment grade<Override a learner assessment
+   grade>` in Studio.
 
    Additionally, errors might occur if you rescore a problem that has multiple
-   response fields and if you have completed any of the following actions.
+   response fields and you have completed any of the following actions.
 
    * You removed a response field.
    * You added a response field.
