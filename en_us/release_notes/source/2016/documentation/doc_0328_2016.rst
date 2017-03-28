@@ -20,7 +20,7 @@ Building and Running an edX Course
   (ORA) problems.
 
 * A clarification about using the edx.org website during a proctored exam has
-  been added to the :ref:`partnercoursestaff:Online Proctoring Rules` topic.
+  been added to the :ref:`learners:Online Proctoring Rules` topic.
 
 edX Learner's Guide
 **********************************
