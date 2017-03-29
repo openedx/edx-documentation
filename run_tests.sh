@@ -72,11 +72,8 @@ for project in "${projects[@]}"; do
         BUILD_ERRORS=$((BUILD_ERRORS + 1))
     fi
 
-    # Get errors and warnings from the error log
-    IFS=$'\n' read -d '' -r -a error_log < $err_log_file
-
-    num_errors=`echo ${error_log[@]} | grep -o 'ERROR:' | wc -l`
-    num_warnings=`echo ${error_log[@]} | grep -o 'WARNING:' | wc -l`
+    num_errors=`egrep -c 'ERROR:|SEVERE:' < $err_log_file`
+    num_warnings=`egrep -c 'WARNING:' < $err_log_file`
 
     echo SPHINX ERRORS: $num_errors
     echo SPHINX WARNINGS: $num_warnings
