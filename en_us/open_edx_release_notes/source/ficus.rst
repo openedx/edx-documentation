@@ -216,7 +216,7 @@ Patch Releases
 
 * If you used the password randomization step during installation, a database
   user named "edxapp_replica001" is created. This username is invalid because
-  it is too long. This issue is now fixed: the randomizaton step no longer
+  it is too long. This issue is now fixed: the randomization step no longer
   creates a separate user for the replica database.
 
 * The certificates process was restarting constantly, due to not being able to
