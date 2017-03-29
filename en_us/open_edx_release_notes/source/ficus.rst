@@ -20,6 +20,8 @@ The Open edX Ficus release includes the following updates.
  :depth: 1
  :local:
 
+
+===
 LMS
 ===
 
@@ -34,6 +36,7 @@ LMS
 
 * Learners can quickly see whether problems are graded or ungraded.
 
+===========
 Discussions
 ===========
 
@@ -45,6 +48,7 @@ Discussions
   list, and an enhanced UI that indicates unread posts, comments, and
   responses. You can also now sort discussions by votes.
 
+============================
 Studio & Course Author Tools
 ============================
 
@@ -202,18 +206,27 @@ Changes listed for 10 January 2017 and before are included in the Ficus release
 of Open edX.  Changes after that point will be in future Open edX releases.
 
 
-.. 
-    commented out until we need it...
+**************
+Patch Releases
+**************
 
-    **************
-    Patch Releases
-    **************
+======================
+29 March 2017: Ficus.2
+======================
 
-    ==============================
-    2 September 2016: Eucalyptus.2
-    ==============================
+* If you used the password randomization step during installation, a database
+  user named "edxapp_replica001" is created. This username is invalid because
+  it is too long. This issue is now fixed: the randomizaton step no longer
+  creates a separate user for the replica database.
 
-    * bullet list of the changes...
+* The certificates process was restarting constantly, due to not being able to
+  communicate with XQueue.  This issue has been fixed.
+
+* The help links in LMS and Studio now display the Ficus version of the docs,
+  rather than the latest version.
+
+* Fixes to some automated tests.
+
 
 .. include:: links.rst
 .. include:: ../../links/links.rst
