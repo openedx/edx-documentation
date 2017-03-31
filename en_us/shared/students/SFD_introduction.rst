@@ -4,24 +4,47 @@
 Welcome!
 #################
 
-Welcome to online learning with edX! At edX, we are glad to welcome new
-learners to the `edx.org`_ website or to the edX mobile app, as well as to all
-of the other websites that use the Open edX platform to deliver courses around
-the world. We hope that you are as excited about online learning as we are.
+.. only:: Partners
 
-The purpose of this guide is to help with your transition to online learning.
-The guide answers common questions about topics like getting started in an
-online course, earning certificates, participating in course discussions, and
+  Welcome to online learning with edX! Founded by Harvard University and MIT in
+  2012, edX is a non-profit online learning destination and MOOC provider,
+  offering high-quality courses from the world’s best universities and
+  institutions to learners everywhere. We are the only leading MOOC provider
+  that is both non-profit and open source. Our mission is to increase access to
+  high-quality education for everyone, everywhere.
+
+  At edX, we are glad to welcome new learners to the :ref:`edx.org or edX Edge
+  websites<Intro edxorg and Edge>`, or to the edX mobile app, as well as to all
+  of the other websites that use the Open edX platform to deliver courses
+  around the world. We hope that you are as excited about online learning as
+  we are.
+
+We hope that this guide helps you with your transition to online learning. The
+guide answers common questions about topics like getting started in an online
+course, earning certificates, participating in course discussions, and
 completing some of the exercises you may see in your course.
-
-This guide is continuously being updated and expanded. If you have any comments
-or questions about this guide, select **Feedback** on any page.
 
 .. only:: Partners
 
-  .. note::
-    If you have comments or questions about a specific course, select **Need
-    Help?** on any page.
+ This guide is continually being updated and expanded. If you have any comments
+ or questions about this guide, select **Feedback** on any page.
+
+ .. note::  If you have comments or :ref:`questions about a specific course<If
+    You Have Questions In Course>`, first check the discussions in your course
+    or information on the course's **Home** page to see if your question has
+    been answered there. Join your course discussion and add a question post
+    to get answers from the course team or other learners.
+
+    To contact the edX Learner Support team, select **Need Help?** on any page
+    in this guide.
+
+
+.. contents::
+  :local:
+  :depth: 1
+
+
+.. _Learning in a MOOC:
 
 ******************
 Learning in a MOOC
@@ -40,12 +63,12 @@ also used to create the courses on websites that use the Open edX online
 learning platform. Everyone is welcome to review examples of these components,
 and practice using them, by enrolling in the `edX Demo course`_.
 
-Depending on the course, a variety of enhanced components might also be
-included, from team problem-solving exercises and lab work to live
-demonstrations and ask me anything (AMA) sessions. Every course has a unique
-design, and course teams are continuously looking for new ways to engage
-learners and teach more effectively. Course teams typically include
-instructions for how to use any enhanced components right in the course.
+In some courses, enhanced components might also be included, from team
+problem-solving exercises and lab work to live demonstrations and ask me
+anything (AMA) sessions. Every course has a unique design, and course teams
+are continuously looking for new ways to engage learners and teach more
+effectively. Course teams typically include instructions for how to use any
+enhanced components right in the course.
 
 MOOCs bring learners from all over the world together. The people who you take
 a course with have a wide variety of educational backgrounds and educational
@@ -54,57 +77,37 @@ ways of learning. As a result, most learners occasionally have questions about
 what is expected, how to complete an assignment, or what a word, phrase, or
 abbreviation means.
 
+
+.. _If You Have Questions In Course:
+
+********************************************
+If You Have Questions As You Take a Course
+********************************************
+
 If you have a question about something you encounter in an edX course, try
 these options for getting an answer.
 
-* Check the **Home** page. Course teams use this page to post updates about the
-  course, which can include explanations about course content, reminders about
-  when graded assignments are due, or announcements for upcoming events or
-  milestones.
+* Check the **Home** page in the course. Course teams use this page to post
+  updates about the course, which can include explanations about course content,
+  reminders about when graded assignments are due, or announcements for upcoming
+  events or milestones.
 
-* Look for an "Introduction", "Overview", or "Welcome" section on the
-  **Course** page. Course teams often include general information about how the
-  course works and what you can expect, and also what they expect from you, in
-  the first section in the course.
+* Look for an "Introduction", "Overview", or "Welcome" section in the course
+  content. In the first section in the course, course teams often include
+  general information about how the course works and what you can expect, and
+  also what they expect from you, in the first section in the course.
 
-* Participate in the :ref:`course discussions<Explore Posts>`. If you encounter
-  an unfamiliar word, phrase, or abbreviation, such as "finger exercise" or
-  "board work", search for it on the **Discussion** page, or post a question
-  about it yourself. Other learners might be able to answer your question, or
-  might have the same question themselves. Your comments and questions give the
-  course team useful feedback for improving the course.
+* Participate in the :ref:`course discussions<Explore Posts>`. Other learners
+  might be able to answer your question, or might have the same question
+  themselves. If you encounter an unfamiliar word, phrase, or abbreviation,
+  such as "finger exercise" or "board work", search for it on the
+  **Discussion** page, or post a question about it yourself. Your comments and
+  questions give the course team useful feedback for improving the course.
 
-* Investigate other resources. Within the course, a :ref:`wiki<SFD Wiki>`, if
-  one is available, can be a good source of information. Outside of the course,
-  a course-specific Facebook page or Twitter feed might be available for
+* Investigate other resources. Some courses have a :ref:`wiki<SFD Wiki>`,
+  which can be a good source of information. Outside of the course, a
+  course-specific Facebook page or Twitter feed might be available for
   learners to share information.
 
-.. _Time Zones:
-
-************************
-A Note about Time Zones
-************************
-
-The dates and times that new materials are released, and when homework
-assignments and exams are due, are shown throughout your course.
-
-In your account settings, you can select your local time zone so that any
-course dates and times are displayed in your local time.
-
-.. Important::
-   If you do not select a time zone in your account settings, edX lists dates
-   and times on your dashboard, in the body of the course, and on your
-   **Progress** page in the time zone that your browser settings specify. Other
-   times and dates appear in Coordinated Universal Time (UTC). Dates and times
-   that use your browser time zone are in military time and are followed by a
-   time zone indicator: for example, 17:00 Sept 16, 2018 IOT. Dates and times
-   in UTC do not have a time zone indicator.
-
-   To convert UTC time to your local time, you can use any time zone converter
-   that you want, including one of the following time zone converters.
-
-   * `Time and Date Time Zone Converter`_
-
-   * `Time Zone Converter`_
 
 .. include:: ../../links/links.rst

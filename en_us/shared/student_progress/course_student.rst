@@ -69,7 +69,7 @@ as they choose.
   and they can unenroll from a course at any time.
 
 * Learners can update their personal information at any time on the
-  :ref:`Account Settings<SFD Account Settings>` page.
+  :ref:`Account Settings<SFD Update Account Settings>` page.
 
 As a result, you might want to download learner data periodically to gain an
 understanding of how the learner population changes over time.

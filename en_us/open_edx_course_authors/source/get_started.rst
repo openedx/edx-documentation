@@ -54,4 +54,4 @@ If you have not created a course, see :ref:`Creating a New Course`.
 #. To continue working on your course, return the browser tab that shows
    Studio.
 
-.. include:: ../../../links/links.rst
+.. include:: ../../links/links.rst
