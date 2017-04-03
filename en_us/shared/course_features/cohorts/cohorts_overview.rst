@@ -159,7 +159,7 @@ that are of particular interest.
 
 To implement this assignment strategy, you identify the "real-world" cohorts
 that your learners already belong to. You enable cohorts and then create
-"manual" cohorts to represent each of the real-world cohorts. You then manually
+manual cohorts to represent each of the real-world cohorts. You then manually
 assign each enrolled learner to a cohort. Every learner in your course,
 including those who enroll after the course starts, must be assigned to a
 cohort.
