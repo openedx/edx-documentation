@@ -28,8 +28,7 @@ learner's submission<Remove a learner response from peer grading>`, see
 View Statistics for All ORA Assignments in a Course
 ********************************************************
 
-To view metrics about all of the ORA assignments in a course, follow these
-steps.
+To view metrics about all of the ORA assignments in a course, follow these steps.
 
 #. View the live version of the course.
 #. Select **Instructor** to open the instructor dashboard.
