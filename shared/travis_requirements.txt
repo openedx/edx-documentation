@@ -1,4 +1,3 @@
 # Used for documentation gathering
 edx-sphinx-theme==1.0.2
-sphinx==1.5.3
-sphinx_rtd_theme==0.2.4
+sphinx==1.5.4
