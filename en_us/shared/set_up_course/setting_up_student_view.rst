@@ -7,7 +7,7 @@ Setting Details About Your Course
 This topic describes how to set details about your course in Studio. The
 details you set determine the information that learners see about the course on
 their dashboards and on the course **About** page. For more information,
-see :ref:`SFD Dashboard Settings Profile`.
+see :ref:`SFD Dashboard`.
 
 .. only:: Open_edX
 

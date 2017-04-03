@@ -63,11 +63,6 @@ complete course material at any time before the course end date.
   For more information about the way learners experience instructor-paced and
   self-paced courses, see :ref:`learners:SFD Course Pacing`.
 
-.. only:: Open_edX
-
-  For more information about the way learners experience instructor-paced and
-  self-paced courses, see :ref:`openlearners:SFD Course Pacing`.
-
 
 ***************************
 Set Pacing for Your Course
