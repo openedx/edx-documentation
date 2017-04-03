@@ -4,13 +4,14 @@
 Accessing Metrics for ORA Assignments
 ######################################
 
-After you release an open response assessment assignment, you can access
-various metrics for the assignment. For example, you can view the number of
-learners in each step of the assignment or in possible states such as
-"Waiting" or "Completed" within the assignment. In addition to viewing metrics
-for the assignment, you can also access assignment details for an individual
-learner, or :ref:`generate a report <Generate ORA Report>` containing learner
-and response details for ORA assignments in the course.
+After you release an open response assessment assignment, you can access various
+metrics for the assignment or for all open response assessment assignments in
+the course. For example, you can view the number of learners in each step of the
+assignment or in possible states such as "Waiting" or "Completed" within the
+assignment. In addition to viewing metrics for the assignment or for assignments
+in a course, you can also access assignment details for an individual learner,
+or :ref:`generate a report <Generate ORA Report>` containing learner and
+response details for ORA assignments in the course.
 
 For information about tasks that you can perform on learner responses in an
 ORA assignment, including :ref:`performing a grade override
@@ -18,15 +19,43 @@ assessment<Override a learner assessment grade>` or :ref:`cancelling a
 learner's submission<Remove a learner response from peer grading>`, see
 :ref:`Managing ORA Assignments`.
 
+.. toctree::
+   :maxdepth: 1
+
+.. _View Metrics for All ORA Assignments:
+
+********************************************************
+View Statistics for All ORA Assignments in a Course
+********************************************************
+
+To view metrics about all of the ORA assignments in a course, follow these steps.
+
+#. View the live version of the course.
+#. Select **Instructor** to open the instructor dashboard.
+#. On the instructor dashboard, select **Open Responses**.
+
+The **Open Responses** tab of the instructor dashboard displays the following
+information.
+
+* The number of course units that include an ORA assignment.
+* The number of ORA assignments in the course.
+* The total number of submitted responses.
+* The number of learners who are in each of the training, peer,
+  self, and staff workflow states.
+* The number of learners who have received a final grade.
+
+The **Open Responses** tab also displays the same information for each separate
+ORA assignment in the course, grouped by the course units that include ORA
+assignments.
 
 .. _PA View Metrics for Individual Steps:
 
 ************************************************
-View ORA Assignment Statistics
+View Statistics for a Single ORA Assignment
 ************************************************
 
-To view metrics about learners in the assignment, including the number who
-are active in each step, follow these steps.
+To view metrics about learners in a single ORA assignment, including the number
+who are active in each step, follow these steps.
 
 #. Open the ORA assignment in the course.
 
@@ -80,8 +109,9 @@ follow these steps.
 
 #. In the **Reports** section, select **Generate ORA Data Report**.
 
-   A status message indicates that the ORA data report is being generated. This process might take some time to complete, but you can
-   navigate away from this page and do other work while it runs.
+   A status message indicates that the ORA data report is being generated. This
+   process might take some time to complete, but you can navigate away from this
+   page and do other work while it runs.
 
    To check the progress of the report generation, reload the page in your
    browser and scroll down to the **Pending Tasks** section. The table shows
