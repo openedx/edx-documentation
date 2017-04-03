@@ -586,8 +586,7 @@ follow these steps.
    The learner's account profile page opens. Learners can have either a limited
    profile or a full profile.
 
-For more information about profiles, see :ref:`openlearners:SFD Dashboard
-Settings Profile`.
+For more information about profiles, see :ref:`learners:SFD Dashboard`.
 
 ========================================
 Provide Guidelines for Learners
