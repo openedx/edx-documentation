@@ -21,10 +21,10 @@ that you can add to your course, see :ref:`Create Exercises`.
 Adding a Problem
 ****************
 
-To add interactive problems to a course in Studio, In the course outline in
-Studio, at the :ref:`unit<The Unit Workflow>` level, you select **Problem**.
-You then choose the type of problem that you want to add from a list of
-**Common Problem Types** or **Advanced** problem types.
+To add interactive problems to a course in Studio, in the course outline, at
+the :ref:`unit<The Unit Workflow>` level, you select **Problem**. You then
+choose the type of problem that you want to add from the **Common Problem
+Types** list or the **Advanced** list.
 
 The common problem types include relatively straightforward CAPA problems such
 as multiple choice and text or numeric input. The advanced problem types can be
@@ -88,7 +88,8 @@ The editing interface that opens depends on the type of problem you choose.
 You can switch from the simple editor to the advanced editor at any time by
 selecting **Advanced Editor** from the simple editor's toolbar.
 
-.. note:: After you save a problem in the advanced editor, you cannot open it
+.. note::
+ After you save a problem in the advanced editor, you cannot open it
  again in the simple editor.
 
 .. _Simple Editor:
@@ -282,6 +283,12 @@ these settings, you edit the problem and then select **Settings**.
 If you do not edit these settings, default values are supplied for your
 problems.
 
+.. note::
+  If you want to temporarily or permanently hide problem results from learners,
+  you use the subsection-level **Results Visibility** setting. You cannot
+  change the visibility of individual problems. For more information,
+  see :ref:`Problem Results Visibility`.
+
 ===============
 Display Name
 ===============
@@ -323,7 +330,8 @@ Only problems that have a **Maximum Attempts** setting of 1 or higher are
 included in the answer distribution computations used in edX Insights and the
 Student Answer Distribution report.
 
-.. note:: EdX recommends setting **Maximum Attempts** to unlimited or a
+.. note::
+   EdX recommends setting **Maximum Attempts** to unlimited or a
    large number when possible. Problems that allow unlimited attempts encourage
    risk taking and experimentation, both of which lead to improved learning
    outcomes. However, allowing for unlimited attempts might not be feasible in
@@ -336,7 +344,8 @@ Student Answer Distribution report.
 Problem Weight
 ==============================
 
-.. note:: The LMS scores all problems. However, only scores for problem
+.. note::
+  The LMS scores all problems. However, only scores for problem
   components that are in graded subsections count toward a learner's final
   grade.
 
@@ -412,7 +421,8 @@ answers, the learner's score is 0.5 out of 2 points.
 Randomization
 ===============
 
-.. note:: This **Randomization** setting serves a different purpose from
+.. note::
+ This **Randomization** setting serves a different purpose from
  "problem randomization". This **Randomization** setting affects how numeric
  values are randomized within a single problem and requires the inclusion of a
  Python script. Problem randomization presents different problems or problem
@@ -424,7 +434,8 @@ setting specifies how frequently the values in the problem change: each time a
 different learner accesses the problem, each time a single learner tries to
 answer the problem, both, or never.
 
-.. note:: This setting should only be set to an option other than **Never**
+.. note::
+ This setting should only be set to an option other than **Never**
  for problems that are configured to do random number generation.
 
 For example, in this problem, the highlighted values change each time a learner
@@ -443,9 +454,6 @@ these steps.
 
 * Select an option other than **Never** for the **Randomization** setting.
 
-..  For more information, see :ref:`Use Randomization in a Numerical Input Problem`.
-..  ^^ add back to first bullet when DOC-2175 gets done - Alison 30 Jul 15
-
 The edX Platform has a 20-seed maximum for randomization. This means that
 learners see up to 20 different problem variants for every problem that has
 **Randomization** set to an option other than **Never**. It also means that
@@ -458,7 +466,8 @@ For more information, see :ref:`Student_Answer_Distribution` in this guide, or
 `Review Answers to Graded Problems`_ or `Review Answers to Ungraded Problems`_
 in *Using edX Insights*.
 
-.. important:: Whenever you choose an option other than **Never** for a
+.. important::
+ Whenever you choose an option other than **Never** for a
  problem, the computations for the Answer Distribution report and edX Insights
  include up to 20 variants for the problem, **even if the problem was not
  actually configured to include randomly generated values**. This can make data
@@ -610,7 +619,8 @@ By default, learners receive one point for each question they answer correctly.
 For more information about changing the default problem weight and other
 settings, see :ref:`Problem Settings`.
 
-.. important:: To assure that the data collected for learner interactions with
+.. important::
+  To assure that the data collected for learner interactions with
   your problem components is complete and accurate, include a maximum of 10
   questions in a single problem component.
 
@@ -722,7 +732,8 @@ You can provide different learners with different problems by using randomized
 content blocks, which randomly draw problems from pools of problems stored in
 content libraries. For more information, see :ref:`Randomized Content Blocks`.
 
-.. note:: Problem randomization is different from the **Randomization** setting
+.. note::
+   Problem randomization is different from the **Randomization** setting
    that you define in Studio. Problem randomization presents different problems
    or problem versions to different learners, while the **Randomization**
    setting controls when a Python script randomizes the variables within a
@@ -740,7 +751,8 @@ course's XML files is no longer supported.
 Modifying a Released Problem
 *********************************
 
-.. warning:: Be careful when you modify problems after they have been
+.. warning::
+ Be careful when you modify problems after they have been
  released. Changes that you make to published problems can affect the learner
  experience in the course and analysis of course data.
 

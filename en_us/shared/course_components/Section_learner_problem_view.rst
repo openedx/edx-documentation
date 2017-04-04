@@ -36,15 +36,19 @@ an option is available in problems.
    available if the learner has unused attempts remaining, so that she can
    try to answer the problem again.
 
+     .. note::
+       If you want to temporarily or permanently hide learners' results for
+       the problem, see :ref:`Problem Results Visibility`.
+
 #. **Attempts.** You can set a specific number of attempts or allow unlimited
    attempts for a problem. By default, the course-wide **Maximum Attempts**
    advanced setting is null, meaning that the maximum number of attempts for
    problems is unlimited.
 
-   In courses where a specific number has been specified for **Maximum Attempts**
-   in Advanced Settings, if you do not specify a value for **Maximum Attempts** for
-   an individual problem, the number of attempts for that problem defaults to the
-   number of attempts defined in Advanced Settings.
+   In courses where a specific number has been specified for **Maximum
+   Attempts** in Advanced Settings, if you do not specify a value for **Maximum
+   Attempts** for an individual problem, the number of attempts for that
+   problem defaults to the number of attempts defined in Advanced Settings.
 
 #. **Save.** The learner can select **Save** to save his current response
    without submitting it for grading. This allows the learner to stop working
@@ -75,22 +79,30 @@ an option is available in problems.
 
 9. **Feedback.** After a learner selects **Submit**, an icon appears beside
    each response field or selection within a problem. A green check mark
-   indicates that the response was correct, a green asterisk indicates that the
-   response was partially correct, and a red X indicates that the response was
-   incorrect. Underneath the problem, feedback text indicates whether the problem
-   was answered correctly, incorrectly, or partially correctly, and shows the
-   problem score.
+   indicates that the response was correct, a green asterisk (*) indicates that
+   the response was partially correct, and a red X indicates that the response
+   was incorrect. Underneath the problem, feedback text indicates whether the
+   problem was answered correctly, incorrectly, or partially correctly, and
+   shows the problem score.
 
    .. image:: ../../../shared/images/AnatomyOfExercise2.png
      :alt: A problem from a learner's point of view, with callouts showing the
            feedback elements of an answered problem.
      :width: 600
 
+   .. note::
+     If you want to temporarily or permanently hide learners' results for
+     the problem, see :ref:`Problem Results Visibility`.
+
 In addition to the items above, which are shown in the example, problems also
 have the following elements.
 
 * **Correct answer.** Most problems require that you specify a single correct
   answer.
+
+     .. note::
+       If you want to temporarily or permanently hide learners' results for
+       the problem, see :ref:`Problem Results Visibility`.
 
 * **Explanation.** You can include an explanation that appears when a learner
   selects **Show Answer**.
@@ -103,9 +115,11 @@ have the following elements.
   answers for problems whose due dates have passed, although they can select
   **Show Answer** to show the correct answer and the explanation, if any.
 
-.. note:: Problems can be **open** or **closed**. Closed problems, such as
-   problems whose due dates are in the past, do not accept further responses and cannot be reset. Learners can still see questions, solutions, and
-   revealed explanations, but they cannot submit responses or reset problems.
+.. note::
+   Problems can be **open** or **closed**. Closed problems, such as problems
+   whose due dates are in the past, do not accept further responses and cannot
+   be reset. Learners can still see questions, solutions, and revealed
+   explanations, but they cannot submit responses or reset problems.
 
 There are also some attributes of problems that are not immediately
 visible. You can set these attributes in Studio.

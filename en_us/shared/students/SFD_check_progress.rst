@@ -42,16 +42,28 @@ of 50% and higher, and a grade of A for scores 75% and higher, then there are
 markers on the vertical axis at 50% and 75%, labelled "B" and "A"
 respectively.
 
-.. Note:: In the progress chart, assignments are grouped by type. For example,
+.. note::
+   In the progress chart, assignments are grouped by type. For example,
    all homework sections are listed together, then all quizzes, then exams. A
    bar showing the average score for each assignment type appears for each
    group.
 
 The bar for each assignment reflects your total score for all the problems in
-that assignment. For individual problem scores, see :ref:`Grading Details` below
-the chart. For each of the assignment types, an "average" bar shows the current
-average of scores for assignments of that type. This average is recalculated as
-you progress through the course and complete more assignments.
+that assignment. For individual problem scores, see :ref:`Grading Details`
+below the chart. For each of the assignment types, an "average" bar shows the
+current average of scores for assignments of that type. This average is
+recalculated as you progress through the course and complete more assignments.
+
+.. note::
+   In some courses, results for some assignments are hidden. For
+   example, the results of an exam might be hidden until after the exam's due
+   date. When the results are hidden, you do not see whether you answered
+   problems correctly, and you do not see your score in the body of the course.
+
+.. SP, 4/24/17 - Currently, problem results are visible on the Progress page
+.. even if they're hidden in the body of the course. When this changes, add the
+.. following as the last sentence in the above paragraph: These results are
+.. also not visible on your **Progress** page.
 
 Some courses allow some number of graded assignments to be automatically
 dropped from your final score. For example, out of 8 quizzes, a course might
@@ -79,6 +91,18 @@ For each problem in a graded assignment, the points that you earned out of the
 possible points is shown with the label **Problem Scores**. Scores for
 ungraded problems are shown with the label **Practice Scores**. Sections that
 do not have any problems are labelled as having no problem scores.
+
+.. SP, 4/24/17 - Currently, problem results are visible on the Progress page
+.. and in this section even if they're hidden in the body of the course. Add
+.. the following note when they are no longer visible:
+
+.. note
+
+.. In some courses, results for some assignments are hidden. When results are
+.. hidden, you do not see whether you answered problems correctly, and you do
+.. not see a score for the assignment in the body of the course. Additionally,
+.. the results for the assignment are not visible in your progress chart or in
+.. the grading details for the assignment.
 
 .. image:: ../../shared/images/Progress_Details.png
   :width: 500

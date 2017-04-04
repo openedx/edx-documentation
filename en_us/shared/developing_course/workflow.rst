@@ -91,6 +91,8 @@ able to see it. Content visibility depends on several factors.
 * The :ref:`publishing status<Hide a Unit from Students>` of the unit
 * The :ref:`Hide content from learners<Hide a Unit from Students>` setting
 * The use of :ref:`content groups<Content Groups>`
+* The use of the :ref:`Results Visibility<Problem Results Visibility>`
+  setting
 
 For more information, see :ref:`Controlling Content Visibility`.
 
