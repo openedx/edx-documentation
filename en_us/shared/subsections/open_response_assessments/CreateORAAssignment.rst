@@ -41,7 +41,7 @@ steps.
 
 #. Under **Add New Component**, select **Problem**.
 
-#. Select **Advanced**, and then select **Peer Assessment**.
+#. Select **Advanced**, and then select **Open Response Assessment**.
 
 #. In the problem component that appears, select **Edit**.
 
@@ -82,11 +82,12 @@ complete these steps.
 Add Formatting or Images to a Prompt
 ========================================
 
-Currently, you cannot format text or add images inside the Peer Assessment
-component. To include formatting or images in a prompt, you can add an HTML
-component that contains your text above the Peer Assessment component, and
-leave the text field in the **Prompt** tab blank. The instructions for the peer
-assessment still appear above the **Your Response** field.
+Currently, you cannot format text or add images inside an open response
+assessment component. To include formatting or images in a prompt, you can add
+an HTML component that contains your text above the open response assessment
+component, and leave the text field in the **Prompt** tab blank. The
+instructions for the open response assessment still appear above the **Your
+Response** field.
 
 .. image:: ../../../../shared/images/PA_HTMLComponent.png
       :alt: A peer assessment component that has an HTML component containing
