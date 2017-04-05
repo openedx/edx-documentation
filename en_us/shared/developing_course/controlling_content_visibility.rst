@@ -1,18 +1,22 @@
 .. _Controlling Content Visibility:
 
-###################################
-Controlling Content Visibility
-###################################
+############################################
+Controlling Content Visibility and Access
+############################################
 
 As a member of the course team, you must carefully control which content is
-visible to learners and when.
+available to which learners, and when. Visibility settings, together with
+publishing states, are used to hide content from learners while still allowing
+course staff to view it. Access settings are used to specify which learner
+groups can access a particular component within a unit.
 
-The following Studio features work together to control content visibility for
-learners.
+You can control content visibility and access using the following Studio
+features.
 
 .. contents::
   :local:
   :depth: 1
+
 
 .. _Release Dates:
 
@@ -157,18 +161,48 @@ Visibility`.
    Subsection After its Due Date`.
 
 
+.. _Access Settings:
+
+*******************
+Access Settings
+*******************
+
+In the course outline in Studio, you can use access settings to specify which
+learner groups can access a particular component within a unit. You can restrict
+access based on :ref:`content group<About Content Groups>` or :ref:`enrollment
+track<enrollment_track_g>`.
+
+
 .. _Content Groups:
 
-**************
+==============
 Content Groups
-**************
+==============
 
-If you have cohorts enabled in your course, you can use content groups to
-designate particular components in your course as visible only to specific
-groups of learners.
+If you have cohorts enabled in your course, you can use content groups to give
+access to particular components in your course only to specific groups of
+learners.
 
-For details, see :ref:`About Content Groups` and :ref:`Cohorted Courseware
-Overview`.
+For information about creating differentiated content based on cohorts, see
+:ref:`Cohorted Courseware Overview`.
+
+
+.. _Enrollment Track Groups:
+
+========================
+Enrollment Track Groups
+========================
+
+If your course has more than one enrollment track, you can designate specific
+content as being available to learners in each of the enrollment tracks.
+
+For example, you might provide the same practice assignments to all learners yet
+provide learners in the certificate track with different exams from non-
+certificate learners.
+
+For information about creating differentiated content based on enrollment track,
+see :ref:`Enrollment Track Specific Courseware Overview`.
+
 
 .. _configuring_prerequisite_content:
 
