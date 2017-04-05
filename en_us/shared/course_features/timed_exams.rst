@@ -1,8 +1,8 @@
 .. _Timed Exams:
 
-###################
-Timed Exams
-###################
+######################
+Offering Timed Exams
+######################
 
 This topic describes how to add and manage timed exams in your course.
 
