@@ -248,6 +248,10 @@ To manually assign learners to cohorts in your course, follow these steps.
    cohort was changed as a result of your adding them to another cohort using
    this procedure.
 
+ .. note:: The number of learners reported on the **Cohorts** tab and in
+    downloaded reports includes only those learners who are enrolled in the
+    course.
+
 For a report that includes the cohort assignment for every enrolled learner,
 review the learner profile information for your course. See :ref:`View and
 download student data`.
@@ -309,8 +313,8 @@ The requirements for the .csv file are summarized in this table.
         See :ref:`Creating a Unicode Encoded CSV File`.
 
     * - Header row
-      - You must include a header row, with column names that exactly match those
-        specified in "Columns" below.
+      - You must include a header row, with column names that exactly match
+         those specified in "Columns" below.
     * - One or two columns identifying students
       - You must include at least one column identifying students:
         either "email" or "username", or both.

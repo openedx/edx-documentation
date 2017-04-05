@@ -39,6 +39,10 @@ cohorts<Options for Assigning Learners to Cohorts>`.
    do not change cohort configuration or a learner's cohort assignment after
    your course begins.
 
+   The number of learners reported on the **Cohorts** tab and in
+   downloaded reports includes only those learners who are enrolled in the
+   course.
+
 For more information about using cohorts, see the following topics.
 
 * :ref:`Enabling and Configuring Cohorts`
@@ -56,8 +60,8 @@ For information about discussions in general, see :ref:`Discussions`.
 Options for Assigning Learners to Cohorts
 *****************************************
 
-Learners are assigned to cohorts either automatically or manually, depending on
-the types of cohorts that you create. Manual cohorts do not have
+Learners are assigned to cohorts either automatically or manually, depending
+on the types of cohorts that you create. Manual cohorts do not have
 learners assigned to them unless you manually add learners. Automatic cohorts
 have learners randomly assigned to them if learners do not belong to any cohort
 by the time they access the course content (including the course **Discussion**
@@ -159,7 +163,7 @@ that are of particular interest.
 
 To implement this assignment strategy, you identify the "real-world" cohorts
 that your learners already belong to. You enable cohorts and then create
-"manual" cohorts to represent each of the real-world cohorts. You then manually
+manual cohorts to represent each of the real-world cohorts. You then manually
 assign each enrolled learner to a cohort. Every learner in your course,
 including those who enroll after the course starts, must be assigned to a
 cohort.
