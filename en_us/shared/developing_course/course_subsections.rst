@@ -317,6 +317,28 @@ whether the answer was correct or incorrect, and how many points were awarded.
 However, you may want to delay or withhold showing correctness to learners,
 for example, if you are running an exam or other assessment exercise.
 
+This setting affects the correctness shown for these basic problem types:
+
+* :ref:`Checkbox`
+* :ref:`Dropdown`
+* :ref:`Multiple Choice`
+* :ref:`Numerical Input`
+* :ref:`Text Input`
+
+And these advanced problem types:
+
+* :ref:`Annotation`
+* :ref:`Circuit Schematic Builder`
+* :ref:`Custom JavaScript Display and Grading<Custom JavaScript>`
+* :ref:`Custom Python-Evaluated Input<Write Your Own Grader>`
+* :ref:`Image Mapped Input`
+* :ref:`Math Expression Input`
+* :ref:`Problem Written in LaTeX`
+* :ref:`Problem with Adaptive Hint`
+* :ref:`Molecular Structure<Molecule Editor>`
+
+To change the correctness visibility for your subsection:
+
 #. Select the **Configure** icon in the subsection box.
 
    The **Settings** dialog box opens.
@@ -343,9 +365,15 @@ for example, if you are running an exam or other assessment exercise.
 
 #. Select **Save**.
 
-When correctness is withheld for a subsection, instead of the usual message,
-e.g. "Correct (1/1 point)" or "Incorrect (0/1 point)", learners will instead
-see a general message, "Answer received."
+.. _Submitted Message when Hiding Correctness:
+
+=========================================
+Submitted Message when Hiding Correctness
+=========================================
+
+When correctness is withheld for a subsection, instead of the usual message
+shown when an answer is submitted, e.g. "Correct (1/1 point)" or "Incorrect
+(0/1 point)", learners will instead see a general message: "Answer received."
 
 To change this default message for the whole course:
 
