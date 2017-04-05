@@ -314,6 +314,7 @@ Correctness Visibility in a Subsection
 
 By default, when the learner submits an answer to a problem, she will be shown
 whether the answer was correct or incorrect, and how many points were awarded.
+
 However, you may want to delay or withhold showing correctness to learners,
 for example, if you are running an exam or other assessment exercise.
 
@@ -364,26 +365,6 @@ To change the correctness visibility for your subsection:
       unless **Never show correctness** is selected.
 
 #. Select **Save**.
-
-.. _Submitted Message when Hiding Correctness:
-
-=========================================
-Submitted Message when Hiding Correctness
-=========================================
-
-When correctness is withheld for a subsection, instead of the usual message
-shown when an answer is submitted, e.g. "Correct (1/1 point)" or "Incorrect
-(0/1 point)", learners will instead see a general message: "Answer received."
-
-To change this default message for the whole course:
-
-#. Open your course in Studio.
-#. Select **Settings**, then **Advanced Settings**.
-#. Scroll down to the **Submitted Message** field, and update the text shown there.
-#. At the bottom of the page, select **Save Changes**.
-
-You can also customize the message for each problem using the :ref:`Submitted
-Message` problem setting.
 
 .. _Publish all Units in a Subsection:
 

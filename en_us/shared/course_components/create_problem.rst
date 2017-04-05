@@ -565,21 +565,6 @@ reached, the **Reset** option is not visible.
 This problem-level setting overrides the course-level **Show Reset Button for
 Problems** advanced setting.
 
-.. _Submitted Message:
-
-=================
-Submitted Message
-=================
-
-If problem correctness is withheld for the subsection, then this message is
-shown to learners after submitting an answer.
-
-This problem-level setting overrides the course-level default **Submitted Message**
-advanced setting.
-
-See :ref:`Correctness Visibility in a Subsection` for information about
-showing/hiding problem correctness from learners.
-
 .. _Timer Between Attempts:
 
 =======================
