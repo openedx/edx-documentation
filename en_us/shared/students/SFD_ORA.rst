@@ -131,8 +131,8 @@ in :ref:`Steps in an Open Response Assessment`.
  :local:
  :depth: 1
 
-At any time during an assessment, you can see your progress at the bottom of the
-page under **Your Grade**. A message indicates the steps that must still be
+At any time during an assessment, you can see your progress at the bottom of
+the page under **Your Grade**. A message indicates the steps that must still be
 completed before you can receive your final grade for the assignment.
 
 
@@ -160,10 +160,10 @@ steps.
 
    .. note::
 
-      In some assignments, you can submit an image or other type of file to
-      accompany your written response. If you are allowed to upload a file in
-      your assignment, **Browse** and **Upload your file** options are
-      available below the response field.
+      In some assignments, you can submit images or other types of files along
+      with or instead of a written response. If you can upload files in your
+      assignment, **Browse** and **Upload your files** options are available
+      below the response field.
 
       For information about uploading images or other files in your ORA
       assignment, see :ref:`Submit a File with Your Response`.
@@ -190,39 +190,33 @@ back later, just refresh or reopen your browser when you come back.
 Submit a File with Your Response
 ***********************************
 
-If your assignment requires you to submit an image or other type of file to
-accompany your text response, you see **Browse** and **Upload your file**
-options below the response field.
+If your assignment requires or allows you to submit images or other types of
+files, you see two buttons below the response field: **Choose Files** one one
+side of the page, and **Upload Files** on the other side of the page.
 
 .. note::
 
-   * You can upload only one file with your response.
-
-   * The file that you upload must be smaller than 5 MB in size.
+   * The cumulative size of the files that you upload must be less than 10 MB.
 
    * Image files can be in .jpg, .gif, or .png format.
 
-   * A text response is always required in open response assessments, in
-     addition to the file that you upload. Include some text in your response
-     that describes file that you uploaded, so that reviewers who cannot
-     access the uploaded file can still understand the text content of your
-     response.
+To upload files in your response, follow these steps.
 
+#. Below the response field, select **Choose Files**.
 
-To upload a file in your response, follow these steps.
+#. In the dialog box that opens, select the file that you want to upload, and
+   then select **Open**.
 
-#. Below the response field, select **Browse**.
+   A preview image of each file is visible.
 
-#. Select the file that you want to upload, and then select **Open**.
+#. In the boxes next to each preview image, enter a written description of the
+   image. This step is required to help learners who cannot see or access the
+   image understand and evaluate your response.
 
-   The name of the file that you selected for uploading appears next to **Browse**.
+#. Across from the **Choose Files** button, select **Upload files**.
 
-#. Select **Upload your file**.
-
-   Your file is uploaded and a preview image is displayed.
-
-You can replace the file that you uploaded with a different one until you
-submit your response. To replace your chosen file, repeat steps 1-3.
+You can replace the files that you uploaded with different files until you
+submit your response. To replace your uploaded files, repeat steps 1-3.
 
 
 View Your Submitted Response

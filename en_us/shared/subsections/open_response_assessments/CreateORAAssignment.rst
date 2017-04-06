@@ -93,39 +93,6 @@ assessment still appear above the **Your Response** field.
          text and an image, above the peer assessment.
       :width: 500
 
-.. _PA Allow Images:
-
-============================================
-Allow Learners to Submit Files (optional)
-============================================
-
-Before you enable this feature for your open response assessment, be sure to
-read about its limitations and best practices. For more information, see
-:ref:`Asking Learners to Upload Other Files in Responses`.
-
-To allow learners to submit a file along with their text responses, follow
-these steps.
-
-#. In the ORA component editor, select **Settings**.
-
-#. Set **Allow File Upload** to one of these options.
-
-   * **Image File**
-   * **PDF or Image File**
-   * **Custom File Types**
-
-#. If you select **Custom File Types**, the **File Types** field appears. Enter
-   the file extensions, separated by commas, of the types of files that
-   you want learners to submit.
-
-   .. note:: To reduce the potential for problems from files with malicious
-    content, learners cannot upload certain file types. For more information,
-    see :ref:`Prohibited File Extensions`.
-
-#. Make sure the text of your prompt includes adequate instructions for
-   learners to upload the required files, including the file type or types
-   that learners can upload.
-
 .. _PA Add Rubric:
 
 ******************************
@@ -210,15 +177,27 @@ To provide a comment field without options, complete these steps.
 #. Next to **Feedback for This Criterion**, select **Required** from the list.
 
 
+.. _PA Specify Additional Settings:
+
+***********************************
+Step 4. Specify Additional Settings
+***********************************
+
+After you have added a prompt and rubric, you must specify additional settings
+for the assignment. These settings include the type of response that learners
+must submit, assignment dates, and whether learners will see a list of top
+scoring responses.
+
 .. _PA Specify Name and Dates:
 
-************************************************************
-Step 4. Specify the Assignment Name and Response Dates
-************************************************************
+========================
+Specify a Name and Dates
+========================
 
 Before you specify the start and due dates and times for a response, be sure
 that you consider these aspects of, and best practices for, the open response
-assessment feature. For more information, see :ref:`Best Practices for ORA`.
+assessment feature. For more information, see
+:ref:`Best Practices for ORA`.
 
 * Unlike other problem types, ORA assignments are not governed by the
   subsection due date. You set due dates for each ORA assignment in the
@@ -241,9 +220,9 @@ assessment feature. For more information, see :ref:`Best Practices for ORA`.
   <http://www.timeanddate.com/worldclock/converter.html>`_.
 
 To specify a name for the assignment as well as start and due dates for all
-learner responses, complete these steps.
+learner responses, follow these steps.
 
-#. In the ORA component editor, select the **Settings** tab.
+#. In the ORA component editor, select **Settings**.
 
 #. Next to **Display Name**, enter the name you want to give the assignment.
 
@@ -253,6 +232,81 @@ learner responses, complete these steps.
 #. Next to **Response Due Date** and **Response Due Time**, enter the date and
    time by which all learner responses must be submitted.
 
+.. _PA Allow Images:
+
+=========================
+Specify the Response Type
+=========================
+
+Learners can submit written responses, files, or both in their responses to the
+assigment. If you want learners to upload files, make sure the text of your prompt includes adequate instructions for learners to upload the required files, including the file types that learners can upload.
+
+.. note::
+  Before you ask learners to submit files for your open response assessment, be
+  sure to read about limitations and best practices. For more information, see
+  :ref:`Asking Learners to Upload Other Files in Responses`.
+
+  If you allow or require learners to upload image files, learners must also
+  provide a brief written description of each image for accessibility.
+
+To specify the response type that learners must submit, follow
+these steps.
+
+#. In the ORA component editor, select **Settings**.
+
+#. For **Text Response**, select one of the following options.
+
+   * **None**
+   * **Required**
+   * **Optional**
+
+#. For **File Uploads Response**, select one of the following options.
+
+   * **None**
+   * **Required**
+   * **Optional**
+
+   If you select **Required** or **Optional**, the **File Upload Types** list
+   appears. Select one of the following options.
+
+   * **PDF or Image Files**
+   * **Image Files**
+   * **Custom File Types**
+
+   If you select **Custom File Types**, the **File Types** field appears.
+   Enter the file name extensions, separated by commas, of the types of files
+   that you want learners to submit.
+
+   .. note:: To reduce the potential for problems from files with malicious
+    content, learners cannot upload certain file types. For more information,
+    see :ref:`Prohibited File Extensions`.
+
+#. For **Allow LaTeX Responses**, select **True** or **False**.
+
+.. _PA Show Top Responses:
+
+=====================
+Include Top Responses
+=====================
+
+You can specify whether learners see a section that shows the :ref:`highest
+scoring responses<PA Top Responses>` that were submitted for each question in
+the assignment. If offered, this section displays only after each learner has
+completed all steps in the assignment. You specify the number of highest
+scoring responses to show.
+
+.. note:: Because each response can be up to 300 pixels in height, we
+   recommend that you set the number of top responses lower than 20, to
+   prevent the page from becoming too long.
+
+#. In the ORA component editor, select **Settings**.
+
+#. In the **Top Responses** field, specify the number of responses that you
+   want to appear in the **Top Responses** section below the learner's final
+   score.
+
+   If you do not want this section to appear, set the number to 0. The
+   maximum number is 100.
 
 .. _PA Select Assignment Steps:
 
@@ -338,8 +392,6 @@ To add and score learner training responses, follow these steps.
 #. Under **Response Score**, for each criterion, select the option that you
    want.
 
-
-
 ============================
 Peer Assessment
 ============================
@@ -395,7 +447,6 @@ the step starts and ends.
    `Time and Date Time Zone Converter
    <http://www.timeanddate.com/worldclock/converter.html>`_.
 
-
 ================
 Staff Assessment
 ================
@@ -404,37 +455,10 @@ For the :ref:`staff assessment step<Staff Assessment Step>`, there are no
 additional settings to specify after you have selected the step for inclusion
 in the assignment.
 
-
-.. _PA Show Top Responses:
-
-******************************
-Step 7. Show Top Responses
-******************************
-
-You can specify whether learners see a section that shows the :ref:`highest
-scoring responses<PA Top Responses>` that were submitted for each question in
-the assignment. If offered, this section displays only after each learner has
-completed all steps in the assignment. You specify the number of highest
-scoring responses to show.
-
-.. note:: Because each response can be up to 300 pixels in height, we
-   recommend that you set the number of top responses lower than 20, to
-   prevent the page from becoming too long.
-
-#. In the ORA component editor, select the **Settings** tab.
-
-#. In the **Top Responses** field, specify the number of responses that you
-   want to appear in the **Top Responses** section below the learner's final
-   score.
-
-   If you do not want this section to appear, set the number to 0. The
-   maximum number is 100.
-
-
 .. _PA Test Assignment:
 
 ******************************
-Step 8. Test the Assignment
+Step 7. Test the Assignment
 ******************************
 
 To test your ORA assignment, you can set up the assignment in your course, set

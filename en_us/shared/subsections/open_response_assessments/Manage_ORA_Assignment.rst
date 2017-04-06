@@ -77,13 +77,13 @@ To access information about a specific learner, follow these steps.
 
 #. Enter the learner's username or email address, and then select **Submit**.
 
-   The **Manage Individual Learners** dialog updates with expandable sections
-   for each of the assessment steps in the assignment and other actions you
-   can take on the learner's response. Only the types of assessment steps
-   (self, peer, or staff) that are included in the assignment are shown.
+   The **Manage Individual Learners** dialog box updates with expandable
+   sections for each of the assessment steps in the assignment and other
+   actions you can take on the learner's response. Only the types of assessment
+   steps (self, peer, or staff) that are included in the assignment are shown.
 
-   If the learner uploaded a file along with her response, select **View
-   the file associated with this submission** to review or download it.
+   If the learner uploaded files along with her response, select **View
+   the files associated with this submission** to review or download the files.
 
 #. Select any of the section headings to expand that section.
 
