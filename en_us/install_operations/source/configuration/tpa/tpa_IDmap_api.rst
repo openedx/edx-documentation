@@ -103,7 +103,7 @@ To test the API, follow these steps.
 
 The following example shows a return value from the API.
 
-    .. code-block:: python
+    .. code-block:: none
 
        {
          "page": 1,

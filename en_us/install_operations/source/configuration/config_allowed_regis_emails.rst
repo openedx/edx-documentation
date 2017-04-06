@@ -40,7 +40,7 @@ To specify the email patterns that are allowed for registration, follow these st
 #. In the ``lms.env.json`` and ``cms.env.json`` files add the
    ``REGISTRATION_EMAIL_PATTERNS_ALLOWED`` setting.
 
-   .. code-block:: bash
+   .. code-block:: none
 
     "REGISTRATION_EMAIL_PATTERNS_ALLOWED": null
 
@@ -56,7 +56,7 @@ To specify the email patterns that are allowed for registration, follow these st
    ``school.tld`` addresses, but only if those addresses have a  ``.`` before
    the ``@`` symbol.
 
-   .. code-block:: bash
+   .. code-block:: none
 
      "REGISTRATION_EMAIL_PATTERNS_ALLOWED" = [
 

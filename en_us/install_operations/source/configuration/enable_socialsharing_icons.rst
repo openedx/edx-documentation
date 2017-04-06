@@ -41,7 +41,7 @@ file, which is located one level above the ``edx-platform`` directory.
 #. In the ``lms.env.json`` file, modify the ``SOCIAL_SHARING_SETTINGS``
    dictionary as needed.
 
-   .. code-block:: bash
+   .. code-block:: none
 
         SOCIAL_SHARING_SETTINGS = {
             'CUSTOM_COURSE_URLS': True,
@@ -70,7 +70,7 @@ file, which is located one level above the ``edx-platform`` directory.
 #. Configure the ``SOCIAL_MEDIA_FOOTER_NAMES`` array to the order of links
    you want learners to see in the footer.
 
-   .. code-block:: bash
+   .. code-block:: none
 
         SOCIAL_MEDIA_FOOTER_NAMES = [
             "facebook",
@@ -85,7 +85,7 @@ file, which is located one level above the ``edx-platform`` directory.
    want social media icons to be displayed. For each social media icon you
    enable, you define a ``title``, ``icon``, and ``action``.
 
-   .. code-block:: bash
+   .. code-block:: none
 
         "facebook": {
             "title": _("Facebook"),
@@ -117,7 +117,7 @@ You must set the ``CUSTOM_COURSE_URLS`` parameter to ``True`` in both the
 ``lms.env.json`` and ``cms.env.json`` files. In the ``cms.env.json`` file, this
 parameter is the only social sharing setting.
 
-.. code-block:: bash
+.. code-block:: none
 
     SOCIAL_SHARING_SETTINGS = {
         'CUSTOM_COURSE_URLS': True

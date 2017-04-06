@@ -31,7 +31,7 @@ To set configuration properties for a site, follow these steps.
 
    The following example shows a set of configuration properties for a site.
 
-   .. code-block:: json
+   .. code-block:: none
 
        {
          "course_email_from_addr":"courses@onlineu.edu",
@@ -65,7 +65,7 @@ Site Configuration Reference
 
 An example of the properties that you define to configure a site follows.
 
-.. code-block:: json
+.. code-block:: none
 
   {
     "ECOMMERCE_API_URL":"https://my-site.sandbox.edx.org/api/v2",

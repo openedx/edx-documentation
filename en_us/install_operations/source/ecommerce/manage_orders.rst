@@ -45,7 +45,7 @@ About Fulfillment Modules
 
 The E-Commerce base fulfillment module has the following interface.
 
-.. code-block:: bash
+.. code-block:: python
 
     fulfill_product(product)
 

@@ -39,7 +39,7 @@ files, which are located one level above the ``edx-platform`` directory.
 #. In the ``lms.env.json`` and ``cms.env.json`` files, set the value of
    ``CERTIFICATES_HTML_VIEW`` within the ``FEATURES`` object  to ``true``.
 
-   .. code-block:: bash
+   .. code-block:: none
 
      "FEATURES": {
          ...
@@ -86,7 +86,7 @@ Configure Certificates for Your Open edX Instance
    For more information about course modes, sometimes called enrollment modes
    or enrollment tracks, see :ref:`enrollment track<enrollment_track_g>`.
 
-   .. code-block:: bash
+   .. code-block:: none
 
     {
         "default": {
