@@ -47,23 +47,21 @@ information, see :ref:`Math Expressions in Discussions`.
 Entering Math Expressions in Assignments or the Calculator
 ****************************************************************
 
-note::
-  If your course offers the calculator tool, the calculator appears as a small
-  icon on all pages in the body of the course.
-
-  .. image:: ../../../shared/images/Calc_Closed.png
-    :width: 600
-    :alt: Course page with an arrow pointing to the calculator.
-
-  To use the calculator, select the calculator icon. To close the calculator,
-  select the X that appears when the calculator is open.
-
 Both the calculator and the response fields in math problems accept a
 selection of characters that represent numbers, operators, constants,
 functions, and other mathematical concepts. You might recognize parts of this
 system if you have used math programs before.
 
 .. note::
+  If your course offers the calculator tool, the calculator appears as a small
+  icon on all pages in the body of the course. To open the calculator, select
+  the calculator icon. To close the calculator, select the X that appears when
+  the calculator is open.
+
+  .. image:: ../../../shared/images/Calc_Closed.png
+    :width: 600
+    :alt: Course page with an arrow pointing to the calculator.
+
   The calculator includes an information page that shows an abbreviated version
   of the information in this topic. To see the information page, select the
   circled ``i`` icon next to the input field.
