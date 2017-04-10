@@ -9,7 +9,13 @@ The following information describes what is new on edx.org and Edge.
   :depth: 1
 
 *************************
-Week of 24 September 2017
+Week of 31 March 2017
+*************************
+
+.. include:: 2017/website/website_2017-03-31.rst
+
+*************************
+Week of 24 March 2017
 *************************
 
 .. include:: 2017/website/website_2017-03-24.rst
