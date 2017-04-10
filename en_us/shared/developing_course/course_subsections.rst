@@ -306,19 +306,19 @@ To set the assignment type and due date for a subsection, follow these steps.
 
 For more information, see :ref:`Grading Index`.
 
-.. _Correctness Visibility in a Subsection:
+.. _Results Visibility in a Subsection:
 
-**************************************
-Correctness Visibility in a Subsection
-**************************************
+**********************************
+Results Visibility in a Subsection
+**********************************
 
 By default, when the learner submits an answer to a problem, she will be shown
 whether the answer was correct or incorrect, and how many points were awarded.
 
-However, you may want to delay or withhold showing correctness to learners,
+However, you may want to delay or withhold showing results to learners,
 for example, if you are running an exam or other assessment exercise.
 
-This setting affects the correctness shown for these basic problem types:
+This setting affects the results shown for these basic problem types:
 
 * :ref:`Checkbox`
 * :ref:`Dropdown`
@@ -338,31 +338,31 @@ And these advanced problem types:
 * :ref:`Problem with Adaptive Hint`
 * :ref:`Molecular Structure<Molecule Editor>`
 
-To change the correctness visibility for your subsection:
+To change the results visibility for your subsection:
 
 #. Select the **Configure** icon in the subsection box.
 
    The **Settings** dialog box opens.
 
-#. Select the **Advanced** tab, and locate the **Correctness Visibility** section.
+#. Select the **Visibility** tab, and locate the **Results Visibility** section.
 
 #. Select one of the available options:
 
-   * **Always show correctness**: default behavior.
-   * **Never show correctness**: withhold correctness completely for problems
-     in this subsection.
-   * **Show correctness when subsection is past due**: withhold correctness
-     until the Grade Due Date for the subsection (if instructor-paced course),
-     or the Course End Date for the course (if self-paced course), has passed.
+   * **Always show results**: default behavior; results are shown immediately
+     when answers are submitted.
+   * **Never show results**: never show results for answers submitted in this
+     subsection.
+   * **Show results when subsection is past due**: delay showing results until
+     the Grade Due Date for the subsection (if instructor-paced course), or the
+     Course End Date for the course (if self-paced course), has passed.
 
      .. note::
       If no Grade Due Date (for instructor-paced courses) or Course End Date
-      (for self-paced courses) has been set, then the default behavior of
-      always showing correctness is used.
+      (for self-paced courses) has been set, then results are always shown.
 
      .. note::
-      Correctness will be always be displayed to staff members of the course,
-      unless **Never show correctness** is selected.
+      Results will be always be displayed to staff members of the course,
+      unless **Never show results** is selected.
 
 #. Select **Save**.
 
