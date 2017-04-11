@@ -1135,7 +1135,7 @@ safe. One option is to refactor your code to use ``HtmlUtils.append()``,
 ``HtmlUtils.prepend()``, or ``HtmlUtils.setHtml()``. Another alternative is to
 use ``toString()`` whenever you use an ``HtmlUtils`` call.
 
-For example, let us look at the following JQuery ``before()`` call that is
+For example, let us look at the following JQuery ``after()`` call that is
 considered unsafe.
 
 .. code-block:: javascript
