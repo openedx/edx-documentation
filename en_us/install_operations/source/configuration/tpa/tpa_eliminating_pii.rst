@@ -206,7 +206,7 @@ setting, as follows.
 
 #. In the **Other Config Str** section, add the following code.
 
-   .. code-block:: python
+   .. code-block:: none
 
      "EXTRA_DATA": [ "attributes" ]
 

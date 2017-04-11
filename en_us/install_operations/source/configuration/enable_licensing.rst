@@ -42,7 +42,7 @@ files, which are located one level above the ``edx-platform`` directory.
 #. In the ``lms.env.json`` and ``cms.env.json`` files, in the ``FEATURES``
    dictionary, add ``'LICENSING':True``:
 
-   .. code-block:: bash
+   .. code-block:: none
 
       FEATURES = {
           'LICENSING': True,

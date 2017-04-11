@@ -182,7 +182,7 @@ CMS
   search should be aware of. For example, the following code includes the
   course start date.
 
-  .. code-block:: bash
+  .. code-block:: none
 
       ELASTIC_FIELD_MAPPINGS = {
         "start_date": {

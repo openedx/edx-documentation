@@ -241,14 +241,14 @@ Configuring Open edX is very similar for Google, Facebook, LinkedIn, and Azure.
 
    * For Google, add the following value.
 
-     .. code-block:: python
+     .. code-block:: none
 
         "SOCIAL_AUTH_OAUTH_SECRETS": { "google-oauth2":
            "abcdef123456789101112131" }
 
    * For Facebook, add the following value.
 
-     .. code-block:: python
+     .. code-block:: none
 
         "SOCIAL_AUTH_OAUTH_SECRETS": {
            "facebook": "98765432181bbe3a2596efa8ba7abcde"
@@ -256,13 +256,13 @@ Configuring Open edX is very similar for Google, Facebook, LinkedIn, and Azure.
 
    * For LinkedIn, add the following value.
 
-     .. code-block:: python
+     .. code-block:: none
 
       "SOCIAL_AUTH_OAUTH_SECRETS": { "linkedin-oauth2": "4D3Cb2aB1C0dEFGH" }
 
    * For Azure, add the following value.
 
-     .. code-block:: python
+     .. code-block:: none
 
       "SOCIAL_AUTH_OAUTH_SECRETS": { "azuread-oauth2":
           "abcdef12341yHlmOrR8D3vlV1cD2VtL7k9xk9DSB8vw=" }
@@ -329,7 +329,7 @@ Add the Provider Configuration
 
    For Facebook, use this code.
 
-    .. code-block:: python
+    .. code-block:: none
 
         {
             "SCOPE": ["email"],
@@ -340,7 +340,7 @@ Add the Provider Configuration
 
    For LinkedIn, use this code.
 
-    .. code-block:: python
+    .. code-block:: none
 
         { "SCOPE": ["r_basicprofile", "r_emailaddress"], "FIELD_SELECTORS":
          ["email-address"] }
@@ -415,7 +415,7 @@ OAuth2 standard to the Open edX platform. To do this, follow these steps.
    called ``SOCIAL_AUTH_OAUTH_SECRETS`` if it doesn't already exist, and then
    add the backend name to that key as follows.
 
-    .. code-block:: python
+    .. code-block:: none
 
         "SOCIAL_AUTH_OAUTH_SECRETS": { "backend-name": "secret" }
 

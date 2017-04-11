@@ -42,7 +42,7 @@ directory.
 #. Set the value of ``ENABLE_PREREQUISITE_COURSES`` in the
    ``lms.env.json`` and ``cms.env.json`` files to ``true``.
 
-   .. code-block:: python
+   .. code-block:: none
 
        # Prerequisite courses feature flag
        'ENABLE_PREREQUISITE_COURSES': true,

@@ -41,7 +41,7 @@ directory.
 #. Set the value of ``ENABLE_SPECIAL_EXAMS`` in the
    ``lms.env.json`` and ``cms.env.json`` files to ``true``.
 
-   .. code-block:: python
+   .. code-block:: none
 
        # Timed exams feature flag
        'ENABLE_SPECIAL_EXAMS': true,

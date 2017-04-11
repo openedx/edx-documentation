@@ -40,7 +40,7 @@ files, which are located one level above the ``edx-platform`` directory.
 #. Set the value of ``ENTRANCE_EXAMS`` in the ``lms.env.json`` and
    ``cms.env.json`` files to ``True``.
 
-   .. code-block:: bash
+   .. code-block:: none
 
      # Entrance exams feature flag
      'ENTRANCE_EXAMS': True,
