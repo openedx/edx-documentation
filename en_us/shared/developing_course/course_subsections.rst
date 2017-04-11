@@ -360,11 +360,16 @@ To change the results visibility for your subsection:
       If no Grade Due Date (for instructor-paced courses) or Course End Date
       (for self-paced courses) has been set, then results are always shown.
 
-     .. note::
-      Results will be always be displayed to staff members of the course,
-      unless **Never show results** is selected.
-
 #. Select **Save**.
+
+ .. note::
+  Results will be always be displayed to staff members of the course, unless
+  **Never show results** is selected.
+
+  To see problems as they are presented to your learners, select the :ref:`View
+  this course as: Student<Roles for Viewing Course Content>` option when
+  previewing or viewing your live course content.
+
 
 .. _Publish all Units in a Subsection:
 
