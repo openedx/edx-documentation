@@ -7,6 +7,9 @@ Managing Discussions in Courses with Learner Cohorts
 This section provides information about managing discussions when cohorts are
 enabled in your course.
 
+For information about setting up discussions in courses with cohorts, see
+:ref:`Set up Discussions in Cohorted Courses`.
+
 .. contents::
   :local:
   :depth: 1
