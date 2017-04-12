@@ -67,8 +67,8 @@ file, which is located one level above the ``edx-platform`` directory.
    c. If you set ``CUSTOM_COURSE_URLS`` to ``True``, you must `Enable Custom
       Course URLs`_.
 
-#. Configure the ``SOCIAL_MEDIA_FOOTER_NAMES`` array to the order of links
-   you want learners to see in the footer.
+#. Configure the ``SOCIAL_MEDIA_FOOTER_NAMES`` array in the ``lms.env.json``
+   file to set the order of links you want learners to see in the footer.
 
    .. code-block:: none
 
@@ -81,9 +81,10 @@ file, which is located one level above the ``edx-platform`` directory.
             "reddit",
         ]
 
-#. Configure the ``SOCIAL_MEDIA_FOOTER_DISPLAY`` dictionary to define how you
-   want social media icons to be displayed. For each social media icon you
-   enable, you define a ``title``, ``icon``, and ``action``.
+#. Configure the ``SOCIAL_MEDIA_FOOTER_DISPLAY`` dictionary in the
+   ``lms.env.json`` file  to define how you want social media icons to be
+   displayed. For each social media icon you enable, you define a ``title``,
+   ``icon``, and ``action``.
 
    .. code-block:: none
 
