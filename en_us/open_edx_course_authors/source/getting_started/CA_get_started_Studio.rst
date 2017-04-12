@@ -1,3 +1,7 @@
+.. This is the "Getting Started with Studio" topic for the Open edX B&R Guide
+.. The partner edX B&R guide uses a same-named file in
+.. course_authors/source/getting_started dir
+
 .. _Getting Started with Studio:
 
 ###########################
@@ -11,9 +15,6 @@ to view your courses.
   :local:
   :depth: 1
 
-If you are creating a course to run on `edx.org`_ or `edX Edge`_, see
-:ref:`partnercoursestaff:Getting Started with Studio` in *Building and
-Running an edX Course*.
 
 .. _What is Studio?:
 
@@ -21,7 +22,7 @@ Running an edX Course*.
 What Is Studio?
 ***************
 
-Studio is the edX tool you use to build your courses.
+Studio is the tool you use to build your courses.
 
 You use Studio to create a course structure, and then add problems, videos, and
 other resources for learners.
@@ -43,15 +44,14 @@ If you have not created a course, see :ref:`Creating a New Course`.
 
 #. In Studio, locate your course on your dashboard and open your course.
 
-#. On the **Course Outline** page, select **View
-   Live**.
+#. On the **Course Outline** page, select **View Live**.
 
    Your course enrollment page opens in a new browser tab.
 
 #. Select **Enroll** to enroll in your course. After you enroll in your course,
-   it opens in the edx.org LMS.
+   it opens in the LMS.
 
 #. To continue working on your course, return the browser tab that shows
    Studio.
 
-.. include:: ../../links/links.rst
+

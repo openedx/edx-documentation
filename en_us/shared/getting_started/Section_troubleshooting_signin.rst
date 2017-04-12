@@ -1,3 +1,6 @@
+.. This file is used in the SFD_account.rst file in the edX Learner's Guide
+.. (partner version only)
+
 .. _Troubleshooting signin:
 
 ***************************

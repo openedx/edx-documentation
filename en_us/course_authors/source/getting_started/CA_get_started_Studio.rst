@@ -1,3 +1,7 @@
+.. This is the "Getting Started with Studio" topic for the edX B&R Guide The
+.. Open edX B&R uses a same-named file in the
+.. open_edx_course_authors/source/getting_started dir
+
 .. _Getting Started with Studio:
 
 ###########################
