@@ -89,10 +89,11 @@ see only your username. They do not see your full name.
 
 .. only:: Partners
 
-  When you :ref:`verify your identity<SFD Verify Your Identity>`, the name on
-  your government-issued ID must match the full name for your account.
+  When you :ref:`verify your identity<SFD Verify Your Identity>`, the photo ID
+  that you use for verification must show a name that exactly matches the full
+  name used in your edX account.
 
-To change your full name, follow these steps.
+To change the full name used in your account, follow these steps.
 
 #. At the top of any page, select the dropdown menu icon next to your
    username.

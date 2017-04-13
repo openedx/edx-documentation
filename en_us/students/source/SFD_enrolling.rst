@@ -69,8 +69,7 @@ About the Verified Track
 Many courses offer a verified track in addition to the audit track. The
 verified track awards :ref:`verified certificates<SFD Verified Certificates>`
 to learners who submit payment, :ref:`verify their identities<SFD Verify Your
-Identity>` using a webcam and a government-issued photo ID, and pass the
-course.
+Identity>` using a webcam and a photo ID, and pass the course.
 
 If a course has a verified track, you see a "Verified" indication on the
 course image in the course catalog on edx.org.
@@ -205,8 +204,8 @@ Enroll in the Verified Track for a Course
 =============================================
 
 Verified track enrollment requires that you pay for the :ref:`verified
-certificate<SFD Verified Certificates>` and also :ref:`verify your
-identity<SFD Verify Your Identity>` with a webcam and a government-issued ID.
+certificate<SFD Verified Certificates>` and also :ref:`verify your identity<SFD
+Verify Your Identity>` using a webcam and a photo ID.
 
 To pursue a verified certificate in a course, follow these steps.
 

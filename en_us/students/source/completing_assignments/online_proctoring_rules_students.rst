@@ -43,9 +43,8 @@ practice proctored exams, so that learners can experience an example proctored
 exam, including the software download and system check steps.
 
 As with other ID-verified assessments and exams, learners will be asked to
-establish their identity during the proctored exam process by supplying a
-government-issued photo ID with a full name that matches the name they used to
-register on edX.org.
+establish their identity during the proctored exam process by supplying a photo
+ID with a name that matches the full name they use in their edx.org account.
 
 .. note:: If you require additional time or any specific accommodations or
    exemptions to the exam policies in order to complete a proctored exam,
