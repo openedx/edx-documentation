@@ -62,7 +62,8 @@ Upgrade to the Verified Track
 ===============================
 
 Verified track enrollment requires that you pay for the certificate and verify
-your identity with a webcam and a government-issued ID.
+your identity using a webcam and a photo ID that has your photo and full name
+on the same side.
 
 To upgrade to the verified track, follow these steps.
 
@@ -158,14 +159,15 @@ Verifying Your Identity
 ******************************
 
 When you enroll in the :ref:`verified track<SFD Verified Track>` for a course,
-you must use a webcam to take a photograph of yourself and of a
-government-issued photo ID. You do not have to verify your identity
-immediately, but you must verify your identity before the course ID
-verification deadline. The deadline appears below the name of the course on
-your dashboard.
+you must use a webcam to take a photograph of yourself and of a photo ID that
+has your photo and full name on the same side.
 
-To verify your identity, you use a webcam to submit a photo of yourself and of
-a government-issued photo ID to edX's authorization service. EdX encrypts your
+You do not have to verify your identity immediately, but you must verify your
+identity before the course ID verification deadline. The deadline appears
+below the name of the course on your dashboard.
+
+To verify your identity, you use a webcam to take a photo of yourself and of a
+photo ID that has your photo and full name on the same side. EdX encrypts your
 photos and uses the highest levels of security available to protect your data.
 
 .. contents::
@@ -175,8 +177,8 @@ photos and uses the highest levels of security available to protect your data.
 When you verify your identity for an edX course, that verification is effective
 for one year.
 
-* If you enroll in the verified track for another course, you must verify your
-  identity for that course separately.
+* If you enroll in the verified track for another course, you pay for that
+  course's certificate, but you do not have to verify your identify again.
 
 * If you enroll in a course that offers academic credit, you might have to
   verify your identity periodically during the course. For more information,
@@ -187,9 +189,9 @@ Preparing to Verify Your Identity
 ===================================
 
 When you enroll in the verified track for a course, you must use a webcam to
-take a photograph of yourself and of a government-issued photo ID. Before you
-begin the identity verification process, follow these recommendations to make
-the process as straightforward as possible.
+take a photograph of yourself and of a photo ID that has your photo and name
+on the same side. Before you begin the identity verification process, follow
+these recommendations to make the process as straightforward as possible.
 
 * Make sure that you have access to a webcam.
 
@@ -206,20 +208,17 @@ the process as straightforward as possible.
   If you do not use a webcam to verify your identity, you cannot receive a
   verified certificate.
 
-* Compare the way that your name appears when you sign in to edx.org to the way
-  it appears on your ID card. Your name must be the same for both, including
-  the type of characters used (Roman or non-Roman), accented characters,
-  initials, and spelling.
+* Compare the name on your photo ID card to the full name you use in your edX
+  account. Both names must match, including the type of characters used (Roman
+  or non-Roman), accented characters, initials, and spelling.
 
-  You can update your edX account name at any time on the edX :ref:`account
-  settings page<SFD Update Account Settings>`. You also have the opportunity to
-  change your edX account name during the identity verification process.
-
-* Make sure that your identification card is government issued, such as a
-  driver's license or passport.
+  If necessary, you can update your edX account name at any time on the edX
+  :ref:`account settings page<SFD Update Account Settings>`. You also have the
+  opportunity to change your edX account name during the identity verification
+  process.
 
 * Make sure that your name is legible, and that your name and photo are visible
-  together on a single image.
+  together on the same side of the card.
 
   If your name and your photo are on two different pages, or on the front and
   back of a single page, you can copy both pages onto a single piece of paper.
@@ -237,7 +236,7 @@ Verify Your Identity
 
 To verify your identity, follow these steps.
 
-#. Make sure that you have a webcam and a government-issued photo ID available.
+#. Make sure that you have a webcam and a photo ID available.
 
 #. Start the verification process by completing one of the following actions.
 
@@ -272,9 +271,9 @@ To verify your identity, follow these steps.
    * When you are satisfied with the photo, select **Next: Take a photo of your
      ID**.
 
-#. On the **Take a Photo of Your ID** page, hold your government-issued photo
-   ID up to the webcam on your computer. Make sure that the image of your ID is
-   legible, and then select the camera icon to take a photo of your ID.
+#. On the **Take a Photo of Your ID** page, hold your photo ID up to the webcam
+   on your computer. Make sure that the image of your ID is legible, and then
+   select the camera icon to take a photo of your ID.
 
 #. Review the photo of your ID to make sure that it is well-lit and fills the
    available space.

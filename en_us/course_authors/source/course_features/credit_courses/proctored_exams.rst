@@ -228,8 +228,8 @@ The following list represents only some of the requirements listed in the
 :ref:`online proctoring rules <CA Online Proctoring Rules>`.
 
 * System and environment checks that learners are asked to perform for the
-  proctoring session include taking a photo of a government-issued photo ID,
-  and a photo of themselves, using the webcam on their computer.
+  proctoring session include taking a photo of themselves and a photo of a photo
+  ID using the webcam on their computer.
 
   In addition, they must use the webcam to provide a scan of the room that
   they will take the current exam in. The scan includes the desk area, the

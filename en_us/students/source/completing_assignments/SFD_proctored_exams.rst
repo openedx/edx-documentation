@@ -295,8 +295,9 @@ Take a Picture of Your Photo ID
 ================================
 
 To fulfill the identity check for online proctoring, you use your webcam to
-take a picture of a government-issued photo ID that clearly identifies you by
-your full name, and that can be used to confirm your identity.
+take a picture of a photo ID that has your photo and your name on the same
+side. The name shown on this ID must match the full name you use in your edX
+account.
 
 .. note:: If you do not complete this photo ID step, you cannot achieve a
    **Satisfactory** result for your proctoring review, and you cannot be

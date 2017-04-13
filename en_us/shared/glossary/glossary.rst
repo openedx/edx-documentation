@@ -392,7 +392,7 @@ E
     * The type of certificate, if any, that learners receive if they pass the
       course.
     * Whether learners must verify their identity to earn a certificate, using
-      a webcam and a government-issued photo ID.
+      a webcam and a photo ID.
     * Whether the course requires a fee.
 
   The edX platform offers the following enrollment tracks.
@@ -404,8 +404,7 @@ E
   * **verified**: This enrollment track offers verified certificates to
     learners who pass the course, verify their identities, and pay a required
     course fee. A course that offers the verified enrollment track also
-    automatically offers a free enrollment track, either the audit track or
-    honor track.
+    automatically offers a free non-certificate enrollment track.
 
   * **honor**: This enrollment track offers an honor code certificate to
     learners who pass the course. This track does not require identity

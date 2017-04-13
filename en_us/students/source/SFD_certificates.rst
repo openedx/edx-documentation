@@ -54,8 +54,8 @@ catalog`_.
 
 To earn a verified certificate from an edX course, you enroll in or upgrade to
 the verified track in the course, pay the certificate fee, :ref:`verify your
-identity<SFD Verify Your Identity>` with a webcam and a government-issued ID,
-and earn a passing grade.
+identity<SFD Verify Your Identity>` using a webcam and a photo ID, and earn a
+passing grade.
 
 Verified certificates include the following information.
 
