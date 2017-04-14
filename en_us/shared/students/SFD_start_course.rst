@@ -18,8 +18,9 @@ lessons or assignments.
 
 .. only:: Partners
 
-  For information about self-paced and instructor-paced courses, see :ref:`SFD
-  Course Pacing`.
+  For information about self-paced and instructor-paced courses, see
+  :ref:`Differences Between Instructor- and Self-Paced Courses<SFD Course
+  Pacing>`.
 
 
 .. only:: Open_edX
