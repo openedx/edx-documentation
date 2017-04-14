@@ -140,8 +140,4 @@ This URL is provided to the social sharing site for linking back to a course
 location. This URL is used only if you have enabled custom URLs in your
 instance of Open edX.
 
-.. note:: If custom URLs are enabled but a course team does not provide a
-  value in the **Social Media Sharing URL** advanced setting in Studio,
-  social sharing icons are not visible in the LMS for that course.
-
 .. include:: ../../../links/links.rst

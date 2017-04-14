@@ -61,6 +61,32 @@ Change Course Information`.
     appear on this page if you are enrolled in any course that is part of that
     program. For more information, see :ref:`Programs Page`.
 
+.. _Social Sharing:
+
+======================================
+Sharing Your Courses on Social Media
+======================================
+
+On your dashboard, you can share the courses you are enrolled in on social
+media sites such as Facebook and Twitter.
+
+.. only:: Open_edX
+
+ This feature is available only if it has been enabled by your course provider.
+
+#. Sign in to the social media site on which you want to share your course
+   enrollment.
+
+#. From your dashboard, find the course that you want to share.
+
+#. Select the icon for the social media site where you want to share.
+   A dialog box for the social media site you selected opens, with the course
+   URL entered and a default social media message.
+
+#. Optionally, modify the text of the social media message.
+
+#. Select the appropriate button to publish your message on the social media
+   site.
 
 .. only:: Partners
 
