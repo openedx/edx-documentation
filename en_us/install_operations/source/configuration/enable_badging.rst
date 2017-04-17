@@ -711,4 +711,48 @@ Possible query results are as follows.
 *     404 if the specified user, badge class, or course does not exist.
 
 
+******************************************
+Configuring Course Event Badges
+******************************************
+
+Open edX comes with a handful of optional course events you can customize. Badges 
+can be awarded when:
+
+* A student enrolls in a certain number of courses.
+* A student receives a completion certificate for a certain number of courses.
+* A student receives a completion certificate for every course in a specified list.
+
+These badges can be customized with your own images and descriptions. To set these up:
+
+#. Access the Django Administration website for your instance of Open edX. To
+   do this, go to ``https://<host name of your Open edX instance>/admin``. For
+   example, this might be ``https://YourOrganization.org/admin``
+
+#. Under **Site Administration** > **Badges** select **Badge Classes**, define some Badge 
+   Classes. You must set the "issuing component" to edx_course so that this badge class will 
+   be compatible with the built in badge events. The "slug" is a short unique identifier for 
+   this badge which is all lowercase and only contains letters, numbers, underscores, and 
+   dashes. Make a note of what you decide to use as the slug since you will need it in the next step.
+   You may fill the display name, description and criteria as you wish, though it would be helpful 
+   to convey which of the events the badge is for. An example might be:
+   
+   * ``slug``: ``enrolled_three``
+   * ``display_name``: Triple Enrollment
+   * ``description``: Enrolled in three courses
+   * ``criteria``: A student must enroll in three courses to receive this badge
+   * ``image``: Upload a square PNG, under 250KB in size.
+
+
+#. Go back to the main Admin page. Under **Site Administration** > ** Course event badges 
+   configurations**, create a new Course event badges configuration. Each field has example
+   help text underneath on how to fill its contents. For example, using the Triple Enrollment
+   badge example, you could fill the **Courses Completed** field like so:
+   
+   ``3,enrolled_three``
+  
+  .. important:: Be sure to check the ``Enabled`` checkbox before saving, or this configuration
+  will not be activated.
+  
+#. If you made the example badge, test your newly made badge by enrolling in three courses.
+
 .. include:: ../../../links/links.rst
