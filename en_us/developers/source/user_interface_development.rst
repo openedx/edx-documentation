@@ -179,16 +179,161 @@ reasons, targeted changes to CoffeeScript will still be accepted.
 For more information about writing JavaScript for edX UIs, see
 :ref:`edx_javascript_guidelines`.
 
-.. _use_requirejs_to_manage_file_dependencies:
+.. _use_webpack_to_bundle_dependencies:
 
-=========================================
-Use RequireJS to Manage File Dependencies
-=========================================
+==================================
+Use Webpack to Bundle Dependencies
+==================================
 
-All new pages should use `RequireJS`_ to manage loading
-of file dependencies.
+Write your JavaScript as an `ES2015 module`_. There should be one root file per
+feature (your entry point, sometimes called a "factory") which may require other
+modules.
 
-* Use the standard syntax to load JavaScript dependencies.
+.. code-block:: javascript
+
+    import ReactDOM from 'react-dom';
+
+    import { Component } from 'edx-ui-toolkit/components';
+
+    export class Feature {
+      constructor(domNode) {
+        ReactDOM.render(<Component fooProp={ foo } />, domNode);
+      }
+    }
+
+* Use a non-default export for the function or class that you will call to
+  instantiate the factory. Django-webpack-loader cannot currently load a default export.
+
+* Add your module to the Webpack config's ``entry`` object.
+
+* Load your Webpacked module from your server-side templating system. If using Django
+  (or Jinja) templates, you can use the template tags provided by `Django-webpack-loader`_.
+
+* If using Mako in edx-platform, use the `Webpack entry point loader`_ from
+  ``static_content.html``. This wrapper is necessary because Django-webpack-loader
+  ships template tags for Django and Jinja templates only. For an example, see the
+  `Course Outline`_. (Note: These files may be updated as our use of Webpack evolves,
+  check both the specific linked SHA and the most recent versions for more details.)
+
+* Webpack can also be used to bundle AMD modules previously managed by RequireJS
+  without rewriting the code, as it has native support for a variety of module specs.
+  ES2015 modules should be preferred for new code, especially any ES2015 code, but the
+  benefits of bundling code with Webpack are such that we recommend moving actively
+  maintained AMD ES5 out of RequireJS to Webpack whenever possible.
+
+===========================
+Adding JavaScript Libraries
+===========================
+
+Install JavaScript libraries using the ``npm`` package manager.
+
+If the library you want to add is available from `npmjs.com`_,  update edx-
+platform's package.json file to reference the library. Use the tilde ``~``
+prefix for the version to allow patches to be picked up automatically.
+
+For more information about versioning, see `semver.org`_.
+
+Execute the following command to install your library.
+
+.. code-block:: shell
+
+    paver install_prereqs
+
+Add the new library to the `list of npm-installed libraries`_.
+
+Execute the following command to make your library available as a Django static
+asset (choose LMS, Studio, or both).
+
+.. code-block:: shell
+
+    paver update_assets lms --settings=devstack
+
+To add the new library to the LMS, follow these steps.
+
+#. Add the library to the `lms/env/common.py` file at https://github.com/edx
+   /edx-platform/blob/master/lms/envs/common.py#L1246
+
+#. Add the library to `lms/static/lms/js/require-config.js`_.
+
+Add the new library to the list of vendor libraries that are installed by
+``update_assets``. Update the variable ``NPM_INSTALLED_LIBRARIES`` in
+`/pavelib/assets.py`_.
+
+.. note::
+
+    Reference the unminified version of the library. This allows debugging
+    tools to step through readable library code, and the Django static asset
+    pipeline will ensure that it get optimized for production.
+
+If you cannot use npm, check the file into the `common/static/js/vendor`_
+directory.
+
+==========================================
+Use React or Backbone to Build Your New UI
+==========================================
+
+Code written with these frameworks is more modular, more extensible, and more easily
+unit tested with Jasmine. React is the suggested framework for all greenfield development.
+Development in Backbone will be deprecated in the future. See the `React rollout plan`_
+for more details.
+
+See `How to add a new feature to LMS or Studio`_ to see how to
+structure your code.
+
+.. _use_underscore:
+
+=================================================
+Use Underscore for Backbone Client-Side Templates
+=================================================
+
+The edX development team has standardized using Underscore for client-side
+templates used with Backbone. There are some things to consider.
+
+* Add your templates to a static/templates directory in your Django app.
+
+* If you need mock HTML for Jasmine, put them in a subdirectory named ``mock``.
+
+* Use `RequireJS Text`_  or a Webpack loader to load your
+  templates (note that most code today statically includes the template in the
+  page).
+
+Using either of these bundlers is superior to the old mechanism of statically
+including the templates in the Mako-generated HTML for several reasons.
+
+* Mako templates no longer need to explicitly include every template that is
+  needed in the HTML.
+
+* The template lookup is much faster when optimized for production use because
+  JavaScript code does not have to extract the templates it needs from the DOM.
+  For developers, the templates are fetched asynchronously like any other dependency.
+
+* The templates get included in the minified .js file for the page so the
+  content is only downloaded once and then cached in the browser. Including the
+  template in the Mako template causes it to be downloaded every time.
+
+* Unit tests do not need to load all the templates into fixtures for the views
+  to work, as the view will load its template dependencies directly.
+
+Here are a few examples.
+
+* `Paging Header component`_
+
+* `Teams topic card`_
+
+============================
+RequireJS Use in Legacy Code
+============================
+
+`RequireJS`_ is a dependency management system used widely at edX before the
+introduction of Webpack. RequireJS may still be necessary when dealing with
+legacy code, especially code not written as AMD or ES2015 modules. However,
+the current recommendation is to :ref:`use Webpack <use_webpack_to_bundle_dependencies>`
+for all new code and to transition AMD modules using RequireJS to Webpack
+as development occurs.
+
+Here are some notes on how RequireJS has been implemented in the past.
+
+* The `AMD syntax`_ should be used to load JavaScript dependencies in RequireJS.
 
   .. note::
 
@@ -197,17 +342,18 @@ of file dependencies.
 
   .. code-block:: javascript
 
-    ;(function (define) {
+    (function(define) {
         'use strict';
-        define([...], function (...) {
+
+        define([...], function(...) {
             ...
         });
     }).call(this, define || RequireJS.define);
 
-* Use RequireJS Text for your templates (see
+* Use RequireJS Text for templates loaded through RequireJS (see
   :ref:`requirejs_optimization_javascript` for details).
 
-* Create a factory class that is included by your Mako template using
+* Factory classes should be included by your Mako template using
   ``require_module``.
 
     * This Mako function ensures that the factory is loaded correctly for both
@@ -261,102 +407,16 @@ The following list includes more examples.
 
 .. _adding_javascript_libraries:
 
-===========================
-Adding JavaScript Libraries
-===========================
-
-Install JavaScript libraries using the ``npm`` package manager.
-
-If the library you want to add is available from `npmjs.com`_,  update edx-
-platform's package.json file to reference the library. Use the tilde ``~``
-prefix for the version to allow patches to be picked up automatically.
-
-For more information about versioning, see `semver.org`_.
-
-Execute the following command to install your library.
-
-.. code-block:: shell
-
-    paver install_prereqs
-
-Add the new library to the `list of npm-installed libraries`_.
-
-Execute the following command to make your library available as a Django static
-asset (choose LMS, Studio, or both).
-
-.. code-block:: shell
-
-    paver update_assets lms --settings=devstack
-
-To add the new library to the LMS, follow these steps.
-
-#. Add the library to the `lms/env/common.py` file at https://github.com/edx
-   /edx-platform/blob/master/lms/envs/common.py#L1246
-
-#. Add the library to `lms/static/lms/js/require-config.js`_.
-
-Add the new library to the list of vendor libraries that are installed by
-``update_assets``. Update the variable ``NPM_INSTALLED_LIBRARIES`` in
-`/pavelib/assets.py`_.
-
-.. note::
-
-    Reference the unminified version of the library. This allows debugging
-    tools to step through readable library code, and the Django static asset
-    pipeline will ensure that it get optimized for production.
-
-If you cannot use npm, check the file into the `common/static/js/vendor`_
-directory.
-
-.. _use_underscore_and_requirejs_text:
-
-===========================================================
-Use Underscore and RequireJS Text for Client-Side Templates
-===========================================================
-
-The edX development team has standardized using Underscore for all client-side
-templates. There are some things to consider.
-
-* Add your templates to a static/templates directory in your Django app.
-
-* If you need mock HTML for Jasmine, put them in a subdirectory named ``mock``.
-
-* Use :ref:`RequireJS Text <use_underscore_and_requirejs_text>` to load your
-  templates (note that most code today statically includes the template in the
-  page).
-
-RequireJS Text is superior to the old mechanism of statically
-including the templates in the Mako-generated HTML for several reasons.
-
-* Mako templates no longer need to explicitly include every template that is
-  needed in the HTML.
-
-* The template lookup is much faster when optimized for production use because
-  JavaScript code does not have to extract the templates it needs from the DOM.
-  For developers, the templates are fetched asynchronously like any other
-  RequireJS dependency.
-
-* The templates get included in the minified .js file for the page so the
-  content is only downloaded once and then cached in the browser. Including the
-  template in the Mako template causes it to be downloaded every time.
-
-* Unit tests do not need to load all the templates into fixtures for the views
-  to work, as the view will load its template dependencies directly.
-
-Here are a few examples.
-
-* `Paging Header component`_
-
-* `Teams topic card`_
-
 .. _requirejs_optimization_javascript:
 
 ============================================================
 Ensure That RequireJS Optimizer Can Optimize Your JavaScript
 ============================================================
 
-We use `RequireJS Optimizer`_ to optimize the JavaScript that we use in
-production. This works as part of the production pipeline to merge all of a
+We use `RequireJS Optimizer`_ to optimize some JavaScript in production.
+Specifically, the RequireJS Optimizer (sometimes called ``r.js``) bundles and
+optimizes JavaScript which uses RequireJS for its dependency management.
+This works as part of the production pipeline to merge all of a
 page's JavaScript and templates into a single minified file. This greatly
 reduces the number of files that the browser needs to request, as well as the
 number of bytes that need to be fetched. Furthermore, in the LMS un-optimized
@@ -368,6 +428,9 @@ single factory file. This factory is responsible for creating the models and
 views required to render the page. The idea is that the optimizer can produce a
 single minified file for the factory by statically determining all of its
 dependencies.
+
+If using RequireJS (as opposed to Webpack), follow these instructions to make
+sure the RequireJS Optimizer can optimize your modules.
 
 * Structure your page so that it has a single root factory file (see
   :ref:`use_requirejs_to_manage_file_dependencies`).
@@ -403,16 +466,6 @@ dependencies.
     * Studio RequireJS files currently do not use the MD5 hashing mechanism,
       and instead store files within a unique directory that changes with each
       release. We hope to change this in the future.
-
-=================================
-Use Backbone to Build Your New UI
-=================================
-
-Code written with Backbone is more modular, more extensible, and more easily
-unit tested with Jasmine.
-
-See `How to add a new feature to LMS or Studio`_ to see how to
-structure your Backbone code.
 
 .. TODO: move the content from the wiki page into the developer's guide.
 
@@ -464,6 +517,20 @@ structure your Backbone code.
 .. _Teams courseware tab (LMS): https://github.com/edx/edx-platform/blob/master/lms/djangoapps/teams/static/teams/js/views/teams_tab.js
 
 .. _semver.org: http://semver.org/
+
+.. _AMD syntax: http://requirejs.org/docs/whyamd.html#amd
+
+.. _React rollout plan: https://openedx.atlassian.net/wiki/display/FEDX/React+rollout+plan
+
+.. _RequireJS Text: https://github.com/requirejs/text
+
+.. _ES2015 module: https://strongloop.com/strongblog/an-introduction-to-javascript-es6-modules/
+
+.. _Django-webpack-loader: https://github.com/ezhome/django-webpack-loader#templates
+
+.. _Webpack entry point loader: https://github.com/edx/edx-platform/blob/bf25678b9c80b739e6873f2917afb5a6bd60b747/common/djangoapps/pipeline_mako/templates/static_content.html#L88-L106
+
+.. _Course Outline: https://github.com/edx/edx-platform/blob/bf25678b9c80b739e6873f2917afb5a6bd60b747/openedx/features/course_experience/templates/course_experience/course-outline-fragment.html#L125-L127
 
 .. _
 
