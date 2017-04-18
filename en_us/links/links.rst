@@ -60,6 +60,8 @@
 
 .. _docs@edx.org: docs@edx.org
 
+.. _XSeries: https://www.edx.org/xseries
+
 .. _Overview of Creating an edX Course: https://www.edx.org/course/overview-creating-edx-course-edx-edx101#.VHKBz76d9BV
 
 .. _Creating Video for the edX Platform: https://www.edx.org/course/creating-video-edx-platform-edx-videox
