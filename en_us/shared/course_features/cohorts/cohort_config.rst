@@ -243,10 +243,11 @@ To manually assign learners to cohorts in your course, follow these steps.
 
 #. Select **Add Students**. The learners you added are assigned to the selected
    manual cohort. A message appears to indicate the number of learners who were
-   added to the cohort. Because learners can belong to only one cohort, the
-   message also indicates the number of learners whose assignment to another
-   cohort was changed as a result of your adding them to another cohort using
-   this procedure.
+   added to the cohort. Because learners can belong to only one cohort, adding a
+   learner to a cohort removes them from any cohort they were previously assigned
+   to. Therefore, the message also indicates the number of learners whose
+   assignment to another cohort was changed as a result of your adding them to
+   another cohort using this procedure.
 
  .. note:: The number of learners reported on the **Cohorts** tab and in
     downloaded reports includes only those learners who are enrolled in the
@@ -445,7 +446,7 @@ The visibility of a post and its responses and comments does not change, even
 if the cohort assignment of its author changes. To a learner, it can seem that
 posts have "disappeared".
 
-To verify the cohort assignments for your learners, download the  :ref:`student
+To verify the cohort assignments for your learners, download the :ref:`student
 profile report<View and download student data>` for your course. If changes are
 needed, you can :ref:`assign learners<Assign Learners to Cohorts Manually>` to
 different cohorts manually in the LMS by selecting **Instructor** and then
