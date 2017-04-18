@@ -1,7 +1,7 @@
 .. _Course_Wiki:
 
 ########################
-Using the Course Wiki
+TESTING
 ########################
 
 Wikis provide a way for the course team and learners to access, share, and
