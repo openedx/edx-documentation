@@ -578,6 +578,88 @@ event type also includes the following ``context`` member field.
 
 ``event`` **Member Fields**: None.
 
+.. _course_home_page:
+
+==============================
+Course Home Page Events
+==============================
+
+This section includes descriptions of the following events.
+
+.. contents::
+  :local:
+  :depth: 1
+
+Course **Home** page events track learner interactions with the course **Home**
+page in the LMS. An earlier version of the **Home** page was the **Course
+Info** page. The **Course Info** page did not have associated events.
+
+``edx.course.home.resume_course.clicked``
+********************************************
+
+The browser emits this event when a learner selects **Resume Course**.
+
+**Event Source**: Browser
+
+**History**: This event was added 3 Feb 2016.
+
+``event`` **Member Fields**:
+
+This event has the following ``event`` member fields.
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+   * - ``url``
+     - string
+     - The URL of the last courseware page the learner visited. This is the
+       ``href`` attribute of the link.
+
+``edx.course.home.course_update.toggled``
+********************************************
+The browser emits this event when the learner shows or hides a course update.
+
+**Event Source**: Browser
+
+**History**: This event was added 3 Feb 2016.
+
+``event`` **Member Fields**:
+
+This event has the following ``event`` member fields.
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+   * - ``action``
+     - string
+     - Indicates whether the learner showed or hid the update. Valid values are
+       ``hide`` and ``show``.
+   * - ``publish_date``
+     - string
+     - The date the update was published, in International Organization for
+       Standardization (ISO) 8601 format. An example value is
+       ``"2016-01-20T00:00:00-05:00"``.
+
+``edx.course.home.upgrade_verified.clicked``
+********************************************
+
+The browser emits this event when the learner selects **Upgrade to Verified**
+on the course **Home** page.
+
+**History**: This event was added 3 Feb 2016.
+
+``event`` **Member Fields**:
+
+None.
+
 .. _navigational:
 
 ==============================
