@@ -37,12 +37,13 @@ To enable certificates, you modify the ``lms.env.json`` and ``cms.env.json``
 files, which are located one level above the ``edx-platform`` directory.
 
 #. In the ``lms.env.json`` and ``cms.env.json`` files, set the value of
-   ``CERTIFICATES_HTML_VIEW`` within the ``FEATURES`` object  to ``true``.
+   ``CERTIFICATES_ENABLED`` and ``CERTIFICATES_HTML_VIEW`` within the ``FEATURES`` object  to ``true``.
 
    .. code-block:: none
 
      "FEATURES": {
          ...
+         'CERTIFICATES_ENABLED': true,
          'CERTIFICATES_HTML_VIEW': true,
          ...
      }
