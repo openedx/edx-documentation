@@ -153,3 +153,5 @@ open to the public. Additional resources are also available. For more
 information, see :ref:`Resources for Researchers`.
 
 .. include:: ../../../links/links.rst
+
+.. add resources xref
