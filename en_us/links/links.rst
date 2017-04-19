@@ -443,11 +443,15 @@
 
 .. _edX course catalog: https://www.edx.org/course-list/allschools/verified/allcourses`
 
+.. _edX Programs: https://www.edx.org/course?program=all
+
 .. _Verified Certificates: https://www.edx.org/verified-certificate
 
 .. _XSeries Programs: https://www.edx.org/xseries
 
 .. _MicroMasters Programs: https://www.edx.org/micromasters
+
+.. _Professional Certificate Programs: https://www.edx.org/professional-certificate
 
 .. _financial assistance application: https://courses.edx.org/financial-assistance
 

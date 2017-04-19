@@ -18,9 +18,8 @@ lessons or assignments.
 
 .. only:: Partners
 
-  For information about self-paced and instructor-paced courses, see
-  :ref:`Differences Between Instructor- and Self-Paced Courses<SFD Course
-  Pacing>`.
+  For more information, see :ref:`Course Availability` and :ref:`Differences
+  Between Instructor- and Self-Paced Courses<SFD Course Pacing>`.
 
 
 .. only:: Open_edX
@@ -39,34 +38,34 @@ lessons or assignments.
 Find a Course's Start Date
 ===========================
 
-Often, you can enroll in a course before it actually starts. You can find the
-course start date on your dashboard; however, the exact time is not published.
+You can usually enroll in a course before the start date, although you cannot
+access course materials and complete assignments.
+
+You can find a course's start date on its About page. Not all courses publish
+the exact start time.
+
+.. image:: ../../shared/images/SFD_StartDateOnCourseAbout.png
+   :width: 600
+   :alt: A course's About page with the start date above the Enroll Now button.
+
+If you have enrolled in a course, the course is added to the list of courses on
+your :ref:`dashboard<SFD Learner Dashboard>`. You can find the start date on the
+course listing on your dashboard.
+
+.. image:: ../../shared/images/SFD_StartDateOnDashboard.png
+   :width: 600
+   :alt: A course listing on a learner's dashboard with the start date underthe
+     name of the course.
 
 * You do not need to sign in exactly when the course begins.
 
 * If the course content is not immediately available, check back later on the
   start date.
 
-To find the course start date, follow these steps.
+For more information about different course statuses, see :ref:`Course
+Availability`
 
-#. At the top of any page, select the dropdown menu icon next to your
-   username.
-
-#. Select **Dashboard**. Your dashboard lists every course that you are
-   enrolled in.
-
-#. Locate the course in the list of courses on your dashboard.
-
-   * For courses that have not yet started, "Starts" and the date appear
-     below the name of the course.
-
-   * For courses that are already in progress, "Started" and the date appear.
-
-   * If the course team has not yet announced the start date, a message such as
-     "Coming Soon" appears.
-
-   * For archived courses that are no longer running, "Ended" and
-     the date appear.
+.. Deliberate omission of period at end of above sentence because the title that is inserted ends with a question mark.
 
 
 ===============
@@ -135,11 +134,13 @@ option to access your web certificate.
 
 .. only:: Partners
 
-  For information about how to access certificates, including how to view, print, and share certificates, see :ref:`learners:Certificates`.
+  For information about how to access certificates, including how to view,
+  print, and share certificates, see :ref:`learners:Certificates`.
 
 .. only:: Open_edX
 
-  For information about how to access certificates, including how to view, print, and share certificates, see :ref:`openlearners:Certificates`.
+  For information about how to access certificates, including how to view,
+  print, and share certificates, see :ref:`openlearners:Certificates`.
 
 
 
