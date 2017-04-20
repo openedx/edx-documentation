@@ -228,5 +228,23 @@ Patch Releases
 * Fixes to some automated tests.
 
 
+======================
+21 April 2017: Ficus.3
+======================
+
+* In edx-platform, Django was upgraded from 1.8.17 to 1.8.18.
+
+* MathJax `announced`__ that its distribution point for the MathJax library
+  will be shutting down at the end of April.  MathJax is now loaded from cdnjs
+  instead.
+
+.. __: https://www.mathjax.org/cdn-shutting-down/
+
+* The Analytics applications, including the analytics devstack, have been
+  updated for Ubuntu 16.04.
+
+* To address a connection pooling issue in Ubuntu 16.04, we've changed how we
+  launch new gunicorn web server processes.
+
 .. include:: links.rst
 .. include:: ../../links/links.rst
