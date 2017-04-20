@@ -28,8 +28,8 @@ You then choose the type of problem that you want to add from a list of
 
 The common problem types include relatively straightforward CAPA problems such
 as multiple choice and text or numeric input. The advanced problem types can be
-more complex to set up, such as math expression input, peer assessment, or
-custom JavaScript problems.
+more complex to set up, such as math expression input, open response
+assessment, or custom JavaScript problems.
 
 The common and advanced problem types that the problem component lists are the
 core set of problems that every course team can include in a course. You can
@@ -76,13 +76,13 @@ The editing interface that opens depends on the type of problem you choose.
   elements of the problem, such as the prompt and the correct and incorrect
   answer options.
 
-* For advanced problem types (with the exception of :ref:`peer assessment<Open
-  Response Assessments 2>`), the :ref:`advanced editor<Advanced Editor>` opens.
-  In this editor you use open learning XML (OLX) elements and attributes
-  to identify the elements of the problem.
+* For advanced problem types (with the exception of :ref:`open response
+  assessment<Open Response Assessments 2>`), the :ref:`advanced editor<Advanced
+  Editor>` opens. In this editor you use open learning XML (OLX) elements and
+  attributes to identify the elements of the problem.
 
-  For peer assessment problem types, you define the problem elements and
-  options by using a graphical user interface. For more information, see
+  For open response assessment problem types, you define the problem elements
+  and options by using a graphical user interface. For more information, see
   :ref:`PA Create an ORA Assignment`.
 
 You can switch from the simple editor to the advanced editor at any time by
@@ -249,8 +249,8 @@ problem types in the advanced editor.
 
 * :ref:`Molecular Structure<Molecule Editor>`
 
-For the :ref:`Peer Assessment<Open Response Assessments 2>` advanced problem
-type, a dialog box opens for problem setup.
+For the :ref:`Open Response Assessment<Open Response Assessments 2>` advanced
+problem type, a dialog box opens for problem setup.
 
 Blank advanced problems do not provide an example problem, but they also open
 in the advanced editor by default.

@@ -18,8 +18,8 @@ Content Libraries Overview
 
 In Studio, you can create a library to build a pool of components for use in
 randomized assignments in your courses. You can add HTML components, problems,
-and video components to a library. Peer assessment and discussion components
-are not supported in libraries.
+and video components to a library. Open response assessment and discussion
+components are not supported in libraries.
 
 .. note:: Content libraries are available only for courses that have course
    identifiers in this format: ``{key type}:{org}+{course}+{run}``. For
