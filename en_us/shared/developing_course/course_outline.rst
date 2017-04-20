@@ -27,6 +27,7 @@ Open the Course Outline
 To view the course outline, follow these steps.
 
 #. Sign in to edX Studio.
+
 #. On the **My Courses** page, select the course you want to develop.
 
    The course outline opens by default when you open a course.
