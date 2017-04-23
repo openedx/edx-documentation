@@ -306,6 +306,71 @@ To set the assignment type and due date for a subsection, follow these steps.
 
 For more information, see :ref:`Grading Index`.
 
+.. _Results Visibility in a Subsection:
+
+**********************************
+Results Visibility in a Subsection
+**********************************
+
+By default, when the learner submits an answer to a problem, she will be shown
+whether the answer was correct or incorrect, and how many points were awarded.
+
+However, you may want to delay or withhold showing results to learners,
+for example, if you are running an exam or other assessment exercise.
+
+This setting affects the results shown for these basic problem types:
+
+* :ref:`Checkbox`
+* :ref:`Dropdown`
+* :ref:`Multiple Choice`
+* :ref:`Numerical Input`
+* :ref:`Text Input`
+
+And these advanced problem types:
+
+* :ref:`Annotation`
+* :ref:`Circuit Schematic Builder`
+* :ref:`Custom JavaScript Display and Grading<Custom JavaScript>`
+* :ref:`Custom Python-Evaluated Input<Write Your Own Grader>`
+* :ref:`Image Mapped Input`
+* :ref:`Math Expression Input`
+* :ref:`Problem Written in LaTeX`
+* :ref:`Problem with Adaptive Hint`
+* :ref:`Molecular Structure<Molecule Editor>`
+
+To change the results visibility for your subsection:
+
+#. Select the **Configure** icon in the subsection box.
+
+   The **Settings** dialog box opens.
+
+#. Select the **Visibility** tab, and locate the **Results Visibility** section.
+
+#. Select one of the available options:
+
+   * **Always show results**: default behavior; results are shown immediately
+     when answers are submitted.
+   * **Never show results**: never show results for answers submitted in this
+     subsection.
+   * **Show results when subsection is past due**: delay showing results until
+     the Grade Due Date for the subsection (if instructor-paced course), or the
+     Course End Date for the course (if self-paced course), has passed.
+
+     .. note::
+      If no Grade Due Date (for instructor-paced courses) or Course End Date
+      (for self-paced courses) has been set, then results are always shown.
+
+#. Select **Save**.
+
+ .. note::
+  Results will be always be displayed to staff members of the course, unless
+  **Never show results** is selected.
+
+  To see problems as they are presented to your learners, select the :ref:`View
+  this course as: Student<Roles for Viewing Course Content>` option when
+  previewing or viewing your live course content.
+
+
 .. _Publish all Units in a Subsection:
 
 **********************************
