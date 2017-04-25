@@ -4,7 +4,7 @@
 Online Proctoring Rules for Learners
 ####################################
 
-EdX.org uses an online proctoring service for certain exams (typically final
+EdX.org uses an online :ref:`proctoring<CA_ProctoredExams>` service for certain exams (typically final
 exams) that are part of courses that can be made eligible for credit. Learners
 taking proctored exams are required to adhere to a set of defined rules to
 receive a **Satisfactory** result from the proctoring service.
