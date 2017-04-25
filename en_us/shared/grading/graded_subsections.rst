@@ -8,12 +8,18 @@ After you configure assignment types, as you are organizing your course, you
 set the assignment type for subsections that contain problems that are to be
 graded.
 
-You can only set assignment types and due dates at the subsection level. You
+You can set assignment types and due dates at the subsection level only. You
 cannot set assignment types or due dates for entire sections or for individual
 units within subsections. Additionally, you can designate a subsection as one,
 and only one, of the assignment types you configured.
 
-.. note:: You can create problems in Studio without specifying an assignment
+The subsection level is also where you specify whether you want learners to
+receive immediate results when they complete problems in the subsection, or if
+you want to hide the results temporarily or permanently. For more information,
+see :ref:`Problem Results Visibility`.
+
+.. note::
+   You can create problems in Studio without specifying an assignment
    type for the subsection. Scores for such problems are listed as "practice
    scores" on the learner's **Progress** page and do not count toward the
    learner's grade.
@@ -23,8 +29,8 @@ and only one, of the assignment types you configured.
    more information, see :ref:`Hiding Graded Content`.
 
 Within a graded subsection, you create problems of the type designated for that
-subsection. You cannot not mix problems of different assignment types in the
-same subsection.
+subsection. You cannot mix problems of different assignment types in the same
+subsection.
 
 For example, if you want to create a homework assignment and a lab for a
 specific topic, create two subsections. Set one subsection as the Homework

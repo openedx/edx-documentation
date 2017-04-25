@@ -239,9 +239,10 @@ To set the subsection release date, follow these steps.
         configure icon.
     :width: 500
 
-   The **Settings** dialog box opens.
+   The subsection settings dialog box opens.
 
-#. Enter the release date and time for the subsection.
+#. On the **Basic** tab, under **Release Date and Time**, enter the release
+   date and time for the subsection.
 
    .. note:: The time that you set is in Coordinated Universal Time (UTC). You
       might want to verify that you have specified the time that you intend by
@@ -267,12 +268,13 @@ Set the Assignment Type and Due Date for a Subsection
 
 You set the assignment type for problems at the subsection level.
 
-When you set the assignment type for a subsection, all problems within the
+When you set the assignment type for a subsection, all problems in the
 subsection are graded and weighted as a single type. For example, if you
 designate the assignment type for a subsection as **Homework**, then all
 problem types in that subsection are graded as homework.
 
-.. note:: Unlike other problem types, ORA assignments are not governed by the
+.. note::
+   Unlike other problem types, ORA assignments are not governed by the
    subsection due date. Due dates for each ORA assignment are set in the
    assignment's settings. For details, see :ref:`PA Specify Name and Dates`.
 
@@ -280,12 +282,13 @@ To set the assignment type and due date for a subsection, follow these steps.
 
 #. Select the **Configure** icon in the subsection box.
 
-   The **Settings** dialog box opens.
+   The subsection settings dialog box opens.
 
-#. In the **Grading** section, select the assignment type for this subsection
-   in the **Grade as** field.
+#. On the **Basic** tab, locate the **Grading** section.
+#. In the **Grade as** list, select the assignment type for this subsection.
 
-#. Enter or select a due date and time for problems in this subsection.
+#. For **Due Date** and **Due Time in UTC**, enter or select a due date and
+   time for problems in this subsection.
 
    .. note:: The time that you set is in Coordinated Universal Time (UTC). You
       might want to verify that you have specified the time that you intend by
@@ -305,6 +308,74 @@ To set the assignment type and due date for a subsection, follow these steps.
 #. Select **Save**.
 
 For more information, see :ref:`Grading Index`.
+
+.. _Problem Results Visibility:
+
+*********************************
+Set Problem Results Visibility
+*********************************
+
+By default, when learners submit answers to problems, they immediately receive
+the results of the problem: whether they answered the problem correctly, as
+well as their scores. However, you might want to temporarily hide problem
+results from learners when you run an exam, or permanently hide results when
+you administer a survey. You can do this by using the **Results Visibility**
+setting.
+
+.. note::
+ The **Results Visibility** setting is a subsection setting. You cannot change
+ the visibility of individual problems. The **Results Visibility**
+ subsection setting overrides the **Show Answer** setting for individual
+ problems. Answers to problems are not visible when results are hidden.
+
+The **Results Visibility** setting affects the following common problem types.
+
+* :ref:`Checkbox`
+* :ref:`Dropdown`
+* :ref:`Multiple Choice`
+* :ref:`Numerical Input`
+* :ref:`Text Input`
+
+The **Results Visibility** setting affects the following advanced problem
+types.
+
+* :ref:`Annotation`
+* :ref:`Circuit Schematic Builder`
+* :ref:`Custom JavaScript Display and Grading<Custom JavaScript>`
+* :ref:`Custom Python-Evaluated Input<Write Your Own Grader>`
+* :ref:`Image Mapped Input`
+* :ref:`Math Expression Input`
+* :ref:`Problem Written in LaTeX`
+* :ref:`Problem with Adaptive Hint`
+* :ref:`Molecular Structure<Molecule Editor>`
+
+To change the results visibility for your subsection, follow these steps.
+
+#. Select the **Configure** icon in the subsection box.
+
+   The **Settings** dialog box opens.
+
+#. Select the **Visibility** tab, and locate **Results Visibility**.
+
+#. Select one of the available options.
+
+   * **Always show results**: This is the default setting. Results are visible
+     immediately when learners and staff submit answers.
+   * **Never show results**: Results are never visible to learners or to course
+     staff.
+   * **Show results when subsection is past due**: For learners, results are
+     not visible until the subsection due date (for instructor-paced courses)
+     or the course end date (for self-paced courses) has passed. For course
+     staff, results are always visible unless the staff member is
+     :ref:`previewing or viewing the course as a learner<Roles for
+     Viewing Course Content>` .
+
+     .. note::
+      If the subsection does not have a due date, or the course does not have
+      an end date, results are always visible.
+
+#. Select **Save**.
+
 
 .. _Publish all Units in a Subsection:
 
@@ -345,6 +416,9 @@ You can hide a subsection from learners in the following ways.
   keep the subsection visible in course navigation. Subsections that are
   hidden based on date remain included when grades are calculated.
 
+You can also hide just the answers to problems in the subsection, leaving the
+problems visible. For more information, see :ref:`Problem Results Visibility`.
+
 For more information, see :ref:`Content Hidden from Students`.
 
 
@@ -368,9 +442,10 @@ To entirely hide a subsection from learners, follow these steps.
         configure icon.
      :width: 500
 
-   The **Subsection Settings** dialog box opens.
+   The subsection settings dialog box opens.
 
-#. In the **Subsection Visibility** section, select **Hide entire subsection**.
+#. On the **Visibility** tab, locate **Subsection Visibility**, and then select
+   **Hide entire subsection**.
 
 #. Select **Save**.
 
@@ -397,17 +472,24 @@ might want to make exam questions unavailable after a certain date. For
 instructor-led courses, this option uses the subsection's due date. For self-
 paced courses, this option uses the course's end date.
 
-Subsections that are hidden in this way remain visible in the course navigation,
-and are included when grades are calculated. However, learners can no longer
-access the subsection's content after the due date or the course end date.
+Subsections that are hidden in this way remain visible in the course
+navigation, and are included when grades are calculated. However, learners can
+no longer access the subsection's content after the due date or the course end
+date.
+
+.. note::
+  If you want to continue to show a subsection's content, but hide learners'
+  results for problems in the subsection, see :ref:`Problem Results
+  Visibility`.
 
 To hide a subsection based on date, follow these steps.
 
 #. Select the **Configure** icon in the subsection box.
 
-   The **Subsection Settings** dialog box opens.
+   The subsection settings dialog box opens.
 
-#. In the **Subsection Visibility** section, select the appropriate option.
+#. On the **Visibility** tab, locate **Subsection Visibility**, and then select
+   the appropriate option.
 
    * In instructor-led courses, select **Hide content after due date**.
 
@@ -439,11 +521,11 @@ When you delete a subsection, you delete all units within the subsection.
 
 To delete a subsection, follow these steps.
 
-#. Select the **Delete** icon in the subsection that you want to delete.
+#. In the subsection that you want to delete, select the **Delete** icon.
 
   .. image:: ../../../shared/images/subsection-delete.png
    :alt: Part of a course outline showing a subsection with the Delete icon
        circled.
 
-2. When the confirmation prompt appears, select **Yes, delete this
+#. When the confirmation prompt appears, select **Yes, delete this
    subsection**.

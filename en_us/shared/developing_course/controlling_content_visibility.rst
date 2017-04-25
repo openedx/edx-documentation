@@ -7,14 +7,12 @@ Controlling Content Visibility
 As a member of the course team, you must carefully control which content is
 visible to learners and when.
 
-You control content visibility through these features in Studio.
+The following Studio features work together to control content visibility for
+learners.
 
 .. contents::
   :local:
   :depth: 1
-
-These features work together to control content visibility for learners.
-
 
 .. _Release Dates:
 
@@ -104,7 +102,8 @@ Only course team members would see that unit in the course.
 Content that is hidden by being excluded from the course outline is never
 available to learners, regardless of the release and publishing status.
 
-.. important:: Content that you make "invisible" to learners by excluding it
+.. important::
+   Content that you make "invisible" to learners by excluding it
    from the course outline is also excluded from grading. As a best practice,
    do not hide sections, subsections, or units that contain graded content by
    excluding them from the course outline.
@@ -116,17 +115,18 @@ available to learners, regardless of the release and publishing status.
 
 You can hide content at different levels, as described in the following topics.
 
-* :ref:`Sections<Hide a Section from Students>`
-* :ref:`Subsections<Hide a Subsection from Students>`
-* :ref:`Units<Hide a Unit from Students>`
+* :ref:`Hide a Section from Students`
+* :ref:`Hide a Subsection from Students`
+* :ref:`Hide a Unit from Students`
+* :ref:`Problem Results Visibility`
 
-.. note:: Units and subsections inherit visibility settings from their parent
+.. note::
+   Units and subsections inherit visibility settings from their parent
    subsections or sections. Be aware that when you make a previously hidden
    section or subsection visible to learners, all child subsections or units
    also become visible, unless you have explicitly hidden the subsection or
    unit. Subsections or units that are explicitly hidden remain hidden
    even when you change the visibility of their parent section or subsection.
-
 
 .. _Hiding Graded Content:
 
@@ -139,6 +139,10 @@ graded problems in such a way that they are not included in the course
 navigation. When the platform performs grading for a learner, the grading
 process does not include problems that are not included in that learner's
 course outline.
+
+If you want the problems in the subsection to remain visible, but you want to
+hide learners' results for these problems, see :ref:`Problem Results
+Visibility`.
 
 .. note:: As a best practice, do not hide graded sections, subsections, or
    units by excluding them from the course outline. Content that is hidden in
