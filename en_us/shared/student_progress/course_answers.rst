@@ -100,7 +100,13 @@ to view.
 
 The next interaction shown as you scroll up from the bottom records when the
 learner selected **Submit** in the browser to submit an answer. Note that this
-record does not contain the actual answer submitted.
+record does not contain the actual answer submitted. The answer choice is
+indicated using a choice identifier: ``choice_1`` in this example.
+
+.. note:: The numbering of choice identifiers starts at ``choice_0``, so that
+   ``choice_0`` represents your first answer choice, ``choice_1`` represents
+   your second answer choice, and so on.
+
 
 .. code-block:: none
 
@@ -359,6 +365,11 @@ The .csv file contains the following columns.
      - The internal identifier of the answer choice for checkboxes and multiple
        choice problems. Blank for dropdown, numerical input, text input, and
        math expression input problems.
+
+       Note that the numbering of choice identifiers starts at ``choice_0``,
+       so that ``choice_0`` represents your first answer choice, ``choice_1``
+       represents your second answer choice, and so on.
+
    * - AnswerValue
      - The text label of the answer choice for checkboxes, dropdown, and
        multiple choice problems. The value entered by the learner for numerical
