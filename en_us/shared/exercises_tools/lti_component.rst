@@ -351,9 +351,31 @@ LTI Component Settings
        An LTI component will only send learners' email addresses if the **LTI
        Launch Target** control is set to **New Window**.
 
+       By default, this setting is not available in Studio.
+
+       .. only:: Partners
+
+         To make this setting available, contact your edX partner manager.
+
+       .. only:: Open_edX
+
+         To make this setting available, a system administrator must enable the
+         setting in the Django administration console.
+
    * - Request user's username
      - Sends the learner's username to the remote LTI tool. This is the
        username that the learner used to register for the course.
 
        An LTI component will only send learners' usernames if the **LTI Launch
        Target** control is set to **New Window**.
+
+       By default, this setting is not available in Studio.
+
+       .. only:: Partners
+
+         To make this setting available, contact your edX partner manager.
+
+       .. only:: Open_edX
+
+         To make this setting available in Studio, a system administrator must
+         enable the setting in the Django administration console.
