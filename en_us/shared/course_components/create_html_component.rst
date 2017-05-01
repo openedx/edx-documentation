@@ -514,7 +514,7 @@ example, if you want to create "beautiful math" such as the following.
 
 .. image:: ../../../shared/images/HTML_LaTeX_LMS.png
  :alt: An image of math formulas created with LaTeX in an HTML component.
- :width: 600
+ :width: 500
 
 .. warning::
  The LaTeX processor that Studio uses to convert LaTeX code to XML is a third-
@@ -548,14 +548,14 @@ contains LaTeX code.
 
    .. image:: ../../../shared/images/latex_component.png
     :alt: An image of the HTML component editor with the LaTeX compiler.
-    :width: 600
+    :width: 500
 
 #. In the component editor, select **Launch Latex Source Compiler**. The LaTeX
    editor opens.
 
    .. image:: ../../../shared/images/HTML_LaTeXEditor.png
     :alt: An image of the LaTeX editor.
-    :width: 600
+    :width: 500
 
 #. Write LaTeX code as needed. You can also upload a LaTeX file into the editor
    from your computer by selecting **Upload** in the bottom right corner.
@@ -567,7 +567,7 @@ contains LaTeX code.
 
    .. image:: ../../../shared/images/HTML_LaTeX_CompEditor.png
     :alt: An image of the compontent with LaTeX code.
-    :width: 600
+    :width: 500
 
 #. On the unit page, select **Preview** to verify that your content looks the
    way you want it to look in the LMS.

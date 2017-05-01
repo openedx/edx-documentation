@@ -29,7 +29,7 @@ To view this course data, follow these steps.
 
 #. View the live version of your course.
 
-#. Select **Instructor**, and then select **Course Info** if necessary.
+#. Select **Instructor**, and then select **Course Info**.
 
    The **Basic Course Information** section of the page that opens lists
    information about the course.

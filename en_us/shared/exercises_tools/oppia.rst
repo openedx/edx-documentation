@@ -39,7 +39,7 @@ LMS.
 
 .. image:: ../../../shared/images/oppia.png
   :alt: An Oppia exploration in the course.
-  :width: 800
+  :width: 500
 
 For information about how to create Oppia explorations, see the `Oppia User
 Documentation`_.

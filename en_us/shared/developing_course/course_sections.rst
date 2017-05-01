@@ -34,13 +34,16 @@ outline.
 The Learner View of a Section
 ******************************
 
-Learners see sections in the **Course** page. Learners can expand one
-section at a time to see its contents. In the following example, three sections
-are circled, and the third one is expanded to show its subsections.
+In the LMS, learners see section names in the course outline on the **Course**
+page, with subsections listed under the section name. Learners click
+subsection names to access the units in the selected
+:ref:`subsection<Developing Course Subsections>`.
+
+In the following example, two section names are indicated with a box outline.
 
 .. image:: ../../../shared/images/sections_student.png
- :width: 600
- :alt: The learner view of the course with three sections circled.
+ :alt: The learner view of the course outline, with two section titles
+       indicated with a box outline.
 
 .. _Sections and Visibility to Learners:
 
@@ -48,7 +51,7 @@ are circled, and the third one is expanded to show its subsections.
 Sections and Visibility to Learners
 ************************************************
 
-Learners cannot see any content in the section if the section's release date is
+Learners cannot see any content in a section if the section's release date is
 unscheduled or has not passed.
 
 If a section's release date has passed, learners can see content in the section

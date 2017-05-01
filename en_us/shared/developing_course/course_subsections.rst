@@ -35,13 +35,21 @@ the course outline.
 The Learner View of a Subsection
 *********************************
 
-Learners see subsections on the **Course** page, listed beneath the
-expanded section. In the following example, two subsections are circled, and
-the first one is open in the LMS.
+In the LMS, learners see clickable subsection names in the course outline on
+the **Course** page, listed under their containing :ref:`section<Developing
+Course Sections>`. Subsections that contain graded content (such as homework
+assignments or exams) are indicated with a text label and an icon.
+
+Learners click subsection names to access the units in the seleted subsection.
+
+In the following example, the subsections under two separate sections are
+indicated with outlines. Two of the highlighted subsections contain graded
+homework assignments, and have a "Homework" label and icon.
 
 .. image:: ../../../shared/images/subsections_student.png
  :width: 500
- :alt: The learner view of the outline.
+ :alt: The learner view of the course outline, with two groups of subsections
+       indicated with a box outline.
 
 ************************************************
 Subsections and Visibility to Learners
