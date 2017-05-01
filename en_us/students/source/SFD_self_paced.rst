@@ -41,8 +41,9 @@ the due date for the assignment.
 
 .. image:: ../../shared/students/Images/Pacing_Inst.png
  :width: 200
- :alt: Part of the course navigation pane in an instructor-paced course, with
-     due dates visible for homework.
+ :alt: Part of the course page in an instructor-paced course, with due dates
+    visible for graded homework assignments.
+
 
 In most instructor-paced courses, certificates are generated within two weeks
 of the end of the course.
@@ -65,8 +66,8 @@ own pace, as long as you complete all course work before the course ends.
 
 .. image:: ../../shared/students/Images/Pacing_Self.png
  :width: 200
- :alt: Part of the course navigation pane in a self-paced course, with no
-     homework due dates.
+ :alt: Part of the course page in a self-paced course, with no due dates
+    for graded homework assignments.
 
 In most self-paced courses, the course team generates certificates on a
 schedule, such as once a month. The certificate generation schedule varies by
