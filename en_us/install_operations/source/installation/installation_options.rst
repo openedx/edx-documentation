@@ -8,9 +8,10 @@ This section describes Open edX installation options and the components that
 each option includes. More details about the various options are at the
 `Open edX Installation Options`_ page on the edX wiki.
 
-There are a three virtual machine options, which install the Open edX
+There are three virtual machine options, which install the Open edX
 software in a virtual Ubuntu machine.  If you prefer, you can install into an
 Ubuntu machine of your own using the Native installation.
+
 
 .. contents::
  :local:
@@ -34,6 +35,13 @@ devstack**).
 * Analytics devstack is a modified version of the devstack virtual machine that
   allows you to run Open edX Analytics. For more information, see
   :ref:`Info Analytics Devstack`.
+
+The Open edX Ficus release is supported only on the Ubuntu 16.04 operating
+system. You can use the virtual machine installation options to run Fullstack in
+a Vagrant virtual machine running on Linux, Mac OS, or Windows systems, or to
+run Devstack or Analytics Devstack on Linux or Mac OS. See the `Vagrant`_
+downloads page for information about the operating systems and architectures on
+which you can run Vagrant.
 
 .. _Info Devstack:
 
