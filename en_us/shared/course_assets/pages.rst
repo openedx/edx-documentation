@@ -18,7 +18,7 @@ course.
 Working with the Default Pages
 *******************************
 
-By default, the system adds these pages to every new course.
+By default, every new course has the following pages.
 
 * Home
 * Course
@@ -30,7 +30,6 @@ In the LMS, learners see these options in the navigation bar at the top of
 every page.
 
 .. image:: ../../../shared/images/page_bar_lms_orig.png
- :width: 300
  :alt: The navigation bar in the LMS with all of the default pages.
 
 In addition, if you enable the :ref:`notes tool <Notes Tool>` for your course,
@@ -64,13 +63,12 @@ You can customize your course by adding pages. Each page that you add appears
 in the navigation bar for your course. When you add a page, you also add its
 content using an HTML editor.
 
-An example of the navigation bar for a course that includes a textbook named
-**Introduction to Music Theory** and custom pages for the **Course Schedule**
-and **Supplements** follows.
+The following example shows the navigation bar for a course that has added
+custom pages named **Syllabus** and **Extra Reading**.
 
 .. image:: ../../../shared/images/page_bar_lms.png
- :width: 800
- :alt:  ""
+ :alt: The navigation bar in the LMS with additional custom pages named
+     "Syllabus" and "Extra Reading".
 
 When you add a page, you can specify whether it and its content are visible
 only to course team members who have the Admin or Staff role, or to all
@@ -168,15 +166,15 @@ To hide or show the **Wiki** or **Progress** pages, follow these steps.
    page** icon.
 
    .. image:: ../../../shared/images/pages_wiki_on.png
-    :alt: The list of default course pages, with a show/hide icon for the Wiki
-      and Progress pages only.
+    :alt: The list of default course pages. Only the Wiki and Progress pages
+        have Show/Hide controls.
 
 #. Select the **Show/hide page** icon to hide a page. The icon changes to
    indicate that the page is hidden, as shown in this example.
 
-  .. image:: ../../../shared/images/pages_wiki_off.png
-   :alt: The default wiki page on the list of course pages, with the show/hide
-       icon indicating that the page is currently hidden.
+   .. image:: ../../../shared/images/pages_wiki_off.png
+    :alt: The Wiki page on the list of course pages, with the show/hide
+        icon indicating that the page is currently hidden.
 
 #. Select the **Show/hide page** icon again to make the page visible.
 

@@ -76,25 +76,39 @@ The content you see in the outline in Studio is displayed to learners in the
 **Course** page in the LMS. The following image shows how a learner sees
 your course content.
 
+#. Sections are listed in the course outline. Sections are not clickable in the
+   course outline.
+
+#. Subsections are listed in the course outline under their containing
+   sections. Learners select a subsection to jump to unit pages within that
+   subsection.
+
+   The learner's last visited subsection is indicated with a box outline and a
+   clickable **Resume Course** link. That link and the **Resume Course**
+   button at the top of the outline page both take learners to their last
+   visited unit page.
+
 .. image:: ../../../shared/images/Course_Outline_LMS.png
- :alt: Course content from learner's point of view.
+ :alt: Sections and subsections in the course outline in the LMS.
  :width: 600
 
-#. Sections are listed in the course navigation pane. Learners select a section
-   to see the subsections that it contains.
-
-#. Subsections are listed in the course navigation pane after a learner expands
-   a section.
-
-#. Units appear in the unit navigation bar, represented by icons, after
-   learners select a subsection. A tooltip with the unit's name appears when
-   learners move the pointer onto an icon.
+3. On unit pages within a subsection, units are shown in order in the unit
+   navigation bar. The type of content of each unit, such as a video, reading,
+   or assignment, is represented by an icon. A tooltip with the unit's name
+   appears when learners move the pointer onto an icon.
 
    Learners select icons in the unit navigation bar to access course units.
    They can also use the **Previous** and **Next** options at either end of
-   the unit navigation bar to move back to the previous unit or forward to the
-   next unit. The current unit is indicated with bold underlining in the unit
-   navigation bar.
+   the unit navigation bar and at the bottom or the page to move back to the
+   previous unit or forward to the next unit. The current unit is indicated
+   with bold underlining in the unit navigation bar.
+
+   From a unit page, learners can jump back to the full course outline by
+   clicking **Outline** in the breadcrumb trail above the unit navigation bar.
+
+.. image:: ../../../shared/images/Unit_Page_LMS.png
+ :alt: The unit navigation bar on a unit page in the LMS.
+ :width: 600
 
 As you develop your course, you can preview draft content from the learner's
 point of view. For more information, see :ref:`Testing Your Course Content`.

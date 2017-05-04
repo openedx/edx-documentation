@@ -131,13 +131,13 @@ extra time to complete a timed exam.
 
    .. image:: ../../../shared/images/inst_dash_special_exams.png
     :alt: The Allowance Section in the Instructor Dashboard.
-    :width: 300
+    :width: 550
 
 #. Select **Add Allowance**.
 
    .. image:: ../../../shared/images/new_allowance.png
     :alt: The Allowance Section in the Instructor Dashboard.
-    :width: 400
+    :width: 300
 
 #. Select the subsection that contains the timed exam.
 

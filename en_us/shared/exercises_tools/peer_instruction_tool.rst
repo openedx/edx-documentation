@@ -147,7 +147,7 @@ assignment.
 
    .. image:: ../../../shared/images/peer_instruction_studio.png
      :alt: A peer instruction assignment in Studio that uses the template.
-     :width: 600
+     :width: 500
 
 #. Select **Edit**.
 

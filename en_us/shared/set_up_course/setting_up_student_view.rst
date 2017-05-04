@@ -98,13 +98,7 @@ Adding Information to the Course About Page
 Describe Your Course
 *********************
 
-Learners see the description of your course on the course **About** page. For
-example, the course description is circled in the following course **About**
-page.
-
-.. image:: ../../../shared/images/about-page-course-description.png
- :alt: A course About page with the description circled.
- :width: 600
+Learners see a description of your course on the course **About** page, under the heading "About this course".
 
 .. only:: Partners
 

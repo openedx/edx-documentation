@@ -310,12 +310,12 @@ Bulk email tasks can have the following workflow states.
   can be in this state even if some or all of its emailing subtasks failed.
 * Failure: An error occurred and task processing did not complete successfully.
 
-While the bulk email task is in progress, you can find out how far it has
-gotten in the workflow by checking the **Pending Tasks** section on
-the **Email** page.
+While the bulk email task is in progress, you can find out what stage it has
+reached in the workflow by checking the **Pending Tasks** section on the
+**Email** page.
 
 .. image:: ../../../shared/images/Bulk_email_pending.png
-       :alt: Information about an email message, including who submitted it
+      :alt: Information about an email message, including who submitted it
              and when, in tabular format
 
 When the bulk email task is complete, you can find its final state by checking
@@ -337,17 +337,17 @@ message text.
 
 #. Select **Instructor**, and then select **Email**.
 
-#. In the **Email Task History** section of the page, select **Sent Email
+#. In the **Email Task History** section of the page, select **Show Sent Email
    History**. The list of sent messages displays.
 
-   .. image:: ../../../shared/images/Bulk_email_list.png
+.. image:: ../../../shared/images/Bulk_email_list.png
     :alt: A tabular list of sent messages, with columns for subject, sent by,
           time sent, and number sent.
 
-#. To review additional information for a message, select its subject. The
+#. To review additional information for a sent message, select its subject. The
    message opens in a dialog box.
 
-   .. image:: ../../../shared/images/Bulk_email_sent.png
+.. image:: ../../../shared/images/Bulk_email_sent.png
     :alt: A dialog box with the subject, sent by, date and time sent, sent to,
           and message for an email message, and an option to Copy Email
           to Editor.
@@ -367,9 +367,10 @@ Email Task History Report
 ********************************
 
 The Email Task History report can help you keep track of who sent messages,
-when, and to how many people. For each message sent, the report includes the
-username of the requester, the date and time it was submitted, the duration and
-state of the entire task, the task status, and the task progress.
+when, to which groups, and how many messages were successfully sent. For each
+message sent, the report includes the username of the requester, the date and
+time it was submitted, the duration and state of the entire task, the task
+status, and the task progress.
 
 You can use this history to investigate questions relating to bulk email
 messages that have been sent, such as these examples.
@@ -390,7 +391,6 @@ To produce the Email Task History report, follow these steps.
    dashboard.
 
 .. image:: ../../../shared/images/Bulk_email_history.png
-       :width: 800
        :alt: A tabular report with a row for each message sent and columns for
         requester, date and time submitted, duration, state, task status, and
         task progress.

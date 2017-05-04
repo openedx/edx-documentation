@@ -39,7 +39,7 @@ tool, follow these steps.
 .. only:: Partners
 
  For more information about the ways learners can use notes, see
- `ref:`learners:SFD Notes`.
+ :ref:`learners:SFD Notes`.
 
 .. only:: Open_edX
 

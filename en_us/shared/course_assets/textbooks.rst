@@ -4,25 +4,20 @@
 Textbooks
 ###########################
 
-You can add PDF textbooks to your course.
+You can add textbooks in PDF format to your course.
 
 .. note::
- Do not use image files (for example, .png files) as textbooks for your course,
- as they are not accessible to screen readers. For more information, review
- :ref:`Creating Accessible PDFs`.
+   Do not use image files (for example, .png files) as textbooks for your
+   course, because they are not accessible to learners who use screen readers.
+   For more information, review :ref:`Creating Accessible PDFs`.
 
 Each textbook that you add is displayed to learners as a page, or tab, in the
-course navigation bar.
-
-EdX recommends that you upload a separate PDF for each chapter of your
-textbook.
+course navigation bar. EdX recommends that you upload a separate PDF for each
+chapter of your textbook.
 
 When learners open the textbook page in the course, they can navigate
 the textbook by chapter.
 
-.. image:: ../../../shared/images/textbook_chapters.png
- :alt: Image of a textbook in a course.
- :width: 600
 
 *****************
 Add a Textbook

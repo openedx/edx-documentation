@@ -56,6 +56,9 @@ Create a Discussion Component
 #. Follow the guidelines in the editor to fill in the **Category**, the
    **Display Name**, and the **Subcategory** fields.
 
+   .. note:: Each **Category**/**Subcategory** pair for the discussion topics
+      in your course must be unique.
+
    .. image:: ../../../shared/images/DiscussionComponentEditor.png
     :alt: An image of the discussion component editor with a category of
      "Getting Graded" and a subcategory of "Answering More Than Once".
@@ -68,12 +71,9 @@ Create a Discussion Component
    accurately. If you delete the default display name and do not enter your own
    identifying name, the platform supplies "discussion" for you.
 
-   The values in the **Category** and **Subcategory** fields
-   are visible to learners in the list of discussion topics on the
-   **Discussion** page.
-
-   .. note:: Each **Category**/**Subcategory** pair for the discussion topics
-      in your course must be unique.
+   The values in the **Category** (1) and **Subcategory** (2) fields are
+   visible to learners in the list of discussion topics on the **Discussion**
+   page.
 
    .. image:: ../../../shared/images/Discussion_category_subcategory.png
     :alt: A list of discussions with the "Answering More Than Once" topic
@@ -93,25 +93,36 @@ Create a Discussion Component
 A Learner's View of the Discussion
 **********************************
 
-When you add a content-specific discussion topic to a unit, learners see only
-the **Show Discussion** and **New Post** options. EdX recommends that you add
-an HTML component before each discussion component to introduce the topic that
-you want learners to discuss.
+When you add a discussion component to a unit, in the LMS, learners see only
+the display name of the discussion component, the category and subcategory,
+and a **Show Discussion** option. EdX recommends that you add an HTML
+component before each discussion component where you add some text to
+introduce the discussion topic.
 
 In the following example, the discussion component follows video and HTML
 components.
 
 .. image:: ../../../shared/images/DiscussionComponent_LMS.png
-  :alt: A video component followed by a descriptive HTML component and then a
-      discussion component.
+  :alt: A video component followed by a descriptive HTML text component and then
+      a discussion component, as they appear in the LMS. The discussion is not
+      displayed until a learner clicks "Show Discussion".
   :width: 600
 
 Learners must select **Show Discussion** to expand the discussion space and
-read the contributions, or select **New Post** to post their own contributions.
+read the contributions, or select **Add a Post** to post their own contributions.
 
-On the **Discussion** page, learners can find the category and subcategory of
-the discussion in the discussion thread list.
+.. image:: ../../../shared/images/DiscussionComponentShown_LMS.png
+  :alt: A discussion component as it appears in the LMS after a learner has
+      clicked "Show Discussion". The "Add a Post" option becomes available.
+  :width: 600
+
+Content-specific topics that you add using discussion components are included
+on the course **Discussion** page in the same way as course-wide discussion
+topics as included. In the following example, the category (1) and the
+subcategory (2) of the discussion component is shown in the list of
+discussion topics.
 
 .. image:: ../../../shared/images/Discussion_category_subcategory.png
- :alt: The Discussion page from a learner's point of view.
+ :alt: The list of discussions on the Discussion page in the LMS, showing the
+     category and subcategory of a content-specific discussion topic.
  :width: 400

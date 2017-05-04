@@ -25,8 +25,7 @@ answers. If you need to ask multiple questions, use the :ref:`Survey Tool`.
 The following example poll has four possible answers to the question.
 
 .. image:: ../../../shared/images/poll_tool.png
-    :alt: A poll asking if the learner's favorite color is red, green, blue, or
-     other.
+    :alt: The poll component in Studio, showing the default example poll.
     :width: 400
 
 After learners submit their answers to the poll question, they see the poll
@@ -83,12 +82,12 @@ before you add the component.
 
 #. Under **Add New Component** click **Advanced**, and then select **Poll**.
 
-   The new component is added to the unit, with the default poll that contains
-   three answer fields.
+   The new component is added to the unit, with a default example poll that
+   contains several answer fields.
 
    .. image:: ../../../shared/images/poll_studio.png
     :alt: The poll component in Studio.
-    :width: 600
+    :width: 400
 
 #. In the new component, select **Edit**.
 

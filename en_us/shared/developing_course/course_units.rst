@@ -560,7 +560,7 @@ To delete a unit, follow these steps.
    .. image:: ../../../shared/images/unit-delete.png
     :alt: The Course Outline page with the Delete icons for several units
         circled.
-    :width: 500
+    :width: 300
 
 #. When you receive the confirmation prompt, select **Yes, delete this
    unit**.
