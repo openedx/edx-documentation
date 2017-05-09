@@ -22,6 +22,7 @@ Building and Running an Open edX Course
    grading/index
    releasing_course/index
    manage_live_course/index
+   manage_discussions/index
    student_progress/index
    rerun_course/index
    glossary
