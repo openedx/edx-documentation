@@ -1,7 +1,7 @@
 .. _Course Features Index:
 
 ###############################################
-Choosing Enhanced Capabilities For Your Course
+Using Enhanced Capabilities In Your Course
 ###############################################
 
 Use the topics in this section to learn about options for enhancing your course
@@ -14,6 +14,7 @@ see :ref:`Developing Your Course Index`.
    :maxdepth: 2
 
    cohorts/index
+   diff_content/index
    teams/index
    content_experiments/index
    timed_exams

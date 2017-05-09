@@ -50,7 +50,7 @@ For more information about using cohorts, see the following topics.
 * :ref:`Setting Up Discussions in Courses with Cohorts<Set up Discussions in
   Cohorted Courses>`
 
-* :ref:`Moderating Discussions for Cohorts`
+* :ref:`Managing Divided Discussion Topics`
 
 For information about discussions in general, see :ref:`Discussions`.
 
