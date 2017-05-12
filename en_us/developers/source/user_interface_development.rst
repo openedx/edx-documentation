@@ -433,7 +433,7 @@ If using RequireJS (as opposed to Webpack), follow these instructions to make
 sure the RequireJS Optimizer can optimize your modules.
 
 * Structure your page so that it has a single root factory file (see
-  :ref:`use_requirejs_to_manage_file_dependencies`).
+  :ref:`use_webpack_to_bundle_dependencies`).
 
   Be sure to use ``require_module`` to load the factory as described above.
 
