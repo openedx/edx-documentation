@@ -71,25 +71,25 @@ learners' grades.
 
 .. _Access_grades:
 
-***********************************************************
-Generate a Grade Report for Enrolled Learners (All Courses)
-***********************************************************
+****************************************************
+Generate a Grade Report for All Learners in a Course
+****************************************************
 
 For any course, you can generate grades and then download a file with the
-results for each enrolled learner.
+results for all learners in the course, including unenrolled learners.
 
 When you initiate calculations to grade learner work, a process starts on the
 edX servers. The complexity of your grading configuration and the number of
-learners enrolled in your course affect how long this process takes. You can
-download a report of the calculated grades in a comma-separated values (.csv)
-file when the grading process is complete.
+learners in your course affect how long this process takes. You can download a
+report of the calculated grades in a comma-separated values (.csv) file when
+the grading process is complete.
 
 For courses with fewer than 200 learners enrolled, you also have the option to
 review learner grades on the instructor dashboard. For more information, see
 :ref:`gradebook`.
 
-To generate and download the grade report for the learners who are currently
-enrolled in your course, follow these steps.
+To generate and download the grade report for the learners in your course,
+follow these steps.
 
 .. important:: Because the grade report file contains confidential, personally
    identifiable data, be sure to follow your institution's data stewardship
@@ -132,9 +132,9 @@ enrolled in your course, follow these steps.
 Interpreting the Grade Report
 =============================
 
-A grade report for your course is a time-stamped .csv file that identifies
-each enrolled learner by ID, email address, and username, and provides a
-snapshot of their cumulative course scores.
+A grade report for your course is a time-stamped .csv file that identifies each
+learner by ID, email address, and username, and provides a snapshot of their
+cumulative course scores.
 
 Scores in the grade report are presented by assignment. There is a column for
 every assignment that is included in your grading configuration: each
@@ -184,13 +184,13 @@ columns that provide the following information.
   that assignment type: for example, "Homework (Avg)". This column is not
   included if a particular assignment type has only one assignment.
 
-  This assignment type average takes both dropped assignments and the assignment
-  weight into account. For example, if the course includes five homework
-  assignments and the course grading policy allows one homework assignment with
-  the lowest score to be dropped, the homework assignment average in this grade
-  report is calculated over four homework assignments rather than five. This
-  average is then multiplied by the assignment weight to calculate the
-  assignment type average.
+  This assignment type average takes both dropped assignments and the
+  assignment weight into account. For example, if the course includes five
+  homework assignments and the course grading policy allows one homework
+  assignment with the lowest score to be dropped, the homework assignment
+  average in this grade report is calculated over four homework assignments
+  rather than five. This average is then multiplied by the assignment weight to
+  calculate the assignment type average.
 
 * If :ref:`cohorts<Cohorts Overview>` are used in the course, a **Cohort Name**
   column indicates the name of the cohort that each learner belongs to,
@@ -205,18 +205,18 @@ columns that provide the following information.
   have more than one experiment group configuration in your course, you see one
   column for each group configuration.
 
-* If :ref:`teams<CA_Teams_Overview>` are enabled in the course, a **Team
-  Name** column indicates the name of the team that each learner belongs to. The
+* If :ref:`teams<CA_Teams_Overview>` are enabled in the course, a **Team Name**
+  column indicates the name of the team that each learner belongs to. The
   column is empty for learners who have not joined a team.
 
 * The **Enrollment Track** column indicates whether each learner is enrolled in
   the course in the honor code, verified, or professional education track.
 
-* The **Verification Status** column indicates whether learners who are enrolled
-  in course tracks that require ID verification have successfully verified
-  their identities to edX by submitting an official photo ID via webcam. The
-  value in this column is "N/A" for learners enrolled in course tracks that do
-  not require ID verification, such as "Audit".
+* The **Verification Status** column indicates whether learners who are
+  enrolled in course tracks that require ID verification have successfully
+  verified their identities to edX by submitting an official photo ID via
+  webcam. The value in this column is "N/A" for learners enrolled in course
+  tracks that do not require ID verification, such as "Audit".
 
   A value of "Not ID Verified" in this column indicates that the learner is
   enrolled in a course mode that requires ID verification, such as "Verified",
@@ -244,9 +244,9 @@ columns that provide the following information.
 
 .. _problem_report:
 
-*******************************************************************
-Generate a Problem Grade Report for Enrolled Learners (All Courses)
-*******************************************************************
+************************************************************
+Generate a Problem Grade Report for All Learners in a Course
+************************************************************
 
 For any course, you can calculate grades for problems and generate a report
 that can be downloaded. The problem grade report for a course shows the number
@@ -254,8 +254,8 @@ of points that each learner has earned for each problem, and the number of
 possible points for every problem in the course. In addition, the
 report shows the final grade score for each learner.
 
-To generate and download the problem grade report for the learners who are
-currently enrolled in your course, follow these steps.
+To generate and download the problem grade report for all learners who have
+ever enrolled in your course, follow these steps.
 
 .. important:: Because the problem grade report file contains confidential,
    personally identifiable data, be sure to follow your institution's data
@@ -300,9 +300,8 @@ Interpreting the Problem Grade Report
 ======================================
 
 A problem grade report for your course is a time-stamped .csv file that
-identifies each enrolled learner by ID, email address, and username, and
-provides a snapshot of earned scores compared with the possible scores for
-each problem.
+identifies each learner by ID, email address, and username, and provides a
+snapshot of earned scores compared with the possible scores for each problem.
 
 The problem grade report includes two columns for every problem that is
 included in your grading configuration. For each homework, lab, midterm, or
@@ -340,9 +339,9 @@ provide the following information.
 
 .. _gradebook:
 
-********************************************************
-Review Grades for Enrolled Learners (Small Courses)
-********************************************************
+*************************************
+Review Learner Grades (Small Courses)
+*************************************
 
 For courses with enrollments of up to 200 learners, you can review a gradebook
 on the instructor dashboard. To review grades for a small course, follow these
@@ -351,7 +350,7 @@ steps.
 #. View the live version of your course.
 
 #. Select **Instructor**, and then select **Student Admin**. For courses with
-   fewer than 200 learners enrolled, this page includes a **View gradebook for
+   fewer than 200 learners, this page includes a **View gradebook for
    enrolled learners** section.
 
 #. Select **View Gradebook**. Grades are calculated and the gradebook displays.
