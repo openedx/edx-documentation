@@ -5,10 +5,14 @@ Enrollment
 ##########################
 
 Learners can enroll themselves in a course during its defined enrollment
-period. For a course running on `edx.org`_, enrollment is publicly available to
-anyone who registers an edX account. For other courses, such as those on
-`edx Edge`_, enrollment is limited to learners who know the course URL
-and learners you explicitly enroll.
+period.
+
+.. only:: Partners
+
+  For a course running on `edx.org`_, enrollment is publicly available to
+  anyone who registers an edX account. For other courses, such as those on
+  `edx Edge`_, enrollment is limited to learners who know the course URL
+  and learners you explicitly enroll.
 
 The course creator and course team members with the Staff and Admin roles can
 enroll learners in a course. These course team members can also unenroll
