@@ -325,7 +325,7 @@ Configure Acceptance Tests
 *********************************
 
 You configure acceptance tests by using the settings in the
-``ecommerce/e2e/config.py`` file. You can use the
+``e2e/config.py`` file. You can use the
 default values for most settings in this file. However, you must specify values
 for the following settings by using environment variables.
 
