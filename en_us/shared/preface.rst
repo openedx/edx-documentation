@@ -360,10 +360,6 @@ Documentation for developers is available on the `docs.edx.org`_ web page.
   analytics API to build applications to view and analyze learner activity in
   your course.
 
-* `edX Platform APIs`_ provide reference information for building applications
-  to view course information and videos and work with user and enrollment
-  data.
-
 .. note:: If you use the Safari browser, be aware that it does not support the
  search feature for the HTML versions of the edX guides. This is a known
  limitation.
@@ -451,10 +447,6 @@ is available.
 * `EdX Data Analytics API`_ provides reference information for using the data
   analytics API to build applications to view and analyze learner activity in
   your course.
-
-* `EdX Platform APIs`_ provide reference information for building applications
-  to view course information and videos and work with user and enrollment
-  data.
 
 .. note:: If you use the Safari browser, be aware that it does not support the
  search feature for the HTML versions of the edX guides. This is a known
