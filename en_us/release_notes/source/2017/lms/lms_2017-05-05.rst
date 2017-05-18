@@ -1,0 +1,2 @@
+We have updated the new course outline page to expose the course tools sidebar
+also rendered on the course home page today. (:jira:`LEARNER-368`)
