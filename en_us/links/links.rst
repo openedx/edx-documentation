@@ -277,6 +277,8 @@
 
 .. _default EC2 role for Amazon EMR: http://docs.aws.amazon.com/ElasticMapReduce/latest/DeveloperGuide/emr-iam-roles-defaultroles.html#emr-iam-roles-defaultec2
 
+.. _Default IAM Roles for Amazon EMR: http://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-iam-roles-defaultroles.html#emr-iam-roles-defaultec2
+
 .. _a single public subnet: http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Scenario1.html
 
 .. _example configuration scenario: http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Scenario2.html
