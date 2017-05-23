@@ -58,7 +58,7 @@ Identity and Access Management
 For Amazon Identity and Access Management (IAM), create an IAM role for use
 by the EMR cluster. Assign all of the Elastic Compute Cloud (EC2) nodes in
 the cluster to this role. An option is to consider copying the contents of the
-`default EC2 role for Amazon EMR`_ used by AWS. The command `aws emr create-default-roles` facilitates this task. For more info see [this](https://goo.gl/OW8f6I) link
+`default EC2 role for Amazon EMR`_ used by AWS. The command `aws emr create-default-roles` facilitates this task. For more info refer to [Default IAM Roles for Amazon EMR](http://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-iam-roles-defaultroles.html).
 
 Also, you need to create a role named `emr` with the policy `AmazonElasticMapReduceforEC2Role` for the EC2 instance profile.
 
