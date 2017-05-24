@@ -4,6 +4,10 @@
 Creating a Course in Publisher
 ###############################
 
+.. contents::
+  :local:
+  :depth: 1
+
 In Publisher, a course contains the following information. Most of this
 information is required before edX can publish an About page for your course.
 
@@ -160,7 +164,34 @@ To review the changes, make final changes, and mark the course as reviewed, foll
    * Open Publisher, go to the **Courses** page, and select the course that you
      want from the list.
 
-#. On the page for the course,
+   When the page for the course opens, the changes that the edX marketing team
+   has made are visible.
+
+#. Review the changes from the edX marketing team, and accept the changes or
+   make additional changes. Deletions are indicated in pink, and additions are
+   indicated in green.
+
+   * If you are satisfied with all of the changes, under **Revision History**,
+     select **Accept All**.
+
+   * If you want to see an earlier version of the course, under **Revision
+     History**, select the version that you want. You see that version together
+     with indicators of the changes that have been made.
+
+   * If you want to accept only some of changes or make additional changes,
+     under **Revision History**, select **Edit**.
+
+     When you select **Edit**, the **Edit Course** page opens. The changes that
+     edX marketing has made are still indicated by color.
+
+     #. Accept or reject changes. To do this, click anywhere inside the pink or
+        green indicator, and then select **Accept** or **Reject** at the top of
+        the text box. You can also select **Accept All** or **Reject All** to
+        accept or reject all the changes in that text box.
+     #. Make any additional changes that you want.
+     #. Select **Update Course**.
+
+
 
 .. _Pub Add a Comment to the Course:
 

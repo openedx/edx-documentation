@@ -37,7 +37,7 @@ To create and announce an edX course, the course team and the edX team complete
 the following process.
 
 .. image:: ../../../../shared/images/PubWkflowv2.png
- :width: 700
+ :width: 800
  :alt: A diagram showing the Publisher process, from the course team creating a
      course to the edX publisher publishing the About page.
 
@@ -68,7 +68,8 @@ create and edit a course run before, while, or after edX marketing reviews a
 course. However, the course team cannot send the course run to the edX PC for
 review before the course team finalizes the course.
 
-note:: When the course team creates a course run, the edX PC creates a Studio
+note::
+ When the course team creates a course run, the edX PC creates a Studio
  URL for the course run. When the Studio URL is ready, the course team can
  enter course content into Studio at any time.
 
