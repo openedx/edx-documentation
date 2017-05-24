@@ -12,6 +12,7 @@ see :ref:`Developing Your Course Index`.
 .. toctree::
    :maxdepth: 2
 
+   pub_create_ann_course/index
    creating_new_course
    licensing_course
    scheduling_course
