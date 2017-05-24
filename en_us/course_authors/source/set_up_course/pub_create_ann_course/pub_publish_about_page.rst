@@ -1,4 +1,4 @@
-.. _Publishing a Course Run in Publisher:
+.. _Publishing an About Page in Publisher:
 
 #####################################
 Publishing an About Page in Publisher

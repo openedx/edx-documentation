@@ -67,7 +67,7 @@ Create a Course`.
 .. note::
   If you select **I want to add a run to this course at this time**, the page
   for a course run of this course opens when you select **Create New Course**.
-  For more information, see :ref:`Pub Create and Edit a Course Run`.
+  For more information, see :ref:`Creating a Course Run in Publisher`.
 
 .. _Pub Edit a Course:
 
