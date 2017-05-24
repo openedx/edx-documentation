@@ -8,36 +8,41 @@ Creating a Course in Publisher
   :local:
   :depth: 1
 
-In Publisher, a course contains the following information. Most of this
-information is required before edX can publish an About page for your course.
+In Publisher, a course contains the following **required** information.
 
-* Organization
-* Course Team Admin
-* Course Title
-* Course Number
-* Short Description
-* Long Description
-* Expected Learning
-* Primary Subject
-* Additional Subject
-* Course Image
+.. note::
+ Course information remains true for every run of the course. Course run
+ information changes each time the course is run.
+
+* Course title
+* Course number
+* Short and long description
+* What learners will learn
+* Primary subject
+* Course image
 * Prerequisites
-* Course Level
-* Learner testimonials (optional)
-* FAQ (optional)
-* Syllabus (optional)
-* About video link (optional)
+* Course level
+
+Additionally, a course in Publisher contains the following **optional** information.
+
+* Additional subjects
+* Learner testimonials
+* FAQ
+* Syllabus
+* Link to the course About video
 
 The process of creating a course in Publisher includes the following steps.
 
-#. :ref:`The course team creates the course <Pub Create a Course>`. In this step, the course team provides
-   only a small amount of information.
-#. :ref:`The course team edits the course <Pub Edit a Course>`, adding all required information.
-#. :ref:`The course team sends the course to the edX marketing team <Pub Send a Course for SEO Review>` for search engine
-   optimization (SEO) review.
-#. The edX marketing team reviews the course, then sends the course to the
+#. :ref:`The course team creates the course <Pub Create a Course>`. In this
+   step, the course team provides only a small amount of information.
+#. :ref:`The course team edits the course <Pub Edit a Course>`, adding all
+   required information.
+#. :ref:`The course team sends the course to the edX marketing team <Pub Send a
+   Course for SEO Review>` for search engine optimization (SEO) review.
+#. The edX marketing team reviews the course, then returns the course to the
    course team with any feedback in tracked changes.
-#. :ref:`The course team reviews the edX marketing feedback and finalizes the course <Pub Review Changes and Finalize the Course>`.
+#. :ref:`The course team reviews the edX marketing feedback and finalizes the
+   course <Pub Review Changes and Finalize the Course>`.
 
 
 .. _Pub Create a Course:
@@ -51,7 +56,8 @@ To create a course in Publisher, follow these steps.
 #. To open Publisher, go to https://edx.org/publisher.
 #. On the dashboard, select **Add a New Course**.
 
-   Alternatively, select **Courses**, and then select **Create New Course** on the **Courses** page.
+   Alternatively, select **Courses**, and then select **Create New Course** on
+   the **Courses** page.
 #. On the **Create New Course** page, enter the following information.
    * The name of the course administrator for your organization.
    * The course title.
@@ -152,11 +158,15 @@ open Publisher to go to the course page and review any changes.
 Review Changes and Finalize the Course
 **************************************
 
-When SEO is complete, you can review the changes and feedback from the edX marketing team, make final changes, and mark the course as reviewed.
+When SEO is complete, you can review the changes and feedback from the edX
+marketing team, make final changes, and mark the course as reviewed.
 
-Changes that the edX marketing team has made are color coded. Additions are highlighted in green, and deletions are highlighted in red. You can accept or reject the changes. You can also make any additional changes that you want.
+Changes that the edX marketing team has made are color coded. Additions are
+highlighted in green, and deletions are highlighted in red. You can accept or
+reject the changes. You can also make any additional changes that you want.
 
-To review the changes, make final changes, and mark the course as reviewed, follow these steps.
+To review the changes, make final changes, and mark the course as reviewed,
+follow these steps.
 
 #. Use one of the following methods to open the course page.
 
@@ -191,6 +201,15 @@ To review the changes, make final changes, and mark the course as reviewed, foll
      #. Make any additional changes that you want.
      #. Select **Update Course**.
 
+#. After you have made all the changes that you want to make, and you are
+   satisfied with the information on the course page, you finalize the course.
+   To do this, under **Reviews**, select **Mark as Reviewed**.
+
+   The status changes to **Reviewed**.
+
+After you have finalized the course, you can create a course run or send a
+previously created course run for review. For more information, see :ref:`Pub
+Create a Course Run` or :ref:`Pub Send a Course Run for Review`.
 
 
 .. _Pub Add a Comment to the Course:
@@ -198,5 +217,20 @@ To review the changes, make final changes, and mark the course as reviewed, foll
 ***************************
 Add a Comment to the Course
 ***************************
+
+You and other Publisher users can add a comment to a course at any time. When
+you add a comment, Publisher sends an email notification that includes the
+comment to the PC for the course.
+
+To add a comment to a course, follow these steps.
+
+#. To open Publisher, go to https://edx.org/publisher.
+#. In Publisher, go to the **Courses** page, and select the course that you
+   want from the list.
+#. On the page for the course, enter your text in the **Comment** field, and
+   then select **Add comment**.
+
+
+
 
 

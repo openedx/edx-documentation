@@ -68,10 +68,48 @@ create and edit a course run before, while, or after edX marketing reviews a
 course. However, the course team cannot send the course run to the edX PC for
 review before the course team finalizes the course.
 
-note::
+.. note::
  When the course team creates a course run, the edX PC creates a Studio
  URL for the course run. When the Studio URL is ready, the course team can
  enter course content into Studio at any time.
 
 
+****************************
+Change the Course Team Admin
+****************************
+
+On the course team, only the user who is listed as the course team admin can
+edit the course. Other members of the course team can view the course, but
+cannot edit the course. You can change the course team admin at any time.
+
+To change the course team admin, follow these steps.
+
+#. To open Publisher, go to https://edx.org/publisher.
+#. In Publisher, go to the **Courses** page, and select the course that you
+   want from the list.
+#. On the page for the course, locate **Course Team** under **Reviews**.
+#. Next to the name of the current course team admin, select **Change**.
+#. In the list, select the name of the new course team admin.
+#. Select **Change**.
+
+
+
+On the course team, only the user who is listed as the course team admin can
+edit the course. Other members of the course team can view the course, but
+cannot edit the course. You can change the course team admin at any time.
+
+To change the course team admin, follow these steps.
+
+#. Use one of the following methods to open the page for the course run.
+
+   * On the dashboard, select the **In Development** tab, and then select the
+     course run that you want. You can identify the course run by the start
+     date.
+   * On the **Courses** page, select the course that you want. When the page
+     for the course opens, under **Course Runs**, select the course run.
+
+#. On the page for the course run, locate **Course Team** under **Reviews**.
+#. Next to the name of the current course team admin, select **Change**.
+#. In the list, select the name of the new course team admin.
+#. Select **Change**.
 
