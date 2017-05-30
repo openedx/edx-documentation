@@ -1,25 +1,62 @@
-.. _Publishing an About Page in Publisher:
+.. _Pub Publishing an About Page in Publisher:
 
 #####################################
 Publishing an About Page in Publisher
 #####################################
 
+.. contents::
+  :local:
+  :depth: 1
+
 After the course team has :ref:`finalized the course run <Pub Finalize a Course
-Run>`, the edX publisher creates a preview of the course run About page. The
-course team reviews the About page preview and accepts or declines the preview.
+Run>`, the About page for the course run is almost ready to be published on
+edx.org. The process of publishing an About page in Publisher includes the
+following steps.
 
-* If the course team accepts the preview, the edX publisher publishes the About
-  page on edx.org.
+#. The course team :ref:`verifies that all necessary information has been
+   entered in Studio <Pub Verify Studio Information>`.
+#. The edX publisher creates a preview of the About page and sends the preview
+   to the course team.
+#. The course team :ref:`accepts or declines the preview <Pub Accept or Decline
+   the Preview>`. If the course team declines the preview, the course team
+   works with edX until the course team accepts the preview.
+#. The edX publisher publishes the About page on edx.org.
 
-* If the course team declines the preview, the course team works with the edX
-  PC to make any necessary changes. The edX publisher then creates a new About
-  page preview for the course team to review.
+.. _Pub Verify Studio Information:
+
+*************************
+Verify Studio Information
+*************************
+
+Before the About page for this course run can be published, the course team
+must verify that following information for the course run has been entered in
+Studio.
+
+* The course run start and end date.
+* The course card image.
+* Names, titles, and signature images for all certificate signatories.
+
+.. _Pub Accept or Decline the Preview:
+
+****************************************
+Accept or Decline the About Page Preview
+****************************************
+
+After the course and course run have been finalized and all Studio information
+has been entered, the edX publisher creates a preview for the About page for
+the course run.
+
+When the edX publisher creates a preview for an About page, a link to the About
+page preview becomes available on the course run page. Additionally, the
+Publisher tool sends an email notification to the course team with a link to
+the course run page. The course team can then review, and accept or decline,
+the preview.
 
 To accept or decline an About page preview, follow these steps.
 
 #. Use one of the following methods to open the About page preview.
 
-   * Select the link in the email message.
+   * Select the link in the email message. (?)
    * Open the preview from the dashboard.
 
      #. On the **Dashboard** page, select the **In Preview** tab.
@@ -36,17 +73,31 @@ To accept or decline an About page preview, follow these steps.
 #. Review the About page preview carefully.
 #. Accept or decline the preview.
 
-   * To accept the preview, return to the page for the course run, and then select **Accept**.
-   * To decline the preview,
+   * To accept the preview, return to the page for the course run, and then
+     select **Accept**.
+   * To decline the preview, follow these steps.
 
      #. Return to the page for the course run, and then select **Decline**.
-     #. In the **Reason for declining preview** field, enter a comment, and then select **Submit**.
+     #. In the **Reason for declining preview** field, enter a comment, and
+        then select **Submit**.
+
+   If the course team declines the preview, the course team works with the edX
+   PC to make any necessary changes. The edX publisher then creates a new About
+   page preview for the course team to review.
 
 
-Publish Course Run
+.. _Pub View the Published About Page:
 
-Before the About page for this course run can be published, the following information for the course run must be entered in Studio.
+*****************************
+View the Published About Page
+*****************************
 
-The course run start and end date.
-The course card image.
-Names, titles, and signature images for all certificate signatories.
+After the course team has accepted the About page preview for a course run, the
+edX publisher publishes the About page on edx.org.
+
+When the edX publisher publishes the About page on edx.org, a link to the About
+page becomes available on the course run page. Additionally, the Publisher tool
+sends an email notification to the course team with a link to the About page.
+The course team can use either of these links to view the published About page.
+
+

@@ -41,14 +41,14 @@ the following process.
  :alt: A diagram showing the Publisher process, from the course team creating a
      course to the edX publisher publishing the About page.
 
-#. :ref:`Create the course <Creating a Course in Publisher>`.
+#. :ref:`Create the course <Pub Creating a Course in Publisher>`.
 
    #. The course team creates a course.
    #. The edX marketing team reviews the course for search engine optimization
       (SEO).
    #. The course team finalizes the course.
 
-#. :ref:`Create the course run <Creating a Course Run in Publisher>`.
+#. :ref:`Create the course run <Pub Creating a Course Run in Publisher>`.
 
    #. The course team creates a course run for the course.
    #. The edX PC creates a Studio URL for the course run.
@@ -57,7 +57,7 @@ the following process.
    #. The edX PC reviews the course run.
    #. The course team finalizes the course run.
 
-#. :ref:`Publish the About page <Publishing an About Page in Publisher>`.
+#. :ref:`Publish the About page <Pub Publishing an About Page in Publisher>`.
 
    #. The edX publisher creates a preview of the About page for the course run.
    #. The course team reviews the About page preview.

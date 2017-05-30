@@ -1,8 +1,8 @@
-.. _Creating a Course in Publisher:
+.. _Pub Creating a Course in Publisher:
 
-###############################
+##############################
 Creating a Course in Publisher
-###############################
+##############################
 
 .. contents::
   :local:
@@ -22,28 +22,28 @@ In Publisher, a course contains the following **required** information.
 * Course image
 * Prerequisites
 * Course level
+* Link to the course About video
 
-Additionally, a course in Publisher contains the following **optional** information.
+Additionally, a course in Publisher contains the following **optional**
+information.
 
 * Additional subjects
 * Learner testimonials
 * FAQ
 * Syllabus
-* Link to the course About video
 
 The process of creating a course in Publisher includes the following steps.
 
 #. :ref:`The course team creates the course <Pub Create a Course>`. In this
-   step, the course team provides only a small amount of information.
+   step, the course team provides only basic information about the course, and
+   Publisher creates a page for the course.
 #. :ref:`The course team edits the course <Pub Edit a Course>`, adding all
-   required information.
+   required information on the page for the course.
 #. :ref:`The course team sends the course to the edX marketing team <Pub Send a
    Course for SEO Review>` for search engine optimization (SEO) review.
-#. The edX marketing team reviews the course, then returns the course to the
-   course team with any feedback in tracked changes.
-#. :ref:`The course team reviews the edX marketing feedback and finalizes the
-   course <Pub Review Changes and Finalize the Course>`.
-
+#. After the edX marketing team reviews the course, :ref:`the course team
+   reviews the edX marketing feedback and finalizes the course <Pub Review
+   Changes and Finalize the Course>`.
 
 .. _Pub Create a Course:
 
@@ -54,36 +54,52 @@ Create a Course
 To create a course in Publisher, follow these steps.
 
 #. To open Publisher, go to https://edx.org/publisher.
-#. On the dashboard, select **Add a New Course**.
+#. Use one of the following methods to create a new course.
 
-   Alternatively, select **Courses**, and then select **Create New Course** on
-   the **Courses** page.
+   * On the dashboard, select **Add a New Course**.
+   * On the **Courses** page, select **Courses**, and then select **Create New
+     Course**.
+
 #. On the **Create New Course** page, enter the following information.
+
    * The name of the course administrator for your organization.
    * The course title.
    * The course number.
-#. (optional) If you want to create a new course run immediately when you
-   create the course, select **I want to add a run to this course at this
-   time**. When you create the course run, the edX project coordinator (PC)
-   creates a Studio URL for the course run.
+
+#. Select the action that you want to take after you create a course.
+
+   * If you want to create a new course run immediately after you create the
+     course, select **I want to add a run to this course at this time**.
+
+   * If you want to add more course information immediately after you create
+     the course, leave this option blank.
+
 #. Select **Create New Course**.
 
-The page for your course opens, listing the course information you have entered
-and the additional course information that is required for edX to create an
-About page. You can edit your course information at any time before you send
-the course to edX marketing for review. For more information, see :ref:`Pub
-Create a Course`.
+   If you did not select the **I want to add a run to this course at this
+   time** option, the page for your course opens. This page lists the course
+   information that you have entered and the additional course information that
+   is required for edX to create an About page. You can edit course information
+   at any time before you send the course to edX marketing for review. For more
+   information, see :ref:`Pub Edit a Course`.
 
-.. note::
-  If you select **I want to add a run to this course at this time**, the page
-  for a course run of this course opens when you select **Create New Course**.
-  For more information, see :ref:`Creating a Course Run in Publisher`.
+   If you selected **I want to add a run to this course at this time**, the
+   page for a course run of this course opens when you select **Create New
+   Course**. On this page, you enter basic information about a course run.
+   After you create the course run, the edX PC creates a Studio URL for the
+   course. For more information, see :ref:`Pub Creating a Course Run in
+   Publisher`.
+
 
 .. _Pub Edit a Course:
 
 *************
 Edit a Course
 *************
+
+At the top of the course page, "breadcrumbs" are visible that list the name of
+the course. For example, the breadcrumbs may be ``Courses > Creating an edX
+Course``.
 
 You can edit your course at any time. However, keep the following guidelines in
 mind.
@@ -199,7 +215,8 @@ follow these steps.
         the text box. You can also select **Accept All** or **Reject All** to
         accept or reject all the changes in that text box.
      #. Make any additional changes that you want.
-     #. Select **Update Course**.
+
+#. Select **Update Course**.
 
 #. After you have made all the changes that you want to make, and you are
    satisfied with the information on the course page, you finalize the course.
@@ -219,8 +236,9 @@ Add a Comment to the Course
 ***************************
 
 You and other Publisher users can add a comment to a course at any time. When
-you add a comment, Publisher sends an email notification that includes the
-comment to the PC for the course.
+you add a comment, the comment is visible to anyone who views the course page.
+Additionally, Publisher sends an email notification that includes the comment
+to the PC for the course.
 
 To add a comment to a course, follow these steps.
 
