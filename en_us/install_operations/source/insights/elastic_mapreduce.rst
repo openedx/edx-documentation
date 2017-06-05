@@ -58,7 +58,12 @@ Identity and Access Management
 For Amazon Identity and Access Management (IAM), create an IAM role for use
 by the EMR cluster. Assign all of the Elastic Compute Cloud (EC2) nodes in
 the cluster to this role. An option is to consider copying the contents of the
-`default EC2 role for Amazon EMR`_ used by AWS.
+default EC2 role for Amazon EMR used by AWS. The command ``aws emr
+create-default-roles`` facilitates this task. For more information refer to
+`Default IAM Roles for Amazon EMR`_.
+
+Also, you need to create a role named ``emr`` with the policy
+``AmazonElasticMapReduceforEC2Role`` for the EC2 instance profile.
 
 Make sure that an IAM user with administrative privileges is available for use.
 
@@ -107,17 +112,17 @@ Users
 
 Create at least the following two users on the RDS instance.
 
-* The "pipeline" user must have permission to create databases, tables, and
+* The ``pipeline`` user must have permission to create databases, tables, and
   indexes, and issue arbitrary Data Manipulation Language (DML) commands.
 
-* The "api" user must have read-only access.
+* The ``api`` user must have read-only access.
 
 Configure passwords for both of these users.
 
 Other Considerations
 *********************
 
-Configure the RDS instance to use "utf8_bin" collation by default for
+Configure the RDS instance to use ``utf8_bin`` collation by default for
 columns in all databases and tables.
 
 ==================================
@@ -235,7 +240,7 @@ Then, save this file to a temporary location such as ``/tmp/cluster.yml``.
                 # You might want to set this to CANCEL_AND_WAIT while debugging step failures.
                 action_on_failure: TERMINATE_JOB_FLOW
               }
-            ],            
+            ],
             configurations: [
               {
                 classification: mapred-site,
@@ -262,7 +267,7 @@ You might find you need to update Hadoop instance types and container
 sizes.  In particular, if you encounter jobs that are running out of
 physical memory, you might want to choose a larger instance.  If your
 instance is a good size but being underutilized, you might want to
-explicitly define larger values in the "mapred-site" configuration
+explicitly define larger values in the ``mapred-site`` configuration
 than would be provided by default in the instance size you are
 using. Here is an example of settings we use with an m3.2xlarge
 instance type.
