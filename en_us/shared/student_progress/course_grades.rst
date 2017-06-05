@@ -242,8 +242,8 @@ columns that provide the following information.
   eligible for a certificate, or if the certificates for a course have not yet
   been generated, the value in this column is "N/A".
 
-* The **Enrollment Status** column indicates whether the learner is enrolled
-  or unenrolled in the course.
+* The **Enrollment Status** column indicates whether the learner is currently
+  enrolled or unenrolled in the course.
 
 .. _problem_report:
 
