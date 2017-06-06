@@ -327,16 +327,18 @@ By default, when learners submit answers to problems, they immediately receive
 the results of the problem: whether they answered the problem correctly, as
 well as their scores. However, you might want to temporarily hide problem
 results from learners when you run an exam, or permanently hide results when
-you administer a survey. You can do this by using the **Results Visibility**
-setting.
+you administer a survey. You can do this by using the **Assessment Results
+Visibility** setting.
 
 .. note::
- The **Results Visibility** setting is a subsection setting. You cannot change
- the visibility of individual problems. The **Results Visibility**
- subsection setting overrides the **Show Answer** setting for individual
- problems. Answers to problems are not visible when results are hidden.
+ The **Assessment Results Visibility** setting is a subsection setting. You
+ cannot change the visibility of individual problems. The **Assessment Results
+ Visibility** subsection setting overrides the **Show Answer** setting for
+ individual problems. Answers to problems are not visible when results are
+ hidden.
 
-The **Results Visibility** setting affects the following common problem types.
+The **Assessment Results Visibility** setting affects the following common problem
+types.
 
 * :ref:`Checkbox`
 * :ref:`Dropdown`
@@ -344,7 +346,7 @@ The **Results Visibility** setting affects the following common problem types.
 * :ref:`Numerical Input`
 * :ref:`Text Input`
 
-The **Results Visibility** setting affects the following advanced problem
+The **Assessment Results Visibility** setting affects the following advanced problem
 types.
 
 * :ref:`Annotation`
@@ -363,18 +365,19 @@ To change the results visibility for your subsection, follow these steps.
 
    The **Settings** dialog box opens.
 
-#. Select the **Visibility** tab, and locate **Results Visibility**.
+#. Select the **Visibility** tab, and locate **Assessment Results Visibility**.
 
 #. Select one of the available options.
 
-   * **Always show results**: This is the default setting. Results are visible
-     immediately when learners and staff submit answers.
-   * **Never show results**: Results are never visible to learners or to course
-     staff.
-   * **Show results when subsection is past due**: For learners, results are
-     not visible until the subsection due date (for instructor-paced courses)
-     or the course end date (for self-paced courses) has passed. For course
-     staff, results are always visible unless the staff member is
+   * **Always show assessment results**: This is the default setting. Problem
+     results and subsection scores are visible immediately when learners and
+     staff submit answers.
+   * **Never show assessment results**: Problem results are never visible to
+     learners or to course staff. Subsection scores are visible.
+   * **Show assessment results when subsection is past due**: For learners,
+     results are not visible until the subsection due date (for instructor-paced
+     courses) or the course end date (for self-paced courses) has passed. For
+     course staff, results are always visible unless the staff member is
      :ref:`previewing or viewing the course as a learner<Roles for
      Viewing Course Content>` .
 
