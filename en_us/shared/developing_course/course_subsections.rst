@@ -372,14 +372,14 @@ To change the results visibility for your subsection, follow these steps.
    * **Always show assessment results**: This is the default setting. Problem
      results and subsection scores are visible immediately when learners and
      staff submit answers.
-   * **Never show assessment results**: Problem results are never visible to
-     learners or to course staff. Subsection scores are visible.
+   * **Never show assessment results**: Subsection scores are visible, but
+     problem results are never visible either to learners or to course staff.
    * **Show assessment results when subsection is past due**: For learners,
      results are not visible until the subsection due date (for instructor-paced
      courses) or the course end date (for self-paced courses) has passed. For
      course staff, results are always visible unless the staff member is
      :ref:`previewing or viewing the course as a learner<Roles for
-     Viewing Course Content>` .
+     Viewing Course Content>`.
 
      .. note::
       If the subsection does not have a due date, or the course does not have
