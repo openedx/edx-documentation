@@ -158,7 +158,7 @@ experiments<Overview of Content Experiments>`, or
 indicating the name of the cohort, experiment group, or team that each learner
 belongs to.
 
-.. image:: ../../../shared/images/Grade_Report.png
+.. image:: ../../../shared/images/Grade-Report-with-enroll-status.png
   :alt: A course grade report, opened in Excel, showing the grades achieved by
         learners on several homework assignments and the midterm.
 
@@ -241,6 +241,9 @@ columns that provide the following information.
   learner is eligible for, such as "honor" or "verified". If a learner is not
   eligible for a certificate, or if the certificates for a course have not yet
   been generated, the value in this column is "N/A".
+
+* The **Enrollment Status** column indicates whether the learner is currently
+  enrolled or unenrolled in the course.
 
 .. _problem_report:
 
