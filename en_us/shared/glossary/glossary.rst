@@ -384,8 +384,8 @@ E
 
 **enrollment track**
 
-  Also called **course mode**, **course track**, **enrollment mode**, or
-  **seat type**.
+  Also called **course mode**, **course track**, **course type**, **enrollment
+  mode**, or **seat type**.
 
   The enrollment track specifies the following items about a course.
 
