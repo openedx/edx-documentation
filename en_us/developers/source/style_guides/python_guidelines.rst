@@ -181,17 +181,10 @@ Most of our code is written using an older style::
 
         """
 
-If you only have a single line in your docstring, first, consider that this is almost certainly not enough documentation, and write some more.  But if you do have just one line, format it similarly to a multi-line docstring::
+If you only have a single line in your docstring, first, consider that this is almost certainly not enough documentation, and write some more.  But if you do have just one line, place it on a single line.::
 
     def foo(a, b):
-        """
-        Computes the foo of a and b.
-        """
-
-Not like this::
-
-    def foo(a, b):
-        """Computes the foo of a and b.""" # NO NO NO
+        """Computes the foo of a and b."""
 
 We intentionally stray from `PEP 257`_ in this case.  The formatting
 inconsistency between single and multi-line docstrings can result in merge
