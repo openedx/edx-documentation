@@ -91,10 +91,13 @@ PEP 8 recommends a most-general to most-specific import order, which means this 
 
 * Standard library imports
 * Third Party Library imports
-* Core Django imports
-* Third party Django app imports
-* Other edX repo imports
 * Local imports
+
+Each group of imports should be alphabetized, and a single blank line should
+be used to separate groups.
+
+Note: most Open edX repositories use the `isort`_ library which will
+automatically order imports to follow PEP8.
 
 *******************************
 Pylint Guidelines and Practices
@@ -210,6 +213,7 @@ References
 * http://google-styleguide.googlecode.com/svn/trunk/pyguide.html
 * http://www.nilunder.com/blog/2013/08/03/pythonic-sensibilities/
 
+.. _isort: https://github.com/timothycrosley/isort
 .. _PEP 8: http://www.python.org/dev/peps/pep-0008/
 .. _PEP 257: http://www.python.org/dev/peps/pep-0257/
 
