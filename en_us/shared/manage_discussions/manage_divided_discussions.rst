@@ -130,8 +130,7 @@ discussion topic, the topic names indicate who can see the posts, responses,
 and comments.
 
 For more information about adding and configuring course-wide discussion
-topics, see :ref:`Create CourseWide Discussion Topics` and :ref:`Specify
-Whether CourseWide Discussion Topics are Cohorted`.
+topics, see :ref:`Create CourseWide Discussion Topics` and :ref:`Specify Which Course Wide Discussion Topics are Divided`.
 
 
 .. _Choosing the Visibility of a Post:

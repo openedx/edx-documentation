@@ -46,17 +46,8 @@ configuration steps (as applicable).
 3. Optionally, identify the discussion topics that you want to be divided by
    cohort.
 
-  * Course-wide discussion topics are unified by default, but you can specify
-    that they are :ref:`divided by cohort<Specify Whether CourseWide Discussion
-    Topics are Cohorted>`.
-
-  * Content-specific discussion topics are divided by cohort by default. You do
-    not need to take any action if you want :ref:`all content-specific
-    discussions<Specify that All ContentSpecific Discussion Topics are
-    Cohorted>` to be divided by cohort. You only need to change settings if you
-    want to make :ref:`only a few discussion topics divided by cohort<Specify
-    Some ContentSpecific Discussion Topics as Cohorted>` and make the remaining
-    topics unified.
+   For information about divided discussions, see :ref:`About Divided
+   Discussions`.
 
 You complete these procedures on the **Cohorts** tab on the Instructor
 Dashboard.
@@ -175,7 +166,7 @@ add a cohort to your course, follow these steps.
    .. note::
     Learners can see the name of the cohort they are assigned to. The message
     "This post is visible only to {cohort name}" appears with each post in
-    discussion topics that are divided by cohort. See :ref:`Read the Cohort
+    discussion topics that are divided by cohort. See :ref:`Read the Group
     Indicator in Posts`.
 
 #. Specify whether learners are automatically or manually assigned to this
