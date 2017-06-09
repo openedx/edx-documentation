@@ -44,7 +44,7 @@ For information about creating discussions in which learners in a group such as
 a cohort or in a particular enrollment track only interact with posts from other
 learners in the same group, see :ref:`About Divided Discussions`. For
 information about moderating course discussions that are divided, see
-:ref:`Moderating Discussions for Cohorts`.
+:ref:`Managing Divided Discussion Topics`.
 
 .. _Overview_discussions:
 
@@ -75,9 +75,8 @@ of the course history.
 
 All course team members and enrolled learners can add posts, responses, and
 comments, and they can also view posts, responses, and comments made by other
-course participants. For information about cohorts and how members of cohorts
-interact in course discussions, see :ref:`Coursewide Discussion Topics and
-Cohorts` and see :ref:`Content Specific Discussion Topics and Cohorts`.
+course participants. For information about divided discussions, see :ref:`About
+Divided Discussions` and :ref:`Managing Divided Discussion Topics`.
 
 Members of the course community, learners as well as the course team, can be
 given permission to moderate or administer course discussions through a set of
@@ -232,10 +231,10 @@ Discussion list now includes the topic you added.
   :alt: A new topic named Course Q&A in the list of discussion topics.
 
 .. note:: In courses that use cohorts, the course-wide discussion topics that
-   you add are unified. All posts can be read and responded to by every
-   learner, regardless of the cohort that they belong to. You can optionally
-   configure these topics to be divided by cohort. For more information, see
-   :ref:`Coursewide Discussion Topics and Cohorts`.
+   you add are unified. All posts can be read and responded to by every learner,
+   regardless of the cohort that they belong to. You can optionally configure
+   these topics to be divided by cohort. For more information, see :ref:
+   `Specify Which Course Wide Discussion Topics are Divided`.
 
 .. _Create ContentSpecific Discussion Topics:
 
@@ -258,13 +257,13 @@ content.
 For information about the visibility of content-specific discussion
 topics, see :ref:`Visibility of Discussion Topics`.
 
-.. note:: In courses with cohorts enabled, all content-specific discussion
-   topics are divided by cohort when you first add them. Posts by learners to
-   divided discussion topics can only be read and responded to by members of
-   the same cohort and course team members who have a discussion administration
-   role. You can change the configuration of content-specific discussion topics
-   to make them unified and available to all learners in the course. For more
-   information, see :ref:`Content Specific Discussion Topics and Cohorts`.
+
+.. note:: In courses with cohorts enabled, when you add discussion components to
+   units in Studio, these discussion topics are by default unified. All learners
+   in the course can see and respond to posts from all other learners. You can
+   change content-specific discussion topics to be divided, so that only members
+   of the same group can see and respond to each other's posts. For information,
+   see :ref:`Content Specific Discussion Topics and Groups`.
 
 
 .. _Assigning_discussion_roles:
