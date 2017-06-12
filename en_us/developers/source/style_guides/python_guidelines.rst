@@ -15,9 +15,11 @@ Python programming to the edX platform.
 Principles
 **********
 
-Generally, do not edit files just to change the style.  But do aim for this style with new or modified code.
+Generally, do not edit files just to change the style.  But do aim for this
+style with new or modified code.
 
 See also :ref:`code_quality`.
+
 
 ==================================
 Write a Good repr() for Each Class
@@ -27,7 +29,11 @@ Write a Good repr() for Each Class
 .. really syntax or organization. So I promoted it. Does this make sense on its
 .. own here?
 
-Each class should have a `__repr__() method <https://docs.python.org/2/reference/datamodel.html#object.__repr__>`_ defined, so that calling `repr()` on an instance of the class returns something meaningful that distinguishes objects from each other to a human being. This is useful for debugging purposes.
+Each class should have a `__repr__() method
+<https://docs.python.org/2/reference/datamodel.html#object.__repr__>`_ defined,
+so that calling `repr()` on an instance of the class returns something
+meaningful that distinguishes objects from each other to a human being. This is
+useful for debugging purposes.
 
 
 ***********************
@@ -87,30 +93,50 @@ Important points:
 Imports Order
 =============
 
-PEP 8 recommends a most-general to most-specific import order, which means this order:
+PEP8 recommends a most-general to most-specific import order, which means this order:
 
 * Standard library imports
 * Third Party Library imports
 * Local imports
 
-Each group of imports should be alphabetized, and a single blank line should
-be used to separate groups.
+Alphabetize each group of imports, and use a single blank line to separate
+groups.
 
-Note: most Open edX repositories use the `isort`_ library which will
-automatically order imports to follow PEP8.
+.. note:: Most Open edX repositories use the `isort`_ library, which will
+   automatically order imports to follow PEP8.
 
 *******************************
 Pylint Guidelines and Practices
 *******************************
 
-* For unused args, you can prefix the arguments with _ to mark them as unused (as convention), and pylint will accept that.
-* Adding a TODO in one place requires you to make a pylint fix in another (just to force us to clean up more code)
-* No bare except clauses. ``except:`` should be ``except Exception:``, which will prevent it from catching system-exiting exceptions, which we probably shouldn't be doing anyway. If we need to, we can catch ``BaseException`` (There's no point in catching ``BaseException``, that includes the exceptions we didn't want to catch with ``except:`` in the first place.)  (ref: http://docs.python.org/2/library/exceptions.html#bltin-exceptions). Catching ``Exception``, however, will still generate a pylint warning "W0703: catching too general exception."  If you still feel that catching ``Exception`` is justified, silence the pylint warning with a pragma: "# pylint: disable=broad-except"
-* Although we try to be vigilant and resolve all quality violations, some Pylint violations are just too challenging to resolve, so we opt to ignore them via use of a pragma. A pragma tells Pylint to ignore the violation in the given line. An example is::
+* For unused args, you can prefix the arguments with an underscore (_) to mark
+  them as unused (as convention), and pylint will accept that.
 
-    self.assertEquals(msg, form._errors['course_id'][0])  # pylint: disable=protected-access
+* Adding a TODO in one place requires you to make a pylint fix in another (just
+  to force us to clean up more code).
 
-The pragma starts with a ``#`` two spaces after the end of the line. We prefer that you use the full name of the error (``pylint: disable=unused-argument`` as opposed to ``pylint: disable=W0613``), so it's more clear what you're disabling in the line.
+* No bare ``except`` clauses. ``except:`` should be ``except Exception:``, which
+  will prevent it from catching system-exiting exceptions, which we probably
+  should not be doing anyway. If we need to, we can catch ``BaseException``
+  (There's no point in catching ``BaseException``, that includes the exceptions
+  we didn't want to catch with ``except:`` in the first place.)  (ref:
+  http://docs.python.org/2/library/exceptions.html#bltin-exceptions). Catching
+  ``Exception``, however, will still generate a Pylint warning ("W0703: catching
+  too general exception.")  If you still feel that catching ``Exception`` is
+  justified, silence the pylint warning with a pragma: ``# pylint: disable=broad-
+  except``.
+
+* Although we try to be vigilant and resolve all quality violations, some
+  Pylint violations are just too challenging to resolve, so we opt to ignore
+  them via use of a pragma. A pragma tells Pylint to ignore the violation in
+  the given line. An example is::
+
+   self.assertEquals(msg, form._errors['course_id'][0])  # pylint: disable=protected-access
+
+  The pragma starts with a ``#`` two spaces after the end of the line. We
+  prefer that you use the full name of the error (``pylint: disable=unused-
+  argument`` as opposed to ``pylint: disable=W0613``), so that it is more clear what
+  you are disabling in the line.
 
 ===========================
 Classes Versus Dictionaries
@@ -119,7 +145,11 @@ Classes Versus Dictionaries
 .. FIXME: Is this really a subsection of the Pylint section? Should it be
 .. promoted or a part of a different section?
 
-It's better to use a class or a ``namedtuple`` to pass around data that has a fixed shape than to use a ``dict``. It makes it easier to debug (because there is a fixed, named set of attributes), and it helps prevent accidental errors of either setting new attributes into the dictionary (which might, for instance, get serialized unexpectedly), or might be typos.
+It's better to use a class or a ``namedtuple`` to pass around data that has a
+fixed shape than to use a ``dict``. It makes it easier to debug (because there
+is a fixed, named set of attributes), and it helps prevent accidental errors
+of either setting new attributes into the dictionary (which might, for
+instance, get serialized unexpectedly), or might be typos.
 
 ***********************
 Docstrings
@@ -131,14 +161,18 @@ Follow `PEP 257`_.
 * Always format docstrings using the multi-line convention, even if there's only
   one line of content (see below).
 * Use three double-quotes for all docstrings.
-* Start with a one-line summary.  If you can't fit a summary in one line, think harder, or refactor the code.
-* Write in Sphinx-friendly prose style.  Put backquotes around code names (variables, parameters, methods, etc).
+* Start with a one-line summary. If you can't fit a summary in one line, think harder, or refactor the code.
+* Write in Sphinx-friendly prose style. Put backquotes around code names (variables, parameters, methods, etc).
 
-The preferred style is so-called "Google Style" with readable headers for different sections, and all arguments and return values defined.
+The preferred style is so-called "Google Style" with readable headers for
+different sections, and all arguments and return values defined.
 
-Note: there is one exception. REST APIs created using Django REST Framework (DRF) must use a hybrid format that is suitable both for DRF and ReadTheDocs. This format is documented here: https://openedx.atlassian.net/wiki/display/AC/edX+REST+API+Conventions#edXRESTAPIConventions-docstringsDocstringFormat
+.. note:: There is one exception to the preferred style. REST APIs created
+   using Django REST Framework (DRF) must use a hybrid format that is suitable
+   both for DRF and ReadTheDocs. This format is documented here:
+   https://openedx.atlassian.net/wiki/display/AC/edX+REST+API+Conventions#edXRESTAPIConventions-docstringsDocstringFormat
 
-See:
+For additional information see these references.
 
 * http://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html
 * https://google-styleguide.googlecode.com/svn/trunk/pyguide.html?showone=Comments#Comments
@@ -160,10 +194,10 @@ Here's how you write documentation in a mostly "Google Style" manner::
 
         """
 
-Note: there are some exceptions:
+.. note:: There are some exceptions:
 
-* The summary line is on the second line, including single-line comments (see below)
-* Use the full word "Arguments".
+  * The summary line is on the second line, including single-line comments (see below)
+  * Use the full word "Arguments".
 
 Most of our code is written using an older style::
 
@@ -184,7 +218,9 @@ Most of our code is written using an older style::
 
         """
 
-If you only have a single line in your docstring, first, consider that this is almost certainly not enough documentation, and write some more.  But if you do have just one line, format it similarly to a multi-line docstring::
+If you only have a single line in your docstring, first consider that this is
+almost certainly not enough documentation, and write some more. But if you do
+have just one line, format it in a similar way to a multi-line docstring::
 
     def foo(a, b):
         """
