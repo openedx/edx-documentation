@@ -1,24 +1,28 @@
 .. _Setting up Your Course Index:
 
-##########################
-Setting Up Your Course
-##########################
+################################
+Setting Up a Course
+################################
 
-Use the topics in this section to create and build your course.
+When you begin to set up an edX course, the first step is to
+plan and specify two types of basic information about your course.
 
-For information on how to develop your course content in the Studio Outline,
-see :ref:`Developing Your Course Index`.
+* **Course** information remains true whether the course runs one time or
+  multiple times. This is information such as the course title and number,
+  subject, and course description.
+* **Course run** information changes every time the course runs. This is
+  information such as the course staff and start and end dates.
+
+This section provides information about how to determine required course and
+course run information, as well as how to enter this information in Studio.
 
 .. toctree::
    :maxdepth: 2
 
-   creating_new_course
-   licensing_course
-   scheduling_course
-   setting_pacing
-   course_prerequisites
-   search_course
-   setting_up_student_view
-   course_staffing
-   creating_course_certificates
-   custom_courses
+   planning_course_information/index
+   planning_course_run_information/index
+   creating_course/index
+
+For information about how to develop your course content in the Studio course
+outline, see :ref:`Developing Your Course Index`.
+
