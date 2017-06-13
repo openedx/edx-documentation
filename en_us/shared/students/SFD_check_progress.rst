@@ -55,15 +55,11 @@ current average of scores for assignments of that type. This average is
 recalculated as you progress through the course and complete more assignments.
 
 .. note::
-   In some courses, results for some assignments are hidden. For
-   example, the results of an exam might be hidden until after the exam's due
-   date. When the results are hidden, you do not see whether you answered
-   problems correctly, and you do not see your score in the body of the course.
-
-.. SP, 4/24/17 - Currently, problem results are visible on the Progress page
-.. even if they're hidden in the body of the course. When this changes, add the
-.. following as the last sentence in the above paragraph: These results are
-.. also not visible on your **Progress** page.
+   In some courses, the course staff may have chosen to hide results for some
+   assignments. For example, the results of an exam might be hidden until after
+   the exam's due date. When the results are hidden, you do not see whether you
+   answered problems correctly, and you do not see your score in the body of
+   the course or on your **Progress** page.
 
 Some courses allow some number of graded assignments to be automatically
 dropped from your final score. For example, out of 8 quizzes, a course might
