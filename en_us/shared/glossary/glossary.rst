@@ -34,7 +34,10 @@ A
   The course page that provides potential learners with a course summary,
   prerequisites, a course video and image, and important dates.
 
-  For more information, see :ref:`partnercoursestaff:The Course About Page`.
+.. only:: Partners
+
+  For more information, see :ref:`partnercoursestaff:Pub Creating and
+  Announcing a Course`.
 
 
 **Accessible Label**
@@ -94,9 +97,10 @@ C
 
   A document issued to an enrolled learner who successfully completes a course
   with the required passing grade. Not all edX courses offer certificates, and
-  not all learners enroll as certificate candidates. For information about
-  setting up certificates for your course, see
-  :ref:`partnercoursestaff:Setting Up Course Certificates`.
+  not all learners enroll as certificate candidates.
+
+  For information about setting up certificates for your course, see
+  :ref:`Setting Up Certificates`.
 
 **Chapter**
 
@@ -220,14 +224,6 @@ C
 
   See also :ref:`Unit Navigation Bar<U>`.
 
-.. _Run:
-
-**Course Run**
-
-  The term or time frame in which a specific offering of your course takes
-  place. You set the course run when you create your course. For more
-  information, see :ref:`partnercoursestaff:Creating a New Course`.
-
 .. _Course Page:
 
 **Course Page**
@@ -235,6 +231,19 @@ C
   The page where learners access the primary instructional materials for your
   course. Sections, subsections, units, and components are all accessed from
   the **Course** page. This page was formerly called the **Courseware** page.
+
+.. _Run:
+
+**course run**
+
+  A version of the course that runs at a particular time. Information about a
+  course run includes start and end dates, as well as staff and the languages
+  the course is available in. You can create a course run when you create a
+  course.
+
+  .. only:: Partners
+
+    For more information, see :ref:`Planning Course Run Information`.
 
 **Course Track**
 
@@ -849,12 +858,12 @@ S
 
 .. _Short Course Description:
 
-**Short Course Description**
+**short description**
 
   The description of your course that appears on the edX `Course List
   <https://www.edx.org/course-list>`_ page.
 
-  For more information, see :ref:`partnercoursestaff:Describe Your Course`.
+  For more information, see :ref:`Course Short Description Guidelines`.
 
 
 .. _Simple Editor_g:

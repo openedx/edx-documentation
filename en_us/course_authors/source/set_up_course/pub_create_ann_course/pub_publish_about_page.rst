@@ -24,19 +24,26 @@ following steps.
 #. The course team :ref:`views the published About page <Pub View the Published
    About Page>`.
 
+
 .. _Pub Verify Studio Information:
 
 *************************
 Verify Studio Information
 *************************
 
-Before the About page for this course run can be published, the course team
-must verify that following information for the course run has been entered in
+Before the About page for a course run can be published, the course team must
+verify that following information for the course run has been entered in
 Studio.
 
 * The course run start and end date.
 * The course image.
 * Names, titles, and signature images for all certificate signatories.
+
+For more information, see the following topics.
+
+* :ref:`Set Start and End Dates`
+* :ref:`Partner Add Course Image`
+* :ref:`Setting Up Certificates`
 
 .. To do: Add links to more information about how to do this.
 

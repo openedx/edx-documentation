@@ -4,7 +4,7 @@
 Additional Course Run Information
 #################################
 
-Optional aAdditional information that may change with each course run includes
+Optional additional information that may change with each course run includes
 information about the languages that course content is available in, as well as
 the time you expect learners to spend with your course.
 
@@ -79,8 +79,8 @@ your course, rounded to the nearest whole number.
 
 .. only:: Open_edX
 
- For information about how to enter this content in Studio, see :ref:`Creating
- a Course About Page`.
+ For information about how to enter this content in Studio, see :ref:`Set
+ Course Effort Expectations`.
 
 
 

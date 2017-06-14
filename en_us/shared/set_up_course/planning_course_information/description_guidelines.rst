@@ -87,27 +87,27 @@ Example Long Descriptons
 
 The following long description is a content-based example.
 
-Want to learn computer programming, but unsure where to begin? This is the
-course for you! Scratch is the computer programming language that makes it easy
-and fun to create interactive stories, games and animations and share them
-online.
+  Want to learn computer programming, but unsure where to begin? This is the
+  course for you! Scratch is the computer programming language that makes it
+  easy and fun to create interactive stories, games and animations and share
+  them online.
 
-This course is an introduction to computer science using the programming
-language Scratch, developed by MIT. Starting with the basics of using Scratch,
-the course will stretch your mind and challenge you. You will learn how to
-create amazing games, animated images and songs in just minutes with a simple
-“drag and drop” interface.
+  This course is an introduction to computer science using the programming
+  language Scratch, developed by MIT. Starting with the basics of using
+  Scratch, the course will stretch your mind and challenge you. You will learn
+  how to create amazing games, animated images and songs in just minutes with a
+  simple “drag and drop” interface.
 
-No previous programming knowledge needed. Join us as you start your computer
-science journey.
+  No previous programming knowledge needed. Join us as you start your computer
+  science journey.
 
 The following long description is a skills-based example.
 
-Taught by instructors with decades of experience on Wall Street, this M&A
-course will equip analysts and associates with the skills they need to rise to
-employment in the M&A field. Additionally, directors and managers who have
-transitioned, or hope to transition, to M&A from other areas such as equities
-or fixed income can use this course to eliminate skill gaps.
+  Taught by instructors with decades of experience on Wall Street, this M&A
+  course will equip analysts and associates with the skills they need to rise
+  to employment in the M&A field. Additionally, directors and managers who have
+  transitioned, or hope to transition, to M&A from other areas such as equities
+  or fixed income can use this course to eliminate skill gaps.
 
 .. _What You Will Learn Guidelines:
 
@@ -145,8 +145,9 @@ Example What You Will Learn
 Subject Guidelines
 ************************************
 
-You can select up to two subjects in addition to the primary subject. Only the
-primary subject appears on the About page.
+A primary subject is required. Optionally, you can select up to two subjects in
+addition to the primary subject. Only the primary subject appears on the About
+page.
 
 .. only:: Partners
 

@@ -33,7 +33,7 @@ Guidelines for Start and End Dates
 
 The start and end dates you set for your course are important for prospective
 and current learners. Current learners see your course start or end date on
-their dashboards. EdX recommends that you consider your course dates carefully.
+their dashboards. You should consider your course dates carefully.
 
 ============================
 Course Start Date and Time
@@ -44,10 +44,10 @@ course content. By default, the course start date and time are set to
 **01/01/2030** at **00:00 UTC** to ensure that your course does not start
 before you intend it to.
 
-EdX recommends the following guidelines for determining a course start date.
+The following guidelines can help you determine a course start date.
 
 * Start on a Tuesday, Wednesday, or Thursday.
-* Avoid major U.S. holidays.
+* Avoid major public holidays.
 * Specify a month, day, and year. If you are unsure of the exact date, specify
   a day that is close to the estimated start date. For example, if your course
   will start near the end of March, specify March 31.

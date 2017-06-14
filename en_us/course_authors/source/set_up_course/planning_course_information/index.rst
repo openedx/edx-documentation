@@ -18,6 +18,5 @@ information in Publisher, Studio, or both. For more information, see
    title_number_guidelines
    image_guidelines
    description_guidelines
-   course_prerequisites
-   syllabus
+   additional_course_information
    licensing_course

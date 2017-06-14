@@ -10,7 +10,7 @@ After you create a course and course run in Publisher, you must enter some of th
    :maxdepth: 2
 
    studio_scheduling
+   studio_course_image
    studio_course_staffing
    studio_creating_certificates
    studio_licensing
-   studio_prerequisites

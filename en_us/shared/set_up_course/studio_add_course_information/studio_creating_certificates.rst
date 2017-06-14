@@ -4,8 +4,6 @@
 Setting Up Certificates
 #######################
 
-.. This file is now for partners and open edx, with differences in conditions
-
 This section describes how to create and manage certificates for your course.
 
 .. contents::
@@ -108,13 +106,13 @@ To create a certificate for your course, follow these steps.
    5. For verified certificates, you must upload an image file showing the
       signature of each signatory.
 
-      The image file must be a transparent .PNG file, 450px by 150px.
+      The image file must be a transparent .png file, 450px by 150px.
 
 .. only:: Open_edX
 
    5. Optionally, upload an image file showing the signature of each signatory.
 
-      The image file must be a transparent .PNG file, 450px by 150px.
+      The image file must be a transparent .png file, 450px by 150px.
 
 
 6. When you have finished creating your certificate, select **Create**.
