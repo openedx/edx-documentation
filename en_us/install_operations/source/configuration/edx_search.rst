@@ -53,7 +53,7 @@ ElasticSearchEngine
 
 ElasticSearchEngine is a ElasticSearch back-end implementation. It uses same
 ElasticSearch version that is already part of Open edX Platform. The current
-version is v0.90.13, and Django Elasticsearch is 0.4.5.
+version is v1.5.2. The ElasticSearch Python client is the latest 1.x version.
 
 ************************
 EdX Search Requirements
@@ -73,57 +73,6 @@ Install edX Search
 EdX Search is included in Open edX Platform GitHub requirements and is
 installed automatically when you install the Open edX Platform.
 
-For existing installations, you must install edX Search manually.
-
-To install edX Search, make sure you are logged to your server as the
-``edxapp`` user and are located in ``edx-platform`` directory.
-
-If you are not, run the following before continuing:
-
-.. code-block:: bash
-
-  sudo su edxapp -s /bin/bash cd ~source edxapp_env
-
-Then install edX Search using one of the three following options.
-
-==========================
-Option 1 – Add Requirement
-==========================
-
-Add the GitHub link to edx-search to the ``requirements/edx/github.txt`` file.
-
-.. code-block:: bash
-
-  -e git+https://github.com/edx/edx-search.git@ae459ead41962c656ce794619f58cdae46eb7896#egg=edx-search
-
-Then reinstall GitHub requirements.
-
-.. code-block:: bash
-
-  pip install -r requirements/edx/github.txt
-
-==========================
-Option 2 – Install Locally
-==========================
-
-Checkout the ``edx-search`` GitHub repository.
-
-Then in the ``edx-search`` directory, run the following command.
-
-.. code-block:: bash
-
-  pip install -e ./
-
-==============================
-Option 3 – Install from GitHub
-==============================
-
-Run ``pip`` with a GitHub link.
-
-.. code-block:: bash
-
-  pip install -e git+https://github.com/edx/edx-search.
-    git@ae459ead41962c656ce794619f58cdae46eb7896
 
 *****************
 Enable Indexing
