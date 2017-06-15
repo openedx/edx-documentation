@@ -62,6 +62,38 @@ course to give you a way to explore and learn how to take an edX course. Read
 about :ref:`learning in a MOOC<Learning in a MOOC>`.
 
 
+.. _Welcome Change Language:
+
+************************************************
+Change the Language of the edX.org Site
+************************************************
+
+You can choose the language that you want the edx.org site to use during your
+visits. The language setting changes the appearance of menu options, button
+labels, and other elements of the site's user interface, but it does not apply
+to course content.
+
+You can change the language of the site either in your Account settings or from
+the language dropdown menu in the footer of each page.
+
+  .. image:: ../../shared/images/footer_language_selector.png
+   :width: 600
+   :alt: Use the dropdown menu in the footer of every page to select a language
+     for the site. The choice you make here also changes the language selected in
+     your Account settings.
+
+.. note:: The language choices that are available on a particular page
+      reflect the languages that are supported on that page.
+
+      For example, on the www.edx.org catalog pages where you search for
+      courses and programs, fewer languages are available in the language
+      selector dropdown list than on your dashboard and course pages. If you
+      choose a language that is not supported on the course and program search
+      pages, those pages are displayed in English.
+
+For more information, see :ref:`Change Language for the Site`.
+
+
 .. _Time Zones:
 
 ************************
