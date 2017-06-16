@@ -2,7 +2,7 @@ Course team members with either the Admin or Staff role can now activate or
 disable course certificates in Studio. Previously, activating or disabling
 certificates could only be done by edX partner managers. (:jira:`TNL-6086`) For
 information about setting up course certificates, see
-:ref:`partnercoursestaff:Setting Up Course Certificates`.
+:ref:`partnercoursestaff:Setting Up Certificates`.
 
 In Custom JavaScript Display and Grading problems (also called Custom
 JavaScript  or JavaScript Input problems), you can now specify a ``title``
