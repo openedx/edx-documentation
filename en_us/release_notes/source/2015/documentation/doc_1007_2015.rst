@@ -17,7 +17,7 @@ Building and Running an edX Course
 * Added the :ref:`partnercoursestaff:Using edX as an LTI Tool Provider`
   section.
 
-* Added the :ref:`partnercoursestaff:Setting Up Course Certificates` topic.
+* Added the :ref:`partnercoursestaff:Setting Up Certificates` topic.
 
 * Added information about awarding partial credit for certain types of
   problems, listed in the :ref:`partnercoursestaff:Awarding Partial Credit for

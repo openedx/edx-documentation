@@ -2,5 +2,5 @@
   information about several new events that have been added as a result of
   accessibility enhancements from December 2015 and January 2016.
 
-* The :ref:`Setting Details About Your Course` topic now includes an
-  :ref:`partnercoursestaff:XSeries About Video` section.
+* The :ref:`Setting up Your Course Index` topic now includes an
+  :ref:`partnercoursestaff:Pub Add an About Video` section.
