@@ -53,7 +53,7 @@ Building and Running an Open edX Course
 * Added the :ref:`opencoursestaff:Using Open edX as an LTI Tool Provider`
   section.
 
-* Added the :ref:`opencoursestaff:Setting Up Course Certificates` topic.
+* Added the :ref:`opencoursestaff:Setting Up Certificates` topic.
 
 * Added information about awarding partial credit for certain types of
   problems, listed in the :ref:`opencoursestaff:Awarding Partial Credit for

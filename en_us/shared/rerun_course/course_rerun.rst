@@ -192,8 +192,9 @@ who enroll in the new course run.
    update all links to the original file name. See :ref:`Add Course Handouts`
    or :ref:`Add a Link to a File`.
 
-* Review the staff biographies and other information on the course summary
-  page and make needed updates. See :ref:`The Course About Page`.
+* Review the staff biographies and other information on the course About page
+  and make needed updates. See :ref:`Planning Course Information` and
+  :ref:`Planning Course Run Information`.
 
 * Create initial posts for discussion topics and an "introduce yourself"
   post. See :ref:`Discussions`.
@@ -209,7 +210,9 @@ who enroll in the new course run.
   <http://edx.readthedocs.io/projects/edx-release-notes/en/latest/studio_index.html#updates-to-capa-problem-types>`_.
 
 * If your course uses prerequisite course subsections to hide course
-  subsections until learners complete other, prerequisite subsections, configure the prerequisite course subsections. See :ref:`configuring_prerequisite_content`.
+  subsections until learners complete other, prerequisite subsections,
+  configure the prerequisite course subsections. See
+  :ref:`configuring_prerequisite_content`.
 
 * If your course includes instructions for learners, verify that the
   instructions reflect the current user interface of the LMS.

@@ -6,6 +6,13 @@ Creating a Course
 
 This topic describes the process of creating and finalizing a course.
 
+..note::
+  This process applies to courses on the edx.org site. If your course will run
+  on Edge, you create the course and the About page in Studio. For more
+  information, see :ref:`Creating a New Course` or :ref:`Creating a Course
+  About Page`.
+
+
 .. contents::
   :local:
   :depth: 1

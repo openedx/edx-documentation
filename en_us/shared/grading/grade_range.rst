@@ -63,4 +63,4 @@ If you plan for your course to offer certificates, note that a learner will
 qualify for a certificate by earning any grade over the F, or Fail, threshold.
 This is true regardless of how many grade levels you add in the grade range.
 
-For more information, see :ref:`Setting Up Course Certificates`.
+For more information, see :ref:`Setting Up Certificates`.

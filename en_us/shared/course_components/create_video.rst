@@ -11,9 +11,9 @@ course.
  :local:
  :depth: 1
 
-You can also include an "about" video for your course. A course about video
+You can also include an About video for your course. A course About video
 appears on learner dashboards to market your course. For more information, see
-:ref:`Add a Course Video`.
+:ref:`Add an About Video`.
 
 ************************
 Overview

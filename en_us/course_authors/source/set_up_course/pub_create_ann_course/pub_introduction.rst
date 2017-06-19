@@ -4,6 +4,12 @@
 Introduction to Publisher
 ################################
 
+..note::
+  This information applies to courses on the edx.org site. If your course will
+  run on Edge, you create the course and the About page in Studio. For more
+  information, see :ref:`Creating a New Course` or :ref:`Creating a Course
+  About Page`.
+
 EdX Publisher is a tool that allows course teams, edX marketing, edX project
 coordinators (PCs), and an edX publisher to work together to create an About
 page. The Publisher tool tracks each action and sends email notifications when

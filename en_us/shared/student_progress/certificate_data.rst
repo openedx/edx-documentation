@@ -13,7 +13,7 @@ issued for a course.
 
 For more information, see the following other topics about certificates.
 
-* :ref:`Setting Up Course Certificates`
+* :ref:`Setting Up Certificates`
 * :ref:`Checking Student Progress and Issuing Certificates`
 
 .. _Access Certificate Data:

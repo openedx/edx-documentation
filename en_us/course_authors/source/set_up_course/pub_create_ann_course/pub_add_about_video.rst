@@ -4,6 +4,11 @@
 Add a Course or Program About Video
 ##########################################
 
+..note::
+  This process applies to courses on the edx.org site. If your course will run
+  on Edge, you add the About video in Studio. For more information, see
+  :ref:`Add an About Video`.
+
 When you add an About video for a course or a program, you upload the video to
 the edX/Veda video upload page. For course About videos, but not program About
 videos, you then enter the URL for the About video in Publisher.

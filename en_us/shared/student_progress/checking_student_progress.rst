@@ -13,7 +13,7 @@ This topic describes how to complete several end-of-course tasks.
 
 For more information, see the following other topics about certificates.
 
-* :ref:`Setting Up Course Certificates`
+* :ref:`Setting Up Certificates`
 * :ref:`Reporting Certificate Data`
 
 ****************************************

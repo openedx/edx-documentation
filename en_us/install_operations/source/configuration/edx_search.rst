@@ -91,8 +91,8 @@ You can also reindex the course manually through the **Reindex** button in the
 .. note:: The search feature only returns results for courses that are
  currently open for enrollment. Course teams can set the enrollment start and
  end dates for their courses in Studio. For more information, see
- :ref:`opencoursestaff:Determine Start and End Dates` in the *Building and
- Running an Open edX Course* guide.
+ :ref:`opencoursestaff:Guidelines for Start and End Dates` in the *Building
+ and Running an Open edX Course* guide.
 
 ==============================
 Which Data Gets Indexed

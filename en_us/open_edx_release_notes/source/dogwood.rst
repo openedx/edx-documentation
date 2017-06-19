@@ -147,8 +147,8 @@ This release includes several updates to web certificates.
 * There are now no character limits on the name and title fields of certificate
   signatories.
 
-For more information, see :ref:`opencoursestaff:Setting Up Course Certificates`
-in *Building and Running an Open edX Course* or
+For more information, see :ref:`opencoursestaff:Setting Up Certificates` in
+*Building and Running an Open edX Course* or
 :ref:`openlearners:Print a Web Certificate` in the *Open edX Learner's Guide*.
 
 As a part of the effort to support XSeries program certificates, edX has
