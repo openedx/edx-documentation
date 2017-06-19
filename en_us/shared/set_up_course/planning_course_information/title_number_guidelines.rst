@@ -5,7 +5,7 @@ Course Title and Number
 #######################
 
 The course title (sometimes also called the course name) and number are
-important identifiers for your course. EdX recommends that you use titles and
+important identifiers for your course. It is a good idea to use titles and
 numbers that are easy to understand and remember.
 
 .. only:: Partners
@@ -29,19 +29,27 @@ numbers that are easy to understand and remember.
 Course Title Guidelines
 ************************************
 
-EdX course names, or titles, have the following requirements.
+When you determine the title of your course, consider the following guidelines.
 
-* Course titles use title capitalization and normal spacing and punctuation.
-* Course titles have a maximum of 70 characters. EdX recommends that your
-  course title has 50 or fewer characters.
-* If the course is part of a sequence, the title includes both sequence and
-  course information formatted as "Sequence: Course".
+* Use title capitalization and normal spacing and punctuation.
+* Limit the course name to 70 characters. Many of the most effective
+  course titles have 50 or fewer characters.
+* If the course is part of a sequence, create a title that includes both
+  sequence and course information, formatted as "Sequence: Course".
+* Select a course title that clearly indicates the course subject matter.
+* Make sure the course title follows search engine optimization (SEO)
+  guidelines.
+* Make sure the course title targets a global audience.
 
-Additionally, an effective course title follows several guidelines.
+.. only:: Partners
 
-* The title clearly indicates the course subject matter.
-* The title follows search engine optimization (SEO) guidelines.
-* The title targets a global audience.
+ For more information about adding a course name, see :ref:`Pub Creating a
+ Course`.
+
+.. only:: Open_edX
+
+ For information about how to add your course title, see
+ :ref:`Creating a New Course`.
 
 ======================
 Example Course Titles
@@ -72,6 +80,16 @@ Course numbers have the following guidelines.
 * Characters can be letters, numbers, or periods.
 * If a course consists of several modules, the course number can have an ending
   such as .1x or .2x.
+
+.. only:: Partners
+
+ For more information about adding a course number, see :ref:`Pub Creating a
+ Course`.
+
+.. only:: Open_edX
+
+ For information about how to add your course number, see
+ :ref:`Creating a New Course`.
 
 ======================
 Example Course Numbers

@@ -14,22 +14,24 @@ learner dashboards and search engine results.
 
 .. contents::
   :local:
-  :depth: 1
+  :depth: 2
 
 .. _Course and Program Image Guidelines:
 
 ***********************************
-Course and Program Image Guidelines
+Representative Image Guidelines
 ***********************************
 
-A course or program image is an eye-catching, colorful image that captures the
-essence of your course or program. These images are visible in the following
+A representative image is an eye-catching, colorful image that captures the
+essence of a course or program. These images are visible in the following
 locations.
 
-* The course card on edx.org.
+.. only:: Partners
+
+  * The course card on edx.org.
+  * The program page, if the course is part of a program.
+
 * The About page.
-* The program page, if the course is part of a program such as an XSeries or a
-  MicroMasters program.
 * The learner dashboard.
 * Search engine results.
 
@@ -48,10 +50,8 @@ mind.
 
 .. only:: Open_edX
 
-  For more information about how to add a course image, see :ref:`Creating a
-  Course About Page`.
-
-For more information about how to add a program image, see :ref:`s`.
+  For more information about how to add a course image, see :ref:`Add a Course
+  Image`.
 
 .. _Image Size Guidelines:
 
@@ -59,7 +59,7 @@ For more information about how to add a program image, see :ref:`s`.
 Image Size Guidelines
 =====================
 
-Images for courses and programs must follow specific size guidelines.
+Images must follow specific size guidelines.
 
 
 Course Image Size
@@ -89,31 +89,31 @@ Course Image Size
   image that you upload maintains the aspect ratio of those dimensions so that
   the image appears correctly on the dashboard.
 
-Program Image Size
-******************
+.. only:: Partners
 
-The program image size must be 1440 x 260 pixels. However, only part of this
-image may be visible. The viewable area varies according to the web page where
-the viewer sees the image.
+  Program Image Size
+  ******************
 
-The following example program image is 1440 x 260 pixels. The image shows the
-area of a program image that is always visible, as well as the areas that are
-also visible on different pages. You can click to enlarge the image.
+  The program image size must be 1440 x 260 pixels. However, only part of this
+  image may be visible. The viewable area varies according to the web page
+  where the viewer sees the image.
 
-.. image:: ../../../../shared/images/program_image.png
-   :width: 600
-   :alt: An example program image, showing the area that is always visible, the
-       additional area visible for program pages and the learner dashboard, and
-       the area that may be hidden in search results.
+  The following example program image is 1440 x 260 pixels. The image shows the
+  area of a program image that is always visible, as well as the areas that are
+  also visible on different pages. You can click to enlarge the image.
 
-
+  .. image:: ../../../../shared/images/program_image.png
+     :width: 600
+     :alt: An example program image, showing the area that is always visible,
+         the additional area visible for program pages and the learner
+         dashboard, and the area that may be hidden in search results.
 
 
 .. _Course About Video Guidelines:
 
-=============================
+********************************
 Course About Video Guidelines
-=============================
+********************************
 
 The course About video should excite and entice potential learners to enroll,
 and reveal some of the personality that the course team brings to the course.

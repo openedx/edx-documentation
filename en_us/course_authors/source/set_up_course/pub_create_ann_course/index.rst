@@ -1,8 +1,8 @@
 .. _Pub Creating and Announcing a Course:
 
-################################
-Creating and Announcing a Course
-################################
+################################################
+Creating and Announcing a Course Using Publisher
+################################################
 
 When you are ready to create a course, you add your course information in the Publisher tool. You must add course information in Publisher as a first step in the About page process before you can add course content in Studio.
 

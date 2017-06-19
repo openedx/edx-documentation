@@ -4,53 +4,85 @@
 Creating a Course
 #################
 
+This topic describes the process of creating and finalizing a course.
+
 .. contents::
   :local:
   :depth: 1
 
-In Publisher, a course contains the following **required** information.
+In Publisher, a course contains the following information.
 
 .. note::
  Course information remains true for every run of the course. Course run
  information changes each time the course is run.
 
-* Course title
-* Course number
-* Short and long description
-* What learners will learn
-* Primary subject
-* Course image
-* Prerequisites
-* Course level
-* Link to the course About video
+.. list-table::
+   :widths: 50 50
+   :header-rows: 1
 
-Additionally, a course in Publisher contains the following **optional**
-information.
+   * - Required
+     - Optional
+   * - Title
 
-* Additional subjects
-* Learner testimonials
-* FAQ
-* Syllabus
+       Number
+
+       Short and long description
+
+       What learners will learn
+
+       Primary subject
+
+       Image
+
+       Prerequisites
+
+       Level
+
+       Link to the course About video
+
+     - Additional subjects
+
+       Learner testimonials
+
+       FAQ
+
+       Syllabus
+
+       ㅤ
+
+       ㅤ
+
+       ㅤ
+
+       ㅤ
+
+       ㅤ
+
+.. In the table above, invisible white spaces have been added to the right column to force it to be top-aligned (default is centered).
+
+For more information about how to determine this information for your course,
+see :ref:`Planning Course Information`.
+
+
 
 .. _Pub Course Creation and Finalization:
 
 *************************************
-Create and Finalize a Course Process
+Course Creation Process
 *************************************
 
-The process of creating and finalizing a course in Publisher includes the
-following steps.
+The course creation process in Publisher includes the following steps.
 
-#. :ref:`The course team creates the course <Pub Create a Course>`. In this
-   step, the course team provides only basic information about the course, and
-   Publisher creates a page for the course.
-#. :ref:`The course team edits the course <Pub Edit a Course>`, adding all
-   required information on the page for the course.
-#. :ref:`The course team sends the course to the edX marketing team <Pub Send a
-   Course for Marketing Review>` for review.
-#. After the edX marketing team reviews the course, :ref:`the course team
-   reviews the edX marketing feedback and finalizes the course <Pub Review
-   Changes and Finalize the Course>`.
+#. :ref:`Create the course in Publisher <Pub Create a Course>`. In this step,
+   you provide only basic information about the course, and Publisher creates a
+   page for the course.
+#. :ref:`Edit the course <Pub Edit a Course>`, adding all required information
+   for the About page on the page for the course.
+#. :ref:`Send the course to the edX marketing team <Pub Send a Course for
+   Marketing Review>` for review.
+#. After the edX marketing team reviews the course, :ref:`review the edX
+   marketing feedback and finalize the course <Pub Review Changes and Finalize
+   the Course>`.
 
 .. _Pub Create a Course:
 
@@ -93,8 +125,9 @@ To create a course in Publisher, follow these steps.
    If you selected **I want to add a run to this course at this time**, the
    page for a course run of this course opens when you select **Create New
    Course**. On this page, you enter basic information about a course run.
-   After you create the course run, the edX PC creates a Studio URL for the
-   course. For more information, see :ref:`Pub Creating a Course Run`.
+   After you create the course run, the edX project coordinator (PC) creates a
+   Studio URL for the course. For more information, see :ref:`Pub Creating a
+   Course Run`.
 
 
 .. _Pub Edit a Course:
@@ -181,27 +214,36 @@ follow these steps.
    * If you are satisfied with all of the changes, under **Revision History**,
      select **Accept All**.
 
-   * If you want to see an earlier version of the course, under **Revision
-     History**, select the version that you want. You see that version together
-     with indicators of the changes that have been made.
+   * If you want to reject all changes and return to an earlier version of the
+     course, under **Revision History**, select the version that you want. You
+     see that version together with indicators of the changes that have been
+     made. Select **Restore to this version** to reject all of the changes.
 
    * If you want to accept only some of changes or make additional changes,
      under **Revision History**, select **Edit**.
 
-     When you select **Edit**, the **Edit Course** page opens. The changes that
-     edX marketing has made are still indicated by color.
+     When you select **Edit**, the **Edit Course** page opens. The pink and
+     green change indicators are no longer visible. Instead, if the text in a
+     field has changed, that field now has three buttons: **View Changes**,
+     **Accept All**, and **Reject All**.
 
-     #. Accept or reject changes. To do this, click anywhere inside the pink or
-        green indicator, and then select **Accept** or **Reject** at the top of
-        the text box. You can also select **Accept All** or **Reject All** to
-        accept or reject all the changes in that text box.
-     #. Make any additional changes that you want.
+     #. To view the changes, select **View Changes**. A field opens to the left
+        of the text editing field, showing the pink and green change
+        indicators.
+
+        .. image:: ../../../../shared/images/pub_view_changes.png
+          :width: 500
+          :alt: Two Short Description fields side by side. The one on the left
+              shows changes indicated in pink and green. The one on the right
+              has View Changes, Accept All, and Reject All buttons.
+
+     #. In the text editing field, select **Accept All**, select **Reject
+        All**, or overwrite the existing text until you are satisfied.
 
 #. Select **Update Course**.
 
-#. After you have made all the changes that you want to make, and you are
-   satisfied with the information on the course page, you finalize the course.
-   To do this, under **Reviews**, select **Mark as Reviewed**.
+#. When you are satisfied with the information on the course page, finalize
+   the course by selecting **Mark as Reviewed** under **Reviews**.
 
    The status changes to **Reviewed**.
 
@@ -217,8 +259,8 @@ Share the Suggested Marketing Review Changes
 
 You can share the changes that the edX marketing team has suggested with others
 who do not have access to Publisher by printing the course page as a PDF. The
-procedure to print a web page as a PDF varies by browser. Check your browser
-for specific insructions.
+procedure to print a web page as a PDF varies by browser. Check your browser's
+documentation for specific insructions.
 
 .. _Pub Add a Comment to the Course:
 
@@ -227,9 +269,9 @@ Add a Comment to the Course
 ***************************
 
 You and other Publisher users can add a comment to a course at any time. When
-you add a comment, the comment is visible to anyone who views the course page.
-Additionally, Publisher sends an email notification that includes the comment
-to the PC for the course.
+you add a comment, the comment is visible to the edX team and other Publisher
+users at your organization. Publisher automatically sends an email notification
+that includes the comment to the edX PC for the course.
 
 To add a comment to a course, follow these steps.
 
@@ -261,7 +303,7 @@ the following information for that course.
 * The date when edX reviewed the course or the course team sent the course for
   review.
 
-For more information about the course, follow these steps.
+To check the status of a course, follow these steps.
 
 #. Go to https://prod-edx-discovery.edx.org/publisher and sign in.
 #. In Publisher, go to the **Courses** page, and select the course that you

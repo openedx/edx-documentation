@@ -17,6 +17,5 @@ information in Studio. For more information, see :ref:`Creating a Course`.
    title_number_guidelines
    image_guidelines
    description_guidelines
-   course_prerequisites
-   syllabus
+   additional_course_information
    licensing_course

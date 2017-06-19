@@ -17,4 +17,4 @@ information in Studio. For more information, see :ref:`Creating a Course`.
 
    staffing
    scheduling
-   additional_information
+   additional_course_run_information

@@ -4,8 +4,8 @@
 Setting Up a Course
 ################################
 
-When you begin to set up an edX course, the first step is to
-plan and specify two types of basic information about your course.
+When you begin to set up a course, the first step is to plan and specify two
+types of basic information about your course.
 
 * **Course** information remains true whether the course runs one time or
   multiple times. This is information such as the course title and number,

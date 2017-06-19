@@ -4,50 +4,78 @@
 Creating a Course Run
 #####################
 
+
+This topic describes the process of creating and finalizing a course run.
+
 .. contents::
   :local:
   :depth: 1
 
-In Publisher, a course run contains the following information. Most of this
-information is required before edX can publish an About page for your course.
+In Publisher, a course run contains the following information.
 
-* Start and end date
-* Enrollment tracks
-* Certificate types and price
-* Course staff
-* Estimated effort
-* Languages for course content, videos, and transcripts
-* Course length (in weeks)
+
+.. list-table::
+   :widths: 50 50
+   :header-rows: 1
+
+   * - Required
+     - Optional
+   * - Start and end date
+
+       Staff
+
+       Pacing
+
+       ㅤEnrollment track (default is audit)
+
+       Content language
+
+       Transcript languages
+
+     - Program association
+
+       Estimated effort
+
+       Length
+
+       ㅤVideo language
+
+       ㅤ
+
+       ㅤ
 
 .. note::
  Course certificates are associated with course runs. However, you configure
  course certificates in Studio. For more information, see :ref:`Setting Up
  Certificates`.
 
+For more information about how to determine this information for your course
+run, see :ref:`Planning Course Run Information`.
+
+
 .. _Pub Course Run Creation and Finalization:
 
-******************************************
-Create and Finalize a Course Run Process
-******************************************
+***************************
+Course Run Creation Process
+***************************
 
-The process of creating a course in Publisher includes the following steps.
+The course run creation process in Publisher includes the following steps.
 
 .. note::
  You can create and edit a course run at any time after you create a course.
- However, you must finalize a course before you can send a course run to the
- edX PC for review.
+ However, you must finalize the course before you can send a course run to the
+ edX project coordinator (PC) for review.
 
-#. :ref:`The course team creates the course run<Pub Create a Course Run>`. In
-   this step, the course team provides only basic information about the course
-   run, and Publisher creates a page for the course run.
-#. :ref:`The course team edits the course run <Pub Edit a Course Run>`, adding
-   all required information.
-#. :ref:`The course team receives a Studio URL <Pub Receive a Studio URL>` from
-   the edX PC.
-#. :ref:`The course team sends the course run to the edX PC for review <Pub
-   Send a Course for Marketing Review>`.
-#. :ref:`The course team receives the edX PC feedback, and then reviews and
-   finalizes the course <Pub Review Changes and Finalize the Course>`.
+#. :ref:`Create the course run<Pub Create a Course Run>`. In this step, you
+   provide only basic information about the course run, and Publisher creates a
+   page for the course run.
+#. :ref:`Receive a Studio URL <Pub Receive a Studio URL>` from the edX PC.
+#. :ref:`Edit the course run <Pub Edit a Course Run>`, adding all required
+   information for the About page.
+#. :ref:`Send the course run to the edX PC for review <Pub Send a Course for
+   Marketing Review>`.
+#. :ref:`Review the edX PC feedback, and then finalize the course run <Pub
+   Finalize a Course Run>`.
 
 .. _Pub Create a Course Run:
 
@@ -57,20 +85,22 @@ Create a Course Run
 
 To create a course run in Publisher, follow these steps.
 
+.. note::
+  If one or more course runs have been published, Publisher pre-fills some
+  information on the **New Course Run** page based on the last published course
+  run.
+
 #. Use one of the following methods to open the **New Course Run** page.
 
    * On the dashboard, select **Add a Course Run**. Then, on the **New Course
      Run** page, select the course that you want in the **Find Course** list.
    * On the **Courses** page, select the course that you want. Then, on the
      page for the course, select **Add Run**.
-   * When you create a new course, select **Include a course run** at the
-     bottom of the page, and then select **Create New Course**.
+   * When you create a new course, select **I want to add a run to this course
+     at this time** at the bottom of the page, and then select **Create New
+     Course**.
 
 #. On the **New Course Run** page, enter the following information.
-
-   .. note::
-    If you selected **Add a Course Run** on the dashboard, you must first
-    select the course for the course run in the **Find Course** list.
 
    * The course start and end dates. Times are in universal coordinated time
      (UTC).
@@ -87,45 +117,9 @@ At the top of the course run page, "breadcrumbs" are visible that list the name
 of the course and the course run. For example, the breadcrumbs may be ``Courses
 > Creating an edX Course > Self-paced: June 1, 2017``.
 
-You can edit course run information at any time before you send the course to
-the edX PC for review. For more information, see :ref:`Pub Edit a Course Run`.
-
-.. _Pub Edit a Course Run:
-
-*******************
-Edit a Course Run
-*******************
-
-.. note::
-    You can identify a course run by the course run's pacing and start date.
-    For example, the name of a course run may be "Self-paced: June 01, 2017" or
-    "June 1, 2017 - Self-paced".
-
-At the top of the course run page, "breadcrumbs" are visible that list the name
-of the course and the course run. For example, the breadcrumbs may be ``Courses
-> Creating an edX Course > Self-paced: June 1, 2017``.
-
-#. Use one of the following methods to open the page for the course run.
-
-   * On the dashboard, select the **In Development** tab, and then select the
-     course run that you want. You can identify the course run by the start
-     date.
-   * On the **Courses** page, select the course that you want. When the page
-     for the course opens, under **Course Runs**, select the course run.
-
-#. On the page for the course run, select **Edit**.
-
-#. Enter the information for the course run in the fields on the page. All
-   fields are required before you can submit the course run for review.
-   However, if you do not have all of the information when you edit the course
-   run, you can add the information that you have, and return to the course run
-   page at another time.
-
-   * To specify an instructor, enter two or more letters in the **Instructor**
-     field, and then select an instructor from the list. If the instructor is
-     not listed, select **Add New Instructor**.
-
-#. When you have made your changes, select **Update Course Run**.
+You can edit course run information at any time before you send the course run
+to the edX PC for review. For more information, see :ref:`Pub Edit a Course
+Run`.
 
 .. _Pub Receive a Studio URL:
 
@@ -135,11 +129,11 @@ Receive a Studio URL for a Course Run
 
 .. note::
  You can edit a course run before you receive a Studio URL for the course run.
- However, you cannot send the course run to the PC for review until the course
- run has a Studio URL.
+ However, the course run must have a Studio URL before you send the course run
+ to the PC for review.
 
 When you create a course run, Publisher automatically sends a notification to
-the edX PC asking the edX PC to create a Studio URL for the course run. This
+the edX PC. The edX PC then creates a Studio URL for the course run. This
 process can take up to two business days.
 
 When the edX PC creates the Studio URL, this information automatically appears
@@ -159,6 +153,45 @@ has the the following options.
 * Send the course run to the edX PC for review. For more information, see
   :ref:`Pub Send a Course Run for Review`.
 
+.. _Pub Edit a Course Run:
+
+*******************
+Edit a Course Run
+*******************
+
+.. note::
+ You can edit a course run before you receive a Studio URL for the course run.
+ However, the course run must have a Studio URL before you send the course run
+ to the PC for review.
+
+ Additionally, you do not have to enter all of the required information for the
+ course run at one time. You can return to the course run page and add
+ information at any time before you send the course run for review.
+
+To edit a course run, follow these steps.
+
+#. Use one of the following methods to open the page for the course run.
+
+   * On the dashboard, select the **In Development** tab, and then select the
+     course run that you want. You can identify the course run by the start
+     date.
+   * On the **Courses** page, select the course that you want. When the page
+     for the course opens, under **Course Runs**, select the course run.
+
+     You can identify a course run by the course run's pacing and start date.
+     For example, the name of a course run may be "Self-paced: June 01, 2017"
+     or "June 1, 2017 - Self-paced".
+
+#. On the page for the course run, select **Edit**.
+
+#. Add the required information for the course run in the fields on the page.
+
+   * To specify an instructor, enter two or more letters in the **Instructor**
+     field, and then select an instructor from the list. If the instructor is
+     not listed, select **Add New Instructor**, and then fill out the form that
+     opens.
+
+#. When you have made your changes, select **Update Course Run**.
 
 .. _Pub Send a Course Run for Review:
 
@@ -168,6 +201,8 @@ Send a Course Run to the edX PC for Review
 
 After you have finished editing the course run and the course run has a Studio
 URL, you can send the course run for review by the edX PC.
+
+To send the course run for review, follow these steps.
 
 #. Use one of the following methods to open the page for the course run.
 

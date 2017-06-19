@@ -11,9 +11,6 @@ videos, you then enter the URL for the About video in Publisher.
 To add an About video for a course or program that is running on edx.org,
 follow these steps.
 
-#. Locate the video file on your computer. For example, if you use a Mac
-   computer, open Finder and go to the directory that contains the video file.
-
 #. In your browser, go to the edX/Veda video upload page at
    http://veda.edx.org/upload/.
 
@@ -37,6 +34,9 @@ follow these steps.
    URL, but it must begin with ``https://studio.edx.org/course/``.
 
 #. Select **Submit**.
+
+#. Locate the video file on your computer. For example, if you use a Mac
+   computer, open Finder and go to the directory that contains the video file.
 
 #. Drag the video file from the local directory into the **Drop files here to
    upload** field. You can also click inside this field to browse to the file.

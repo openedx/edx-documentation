@@ -60,9 +60,9 @@ Additionally, biographies can optionally include the following information.
 
 .. _About the Course Team Roles:
 
-**************************************
-About the Course Team Roles
-**************************************
+*****************
+Course Team Roles
+*****************
 
 To give team members access to Studio, the instructor dashboard in the LMS, and
 Insights, you assign one of these course team roles to them.
