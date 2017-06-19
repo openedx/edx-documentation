@@ -1,6 +1,12 @@
 For more information about effective course images, see :ref:`Course and
 Program Images and Videos`.
 
+. only:: Partners
+
+   ..note::
+    This process applies to courses on the edX Edge site. If your course will
+    run on edx.org, see :ref:`Pub Creating and Announcing a Course`.
+
 To add a course image in Studio, follow these steps.
 
 #. From the **Settings** menu, select **Schedule & Details**.

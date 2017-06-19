@@ -4,7 +4,7 @@
 Course Search
 #####################
 
-Learners can search much of the content of your edX course, including the
+Learners can search much of the content of your course, including the
 course title, description, text, and video transcripts. Learners can
 search inside individual courses, or they can search all the courses that they
 are enrolled in at one time. When learners search all their courses at one
@@ -26,7 +26,8 @@ When the search engine returns results, either for an individual course or
 across all courses, learners can select any search result to view that result
 in the course body.
 
-For more information about the student experience, see `Searching the Course <http://edx.readthedocs.io/projects/open-edx-learner-guide/en/latest/SFD_course_search.html>`_.
+For more information about the learner experience, see :ref:`openlearners:SFD
+Search`.
 
 .. note::
  Studio indexes most content that learners see on the **Course** page. However,

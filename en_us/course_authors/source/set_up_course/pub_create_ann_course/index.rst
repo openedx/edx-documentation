@@ -4,7 +4,15 @@
 Creating and Announcing a Course Using Publisher
 ################################################
 
-When you are ready to create a course, you add your course information in the Publisher tool. You must add course information in Publisher as a first step in the About page process before you can add course content in Studio.
+..note::
+  This process applies to courses on the edx.org site. If your course will run
+  on Edge, you create the course and the About page in Studio. For more
+  information, see :ref:`Creating a New Course` or :ref:`Creating a Course
+  About Page`.
+
+When you are ready to create a course, you add your course information in the
+Publisher tool. You must add course information in Publisher as a first step in
+the About page process before you can add course content in Studio.
 
 The topics in this section provide an introduction to the Publisher tool and
 describe the Publisher process, from the time the course team creates a course

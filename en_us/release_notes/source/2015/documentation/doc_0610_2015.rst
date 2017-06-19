@@ -46,7 +46,7 @@ Installing, Configuring, and Running the Open edX Platform
 Building and Running an Open edX Course
 ****************************************
 
-* The new :ref:`opencoursestaff:Setting Up Course Certificates` section
+* The new :ref:`opencoursestaff:Setting Up Certificates` section
   describes how you configure certificates for a course in Studio.
 
 * The new :ref:`opencoursestaff:Manage Course Fees` section describes

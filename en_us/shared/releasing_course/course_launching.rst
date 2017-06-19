@@ -48,7 +48,7 @@ starts follow.
 **Verify Certificates**
 
 * Make sure that certificates are correctly configured and ready to be issued.
-  See :ref:`Setting Up Course Certificates`.
+  See :ref:`Setting Up Certificates`.
 
 **Review First Week Content**
 

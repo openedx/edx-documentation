@@ -54,8 +54,8 @@ your course.
        start the course until the required certificates are
        :ref:`activated<Activate a Certificate>`.
 
-       For information about starting the course, see :ref:`Determine Start and
-       End Dates`.
+       For information about starting the course, see :ref:`Guidelines for
+       Start and End Dates`.
 
     ===================
     Enable Certificates

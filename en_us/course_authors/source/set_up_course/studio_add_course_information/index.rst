@@ -9,8 +9,10 @@ After you create a course and course run in Publisher, you must enter some of th
 .. toctree::
    :maxdepth: 2
 
+   creating_new_course
    studio_scheduling
    studio_course_image
    studio_course_staffing
    studio_creating_certificates
+   creating_about_page
    studio_licensing

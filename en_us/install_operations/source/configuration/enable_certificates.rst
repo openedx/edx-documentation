@@ -17,7 +17,7 @@ Overview
 Organizations and course teams can generate certificates for learners who pass
 a course. Learners can view, print, or share their certificates.
 
-For information about certificates, see :ref:`opencoursestaff:Setting Up Course
+For information about certificates, see :ref:`opencoursestaff:Setting Up
 Certificates` in *Building and Running an Open edX Course* or
 :ref:`openlearners:Print a Web Certificate` in the *Open edX Learner's Guide*.
 
@@ -183,8 +183,8 @@ Assets for HTML certificates exist in the following locations.
   in creating certificates, such as images, fonts, and sass/css files.
 
   .. note:: The organization logo on a certificate is uploaded in Studio. For
-     details, see :ref:`opencoursestaff:Setting Up Course Certificates` in
-     *Building and Running an Open edX Course*.
+     details, see :ref:`opencoursestaff:Setting Up Certificates` in *Building
+     and Running an Open edX Course*.
 
 *****************************************
 Configure Certificates Within Each Course
@@ -194,7 +194,7 @@ Within Studio, course team members with the Admin role can create and edit a
 certificate configuration that is used to generate certificates for their
 course, including adding signatories and images for organization logo and
 signature images for signatories. For details, :ref:`opencoursestaff:Setting Up
-Course Certificates` in *Building and Running an Open edX Course*.
+Certificates` in *Building and Running an Open edX Course*.
 
 .. _Generate Certificates for a Course:
 
