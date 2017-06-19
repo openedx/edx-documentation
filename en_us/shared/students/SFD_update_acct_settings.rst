@@ -105,27 +105,88 @@ To change the full name used in your account, follow these steps.
 #. To save your changes, click anywhere on the page outside of the **Full
    Name** field, or navigate to a different page.
 
-*************************
-Select a Language
-*************************
 
-You can specify the language that you want the site to use during your
-visits.
+.. _Change Language for the Site:
 
-.. note:: This setting changes the appearance of menu options, button labels,
-  and other elements of the site's user interface. It does not apply to course
-  content.
+*********************************
+Change the Language for the Site
+*********************************
 
-To select a language, follow these steps.
+You can choose the language that you want the edx.org site to use during your
+visits. The language setting changes the appearance of menu options, button
+labels, and other elements of the site's user interface, but it does not apply
+to course content.
+
+.. note:: Your dashboard and course pages are available in more languages than
+   the catalog pages where you search for courses and programs. If you
+   choose a language that is not supported on the course and program catalog
+   pages, those pages are displayed in English.
+
+   The list of languages in the language selection dropdown menu in the footer
+   of the page reflects the languages that the page is available in.
+
+
+There are two ways of changing the edx.org site's language.
+
+.. contents::
+ :local:
+ :depth: 1
+
+============================================
+Change the Language in Account Settings
+============================================
+
+To change the site language in your Account settings, follow these steps.
 
 #. At the top of any page, select the dropdown menu icon next to your
    username.
 
 #. Select **Account**.
 
-#. Select a **Language**. The site saves your selection immediately.
+#. Select a **Language**.
 
-   The website is currently available in a limited number of languages.
+Your language selection is immediately saved. When you refresh the page or
+navigate to another page, site pages now display in your selected language.
+
+.. note:: Your dashboard and course pages are available in more languages than
+   the www.edx.org pages where you search for courses and programs. If you
+   choose a language that is not supported on the course and program search
+   pages, those pages are displayed in English.
+
+
+========================================================
+Choose a Language From the Menu in the Page Footer
+========================================================
+
+To choose a language from the menu in the footer of any page, follow these
+steps.
+
+.. note:: The language choices that are available on a particular page
+      reflect the languages that are supported on that page.
+
+      For example, on the www.edx.org catalog pages where you search for courses
+      and programs, fewer languages are available in the language selector
+      dropdown list than on your dashboard and course pages.
+
+#. At the bottom of any page, select the dropdown menu icon next to the globe
+   icon.
+
+   .. image:: ../../shared/images/footer_language_selector.png
+    :width: 600
+    :alt: Use the dropdown menu in the footer of every page to select a language
+      for the site. The choice you make here also changes the language selected in
+      your Account settings.
+
+#. Select the language that you want the site to use.
+
+Your language selection is immediately saved. When you refresh the page or
+navigate to another page, site pages now display in your selected language.
+
+The language choice in your Account settings is also updated.
+
+.. note:: If you choose a language that is not supported on the course and
+     program catalog pages, those pages are displayed in English.
+
 
 *********************************
 Select Your Time Zone or Location
