@@ -496,7 +496,7 @@ sure the RequireJS Optimizer can optimize your modules.
 
 .. _npmjs.com: https://www.npmjs.com/
 
-.. _edX Front End Development: https://openedx.atlassian.net/wiki/display/FEDX/edX+Front+End+Development
+.. _edX Front End Development: https://openedx.atlassian.net/wiki/display/FEDX/Front+End+Development
 
 .. _Sass site: http://sass-lang.com/
 
