@@ -16,4 +16,4 @@ check out the `testing.rst`_ file on GitHub.
     code-coverage
     code-quality
 
-.. _testing.rst: https://github.com/edx/edx-platform/blob/master/docs/en_us/internal/testing.rst
+.. _testing.rst: https://github.com/edx/edx-platform/blob/6d2468d0dcf782a7561ecc61946146d6fae2762f/docs/en_us/internal/testing.rst
