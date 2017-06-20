@@ -10,5 +10,6 @@ Including Learner Cohorts
    cohorts_overview
    cohort_config
    cohorted_courseware
+   verified_track_cohorts
    cohorts_setup_discussions
 
