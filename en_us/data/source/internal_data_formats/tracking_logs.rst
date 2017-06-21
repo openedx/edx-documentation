@@ -4051,7 +4051,8 @@ complete, the server emits an ``edx.forum.thread.created`` event.
 
    * - ``body``
      - string
-     - The text supplied for the new post.
+     - The text supplied for the new post. Truncated if the field contains more
+       than 2000 characters.
 
        Also present for ``edx.forum.response.created`` and
        ``edx.forum.comment.created`` events.
@@ -4115,11 +4116,17 @@ complete, the server emits an ``edx.forum.thread.created`` event.
 
    * - ``title``
      - string
-     - The brief descriptive text supplied to identify the post.
+     - The brief descriptive text supplied to identify the post. Truncated if
+       the title has more than 1000 characters.
+
+   * - ``title_truncated``
+     - Boolean
+     - 'true' only if the title is longer than 1000 characters, which is the
+       maximum included in the event.
 
    * - ``truncated``
      - Boolean
-     - 'true' only if the post was longer than 2000 characters, which is the
+     - 'true' only if the post contains more than 2000 characters, which is the
        maximum included in the event.
 
        Also present for ``edx.forum.response.created`` and
