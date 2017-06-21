@@ -2002,6 +2002,223 @@ course_id
   Oct 2014, use the format ``{org}/{course}/{run}``,  for example,
   ``MITx/6.002x/2012_Fall``.
 
+
+
+.. _Course Grades:
+
+******************
+Course Grades Data
+******************
+
+.. _grades_persistentcoursegrade:
+
+==========================================================
+Columns in the ``grades_persistentcoursegrade`` Table
+==========================================================
+
+The ``grades_persistentcoursegrade`` table stores persistent values for
+learners' course grades.
+
+**History**: Added 17 Jul 2017.
+
+.. list-table::
+     :widths: 15 15
+     :header-rows: 1
+
+     * - Column
+       - Type
+     * - course_id
+       - CourseKey
+     * - user_id
+       - int (11)
+     * - course_edited_timestamp
+       - DateTime
+     * - grading_policy_hash
+       - String (255)
+     * - percent_grade
+       - Float
+     * - letter_grade
+       - String (255)
+     * - passed_timestamp
+       - DateTime
+     * - created
+       - DateTime
+     * - modified
+       - DateTime
+
+
+------------
+course_id
+------------
+  Course key of the containing course. In the format
+  ``course-v1:org+course+run`` for courses created after DATE and in the format
+  ``org/course/run`` for older courses.
+
+------------
+user_id
+------------
+  The learner’s ID in ``auth_user.id``.
+
+------------------------
+course_edited_timestamp
+------------------------
+  Last edited timestamp of the course when the grade was computed. Currently
+  used for debugging purposes only.
+
+-------------------
+grading_policy_hash
+-------------------
+  A SHA-1 digest of the course grading policy that allows edX to detect and
+  update grades whenever the policy changes. For example,
+  ``NiGhcAFSrpyijXbow/XKE1Cp1GA=``.
+
+-------------
+percent_grade
+-------------
+  The learner's calculated course grade as a decimal percentage, per grading
+  policy. For example, ``0.91`` (meaning 91%).
+
+------------
+letter_grade
+------------
+  The learner's calculated course grade as a letter value, per grading policy.
+  If the learner's grade is Fail or F, this cell value is empty. For example,
+  ``Pass`` or ``A``.
+
+-----------------
+passed_timestamp
+-----------------
+  Time when the learner first passed the course. If this cell value is empty,
+  the learner never passed the course. If this cell value is non-empty but the
+  ``letter_grade`` value is empty, the learner transitioned from passing to not
+  passing.
+
+------------
+created
+------------
+  Time the course grade was first calculated for this user for this course.
+
+------------
+modified
+------------
+  Time the course grade was last updated for this user for this course.
+
+
+.. _grades_persistentsubsectiongrade:
+
+==========================================================
+Columns in the ``grades_persistentsubsectiongrade`` Table
+==========================================================
+
+The ``grades_persistentsubsectiongrade`` table stores persistent values for
+learners' subsection grades.
+
+**History**: Added 17 Jul 2017.
+
+.. list-table::
+     :widths: 15 15
+     :header-rows: 1
+
+     * - Column
+       - Type
+     * - course_id
+       - CourseKey
+     * - user_id
+       - Integer
+     * - usage_key
+       - UsageKey
+     * - earned_all
+       - Float
+     * - possible_all
+       - Float
+     * - earned_graded
+       - Float
+     * - possible_graded
+       - Float
+     * - first_attempted
+       - DateTime
+     * - created
+       - DateTime
+     * - modified
+       - DateTime
+
+------------
+course_id
+------------
+  Course key of the containing course. In the format
+  ``course-v1:org+course+run`` for courses created after DATE and in the format
+  ``org/course/run`` for older courses.
+
+------------
+user_id
+------------
+  The learner’s ID in ``auth_user.id``.
+
+------------
+created
+------------
+  Time the subsection grade was first calculated for this user for this course.
+
+------------
+modified
+------------
+  Time the subsection grade was last updated for this user for this course.
+
+------------
+usage_key
+------------
+  Usage key of the subsection. (This is sometimes known as ``module_id`` or
+  ``location``. In the format ``
+  block-v1:org+course+run+type@sequential+block@1234`` for courses created
+  after DATE and in the format ``i4x://org/course/sequential/1234`` for older
+  courses.
+
+------------
+earned_all
+------------
+  The user's aggregated ``total_weighted_earned`` score in the subsection,
+  calculated by summing all ``weighted_earned`` values of all problems in the
+  subsection.
+
+------------
+possible_all
+------------
+  The aggregated ``total_weighted_possible`` score in the subsection,
+  calculated by summing all ``weighted_possible`` values of all problems in the
+  subsection.
+
+-------------
+earned_graded
+-------------
+  The user's aggregated ``total_weighted_earned`` score in the subsection,
+  calculated by summing all ``weighted_earned`` values of all graded problems
+  in the subsection.
+
+---------------
+possible_graded
+---------------
+  The aggregated ``total_weighted_possible`` score in the subsection,
+  calculated by summing all ``weighted_possible`` values of all graded problems
+  in the subsection.
+
+---------------
+first_attempted
+---------------
+  Time of the user's first attempt at a problem in the subsection. If the user
+  has not attempted a subsection, the entry for that subsection will be absent.
+
+------------
+created
+------------
+  Time the subsection grade was first calculated for this user for this
+  subsection.
+
+------------
+modified
+------------
+  Time the subsection grade was last updated for this user for this
+  subsection.
+
 .. _Certificates:
 
 ******************
@@ -2015,18 +2232,37 @@ Columns in the ``certificates_generatedcertificate`` Table
 ==========================================================
 
 The ``certificates_generatedcertificate`` table tracks the state of
-certificates and final grades for a course. The table is populated when a
-script is run to grade all of the learners who are enrolled in the course at
-that time and issue certificates. The certificate process can be rerun and
-this table is updated appropriately.
+certificates that have been issued for a course. You can use this table to
+understand which of your learners received a certificate.
+
+This table stores a "snapshot" of the grade that the learner earned at the time
+of certificate generation. This table does not include a complete record of
+course grades or records for audit learners in courses that have on-demand
+certificates. For more information about how to view grades and passing
+learners, see the :ref:`grades_persistentcoursegrade` table or the
+:ref:`grades_persistentsubsectiongrade` table, or view the
+:ref:`grade report <partnercoursestaff:Access_grades>` that is available
+on the instructor dashboard.
+
+The ``certificates_generatedcertificate`` table is populated in two ways.
+
+* For courses that offer on-demand certificates, rows are updated when a
+  learner requests a certificate or when edX staff triggers a regrade. In these
+  courses, most entries are for learners who are in a certificate eligible
+  track and have passed the course.
+* For other courses, edX runs a script that generates grades for all learners
+  who are enrolled in the course at that time, creates a row for each of these
+  learners, and issues certificates. If edX runs the script again, the script
+  updates the table automatically.
 
 A sample of the heading row and two data rows in the
 ``certificates_generatedcertificate`` table follows.
 
 .. code-block:: sql
 
- id  user_id  download_url  grade  course_id  key  distinction  status  verify_uuid
- download_uuid  name  created_date  modified_date error_reason  mode
+ id  user_id  download_url  grade  course_id  key  distinction  status
+ verify_uuid download_uuid  name  created_date  modified_date error_reason
+ mode
 
  26  9999999
  https://s3.amazonaws.com/verify.edx.org/downloads/9_hash_1/Certificate.pdf
