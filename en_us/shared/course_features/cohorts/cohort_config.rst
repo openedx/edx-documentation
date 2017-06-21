@@ -31,7 +31,7 @@ configuration steps (as applicable).
 
 #. :ref:`Enable cohorts<Enable Cohorts>`.
 
-#. Determine the method you want to use to assign students to cohorts.
+#. Determine the method you want to use to assign learners to cohorts.
 
   * :ref:`Implement an automated assignment strategy<Implementing the Automated
     Assignment Strategy>`
@@ -49,8 +49,14 @@ configuration steps (as applicable).
    For information about divided discussions, see :ref:`About Divided
    Discussions`.
 
-You complete these procedures on the **Cohorts** tab on the Instructor
-Dashboard.
+You complete these procedures on the **Cohorts** and **Discussions** tabs on
+the Instructor Dashboard.
+
+.. note:: On the **Cohorts** tab, the number of learners shown next to each
+   cohort name in the **Select a cohort** list includes only learners who are
+   enrolled in the course. The number does not include preassigned learners
+   who either do not yet have an edX account or are not enrolled in your
+   course.
 
 For an optimal learner experience, you should make sure that configuration of
 the cohort feature is as complete as possible before the start date of your
@@ -67,17 +73,17 @@ Implementing an Automated Assignment Strategy
 To implement an automated assignment strategy of learners to cohorts, you
 :ref:`enable the cohort feature<Enable Cohorts>` for your course, and
 :ref:`create cohorts<Add Cohorts>` that have the **Automatic**
-:ref:`assignment method<Changing the Assignment Method of a Cohort>`. To
-add learners to these cohorts, you do not need to take any action: the
-system automatically and randomly assigns learners to the available automatic
-cohorts when they first access any course content or discussion on the
-**Course** or **Discussion** pages. Learners who access the **Home** page or
-other course pages such as a **Textbook** page do not receive a cohort
-assignment until they view course content or discussions.
+:ref:`assignment method<Changing the Assignment Method of a Cohort>`. To add
+learners to these cohorts, you do not need to take any action: the system
+automatically and randomly assigns learners to the available automatic cohorts
+when they first access any course content or divided discussions. Learners who
+access the **Home** page or other course pages such as a **Textbook** page do
+not receive a cohort assignment until they view course content or divided
+discussions.
 
-.. note:: You can :ref:`add learners manually<Assign Learners to Cohorts
-   Manually>` to any cohort, whether it was created as an automated cohort or a
-   manual cohort.
+.. note:: You can :ref:`add learners manually<Assign Learners to Cohorts Manually>`
+    to any cohort, whether it was created as an automated cohort or a
+    manual cohort.
 
 For a scenario using an automated assignment strategy, see :ref:`All Automated
 Assignment`. For a scenario using a combination of automated and manual
@@ -112,14 +118,18 @@ To implement a manual assignment strategy of learners to cohorts, you
 method<Changing the Assignment Method of a Cohort>`. Then, you manually assign
 enrolled learners to the appropriate cohorts.
 
-.. note:: You can only add learners to a cohort manually if they have enrolled
-   in your course.
+.. note:: It is not a requirement that learners have enrolled in your course
+   or registered on edx.org for you to add them to a cohort. For learners who
+   have not yet created an edx.org account, you must provide a valid email
+   address. For learners who have an edx.org account but have not yet enrolled
+   in your course, you can provide either a valid email address or a
+   recognized edx.org username.
 
-Manual assignments should be as complete as possible before your course
-starts. If learners enroll after your course starts, you should continue to
-assign new learners to cohorts. If you need to make changes to the way you
-have configured cohorts while your course is running, see :ref:`Altering
-Cohort Configuration`.
+Manual assignments should be as complete as possible before your course starts.
+If learners enroll after your course starts, you should assign new learners to
+cohorts as soon as possible. If you need to make changes to the way you have
+configured cohorts while your course is running, see :ref:`Altering Cohort
+Configuration`.
 
 For a scenario using a manual assignment strategy, see :ref:`All Manual
 Assignment`. For a scenario using a combination of automated and manual
@@ -182,11 +192,11 @@ add a cohort to your course, follow these steps.
 Continue implementing your cohort strategy by creating additional cohorts as
 applicable, and specifying the assignment method for each cohort.
 
-.. note:: When your course starts, you must have at least one cohort in your
-   course that has automatic assignment. If you have not created at least one
-   automated assignment cohort in the course by the time that the first learner
-   accesses your course content, edX creates a default cohort to which learners
-   are automatically assigned.
+.. note:: By the time your course starts, you must have at least one cohort in
+   your course that is automatically assigned. If you have not created at
+   least one automated assignment cohort in the course by the time that the
+   first learner accesses your course content or a divided discussion topic,
+   edX creates a default cohort to which learners are automatically assigned.
 
 For details about adding learners to a cohort by uploading a .csv file, see
 :ref:`Assign Learners to Cohort Groups by uploading CSV`.
@@ -208,13 +218,15 @@ Assign Learners to Cohorts Manually
 
 If you have implemented a manual assignment strategy for cohorts in your
 course, make sure your manual assignments are as complete as possible before
-your course starts. Making changes to cohort assignments after the course
-starts affects the course experience for learners.
+your course starts. If learners enroll after your course starts, you should
+assign new learners to cohorts as soon as possible.
+
+.. note:: Making changes to cohort assignments after the course starts can
+   affect the course experience for learners. Learners might no longer have
+   access to course and discussion topics that were previously visible to
+   them. For more information, see :ref:`Altering Cohort Configuration`.
 
 To manually assign learners to cohorts in your course, follow these steps.
-
-.. note:: You can only add learners to a cohort manually if they have enrolled
-   in your course.
 
 #. View the live version of your course. For example, in Studio click **View
    Live**.
@@ -224,29 +236,45 @@ To manually assign learners to cohorts in your course, follow these steps.
 #. Scroll to the **Cohort Management** section at the bottom.
 
 #. From the **Select a cohort** list, select the cohort to which you want to
-   manually assign students.
+   manually assign learners.
 
-#. On the **Manage Students** tab, under **Add students to this cohort** enter
-   the username or email address of a single student, or enter multiple
+#. On the **Manage Learners** tab, under **Add learners to this cohort** enter
+   the username or email address of a single learner, or enter multiple
    usernames or addresses separated by commas or new lines. You can copy data
    from a .csv file of email addresses or usernames, and paste it into this
    field.
 
-#. Select **Add Students**. The learners you added are assigned to the selected
-   manual cohort. A message appears to indicate the number of learners who were
-   added to the cohort. Because learners can belong to only one cohort, adding a
-   learner to a cohort removes them from any cohort they were previously assigned
-   to. Therefore, the message also indicates the number of learners whose
-   assignment to another cohort was changed as a result of your adding them to
-   another cohort using this procedure.
+   .. note:: It is not a requirement that learners have enrolled in your
+      course or registered on edx.org for you to manually add them to a
+      cohort. For learners who have not yet created an edx.org account, you
+      must provide a valid email address. For learners who have an edx.org
+      account but have not yet enrolled in your course, you can provide either
+      a valid email address or a recognized edx.org username.
 
- .. note:: The number of learners reported on the **Cohorts** tab and in
-    downloaded reports includes only those learners who are enrolled in the
-    course.
+#. Select **Add Learners**.
 
-For a report that includes the cohort assignment for every enrolled learner,
-review the learner profile information for your course. See :ref:`View and
-download student data`.
+   Learners you added who have edX accounts are assigned to the selected
+   cohorts. A confirmation message indicates the number of learners who were
+   successfully added to the cohort.
+
+   Learners you added who do not yet have edX accounts are listed as
+   "Preassigned" to the cohort. When preassigned learners enroll in the
+   course, they are automatically added to the cohort.
+
+   If some learners that you listed could not be added to cohorts, an error
+   message lists the email addresses or usernames of learners who could not be
+   added to the cohort.
+
+.. note:: Because learners can belong to only one cohort, adding a learner to a
+   cohort moves them from any cohort they were previously assigned to. The
+   confirmation message indicates the number of learners who were moved from
+   their previous cohort assignment as a result of your adding them to the
+   current cohort.
+
+For a report that includes cohort assignments for your course, review the
+learner profile information for your course. See :ref:`View and download
+student data`.
+
 
 .. _Assign Learners to Cohort Groups by uploading CSV:
 
@@ -259,27 +287,33 @@ want to assign them to is another way of assigning learners to cohorts
 manually. For details about the other manual assignment method, see
 :ref:`Assign Learners to Cohorts Manually`.
 
-.. note:: You can only add learners to a cohort using a .csv file if they have
-   enrolled in your course.
 
-Any assignments to cohorts that you specify in the .csv files you upload
-will overwrite or change existing cohort assignments. The configuration of
-your cohorts should be complete and stable before your course begins. You
-should also complete manual cohort assignments as soon as possible after any
-learner enrolls, including any enrollments that occur while your course is
-running. To understand the effects of changing cohort assignments after your
-course has started, see :ref:`Altering Cohort Configuration`.
 
-.. note:: Be aware that the contents of the .csv file are processed row by row,
-  from top to bottom, and each row is treated independently.
+Any assignments to cohorts that you specify in the .csv files you upload will
+overwrite or change existing cohort assignments. The configuration of your
+cohorts should be complete and stable before your course begins. You should
+complete manual cohort assignments as soon as possible after any learner
+enrolls, especially for enrollments that occur after your course has started.
+To understand the effects of changing cohort assignments after your course has
+started, see :ref:`Altering Cohort Configuration`.
 
-  For example, if your .csv file contains conflicting information such as
-  Student A being first assigned to Cohort 1, then later in the spreadsheet
-  being assigned to Cohort 2, the end result of your .csv upload is that
-  Student A is assigned to Cohort 2. However, the upload results file will
-  count Student A twice in the "Students Added" count: once when they are added
-  to Cohort 1, and again when they are added to Cohort 2. Before submitting a
-  file for upload, check it carefully for errors.
+.. note:: Be aware that the contents of the .csv file are processed row by
+   row, from top to bottom, and each row is treated independently. If the same
+   learner is assigned to different cohorts in different rows in the
+   spreadsheet, the last assignment to be performed is that learner's final
+   assignment.
+
+    For example, if in your .csv file Learner A is first assigned to Cohort 1,
+    then later in the spreadsheet is assigned to Cohort 2, the end result of
+    your .csv upload is that Learner A is assigned to Cohort 2. However, the
+    upload results file will include Learner A twice in the "Learners Added"
+    count: once when they are added to Cohort 1, and again when they are added
+    to Cohort 2. Before submitting a file for upload, check it carefully for
+    duplicated learners and other errors.
+
+    If the same learner is assigned to a cohort that they already belong to,
+    they are not included in the count of "Learners Added".
+
 
 The requirements for the .csv file are summarized in this table.
 
@@ -295,10 +329,11 @@ The requirements for the .csv file are summarized in this table.
         * The file extension is .csv.
         * Every row must have the same number of commas, whether or not there
           are values in each cell.
+
     * - File size
       - The file size of .csv files for upload is limited to a maximum of 2MB.
-    * - UTF-8 encoded
 
+    * - UTF-8 encoded
       - You must save the file with UTF-8 encoding so that Unicode characters
         display correctly.
 
@@ -306,21 +341,22 @@ The requirements for the .csv file are summarized in this table.
 
     * - Header row
       - You must include a header row, with column names that exactly match
-         those specified in "Columns" below.
-    * - One or two columns identifying students
-      - You must include at least one column identifying students:
+        those specified in "Columns" below.
+
+    * - One or two columns identifying learners
+      - You must include at least one column identifying learners:
         either "email" or "username", or both.
 
-        If both the username and an email address are provided for a student,
-        the email address has precedence.
+        To preassign learners who do not yet have edX accounts, you must
+        provide their email addresses in an "email" column.
 
-        In other words, if an email address is present, an incorrect or non-
-        matching username is ignored.
+        If both the username and an email address are provided for a learner,
+        the email address has precedence. In other words, if an email address
+        is present, an incorrect or unrecognized username is ignored.
 
     * - One column identifying the cohort
-
       - You must include one column named "cohort" to identify the cohort
-        to which you are assigning each student.
+        to which you are assigning each learner.
 
         The specified cohorts must already exist in Studio.
 
@@ -329,8 +365,13 @@ The requirements for the .csv file are summarized in this table.
         ignored.
 
 
-To manually add enrolled learners to cohorts by uploading a .csv file, follow
-these steps.
+To manually add learners to cohorts by uploading a .csv file, follow these
+steps.
+
+.. note:: To add learners who do not yet have edX accounts to cohorts using a
+   .csv file upload, you must provide their email addresses in a column with
+   the heading "email". Learners without edX accounts are "preassigned" to
+   cohorts; they are not included in the count of learners "added" to cohorts.
 
 #. View the live version of your course. For example, in Studio, select **View
    Live**.
@@ -360,24 +401,42 @@ The results file provides the following information:
 
     * - **Column**
       - **Description**
+
     * - Cohort
       - The name of the cohort to which you are assigning learners.
+
     * - Exists
       - Whether the cohort was found in the system. TRUE/FALSE.
 
-        If the cohort was not found (value is FALSE), no action is taken for students you assigned to that cohort in the .csv file.
+        If the cohort was not found (value is FALSE), no action is taken for
+        learners who you assigned to that cohort in the .csv file.
 
-    * - Students Added
+    * - Learners Added
       - The number of learners added to the cohort during the row by row
-        processing of the .csv file.
-    * - Students Not Found
-      - A list of email addresses or usernames (if email addresses were not
-        supplied) of learners who could not be matched by either email address
-        or username and who were therefore not added to the cohort.
+        processing of the .csv file. This number does not include learners who
+        are not enrolled in the course.
+
+    * - Learners Not Found
+      - A list of the usernames of learners that could not be matched and who
+        were therefore not added to the cohort.
+
+    * - Invalid Email Addresses
+      - A list of email addresses that were not valid. These learners could
+        not be added to the cohort.
+
+    * - Preassigned Learners
+      - The email addresses of learners who do not yet have an edX account but
+        who you have preassigned to a cohort using their email addresses.
+        These learners are not included in the count of "Learners Added". When
+        these preassigned learners create an edX account and enroll in your
+        course, they are automatically added to the cohorts that you
+        preassigned them to.
+
 
 For a report that includes the cohort assignment for every enrolled learner,
 review the learner profile information for your course. See :ref:`View and
 download student data`.
+
 
 .. _Creating a Unicode Encoded CSV File:
 
@@ -418,7 +477,7 @@ consequences of these actions.
 .. _Changing Student Cohort Assignments:
 
 ***************************************************
-Change Student Cohort Assignments
+Change Learner Cohort Assignments
 ***************************************************
 
 After your course starts and learners begin to contribute to the course

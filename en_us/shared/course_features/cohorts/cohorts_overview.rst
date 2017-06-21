@@ -4,46 +4,15 @@
 Using Cohorts in Your Courses
 #############################
 
-This section provides an introduction to using cohorts.
+This section provides an introduction to using cohorts to divide the learners
+in your course into smaller groups.
 
 .. contents::
   :local:
   :depth: 1
 
-*********
-Overview
-*********
-
-To create smaller communities in your course, or design different
-course experiences for different groups of learners, you can :ref:`set up
-cohorts<Enabling and Configuring Cohorts>` in your course.
-
-In discussion topics that are divided by cohort, learners can also communicate
-and share experiences privately within the cohort that they are assigned to.
-Cohort-specific discussion opportunities can help learners develop a sense of
-community, provide specialized experiences, and encourage deeper, more
-meaningful course involvement.
-
-If you use cohorts in your course, you define a set of cohorts that reflect
-communities of learners, then select a strategy for :ref:`assigning learners to
-cohorts<Options for Assigning Learners to Cohorts>`.
-
-.. note::
-   * Every learner must be assigned to a cohort. This ensures that
-     every learner has the ability to read and contribute to course discussion
-     topics.
-
-   * Each learner can be in one and only one cohort.
-
-   To provide learners with a consistent experience throughout the course run,
-   do not change cohort configuration or a learner's cohort assignment after
-   your course begins.
-
-   The number of learners reported on the **Cohorts** tab and in
-   downloaded reports includes only those learners who are enrolled in the
-   course.
-
-For more information about using cohorts, see the following topics.
+For more information about setting up and managing cohorts, see the following
+topics.
 
 * :ref:`Enabling and Configuring Cohorts`
 
@@ -54,30 +23,85 @@ For more information about using cohorts, see the following topics.
 
 For information about discussions in general, see :ref:`Discussions`.
 
+
+*********
+Overview
+*********
+
+To create smaller communities in your course, or to design different course
+experiences for different groups of learners, you can :ref:`set up
+cohorts<Enabling and Configuring Cohorts>` in your course.
+
+To use cohorts in your course, you define a set of cohorts that are either
+random or that reflect some characteristic of the communities of learners in
+your course. Then, you decide on a strategy for :ref:`assigning learners to
+these cohorts<Options for Assigning Learners to Cohorts>`.
+
+With learners divided into smaller groups based on cohort, you can give
+learners a course experience that is specific to the cohort that they belong
+to. You can divide discussion topics by cohort so that learners only interact
+with other members of the same cohort. You can create course content in such a
+way that learners in different cohorts are offered different variations of
+assignments or exams.
+
+
+.. note::
+
+   * Every learner must be assigned to a cohort. This ensures that every
+     learner has the ability to read and contribute to course discussion
+     topics.
+
+   * Each learner can be in one and only one cohort.
+
+   To provide learners with a consistent experience throughout the course run,
+   do not change cohort configuration or a learner's cohort assignment after
+   your course begins.
+
+
+
+
+
 .. _Options for Assigning Learners to Cohorts:
 
 *****************************************
 Options for Assigning Learners to Cohorts
 *****************************************
 
-Learners are assigned to cohorts either automatically or manually, depending
-on the types of cohorts that you create. Manual cohorts do not have
-learners assigned to them unless you manually add learners. Automatic cohorts
-have learners randomly assigned to them if learners do not belong to any cohort
-by the time they access the course content (including the course **Discussion**
-page or content-specific discussion topics). If you have not created any
-automated cohorts by the time learners access course content, a default
+Learners are assigned to cohorts either :ref:`automatically<About Auto
+Cohorts>` or :ref:`manually<Assign Learners to Cohorts Manually>`, depending
+on the types of cohorts that you create.
+
+Manual cohorts do not have learners assigned to them unless you manually add
+learners. Automatic cohorts have learners randomly assigned to them if
+learners do not belong to any cohort by the time they access the course
+content (including the course **Discussion** page or content-specific
+discussion topics, if discussion topics are divided). If you have not created
+any automated cohorts by the time learners access course content, a default
 automated cohort is created and used for automatic assignment, so that no
 learner in the course is without a cohort.
 
-Determine the basic strategy that you will use to create cohorts. An automated
-assignment strategy means that you create cohorts to which learners are
-assigned automatically and randomly. A manual assignment strategy means that
-you create cohorts to which learners are assigned only when you or your course
-team manually adds them. You can use a hybrid assignment method by creating a
-combination of automated and manual cohorts. Typically, your purpose in
-including the cohort feature determines which assignment option you use for
-your course.
+Determine the basic strategy that you will use to create cohorts. Typically,
+your purpose in including the cohort feature determines which assignment
+option you use for your course.
+
+An :ref:`automated assignment strategy<Implementing the Automated Assignment
+Strategy>` means that you create cohorts to which learners are assigned
+automatically and randomly. Automated assignment works well if, for example,
+you are creating cohorts simply to create small groups of learners. Automated
+assignment means that learners are assigned randomly to cohorts as they access
+course content and divided discussion topics. The cohorts that result from
+automated random assignment are likely to be more equal in size.
+
+A :ref:`manual assignment strategy<Implementing the Manual Assignment
+Strategy>` means that learners are assigned only to the cohorts you have
+created when you or your course team manually adds them. A manual assignment
+strategy makes sense if you want to create cohorts based on some
+characteristic of your learners. For example, if you want alumni from your
+institution to have a particular course experience, you can create an alumni
+cohort and manually assign learners who you know are alumni to that cohort.
+
+You can use a :ref:`hybrid assignment method<Hybrid Assignment>` by creating a
+combination of automated and manual cohorts.
 
 .. note:: You can add learners manually to any cohort, whether it was created
    as an automated cohort or a manual cohort.
@@ -91,8 +115,8 @@ your course.
    consistent experience throughout the course run, do not change cohort
    configuration or a learner's cohort assignment after your course begins.
 
-For more information about strategies for assigning learners to cohorts, see
-the following topics.
+For use cases and examples of the strategies for assigning learners to cohorts,
+see the following topics.
 
 * :ref:`All Automated Assignment`
 
@@ -119,7 +143,7 @@ If you use the automated assignment strategy, you create several "auto"
 the auto cohorts when they first view any course content on the **Course** or
 **Discussion** page. In this way, each learner who engages with the course
 content or its discussion community is assigned to a cohort. No learner who
-particpates in these ways remains unassigned.
+participates in these ways remains unassigned.
 
 The following guidelines are based on the experiences of MOOC teams that have
 used cohorts in this way. They are suggested to help you determine how many
@@ -130,7 +154,7 @@ automated cohorts to define for your course.
   develop. Cohorts formed by random assignment tend to be successful if they
   include between 200 and 500 members.
 
-* For every 10,000 students who enroll, approximately 200 to 400 students
+* For every 10,000 learners who enroll, approximately 200 to 400 learners
   remain active in the discussions throughout the course run.
 
 * Divide the estimated total enrollment of the course run by 10,000.
@@ -138,7 +162,7 @@ automated cohorts to define for your course.
 * Use the result as the number of automated cohorts to create.
 
 For example, two days before it starts, a course has an enrollment of 80,000
-students. To create small communities within the discussions, the course team
+learners. To create small communities within the discussions, the course team
 enables cohorts and then creates eight automated cohorts. As learners visit the
 **Discussion** page or view the course content, they are randomly assigned to
 one of the eight cohorts. In divided discussion topics, learners read and
@@ -200,7 +224,7 @@ define existing cohorts in the student body. You also decide whether you want
 the remaining learners in the course to be divided into their own, similarly-
 sized cohorts, or if you want them all to be in just one other cohort.
 
-After you enable cohorts, you create a manual cohort for each student group
+After you enable cohorts, you create a manual cohort for each learner group
 that you identified. You manually assign learners who belong to each group to
 the corresponding cohort. You also set up automated cohorts for the other
 learners in the course, or rely on the default automated cohort. Any learners
