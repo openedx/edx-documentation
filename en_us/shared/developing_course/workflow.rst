@@ -90,7 +90,10 @@ able to see it. Content visibility depends on several factors.
   you configure
 * The :ref:`publishing status<Hide a Unit from Students>` of the unit
 * The :ref:`Hide content from learners<Hide a Unit from Students>` setting
-* The use of :ref:`content groups<Content Groups>`
+
+* Using :ref:`content groups<Content Groups>` or :ref:`enrollment track
+  groups<Enrollment Track Groups>` to restrict access to specific content.
+
 * The use of the :ref:`Results Visibility<Problem Results Visibility>`
   setting
 

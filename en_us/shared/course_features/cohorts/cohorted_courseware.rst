@@ -36,9 +36,8 @@ In Studio
 
 #. :ref:`Enable cohorts in your course<Enabling and Configuring Cohorts>`.
 #. :ref:`Create content groups<Creating Content Groups>`.
-#. :ref:`Specify course components as available only to particular content
-   groups<Specify Components in Courseware as Available Only to Certain Content
-   Groups>`.
+#. :ref:`Specify components or units as available only to particular content
+   groups<Specify Content as Available Only to Certain Content Groups>`.
 
 In the LMS
 
@@ -120,6 +119,7 @@ only learners in those cohorts will see the designated content.
 For an example of using content groups to create cohort-specific course
 content, see :ref:`Cohorted Courseware Example`.
 
+
 .. _Creating Content Groups:
 
 *********************
@@ -150,113 +150,43 @@ You associate each content group with one or more cohorts in the LMS, on the
 instructor dashboard. For details, see :ref:`Associate Cohorts with Content
 Groups`.
 
-.. _View Usage of a Content Group:
 
-*************************************
-View Usage of a Content Group
-*************************************
-
-To view the units that are available to a content group, follow these steps.
-
-#. In Studio, select **Settings**, then select **Group Configurations**.
-
-#. On the **Group Configurations** page, locate the content group for which you
-   want to view the usage.
-
-   The content group's box displays whether the content group is used in this
-   course. If it is used, you see the number of units that it is used in.
-
-#. Click the content group name to view the names of units and components that
-   are available to this group.
-
-#. Click a linked unit name to go to that unit in the course outline, where
-   you can change that unit's :ref:`visibility settings<Content Hidden from
-   Students>`. You can also :ref:`make some components available only to certain
-   content groups<Specify Components in Courseware as Available Only to Certain
-   Content Groups>`.
-
-For details about previewing your course to ensure that learners in a cohort
-correctly see the content intended for them, see :ref:`Viewing Cohort Specific
-Courseware`. For details about deleting content groups, see :ref:`Delete
-Content Groups`.
-
-.. _Delete Content Groups:
-
-*********************
-Delete Content Groups
-*********************
-
-.. note:: You can delete a content group only if it is not in use in any course
-   unit. To delete a content group that is currently in use, you must first
-   remove it from any course unit visibility settings that use the content
-   group. For information about seeing which units use a content group, see
-   :ref:`View Usage of a Content Group`.
-
-#. In Studio, select **Settings**, then select **Group Configurations**.
-
-#. On the **Group Configurations** page, locate the content group that you want
-   to delete.
-
-#. Move your cursor over the content group's box, then select the **Delete**
-   icon.
-
-#. In the confirmation message, select **Delete** again to confirm the
-   deletion.
-
-.. _Specify Components in Courseware as Available Only to Certain Content Groups:
+.. _Specify Content as Available Only to Certain Content Groups:
 
 ******************************************************************
-Specify Components as Available Only to Particular Content Groups
+Specify Content as Available Only to Particular Content Groups
 ******************************************************************
 
-In Studio, you can modify the settings of components to give access only to
-learners in particular content groups.
+In Studio, you can modify the settings of units or components to give access
+only to learners who are in cohorts associated with particular content groups.
+You cannot specify entire subsections or sections for restricted access by
+particular content groups.
 
-You can specify whether a component within a unit has restricted access based
-on content groups. You cannot specify entire units, subsections, or sections
-for restricted access by particular content groups.
+You do not need to edit the access settings of units or components that are
+intended for all learners. Units or components that you do not restrict access
+to are available to all learners enrolled in your course, regardless of the
+cohort that they belong to.
 
-.. note:: You do not need to edit the access settings of components that are
-   intended for all learners. Components that you do not restrict access to
-   are available to all learners enrolled in your course, regardless of the
-   cohort that they belong to.
+.. note:: If a unit has group access restrictions set, all of its child
+   components inherit these group access restrictions unless you explicitly
+   set different group access restrictions for individual child components.
 
-In a separate task, you create cohorts and content groups, and then associate
-each content group with one or more cohorts. Then, only the cohorts associated
-with content groups that you selected in a component's access settings
-can view the component. See :ref:`Associate Cohorts with Content Groups` for
-details about associating cohorts with content groups.
+For details about how to modify unit access settings, see :ref:`Set Access
+Restrictions For a Unit`.
 
-To specify components as available only to particular content groups, follow
-these steps.
-
-#. In Studio, select **Content**, then select **Outline**.
-
-#. On a unit page, for each component that you want to make available only to a
-   particular content group or groups, select the unit name, then select the
-   **Access Settings** icon.
-
-#. In the **Editing access** dialog, for the **Restrict access to** option,
-   select **Specific Content Groups**, then select the checkbox for each
-   content group for which you want the current component to be available.
-
-#. Select **Save**.
-
-The publishing details for the course section in the sidebar indicate that
-access to some components in the unit is restricted to specific groups of
-learners. In addition, for each component for which you have specified
-restricted access, a message indicating which groups have access to the
-component is displayed beneath the component title.
+For details about how to modify component access settings, see :ref:`Set Access
+Restrictions For a Component`.
 
 For details about previewing your course to ensure that learners in a cohort
-correctly see the content intended for them, see :ref:`Viewing Cohort Specific
-Courseware`.
+correctly see the content intended for them, see :ref:`View Usage of a Content
+Group` and :ref:`Viewing Cohort Specific Courseware`.
 
 .. note:: In addition to access settings for content groups, a learner's
    ability to see a course component also depends on whether it is marked as
    visible to staff only, whether the unit is published, and the course's
    release date. For details about testing course content in general, see
    :ref:`Testing Your Course Content`.
+
 
 .. _Associate Cohorts with Content Groups:
 
@@ -308,12 +238,12 @@ content, see :ref:`Cohorted Courseware Example`.
 Viewing Cohort-Specific Course Content
 **************************************
 
-After you restrict access to components to particular content groups, you can
-view your course content as a member of a content group to ensure that members
-of each group correctly see the content intended for them.
+After you restrict access to units or components to particular content groups,
+you can view your course content as a member of a content group to ensure that
+members of each group correctly see the content intended for them.
 
 .. note:: In addition to access settings for content groups, a learner's
-   ability to see a course component also depends on whether it is marked as
+   ability to see a unit or component also depends on whether it is marked as
    visible to staff only, whether the unit is published, and the component's
    release date. For details about viewing course content in various publishing
    states, see :ref:`View Published Content` and :ref:`Preview Unpublished
@@ -328,3 +258,56 @@ Content`.
 
 For details about testing course content, see :ref:`Testing Your Course
 Content`.
+
+
+.. _View Usage of a Content Group:
+
+*************************************
+View Usage of a Content Group
+*************************************
+
+To view the components or units that have been made available to learners in
+each of the content groups in your course, follow these steps.
+
+#. In Studio, select **Settings**, then select **Group Configurations**.
+
+#. On the **Group Configurations** page, locate the content group for which you
+   want to view the usage.
+
+   The content group's box displays the number of locations (units or
+   components) that are designated for learners in cohorts associated with
+   that content group.
+
+#. Click the content group name to view the names of units and components that
+   that are specified as available to learners in the group.
+
+#. Click a linked location name to go to that unit in the course outline, where
+   you can change the group access settings for the unit or component.
+
+For details about previewing your course to ensure that learners in a cohort
+correctly see the content intended for them, see :ref:`Viewing Cohort Specific
+Courseware`.
+
+
+.. _Delete Content Groups:
+
+*********************
+Delete Content Groups
+*********************
+
+.. note:: You can delete a content group only if it is not in use in any course
+   unit. To delete a content group that is currently in use, you must first
+   remove it from any course unit visibility settings that use the content
+   group. For information about seeing which units use a content group, see
+   :ref:`View Usage of a Content Group`.
+
+#. In Studio, select **Settings**, then select **Group Configurations**.
+
+#. On the **Group Configurations** page, locate the content group that you want
+   to delete.
+
+#. Move your cursor over the content group's box, then select the **Delete**
+   icon.
+
+#. In the confirmation message, select **Delete** again to confirm the
+   deletion.
