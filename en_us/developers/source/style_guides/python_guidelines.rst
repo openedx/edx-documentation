@@ -151,9 +151,9 @@ is a fixed, named set of attributes), and it helps prevent accidental errors
 of either setting new attributes into the dictionary (which might, for
 instance, get serialized unexpectedly), or might be typos.
 
-***********************
+**********
 Docstrings
-***********************
+**********
 
 Follow `PEP 257`_.
 
@@ -161,21 +161,23 @@ Follow `PEP 257`_.
 * Always format docstrings using the multi-line convention, even if there's only
   one line of content (see below).
 * Use three double-quotes for all docstrings.
-* Start with a one-line summary. If you can't fit a summary in one line, think harder, or refactor the code.
-* Write in Sphinx-friendly prose style. Put backquotes around code names (variables, parameters, methods, etc).
+* Start with a one-line summary. If you can't fit a summary onto one line, think
+  harder, or refactor the code.
+* Write in Sphinx-friendly prose style. Put double backquotes around code names
+  (variables, parameters, methods, etc).
 
 The preferred style is so-called "Google Style" with readable headers for
 different sections, and all arguments and return values defined.
 
 .. note:: There is one exception to the preferred style. REST APIs created
    using Django REST Framework (DRF) must use a hybrid format that is suitable
-   both for DRF and ReadTheDocs. This format is documented here:
-   https://openedx.atlassian.net/wiki/display/AC/edX+REST+API+Conventions#edXRESTAPIConventions-docstringsDocstringFormat
+   both for DRF and ReadTheDocs. For more information see the
+   `edX REST API Conventions`_.
 
 For additional information see these references.
 
-* http://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html
-* https://google-styleguide.googlecode.com/svn/trunk/pyguide.html?showone=Comments#Comments
+* `Google Python Style Guide`_
+* `Example Google Style Python Docstrings`_ (from Sphinx)
 
 Here's how you write documentation in a mostly "Google Style" manner::
 
@@ -191,12 +193,12 @@ Here's how you write documentation in a mostly "Google Style" manner::
 
         Returns:
             bool: Description of return value
-
         """
 
 .. note:: There are some exceptions:
 
-  * The summary line is on the second line, including single-line comments (see below)
+  * The summary line is on the second line, including single-line comments
+    (see below)
   * Use the full word "Arguments".
 
 Most of our code is written using an older style::
@@ -215,7 +217,6 @@ Most of our code is written using an older style::
 
         Returns a dict with two keys: `total` is a float, the student's total
         score, and `outof` is the maximum possible score.
-
         """
 
 If you only have a single line in your docstring, first consider that this is
@@ -244,22 +245,17 @@ References
 
 * `PEP 8`_
 * `PEP 257`_
-* https://docs.djangoproject.com/en/1.5/internals/contributing/writing-code/coding-style/
-* https://python-guide.readthedocs.io/en/latest/
-* http://google-styleguide.googlecode.com/svn/trunk/pyguide.html
-* http://www.nilunder.com/blog/2013/08/03/pythonic-sensibilities/
+* `Google Python Style Guide`_
+* `Django Coding Style`_
+* `The Hitchhiker’s Guide to Python`_
+* `Pythonic Sensibilities`_
 
+.. _Django Coding Style: https://docs.djangoproject.com/en/1.11/internals/contributing/writing-code/coding-style/
+.. _edX REST API Conventions: https://openedx.atlassian.net/wiki/display/AC/edX+REST+API+Conventions#edXRESTAPIConventions-docstringsDocstringFormat
+.. _Example Google Style Python Docstrings: https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html
+.. _Google Python Style Guide: https://google.github.io/styleguide/pyguide.html?showone=Comments#Comments
 .. _isort: https://github.com/timothycrosley/isort
 .. _PEP 8: http://www.python.org/dev/peps/pep-0008/
 .. _PEP 257: http://www.python.org/dev/peps/pep-0257/
-
-
-
-
-
-
-
-
-
-
-
+.. _Pythonic Sensibilities: http://www.nilunder.com/blog/2013/08/03/pythonic-sensibilities/
+.. _The Hitchhiker’s Guide to Python: https://python-guide.readthedocs.io/
