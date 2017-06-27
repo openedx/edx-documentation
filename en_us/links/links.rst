@@ -524,3 +524,23 @@
 .. _python-social-auth documentation: http://python-social-auth.readthedocs.io/en/latest/index.html
 
 .. _the default value in the aws.py file: https://github.com/edx/edx-platform/blob/b3462e5b1c3cc45ad8673f3f12e84fa17ffa6b64/lms/envs/aws.py#L586-L596
+
+.. _Media formats supported by the HTML audio and video elements: https://developer.mozilla.org/en-US/docs/Web/HTML/Supported_media_formats#MP4_H.264_(AAC_or_MP3)
+
+.. _editing object metadata: http://docs.aws.amazon.com/AmazonS3/latest/UG/EditingtheMetadataofanObject.html
+
+.. _Amazon S3: http://aws.amazon.com/s3/
+
+.. _YouTube: http://www.youtube.com
+
+.. _3Play Media: http://www.3playmedia.com
+
+.. _Cielo24: http://www.cielo24.com
+
+.. _Creating Videos: https://courses.edx.org/courses/edX/edX101/2014/courseware/c2a1714627a945afaceabdfb651088cf/9dd6e5fdf64b49a89feac208ab544760/
+
+.. _edX101 Overview of Creating an edX Course: https://www.edx.org/node/5496#.VH8p51fF_FA
+
+.. _12 Principles of Multimedia Learning: http://hartford.edu/academics/faculty/fcld/data/documentation/technology/presentation/powerpoint/12_principles_multimedia.pdf
+
+.. _List of ISO 639-1 codes: http://en.wikipedia.org/wiki/List_of_ISO_639-1_codes

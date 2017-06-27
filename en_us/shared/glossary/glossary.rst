@@ -20,16 +20,23 @@ Glossary
 A
 ****
 
+.. _AAC:
+
+**AAC**
+
+ Advanced audio coding (AAC) is an audio coding standard for digital audio
+ compression. AAC is the standard format for YouTube.
+
 .. _AB Test:
 
-**A/B Test**
+**A/B test**
 
   See :ref:`partnercoursestaff:Content Experiment`.
 
 
 .. _About Page:
 
-**About Page**
+**About page**
 
   The course page that provides potential learners with a course summary,
   prerequisites, a course video and image, and important dates.
@@ -40,7 +47,7 @@ A
   Announcing a Course`.
 
 
-**Accessible Label**
+**accessible label**
 
   In a problem component, you use special formatting to identify the specific
   question that learners will answer by selecting options or entering text or
@@ -59,16 +66,24 @@ A
 
 .. _Advanced Editor_g:
 
-**Advanced Editor**
+**advanced editor**
 
   An OLX (open learning XML) editor in a problem component that allows you to
   create and edit any type of problem. For more information, see
   :ref:`partnercoursestaff:Advanced Editor`.
 
+.. _Amazon Web Services:
+
+**Amazon Web Services (AWS)**
+
+  A third-party file hosting site where course teams can store course assets,
+  such as problem files and videos. If videos are posted on both YouTube and
+  AWS, the AWS version of the video serves as a backup in case the YouTube
+  video does not play.
 
 .. _Assignment Type:
 
-**Assignment Type**
+**assignment type**
 
   The category of graded student work, such as homework, exams, and exercises.
   For more information, see :ref:`partnercoursestaff:Grading Index`.
@@ -79,7 +94,7 @@ A
 C
 ****
 
-**CAPA Problem**
+**CAPA problem**
 
   A CAPA (computer assisted personalized approach) problem refers to any of
   the problem types that are implemented in the edX platform by the
@@ -93,7 +108,7 @@ C
 
 .. _Certificate:
 
-**Certificate**
+**certificate**
 
   A document issued to an enrolled learner who successfully completes a course
   with the required passing grade. Not all edX courses offer certificates, and
@@ -102,13 +117,13 @@ C
   For information about setting up certificates for your course, see
   :ref:`Setting Up Certificates`.
 
-**Chapter**
+**chapter**
 
   See :ref:`Section<S>`.
 
 .. _Checkbox_g:
 
-**Checkbox Problem**
+**checkbox problem**
 
   A problem that prompts learners to select one or more options from a list of
   possible answers. For more information, see
@@ -117,7 +132,7 @@ C
 
 .. _Chemical Equation_g:
 
-**Chemical Equation Response Problem**
+**chemical equation response problem**
 
   A problem that allows learners to enter chemical equations as answers. For
   more information, see :ref:`partnercoursestaff:Chemical Equation`.
@@ -125,13 +140,13 @@ C
 
 .. _Circuit Schematic_g:
 
-**Circuit Schematic Builder Problem**
+**circuit schematic builder problem**
 
   A problem that allows learners to construct a schematic answer (such as an
   electronics circuit) on an interactive grid. For more information, see
   :ref:`partnercoursestaff:Circuit Schematic Builder`.
 
-**Closed Captions**
+**closed captions**
 
   The spoken part of the transcript for a video file, which is overlaid on the
   video as it plays. To show or hide closed captions, you select the **CC**
@@ -140,9 +155,16 @@ C
 
   For more information, see :ref:`learners:Video Player`.
 
+.. _codec_g:
+
+**codec**
+
+  A portmanteau of "code" and "decode". A computer program that can encode or
+  decode a data stream.
+
 .. _Cohort:
 
-**Cohort**
+**cohort**
 
   A group of learners who participate in a class together. Learners who are in
   the same cohort can communicate and share experiences in private
@@ -154,7 +176,7 @@ C
 
 .. _Component_g:
 
-**Component**
+**component**
 
   The part of a unit that contains your actual course content. A unit can
   contain one or more components. For more information, see
@@ -162,7 +184,7 @@ C
 
 .. _Content Experiment:
 
-**Content Experiment**
+**content experiment**
 
   You can define alternative course content to be delivered to different,
   randomly assigned groups of learners. Also known as A/B or split testing,
@@ -171,14 +193,14 @@ C
   :ref:`partnercoursestaff:Overview of Content Experiments`.
 
 
-**Content Library**
+**content library**
 
   See :ref:`Library<Library_g>`.
 
 
 .. _Content Specific Discussion Topic_g:
 
-**Content-Specific Discussion Topic**
+**content-specific discussion topic**
 
   A category within the course discussion that appears at a defined point in
   the course to encourage questions and conversations. To add a content-
@@ -197,7 +219,7 @@ C
 
 .. _Course Catalog:
 
-**Course Catalog**
+**course catalog**
 
   The page that lists all courses offered in the edX learning management
   system.
@@ -205,7 +227,7 @@ C
 
 .. _Course Handouts:
 
-**Course Handouts**
+**course handouts**
 
   Course handouts are files you make available to learners on the **Home**
   page. For more information, see :ref:`partnercoursestaff:Adding Course
@@ -215,7 +237,7 @@ C
 
   See :ref:`enrollment track<enrollment_track_g>`.
 
-**Course Navigation Pane**
+**course navigation pane**
 
   The navigation frame that appears at one side of the **Course** page in the
   LMS. The course navigation pane shows the sections in the course. When you
@@ -226,7 +248,7 @@ C
 
 .. _Course Page:
 
-**Course Page**
+**course page**
 
   The page where learners access the primary instructional materials for your
   course. Sections, subsections, units, and components are all accessed from
@@ -245,13 +267,13 @@ C
 
     For more information, see :ref:`Planning Course Run Information`.
 
-**Course Track**
+**course track**
 
   See :ref:`enrollment track<enrollment_track_g>`.
 
 .. _Courseware:
 
-**Courseware**
+**courseware**
 
   In OLX (open learning XML) and in data packages, "courseware" refers to the
   main content of your course, consisting mainly of lessons and assessments.
@@ -262,7 +284,7 @@ C
   Note that the **Course** page was formerly called the **Courseware** page.
 
 
-**Course-Wide Discussion Topic**
+**course-wide discussion topic**
 
   Optional discussion categories that you create to guide how learners find
   and share information in the course discussion. Course-wide discussion
@@ -282,7 +304,7 @@ C
 
 .. _Custom Response Problem:
 
-**Custom Response Problem**
+**custom response problem**
 
   A custom response problem evaluates text responses from learners using an
   embedded Python script. These problems are also called
@@ -297,7 +319,7 @@ D
 
 .. _Data Czar_g:
 
-**Data Czar**
+**data czar**
 
   A data czar is the single representative at a partner institution who is
   responsible for receiving course data from edX, and transferring it securely
@@ -305,7 +327,7 @@ D
 
   For more information, see the :ref:`data:edX Research Guide`.
 
-**Discussion**
+**discussion**
 
   The set of topics defined to promote course-wide or unit-specific dialog.
   Learners use the discussion topics to communicate with each other and the
@@ -314,7 +336,7 @@ D
 
 .. _Discussion Component:
 
-**Discussion Component**
+**discussion component**
 
   Discussion topics that course teams add directly to units. For example, a
   video component can be followed by a discussion component so that learners
@@ -326,7 +348,7 @@ D
   For more information, see :ref:`partnercoursestaff:Working with Discussion
   Components`.
 
-**Discussion Thread List**
+**discussion thread list**
 
   The navigation frame that appears at one side of the **Discussion** page in
   the LMS. The discussion thread list shows the discussion categories and
@@ -337,7 +359,7 @@ D
 
 .. _Dropdown_g:
 
-**Dropdown Problem**
+**dropdown problem**
 
   A problem that asks learners to choose from a collection of answer options,
   presented as a drop-down list. For more information, see
@@ -376,7 +398,7 @@ E
 
 .. _embargo:
 
-**Embargo**
+**embargo**
 
   An embargo is an official ban on trade or commercial activity with a
   particular country. For example, due to U.S. federal regulations, edX cannot
@@ -438,7 +460,7 @@ E
 
 .. _Exercises:
 
-**Exercises**
+**exercises**
 
   Practice or practical problems that are interspersed in edX course content
   to keep learners engaged. Exercises are also an important measure of
@@ -448,7 +470,7 @@ E
 
 .. _Export:
 
-**Export**
+**export**
 
   A tool in edX Studio that you use to export your course or library for
   backup purposes, or so that you can edit the course or library directly in
@@ -463,9 +485,17 @@ E
 F
 ***
 
-**Forum**
+**forum**
 
   See :ref:`Discussion<D>`.
+
+.. _fps:
+
+**fps**
+
+  Frames per second. In video, the number of consecutive images that appear
+  every second.
+
 
 .. _G:
 
@@ -475,7 +505,7 @@ G
 
 .. _grade:
 
-**Grade Range**
+**grade range**
 
   Thresholds that specify how numerical scores are associated with grades, and
   the score that learners must obtain to pass a course.
@@ -483,7 +513,7 @@ G
   For more information, see :ref:`partnercoursestaff:Set the Grade Range`.
 
 
-**Grading Rubric**
+**grading rubric**
 
   See :ref:`Rubric<R>`.
 
@@ -494,9 +524,15 @@ G
 H
 ****
 
+.. _H264:
+
+**H.264**
+
+  A standard for high definition digital video.
+
 .. _Home Page:
 
-**Home Page**
+**Home page**
 
   The page that opens first every time learners access your course. You can
   post announcements on the **Home** page. The handout navigation sidebar
@@ -505,7 +541,7 @@ H
 
 .. _HTML Component:
 
-**HTML Component**
+**HTML component**
 
   A type of component that you can use to add and format text for your course.
   An HTML component can contain text, lists, links, and images. For more
@@ -522,7 +558,7 @@ I
 
 .. _Image Mapped_g:
 
-**Image Mapped Input Problem**
+**Image mapped input problem**
 
   A problem that presents an image and accepts clicks on the image as an
   answer. For more information, see :ref:`partnercoursestaff:Image Mapped
@@ -541,7 +577,7 @@ I
   For more information, see :ref:`partnercoursestaff:Import a Course` or
   :ref:`partnercoursestaff:Import a Library`.
 
-**Instructor Dashboard**
+**instructor dashboard**
 
   A user who has the Admin or Staff role for a course can access the instructor
   dashboard in the LMS by selecting **Instructor**. Course team members use the
@@ -557,7 +593,7 @@ I
 K
 ****
 
-**Keyword**
+**keyword**
 
   A variable in a bulk email message. When you send the message, a value that
   is specific to the each recipient is substituted for the keyword.
@@ -568,7 +604,7 @@ K
 L
 ****
 
-**Label**
+**label**
 
   See :ref:`Accessible Label<A>`.
 
@@ -583,23 +619,23 @@ L
 
 .. _Learning Management System:
 
-**Learning Management System (LMS)**
+**learning management system (LMS)**
 
   The platform that learners use to view courses, and that course team members
   use to manage learner enrollment, assign team member privileges, moderate
   discussions, and access data while the course is running.
 
-**Learning Sequence**
+**learning sequence**
 
   See :ref:`Unit Navigation Bar<U>`.
 
-**Left Pane**
+**left pane**
 
   See :ref:`Course Navigation Pane<C>`.
 
 .. _Library_g:
 
-**Library**
+**library**
 
   A pool of components for use in randomized assignments that can be shared
   across multiple courses from your organization. Course teams configure
@@ -613,7 +649,7 @@ L
 
 .. _Live Mode:
 
-**Live Mode**
+**live mode**
 
   A view that allows the course team to review all published units as learners
   see them, regardless of the release dates of the section and subsection that
@@ -637,7 +673,7 @@ M
 
 .. _Math Expression_g:
 
-**Math Expression Input Problem**
+**math expression input problem**
 
   A problem that requires learners to enter a mathematical expression as text,
   such as e=m*c^2.
@@ -658,7 +694,7 @@ M
 
 .. _Module_g:
 
-**Module**
+**module**
 
   An item of course content, created in an XBlock, that appears on the
   **Course** page in the edX learning management system. Examples of
@@ -672,7 +708,7 @@ M
 
 .. _Multiple Choice_g:
 
-**Multiple Choice Problem**
+**multiple choice problem**
 
   A problem that asks learners to select one answer from a list of options.
   For more information, see :ref:`partnercoursestaff:Multiple Choice`.
@@ -684,9 +720,16 @@ M
 N
 ****
 
+.. _NTSC:
+
+**NTSC**
+
+  National Television System Committee. The NTSC standard is a color encoding
+  system for analog videos that is used mostly in North America.
+
 .. _Numerical Input_g:
 
-**Numerical Input Problem**
+**numerical input problem**
 
   A problem that asks learners to enter numbers or specific and relatively
   simple mathematical expressions. For more information, see
@@ -709,7 +752,7 @@ O
 
 .. _Open Response Assessment_g:
 
-**Open Response Assessment**
+**open response assessment**
 
   A type of assignment that allows learners to answer with text, such as a
   short essay and, optionally, an image or other file. Learners then evaluate
@@ -731,32 +774,41 @@ P
 
 .. _Pages_g:
 
-**Pages**
+**pages**
 
   Pages organize course materials into categories that learners select in the
   learning management system. Pages provide access to the course content and to
-  tools and uploaded files that supplement the course. Links to each page appear in the course material navigation bar.
+  tools and uploaded files that supplement the course. Links to each page
+  appear in the course material navigation bar.
 
   For more information, see :ref:`partnercoursestaff:Adding Pages to a
   Course`.
 
-**Partner Manager**
+.. _PAL:
+
+**PAL**
+
+  Phrase alternating line. The PAL standard is a color encoding system for
+  analog videos. It is used in locations such as Brazil, Australia, south Asia,
+  most of Africa, and western Europe.
+
+**partner manager**
 
   Each EdX partner institution has an edX partner manager. The partner manager
   is the primary contact for the institution's course teams.
 
 
-**Pre-Roll Video**
+**pre-roll video**
 
-  A short video file that plays before the video component selected by the learner.
-  Pre-roll videos play automatically, on an infrequent schedule.
+  A short video file that plays before the video component selected by the
+  learner. Pre-roll videos play automatically, on an infrequent schedule.
 
   For more information, see :ref:`partnercoursestaff:Adding a PreRoll Video`.
 
 
 .. _Preview Mode:
 
-**Preview Mode**
+**preview mode**
 
   A view that allows you to see all the units of your course as learners see
   them, regardless of the unit status and regardless of whether the release
@@ -768,7 +820,7 @@ P
 
 .. _Problem Component:
 
-**Problem Component**
+**problem component**
 
   A component that allows you to add interactive, automatically graded
   exercises to your course content. You can create many different types of
@@ -780,7 +832,7 @@ P
 
 .. _Progress Page:
 
-**Progress Page**
+**Progress page**
 
   The page in the learning management system that shows learners their scores
   on graded assignments in the course. For more information, see
@@ -793,7 +845,7 @@ P
 Q
 *****
 
-**Question**
+**question**
 
   A question is a type of post that you or a learner can add to a course
   discussion topic to bring attention to an issue that the discussion
@@ -819,7 +871,7 @@ R
 
 .. _Rubric_g:
 
-**Rubric**
+**rubric**
 
   A list of the items that a learner's response should cover in an open
   response assessment. For more information, see the
@@ -841,7 +893,7 @@ S
 
 .. _Section_g:
 
-**Section**
+**section**
 
   The topmost category in your course outline. A section can represent a time
   period or another organizing principle for course content. A section
@@ -851,7 +903,7 @@ S
   Sections`.
 
 
-**Sequential**
+**sequential**
 
   See :ref:`Subsection<Subsection>`.
 
@@ -868,14 +920,14 @@ S
 
 .. _Simple Editor_g:
 
-**Simple Editor**
+**simple editor**
 
   The graphical user interface in a problem component that contains a toolbar
   for adding Markdown formatting to the text you supply. The simple editor is
   available for some problem types. For more information, see
   :ref:`partnercoursestaff:Problem Studio View`.
 
-**Single Sign-On (SSO)**
+**single sign-on (SSO)**
 
   SSO is an authentication service that allows a user to access multiple
   related applications, such as Studio and the LMS, with the same username and
@@ -886,14 +938,14 @@ S
 
 .. _Split_Test:
 
-**Split Test**
+**split test**
 
   See :ref:`Content Experiment<C>`.
 
 
 .. _Subsection:
 
-**Subsection**
+**subsection**
 
   A division in the course outline that represents a topic in your course,
   such as a lesson or another organizing principle. Subsections are defined
@@ -911,7 +963,7 @@ T
 
 .. _Text Input_g:
 
-**Text Input Problem**
+**text input problem**
 
   A problem that asks learners to enter a line of text, which is then checked
   against a specified expected answer.
@@ -920,7 +972,7 @@ T
 
 .. _TPA_g:
 
-**Third Party Authentication**
+**third party authentication**
 
   A system-wide configuration option that allows users who have a username and
   password for one system, such as a campus or institutional system, to log in
@@ -933,7 +985,7 @@ T
 
 .. _Transcript:
 
-**Transcript**
+**transcript**
 
   A text version of the content of a video. You can make video transcripts
   available to learners.
@@ -947,14 +999,14 @@ T
 U
 ***
 
-**Unit**
+**unit**
 
   A unit is a division in the course outline that represents a lesson.
   Learners view all of the content in a unit on a single page.
 
   For more information, see :ref:`partnercoursestaff:Developing Course Units`.
 
-**Unit Navigation Bar**
+**unit navigation bar**
 
   The horizontal control that appears at the top of the **Course** page in the
   LMS. The unit navigation bar contains an icon for each unit in the selected
@@ -970,13 +1022,21 @@ U
 V
 ****
 
-**Vertical**
+.. _VBR:
+
+**VBR**
+
+  Variable bit rate. The bit rate is the number of bits per second that are
+  processed or transferred. A variable bit rate allows the bit rate to change
+  according to the complexity of the media segment.
+
+**vertical**
 
   See :ref:`Unit<U>`.
 
 .. _Video Component:
 
-**Video Component**
+**video component**
 
   A component that you can use to add recorded videos to your course.
 
@@ -992,7 +1052,7 @@ W
 
 .. _Whitelist:
 
-**Whitelist**
+**whitelist**
 
   In edX courses, a whitelist is a list of learners who are being provided with
   a particular privilege. For example, whitelisted learners can be specified as
@@ -1007,7 +1067,7 @@ W
 
 .. _Wiki:
 
-**Wiki**
+**wiki**
 
   The page in each edX course that allows both learners and members of the
   course team to add, modify, or delete content. Learners can use the wiki to
