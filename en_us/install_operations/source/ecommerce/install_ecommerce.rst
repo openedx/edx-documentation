@@ -286,9 +286,9 @@ steps.
      the Django administration panel in the LMS. For more information about
      configuring the OIDC client, see :ref:`Configure OIDC`.
 
-*****************************************
+**************************************
 Switch from ShoppingCart to E-Commerce
-*****************************************
+**************************************
 
 By default, the ShoppingCart service is enabled when you install an Open edX
 instance. To use the E-Commerce service to handle ecommerce-related tasks
@@ -297,7 +297,8 @@ instead of ShoppingCart, follow these steps.
 #. Sign in to the Django administration console for your base URL. For example,
    ``http://{your_URL}/admin``.
 
-#. In the **Commerce** section, next to **Commerce configuration**, select **Add**. 
+#. In the **Commerce** section, next to **Commerce configuration**, select
+   **Add**.
 
 #. Select **Enabled**.
 
@@ -314,6 +315,47 @@ instead of ShoppingCart, follow these steps.
 #. Select the site for which you want to enable the E-Commerce service.
 
 #. Select **Save**.
+
+**************************************
+Enable the Client-Side Checkout Basket
+**************************************
+
+The client-side checkout basket enables users to complete the payment form and
+make a purchase directly in the basket. Users do not have to visit the payment
+processor website.
+
+.. note::
+  Currently, only CyberSource is supported as a client-side payment processor.
+
+The payment form requires information about the billing client, such as the
+client's name and address, as well as credit card information. The following
+credit card types are supported.
+
+* American Express
+* Diners Club
+* Discover
+* JCB
+* Maestro
+* MasterCard
+* Visa
+
+.. note::
+  The payment processor does not save credit card information.
+
+To enable the client-side checkout basket, follow these steps.
+
+#. Sign in to the Django administration console for your base URL. For example,
+   ``http://{your_URL}/admin``.
+
+#. Activate the client side payment processor (eg. CyberSource) switch in the
+   admin panel.
+
+#. On the **Site Configuration** page, locate the **Client-side payment
+   processor** field, and then enter ``cybersource``.
+
+#. Edit the **enable_client_side_checkout** waffle flag to the values that you
+   need.
+
 
 .. _Development Outside Devstack:
 
