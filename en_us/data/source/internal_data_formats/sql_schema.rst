@@ -237,7 +237,7 @@ username
 ----------
   The unique username for a user in the edX system. It can contain
   alphanumerics and the special characters shown within the brackets:
-  [ _ @ + - . ]. The username is the only user-provided information that
+  ``[ _ @ + - . ]``. The username is the only user-provided information that
   other users can currently see. EdX has never allowed users to change
   usernames, but might do so in the future.
 
@@ -2225,3 +2225,127 @@ mode
   learner and course at the time the certificate was generated: audit, honor,
   verified, or blank. This value is not updated if the value of the learner's
   ``student_courseenrollment.mode`` changes after certificates are generated.
+
+
+.. _Credit Eligibility:
+
+***********************
+Credit Eligibility Data
+***********************
+
+.. _credit_crediteligibility:
+
+==========================================================
+Columns in the ``credit_crediteligibility`` Table
+==========================================================
+
+The ``credit_crediteligibility`` table provides data about learners who are
+eligible for course credit.
+
+This table has data only for organizations that offer course credit. For most
+organizations, the table is blank.
+
+**History**: Added **27** June 2017.
+
+A sample of the heading row and a data row in the ``credit_crediteligibility``
+table follows.
+
+.. code-block:: sql
+
+  id  created  modified  username  deadline  course_key
+
+  73  2015-10-13 18:06:34  2015-10-13 18:06:34  User1  2016-10-12 18:06:34
+  course-v1:edX+DemoX+Demo_2014
+
+  22  2015-10-13 17:52:37  2015-10-13 17:52:37  User2  2016-10-12 17:52:37
+  course-v1:edX+DemoX+Demo_2014
+
+The ``credit_crediteligibility`` table has the following columns.
+
+.. list-table::
+     :widths: 15 15 15 15 15 15
+     :header-rows: 1
+
+     * - Column
+       - Type
+       - Null
+       - Key
+       - Default
+       - Extra
+     * - id
+       - int(11)
+       - NO
+       - PRI
+       - NULL
+       - auto_increment
+     * - username
+       - varchar(255)
+       - NO
+       -
+       - NULL
+       -
+     * - deadline
+       - datetime
+       - NO
+       -
+       - NULL
+       -
+     * - created
+       - datetime
+       - NO
+       -
+       - NULL
+       -
+     * - modified
+       - datetime
+       - NO
+       -
+       - NULL
+       -
+     * - course_id
+       - varchar(255)
+       - NO
+       -
+       - NULL
+       -
+
+---------
+id
+---------
+  The unique identifier and primary key.
+
+---------
+username
+---------
+  The unique username for a user in the edX system. It can contain
+  alphanumerics and the special characters shown within the brackets: ``[ _ @ +
+  - . ]``. The username is the only user-provided information that other users
+  can currently see. EdX has never allowed users to change usernames, but might
+  do so in the future.
+
+---------
+deadline
+---------
+  The last day the learner is eligible to purchase course credit.
+
+---------
+created
+---------
+  Date and time this row in the database was created, which is typically when
+  the learner is first eligible for credit.
+
+---------
+modified
+---------
+  Date and time this row in the database was modified. Set to be equal to
+  ``created`` at first. A change in ``modified`` indicates a state change,
+  usually as a result of action by the course staff or the edX learner support
+  team.
+
+----------
+course_id
+----------
+  The ID of the course run that the learner is enrolled in, in the format
+  ``{key type}:{org}+{course}+{run}``. For example,
+  ``course-v1:edX+DemoX+Demo_2014``.
+
