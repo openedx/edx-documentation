@@ -4,7 +4,7 @@
 Introduction to Publisher
 ################################
 
-..note::
+.. note::
   This information applies to courses on the edx.org site. If your course will
   run on Edge, you create the course and the About page in Studio. For more
   information, see :ref:`Creating a New Course` or :ref:`Creating a Course

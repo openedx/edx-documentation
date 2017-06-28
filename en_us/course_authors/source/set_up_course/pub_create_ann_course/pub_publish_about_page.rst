@@ -6,7 +6,7 @@ Publishing an About Page
 
 This topic describes the process of publishing a course About page on edx.org.
 
-..note::
+.. note::
   This process applies to courses on the edx.org site. If your course will run
   on Edge, you create the course and the About page in Studio. For more
   information, see :ref:`Creating a New Course` or :ref:`Creating a Course
