@@ -6,7 +6,7 @@ Creating a Course About Page
 
 .. only:: Partners
 
-   ..note::
+   .. note::
     This process applies to courses on the edX Edge site. If your course will
     run on edx.org, see :ref:`Pub Creating and Announcing a Course`.
 
@@ -42,7 +42,7 @@ Describe Your Course
 
 .. only:: Partners
 
-   ..note::
+   .. note::
     This process applies to courses on the edX Edge site. If your course will
     run on edx.org, see :ref:`Pub Creating and Announcing a Course`.
 
@@ -103,7 +103,7 @@ Add a Course About Video
 
 . only:: Partners
 
-   ..note::
+   .. note::
     This process applies to courses on the edX Edge site. If your course will
     run on edx.org, see :ref:`Pub Creating and Announcing a Course`.
 
@@ -143,7 +143,7 @@ Set Course Effort Expectations
 
 . only:: Partners
 
-   ..note::
+   .. note::
     This process applies to courses on the edX Edge site. If your course will
     run on edx.org, see :ref:`Pub Creating and Announcing a Course`.
 
