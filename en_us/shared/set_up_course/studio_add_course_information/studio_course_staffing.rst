@@ -69,8 +69,8 @@ prerequisites.
 Other course team members can edit the course and perform all tasks except
 adding and removing other team members and granting Admin access.
 
-.. note::  Any course team member can delete content created by other team
- members.
+.. note::
+ Any course team member can delete content created by other team members.
 
 To add a course team member, follow these steps.
 

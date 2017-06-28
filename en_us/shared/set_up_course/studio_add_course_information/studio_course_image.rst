@@ -3,7 +3,7 @@ Program Images and Videos`.
 
 . only:: Partners
 
-   ..note::
+   .. note::
     This process applies to courses on the edX Edge site. If your course will
     run on edx.org, see :ref:`Pub Creating and Announcing a Course`.
 

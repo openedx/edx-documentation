@@ -8,7 +8,7 @@ This topic describes how to use Studio to create and set up a course.
 
 .. only:: Partners
 
-   ..note::
+   .. note::
     This process applies to courses on the edX Edge site. If your course will
     run on edx.org, see :ref:`Pub Creating and Announcing a Course`.
 
@@ -35,7 +35,7 @@ Create a Course
 
 .. only:: Partners
 
-   ..note::
+   .. note::
     This process applies to courses on the edX Edge site. If your course will
     run on edx.org, see :ref:`Pub Creating and Announcing a Course`.
 
@@ -93,7 +93,7 @@ Edit a Course
 
 .. only:: Partners
 
-   ..note::
+   .. note::
     This process applies to courses on the edX Edge site. If your course will
     run on edx.org, see :ref:`Pub Creating and Announcing a Course`.
 
