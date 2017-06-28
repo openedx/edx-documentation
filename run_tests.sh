@@ -60,12 +60,13 @@ for project in "${projects[@]}"; do
     mkdir -p $err_log_dir
 
     # Generate html docs.
+    # -j4 uses four parallel workers to build faster.
     # -w writes warnings and errors to the specified file in
     #    addition to stderr.
     # -n runs in nit-picky mode.
     # -E Don’t use a saved environment (the structure caching all
     #    cross-references), but rebuild it completely.
-    make html SPHINXOPTS="-E -n -w $err_log_file"
+    make html SPHINXOPTS="-j4 -E -n -w $err_log_file"
 
     if [ $? -gt 0 ]; then
         project_build_status=1
