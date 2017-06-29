@@ -1,14 +1,14 @@
-.. _Safe Templates:
+.. _Preventing XSS:
 
 ###############################################
 Preventing Cross Site Scripting Vulnerabilities
 ###############################################
 
 Cross Site Scripting (XSS) vulnerabilities allow user-supplied data to be
-incorrectly executed as code in a web browser. It can be difficult to write
-templates that are safe from XSS security vulnerabilities. This section
-presents best practices for handling proper escaping in the Open edX platform
-to avoid these vulnerabilities.
+incorrectly executed as code in a web browser. It can be difficult to write code
+that is safe from XSS security vulnerabilities. This section presents best
+practices for handling proper escaping in the Open edX platform to avoid these
+vulnerabilities.
 
 .. note:: If you become aware of security issues, do not report them in
    public. Instead, please email security@edx.org.
@@ -70,7 +70,7 @@ manipulation, and different types of escaping. As a general rule, proper
 escaping is related to the context in which the data is being written, and
 might not match the context that will eventually be reading the data.
 
-.. image:: ../images/safe-templates.png
+.. image:: ../images/preventing-xss.png
     :width: 666px
     :height: 289px
     :align: center
@@ -83,7 +83,7 @@ In the Open edX platform, data flows from the application to the initial HTML pa
 mainly through the use of Mako templates.
 
 .. Make sure the numbers in the list below are in sync with the numbered arrows in
-.. the safe-templates.png diagram above, if either the diagram or the list is modified.
+.. the preventing-xss.png diagram above, if either the diagram or the list is modified.
 
 Descriptions of each numbered arrow in the diagram follow.
 
@@ -897,21 +897,20 @@ cause issues for certain expressions, including HTML that cannot be escaped.
 Also, be careful not to have multiple ``<%page>`` tags in a Mako template.
 
 
-Run the Safe Template Linter
-============================
+Run the XSS Linter
+==================
 
-After setting HTML-escaping by default for the Mako template, run the Safe
-Template Linter with the following command.
+After setting HTML-escaping by default for the Mako template, run the XSS Linter
+with the following command.
 
 .. code-block:: bash
 
-    ./scripts/safe_template_linter.py
+    ./scripts/xss_linter.py
 
 Accuracy and completeness of the linter are not guaranteed, so test your work
 after fixing all violations.
 
-For more detailed instructions on using the linter, see :ref:`Safe Template
-Linter`.
+For more detailed instructions on using the linter, see :ref:`XSS Linter`.
 
 Fix Downstream JavaScript and Underscore.js Templates
 =====================================================
@@ -921,48 +920,48 @@ ensure that any downstream JavaScript files or Underscore.js templates also
 follow the best practices.
 
 When you have found the proper downstream JavaScript and Underscore.js template
-files, you can again run the :ref:`Safe Template Linter` on these files.
+files, you can again run the :ref:`XSS Linter` on these files.
 
 For help navigating our client side code, see
 `Navigating JavaScript and Underscore.js Templates <https://openedx.atlassian.net/wiki/x/9QHqAw>`_
 
 
-.. _Safe Template Linter:
+.. _XSS Linter:
 
-Safe Template Linter
-********************
+XSS Linter
+**********
 
-The safe template linter is a tool to help you make sure that you are
-following best practices inside edx-platform. It is not yet possible to run the
-linter against other repositories.
+The XSS linter is a tool to help you make sure that you are following best
+practices inside edx-platform. It is not yet possible to run the linter against
+other repositories.
 
 To run the linter on the changes in your current Git branch, use the following
 command.
 
 .. code-block:: bash
 
-    paver run_safecommit_report
+    paver run_xssecommitlint
 
 To run the linter on the entire edx-platform repository, use the following
 command.
 
 .. code-block:: bash
 
-    ./scripts/safe_template_linter.py
+    ./scripts/xss_linter.py
 
 You can also lint an individual file or recursively lint a directory. Here is an
 example of how to lint a single file.
 
 .. code-block:: bash
 
-    ./scripts/safe_template_linter.py cms/templates/base.html
+    ./scripts/xss_linter.py cms/templates/base.html
 
 For additional options that you can use to run the linter, use the following
 command.
 
 .. code-block:: bash
 
-    ./scripts/safe_template_linter.py --help
+    ./scripts/xss_linter.py --help
 
 The following code block shows sample output from the linter.
 
@@ -1007,13 +1006,13 @@ Here is example syntax for a Mako template.
 
 .. code-block:: mako
 
-    ## safe-lint: disable=mako-invalid-js-filter,mako-js-string-missing-quotes
+    ## xss-lint: disable=mako-invalid-js-filter,mako-js-string-missing-quotes
 
 Here is example syntax for an Underscore.js template.
 
 .. code-block:: javascript
 
-    <% // safe-lint: disable=underscore-not-escaped %>
+    <% // xss-lint: disable=underscore-not-escaped %>
 
 .. _Linter Violations:
 
@@ -1675,7 +1674,7 @@ that the ``Markup`` object becomes a plain old string and it ends up getting
 HTML-escaped, when your intention was to keep the HTML from being HTML-escaped.
 
 
-.. _Safe Templates Additional Resources:
+.. _Preventing XSS Additional Resources:
 
 Additional Resources
 ********************

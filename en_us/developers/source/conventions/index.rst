@@ -9,6 +9,6 @@ Writing Good Code
 
     accessibility
     internationalization/index
-    safe_templates
+    preventing_xss
     django
 
