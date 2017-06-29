@@ -4063,8 +4063,8 @@ complete, the server emits an ``edx.forum.thread.created`` event.
        course-wide discussion.
 
        Also present for ``edx.forum.response.created``,
-       ``edx.forum.comment.created``, ``edx.forum.response.voted``, and
-       ``edx.forum.thread.voted``  events.
+       ``edx.forum.comment.created``, ``edx.forum.response.voted``,
+       ``edx.forum.thread.viewed``, and ``edx.forum.thread.voted``  events.
 
    * - ``category_name``
      - string
@@ -4072,16 +4072,16 @@ complete, the server emits an ``edx.forum.thread.created`` event.
        course-wide discussion.
 
        Also present for ``edx.forum.response.created``,
-       ``edx.forum.comment.created``, ``edx.forum.response.voted``, and
-       ``edx.forum.thread.voted``  events.
+       ``edx.forum.comment.created``, ``edx.forum.response.voted``,
+       ``edx.forum.thread.viewed``, and ``edx.forum.thread.voted``  events.
 
    * - ``commentable_id``
      - string
      - Identifier for the specific discussion component or top-level,
        course-wide discussion. Duplicates the ``category_id``.
 
-       Also present for ``edx.forum.response.created`` and
-       ``edx.forum.comment.created`` events.
+       Also present for ``edx.forum.response.created``,
+       ``edx.forum.comment.created``, and ``edx.forum.thread.viewed`` events.
 
    * - ``group_id``
      - string
@@ -4092,8 +4092,8 @@ complete, the server emits an ``edx.forum.thread.created`` event.
      - string
      - A unique identifier for this forum contribution.
 
-       Also present for ``edx.forum.response.created`` and
-       ``edx.forum.comment.created`` events.
+       Also present for ``edx.forum.response.created``,
+       ``edx.forum.comment.created``, and ``edx.forum.thread.viewed`` events.
 
    * - ``options``
      - object
@@ -4108,6 +4108,8 @@ complete, the server emits an ``edx.forum.thread.created`` event.
      - If the thread is part of a team discussion within a course, this field
        identifies the team that the thread was created in. For more
        information about events for teams, see :ref:`student_teams_events`.
+
+       Also present for ``edx.forum.thread.viewed`` events.
 
    * - ``thread_type``
      - string
@@ -4134,19 +4136,18 @@ complete, the server emits an ``edx.forum.thread.created`` event.
 
    * - ``url``
      - string
-     - The escaped URL of the page the user was visiting when this event was
-       emitted.
+     - The escaped URL of the page from which the thread can be viewed.
 
-       Also present for ``edx.forum.response.created`` and
-       ``edx.forum.comment.created`` events.
+       Also present for ``edx.forum.response.created``,
+       ``edx.forum.comment.created``, and ``edx.forum.thread.viewed`` events.
 
    * - ``user_course_roles``
      - array
      - Identifies the course-level 'Instructor' (that is, Admin) or 'Staff'
        privilege assigned to the user. No value is reported for students.
 
-       Also present for ``edx.forum.response.created`` and
-       ``edx.forum.comment.created`` events.
+       Also present for ``edx.forum.response.created``,
+       ``edx.forum.comment.created``, and ``edx.forum.thread.viewed`` events.
 
        The :ref:`student_courseaccessrole` table lists all users who have a
        privileged role for the course.
@@ -4157,11 +4158,72 @@ complete, the server emits an ``edx.forum.thread.created`` event.
        a 'Student'. Identifies users who have discussion management privileges
        as a course 'Community TA', 'Moderator', or 'Administrator'.
 
-       Also present for ``edx.forum.response.created`` and
-       ``edx.forum.comment.created`` events.
+       Also present for ``edx.forum.response.created``,
+       ``edx.forum.comment.created``, and ``edx.forum.thread.viewed`` events.
 
        The :ref:`django_comment_client_role_users` table lists the discussion
        role of every enrolled user.
+
+.. _edx.forum.thread.viewed:
+
+``edx.forum.thread.viewed``
+*********************************
+
+A user views a thread in the course discussions on a desktop, laptop, or tablet
+computer.
+
+**Component**: Discussion
+
+**Event Source**: Server
+
+**History**: Added 12 Jul 2017.
+
+``event`` **Member Fields**:
+
+
+The ``edx.forum.thread.viewed`` events include many of the same ``event``
+member fields that are described for :ref:`forum_thread` events. The following
+member fields serve the same purpose for thread views as they do for thread
+creation.
+
+* ``category_id``
+* ``category_name``
+* ``commentable_id``
+* ``id``
+* ``team_id``
+* ``title``
+* ``title_truncated``
+* ``url``
+* ``user_course_roles``
+* ``user_forums_roles``
+
+
+The following additional ``event`` member field applies to
+``edx.forum.thread.viewed`` events.
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+   * - ``target_username``
+     - string
+     - Identifies the user who originally posted the thread. This member field
+       has the following limitations.
+
+       * For browser views, the ``edx.forum.thread.viewed`` event includes the
+         ``target_username`` field for all posts, including anonymous posts.
+
+       * For views on versions of the edX mobile apps earlier than 2.9.1 for
+         iOS and 2.8.1 for Android, the ``edx.forum.thread.viewed`` event does
+         not include the ``target_username`` field.
+
+       * For views on versions of the edX mobile apps later than 2.9.1 for iOS
+         and 2.8.1 for Android, the ``edx.forum.thread.viewed`` event includes
+         the ``target_username`` field for non-anonymous posts only.
+
 
 .. _edx.forum.thread.voted:
 
@@ -4211,7 +4273,8 @@ The following additional ``event`` member fields apply to
      - Details
    * - ``target_username``
      - string
-     - Identifies the user who originally posted the thread.
+     - Identifies the user who originally posted the thread, even if the user
+       posted anonymously.
 
        Also present for ``edx.forum.response.voted`` events, where it indicates
        the user who originally made the response.
