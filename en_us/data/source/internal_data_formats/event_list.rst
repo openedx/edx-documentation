@@ -140,6 +140,8 @@ D, E, F
      - :ref:`grading_events`
    * - ``edx.grades.problem.rescored``
      - :ref:`grading_events`
+   * - ``edx.grades.problem.score_overridden``
+     - :ref:`edx_grades_problem_score_overridden`
    * - ``edx.grades.problem.state_deleted``
      - :ref:`grading_events`
    * - ``edx.grades.problem.submitted``
