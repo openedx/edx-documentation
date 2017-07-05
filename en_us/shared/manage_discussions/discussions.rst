@@ -236,6 +236,22 @@ Discussion list now includes the topic you added.
    these topics to be divided by cohort. For more information, see :ref:
    `Specify Which Course Wide Discussion Topics are Divided`.
 
+.. note:: You can configure the default topic for new posts in the
+   **Discussion** page by setting its "default" attribute to true. For
+   example:
+
+   ::
+
+     {
+        "General": {
+            "id": "course"
+        },
+        "Questions about the Course": {
+            "id": "course_q",
+            "default": true
+        }
+     }
+
 .. _Create ContentSpecific Discussion Topics:
 
 ============================================
