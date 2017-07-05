@@ -66,14 +66,14 @@ Safe Code
 =========
 
 To keep our code safe from Cross Site Scripting (XSS) vulnerabilities,
-the Safe Template Linter is also run as part of ``paver run_quality``.
+the XSS Linter is also run as part of ``paver run_quality``.
 
-To run the Safe Template Linter against your current branch, run the following
+To run the XSS Linter against your current branch, run the following
 command.
 
 .. code-block:: bash
 
-   paver run_safecommit_report
+   paver run_xsscommitlint
 
-For more options for running the Safe Template Linter, or instructions for
-fixing violations, see :ref:`Safe Template Linter`.
+For more options for running the XSS Linter, or instructions for
+fixing violations, see :ref:`XSS Linter`.

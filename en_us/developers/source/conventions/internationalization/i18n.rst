@@ -66,7 +66,7 @@ programming languages.
    type of file that you are preparing for internationalization. For example,
    JavaScript embedded in an HTML Mako template is treated differently than
    JavaScript in a pure .js file. There are many different escaping methods that
-   you can use. For more details, see :ref:`Safe Templates`.
+   you can use. For more details, see :ref:`Preventing XSS`.
 
 .. contents::
    :depth: 1
@@ -170,7 +170,7 @@ with *two* pound signs (#).
 All translated strings should be text, not HTML. This means that for display
 in an HTML page, the strings must be HTML-escaped. In the example above, HTML-
 escaping is handled through the ``<%page>`` directive with the ``h`` filter.
-For more information, see :ref:`Safe Templates`.
+For more information, see :ref:`Preventing XSS`.
 
 To mix plain text and HTML using ``format()``, you must use the ``HTML()`` and
 ``Text()`` functions. Use the ``HTML()`` function when you have a replacement
@@ -214,7 +214,7 @@ any call to ``format()``.
         link_end=HTML('</a>'),
     )}
 
-For more information on proper escaping, see :ref:`Safe Templates`.
+For more information on proper escaping, see :ref:`Preventing XSS`.
 
 
 .. _i18n JavaScript Files:
@@ -639,8 +639,8 @@ JavaScript.
     var feeling = 'Je t'aime.';
     </script>
 
-Avoid this issue by following the best practices detailed in :ref:`Safe
-Templates`. Here is the same example with proper escaping.
+Avoid this issue by following the best practices detailed in :ref:`Preventing
+XSS`. Here is the same example with proper escaping.
 
 .. code-block:: mako
 

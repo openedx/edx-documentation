@@ -5,7 +5,7 @@ Documentation for Open edX Users
 
 * Some sections of the *Open EdX Developer's Guide* have been reorganized. The
   "Writing Good Code" section now includes a new subsection,
-  :ref:`opendevelopers:Safe Templates`, as well as existing subsections
+  :ref:`opendevelopers:Preventing XSS`, as well as existing subsections
   :ref:`opendevelopers:Accessibility Guidelines for Developers`,
   :ref:`opendevelopers:i18n`, and :ref:`opendevelopers:Django Good Practices`.
   If you have bookmarked existing pages in this guide, you should visit the
