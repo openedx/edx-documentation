@@ -14,39 +14,6 @@ For more information about selecting course team members, see
   :local:
   :depth: 1
 
-.. _Assign Course Team Roles:
-
-*************************
-Assign Course Team Roles
-*************************
-
-Assigning a course team role to a user both adds the user to the course team
-and assigns the role to that user.
-
-Before you can assign the Staff or Admin role to a team member, you must meet
-these prerequisites.
-
-* You must have the Admin role.
-
-* You need the email address or username of each team member you want to add.
-
-* Each of those team members must register a user account for that email
-  address or username, activate the account, and enroll in your course.
-
-To assign a privileged role to a course team member, follow these steps.
-
-#. View the live version of your course.
-
-#. Select **Instructor**, and then select **Membership**.
-
-#. In the **Course Team Management** section, select **Staff** or **Admin**.
-
-#. Under the list of users who currently have that role, enter an email
-   address or username, and then select **Add** for the role type.
-
-To remove an assigned role, view the list of users and then select **Revoke
-access**.
-
 
 .. _Add Course Team Members:
 
@@ -54,11 +21,10 @@ access**.
 Add Course Team Members
 ************************
 
-Course team members are users who help you build your course. Before you can
-assign Staff or Admin access to a team member, you must meet these
-prerequisites.
+Course team members are users who help you build your course. To add someone
+to the course team, you must meet these prerequisites.
 
-* You must be an Admin.
+* You must have the Admin role in the course.
 
 * The team member that you want to add must register a user account and
   activate the account.
@@ -90,5 +56,41 @@ The new team member can now work on the course in Studio.
 
 You can also assign privileged roles to users when you work in the LMS by
 selecting **Instructor** and then **Membership**.
+
+
+.. _Assign Course Team Roles:
+
+*************************
+Assign Course Team Roles
+*************************
+
+Assigning a course team role to a user both adds the user to the course team
+and assigns the role to that user.
+
+To assign the Staff or Admin role to a team member, you must meet these
+prerequisites.
+
+* You must have the Admin role in the course.
+
+* You need the email address or username of each team member you want to add.
+
+* Each of those team members must register a user account for that email
+  address or username, activate the account, and enroll in your course.
+
+To assign a privileged role to a course team member, follow these steps.
+
+#. View the live version of your course.
+
+#. Select **Instructor**, and then select **Membership**.
+
+#. In the **Course Team Management** section, select **Staff** or **Admin**.
+
+#. Under the list of users who currently have that role, enter an email
+   address or username, and then select **Add** for the role type.
+
+To remove an assigned role, view the list of users and then select **Revoke
+access**.
+
+
 
 

@@ -4,9 +4,9 @@
 Managing Divided Discussion Topics
 ###################################
 
-This section provides information about managing discussions that are divided
-based on one type of group in your course, either :ref:`cohorts<Cohort>` or
-:ref:`enrollment tracks<enrollment_track_g>`.
+This section provides information about managing :ref:`discussions<Discussions>`
+that are divided based on one type of group in your course, either
+:ref:`cohorts<Cohort>` or :ref:`enrollment tracks<enrollment_track_g>`.
 
 For information about divided discussions, see :ref:`About Divided Discussions`.
 
@@ -18,11 +18,11 @@ For information about divided discussions, see :ref:`About Divided Discussions`.
 Overview
 *********
 
-In discussion topics in your course, every post has an indicator of who can read
-it: either all learners, or only the members of a particular group. For
-learners, this is the only noticeable difference between discussions in courses
-that use divided discussions, and courses that do not have groups and do not use
-divided discussions.
+In :ref:`discussion topics<Discussions>` in your course, every post has an
+indicator of who can read it: either all learners, or only the members of a
+particular group. For learners, this is the only noticeable difference between
+discussions in courses that use divided discussions, and courses that do not
+have groups and do not use divided discussions.
 
 .. only:: Partners
 
@@ -39,22 +39,23 @@ divided discussions.
  help learners make the most of their participation in course discussions.
 
 
-Course team members who have the discussion admin, discussion moderator, or
-community TA role see the same indicator of who can read each post. Unlike the
-learners, however, team members with discussion privileges can read and
-contribute to every post, regardless of the group membership of the learner
-who posted it.
+Course team members who have the Discussion Admin, Discussion Moderator,
+Community TA or Group Community TA role see the indicator of who can read each
+post. Team members with these roles, except for Group Community TAs, can read
+and contribute to every post, regardless of the group membership of the learner
+who posted it. Group Community TAs can moderate discussions only if the course
+uses divided discussions, and they can see and manage only posts that other
+members of their group add. Community TAs, in comparison, can read and
+contribute to all posts.
 
-.. note:: Course team members must have the discussion moderator or discussion
- admin role in addition to the Staff or Admin role to be able to view posts
+.. note:: Course team members must have the Discussion Moderator or Discussion
+ Admin role in addition to the Staff or Admin role to be able to view posts
  that are divided by group. For information about assigning discussion
  moderation roles, see :ref:`Assigning_discussion_roles`.
 
- Learners who have the Community TA role can read and contribute to all posts.
-
 In courses where either cohorts or multiple enrollment tracks are enabled,
-course team members who have discussion moderator or admin privileges can also
-perform the following actions.
+course team members who have discussion moderation roles that are not
+restricted by group can also perform the following actions.
 
 * Choose who will be able to see the posts that they add to divided topics. See
   :ref:`Choosing the Visibility of a Post`.
@@ -62,8 +63,10 @@ perform the following actions.
 * Filter the posts that are listed on the **Discussion** page by group.
   See :ref:`Viewing the Posts of a Group`.
 
-All of the other options and features described in the :ref:`Discussions`
-section continue to be available to the discussion moderation team.
+All of the other options and features described in the :ref:`Discussions`,
+:ref:`Moderating_discussions`, and :ref:`Running_discussions` sections continue
+to be available to the discussion moderation team.
+
 
 .. _Finding Out Who Can See a Post:
 
@@ -130,7 +133,8 @@ discussion topic, the topic names indicate who can see the posts, responses,
 and comments.
 
 For more information about adding and configuring course-wide discussion
-topics, see :ref:`Create CourseWide Discussion Topics` and :ref:`Specify Which Course Wide Discussion Topics are Divided`.
+topics, see :ref:`Create CourseWide Discussion Topics` and :ref:`Specify Which
+Course Wide Discussion Topics are Divided`.
 
 
 .. _Choosing the Visibility of a Post:
@@ -139,11 +143,19 @@ topics, see :ref:`Create CourseWide Discussion Topics` and :ref:`Specify Which C
 Choosing the Visibility of a Post
 ***************************************
 
-If you have the discussion admin, discussion moderator, or community TA role,
-you can make posts to divided discussion topics visible to everyone who is
-enrolled in the course or only to the members of a specified group. When you
-:ref:`add a post<Add a Post>`, the **Visible to** dropdown list appears above
-the **Title** field.
+Course team members who have the Discussion Admin, Discussion Moderator or
+Community TA role can make posts to divided discussion topics visible to
+everyone who is enrolled in the course or only to the members of a specified
+group.
+
+If you are a course team member with one of these roles, when you :ref:`add a
+post<Add a Post>`, the **Visible to** dropdown list appears above the **Title**
+field.
+
+.. note:: Group Community TAs cannot choose the group visibility of a post.
+   Unlike Community TAs, Group Community TAs can only add post to, and interact
+   with, discussion topics that are available to the same group that they
+   themselves belong to.
 
 This example shows a new post being added to a content-specific
 discussion topic.
@@ -152,18 +164,20 @@ discussion topic.
  :alt: The fields and controls that appear when a course team member with
     discussion admin privileges clicks "Add a Post" for a divided topic.
 
-As a discussion team member, you can choose the visibility of your posts in
-topics that are divided. This means that you can add a single post with
-information that you want everyone to see, rather than having to write a
-separate post for each group. It also means that it is possible for you to
-unintentionally share information with a different audience than you intended.
+When you add a new post in discussion topics that are divided, you can choose
+whether all learners or a specific group of learners can see your post. This
+means that you can add a single post with information that you want everyone to
+see, rather than having to write a separate post for each group. It also means
+that it is possible for you to unintentionally share information with a
+different audience than you intended.
 
-.. note:: Learners do not choose the visibility of their posts. The
- visibility of learner posts is determined by the configuration of the topic
- they post in. See :ref:`Finding Out Who Can See a Post`.
+.. note:: Learners cannot choose the visibility of their posts. The visibility
+   of learner posts is determined by the configuration of the topic they post
+   in. See :ref:`Finding Out Who Can See a Post`.
 
 Posts that discussion team members add to unified discussion topics are always
 visible to all learners, regardless of what group they belong to.
+
 
 .. _Considerations When Editing Posts:
 
@@ -197,9 +211,12 @@ When a course includes cohorts or multiple enrollment tracks, you can view
 posts and monitor discussion activity for each of the groups within the group
 type that you chose to divide discussions for. You can also view all posts.
 
-.. note:: Course team members must have discussion moderator or admin
-   privileges in addition to their course team privileges to be able to view
-   and filter posts that are divided.
+.. note:: Course team members must have the Discussion Admin or Discussion
+   Moderator role in addition to the course team Staff or Admin role to be
+   able to view and filter all posts that are divided.
+
+   In divided discussions, Group Community TAs can only view posts that are
+   visible to the group that they themselves belong to.
 
 Above the discussion navigation pane on the **Discussion** page, the **in all
 groups** filter is selected by default. You see every post when you make this
