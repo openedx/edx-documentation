@@ -5,15 +5,17 @@ Creating and Adding Video Content
 ####################################
 
 Videos in a course supplement active learning components, such as discussions
-and problems. Videos can be effective for a number of purposes, such as
-presenting motivating material, showing experiments, and reducing cognitive
-load for complex content. For more information about how learners can interact with course videos, see
-:ref:`Video Player`.
+and problems. Videos can be effective for presenting motivating material,
+showing experiments, reducing cognitive load for complex content, and other
+purposes.
 
 When you create video content, you need to keep various guidelines in mind.
 This section describes these guidelines, as well as video technical
 specifications, how to add video content to your course, and how to specify
 options for your videos.
+
+For more information about how learners can interact with course videos, see
+:ref:`Video Player`.
 
 .. important::
 
@@ -26,12 +28,10 @@ options for your videos.
 
    create_video
    create_transcript
-   upload_video_edx/index
-   upload_video_edge
+   upload_video
    add_video_to_course
    additional_video_options
    additional_transcript_options
-   create_preroll_video
    troubleshoot_video
 
 .. include:: ../../../links/links.rst

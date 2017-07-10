@@ -16,6 +16,7 @@ Building and Running an Open edX Course
    set_up_course/index
    developing_course/index
    course_components/index
+   video/index
    exercises_tools/index
    course_assets/index
    course_features/index
