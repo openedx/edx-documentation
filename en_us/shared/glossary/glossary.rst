@@ -990,8 +990,7 @@ T
   A text version of the content of a video. You can make video transcripts
   available to learners.
 
-  For more information, see :ref:`partnercoursestaff:Create Transcript` in
-  :ref:`partnercoursestaff:Working with Video Components`.
+  For more information, see :ref:`Create the Transcript`.
 
 .. _U:
 

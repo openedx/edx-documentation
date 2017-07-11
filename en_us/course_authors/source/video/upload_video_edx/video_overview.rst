@@ -45,7 +45,7 @@ course<Add a Video to a Course>`.
  The edX video process **does not** include transcript services. Your course
  teams use your organization's current workflow to generate transcripts for
  your video files and then add the transcripts to the video in Studio. For more
- information, see :ref:`Add a Video Transcript`.
+ information, see :ref:`Create the Transcript`.
 
 .. _Video Encoding and Hosting Overview:
 

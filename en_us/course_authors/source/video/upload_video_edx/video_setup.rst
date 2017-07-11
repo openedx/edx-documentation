@@ -19,7 +19,7 @@ complete.
 
 After these tasks are complete, your course teams can :ref:`upload original
 video files<Uploading Videos in Studio>` in .mp4 or .mov format to Studio, and
-then :ref:`add the videos<Adding Videos to a Course>` to a course.
+then :ref:`add the videos<Add a Video to a Course>` to a course.
 
 .. important::
  The tasks described in this section rely on the use of third-party tools and

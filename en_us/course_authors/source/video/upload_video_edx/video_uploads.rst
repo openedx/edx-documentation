@@ -7,7 +7,7 @@ Uploading Videos in Studio
 .. note::
   **This process applies only to courses that run on the edx.org site.** For
   information about adding video files to courses that run on Edge, see
-  :ref:`Step 3. Upload a Video for an edx Edge Course <Post the Video Online>`.
+  :ref:`Step 3. Upload a Video for an edx Edge Course <Upload Video>`.
 
 After a video administrator works with edX Partner Support to complete
 :ref:`preliminary setup<Video Getting Started>` for the entire institution,
@@ -169,7 +169,7 @@ The encoding and hosting process assigns the following statuses to video files.
   replacement file, again. If processing fails more than once for a file,
   contact edX partner support at ``partner-support@edx.org``.
 
-  For more information, see :ref:`Specifications for Successful Video Files`.
+  For more information, see :ref:`Compression Specifications`.
 
 * **Failed Duplicate** is the status for files that failed to upload because
   the system identified the files as duplicates.
@@ -185,7 +185,7 @@ The encoding and hosting process assigns the following statuses to video files.
   external host sites plays. Processing continues at video hosting sites for 24
   hours after you upload a file.
 
-  For more information, see :ref:`Adding Videos to a Course`.
+  For more information, see :ref:`Add a Video to a Course`.
 
 * **Unknown** indicates a configuration problem. If this status appears,
   contact edX partner support at ``partner-support@edx.org``.
@@ -197,7 +197,7 @@ The encoding and hosting process assigns the following statuses to video files.
   .mp4 or .mov format and meets the other specifications for successful video
   processing. Then try uploading the file (or its replacement) again.
 
-  For more information, see :ref:`Specifications for Successful Video Files`.
+  For more information, see :ref:`Compression Specifications`.
 
 For more information, see :ref:`Video Encoding and Hosting Overview`.
 
@@ -240,7 +240,7 @@ The .csv file includes the following columns.
 
 * The unique, identifying **Video ID**. When you add a video component to your
   course, you supply the video ID for the file you want to add. See
-  :ref:`Adding Videos to a Course`.
+  :ref:`Add a Video to a Course`.
 
 * The **Status** of the encoding and hosting process for the file. See
   :ref:`Video Processing Statuses`.

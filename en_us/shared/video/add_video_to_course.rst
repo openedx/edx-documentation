@@ -74,10 +74,8 @@ Create a Video Component
     #. Select the value in the **Video ID** column for the video. The video ID
        is assigned when you upload a video.
 
-    #. Right-click the value, and then select **Copy**. Be sure to select and
-       copy the entire video ID value. You will paste this value into the
-       **Video ID** field for a video component. For more information, see
-       :ref:`Add the edX Video ID to a Video Component`.
+    #. Right-click the value, and then select **Copy**. Be sure to copy the
+       entire video ID value.
 
     Note that the course team can add a video to their course as soon as the
     unique video ID is visible in the **Previous Uploads** list on the **Video
