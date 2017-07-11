@@ -55,6 +55,3 @@ concept topics.
 * :ref:`partnercoursestaff:Course_Wiki` introduces a section of related
   concepts and tasks. It defines a wiki in the context of an edX course, and
   provides example uses.
-
-* :ref:`partnercoursestaff:Add a Video Transcript` introduces a series of
-  tasks.

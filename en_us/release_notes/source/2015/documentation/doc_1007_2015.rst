@@ -23,8 +23,8 @@ Building and Running an edX Course
   problems, listed in the :ref:`partnercoursestaff:Awarding Partial Credit for
   a Problem` topic.
 
-* Added the :ref:`partnercoursestaff:Maximum Video File Size` topic to the
-  :ref:`partnercoursestaff:Uploading Videos in Studio` section.
+* Added the "Maximum Video File Size" topic to the "Uploading Videos in Studio"
+  section.
 
 EdX Research Guide
 *******************
