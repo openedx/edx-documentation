@@ -940,7 +940,7 @@ command.
 
 .. code-block:: bash
 
-    paver run_xssecommitlint
+    paver run_xsscommitlint
 
 To run the linter on the entire edx-platform repository, use the following
 command.
