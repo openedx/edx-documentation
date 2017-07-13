@@ -4170,7 +4170,7 @@ complete, the server emits an ``edx.forum.thread.created`` event.
 *********************************
 
 A user views a thread in the course discussions on a desktop, laptop, or tablet
-computer.
+computer, or on the edX mobile apps.
 
 **Component**: Discussion
 
