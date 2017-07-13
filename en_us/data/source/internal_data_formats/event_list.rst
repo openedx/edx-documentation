@@ -130,6 +130,8 @@ D, E, F
      - :ref:`forum_events`
    * - ``edx.forum.thread.created``
      - :ref:`forum_events`
+   * - ``edx.forum.thread.viewed``
+     - :ref:`forum_events`
    * - ``edx.forum.thread.voted``
      - :ref:`forum_events`
    * - ``edx.googlecomponent.calendar.displayed``
