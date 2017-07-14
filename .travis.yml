@@ -11,7 +11,7 @@ script: "./run_tests.sh"
 branches:
     only:
         - master
-
+        - /open-release\/.*-master/
 
 
 # This part isn't needed until we are running latexpdf builds.
