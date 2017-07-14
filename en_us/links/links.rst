@@ -449,9 +449,15 @@
 
 .. _Verified Certificates: https://www.edx.org/verified-certificate
 
+.. _XSeries: https://www.edx.org/xseries
+
 .. _XSeries Programs: https://www.edx.org/xseries
 
+.. _MicroMasters: https://www.edx.org/micromasters
+
 .. _MicroMasters Programs: https://www.edx.org/micromasters
+
+.. _Professional Certificate: https://www.edx.org/professional-certificate
 
 .. _Professional Certificate Programs: https://www.edx.org/professional-certificate
 
