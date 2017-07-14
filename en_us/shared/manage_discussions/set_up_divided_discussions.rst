@@ -42,13 +42,25 @@ Discussion topics that are not divided are unified, meaning that all learners
 in the course can see and respond to posts, responses, and comments from any
 other learner in the course.
 
-If you divide discussions, a good practice is to also apply a naming
-convention so that learners clearly see the audience for the discussion topics
-before they add posts to that topic. For information about naming conventions,
-see :ref:`Apply Naming Conventions to Discussion Topics`.
+=======================================
+Best Practices for Divided Discussions
+=======================================
 
-For more information about managing divided discussions, see :ref:`Managing
-Divided Discussion Topics`.
+If you divide discussions, a good practice is to use a naming convention for
+discussion topics, so that learners clearly understand the audience for a
+discussion topic before they add posts to that topic. For information about
+naming conventions, see :ref:`Apply Naming Conventions to Discussion Topics`.
+
+You can also choose to appoint learners as Community TAs or Group Commmunity
+TAs to help you to moderate course discussions. You might choose to use Group
+Community TAs if the content of discussion topics by one group should not be
+shared with another group. Group Community TAs are themselves members of
+groups that you use in your course (such as cohorts or enrollment tracks). As
+discussion moderators, they can only see and respond to posts by other members
+of their own group. For information, see :ref:`Assigning_discussion_roles`.
+
+For more information about managing discussions, see :ref:`Managing Divided
+Discussion Topics` and :ref:`Running_discussions`.
 
 .. note::
 
@@ -72,16 +84,17 @@ In this example, you are developing a course that has two enrollment tracks:
 enrollment track, so that learners in each track have a complete course
 experience, but have different assignments and projects.
 
-You will need to decide whether any of the course-wide discussion topics and
-content-specific discussion topics should be divided based on enrollment
-track.
+You will need to decide whether any of the :ref:`course-wide discussion
+topics<Create CourseWide Discussion Topics>` and :ref:`content-specific
+discussion topics<Create ContentSpecific Discussion Topics>` should be divided
+based on enrollment track.
 
 =============================
 Course-Wide Discussion Topics
 =============================
 
-As you develop your course, you add three new course-wide discussion topics,
-so that in addition to the default General topic, you have a total of four
+As you develop your course, you add three new course-wide discussion topics, so
+that in addition to the default "General" topic, you have a total of four
 course-wide discussion topics.
 
 * General

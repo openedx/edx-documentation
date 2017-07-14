@@ -92,9 +92,27 @@ Administrative Team Roles
 ****************************
 
 To provide access to features on the instructor dashboard in the LMS, you
-assign the Staff role or the Admin role.
+can assign the Staff role or the Admin role to course team members.
 
-Team members with the **Staff** role can complete the following tasks.
+Team members who have either of these roles can work on your course in Studio
+immediately, and can also use the LMS and Insights. For more information about
+assigning roles while you run your course, see :ref:`Course_Staffing`.
+
+You can also designate teams of people to beta test your course and to
+moderate and manage its discussions by assigning other LMS roles. The beta
+testers and discussion administrators must be enrolled in your course, but
+they do not need to have Staff or Admin access. For more information, see
+:ref:`Beta_Testing` and :ref:`Assigning_discussion_roles`.
+
+For more information about how to add course team members, see
+:ref:`Studio_Course_Staffing`.
+
+
+==================
+The Staff Role
+==================
+
+Course team members who have the Staff role can complete the following tasks.
 
 * View the course before the course start date.
 
@@ -109,36 +127,32 @@ Team members with the **Staff** role can complete the following tasks.
 
 * Activate course certificates.
 
-Course team members who have the **Admin** role can complete all the tasks that
-course team members who have the Staff role can complete. They can also
-complete the following tasks.
+==================
+The Admin Role
+==================
+
+Course team members who have the Admin role can complete all the tasks that team
+members who have the Staff role can complete. In addition, they can complete the
+following tasks.
 
 * Access and modify grades for all learners in a course. For example, users
   with the Admin role can reset all learners' attempts to answer a question.
 
-* Add and remove staff.
+* Add team members to, and remove them from, the Staff role.
 
-* Add and remove other admins.
+* Add team members to, and remove them from, the Admin role.
 
-* Add and remove beta testers.
+* Add and remove team members as beta testers.
 
-* Add and remove discussion admins, discussion moderators, and discussion
-  community TAs.
+* Add team members to, and remove them from, the Discussion Admin or
+  Discussion Moderator role.
 
-  .. note:: To moderate course discussions, team members must have one
-   of these discussion roles assigned to them *in addition to* the Staff or
-   Admin role. For more information, see :ref:`Assigning_discussion_roles`.
+* Add enrolled learners to, and remove them from, the Community TA or Group
+  Community TA role.
 
-Regardless of where the role is assigned, these administrative team members can
-work on your course in Studio immediately, and use the LMS and Insights after
-enrollment. For more information about assigning roles while you run your
-course, see :ref:`Course_Staffing`.
+  .. note:: To moderate course discussions, team members must explicitly be
+     added to a discussion moderation role in addition to having the course
+     team Staff or Admin role. For more information, see
+     :ref:`Assigning_discussion_roles`.
 
-You can also designate teams of people to beta test your course and to
-moderate and manage its discussions by assigning other LMS roles. The beta
-testers and discussion administrators must be enrolled in your course, but
-they do not need to have Staff or Admin access. For more information, see
-:ref:`Beta_Testing` and :ref:`Assigning_discussion_roles`.
 
-For more information about how to add course team members, see
-:ref:`Studio_Course_Staffing`.
