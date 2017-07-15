@@ -168,6 +168,12 @@ steps.
       For information about uploading images or other files in your ORA
       assignment, see :ref:`Submit a File with Your Response`.
 
+   .. note::
+
+      For assignments that require LaTeX responses, a **Preview in LaTeX**
+      option is available that you can use to preview your work before you
+      submit your response.
+
 #. When you have finished answering all of the questions, select **Submit
    your response and move to the next step**.
 
