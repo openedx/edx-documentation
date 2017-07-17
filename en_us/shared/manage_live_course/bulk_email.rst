@@ -40,12 +40,14 @@ When you send a bulk email message from the instructor dashboard, you choose
 its recipients by selecting a **Send to** option. You can select one or more
 recipient groups for each message. For details about who is included in each
 of the preset recipient groups, see :ref:`Bulk Email Who Is Included or
-Excluded`.
+Excluded`
 
 When you send a message to more than one recipient group, duplicate recipients
-are filtered out, so that someone who belongs to more than one of the
-recipient groups (for example, a course team member who is also enrolled in
-the course) only receives one copy of the message.
+are filtered out, so that someone who belongs to more than one of the recipient
+groups only receives one copy of the message. For example, if you address an
+email message to learners in a particular cohort as well as to learners in the
+Verified enrollment track, a learner who is in the cohort AND is in the Verified
+enrollment track will only receive one email message.
 
 The following preset recipient groups are available.
 
@@ -56,10 +58,10 @@ The following preset recipient groups are available.
   team who have Staff or Admin privileges. For information about course
   team member privileges, see :ref:`Course_Staffing`.
 
-* **All Learners**. Send an email message to all currently enrolled learners,
-  including course team members who are enrolled in the course. This group
-  does not include learners who have not activated their accounts, or who
-  have opted out of receiving email communications.
+* **All Learners**. Send an email message to all currently enrolled learners.
+  This group does not include learners who have not activated their accounts,
+  or who have opted out of receiving email communications. This group does not
+  include course team members, even if they are enrolled in the course.
 
 If you have more than one enrollment track in your course, each enrollment
 track is available as a separate recipient group. For more information, see
@@ -86,27 +88,27 @@ should be aware of who is included in each group.
    * - Recipient Group
      - Includes
      - Does Not Include
+
    * - Staff and Administrators
      - * Any course team member who has the **Staff** role.
        * Any course team member who has the **Admin** role.
      - * Beta testers who do not also have the **Staff** or **Admin** role.
-       * Discussion moderators who do not also have the **Staff** or **Admin** role.
-       * Discussion administrators who do not also have the **Staff** or **Admin**
+       * Discussion moderators who do not also have the **Staff** or **Admin**
          role.
-       * Discussion community TAs.
+       * Discussion administrators who do not also have the **Staff** or
+         **Admin** role.
+       * Learners who have the Community TA or Group Community TA discussion
+         moderator roles.
+
    * - All Learners
      - * All currently enrolled learners in your course, including those who
          have enrolled but have not yet accessed the course.
-       * Course team members who are enrolled in your course.
      - * Learners who have not replied to the account activation email message
          that they received when they registered on edx.org.
        * Learners who have opted out of receiving email messages through the
          **Email Settings** link for the course on the learner's dashboard.
-
-.. note:: To send an email message to all course team members as well as all
-   learners, select both **Staff and Administrators** and **All Learners**.
-   Recipients who are in both groups will receive only one copy of the email
-   message.
+       * Course team members, regardless of whether they are enrolled in the
+         course.
 
 
 .. _Enrollment Track Recipient Groups:
