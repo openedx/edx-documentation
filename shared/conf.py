@@ -83,11 +83,11 @@ DEVELOPERS = object()
 HELP_LINKS = {
     (PARTNER, COURSE_TEAMS): None, #"https://partners.edx.org/forums/partner-forums",
     (PARTNER, LEARNERS): "https://support.edx.org",
-    (PARTNER, RESEARCHERS): None, #"http://edx.readthedocs.io/projects/devdata/en/latest/front_matter/preface.html#resources-for-researchers",
-    (PARTNER, DEVELOPERS): None, #"https://open.edx.org/getting-help",
+    (PARTNER, RESEARCHERS): "http://edx.readthedocs.io/projects/devdata/en/latest/front_matter/preface.html#resources-for-researchers",
+    (PARTNER, DEVELOPERS): "https://open.edx.org/getting-help",
     (OPENEDX, LEARNERS): None, #"https://support.edx.org",
-    (OPENEDX, COURSE_TEAMS): None, #"https://open.edx.org/getting-help",
-    (OPENEDX, DEVELOPERS): None, #"https://open.edx.org/getting-help",
+    (OPENEDX, COURSE_TEAMS): "https://open.edx.org/getting-help",
+    (OPENEDX, DEVELOPERS): "https://open.edx.org/getting-help",
 }
 
 html_context['help_url'] = None
