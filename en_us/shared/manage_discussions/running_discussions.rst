@@ -168,12 +168,10 @@ discussion.
   further interaction by closing the post. Select the "More" icon and then
   **Close**.
 
-* Provide post/response/comment guidelines. You can post information from the
-  :ref:`overview<Overview_discussions>` in this section, or the :ref:`anatomy of
-  edX discussions<Anatomy of edX Course Discussions>` in the next section, in a
-  course-wide discussion topic (such as "General") to provide guidance about
-  when to start a new thread by adding a post, responding to an existing post,
-  or commenting on a response.
+* Provide post/response/comment guidelines. In a pinned course-wide topic, you
+  can provide learners with guidelines for participating in discussions,
+  including when to start a new thread by adding a post instead of responding to
+  an existing post, or commenting on a response.
 
 
 .. _Close_discussions:
