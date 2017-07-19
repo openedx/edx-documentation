@@ -6764,6 +6764,32 @@ they do for the :ref:`edx_grades_course_grade_calculated` event.
 * ``event_transaction_id``
 * ``event_transaction_type``
 
+.. _edx_grades_problem_score_overridden:
+
+``edx.grades.problem.score_overridden``
+***************************************
+
+When a course team member successfully overrides a learner's score for a
+problem, the server emits an ``edx.grades.problem.score_overridden`` event.
+
+**Event Source**: Server
+
+**History**: Added 19 Jul 2017.
+
+``event`` **Member Fields**:
+
+In addition to the :ref:`common<context>` ``context`` member fields, this event
+type also includes the following ``event`` member fields. These fields serve
+the same purpose for this event as they do for the
+:ref:`edx_grades_problem_rescored` event.
+
+* ``event_transaction_id``
+* ``event_transaction_type``
+* ``instructor_id``
+* ``new_weighted_earned``
+* ``new_weighted_possible``
+* ``only_if_higher``
+* ``problem_id``
 
 .. _edx_grades_problem_state_deleted:
 

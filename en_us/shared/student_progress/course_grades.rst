@@ -502,9 +502,9 @@ point scores from ungraded sections are called "Practice Scores".
    For example, if the course team changes a released problem's total possible
    points, learners who submitted answers to the problem before the change will
    have grades on the **Progress** page that do not reflect the problem's new
-   number of total possible points. This asynchronicity will remain until either
-   the course team rescores the changed problem, or until affected learners
-   resubmit responses to the changed problem.
+   number of total possible points. This asynchronicity will remain until
+   either the course team rescores the changed problem, or until affected
+   learners resubmit responses to the changed problem.
 
 
 .. _Adjust_grades:
@@ -533,6 +533,69 @@ a problem.
  :local:
  :depth: 1
 
+.. _Override a Learners Score for a Problem:
+
+==========================================
+Override a Learner's Score for a Problem
+==========================================
+
+In some cases, you might want to change, or override, the score that Studio has
+given a learner for a specific problem. For example, you might receive an email
+message that explains extenuating circumstances for a learner. You can change
+an individual learner's score for a problem using either the instructor
+dashboard or the Staff Debug viewer for the problem.
+
+Override a Learner's Score Using the Instructor Dashboard
+************************************************************
+
+To override a learner's score for a specific problem by using the instructor
+dashboard, follow these steps.
+
+#. Obtain the location identifier for the problem that you want to rescore.
+   For more information, see :ref:`find_URL`.
+
+#. View the live version of your course.
+
+#. Select **Instructor**, and then select **Student Admin**.
+
+#. Under **Adjust a learner's grade for a specific problem**, enter the
+   learner's email address or username, and then enter the location of the
+   problem in the course. For more information, see :ref:`find_URL`.
+
+#. Under **Score Override**, enter the new score for the problem, and then
+   select **Override Learner's Score**.
+
+   .. note::
+     Make sure that the new score is out of the weighted total points for the
+     problem.
+
+#. In the confirmation dialog box, select **OK** for each of the confirmation
+   and status messages.
+
+#. To view the results of the rescore process, select **Show Task Status**.
+
+   A table displays the status of the override process.
+
+
+Override a Learner's Score Using the Staff Debug Viewer
+************************************************************
+
+To override a learner's score for a specific problem by using the Staff Debug
+viewer, follow these steps.
+
+#. Obtain the username or email address of the learner whose score you want to
+   change.
+#. View the live version of your course.
+#. Select **Course** and navigate to the component that contains the problem
+   you want.
+#. Display the problem, and then select **Staff Debug Info**. The Staff Debug
+   viewer opens.
+#. In the **Username** field, enter the learner’s email address or username.
+#. In the **Score (for override only)** field, enter the correct score for the
+   learner, and then select **Override Score**. A message indicates a
+   successful adjustment.
+#. To close the Staff Debug viewer, click on the browser page outside of the
+   viewer.
 
 .. _rescore:
 
@@ -570,7 +633,7 @@ learner responses that were already submitted.
 .. _rescore_only_improve:
 
 Rescore an Individual Learner's Submission Only if the Score Improves
-----------------------------------------------------------------------
+*********************************************************************
 
 This method of rescoring updates a learner's score only if it improves with
 the rescoring. If the score is unchanged or might be lower after the
@@ -607,7 +670,7 @@ improves, follow these steps.
 .. _rescore_submission_individual:
 
 Rescore an Individual Learner's Submission
------------------------------------------------
+******************************************
 
 .. note:: Depending on the type of change you made to the problem, this method
    of rescoring might decrease the learner's score. To avoid negatively
@@ -644,7 +707,7 @@ To rescore an individual learner's submission, follow these steps.
 .. _rescore_all_learners_only_improve:
 
 Rescore Submissions for All Learners Only if Scores Improve
-------------------------------------------------------------
+***********************************************************
 
 This method of rescoring updates learners' scores only if they improve with
 the rescoring. Learners' scores that are unchanged or lower after the
@@ -679,7 +742,7 @@ scores only if they improve, follow these steps.
 .. _rescore_submission_all_learners:
 
 Rescore Submissions for All Learners
-------------------------------------
+************************************
 
 .. note:: Depending on the type of change you made to the problem, this method
    of rescoring might decrease learners' scores. To avoid negatively affecting
@@ -730,7 +793,7 @@ attempts for all learners to zero.
    responses, you must :ref:`delete the learner's state<delete_state>`.
 
 Reset Attempts for an Individual Learner
----------------------------------------------
+****************************************
 
 To reset the number of attempts for a single learner, follow these steps.
 
@@ -752,9 +815,10 @@ To reset the number of attempts for a single learner, follow these steps.
    viewer.
 
 Reset Attempts for All Learners
-------------------------------------
+*******************************
 
-To reset the number of attempts that all enrolled learners have for a problem, follow these steps.
+To reset the number of attempts that all enrolled learners have for a problem,
+follow these steps.
 
 #. Obtain the location identifier for the problem whose attempts you are
    resetting. For more information, see :ref:`find_URL`.
