@@ -81,19 +81,48 @@ RESEARCHERS = object()
 DEVELOPERS = object()
 
 HELP_LINKS = {
-    (PARTNER, COURSE_TEAMS): None, #"https://partners.edx.org/forums/partner-forums",
-    (PARTNER, LEARNERS): "https://support.edx.org",
-    (PARTNER, RESEARCHERS): "http://edx.readthedocs.io/projects/devdata/en/latest/front_matter/preface.html#resources-for-researchers",
-    (PARTNER, DEVELOPERS): "https://open.edx.org/resources/e-mail-lists",
-    (OPENEDX, COURSE_TEAMS): "https://open.edx.org/resources/e-mail-lists",
-    (OPENEDX, DEVELOPERS): "https://open.edx.org/resources/e-mail-lists",
+    (PARTNER, COURSE_TEAMS): {
+        'help_url': None, #"https://partners.edx.org/forums/partner-forums",
+        'help_link_text': None,
+    },
+    (PARTNER, LEARNERS): {
+        'help_url': "https://support.edx.org",
+        'help_link_text': "Contact Support",
+    },
+    (PARTNER, RESEARCHERS): {
+        'help_url': "http://edx.readthedocs.io/projects/devdata/en/latest/front_matter/preface.html#resources-for-researchers",
+        'help_link_text': "Get Help",
+    },
+    (PARTNER, DEVELOPERS): {
+        'help_url': "https://open.edx.org/getting-help",
+        'help_link_text': "Get Help",
+    },
+    (OPENEDX, LEARNERS): {
+        'help_url': None,
+        'help_link_text': None,
+    },
+    (OPENEDX, COURSE_TEAMS): {
+        'help_url': "https://open.edx.org/getting-help",
+        'help_link_text': "Get Help",
+    },
+    (OPENEDX, DEVELOPERS): {
+        'help_url': "https://open.edx.org/getting-help",
+        'help_link_text': "Get Help",
+    },
 }
 
-html_context['help_url'] = None
+# Defaults for the help links.
+html_context.update({
+    'help_url': None,
+    'help_link_text': None,
+    'feedback_form_link_text': "Give Doc Feedback",
+})
 
 def set_audience(category, audience):
     """Used from specific conf.py files to set the audience for a book."""
-    html_context['help_url'] = HELP_LINKS.get((category, audience))
+    help_data = HELP_LINKS.get((category, audience))
+    if help_data:
+        html_context.update(help_data)
 
 FEEDBACK_FORM_FMT = "https://docs.google.com/forms/d/1T5QGnYb_QnQoMO7T_eatq02miPTY40WVe3cgGphNAdY/viewform?entry.1952574704&entry.241692674={pageid}"
 
