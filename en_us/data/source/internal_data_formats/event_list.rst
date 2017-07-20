@@ -15,7 +15,7 @@ A, B, C
 *******
 
 .. list-table::
-   :widths: 40 40
+   :widths: 40 60
    :header-rows: 1
 
    * - Event
@@ -41,7 +41,7 @@ D, E, F
 *******
 
 .. list-table::
-   :widths: 40 40
+   :widths: 40 60
    :header-rows: 1
 
    * - Event
@@ -108,6 +108,8 @@ D, E, F
      - :ref:`notes`
    * - ``edx.course.student_notes.viewed``
      - :ref:`notes`
+   * - ``edx.course.tool.accessed``
+     - :ref:`course_resources`
    * - ``edx.done.toggled``
      - :ref:`Course Content Completion Events`
    * - ``edx.drag_and_drop_v2.feedback.closed``
@@ -312,7 +314,7 @@ G, H, I
 *******
 
 .. list-table::
-   :widths: 40 40
+   :widths: 40 60
    :header-rows: 1
 
    * - Event
@@ -329,7 +331,7 @@ J, K, L
 *******
 
 .. list-table::
-   :widths: 40 40
+   :widths: 40 60
    :header-rows: 1
 
    * - Event
@@ -358,7 +360,7 @@ M, N, O
 *******
 
 .. list-table::
-   :widths: 40 40
+   :widths: 40 60
    :header-rows: 1
 
    * - Event
@@ -407,7 +409,7 @@ P, Q, R
 *******
 
 .. list-table::
-   :widths: 40 40
+   :widths: 40 60
    :header-rows: 1
 
    * - Event
@@ -462,7 +464,7 @@ S, T
 *******
 
 .. list-table::
-   :widths: 40 40
+   :widths: 40 60
    :header-rows: 1
 
    * - Event
@@ -521,7 +523,7 @@ U, V, W, X, Y, Z
 *********************
 
 .. list-table::
-   :widths: 40 40
+   :widths: 40 60
    :header-rows: 1
 
    * - Event
