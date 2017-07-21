@@ -82,9 +82,9 @@ The following image shows a subsection in the LMS that contains several units.
 
 .. _The Unit Workflow:
 
-************************************************
+******************
 The Unit Workflow
-************************************************
+******************
 
 When you have set up the :ref:`section<Developing Course Sections>` and
 :ref:`subsection<Developing Course Subsections>` in the course outline, you
@@ -140,6 +140,12 @@ The following information summarizes whether or not learners can see a unit.
 * If the publishing status is `Draft (Unpublished Changes)`_, learners see the
   last published version of the unit if the :ref:`release dates<Release Dates>`
   for the containing section and subsection have passed.
+
+* If you used :ref:`access settings<Access Settings>` to specify that a unit
+  is available only to specific groups of learners (such as content groups
+  associated with particular cohorts, or enrollment track groups), only those
+  learners who are in groups to which you have given access can see the unit
+  after it is published and live.
 
 For more information, see :ref:`Controlling Content Visibility`. For
 information about testing content, see :ref:`Testing Your Course Content`.
@@ -320,18 +326,25 @@ Edit a Unit
 You can edit a unit in the following ways.
 
 * `Edit the unit name`_
-* :ref:`Develop components<Developing Course Components>`
+* :ref:`Add components to units<Developing Course Components>`
 * `Reorganize Components in Units`_
 
 When you make any of these changes, if you previously published the unit, the
 state changes to `Draft (Unpublished Changes)`_. You must then :ref:`publish
 the unit<Publish a Unit>` to make your edits visible to learners.
 
+If you are designing your course to :ref:`offer different content<Offering
+Differentiated Content>` to different groups of learners, you can also
+:ref:`Set access restrictions for the unit<Set Access Restrictions For a
+Unit>` to specify which learner groups a unit is available to.
+
+
 ==============================
 Edit the Unit Name
 ==============================
 
-To edit a unit name, select **Edit** next to the name.
+To edit a unit name, on the unit page in Studio, select **Edit** next to the
+name.
 
 .. image:: ../../../shared/images/unit-edit-icon.png
   :alt: The Edit icon for the unit name with the mouseover help showing.
@@ -339,6 +352,7 @@ To edit a unit name, select **Edit** next to the name.
 
 The name field becomes editable. Enter the new name, and then tab or click
 outside of the field to save the name.
+
 
 ==============================
 Reorganize Components in Units
@@ -365,6 +379,86 @@ being moved to the top of the unit.
  :alt: A component being dragged to a new location.
   :width: 600
 
+
+.. _Set Access Restrictions For a Unit:
+
+***********************************
+Set Access Restrictions For a Unit
+***********************************
+
+If you have more than one enrollment track in your course, or if you have
+enabled cohorts, you can limit a unit's availability to specific groups of
+learners. For information about offering different content to different learner
+groups, see :ref:`Offering Differentiated Content`.
+
+.. note:: A unit's group access settings are inherited by components in the
+   unit. If you set additional group access restrictions for a component, make
+   sure the component access settings do not contradict the unit access
+   settings. For example, you cannot give Group A of learners access to a
+   component if Group A does not have access to the unit that contains the
+   component.
+
+Tp specify a unit's access settings, follow these steps.
+
+#. In Studio, select **Content**, and then select **Outline**.
+
+#. For the unit that you want to restrict access to, select the **Configure**
+   icon in the unit's toolbar.
+
+   .. image:: ../../../shared/images/unit-configure-icon.png
+    :alt: The configure icon in a unit's toolbar in the Studio course outline.
+    :width: 500
+
+   You can also access the **Restrict access to** option from the gear icon
+   next to a unit's name on a unit page in Studio.
+
+
+   .. image:: ../../../shared/images/unit-access-settings-gear-icon.png
+    :alt: The gear icon next to a unit's title on the unit page in Studio is
+       another way to launch the unit access settings dialog.
+    :width: 400
+
+
+#. In the unit's **Settings** dialog box, for the **Restrict access to**
+   option, select the group type by which you want to restrict access.
+
+   The **Enrollment Track Groups** option is available only if your course has
+   more than one :ref:`enrollment track<enrollment_track_g>`. The **Content
+   Groups** option is available only if you have created :ref:`content
+   groups<About Content Groups>` for use with cohorts.
+
+
+   .. image:: ../../../shared/images/unit-access-settings.png
+    :alt: The visibility and access settings dialog for a unit, with a
+    :width: 200
+
+   After you select a group type, you see a list of the groups that exist for
+   that group type.
+
+
+4. Select the checkbox for each group for which you want the current unit to
+   be available.
+
+   .. image:: ../../../shared/images/unit-access-groupselected.png
+    :alt: The visibility and access settings dialog for a unit, with
+       enrollment track groups selected, and two enrollment tracks available for
+       selecting.
+    :width: 200
+
+#. Select **Save**.
+
+   The groups which have access to the unit are listed under the unit title in
+   the Studio course outline, as well as under the unit title on the unit page
+   in Studio.
+
+   .. image:: ../../../shared/images/unit-access-indicator.png
+    :alt: When a unit has restricted access, a message listing the groups
+       which have access to a unit appears under the unit title in the Studio
+       course outline.
+    :width: 500
+
+
+
 .. _Preview a Unit:
 
 ****************************
@@ -379,21 +473,18 @@ In a live course, after the unit is published and if there are no pending
 changes, previewing a unit is exactly the same as viewing the live version of
 the unit.
 
-To preview the unit, in the unit page above the status panel, select
-**Preview**.
+To preview the unit, select **Preview** above the status panel in the Studio
+unit page.
 
-The unit opens in preview mode.
+The unit opens in preview mode in the LMS.
 
-.. image:: ../../../shared/images/preview_mode.png
- :alt: The unit in preview mode in the LMS.
-  :width: 400
-
-When you are revising a previously published unit, it can be helpful to preview
-your changes in one browser window and :ref:`view the published unit<View a
-Published Unit>` in a second window.
+.. note:: When you are revising a previously published unit, it can be helpful
+   to preview your changes in one browser window and :ref:`view the published
+   unit<View a Published Unit>` in a second window.
 
 For information about previewing and testing content, see :ref:`Testing Your
 Course Content`.
+
 
 .. _Publish a Unit:
 
@@ -544,7 +635,7 @@ You are prompted to confirm that you want to make the unit visible to learners.
 Delete a Unit
 ********************************
 
-You delete a unit from the course outline.
+You delete a unit from the course outline in Studio.
 
 When you delete a unit, you delete all components within the unit.
 
@@ -555,7 +646,8 @@ When you delete a unit, you delete all components within the unit.
 
 To delete a unit, follow these steps.
 
-#. Select the **Delete** icon in the box for the unit you want to delete.
+#. On the course outline page in Studio, select the **Delete** icon in the box
+   for the unit you want to delete.
 
    .. image:: ../../../shared/images/unit-delete.png
     :alt: The Course Outline page with the Delete icons for several units
