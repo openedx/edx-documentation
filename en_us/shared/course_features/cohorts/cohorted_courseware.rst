@@ -143,8 +143,7 @@ To create a content group, follow these steps.
 
 After you create a content group, you can work with your course outline to
 specify which components are available to specific content groups. For details,
-see :ref:`Specify Components in Courseware as Available Only to Certain Content
-Groups`.
+see :ref:`Specify Content as Available Only to Certain Content Groups`.
 
 You associate each content group with one or more cohorts in the LMS, on the
 instructor dashboard. For details, see :ref:`Associate Cohorts with Content
@@ -221,9 +220,9 @@ To associate a cohort with a content group, follow these steps:
 #. Select **Save**.
 
    You have now associated your content group with a cohort. Any course content
-   that you :ref:`designate as available to that content group<Specify Components
-   in Courseware as Available Only to Certain Content Groups>` is available to
-   learners in the associated cohort or cohorts.
+   that you :ref:`designate as available to that content group<Specify Content
+   as Available Only to Certain Content Groups>` is available to learners in the
+   associated cohort or cohorts.
 
 You can associate additional cohorts with the same or a different content group
 by repeating steps 3 to 7.

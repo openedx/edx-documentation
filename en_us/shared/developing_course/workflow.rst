@@ -80,9 +80,6 @@ For more information, see :ref:`Designing For a Mobile Experience`.
 Making Course Content Visible to Students
 *****************************************
 
-When you create your content, you also specify if and when learners will be
-able to see it. Content visibility depends on several factors.
-
 * The :ref:`course start date <Set Start and End Dates>`
 * The release dates of the :ref:`section<Set a Section Release Date>` and
   :ref:`subsection<Set a Subsection Release Date>`
@@ -91,11 +88,11 @@ able to see it. Content visibility depends on several factors.
 * The :ref:`publishing status<Hide a Unit from Students>` of the unit
 * The :ref:`Hide content from learners<Hide a Unit from Students>` setting
 
-* Using :ref:`content groups<Content Groups>` or :ref:`enrollment track
-  groups<Enrollment Track Groups>` to restrict access to specific content.
+* The :ref:`content groups<About Content Groups>` or :ref:`enrollment track
+  groups<About Enrollment Track Groups and Access>` that you have allowed to access the content
 
 * The use of the :ref:`Results Visibility<Problem Results Visibility>`
-  setting
+  setting.
 
 For more information, see :ref:`Controlling Content Visibility`.
 
