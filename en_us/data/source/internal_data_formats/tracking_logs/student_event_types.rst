@@ -17,9 +17,9 @@ list of events, see the :ref:`event_list`.
   :depth: 1
 
 The descriptions that follow include what each event represents, the system
-component it originates from, the history of any changes made to the event
-over time, and any additional member fields that the common ``context`` or
-``event`` fields contain.
+component it originates from, the history of any changes made to the event over
+time, and member fields in addition to the common ``context`` or ``event``
+fields.
 
 The value in the ``event_source`` field distinguishes between events that
 originate in the browser (in JavaScript) and events that originate on the
