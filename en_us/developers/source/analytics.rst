@@ -28,7 +28,7 @@ Emitting from server-side python code::
     from eventtracking import tracker
     tracker.emit('some.event.name', {'foo': 'bar'})
 
-Emitting from client-side coffee script::
+Emitting from client-side JavaScript::
 
     Logger.log 'some.event.name', 'foo': 'bar'
 

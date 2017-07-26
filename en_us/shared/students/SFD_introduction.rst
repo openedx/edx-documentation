@@ -87,10 +87,14 @@ If You Have Questions As You Take a Course
 If you have a question about something you encounter in an edX course, try
 these options for getting an answer.
 
+.. note::
+  If you find an error or mistake in a course, contact the course staff by
+  using the :ref:`course discussions<Explore Posts>`.
+
 * Check the **Home** page in the course. Course teams use this page to post
-  updates about the course, which can include explanations about course content,
-  reminders about when graded assignments are due, or announcements for upcoming
-  events or milestones.
+  updates about the course, which can include explanations about course
+  content, reminders about when graded assignments are due, or announcements
+  for upcoming events or milestones.
 
 * Look for an "Introduction", "Overview", or "Welcome" section in the course
   content. In the first section in the course, course teams often include

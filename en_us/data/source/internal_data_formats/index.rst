@@ -16,6 +16,6 @@ information about the data stored in SQL and NoSQL databases.
    discussion_data
    wiki_data
    ora2_data
-   tracking_logs
+   tracking_logs/index
    event_list
 

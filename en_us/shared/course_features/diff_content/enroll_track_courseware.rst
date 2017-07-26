@@ -19,17 +19,18 @@ Overview
 
 If your course has more than one enrollment track, you can create different
 course experiences for learners in each enrollment track. You do this by
-designating specific components in your course as available only to learners in
-one or more of the enrollment tracks. Then, learners in each of the enrollment
-tracks see only the course content that you have designated for that track.
+designating specific components or units in your course as available only to
+learners in one or more of the enrollment tracks. Then, learners in each of the
+enrollment tracks see only the course content that you have designated for that
+track.
 
 To create track-specific content in your course, follow these steps.
 
-#. :ref:`Specify course components as available only to particular enrollment
-   track groups<Specify Components as Available Only to Certain Enrollment Tracks>`
+#. :ref:`Specify course content as available only to particular enrollment
+   track groups<Specify Content as Available Only to Certain Enrollment Tracks>`
 
-#. :ref:`View components that are available for each enrollment track
-   group<View Components Available Based on Enrollment Track>`
+#. :ref:`View components or units that are available for each enrollment track
+   group<View Components or Units Available Based on Enrollment Track>`
 
 #. :ref:`Preview track-specific course content<Viewing Track Specific
    Courseware>`
@@ -74,48 +75,38 @@ when learners change from one enrollment track to another.
    **Progress** page.
 
 
-.. _Specify Components as Available Only to Certain Enrollment Tracks:
+.. _Specify Content as Available Only to Certain Enrollment Tracks:
 
-*********************************************************************
-Specify Components as Available Only to Particular Enrollment Tracks
-*********************************************************************
+******************************************************************
+Specify Content as Available Only to Particular Enrollment Tracks
+******************************************************************
 
-In Studio, you can modify the settings of components to give access only to
-learners in particular enrollment tracks.
+In Studio, you can modify the settings of units or components to give access
+only to learners who are in particular enrollment tracks. You cannot specify
+entire subsections or sections for restricted access by enrollment track.
 
-You can specify whether a component within a unit has restricted access based on
-learners' enrollment tracks. You cannot specify entire units, subsections, or
-sections for restricted access by enrollment track.
+You do not need to edit the access settings of units or components that are
+intended for all learners. Units or components that you do not restrict access
+to are available to all learners enrolled in your course, regardless of the
+enrollment track that they are in.
 
-.. note:: You do not need to edit the access settings of components that are
-   intended for all learners. Components that you do not restrict access to
-   are available to all learners enrolled in your course, regardless of the
-   enrollment track that they are in.
+.. note:: Components inherit any group access restrictions that are set for
+   their parent unit. If you set additional group access restrictions for a
+   component, make sure the component access settings do not contradict the
+   unit access settings. For example, you cannot give Group A of learners
+   access to a component if Group A does not have access to the unit that
+   contains the component.
 
-To specify components as available only to learners in particular enrollment
-tracks, follow these steps.
+For details about how to modify unit access settings, see :ref:`Set Access
+Restrictions For a Unit`.
 
-#. In Studio, select **Content**, and then select **Outline**.
+For details about how to modify component access settings, see :ref:`Set Access
+Restrictions For a Component`.
 
-#. On a unit page, for each component for which you want to restrict access to
-   based on enrollment track, select the **Access Settings** icon.
-
-#. In the **Editing access** dialog box, for the **Restrict access to**
-   option, select **Enrollment Tracks**, and then select the checkbox for each
-   enrollment track for which you want the current component to be available.
-
-#. Select **Save**.
-
-The publishing details for the course section in the sidebar indicate that
-access to some component in the unit is restricted to specific groups of
-learners. In addition, for each component for which you have specified
-restricted access, a message indicating which groups have access to the
-component is displayed beneath the component title.
-
-For more information about previewing your course to ensure that learners in a
-particular enrollment track correctly see the content intended for them, see
-:ref:`Viewing Track Specific Courseware` and :ref:`Roles for Viewing Course
-Content`.
+For details about previewing your course to ensure that learners in an
+enrollment track correctly see the content intended for them, see :ref:`View
+Components or Units Available Based on Enrollment Track` and :ref:`Viewing
+Track Specific Courseware`.
 
 .. note:: In addition to the access settings for content groups, a learner's
    ability to see a course component also depends on whether it is marked as
@@ -124,13 +115,13 @@ Content`.
    see :ref:`Testing Your Course Content`.
 
 
-.. _View Components Available Based on Enrollment Track:
+.. _View Components or Units Available Based on Enrollment Track:
 
-*************************************************************
-View Components That Are Available Based on Enrollment Track
-*************************************************************
+*********************************************************************
+View Components or Units That Are Available Based on Enrollment Track
+*********************************************************************
 
-To view the components that are available to learners in each of the
+To view the components or units that are available to learners in each of the
 enrollment tracks in your course, follow these steps.
 
 #. In Studio, select **Settings**, and then select **Group Configurations**.
@@ -140,15 +131,14 @@ enrollment tracks in your course, follow these steps.
    page only if more than one enrollment track exists in the course. Each
    enrollment track group corresponds to an enrollment track.
 
-   The enrollment track group's box displays the number of units that are
-   designated for learners in the track.
+   The enrollment track group's box displays the number of locations (units or
+   components) that are designated for learners in the track.
 
 #. Click the enrollment track name to view the names of units and components
    that are designated for learners in the track.
 
-#. Click a linked unit name to go to that unit in the course outline, where
-   you can change that unit's :ref:`visibility settings<Content Hidden from
-   Students>`.
+#. Click a linked location name to go to that unit in the course outline, where
+   you can change the group access settings for the unit or component.
 
 For more information about previewing your course to ensure that learners in
 an enrollment track correctly see the content intended for them, see
