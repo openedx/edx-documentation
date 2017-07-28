@@ -15,6 +15,7 @@ This topic describes how to use Studio to create and set up a course.
     You must have the correct permissions to create courses on the edX Edge
     site. For more information, see :ref:`Use Studio on Edge`.
 
+
 .. contents::
   :local:
   :depth: 1

@@ -1,3 +1,5 @@
+.. This file is used only in the Open edX version of the B&R Guide
+
 .. _Manage Course Fees:
 
 #################################

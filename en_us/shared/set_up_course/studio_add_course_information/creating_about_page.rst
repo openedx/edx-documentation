@@ -19,13 +19,15 @@ before they enroll in the course.
      additional information.
  :width: 600
 
-.. note::
-  If the CourseTalk widget is enabled for your instance of the Open edX
-  platform, the About page for every course also includes the CourseTalk
-  widget. Learners who have enrolled in your course use this widget to write
-  reviews of your course on the **Home** page in the LMS. These reviews are
-  then visible on the course About page. For more information, see
-  :ref:`installation:Add CourseTalk`.
+.. only:: Open_edX
+
+   .. note:: If the CourseTalk widget is enabled for your instance of the Open edX
+      platform, the About page for every course also includes the CourseTalk
+      widget. Learners who have enrolled in your course use this widget to write
+      reviews of your course on the **Course** page in the LMS. These reviews are
+      then visible on the course About page. For more information, see
+      :ref:`installation:Add CourseTalk`.
+
 
 You add the contents of your course About page in Studio. For more information,
 see one of the following topics.

@@ -144,8 +144,8 @@ Follow these steps to access your certificate.
 .. note:: Different self-paced courses issue certificates at different
    intervals. Some courses issue certificates once a month, and others issue
    certificates less frequently. For more information about your course's
-   specific certificate schedule, see the About page or the **Home** page for
-   your course.
+   specific certificate schedule, see the **Course** page or course team updates
+   for your course.
 
    A few self-paced courses offer :ref:`on-demand certificates<SFD On Demand
    Certificates>`, allowing you to generate your own certificate as soon as
@@ -174,8 +174,8 @@ certificate when it becomes available.
 .. note:: Different self-paced courses issue certificates at different
    intervals. Some courses issue certificates once a month, and others issue
    certificates less frequently. For more information about your course's
-   specific certificate schedule, see the About page or the **Home** page for
-   your course.
+   specific certificate schedule, see the **Course** page or course team updates
+   for your course.
 
    A few self-paced courses offer :ref:`on-demand certificates<SFD On Demand
    Certificates>`, allowing you to generate your own certificate as soon as

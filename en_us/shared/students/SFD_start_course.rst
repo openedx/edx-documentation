@@ -38,8 +38,13 @@ lessons or assignments.
 Find a Course's Start Date
 ===========================
 
-You can usually enroll in a course before the start date, although you cannot
-access course materials and complete assignments.
+You can usually enroll in a course before the start date, although you might
+not be able to access course materials yet.
+
+* You do not need to sign in exactly when the course begins.
+
+* If the course content is not immediately available, you can set a calendar
+  reminder for the course start date, and check back later.
 
 You can find a course's start date on its About page. Not all courses publish
 the exact start time.
@@ -57,10 +62,6 @@ course listing on your dashboard.
    :alt: A course listing on a learner's dashboard with the start date underthe
      name of the course.
 
-* You do not need to sign in exactly when the course begins.
-
-* If the course content is not immediately available, check back later on the
-  start date.
 
 For more information about different course statuses, see :ref:`Course
 Availability`
@@ -74,12 +75,40 @@ Start a Course
 
 To start work in a course that is in progress, follow these steps.
 
-#. On your dashboard, locate the course.
+#. On your dashboard, click **View Course** for the course that you want to open.
 
-#. Select **View Course**. The course **Home** page opens. This page shows
-   important dates and, typically, a welcome message from the course team.
+   .. image:: ../../shared/images/dashboard_view_course.png
+     :width: 500
+     :alt: A course card on the dashboard, with the View Course button circled.
 
-#. Select **Course**. The first section of course content opens.
+   The course opens on the **Course** page, where you usually see a welcome
+   message from the course team.
+
+   .. image:: ../../shared/images/course_dismiss_update.png
+     :width: 600
+     :alt: The landing page of a course, with the Dismiss link in the welcome
+        message circled, and the Updates link under Course Tools in the sidebar
+        highlighted.
+
+
+#. When you have read a message from the course team, you can click
+   **Dismiss** to stop displaying the message. If you want to read the message
+   again, click **Updates** under **Course Tools**.
+
+   Below any messages from the course team, you see the course outline.
+
+   .. image:: ../../shared/images/course_nav_outline.png
+     :width: 350
+     :alt: The course outline, with a section selected.
+
+
+#. Click **Start Course** to go to the first section of the course, or select
+   any part of the course to jump to it.
+
+   If you have already accessed or worked in the course, you see a **Resume
+   Course** button instead of a **Start Course** button. Click **Resume
+   Course** to jump to the part of the course that you last accessed.
+
 
 ==============================
 View an Archived Course

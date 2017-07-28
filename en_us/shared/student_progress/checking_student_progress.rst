@@ -90,9 +90,9 @@ qualify for a certificate in your course. This process has two steps.
   :ref:`learners:SFD On Demand Certificates`.
 
 .. note::
-  If your course offers on-demand certificates, we encourage you to include
-  this information on your course About page, on the **Home** page, and in
-  communication with your learners.
+  If your course offers on-demand certificates, we encourage you to include this
+  information on your course About page, in updates on the **Course** page, and
+  in email and discussion post communications with your learners.
 
 .. _Allow Learners to Request Certificates:
 

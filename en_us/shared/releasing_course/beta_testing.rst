@@ -380,5 +380,5 @@ problems, questions, and issues can occur while a course is running.
 * Often, learners report issues by asking questions in a discussion. Your
   discussion moderation team can watch for posts that indicate problems.
 
-* To let learners know the best way to report problems, you can post
-  information on the **Home** page or post it in a discussion.
+* To let learners know the best way to report problems, you can post information
+  in the course welcome message, or post it in a discussion.

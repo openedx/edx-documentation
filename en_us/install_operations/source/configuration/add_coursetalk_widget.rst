@@ -16,14 +16,14 @@ Overview
 *********
 
 The CourseTalk widget allows learners to write reviews of your course and see
-reviews that other learners have written. Learners write reviews on the course
-**Home** page, and the reviews are visible on the course **About** page.
-Learners can write or read reviews of your course at any time.
+reviews that other learners have written. Learners can write reviews on the
+course **Course** page, and the reviews are visible both in the course, and on
+the course **About** page. Only learners who are enrolled in the course can
+leave reviews of a course.
 
-.. image:: ../Images/Course_Talk.png
+.. image:: ../../../shared/images/course_reviews.png
  :width: 250
- :alt: The right pane of an About page, showing a Course Talk widget under the
-     course information.
+ :alt: Examples of course reviews on a course's About page.
 
 *********************************************
 Add the CourseTalk Widget
@@ -45,8 +45,7 @@ To add the CourseTalk widget, follow these steps.
     You can use any text that you want as your platform key. EdX recommends
     that you use your domain name, or part of your domain name.
 
-#. In the LMS, open the **Home** page for any of your Open edX courses, and
-   verify that the CourseTalk widget appears at the bottom of the page.
+#. In the LMS, open the **Course** page for any of your Open edX courses. Verify that the **Reviews** link in the sidebar opens the CourseTalk widget.
 #. Sign out of your instance of Open edX and view the About page for any
    course.
 #. In the right pane, verify that the CourseTalk widget appears below the
