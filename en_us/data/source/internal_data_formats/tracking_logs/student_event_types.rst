@@ -1226,6 +1226,7 @@ The following ``event`` member field applies specifically to
      - string
      - The identifier of the course that includes the bookmark.
 
+.. _edx_bookmark_listed:
 
 =====================================================
 ``edx.bookmark.listed``
@@ -1237,7 +1238,7 @@ pages. If the number of bookmarks exceeds the defined page length, the browser
 emits an additional ``edx.course.bookmark.listed`` event each time the user
 navigates to a different page of results.
 
-See also ``edx.course.tool.accessed``.
+See also :ref:`course_tool_accessed`.
 
 **History**: Added 4 Jan 2016.
 
@@ -1315,7 +1316,7 @@ The browser emits an ``edx.course.tool.accessed`` event when a user clicks one
 of the links under the **Course Tools** heading in the LMS, such as
 **Bookmarks**, **Reviews**, or **Updates**.
 
-See also ``edx.bookmark.listed``.
+See also :ref:`edx_bookmark_listed`.
 
 **History**: Added 24 July 2017.
 
