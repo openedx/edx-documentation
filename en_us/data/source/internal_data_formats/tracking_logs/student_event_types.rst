@@ -67,9 +67,9 @@ about the ``event_source`` field, see :ref:`common`.
       When a badge is created that associates a specific learner with a specific
       achievement, the server emits an ``edx.badge.assertion.created`` event.
 
-      **Event Source**: Server
+      **History**: Added 8 June 2015.
 
-      **History** Added 8 June 2015.
+      **Event Source**: Server
 
       ``event`` **Member Fields**:
 
@@ -112,9 +112,9 @@ about the ``event_source`` field, see :ref:`common`.
       sharing it on social media, the server emits an
       ``edx.badge.assertion.shared`` event.
 
-      **Event Source**: Browser
+      **History**: Added 8 June 2015.
 
-      **History** Added 8 June 2015.
+      **Event Source**: Browser
 
       ``event`` **Member Fields**:
 
@@ -160,9 +160,9 @@ about the ``event_source`` field, see :ref:`common`.
       use a badge's evidence link to view a badge owner's certificate, the server
       emits an ``edx.badge.assertion.evidence_visited`` event.
 
-      **Event Source**: Browser
+      **History**: Added 8 June 2015.
 
-      **History** Added 8 June 2015.
+      **Event Source**: Browser
 
       ``event`` **Member Fields**:
 
@@ -188,159 +188,7 @@ about the ``event_source`` field, see :ref:`common`.
 Bookmark Events
 **************************
 
-This section includes descriptions of the following events.
-
-.. contents::
- :local:
- :depth: 1
-
-Users can add bookmarks to course units for easy access in the future. The
-browser emits these events when users view, add, use, or delete bookmarks.
-
-.. _edx_bookmark_accessed:
-
-=====================================================
-``edx.bookmark.accessed``
-=====================================================
-
-The browser emits this event when a user accesses a bookmark by selecting a
-link on the **My Bookmarks** page in the LMS.
-
-``event`` **Member Fields**:
-
-.. list-table::
-   :widths: 15 15 60
-   :header-rows: 1
-
-   * - Field
-     - Type
-     - Details
-   * - ``bookmark_id``
-     - string
-     - The unique internal identifier for the bookmark.
-   * - ``component_type``
-     - string
-     - The component type of the bookmarked XBlock. For more information, see
-       :ref:`Course Structure Category Field`.
-   * - ``component_usage_id``
-     - string
-     - The unique usage identifier of the bookmarked XBlock. This ID
-       corresponds to the ``courseware_studentmodule.module_id``. For more
-       information, see :ref:`module_id`.
-
-**Event Source**: Browser
-
-**History**: Added 4 Jan 2016.
-
-.. _edx_bookmark_added:
-
-=====================================================
-``edx.bookmark.added``
-=====================================================
-
-The browser emits this event when a user bookmarks a page.
-
-``event`` **Member Fields**:
-
-The ``edx.course.bookmark.added`` events include the same event member fields
-that are described for :ref:`edx_bookmark_accessed`. The following
-member fields serve the same purpose for accessed bookmarks, added bookmarks,
-and removed bookmarks.
-
-* ``bookmark_id``
-* ``component_type``
-* ``component_usage_id``
-
-The following ``event`` member field applies specifically to
-``edx.course.bookmark.added`` and ``edx.course.bookmark.removed`` events.
-
-.. list-table::
-   :widths: 15 15 60
-   :header-rows: 1
-
-   * - Field
-     - Type
-     - Details
-   * - ``course_id``
-     - string
-     - The identifier of the course that includes the bookmark.
-
-**Event Source**: Browser
-
-**History**: Added 4 Jan 2016.
-
-=====================================================
-``edx.bookmark.listed``
-=====================================================
-
-The browser emits this event when a user selects **My Bookmarks** in the LMS
-to list previously bookmarked pages. If the number of bookmarked events
-exceeds the defined page length, the browser emits an additional
-``edx.course.bookmark.listed`` event each time the user navigates to a
-different page of results.
-
-``event`` **Member Fields**:
-
-.. list-table::
-   :widths: 15 15 60
-   :header-rows: 1
-
-   * - Field
-     - Type
-     - Details
-   * - ``bookmarks_count``
-     - integer
-     - The number of pages a learner has bookmarked. If the ``course_id`` is
-       specified, this value is the number of pages a learner has bookmarked
-       in that course.
-   * - ``course_id``
-     - string
-     - The identifier of the course that includes the bookmark. This is an optional
-       field that is present only if the value for ``list_type`` is ``per_course``.
-
-       * ``per_course`` indicates that all listed bookmarks are in a single course.
-       * ``all_courses`` indicates that the listed bookmarks can be in any
-         course that the learner is enrolled in.
-
-   * - ``list_type``
-     - string
-     - Possible values are 'per_course' or 'all_courses'.
-   * - ``page_number``
-     - integer
-     - The current page number in the list of bookmarks.
-   * - ``page_size``
-     - integer
-     - The number of bookmarks on the current page.
-
-**Event Source**: Browser
-
-**History**: Added 4 Jan 2016.
-
-=====================================================
-``edx.bookmark.removed``
-=====================================================
-
-The browser emits this event when a user removes a bookmark from a page.
-
-``event`` **Member Fields**:
-
-The ``edx.course.bookmark.removed`` event includes the same event member
-fields that are described for :ref:`edx_bookmark_accessed`, and it also
-includes the ``course_id`` field that is described for
-:ref:`edx_bookmark_added`.
-
-The ``edx.course.bookmark.removed`` event includes the following event member
-fields.
-
-* ``bookmark_id``
-* ``component_type``
-* ``component_usage_id``
-* ``course_id``
-
-**Event Source**: Browser
-
-**History**: Added 4 Jan 2016.
-
+Bookmark events are described in :ref:`course_resources`.
 
 
 .. _certificate_events:
@@ -365,9 +213,9 @@ When a certificate is generated, a record is created in the
 ``edx.certificate.created`` event. For details, see
 :ref:`certificates_generatedcertificate`.
 
-**Event Source**: Server
-
 **History** Added 2 September 2015.
+
+**Event Source**: Server
 
 ``event`` **Member Fields**:
 
@@ -409,9 +257,9 @@ When a certificate is generated, a record is created in the
 When a learner shares the URL for her certificate on a social media web site,
 the server emits an ``edx.certificate.shared`` event.
 
-**Event Source**: Browser
+**History**: Added 2 September 2015.
 
-**History** Added 2 September 2015.
+**Event Source**: Browser
 
 ``event`` **Member Fields**:
 
@@ -450,9 +298,9 @@ LinkedIn, and the link back to the certificate is followed by some visitor to
 that social network site, the server emits an
 ``edx.certificate.evidence_visited`` event.
 
-**Event Source**: Browser
+**History**: Added 2 September 2015.
 
-**History** Added 2 September 2015.
+**Event Source**: Browser
 
 ``event`` **Member Fields**:
 
@@ -523,9 +371,10 @@ Additional events are emitted when members of the course team select
 **Instructor** in the LMS to create a cohort on the instructor dashboard. See
 :ref:`instructor_cohort_events`.
 
-**Event Source**: Server
 
-**History** Added 7 Oct 2014.
+**History**: Added 7 Oct 2014.
+
+**Event Source**: Server
 
 ``event`` **Member Fields**:
 
@@ -558,9 +407,9 @@ Additional events are emitted when members of the course team select
 **Instructor** in the LMS to add a user to a cohort on the instructor
 dashboard. See :ref:`instructor_cohort_events`.
 
-**Event Source**: Server
+**History**: Added 7 Oct 2014.
 
-**History** Added 7 Oct 2014.
+**Event Source**: Server
 
 ``event`` **Member Fields**:
 
@@ -589,9 +438,9 @@ When a course team member selects **Instructor** in the LMS to change the
 cohort assignment of a learner on the instructor dashboard, the server emits an
 ``edx.cohort.user_removed`` event.
 
-**Event Source**: Server
+**History**: Added 7 Oct 2014.
 
-**History** Added 7 Oct 2014.
+**Event Source**: Server
 
 ``event`` **Member Fields**:
 
@@ -708,9 +557,9 @@ revisits it after that change. For those users, the
 of components delivered from the library and also the components that were
 delivered for the first time.
 
-**Event Source**: Server
+**History**: Added 18 Mar 2015.
 
-**History** Added 18 Mar 2015.
+**Event Source**: Server
 
 ``event`` **Member Fields**:
 
@@ -786,9 +635,9 @@ that were previously delivered to that user can no longer be delivered.
   For example, the course team reduces the number of library components to
   deliver or specifies a different type of problem to deliver.
 
-**Event Source**: Server
+**History**: Added 18 Mar 2015.
 
-**History** Added 18 Mar 2015.
+**Event Source**: Server
 
 ``event`` **Member Fields**:
 
@@ -977,7 +826,7 @@ unit navigation bar in the LMS. Users can use the "next" control to navigate
 from one unit to the next unit within the current subsection, or from the last
 unit in one subsection to the first unit in the next subsection.
 
-**History** : On May 3, 2016, the "next" navigation control in the LMS was
+**History**: On May 3, 2016, the "next" navigation control in the LMS was
 enhanced to allow users to move not only within a subsection but also between
 subsections. The ``seq_next`` event was correspondingly enhanced with
 additional fields and now maps to the new event
@@ -1114,7 +963,7 @@ navigate from one unit back to the previous unit within the current
 subsection, or from the first unit in one subsection to the last unit in the
 previous subsection.
 
-**History** : On May 3, 2016, the "previous" navigation control in the LMS was
+**History**: On May 3, 2016, the "previous" navigation control in the LMS was
 enhanced to allow users to move not only within a subsection but also between
 subsections. The ``seq_prev`` event was correspondingly enhanced with
 additional fields and now maps to the new event
@@ -1208,7 +1057,7 @@ The browser emits this event when a user selects any tab in the unit
 navigation bar in the LMS to navigate to another unit within the subsection.
 Tabs correspond to the unit in the subsection (or verticals in the sequence).
 
-**History** : On May 3, 2016, the ``seq_goto`` event was promoted to a new
+**History**: On May 3, 2016, the ``seq_goto`` event was promoted to a new
 naming infrastructure and now maps to the new event
 ``edx.ui.lms.sequence.tab_selected``. Before May 3, 2016, the ``name`` and
 ``event`` fields for the ``seq_goto`` event were both set to the same value.
@@ -1288,6 +1137,210 @@ The ``page_close`` event originates from within the JavaScript Logger itself.
 ``event`` **Member Fields**: None
 
 
+.. _course_resources:
+
+**************************
+Course Resource Events
+**************************
+
+This section includes descriptions of the following events.
+
+.. contents::
+  :local:
+  :depth: 1
+
+Course resource events are emitted when a user interacts with a course resource
+or tool, such as the Course Reviews tool or the Bookmarks tool.
+
+
+.. _edx_bookmark_accessed:
+
+=====================================================
+``edx.bookmark.accessed``
+=====================================================
+
+The browser emits this event when a user accesses a bookmark by selecting a
+link on the **My Bookmarks** page in the LMS.
+
+**History**: Added 4 Jan 2016.
+
+**Event Source**: Browser
+
+``event`` **Member Fields**:
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+   * - ``bookmark_id``
+     - string
+     - The unique internal identifier for the bookmark.
+   * - ``component_type``
+     - string
+     - The component type of the bookmarked XBlock. For more information, see
+       :ref:`Course Structure Category Field`.
+   * - ``component_usage_id``
+     - string
+     - The unique usage identifier of the bookmarked XBlock. This ID
+       corresponds to the ``courseware_studentmodule.module_id``. For more
+       information, see :ref:`module_id`.
+
+
+.. _edx_bookmark_added:
+
+=====================================================
+``edx.bookmark.added``
+=====================================================
+
+The server emits this event when a user bookmarks a page in the course.
+
+**History**: Added 4 Jan 2016.
+
+**Event Source**: Server
+
+``event`` **Member Fields**:
+
+The ``edx.course.bookmark.added`` events include the same event member fields
+that are described for :ref:`edx_bookmark_accessed`. The following
+member fields serve the same purpose for accessed bookmarks, added bookmarks,
+and removed bookmarks.
+
+* ``bookmark_id``
+* ``component_type``
+* ``component_usage_id``
+
+The following ``event`` member field applies specifically to
+``edx.course.bookmark.added`` and ``edx.course.bookmark.removed`` events.
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+   * - ``course_id``
+     - string
+     - The identifier of the course that includes the bookmark.
+
+
+=====================================================
+``edx.bookmark.listed``
+=====================================================
+
+The server emits this event when a user clicks **Bookmarks** under the
+**Course Tools** heading in the LMS to view the list of previously bookmarked
+pages. If the number of bookmarks exceeds the defined page length, the browser
+emits an additional ``edx.course.bookmark.listed`` event each time the user
+navigates to a different page of results.
+
+See also ``edx.course.tool.accessed``.
+
+**History**: Added 4 Jan 2016.
+
+**Event Source**: Server
+
+``event`` **Member Fields**:
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+   * - ``bookmarks_count``
+     - integer
+     - The number of pages a learner has bookmarked. If ``course_id`` is
+       specified, this value is the number of pages that a learner has
+       bookmarked in that course.
+
+   * - ``course_id``
+     - string
+     - The identifier of the course that includes the bookmark. This is an optional
+       field that is present only if the value for ``list_type`` is ``per_course``.
+
+       * ``per_course`` indicates that all listed bookmarks are in a single course.
+       * ``all_courses`` indicates that the listed bookmarks can be in any
+         course that the learner is enrolled in.
+
+   * - ``list_type``
+     - string
+     - Possible values are ``per_course`` or ``all_courses``.
+   * - ``page_number``
+     - integer
+     - The current page number in the list of bookmarks.
+   * - ``page_size``
+     - integer
+     - The number of bookmarks on the current page.
+
+
+
+=====================================================
+``edx.bookmark.removed``
+=====================================================
+
+The server emits this event when a user removes a bookmark from a page.
+
+**History**: Added 4 Jan 2016.
+
+**Event Source**: Server
+
+``event`` **Member Fields**:
+
+The ``edx.course.bookmark.removed`` event includes the same event member
+fields that are described for :ref:`edx_bookmark_accessed`, and it also
+includes the ``course_id`` field that is described for
+:ref:`edx_bookmark_added`.
+
+The ``edx.course.bookmark.removed`` event includes the following event member
+fields.
+
+* ``bookmark_id``
+* ``component_type``
+* ``component_usage_id``
+* ``course_id``
+
+
+.. _course_tool_accessed:
+
+=====================================================
+``edx.course.tool.accessed``
+=====================================================
+
+The browser emits an ``edx.course.tool.accessed`` event when a user clicks one
+of the links under the **Course Tools** heading in the LMS, such as
+**Bookmarks**, **Reviews**, or **Updates**.
+
+See also ``edx.bookmark.listed``.
+
+**History**: Added 24 July 2017.
+
+**Component**: LMS
+
+**Event Source**: Browser
+
+
+In addition to the :ref:`common<context>` ``context`` and ```event`` member
+fields, this event type also includes the following ``event`` member fields.
+
+``event`` **Member Fields**:
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+   * - ``tool_name``
+     - string
+     - The name of the course tool that was accessed. Possible values are
+       ``edx.bookmarks``, ``edx.reviews``, and ``edx.updates``.
+
 
 .. _forum_events:
 
@@ -1338,11 +1391,11 @@ Users create a comment about a response by entering text and then submitting
 the contributions. When these actions are complete, the server emits an
 ``edx.forum.comment.created`` event.
 
+**History**: Added 5 Mar 2015.
+
 **Component**: Discussion
 
 **Event Source**: Server
-
-**History**: Added 5 Mar 2015.
 
 ``event`` **Member Fields**:
 
@@ -1384,11 +1437,11 @@ Users create a reply to a post by clicking **Add a Response** and then
 submitting their contributions. When these actions are complete, the server
 emits an ``edx.forum.response.created`` event.
 
+**History**: Added 5 Mar 2015.
+
 **Component**: Discussion
 
 **Event Source**: Server
-
-**History**: Added 5 Mar 2015.
 
 ``event`` **Member Fields**:
 
@@ -1436,11 +1489,13 @@ In these events, the user who voted for the response is identified in the
 ``username`` and ``context.user_id`` fields, and the user who originally posted
 the thread is identified in the ``event.target_username`` field.
 
+
+**History**: Added 1 Dec 2015.
+
 **Component**: Discussion
 
 **Event Source**: Server
 
-**History**: Added 1 Dec 2015.
 
 ``event`` **Member Fields**:
 
@@ -1468,12 +1523,13 @@ thread.
 After a user executes a text search in the navigation sidebar of the course
 **Discussion** page, the server emits an ``edx.forum.searched`` event.
 
+**History**: Added 16 May 2014.  The ``corrected_text`` field was added 5
+Jun 2014. The ``group_id`` field was added 7 October 2014.
+
 **Component**: Discussion
 
 **Event Source**: Server
 
-**History**: Added 16 May 2014.  The ``corrected_text`` field was added 5
-Jun 2014. The ``group_id`` field was added 7 October 2014.
 
 ``event`` **Member Fields**:
 
@@ -1530,11 +1586,11 @@ Users create a new top-level thread, also known as a post, by clicking **New
 Post** and then submitting their contributions. When these actions are
 complete, the server emits an ``edx.forum.thread.created`` event.
 
+**History**: Added 5 Mar 2015.
+
 **Component**: Discussion
 
 **Event Source**: Server
-
-**History**: Added 5 Mar 2015.
 
 ``event`` **Member Fields**:
 
@@ -1685,11 +1741,11 @@ complete, the server emits an ``edx.forum.thread.created`` event.
 A user views a thread in the course discussions on a desktop, laptop, or tablet
 computer, or on the edX mobile apps.
 
+**History**: Added 12 Jul 2017.
+
 **Component**: Discussion
 
 **Event Source**: Server
-
-**History**: Added 12 Jul 2017.
 
 ``event`` **Member Fields**:
 
@@ -1753,11 +1809,13 @@ In these events, the user who voted for the thread is identified in the
 ``username`` and ``context.user_id`` fields, and the user who originally posted
 the thread is identified in the ``event.target_username`` field.
 
+
+**History**: Added 1 Dec 2015.
+
 **Component**: Discussion
 
 **Event Source**: Server
 
-**History**: Added 1 Dec 2015.
 
 ``event`` **Member Fields**:
 
@@ -1999,8 +2057,6 @@ field.
 ``event`` **Member Fields**: None
 
 
-
-
 .. _enrollment:
 
 *****************
@@ -2034,11 +2090,11 @@ In addition, actions by course team members also generate
 enrollment events. For the actions that members of the course team complete
 that result in these events, see :ref:`instructor_enrollment`.
 
-**Event Source**: Server
-
 **History**: These enrollment events were added on 03 Dec 2013. On 07 May
 2014, the ``name`` field was added. These enrollment events include both a
 ``name`` field and an ``event_type`` field.
+
+**Event Source**: Server
 
 ``event`` **Member Fields**:
 
@@ -2104,9 +2160,10 @@ The server emits an ``edx.course.enrollment.mode_changed`` event when the
 process of changing a student's ``student_courseenrollment.mode`` to a
 different mode is complete.
 
-**Event Source**: Server
 
 **History**: Added 21 Aug 2014.
+
+**Event Source**: Server
 
 ``event`` **Member Fields**:
 
@@ -2139,9 +2196,9 @@ event when a student clicks this option, and the process of upgrading the
 ``student_courseenrollment.mode`` for the student to 'verified' begins. See
 :ref:`student_courseenrollment`.
 
-**Event Source**: Browser
-
 **History**: Added 18 Dec 2013.
+
+**Event Source**: Browser
 
 ``context`` **Member Fields**:
 
@@ -2170,9 +2227,9 @@ The server emits this event when the process of upgrading a student's
 ``student_courseenrollment.mode`` from 'audit' or 'honor' to 'verified' is
 complete.
 
-**Event Source**: Server
-
 **History**: Added 18 Dec 2013.
+
+**Event Source**: Server
 
 ``context`` **Member Fields**:
 
@@ -2227,9 +2284,10 @@ Learner's Guide*.
 The browser emits ``edx.course.student_notes.added`` events when a learner
 adds a note in the course.
 
+**History**: Added 16 March 2016.
+
 **Event Source**: Browser
 
-**History**: Added 16 March 2016.
 
 ``event`` **Member Fields**:
 
@@ -2278,9 +2336,10 @@ adds a note in the course.
 The browser emits ``edx.course.student_notes.deleted`` events when a learner
 deletes a note in course.
 
-**Event Source**: Browser
 
 **History**: Added 16 March 2016.
+
+**Event Source**: Browser
 
 ``event`` **Member Fields**:
 
@@ -2296,9 +2355,10 @@ same as the member fields in the :ref:`edx_course_student_notes_added` event.
 The browser emits ``edx.course.student_notes.edited`` events when a learner
 edits a note in course.
 
-**Event Source**: Browser
 
 **History**: Added 16 March 2016.
+
+**Event Source**: Browser
 
 ``event`` **Member Fields**:
 
@@ -2331,10 +2391,9 @@ event.
 The browser emits ``edx.course.student_notes.notes_page_viewed`` events when a
 learner accesses the **Notes** page or selects a different view on the page.
 
+**History**: Added 16 March 2016.
 
 **Event Source**: Browser
-
-**History**: Added 16 March 2016.
 
 ``event`` **Member Fields**:
 
@@ -2361,9 +2420,9 @@ learner accesses the **Notes** page or selects a different view on the page.
 The browser emits ``edx.course.student_notes.searched`` events when a learner
 searches notes on the **Notes** page.
 
-**Event Source**: Browser
-
 **History**: Added 16 March 2016.
+
+**Event Source**: Browser
 
 ``event`` **Member Fields**:
 
@@ -2389,9 +2448,10 @@ The browser emits ``edx.course.student_notes.used_unit_link`` events when a
 learner uses a note link on the **Notes** page to go to the HTML component that
 contains that note.
 
+**History**: Added 16 March 2016.
+
 **Event Source**: Browser
 
-**History**: Added 16 March 2016.
 
 ``event`` **Member Fields**:
 
@@ -2421,10 +2481,9 @@ contains that note.
 The browser emits ``edx.course.student_notes.viewed`` events when a learner
 views one or more notes on a page in the course.
 
+**History**: Added 16 March 2016.
 
 **Event Source**: Browser
-
-**History**: Added 16 March 2016.
 
 ``event`` **Member Fields**:
 
@@ -2481,9 +2540,9 @@ After learners submit their own responses for evaluation, they use the scoring
 rubric to evaluate the responses of other course participants. The server emits
 this event when a response is delivered to a learner for evaluation.
 
-**Event Source**: Server
-
 **History**: Added 3 April 2014.
+
+**Event Source**: Server
 
 ``event`` **Member Fields**:
 
@@ -2522,9 +2581,9 @@ When a course team member retrieves a learner's response for grading in the
 staff assessment step, the server emits an
 ``openassessmentblock.get_submission_for_staff_grading`` event.
 
-**Event Source**: Server
-
 **History**: Added 20 Jan 2016.
+
+**Event Source**: Server
 
 ``event`` **Member Fields**:
 
@@ -2556,9 +2615,10 @@ following ``event`` member fields.
 The server emits this event when a learner submits an assessment of a
 peer's response.
 
+**History**: Added 3 April 2014.
+
 **Event Source**: Server
 
-**History**: Added 3 April 2014.
 
 ``event`` **Member Fields**:
 
@@ -2615,9 +2675,10 @@ peer's response.
 The server emits this event when a learner submits a self-assessment of her own
 response.
 
+**History**: Added 3 April 2014.
+
 **Event Source**: Server
 
-**History**: Added 3 April 2014.
 
 ``event`` **Member Fields**:
 
@@ -2631,9 +2692,10 @@ This event type includes the same ``context`` and ``event`` member fields as the
 The server emits this event when a course team member submits an assessment of a
 learner's response.
 
+**History**: Added 20 January 2016.
+
 **Event Source**: Server
 
-**History**: Added 20 January 2016.
 
 ``event`` **Member Fields**:
 
@@ -2662,9 +2724,9 @@ In addition, this event type includes this ``event`` member field.
 The server emits this event when a learner submits a suggestion, opinion, or
 other feedback about the assessment process.
 
-**Event Source**: Server
-
 **History**: Added 3 April 2014.
+
+**Event Source**: Server
 
 ``event`` **Member Fields**:
 
@@ -2694,9 +2756,9 @@ The server emits this event when a learner submits a response. The same event
 is emitted when a learner submits a response for peer assessment or for self
 assessment.
 
-**Event Source**: Server
-
 **History**: Added 3 April 2014.
+
+**Event Source**: Server
 
 ``event`` **Member Fields**:
 
@@ -2737,9 +2799,11 @@ assessment.
 The server emits this event when a learner saves a response. Learners can save
 responses before they submit them for assessment.
 
-**Event Source**: Server
 
 **History**: Added 3 April 2014.
+
+**Event Source**: Server
+
 
 ``event`` **Member Fields**:
 
@@ -2769,9 +2833,9 @@ uses a scoring rubric provided by the course team. These events record the
 options that the learner selected to assess the example, and identify any
 criteria that the learner scored differently than the course team.
 
-**Event Source**: Server
-
 **History**: Added 6 August 2014.
+
+**Event Source**: Server
 
 ``event`` **Member Fields**:
 
@@ -2805,9 +2869,11 @@ The browser emits this event when a learner successfully uploads an image,
 .pdf, or other file as part of a response. Learners complete the upload process
 before they submit the response.
 
-**Event Source**: Browser
 
 **History**: Added 6 August 2014.
+
+**Event Source**: Browser
+
 
 ``event`` **Member Fields**:
 
@@ -3033,9 +3099,10 @@ video events alphabetically.
 For more information about pre-roll videos, see :ref:`partnercoursestaff:Adding
 a PreRoll Video` in the *Building and Running an edX Course* guide.
 
+**History**: Added 10 Jun 2015.
+
 **Component**: Video
 
-**History**: Added 10 Jun 2015.
 
 ===============================
 ``edx.video.bumper.dismissed``
@@ -3320,9 +3387,10 @@ that include hints, the server emits an
 ``edx.problem.hint.demandhint_displayed`` event each time a user requests a
 hint.
 
+**History**: Added on 1 Jul 2015.
+
 **Event Source**: Server
 
-**History**: This event was added on 1 Jul 2015.
 
 ``context`` **Member Fields**:
 
@@ -3362,9 +3430,11 @@ a user submits an answer. For problems that include feedback messages, the
 server emits an ``edx.problem.hint.feedback_displayed`` event each time a user
 selects **Submit**.
 
+**History**: Added on 1 Jul 2015.
+
 **Event Source**: Server
 
-**History**: This event was added on 1 Jul 2015.
+
 
 ``context`` **Member Fields**:
 
@@ -3434,8 +3504,6 @@ field.
 The server emits ``problem_check`` events when a problem is successfully
 checked.
 
-**Event Source**: Server
-
 Both browser interactions and server requests produce ``problem_check`` events,
 so your data package can also contain events with an event source of browser.
 Events emitted by the browser contain all of the GET parameters. Only events
@@ -3452,6 +3520,9 @@ emitted by the server are useful for most purposes.
   ``save_problem_check``.
 
 * Prior to 15 Jul 2013, this event was emitted twice for the same action.
+
+**Event Source**: Server
+
 
 ``context`` **Member Fields**:
 
@@ -3539,10 +3610,11 @@ field.
 The server emits ``problem_check_fail`` events when a problem cannot be checked
 successfully.
 
-**Event Source**: Server
-
 **History**: Prior to 15 Oct 2013, this event was named
 ``save_problem_check_fail``.
+
+**Event Source**: Server
+
 
 ``context`` **Member Fields**:
 
@@ -3578,10 +3650,10 @@ field.
 The browser emits a ``problem_graded`` event each time a user selects
 **Submit** for a problem and it is graded successfully.
 
-**Event Source**: Browser
-
 **History**: On 7 Sep 2016, updates to the HTML-formatted values in the
 ``event.contents`` field were made.
+
+**Event Source**: Browser
 
 ``event`` **Member Fields**:
 
@@ -3946,7 +4018,7 @@ This section presents teams-related events alphabetically. Typically, the
 first event produced when teams are included in a course is the
 ``edx.team.created`` event.
 
-**History** Teams-related events were added on 16 Sept 2015.
+**History**: Teams-related events were added on 16 Sept 2015.
 
 .. contents::
   :local:
@@ -4391,12 +4463,12 @@ or the PNG Viewer.
 * For textbooks in PNG format, the URL in the common ``page`` field contains
   '/book/'.
 
+**History**: This event changed on 16 Apr 2014 to include ``event`` member
+fields ``name`` and ``chapter``.
+
 **Component**: PDF Viewer, PNG Viewer
 
 **Event Source**: Browser
-
-**History**: This event changed on 16 Apr 2014 to include ``event`` member
-fields ``name`` and ``chapter``.
 
 ``event`` **Member Fields**:
 
@@ -4440,11 +4512,12 @@ fields ``name`` and ``chapter``.
 The browser emits ``textbook.pdf.thumbnails.toggled`` events when a user clicks
 on the icon to show or hide page thumbnails.
 
+**History**: This event was added on 16 Apr 2014.
+
 **Component**: PDF Viewer
 
 **Event Source**: Browser
 
-**History**: This event was added on 16 Apr 2014.
 
 ``event`` **Member Fields**:
 
@@ -4472,11 +4545,13 @@ on the icon to show or hide page thumbnails.
 The browser emits ``textbook.pdf.thumbnail.navigated`` events when a user
 clicks on a thumbnail image to navigate to a page.
 
+**History**: This event was added on 16 Apr 2014.
+
 **Component**: PDF Viewer
 
 **Event Source**: Browser
 
-**History**: This event was added on 16 Apr 2014.
+
 
 ``event`` **Member Fields**:
 
@@ -4508,11 +4583,14 @@ clicks on a thumbnail image to navigate to a page.
 The browser emits ``textbook.pdf.outline.toggled`` events when a user clicks
 the outline icon to show or hide a list of the book's chapters.
 
+
+**History**: This event was added on 16 Apr 2014.
+
 **Component**: PDF Viewer
 
 **Event Source**: Browser
 
-**History**: This event was added on 16 Apr 2014.
+
 
 ``event`` **Member Fields**:
 
@@ -4540,11 +4618,14 @@ the outline icon to show or hide a list of the book's chapters.
 The browser emits ``textbook.pdf.chapter.navigated`` events when a user clicks
 on a link in the outline to navigate to a chapter.
 
+
+**History**: This event was added on 16 Apr 2014.
+
 **Component**: PDF Viewer
 
 **Event Source**: Browser
 
-**History**: This event was added on 16 Apr 2014.
+
 
 ``event`` **Member Fields**:
 
@@ -4572,11 +4653,13 @@ on a link in the outline to navigate to a chapter.
 The browser emits ``textbook.pdf.page.navigated`` events when a user manually
 enters a page number.
 
+**History**: This event was added on 16 Apr 2014.
+
 **Component**: PDF Viewer
 
 **Event Source**: Browser
 
-**History**: This event was added on 16 Apr 2014.
+
 
 ``event`` **Member Fields**:
 
@@ -4604,11 +4687,14 @@ enters a page number.
 The browser emits ``textbook.pdf.zoom.buttons.changed`` events when a user
 clicks either the Zoom In or Zoom Out icon.
 
+
+**History**: This event was added on 16 Apr 2014.
+
 **Component**: PDF Viewer
 
 **Event Source**: Browser
 
-**History**: This event was added on 16 Apr 2014.
+
 
 ``event`` **Member Fields**:
 
@@ -4639,11 +4725,14 @@ clicks either the Zoom In or Zoom Out icon.
 The browser emits ``textbook.pdf.zoom.menu.changed`` events when a user selects
 a magnification setting.
 
+
+**History**: This event was added on 16 Apr 2014.
+
 **Component**: PDF Viewer
 
 **Event Source**: Browser
 
-**History**: This event was added on 16 Apr 2014.
+
 
 ``event`` **Member Fields**:
 
@@ -4676,11 +4765,14 @@ The browser emits ``textbook.pdf.display.scaled`` events when the display
 magnification changes. These changes occur after a student selects a
 magnification setting from the zoom menu or resizes the browser window.
 
+
+**History**: This event was added on 16 Apr 2014.
+
 **Component**: PDF Viewer
 
 **Event Source**: Browser
 
-**History**: This event was added on 16 Apr 2014.
+
 
 ``event`` **Member Fields**:
 
@@ -4711,11 +4803,13 @@ magnification setting from the zoom menu or resizes the browser window.
 The browser emits ``textbook.pdf.page.scrolled`` events each time the
 displayed page changes while a user scrolls up or down.
 
+
+**History**: This event was added on 16 Apr 2014.
+
 **Component**: PDF Viewer
 
 **Event Source**: Browser
 
-**History**: This event was added on 16 Apr 2014.
 
 ``event`` **Member Fields**:
 
@@ -4749,11 +4843,13 @@ of producing one event per entered character this event defines a search string
 as the set of characters that is consecutively entered in the search field
 within 500ms of each other.
 
+**History**: This event was added on 16 Apr 2014.
+
 **Component**: PDF Viewer
 
 **Event Source**: Browser
 
-**History**: This event was added on 16 Apr 2014.
+
 
 ``event`` **Member Fields**:
 
@@ -4802,11 +4898,13 @@ within 500ms of each other.
 The browser emits ``textbook.pdf.search.navigatednext`` events when a user
 clicks on the Find Next or Find Previous icons for an entered search string.
 
+**History**: This event was added on 16 Apr 2014.
+
 **Component**: PDF Viewer
 
 **Event Source**: Browser
 
-**History**: This event was added on 16 Apr 2014.
+
 
 ``event`` **Member Fields**:
 
@@ -4860,11 +4958,14 @@ clicks on the Find Next or Find Previous icons for an entered search string.
 The browser emits ``textbook.pdf.search.highlight.toggled`` events when a user
 selects or clears the **Highlight All** option for a search.
 
+
+**History**: This event was added on 16 Apr 2014.
+
 **Component**: PDF Viewer
 
 **Event Source**: Browser
 
-**History**: This event was added on 16 Apr 2014.
+
 
 ``event`` **Member Fields**:
 
@@ -4912,11 +5013,14 @@ selects or clears the **Highlight All** option for a search.
 The browser emits ``textbook.pdf.searchcasesensitivity.toggled`` events when a
 user selects or clears the **Match Case** option for a search.
 
+
+**History**: This event was added on 16 Apr 2014.
+
 **Component**: PDF Viewer
 
 **Event Source**: Browser
 
-**History**: This event was added on 16 Apr 2014.
+
 
 ``event`` **Member Fields**:
 
@@ -4998,9 +5102,11 @@ Calendar Tool` or :ref:`partnercoursestaff:Google Drive Files Tool`.
 The server emits an ``edx.googlecomponent.calendar.displayed`` event when a
 Google Calendar component is shown in the LMS.
 
+**History**: Added 5 Mar 2015.
+
 **Event Source**: Server
 
-**History**: Added 5 Mar 2015.
+
 
 ``event`` **Member Fields**:
 
@@ -5030,9 +5136,11 @@ The server emits an ``edx.googlecomponent.document.displayed`` event when a
 Google Drive file, such as a document, spreadsheet, or image, is shown in the
 LMS.
 
+**History**: Added 5 Mar 2015.
+
 **Event Source**: Server
 
-**History**: Added 5 Mar 2015.
+
 
 ``event`` **Member Fields**:
 
@@ -5066,9 +5174,11 @@ The server emits an ``oppia.exploration.completed`` event when a user completes
 an interaction with an Oppia exploration component. Oppia explorations do not
 emit grading events.
 
+**History**: Added 27 Oct 2015.
+
 **Event Source**: Server
 
-**History**: Added 27 Oct 2015.
+
 
 ``event`` **Member Fields**:
 
@@ -5086,9 +5196,11 @@ for the ``oppia.exploration.state.changed`` events.
 The server emits an ``oppia.exploration.loaded`` event when an Oppia
 exploration component is shown in the LMS.
 
-**Event Source**: Server
 
 **History**: Added 27 Oct 2015.
+
+**Event Source**: Server
+
 
 ``event`` **Member Fields**:
 
@@ -5108,9 +5220,11 @@ interacts with an Oppia exploration component by submitting an answer. Answers
 are not incorrect or correct. All answer submissions change the state of the
 exploration.
 
+**History**: Added 27 Oct 2015.
+
+
 **Event Source**: Server
 
-**History**: Added 27 Oct 2015.
 
 ``event`` **Member Fields**:
 
@@ -5158,9 +5272,11 @@ For more information about adding mixes to a course, see
 The server emits a ``microsoft.office.mix.loaded`` event when a mix is fully
 loaded and ready to play in the Office Mix player in the LMS.
 
+**History**: Added 1 Dec 2015.
+
 **Event Source**: Server
 
-**History**: Added 1 Dec 2015.
+
 
 ``event`` **Member Fields**:
 
@@ -5188,9 +5304,11 @@ loaded and ready to play in the Office Mix player in the LMS.
 The server emits a ``microsoft.office.mix.paused`` event when a user selects
 **pause** for an Office Mix.
 
+**History**: Added 1 Dec 2015.
+
 **Event Source**: Server
 
-**History**: Added 1 Dec 2015.
+
 
 ``event`` **Member Fields**:
 
@@ -5225,9 +5343,11 @@ The following additional ``event`` member fields apply specifically to
 The server emits a ``microsoft.office.mix.played`` event when a user selects
 **play** for an Office Mix.
 
+**History**: Added 1 Dec 2015.
+
 **Event Source**: Server
 
-**History**: Added 1 Dec 2015.
+
 
 ``event`` **Member Fields**:
 
@@ -5275,9 +5395,10 @@ The following additional ``event`` member field applies specifically to
 The server emits an ``microsoft.office.mix.stopped`` event when the Office Mix
 player reaches the end of a mix and automatically stops.
 
+**History**: Added 1 Dec 2015.
+
 **Event Source**: Server
 
-**History**: Added 1 Dec 2015.
 
 ``event`` **Member Fields**:
 
@@ -5710,11 +5831,12 @@ an interaction with the video player begins with a :ref:`play_video` event.
 For courses that include a pre-roll video, user interactions with the pre-roll
 video result in different events. For more information, see :ref:`pre-roll`.
 
-**Component**: Video
-
 **History**: The edX mobile app for iOS began to emit a subset of the video
 events on 25 Feb 2015. The edX mobile app for Android began to emit a subset
 of the video events on 23 Dec 2014.
+
+**Component**: Video
+
 
 ==========================================================
 ``hide_transcript``/``edx.video.transcript.hidden``
@@ -5727,11 +5849,12 @@ In addition to the identifying ``event_type`` of ``hide_transcript``, events
 that the edX mobile app emits also include a ``name`` field with a value of
 ``edx.video.transcript.hidden``.
 
-**Event Source**: Browser or Mobile
-
 **History**: Updated 25 Feb 2015 to include events emitted by the edX mobile
 app for iOS. Updated 23 Dec 2014 to include events emitted by the edX mobile
 app for Android.
+
+**Event Source**: Browser or Mobile
+
 
 ``context`` **Member Fields**:
 
@@ -5760,9 +5883,11 @@ events of this type as for the :ref:`play_video` events.
 When a user toggles **CC** to suppress display of the overlay captioning, the
 browser or mobile app emits an ``edx.video.closed_captions.hidden`` event.
 
+**History**: Added on 5 May 2016.
+
 **Event Source**: Browser or Mobile
 
-**History**: Added on 5 May 2016 to include this new event.
+
 
 ``context`` **Member Fields**:
 
@@ -5790,9 +5915,10 @@ events of this type as for the :ref:`play_video` events.
 When a user toggles **CC** to display the closed captions, the browser or
 mobile app emits an ``edx.video.closed_captions.shown`` event.
 
+**History**: Added on 5 May 2016.
+
 **Event Source**: Browser or Mobile
 
-**History**: Added on 5 May 2016 to include this new event.
 
 ``context`` **Member Fields**:
 
@@ -5824,11 +5950,12 @@ In addition to the identifying ``event_type`` of ``load_video``, the events
 that the edX mobile app emits also include a ``name`` field with a value of
 ``edx.video.loaded``.
 
-**Event Source**: Browser or Mobile
-
 **History**: Updated 25 Feb 2015 to include events emitted by the edX mobile
-app for iOS. Updated 23 Dec 2014 to include events emitted by the edX mobile
+app for iOS.
+Updated 23 Dec 2014 to include events emitted by the edX mobile
 app for Android.
+
+**Event Source**: Browser or Mobile
 
 ``context`` **Member Fields**:
 
@@ -5874,14 +6001,15 @@ In addition to the identifying ``event_type`` of ``pause_video``, the events
 that the edX mobile app emits include a ``name`` field with a value of
 ``edx.video.paused``.
 
-**Event Source**: Browser or Mobile
-
 **History**:
 
 * Updated 5 May 2015 to include the effect of a **Video Stop Time**.
 * Updated 25 Feb 2015 to include events emitted by the edX mobile app for iOS.
 * Updated 23 Dec 2014 to include events emitted by the edX mobile app for
   Android.
+
+**Event Source**: Browser or Mobile
+
 
 ``context`` **Member Fields**:
 
@@ -5928,7 +6056,6 @@ In addition to the identifying ``event_type`` of ``play_video``, events
 that the edX mobile app emits also include a ``name`` field with a value of
 ``edx.video.played``.
 
-**Event Source**: Browser or Mobile
 
 **History**:
 
@@ -5936,6 +6063,9 @@ that the edX mobile app emits also include a ``name`` field with a value of
 * Updated 25 Feb 2015 to include events emitted by the edX mobile app for iOS.
 * Updated 23 Dec 2014 to include events emitted by the edX mobile app for
   Android.
+
+**Event Source**: Browser or Mobile
+
 
 ``context`` **Member Fields**:
 
@@ -6139,8 +6269,6 @@ In addition to the value ``seek_video`` in the ``event_type`` field, the
 events that the edX mobile app emits include the value
 ``edx.video.position.changed`` in the ``name`` field.
 
-**Event Source**: Browser or Mobile
-
 **History**:
 
 * Updated 10 Mar 2015 to include the final implementation for events emitted
@@ -6149,6 +6277,8 @@ events that the edX mobile app emits include the value
 
 * Prior to 25 Jun 2014, the ``old_time`` and ``new_time`` fields were set to
   the same value.
+
+**Event Source**: Browser or Mobile
 
 ``context`` **Member Fields**:
 
@@ -6213,11 +6343,12 @@ In addition to the identifying ``event_type`` of ``show_transcript``, events
 that the edX mobile app emits also include a ``name`` field with a value of
 ``edx.video.transcript.shown``.
 
-**Event Source**: Browser or Mobile
 
 **History**: Updated 25 Feb 2015 to include events emitted by the edX mobile
 app for iOS. Updated 23 Dec 2014 to include events emitted by the edX mobile
 app for Android.
+
+**Event Source**: Browser or Mobile
 
 ``context`` **Member Fields**:
 
@@ -6246,10 +6377,12 @@ events of this type as for the :ref:`play_video` events.
 A browser emits ``speed_change_video`` events when a user selects a different
 playing speed for the video.
 
-**Event Source**: Browser
+
 
 **History**: Prior to 12 Feb 2014, this event was emitted when a user
 selected either the same speed or a different speed.
+
+**Event Source**: Browser
 
 ``event`` **Member Fields**:
 
@@ -6295,8 +6428,6 @@ In addition to the identifying ``event_type`` of ``stop_video``, the events
 that the edX mobile app emits include a ``name`` field with a value of
 ``edx.video.stopped``.
 
-**Event Source**: Browser or Mobile
-
 **History**:
 
 * Updated 5 May 2015 to include the effect of a **Video Stop Time**.
@@ -6304,6 +6435,8 @@ that the edX mobile app emits include a ``name`` field with a value of
 * Updated 23 Dec 2014 to include events emitted by the edX mobile app for
   Android.
 * Added 25 June 2014.
+
+**Event Source**: Browser or Mobile
 
 ``context`` **Member Fields**:
 
@@ -6337,13 +6470,15 @@ that the edX mobile app emits also include a ``name`` field with a value of
 ``edx.video.language_menu.hidden`` and the selected language is included in the
 event.
 
-**Event Source**: Browser
+
 
 **History**: Updated 5 May 2016 to include the ``name`` value. Note that older
 tracking logs will only utilize the ``event_type`` value. Also note that from
 Fall 2015 until 5 May 2016, this event was emitted incorrectly. Events may
 have been emitted even when the language menu was not triggered.
 Added 17 Feb 2015.
+
+**Event Source**: Browser
 
 ``event`` **Member Fields**:
 
@@ -6367,13 +6502,13 @@ In addition to the identifying ``event_type`` of ``video_show_cc_menu``, events
 that the edX mobile app emits also include a ``name`` field with a value of
 ``edx.video.language_menu.shown``.
 
-**Event Source**: Browser
-
 **History**: Updated 5 May 2016 to include the ``name`` value. Note that older
 tracking logs will only utilize the ``event_type`` value. Also note that from
 Fall 2015 until 5 May 2016, this event was emitted incorrectly. Events may
 have been emitted even when the language menu was not triggered.
 Added 17 Feb 2015.
+
+**Event Source**: Browser
 
 ``event`` **Member Fields**:
 
