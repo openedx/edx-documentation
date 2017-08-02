@@ -26,6 +26,8 @@
 
 .. _edX Enrollment API: http://edx.readthedocs.io/projects/edx-platform-api/en/latest/enrollment/index.html
 
+.. _Course Navigation Changes: https://open.edx.org/announcements/update-course-navigation-changes
+
 .. _course-data: http://groups.google.com/a/edx.org/forum/#!forum/course-data
 
 .. _edx.org: http://edx.org
@@ -376,6 +378,10 @@
 
 .. _W3C CSS color specification: https://www.w3.org/TR/css3-color/
 
+.. _ESLint: https://openedx.atlassian.net/wiki/display/FEDX/ESLint
+
+.. _Webpack: https://webpack.js.org/
+
 .. Release Notes
 
 
@@ -544,3 +550,4 @@
 .. _12 Principles of Multimedia Learning: http://hartford.edu/academics/faculty/fcld/data/documentation/technology/presentation/powerpoint/12_principles_multimedia.pdf
 
 .. _List of ISO 639-1 codes: http://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
+
