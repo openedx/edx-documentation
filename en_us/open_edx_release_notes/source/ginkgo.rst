@@ -25,13 +25,16 @@ The Open edX Ginkgo release includes the following updates.
 LMS
 ===
 
-* Search functionality is available on the **Outline** page.
+*  The Course page now opens to a course outline that serves as the basis for a
+   new course home experience. This course outline replaces the course outline
+   sidebar on course content pages that listed sections and subsections. It
+   allows learners to focus on content consumption and progression through the
+   course. For more information, see `Course Navigation Changes`_ on the Open
+   edX portal.
+*  Search functionality is available on the **Outline** page.
+*  Course staff can now send emails to learners based on their enrollment track.
+*  Drag and drop problems can be rescored.
 
-===========
-Discussions
-===========
-
-*
 
 ============================
 Studio & Course Author Tools
@@ -81,12 +84,15 @@ E-Commerce Service
   In addition, if you are using SDN verification, this user nneds to have the
   ``student:userprofile:can_deactivate_users`` permission.
 
-==============
-Insights
-==============
+=======================
+Insights and Analytics
+=======================
 
-Updates to Insights requires a series of migration steps to account for changes
-to ``social-auth``. For information, see >>Migration doc.
+*  A new **Courses** page in Insights provides a dashboard view of all of your
+   courses.
+
+*  Updates to Insights requires a series of migration steps to account for changes
+   to ``social-auth``. For information, see >>Migration doc.
 
 *******************************
 System Upgrades and Updates
