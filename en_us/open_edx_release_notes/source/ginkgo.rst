@@ -25,23 +25,73 @@ The Open edX Ginkgo release includes the following updates.
 LMS
 ===
 
-*  The Course page now opens to a course outline that serves as the basis for a
-   new course home experience. This course outline replaces the course outline
-   sidebar on course content pages that listed sections and subsections. It
-   allows learners to focus on content consumption and progression through the
-   course. For more information, see `Course Navigation Changes`_ on the Open
-   edX portal.
+*  The **Course** page now opens to a course outline that serves as the basis
+   for a new course home experience. This course outline features a full-page
+   course outline that lists all sections and subsections at once. It replaces
+   the course outline sidebar on course content pages that listed sections and
+   subsections. It allows learners to focus on content consumption and
+   progression through the course. For more information, see
+   `Course Navigation Changes`_ on the Open edX portal.
+*  The **Course** page includes breadcrumb navigation that learners can select
+   from any course page to return to the course outline.
+*  The video player uses HLS video playback when YouTube videos are not available.
+   HLS causes the player to continually check each learner's internet connection
+   and adjust video playback, so that learners are always viewing the highest
+   quality video possible for their Internet connection.
 *  Search functionality is available on the **Outline** page.
-*  Course staff can now send emails to learners based on their enrollment track.
-*  Drag and drop problems can be rescored.
+*  Learners now receive an email when they've submitted a proctored exam that
+   lets them know their exam has been received, as well as when to expect scores.
+   This email also provides information about whether the learner has passed or
+   failed proctoring and why.
+*  Learners can now sort inline discussions by most votes, most activity, and
+   recent activity.
+*  Learner responses for open responses assessments can now include more than
+   one file. The maximum cumulative upload size has been increased to 10 MB.
+*  The LMS is compliant with Web Content Accessibility Guidelines (WCAG) 2.0
+   level AA. We have made a number of accessibility improvements that, among
+   other things, provide easier navigation using a keyboard, a screen reader,
+   or other assistive technology.
 
 
 ============================
 Studio & Course Author Tools
 ============================
 
-* The default permissions have been changed so that new Studio users cannot
-  author courses unless an admin has added them to the course creator group.
+*  Course teams that use content groups can now use the **View this course as**
+   option in the LMS to make sure that their content will be available only to
+   the cohorts that they specify.
+*  Course staff can now send emails to learners based on their enrollment track,
+   so you can reach all verified or audit track learners at one time. For more
+   information, see :ref:`opencoursestaff:Bulk Email`.
+*  Course authors can move components from one location to another in a course.
+*  Drag and drop problems can be rescored.
+*  The default permissions have been changed so that new Studio users cannot
+   author courses unless an admin has added them to the course creator group.
+*  The **Data Download** page on the instructor dashboard includes two new columns:
+   enrollment mode and verification status.
+*  The **Video ID** field is now displayed on the **Basic** tab of a video component.
+*  You can upload transcripts for non-YouTube videos on the **Basic** tab of a
+   video component.
+* The problem component for open response assessments has been renamed from
+  "Peer Assessment" to "Open Response Assessment."
+* The instructor dashboard includes an **Open Response Assessent** tab to help
+  locate and access open response assessments and provide data about learner
+  progress in completing responses and peer assessments.
+* The **Show Results** setting for problems allows course teams to hide
+  problem results from learners, including both whether the learner answered
+  the problem correctly and the learner's score, either temporarily or
+  permanently. Using this feature, course teams can hide exam scores until
+  the exam due date, or administer surveys without revealing responses.
+
+=======================
+Insights and Analytics
+=======================
+
+*  A new **Courses** page in Insights provides a dashboard view of all of your
+   courses. For information, see :ref:`insights:Courses_Page`.
+
+*  Updates to Insights requires a series of migration steps to account for changes
+   to ``social-auth``. For information, see >>Migration doc.
 
 =======================
 Catalog Service
@@ -83,16 +133,6 @@ E-Commerce Service
      * ``credit.CreditRequest``
   In addition, if you are using SDN verification, this user nneds to have the
   ``student:userprofile:can_deactivate_users`` permission.
-
-=======================
-Insights and Analytics
-=======================
-
-*  A new **Courses** page in Insights provides a dashboard view of all of your
-   courses.
-
-*  Updates to Insights requires a series of migration steps to account for changes
-   to ``social-auth``. For information, see >>Migration doc.
 
 *******************************
 System Upgrades and Updates
