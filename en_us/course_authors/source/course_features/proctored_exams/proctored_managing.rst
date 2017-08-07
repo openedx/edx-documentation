@@ -15,10 +15,10 @@ administer proctored exams. For more information, see
 Specifying Exam Rules and Exceptions
 **************************************
 
-The team of reviewers who examine the records of exam attempts determine whether
-learners complied with the :ref:`Online Proctoring Rules
-<CA Online Proctoring Rules>`. By default, the team of reviewers uses the
-standard set of rules for taking proctored exams.
+The team of reviewers who examine the records of exam attempts determine
+whether learners complied with the :ref:`Online Proctoring Rules <CA Online
+Proctoring Rules>`. By default, the team of reviewers uses the standard set of
+rules for taking proctored exams.
 
 You can provide custom rules and rule exceptions if the content of an exam
 requires them. If your course allows learners to use tools and techniques that
@@ -177,9 +177,10 @@ permission to retake a proctored exam. Learners can contact edX support to
 request that their proctored exam attempts be cleared. Clearing a proctored
 exam attempt allows a learner to retake a proctored exam.
 
-.. note:: Deleting a learner's exam attempt clears all submitted answers, and
-   the learner experiences the exam as if for the first time, including making
-   the choice to take the exam with online proctoring, obtaining an exam code,
+.. note::
+   Deleting a learner's exam attempt clears all submitted answers, and the
+   learner experiences the exam as if for the first time, including making the
+   choice to take the exam with online proctoring, obtaining an exam code,
    going through the proctoring software setup, and so on.
 
 If a learner needs to retake a proctored exam, follow these steps.
