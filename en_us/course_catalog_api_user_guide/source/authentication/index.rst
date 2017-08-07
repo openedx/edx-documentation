@@ -95,6 +95,18 @@ The following example shows a client ID and client secret.
     API Client Secret: wDSbvs7vs5Xj9P9oE73pAV6L4iZxfPdPjagkBdmLzqtQ6lqu2IMXuTt
     upD2TmaMB3MPmrKEZbtaFMUqjZKzg98xMu5QzboPDQSBL72hjQ7r7IfrutVMZF8AGXn9LqZmk
 
+.. _Create API Account:
+
+===========================================
+Create an Account on edx.org for API Access
+===========================================
+
+To request access to the edX Course Catalog API, you need a dedicated edx.org
+account with a user name that matches your organization's identity. For example,
+if you are at an organization named Example, Inc., you need to create an edX
+account with a user name like ``Example``. This enables edX to match your Course
+Catalog API request with an organization that is authorized to use the Course
+Catalog API.
 
 .. _CC API Complete Access Request Form:
 
@@ -104,8 +116,8 @@ Complete the EdX API Access Request Form
 
 To request access to the edX Course Catalog API, follow these steps.
 
-#. Sign in to edX at https://courses.edx.org/login. If you don't already have
-   an edX account, create an account.
+#. Sign in to edX at https://courses.edx.org/login with an account whose user
+   name matches your organization's identity, as described in :ref:`Create API Account`.
 #. Go to http://courses.edx.org/api-admin.
 #. On the **EdX API Access Request** page, enter the information for your
    organization. All fields are required.
