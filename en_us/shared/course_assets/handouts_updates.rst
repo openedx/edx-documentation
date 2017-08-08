@@ -4,13 +4,27 @@
 Adding Course Updates and Handouts
 ######################################################
 
-You add course updates and identify handouts in Studio. Learners see the
-course updates and handouts on the **Home** page in your course.
+You can create course updates and handouts in Studio.
 
-.. image:: ../../../shared/images/course_info.png
- :alt: The Home page as it appears to students, with a "Course Updates
-       & News" section containing a dated post and a "Course Handouts" frame
-       with a list of links.
+Course updates are communications, especially a welcome message, that learners
+see at the top of the **Course** page when they enter the course. A welcome
+message is an important way of making each learner feel personally welcomed to
+the course, and of providing orienting information that helps learners succeed
+with the course.
+
+After learners have read the welcome message, they can dismiss the message.
+Learners can access the dismissed message and any other updates from the
+**Updates** link in the sidebar on the **Course** page.
+
+Handouts are links to files that you upload in Studio, for example, a PDF
+version of the course syllabus, or an article that you want learners to read.
+Learners see the list of course handouts under **Handouts** in the sidebar.
+
+.. image:: ../../../shared/images/course_info_updates_handouts.png
+ :alt: The **Course** page as it appears to learners, showing the course
+   welcome message in the main reading area, and in the sidebar, the
+   **Updates** link under the **Course Tools** heading and links to handouts
+   under the **Course Handouts** heading.
 
 .. contents:: Section Contents
    :local:
@@ -22,18 +36,23 @@ course updates and handouts on the **Home** page in your course.
 Add a Course Update
 **********************
 
-You add updates to notify learners of upcoming exams or deadlines, changes in
-the course schedule, or to make other announcements. Updates are visible to
-enrolled learners as soon as you post them.
+You create course updates in Studio. On entering the course, learners see the
+update that has the latest date chronologically (including dates in the
+future) on their **Course** page.
 
-Each update requires a date for identification and sorting purposes. This date
-does not control when the date becomes visible to learners. In the LMS, updates
-display on the **Home** page in reverse chronological order (most recent at the
-top), based on the date associated with each update.
+.. note:: Learners can dismiss the update that displays on their **Course** page
+   after they have read it. When learners have dismissed a message, they can
+   access the dismissed message and any other updates from the **Updates** link
+   in the sidebar on the **Course** page.
+
+On the **Updates** page in Studio, you see the list of updates sorted in the
+order that they were created (most recent at the top of the list). If you
+create a new update, learners do not see the update on the **Course** page
+unless it has the latest chronological date of all existing updates.
 
 To add a course update, follow these steps.
 
-#. From the **Content** menu, select **Updates**.
+#. In Studio, select **Updates** from the **Content** menu.
 #. Select **New Update**.
 #. Create your update in the text editor that opens.
 
@@ -45,7 +64,7 @@ To add a course update, follow these steps.
      .. note::
         To make sure that your announcements are accessible, if you use
         headings inside an announcement, make sure that you use only level 6
-        headings (``<h6>``). The structure of the course **Home** page uses
+        headings (``<h6>``). The structure of the course **Course** page uses
         heading levels 1-5.
 
         If you copy text from another source and paste it into the text
@@ -56,13 +75,16 @@ To add a course update, follow these steps.
 
    * Specify a date for this update. By default, today's date is already
      entered. You can change the date using the calendar tool, or by entering
-     some other valid date. This date is used only for identification and
-     sorting purposes. This date does not control when the date becomes visible
-     to learners.
+     some other valid date.
 
-#. Select **Post**. Your update appears on your course's **Home** page
-   immediately.
+     .. note:: Learners do not see the update on the **Course** page unless it
+        has the latest chronological date of all existing updates.
 
+#. Select **Post**.
+
+   Your new update becomes available to learners immediately. If the update
+   has the latest chronological date, it is shown to learners on the
+   **Course** page, otherwise the update appears on the **Updates** page.
 
 .. The following step allows installations that use the edX mobile apps to send
 .. a push notification to the app when an update is added. Alison, DOC-1814,
@@ -80,32 +102,43 @@ To add a course update, follow these steps.
         notifications.
 
 
-
-
 .. _Add Course Handouts:
 
 ***************************
-Identify a Course Handout
+Add a Course Handout
 ***************************
 
-You can identify previously uploaded files as handouts for your course.
-Learners see a link on the **Home** page for each course handout.
+To add a course handout, you :ref:`upload a file in Studio<Add Files to a
+Course>`, then add an entry to an HTML-formatted list of handouts, specifying
+the URL to your uploaded file and providing a handout title.
 
-Before you identify a course handout, you :ref:`add the file<Add Files to a
-Course>` to your course and copy its Studio URL. You can open the Studio
-**Files & Uploads** page in another browser window to make this process
-easier.
+You can open the Studio **Files & Uploads** page in another browser window to
+make this process easier.
 
-To identify a course handout, follow these steps.
+To add a course handout, follow these steps.
 
-#. From the **Content** menu, select **Updates**.
+#. In Studio, select **Updates** from the **Content** menu.
+
+   On the **Updates** page, you see a **Course Updates** panel and a **Course
+   Handouts** panel.
+
+   .. image:: ../../../shared/images/studio_course_handouts.png
+    :width: 500
+    :alt: The **Course Updates** page in Studio, showing the Course Handouts
+       panel.
+
+
 #. In the **Course Handouts** panel, select **Edit**.
-#. In the editor that opens, use HTML formatting to add a link to the
-   previously uploaded file. An example follows.
+
+#. In the editor that opens, use HTML formatting to add a link to your
+   uploaded file and a title for the handout. If there are no existing
+   handouts, by default an empty ordered list tag is provided.
+
+   An example using paragraph tags rather than a list, follows.
 
    .. code-block:: html
 
-     <p><a href="/static/Syllabus_Fall2016.pdf" target="_blank">Syllabus</a></p>
+     <p><a href="/static/Syllabus_Fall2017.pdf" target="_blank">Syllabus</a></p>
      <p><a href="/static/Glossary_v3.pdf" target="_blank">Glossary</a></p>
 
 #. Select **Save**.
