@@ -152,6 +152,8 @@ D, E, F
      - :ref:`grading_events`
    * - ``edx.grades.subsection.grade_calculated``
      - :ref:`grading_events`
+   * - :ref:`edx_grades_subsection_score_overridden`
+     - :ref:`grading_events`
    * - ``edx.instructor.report.downloaded``
      - :ref:`course_reporting_events`
    * - ``edx.instructor.report.requested``

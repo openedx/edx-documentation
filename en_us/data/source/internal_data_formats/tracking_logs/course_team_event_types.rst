@@ -756,6 +756,53 @@ this event as they do for the :ref:`edx_grades_course_grade_calculated` event.
 * ``event_transaction_id``
 * ``event_transaction_type``
 
+.. _edx_grades_subsection_score_overridden:
+
+==========================================
+``edx.grades.subsection.score_overridden``
+==========================================
+
+The server emits this event when a member of edX support staff overrides or
+removes the override of a learner's subsection score by performing one of the
+following actions.
+
+* Selecting "Suspicious" as the status of a proctored exam review.
+* Changing the status of a proctored exam review to from "Suspicious" to
+  "Clean".
+
+**Event Source**: Server
+
+**History**: Added 25 Aug 2017.
+
+``event`` **Member Fields**:
+
+The ``edx.grades.subsection.score_overridden`` event includes the
+:ref:`common<context>` ``context`` member fields.
+
+The ``edx.grades.subsection.score_overridden`` event also includes the
+following ``event`` member fields. These fields serve the same purpose for this
+event as they do for the :ref:`edx_grades_course_grade_calculated` and
+:ref:`edx_grades_problem_rescored` events.
+
+* ``problem_id``
+* ``event_transaction_id``
+* ``event_transaction_type``
+* ``only_if_higher``
+
+Additionally, the ``edx.grades.subsection.score_overridden`` event includes the
+following ``event`` member field.
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+   * - ``override_deleted``
+     - Boolean
+     - If ``true``, an edX support staff member has deleted a previous override
+       of a learner's score.
 
 .. _instructor_enrollment:
 
