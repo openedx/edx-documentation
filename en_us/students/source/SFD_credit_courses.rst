@@ -24,8 +24,7 @@ courses.
  :alt: A course tile showing the "Earn Credit" indication.
 
 To earn academic credit, you must meet a series of requirements, such as taking
-proctored exams. After you meet the requirements, you can purchase academic
-credit for a specific time after the course ends (usually one year).
+proctored exams. After you meet the requirements, you can purchase academic credit for up to one year from the date when you successfully passed the course as a verified learner. Please check the specific course for credit requirements and deadlines.
 
 *****************************
 Enroll for Academic Credit
@@ -86,7 +85,7 @@ additional steps that the specific organization that grants the credit
 requires.
 
 .. note:: More than one organization might offer credit for the same course.
- If this is the case, you select the organization that you want when you
+ If this is the case, select the organization that you want when you
  purchase credit for the course.
 
 To purchase academic credit, follow these steps.
