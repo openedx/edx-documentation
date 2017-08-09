@@ -351,12 +351,9 @@ the program's courses, and view any certificates that you have earned.
 Unenroll from a Course
 ========================
 
-If you cannot complete a course, or do not want to continue taking a course,
-you can drop or unenroll from the course, but it is not necessary to do so.
-You can simply stop viewing and working in the course, which will remain in
-the list of courses on your dashboard.
+You can drop or unenroll from a course, but it is not necessary to do so. You can simply stop viewing and working in the course, which will remain in the list of courses on your dashboard.
 
-.. note:: If you do unenroll from a course, the course no longer appears on
+.. note:: If you unenroll from a course, the course is deleted from
    your dashboard, and you can no longer access course content or information
    about the grade or certificate you might have earned in the course.
 
@@ -364,7 +361,7 @@ To unenroll from a course, follow these steps.
 
 #. On your dashboard, locate the course.
 
-#. Select the course settings icon.
+#. Select the course settings icon, then select **Unenroll**. The course is removed from your dashboard.
 
    .. image:: ../../shared/students/Images/settings_icon_unenroll.png
       :width: 300
