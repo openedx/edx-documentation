@@ -77,7 +77,7 @@ learners:
    * - **Calculators should not be needed**
      - Calculators are not allowed. Make sure all devices are cleared from the
        desk or table you are working at.
-   * - **Calculators should not be needed**
+   * - **Calculators are allowed**
      - You can use a calculator, including model ______, including/excluding
        the one on your mobile phone.
 
