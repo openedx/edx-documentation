@@ -52,6 +52,36 @@ To specify custom proctored exam rules and rule exceptions, follow these steps.
    attempts. Use uncomplicated sentences and words that a global English-
    speaking audience will understand.
 
+Here are some ways to clarify rules that may be misunderstood by global
+learners:
+
+.. list-table::
+   :widths: 10 70
+   :header-rows: 1
+
+   * - General Rules (Not Recommended)
+     - Explicit Rules (Highly Recommended)
+   * - **Closed book**
+     - You must have a clear desk. You are not permitted to access any other
+       website besides this exam. Notes, books, and scrap paper are not
+       permitted. Carefully show your entire desk to the camera.
+   * - **Open book/Open notes**
+     - You are allowed open access to all resources, including notes, books,
+       and internet browsing. Calculators are allowed, including/excluding the
+       one on your mobile phone.
+   * - **One piece of paper**
+     - You are allowed 1 letter-sized or A4 sized sheet of paper with
+       handwritten notes on 1 side only. You may write formulas or notes from
+       previous lectures. Carefully show your 1 sheet of paper to the camera
+       and confirm that only 1 side has notes.
+   * - **Calculators should not be needed**
+     - Calculators are not allowed. Make sure all devices are cleared from the
+       desk or table you are working at.
+   * - **Calculators should not be needed**
+     - You can use a calculator, including model ______, including/excluding
+       the one on your mobile phone.
+
+
 .. _Allow Opting Out of Proctored Exams:
 
 *************************************************************
