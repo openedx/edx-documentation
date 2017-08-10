@@ -6,11 +6,11 @@ Before running the XBlock SDK the first time, you must create the SQLite
 database.
 
 #. In the ``xblock_development`` directory, run the following command to create
-   the database.
+   the database and the tables.
 
    .. code-block:: none
 
-      (venv) $ python xblock-sdk/manage.py syncdb
+      (venv) $ python xblock-sdk/manage.py migrate
 
 #. You are prompted to indicate whether or not to create a Django superuser.
 
