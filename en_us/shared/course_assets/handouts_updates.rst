@@ -37,8 +37,8 @@ Add a Course Update
 **********************
 
 You create course updates in Studio. On entering the course, learners see the
-update that has the latest date chronologically (including dates in the
-future) on their **Course** page.
+update that has the latest date chronologically (including dates in the future)
+on their **Course** page.
 
 .. note:: Learners can dismiss the update that displays on their **Course** page
    after they have read it. When learners have dismissed a message, they can
@@ -116,6 +116,7 @@ You can open the Studio **Files & Uploads** page in another browser window to
 make this process easier.
 
 To add a course handout, follow these steps.
+
 
 #. In Studio, select **Updates** from the **Content** menu.
 

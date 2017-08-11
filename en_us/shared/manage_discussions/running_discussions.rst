@@ -184,10 +184,10 @@ You can close the discussions for your course so that learners cannot add
 messages to topics. Course discussions can be closed temporarily, such as
 during an exam period, or permanently, such as when a course ends.
 
-.. note:: When you close discussions, make sure you communicate with learners
-   in your course to let them know why they cannot contribute to discussions,
-   and the dates that discussions are affected. You can post a course update
-   to the **Home** page as well as add a pinned information post to a course-wide
+.. note:: When you close discussions, make sure you communicate with learners in
+   your course to let them know why they cannot contribute to discussions, and
+   the dates that discussions are affected. You can post a course update to the
+   **Course** page as well as add a pinned information post to a course-wide
    discussion topic.
 
 When you close the discussions for a course, all discussion topics in course

@@ -192,8 +192,7 @@ The answer depends on the types of problems that are used in the course you are
 taking. If a course contains mobile friendly problem types, you can complete
 those types of problems using the mobile app. For a list of the types of
 problems you can complete using the mobile app, see :ref:`What problems in
-mobile app`. Timed exams and proctored exams cannot be taken using the mobile
-app.
+mobile app` You cannot take timed exams or proctored exams using the mobile app.
 
 You can watch course videos on the mobile app, and can also download videos to
 your mobile device for watching when you do not have an internet connection.
@@ -240,7 +239,7 @@ ways.
 * Numerical input
 * Text input
 
-Timed or proctored exams cannot be taken using the mobile app.
+You cannot take timed or proctored exams using the mobile app.
 
 
 ========================================================
@@ -399,49 +398,6 @@ means that you have not started playing the video. A half-filled circle means
 that you played part of the video. A gray circle means that you played the
 entire video.
 
-
-.. The following section describes how push notifications appear on devices with the edX mobile app installed
-.. Alison, DOC-1814, June 2015
-
-.. only:: Open_edX
-
- .. _Notification Questions:
-
- **************************
- Notification Questions
- **************************
-
- =========================================================
- Will I get notified about upcoming due dates and exams?
- =========================================================
-
- Many course teams send notifications to remind you when assignments are due
- or make other announcements. However, each course team decides what to
- announce and when, and whether to send notifications to the mobile app.
-
- ========================================================
- Where can I read all of the announcements for my course?
- ========================================================
-
- You can use the edX mobile app or a web browser to visit the **Home**
- page and read all of the announcements.
-
- ==================================================================
- How do I turn off course notifications (or turn them back on)?
- ==================================================================
-
- You can turn notifications off, or on, for each of your courses. In the edX
- mobile app, select the course and visit its **Home** page to change the
- notification setting.
-
- ===========================================================
- Can I turn off notifications for all of my courses at once?
- ===========================================================
-
- You can turn off all notifications for the edX mobile app. To change the
- notification setting on an Android smartphone, visit the **App info** page for
- the edX mobile app. On an iPhone, visit **Settings** and then select the edX
- mobile app.
 
 .. Troubleshooting is for both partners and Open edX
 

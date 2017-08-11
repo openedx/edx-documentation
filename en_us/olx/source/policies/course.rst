@@ -30,19 +30,19 @@ Course Policy JSON Objects
      :header-rows: 0
 
      * - ``start``
-       - The start date for the course.  For example: ``"2012-09-05T12:00"``.
+       - The start date for the course.  For example: ``"2017-09-05T12:00"``.
      * - ``advertised_start``
        - The start date displayed in the course listing and course about pages.
-         For example: ``"2012-09-05T12:00``.
+         For example: ``"2017-09-05T12:00``.
      * - ``disable_policy_graph``
        - Whether the policy graph should be disabled (``true``) or not
          (``false)``.
      * - ``enrollment_start``, ``enrollment_end``
        - The dates in which students can enroll in the course. For example,
-         ``"2012-09-05T12:00"``. If not specified, students can enroll any
+         ``"2017-09-05T12:00"``. If not specified, students can enroll any
          time.
      * - ``end``
-       - The end date for the course.  For example: ``"2012-11-05T12:00"``.
+       - The end date for the course.  For example: ``"2017-11-05T12:00"``.
      * - ``end_of_course_survey_url``
        - The URL for an end of course survey. The link is shown after the
          course is over, next to certificate download links.
@@ -53,7 +53,7 @@ Course Policy JSON Objects
          discussion posts. For example, you could specify blackout dates during
          exams. For example:
 
-         ``[[""2012-10-29T04:00", "2012-11-03T04:00"], ["2012-12-30T04:00", "2013-01-02T04:00"]]``
+         ``[[""2017-10-29T04:00", "2017-11-03T04:00"], ["2017-12-30T04:00", "2018-01-02T04:00"]]``
 
          Course team members with the Discussion Moderator, Community TAs, or
          Administrator role are not restricted during blackout periods.
@@ -84,7 +84,7 @@ Course Policy JSON Objects
 
 
 
-.. disable_policy_graph above had "SUPORTED?" after it, moved to this comment 26 Oct 2015 - Alison
+.. disable_policy_graph above had "SUPPORTED?" after it, moved to this comment 26 Oct 2015 - Alison
 
 *******************************
 Example Course Policy File
@@ -93,7 +93,7 @@ Example Course Policy File
 An example with a few of the settings defined in the course policy file
 follows.
 
-.. code-block:: json
+::
 
     {
       "course/course": {
@@ -112,13 +112,8 @@ follows.
         "tabs": [
             {
                 "course_staff_only": false,
-                "name": "Home",
-                "type": "course_info"
-            },
-            {
-                "course_staff_only": false,
                 "name": "Course",
-                "type": "courseware"
+                "type": "course_info"
             },
             {
                 "course_staff_only": false,

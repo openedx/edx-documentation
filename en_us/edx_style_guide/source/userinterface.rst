@@ -43,8 +43,8 @@ This table lists edX-specific terms and exceptions to Microsoft style.
    * - course accordion
      - Do not use. Previously used to describe the course navigation pane.
    * - course navigation pane
-     - On the **Courses** page, the navigation frame for selecting sections and
-       subsections.
+     - On the **Course** page, the navigation frame for selecting sections and
+       subsections. Use "course outline".
    * - course ribbon
      - Do not use. Previously used to describe the unit navigation bar.
    * - dialog box
@@ -59,8 +59,9 @@ This table lists edX-specific terms and exceptions to Microsoft style.
    * - filmstrip
      - Do not use.
    * - handout navigation sidebar
-     - On the **Home** page, the navigation frame for selecting course
-       materials added as handouts.
+     - On the **Course** page, the navigation frame where learners can find
+       links to course tools (such as bookmarks) and course handouts. Use
+       "sidebar".
    * - icon
      - A user interface control that has an image for a label instead of text.
        To identify icons, use the mouseover help text as the icon label. If the
@@ -70,13 +71,13 @@ This table lists edX-specific terms and exceptions to Microsoft style.
      - Do not use. Previously used to describe the unit navigation bar.
    * - left pane
      - Do not use. On the **Courses** page, the navigation frame for selecting
-       sections and subsections is called the course navigation pane. On the
+       sections and subsections is called the "course outline". On the
        **Discussion** page, the navigation frame for selecting categories and
-       subcategories is called the discussion navigation pane.
+       subcategories is called the "discussion navigation pane".
    * - unit navigation bar
-     - The navigation frame on the **Course** page with icons for each unit in
-       the selected subsection, and with **Previous** and **Next** options on
-       either end.
+     - The navigation frame that runs across the top of course pages in the LMS,
+       with icons for each unit in the selected subsection, and with
+       **Previous** and **Next** options on either end.
 
 
 ***********************************
