@@ -5,8 +5,8 @@ Keys and Credentials for Data Transfers
 ####################################################
 
 EdX transfers course data to the data czars at our partner institutions in
-regularly generated data packages. Data packages can only be accessed by the
-data czar at each university.
+regularly generated data packages. Data packages can be accessed only by the
+data czar at each partner institution.
 
 .. contents::
   :local:
@@ -16,10 +16,9 @@ data czar at each university.
 Overview of Key Setup and Exchange
 *************************************
 
-The data czar who is selected at each institution sets up keys for securely
-transferring files from edX to the partner institution. Meanwhile, the
-Analytics team at edX sets up credentials so that the data czar can log in to
-the site where data packages are stored.
+The data czar sets up keys for securely transferring files from edX to the
+partner institution. Meanwhile, edX sets up credentials so that the data czar
+can log in to the site where data packages are stored.
 
  .. image:: ../Images/Data_Czar_Initialization.png
   :alt: Flowchart of data czar creating public and private keys and sending the
@@ -34,15 +33,15 @@ download data packages on an ongoing basis.
 Data Czar: Create Keys for Encryption and Decryption
 ****************************************************************
 
-To assure the security of data packages, the edX Analytics team encrypts all
-files before making them available to a partner institution. As a result, when
-you receive a data package (or other files) from the edX Analytics team, you
-must decrypt the files that it contains before you use them.
+To assure the security of data packages, edX encrypts all files before making
+them available to a partner institution. As a result, when you receive a data
+package (or other files) from edX, you must decrypt the files that it contains
+before you use them.
 
-The cryptographic processes of encrypting and decrypting data files require
-that you create a pair of keys: the public key in the pair, which you send to
-the edX Analytics team, is used to encrypt data. You use your corresponding
-private key to decrypt any files that have been encrypted with that public key.
+To encrypt and decrypt the data files, you must create a pair of keys: the
+public key in the pair, which you send to the edX Analytics team, is used to
+encrypt data. You use your corresponding private key to decrypt any files that
+have been encrypted with that public key.
 
 To create the keys needed for this encryption and decryption process, you use
 GNU Privacy Guard (GnuPG or GPG). Essentially, you install a cryptographic
@@ -140,7 +139,7 @@ Create Keys: Macintosh
    When you select **Save**, only the public key is saved in the resulting .asc
    file. Do not share your private key with edX or any third party.
 
-#. Compose an email message to your edX partner manager. Attach the .asc
+#. Compose an email message to your edX partner manager. Attach the ``.asc``
    file that you saved in the previous step to the message, then send the
    message.
 
@@ -149,17 +148,17 @@ EdX: Deliver Credentials for Accessing Data Storage
 ****************************************************************
 
 The data packages that edX prepares for each partner organization are uploaded
-to the Amazon Web Service (AWS) Simple Storage Service (Amazon S3). The edX
-Analytics team creates an individual account to access this storage service for
+to the Amazon Web Services (AWS) Simple Storage Service (Amazon S3). EdX
+creates an individual account to access this storage service for
 each data czar. The credentials for accessing this account are called an Access
 Key and a Secret Key.
 
-After the edX Analytics team creates these access credentials for you, they use
-the public encryption key that you sent your partner manager to encrypt the
-credentials into a **credentials.csv.gpg** file. The edX Analytics team then
-sends the file to you as an email attachment.
+After edX creates these access credentials for you, they use
+the public encryption key that you sent your edX partner manager to encrypt the
+credentials into a ``credentials.csv.gpg`` file. EdX then sends the file to you
+as an email attachment.
 
-The **credentials.csv.gpg** file is likely to be the first file that you
+The ``credentials.csv.gpg`` file is likely to be the first file that you
 decrypt with your private GPG key. You use the same process to decrypt the data
 package files that you retrieve from Amazon S3. See `Decrypt an Encrypted
 File`_.
@@ -176,7 +175,7 @@ File`_.
 Decrypt an Encrypted File
 ***************************
 
-To work with an encrypted .gpg file, you use the same GNU Privacy Guard program
+To work with an encrypted ``.gpg`` file, you use the same GNU Privacy Guard program
 that you used to create your public/private key pair.
 
 To use your private key to decrypt the Amazon S3 credentials file and the files
@@ -196,9 +195,9 @@ in your data packages, follow these steps.
 
 #. Enter your passphrase. The GNU Privacy Guard program decrypts the file.
 
-For example, when you decrypt the credentials.csv.gpg file the result is a
-credentials.csv file. Open the decrypted credentials.csv file to see that it
-contains your email address, your Access Key, and your Secret Key.
+For example, when you decrypt the ``credentials.csv.gpg`` file, the result is a
+``credentials.csv`` file. Open the decrypted ``credentials.csv`` file to see
+that it contains your email address, your Access Key, and your Secret Key.
 
  .. image:: ../Images/AWS_Credentials.png
   :alt: A .csv file, open in Notepad, with the Access Key value and the Secret

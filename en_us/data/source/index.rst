@@ -12,8 +12,8 @@ into their courses and students.
    :numbered:
    :maxdepth: 2
 
-   front_matter/index
-   internal_data_formats/index
+   start/index
    data_czars/index
    rdx/index
+   internal_data_formats/index
    glossary

@@ -18,12 +18,15 @@ For more information about data security policies and procedures, see
 Data Czars and Other Team Members
 **********************************
 
-At some institutions, only the data czar works on research projects that use
-the course data in edX data packages. At other institutions, the data czar
-works with a team of additional contributors, or is responsible only for
-making a secure transfer of the data to the research team. Typically, the data
-team includes members in the following roles (or a data czar with these skill
-sets).
+A data czar is the single representative at a partner institution who has the
+credentials to download and decrypt edX data packages.  At each partner
+institution, the data czar is the primary point of contact for information
+about edX data. At some institutions, only the data czar works on
+research projects that use the course data in edX data packages. At other
+institutions, the dataczar works with a team of additional contributors, or is
+responsible only formaking a secure transfer of the data to the research team.
+Typically, the data team includes members in the following roles (or a data
+czar with these skill sets).
 
 * Database administrators work with the SQL and NoSQL data files and write
   queries on the data.
@@ -98,8 +101,8 @@ Skills and Experience of Other Team Members
 *********************************************
 
 In addition to the data czar, each partner institution assembles a team of
-contributors to their research projects. This team can include database
-administrators, software engineers, data specialists, and educational
+contributors to carry out their research projects. This team might include
+database administrators, software engineers, data specialists, and educational
 researchers. The team can be large or small, but collectively its members need
 to be able to work with SQL and NoSQL databases, write queries, and convert
 the data from raw formats into standard research packages, such as CSV files,
@@ -130,9 +133,9 @@ Technical Skills
 
 * Ability to set up, query, and administer both SQL and noSQL databases.
 
-* Experience with console/bash scripts.
+* Experience with bash and other command line scripts.
 
-* Basic or advanced scripting (for example, using the Python™ or Ruby
+* Basic or advanced scripting (for example, using the Python or Ruby
   programming language) to convert, join, and aggregate data from different
   data sources, handle JSON serialization, and Unicode specificities.
 
@@ -148,8 +151,8 @@ Technical Skills
 Resources for Data Czars and Teams
 **************************************************
 
-For discussions, edX hosts the `openedx-analytics`_ Google Group™, which is
-open to the public. Additional resources are also available. For more
-information, see :ref:`Resources for Researchers`.
+For discussions, edX hosts the `openedx-analytics`_ Google Group, which is open
+to the public.  For more information about this and other resources, see
+:ref:`Resources for Researchers`.
 
 .. include:: ../../../links/links.rst
