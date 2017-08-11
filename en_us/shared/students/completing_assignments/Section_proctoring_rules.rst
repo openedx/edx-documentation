@@ -1,126 +1,125 @@
 .. This file contains the proctored exam rules. This section is included within
-.. topics in both the edX Learner's Guide and Building and Running an edX Course
-.. guide. Proctored exams are not documented in the Open edX versions of the
-.. guides.
+.. topics in both the edX Learner's Guide and Building and Running an edX
+.. Course guide. Proctored exams are not documented in the Open edX versions of
+.. the guides.
 
-*****************************
-Test Environment Requirements
-*****************************
 
-To pass a proctored exam, learners must make sure that the environment in
-which they take the exam meets the following requirements.
+.. _Know Rules for Online Proctoring:
 
-=====================================
-The Room You are Taking the Test In
-=====================================
+********************************
+Rules for Online Proctored Exams
+********************************
 
-.. note:: Each time you take a proctored exam, you are asked to perform a
-   webcam scan of the room that you want to take the exam in. You do not need
-   to take all of your proctored exams in the same room, but you must take each
-   exam in the room that you scanned for that exam.
+The following proctored exam rules are the basic rules for "closed book" exams.
 
-#. Take the exam in the same room that you scanned during the proctoring setup
-   for the current exam.
+.. note::
+    Some proctored exams have different or additional rules. For example, some
+    proctored exams allow you to use reference material or a calculator. Any
+    additional rules are visible along with the exam instructions before you
+    start the exam.
 
-#. Do not move to another room during the exam. The exam must be started and
-   completed in the same room.
+.. :contents::
+  :local:
+  :depth: 1
 
-#. Do not leave the room during the exam for any reason, unless you have been
-   specifically permitted to do so in posted guidelines for a particular exam.
+======================
+Test Environment Rules
+======================
 
-#. While you are taking the proctored exam, no other person is allowed to
-   enter the room in which you are taking the exam.
+#. You must take the exam in the same room that you scanned during the
+   proctoring setup for the current exam.
 
-#. Make sure the room is well lit. The lighting in the room must be bright
-   enough to be considered "daylight" quality. Overhead lighting is preferred.
-   If overhead lighting is not available, the source of light should not be
-   behind you.
+   .. note::
+     You must complete a webcam scan of the room where you will take the exam
+     every time you take a proctored exam. However, you do not have to take all
+     of your proctored exams in the same room.
 
-#. Sit at a clean desk or table, not on a bed or couch.
+#. No other person is allowed to enter the room while you are taking the
+   proctored exam.
 
-#. Clear the desk or table of all materials such as books, papers, notebooks,
-   calculators, and so on, unless you have been specifically permitted (in
-   posted guidelines) to have such materials available for a particular
-   examination.
+#. The lighting in the room must be bright enough to be considered "daylight"
+   quality. Overhead lighting is preferred. If overhead lighting is not
+   available, the source of light must not be behind you.
 
-   In addition to pens, paper, calculators, textbooks, and notebooks, the
-   following tools should not be on your desk or used during your proctored
-   exam.
+#. You must sit at a clean desk or table.
 
+#. The following items must not be on your desk or used during your proctored
+   exam, unless posted rules for the exam specifically permit these materials.
+
+   * Books.
+   * Paper.
+   * Pens.
+   * Calculators.
+   * Textbooks.
+   * Notebooks.
    * Phones.
-   * Programs such as Excel, Word, Powerpoint.
+
+#. The desk or walls around you must not have any writing.
+
+#. The room must be as quiet as possible. Sounds such as music or television
+   are not permitted.
+
+=====================================
+The Computer You Use to Take the Test
+=====================================
+
+#. The computer you are using to take the exam must not have more than one
+   display or monitor. For example, if you usually use a laptop with a monitor
+   connected, disconnect your monitor and use only the laptop screen.
+
+#. You must close all other programs or windows on your testing computer before
+   you begin the exam.
+
+#. You must not use the following tools.
+
+   * Programs such as Excel, Word, or PowerPoint.
    * Communication programs such as Skype.
    * Any website page other than the exam window in your course, including
      other content on edX.org.
 
-#. Make sure there is no writing visible on the desk or on the walls around
-   you.
+=============
+Your Behavior
+=============
 
-#. Make sure you do not have more than one display or monitor connected to the
-   computer on which you are taking the exam.
+#. You must establish your identity by using a government-issued photo ID with
+   a name that matches the full name you use in your edx.org account.
 
-#. Do not have music or television playing in the background during the exam.
+#. You must dress as though you were in a public setting.
 
-#. Do not use headphones, ear buds, or any other type of listening equipment.
+#. You must not use headphones, ear buds, or any other type of listening
+   equipment.
 
-#. Do not talk to anyone else. During the proctored exam you must not
-   communicate with any other person by any means.
+#. You must not communicate with any other person by any means.
 
-#. Do not use a phone for any reason during the proctored exam.
+#. You must not use a phone for any reason.
 
+#. You must not leave the room during the exam for any reason, unless posted
+   rules for the exam specifically permit you to do so.
 
-==========================================
-The Computer You are Taking the Test With
-==========================================
+.. _Request Additional Time:
 
-#. Make sure you do not have more than one display or monitor connected to the
-   computer on which you are taking the exam. For example, if you usually use
-   a laptop with a monitor connected, disconnect your monitor and use only the
-   laptop screen.
+=====================================
+Additional Time or Special Allowances
+=====================================
 
-#. Before starting your proctored exam, close all other programs or windows on
-   your testing computer.
-
-#. The following tools should not be used during your proctored exam.
-
-   * Programs such as Excel, Word, Powerpoint.
-   * Communication programs such as Skype.
-   * Any website page other than the exam window in your course, including
-     other content on edX.org.
-
-==========================================
-Your Personal Behavior
-==========================================
-
-#. Dress as if you are in a public setting.
-
-#. Do not leave the room during the exam for any reason, unless you have been
-   specifically permitted to do so in posted guidelines for a particular exam.
-
-#. Do not move to another room during the exam. The exam must be started and
-   completed in the same room.
-
-#. Do not have music or television playing in the background.
-
-#. Do not use headphones, ear buds, or any other type of listening equipment.
-
-#. Do not talk to anyone else. During the proctored exam you must not
-   communicate with any other person by any means.
-
-#. Do not use a phone for any reason during the proctored exam.
-
-#. While you are taking the proctored exam, no other person is allowed to
-   enter the room in which you are taking the exam.
+If you have a disability and need additional time or specific accommodations to
+take the exam, consult your organization’s disability resources or the course
+team before you make any choices on the exam page. The course team must approve
+your request and make any adjustments before you start your exam.
 
 
-************************************
-Consequences of Violating the Policy
-************************************
+***********************************
+Consequences of Violating the Rules
+***********************************
 
-If you violate the online proctoring rules in a way that results in your
-proctoring session being given an **Unsatisfactory** status, you are not
-eligible to use the course for academic credit, even if you have achieved a
-passing grade.
+.. Change the first paragraph to the following when the feature releases:
+
+.. If you violate the online proctoring rules and receive an **Unsatisfactory**
+.. status, you automatically receive a score of 0 for the exam. You cannot
+.. receive academic credit for the course.
+
+If you violate the online proctoring rules and receive an **Unsatisfactory**
+status, you cannot receive academic credit for the course.
 
 If you have questions about your proctoring exam status, go to http://edx.org
 to contact edX Support, or consult your course team.

@@ -22,10 +22,16 @@ flagged.
 
 Two results are possible for proctoring session reviews.
 
-*  **Satisfactory** - the learner has passed the proctoring review.
+*  **Satisfactory** - The learner has passed the proctoring review.
 
-*  **Unsatisfactory** - Some suspicious activity has been observed. The
-   learner has not passed the proctoring review.
+*  **Unsatisfactory** - Some suspicious activity has been observed. The learner
+   has not passed the proctoring review. The learner is not eligible for
+   academic credit for the course.
+
+.. Replace the previous sentence with the following sentence when the
+.. "automatically set score to 0" feature is live:
+
+.. The learner automatically receives a score of 0 for the exam, and is not eligible for academic credit for the course.
 
 Some learner behavior that is listed in the Online Proctoring Rules is
 discouraged but does not impact the integrity of the exam. Violations in these
@@ -180,5 +186,11 @@ The following table describes the possible values in the Status column.
      - The proctoring session review has been completed, and has passed.
    * - Unsatisfactory
      - The proctoring session review has been completed, and has not passed.
+       The learner is not eligible for academic credit.
    * - Error
      - The exam is believed to be in error.
+
+.. Replace the second sentence for "Unsatisfactory" with the following when the
+.. "automatically set score to 0" feature releases:
+
+.. The learner automatically receives a score of 0 for the exam and is not eligible for academic credit.

@@ -16,8 +16,10 @@ Navigating to Another Part of the Course During an Exam
 While they are taking a proctored exam, learners can navigate (using the same
 browser session) to other parts of your course.
 
-.. note:: It is a violation of edX's Online Proctoring Rules for learners to
-   navigate to websites other than edX.org during the proctored exam.
+.. note::
+  It is a violation of edX's :ref:`Online Proctoring Rules<CA Online Proctoring
+  Rules>` for learners to navigate to websites other than edX.org during the
+  proctored exam.
 
 If learners navigate to other parts of your course, they see an alert message
 indicating that the timer on their exam continues to count down. When learners
