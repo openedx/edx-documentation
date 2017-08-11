@@ -96,9 +96,8 @@ To add a course update, follow these steps.
        the edX mobile app.
 
       * Learners can choose to turn off notifications for individual courses or
-        for all courses. The **Home** page continues to show all
-        updates.
-      * All updates appear on the **Home** page, even if you do not send
+        for all courses. The **Course** page continues to show updates.
+      * Updates appear on the **Course** page, even if you do not send
         notifications.
 
 
