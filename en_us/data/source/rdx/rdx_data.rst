@@ -63,7 +63,7 @@ method to free text, including discussion posts and wiki articles.
 
 The replacement method identifies and replaces the following values.
 
-* Email addresses in {name}@{destination}.{domain} format. All of the
+* Email addresses in ``{name}@{destination}.{domain}`` format. All of the
   characters in this format must be ASCII.
 
 * Telephone numbers in common European and U.S. formats.
@@ -759,7 +759,7 @@ obfuscated when present for any event.
   event member fields that typically include data that is removed or remapped.
   Additional event member fields can also include data that is replaced.
 
-  .. list-table::
+.. list-table::
      :widths: 25 65
      :header-rows: 1
 

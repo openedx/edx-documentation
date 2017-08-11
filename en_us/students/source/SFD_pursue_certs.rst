@@ -6,6 +6,11 @@
 Pursuing Certificates
 ####################################
 
+You can earn a certificate for a course by upgrading to the verified track in a
+course, and passing the course. To earn a certificate for a program, you must
+upgrade to the verified track for all the courses in the program, and pass all
+the courses.
+
 This topic describes how to select or change to a certificate track for a course or program, and how to verify your identify for certificates.
 
 .. contents::
@@ -21,8 +26,9 @@ Upgrading to the Verified Track
 
 If you enroll in the audit track for a course on the edx.org website, and then
 decide to pursue a verified certificate, you can upgrade to the verified track
-until enrollment for verified certificates ends for the course. Enrollment in
-the verified track usually ends two or more weeks after the course start date.
+at any time, until the course deadline for upgrading has passed. The deadline
+for upgrading to the verified track is usually about two weeks after the course
+start date.
 
 .. contents::
   :local:
@@ -34,26 +40,26 @@ the verified track usually ends two or more weeks after the course start date.
 Find the Deadline for Verified Enrollment
 ============================================
 
-To find out the deadline for enrolling in or upgrading to the verified track
-for a course, follow these steps.
+To find out the deadline for upgrading to the verified track for a course,
+follow these steps.
 
-#. On the edx.org website, select your public edX username in the top corner of
-   the page. Your dashboard opens with a list of your courses.
+#. Sign in to edx.org.
 
-#. Locate the course you want to find the deadline for, and then select **View
-   Course**.
+#. On your dashboard, locate the course for which you want to find the upgrade
+   deadline, and then select **View Course**.
 
-#. Select **Home**.
+#. Select **Course**.
 
-#. In the **Important Course Dates** section at the side of the page, locate
-   the **Verification Upgrade Deadline**.
+#. Under **Important Course Dates** in the sidebar, look for the
+   **Verification Upgrade Deadline**.
 
-   * The upgrade deadline appears in this section.
+   * The date of the upgrade deadline is shown under the **Verification
+     Upgrade Deadline** heading.
 
-   * If this section is not present, the course does not offer a verified
-     certificate or the verification deadline has passed.
+   * If you do not see this heading, either the course does not offer a
+     verified certificate, or the verification deadline has passed.
 
-.. nice to have: either make this ^^ "ID Verification Deadline" or "Certificate Upgrade Deadline" (or have two sections). It's pretty confusing right now. - AHodges 28 Oct 16
+
 
 .. _Upgrade to the Verified Track:
 
@@ -61,9 +67,9 @@ for a course, follow these steps.
 Upgrade to the Verified Track
 ===============================
 
-Verified track enrollment requires that you pay for the certificate and verify
-your identity using a webcam and a photo ID that has your photo and full name
-on the same side.
+Upgrading to the verified track requires that you pay for the certificate and
+verify your identity using a webcam and a photo ID that has your photo and full
+name on the same side.
 
 To upgrade to the verified track, follow these steps.
 
@@ -110,7 +116,7 @@ these steps.
 #. Select **Account**.
 
    .. image:: ../../shared/images/account_settings_menu.png
-     :width: 400
+     :width: 300
      :alt: The dropdown menu that appears when you select the icon next to your
        username, with the Account option circled.
 

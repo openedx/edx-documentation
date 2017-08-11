@@ -14,8 +14,8 @@ EdX Learner's Guide
    SFD_dashboard_profile_SectionHead
    SFD_enrolling
    SFD_self_paced
-   SFD_content_availability
    SFD_start_course
+   SFD_content_availability
    SFD_pursue_certs
    SFD_check_progress
    SFD_certificates
