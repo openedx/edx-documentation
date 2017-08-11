@@ -246,5 +246,21 @@ Patch Releases
 * To address a connection pooling issue in Ubuntu 16.04, we've changed how we
   launch new gunicorn web server processes.
 
+
+=======================
+10 August 2017: Ficus.4
+=======================
+
+* In edx-platform and edx-analytics-dashboard, the python-social-auth library
+  was updated to apply migrations. This library is changing significantly in
+  the Ginkgo release.  These migrations make it possible to update Ficus
+  installations to Ginkgo.
+
+* A security fix was applied to prevent an attacker from poisoning a header and
+  causing Open edX installations to send password reset emails where the reset
+  link had been modified to a domain the attacker controls.
+
+
+
 .. include:: links.rst
 .. include:: ../../links/links.rst
