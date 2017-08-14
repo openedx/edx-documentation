@@ -29,6 +29,22 @@ Overview
 Using Studio, you create and manage the certificates that learners can earn in
 your course.
 
+.. The following paragraph is for the August 8 roll-out of auto-gen certs for
+.. self-paced courses.
+
+By default, Studio automatically generates certificates for self-paced courses. For instructor-paced courses, course teams work with their edX partner manager to generate and distribute certificates.
+
+.. The following paragraph is for the August 22 roll-out of auto-gen certs for
+.. instructor-paced courses.
+
+.. By default, Studio automatically generates certificates as each learner
+.. passes the course, and certificates become available to learners 48 hours
+.. after your course end date. You can also specify a different date to make
+.. certificates available.
+
+For more information about issuing certificates, see :ref:`Issuing
+Certificates`.
+
 .. only:: Open_edX
 
   The design of certificates for your course, including your institution's
@@ -43,10 +59,10 @@ your course.
   more information.
 
 .. The course start date limitation is not published for partners at this time.
-.. Confirmed March 9, 2017 that there's no hard requirement for having activated
-.. certs before edX course starts. Although there is a procedural requirement for
-.. announcing activated certs, courses are able to start if they have
-.. deactivated certs.
+.. Confirmed March 9, 2017 that there's no hard requirement for having
+.. activated certs before edX course starts. Although there is a procedural
+.. requirement for announcing activated certs, courses are able to start if
+.. they have deactivated certs.
 
 .. only:: Open_edX
 
@@ -85,17 +101,8 @@ To create a certificate for your course, follow these steps.
 
 #. In Studio, from the **Settings** menu, select **Certificates**.
 
-#. On the Certificates page, select **Add your first certificate** or **Add a
-   new certificate**.
-
-#. Optionally, specify an alternative course title to use on the certificate
-   in the **Course Title Override** field.
-
-   You might want to use a different title on your course certificates if, for
-   example, the official course name is too long to fit on the certificate.
-
-   To specify an alternative course number, see `Set a Course Number
-   Override`_.
+#. On the **Certificates** page, select **Add your first certificate** or **Add
+   a new certificate**.
 
 #. Add a signatory for each person associated with the course or organization
    whose name and title you want to appear on the certificate. You must specify
@@ -103,8 +110,8 @@ To create a certificate for your course, follow these steps.
 
 .. only:: Partners
 
-   5. For verified certificates, you must upload an image file showing the
-      signature of each signatory.
+   5. For verified certificates, upload an image file showing the signature of
+      each signatory.
 
       The image file must be a transparent .png file, 450px by 150px.
 
@@ -113,7 +120,6 @@ To create a certificate for your course, follow these steps.
    5. Optionally, upload an image file showing the signature of each signatory.
 
       The image file must be a transparent .png file, 450px by 150px.
-
 
 6. When you have finished creating your certificate, select **Create**.
 
@@ -148,7 +154,7 @@ To edit a certificate, follow these steps.
 
 #. In Studio, from the **Settings** menu, select **Certificates**.
 
-#. On the Certificates page, at the top of the certificate form, select the
+#. On the **Certificates** page, at the top of the certificate form, select the
    **Edit** icon.
 
 #. When you have finished editing the certificate, select **Save**.
@@ -158,12 +164,35 @@ To edit a certificate, follow these steps.
    :ref:`activate the certificate<Activate a Certificate>` before certificates
    can be issued.
 
+.. _Specify an Alternative Course Title:
+
+************************************
+Specify a Different Course Title
+************************************
+
+Optionally, you can specify an alternative course title to use on the
+certificate. You might want to use a different title on your course
+certificates if, for example, the official course name is too long to fit on
+the certificate.
+
+#. In Studio, from the **Settings** menu, select **Certificates**.
+
+#. On the **Certificates** page, at the top of the certificate form, select the
+   **Edit** icon.
+
+#. In the **Course Title Override** field, enter the alternative title for your
+   course.
+
+#. Select **Save**.
+
+You can also specify an alternative course number. To do this, see `Set a
+Course Number Override`_.
 
 .. _Set a Course Number Override:
 
-******************************
-Set a Course Number Override
-******************************
+************************************
+Specify a Different Course Number
+************************************
 
 Optionally, you can specify an alternative course number to use on the
 certificate.
@@ -184,6 +213,24 @@ example, the official course number is meaningful only within your institution.
 
    A message lets you know whether your changes were saved successfully.
 
+.. Un-comment the following section when this feature becomes live (scheduled
+.. for August 22, 2017).
+
+.. .. _Specify an Alternative Certificates Available Date:
+
+.. ****************************************************
+.. Specify a Different Certificates Available Date
+.. ****************************************************
+
+.. By default, Studio generates certificates 48 hours after your course ends.
+.. If you want Studio to generate on a different date, you can specify the date
+.. you want in Studio.
+
+.. #. In Studio, open your course.
+.. #. On the **Settings** menu, select **Schedule & Details**.
+.. #. In the **Course Schedule** section, enter the date and time when you want
+..    to issue certificates in the **Certificates Available Date** and
+..    **Certificates Available Time** fields.
 
 .. _Delete a Certificate:
 
@@ -226,7 +273,7 @@ in the selected mode.
 
 #. In Studio, from the **Settings** menu, select **Certificates**.
 
-#. On the Certificates page, select the course mode of the certificate you
+#. On the **Certificates** page, select the course mode of the certificate you
    want to preview, then click **Preview Certificate**.
 
    You see the web view for the certificate, as a learner in the selected
