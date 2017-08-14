@@ -77,7 +77,7 @@ Then, follow these steps to upgrade particular components.
 Upgrading Django Oscar
 =========================
 
-The Gingko release of Open edX upgrades Django Oscar to version 1.4. If you have
+The Ginkgo release of Open edX upgrades Django Oscar to version 1.4. If you have
 an existing installation of Open edX with the E-Commerce service, follow these
 steps to upgrade your Django Oscar installation.
 
@@ -128,7 +128,7 @@ these steps.
 Upgrading Celery
 =====================
 
-The Gingko release upgrades ``django-celery`` from a version that used South
+The Ginkgo release upgrades ``django-celery`` from a version that used South
 migrations to a version that uses Django migrations. To migrate ``django-celery``,
 after you update code, but before running migrations, from ``edx-celeryutils``,
 run ``drop_djcelery_tables.`` Otherwise, ``djcelery_001`` yields a "table
@@ -142,9 +142,9 @@ to modify the tables manually.
 
 
 
-***************************************
+****************************************
 Upgrading to a Subsequent Ginkgo Release
-***************************************
+****************************************
 
 Occasionally, we release updates to Ginkgo.  For example, the second
 release of Ginkgo will be ``open-release/ginkgo.2``.
