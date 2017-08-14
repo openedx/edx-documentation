@@ -82,19 +82,6 @@ an existing installation of Open edX with the E-Commerce service, follow these
 steps to upgrade your Django Oscar installation.
 
 *************************************
-Fake Migration for the thumbnail App
-*************************************
-
-Use the ``--fake`` argument in migrating the ``thumbnail`` app, running the
-migrate command in this form:
-
-.. code-block:: bash
-
-   ./manage.py migrate thumbnail --fake
-
->> Consult with Robert R about this
-
-*************************************
 guest_email Column Change
 *************************************
 
@@ -108,21 +95,6 @@ migrating the ``orders`` table, running the migrate command in this form:
 .. code-block:: bash
 
    ./manage.py migrate orders 0013 --fake
-
-=====================
-Upgrading Insights
-=====================
-
-The Gingko release of Open edX upgrades Insights to Django 1.11. As part of this
-upgrade, the migration procedure requires a series of migrations relating to
-changes in ``social-auth.`` To migrate Insights from an earlier verison, follow
-these steps.
-
-# Upgrade to ``python-socal-auth`` version 0.2.21.
-# Run migrations.
-# Upgrade ``edx-auth-backends``, which in turn upgrades several ``social-auth``
-  packages.
-# Run migrations again.
 
 =====================
 Upgrading Celery
