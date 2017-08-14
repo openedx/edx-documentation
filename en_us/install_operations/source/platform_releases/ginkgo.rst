@@ -81,6 +81,10 @@ The Ginkgo release of Open edX upgrades Django Oscar to version 1.4. If you have
 an existing installation of Open edX with the E-Commerce service, follow these
 steps to upgrade your Django Oscar installation.
 
+GRANT: There is only one detail here, and it is an optional step that most
+people will not need.  Can you wordsmith the previous paragraph, and maybe we
+don't need this next section head? Also, isn't it the wrong level?
+
 *************************************
 guest_email Column Change
 *************************************
