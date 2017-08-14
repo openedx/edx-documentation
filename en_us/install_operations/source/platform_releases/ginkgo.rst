@@ -70,8 +70,77 @@ One approach to upgrading an existing installation of the Open edX Ficus
 release to the Ginkgo release is to make a fresh installation of the Ginkgo
 release on a new machine, and move your data and settings to it.
 
-If instead you want to upgrade an existing installation, [RUN SOME SCRIPT].
-Then, follow these steps to upgrade particular components.
+To move and upgrade your Ficus data onto a Ginkgo installation:
+
+#. Be sure that your Ficus installation is on Ficus.4.  The Ficus.4 release
+   provided required database migrations beyond what was in Ficus.3.  The only
+   version of Ficus that will upgrade to Ginkgo successfully is Ficus.4.
+
+#. Stop all services on the Ficus machine.
+
+#. Dump the data on the Ficus machine. Here's an example script that will dump
+   the MySQL and Mongo databases into a single .tgz file.  It will prompt for
+   the MySQL and Mongo passwords as needed:
+
+    .. code-block:: bash
+
+        #!/bin/bash
+        MYSQL_CONN="-uroot -p"
+        echo "Reading MySQL database names..."
+        mysql ${MYSQL_CONN} -ANe "SELECT schema_name FROM information_schema.schemata WHERE schema_name NOT IN ('mysql','information_schema','performance_schema')" > /tmp/db.txt
+        DBS="--databases $(cat /tmp/db.txt)"
+        NOW="$(date +%Y%m%dT%H%M%S)"
+        SQL_FILE="mysql-data-${NOW}.sql"
+        echo "Dumping MySQL structures..."
+        mysqldump ${MYSQL_CONN} --add-drop-database --no-data ${DBS} > ${SQL_FILE}
+        echo "Dumping MySQL data..."
+        # If there is table data you don't need, add --ignore-table=tablename
+        mysqldump ${MYSQL_CONN} --no-create-info ${DBS} >> ${SQL_FILE}
+
+        for db in edxapp cs_comment_service_development; do
+            echo "Dumping Mongo db ${db}..."
+            mongodump -u admin -p -h localhost --authenticationDatabase admin -d ${db} --out mongo-dump-${NOW}
+        done
+
+        tar -czf openedx-data-${NOW}.tgz ${SQL_FILE} mongo-dump-${NOW}
+
+#. Copy the .tgz data file to the Ginkgo machine.
+
+#. Stop all services on the Ginkgo machine.
+
+#. Restore the Ficus data into the Ginkgo machine. These commands are an
+   example of how to do it:
+
+    .. code-block:: bash
+
+        $ tar -xvf openedx-data-20170811T154750.tgz
+        $ mysql -uroot -p < mysql-data-20170811T154750.sql
+        $ mongorestore -u admin -p -h localhost --authenticationDatabase admin --drop -d edxapp mongo-dump-20170811T154750/edxapp
+        $ mongorestore -u admin -p -h localhost --authenticationDatabase admin --drop -d cs_comment_service mongo-dump-20170811T154750/cs_comment_service_development
+
+#. For the migration from Ficus to Ginkgo, you need to drop the database tables
+   used by djcelery.  These tables should be empty in your Ficus data, so it is
+   safe to drop them.  The edx-platform application has a management command to
+   check that they are empty and drop them:
+
+    .. code-block:: bash
+
+        $ sudo su - -s /bin/bash edxapp
+        edxapp@xyz:~$ . edxapp_env
+        edxapp@xyz:~$ cd edx-platform/
+        edxapp@xyz:~/edx-platform$ python manage.py lms drop_djcelery_tables --settings=aws
+
+#. Run the Ginkgo migrations, which will update your Ficus data to be valid for
+   Ginkgo:
+  
+    .. code-block:: bash
+
+        $ /edx/app/edx_ansible/edx_ansible/util/install/sandbox.sh --tags migrate
+
+#. Copy your configuration files from the Ficus machine to the Ginkgo machine.
+
+#. Restart all services.
+
 
 =========================
 Upgrading Django Oscar
