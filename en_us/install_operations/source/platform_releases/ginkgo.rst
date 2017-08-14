@@ -86,7 +86,7 @@ guest_email Column Change
 *************************************
 
 The migration includes a change to the ``guest_email`` column in the ``orders``
-table. If your ``orders`` table is larger than a million rows, this migration
+table. This change is applied automatically.  If your ``orders`` table is larger than a million rows, this migration
 may lock the table for an extended amount of time. The E-Commerce service does
 not normally use the ``guest_email`` column. If your installation does not use
 this column, you can avoid the table lock by using the ``--fake`` argument in
