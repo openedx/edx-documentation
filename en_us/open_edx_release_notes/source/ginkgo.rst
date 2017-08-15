@@ -41,13 +41,13 @@ LMS
    progression through the course. For more information, see
    `Course Navigation Changes`_ on the Open edX portal.
 
-*  The **Course** page includes breadcrumb navigation that learners can select
-   from any course page to return to the course outline.
+*  The **Course** page now includes breadcrumb navigation that learners can
+   select from any course page to return to the course outline.
 
-*  The video player uses HLS video playback when YouTube videos are not available.
-   HLS causes the player to continually check each learner's internet connection
-   and adjust video playback, so that learners are always viewing the highest
-   quality video possible for their Internet connection.
+*  The video player now uses HLS video playback when YouTube videos are not
+   available. HLS causes the player to continually check each learner's internet
+   connection and adjust video playback, so that learners are always viewing the
+   highest quality video possible for their internet connection.
 
 *  Search functionality is available on the **Outline** page.
 
@@ -59,22 +59,22 @@ LMS
 *  Learners can now sort inline discussions by most votes, most activity, and
    recent activity.
 
-*  Learner responses for open responses assessments can now include more than
+*  Learner responses for open responsesassessments can now include more than
    one file. The maximum cumulative upload size has been increased to 10 MB.
 
 *  The LMS is compliant with Web Content Accessibility Guidelines (WCAG) 2.0
    level AA. We have made a number of accessibility improvements that, among
-   other things, provide easier navigation using a keyboard, a screen reader,
+   other things, provide easier navigation using keyboards, screen readers,
    or other assistive technology.
 
 
-============================
-Studio & Course Author Tools
-============================
+===============================
+Studio and Course Author Tools
+===============================
 
-*  Course teams that use content groups can now use the **View this course as**
-   option in the LMS to make sure that their content will be available only to
-   the cohorts that they specify.
+*  Course teams that use cohorts can now select specific content groups from
+   the View this course as option in the LMS to preview content exactly as a
+   learner in that content group would see it.
 
 *  Course staff can now send emails to learners based on their enrollment track,
    so you can reach all verified or audit track learners at one time. For more
@@ -90,10 +90,11 @@ Studio & Course Author Tools
 *  The **Data Download** page on the instructor dashboard includes two new columns:
    enrollment mode and verification status.
 
-*  The **Video ID** field is now displayed on the **Basic** tab of a video component.
+*  The **Video ID** field is now available on the **Basic** tab of a video
+   component as well as on the **Advanced** tab.
 
-*  You can upload transcripts for non-YouTube videos on the **Basic** tab of a
-   video component.
+*  You can upload transcripts for videos that are not hosted on YouTube on the
+   *Basic** tab of a video component.
 
 * The problem component for open response assessments has been renamed from
   "Peer Assessment" to "Open Response Assessment."
@@ -138,30 +139,32 @@ The Credentials service now requires Python 3.5.
 E-Commerce Service
 ======================
 
-* Receipt page - The receipt page integrated into Otto is the only receipt page
-  that is supoorted. Redirecting to the ``LMS/shopping_cart`` receipt page is no
-  longer enabled.
+* The Open edX platform now supports only the integrated Otto
+  receipt page. Users can no longer redirect to the ``LMS/shopping_cart``
+  receipt page.
 
-* CyberSource - Secure Acceptance Silent Order POST is the only supported
-  CyberSource integration. Using this integration requires creating a new profile
-  in the business center. >> What is the business center?
+* The Open edX platform now supports only the Secure Acceptance
+  Silent Order POST integration for CyberSource. To use this integration, users
+  must create a new profile in the business center.
+
 
 * The merchant notifications endpoint has been removed.
 
-* Django Oscar has been upgraded to version 1.4. See Upgrading Django Oscar for
+* Django Oscar has been upgraded to version 1.4. See >>Upgrading Django Oscar for
   information about migrating an existing installation to the new version.
 
 * The Course Administration Tool has been updated to use the user account
   associated with the OAuth credentials rather than individual users' accounts.
   The user associated with the OAuth credentials (at edx.org, we use the
-  username ``ecommerce_worker``) needs to have full CRUD permissions for the
-  following models on LMS:
+  username ``ecommerce_worker``) must  have full CRUD permissions for the
+  following models on LMS.
      * ``commerce.CommerceConfiguration``
      * ``course_modes.CourseMode``
      * ``credit.CreditCourse``
      * ``credit.CreditRequest``
-  In addition, if you are using SDN verification, this user nneds to have the
-  ``student:userprofile:can_deactivate_users`` permission.
+  In addition, if you are using Specially Designated Nattionals (SDN) verification,
+  this user nneds to have the ``student:userprofile:can_deactivate_users``
+  permission.
 
 *******************************
 System Upgrades and Updates
@@ -195,7 +198,7 @@ System Upgrades and Updates
   See `Webpack`_ for more information.
 
 * ESLint is now used for JavaScript linting. The edX rules are defined in
-  https://github.com/edx/eslint-config-edx . Packages are provided for ES5 and
+  https://github.com/edx/eslint-config-edx. Packages are provided for ES5 and
   ES2015+. See `ESLint`_ for more details.
 
 
@@ -203,11 +206,11 @@ System Upgrades and Updates
 Deprecated Features
 ***********************
 
-Several features are deprecated or deleted by the Open edX Ginkgo release.
+Several features are deprecated or deleted in the Open edX Ginkgo release.
 
 * The Programs service was deprecated in Ficus. It has been replaced by the Catalog
   service in Ginkgo.
-* The Credentials API V2 has replaced the Credentials API V1, which has been
+* The Credentials API v2 has replaced the Credentials API v1, which has been
   removed.
 * The waffle flag ``unified_course_view``, which can be used for the new view
   of the course outline on a separate page, is deprecated in Ginkgo.  The old
