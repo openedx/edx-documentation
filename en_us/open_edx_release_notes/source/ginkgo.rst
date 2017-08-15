@@ -157,10 +157,12 @@ E-Commerce Service
   The user associated with the OAuth credentials (at edx.org, we use the
   username ``ecommerce_worker``) must  have full create/read/update/delete
   permissions for the following models on LMS.
+
      * ``commerce.CommerceConfiguration``
      * ``course_modes.CourseMode``
      * ``credit.CreditCourse``
      * ``credit.CreditRequest``
+
   In addition, if you are using Specially Designated Nationals (SDN) verification,
   this user must have the ``student:userprofile:can_deactivate_users``
   permission.
