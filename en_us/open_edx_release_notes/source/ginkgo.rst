@@ -98,7 +98,7 @@ Studio and Course Author Tools
    component as well as on the **Advanced** tab.
 
 *  You can upload transcripts for videos that are not hosted on YouTube on the
-   *Basic** tab of a video component.
+   **Basic** tab of a video component.
 
 * The problem component for open response assessments has been renamed from
   "Peer Assessment" to "Open Response Assessment."
