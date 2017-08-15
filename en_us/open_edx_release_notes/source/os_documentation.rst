@@ -4,9 +4,9 @@ Open edX Documentation
 
 All Open edX documentation is available at `docs.edx.org`_.
 
-***************************
+*****************************
 Ginkgo Release Documentation
-***************************
+*****************************
 
 The following documentation is available for the Open edX Ginkgo release.
 
