@@ -117,7 +117,7 @@ Insights and Analytics
    courses. For information, see :ref:`insights:Courses_Page`.
 
 *  Updates to Insights requires a series of migration steps to account for changes
-   to ``social-auth``. For information, see >>Migration doc.
+   to ``social-auth``. For information, see :ref:`opencoursestaff:Open edX Ginkgo Release`.
 
 *****************
 Service Upgrades
@@ -150,7 +150,7 @@ E-Commerce Service
 
 * The merchant notifications endpoint has been removed.
 
-* Django Oscar has been upgraded to version 1.4. See >>Upgrading Django Oscar for
+* Django Oscar has been upgraded to version 1.4. See :ref:`opencoursestaff:Open edX Ginkgo Release` for
   information about migrating an existing installation to the new version.
 
 * The Course Administration Tool has been updated to use the user account
@@ -215,8 +215,7 @@ Several features are deprecated or deleted in the Open edX Ginkgo release.
 * The waffle flag ``unified_course_view``, which can be used for the new view
   of the course outline on a separate page, is deprecated in Ginkgo.  The old
   sidebar navigation and this waffle flag will be fully removed in the next
-  release. >> This is currently defaulted off, but we'd like to get it defaulted
-  on for Ginkgo.
+  release.
 
 
 .. include:: links.rst
