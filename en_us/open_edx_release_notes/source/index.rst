@@ -12,6 +12,7 @@ The *Open edX Release Notes* provide information about releases, migrations, and
 
    front_matter/index
    os_documentation
+   ginkgo
    ficus
    eucalyptus
    bulk_email
