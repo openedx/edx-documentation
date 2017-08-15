@@ -39,6 +39,15 @@
 
 .. _Profile Images API Version 1.0: http://edx.readthedocs.io/projects/edx-platform-api/en/latest/profile_images/index.html
 
+.. Ginkgo doc links:
+
+.. _Installing, Configuring, and Running the Open edX Platform\: Ginkgo Release: http://edx.readthedocs.io/projects/edx-installing-configuring-and-running/en/open-release-ginkgo.master
+
+.. _Building and Running an Open edX Course\: Ginkgo Release: http://edx.readthedocs.io/projects/open-edx-building-and-running-a-course/en/open-release-ginkgo.master
+
+.. _Open edX Learner's Guide\: Ginkgo Release: http://edx.readthedocs.io/projects/open-edx-learner-guide/en/open-release-ginkgo.master
+
+
 .. Ficus doc links
 
 .. _Installing, Configuring, and Running the Open edX Platform\: Ficus Release: http://edx.readthedocs.io/projects/edx-installing-configuring-and-running/en/open-release-ficus.master
