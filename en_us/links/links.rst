@@ -26,6 +26,8 @@
 
 .. _edX Enrollment API: http://edx.readthedocs.io/projects/edx-platform-api/en/latest/enrollment/index.html
 
+.. _Course Navigation Changes: https://open.edx.org/announcements/update-course-navigation-changes
+
 .. _course-data: http://groups.google.com/a/edx.org/forum/#!forum/course-data
 
 .. _edx.org: http://edx.org
@@ -375,6 +377,10 @@
 .. _How to add Closed Captions to an Office Mix: https://officemix.uservoice.com/knowledgebase/articles/505262-how-to-add-closed-captions-to-an-office-mix
 
 .. _W3C CSS color specification: https://www.w3.org/TR/css3-color/
+
+.. _ESLint: https://openedx.atlassian.net/wiki/display/FEDX/ESLint
+
+.. _Webpack: https://webpack.js.org/
 
 .. Release Notes
 

@@ -4,19 +4,17 @@ Open edX Documentation
 
 All Open edX documentation is available at `docs.edx.org`_.
 
-***************************
-Ficus Release Documentation
-***************************
+*****************************
+Ginkgo Release Documentation
+*****************************
 
-The following documentation is available for the Open edX Ficus release.
+The following documentation is available for the Open edX Ginkgo release.
 
-* `Installing, Configuring, and Running the Open edX Platform: Ficus Release`_
+* `Installing, Configuring, and Running the Open edX Platform: Ginkgo Release`_
 
-* `Building and Running an Open edX Course: Ficus Release`_
+* `Building and Running an Open edX Course: Ginkgo Release`_
 
-* `Open edX Learner's Guide: Ficus Release`_
-
-* `Open edX Platform APIs: Ficus Release`_
+* `Open edX Learner's Guide: Ginkgo Release`_
 
 *******************************
 Latest Documentation
