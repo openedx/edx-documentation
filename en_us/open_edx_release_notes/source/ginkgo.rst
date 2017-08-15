@@ -14,6 +14,9 @@ website.
 Changes listed for July 7, 2017 and before are included in the Ginkgo release
 of Open edX. Changes after that point will be in future Open edX releases.
 
+For information about upgrading an existing Open edX installation from the
+Ficus relesae to the Ginkgo release, see :ref:`opencoursestaff:upgrade_ficus`.
+
 .. contents::
  :depth: 1
  :local:
@@ -87,8 +90,9 @@ Studio and Course Author Tools
 *  The default permissions have been changed so that new Studio users cannot
    author courses unless an admin has added them to the course creator group.
 
-*  The **Data Download** page on the instructor dashboard includes two new columns:
-   enrollment mode and verification status.
+*  The student profile report that is available from the **Data Download**
+   page on the instructor dashboard includes two new columns: enrollment mode
+   and verification status.
 
 *  The **Video ID** field is now available on the **Basic** tab of a video
    component as well as on the **Advanced** tab.
@@ -115,9 +119,6 @@ Insights and Analytics
 
 *  A new **Courses** page in Insights provides a dashboard view of all of your
    courses. For information, see :ref:`insights:Courses_Page`.
-
-*  Updates to Insights requires a series of migration steps to account for changes
-   to ``social-auth``. For information, see :ref:`opencoursestaff:Open edX Ginkgo Release`.
 
 *****************
 Service Upgrades
@@ -147,30 +148,28 @@ E-Commerce Service
   Silent Order POST integration for CyberSource. To use this integration, users
   must create a new profile in the business center.
 
-
 * The merchant notifications endpoint has been removed.
 
-* Django Oscar has been upgraded to version 1.4. See :ref:`opencoursestaff:Open edX Ginkgo Release` for
-  information about migrating an existing installation to the new version.
+* Django Oscar has been upgraded to version 1.4.
 
 * The Course Administration Tool has been updated to use the user account
   associated with the OAuth credentials rather than individual users' accounts.
   The user associated with the OAuth credentials (at edx.org, we use the
-  username ``ecommerce_worker``) must  have full CRUD permissions for the
-  following models on LMS.
+  username ``ecommerce_worker``) must  have full create/read/update/delete
+  permissions for the following models on LMS.
      * ``commerce.CommerceConfiguration``
      * ``course_modes.CourseMode``
      * ``credit.CreditCourse``
      * ``credit.CreditRequest``
-  In addition, if you are using Specially Designated Nattionals (SDN) verification,
-  this user nneds to have the ``student:userprofile:can_deactivate_users``
+  In addition, if you are using Specially Designated Nationals (SDN) verification,
+  this user must have the ``student:userprofile:can_deactivate_users``
   permission.
 
 *******************************
 System Upgrades and Updates
 *******************************
 
->> Something about the upgrade path
+The Ginkgo release makes version updates to a number of system components.
 
 
 .. list-table::
