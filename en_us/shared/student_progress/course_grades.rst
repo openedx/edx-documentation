@@ -62,12 +62,15 @@ learners' grades.
    .. image:: ../../../shared/images/Grading_Configuration_Studio.png
      :alt: Studio example of homework assignment type and grading weight.
 
-.. important:: Any changes that you make to the course grading policy, to
-   graded subsections, or to graded components after the course begins will
-   affect learners' experiences in the course as well as analysis of its data.
-   EdX recommends that you announce any unavoidable changes learners by using,
-   for example, the **Home** page. You should also carefully track these
-   changes for researchers.
+
+.. important:: Any changes that you make to the course grading policy, to graded
+   subsections, or to graded components after the course begins will affect
+   learners' grades and their experience in the course as well as analysis of
+   course data.
+
+   EdX recommends that you announce any unavoidable grading related changes to
+   learners by using, for example, updates on the **Course** page. You should
+   also carefully track such changes for researchers.
 
 .. _Access_grades:
 

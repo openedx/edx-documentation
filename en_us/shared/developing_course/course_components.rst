@@ -187,7 +187,7 @@ To specify a component's access settings, follow these steps.
    .. image:: ../../../shared/images/components_restricted_access_indicator.png
     :alt: When any component in a unit has restricted access, a message
       appears in the unit's publishing status bar.
-    :width: 500
+    :width: 250
 
 
 .. _Duplicate a Component:

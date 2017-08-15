@@ -3,7 +3,6 @@
 ###############
 Ending a Course
 ###############
-.. This chapter will be renamed and expanded to include course wrap-up activities and best practices.
 
 This topic describes how to complete several end-of-course tasks.
 
@@ -41,66 +40,92 @@ determine whether the learner has earned a certificate for the course.
 Issuing Certificates
 ********************
 
-Typically, you generate and issue certificates after the course ends for
-instructor-paced courses, or at specific intervals for self-paced courses.
-
-For self-paced courses, you can also allow learners to request and download
-certificates before they have completed all of the course materials. To receive
-these on-demand certificates, learners must have completed enough of the
-course, and with a high enough grade, to qualify for a certificate.
-
-===================================
-Issue Course-Generated Certificates
-===================================
-
-.. only:: Partners
-
-   For most courses, you work with your edX partner manager to issue
-   certificates. For instructor-paced courses, you must assign final grades
-   before you can issue certificates. For more information, contact your edX
-   partner manager.
-
 .. only:: Open_edX
 
-   If the administrator of your instance of Open edX has configured your
-   instance to allow course teams to generate and issue certificates, you can
-   issue certificates for your course. For more information, see
-   :ref:`installation:Generate Certificates for a Course`.
+  .. note::
+   Before you can issue certificates, the administrator for your instance of
+   Open edX must configure the platform to allow course teams to generate and
+   issue certificates. For more information, see
+   :ref:`installation:Generate Certificates for a Course` and
+   :ref:`installation:Enable Certificates` in *Installing, Configuring, and
+   Running the Open edX Platform*.
 
-   If your Open edX administrator has not configured your instance to allow
-   course teams to generate and issue certificates, you must work with your
-   administrator to issue your course certificates. For more information, see
-   :ref:`installation:Enable Certificates`.
+.. The following paragraphs are for the roll-out of self-paced auto-gen
+.. certificates on August 8, 2017.
 
-=======================================================
-Allow On-Demand Certificates (Self-Paced Courses Only)
-=======================================================
+For instructor-paced courses, course teams work with edX to generate and
+distribute certificates. For more information, contact your edX partner
+manager.
 
-You can allow your learners to receive on-demand certificates as soon as they
-qualify for a certificate in your course. This process has two steps.
+For self-paced courses, Studio automatically generates certificates. for
+learners when they have completed enough of the course, and with a high enough
+grade, to qualify for a certificate. After Studio generates certificates, a
+**View Certificate** option is visible to learners on the learner dashboard.
 
-#. :ref:`Allow learners to request certificates<Allow Learners to Request
-   Certificates>`.
-#. :ref:`Allow learners to download certificates<Allow Learners to Download
-   Certificates>`.
+If you want Studio to generate certificates only after learners have
+completed the course, you can disable this feature. For more information, see
+:ref:`Allow Learners to Receive Early Certificates`.
 
-.. only:: Partners
+.. The following paragraphs are for the roll-out of instructor-paced auto-gen
+.. certificates on August 22, 2017.
 
-  For information about how learners request certificates, see
-  :ref:`learners:SFD On Demand Certificates`.
+.. Studio automatically generates certificates for both self-paced courses and
+.. instructor-paced courses. After Studio generates certificates, options for
+.. learners to view their certificates are available on the learner dashboard,
+.. the **Course** page, and the course **Progress** page.
+
+.. You can specify when you want Studio to generate certificates.
+
+.. * For self-paced courses, by default, Studio generates certificates for
+..   learners when they have completed enough of the course, and with a high
+..   enough grade, to qualify for a certificate.
+
+..   If you want Studio to generate certificates only after learners have
+..   completed the course, you can disable this feature. For more information,
+..   see :ref:`Allow Learners to Receive Early Certificates`.
+
+.. * For instructor-paced courses, three options are available.
+
+..  * By default, Studio automatically generates certificates for learners 48
+..    hours after your course end date. If you change your course end date,
+..    Studio automatically adjusts the date for certificates as well.
+
+..  * You can specify a different date to make certificates available. For more
+..    information, see :ref:`Specify an Alternative Certificates Available
+..    Date`.
+
+..  * You can allow learners to receive their certificates when they have
+..    completed enough of the course, and with a high enough grade, to qualify
+..    for a certificate. For more information, see :ref:`Allow Learners to
+..    Receive Early Certificates`.
+
+.. .. _Issue Certificates on a Specified Date:
+
+.. ======================================
+.. Issue Certificates on a Specified Date
+.. ======================================
+
+.. If you do not want Studio to generate certificates 48 hours after the course
+.. end date, you can specify the date when you want Studio to generate
+.. certificates. You can change this date at any time.
+
+.. For more information about how to specify a day to issue certificates, see
+.. :ref:`Specify an Alternative Certificates Available Date`.
+
+.. _Allow Learners to Receive Early Certificates:
+
+================================================
+Allow Learners to Receive Early Certificates
+================================================
+
+To allow learners to receive certificates before the course end date or before
+they have completed the course, you use the **Enable Student-Generated
+Certificates** setting on the instructor dashboard.
 
 .. note::
-  If your course offers on-demand certificates, we encourage you to include
-  this information on your course About page, on the **Home** page, and in
-  communication with your learners.
-
-.. _Allow Learners to Request Certificates:
-
-Allow Learners to Request On-Demand Certificates
-********************************************************
-
-To allow learners to request on-demand certificates, you modify the **Enable
-Student- Generated Certificates** setting on the Instructor Dashboard.
+  By default, self-paced courses issue certificates to learners as soon as
+  learners have completed enough of the course, with a high enough grade, to
+  earn a certificate. You do not have to change any settings.
 
 #. View the live version of your course.
 
@@ -108,18 +133,15 @@ Student- Generated Certificates** setting on the Instructor Dashboard.
 
 #. Select **Enable Student-Generated Certificates**.
 
-   When they have qualified, learners can request their certificates from the
-   **Progress** page.
-
-   To prevent learners from requesting certificates, select **Disable
+   To prevent learners from receiving early certificates, select **Disable
    Student-Generated Certificates**.
 
 .. _Allow Learners to Download Certificates:
 
-Allow Learners to Download On-Demand Certificates
+Allow Learners to Download Early Certificates
 *********************************************************
 
-To allow learners to download on-demand certificates, you modify the
+To allow learners to download early certificates, you modify the
 **Certificates Display Behavior** advanced setting in Studio.
 
 #. In Studio, on the **Settings** menu, select **Advanced Settings**.

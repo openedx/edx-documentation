@@ -31,11 +31,11 @@ completing some of the exercises you may see in your course.
 
  .. note::  If you have comments or :ref:`questions about a specific course<If
     You Have Questions In Course>`, first check the discussions in your course
-    or information on the course's **Home** page to see if your question has
-    been answered there. Join your course discussion and add a question post
-    to get answers from the course team or other learners.
+    or information in updates on the **Course** page to see if your question has
+    been answered there. Join your course discussion and add a question post to
+    get answers from the course team or other learners.
 
-    To contact the edX Learner Support team, select **Need Help?** on any page
+    To contact the edX Learner Support team, select **Contact Support** on any page
     in this guide.
 
 
@@ -91,7 +91,7 @@ these options for getting an answer.
   If you find an error or mistake in a course, contact the course staff by
   using the :ref:`course discussions<Explore Posts>`.
 
-* Check the **Home** page in the course. Course teams use this page to post
+* Check the **Course** page in the course. Course teams use this page to post
   updates about the course, which can include explanations about course
   content, reminders about when graded assignments are due, or announcements
   for upcoming events or milestones.

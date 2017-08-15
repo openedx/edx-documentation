@@ -35,14 +35,14 @@ due dates for assignments and exams, and you complete the course within a
 defined time period, such as eight or twelve weeks.
 
 Course materials become available at specific times as the course progresses.
-Assignments have due dates, and exams have start and end dates. On the
-**Course** page, indicators show when you have a graded assignment, as well as
-the due date for the assignment.
+Assignments have due dates, and exams have start and end dates. In the course
+outline on the **Course** page, indicators show when you have a graded
+assignment, as well as the due date for the assignment.
 
-.. image:: ../../shared/students/Images/Pacing_Inst.png
- :width: 200
- :alt: Part of the course page in an instructor-paced course, with due dates
-    visible for graded homework assignments.
+.. image:: ../../shared/images/Pacing_InstructorDueDates.png
+ :width: 250
+ :alt: Part of the course outline in an instructor-paced course, with due dates
+    visible for graded quizzes.
 
 
 In most instructor-paced courses, certificates are generated within two weeks
@@ -64,10 +64,9 @@ assignments, but not due dates. You can complete assignments and exams at your
 own pace, as long as you complete all course work before the course ends.
 
 
-.. image:: ../../shared/students/Images/Pacing_Self.png
- :width: 200
- :alt: Part of the course page in a self-paced course, with no due dates
-    for graded homework assignments.
+.. image:: ../../shared/images/Pacing_SelfPacedCourseCard.png
+ :width: 250
+ :alt: A course card for a self-paced course, showing the "Self-Paced" label
 
 In most self-paced courses, the course team generates certificates on a
 schedule, such as once a month. The certificate generation schedule varies by

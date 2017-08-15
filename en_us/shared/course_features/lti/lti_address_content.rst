@@ -43,14 +43,14 @@ To find the course ID for your course, follow these steps.
 
 #. In the URL shown by your browser, find the course ID.
 
-For example, you open the "Blended Learning with edX" course to the **Home**
-page for the course. The URL for the **Home** page is
-``https://courses.edx.org/courses/course-v1:edX+BlendedX+1T2015/info``. From
+For example, you open the "Blended Learning with edX" course to the **Course**
+page for the course. The URL for the **Course** page is
+``https://courses.edx.org/courses/course-v1:edX+BlendedX+1T2015/course``. From
 the URL, you determine that the course ID is ``course-v1:edX+BlendedX+1T2015``.
 
 Another example is the edX DemoX course. The URL is
-``https://edge.edx.org/courses/edX/DemoX/2014/info``, and its course ID is
-``edX/DemoX/2014``.
+``https://courses.edx.org/courses/course-v1:edX+DemoX.1+2T2017/course``, and
+its course ID is ``course-v1:edX+DemoX.1+2T2017``.
 
 The same course ID applies to every item of content in the course.
 

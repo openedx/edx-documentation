@@ -143,10 +143,9 @@ Studio, see :ref:`partnercoursestaff:document index`.
        pages, on the Studio **Pages** page.
 
        The default **Course** page uses the structure defined by the course
-       building blocks to deliver the content defined by the course components.
-       Similarly, the default **Home** page delivers the updates that are
-       defined on the Studio **Course Updates** page. You cannot change the
-       order of these pages.
+       building blocks to deliver the content defined by the course components
+       as well as the updates that are defined on the Studio **Course Updates**
+       page.
 
        For more information, see :ref:`partnercoursestaff:Adding Pages to a
        Course`.
@@ -180,11 +179,6 @@ Course Data Sample
              "graceperiod":"18000 seconds",
              "start":"2014-08-10T07:00:00Z",
              "tabs":[
-                {
-                   "name":"Home",
-                   "type":"course_info",
-                   "course_staff_only": false
-                },
                 {
                    "name":"Course",
                    "type":"courseware",

@@ -248,11 +248,18 @@ C
 
 .. _Course Page:
 
-**course page**
+**Course page**
 
-  The page where learners access the primary instructional materials for your
-  course. Sections, subsections, units, and components are all accessed from
-  the **Course** page. This page was formerly called the **Courseware** page.
+  The page that opens first when learners access your course. On the **Course**
+  page, learners can view the course outline and directly access the course,
+  either by clicking a specific section or subsection on the outline, or by
+  clicking the **Start Course** button (**Resume Course** if the learner has
+  previously accessed the course).
+
+  The latest course update, such as a course welcome message, appears above the
+  course outline. Links to various **Course Tools** including **Bookmarks**,
+  **Reviews** and **Updates** appear at the side of this page. This page is a
+  combination of the former **Home** and **Courseware** pages.
 
 .. _Run:
 
@@ -534,10 +541,7 @@ H
 
 **Home page**
 
-  The page that opens first every time learners access your course. You can
-  post announcements on the **Home** page. The handout navigation sidebar
-  appears at the side of this page. This page was formerly called the
-  **Course Info** page.
+  See :ref:`Course Page`.
 
 .. _HTML Component:
 

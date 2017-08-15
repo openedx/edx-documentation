@@ -12,8 +12,7 @@ assignments that you might encounter in your courses.
 
    SFD_mathformatting
    timed_exams
-   SFD_proctored_exams
-   online_proctoring_rules_students
+   proctored_exams/index
    interactive_multiple_choice
 
 .. SFD_ORA

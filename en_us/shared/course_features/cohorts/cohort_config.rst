@@ -77,8 +77,8 @@ To implement an automated assignment strategy of learners to cohorts, you
 learners to these cohorts, you do not need to take any action: the system
 automatically and randomly assigns learners to the available automatic cohorts
 when they first access any course content or divided discussions. Learners who
-access the **Home** page or other course pages such as a **Textbook** page do
-not receive a cohort assignment until they view course content or divided
+access the **Course** page or other course pages such as a **Textbook** page
+do not receive a cohort assignment until they view course content or divided
 discussions.
 
 .. note:: You can :ref:`add learners manually<Assign Learners to Cohorts Manually>`

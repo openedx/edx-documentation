@@ -417,9 +417,9 @@ interpret this message, note that:
   recipients you selected who were enrolled in the course (and had activated
   their user accounts) when you sent the email message.
 
-  Note that the **Total number of enrollees** shown on the **Home** page
-  includes all currently enrolled learners, regardless of account activation
-  status, and as a result can be different than this number.
+  Note that the **Total number of enrollees** shown in enrollment data in
+  Insights includes all currently enrolled learners, regardless of account
+  activation status, and as a result can be different than this "out of" number.
 
 If the "recipients" and "out of" numbers are the same, the message reads
 "Message successfully emailed for 13457 recipients" instead.
@@ -448,9 +448,9 @@ milestones, as models for your own course communications.
   :depth: 1
 
 These messages are styled as email messages, but you could also post this
-information in a course discussion topic or on the **Home** page. To use
+information in a course discussion topic or in a course update. To use
 :ref:`keywords <Use Keywords in Messages>`, you must send email messages;
-keywords are not supported in discussion topics or the **Home** page.
+keywords are not supported in discussion topics.
 
 .. important::
  Revise these message templates carefully to include facts for

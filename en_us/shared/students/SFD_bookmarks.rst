@@ -54,9 +54,10 @@ your bookmarks on the **My Bookmarks** page.
 To access the **My Bookmarks** page, select **Bookmarks** on the course
 page.
 
-.. image:: ../../shared/students/Images/SFD_Bkmk_BookmarksLink.png
+.. image:: ../../shared/images/SFD_BookmarksLink.png
  :width: 800
- :alt: A course page that shows a link to the My Bookmarks page.
+ :alt: On the Course page, the Bookmarks link appears under the Course Tools
+    heading in the sidebar.
 
 The **My Bookmarks** page lists all of the pages you have bookmarked in the
 course, with the most recently created ones at the top. This page includes the

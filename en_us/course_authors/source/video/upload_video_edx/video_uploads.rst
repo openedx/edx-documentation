@@ -80,7 +80,7 @@ Upload Video Files
 #. On the **Content** menu, select **Video Uploads**.
 
 #. Add video files to the **Video Uploads** page. You can drag files to the
-   page and drop them, or click **Select files** to locate the files to
+   page and drop them, or click **browse your computer** to locate the files to
    upload.
 
    A rectangular tile appears on the page for each file and shows the video

@@ -20,7 +20,6 @@ Working with the Default Pages
 
 By default, every new course has the following pages.
 
-* Home
 * Course
 * Discussion
 * Wiki
@@ -30,7 +29,7 @@ In the LMS, learners see these options in the navigation bar at the top of
 every page.
 
 .. image:: ../../../shared/images/page_bar_lms_orig.png
- :alt: The navigation bar in the LMS with all of the default pages.
+ :alt: The navigation bar in the LMS, showing the default pages.
 
 In addition, if you enable the :ref:`notes tool <Notes Tool>` for your course,
 the system adds a **Notes** page. The system also adds a page for each
@@ -38,12 +37,16 @@ the system adds a **Notes** page. The system also adds a page for each
 Studio, all of your textbooks appear in one group, but in the LMS each one
 appears as a separate page.
 
-To customize your course, you can make the following changes to pages that the
-system adds by default.
+As a course team member with the **Staff** or **Admin** role, you also see the
+**Instructor** option in the navigation bar. Learners do not see the
+**Instructor** option.
+
+To customize your course, you can make the following changes to the pages that
+the system adds by default.
 
 * You can :ref:`change the order<Reorder Pages>` in which the pages are
-  presented. The exceptions are the **Home** and **Course** pages, which are
-  always presented in the first and second positions.
+  presented, with the exception that the **Course** pages is always presented in
+  the first position.
 
 * If you do not want to use the **Wiki** or **Progress** page in your course,
   you can :ref:`hide<Show or Hide the Course Wiki Page>` one or both of them.
@@ -51,7 +54,7 @@ system adds by default.
 * If you want to change the name of a page that appears for a textbook, you
   can change the name that you entered for the textbook.
 
-You can also add custom pages.
+You can also :ref:`add custom pages<Add Page>`.
 
 .. _Add Page:
 
@@ -79,9 +82,10 @@ assigning course team roles, see :ref:`Course_Staffing`.
 Add a Custom Page
 ===================
 
-If you add a custom page to a course after its start date, the page is visible
-in the LMS as soon as you save your work. As a best practice, be sure to
-prepare the following aspects of your page design before you add a page.
+If you add a custom page to a course after its start date, and have specified
+that the page should be visible to learners, the page is visible in the LMS as
+soon as you save your work. As a best practice, be sure the following aspects
+of your page design are ready before you add a page in Studio.
 
 *  The content for the page, which can include HTML markup.
 *  The name of the page.
@@ -111,13 +115,13 @@ To add a custom page and its content to your course, follow these steps.
     version to the "smart" or "curly" version. The raw HTML editor requires
     "straight" quotation marks and apostrophes.
 
-#. To rename the page, select **Settings**, and then enter a  **Display Name**.
+#. To rename the page, select **Settings**, and then enter a **Display Name**.
    The display name is the label that course participants use in the course
    navigation bar.
 
-#. To change the audience for the page, select **Settings**, and then enter
-   **Hide Page from Learners**. By default, pages are visible to all course
-   participants.
+#. To hide the page from learners, select **Settings**, and then select
+   ``true`` for **Hide Page from Learners**. By default, pages are visible to
+   learners.
 
 #. Select **Save**.
 
