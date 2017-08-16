@@ -14,9 +14,6 @@ website.
 Changes listed for July 7, 2017 and before are included in the Ginkgo release
 of Open edX. Changes after that point will be in future Open edX releases.
 
-For information about upgrading an existing Open edX installation from the
-Ficus relesae to the Ginkgo release, see :ref:`opencoursestaff:upgrade_ficus`.
-
 .. contents::
  :depth: 1
  :local:
