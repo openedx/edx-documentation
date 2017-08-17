@@ -169,7 +169,7 @@ visible on your dashboard and on the course **Progress** page.
 ..  :alt:
 
 You can also print or share your certificate. For more information, see
-:ref:`SFD Sharing or Printing a Certificate`.
+:ref:`SFD Sharing a Certificate`.
 
 .. _Receive a Certificate for a Program:
 
