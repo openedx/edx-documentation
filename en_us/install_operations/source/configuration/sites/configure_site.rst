@@ -75,8 +75,6 @@ An example of the properties that you define to configure a site follows.
     "COURSE_ABOUT_VISIBILITY_PERMISSION":"see_about_page",
     "ENABLE_COMBINED_LOGIN_REGISTRATION":true,
     "ENABLE_PAID_COURSE_REGISTRATION":true,
-    "ENABLE_SHOPPING_CART":true,
-    "ENABLE_SHOPPING_CART_BULK_PURCHASE":false,
     "course_email_template_name":"my-site",
     "course_email_from_addr":"my-site@example.com",
     "ALLOW_AUTOMATED_SIGNUPS":true,

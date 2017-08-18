@@ -290,14 +290,19 @@ steps.
 Switch from ShoppingCart to E-Commerce
 *****************************************
 
-By default, the ShoppingCart service is enabled when you install an Open edX
-instance. To use the E-Commerce service to handle ecommerce-related tasks
-instead of ShoppingCart, follow these steps.
+.. note:: The ShoppingCart service was deprecated in the Dogwood release of
+   Open edX. Ecommerce-related tasks are now handled by the E-Commerce
+   service.
+
+If you are upgrading from an earlier version of Open edX, follow these steps
+to use the E-Commerce service for ecommerce-related tasks instead of
+ShoppingCart.
 
 #. Sign in to the Django administration console for your base URL. For example,
    ``http://{your_URL}/admin``.
 
-#. In the **Commerce** section, next to **Commerce configuration**, select **Add**. 
+#. In the **Commerce** section, next to **Commerce configuration**, select
+   **Add**.
 
 #. Select **Enabled**.
 
@@ -314,6 +319,7 @@ instead of ShoppingCart, follow these steps.
 #. Select the site for which you want to enable the E-Commerce service.
 
 #. Select **Save**.
+
 
 .. _Development Outside Devstack:
 
