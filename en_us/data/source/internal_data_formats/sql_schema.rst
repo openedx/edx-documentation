@@ -2155,16 +2155,6 @@ user_id
   The learner’s ID in ``auth_user.id``.
 
 ------------
-created
-------------
-  Time the subsection grade was first calculated for this user for this course.
-
-------------
-modified
-------------
-  Time the subsection grade was last updated for this user for this course.
-
-------------
 usage_key
 ------------
   Usage key of the subsection. (This is sometimes known as ``module_id`` or
