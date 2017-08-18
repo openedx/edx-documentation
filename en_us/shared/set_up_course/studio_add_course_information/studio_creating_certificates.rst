@@ -29,18 +29,22 @@ Overview
 Using Studio, you create and manage the certificates that learners can earn in
 your course.
 
-.. The following paragraph is for the August 8 roll-out of auto-gen certs for
-.. self-paced courses.
+By default, Studio automatically generates certificates as each learner
+passes the course for both self-paced and instructor-paced courses.
 
-By default, Studio automatically generates certificates for self-paced courses. For instructor-paced courses, course teams work with their edX partner manager to generate and distribute certificates.
+* For self-paced courses, certificates are available immediately after Studio
+  generates them.
+* For instructor-paced courses, certificates become available 48 hours after
+  your course end date by default. You can also specify a different date to
+  make certificates available. For more information, see :ref:`Specify an
+  Alternative Certificates Available Date`.
 
-.. The following paragraph is for the August 22 roll-out of auto-gen certs for
-.. instructor-paced courses.
+.. After EDUCATOR-1101 merges (around 8/25), change "the learner dashboard and
+.. the **Progress** page" to "the learner dashboard, the **Course** page, and
+.. the **Progress** page".
 
-.. By default, Studio automatically generates certificates as each learner
-.. passes the course, and certificates become available to learners 48 hours
-.. after your course end date. You can also specify a different date to make
-.. certificates available.
+When certificates become available to learners, a link to the certificate is
+visible on the learner dashboard and the **Progress** page.
 
 For more information about issuing certificates, see :ref:`Issuing
 Certificates`.
@@ -213,24 +217,21 @@ example, the official course number is meaningful only within your institution.
 
    A message lets you know whether your changes were saved successfully.
 
-.. Un-comment the following section when this feature becomes live (scheduled
-.. for August 22, 2017).
+.. _Specify an Alternative Certificates Available Date:
 
-.. .. _Specify an Alternative Certificates Available Date:
+****************************************************
+Specify a Different Certificates Available Date
+****************************************************
 
-.. ****************************************************
-.. Specify a Different Certificates Available Date
-.. ****************************************************
+By default, certificates become available to learners 48 hours after your
+course ends. You can also specify a different date to make certificates
+available.
 
-.. By default, Studio generates certificates 48 hours after your course ends.
-.. If you want Studio to generate on a different date, you can specify the date
-.. you want in Studio.
-
-.. #. In Studio, open your course.
-.. #. On the **Settings** menu, select **Schedule & Details**.
-.. #. In the **Course Schedule** section, enter the date and time when you want
-..    to issue certificates in the **Certificates Available Date** and
-..    **Certificates Available Time** fields.
+#. In Studio, open your course.
+#. On the **Settings** menu, select **Schedule & Details**.
+#. In the **Course Schedule** section, enter the date and time when you want to
+   issue certificates in the **Certificates Available Date** and **Certificates
+   Available Time** fields.
 
 .. _Delete a Certificate:
 
@@ -322,14 +323,11 @@ deactivate the certificate to make changes.
 As a best practice, do not make changes to certificates in a running course if
 the course has already issued certificates to learners.
 
-A course team member with the Admin or Staff role can deactivate the
-certificate.
+To deactivate a certificate, follow these steps.
 
 .. note::
-  Course team members without the Admin or Staff role cannot deactivate a
+  Only course team members that have the Admin or Staff role can deactivate a
   certificate.
-
-To deactivate a certificate, follow these steps.
 
 #. Make sure that you have the Admin or Staff role for the course. For more
    information, see :ref:`Course_Staffing`.

@@ -50,67 +50,52 @@ Issuing Certificates
    :ref:`installation:Enable Certificates` in *Installing, Configuring, and
    Running the Open edX Platform*.
 
-.. The following paragraphs are for the roll-out of self-paced auto-gen
-.. certificates on August 8, 2017.
+.. After EDUCATOR-1101 merges (around 8/25), change "the learner dashboard and
+.. the **Progress** page" to "the learner dashboard, the **Course** page, and
+.. the **Progress** page".
 
-For instructor-paced courses, course teams work with edX to generate and
-distribute certificates. For more information, contact your edX partner
-manager.
+Studio automatically generates certificates for both self-paced courses and
+instructor-paced courses. When certificates become available, options for
+learners to view their certificates are available on the learner dashboard and
+the course **Progress** page.
 
-For self-paced courses, Studio automatically generates certificates. for
-learners when they have completed enough of the course, and with a high enough
-grade, to qualify for a certificate. After Studio generates certificates, a
-**View Certificate** option is visible to learners on the learner dashboard.
+You can specify when you want to make certificates available.
 
-If you want Studio to generate certificates only after learners have
-completed the course, you can disable this feature. For more information, see
-:ref:`Allow Learners to Receive Early Certificates`.
+* For self-paced courses, by default, Studio generates certificates for
+  learners when they have completed enough of the course, and with a high
+  enough grade, to qualify for a certificate.
 
-.. The following paragraphs are for the roll-out of instructor-paced auto-gen
-.. certificates on August 22, 2017.
+  If you want Studio to generate certificates only after learners have
+  completed the course, you can disable this feature. For more information,
+  see :ref:`Allow Learners to Receive Early Certificates`.
 
-.. Studio automatically generates certificates for both self-paced courses and
-.. instructor-paced courses. After Studio generates certificates, options for
-.. learners to view their certificates are available on the learner dashboard,
-.. the **Course** page, and the course **Progress** page.
+* For instructor-paced courses, three options are available.
 
-.. You can specify when you want Studio to generate certificates.
+ * By default, certificates become available to learners 48
+   hours after your course end date. If you change your course end date,
+   Studio automatically adjusts the date for certificates as well.
 
-.. * For self-paced courses, by default, Studio generates certificates for
-..   learners when they have completed enough of the course, and with a high
-..   enough grade, to qualify for a certificate.
+ * You can specify a different date to make certificates available. For more
+   information, see :ref:`Specify an Alternative Certificates Available
+   Date`.
 
-..   If you want Studio to generate certificates only after learners have
-..   completed the course, you can disable this feature. For more information,
-..   see :ref:`Allow Learners to Receive Early Certificates`.
+ * You can allow learners to receive their certificates when they have
+   completed enough of the course, and with a high enough grade, to qualify
+   for a certificate. For more information, see :ref:`Allow Learners to
+   Receive Early Certificates`.
 
-.. * For instructor-paced courses, three options are available.
+.. _Issue Certificates on a Specified Date:
 
-..  * By default, Studio automatically generates certificates for learners 48
-..    hours after your course end date. If you change your course end date,
-..    Studio automatically adjusts the date for certificates as well.
+======================================
+Issue Certificates on a Specified Date
+======================================
 
-..  * You can specify a different date to make certificates available. For more
-..    information, see :ref:`Specify an Alternative Certificates Available
-..    Date`.
+If you do not want Studio to generate certificates 48 hours after the course
+end date, you can specify the date when you want Studio to generate
+certificates. You can change this date at any time.
 
-..  * You can allow learners to receive their certificates when they have
-..    completed enough of the course, and with a high enough grade, to qualify
-..    for a certificate. For more information, see :ref:`Allow Learners to
-..    Receive Early Certificates`.
-
-.. .. _Issue Certificates on a Specified Date:
-
-.. ======================================
-.. Issue Certificates on a Specified Date
-.. ======================================
-
-.. If you do not want Studio to generate certificates 48 hours after the course
-.. end date, you can specify the date when you want Studio to generate
-.. certificates. You can change this date at any time.
-
-.. For more information about how to specify a day to issue certificates, see
-.. :ref:`Specify an Alternative Certificates Available Date`.
+For more information about how to specify a day to issue certificates, see
+:ref:`Specify an Alternative Certificates Available Date`.
 
 .. _Allow Learners to Receive Early Certificates:
 
@@ -152,3 +137,6 @@ To allow learners to download early certificates, you modify the
    Be sure that you include the double quotation marks.
 
 #. Select **Save Changes**.
+
+
+
