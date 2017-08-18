@@ -129,32 +129,34 @@ media sites such as Facebook and Twitter.
 Adding Profile Information
 ***************************
 
-Your personal profile allows you to specify information about yourself that you
-want to share  with other participants in the courses that you take. Adding a
-profile is optional. If you add profile information, course teams and other
-learners in your courses can view the information that you share.
+Your personal profile allows you to optionally share information about yourself
+with other participants in the courses that you take. If you choose to add
+profile information, course teams and other learners in your courses can view
+the information that you share.
 
-In addition to your username, your profile can include a picture, your
-location, and other biographical information.
+In addition to your username, your profile can include a profile image, your
+location, your language, and other information about yourself.
 
 You can share either a limited profile or a full profile.
 
-* A limited profile shares only your username and an optional profile picture.
+  .. note:: If you are under 13 years of age, your limited profile only
+     includes your username. You cannot add a profile picture.
 
-  .. note:: If you are under 13 years of age, you can only share a limited
-     profile. You cannot share a profile picture.
+* A limited profile shares only your username. You can also add a profile
+  picture, if you are over 13 years of age.
 
-   .. image:: ../../shared/images/SFD_Prof_Limited.png
-     :width: 400
-     :alt: A learner's limited profile showing only username and image.
+  .. image:: ../../shared/images/SFD_Profile_Limited.png
+    :width: 500
+    :alt: A learner's limited profile showing only username and image.
 
 * A full profile includes biographical information in addition to your username
   and profile image.
 
-  .. image:: ../../shared/images/SFD_Prof_Full.png
+  .. image:: ../../shared/images/SFD_Profile_Full.png
     :width: 500
-    :alt: A learner's full profile with location, language, and short
-     biographical paragraph.
+    :alt: A learner's full profile shows location, language, and short
+     biographical paragraph in addition to username and image.
+
 
 .. _Create or Edit a Limited Profile:
 
@@ -170,12 +172,10 @@ A limited profile includes only your username and, optionally, an image.
 To add or update a limited profile, follow these steps.
 
 
-#. At the top of any page, select the dropdown menu icon next to your
-   username.
+#. At the top of any page, select **Profile** from the dropdown menu icon next
+   to your username.
 
-#. Select **Profile**.
-
-#. On your profile page, locate **learners can see my**, and then select
+#. In the header area of your profile page, for **Profile Visibility**, select
    **Limited Profile**.
 
 #. (optional) Add an image that you want to associate with your username.
@@ -183,77 +183,78 @@ To add or update a limited profile, follow these steps.
    100 bytes and 1 MB in size. If you do not add an image, the placeholder
    image appears as your profile image.
 
-   #. Move your cursor over the placeholder image, and then select **Upload
-      Image**.
+   #. Move your cursor over the placeholder image, and click **Upload an
+      image**.
 
-   #. In the dialog box, select the image file that you want, and then select
-      **Open**.
+      .. image:: ../../shared/images/SFD_Profile_UploadImage.png
+       :width: 250
+       :alt: A profile with the image upload area selected.
+
+   #. In the file navigation window, select the image file that you want to
+      use as your profile image, and then click **Open**.
 
    To change or remove your profile image, move your cursor over your image,
-   and then select either **Change Image** or **Remove**. When you remove your
+   and then select either **Change image** or **Remove**. When you remove your
    profile image, the placeholder image appears as your profile image.
 
 The site saves your changes automatically.
+
 
 ================================
 Add or Update a Full Profile
 ================================
 
 .. note:: You must specify your year of birth on the **Account Settings** page
-   before you share a full profile. If you are under 13 years of age, you
+   before you can share a full profile. If you are under 13 years of age, you
    can share only a :ref:`limited profile <Create or Edit a Limited Profile>`.
 
-A full profile can include the following information. Your username and
-country or region are required.
+If you create a full profile, you can choose to share the following
+information in addition to your username and profile image.
 
-* Your username.
+* Your location.
 
-* An image that you select to identify yourself.
-
-* Your country or region.
-
-* Your preferred language.
+* Your language.
 
 * A paragraph about yourself. You might include your interests, goals, or
   other information that you want to share. This paragraph can contain up to
-  3000 characters.
+  300 characters.
 
 To add or update your profile, follow these steps.
 
-#. At the top of any page, select the dropdown menu icon next to your
-   username.
+#. At the top of any page, select **Profile** from the dropdown menu icon next
+   to your username.
 
-#. Select **Profile**.
+#. In the header area of your profile page, for **Profile Visibility**, select
+   **Full Profile**.
 
-#. Locate **learners can see my**, and then select **Full Profile**.
+#. (optional) Add a profile image.
 
-#. On your profile page, move your cursor over the information that you
-   want to add or change.
+   Your image must be a .gif, .jpg, or .png file that is less than 1 MB in
+   size. If you do not add an image, the placeholder image appears as your
+   profile image.
 
-   If you have not added information to the field, the field appears
-   highlighted and surrounded by a dashed line.
+   #. Move your cursor over the placeholder image, and click **Upload an
+      image**.
 
-   .. image:: ../../shared/images/SFD_Prof_Add_Info.png
-    :width: 300
-    :alt: A profile page with the "Add language" field highlighted and
-        surrounded by a dashed line.
+   #. In the file navigation window, select the image file that you want to
+      use as your profile image, and then click **Open**.
 
-   If the field already has information, the field appears highlighted, and a
-   pencil icon appears.
+   To change or remove your profile image, move your cursor over your image,
+   and then select either **Change image** or **Remove**. When you remove your
+   profile image, the placeholder image appears as your profile image.
 
-   .. image:: ../../shared/images/SFD_Prof_Edit_Info.png
-    :width: 500
-    :alt: A profile page with the "About Me" field highlighted.
+#. On your profile page, move your cursor over the information that you want
+   to change.
 
-#. Move your cursor inside the field, and then either enter text in the field
-   or select a different option from a list.
+#. Click inside the field to choose an option from the list, or enter text.
 
 The site saves your changes automatically.
 
-.. note:: If you change the profile type selection from **Full Profile**
- to **Limited Profile**, your location, language, and descriptive paragraph
- are not visible on your profile page. However, this information is saved. To
- make this information visible again, select **Full Profile**.
+.. note:: If you change your profile type from **Full Profile** to **Limited
+   Profile**, your location, language, and descriptive paragraph are no longer
+   visible on your profile page. However, this information is saved, and
+   becomes visible again to other learners and course teams if you change your
+   profile back to **Full Profile**.
 
 
 ================================
