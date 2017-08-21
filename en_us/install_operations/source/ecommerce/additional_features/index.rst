@@ -14,6 +14,7 @@ data if one of your usual processors is unavailable.
 
    send_notifications
    change_processors
+   apple_pay
    track_data
    gate_ecommerce
    maintain_ecommerce

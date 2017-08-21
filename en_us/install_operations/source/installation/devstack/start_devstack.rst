@@ -45,6 +45,8 @@ Starting the Components
 After you connect to the devstack virtual machine as the **edxapp** user, you
 can start the individual components.
 
+.. _Start the LMS:
+
 ================
 Starting the LMS
 ================
@@ -77,6 +79,9 @@ To run the LMS on devstack, follow these steps.
 #. Open the LMS in your browser at ``http://localhost:8000/``.
 
    Vagrant forwards port 8000 to the LMS server running in the virtual machine.
+
+
+.. _Start Studio:
 
 ===============
 Starting Studio
@@ -122,6 +127,9 @@ To view all available commands for Studio, enter the following command.
 .. code-block:: bash
 
   ./manage.py cms -h --settings=devstack
+
+
+.. _Start Course Discussions:
 
 =================================
 Starting Course Discussions

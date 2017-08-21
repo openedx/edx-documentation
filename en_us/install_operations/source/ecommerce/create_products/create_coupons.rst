@@ -29,8 +29,8 @@ Creating a coupon code has several steps.
    :local:
 
 You create coupons and their associated discount or enrollment codes on the
-**Create New Coupon** page in the coupon administration tool, which is located
-at ``http://localhost:8002/coupons/``. In the tool, you enter basic
+**Create New Coupon** page in the E-Commerce Coupon Administration tool, which
+is located at ``http://localhost:8002/coupons/``. In the tool, you enter basic
 information and select the options for your coupon.
 
 .. _Enter Basic Coupon Information:
@@ -42,11 +42,15 @@ Enter Basic Information
 Each coupon requires some basic information. To enter basic information for
 your coupon, follow these steps.
 
-#. Follow the steps in :ref:`Create Products Overview` to start your E-Commerce
-   server.
+#. Start the E-Commerce Service on your site. For details, see :ref:`Start
+   ECommerce Service`.
+
 #. In a browser on your E-Commerce server, go to
-   ``http://localhost:8002/coupons/`` to open the coupon administration tool,
-   and then select **Create Coupon**.
+   ``http://localhost:8002/coupons/`` to access the E-Commerce Coupon
+   Administration tool.
+
+#. On the **Coupon Codes** page, select **Create Coupon**.
+
 #. On the **Create New Coupon** page, enter the following information.
 
    * **Coupon Name**: The name you want to give the coupon, such as "January
@@ -265,20 +269,22 @@ To specify usage limitations, follow these steps.
      you create enough discount or enrollment codes so that each person receives
      one code.
 
-   * **Can be used once by multiple customers** or **Can be used multiple times
-     by multiple customers**
+   * **Can be used once by multiple customers** or
+   * **Can be used multiple times by multiple customers**
 
-     If you select one of these options, the **Maximum Number of Usages** field
-     is visible. In this field, specify the number of times customers can use
-     the coupon code.
+     If you select one of these options, the **Maximum Number of Uses** field is
+     visible. In this field, specify the number of times customers can use the
+     coupon code.
 
-     For example, if you want to create a coupon code that is available for 10
-     different customers, and each customer can use the code only one time,
-     enter **10** for **Can be used once by multiple customers**.
+     For example, if you want to create a single coupon code that is available
+     for use by 10 different customers, and each customer can use the code
+     only one time, select **Can be used once by multiple customers** , ``1``
+     for **Number of Codes**, and ``10`` for **Maximum Number of Uses**.
 
-     If you want to create a coupon code that is available for 10 uses, whether
-     by one customer or multiple customers, enter **10** for **Can be used
-     multiple times by multiple customers**.
+     If you want to create a coupon code that is available for 10 uses,
+     whether by one customer or multiple customers, select **Can be used
+     multiple times by multiple customers**, ``1`` for **Number of Codes**,
+     and ``10`` for **Maximum Number of Uses**.
 
 After you specify usage limitations, you must specify invoicing options for
 your coupon.
@@ -374,7 +380,7 @@ The .csv file for your coupon lists the following information.
      - The number of times that the discount code or enrollment code that is
        associated with the coupon can be used. For single-use coupons, this
        value is 1. For multi-use coupons, this is the value that you specified
-       in the **Maximum Number of Usages** field.
+       in the **Maximum Number of Uses** field.
    * - **Redemption Count**
      - The number of times the coupon has been redeemed. The initial value is
        0, and the value is incremented each time that a discount code or
@@ -453,7 +459,7 @@ You edit a coupon by using the coupon administration tool.
  * **Single course** or **Multiple courses**
  * **Seat Type**
  * **Usage Limitations**
- * **Number of Codes** or **Maximum Number of Usages**
+ * **Number of Codes** or **Maximum Number of Uses**
 
 #. In your browser, go to ``http://localhost:8002/coupons/`` to open the coupon
    administration tool.

@@ -33,7 +33,7 @@ files are located one level above the ``edx- platform`` directory.
 
 To add custom fields to the registration page, follow these steps.
 
-#. Start the LMS and sign in to your instance of Open edX.
+#. :ref:`Start the LMS<Start the LMS>` and sign in to your instance of Open edX.
 
 #. Use Python to create a Django form that contains the fields that you want to
    add to the page, and then create a Django model to store the information

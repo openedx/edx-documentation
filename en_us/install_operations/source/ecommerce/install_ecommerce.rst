@@ -85,7 +85,7 @@ Create and Register a Client
 
 To create and register a new OIDC client, follow these steps.
 
-#. Start the LMS.
+#. :ref:`Start the LMS<Start the LMS>`.
 #. In your browser, go to ``http://127.0.0.1:8000/admin/oauth2/client/``.
 #. Select **Add client**.
 #. Leave the **User** field blank.
@@ -152,6 +152,13 @@ OIDC client's settings, as follows.
      - OIDC ID token decryption key, used to validate the ID
        token
      - The same value as ``SOCIAL_AUTH_EDX_OIDC_SECRET``.
+   * - ``SOCIAL_AUTH_EDX_OIDC_ISSUER``
+     - OIDC ID token issuer
+     - For example, ``http://127.0.0.1:8000/oauth2``.
+   * - ``SOCIAL_AUTH_EDX_OIDC_LOGOUT_URL``
+     - User logout URL
+     - For example, ``http://127.0.0.1:8000/logout``.
+
 
 To configure your default site, partner, and site configuration, use the
 appropriate settings module for your environment
@@ -286,8 +293,9 @@ steps.
 
    .. note::
      If you use a different port, make sure you update the OIDC client by using
-     the Django administration panel in the LMS. For more information about
+     the LMS Django Administration site. For more information about
      configuring the OIDC client, see :ref:`Configure OIDC`.
+
 
 *****************************************
 Switch from ShoppingCart to E-Commerce
@@ -301,7 +309,7 @@ If you are upgrading from an earlier version of Open edX, follow these steps
 to use the E-Commerce service for ecommerce-related tasks instead of
 ShoppingCart.
 
-#. Sign in to the Django administration console for your base URL. For example,
+#. Sign in to the LMS Administration Django site for your base URL. For example,
    ``http://{your_URL}/admin``.
 
 #. In the **Commerce** section, next to **Commerce configuration**, select

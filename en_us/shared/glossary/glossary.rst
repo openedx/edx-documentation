@@ -834,6 +834,27 @@ P
   Components` and :ref:`partnercoursestaff:Exercises and Tools Index`.
 
 
+.. _Program:
+
+**program**
+
+  A program is a collection of related courses. Learners enroll in a program by
+  enrolling in any course that is part of a program, and earn a program
+  certificate by passing each of the courses in the program with a grade that
+  qualifies them for a verified certificate.
+
+  Several types of program are available on edx.org, including MicroMasters,
+  Professional Certificate, and XSeries programs.
+
+
+.. _Program Offer:
+
+**program offer**
+
+  A program offer is a discount offered for a specific program. The discount
+  can be either a percentage amount or an absolute (dollar) amount.
+
+
 .. _Progress Page:
 
 **Progress page**

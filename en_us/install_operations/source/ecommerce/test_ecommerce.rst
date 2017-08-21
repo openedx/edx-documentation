@@ -110,8 +110,7 @@ these tests, place your tests in the ``ecommerce/static/js/test/specs``
 directory, and add a ``_spec`` suffix. For example, your test name may be
 ``ecommerce/static/js/test/specs/course_list_view_spec.js``.
 
-All JavaScript code must adhere to the `edX JavaScript Style Guide`_. These
-standards are enforced using `JSHint`_ and `jscs`_.
+All JavaScript code must adhere to standards outlined in the `edX JavaScript Style Guide`_. These standards are enforced using `ESLint`_.
 
 * To run all JavaScript unit tests and linting checks, run the following
   command.
@@ -167,7 +166,7 @@ To configure the LMS, follow these steps.
 #. Verify that the following settings in ``/edx/app/edxapp/lms.auth.json`` are
    correct. ::
 
-       "ECOMMERCE_API_SIGNING_KEY": "lms-secret" // Must match the E-Commerce JWT_SECRET_KEY setting
+       "ECOMMERCE_API_SIGNING_KEY": "insecure-secret-key" // Must match the E-Commerce JWT_SECRET_KEY setting
        "EDX_API_KEY": "PUT_YOUR_API_KEY_HERE" // Must match the E-Commerce EDX_API_KEY setting
 
 #. Verify that an LMS account with staff and superuser permissions exists.
@@ -183,19 +182,27 @@ To configure the LMS, follow these steps.
        cd ~/edx-platform
        ./manage.py lms set_superuser staff --settings=devstack
 
-#. Start the LMS.
 
-   .. code:: sh
+   .. the ecomm version has these commands for granting superuser permissions
+   .. to the account:
 
-       cd ~/edx-platform
-       paver devstack lms
+      ..  ./manage.py lms shell --settings=devstack
+          from django.contrib.aut.models import User
+          u = User.objects.get(username-'staff')
+          u. is_superuser = True
+          u.save()
 
-#. Navigate to the Oauth2 Clients section of the Django administration console
+#. :ref:`Start the LMS<Start the LMS>`.
+
+
+#. Navigate to the OAuth2 Clients section of the Django administration console
    (e.g. http://localhost:8000/admin/oauth2/client/). Sign in using the
    superuser account you created earlier.
 
    Verify that an OAuth2 client with the following attributes exists.  If one
-   does not already exist, :ref:`create a new one <Create Register Client>`.
+   does not already exist, :ref:`create a new OAuth 2 client <Create Register
+   Client>`.
+
    The client ID and secret must match the values of the E-Commerce
    ``SOCIAL_AUTH_EDX_OIDC_KEY`` and ``SOCIAL_AUTH_EDX_OIDC_SECRET`` settings,
    respectively. ::
@@ -209,8 +216,7 @@ To configure the LMS, follow these steps.
        Logout url: http://localhost:8002/logout/
 
 #. Navigate to the Edx\_Oauth2\_Provider Trusted clients section of the Django
-   administration console (e.g.
-   http://localhost:8000/admin/edx_oauth2_provider/trustedclient/).
+   administration console (http://localhost:8000/admin/edx_oauth2_provider/trustedclient/).
 
    Verify that the OAuth2 client referred to above is designated as a
    trusted client (look for the Redirect URI). If this isn't already
@@ -221,17 +227,16 @@ To configure the LMS, follow these steps.
    to above. Make note of this token; it is required to run the
    acceptance tests.
 
-#. Make sure that the LMS instance that you will use for testing has at
-   least two courses that learners could enroll in. By default, most
-   LMS instances include the edX demonstration course. Use Studio to
-   create a second course.
+#. Make sure that the LMS instance that you will use for testing has at least
+   two courses that learners can enroll in. By default, most LMS instances
+   include the edX demonstration course. Use Studio to create a second course.
 
 
 Configure E-Commerce
 ********************
 
-You use the Course Administration Tool ("CAT") to finish configuring the
-two courses in your LMS instance.
+You use the E-Commerce Course Administration Tool ("ECAT") to finish
+configuring the two courses in your LMS instance.
 
 #. Become the ``ecommerce`` user.
 
@@ -287,11 +292,15 @@ two courses in your LMS instance.
        ./manage.py runserver 0.0.0.0:8002
 
 #. Get the course key from the LMS by navigating to a course and examining its
-   URL. It should look something like ``course-v1:edX+DemoX+Demo_Course``.
+   URL. The course key should look something like
+   ``course-v1:edX+DemoX+Demo_Course``.
 
-#. Navigate to the E-Commerce Courses section (e.g.
-   http://localhost:8002/courses/) and add a new course. Leave the default
-   values in all fields, with the exception of the following.
+#. Navigate to the E-Commerce Courses page (http://localhost:8002/courses/) to
+   add the two test courses that are on your LMS instance to E-Commerce. Configure
+   one course as a "Free (Audit)" course, and the second as a "Verified" course.
+
+#. To configure the "Verified" course, click **Add New Course**. Leave the
+   default values in all fields, with the exception of the following fields.
 
    ::
 
@@ -301,16 +310,16 @@ two courses in your LMS instance.
        Include Honor Seat: No
 
 #. Navigate to the learner dashboard (e.g. http://localhost:8000/dashboard) and
-   verify the course you added in E-Commerce now has a green "Upgrade to
+   confirm that the course you added in E-Commerce now has a green "Upgrade to
    Verified" badge, which you can select.
 
-#. In the CAT, add the second course on your LMS instance to E-Commerce.
-   Configure it as a "Free (Audit)" course.
+#. In the ECAT, add the second course on your LMS instance to E-Commerce.
+   Specify its course type as ``Free (Audit)``.
 
-#. So that you can test integration with external payment processors, update
-   the contents of the ``PAYMENT_PROCESSOR_CONFIG`` dictionary found in the
-   settings with valid credentials. To override the default values for
-   development, create a private settings module, ``private.py``, and set
+#. To test integration with external payment processors, update the contents
+   of the ``PAYMENT_PROCESSOR_CONFIG`` dictionary found in the settings with
+   valid credentials. To override the default values for development, create a
+   private settings module, ``private.py``, and set
    ``PAYMENT_PROCESSOR_CONFIG`` inside the module.
 
    .. note::
@@ -324,10 +333,13 @@ two courses in your LMS instance.
 Configure Acceptance Tests
 *********************************
 
-You configure acceptance tests by using the settings in the
-``e2e/config.py`` file. You can use the
-default values for most settings in this file. However, you must specify values
-for the following settings by using environment variables.
+You configure acceptance tests by using the settings in the ``e2e/config.py``
+file. You can use the default values for most settings in this file. However,
+for the following settings, you must specify values using environment
+variables.
+
+  .. ecomm version has this file path instead:
+  .. ecommerce/blobmaster/acceptance_tests/config.py
 
 .. list-table::
  :widths: 30 60
@@ -367,8 +379,11 @@ settings by using environment variables.
 Run Acceptance Tests
 ******************************
 
-Run all acceptance tests by executing ``make e2e``. To run a specific test,
-execute the following command.
+Run all acceptance tests by executing ``make e2e``.
+
+  .. ecomm version has ``make accept``?
+
+To run a specific test, execute the following command.
 
 .. code-block:: bash
 
