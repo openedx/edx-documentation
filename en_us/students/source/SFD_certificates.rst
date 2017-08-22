@@ -122,8 +122,9 @@ see :ref:`Receive a Certificate for a Program`.
 Receiving a Certificate
 ***********************
 
-You receive both course and program certificates automatically. You do not have
-to do anything to receive a certificate.
+You receive both course and program certificates automatically. After you earn
+a passing grade in your course, you do not have to do anything to receive a
+certificate.
 
 For information about when certificates become available, see the following
 sections.
@@ -135,38 +136,35 @@ Receiving a Certificate for a Course
 You can access a :ref:`verified certificate<SFD Verified Certificates>` as soon
 as course certificates become available.
 
-.. The following bullet will be true until auto-generated certificates are
-.. implemented in instructor-paced courses, scheduled for August 22, 2017.
-
 * For :ref:`instructor-paced courses<SFD Instructor Paced>`, certificates
-  usually become available two weeks or less after the course end date.
+  usually become available approximately two weeks after the course end date.
 
-.. The following will be true after auto-gen certificates are implemented,
-.. scheduled for August 22, 2017.
+.. The following will be true after EDUCATOR-1101 merges (around 8/25).
 
 .. * For :ref:`instructor-paced courses<SFD Instructor Paced>`, the date when
-..   certificates will become available is visible under **Certificate
-..   Available Date** on the **Course** page.
+..   certificates will become available is visible under **Certificate Available
+..   Date** on the **Course** page. Usually, certificates will be available 48
+..   hours after the course end date.
 
 * For most :ref:`self-paced courses<SFD Self Paced>`, your certificate becomes
   available when you complete enough of the course, with a high enough grade,
   to qualify for a certificate.
 
-When your course certificate becomes available, a **View Certificate** link is
-visible on your dashboard and on the course **Progress** page.
+.. After EDUCATOR-1101 merges (around 8/25), change "the learner dashboard and
+.. the **Progress** page" to "the learner dashboard, the **Course** page, and
+.. the **Progress** page".
 
-.. The following should be true sometime after August 8. Currently,
-.. certificates do not appear to be available on the **Course** page.
+When your course certificate becomes available, **View Certificate** options
+are visible on your dashboard and the course **Progress** page. Select **View
+Certificate** to open the certificate in your browser.
 
-.. When your course certificate becomes available, **View Certificate** links
-.. are visible on your dashboard, the **Course** page, and the **Progress**
-.. page. Select **View Certificate** to open the certificate in your browser.
+.. After EDUCATOR-1101 merges (around 8/25), add the Course page to the
+.. following image.
 
-.. TO DO: Create screen shot when "View Certificate" links are available in all
-.. three locations.
-.. image ../../shared/students/Images/************.png
-..  :width:
-..  :alt:
+.. image:: ../../shared/images/Dash_Prog_VC.png
+  :width: 600
+  :alt: The dashboard and the top of a Progress page, each with a call-out for
+      the View Certificate button.
 
 You can also print or share your certificate. For more information, see
 :ref:`SFD Sharing a Certificate`.

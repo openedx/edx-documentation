@@ -79,7 +79,9 @@ Generate a Grade Report for All Learners in a Course
 ****************************************************
 
 For any course, you can generate grades and then download a file with the
-results for all learners in the course, including unenrolled learners.
+results for all learners in the course, including unenrolled learners. EdX
+recommends that you generate a grade report as soon as certificates have been
+issued for your course.
 
 When you initiate calculations to grade learner work, a process starts on the
 edX servers. The complexity of your grading configuration and the number of
@@ -94,9 +96,10 @@ review learner grades on the instructor dashboard. For more information, see
 To generate and download the grade report for the learners in your course,
 follow these steps.
 
-.. important:: Because the grade report file contains confidential, personally
-   identifiable data, be sure to follow your institution's data stewardship
-   policies when you open or save this file.
+.. important::
+   Because the grade report file contains confidential, personally identifiable
+   data, be sure to follow your institution's data stewardship policies when
+   you open or save this file.
 
 #. View the live version of your course.
 
@@ -123,11 +126,12 @@ follow these steps.
    You can open .csv files in a spreadsheet application to sort, graph, and
    compare data.
 
-.. note:: To prevent the accidental distribution of learner data, you can
-   download grade report files only by selecting the links on this page. Do not
-   copy these links for reuse elsewhere, as they expire within 5 minutes. The
-   links on this page also expire if the page is open for more than 5 minutes.
-   If necessary, refresh the page to generate new links.
+.. note::
+   To prevent the accidental distribution of learner data, you can download
+   grade report files only by selecting the links on this page. Do not copy
+   these links for reuse elsewhere, as they expire within 5 minutes. The links
+   on this page also expire if the page is open for more than 5 minutes. If
+   necessary, refresh the page to generate new links.
 
 .. _Interpret the Grade Report:
 
@@ -418,6 +422,8 @@ grade report, the total score appears before the individual assignment scores.
 .. contents::
  :local:
  :depth: 1
+
+.. _View a Specific Learners Progress Page:
 
 =======================================
 View a Specific Learner's Progress Page
