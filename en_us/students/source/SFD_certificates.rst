@@ -136,15 +136,10 @@ Receiving a Certificate for a Course
 You can access a :ref:`verified certificate<SFD Verified Certificates>` as soon
 as course certificates become available.
 
-* For :ref:`instructor-paced courses<SFD Instructor Paced>`, certificates
-  usually become available approximately two weeks after the course end date.
-
-.. The following will be true after EDUCATOR-1101 merges (around 8/25).
-
-.. * For :ref:`instructor-paced courses<SFD Instructor Paced>`, the date when
-..   certificates will become available is visible under **Certificate Available
-..   Date** on the **Course** page. Usually, certificates will be available 48
-..   hours after the course end date.
+* For :ref:`instructor-paced courses<SFD Instructor Paced>`, the date when
+  certificates will become available is visible under **Certificate Available**
+  in the right pane on the **Course** page. Usually, certificates will be
+  available 48 hours after the course end date.
 
 * For most :ref:`self-paced courses<SFD Self Paced>`, your certificate becomes
   available when you complete enough of the course, with a high enough grade,
