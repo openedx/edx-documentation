@@ -49,8 +49,8 @@ Building and Running an Open edX Course
 * The new :ref:`opencoursestaff:Setting Up Certificates` section
   describes how you configure certificates for a course in Studio.
 
-* The new :ref:`opencoursestaff:Manage Course Fees` section describes
-  configuration and management of fees for paid courses.
+* The new "Manage Course Fees" section describes configuration and management of
+  fees for paid courses.
 
 * The "Creating Exercises and Tools" section now includes a list of the
   :ref:`opencoursestaff:Mobile-Ready Problem Types` that learners can complete
