@@ -292,7 +292,7 @@ View the Proctored Session Results Report
 =========================================
 
 #. Download and open the :ref:`Proctored Session Results report<Viewing
-   Proctored Session Results>.
+   Proctored Session Results>`.
 #. In the row for the learner, check the ``status`` column.
 
    * If the value in the column is "verified", the learner passed the review.
