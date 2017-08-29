@@ -16,6 +16,7 @@ use the E-Commerce service with the Open edX platform.
    install_ecommerce
    manage_assets
    create_products/index
+   enable_receipt_page
    manage_orders
    test_features
    test_ecommerce
