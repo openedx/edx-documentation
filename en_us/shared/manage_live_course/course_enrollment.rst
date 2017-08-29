@@ -141,11 +141,12 @@ For more information, see :ref:`Student Data`.
 .. only:: Open_edX
 
   .. note:: If your course has a fee, and an organization wants to purchase
-    enrollment for multiple seats in your course at one time, you can create
-    enrollment codes for the organization. The organization then distributes
-    these enrollment codes to its learners to simplify the enrollment process.
-    You can also create coupon codes to give learners a discount when they
-    enroll in your course. For more information, see :ref:`Manage Course Fees`.
+     enrollment for multiple seats in your course at one time, you can create
+     enrollment codes for the organization. The organization then distributes
+     these enrollment codes to its learners to simplify the enrollment process.
+     You can also create coupon codes to give learners a discount when they
+     enroll in your course. For more information, see :ref:`installation:Enable
+     and Create Enrollment Codes`.
 
   .. include:: ../../../shared/manage_live_course/Section_view_enrollment_count.rst
 
