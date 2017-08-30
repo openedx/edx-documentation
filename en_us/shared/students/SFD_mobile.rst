@@ -95,15 +95,15 @@ complete an entire course, you use a web browser on a computer.
 
  When you create an account, you are asked for the following information.
 
- * Your full name.
+ * Your full name. This name is used on certificates that you earn and is
+   shown on your edX profile if you share a full profile.
  * The username that will identify you to course teams and to other learners.
  * A password.
- * Your country or region.
+ * The country or region that you live in.
 
  .. note:: When you register an account, you specify a username that will
-    represent you on edX. Your username, not your full name, is used to identify
-    you to course team members and other learners. Your full name is used on any
-    certificates that you earn. You cannot change your public username after you
+    represent you on edX. Your username is used to identify you to course team
+    members and other learners. You cannot change your public username after you
     register. EdX recommends that you select your username carefully.
 
 
@@ -117,27 +117,16 @@ complete an entire course, you use a web browser on a computer.
  your profile when they select your linked username in forums. You can share
  either a limited profile or a full profile.
 
- Your profile always includes your username. A limited profile shares only your
- username and an optional profile picture. A full profile includes biographical
- information in addition to your username and profile image.
-
- .. note:: If you are under 13 years of age, you can only share a limited
-    profile, and you cannot share a profile picture.
-
- To create or edit your profile details in the mobile app, select your username
- or profile picture. Select **Edit** to edit your profile details. In your  profile
- details, select **Change** next to the camera icon to change your profile
- picture.
-
- If you are over 13 years of age, you can share more information about yourself
- by changing your limited profile to a full profile. You can indicate your
- primary language and location and, in the **About Me** section, you can add
- additional details such as your learning goals and other interests. To share a
- full profile, select **Full Profile**.
-
- .. note:: You must specify your birth year before you can share a full
-    profile. If you are under 13 years of age, you cannot create a full
+  .. note:: You must specify your birth year before you can share a full
+    profile. If you are under 13 years of age, you cannot share a full
     profile.
+
+ You can change certain profile settings in the edX mobile app, but be aware
+ that the profile page on edx.org shows more information than the profile in
+ the mobile app shows.
+
+ For more information about creating or editing your edX profile, see
+ :ref:`Adding Profile Information<SFD Profile Page>`.
 
 
  ==================================================
