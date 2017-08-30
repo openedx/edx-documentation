@@ -108,8 +108,8 @@ specified course.
 For example, the following URL would auto-enroll the user who clicks this link
 into the edX Demo course (that course's ID,
 ``course-v1:edX+DemoX+Demo_Course``, has been url-encoded as the value of the
-``course_id`` parameter). If the user is not signed in, they must sign in or
-register first, and then they will be auto-enrolled.
+``course_id`` parameter). If the user is not signed in, they are auto-enrolled
+after they sign in or register.
 
 ::
 
@@ -117,27 +117,29 @@ register first, and then they will be auto-enrolled.
 
 You can include the following parameters.
 
-* ``enrollment_action``: This is required to trigger the auto-enrollment
-  behavior. It must be set to either ``enroll`` (for free courses) or
-  ``add_to_cart`` (for paid courses). If ``add_to_cart`` is used, the user will
-  be directed to the shopping cart page rather than instantly enrolled.
+* ``enrollment_action``: This is required so that the auto-enrollment behavior
+  is triggered. It must be set to either ``enroll`` (for free courses) or
+  ``add_to_cart`` (for paid courses). If ``add_to_cart`` is used, learners
+  are directed to the e-commerce basket page rather than being instantly
+  enrolled.
 
 * ``course_id``: This is required. The ID of the course to enroll the user in,
-  or add to cart, etc. It must be URL-encoded.
+  or add to cart, etc. The value must be URL-encoded.
 
-* ``course_mode``: one of ``audit``, ``honor``, ``verified``, etc. Only applies
-  if enrollment_action is ``enroll``. If it's not specified, and the course has
-  more than one mode, the user will be sent to the "track selection" page where
-  they can choose which track/mode to use. If ``honor`` or ``audit`` is
-  specified, the user will be instantly enrolled. If any other mode is
-  specified, the user will be sent to the payment/verification flow.
+* ``course_mode``: One of ``audit``, ``honor``, ``verified``, etc. This
+  parameter applies only if ``enrollment_action`` is ``enroll``. If
+  ``course_mode`` is not specified, and the course has more than one mode,
+  learners are sent to the track selection page, where they can choose which
+  track of the course to enroll in. If ``honor`` or ``audit`` is specified,
+  learners are instantly enrolled. If any other mode is specified, learners
+  are sent to the payment/verification flow.
 
 * ``email_opt_in``: Can be ``true`` or ``false``. If true, this indicates that
   the user has consented to receiving marketing emails from Open edX and the
   course partner.
 
-This feature can also be combined with :ref:`hinted sign in<Hinted Sign In>`,
-if you create a URL such as the following example.
+The auto-enrollment feature can be combined with :ref:`hinted sign in<Hinted
+Sign In>`, if you create a URL such as the following example.
 
 ::
 

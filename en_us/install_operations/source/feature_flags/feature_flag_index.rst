@@ -171,7 +171,7 @@ platform.
      - Supported
      - FALSE
    * - ENABLE_SHOPPING_CART
-     - Supported
+     - Deprecated
      - FALSE
    * - ENABLE_SPECIAL_EXAMS
      - Supported
