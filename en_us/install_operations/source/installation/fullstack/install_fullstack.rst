@@ -57,13 +57,13 @@ To install fullstack follow these steps.
     information about the latest Open edX releases and the Git tag names for
     them, see the `Open edX Releases Wiki page`_.
 
-    For example, ``open-release/eucalyptus.1`` is the Git tag name for the
-    first Eucalyptus release. The following command sets the value of the
-    ``OPENEDX_RELEASE`` environment variable to ``open-release/eucalyptus.1``.
+    For example, ``open-release/eucalyptus.2`` is the Git tag name for the
+    second Eucalyptus release. The following command sets the value of the
+    ``OPENEDX_RELEASE`` environment variable to ``open-release/eucalyptus.2``.
 
     .. code-block:: bash
 
-      export OPENEDX_RELEASE="open-release/eucalyptus.1"
+      export OPENEDX_RELEASE="open-release/eucalyptus.2"
 
 #. Download the install script.
 
