@@ -1,127 +1,91 @@
 .. _Proctored Session Results:
 
-################################
-Using Proctored Session Results
-################################
+#################################
+Viewing Proctored Session Results
+#################################
 
-This section provides an overview of how to use the data you receive about
-how learners performed in proctoring sessions for proctored exams. For more
-information, see :ref:`CA_ProctoredExams_Overview` and
-:ref:`Managing Proctored Exams`.
+To view proctored exam results, you use the :ref:`Proctored Exam Results
+report<Viewing Proctored Session Results>`. This report is a .csv file that you
+can download from the instructor dashboard. You can use this report to view
+proctoring results for all learners, or :ref:`determine whether a specific
+learner has passed the proctoring review<Determine if Learner Passed Proctoring
+Review>`.
+
+For information about the learner view of proctoring results, see
+:ref:`learners:Proctoring Session Review Results`.
+
+.. note::
+ The Proctored Exam Results report contains information about the proctoring
+ review. The report does not include information about the learner's score on
+ the exam. A learner might pass the proctoring review but not earn a high
+ enough score to pass the exam itself.
+
+
 
 .. contents::
   :local:
   :depth: 1
 
-The proctoring software monitors both the screen activity and webcam view of
-learners. When learners complete a proctored exam, their proctoring session
-data is uploaded for review by the proctoring service provider. Reviewers
-apply defined criteria including the :ref:`Online Proctoring Rules
-<CA Online Proctoring Rules>` to decide whether any observed behavior should be
-flagged.
-
-Two results are possible for proctoring session reviews.
-
-*  **Satisfactory** - The learner has passed the proctoring review.
-
-*  **Unsatisfactory** - Some suspicious activity has been observed. The learner
-   has not passed the proctoring review. The learner is not eligible for
-   academic credit for the course.
-
-.. Replace the previous sentence with the following sentence when the
-.. "automatically set score to 0" feature is live:
-
-.. The learner automatically receives a score of 0 for the exam, and is not eligible for academic credit for the course.
-
-Some learner behavior that is listed in the Online Proctoring Rules is
-discouraged but does not impact the integrity of the exam. Violations in these
-cases might be flagged but learners with such flags can still receive a
-**Satisfactory** result. For example, a learner is discouraged from playing
-music or having a TV on in the background while they take their exam, but if
-their session recording shows such behavior, it is still possible for them to
-receive a **Satisfactory** result for their proctoring session results, as long
-as there are no instances of suspicious activity that do seem to indicate
-cheating.
-
-Activities that would cause learners to fail their proctoring session review
-include not providing a photo ID, using a second computer during the proctored
-exam, appearing to read the exam to another person in the room, displaying
-nudity or explicit materials or browsing adult-based content. If there is even
-one instance of such activity, learners receive an **Unsatisfactory** result
-for their proctoring session.
-
-
 .. _Viewing Proctored Session Results:
 
-************************************
-Viewing Proctored Session Results
-************************************
+*********************************************
+Download the Proctored Exam Results Report
+*********************************************
 
 At any time after learners have taken the proctored exam in your course, you
-can download a .csv file that displays the status of the proctoring session
-for participating learners.
+can download a .csv file that displays the current status of the proctoring
+session for participating learners.
 
-.. note:: The Proctored Session Results report only shows the result of
-   reviews of the proctored sessions. These results are separate from the
-   learners' grades on the exam.
-
-To generate and download a file of proctoring session results, follow these
+To generate and download the Proctored Exam Results report, follow these
 steps.
 
-.. important:: Because the proctoring session results file contains
-   confidential, personally identifiable data, be sure to follow your
-   institution's data stewardship policies when you open or save this file.
+.. important::
+   This report contains confidential, personally identifiable data. Be sure to
+   follow your institution's data stewardship policies when you open or save
+   this report.
 
 #. View the live version of your course.
 
 #. In the LMS, select **Instructor**, then select **Data Download**.
 
-#. Select **Generate Proctored Exam Results Report**.
-
-   .. image:: ../../../../shared/images/Proctoring_GenerateCSVExamResults.png
-     :alt: The "Generate Proctored Exam Results Report" button in the LMS.
-     :width: 400
+#. In the **Reports** section, select **Generate Proctored Exam Results
+   Report**.
 
    A status message indicates that the report generation process is in
-   progress. This process can take some time to complete, but you can navigate
-   away from this page and do other work while it runs.
+   progress. This process can take some time to complete. You can navigate away
+   from this page while the process runs.
 
 #. To check the progress of the report generation, reload the page in your
-   browser and scroll down to the **Pending Tasks** section. The status of
-   active tasks is shown in the table.
+   browser and scroll to the **Pending Tasks** section. The table shows the
+   status of active tasks.
 
-   When the report is complete, a linked .csv file name becomes available
-   above the **Pending Tasks** section. File names are in the format
-   ``{course_id}_proctored_exam_results_report_{datetime}.csv``. The most
-   recently generated reports appear at the top of the list.
+   When the report is complete, a linked .csv file name becomes available in
+   the **Reports Available for Download** section. The most recently generated
+   reports appear at the top of the list.
 
-#. To open or save a report file, locate and click the link for the report you
-   requested.
+   File names are in the following format.
 
-   .. image:: ../../../../shared/images/Proctoring_CSVExamResultsLink.png
-     :alt: The link for a generated proctored exam results report in the
-         instructor dashboard.
-     :width: 600
+   ``{course_id}_proctored_exam_results_report_{datetime}.csv``
 
-   You can open .csv files in a spreadsheet application to sort, graph, and
-   compare data.
+#. To download a report file, select the link for the report you requested.
+   The .csv file begins downloading automatically.
 
-.. note:: To prevent the accidental distribution of learner data, you can
-   download exam result report files only by clicking the links on this page.
-   Do not copy these links for reuse elsewhere, as they expire within 5
-   minutes. The links on this page also expire if the page is open for more
-   than 5 minutes. If necessary, refresh the page to generate new links.
+.. note::
+   To prevent the accidental distribution of learner data, you can download
+   exam result report files only by clicking the links on this page. These
+   links expire after 5 minutes. If necessary, refresh the page to generate new
+   links.
 
+#. When the download is complete, open the .csv files in a spreadsheet
+   application to sort, graph, and compare data.
 
 .. _Proctored Session Results File:
 
-**************************************************
-Understanding the Proctored Session Results File
-**************************************************
+********************************************
+Interpret the Proctored Exam Results Report
+********************************************
 
-The .csv file that you can download to view the status and results of
-learners' proctoring sessions contains the following fields.
-
+The Proctored Exam Results report contains the following fields.
 
 .. list-table::
    :widths: 30 55
@@ -129,11 +93,14 @@ learners' proctoring sessions contains the following fields.
 
    * - Column
      - Description
-   * - user_email
-     - The username or email address that identifies the learner taking the
-       proctored exam.
+   * - course_id
+     - The ID of the course.
    * - exam_name
      - The name of the proctored exam in the body of the course.
+   * - username
+     - The username that identifies the learner taking the proctored exam.
+   * - email
+     - The email address that identifies the learner taking the proctored exam.
    * - attempt_code
      - An identifier for the exam attempt. The attempt code is an
        internal identifier and is included in the report for use in
@@ -148,49 +115,201 @@ learners' proctoring sessions contains the following fields.
    * - completed_at
      - The date and time that the learner submitted the proctored exam.
    * - status
-     - The status of the proctoring session review. Possible values are
-       ``created``, ``ready to start``, ``started``, ``timed out``,
-       ``completed``, ``submitted``, ``second review required``, ``verified``,
-       ``rejected``, and ``error``. For an explanation of each status, see the
-       table below.
+     - The current status of the proctoring session as a whole. The proctoring
+       session encompasses the time from when the learner chooses to take the
+       proctored exam until the proctored exam review is complete. If the
+       proctored exam review is complete, the value in the ``review_status``
+       column affects the value in this column.
 
+       For possible values in the status column and an explanation of each
+       value, see :ref:`Proctoring Results Status Column`.
 
-The following table describes the possible values in the Status column.
+   * - review_status
+     - The current status of the proctoring exam review by Software Secure. If
+       the proctored exam review is complete, the value in this column affects
+       the value in the ``status`` column.
+
+       For possible values and an explanation of each value, see
+       :ref:`Proctoring Results Review Status Column`.
+
+   * - Suspicious Count
+     - Number of incidents during the exam that Software Secure marked as
+       "Suspicious".
+   * - Suspicious Comments
+     - The comments that Software Secure entered for each "Suspicious"
+       incident, separated by semicolons (;).
+   * - Rules Violation Count
+     - Number of incidents during the exam that Software Secure marked as
+       "Rules Violation".
+   * - Rules Violation Comments
+     - The comments that Software Secure entered for each "Rules Violation"
+       incident, separated by semicolons (;).
+
+.. _Proctoring Results Status Column:
+
+===============================
+Values in the ``status`` Column
+===============================
+
+The following table describes the possible values in the ``status`` column.
 
 .. list-table::
    :widths: 30 55
    :header-rows: 1
 
-   * - Value in the Status column
+   * - Value
      - Description
-   * - Created
+   * - completed
+     - The learner has completed the proctored exam.
+   * - created
      - The exam attempt record has been created, but the exam has not yet been
        started.
-   * - Ready to Start
+   * - declined
+     - The learner declined to take the exam as a proctored exam.
+   * - error
+     - An error has occurred with the exam.
+   * - expired
+     - The course end date passed before the learner completed the proctored
+       exam.
+   * - ready_to_start
      - The exam attempt record has been created. The learner still needs to
        start the exam.
-   * - Started
+   * - ready_to_submit
+     - The learner has completed but not yet submitted the proctored exam.
+   * - rejected
+     - The proctoring session review has been completed, and the learner has
+       not passed the review. The learner receives a value of "Unsatisfactory"
+       on the learner exam page and in a notification email message.
+       Additionally, the learner automatically receives a score of 0 for the
+       exam, and the learner is no longer eligible for academic credit.
+
+       This value results from a value of "Suspicious" in the
+       :ref:`review_status<Proctoring Results Review Status Column>` column.
+
+   * - second_review_required
+     - The exam attempt has been reviewed and the review team has determined
+       that the exam requires additional evaluation. The review team will
+       perform the second review. Course teams do not need to take any action.
+
+       This status results from a value of "Suspicious" in the
+       :ref:`review_status<Proctoring Results Review Status Column>` column.
+
+   * - started
      - The learner has started the proctored exam.
-   * - Timed Out
-     - The proctored exam has timed out.
-   * - Completed
-     - The learner has completed the proctored exam.
-   * - Submitted
+   * - submitted
      - The learner has completed the proctored exam and results have been
        submitted for review.
-   * - Second Review Required
-     - The exam attempt has been reviewed and the review team has
-       determined that it requires additional evaluation. The review team will
-       perform the second review. Course teams do not need to take any action.
-   * - Satisfactory
-     - The proctoring session review has been completed, and has passed.
-   * - Unsatisfactory
-     - The proctoring session review has been completed, and has not passed.
-       The learner is not eligible for academic credit.
-   * - Error
-     - The exam is believed to be in error.
+   * - timed_out
+     - The proctored exam has timed out.
+   * - verified
+     - The proctoring session review has been completed, and the learner has
+       passed the review. The learner receives a value of "Satisfactory" on the
+       learner exam page and in a notification email message.
 
-.. Replace the second sentence for "Unsatisfactory" with the following when the
-.. "automatically set score to 0" feature releases:
+       This value results from a value of "Clean" or "Rules Violation" in the
+       :ref:`review_status<Proctoring Results Review Status Column>` column.
 
-.. The learner automatically receives a score of 0 for the exam and is not eligible for academic credit.
+
+.. _Proctoring Results Review Status Column:
+
+======================================
+Values in the ``review_status`` Column
+======================================
+
+After learners complete a proctored exam, a reviewer from the proctoring
+service provider reviews the exam according to specific criteria, including the
+:ref:`Online Proctoring Rules <CA Online Proctoring Rules>`. The value in the
+``review_status`` column shows the outcome of the proctored exam review.
+
+Additionally, the value in the ``review_status`` column affects the following
+information for the course team and for the learner.
+
+* The values in the ``status`` column.
+* The proctoring result that is visible on the learner exam page and in the
+  email notification that the learner receives.
+
+For example, if the ``review_status`` column has a value of "Clean", the value
+in the ``status`` column is "verified". On the learner exam page and in the
+email notification, the status of the exam is "Satisfactory".
+
+If the ``review_status`` column has a value of "Suspicious", the value
+in the ``status`` column is "rejected". On the learner exam page and in the
+email notification, the status of the exam is "Unsatisfactory".
+
+The following table describes the possible values in the ``review_status``
+column.
+
+.. list-table::
+   :widths: 30 20 55
+   :header-rows: 1
+
+   * - Value
+     - Exam Result
+     - Description
+   * - Clean
+     - Pass
+     - No rules violations or suspicious incidents occurred. The learner has
+       passed the proctoring review.
+
+       This value causes a value of "verified" in the ``status`` column. The
+       learner receives a result of "Satisfactory" for the proctored exam.
+
+   * - Not Reviewed
+     - n/a
+     - The proctoring review is not yet complete.
+   * - Rules Violation
+     - Pass
+     - An incident occurred that violates proctored exam rules, but the
+       incident does not compromise exam integrity. For example, music may be
+       playing. The learner has passed the proctoring review.
+
+       This value causes a value of "verified" in the ``status`` column. The
+       learner receives a result of "Satisfactory" for the proctored exam.
+
+   * - Suspicious
+     - Fail
+     - An incident has occurred that directly compromises exam integrity. For
+       example, cheating might have occurred. The learner has failed the
+       proctoring review.
+
+       This value causes a value of "rejected" in the ``status`` column. The
+       learner receives a result of "Unsatisfactory" for the proctored exam.
+       The learner also receives a score of 0 on the exam and is no longer
+       eligible for academic credit.
+
+
+.. _Determine if Learner Passed Proctoring Review:
+
+*******************************************************
+Determine if a Learner Passed the Proctored Exam Review
+*******************************************************
+
+To determine whether a specific learner passed the proctored exam review,
+complete either of the following procedures.
+
+=========================================
+View the Proctored Session Results Report
+=========================================
+
+#. Download and open the :ref:`Proctored Session Results report<Viewing
+   Proctored Session Results>`.
+#. In the row for the learner, check the ``status`` column.
+
+   * If the value in the column is "verified", the learner passed the review.
+   * If the value is "rejected", the learner did not pass the review. The
+     learner automatically receives a score of 0 on the exam. Additionally, the
+     learner is no longer eligible for academic credit in the course.
+
+==============================
+View the Course as the Learner
+==============================
+
+#. :ref:`View the course as the learner that you want<Roles for Viewing Course
+   Content>`.
+#. Open the page for the proctored exam.
+
+On the page, the learner's status is visible as "Pending", "Satisfactory", or
+"Unsatisfactory".
+
+For information about the learner view of proctoring results, see
+:ref:`learners:Proctoring Session Review Results`.
