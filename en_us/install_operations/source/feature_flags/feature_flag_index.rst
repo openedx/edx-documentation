@@ -197,6 +197,9 @@ platform.
    * - ENABLE_VIDEO_BUMPER
      - Supported
      - FALSE
+   * - ENABLE_AUTOADVANCE_VIDEOS
+     - Supported
+     - FALSE
    * - ENABLE_XBLOCK_VIEW_ENDPOINT
      - Supported
      - FALSE
