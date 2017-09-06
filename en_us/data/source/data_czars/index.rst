@@ -1,8 +1,8 @@
 .. _Data_Czar:
 
-###################################
-Data Czars at Partner Institutions
-###################################
+#####################
+The Data Czar Role
+#####################
 
 A data czar is the single representative at a partner institution who has the
 credentials to download and decrypt edX data packages. The data czar is
@@ -19,5 +19,4 @@ information about edX data.
    data_czar.rst
    data_security.rst
    resources.rst
-   credentials.rst
-   package.rst
+
