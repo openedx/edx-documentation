@@ -24,6 +24,7 @@ configuration options.
    ora2/index
    enable_prerequisites
    enable_licensing
+   transcripts
    lti/index
    enable_socialsharing_icons
    tpa/index
