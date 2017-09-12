@@ -16,6 +16,7 @@ see :ref:`Developing Your Course Index`.
    cohorts/index
    diff_content/index
    teams/index
+   proctored_exams/index
    content_experiments/index
    timed_exams
    lti/index

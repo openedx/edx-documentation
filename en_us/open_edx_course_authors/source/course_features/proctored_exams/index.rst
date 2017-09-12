@@ -14,6 +14,4 @@ online proctoring software.
    overview
    proctored_learners
    proctored_enabling
-   proctored_managing
-   proctored_results
    CA_online_proctoring_rules_students

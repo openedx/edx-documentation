@@ -12,9 +12,9 @@ Proctored Exams Overview
    If you want to be eligible for credit for passing your course, make sure you
    enroll in or upgrade to the verified track before the first exam.
 
-Some courses that grant academic course credit require learners to take and
-pass at least one proctored exam. Proctored exams differ from regular exams in
-the following ways.
+Some courses that grant academic course credit require learners to pass at
+least one proctored exam. Proctored exams differ from regular exams in the
+following ways.
 
 * All proctored exams have time limits.
 * Proctored exams require you to install proctoring software on your computer.
