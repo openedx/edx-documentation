@@ -15,7 +15,6 @@ This topic describes how to use Studio to create and set up a course.
     You must have the correct permissions to create courses on the edX Edge
     site. For more information, see :ref:`Use Studio on Edge`.
 
-
 .. contents::
   :local:
   :depth: 1
@@ -111,6 +110,12 @@ team privileges.
 .. image:: ../../../../shared/images/open_course.png
   :width: 600
   :alt: Image of the course on the Studio dashboard.
+
+.. note::
+  After the end date for a course has passed, the course moves to the
+  **Archived Courses** tab on the Studio dashboard. If the course that you want
+  to edit is not visible on the **Courses** tab, look for the course on the
+  **Archived Courses** tab.
 
 To edit a course, select the course name. The Studio **Course Outline** page
 appears.

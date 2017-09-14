@@ -51,7 +51,7 @@ If you have not created a course, see :ref:`Creating a New Course`.
 #. Select **Enroll** to enroll in your course. After you enroll in your course,
    it opens in the LMS.
 
-#. To continue working on your course, return the browser tab that shows
-   Studio.
+To continue working on your course, return to the browser tab that shows
+Studio.
 
 

@@ -75,6 +75,12 @@ For more information, see :ref:`Use Re-Run to Create a Course` and
 Use Re-Run to Create a Course
 ********************************************
 
+.. note::
+  After the end date for a course has passed, the course moves to the
+  **Archived Courses** tab on the Studio dashboard. If the course that you want
+  to re-run is not visible on the **Courses** tab, look for the course on the
+  **Archived Courses** tab.
+
 .. only:: Partners
 
    Only edX staff members have the permissions needed to re-run a course. To
