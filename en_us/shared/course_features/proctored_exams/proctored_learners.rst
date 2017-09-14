@@ -111,5 +111,5 @@ Practice Proctored Exams
     actual proctored exam.
 
 For information about how to create a practice proctored exam, see :ref:`Create
-a Practice Proctored Exam`.
+a Proctored Exam`.
 
