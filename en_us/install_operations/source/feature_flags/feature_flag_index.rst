@@ -206,6 +206,9 @@ platform.
    * - ENTRANCE_EXAMS
      - Supported
      - FALSE
+   * - FALLBACK_TO_ENGLISH_TRANSCRIPTS
+     - Supported
+     - TRUE
    * - FORCE_UNIVERSITY_DOMAIN
      - Deprecated
      - FALSE
