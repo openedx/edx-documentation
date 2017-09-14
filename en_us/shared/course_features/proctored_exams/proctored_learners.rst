@@ -27,7 +27,7 @@ To prepare learners for a proctored exam, follow these guidelines.
   * Well before the exam, provide learners with information about the grading
     policy in your course.
   * Explain what proctored exams are, and provide learners with links to the
-    :ref:`openlearners:OE SFD Proctored Exams>` topic in the *Open edX
+    :ref:`openlearners:OE SFD Proctored Exams` topic in the *Open edX
     Learner’s Guide*.
   * Communicate the rules for proctored exams, including the :ref:`online
     proctoring rules<CA Online Proctoring Rules>` in the *Open edX Learner’s
@@ -60,7 +60,8 @@ The Learner Experience of Proctored Exams
  that your course or organization uses. Typically, learners can expect to
  download and install proctoring software, verify their identities, and use
  their webcams to scan the testing environment before they take the exam. For
- more information, see :ref:`openlearners:OE SFD Proctored Exams`.
+ more information, see :ref:`openlearners:OE SFD Proctored Exams` in the *Open
+ edX Learner's Guide*.
 
 .. _Practice Proctored Exams:
 
