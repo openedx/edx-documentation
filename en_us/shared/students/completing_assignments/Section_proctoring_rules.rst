@@ -1,14 +1,13 @@
 .. This file contains the proctored exam rules. This section is included within
-.. topics in both the edX Learner's Guide and Building and Running an edX
-.. Course guide. Proctored exams are not documented in the Open edX versions of
-.. the guides.
+.. topics in both the learner and course author documentation for partners and
+.. Open edX.
 
 
 .. _Know Rules for Online Proctoring:
 
-********************************
-Rules for Online Proctored Exams
-********************************
+****************************************
+Learner Rules for Online Proctored Exams
+****************************************
 
 The following proctored exam rules are the basic rules for "closed book" exams.
 
@@ -107,19 +106,15 @@ take the exam, consult your organization’s disability resources or the course
 team before you make any choices on the exam page. The course team must approve
 your request and make any adjustments before you start your exam.
 
+.. only:: Partners
 
-***********************************
-Consequences of Violating the Rules
-***********************************
+  *******************************
+  Consequences of Rule Violations
+  *******************************
 
-.. Change the first paragraph to the following when the feature releases:
+  If you violate the online proctoring rules and receive an **Unsatisfactory**
+  status, you automatically receive a score of 0 for the exam. For most
+  courses, you are no longer eligible for academic credit.
 
-.. If you violate the online proctoring rules and receive an **Unsatisfactory**
-.. status, you automatically receive a score of 0 for the exam. You cannot
-.. receive academic credit for the course.
-
-If you violate the online proctoring rules and receive an **Unsatisfactory**
-status, you cannot receive academic credit for the course.
-
-If you have questions about your proctoring exam status, go to http://edx.org
-to contact edX Support, or consult your course team.
+  If you have questions about your proctoring exam status, go to http://edx.org
+  to contact edX Support, or consult your course team.

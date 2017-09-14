@@ -33,6 +33,11 @@ Taking a Proctored Exam
 
 To take a proctored exam, follow these steps.
 
+.. note::
+  When you agree to take the exam with online proctoring and start installing
+  the proctoring software, you must continue through to taking the exam as soon
+  as that process is completed.
+
 #. In the course, open the proctored exam.
 
 #. On the page where you agree to or decline taking the exam with online

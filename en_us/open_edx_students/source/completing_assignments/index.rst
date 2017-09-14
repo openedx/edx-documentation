@@ -9,6 +9,7 @@ Completing Different Types of Assignments
 
    SFD_mathformatting
    timed_exams
+   proctored_exams
    interactive_multiple_choice
 
 .. SFD_ORA

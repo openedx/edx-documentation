@@ -25,6 +25,9 @@ Software Requirements for Online Proctoring
 To use the proctored exam software, your computer must have the following
 software.
 
+.. note::
+  You cannot take a proctored exam on the edX mobile apps for Android or iOS.
+
 * A supported version of the Windows or Mac operating system. For more
   information, see `Proctoring Software System Requirements`_.
 * The latest version of Adobe Flash Player.

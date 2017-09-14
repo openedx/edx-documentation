@@ -20,7 +20,8 @@ For information about the learner view of proctoring results, see
  the exam. A learner might pass the proctoring review but not earn a high
  enough score to pass the exam itself.
 
-
+For more information about the Proctored Exam Results report, see the following
+sections.
 
 .. contents::
   :local:
@@ -181,7 +182,8 @@ The following table describes the possible values in the ``status`` column.
        not passed the review. The learner receives a value of "Unsatisfactory"
        on the learner exam page and in a notification email message.
        Additionally, the learner automatically receives a score of 0 for the
-       exam, and the learner is no longer eligible for academic credit.
+       exam. For most courses, the learner is no longer eligible for academic
+       credit.
 
        This value results from a value of "Suspicious" in the
        :ref:`review_status<Proctoring Results Review Status Column>` column.
@@ -274,8 +276,8 @@ column.
 
        This value causes a value of "rejected" in the ``status`` column. The
        learner receives a result of "Unsatisfactory" for the proctored exam.
-       The learner also receives a score of 0 on the exam and is no longer
-       eligible for academic credit.
+       The learner also receives a score of 0 on the exam. In most courses,
+       the learner is no longer eligible for academic credit.
 
 
 .. _Determine if Learner Passed Proctoring Review:
@@ -284,8 +286,9 @@ column.
 Determine if a Learner Passed the Proctored Exam Review
 *******************************************************
 
-To determine whether a specific learner passed the proctored exam review,
-complete either of the following procedures.
+To determine whether a specific learner passed the proctored exam review, you
+can either view the Proctored Session Results report or view the course as the
+learner.
 
 =========================================
 View the Proctored Session Results Report
@@ -297,8 +300,8 @@ View the Proctored Session Results Report
 
    * If the value in the column is "verified", the learner passed the review.
    * If the value is "rejected", the learner did not pass the review. The
-     learner automatically receives a score of 0 on the exam. Additionally, the
-     learner is no longer eligible for academic credit in the course.
+     learner automatically receives a score of 0 on the exam. Additionally, for
+     most courses, the learner is no longer eligible for academic credit.
 
 ==============================
 View the Course as the Learner

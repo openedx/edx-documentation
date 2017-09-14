@@ -38,4 +38,15 @@ grading, but the proctoring session recording might not be completely uploaded.
 In this situation, contact edX Support. The course team will decide whether
 your proctored exam attempt is valid.
 
+*************************************
+You Need to Retake the Proctored Exam
+*************************************
+
+If you need to retake a proctored exam for any reason, contact edX Support.
+
+When you retake an exam, you start the exam over from the beginning. You must
+set up the proctoring software, answer the questions, and complete all other
+steps again.
+
+
 .. include:: ../../../../links/links.rst
