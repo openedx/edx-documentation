@@ -5,8 +5,9 @@ Language Style Guidelines
 #########################
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 1
 
-    javascript_guidelines
+    javascript-guidelines
     ios
-    python_guidelines
+    python-guidelines
+    sass-guidelines
