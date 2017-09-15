@@ -16,7 +16,7 @@ Open edX Developer's Guide
    testing/index
    pavelib.rst
    environment/index
-   user_interface_development
+   user_interfaces/index
    analytics.rst
    deploy-new-service
    conventions/index

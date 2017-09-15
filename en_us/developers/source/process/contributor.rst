@@ -141,8 +141,9 @@ following links:
 * :doc:`../testing/jenkins`
 * :doc:`../testing/code-coverage`
 * :doc:`../testing/code-quality`
-* :doc:`../style_guides/python_guidelines`
-* :doc:`../style_guides/javascript_guidelines`
+* :doc:`../style_guides/python-guidelines`
+* :doc:`../style_guides/javascript-guidelines`
+* :doc:`../style_guides/sass-guidelines`
 
 .. _contributor's agreement with edX: http://open.edx.org/sites/default/files/wysiwyg/individual-contributor-agreement.pdf
 .. _compatible licenses: https://open.edx.org/open-edx-licensing
