@@ -50,14 +50,10 @@ Issuing Certificates
    :ref:`installation:Enable Certificates` in *Installing, Configuring, and
    Running the Open edX Platform*.
 
-.. After EDUCATOR-1101 merges (around 8/25), change "the learner dashboard and
-.. the **Progress** page" to "the learner dashboard, the **Course** page, and
-.. the **Progress** page".
-
 Studio automatically generates certificates for both self-paced courses and
 instructor-paced courses. When certificates become available, options for
-learners to view their certificates are available on the learner dashboard and
-the course **Progress** page.
+learners to view their certificates are available on the learner dashboard,
+the learner **Profile** page, and the course **Progress** page.
 
 You can specify when you want to make certificates available.
 
