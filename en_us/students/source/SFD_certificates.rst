@@ -161,6 +161,9 @@ Certificate** to open the certificate in your browser.
   :alt: The dashboard and the top of a Progress page, each with a call-out for
       the View Certificate button.
 
+The certificates that you have earned are also displayed on your
+:ref:`Profile page<SFD Dashboard>`.
+
 You can also print or share your certificate. For more information, see
 :ref:`SFD Sharing a Certificate`.
 
@@ -177,7 +180,7 @@ immediately after you receive the verified certificate for the final course in
 the program.
 
 The XSeries and MicroMasters program certificates that you have earned are
-visible on one side of the **Programs** tab on your dashboard.
+visible on the **Programs** tab on your dashboard and on your **Profile** page.
 
 ************************************
 Downloading a Certificate (PDF only)
@@ -317,7 +320,7 @@ To share a web certificate on social media, follow these steps.
 #. Sign in to the social media site where you want to share your
    certificate. Then, go to your edX dashboard.
 
-#. On your edX dashboard, find the course whose certificate you want to share.
+#. Find the course whose certificate you want to share.
 
 #. Select **View Certificate**, and then on the certificate page, select the
    social media account where you want to share your certificate.
@@ -371,8 +374,8 @@ your edX dashboard.
 To share a PDF certificate on LinkedIn from your edX dashboard, follow these
 steps.
 
-#. Sign in to LinkedIn. Then, go to your edX dashboard.
-#. On your edX dashboard, find the course whose certificate you want to share.
+#. Sign in to LinkedIn. Then, go to your edX dashboard or **Profile** page.
+#. Find the course whose certificate you want to share.
 #. Select **Download Certificate (PDF)**.
 #. On the certificate page, select **Add to Profile**.
 
