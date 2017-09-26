@@ -1,8 +1,8 @@
 .. _Research Data Exchange:
 
-######################
-Research Data Exchange
-######################
+#############################################
+Using the Research Data Exchange Data Package
+#############################################
 
 The edX research data exchange (RDX) program enables researchers at
 participating partner institutions to request data for completed edx.org
