@@ -6,7 +6,9 @@ Keys and Credentials for Data Transfers
 
 EdX transfers course data to the data czars at our partner institutions in
 regularly generated data packages. Data packages can be accessed only by the
-data czar at each partner institution.
+data czar at each partner institution. This section describes how data czars
+can set up and use the credentials and public/private key pairs they need so
+that they can download and decrypt the edX data package.
 
 .. contents::
   :local:
@@ -130,14 +132,11 @@ Create Keys: Macintosh
 #. To send only your public key to your edX partner manager, select the key and
    then select **Export**. A dialog box opens.
 
-  a. Specify a file name and location to save the file.
+#. Specify a file name and location to save the file. Make sure that **Format**
+   is set to ASCII and that **Allow secret key export** is not selected.
 
-  b. Make sure that **Format** is set to ASCII.
-
-  c. Make sure that **Allow secret key export** is cleared.
-
-   When you select **Save**, only the public key is saved in the resulting .asc
-   file. Do not share your private key with edX or any third party.
+   When you select **Save**, only the public key is saved in the resulting
+   ``.asc`` file. Do not share your private key with edX or any third party.
 
 #. Compose an email message to your edX partner manager. Attach the ``.asc``
    file that you saved in the previous step to the message, then send the
@@ -153,8 +152,8 @@ creates an individual account to access this storage service for
 each data czar. The credentials for accessing this account are called an Access
 Key and a Secret Key.
 
-After edX creates these access credentials for you, they use
-the public encryption key that you sent your edX partner manager to encrypt the
+After edX creates these access credentials for you, they use the public
+encryption key that you sent your edX partner manager to encrypt the
 credentials into a ``credentials.csv.gpg`` file. EdX then sends the file to you
 as an email attachment.
 
@@ -203,48 +202,13 @@ that it contains your email address, your Access Key, and your Secret Key.
   :alt: A .csv file, open in Notepad, with the Access Key value and the Secret
         Key value underlined.
 
-.. _Access Amazon S3:
+.. _Use your credentials:
 
-****************************************************************
-Access Amazon S3
-****************************************************************
+******************************************
+Use your Credentials to Access Amazon S3
+******************************************
 
-To connect to Amazon S3, you must have your decrypted credentials. You may want
-to have a third-party tool that gives you a user interface for managing files
-and transferring them from Amazon S3 to your network. Some data czars use
-applications like CloudBerry Explorer for Amazon S3, Bucket Explorer, or S3
-Browser. Alternatively, you can use the `AWS Command Line Interface`_.
-
-#. Select and install a third-party tool or interface to manage your S3
-   account.
-
-#. Open your decrypted ``credentials.csv`` file. This file contains your AWS
-   Access Key and your AWS Secret Key.
-
-#. Open the third-party tool.
-
-#. Enter information to connect to the S3 account.
-
-   For example, you might need to select an option such as **Open Connection**,
-   and then supply the service you want to connect to (Amazon S3), your Access
-   Key, and your Secret Key. For more information, see the documentation
-   provided for the tool that you selected.
-
-#. To access the database data files, specify or select ``s3://course-data``.
-
-   To access the event data files, specify or select ``s3://edx-course-
-   data/{org}/``. You must include the identifier for your organization after
-   the name of the bucket.
-
-   .. note:: If you are using a third-party tool to connect to Amazon S3, you
-    might not be able to navigate directly between ``s3://course-data`` and
-    ``s3://edx-course-data/{org}/``. You might need to disconnect from Amazon
-    S3 and then reconnect to specify the other destination.
-
-For information about the files found at each of these Amazon S3 destinations,
-see :ref:`Package`.
-
-
+Once you have your decrypted credentials, you can use them to :ref:`access Amazon S3<Access Amazon S3>` and download your data package.
 
 .. include:: ../../../links/links.rst
 

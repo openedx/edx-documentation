@@ -1,23 +1,36 @@
 .. _Getting Started with the edX Data Package:
 
+#########################################
+Getting Started with the edX Data Package
+#########################################
+
+The following sections describe how to get started with the edX data package,
+including an overview of the data package contents and the main steps for
+getting access to it.
+
+.. contents::
+   :local:
+   :depth: 2
+
 ******************************
 What is the edX Data Package?
 ******************************
 
 The edX data package is a collection of data generated from courses and learner
-activities in courses. To get access to the data package covering its courses, a
-partner institution must have an agreement with edX that includes data access.
+activities in courses. To get access to the data package covering its courses,
+a partner institution must have an agreement with edX that includes data
+access.
 
 The purpose of the edX data package is to enable research to understand how
 learners use edX, measure learning, and analyze results of experiments. It can
 also help course teams understand how well a course is working while it is in
-progress and possibly make changes in mid-course. The data package also includes
-lists of email addresses of enrolled learners who have consented to receive
-emails, supporting contact between course staff and those enrolled learners.
+progress and possibly make changes in mid-course. The data package also
+includes lists of email addresses of enrolled learners who have consented to
+receive emails, supporting contact between course staff and those enrolled
+learners.
 
 The data package includes the following categories of information.
 
-.. Is this complete? give more information?
 * The event log (also known as the clickstream)
 * Course content exports
 * Courseware database exports
@@ -26,12 +39,12 @@ The data package includes the following categories of information.
 * Email opt-in data
 
 The edX data package consists of a set of compressed and encrypted files that
-contain event logs and database snapshots for all of their organization's
+contain event logs and database snapshots for all of your organization's
 edx.org and edge.edx.org courses. These files can be downloaded by data czars
 from Amazon S3.
 
-For a detailed view of all of the contents of the data package, see :ref:`Package`
-and  :ref:`Data Reference`.
+For a detailed view of all of the contents of the data package, see
+:ref:`Package` and  :ref:`Data Reference`.
 
 *******************************************
 Data Available in the LMS and edX Insights
@@ -67,9 +80,9 @@ Research Data Exchange
 
 In addition to the edX data package, edX makes available data through the
 research data exchange (RDX). The research data exchange is a mutual data
-exchange among edX partners; only those edX partners whochoose to participate in
-RDX contribute data to the program, and only researchers at those institutions
-can request data from the program.
+exchange among edX partners; only those edX partners who choose to participate
+in RDX contribute data to the program, and only researchers at those
+institutions can request data from the program.
 
 Researchers at participating partner institutions must propose, and be approved
 for, a specific educational research project to receive RDX data. For more
@@ -84,8 +97,20 @@ Main Steps to Access the Data Package
 Here is an overview of the main steps that a partner institution must perform
 to get access to the edX data package.
 
-#. Enter into an agreement with edX for data package access. Your institution may already have such an agreement. For more information, contact your edX [partner manager?]
-#. Select a data czar at the partner institution. A data czar is the representative at a partner institution who has direct access to the data package. For more information, see :ref:`Data_Czar`.
-#. The data czar creates a public/private key pair for securely transferring files and sends the public key to edX. For more information, see :ref:`Getting_Credentials_Data_Czar`.
-#. EdX sends the data czar an encrypted file that includes credentials for accessing the edX data package on Amazon S3.
-#. The data czar uses these credentials to :ref:`Access Amazon S3` and download the edX data package.
+#. Enter into an agreement with edX for data package access. Your institution
+   may already have such an agreement. For more information, contact your edX
+   partner manager.
+
+#. Select a data czar at the partner institution. A data czar is the
+   representative at a partner institution who has direct access to the data
+   package. For more information, see :ref:`Data_Czar`.
+
+#. The data czar creates a public/private key pair for securely transferring
+   files and sends the public key to edX. For more information, see
+   :ref:`Getting_Credentials_Data_Czar`.
+
+#. EdX sends the data czar an encrypted file that includes credentials for
+   accessing the edX data package on Amazon S3.
+
+#. The data czar uses these credentials to :ref:`Access Amazon S3` and
+   download the edX data package.
