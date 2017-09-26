@@ -1,17 +1,17 @@
 .. _Resources for Data Czars:
 
-########################
-Resources for Data Czars
-########################
+########################################
+Resources for Data Czars and Researchers
+########################################
 
-This section provides a list of resources for data czars.
+This section provides a list of resources for data czars and researchers.
 
 .. contents::
   :local:
   :depth: 1
 
-Data czars are encouraged to participate in the edX community and make use of
-these resources.
+Data czars and researchers are encouraged to participate in the edX community
+and make use of these resources.
 
 ******************************************
 Finding and Sharing Tools and Scripts

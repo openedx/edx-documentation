@@ -4,8 +4,8 @@
 Data Reference
 ######################
 
-The following sections of the *EdX Research Guide* provide reference
-information about the data stored in SQL and NoSQL databases.
+The following sections provide reference information about the data stored in
+SQL and NoSQL databases that is provided as part of the edX data package.
 
 .. toctree::
    :maxdepth: 2

@@ -1,8 +1,8 @@
 .. _Research Data Exchange:
 
-######################
-Research Data Exchange
-######################
+#############################################
+Using the Research Data Exchange Data Package
+#############################################
 
 The edX research data exchange (RDX) program enables researchers at
 participating partner institutions to request data for completed edx.org
@@ -21,10 +21,10 @@ partners.edx.org website.
 Researchers at participating partner institutions must propose, and be approved
 for, a specific educational research project to receive RDX data.
 
-EdX obfuscates obvious identifiers from RDX data before it is shared. For example,
-names, user names, email addresses, and IP addresses are removed from the data.
-For more information, see `rdx_data`. Published studies based on RDX data may
-include only aggregate data.
+EdX obfuscates obvious identifiers from RDX data before it is shared. For
+example, names, user names, email addresses, and IP addresses are removed from
+the data. For more information, see `rdx_data`. Published studies based on RDX
+data may include only aggregate data.
 
 .. toctree::
    :maxdepth: 2
