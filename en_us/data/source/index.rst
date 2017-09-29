@@ -12,12 +12,12 @@ into their courses and students.
    :numbered:
    :maxdepth: 2
 
-   start/index
+   front_matter/index
+   internal_data_formats/index
    data_czars/index
    access/index
    using/index
    rdx/index
-   internal_data_formats/index
    glossary
 
 The *edX Research Guide* is created using RST_ files and Sphinx_. You, as a
