@@ -35,7 +35,7 @@ download data packages on an ongoing basis.
 Data Czar: Create Keys for Encryption and Decryption
 ****************************************************************
 
-To assure the security of data packages, edX encrypts all files before making
+To ensure the security of data packages, edX encrypts all files before making
 them available to a partner institution. As a result, when you receive a data
 package (or other files) from edX, you must decrypt the files that it contains
 before you use them.
@@ -152,7 +152,7 @@ creates an individual account to access this storage service for
 each data czar. The credentials for accessing this account are called an Access
 Key and a Secret Key.
 
-After edX creates these access credentials for you, they use the public
+After edX creates these access credentials for you, edX uses the public
 encryption key that you sent your edX partner manager to encrypt the
 credentials into a ``credentials.csv.gpg`` file. EdX then sends the file to you
 as an email attachment.

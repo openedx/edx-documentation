@@ -1,8 +1,8 @@
 .. _Data_Czar:
 
-#################################################
-Data Czar and Team Selection and Responsibilities
-#################################################
+############################################
+Responsibilities of the Data Czar and Team
+############################################
 
 A data czar is the single representative at a partner institution who has the
 credentials to download and decrypt edX data packages. The data czar is
@@ -10,10 +10,8 @@ responsible for transferring data securely to researchers and other interested
 parties after it is received. Due to the sensitivity of this data, the
 responsibility for these activities is restricted to one individual.
 
-A data czar is the single representative at a partner institution who has the
-credentials to download and decrypt edX data packages.  At each partner
-institution, the data czar is the primary point of contact for information
-about edX data. At some institutions, only the data czar works on
+At each partner institution, the data czar is the primary point of contact for
+information about edX data. At some institutions, only the data czar works on
 research projects that use the course data in edX data packages. At other
 institutions, the dataczar works with a team of additional contributors, or is
 responsible only formaking a secure transfer of the data to the research team.
