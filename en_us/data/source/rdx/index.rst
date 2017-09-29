@@ -15,14 +15,11 @@ researchers at those institutions can request data from the program.
 Researchers at participating partner institutions must propose, and be approved
 for, a specific educational research project to receive RDX data.
 
-<<<<<<< HEAD
 EdX obfuscates obvious identifiers from RDX data before it is shared. For
 example, names, user names, email addresses, and IP addresses are removed from
 the data. For more information, see `rdx_data`. Published studies based on RDX
 data may include only aggregate data.
 
-=======
->>>>>>> parent of 3630c62... Merge pull request #1568 from edx/carol/Home_followup
 .. toctree::
    :maxdepth: 2
 

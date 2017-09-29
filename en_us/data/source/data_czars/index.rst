@@ -1,14 +1,8 @@
 .. _Data_Czar:
 
-<<<<<<< HEAD
 ############################################
 Responsibilities of the Data Czar and Team
 ############################################
-=======
-###################################
-Data Czars at Partner Institutions
-###################################
->>>>>>> parent of 3630c62... Merge pull request #1568 from edx/carol/Home_followup
 
 A data czar is the single representative at a partner institution who has the
 credentials to download and decrypt edX data packages. The data czar is
@@ -155,12 +149,3 @@ to the public.  For more information about this and other resources, see
 
 .. include:: ../../../links/links.rst
 
-<<<<<<< HEAD
-
-=======
-   data_czar.rst
-   data_security.rst
-   resources.rst
-   credentials.rst
-   package.rst
->>>>>>> parent of 3630c62... Merge pull request #1568 from edx/carol/Home_followup

@@ -5,15 +5,10 @@ Keys and Credentials for Data Transfers
 ####################################################
 
 EdX transfers course data to the data czars at our partner institutions in
-<<<<<<< HEAD:en_us/data/source/access/credentials.rst
 regularly generated data packages. Data packages can be accessed only by the
 data czar at each partner institution. This section describes how data czars
 can set up and use the credentials and public/private key pairs they need so
 that they can download and decrypt the edX data package.
-=======
-regularly generated data packages. Data packages can only be accessed by the
-data czar at each university.
->>>>>>> parent of 3630c62... Merge pull request #1568 from edx/carol/Home_followup:en_us/data/source/data_czars/credentials.rst
 
 .. contents::
   :local:
@@ -41,17 +36,10 @@ download data packages on an ongoing basis.
 Data Czar: Create Keys for Encryption and Decryption
 ****************************************************************
 
-<<<<<<< HEAD:en_us/data/source/access/credentials.rst
 To ensure the security of data packages, edX encrypts all files before making
 them available to a partner institution. As a result, when you receive a data
 package (or other files) from edX, you must decrypt the files that it contains
 before you use them.
-=======
-To assure the security of data packages, the edX Analytics team encrypts all
-files before making them available to a partner institution. As a result, when
-you receive a data package (or other files) from the edX Analytics team, you
-must decrypt the files that it contains before you use them.
->>>>>>> parent of 3630c62... Merge pull request #1568 from edx/carol/Home_followup:en_us/data/source/data_czars/credentials.rst
 
 The cryptographic processes of encrypting and decrypting data files require
 that you create a pair of keys: the public key in the pair, which you send to
@@ -165,17 +153,10 @@ Analytics team creates an individual account to access this storage service for
 each data czar. The credentials for accessing this account are called an Access
 Key and a Secret Key.
 
-<<<<<<< HEAD:en_us/data/source/access/credentials.rst
 After edX creates these access credentials for you, edX uses the public
 encryption key that you sent your edX partner manager to encrypt the
 credentials into a ``credentials.csv.gpg`` file. EdX then sends the file to you
 as an email attachment.
-=======
-After the edX Analytics team creates these access credentials for you, they use
-the public encryption key that you sent your partner manager to encrypt the
-credentials into a **credentials.csv.gpg** file. The edX Analytics team then
-sends the file to you as an email attachment.
->>>>>>> parent of 3630c62... Merge pull request #1568 from edx/carol/Home_followup:en_us/data/source/data_czars/credentials.rst
 
 The **credentials.csv.gpg** file is likely to be the first file that you
 decrypt with your private GPG key. You use the same process to decrypt the data
