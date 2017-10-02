@@ -10,14 +10,14 @@ into their courses and students.
 
 .. toctree::
    :numbered:
-   :maxdepth: 2
+   :maxdepth: 1
 
-   front_matter/index
-   internal_data_formats/index
+   start/index
    data_czars/index
    access/index
    using/index
    rdx/index
+   internal_data_formats/index
    glossary
 
 The *edX Research Guide* is created using RST_ files and Sphinx_. You, as a
