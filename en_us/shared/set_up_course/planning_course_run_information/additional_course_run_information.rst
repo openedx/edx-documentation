@@ -58,6 +58,13 @@ Optionally, you can also specify additional languages for course videos.
     If you do not specify an enrollment track, only an audit enrollment track
     is created.
 
+    .. note::
+      For courses that offer a verified enrollment track, by default, the
+      deadline for learners to upgrade to the verified track is 10 days before
+      the course end date. The deadline for learners in the verified track to
+      submit ID verification is the course end date. To request different
+      deadlines, contact your edX project coordinator (PC).
+
     For information about how to add this information in Publisher, see
     :ref:`Pub Creating a Course Run`.
 

@@ -31,7 +31,7 @@ In Publisher, a course run contains the following information.
 
        Pacing
 
-       ㅤEnrollment track (default is audit)
+       ㅤ:ref:`Enrollment track<enrollment_track_g>` (default is audit)
 
        Content language
 
@@ -74,7 +74,6 @@ The course run creation process in Publisher includes the following steps.
 #. :ref:`Create the course run<Pub Create a Course Run>`. In this step, you
    provide only basic information about the course run, and Publisher creates a
    page for the course run.
-#. :ref:`Receive a Studio URL <Pub Receive a Studio URL>` from the edX PC.
 #. :ref:`Edit the course run <Pub Edit a Course Run>`, adding all required
    information for the About page.
 #. :ref:`Send the course run to the edX PC for review <Pub Send a Course for
@@ -122,41 +121,9 @@ At the top of the course run page, "breadcrumbs" are visible that list the name
 of the course and the course run. For example, the breadcrumbs may be ``Courses
 > Creating an edX Course > Self-paced: June 1, 2017``.
 
-You can edit course run information at any time before you send the course run
-to the edX PC for review. For more information, see :ref:`Pub Edit a Course
-Run`.
-
-.. _Pub Receive a Studio URL:
-
-**************************************
-Receive a Studio URL for a Course Run
-**************************************
-
-.. note::
- You can edit a course run before you receive a Studio URL for the course run.
- However, the course run must have a Studio URL before you send the course run
- to the PC for review.
-
-When you create a course run, Publisher automatically sends a notification to
-the edX PC. The edX PC then creates a Studio URL for the course run. This
-process can take up to two business days.
-
-When the edX PC creates the Studio URL, this information automatically appears
-in the **Studio URL** field on the course run page. Additionally, Publisher
-sends an email notification to the course team that the Studio URL has been
-created. The email notification contains a link to the course run in Studio and
-to the course run page in Publisher.
-
-After the edX PC has created the Studio URL for the course run, the course team
-has the the following options.
-
-* Enter content for the course run in Studio. To access the course run in
-  Studio, select the link in the notification email, or select the **Studio
-  URL** link on the course run page.
-* Continue editing the course run in Publisher. For more information, see
-  :ref:`Pub Edit a Course Run`.
-* Send the course run to the edX PC for review. For more information, see
-  :ref:`Pub Send a Course Run for Review`.
+After you create a course run, you can edit course run information in Publisher
+or add course information in Studio. For more information, see :ref:`Pub Edit a
+Course Run`.
 
 .. _Pub Edit a Course Run:
 
@@ -164,12 +131,22 @@ has the the following options.
 Edit a Course Run
 *******************
 
-.. note::
- You can edit a course run before you receive a Studio URL for the course run.
- However, the course run must have a Studio URL before you send the course run
- to the PC for review.
+When you create a course run in Publisher, Studio automatically creates a URL
+for the course run. The course team then has two options.
 
- Additionally, you do not have to enter all of the required information for the
+* Enter content for the course run in Studio. For more information, see
+  :ref:`Pub Access the Course Run in Studio`.
+* Continue editing the course run in Publisher. For more information, see
+  :ref:`Pub Edit a Course Run in Publisher`.
+
+.. _Pub Edit a Course Run in Publisher:
+
+==============================
+Edit a Course Run in Publisher
+==============================
+
+.. note::
+ You do not have to enter all of the required information for the
  course run at one time. You can return to the course run page and add
  information at any time before you send the course run for review.
 
@@ -197,6 +174,24 @@ To edit a course run, follow these steps.
      opens.
 
 #. When you have made your changes, select **Update Course Run**.
+
+.. _Pub Access the Course Run in Studio:
+
+===============================
+Access the Course Run in Studio
+===============================
+
+When you create a course run in Publisher, the Studio URL for the course run
+immediately appears in the **Studio URL** field on the course run page.
+Additionally, Publisher sends an email notification to the course team. The
+email notification contains a link to the course run in Studio and to the
+course run page in Publisher.
+
+To access the course run in Studio, select the link in the notification email,
+or select the **Studio URL** link on the course run page.
+
+For more information about what content and information to enter in Studio, see
+:ref:`Partner Add Studio Information`.
 
 .. _Pub Send a Course Run for Review:
 

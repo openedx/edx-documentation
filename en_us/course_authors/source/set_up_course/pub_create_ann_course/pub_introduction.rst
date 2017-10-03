@@ -70,12 +70,6 @@ the following process. You can click the image to enlarge it.
 #. :ref:`Create the course run <Pub Creating a Course Run>`.
 
    #. The course team creates a course run for the course.
-   #. The edX PC creates a Studio URL for the course run.
-
-      .. note::
-        After the edX PC creates a Studio URL, the course team can add course
-        content, such as lessons, in Studio at any time.
-
    #. The course team edits the course run, adding any additional required
       information.
    #. The edX PC reviews the course run.
