@@ -240,7 +240,7 @@ productive.
   and use it to respond to the redundant threads.
 
 * Publicize issues raised in the discussions: add questions and their answers
-  to an FAQ topic, or announce them in a course update.
+  to an FAQ topic, or announce them on the **Home** page.
 
 For a template that you can use to develop guidelines for your course
 moderators, see :ref:`Guidance for Discussion Moderators`.
