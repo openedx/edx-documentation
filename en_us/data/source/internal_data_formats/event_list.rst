@@ -94,8 +94,6 @@ D, E, F
      - :ref:`enrollment`
    * - ``edx.course.enrollment.upgrade.succeeded``
      - :ref:`enrollment`
-   * - ``edx.course.home.resume_course.clicked``
-     - :ref:`navigational`
    * - ``edx.course.student_notes.added``
      - :ref:`notes`
    * - ``edx.course.student_notes.deleted``
@@ -153,8 +151,6 @@ D, E, F
    * - ``edx.grades.problem.submitted``
      - :ref:`grading_events`
    * - ``edx.grades.subsection.grade_calculated``
-     - :ref:`grading_events`
-   * - :ref:`edx_grades_subsection_score_overridden`
      - :ref:`grading_events`
    * - ``edx.instructor.report.downloaded``
      - :ref:`course_reporting_events`
