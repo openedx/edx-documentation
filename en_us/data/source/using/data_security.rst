@@ -9,8 +9,8 @@ and procedures and configure any computers and other devices that are used to
 access, store, and work with learner data from edX.
 
 EdX has prepared these guidelines for use as a starting point; they can and
-should be used in conjunction with the member's own security program. EdX may
-periodically update these guidelines to reflect changes in best practices.
+should be used in conjunction with your own institution's security program.
+EdX may periodically update these guidelines to reflect changes in best practices.
 
 .. contents::
   :local:

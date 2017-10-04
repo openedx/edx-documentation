@@ -4,11 +4,9 @@
 Data Delivered in Data Packages
 ######################################
 
-For partners who are running courses on edx.org and edge.edx.org, edX regularly
-makes research data available for download from the Amazon S3 storage service.
-The data package that data czars download from Amazon S3 consists of a set of
-compressed and encrypted files that contain event logs and database snapshots
-for all of their organization's edx.org and edge.edx.org courses.
+The edX data package that data czars download from Amazon S3 consists of a set
+of compressed and encrypted files that contain event logs and database
+snapshots for all of their organization's edx.org and edge.edx.org courses.
 
 .. contents::
    :local:
