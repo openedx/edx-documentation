@@ -13,8 +13,10 @@ the course, and of providing orienting information that helps learners succeed
 with the course.
 
 After learners have read the welcome message, they can dismiss the message.
-Learners can access the dismissed message and any other updates from the
-**Updates** link in the sidebar on the **Course** page.
+The message is automatically dismissed seven days after the learner first
+views it if the learner doesn't actively dismiss it first. Learners can access
+the dismissed message and any other updates from the **Updates** link in the
+sidebar on the **Course** page.
 
 Handouts are links to files that you upload in Studio, for example, a PDF
 version of the course syllabus, or an article that you want learners to read.
