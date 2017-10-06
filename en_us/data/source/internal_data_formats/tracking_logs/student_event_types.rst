@@ -2192,11 +2192,12 @@ different mode is complete.
 
 Students who enroll with a ``student_courseenrollment.mode`` of 'audit' in a
 course that has a verified certificate option see an upgrade link or button
-for the course on their dashboards. The browser emits this event when a student clicks this option, and the process of upgrading the
+for the course in various locations. The browser emits this event when a
+student clicks this option, and the process of upgrading the
 ``student_courseenrollment.mode`` for the student to 'verified' begins. See
 :ref:`student_courseenrollment`.
 
-**History**: Added 18 Dec 2013; ``location`` field added .
+**History**: Added 18 Dec 2013; ``location`` field added 10 Oct 2017.
 
 **Event Source**: Browser
 
@@ -2215,7 +2216,7 @@ event type also includes the following ``context`` member field.
    * - ``location``
      - string
      - The location in the LMS where the student clicked an upgrade link or
-       button: 'sidebar', 'notification', 'sock', or 'learner_dashboard'.
+       button: 'date-sidebar', 'hero', 'learner_dashboard', or 'sock'.
    * - ``mode``
      - string
      - Enrollment mode when the user clicked an upgrade link or button:
