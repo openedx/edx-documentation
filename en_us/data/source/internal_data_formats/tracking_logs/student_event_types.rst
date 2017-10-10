@@ -2190,14 +2190,13 @@ different mode is complete.
 ``edx.course.enrollment.upgrade.clicked``
 =============================================================================
 
-Students who enroll with a ``student_courseenrollment.mode`` of 'audit' or
-'honor' in a course that has a verified certificate option see a **Challenge
-Yourself** link for the course on their dashboards. The browser emits this
-event when a student clicks this option, and the process of upgrading the
+Students who enroll with a ``student_courseenrollment.mode`` of 'audit' in a
+course that has a verified certificate option see an upgrade link or button
+for the course on their dashboards. The browser emits this event when a student clicks this option, and the process of upgrading the
 ``student_courseenrollment.mode`` for the student to 'verified' begins. See
 :ref:`student_courseenrollment`.
 
-**History**: Added 18 Dec 2013.
+**History**: Added 18 Dec 2013; ``location`` field added .
 
 **Event Source**: Browser
 
@@ -2213,10 +2212,14 @@ event type also includes the following ``context`` member field.
    * - Field
      - Type
      - Details and Member Fields
+   * - ``location``
+     - string
+     - The location in the LMS where the student clicked an upgrade link or
+       button: 'sidebar', 'notification', 'sock', or 'learner_dashboard'.
    * - ``mode``
      - string
-     - Enrollment mode when the user clicked **Challenge Yourself**: 'audit' or
-       'honor'.
+     - Enrollment mode when the user clicked an upgrade link or button:
+       'audit'.
 
 ``event`` **Member Fields**: None.
 
