@@ -62,6 +62,10 @@ html_theme = 'edx_theme'
 
 html_theme_path = [edx_theme.get_html_theme_path()]
 
+html_theme_options = {
+    'navigation_depth': 3
+}
+
 html_favicon = os.path.join(edx_theme.get_html_theme_path(), 'edx_theme', 'static', 'css', 'favicon.ico')
 
 # Help and Feedback links.  These are customized for the category and audience
