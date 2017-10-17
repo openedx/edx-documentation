@@ -38,7 +38,7 @@ You can use the app to do the following things.
      exams, you cannot take them using the mobile app.
 
 
-.. The "General Questions" and "Getting Started" sections that follow apply only to edX partners/edx.org only
+.. The "General Questions" and "Getting Started" sections that follow apply only to edX partners/edx.org
 
 .. only:: Partners
 
@@ -65,11 +65,10 @@ You can use the app to do the following things.
  What platforms does the app run on?
  ========================================
 
- Right now, the edX mobile app is available for Android smartphones and
- iPhones. For the iPhone app, your device must be running iOS 7 or later.
+ Right now, the edX mobile app is available for Android smartphones, iPhones,
+ and the iPad. For the iPhone app, your device must be running iOS 7 or later.
 
- EdX plans to make the app available on Android tablets and iPads in the
- future.
+ EdX plans to make the app available on Android tablets in the future.
 
  ================================================
  How can I send questions or comments to edX?
@@ -89,9 +88,8 @@ You can use the app to do the following things.
  Do I need an edX account?
  ======================================
 
- You need to have an edX account before you can enroll in courses. On the
- Android version of the mobile app, you can browse courses and view course
- details without an edX account and without logging in.
+ You do not need an edX account to browse courses and view course details.
+ However, you need to have an edX account before you can enroll in courses.
 
  You can register for an edX account in the edX mobile app, or use a browser to
  go to the `edx.org`_ website. When you create your account, you need to be
@@ -140,6 +138,20 @@ You can use the app to do the following things.
     profile. If you are under 13 years of age, you cannot share a full
     profile or add a profile picture.
 
+ In the edX mobile app, follow these steps to view or edit your profile.
+
+ #. From the main menu, select **Account**.
+
+    .. image:: ../../shared/images/SFD_Mobile_Menu.png
+       :width: 200
+       :alt: The main menu of the edX mobile app, showing the My Courses,
+         Discover, and Account options.
+
+ #. Select **Profile**.
+
+ #. Select **Edit** to change your profile details.
+
+
  For more information about creating or editing your edX profile, see
  :ref:`Adding Profile Information<SFD Profile Page>`.
 
@@ -152,12 +164,10 @@ You can use the app to do the following things.
  depending on the type of problems used in the course, you might not be able to
  complete all the course assignments or exams using the app.
 
- On Android devices, you do not need to have an edX account or be logged in to
- browse courses. Select **Discover Courses** in the edX mobile app.
-
- On both Android and iOS devices, if you have an edX account and are logged in
- to the mobile app, select **Find Courses** in the menu to access the list of
- available courses.
+ To browse courses, select **Discover Courses** in the edX mobile app or
+ **Discover** from the app's main menu. You do not need to have an edX account
+ or be logged in to browse courses. From the **My Courses** page in the app,
+ you can also browse courses by tapping the search icon in the top corner.
 
  When you find a course that interests you, select the course to view its About
  page. The About page includes course details such as the course start date,
@@ -165,20 +175,23 @@ You can use the app to do the following things.
  offered, the language that the course is taught in, and so on. Many About
  pages include a informational video about the course.
 
- For more information about edX courses and course availability, see :ref:`About
- Courses`.
+ For more information about edX courses and course availability, see
+ :ref:`About Courses`.
 
  ==================================================
  How do I enroll in a course?
  ==================================================
 
- To enroll in a course, select **Enroll Now** from its About page. You are
- enrolled in the audit track for a course. If the course includes a verified
- track and the upgrade deadline for the course has not passed, you can upgrade
- to the verified track to earn a certificate.
+ To enroll in a course, select **Enroll Now** from the course About page. You
+ must log in or register on edx.org before you can enroll.
+
+ When you initially enroll in a course, you join the audit track for a course.
+ If the course includes a verified track and the upgrade deadline for the
+ course has not passed, you can upgrade to the verified track to earn a
+ certificate.
 
  For more information about enrolling and about course tracks, see :ref:`SFD
- Enrolling in a Course` and :ref:`Enrollment Tracks`.
+ Enrolling in a Course` and :ref:`Enrollment Tracks`
 
  ========================================
  How do I unenroll from a course?
@@ -415,14 +428,14 @@ By default, the edX app is set so that it only downloads content, including
 videos, if you are on a Wi-Fi network. If you change this setting, you might
 exceed the data allowance for your cellular plan.
 
-#. On the **My Courses** page, select the menu in the upper left corner.
+#. From the main menu, select **Account**.
 
     .. image:: ../../shared/images/SFD_Mobile_Menu.png
        :width: 200
-       :alt: Mobile "My Courses" page with an arrow pointing to the menu in the
-         upper left corner.
+       :alt: The main menu of the edX mobile app, showing the My Courses,
+         Discover, and Account options.
 
-#. Select **My Settings**.
+#. Select **Settings**.
 
 #. Change the **Wi-Fi only download** setting.
 
