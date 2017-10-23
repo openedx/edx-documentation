@@ -7,24 +7,33 @@ Creating Products Overview
 The edX platform offers several types of products. You create these products in
 E-Commerce web pages.
 
-* Course seats represent an enrollment track. Each course seat has an
-  associated set of attributes, such as price and certificate availability. The
-  edX code uses course seats to determine how a given enrollment should be
-  handled. For more information, see :ref:`enrollment
-  track<enrollment_track_g>` or :ref:`Create Course Seats`.
+* Course seats represent an :ref:`enrollment track<enrollment_track_g>`. Each
+  course seat has an associated set of attributes, such as price and
+  certificate availability. The edX code uses course seats to determine how a
+  given enrollment should be handled. For more information, see :ref:`Create
+  Course Seats`.
 
-* Coupons allow users to offer learners a discount, either percentage or fixed
-  amount, off a course enrollment. For more information, see :ref:`Create and
+* Coupons allow you to offer learners a discount, either percentage or fixed
+  amount, on a course enrollment. For more information, see :ref:`Create and
   Manage Coupons`.
 
-* Enrollment codes allow users to purchase bulk enrollments for a course.
+* Enrollment codes allow users to purchase bulk enrollments for a course. For
+  more information, see :ref:`Enable and Create Enrollment Codes`.
+
+* Programs are collections of related courses. Learners can enroll in and
+  purchase courses separately, or you can configure programs to allow one-
+  click purchasing of all courses in a program. For more information, see
+  :ref:`Programs`.
+
+
+.. _Start ECommerce Service:
 
 ******************************
-Prepare to Create a Product
+Start the E-Commerce Service
 ******************************
 
-Before you create a product, complete the following steps to start the
-E-Commerce service on your site.
+Before you can create a product, you must start the E-Commerce service on your
+site. Follow these steps to start the E-Commerce service.
 
 #. In the ecommerce and LMS configuration files (``/edx/etc/ecommerce.yml`` and
    ``/edx/app/edxapp/lms.auth.json``, respectively), verify the following

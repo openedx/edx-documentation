@@ -27,11 +27,8 @@ Starting the Open edX LMS
 
      $ sudo su edxapp
 
-#. Start the LMS.
+#.  :ref:`Start the LMS<Start the LMS>`.
 
-   .. code-block:: bash
-
-     $ paver devstack lms
 
 ****************************************
 Starting the Open edX Analytics Data API

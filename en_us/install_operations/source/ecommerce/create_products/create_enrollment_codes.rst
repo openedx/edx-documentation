@@ -4,18 +4,22 @@
 Enable and Create Enrollment Codes
 #####################################
 
-.. note::
-  The enrollment codes in this topic are not related to the enrollment codes in
-  the :ref:`Create and Manage Coupons` topic.
-
 Enrollment codes allow users to purchase bulk enrollments for a course.
+
+.. note::
+
+   Enrollment codes used for bulk enrollments, as described in this topic,  are
+   not related to the "enrollment code" coupon code type that is referred to in
+   the :ref:`Create and Manage Coupons` topic.
+
 
 ************************
 Enable Enrollment Codes
 ************************
 
-You must enable enrollment codes in the E-Commerce service and in individual
-courses.
+Before you create enrollment codes that can be used for bulk enrollments for a
+course, you must enable enrollment codes in the E-Commerce service and in
+individual courses.
 
 #. To enable enrollment codes in the E-Commerce service, run the site
    configuration command together with the following option.
