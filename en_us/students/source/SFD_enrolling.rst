@@ -95,6 +95,10 @@ take a course for a fee, with the option of earning a verified certificate.
 For more information about enrolling in a course, see :ref:`SFD Enroll in a
 Course`.
 
+.. contents::
+  :local:
+  :depth: 1
+
 .. _SFD About Audit Track:
 
 About the Audit Track
@@ -105,11 +109,13 @@ not include a certificate when you complete your course. The audit track gives
 you access to all course materials, including assignments and exams.
 
 When you first enroll in a course, you are automatically enrolled in the audit
-track.
+track. For information about enrolling in the audit track for a course, see
+:ref:`Enroll in the Audit Track`.
 
-If the course offers a verified track and the deadline for enrolling in
-the verified track has not passed, you can choose to  upgrade to the verified
-track. For more information, see :ref:`SFD Change to the Verified Track`.
+If the course you enrolled in offers a verified track and the deadline for
+enrolling in the verified track has not passed, you can choose to upgrade to the
+verified track to earn a certificate. For more information, see :ref:`SFD Change
+to the Verified Track`.
 
 
 .. _SFD Verified Track:
@@ -117,12 +123,12 @@ track. For more information, see :ref:`SFD Change to the Verified Track`.
 About the Verified Track
 *************************
 
-Many courses offer a verified track in addition to the free audit track. The
-verified track has a fee, and offers a verified certificate when you pass the
-course.
+Most courses offer a verified track in addition to the free audit track. The
+verified track has a fee, and offers a certificate when you pass the course.
 
-If a course has a verified track, you see a "Verified" indication on the
-course image in the course catalog on edx.org.
+If a course has a verified track, you see a "Verified" indication on the course
+image in the course catalog on edx.org. For a list of all courses that currently
+offer verified certificates, see the `edX course catalog`_.
 
 .. image:: ../../shared/images/SFD_VerifiedBadge.png
    :width: 200
@@ -133,16 +139,15 @@ Verified Track>` in the course, you submit payment, and, some time before the
 verification deadline, you must :ref:`verify your identity<SFD Verify Your
 Identity>` using a webcam and a photo ID.
 
-.. note:: The fee for a verified certificate varies by course. The amount of
-   the fee is listed on the About page for that course. The fee helps support
-   edX's mission. If you are unable to pay the certificate fee, you can apply
-   for financial assistance using the `financial assistance application`_.
+.. note:: The fee for the verified track varies by course. The amount of the fee
+   is listed on the About page for that course. The fee helps support edX's
+   mission. If you are unable to pay the verified track fee, you can apply for
+   financial assistance using the `financial assistance application`_.
 
-For a list of all courses that currently offer verified certificates, see the
-`edX course catalog`_. For more information about enrolling in the verified
-track for a course, see :ref:`SFD Enroll in a Course` or :ref:`SFD Change to
-the Verified Track`. For information about certificates, see
-:ref:`Certificates` and `Verified Certificates`_ on the edx.org website.
+For more information about enrolling in the verified track for a course, see
+:ref:`Enroll in the Verified Track` or :ref:`SFD Change to the Verified Track`.
+For information about certificates, see :ref:`Certificates` or `Verified
+Certificates`_.
 
 
 .. _About Programs:
@@ -151,11 +156,12 @@ the Verified Track`. For information about certificates, see
 About edX Programs
 ********************
 
-In addition to taking individual edX courses, you can enroll in an entire
-series of courses. Several types of program are available on edx.org,
-including :ref:`XSeries programs<About XSeries Programs>`, :ref:`MicroMasters
-programs<About MicroMasters Programs>`, and :ref:`Professional Certificate
-programs<About ProfCert Programs>`.
+In addition to taking individual edX courses, you can enroll in an entire series
+of courses, called a program. Several types of program are available on edx.org.
+
+.. contents::
+  :local:
+  :depth: 1
 
 For a list of programs available on edx.org, see `edx Programs`_.
 
@@ -305,7 +311,7 @@ To pursue a verified certificate in a course, follow these steps.
    with a "Verified" banner. Select the course that you want to take.
 
 #. On the course About page, review information about the course including the
-   price in US dollars for a verified certificate.
+   price to enroll in the verified track of the course.
 
 #. Select **Enroll Now**.
 
@@ -316,7 +322,7 @@ To pursue a verified certificate in a course, follow these steps.
 
    * Payment is in US dollars.
 
-   * You must pay the certificate fee before you can begin the course.
+   * You must pay the verified track fee before you can begin the course.
 
    * You do not have to verify your identity immediately, but you
      must verify your identity before the course ID verification deadline has
@@ -351,7 +357,14 @@ the program's courses, and view any certificates that you have earned.
 Unenroll from a Course
 ========================
 
-You can drop or unenroll from a course, but it is not necessary to do so. You can simply stop viewing and working in the course, which will remain in the list of courses on your dashboard.
+You can drop or unenroll from a course, but it is not necessary to do so. You
+can simply stop viewing and working in the course, which will remain in the list
+of courses on your dashboard.
+
+If you unenroll from the verified track of a course within 14 days of your
+payment or 14 days after the course start date, whichever is later, you can
+receive a refund for the verified track fee. For more information about getting
+a refund, see :ref:`Get a Refund`.
 
 .. note:: If you unenroll from a course, the course is deleted from
    your dashboard, and you can no longer access course content or information
