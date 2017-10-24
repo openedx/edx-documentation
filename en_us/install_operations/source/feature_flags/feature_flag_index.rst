@@ -116,6 +116,9 @@ platform.
    * - ENABLE_FEEDBACK_SUBMISSION
      - Supported
      - FALSE
+   * - ENABLE_HTML_XBLOCK_STUDENT_VIEW_DATA
+     - Supported
+     - FALSE
    * - ENABLE_INSTRUCTOR_ANALYTICS
      - Deprecated
      - FALSE
