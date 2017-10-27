@@ -5,10 +5,11 @@ Index of Open EdX Feature Flags
 ###############################
 
 The following list includes feature flags that are available in the Open edX
-platform.
+platform. For more information abut feature flags, see `edX Feature Flags`_
+in the Open edX wiki.
 
 .. list-table::
-   :widths: 15 15 70
+   :widths: 70 15 15
    :header-rows: 1
 
    * - Name
@@ -266,3 +267,5 @@ platform.
    * - USE_MICROSITES
      - Supported
      - FALSE
+
+.. include:: ../../../links/links.rst

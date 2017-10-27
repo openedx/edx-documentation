@@ -222,7 +222,7 @@
 
 .. _Open edX Native Installation: https://openedx.atlassian.net/wiki/x/g4G6C
 
-
+.. _edX Feature Flags: https://openedx.atlassian.net/wiki/spaces/OpenDev/pages/34734726/edX+Feature+Flags
 
 .. THIRD PARTY LINKS
 
