@@ -207,7 +207,11 @@ the prerequisite subsection.
 
    You cannot use :ref:`open response assessments<Open Response Assessments 2>`
    as the prerequisite for other course subsections.
+   
+.. note::
 
+   You must first :ref:`Enable Course Prerequisites` before 
+   prerequisite course subsections can be used.
 
 .. _enabling_subsection_gating:
 
