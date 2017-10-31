@@ -11,3 +11,6 @@ set_audience(OPENEDX, DEVELOPERS)
 
 # remove directory when content is first added to it, and add to index
 exclude_patterns = ['links.rst', 'configuration/configure_milestone_app.rst']
+
+# overrides the navigation depth setting from shared/conf.py
+html_theme_options['navigation_depth'] = 2
