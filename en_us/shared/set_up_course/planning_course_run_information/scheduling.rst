@@ -4,22 +4,22 @@
 Scheduling a Course Run
 #######################
 
-Scheduling, which includes start and end dates as well as whether the course is self-paced or instructor-paced, changes with every course run.
+Scheduling, which includes start and end dates as well as whether the course is
+self-paced or instructor-paced, changes with every course run.
 
 .. only:: Partners
 
-   The scheduling information in this topic is required to create an About
-   page. After you determine scheduling for your course run, you enter the
-   course run start and end dates and pacing in Publisher when you create a
-   course run. For more information, see :ref:`Pub Create a Course Run`. You
-   must also enter this information in Studio before the course run begins. For
-   more information, see :ref:`Set Schedule and Pacing`.
+   For courses on edx.org, you enter this information in Publisher. For more
+   information, see :ref:`Pub Create a Course Run`.
+
+   For courses on Edge, you enter this information in Studio. For more
+   information, see :ref:`Creating a Course About Page`.
 
 .. only:: Open_edX
 
    After you determine scheduling for your course run, you enter this
    information in Studio before the course run begins. For more information,
-   see :ref:`Set Schedule and Pacing`.
+   see :ref:`Creating a Course About Page`.
 
 .. contents::
    :local:
@@ -153,8 +153,8 @@ visible.
 Course Pacing
 *************
 
-This topic describes how to set your course to follow a typical schedule or to
-be a self-paced course.
+This topic describes the difference between instructor-paced and self-paced
+courses.
 
 ===========================
 Overview of Course Pacing
@@ -172,7 +172,8 @@ page. By default, courses are instructor-paced.
 
 .. image:: ../../../../shared/images/Pacing_COIndicator.png
  :width: 600
- :alt: text
+ :alt: The Course Outline page with a call-out for the indicator that the
+     course is instructor-paced.
 
 .. note::
     You cannot change the course pacing after the course start date has passed.

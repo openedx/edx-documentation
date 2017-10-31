@@ -1,22 +1,21 @@
 .. _Set Schedule and Pacing:
 
-######################################
-Set the Course Run Schedule and Pacing
-######################################
+#################################################
+Set the Course Run Schedule and Pacing in Studio
+#################################################
+
+.. only:: Partners
+
+  .. note::
+    This information applies to Edge courses. If your course will run on
+    edx.org, see :ref:`Pub Course Run Creation`.
 
 After you determine the start and end dates for a course run, and whether you
 want your course run to be self-paced or instructor-paced, you specify these
 settings on the **Schedule & Details** page in Studio.
 
-For more information about determining how to schedule your course, see :ref:`Scheduling Your Course`.
-
-.. only:: Partners
-
- .. note::
-   You enter the course run start and end dates and pacing in Publisher when
-   you create a course run. For more information, see :ref:`Pub Create a Course
-   Run`. You must also enter this information in Studio before the course run
-   begins.
+For more information about determining how to schedule your course, see
+:ref:`Scheduling Your Course`.
 
 .. _Set Start and End Dates:
 
@@ -93,6 +92,8 @@ To set an advertised start date in Studio, follow these steps.
  If you do not change the default course start date (01/01/2030), and the
  **Course Advertised Start Date** policy value is ``null``, no start date
  appears for the course. Learners just see that the course has not yet started.
+
+.. _Set Course Pacing:
 
 ************************************
 Set Pacing for Your Course in Studio

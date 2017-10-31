@@ -13,8 +13,11 @@ section describes this information.
 
 .. only:: Partners
 
-  You add these optional items to your course in Publisher. For more
-  information, see :ref:`Pub Create a Course`.
+  For courses on edx.org, you add these optional items to your course in
+  Publisher. For more information, see :ref:`Pub Create a Course`.
+
+  For courses on Edge, you add these items in Studio. For more information, see
+  :ref:`Creating a Course About Page`.
 
 .. only:: Open_edX
 
@@ -33,9 +36,14 @@ course About page.
 
 .. only:: Partners
 
-  Skill and knowledge prerequisites are optional. You use Publisher to specify
-  these prerequisites. Skill and knowledge prerequisites can have up to 200
-  characters. For more information, see :ref:`Pub Creating a Course`.
+  Skill and knowledge prerequisites are optional.
+
+  For courses on edx.org, you use Publisher to specify these prerequisites.
+  Skill and knowledge prerequisites can have up to 200 characters. For more
+  information, see :ref:`Pub Creating a Course`.
+
+  For courses on Edge, you add skill and knowledge prerequisites in Studio. For
+  more information, see :ref:`Creating a Course About Page`.
 
 .. only:: Open_edX
 
@@ -147,9 +155,12 @@ module. To create an effective syllabus, keep the following guidelines in mind.
 
 .. only:: Partners
 
-  You add the syllabus in Publisher. The syllabus has a limit of 2500
-  characters, including spaces. For more information, see :ref:`Pub Create a
-  Course`.
+  For courses on edx.org, you add the syllabus in Publisher. The syllabus has a
+  limit of 2500 characters, including spaces. For more information, see
+  :ref:`Pub Create a Course`.
+
+  For courses on Edge, you add the syllabus in Studio. For more information,
+  see :ref:`Creating a Course About Page`.
 
 .. only:: Open_edX
 
@@ -185,8 +196,12 @@ and the answers to those questions to your About page.
 
 .. only:: Partners
 
-  You add the FAQ in Publisher. The FAQ has a limit of 2500 characters,
-  including spaces. For more information, see :ref:`Pub Create a Course`.
+  For courses on edx.org, you add the FAQ in Publisher. The FAQ has a limit of
+  2500 characters, including spaces. For more information, see :ref:`Pub Create
+  a Course`.
+
+  For courses on Edge, you add the FAQ in Studio. For more information, see
+  :ref:`Creating a Course About Page`.
 
 .. only:: Open_edX
 
@@ -221,9 +236,12 @@ To be effective, a testimonial should contain no more than 25-50 words.
 
 .. only:: Partners
 
-  You add the learner testimonial in Publisher. The learner testimonial has a
-  limit of 500 characters, including spaces. For more information, see
-  :ref:`Pub Create a Course`.
+  For courses on edx.org, you add the learner testimonial in Publisher. The
+  learner testimonial has a limit of 500 characters, including spaces. For more
+  information, see :ref:`Pub Create a Course`.
+
+  For courses on Edge, you add the learner testimonial in Studio. For more
+  information, see :ref:`Creating a Course About Page`.
 
 .. only:: Open_edX
 

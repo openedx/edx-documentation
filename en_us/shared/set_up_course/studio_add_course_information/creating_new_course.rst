@@ -1,8 +1,8 @@
 .. _Creating a New Course:
 
-###########################
-Creating a New Course
-###########################
+###############################
+Creating a New Course in Studio
+###############################
 
 This topic describes how to use Studio to create and set up a course.
 
@@ -10,7 +10,7 @@ This topic describes how to use Studio to create and set up a course.
 
    .. note::
     This process applies to courses on the edX Edge site. If your course will
-    run on edx.org, see :ref:`Pub Creating and Announcing a Course`.
+    run on edx.org, see :ref:`Pub Course Creation`.
 
     You must have the correct permissions to create courses on the edX Edge
     site. For more information, see :ref:`Use Studio on Edge`.

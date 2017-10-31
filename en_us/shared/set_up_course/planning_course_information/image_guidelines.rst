@@ -10,7 +10,17 @@ learner dashboards and search engine results.
 
 .. only:: Partners
 
-  A course image is required to create an About page.
+    For edx.org courses, you enter this information in Publisher. For more
+    information, see :ref:`Pub Creating a Course`.
+
+    For courses on Edge, you enter this content in Studio. For more
+    information, see :ref:`Creating a New Course`.
+
+.. only:: Open_edX
+
+ For information about how to add your course title and number, see
+ :ref:`Creating a New Course`.
+
 
 .. contents::
   :local:
@@ -43,15 +53,7 @@ mind.
   Flickr creative commons, Stock Vault, Stock XCHNG, and iStock Photo.
 * Each course in a sequence or program must have a unique image.
 
-.. only:: Partners
 
-  For more information about how to add a course image, see :ref:`Pub Create a
-  Course`.
-
-.. only:: Open_edX
-
-  For more information about how to add a course image, see :ref:`Add a Course
-  Image`.
 
 .. _Image Size Guidelines:
 
@@ -146,10 +148,13 @@ videos.
 
 .. only:: Partners
 
- When you add an About video for a course, you must first upload the video to
- the edX/Veda video upload page. You can then optionally enter the URL for your
- course About video in Publisher. For more information, see :ref:`Pub Add an
- About Video` and :ref:`Pub Create a Course`.
+ For courses on edx.org, when you add an About video for a course, you must
+ first upload the video to the edX/Veda video upload page. You can then
+ optionally enter the URL for your course About video in Publisher. For more
+ information, see :ref:`Pub Add an About Video` and :ref:`Pub Create a Course`.
+
+ For courses on Edge, see :ref:`Add an About Video` for information about how
+ to add an About video to your course About page.
 
 .. only:: Open_edX
 

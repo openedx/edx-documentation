@@ -8,9 +8,17 @@ Optional additional information that may change with each course run includes
 information about the languages that course content is available in, as well as
 the time you expect learners to spend with your course.
 
-.. contents::
-   :local:
-   :depth: 1
+.. only:: Partners
+
+    For edx.org courses, you enter this information in Publisher. For more
+    information, see :ref:`Pub Creating a Course Run`.
+
+    For courses on Edge, you enter this content in Studio. For more
+    information, see :ref:`Creating a Course About Page`.
+
+.. only:: Open_edX
+
+ For information about how to enter this content in Studio, see :ref:`Creating a Course About Page`.
 
 .. _Language Guidelines:
 
@@ -24,17 +32,6 @@ You are required to specify a language or languages for the following content.
 * Video transcripts
 
 Optionally, you can also specify additional languages for course videos.
-
-.. only:: Partners
-
-    For information about how to add this information in Publisher, see
-    :ref:`Pub Creating a Course Run`.
-
-.. only:: Open_edX
-
- For information about how to enter this content in Studio, see :ref:`Creating
- a Course About Page`.
-
 
 
 .. only:: Partners
@@ -65,9 +62,6 @@ Optionally, you can also specify additional languages for course videos.
       submit ID verification is the course end date. To request different
       deadlines, contact your edX project coordinator (PC).
 
-    For information about how to add this information in Publisher, see
-    :ref:`Pub Creating a Course Run`.
-
 
 .. _Effort Guidelines:
 
@@ -78,16 +72,7 @@ Effort Guidelines
 Effort indicates the number of hours each week you expect learners to work on
 your course, rounded to the nearest whole number.
 
-.. only:: Partners
 
-    For information about how to add this information in Publisher, see
-    :ref:`Pub Creating a Course Run`.
-
-
-.. only:: Open_edX
-
- For information about how to enter this content in Studio, see :ref:`Set
- Course Effort Expectations`.
 
 
 

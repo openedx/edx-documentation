@@ -1,18 +1,19 @@
 .. _Course_Staffing:
 
-###############
-Course Staffing
-###############
+########################
+Planning Course Staff
+########################
 
 You can designate a team of people to help you run your course.
 
 .. only:: Partners
 
-  You designate the staff that will be visible on the About page for a specific
-  course run in Publisher. For more information, see :ref:`Pub Creating a
-  Course Run`.
+  For courses on edx.org, you designate the staff that appears on the About
+  page for a specific course run in Publisher. For more information, see
+  :ref:`Pub Add Course Run Staff`.
 
-  You can also add staff members in Studio. For more information, see :ref:`Studio_Course_Staffing`.
+  For courses on Edge, you add staff members in Studio. For more information,
+  see :ref:`Studio_Course_Staffing`.
 
 .. only:: Open_edX
 
@@ -29,7 +30,8 @@ You can designate a team of people to help you run your course.
 About Page Biography Guidelines
 ************************************
 
-Staff biographies for the course About page must include the following information.
+Staff biographies for the course About page must include the following
+information.
 
 * Name
 * Title
@@ -47,11 +49,6 @@ Additionally, biographies can optionally include the following information.
 
 * Facebook, Twitter, and blog URLs
 * List of major works
-
-.. only:: Partners
-
-  You add staff biographies on the page for the course run in Publisher. For
-  more information, see :ref:`Pub Creating a Course Run`.
 
 .. only:: Open_edX
 
@@ -131,9 +128,9 @@ Course team members who have the Staff role can complete the following tasks.
 The Admin Role
 ==================
 
-Course team members who have the Admin role can complete all the tasks that team
-members who have the Staff role can complete. In addition, they can complete the
-following tasks.
+Course team members who have the Admin role can complete all the tasks that
+team members who have the Staff role can complete. In addition, they can
+complete the following tasks.
 
 * Access and modify grades for all learners in a course. For example, users
   with the Admin role can reset all learners' attempts to answer a question.
