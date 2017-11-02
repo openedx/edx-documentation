@@ -220,10 +220,125 @@ To set the section release date, follow these steps.
 
 For more information, see :ref:`Release Dates`.
 
+.. _Set Section Highlights for Weekly Course Highlight Messages:
+
+***********************************************************
+Set Section Highlights for Weekly Course Highlight Messages
+***********************************************************
+
+.. only:: Partners
+
+  .. note::
+   The weekly course highlight message feature is in testing until mid-November
+   2017. Until the feature releases, course teams can add highlights to course
+   sections, but learners will not receive email messages.
+
+  To improve learner engagement, edX can send an automatic weekly email message
+  to learners who enroll in self-paced courses. These weekly messages
+  correspond to course sections in Studio, and contain three to five
+  "highlights" for each upcoming course section. A highlight is a brief
+  description of an important concept, idea, or activity. EdX provides most of
+  the text for this weekly course highlight message in a template, and you
+  enter the highlights for the message in Studio. For an example message, see
+  :ref:`Weekly Course Highlight Message Text`.
+
+  For more information about messages that edX sends to learners automatically,
+  see :ref:`Automatic Email`.
+
+  When you add highlights for a section, keep the following information in
+  mind.
+
+  * Each highlight has a limit of 250 characters.
+  * **If you do not add highlights for a section, edX does not send learners a
+    message for that section.** We strongly encourage you to add highlights for
+    all course sections.
+
+    Additionally, edX uses consecutive numbers for each message, even if some
+    sections do not have highlights. For example, if you add highlights for
+    section 1 and section 3, but you do not add highlights for section 2,
+    learners receive a message on day 14 that contains the highlights for
+    section 3.
+
+  * Learners who enroll in the course before you enter highlights do not
+    receive any course highlight messages for the duration of the course. To
+    make sure that all of your learners receive weekly course highlight
+    messages, enter highlights for each section before any learners enroll in
+    your course.
+  * If you update a highlight for a section, the change takes effect
+    immediately for all subsequent messages that contain that highlight.
+
+.. only:: Open_edX
+
+  If your Open edX system adminstrator has configured your instance of the Open
+  edX platform to send course highlight messages, you can send automatic email
+  messages to learners in your course that contain three to five "highlights"
+  of upcoming course content. A highlight is a brief description of an
+  important concept, idea, or activity in the section. Your Open edX system
+  administrator provides the template for this course highlight message, and
+  you enter the highlights for the message in Studio.
+
+  For more information, contact your Open edX system administrator.
+
+.. only:: Partners
+
+  .. _Weekly Course Highlight Message Text:
+
+  ====================================
+  Weekly Course Highlight Message Text
+  ====================================
+
+  The following example shows the edX email template with three example
+  highlights.
+
+  .. include:: ../../../shared/developing_course/course_highlight_message_text.rst
+
+.. _Set Section Highlights:
+
+======================
+Set Section Highlights
+======================
+
+.. only:: Partners
+
+  .. note::
+   If you do not enter highlights for a section, the edX platform assumes that
+   the section does not correspond to a week in the course, and does not send
+   an email message for that section. Instead, edX sends an email message for
+   the next section that has highlights.
+
+The number of highlights that you have set for a section is visible in the
+course outline, below the name of the section.
+
+.. image:: ../../../shared/images/NumSectionHighlights.png
+ :alt: The Course Outline page, showing a section name and "3 Section
+     Highlights" under the name.
+
+To set section highlights, follow these steps.
+
+.. only:: Open_edX
+
+  .. note::
+    If your Open edX system adminstrator has not configured your instance of
+    the Open edX platform to send weekly course highlight messages, learners do
+    not receive messages even if you enter highlights for each section.
+
+.. only:: Partners
+
+  .. note::
+    You can also enter course highlights in OLX.
+
+#. On the **Course Outline** page, locate the section you want, and then select
+   **Section Highlights** under the section name.
+#. In the **Highlights for <section name>** dialog box, enter three to five
+   highlights for the section. Enter one highlight in each field. Each
+   highlight can include up to 250 characters.
+#. Select **Save**.
+
+
 .. _Publish all Units in a Section:
 
 ********************************
-Publish all Units in a Section
+Publish All Units in a Section
 ********************************
 
 To publish all new and changed units in a section, select the **Publish** icon
