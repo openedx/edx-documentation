@@ -1,8 +1,8 @@
-.. _Test Features:
+.. _Test OpenedX Features:
 
-###############
-Test Features
-###############
+##########################
+Testing Open edX Features
+##########################
 
 .. This topic will move to a different section in the ICR guide after the reorg
 .. of the guide is complete.
