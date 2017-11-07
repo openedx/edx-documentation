@@ -27,6 +27,10 @@ submitted together with any answers that you have submitted. Even if you did
 not complete the exam, you might still receive enough points for a passing
 grade.
 
+.. note::
+  You can hide the time that remains in your exam. For more information, see
+  :ref:`Hiding the Exam Timer`.
+
 ***********************
 Taking a Proctored Exam
 ***********************

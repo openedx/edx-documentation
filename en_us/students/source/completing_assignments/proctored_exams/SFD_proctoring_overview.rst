@@ -16,7 +16,8 @@ Some courses that grant academic course credit require learners to pass at
 least one proctored exam. Proctored exams differ from regular exams in the
 following ways.
 
-* All proctored exams have time limits.
+* All proctored exams have time limits. For more information about timed exams,
+  see :ref:`taking_timed_exams`.
 * Proctored exams require you to install proctoring software on your computer.
 * Before you take the exam, you must verify your identity by taking photos of
   your face and a government-issued photo ID.
