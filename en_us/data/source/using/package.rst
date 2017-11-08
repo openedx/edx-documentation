@@ -90,6 +90,9 @@ Data package files are located at the following Amazon S3 destinations:
 * The **s3://course-data** bucket contains the weekly ``{org}-{date}.zip``
   database snapshot.
 
+* The **s3://course-data/email-opt-in** folder contains the report listing
+  learners who have consented to be contacted by email.
+
 For information about accessing Amazon S3, see :ref:`Access Amazon S3`.
 
 .. _Download Data Packages from Amazon S3:
@@ -145,6 +148,23 @@ Download Weekly Database Files
 #. Download the ``{org}-{date}.zip`` database data file from the
    **s3://course-data** bucket.
 
+========================================
+Download the Learner Email Opt-in Report
+========================================
+
+#. To download the report listing learners who have consented to be contacted
+   by email, connect to the edX **s3://course-data** bucket on Amazon S3 using
+   the AWS Command Line Interface or a third-party tool.
+
+   For information about providing your credentials to connect to Amazon S3,
+   see :ref:`Access Amazon S3`.
+
+#. Navigate within the **s3://course-data** bucket to the
+   **s3://course-data/email-opt-in** folder.
+
+#. Download the ``{org}-{date}.zip`` file from the
+   **s3://course-data/email-opt-in** folder.
+
 
 .. _Data Package Contents:
 
@@ -187,8 +207,8 @@ institution, you complete these steps.
    :ref:`Decrypt an Encrypted File`.
 
 The result of extracting and decrypting the ``{org}-{date}.zip`` file is the
-following set of .sql, .csv, and .mongo files. Note that the .sql files are
-tab separated.
+following set of ``.sql``, ``.csv``, and ``.mongo`` files. Note that the
+``.sql`` files are tab separated.
 
 .. contents::
    :local:
@@ -234,12 +254,6 @@ courses). See :ref:`courseware_studentmodule`.
 
 This file lists the role that every enrolled user has for course discussions.
 See :ref:`django_comment_client_role_users`.
-
-``{org}-email_opt_in-{site}-analytics.csv``
-***********************************************
-
-This file reports the email preference selected by learners who are enrolled
-in any of your institution's courses. See :ref:`Institution_Data`.
 
 ``{org}-{course}-{run}-student_courseaccessrole-{site}-analytics.sql``
 **********************************************************************
@@ -355,6 +369,29 @@ Information about the articles added to the course wiki. See
 
 Changes and deletions affecting course wiki articles. See
 :ref:`wiki_articlerevision`.
+
+========================================================
+Extracted Contents of ``email-opt-in/{org}-{date}.zip``
+========================================================
+
+After you download the ``{email-opt-in/org}-{date}.zip`` file for your
+institution, you complete these steps.
+
+#. Extract the contents of the file. When you extract (or unzip) this file,
+   the contents are a single file that ends in ``.gpg``, which indicates that
+   it is encrypted.
+
+#. Use your private key to decrypt the extracted file. See
+   :ref:`Decrypt an Encrypted File`.
+
+The result of extracting and decrypting the ``{org}-{date}.zip`` file is the
+following ``.csv`` file.
+
+``{org}-email_opt_in-{site}-analytics.csv``
+***********************************************
+
+This file reports the email preference selected by learners who are enrolled
+in any of your institution's courses. See :ref:`Institution_Data`.
 
 
 .. include:: ../../../links/links.rst
