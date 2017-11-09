@@ -1,8 +1,8 @@
 .. _Bulk Email:
 
-##############################
-Bulk Email
-##############################
+########################################
+Bulk Email Messages from the Course Team
+########################################
 
 For courses on edx.org, you can send bulk email messages to course participants
 directly from the instructor dashboard: in the LMS, select **Instructor**, and
@@ -419,7 +419,8 @@ interpret this message, note that:
 
   Note that the **Total number of enrollees** shown in enrollment data in
   Insights includes all currently enrolled learners, regardless of account
-  activation status, and as a result can be different than this "out of" number.
+  activation status, and as a result can be different than this "out of"
+  number.
 
 If the "recipients" and "out of" numbers are the same, the message reads
 "Message successfully emailed for 13457 recipients" instead.
@@ -609,8 +610,8 @@ using :ref:`keywords <Use Keywords in Messages>` appropriately.
   exciting discussions that have been going on, and a Q&A video with
   {Professor} that recaps some of the questions that have come up this week.
 
-  We'd also like to remind you to take this week's quiz by {date} at {time} UTC.
-  The next module will be available on {Time and Date}.
+  We'd also like to remind you to take this week's quiz by {date} at {time}
+  UTC. The next module will be available on {Time and Date}.
 
   {Link to Video}
 
