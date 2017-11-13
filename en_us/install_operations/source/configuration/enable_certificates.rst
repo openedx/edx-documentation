@@ -14,8 +14,8 @@ This topic describes how to enable certificates in your instance of Open edX.
 Overview
 *********
 
-Organizations and course teams can generate certificates for learners who pass
-a course. Learners can view, print, or share their certificates.
+Organizations and course teams can choose to generate certificates for learners
+who pass a course. Learners can view, print, or share their certificates.
 
 For information about certificates, see :ref:`opencoursestaff:Setting Up
 Certificates` in *Building and Running an Open edX Course* or
