@@ -833,6 +833,16 @@ P
   For more information, see :ref:`partnercoursestaff:Working with Problem
   Components` and :ref:`partnercoursestaff:Exercises and Tools Index`.
 
+.. _Proctored Exam_g:
+
+**proctored exam**
+
+  At edX, proctored exams are timed, impartially and electronically monitored
+  exams designed to ensure the identity of the test taker and determine the
+  security and integrity of the test taking environment. Proctored exams are
+  often required in courses that offer verified certificates or academic
+  credit. For more information, see :ref:`partnercoursestaff:Managing
+  Proctored Exams`.
 
 .. _Program:
 
@@ -961,6 +971,13 @@ S
   information about third party authentication, see
   :ref:`Third Party Authentication<T>`.
 
+.. _Special Exam_g:
+
+**special exam**
+
+  A general term that applies to proctored and timed exams in edX courses. See
+  :ref:`Timed Exam<T>` and :ref:`Proctored Exam<P>`.
+
 .. _Split_Test:
 
 **split test**
@@ -994,6 +1011,16 @@ T
   against a specified expected answer.
 
   For more information, see :ref:`partnercoursestaff:Text Input`.
+
+.. _Timed Exam_g:
+
+**timed exam**
+
+  Timed exams are sets of problems that a learner must complete in the amount
+  of time you specify. When a learner begins a timed exam, a countdown timer
+  displays, showing the amount of time allowed to complete the exam.
+  If needed, you can grant learners additional time to complete the exam.
+  For more information, see :ref:`partnercoursestaff:Timed Exams`.
 
 .. _TPA_g:
 
