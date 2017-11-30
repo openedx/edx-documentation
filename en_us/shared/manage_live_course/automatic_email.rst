@@ -43,12 +43,7 @@ of automatic email messages.
      added highlights for the section in Studio. For more information, see
      :ref:`Set Section Highlights for Weekly Course Highlight Messages`.
 
-.. Only add the following row if discussion notifications are released before
-.. course highlight messages.
-.. * - Discussion Notification
-..   - Instructor-paced and self-paced
-..   - Unspecified
-..   - Notifications that a user has responded to a post on a discussion.
+
 
 *****************************
 Automatic Email Message Text
@@ -157,13 +152,8 @@ courses.
 .. _Weekly Course Highlight Message:
 
 ================================
-Weekly Course Highlight Message
+Weekly Highlight Email
 ================================
-
-.. note::
- The weekly course highlight message feature is in testing until mid-November
- 2017. Until the feature releases, course teams can add highlights to course
- sections, but learners will not receive email messages.
 
 EdX sends the following message every seven days after a learner enrolls in a
 course. For more information, see :ref:`Set Section Highlights for Weekly
