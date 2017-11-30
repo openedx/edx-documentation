@@ -11,6 +11,6 @@ EdX Enterprise API Guide
     :maxdepth: 2
 
     intro_edx_apis
-    authentication/index
-    api_reference/index
+    authentication
+    api_reference/courses
 
