@@ -86,75 +86,97 @@ these arrays, see :ref:`Enterprise_API Arrays in the courses Endpoint`.
    * - Object
      - Data Type
      - Description
-   * - ``key``
+   * - ``catalog_id``
      - string
-     - The unique identifier for the course.
-   * - ``title``
+     - An identifier for the catalog that the course is part of.
+   * - ``course_runs``
+     - array
+     - Information about specific runs of the course. See
+       :ref:`Enterprise_API course runs`.
+   * - ``enterprise_id``
      - string
-     - The title of the course.
-   * - ``short_description``
-     - string
-     - The short description of the course and its content.
+     - The unique identifier for the organization that is using the Enterprise API.
+   * - ``entitlements``
+     - array
+     - WHAT IS THIS?
+   * - ``expected_learning_items``
+     - array
+     - This element is not used.
    * - ``full_description``
      - string
      - The long description of the course and its content.
-   * - ``level_type``
-     - ENUM string
-     - The course's level of difficulty. Can be ``high_school``,
-       ``introductory``, ``intermediate``, or ``advanced``.
-   * - ``subjects``
-     - array
-     - Academic subjects that this course covers. See :ref:`Enterprise_API
-       subjects`.
-   * - ``prerequisites``
-     - array
-     - Any courses a learner must complete before enrolling in the current
-       course. See :ref:`Enterprise_API prerequisites`.
-   * - ``expected_learning_items``
-     - array
-     - TBA
    * - ``image``
      - array
      - The About page image for this course. See :ref:`Enterprise_API image`.
-   * - ``video``
-     - array
-     - The course About video. See :ref:`Enterprise_API video`.
+   * - ``key``
+     - string
+     - An identifier for the course. For example, ``RITx+PM9003x``.
+   * - ``level_type``
+     - enum string
+     - The course's level of difficulty. Can be one of ``high_school``,
+       ``introductory``, ``intermediate``, or ``advanced``.
+   * - ``marketing_url``
+     - string
+     - The URL for the course About page.
+   * - ``modified``
+     - datetime
+     - The date and time the course was last modified.
+   * - ``outcome``
+     - string
+     - A description of what learners will accomplish if they successfully
+       complete the course.
    * - ``owners``
      - array
      - The institution that offers the course. See :ref:`Enterprise_API
        organization`.
+   * - ``prerequisites``
+     - array
+     - Any courses a learner must complete before enrolling in the current
+       course. See :ref:`Enterprise_API prerequisites`.
+   * - ``short_description``
+     - string
+     - The short description of the course and its content.
    * - ``sponsors``
      - array
      - The corporate sponsor for the course. See :ref:`Enterprise_API
        organization`.
-   * - ``modified``
-     - datetime
-     - The date and time the course was last modified.
-   * - ``course_runs``
+   * - ``subjects``
      - array
-     - Information about specific runs of the course. See
-       :ref:`Enterprise_API  course runs`.
-   * - ``marketing_url``
+     - Academic subjects that this course covers. See :ref:`Enterprise_API
+       subjects`.
+   * - ``title``
      - string
-     - The URL for the course About page.
+     - The title of the course.
+   * - ``tpa_hint``
+     - string
+     - SOMETHING ABOUT SSO. One of ``saml-mtd``.
+   * - ``uuid``
+     - string
+     - The unique identifier for the course,
+   * - ``video``
+     - array
+     - The course About video. See :ref:`Enterprise_API video`.
 
 
 .. _Enterprise_API Arrays in the courses Endpoint:
 
+*********************************
 Arrays in the Courses Endpoint
 *********************************
 
 The response values in the ``/enterprise/v1/catalogs/{id}/courses/`` endpoint
 contain a number of arrays. Some of these arrays contain additional arrays. The
-following list includes the arrays in the response values for the
+following list includes the arrays contained in the response values for the
 ``/enterprise/v1/catalogs/{id}/courses/`` endpoint.
 
 .. _Enterprise_API course runs:
 
+============
 course_runs
 ============
 
-An array that lists the course runs for each course.
+Each element returned in the ``course_runs`` array represents one session of
+the course and contains the following response values.
 
 .. list-table::
    :widths: 25 20 80
@@ -163,67 +185,114 @@ An array that lists the course runs for each course.
    * - Object
      - Data Type
      - Description
-   * - ``key``
-     - string
-     - The unique identifier for the course.
-   * - ``title``
-     - string
-     - The title of the course.
-   * - ``short_description``
-     - string
-     - The short description of the course and its content.
-   * - ``full_description``
-     - string
-     - The long description of the course and its content.
-   * - ``start``
-     - datetime
-     - The course start date.
-   * - ``end``
-     - datetime
-     - The course end date.
-   * - ``enrollment_start``
-     - datetime
-     - The course enrollment start date.
-   * - ``enrollment_end``
-     - datetime
-     - The course enrollment end date.
    * - ``announcement``
      - datetime
-     - Day and time when the course will be announced and visible.
-   * - ``image``
-     - array
-     - See :ref:`Enterprise_API image`.
-   * - ``video``
-     - array
-     - The About video for this course run. See :ref:`Enterprise_API video`.
-   * - ``seats``
-     - array
-     - The available modes for this course. See :ref:`Enterprise_API seats`.
+     - Day and time when the course run will be announced and visible.
+   * - ``availability``
+     - enum string
+     - One of ``Upcoming``, MORE.
    * - ``content_language``
      - string
      - The language for this course run.
-   * - ``transcript_languages``
-     - array[string]
-     - ISO codes for languages in which video transcripts are available.
+   * - ``course``
+     - string
+     - The key value for this course.
+   * - ``eligible_for_financial_aid``
+     - boolean
+     - Whether financial aid is available for learners.
+   * - ``end``
+     - datetime
+     - The course run end date.
+   * - ``enrollment_start``
+     - datetime
+     - The course run enrollment start date.
+   * - ``enrollment_end``
+     - datetime
+     - The course run enrollment end date.
+   * - ``full_description``
+     - string
+     - The long description of the course and its content.
+   * - ``hidden``
+     - boolean
+     - Whether this course run is hidden. FROM WHAT?
+   * - ``image``
+     - array
+     - The About page image for the course. See :ref:`Enterprise_API image`.
    * - ``instructors``
      - array
      - Information about the course instructors. See :ref:`Enterprise_API
-       person`.
-   * - ``staff``
-     - array
-     - Information about the course staff. See :ref:`Enterprise_API person`.
-   * - ``pacing_type``
-     - ENUM string
-     - The pacing of the course. May be ``self-paced`` or ``instructor-paced``.
+       person`. DO WE HAVE THIS AND STAFF?
+   * - ``key``
+     - string
+     - An identifier for the course run.
+   * - ``level_type``
+     - enum string
+     - The course's level of difficulty. Can be one of ``high_school``,
+       ``introductory``, ``intermediate``, or ``advanced``.
+   * - ``license``
+     - string
+     -
+   * - ``marketing_url``
+     - string
+     - The URL for the course About page.
    * - ``min_effort``
      - integer
      - The minimum number of estimated hours of effort per week.
    * - ``max_effort``
      - integer
      - The maximum number of estimated hours of effort per week.
+   * - ``mobile_available``
+     - boolean
+     - Whether the course run is available for mobile devices.
    * - ``modified``
      - datetime
      - The date and time the course was last modified.
+   * - ``outcome``
+     - string
+     - A description of what learners will accomplish if they successfully
+       complete the course.
+   * - ``pacing_type``
+     - enum string
+     - The pacing of the course. May be ``self-paced`` or ``instructor-paced``.
+   * - ``reporting_type``
+     - enum string
+     - Information about what type of reporting is available for the enterprise.
+       May be ``mooc`` or WHAT?.
+   * - ``seats``
+     - array
+     - The available modes for this course run. See :ref:`Enterprise_API seats`.
+   * - ``short_description``
+     - string
+     - The short description of the course and its content.
+   * - ``staff``
+     - array
+     - Information about the course staff. See :ref:`Enterprise_API person`.
+   * - ``start``
+     - datetime
+     - The course run start date.
+   * - ``status``
+     - enum string
+     - The published status of the course. May be ``published`` or WHAT?.
+   * - ``title``
+     - string
+     - The title of the course.
+   * - ``track_selection_url``
+     - string
+     - The URL of the page on which learners select enrollment mode (Verified
+       or Audit).
+   * - ``transcript_languages``
+     - array[string]
+     - ISO codes for languages in which video transcripts are available.
+   * - ``uuid``
+     - string
+     - A unique identifier for this course run.
+   * - ``video``
+     - array
+     - The About video for this course run. See :ref:`Enterprise_API video`.
+   * - ``weeks_to_complete``
+     - number
+     - The number of weeks it should take a learner to complete this course.
+
 
 .. _Enterprise_API image:
 
@@ -314,21 +383,54 @@ The ``person`` object has the following response values.
    * - Object
      - Data Type
      - Description
-   * - ``key``
+   * - ``uuid``
      - string
      - A unique identifier for the instructor or staff member.
-   * - ``name``
+   * - ``given_name``
      - string
-     - The first and last name of the instructor or staff member.
-   * - ``title``
+     - The first name of the instructor or staff member.
+   * - ``family_name``
      - string
-     - The official title of the instructor or staff member.
-   * - ``bio``
+     - The last name of the instructor or staff member.
+   * - ``position``
+     - array
+     - Information about the instructor or staff member's job. See
+       :ref:`Enterprise_API position`.
+   * - ``email``
      - string
-     - Biographical information about the instructor or staff member.
+     - The email address of the instructor or staff member.
    * - ``profile_image``
      - array
      - See :ref:`Enterprise_API image`.
+   * - ``urls``
+     - array
+     - The URLs of the person's blog, Twitter, and Facebook accounts.
+
+.. _Enterprise_API position:
+
+==============
+position
+==============
+
+The ``position`` object in the ``person`` object is an array that contains the
+following values.
+
+.. list-table::
+   :widths: 25 20 80
+   :header-rows: 1
+
+   * - Object
+     - Data Type
+     - Description
+   * - ``organization_name``
+     - string
+     - The name of the person's organization.
+   * - ``organization_id``
+     - string
+     - An identifier for the organization.
+   * - ``title``
+     - string
+     - The official title of the instructor or staff member.
 
 .. _Enterprise_API prerequisites:
 
