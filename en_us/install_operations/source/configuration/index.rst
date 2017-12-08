@@ -19,6 +19,7 @@ configuration options.
    edx_search
    enable_badging
    enable_certificates
+   enable_pacing
    enable_ccx
    enable_entrance_exams
    ora2/index
