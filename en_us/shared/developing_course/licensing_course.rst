@@ -4,8 +4,6 @@
 Course Licensing
 ################
 
-.. Re-combine with studio_licensing and move to developing_course folder after all the Publisher content is merged (SP, 11 June 2017)
-
 You can specify licensing options for your course content as well as for each
 video in your course. By specifying the license, you communicate to learners
 whether and how they can reuse your course content.
@@ -71,10 +69,12 @@ Studio.
        only.
    * - **No Derivatives**
      - This option allows others to distribute, display, and perform only
-       verbatim copies of your work, not derivative works based upon it. You cannot use this option with the **Share Alike** option.
+       verbatim copies of your work, not derivative works based upon it. You
+       cannot use this option with the **Share Alike** option.
    * - **Share Alike**
      - This option allows others to distribute derivative works only under a
-       license identical to the license that governs your work. You cannot use this option with the **No Derivatives** option.
+       license identical to the license that governs your work. You cannot use
+       this option with the **No Derivatives** option.
 
 For more information, see the `Creative Commons website`_.
 
@@ -104,7 +104,7 @@ videos. Learners see the license at the bottom of all pages in the course.
 #. Scroll to the bottom of the page to view the **Course Content License**
    section.
 
-   .. image:: ../../../../shared/images/course_license.png
+   .. image:: ../../../shared/images/course_license.png
       :alt: The Course Content License section of the Schedule & Details page.
       :width: 600
 
@@ -113,7 +113,7 @@ videos. Learners see the license at the bottom of all pages in the course.
    * To grant learners to right to share and use course content, select
      **Creative Commons**. The Creative Commons options are displayed.
 
-     .. image:: ../../../../shared/images/creative-commons-license-course.png
+     .. image:: ../../../shared/images/creative-commons-license-course.png
       :alt: The Creative Commons license options.
       :width: 600
 
@@ -150,14 +150,14 @@ Learners' View of Licenses
 When they view content in the **Course** tab, learners see the license that
 you set for the course at the bottom of the page.
 
-.. image:: ../../../../shared/images/learner_course_license.png
+.. image:: ../../../shared/images/learner_course_license.png
   :alt: A course unit page with a pointer to the license.
   :width: 150
 
 If the video has a different license than the course as a whole, learners see
 the license at the bottom right of the video player.
 
-.. image:: ../../../../shared/images/learner_video_license.png
+.. image:: ../../../shared/images/learner_video_license.png
  :alt: A video with a pointer to the license.
  :width: 600
 

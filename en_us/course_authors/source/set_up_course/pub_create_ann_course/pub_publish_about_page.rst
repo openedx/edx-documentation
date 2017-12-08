@@ -44,12 +44,14 @@ verify that following information for the course run has been entered in
 Studio.
 
 * The course run start and end date.
+* The pacing for the course run.
 * The course image.
 * Names, titles, and signature images for all certificate signatories.
 
 For more information, see the following topics.
 
 * :ref:`Set Start and End Dates`
+* :ref:`Set Course Pacing`
 * :ref:`Partner Add Course Image`
 * :ref:`Setting Up Certificates`
 
@@ -119,6 +121,4 @@ page becomes available on the course run page. Additionally, the Publisher tool
 sends an email notification to the course team with a link to the About page.
 The course team can use either of these links to view the published About page.
 
-.. note::
- If any changes to the About page are necessary, the course team must contact
- the edX PC.
+For information about how to update course run information after the About page has been published, see :ref:`Pub Change a Course Run`.

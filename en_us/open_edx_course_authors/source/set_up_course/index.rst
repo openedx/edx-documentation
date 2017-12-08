@@ -21,7 +21,7 @@ course run information, as well as how to enter this information in Studio.
 
    planning_course_information/index
    planning_course_run_information/index
-   creating_course/index
+   studio_add_course_information/index
 
 For information about how to develop your course content in the Studio course
 outline, see :ref:`Developing Your Course Index`.

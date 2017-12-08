@@ -17,6 +17,5 @@ as enable several different course features and create a course About page.
    creating_about_page
    studio_creating_certificates
    search_course
-   studio_licensing
    custom_courses
 

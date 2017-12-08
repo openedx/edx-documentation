@@ -1,8 +1,8 @@
 .. _Planning Course Run Information:
 
-#####################################
-Planning Course Run Information
-#####################################
+################################################################
+Planning Course Run Information (edx.org and Edge Courses)
+################################################################
 
 Course run information, such as start and end dates, is specific to a course
 run. This section lists the optional and required information for course runs,

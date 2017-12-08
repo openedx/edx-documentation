@@ -1,8 +1,8 @@
 .. _Planning Course Information:
 
-###########################
-Planning Course Information
-###########################
+######################################################
+Planning Course Information (edx.org and Edge Courses)
+######################################################
 
 Course information remains true whether the course runs one time or multiple
 times. This section lists the optional and required information for courses, as
@@ -19,4 +19,3 @@ information in Publisher, Studio, or both. For more information, see
    image_guidelines
    description_guidelines
    additional_course_information
-   licensing_course

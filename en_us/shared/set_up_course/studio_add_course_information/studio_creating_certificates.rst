@@ -1,8 +1,8 @@
 .. _Setting Up Certificates:
 
-#######################
-Setting Up Certificates
-#######################
+##################################
+Setting Up Certificates in Studio
+##################################
 
 This section describes how to create and manage certificates for your course.
 
