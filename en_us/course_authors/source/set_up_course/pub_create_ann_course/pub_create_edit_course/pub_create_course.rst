@@ -37,7 +37,7 @@ To create a course in Publisher, follow these steps.
    information that you have entered and the additional course information that
    is required for edX to create an About page. You can edit course information
    at any time before you send the course to edX marketing for review. For more
-   information, see :ref:`Pub Edit a Course`.
+   information, see :ref:`Pub Edit a Course in Publisher`.
 
    If you selected **I want to add a run to this course at this time**, the
    page for a course run of this course opens when you select **Create New
