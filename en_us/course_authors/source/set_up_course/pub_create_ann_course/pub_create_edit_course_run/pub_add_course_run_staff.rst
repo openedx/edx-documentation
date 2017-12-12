@@ -150,27 +150,24 @@ To specify an organization for an instructor, follow these steps.
    * Follow the steps in :ref:`Pub Edit an Instructor`.
 
 #. Next to **Organization**, click to open the drop-down list of organizations.
-#. Select the organization that you want.
 
-.. The following feature will be implemented ~late November/early December 2017. Uncomment this section and delete step 3 above when the feature is live.
+#. If the organization that you want is listed, select that organization.
 
-.. #. If the organization that you want is listed, select that organization.
+   If the organization that you want is not listed, or you want to specify more
+   than one organization for the instructor, follow these steps.
 
-..   If the organization that you want is not listed, or you want to specify more
-..   than one organization for the instructor, follow these steps.
+   #. Under the **Instructor** field, select **Enter a different
+      organization**.
+   #. In the **Organization** field, type the name of the organization or
+      organizations that are associated with the instructor. For example, you
+      might enter the following information.
 
-..   #. Under the **Instructor** field, select **Enter a different
-..      organization**.
-..   #. In the **Organization** field, type the name of the organization or
-..      organizations that are associated with the instructor. For example, you
-..      might enter the following information.
+      ``MIT and Harvard``
 
-..        MIT and Harvard
-
-..        note
-..        Only enter the name of the organization or organizations and words such
-..        as "and". Do not enter additional text, such as "This instructor is
-..        affiliated with MIT and Harvard".
+      .. note::
+        Only enter the name of the organization or organizations and words such
+        as "and". Do not enter additional text, such as "This instructor is
+        affiliated with MIT and Harvard".
 
 
 .. _Pub Add an Instructor Image:

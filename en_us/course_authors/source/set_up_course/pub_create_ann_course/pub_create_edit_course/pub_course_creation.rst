@@ -43,8 +43,8 @@ use the following process to create the course in Publisher.
 
 #. :ref:`Create the course in Publisher <Pub Create a Course>`. In this step,
    you provide basic information to create a page for the course in Publisher.
-#. :ref:`Edit the course <Pub Edit a Course>`, adding all required information
-   for the About page on the page for the course in Publisher.
+#. :ref:`Edit the course <Pub Edit a Course in Publisher>`, adding all required
+   information for the About page on the page for the course in Publisher.
 #. :ref:`Send the course to the edX marketing team <Pub Send a Course for
    Marketing Review>` for review.
 #. After the edX marketing team reviews the course, :ref:`review the edX

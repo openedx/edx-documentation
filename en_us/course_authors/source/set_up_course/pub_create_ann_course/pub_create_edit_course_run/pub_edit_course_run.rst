@@ -9,7 +9,7 @@ When you create a course run in Publisher, Studio automatically creates a URL
 for the course run. The course team then has two options.
 
 * Enter content for the course run in Studio. For more information, see
-  :ref:`Pub Access the Course Run in Studio`.
+  :ref:`Pub Access a Course Run in Studio`.
 * Continue editing the course run in Publisher. For more information, see
   :ref:`Pub Edit a Course Run in Publisher`.
 
