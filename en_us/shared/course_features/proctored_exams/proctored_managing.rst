@@ -11,8 +11,8 @@ Rules>`, or to :ref:`learners:SFD_ProctoredExams` in the *edX Learner’s Guide*
 to answer their questions.
 
 If learners need accommodations for disabilities, or have a technical problem
-with the exam, you work with edX support to determine a solution on a case by
-case basis.
+with the exam, you work with edX support to determine a solution on a
+case by case basis.
 
 .. _Respond to Learner Concerns about Proctored Exams:
 
@@ -49,17 +49,34 @@ reviewer takes the special allowance or extra time into account.
 .. _Requests for Retaking a Proctored Exam:
 
 ******************************************
-Allow a Learner to Retake a Proctored Exam
+Allow Learners to Retake a Proctored Exam
 ******************************************
 
-If a learner needs to retake a proctored exam for any reason, instruct the
-learner to contact edX Support.
+If a learner needs to retake a proctored exam for any reason, you can clear
+their existing exam attempt and allow them to retake the exam.
 
 .. note::
 
-  When a learner retakes an exam, the learner starts the exam from the
-  beginning. The learner must set up the proctoring software, answer exam
-  questions, and complete all other steps again.
+  When you clear a learner's exam attempt, all of a learner's previous answers
+  in the exam are cleared, and the learner starts the exam from the beginning.
+  The learner must set up the proctoring software, answer exam questions, and
+  complete all other steps again.
+
+To clear a proctored exam attempt, follow these steps.
+
+#. View the live version of your course.
+#. Select **Instructor**, and then select **Special Exam**.
+#. Expand **Student Special Exam Attempts**. A list of timed and proctored exam
+   attempts appears.
+#. Search for the learner's username to locate their exam attempts.
+#. In the **Exam Name** column, locate the name of the specific exam for which
+   you are cleaning the learner's exam attempt.
+#. In the **Actions** column, select **X**. A message displays asking you
+   to confirm that you want to remove the learner's exam attempt.
+#. Select **OK**. The learner's exam attempt is removed from the list.
+
+   .. Warning:: Clearing an exam attempt removes all learner answers in an
+      exam and is a permanent action that cannot be undone.
 
 .. _CA_Situations_Learners_Encounter_Proctored_Exams:
 
