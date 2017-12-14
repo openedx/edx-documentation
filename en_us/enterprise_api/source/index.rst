@@ -12,5 +12,5 @@ EdX Enterprise API Guide
 
     intro_edx_apis
     authentication
-    api_reference/courses
+    api_reference/reference
 
