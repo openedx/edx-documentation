@@ -521,11 +521,12 @@ request returns the response values described in :ref:`program Fields`.
 .. _course_enrollments Endpoint:
 
 *******************************
-The course_enrollments Endpoint
+course_enrollments Endpoint
 *******************************
 
-POST calls to the ``coures_enrollments`` endpoint enroll a learner in a
-specified course run.
+POST calls to the ``course_enrollments`` endpoint enroll learners in specified
+course runs. Calls to this endpoint require the enterprise's UUID, which is
+assigned to the enterprise by your edX account representatlve.
 
 ===================
 Method and Endpoint
@@ -548,19 +549,72 @@ Example Request
    curl -X POST /oauth2/v1/access_token/\
    -H "Authorization: JWT {access token}" \
    https://courses.edx.org/enterprise/api/v1/\
-   enterprise-customer/{e1b2c4}/course_enrollments
+   enterprise-customer/e1b2c4/course_enrollments
 
 =================
 POST Data Values
 =================
 
 POST calls to the ``course_enrollments`` endpoint include the following fields
-in JSON format.
+in JSON format. For each learner, a call must include the ``course_run_id``
+field and the ``course_mode``, as well as one or more of the ``user_email``,
+``lms_user_id``, or ``tpa_user_id`` fields.
+
+.. list-table::
+   :widths: 25 20 80
+   :header-rows: 1
+
+   * - Field
+     - Data Type
+     - Description
+   * - ``course_run_id``
+     - string
+     - Required. The ID of a course run in your edX course catalog. Example:
+       ``course-v1:UMy+Intro_to_Education``.
+   * - ``course_mode``
+     - enum string
+     - Required. The enrollment mode in which the learner will be enrolled in
+       the course run. One of ``verified``, ``professional``, or ``audit``.
+   * - ``user_email``
+     - string
+     - The learner's email address.
+   * - ``lms_user_id``
+     - string
+     - The learner's ID on edx.org.
+   * - ``tps_user_id``
+     - string
+     - The learner's ID on the enterprise's Identity Provider (IdP) system.
+   * - ``email_students``
+     - boolean
+     - Whether the learner has consented to be contacted by email. Default is
+       ``false``.
+
+POST Payload Example
+*********************
+
+Here is an example of the payload of a ``course_enrollments`` call. In this
+example, we enroll two learners in two different course runs.
+
+::
+
+  [
+    {
+      "course_run_id":"course-v1:edX+DemoX+Demo_Course",
+      "course_mode":"verified",
+      "user_email":"ephraim_symbolist@example.com",
+      "email_students": true
+    },
+    {
+      "course_run_id":"course-v1:UMy+Intro_to_Education`",
+      "course_mode":"audit",
+      "tpa_user_id":"abcdefg"
+    }
+  ]
 
 =====================
 Response Values
 =====================
 
 The ``POST /enterprise/api/v1/enterprise-customer/{enterprise_uuid}/course_enrollments``
-request returns the following response values.
+request returns a ``details`` response with a success or error message.
 
