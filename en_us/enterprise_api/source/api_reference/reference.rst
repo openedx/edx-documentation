@@ -227,13 +227,13 @@ Fields in a course_run Content Item
      - The content item's course number identifier.
    * - ``org``
      - string
-     - .
+     - The university or other entity offering the course.
    * - ``pacing_type``
      - enum string
      - The pacing of the course. May be ``self-paced`` or ``instructor-paced``.
    * - ``partner``
      - string
-     - .
+     - The university or other entity offering the course.
    * - ``program_types``
      - array
      - The type of program. One of Professional Certificate, XSeries,
