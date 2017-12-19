@@ -25,8 +25,6 @@ source_suffix = '.rst'
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = 'sphinx'
 
-html_use_smartypants = True
-
 # Add any Sphinx extension module names here, as strings. They can be extensions
 # coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
 extensions = [
