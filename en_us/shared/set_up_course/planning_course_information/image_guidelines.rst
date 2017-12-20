@@ -69,11 +69,11 @@ Course Image Size
 
 .. only:: Partners
 
-  The course image size must be 2120 x 1192 pixels. However, only part of this
-  image may be visible. The viewable area varies according to the web page
+  New course images must be 1134 x 675 pixels in size. However, only part of
+  this image may be visible. The viewable area varies according to the web page
   where the viewer sees the image.
 
-  The following example course image is 2120 x 1192 pixels. The image shows the
+  The following example course image is 1134 x 675 pixels. The image shows the
   area of a course image that is always visible, as well as the areas that are
   also visible on different pages. You can click to enlarge the image.
 
@@ -82,6 +82,11 @@ Course Image Size
      :alt: An example course image, showing the area that is always visible,
          the additional area visible for program pages and the learner
          dashboard, and the area that may be hidden in search results.
+
+  .. note::
+    For courses that had a first run before December 2017, image sizes of 2120
+    x 1192 pixels and 378 x 225 pixels are supported. However, we strongly
+    recommend that you update your course image size to 1134 x 675 pixels.
 
 .. only:: Open_edX
 
