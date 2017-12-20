@@ -65,34 +65,18 @@ steps.
 Step 2. Add Prompts
 ******************************
 
+You can format text and add images inside an open response assessment prompt
+the same way you would for an HTML component. For more information, see
+:ref:`The Visual Editor`.
+
 To add :ref:`prompts<PA Prompts>`, or questions, to your ORA assignment,
 complete these steps.
 
-.. note:: If you want to add text formatting to the prompt, or include an
- image, see :ref:`Add Formatting or Images to a Prompt`.
-
 #. In the open response assessment component editor, select **Prompt**.
-#. Replace the example prompt in the text field with your prompt.
+#. Replace the example prompt with your prompt.
 #. To add another prompt in the assignment, select **Add a Prompt**, and then
-   repeat Step 2.
+   repeat step 2.
 
-.. _Add Formatting or Images to a Prompt:
-
-========================================
-Add Formatting or Images to a Prompt
-========================================
-
-Currently, you cannot format text or add images inside an open response
-assessment component. To include formatting or images in a prompt, you can add
-an HTML component that contains your text above the open response assessment
-component, and leave the text field in the **Prompt** tab blank. The
-instructions for the open response assessment still appear above the **Your
-Response** field.
-
-.. image:: ../../../../shared/images/PA_HTMLComponent.png
-      :alt: A peer assessment component that has an HTML component containing
-         text and an image, above the peer assessment.
-      :width: 500
 
 .. _PA Add Rubric:
 
