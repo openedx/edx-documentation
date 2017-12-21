@@ -7,8 +7,16 @@ Accessibility Best Practices for Developing Course Content
 EdX is dedicated to creating a platform that is not only itself accessible, but
 also enables course content creators to create accessible content. If you
 encounter platform issues that you believe might affect your ability to provide
-accessible course content, please contact us at accessibility@edx.org. We
-welcome any comments and questions.
+accessible course content, please contact us using one of the following
+methods. We welcome any comments and questions.
+
+* Send an email message to accessibility@edx.org.
+* Submit a comment on the edX `Website Accessibility Policy
+  <http://www.edx.org/accessibility>` page.
+* Submit a comment on the `Individualized Accessibility Process for Course
+  Creators <https://studio.edx.org/accessibility>` page.
+
+.. Do not modify wording of the following note. Exact wording is from Legal.
 
 .. note:: Use of authoring tools other than those provided by edX might result
    in inaccessible course content. However, for clarity, use of edX authoring
