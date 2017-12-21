@@ -278,6 +278,9 @@ Set Section Highlights for Weekly Highlight Emails
 
   For more information, contact your Open edX system administrator.
 
+.. note::
+   The highlights that you specify persist when you re-run your course.
+
 .. only:: Partners
 
   .. _Weekly Course Highlight Message Text:
