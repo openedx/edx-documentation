@@ -5,7 +5,7 @@ EdX Enterprise API Reference
 ################################
 
 This API reference includes detailed information about the
-``/enterprise_catalogs`` and ``/course_enrollments`` endpoints of the edX
+``/enterprise-catalogs`` and ``/course-enrollments`` endpoints of the edX
 Enterprise API, including the request, response data, and examples. The
 example API requests shown in this reference use the ``curl`` command-line
 program to send HTTP messages to the edX API. You can use any technology to
@@ -16,34 +16,34 @@ syntax and data for a request in a way that is easy to read.
 Endpoints
 *********
 
-The followig endpoints are available in the Enterprise API.
+The following endpoints are available in the Enterprise API.
 
-* **/enterprise_catalogs** - You can make GET calls to the
-  ``/enterprise_catalogs`` endpoint to get a list of all the course catalogs
+* **/enterprise-catalogs** - You can make GET calls to the
+  ``/enterprise-catalogs`` endpoint to get a list of all the course catalogs
   that are available to your organization.
 
-* **/enterprise_catalogs/{catalog_id}** - You can make GET calls to the
-  ``/enterprise_catalogs/{catalog_id}`` endpoint to get a
+* **/enterprise-catalogs/{catalog_id}** - You can make GET calls to the
+  ``/enterprise-catalogs/{catalog_id}`` endpoint to get a
   list of all the active content items (courses, course runs, and programs) in
   a specified course catalog, along with details about each course. Active
   courses are courses that are currently open for enrollment or that will open
   for enrollment in the future. For details, see
   :ref:`enterprise_catalogs_catalogID Endpoint`.
 
-* **/enterprise/api/v1/enterprise_catalogs/{catalogID}/course_runs/{course_run_ID}** -
+* **/enterprise_catalogs/{catalogID}/course_runs/{course_run_ID}** -
   You can make GET calls to the
-  ``/enterprise_catalogs/{catalog_id}/course_runs/{course_run_ID}`` endpoint
+  ``/enterprise-catalogs/{catalog_id}/course_runs/{course_run_ID}`` endpoint
   to get information about a single course run. For details, see
   :ref:`enterprise_catalogs_courserun Endpoint`.
 
-* **/enterprise/api/v1/enterprise_catalogs/{catalogID}/programs/{program_ID}**
+* **/enterprise-catalogs/{catalogID}/programs/{program_ID}**
   - You can make GET calls to the
-  ``/enterprise_catalogs/{catalog_id}/programs/{program_ID}`` endpoint
+  ``/enterprise-catalogs/{catalog_id}/programs/{program_ID}`` endpoint
   to get information about a single program. For details, see
   :ref:`enterprise_catalogs_programs Endpoint`.
 
-* **/course_enrollments** - You can make POST calls to the
-  ``/course_enrollments`` endpoint to enroll a single learner in a single
+* **/course-enrollments** - You can make POST calls to the
+  ``/course-enrollments`` endpoint to enroll a single learner in a single
   course run. For details, see :ref:`course_enrollments Endpoint`.
 
 .. _enterprise_catalogs_catalogID Endpoint:
@@ -67,22 +67,22 @@ Method and Endpoint
    * - Method
      - Endpoint
    * - GET
-     - ``/enterprise/api/v1/enterprise_catalogs/{catalog_id}``
+     - ``/enterprise/v1/enterprise-catalogs/{catalog_id}``
 
 =====================
 Example Request
 =====================
 ::
 
-   curl -X GET /oauth2/v1/access_token/\
-   -H "Authorization: JWT {access token}" \
-   https://courses.edx.org/enterprise/api/v1/enterprise_catalogs/1/4g1BB0us321/
+   curl -X GET \
+   https://api.edx.org/enterprise/v1/enterprise-catalogs/1/4g1BB0us321/ \
+   -H "Authorization: JWT {access token}"
 
 =====================
 Response Values
 =====================
 
-The ``GET /enterprise/api/v1/enterprise_catalogs/{catalog_id}`` request
+The ``GET /enterprise/v1/enterprise-catalogs/{catalog_id}`` request
 returns the following response values.
 
 .. note::
@@ -298,6 +298,9 @@ Fields in a program Content Item
    * - ``content_type``
      - enum string
      - Type of learning item. One of ``course``, ``courserun``, or ``program``.
+   * - ``enrollment_url``
+     - sring
+     - The URL for the enrollment page.
    * - ``language``
      - string
      - The language used by the program.
@@ -437,14 +440,14 @@ contain many courses, course runs, or programs.
 .. _enterprise_catalogs_courserun Endpoint:
 
 *********************************************************************
-enterprise_catalogs/{catalog_id}/course_runs/{course_run_ID} Endpoint
+enterprise-catalogs/{catalog_id}/course-runs/{course_run_ID} Endpoint
 *********************************************************************
 
-GET calls to the ``enterprise_catalogs/{catalog_id}/course_runs/{course_run_ID}``
+GET calls to the ``enterprise-catalogs/{catalog_id}/course-runs/{course_run_ID}``
 endpoint return information about a single course run in a specified course
 catalog. In the GET call, you pass a catalog ID, which you can get using the
-``enterprise_catalogs`` endpoint, and a course run ID, which you can get from
-the ``key`` value returned by the ``enterprise_catalogs/{catalog_id}``
+``enterprise-catalogs`` endpoint, and a course run ID, which you can get from
+the ``key`` value returned by the ``enterprise-catalogs/{catalog_id}``
 endpoint. The information returned is described in :ref:`course_run Fields`.
 
 ===================
@@ -458,35 +461,35 @@ Method and Endpoint
    * - Method
      - Endpoint
    * - GET
-     - ``/enterprise/api/v1/enterprise_catalogs/{catalog_id}/course_runs/{course_run_ID}``
+     - ``/enterprise/v1/enterprise-catalogs/{catalog_id}/course-runs/{course_run_ID}``
 
 =====================
 Example Request
 =====================
 ::
 
-   curl -X GET /oauth2/v1/access_token/\
-   -H "Authorization: JWT {access token}" \
-   https://courses.edx.org/enterprise/api/v1/enterprise_catalogs/1/4g1BB0us321/course_runs/course-v1:MyUni+Sport101x
+   curl -X GET \
+   https://api.edx.org/enterprise/v1/enterprise-catalogs/1/4g1BB0us321/course-runs/course-v1:MyUni+Sport101x \
+   -H "Authorization: JWT {access token}"
 
 =====================
 Response Values
 =====================
 
-The ``GET /enterprise/api/v1/enterprise_catalogs/{catalog_id}/course_runs/{course_run_ID}``
+The ``GET /enterprise/v1/enterprise-catalogs/{catalog_id}/course-runs/{course_run_ID}``
 request returns the response values described in :ref:`course_run Fields`.
 
 .. _enterprise_catalogs_programs Endpoint:
 
 *********************************************************************
-enterprise_catalogs/{catalog_id}/programs/{program_ID} Endpoint
+enterprise-catalogs/{catalog_id}/programs/{program_ID} Endpoint
 *********************************************************************
 
-GET calls to the ``enterprise_catalogs/{catalog_id}/programs/{program_ID}``
+GET calls to the ``enterprise-catalogs/{catalog_id}/programs/{program_ID}``
 endpoint return information about a single program in a specified course
 catalog. In the GET call, you pass a catalog ID, which you can get using the
-``enterprise_catalogs`` endpoint, and a program ID, which you can get from
-the ``uuid`` value returned by the ``enterprise_catalogs/{catalog_id}``
+``enterprise-catalogs`` endpoint, and a program ID, which you can get from
+the ``uuid`` value returned by the ``enterprise-catalogs/{catalog_id}``
 endpoint. The information returned is described in :ref:`program Fields`.
 
 ===================
@@ -500,31 +503,32 @@ Method and Endpoint
    * - Method
      - Endpoint
    * - GET
-     - ``/enterprise/api/v1/enterprise_catalogs/{catalog_id}/programs/{program_ID}``
+     - ``/enterprise/v1/enterprise-catalogs/{catalog_id}/programs/{program_ID}``
 
 =====================
 Example Request
 =====================
 ::
 
-   curl -X GET /oauth2/v1/access_token/\
-   -H "Authorization: JWT {access token}" \
-   https://courses.edx.org/enterprise/api/v1/enterprise_catalogs/4g1BB0us321/programs/21g1bB0us545
+   curl -X GET /oauth2/v1/access_token/ \
+   https://api.edx.org/enterprise/v1/enterprise-catalogs/4g1BB0us321/programs/21g1bB0us545 \
+   -H "Authorization: JWT {access token}"
+
 
 =====================
 Response Values
 =====================
 
-The ``GET /enterprise/api/v1/enterprise_catalogs/{catalog_id}/programs/{program_id}``
+The ``GET /enterprise/v1/enterprise-catalogs/{catalog_id}/programs/{program_id}``
 request returns the response values described in :ref:`program Fields`.
 
 .. _course_enrollments Endpoint:
 
 *******************************
-course_enrollments Endpoint
+course-enrollments Endpoint
 *******************************
 
-POST calls to the ``course_enrollments`` endpoint enroll learners in specified
+POST calls to the ``course-enrollments`` endpoint enroll learners in specified
 course runs. Calls to this endpoint require the enterprise's UUID, which is
 assigned to the enterprise by your edX account representatlve.
 
@@ -539,23 +543,30 @@ Method and Endpoint
    * - Method
      - Endpoint
    * - POST
-     - ``/enterprise/api/v1/enterprise-customer/{enterprise_uuid}/course_enrollments``
+     - ``/enterprise/v1/enterprise-customer/{enterprise_uuid}/course-enrollments``
 
 =====================
 Example Request
 =====================
 ::
 
-   curl -X POST /oauth2/v1/access_token/\
-   -H "Authorization: JWT {access token}" \
-   https://courses.edx.org/enterprise/api/v1/\
-   enterprise-customer/e1b2c4/course_enrollments
+   curl -X POST
+     https://api.edx.org/enterprise/v1/enterprise-customer/\
+     e1b2c4/course-enrollments \
+     -H "Authorization: JWT {access token}"
+     -H "Content-Type: application/json" \
+     -d "[{
+           "course_run_id":"course-v1:MyUniX+Writing101x+2T2018_2",
+           "course_mode":"audit",
+           "user_email":efraim.symbolist@example.com",
+           "email_students":"true"
+    }]"
 
 =================
 POST Data Values
 =================
 
-POST calls to the ``course_enrollments`` endpoint include the following fields
+POST calls to the ``course-enrollments`` endpoint include the following fields
 in JSON format. For each learner, a call must include the ``course_run_id``
 field and the ``course_mode``, as well as one or more of the ``user_email``,
 ``lms_user_id``, or ``tpa_user_id`` fields.
@@ -592,7 +603,7 @@ field and the ``course_mode``, as well as one or more of the ``user_email``,
 POST Payload Example
 *********************
 
-Here is an example of the payload of a ``course_enrollments`` call. In this
+Here is an example of the payload of a ``course-enrollments`` call. In this
 example, we enroll two learners in two different course runs.
 
 ::

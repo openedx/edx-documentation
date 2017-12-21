@@ -23,9 +23,10 @@ API credentials, complete the following steps.
    ExampleInc, the Company Name must also be ExampleInc.
 
 #. After you submit the API Access Request form, edX will create a course
-   catalog for you and then send you an email with your client identifier and
-   client secret string. You can then use the client identifier and secret
-   string to access your course catalog using the edX Enterprise API.
+   catalog for you and then send you an email describing how to generate
+   your client identifier and client secret string. You can then use the
+   client identifier and secret string to access your course catalog using the
+   edX Enterprise API.
 
 When a client authenticates with the edX Enterprise API, the client
 completes the following process.
@@ -58,7 +59,7 @@ and secret.
   curl -X POST /oauth2/v1/access_token/\
   -d "grant_type=client_credentials&client_id={client_id}
   &client_secret={client_secret}&token_type=jwt" \
-  https://api.edx.org/{endpoint}/v1/access_token
+  https://api.edx.org/oauth2/v1/access_token
 
 The response you receive contains the access token value that you can use to
 submit further requests to the edX Enterprise API. For example:
