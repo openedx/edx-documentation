@@ -6,11 +6,11 @@ What Is The EdX Accessibility Best Practices Guidance Based On?
 
 EdX measures and evaluates accessibility using the World Wide Web Consortium's
 `Web Content Accessibility Guidelines (WCAG) 2.0 <http://www.w3.org/TR/WCAG/>`_
-(Dec. 11, 2008). All features that are merged into edX repositories are expected
-to `conform <http://www.w3.org/TR/WCAG20/#conformance>`_ to `Level AA
-<http://www.w3.org/TR/WCAG20/#cc1>`_ of this specification and satisfy the 
-requirements outlined in the edX `Website Accessibility Policy 
-<http://www.edx.org/accessibility>`_. 
+(Dec. 11, 2008). All features that are merged into edX repositories are
+expected to `conform <http://www.w3.org/TR/WCAG20/#conformance>`_ to `Level AA
+<http://www.w3.org/TR/WCAG20/#cc1>`_ of this specification and satisfy the
+requirements outlined in the edX `Website Accessibility Policy
+<http://www.edx.org/accessibility>`_.
 
 In addition, our guidance is based on principles of universal
 design (usable by all, to the greatest extent possible, without the need for
@@ -22,7 +22,7 @@ technical issues such as low bandwidth internet or no access to audio.
 
 For the purposes of this guidance, we assume that end users are equipped with
 the appropriate adaptive technology and compatible software. To supplement the
-accessibility you can achieve within the Open edX platform, we recommend that
+accessibility you can achieve within our platform, we recommend that
 you engage the resources available at your institution to support learners
 with disabilities. Most institutions offer disability support services and
 information technology resources that provide accessibility advice and
