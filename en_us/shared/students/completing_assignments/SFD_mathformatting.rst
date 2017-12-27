@@ -1,8 +1,8 @@
 .. _Math Formatting:
 
-################################################
-Entering Mathematical and Scientific Expressions
-################################################
+##################################################
+Completing Mathematical and Scientific Assignments
+##################################################
 
 This topic describes how to enter mathematical and scientific expressions for
 problems in your edX course.
@@ -40,6 +40,36 @@ symbols that appear below the response field. For more information, see
 For course discussions, you use MathJax to format the text that you type, and
 the system then converts your text into a mathematical expression. For more
 information, see :ref:`Math Expressions in Discussions`.
+
+.. _Viewing Mathematical Problems:
+
+****************************************************
+Completing Mathematical Problems with Screen Readers
+****************************************************
+
+EdX has carefully designed assessments that are accessible to screen readers.
+However, because of a limitation with HTML and screen reader technology, screen
+readers may not be able to read math problems in edX courses by default.
+
+To access these problems with a screen reader, use one of the following
+methods.
+
+* If your browser and screen reader both support MathML, specify MathML
+  as your preferred math renderer in MathJax.
+
+* Switch from your screen reader's Interactive mode to Reading mode.
+
+.. note::
+  Your screen reader may use different names for Interactive mode and
+  Reading mode.
+
+  * In Interactive mode, learners use the Tab key to move from one interactive
+    element to the next.
+  * In Reading mode, learners use the arrow keys to read all of the content in
+    a document, and not just the interactive elements.
+
+For more information about how to make sure that your screen reader reads all
+available content, see the instructions for your screen reader.
 
 .. _Math Expressions in Assignments:
 
