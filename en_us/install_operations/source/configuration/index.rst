@@ -21,6 +21,7 @@ configuration options.
    enable_certificates
    enable_pacing
    enable_ccx
+   enable_discussion_notifications
    enable_entrance_exams
    ora2/index
    enable_prerequisites

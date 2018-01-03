@@ -64,7 +64,7 @@ Responses`.
 Receiving Notifications
 *****************************
 
-When you add a post to a discussion, you can receive an email notification
+When you add a post to a discussion, you might receive an email notification
 about the first reply to the post. You can also receive a digest email message
 each day that summarizes activity for the posts that you are following.
 
@@ -72,8 +72,20 @@ each day that summarizes activity for the posts that you are following.
 Receiving Email Notifications
 ==============================
 
-By default, the first time another learner or member of the course team
-responds to a post that you have made, you receive an email notification.
+.. only:: Open_edX
+
+  If your course is set up to send email notifications for discussion posts,
+  the first time another learner or member of the course team responds to a
+  post that you have made, you receive an email notification.
+
+.. Re: the above: It's technically the *platform* and not the course that would
+.. be set up to send email notifications, but that won't matter to Open edX
+.. learners and would be more complicated to explain.
+
+.. only:: Partners
+
+  By default, the first time another learner or member of the course team
+  responds to a post that you have made, you receive an email notification.
 
 If you do not want to receive this email notification, clear the **Receive
 updates** checkbox before you add your post.
