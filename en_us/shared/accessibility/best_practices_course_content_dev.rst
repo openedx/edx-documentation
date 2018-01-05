@@ -12,9 +12,9 @@ methods. We welcome any comments and questions.
 
 * Send an email message to accessibility@edx.org.
 * Submit a comment on the edX `Website Accessibility Policy
-  <http://www.edx.org/accessibility>` page.
+  <http://www.edx.org/accessibility>`_ page.
 * Submit a comment on the `Individualized Accessibility Process for Course
-  Creators <https://studio.edx.org/accessibility>` page.
+  Creators <https://studio.edx.org/accessibility>`_ page.
 
 .. Do not modify wording of the following note. Exact wording is from Legal.
 
