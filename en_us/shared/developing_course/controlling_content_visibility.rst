@@ -198,10 +198,10 @@ see :ref:`Enrollment Track Specific Courseware Overview`.
 Prerequisite Course Subsections
 ********************************
 
-You can hide subsections of your course until learners complete other,
-prerequisite subsections. If a subsection has a prerequisite, it is not
-visible in the course navigation unless a learner has earned a minimum score in
-the prerequisite subsection.
+You can lock subsections of your course until learners complete other,
+prerequisite subsections. If a subsection has a prerequisite, it is displayed
+in the course outline with a lock icon and learners cannot view the subsection
+content, until they have earned a minimum score in the prerequisite subsection.
 
 .. note::
 
@@ -278,6 +278,10 @@ earned a minimum score in a prerequisite subsection, follow these steps.
 
 #. In the course outline, if a subsection has a prerequisite, the prerequisite
    name appears under the subsection name.
+
+   .. image:: ../../../shared/images/studio-locked-content.png
+     :alt: A subsection in the course outline with a prerequsitie indicated.
+     :width: 600
 
   .. note:: Prerequisite course subsection settings are not retained when
      you :ref:`export or import a course<Exporting and Importing a Course>`, or when you :ref:`re-run a course<Rerun a Course>`.
