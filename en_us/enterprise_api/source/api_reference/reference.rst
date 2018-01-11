@@ -30,7 +30,7 @@ The following endpoints are available in the Enterprise API.
   for enrollment in the future. For details, see
   :ref:`enterprise_catalogs_catalogID Endpoint`.
 
-* **/enterprise_catalogs/{catalogID}/course_runs/{course_run_ID}** -
+* **/enterprise-catalogs/{catalogID}/course_runs/{course_run_ID}** -
   You can make GET calls to the
   ``/enterprise-catalogs/{catalog_id}/course_runs/{course_run_ID}`` endpoint
   to get information about a single course run. For details, see
@@ -49,10 +49,10 @@ The following endpoints are available in the Enterprise API.
 .. _enterprise_catalogs_catalogID Endpoint:
 
 *****************************************
-enterprise_catalogs/{catalog_id} Endpoint
+enterprise-catalogs/{catalog_id} Endpoint
 *****************************************
 
-GET calls to the ``enterprise_catalogs/{catalog_id}`` endpoint return a list
+GET calls to the ``enterprise-catalogs/{catalog_id}`` endpoint return a list
 of all of the active content items (courses, course runs, and programs) in a
 specified course catalog.
 
@@ -89,7 +89,7 @@ returns the following response values.
   Responses to GET requests for the edX Enterprise API frequently contain
   the ``results`` response value. The ``results`` response value is a variable
   that represents the intended JSON object from the GET request. For the
-  ``/enterprise/api/v1/enterprise_catalogs/{catalog_id}`` endpoint, the
+  ``/enterprise/api/v1/enterprise-catalogs/{catalog_id}`` endpoint, the
   ``results`` object holds an array of objects that list information about
   each individual content item (course run, course, or program) in the catalog.
 
@@ -592,7 +592,7 @@ field and the ``course_mode``, as well as one or more of the ``user_email``,
    * - ``lms_user_id``
      - string
      - The learner's ID on edx.org.
-   * - ``tps_user_id``
+   * - ``tpa_user_id``
      - string
      - The learner's ID on the enterprise's Identity Provider (IdP) system.
    * - ``email_students``
