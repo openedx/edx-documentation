@@ -40,7 +40,7 @@ you should understand these concepts.
 .. contents::
   :local:
   :depth: 1
-
+  
 
 .. _Course Availability:
 
@@ -80,6 +80,83 @@ times that the course is offered, and enroll in any of the available times.
 
 For more information, see :ref:`course start dates<Start Date and Duration>`
 and :ref:`course pacing<SFD Course Pacing>`.
+
+
+.. _Course Sessions:
+
+============================
+Course Sessions
+============================
+
+A course session is the period during which a course is held. A course might
+offer multiple sessions over a year. For example, a course might have two
+available sessions:
+
+* Session 1: starts September 1, 2018 and ends March 30, 2019
+* Session 2: starts June 1, 2019 and ends December 30, 2020.
+
+Not all courses offer multiple sessions. Some courses only show the currently
+running session. 
+
+Courses that show multiple sessions and the ability to change between sessions
+are usually part of MicroMasters or Professional Certificate programs. For
+these courses, on the **Courses** and **Programs** pages of your dashboard,
+after you enroll in the course, you have options to select a session, change
+to a different session, or leave a session. You must select a session before
+you can access the course.
+
+.. image:: ../../shared/images/session_select.png
+   :width: 600
+   :alt: A course card showing a dropdown menu with several available course
+      sessions and option to leave the session and decide later.
+
+When you enroll in the verified track for courses that offer multiple
+sessions, be aware of the following policies and timeframes.
+
+* **Upgrading From the Audit Track**
+
+  If you were already enrolled in the audit track of a course and you purchase
+  the verified track as part of a program purchase, we automatically enroll you
+  in the verified track for the course, in the current session. You can change
+  to a different session if the one we enrolled you in does not work for you.
+
+* **Join a Session Within 15 Months**
+
+  After you purchase the verified track for a course, you have 15 months from
+  the date of purchase to join a course session. After 15 months, if you have
+  not joined a session, your purchase expires, and you can no longer access the
+  course.
+
+
+* **Changing or Leaving Sessions**
+
+  After you join a course session in the verified track (including if we
+  automatically add you to a session as a result of your program purchase), you
+  can change to another session or leave the session within 14 days, as long as
+  you have not completed the course. For Professional Certificate courses only,
+  you must change sessions or leave the session within 2 days.
+
+  .. note:: When you change sessions, your course progress is not carried from
+     your current session to the new session.
+
+  Leaving a session is not the same as unenrolling from the course. If
+  the current session does not work for you, you can leave a session and wait to
+  decide on joining a later session of the course.
+
+
+* **Unenrolling and Getting a Refund**
+
+  Within 60 days from the date of purchase, you can unenroll from the course
+  entirely and get a refund of your course purchase, as long as you have not
+  been in a course session for more than 14 days. 
+
+  .. note:: For Professional Certificate courses only, you must not have been in
+     a course session for more than 2 days, to be able to unenroll.
+
+  If the refund eligibility period has passed (meaning that you will not
+  receive a refund when you unenroll), the unenroll option is not available.
+
+
 
 
 .. _Enrollment Tracks:
@@ -349,6 +426,14 @@ listed on the **Programs** page on your learner dashboard. Select the card for
 the program to go to a page that has more information about the program. On
 this page, you can view your progress through the program, enroll in more of
 the program's courses, and view any certificates that you have earned.
+
+.. note:: In some programs, courses offer multiple sessions and the ability to
+   change between sessions. For these courses, on the **Courses** and
+   **Programs** pages of your dashboard, after you enroll in the course, you
+   have options to select a session, change to a different session, or leave a
+   session. You must select a session before you can access the course.
+
+   For more information about course sessions, see :ref:`Course Sessions`.
 
 
 .. _Unenroll from a Course:

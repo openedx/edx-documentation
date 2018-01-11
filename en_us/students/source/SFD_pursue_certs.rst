@@ -1,4 +1,5 @@
-.. This topic is edX only
+.. This file is for edX only; not included in Open edX version of the Learner's
+.. Guide.
 
 .. _SFD Pursuing Certificate:
 
@@ -23,15 +24,27 @@ For more information about enrollment tracks, see :ref:`Enrollment Tracks`.
 
 .. _SFD Change to the Verified Track:
 
-********************************
-Upgrading to the Verified Track
-********************************
+************************************************
+Enrolling in or Upgrading to the Verified Track
+************************************************
 
-If you enroll in the audit track for a course on the edx.org website, and then
-decide to pursue a verified certificate, you can upgrade to the verified track
-at any time, until the course deadline for upgrading has passed. The deadline
-for upgrading to the verified track is usually about two weeks after the course
-start date.
+If you pay for the verified track for courses in a program, you are enrolled
+directly in the verified track for these courses, and can earn a certificate
+when you pass the courses with the required grade.
+
+.. note:: In some programs, courses offer multiple sessions to select from, and
+   the ability to change between sessions. For these courses, on the **Courses**
+   and **Programs** pages of your dashboard, after you enroll in the course, you
+   have options to select a session, change to a different session, or leave a
+   session. You must select a session before you can access the course.
+
+   For more information about course sessions, see :ref:`Course Sessions`.
+
+If you enroll in the audit track for a course and decide later to pursue a
+verified certificate, you can upgrade to the verified track at any time, until
+the deadline for upgrading has passed. The deadline for upgrading to the
+verified track is usually about two weeks after the course start date.
+
 
 .. contents::
   :local:
