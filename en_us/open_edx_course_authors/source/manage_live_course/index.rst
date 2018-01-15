@@ -12,6 +12,7 @@ email to learners in the course.
    :maxdepth: 2
 
    course_data
+   automatic_email
    bulk_email
    course_enrollment
    staff_debug_info

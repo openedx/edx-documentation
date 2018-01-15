@@ -558,3 +558,5 @@
 .. _List of ISO 639-1 codes: http://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
 
 .. _Proctoring Software System Requirements: http://clientportal.softwaresecure.com/support/index.php?/Knowledgebase/Article/View/252/0/system-requirements-remote-proctor-now
+
+.. _edX Automated Communication Engine: http://edx-ace.readthedocs.io/en/latest
