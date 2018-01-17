@@ -33,6 +33,7 @@ information, see :ref:`Additional Ecommerce Features`.
    manage_orders
    test_ecommerce
    additional_features/index
+   internationalization
 
 
 
