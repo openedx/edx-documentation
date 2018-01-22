@@ -120,4 +120,56 @@ team privileges.
 To edit a course, select the course name. The Studio **Course Outline** page
 appears.
 
+.. _Change the Course Title or Number:
+
+*************************************
+Change the Course Title or Number
+*************************************
+
+The course title and number that you specify when you create your course become
+part of the course URL. The course URL cannot be changed. However, you can
+change the way that your course title and number appear in Studio and the LMS.
+
+.. _Change the Course Title:
+
+=======================
+Change the Course Title
+=======================
+
+To change the way that your course title appears in Studio and the LMS, follow
+these steps.
+
+.. note::
+ EdX does not recommended that you do this if your course is live.
+
+#. Open the course in Studio.
+#. On the **Settings** menu, select **Advanced Settings**.
+#. In the **Course Display Name** field, enter the title that you want.
+#. Select **Save**.
+
+In Studio and the LMS, your course title changes to the value that you specify
+in the **Course Display Name** field. The URL for your course does not change.
+
+.. _Change the Course Number:
+
+========================
+Change the Course Number
+========================
+
+To change the way that your course number appears in Studio and the LMS, follow
+these steps.
+
+.. note::
+ EdX does not recommended that you do this if your course is live.
+
+#. Open the course in Studio.
+#. On the **Settings** menu, select **Advanced Settings**.
+#. In the **Course Number Display String** field, enter the number that you
+   want.
+#. Select **Save**.
+
+In Studio and the LMS, your course number changes to the value that you specify
+in the **Course Number Display String** field. The URL for your course does not
+change.
+
 .. include:: ../../../../links/links.rst
