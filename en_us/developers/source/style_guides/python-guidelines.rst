@@ -199,7 +199,7 @@ Here's how you write documentation in a mostly "Google Style" manner::
 
   * The summary line is on the second line, including single-line comments
     (see below)
-  * Use the full word "Arguments".
+  * Use the full word "Arguments", although "Args" is also acceptable.
 
 Most of our code is written using an older style::
 
