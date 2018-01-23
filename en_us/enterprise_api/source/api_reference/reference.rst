@@ -30,9 +30,9 @@ The following endpoints are available in the Enterprise API.
   for enrollment in the future. For details, see
   :ref:`enterprise_catalogs_catalogID Endpoint`.
 
-* **/enterprise-catalogs/{catalogID}/course_runs/{course_run_ID}** -
+* **/enterprise-catalogs/{catalogID}/course-runs/{course_run_ID}** -
   You can make GET calls to the
-  ``/enterprise-catalogs/{catalog_id}/course_runs/{course_run_ID}`` endpoint
+  ``/enterprise-catalogs/{catalog_id}/course-runs/{course_run_ID}`` endpoint
   to get information about a single course run. For details, see
   :ref:`enterprise_catalogs_courserun Endpoint`.
 
