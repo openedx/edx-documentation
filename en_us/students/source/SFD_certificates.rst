@@ -8,6 +8,14 @@ Receiving and Sharing edX Certificates
 .. no shared content with this topic and there is no "Certificates" file in the
 .. Shared folder.
 
+
+EdX certificates are web certificates that you can :ref:`share<SFD Sharing a
+Certificate>` and :ref:`print<Print a Web Certificate>`. Certificates show
+that you have successfully completed a course.
+
+.. note::
+  Certificates for courses completed before September 2015 are in PDF format.
+
 .. note::
   Not all courses offer certificates. In the past, edX also offered honor code
   certificates, which are no longer available. If you earned an honor code
@@ -19,12 +27,6 @@ Receiving and Sharing edX Certificates
   steps for earning certificates in these courses are different. For more
   information, see :ref:`SFD Academic Course Credit`.
 
-EdX certificates are web certificates that you can :ref:`share<SFD Sharing a
-Certificate>` and :ref:`print<Print a Web Certificate>`. Certificates show
-that you have successfully completed a course.
-
-.. note::
-  Certificates for courses completed before September 2015 are in PDF format.
 
 The following topics provide information about edX certificates.
 
@@ -43,8 +45,8 @@ EdX currently offers the following types of certificates.
 * :ref:`Verified track certificates<SFD Verified Certificates>` for single
   courses.
 
-* :ref:`Program certificates<SFD XSeries Certificates>` for a program, or
-  series of courses, such as a MicroMasters program.
+* :ref:`Program certificates<SFD XSeries Certificates>` for a program, or series
+  of courses, such as a MicroMasters or Professional Certificate program.
 
 
 .. _SFD Verified Certificates:
@@ -95,8 +97,8 @@ see :ref:`SFD Receiving a Certificate`.
 Program Certificates
 =====================
 
-Certificates for programs such as `XSeries`_, `MicroMasters`_, and
-`Professional Certificate`_ programs show that you have successfully earned a
+Certificates for programs (such as `MicroMasters`_, `Professional
+Certificate`_, or `XSeries`_) show that you have successfully earned a
 verified certificate for each course in the program.
 
 Program certificates include the following information.
@@ -173,14 +175,14 @@ You can also print or share your certificate. For more information, see
 Receiving a Certificate for a Program
 ==========================================
 
-You automatically receive a certificate for `XSeries`_ programs or
-`MicroMasters`_ programs after you earn verified certificates in all of the
-individual courses in the program. Program certificates are available
-immediately after you receive the verified certificate for the final course in
-the program.
+You automatically receive a certificate for programs (such as `MicroMasters`_,
+`Professional Certificate`_ or `XSeries`_) after you earn verified
+certificates in all of the individual courses in the program. Program
+certificates are available immediately after you receive the verified
+certificate for the final course in the program.
 
-The XSeries and MicroMasters program certificates that you have earned are
-visible on the **Programs** tab on your dashboard and on your **Profile** page.
+Program certificates that you have earned are visible on the **Programs** tab
+on your dashboard and on your **Profile** page.
 
 ************************************
 Downloading a Certificate (PDF only)
