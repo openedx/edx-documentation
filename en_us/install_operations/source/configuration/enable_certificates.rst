@@ -1,27 +1,32 @@
 .. _Enable Certificates:
 
-#######################
-Enabling Certificates
-#######################
+##############################
+Enabling Course Certificates
+##############################
 
-This topic describes how to enable certificates in your instance of Open edX.
+This topic describes how to enable and configure course certificates in your
+instance of Open edX.
+
+For information about configuring program certificates, refer to documentation
+in the edx/credentials GitHub repository.
 
 .. contents::
    :local:
    :depth: 1
 
-*********
-Overview
-*********
+*********************************
+Course Certificates Overview
+*********************************
 
 Organizations and course teams can choose to generate certificates for learners
 who pass a course. Learners can view, print, or share their certificates.
 
-For information about certificates, see :ref:`opencoursestaff:Setting Up
-Certificates` in *Building and Running an Open edX Course* or
-:ref:`openlearners:Print a Web Certificate` in the *Open edX Learner's Guide*.
+For additional information about certificates, see
+:ref:`opencoursestaff:Setting Up Certificates` in the *Building and Running an
+Open edX Course* guide or :ref:`openlearners:Print a Web Certificate` in the
+*Open edX Learner's Guide*.
 
-To enable this feature on your instance of Open edX, you must enable a
+To enable course certificates on your instance of Open edX, you must enable a
 feature flag in both Studio and the Learning Management System and complete the
 configuration tasks described in this topic.
 
@@ -29,9 +34,9 @@ configuration tasks described in this topic.
   Before proceeding, review :ref:`Guidelines for Updating the Open edX
   Platform`.
 
-*****************************************************************
-Enable Certificates in Studio and the Learning Management System
-*****************************************************************
+*************************************************
+Enable Course Certificates in Studio and the LMS
+*************************************************
 
 To enable certificates, you modify the ``lms.env.json`` and ``cms.env.json``
 files, which are located one level above the ``edx-platform`` directory.
@@ -56,19 +61,31 @@ files, which are located one level above the ``edx-platform`` directory.
 
 #. Run database migrations.
 
+
+*****************************************
+Configuring Course Certificates in Studio
+*****************************************
+
+Within Studio, course team members with the Admin role can create and edit a
+certificate configuration that is used to generate certificates for their
+course, including adding signatories and images for organization logo and
+signature images for signatories. For details, :ref:`opencoursestaff:Setting Up
+Certificates` in *Building and Running an Open edX Course*.
+
+
 **********************************************************
-Configure Certificates for Your Open edX Instance
+Configure Course Certificates for Your Open edX Instance
 **********************************************************
 
-#. Access the Django Administration website for your instance of Open edX. To
-   do this, go to ``https://<host name of your Open edX instance>/admin``. For
-   example, this might be ``https://YourOrganization.com/admin``.
+#. Access the LMS Django Administration website for your instance of Open edX.
+   To do this, go to ``https://<host name of your Open edX instance>/admin``.
+   For example, this might be ``https://courses.YourOrganization.com/admin``.
 
 #. Under **Site Administration** > **Certificates**, add an HTML View
    Configuration, and select **Enabled**.
 
-#. Modify the configuration parameters. You must set the following
-   certificates-related parameters for your Open edX instance.
+#. Set the following certificates-related parameters for your Open edX
+   instance.
 
    * ``platform_name``
    * ``company_about_url``
@@ -78,12 +95,17 @@ Configure Certificates for Your Open edX Instance
    * ``logo_src``
    * ``logo_url``
 
-   For each course mode, such as "honor" or "verified", define
-   ``certificate_type``, ``certificate_title``, and
-   ``document_body_class_append``. The mode name should match your course mode
-   name exactly. An example follows.
+   For each course mode for which you want to offer certificates (such as
+   "honor" or "verified"), define these parameters.
 
-   For more information about course modes, sometimes called enrollment modes
+   * ``certificate_type`` 
+   * ``certificate_title``
+   * ``document_body_class_append``. 
+
+   Make sure the mode name matches your course mode name exactly. An example
+   follows.
+
+   For more information about course modes, also called enrollment modes
    or enrollment tracks, see :ref:`enrollment track<enrollment_track_g>`.
 
    .. code-block:: none
@@ -121,11 +143,11 @@ Configure Certificates for Your Open edX Instance
         }
     }
 
-#. Save the configuration parameters and exit the Django Administration
-   website.
+#. Save the configuration parameters.
 
-#. Restart the Studio and Learning Management System processes so that the
-   updated environment configurations are loaded.
+#. Restart the Studio and LMS processes to load the updated environment
+   configurations.
+
 
 .. _Discontinue Audit Certificates:
 
@@ -161,6 +183,7 @@ The ``AUDIT_CERT_CUTOFF_DATE`` feature flag affects only the generation of
 audit certificates. Learners who audit courses continue to receive grades,
 which are shown on the course **Progress** page.
 
+
 ******************************************************
 Customize Certificate Templates For Your Organization
 ******************************************************
@@ -170,6 +193,12 @@ templates are included, but you must ensure that they are customized for your
 organization. For example, you can change the images that appear on
 certificates for each course mode that your organization supports, as well as
 fonts and colors that are used on certificates.
+
+To issue certificates in more than one language, see :ref:`Certificates in
+Additional Languages`.
+
+To display hours of effort on certificates, see :ref:`Display Hours of
+Effort`.
 
 Assets for HTML certificates exist in the following locations.
 
@@ -186,15 +215,140 @@ Assets for HTML certificates exist in the following locations.
      details, see :ref:`opencoursestaff:Setting Up Certificates` in *Building
      and Running an Open edX Course*.
 
-*****************************************
-Configure Certificates Within Each Course
-*****************************************
 
-Within Studio, course team members with the Admin role can create and edit a
-certificate configuration that is used to generate certificates for their
-course, including adding signatories and images for organization logo and
-signature images for signatories. For details, :ref:`opencoursestaff:Setting Up
-Certificates` in *Building and Running an Open edX Course*.
+
+.. _Certificates in Additional Languages:
+
+************************************************************
+Enable Certificates in Additional Languages
+************************************************************
+
+You can configure course certificates to render in a specific language.
+
+.. contents::
+   :local:
+   :depth: 1
+
+=====================================================
+Configure Course Certificates in Additional Languages
+=====================================================
+
+To enable generating course certificates in languages other than the
+default language of your platform, follow these steps.
+
+.. note:: Base certificate templates already exist for English and
+      Spanish. If you want a course certificate that is different from the
+      default certificate for the organization or language, create a new
+      certificate template.
+
+#. Add the language in which you want to generate certificates to
+   ``EDXAPP_CERTIFICATE_TEMPLATE_LANGUAGES``
+   (``edx/configuration/playbooks/roles/edxapp/defaults/main.yml``), where the
+   key is the language code and the value is the name of the language. 
+
+   For example,    ``'fr':'français'``.
+
+#. In the LMS Django Administration site for your instance of Open edX, under
+   **Site Administration** > **Certificates** > **Certificate templates**, add
+   a certificate template for each additional language in which you want to
+   generate certificates.
+
+#. In each certificate template, modify the configuration parameters as
+   required to apply the template either to all course runs in an
+   organization, or to a single course run.
+
+
+   .. list-table::
+      :widths: 10 35 35
+      :header-rows: 1
+
+      * - Parameter
+        - To apply the template to all course runs
+          in the organization
+        - To apply the template to a specific course run
+      * - ``Language``
+        - Select the language that you want the certificate to be generated
+          in.
+        - Select the language that you want the certificate to be generated
+          in.
+      * - ``Organization ID``
+        - Enter the ID for the organization whose courses should use this
+          certificate template.
+        - Select ``None``.
+      * - ``Course Key``
+        - Leave empty.
+        - Enter the course key for the course run which should use this
+          certificate template.   
+      * - ``Mode``
+        - (Optional) Specify the course mode for which certificates will be
+          generated using this template. If no mode is specified, this template
+          is used for all course modes.
+        - (Optional) Specify the course mode for which certificates will be
+          generated using this template. If no mode is specified, this template
+          is used for all course modes.
+      * - ``Is Active``
+        - Select this checkbox to make this template active.
+        - Select this checkbox to make this template active.
+
+
+   .. note:: If more than one certificate template would apply to a course
+      run, the most specific (lowest level) template is used. For example, if
+      you define a certificate template for all courses in an organization and
+      another template for a specific course run, the template for the course
+      run is used.
+
+#. Save each certificate template.
+
+#. ONLY if you are enabling additional language certificates for a specific
+   course run, add a certificate generation course setting in LMS Django
+   Administration, under **Site Administration** > **Certificates**.
+
+#. In the **Course key** field of the certificate generation course setting,
+   specify the course run for which you are enabling language specific
+   certificate templates.
+
+#. Select **Language specific templates enabled**, and save the configuration.
+
+
+.. _Display Hours of Effort:
+
+**********************************************
+Display Hours of Effort on Course Certificates
+**********************************************
+
+
+To display hours of effort for a course run on a course certificate, follow
+these steps.
+
+#. Log in to the Discovery service Django Administration site for your instance
+   of Open edX. To do this, go to ``https://<discovery.host name of your Open
+   edX instance>/admin``. For example, this might be
+   ``https://discovery.YourOrganization.com/admin``.
+
+#. Under **Course Metadata** > **Course Runs**, locate the course run, and make
+   sure there are values for the following attributes.
+
+   * Max effort
+   * Weeks to complete
+
+#. Log in to the LMS Django Administration site for your instance of Open edX.
+   To do this, go to ``https://<courses.host name of your Open edX
+   instance>/admin``. For example, this might be
+   ``https://courses.YourOrganization.com/admin``.
+
+#. Under **Site Administration** > **Certificates**, add or edit a
+   certificate generation course setting.
+
+#. Select ``Yes`` for **Include hours of effort** and save the configuration.
+
+#. Under **Site Administration** > **Certificates**, add or edit a certificate
+   template.
+
+#. In the certificate template, ensure that a ``div`` element exists that
+   includes the context variable ``hours_of_effort``. 
+
+#. Save your edits to the certificate template.
+
 
 .. _Generate Certificates for a Course:
 
