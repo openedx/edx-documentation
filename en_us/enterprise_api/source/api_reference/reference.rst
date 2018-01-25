@@ -4,13 +4,12 @@
 EdX Enterprise API Reference
 ################################
 
-This API reference includes detailed information about the
-``/enterprise-catalogs`` and ``/course-enrollments`` endpoints of the edX
-Enterprise API, including the request, response data, and examples. The
-example API requests shown in this reference use the ``curl`` command-line
-program to send HTTP messages to the edX API. You can use any technology to
-send REST API requests. The examples use the ``curl`` program to show the
-syntax and data for a request in a way that is easy to read.
+This API reference includes detailed information about the ``/enterprise-
+catalogs`` and ``/course-enrollments`` endpoints of the edX Enterprise API,
+including the request, response data, and examples. You can use any technology
+to send REST API requests as HTTP messages to the edX API. The example API
+requests shown in this reference use the ``curl`` command-line program to show
+the syntax and data for a request in a way that is easy to read.
 
 *********
 Endpoints
@@ -137,7 +136,7 @@ Fields in a course Content Item
      - Example: ``course:edX+DemoX``.
    * - ``content_type``
      - enum string
-     - Type of learning item. One of ``course``, ``courserun``, or ``program``.
+     - Type of learning item. In this case, the value is ``course``.
    * - ``full_description``
      - string
      - The HTML full description of the course.
@@ -175,25 +174,25 @@ Fields in a course_run Content Item
      - One of ``Current``, ``Upcoming``.
    * - ``content_type``
      - enum string
-     - Type of learning item. One of ``course``, ``courserun``, or ``program``.
+     - Type of learning item. In this case, the value is ``courserun``.
    * - ``end``
      - datetime
      - The end date of the course run.
    * - ``enrollment_end``
      - datetime
-     - The last time at which learners can enroll.
+     - The last date and time by which learners can enroll in this course run.
    * - ``enrollment_start``
      - datetime
-     - The first time at which learners can enroll.
+     - The first date and time by which learners can enroll in this course run.
    * - ``enrollment_url``
-     - sring
+     - string
      - The URL for the enrollment page.
    * - ``full_description``
      - string
      - The long description of the course and its content.
    * - ``has_enrollable_seats``
      - boolean
-     - Whether learners can enroll in the course.
+     - Whether learners can enroll in the course run.
    * - ``image_url``
      - string
      - The URL for the About page image for the course.
@@ -268,7 +267,7 @@ Fields in a course_run Content Item
      - enum string
      - One of ``verified``, ``professional``
    * - ``weeks_to_complete``
-     - int
+     - integer
      - The number of weeks required to complete the content item.
 
 .. _program Fields:
@@ -297,9 +296,9 @@ Fields in a program Content Item
      - The URL of an image that represents the program.
    * - ``content_type``
      - enum string
-     - Type of learning item. One of ``course``, ``courserun``, or ``program``.
+     - Type of learning item. In this case, the value is ``program``.
    * - ``enrollment_url``
-     - sring
+     - string
      - The URL for the enrollment page.
    * - ``language``
      - string
@@ -338,15 +337,15 @@ Fields in a program Content Item
    * - ``type``
      - enum string
      - The program type. One of ``Professional Certificate``, ``XSeries``,
-       ``MicroMasters``, or ``Professional Program``.
+       or ``MicroMasters``.
    * - ``uuid``
      - string
      - The unique identifier for the program.
    * - ``weeks_to_complete_max``
-     - int
+     - integer
      - The maximum number of estimated weeks required to complete the program.
    * - ``weeks_to_complete_min``
-     - int
+     - integer
      - The minimum number of estimated weeks required to complete the
        program.
 

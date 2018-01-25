@@ -6,7 +6,7 @@ Introduction
 
 Welcome to the Enterprise API user guide. This guide will help you get set
 up to use the edX Enterprise API and give you the information you need to
-return the results you want.
+return the results you want for your edX for Business integration.
 
 .. _About the Enterprise API:
 
@@ -14,10 +14,12 @@ return the results you want.
 About the edX Enterprise API
 ******************************
 
-The enterprise uses the edX Enterprise API to retrieve its custom course
-catalog and display the course information in the enterprise LMS or other
-system. You can also use the API to enroll learners in specified courses in
-your course catalog.
+The edX Enterprise API is part of edX for Business, which provides corporations
+and other enterprises the ability to provide their employees with access to the
+thousands of high-quality online courses on the edX platform. An enterprise
+uses the edX Enterprise API to retrieve its custom course catalog and display
+the course information in the enterprise LMS or other system. You can also use
+the API to enroll learners in specified courses in your course catalog.
 
 The edX Enterprise API is a REST web services API. You must provide an
 API client (a program, utility, or other tool that you can use to exchange

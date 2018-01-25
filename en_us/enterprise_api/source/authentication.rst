@@ -51,9 +51,9 @@ Obtaining an Access Token
 To obtain an access token, you submit a POST request to the
 ``/oauth2/v1/access_token`` authentication resource. Include a string in the
 message body of your POST request that contains your client identifier,
-client secret, grant type, and token type, as shown in the following example,
-replacing ``{client_id}`` and ``{client_secret}`` with your actual client ID
-and secret.
+client secret, grant type (``client_credential``), and token type (``jwt``),
+as shown in the following example, replacing ``{client_id}`` and
+``{client_secret}`` with your actual client ID and secret.
 ::
 
   curl -X POST /oauth2/v1/access_token/\
