@@ -8,7 +8,6 @@ Writing Good Code
     :maxdepth: 2
 
     accessibility
-    internationalization/index
     preventing_xss
     django
 
