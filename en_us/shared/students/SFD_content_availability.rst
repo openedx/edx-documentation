@@ -17,7 +17,7 @@ Below any messages from the course team, you see the course outline.
 Click **Start Course** to go to the first section of the course, or select any
 part of the course to jump to it. If you have already accessed or worked in
 the course, click **Resume Course** to jump to the part of the course that you
-last accessed.
+last completed.
 
 
 ********************************************************
@@ -62,7 +62,7 @@ Course Content Can Have Prerequisites
 Some courses include content that has prerequisite sections. A section with a
 prerequisite requires that you complete another, previous section before it
 becomes available. The course team sets a minimum score that you must earn in
-a prerequisite section before you can proceed to the following section. 
+a prerequisite section before you can proceed to the following section.
 
 If a section has a prerequisite, the course outline displays that
 section with a lock icon, and you cannot open that section until you have
