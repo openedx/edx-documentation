@@ -14,6 +14,7 @@ language of their choice.
    :local:
 
 
+**********************************
 General Internationalization Rules
 **********************************
 
@@ -40,6 +41,7 @@ Follow these general rules for internationalizing your code.
 For details, see :ref:`i18n Style Guidelines`.
 
 
+********************
 Editing Source Files
 ********************
 
@@ -75,6 +77,7 @@ programming languages.
 
 .. _i18n Python Source Code:
 
+==================
 Python Source Code
 ==================
 
@@ -131,6 +134,7 @@ This example is correct. ::
 
 .. _i18n Django Template Files:
 
+=====================
 Django Template Files
 =====================
 
@@ -147,6 +151,7 @@ translation and add translator comments as shown. ::
 
 .. _i18n Mako Template Files:
 
+===================
 Mako Template Files
 ===================
 
@@ -219,19 +224,21 @@ For more information on proper escaping, see :ref:`Preventing XSS`.
 
 .. _i18n JavaScript Files:
 
+================
 JavaScript Files
 ================
 
 .. highlight:: html
 
-To internationalize JavaScript, the HTML template (base.html) must first load
-a special JavaScript library, and Django must be configured to serve it. ::
+To internationalize JavaScript, the HTML template (``base.html``) must first
+load a special JavaScript library, and Django must be configured to serve it.
+::
 
     <script type="text/javascript" src="jsi18n/"></script>
 
 .. highlight:: javascript
 
-Then, in JavaScript files (`*.js`)::
+Then, in JavaScript files (``*.js``)::
 
     // Translators: this will help the translator.
     var message = gettext('Welcome!');
@@ -256,6 +263,7 @@ differently. There, you must use the Mako syntax even within the JavaScript.
 
 .. _i18n CoffeeScript Files:
 
+==================
 CoffeeScript Files
 ==================
 
@@ -308,6 +316,7 @@ following rules.
 
 .. _i18n Underscore Template Files:
 
+=========================
 Underscore Template Files
 =========================
 
@@ -373,6 +382,7 @@ questions from translators.
 
 .. _i18n Other Types of Content:
 
+======================
 Other Types of Content
 ======================
 
@@ -385,6 +395,7 @@ types of content.
 
 .. _i18n Coverage Testing:
 
+****************
 Coverage Testing
 ****************
 
@@ -445,37 +456,40 @@ page layout, such as columns that do not fit, or text that is truncated (the
 probably need to fix the page layouts accordingly to accommodate the longer
 strings.
 
-Finally, append ``/update_lang/`` to the root LMS or Studio URL and set the 
-language code to ``rtl`` to view your feature in the dummy right-to-left 
-(RTL) language. Test to make sure that the user interface is properly 
-"flipped" to right-to-left mode. Note that certain page elements might not 
-look correct because they are controlled by the browser. For more effective testing, 
-switch your browser's language to Arabic or another RTL language (Hebrew, 
-Persian, or Urdu) as well. See our `RTL UI Guidelines`_ for information 
+Finally, append ``/update_lang/`` to the root LMS or Studio URL and set the
+language code to ``rtl`` to view your feature in the dummy right-to-left
+(RTL) language. Test to make sure that the user interface is properly
+"flipped" to right-to-left mode. Note that certain page elements might not
+look correct because they are controlled by the browser. For more effective testing,
+switch your browser's language to Arabic or another RTL language (Hebrew,
+Persian, or Urdu) as well. See our `RTL UI Guidelines`_ for information
 about fixing any issues that you find.
 
-When you have finished reviewing, append ``/update_lang/`` to the LMS or 
+When you have finished reviewing, append ``/update_lang/`` to the LMS or
 Studio URL and reset your session to your base language.
 
+====================
 Set Preview Language
 ====================
 
-Before you set the preview language, sign in to either LMS or Studio. Then append 
-``/update_lang/`` to the root LMS or Studio URL. A form appears for you to set or 
-clear the preview language. Set the Language code (for example use ``eo`` for the 
-test language Esperanto), and then select **Submit** to set the preview language. 
-Use the **Reset** button to reset the preview language to your default setting. 
-Refresh your browser page to display the page in the selected language. The 
-language persists for the duration of your session.
+Before you set the preview language, sign in to either LMS or Studio. Then
+append  ``/update_lang/`` to the root LMS or Studio URL. A form appears for you
+to set or  clear the preview language. Set the Language code (for example use
+``eo`` for the  test language Esperanto), and then select **Submit** to set the
+preview language.  Use the **Reset** button to reset the preview language to
+your default setting.  Refresh your browser page to display the page in the
+selected language. The  language persists for the duration of your session.
 
 .. _RTL UI Guidelines: https://github.com/edx/edx-platform/wiki/RTL-UI-Best-Practices
 
 
 .. _i18n Style Guidelines:
 
+****************
 Style Guidelines
 ****************
 
+===========================================
 Do Not Append Strings or Interpolate Values
 ===========================================
 
@@ -534,6 +548,7 @@ Good (JavaScript)::
 
     message = gettext('Here is a really really long message that is correctly left on a single line.')
 
+======================
 Use Named Placeholders
 ======================
 
@@ -568,6 +583,7 @@ The resulting output is correct in each language. ::
     Spanish output: "Hoy es 26 de Noviembre."
 
 
+==============================
 Only Translate Literal Strings
 ==============================
 
@@ -619,6 +635,7 @@ shown in these examples.
         message = _("Goodbye.")
 
 
+==========================
 Be Aware of Nested Context
 ==========================
 
@@ -663,6 +680,7 @@ The code with proper escaping produces the following JavaScript-escaped code.
     </script>
 
 
+==================
 Singular vs Plural
 ==================
 
@@ -693,6 +711,7 @@ The example above will properly use count to find a correct string in the
 translation file; you can then use that string to format in the count.
 
 
+=====================
 Translating Too Early
 =====================
 
@@ -759,11 +778,13 @@ during extraction, but will not be translated too early. At runtime, we then
 use the real translation function to get the localized string.
 
 
+==================
 Multi-line Strings
 ==================
 
 Translator notes must directly precede the string literals to which they refer.
-For example, the translator note here will not be passed along to translators. ::
+For example, the translator note here will not be passed along to translators.
+::
 
     # Translators: you will not be able to see this note because
     # I do not directly prepend the line with the translated string literal.
@@ -784,6 +805,7 @@ a line directly below the translator note. ::
 
 .. _i18n Additional Resources:
 
+********************
 Additional Resources
 ********************
 

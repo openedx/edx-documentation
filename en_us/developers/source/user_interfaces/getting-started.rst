@@ -73,10 +73,11 @@ Features should work equally well on mobile and web platforms
 
 Open edX provides iOS and Android applications in addition to its web
 applications, and so new learner features need to be implemented for all three
-platforms. The simplest way to achieve feature parity is to provide a responsive
-web experience that can be used on phones and tablets as well as on desktops and
-laptops. Using `Bootstrap`_ helps with this by providing a responsive grid
-system along with components that work equally well on mobile and web.
+platforms. The simplest way to achieve feature parity is to provide a
+responsive web experience that can be used on phones and tablets as well as on
+desktops and laptops. Using `Bootstrap`_ helps with this by providing a
+responsive grid system along with components that work equally well on mobile
+and web.
 
 -----------------------------------------
 Designs should be accessible to all users
@@ -101,7 +102,7 @@ application should be marked for translation, as well as ensuring that all new
 user interfaces will switch to right-to-left mode when the language requires it.
 
 You can learn more about internationalization in the section
-:doc:`../conventions/internationalization/index`.
+:doc:`../internationalization/index`.
 
 ------------------------------------------------
 Front end implementations should support theming

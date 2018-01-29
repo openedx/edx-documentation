@@ -20,5 +20,6 @@ Open edX Developer's Guide
    analytics.rst
    deploy-new-service
    conventions/index
+   internationalization/index
    style_guides/index
    glossary

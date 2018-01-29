@@ -47,6 +47,7 @@ This section contains the following topics.
  :local:
  :depth: 1
 
+=========================
 Sign up for an Account
 =========================
 
@@ -54,6 +55,7 @@ Go to `https://www.transifex.com/signup/ <https://www.transifex.com/signup/>`_
 and fill out the form to create a free Transifex account, if you do not have
 one already.
 
+==========================
 Join a Translation Team
 ==========================
 
@@ -81,6 +83,7 @@ Join a Translation Team
    After you join a translation team, you can begin translating strings
    immediately. For more information, see :ref:`How To Translate With Transifex`.
 
+=====================
 Join a Review Team
 =====================
 
@@ -117,6 +120,7 @@ your message.
 
 .. _How To Translate With Transifex:
 
+===============================
 Translating With Transifex
 ===============================
 
@@ -151,6 +155,7 @@ Studio resources.
   * djangojs-studio
   * django-studio
 
+=========================
 Requesting a New Language
 =========================
 
@@ -187,6 +192,7 @@ following guidelines.
  :depth: 1
 
 
+=====================
 Ask for Clarification
 =====================
 
@@ -197,6 +203,7 @@ and make a post. Group members can help clarify the context of the string, and
 even add a comment to the code to clarify the string, which will help
 translators working on other language projects.
 
+=================
 Working With HTML
 =================
 
@@ -244,6 +251,7 @@ Examples::
      Do not add additional spacing to the HTML tags. Please use the given HTML tags.
 
 
+=========================
 Working With Placeholders
 =========================
 
