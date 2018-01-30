@@ -243,6 +243,8 @@ Set Section Highlights for Weekly Highlight Emails
   When you add highlights for a section, keep the following information in
   mind.
 
+  * EdX sends the first highlight email seven days after the learner enrolls in
+    a course, and sends additional highlight emails every seven days.
   * Each highlight has a limit of 250 characters.
   * If you include a hyperlink in your highlights, we recommend that you use a
     URL shortener to shorten any long URLs, and then enter the shortened URL in
