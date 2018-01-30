@@ -99,11 +99,11 @@ Create the HTML Component in Studio
     step 6 in :ref:`Create the Qualtrics Survey`.
   * In the ``src`` attribute, add the following value to the end of the URL.
 
-    ``&uid=%%USER_ID%%``
+    ``?uid=%%USER_ID%%``
 
     The resulting ``src`` attribute resembles the following example.
 
-    ``src="https://qtrial2015az1.az1.qualtrics.com/SE/?SID=SV_9N27VuruRdNcpHT&uid=%%USER_ID%%"``
+    ``src="https://qtrial2015az1.az1.qualtrics.com/SE/?SID=SV_9N27VuruRdNcpHT?uid=%%USER_ID%%"``
 
   * Replace the values in the ``width`` and ``height`` attributes with values
     that allow your survey to appear the way you want it to. For example, you
