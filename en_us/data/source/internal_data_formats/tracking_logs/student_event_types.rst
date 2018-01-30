@@ -2216,7 +2216,7 @@ event type also includes the following ``context`` member field.
    * - ``location``
      - string
      - The location in the LMS where the student clicked an upgrade link or
-       button: 'date-sidebar', 'hero', 'learner_dashboard', or 'sock'.
+       button.
    * - ``mode``
      - string
      - Enrollment mode when the user clicked an upgrade link or button:
