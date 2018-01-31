@@ -7,19 +7,117 @@
 Pursuing Certificates
 ####################################
 
-You can earn a certificate for a course by upgrading to the verified track in a
-course, and passing the course. To earn a certificate for a program, you must
-upgrade to the verified track for all the courses in the program, and pass all
-the courses.
+This topic provides basic information about course and program certificates,
+and describes what you need to do to pursue a certificate, including verifying
+your identity on edX and making certificate payments.
 
-This topic describes how to enroll in or upgrade to the verified track for a
-course or program, and how to verify your identify for certificates.
-
-For more information about enrollment tracks, see :ref:`Enrollment Tracks`.
+For information about accessing certificates that you have earned, see
+:ref:`SFD Receiving a Certificate`.
 
 .. contents::
   :local:
   :depth: 1
+
+.. _About Certificates:
+
+******************
+About Certificates
+******************
+
+EdX currently offers the following types of certificates.
+
+* :ref:`Verified track certificates<SFD Verified Certificates>` for single
+  courses.
+
+* :ref:`Program certificates<SFD XSeries Certificates>` for a program, or series
+  of courses, such as a MicroMasters or Professional Certificate program.
+
+.. note::
+  Not all courses offer certificates. In the past, edX also offered honor code
+  certificates, which are no longer available. If you earned an honor code
+  certificate in the past, you can still access your certificate through your
+  :ref:`dashboard<SFD Learner Dashboard>`. For more information, see `News
+  About edX Certificates`_.
+
+  Additionally, some edX courses offer academic credit. The requirements and
+  steps for earning certificates in these courses are different. For more
+  information, see :ref:`SFD Academic Course Credit`.
+
+
+.. _SFD Verified Certificates:
+
+===========================
+About Verified Certificates
+===========================
+
+Most, but not all, courses on edx.org offer :ref:`verified tracks<Enroll in
+the Verified Track>` of study, from which you can earn verified certificates.
+For more information about the benefits of verified certificates, and to see
+an example of a verified certificate, see `Verified Certificates`_. For a list
+of all courses that offer verified certificates, see the `edX course
+catalog`_.
+
+To earn a verified certificate from an edX course, you enroll in or upgrade to
+the verified track in the course, pay the certificate fee, :ref:`verify your
+identity<SFD Verify Your Identity>` using a webcam and a photo ID, and earn a
+passing grade.
+
+Verified certificates include the following information.
+
+* The name that you entered as your full name when you created your account.
+
+  To verify or change your full name before your certificate is issued,
+  :ref:`check your account settings<SFD Update Account Settings>`.
+
+* The name of the course.
+* The edX partner institution that created the course.
+* The names and signatures of one or more members of the course team.
+* The date, in universal coordinated time (UTC), when the certificate was
+  issued.
+* A URL that others can visit to verify the authenticity of the certificate.
+
+.. note::
+  Verified certificates do not include your final grade in the course or the
+  number of credit hours that a university might offer for the course. Your
+  final grade appears on your **Progress** page and on your dashboard. If you
+  need a record of your grade, you can print your **Progress** page or
+  dashboard.
+
+For information about accessing a course certificate that you have earned,
+see :ref:`SFD Receiving a Certificate`.
+
+
+.. _SFD XSeries Certificates:
+
+==========================
+About Program Certificates
+==========================
+
+Certificates for programs (such as `MicroMasters`_, `Professional
+Certificate`_, or `XSeries`_) show that you have successfully earned a
+verified certificate for each course in the program.
+
+To earn a certificate for a program, you must upgrade to the verified track
+for all the courses in the program, and pass all the courses in the program
+with the required grades.
+
+For more information about enrollment tracks, see :ref:`Enrollment Tracks`.
+
+Program certificates include the following information.
+
+* The name that you entered as your full name when you created your account.
+
+  To verify or change your full name before your certificate is issued,
+  :ref:`check your account settings<SFD Update Account Settings>`.
+
+* The name of the program.
+* The edX partner institution that created the program.
+* The names and signatures of one or more members of the program team.
+* The month and year when the certificate was issued.
+* A certificate ID that others can use to validate the certificate.
+
+For information about accessing a program certificate that you have earned,
+see :ref:`Receive a Certificate for a Program`.
 
 
 .. _SFD Change to the Verified Track:
@@ -28,22 +126,26 @@ For more information about enrollment tracks, see :ref:`Enrollment Tracks`.
 Enrolling in or Upgrading to the Verified Track
 ************************************************
 
-If you pay for the verified track for courses in a program, you are enrolled
-directly in the verified track for these courses, and can earn a certificate
-when you pass the courses with the required grade.
+Being in the :ref:`verified track<SFD Verified Track>` of a course means that
+you are eligible to receive a certificate when you pass the course with a
+required grade.
 
-.. note:: In some programs, courses offer multiple sessions to select from, and
-   the ability to change between sessions. For these courses, on the **Courses**
-   and **Programs** pages of your dashboard, after you enroll in the course, you
-   have options to select a session, change to a different session, or leave a
-   session. You must select a session before you can access the course.
+Enrolling in the verified track requires that you pay for the :ref:`verified
+certificate<SFD Verified Certificates>` and also that you  :ref:`verify your
+identity<SFD Verify Your Identity>` using a webcam and a photo ID.
 
-   For more information about course sessions, see :ref:`Course Sessions`.
+You can enroll in the verified track of a course in two ways.
 
-If you enroll in the audit track for a course and decide later to pursue a
-verified certificate, you can upgrade to the verified track at any time, until
-the deadline for upgrading has passed. The deadline for upgrading to the
-verified track is usually about two weeks after the course start date.
+* You enroll directly in the verified track of the course, if you have not yet
+  enrolled in the course.
+
+* You upgrade to the verified track, if you are already enrolled in the audit
+  track for the course.
+
+  If you are enrolled in the audit track for a course, you can upgrade to the
+  verified track at any time, until the deadline for upgrading has passed. The
+  deadline for upgrading to the verified track is usually about two weeks
+  after the course start date.
 
 
 .. contents::
@@ -83,7 +185,7 @@ follow these steps.
 Upgrade to the Verified Track
 ===============================
 
-Upgrading to the verified track requires two tasks.
+Upgrading to the :ref:`verified track<SFD Verified Track>` requires two tasks.
 
 *  You pay to upgrade to the verified track.
 *  You complete the ID verification process using a webcam and a photo ID that
@@ -108,6 +210,34 @@ After you submit your payment, you can view information about that payment at
 any time. For more information, see :ref:`View Order History`.
 
 For more information about enrollment tracks, see :ref:`Enrollment Tracks`.
+
+
+
+.. _SFD_Pursue Program Certificate:
+
+********************************
+Pursuing a Program Certificate   
+********************************
+
+To pursue a program certificate, you enroll in, or upgrade to, the
+:ref:`verified track<SFD Verified Track>` for each course in the program. You
+earn the program certificate only if you earn a verified certificate for each
+course in the program.
+
+There are several paths you can take to pursue a program certificate.
+
+* If you are not yet enrolled in any of the program's courses:
+  - Purchase the verified track for each of the program's courses separately;
+  - Purchase the verified track for all of the program's courses all at once.
+
+* If you are already in the audit track of a course in the program:
+  - Upgrade to the verified track for each course in the program separately;
+  - Purchase the verified track for all courses in the program at once.
+
+* If you are already in the verified track of one or more courses in the
+  program:
+  - Purchase the verified track for each remaining course separately;
+  - Purchase the verified track for all remaining courses at once.
 
 
 ******************************

@@ -11,6 +11,8 @@ Enrolling in edX Courses or Programs
 EdX offers both individual :ref:`courses<About Courses>` and groups of related
 courses, called :ref:`programs<About Programs>`.
 
+You can take courses individually, even if they are part of a program. 
+
 To learn about a course or program, click the course or program in the `edX
 course catalog`_, to view its About page. About pages provide information about
 the course or program, including the course or program duration, the hours of
@@ -223,8 +225,9 @@ Identity>` using a webcam and a photo ID.
 
 For more information about enrolling in the verified track for a course, see
 :ref:`Enroll in the Verified Track` or :ref:`SFD Change to the Verified Track`.
-For information about certificates, see :ref:`Certificates` or `Verified
-Certificates`_.
+
+For information about pursuing certificates, see :ref:`SFD_Pursue Program
+Certificate`, :ref:`Certificates`, or `Verified Certificates`_.
 
 
 .. _About Programs:
@@ -377,8 +380,19 @@ passed.
 Enroll in the Verified Track for a Course
 =============================================
 
-:ref:`Verified track<SFD Verified Track>` enrollment requires that you pay for
-the :ref:`verified certificate<SFD Verified Certificates>` and also
+Being in the :ref:`Verified track<SFD Verified Track>` of a course means that
+you are eligible to receive a certificate when you pass the course with a
+required grade.
+
+You can enroll in the verified track of a course in two ways.
+
+* You enroll directly in the verified track of the course, if you have not yet
+  enrolled in the course.
+
+* You upgrade to the verified track, if you are already enrolled in the audit
+  track for the course.
+
+Enrolling in the verified track requires that you pay for the :ref:`verified certificate<SFD Verified Certificates>` and also that you 
 :ref:`verify your identity<SFD Verify Your Identity>` using a webcam and a
 photo ID.
 
@@ -392,24 +406,25 @@ To pursue a verified certificate in a course, follow these steps.
 
 #. Select **Enroll Now**.
 
-#. Select **Pursue a Verified Certificate**
+#. Select **Pursue a Verified Certificate**. You can also choose **Audit This
+   Course** and upgrade to the verified track later.
 
-#. To pay with a credit card, select **Checkout**. To pay with PayPal, select
-   **Checkout with Paypal**.
+   You do not have to verify your identity immediately, but you must verify your
+   identity before the course ID verification deadline has passed. For more
+   information, see :ref:`SFD Verify Your Identity`.
 
-   * Payment is in US dollars.
+#. Complete the information on the order confirmation page, then click **Place
+   Order**.
 
-   * You must pay the verified track fee before you can begin the course.
+   .. note:: Payment is in US dollars.
 
-   * You do not have to verify your identity immediately, but you
-     must verify your identity before the course ID verification deadline has
-     passed. For more information, see :ref:`SFD Verify Your Identity`.
+   You see the order confirmation page, showing details of your purchase.
 
-#. If you are using a web browser, your course dashboard opens with a list of
-   all of the courses you are enrolled in. To open the course, select **View
-   Course**.
+#. Click the **Go to Your Dashboard** link at the bottom of the order
+   confirmation page. 
 
-   If you are using the edX mobile app, the new course opens immediately.
+#. On your dashboard, locate the course in the list of your enrolled courses,
+   and select **View Course** to enter the course.
 
 
 .. _SFD Enroll in a Program:
@@ -418,8 +433,8 @@ To pursue a verified certificate in a course, follow these steps.
 Enroll in a Program
 ===================
 
-To enroll in a :ref:`program<About Programs>`, enroll in any course that is
-part of that program. You do not need to complete any additional steps.
+There is no formal step to enroll in a :ref:`program<About Programs>`. You join
+a program simply by enrolling in any course that is part of that program.
 
 After you enroll in any course that is part of a program, that program is
 listed on the **Programs** page on your learner dashboard. Select the card for

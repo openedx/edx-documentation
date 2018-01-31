@@ -8,114 +8,23 @@ Receiving and Sharing edX Certificates
 .. no shared content with this topic and there is no "Certificates" file in the
 .. Shared folder.
 
+Certificates show that you have successfully completed a course or program with
+the required grade.
 
-EdX certificates are web certificates that you can :ref:`share<SFD Sharing a
-Certificate>` and :ref:`print<Print a Web Certificate>`. Certificates show
-that you have successfully completed a course.
+EdX course and program certificates are web certificates that you can
+:ref:`share<SFD Sharing a Certificate>` and :ref:`print<Print a Web
+Certificate>`. 
 
 .. note::
   Certificates for courses completed before September 2015 are in PDF format.
 
-.. note::
-  Not all courses offer certificates. In the past, edX also offered honor code
-  certificates, which are no longer available. If you earned an honor code
-  certificate in the past, you can still access your certificate through your
-  :ref:`dashboard<SFD Learner Dashboard>`. For more information, see `News
-  About edX Certificates`_.
 
-  Additionally, some edX courses offer academic credit. The requirements and
-  steps for earning certificates in these courses are different. For more
-  information, see :ref:`SFD Academic Course Credit`.
-
-
-The following topics provide information about edX certificates.
+The following topics provide information receiving and sharing edX certificates
+that you have earned.
 
 .. contents::
  :local:
  :depth: 1
-
-.. _About Certificates:
-
-******************
-About Certificates
-******************
-
-EdX currently offers the following types of certificates.
-
-* :ref:`Verified track certificates<SFD Verified Certificates>` for single
-  courses.
-
-* :ref:`Program certificates<SFD XSeries Certificates>` for a program, or series
-  of courses, such as a MicroMasters or Professional Certificate program.
-
-
-.. _SFD Verified Certificates:
-
-=====================
-Verified Certificates
-=====================
-
-Most, but not all, courses on edx.org offer :ref:`verified tracks<Enroll in
-the Verified Track>` of study, from which you can earn verified certificates.
-For more information about the benefits of verified certificates, and to see
-an example of a verified certificate, see `Verified Certificates`_. For a list
-of all courses that offer verified certificates, see the `edX course
-catalog`_.
-
-To earn a verified certificate from an edX course, you enroll in or upgrade to
-the verified track in the course, pay the certificate fee, :ref:`verify your
-identity<SFD Verify Your Identity>` using a webcam and a photo ID, and earn a
-passing grade.
-
-Verified certificates include the following information.
-
-* The name that you entered as your full name when you created your account.
-
-  To verify or change your full name before your certificate is issued,
-  :ref:`check your account settings<SFD Update Account Settings>`.
-
-* The name of the course.
-* The edX partner institution that created the course.
-* The names and signatures of one or more members of the course team.
-* The date, in universal coordinated time (UTC), when the certificate was
-  issued.
-* A URL that others can visit to verify the authenticity of the certificate.
-
-.. note::
-  Verified certificates do not include your final grade in the course or the
-  number of credit hours that a university might offer for the course. Your
-  final grade appears on your **Progress** page and on your dashboard. If you
-  need a record of your grade, you can print your **Progress** page or
-  dashboard.
-
-For information about accessing a course certificate that you have earned,
-see :ref:`SFD Receiving a Certificate`.
-
-.. _SFD XSeries Certificates:
-
-=====================
-Program Certificates
-=====================
-
-Certificates for programs (such as `MicroMasters`_, `Professional
-Certificate`_, or `XSeries`_) show that you have successfully earned a
-verified certificate for each course in the program.
-
-Program certificates include the following information.
-
-* The name that you entered as your full name when you created your account.
-
-  To verify or change your full name before your certificate is issued,
-  :ref:`check your account settings<SFD Update Account Settings>`.
-
-* The name of the program.
-* The edX partner institution that created the program.
-* The names and signatures of one or more members of the program team.
-* The month and year when the certificate was issued.
-* A certificate ID that others can use to validate the certificate.
-
-For information about accessing a program certificate that you have earned,
-see :ref:`Receive a Certificate for a Program`.
 
 
 .. _SFD Receiving a Certificate:
