@@ -107,7 +107,7 @@ To start work in a course that is in progress, follow these steps.
 
    If you have already accessed or worked in the course, you see a **Resume
    Course** button instead of a **Start Course** button. Click **Resume
-   Course** to jump to the part of the course that you last accessed.
+   Course** to jump to the part of the course that you last completed.
 
 
 ==============================
