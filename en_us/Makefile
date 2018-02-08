@@ -20,10 +20,8 @@ clean:
 	@cd $(CURDIR)/open_edx_course_authors && make clean $(Q_FLAG)
 	@cd $(CURDIR)/open_edx_release_notes && make clean $(Q_FLAG)
 	@cd $(CURDIR)/open_edx_students && make clean $(Q_FLAG)
-	@cd $(CURDIR)/release_notes && make clean $(Q_FLAG)
 	@cd $(CURDIR)/students && make clean $(Q_FLAG)
 	@cd $(CURDIR)/xblock-tutorial && make clean $(Q_FLAG)
-	@cd $(CURDIR)/release_notes_2014 && make clean $(Q_FLAG)
 	$(MAKE html)
 
 
@@ -59,10 +57,6 @@ html:
 	@cd $(CURDIR)/open_edx_release_notes && make html $(Q_FLAG)
 	@echo edX Open edX Students
 	@cd $(CURDIR)/open_edx_students && make html $(Q_FLAG)
-	@echo edX Release notes
-	@cd $(CURDIR)/release_notes && make html $(Q_FLAG)
-	@echo edX 2014 Release notes
-	@cd $(CURDIR)/release_notes_2014 && make html $(Q_FLAG)
 	@echo edX Students
 	@cd $(CURDIR)/students && make html $(Q_FLAG)
 	@echo XBlock Tutorial
