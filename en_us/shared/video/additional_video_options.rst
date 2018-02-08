@@ -1,8 +1,8 @@
 .. _Additional Video Options:
 
-#################################
-Specify Additional Video Options
-#################################
+###################################
+Specifying Additional Video Options
+###################################
 
 When you create a video component, you can specify additional options such as
 download options for the video and transcript, video license options, and a
@@ -63,8 +63,8 @@ The following options appear on the **Advanced** page of the video component.
 
     * - **Downloadable Transcript URL**
       - The URL for a non-.srt version of the transcript file posted on the
-        **Files & Uploads** page or on the Internet. Learners see a link to
-        download the non-.srt transcript below the video.
+        internet. Learners see a link to download the non-.srt transcript below
+        the video.
 
         .. important::
           When you add a transcript to the **Downloadable Transcript URL**
@@ -99,37 +99,46 @@ The following options appear on the **Advanced** page of the video component.
       - The transcript files for any additional languages. For more
         information, see :ref:`Transcripts in Additional Languages`.
     * - **Upload Handout**
-      - Allows you to upload a handout to accompany this video, such as a PDF
+      - Allows you to upload a handout to accompany the video, such as a PDF
         transcript or other handout. Learners can download the handout by
         selecting **Download Handout** under the video. The procedure for
         adding handouts is the same as the procedure for adding a supplemental
         transcript. For more information, see :ref:`Additional Transcripts`.
     * - **Video Available on Web Only**
-      - If you select **True**, learners are only allowed to play this video
-        in a web browser. If you select **False**, learners can use any
-        compatible application to play the video, including web browsers and
-        mobile apps.
+      - If you select **True**, learners can only play this video in a web
+        browser. If you select **False**, learners can use any compatible
+        application to play the video, including web browsers and mobile apps.
     * - **Video Download Allowed**
-      - For videos that are hosted on non-YouTube sites, specifies whether
-        learners can download the video. If you select **True**, you must add
-        at least one non-YouTube URL in the **Video File URLs** field.
+      - Specifies whether learners can download the video. If you select
+        **True**, you must add at least one URL in the **Video File URLs**
+        field.
     * - **Video File URLs**
-      - The URL or URLs where you posted non-YouTube versions of the video.
-        Every URL must end in .mp4, .mpeg, .webm, or .ogg and cannot be a
-        YouTube URL. Learners will view the first listed video that is
-        compatible with their computer or mobile device.
+      - The URL or URLs where you posted different versions of the video. On
+        the **Basic** tab, if you added URLs by selecting **Add URLs for
+        additional versions** below the **Default Video URL** field , the URLs
+        are listed in the fields next to **Video File URLs**.
+
+        Every URL must end in .mp4, .mpeg, .webm, or .ogg. Learners will view
+        the first listed video that is compatible with their computer or mobile
+        device.
+
+        For the best experience for mobile users, make sure that the URL for
+        the 360p version of the video is the first URL in the list.
 
         To help make sure all standard browsers can play your video, we
         **strongly** recommend that you use the .mp4 format.
 
     * - **Video ID**
-      - A field used only by course teams that are working with edX to process
-        and host video files.
+      - The identifier that the video process assigns to the video. This field
+        is the same as the **Video ID** setting on the **Basic** page. Only
+        courses on edx.org use this field.
+
     * - **Video Start Time**
       - The time you want the video to start if you do not want the entire
         video to play. Use HH:MM:SS format. The maximum value is 23:59:59.
 
-        .. note:: Learners who download and play the video in the mobile
+        .. note::
+         Learners who download and play the video in the mobile
          app see the entire video file. Only videos that play in a browser
          start playing at the specified start time.
 
@@ -137,15 +146,12 @@ The following options appear on the **Advanced** page of the video component.
       - The time you want the video to stop if you do not want the entire video
         to play. Use HH:MM:SS format. The maximum value is 23:59:59.
 
-        .. note:: Learners who download and play the video in the mobile
+        .. note::
+         Learners who download and play the video in the mobile
          app see the entire video file. Only videos that play in a browser
          stop playing at the specified stop time.
 
     * - **YouTube IDs**
-      - If you have uploaded separate video files to YouTube for different
-        speeds of your video (such as a separate video file for .75x, 1.25x,
-        and 1.5x speeds), enter the YouTube IDs for these videos in these
-        fields. These settings are optional, to support video play on older
-        browsers.
+      - As of March 2018, edX no longer supports videos on YouTube.
 
 

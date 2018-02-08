@@ -1,7 +1,7 @@
 .. _Troubleshoot Video Problems:
 
 ################################
-Troubleshoot Video Problems
+Troubleshooting Video Problems
 ################################
 
 When you use video, you might experience one of the following problems.
