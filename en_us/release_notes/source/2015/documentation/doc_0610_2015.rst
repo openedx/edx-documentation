@@ -81,4 +81,4 @@ Open EdX Platform APIs
 ========================
 
 A new section of the *EdX Platform APIs* guide is now available for the
-:ref:`openplatformapi:Profile Images API Version 1.0`.
+Profile Images API Version 1.0.

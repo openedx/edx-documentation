@@ -30,9 +30,8 @@ structure file.
 Open edX Platform APIs
 ==================================
 
-Added sections for :ref:`openplatformapi:EdX Platform Course Structure API
-Version 0`, :ref:`openplatformapi:edX Platform Enrollment API`, and
-:ref:`openplatformapi:edX Platform User API`.
+Added sections for edX Platform Course Structure API Version 0, edX Platform
+Enrollment API, and edX Platform User API.
 
 ==================================
 Open edX Developer's Guide

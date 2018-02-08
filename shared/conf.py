@@ -155,7 +155,6 @@ intersphinx_mapping = {
     'learners' : ('http://edx.readthedocs.io/projects/edx-guide-for-students/en/latest/', None),
     'openlearners' : ('http://edx.readthedocs.io/projects/open-edx-learner-guide/en/latest/', None),
     'opendevelopers' : ('http://edx.readthedocs.io/projects/edx-developer-guide/en/latest/', None),
-    'openplatformapi' : ('http://edx.readthedocs.io/projects/edx-platform-api/en/latest/', None),
     'opendataapi' : ('http://edx.readthedocs.io/projects/edx-data-analytics-api/en/latest/', None),
     'openreleasenotes' : ('http://edx.readthedocs.io/projects/open-edx-release-notes/en/latest/', None),
     'partnerreleasenotes': ('http://edx.readthedocs.io/projects/edx-release-notes/en/latest/', None),
