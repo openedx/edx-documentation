@@ -29,8 +29,7 @@ then
             open-edx-building-and-running-a-course
             open-edx-learner-guide
             edx-developer-guide
-            edx-release-notes
-            "
+           "
 else
    DOC_IDS=${1}
 fi
@@ -41,6 +40,7 @@ fi
 # edx-open-learning-xml - Removed from list, moved to Inactive status
 # course-catalog-api-guide - Removed from list, moved to Inactive status
 # xblock-tutorial - Removed from list, moved to Inactive status
+# edx-release-notes - Removed from list 9 Feb 2018 because it's inactive
 
 for DOC_ID in ${DOC_IDS}
 do
