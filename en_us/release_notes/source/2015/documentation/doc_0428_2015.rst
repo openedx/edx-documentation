@@ -13,7 +13,7 @@ Building and Running an edX Course
 EdX Platform APIs
 ==================================
 
-* Updated the example responses in the :ref:`openplatformapi:edX Platform
-  Enrollment API` documentation to include new ``enrollment_start``
+* Updated the example responses in the *edX Platform
+  Enrollment API* documentation to include new ``enrollment_start``
   and ``enrollment_end`` fields.
 
