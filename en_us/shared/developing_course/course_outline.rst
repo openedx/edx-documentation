@@ -72,8 +72,8 @@ more detail about the course outline.
 View the Course Organization as a Learner
 ********************************************************
 
-The content you see in the outline in Studio is displayed to learners in the
-**Course** page in the LMS. The following image shows how a learner sees
+The content you see in the outline in Studio appears to learners in the
+**Course** page in the LMS. The following images show how a learner sees
 your course content.
 
 #. Sections are listed in the course outline. Sections are not clickable in the
@@ -83,19 +83,37 @@ your course content.
    sections. Learners select a subsection to jump to unit pages within that
    subsection.
 
-   The learner's last visited subsection is indicated with a box outline and a
-   clickable **Resume Course** link. That link and the **Resume Course**
+   The learner's last visited subsection is indicated with a box outline and
+   a clickable **Resume Course** link. That link and the **Resume Course**
    button at the top of the outline page both take learners to their last
-   visited unit page.
+   completed unit page.
 
-.. image:: ../../../shared/images/Course_Outline_LMS.png
- :alt: Sections and subsections in the course outline in the LMS.
- :width: 600
+   .. image:: ../../../shared/images/Course_Outline_LMS.png
+     :alt: Sections and subsections in the course outline in the LMS.
+     :width: 600
+
+   .. note::
+      A learner has completed a unit if the learner has completed all of the
+      following actions.
+
+      * Played all of the videos in the unit.
+      * Submitted answers for all of the problems in the unit.
+      * Viewed all HTML content in the unit for at least five seconds.
 
 3. On unit pages within a subsection, units are shown in order in the unit
    navigation bar. The type of content of each unit, such as a video, reading,
    or assignment, is represented by an icon. A tooltip with the unit's name
-   appears when learners move the pointer onto an icon.
+   appears when learners move the pointer onto an icon. Additionally, a green
+   check mark appears next to the unit's icon when the learner has completed
+   that unit.
+
+    .. note::
+      A learner has completed a unit if the learner has completed all of the
+      following actions.
+
+      * Viewed all of each video in the unit.
+      * Submitted answers for all of the problems in the unit.
+      * Viewed all HTML content in the unit for at least five seconds.
 
    Learners select icons in the unit navigation bar to access course units.
    They can also use the **Previous** and **Next** options at either end of
@@ -106,9 +124,9 @@ your course content.
    From a unit page, learners can jump back to the full course outline by
    clicking **Outline** in the breadcrumb trail above the unit navigation bar.
 
-.. image:: ../../../shared/images/Unit_Page_LMS.png
- :alt: The unit navigation bar on a unit page in the LMS.
- :width: 600
+   .. image:: ../../../shared/images/Unit_Page_LMS.png
+    :alt: The unit navigation bar on a unit page in the LMS.
+    :width: 600
 
 As you develop your course, you can preview draft content from the learner's
 point of view. For more information, see :ref:`Testing Your Course Content`.
@@ -181,10 +199,10 @@ Adding New Sections, Subsections, or Units
 Duplicating Existing Sections, Subsections, or Units
 =======================================================
 
-To add a section, subsection, or unit by duplicating content that already exists
-in the course outline, select the **Duplicate** icon for the item that you want
-to duplicate. You see a **Duplicating** indicator at the bottom of the Studio
-page.
+To add a section, subsection, or unit by duplicating content that already
+exists in the course outline, select the **Duplicate** icon for the item that
+you want to duplicate. You see a **Duplicating** indicator at the bottom of the
+Studio page.
 
 Duplicated items are added to the course outline immediately below the
 original item, with the name "Duplicate of <original item name>".
