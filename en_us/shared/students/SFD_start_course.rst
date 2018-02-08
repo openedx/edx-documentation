@@ -73,9 +73,13 @@ Availability`
 Start a Course
 ===============
 
-To start work in a course that is in progress, follow these steps.
+To start work in a course, follow these steps on or after the course start
+date.
 
-#. On your dashboard, click **View Course** for the course that you want to open.
+.. Clarifying question on EDUCATOR-2190 2/7/18
+
+#. On your dashboard, click **View Course** for the course that you want to
+   open.
 
    .. image:: ../../shared/images/dashboard_view_course.png
      :width: 500
