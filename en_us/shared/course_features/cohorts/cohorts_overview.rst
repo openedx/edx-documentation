@@ -23,6 +23,9 @@ topics.
 
 For information about discussions in general, see :ref:`Discussions`.
 
+For information about offering different content to different cohorts of
+learners, see :ref:`Offering Different Content Based on Cohort`.
+
 
 *********
 Overview
