@@ -16,16 +16,16 @@ Overview
 
 You can create a custom course in the edX platform (CCX) to reuse course
 content. By using a CCX, you can run some or all of an existing course for a
-group of students on a new schedule.
+group of learners on a new schedule.
 
 A CCX can contain only content from an existing course; you cannot author new
-content in a CCX. 
+content in a CCX.
 
 **************************
 Custom Courses and Roles
 **************************
 
-There are three roles involved in creating and running a CCX. 
+There are three roles involved in creating and running a CCX.
 
 * **Admins** create the existing course and have privileges to create CCX
   coaches for their course.
@@ -50,7 +50,7 @@ complete the following steps.
 
 #. Find the ``Enable CCX`` key and change the value to ``true``.
 
-#. Click ``Save Changes``.
+#. Select ``Save Changes``.
 
 You can now add a CCX coach.
 
@@ -92,7 +92,7 @@ with other roles.
 When you have been made the CCX coach for a course, you can then access the
 course and create a CCX.
 
-#. In the LMS, select the **CCX Coach** tab. 
+#. In the LMS, select the **CCX Coach** tab.
 
 #. From the CCX coach Dashboard, enter the name for your CCX, then select
    **Coach a new Custom Course for edX**.
@@ -100,11 +100,11 @@ course and create a CCX.
 #. When the CCX is created, you are re-directed to the full CCX coach
    Dashboard.
 
-.. note:: 
-    When entering a CCX name, consider that the name should 
+.. note::
+    When entering a CCX name, consider that the name should
     distinguish your CCX from other CCXs based on the same course.
 
-You can revisit your CCX by opening the original course and selecting 
+You can revisit your CCX by opening the original course and selecting
 the ``CCX Coach`` tab.
 
 ************************
@@ -143,19 +143,42 @@ Select **Save changes** to save the content you configured.
 Enrollment Tab
 ==============
 
-The **Enrollment** tab contains controls to invite and manage learners. Select
-**Student List Management** to add individual students who are already
-registered on the platform.
+On the **Enrollment** tab, you can invite learners to a course, enroll
+learners in a course automatically, and remove learners from a course.
 
-To have students added in through Batch Enrollment receive an email invitation
-to the CCX, select **Notify users by email**.  Students are automatically
-enrolled in the CCX when they access the invitation.
+* To invite one or more learners to a course, enter one or more
+  email addresses or usernames in the **Batch Enrollment** field, and then
+  select **Enroll** under the field.
+
+  .. note::
+    If you want to enroll these learners automatically, select **Auto Enroll**
+    under the **Batch Enrollment** field.
+
+    If you want these learners to receive an email invitation to the course,
+    select **Notify users by email**. Learners are automatically enrolled in
+    the course when they access the invitation.
+
+* To remove learners from the course, use one of the following methods.
+
+  * If the learner or learners are enrolled in the course and have active
+    accounts on the Open edX instance, locate the username or email address for
+    each learner in the **Student List Management** list, and then select
+    **Revoke access** for that learner.
+
+    .. note::
+      The **Student List Management** list contains only learners who are
+      enrolled and have an active account.
+
+  * If the learner or learners are enrolled in the course but do not have
+    active accounts on the Open edX instance, enter the email addresses or
+    usernames for the learners in the **Batch Enrollment** field, and then
+    select **Unenroll** under the field.
 
 =================
 Student Admin Tab
 =================
 
-You use the **Student Admin** tab to view the gradebook and download student
+You use the **Student Admin** tab to view the gradebook and download learner
 grades.
 
 ==================
@@ -164,14 +187,14 @@ Grading Policy Tab
 
 Use the **Grading Policy** tab to modify the grading policy for the CCX.
 
-A CCX coach can modify the grading policy of the underlying 
-course for their CCX. 
+A CCX coach can modify the grading policy of the underlying course for their
+CCX.
 
-.. note:: 
+.. note::
     As a CCX coach, you can modify the grading policy of the original course on
     which the CCX was based. Only attempt this if you are confident that you
     understand how your changes will affect grading. Modifying the grading
     policy can make your CCX unusable.
 
-The grading policy is in JSON format. Verify that it is well-formed 
+The grading policy is in JSON format. Verify that it is well-formed
 before selecting **Save Grading Policy**.
