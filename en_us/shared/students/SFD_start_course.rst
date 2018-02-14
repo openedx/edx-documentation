@@ -73,13 +73,10 @@ Availability`
 Start a Course
 ===============
 
-To start work in a course, follow these steps on or after the course start
-date.
-
-.. Clarifying question on EDUCATOR-2190 2/7/18
+To start work in a course, wait for the course start date, and then follow these steps.
 
 #. On your dashboard, click **View Course** for the course that you want to
-   open.
+   start.
 
    .. image:: ../../shared/images/dashboard_view_course.png
      :width: 500
@@ -95,9 +92,9 @@ date.
         highlighted.
 
 
-#. When you have read a message from the course team, you can click
-   **Dismiss** to stop displaying the message. If you want to read the message
-   again, click **Updates** under **Course Tools**.
+#. When you have read the message from the course team, you can click the **X**
+   next to the message headline to stop displaying the message. If you want to
+   read the message again, click **Updates** under **Course Tools**.
 
    Below any messages from the course team, you see the course outline.
 
