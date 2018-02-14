@@ -10,14 +10,31 @@ This topic describes how to check and understand your progress in a course.
   :local:
   :depth: 2
 
+*******************
+Progress Indicators
+*******************
+
+When you are working in a course, you can see your progress in the navigation
+bar at the top of the page. Each unit that you complete has a green check mark.
+
+.. image:: ../../shared/images/Unit_Page_LMS.png
+ :alt: The unit navigation bar on a unit page in the LMS.
+ :width: 600
+
+To complete a unit, you must complete all of the following actions.
+
+ * View all of each video in the unit.
+ * Submit answers for all of the problems in the unit.
+ * View all HTML content in the unit for at least five seconds.
+
+
 ******************
 The Progress Page
 ******************
 
-As you work through a course, you can track your the scores on individual
-problems as well as your current overall course grade. Select **Progress** in
-any course.
-
+To see your scores on individual problems represented in both a chart and a
+list, as well as your current overall course grade, select the **Progress**
+page from anywhere in the course.
 
 ===============
 Grading Chart
