@@ -23,9 +23,9 @@ bar at the top of the page. Each unit that you complete has a green check mark.
 
 To complete a unit, you must complete all of the following actions.
 
- * View all of each video in the unit.
- * Submit answers for all of the problems in the unit.
- * View all HTML content in the unit for at least five seconds.
+* View all of each video in the unit.
+* Submit answers for all of the problems in the unit.
+* View all HTML content in the unit for at least five seconds.
 
 
 ******************
