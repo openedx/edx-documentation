@@ -17,9 +17,8 @@ Progress Indicators
 When you are working in a course, you can see your progress in the navigation
 bar at the top of the page. Each unit that you complete has a green check mark.
 
-.. image:: ../../shared/images/Unit_Page_LMS.png
+.. image:: ../../shared/images/LMS_Unit_Page.png
  :alt: The unit navigation bar on a unit page in the LMS.
- :width: 600
 
 To complete a unit, you must complete all of the following actions.
 
