@@ -26,9 +26,10 @@ API client (a program, utility, or other tool that you can use to exchange
 messages with an API) to make requests and receive response data about courses
 in your course catalog from the edX Enterprise API. The edX Enterprise API
 uses JavaScript object notation (JSON) as the primary format for return data,
-or representation. The enterprise’s integration must take and transform this
-response data and display it to learners in the enterprise LMS or other system
-where learners can discover available edX learning opportunities.
+or representation. It can also return data in XML format. The enterprise’s
+integration must take and transform this response data and display it to
+learners in the enterprise LMS or other system where learners can discover
+available edX learning opportunities.
 
 The Enterprise API is designed for server-to-server communication. The best
 practice is to develop an API client that makes requests for the course catalog
@@ -71,3 +72,4 @@ Using the edX Enrollment API
 The edX Enterprise API also includes an enrollment API, which you can use to
 directly enroll your learners in selected courses. For more information, see
 :ref:`course_enrollments Endpoint`.
+

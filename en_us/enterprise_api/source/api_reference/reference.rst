@@ -45,6 +45,34 @@ The following endpoints are available in the Enterprise API.
   ``/course-enrollments`` endpoint to enroll a single learner in a single
   course run. For details, see :ref:`course_enrollments Endpoint`.
 
+.. _Returning XML Data:
+
+************************************
+Returning Data in XML or JSON Format
+************************************
+
+By default, the edX Enterprise API returns data in JSON format. It can also return data in XML format. To specify that return data should
+use XML format, include the ``Accept: appication/xml`` header in your API
+request. For example, to request XML-formatted information about a course run
+using ``curl``, send a request similar to the following command.
+
+::
+
+   curl -X GET \
+   https://api.edx.org/enterprise/v1/enterprise-catalogs/1/4g1BB0us321/course-runs/course-v1:MyUni+Sport101x \
+   -H "Authorization: JWT {access token}"
+   -H "Accept: application/xml"
+
+You can instead specify the format of the return data by appending the
+``.xml`` or ``.json`` extension to the endpoint URL, as in the following
+example.
+
+::
+
+   curl -X GET \
+   https://api.edx.org/enterprise/v1/enterprise-catalogs/1/4g1BB0us321/course-runs/course-v1:MyUni+Sport101x.xml \
+   -H "Authorization: JWT {access token}"
+
 .. _enterprise_catalogs_catalogID Endpoint:
 
 *****************************************
@@ -87,7 +115,7 @@ returns the following response values.
 .. note::
   Responses to GET requests for the edX Enterprise API frequently contain
   the ``results`` response value. The ``results`` response value is a variable
-  that represents the intended JSON object from the GET request. For the
+  that represents the intended object from the GET request. For the
   ``/enterprise/api/v1/enterprise-catalogs/{catalog_id}`` endpoint, the
   ``results`` object holds an array of objects that list information about
   each individual content item (course run, course, or program) in the catalog.
@@ -113,7 +141,7 @@ returns the following response values.
      - array
      - A list of content items in the catalog.
 
-Each top-level JSON object in the ``results`` array represents a content item
+Each top-level object in the ``results`` array represents a content item
 in the catalog, which may be a course, a course run, or a program. The
 ``results`` array returns different fields, depending on whether
 the content item is a :ref:`course<course Fields>`, a
