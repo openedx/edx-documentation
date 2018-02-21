@@ -461,45 +461,49 @@ problem.
 Using the Every Decision Counts Method
 ======================================
 
-You can configure a checkbox problem so that the learner's response for every
-option is evaluated and scored. This method is known as every decision counts
-(EDC).
+You can configure a checkbox problem so that every selection a learner makes for
+the checkbox problem is evaluated and scored. This method is known as every
+decision counts (EDC).
 
-With EDC, for each option the learner gets wrong, either by not selecting a
-correct option or selecting an incorrect option, the learner's score is
-reduced by 1/n, where "n" is the number of options.
+With EDC, if "n" is the number of possible options, learners earn 1/n of the
+total possible score for each correct option they select. Learners receive
+partial credit for every correct answer selected and every incorrect answer left
+unselected.
 
-For example, if there are four options, each one is worth 25% of the total
-score. If a learner's response is wrong for one option, she receives 75% of the
-points for the problem.
+For example, if there are four options, every option that a learner matches is
+worth 25% of the total score. A learner also gains 25% for each incorrect answer
+that a learner does NOT select.
 
-The following table describes the learner's score for different submissions
-for EDC problems with a variety of correct answer options.
+The following table shows how the different combinations of learner selections
+would score for one EDC problem whose answers are as follows.
+
+* Correct options: A, B, D
+* Incorrect options: C
 
 .. list-table::
-     :widths: 20 20 20 20
+     :widths: 20 20 20
      :header-rows: 1
 
      * - Learner's Selections
-       - Correct Answers
-       - Incorrect Answers
        - Score
+       - Explanation
+     * - A, B, D
+       - 100%
+       - The learner matched each of the 3 correct answers for 75%, and also
+         gained 25% for not selecting the incorrect answer.
+     * - A, B
+       - 75%
+       - The learner matched 2 of the correct answers for 50%, and also gained
+         25% for not selecting the incorrect answer.
      * - A, B, C
-       - A, B, D
-       - C
-       - 75%
-     * - A
-       - A, C, D
-       - B
-       - 75%
-     * - A, C
-       - A, D
-       - B, C
        - 50%
-     * - C, D
-       -
-       - A, B, C, D
-       - 0%
+       - The learner matched 2 of the correct answers for 50%, but selected the
+         incorrect answer.
+     * - A, C
+       - 25%
+       - The learner matched 1 of the correct answers for 25%, but selected the
+         incorrect answer.
+
 
 Configure an EDC Checkbox Problem
 **********************************
