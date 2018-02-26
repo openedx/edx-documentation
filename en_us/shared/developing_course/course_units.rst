@@ -33,29 +33,19 @@ with Discussion Components>`, or a
 Viewing Units in the Outline
 ****************************
 
-To view units in the outline, you :ref:`expand<Navigating the Course Outline>`
-the parent section and subsection.
-
-.. image:: ../../../shared/images/outline-callouts.png
- :alt: An outline with numbered indicators for the section, subsection, and
-  units.
- :width: 400
-
-#. The section.
-#. The subsection.
-#. The units in the subsection.
+.. include:: ../../../shared/developing_course/outline_studio_lms.rst
 
 ****************************
 Viewing the Unit Page
 ****************************
 
-When you select a unit name in the outline, the **Unit** page opens.
+In Studio, when you select a unit name in the outline, the **Unit** page opens.
 
-The following example shows a unit page with two components, with circles and
-text to show different areas and controls in the page.
+The following example shows a unit page in Studio with two components, with
+circles and text to show different areas and controls in the page.
 
 .. image:: ../../../shared/images/unit-page.png
- :alt: The Unit page with numbered indicators.
+ :alt: The unit page with numbered indicators.
  :width: 600
 
 #. A component in the unit.
@@ -77,8 +67,16 @@ The following image shows a subsection in the LMS that contains several units.
 
 .. image:: ../../../shared/images/Units_LMS.png
  :alt: A unit in the LMS, with all of the unit icons in the unit navigation bar
-  indicated.
+  indicated. Green check marks are visible for some units.
  :width: 500
+
+A green check mark next to a unit icon indicates that a learner has completed
+the unit. A learner has completed the unit if the learner has completed all the
+following actions.
+
+* Viewed all of each video.
+* Submitted answers for all of the problems.
+* Viewed all HTML content for at least five seconds.
 
 .. _The Unit Workflow:
 

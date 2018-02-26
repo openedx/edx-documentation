@@ -43,94 +43,17 @@ following message is visible.
 
 To add content, you :ref:`create a section<Create a Section>`.
 
-********************************************************
-Understanding a Course Outline in Studio
-********************************************************
+******************************
+Understanding a Course Outline
+******************************
 
-The following example shows a partial course outline in Studio, with
-indications for sections, subsections, and units. As you develop your course,
-it will begin to look like this example.
+Course authors build a course outline on the **Course Outline** page in Studio.
+Learners see this course outline in the LMS.
 
-.. image:: ../../../shared/images/outline-callouts.png
- :alt: An outline with callouts for sections, subsections, and units.
- :width: 500
+To view the course outline in the LMS, go to the **Course Outline** page in
+Studio, and then select either **Preview** or **View Live**.
 
-In this example, the course is organized into the following levels.
-
-#. :ref:`Sections<Developing Course Sections>`
-#. :ref:`Subsections<Developing Course Subsections>`
-#. :ref:`Units<Developing Course Units>`
-
-:ref:`Components<Developing Course Components>` are not shown in the outline.
-You add or access components by selecting the units that contain them.
-
-Use the links above for more information and instructions on working with each
-type of object in the course. The topics in the rest of this section provides
-more detail about the course outline.
-
-********************************************************
-View the Course Organization as a Learner
-********************************************************
-
-The content you see in the outline in Studio appears to learners in the
-**Course** page in the LMS. The following images show how a learner sees
-your course content.
-
-#. Sections are listed in the course outline. Sections are not clickable in the
-   course outline.
-
-#. Subsections are listed in the course outline under their containing
-   sections. Learners select a subsection to jump to unit pages within that
-   subsection.
-
-   The learner's last visited subsection is indicated with a box outline and
-   a clickable **Resume Course** link. That link and the **Resume Course**
-   button at the top of the outline page both take learners to their last
-   completed unit page.
-
-   .. image:: ../../../shared/images/Course_Outline_LMS.png
-     :alt: Sections and subsections in the course outline in the LMS.
-     :width: 600
-
-   .. note::
-      A learner has completed a unit if the learner has completed all of the
-      following actions.
-
-      * Played all of the videos in the unit.
-      * Submitted answers for all of the problems in the unit.
-      * Viewed all HTML content in the unit for at least five seconds.
-
-3. On unit pages within a subsection, units are shown in order in the unit
-   navigation bar. The type of content of each unit, such as a video, reading,
-   or assignment, is represented by an icon. A tooltip with the unit's name
-   appears when learners move the pointer onto an icon. Additionally, a green
-   check mark appears next to the unit's icon when the learner has completed
-   that unit.
-
-    .. note::
-      A learner has completed a unit if the learner has completed all of the
-      following actions.
-
-      * Viewed all of each video in the unit.
-      * Submitted answers for all of the problems in the unit.
-      * Viewed all HTML content in the unit for at least five seconds.
-
-   Learners select icons in the unit navigation bar to access course units.
-   They can also use the **Previous** and **Next** options at either end of
-   the unit navigation bar and at the bottom or the page to move back to the
-   previous unit or forward to the next unit. The current unit is indicated
-   with bold underlining in the unit navigation bar.
-
-   From a unit page, learners can jump back to the full course outline by
-   clicking **Outline** in the breadcrumb trail above the unit navigation bar.
-
-   .. image:: ../../../shared/images/Unit_Page_LMS.png
-    :alt: The unit navigation bar on a unit page in the LMS.
-    :width: 600
-
-As you develop your course, you can preview draft content from the learner's
-point of view. For more information, see :ref:`Testing Your Course Content`.
-
+.. include:: ../../../shared/developing_course/outline_studio_lms.rst
 
 .. _Navigating the Course Outline:
 
