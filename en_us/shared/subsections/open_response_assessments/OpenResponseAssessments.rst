@@ -9,8 +9,7 @@ through a series of assessment steps (such as peer assessment and self
 assessment) to complete the assignment.
 
 
-.. note:: ORA assignments cannot be used as the prerequisite when you configure
-   :ref:`prerequisite course subsections<configuring_prerequisite_content>`.
+.. note:: 
 
    Open response assessments that are visible to all learners do not respect
    cohorts. In other words, it is possible for learners in one cohort to be
