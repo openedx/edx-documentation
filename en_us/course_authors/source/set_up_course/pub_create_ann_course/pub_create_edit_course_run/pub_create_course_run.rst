@@ -28,7 +28,6 @@ To create a course run in Publisher, follow these steps.
    * The course start and end dates. Times are in universal coordinated time
      (UTC).
    * Course pacing.
-   * Available certificate types, if any, and the prices for the certificates.
 
 #. Select **Create New Course Run**.
 

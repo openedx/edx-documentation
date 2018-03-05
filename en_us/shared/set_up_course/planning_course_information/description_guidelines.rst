@@ -70,9 +70,9 @@ An effective long description follows these guidelines.
  page opens. Learners can select "See More" to view the full description.
 
 
-========================
-Example Long Descriptons
-========================
+=========================
+Example Long Descriptions
+=========================
 
 The following long description is a content-based example.
 

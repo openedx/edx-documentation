@@ -19,10 +19,10 @@ When you are ready to create a course and course run on edx.org, you add
 information in the Publisher tool. The information that you enter depends on
 your goal.
 
-* **If your goal is to enter course content in Studio**, you enter a small
-  amount of specific course and course run information in Publisher. EdX will
-  then create a Studio URL for a course run, and you can add content and modify
-  settings in Studio. For more information, see :ref:`Pub Access a
+* **If your goal is to enter course content in Studio immediately**, you enter
+  a small amount of specific course and course run information in Publisher.
+  EdX will then create a Studio URL for a course run, and you can add content
+  and modify settings in Studio. For more information, see :ref:`Pub Access a
   Course Run in Studio`.
 
 * **If your goal is to create a course About page**, you enter all required
