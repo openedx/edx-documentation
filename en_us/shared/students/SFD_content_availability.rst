@@ -4,23 +4,32 @@
 Accessing Course Content
 ##########################
 
-To access course content, make sure that the course has :ref:`started<Start
-Date and Duration>`, and then select **View Course** on your dashboard.
+After the course start date has passed, you can access content in your course.
+For information about how to find the course start date, see :ref:`Start Date
+and Duration`.
 
-The course opens to the **Course** page.
+To access course content, locate the course on your dashboard.
 
-Below any messages from the course team, you see the course outline.
+* If you have never accessed course content, a **View Course** option is
+  visible next to the course name. Select **View Course** to view the course.
 
-.. image:: ../../shared/images/course_nav_outline_startcourse.png
-  :width: 600
-  :alt: The Course page, showing a welcome message and the course outline in
+  The course opens to the **Course** page. On this page, below any messages
+  from the course team, the course outline is visible.
+
+  .. image:: ../../shared/images/course_nav_outline_startcourse.png
+   :alt: The Course page, showing a welcome message and the course outline in
       the left pane.
 
-At the top of the outline is a **Start Course** option if you have never
-accessed the course, or a **Resume Course** option if you have already accessed
-the course. Select **Start Course** to go to the first section of the course,
-or select any part of the course to jump to it. Select **Resume Course** to
-jump to the part of the course that you last completed.
+  Above the outline is a **Start Course** option. Select **Start Course** to go
+  to the first section of the course, or expand and select any part of the
+  course to go to that course content.
+
+* If you have accessed course content, a **Resume Course** option is visible
+  next to the course name.
+
+  The **Resume Course** option is also visible any time you return to the
+  course outline. When you select **Resume Course**, the course opens to the
+  page that you last completed.
 
 .. note::
   When you complete a part of a course, a green check mark is visible on the
