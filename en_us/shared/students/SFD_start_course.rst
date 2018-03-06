@@ -55,8 +55,8 @@ the exact start time.
    :alt: A course's About page with the start date above the Enroll Now button.
 
 If you have enrolled in a course, the course is added to the list of courses on
-your :ref:`dashboard<SFD Learner Dashboard>`. You can find the start date on the
-course listing on your dashboard.
+your :ref:`dashboard<SFD Learner Dashboard>`. You can find the start date on
+the course listing on your dashboard.
 
 .. image:: ../../shared/images/SFD_StartDateOnDashboard.png
    :width: 600
@@ -69,51 +69,52 @@ Availability`
 
 .. Deliberate omission of period at end of above sentence because the title that is inserted ends with a question mark.
 
+.. _Start a Course:
 
 ===============
 Start a Course
 ===============
 
-.. The content in the "Start a Course" section is inaccurate. It has been
-.. superseded by https://support.edx.org/hc/en-us/articles/207200767-How-do-I
-.. -begin-my-course-.
+After you enroll in a course, the course is visible on your :ref:`dashboard
+<SFD Dashboard>`. The course start date is also listed on your dashboard, along
+with a **View Course** option.
 
-To start work in a course that is in progress, follow these steps.
+.. only:: Partners
 
-#. On your dashboard, click **View Course** for the course that you want to open.
+ If a course is not visible on your dashboard, select the edX logo at the top
+ of the page to view the `edX course catalog`_, and then select and
+ :ref:`enroll <SFD Enrolling in a Course>` in the course that you want.
 
-   .. image:: ../../shared/images/dashboard_view_course.png
-     :width: 500
-     :alt: A course card on the dashboard, with the View Course button circled.
+To start your course, follow these steps.
 
-   The course opens on the **Course** page, where you usually see a welcome
-   message from the course team.
+#. After the course start date has passed, select **View Course**. Your course
+   opens to the **Course** page.
 
-   .. image:: ../../shared/images/course_dismiss_update.png
-     :width: 600
-     :alt: The landing page of a course, with the Dismiss link in the welcome
-        message circled, and the Updates link under Course Tools in the sidebar
-        highlighted.
+   On the **Course** page, the following items are visible.
 
+   * A **Start Course** option near the top of the page.
+   * The course outline. The course outline lists each lesson (sometimes also
+     called weeks, sections, or modules).
 
-#. When you have read a message from the course team, you can click
-   **Dismiss** to stop displaying the message. If you want to read the message
-   again, click **Updates** under **Course Tools**.
+   .. note::
+     The following items might also be visible above the course outline on the
+     **Course** page.
 
-   Below any messages from the course team, you see the course outline.
+     * An option to set a goal for the course. You can select any of the goal
+       options, or select **Not sure yet**.
+     * A welcome message from the course team. To close the message, select the
+       X icon.
 
-   .. image:: ../../shared/images/course_nav_outline.png
-     :width: 350
-     :alt: The course outline, with a section selected.
+#. To start the course, take either of the following actions.
 
+  * Select the **Start Course** option.
+  * On the course outline, select the lesson that you want.
 
-#. Click **Start Course** to go to the first section of the course, or select
-   any part of the course to jump to it.
-
-   If you have already accessed or worked in the course, you see a **Resume
-   Course** button instead of a **Start Course** button. Click **Resume
-   Course** to jump to the part of the course that you last completed.
-
+.. note::
+ If you have already accessed or worked in the course, your dashboard and the
+ **Course** page have a **Resume Course** option instead of a **View Course**
+ or **Start Course** option. Select **Resume Course** to return to the part of
+ the course that you last completed.
 
 ==============================
 View an Archived Course
@@ -177,4 +178,4 @@ option to access your web certificate.
   print, and share certificates, see :ref:`openlearners:Certificates`.
 
 
-
+.. include:: ../../links/links.rst
