@@ -1,6 +1,7 @@
 .. This file is used in both the edX and Open edX versions of the Learner's Guide. Some content is conditionalized.
 
 
+
 .. _SFD Starting a Course:
 
 ********************
@@ -72,6 +73,10 @@ Availability`
 ===============
 Start a Course
 ===============
+
+.. The content in the "Start a Course" section is inaccurate. It has been
+.. superseded by https://support.edx.org/hc/en-us/articles/207200767-How-do-I
+.. -begin-my-course-.
 
 To start work in a course that is in progress, follow these steps.
 

@@ -24,32 +24,7 @@ week's worth of material.
 Viewing Subsections in the Outline
 ***********************************
 
-The following example shows three subsections in a section, all collapsed, in
-the course outline.
-
-.. image:: ../../../shared/images/subsections.png
- :alt: Three collapsed subsections in the outline.
- :width: 500
-
-*********************************
-The Learner View of a Subsection
-*********************************
-
-In the LMS, learners see clickable subsection names in the course outline on
-the **Course** page, listed under their containing :ref:`section<Developing
-Course Sections>`. Subsections that contain graded content (such as homework
-assignments or exams) are indicated with a text label and an icon.
-
-Learners click subsection names to access the units in the seleted subsection.
-
-In the following example, the subsections under two separate sections are
-indicated with outlines. Two of the highlighted subsections contain graded
-homework assignments, and have a "Homework" label and icon.
-
-.. image:: ../../../shared/images/subsections_student.png
- :width: 500
- :alt: The learner view of the course outline, with two groups of subsections
-       indicated with a box outline.
+.. include:: ../../../shared/developing_course/outline_studio_lms.rst
 
 ************************************************
 Subsections and Visibility to Learners

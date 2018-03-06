@@ -23,27 +23,7 @@ section contains one or more subsections.
 Viewing Sections in the Outline
 ********************************
 
-The following example shows four sections, all collapsed, in the course
-outline.
-
-.. image:: ../../../shared/images/sections-outline.png
- :alt: Four sections in the outline.
- :width: 600
-
-******************************
-The Learner View of a Section
-******************************
-
-In the LMS, learners see section names in the course outline on the **Course**
-page, with subsections listed under the section name. Learners click
-subsection names to access the units in the selected
-:ref:`subsection<Developing Course Subsections>`.
-
-In the following example, two section names are indicated with a box outline.
-
-.. image:: ../../../shared/images/sections_student.png
- :alt: The learner view of the course outline, with two section titles
-       indicated with a box outline.
+.. include:: ../../../shared/developing_course/outline_studio_lms.rst
 
 .. _Sections and Visibility to Learners:
 
