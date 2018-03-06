@@ -27,8 +27,8 @@ course. The part might be called a unit, section, module, week, lesson, or
 other part, depending on the terms your course uses.
 
 For example, in the following image, the learner has completed all of the
-content in the "Welcome" part of the course, as well as some of the content in
-the "Week 1: Approach" part.
+content in the "Introduction" part of the course, as well as some of the
+content in the "Module 1: Experiencing Course Content" part.
 
 .. image:: ../../shared/images/course_nav_outline_startcourse.png
  :alt: The course outline, showing green check marks for completed content.
