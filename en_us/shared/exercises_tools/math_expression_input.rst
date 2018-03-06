@@ -265,6 +265,15 @@ Attributes
 
        ``<formularesponse samples="R_1,R_2,R_3@1,2,3:3,4,5#10">``
 
+Variable names must be at least one character long. They must start with a letter, which can be followed by letters, numbers and underscores. We strongly recommend only using one underscore, which renders to students as a subscript.
+
+Tensor notation is also supported, as ``Name_{ijk}^{123}``, where the name must start with a letter, but can otherwise contain letters or numbers, subscripts are contained in the lower braces, and superscripts are contained in the raised braces. Superscripts and subscripts must only be letters or numbers. No other underscores can appear in the name. Note that the subscript must come first, and the braces ensure that the superscripts are not confused with exponentiation.
+
+All variable names (standard and tensor formats) may contain one or more apostrophes (primes) at the end of the variable name, for example, to indicate a derivative or new coordinate system. Note that some students may have trouble entering primes, which some browsers/operating systems automatically convert to a "smart apostrophe" (tablets are most likely to have this issue). We recommend providing a variable name that students may copy and paste to get around this problem.
+
+The following are examples of valid variable names: ``V_out``, ``m_1``, ``G_{ij}``, ``H^{xy}``, ``f'``, ``x_1''``, and ``H_{ij}^{12}''``.
+
+
 Children
 ========
 
