@@ -29,6 +29,10 @@ The following endpoints are available in the Enterprise API.
   for enrollment in the future. For details, see
   :ref:`enterprise_catalogs_catalogID Endpoint`.
 
+* **/enterprise-catalogs/{catalogID}/courses/{course_key}** - You can make GET
+  calls to the /enterprise-catalogs/{catalog_id}/courses/{course_key} endpoint
+  to get information about a single course. For details, see :ref:`enterprise_catalogs_courses Endpoint`.
+
 * **/enterprise-catalogs/{catalogID}/course-runs/{course_run_ID}** -
   You can make GET calls to the
   ``/enterprise-catalogs/{catalog_id}/course-runs/{course_run_ID}`` endpoint
@@ -51,27 +55,18 @@ The following endpoints are available in the Enterprise API.
 Returning Data in XML or JSON Format
 ************************************
 
-By default, the edX Enterprise API returns data in JSON format. It can also return data in XML format. To specify that return data should
-use XML format, include the ``Accept: appication/xml`` header in your API
-request. For example, to request XML-formatted information about a course run
-using ``curl``, send a request similar to the following command.
+By default, the edX Enterprise API returns data in XML format. It can also
+return data in JSON format. To specify that return data should use JSON format,
+include the ``Accept: application/json`` header in your API request. For
+example, to request JSON-formatted information about a course run using
+``curl``, send a request similar to the following command.
 
 ::
 
    curl -X GET \
    https://api.edx.org/enterprise/v1/enterprise-catalogs/1/4g1BB0us321/course-runs/course-v1:MyUni+Sport101x \
    -H "Authorization: JWT {access token}"
-   -H "Accept: application/xml"
-
-You can instead specify the format of the return data by appending the
-``.xml`` or ``.json`` extension to the endpoint URL, as in the following
-example.
-
-::
-
-   curl -X GET \
-   https://api.edx.org/enterprise/v1/enterprise-catalogs/1/4g1BB0us321/course-runs/course-v1:MyUni+Sport101x.xml \
-   -H "Authorization: JWT {access token}"
+   -H "Accept: application/json"
 
 .. _enterprise_catalogs_catalogID Endpoint:
 
@@ -159,24 +154,80 @@ Fields in a course Content Item
    * - Field
      - Data Type
      - Description
-   * - ``aggregation_key``
+   * - ``course_runs``
+     - array
+     - The currently existing :ref:`course runs<course_run Fields>` for the
+       course.
+   * - ``enrollment_url``
      - string
-     - Example: ``course:edX+DemoX``.
-   * - ``content_type``
-     - enum string
-     - Type of learning item. In this case, the value is ``course``.
+     - The URL for the enrollment page.
+   * - ``entitlements``
+     - array
+     - Information about seat purchase options.
+   * - ``expected_learning_items``
+     - array
+     - Elements of the course.
    * - ``full_description``
      - string
      - The HTML full description of the course.
+   * - ``image``
+     - array
+     - The About page image for the course.
    * - ``key``
      - string
      - A unique identifier for the course. Example: ``edX+DemoX``.
+   * - ``level_type``
+     - enum string
+     - The course's level of difficulty, such as ``Intermediate`` or
+       ``Advanced``.
+   * - ``marketing_url``
+     - string
+     - The URL for the course About page.
+   * - ``modified``
+     - datetime
+     - The most recent date and time that the course metadata was modified.
+   * - ``original_image``
+     - string
+     - The URL of the original unmodified image for the course About page.
+   * - ``outcome``
+     - string
+     - What learners will learn from the course.
+   * - ``owners``
+     - array
+     - The institution that offers the course.
+   * - ``prerequisites``
+     - array
+     - Any courses a learner must complete before enrolling in the current
+       course.
+   * - ``prerequisites_raw``
+     - array
+     - Any courses a learner must complete before enrolling in the current
+       course.
+   * - ``programs``
+     - array
+     - Any programs that the course is part of.
    * - ``short_description``
      - string
      - The HTML short description of the course.
+   * - ``sponsors``
+     - array
+     - The corporate sponsors for the course.
+   * - ``subjects``
+     - array
+     - The academic subjects that the course covers.
+   * - ``syllabus_raw``
+     - string
+     - The course syllabus.
    * - ``title``
      - string
      - The title of the course.
+   * - ``uuid``
+     - string
+     - The unique identifier for the course. Example: ``0dbd8181-8866-47fc...``
+   * - ``video``
+     - array
+     - The course About video.
+
 
 .. _course_run Fields:
 
@@ -463,6 +514,50 @@ contain many courses, course runs, or programs.
           "Professional Certificate"
         ]
       }
+
+.. _enterprise_catalogs_courses Endpoint:
+
+*********************************************************************
+enterprise-catalogs/{catalog_id}/courses/{course_key} Endpoint
+*********************************************************************
+
+GET calls to the ``enterprise-catalogs/{catalog_id}/courses/{course_key}``
+endpoint return information about a single course in a specified course
+catalog. In the GET call, you pass a catalog ID, which you can get using the
+``enterprise-catalogs`` endpoint, and a course key (a unique identifier for a
+course), which you can get from the ``key`` value returned by the
+``enterprise-catalogs/{catalog_id}`` endpoint. By default, the information is
+returned in XML format. The information returned is described in
+:ref:`course Fields`.
+
+===================
+Method and Endpoint
+===================
+
+.. list-table::
+   :widths: 20 80
+   :header-rows: 1
+
+   * - Method
+     - Endpoint
+   * - GET
+     - ``/enterprise/v1/enterprise-catalogs/{catalog_id}/courses/{course_key}``
+
+=====================
+Example Request
+=====================
+::
+
+   curl -X GET \
+   https://api.edx.org/enterprise/v1/enterprise-catalogs/1/4g1BB0us321/courses/MyUni+Sport101x \
+   -H "Authorization: JWT {access token}"
+
+=====================
+Response Values
+=====================
+
+The ``GET /enterprise/v1/enterprise-catalogs/{catalog_id}/courses/{course_key}``
+request returns the response values described in :ref:`course Fields`.
 
 .. _enterprise_catalogs_courserun Endpoint:
 
