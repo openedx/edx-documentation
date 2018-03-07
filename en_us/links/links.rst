@@ -40,7 +40,7 @@
 
 .. _test metadata file: https://courses.stage.edx.org/auth/saml/metadata.xml
 
-.. _edX Demo course: https://www.edx.org/course/edx/edx-edxdemo101-edx-demo-1038
+.. _edX Demo course: https://www.edx.org/course/demox-edx-demox-1-0
 
 .. _information about open response assessments: https://courses.edx.org/courses/edX/DemoX.1/2014/courseware/70a1e3505d83411bb72393048ac4afd8/1e5cd9f233a2453f83731ccbd863b731/
 
@@ -560,3 +560,4 @@
 .. _Proctoring Software System Requirements: http://clientportal.softwaresecure.com/support/index.php?/Knowledgebase/Article/View/252/0/system-requirements-remote-proctor-now
 
 .. _edX Automated Communication Engine: http://edx-ace.readthedocs.io/en/latest
+
