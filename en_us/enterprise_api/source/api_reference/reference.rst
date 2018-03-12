@@ -29,6 +29,10 @@ The following endpoints are available in the Enterprise API.
   for enrollment in the future. For details, see
   :ref:`enterprise_catalogs_catalogID Endpoint`.
 
+* **/enterprise-catalogs/{catalogID}/courses/{course_key}** - You can make GET
+  calls to the /enterprise-catalogs/{catalog_id}/courses/{course_key} endpoint
+  to get information about a single course. For details, see :ref:`enterprise_catalogs_courses Endpoint`.
+
 * **/enterprise-catalogs/{catalogID}/course-runs/{course_run_ID}** -
   You can make GET calls to the
   ``/enterprise-catalogs/{catalog_id}/course-runs/{course_run_ID}`` endpoint
@@ -510,6 +514,50 @@ contain many courses, course runs, or programs.
           "Professional Certificate"
         ]
       }
+
+.. _enterprise_catalogs_courses Endpoint:
+
+*********************************************************************
+enterprise-catalogs/{catalog_id}/courses/{course_key} Endpoint
+*********************************************************************
+
+GET calls to the ``enterprise-catalogs/{catalog_id}/courses/{course_key}``
+endpoint return information about a single course in a specified course
+catalog. In the GET call, you pass a catalog ID, which you can get using the
+``enterprise-catalogs`` endpoint, and a course key (a unique identifier for a
+course), which you can get from the ``key`` value returned by the
+``enterprise-catalogs/{catalog_id}`` endpoint. By default, the information is
+returned in XML format. The information returned is described in
+:ref:`course Fields`.
+
+===================
+Method and Endpoint
+===================
+
+.. list-table::
+   :widths: 20 80
+   :header-rows: 1
+
+   * - Method
+     - Endpoint
+   * - GET
+     - ``/enterprise/v1/enterprise-catalogs/{catalog_id}/courses/{course_key}``
+
+=====================
+Example Request
+=====================
+::
+
+   curl -X GET \
+   https://api.edx.org/enterprise/v1/enterprise-catalogs/1/4g1BB0us321/courses/MyUni+Sport101x \
+   -H "Authorization: JWT {access token}"
+
+=====================
+Response Values
+=====================
+
+The ``GET /enterprise/v1/enterprise-catalogs/{catalog_id}/courses/{course_key}``
+request returns the response values described in :ref:`course Fields`.
 
 .. _enterprise_catalogs_courserun Endpoint:
 
