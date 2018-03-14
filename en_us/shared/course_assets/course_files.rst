@@ -55,6 +55,9 @@ following information about the files.
   internet.
 * An indication of whether the file is :ref:`locked<Lock a File>`.
 
+This page also includes a **Search** option to help you find specific files.
+For more information, see :ref:`Find Files`.
+
 .. note::
   For textbooks or for course handouts that you want to make available in the
   sidebar of the **Course** page, see :ref:`Adding Textbooks` or :ref:`Add
@@ -110,61 +113,39 @@ The **Files & Uploads** page refreshes to show the uploaded file or files.
 To upload additional files, drag more files into the **Drag and Drop** area of
 the page.
 
-.. _File URLs:
+.. _Find Files:
 
-*************************************************
-Use an Uploaded File Inside or Outside the Course
-*************************************************
+*********************
+Find an Uploaded File
+*********************
 
-When you upload a file, Studio assigns a Studio URL and a web URL to the file.
-The **Copy URLs** column on the **Files & Uploads** page lists these URLs. To
-use an uploaded file, you add a link to the Studio URL or the web URL in your
-content.
+The **Files & Uploads** page lists up to 50 files at one time.  If your course
+has more than 50 files, additional files are listed on other pages.
 
-.. note::
-  If you do not want to allow access to a file from outside your course, you
-  can lock the file so that only learners who are signed in and enrolled in
-  your course can access the file. For more information, see :ref:`Lock a
-  File`.
+To find a file on the **Files & Uploads** page, you can use the **Search**
+option, or you can view the page that lists the file.
 
-.. _Add a File or Image Inside the Course:
+* To use the **Search** option, enter one of the following search terms in the
+  **Search** field, and then select the magnifying glass icon.
 
-=====================================
-Add a File or Image Inside the Course
-=====================================
+  * The full file name.
+  * The file name extension, or file type.
+  * Part of the file name. You can also enter multiple parts of a file name.
 
-To add a file or image inside the course, such as to a component, a course
-update, or a course handout, follow these steps.
+  For example, if the file is named FirstCourseImage.jpg, you can enter any
+  of the following search terms in the **Search** field.
 
-#. On the **Files & Uploads** page, select the **Studio** option in the
-   **Copy URLs** column.
+  * ``FirstCourseImage.jpg``
+  * ``.jpg``
+  * ``First`` ``Image``
+  * ``First`` ``.jpg``
 
-   The **Studio** option text briefly changes to **Copied**.
+* To view the page that lists the file, select **Previous** or **Next** to view
+  the previous or next page, or select the number of the page that you want to
+  view.
 
-#. In the component or other content, paste the Studio URL.
-
-For more information, see :ref:`Add an Image to an HTML Component`.
-
-.. _Add a File or Image Outside the Course:
-
-======================================
-Add a File or Image Outside the Course
-======================================
-
-To add a file or image outside the course, such as to a bulk email message that
-you send from the LMS, follow these steps.
-
-#. On the **Files & Uploads** page, select the **Web** option in the
-   **Copy URLs** column.
-
-   The **Web** option text briefly changes to **Copied**.
-
-#. In the external content, paste the web URL.
-
-.. note::
-  Be sure that you do not use the Studio URL in an email message. For more
-  information about sending email messages, see
-  :ref:`Send_Bulk_Email`.
+You can also sort files by name, type, or date added, or filter files by type.
+For more information, see :ref:`Sort Files` or :ref:`Filter files`.
 
 .. _Sort Files:
 
@@ -221,19 +202,61 @@ sort the resulting list by name, type, and date added.
 
 To reset the list and view files of all types, clear all checkboxes.
 
-.. _Find Files:
+.. _File URLs:
 
-*******************
-Find a File
-*******************
+*************************************************
+Use an Uploaded File Inside or Outside the Course
+*************************************************
 
-The **Files & Uploads** page lists up to 50 files at one time.  If your course
-has more than 50 files, additional files are listed on other pages.
+When you upload a file, Studio assigns a Studio URL and a web URL to the file.
+The **Copy URLs** column on the **Files & Uploads** page lists these URLs. To
+use an uploaded file, you add a link to the Studio URL or the web URL in your
+content.
 
-You can navigate through the pages in the following ways.
+.. note::
+  If you do not want to allow access to a file from outside your course, you
+  can lock the file so that only learners who are signed in and enrolled in
+  your course can access the file. For more information, see :ref:`Lock a
+  File`.
 
-* Select **Previous** or **Next** to navigate to the previous or next page.
-* Select the number of the page that you want to view.
+.. _Add a File or Image Inside the Course:
+
+=====================================
+Add a File or Image Inside the Course
+=====================================
+
+To add a file or image inside the course, such as to a component, a course
+update, or a course handout, follow these steps.
+
+#. On the **Files & Uploads** page, select the **Studio** option in the
+   **Copy URLs** column.
+
+   The **Studio** option text briefly changes to **Copied**.
+
+#. In the component or other content, paste the Studio URL.
+
+For more information, see :ref:`Add an Image to an HTML Component`.
+
+.. _Add a File or Image Outside the Course:
+
+======================================
+Add a File or Image Outside the Course
+======================================
+
+To add a file or image outside the course, such as to a bulk email message that
+you send from the LMS, follow these steps.
+
+#. On the **Files & Uploads** page, select the **Web** option in the
+   **Copy URLs** column.
+
+   The **Web** option text briefly changes to **Copied**.
+
+#. In the external content, paste the web URL.
+
+.. note::
+  Be sure that you do not use the Studio URL in an email message. For more
+  information about sending email messages, see
+  :ref:`Send_Bulk_Email`.
 
 .. _Lock a File:
 
