@@ -120,10 +120,10 @@ sessions, be aware of the following policies and timeframes.
   in the verified track for the course, in the current session. You can change
   to a different session if the one we enrolled you in does not work for you.
 
-* **Join a Session Within 15 Months**
+* **Join a Session Within 24 Months**
 
-  After you purchase the verified track for a course, you have 15 months from
-  the date of purchase to join a course session. After 15 months, if you have
+  After you purchase the verified track for a course, you have 24 months from
+  the date of purchase to join a course session. After 24 months, if you have
   not joined a session, your purchase expires, and you can no longer access the
   course.
 
