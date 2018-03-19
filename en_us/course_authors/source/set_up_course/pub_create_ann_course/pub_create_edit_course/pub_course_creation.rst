@@ -20,10 +20,14 @@ In Publisher, a course contains the following information.
      - Additional subjects
    * - Number
      - Learner testimonials
-   * - Short and long description
+   * - Enrollment track (also called certificate type)
      - FAQ
-   * - What learners will learn
+   * - Price of a certificate (if the course offers a certificate)
      - Syllabus
+   * - Short and long description
+     -
+   * - What learners will learn
+     -
    * - Primary subject
      -
    * - Image

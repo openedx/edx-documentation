@@ -23,21 +23,23 @@ course run page in Publisher.
 Information Required for a Studio URL
 *************************************
 
-To create a course run URL that you can access in Studio, Publisher needs the
-following information.
+To create a course run URL that you can access in Studio, you must enter the
+following information in Publisher.
 
 **Course Information**
 
    * The name of the course administrator for your organization.
    * The course title.
    * The course number.
+   * The course enrollment tracks.
+   * The price of a certificate for the course, if the course offers
+     certificates.
 
 **Course Run Information**
 
    * The course start and end dates. Times are in universal coordinated time
      (UTC).
    * Course pacing.
-   * Available certificate types, if any, and the prices for the certificates.
 
 You enter this information when you create a course and course run. For
 information about how to create a course and a course run, see :ref:`Pub Create

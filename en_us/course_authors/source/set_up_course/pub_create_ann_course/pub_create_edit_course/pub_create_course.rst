@@ -16,11 +16,16 @@ To create a course in Publisher, follow these steps.
    * On the **Courses** page, select **Courses**, and then select **Create New
      Course**.
 
-#. On the **Create New Course** page, enter the following information.
+#. On the **Create New Course** page, specify the following information.
 
    * The name of the course administrator for your organization.
    * The course title.
    * The course number.
+   * The enrollment track (also called certificate type) that the course
+     offers. For more information, see :ref:`enrollment
+     track<enrollment_track_g>`.
+   * The price for a certificate in the course. If the course does not offer
+     certificates, leave the default value of 0 in the **Price** field.
 
 #. Select the action that you want to take after you create a course.
 

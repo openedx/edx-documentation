@@ -18,10 +18,8 @@ In Publisher, a course run contains the following information.
      - Estimated effort
    * - Pacing
      - Length
-   * - :ref:`Enrollment track<enrollment_track_g>` (default is audit)
-     - Video language
    * - Content language
-     -
+     - Video language
    * - Transcript languages
      -
 
@@ -33,8 +31,8 @@ In Publisher, a course run contains the following information.
 For more information about how to determine this information for your course
 run, see :ref:`Planning Course Run Information`.
 
-After you have determined and gathered this information for your course, you
-use the following process to create the course in Publisher.
+After you have determined and gathered this information for your course run,
+you use the following process to create the course run in Publisher.
 
 #. :ref:`Create the course run<Pub Create a Course Run>`. In this step, you
    provide only basic information about the course run, and Publisher creates a
