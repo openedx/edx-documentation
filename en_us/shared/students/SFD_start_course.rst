@@ -39,29 +39,42 @@ materials before the start date.
   date for a course, and then set a calendar reminder for that date. Some
   courses also publish a start time.
 
-The course start date is available in several locations.
+.. only:: Partners
 
-* The course card on edx.org. The course start date is located at the bottom of
-  the card.
+  The course start date is available in several locations.
 
-  .. image:: ../../shared/images/CourseCard_StartDate.png
-   :alt: A course card, showing the course start date at the bottom of the
-       card.
+  * The course card on edx.org. The course start date is located at the bottom
+    of the card.
 
-* The course About page. The course start date is located above the **Enroll
-  Now** option.
+    .. image:: ../../shared/images/CourseCard_StartDate.png
+     :alt: A course card, showing the course start date at the bottom of the
+         card.
 
-  .. image:: ../../shared/images/SFD_StartDateOnCourseAbout.png
-   :width: 600
-   :alt: A course's About page with the start date above the Enroll Now button.
+  * The course About page. The course start date is located above the **Enroll
+    Now** option.
 
-* The course on your :ref:`dashboard<SFD Learner Dashboard>`. The course start
-  date is located below the course title.
+    .. image:: ../../shared/images/SFD_StartDateOnCourseAbout.png
+     :width: 600
+     :alt: A course's About page with the start date above the Enroll Now
+         button.
 
-  .. image:: ../../shared/images/SFD_StartDateOnDashboard.png
-   :width: 600
-   :alt: A course listing on a learner's dashboard, with the start date under
-     the name of the course.
+  * The course on your :ref:`dashboard<SFD Learner Dashboard>`. The course
+    start date is located below the course title.
+
+    .. image:: ../../shared/images/SFD_StartDateOnDashboard.png
+     :width: 600
+     :alt: A course listing on a learner's dashboard, with the start date under
+       the name of the course.
+
+.. only:: Open_edX
+
+  After you enroll in a course, the course is visible on your dashboard. The
+  course start date is located below the course title.
+
+    .. image:: ../../shared/images/SFD_StartDateOnDashboard.png
+     :width: 600
+     :alt: A course listing on a learner's dashboard, with the start date under
+       the name of the course.
 
 For more information about different course statuses, see :ref:`Course
 Availability`
