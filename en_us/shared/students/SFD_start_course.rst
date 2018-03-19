@@ -45,8 +45,8 @@ The course start date is available in several locations.
   the card.
 
   .. image:: ../../shared/images/CourseCard_StartDate.png
-   :width: 240
-   :alt: A course's About page with the start date above the Enroll Now button.
+   :alt: A course card, showing the course start date at the bottom of the
+       card.
 
 * The course About page. The course start date is located above the **Enroll
   Now** option.
@@ -60,8 +60,8 @@ The course start date is available in several locations.
 
   .. image:: ../../shared/images/SFD_StartDateOnDashboard.png
    :width: 600
-   :alt: A course listing on a learner's dashboard with the start date underthe
-     name of the course.
+   :alt: A course listing on a learner's dashboard, with the start date under
+     the name of the course.
 
 For more information about different course statuses, see :ref:`Course
 Availability`
