@@ -188,8 +188,8 @@ certificate learners.
 For information about creating differentiated content based on cohorts, see
 :ref:`Cohorted Courseware Overview`.
 
-For information about creating differentiated content based on enrollment track,
-see :ref:`Enrollment Track Specific Courseware Overview`.
+For information about creating differentiated content based on enrollment
+track, see :ref:`Enrollment Track Specific Courseware Overview`.
 
 
 .. _configuring_prerequisite_content:
@@ -200,8 +200,8 @@ Prerequisite Course Subsections
 
 You can lock subsections of your course until learners complete other,
 prerequisite subsections. If a subsection has a prerequisite, it is displayed
-in the course outline with a lock icon and learners cannot view the subsection
-content, until they have earned a minimum score in the prerequisite subsection.
+in the course outline with a lock icon, and learners cannot view the subsection
+content until they have earned a minimum score in the prerequisite subsection.
 
 
 .. _enabling_subsection_gating:
@@ -247,18 +247,18 @@ earned a minimum score in a prerequisite subsection, follow these steps.
 
 #. Select the **Advanced** tab.
 
-#. Select **Use as a Prerequisite** > **Make this subsection
-   available as a prerequisite to other content**.
+#. Under **Use as a Prerequisite**, select **Make this subsection available as
+   a prerequisite to other content**.
 
 #. Select **Save**.
 
 #. Select the **Configure** icon for the subsection that
    will be hidden until the prerequisite is met.
 
-#. Select the **Advanced** tab.
+#. Select the **Advanced** tab, and then locate the **Limit Access** section.
 
-#. In the **Limit Access** > **Prerequisite** menu, select the name of the
-   subsection you want to specify as the prerequisite.
+#. In the **Prerequisite** list, select the name of the subsection you want to
+   specify as the prerequisite.
 
 #. Enter the percent of the total score that learners must earn in the
    **Minimum Score** field. A learner's score for all problems in the
@@ -279,4 +279,5 @@ earned a minimum score in a prerequisite subsection, follow these steps.
      :width: 600
 
   .. note:: Prerequisite course subsection settings are not retained when
-     you :ref:`export or import a course<Exporting and Importing a Course>`, or when you :ref:`re-run a course<Rerun a Course>`.
+     you :ref:`export or import a course<Exporting and Importing a Course>`, or
+     when you :ref:`re-run a course<Rerun a Course>`.
