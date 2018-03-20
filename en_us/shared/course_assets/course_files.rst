@@ -49,6 +49,12 @@ following information about the files.
 * The file name.
 * A preview of the file (if the file is an image) or an icon that represents
   the file.
+
+  .. note::
+    If you do not want to see a preview of your files, select the **Hide File
+    Preview** checkbox in the left pane. To show a preview again, clear this
+    checkbox.
+
 * The file type.
 * The date the file was added.
 * The URLs that you use to make your files visible in your course or on the
@@ -282,5 +288,4 @@ To delete a file, select the delete icon in the row for file, and then select
 
 .. warning::
   After you delete a file, any links to the file from inside or outside the
-  course will be broken. You must update links to files that you need to
-  delete.
+  course are broken. You must update links to files that you delete.
