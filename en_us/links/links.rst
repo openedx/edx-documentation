@@ -4,7 +4,7 @@
 
 .. EdX Links
 
-.. _Math Formatting in Course Discussions: https://courses.edx.org/courses/edX/DemoX.1/2014/wiki/edX.DemoX.1.2014/math-formatting-course-discussions/
+.. _Math Formatting in Course Discussions: https://courses.edx.org/courses/course-v1:edX+DemoX.1+2T2017/wiki/edx/adding-math-expressions-course-discussion-post/
 
 .. _change log for the Backbone.js library: https://github.com/jashkenas/backbone/blob/master/index.html#L4299
 
