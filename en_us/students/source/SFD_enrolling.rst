@@ -181,9 +181,10 @@ Course`.
 About the Audit Track
 *********************
 
-Most courses offer an audit track. The audit track is free of charge, and does
-not include a certificate when you complete your course. The audit track gives
-you access to all course materials, including assignments and exams.
+Most courses offer an audit track. The audit track does not offer a certificate
+when you pass the course. You can still access course content and discussions in
+this track, but some content might be different from verified track content. For
+example, there might be a final exam only for verified track learners.
 
 When you first enroll in a course, you are automatically enrolled in the audit
 track. For information about enrolling in the audit track for a course, see
