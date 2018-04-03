@@ -101,6 +101,13 @@ To create the app in the Facebook developer portal, follow these steps.
 
 #. Select **Save Changes**.
 
+#. Under **Products** -> **Facebook Login** -> **Settings** ->
+   **Authorized redirect URIs**, enter ``<Open edX instance
+   domain>/auth/complete/facebook/``. For example, for devstack, enter
+   ``http://localhost:8000/auth/complete/facebook/``.
+
+#. Select **Save Changes**.
+
 Register the Open edX Instance with LinkedIn
 ********************************************
 
@@ -283,6 +290,8 @@ Add the Provider Configuration
 
 #. Make sure that **Enabled** is selected.
 
+#. Make sure that **Visible** is selected.
+
 #. For **Icon Class**, enter the appropriate value.
 
    * For Google, enter ``fa-google-plus``.
@@ -431,6 +440,8 @@ OAuth2 standard to the Open edX platform. To do this, follow these steps.
 #. Select **Add Provider Configuration (OAuth)**.
 
 #. Make sure that **Enabled** is selected.
+
+#. Make sure that **Visible** is selected.
 
 #. For **Icon Class**, select one of the following options.
 
