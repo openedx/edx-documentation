@@ -74,17 +74,11 @@ View Topics in a Course Unit
 =======================================
 
 Content-specific topics are located in specific units in the course. They
-typically appear below the content they apply to.
+typically appear below the content they apply to. To access a content-specific
+topic, view the unit that contains the topic.
 
-You can access a content-specific topic by viewing the unit that contains the
-topic. To show the list of posts for that content-specific discussion, select
-**Show Discussion**.
-
-.. image:: ../../../shared/students/Images/Discussion_content_specific.png
-   :width: 500
-   :alt: A discussion topic that appears below text inside the course. The
-         "Show Discussion" button opens the list of posts for that
-         content-specific topic.
+.. image:: ../../../shared/images/HTMLandDisc.png
+   :alt: A discussion topic that appears below text inside the course.
 
 You can also use the **Discussion** page to access a discussion in the unit
 where that topic is located.
