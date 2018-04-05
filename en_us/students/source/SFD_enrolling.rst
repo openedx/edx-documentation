@@ -133,7 +133,7 @@ sessions, be aware of the following policies and timeframes.
   After you join a course session in the verified track (including if we
   automatically add you to a session as a result of your program purchase), you
   can change to another session or leave the session within 14 days, as long as
-  you have not completed the course. For Professional Certificate courses only,
+  you have not completed the course. For Professional Education courses only,
   you must change sessions or leave the session within 2 days.
 
   .. note:: When you change sessions, your course progress is not carried from
@@ -150,7 +150,7 @@ sessions, be aware of the following policies and timeframes.
   entirely and get a refund of your course purchase, as long as you have not
   been in a course session for more than 14 days. 
 
-  .. note:: For Professional Certificate courses only, you must not have been in
+  .. note:: For Professional Education courses only, you must not have been in
      a course session for more than 2 days, to be able to unenroll.
 
   If the refund eligibility period has passed (meaning that you will not
