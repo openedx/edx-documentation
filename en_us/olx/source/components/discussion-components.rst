@@ -16,8 +16,8 @@ Create the XML File for a Discussion Component
 **********************************************
 
 There are two ways to create an inline discussion component in your course.
-The first is to include a discussion tag inside a vertical, as demonstrated in
-the following example.
+The preferred way is to include a discussion tag inside a vertical, as
+demonstrated in the following example.
 
 .. code-block:: xml
 
@@ -31,9 +31,10 @@ the following example.
     />
   </vertical>
 
-The second way is to create an XML file in the ``discussion`` directory for each
-inline discussion component in your course, and to then reference XML file in a
-discussion tag inside a vertical, as shown in the following example.
+The second way, which is deprecated, is to create an XML file in the
+``discussion`` directory for each inline discussion component in your course,
+and to then reference XML file in a discussion tag inside a vertical, as shown
+in the following example.
 
 The following is inside a vertical:
 
@@ -60,9 +61,6 @@ component, containing the following code.
 Note that the name of the XML file must match the value of the @url_name
 attribute of the ``discussion`` element in the vertical XML file.
 
-Please note that the second of these methods is a legacy method which will
-eventually be phased out.
-
 ***************************************
 Discussion Component XML File Elements
 ***************************************
@@ -84,10 +82,10 @@ The ``discussion`` element contains no children.
      - Meaning
    * - Required. ``discussion_category``
      - The name of the category for the inline discussion as shown in the main
-       **Discussion** tab of the course. Eg: ``Problem Set 1``
+       **Discussion** tab of the course. For example: ``Problem Set 1``
    * - Required. ``discussion_target``
      - The name of the subcategory for the inline discussion as shown in the
-       **Discussion** tab of the course. Eg: ``Problem 2``
+       **Discussion** tab of the course. For example: ``Problem 2``
    * - ``display_name``
      - Optional. The value that is displayed to students as the name of the
        discussion component. If you do not supply a ``display_name`` value,
@@ -98,9 +96,9 @@ The ``discussion`` element contains no children.
        courses in the edX deployment. We recommend that you leave this value
        blank so that a unique identifier is automatically generated.
    * - Obsolete. ``id``
-     - Now called ``discussion_id``.
+     - Use ``discussion_id`` instead.
    * - Obsolete. ``for``
-     - Now called ``discussion_target``.
+     - Use ``discussion_target`` instead.
 
 *************************************
 Example Discussion Component XML File
@@ -114,5 +112,4 @@ The following example shows an XML file for a discussion component.
       discussion_category="Essays"
       discussion_target="Peer Grading"
       display_name="Peer Grading"
-      discussion_id="6e51dd8f181b44ffa6d91303a287ed3f"
    />
