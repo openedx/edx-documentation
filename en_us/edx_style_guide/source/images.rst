@@ -294,7 +294,7 @@ Component editor
 
 Dialog box
 
-.. image:: Images/HTML_Insert-EditLink_DBox.png
+.. image:: Images/new_allowance.png
   :width: 300
   :alt: 300-pixel-wide image.
 
