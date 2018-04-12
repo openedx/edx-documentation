@@ -97,9 +97,9 @@ Set the Editor for an HTML Component
 
 .. _The Visual Editor:
 
-*****************************************
+*****************
 The Visual Editor
-*****************************************
+*****************
 
 The visual editor provides a "what you see is what you get" (WYSIWYG) interface
 that allows you to format text by selecting options at the top
@@ -113,32 +113,47 @@ descriptions.
    formatting buttons.
   :width: 600
 
-#. Choose a formatting style for the selected text, such as paragraph,
-   ``preformatted`` (monospace), or a heading level. The heading levels
-   available for an HTML component begin with Heading 3. Because HTML
-   components are part of a complete page, and heading levels 1 and 2 are in
-   use by other elements on the page, any text with a heading 1 or 2 style
-   within an HTML component can interfere with the functionality of tools such
-   as screen readers.
+#. Select a formatting style for the selected text, such as paragraph,
+   ``preformatted`` (monospace), or a heading level.
 
-#. Choose a font family for selected text, such as Arial, Courier New, or Times
+   .. note::
+     The available heading levels in the HTML component editor begin with
+     heading 3 (``<h3>``). HTML components are part of a complete page, and
+     elements outside the HTML component use heading levels 1 and 2 by default.
+     Because tools such as screen readers use heading levels to navigate
+     through pages, using heading levels 1 or 2 inside an HTML component can
+     interfere with the functionality of these tools.
+
+#. Select a font family for selected text, such as Arial, Courier New, or Times
    New Roman.
 
-#. Format the selected text in bold, or remove bolding. The editor inserts
-   ``<strong>`` tags around the selected text.
+#. Format the selected text in bold, or remove this formatting. The editor
+   inserts ``<strong>`` tags around the selected text.
 
-#. Format the selected text in italics, or remove italicization. The editor
+#. Format the selected text in italics, or remove this formatting. The editor
    inserts ``<em>`` tags around the selected text.
 
-#. Underline the selected text, or remove underlining. The editor encloses the
-   selected text in the tag ``<span style="text-decoration: underline;">``.
+#. Underline the selected text, or remove this formatting. The editor encloses
+   the selected text in the tag ``<span style="text-decoration: underline;">``.
 
-#. Apply a color to the selected text. The editor encloses the selected text in
-   the tag ``<span style="color: color-hex-code;">``.
+#. Change the color of the selected text. The editor encloses the selected text
+   in the tag ``<span style="color: color-hex-code;">``.
 
 #. Format the selected text as a code block, or remove this formatting. The
    editor inserts ``<code>`` tags around the selected text, which is then
    displayed in a monospace font.
+
+#. Align text and images to the left. The editor adds ``style="text-align:
+   left;"`` to the ``<p>`` tags that surround the text.
+
+#. Center text and images. The editor adds ``style="text-align: center;"`` to
+   the ``<p>`` tags that surround the text.
+
+#. Align text and images to the right. The editor adds ``style="text-align:
+   right;"`` to the ``<p>`` tags that surround the text.
+
+#. Justify text and images. The editor adds ``style="text-align: justify;"`` to
+   the ``<p>`` tags that surround the text.
 
 #. Create a bulleted list, or remove this formatting. The editor inserts
    ``<ul>`` tags around the selected text, and encloses each paragraph in
@@ -148,18 +163,19 @@ descriptions.
    ``<ol>`` tags around the selected text, and encloses each paragraph in
    ``<li>`` tags.
 
-#. Decrease and increased the indentation of the selected paragraph.
+#. Decrease and increase the indentation of the selected paragraph.
 
 #. Format the selected paragraph as a blockquote. The editor inserts
    ``<blockquote>`` tags around the selected text, which is then displayed as a
    separate paragraph in a monospace font.
 
-#. Create a hypertext link from the selected text. See :ref:`Add a Link in an
-   HTML Component`.
+#. Create a hypertext link from the selected text. For more information, see
+   :ref:`Add a Link in an HTML Component`.
 
 #. Remove a hypertext link from the selected text.
 
-#. Insert an image at the cursor. See :ref:`Add an Image to an HTML Component`.
+#. Insert an image at the cursor. For more information, see :ref:`Add an Image
+   to an HTML Component`.
 
 #. Review the HTML markup.
 
@@ -213,11 +229,13 @@ When you use this editor, you must supply valid HTML. The raw HTML editor does
 not validate your HTML code. If you use this editor, you should thoroughly test
 the HTML content in your course.
 
-.. important:: Because HTML components are part of a complete page, any
-   text with a heading 1 or 2 style within an HTML component can interfere
-   with the functionality of tools such as screen readers. Be sure that the
-   headings you add to an HTML component are Heading 3 ``<h3>`` through Heading
-   6 ``<h6>``, and not ``<h1>`` or ``<h2>``.
+.. important::
+ When you add a heading to an HTML component, make sure that you use only
+ heading level 3 ``<h3>`` through heading level 6 ``<h6>``. HTML components are
+ part of a complete page, and elements outside the HTML component use heading
+ levels 1 and 2 by default. Because tools such as screen readers use heading
+ levels to navigate through pages, using heading levels 1 or 2 inside an HTML
+ component can interfere with the functionality of these tools.
 
 .. _HTML Component Templates:
 
