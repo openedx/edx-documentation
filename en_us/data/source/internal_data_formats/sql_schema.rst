@@ -1565,12 +1565,12 @@ last_activity_at
 Columns in the ``verify_student_verificationstatus`` Table
 ==========================================================
 
-.. note:: This table is deprecated.
+.. note:: This table is deprecated and has been removed.
 
-The ``verify_student_verificationstatus`` table shows learner re-verification
+The ``verify_student_verificationstatus`` table showed learner re-verification
 attempts and outcomes.
 
-**History**: Added 5 Aug 2015. Deprecated.
+**History**: Added 5 Aug 2015. Deprecated and subsequently removed.
 
 A sample of the heading row and a data row in the
 ``verify_student_verificationstatus`` table follow.
@@ -1581,7 +1581,7 @@ A sample of the heading row and a data row in the
     2015-04-28 12:13:22 submitted edX/DemoX/Demo_Course Final 9999999
 
 
-The ``verify_student_verificationstatus`` table has the following columns.
+The ``verify_student_verificationstatus`` table had the following columns.
 
 +----------------------+--------------+------+-----+---------+----------------+
 | Field                | Type         | Null | Key | Default | Extra          |
