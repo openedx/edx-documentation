@@ -91,6 +91,7 @@ Method and Endpoint
    * - GET
      - ``/enterprise/v1/enterprise-catalogs/{catalog_id}``
 
+
 =====================
 Example Request
 =====================
@@ -98,6 +99,22 @@ Example Request
 
    curl -X GET \
    https://api.edx.org/enterprise/v1/enterprise-catalogs/1/4g1BB0us321/ \
+   -H "Authorization: JWT {access token}"
+
+=====================
+Parameters
+=====================
+
+You can use an optional ``page_size`` parameter to specify the number of
+content items that ``enterprise-catalogs/{catalog_id}`` calls return
+on each page of the response. If you do not supply the ``page_size``
+parameter, the ``enterprise-catalogs/{catalog_id}`` call returns the default
+value of 20 content items per page. For example:
+
+::
+
+   curl -X GET https://api.edx.org/enterprise/v1/\
+   enterprise-catalogs/1/4g1BB0us321?page_size=250 \
    -H "Authorization: JWT {access token}"
 
 =====================
