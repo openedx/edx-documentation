@@ -69,7 +69,7 @@ For more information, see the `Creative Commons website`_.
 Viewing Licenses
 *************************************
 
-If the course author has set a license for the course, you see the license a
+If the course author has set a license for the course, you see the license at
 the bottom of the page when you view content in the **Course** tab.
 
 .. image:: ../../shared/images/learner_course_license.png
