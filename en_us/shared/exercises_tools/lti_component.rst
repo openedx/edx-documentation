@@ -349,7 +349,10 @@ LTI Component Settings
      - Sends the learner's email address to the remote LTI tool.
 
        An LTI component will only send learners' email addresses if the **LTI
-       Launch Target** control is set to **New Window**.
+       Launch Target** control is set to **New Window**. When the new window
+       launches, the learners are warned that if they continue, their email
+       address will be shared with the LTI provider.
+
 
        By default, this setting is not available in Studio.
 
@@ -367,7 +370,9 @@ LTI Component Settings
        username that the learner used to register for the course.
 
        An LTI component will only send learners' usernames if the **LTI Launch
-       Target** control is set to **New Window**.
+       Target** control is set to **New Window**. When the new window
+       launches, the learners are warned that if they continue, their username
+       will be shared with the LTI provider.
 
        By default, this setting is not available in Studio.
 
