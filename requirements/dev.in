@@ -1,0 +1,5 @@
+# All dependencies needed for local doc builds and development tasks
+
+-r base.txt                         # Core documentation build dependencies
+
+pip-tools                           # Python requirements file management utilities
