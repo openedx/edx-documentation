@@ -137,7 +137,7 @@ time of less than two minutes.
 
 Before you upload a course About video, make sure that it follows the same
 :ref:`video guidelines<Video Compression Specifications>` as your course
- content videos.
+content videos.
 
 .. note::
 
