@@ -64,7 +64,7 @@
 
 .. _Overview of Creating an edX Course: https://www.edx.org/course/overview-creating-edx-course-edx-edx101#.VHKBz76d9BV
 
-.. _Creating Video for the edX Platform: https://www.edx.org/course/creating-video-edx-platform-edx-videox
+.. _Creating Video for the edX Platform: https://www.edx.org/course/videox-creating-video-for-the-edx-platform
 
 .. _Open edX Portal: http://open.edx.org/
 
@@ -548,6 +548,8 @@
 .. _3Play Media: http://www.3playmedia.com
 
 .. _Cielo24: http://www.cielo24.com
+
+.. _Creating Video for the edX Platform: https://www.edx.org/course/videox-creating-video-for-the-edx-platform
 
 .. _Creating Videos: https://courses.edx.org/courses/edX/edX101/2014/courseware/c2a1714627a945afaceabdfb651088cf/9dd6e5fdf64b49a89feac208ab544760/
 

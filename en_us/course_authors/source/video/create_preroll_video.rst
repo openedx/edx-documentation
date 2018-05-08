@@ -1,7 +1,7 @@
 .. _Adding a PreRoll Video:
 
 ################################################
-Add a Pre-Roll Video to Your edX Course
+Adding a Pre-Roll Video to Your edX Course
 ################################################
 
 .. note::

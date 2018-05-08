@@ -1,30 +1,32 @@
 .. _Additional Transcript Options:
 
-#####################################
-Specify Additional Transcript Options
-#####################################
+########################################
+Specifying Additional Transcript Options
+########################################
 
 .. contents::
   :local:
   :depth: 1
 
 ***************************
-Modify a Video Transcript
+Edit a Video Transcript
 ***************************
 
-If you want to modify an existing .srt or YouTube video transcript, follow
+If you want to edit an existing .srt video transcript, follow
 these steps.
 
-  #. In Studio, open the video component for the video.
-  #. For an .srt transcript, locate **Default Timed Transcript**, and then
-     select **Download Transcript for Editing**.
+.. only:: Partner
 
-     For a YouTube transcript, locate **Default Timed Transcript**, select
-     **Import YouTube Transcript** to import the YouTube transcript into
-     Studio, and then select **Download Transcript for Editing**.
+  .. note::
+   If you need to edit an integrated transcript from 3Play Media or cielo24,
+   contact your edX project coordinator. Do not use this procedure.
 
-  #. In a text editor, make any changes that you want.
-  #. Select **Upload New Transcript** to upload the edited file.
+#. In Studio, open the video component for the video.
+#. For an .srt transcript, locate **Default Timed Transcript**, and then
+   select **Download Transcript for Editing**.
+#. After the file downloads, open a text editor and make any changes that you
+   want.
+#. Select **Upload New Transcript** to upload the edited file.
 
 
 .. _Additional Transcripts:
@@ -45,6 +47,12 @@ downloads. For more information about allowing transcript downloads, see
 In addition, you can provide a downloadable transcript in a format such as
 .pdf. To do this, you upload the additional transcript in the video player as a
 handout. Learners see an option to download the handout below the video.
+
+.. only:: Partners
+
+  Historically, some courses used .sjson files for video transcripts. Use of
+  .sjson files is no longer recommended. However, if transcripts in your course
+  use this format, see Upload an .sjson File (Deprecated).
 
 To add another downloadable transcript, follow these steps.
 
