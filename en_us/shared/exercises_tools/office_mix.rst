@@ -97,7 +97,7 @@ video files in your course, see :ref:`Working with Video Components`.
   to as many learners as possible.
 
   For more information about video processing for courses that run on the
-  edx.org site, see :ref:`partnercoursestaff:Video Processing Overview`.
+  edx.org site, see :ref:`partnercoursestaff:Automated Video Process`.
 
 =============================================
 Adding Captions to Office Mix Presentations
