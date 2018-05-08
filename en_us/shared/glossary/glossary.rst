@@ -1052,7 +1052,7 @@ T
   A text version of the content of a video. You can make video transcripts
   available to learners.
 
-  For more information, see :ref:`Create the Transcript`.
+  For more information, see :ref:`Obtain a Video Transcript`.
 
 .. _U:
 

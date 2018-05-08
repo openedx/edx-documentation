@@ -7,8 +7,8 @@ Adding a Pre-Roll Video to Your edX Course
 .. note::
  Only courses that run on the edx.org website can include a pre-roll video. In
  addition, your organization must work with edX partner support to encode and
- host your video files. For more information, see :ref:`Video Processing
- Overview`.
+ host your video files. For more information, see :ref:`Automated Video
+ Process`.
 
 You can create a short video message and configure it to play before the other
 videos in your course. For example, a pre-roll video might provide learners
@@ -85,7 +85,7 @@ as many learners as possible.
 * The video must have at least one accompanying transcript.
 
 * The video must be in .mp4 or .mov format. For more information, see
-  :ref:`Compression Specifications`.
+  :ref:`Video Compression Specifications`.
 
 ==============================================
 Upload the Pre-Roll Video File
@@ -104,7 +104,8 @@ You must provide at least one transcript file for your pre-roll video. You can
 provide additional transcript files in multiple languages.
 
 * If you have transcript files in more than one language, edX recommends that
-  you include identifying ISO 639-1 code in your transcript file names. For more information, see `List of ISO 639-1 codes`_.
+  you include identifying ISO 639-1 code in your transcript file names. For
+  more information, see `List of ISO 639-1 codes`_.
 
 * If you supply transcripts in Chinese, you can use supplemental codes to
   identify the character set used. For a Simplified Chinese transcript, use

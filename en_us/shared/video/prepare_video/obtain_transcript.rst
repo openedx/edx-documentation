@@ -170,8 +170,8 @@ Obtaining a Video Transcript
   your course is on Edge, you cannot use the integrated video transcript
   functionality in Studio. Instead, you send your videos to the transcript
   provider, and the provider sends you the completed transcripts. You later
-  upload the transcripts when you :ref:`create a video component<Create a Video
-  Component>`.
+  upload the transcripts when you :ref:`create a video component<Add a Video
+  and Transcript>`.
 
   If your course is on Edge, integrated transcript functionality is not
   available even if you work with 3Play Media or cielo24.
@@ -181,7 +181,7 @@ Obtaining a Video Transcript
   When you work with a transcript provider, you send your videos to the
   transcript provider, and the provider sends you the completed transcripts.
   You later upload the transcripts when you :ref:`create a video
-  component<Create a Video Component>`.
+  component<opencoursestaff:Add a Video to a Course>`.
 
 **********************************
 Transcript File Naming Conventions

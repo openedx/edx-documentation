@@ -136,8 +136,8 @@ This video should deliver your message as concisely as possible and have a run
 time of less than two minutes.
 
 Before you upload a course About video, make sure that it follows the same
-:ref:`video guidelines<Compression Specifications>` as your course content
-videos.
+:ref:`video guidelines<Video Compression Specifications>` as your course
+ content videos.
 
 .. note::
 
