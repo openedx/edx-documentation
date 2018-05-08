@@ -121,7 +121,7 @@ Video Compression Specifications
    * - :ref:`Codec<codec_g>`
      - H.264 .mp4
    * - Resolution & Frame Rate
-     - 1280x720, progressive, 29.97 fps
+     - 1920x1080, progressive, 29.97 fps
 
        .. note::
          Typically, you export at the same frame rate that was used when you
@@ -134,9 +134,9 @@ Video Compression Specifications
    * - Bit Rate
      - VBR, 2 pass
    * - Target :ref:`VBR<VBR>`
-     - 1 mbps
+     - 5 mbps
    * - Max :ref:`VBR<VBR>`
-     - 1.5 mbps
+     - 6 mbps
    * - Audio
      - :ref:`AAC<AAC>` 44.1 / 192 kbps
 
