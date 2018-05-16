@@ -189,11 +189,12 @@ assessment feature. For more information, see
   assignment's settings.
 
 * The :ref:`grace period <Set the Grace Period>` that you can set for the
-  course does not apply to ORA assignments.
+  course does not apply to ORA assignments. For more information about the
+  grade period setting, see :ref:`Set the Grace Period`.
 
-* Allow sufficient time for peer assessments to be performed after learners
-  have submitted their own responses. EdX recommends that you allow at least
-  one week between the due date for responses and the due date for peer
+* You should allow sufficient time for peer assessments to be performed after
+  learners have submitted their own responses. EdX recommends that you allow at
+  least one week between the due date for responses and the due date for peer
   assessments. If the response due time and peer assessment due time are close
   together, and a learner submits a response just before responses are due,
   other learners may not have time to perform peer assessments before peer
@@ -224,7 +225,9 @@ Specify the Response Type
 =========================
 
 Learners can submit written responses, files, or both in their responses to the
-assigment. If you want learners to upload files, make sure the text of your prompt includes adequate instructions for learners to upload the required files, including the file types that learners can upload.
+assigment. If you want learners to upload files, make sure the text of your
+prompt includes adequate instructions for learners to upload the required
+files, including the file types that learners can upload.
 
 .. note::
   Before you ask learners to submit files for your open response assessment, be
@@ -408,6 +411,10 @@ To specify peer assessment settings, follow these steps.
      converter such as `Time and Date Time Zone Converter
      <http://www.timeanddate.com/worldclock/converter.html>`_.
 
+     Additionally, the course grace period setting does not apply to open
+     response assessments. For more information about the grace period setting,
+     see :ref:`Set the Grace Period`.
+
 For more information about peer assessment steps, see :ref:`Peer Assessment
 Step`.
 
@@ -426,11 +433,17 @@ the step starts and ends.
 #. Next to **Due Date** and **Due Time**, enter the date and time by which all
    peer assessments must be complete.
 
-  .. note:: The times that you set, and the times that learners see, use
-   Coordinated Universal Time (UTC). You might want to verify that you have
-   specified the times that you intend by using a time zone converter such as
-   `Time and Date Time Zone Converter
-   <http://www.timeanddate.com/worldclock/converter.html>`_.
+  .. note::
+
+     The times that you set are in Coordinated Universal Time (UTC). To verify
+     that you have specified the times that you intend, use a time zone
+     converter such as `Time and Date Time Zone Converter
+     <http://www.timeanddate.com/worldclock/converter.html>`_.
+
+     Additionally, the course grace period setting does not apply to open
+     response assessments. For more information about the grace period setting,
+     see :ref:`Set the Grace Period`.
+
 
 ================
 Staff Assessment
@@ -453,3 +466,4 @@ can then let you know if they found the question and the rubric easy to
 understand or if they had any problems with the assignment.
 
 For more information about beta testing, see :ref:`Beta_Testing`.
+

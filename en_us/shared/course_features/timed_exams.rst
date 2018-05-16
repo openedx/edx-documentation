@@ -116,56 +116,63 @@ steps.
 
 #. Select **Save**.
 
-*****************************************
-Grant Learners More Time for a Timed Exam
-*****************************************
+.. _Grant Learners More Time for a Timed Exam:
+
+******************************************************
+Grant Learners More Time for a Timed or Proctored Exam
+******************************************************
+
+.. note::
+  The course grace period setting does not apply to timed or proctored exams.
+  For more information about the grace period setting, see :ref:`Set the Grace
+  Period`.
 
 From the instructor dashboard, a course team member can grant a learner
-extra time to complete a timed exam.
+extra time to complete a timed or proctored exam.
 
 #. View the live version of your course.
 
 #. Select **Instructor**, and then select **Special Exams**.
 
-#. Expand the **Allowance Section**.
-
-   .. image:: ../../../shared/images/inst_dash_special_exams.png
-    :alt: The Allowance Section in the Instructor Dashboard.
-    :width: 550
+#. Expand **Allowance Section**.
 
 #. Select **Add Allowance**.
 
-   .. image:: ../../../shared/images/new_allowance.png
-    :alt: The Allowance Section in the Instructor Dashboard.
-    :width: 300
+   The **Add a New Allowance** dialog box opens.
 
-#. Select the subsection that contains the timed exam.
+#. For **Special Exam**, select the subsection that contains the timed or
+   proctored exam.
 
 #. For **Allowance Type**, select **Additional Time (minutes)**.
 
-#. In the **Additional Time** field, enter the number of extra minutes that you are granting the learner.
+#. In the **Additional Time** field, enter the number of extra minutes that you
+   want to grant to the learner.
 
-   .. note:: Enter a whole number greater than 0.
+   .. note:: You must enter a whole number greater than 0.
 
-#. Enter the learner's **Username** or **Email**.
+#. For **Username** or **Email**, enter the learner's information.
 
 #. Select **Save**.
 
+For proctored exams, the reviewer takes the special allowance for extra time
+into account when the proctoring service reviews the learner’s proctored exam
+results.
 
-*****************************************
-Allow Learners to Retake a Timed Exam
-*****************************************
+.. _Allow Learners to Retake a Timed Exam:
 
-If a learner needs to retake a timed exam for any reason, you can clear
+**************************************************
+Allow Learners to Retake a Timed or Proctored Exam
+**************************************************
+
+If a learner needs to retake a timed exam, you can clear
 their exam attempt and allow them to retake the exam.
 
-.. note::
+.. warning::
 
-  When you clear a learner's exam attempt, all of the learner's previous
-  answers in the exam are cleared, and the learner starts the exam from the
-  beginning.
+  Clearing an exam attempt removes all learner answers in an exam. This action
+  cannot be undone.
 
-To clear a timed exam attempt, follow these steps.
+To clear a timed or proctored exam attempt, follow these steps.
 
 #. View the live version of your course.
 #. Select **Instructor**, and then select **Special Exam**.
@@ -178,8 +185,6 @@ To clear a timed exam attempt, follow these steps.
    to confirm that you want to remove the learner's exam attempt.
 #. Select **OK**. The learner's exam attempt is removed from the list.
 
-   .. Warning:: Clearing an exam attempt removes all learner answers in an
-      exam and is a permanent action that cannot be undone.
 
 *****************************************
 Hide a Timed Exam After Its Due Date
