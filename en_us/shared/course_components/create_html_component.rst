@@ -447,27 +447,22 @@ HTML component. You can see a preview of the image before you add it to the
 component.
 
 .. note::
- Before you add images, review the following best practices.
 
- * Ensure that you obtain copyright permissions for images you use in your
-   course, and that you cite sources appropriately.
+ * Before you add an image, make sure that you obtain copyright permissions for
+   images you use in your course, and that you cite sources appropriately.
  * To add effective alternative text for images, review :ref:`Best Practices
    for Describing Images`.
+ * You can only add one image at one time.
+ * Each individual image file must be smaller than 10 MB.
 
 To add an image to an HTML component, you can use one of the following
 procedures.
 
-.. note::
- * You can only add one image at one time.
- * Each individual image file must be smaller than 10 MB.
-
-* In the **Add Image** dialog box in the HTML component, :ref:`drag an image
-  <Drag an Image into the Add Image Dialog Box>` from your computer into the
-  **Drag and Drop** area.
-* In the **Add Image** dialog box in the HTML component, use the **Browse Your
-  Computer** option to :ref:`locate an image <Locate an Image on Your
-  Computer>` on your computer.
-* :ref:`Add an image <Select a Previously Uploaded Image>` that you have
+* :ref:`Drag an image <Drag an Image into the Add Image Dialog Box>` from your
+  computer into the **Add Image** dialog box in the HTML component.
+* :ref:`Locate an image <Locate an Image on Your Computer>` by using the
+  **Browse Your Computer** option in the **Add Image** dialog box.
+* :ref:`Select an image <Select a Previously Uploaded Image>` that you have
   uploaded to the **Files & Uploads** page.
 
 .. _Drag an Image into the Add Image Dialog Box:
