@@ -49,6 +49,11 @@ The following endpoints are available in the Enterprise API.
   ``/course-enrollments`` endpoint to enroll a single learner in a single
   course run. For details, see :ref:`course_enrollments Endpoint`.
 
+* **/learner-summary** - You can make GET calls to the
+  ``/learner-summary`` endpoint to get a list of information about your
+  enterprise learners and their status in the courses they are enrolled in.
+  For details, see :ref:`learner_summary Endpoint`.
+
 .. _Returning XML Data:
 
 ************************************
@@ -202,7 +207,7 @@ Fields in a course Content Item
      - The URL for the course About page.
    * - ``modified``
      - datetime
-     - The most recent date and time that the course metadata was modified.
+     - The most recent date and time when the course metadata was modified.
    * - ``original_image``
      - string
      - The URL of the original unmodified image for the course About page.
@@ -667,9 +672,15 @@ request returns the response values described in :ref:`program Fields`.
 course-enrollments Endpoint
 *******************************
 
+Calls to this endpoint require the enterprise's UUID, which is assigned to the
+enterprise by your edX account representatlve.
+
+==========
+POST Calls
+==========
+
 POST calls to the ``course-enrollments`` endpoint enroll learners in specified
-course runs. Calls to this endpoint require the enterprise's UUID, which is
-assigned to the enterprise by your edX account representatlve.
+course runs.
 
 ===================
 Method and Endpoint
@@ -765,6 +776,128 @@ example, we enroll two learners in two different course runs.
 Response Values
 =====================
 
-The ``POST /enterprise/api/v1/enterprise-customer/{enterprise_uuid}/course_enrollments``
+The
+``POST /enterprise/api/v1/enterprise-customer/{enterprise_uuid}/course_enrollments``
 request returns a ``details`` response with a success or error message.
+
+.. _learner_summary Endpoint:
+
+************************
+learner-summary Endpoint
+************************
+
+GET calls to the ``learner-summary`` endpoint get information about learners'
+course enrollments and progress.
+
+===================
+Method and Endpoint
+===================
+
+.. list-table::
+   :widths: 20 80
+   :header-rows: 1
+
+   * - Method
+     - Endpoint
+   * - GET
+     - ``/enterprise/v1/enterprise-customer/{enterprise_uuid}/learner-summary``
+
+=====================
+Example Request
+=====================
+::
+
+   curl -X GET
+     https://api.edx.org/enterprise/v1/enterprise-customer/\
+     e1b2c4/clearner-summary \
+     -H "Authorization: JWT {access token}"
+     -H "Content-Type: application/json" \
+    }]"
+
+=====================
+Response Values
+=====================
+
+The
+``GET /enterprise/v1/enterprise-customer/{enterprise_uuid}/learner-summary``
+request returns the following data.
+
+.. list-table::
+   :widths: 25 20 80
+   :header-rows: 1
+
+   * - Field
+     - Data Type
+     - Description
+   * - ``consent_granted``
+     - boolean
+     - Whether the learner has consented to share their course data with the
+       enterprise.
+   * - ``course_duration_weeks``
+     - integer
+     - The course duration in weeks.
+   * - ``course_end``
+     - date
+     - The date the course ends, in YYYY-MM-DD format.
+   * - ``course_id``
+     - string
+     - A unique identifier for the course.
+   * - ``course_max_effort``
+     - integer
+     - The estimated maximum effort required by the course, in hours per week.
+   * - ``course_min_effort``
+     - integer
+     - The estimated minimum effort required by the course, in hours per week.
+   * - ``course_pacing_type``
+     - enum string
+     - Whether the course is self-paced or instructor-paced.
+   * - ``course_start``
+     - date
+     - The date when the course begins, in YYYY-MM-DD format.
+   * - ``course_title``
+     - string
+     - The name of the course.
+   * - ``enrollment_created_timestamp``
+     - timestamp
+     - The date and time when the learner enrolled in the course.
+   * - ``enterprise_id``
+     - string
+     - A unique identifier for the enterprise.
+   * - ``enterprise_name``
+     - string
+     - The name of the enterprise.
+   * - ``enterprise_site_id``
+     - integer
+     - An identifier for the enterprise site.
+   * - ``enterprise_sso_uid``
+     - string
+     - The learner's user ID in the Enterprise authentication system.
+   * - ``enterprise_user_id``
+     - string
+     - The learner's user ID.
+   * - ``has_passed``
+     - boolean
+     - Whether the learner has passed the course.
+   * - ``letter_grade``
+     - string
+     - The letter grade that the learner earned in the course.
+   * - ``lms_user_id``
+     - string
+     - The learner's user ID in the edx.org LMS.
+   * - ``passed_timestamp``
+     - timestamp
+     - The date and time when the learner passed the course.
+   * - ``user_account_creation_timestamp``
+     - timestamp
+     - The date and time when the learner's account was created in the edx.org
+       LMS.
+   * - ``user_current_enrollment_mode``
+     - string
+     - The learner's current enrollment mode in the course.
+   * - ``user_email``
+     - string
+     - The learner's email address.
+   * - ``user_username``
+     - string
+     - The learner's username on edx.org.
 
