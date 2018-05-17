@@ -653,9 +653,9 @@ the **Width** and **Height** fields.
 
 .. _Import LaTeX Code:
 
-=========================================
+****************************************
 Import LaTeX Code into an HTML Component
-=========================================
+****************************************
 
 You can import LaTeX code into an HTML component. You might do this, for
 example, if you want to create "beautiful math" such as the math in the
@@ -669,8 +669,9 @@ following image.
  party tool. We recommend that you use this feature with caution. If you use
  the tool, make sure that you work with your partner manager.
 
+==========================
 Enable the LaTeX Processor
-**************************
+==========================
 
 The LaTeX processor is not enabled by default. To enable it, you have to change
 the advanced settings in your course.
@@ -682,8 +683,9 @@ the advanced settings in your course.
 
 #. At the bottom of the page, select **Save Changes**.
 
+==============================================
 Add an HTML Component that Contains LaTeX Code
-************************************************
+==============================================
 
 When the LaTeX processor is enabled, you can create an HTML component that
 contains LaTeX code.
@@ -700,7 +702,7 @@ contains LaTeX code.
    The LaTeX editor opens.
 
    .. image:: ../../../shared/images/HTML_LaTeXEditor.png
-    :alt: An image of the LaTeX editor.
+    :alt: The LaTeX editor.
     :width: 500
 
 #. Add your LaTeX code. To do this, complete either of the following
