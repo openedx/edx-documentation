@@ -225,7 +225,8 @@ Create a Prerequisite Subsection
 ==================================
 
 To prevent learners from seeing a subsection of your course until they have
-earned a minimum score in a prerequisite subsection, follow these steps.
+earned a minimum score or completed a minimum portion in a prerequisite
+subsection, follow these steps.
 
 .. note::
     Make sure that you configure subsection prerequisites in the order that you
@@ -260,14 +261,32 @@ earned a minimum score in a prerequisite subsection, follow these steps.
 #. In the **Prerequisite** list, select the name of the subsection you want to
    specify as the prerequisite.
 
-#. Enter the percent of the total score that learners must earn in the
-   **Minimum Score** field. A learner's score for all problems in the
-   prerequisite subsection must be equal to or greater than this percentage in
-   order to satisfy the prerequisite and display the current subsection.
+      .. image:: ../../../shared/images/prerequisite-percent-complete.png
+       :alt: The Limit Access section in the Advanced settings, showing the
+           Prerequisite, Minimum Score, and Minimum Completion Percentage
+           controls.
+
+#. To require that learners achieve a minimum score in the prerequisite
+   subsection before the current subsection opens, enter the percent of the
+   total score that learners must earn in the **Minimum Score** field. If
+   the prerequisite section is not a problem set, set **Minimum Score** to
+   ``0`` and set **Minimum Completion Percentage** to a value greater than
+   zero.
 
    For example, if the prerequisite subsection includes four problems and each
    problem is worth the same number of points, set the **Minimum Score** to
    ``75`` to require at least three correct answers.
+
+   To require that learners complete a minimum portion of the prerequisite
+   subsection before the current subsection opens, enter the percent of the
+   prerequisite subsection that learners must complete in the **Minimum
+   Completion Percentage** field.
+
+   If you set both the **Minimum Score** field and the **Minimum Completion
+   Percentage** field to a value greater than zero, then learners must satisfy
+   both conditions in the prerequisite section before they can view the
+   current subsection. The default value for both the **Minimum Score** field
+   and the **Minimum Completion Percentage** field is ``100``.
 
 #. Select **Save**.
 
