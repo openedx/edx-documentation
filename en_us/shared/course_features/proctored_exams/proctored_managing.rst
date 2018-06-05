@@ -20,31 +20,49 @@ case by case basis.
 Accommodate Learners with Disabilities
 **************************************
 
-If you need to make a special accommodation to the exam policy for a particular
-learner, follow these steps.
+You can make a special policy accommodation to the exam policy for a particular
+learner, such as allowing an additional person to help a blind learner.
 
 .. note::
   Make sure the learner who has requested special accommodations, including
-  additional time, does not start taking the proctored exam before edX support
-  sets up the accommodation.
+  additional time, does not start taking the proctored exam before you set up
+  the accommodation.
 
-#. Consult your organization’s disability services to determine the best way to
-   accommodate the learner’s specific needs.
-#. Contact edX Support and ask the support team to set up a special allowance
-   for the learner.
-#. Provide edX Support with the learner’s username or email address and the
-   exception to the standard exam policy. For example:
+  If you need to allow more time for the learner, see :ref:`Grant
+  Learners More Time for a Timed Exam`.
+
+To make a special policy accommodation for a learner, follow these steps.
+
+#. View the live version of your course.
+
+#. Select **Instructor**, and then select **Special Exams**.
+
+#. Expand **Allowance Section**.
+
+#. Select **Add Allowance**.
+
+   The **Add a New Allowance** dialog box opens.
+
+#. For **Special Exam**, select the subsection that contains the proctored
+   exam.
+
+#. For **Allowance Type**, select **Review Policy Exception**.
+
+#. Add a description of the allowance, such as the following example.
 
    ``Learner cannot see. Allow an additional person in the room to act as a
    scribe.``
 
-   ``Learner requires 30 additional minutes to complete the exam.``
+#. For **Username** or **Email**, enter the learner's information.
 
-#. When edX support has set up the allowance, let the learner know that their
-   special allowance has been granted.
+#. Select **Save**.
+
+When you have set up the allowance, let the learner know that their special
+allowance has been granted.
 
 When the proctoring service reviews the learner’s proctored exam results, the
-reviewer takes the special allowance or extra time into account.
+reviewer takes the special allowance into account.
+
 
 .. _Requests for Retaking a Proctored Exam:
 
@@ -52,31 +70,13 @@ reviewer takes the special allowance or extra time into account.
 Allow Learners to Retake a Proctored Exam
 ******************************************
 
-If a learner needs to retake a proctored exam for any reason, you can clear
+If a learner needs to retake a proctored exam, you can clear
 their existing exam attempt and allow them to retake the exam.
 
-.. note::
+The procedures for allowing learners to retake a proctored exam and a timed
+exam are the same. To allow learners to retake an exam, see :ref:`Allow
+Learners to Retake a Timed Exam`.
 
-  When you clear a learner's exam attempt, all of a learner's previous answers
-  in the exam are cleared, and the learner starts the exam from the beginning.
-  The learner must set up the proctoring software, answer exam questions, and
-  complete all other steps again.
-
-To clear a proctored exam attempt, follow these steps.
-
-#. View the live version of your course.
-#. Select **Instructor**, and then select **Special Exam**.
-#. Expand **Student Special Exam Attempts**. A list of timed and proctored exam
-   attempts appears.
-#. Search for the learner's username to locate their exam attempts.
-#. In the **Exam Name** column, locate the name of the specific exam for which
-   you are cleaning the learner's exam attempt.
-#. In the **Actions** column, select **X**. A message displays asking you
-   to confirm that you want to remove the learner's exam attempt.
-#. Select **OK**. The learner's exam attempt is removed from the list.
-
-   .. Warning:: Clearing an exam attempt removes all learner answers in an
-      exam and is a permanent action that cannot be undone.
 
 .. _CA_Situations_Learners_Encounter_Proctored_Exams:
 
