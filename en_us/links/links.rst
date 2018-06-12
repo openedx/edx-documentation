@@ -275,6 +275,10 @@
 
 .. _AWS Documentation: http://aws.amazon.com/documentation/
 
+.. _Docker: https://www.docker.com/community-edition
+
+.. _Docker documentation: https://docs.docker.com/
+
 .. _Elastic MapReduce: http://aws.amazon.com/elasticmapreduce/
 
 .. _default EC2 role for Amazon EMR: http://docs.aws.amazon.com/ElasticMapReduce/latest/DeveloperGuide/emr-iam-roles-defaultroles.html#emr-iam-roles-defaultec2
