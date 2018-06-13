@@ -19,24 +19,26 @@ in different groups, see :ref:`Offering Differentiated Content`.
 
 
 ******************************
-What are Divided Discussions?
+What Are Divided Discussions?
 ******************************
 
-Divided discussion topics are visible to all learners, but the posts,
-responses, and comments within these topics are divided so that learners
-participate in the discussion only with other members of the same group
-(either the same cohort or the same enrollment track).
+With divided discussions, discussion topics are visible to all learners, but
+the posts, responses, and comments within these topics are divided so that
+learners participate in the discussion only with other members of the same
+group (either the same cohort or the same enrollment track).
 
-.. note:: You can choose only one group type by which to divide discussions,
-   even if your course uses cohorts and also has multiple enrollment tracks.
+.. note::
+   You can only divide discussions by one type of group (either cohorts or
+   enrollment tracks), even if your course uses cohorts and also has multiple
+   enrollment tracks.
 
 For example, you have two enrollment tracks in your course ("Free" and
-"Certificate"). If you choose to divide discussions based on enrollment track
-groups, and specify that a course-wide discussion topic called "Assignments"
-is divided, then although all learners see the topic, learners in the "Free"
-track interact only with posts, responses, and comments from other learners in
-the "Free" track, and learners in the "Certificate" track interact only with
-posts, responses, and comments from learners in the "Certificate" track.
+"Certificate"). If you divide discussions based on enrollment track groups, and
+specify that a course-wide discussion topic called "Assignments" is divided,
+then although all learners see the topic, learners in the "Free" track interact
+only with posts, responses, and comments from other learners in the "Free"
+track, and learners in the "Certificate" track interact only with posts,
+responses, and comments from learners in the "Certificate" track.
 
 Discussion topics that are not divided are unified, meaning that all learners
 in the course can see and respond to posts, responses, and comments from any
@@ -51,8 +53,8 @@ discussion topics, so that learners clearly understand the audience for a
 discussion topic before they add posts to that topic. For information about
 naming conventions, see :ref:`Apply Naming Conventions to Discussion Topics`.
 
-You can also choose to appoint learners as Community TAs or Group Commmunity
-TAs to help you to moderate course discussions. You might choose to use Group
+You can also appoint learners as Community TAs or Group Commmunity
+TAs to help you to moderate course discussions. You might use Group
 Community TAs if the content of discussion topics by one group should not be
 shared with another group. Group Community TAs are themselves members of
 groups that you use in your course (such as cohorts or enrollment tracks). As
@@ -135,8 +137,8 @@ Example Implementation
 
 You implement your decisions by completing the following tasks.
 
-* In the **Discussions** tab on the instructor dashboard in the LMS, you specify
-  that you want to use enrollment tracks as the group type for dividing
+* In the **Discussions** tab on the instructor dashboard in the LMS, you
+  specify that you want to use enrollment tracks as the group type for dividing
   discussions.
 
 * After you make your group type selection, lists of the course-wide and
@@ -164,11 +166,9 @@ You implement your decisions by completing the following tasks.
 Setting Up Divided Discussions
 ******************************
 
-In courses where either cohorts or multiple enrollment tracks are enabled, you
-see options to divide discussion topics based on the available group types.
-
-.. note:: You can choose only one group type by which to divide discussions,
-   even if your course uses cohorts and also has multiple enrollment tracks.
+.. note::
+   You must set up divided discussions before your course starts. You cannot
+   divide discussions after the course start date.
 
 The group type that you choose for dividing discussions is used to divide all
 discussion topics in the course, both course-wide and content-specific.
@@ -176,29 +176,35 @@ discussion topics in the course, both course-wide and content-specific.
 By default, all :ref:`course-wide discussion topics<Create CourseWide
 Discussion Topics>` and :ref:`content-specific discussion topics<Create
 ContentSpecific Discussion Topics>` are unified: all learners can interact
-with all posts responses, and comments. You can change discussion topics of
+with all posts, responses, and comments. You can change discussion topics of
 either type to be divided or unified on the instructor dashboard in the LMS.
 
-.. note:: In courses that started prior to April 10, 2017, in courses with
-   cohorts enabled and "cohorts" selected as the type of group by which
-   discussions are divided, content-specific discussion topics are by default
-   divided.
+.. note::
+   If your course has both cohorts and multiple enrollment tracks, you can
+   divide discussions by either cohort or enrollment track. You cannot divide
+   discussions by more than one group type.
 
-.. warning:: If you change settings of discussion topics in a live course
-   after learners have begun reading and contributing to discussion posts, you
-   are changing their course experience. Learners might see posts that were
-   previously not visible to them, or they might no longer see posts that were
-   previously available to all learners.
+   Content-specific discussion topics are divided by default in courses that
+   meet all of the following conditions.
+
+   * The course started prior to April 10, 2017.
+   * The course has cohorts enabled.
+   * The course has "cohorts" selected as the type of group by which
+     discussions are divided.
+
+.. warning::
+   If you change settings of discussion topics in a live course after learners
+   have begun reading and contributing to discussion posts, you are changing
+   their course experience. Learners might see posts that were previously not
+   visible to them, or they might no longer see posts that were previously
+   available to all learners.
 
 For information about settings for discussion topics, see the following
 topics.
 
-* :ref:`Specify the Group Type for Dividing Discussions`
-* :ref:`Specify Which Course Wide Discussion Topics are Divided`
-* :ref:`Content Specific Discussion Topics and Groups`
-* :ref:`Specify that All ContentSpecific Discussion Topics are Divided`
-* :ref:`Specify Some ContentSpecific Discussion Topics are Divided`
-
+.. contents::
+  :local:
+  :depth: 1
 
 .. _Specify the Group Type for Dividing Discussions:
 
@@ -206,8 +212,9 @@ topics.
 Specify The Group Type for Dividing Discussions
 **********************************************************
 
-.. note:: You can choose only one group type by which to divide discussions,
-   even if your course uses cohorts and also has multiple enrollment tracks.
+.. note::
+   You can divide discussions by only one group type, even if your course uses
+   cohorts and also has multiple enrollment tracks.
 
 The group type that you choose for dividing discussions is used to divide all
 discussion topics in the course, both course-wide and content-specific.
@@ -225,7 +232,6 @@ To specify the group type for dividing discussions, follow these steps.
    course, you do not have an option to divide discussions based on cohorts.
    If you do not have more than one enrollment track in your course, you do
    not have an option to divide discussions based on enrollment track.
-
 
    .. image:: ../../../shared/images/DivideDiscussionsGroupType.png
       :alt: An image showing the options for selecting the group type for
@@ -248,10 +254,10 @@ Divided`.
 Specify Which Course-Wide Discussion Topics are Divided
 **********************************************************
 
-When you create :ref:`course-wide discussion topics<Create CourseWide Discussion
-Topics>` or :ref:`content-specific discussion topics<Create ContentSpecific
-Discussion Topics>`, they are by default unified. All learners in the course can
-see and respond to posts from all other learners.
+When you create :ref:`course-wide discussion topics<Create CourseWide
+Discussion Topics>` or :ref:`content-specific discussion topics<Create
+ContentSpecific Discussion Topics>`, they are by default unified. All learners
+in the course can see and respond to posts from all other learners.
 
 After you have specified the group type for dividing discussions, you can
 specify which of your discussion topics are divided.
@@ -300,7 +306,7 @@ content-specific discussion topics to be divided, so that only members of the
 same group can see and respond to each other's posts.
 
 If you want all content-specific discussion topics that you add in your course
-to be always divided, follow the steps in the topic :ref:`Specify that All
+to be always divided, follow the steps in :ref:`Specify that All
 ContentSpecific Discussion Topics are Divided`.
 
 If you want only some content-specific discussion topics to be divided,
@@ -310,7 +316,7 @@ Topics are Divided`.
 .. _Specify that All ContentSpecific Discussion Topics are Divided:
 
 *****************************************************************
-Specify that All Content-Specific Discussion Topics are Divided
+Specify that All Content-Specific Discussion Topics Are Divided
 *****************************************************************
 
 When you first :ref:`add content-specific topics<Create ContentSpecific
@@ -335,10 +341,10 @@ divided, follow these steps.
 #. Click **Save** at the bottom of the **Content-Specific Discussion Topics**
    section.
 
-   All content-specific discussion topics in the course are now divided, based on
-   the group type that you :ref:`specified for dividing discussions<Specify the
-   Group Type for Dividing Discussions>`, and you cannot change the division
-   settings of individual content-specific discussion topics.
+   All content-specific discussion topics in the course are now divided, based
+   on the group type that you :ref:`specified for dividing discussions<Specify
+   the Group Type for Dividing Discussions>`, and you cannot change the
+   division settings of individual content-specific discussion topics.
 
 For information about dividing only some content-specific discussions, see
 :ref:`Specify Some ContentSpecific Discussion Topics are Divided`.
@@ -384,8 +390,8 @@ divided, follow these steps.
    selected, select **Divide the selected content-specific discussion topics**.
 
    .. image:: ../../../shared/images/DivideDiscussionsContentSpecific.png
-      :alt: An image showing the checkboxes for specifying which content-specific
-        topics are divided.
+      :alt: An image showing the checkboxes for specifying which content-
+        specific topics are divided.
 
    The list of content-specific discussion topics becomes editable.
 
