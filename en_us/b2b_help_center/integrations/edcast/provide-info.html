@@ -1,0 +1,29 @@
+<!-- Providing EdCast integration information to edX -->
+
+<p>EdX needs some information about your organization and your EdCast service so that we can configure the EdCast integration correctly. Send your edX account representative the following.</p>
+<ol>
+<ol>
+<li><em>Organization Name - </em>The name you want edX to display when your learners arrive at edx.org.</li>
+<li><em>Organization Logo - </em>The logo image you want edX to display when your learners interact with edx.org. The logo file should be in PNG format and should be 50K or less in size.
+<p>EdX will display your logo image with an absolute height of 100px and relative width.  Please ensure that your logo image is sized appropriately to work within this constraint.</p>
+</li>
+<li><em>Course Selection Criteria - </em>Choose from the list of edX subject areas provided by your edX account representative. EdX will use your course selection criteria in selecting the courses that will be imported into EdCast using the edX EdCast integration. Before you have made your actual selections, edX can test the integration using a default set of courses.</li>
+<li><em>EdCast SAML Identity Provider (IdP) Metadata URL - </em>The URL for the SAML configuration information that edX will use for Single Sign-On authentication of your learners. EdCast Support can provide you with this URL. Your EdCast Single Sign-On Service must be configured for <em>SP-initiated SAML SSO</em>. EdX will perform a daily refresh of metadata made available via this URL. Send the URL for both the production system and the beta or staging system. You may instead submit a static copy (file) that contains your SAML IdP metadata. For more detailed information, see <a href="/hc/en-us/articles/360005488234">Configuring SAML-based Single Sign-on</a>.</li>
+<li><em>EdCast Content/Completion API Access Information </em>-  EdX needs this information to import course metadata and to transmit learner completion data. Obtain Content/Completion API access information from your EdCast account representative.
+<ul>
+<li>API Client ID</li>
+<li>API Client Secret</li>
+<li>Organization Code</li>
+</ul>
+<p>Be sure to include information for both your beta environment and your production environment. Send the OAuth Information for each environment to edX in password-protected ZIP files. Send the ZIP password information for each environment to edX separately from the ZIP files.</p>
+</li>
+<li><em>EdCast Test User Account - </em>EdX needs an EdCast user account for testing the SAML integration.
+<ul>
+<li>Specify “edx_test” as the username of the test user account.</li>
+<li>Provision this user in both the beta environment and the production environment, if possible.</li>
+<li>Send the username and password for the test account in each environment to edX in a password-protected ZIP file. Send the ZIP password information to edX separately from the ZIP file</li>
+</ul>
+<p>If you are unable to provide a test user account, you must provide edX with a technical contact who will be available for troubleshooting both during and after the integration effort.</p>
+</li>
+</ol>
+</ol>
