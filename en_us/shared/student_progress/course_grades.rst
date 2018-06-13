@@ -233,11 +233,23 @@ columns that provide the following information.
   current and valid.
 
 * The **Certificate Eligible** column indicates whether a learner is eligible
-  for a certificate for your course. The value in this column is "Y" for
-  learners who attained a passing grade before this report was requested, and
-  for all whitelisted learners, regardless of grade attained. The value is "N"
-  for learners who did not attain a passing grade and for those who live in
-  embargoed countries.
+  for a certificate for your course.
+
+  The value in this column is "Y" for the following learners.
+
+  * Verified learners who attained a passing grade before this report was
+    requested. For example, the learner could have earned a passing grade in an
+    earlier session, or run, of the course.
+
+  * All whitelisted learners, regardless of grade or enrollment track.
+
+  The value is "N" for the following learners.
+
+  * Learners who did not attain a passing grade.
+
+  * Learners who are in the audit track.
+
+  * Learners who live in embargoed countries.
 
 * For learners who are eligible to receive a certificate, the **Certificate
   Delivered** column has a value of "Y" when the certificates for a course have
