@@ -563,3 +563,8 @@
 
 .. _edX Automated Communication Engine: http://edx-ace.readthedocs.io/en/latest
 
+.. _Taking Timed and Proctored Exams: https://support.edx.org/hc/en-us/sections/115004169247
+
+.. _Proctored exam rules and requirements: https://support.edx.org/hc/en-us/articles/360000218027
+
+.. _Technical problems during a proctored exam: https://support.edx.org/hc/en-us/articles/360000205167

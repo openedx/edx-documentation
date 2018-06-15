@@ -87,12 +87,9 @@ To take a proctored exam, follow these steps.
      your exam at the point that you left it. However, you cannot regain any
      lost time.
 
-#. When you have completed all the questions, end the exam.
-
-   #. On the timer bar, select **End My Exam**.
-   #. Close the proctoring software browser window.
-   #. When you receive a prompt, confirm that you want to quit the application.
-   #. Select **Submit** to submit your responses.
+#. When you have completed all the questions, end the exam. To do this, select
+   **End My Exam** on the timer bar, and then follow the prompts in the
+   proctoring software.
 
 The exam stops, and the data from your proctoring session is uploaded to the
 online proctoring service for review. Reviews usually take three to five days.
