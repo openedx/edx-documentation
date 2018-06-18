@@ -4,20 +4,21 @@
 Installation Prerequisites
 ######################################################
 
-To use devstack, fullstack, or analytics devstack, you must meet the
+To use devstack or analytics devstack successfully, you must meet the
 following knowledge and software requirements.
 
 **************************
 Knowledge Prerequisites
 **************************
 
-Devstack, fullstack, and analytics devstack require an understanding of the
+Devstack and analytics devstack require an understanding of the
 following items.
 
 * Basic terminal usage. If you are using a Mac computer, see
   `Introduction to the Mac OS X Command Line`_. If you are using a Windows
   computer, see `Windows Command Line Reference`_.
 
+>>>> WHAT is DOCKER EQUIVALENT?
 * Vagrant commands. See the `Vagrant Getting Started`_ guide for
   more information.
 
@@ -39,11 +40,12 @@ following items.
 Software Prerequisites
 **************************
 
-Devstack, fullstack, and analytics devstack require the following software.
+Devstack and analytics devstack require the following software.
 
-* `VirtualBox`_ 4.3.12 or later.
+* `Docker`_ 17.06 CE or later. We recommend Docker Stable, but Docker Edge
+  should work as well.
 
-* `Vagrant`_ 1.6.5 or later.
+* make >>> XREF
 
 * An NFS (network file system) client, if your operating system does not
   include one. NFS allows devstack and fullstack virtual machines to share a

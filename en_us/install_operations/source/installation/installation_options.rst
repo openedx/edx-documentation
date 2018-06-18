@@ -5,12 +5,9 @@ Open edX Platform Installation Options
 ########################################
 
 This section describes Open edX installation options and the components that
-each option includes. More details about the various options are at the
-`Open edX Installation Options`_ page on the edX wiki.
-
-There are three virtual machine options, which install the Open edX
-software in a virtual Ubuntu machine.  If you prefer, you can install into an
-Ubuntu machine of your own using the Native installation.
+each option includes. There are two virtual machine options, which install
+the Open edX software in a virtual Ubuntu machine. If you prefer, you can
+install into an Ubuntu machine of your own using the Native installation.
 
 
 .. contents::
@@ -21,27 +18,19 @@ Ubuntu machine of your own using the Native installation.
 Open edX Platform Virtual Machines
 **********************************
 
-You can install the Open edX developer stack (**devstack**), the Open edX full
-stack (**fullstack**), or the Open edX analytics developer stack (**analytics
-devstack**).
+You can install the Open edX developer stack (**devstack**) or the Open edX
+analytics developer stack (**analytics devstack**).
 
-* Devstack is a Vagrant virtual machine instance designed for local
+* Devstack is a Docker virtual machine instance designed for local
   development. For more information, see :ref:`Info Devstack`.
-
-* Fullstack is a Vagrant virtual machine instance designed for installing all
-  Open edX services on a single server in a production-like configuration. For
-  more information, see :ref:`Info Fullstack`.
 
 * Analytics devstack is a modified version of the devstack virtual machine that
   allows you to run Open edX Analytics. For more information, see
   :ref:`Info Analytics Devstack`.
 
-The Open edX Ficus release is supported only on the Ubuntu 16.04 operating
-system. You can use the virtual machine installation options to run Fullstack in
-a Vagrant virtual machine running on Linux, Mac OS, or Windows systems, or to
-run Devstack or Analytics Devstack on Linux or Mac OS. See the `Vagrant`_
-downloads page for information about the operating systems and architectures on
-which you can run Vagrant.
+You can run Devstack or Analytics Devstack on Linux or Mac OS. See the
+`Docker`_ downloads page for information about the operating systems and
+architectures on which you can run Docker.
 
 .. _Info Devstack:
 
@@ -49,18 +38,13 @@ which you can run Vagrant.
 Open edX Devstack
 =================
 
-Devstack is a Vagrant instance designed for local development. Devstack has
-the same system requirements as :ref:`Fullstack <Installing Open edX
-Fullstack>`. This allows you to discover and fix system configuration issues
-early in development.
+Devstack is a deployment of the Open edX platform within a Docker instance
+designed for local development. Running the Open edX platform locally allows
+you to discover and fix system configuration issues early in development.
 
 Devstack simplifies certain production settings to make development more
 convenient. For example, `nginx`_ and `gunicorn`_ are disabled in devstack;
-devstack uses Django's runserver instead.
-
-For information about devstack and other installation and configuration options
-from edX and the Open edX community, see the `Open edX Installation Options`_
-page on the edX wiki.
+devstack uses Django's ``runserver`` instead.
 
 .. note::
   Because of the large number of dependencies needed to develop extensions to
@@ -68,24 +52,7 @@ page on the edX wiki.
   Analytics development. For more information, see :ref:`Installing and
   Starting Analytics Devstack`.
 
-For more information about Vagrant, see the `Vagrant documentation`_.
-
-.. _Info Fullstack:
-
-==================
-Open edX Fullstack
-==================
-
-Fullstack is a Vagrant instance designed for installing all Open edX services
-on a single server in a production-like configuration.  Fullstack is a
-pre-packaged Native installation running in a Vagrant virtual machine.
-
-For information about fullstack and other installation and configuration
-options from edX and the Open edX community, see the `Open edX Installation
-Options`_ page on the edX wiki.
-
-For more information about Vagrant, see the `Vagrant documentation`_.
-
+For more information about Docker, see the `Docker documentation`_.
 
 .. _Info Analytics Devstack:
 
@@ -119,21 +86,20 @@ Native Installation`_ page on the edX wiki.
 Software Components
 *******************
 
-All installations include the following Open edX components:
+.. How has this changed, if at all?
 
-* The Learning Management System (LMS).
-* Open edX Studio.
-* Discussion Forums.
-* Open Response Assessments (ORA).
+A devstack installation includes the following Open edX components:
 
-Devstack, fullstack and native installations also include:
-
+* The Learning Management System (LMS)
+* Open edX Studio
+* Discussion Forums
+* Open Response Assessments (ORA)
 * E-Commerce
 * Programs
-* A demonstration Open edX course.
-* Open edX Search.
+* A demonstration Open edX course
+* Open edX Search
 
-Fullstack and native also include the following Open edX components:
+.. Fullstack and native also include the following Open edX components:
 
 * Open edX Analytics Data API.
 * Open edX Insights.
@@ -194,10 +160,11 @@ for Open edX virtual machines.
 Set Up Ability to Preview Units (Mac/Linux Only)
 ================================================
 
-If you are installing an Open edX virtual machine on a Linux or Mac computer, you
-must configure your installation to use the preview feature in Open edX Studio.
+If you are installing an Open edX virtual machine on a Linux or Mac computer,
+you must configure your installation to use the preview feature in Open edX
+Studio.
 
-#. :ref:`Connect to the Devstack virtual machine<Connect to Devstack VM>`.
+#. :ref:`Connect to the devstack virtual machine<Connect to Devstack VM>`.
 
 #. In the ``/etc/hosts`` file, add the following line.
 
@@ -209,9 +176,12 @@ must configure your installation to use the preview feature in Open edX Studio.
 Customize the Source Code Location
 ===================================
 
+>>> WHAT IS THE DOCKER EQUIVALENT?
+
 You can customize the location of the Open edX source code that gets cloned
-when you provision a devstack. You may want to do this to have the Open edX
-virtual machine work with source code that already exists on your computer.
+when you provision a devstack instance. You may want to do this to have the
+Open edX virtual machine work with source code that already exists on your
+computer.
 
 By default, the source code location is the directory in which you run
 ``vagrant up``. To change this location, follow these steps.
