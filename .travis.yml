@@ -5,6 +5,14 @@ python:
 cache:
     directories:
         - $HOME/.cache/pip
+before_install:
+    - "sudo apt-get update"
+    - "sudo apt-get install -y graphviz"
+    # This line isn't needed until we are running latexpdf builds.
+    # MacTex is used locally (MacOSX) by the docs team,
+    # but since we are using a linux machine for travis,
+    # we can use texlive-full instead.
+    # - "sudo apt-get install -y texlive-full git python-dev"
 install:
     - "pip install -r requirements/base.txt"
 script: "./run_tests.sh"
@@ -13,11 +21,3 @@ branches:
         - master
 
 
-
-# This part isn't needed until we are running latexpdf builds.
-# before_install:
-#     MacTex is used locally (MacOSX) by the docs team,
-#     but since we are using a linux machine for travis,
-#     we can use texlive-full instead.
-#     - "sudo apt-get update"
-#     - "sudo apt-get install texlive-full git python-dev -y"
