@@ -6,9 +6,8 @@ Managing Proctored Exams
 
 When you administer a proctored exam in your course, learners might have
 questions or concerns about the exam. Usually, you can direct learners to the
-FAQ section on edx.org, the :ref:`online proctoring rules <CA Online Proctoring
-Rules>`, or to :ref:`learners:SFD_ProctoredExams` in the *edX Learner’s Guide*
-to answer their questions.
+FAQ section on edx.org or to `Taking Timed and Proctored Exams`_ in the edX
+Help Center to answer their questions.
 
 If learners need accommodations for disabilities, or have a technical problem
 with the exam, you work with edX support to determine a solution on a
@@ -85,8 +84,9 @@ Manage Technical Problems During a Proctored Exam
 *************************************************
 
 For information about what learners should do if they experience technical
-problems during an exam, see :ref:`learners:SFD Technical Difficulties During
-Exam` in the *edX Learner's Guide*.
+problems during an exam, see `Technical problems during a proctored exam`_ in
+the edX Help Center.
 
 
+.. include:: ../../../../links/links.rst
 
