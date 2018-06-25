@@ -568,3 +568,13 @@
 .. _Proctored exam rules and requirements: https://support.edx.org/hc/en-us/articles/360000218027
 
 .. _Technical problems during a proctored exam: https://support.edx.org/hc/en-us/articles/360000205167
+
+.. _XQueue: https://github.com/edx/xqueue
+
+.. _edX XQueue repository: https://github.com/edx/xqueue/blob/master/queue
+
+.. _GnuPG website: https://www.gnupg.org
+
+.. _xqueue_watcher: https://github.com/edx/xqueue-watcher
+
+.. _Stanford Online xqueue_pull_ref: https://github.com/Stanford-Online/xqueue_pull_ref
