@@ -578,3 +578,6 @@
 .. _xqueue_watcher: https://github.com/edx/xqueue-watcher
 
 .. _Stanford Online xqueue_pull_ref: https://github.com/Stanford-Online/xqueue_pull_ref
+
+.. _Mozilla Firefox: https://www.mozilla.org/en-US/firefox/new/
+

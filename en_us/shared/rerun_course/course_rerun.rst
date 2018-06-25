@@ -61,19 +61,19 @@ Data Duplicated When You Re-Run a Course
    * - Wiki contributions
      - No.
 
-After you re-run a course, modifications to the original course and the re-run
-course are independent. Changes to either course have no effect on the other
-course. Therefore, you should ensure that the original course content is as
-complete as possible before you re-run the course.
+After you create a re-run course, modifications to the original course and the
+re-run course are independent. Changes to either course have no effect on the
+other course. Therefore, you should ensure that the original course content is
+as complete as possible before you re-run the course.
 
-For more information, see :ref:`Use Re-Run to Create a Course` and
-:ref:`Update the New Course`.
+For more information, see :ref:`Re-Run Course` and :ref:`Update the New
+Course`.
 
-.. _Use Re-Run to Create a Course:
+.. _Re-Run Course:
 
-********************************************
-Use Re-Run to Create a Course
-********************************************
+***************
+Re-Run a Course
+***************
 
 .. note::
   After the end date for a course has passed, the course moves to the
@@ -83,24 +83,94 @@ Use Re-Run to Create a Course
 
 .. only:: Partners
 
-   Only edX staff members have the permissions needed to re-run a course. To
-   re-run a course that is hosted on the `edx.org`_ or `edX Edge`_ sites,
-   contact your edX partner manager. After your partner manager creates the new
-   course using the re-run feature, you can complete the steps to
-   :ref:`update the new course<Update the New Course>`.
+ Options for creating a course re-run differ for courses on edx.org and Edge.
+
+ * For courses on edx.org, the course team uses :ref:`Publisher <Pub Creating
+   and Announcing a Course>` to re-run courses. For more information about
+   how to create a course run, see :ref:`Pub Creating a Course Run`.
+
+ * For courses on Edge, the course team can :ref:`use the course Import and
+   Export options <Export and Import the Previous Course>` to re-run a course,
+   or your edX project coordinator can :ref:`use the Re-Run Course option <Use
+   Re-Run to Create a Course>`.
+
+   .. note::
+     A course team member who has course creation privileges must create a new course when you use the **Import** and **Export** options.
+
+     We strongly encourage course teams to use the **Import** and **Export**
+     options to create a course re-run. This method takes less time than the
+     **Course Re-Run** option because this method does not require action from
+     edX.
 
 .. only:: Open_edX
 
-   Only global or system administrators have the permissions needed to re-run
-   a course. To re-run a course, contact your system administrator. After your
-   system administrator creates a new course using the re-run feature, you can
-   complete the steps to :ref:`update the new course<Update the New Course>`.
+ To re-run a course, the course team can :ref:`use the course Import and Export
+ options <Export and Import the Previous Course>`, or a system administrator
+ can :ref:`use the Re-Run Course option <Use Re-Run to Create a Course>`. Note
+ that the **Import** and **Export** method takes less time than the **Course
+ Re-Run** option because this method does not require action from a system
+ administrator.
+
+.. _Export and Import the Previous Course:
+
+=====================================
+Export and Import the Previous Course
+=====================================
+
+.. only:: Partners
+
+ .. note::
+   Courses on edx.org must :ref:`use Publisher to re-run courses <Pub Creating
+   a Course Run>`.
+
+To use the import and export options to re-run a course, follow these steps.
+
+#. In Studio, open the course that you want to re-run.
+
+#. :ref:`Export your course <Export a Course>`.
+
+#. In Studio, :ref:`create a new course <Creating a New Course>`.
+
+   .. note::
+     You must have course creation privileges to create a new course. If you do
+     not have course creation privileges, contact a member of the course team
+     who has these privileges, or your organization's administrator.
+
+#. In the new course, :ref:`import the content from the previous course <Import
+   a Course>`.
+
+#. After the import operation is complete, :ref:`review and update the settings
+   and content <Update the New Course>` for the new course.
+
+.. _Use Re-Run to Create a Course:
+
+==============================
+Use the Course Re-Run Option
+==============================
 
 .. note:: Before you re-run a course, make sure that its settings and content
   are complete. Additions and changes that you make to the original course
   after you create the new course have no effect on the new course.
 
+.. only:: Partners
+
+ .. note::
+   Courses on edx.org must :ref:`use Publisher to re-run courses <Pub Creating
+   a Course Run>`.
+
+   For courses on Edge, we strongly recommend that you use the **Import** and
+   **Export** options.
+
+   To use the **Re-Run Course** option, you must contact your project
+   coordinator.
+
+
 .. only:: Open_edX
+
+  Only global or system administrators have the permissions needed to re-run
+  a course. To re-run a course, contact your system administrator. After your
+  system administrator creates a new course using the re-run feature, you can
+  complete the steps to :ref:`update the new course<Update the New Course>`.
 
   To re-run a course, users who have the required permissions follow these
   steps.
@@ -111,21 +181,11 @@ Use Re-Run to Create a Course
   #. Move your cursor over each row in the list of courses. The **Re-Run
      Course** and **View Live** options appear for each course.
 
-     .. image:: ../../../shared/images/Rerun_link.png
-      :alt: A course listed on the dashboard with the Re-run Course and View
-             Live options shown.
-      :width: 600
-
   #. Locate the course you want to re-run and select **Re-Run Course**. The
      **Create a re-run of a course** page opens with values already supplied in
      the **Course Name**, **Organization**, and **Course Number** fields.
 
-     .. image:: ../../../shared/images/rerun_course_info.png
-       :alt: The course creation page for a rerun, with the course name,
-             organization, and course number supplied.
-       :width: 600
-
-  #. Supply a **Course Run** to indicate when the new course will be offered.
+  #. In the **Course Run** field, indicate when the new course will be offered.
 
      Together, the course number, the organization, and the course run are used
      to create the URL for the new course. The combination of these three
@@ -143,9 +203,9 @@ Use Re-Run to Create a Course
 
 .. _Update the New Course:
 
-********************************************
+*********************
 Update the New Course
-********************************************
+*********************
 
 When you create a course by re-running another course, you must carefully
 review the settings and content of the new course. To assure a quality
