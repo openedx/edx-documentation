@@ -12,6 +12,5 @@ latest version of the Open edX platform.
 
    installation_options
    installation_prerequisites
-   devstack/index
-   fullstack/index
-   analytics/index
+   install_devstack
+   install_analytics

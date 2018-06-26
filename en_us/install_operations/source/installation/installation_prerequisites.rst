@@ -45,10 +45,10 @@ Devstack and analytics devstack require the following software.
 * `Docker`_ 17.06 CE or later. We recommend Docker Stable, but Docker Edge
   should work as well.
 
-* make >>> XREF
+* `make`_
 
 * An NFS (network file system) client, if your operating system does not
-  include one. NFS allows devstack and fullstack virtual machines to share a
+  include one. NFS allows devstack virtual machines to share a
   common file system with host computers.
 
 .. include:: ../../../links/links.rst

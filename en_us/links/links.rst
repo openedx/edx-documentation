@@ -309,6 +309,7 @@
 
 .. _LON-CAPA XML format: https://s1.lite.msu.edu/adm/help/Authoring_XML_Intro.hlp#Authoring_XML_Intro
 
+.. _make: https://www.gnu.org/software/make/
 
 .. _Sphinx: http://sphinx-doc.org/
 

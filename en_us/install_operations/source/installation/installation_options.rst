@@ -99,17 +99,10 @@ A devstack installation includes the following Open edX components:
 * A demonstration Open edX course
 * Open edX Search
 
-.. Fullstack and native also include the following Open edX components:
-
-* Open edX Analytics Data API.
-* Open edX Insights.
-* Certificates
-* XQueue, the queuing server that uses `RabbitMQ`_ for external graders.
-
 Analytics devstack also includes the following Open edX components:
 
-* Open edX Analytics Data API.
-* Open edX Insights.
+* Open edX Analytics Data API
+* Open edX Insights
 * The components needed to run the Open edX Analytics Pipeline. This is the
   primary extract, transform, and load (ETL) tool that extracts and analyzes
   data from the other Open edX services.
@@ -144,7 +137,7 @@ default.
      - A student account that you can use to access the LMS for testing honor
        code certificates.
 
-The password for all of these accounts is ``edx``.
+The default password for all of these accounts is ``edx``.
 
 .. _vm_installation_options:
 
@@ -152,7 +145,7 @@ The password for all of these accounts is ``edx``.
 Virtual Machine Configuration Options
 *************************************
 
-When you install devstack, fullstack, or analytics devstack you can customize
+When you install devstack or analytics devstack you can customize
 the environment. This section provides information about configuration options
 for Open edX virtual machines.
 
