@@ -203,8 +203,8 @@ has the following keys.
     file. XQueue stores files that learners upload in ``xqueue_files``.
 
   * ``grader_payload``: An optional string that you can specify when you create
-    the problem. For more information, see :ref:`Create a Code Response
-    Problem`.
+    the problem. For more information, see :ref:`Create an External Grader
+    Problem in Studio`.
 
 An example JSON object for a learner submission follows.
 
