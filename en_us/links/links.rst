@@ -212,7 +212,7 @@
 
 .. EDX WIKI LINKS
 
-.. _Open edX Releases Wiki page: https://openedx.atlassian.net/wiki/display/DOC/Open+edX+Releases
+.. _Open edX Releases Wiki page: https://openedx.atlassian.net/wiki/spaces/OpenOPS/pages/11108700/Open+edX+Releases
 
 .. _Release Pages: https://openedx.atlassian.net/wiki/pages/viewpage.action?pageId=12550314
 
@@ -278,6 +278,10 @@
 .. _Docker: https://www.docker.com/community-edition
 
 .. _Docker documentation: https://docs.docker.com/
+
+.. _Docker sync installation: https://github.com/EugenMayer/docker-sync/wiki/1.-Installation
+
+.. _Docker for Windows: https://docs.docker.com/docker-for-windows/
 
 .. _Elastic MapReduce: http://aws.amazon.com/elasticmapreduce/
 
@@ -568,3 +572,4 @@
 
 .. _edX Automated Communication Engine: http://edx-ace.readthedocs.io/en/latest
 
+.. _JIRA Platform project: https://openedx.atlassian.net/projects/PLAT/issues

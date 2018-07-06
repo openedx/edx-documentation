@@ -14,3 +14,5 @@ latest version of the Open edX platform.
    installation_prerequisites
    install_devstack
    install_analytics
+   start_devstack
+   troubleshooting_devstack

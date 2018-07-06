@@ -11,11 +11,6 @@ following steps.
    :depth: 1
    :local:
 
-.. note::
- These steps assume that you are running Open edX `devstack`_. If you prefer to
- run the E-Commerce service locally on your computer instead of on the virtual
- machine (VM) that devstack uses, see :ref:`Development Outside Devstack`.
-
 .. _Set Up a Virtual Environment:
 
 ****************************
@@ -85,7 +80,7 @@ Create and Register a Client
 
 To create and register a new OIDC client, follow these steps.
 
-#. :ref:`Start the LMS<Start the LMS>`.
+#. :ref:`Starting Devstack<Start Devstack>`.
 #. In your browser, go to ``http://127.0.0.1:8000/admin/oauth2/client/``.
 #. Select **Add client**.
 #. Leave the **User** field blank.

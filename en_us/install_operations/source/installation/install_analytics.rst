@@ -5,7 +5,7 @@ Installing and Starting Analytics Devstack
 ##########################################
 
 This section provides information about how to install and start
-the Open edX analytics developer stack (analytics devstack).
+the Open edX analytics developer stack (Analytics Devstack).
 
 .. contents::
    :local:
@@ -17,12 +17,8 @@ the Open edX analytics developer stack (analytics devstack).
 Installation Prerequisites for Analytics Devstack
 *************************************************
 
-Before you install analytics devstack, make sure that you have met the
+Before you install Analytics Devstack, make sure that you have met the
 :ref:`installation prerequisites<Installation Prerequisites>`.
-
-You must also ensure that you have the administrator password for your local
-computer. The administrator password is needed to configure NFS (network file
-system) to allow users to access code directories directly from your computer.
 
 .. _Install Analytics Devstack:
 
@@ -30,28 +26,67 @@ system) to allow users to access code directories directly from your computer.
 Install Analytics Devstack
 **************************
 
-To install analytics devstack, follow these steps.
+To install Analytics Devstack, follow these steps.
 
-#. Follow steps x y z in :ref:`Install Devstack`.
+#. Follow steps 1 through 6 in :ref:`Install Devstack`.
 
-#. Pull the relevant docker images by running the following commands.
+#. Pull the relevant Docker images by running the following commands.
+   
    .. code-block:: bash
 
      make pull
      make pull.analytics_pipeline
 
-#. Configure the analytics devstack by running the following provision
+#. Configure the Analytics Devstack by running the following provision
    command.
+
    .. code-block:: bash
+    
     make dev.provision.analytics_pipeline
 
+#. Start the analytics service by running the following command.
 
-When you have completed these steps, see :ref:`Starting the Open edX Developer
-Stack` to begin using devstack.
+   .. code-block:: bash
+    
+    make dev.up.analytics_pipeline
 
-For help with the devstack installation, see
+   This command mounts the respositories under the ``DEVSTACK_WORKSPACE`` 
+   directory. Note that it may take up to 60 seconds for Hadoop services to 
+   start.
+
+ #. Access the analytics pipeline shell by running the following command.  
+
+   .. code-block:: bash
+    
+    make analytics-pipeline-shell
+
+=================
+Viewing Logs
+=================
+
+To see logs from containers running in detached mode, run the following 
+command.
+
+  .. code-block:: bash
+   
+   make logs
+
+As an alternative, you can use Docker's Kitematic feature, which is available from the **Docker for Mac** menu.
+
+To view the logs of a specific service container, run a 
+``make <service>-logs`` command. For example, to access the logs for Hadoop's 
+namenode, run this command.
+
+  .. code-block:: bash
+   
+   make namenode-logs
+
+For additional information, see :ref:`Starting the Open edX Developer
+Stack`.
+
+For help with the Analytics Devstack installation, see
 :ref:`troubleshooting_devstack_installation`.
 
 
-.. include:: ../../../../links/links.rst
+.. include:: ../../../links/links.rst
 
