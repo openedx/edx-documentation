@@ -80,7 +80,7 @@ Create and Register a Client
 
 To create and register a new OIDC client, follow these steps.
 
-#. :ref:`Starting Devstack<Start Devstack>`.
+#. :ref:`Start Devstack<Starting Devstack>`.
 #. In your browser, go to ``http://127.0.0.1:8000/admin/oauth2/client/``.
 #. Select **Add client**.
 #. Leave the **User** field blank.

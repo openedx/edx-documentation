@@ -1,8 +1,8 @@
 .. _Open edX Hawthorn Release:
 
-########################
+#########################
 Open edX Hawthorn Release
-########################
+#########################
 
 This section describes how to install the Open edX Hawthorn release.
 
@@ -15,8 +15,8 @@ What's Included in Hawthorn
 ****************************
 
 The Open edX Hawthorn release contains several new features for learners,
-course teams, and developers. For more information, see
-:ref:`openreleasenotes:Open edX Hawthorn Release`.
+course teams, and developers. For more information, see the relesae notes.
+<<add xref>>.
 
 ******************************
 What Is the Hawthorn Git Tag?
@@ -72,6 +72,7 @@ To move and upgrade your Ginkgo data onto a Hawthorn installation, follow these
 steps.
 
 >>>> IS THIS TRUE?
+
 #. Be sure that your Ginkgo installation is on Ginkgo.2.  The Ginkgo.2 release
    provided required database migrations beyond what was in Ginkgo.2.  The only
    version of Ginkgo that will upgrade to Hawthorn successfully is Ginkgo.2.
@@ -181,12 +182,7 @@ Upgrading a Docker Installation
 ================================
 
 Devstack is installed using Docker. To upgrade from one Hawthorn
-release to another, follow the instructions in :ref:`Updating Docker`.
-
-.. code-block:: bash
-
-    $ export OPENEDX_RELEASE=open-release/hawthorn.2
-    $ vagrant provision
+release to another, follow the instructions in :ref:`Updating Devstack`.
 
 ===============================
 Upgrading a Native Installation
