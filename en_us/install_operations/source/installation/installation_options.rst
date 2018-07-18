@@ -14,7 +14,7 @@ install into an Ubuntu machine of your own using the Native installation.
  :depth: 1
 
 **********************************
-Open edX Platform Virtual Machines
+Open edX Platform on Docker
 **********************************
 
 You can install the Open edX developer stack (**Devstack**) or the Open edX
