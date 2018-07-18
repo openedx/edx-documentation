@@ -214,20 +214,24 @@ reported ``Score`` and the values for ``student_answers``, ``attempts``, and
 Report All Learners' Answer Submissions
 ============================================================
 
-Before you can download a report of all learner answers for a problem, you need
-the :ref:`unique identifier<find_URL>` of the problem that you want to
-investigate.
+The Student State report lists the answers that every learner has submitted for
+one or more problems. You can download this report for just one problem, or for
+all of the problems in a course, section, subsection, or unit at one time.
 
-To download the Student State report, which is a report of the answers
-submitted for a problem by every learner, follow these steps.
+To download the Student State report for one or more problems, follow these
+steps.
 
 #. View the live version of your course.
 
-#. Select **Instructor**, and then select **Data Download**.
+#. On the **Instructor** tab, select **Data Download**.
 
-#. In the **Reports** section, enter the **Problem location** . For CAPA
-   problems, you can use the **Staff Debug Info** option to :ref:`find this
-   identifier<find_URL>` for a problem.
+#. In the **Reports** section, locate and select **Select Problem**.
+
+#. Use the arrow icons in the dropdown list to select the section, subsection,
+   unit, or problem that you want. You can also select the entire course.
+
+   If you select a course, section, subsection, or unit, the Student State
+   report includes all of the problems in that part of the course.
 
 #. Select **Download a CSV of problem responses**.
 
