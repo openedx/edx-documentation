@@ -138,18 +138,18 @@ The following options appear on the **Advanced** page of the video component.
         video to play. Use HH:MM:SS format. The maximum value is 23:59:59.
 
         .. note::
-         Learners who download and play the video in the mobile
-         app see the entire video file. Only videos that play in a browser
-         start playing at the specified start time.
+           Learners who play video in the mobile app see the entire video file.
+           Only videos that play in a browser start playing at the specified
+           start time.
 
     * - **Video Stop Time**
       - The time you want the video to stop if you do not want the entire video
         to play. Use HH:MM:SS format. The maximum value is 23:59:59.
 
         .. note::
-         Learners who download and play the video in the mobile
-         app see the entire video file. Only videos that play in a browser
-         stop playing at the specified stop time.
+           Learners who play video in the mobile app see the entire video file.
+           Only videos that play in a browser stop playing at the specified
+           stop time.
 
     * - **YouTube IDs**
       - As of March 2018, edX no longer supports videos on YouTube.
