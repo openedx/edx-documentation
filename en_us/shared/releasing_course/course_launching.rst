@@ -1,22 +1,37 @@
 .. _Launch:
 
-##############################
+###########################
 Course Launching Activities
-##############################
+###########################
 
-This topic describes steps to launch your course.
+To launch a course, you prepare the course itself, the course team, and the
+learners. This topic describes on how to accomplish this.
 
 .. contents::
   :local:
   :depth: 1
 
-****************************
-Overview
-****************************
+*********************************
+Course Launch Checklist in Studio
+*********************************
 
-To launch a course, you prepare the course itself, the course team, and the
-learners. This topic includes a :ref:`course launch checklist<Course Launch
-Checklist>` to use as a model for your schedule of activities.
+ You can access a course launch checklist from the **Course Outline** page and from the **Tools** menu. The checklist includes the following important items that you need to complete prior to launching your course.
+
+* **Add a Welcome Message**: Personally welcome learners into your course and
+  prepare learners for a positive course experience. See :ref:`Scheduling
+  Your Course`.
+* **Create Your Course Grading Policy**: Establish your grading policy,
+  including assignment types and passing score. All assignments add up to
+  100%. See :ref:`Grading Index`.
+* **Enable Your Certificate**: Make sure that all text is correct, signatures
+  have been uploaded, and the certificate has been activated. See :ref:`Setting Up Certificates`.
+* **Set Important Course Dates**: Establish your course schedule, including
+  when the course starts and ends. See :ref:`Scheduling Your Course`.
+* **Validate Assignment Deadlines**: Ensure all assignment deadlines are
+  between course start and end dates.
+
+.. note:: The last two checklist items only appear for instructor-paced
+   courses.
 
 To help you communicate to the course team or to all course participants before
 the course launches and while it is running, you can send email messages from
@@ -27,14 +42,14 @@ you can use as guidelines when you write your own email messages.
 
 .. _Course Launch Checklist:
 
-****************************
-Course Launch Checklist
-****************************
+********************************
+Course Launch Checklist Timeline
+********************************
 
-As the start date for your course approaches, a checklist or time line of
-activities can help you make sure that your course, and your learners, are
-ready to begin. Suggestions for activities to complete before your course
-starts follow.
+As the start date for your course approaches, the following checklist or
+timeline of activities can help you make sure that your course, and your
+learners, are ready to begin. Suggestions for activities to complete before
+your course starts follow.
 
 **Verify Course Settings**
 
