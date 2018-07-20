@@ -32,9 +32,6 @@ installations. To enable this feature, follow these steps.
 
 #. Save the ``edx/app/edxapp/lms.env.json`` file.
 
-For information about enabling third party auth on Edge, see :ref:`Enabling
-Third Party Authentication Edge`.
-
 ***********************************************
 Set Up a Third Party Authentication Provider
 ***********************************************
