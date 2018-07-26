@@ -208,15 +208,9 @@ affected, and their scores for the exam remain visible on the **Progress** page.
 
    The **Settings** dialog box opens to the **Basic** tab.
 
-#. Select the **Advanced** tab.
+#. Select the **Visibility** tab.
 
-#. In the **Set as a Special Exam** section, make sure **Timed** is selected.
-
-#. Select **Hide Exam After Due Date**.
-
-   .. image:: ../../../shared/images/timed_exam_hide_after_due_date.png
-    :alt: The Hide Exam After Due Date option in the Settings dialog box.
-    :width: 400
+#. In the **Subsection Visibility** section, select **Hide content after due date**.
 
 #. Select **Save**.
 
