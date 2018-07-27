@@ -279,8 +279,6 @@
 
 .. _Docker documentation: https://docs.docker.com/
 
-.. _Docker sync installation: https://github.com/EugenMayer/docker-sync/wiki/1.-Installation
-
 .. _Docker for Windows: https://docs.docker.com/docker-for-windows/
 
 .. _Elastic MapReduce: http://aws.amazon.com/elasticmapreduce/
@@ -326,7 +324,6 @@
 .. _Vagrant's documentation on boxes: http://docs.vagrantup.com/v2/boxes.html
 
 .. _RabbitMQ: http://www.rabbitmq.com/
-
 
 .. _Download Python: https://www.python.org/download/releases/2.7/
 
@@ -573,3 +570,7 @@
 .. _edX Automated Communication Engine: http://edx-ace.readthedocs.io/en/latest
 
 .. _JIRA Platform project: https://openedx.atlassian.net/projects/PLAT/issues
+
+.. _retirement: https://user-retirement-guide.readthedocs.io/en/latest/index.html
+
+.. _openreleasenotes: http://edx.readthedocs.io/projects/open-edx-release-notes/en/latest/hawthorn.html

@@ -5,9 +5,9 @@ Open edX Platform Installation Options
 ########################################
 
 This section describes Open edX installation options and the components that
-each option includes. There are two virtual machine options, which install
-the Open edX software using Docker. If you prefer, you can
-install into an Ubuntu machine of your own using the Native installation.
+each option includes. There are two development environment installation 
+options, which install the Open edX software using Docker. If you prefer, you 
+can install into an Ubuntu machine of your own using the Native installation.
 
 .. contents::
  :local:
@@ -20,14 +20,14 @@ Open edX Platform on Docker
 You can install the Open edX developer stack (**Devstack**) or the Open edX
 analytics developer stack (**Analytics Devstack**).
 
-* Devstack is a Docker virtual machine instance designed for local
+* Devstack is a set of Docker containers designed for local
   development. For more information, see :ref:`Info Devstack`.
 
-* Analytics Devstack is a modified version of the Devstack virtual machine that
+* Analytics Devstack is a modified version of the Devstack installation that
   allows you to run Open edX Analytics. For more information, see
   :ref:`Info Analytics Devstack`.
 
-You can run Devstack or Analytics Devstack on Linux or Mac OS. See the
+You can run Devstack or Analytics Devstack on Linux or macOS. See the
 `Docker`_ downloads page for information about the operating systems and
 architectures on which you can run Docker.
 
@@ -40,9 +40,10 @@ supported.
 Open edX Devstack
 =================
 
-Devstack is a deployment of the Open edX platform within a Docker instance
-designed for local development. Running the Open edX platform locally allows
-you to discover and fix system configuration issues early in development.
+Devstack is a deployment of the Open edX platform within a set of Docker 
+containers designed for local development. Running the Open edX platform 
+locally allows you to discover and fix system configuration issues early in 
+development.
 
 Devstack simplifies certain production settings to make development more
 convenient. For example, `nginx`_ and `gunicorn`_ are disabled in Devstack;
@@ -88,8 +89,6 @@ Native Installation`_ page on the edX wiki.
 Software Components
 *******************
 
-.. How has this changed, if at all?
-
 A Devstack installation includes the following Open edX components:
 
 * The Learning Management System (LMS)
@@ -97,9 +96,12 @@ A Devstack installation includes the following Open edX components:
 * Discussion Forums
 * Open Response Assessments (ORA)
 * E-Commerce
-* Programs
-* A demonstration Open edX course
+* Credentials
+* Notes
+* Course Discovery
+* XQueue
 * Open edX Search
+* A demonstration Open edX course
 
 Analytics Devstack also includes the following Open edX components:
 

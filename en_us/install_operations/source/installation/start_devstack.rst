@@ -12,13 +12,6 @@ mounts the repositories under the DEVSTACK_WORKSPACE directory.
 
     make dev.up
 
-   As an alternative, use :ref:`Docker Sync` with the following command.
-
-   .. code-block:: bash
-
-    make dev.sync.up
-
-
 **********************
 Connecting to Services
 **********************
@@ -137,51 +130,6 @@ default.
        code certificates.
 
 The default password for all of these accounts is ``edx``.
-
-.. _Docker Sync:
-
-*******************************************
-Improve Mac OS Performance with Docker Sync
-*******************************************
-
-Docker for Mac has known filesystem issues that significantly decrease
-performance for certain use cases, such as running tests in ``edx-platform``.
-To improve performance, you can use Docker Sync to synchronize file data from
-the host machine to the containers.
-
-Using Docker Sync has the disadvantages of adding complexity and sometimes leading to issues with the filesystem getting out of sync.
-
-You can switch between using Docker Sync and native volumes at any time, by
-using the `make` targets with or without `sync`. However, if you want to
-switch inside the PyCharm IDE, this is harder to do quickly due to its need to
-rebuild its cache of the containers' virtual environments.
-
-If you are using Mac OS, follow the `Docker sync installation`_
-instructions before provisioning.
-
-================================
-Docker Sync Troubleshooting tips
-================================
-
-Check your version and make sure you are running Docker Sync 0.4.6 or above:
-
-  .. code-block:: bash
-
-   docker-sync --version
-
-If not, upgrade to the latest version:
-
-  .. code-block:: bash
-
-   gem update docker-sync
-
-If you are having issues with Docker Sync, try the following:
-
-  .. code-block:: bash
-
-   make stop
-   docker-sync stop
-   docker-sync clean
 
 .. include:: ../../../links/links.rst
 

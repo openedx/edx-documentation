@@ -15,45 +15,39 @@ What's Included in Hawthorn
 ****************************
 
 The Open edX Hawthorn release contains several new features for learners,
-course teams, and developers. For more information, see the relesae notes.
-<<add xref>>.
+course teams, and developers. For more information, see the 
+`openreleasenotes`_.
+
+=======================
+User Retirement Feature
+=======================
+
+The Hawthorn release also includes the new user retirement feature, which is a 
+set of APIs and tooling that enables Open edX instances to retire registered 
+users. There have been many changes to privacy laws (for example, GDPR or the 
+European Union General Data Protection Regulation) intended to change the way 
+that businesses think about and handle Personally Identifiable Information 
+(PII) data. The user retirement feature is a step toward enabling Open edX to 
+support some of the key updates in privacy laws. For more information, see 
+`retirement`_.
 
 ******************************
 What Is the Hawthorn Git Tag?
 ******************************
 
 A git tag identifies the version of Open edX code that is the Hawthorn release.
-You can find the most up-to-date git tag for the current Open edX release on
+About two dozen repositories are tagged as part of an Open edX release. Many 
+other repositories are installed as dependencies of those repositories. You can 
+find the most up-to-date git tag for the current Open edX release on
 the `Open edX Releases Wiki page`_.
-
-The following Open edX git repositories have the Hawthorn git tag:
-
-* edx-platform
-* configuration
-* course_discovery
-* cs_comments_service
-* xqueue
-* ecommerce
-* ecommerce-worker
-* edx-analytics-configuration
-* edx-analytics-dashboard
-* edx-analytics-data-api
-* edx-analytics-pipeline
-* edx-certificates
-* edx-custom-a11y-rules
-* edx-demo-course
-* edx-documentation
-* edx-notes-api
-* edx-ui-toolkit
-* notifier
-* ux-pattern-library
 
 *******************************
 Installing the Hawthorn Release
 *******************************
 
-You can install the Open edX Hawthorn release using :ref:`Devstack <Installing
-the Open edX Developer stack>`.
+You can install the Open edX Hawthorn release using either 
+:ref:`Devstack <Installing the Open edX Developer stack>` or the the `Open edX 
+Native Installation`_ instructions.
 
 Hawthorn releases have git tag names like ``open-release/hawthorn.1``.
 The available names are detailed on the `Open edX Releases Wiki page`_.
@@ -71,11 +65,9 @@ Hawthorn release on a new machine, and move your data and settings to it.
 To move and upgrade your Ginkgo data onto a Hawthorn installation, follow these
 steps.
 
->>>> IS THIS TRUE?
-
-#. Be sure that your Ginkgo installation is on Ginkgo.2.  The Ginkgo.2 release
-   provided required database migrations beyond what was in Ginkgo.2.  The only
-   version of Ginkgo that will upgrade to Hawthorn successfully is Ginkgo.2.
+#. Be sure that your Ginkgo installation is on the latest 
+   ``open-release/ginkgo.master``. This ensures that your database is fully 
+   migrated and ready for upgrade to Hawthorn.
 
 #. Stop all services on the Ginkgo machine.
 
@@ -131,7 +123,7 @@ steps.
         edxapp@xyz:~$ cd edx-platform/
         edxapp@xyz:~/edx-platform$ python manage.py lms drop_djcelery_tables --settings=aws
 
-#. Run the Hawthorn migration script, which will update your Ginkgo data to be
+#. Run the Hawthorn migrations, which will update your Ginkgo data to be
    valid for Ginkgo:
 
     .. code-block:: bash
@@ -143,31 +135,9 @@ steps.
 
 #. Restart all services.
 
-.. _oscar_hawthorn:
+.. _django_hawthorn:
 
-=========================
-Upgrading Django Oscar
-=========================
-
->> ANYTHING ABOUT DJANGO 1.11? The following is leftover from Ginkgo and prob. no longer applies
-
-The Hawthorn release of Open edX upgrades Django Oscar to version 1.5. If you
-have an existing installation of Open edX with the E-Commerce service, and your
-``orders`` table is larger than a million rows, there is an additional step to
-upgrade your Django Oscar installation.
-
-The migration includes a change to the ``guest_email`` column in the ``orders``
-table. This change is applied automatically.  If your ``orders`` table is
-larger than a million rows, this migration may lock the table for an extended
-amount of time. The E-Commerce service does not normally use the
-``guest_email`` column. If your installation does not use this column, you can
-avoid the table lock by using the ``--fake`` argument in migrating the
-``orders`` table, running the ``migrate`` command in the following form.
-
-.. code-block:: bash
-
-   ./manage.py migrate orders 0013 --fake
-
+>> ANYTHING ABOUT DJANGO 1.11?
 
 ******************************************
 Upgrading to a Subsequent Hawthorn Release

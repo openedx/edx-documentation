@@ -39,6 +39,9 @@ Devstack and Analytics Devstack require the following software.
 * `Docker`_ 17.06 CE or later. We recommend Docker Stable, but Docker Edge
   should work as well.
 
+You must have ``docker-compose`` in your path. On macOS, installing Docker for 
+Mac takes care of this requirement.
+
 =======================================
 Allocate Sufficient Resources to Docker
 =======================================

@@ -33,12 +33,7 @@ To install Devstack, follow these steps.
    ``https://github.com/edx/devstack``, selecting the branch that you want to
    work with.
 
-#. Create a ``devstack`` directory and navigate to it in the command prompt.
-
-   .. code-block:: bash
-
-     mkdir devstack
-     cd devstack
+#. Navigate to the ``devstack`` directory
 
 #. Create a Python virtual environment. For information about how to do this,
    see `Virtual Environments`_.
@@ -64,8 +59,8 @@ To install Devstack, follow these steps.
    To customize where the local repositories are found, set the
    ``DEVSTACK_WORKSPACE`` environment variable.
 
-#. Share the cloned service directories in Docker, using **Docker ->
-   Preferences -> File Sharing** in the Docker menu.
+#. (macOS only) Share the cloned service directories in Docker, using 
+   **Docker -> Preferences -> File Sharing** in the Docker menu.
 
 #. Run the provision command to configure the various services with superusers
    (for development without the auth service) and tenants (for multi-tenancy).
@@ -80,13 +75,6 @@ To install Devstack, follow these steps.
      
      make dev.provision
 
-   As an alternative, use the following command to provision using 
-   :ref:`Docker Sync`.
-
-    .. code-block:: bash
-     
-     make dev.sync.provision
-
 The default username and password for the superusers are both ``edx``. You can
 access the services directly using Django admin at the ``/admin/`` path, or
 log in using single sign-on at ``/login/``.
@@ -94,7 +82,7 @@ log in using single sign-on at ``/login/``.
 When you have completed these steps, see :ref:`Starting the Open edX Developer
 Stack` to begin using Devstack.
 
-For help with the Devstack installation, see :ref:`Troubleshooting Devstack`.
+For help with running Devstack, see :ref:`Troubleshooting Devstack`.
 
 .. _Updating Devstack:
 
@@ -113,23 +101,26 @@ following sequence of commands.
     make pull
     make dev.up
 
-This stops any running Devstack containers, pulls the latest images, and then starts all of the Devstack containers.
+This stops any running Devstack containers, pulls the latest images, and then 
+starts all of the Devstack containers.
 
 ======================================
-Set Up Ability to Preview Course Units
+Running Images for an Open edX Release
 ======================================
 
-If you are installing an Open edX virtual machine on a Linux or Mac computer,
-you must configure your installation to use the preview feature in Open edX
-Studio.
+To run an image of an Open edX release other than the latest, follow these 
+steps.
 
-#. :ref:`Connect to the devstack virtual machine<Connect to Devstack VM>`.
+#. Set the ``OPENEDX_RELEASE`` environment variable to the appropriate tag 
+   for the image tag that you want to run, such as ``hawthorn.master``
+   or ``zebrawood.rc1``. Note that unlike a server install, the value of the 
+   ``OPENEDX_RELEASE`` variable should not use the ``open-release/`` prefix.
 
-#. In the ``/etc/hosts`` file, add the following line.
+#. Run ``make dev.checkout`` to check out the correct branch in the local 
+   checkout of each service repository.
 
-  .. code-block:: bash
-
-    192.168.33.10 preview.localhost
+#. Run ``make pull`` to get the correct images that correspond to the 
+   ``OPENEDX_RELEASE`` variable that you set.
 
 
 .. include:: ../../../links/links.rst
