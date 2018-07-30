@@ -4,23 +4,18 @@
 Installation Prerequisites
 ######################################################
 
-To use devstack, fullstack, or analytics devstack, you must meet the
+To use Devstack or Analytics Devstack successfully, you must meet the
 following knowledge and software requirements.
 
 **************************
 Knowledge Prerequisites
 **************************
 
-Devstack, fullstack, and analytics devstack require an understanding of the
+Devstack and Analytics Devstack require an understanding of the
 following items.
 
 * Basic terminal usage. If you are using a Mac computer, see
-  `Introduction to the Mac OS X Command Line`_. If you are using a Windows
-  computer, see `Windows Command Line Reference`_.
-
-* Vagrant commands. See the `Vagrant Getting Started`_ guide for
-  more information.
-
+  `Introduction to the Mac OS X Command Line`_.
 * Diagnosing and fixing failures may involve many different technologies and
   skills. It will help to know these things.
 
@@ -32,21 +27,38 @@ following items.
   - The basics of configuration management and automation.  We use `Ansible`_
     to automate the installation process.
 
-
 .. _Software Prerequisites:
 
-**************************
+************************
 Software Prerequisites
-**************************
+************************
 
-Devstack, fullstack, and analytics devstack require the following software.
+Devstack and Analytics Devstack require the following software.
 
-* `VirtualBox`_ 4.3.12 or later.
+* `make`_
+* `Docker`_ 17.06 CE or later. We recommend Docker Stable, but Docker Edge
+  should work as well.
 
-* `Vagrant`_ 1.6.5 or later.
+You must have ``docker-compose`` in your path. On macOS, installing Docker for 
+Mac takes care of this requirement.
 
-* An NFS (network file system) client, if your operating system does not
-  include one. NFS allows devstack and fullstack virtual machines to share a
-  common file system with host computers.
+=======================================
+Allocate Sufficient Resources to Docker
+=======================================
+
+Since a Docker-based Devstack runs many containers, you should configure Docker with a sufficient amount of resources. We find that configuring Docker for Mac with a minimum of 2 CPUs and 6GB of memory works well. For more information, see the `Docker documentation`_.
+
+======================
+Use overlay2 on Linux
+======================
+
+If you are using Linux, use the ``overlay2`` storage driver, kernel version
+4.0+ and *not* ``overlay``. To check which storage driver your
+``docker-daemon`` uses, run the following command.
+
+  .. code-block:: bash
+
+   docker info | grep -i 'storage driver'
+
 
 .. include:: ../../../links/links.rst
