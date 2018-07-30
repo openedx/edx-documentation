@@ -18,7 +18,6 @@ organization or project is currently running an earlier release, or your
 software requires a specific release, you may want to install an earlier
 release.
 
-
 .. toctree::
    :numbered:
    :maxdepth: 2
