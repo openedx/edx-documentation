@@ -49,9 +49,7 @@ Learners must satisfy the following criteria to pass a proctored exam.
 .. only:: Partners
 
   For more information about the way that learners experience proctored exams,
-  see :ref:`learners:SFD_ProctoredExams` in the *edX Learner’s Guide*.
+  see `Taking Timed and Proctored Exams` in the edX Help Center.
 
-.. only:: Open_edX
 
-..  For more information about the way that learners experience proctored exams,
-..  see :ref:`openlearners:SFD_ProctoredExams` in the *Open edX Learner’s Guide*.
+.. include:: ../../../../links/links.rst

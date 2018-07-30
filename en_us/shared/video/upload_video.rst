@@ -1,9 +1,15 @@
 To upload a video to a third party hosting site, follow the instructions for
 that site. Keep the following guidelines in mind.
 
+.. only:: Open_edX
+
+ * If you host your videos on `YouTube`_, you must follow all rules and
+   restrictions that are associated with YouTube.
+
 * The URL for the video that you upload on a third party hosting site must end
   in .mp4, .mpeg, .webm, or .ogg. The video player cannot support videos that
-  you upload on sites such as YouTube and Vimeo.
+  you upload on sites such as Vimeo, Dailymotion, or other sites that use their
+  own player.
 
   To help make sure all standard browsers can play your video, edX strongly
   recommends that you use .mp4 format.

@@ -574,3 +574,22 @@
 .. _retirement: https://user-retirement-guide.readthedocs.io/en/latest/index.html
 
 .. _openreleasenotes: http://edx.readthedocs.io/projects/open-edx-release-notes/en/latest/hawthorn.html
+
+.. _Taking Timed and Proctored Exams: https://support.edx.org/hc/en-us/sections/115004169247
+
+.. _Proctored exam rules and requirements: https://support.edx.org/hc/en-us/articles/360000218027
+
+.. _Technical problems during a proctored exam: https://support.edx.org/hc/en-us/articles/360000205167
+
+.. _XQueue: https://github.com/edx/xqueue
+
+.. _edX XQueue repository: https://github.com/edx/xqueue/blob/master/queue
+
+.. _GnuPG website: https://www.gnupg.org
+
+.. _xqueue_watcher: https://github.com/edx/xqueue-watcher
+
+.. _Stanford Online xqueue_pull_ref: https://github.com/Stanford-Online/xqueue_pull_ref
+
+.. _Mozilla Firefox: https://www.mozilla.org/en-US/firefox/new/
+

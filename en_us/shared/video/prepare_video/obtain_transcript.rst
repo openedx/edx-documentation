@@ -45,7 +45,9 @@ Obtaining a Video Transcript
 
   .. note::
     For courses on edx.org, transcripts must be in the SubRip Text (.srt)
-    format.
+    format. We strongly recommend that you format your .srt files as plain text
+    with no encoding. Encodings such as ``UTF-8`` and ``ANSI - Western Roman``
+    can cause errors.
 
     For courses on Edge, we strongly recommend that your timed transcripts use
     the .srt format.

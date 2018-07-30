@@ -4,11 +4,18 @@
 Managing Divided Discussion Topics
 ###################################
 
-This section provides information about managing :ref:`discussions<Discussions>`
-that are divided based on one type of group in your course, either
-:ref:`cohorts<Cohort>` or :ref:`enrollment tracks<enrollment_track_g>`.
+This section provides information about managing
+:ref:`discussions<Discussions>` that are divided based on one type of group in
+your course, either :ref:`cohorts<Cohort>` or
+:ref:`enrollment tracks<enrollment_track_g>`.
 
-For information about divided discussions, see :ref:`About Divided Discussions`.
+For more information about divided discussions, see :ref:`About Divided
+Discussions`.
+
+.. note::
+  You must set up divided discussions before your course starts. You cannot
+  divide discussions after the course start date. For more information, see
+  :ref:`Setting Up Divided Discussions`.
 
 .. contents::
   :local:
@@ -97,13 +104,15 @@ contribute to it, or only the members of a group in the course. Examples
 follow.
 
 .. image:: ../../../shared/images/post_visible_all.png
- :alt: A discussion topic post with the indicator "This post is visible to everyone".
+ :alt: A discussion topic post with the indicator "This post is visible to
+     everyone".
  :width: 600
 
 .. extra line
 
 .. image:: ../../../shared/images/post_visible_group.png
- :alt: A discussion topic post with the indicator "This post is visible to Alumni".
+ :alt: A discussion topic post with the indicator "This post is visible to
+     Alumni".
  :width: 600
 
 You see this identifier after you add your post. All of the responses and
@@ -229,8 +238,8 @@ members of a particular group, select the name of that group.
      specific group by name.
 
 Note that both of these lists include posts that are visible to everyone. When
-you filter the list by a specific group, you see the same, complete set of posts
-that the members of that group see.
+you filter the list by a specific group, you see the same, complete set of
+posts that the members of that group see.
 
 For other options that you can use to view posts, see
 :ref:`Moderating_discussions`.

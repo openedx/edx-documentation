@@ -25,3 +25,10 @@ follow these steps.
 
    You can abbreviate the full name of the course or program. However, the
    information that you enter should clearly identify your course or program.
+
+.. note::
+  If problems occur when you try to upload the About video by using Veda, try
+  to upload the About video in a different browser, such as `Mozilla Firefox`_
+  or `Safari`_.
+
+.. include:: ../../../../links/links.rst
