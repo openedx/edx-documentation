@@ -158,7 +158,9 @@ intersphinx_mapping = {
     'opendataapi' : ('http://edx.readthedocs.io/projects/edx-data-analytics-api/en/latest/', None),
     'openreleasenotes' : ('http://edx.readthedocs.io/projects/open-edx-release-notes/en/latest/', None),
     'partnerreleasenotes': ('http://edx.readthedocs.io/projects/edx-release-notes/en/latest/', None),
-    '2014releasenotes' : ('http://edx.readthedocs.io/projects/edx-2013-2014-release-notes/en/latest/', None)
+    '2014releasenotes' : ('http://edx.readthedocs.io/projects/edx-2013-2014-release-notes/en/latest/', None),
+    'retirement' : ('http://user-retirement-guide.readthedocs.io/en/latest/', None)
+
 }
 
 extlinks = {

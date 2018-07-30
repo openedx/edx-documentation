@@ -275,6 +275,12 @@
 
 .. _AWS Documentation: http://aws.amazon.com/documentation/
 
+.. _Docker: https://www.docker.com/community-edition
+
+.. _Docker documentation: https://docs.docker.com/
+
+.. _Docker for Windows: https://docs.docker.com/docker-for-windows/
+
 .. _Elastic MapReduce: http://aws.amazon.com/elasticmapreduce/
 
 .. _default EC2 role for Amazon EMR: http://docs.aws.amazon.com/ElasticMapReduce/latest/DeveloperGuide/emr-iam-roles-defaultroles.html#emr-iam-roles-defaultec2
@@ -305,6 +311,7 @@
 
 .. _LON-CAPA XML format: https://s1.lite.msu.edu/adm/help/Authoring_XML_Intro.hlp#Authoring_XML_Intro
 
+.. _make: https://www.gnu.org/software/make/
 
 .. _Sphinx: http://sphinx-doc.org/
 
@@ -317,7 +324,6 @@
 .. _Vagrant's documentation on boxes: http://docs.vagrantup.com/v2/boxes.html
 
 .. _RabbitMQ: http://www.rabbitmq.com/
-
 
 .. _Download Python: https://www.python.org/download/releases/2.7/
 
@@ -562,6 +568,12 @@
 .. _Proctoring Software System Requirements: http://clientportal.softwaresecure.com/support/index.php?/Knowledgebase/Article/View/252/0/system-requirements-remote-proctor-now
 
 .. _edX Automated Communication Engine: http://edx-ace.readthedocs.io/en/latest
+
+.. _JIRA Platform project: https://openedx.atlassian.net/projects/PLAT/issues
+
+.. _retirement: https://user-retirement-guide.readthedocs.io/en/latest/index.html
+
+.. _openreleasenotes: http://edx.readthedocs.io/projects/open-edx-release-notes/en/latest/hawthorn.html
 
 .. _Taking Timed and Proctored Exams: https://support.edx.org/hc/en-us/sections/115004169247
 
