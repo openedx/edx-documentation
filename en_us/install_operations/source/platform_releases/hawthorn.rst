@@ -16,7 +16,7 @@ What's Included in Hawthorn
 
 The Open edX Hawthorn release contains several new features for learners,
 course teams, and developers. For more information, see the 
-`openreleasenotes`_.
+`Open edX Release Notes`_.
 
 =======================
 User Retirement Feature

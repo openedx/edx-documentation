@@ -573,7 +573,9 @@
 
 .. _retirement: https://user-retirement-guide.readthedocs.io/en/latest/index.html
 
-.. _openreleasenotes: http://edx.readthedocs.io/projects/open-edx-release-notes/en/latest/hawthorn.html
+.. _User Retirement: https://user-retirement-guide.readthedocs.io/en/latest/index.html
+
+.. _Open edX Release Notes: http://edx.readthedocs.io/projects/open-edx-release-notes/en/latest/hawthorn.html
 
 .. _Taking Timed and Proctored Exams: https://support.edx.org/hc/en-us/sections/115004169247
 

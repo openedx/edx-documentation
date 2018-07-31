@@ -15,7 +15,7 @@ retire registered users. When you implement this user retirement feature, your
 Open edX instance can automatically erase PII for a given user from systems that
 are internal to Open edX (for example, the LMS, forums, credentials, and other
 independently deployable applications (IDAs)), as well as external systems, such
-as third party marketing services. For more information, see `retirement`_.
+as third party marketing services. For more information, see `User Retirement`_.
 
 .. include:: ../../../links/links.rst
 
