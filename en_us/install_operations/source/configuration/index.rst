@@ -31,6 +31,7 @@ configuration options.
    enable_socialsharing_icons
    tpa/index
    enable_timed_exams
+   user_retirement
    youtube_api
    install_xblock
    static_replace/cdn
