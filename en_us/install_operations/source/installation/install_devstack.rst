@@ -79,7 +79,7 @@ The default username and password for the superusers are both ``edx``. You can
 access the services directly using Django admin at the ``/admin/`` path, or
 log in using single sign-on at ``/login/``.
 
-When you have completed these steps, see :ref:`Starting the Open edX Developer
+When you have completed these steps, see :ref:`Starting Devstack`.
 Stack` to begin using Devstack.
 
 For help with running Devstack, see :ref:`Troubleshooting Devstack`.

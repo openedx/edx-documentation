@@ -4,7 +4,8 @@
 Open edX Ficus Release
 ######################
 
-This section describes how to install the Open edX Ficus release.
+This section describes the Open edX Ficus release. Note that edX no longer 
+supports the Ficus relesae. 
 
 .. contents::
  :local:
@@ -47,25 +48,6 @@ The following Open edX git repositories have the Ficus git tag:
 * notifier
 * programs
 * ux-pattern-library
-
-****************************
-Installing the Ficus Release
-****************************
-
-You can install the Open edX Ficus release using :ref:`Devstack <Installing
-the Open edX Developer stack>` or :ref:`Fullstack <Installing Open edX Fullstack>`.
-
-Review the prerequisites and instructions for each option, and then choose the
-option that best meets your needs. Ensure that you install the
-required software to run the Open edX platform.
-
-Ficus releases have git tag names like ``open-release/ficus.1``.
-The available names are detailed on the `Open edX Releases Wiki page`_.
-
-Previous releases ran on Ubuntu 12.04, but Ficus runs on 16.04.  Because of the
-change in operating system, edX is not providing an upgrade path.  If you have
-an existing Eucalyptus installation, you must install Ficus on a new
-machine, and move your data and settings to it.
 
 
 ***************************************
