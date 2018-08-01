@@ -4,7 +4,7 @@
 Open edX Hawthorn Release
 #########################
 
-This page lists the highlights of the Hawthorn release.
+This page lists the highlights of the Hawthorn release of the Open edX platform.
 
 The `edX Release Notes`_ contain a summary of changes that are deployed to
 edx.org. Those changes are part of the master branch of the edX Platform in
@@ -18,9 +18,9 @@ of Open edX. Changes after that point will be in future Open edX releases.
  :depth: 1
  :local:
 
-************
-New Features
-************
+*************************
+New and Improved Features
+*************************
 
 The Open edX Hawthorn release includes the following updates.
 
@@ -29,36 +29,64 @@ The Open edX Hawthorn release includes the following updates.
  :local:
 
 
-===
-LMS
-===
+========================
+LMS and Learner Features
+========================
 
-*  TK
+* We’ve enhanced the learner profiles so that they now include the date a
+  learner joined the platform and any course credentials they have received.
+  This links to social media accounts and helps learners share information with
+  one another. 
+* Learners now have the ability to purchase all the courses in a
+  program in just one transaction. This avoids the hassle of having to enter
+  payment information multiple times.
+* New discussion notifications now send an email message the first time a 
+  learner's post receives a comment. The message contains the comment and a 
+  link back to the course discussions for easy access. Inline discussions are 
+  expanded by default. This change has led to a threefold increase in 
+  discussion participation on edx.org.​
 
 
 ===============================
 Studio and Course Author Tools
 ===============================
 
-*  TK
+* Course teams now have the ability to override learner scores for individual 
+  problems. This can be done through a setting on both the instructor dashboard 
+  and the Staff Debug viewer.
+* Course Reviews can now be viewed and added by learners from within the course 
+  experience. Open edX system administrators can configure a reviews provider 
+  such as CourseTalk to allows learners to leave reviews for a particular course.
+* Proctored exams have been improved, enabling course teams to add specific exam 
+  instructions in the Studio proctored exam settings.
+* The Files & Uploads page has been updated to significantly simplify the 
+  experience of adding all types of files to a course. This includes the 
+  ability to search and a Hide File Preview option.
+* The ORA problem editor has been improved. A new interface offers the same 
+  formatting options for the prompt that are available for HTML components. 
+  You no longer have to create a separate HTML component above the ORA 
+  assignment.
+* Weekly course highlight messages can now be sent to encourage learners to 
+  remain engaged with self-paced courses. Specify a few highlights for each 
+  course section, and the platform sends out a weekly email message that lists 
+  these highlights. Courses on edx.org that enabled weekly highlights had 
+  higher verification rates than ones without.
+* The HTML components have been updated to give you even more easy formatting 
+  options such as aligning your text the way you want: aligned to the left or 
+  right, centered, or fully justified. Images to HTML components can be added 
+  right inside the HTML component itself, without having to upload files 
+  beforehand.
+* The Video Uploads page is enabled by default. For course teams who partner 
+  with 3Play Media and cielo24, transcripts-—including translations of 
+  transcripts-—are added to Studio automatically.​
 
-=======================
-Insights and Analytics
-=======================
-
-*  TK
-
-*****************
-Service Upgrades
-*****************
-
-TK
 
 *******************************
 System Upgrades and Updates
 *******************************
 
 The Hawthorn release makes version updates to a number of system components.
+>> THIS IS A CUT AND PASTE FROM GINKGO
 
 
 .. list-table::
