@@ -81,11 +81,10 @@ namenode, run this command.
    
    make namenode-logs
 
-For additional information, see :ref:`Starting the Open edX Developer
-Stack`.
+For additional information, see :ref:`Starting Devstack`.
 
-For help with the Analytics Devstack installation, see
-:ref:`troubleshooting_devstack_installation`.
+For help with running the Analytics Devstack, see
+:ref:`Troubleshooting Devstack`.
 
 
 .. include:: ../../../links/links.rst

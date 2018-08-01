@@ -4,7 +4,8 @@
 Open edX Eucalyptus Release
 ########################################
 
-This section describes how to install the Open edX Eucalyptus release.
+This section describes the Open edX Eucalyptus release. Note that edX no longer 
+supports the Eucalyptus relesae. 
 
 .. contents::
  :local:
@@ -42,23 +43,6 @@ The following Open edX Git repositories have the Eucalyptus Git tag.
 * edx-analytics-dashboard
 * edx-analytics-data-api
 * edx-analytics-pipeline
-
-*********************************
-Installing the Eucalyptus Release
-*********************************
-
-You can install the Open edX Eucalyptus release using :ref:`Devstack <Installing
-the Open edX Developer stack>` or :ref:`Fullstack <Installing Open edX Fullstack>`.
-
-Review the prerequisites and instructions for each option, and then choose the
-option that best meets your needs. Ensure that you install the
-required software to run the Open edX platform.
-
-If you are upgrading from the Dogwood release, see `Upgrading from Dogwood to
-Eucalyptus`_.
-
-Eucalyptus releases have Git tag names like ``open-release/eucalyptus.1``.
-The available names are detailed on the `Open edX Releases Wiki page`_.
 
 
 ************************************
@@ -124,8 +108,8 @@ The steps to upgrade differ based on your original installation method.
 Upgrading a Vagrant Installation
 ================================
 
-Devstack and Fullstack are installed using Vagrant.  To upgrade to a Eucalyptus
-point release, follow these steps in the host operating system.
+Devstack and Fullstack for Eucalyptus are installed using Vagrant.  To upgrade 
+to a Eucalyptus point release, follow these steps in the host operating system.
 
 .. code-block:: bash
 

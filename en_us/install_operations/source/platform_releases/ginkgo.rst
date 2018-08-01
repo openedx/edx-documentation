@@ -4,7 +4,7 @@
 Open edX Ginkgo Release
 ########################
 
-This section describes how to install the Open edX Ginkgo release.
+This section describes the Open edX Ginkgo release.
 
 .. contents::
  :local:
@@ -47,22 +47,6 @@ The following Open edX git repositories have the Ginkgo git tag:
 * edx-ui-toolkit
 * notifier
 * ux-pattern-library
-
-******************************
-Installing the Ginkgo Release
-******************************
-
-You can install the Open edX Ginkgo release using :ref:`Devstack <Installing
-the Open edX Developer stack>` or :ref:`Fullstack <Installing Open edX Fullstack>`.
-
-Review the prerequisites and instructions for each option, and then choose the
-option that best meets your needs. Ensure that you install the
-required software to run the Open edX platform.
-
-Ginkgo releases have git tag names like ``open-release/ginkgo.1``.
-The available names are detailed on the `Open edX Releases Wiki page`_.
-
-.. _upgrade_ficus:
 
 **********************************
 Upgrading from the Ficus Release
