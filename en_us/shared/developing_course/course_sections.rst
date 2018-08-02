@@ -240,11 +240,13 @@ Set Section Highlights for Weekly Highlight Emails
     learners receive a message on day 14 that contains the highlights for
     section 3.
 
-  * Learners who enroll in the course before you enter highlights do not
-    receive any course highlight messages for the duration of the course. To
-    make sure that all of your learners receive weekly course highlight
-    messages, enter highlights for each section before any learners enroll in
-    your course.
+  * Learners who enroll in the course before you :ref:`enable highlights
+    <Enable Weekly Course Highlight Messages>` do not receive any course
+    highlight messages for the duration of the course. To make sure that all
+    of your learners receive weekly course highlight messages, :ref:`enable
+    highlights<Enable Weekly Course Highlight Messages>` for each section
+    before any learners enroll in your course.
+
   * If you update a highlight for a section, the change takes effect
     immediately for all subsequent messages that contain that highlight.
 
@@ -333,25 +335,22 @@ Enable Weekly Highlight Emails
 
 .. only:: Partners
 
-  .. note::
-   If you do not enable highlights, the edX platform does not send weekly
-   course highlight emails, even if you enter highlights for one or more
-   sections.
-
-After you have set and reviewed the highlights for each course section, and are
-ready to start sending highlights for the course, you enable weekly highlight
-emails.
+After you have set and reviewed the highlights for each course section, you enable weekly highlight emails.
 
 To enable weekly highlight emails, follow these steps.
-
-.. note::
-  You cannot disable weekly highlight emails after you enable them. If you do
-  not want to send weekly highlight emails after you enable them, you can
-  delete highlights in all sections.
 
 #. On the **Course Outline** page, locate the **Weekly Highlight
    Emails** setting, and then select **Enable Now**.
 #. In the dialog box that opens, select **Enable**.
+
+.. note::
+   If you do not enable highlights, the edX platform does not send weekly
+   course highlight emails, even if you enter highlights for one or more
+   sections.
+
+   You cannot disable weekly highlight emails after you enable them. If you do
+   not want to send weekly highlight emails after you enable them, you can
+   delete highlights in all sections.
 
 .. _Publish all Units in a Section:
 
