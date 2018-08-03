@@ -29,17 +29,38 @@ Install Devstack
 
 To install Devstack, follow these steps.
 
-#. Check out a local copy of the ``edx/devstack`` repository from
-   ``https://github.com/edx/devstack``, selecting the branch that you want to
-   work with.
+#. Decide which branch you will be working with.  "master" is the latest code
+   in the repositories, changed daily.  Open edX releases are more stable,
+   for example, Hawthorn.
 
-#. Navigate to the ``devstack`` directory.
+#. Check out a local copy of the ``edx/devstack`` repository from
+   ``https://github.com/edx/devstack``.
+
+    .. code-block:: bash
+
+     git clone https://github.com/edx/devstack
+     cd devstack
+
+#. If you are not using the master branch, check out the branch you want.
+
+    .. code-block:: bash
+
+     git checkout open-release/hawthorn.master
+
+#. If you are not using the master branch, define an environment variable for
+   the Open edX version you are using, such as ``hawthorn.master`` or
+   ``zebrawood.rc1``. Note that unlike a server install, the value of the
+   ``OPENEDX_RELEASE`` variable should not use the ``open-release/`` prefix.
+
+    .. code-block:: bash
+
+     export OPENEDX_RELEASE=hawthorn.master
 
 #. Create a Python virtual environment. For information about how to do this,
    see `Virtual Environments`_.
 
 #. Install the requirements inside the Python virtual environment.
-   
+
     .. code-block:: bash
 
      make requirements
@@ -53,13 +74,13 @@ To install Devstack, follow these steps.
    following command.
 
     .. code-block:: bash
-    
+
      make dev.clone
 
    To customize where the local repositories are found, set the
    ``DEVSTACK_WORKSPACE`` environment variable.
 
-#. (macOS only) Share the cloned service directories in Docker, using 
+#. (macOS only) Share the cloned service directories in Docker, using
    **Docker -> Preferences -> File Sharing** in the Docker menu.
 
 #. Run the provision command to configure the various services with superusers
@@ -72,7 +93,7 @@ To install Devstack, follow these steps.
    Use the following default provision command.
 
     .. code-block:: bash
-     
+
      make dev.provision
 
 The default username and password for the superusers are both ``edx``. You can
@@ -95,31 +116,13 @@ use the most up-to-date versions of the Devstack images by running the
 following sequence of commands.
 
    .. code-block:: bash
-    
+
     make down
     make pull
     make dev.up
 
 This stops any running Devstack containers, pulls the latest images, and then 
 starts all of the Devstack containers.
-
-======================================
-Running Images for an Open edX Release
-======================================
-
-To run an image of an Open edX release other than the latest, follow these 
-steps.
-
-#. Set the ``OPENEDX_RELEASE`` environment variable to the appropriate tag 
-   for the image tag that you want to run, such as ``hawthorn.master``
-   or ``zebrawood.rc1``. Note that unlike a server install, the value of the 
-   ``OPENEDX_RELEASE`` variable should not use the ``open-release/`` prefix.
-
-#. Run ``make dev.checkout`` to check out the correct branch in the local 
-   checkout of each service repository.
-
-#. Run ``make pull`` to get the correct images that correspond to the 
-   ``OPENEDX_RELEASE`` variable that you set.
 
 
 .. include:: ../../../links/links.rst
