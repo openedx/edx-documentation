@@ -33,7 +33,7 @@ To install Devstack, follow these steps.
    ``https://github.com/edx/devstack``, selecting the branch that you want to
    work with.
 
-#. Navigate to the ``devstack`` directory
+#. Navigate to the ``devstack`` directory.
 
 #. Create a Python virtual environment. For information about how to do this,
    see `Virtual Environments`_.
@@ -80,7 +80,6 @@ access the services directly using Django admin at the ``/admin/`` path, or
 log in using single sign-on at ``/login/``.
 
 When you have completed these steps, see :ref:`Starting Devstack`.
-Stack` to begin using Devstack.
 
 For help with running Devstack, see :ref:`Troubleshooting Devstack`.
 
