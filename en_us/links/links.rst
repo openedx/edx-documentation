@@ -531,7 +531,7 @@
 
 .. _AWS template file: https://github.com/edx/edx-platform/blob/b3462e5b1c3cc45ad8673f3f12e84fa17ffa6b64/lms/envs/aws.py#L586-L596
 
-.. _random and highly secure password: https://github.com/edx/edx- platform/blob/46d69eba/common/djangoapps/third_party_auth/pipeline.py#L392-L410
+.. _random and highly secure password: https://github.com/edx/edx-platform/blob/46d69eba/common/djangoapps/third_party_auth/pipeline.py#L392-L410
 
 .. _OAuth backends supported by python-social-auth v0.2.12: http://python-social-auth.readthedocs.io/en/latest/backends/index.html#social-backends
 
@@ -576,6 +576,8 @@
 .. _User Retirement: https://user-retirement-guide.readthedocs.io/en/latest/index.html
 
 .. _Open edX Release Notes: http://edx.readthedocs.io/projects/open-edx-release-notes/en/latest/hawthorn.html
+
+.. _Password Policy: https://github.com/edx/edx-platform/wiki/Optional-Password-Policy-Enforcement
 
 .. _Taking Timed and Proctored Exams: https://support.edx.org/hc/en-us/sections/115004169247
 

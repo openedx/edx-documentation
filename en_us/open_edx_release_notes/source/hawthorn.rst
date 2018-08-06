@@ -86,8 +86,6 @@ System Upgrades and Updates
 *******************************
 
 The Hawthorn release makes version updates to a number of system components.
->> THIS IS A CUT AND PASTE FROM GINKGO
-
 
 .. list-table::
    :widths: 60 40
@@ -95,20 +93,18 @@ The Hawthorn release makes version updates to a number of system components.
 
    * - System
      - Upgraded Version
-   * - Catalog Service
+   * - edxapp
      - Django 1.11.x
-   * - Credentials Service
-     - Django 1.11.x
-   * - Django Waffle
-     - 0.12.0
-   * - E-Commerce Service
-     - Django 1.10.x
+   * - Mongo
+     - Mongo 3.2
    * - Search
      - ElasticSearch 1.5
    * - Node
-     - Node 6.9
+     - Node 8
    * - xblock-lti-consumer
      - 1.1.5
+   * - Queueing
+     - Redis replaces Rabbit
 
 
 ***********************
@@ -117,7 +113,15 @@ Deprecated Features
 
 Several features are deprecated or deleted in the Open edX Hawthorn release.
 
-* TK
+* The waffle flag ``unified_course_view``, which can be used for the new view
+  of the course outline on a separate page, was deprecated in Ginkgo.  The old
+  sidebar navigation and this waffle flag will be fully removed in the next
+  release. We recommend switching this flag to ``True``, so that you will not
+  experience any change with the next release.
+* ``django-simple-history`` has been deprecated and removed.
+* The ``LogoutViewConfiguration`` model has been removed. Single logout is now 
+  permanently enabled. This meants that logging out of the LMS or an IDA logs 
+  you out of all systems.
 
 
 .. include:: links.rst
