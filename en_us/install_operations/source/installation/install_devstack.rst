@@ -61,21 +61,12 @@ To install Devstack, follow these steps.
 
      export OPENEDX_RELEASE=hawthorn.master
 
-#. Create a Python virtual environment. For information about how to do this,
-   see `Virtual Environments`_.
-
 #. Run ``make dev.checkout`` to check out the correct branch in the local
    checkout of each service repository.
 
     .. code-block:: bash
 
      make dev.checkout
-
-#. Install the requirements inside the Python virtual environment.
-
-    .. code-block:: bash
-
-     make requirements
 
 #. Clone the Open edX service repositories. The Docker Compose file
    mounts a host volume for each service's executing code. The host directory
