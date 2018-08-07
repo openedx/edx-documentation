@@ -39,6 +39,11 @@ To install Devstack, follow these steps.
     .. code-block:: bash
 
      git clone https://github.com/edx/devstack
+
+#. Navigate to the ``devstack`` directory
+
+    .. code-block:: bash
+
      cd devstack
 
 #. If you are not using the master branch, check out the branch you want.
@@ -58,6 +63,13 @@ To install Devstack, follow these steps.
 
 #. Create a Python virtual environment. For information about how to do this,
    see `Virtual Environments`_.
+
+#. Run ``make dev.checkout`` to check out the correct branch in the local
+   checkout of each service repository.
+
+    .. code-block:: bash
+
+     make dev.checkout
 
 #. Install the requirements inside the Python virtual environment.
 
