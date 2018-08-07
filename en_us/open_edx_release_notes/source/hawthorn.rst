@@ -35,8 +35,8 @@ LMS and Learner Features
 
 * We’ve enhanced the learner profiles so that they now include the date a
   learner joined the platform and any course credentials they have received.
-  This links to social media accounts and helps learners share information with
-  one another. 
+  Learner profiles link to social media accounts and help learners share 
+  information with one another. 
 * Learners now have the ability to purchase all the courses in a
   program in just one transaction. This avoids the hassle of having to enter
   payment information multiple times.
@@ -55,8 +55,8 @@ Studio and Course Author Tools
   problems. This can be done through a setting on both the instructor dashboard 
   and the Staff Debug viewer.
 * Course Reviews can now be viewed and added by learners from within the course 
-  experience. Open edX system administrators can configure a reviews provider 
-  such as CourseTalk to allows learners to leave reviews for a particular course.
+  experience. Open edX system administrators can configure a reviews provider, 
+  such as CourseTalk, to allows learners to leave reviews for a particular course.
 * Proctored exams have been improved, enabling course teams to add specific exam 
   instructions in the Studio proctored exam settings.
 * The Files & Uploads page has been updated to significantly simplify the 
@@ -73,7 +73,7 @@ Studio and Course Author Tools
   higher verification rates than ones without.
 * The HTML components have been updated to give you even more easy formatting 
   options such as aligning your text the way you want: aligned to the left or 
-  right, centered, or fully justified. Images to HTML components can be added 
+  right, centered, or fully justified. Images in HTML components can be added 
   right inside the HTML component itself, without having to upload files 
   beforehand.
 * The Video Uploads page is enabled by default. For course teams who partner 
