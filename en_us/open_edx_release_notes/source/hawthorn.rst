@@ -77,8 +77,10 @@ Studio and Course Author Tools
   right inside the HTML component itself, without having to upload files 
   beforehand.
 * The Video Uploads page is enabled by default. For course teams who partner 
-  with 3Play Media and cielo24, transcripts-—including translations of 
-  transcripts-—are added to Studio automatically.​
+  with 3Play Media and cielo24, transcripts (including translations of 
+  transcripts) are added to Studio automatically.​
+* You can establish a password policy to require a minimum strength and 
+  complexity for passwords. For more information, see `Password Policy`_
 
 
 *******************************
