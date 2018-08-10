@@ -17,12 +17,12 @@ from systems that are internal to Open edX (for example, the LMS, forums,
 credentials, and other independently deployable applications (IDAs)), as well
 as external systems, such as third party marketing services.
 
-This guide is not only intended for instructing Open edX admins to perform
+This section is intended not only for instructing Open edX admins to perform
 the basic setup, but also to offer some insight into the implementation of the
 user retirement feature in order to help the Open edX community build
 additional APIs and states that meet their special needs. Custom code,
 plugins, packages, or XBlocks in your Open edX instance might store PII, but
-this tooling will not magically find and clean up that PII.
+this feature will not magically find and clean up that PII. 
 
 .. toctree::
     :numbered:
