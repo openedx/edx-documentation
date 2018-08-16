@@ -19,8 +19,9 @@ case by case basis.
 Accommodate Learners with Disabilities
 **************************************
 
-You can make a special policy accommodation to the exam policy for a particular
-learner, such as allowing an additional person to help a blind learner.
+A learner may request and qualify for a disability accommodation to a
+proctored exam, such as an additional time allowance or an exam policy
+exception allowing a personal care assistant in the room.
 
 .. note::
   Make sure the learner who has requested special accommodations, including
@@ -49,8 +50,7 @@ To make a special policy accommodation for a learner, follow these steps.
 
 #. Add a description of the allowance, such as the following example.
 
-   ``Learner cannot see. Allow an additional person in the room to act as a
-   scribe.``
+   ``Learner has a disability. Allow one additional person in the room.``
 
 #. For **Username** or **Email**, enter the learner's information.
 
