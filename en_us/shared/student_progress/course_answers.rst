@@ -256,7 +256,12 @@ When you open the report, the value in the **State** column appears on a single
 line. This value is a record in JSON format. An example record for a text input
 CAPA problem follows.
 
-``{"correct_map": {"e58b639b86db44ca89652b30ea566830_2_1": {"hint": "", "hintmode": null, "correctness": "correct", "msg": "", "answervariable": null, "npoints": null, "queuestate": null}}, "input_state": {"e58b639b86db44ca89652b30ea566830_2_1": {}}, "last_submission_time": "2015-10-26T17:32:20Z", "attempts": 3, "seed": 1, "done": true, "student_answers": {"e58b639b86db44ca89652b30ea566830_2_1": "choice_2"}}``
+``{"correct_map": {"e58b639b86db44ca89652b30ea566830_2_1": {"hint": "",``
+``"hintmode": null, "correctness": "correct", "msg": "", "answervariable":``
+``null, "npoints": null, "queuestate": null}}, "input_state":``
+``{"e58b639b86db44ca89652b30ea566830_2_1": {}}, "last_submission_time":``
+``"2015-10-26T17:32:20Z", "attempts": 3, "seed": 1, "done": true,``
+``"student_answers": {"e58b639b86db44ca89652b30ea566830_2_1": "choice_2"}}``
 
 You can use a JSON "pretty print" tool or script to make the value in the
 **State** column more readable, as in the following example.
