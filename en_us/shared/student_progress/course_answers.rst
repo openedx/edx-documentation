@@ -252,6 +252,27 @@ problem or submitted an answer for the problem, identified by username. The
 **State** column reports the results of the server processing for each
 learner's most recently submitted answer.
 
+The .csv file contains the following columns.
+
+.. list-table::
+   :widths: 20 60
+   :header-rows: 1
+
+   * - Column
+     - Description
+   * - username
+     - The student's username.
+   * - title
+     - The display name or title of the problem or course component.
+   * - location
+     - The location of the problem or component in the course. For example,
+    **Introduction > Overview > Testing Your Knowledge** (section, subsection,
+    and unit).
+   * - block_key
+     - The ID or key of the XBlock.
+   * - state
+     - The detailed JSON data with details on the student's submission (not human-readable).
+
 When you open the report, the value in the **State** column appears on a single
 line. This value is a record in JSON format. An example record for a text input
 CAPA problem follows.
