@@ -218,6 +218,12 @@ The Student State report lists the answers that every learner has submitted for
 one or more problems. You can download this report for just one problem, or for
 all of the problems in a course, section, subsection, or unit at one time.
 
+.. note::
+   The report is limited to 5000 responses. If you expect more than 5000
+   responses, try generating the report on a section, subsection, or unit
+   basis. Contact your site administrator if you want to increase your response
+   limit.
+
 To download the Student State report for one or more problems, follow these
 steps.
 
@@ -225,7 +231,7 @@ steps.
 
 #. On the **Instructor** tab, select **Data Download**.
 
-#. In the **Reports** section, locate and select **Select Problem**.
+#. In the **Reports** section, locate and select **Select a section or problem**.
 
 #. Use the arrow icons in the dropdown list to select the section, subsection,
    unit, or problem that you want. You can also select the entire course.
@@ -260,19 +266,19 @@ The .csv file contains the following columns.
 
      * - Column
        - Description
-     * - username
+     * - Username
        - The student's username.
-     * - title
+     * - Title
        - The display name or title of the problem or course component.
-     * - question
+     * - Question
        - The question(s) that were asked to the student.
-     * - answer
+     * - Answer
        - The student's answer(s), in human-readable text.
-     * - location
+     * - Location
        - The location of the problem or component in the course. For example,
          **Introduction > Overview > Testing Your Knowledge** (section,
          subsection, and unit).
-     * - state
+     * - State
        - The detailed JSON data with details in the student's submission (not
          human-readable).
 
@@ -284,22 +290,22 @@ The .csv file contains the following columns.
 
      * - Column
        - Description
-     * - username
+     * - Username
        - The student's username.
-     * - title
+     * - Title
        - The display name or title of the problem or course component.
-     * - question
+     * - Question
        - The question(s) that were asked to the student.
-     * - answer
+     * - Answer
        - The student's answer(s), in human-readable text.
-     * - location
+     * - Location
        - The location of the problem or component in the course. For example,
          **Introduction > Overview > Testing Your Knowledge** (section,
          subsection, and unit).
-     * - state
+     * - State
        - The detailed JSON data with details in the student's submission (not
          human-readable).
-     * - block_key
+     * - Block_key
        - The ID or key of the XBlock. Note that non-interactive XBlocks, such
          as HTML/text blocks, will not appear in the report.
 
