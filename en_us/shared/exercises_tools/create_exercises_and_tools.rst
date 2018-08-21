@@ -349,10 +349,6 @@ tools that you can add to your course.
      - LTI components allow you to add an external learning application or non-
        PDF textbook to Studio.
      - Full support
-   * - :ref:`Office Mix Tool`
-     - You can embed interactive lessons created from PowerPoint files so that
-       learners can experience them directly in the course body.
-     - Provisional support
    * - :ref:`Oppia Exploration Tool`
      - You can embed Oppia explorations in your course so that learners can
        interact with them directly in the course body.
