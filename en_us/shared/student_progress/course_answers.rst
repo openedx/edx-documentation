@@ -218,6 +218,12 @@ The Student State report lists the answers that every learner has submitted for
 one or more problems. You can download this report for just one problem, or for
 all of the problems in a course, section, subsection, or unit at one time.
 
+.. note::
+   The report is limited to 5000 responses. If you expect more than 5000
+   responses, try generating the report on a section, subsection, or unit
+   basis. Contact your site administrator if you want to increase your response
+   limit.
+
 To download the Student State report for one or more problems, follow these
 steps.
 
@@ -225,7 +231,7 @@ steps.
 
 #. On the **Instructor** tab, select **Data Download**.
 
-#. In the **Reports** section, locate and select **Select Problem**.
+#. In the **Reports** section, locate and select **Select a section or problem**.
 
 #. Use the arrow icons in the dropdown list to select the section, subsection,
    unit, or problem that you want. You can also select the entire course.
@@ -248,20 +254,71 @@ Interpret the Student State Report
 ============================================================
 
 The Student State report contains a row for each learner who has viewed a
-problem or submitted an answer for the problem, identified by username. The
-**State** column reports the results of the server processing for each
-learner's most recently submitted answer.
+problem or submitted an answer for a problem, identified by username.
 
-When you open the report, the value in the **State** column appears on a single
-line. This value is a record in JSON format. An example record for a text input
-CAPA problem follows.
+The .csv file contains the following columns.
 
-``{"correct_map": {"e58b639b86db44ca89652b30ea566830_2_1": {"hint": "",``
-``"hintmode": null, "correctness": "correct", "msg": "", "answervariable":``
-``null, "npoints": null, "queuestate": null}}, "input_state":``
-``{"e58b639b86db44ca89652b30ea566830_2_1": {}}, "last_submission_time":``
-``"2015-10-26T17:32:20Z", "attempts": 3, "seed": 1, "done": true,``
-``"student_answers": {"e58b639b86db44ca89652b30ea566830_2_1": "choice_2"}}``
+.. only:: Partners
+
+  .. list-table::
+     :widths: 20 60
+     :header-rows: 1
+
+     * - Column
+       - Description
+     * - Username
+       - The student's username.
+     * - Title
+       - The display name or title of the problem or course component.
+     * - Question
+       - The question(s) that were asked to the student.
+     * - Answer
+       - The student's answer(s), in human-readable text.
+     * - Location
+       - The location of the problem or component in the course. For example,
+         **Introduction > Overview > Testing Your Knowledge** (section,
+         subsection, and unit).
+     * - State
+       - The detailed JSON data with details in the student's submission (not
+         human-readable).
+
+.. only:: Open_edX
+
+  .. list-table::
+     :widths: 20 60
+     :header-rows: 1
+
+     * - Column
+       - Description
+     * - Username
+       - The student's username.
+     * - Title
+       - The display name or title of the problem or course component.
+     * - Question
+       - The question(s) that were asked to the student.
+     * - Answer
+       - The student's answer(s), in human-readable text.
+     * - Location
+       - The location of the problem or component in the course. For example,
+         **Introduction > Overview > Testing Your Knowledge** (section,
+         subsection, and unit).
+     * - State
+       - The detailed JSON data with details in the student's submission (not
+         human-readable).
+     * - Block_key
+       - The ID or key of the XBlock. Note that non-interactive XBlocks, such
+         as HTML/text blocks, will not appear in the report.
+
+The **State** column reports the results of the server processing for each
+learner's most recently submitted answer. When you open the report, the value
+in the **State** column appears on a single line. This value is a record in
+JSON format. An example record for a text input CAPA problem follows.
+
+``{"correct_map": {"e58b639b86db44ca89652b30ea566830_2_1": {"hint": "", "hintmode": null, "correctness": "correct", "msg": "", "answervariable":
+null, "npoints": null, "queuestate": null}}, "input_state":
+{"e58b639b86db44ca89652b30ea566830_2_1": {}}, "last_submission_time":
+2015-10-26T17:32:20Z", "attempts": 3, "seed": 1, "done": true,
+student_answers": {"e58b639b86db44ca89652b30ea566830_2_1": "choice_2"}}``
 
 You can use a JSON "pretty print" tool or script to make the value in the
 **State** column more readable, as in the following example.
