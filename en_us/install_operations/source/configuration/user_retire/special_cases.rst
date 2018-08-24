@@ -15,9 +15,15 @@ check the ``responses`` field in the user's row in
 ``user_api_userretirementstatus`` (User Retirement Status) for any relevant
 logging. Once the issue is resolved, you need to manually set the user's
 ``current_state`` to the state immediately prior to the state which should be
-re-tried.  You can do this using the Django admin.
+re-tried.  You can do this using the Django admin. In this example, a user 
+retirement errored during forums retirement, so we manually reset their state 
+from ``ERRORED`` to ``ENROLLMENTS_COMPLETE``.
 
 .. digraph:: retirement_states_example
+   :alt: State diagram depicting manual recovery of a user retirement by 
+    changing the state for the User Retirement Status from ERRORED to the 
+    state prior to the one from which it errored.
+
    :align: center
 
       //rankdir=LR;  // Rank Direction Left to Right
