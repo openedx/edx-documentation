@@ -20,8 +20,6 @@ retirement errored during forums retirement, so we manually reset their state
 from ``ERRORED`` to ``ENROLLMENTS_COMPLETE``.
 
 .. digraph:: retirement_states_example
-   :alt: State diagram showing recovery of a user retirement
-
    :align: center
 
       //rankdir=LR;  // Rank Direction Left to Right
