@@ -20,9 +20,7 @@ retirement errored during forums retirement, so we manually reset their state
 from ``ERRORED`` to ``ENROLLMENTS_COMPLETE``.
 
 .. digraph:: retirement_states_example
-   :alt: State diagram depicting manual recovery of a user retirement by 
-         changing the state for the User Retirement Status from ERRORED to the 
-         state prior to the one from which it errored.
+   :alt: State diagram showing recovery of a user retirement
 
    :align: center
 
