@@ -247,3 +247,26 @@ To be effective, a testimonial should contain no more than 25-50 words.
 
   You can add the learner testimonial to your course About page. For more
   information, see :ref:`Creating a Course About Page`.
+
+.. only:: Open_edX
+
+  .. _Course Metadata:
+
+  ***************
+  Course Metadata
+  ***************
+
+  You may need to be able to make certain custom information about your course
+  available to entities such as customer relationship management (CRM)
+  software, a marketing site, or other external systems. This information is
+  not visible to learners.
+
+  For example, you might want to make the following information available.
+
+  * The course difficulty
+  * The course ID in an external system
+  * Course prerequisites
+
+  You add this information as a JSON dictionary in Studio. For more
+  information, see :ref:`Add Course Metadata`.
+

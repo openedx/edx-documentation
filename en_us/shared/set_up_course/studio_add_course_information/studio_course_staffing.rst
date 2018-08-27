@@ -1,7 +1,7 @@
 .. _Studio_Course_Staffing:
 
 ####################################
-Add Course Team Members in Studio
+Adding Course Team Members in Studio
 ####################################
 
 .. only:: Partners
