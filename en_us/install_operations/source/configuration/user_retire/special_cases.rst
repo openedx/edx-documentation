@@ -21,8 +21,8 @@ from ``ERRORED`` to ``ENROLLMENTS_COMPLETE``.
 
 .. digraph:: retirement_states_example
    :alt: State diagram depicting manual recovery of a user retirement by 
-    changing the state for the User Retirement Status from ERRORED to the 
-    state prior to the one from which it errored.
+         changing the state for the User Retirement Status from ERRORED to the 
+         state prior to the one from which it errored.
 
    :align: center
 
