@@ -53,7 +53,6 @@ from ``ERRORED`` to ``ENROLLMENTS_COMPLETE``.
 Now, the user retirement driver scripts will automatically resume this user's
 retirement the next time they are executed.
 
-*****************************
 Rerunning some or all states
 *****************************
 
@@ -66,3 +65,21 @@ through the new stage.  Or, perhaps you were developing a stage/API that
 didn't work correctly but still indicated success, so the pipeline progressed
 all users into ``COMPLETED``.  Retirement APIs are designed to be idempotent,
 so this should be a no-op for stages already run for a given user.
+
+Cancelling a retirement
+***********************
+
+Users who have recently requested account deletion but are still in the
+``PENDING`` retirement state may request to rescind their account deletion by
+emailing or otherwise contacting the administrators directly.  edx-platform
+offers a Django management command that administrators can invoke manually to
+cancel a retirement, given the user's email address.  It restores a given
+user's login capabilities and removes them from all retirement queues.  The
+syntax is as follows:
+
+.. code-block:: bash
+
+   $ ./manage.py lms --settings=<your-settings> cancel_user_retirement_request --email_address=<email-of-user-to-cancel-retirement>
+
+Keep in mind, this will only work for users which have not had their retirement
+states advance beyond ``PENDING``.
