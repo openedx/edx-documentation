@@ -2585,3 +2585,52 @@ course_id
   ``{key type}:{org}+{course}+{run}``. For example,
   ``course-v1:edX+DemoX+Demo_2014``.
 
+
+.. _Cohort Membership:
+
+***********************
+Cohort Membership Data
+***********************
+
+.. _cohort_membership:
+
+==========================================================
+Columns in the cohort membership data output
+==========================================================
+
+Cohort membership data presents information about groups of users enrolled in a course.
+For more information about cohorts, see :ref:`partnercoursestaff:Cohorts Overview` in
+the Building and Running an edX Course guide.
+
+A sample of the output follows.
+
+.. code-block:: sql
+
+    user_id course_id group_type name
+
+    9999999 edX/DemoX/Demo_course cohort High School
+
+---------
+user_id
+---------
+  The learner's ID in ``auth_user.id``.
+
+-----------
+course_id
+-----------
+  The ID of the course run that the user is enrolling in, in the format
+  ``{key type}:{org}+{course}+{run}``. For example,
+  ``course-v1:edX+DemoX+Demo_2014``. When you view the course content in your
+  browser, the ``course_id`` appears as part of the URL. For example,
+  ``http://www.edx.org/courses/course-v1:edX+DemoX+Demo_2014/info``.
+
+------------
+group_type
+------------
+  The type of group. The only defined group type is "cohort".
+
+------
+name
+------
+  The name of the group.
+
