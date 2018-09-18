@@ -98,9 +98,10 @@ At this point, the learner's account has been deactivated, but *not* retired.
 An entry in the ``UserRetirementStatus`` table is added, and their state set to
 ``PENDING``.
 
-By default, the **Delete My Account** button is disabled, preventing account
-deletions.  For information about how to enable account deletion, see
-:ref:`waffle-switch-for-ux`.
+By default, the **Delete My Account** section is visible and the button is
+enabled, allowing account deletions to queue up.  The
+``ENABLE_ACCOUNT_DELETION`` feature in django settings toggles the visibility
+of this section.  See :ref:`django-settings`.
 
 ================
 Third Party Auth
