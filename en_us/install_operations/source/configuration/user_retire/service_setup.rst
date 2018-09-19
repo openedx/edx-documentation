@@ -7,6 +7,8 @@ Setting Up User Retirement in the LMS
 This section describes how to set up and configure the user retirement feature
 in the Open edX LMS.
 
+.. _django-settings:
+
 ***************
 Django Settings
 ***************
@@ -55,6 +57,9 @@ defining *derived* settings specific to Open edX. Read more about it in
        in the ``RETIREMENT_STATES`` setting
      - A list that defines the name and order of states for the retirement
        workflow.  See `Retirement States`_ for details.
+   * - FEATURES['ENABLE_ACCOUNT_DELETION']
+     - True
+     - Whether to display the "Delete My Account" section the account settings page.
 
 
 =================
@@ -137,20 +142,6 @@ in Django settings:
 .. code-block:: python
 
    RETIREMENT_SERVICE_WORKER_USERNAME = 'retirement_service_worker'
-
-.. _waffle-switch-for-ux:
-
-******************************************************
-Waffle Switch to Display the Delete My Account Feature
-******************************************************
-
-A waffle switch named ``course_experience.gdpr`` controls whether the Account
-page displays the section named **Delete My Account**. If you do not
-activate this switch, learners will have no available mechanism to request
-account deletion.
-
-You can manage waffle switches from the Django Admin section **Waffle ->
-Switches**.
 
 ************
 Django Admin
