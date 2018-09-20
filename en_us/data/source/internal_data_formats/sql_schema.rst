@@ -2051,8 +2051,8 @@ learners' course grades.
 course_id
 ------------
   Course key of the containing course. In the format
-  ``course-v1:org+course+run`` for courses created after DATE and in the format
-  ``org/course/run`` for older courses.
+  ``course-v1:org+course+run`` for most courses created in or after Oct 2014 
+  and in the format ``org/course/run`` for older courses.
 
 ------------
 user_id
