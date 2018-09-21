@@ -762,12 +762,22 @@ field and the ``course_mode``, as well as one or more of the ``user_email``,
      - boolean
      - Whether the learner has consented to be contacted by email. Default is
        ``false``.
+   * - ``is_active``
+     - boolean
+     - Whether the enrollment is active. Setting to ``false`` unenrolls the learner.
+       If set, the user must already exist. Default is ``true``
+       (Optional field)
+   * - ``cohort``
+     - string
+     - Assign the learner to this cohort name. Cohort must already be created.
+       (Optional field)
 
 POST Payload Example
 *********************
 
 Here is an example of the payload of a ``course-enrollments`` call. In this
-example, we enroll two learners in two different course runs.
+example, we enroll two learners in two different course runs and unenroll one
+learner from a third course.
 
 ::
 
@@ -776,12 +786,19 @@ example, we enroll two learners in two different course runs.
       "course_run_id":"course-v1:edX+DemoX+Demo_Course",
       "course_mode":"verified",
       "user_email":"ephraim_symbolist@example.com",
-      "email_students": true
+      "email_students":true
     },
     {
       "course_run_id":"course-v1:UMy+Intro_to_Education`",
       "course_mode":"audit",
-      "tpa_user_id":"abcdefg"
+      "tpa_user_id":"abcdefg",
+      "cohort":"Department XYZ"
+    },
+    {
+      "course_run_id":"course-v1:UU+Advanced_Unenrollment",
+      "course_mode":"audit",
+      "tpa_user_id":"hijklmn",
+      "is_active":false
     }
   ]
 
