@@ -82,6 +82,40 @@ Studio and Course Author Tools
 * You can establish a password policy to require a minimum strength and 
   complexity for passwords. For more information, see `Password Policy`_
 
+Changes to OLX <transcript> Element for Videos 
+**********************************************
+
+The primary storage for video transcripts on edx.org is now Amazon S3. In
+connection with this change, we have made changes to the ``<transcript>``
+element for videos in OLX, which is the XML-based standard for course export
+and import on edX. The ``<transcript>`` element, which was formerly a child of
+the ``<video>`` element, is now a child of a ``<transcripts>`` element, which
+is in turn a child of the ``<video_asset>`` element. Here is an example of an
+OLX ``<video>`` element, showing the way transcripts are now handled.
+
+.. code-block:: xml
+
+    <video sub="" display_name="Test Video" edx_video_id="9c563e7d-c86c" 
+           youtube_id_1_0="FEWSxCV">
+        <video_asset client_video_id="test.mp4" duration="319.94" image="">
+            <encoded_video bitrate="174" file_size="69880" profile="mobile_low" 
+                           url="https://abc.cloudfront.net/ABC_MB2.mp4"/>
+            <encoded_video bitrate="192" file_size="76816" profile="audio_mp3"
+                           url="https://def.cloudfront.net/ABC_MB1.mp3"/>
+            <encoded_video bitrate="279" file_size="112012" profile="desktop_mp4" 
+                           url="https://ghi.cloudfront.net/ABC_MB4.mp4"/>
+            <encoded_video bitrate="0" file_size="0" profile="youtube" url="FEWSxCV"/>
+            <transcripts>
+                 <transcript file_format="srt" language_code="en" provider="Custom"/>
+                 <transcript file_format="srt" language_code="de" provider="Custom"/>
+           </transcripts>
+        </video_asset>
+    </video>
+
+Transcript content files are stored in the course's ``/static`` directory, 
+using the file name format ``[edx_video_id]-[language_code].srt``. For example, in 
+the preceding example, there should be a transcript file with the name 
+``9c563e7d-c86c-en.srt`` in the ``/static`` directory.
 
 *******************************
 System Upgrades and Updates
