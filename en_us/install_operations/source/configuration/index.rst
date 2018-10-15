@@ -30,6 +30,7 @@ configuration options.
    transcripts
    lti/index
    enable_socialsharing_icons
+   password
    tpa/index
    enable_timed_exams
    user_retire/index
