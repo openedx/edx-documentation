@@ -9,7 +9,7 @@ create and run tests for the Open edX platform first, and then you run a set of
 tests that are specific to E-Commerce.
 
 For more information about tests for the Open edX platform, see
-:ref:`Test Features`.
+:ref:`opendevelopers:Test OpenedX Features` in the *Open edX Developer's Guide*.
 
 ********************
 Tests for E-Commerce
@@ -136,24 +136,6 @@ Configure the LMS
 
 To configure the LMS, follow these steps.
 
-#. Ensure devstack Vagrant virtual machine ("**VM**") is up and running.
-
-   .. code:: sh
-
-       vagrant up
-
-#. Sign in to the VM.
-
-   .. code:: sh
-
-       vagrant ssh
-
-#. Become the ``edxapp`` user.
-
-   .. code:: sh
-
-      sudo su edxapp
-
 #. Verify that the following settings in ``/edx/app/edxapp/lms.env.json`` are
    correct. ::
 
@@ -191,9 +173,6 @@ To configure the LMS, follow these steps.
           u = User.objects.get(username-'staff')
           u. is_superuser = True
           u.save()
-
-#. :ref:`Start the LMS<Start the LMS>`.
-
 
 #. Navigate to the OAuth2 Clients section of the Django administration console
    (e.g. http://localhost:8000/admin/oauth2/client/). Sign in using the

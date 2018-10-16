@@ -40,7 +40,7 @@ you should understand these concepts.
 .. contents::
   :local:
   :depth: 1
-
+  
 
 .. _Course Availability:
 
@@ -82,6 +82,83 @@ For more information, see :ref:`course start dates<Start Date and Duration>`
 and :ref:`course pacing<SFD Course Pacing>`.
 
 
+.. _Course Sessions:
+
+============================
+Course Sessions
+============================
+
+A course session is the period during which a course is held. A course might
+offer multiple sessions over a year. For example, a course might have two
+available sessions:
+
+* Session 1: starts September 1, 2018 and ends March 30, 2019
+* Session 2: starts June 1, 2019 and ends December 30, 2020.
+
+Not all courses offer multiple sessions. Some courses only show the currently
+running session. 
+
+Courses that show multiple sessions and the ability to change between sessions
+are usually part of MicroMasters or Professional Certificate programs. For
+these courses, on the **Courses** and **Programs** pages of your dashboard,
+after you enroll in the course, you have options to select a session, change
+to a different session, or leave a session. You must select a session before
+you can access the course.
+
+.. image:: ../../shared/images/session_select.png
+   :width: 600
+   :alt: A course card showing a dropdown menu with several available course
+      sessions and option to leave the session and decide later.
+
+When you enroll in the verified track for courses that offer multiple
+sessions, be aware of the following policies and timeframes.
+
+* **Upgrading From the Audit Track**
+
+  If you were already enrolled in the audit track of a course and you purchase
+  the verified track as part of a program purchase, we automatically enroll you
+  in the verified track for the course, in the current session. You can change
+  to a different session if the one we enrolled you in does not work for you.
+
+* **Join a Session Within 24 Months**
+
+  After you purchase the verified track for a course, you have 24 months from
+  the date of purchase to join a course session. After 24 months, if you have
+  not joined a session, your purchase expires, and you can no longer access the
+  course.
+
+
+* **Changing or Leaving Sessions**
+
+  After you join a course session in the verified track (including if we
+  automatically add you to a session as a result of your program purchase), you
+  can change to another session or leave the session within 14 days, as long as
+  you have not completed the course. For Professional Education courses only,
+  you must change sessions or leave the session within 2 days.
+
+  .. note:: When you change sessions, your course progress is not carried from
+     your current session to the new session.
+
+  Leaving a session is not the same as unenrolling from the course. If
+  the current session does not work for you, you can leave a session and wait to
+  decide on joining a later session of the course.
+
+
+* **Unenrolling and Getting a Refund**
+
+  Within 60 days from the date of purchase, you can unenroll from the course
+  entirely and get a refund of your course purchase, as long as you have not
+  been in a course session for more than 14 days. 
+
+  .. note:: For Professional Education courses only, you must not have been in
+     a course session for more than 2 days, to be able to unenroll.
+
+  If the refund eligibility period has passed (meaning that you will not
+  receive a refund when you unenroll), the unenroll option is not available.
+
+
+
+
 .. _Enrollment Tracks:
 
 ===========================================
@@ -95,21 +172,28 @@ take a course for a fee, with the option of earning a verified certificate.
 For more information about enrolling in a course, see :ref:`SFD Enroll in a
 Course`.
 
+.. contents::
+  :local:
+  :depth: 1
+
 .. _SFD About Audit Track:
 
 About the Audit Track
 *********************
 
-Most courses offer an audit track. The audit track is free of charge, and does
-not include a certificate when you complete your course. The audit track gives
-you access to all course materials, including assignments and exams.
+Most courses offer an audit track. The audit track does not offer a certificate
+when you pass the course. You can still access course content and discussions in
+this track, but some content might be different from verified track content. For
+example, there might be a final exam only for verified track learners.
 
 When you first enroll in a course, you are automatically enrolled in the audit
-track.
+track. For information about enrolling in the audit track for a course, see
+:ref:`Enroll in the Audit Track`.
 
-If the course offers a verified track and the deadline for enrolling in
-the verified track has not passed, you can choose to  upgrade to the verified
-track. For more information, see :ref:`SFD Change to the Verified Track`.
+If the course you enrolled in offers a verified track and the deadline for
+enrolling in the verified track has not passed, you can choose to upgrade to the
+verified track to earn a certificate. For more information, see :ref:`SFD Change
+to the Verified Track`.
 
 
 .. _SFD Verified Track:
@@ -117,12 +201,12 @@ track. For more information, see :ref:`SFD Change to the Verified Track`.
 About the Verified Track
 *************************
 
-Many courses offer a verified track in addition to the free audit track. The
-verified track has a fee, and offers a verified certificate when you pass the
-course.
+Most courses offer a verified track in addition to the free audit track. The
+verified track has a fee, and offers a certificate when you pass the course.
 
-If a course has a verified track, you see a "Verified" indication on the
-course image in the course catalog on edx.org.
+If a course has a verified track, you see a "Verified" indication on the course
+image in the course catalog on edx.org. For a list of all courses that currently
+offer verified certificates, see the `edX course catalog`_.
 
 .. image:: ../../shared/images/SFD_VerifiedBadge.png
    :width: 200
@@ -133,16 +217,15 @@ Verified Track>` in the course, you submit payment, and, some time before the
 verification deadline, you must :ref:`verify your identity<SFD Verify Your
 Identity>` using a webcam and a photo ID.
 
-.. note:: The fee for a verified certificate varies by course. The amount of
-   the fee is listed on the About page for that course. The fee helps support
-   edX's mission. If you are unable to pay the certificate fee, you can apply
-   for financial assistance using the `financial assistance application`_.
+.. note:: The fee for the verified track varies by course. The amount of the fee
+   is listed on the About page for that course. The fee helps support edX's
+   mission. If you are unable to pay the verified track fee, you can apply for
+   financial assistance using the `financial assistance application`_.
 
-For a list of all courses that currently offer verified certificates, see the
-`edX course catalog`_. For more information about enrolling in the verified
-track for a course, see :ref:`SFD Enroll in a Course` or :ref:`SFD Change to
-the Verified Track`. For information about certificates, see
-:ref:`Certificates` and `Verified Certificates`_ on the edx.org website.
+For more information about enrolling in the verified track for a course, see
+:ref:`Enroll in the Verified Track` or :ref:`SFD Change to the Verified Track`.
+For information about certificates, see :ref:`Certificates` or `Verified
+Certificates`_.
 
 
 .. _About Programs:
@@ -151,11 +234,12 @@ the Verified Track`. For information about certificates, see
 About edX Programs
 ********************
 
-In addition to taking individual edX courses, you can enroll in an entire
-series of courses. Several types of program are available on edx.org,
-including :ref:`XSeries programs<About XSeries Programs>`, :ref:`MicroMasters
-programs<About MicroMasters Programs>`, and :ref:`Professional Certificate
-programs<About ProfCert Programs>`.
+In addition to taking individual edX courses, you can enroll in an entire series
+of courses, called a program. Several types of program are available on edx.org.
+
+.. contents::
+  :local:
+  :depth: 1
 
 For a list of programs available on edx.org, see `edx Programs`_.
 
@@ -305,7 +389,7 @@ To pursue a verified certificate in a course, follow these steps.
    with a "Verified" banner. Select the course that you want to take.
 
 #. On the course About page, review information about the course including the
-   price in US dollars for a verified certificate.
+   price to enroll in the verified track of the course.
 
 #. Select **Enroll Now**.
 
@@ -316,7 +400,7 @@ To pursue a verified certificate in a course, follow these steps.
 
    * Payment is in US dollars.
 
-   * You must pay the certificate fee before you can begin the course.
+   * You must pay the verified track fee before you can begin the course.
 
    * You do not have to verify your identity immediately, but you
      must verify your identity before the course ID verification deadline has
@@ -344,6 +428,14 @@ the program to go to a page that has more information about the program. On
 this page, you can view your progress through the program, enroll in more of
 the program's courses, and view any certificates that you have earned.
 
+.. note:: In some programs, courses offer multiple sessions and the ability to
+   change between sessions. For these courses, on the **Courses** and
+   **Programs** pages of your dashboard, after you enroll in the course, you
+   have options to select a session, change to a different session, or leave a
+   session. You must select a session before you can access the course.
+
+   For more information about course sessions, see :ref:`Course Sessions`.
+
 
 .. _Unenroll from a Course:
 
@@ -351,7 +443,14 @@ the program's courses, and view any certificates that you have earned.
 Unenroll from a Course
 ========================
 
-You can drop or unenroll from a course, but it is not necessary to do so. You can simply stop viewing and working in the course, which will remain in the list of courses on your dashboard.
+You can drop or unenroll from a course, but it is not necessary to do so. You
+can simply stop viewing and working in the course, which will remain in the list
+of courses on your dashboard.
+
+If you unenroll from the verified track of a course within 14 days of your
+payment or 14 days after the course start date, whichever is later, you can
+receive a refund for the verified track fee. For more information about getting
+a refund, see :ref:`Get a Refund`.
 
 .. note:: If you unenroll from a course, the course is deleted from
    your dashboard, and you can no longer access course content or information

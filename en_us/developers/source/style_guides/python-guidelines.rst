@@ -199,7 +199,7 @@ Here's how you write documentation in a mostly "Google Style" manner::
 
   * The summary line is on the second line, including single-line comments
     (see below)
-  * Use the full word "Arguments".
+  * Use the full word "Arguments", although "Args" is also acceptable.
 
 Most of our code is written using an older style::
 
@@ -252,7 +252,7 @@ References
 
 .. _Django Coding Style: https://docs.djangoproject.com/en/1.11/internals/contributing/writing-code/coding-style/
 .. _edX REST API Conventions: https://openedx.atlassian.net/wiki/display/AC/edX+REST+API+Conventions#edXRESTAPIConventions-docstringsDocstringFormat
-.. _Example Google Style Python Docstrings: https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html
+.. _Example Google Style Python Docstrings: http://www.sphinx-doc.org/en/stable/ext/example_google.html#example-google
 .. _Google Python Style Guide: https://google.github.io/styleguide/pyguide.html?showone=Comments#Comments
 .. _isort: https://github.com/timothycrosley/isort
 .. _PEP 8: http://www.python.org/dev/peps/pep-0008/

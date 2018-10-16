@@ -46,7 +46,6 @@ For information about building specific course component types, see
    mult_choice_num_input
    notes
    numerical_input
-   office_mix
    open_response_assessments/index
    oppia
    peer_instruction_tool

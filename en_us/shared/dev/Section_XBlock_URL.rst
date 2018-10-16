@@ -23,10 +23,6 @@ LMS, including viewing either the staff debug info or the page source. For more
 information, see
 :ref:`opencoursestaff:Finding the Usage ID for Course Content`.
 
-In addition, API developers can call the Course Blocks API
-``/api/courses/v1/blocks`` to find the ``usage_id`` for a course's XBlocks. For
-more information, see :ref:`openplatformapi:Courses API Overview`.
-
 ===================
 Example XBlock URLs
 ===================

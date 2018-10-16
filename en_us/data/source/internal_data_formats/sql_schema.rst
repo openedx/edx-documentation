@@ -181,13 +181,13 @@ The ``auth_user`` table has the following columns.
   +==============================+==============+======+=====+==================+
   | id                           | int(11)      | NO   | PRI |                  |
   +------------------------------+--------------+------+-----+------------------+
-  | username                     | varchar(30)  | NO   | UNI |                  |
+  | username                     | varchar(150) | NO   | UNI |                  |
   +------------------------------+--------------+------+-----+------------------+
   | first_name                   | varchar(30)  | NO   |     | # Never used     |
   +------------------------------+--------------+------+-----+------------------+
   | last_name                    | varchar(30)  | NO   |     | # Never used     |
   +------------------------------+--------------+------+-----+------------------+
-  | email                        | varchar(75)  | NO   | UNI |                  |
+  | email                        | varchar(254) | NO   | UNI |                  |
   +------------------------------+--------------+------+-----+------------------+
   | password                     | varchar(128) | NO   |     |                  |
   +------------------------------+--------------+------+-----+------------------+
@@ -1565,12 +1565,12 @@ last_activity_at
 Columns in the ``verify_student_verificationstatus`` Table
 ==========================================================
 
-.. note:: This table is deprecated.
+.. note:: This table is deprecated and has been removed.
 
-The ``verify_student_verificationstatus`` table shows learner re-verification
+The ``verify_student_verificationstatus`` table showed learner re-verification
 attempts and outcomes.
 
-**History**: Added 5 Aug 2015. Deprecated.
+**History**: Added 5 Aug 2015. Deprecated and subsequently removed.
 
 A sample of the heading row and a data row in the
 ``verify_student_verificationstatus`` table follow.
@@ -1581,7 +1581,7 @@ A sample of the heading row and a data row in the
     2015-04-28 12:13:22 submitted edX/DemoX/Demo_Course Final 9999999
 
 
-The ``verify_student_verificationstatus`` table has the following columns.
+The ``verify_student_verificationstatus`` table had the following columns.
 
 +----------------------+--------------+------+-----+---------+----------------+
 | Field                | Type         | Null | Key | Default | Extra          |
@@ -2051,8 +2051,8 @@ learners' course grades.
 course_id
 ------------
   Course key of the containing course. In the format
-  ``course-v1:org+course+run`` for courses created after DATE and in the format
-  ``org/course/run`` for older courses.
+  ``course-v1:org+course+run`` for most courses created in or after Oct 2014 
+  and in the format ``org/course/run`` for older courses.
 
 ------------
 user_id
@@ -2584,4 +2584,53 @@ course_id
   The ID of the course run that the learner is enrolled in, in the format
   ``{key type}:{org}+{course}+{run}``. For example,
   ``course-v1:edX+DemoX+Demo_2014``.
+
+
+.. _Cohort Membership:
+
+***********************
+Cohort Membership Data
+***********************
+
+.. _cohort_membership:
+
+==========================================================
+Columns in the cohort membership data output
+==========================================================
+
+Cohort membership data presents information about groups of users enrolled in a course.
+For more information about cohorts, see :ref:`partnercoursestaff:Cohorts Overview` in
+the Building and Running an edX Course guide.
+
+A sample of the output follows.
+
+.. code-block:: sql
+
+    user_id course_id group_type name
+
+    9999999 edX/DemoX/Demo_course cohort High School
+
+---------
+user_id
+---------
+  The learner's ID in ``auth_user.id``.
+
+-----------
+course_id
+-----------
+  The ID of the course run that the user is enrolling in, in the format
+  ``{key type}:{org}+{course}+{run}``. For example,
+  ``course-v1:edX+DemoX+Demo_2014``. When you view the course content in your
+  browser, the ``course_id`` appears as part of the URL. For example,
+  ``http://www.edx.org/courses/course-v1:edX+DemoX+Demo_2014/info``.
+
+------------
+group_type
+------------
+  The type of group. The only defined group type is "cohort".
+
+------
+name
+------
+  The name of the group.
 

@@ -188,8 +188,8 @@ certificate learners.
 For information about creating differentiated content based on cohorts, see
 :ref:`Cohorted Courseware Overview`.
 
-For information about creating differentiated content based on enrollment track,
-see :ref:`Enrollment Track Specific Courseware Overview`.
+For information about creating differentiated content based on enrollment
+track, see :ref:`Enrollment Track Specific Courseware Overview`.
 
 
 .. _configuring_prerequisite_content:
@@ -198,20 +198,20 @@ see :ref:`Enrollment Track Specific Courseware Overview`.
 Prerequisite Course Subsections
 ********************************
 
-You can hide subsections of your course until learners complete other,
-prerequisite subsections. If a subsection has a prerequisite, it is not
-visible in the course navigation unless a learner has earned a minimum score in
-the prerequisite subsection.
+You can lock subsections of your course until learners complete other,
+prerequisite subsections. If a subsection has a prerequisite, it is displayed
+in the course outline with a lock icon, and learners cannot view the subsection
+content until they have earned a minimum score in the prerequisite subsection.
+
+.. note::
+   You must first :ref:`Enable Course Prerequisites` before 
+   prerequisite course subsections can be used.
 
 .. note::
 
    You cannot use :ref:`open response assessments<Open Response Assessments 2>`
-   as the prerequisite for other course subsections.
-   
-.. note::
+   as the prerequisite for other course subsections.   
 
-   You must first :ref:`Enable Course Prerequisites` before 
-   prerequisite course subsections can be used.
 
 .. _enabling_subsection_gating:
 
@@ -234,7 +234,8 @@ Create a Prerequisite Subsection
 ==================================
 
 To prevent learners from seeing a subsection of your course until they have
-earned a minimum score in a prerequisite subsection, follow these steps.
+earned a minimum score or completed a minimum portion in a prerequisite
+subsection, follow these steps.
 
 .. note::
     Make sure that you configure subsection prerequisites in the order that you
@@ -256,32 +257,55 @@ earned a minimum score in a prerequisite subsection, follow these steps.
 
 #. Select the **Advanced** tab.
 
-#. Select **Use as a Prerequisite** > **Make this subsection
-   available as a prerequisite to other content**.
+#. Under **Use as a Prerequisite**, select **Make this subsection available as
+   a prerequisite to other content**.
 
 #. Select **Save**.
 
 #. Select the **Configure** icon for the subsection that
    will be hidden until the prerequisite is met.
 
-#. Select the **Advanced** tab.
+#. Select the **Advanced** tab, and then locate the **Limit Access** section.
 
-#. In the **Limit Access** > **Prerequisite** menu, select the name of the
-   subsection you want to specify as the prerequisite.
+#. In the **Prerequisite** list, select the name of the subsection you want to
+   specify as the prerequisite.
 
-#. Enter the percent of the total score that learners must earn in the
-   **Minimum Score** field. A learner's score for all problems in the
-   prerequisite subsection must be equal to or greater than this percentage in
-   order to satisfy the prerequisite and display the current subsection.
+      .. image:: ../../../shared/images/prerequisite-percent-complete.png
+       :alt: The Limit Access section in the Advanced settings, showing the
+           Prerequisite, Minimum Score, and Minimum Completion Percentage
+           controls.
+
+#. To require that learners achieve a minimum score in the prerequisite
+   subsection before the current subsection opens, enter the percent of the
+   total score that learners must earn in the **Minimum Score** field. If
+   the prerequisite section is not a problem set, set **Minimum Score** to
+   ``0`` and set **Minimum Completion Percentage** to a value greater than
+   zero.
 
    For example, if the prerequisite subsection includes four problems and each
    problem is worth the same number of points, set the **Minimum Score** to
    ``75`` to require at least three correct answers.
+
+   To require that learners complete a minimum portion of the prerequisite
+   subsection before the current subsection opens, enter the percent of the
+   prerequisite subsection that learners must complete in the **Minimum
+   Completion Percentage** field.
+
+   If you set both the **Minimum Score** field and the **Minimum Completion
+   Percentage** field to a value greater than zero, then learners must satisfy
+   both conditions in the prerequisite section before they can view the
+   current subsection. The default value for both the **Minimum Score** field
+   and the **Minimum Completion Percentage** field is ``100``.
 
 #. Select **Save**.
 
 #. In the course outline, if a subsection has a prerequisite, the prerequisite
    name appears under the subsection name.
 
+   .. image:: ../../../shared/images/studio-locked-content.png
+     :alt: A subsection in the course outline with a prerequsitie indicated.
+     :width: 600
+
   .. note:: Prerequisite course subsection settings are not retained when
-     you :ref:`export or import a course<Exporting and Importing a Course>`, or when you :ref:`re-run a course<Rerun a Course>`.
+     you :ref:`export or import a course<Exporting and Importing a Course>`, or
+     when you :ref:`re-run a course<Rerun a Course>`.

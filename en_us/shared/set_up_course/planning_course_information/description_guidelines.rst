@@ -13,6 +13,12 @@ the subject, and the difficulty level.
   All of the decription information in this topic is required to create an
   About page.
 
+  For edx.org courses, you enter this information in Publisher. For more
+  information, see :ref:`Pub Creating a Course`.
+
+  For courses on Edge, you enter this content in Studio. For more
+  information, see :ref:`Creating a New Course`.
+
 .. contents::
    :local:
    :depth: 1
@@ -31,14 +37,6 @@ An effective short description follows these guidelines.
 * Follows search engine optimization (SEO) guidelines.
 * Targets a global audience.
 
-.. only:: Partners
-
-    For information about how to add this information in Publisher, see
-    :ref:`Pub Creating a Course`.
-
-.. only:: Open_edX
-
- For information about how to enter this content in Studio, see :ref:`Creating a Course About Page`.
 
 ========================
 Example Short Descripton
@@ -71,19 +69,10 @@ An effective long description follows these guidelines.
  The first four lines of the course long description are visible when the About
  page opens. Learners can select "See More" to view the full description.
 
-.. only:: Partners
 
-    For information about how to add this information in Publisher, see
-    :ref:`Pub Creating a Course`.
-
-.. only:: Open_edX
-
- For information about how to enter this content in Studio, see
- :ref:`Creating a Course About Page`.
-
-========================
-Example Long Descriptons
-========================
+=========================
+Example Long Descriptions
+=========================
 
 The following long description is a content-based example.
 
@@ -119,15 +108,6 @@ The "what you will learn" information describes the skills and knowledge
 learners will acquire in the course in an itemized list. EdX recommends that
 you format each item as a bullet with four to ten words.
 
-.. only:: Partners
-
-    For information about how to add this information in Publisher, see
-    :ref:`Pub Creating a Course`.
-
-.. only:: Open_edX
-
- For information about how to enter this content in Studio, see :ref:`Creating
- a Course About Page`.
 
 ===========================
 Example What You Will Learn
@@ -149,15 +129,6 @@ A primary subject is required. Optionally, you can select up to two subjects in
 addition to the primary subject. Only the primary subject appears on the About
 page.
 
-.. only:: Partners
-
-    For information about how to add this information in Publisher, see
-    :ref:`Pub Creating a Course`.
-
-.. only:: Open_edX
-
- For information about how to enter this content in Studio, see :ref:`Creating
- a Course About Page`.
 
 ================
 Example Subjects
@@ -183,12 +154,3 @@ Use the following guidelines to select the level for your course.
   school or some university courses.
 * Advanced - Significant prerequisites; the course is geared to third or fourth
   year university students or master's degree students.
-
-.. only:: Partners
-
-    For information about how to add this information in Publisher, see
-    :ref:`Pub Creating a Course`.
-
-.. only:: Open_edX
-
- For information about how to enter this content in Studio, see :ref:`Creating a Course About Page`.

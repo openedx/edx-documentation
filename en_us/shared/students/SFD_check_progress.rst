@@ -10,14 +10,49 @@ This topic describes how to check and understand your progress in a course.
   :local:
   :depth: 2
 
+.. _SFD Progress Indicators:
+
+*******************
+Progress Indicators
+*******************
+
+When you are working in a course, green check marks that show your progress are
+visible in two places.
+
+* The course outline on the **Course** page.
+* The navigation bar at the top of the page.
+
+These check marks appear when you complete all of the content in a part of the
+course. The part might be called a unit, section, module, week, lesson, or
+other part, depending on the terms your course uses.
+
+For example, in the following image, the learner has completed all of the
+content in the "Introduction" part of the course, as well as some of the
+content in the "Module 1: Experiencing Course Content" part.
+
+.. image:: ../../shared/images/course_nav_outline_startcourse.png
+ :alt: The course outline, showing green check marks for completed content.
+
+In the following image, the learner has completed the first two units in the
+"Lesson 3: Exams, Grades, and Certificates" lesson.
+
+.. image:: ../../shared/images/LMS_Unit_Page.png
+ :alt: The unit navigation bar on a unit page in the LMS.
+
+To complete content, you must complete all of the following actions.
+
+* View all of each video in the unit.
+* Submit answers for all of the problems in the unit.
+* View all HTML content in the unit for at least five seconds.
+
+
 ******************
 The Progress Page
 ******************
 
-As you work through a course, you can track your the scores on individual
-problems as well as your current overall course grade. Select **Progress** in
-any course.
-
+To see your scores on individual problems represented in both a chart and a
+list, as well as your current overall course grade, select the **Progress**
+page from anywhere in the course.
 
 ===============
 Grading Chart

@@ -12,13 +12,12 @@ To prepare learners for a proctored exam, follow these guidelines.
     exam, and that some of the requirements might take some preparation.
   * Well before the exam, provide learners with information about the grading
     policy in your course and the requirements for earning academic credit.
-  * Explain what proctored exams are, and provide learners with links to the
-    :ref:`edX Learner’s Guide topics <learners:SFD_ProctoredExams>` about
-    proctored exams.
-  * Communicate the rules for proctored exams, including edX’s :ref:`online
-    proctoring rules<CA Online Proctoring Rules>` in the *edX Learner’s Guide*
-    as well as any specific rules for a particular exam. For information about
-    creating specific rules, see :ref:`specifying_exam_rules_and_exceptions`.
+  * Explain what proctored exams are, and provide learners with links to
+    `Taking Timed and Proctored Exams`_ in the edX Help Center.
+  * Communicate the rules for proctored exams, including the `Proctored exam
+    rules and requirements`_ article in the edX Help Center. as well as
+    any specific rules for a particular exam. For information about creating
+    specific rules, see :ref:`specifying_exam_rules_and_exceptions`.
 
 .. only:: Open_edX
 
@@ -45,14 +44,8 @@ The Learner Experience of Proctored Exams
 
  For detailed information about the way learners experience proctored exams,
  including the steps that they must take to install the proctoring software,
- scan the exam environment, complete the exam, and receive a score, see the
- following topics in the *edX Learner's Guide*.
-
- * :ref:`learners:SFD Proctored Exams Overview`
- * :ref:`learners:Steps in Taking Proctored Exams`
- * :ref:`learners:SFD Taking a Proctored Exam`
- * :ref:`learners:Proctoring Session Review Results`
- * :ref:`learners:SFD Technical Difficulties During Exam`
+ scan the exam environment, complete the exam, and receive a score, see `Taking
+ Timed and Proctored Exams`_ in the edX Help Center.
 
 .. only:: Open_edX
 
@@ -113,3 +106,4 @@ Practice Proctored Exams
 For information about how to create a practice proctored exam, see :ref:`Create
 a Proctored Exam`.
 
+.. include:: ../../../../links/links.rst

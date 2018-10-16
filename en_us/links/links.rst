@@ -4,7 +4,7 @@
 
 .. EdX Links
 
-.. _Math Formatting in Course Discussions: https://courses.edx.org/courses/edX/DemoX.1/2014/wiki/edX.DemoX.1.2014/math-formatting-course-discussions/
+.. _Math Formatting in Course Discussions: https://courses.edx.org/courses/course-v1:edX+DemoX.1+2T2017/wiki/edx/adding-math-expressions-course-discussion-post/
 
 .. _change log for the Backbone.js library: https://github.com/jashkenas/backbone/blob/master/index.html#L4299
 
@@ -40,7 +40,7 @@
 
 .. _test metadata file: https://courses.stage.edx.org/auth/saml/metadata.xml
 
-.. _edX Demo course: https://www.edx.org/course/edx/edx-edxdemo101-edx-demo-1038
+.. _edX Demo course: https://www.edx.org/course/demox-edx-demox-1-0
 
 .. _information about open response assessments: https://courses.edx.org/courses/edX/DemoX.1/2014/courseware/70a1e3505d83411bb72393048ac4afd8/1e5cd9f233a2453f83731ccbd863b731/
 
@@ -64,7 +64,7 @@
 
 .. _Overview of Creating an edX Course: https://www.edx.org/course/overview-creating-edx-course-edx-edx101#.VHKBz76d9BV
 
-.. _Creating Video for the edX Platform: https://www.edx.org/course/creating-video-edx-platform-edx-videox
+.. _Creating Video for the edX Platform: https://www.edx.org/course/videox-creating-video-for-the-edx-platform
 
 .. _Open edX Portal: http://open.edx.org/
 
@@ -212,7 +212,7 @@
 
 .. EDX WIKI LINKS
 
-.. _Open edX Releases Wiki page: https://openedx.atlassian.net/wiki/display/DOC/Open+edX+Releases
+.. _Open edX Releases Wiki page: https://openedx.atlassian.net/wiki/spaces/OpenOPS/pages/11108700/Open+edX+Releases
 
 .. _Release Pages: https://openedx.atlassian.net/wiki/pages/viewpage.action?pageId=12550314
 
@@ -275,6 +275,12 @@
 
 .. _AWS Documentation: http://aws.amazon.com/documentation/
 
+.. _Docker: https://www.docker.com/community-edition
+
+.. _Docker documentation: https://docs.docker.com/
+
+.. _Docker for Windows: https://docs.docker.com/docker-for-windows/
+
 .. _Elastic MapReduce: http://aws.amazon.com/elasticmapreduce/
 
 .. _default EC2 role for Amazon EMR: http://docs.aws.amazon.com/ElasticMapReduce/latest/DeveloperGuide/emr-iam-roles-defaultroles.html#emr-iam-roles-defaultec2
@@ -305,6 +311,7 @@
 
 .. _LON-CAPA XML format: https://s1.lite.msu.edu/adm/help/Authoring_XML_Intro.hlp#Authoring_XML_Intro
 
+.. _make: https://www.gnu.org/software/make/
 
 .. _Sphinx: http://sphinx-doc.org/
 
@@ -317,7 +324,6 @@
 .. _Vagrant's documentation on boxes: http://docs.vagrantup.com/v2/boxes.html
 
 .. _RabbitMQ: http://www.rabbitmq.com/
-
 
 .. _Download Python: https://www.python.org/download/releases/2.7/
 
@@ -525,7 +531,7 @@
 
 .. _AWS template file: https://github.com/edx/edx-platform/blob/b3462e5b1c3cc45ad8673f3f12e84fa17ffa6b64/lms/envs/aws.py#L586-L596
 
-.. _random and highly secure password: https://github.com/edx/edx- platform/blob/46d69eba/common/djangoapps/third_party_auth/pipeline.py#L392-L410
+.. _random and highly secure password: https://github.com/edx/edx-platform/blob/46d69eba/common/djangoapps/third_party_auth/pipeline.py#L392-L410
 
 .. _OAuth backends supported by python-social-auth v0.2.12: http://python-social-auth.readthedocs.io/en/latest/backends/index.html#social-backends
 
@@ -549,6 +555,8 @@
 
 .. _Cielo24: http://www.cielo24.com
 
+.. _Creating Video for the edX Platform: https://www.edx.org/course/videox-creating-video-for-the-edx-platform
+
 .. _Creating Videos: https://courses.edx.org/courses/edX/edX101/2014/courseware/c2a1714627a945afaceabdfb651088cf/9dd6e5fdf64b49a89feac208ab544760/
 
 .. _edX101 Overview of Creating an edX Course: https://www.edx.org/node/5496#.VH8p51fF_FA
@@ -558,3 +566,34 @@
 .. _List of ISO 639-1 codes: http://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
 
 .. _Proctoring Software System Requirements: http://clientportal.softwaresecure.com/support/index.php?/Knowledgebase/Article/View/252/0/system-requirements-remote-proctor-now
+
+.. _edX Automated Communication Engine: http://edx-ace.readthedocs.io/en/latest
+
+.. _JIRA Platform project: https://openedx.atlassian.net/projects/PLAT/issues
+
+.. _retirement: https://user-retirement-guide.readthedocs.io/en/latest/index.html
+
+.. _User Retirement: https://user-retirement-guide.readthedocs.io/en/latest/index.html
+
+.. _Open edX Release Notes: http://edx.readthedocs.io/projects/open-edx-release-notes/en/latest/hawthorn.html
+
+.. _Password Policy: https://github.com/edx/edx-platform/wiki/Optional-Password-Policy-Enforcement
+
+.. _Taking Timed and Proctored Exams: https://support.edx.org/hc/en-us/sections/115004169247
+
+.. _Proctored exam rules and requirements: https://support.edx.org/hc/en-us/articles/360000218027
+
+.. _Technical problems during a proctored exam: https://support.edx.org/hc/en-us/articles/360000205167
+
+.. _XQueue: https://github.com/edx/xqueue
+
+.. _edX XQueue repository: https://github.com/edx/xqueue/blob/master/queue
+
+.. _GnuPG website: https://www.gnupg.org
+
+.. _xqueue_watcher: https://github.com/edx/xqueue-watcher
+
+.. _Stanford Online xqueue_pull_ref: https://github.com/Stanford-Online/xqueue_pull_ref
+
+.. _Mozilla Firefox: https://www.mozilla.org/en-US/firefox/new/
+

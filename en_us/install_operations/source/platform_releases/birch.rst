@@ -11,8 +11,7 @@ This section describes how to install the Open edX Birch release.
  :depth: 1
 
 .. note::
-  Now that the Open edX Cypress release is available, edX no longer
-  supports the Birch release.
+  EdX no longer supports the Birch release.
 
 ******************************
 What's Included in Birch
@@ -46,102 +45,6 @@ The following Open edX Git repositories have the Git tag **named-release/birch.2
 * edx-documentation
 * edx-ora2
 * XBlock
-
-.. confirm
-
-******************************
-Installing the Birch Release
-******************************
-
-You can install the Open edX Birch release using :ref:`Devstack <Installing the
-Open edX Developer stack>` or :ref:`Fullstack <Installing Open edX Fullstack>`.
-
-Review the prerequisites and instructions for each option, then choose the
-option that best meets your needs. Ensure you install the required software to
-run the edX Platform.
-
-If you are upgrading from the Aspen release, see `Upgrading from Aspen to
-Birch`_.
-
-For new installations, follow the steps below.
-
-#. `Download the Vagrant Box`_ or `Download the BitTorrent File`_.
-
-   .. caution::
-     The Vagrant boxes have a large file size (about 2.5GB). If you have a slow
-     or unreliable Internet connection, use BitTorrent to download the
-     Vagrant box you need.
-
-#. `Set the OPENEDX_RELEASE Environment Variable`_.
-#. `Install the Vagrant Box`_.
-
-=========================
-Download the Vagrant Box
-=========================
-
-If you have a fast and reliable Internet connection, you can download the
-Vagrant box directly or by running ``vagrant up`` when installing
-:ref:`Devstack <Installing the Open edX Developer Stack>` or
-:ref:`Fullstack <Installing Open edX Fullstack>`.
-
-See the `Open edX Releases Wiki page`_ to access the latest Vagrant
-boxes.
-
-See `Vagrant's documentation on boxes`_ for more information.
-
-
-=============================
-Download the BitTorrent File
-=============================
-
-You can also download the BitTorrent file for the option you selected.
-BitTorrent is recommended if you have a slow or unreliable data connection.
-You then use the BitTorrent file to download the Vagrant box. If the Internet
-connection is temporarily lost while you are downloading the Vagrant box
-through BitTorrent, you can later continue the download without data loss or
-corruption.
-
-See the `Open edX Releases Wiki page`_ to access the latest Vagrant
-boxes.
-
-See `BitTorrent`_ for more information.
-
-If you download the Vagrant box through BitTorrent, you must add the box to
-Vagrant before continuing with the installation process.
-
-* For devstack installations, run the following command.
-
-   .. code-block:: bash
-
-     $ vagrant box add /path-to-downloaded-box/vagrant-images-birch-2-devstack.box --name birch-devstack-2
-
-* For fullstack installations, run the following command.
-
-   .. code-block:: bash
-
-     $ vagrant box add /path-to-downloaded-box/vagrant-images-birch-2-fullstack.box --name birch-fullstack-2
-
-============================================
-Set the OPENEDX_RELEASE Environment Variable
-============================================
-
-Before installing the Vagrant box, you must set the value of the
-`OPENEDX_RELEASE` environment variable to the Git tag for the Birch release:
-
-.. code-block:: bash
-
-  export OPENEDX_RELEASE="named-release/birch.2"
-
-
-=========================
-Install the Vagrant Box
-=========================
-
-When you have completed the previous steps, install the Birch release by
-following the installation instructions for :ref:`Devstack <Installing the Open
-edX Developer Stack>` or
-:ref:`Fullstack <Installing Open edX Fullstack>`.
-
 
 ******************************
 Upgrading from Aspen to Birch

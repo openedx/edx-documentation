@@ -49,20 +49,11 @@ Create a Discussion Component
 
 #. In the discussion component that appears, select **Edit**.
 
-   .. image:: ../../../shared/images/Disc_Create_Edit.png
-    :alt: An image of the discussion component with the Edit button circled.
-    :width: 600
-
 #. Follow the guidelines in the editor to fill in the **Category**, the
    **Display Name**, and the **Subcategory** fields.
 
    .. note:: Each **Category**/**Subcategory** pair for the discussion topics
       in your course must be unique.
-
-   .. image:: ../../../shared/images/DiscussionComponentEditor.png
-    :alt: An image of the discussion component editor with a category of
-     "Getting Graded" and a subcategory of "Answering More Than Once".
-    :width: 600
 
    The value in the **Display Name** field identifies the discussion in the
    course content. The default display name for new discussion components is
@@ -94,27 +85,16 @@ A Learner's View of the Discussion
 **********************************
 
 When you add a discussion component to a unit, in the LMS, learners see only
-the display name of the discussion component, the category and subcategory,
-and a **Show Discussion** option. EdX recommends that you add an HTML
+the discussion, together with the display name of the discussion component, the category, and the subcategory. EdX recommends that you add an HTML
 component before each discussion component where you add some text to
 introduce the discussion topic.
 
-In the following example, the discussion component follows video and HTML
-components.
+In the following example, the discussion component follows an HTML
+component. Learners select **Add a Post** to post their own contributions.
 
-.. image:: ../../../shared/images/DiscussionComponent_LMS.png
-  :alt: A video component followed by a descriptive HTML text component and then
-      a discussion component, as they appear in the LMS. The discussion is not
-      displayed until a learner clicks "Show Discussion".
-  :width: 600
-
-Learners must select **Show Discussion** to expand the discussion space and
-read the contributions, or select **Add a Post** to post their own contributions.
-
-.. image:: ../../../shared/images/DiscussionComponentShown_LMS.png
-  :alt: A discussion component as it appears in the LMS after a learner has
-      clicked "Show Discussion". The "Add a Post" option becomes available.
-  :width: 600
+.. image:: ../../../shared/images/HTMLandDisc.png
+  :alt: An HTML text component and then a discussion component, as they appear
+      in the LMS.
 
 Content-specific topics that you add using discussion components are included
 on the course **Discussion** page in the same way as course-wide discussion

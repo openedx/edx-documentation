@@ -7,8 +7,16 @@ Accessibility Best Practices for Developing Course Content
 EdX is dedicated to creating a platform that is not only itself accessible, but
 also enables course content creators to create accessible content. If you
 encounter platform issues that you believe might affect your ability to provide
-accessible course content, please contact us at accessibility@edx.org. We
-welcome any comments and questions.
+accessible course content, please contact us using one of the following
+methods. We welcome any comments and questions.
+
+* Send an email message to accessibility@edx.org.
+* Submit a comment on the edX `Website Accessibility Policy
+  <http://www.edx.org/accessibility>`_ page.
+* Submit a comment on the `Individualized Accessibility Process for Course
+  Creators <https://studio.edx.org/accessibility>`_ page.
+
+.. Do not modify wording of the following note. Exact wording is from Legal.
 
 .. note:: Use of authoring tools other than those provided by edX might result
    in inaccessible course content. However, for clarity, use of edX authoring
@@ -673,6 +681,23 @@ of formats on the client side, offering the end user the ability to consume
 math content in their preferred format. EdX Studio supports authoring math
 directly in LaTeX using the `LaTeX Source Compiler
 <https://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/course_components/create_html_component.html#import-latex-code>`_ to transform LaTeX into MathJax.
+
+.. note::
+  EdX has carefully designed an assessment workflow that is flexible enough to
+  meet the needs of course authors, and accessible enough to be used by all
+  learners. However, because of limitations with HTML and screen reader
+  technology, screen readers may not be able to read math problems in edX
+  courses by default. To work around this limitation, edX recommends that
+  learners who use screen readers use one of the following methods.
+
+  * If the browser and screen reader both support MathML, the learner can
+    specify MathML as the preferred math renderer in MathJax.
+  * On the screen reader, switch from Interactive mode to Reading mode. In
+    Reading mode, screen readers can present math to learners in an accessible
+    format.
+
+  Course authors do not need to make any changes to the way they create math
+  content to work around this problem.
 
 ======================================================
 Accessible Mathematical Content Resources

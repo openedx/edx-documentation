@@ -72,13 +72,38 @@ To take a timed exam, follow these steps.
    When 20% of the time remains, the time display bar darkens to alert you.
    When 5% of the time remains, the text on the time display bar becomes bold.
 
+   .. note::
+     You can hide the amount of time that remains in your exam. To do
+     this, select the icon that is located next to the timer. To show the
+     remaining time, select the icon again.
+
 #. After you have completed and checked all the units in the exam, select **End
    My Exam** at the top of the course page. If you run out of time, the exam
    will end automatically.
 
-.. note::    You must select **Submit** to score the problems in each unit of an
-   exam. If you submit an exam without selecting **Submit** in a unit, your exam
-   results will not include scores for any of the problems in that unit.
+.. note::
+   You must select **Submit** to score the problems in each unit of an exam. If
+   you submit an exam without selecting **Submit** in a unit, your exam results
+   will not include scores for any of the problems in that unit.
+
+.. _Hiding the Exam Timer:
+
+*********************
+Hiding the Exam Timer
+*********************
+
+By default, the amount of time that remains in the exam is visible. You can
+hide or show the time that remains.
+
+To hide the remaining time, select the "eye" icon that is located next to the
+timer.
+
+To show the remaining time, select the "eye" icon again.
+
+.. image:: ../../../shared/images/ShowHideTimer.png
+ :width: 232
+ :alt: The End My Exam button next to an eye icon that shows and hides the exam
+     timer.
 
 
 .. _requesting_additional_time:

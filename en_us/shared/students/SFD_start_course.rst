@@ -1,19 +1,12 @@
-.. This file is used in both the edX and Open edX versions of the Learner's Guide. Some content is conditionalized.
-
-
 .. _SFD Starting a Course:
 
-********************
+#################
 Starting a Course
-********************
-
-This section describes how to start a course and begin doing course work, and
-how to change settings that apply to a specific course.
+#################
 
 As soon as you enroll in a course, you can access some information about the
-course and change course-specific settings on your :ref:`dashboard<SFD Learner
-Dashboard>`. If the course start date has not passed, you cannot access course
-lessons or assignments.
+course. However, if the course start date has not passed, you cannot access
+course lessons or assignments.
 
 
 .. only:: Partners
@@ -29,147 +22,146 @@ lessons or assignments.
 
 .. contents::
   :local:
-  :depth: 1
+  :depth: 2
 
 
 .. _Start Date and Duration:
 
-===========================
-Find a Course's Start Date
-===========================
+************************
+Find a Course Start Date
+************************
 
-You can usually enroll in a course before the start date, although you might
-not be able to access course materials yet.
+You can enroll in a course before the start date. You cannot access course
+materials before the start date.
 
-* You do not need to sign in exactly when the course begins.
+.. note::
+  If you want to start the course as soon as possible, you can find the start
+  date for a course, and then set a calendar reminder for that date. Some
+  courses also publish a start time.
 
-* If the course content is not immediately available, you can set a calendar
-  reminder for the course start date, and check back later.
+.. only:: Partners
 
-You can find a course's start date on its About page. Not all courses publish
-the exact start time.
+  The course start date is available in several locations.
 
-.. image:: ../../shared/images/SFD_StartDateOnCourseAbout.png
-   :width: 600
-   :alt: A course's About page with the start date above the Enroll Now button.
+  * The course card on edx.org. The course start date is located at the bottom
+    of the card.
 
-If you have enrolled in a course, the course is added to the list of courses on
-your :ref:`dashboard<SFD Learner Dashboard>`. You can find the start date on the
-course listing on your dashboard.
+    .. image:: ../../shared/images/CourseCard_StartDate.png
+     :alt: A course card, showing the course start date at the bottom of the
+         card.
 
-.. image:: ../../shared/images/SFD_StartDateOnDashboard.png
-   :width: 600
-   :alt: A course listing on a learner's dashboard with the start date underthe
-     name of the course.
+  * The course About page. The course start date is located above the **Enroll
+    Now** option.
 
+    .. image:: ../../shared/images/SFD_StartDateOnCourseAbout.png
+     :width: 600
+     :alt: A course's About page with the start date above the Enroll Now
+         button.
+
+  * The course on your :ref:`dashboard<SFD Learner Dashboard>`. The course
+    start date is located below the course title.
+
+    .. image:: ../../shared/images/SFD_StartDateOnDashboard.png
+     :width: 600
+     :alt: A course listing on a learner's dashboard, with the start date under
+       the name of the course.
+
+.. only:: Open_edX
+
+  After you enroll in a course, the course is visible on your dashboard. The
+  course start date is located below the course title.
+
+    .. image:: ../../shared/images/SFD_StartDateOnDashboard.png
+     :width: 600
+     :alt: A course listing on a learner's dashboard, with the start date under
+       the name of the course.
 
 For more information about different course statuses, see :ref:`Course
 Availability`
 
 .. Deliberate omission of period at end of above sentence because the title that is inserted ends with a question mark.
 
+.. _Start a Course:
 
-===============
-Start a Course
-===============
+************************
+Start or Resume a Course
+************************
 
-To start work in a course that is in progress, follow these steps.
-
-#. On your dashboard, click **View Course** for the course that you want to open.
-
-   .. image:: ../../shared/images/dashboard_view_course.png
-     :width: 500
-     :alt: A course card on the dashboard, with the View Course button circled.
-
-   The course opens on the **Course** page, where you usually see a welcome
-   message from the course team.
-
-   .. image:: ../../shared/images/course_dismiss_update.png
-     :width: 600
-     :alt: The landing page of a course, with the Dismiss link in the welcome
-        message circled, and the Updates link under Course Tools in the sidebar
-        highlighted.
-
-
-#. When you have read a message from the course team, you can click
-   **Dismiss** to stop displaying the message. If you want to read the message
-   again, click **Updates** under **Course Tools**.
-
-   Below any messages from the course team, you see the course outline.
-
-   .. image:: ../../shared/images/course_nav_outline.png
-     :width: 350
-     :alt: The course outline, with a section selected.
-
-
-#. Click **Start Course** to go to the first section of the course, or select
-   any part of the course to jump to it.
-
-   If you have already accessed or worked in the course, you see a **Resume
-   Course** button instead of a **Start Course** button. Click **Resume
-   Course** to jump to the part of the course that you last accessed.
-
-
-==============================
-View an Archived Course
-==============================
-
-You can enroll or continue to work in some courses even after the course end
-date. These courses are archived, which means that while you can access the
-course content, you cannot submit answers for graded problems or participate in
-course discussions.
-
-To view the content of an archived course, follow these steps.
-
-#. On your dashboard, locate the course.
-
-#. Select **View Archived Course**.
-
-======================
-View a Course Grade
-======================
-
-To view your current grade in a course that has not yet ended, see :ref:`SFD
-Check Progress`.
-
-To view your final grade in a course that you have completed, follow these
-steps.
-
-#. On your dashboard, locate the course. Your final grade appears under the
-   course name.
-
-#. Optionally, print your dashboard to obtain a record of your achievement in
-   the course.
-
-You can also view the course and open its **Progress** page to view your final
-grade, as well as your grades on all course assignments.
-
-========================
-View Certificate Status
-========================
-
-If you are enrolled in a certificate track for your course, updates on the
-status of your certificate, and options for accessing earned certificates, are
-available in the course card on your dashboard.
-
-For example, if you have earned a certificate and the course team has
-generated certificates for the course, you can use the **View Certificate**
-option to access your web certificate.
-
-.. image:: ../../shared/students/Images/SFD_Cert_web.png
-   :width: 600
-   :alt: Dashboard with course name, grade, and link to the certificate.
-
+After you enroll in a course, the course is visible on your :ref:`dashboard
+<SFD Dashboard>` together with the course :ref:`start date <Start Date
+and Duration>`. After the course start date has passed, you can access course content.
 
 .. only:: Partners
 
-  For information about how to access certificates, including how to view,
-  print, and share certificates, see :ref:`learners:Certificates`.
+ If a course is not visible on your dashboard, select the edX logo at the top
+ of the page to view the `edX course catalog`_, and then select and
+ :ref:`enroll <SFD Enrolling in a Course>` in the course that you want.
 
-.. only:: Open_edX
+After the course start date has passed, you can access course content.
 
-  For information about how to access certificates, including how to view,
-  print, and share certificates, see :ref:`openlearners:Certificates`.
+==============
+Start a Course
+==============
+
+.. note::
+  When you start a course, you do not need to sign in exactly when the course
+  begins.
+
+To start a course, locate the course on your dashboard, and then select **View
+Course**.
+
+The course opens to the **Course** page. On this page, below any messages from
+the course team, the course outline is visible. Above the outline is a **Start
+Course** option.
+
+.. image:: ../../shared/images/course_nav_outline_startcourse.png
+ :alt: The Course page, showing a welcome message and the course outline in
+     the left pane.
+
+* To start the course at the first section, select **Start Course**.
+* To start the course at a different location, expand the course outline, and
+  then select any part of the course.
+
+===============
+Resume a Course
+===============
+
+When you resume work in a course, you can return to the unit that you completed
+most recently in all of your courses, or in a specific course.
+
+.. note::
+ A unit is complete when you have completed all of the following actions.
+
+ * Watch all videos.
+ * Submit answers to all problems.
+ * View all text or other content for at least five seconds. 
+
+ When you complete a part of a course, a green check mark is visible on the
+ course outline. For more information, see :ref:`SFD Progress Indicators`.
+
+Return to the Most Recently Completed Unit in All Courses
+*********************************************************
+
+To return to the unit you completed most recently in all of your courses,
+select the arrow next to your username on any page, and then select **Resume
+your last course**.
+
+The course that you were most recently working in opens to the unit that you
+most recently completed.
 
 
+Return to the Most Recently Completed Unit in a Specific Course
+***************************************************************
 
+To return to the unit you completed most recently in a specific course, you
+have the following options.
+
+* On your edX dashboard, locate your course, and then select **Resume Course**
+  next to the social media sharing options.
+* Open the course, and then select **Resume Course** on the **Course** page.
+
+When you select **Resume Course**, the course opens to the unit that you most
+recently completed.
+
+
+.. include:: ../../links/links.rst

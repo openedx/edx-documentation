@@ -2216,7 +2216,7 @@ event type also includes the following ``context`` member field.
    * - ``location``
      - string
      - The location in the LMS where the student clicked an upgrade link or
-       button: 'date-sidebar', 'hero', 'learner_dashboard', or 'sock'.
+       button.
    * - ``mode``
      - string
      - Enrollment mode when the user clicked an upgrade link or button:
@@ -5259,17 +5259,16 @@ exploration.
 Microsoft Office Mix Events
 ===========================
 
-Course teams can use Office Mix to turn Microsoft PowerPoint presentations in
-to interactive online lessons, called mixes. They can then use the Office Mix
-tool in Studio to include mixes in a course. When users interact with the
-Office Mix player in the LMS, the server emits the following events.
+Course teams could formerly use Office Mix to turn Microsoft PowerPoint 
+presentations in to interactive online lessons, called mixes. They can 
+then use the Office Mix tool in Studio to include mixes in a course. 
+Microsoft has discontinued Office Mix, so this tool is no longer available. 
+When users interacted with the Office Mix player in the LMS, the server would 
+emit the following events.
 
 .. contents::
   :local:
   :depth: 1
-
-For more information about adding mixes to a course, see
-:ref:`partnercoursestaff:Office Mix Tool`.
 
 ``microsoft.office.mix.loaded``
 ******************************************

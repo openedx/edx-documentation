@@ -10,8 +10,8 @@ Add a Course or Program About Video
   :ref:`Add an About Video`.
 
 When you add an About video for a course or a program, you upload the video to
-the edX/Veda video upload page. For course About videos, but not program About
-videos, you then enter the URL for the About video in Publisher.
+the edX/Veda video upload page. The PC then adds the About video to the
+Publisher course page.
 
 To add an About video for a course or program that is running on edx.org,
 follow these steps.
@@ -26,33 +26,9 @@ follow these steps.
    You can abbreviate the full name of the course or program. However, the
    information that you enter should clearly identify your course or program.
 
-#. For a **course** About video, enter the Studio URL for the course in the
-   **edX Studio Course URL** field. For example,
-   ``https://studio.edx.org/course/course-v1:edX+edX101x+2015``.
+.. note::
+  If problems occur when you try to upload the About video by using Veda, try
+  to upload the About video in a different browser, such as `Mozilla Firefox`_
+  or `Safari`_.
 
-   For a **program** About video, locate the **edX Studio Course URL** field,
-   and then add identifying information about the program to the Studio URL
-   that is provided. For example,
-   ``https://studio.edx.org/course/XSeries_edX_VideoX``.
-
-   The value that you enter in this field does not need to resolve to an actual
-   URL, but it must begin with ``https://studio.edx.org/course/``.
-
-#. Select **Submit**.
-
-#. Locate the video file on your computer. For example, if you use a Mac
-   computer, open Finder and go to the directory that contains the video file.
-
-#. Drag the video file from the local directory into the **Drop files here to
-   upload** field. You can also click inside this field to browse to the file.
-
-   The file upload process begins immediately.
-
-   .. important::
-     Do not close the browser tab or window, or use it to go to another URL
-     while the file is uploading. When the upload process is complete, the
-     message "File Upload Complete" appears.
-
-#. (For course videos only) In Publisher, add the About video URL to the page
-   for the course. For more information, see :ref:`Pub Create a Course`.
-
+.. include:: ../../../../links/links.rst

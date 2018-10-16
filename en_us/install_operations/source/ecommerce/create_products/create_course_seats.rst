@@ -33,41 +33,43 @@ To create a course seat, follow these steps.
    * Course Seats
    * Bulk :ref:`Enrollment Code<Enable and Create Enrollment Codes>` Yes/No
 
-*  For **Course Type**, select a course type and the options for that course
+   For **Course Type**, select a course type and the options for that course
    type.
 
-   * If you select **Free (Audit)**, you must specify whether you want to allow
-     honor code learners to earn an honor code certificate. To do this, select
-     **Yes** under **Include Honor Seat**.
+     * If you select **Free (Audit)**, you must specify whether you want to
+       allow honor code learners to earn an honor code certificate. To do this,
+       select **Yes** under **Include Honor Seat**.
 
-   * If you select **Verified**, you must add the following information.
+     * If you select **Verified**, you must add the following information.
 
-     * **Price (in USD)**
-     * **Upgrade Deadline**
-     * **Verification Deadline**
-     * **Include Honor Seat**: This option grants honor code certificates to
-       learners who successfully complete the course.
+       * **Price (in USD)**
+       * **Upgrade Deadline**
+       * **Verification Deadline**
+       * **Include Honor Seat**: This option grants honor code certificates to
+         learners who successfully complete the course.
 
-   * If you select **Professional Education**, you must add the following
-     information.
+     * If you select **Professional Education**, you must add the following
+       information.
 
-     * **Price (in USD)**
-     * **ID Verification Required?**
-     * **Upgrade Deadline**
-     * **Verification Deadline**: This option is required if you select **Yes**
-       for **ID Verification Required?**
+       * **Price (in USD)**
+       * **ID Verification Required?**
+       * **Upgrade Deadline**
 
-   * If you select **Credit**, you must add the following information.
+       * **Verification Deadline**: This option is required if you select
+         **Yes** for **ID Verification Required?**
 
-     * **Price (in USD)**: The price for a verified certificate.
-     * **Upgrade Deadline**
-     * **Credit Provider**
-     * **Price (USD)**: The price for course credit.
-     * **Credit Hours**
-     * **Upgrade Deadline**
-     * **Verification Deadline**
-     * **Include Honor Seat**: This option grants honor code certificates to
-       learners who successfully complete the course.
+     * If you select **Credit**, you must add the following information.
+
+       * **Price (in USD)**: The price for a verified certificate.
+       * **Upgrade Deadline**
+       * **Credit Provider**
+       * **Price (USD)**: The price for course credit.
+       * **Credit Hours**
+       * **Upgrade Deadline**
+       * **Verification Deadline**
+       * **Include Honor Seat**: This option grants honor code certificates to
+         learners who successfully complete the course.
+         
 
 #. Select **Create Course**.
 

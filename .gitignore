@@ -8,6 +8,7 @@
 .project
 .pycharm_helpers/
 .pydevproject
+venv/
 
 ### NFS artifacts
 .nfs*

@@ -123,6 +123,20 @@ To enroll learners or course team members, follow these steps.
    note that this feature is better suited to courses with smaller enrollments,
    rather than courses with massive enrollments.
 
+#. For **Role of the users being enrolled**, select the role of the learner.
+
+   * If the learner is a member of the course staff, select **Partner**.
+   * If the learner is not a member of the course staff, select **Learner**.
+
+   .. note::
+    All of the users that you enroll at one time must have the same role. If
+    you have some users who are partners and others who are learners, you must
+    complete two batch enrollments.
+
+#. In the **Enter the reason why the students are to be manually enrolled or
+   unenrolled** field, enter a specific, detailed reason why you want to
+   enroll these learners.
+
 #. To streamline the course enrollment process, leave **Auto Enroll** selected.
 
 #. To send learners an email message, leave **Notify students by email**
@@ -208,6 +222,10 @@ To unenroll learners, you supply the email addresses of enrolled learners.
 #. In the **Batch Enrollment** section of the page, enter a username or an
    email address, or multiple names or addresses separated by commas or new
    lines.
+
+#. In the **Enter the reason why the students are to be manually enrolled or
+   unenrolled** field, enter a specific, detailed reason why you want to
+   unenroll these learners.
 
 #. To send learners an email message, leave **Notify students by email**
    selected.

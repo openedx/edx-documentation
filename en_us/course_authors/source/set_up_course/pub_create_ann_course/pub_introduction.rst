@@ -23,6 +23,17 @@ the Publisher process, and explains how to complete common tasks.
   :local:
   :depth: 1
 
+.. _Signing In to Publisher:
+
+***********************
+Signing In to Publisher
+***********************
+
+Publisher is a separate tool from Studio.
+
+To sign in to Publisher, go to https://prod-edx-discovery.edx.org/publisher,
+and then enter your edX username and password.
+
 .. _Publisher Terms:
 
 *********************
@@ -86,46 +97,3 @@ create and edit a course run before, while, or after edX marketing reviews a
 course. However, the course team must finalize the course before the course
 team can send the course run to the edX PC for review.
 
-.. _Change the Course Team Admin:
-
-****************************
-Change the Course Team Admin
-****************************
-
-On the course team, only the user who is listed as the course team admin can
-edit the course or course run. Other members of the course team can view but
-cannot edit this information. You can change the course team admin at any time.
-
-To change the course team admin, follow these steps.
-
-#. To open Publisher, go to https://prod-edx-discovery.edx.org/publisher.
-#. Open the page for the course or the course run.
-
-   * To open the page for the course, go to the **Courses** page, and select
-     the course that you want from the list.
-
-   * To open the page for the course run, use one of the following methods.
-
-     * On the dashboard, select the **In Development** tab, and then select the
-       course run that you want. You can identify the course run by the start
-       date.
-
-     * On the **Courses** page, select the course that you want. When the page
-       for the course opens, under **Course Runs**, select the course run.
-
-#. On the page for the course or the course run, locate **Course Team** under
-   **Reviews**.
-#. Next to the name of the current course team admin, select **Change**.
-#. In the list, select the name of the new course team admin.
-#. Select **Change**.
-
-.. _Turn Off Email Notifications:
-
-********************************************
-Turn Off Publisher Email Notifications
-********************************************
-
-You can turn off email notifications from any page in Publisher.
-
-To turn off email notifications, select your username in the upper right corner
-of the page, and then click the on/off switch next to **Email notifications**.

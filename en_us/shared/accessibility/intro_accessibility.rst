@@ -5,9 +5,8 @@ Accessibility Best Practices Guidance for Content Providers
 ######################################################################
 
 The core mission of edX is to expand access to education for everyone. We
-expect courses and course content developed on the Open edX platform to be
-accessible to everyone, regardless of any physical limitation that they might
-have.
+expect courses and course content developed on our platform to be accessible to
+everyone, regardless of any physical limitation that they might have.
 
 .. Do not modify the following paragraph; wording exactly as provided by Legal.
 

@@ -100,6 +100,10 @@ Specify Exam Rules and Exceptions
   rules <CA Online Proctoring Rules>` that this guide lists are common to many
   proctoring services.
 
+.. note::
+  The course grace period setting does not apply to proctored exams. For more
+  information about the grace period setting, see :ref:`Set the Grace Period`.
+
 You can also provide custom rules for a particular exam. For example, you might
 allow learners to use a calculator, or to have one sheet of blank paper. These
 rules are visible to reviewers and learners at the start of each proctoring

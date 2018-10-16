@@ -57,6 +57,14 @@ To change your password, follow these steps.
    Address** field.
 
 #. Select the confirmation link in the email message.
+   
+.. only:: Partners
+
+  Passwords must contain:
+
+  * At least 8 characters
+  * At least 1 numeric character
+  * At least 1 alphabetical character
 
 *************************
 Update Your Email Address

@@ -1,8 +1,8 @@
 .. _Creating a New Course:
 
-###########################
-Creating a New Course
-###########################
+###############################
+Creating a New Course in Studio
+###############################
 
 This topic describes how to use Studio to create and set up a course.
 
@@ -10,7 +10,7 @@ This topic describes how to use Studio to create and set up a course.
 
    .. note::
     This process applies to courses on the edX Edge site. If your course will
-    run on edx.org, see :ref:`Pub Creating and Announcing a Course`.
+    run on edx.org, see :ref:`Pub Course Creation`.
 
     You must have the correct permissions to create courses on the edX Edge
     site. For more information, see :ref:`Use Studio on Edge`.
@@ -119,5 +119,76 @@ team privileges.
 
 To edit a course, select the course name. The Studio **Course Outline** page
 appears.
+
+.. _Change the Course Title or Number:
+
+*************************************
+Change the Course Title or Number
+*************************************
+
+The course title and number that you specify when you create your course become
+part of the course URL. The course URL cannot be changed. However, you can
+change the way that your course title and number appear in Studio and the LMS.
+
+.. _Change the Course Title:
+
+=======================
+Change the Course Title
+=======================
+
+To change the way that your course title appears in Studio and the LMS, follow
+these steps.
+
+.. note::
+ EdX does not recommended that you do this if your course is live.
+
+#. Open the course in Studio.
+#. On the **Settings** menu, select **Advanced Settings**.
+#. In the **Course Display Name** field, enter the title that you want.
+#. Select **Save**.
+
+In Studio and the LMS, your course title changes to the value that you specify
+in the **Course Display Name** field. The URL for your course does not change.
+
+.. _Change the Course Number:
+
+========================
+Change the Course Number
+========================
+
+To change the way that your course number appears in Studio and the LMS, follow
+these steps.
+
+.. note::
+ EdX does not recommended that you do this if your course is live.
+
+#. Open the course in Studio.
+#. On the **Settings** menu, select **Advanced Settings**.
+#. In the **Course Number Display String** field, enter the number that you
+   want.
+#. Select **Save**.
+
+In Studio and the LMS, your course number changes to the value that you specify
+in the **Course Number Display String** field. The URL for your course does not
+change.
+
+.. only:: Open_edX
+
+  .. _Add Course Metadata:
+
+  *******************
+  Add Course Metadata
+  *******************
+
+  To make certain information about your course available to entities such as
+  customer relationship management (CRM) software, a marketing site, or other
+  external systems, follow these steps.
+
+  #. Create a JSON dictionary that contains the metadata that you want to add.
+  #. In Studio, open your course, and then select **Advanced Settings** on the
+     **Settings** menu.
+  #. In the **Other Course Settings** field, paste your JSON dictionary.
+
+
 
 .. include:: ../../../../links/links.rst

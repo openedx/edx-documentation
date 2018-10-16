@@ -19,7 +19,10 @@ configuration options.
    edx_search
    enable_badging
    enable_certificates
+   enable_pacing
    enable_ccx
+   enable_custom_course_settings
+   enable_discussion_notifications
    enable_entrance_exams
    ora2/index
    enable_prerequisites
@@ -29,6 +32,7 @@ configuration options.
    enable_socialsharing_icons
    tpa/index
    enable_timed_exams
+   user_retire/index
    youtube_api
    install_xblock
    static_replace/cdn

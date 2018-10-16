@@ -10,7 +10,17 @@ learner dashboards and search engine results.
 
 .. only:: Partners
 
-  A course image is required to create an About page.
+    For edx.org courses, you enter this information in Publisher. For more
+    information, see :ref:`Pub Creating a Course`.
+
+    For courses on Edge, you enter this content in Studio. For more
+    information, see :ref:`Creating a New Course`.
+
+.. only:: Open_edX
+
+ For information about how to add your course title and number, see
+ :ref:`Creating a New Course`.
+
 
 .. contents::
   :local:
@@ -43,15 +53,7 @@ mind.
   Flickr creative commons, Stock Vault, Stock XCHNG, and iStock Photo.
 * Each course in a sequence or program must have a unique image.
 
-.. only:: Partners
 
-  For more information about how to add a course image, see :ref:`Pub Create a
-  Course`.
-
-.. only:: Open_edX
-
-  For more information about how to add a course image, see :ref:`Add a Course
-  Image`.
 
 .. _Image Size Guidelines:
 
@@ -67,11 +69,11 @@ Course Image Size
 
 .. only:: Partners
 
-  The course image size must be 2120 x 1192 pixels. However, only part of this
-  image may be visible. The viewable area varies according to the web page
+  New course images must be 1134 x 675 pixels in size. However, only part of
+  this image may be visible. The viewable area varies according to the web page
   where the viewer sees the image.
 
-  The following example course image is 2120 x 1192 pixels. The image shows the
+  The following example course image is 1134 x 675 pixels. The image shows the
   area of a course image that is always visible, as well as the areas that are
   also visible on different pages. You can click to enlarge the image.
 
@@ -80,6 +82,11 @@ Course Image Size
      :alt: An example course image, showing the area that is always visible,
          the additional area visible for program pages and the learner
          dashboard, and the area that may be hidden in search results.
+
+  .. note::
+    For courses that had a first run before December 2017, image sizes of 2120
+    x 1192 pixels and 378 x 225 pixels are supported. However, we strongly
+    recommend that you update your course image size to 1134 x 675 pixels.
 
 .. only:: Open_edX
 
@@ -128,9 +135,9 @@ This video should answer these key questions.
 This video should deliver your message as concisely as possible and have a run
 time of less than two minutes.
 
-Before you upload a course About video, make sure that it follows the same
-:ref:`video guidelines<Compression Specifications>` as your course content
-videos.
+Before you upload a course About video, make sure that it follows the
+same :ref:`video guidelines<Video Compression Specifications>`
+as your course content videos.
 
 .. note::
 
@@ -146,10 +153,13 @@ videos.
 
 .. only:: Partners
 
- When you add an About video for a course, you must first upload the video to
- the edX/Veda video upload page. You can then optionally enter the URL for your
- course About video in Publisher. For more information, see :ref:`Pub Add an
- About Video` and :ref:`Pub Create a Course`.
+ For courses on edx.org, when you add an About video for a course, you must
+ first upload the video to the edX/Veda video upload page. You can then
+ optionally enter the URL for your course About video in Publisher. For more
+ information, see :ref:`Pub Add an About Video` and :ref:`Pub Create a Course`.
+
+ For courses on Edge, see :ref:`Add an About Video` for information about how
+ to add an About video to your course About page.
 
 .. only:: Open_edX
 

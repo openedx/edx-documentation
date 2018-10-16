@@ -25,8 +25,6 @@ source_suffix = '.rst'
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = 'sphinx'
 
-html_use_smartypants = True
-
 # Add any Sphinx extension module names here, as strings. They can be extensions
 # coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
 extensions = [
@@ -38,6 +36,7 @@ extensions = [
     'sphinx.ext.mathjax',
     'sphinx.ext.ifconfig',
     'sphinx.ext.extlinks',
+    'sphinx.ext.graphviz'
 ]
 
 # The suffix of source filenames.
@@ -62,9 +61,8 @@ html_theme = 'edx_theme'
 
 html_theme_path = [edx_theme.get_html_theme_path()]
 
-html_theme_options = {
-    'navigation_depth': 3
-}
+html_theme_options = {}
+html_theme_options['navigation_depth'] = 3
 
 html_favicon = os.path.join(edx_theme.get_html_theme_path(), 'edx_theme', 'static', 'css', 'favicon.ico')
 
@@ -158,11 +156,12 @@ intersphinx_mapping = {
     'learners' : ('http://edx.readthedocs.io/projects/edx-guide-for-students/en/latest/', None),
     'openlearners' : ('http://edx.readthedocs.io/projects/open-edx-learner-guide/en/latest/', None),
     'opendevelopers' : ('http://edx.readthedocs.io/projects/edx-developer-guide/en/latest/', None),
-    'openplatformapi' : ('http://edx.readthedocs.io/projects/edx-platform-api/en/latest/', None),
     'opendataapi' : ('http://edx.readthedocs.io/projects/edx-data-analytics-api/en/latest/', None),
     'openreleasenotes' : ('http://edx.readthedocs.io/projects/open-edx-release-notes/en/latest/', None),
     'partnerreleasenotes': ('http://edx.readthedocs.io/projects/edx-release-notes/en/latest/', None),
-    '2014releasenotes' : ('http://edx.readthedocs.io/projects/edx-2013-2014-release-notes/en/latest/', None)
+    '2014releasenotes' : ('http://edx.readthedocs.io/projects/edx-2013-2014-release-notes/en/latest/', None),
+    'retirement' : ('http://user-retirement-guide.readthedocs.io/en/latest/', None)
+
 }
 
 extlinks = {

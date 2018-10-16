@@ -422,8 +422,8 @@ E
 
 **enrollment track**
 
-  Also called **course mode**, **course track**, **course type**, **enrollment
-  mode**, or **seat type**.
+  Also called **certificate type**, **course mode**, **course seat**, **course
+  track**, **course type**, **enrollment mode**, or **seat type**.
 
   The enrollment track specifies the following items about a course.
 
@@ -433,31 +433,41 @@ E
       a webcam and a photo ID.
     * Whether the course requires a fee.
 
-  The edX platform offers the following enrollment tracks.
+  * **audit**: This is the default enrollment track when learners enroll in a
+    course. This track does not offer certificates, does not require identity
+    verification, and does not require a course fee.
 
-  * **audit**: The default enrollment track. This track does not offer
-    certificates, does not require identity verification, and does not require
-    a course fee.
+  * **professional**: This enrollment track is only used for specific
+    professional education courses. The professional enrollment track offers
+    certificates, requires identity verification, and requires a fee. Fees for
+    the professional enrollment track are generally higher than fees for the
+    verified enrollment track. Courses that offer the professional track do not
+    offer a free enrollment track.
+
+    .. note::
+       If your course is part of a MicroMasters or professional certificate
+       program, your course uses the verified track. These courses do not use
+       the professional enrollment track.
 
   * **verified**: This enrollment track offers verified certificates to
     learners who pass the course, verify their identities, and pay a required
     course fee. A course that offers the verified enrollment track also
     automatically offers a free non-certificate enrollment track.
 
-  * **honor**: This enrollment track offers an honor code certificate to
-    learners who pass the course. This track does not require identity
-    verification and does not require a fee. Note, however, that as of December
-    2015, edx.org no longer offers honor code certificates. For more
-    information, see `News About edX Certificates`_.
+  * **honor**: This enrollment track was offered in the past and offered an
+    honor code certificate to learners who pass the course. This track does not
+    require identity verification and does not require a fee. Note, however,
+    that as of December 2015, edx.org no longer offers honor code certificates.
+    For more information, see `News About edX Certificates`_.
+
+  .. only:: Partners
+
+    * **credit**: In this enrollment track, learners who pass the course and
+      comply with additional requirements, including identity verification, can
+      receive academic credit for the course. For more information, see
+      :ref:`partnercoursestaff:Academic Course Credit`.
 
   .. only:: Open_edX
-
-    * **professional**: This enrollment track is used for professional
-      education courses. The professional enrollment track offers certificates,
-      requires identity verification, and requires a fee. Fees for the
-      professional enrollment track are generally higher than fees for the
-      verified enrollment track. Courses that offer the professional track do
-      not offer a free enrollment track.
 
     * **professional (no ID)**: Like the professional enrollment track, this
       track offers certificates and requires a fee. However, this track does
@@ -833,6 +843,16 @@ P
   For more information, see :ref:`partnercoursestaff:Working with Problem
   Components` and :ref:`partnercoursestaff:Exercises and Tools Index`.
 
+.. _Proctored Exam_g:
+
+**proctored exam**
+
+  At edX, proctored exams are timed, impartially and electronically monitored
+  exams designed to ensure the identity of the test taker and determine the
+  security and integrity of the test taking environment. Proctored exams are
+  often required in courses that offer verified certificates or academic
+  credit. For more information, see :ref:`partnercoursestaff:Managing
+  Proctored Exams`.
 
 .. _Program:
 
@@ -961,6 +981,13 @@ S
   information about third party authentication, see
   :ref:`Third Party Authentication<T>`.
 
+.. _Special Exam_g:
+
+**special exam**
+
+  A general term that applies to proctored and timed exams in edX courses. See
+  :ref:`Timed Exam<T>` and :ref:`Proctored Exam<P>`.
+
 .. _Split_Test:
 
 **split test**
@@ -995,6 +1022,16 @@ T
 
   For more information, see :ref:`partnercoursestaff:Text Input`.
 
+.. _Timed Exam_g:
+
+**timed exam**
+
+  Timed exams are sets of problems that a learner must complete in the amount
+  of time you specify. When a learner begins a timed exam, a countdown timer
+  displays, showing the amount of time allowed to complete the exam.
+  If needed, you can grant learners additional time to complete the exam.
+  For more information, see :ref:`partnercoursestaff:Timed Exams`.
+
 .. _TPA_g:
 
 **third party authentication**
@@ -1015,7 +1052,7 @@ T
   A text version of the content of a video. You can make video transcripts
   available to learners.
 
-  For more information, see :ref:`Create the Transcript`.
+  For more information, see :ref:`Obtain a Video Transcript`.
 
 .. _U:
 

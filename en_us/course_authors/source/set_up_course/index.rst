@@ -12,27 +12,20 @@ types of basic information.
 * **Course run** information, such as the course staff and start date,
   can change every time the course runs.
 
-When you are ready to create a course, you enter this information in
-:ref:`edX Publisher <Introduction to Publisher>`. Publisher is a companion
-to Studio. The information that you enter depends on your goal.
+After you plan your course and course run information, you enter it into either
+Publisher or Studio, depending on whether your course will be on edx.org or on
+Edge.
 
-* **If your goal is to enter course content in Studio**, you enter a small
-  amount of specific course and course run information in Publisher. EdX will
-  then create a Studio URL for a course run, and you can add lessons and modify
-  settings in Studio.
+* **For courses on edx.org**, you plan your course and course run information,
+  and then you enter that information in Publisher. Publisher is a companion to
+  Studio and is used to create About pages. For more information, see :ref:`Pub
+  Creating and Announcing a Course`.
 
-* **If your goal is to create a course About page**, you enter all required
-  information in Publisher, as well as a limited amount of information in
-  Studio. EdX then creates an About page for your course run and publishes the
-  About page on edx.org.
+* **For courses on Edge**, you plan your course and course run information, and
+  then you enter that information in Studio. For more information, see
+  :ref:`Partner Add Studio Information`.
 
-  .. note::
-   Before you enter any content or information in Studio, edX must create a
-   Studio URL.
-
-This section provides information about how to determine required course and
-course run information, as well as how to enter this information into Publisher
-and Studio.
+For more information, see the following topics.
 
 .. toctree::
    :maxdepth: 1

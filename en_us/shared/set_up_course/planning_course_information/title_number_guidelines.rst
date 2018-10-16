@@ -1,27 +1,6 @@
-.. _Course Title and Number:
-
-#######################
-Course Title and Number
-#######################
-
-The course title (sometimes also called the course name) and number are
-important identifiers for your course. It is a good idea to use titles and
-numbers that are easy to understand and remember.
-
-.. only:: Partners
-
- A course title and number are required to create an About page. You enter your
- course title and number in Publisher. For more information, see
- :ref:`Pub Creating a Course`.
-
-.. only:: Open_edX
-
- For information about how to add your course title and number, see
- :ref:`Creating a New Course`.
-
-.. contents::
-  :local:
-  :depth: 1
+.. For the introduction to this topic, see the individual
+.. title_number_guidelines.rst files in the course_authors and
+.. open_edx_course_authors guides.
 
 .. _Course Title Guidelines:
 
@@ -43,13 +22,19 @@ When you determine the title of your course, consider the following guidelines.
 
 .. only:: Partners
 
- For more information about adding a course name, see :ref:`Pub Creating a
- Course`.
+ For more information about how to add your course name, see :ref:`Pub Creating
+ a Course`.
 
 .. only:: Open_edX
 
- For information about how to add your course title, see
+ For information about how to add your course name, see
  :ref:`Creating a New Course`.
+
+.. note::
+  The title that you specify when you create your course becomes part of the
+  course URL. The course URL cannot be changed. However, if you want to change
+  the way that your course title appears in Studio and the LMS, see
+  :ref:`Change the Course Title`.
 
 ======================
 Example Course Titles
@@ -81,10 +66,16 @@ Course numbers have the following guidelines.
 * If a course consists of several modules, the course number can have an ending
   such as .1x or .2x.
 
+.. note::
+  The number that you specify when you create your course becomes part of the
+  course URL. The course URL cannot be changed. However, if you want to change
+  the way that your course number appears in Studio and the LMS, see
+  :ref:`Change the Course Number`.
+
 .. only:: Partners
 
- For more information about adding a course number, see :ref:`Pub Creating a
- Course`.
+ For more information about how to add your course number, see :ref:`Pub
+ Creating a Course`.
 
 .. only:: Open_edX
 
@@ -98,4 +89,3 @@ Example Course Numbers
 * CS002x
 * BIO1.1x and BIO1.2x
 * 6.002.1x and 6.002.2x
-

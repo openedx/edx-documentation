@@ -1,8 +1,8 @@
 .. _Creating a Course About Page:
 
-############################
-Creating a Course About Page
-############################
+#######################################
+Creating a Course About Page in Studio
+#######################################
 
 .. only:: Partners
 
@@ -21,12 +21,13 @@ before they enroll in the course.
 
 .. only:: Open_edX
 
-   .. note:: If the CourseTalk widget is enabled for your instance of the Open edX
+   .. note::
+      If the CourseTalk widget is enabled for your instance of the Open edX
       platform, the About page for every course also includes the CourseTalk
-      widget. Learners who have enrolled in your course use this widget to write
-      reviews of your course on the **Course** page in the LMS. These reviews are
-      then visible on the course About page. For more information, see
-      :ref:`installation:Add CourseTalk`.
+      widget. Learners who have enrolled in your course use this widget to
+      write reviews of your course on the **Course** page in the LMS. These
+      reviews are then visible on the course About page. For more information,
+      see :ref:`installation:Add CourseTalk`.
 
 
 You add the contents of your course About page in Studio. For more information,
@@ -103,7 +104,7 @@ Add a Course Image
 Add a Course About Video
 ******************************
 
-. only:: Partners
+.. only:: Partners
 
    .. note::
     This process applies to courses on the edX Edge site. If your course will
@@ -143,7 +144,7 @@ To upload a course About video, follow these steps.
 Set Course Effort Expectations
 ******************************
 
-. only:: Partners
+.. only:: Partners
 
    .. note::
     This process applies to courses on the edX Edge site. If your course will

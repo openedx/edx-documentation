@@ -80,16 +80,18 @@ For more information, see :ref:`Designing For a Mobile Experience`.
 Making Course Content Visible to Students
 *****************************************
 
-* The :ref:`course start date <Set Start and End Dates>`
+Course content visibility depends on the following factors.
+
+* The :ref:`course start date <Set Start and End Dates>`.
 * The release dates of the :ref:`section<Set a Section Release Date>` and
-  :ref:`subsection<Set a Subsection Release Date>`
+  :ref:`subsection<Set a Subsection Release Date>`.
 * The :ref:`prerequisite subsections<configuring_prerequisite_content>` that
-  you configure
-* The :ref:`publishing status<Hide a Unit from Students>` of the unit
-* The :ref:`Hide content from learners<Hide a Unit from Students>` setting
+  you configure.
+* The :ref:`publishing status<Hide a Unit from Students>` of the unit.
+* The :ref:`Hide content from learners<Hide a Unit from Students>` setting.
 
 * The :ref:`content groups<About Content Groups>` or :ref:`enrollment track
-  groups<About Enrollment Track Groups and Access>` that you have allowed to access the content
+  groups<About Enrollment Track Groups and Access>` that you have allowed to access the content.
 
 * The use of the :ref:`Results Visibility<Problem Results Visibility>`
   setting.

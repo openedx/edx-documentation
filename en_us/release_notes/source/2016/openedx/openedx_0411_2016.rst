@@ -25,4 +25,4 @@ deprecated.
   profile image web service.
 
 For more information about supported and deprecated web services,
-see :ref:`openplatformapi:Open edX Platform APIs`.
+see *Open edX Platform APIs*.

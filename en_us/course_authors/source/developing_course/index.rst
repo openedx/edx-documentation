@@ -26,4 +26,5 @@ content for randomized assigments, see :ref:`Content Libraries`.
    course_units
    course_components
    controlling_content_visibility
+   licensing_course
    testing_courseware

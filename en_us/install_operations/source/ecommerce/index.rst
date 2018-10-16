@@ -31,9 +31,9 @@ information, see :ref:`Additional Ecommerce Features`.
    create_products/index
    enable_receipt_page
    manage_orders
-   test_features
    test_ecommerce
    additional_features/index
+   internationalization
 
 
 

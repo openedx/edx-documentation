@@ -106,11 +106,12 @@ media sites such as Facebook and Twitter.
     courses.
 
     To access information about a program, select that program. A page opens
-    that provides details about the program, as well as links to enroll in courses in that program.
+    that provides details about the program, as well as links to enroll in or
+    upgrade to the verified track in all courses in that program.
 
-  * View your progress through the program.
+  * View your progress for each program.
 
-    Under the name of the program are indications of your progress through the
+    Under the name of each program are indications of your progress through the
     program. You see the number of courses in the program that you have
     completed, the number of courses in the program that you are enrolled in,
     and the number of courses in the program that you are not yet enrolled in.
@@ -179,8 +180,8 @@ A limited profile includes only your username and, optionally, an image.
 To add or update a limited profile, follow these steps.
 
 
-#. At the top of any page, select **Profile** from the dropdown menu icon next
-   to your username.
+#. At the top of any page, select **Dashboard** from the dropdown menu icon next
+   to your username, then select the **Profile** tab.
 
 #. In the header area of your profile page, for **Profile Visibility**, select
    **Limited Profile**.
@@ -232,8 +233,8 @@ addition to your username and profile image.
 
 To add or update your profile, follow these steps.
 
-#. At the top of any page, select **Profile** from the dropdown menu icon next
-   to your username.
+#. At the top of any page, select **Dashboard** from the dropdown menu icon next
+   to your username, then select the **Profile** tab.
 
 #. In the header area of your profile page, for **Profile Visibility**, select
    **Full Profile**.

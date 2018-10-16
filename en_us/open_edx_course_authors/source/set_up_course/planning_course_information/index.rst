@@ -18,4 +18,3 @@ information in Studio. For more information, see :ref:`Creating a Course`.
    image_guidelines
    description_guidelines
    additional_course_information
-   licensing_course

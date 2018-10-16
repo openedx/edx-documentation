@@ -506,9 +506,6 @@ deprecated.
 * Use the ``/api/user/v1/accounts/`` web service instead of the deprecated
   profile image web service.
 
-For more information about supported and deprecated web services,
-see :ref:`openplatformapi:Open edX Platform APIs`.
-
 ==================================
 Deprecated Tools and Problem Types
 ==================================
