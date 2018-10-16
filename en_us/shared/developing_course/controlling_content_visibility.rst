@@ -203,6 +203,15 @@ prerequisite subsections. If a subsection has a prerequisite, it is displayed
 in the course outline with a lock icon, and learners cannot view the subsection
 content until they have earned a minimum score in the prerequisite subsection.
 
+.. note::
+   You must first :ref:`Enable Course Prerequisites` before 
+   prerequisite course subsections can be used.
+
+.. note::
+
+   You cannot use :ref:`open response assessments<Open Response Assessments 2>`
+   as the prerequisite for other course subsections.   
+
 
 .. _enabling_subsection_gating:
 
