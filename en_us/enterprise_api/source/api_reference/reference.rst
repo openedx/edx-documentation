@@ -422,10 +422,12 @@ Fields in a course_run Content Item
      - The end date of the course run.
    * - ``enrollment_end``
      - datetime
-     - The last date and time by which learners can enroll in this course run.
+     - The last date and time when this course run is open for learners to enroll. 
+       Learners cannot enroll after this date and time.
    * - ``enrollment_start``
      - datetime
-     - The first date and time by which learners can enroll in this course run.
+     - The first date and time when this course run is open for learners to enroll. 
+       Learners cannot enroll before this date and time.
    * - ``enrollment_url``
      - string
      - The URL for the enrollment page.
@@ -868,7 +870,9 @@ request returns the following data.
      - The course duration in weeks.
    * - ``course_end``
      - date
-     - The date the course ends, in YYYY-MM-DD format.
+     - The date the course ends, in YYYY-MM-DD format. This is the last date on 
+       which learners can submit answers or assessments, or otherwise be credited
+       with completion of a course subsection.
    * - ``course_id``
      - string
      - A unique identifier for the course.
@@ -883,7 +887,9 @@ request returns the following data.
      - Whether the course is self-paced or instructor-paced.
    * - ``course_start``
      - date
-     - The date when the course begins, in YYYY-MM-DD format.
+     - The date when the course begins, in YYYY-MM-DD format. This is the date 
+       when course content is available for learners to interact with. In most 
+       cases, learners can enroll in the course before the ``course_start`` date.
    * - ``course_title``
      - string
      - The name of the course.
