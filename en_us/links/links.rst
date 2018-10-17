@@ -100,6 +100,8 @@
 
 .. _edx-documentation: https://github.com/edx/edx-documentation
 
+.. _password_policy_validators: https://github.com/edx/edx-platform/blob/master/common/djangoapps/util/password_policy_validators.py
+
 .. _PyEnv: https://github.com/yyuu/pyenv
 
 .. _example CSS file for drag and drop problems: https://github.com/edx-solutions/xblock-drag-and-drop-v2/blob/master/drag_and_drop_v2/public/themes/apros.css
@@ -230,6 +232,7 @@
 .. _E-Commerce service: https://github.com/edx/ecommerce
 .. _Transifex: https://www.transifex.com/
 .. _configure the Transifex client: http://docs.transifex.com/client/config/
+.. _Django password validation documentation: https://docs.djangoproject.com/en/2.1/topics/auth/passwords/#module-django.contrib.auth.password_validation
 .. _Communications API: http://django-oscar.readthedocs.io/en/latest/howto/how_to_customise_oscar_communications.html#communications-api
 .. _django-compressor: http://django-compressor.readthedocs.io/
 .. _RequireJS: http://requirejs.org/
