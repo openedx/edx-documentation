@@ -15,8 +15,8 @@ check the ``responses`` field in the user's row in
 ``user_api_userretirementstatus`` (User Retirement Status) for any relevant
 logging. Once the issue is resolved, you need to manually set the user's
 ``current_state`` to the state immediately prior to the state which should be
-re-tried.  You can do this using the Django admin. In this example, a user 
-retirement errored during forums retirement, so we manually reset their state 
+re-tried.  You can do this using the Django admin. In this example, a user
+retirement errored during forums retirement, so we manually reset their state
 from ``ERRORED`` to ``ENROLLMENTS_COMPLETE``.
 
 .. digraph:: retirement_states_example
@@ -79,7 +79,8 @@ syntax is as follows:
 
 .. code-block:: bash
 
-   $ ./manage.py lms --settings=<your-settings> cancel_user_retirement_request --email_address=<email-of-user-to-cancel-retirement>
+   $ ./manage.py lms --settings=<your-settings> cancel_user_retirement_request <email-of-user-to-cancel-retirement>
 
 Keep in mind, this will only work for users which have not had their retirement
-states advance beyond ``PENDING``.
+states advance beyond ``PENDING``. Additionally, the user will need to reset
+their password in order to restore access to their account.
