@@ -769,10 +769,6 @@ field and the ``course_mode``, as well as one or more of the ``user_email``,
      - Whether the enrollment is active. Setting to ``false`` unenrolls the learner.
        If set, the user must already exist. Default is ``true``
        (Optional field)
-   * - ``cohort``
-     - string
-     - Assign the learner to this cohort name. Cohort must already be created.
-       (Optional field)
 
 POST Payload Example
 *********************
@@ -794,7 +790,6 @@ learner from a third course.
       "course_run_id":"course-v1:UMy+Intro_to_Education`",
       "course_mode":"audit",
       "tpa_user_id":"abcdefg",
-      "cohort":"Department XYZ"
     },
     {
       "course_run_id":"course-v1:UU+Advanced_Unenrollment",
