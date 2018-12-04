@@ -12,11 +12,7 @@ Open edX Developer's Guide
    architecture
    process/index
    extending_platform/index
-   modulestores/index
    testing/index
-   pavelib.rst
-   environment/index
-   user_interfaces/index
    analytics.rst
    deploy-new-service
    conventions/index
