@@ -35,9 +35,9 @@ Resources for edx.org Learners
 Documentation
 ==============
 
-The `EdX Learner's Guide`_ is available on the docs.edx.org web page. This
-guide is also available when you select **Help** while you are in a course, and
-from your dashboard of enrolled courses.
+The `edX Help Center for Learners`_ includes topics to help you understand how
+to use the edX learning management system. The Help Center is also available 
+when you select **Help** while you are in a course, and from your edX dashboard.
 
 ==============
 In a Course
@@ -79,12 +79,11 @@ Resources on the edx.org Website
 To help you get started with the edX learning experience, edX offers a course
 (of course!). You can find the edX Demo_ course on the edx.org website.
 
-When you are working in an edX course, you can select **Support** to access a
+When you are working in an edX course, you can select **Help** to access a
 help center with `frequently asked questions`_  and answers.
 
-If you still have questions or suggestions, you can get help from the edX
-support team: select **Support**, select **Contact** at the bottom of any edX
-web page, or send an email message to info@edx.org.
+If you still have questions or suggestions, you can contact the `edX Support`_ 
+team for help.
 
 For opportunities to meet others who are interested in edX courses, check the
 edX Global Community meetup_ group.
@@ -231,7 +230,7 @@ partner institutions.
 Documentation
 ==============
 
-Documentation for course teams is available on the `docs.edx.org`_ web page.
+Documentation for course teams is available from the `docs.edx.org`_ web page.
 
 * `Building and Running an edX Course`_ is a comprehensive guide with
   concepts and procedures to help you build a course in Studio and then
@@ -243,9 +242,6 @@ Documentation for course teams is available on the `docs.edx.org`_ web page.
 * `Using edX Insights`_ describes the metrics, visualizations, and downloadable
   .csv files that course teams can use to gain information about student
   background and activity.
-
-* The `edX Release Notes`_ summarize the changes in each new version of
-  deployed software.
 
 These guides open in your web browser. The left side of each page includes a
 **Search docs** field and links to the contents of that guide. To open or save
@@ -356,33 +352,8 @@ and localizing the code for the edX platform.
 Documentation
 =============
 
-Documentation for developers is available on the `docs.edx.org`_ web page.
-
-* The `edX Platform Developer's Guide`_ includes guidelines for contributing to
-  the Open edX project, options for extending the Open edX platform,
-  instrumenting analytics, and testing.
-
-* `Installing, Configuring, and Running the Open edX Platform`_ provides
-  procedures for getting an edX developer stack (devstack) and production stack
-  (fullstack) operational.
-
-* `Open edX XBlock Tutorial`_ guides developers through the process of
-  creating an XBlock, and explains the concepts and anatomy of XBlocks.
-
-* `Open edX XBlock API Guide`_ provides reference information about the XBlock
-  API.
-
-* `edX Open Learning XML Guide`_ provides guidelines for building edX courses
-  with OLX (open learning XML). Note that this guide is currently an alpha
-  version.
-
-* `edX Data Analytics API`_ provides reference information for using the data
-  analytics API to build applications to view and analyze learner activity in
-  your course.
-
-.. note:: If you use the Safari browser, be aware that it does not support the
- search feature for the HTML versions of the edX guides. This is a known
- limitation.
+Documentation for developers is available from the `edX Developer Documentation`_ 
+landing page.
 
 ======
 GitHub
@@ -431,46 +402,8 @@ Resources for Open edX
 
 Hosting providers, platform extenders, core contributors, and course staff all
 use Open edX. EdX provides release-specific documentation, as well as the
-latest version of all guides, for Open edX users. The following documentation
-is available.
-
-* `Open edX Release Notes`_ provides information on the contents of Open edX
-  releases.
-
-* `Building and Running an Open edX Course`_ is a comprehensive guide with
-  concepts and procedures to help you build a course in Studio, and then
-  use the Learning Management System (LMS) to run a course.
-
-* `Open edX Learner's Guide`_ helps students use the Open edX LMS to take
-  courses. This guide is available on the docs.edx.org web page. Because
-  learners are currently only guided to this resource through the course,
-  we encourage course teams to provide learners with links to this guide as
-  needed in course updates or discussions.
-
-* `Installing, Configuring, and Running the Open edX Platform`_ provides
-  information about installing and using devstack and fullstack.
-
-* The `edX Platform Developer's Guide`_ includes guidelines for contributing to
-  the Open edX project, options for extending the Open edX platform,
-  instrumenting analytics, and testing.
-
-* `Open edX XBlock Tutorial`_ guides developers through the process of
-  creating an XBlock, and explains the concepts and anatomy of XBlocks.
-
-* `Open edX XBlock API Guide`_ provides reference information on the XBlock
-  API.
-
-* `EdX Open Learning XML Guide`_ provides guidelines for building edX courses
-  with Open Learning XML (OLX). Note that this guide is currently an alpha
-  version.
-
-* `EdX Data Analytics API`_ provides reference information for using the data
-  analytics API to build applications to view and analyze learner activity in
-  your course.
-
-.. note:: If you use the Safari browser, be aware that it does not support the
- search feature for the HTML versions of the edX guides. This is a known
- limitation.
+latest version of all guides, for Open edX users. See the `Open edX documentation`_
+page for a list of the documentation that is available.
 
 
 .. _Building and Running an edX Course: http://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/
@@ -490,11 +423,12 @@ is available.
 .. _edx/edx-analytics-dashboard: https://github.com/edx/edx-analytics-dashboard
 .. _edx/edx-platform: https://github.com/edx/edx-platform
 .. _EdX Learner's Guide: http://edx-guide-for-students.readthedocs.io/en/latest/
+.. _edX Support: https://courses.edx.org/support/contact_us
+.. _edX Help Center for Learners: https://support.edx.org/hc/en-us/
+.. _edX Developer Documentation: https://edx.readthedocs.io/projects/edx-developer-docs/en/latest/
 .. _edX Open Learning XML Guide: http://edx-open-learning-xml.readthedocs.io/en/latest/index.html
 .. _edX Partner Portal: https://partners.edx.org
 .. _forums: https://partners.edx.org/forums/partner-forums
-.. _edX Platform APIs: http://edx.readthedocs.io/projects/edx-platform-api/en/latest/
-.. _edX Platform Developer's Guide: http://edx.readthedocs.io/projects/edx-developer-guide/en/latest/
 .. _edX Research Guide: http://edx.readthedocs.io/projects/devdata/en/latest/
 .. _edX Release Notes: http://edx.readthedocs.io/projects/edx-release-notes/en/latest/
 .. _edX Status: http://status.edx.org/
@@ -503,6 +437,7 @@ is available.
 .. _Installing, Configuring, and Running the Open edX Platform: http://edx.readthedocs.io/projects/edx-installing-configuring-and-running/en/latest/
 .. _meetup: http://www.meetup.com/edX-Global-Community/
 .. _openedx-analytics: http://groups.google.com/forum/#!forum/openedx-analytics
+.. _Open edX documentation: http://docs.edx.org/openedx.html
 .. _Open edX Analytics: http://edx-wiki.atlassian.net/wiki/display/OA/Open+edX+Analytics+Home
 .. _Open edX Learner's Guide: http://edx.readthedocs.io/projects/open-edx-learner-guide/en/latest/
 .. _openedx-ops: http://groups.google.com/forum/#!forum/openedx-ops
