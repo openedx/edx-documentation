@@ -152,8 +152,8 @@ edx.org, follow these steps.
    * The price of each item.
    * The total cost of your order.
 
-If you have a question or an issue with your payment, contact edX at
-billing@edx.org. Include your order number, but **do not include your
+If you have a question or an issue with your payment, contact the 
+`<edX Support>`_ team. Include your order number, but **do not include your
 credit card information**.
 
 
@@ -177,8 +177,8 @@ Optionally, after you unenroll from the verified track in your course, you can
 :ref:`re-enroll in the audit track<Enroll in the Audit Track>` for the course,
 to take the course without a certificate option.
 
-If you have questions about changing your enrollment track, contact the edX
-support team at technical@edx.org.
+If you have questions about changing your enrollment track, contact the 
+`<edX Support>`_ team.
 
 
 .. _SFD Verify Your Identity:
