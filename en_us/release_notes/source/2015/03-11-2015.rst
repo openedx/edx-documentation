@@ -6,6 +6,9 @@
 The following information reflects what is new in the edX Platform as of
 11 March 2015. 
 
+.. contents::
+  :local:
+  :depth: 2
 
 **************************
 Analytics
@@ -55,7 +58,4 @@ XBlocks
 
 .. include:: xblocks/xblocks_0311_2015.rst
 
-
-
-
-.. include:: ../links.rst
+.. include:: ../../../links/links.rst

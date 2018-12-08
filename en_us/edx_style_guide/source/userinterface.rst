@@ -1,110 +1,95 @@
 .. _Documenting the User Interface:
 
-###############################
-Documenting the User Interface
-###############################
+########################################
+Documenting User Interface Interactions
+########################################
 
-In describing UI interactions, we refer to labels alone, rather than include
-specific descriptions of the UI controls. 
+When you describe interactions with the user interface, refer to the control
+labels and do not describe the control types.
 
-* Incorrect: In the **Randomization** drop-down list, click the **Never** option.
+* Incorrect: In the **Randomization** drop-down list, click the **Never**
+  option.
 
 * Correct: From the **Randomization** list, select **Never**.
 
-This is primarily to reduce word count, and also because the UI can change
-without notice. Another reason is related to the use of screen readers:
-controls can be styled to appear as other controls, such as a link that is
-styled to look like a button. The screen reader organizes all link selections
-together, and all button selections together, so if the documentation refers
-to a link as a button, we can actually make it harder for people to find the
-choice that they want.
+This convention reduces word count and makes the documentation less likely to
+go out of date after a software change.
 
-*******************
-List of UI Elements
-*******************
+Because screen readers organize all link selections together, and all button
+selections together, and so on, if you do include the control type, it is
+critical that you describe it as it is coded, even if it is styled to look like
+a different type of control.
 
-To do: Add images to table
+***********************
+List of edX UI Elements
+***********************
+
+The edX documentation team makes an effort to use the aria-label values that
+identify elements of the user interface in the document object model (DOM).
+This table lists edX-specific terms and exceptions to Microsoft style.
 
 .. list-table::
    :widths: 20 80
 
-   * - box
-     - 
-   * - button
-     - 
    * - checkbox
-     - One word. Users can select more than one checkbox at a time. See also
-       "radio button". 
+     - Use a single word, not "check box". Users can select more than one
+       checkbox at a time.
 
-       Users "select" or "clear"  a checkbox. They do not "check" or
-       "deselect" them.
+       Users "select" or "clear" a checkbox. They do not "check" or "deselect"
+       them.
 
    * - component editor
-     - 
-   * - control
-     - 
+     - Present in lower case.
    * - course accordion
-     - Do not use. Use "left pane." Formerly the list of sections and
-       subsections in the left pane of the **Courseware** page in the LMS.
-   * - course pages
-     - 
-   * - course tabs
-     - 
+     - Do not use. Previously used to describe the course navigation pane.
+   * - course navigation pane
+     - On the **Courses** page, the navigation frame for selecting sections and
+       subsections.
+   * - course ribbon
+     - Do not use. Previously used to describe the unit navigation bar.
    * - dialog box
-     - A small box that opens temporarily when a user performs an action. The
-       user interacts with elements in the dialog box, which then disappears.
-       A dialog box might just have cancel/OK buttons, or it may ask a user to
-       specify a file.
-   * - dropdown menu or list
-     - 
+     - Do not use "dialog" alone to refer to the user interface control. Do not
+       use "modal" or "modal dialog".
+   * - discussion navigation pane
+     - On the **Discussion** page, the navigation frame for selecting and
+       filtering discussion categories, subcategories, and posts.
    * - field
-     - A box that a user types or pastes text into. Preferred over "text box".
-   * - heading
-     - 
+     - A control that accepts user input that is typed or pasted in. Use in
+       place of "text box".
+   * - filmstrip
+     - Do not use.
+   * - handout navigation sidebar
+     - On the **Home** page, the navigation frame for selecting course
+       materials added as handouts.
    * - icon
-     - A UI control that has an image for a label instead of words. Named
-       icons have a mouseover tip that is used for identification. Unnamed
-       icons, such as icons in a smartphone app, must be described.
-   * - learning sequence, the
-     - The strip at the top of the **Courseware** page in the LMS that lists
-       the units in a subsection. Learning sequence is preferred over the
-       previous term, "course ribbon".
+     - A user interface control that has an image for a label instead of text.
+       To identify icons, use the mouseover help text as the icon label. If the
+       icon does not have help text, such as an icon in a mobile app, it must
+       be described.
+   * - learning sequence
+     - Do not use. Previously used to describe the unit navigation bar.
    * - left pane
-     - For an unnamed panel on the left side of the screen.
-   * - page
-     - 
-   * - pane
-     - 
-   * - panel
-     - A field on the right or left that doesn't extend for the entire length
-       of the page.
-   * - pop-up menu
-     - A list of related options that opens when a user performs an action.
-       The menu disappears after the user selects an option.
-   * - publishing status panel
-     - 
-   * - radio button
-     - A circular control that allows users to select only one of a list of
-       options. See also "checkbox".
-   * - right pane
-     - For an unnamed panel on the right side of the screen.
-   * - screen
-     - Larger than a dialog box, with more options.
-   * - window
-     - 
+     - Do not use. On the **Courses** page, the navigation frame for selecting
+       sections and subsections is called the course navigation pane. On the
+       **Discussion** page, the navigation frame for selecting categories and
+       subcategories is called the discussion navigation pane.
+   * - unit navigation bar
+     - The navigation frame on the **Course** page with icons for each unit in
+       the selected subsection, and with **Previous** and **Next** options on
+       either end.
 
 
-****************************
-Standards for UI Labels
-****************************
+***********************************
+Standards for User Interface Labels
+***********************************
 
-When the doc team contributes to the wording and formatting of UI labels, we
-follow these standards.
+When the edX documentation team writes or copy edits labels, we follow these
+standards.
 
-All UI elements should use sentence capitalization except the following items,
-which use title capitalization.
+Use title capitalization for labels for the following user interface elements.
 
 * Page titles
 * Tab titles
 * Buttons (these usually have only a few words)
 
+Use sentence capitalization for all other labels.

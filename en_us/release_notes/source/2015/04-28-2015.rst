@@ -6,6 +6,9 @@
 The following information reflects what is new in the edX Platform as of
 28 April 2015. 
 
+.. contents::
+  :local:
+  :depth: 2
 
 **************************
 Documentation
@@ -20,6 +23,4 @@ LMS
 
 .. include:: lms/lms_0428_2015.rst
 
-
-
-.. include:: ../links.rst
+.. include:: ../../../links/links.rst

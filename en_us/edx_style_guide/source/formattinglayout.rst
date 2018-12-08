@@ -1,53 +1,54 @@
 .. _Formatting and Layout:
 
-#############################
-Formatting and Content Layout
-#############################
+####################################
+Style Conventions and Content Layout
+####################################
 
-For an .rst file that contains examples of the markup used by the
-documentation team, see the 
-edx-documentation/en_us/edx_style_guide/source/Format Cheat 
-Sheet.rstnouse file.
+The edX documentation is authored using reStructuredText markup syntax. For a
+description and complete documentation, see `reStructuredText`_ .
+
+For a sample .rst file that contains examples of the markup used by the edX
+documentation team, see the
+``edx-documentation/en_us/edx_style_guide/source/ExampleRSTFile.rst`` file.
 
 .. list-table::
   :widths: 15 15 15 25
 
   * - Item
-    - rST Formatting
+    - .rst Formatting
     - Examples
     - Notes
   * - Book or guide name
-    - *Italic*
+    - ``*italic*``
     - *Building and Running an edX Course*
-    - When mentioning the guide in general, link the title to the HTML rather
-      than presenting in italics. When providing the title in addition to a
-      specific section or topic in the guide, link the section or topic and
-      then place the name of the guide in italics.
+    - When you provide the title of the guide in addition to a cross-reference
+      to a specific section or topic in the guide, link the section or topic
+      and then place the name of the guide in italics. Otherwise, make the
+      title the cross reference link instead of presenting it in italics.
 
       Translator guidance is that strings in italic font should be translated.
 
   * - Code samples
-    - ``monospace``
+    - ````monospace````
     - The member fields of this dictionary are ``display_name`` and
       ``usage_key``.
-    - To make the efforts of translators easier, use ``monospace`` markup only
-      for strings that should not be translated: code, commands, SQL table
-      columns, and event names.
+    - Use ``monospace`` markup only for strings that should not be translated,
+      including code, settings, commands, SQL table columns, and event names.
 
-      For longer examples, such as XML templates, which include text that can
+      For longer examples, such as XML templates that include text that can
       be translated, use the code block markup and include a comment for
-      translators with explicit instructions. 
+      translators with explicit instructions.
 
-      .. Translators: In the following XML code block, do not translate any
-      .. text that is between the < > characters.
+      ``.. Translators: In the following XML code block, do not translate any``
+      ``.. text that is between the < > characters.``
 
       .. code-block:: xml
-      
+
           <problem display_name="webGLDemo">
           In the image below, click the cone.
 
   * - Programming elements
-    - ``monospace``
+    - ````monospace````
     - The ``event_type`` parameter enables downstream processing.
 
       An XBlock must set ``has_score`` to ``True``.
@@ -63,48 +64,47 @@ Sheet.rstnouse file.
 
       * Set ``has_score`` to ``True``.
 
-      * Incorrect: Set the has_score to True.
+      * Incorrect: Set the has_score to true.
 
   * - Unnamed icons
-    - Enclose a description in quotation marks
+    - "brief description"
     - Select "back 30 seconds" on the playback bar.
-    - In most cases, icons have a label or mouseover tip. If the icon has a
-      mouseover tip, use the mouseover tip text as the name of the control and
-      put it in **bold** like other UI elements.
+    - In most cases, icons have mouseover help text. If the icon has
+      help text, use that text as the name of the control and
+      use ``**bold**`` like other UI elements.
   * - New term
-    - link to glossary definition
-    - 
+    - optional: link to glossary definition
+    - This section provides conceptual and procedural information about
+      using ``:ref:`teams_g``` in your courses.
     - Add new terms to the glossary. If you want to be sure that people
       understand how you are using the term, provide a link to the glossary
-      definition.
-  * - UI item
-    - **bold**
-    - From the **Tools** menu, select **Checklists**.
-      
-      In the left pane, select **Filter messages like this**.
+      definition. Do not italicize newly introduced terms.
+  * - User interface controls
+    - ``**bold**``
+    - From the **Tools** menu, select **Import**.
 
-    - A UI item is anything that the user views, clicks, selects, or interacts
-      with and that has a name or a tooltip. If it doesn't have a label or
-      tooltip, see Unnamed icons above.
+      In the discussion navigation pane, select **Filter messages like this**.
 
-      Translator guidance is that strings in boldface font should be
+    - For more information about user interface controls in edX products, see
+      :ref:`Documenting the User Interface`.
+
+      Translator guidance is that strings in boldface font can be
       translated.
-      
+
   * - User input
-    - ``monospace``
+    - ````monospace````
     - In the **Show Calculator** field, type ``true``.
     - Follow the same rules as for code samples. The assumption is that values
-      presented in monospace font must be entered exactly as documented, and that translated versions of the value are not acceptable. 
-      
-      If the user input value can be translated, add a "Translator:" comment
-      to that effect.
-      
-      Inline if the user input is short (one line); indented if more than one
-      line.
+      presented in monospace font must be entered exactly as documented, and
+      that translated versions of the value are not acceptable.
+
+      If the user input value can be translated, add a "Translator:" comment to
+      that effect.
 
   * - Variables
-    - Surround with braces ({}). 
-    - 
-    - Avoid angle brackets (< >) because rST interprets angle brackets as
-      setting off XML examples.
+    - Surround with braces ({}).
+    - ...in the format ``{org}-{course}-{run}-{site}.mongo``.
+    - Avoid angle brackets (< >) because rST uses angle brackets to identify
+      XML examples.
 
+.. _reStructuredText: http://docutils.sourceforge.net/rst.html

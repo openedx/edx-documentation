@@ -1,8 +1,16 @@
 .. _Discussions Index:
 
 ####################################
-edX Discussions
+EdX Discussions
 ####################################
+
+The following information describes what is new in edX discussions.
+
+.. contents::
+  :local:
+  :depth: 2
+
+.. team suggestion: please consider putting any further changes to discussions under the Studio, LMS, Analytics, etc. topics rather than continuing to segregate them in this one. - Alison 14 March 2016
 
 ******************
 2 June 2015
@@ -57,8 +65,4 @@ edX Discussions
 .. include:: 2015/discussions/disc_0108_2015.rst
 
 
-
-
-
-
-.. include:: links.rst
+.. include:: ../../links/links.rst

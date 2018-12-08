@@ -1,8 +1,11 @@
+.. _edX Open Learning XML Guide:
+
 ############################
-edX Open Learning XML Guide
+EdX Open Learning XML Guide
 ############################
 
-This document is intended for those developing edX courses through Open Learning XML (OLX).
+This guide is intended for those interested in using OLX (open learning XML)
+to develop edX courses. Readers of this guide should be familiar with XML.
 
 .. toctree::
    :numbered:
@@ -10,7 +13,6 @@ This document is intended for those developing edX courses through Open Learning
 
    front_matter/index
    what-is-olx
-   tasks/index
    getting-started
    directory-structure
    policies/index
@@ -23,8 +25,8 @@ This document is intended for those developing edX courses through Open Learning
    content-experiments/index
    example-course/index
    studio-example/index
+   tasks/index
    drafts/index
    glossary
 
-
- 
+.. tasks/index can move back up under what-is-olx if/when content is written

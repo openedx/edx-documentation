@@ -99,11 +99,37 @@ Testing Event Emission
 It is important to test instrumentation code since regressions can have a
 significant negative impact on downstream consumers of the data.
 
-Each test can make stronger or weaker assertions about the structure and content
-of various fields in the event. Tests can make assertions about particular
-fields in the nested hierarchical structures that are events. This allows them
-to continue to pass even if a new global field is added to all events (for
-example).
+Each test can make stronger or weaker assertions about the structure and
+content of various fields in the event. Tests can make assertions about
+particular fields in the nested hierarchical structures that are events. This
+allows them to continue to pass even if a new global field is added to all
+events (for example).
+
+Failing tests are a form of communication with future developers. A test
+failure is a way for you to tell those future developers that they have
+changed something that you did not expect to change, and that there are
+implications that they should think about carefully before making the change.
+For this reason, limit the scope of your test to details you expect to remain
+constant. Specifically, for eventing, this means only asserting on the
+presence and correctness of fields your code is adding, not the precise set of
+fields that happen to be present in all events today.
+
+In general, it is acceptable for events to contain "unexpected" fields. If you
+add a field, most JSON parsers will accept this new field and allow the
+downstream code to process the event. Since that downstream code does not know
+about the new field it will simply be ignored.
+
+For this reason, most of our tests do not actually make assertions about
+unexpected fields appearing in the events, instead they focus on the fields
+that they *do* expect to be present and make assertions about the values of
+these fields. This enables us to add global context without having to update
+hundreds (or even thousands) of tests that were making assertions about the
+exact set of fields present in the event. Instead, we prefer to only have a
+small number of tests fail when making a change like this. Those tests might
+be making more strict assertions about the global context, for example. When a
+small number of targeted tests fail, they can be more effective at
+communicating the exact set of assumptions that were being made before that
+have now changed.
 
 Assertions
 ----------
@@ -346,18 +372,19 @@ platform will transmit a variety of metrics to data dog. Running ``git grep
 dog_stats_api`` will give a pretty good overview of the usage of data dog to
 track operational metrics.
 
-Segment.IO
+Segment
 *****************
 
-A selection of events can be transmitted to segment.io in order to take
+A selection of events can be transmitted to `Segment`_ in order to take
 advantage of a wide variety of analytics-related third party services such as
-Mixpanel and Chartbeat. It is enabled in the LMS if the ``SEGMENT_IO_LMS``
-feature flag is enabled and the ``SEGMENT_IO_LMS_KEY`` key is set to a valid
-segment.io API key in the ``lms.auth.json`` file. Additionally, the setting
-``EVENT_TRACKING_SEGMENTIO_EMIT_WHITELIST`` in the ``lms.auth.json`` file can be
-used to specify event names that should be emitted to segment.io from normal
-`tracker.emit()` calls. Events specified in this whitelist will be sent to both
-the tracking logs and segment.io.
+Mixpanel and Chartbeat. It is enabled in the LMS if the ``SEGMENT_KEY``
+key is set to a valid Segment API key in the ``lms.auth.json`` file. Additionally, 
+the setting ``EVENT_TRACKING_SEGMENTIO_EMIT_WHITELIST`` in the ``lms.auth.json`` 
+file can be used to specify event names that should be emitted to Segment 
+from normal ``tracker.emit()`` calls. Events specified in this whitelist will be 
+sent to both the tracking logs and Segment.  Similarly, it is enabled in Studio 
+if the ``SEGMENT_KEY`` key is set to a valid Segment API key in the
+``cms.auth.json`` file.
 
 Google Analytics
 *****************
@@ -382,3 +409,4 @@ continue to be supported.
 .. _event-tracking documentation: http://event-tracking.readthedocs.org/en/latest/overview.html#event-tracking
 .. _data dog: http://www.datadoghq.com/
 .. _dogapi: http://pydoc.datadoghq.com/en/latest/
+.. _Segment: https://segment.com/

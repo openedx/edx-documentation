@@ -4,7 +4,9 @@ Learners can read and submit answers for the following types of problems while
 they use the edX mobile app.
 
 * :ref:`Checkbox`
+* :ref:`drag_and_drop_problem`
 * :ref:`Dropdown`
+* :ref:`Math Expression Input`
 * :ref:`Multiple Choice`
 * :ref:`Numerical Input`
 * :ref:`Text Input`

@@ -1,0 +1,4 @@
+
+For learners who enroll in the verified certificate track of a course that is
+offered on the edx.org website, this release includes changes to streamline the
+checkout process.

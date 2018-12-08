@@ -1,57 +1,99 @@
 .. _Introduction:
 
 #################
-Introduction
+Welcome!
 #################
 
-Welcome to edX! We're glad you're taking a course with us and we hope you're as 
-excited as we are about online learning.
+Welcome to online learning with edX! At edX, we are glad to welcome new
+learners to the `edx.org`_ website or to the edX mobile app, as well as to all
+of the other websites that use the Open edX platform to deliver courses around
+the world. We hope that you are as excited about online learning as we are.
 
 The purpose of this guide is to help with your transition to online learning.
-The guide answers common questions about topics like earning certificates,
-getting started, participating in course discussions, and completing some of the
-exercises you may see in your course.
+The guide answers common questions about topics like getting started in an
+online course, earning certificates, participating in course discussions, and
+completing some of the exercises you may see in your course.
 
-For more information, see the following topics.
+This guide is continuously being updated and expanded, so we encourage you to
+let us know what was helpful, and what was not, by selecting **Feedback** on
+any page or by sending an email message to `docs@edx.org`_.
 
-* :ref:`SFD Dashboard Settings Profile` - Provides an overview of the learner
-  dashboard and includes information about how to change account settings and
-  create a profile.
-* :ref:`Certificates` - Covers the different types of certificates edX offers,
-  how to change your certificate type, and when you receive your certificate.
-* :ref:`Video Player` - Contains an illustration of the edX video player and its
-  features.
-* :ref:`Math Formatting` - Offers detailed information about how to enter
-  mathematical and scientific formulas when you work through exercises in your
-  course.
-* :ref:`SFD_ORA` - Contains a detailed description of open response assessment
-  problems, including how to submit a response, perform each step of a self or
-  peer assessment, and access your score.
-* :ref:`Course Discussions Index` - Provides information about how to
-  participate in the discussions for your course, including how to add a post,
-  respond to a post, and comment on another student's response.
-* :ref:`SFD Wiki` - Covers information about an edX course wiki.
-* :ref:`SFD Mobile` - Includes frequently asked questions about the edX mobile
-  app for Android and iPhone.
+******************
+Learning in a MOOC
+******************
 
-This guide is still under development, and we encourage you to submit feedback
-to `docs@edx.org <mailto://docs@edx.org>`_.
+A massive, open, online course (MOOC) typically uses videos and text to present
+course content, although you might also encounter other types of reading
+assignments, such as textbooks and online articles. A MOOC also includes
+assessments, in the form of practice questions, homework assignments, and
+exams. To help you share information, ask questions, and collaborate with other
+learners and the course team, course discussions are available.
 
+Videos and other types of course content, assessments, and discussions are used
+in virtually every MOOC on the edx.org website. These course components are
+also used to create the courses on websites that use the Open edX online
+learning platform. Everyone is welcome to review examples of these components,
+and practice using them, by enrolling in the `edX Demo course`_.
+
+Depending on the course, a variety of enhanced components might also be
+included, from team problem-solving exercises and lab work to live
+demonstrations and ask me anything (AMA) sessions. Every course has a unique
+design, and course teams are continuously looking for new ways to engage
+learners and teach more effectively. Course teams typically include
+instructions for how to use any enhanced components right in the course.
+
+MOOCs bring learners from all over the world together. The people who you take
+a course with have a wide variety of educational backgrounds and educational
+goals. One part of the MOOC experience that everyone shares is encountering new
+ways of learning. As a result, most learners occasionally have questions about
+what is expected, how to complete an assignment, or what a word, phrase, or
+abbreviation means.
+
+If you have a question about something you encounter in an edX course, try
+these options for getting an answer.
+
+* Check the **Home** page. Course teams use this page to post updates about the
+  course, which can include explanations about course content, reminders about
+  when graded assignments are due, or announcements for upcoming events or
+  milestones.
+
+* Look for an "Introduction", "Overview", or "Welcome" section on the
+  **Course** page. Course teams often include general information about how the
+  course works and what you can expect, and also what they expect from you, in
+  the first section in the course.
+
+* Participate in the :ref:`course discussions<Explore Posts>`. If you encounter
+  an unfamiliar word, phrase, or abbreviation, such as "finger exercise" or
+  "board work", search for it on the **Discussion** page, or post a question
+  about it yourself. Other learners might be able to answer your question, or
+  might have the same question themselves. Your comments and questions give the
+  course team useful feedback for improving the course.
+
+* Investigate other resources. Within the course, a :ref:`wiki<SFD Wiki>`, if
+  one is available, can be a good source of information. Outside of the course,
+  a course-specific Facebook page or Twitter feed might be available for
+  learners to share information.
 
 .. _Time Zones:
 
 ************************
-A Note about Time Zones 
+A Note about Time Zones
 ************************
 
-As you work through your course, you'll see dates and times when new materials 
-are released and when homework assignments and exams are due. It's important to 
-remember that edX lists all times in universal coordinated time (UTC). 
-When you see a time in your course, we recommend that you use a time zone converter 
-to convert the UTC time to your local time. You can any converter that you want, 
-including one of the following time zone converters.
+The dates and times that new materials are released, and when homework
+assignments and exams are due, are shown throughout your course.
 
-`Time and Date Time Zone Converter <http://www.timeanddate.com/worldclock/converter.html>`_
+In your account settings, you can specify your local time zone so that any
+course dates and times are displayed in your local time.
 
-`Time Zone Converter <http://www.timezoneconverter.com/cgi-bin/tzc.tzc>`_
+.. Important:: If you do not specify a time zone in your account settings, edX
+   lists all times in Coordinated Universal Time (UTC). You can use a time
+   zone converter to convert UTC time to your local time. You can use any
+   converter that you want, including one of the following time zone
+   converters.
 
+* `Time and Date Time Zone Converter`_
+
+* `Time Zone Converter`_
+
+.. include:: ../../links/links.rst

@@ -4,14 +4,11 @@
 Google Instant Hangout Tool
 ###########################################
 
-This topic describes how you can use instant hangouts in your course. See:
+.. note:: EdX offers provisional support for this tool.
 
-* :ref:`Hangouts_Overview`
-* :ref:`Whitelisting Your Domain for Google Hangouts`
-* :ref:`Instant Hangouts in Your Course`
-* :ref:`The Learner Experience`
-* :ref:`Limitations`
-* :ref:`Create the Instant Hangout`
+.. contents::
+  :local:
+  :depth: 1
 
 .. _Hangouts_Overview:
 
@@ -31,7 +28,7 @@ With instant hangouts, learners can:
 For a full list of instant hangout features, see the `Google Hangouts page
 <http://www.google.com/+/learnmore/hangouts/>`_.
 
-.. note:: 
+.. note::
  Learners who want to participate in instant hangouts must have a Google
  account. You should note this in your course materials.
 
@@ -42,7 +39,7 @@ Whitelisting Your Domain for Google Hangouts
 *********************************************
 
 If you are running an Open edX site, you must ensure that Google whitelists the
-site's domain as a referrer for Google Hangouts to work.
+site's domain as a referer for Google Hangouts to work.
 
 .. _Instant Hangouts in Your Course:
 
@@ -76,7 +73,7 @@ appears on that page. The following example shows the control in a course unit.
 The control shows that the learner can start the hangout and be the first
 participant.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/hangout_unit.png
+.. image:: ../../../shared/images/hangout_unit.png
  :alt: Image of the instant hangout control on a unit.
  :width: 600
 
@@ -88,7 +85,7 @@ The following example shows the control in a page when a hangout has already
 started. The control has a **Join the Hangout** button, and shows that one
 other learner is already in the hangout.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/hangout_static_page.png
+.. image:: ../../../shared/images/hangout_static_page.png
  :alt: Image of the instant hangout control on a page.
  :width: 600
 
@@ -96,7 +93,7 @@ To join the hangout, the learner selects **Join the Hangout**.
 
 If not already logged in, the learner is prompted to log in to Google:
 
-.. image:: ../../../shared/building_and_running_chapters/Images/google_login.png
+.. image:: ../../../shared/images/google_login.png
  :alt: Image of the Google login page.
  :width: 400
 
@@ -105,7 +102,7 @@ Learners who do not have a Google account can create one from the login page.
 After the learner has logged in to Google, the hangout opens in a separate
 browser window:
 
-.. image:: ../../../shared/building_and_running_chapters/Images/GoogleHangout_WithPeople.png
+.. image:: ../../../shared/images/GoogleHangout_WithPeople.png
  :alt: Image of the instant hangout.
  :width: 600
 
@@ -129,45 +126,55 @@ different unit.
 Create the Instant Hangout
 **************************************************
 
-To create an instant hangout in your course:
+To create an instant hangout in your course, follow these steps.
 
 #. Get the `instant hangout JavaScript file from GitHub
    <https://raw.github.com/google/instant-
    hangouts/master/instanthangouts-0.1.0.js>`_.
 
 #. Copy the text of this file into a text editor on your computer, and save the
-   file as a JavaScript file (that is, when you save the file, change the
-   extension from .txt to .js).
+   file as a JavaScript file. That is, when you save the file, change the
+   extension from .txt to .js.
 
-   .. note::  
+   .. note::
      Make sure that you copy the raw GitHub file, which does not contain
      formatting. Do not copy the formatted file. Any formatting will cause the
      JavaScript to not work correctly.
-  
+
 #. Upload the JavaScript file to the **Files & Uploads** page in your course.
    See :ref:`Add Files to a Course` for more information.
 
 #. In either a page or an HTML component, open the HTML editor.
 
+   .. note::
+    If you copy text from another source and paste it into the HTML editor, be
+    sure to proofread the result carefully. Some applications automatically
+    change quotation marks and apostrophes from the "straight" version to the
+    "smart" or "curly" version. The HTML editor requires "straight" quotation
+    marks and apostrophes.
+
 #. On the first line, add the JavaScript file you uploaded in a <script> tag,
    making sure you use full opening and closing tags.
-   
-   For example, if your JavaScript file is named **instanthangouts-0.1.0.js**, you would enter the following::
-  
-    <script src='/static/instanthangouts-0.1.0.js'></script>
 
-#. After the <script> tag, add::
-  
+   For example, if your JavaScript file is named ``instanthangouts-0.1.0.js``,
+   you enter the following script information. ::
+
+     <script src='/static/instanthangouts-0.1.0.js'></script>
+
+#. After the <script> tag, add this tag. ::
+
     <div class='instanthangouts'/>
 
 #. Add any additional text and tags that you want.
 
-   For example, the complete HTML could be::
+   For example, the complete content could look like this example.
+
+   ::
 
     <p>Join an instant hangout by selecting the button below. You can use the
-    hangout to have live video discussions with other learners.</p> 
+    hangout to have live video discussions with other learners.</p>
     <script
-    src='/static/instanthangouts-0.1.0.js'></script> 
+    src='/static/instanthangouts-0.1.0.js'></script>
     <div class='instanthangouts'/>
 
 #. Test the instant hangout in your course.
@@ -176,8 +183,8 @@ To create an instant hangout in your course:
 Updating the JavaScript File
 =============================
 
-Google will periodically update the instant hangouts JavaScript file. To
-receive update notifications, go to the `instant hangouts repository page
+Google periodically updates the instant hangouts JavaScript file. To receive
+update notifications, go to the `instant hangouts repository page
 <https://github.com/google/instant-hangouts/>`_, and then select **Watch** in
 the upper-right area of the page.
 
@@ -186,7 +193,7 @@ the JavaScript from the repository into a file that has the same name as the
 file that you uploaded to your course. When you upload the new file, the new
 file replaces the previous file.
 
-.. warning:: 
+.. warning::
   If you include version numbers in the file names of uploaded files, you will
   have to edit any HTML components or pages that include an instant hangout
   control every time that you update the JavaScript file.

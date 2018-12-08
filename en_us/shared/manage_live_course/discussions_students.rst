@@ -1,0 +1,529 @@
+.. _Discussions for Students and Staff:
+
+###############################################
+Participating in Course Discussions
+###############################################
+
+Course discussions give you the opportunity to start conversations with other
+learners, ask questions of the course team, and participate in the course
+community. If you have not previously participated in an online discussion
+forum, see the introductory :ref:`"anatomy"<Anatomy of edX Course Discussions>`
+section.
+
+This section also describes features of edX discussions that can make your
+participation more effective.
+
+.. contents::
+  :local:
+  :depth: 1
+
+.. _Anatomy of edX Course Discussions:
+
+**********************************
+Anatomy of edX Course Discussions
+**********************************
+
+====================================
+Posts, Responses, and Comments
+====================================
+
+::
+
+  Post: "Please introduce yourself."
+    - Response: "My name is Lee and I teach secondary school maths in Canberra,
+      Australia."
+    - Response: "Hello everyone, I am Sumei from Hong Kong, China."
+      - Comment: "Hi Sumei, I am taking this course in Hong Kong too. Maybe we
+        should make a study group!"
+      - Comment: "I'd like to join the Hong Kong study group too, I think it
+        will help me keep up with the homework."
+    - Response: "Hi from Johannesburg! I am taking the course to prepare for my
+      matric exams."
+
+This example shows the different ways that you can contribute to a discussion.
+The post initiates the conversation, the responses are replies to the post, and
+the comments expand on specific responses. Before you add a post, response, or
+comment, take a moment to consider which of these options best suits the
+contribution that you want to make. This helps keep course discussions
+organized and easy to follow.
+
+====================================
+Discussion Topics
+====================================
+
+Most edX courses include opportunities to discuss specific video lectures,
+reading assignments, homework problems, or other course content. Each of these
+content-specific discussion opportunities is called a *topic*. When these
+discussion topics are included in a course, they typically appear below the
+content they apply to.
+
+.. image:: ../../../shared/images/Discussion_content_specific.png
+ :alt: A discussion topic that appears below a video in the course, identified
+       by a "Show Discussion" link.
+ :width: 800
+
+Most courses also include one or more topics for course-wide discussions, such
+as "Frequently Asked Questions" and "Troubleshooting". You access these topics
+on the **Discussion** page of the course: select the **All Discussions**
+drop-down.
+
+.. image:: ../../../shared/images/Discussion_course_wide.png
+ :alt: Discussion topics are listed on the Discussion page when you select the
+       drop-down list at the left side of the page.
+ :width: 400
+
+When you visit the **Discussion** page, you can read and add to any of the
+discussion topics.
+
+* Course-wide topics do not have other topics indented below them.
+
+* Content-specific topics are indented under an identifying category name.
+
+Notice that you can access content-specific topics both on the **Discussion**
+page and also while you are navigating through course content on the
+**Course** page. However, you can only access the course-wide topics on the
+**Discussion** page.
+
+Before you add a post, look through the topics. When you add your post to the
+most appropriate topic, others with the same interest can find, read, and
+respond to it more easily.
+
+====================================
+Types of Discussion Posts
+====================================
+
+When you make a contribution in a course discussion topic, you add your post
+as either a question or a discussion.
+
+* A question post raises an issue so that members of the discussion
+  administration team and the course community can provide answers.
+
+* A discussion post starts a conversation by sharing thoughts and reflections,
+  and inviting community participation.
+
+When you add a post to a discussion topic, you must specify whether it is a
+question or a discussion.
+
+After you make your post, on the **Discussion** page for your course, a
+question mark image identifies posts that ask questions and a conversation
+bubble image identifies posts that start discussions.
+
+.. image:: ../../../shared/images/Post_types_in_list.png
+ :alt: The discussion navigation pane with images identifying questions and
+     discussions.
+ :width: 400
+
+If you have any difficulty deciding which type of post you want to add, think
+about whether you want to get concrete information (a question) or start an
+open-ended conversation (a discussion). If you require an answer from the
+course team, be sure to create your post as a question, so that the course
+team sees that a response is required and responds appropriately.
+
+
+.. _Find Posts:
+
+******************************
+Find Posts
+******************************
+
+Finding out whether someone else has already asked the same question or
+initiated a conversation about the same subject that interests you, and then
+reading and contributing to that exchange instead of starting a new one, helps
+make the time that everyone spends with the course discussion more productive.
+You can search for something specific, or you can browse through the posts in a
+single discussion topic.
+
+=======================
+Search the Discussions
+=======================
+
+To search for text, select **Discussion**, and then enter a phrase, a word, or
+part of a word in the **Search all posts** field in the discussion navigation
+pane. When you press Enter, the search tries to find:
+
+* A match or close match to your text in any post, response, or comment. The
+  display updates to show a list of the posts that have a match at any level of
+  interaction.
+
+* A similar value in any post, response, or comment (if no exact matches are
+  found). A "No results found for {text}. Showing results for {similar}"
+  message displays above the posts that have similar text at any interaction
+  level.
+
+* Any usernames that are an exact match to your text. A "Show posts by
+  {username}" option displays above any posts that have an exact text match at
+  any interaction level. Select the username in the message to read that user's
+  posts, responses, and comments.
+
+==============================================
+Review Posts About a Single Topic
+==============================================
+
+To review posts about a particular part of the course or type of issue, select
+**Discussion** at the top of the page and then select a topic from the drop-
+down list. (**All Discussions** is selected by default.) Only posts about the
+topic you select appear in the discussion navigation pane.
+
+.. image:: ../../../shared/images/Discussion_filters.png
+ :alt: The discussion navigation pane with callouts to identify the top filter
+       to select one topic and the filter below it to select by state.
+ :width: 400
+
+=======================================
+Review Only Unread or Unanswered Posts
+=======================================
+
+To limit the posts shown on the **Discussion** page, you can select one of the
+filter options. The **Show all** filter in the discussion navigation pane is
+selected by default.
+
+* To list only the discussions and questions that you have not yet viewed,
+  select **Unread**.
+
+* To list only question posts that do not yet have any responses marked as
+  answers, select **Unanswered**.
+
+.. _Add a Post:
+
+************************************
+Add a Post, Response, or Comment
+************************************
+
+================================
+Add a Post
+================================
+
+To make sure that other learners and the course team can find and respond to
+your post, determine the type for your post: either question or discussion.
+
+Add a Post to a Content-Specific Discussion Topic
+**************************************************
+
+#. Select **Course**.
+
+#. Open the part of the course that includes the discussion topic that you want
+   to add to.
+
+#. To read what others have already contributed to the conversation, select
+   **Show Discussion**.
+
+   You can scroll through the posts that have already been added: the title and
+   the first sentence or two of each post appear. To read an entire post, view
+   the responses to it, and see any comments, select **Expand discussion**.
+
+#. To add a post, select **New Post**.
+
+   .. image:: ../../../shared/images/Discussion_content_specific_post.png
+     :alt: Adding a post about specific course content.
+     :width: 800
+
+#. Select the type of post: **Question** or **Discussion**.
+
+#. Enter a short, descriptive identifier for your post in the **Title** field.
+   The title is the part of your post that others see when they are browsing on
+   the **Discussion** page or scrolling through one of the content-specific
+   topics.
+
+#. Enter the complete text. Options for formatting the text and for adding
+   links or images are available: select the buttons above the text field.
+
+.. The following paragraph applies to the edX mobile app for Open edX (with discussions)
+.. Alison, DOC-1815, June 2015
+
+.. only:: Open_edX
+
+  .. note:: Any text formatting or images that you add are only visible
+     when others read your post in a web browser. The edX mobile apps do not
+     currently display added formatting or images.
+
+Add a Post to a Course-Wide Discussion Topic
+**************************************************
+
+You can also use this procedure to add a post to any of the content-specific
+discussion topics.
+
+#. Select the **Discussion** page.
+
+#. Select **New Post**.
+
+#. Select the type of post: select **Question** or **Discussion**.
+
+#. Select the most appropriate discussion topic for your post.
+
+   .. image:: ../../../shared/images/Discussion_course_wide_post.png
+     :alt: Selecting the topic for a new post on the Discussion page.
+     :width: 400
+
+#. Supply a short, descriptive **Title**. The title is the part of your post
+   that others see when they are browsing on the **Discussion** page or
+   scrolling through one of the content-specific topics.
+
+#. Enter the complete text. Options for formatting the text and for adding
+   links or images are available: select the buttons above the text field.
+
+.. The following paragraph applies to the edX mobile app for Open edX (with discussions)
+.. Alison, DOC-1815, June 2015
+
+.. only:: Open_edX
+
+  .. note:: Any text formatting or images that you add are only visible
+    when others read your post in a web browser. The edX mobile apps do not
+    currently display added formatting or images.
+
+===========================
+Add a Response or Comment
+===========================
+
+To participate in an ongoing discussion, you reply to the initial post by
+adding a response, or expand on a particular response by adding a comment.
+
+The same options for formatting the text and for adding links or images are
+available for responses and comments as for posts.
+
+.. The following paragraph applies to the edX mobile app for Open edX (with discussions)
+.. Alison, DOC-1815, June 2015
+
+.. only:: Open_edX
+
+  .. note:: Any text formatting or images that you add are only visible
+    when others read your post in a web browser. The edX mobile apps do not
+    currently display added formatting or images.
+
+Add a Response or Comment to a Content-Specific Discussion Topic
+****************************************************************
+
+#. Select **Course**.
+
+#. Open the part of the course with the discussion topic where you want to make
+   your contribution.
+
+#. Select **Show Discussion**.
+
+#. Scroll to the post where you want to add your thoughts.
+
+#. Select **Expand discussion**.
+
+   .. image:: ../../../shared/images/Discussion_expand.png
+     :alt: The **Expand discussion** link under a post.
+     :width: 800
+
+#. Add a response or comment.
+
+   * To add a response to the post, select **Add A Response**. When your response is complete, select **Submit**.
+
+   * To add a comment to a response, enter text in the **Add a comment** field below the response. When your comment is complete, select **Submit**.
+
+
+Add a Response or Comment to a Course-Wide Discussion Topic
+************************************************************
+
+You can also use this procedure to add a response or comment to any of the
+content-specific discussion topics.
+
+#. Select the **Discussion** page.
+
+#. Find the post that you want to contribute to. To help you decide where to
+   add your thoughts, review the current responses and their comments.
+
+#. Add a response or comment.
+
+   * To add a response to the post, select **Add A Response**. When your response is complete, select **Submit**.
+
+     .. image:: ../../../shared/images/Discussion_add_response.png
+       :alt: The **Add A Response** button located between a post and its
+          responses.
+       :width: 400
+
+   * To add a comment to a response, enter text in the **Add a comment** field below the response. When your comment is complete, select **Submit**.
+
+
+.. _Keep Up with New Activity:
+
+****************************************
+Keep Up with New Activity
+****************************************
+
+==============================
+Read New or Updated Posts
+==============================
+
+The discussion navigation pane on the **Discussion** page provides visual cues
+to help you identify posts that are new, or that have responses or comments
+that you have not read yet, and to distinguish them from exchanges that you
+have already read completely.
+
+* Posts that you have not read yet have a blue callout image.
+
+* Posts that you have read, but with responses or comments that you have not
+  read yet, have a white callout image.
+
+* Exchanges that you have read completely have a gray callout image and
+  background.
+
+  .. image:: ../../../shared/images/Discussion_colorcoding.png
+    :alt: The discussion navigation pane with posts showing differently colored
+        backgrounds and callout images.
+    :width: 200
+
+The total number of contributions in the exchange (the post and its responses
+and comments) appears in each callout image. To see how many contributions are
+still unread, move your pointer over the callout image.
+
+.. image:: ../../../shared/images/Discussion_mouseover.png
+ :alt: A post with four contributions total, and a popup that shows that only
+   two are unread.
+ :width: 400
+
+The color-coded callout images appear when you sort the list of posts in the
+discussion navigation pane **by recent activity** or **by most activity**. If
+you sort the list of posts by most votes instead, the number of votes that the
+post has received appears in place of the callouts. For more information, see
+:ref:`Vote for Posts or Responses`.
+
+==============================
+Receive Daily Digests
+==============================
+
+You have the option to receive an email message each day that summarizes
+discussion activity for the posts you are following. To receive this daily
+digest, select **Discussion** and then select the **Receive updates** checkbox.
+
+
+.. _React to Contributions:
+
+************************************
+Provide Feedback on Contributions
+************************************
+
+As you read the contributions that other learners and team members make to
+discussion topics, you can provide feedback without writing a complete response
+or comment. You can provide feedback in these ways.
+
+* :ref:`Vote for posts and responses<Vote for Posts or Responses>` to provide
+  positive feedback.
+
+* :ref:`Follow posts<Follow Posts>` so that you can check back in on
+  interesting conversations and questions easily.
+
+* :ref:`Answer questions, and mark your questions as answered<Answer
+  Questions>`.
+
+* :ref:`Report a contribution<Report Discussion Misuse>` that is inappropriate
+  to the discussion administration team.
+
+To select a feedback option, you use the icons at the top right of each post,
+response, or comment. When you move your pointer over these icons a label
+appears.
+
+.. image:: ../../../shared/images/Discussion_options_mouseover.png
+ :alt: The icons at top right of a post, shown before the pointer is
+      placed over each one and with the Vote, Follow, and More labels.
+ :width: 400
+
+When you select the "More" icon, a menu of the options that currently apply
+appears.
+
+.. image:: ../../../shared/images/Discussion_More_menu.png
+ :alt: The More icon expanded to show a menu with one option and a menu with
+       three options.
+ :width: 400
+
+.. _Vote for Posts or Responses:
+
+==============================
+Vote for Posts or Responses
+==============================
+
+If you like a post or one of its responses, you can vote for it: view the
+post or response and select the "Vote" icon at top right.
+
+.. image:: ../../../shared/images/Discussion_vote.png
+ :alt: A post with the Vote icon circled.
+ :width: 600
+
+You can sort the list of posts in the discussion navigation pane so that the
+posts with the most votes appear at the top: select the drop-down list of
+sorting options and select **by most votes**.
+
+.. image:: ../../../shared/images/Discussion_sortvotes.png
+ :alt: The discussion navigation pane with the "by most votes" sorting option
+       and the number of votes for the post circled.
+ :width: 200
+
+The number of votes that each post has received displays in the discussion
+navigation pane. (Votes for responses are not included in the number.)
+
+.. _Follow Posts:
+
+==============================
+Follow Posts
+==============================
+
+If you find a post particularly interesting and want to return to it in the
+future, you can follow it: view that post and select the "Follow" icon.
+
+.. image:: ../../../shared/images/Discussion_follow.png
+ :alt: A post with the Follow icon circled.
+ :width: 600
+
+Each post that you follow appears with a "Following" indicator in the list of
+posts.
+
+To list only the posts that you are following, regardless of the discussion
+topic they apply to, select the drop-down Discussion list and select
+**Posts I'm Following**.
+
+.. image:: ../../../shared/images/Discussion_filterfollowing.png
+ :alt: The discussion navigation pane with the "Posts I'm Following" filter
+       selected. Every post in the list shows the following indicator.
+ :width: 200
+
+.. _Answer Questions:
+
+============================================================
+Answer Questions and Mark Questions as Answered
+============================================================
+
+Anyone in a course can answer questions. Just add a response to the question
+post with your answer.
+
+The person who posted the question (and members of the discussion
+administration team) can mark responses as correct: select the "Mark as Answer"
+icon that appears at upper right of the response.
+
+.. image:: ../../../shared/images/Discussion_answer_question.png
+ :alt: A question and a response, with the Mark as Answer icon circled.
+ :width: 600
+
+.. The following paragraph applies to the edX mobile app for Open edX (with discussions)
+.. Alison, DOC-1815, June 2015
+
+.. only:: Open_edX
+
+  .. note:: You can only mark questions as answered when you work in a web
+    browser. This option is not available when you work in an edX mobile app.
+
+After at least one response is marked as the answer, a check or tick mark image
+replaces the question mark image for the post in the list on the **Discussion**
+page.
+
+.. image:: ../../../shared/images/Discussion_answers_in_list.png
+ :alt: The discussion navigation pane with images identifying unanswered and
+     answered questions and discussions.
+ :width: 200
+
+.. _Report Discussion Misuse:
+
+==============================
+Report Discussion Misuse
+==============================
+
+You can flag any post, response, or comment for a discussion moderator to
+review: view the contribution, select the "More" icon, and then select
+**Report**.
+
+.. image:: ../../../shared/images/Discussion_reportmisuse.png
+ :alt: A post and a response with the "Report" link circled.
+ :width: 400
+
+.. Future: DOC-121 As a course author, I need a template of discussion guidelines to give to students

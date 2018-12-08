@@ -1,8 +1,56 @@
 .. _Insights Index:
 
 ####################################
-edX Insights
+EdX Insights
 ####################################
+
+The following information describes what is new in edX Insights.
+
+.. contents::
+  :local:
+  :depth: 2
+
+**************************
+1 December 2015
+**************************
+
+.. include:: 2015/insights/insights_1201_2015.rst
+
+******************
+10 November 2015
+******************
+
+.. include:: 2015/insights/insights_1110_2015.rst
+
+******************
+4 November 2015
+******************
+
+.. include:: 2015/insights/insights_1104_2015.rst
+
+******************
+8 October 2015
+******************
+
+.. include:: 2015/insights/insights_1007_2015.rst
+
+******************
+23 September 2015
+******************
+
+.. include:: 2015/insights/insights_0921_2015.rst
+
+*******************
+25 August 2015
+*******************
+
+.. include:: 2015/insights/insights_0806_2015.rst
+
+*******************
+6 August 2015
+*******************
+
+.. include:: 2015/insights/insights_0806_2015.rst
 
 *******************
 23 June 2015
@@ -34,5 +82,5 @@ edX Insights
 
 .. include:: 2015/insights/insights_0128_2015.rst
 
-   
-.. include:: links.rst
+
+.. include:: ../../links/links.rst

@@ -4,26 +4,22 @@
 The Structure of the Manual Testing Course
 ############################################
 
-This chapter describes the structure of the `Manual Testing`_ course. See:
+This section describes the structure of the `Manual Testing`_ course.
 
-* `Manual Testing Course and Directory File Structures`_
-* `Top-level Directory`_
-* `The Courseware Structure File`_
-* `Chapter Files`_
-* `Sequential Files`_
-* `Vertical Files`_
-* `Other XBlock Files`_
-* `Platform Directories`_
+.. contents::
+  :local:
+  :depth: 1
 
-For information on how a generic OLX course is structured, see 
+For information about how a generic OLX (open learning XML) course is
+structured, see
 :ref:`OLX Directory Structure`.
 
-For information on how a non-Studio OLX course can be structured, see :ref:`The
-Structure of edX-Insider`.
+For information about how a non-Studio OLX course can be structured, see
+:ref:`The Structure of edX-Insider`.
 
-.. note:: 
-  The structure and content of the manual testing course may change before this
-  documentation is updated.
+.. note::
+  The structure and content of the manual testing course can change without
+  corresponding updates being made to this reference guide.
 
 ***************************************************************
 Manual Testing Course and Directory File Structures
@@ -34,8 +30,7 @@ stored in the `manual-testing-complete`_ directory in the edx-platform Git
 repository.
 
 .. Image:: ../Images/manual-testing-course-github.png
- :alt: The manual testing course in GitHub
-
+ :alt: The manual testing course in GitHub.
 
 ********************
 Top-level Directory
@@ -67,7 +62,7 @@ directory.
 
 The ``2014.xml`` file specifies advanced settings as attributes of the
 ``course`` element, and lists the chapters (or sections) that make up the
-courseware:
+courseware.
 
 .. code-block:: xml
 
@@ -99,12 +94,11 @@ the name of the XML file in the ``chapter`` directory.  For example, the first
 ``a64a6f63f75d430aa71e6ce113c5b4d2``, matches
 ``a64a6f63f75d430aa71e6ce113c5b4d2.xml`` in the ``chapter`` directory.
 
-Students see the chapters that the ``course.xml`` file defines in the course
-accordion in the learning management system:
+Learners see the chapters that the ``course.xml`` file defines in the LMS on
+the **Course** page in the course navigation pane.
 
 .. Image:: ../Images/courseware-chapters.png
- :alt: Chapters in the student's courseware
-
+ :alt: Chapters in the learner's courseware.
 
 **************
 Chapter Files
@@ -114,7 +108,7 @@ The structure of each chapter, or section, in the courseware is defined in the
 XML file in the ``chapter`` directory.
 
 Each chapter file specifies the sequentials, or subsections, in the chapter.
-For example:
+An example follows.
 
 .. code-block:: xml
 
@@ -133,11 +127,11 @@ the first ``sequential`` element's ``url_name`` attribute,
 ``7d631967807476485aa26ba0c39a992``, matches
 ``7d631967807476485aa26ba0c39a992.xml`` in the ``sequential`` directory.
 
-Students see the sequentials that the chapter file defines in the course
-accordion in the learning management system:
+Learners see the sequentials that the chapter file defines in the LMS on the
+**Course** page in the course navigation pane.
 
 .. Image:: ../Images/courseware-sequentials.png
- :alt: Sequentials in the student's courseware
+ :alt: Sequentials in the learner's courseware.
 
 *****************
 Sequential Files
@@ -147,7 +141,7 @@ The structure of each sequential, or subsection, in the courseware is defined
 in the XML file in the ``sequential`` directory.
 
 Each sequential file specifies the verticals, or units, in the subsection.
-For example:
+An example follows.
 
 .. code-block:: xml
 
@@ -161,13 +155,12 @@ the ``vertical`` element's ``url_name`` attribute,
 ``e81c7ddcf5434387a2a6163ca973520c``, matches
 ``e81c7ddcf5434387a2a6163ca973520c.xml`` in the ``vertical`` directory.
 
-Students see the verticals that the sequential file defines in the courseware.
-The following example shows a sequential with one vertical, which
-has one XBlock.
+Learners see the verticals that the sequential file defines in the LMS on the
+**Course** page in the unit navigation bar. The following example shows a
+sequential with one vertical, which has one XBlock.
 
 .. Image:: ../Images/courseware-vertical.png
- :alt: A vertical in the student's courseware
-
+ :alt: A vertical in the learner's courseware.
 
 *****************
 Vertical Files
@@ -188,13 +181,12 @@ For example, the following vertical contains one problem:
 Each ``vertical`` element contains a child element for each XBlock in the
 vertical.
 
-Students see the XBlocks that the vertical file defines in the learning
-management system.
+Learners see the XBlocks that the vertical file defines in the LMS.
 
 For each XBlock, the value of the ``url_name`` attribute matches the name of
 the XML file in the XBlock directory.  The XBlock directory name is specific to
-the type of XBlock and matches the XML element name. XBlock types in the
-`Manual Testing`_ course include:
+the type of XBlock and matches the XML element name. The following XBlock types
+are included in the `Manual Testing`_ course.
 
 * ``annotable``
 * ``combineopenended``
@@ -208,18 +200,18 @@ the type of XBlock and matches the XML element name. XBlock types in the
 Other XBlock Files
 ********************
 
-XBlock files contain the actual content students engage with in the learning
+XBlock files contain the actual content learners engage with in the learning
 management system.
 
 The root element of an XBlock file is the type of XBlock, as well as the parent
 directory name.  For example, the root element of files in the ``html``
 directory is ``html``.
 
-Following is an example of a problem XBlock:
+An example of a problem XBlock follows.
 
 .. code-block:: xml
 
-  <problem display_name="Blank Common Problem" markdown="Capital of France is 
+  <problem display_name="Blank Common Problem" markdown="Capital of France is
     Paris:&#10;&#10;[[false, (true)]]&#10;">
     <p>Capital of France is Paris:</p>
     <optionresponse>
@@ -227,18 +219,17 @@ Following is an example of a problem XBlock:
     </optionresponse>
   </problem>
 
-Students see the problem in the vertical (or unit) page:
+Learners see the problem in the vertical (or unit) page as follows.
 
 .. Image:: ../Images/courseware-blank-problem.png
- :alt: A vertical in the student's courseware
-
+ :alt: A vertical in the learner's courseware.
 
 ********************
 Platform Directories
 ********************
 
-The `Manual Testing`_ course includes platform directories to support non-courseware parts of the OLX course.  See :ref:`edX Platform Directories` for
-more information.
+The `Manual Testing`_ course includes platform directories to support
+non-courseware parts of the OLX course. For more information, see
+:ref:`edX Platform Directories`.
 
-
-.. include:: ../links.rst
+.. include:: ../../../links/links.rst

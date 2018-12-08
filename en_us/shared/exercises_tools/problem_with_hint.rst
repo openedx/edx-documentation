@@ -4,19 +4,21 @@
 Problem with Adaptive Hint
 ################################
 
+.. note:: EdX offers provisional support for this problem type.
+
 A problem with an adaptive hint evaluates a student's response, then gives the
 student feedback or a hint based on that response so that the student is more
 likely to answer correctly on the next attempt. These problems can be text
 input problems or multiple choice problems.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/ProblemWithAdaptiveHintExample.png
+.. image:: ../../../shared/images/ProblemWithAdaptiveHintExample.png
  :alt: Image of a problem with an adaptive hint
 
 ******************************************
 Create a Problem with an Adaptive Hint
 ******************************************
 
-To create the above problem:
+To create the problem illustrated above, follow these steps.
 
 #. In the unit where you want to create the problem, click **Problem**
    under **Add New Component**, and then click the **Advanced** tab.
@@ -42,8 +44,8 @@ To create the above problem:
 	  print 'hint_fn called, ans=', ans
 	  hint = ''
 	  if '10' in ans:
-	     hint = 'If the ball costs 10 cents, and the bat costs one dollar more than the ball, 
-	     how much does the bat cost? If that is the cost of the bat, how much do the ball and 
+	     hint = 'If the ball costs 10 cents, and the bat costs one dollar more than the ball,
+	     how much does the bat cost? If that is the cost of the bat, how much do the ball and
 	     bat cost together?'
 	  elif '.05' in ans:
 	     hint = 'Make sure to enter the number of cents as a whole number.'
@@ -52,8 +54,8 @@ To create the above problem:
 	    hint = "&lt;font color='blue'&gt;Hint: {0}&lt;/font&gt;".format(hint)
 	    new_cmap.set_hint_and_mode(aid,hint,'always')
 	        </script>
-	        <p>If a bat and a ball cost $1.10 together, and the bat costs $1.00 more than the 
-	        ball, how much does the ball cost? Enter your answer in cents, and include only 
+	        <p>If a bat and a ball cost $1.10 together, and the bat costs $1.00 more than the
+	        ball, how much does the ball cost? Enter your answer in cents, and include only
 	        the number (that is, do not include a $ or a ¢ sign).</p>
 	        <p>
 	            <customresponse cfn="test_str" expect="5">
@@ -109,7 +111,8 @@ Template
 	  </text>
 	</problem>
 
-.. note:: If the hints that you supply include characters, the letters must be lowercase.
+.. note:: If the hints that you supply include characters, the letters must be
+ lowercase.
 
 ========
 Tags
@@ -117,7 +120,8 @@ Tags
 
 * ``<text>``: Surrounds the script and text in the problem.
 * ``<customresponse>``: Indicates that this problem has a custom response.
-* ``<textline>``: Creates a response field in the LMS where the student enters a response.
+* ``<textline>``: Creates a response field in the LMS where the student enters
+  a response.
 * ``<hintgroup>``: Specifies that the problem contains at least one hint.
 
 **Tag:** ``<customresponse>``
@@ -154,7 +158,7 @@ Tags
          uppercase and lowercase letters.)
 
   Children
-  
+
   (none)
 
 **Tag:** ``<hintgroup>``
@@ -168,5 +172,6 @@ Tags
      * - Attribute
        - Description
      * - hintfn
-       - Must be set to **hint_fn** (that is, the tag must appear as ``<hintgroup hintfn="hint_fn"/>``).
-       
+       - Must be set to **hint_fn** (that is, the tag must appear as
+         ``<hintgroup hintfn="hint_fn"/>``).
+

@@ -1,14 +1,15 @@
 .. _Front Matter:
 
 #############################
-For Your Information
+General Information
 #############################
 
 .. toctree::
    :maxdepth: 2
-   
+
    read_me
    preface
-   change_log
-   change_log_2014
    browsers
+   change_log
+   change_log_2015
+   change_log_2014

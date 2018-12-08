@@ -257,7 +257,7 @@ big, small {
 		display: table-header-group
 	}
 	tr, img {
-		
+
 	}
 	img {
 		max-width: 100% !important
@@ -1453,7 +1453,7 @@ ul.icons li .icon-large:before, ul.icons li .icon-large:before {
 	border-color: #bf6516
 }
 .wy-alert.wy-alert-info, .rst-content .note, .rst-content .wy-alert-info.attention, .rst-content .wy-alert-info.caution, .rst-content .wy-alert-info.danger, .rst-content .wy-alert-info.error, .rst-content .hint, .rst-content .important, .rst-content .tip, .rst-content .wy-alert-info.warning {
-	background: #e7f2fa; 
+	background: #e7f2fa;
 	/*color: #fff;*/
 	border-color: #20638f
 }
@@ -2622,19 +2622,19 @@ code.code-large, .rst-content tt.code-large {
 	line-height: 24px;
 	margin-bottom: 24px
 }
-.wy-plain-list-disc li, .rst-content .section ul li, .rst-content .toctree-wrapper ul li {
+.wy-plain-list-disc > li, .rst-content .section ul > li, .rst-content .toctree-wrapper ul > li {
 	list-style: disc;
 	margin-left: 24px;
 	margin-bottom: 8px
 }
-.wy-plain-list-disc li ul, .rst-content .section ul li ul, .rst-content .toctree-wrapper ul li ul {
+.wy-plain-list-disc li > ul, .rst-content .section ul > li > ul, .rst-content .toctree-wrapper ul > li > ul {
 	margin-bottom: 8px;
 	margin-top: 8px
 }
-.wy-plain-list-disc li li, .rst-content .section ul li li, .rst-content .toctree-wrapper ul li li {
+.wy-plain-list-disc li > li, .rst-content .section ul > li > li, .rst-content .toctree-wrapper ul > li > li {
 	list-style: circle
 }
-.wy-plain-list-disc li li li, .rst-content .section ul li li li, .rst-content .toctree-wrapper ul li li li {
+.wy-plain-list-disc li > li > li, .rst-content .section ul > li > li > li, .rst-content .toctree-wrapper ul > li > li > li {
 	list-style: square
 }
 .wy-plain-list-decimal, .rst-content .section ol, .rst-content ol.arabic {
@@ -2642,10 +2642,13 @@ code.code-large, .rst-content tt.code-large {
 	line-height: 24px;
 	margin-bottom: 12px
 }
-.wy-plain-list-decimal li, .rst-content .section ol li, .rst-content ol.arabic li {
+.wy-plain-list-decimal > li, .rst-content .section ol > li, .rst-content ol.arabic > li {
 	list-style: decimal;
 	margin-left: 24px;
 	margin-bottom: 6px
+}
+.rst-content ol.arabic > li > ol.arabic li {
+	list-style: lower-latin;
 }
 .wy-type-large {
 	font-size: 120%

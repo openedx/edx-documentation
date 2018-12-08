@@ -7,28 +7,35 @@ Getting Started with Studio
 This topic describes the tools you use to build an edX course, and how to
 create your first course.
 
-* :ref:`What is Studio?`
-* :ref:`Use Studio on Edge`
-* :ref:`Create Your First Course`
-* :ref:`View Your Course on Edge`
-* :ref:`Register Your Course on edX.org`
+.. contents::
+ :local:
+ :depth: 1
 
-If you are using an instance of Open edX, some specifics in this section might 
-not apply.
+If your organization has an agreement with edX and approval to do so, you can
+run courses on the edX Edge and edx.org websites.
 
-.. _What is Studio?:        
-            
+If you are using an instance of Open edX to create a course, see
+:ref:`opencoursestaff:Getting Started with Studio` in the *Building and Running
+an Open edX Course* guide.
+
+.. _What is Studio?:
+
 ***************
 What is Studio?
 ***************
 
-Studio is the edX tool you use to build your courses. 
+Studio is the edX tool you use to build your courses. You use Studio to create
+a course structure, and then add problems, videos, and other resources for
+learners. You can also manage the course schedule, identify members of the
+course team, set the grading policy, publish your course, and more.
 
-You use Studio to create course content, problems, videos, and other resources
-for students.
+* For the edX Edge site, anyone who has approval to use Studio can create and
+  develop courses.
 
-With Studio, you can also manage your schedule and course team, set grading
-policies, publish your course, and more.
+* For the edx.org site, only edX staff members can create courses in Studio.
+  Course teams at partner institutions can then use Studio to develop the
+  courses. Contact your partner manager to discuss your schedule and other
+  requirements.
 
 You use Studio directly through your browser. You do not need any additional
 software.
@@ -39,12 +46,19 @@ software.
 Use Studio on Edge
 ******************
 
-You also use Studio on Edge to build your own courses.
+For the edX Edge site, you use Studio to create and build courses.
 
-Go to: https://studio.edge.edx.org. Sign in with the account you created on
-Edge.
+===================================================
+Request Course Creation Privileges for edX Edge
+===================================================
 
-You must then request access to create courses.
+If you are a first time Studio user for the edX Edge site, follow these steps.
+
+#. Go to the Studio website for Edge, located at https://studio.edge.edx.org.
+
+#. Sign in with the account you created on Edge.
+
+   You must then request access to create courses.
 
 #. Select the **+** icon to expand the field labeled **Becoming a Course
    Creator in Studio**.
@@ -54,68 +68,83 @@ You must then request access to create courses.
 EdX evaluates your request. When course creation permissions are granted,
 you are notified by email.
 
-.. _Studio: https://studio.edge.edx.org
-.. _Edge: http://edge.edx.org
-  
-.. _Create Your First Course:  
-  
-***************************
-Create Your First Course
-***************************
+.. _Create Your First Course:
 
-When you receive notice that you can create courses, log in to Studio_.
+==================================
+Create Your First Course on Edge
+==================================
 
-You see the following page, which is your **My Courses** dashboard:
+When you receive notice that you can create courses on Edge, log in to Studio
+at https://studio.edge.edx.org.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/first_course.png
+You see the following page, which is your **My Courses** dashboard.
+
+.. image:: ../../../shared/images/first_course.png
  :width: 600
- :alt: The Studio home page where you create your first course.
+ :alt: The Studio home page for edX Edge where you create your first course.
 
-Select **Create Your First Course** and follow instructions in ths
+Select **Create Your First Course**, and then follow the instructions in the
 :ref:`Creating a New Course` section.
 
-When you've created the course, you can view it on Edge.
-  
+After you create a course, you can view it in the Edge LMS.
+
 .. _View Your Course on Edge:
-    
-************************
-View Your Course on Edge
-************************
 
-You can now view the course you just created, even though it does not contain
-any content.
+==================================
+View Your Course in the Edge LMS
+==================================
 
-In the Course Outline in Studio, select **View Live**. The course opens on
-Edge.
+You can view a course in the LMS as soon as you create it, even if it does not
+contain any content.
 
-You can also go directly to Edge_. Log in if prompted. You see the course you
-just created listed on your **My Courses** dashboard:
+From the Course Outline page in Studio, select **View Live**. The course opens
+in the Edge LMS.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/new_course.png
+You can also go directly to the edX Edge LMS at https://edge.edx.org/. Sign in
+if prompted. You see the course you just created listed on your **My Courses**
+dashboard.
+
+.. image:: ../../../shared/images/new_course.png
  :width: 600
- :alt: The Edge Dashboard.
+ :alt: The learner dashboard for the edX Edge site, with a single course
+     listed.
 
-You can view the course and see that there is no content yet.
+You can select the course to confirm its content.
 
 .. _Register Your Course on edx.org:
 
-************************************
-View Your Course on edX.org
-************************************
+****************************************************
+View Your edx.org Course in Studio and the LMS
+****************************************************
 
 If your organization has an agreement with edX and approval to do so, you can
-create a course on edX. To see the content of your course as students will see
-it, you must enroll in your course. You can then view it on the LMS.
+develop courses to run on the edx.org website. Only edX staff members can
+create courses to run on edx.org.
 
-#. In Studio, create your course and add content.
+.. note:: Contact your partner manager directly to discuss your schedule and
+  other requirements for creating an edx.org course. The **Email staff to
+  create course** option that appears in Studio is not regularly monitored, and
+  should not be used.
 
-#. On the **Course Outline** page, select the blue **View
-   Live** button in the upper right corner of the page.
+After the course is created, you can add content in Studio and then view the
+course in the LMS.
 
-   Your course enrollment page opens in a new tab on the LMS.
+#. Go to the Studio website for edx.org, located at https://studio.edx.org.
 
-#. Select the blue **Enroll** button to enroll in your course. After you enroll
-   in your course, it opens in the LMS.
+#. Sign in, and then verify that your course appears on your dashboard.
 
-#. To continue working on your course, in your browser, switch back to the tab
-   that shows Studio. You will still be on the **Course Outline** page.
+#. To build your course, follow the instructions in the :ref:`Creating a New
+   Course` section.
+
+#. To view the course in the LMS, on the **Course Outline** page select **View
+   Live**.
+
+   Your course enrollment page opens in a new browser tab.
+
+#. Select **Enroll** to enroll in your course. After you enroll in your course,
+   it opens in the edx.org LMS.
+
+#. To continue working on your course, select the browser tab that shows
+   Studio. The **Course Outline** page displays.
+
+.. include:: ../../../links/links.rst

@@ -4,13 +4,15 @@
 Image Mapped Input Problem
 ###########################
 
+.. note:: EdX offers provisional support for this problem type.
+
 In an image mapped input problem, also known as a "pointing on a picture"
 problem, students click inside a defined region in an image. You define this
 region by including coordinates in the body of the problem.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/ImageMappedInput-Simple.png
+.. image:: ../../../shared/images/ImageMappedInput-Simple.png
  :width: 500
- :alt: Problem that asks learners to click inside Egypt on a map of Africa
+ :alt: Problem that asks learners to click inside Egypt on a map of Africa.
 
 You can specify the following types of regions.
 
@@ -29,10 +31,10 @@ You can specify the following types of regions.
 Create an Image Mapped Input Problem
 ****************************************
 
-To create an image mapped input problem, follow these steps. 
+To create an image mapped input problem, follow these steps.
 
 #. :ref:`Collect the information that you need for the image<Determine
-   Coordinates>`. 
+   Coordinates>`.
 
 #. :ref:`Create the problem in Studio<Create an IMI Problem in Studio>`.
 
@@ -46,12 +48,12 @@ To create an image mapped input problem, you need the following elements.
 
    * The height and width of the image in pixels.
    * Coordinate pairs that define the region or regions where you want
-     students to click.
+     learners to click.
 
 To collect the information you need about your image, use an image editing
-tool such as Microsoft Paint. 
+tool such as Microsoft Paint.
 
-.. note:: The coordinate pairs for all images start with (0,0) in the 
+.. note:: The coordinate pairs for all images start with (0,0) in the
  upper-left corner of the image and increase in value toward the lower-right
  corner, similar to the progression of reading English.
 
@@ -66,13 +68,13 @@ tool such as Microsoft Paint.
   pairs. You can enter the coordinate pairs in any order.
 
   For example, for a triangle, you need three coordinate pairs. For an
-  octagon, you need eight coordinate pairs. 
+  octagon, you need eight coordinate pairs.
 
 .. _Create an IMI Problem in Studio:
 
-=================================
-Create the Problem in Studio
-=================================
+================================================
+Create an Image Mapped Input Problem in Studio
+================================================
 
 #. In Studio, upload your image to the **Files & Uploads** page, and make a
    note of the file path for the image. For more information, see :ref:`Add
@@ -81,7 +83,8 @@ Create the Problem in Studio
    under **Add New Component**, and then click the **Advanced** tab.
 #. Click **Image Mapped Input**.
 #. In the component that appears, click **Edit**.
-#. In the component editor, replace the example problem text with your own text. 
+#. In the component editor, replace the example problem text with your own
+   text.
 #. In the ``<imageinput>`` element, follow these steps.
 
    #. Replace the example file path in the ``src`` attribute with the file
@@ -92,7 +95,7 @@ Create the Problem in Studio
       Images`.
 
    #. Replace the example values for the ``width`` and ``height`` attributes
-      with the dimensions for your image. 
+      with the dimensions for your image.
 
    #. Modify the example ``rectangle`` attribute to reflect the shape and size
       of the region that you want to specify. For more information, see
@@ -125,26 +128,26 @@ two coordinate pairs:
 
 .. code-block:: xml
 
- <problem> 
+ <problem>
 
   <p>What country is home to the Pyramids as well as the cities of
-  Cairo and Memphis? Click the country on the map below.</p> 
+  Cairo and Memphis? Click the country on the map below.</p>
 
   <imageresponse>
     <imageinput src="/static/Africa.png" width="600" height="638"
   rectangle="(338,98)-(412,168)" alt="Map of Africa" />
   </imageresponse>
- 
-  <solution> 
-    <div class="detailed-solution"> 
-  
-      <p>Explanation</p> 
-  
+
+  <solution>
+    <div class="detailed-solution">
+
+      <p>Explanation</p>
+
       <p>Egypt is home to not only the Pyramids, Cairo, and Memphis, but also the
   Sphinx and the ancient Royal Library of Alexandria.</p>
-  
-    </div> 
-  </solution> 
+
+    </div>
+  </solution>
 
  </problem>
 
@@ -155,12 +158,12 @@ Specify Multiple Rectangular Regions
 
 You can specify more than one rectangular region in an image.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/ImgMapInput_Mult.png
+.. image:: ../../../shared/images/ImgMapInput_Mult.png
  :width: 350
- :alt: Problem that asks students to click inside one of three rectangles
+ :alt: Problem that asks learners to click inside one of three rectangles
 
-To specify multiple rectangular regions, edit the ``rectangle`` attribute in the
-``<imageinput>`` element.
+To specify multiple rectangular regions, edit the ``rectangle`` attribute in
+the ``<imageinput>`` element.
 
 * Specify the coordinate pair for the upper-left and lower-right corners of
   each rectangle, separating the x and y values with a comma.
@@ -178,17 +181,17 @@ For example, the following ``rectangle`` attribute creates three rectangles:
 .. code-block:: xml
 
  <problem>
-  
+
   <p>In the following image, click inside any of the rectangles.</p>
-    
-    <imageresponse> 
+
+    <imageresponse>
 
       <imageinput src="/static/imageresponse_multipleregions.png" width="450"
         height="450" rectangle="(62,94)-(262,137);(306,41)-(389,173);(89,211)-
         (187,410)" alt="Three rectangles on a white background" />
-        
+
     </imageresponse>
-    
+
  </problem>
 
 .. _Specify an Irregular Region:
@@ -198,9 +201,9 @@ Specify an Irregular Region
 
 You can specify one non-rectangular region.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/ImgMapInput_Irreg.png
+.. image:: ../../../shared/images/ImgMapInput_Irreg.png
   :width: 500
-  :alt: Problem that asks learners to click inside a pentagon
+  :alt: Problem that asks learners to click inside a pentagon.
 
 To specify an irregular region, edit the ``rectangle`` attribute in the
 ``<imageinput>`` element.
@@ -208,7 +211,7 @@ To specify an irregular region, edit the ``rectangle`` attribute in the
 * Change ``rectangle`` to ``region``.
 * Specify three or more coordinate points in any order.
 * Enter each coordinate pair in brackets ([]). **Do not use parentheses**.
-* Separate each set of points with a comma (,) and a space. 
+* Separate each set of points with a comma (,) and a space.
 * Enclose the whole list of coordinate points in brackets ([]).
 * Surround the outer brackets with quotation marks (").
 
@@ -223,8 +226,8 @@ For example, the following ``regions`` attribute creates a pentagon.
  <problem>
 
   <p>In the following image, click inside the pentagon.</p>
-  
-  <imageresponse> 
+
+  <imageresponse>
 
     <imageinput src="/static/imageresponse_irregularregions.jpg" width="600"
     height="204" regions="[[219,86], [305,192], [305,381], [139,381],
@@ -238,7 +241,7 @@ For example, the following ``regions`` attribute creates a pentagon.
 .. _Image Mapped Input Problem XML:
 
 ******************************
-Image Mapped Input Problem XML 
+Image Mapped Input Problem XML
 ******************************
 
 ==========
@@ -265,8 +268,10 @@ Template
 Tags
 =====
 
-* ``<imageresponse>``: Indicates that the problem is an image mapped input problem.
-* ``<imageinput>``: Specifies the image file and the region in the file that the student must click.
+* ``<imageresponse>``: Indicates that the problem is an image mapped input
+  problem.
+* ``<imageinput>``: Specifies the image file and the region in the file that
+  the learner must click.
 
 **Tag:** ``<imageresponse>``
 
@@ -282,7 +287,7 @@ Indicates that the problem is an image mapped input problem.
 
 **Tag:** ``<imageinput>``
 
-Specifies the image file and the region in the file where students must click.
+Specifies the image file and the region in the file where learners must click.
 
   Attributes
 
@@ -299,11 +304,11 @@ Specifies the image file and the region in the file where students must click.
         - The width of the image, in pixels
       * - ``rectangle`` (required) (or, for irregular regions, ``region``)
         - An attribute with two or more coordinate pairs that define the region
-          where students should click
+          where learners should click
       * - ``alt`` (required)
         - A description of the image, used for accessibility
 
   Children
-  
+
   (none)
 

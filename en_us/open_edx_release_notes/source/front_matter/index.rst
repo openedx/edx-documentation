@@ -1,5 +1,5 @@
 #############################
-For Your Information
+General Information
 #############################
 
 .. toctree::

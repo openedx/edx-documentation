@@ -1,1 +1,3 @@
+# livereload 2.4.1 was broken for sphinx-autobuild 0.4.0
+livereload==2.4.0
 sphinx-autobuild==0.4.0

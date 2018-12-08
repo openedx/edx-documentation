@@ -4,7 +4,8 @@
 Getting Started with OLX
 ###########################
 
-To develop your course in OLX, you complete the following steps:
+To develop your course in OLX (open learning XML), edX's XML markup format, you
+complete the following steps.
 
  #.  :ref:`Define course policies<Policies>`.
  #.  :ref:`Add course assets<Course Assets>`.
@@ -13,3 +14,4 @@ To develop your course in OLX, you complete the following steps:
  #.  :ref:`Organize Courseware<Organizing Courseware>`.
  #.  :ref:`Create course components<Course Components>`.
  #.  :ref:`Create problems and tools<Problems>`.
+

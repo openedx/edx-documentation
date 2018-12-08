@@ -4,8 +4,9 @@
 The Course About Pages
 #################################
 
-Use the chapters in this section to create the information prospective students
-will see about your course.
+The topics in this section describe how to use OLX (open learning XML) to
+create and edit the information that prospective learners see about your
+course.
 
 .. toctree::
    :maxdepth: 2

@@ -1,16 +1,62 @@
 .. _Mobile Index:
 
 ####################################
-edX Mobile App
+EdX Mobile App
 ####################################
 
+The following information describes what is new in the edX mobile apps.
+
+.. contents::
+  :local:
+  :depth: 2
+
+**************************
+Week of 18 July 2016
+**************************
+
+.. include:: 2016/mobile/mobile_0718_2016.rst
+
+**************************
+Week of 16 May 2016
+**************************
+
+.. include:: 2016/mobile/mobile_0516_2016.rst
+
+**************************
+Week of 28 March 2016
+**************************
+
+.. include:: 2016/mobile/mobile_0328_2016.rst
+
+**************************
+Week of 22 February 2016
+**************************
+
+.. include:: 2016/mobile/mobile_0222_2016.rst
+
+******************
+3 February 2016
+******************
+
+.. include:: 2016/mobile/mobile_0202_2016.rst
+
+******************
+6 January 2016
+******************
+
+.. include:: 2016/mobile/mobile_0106_2016.rst
+
+******************
+8 December 2015
+******************
+
+.. include:: 2015/mobile/mobile_1208_2015.rst
 
 ******************
 22 April 2015
 ******************
 
 .. include:: 2015/mobile/mobile_0422_2015.rst
-
 
 ******************
 31 March 2015
@@ -48,5 +94,6 @@ edX Mobile App
 .. include:: 2015/mobile/mobile_0108_2015.rst
 
 
-  
-.. include:: links.rst
+
+
+.. include:: ../../links/links.rst

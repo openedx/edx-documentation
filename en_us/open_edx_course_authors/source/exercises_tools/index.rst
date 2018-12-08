@@ -1,30 +1,35 @@
 .. _Exercises and Tools Index:
 
 ############################
-Creating Exercises and Tools
+Adding Exercises and Tools
 ############################
 
-Use the chapters in this section to understand how to create exercises and
-tools in your course.
+Use the topics in this section to understand how to add exercises and tools to
+your course, including the various problem types that you can add using the
+:ref:`problem component<Working with Problem Components>`.
 
-For information on how to develop your course content in the Studio Outline
+For information about how to develop your course content in the Studio Outline
 page, see :ref:`Developing Your Course Index`.
 
-For information on building specific course component types, see :ref:`Creating
-Course Content Index`.
+For information about building specific course component types, see
+:ref:`Course Components Index`.
 
 
 .. toctree::
    :maxdepth: 2
-   
+
    create_exercises_and_tools
+   enable_exercises_tools
    annotation
+   calculator
    checkbox
    chemical_equation
    circuit_schematic_builder
+   completion
    conditional_module
    custom_javascript
    drag_and_drop
+   drag_and_drop_deprecated
    dropdown
    external_graders
    full_screen_image
@@ -42,13 +47,17 @@ Course Content Index`.
    mult_choice_num_input
    notes
    numerical_input
+   office_mix
    open_response_assessments/index
+   oppia
+   peer_instruction_tool
    periodic_table
    poll_question
    poll
    problem_with_hint
    problem_in_latex
    protein_builder
+   qualtrics
    randomized_content_blocks
    recommenderXBlock
    survey

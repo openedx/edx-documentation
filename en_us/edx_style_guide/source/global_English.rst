@@ -11,9 +11,12 @@ continue to apply core technical writing principles. We also need to expand
 our skill sets to follow guidelines that will make what we write even easier
 for a global audience to understand and translate.
 
+.. contents::
+  :local:
+  :depth: 1
 
 ********************
-Globalized Examples
+Global Examples
 ********************
 
 In addition to writing so that our text can be easily translated, remember
@@ -36,7 +39,7 @@ Write short sentences when possible. Long sentences can include problems...
 * complex modifier strings
 
 Try to limit sentences to 20-30 words. Rule of thumb: if you run out of breath
-when you read a sentence aloud, it’s too long.
+when you read a sentence aloud, it is too long.
 
 However!
 
@@ -44,7 +47,7 @@ However!
 * Do not sacrifice the syntactic cues provided by definite and indefinite articles.
 * Do not omit important information. Be explicit.
 
-Example: 
+Example:
 
 "Block open port on catheter fitting" could mean completely different things
 once the definite article is inserted. Compare "Block the open port on the
@@ -57,15 +60,20 @@ Active Voice and Active Verbs
 
 Use the active voice.
 
-Use active verbs.
+Use active verbs. Avoid nominalizations (nouns made from verbs or adjectives) as they disguise the actors.
 
-Avoid nominalizations (nouns made from verbs or adjectives) as they disguise
-the actors.
-
-  Examples:
+  Example nominalizations:
 
   utilization, operation, facilitation, activation, completion, reaction,
-  improvement, movement, discovery, difficulty…
+  improvement, movement, discovery, difficulty
+
+Here's an example of a sentence drafted in the passive voice, and how it was rewritten in the active voice.
+
+  Passive: This method is typically applied to free text fields, including
+  discussion posts and wiki articles.
+
+  Active: EdX typically applies this method to free text fields, including
+  discussion posts and wiki articles.
 
 TBD: gerunds
 
@@ -81,7 +89,7 @@ Introduce the list with a complete sentence.
 
 Do not use the bulleted points to complete an introductory sentence fragment.
 
-Make sure each bulleted point can stand alone. 
+Make sure each bulleted point can stand alone.
 
 This approach might increase word count, but it decreases translation cost.
 
@@ -104,9 +112,9 @@ Ask "of what?", "of which?", or "as what?" when you use these words.
   In order to sterilize a reusable product using an autoclave, it must first be
   properly cleaned and disinfected.
 
-  What must be cleaned and disinfected? 
+  What must be cleaned and disinfected?
 
-Avoid broad-reference pronouns. 
+Avoid broad-reference pronouns.
 
   Example:
 
@@ -131,7 +139,7 @@ context for them.
 
   Display it on the screen.
 
-  Change the scroll rate on the display. 
+  Change the scroll rate on the display.
 
 ******************
 Word Choice
@@ -175,7 +183,7 @@ phrases<Preferred Usage>`. Be consistent in terms used.
 Contractions
 ******************
 
-Avoid contractions. They introduce ambiguity, particualrly 'd and 's. Use
+Avoid contractions. They introduce ambiguity, particularly 'd and 's. Use
 other means to convey a friendly, informal tone.
 
 ******************
@@ -220,6 +228,6 @@ Do not use non-technical abbreviations.
 References to Explore
 ***************************
 
-The Global English Style Guide JR Kohl
+*The Global English Style Guide* JR Kohl
 
-Microsoft Manual of Style 4th ed.
+*Microsoft Manual of Style 4th ed.*

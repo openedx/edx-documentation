@@ -6,6 +6,9 @@
 The following information reflects what is new in the edX Platform as of
 2 March 2015. 
 
+.. contents::
+  :local:
+  :depth: 2
 
 **************************
 Documentation
@@ -42,4 +45,4 @@ EdX Website
 .. include:: website/website_0302_2015.rst
 
 
-.. include:: ../links.rst
+.. include:: ../../../links/links.rst

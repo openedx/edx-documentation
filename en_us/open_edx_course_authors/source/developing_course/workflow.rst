@@ -1,1 +1,1 @@
-.. include:: ../../../shared/building_and_running_chapters/developing_course/workflow.rst
+.. include:: ../../../shared/developing_course/workflow.rst

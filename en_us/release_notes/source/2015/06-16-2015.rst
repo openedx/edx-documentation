@@ -6,6 +6,9 @@
 The following information reflects what is new in the edX Platform as of
 16 June 2015. 
 
+.. contents::
+  :local:
+  :depth: 2
 
 **************************
 Analytics
@@ -35,5 +38,4 @@ Documentation
 .. include:: documentation/doc_0616_2015.rst
 
 
-
-.. include:: ../links.rst
+.. include:: ../../../links/links.rst

@@ -1,7 +1,7 @@
 .. _Course Discussions Index:
 
 ######################################
-Course Discussions
+Participating in Course Discussions
 ######################################
 
 .. toctree::

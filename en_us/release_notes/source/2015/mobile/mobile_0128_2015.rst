@@ -5,7 +5,7 @@ watch them anytime, without an Internet connection. Many of the courses that
 are currently running on edx.org are ready for use with the app, and
 preparations to support mobile delivery are in progress for even more courses.
 
-You and your enrolled learners can download the free edX mobile app from
-Google Play for Android smartphones and from the App Store for Apple iPhones.
-For answers to frequently asked questions about the mobile app, see `The
-edX Mobile App`_ section in the *EdX Guide for Students*.
+You and your enrolled learners can download the free edX mobile app from Google
+Play for Android smartphones and from the App Store for Apple iPhones. For
+answers to frequently asked questions about the mobile app, see
+:ref:`learners:SFD Mobile` section in the *EdX Guide for Students*.

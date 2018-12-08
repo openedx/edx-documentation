@@ -1,8 +1,92 @@
 .. _Analytics Index:
 
 ####################################
-edX Analytics
+EdX Analytics
 ####################################
+
+The following information describes what is new in edX analytics.
+
+.. contents::
+  :local:
+  :depth: 2
+
+**************************
+Week of 1 August 2016
+**************************
+
+.. include:: 2016/analytics/analytics_2016-08-01.rst
+
+**************************
+Week of 6 June 2016
+**************************
+
+.. include:: 2016/analytics/analytics_0606_2016.rst
+
+**************************
+Week of 16 May 2016
+**************************
+
+.. include:: 2016/analytics/analytics_0516_2016.rst
+
+**************************
+Week of 2 May 2016
+**************************
+
+.. include:: 2016/analytics/analytics_0502_2016.rst
+
+**************************
+Week of 25 April 2016
+**************************
+
+.. include:: 2016/analytics/analytics_0425_2016.rst
+
+**************************
+Week of 22 February 2016
+**************************
+
+.. include:: 2016/analytics/analytics_0222_2016.rst
+
+**************************
+Week of 26 January 2016
+**************************
+
+.. include:: 2016/analytics/analytics_0126_2016.rst
+
+******************
+16 December 2015
+******************
+
+.. include:: 2015/analytics/analytics_1216_2015.rst
+
+******************
+1 December 2015
+******************
+
+.. include:: 2015/analytics/analytics_1201_2015.rst
+
+******************
+27 October 2015
+******************
+
+.. include:: 2015/analytics/analytics_1027_2015.rst
+
+******************
+1 October 2015
+******************
+
+.. include:: 2015/analytics/analytics_1001_2015.rst
+
+******************
+28 July 2015
+******************
+
+.. include:: 2015/analytics/analytics_0728_2015.rst
+
+******************
+17 July 2015
+******************
+
+.. include:: 2015/analytics/analytics_0717_2015.rst
 
 ******************
 8 July 2015
@@ -84,7 +168,4 @@ edX Analytics
 .. include:: 2015/analytics/analytics_0108_2015.rst
 
 
-
-
-
-.. include:: links.rst
+.. include:: ../../links/links.rst

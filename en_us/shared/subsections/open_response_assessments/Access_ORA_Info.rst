@@ -1,212 +1,169 @@
 .. _Accessing ORA Assignment Information:
 
-##########################################
-Accessing Assignment and Student Metrics
-##########################################
+######################################
+Accessing Metrics for ORA Assignments
+######################################
 
-After your open response assessment assignment has been released, you can access
-information about the number of students in each step of the assignment or the
-performance of individual students. This information is available in the
-**Course Staff Information** section at the end of each assignment. To access
-student information, open the assignment in the courseware, scroll to the bottom of the
-assignment, and then click the black **Course Staff Information** banner.
+After you release an open response assessment assignment, you can access
+various metrics for the assignment. For example, you can view the number of
+learners in each step of the assignment or in possible states such as
+"Waiting" or "Completed" within the assignment. In addition to viewing metrics
+for the assignment, you can also access assignment details for an individual
+learner, or :ref:`generate a report <Generate ORA Report>` containing learner
+and response details for ORA assignments in the course.
 
-.. image:: ../../../../shared/building_and_running_chapters/Images/PA_CourseStaffInfo_Collapsed.png
-   :alt: The Course Staff Information banner at the bottom of the peer assessment
+For information about tasks that you can perform on learner responses in an
+ORA assignment, including :ref:`performing a grade override
+assessment<Override a learner assessment grade>` or :ref:`cancelling a
+learner's submission<Remove a learner response from peer grading>`, see
+:ref:`Managing ORA Assignments`.
 
-When you access a specific student's information for an open response
-assessment, you can view his responses and, if necessary, :ref:`cancel the
-student's submission<Remove a student response from peer grading>` so that it is
-not included in peer assessments.
 
 .. _PA View Metrics for Individual Steps:
 
 ************************************************
-View Metrics for Individual Steps
+View ORA Assignment Statistics
 ************************************************
 
-You can check the number of students who have completed, or are currently
-working through, the following steps:
+To view metrics about learners in the assignment, including the number who
+are active in each step, follow these steps.
 
-* Submitted responses.
-* Completed peer assessments.
-* Waiting to assess responses or receive grades.
-* Completed self assessments.
-* Completed the entire assignment. 
+#. Open the assignment in the course.
 
-To find this information, open the assignment in the courseware, scroll to the
-bottom of the assignment, and then click **Course Staff Information**.
+#. Scroll to the bottom of the assignment and select **View Assignment
+   Statistics**.
 
-The **Course Staff Information** section expands, and you can see the number
-of students who are currently working through (but have not completed) each
-step of the problem.
+   You see statistics for the assignment, including the total number of
+   responses and the location ID for the assignment.
 
-.. image:: ../../../../shared/building_and_running_chapters/Images/PA_CourseStaffInfo_Expanded.png
-   :alt: The Course Staff Information box expanded, showing problem status
+   In the **Learner Progress** section, for each assessment step in the
+   assignment, you can see the number of learners who are currently working
+   through (but who have not completed) that step. Only assessment types that
+   exist in the assignment are included.
 
-.. _Access Information for a Specific Student:
+   .. note:: If a Staff Assessment step exists in the assignment, this step
+      will always show 0 active learners, because no learner actions are
+      required for that step.
 
-***********************************************
-Access Information for a Specific Student
-***********************************************
+   In addition to learners who are active in the assessment steps of the
+   assignment, you can see the number of learners who are in the following
+   states in the assignment.
 
-You can access information about an individual student's performance on a peer
-assessment assignment, including:
+     * **Waiting**: Learners who have finished the requirements for a step
+       and are waiting for their responses to be assessed by peers or staff.
 
-* The student's response. 
-* The peer assessments that other students performed on the student's
-  response, including feedback on individual criteria and on the overall
-  response.
-* The peer assessments that the student performed on other students'
-  responses, including feedback on individual criteria and on the overall
-  responses.
-* The student's self assessment.
+     * **Done**: Learners who have completed all of their required steps, and
+       have received the required number of reviews.
 
-In the following example, you can see the performance information for a specific
-student. This student's response received one peer assessment, and the student
-completed a peer assessment on one other student's response. The student also
-completed a self assessment.
+     * **Cancelled**: Learners who have had their responses cancelled.
 
-.. image:: ../../../../shared/building_and_running_chapters/Images/PA_SpecificStudent.png
+In the **Dates** section below **Learner Progress**, the release and due dates
+for each step in the assignment are shown.
+
+.. image:: ../../../../shared/images/ORA_AssignmentStats.png
    :width: 500
-   :alt: Report showing information about a student's response
-
-To determine whether this student has received the required number of
-assessments from other students and has completed the required number of
-assessments for other students, refer to the **Graded By** and **Must Grade**
-values that were set for the open response assessment assignment in Studio. For
-more information about these settings, see :ref:`Specify Step Settings<PA
-Specify Step Settings>`.
-
-For details about accessing information for a specific student, and for an
-example that shows a student's response with more assessments, see :ref:`Access
-Student Information`.
+   :alt: The View Assignment Statistics page shows the number of active learners in each step, the number of learners in the Waiting, Done, and Cancelled states, and the start and due dates for each step.
 
 
-.. _Access Student Information:
-
-=======================================
-Access a Specific Student's Information
-=======================================
-
-#. In the LMS, go to the peer assessment assignment that you want to see.
-   
-#. Scroll to the bottom of the problem, and click the black **Course Staff
-   Information** banner.
-   
-#. In the **Get Student Info** box, enter the student's username, and click
-   **Submit**.
-
-The student's information appears below the **Get Student Info** box.
-
-The following example shows:
-
-* The student's response. 
-* The two peer assessments for the response.
-* The two peer assessments the student completed.
-* The student's self assessment.
-
-For a larger view, click the image so that it opens by itself in the browser
-window, and then click anywhere on the image that opens.
-
-.. image:: ../../../../shared/building_and_running_chapters/Images/PA_SpecificStudent_long.png
-   :width: 250
-   :alt: Report showing information about a student's response
-
-
-.. _Remove a student response from peer grading:
+.. _Generate ORA Report:
 
 ************************************************
-Remove a Student Response from Peer Grading
+Generate a Report for ORA Assignments
 ************************************************
 
-If you use open response assessments, students might alert you to vulgar,
-abusive, or otherwise inappropriate responses that they have seen while
-performing peer assessments. In such a situation you can :ref:`locate<Locate a
-specific ORA submission>` and cancel the submission. Doing so removes the
-inappropriate response from peer assessments so that it is no longer shown to
-other students.
+To generate a report containing details of the ORA assignments in the course,
+follow these steps.
 
-.. note:: Removing a student's submission is an irreversible action. 
+#. View the live version of your course.
 
-When you cancel an inappropriate submission, the response is immediately removed
-from the pool of submissions available for peer assessment. If the inappropriate
-response has already been sent to other students for peer assessment, it is also
-removed from their queue. However, if any student has already graded the
-inappropriate response, it is counted as one of the submissions they have
-graded.
+#. Select **Instructor**, and then select **Data Download**.
 
-.. note:: After you remove an inappropriate response from peer assessment, you
-   decide whether the student who submitted that response is allowed to submit a
-   replacement response. If you do not want to allow the student to submit a
-   replacement response, you do not need to take any additional action. The
-   student receives a grade of zero for the entire submission. To allow the
-   student to resubmit a response for a cancelled submission, :ref:`reset the
-   student's attempts for the problem<reset_attempts>`.
+#. In the **Reports** section, select **Generate ORA Data Report**.
 
-Remove a submission from peer assessment by completing these steps.
+   A status message indicates that the ORA data report generation is in
+   progress. This process might take some time to complete, but you can
+   navigate away from this page and do other work while it runs.
 
-#. In the LMS, go to the peer assessment assignment that contains the submission
-   you want to remove.
-   
-#. Scroll to the bottom of the problem, then click the black **Course Staff
-   Information** banner.
-   
-#. Scroll down to the **Get Student Info** box, enter the student's username in
-   the box, and click **Submit**. 
+   To check the progress of the report generation, reload the page in your
+   browser and scroll down to the **Pending Tasks** section. The table shows
+   the status of active tasks.
 
-   The student's information appears below the **Get Student Info** box.
-   
-#. Scroll down to the **Student Response** section and locate the submission you
-   want to remove.
+   When the report is complete, a linked .csv file name becomes available above
+   the **Pending Tasks** section. File names are in the format
+   ``{course_id}_ORA_data_{datetime}.csv``. The most recently generated
+   reports appear at the top of the list.
 
-.. image:: ../../../../shared/building_and_running_chapters/Images/ORA_RemoveSubmission.png
-   :alt: Dialog allowing comments to be entered when removing a student submission
-   
-5. Enter a comment to document or explain the removal. This comment appears to
-   the student when she views her response in the open response assessment
-   problem.
-   
-#. Click **Remove submission**. 
+#. To open or save the generated ORA data report, locate and select the link for
+   the grade report you requested.
 
-   The inappropriate submission is removed from peer assessment. When you access
-   this student's information again, instead of the response, you see a note
-   showing the date and time that the submission was removed, and the comments
-   that you entered.
-
-   Removed submissions are also removed from the list of Top Responses if they
-   were previously listed.
-   
-.. image:: ../../../../shared/building_and_running_chapters/Images//ORA_CancelledStudentResponse.png
-   :alt: The date, time and comment for removal of a student response is shown instead of the original response.  
+   You can open .csv files in a spreadsheet application to sort, graph, and
+   compare data.
 
 
-.. _Locate a specific ORA submission:
+.. _Interpret ORA Data Report:
 
-*************************************************
-Locate a Specific Submission in an ORA Assignment
-*************************************************
+====================================
+Interpret the ORA Data Report
+====================================
 
-If you are alerted to an inappropriate ORA submission that you want to cancel
-and :ref:`remove from peer assessment<Remove a student response from peer
-grading>`, locate the specific submission by following these steps.
-
-#. Ask the person who reported the incident to send you a sample of text from
-   the inappropriate post.
-
-#. Contact your edX program manager to request a data download of ORA
-   responses for your course.
-
-   You will receive the download as a spreadsheet or in .csv file format.
-
-#. Search the spreadsheet for text that matches the sample text from the
-   inappropriate post.
-
-#. From any matching entries in the spreadsheet, locate the username of the
-   learner who posted the submission.
-
-#. Make a note of the username, and follow the steps to :ref:`remove a student
-   response from peer grading<Remove a student response from peer grading>`.
+The ORA data report for your course is a time-stamped .csv file that contains
+data for all the ORA assignments in your course. For each ORA assignment in
+the course, the report provides information that includes each learner's
+anonymized ID, response, assessments details and scores, and the final score
+for the assignment. For more details about each column in the report, see the
+following descriptions.
 
 
+.. image:: ../../../../shared/images/ORA_Data_Report_Example.png
+   :alt: An example ORA data report shown in Excel.
 
+
+The .csv file contains one row of data for each response from a learner.
+
+* The IDs in the **Item ID** and **Submission ID** columns uniquely identify the
+  problem within the course content and the learner's submission for that problem.
+
+* The **Anonymized Student ID** column lists an ID for each learner without
+  revealing confidential, personally identifiable data such as email addresses
+  and usernames.
+
+* The **Date/Time Response Submitted** column displays the date and time that the
+  learner submitted her response, in YYYY-MM-DD HH-MM-SS format.
+
+* The **Response** column displays the content of the learner's response.
+
+* The **Assessment Details** column displays the following details for the
+  assessments that were performed on the response.
+
+  * The time and date that the assessment was submitted.
+  * The type of assessment: self (SE), peer (PE), staff (ST).
+  * The ID of the person who performed the assessment.
+  * Any text comments about the response that were included in the assessment.
+
+* The **Assessment Scores** column lists the scores that the response received
+  in self, peer, or staff assessments.
+
+* The **Date/Time Final Score Given**, **Final Score Points Earned**, and the
+  **Final Score Points Possible** columns provide details of the final score
+  that the response received. If a response has not received enough
+  assessments for the assignment to be considered complete, these columns show
+  a value of "None".
+
+* The **Feedback Statements Selected** and **Feedback on Peer Assessments**
+  columns together show the information that learners provided in the **Provide
+  Feedback on Peer Assessments** section of their ORA assignments. This section
+  is available to learners only when all assessments for an assignment have been
+  completed, and provides an optional way for learners to comment on their
+  experience of the peer assessment process.
+
+  The **Feedback Statements Selected** column displays the text of the
+  feedback statements (if any) that the learner selected to describe their
+  experience of the peer assessment process. Learners can select either "These
+  assessments were useful" or "These assessments were not useful". They can
+  also select either or both of "I disagree with one or more of the peer
+  assessments of my response" and "Some comments I received were
+  inappropriate".
+
+  If a learner also provided a free-form comment in the text field below the
+  selectable feedback statements, the text appears in the **Feedback on Peer
+  Assessments** column.

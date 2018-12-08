@@ -1,32 +1,59 @@
 .. _Student_Info:
 
-##############################
-Student Info and Progress Data
-##############################
+###################################
+User Info and Learner Progress Data
+###################################
 
-The following sections detail how edX stores stateful data for students
-internally, and is useful for developers and researchers who are examining
-database exports. Data for students is presented in these categories. 
+The following sections detail how edX stores stateful data for users
+internally. This information can be useful for developers and researchers who
+are examining database exports.
 
-* :ref:`User_Data`
-* :ref:`Courseware_Progress`
-* :ref:`Certificates`
+.. contents::
+  :local:
+  :depth: 1
+
+EdX also uses the Django® Python Web framework. Tables that are built into the
+Django Web framework are documented here only if they are used in
+unconventional ways.
+
+.. _Conventions:
 
 ***************
 Conventions
 ***************
 
-* EdX uses MySQL 5.1 relational database system with InnoDb storage engine.
-* All strings are stored as UTF-8.
-* All datetimes are stored as UTC (Coordinated Universal Time).
-* The .sql files in edX data packages are tab separated.
+EdX uses MySQL™ 5.1 relational database system with InnoDb storage engine.
 
-.. note::
-     EdX also uses the Django Python Web framework. Tables that are built into
-     the Django Web framework are documented here only if they are used in
-     unconventional ways.
+The following conventions apply to most of the .sql output files. The exception
+is the ``courseware_studentmodule`` table, which is created by a different
+process than the other edX SQL tables.
 
-Descriptions of the tables and columns that store student data follow, first
+* Output files are stored as UTF-8.
+
+* Datetimes are stored as UTC (Coordinated Universal Time), and appear without
+  trailing zeros.
+
+* The .sql files are tab separated. Embedded tabs are replaced by the two
+  character sequence ``\t``.
+
+* Records are delimited by newlines. Embedded newlines are replaced by the two
+  character sequence ``\n``.
+
+* Embedded carriage returns are replaced by the two character sequence ``\r``.
+
+* Backslash characters (``\``) are escaped as ``\\``.
+
+ .. note:: The ``submission`` table for open response assessments stores raw
+  text that is JSON encoded. When the last four of these conventions are
+  applied to the ``submission.raw_answer`` column, the result is doubly encoded
+  values.
+
+While the majority of users are learners, all course team members
+must register an account to use Studio, the LMS, or Insights, and they must
+also enroll to access a course in the LMS. In this guide, the term "learner"
+can be understood to include registered or enrolled course team members.
+
+Descriptions of the tables and columns that store user data follow, first
 in summary form with field types and constraints, and then with a detailed
 explanation of each column.
 
@@ -56,7 +83,8 @@ Type
      * - smallint
        - 2 byte integer, sometimes used for enumerated values.
      * - tinyint
-       - 1 byte integer, usually used to indicate a Boolean with 0 = False and 1 = True.
+       - 1 byte integer, usually used to indicate a Boolean with 0 = False and
+         1 = True.
      * - varchar
        - String, typically short and indexable. The length is the number of
          chars, not bytes, to support multi-byte character sets.
@@ -111,36 +139,39 @@ Key
 User Data
 ****************
 
-The following tables store data gathered during site registration and course
-enrollment.
+Data for users is gathered during site registration and course enrollment, and
+then as other activities, such as responding to a particular type of problem or
+joining a team, take place.
 
-* :ref:`auth_user`
-* :ref:`auth_userprofile`
-* :ref:`student_courseenrollment`
-* :ref:`user_api_usercoursetag`
-* :ref:`user_id_map`
-* :ref:`student_languageproficiency`
+.. note:: While the majority of users are learners, all course team members
+ must register an account to use Studio, the LMS, or Insights, and they must
+ also enroll to access a course in the LMS. In this guide, the term "learner"
+ can be understood to include registered or enrolled course team members.
+
+.. contents::
+  :local:
+  :depth: 1
 
 .. _auth_user:
 
-================================
-Columns in the auth_user Table
-================================
+==================================
+Columns in the ``auth_user`` Table
+==================================
 
 The ``auth_user`` table is built into the edX Django Web framework. It holds
 generic information necessary for user login and permissions.
 
-A sample of the heading row and a data row in the ``auth_user`` table follow.
+A sample of the heading row and a data row in the ``auth_user`` table follows.
 
-.. code-block:: json
+.. code-block:: none
 
-    id  username  first_name  last_name  email  password  is_staff  is_active 
+    id  username  first_name  last_name  email  password  is_staff  is_active
     is_superuser  last_login  date_joined status  email_key  avatar_typ
-    country  show_country  date_of_birth  interesting_tags  ignored_tags  
-    email_tag_filter_strategy display_tag_filter_strategy 
+    country  show_country  date_of_birth  interesting_tags  ignored_tags
+    email_tag_filter_strategy display_tag_filter_strategy
     consecutive_days_visit_count
 
-    9999999    AAAAAAAAA    AAAAAA  AAAAAA 1 1 0 2014-01-01 17:28:27 2012-03-04 
+    9999999    AAAAAAAAA    AAAAAA  AAAAAA 1 1 0 2014-01-01 17:28:27 2012-03-04
     00:57:49   NULL      0 NULL      0 0
 
 The ``auth_user`` table has the following columns.
@@ -204,11 +235,11 @@ id
 ----------
 username
 ----------
-  The unique username for a user in the edX system. It can contain alphanumerics
-  and the special characters shown within the brackets: [ _ @ + - . ]. The
-  username is the only user-provided information that other users can
-  currently see. EdX has never allowed users to change usernames, but may do
-  so in the future.
+  The unique username for a user in the edX system. It can contain
+  alphanumerics and the special characters shown within the brackets:
+  [ _ @ + - . ]. The username is the only user-provided information that
+  other users can currently see. EdX has never allowed users to change
+  usernames, but might do so in the future.
 
 ------------
 first_name
@@ -239,14 +270,14 @@ is_staff
 ----------
   Most users have a 0 for this field. Set to 1 if the user is a staff member
   of **edX**, with corresponding elevated privileges that cut across courses.
-  It does not indicate that the person is a member of the course staff for any
+  It does not indicate that the person is a member of the course team for any
   given course.
 
-  Generally, users with this flag set to 1 are either edX program managers
+  Generally, users with this flag set to 1 are either edX partner managers
   responsible for course delivery, or edX developers who need access for
   testing and debugging purposes. Users who have ``is_staff`` = 1 have
-  instructor privileges on all courses and can see additional debug
-  information on the Instructor tab.
+  Admin privileges on all courses and can access additional
+  information in the LMS by selecting **Instructor**.
 
 .. note::
      This designation has no bearing on a user's role in the discussion
@@ -266,7 +297,7 @@ is_active
   activate their accounts when they have time. When they log out, they cannot
   log back in again until activation is complete. However, because edX
   sessions last a long time, it is possible for someone to use the site as a
-  student for days without being "active".
+  learner for days without being "active".
 
   Once ``is_active`` is set to 1, it is *only* set back to 0 if the user is
   banned (which is a very rare, manual operation).
@@ -313,7 +344,7 @@ Obsolete columns
   * display_tag_filter_strategy
   * consecutive_days_visit_count
 
-  Only users who were part of the prototype 6.002x course run in the Spring of
+  Only users who were part of the prototype 6.002x course run in Spring
   2012 have any information in these columns. Even for those users, most of
   this information was never collected. Only the columns with values that are
   automatically generated have any values in them, such as the tag-related
@@ -324,17 +355,18 @@ Obsolete columns
 
 .. _auth_userprofile:
 
-======================================
-Columns in the auth_userprofile Table
-======================================
+=========================================
+Columns in the ``auth_userprofile`` Table
+=========================================
 
 The ``auth_userprofile`` table stores user demographic data collected when
-students register for a user account. Every row in this table corresponds to
-one row in ``auth_user``.
+learners register for a user account or add profile information about
+themselves. Every row in this table corresponds to one row in ``auth_user``.
 
-A sample of the heading row and a data row in the ``auth_userprofile`` table follow.
+A sample of the heading row and a data row in the ``auth_userprofile`` table
+follows.
 
-.. code-block:: json
+.. code-block:: none
 
     id  user_id name  language  location  meta  courseware  gender
     mailing_address year_of_birth level_of_education  goals allow_certificate
@@ -345,52 +377,111 @@ A sample of the heading row and a data row in the ``auth_userprofile`` table fol
     [["BBBBBBBBBBBBB", "I wanted to test out the name-change functionality",
     "2012-10-22T12:23:10.598444"]]} course.xml  NULL  NULL  NULL  NULL  NULL
     1      NULL   Hi! I'm from the US and I've taken 4 edX courses so far. I
-    want to learn how to confront problems of wealth inequality. 2015-04-19 16:41:27
+    want to learn how to confront problems of wealth inequality. 2016-04-19 16:41:27
 
 The ``auth_userprofile`` table has the following columns.
 
-  +----------------------------+--------------+------+-----+------------------------------------------+
-  | Column                     | Type         | Null | Key | Comment                                  |
-  +============================+==============+======+=====+==========================================+
-  | id                         | int(11)      | NO   | PRI |                                          |
-  +----------------------------+--------------+------+-----+------------------------------------------+
-  | user_id                    | int(11)      | NO   | UNI |                                          |
-  +----------------------------+--------------+------+-----+------------------------------------------+
-  | name                       | varchar(255) | NO   | MUL |                                          |
-  +----------------------------+--------------+------+-----+------------------------------------------+
-  | language                   | varchar(255) | NO   | MUL | # Obsolete                               |
-  +----------------------------+--------------+------+-----+------------------------------------------+
-  | location                   | varchar(255) | NO   | MUL | # Obsolete                               |
-  +----------------------------+--------------+------+-----+------------------------------------------+
-  | meta                       | longtext     | NO   |     |                                          |
-  +----------------------------+--------------+------+-----+------------------------------------------+
-  | courseware                 | varchar(255) | NO   |     | # Obsolete                               |
-  +----------------------------+--------------+------+-----+------------------------------------------+
-  | gender                     | varchar(6)   | YES  | MUL | # Only users signed up after prototype   |
-  +----------------------------+--------------+------+-----+------------------------------------------+
-  | mailing_address            | longtext     | YES  |     | # Only users signed up after prototype   |
-  +----------------------------+--------------+------+-----+------------------------------------------+
-  | year_of_birth              | int(11)      | YES  | MUL | # Only users signed up after prototype   |
-  +----------------------------+--------------+------+-----+------------------------------------------+
-  | level_of_education         | varchar(6)   | YES  | MUL | # Only users signed up after prototype   |
-  +----------------------------+--------------+------+-----+------------------------------------------+
-  | goals                      | longtext     | YES  |     | # Only users signed up after prototype   |
-  +----------------------------+--------------+------+-----+------------------------------------------+
-  | allow_certificate          | tinyint(1)   | NO   |     |                                          |
-  +----------------------------+--------------+------+-----+------------------------------------------+
-  | country                    | varchar(2)   | YES  |     |                                          |
-  +----------------------------+--------------+------+-----+------------------------------------------+
-  | city                       | longtext     | YES  |     |                                          |
-  +----------------------------+--------------+------+-----+------------------------------------------+
-  | bio                        | varchar(3000)| YES  |     |                                          |
-  +----------------------------+--------------+------+-----+------------------------------------------+
-  | profile_image_uploaded_at  | datetime     | YES  |     |                                          |
-  +----------------------------+--------------+------+-----+------------------------------------------+
 
-**History**: ``bio`` and ``profile_image_uploaded_at`` added 22 April 2015.
-``country`` and ``city`` added January 2014. The organization of this table
-was different for the students who signed up for the MITx prototype phase in
-the spring of 2012, than for those who signed up afterwards. The column
+.. list-table::
+   :widths: 25 20 10 10 25
+   :header-rows: 1
+
+   * - Column
+     - Type
+     - Null
+     - Key
+     - Comment
+   * - id
+     - int(11)
+     - NO
+     - PRI
+     -
+   * - user_id
+     - int(11)
+     - NO
+     - UNI
+     -
+   * - name
+     - varchar(255)
+     - NO
+     - MUL
+     -
+   * - language
+     - varchar(255)
+     - NO
+     - MUL
+     - Obsolete.
+   * - location
+     - varchar(255)
+     - NO
+     - MUL
+     - Obsolete.
+   * - meta
+     - longtext
+     - NO
+     -
+     -
+   * - courseware
+     - varchar(255)
+     - NO
+     -
+     - Obsolete.
+   * - gender
+     - varchar(6)
+     - YES
+     - MUL
+     - Only users signed up after prototype.
+   * - mailing_address
+     - longtext
+     - YES
+     -
+     - Obsolete.
+   * - year_of_birth
+     - int(11)
+     - YES
+     - MUL
+     - Only users signed up after prototype.
+   * - level_of_education
+     - varchar(6)
+     - YES
+     - MUL
+     - Only users signed up after prototype.
+   * - goals
+     - longtext
+     - YES
+     -
+     - Only users signed up after prototype.
+   * - allow_certificate
+     - tinyint(1)
+     - NO
+     -
+     -
+   * - country
+     - varchar(2)
+     - NO
+     -
+     -
+   * - city
+     - longtext
+     -
+     -
+     -
+   * - bio
+     - varchar(3000)
+     - YES
+     -
+     -
+   * - profile_image_uploaded_at
+     - datetime
+     - YES
+     -
+     -
+
+
+**History**: ``bio`` and ``profile_image_uploaded_at`` added 22 Apr 2015.
+``country`` and ``city`` added Jan 2014. The organization of this table
+was different for the learners who signed up for the MITx prototype phase in
+Spring 2012, than for those who signed up afterwards. The column
 descriptions that follow detail the differences in the demographic data
 gathered.
 
@@ -408,37 +499,37 @@ user_id
 name
 ------
   String for a user's full name. EdX makes no constraints on language or
-  breakdown into first/last name. The names are never shown to other students.
-  International students usually enter a romanized version of their names, but
+  breakdown into first/last name. The names are never shown to other learners.
+  International learners usually enter a romanized version of their names, but
   not always. Name changes are permitted, and the previous name is logged in
   the ``meta`` field.
 
   **History**: A former edX policy required manual approval of name changes to
-  guard the integrity of the certificates. Students would submit a name change
+  guard the integrity of the certificates. Learners submitted a name change
   request, and an edX team member would approve or reject the request.
 
 ----------
 language
 ----------
-  No longer used. 
+  No longer used.
 
   **History**: User's preferred language, asked during the sign up process for
-  the 6.002x prototype course given in the Spring of 2012. Sometimes written
+  the 6.002x prototype course given in Spring 2012. Sometimes written
   in those languages. EdX stopped collecting this data after MITx transitioned
-  to edX, but never removed the values for the first group of students.
+  to edX, but never removed the values for the first group of learners.
 
 ----------
 location
 ----------
-  No longer used. 
+  No longer used.
 
   **History**: User's location, asked during the sign up process for the
-  6.002x prototype course given in the Spring of 2012. The request was not
+  6.002x prototype course given in Spring 2012. The request was not
   specific, so people tended to put the city they were in, though some just
   supplied a country and some got as specific as their street address. Again,
   sometimes romanized and sometimes written in their native language. Like
   ``language``, edX stopped collecting this column after MITx transitioned to
-  edX, so it is only available for the first batch of students.
+  edX, so it is only available for the first batch of learners.
 
 ------
 meta
@@ -532,24 +623,24 @@ here are found as JSON attributes *inside* a given ``meta`` field, and are
 
   ``6002x_exit_response``
 
-    Answers to a survey that was sent to students after the prototype 6.002x
-    course in the Spring of 2012. The questions and number of questions were
+    Answers to a survey that was sent to learners after the prototype 6.002x
+    course in Spring 2012. The questions and number of questions were
     randomly selected to measure how much survey length affected response
-    rate. Only students from this course have this field.
+    rate. Only learners from this course have this field.
 
 ------------
 courseware
 ------------
-  No longer used. 
+  No longer used.
 
-  **History**: At one point, it was part of a way to do A/B tests, but it has
-  not been used for anything meaningful since the conclusion of the prototype
-  course in the spring of 2012.
+  **History**: This column was added for use with an A/B testing feature, but
+  it has not been used for anything meaningful since the prototype course
+  concluded in Spring 2012.
 
 --------
 gender
 --------
-  Collected during student signup from a drop-down list control. 
+  Collected during registration from a drop-down list control.
 
   .. list-table::
        :widths: 10 80
@@ -562,39 +653,44 @@ gender
        * - m
          - Male
        * - o
-         - Other
+         - Other/Prefer Not to Say
        * - (blank)
          - User did not specify a gender.
        * - NULL
-         - This student signed up before this information was collected.
+         - For a learner who did not respond or who signed up before this
+           information was collected.
 
   **History**: This information began to be collected after the transition
-  from MITx to edX; prototype course students have NULL for this field.
+  from MITx to edX; prototype course learners have NULL for this field.
 
 -----------------
 mailing_address
 -----------------
-  Collected during student registration from a text field control. A blank
-  string for students who elect not to enter anything.
+  No longer used.
 
-  This column can contain multiple lines, which are separated by '``\r\n``'.
+  **History**: This column replaced the ``location`` column when MITx
+  transitioned to edX in 2013, and was used until 17 May 2016. When this column
+  was in use, it was populated during account registration when users entered
+  free text in an optional text field. This column contains a blank string for
+  learners who did not enter anything in this field. If multiple lines were
+  entered, they are separated by ``\r\n``.
 
-  **History**: This information began to be collected after the transition
-  from MITx to edX; prototype course students have NULL for this field.
+  This column contains NULL for learners who register after 17 May 2016 as well
+  as for learners who registered accounts for the prototype course.
 
 ---------------
 year_of_birth
 ---------------
-  Collected during student registration from a drop-down list control. NULL
-  for students who decide not to fill this in.
+  Collected during account registration from a drop-down list control. NULL
+  for those who did not respond.
 
   **History**: This information began to be collected after the transition
-  from MITx to edX; prototype course students have NULL for this field.
+  from MITx to edX; learners in the prototype course have NULL for this field.
 
 --------------------
 level_of_education
 --------------------
-  Collected during student registration from a drop-down list control. 
+  Collected during registration from a drop-down list control.
 
   .. list-table::
        :widths: 10 80
@@ -617,9 +713,9 @@ level_of_education
        * - el
          - Elementary/primary school.
        * - none
-         - None.
+         - No Formal Education.
        * - other
-         - Other.
+         - Other Education.
        * - (blank)
          - User did not specify level of education.
        * - p_se
@@ -627,40 +723,41 @@ level_of_education
        * - p_oth
          - Doctorate in another field (no longer used).
        * - NULL
-         - This student signed up before this information was collected.
+         - For a learner who did not respond or who signed up before this
+           information was collected.
 
   **History**: Data began to be collected in this column after the transition
-  from MITx to edX; prototype course students have NULL for this field.
+  from MITx to edX; learners in the prototype course have NULL for this field.
 
 -------
 goals
 -------
-  Collected during student registration from a text field control with the
-  label "Goals in signing up for edX". A blank string for students who elect
-  not to enter anything.
+  Collected during registration from a text field control with the
+  label "Tell us why you're interested in edX" (previously "Goals in signing up
+  for edX"). A blank string for those who did not enter anything.
 
   This column can contain multiple lines, which are separated by '``\r\n``'.
 
   **History**: This information began to be collected after the transition
-  from MITx to edX; prototype course students have NULL for this field.
+  from MITx to edX; learners in the prototype course have NULL for this field.
 
 -------------------
 allow_certificate
 -------------------
-  Set to 1 (true). 
+  Set to 1 (true).
 
   **History**: Prior to 10 Feb 2014, this field was set to 0 (false) if log
-  analysis revealed that the student was accessing the edX site from a country
+  analysis revealed that the learner was accessing the edX site from a country
   that the U.S. had embargoed. This restriction is no longer in effect, and on
   10 Feb 2014 this value was changed to 1 for all users.
-
 
 ----------------------
 country
 ----------------------
-  Stores a two-digit country code based on the selection made by the student
-  during registration. Set to an empty string for students who do not select a
-  country.
+  Stores a two digit country code based on the selection made by the learner
+  during registration. A country is now required during registration; when the
+  country was optional, this column was set to an empty string for learners who
+  did not respond.
 
   **History**: Added in Jan 2014, but not implemented until 18 Sep 2014. Null
   for all user profiles created before 18 Sep 2014.
@@ -676,37 +773,38 @@ city
 bio
 ------
   Stores one or more paragraphs of biographical information that the learner
-  enters. The maximum number of characters is 3000.
+  enters as profile information. The maximum number of characters is 3000.
 
-  **History**: Added 22 April 2015.
+  **History**: Added 22 Apr 2015.
 
 
 ------------------------------
 profile_image_uploaded_at
 ------------------------------
-  Stores the date and time when a learner uploaded a profile image.
+  Stores the date and time when a learner uploaded a profile image to show with
+  profile information.
 
-  **History**: Added 22 April 2015.
+  **History**: Added 22 Apr 2015.
 
 
 .. _student_courseenrollment:
 
-==============================================
-Columns in the student_courseenrollment Table
-==============================================
+=================================================
+Columns in the ``student_courseenrollment`` Table
+=================================================
 
-A row in this table represents a student's enrollment for a particular course
+A row in this table represents a learner's enrollment in a particular course
 run.
 
-.. note:: A row is created for every student who starts the enrollment 
+.. note:: A row is created for every learner who starts the enrollment
   process, even if they never complete site registration by activating the user
   account.
 
-**History**: As of 20 Aug 2013, this table retains the records of students who
+**History**: As of 20 Aug 2013, this table retains the records of learners who
 unenroll. Records are no longer deleted from this table.
 
 A sample of the heading row and a data row in the ``student_courseenrollment``
-table follow.
+table follows.
 
 .. code-block:: sql
 
@@ -740,7 +838,7 @@ id
 ---------
 user_id
 ---------
-  Student's ID in ``auth_user.id``.
+  The learner's ID in ``auth_user.id``.
 
 -----------
 course_id
@@ -751,9 +849,9 @@ course_id
   browser, the ``course_id`` appears as part of the URL. For example,
   ``http://www.edx.org/courses/course-v1:edX+DemoX+Demo_2014/info``.
 
-  **History**: In October 2014, identifiers for some new courses began to use
+  **History**: In Oct 2014, identifiers for some new courses began to use
   the format shown above. Other new courses, and all courses created prior to
-  October 2014, use the format ``{org}/{course}/{run}``,  for example,
+  Oct 2014, use the format ``{org}/{course}/{run}``,  for example,
   ``MITx/6.002x/2012_Fall``. The URL format for a course with a ``course_id``
   in this format was
   ``https://www.edx.org/courses/MITx/6.002x/2012_Fall/info``.
@@ -767,17 +865,17 @@ created
 is_active
 -----------
   Boolean indicating whether this enrollment is active. If an enrollment is not
-  active, a student is not enrolled in that course. For example, if a student
+  active, a learner is not enrolled in that course. For example, if a learner
   decides to unenroll from the course, ``is_active`` is set to 0 (false). The
-  student's state in ``courseware_studentmodule`` is untouched, so courseware
-  state is not lost if a student unenrolls and then re-enrolls.
+  learner's state in ``courseware_studentmodule`` is untouched, so courseware
+  state is not lost if a learner unenrolls and then re-enrolls.
 
-  ``is_active`` can also be set to 0 if a student begins the process of
+  ``is_active`` can also be set to 0 if a learner begins the process of
   enrolling in a course by purchasing a verified certificate, but then abandons
   the shopping cart before completing the purchase (and the enrollment).
 
   **History**: This column was introduced in the 20 Aug 2013 release. Before
-  this release, unenrolling a student simply deleted the row in
+  this release, unenrolling a learner simply deleted the row in
   ``student_courseenrollment``.
 
 ------
@@ -786,25 +884,32 @@ mode
   String indicating what kind of enrollment this is: audit, honor,
   professional, verified, or blank.
 
-  **History**: 
+  **History**:
 
-  * All enrollments prior to 20 Aug 2013 are "honor", when the "audit" and
-    "verified" values were added.
+  * On 1 Dec 2015, the "audit" value was reintroduced. This value now
+    identifies learners who choose an enrollment option that is not
+    certificate eligible.
 
-  * The "professional" value was added for courses on edx.org on 29 Sep 2014.
+  * On 23 Oct 2014, the "audit" value was deprecated.
 
-  * The "audit" value was deprecated on 23 Oct 2014.
+  * On 29 Sep 2014, the "professional" and "no-id-professional" values were
+    added for courses on edx.org.
 
-  .. _user_api_usercoursetag:
+  * On 20 Aug 2013, the "audit" and "verified" values were added.
 
-============================================
-Columns in the user_api_usercoursetag Table
-============================================
+  * All enrollments prior to 20 Aug 2013 were "honor".
 
-This table uses key-value pairs to store metadata about a specific student's
+
+.. _user_api_usercoursetag:
+
+===============================================
+Columns in the ``user_api_usercoursetag`` Table
+===============================================
+
+This table uses key-value pairs to store metadata about a specific learner's
 involvement in a specific course. For example, for a course that assigns
-students to groups randomly for content experiments, a row in this table
-identifies the student's assignment to a partition and group.
+learners to groups randomly for content experiments, a row in this table
+identifies the learner's assignment to a partition and group.
 
 **History**: Added 7 Mar 2014.
 
@@ -821,7 +926,7 @@ The ``user_api_usercoursetag`` table has the following columns.
        - Null
        - Key
      * - user_id
-       - int(11)  
+       - int(11)
        - NO
        - PRI
      * - course_id
@@ -842,7 +947,7 @@ The ``user_api_usercoursetag`` table has the following columns.
 ---------
 user_id
 ---------
-  The student's ID in ``auth_user.id``.
+  The learner's ID in ``auth_user.id``.
 
 -----------
 course_id
@@ -850,15 +955,15 @@ course_id
   The course identifier, in the format ``{key type}:{org}+{course}+{run}``. For
   example, ``course-v1:edX+DemoX+Demo_2014``.
 
-  **History**: In October 2014, identifiers for some new courses began to use
+  **History**: In Oct 2014, identifiers for some new courses began to use
   the format shown above. Other new courses, and all courses created prior to
-  October 2014, use the format ``{org}/{course}/{run}``,  for example,
+  Oct 2014, use the format ``{org}/{course}/{run}``,  for example,
   ``MITx/6.002x/2012_Fall``.
 
 ----
 key
 ----
-  Identifies an attribute of the course. 
+  Identifies an attribute of the course.
 
   For example, for a course that includes modules that are set up to perform
   content experiments, the value in this column identifies a partition, or type
@@ -868,22 +973,28 @@ key
 ------
 value
 ------
-  The content for the key that is set for a student. 
+  The content for the key that is set for a learner.
 
   For example, for a course that includes modules that are set up to perform
   content experiments, this column stores the group ID of the particular group
-  the student is assigned to within the partition.
+  the learner is assigned to within the partition.
 
 .. _user_id_map:
 
-==================================
-Columns in the user_id_map Table
-==================================
+=====================================
+Columns in the ``user_id_map`` Table
+=====================================
 
-A row in this table maps a student's real user ID to an anonymous ID generated
-to obfuscate the student's identity.
+A row in this table maps a learner's real user ID to an anonymous ID generated
+to obfuscate the learner's identity. This anonymous ID is not course specific.
+For more information about course specific user IDs, see the
+:ref:`student_anonymoususerid` table.
 
-A sample of the heading row and a data row in the ``user_id_map`` table follow.
+Course team members can download the anonymized user IDs for the learners in a
+course. For more information, see :ref:`partnercoursestaff:Access_anonymized`.
+
+A sample of the heading row and a data row in the ``user_id_map`` table
+follows.
 
 .. code-block:: sql
 
@@ -891,7 +1002,7 @@ A sample of the heading row and a data row in the ``user_id_map`` table follow.
 
     e9989f2cca1d699d88e14fd43ccb5b5f  9999999 AAAAAAAA
 
-The ``student_courseenrollment`` table has the following columns.
+The ``user_id_map`` table has the following columns.
 
 .. list-table::
      :widths: 15 15 15 15
@@ -902,7 +1013,7 @@ The ``student_courseenrollment`` table has the following columns.
        - Null
        - Key
      * - hashid
-       - int(11) 
+       - int(11)
        - NO
        - PRI
      * - id
@@ -917,28 +1028,108 @@ The ``student_courseenrollment`` table has the following columns.
 ----------
 hash_id
 ----------
-   The user ID generated to obfuscate the student's identity.
+   The user ID generated to obfuscate the learner's identity.
 
 ---------
 id
 ---------
-  The student's ID in ``auth_user.id``.
+  The learner's ID in ``auth_user.id``.
 
 -----------
 username
 -----------
-  The student's username in ``auth_user.username``. 
+  The learner's username in ``auth_user.username``.
+
+.. _student_anonymoususerid:
+
+====================================================
+Columns in the ``student_anonymoususerid`` Table
+====================================================
+
+This anonymous ID identifies learners in a single run of a specific course. The
+course specific anonymized user IDs in this table can be used to identify
+learners in SQL tables for :ref:`open response assessment data<ORA2 Data>`. For
+more information about the anonymous IDs that identify users across courses,
+see the :ref:`user_id_map` table.
+
+Course team members can download the course specific anonymized user IDs for
+learners in a course run. For more information, see
+:ref:`partnercoursestaff:Access_anonymized`.
+
+**History**: This table was added to the database data file in data packages
+beginning with the 13 Dec 2015 export.
+
+A sample of the heading row and a data row in the ``student_anonymoususerid``
+table follows.
+
+.. code-block:: sql
+
+    id   user_id   anonymous_user_id  course_id
+
+    999999   111111   d617d135c2bed4974237a0f18991ab8d   WellesleyX/HIST229x/2013_SOND
+
+The ``student_anonymoususerid`` table has the following columns.
+
+.. list-table::
+     :widths: 15 15 15 15
+     :header-rows: 1
+
+     * - Column
+       - Type
+       - Null
+       - Key
+     * - id
+       - int(11)
+       - NO
+       - PRI
+     * - user_id
+       - int(11)
+       - NO
+       - MUL
+     * - anonymous_user_id
+       - varchar(32)
+       - NO
+       - UNI
+     * - course_id
+       - varchar(255)
+       - NO
+       - MUL
+
+---------
+id
+---------
+  A database auto-increment field that uniquely identifies the learner, and
+  acts as the primary key.
+
+---------
+user_id
+---------
+  The learner's ID in ``auth_user.id``.
+
+------------------
+anonymous_user_id
+------------------
+  The anonymous ID assigned to the learner.
+
+---------------------
+course_id
+---------------------
+
+  The course identifier, in the format ``{key type}:{org}+{course}+{run}``. For
+  example, ``course-v1:edX+DemoX+Demo_2014``.
 
 .. _student_languageproficiency:
 
-=================================================
-Columns in the student_languageproficiency Table
-=================================================
+====================================================
+Columns in the ``student_languageproficiency`` Table
+====================================================
 
-The ``student_languageproficiency`` table stores information about students'
-self-reported language preferences. Students can select only one value.
+The ``student_languageproficiency`` table stores information about learners'
+self-reported language preferences. Learners have the option to indicate a
+preferred language on their dashboards. Learners can select only one
+value. For more information, see :ref:`partnercoursestaff:SFD Profile Page`.
 
-**History**: Added 22 April 2015.
+**History**: Added 22 Apr 2015.
 
 +-----------------+-------------+------+-----+---------+----------------+
 | Field           | Type        | Null | Key | Default | Extra          |
@@ -953,7 +1144,7 @@ self-reported language preferences. Students can select only one value.
 ---------
 id
 ---------
- 
+
   A database auto-increment field that uniquely identifies the language. This
   field is not exposed through the API.
 
@@ -963,13 +1154,334 @@ user_profile_id
 
   Specifies the ID in the ``authuser_profile`` table that is associated with a
   particular language proficiency.
-   
+
 ----
 code
 ----
   The language code. Most codes are ISO 639-1 codes, with the addition of
   codes for simplified and traditional Chinese.
 
+.. _teams_courseteam:
+
+==============================================
+Columns in the ``teams_courseteam`` Table
+==============================================
+
+This table stores information about the teams in a course. For more information
+about the teams feature, see :ref:`partnercoursestaff:Teams Setup`.
+
+**History**: Added 15 Sep 2015.
+
+The ``teams_courseteam`` table has the following columns.
+
+.. list-table::
+     :widths: 15 15 15 15
+     :header-rows: 1
+
+     * - Column
+       - Type
+       - Null
+       - Key
+     * - id
+       - int(11)
+       - NO
+       - PRI
+     * - team_id
+       - varchar(255)
+       - NO
+       - UNI
+     * - name
+       - varchar(255)
+       - NO
+       - UNI
+     * - course_id
+       - textfield
+       - NO
+       - MUL
+     * - topic_id
+       - varchar(255)
+       - YES
+       - MUL
+     * - date_created
+       - datetime
+       - NO
+       - MUL
+     * - description
+       - varchar(300)
+       - NO
+       - MUL
+     * - country
+       - varchar(2)
+       - YES
+       - MUL
+     * - language
+       - varchar(16)
+       - YES
+       - MUL
+     * - discussion_topic_id
+       - varchar(255)
+       - NO
+       - MUL
+     * - last_activity_at
+       - datetime
+       - NO
+       - MUL
+     * - team_size
+       - int(11)
+       - NO
+       - MUL
+
+
+--------------------
+id
+--------------------
+
+  The primary key, a database auto-increment field that uniquely identifies
+  the team.
+
+---------
+team_id
+---------
+
+  The unique identifier for this team.
+
+---------------------
+name
+---------------------
+
+  The display name for this team. A name is required when a team is created.
+
+---------------------
+course_id
+---------------------
+
+  The course identifier, in the format ``{key type}:{org}+{course}+{run}``. For
+  example, ``course-v1:edX+DemoX+Demo_2014``.
+
+  **History**: In Oct 2014, identifiers for some new courses began to use
+  the format shown above. Other new courses, and all courses created prior to
+  Oct 2014, use the format ``{org}/{course}/{run}``,  for example,
+  ``MITx/6.002x/2012_Fall``.
+
+---------------------
+topic_id
+---------------------
+
+  The unique identifier for the teams topic associated with the team. Topics,
+  including an ID for each topic, are defined by course team members in
+  **Advanced Settings** in Studio.
+
+---------------------
+date_created
+---------------------
+
+  The date and time that this team was created, in the format ``YYYY-MM-DD
+  HH:MM:SS``.
+
+---------------------
+description
+---------------------
+
+  The description for the team. A team description is required when a team is
+  created.
+
+---------------------
+country
+---------------------
+
+  An optional field in a team's details. The person who creates a team can
+  specify a country that the team's members primarily identify with. Country
+  codes are ISO 3166-1 codes.
+
+---------------------
+language
+---------------------
+
+  An optional field in a team's details. A team can specify a language that
+  the team's members primarily communicate using. Most language codes are ISO
+  639-1 codes, with the addition of codes for simplified and traditional
+  Chinese.
+
+---------------------
+discussion_topic_id
+---------------------
+
+  The identifier for all discussion topics within this team's discussions.
+
+--------------------
+last_activity_at
+--------------------
+
+  The date and time that the most recent activity on the team was recorded, in
+  the format ``YYYY-MM-DD HH:MM:SS``. The current definition of activity for
+  this field includes team creation, and the creation of posts, comments, and
+  responses in the team's discussions.
+
+--------------------
+team_size
+--------------------
+
+  The current count of the number of members in the team.
+
+.. _teams_courseteammembership:
+
+===================================================
+Columns in the ``teams_courseteammembership`` Table
+===================================================
+
+This table stores information about the learners who are members of a team. For
+more information about the teams feature, see :ref:`partnercoursestaff:Teams
+Setup`.
+
+**History**: Added 15 Sep 2015.
+
+The ``teams_courseteammembership`` table has the following columns.
+
+.. list-table::
+     :widths: 15 15 15 15
+     :header-rows: 1
+
+     * - Column
+       - Type
+       - Null
+       - Key
+     * - id
+       - int (11)
+       - NO
+       - PRI
+     * - user_id
+       - int (11)
+       - NO
+       - UNI
+     * - team_id
+       - int (11)
+       - NO
+       - MUL
+     * - date_joined
+       - datetime
+       - NO
+       - MUL
+     * - last_activity_at
+       - datetime
+       - NO
+       - MUL
+
+---------------------
+id
+---------------------
+
+  The primary key, a database auto-increment field that uniquely identifies
+  the membership of a user on a team.
+
+---------------------
+user_id
+---------------------
+
+  The ID of a user who is currently a member of the team, from
+  ``auth_user.id``.
+
+---------------------
+team_id
+---------------------
+
+  The ID of the team, from ``teams_courseteam.id``.
+
+--------------------
+date_joined
+--------------------
+
+  The timestamp of the time that the user joined the team, in the format
+  ``YYYY-MM-DD HH:MM:SS``.
+
+--------------------
+last_activity_at
+--------------------
+
+  The date/time of the most recent activity performed by this user on this
+  team, in the format ``YYYY-MM-DD HH:MM:SS``. The current definition of
+  activity for this field is limited to discussions-related actions by this
+  user: adding or deleting posts, adding comments or responses, and voting on
+  posts. If the user has not yet participated in the team's discussion, the
+  ``last_activity_at`` date/time reflects the timestamp when the user joined
+  the team.
+
+.. _verify_student_verificationstatus:
+
+=======================================================
+Columns in the verify_student_verificationstatus Table
+=======================================================
+
+The ``verify_student_verificationstatus`` table shows learner re-verification
+attempts and outcomes.
+
+**History**: Added 5 Aug 2015.
+
+A sample of the heading row and a data row in the
+``verify_student_verificationstatus`` table follow.
+
+.. code-block:: sql
+
+    timestamp  status course_id checkpoint_name user_id
+    2015-04-28 12:13:22 submitted edX/DemoX/Demo_Course Final 9999999
+
+
+The ``verify_student_verificationstatus`` table has the following columns.
+
++----------------------+--------------+------+-----+---------+----------------+
+| Field                | Type         | Null | Key | Default | Extra          |
++----------------------+--------------+------+-----+---------+----------------+
+| timestamp            | datetime     | NO   |     | NULL    |                |
++----------------------+--------------+------+-----+---------+----------------+
+| status               | varchar(32)  | NO   | MUL | NULL    |                |
++----------------------+--------------+------+-----+---------+----------------+
+| course_id            | varchar(255) | NO   | MUL | NULL    |                |
++----------------------+--------------+------+-----+---------+----------------+
+| checkpoint_location  | varchar(255) | NO   |     | NULL    |                |
++----------------------+--------------+------+-----+---------+----------------+
+| user_id              | int(11)      | NO   | MUL | NULL    |                |
++----------------------+--------------+------+-----+---------+----------------+
+
+---------
+timestamp
+---------
+
+  The date and time at which the user's verification status changed, in UTC.
+
+---------
+status
+---------
+
+  This column can have one of the following values.
+
+  * ``submitted``: The user has submitted photos for re-verification.
+  * ``approved``: The verification service successfully verified the user's
+    identity.
+  * ``denied``: The verification service determined that the user's re-
+    verification photo does not match the photo on the ID that the user
+    submitted at the start of the course.
+  * ``error``: An error occurred during the verification process.
+
+---------
+course_id
+---------
+
+  The ID of the course run that the user is re-verifying for.
+
+--------------------
+checkpoint_location
+--------------------
+
+  The point in the course at which the user was prompted to re-verify his or
+  her identity. As of Aug 2015, course authors can define these checkpoints
+  when they create the course. Because these checkpoints typically occur
+  before exams, examples of expected values are ``final`` and ``midterm``.
+
+--------
+user_id
+--------
+
+  The learner's ID in ``auth_user.id``. Identifies the learner who is
+  reverifying his or her identity.
 
 .. _Courseware_Progress:
 
@@ -978,14 +1490,14 @@ Courseware Progress Data
 ************************
 
 Any piece of content in the courseware can store state and score in the
-``courseware_studentmodule`` table. Grades and the user Progress page are
-generated by doing a walk of the course contents, searching for graded items,
-looking up a student's entries for those items in ``courseware_studentmodule``
-via *(course_id, student_id, module_id)*, and then applying the grade weighting
-found in the course policy and grading policy files. Course policy files
-determine how much weight one problem has relative to another, and grading
-policy files determine how much categories of problems are weighted (for
-example, HW=50%, Final=25%, etc.).
+``courseware_studentmodule`` table. Grades and the learner **Progress** page
+are generated by doing a walk of the course contents, searching for graded
+items, looking up a learner's entries for those items in
+``courseware_studentmodule`` via *(course_id, student_id, module_id)*, and then
+applying the grade weighting found in the course policy and grading policy
+files. Course policy files determine how much weight one problem has relative
+to another, and grading policy files determine how much categories of problems
+are weighted (for example, HW=50%, Final=25%, and so on).
 
 ==================================
 About Modules
@@ -996,31 +1508,32 @@ implementation for that particular kind of module. When a user loads a page,
 the system looks up all the modules that need to be rendered in order to
 display it, and then asks the database to look up state for those modules for
 that user. If there is no corresponding entry for that user for a given module,
-a new row is created and the state is set to an empty JSON dictionary.
+a new row is created and the state is set to an empty JSON object.
 
 .. _courseware_studentmodule:
 
 ====================================================================
-Columns in the courseware_studentmodule Table
+Columns in the ``courseware_studentmodule`` Table
 ====================================================================
 
-The ``courseware_studentmodule`` table holds all courseware state for a given
-user.
+For each learner, the ``courseware_studentmodule`` table holds the most current
+course state, including the most recent problem submission and unit visited in
+each subsection.
 
 A sample of the heading row and a data row in the ``courseware_studentmodule``
-table follow.
+table follows.
 
-.. code-block:: sql
+.. code-block:: none
 
-    id  module_type module_id student_id  state grade created modified  max_grade done  
+    id  module_type module_id student_id  state grade created modified  max_grade done
     course_id
 
-    33973858  course  i4x://edX/DemoX/course/Demo_course  96452 {"position": 3} NULL  
+    33973858  course  i4x://edX/DemoX/course/Demo_course  96452 {"position": 3} NULL
     2013-03-19 17:21:07 2014-01-07 20:18:54 NULL  na  edX/DemoX/Demo_course
 
-Students have a separate row for every piece of content that they access or
-that is created to hold state data, making this the largest table in the data
-package.
+The table has a separate row for every piece of content that a learner
+accesses, or that is created to hold state data. As a result, this is the
+largest table in the data package.
 
 The ``courseware_studentmodule`` table has the following columns.
 
@@ -1050,6 +1563,11 @@ The ``courseware_studentmodule`` table has the following columns.
 | course_id   | varchar(255) | NO   | MUL | NULL    |                |
 +-------------+--------------+------+-----+---------+----------------+
 
+.. note:: The output in the ``courseware_studentmodule`` table is the result
+ of a different process than the other SQL tables in the edX data packages. As
+ a result, not all of the data :ref:`conventions<Conventions>` apply to this
+ table.
+
 ----
 id
 ----
@@ -1078,21 +1596,22 @@ module_type
      * - course
        - The top level course module of which all course content is descended.
      * - crowdsource_hinter
-       - Not currently used. 
-         
-         **History**: This ``module_type`` was included in
-         a single course on a test basis and then deprecated.
+       - Not used.
+
+         **History**: This ``module_type`` was included in a single course on a
+         test basis. It was not used after Jul 2013, and was removed
+         on 16 Mar 2016.
 
      * - lti
        - Learning Tools Interoperability component that adds an external
          learning application to display content, or to display content and
-         also require a student response.
+         also require a learner response.
      * - peergrading
-       - Indicates a problem that is graded by other students. An option for
+       - Indicates a problem that is graded by other learners. An option for
          grading open ended questions.
      * - poll_question
-       - Not currently used. 
-         
+       - Not currently used.
+
          **History**: This ``module_type`` was included in
          a single course on a test basis and then deprecated.
 
@@ -1106,7 +1625,7 @@ module_type
          ``sequential`` instead.
      * - randomize
        - Identifies a module in which one of several possible defined
-         alternatives is randomly selected for display to each student.
+         alternatives is randomly selected for display to each learner.
      * - selfassessment
        - Self assessment problems. Used in a single course in Fall 2012 as an
          early test of the open ended grading system. Deprecated in favor of
@@ -1115,16 +1634,16 @@ module_type
        - A collection of videos, problems, and other materials, rendered as a
          horizontal icon bar in the courseware.
      * - timelimit
-       - Not currently used. 
-         
+       - Not currently used.
+
          **History**: This ``module_type`` was included in
          a single course on a test basis and then deprecated.
 
      * - video
-       - A component that makes a video file available for students to play.
+       - A component that makes a video file available for learners to play.
      * - videoalpha
-       - Not currently used. 
-         
+       - Not currently used.
+
          **History**: During the implementation of a
          change to the ``video`` ``module_type``, both ``video`` and
          ``videoalpha`` were stored. The ``videoalpha`` type was then
@@ -1132,14 +1651,16 @@ module_type
 
      * - videosequence
        - A collection of videos, exercise problems, and other materials,
-         rendered as a horizontal icon bar in the courseware. 
+         rendered as a horizontal icon bar in the courseware.
 
          **History**: This ``module_type`` is no longer in use, courses now
          use ``sequential`` instead.
 
      * - word_cloud
        - A specialized problem that produces a graphic from the words that
-         students enter.
+         learners enter.
+
+.. _module_id:
 
 -----------
 module_id
@@ -1171,10 +1692,10 @@ module_id
          this piece of content.
      * - ``{course}``
        - ``DemoX``
-       - The course that this content was created for. 
+       - The course that this content was created for.
      * - ``{run}``
        - ``Demo_2014``
-       - The term or specific iteration of the course. 
+       - The term or specific iteration of the course.
      * - ``type@{module type}``
        - ``type@problem``
        - The module type. The same value is stored in the
@@ -1185,18 +1706,19 @@ module_id
          module does not have a name, the system generates a hash code as its
          identifier.
 
-**History**: In October 2014, identifiers for modules in some new courses began
+**History**: In Oct 2014, identifiers for modules in some new courses began
 to use the format shown above. Other new courses, and all courses created prior
-to October 2014, use the format ``i4x://{org}/{course}/{module type}/{module
+to Oct 2014, use the format ``i4x://{org}/{course}/{module type}/{module
 name or hash code}``. For example,
 ``i4x://MITx/3.091x/problemset/Sample_Problems``. Note that this format does
 not include course run information, so the
-``courseware_studentmodule.course_id`` column may need to be used as well.
+``courseware_studentmodule.course_id`` column might need to be used as well.
 
 ------------
 student_id
 ------------
-  A reference to ``auth_user.id``, this is the student that this module state row belongs to.
+  A reference to ``auth_user.id``, this is the learner that this module state
+  row belongs to.
 
 -------
 state
@@ -1206,7 +1728,7 @@ state
 
   ``course``, ``chapter``, ``problemset``, ``sequential``, ``videosequence``
 
-    The state for all of these container modules is a JSON dictionary
+    The state for all of these container modules is a JSON object
     indicating the user's last known position within this container. This is
     1-indexed, not 0-indexed, mostly because it was released that way and a
     later change would have broken saved navigation state for users.
@@ -1219,22 +1741,22 @@ state
     would not be smart enough to accommodate the changes and would point users
     to the wrong place.
 
-    The hierarchy of these containers is 
+    The hierarchy of these containers is
     ``course > chapter > (problemset | sequential | videosequence)``.
 
   ``combinedopenended``
 
-    The JSON document includes attributes that identify the student's
+    The JSON document includes attributes that identify the learner's
     ``answer``, a ``rubric_xml`` that includes the complete XML syntax for the
     rubric, the ``score`` earned and the ``max_score``, and the ``grader_id``
-    (the ``auth_user.id``) of each student who assessed the answer.
+    (the ``auth_user.id``) of each learner who assessed the answer.
 
-.. is a complete list of all possible attributes needed? 26 Feb 14  
+.. is a complete list of all possible attributes needed? 26 Feb 14
 
   ``conditional``
 
     Conditionals don't actually store any state, so this value is always an
-    empty JSON dictionary (`'{}'`). These entries may be removed altogether.
+    empty JSON object (`'{ }'`). These entries can be removed altogether.
 
   ``problem``
 
@@ -1256,7 +1778,7 @@ state
 grade
 -------
   Floating point value indicating the total unweighted grade for this problem
-  that the student has scored. Basically how many responses they got right
+  that the learner has scored. Basically how many responses they got right
   within the problem.
 
   Only ``problem`` and ``selfassessment`` types use this column. All other
@@ -1268,11 +1790,11 @@ grade
 ---------
 created
 ---------
-  Datetime when this row was created, which is typically when the student
+  Datetime when this row was created, which is typically when the learner
   first accesses this piece of content.
 
   .. note:: For a module that contains multiple child modules, a row is
-   created for each of them when the student first accesses one of them.
+   created for each of them when the learner first accesses one of them.
 
 ----------
 modified
@@ -1295,7 +1817,7 @@ max_grade
   Another way in which ``max_grade`` can differ between entries with the same
   ``module_id`` is if the problem was modified after the ``max_grade`` was
   written and the user never went back to the problem after it was updated.
-  This might happen if a member of the course staff puts out a problem with
+  This might happen if a member of the course team puts out a problem with
   five parts, realizes that the last part doesn't make sense, and decides to
   remove it. People who saw and answered it when it had five parts and never
   came back to it after the changes had been made will have a ``max_grade`` of
@@ -1316,12 +1838,12 @@ course_id
   type}:{org}+{course}+{run}``. For example, ``course-v1:edX+DemoX+Demo_2014``.
 
   Because the same course content (content with the same ``module_id``) can be
-  used in different courses, student state is tracked separately for each
+  used in different courses, a learner's state is tracked separately for each
   course.
 
-  **History**: In October 2014, identifiers for some new courses began to use
+  **History**: In Oct 2014, identifiers for some new courses began to use
   the format shown above. Other new courses, and all courses created prior to
-  October 2014, use the format ``{org}/{course}/{run}``,  for example,
+  Oct 2014, use the format ``{org}/{course}/{run}``,  for example,
   ``MITx/6.002x/2012_Fall``.
 
 .. _Certificates:
@@ -1332,30 +1854,30 @@ Certificate Data
 
 .. _certificates_generatedcertificate:
 
-=======================================================
-Columns in the certificates_generatedcertificate Table
-=======================================================
+==========================================================
+Columns in the ``certificates_generatedcertificate`` Table
+==========================================================
 
 The ``certificates_generatedcertificate`` table tracks the state of
-certificates and final grades for a course. The table is  populated when a
-script is run to grade all of the students who are enrolled in the course at
+certificates and final grades for a course. The table is populated when a
+script is run to grade all of the learners who are enrolled in the course at
 that time and issue certificates. The certificate process can be rerun and
 this table is updated appropriately.
 
 A sample of the heading row and two data rows in the
-``certificates_generatedcertificate`` table follow.
+``certificates_generatedcertificate`` table follows.
 
 .. code-block:: sql
 
- id  user_id  download_url  grade  course_id  key  distinction  status  verify_uuid 
+ id  user_id  download_url  grade  course_id  key  distinction  status  verify_uuid
  download_uuid  name  created_date  modified_date error_reason  mode
 
- 26  9999999 
- https://s3.amazonaws.com/verify.edx.org/downloads/9_hash_1/Certificate.pdf  
- 0.84  BerkeleyX/CS169.1x/2012_Fall  f_hash_a   0   downloadable  2_hash_f  
+ 26  9999999
+ https://s3.amazonaws.com/verify.edx.org/downloads/9_hash_1/Certificate.pdf
+ 0.84  BerkeleyX/CS169.1x/2012_Fall  f_hash_a   0   downloadable  2_hash_f
  9_hash_1  AAAAAA  2012-11-10  00:12:11  2012-11-10  00:12:13   honor
 
- 27  9999999        0.0  BerkeleyX/CS169.1x/2012_Fall    0  notpassing  AAAAAA  
+ 27  9999999        0.0  BerkeleyX/CS169.1x/2012_Fall    0  notpassing  AAAAAA
  2012-11-10  00:12:11  2012-11-26  19:06:19  honor
 
 The ``certificates_generatedcertificate`` table has the following columns.
@@ -1397,7 +1919,7 @@ The ``certificates_generatedcertificate`` table has the following columns.
 ---------
 id
 ---------
-  The primary key. 
+  The primary key.
 
 ----------------------
 user_id, course_id
@@ -1407,14 +1929,15 @@ user_id, course_id
 --------------
 download_url
 --------------
-  The ``download_url`` contains the full URL to the certificate. 
+  The ``download_url`` contains the full URL to the certificate.
 
 -------
 grade
 -------
   The grade computed the last time certificate generation ran. If the
-  courseware, student state, or grading policy change, the value in this
-  column can be different than the grade shown on a student's Progress page.
+  courseware, learner state, or grading policy change, the value in this
+  column can be different than the grade shown on a learner's **Progress**
+  page.
 
 ---------
 key
@@ -1425,7 +1948,7 @@ key
 -----------------
 distinction
 -----------------
-  Not used. 
+  Not used.
 
   **History**: This was used for letters of distinction for 188.1x, but is not
   being used for any current courses.
@@ -1433,7 +1956,17 @@ distinction
 --------
 status
 --------
-  The status can be one of these states.
+
+  After a course has been graded and certificates have been issued, the status
+  is one of these string values.
+
+  * downloadable
+  * audit_passing
+  * notpassing
+  * audit_notpassing
+
+  The table that follows describes these values and the other workflow states
+  that can apply during certificate generation process.
 
   .. list-table::
        :widths: 15 80
@@ -1441,54 +1974,77 @@ status
 
        * - Value
          - Description
-       * - deleted 
+       * - audit_notpassing
+         - Applies to learners who did not earn a passing grade and who have a
+           value of "audit" in ``student_courseenrollment.mode``. No
+           certificate is generated for these learners.
+
+           **History**: Added 26 Jan 2016 for audit enrollments created after 1
+           Dec 2015.
+
+       * - audit_passing
+         - Applies to learners who earned a passing grade and who have a value
+           of "audit" in ``student_courseenrollment.mode``. These learners
+           completed the course succesfully, but no certificate is generated
+           for these learners.
+
+           **History**: Added 26 Jan 2016 for audit enrollments created after 1
+           Dec 2015.
+
+       * - deleted
          - The certificate has been deleted.
-       * - deleting 
+       * - deleting
          - A request has been made to delete a certificate.
-       * - downloadable 
-         - The student passed the course and a certificate is available for
-           download.
-       * - error 
+       * - downloadable
+         - A certificate is available for download.
+
+           Applies to learners who earned a passing grade and who have a
+           certificate-bearing value in ``student_courseenrollment.mode``.
+
+       * - error
          - An error ocurred during certificate generation.
-       * - generating 
-         - A request has been made to generate a certificate but it has not
-           yet been generated.
-       * - notpassing 
-         - The student's grade is not a passing grade. 
-       * - regenerating 
+       * - generating
+         - A request has been made to generate a certificate but it has not yet
+           been generated.
+       * - notpassing
+         - The learner did not earn a passing grade.
+
+           Applies to learners who have a certificate-bearing value in
+           ``student_courseenrollment.mode``. No certificate is generated for
+           these learners.
+
+       * - regenerating
          - A request has been made to regenerate a certificate but it has not
            yet been generated.
-       * - restricted 
-         - No longer used. **History**: Specified when
-           ``userprofile.allow_certificate`` was set to false: to indicate
-           that the student was on the restricted embargo list.
-       * - unavailable 
-         - No entry, typically because the student has not yet been graded for
+       * - restricted
+         - No longer used.
+
+           **History**: Specified when ``userprofile.allow_certificate`` was
+           set to false to indicate that the learner was on the restricted
+           embargo list.
+
+       * - unavailable
+         - No entry, typically because the learner has not yet been graded for
            certificate generation.
 
-  After a course has been graded and certificates have been issued, status is
-  one of these values.
-
-  * downloadable
-  * notpassing
 
 -------------
 verify_uuid
 -------------
   A hash code that verifies the validity of a certificate. Included on the
   certificate itself as part of a URL.
-  
+
 -------------
 download_uuid
 -------------
-  A hash code that identifies this student's certificate. Included as part of
+  A hash code that identifies this learner's certificate. Included as part of
   the ``download_url``.
 
 ------
 name
 ------
-  This column records the name of the student that was set at the time the
-  student was graded and the certificate was generated.
+  This column records the name of the learner that was set at the time the
+  learner was graded and the certificate was generated.
 
 ---------------
 created_date
@@ -1509,7 +2065,7 @@ error_reason
 ---------------
 mode
 ---------------
-  Contains the value found in the ``enrollment.mode`` field for a student and
-  course at the time the certificate was generated: blank, audit, honor, or
-  verified. This value is not updated if the student's ``enrollment.mode``
-  changes after certificates are generated.
+  Contains the value found in the ``student_courseenrollment.mode`` field for a
+  learner and course at the time the certificate was generated: audit, honor,
+  verified, or blank. This value is not updated if the value of the learner's
+  ``student_courseenrollment.mode`` changes after certificates are generated.

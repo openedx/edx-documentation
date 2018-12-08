@@ -1,21 +1,24 @@
-#########################
-edX Developer's Guide
-#########################
+.. _edX Developer's Guide:
+
+############################
+Open edX Developer's Guide
+############################
 
 .. toctree::
    :numbered:
    :maxdepth: 2
 
    front_matter/index
+   architecture
    process/index
-   testing/index
    extending_platform/index
    modulestores/index
+   testing/index
    pavelib.rst
-   public_sandboxes.rst
+   environment/index
+   user_interface_development
    analytics.rst
    deploy-new-service
-   internationalization/index
-   accessibility
+   conventions/index
    style_guides/index
    glossary

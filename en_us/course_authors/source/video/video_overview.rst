@@ -40,6 +40,8 @@ After these services are set up, course teams use Studio to upload one file to
 the edX servers for each of the videos that they want to include in their
 course. For more information, see :ref:`Uploading Videos in Studio`.
 
+.. _Video Encoding and Hosting Overview:
+
 ************************************
 Video Encoding and Hosting Overview
 ************************************
@@ -49,7 +51,7 @@ successfully, the automated encoding and hosting process starts. This process
 creates additional file formats and transfers the files to YouTube and AWS
 accounts to ensure optimal playback quality for course videos.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/encoding_process.png
+.. image:: ../../../shared/images/encoding_process.png
  :alt: Flowchart of course team uploading a video, followed by edX assigning a
      video ID and then transcoding it into four formats and transferring the
      results to two host sites
@@ -63,7 +65,7 @@ automated retries.
 Course teams can track the status of each video file on the Studio **Video
 Uploads** page as the videos go through automated processing.
 
-.. note:: The edX automation process does not include captioning services. 
+.. note:: The edX automation process does not include captioning services.
  Your course teams use your institution's current workflow to generate
  transcripts for your video files, and then add them to the video in Studio.
  For more information, see :ref:`Add a Video Transcript`.
@@ -78,14 +80,17 @@ servers successfully, it is given a status of Ready and the course team can
 add its video ID to a video component in the course outline. For more
 information, see :ref:`Adding Videos to a Course`.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/add_video_process.png
+.. image:: ../../../shared/images/add_video_process.png
  :alt: Flowchart of course team uploading a video, followed by edX assigning a
      video ID and then transcoding it into four formats and transferring the
      results to two host sites
 
 When a learner uses the edX video player or the edX mobile app to access a
 course video, the video ID is what provides the connection to the URLs that
-host each differently-encoded version of the original video file.
+host each differently-encoded version of the original video file. For
+information about ensuring that your videos are available to learners who use
+the edX mobile apps, see :ref:`installation:Configuring Video Modules for
+Mobile`.
 
 The course team can add a video to their course as soon as its unique video ID
 is assigned, and the video plays in the LMS as soon as its status is Ready.

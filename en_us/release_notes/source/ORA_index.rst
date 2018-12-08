@@ -1,8 +1,35 @@
 .. _ORA Index:
 
 ####################################
-edX Open Response Assessments
+EdX Open Response Assessments
 ####################################
+
+The following information describes what is new in edX Open Response
+Assessments.
+
+.. contents::
+  :local:
+  :depth: 2
+
+.. doc team please discontinue use of this category in favor of LMS/Studio beginning in 2016
+
+******************
+16 December 2015
+******************
+
+.. include:: 2015/ora/ora_1216_2015.rst
+
+******************
+1 December 2015
+******************
+
+.. include:: 2015/ora/ora_1201_2015.rst
+
+******************
+17 July 2015
+******************
+
+.. include:: 2015/ora/ora_0717_2015.rst
 
 ******************
 8 July 2015
@@ -41,5 +68,4 @@ edX Open Response Assessments
 .. include:: 2015/ora/ora_0108_2015.rst
 
 
-
-.. include:: links.rst
+.. include:: ../../links/links.rst

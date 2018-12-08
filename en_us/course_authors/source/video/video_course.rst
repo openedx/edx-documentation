@@ -8,18 +8,20 @@ After automated processing of an :ref:`uploaded video file<Uploading Videos in
 Studio>` begins and its status on the **Video Uploads** page is Ready, you can
 include it in your course. To do so, you :ref:`copy the unique ID<Copy the edX
 Video ID>` that is assigned to an uploaded video and then :ref:`add it to a
-video component<Add the edX Video ID to a Video Component>`. 
+video component<Add the edX Video ID to a Video Component>`. A video file,
+`Adding a Video ID`_, is also available to show you how to complete this
+process.
 
-You can also :ref:`add a transcript<Add a Video Transcript>` and associate it
-with the video file in a video component.
+This section also describes how you :ref:`add a transcript<Add a Video
+Transcript>` and associate it with the video file in a video component.
 
 .. _Copy the edX Video ID:
 
 ************************
 Copy the Video ID
 ************************
- 
-#. Open the course in Studio. 
+
+#. Open the course in Studio.
 
 #. Select **Content**, then **Video Uploads**.
 
@@ -27,20 +29,20 @@ Copy the Video ID
    in the course.
 
 #. Select the value in the **Video ID** column for the video. The video ID is
-   assigned when you upload a video.   
+   assigned when you upload a video.
 
 #. Right-click and select **Copy**. Be sure to select and copy the entire
    video ID value.
-   
+
    Next, you paste this value into the **Video ID** field for a video
    component. See :ref:`Add the edX Video ID to a Video Component`.
 
-   .. note:: The video ID is available for every uploaded file. However, 
+   .. note:: The video ID is available for every uploaded file. However,
     for a video component to deliver its content to learners, the status for
     the file must be Ready on the **Video Uploads** page.
 
 You can also download a report of all uploaded videos on the **Video Uploads**
-page: click **Download available encodings (.csv)**. The report includes the
+page: select **Download available encodings (.csv)**. The report includes the
 video ID for every uploaded file.
 
 .. to come: how to download a CSV
@@ -66,38 +68,40 @@ components in the other.
 #. From the **Content** menu select **Outline**. The **Course Outline** page
    opens.
 
-#. Select or add a unit, and then click **Video** to add a video component. 
-   
-   To edit an existing video component, locate the video component window and
-   then click **Edit**. The Editing: Video popup opens to the Basic tab.
-   
-3. For the **Component Display Name**, enter the identifying name that you
-   want learners to see for this video.
+#. Select or add a unit, and then select **Video** to add a video component.
 
-#. At the top of the Editing: Video popup click **Advanced**. Additional fields
-   appear below the **Component Display Name** and **Default Timed Transcript**
-   fields.
+   To edit an existing video component, locate the video component window, and
+   then select **Edit**. The Editing: Video dialog box opens to the **Basic**
+   tab.
 
-#. Scroll down to the **Video ID** field and paste in the ID of the video
-   file that you want to play. See :ref:`Copy the edX Video ID`.
+#. For the **Component Display Name**, enter the identifying name that you want
+   learners to see for this video.
 
-   When you supply a valid video ID in this field, you associate your
-   video component with files on YouTube and AWS that are optimized for
-   viewing with different devices and bandwidths. You do not need to add
-   values to the **Default Video URL**, **Video File URLs**, or the **YouTube
-   ID** fields. If those fields already have values, the URLs that are
-   associated with this video ID override them.
+#. Select the **Advanced** tab for the Editing: Video dialog box.
 
-6. Set the **Video Download Allowed** field to **True** or **False** to define
-   whether learners can download this video.
+   Additional fields appear below the **Component Display Name** and **Default
+   Timed Transcript** fields.
 
-#. Click **Save**. The referenced video appears in the video component.
+#. For the **Video ID**, paste in the ID of the video file that you want
+   to play. See :ref:`Copy the edX Video ID`.
 
-   .. note:: For the video to appear, a destination URL must be available for 
+   When you supply a valid video ID in this field, you associate your video
+   component with files on YouTube and AWS that are optimized for viewing with
+   different devices and bandwidths. You do not need to add values to the
+   **Default Video URL**, **Video File URLs**, or **YouTube ID** fields. The
+   URLs that are associated with the video ID override any existing values in
+   those fields.
+
+#. Set **Video Download Allowed** to **True** or **False** to define whether
+   learners can download this video.
+
+#. Select **Save**. The referenced video appears in the video component.
+
+   .. note:: For the video to appear, a destination URL must be available for
     at least one of the formats and host sites that are the result of the edX
     video process.
 
-To complete video component setup, you add a transcript file for the video. 
+To complete video component setup, you add a transcript file for the video.
 
 .. _Add a Video Transcript:
 
@@ -111,20 +115,23 @@ who speak other languages.
 
 Timed transcripts in the SubRip Text (.srt) format are recommended. A
 transcript in the .srt format appears next to its associated video and
-automatically scrolls as the video plays. A learner can click a word in the
+automatically scrolls as the video plays. A learner can select a word in the
 transcript to jump to the point in the video where that word is spoken.
 
 This section briefly describes the procedures that course teams follow to add
-transcripts to their videos. For more information, see the :ref:`Create Transcript` section in this guide.
+transcripts to their videos. For more information, see the :ref:`Create
+Transcript` section in this guide.
 
 ======================================
 Create or Obtain a Transcript
 ======================================
 
 To create or obtain a transcript in .srt format, you can work with a company
-that provides captioning services. To ensure quality and accuracy of
-transcripts, edX works with `3Play Media`_. To request a 3Play account at
-edX's discounted rate, contact your edX Program Manager.
+that provides captioning services.
+
+To ensure quality and accuracy of transcripts, edX works with `3Play Media`_.
+To request a 3Play account at edX's discounted rate, contact your edX partner
+manager.
 
 ===================================
 Associate a Transcript with a Video
@@ -147,7 +154,7 @@ saves the files in text (.txt) format automatically.
 
 To associate a transcript with a video, follow these steps.
 
-.. note:: 
+.. note::
  This procedure assumes that you have already created the video component and
  followed the procedures to :ref:`add the video ID<Add the edX Video ID to
  a Video Component>` to it. In addition, you must have the .srt file, or the
@@ -159,18 +166,28 @@ To associate a transcript with a video, follow these steps.
 
 #. Locate the video component window and select **Edit**.
 
-#. To upload an .srt file from your computer: In the **Default Timed
-   Transcript** field select **Upload New Transcript**, and then select the
-   .srt file from your computer.
+#. Next, either you upload an .srt file or you import YouTube subtitles or
+   captions.
 
-   To import YouTube subtitles or captions: In the **Default Timed
-   Transcript** field select **Import from YouTube**.
+   * To upload an .srt file from your computer: For the **Default Timed
+     Transcript** select **Upload New Transcript**, and then select the
+     .srt file from your computer.
 
-4. Select **Save**.
- 
-To test the transcript with the video, select **CC** in the video player's
-control bar to turn on captions. The transcript file scrolls while the video
-file plays.
+   * To import YouTube subtitles or captions: For the **Default Timed
+     Transcript** select **Import from YouTube**.
+
+#. Select **Save**.
+
+To test the transcript with the video, select the **Show transcript** (") icon
+in the video player's control bar. The transcript file scrolls while the video
+file plays. You can also test the transcript by selecting the **CC** icon.
+
+.. note:: In some cases, two sets of captions can appear when you select
+  **CC**. This situation can occur if YouTube is the host service for the video
+  and your YouTube account settings for playback are set to always show
+  captions. As a result, YouTube and your course might both provide captions
+  for the video. To correct this problem, select **CC** again or change your
+  YouTube account setting.
 
 ============================
 Enable Transcript Downloads
@@ -187,7 +204,7 @@ To enable transcript downloads, follow these steps.
 
 #. Locate the video component window and select **Edit**.
 
-#. Select **Advanced**. 
+#. Select **Advanced**.
 
 #. Set **Download Transcript Allowed** to **True**.
 
@@ -198,5 +215,4 @@ To test transcript downloads for the video, select **Download transcript** in
 the video player's control bar. You can choose either the SubRip (.srt) format
 or text (.txt) format to download.
 
-
-.. _3Play Media: http://www.3playmedia.com
+.. include:: ../../../links/links.rst

@@ -1,0 +1,3 @@
+
+Version 2.0.2 of the iOS app is now available. This version adds the ability to
+view HTML content and complete some types of assessments.

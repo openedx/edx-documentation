@@ -4,22 +4,24 @@
 Symbolic Response
 #################
 
-This document plans to document features that the current symbolic response
-supports. In general it allows the input and validation of math expressions,
+This topic is planned to document features that the current symbolic response
+supports. In general, it allows the input and validation of math expressions,
 up to commutativity and some identities.
-
 
 ********
 Features
 ********
 
-This is a partial list of features, to be revised as we go along:
+This is a partial list of features, to be revised over time.
+
     * sub and superscripts: an expression following the ``^`` character
       indicates exponentiation. To use superscripts in variables, the syntax
       is ``b_x__d`` for the variable ``b`` with subscript ``x`` and super
-      ``d``. 
+      ``d``.
 
-      An example of a problem::
+      An example of a problem.
+
+      ::
 
         <symbolicresponse expect="a_b^c + b_x__d" size="30">
           <textline math="1"

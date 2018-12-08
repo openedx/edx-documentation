@@ -8,14 +8,14 @@ After a video administrator works with the edX media team to complete
 :ref:`preliminary setup<Video Getting Started>` for the entire institution,
 individual course teams can begin to upload video files for their courses in
 Studio. This section describes the specifications met by successful video
-files, the steps to upload the files, and how you monitor video processing 
+files, the steps to upload the files, and how you monitor video processing
 at edX.
 
-.. removed "how course teams enable the video upload process in Studio, " 
+.. removed "how course teams enable the video upload process in Studio, "
 
-* :ref:`Specifications for Successful Video Files` 
+* :ref:`Specifications for Successful Video Files`
 
-* :ref:`Upload Video Files`  
+* :ref:`Upload Video Files`
 
 * :ref:`Monitor Video Processing`
 
@@ -35,6 +35,16 @@ Your videos can contain whatever content you want to include in the course.
 
 The `Creating Videos`_ section of `edX101 Overview of Creating an edX Course`_
 has some helpful pointers for creating good video content.
+
+
+.. _Maximum Video File Size:
+
+=========================
+Maximum Video File Size
+=========================
+
+The maximum size for each video file that you upload is 5 GB. The upload
+process fails for larger files.
 
 =========================
 Supported Video Formats
@@ -71,7 +81,7 @@ For best results, your video files should have these compression specifications.
    * - Size
      - 5GB maximum
 
-.. note:: Typically you export at the same frame rate that was used when you 
+.. note:: Typically you export at the same frame rate that was used when you
  created the media file. For example, if you create the file in a country that
  uses the PAL system, you export at 25 fps instead of the NTSC standard of
  29.97 fps.
@@ -112,7 +122,7 @@ parties identify and track video files over time.
    identifier for your course. The edX media team defines a unique video
    identifier for each course.
 
-.. #. Open the course in Studio. 
+.. #. Open the course in Studio.
 
 .. #. Select **Settings**, then **Advanced Settings**.
 
@@ -125,7 +135,7 @@ parties identify and track video files over time.
 
 .. #. Click **Save Changes**. Studio reformats the name:value pair you just
    entered to indent it on a new line.
-   
+
  .. image:: Images/Enable_video_upload.png
   :alt: Video Upload Credentials field with the course_video_upload_token
       policy key and a token value
@@ -138,14 +148,14 @@ parties identify and track video files over time.
 .. _Upload Video Files:
 
 ***************************
-Upload Video Files 
+Upload Video Files
 ***************************
 
 Before you can upload video files, the video upload feature must be enabled
 for the course. Your video administrator coordinates this task with the edX
 media team. See :ref:`Create YouTube Channels`.
 
-#. Open the course in Studio. 
+#. Open the course in Studio.
 
 #. Select **Content**, then **Video Uploads**.
 
@@ -169,14 +179,14 @@ is successful. If the status changes to Failed, the file upload process is not
 successful. You can monitor file progress on the **Video Uploads** page or
 download a report.
 
-.. _Monitor Video Processing: 
+.. _Monitor Video Processing:
 
 ***************************
 Monitor Video Processing
 ***************************
 
 After your video files successfully reach the edX servers, automated
-processing begins. 
+processing begins.
 
 .. note:: Automated processing takes 24 hours to complete.
 
@@ -200,7 +210,7 @@ The encoding and hosting process assigns these statuses to video files.
   processing. See :ref:`Specifications for Successful Video Files`. Then try
   uploading the file (or its replacement) again.
 
-* **In Progress** files are undergoing processing to create additional file 
+* **In Progress** files are undergoing processing to create additional file
   formats or waiting for successful transfer to the host sites.
 
 * **Ready** files are ready for inclusion in your course and for learners to
@@ -217,9 +227,9 @@ The encoding and hosting process assigns these statuses to video files.
   media@edx.org.
 
 Statuses of **Invalid Token** or **Unknown** indicate a configuration
-problem. Inform your edX program manager if these statuses appear.
+problem. Inform your edX partner manager if these statuses appear.
 
-.. add an xref to the TBD overview section on the edX transcode-and-host process
+For more information, see :ref:`Video Encoding and Hosting Overview`.
 
 .. _Reporting Video Status:
 
@@ -227,19 +237,24 @@ problem. Inform your edX program manager if these statuses appear.
 Reporting Video Statuses
 ================================
 
-To report the status of the encoding and hosting process of every video file
-that you upload, as well as the assigned video IDs, you can download a CSV
-file.
+View detailed information about the video files that you upload in the
+available encodings report. The available encodings report includes the status
+of the encoding and hosting process for each video file that you upload, the
+identifier for the video, and the URLs for each encoding format. The available
+encodings report is a comma separated values (.csv) file that you can view in a
+spreadsheet application or text editor.
 
-#. Open the course in Studio. 
+To download the available encodings report, follow these steps.
+
+#. Open the course in Studio.
 
 #. Select **Content**, then **Video Uploads**.
 
 #. Click **Download available encodings (.csv)**.
 
-#. Use a spreadsheet application or text editor to open the CSV file.
+#. Use a spreadsheet application or text editor to open the .csv file.
 
-The CSV file reports data in these columns for all of the files you upload.
+The .csv file includes the following columns.
 
 * The file **Name**.
 
@@ -256,28 +271,34 @@ The CSV file reports data in these columns for all of the files you upload.
 * The **Status** of the encoding and hosting process for the file. See
   :ref:`Video Processing Statuses`.
 
-The CSV file also includes a column for each of the formats and host sites
-that are the result of the edX encoding and hosting process. The CSV file
-includes data in these columns only after each format is successfully
-generated and delivered to its destination.
+The .csv file also includes a column for each of the formats that are the
+result of the edX encoding and hosting process. These columns include the URL
+of a host site only after the format is successfully generated and delivered to
+its destination.
 
 * **desktop_mp4 URL**: The AWS location of a 720p resolution video file in mp4
   format. This file is delivered to learners who do not have access to YouTube
-  and view course videos with an mp4 player.
+  and view course videos with mp4 players.
 
 * **desktop_webm URL**: The AWS location of a 720p resolution video file in
   webm format. This file is delivered to learners who do not have access to
-  YouTube and view course videos with a webm player.
+  YouTube and view course videos with webm players.
 
-* **mobile_low URL**: The AWS location of a 320p resolution video file. This
-  file is delivered to learners who download and view course videos on a
-  mobile device.
+  The encoding and hosting process no longer creates webm versions of the video
+  files that you upload. Modern web browsers do not require the webm format.
+  The .csv file includes the **desktop_webm URL** column to show the webm URLs
+  for videos uploaded before this change. When you upload a new video, the
+  column will remain empty, even after the encoding and hosting process is
+  complete.
+
+* **mobile_low URL**: The AWS location of a 360p resolution video file. This
+  file is delivered to learners who download and view course videos on mobile
+  devices.
 
 * **youtube URL**: The YouTube location of a 1080p resolution video. By
   default, the edX video player delivers this video.
 
-The edX encoding and hosting process produces these alternatives to ensure
-optimal playback quality for your learners. 
+The edX encoding and hosting process produces these alternative formats to ensure optimal playback quality for your learners.
 
 
 .. _Creating Videos: https://courses.edx.org/courses/edX/edX101/2014/courseware/c2a1714627a945afaceabdfb651088cf/9dd6e5fdf64b49a89feac208ab544760/

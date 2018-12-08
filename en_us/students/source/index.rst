@@ -1,25 +1,32 @@
-.. Getting_Started documentation master file, created by
-   sphinx-quickstart on Tue Apr 16 11:19:12 2013.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+.. _edX Learner's Guide:
 
-
-edX Learner's Guide
-========================================
+###################
+EdX Learner's Guide
+###################
 
 .. toctree::
    :numbered:
    :maxdepth: 2
 
-   front_matter/index
    SFD_introduction
+   SFD_account
    sfd_dashboard_profile/index
-   SFD_licensing
-   SFD_video_player
-   SFD_google_docs
-   SFD_certificates
    SFD_mobile
-   SFD_mathformatting
-   SFD_ORA
+   SFD_enrolling
+   SFD_check_progress
+   SFD_certificates
+   SFD_self_paced
+   SFD_credit_courses/index
+   SFD_content_availability
+   SFD_video_player
    sfd_discussions/index
+   completing_assignments/index
+   SFD_ORA
+   SFD_google_docs
+   SFD_teams
+   SFD_bookmarks
+   SFD_notes
    SFD_wiki
+   SFD_licensing
+   front_matter/index
+

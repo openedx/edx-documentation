@@ -4,10 +4,14 @@
 Protex Protein Builder Tool
 ############################
 
-The Protex protein builder asks students to create specified protein shapes by stringing together amino acids. In the example below, the goal protein shape is a simple line. 
+.. note:: EdX does not support this tool.
+
+The Protex protein builder asks students to create specified protein shapes by
+stringing together amino acids. In the example below, the goal protein shape is
+a simple line.
 
 
-.. image:: ../../../shared/building_and_running_chapters/Images/ProteinBuilder.png
+.. image:: ../../../shared/images/ProteinBuilder.png
   :alt: Image of the protein builder
 
 .. _Create the Protein Builder:
@@ -16,11 +20,13 @@ The Protex protein builder asks students to create specified protein shapes by s
 Create the Protein Builder Tool
 ********************************
 
-To create the protein builder:
+To create the protein builder, follow these steps.
 
-#. Under **Add New Component**, click **Problem**, and then click **Blank Advanced Problem**.
+#. Under **Add New Component**, click **Problem**, and then click **Blank
+   Advanced Problem**.
 #. In the component that appears, click **Edit**.
-#. In the component editor, paste the Problem component code from below.
+#. In the component editor, paste the problem component code from the section
+   that follows.
 #. Make any changes that you want, and then click **Save**.
 
 .. _Protein Builder Code:
@@ -32,7 +38,7 @@ Protein Builder Tool Code
 .. code-block:: xml
 
   <problem>
-      <p>The protein builder allows you string together the building blocks of proteins, amino acids, and see how that string will form into a structure. You are presented with a goal protein shape, and your task is to try to re-create it. In the example below, the shape that you are asked to form is a simple line.</p> 
+      <p>The protein builder allows you string together the building blocks of proteins, amino acids, and see how that string will form into a structure. You are presented with a goal protein shape, and your task is to try to re-create it. In the example below, the shape that you are asked to form is a simple line.</p>
      <p>Be sure to click "Fold" to fold your protein before you click "Check".</p>
 
   <script type="loncapa/python">
@@ -45,7 +51,7 @@ Protein Builder Tool Code
     return ans["protex_answer"]=="CORRECT"
 
   </script>
- 
+
     <text>
       <customresponse cfn="protex_grader">
         <designprotein2dinput width="855" height="500" target_shape="W;W;W;W;W;W;W"/>
@@ -64,9 +70,13 @@ Protein Builder Tool Code
   </problem>
 
 In this code:
- 
-* **width** and **height** specify the dimensions of the application, in pixels.
-* **target_shape** lists the amino acids that, combined in the order specified, create the shape you've asked students to create. The list can only include the following letters, which correspond to the one-letter code for each amino acid. (This list appears in the upper-left corner of the protein builder.)
+
+* **width** and **height** specify the dimensions of the application, in
+  pixels.
+* **target_shape** lists the amino acids that, combined in the order specified,
+  create the shape you've asked students to create. The list can only include
+  the following letters, which correspond to the one-letter code for each amino
+  acid. (This list appears in the upper-left corner of the protein builder.)
 
   .. list-table::
      :widths: 15 15 15 15
