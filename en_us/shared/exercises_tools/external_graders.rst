@@ -6,6 +6,8 @@ External Grader
 
 .. _External Grader Overview:
 
+.. note:: EdX offers provisional support for this tool.
+
 *******************
 Overview
 *******************
@@ -40,7 +42,7 @@ submissions. When a learner enters Python code for the problem and selects
 tests, the grader returns the score and a string indicating that the solution
 is correct.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/external-grader-correct.png
+.. image:: ../../../shared/images/external-grader-correct.png
  :alt: Image of a learner's view of a programming problem that uses an external grader, with a correct result.
  :width: 600
 
@@ -49,8 +51,8 @@ by selecting **See full output**. This can be particularly useful when the
 solution is not correct and you want to return information about the failed
 tests. For example:
 
-.. image:: ../../../shared/building_and_running_chapters/Images/external-grader-incorrect.png
- :alt: Image of a learner's view of a programming problem that uses an external grader, with an incorrect result 
+.. image:: ../../../shared/images/external-grader-incorrect.png
+ :alt: Image of a learner's view of a programming problem that uses an external grader, with an incorrect result
 
 .. _External Graders and XQueue:
 
@@ -100,12 +102,12 @@ The XQueue Name
 ==================
 
 Your course will use a specific XQueue name. You use this name when you create
-problems in Studio. 
+problems in Studio.
 
 EdX partners who are using external graders should use the base URL
 ``https://xqueue.edx.org`` as the XQueue name.
 
-If you are an edX partner, contact your edX program manager for more
+If you are an edX partner, contact your edX partner manager for more
 information. Because edX hosts many XQueues for different courses, you must use
 the exact XQueue name in your problems, as described in  :ref:`Create a Code
 Response Problem`.
@@ -119,7 +121,7 @@ The XQueue Interface
 The learner submission sent from XQueue to the grader, and the response sent
 from the grader to XQueue, are JSON objects, as described below.
 
-.. note:: 
+.. note::
   XQueue does not send the the learner ID to the external grader. Your grader
   cannot access IDs or associate learner IDs with submissions.
 
@@ -145,7 +147,7 @@ For example::
  {
    "xqueue_body":
    "{
-     "student_response": "def double(x):\n return 2*x\n", 
+     "student_response": "def double(x):\n return 2*x\n",
      "grader_payload": "problem_2"
     }"
  }
@@ -162,10 +164,10 @@ the tests create.
 In the following example, the learner's submission was correct, the score was
 1, and the tests created a brief message::
 
- { 
-  "correct": true, 
-  "score": 1, 
-  "msg": "<p>The code passed all tests.</p>" 
+ {
+  "correct": true,
+  "score": 1,
+  "msg": "<p>The code passed all tests.</p>"
  }
 
 .. _Building an External Grader:
@@ -174,8 +176,8 @@ In the following example, the learner's submission was correct, the score was
 Building an External Grader
 ****************************
 
-Course staff, not edX, is responsible for building and deploying the external
-grader.
+The course team, not edX, is responsible for building and deploying the
+external grader.
 
 In addition to creating tests that are specific to the problems you use in your
 course, there are four areas that you must plan for when you build an external
@@ -232,7 +234,7 @@ edX operations, when the grader fails. In collaboration with edX, you must
 develop a procedure to quickly identify the cause of failure, which can be your
 grader or edX's XQueue.
 
-Contact your edX program manager for more information.
+Contact your edX partner manager for more information.
 
 If you know the grader will be unavailable at a certain time for maintenance,
 you should :ref:`add a course update <Add a Course Update>`.
@@ -285,11 +287,11 @@ external grader::
 Note the following details about the XML definition.
 
 * **queuename**: The value of the queuename attribute of the ``<coderesponse>``
-  element maps to an XQueue. Partners should contact their edX program manager
+  element maps to an XQueue. Partners should contact their edX partner manager
   for more information. You must use this exact name in order for the problem
   to communicate with the correct XQueue.
 
-  .. note:: 
+  .. note::
     For edX partners, the base URL that graders must access is
     ``https://xqueue.edx.org``.
 

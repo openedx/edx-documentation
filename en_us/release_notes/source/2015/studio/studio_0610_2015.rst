@@ -17,5 +17,4 @@ can be used to advertise your organization, promote an XSeries, publicize an
 event, and so on.
 
 For information about adding a pre-roll video and its transcripts to your
-course, see `Adding a Pre-Roll Video to Your edX Course`_ in *Building and
-Running an edX Course*.
+course, see :ref:`partnercoursestaff:Adding a Pre-Roll Video` in *Building and Running an edX Course*.

@@ -40,11 +40,11 @@ You can also use the menu at the top of the page. Select **Find Courses**.
       :alt: Mobile "My Courses" page with an arrow pointing to the menu in the
         upper left corner.
 
-To sign up for a course, click **Enroll**.
+To sign up for a course, select **Enroll**.
 
 Almost all of the edX courses are offered on the edX mobile app. EdX is
-continuing to add more mobile courses, so check back often for newly available
-courses.
+continuing to add more mobile courses, so check back regularly for newly
+available courses.
 
 ========================================
 How do I unenroll from a course?

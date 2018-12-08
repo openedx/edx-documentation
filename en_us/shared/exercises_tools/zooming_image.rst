@@ -4,9 +4,11 @@
 Zooming Image Tool
 ##################
 
+.. note:: EdX offers full support for this tool.
+
 You may want to present information to your students as an image. If your image is very large or very detailed, students may not be able to see all the information in the image. You can use the zooming image tool to enlarge areas of your image as the student moves the mouse over the image, as in the example below.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/Zooming_Image.png
+.. image:: ../../../shared/images/Zooming_Image.png
   :alt: Example zooming image tool showing a chemistry exercise
 
 ***********************************
@@ -42,7 +44,7 @@ Create a Zooming Image Tool
      For example, your file name and path may be **/static/Image1.jpg**.
 
    - Replace the following file name and path with the name and path of the image that you want to appear when the page opens.
-     
+
      **https://studio.edx.org/c4x/edX/DemoX/asset/pathways_overview_01.png**
 
      For example, your file name and path may be **/static/Image2.jpg**.
@@ -57,7 +59,7 @@ Create a Zooming Image Tool
 
    The HTML in your zooming image tool may resemble the following.
 
-   .. image:: ../../../shared/building_and_running_chapters/Images/ZoomingImage_Modified.png
+   .. image:: ../../../shared/images/ZoomingImage_Modified.png
      :alt: Example HTML for a zooming image tool
 
 #. Click **Save** to save the HTML component.

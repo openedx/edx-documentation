@@ -1,3 +1,5 @@
+.. _i18n:
+
 ######################################
 Internationalization coding guidelines
 ######################################
@@ -73,7 +75,7 @@ The code samples below show how to do each of these things for:
 * `JavaScript files`_
 * `Coffeescript files`_
 * `Underscore template files`_
-* `Other kinds of code`_
+* `Other types of content`_
 
 Note that you have to take into account not just the programming language involved,
 but the type of file: JavaScript embedded in an HTML Mako template is treated differently
@@ -111,7 +113,24 @@ instead::
     message = _("Welcome!")
 
 "Translators" comments will work in these places too, so don't be shy about
-providing clarifying comments to the translators.
+providing clarifying comments to the translators. When writing translators
+comments though, beware of a quirk in the Python parser: the message string
+has to be on the very next line after the comment.  This won't do what you
+want::
+
+    # Translators: this comment won't be properly harvested!
+    message = _(
+        "Long message "
+        "on a few lines."
+    )
+
+Do this instead::
+
+    message = _(
+        # Translators: this comment will be properly harvested!
+        "Long message "
+        "on a few lines."
+    )
 
 
 Django template files
@@ -135,10 +154,49 @@ In Mako template files (`templates/*.html`), you can use all of the tools
 available to python programmers. Just make sure to import the relevant
 functions first. Here's a Mako template example::
 
-    <%! from django.utils.translation import ugettext as _ %>
+    <%! from util.markup import ugettext as _ %>
  
-    ## Translators: message to the translator
+    ## Translators: message to the translator. This comment may
+    ## wrap on to multiple lines if needed, as long as they are
+    ## lines directly above the marked up string.
     ${_("Welcome!")}
+
+Make sure that all Mako comments, including translators comments, begin
+with *two* pound signs (#).
+
+All translated strings should be text, not HTML. This means that for display 
+in an HTML page, they must be HTML escaped. Our versions of ugettext and 
+ungettext escape HTML by default, which means that the HTML 
+tags in the translated string will show up as angle brackets (i.e. not an 
+HTML tag). You can use string formatting to insert HTML into a translated 
+string.::
+
+    <%! from util.markup import HTML, ugettext as _ %>
+
+    ${_("Click over to {link_start}the home page{link_end}.").format(
+            link_start=HTML('<a href="/home">'),
+            link_end=HTML('</a>'),
+        )}
+
+You can nest the formatting further.  The rule is, any string which is HTML
+should be wrapped in the HTML() function, and any string which is not wrapped
+in HTML() will be escaped as needed to be displayed as regular text.::
+
+    ${_("Click over to {link_start}the home page{link_end}.").format(
+            link_start=HTML('<a href="{}">').format(home_page_link),
+            link_end=HTML('</a>'),
+        )}
+
+If you have a variable containing HTML, use the ``|n,encode`` filter to insert 
+it into the page without escaping.::
+
+    ${welcome_html | n,encode}
+
+If you have a variable containing nothing but plain text (i.e. no HTML), use the
+``| h`` filter to escape it and insert it into the page.::
+
+    ${welcome | h}
+
 
 JavaScript files
 ================
@@ -220,9 +278,22 @@ For example::
 Note: it is recommended that you use ``<%-`` for all translated strings
 as this will HTML escape the string before including it in the page. This
 ensures that translations are free to use non-HTML characters.
+Important note: Due to the bug in the underlying underscore extraction library,
+when ```interpolate``` and ```gettext``` are in the same line, the library will
+not work properly; in such situation, the library will just extract the word 
+```gettext``` rather than the actual string need to be extracted. So please make 
+sure to separate ```interpolate``` and ```gettext``` into two different lines, 
+just like the above example does.
 
-Other kinds of code
-===================
+Currently, translators comments are not supported in Underscore template files,
+as the underlying library does not parse them out. We recommend you add them in
+using standard comment syntax, so that when work is done to support these comments,
+we already have them defined. Additionally, translators comments in the code
+will enable us to answer questions from translators.
+
+
+Other types of content
+======================
 
 We have not yet established guidelines for internationalizing the following.
 

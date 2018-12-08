@@ -1,84 +1,120 @@
 ####################################
-edX Website
+EdX Website
 ####################################
 
+The following information describes what is new on edx.org and Edge.
+
+.. contents::
+  :local:
+  :depth: 1
+
+**************************
+6 January 2016
+**************************
+
+.. include:: 2016/website/website_0106_2016.rst
+
+**************************
+8 December 2015
+**************************
+
+.. include:: 2015/website/website_1208_2015.rst
+
+**************************
+25 August 2015
+**************************
+
+.. include:: 2015/website/website_0825_2015.rst
+
+**************************
+19 August 2015
+**************************
+
+.. include:: 2015/website/website_0818_2015.rst
+
+**************************
+12 August 2015
+**************************
+
+.. include:: 2015/website/website_0812_2015.rst
+
+**************************
+8 July 2015
+**************************
+
+.. include:: 2015/website/website_0708_2015.rst
+
 *********************
-June 16, 2015
+16 June 2015
 *********************
 
 .. include:: 2015/website/website_0616_2015.rst
 
 *********************
-June 2, 2015
+2 June 2015
 *********************
 
 .. include:: 2015/website/website_0602_2015.rst
 
 *********************
-May 28, 2015
+28 May 2015
 *********************
 
 .. include:: 2015/website/website_0528_2015.rst
 
 *********************
-May 5, 2015
+5 May 2015
 *********************
 
 .. include:: 2015/website/website_0505_2015.rst
 
 ******************
-April 22, 2015
+22 April 2015
 ******************
 
 .. include:: 2015/website/website_0422_2015.rst
 
-
 ******************
-April 15, 2015
+15 April 2015
 ******************
 
 .. include:: 2015/website/website_0415_2015.rst
 
 ******************
-March 25, 2015
+25 March 2015
 ******************
 
 .. include:: 2015/website/website_0325_2015.rst
 
-
 ******************
-March 2, 2015
+2 March 2015
 ******************
 
 .. include:: 2015/website/website_0302_2015.rst
 
-
 ******************
-February 12, 2015
+12 February 2015
 ******************
 
 .. include:: 2015/website/website_0212_2015.rst
 
-
 ******************
-February 4, 2015
+4 February 2015
 ******************
 
 .. include:: 2015/website/website_0204_2015.rst
 
-
 ******************
-January 28, 2015
+28 January 2015
 ******************
 
 .. include:: 2015/website/website_0128_2015.rst
 
-
 ***************
-January 8, 2015
+8 January 2015
 ***************
 
 .. include:: 2015/website/website_0108_2015.rst
 
 
-.. include:: links.rst
+.. include:: ../../links/links.rst

@@ -9,4 +9,3 @@ Getting Started
 
    dashboard_acctsettings_profile
    get_started
-   accessibility

@@ -5,5 +5,5 @@ answer, and the percentage who submitted the correct or incorrect answer, is
 available at the section, subsection, and unit level. The actual answers that
 students submit for each ungraded question are also available for review.
 
-For more information, see the new `Ungraded Problem Submissions`_ section in
-the *Using edX Insights* guide.
+For more information, see the new :ref:`insights:Performance_Ungraded`
+section in the *Using edX Insights* guide.

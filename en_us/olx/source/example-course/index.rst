@@ -15,7 +15,7 @@ as how the courseware is defined.
 The files for `edX-Insider`_ are stored in GitHub, so you can explore how the
 course is made for yourself.
 
-See the following chapters for more information.
+For more information, see the following sections.
 
 .. toctree::
    :maxdepth: 2
@@ -23,4 +23,4 @@ See the following chapters for more information.
    insider-structure
    insider-course-xml
 
-.. include:: ../links.rst
+.. include:: ../../../links/links.rst

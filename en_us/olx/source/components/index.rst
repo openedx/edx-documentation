@@ -4,7 +4,7 @@
 Course Components (XBlocks)
 #################################
 
-Use the chapters in this section to create course components. 
+Use the topics in this section to create course components.
 
 .. toctree::
    :maxdepth: 2
@@ -13,17 +13,17 @@ Use the chapters in this section to create course components.
    discussion-components
    video-components
    annotation
+   completion
    conditional_module
    full_screen_image
    google_calendar
    google_docs
    google_hangout
-   graphical_slider_tool
    iframe
    lti_component
    open_response_assessments/index
    periodic_table
    poll
-   word_cloud 
+   word_cloud
    zooming_image
    recommenderXBlock

@@ -1,3 +1,5 @@
+.. _edX Style Guidelines:
+
 ###########################
 edX Style Guidelines
 ###########################

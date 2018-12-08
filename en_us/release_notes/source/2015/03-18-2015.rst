@@ -1,11 +1,14 @@
 
 ###################################
-March 18, 2015
+18 March 2015
 ###################################
 
 The following information reflects what is new in the edX Platform as of
-March 18, 2015. 
+18 March 2015. 
 
+.. contents::
+  :local:
+  :depth: 2
 
 **************************
 Analytics
@@ -35,5 +38,10 @@ Studio
 .. include:: studio/studio_0318_2015.rst
 
 
+**************************
+Documentation
+**************************
 
-.. include:: ../links.rst
+.. include:: documentation/doc_0318_2015.rst
+
+.. include:: ../../../links/links.rst

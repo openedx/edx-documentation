@@ -1,0 +1,1 @@
+.. include:: ../../../shared/reaching_learners/design_for_mobile.rst

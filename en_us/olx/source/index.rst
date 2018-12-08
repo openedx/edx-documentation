@@ -1,8 +1,11 @@
+.. _edX Open Learning XML Guide:
+
 ############################
 edX Open Learning XML Guide
 ############################
 
-This document is intended for those developing edX courses through Open Learning XML (OLX).
+This document is intended for those interested in using Open Learning XML (OLX)
+to develop edX courses.
 
 .. toctree::
    :numbered:
@@ -25,6 +28,3 @@ This document is intended for those developing edX courses through Open Learning
    studio-example/index
    drafts/index
    glossary
-
-
- 

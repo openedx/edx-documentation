@@ -8,11 +8,17 @@ EdX discussion data is stored as collections of JSON documents in a MongoDB
 database. MongoDB is a document-oriented, NoSQL database system. Documentation
 can be found at the mongodb_ web site.
 
-..  _mongodb: http://docs.mongodb.org/manual/
+.. contents::
+  :local:
+  :depth: 2
+
+************************************
+Data File and Object Overview
+************************************
 
 In the data package, discussion data is delivered in a .mongo file, identified
-by organization and course, in this format:
-edX-*organization*-*course*-*source*.mongo.
+by organization and course, in the format
+``{org}-{course}-{run}-{site}.mongo``.
 
 The primary collection that holds all of the discussion posts written by users
 is "contents". Two different types of objects are stored, representing the
@@ -26,7 +32,7 @@ three levels of interactions that users can have in a discussion.
   a ``Comment``. Any further contributions made to a specific response are also
   in ``Comment`` objects.
 
-A sample of the field/value pairs that are in the mongo file, and descriptions
+A sample of the field/value pairs that are in the .mongo file, and descriptions
 of the attributes that these two types of objects share and that are specific
 to each type, follow.
 
@@ -38,7 +44,7 @@ Samples
 *********
 
 Two sample rows, or JSON documents, from a ``.mongo`` file of discussion data
-follow. 
+follow.
 
 ----------------------------------------
 CommentThread Document Example
@@ -76,13 +82,13 @@ more readable is produced.
   "anonymous": false,
   "anonymous_to_peers": false,
   "at_position_list": [
- 
+
   ],
   "author_id": "NNNNNNN",
   "author_username": "AAAAAAAAAA",
-  "body": "Welcome to the edX101 forum!\n\nThis forum will be regularly 
-  monitored by edX. Please post your questions and comments here. When 
-  asking a question, don't forget to search the forum to check whether 
+  "body": "Welcome to the edX101 forum!\n\nThis forum will be regularly
+  monitored by edX. Please post your questions and comments here. When
+  asking a question, don't forget to search the forum to check whether
   your question has already been answered.\n\n",
   "closed": false,
   "comment_count": 0,
@@ -95,7 +101,7 @@ more readable is produced.
     "$date": 1358134464424
   },
   "tags_array": [
- 
+
   ],
   "thread_type": "discussion",
   "title": "Welcome to the edX101 forum!",
@@ -105,7 +111,7 @@ more readable is produced.
   "votes": {
     "count": 1,
     "down": [
- 
+
     ],
     "down_count": 0,
     "point": 1,
@@ -137,7 +143,7 @@ Comment Document Example
  updated_at" : { "$date" : 1390759901966 }, "created_at" : { "$date" :
  1390759901966 } }
 
-When pretty printed, this comment looks like this:
+When pretty printed, this comment has the following format.
 
 .. code-block:: json
 
@@ -147,10 +153,10 @@ When pretty printed, this comment looks like this:
   },
   "votes": {
     "up": [
- 
+
     ],
     "down": [
- 
+
     ],
     "up_count": 0,
     "down_count": 0,
@@ -159,20 +165,20 @@ When pretty printed, this comment looks like this:
   },
   "visible": true,
   "abuse_flaggers": [
- 
+
   ],
   "historical_abuse_flaggers": [
- 
+
   ],
   "parent_ids": [
- 
+
   ],
   "at_position_list": [
- 
+
   ],
-  "body": "I'm hoping this Demonstration course will help me figure out how 
-  to take the course I enrolled in. I am just auditing the course, but I 
-  want to benefit from it as much as possible, as I am extremely interested 
+  "body": "I'm hoping this Demonstration course will help me figure out how
+  to take the course I enrolled in. I am just auditing the course, but I
+  want to benefit from it as much as possible, as I am extremely interested
   in it.\n",
   "course_id": "edX\/DemoX\/Demo_Course",
   "_type": "Comment",
@@ -203,12 +209,14 @@ When pretty printed, this comment looks like this:
 Shared Fields
 *****************
 
-Descriptions of the fields that are present for both ``CommentThread`` and ``Comment`` objects follow.
+Descriptions of the fields that are present for both ``CommentThread`` and
+``Comment`` objects follow.
 
 --------------------
 _id
 --------------------
-  The 12-byte MongoDB unique ID for this collection. Like all MongoDB IDs, the IDs are monotonically increasing and the first four bytes are a timestamp. 
+  The 12-byte MongoDB unique ID for this collection. Like all MongoDB IDs, the
+  IDs are monotonically increasing and the first four bytes are a timestamp.
 
 --------------------
 _type
@@ -218,27 +226,33 @@ _type
 --------------------
 anonymous
 --------------------
-  If true, this ``CommentThread`` or ``Comment`` displays in the user interface as written by "anonymous", even to those who have course staff or discussion administration roles in the course. 
+  If true, this ``CommentThread`` or ``Comment`` displays in the user interface
+  as written by "anonymous", even to course team members and discussion team
+  members.
 
 --------------------
 anonymous_to_peers
 --------------------
-  If true, this ``CommentThread`` or ``Comment`` displays in the user interface as written by "anonymous" to students, but  course staff and discussion administrators see the author's username. 
+  If true, this ``CommentThread`` or ``Comment`` displays in the user interface
+  as written by "anonymous" to students, but members of the course team and the
+  discussion team can see the author's username.
 
 --------------------
 at_position_list
 --------------------
-  No longer used. Child comments (replies) are sorted by their ``created_at`` timestamp only. 
+  No longer used. Child comments (replies) are sorted by their ``created_at``
+  timestamp only.
 
 --------------------
 author_id
 --------------------
-  Identifies the user who wrote this. Corresponds to the user IDs stored in the MySQL database as ``auth_user.id``.
+  Identifies the user who wrote this. Corresponds to the user IDs stored in the
+  MySQL database as ``auth_user.id``.
 
 --------------------
 author_username
 --------------------
-  The username of the person who wrote the discussion post or comment. 
+  The username of the person who wrote the discussion post or comment.
 
 --------------------
 body
@@ -248,9 +262,11 @@ body
 --------------------
 course_id
 --------------------
-  The full course_id of the course that this comment was made in, including org and run. This value can be seen in the URL when browsing the courseware section. Example: ``BerkeleyX/Stat2.1x/2013_Spring``.
+  The full course_id of the course that this comment was made in, including org
+  and run. This value can be seen in the URL when browsing the courseware
+  section. Example: ``BerkeleyX/Stat2.1x/2013_Spring``.
 
-.. 12 Feb 14, Sarina: not yet relevant but with splitmongo changes course_id conventions will change. may be worth discussing with Don et al as to when we expect these changes to land and how to document.  
+.. 12 Feb 14, Sarina: not yet relevant but with splitmongo changes course_id conventions will change. may be worth discussing with Don et al. as to when we expect these changes to land and how to document.
 
 --------------------
 created_at
@@ -269,22 +285,31 @@ updated_at
 --------------------
 votes
 --------------------
-  Both ``CommentThread`` and ``Comment`` objects support voting. In the user interface, students can vote for posts (``CommentThread`` objects) and for responses, but not for the third-level comments made on responses. All ``Comment`` objects still have this attribute, even though there is no way to actually vote on the comment-level items in the UI. This attribute is a dictionary that has the following items inside:
+  Both ``CommentThread`` and ``Comment`` objects support voting. In the user
+  interface, students can vote for posts (``CommentThread`` objects) and for
+  responses, but not for the third-level comments made on responses. All
+  ``Comment`` objects still have this attribute, even though there is no way to
+  actually vote on the comment-level items in the UI. This attribute is an
+  object that has the following items inside.
 
   * up = list of User IDs that up-voted this comment or thread.
-  * down = list of User IDs that down-voted this comment or thread (no longer used).
+  * down = (no longer used) list of User IDs that down-voted this comment or
+    thread.
   * up_count = total upvotes received.
   * down_count = No longer used. Total downvotes received.
   * count = total votes cast.
   * point = net vote, now always equal to up_count.
 
-A user only has one vote per ``Comment`` or ``CommentThread``. Though it's still written to the database, the UI no longer displays an option to downvote anything.
+A user only has one vote per ``Comment`` or ``CommentThread``. Although a
+downvote can still be written to the database, the UI no longer displays a
+downvote option.
 
 **************************
 CommentThread Fields
 **************************
 
-The following fields are specific to ``CommentThread`` objects. Each thread in the discussion forums is represented by one ``CommentThread``.
+The following fields are specific to ``CommentThread`` objects. Each thread in
+the discussion forums is represented by one ``CommentThread``.
 
 --------------------
 closed
@@ -294,7 +319,10 @@ closed
 --------------------
 comment_count
 --------------------
-  The number of comment replies in this thread. This includes all responses and replies, but does not include the original post that started the thread. So for this exchange::
+  The number of comment replies in this thread. This includes all responses and
+  replies, but does not include the original post that started the thread. In
+  this example, the ``comment_count`` for the initial ``CommentThread`` is
+  **4**.
 
     CommentThread: "What's a good breakfast?"
       * Comment: "Just eat cereal!"
@@ -302,24 +330,30 @@ comment_count
         * Comment: "A Loco Moco? Only if you want a heart attack!"
         * Comment: "But it's worth it! Just get a spam musubi on the side."
 
-  The ``comment_count`` for this ``CommentThread`` is **4**.
-
 --------------------
 commentable_id
 --------------------
-  A course team can attach a discussion to any piece of content in the course, or to top level categories like "General" and "Troubleshooting". When the discussion is a top level category it is specified in the course's policy file, and the ``commentable_id`` is formatted like this: "i4x-edX-edX101-course-How_to_Create_an_edX_Course". When the discussion is a specific component in the course, the ``commentable_id`` identifies that component: "d9f970a42067413cbb633f81cfb12604".
+  A course team can attach a discussion to any piece of content in the course,
+  or to top level categories like "General" and "Troubleshooting". When the
+  discussion is a top level category it is specified in the course's policy
+  file, and the ``commentable_id`` uses the format
+  ``i4x-{org}-{course}-{run}-{name}``. When the discussion is a specific
+  component in the course, the ``commentable_id`` identifies that component;
+  for example, "d9f970a42067413cbb633f81cfb12604".
 
 --------------------
 last_activity_at
 --------------------
-  Timestamp in UTC indicating the last time there was activity in the thread (new posts, edits, etc). Closing the thread does not affect the value in this field. 
+  Timestamp in UTC indicating the last time there was activity in the thread
+  (new posts, edits, etc). Closing the thread does not affect the value in this
+  field.
 
 .. FOR-482 open to research inconsistency between the data actually in the data package and this example and description.
 
 --------------------
 tags_array
 --------------------
-  No longer used. 
+  No longer used.
 
   **History**: Intended to be a list of user definable tags.
 
@@ -331,7 +365,7 @@ title
 --------------------
 thread_type
 --------------------
-  Identifies the type of post as a "question" or "discussion".  
+  Identifies the type of post as a "question" or "discussion".
 
   **History**: Added 4 Sep 2014.
 
@@ -339,9 +373,13 @@ thread_type
 Comment Fields
 ********************
 
-The following fields are specific to ``Comment`` objects. A ``Comment`` is either a response to a ``CommentThread`` (such as an answer to the question), or a reply to another ``Comment`` (a comment about somebody's answer). 
+The following fields are specific to ``Comment`` objects. A ``Comment`` is
+either a response to a ``CommentThread`` (such as an answer to the question),
+or a reply to another ``Comment`` (a comment about somebody's answer).
 
-**History**: It used to be the case that ``Comment`` replies could nest much more deeply, but this was later capped at just these three levels (post, response, comment) much in the way that StackOverflow does.
+**History**: In earlier versions of the edX platform, ``Comment`` replies could
+nest much more deeply. However, edX later restricted participation to three
+levels (post, response, comment), similar to the practice on StackOverflow.
 
 --------------------
 visible
@@ -351,12 +389,17 @@ visible
 --------------------
 abuse_flaggers
 --------------------
-  Records the user id of each user who selects the **Report Misuse** flag for a ``Comment`` in the user interface. Stores an array of user ids if more than one user flags the ``Comment``. This is empty if no users flag the ``Comment``. 
+  Records the user ID of each user who selects the **Report Misuse** flag for a
+  ``Comment`` in the user interface. Stores an array of user IDs if more than
+  one user flags the ``Comment``. This is empty if no users flag the
+  ``Comment``.
 
 ----------------------------------------
 historical_abuse_flaggers
 ----------------------------------------
-  If a discussion moderator removes the **Report Misuse** flag from a ``Comment``, all user IDs are removed from the ``abuse_flaggers`` field and then written to this field.
+  If a discussion moderator removes the **Report Misuse** flag from a
+  ``Comment``, all user IDs are removed from the ``abuse_flaggers`` field and
+  then written to this field.
 
 --------------------
 endorsed
@@ -383,22 +426,33 @@ endorsement
 --------------------
 comment_thread_id
 --------------------
-  Identifies the ``CommentThread`` that the ``Comment`` is a part of. 
+  Identifies the ``CommentThread`` that the ``Comment`` is a part of.
 
 --------------------
 parent_id
 --------------------
-  Applies only to comments made to a response. In the example given for ``comment_count`` above, "A Loco Moco? Only if you want a heart attack!" is a comment that was made to the response, "Try a Loco Moco, it's amazing!"
+  Applies only to comments made to a response. In the example given for
+  ``comment_count`` above, "A Loco Moco? Only if you want a heart attack!" is a
+  comment that was made to the response, "Try a Loco Moco, it's amazing!"
 
-  The ``parent_id`` is the ``_id`` of the response-level ``Comment`` that this ``Comment`` is a reply to. Note that this field is only present in a ``Comment`` that is a reply to another ``Comment``; it does not appear in a ``Comment`` that is a reply to a ``CommentThread``.
+  The ``parent_id`` is the ``_id`` of the response-level ``Comment`` that this
+  ``Comment`` is a reply to. Note that this field is only present in a
+  ``Comment`` that is a reply to another ``Comment``; it does not appear in a
+  ``Comment`` that is a reply to a ``CommentThread``.
 
 --------------------
 parent_ids
 --------------------
-  The ``parent_ids`` field appears in all ``Comment`` objects, and contains the ``_id`` of all ancestor comments. Since the UI now prevents comments from being nested more than one layer deep, it will only ever have at most one element in it. If a ``Comment`` has no parent, it is an empty list.
+  The ``parent_ids`` field appears in all ``Comment`` objects, and contains the
+  ``_id`` of all ancestor comments. Since the UI now prevents comments from
+  being nested more than one layer deep, it will only ever have at most one
+  element in it. If a ``Comment`` has no parent, it is an empty list.
 
 --------------------
 sk
 --------------------
-  A randomly generated number that drives a sorted index to improve online performance.
+  A randomly generated number that drives a sorted index to improve online
+  performance.
 
+
+.. include:: ../../../links/links.rst

@@ -28,5 +28,4 @@ files.
 
 For a primer on XML, see the `Wikipedia XML entry`_ . 
 
-
-.. include:: links.rst
+.. include:: ../../links/links.rst

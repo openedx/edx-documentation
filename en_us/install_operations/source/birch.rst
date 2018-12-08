@@ -1,26 +1,30 @@
-.. include:: links.rst
-
 .. _Open edX Birch Release:
 
 ########################################
 Open edX Birch Release
 ########################################
 
-.. contents:: Chapter Contents:
+This section describes how to install the Open edX Birch release.
 
+.. contents::
+ :local:
+ :depth: 1
+
+.. note:: 
+  Now that the Open edX Cypress release is available, edX no longer
+  supports the Birch release.
 
 ******************************
 What's Included in Birch
 ******************************
 
 The Open edX Birch release contains several new features for students, course
-staff, and developers.  See the Open edX Release Notes for more details.
+teams, and developers.  See the Open edX Release Notes for more details.
 
 .. Note::
  There are several new features in the Birch release that are available, but
  not configured in new installations.  For details, see the following topics.
 
- * :ref:`Add the Google Drive and Google Calendar XBlock`.
  * :ref:`Enable Course Prerequisites`
  * :ref:`Enable Entrance Exams`
 
@@ -28,10 +32,10 @@ staff, and developers.  See the Open edX Release Notes for more details.
 What is the Birch Git Tag?
 ******************************
 
-The Git tag for the Birch release is **named-release/birch**. You use this tag to identify the version of Open edX code that is the Birch release.
+The Git tag for the Birch release is **named-release/birch.2**. You use this tag
+to identify the version of Open edX code that is the Birch release.
 
-The following Open edX Git repositories have the Git tag **named-
-release/birch**:
+The following Open edX Git repositories have the Git tag **named-release/birch.2**:
 
 * edx-platform
 * configuration
@@ -79,10 +83,8 @@ Vagrant box directly or by running ``vagrant up`` when installing
 :ref:`Devstack <Installing the Open edX Developer Stack>` or
 :ref:`Fullstack <Installing Open edX Fullstack>`.
 
-Use one of the following links to download the box directly.
-
-* `Birch Devstack`_
-* `Birch Fullstack`_
+See the `Open edX Releases Wiki page`_ to access the latest Vagrant
+boxes.
 
 See `Vagrant's documentation on boxes`_ for more information.
 
@@ -98,8 +100,8 @@ connection is temporarily lost while you are downloading the Vagrant box
 through BitTorrent, you can later continue the download without data loss or
 corruption.
 
-* `Birch Devstack BitTorrent`_
-* `Birch Fullstack BitTorrent`_
+See the `Open edX Releases Wiki page`_ to access the latest Vagrant
+boxes.
 
 See `BitTorrent`_ for more information.
 
@@ -110,17 +112,13 @@ Vagrant before continuing with the installation process.
 
    .. code-block:: bash
 
-     $ vagrant box add /path-to-downloaded-box/vagrant-images-20150224-birch-
-     devstack.box --name birch-devstack
+     $ vagrant box add /path-to-downloaded-box/vagrant-images-birch-2-devstack.box --name birch-devstack-2
 
 * For Fullstack installations, run the following command.
 
    .. code-block:: bash
 
-     $ vagrant box add /path-to-downloaded-box/vagrant-images-20150224-birch-
-     fullstack.box --name birch-fullstack
-
-.. confirm names
+     $ vagrant box add /path-to-downloaded-box/vagrant-images-birch-2-fullstack.box --name birch-fullstack-2
 
 ============================================
 Set the OPENEDX_RELEASE Environment Variable
@@ -131,7 +129,7 @@ Before installing the Vagrant box, you must set the value of the
 
 .. code-block:: bash
 
-  export OPENEDX_RELEASE="named-release/birch"
+  export OPENEDX_RELEASE="named-release/birch.2"
 
 
 =========================
@@ -165,9 +163,9 @@ Birch release, using the ``migrate.sh`` script in the configuration repository,
 On the computer or virtual machine running the Aspen release of Open edX, run
 the upgrade script for your type of installation:
 
-* For Devstack, run ``./migrate.sh -c devstack``.
+* For Devstack, run ``./migrate.sh -t named-release/birch.2 -c devstack``.
 
-* For Fullstack, run ``./migrate.sh -c fullstack``.
+* For Fullstack, run ``./migrate.sh -t named-release/birch.2 -c fullstack``.
 
 * You can also run ``./migrate.sh -h`` to see which other options the script accepts.
 
@@ -176,3 +174,5 @@ cleans up extra files and directories when it finishes running.
 
 After upgrading Open edX to the Birch release, run the edX Platform and verify
 that course content and data was migrated correctly.
+
+.. include:: ../../links/links.rst

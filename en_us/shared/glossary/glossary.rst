@@ -4,9 +4,9 @@
 Glossary
 ############
 
-:ref:`A` - :ref:`C` - :ref:`D` - :ref:`E` - :ref:`F` 
-- :ref:`G` - :ref:`H` - :ref:`I` - :ref:`K` - :ref:`L` 
-- :ref:`M` - :ref:`N` - :ref:`O` - :ref:`P` - :ref:`R` 
+:ref:`A` - :ref:`C` - :ref:`D` - :ref:`E` - :ref:`F`
+- :ref:`G` - :ref:`H` - :ref:`I` - :ref:`K` - :ref:`L`
+- :ref:`M` - :ref:`N` - :ref:`O` - :ref:`P` - :ref:`R`
 - :ref:`S` - :ref:`T` - :ref:`V` - :ref:`W` - :ref:`XYZ<X>`
 
 .. _A:
@@ -38,7 +38,7 @@ A
   For more information, see `Creating Exercises and Tools`_.
 
 .. _Advanced Editor_g:
- 
+
 **Advanced Editor**
 
   An XML-only editor in a problem component that allows you to can create and
@@ -46,7 +46,7 @@ A
 
 
 .. _Assignment Type:
- 
+
 **Assignment Type**
 
   The category of graded student work, such as homework, exams, and exercises.
@@ -70,7 +70,7 @@ C
   XBlocks. An open response assessment is an example of a non-capa problem type.
 
 .. _Certificate:
- 
+
 **Certificate**
 
   A document issued to an enrolled student who successfully completes a course.
@@ -82,7 +82,7 @@ C
   See :ref:`Section<S>`.
 
 .. _Checkbox_g:
- 
+
 **Checkbox Problem**
 
   A problem that prompts the student to select one or more options from a list
@@ -90,7 +90,7 @@ C
 
 
 .. _Chemical Equation_g:
- 
+
 **Chemical Equation Response Problem**
 
   A problem that allows the student to enter chemical equations as answers.
@@ -98,7 +98,7 @@ C
 
 
 .. _Circuit Schematic_g:
- 
+
 **Circuit Schematic Builder Problem**
 
   A problem that allows the student to construct a schematic answer (such as
@@ -111,7 +111,7 @@ C
   See :ref:`Transcript<T>`.
 
 .. _Cohort:
- 
+
 **Cohort**
 
   A group of students who participate in a class together. Students who are in
@@ -123,7 +123,7 @@ C
   assign students to them, see `Using Cohorts in Your Courses`_.
 
 .. _Component_g:
- 
+
 **Component**
 
   The part of a unit that contains your actual course content. A unit can
@@ -149,9 +149,9 @@ C
 **Content-Specific Discussion Topic**
 
   A category within the course discussion that appears at a defined point in
-  the course to encourage questions and conversations. To add a 
-  content-specific discussion topic to your course, you add a discussion 
-  component to a unit. Students cannot contribute to a content-specific 
+  the course to encourage questions and conversations. To add a
+  content-specific discussion topic to your course, you add a discussion
+  component to a unit. Students cannot contribute to a content-specific
   discussion topic until the release date of the section that contains it.
 
   For more information, see `Working with Discussion Components`_ and
@@ -159,7 +159,7 @@ C
 
 
 .. _Course Catalog:
- 
+
 **Course Catalog**
 
   The page that lists all courses offered in the edX learning management
@@ -168,7 +168,7 @@ C
 
 
 .. _Course Handouts:
- 
+
 **Course Handouts**
 
   Course handouts are files you make available to students in the Course Info
@@ -178,7 +178,7 @@ C
 
 
 .. _Course Info Page:
- 
+
 **Course Info Page**
 
   The page that opens first every time students access your course. You can
@@ -187,7 +187,7 @@ C
 
 
 .. _Run:
- 
+
 **Course Run**
 
   The term or time frame in which a specific offering of your course takes
@@ -195,7 +195,7 @@ C
   information, see `Create a New Course`_.
 
 .. _Courseware:
- 
+
 
 **Courseware**
 
@@ -213,7 +213,7 @@ C
   For more information, see `Creating Discussion Topics for Your Course`_.
 
 .. _Custom Response Problem:
- 
+
 **Custom Response Problem**
 
   A custom response problem evaluates text responses from students using an
@@ -241,16 +241,16 @@ D
 
   The set of topics defined to promote course-wide or unit-specific dialog.
   Students use the discussion topics to communicate with each other and the
-  course staff in threaded exchanges.
+  course team in threaded exchanges.
 
   For more information, see `Managing Course Discussions`_.
 
 
 .. _Discussion Component:
- 
+
 **Discussion Component**
 
-  Discussion topics that course staff add directly to units. For example, a
+  Discussion topics that course teams add directly to units. For example, a
   video component can be followed by a discussion component so that students
   can discuss the video content without having to leave the page. When you add
   a discussion component to a unit, you create a content-specific discussion
@@ -259,7 +259,7 @@ D
   For more information, see `Working with Discussion Components`_.
 
 .. _Dropdown_g:
- 
+
 **Dropdown Problem**
 
   A problem that asks students to choose from a collection of answer options,
@@ -273,14 +273,14 @@ E
 ****
 
 .. _edX101_g:
- 
+
 **edX101**
 
   An online course about how to create online courses. The intended audience
-  for `edX101`_ is faculty and university administrators. 
+  for `edX101`_ is faculty and university administrators.
 
 .. _edX Edge:
- 
+
 **edX Edge**
 
   `Edge`_ is a less restricted site than edX.org. While only edX employees and
@@ -290,16 +290,16 @@ E
   at edge.edx.org.
 
 .. _edX Studio:
- 
+
 **edX Studio**
 
-  The edX tool that you use to build your courses. 
+  The edX tool that you use to build your courses.
 
   For more information, see `What is Studio?`_.
 
 
 .. _Exercises:
- 
+
 **Exercises**
 
   Practice or practical problems interspersed in edX course content to keep
@@ -308,7 +308,7 @@ E
 
 
 .. _Export:
- 
+
 **Export**
 
   A tool in edX Studio that you use to export your course or library for
@@ -334,7 +334,7 @@ G
 ****
 
 .. _grade:
- 
+
 **Grade Range**
 
   Thresholds that specify how numerical scores are associated with grades, and
@@ -342,9 +342,9 @@ G
 
   For more information, see `Set the Grade Range`_.
 
- 
+
 **Grading Rubric**
- 
+
   See :ref:`Rubric<R>`.
 
 
@@ -355,7 +355,7 @@ H
 ****
 
 .. _HTML Component:
- 
+
 **HTML Component**
 
   A type of component that you can use to add and format text for your course.
@@ -373,7 +373,7 @@ I
 
 
 .. _Image Mapped_g:
- 
+
 **Image Mapped Input Problem**
 
   A problem that presents an image and accepts clicks on the image as an
@@ -383,7 +383,7 @@ I
 
 
 .. _Import:
- 
+
 **Import**
 
   A tool in edX Studio that you use to load a course or library in XML format
@@ -394,7 +394,7 @@ I
   For more information, see `Import a Course`_ or `Import a Library`_.
 
 
- 
+
 .. _K:
 
 ****
@@ -404,7 +404,7 @@ K
 **Keyword**
 
   A variable in a bulk email message. When you send the message, a value that
-  is specific to the each recipient is substituted for the keyword. 
+  is specific to the each recipient is substituted for the keyword.
 
 .. _L:
 
@@ -417,7 +417,7 @@ L
   See :ref:`Accessible Label<A>`.
 
 .. _LaTeX:
- 
+
 **LaTeX**
 
   A document markup language and document preparation system for the TeX
@@ -430,12 +430,12 @@ L
 
 
 .. _Learning Management System:
- 
+
 **Learning Management System (LMS)**
 
-  The platform that students use to view courses, and that course staff
-  members use to manage enrollment and staff privileges, moderate discussions,
-  and access data while the course is running.
+  The platform that students use to view courses, and that course team members
+  use to manage learner enrollment, assign team member privileges, moderate
+  discussions, and access data while the course is running.
 
 **Learning Sequence**
 
@@ -443,7 +443,7 @@ L
   page in the LMS. The learning sequence contains an icon for each unit in the
   selected subsection. When a learner moves the cursor over one of these
   icons, the names of each component in that unit appear.
- 
+
 **Left Pane**
 
   The navigation frame that appears at the left side of the **Courseware**
@@ -465,10 +465,10 @@ L
 
 
 .. _Live Mode:
- 
+
 **Live Mode**
 
-  A view that allows course staff to review all published units as students
+  A view that allows the course team to review all published units as students
   see them, regardless of the release dates of the section and subsection that
   contain the units.
 
@@ -490,7 +490,7 @@ M
 ****
 
 .. _Math Expression_g:
- 
+
 **Math Expression Input Problem**
 
   A problem that requires students to enter a mathematical expression as text,
@@ -500,7 +500,7 @@ M
 
 
 .. _MathJax:
- 
+
 **MathJax**
 
   A LaTeX-like language that you use to write equations. Studio uses MathJax
@@ -524,7 +524,7 @@ M
 
 
 .. _Multiple Choice_g:
- 
+
 **Multiple Choice Problem**
 
   A problem that asks students to select one answer from a list of options.
@@ -539,7 +539,7 @@ N
 ****
 
 .. _Numerical Input_g:
- 
+
 **Numerical Input Problem**
 
   A problem that asks students to enter numbers or specific and relatively
@@ -556,11 +556,13 @@ O
 
 **Open Response Assessment**
 
-  A type of assignment that allows learners to answer using text and,
-  optionally, an image, as in a short essay. Learners then evaluate each
+  A type of assignment that allows learners to answer with text, as in a short
+  essay and, optionally, an image or other file. Learners then evaluate each
   others' work by comparing each response to a rubric created by the course
-  team. These assignments can also include a self assessment, in which
-  learners compare their own responses to the rubric.
+  team.
+
+  These assignments can also include a self assessment, in which learners
+  compare their own responses to the rubric.
 
   For more information, see `Open Response Assessments`_.
 
@@ -571,7 +573,7 @@ P
 ****
 
 .. _Pages_g:
- 
+
 **Pages**
 
   Pages organize course materials into categories that students select in the
@@ -581,16 +583,22 @@ P
 
   For more information, see `Adding Pages to a Course`_.
 
+**Partner Manager**
+
+  Each EdX partner institution has an edX partner manager. The partner manager
+  is the primary contact for the institution's course teams.
+
+
 **Pre-Roll Video**
 
   A short video file that plays before the video component selected by the learner.
-  Pre-roll videos play automatically, on an infrequent schedule. 
+  Pre-roll videos play automatically, on an infrequent schedule.
 
   For more information, see `Adding a Pre-Roll Video`_.
 
 
 .. _Preview Mode:
- 
+
 **Preview Mode**
 
   A view that allows you to see all the units of your course as students see
@@ -602,7 +610,7 @@ P
 
 
 .. _Problem Component:
- 
+
 **Problem Component**
 
   A component that allows you to add interactive, automatically graded
@@ -614,7 +622,7 @@ P
 
 
 .. _Progress Page:
- 
+
 **Progress Page**
 
   The page in the learning management system that shows students their scores
@@ -623,7 +631,7 @@ P
 
 
 .. _Public Unit:
- 
+
 .. **Public Unit**
 
 ..  A unit whose **Visibility** option is set to Public so that the unit is
@@ -640,12 +648,12 @@ Q
 
 **Question**
 
-  A question is a type of contribution that you can make to a course
-  discussion topic to bring attention to an issue that the course staff or
+  A question is a type of contribution that you can make to a course discussion
+  topic to bring attention to an issue that the discussion moderation team or
   other students can resolve.
 
   For more information, see `Managing Course Discussions`_.
-  
+
 .. _R:
 
 ****
@@ -653,7 +661,7 @@ R
 ****
 
 .. _Rubric_g:
- 
+
 **Rubric**
 
   A list of the items that a student's response should cover in an open
@@ -673,7 +681,7 @@ S
 
 
 .. _Section_g:
- 
+
 **Section**
 
   The topmost category in your course outline. A section can represent a time
@@ -689,7 +697,7 @@ S
 
 
 .. _Short Course Description:
- 
+
 **Short Course Description**
 
   The description of your course that appears on the edX `Course List
@@ -699,7 +707,7 @@ S
 
 
 .. _Simple Editor_g:
- 
+
 **Simple Editor**
 
   The graphical user interface in a problem component that contains formatting
@@ -714,7 +722,7 @@ S
 
 
 .. _Subsection:
- 
+
 **Subsection**
 
   A division in the course outline that represents a topic in your course,
@@ -731,7 +739,7 @@ T
 ****
 
 .. _Text Input_g:
- 
+
 **Text Input Problem**
 
   A problem that asks the student to enter a line of text, which is then
@@ -741,7 +749,7 @@ T
 
 
 .. _Transcript:
- 
+
 **Transcript**
 
   A text version of the content of a video. You can make video transcripts
@@ -774,10 +782,10 @@ V
   See :ref:`Unit<U>`.
 
 .. _Video Component:
- 
+
 **Video Component**
 
-  A component that you can use to add recorded videos to your course. 
+  A component that you can use to add recorded videos to your course.
 
   For more information, see `Working with Video Components`_.
 
@@ -789,12 +797,12 @@ W
 ****
 
 .. _Wiki:
- 
+
 **Wiki**
 
-  The page in each edX course that allows students as well as course staff to
-  add, modify, or delete content.
- 
+  The page in each edX course that allows both students and members of the
+  course team to add, modify, or delete content.
+
   Students can use the wiki to share links, notes, and other helpful
   information with each other.
 
@@ -808,7 +816,7 @@ XYZ
 ****
 
 .. _XBlock:
- 
+
 **XBlock**
 
   EdX's component architecture for writing courseware components: XBlocks are
@@ -845,7 +853,7 @@ XYZ
 .. _Dropdown Problem: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/dropdown.html
 .. _edX101: https://www.edx.org/course/overview-creating-edx-course-edx-edx101#.VOYi8rDF-n0
 .. _Edge: http://edge.edx.org
-.. _What is Studio?: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/getting_started/get_started.html#what-is-studio.. _: 
+.. _What is Studio?: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/getting_started/get_started.html#what-is-studio.. _:
 .. _Export a Course: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/building_course/export_import_course.html#export-a-course
 .. _Export a Library: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/creating_content/libraries.html#export-a-library
 .. _Set the Grade Range: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/building_course/establish_grading_policy.html#set-the-grade-range
@@ -860,11 +868,11 @@ XYZ
 .. _View Your Live Course: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/developing_course/testing_courseware.html#view-your-live-course
 .. _Entering Mathematical and Scientific Expressions: http://edx-guide-for-students.readthedocs.org/en/latest/SFD_mathformatting.html
 .. _A Brief Introduction to MathJax in Studio: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/mathjax.html
-.. _Multiple Choice Problem: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/multiple_choice.html 
+.. _Multiple Choice Problem: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/multiple_choice.html
 .. _Numerical Input Problem: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/numerical_input.html
 .. _Adding Pages to a Course: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/building_course/pages.html
 .. _Preview Course Content: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/developing_course/testing_courseware.html#preview-course-content
-.. _Working with Problem Components: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/creating_content/create_problem.html 
+.. _Working with Problem Components: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/creating_content/create_problem.html
 .. _Developing Course Sections: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/developing_course/course_sections.html
 .. _Describe Your Course: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/building_course/setting_up_student_view.html#describe-your-course
 .. _The Studio View of a Problem: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/creating_content/create_problem.html#problem-studio-view

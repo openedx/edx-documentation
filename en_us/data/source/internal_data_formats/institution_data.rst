@@ -10,6 +10,8 @@ useful to administrative or marketing teams, rather than research teams.
 
 .. recast in plural when another report is added
 
+.. _Email Opt In Report:
+
 *********************
 Email Opt In Report
 *********************

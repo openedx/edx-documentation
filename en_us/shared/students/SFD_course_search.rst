@@ -4,6 +4,16 @@
 Searching the Course
 #####################
 
+This topic describes how to search for edX course content.
+
+.. contents:: 
+  :local: 
+  :depth: 1
+
+*************************
+Overview of Search
+*************************
+
 You can search much of the content of your edX courses, including the course
 title, description, text, and video transcripts. You can search for a term in
 an individual course, or you can search for that term in all of the courses
@@ -55,8 +65,8 @@ contain more than one word.
 
 .. Add screen shot
 
-After you press Enter, your search results appear on the **Search Results** page. The
-search results include the following items.
+After you press Enter, your search results appear on the **Search Results**
+page. The search results include the following items.
 
 * A brief excerpt from the text surrounding your search term, with your search
   term in bold.

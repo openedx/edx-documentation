@@ -4,35 +4,40 @@
 Math Expression Input Problems
 ####################################
 
+.. note:: EdX offers full support for this problem type.
+
 In math expression input problems, learners enter text that represents a
 mathematical expression. The text is converted to a symbolic expression that
 appears below the response field. Unlike numerical input problems, which only
 allow integers and a few select constants, math expression input problems can
 include unknown variables and more complicated symbolic expressions.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/MathExpressionInputExample.png
+.. image:: ../../../shared/images/MathExpressionInputExample.png
  :alt: A problem requesting the symbolic expression and numerical evaluation
      of N(x) for a sleeved cylinder
 
 For more information about how learners enter expressions, see `Math Response
 Formatting for Students`_.
 
+.. note::
+  You can make a calculator available to your learners on every courseware
+  page. For more information, see :ref:`Calculator`.
+
 For the math expression input problems in your course, you can use edX
 Insights to review aggregated learner performance data and examine
 submitted answers. For more information, see `Using edX Insights`_.
 
 For math expression input problems, the grader uses numerical sampling to
-determine whether the learner's response matches the instructor-provided math
-expression, to a specified numerical tolerance. The instructor must specify
-the allowed variables in the expression as well as the range of values for
-each variable.
+determine whether a learner's response matches the math expression that you
+provide, to a specified numerical tolerance. You specify the allowed variables
+in the expression as well as the range of values for each variable.
 
 When you create a math expression input problem in Studio, you use `MathJax
 <http://www.mathjax.org>`_ to change your plain text into "beautiful math."
 For more information about how to use MathJax in Studio, see :ref:`MathJax in
 Studio`.
 
-.. note:: Math expression input problems currently cannot include negative 
+.. note:: Math expression input problems currently cannot include negative
  numbers raised to fractional powers, such as (-1)^(1/2). Math expression
  input problems can include complex numbers raised to fractional powers, or
  positive non-complex numbers raised to fractional powers.
@@ -48,7 +53,7 @@ To create a math expression input problem, follow these steps.
 #. Select **Advanced**.
 #. Select **Math Expression Input**. Studio adds an example math expression
    input problem to the unit.
-#. Select **Edit**. The Advanced Editor opens. 
+#. Select **Edit**. The Advanced Editor opens.
 #. Replace the sample problem XML with your own marked up text. To
    practice, you can use the example problem that follows.
 #. Select **Settings** and provide an identifying **Display Name** for the
@@ -106,7 +111,7 @@ Templates
   <problem>
     <p>Write an expression for the product of R_1, R_2, and the inverse of R_3.</p>
     <formularesponse type="ci" samples="R_1,R_2,R_3@1,2,3:3,4,5#10" answer="R_1*R_2/R_3">
-      <responseparam type="tolerance" default="0.00001"/> 
+      <responseparam type="tolerance" default="0.00001"/>
       <formulaequationinput size="40"  label="Enter the equation" />
     </formularesponse>
   </problem>
@@ -206,7 +211,7 @@ learner's response for grading.
          learners enter answers.
 
   Children
-  
+
   (none)
 
 **Tag:** ``<responseparam>``
@@ -231,7 +236,7 @@ approximate a test for equality.
        - "tolerance", which defines a tolerance for a number.
 
   Children
-  
+
   (none)
 
 .. _Math Response Formatting for Students: http://edx-guide-for-students.readthedocs.org/en/latest/SFD_mathformatting.html

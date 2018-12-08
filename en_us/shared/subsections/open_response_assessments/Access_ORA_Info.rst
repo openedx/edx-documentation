@@ -1,212 +1,56 @@
 .. _Accessing ORA Assignment Information:
 
-##########################################
-Accessing Assignment and Student Metrics
-##########################################
+######################################
+Accessing Metrics for ORA Assignments
+######################################
 
-After your open response assessment assignment has been released, you can access
-information about the number of students in each step of the assignment or the
-performance of individual students. This information is available in the
-**Course Staff Information** section at the end of each assignment. To access
-student information, open the assignment in the courseware, scroll to the bottom of the
-assignment, and then click the black **Course Staff Information** banner.
+After you release an open response assessment assignment, you can access
+various metrics for the assignment. For example, you can view the number of
+learners in each step of the assignment or in possible states such as
+"Waiting" or "Completed" within the assignment. In addition to viewing metrics
+for the assignment, you can also access assignment details for an individual
+learner.
 
-.. image:: ../../../../shared/building_and_running_chapters/Images/PA_CourseStaffInfo_Collapsed.png
-   :alt: The Course Staff Information banner at the bottom of the peer assessment
+For information about tasks that you can perform on learner responses in an
+ORA assignment, including :ref:`performing a grade override
+assessment<Override a learner assessment grade>` or :ref:`cancelling a
+learner's submission<Remove a learner response from peer grading>`, see
+:ref:`Managing ORA Assignments`.
 
-When you access a specific student's information for an open response
-assessment, you can view his responses and, if necessary, :ref:`cancel the
-student's submission<Remove a student response from peer grading>` so that it is
-not included in peer assessments.
 
 .. _PA View Metrics for Individual Steps:
 
 ************************************************
-View Metrics for Individual Steps
+View ORA Assignment Statistics
 ************************************************
 
-You can check the number of students who have completed, or are currently
-working through, the following steps:
+To view metrics about learners in the assignment, including the number who
+are active in each step, follow these steps.
 
-* Submitted responses.
-* Completed peer assessments.
-* Waiting to assess responses or receive grades.
-* Completed self assessments.
-* Completed the entire assignment. 
+#. Open the assignment in the course.
 
-To find this information, open the assignment in the courseware, scroll to the
-bottom of the assignment, and then click **Course Staff Information**.
+#. Scroll to the bottom of the assignment and select **View Assignment
+   Statistics**.
 
-The **Course Staff Information** section expands, and you can see the number
-of students who are currently working through (but have not completed) each
-step of the problem.
+   You see statistics for the assignment, including the total number of
+   responses and the location ID for the assignment. Learner progress is
+   available for the steps that exist in the current assignment. Only steps
+   that exist in the assignment are shown. For each step, you can see the
+   number of learners who are currently working through (but who have not
+   completed) that step.
 
-.. image:: ../../../../shared/building_and_running_chapters/Images/PA_CourseStaffInfo_Expanded.png
-   :alt: The Course Staff Information box expanded, showing problem status
+   You can see the number of learners who are in each of the following states
+   in the assignment.
 
-.. _Access Information for a Specific Student:
+     * Waiting to assess responses or to receive grades
+     * Completed training, self, or peer assessments
+     * Have had their responses cancelled
 
-***********************************************
-Access Information for a Specific Student
-***********************************************
+In addition, you can see the release and due dates for each problem step in the
+assignment.
 
-You can access information about an individual student's performance on a peer
-assessment assignment, including:
-
-* The student's response. 
-* The peer assessments that other students performed on the student's
-  response, including feedback on individual criteria and on the overall
-  response.
-* The peer assessments that the student performed on other students'
-  responses, including feedback on individual criteria and on the overall
-  responses.
-* The student's self assessment.
-
-In the following example, you can see the performance information for a specific
-student. This student's response received one peer assessment, and the student
-completed a peer assessment on one other student's response. The student also
-completed a self assessment.
-
-.. image:: ../../../../shared/building_and_running_chapters/Images/PA_SpecificStudent.png
-   :width: 500
-   :alt: Report showing information about a student's response
-
-To determine whether this student has received the required number of
-assessments from other students and has completed the required number of
-assessments for other students, refer to the **Graded By** and **Must Grade**
-values that were set for the open response assessment assignment in Studio. For
-more information about these settings, see :ref:`Specify Step Settings<PA
-Specify Step Settings>`.
-
-For details about accessing information for a specific student, and for an
-example that shows a student's response with more assessments, see :ref:`Access
-Student Information`.
-
-
-.. _Access Student Information:
-
-=======================================
-Access a Specific Student's Information
-=======================================
-
-#. In the LMS, go to the peer assessment assignment that you want to see.
-   
-#. Scroll to the bottom of the problem, and click the black **Course Staff
-   Information** banner.
-   
-#. In the **Get Student Info** box, enter the student's username, and click
-   **Submit**.
-
-The student's information appears below the **Get Student Info** box.
-
-The following example shows:
-
-* The student's response. 
-* The two peer assessments for the response.
-* The two peer assessments the student completed.
-* The student's self assessment.
-
-For a larger view, click the image so that it opens by itself in the browser
-window, and then click anywhere on the image that opens.
-
-.. image:: ../../../../shared/building_and_running_chapters/Images/PA_SpecificStudent_long.png
-   :width: 250
-   :alt: Report showing information about a student's response
-
-
-.. _Remove a student response from peer grading:
-
-************************************************
-Remove a Student Response from Peer Grading
-************************************************
-
-If you use open response assessments, students might alert you to vulgar,
-abusive, or otherwise inappropriate responses that they have seen while
-performing peer assessments. In such a situation you can :ref:`locate<Locate a
-specific ORA submission>` and cancel the submission. Doing so removes the
-inappropriate response from peer assessments so that it is no longer shown to
-other students.
-
-.. note:: Removing a student's submission is an irreversible action. 
-
-When you cancel an inappropriate submission, the response is immediately removed
-from the pool of submissions available for peer assessment. If the inappropriate
-response has already been sent to other students for peer assessment, it is also
-removed from their queue. However, if any student has already graded the
-inappropriate response, it is counted as one of the submissions they have
-graded.
-
-.. note:: After you remove an inappropriate response from peer assessment, you
-   decide whether the student who submitted that response is allowed to submit a
-   replacement response. If you do not want to allow the student to submit a
-   replacement response, you do not need to take any additional action. The
-   student receives a grade of zero for the entire submission. To allow the
-   student to resubmit a response for a cancelled submission, :ref:`reset the
-   student's attempts for the problem<reset_attempts>`.
-
-Remove a submission from peer assessment by completing these steps.
-
-#. In the LMS, go to the peer assessment assignment that contains the submission
-   you want to remove.
-   
-#. Scroll to the bottom of the problem, then click the black **Course Staff
-   Information** banner.
-   
-#. Scroll down to the **Get Student Info** box, enter the student's username in
-   the box, and click **Submit**. 
-
-   The student's information appears below the **Get Student Info** box.
-   
-#. Scroll down to the **Student Response** section and locate the submission you
-   want to remove.
-
-.. image:: ../../../../shared/building_and_running_chapters/Images/ORA_RemoveSubmission.png
-   :alt: Dialog allowing comments to be entered when removing a student submission
-   
-5. Enter a comment to document or explain the removal. This comment appears to
-   the student when she views her response in the open response assessment
-   problem.
-   
-#. Click **Remove submission**. 
-
-   The inappropriate submission is removed from peer assessment. When you access
-   this student's information again, instead of the response, you see a note
-   showing the date and time that the submission was removed, and the comments
-   that you entered.
-
-   Removed submissions are also removed from the list of Top Responses if they
-   were previously listed.
-   
-.. image:: ../../../../shared/building_and_running_chapters/Images//ORA_CancelledStudentResponse.png
-   :alt: The date, time and comment for removal of a student response is shown instead of the original response.  
-
-
-.. _Locate a specific ORA submission:
-
-*************************************************
-Locate a Specific Submission in an ORA Assignment
-*************************************************
-
-If you are alerted to an inappropriate ORA submission that you want to cancel
-and :ref:`remove from peer assessment<Remove a student response from peer
-grading>`, locate the specific submission by following these steps.
-
-#. Ask the person who reported the incident to send you a sample of text from
-   the inappropriate post.
-
-#. Contact your edX program manager to request a data download of ORA
-   responses for your course.
-
-   You will receive the download as a spreadsheet or in .csv file format.
-
-#. Search the spreadsheet for text that matches the sample text from the
-   inappropriate post.
-
-#. From any matching entries in the spreadsheet, locate the username of the
-   learner who posted the submission.
-
-#. Make a note of the username, and follow the steps to :ref:`remove a student
-   response from peer grading<Remove a student response from peer grading>`.
-
+.. image:: ../../../../shared/images/ORA_AssignmentStats.png
+   :alt: The number of active learners in each step, and the start and due
+         dates for each step are shown on the View Assignment Statistics page.
 
 

@@ -4,6 +4,16 @@
 Alphabetical Event List
 #######################
 
+
+:ref:`ABC` - :ref:`DEF` - :ref:`GHI` - :ref:`JKL` - :ref:`MNO`
+- :ref:`PQR` - :ref:`ST` - :ref:`UVWXYZ`
+
+.. _ABC:
+
+*******
+A, B, C
+*******
+
 .. list-table::
    :widths: 40 40
    :header-rows: 1
@@ -20,14 +30,22 @@ Alphabetical Event List
      - :ref:`Instructor_Event_Types`
    * - ``add-or-remove-user-group``
      - :ref:`Instructor_Event_Types`
-   * - ``assigned_user_to_partition``
-     - :ref:`AB_Event_Types`
    * - ``book``
      - :ref:`pdf`
-   * - ``calculate_grades_csv``
-     - :ref:`Instructor_Event_Types`
-   * - ``child_render``
-     - :ref:`AB_Event_Types`
+
+
+.. _DEF:
+
+*******
+D, E, F
+*******
+
+.. list-table::
+   :widths: 40 40
+   :header-rows: 1
+
+   * - Event
+     - Description
    * - ``delete-student-module-state``
      - :ref:`Instructor_Event_Types`
    * - ``dump-answer-dist-csv``
@@ -42,6 +60,20 @@ Alphabetical Event List
      - :ref:`Instructor_Event_Types`
    * - ``dump-grades-raw``
      - :ref:`Instructor_Event_Types`
+   * - ``edx.bookmark.accessed``
+     - :ref:`bookmark_events`
+   * - ``edx.bookmark.added``
+     - :ref:`bookmark_events`
+   * - ``edx.bookmark.listed``
+     - :ref:`bookmark_events`
+   * - ``edx.bookmark.removed``
+     - :ref:`bookmark_events`
+   * - ``edx.certificate.created``
+     - :ref:`certificate_events`
+   * - ``edx.certificate.shared``
+     - :ref:`certificate_events`
+   * - ``edx.certificate.evidence_visited``
+     - :ref:`certificate_events`
    * - ``edx.cohort.created``
      - :ref:`student_cohort_events`
    * - ``edx.cohort.creation_requested``
@@ -52,13 +84,9 @@ Alphabetical Event List
      - :ref:`student_cohort_events`
    * - ``edx.cohort.user_removed``
      - :ref:`student_cohort_events`
-   * - ``edx.librarycontentblock.content.assigned``
-     - :ref:`library_events`
-   * - ``edx.librarycontentblock.content.removed``
-     - :ref:`library_events`
    * - ``edx.course.enrollment.activated``
      - :ref:`enrollment` and :ref:`instructor_enrollment`
-   * - ``edx.course.enrollment.deactivated`` 
+   * - ``edx.course.enrollment.deactivated``
      - :ref:`enrollment` and :ref:`instructor_enrollment`
    * - ``edx.course.enrollment.mode_changed``
      - :ref:`enrollment`
@@ -66,13 +94,19 @@ Alphabetical Event List
      - :ref:`enrollment`
    * - ``edx.course.enrollment.upgrade.succeeded``
      - :ref:`enrollment`
+   * - ``edx.done.toggled``
+     - :ref:`Course Content Completion Events`
    * - ``edx.forum.comment.created``
      - :ref:`forum_events`
    * - ``edx.forum.response.created``
      - :ref:`forum_events`
+   * - ``edx.forum.response.voted``
+     - :ref:`forum_events`
    * - ``edx.forum.searched``
      - :ref:`forum_events`
    * - ``edx.forum.thread.created``
+     - :ref:`forum_events`
+   * - ``edx.forum.thread.voted``
      - :ref:`forum_events`
    * - ``edx.googlecomponent.calendar.displayed``
      - :ref:`content`
@@ -82,6 +116,30 @@ Alphabetical Event List
      - :ref:`Instructor_Event_Types`
    * - ``edx.instructor.report.requested``
      - :ref:`Instructor_Event_Types`
+   * - ``edx.librarycontentblock.content.assigned``
+     - :ref:`library_events`
+   * - ``edx.librarycontentblock.content.removed``
+     - :ref:`library_events`
+   * - ``edx.problem.hint.demandhint_displayed``
+     - :ref:`problem`
+   * - ``edx.problem.hint.feedback_displayed``
+     - :ref:`problem`
+   * - ``edx.team.activity_updated``
+     - :ref:`student_teams_events`
+   * - ``edx.team.changed``
+     - :ref:`student_teams_events`
+   * - ``edx.team.created``
+     - :ref:`student_teams_events`
+   * - ``edx.team.deleted``
+     - :ref:`student_teams_events`
+   * - ``edx.team.learner_added``
+     - :ref:`student_teams_events`
+   * - ``edx.team.learner_removed``
+     - :ref:`student_teams_events`
+   * - ``edx.team.page_viewed``
+     - :ref:`student_teams_events`
+   * - ``edx.team.searched``
+     - :ref:`student_teams_events`
    * - ``edx.video.bumper.dismissed``
      - :ref:`pre-roll`
    * - ``edx.video.bumper.loaded``
@@ -114,20 +172,36 @@ Alphabetical Event List
      - :ref:`video`, see ``hide_transcript``
    * - ``edx.video.transcript.shown``
      - :ref:`video`, see ``show_transcript``
-   * - ``get_anon_ids``
-     - :ref:`Instructor_Event_Types`
-   * - ``get_student_progress_page``
-     - :ref:`Instructor_Event_Types`
-   * - ``get_student_progress_url``
-     - :ref:`Instructor_Event_Types`
-   * - ``get_students_features``
-     - :ref:`Instructor_Event_Types`
-   * - ``get_students_features/csv``
+
+.. _GHI:
+
+*******
+G, H, I
+*******
+
+.. list-table::
+   :widths: 40 40
+   :header-rows: 1
+
+   * - Event
+     - Description
+   * - ``get-student-progress-page``
      - :ref:`Instructor_Event_Types`
    * - ``hide_transcript``
      - :ref:`video`
-   * - ``instructor``
-     - :ref:`Instructor_Event_Types`
+
+.. _JKL:
+
+*******
+J, K, L
+*******
+
+.. list-table::
+   :widths: 40 40
+   :header-rows: 1
+
+   * - Event
+     - Description
    * - ``list-beta-testers``
      - :ref:`Instructor_Event_Types`
    * - ``list-forum-admins``
@@ -144,58 +218,90 @@ Alphabetical Event List
      - :ref:`Instructor_Event_Types`
    * - ``load_video``
      - :ref:`video`
-   * - ``modify_access``
-     - :ref:`Instructor_Event_Types`
-   * - ``oe_feedback_response_selected``
-     - :ref:`ora`
-   * - ``oe_hide_question``
-     - :ref:`ora`
-   * - ``oe_show_full_feedback``
-     - :ref:`ora`
-   * - ``oe_show_question``
-     - :ref:`ora`
-   * - ``oe_show_respond_to_feedback``
-     - :ref:`ora`
+
+.. _MNO:
+
+*******
+M, N, O
+*******
+
+.. list-table::
+   :widths: 40 40
+   :header-rows: 1
+
+   * - Event
+     - Description
+   * - ``microsoft.office.mix.loaded``
+     - :ref:`content`
+   * - ``microsoft.office.mix.paused``
+     - :ref:`content`
+   * - ``microsoft.office.mix.played``
+     - :ref:`content`
+   * - ``microsoft.office.mix.slide.loaded``
+     - :ref:`content`
+   * - ``microsoft.office.mix.stopped``
+     - :ref:`content`
+   * - ``openassessmentblock.create_submission``
+     - :ref:`ora2`
    * - ``openassessmentblock.get_peer_submission``
+     - :ref:`ora2`
+   * - ``openassessmentblock.get_submission_for_staff_grading``
      - :ref:`ora2`
    * - ``openassessmentblock.peer_assess``
      - :ref:`ora2`
+   * - ``openassessmentblock.save_submission``
+     - :ref:`ora2`
    * - ``openassessmentblock.self_assess``
      - :ref:`ora2`
+   * - ``openassessmentblock.staff_assess``
+     - :ref:`ora2`
    * - ``openassessmentblock.submit_feedback_on_assessments``
-     - :ref:`ora2`
-   * - ``openassessment.create_submission``
-     - :ref:`ora2`
-   * - ``openassessment.save_submission``
      - :ref:`ora2`
    * - ``openassessment.student_training_assess_example``
      - :ref:`ora2`
    * - ``openassessment.upload_file``
      - :ref:`ora2`
+   * - ``oppia.exploration.completed``
+     - :ref:`content`
+   * - ``oppia.exploration.loaded``
+     - :ref:`content`
+   * - ``oppia.exploration.state.changed``
+     - :ref:`content`
+
+.. _PQR:
+
+*******
+P, Q, R
+*******
+
+.. list-table::
+   :widths: 40 40
+   :header-rows: 1
+
+   * - Event
+     - Description
    * - ``page_close``
      - :ref:`navigational`
    * - ``pause_video``
      - :ref:`video`
-   * - ``peer_grading_hide_question``
-     - :ref:`ora`
-   * - ``peer_grading_show_question``
-     - :ref:`ora`
    * - ``play_video``
      - :ref:`video`
    * - ``problem_check``
      - :ref:`problem`
    * - ``problem_check_fail``
      - :ref:`problem`
+   * - ``problem_graded``
+     - :ref:`problem`
    * - ``problem_rescore``
      - :ref:`problem`
    * - ``problem_rescore_fail``
+     - :ref:`problem`
+   * - ``problem_reset``
      - :ref:`problem`
    * - ``problem_save``
      - :ref:`problem`
    * - ``problem_show``
      - :ref:`problem`
-   * - ``psychometrics-histogram-generation``
-     - :ref:`Instructor_Event_Types`
    * - ``remove-forum-admin``
      - :ref:`Instructor_Event_Types`
    * - ``remove-forum-community-TA``
@@ -216,8 +322,19 @@ Alphabetical Event List
      - :ref:`problem`
    * - ``reset-student-attempts``
      - :ref:`Instructor_Event_Types`
-   * - ``rubric_select``
-     - :ref:`ora`
+
+.. _ST:
+
+*******
+S, T
+*******
+
+.. list-table::
+   :widths: 40 40
+   :header-rows: 1
+
+   * - Event
+     - Description
    * - ``save_problem_fail``
      - :ref:`problem`
    * - ``save_problem_success``
@@ -230,29 +347,25 @@ Alphabetical Event List
      - :ref:`navigational`
    * - ``seq_prev``
      - :ref:`navigational`
-   * - ``show_answer``
+   * - ``showanswer``
      - :ref:`problem`
    * - ``show_transcript``
      - :ref:`video`
    * - ``speed_change_video``
      - :ref:`video`
-   * - ``staff_grading_hide_question``
-     - :ref:`ora`
-   * - ``staff_grading_show_question``
-     - :ref:`ora`
    * - ``stop_video``
      - :ref:`video`
    * - ``textbook.pdf.chapter.navigated``
      - :ref:`pdf`
    * - ``textbook.pdf.display.scaled``
      - :ref:`pdf`
-   * - ``textbook.pdf.display.scrolled``
-     - :ref:`pdf`
    * - ``textbook.pdf.outline.toggled``
      - :ref:`pdf`
    * - ``textbook.pdf.page.navigated``
      - :ref:`pdf`
-   * - ``textbook.pdf.search.casesensitivity.toggled``
+   * - ``textbook.pdf.page.scrolled``
+     - :ref:`pdf`
+   * - ``textbook.pdf.searchcasesensitivity.toggled``
      - :ref:`pdf`
    * - ``textbook.pdf.search.executed``
      - :ref:`pdf`
@@ -260,7 +373,7 @@ Alphabetical Event List
      - :ref:`pdf`
    * - ``textbook.pdf.search.navigatednext``
      - :ref:`pdf`
-   * - ``textbook.pdf.thumbnails.navigated``
+   * - ``textbook.pdf.thumbnail.navigated``
      - :ref:`pdf`
    * - ``textbook.pdf.thumbnails.toggled``
      - :ref:`pdf`
@@ -268,16 +381,39 @@ Alphabetical Event List
      - :ref:`pdf`
    * - ``textbook.pdf.zoom.menu.changed``
      - :ref:`pdf`
-   * - ``update_forum_role_membership``
-     - :ref:`Instructor_Event_Types`
+
+.. _UVWXYZ:
+
+*********************
+U, V, W, X, Y, Z
+*********************
+
+.. list-table::
+   :widths: 40 40
+   :header-rows: 1
+
+   * - Event
+     - Description
+   * - ``ubc.peer_instruction.accessed``
+     - :ref:`Peer Instruction Events`
+   * - ``ubc.peer_instruction.original_submitted``
+     - :ref:`Peer Instruction Events`
+   * - ``ubc.peer_instruction.revised_submitted``
+     - :ref:`Peer Instruction Events`
    * - ``video_hide_cc_menu``
      - :ref:`video`
    * - ``video_show_cc_menu``
      - :ref:`video`
-       
+   * - ``xblock.poll.submitted``
+     - :ref:`Poll and Survey Events`
+   * - ``xblock.poll.view_results``
+     - :ref:`Poll and Survey Events`
+   * - ``xblock.split_test.child_render``
+     - :ref:`AB_Event_Types`
+   * - ``xblock.survey.submitted``
+     - :ref:`Poll and Survey Events`
+   * - ``xblock.survey.view_results``
+     - :ref:`Poll and Survey Events`
+   * - ``xmodule.partitions.assigned_user_to_partition``
+     - :ref:`AB_Event_Types`
 
-
-..   * - ``problem_graded``
-..     - :ref:`problem`
-..   * - ``problem_reset``
-..     - :ref:`problem`

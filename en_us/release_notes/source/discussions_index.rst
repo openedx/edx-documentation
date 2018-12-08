@@ -1,66 +1,66 @@
 .. _Discussions Index:
 
 ####################################
-edX Discussions
+EdX Discussions
 ####################################
 
+The following information describes what is new in edX discussions. 
+
+.. contents::
+  :local:
+  :depth: 2
+
 ******************
-June 2, 2015
+2 June 2015
 ******************
 
 .. include:: 2015/discussions/disc_0602_2015.rst
 
 ******************
-May 12, 2015
+12 May 2015
 ******************
 
 .. include:: 2015/discussions/disc_0512_2015.rst
 
 
 ******************
-April 22, 2015
+22 April 2015
 ******************
 
 .. include:: 2015/discussions/disc_0422_2015.rst
 
 
 ******************
-March 31, 2015
+31 March 2015
 ******************
 
 .. include:: 2015/discussions/disc_0331_2015.rst
 
-
 ******************
-March 12, 2015
+12 February 2015
 ******************
 
 .. include:: 2015/discussions/disc_0212_2015.rst
 
-
 ******************
-February 4, 2015
+4 February 2015
 ******************
 
 .. include:: 2015/discussions/disc_0204_2015.rst
 
 
 ******************
-January 14, 2015
+14 January 2015
 ******************
 
 .. include:: 2015/discussions/disc_0114_2015.rst
 
 
 ******************
-January 8, 2015
+8 January 2015
 ******************
 
 .. include:: 2015/discussions/disc_0108_2015.rst
 
 
-
-
-
-
-.. include:: links.rst
+.. include:: ../../links/links.rst

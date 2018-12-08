@@ -1,1 +1,1 @@
-.. include:: ../../../shared/building_and_running_chapters/developing_course/course_subsections.rst
+.. include:: ../../../shared/developing_course/course_subsections.rst

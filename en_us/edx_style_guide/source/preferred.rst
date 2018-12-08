@@ -14,7 +14,7 @@ Preferred Usage
 
 * Do not use "the following" as a noun or to introduce a list.
 
-* Use "have to," "must," or "we recommend" rather than "should." 
+* Use "have to," "must," or "we recommend" rather than "should."
 
 * Avoid redundancy in phrases.
 
@@ -27,8 +27,8 @@ Preferred Usage
   :widths: 20 80
 
   * - Abbreviations
-    - Only use for standards of measurement, such as kb. 
-    
+    - Only use for standards of measurement, such as kb.
+
       Do not use Latin abbreviations. For example, replace "etc." with "and so
       on".
 
@@ -64,8 +64,8 @@ Preferred Usage
 
       For inline cross-references, create links to words in the sentence, but
       don't use the name of the topic itself unless the capitalization works
-      with the sentence. For example: "You can use the ``:ref:`course
-      checklists<Use the Course Checklist>``` to verify that the course is
+      with the sentence. For example: "You can use the ``:ref:`course launch
+      checklist<Course Launch Checklist>``` to verify that the course is
       ready for release."
 
       To promote a better experience for screenreaders, provide the title of
@@ -76,7 +76,7 @@ Preferred Usage
   * - Dates
     - Format dates as ``DD Mon YYYY`` or ``DD Month YYYY``. For example: ``11
       Jan 2015``
-  * - File types 
+  * - File types
     - Include the period before the file type abbreviation, and make the file
       type lowercase. For example: "Download a .csv file on the Instructor
       Dashboard." If necessary, explain the file type. For example: "A Word
@@ -159,7 +159,7 @@ Preferred Usage
   * - Word choice
     - See the :ref:`Word List` for our preferred terminology. Avoid jargon,
       colloquialisms, and humor.
-      
+
       Do not use non-technical words that are not in common use, such as "and
       so forth", albeit, heretofore, thus, or whilst.
 

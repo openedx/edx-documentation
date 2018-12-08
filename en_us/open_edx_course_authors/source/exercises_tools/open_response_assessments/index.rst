@@ -13,4 +13,5 @@ Open Response Assessments
 
    OpenResponseAssessments
    CreateORAAssignment
+   Manage_ORA_Assignment
    Access_ORA_Info

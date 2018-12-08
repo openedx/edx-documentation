@@ -4,9 +4,11 @@
 Circuit Schematic Builder Problem
 ##################################
 
+.. note:: EdX offers provisional support for this problem type.
+
 In circuit schematic builder problems, students can arrange circuit elements such as voltage sources, capacitors, resistors, and MOSFETs on an interactive grid. They then submit a DC, AC, or transient analysis of their circuit to the system for grading.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/CircuitSchematicExample.png
+.. image:: ../../../shared/images/CircuitSchematicExample.png
  :alt: Image of a circuit schematic builder
 
 *********************************************

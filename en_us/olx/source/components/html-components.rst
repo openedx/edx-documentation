@@ -4,16 +4,9 @@
 HTML Components
 #################################
 
-See:
-
-* `Create the HTML Component`_
-* `Example of an HTML Component Embedded in a Vertical`_
-* `Example of Separate HTML Files`_
-* `HTML Component XML File Elements`_
-* `html Element Attributes`_
-* `Example HTML Component XML File`_
-* `Example HTML Component Content`_
-
+.. contents::
+   :local:
+   :depth: 1
 
 *********************************************
 Create the HTML Component
@@ -22,9 +15,10 @@ Create the HTML Component
 To add an HTML component to your course, you can embed the XML for it in the
 parent XML file, or split it up into either 1 or 2 additional files. You can
 break up the HTML configuration into an .xml file in the html directory and an
-additional .html file in the same directory. 
+additional .html file in the same directory.
 
-.. caution:: If you are including HTML that is not valid HTML, you must break out HTML content in a separate file.
+.. caution:: If you are including HTML that is not valid HTML, you must break
+ out HTML content in a separate file.
 
 
 *****************************************************
@@ -32,7 +26,7 @@ Example of an HTML Component Embedded in a Vertical
 *****************************************************
 
 .. code-block:: xml
-  
+
    <vertical display_name="Lesson_1_Unit_1">
       ...
       <html>The above has an error. <b>x</b> should be <b>y</b> in the second equation.</html>
@@ -43,16 +37,16 @@ Example of an HTML Component Embedded in a Vertical
 Example of Separate HTML Files
 *********************************************
 
-You create an XML file in the ``html`` directory for each HTML component in
-your course.
+You create an XML file in the ``html`` directory for the content that you
+choose to break out into separate HTML files.
 
 The name of the XML file must match the value of the @url_name attribute of the
 ``html`` element in the vertical XML file.
 
-For example, if the vertical XML file contains:
+For example, a vertical XML file contains the following url_name.
 
 .. code-block:: xml
-  
+
    <vertical display_name="Lesson_1_Unit_1">
       <html url_name="Introduction"/>
       . . .
@@ -62,9 +56,9 @@ You create the file ``html/Introduction.xml`` to define the HTML component.
 
 *************************************
 HTML Component XML File Elements
-************************************* 
+*************************************
 
-The root element of the XML file for the HTML component is file is ``html``. 
+The root element of the XML file for the HTML component is file is ``html``.
 
 In this case, the ``html`` element contains no children.
 
@@ -89,11 +83,11 @@ In this case, the ``html`` element contains no children.
 Example HTML Component XML File
 *************************************
 
-The following example shows an XML file for an HTML component:
+The following example shows an XML file for an HTML component.
 
 .. code-block:: xml
-  
-  <html filename="Introduction" display_name="Unit Introduction"/>  
+
+  <html filename="Introduction" display_name="Unit Introduction"/>
 
 
 *************************************
@@ -105,15 +99,15 @@ want to be displayed to students. For example, the following is from an HTML
 file for the edX Demo course:
 
 .. code-block:: html
-  
-    <h2>Lesson 2: Let's Get INTERACTIVE!</h2> 
+
+    <h2>Lesson 2: Let's Get INTERACTIVE!</h2>
     <p>
     <img
     src="/static/interactive_x250.png" alt="Interactive" width="250"
     hspace="12" vspace="12" border="0" align="right" />Now that you know your
     way around an edX course let's look at some of the exciting interactive
     tools you may encounter. Use the learning sequence above to explore.
-    &nbsp;</p> 
+    &nbsp;</p>
     <p>Once you have tried the interactive tools in this lesson,
     make sure to check out the week 2 homework where we show you several of the
     really cool interactive labs we&rsquo;ve created for past courses.

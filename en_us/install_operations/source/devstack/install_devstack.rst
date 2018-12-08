@@ -1,16 +1,14 @@
-.. include:: ../links.rst
-
 .. _Installing the Open edX Developer Stack:
 
 ########################################
 Installing the Open edX Developer Stack
 ########################################
 
-This chapter is intended for those who are installing and running the Open edX
-Developer Stack.
+This section describes how to install the Open edX Developer Stack.
 
-.. contents:: Chapter Contents:
-
+.. contents::
+   :local:
+   :depth: 1
 
 **********
 Overview
@@ -19,11 +17,11 @@ Overview
 The Open edX Developer Stack, known as **Devstack**, is a Vagrant instance
 designed for local development.
 
-Devstack Uses the same system requirements as :ref:`Open edX Fullstack
+Devstack uses the same system requirements as :ref:`Open edX Fullstack
 <Installing Open edX Fullstack>`. This allows you to discover and fix system
 configuration issues early in development.
 
-Devstack Simplifies certain production settings to make development more
+Devstack simplifies certain production settings to make development more
 convenient. For example, `nginx`_ and `gunicorn`_ are disabled in Devstack;
 Devstack uses Django's runserver instead.
 
@@ -33,20 +31,20 @@ See the `Vagrant documentation`_ for more information.
 Components
 ********************
 
-Devstack includes the following edX components:
+Devstack includes the following edX components.
 
 * The Learning Management System (LMS)
 * edX Studio
 * Discussion Forums
 * Open Response Assessments (ORA)
-  
-Devstack also includes a demo edX course.
+
+Devstack also includes a demonstration edX course.
 
 **************************
 Knowledge Prerequisites
 **************************
 
-To use Devstack, you should meeting the following knowledge requirements.
+To use Devstack, you should meet the following knowledge requirements.
 
 * Understand basic terminal usage. If you are using a Mac computer, see
   `Introduction to the Mac OS X Command Line`_. If you are using a Windows
@@ -55,7 +53,6 @@ To use Devstack, you should meeting the following knowledge requirements.
 * Understand Vagrant commands. See the `Vagrant Getting Started`_ guide for
   more information.
 
-
 **************************
 Software Prerequisites
 **************************
@@ -63,14 +60,14 @@ Software Prerequisites
 To install and run Devstack, you must first install the following required
 software.
 
-* `VirtualBox`_ 4.3.12 or higher
+* `VirtualBox`_ 4.3.12 or higher.
 
-* `Vagrant`_ 1.6.5 or higher
+* `Vagrant`_ 1.6.5 or higher.
 
 * A Network File System (NFS) client, if your operating system does not include
   one. Devstack uses VirtualBox Guest Editions to share folders through NFS.
-  
-.. _Install DevStack:  
+
+.. _Install DevStack:
 
 **************************
 Install DevStack
@@ -88,20 +85,20 @@ computer.
 #. Ensure the ``nfsd`` client is running.
 
 #. Create the ``devstack`` directory and navigate to it in the command prompt.
-   
+
    .. code-block:: bash
 
      mkdir devstack
      cd devstack
 
 #. Download the Devstack Vagrant file.
-   
+
    .. code-block:: bash
 
      curl -L https://raw.github.com/edx/configuration/master/vagrant/release/devstack/Vagrantfile > Vagrantfile
 
 #. Install the Vagrant ``vbguest`` plugin.
-   
+
    .. code-block:: bash
 
      vagrant plugin install vagrant-vbguest
@@ -125,25 +122,29 @@ Stack` to begin using Devstack.
 For help with the Devstack installation, see :ref:`Troubleshooting the Devstack
 Installation`.
 
-
 *****************************************
 Install Devstack using the Torrent file
 *****************************************
 
-#. Download the Devstack `Torrent`_ file. 
+You can use BitTorrent to download the box file.  Follow all of the
+instructions in :ref:`Install DevStack`, but instead of downloading
+the Vagrant file with curl, do this:
+
+#. Download the Torrent file for the latest Open edX release.
+   See the `Open edX Releases Wiki page`_ to find out what the latest Open edX
+   release is, and where to download the Torrent file.
 
 #. When you have the file on your computer, add the virtual machine using the
    following command.
 
     .. code-block:: bash
-  
-     vagrant box add box-name path-to-box-file
 
+     vagrant box add box-name path-to-box-file
 
 .. _Troubleshooting the Devstack Installation:
 
 *****************************************
-Troubleshooting the Devstack Installation 
+Troubleshooting the Devstack Installation
 *****************************************
 
 In some cases, you see an error when you attempt to create the Devstack virtual
@@ -161,9 +162,8 @@ To resolve the error, follow these steps.
 #. Stop the VPN.
 #. Type ``vagrant halt``.
 #. Open Virtualbox.
-   
 #. Navigate to **Preferences > Network > Host-only Networks** and remove the
    most-recently-created host-only network.
-
 #. Type ``vagrant up``.
-   
+
+.. include:: ../../../links/links.rst

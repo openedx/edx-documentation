@@ -1,13 +1,14 @@
-.. include:: ../links.rst
-
 .. _Running the Open edX Developer Stack:
 
 ####################################
 Running the Open edX Developer Stack
 ####################################
 
-.. contents:: Chapter Contents:
+This section describes how to run the Open edX Developer Stack.
 
+.. contents::
+   :local:
+   :depth: 1
 
 ****************************************
 Connect to the Devstack Virtual Machine
@@ -16,11 +17,11 @@ Connect to the Devstack Virtual Machine
 #. To connect to the Devstack virtual machine, use the SSH command from the
    `devstack` directory.
 
-  .. code-block:: bash
+   .. code-block:: bash
 
-   vagrant ssh
+     vagrant ssh
 
-2. To use Devstack and perform any of the tasks described in this section, you
+#. To use Devstack and perform any of the tasks described in this section, you
    must connect as the user **edxapp**.
 
    .. code-block:: bash
@@ -34,7 +35,6 @@ Connect to the Devstack Virtual Machine
    This command also sets the current working directory to the edx-platform
    repository (``/edx/app/edxapp/edx-platform``).
 
-
 ****************************************************
 Set Up Ability to Preview Units (Mac/Linux Only)
 ****************************************************
@@ -46,7 +46,6 @@ use the preview feature in edX Studio, you must add the following line to the
   .. code-block:: bash
 
     192.168.33.10 preview.localhost
-
 
 ************************************
 Customize the Source Code Location
@@ -76,25 +75,25 @@ overrides production settings for the LMS.
 To run the LMS on Devstack, follow these steps.
 
 #. `Connect to the Devstack Virtual Machine`_.
+
 #. Run the following command.
-   
+
    .. code-block:: bash
 
     paver devstack lms
 
    Or, to start the LMS without updating requirements and compiling assets, use
    the ``fast`` option.
-   
+
    .. code-block:: bash
 
-    paver devstack lms --fast 
+    paver devstack lms --fast
 
-   The LMS starts. 
+   The LMS starts.
 
-#. Open the LMS in your browser at ``http://localhost:8000/``. 
+#. Open the LMS in your browser at ``http://localhost:8000/``.
 
    Vagrant forwards port 8000 to the LMS server running in the virtual machine.
-
 
 ************************************
 Run Studio on Devstack
@@ -106,26 +105,27 @@ assets, unless you use the ``fast`` option.
 You run Studio on Devstack with the file ``cms/envs/devstack.py``. This file
 overrides production settings for Studio.
 
-To run Studio on Devstack:
+To run Studio on Devstack, follow these steps.
 
 #. `Connect to the Devstack Virtual Machine`_.
-#. Run the following command/
-   
+
+#. Run the following command.
+
    .. code-block:: bash
 
     paver devstack studio
 
    Or, to start Studio without updating requirements and compiling assets, use
    the ``fast`` option.
-   
+
    .. code-block:: bash
 
-    paver devstack studio --fast 
+    paver devstack studio --fast
 
-   Studio starts. 
+   Studio starts.
 
-#. Open Studio in your browser at ``http://localhost:8001/``. 
- 
+#. Open Studio in your browser at ``http://localhost:8001/``.
+
    Vagrant forwards port 8001 to the Studio server running in the virtual
    machine.
 
@@ -138,35 +138,35 @@ To view all available commands for Studio, enter the following command.
 .. code-block:: bash
 
   ./manage.py cms -h --settings=devstack
-  
 
 ************************************
 Run Discussion Forums on Devstack
 ************************************
 
-To run discussion forums on Devstack:
+To run discussion forums on Devstack, follow these steps.
 
 #. `Connect to the Devstack Virtual Machine`_.
+
 #. Switch to the discussion forum account by entering the following command.
-   
+
    .. code-block:: bash
 
     sudo su forum
 
-#. Update Ruby requirements. 
+#. Update Ruby requirements.
 
    .. code-block:: bash
 
     bundle install
 
-   .. note:: 
+   .. note::
      If you get a message for entering a password to install the bundled
      RubyGems to the system, you can safely exit by entering ``control+c`` on a
      Macintosh or ``Ctrl+C`` on Windows. The RubyGems will still be installed
      correctly for the forum user.
 
 #. Start the discussion forums server.
-   
+
    .. code-block:: bash
 
     ruby app.rb -p 18080
@@ -174,6 +174,7 @@ To run discussion forums on Devstack:
 The discussions forum server starts. You can access the discussion forums API
 at ``http://localhost:18080/``.
 
+.. _Default Accounts on Devstack:
 
 ************************************
 Default Accounts on Devstack
@@ -187,18 +188,21 @@ When you install Devstack, the following accounts are created.
 
    * - Account
      - Description
-   * - staff@example.com
+   * - ``staff@example.com``
      - An LMS and Studio user with course creation and editing permissions.
-       This user is a course staff member with rights to work with the
-       demonstration course in Studio.
-   * - verified@example.com
+       This user is a course team member with the Admin role, which gives
+       rights to work with the demonstration course in Studio, the LMS, and
+       Insights.
+   * - ``verified@example.com``
      - A student account that you can use to access the LMS for testing
        verified certificates.
-   * - audit@example.com
-     - A student account that you can use the access the LMS for testing course
+   * - ``audit@example.com``
+     - A student account that you can use to access the LMS for testing course
        auditing.
-   * - honor@example.com
-     - A student account that you can use the access the LMS for testing honor
+   * - ``honor@example.com``
+     - A student account that you can use to access the LMS for testing honor
        code certificates.
 
 The password for all of these accounts is ``edx``.
+
+.. include:: ../../../links/links.rst

@@ -4,6 +4,8 @@
 Conditional Module
 ####################
 
+.. note:: EdX offers provisional support for this problem type.
+
 ********************
 Format description
 ********************
@@ -17,9 +19,9 @@ The main tag of conditional module input is ``conditional``.
 ``conditional`` can include any number of any xmodule tags (``html``,
 ``video``, ``poll``, etc.) or ``show`` tags.
 
-================
-conditional tag
-================
+====================
+``conditional`` Tag
+====================
 
 The main container for a single instance of a conditional module. The
 following attributes can be specified for this tag.
@@ -37,11 +39,11 @@ following attributes can be specified for this tag.
     [poll_answer] - map to `poll_answer` module attribute
     [voted] - map to `voted` module attribute
 
-========
-show tag
-========
+============
+``show`` Tag
+============
 
-Symlink to some set of xmodules. The following attributes can be specified for
+Symlink to some set of xmodules. The following attribute can be specified for
 this tag.
 
 .. code-block:: xml
@@ -49,11 +51,11 @@ this tag.
     sources - location id of modules, separated by ';'
 
 *********
-Example
+Examples
 *********
 
 ========================================
-Examples of conditional depends on poll
+Example: conditional depends on poll
 ========================================
 
 .. code-block:: xml
@@ -66,7 +68,7 @@ Examples of conditional depends on poll
     </conditional>
 
 ========================================================
-Examples of conditional depends on poll (use <show> tag)
+Example: conditional depends on poll (use <show> tag)
 ========================================================
 
 .. code-block:: xml
@@ -85,8 +87,8 @@ Examples of conditional depends on problem
 .. code-block:: xml
 
     <conditional sources="i4x://MITx/0.000x/problem/Conditional:lec27_Q1" attempted="True">
-        <html display_name="HTML for attempted problem">You see this, cause "lec27_Q1" is attempted.</html>
+        <html display_name="HTML for attempted problem">You see this because "lec27_Q1" was attempted.</html>
     </conditional>
     <conditional sources="i4x://MITx/0.000x/problem/Conditional:lec27_Q1" attempted="False">
-        <html display_name="HTML for not attempted problem">You see this because "lec27_Q1" is not attempted.</html>
+        <html display_name="HTML for not attempted problem">You see this because "lec27_Q1" was not attempted.</html>
     </conditional>

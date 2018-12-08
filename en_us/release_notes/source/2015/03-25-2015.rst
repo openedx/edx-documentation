@@ -1,11 +1,14 @@
 
 ###################################
-March 25, 2015
+25 March 2015
 ###################################
 
 The following information reflects what is new in the edX Platform as of
-March 25, 2015. 
+25 March 2015. 
 
+.. contents::
+  :local:
+  :depth: 2
 
 **************************
 Documentation
@@ -34,6 +37,4 @@ EdX Website
 
 .. include:: website/website_0325_2015.rst
 
-
-
-.. include:: ../links.rst
+.. include:: ../../../links/links.rst

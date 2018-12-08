@@ -1,11 +1,14 @@
 
 ###################################
-January 8, 2015
+8 January 2015
 ###################################
 
 The following information reflects what is new in the edX Platform as of
-January 8, 2015. 
+8 January 2015. 
 
+.. contents::
+  :local:
+  :depth: 2
 
 **************************
 Analytics
@@ -63,5 +66,4 @@ EdX Website
 .. include:: website/website_0108_2015.rst
 
 
-
-.. include:: ../links.rst
+.. include:: ../../../links/links.rst

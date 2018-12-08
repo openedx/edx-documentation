@@ -1,11 +1,10 @@
 
 * If you include cohorts in your course, you can now assign different course
-  content to different cohorts. See `Creating Cohort Specific Courseware`_ for
-  more details.
+  content to different cohorts. See :ref:`partnercoursestaff:Cohorted Courseware Overview` for more details.  
 
-* All courses created after 14 Jan 2015 now use the `key introspection API`_
-  format for internal course identifiers and the course URL. An example of the
-  new URL format is:
+* All courses created after 14 Jan 2015 now use the :ref:`key
+  introspection API` format for internal course identifiers and the course URL.
+  An example of the new URL format is:
   ``http://www.edx.org/courses/course-v1:edX+DemoX+Demo_2014/info``.
 
 * MathJax, which Studio and the LMS use to render text as "beautiful math", is

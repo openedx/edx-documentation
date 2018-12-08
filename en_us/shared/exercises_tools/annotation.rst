@@ -4,89 +4,90 @@
 Annotation Problem
 ###################
 
+.. note:: EdX offers provisional support for this problem type.
 
-In an annotation problem, the instructor highlights specific text inside a larger text block and then asks questions about that text. The questions appear when students hover the mouse over the highlighted text. The questions also appear in a section below the text block, along with space for students' responses.
+In an annotation problem, you highlight specific text inside a larger text
+block and then ask questions about that text. The questions appear when
+students move their cursors over the highlighted text. The questions also
+appear in a section below the text block, along with space for students'
+responses.
 
-Annotation problems ask students to respond to questions about a specific block of text. The question appears above the text when the student hovers the mouse over the highlighted text so that students can think about the question as they read.
+.. image:: ../../../shared/images/AnnotationExample.png
+  :alt: An example annotation problem.
 
-.. image:: ../../../shared/building_and_running_chapters/Images/AnnotationExample.png
-  :alt: Annotation problem
+.. contents::
+  :local:
+  :depth: 2
+
+***************************************************
+Enable the Annotation Problem
+***************************************************
+
+Before you can add annotation problems to your course, you must enable
+annotation problems in Studio.
+
+To enable annotation problems in Studio, you add the ``"annotatable"`` key to
+the **Advanced Module List** on the **Advanced Settings** page. For more
+information, see :ref:`Enable Additional Exercises and Tools`.
 
 ****************************
 Create an Annotation Problem
 ****************************
 
-To create an annotation problem, you'll add the Annotation advanced component to your course, add the **Instructions** and **Guided Discussion** segments of the problem, and then the **Annotation problem** segment of the problem.
+To create an annotation problem, you add the **Instructions** and **Guided
+Discussion** segments of the problem, and then the **Annotation problem**
+segment of the problem.
 
-#. Add the Annotation advanced component. 
+============================================
+Add Instructions and Guided Discussion
+============================================
 
-    #. From the **Settings** menu select **Advanced Settings**.
+To add the **Instructions** and **Guided Discussion** segments of the problem,
+follow these steps.
 
-    #. In the field for the **Advanced Module List** policy key, place your
-       cursor between the brackets.
+#. In the unit where you want to create the problem, under **Add New
+   Component** select **Advanced**.
 
-    #. Enter the following value. Make sure to include the quotation marks.
+#. In the list of problem types, select **Annotation**.
 
-       ``"annotatable"``
+#. In the component that appears, select **Edit**.
 
-    4. At the bottom of the page, click **Save Changes**.
+#. In the component editor, replace the example code with your own code.
 
-       The page refreshes automatically. At the top of the page, you see a
-       notification that your changes have been saved.
+#. Select **Save**.
 
-    5. Return to the unit where you want to add the specialized problem. The
-       list of possible components now contains an Advanced component.
+=================================
+Add Annotation Problem
+=================================
 
-       .. image:: ../../../shared/building_and_running_chapters/Images/AdvancedComponent.png
-          :alt: Image of the Add a New Component panel with the Advanced component option
+To add the **Annotation problem** segment of the problem, follow these steps.
 
-2. Add the **Instructions** and **Guided Discussion** segments of the
-problem.
+#. Under the Annotation component, create a new blank Advanced Problem
+   component.
 
-    #. In the unit where you want to create the problem, under **Add New
-       Component** click **Advanced**.
-    #. In the list of problem types, click **Annotation**.
-    #. In the component that appears, click **Edit**.
-    #. In the component editor, replace the example code with your own code.
-    #. Click **Save**.
+#. Paste the following code in the Advanced Problem component, replacing
+   placeholders with your own information.
 
-3. Add the **Annotation problem** segment of the problem.
+   .. code-block:: xml
 
-    #. Under the Annotation component, create a new blank Advanced Problem
-       component.
-       
-    #. Paste the following code in the Advanced Problem component, replacing
-       placeholders with your own information.
+       <problem>
+           <annotationresponse>
+               <annotationinput>
+                 <text>PLACEHOLDER: Text of annotation</text>
+                   <comment>PLACEHOLDER: Text of question</comment>
+                   <comment_prompt>PLACEHOLDER: Type your response below:</comment_prompt>
+                   <tag_prompt>PLACEHOLDER: In your response to this question, which tag below do you choose?</tag_prompt>
+                 <options>
+                   <option choice="incorrect">PLACEHOLDER: Incorrect answer (to make this option a correct or partially correct answer, change choice="incorrect" to choice="correct" or choice="partially-correct")</option>
+                   <option choice="correct">PLACEHOLDER: Correct answer (to make this option an incorrect or partially correct answer, change choice="correct" to choice="incorrect" or choice="partially-correct")</option>
+                   <option choice="partially-correct">PLACEHOLDER: Partially correct answer (to make this option a correct or partially correct answer, change choice="partially-correct" to choice="correct" or choice="incorrect")
+                   </option>
+                 </options>
+               </annotationinput>
+           </annotationresponse>
+           <solution>
+             <p>PLACEHOLDER: Detailed explanation of solution</p>
+           </solution>
+         </problem>
 
-        .. code-block:: xml
-
-          <problem>
-              <annotationresponse>
-                  <annotationinput>
-                    <text>PLACEHOLDER: Text of annotation</text>
-                      <comment>PLACEHOLDER: Text of question</comment>
-                      <comment_prompt>PLACEHOLDER: Type your response below:</comment_prompt>
-                      <tag_prompt>PLACEHOLDER: In your response to this question, which tag below 
-                      do you choose?</tag_prompt>
-                    <options>
-                      <option choice="incorrect">PLACEHOLDER: Incorrect answer (to make this 
-                      option a correct or partially correct answer, change choice="incorrect" 
-                      to choice="correct" or choice="partially-correct")</option>
-                      <option choice="correct">PLACEHOLDER: Correct answer (to make this option 
-                      an incorrect or partially correct answer, change choice="correct" to 
-                      choice="incorrect" or choice="partially-correct")</option>
-                      <option choice="partially-correct">PLACEHOLDER: Partially correct answer 
-                      (to make this option a correct or partially correct answer, 
-                      change choice="partially-correct" to choice="correct" or choice="incorrect")
-                      </option>
-                    </options>
-                  </annotationinput>
-              </annotationresponse>
-              <solution>
-                <p>PLACEHOLDER: Detailed explanation of solution</p>
-              </solution>
-            </problem>
-
-#. Click **Save**.
-
-
+3. Select **Save**.

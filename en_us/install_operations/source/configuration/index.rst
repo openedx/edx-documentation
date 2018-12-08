@@ -4,14 +4,14 @@
 Configuring the Open edX Platform
 ######################################################
 
-Read the following chapters for information on Open edX Platform configuration
-options.
+The following sections provide information about Open edX Platform
+configuration options.
 
 .. toctree::
    :maxdepth: 2
 
    updating_platform
-   install_google_drive
+   customize_registration_page
    enable_prerequisites
    enable_entrance_exams
    enable_licensing
@@ -19,4 +19,9 @@ options.
    enable_certificates
    enable_badging
    enable_ccx
-
+   enable_socialsharing_icons
+   tpa/index
+   lti/index
+   youtube_api
+   ora2/index
+   install_xblock

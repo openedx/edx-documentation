@@ -3,9 +3,11 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+.. _document index:
 
+##################################
 Building and Running an edX Course
-========================================
+##################################
 
 .. toctree::
    :numbered:
@@ -13,13 +15,19 @@ Building and Running an edX Course
 
    front_matter/index
    getting_started/index
-   building_course/index
+   reaching_learners/index
+   accessibility/index
+   set_up_course/index
    developing_course/index
-   creating_content/index
+   course_components/index
+   video/index
    exercises_tools/index
-   content_experiments/index
-   cohorts/index
+   course_assets/index
+   course_features/index
+   grading/index
    releasing_course/index
-   running_course/index
+   manage_live_course/index
+   student_progress/index
+   rerun_course/index
    students/index
    glossary

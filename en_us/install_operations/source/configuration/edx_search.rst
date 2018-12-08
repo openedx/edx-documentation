@@ -1,23 +1,27 @@
-.. include:: ../links.rst
-
 .. _Enable edX Search:
 
-#################
-Enable edX Search
-#################
+#########################
+Enabling Open edX Search
+#########################
 
-.. contents:: Chapter Contents:
+This section describes how to enable search in your instance of Open edX.
 
-**************************
+.. contents::
+ :local:
+ :depth: 1
+
+*********
 Overview
-**************************
+*********
 
 `EdX Search`_ is a Django application that provides access to search services
 from within edX Platform applications. Searching is accomplished by creating an
 index of documents, and then searching within that index for matching
 information.
 
-.. _EdX Search: https://github.com/edx/edx-search/
+.. Note::
+  Before proceeding, review :ref:`Guidelines for Updating the Open edX
+  Platform`.
 
 **********************************
 Search Engines and edX Search
@@ -40,8 +44,8 @@ ElasticSearchEngine
 ====================
 
 ElasticSearchEngine is a ElasticSearch back-end implementation. It uses same
-ElasticSearch version that is already part of edX Platform. The current version
-is v0.90.13, and Django Elasticsearch is 0.4.5. 
+ElasticSearch version that is already part of Open edX Platform. The current
+version is v0.90.13, and Django Elasticsearch is 0.4.5.
 
 ************************
 EdX Search Requirements
@@ -54,20 +58,19 @@ EdX Search requires the following applications.
 * pytz
 * Django elasticsearch (0.4.5)
 
-
 *************************
 Install edX Search
 *************************
 
-EdX Search is included in edX Platform Github requirements and is installed
-automatically when you install edX Platform.
+EdX Search is included in Open edX Platform GitHub requirements and is
+installed automatically when you install the Open edX Platform.
 
-For existing installations, you must install edX Search manually.  
+For existing installations, you must install edX Search manually.
 
 To install edX Search, make sure you are logged to your server as the
-``edxapp`` user and are located in ``edx-platform`` directory. 
+``edxapp`` user and are located in ``edx-platform`` directory.
 
-If you are not, run the following before continuing: 
+If you are not, run the following before continuing:
 
 .. code-block:: bash
 
@@ -79,41 +82,40 @@ Then install edX Search using one of the three following options.
 Option 1 – Add Requirement
 ==========================
 
-Add the Github link to edx-search to the ``requirements/edx/github.txt`` file.
+Add the GitHub link to edx-search to the ``requirements/edx/github.txt`` file.
 
 .. code-block:: bash
-  
+
   -e git+https://github.com/edx/edx-search.git@ae459ead41962c656ce794619f58cdae46eb7896#egg=edx-search
 
-Then reinstall Github requirements.
+Then reinstall GitHub requirements.
 
 .. code-block:: bash
-  
+
   pip install -r requirements/edx/github.txt
 
 ==========================
 Option 2 – Install Locally
 ==========================
 
-Checkout the ``edx-search`` Github repository.
+Checkout the ``edx-search`` GitHub repository.
 
 Then in the ``edx-search`` directory, run the following command.
 
 .. code-block:: bash
-  
+
   pip install -e ./
 
 ==============================
-Option 3 – Install from Github
+Option 3 – Install from GitHub
 ==============================
 
-Run ``pip`` with a Github link.
+Run ``pip`` with a GitHub link.
 
 .. code-block:: bash
 
   pip install -e git+https://github.com/edx/edx-search.
     git@ae459ead41962c656ce794619f58cdae46eb7896
-
 
 *****************
 Enable Indexing
@@ -126,8 +128,9 @@ You enable library indexing by setting the ``ENABLE_LIBRARY_INDEX`` flag.
 Indexing is done from Studio as a Celery task. Every publish event triggers the
 reindex procedure.
 
-You can also reindex the course manually through the **Reindex** button in the 
+You can also reindex the course manually through the **Reindex** button in the
 **Course Overview** page.
+
 
 ==============================
 Which Data Gets Indexed
@@ -158,14 +161,14 @@ CMS
 
 * ``SEARCH_ENGINE``: Sets used search engine. There are 2 predefined values,
   but more can be added:
-  
+
   * ``"search.elastic.ElasticSearchEngine"``
   * ``"search.tests.mock_search_engine.MockSearchEngine"``
 
 * ``ELASTIC_FIELD_MAPPINGS``: Sets any additional field mappings that elastic
   search should be aware of. For example, the following code includes the
   course start date:
-    
+
   .. code-block:: bash
 
       ELASTIC_FIELD_MAPPINGS = {
@@ -187,29 +190,42 @@ LMS
 * ``ENABLE_COURSE_DISCOVERY``: Enables/disables Course Discovery feature (over
   courses searching and facet filtering)
 
+* ``COURSE_DISCOVERY_FILTERS``: If provided, overrides the list of facets
+  that are used in Course Discovery feature to filter the results.
+  By default, all facets will be displayed. List of available facets includes:
+
+  * Course organization: ``"org"``
+  * Course type: ``"modes"``
+  * Course language: ``"language"``
+
 * ``SEARCH_ENGINE``: Sets used search engine. There are 2 predefined values,
   but more can be added:
-  
+
   * ``"search.elastic.ElasticSearchEngine"``
   * ``"search.tests.mock_search_engine.MockSearchEngine"``
 
 * ``SEARCH_INITIALIZER``: Used to set custom
   SearchInitializer.SearchInitializer provides an extension to achieve
   masquerade and other presearch environmental settings.
-  
+
   * default: ``SearchInitializer``
-  * LMS implementation: ``lms.lib.courseware_search.lms_search_initializer.LmsSearchInitializer``
+  * LMS implementation:
+    ``lms.lib.courseware_search.lms_search_initializer.LmsSearchInitializer``
 
 * ``SEARCH_RESULT_PROCESSOR``: Used to set custom SearchResultProcessor.
   SearchResultProcessor does post processing and data manipulation on a result
   set returned by SearchEngine.
-  
+
   * default: ``SearchResultProcessor``
-  * LMS implementation: ``lms.lib.courseware_search.lms_result_processor.LmsSearchResultProcessor``
+  * LMS implementation:
+    ``lms.lib.courseware_search.lms_result_processor.LmsSearchResultProcessor``
 
 * ``SEARCH_FILTER_GENERATOR``: Used to set custom SearchFilterGenerator.
   SearchFilterGenerator sets filters defined by current active user. Basic
   implementation sets only course start date filter.
-  
+
   * default: ``SearchFilterGenerator``
-  * LMS implementation: ``"lms.lib.courseware_search.lms_filter_generator.LmsSearchFilterGenerator"``
+  * LMS implementation:
+    ``lms.lib.courseware_search.lms_filter_generator.LmsSearchFilterGenerator``
+
+.. include:: ../../../links/links.rst

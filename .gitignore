@@ -1,8 +1,6 @@
 # .gitignore for edx-documentation.
 # There's a lot here, please try to keep it organized.
 
-#
-
 ### NFS artifacts
 .nfs*
 
@@ -12,62 +10,14 @@
 :2e_*
 :2e#
 
-### Internationalization artifacts
-*.mo
-*.po
-*.prob
-!django.po
-!django.mo
-!djangojs.po
-!djangojs.mo
-conf/locale/en/LC_MESSAGES/*.po
-conf/locale/en/LC_MESSAGES/*.mo
-conf/locale/fake*/LC_MESSAGES/*.po
-conf/locale/fake*/LC_MESSAGES/*.mo
-conf/locale/messages.mo
-
-### Testing artifacts
-.testids/
-.noseids
-nosetests.xml
-.coverage
-.coverage.*
-coverage.xml
-cover/
-cover_html/
-reports/
-jscover.log
-jscover.log.*
-
-### Installation artifacts
-*.egg-info
-.pip_download_cache/
-.prereqs_cache
-.vagrant/
-node_modules
-.bundle/
-bin/
-
-### NFS artifacts
-.nfs*
-
 ### Python artifacts
 *.pyc
 
-
-
 ### Unknown artifacts
-database.sqlite
-courseware/static/js/mathjax/*
-flushdb.sh
 build
-/src/
 \#*\#
 .env/
-lms/lib/comment_client/python
 autodeploy.properties
 .ws_migrations_complete
-dist
 
-### Testing artifacts
-test_root/
+*.log
